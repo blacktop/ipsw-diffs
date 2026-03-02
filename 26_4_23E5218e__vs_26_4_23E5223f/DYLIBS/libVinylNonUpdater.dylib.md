@@ -1,0 +1,206 @@
+## libVinylNonUpdater.dylib
+
+> `/usr/lib/libVinylNonUpdater.dylib`
+
+```diff
+
+ 146.0.0.0.0
+-  __TEXT.__text: 0x5220c
+-  __TEXT.__auth_stubs: 0x1c90
++  __TEXT.__text: 0x51724
++  __TEXT.__auth_stubs: 0x1c50
+   __TEXT.__init_offsets: 0x44
+-  __TEXT.__const: 0x6d0c
+-  __TEXT.__gcc_except_tab: 0x4288
+-  __TEXT.__cstring: 0xa7de
++  __TEXT.__const: 0x6cec
++  __TEXT.__gcc_except_tab: 0x426c
++  __TEXT.__cstring: 0x9a8f
+   __TEXT.__oslogstring: 0x7c
+-  __TEXT.__unwind_info: 0x1d70
++  __TEXT.__unwind_info: 0x1d50
+   __DATA_CONST.__got: 0x188
+   __DATA_CONST.__const: 0x1e38
+-  __AUTH_CONST.__auth_got: 0xe50
++  __AUTH_CONST.__auth_got: 0xe30
+   __AUTH_CONST.__const: 0x1cb8
+   __AUTH_CONST.__cfstring: 0xb00
+   __DATA.__data: 0xbe0
+
+   - /usr/lib/libTelephonyCapabilities.dylib
+   - /usr/lib/libTelephonyUtilDynamic.dylib
+   - /usr/lib/libc++.1.dylib
+-  UUID: DEC95E9B-4447-3B48-99FA-4701E60B31BA
+-  Functions: 1623
+-  Symbols:   5358
+-  CStrings:  1429
++  UUID: DF964AE1-510D-3B29-9CE4-A81BA847F14B
++  Functions: 1618
++  Symbols:   5342
++  CStrings:  1308
+ 
+Symbols:
++ GCC_except_table63
++ GCC_except_table64
++ ___block_descriptor_tmp.110
++ ___block_descriptor_tmp.12
++ ___block_descriptor_tmp.16
++ ___block_descriptor_tmp.18
++ ___block_descriptor_tmp.20
++ ___block_descriptor_tmp.8
++ ___block_literal_global.112
++ ___cxx_global_var_init.125
++ ___cxx_global_var_init.21
++ ___cxx_global_var_init.23
++ ___cxx_global_var_init.61
+- GCC_except_table70
+- __ZN15BBUpdaterCommon17BBUPrintBackTraceEv
+- __ZN15BBUpdaterCommon23BBURegisterDebugSignalsEv
+- __ZN15BBUpdaterCommonL18handleDebugSignalsEiP9__siginfoPv
+- __ZNSt3__119__allocate_at_leastB9nqe210106INS_9allocatorIPvEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS6_m
+- __ZNSt3__16vectorIPvNS_9allocatorIS1_EEE11__vallocateB9nqe210106Em
+- __ZNSt3__16vectorIPvNS_9allocatorIS1_EEE20__throw_length_errorB9nqe210106Ev
+- __ZNSt3__16vectorIPvNS_9allocatorIS1_EEEC2B9nqe210106Em
+- ___block_descriptor_tmp.10
+- ___block_descriptor_tmp.109
+- ___block_descriptor_tmp.15
+- ___block_descriptor_tmp.17
+- ___block_descriptor_tmp.19
+- ___block_descriptor_tmp.7
+- ___block_literal_global.111
+- ___cxx_global_var_init.124
+- ___cxx_global_var_init.20
+- ___cxx_global_var_init.22
+- ___cxx_global_var_init.60
+- _backtrace
+- _backtrace_symbols_fd
+- _getchar
+- _sigaction
+CStrings:
++ "/AppleInternal/Library/BuildRoots/4~CJ8BugDF9GWebkeriNxgdimmRpOv5lwwPE-8egE/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/local/include/ARI/ari_sdk_msg.h"
++ "0x<< SNUM >>"
+- "        %s '%s' - Press [c] to continue ; [q] to quit: "
+- "/AppleInternal/Library/BuildRoots/4~CJRkugBwa2e9OZejxWS8nAvxmJB-GTeq-WuGW0A/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/local/include/ARI/ari_sdk_msg.h"
+- "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/VinylRestore/CommandDrivers/eUICCVinylICEValve.cpp"
+- "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/VinylRestore/Communication/Eureka/VinylETLEUICC.cpp"
+- "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/VinylRestore/NonUpdate/VinylClearMetadata.cpp"
+- "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/VinylRestore/NonUpdate/VinylTwoPhaseProv.cpp"
+- "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/VinylRestore/NonUpdate/VinylTwoPhaseProvSessionData.cpp"
+- "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/VinylRestore/NonUpdate/VinylTwoPhaseProvUtil.cpp"
+- "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/VinylRestore/Support/BBUPurpleReverseProxy.cpp"
+- "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/VinylRestore/Update/Perso/eUICCPerso.cpp"
+- "AuthPerso"
+- "AuthenticatePersoDevice"
+- "BBUCreateCFError"
+- "BBUFDRLogHandler"
+- "BBULogPrintBinaryDelegate"
+- "BBUReadNVRAM"
+- "BBUReadNVRAM_block_invoke"
+- "ClearMetadataForIccids"
+- "ComposeDeleteReq"
+- "ComposeDisableReq"
+- "ComposeGps"
+- "ComposeNsr"
+- "ComposeRnl"
+- "ConvertGpsToGbpp"
+- "ConvertPirToHir"
+- "CreateDictionaryFromPlistData"
+- "CreateValidatePersoPayload"
+- "CreateValidationBlob"
+- "DeleteProfile"
+- "DisableProfile"
+- "ExtractDataFromPbiRsp"
+- "ExtractNotificationListSeqNumbers"
+- "ExtractProfileInfo"
+- "ExtractResult"
+- "FinalizePerso"
+- "FinalizePersoDevice"
+- "ForcePerso"
+- "GetData"
+- "GetData_EoS"
+- "GetListOfIccids"
+- "GetNextBppSegment"
+- "GetNonceServer"
+- "GetParameters"
+- "GetParametersDummy"
+- "GetProfilesInfoList"
+- "GetProvisioningSessions"
+- "GetSIMSKUString"
+- "GetVinylType"
+- "GetWrapKeyServer"
+- "HandleNotifications"
+- "HandleRefurbishProfileReference"
+- "HardwareHasESIM_block_invoke"
+- "InitPerso"
+- "InitPersoDevice"
+- "InitPersoServer"
+- "InstallPairingMSM"
+- "IsNotificationForTwoPhase"
+- "IsNotificationSentRspSuccess"
+- "IsProvTxIdAvailable"
+- "LETOEnableEUICC"
+- "ListInstallationNotifications"
+- "LoadBPP"
+- "ManagePairingAuthenticate"
+- "ManagePairingGetNonce"
+- "NotificationSent"
+- "Perform"
+- "PostDataSync"
+- "PowerDownSE"
+- "PowerUpSE"
+- "PrepareBPPInstallation"
+- "Refurb"
+- "ResetCard"
+- "RetrieveNotificationListForSeqNum"
+- "ReverseProxyGetSettings"
+- "ReverseProxyGetSettings_block_invoke"
+- "SendReceiptServer"
+- "SerializeDictIntoPlistData"
+- "SerializeKeyValuePairsIntoPlistData"
+- "SetCardMode"
+- "StoreData"
+- "ValidatePerso"
+- "ValidatePersoDevice"
+- "VinylControllerObjDestroy"
+- "VinyleUICCPerformOperationWithLinkAndLogSync"
+- "VinyleUICCPerformOperationWithTransportAndLogSync"
+- "bbupdater_log"
+- "bootstrapProvisioning"
+- "caught signal %d\n"
+- "checkEOSDev"
+- "collectCoreDump"
+- "convertGbppToPbiBpp"
+- "create"
+- "createTransport"
+- "createTransportNoEvents"
+- "createTransport_block_invoke_2"
+- "extractDataFromPbiReq"
+- "extractDataFromPbiRsp"
+- "extractDataFromPir"
+- "freeTransport"
+- "freeTransportSync"
+- "freeTransportSync_block_invoke"
+- "freeTransportSync_block_invoke_2"
+- "getECID_block_invoke"
+- "getEID"
+- "getPairingIdentifier"
+- "getPairingParameters"
+- "get_info"
+- "inRestoreOS_block_invoke"
+- "inRestoreOS_block_invoke_2"
+- "isAbsentOkay"
+- "isNVRAMKeyPresent"
+- "logEUICCData"
+- "managePairingInstallMSM"
+- "openChannel"
+- "operator()"
+- "performNonUpdateOperation"
+- "processAlderResponse"
+- "startRouterServer"
+- "statusCallback"
+- "stopRouterServer"
+- "supportsVinylUpdate"
+- "verifyPairing"
+- "waitForeSIMBoot"
+
+```

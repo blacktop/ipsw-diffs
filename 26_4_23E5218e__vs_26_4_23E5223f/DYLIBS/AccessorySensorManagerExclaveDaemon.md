@@ -1,0 +1,134 @@
+## AccessorySensorManagerExclaveDaemon
+
+> `/System/Library/PrivateFrameworks/AccessorySensorManagerExclaveDaemon.framework/AccessorySensorManagerExclaveDaemon`
+
+```diff
+
+-11.27.0.0.0
+-  __TEXT.__text: 0x718
+-  __TEXT.__auth_stubs: 0x80
+-  __TEXT.__const: 0x448
+-  __TEXT.__constg_swiftt: 0x3b8
+-  __TEXT.__swift5_typeref: 0x18c
+-  __TEXT.__swift5_reflstr: 0x71
+-  __TEXT.__swift5_fieldmd: 0x1a0
+-  __TEXT.__swift5_types: 0x34
+-  __TEXT.__swift5_protos: 0x10
+-  __TEXT.__swift5_proto: 0x10
+-  __TEXT.__unwind_info: 0x90
+-  __TEXT.__objc_classname: 0x49c
+-  __TEXT.__objc_methname: 0x65
++11.28.0.0.0
++  __TEXT.__text: 0x5c
++  __TEXT.__auth_stubs: 0x30
++  __TEXT.__const: 0xd6
++  __TEXT.__constg_swiftt: 0x48
++  __TEXT.__swift5_typeref: 0x25
++  __TEXT.__swift5_reflstr: 0x45
++  __TEXT.__swift5_fieldmd: 0x40
++  __TEXT.__swift5_types: 0x4
++  __TEXT.__objc_classname: 0x40
++  __TEXT.__objc_methname: 0x55
+   __TEXT.__objc_methtype: 0x1
+   __DATA_CONST.__const: 0x50
+-  __DATA_CONST.__objc_classlist: 0x68
++  __DATA_CONST.__objc_classlist: 0x8
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __AUTH_CONST.__auth_got: 0x40
+-  __AUTH_CONST.__objc_const: 0x918
+-  __AUTH.__data: 0x858
+-  __DATA.__bss: 0x200
++  __AUTH_CONST.__auth_got: 0x18
++  __AUTH_CONST.__objc_const: 0x118
++  __AUTH.__data: 0xb8
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/PrivateFrameworks/ASMExclaveSupport.framework/ASMExclaveSupport
+   - /System/Library/PrivateFrameworks/AccessorySensorManagerDarwin_Private.framework/AccessorySensorManagerDarwin_Private
+   - /System/Library/PrivateFrameworks/AccessorySensorManagerDefines_Private.framework/AccessorySensorManagerDefines_Private
+-  - /System/Library/PrivateFrameworks/Tightbeam.framework/Tightbeam
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/swift/libswiftCore.dylib
+
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswiftos.dylib
+-  UUID: F61B93EF-A514-3665-8278-A36E2D350C80
+-  Functions: 21
+-  Symbols:   90
+-  CStrings:  18
++  UUID: 352CBCE2-DE43-35C3-8C8B-E83407CC79CC
++  Functions: 2
++  Symbols:   37
++  CStrings:  5
+ 
+Symbols:
+- __DATA__TtC35AccessorySensorManagerExclaveDaemon34AccessorySensorManagerDebugService
+- __DATA__TtC35AccessorySensorManagerExclaveDaemon34AccessorySensorManagerImageService
+- __DATA__TtC35AccessorySensorManagerExclaveDaemon38AccessorySensorManagerIndicatorService
+- __DATA__TtC35AccessorySensorManagerExclaveDaemon40AccessorySensorManagerCalibrationService
+- __DATA__TtCC35AccessorySensorManagerExclaveDaemon34AccessorySensorManagerDebugService6Server
+- __DATA__TtCC35AccessorySensorManagerExclaveDaemon34AccessorySensorManagerDebugService7Service
+- __DATA__TtCC35AccessorySensorManagerExclaveDaemon34AccessorySensorManagerImageService6Server
+- __DATA__TtCC35AccessorySensorManagerExclaveDaemon34AccessorySensorManagerImageService7Service
+- __DATA__TtCC35AccessorySensorManagerExclaveDaemon38AccessorySensorManagerIndicatorService6Server
+- __DATA__TtCC35AccessorySensorManagerExclaveDaemon38AccessorySensorManagerIndicatorService7Service
+- __DATA__TtCC35AccessorySensorManagerExclaveDaemon40AccessorySensorManagerCalibrationService6Server
+- __DATA__TtCC35AccessorySensorManagerExclaveDaemon40AccessorySensorManagerCalibrationService7Service
+- __IVARS__TtCC35AccessorySensorManagerExclaveDaemon34AccessorySensorManagerDebugService6Server
+- __IVARS__TtCC35AccessorySensorManagerExclaveDaemon34AccessorySensorManagerDebugService7Service
+- __IVARS__TtCC35AccessorySensorManagerExclaveDaemon34AccessorySensorManagerImageService6Server
+- __IVARS__TtCC35AccessorySensorManagerExclaveDaemon34AccessorySensorManagerImageService7Service
+- __IVARS__TtCC35AccessorySensorManagerExclaveDaemon38AccessorySensorManagerIndicatorService6Server
+- __IVARS__TtCC35AccessorySensorManagerExclaveDaemon38AccessorySensorManagerIndicatorService7Service
+- __IVARS__TtCC35AccessorySensorManagerExclaveDaemon40AccessorySensorManagerCalibrationService6Server
+- __IVARS__TtCC35AccessorySensorManagerExclaveDaemon40AccessorySensorManagerCalibrationService7Service
+- __METACLASS_DATA__TtC35AccessorySensorManagerExclaveDaemon34AccessorySensorManagerDebugService
+- __METACLASS_DATA__TtC35AccessorySensorManagerExclaveDaemon34AccessorySensorManagerImageService
+- __METACLASS_DATA__TtC35AccessorySensorManagerExclaveDaemon38AccessorySensorManagerIndicatorService
+- __METACLASS_DATA__TtC35AccessorySensorManagerExclaveDaemon40AccessorySensorManagerCalibrationService
+- __METACLASS_DATA__TtCC35AccessorySensorManagerExclaveDaemon34AccessorySensorManagerDebugService6Server
+- __METACLASS_DATA__TtCC35AccessorySensorManagerExclaveDaemon34AccessorySensorManagerDebugService7Service
+- __METACLASS_DATA__TtCC35AccessorySensorManagerExclaveDaemon34AccessorySensorManagerImageService6Server
+- __METACLASS_DATA__TtCC35AccessorySensorManagerExclaveDaemon34AccessorySensorManagerImageService7Service
+- __METACLASS_DATA__TtCC35AccessorySensorManagerExclaveDaemon38AccessorySensorManagerIndicatorService6Server
+- __METACLASS_DATA__TtCC35AccessorySensorManagerExclaveDaemon38AccessorySensorManagerIndicatorService7Service
+- __METACLASS_DATA__TtCC35AccessorySensorManagerExclaveDaemon40AccessorySensorManagerCalibrationService6Server
+- __METACLASS_DATA__TtCC35AccessorySensorManagerExclaveDaemon40AccessorySensorManagerCalibrationService7Service
+- ___chkstk_darwin
+- _swift_allocObject
+- _swift_release
+- _symbolic $s35AccessorySensorManagerExclaveDaemon0abC19DebugServiceHandlerP
+- _symbolic $s35AccessorySensorManagerExclaveDaemon0abC19ImageServiceHandlerP
+- _symbolic $s35AccessorySensorManagerExclaveDaemon0abC23IndicatorServiceHandlerP
+- _symbolic $s35AccessorySensorManagerExclaveDaemon0abC25CalibrationServiceHandlerP
+- _symbolic _____ 35AccessorySensorManagerExclaveDaemon0abC12DebugServiceC
+- _symbolic _____ 35AccessorySensorManagerExclaveDaemon0abC12DebugServiceC0G0C
+- _symbolic _____ 35AccessorySensorManagerExclaveDaemon0abC12DebugServiceC6ServerC
+- _symbolic _____ 35AccessorySensorManagerExclaveDaemon0abC12ImageServiceC
+- _symbolic _____ 35AccessorySensorManagerExclaveDaemon0abC12ImageServiceC0G0C
+- _symbolic _____ 35AccessorySensorManagerExclaveDaemon0abC12ImageServiceC6ServerC
+- _symbolic _____ 35AccessorySensorManagerExclaveDaemon0abC16IndicatorServiceC
+- _symbolic _____ 35AccessorySensorManagerExclaveDaemon0abC16IndicatorServiceC0G0C
+- _symbolic _____ 35AccessorySensorManagerExclaveDaemon0abC16IndicatorServiceC6ServerC
+- _symbolic _____ 35AccessorySensorManagerExclaveDaemon0abC18CalibrationServiceC
+- _symbolic _____ 35AccessorySensorManagerExclaveDaemon0abC18CalibrationServiceC0G0C
+- _symbolic _____ 35AccessorySensorManagerExclaveDaemon0abC18CalibrationServiceC6ServerC
+- _symbolic _____ 9Tightbeam16ClientConnectionC
+- _symbolic _____ 9Tightbeam17ServiceConnectionC
+CStrings:
+- "_TtC35AccessorySensorManagerExclaveDaemon34AccessorySensorManagerDebugService"
+- "_TtC35AccessorySensorManagerExclaveDaemon34AccessorySensorManagerImageService"
+- "_TtC35AccessorySensorManagerExclaveDaemon38AccessorySensorManagerIndicatorService"
+- "_TtC35AccessorySensorManagerExclaveDaemon40AccessorySensorManagerCalibrationService"
+- "_TtCC35AccessorySensorManagerExclaveDaemon34AccessorySensorManagerDebugService6Server"
+- "_TtCC35AccessorySensorManagerExclaveDaemon34AccessorySensorManagerDebugService7Service"
+- "_TtCC35AccessorySensorManagerExclaveDaemon34AccessorySensorManagerImageService6Server"
+- "_TtCC35AccessorySensorManagerExclaveDaemon34AccessorySensorManagerImageService7Service"
+- "_TtCC35AccessorySensorManagerExclaveDaemon38AccessorySensorManagerIndicatorService6Server"
+- "_TtCC35AccessorySensorManagerExclaveDaemon38AccessorySensorManagerIndicatorService7Service"
+- "_TtCC35AccessorySensorManagerExclaveDaemon40AccessorySensorManagerCalibrationService6Server"
+- "_TtCC35AccessorySensorManagerExclaveDaemon40AccessorySensorManagerCalibrationService7Service"
+- "connection"
+
+```

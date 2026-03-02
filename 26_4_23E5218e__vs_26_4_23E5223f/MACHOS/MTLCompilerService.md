@@ -1,0 +1,122 @@
+## MTLCompilerService
+
+> `/System/Library/Frameworks/Metal.framework/XPCServices/MTLCompilerService.xpc/MTLCompilerService`
+
+```diff
+
+-372.12.0.0.0
+-  __TEXT.__text: 0x4458
+-  __TEXT.__auth_stubs: 0x690
+-  __TEXT.__gcc_except_tab: 0x2cc
++372.14.0.0.0
++  __TEXT.__text: 0x41bc
++  __TEXT.__auth_stubs: 0x680
++  __TEXT.__gcc_except_tab: 0x2c8
+   __TEXT.__const: 0x98
+-  __TEXT.__cstring: 0xa2b
++  __TEXT.__cstring: 0x556
+   __TEXT.__oslogstring: 0x3d6
+   __TEXT.__objc_classname: 0x1
+-  __TEXT.__unwind_info: 0x298
+-  __DATA_CONST.__auth_got: 0x350
++  __TEXT.__unwind_info: 0x290
++  __DATA_CONST.__auth_got: 0x348
+   __DATA_CONST.__got: 0xb8
+   __DATA_CONST.__const: 0x1a8
+   __DATA_CONST.__cfstring: 0x20
+
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+-  UUID: C76509B4-DC78-318C-B806-3E1369BC33AA
+-  Functions: 118
+-  Symbols:   829
+-  CStrings:  80
++  UUID: DFFCF93F-3F06-3282-9E89-9479DBF58B69
++  Functions: 117
++  Symbols:   823
++  CStrings:  76
+ 
+Symbols:
++ /Library/Caches/com.apple.xbs/E0C9614C-2A17-410D-90F0-9BA0CA932521/TemporaryDirectory.Qt8e9U/Binaries/Metal/install/TempContent/Objects/Metal.build/MTLCompilerService.build/Objects-normal/arm64e/MTLCompilerService.o
++ /Library/Caches/com.apple.xbs/E0C9614C-2A17-410D-90F0-9BA0CA932521/TemporaryDirectory.Qt8e9U/Binaries/Metal/install/TempContent/Objects/Metal.build/MTLCompilerService.build/Objects-normal/arm64e/MTLCompilerServiceMain.o
++ /Library/Caches/com.apple.xbs/E0C9614C-2A17-410D-90F0-9BA0CA932521/TemporaryDirectory.Qt8e9U/Binaries/Metal/install/TempContent/Objects/Metal.build/MTLCompilerService.build/Objects-normal/arm64e/MTLCompilerServiceTimer.o
++ /Library/Caches/com.apple.xbs/E0C9614C-2A17-410D-90F0-9BA0CA932521/TemporaryDirectory.Qt8e9U/Binaries/Metal/install/TempContent/Objects/Metal.build/MTLCompilerService.build/Objects-normal/arm64e/MTLConnectionCtx.o
++ /Library/Caches/com.apple.xbs/E0C9614C-2A17-410D-90F0-9BA0CA932521/TemporaryDirectory.Qt8e9U/Binaries/Metal/install/TempContent/Objects/Metal.build/MTLCompilerService.build/Objects-normal/arm64e/MTLSandboxExtensionContainer.o
++ /Library/Caches/com.apple.xbs/E0C9614C-2A17-410D-90F0-9BA0CA932521/TemporaryDirectory.Qt8e9U/Sources/Metal/CompilerService/XPCService/
++ GCC_except_table15
++ GCC_except_table19
++ __ZNSt12length_errorC1B9nqe210106EPKc
++ __ZNSt12out_of_rangeC1B9nqe210106EPKc
++ __ZNSt3__110unique_ptrI16MTLConnectionCtxNS_14default_deleteIS1_EEE5resetB9nqe210106EPS1_
++ __ZNSt3__110unique_ptrI23MTLCompilerServiceTimerNS_14default_deleteIS1_EEE5resetB9nqe210106EPS1_
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_length_errorB9nqe210106Ev
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_out_of_rangeB9nqe210106Ev
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC1B9nqe210106ILi0EEEPKc
++ __ZNSt3__114__split_bufferINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEERNS4_IS6_EEE17__destruct_at_endB9nqe210106EPS6_
++ __ZNSt3__116allocator_traitsINS_9allocatorINS_12basic_stringIcNS_11char_traitsIcEENS1_IcEEEEEEE9constructB9nqe210106IS6_JRPKcELi0EEEvRS7_PT_DpOT0_
++ __ZNSt3__117__call_once_proxyB9nqe210106INS_5tupleIJOZN18MTLCompilerService15createHangTimerERKPU24objcproto13OS_xpc_object8NSObjectRKPU28objcproto17OS_dispatch_queueS3_E3$_0EEEEEvPv
++ __ZNSt3__117__call_once_proxyB9nqe210106INS_5tupleIJOZN18MTLCompilerService15createIdleTimerERKPU28objcproto17OS_dispatch_queue8NSObjectE3$_0EEEEEvPv
++ __ZNSt3__119__allocate_at_leastB9nqe210106INS_9allocatorINS_12basic_stringIcNS_11char_traitsIcEENS1_IcEEEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSA_m
++ __ZNSt3__119__allocate_at_leastB9nqe210106INS_9allocatorIxEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS5_m
++ __ZNSt3__119__allocate_at_leastB9nqe210106INS_9allocatorIyEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS5_m
++ __ZNSt3__119__shared_weak_count16__release_sharedB9nqe210106Ev
++ __ZNSt3__120__throw_length_errorB9nqe210106EPKc
++ __ZNSt3__120__throw_out_of_rangeB9nqe210106EPKc
++ __ZNSt3__122__hash_node_destructorINS_9allocatorINS_11__hash_nodeINS_17__hash_value_typeIxNS_5arrayINS_10unique_ptrI16MTLConnectionCtxNS_14default_deleteIS6_EEEELm64EEEEEPvEEEEEclB9nqe210106EPSD_
++ __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE16__destroy_vectorclB9nqe210106Ev
++ __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE20__throw_length_errorB9nqe210106Ev
++ __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE5clearB9nqe210106Ev
++ __ZNSt3__16vectorIxNS_9allocatorIxEEE20__throw_length_errorB9nqe210106Ev
++ __ZNSt3__16vectorIyNS_9allocatorIyEEE20__throw_length_errorB9nqe210106Ev
++ __ZSt28__throw_bad_array_new_lengthB9nqe210106v
+- /Library/Caches/com.apple.xbs/4BB1D559-00B9-4030-A050-51D5AB69F7CB/TemporaryDirectory.Si5wLf/Binaries/Metal/install/TempContent/Objects/Metal.build/MTLCompilerService.build/Objects-normal/arm64e/MTLCompilerService.o
+- /Library/Caches/com.apple.xbs/4BB1D559-00B9-4030-A050-51D5AB69F7CB/TemporaryDirectory.Si5wLf/Binaries/Metal/install/TempContent/Objects/Metal.build/MTLCompilerService.build/Objects-normal/arm64e/MTLCompilerServiceMain.o
+- /Library/Caches/com.apple.xbs/4BB1D559-00B9-4030-A050-51D5AB69F7CB/TemporaryDirectory.Si5wLf/Binaries/Metal/install/TempContent/Objects/Metal.build/MTLCompilerService.build/Objects-normal/arm64e/MTLCompilerServiceTimer.o
+- /Library/Caches/com.apple.xbs/4BB1D559-00B9-4030-A050-51D5AB69F7CB/TemporaryDirectory.Si5wLf/Binaries/Metal/install/TempContent/Objects/Metal.build/MTLCompilerService.build/Objects-normal/arm64e/MTLConnectionCtx.o
+- /Library/Caches/com.apple.xbs/4BB1D559-00B9-4030-A050-51D5AB69F7CB/TemporaryDirectory.Si5wLf/Binaries/Metal/install/TempContent/Objects/Metal.build/MTLCompilerService.build/Objects-normal/arm64e/MTLSandboxExtensionContainer.o
+- /Library/Caches/com.apple.xbs/4BB1D559-00B9-4030-A050-51D5AB69F7CB/TemporaryDirectory.Si5wLf/Sources/Metal/CompilerService/XPCService/
+- GCC_except_table13
+- GCC_except_table16
+- GCC_except_table20
+- __ZNSt12length_errorC1B9foe210106EPKc
+- __ZNSt12out_of_rangeC1B9foe210106EPKc
+- __ZNSt3__110unique_ptrI16MTLConnectionCtxNS_14default_deleteIS1_EEE5resetB9foe210106EPS1_
+- __ZNSt3__110unique_ptrI23MTLCompilerServiceTimerNS_14default_deleteIS1_EEE5resetB9foe210106EPS1_
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_length_errorB9foe210106Ev
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_out_of_rangeB9foe210106Ev
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC1B9foe210106ILi0EEEPKc
+- __ZNSt3__114__split_bufferINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEERNS4_IS6_EEE17__destruct_at_endB9foe210106EPS6_
+- __ZNSt3__116allocator_traitsINS_9allocatorINS_12basic_stringIcNS_11char_traitsIcEENS1_IcEEEEEEE9constructB9foe210106IS6_JRPKcELi0EEEvRS7_PT_DpOT0_
+- __ZNSt3__117__call_once_proxyB9foe210106INS_5tupleIJOZN18MTLCompilerService15createHangTimerERKPU24objcproto13OS_xpc_object8NSObjectRKPU28objcproto17OS_dispatch_queueS3_E3$_0EEEEEvPv
+- __ZNSt3__117__call_once_proxyB9foe210106INS_5tupleIJOZN18MTLCompilerService15createIdleTimerERKPU28objcproto17OS_dispatch_queue8NSObjectE3$_0EEEEEvPv
+- __ZNSt3__119__allocate_at_leastB9foe210106INS_9allocatorINS_12basic_stringIcNS_11char_traitsIcEENS1_IcEEEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSA_m
+- __ZNSt3__119__allocate_at_leastB9foe210106INS_9allocatorIxEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS5_m
+- __ZNSt3__119__allocate_at_leastB9foe210106INS_9allocatorIyEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS5_m
+- __ZNSt3__119__shared_weak_count16__release_sharedB9foe210106Ev
+- __ZNSt3__120__throw_length_errorB9foe210106EPKc
+- __ZNSt3__120__throw_out_of_rangeB9foe210106EPKc
+- __ZNSt3__122__hash_node_destructorINS_9allocatorINS_11__hash_nodeINS_17__hash_value_typeIxNS_5arrayINS_10unique_ptrI16MTLConnectionCtxNS_14default_deleteIS6_EEEELm64EEEEEPvEEEEEclB9foe210106EPSD_
+- __ZNSt3__132__internal_log_hardening_failureEPKc
+- __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE16__destroy_vectorclB9foe210106Ev
+- __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE20__throw_length_errorB9foe210106Ev
+- __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE5clearB9foe210106Ev
+- __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE8pop_backB9foe210106Ev
+- __ZNSt3__16vectorIxNS_9allocatorIxEEE20__throw_length_errorB9foe210106Ev
+- __ZNSt3__16vectorIyNS_9allocatorIyEEE20__throw_length_errorB9foe210106Ev
+- __ZSt28__throw_bad_array_new_lengthB9foe210106v
+Functions:
+~ __ZN18MTLCompilerService14messageHandlerEPU24objcproto13OS_xpc_object8NSObject : 1176 -> 1204
+~ __ZN18MTLCompilerService24getConnectionCtxInstanceEyy : 292 -> 216
+~ __ZN18MTLCompilerService20assignContextToArrayERKNSt3__110shared_ptrI21MTLCompilationContextEE : 148 -> 48
+~ __ZN18MTLCompilerService22removeContextFromArrayERKNSt3__110shared_ptrI21MTLCompilationContextEE : 176 -> 116
+~ __ZN28MTLSandboxExtensionContainer13extendSandboxEPKc : 676 -> 644
+~ ____ZN28MTLSandboxExtensionContainer12resetSandboxEPU24objcproto13OS_xpc_object8NSObject_block_invoke : 816 -> 476
+- __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE8pop_backB9foe210106Ev
+CStrings:
+- "/AppleInternal/Library/BuildRoots/4~CJIiugC6-of4-fSfXu_Ptjy6sDpGE361J7VsWkk/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__vector/vector.h:406: libc++ Hardening assertion __n < size() failed: vector[] index out of bounds\n"
+- "/AppleInternal/Library/BuildRoots/4~CJIiugC6-of4-fSfXu_Ptjy6sDpGE361J7VsWkk/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__vector/vector.h:433: libc++ Hardening assertion !empty() failed: back() called on an empty vector\n"
+- "/AppleInternal/Library/BuildRoots/4~CJIiugC6-of4-fSfXu_Ptjy6sDpGE361J7VsWkk/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__vector/vector.h:486: libc++ Hardening assertion !empty() failed: vector::pop_back called on an empty vector\n"
+- "/AppleInternal/Library/BuildRoots/4~CJIiugC6-of4-fSfXu_Ptjy6sDpGE361J7VsWkk/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/array:271: libc++ Hardening assertion __n < _Size failed: out-of-bounds access in std::array<T, N>\n"
+
+```

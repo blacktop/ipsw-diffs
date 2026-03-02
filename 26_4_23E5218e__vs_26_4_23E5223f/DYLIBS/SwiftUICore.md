@@ -1,0 +1,236 @@
+## SwiftUICore
+
+> `/System/Library/Frameworks/SwiftUICore.framework/SwiftUICore`
+
+```diff
+
+-7.4.24.0.0
+-  __TEXT.__text: 0xd14214
++7.4.26.0.0
++  __TEXT.__text: 0xd14cb4
+   __TEXT.__auth_stubs: 0x89f0
+   __TEXT.__objc_methlist: 0x19cc
+   __TEXT.__cstring: 0xc2f2
+-  __TEXT.__const: 0xa3686
++  __TEXT.__const: 0xa3696
+   __TEXT.__gcc_except_tab: 0x114
+   __TEXT.__dlopen_cstrs: 0x107
+-  __TEXT.__constg_swiftt: 0x40ccc
+-  __TEXT.__swift5_typeref: 0x1e921
+-  __TEXT.__swift5_reflstr: 0x171f0
+-  __TEXT.__swift5_assocty: 0x10e68
+-  __TEXT.__swift5_fieldmd: 0x2bf24
+-  __TEXT.__swift5_builtin: 0x1004
++  __TEXT.__constg_swiftt: 0x40d60
++  __TEXT.__swift5_typeref: 0x1e947
++  __TEXT.__swift5_reflstr: 0x17260
++  __TEXT.__swift5_assocty: 0x10e80
++  __TEXT.__swift5_fieldmd: 0x2bfa8
++  __TEXT.__swift5_builtin: 0x1018
+   __TEXT.__swift5_protos: 0x610
+-  __TEXT.__swift5_proto: 0x8b30
+-  __TEXT.__swift5_types: 0x3f30
++  __TEXT.__swift5_proto: 0x8b34
++  __TEXT.__swift5_types: 0x3f3c
+   __TEXT.__swift5_capture: 0x8174
+-  __TEXT.__swift5_mpenum: 0xa78
++  __TEXT.__swift5_mpenum: 0xa80
+   __TEXT.__oslogstring: 0xbc5
+   __TEXT.__swift5_types2: 0xc
+   __TEXT.__swift_as_entry: 0x54
+   __TEXT.__swift_as_ret: 0x58
+-  __TEXT.__unwind_info: 0x2e580
+-  __TEXT.__eh_frame: 0x1e994
++  __TEXT.__unwind_info: 0x2e5b8
++  __TEXT.__eh_frame: 0x1e9bc
+   __TEXT.__objc_classname: 0x3517
+-  __TEXT.__objc_methname: 0x8909
++  __TEXT.__objc_methname: 0x88e9
+   __TEXT.__objc_methtype: 0x1053
+   __TEXT.__objc_stubs: 0x65a0
+   __DATA_CONST.__got: 0x2540
+-  __DATA_CONST.__const: 0x4600
++  __DATA_CONST.__const: 0x4610
+   __DATA_CONST.__objc_classlist: 0x770
+   __DATA_CONST.__objc_catlist: 0x28
+   __DATA_CONST.__objc_protolist: 0x108
+
+   __DATA_CONST.__objc_superrefs: 0x48
+   __DATA_CONST.__objc_arraydata: 0x40
+   __AUTH_CONST.__auth_got: 0x4510
+-  __AUTH_CONST.__const: 0x7f7c0
++  __AUTH_CONST.__const: 0x7f8e0
+   __AUTH_CONST.__cfstring: 0xd40
+-  __AUTH_CONST.__objc_const: 0xf9b0
++  __AUTH_CONST.__objc_const: 0xf990
+   __AUTH_CONST.__objc_arrayobj: 0x30
+   __AUTH_CONST.__objc_intobj: 0x90
+   __AUTH_CONST.__objc_doubleobj: 0x30
+   __AUTH.__objc_data: 0x1500
+-  __AUTH.__data: 0x14058
++  __AUTH.__data: 0x14078
+   __AUTH.__thread_vars: 0xa8
+   __AUTH.__thread_bss: 0x38
+   __DATA.__objc_ivar: 0x64
+-  __DATA.__data: 0x1f168
++  __DATA.__data: 0x1f210
+   __DATA.__bss: 0x979e0
+   __DATA.__common: 0xe0
+   __DATA_DIRTY.__objc_data: 0x1218
+-  __DATA_DIRTY.__data: 0x20d60
++  __DATA_DIRTY.__data: 0x20d50
+   __DATA_DIRTY.__bss: 0x2afd0
+   __DATA_DIRTY.__common: 0xf8
+   - /System/Library/Frameworks/Accessibility.framework/Accessibility
+
+   - /usr/lib/swift/libswift_StringProcessing.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: BAE632D9-515D-3F41-A7E6-ACD415993BB2
+-  Functions: 81141
+-  Symbols:   269873
+-  CStrings:  3413
++  UUID: 9F2BD693-4AF4-3FC7-81C0-AB187FF5725E
++  Functions: 81163
++  Symbols:   269973
++  CStrings:  3412
+ 
+Symbols:
++ _$s14AttributeGraph0A0V8setValueySbxFSbSPyxGXEfU_TA.16
++ _$s14AttributeGraph0A0VyACyxGqd__c5ValueQyd__RszAA12StatefulRuleRd__lufcADSPyqd__GXEfU_TA.15
++ _$s14AttributeGraph0A0VyACyxGqd__c5ValueQyd__RszAA12StatefulRuleRd__lufcADSPyqd__GXEfU_TA.44
++ _$s14AttributeGraph0A0VyACyxGqd__c5ValueQyd__RszAA4RuleRd__lufcADSPyqd__GXEfU_TA.48
++ _$s14AttributeGraph13PointerOffsetV2ofyACyxq_Gq_zFZAESPyq_GXEfU_TA.39
++ _$s7SwiftUI10MutableBoxCyAA25DebugReplaceableViewCountOGML
++ _$s7SwiftUI12ForEachStateC20ViewsPerElementCountO08resolvedI033_1A3DD35AB7F6976908CD7AF959F34D1FLLSiSgyF
++ _$s7SwiftUI12ForEachStateC20ViewsPerElementCountOMB
++ _$s7SwiftUI12ForEachStateC20ViewsPerElementCountOMF
++ _$s7SwiftUI12ForEachStateC20ViewsPerElementCountOMI
++ _$s7SwiftUI12ForEachStateC20ViewsPerElementCountOMP
++ _$s7SwiftUI12ForEachStateC20ViewsPerElementCountOMa
++ _$s7SwiftUI12ForEachStateC20ViewsPerElementCountOMi
++ _$s7SwiftUI12ForEachStateC20ViewsPerElementCountOMn
++ _$s7SwiftUI12ForEachStateC20ViewsPerElementCountOWV
++ _$s7SwiftUI12ForEachStateC20ViewsPerElementCountOwCP
++ _$s7SwiftUI12ForEachStateC20ViewsPerElementCountOwca
++ _$s7SwiftUI12ForEachStateC20ViewsPerElementCountOwcp
++ _$s7SwiftUI12ForEachStateC20ViewsPerElementCountOwet
++ _$s7SwiftUI12ForEachStateC20ViewsPerElementCountOwst
++ _$s7SwiftUI12ForEachStateC20ViewsPerElementCountOwta
++ _$s7SwiftUI12ForEachStateC20ViewsPerElementCountOwug
++ _$s7SwiftUI12ForEachStateC20ViewsPerElementCountOwui
++ _$s7SwiftUI12ForEachStateC20ViewsPerElementCountOwup
++ _$s7SwiftUI12ForEachStateC20ViewsPerElementCountOwxx
++ _$s7SwiftUI12ForEachStateC20ViewsPerElementCountOyxq_q0__GSkRzSHR_AA4ViewR0_r1_lWOe
++ _$s7SwiftUI12ForEachStateC20ViewsPerElementCountOyxq_q0__GSkRzSHR_AA4ViewR0_r1_lWOy
++ _$s7SwiftUI12PropertyListV7TrackerC15invalidateValue3for4from2toyxm_A2CtAA0C3KeyRzlFAA011EnvironmentcK0VyAA038AccessibilityReduceHighlightingEffectsK033_1E80A5D8CD82563C298D64AC1337E839LLVG_Ttg5
++ _$s7SwiftUI12PropertyListV7TrackerC5value_3for5ValueQzAC_xmtAA0C3KeyRzlFAA011EnvironmentcI0VyAA038AccessibilityReduceHighlightingEffectsI033_1E80A5D8CD82563C298D64AC1337E839LLVG_Tt1g5
++ _$s7SwiftUI12PropertyListVy5ValueQzxmcAA0C3KeyRzluigAEyXEfU_AA011EnvironmentcF0VyAA038AccessibilityReduceHighlightingEffectsF033_1E80A5D8CD82563C298D64AC1337E839LLVG_Tt2g5
++ _$s7SwiftUI12PropertyListVy5ValueQzxmcAA0C3KeyRzluisyyXEfU_AA011EnvironmentcF0VyAA038AccessibilityReduceHighlightingEffectsF033_1E80A5D8CD82563C298D64AC1337E839LLVG_Tt2g5
++ _$s7SwiftUI12TrackedValue33_D64CE6C88E7413721C59A34C0C940F2CLLVyAA22EnvironmentPropertyKeyVyAA038AccessibilityReduceHighlightingEffectsP0020_1E80A5D8CD82563C298E10AC1337E839LLVGGML
++ _$s7SwiftUI12TrackedValue33_D64CE6C88E7413721C59A34C0C940F2CLLVyAA22EnvironmentPropertyKeyVyAA038AccessibilityReduceHighlightingEffectsP0020_1E80A5D8CD82563C298E10AC1337E839LLVGGMa
++ _$s7SwiftUI12TypedElement33_D64CE6C88E7413721C59A34C0C940F2CLLCyAA22EnvironmentPropertyKeyVyAA038AccessibilityReduceHighlightingEffectsP0020_1E80A5D8CD82563C298E10AC1337E839LLVGGML
++ _$s7SwiftUI12TypedElement33_D64CE6C88E7413721C59A34C0C940F2CLLCyAA22EnvironmentPropertyKeyVyAA038AccessibilityReduceHighlightingEffectsP0020_1E80A5D8CD82563C298E10AC1337E839LLVGGMa
++ _$s7SwiftUI13ViewResponderC8FeaturesV17gestureContainersAEvgZ
++ _$s7SwiftUI13ViewResponderC8FeaturesV17gestureContainersAEvpZMV
++ _$s7SwiftUI15_ViewListInputsV016debugReplaceableC5CountAA10MutableBoxCyAA05DebuggcH0OGSgvM
++ _$s7SwiftUI15_ViewListInputsV016debugReplaceableC5CountAA10MutableBoxCyAA05DebuggcH0OGSgvM.resume.0
++ _$s7SwiftUI15_ViewListInputsV016debugReplaceableC5CountAA10MutableBoxCyAA05DebuggcH0OGSgvg
++ _$s7SwiftUI15_ViewListInputsV016debugReplaceableC5CountAA10MutableBoxCyAA05DebuggcH0OGSgvpMV
++ _$s7SwiftUI15_ViewListInputsV016debugReplaceableC5CountAA10MutableBoxCyAA05DebuggcH0OGSgvpfi
++ _$s7SwiftUI15_ViewListInputsV016debugReplaceableC5CountAA10MutableBoxCyAA05DebuggcH0OGSgvs
++ _$s7SwiftUI17EnvironmentValuesVAAE38accessibilityReduceHighlightingEffectsSbvM
++ _$s7SwiftUI17EnvironmentValuesVAAE38accessibilityReduceHighlightingEffectsSbvM.resume.0
++ _$s7SwiftUI17EnvironmentValuesVAAE38accessibilityReduceHighlightingEffectsSbvg
++ _$s7SwiftUI17EnvironmentValuesVAAE38accessibilityReduceHighlightingEffectsSbvpMV
++ _$s7SwiftUI17EnvironmentValuesVAAE38accessibilityReduceHighlightingEffectsSbvs
++ _$s7SwiftUI17ObservationCenterC05_withC02dox5value_0C00C8TrackingV11_AccessListVSg06accessJ0txyKXE_tKlFxSpyALGKXEfU_TA.52
++ _$s7SwiftUI22EnvironmentPropertyKeyVyAA038AccessibilityReduceHighlightingEffectsE033_1E80A5D8CD82563C298D64AC1337E839LLVGACyxGAA0dE0AAWL
++ _$s7SwiftUI22EnvironmentPropertyKeyVyAA038AccessibilityReduceHighlightingEffectsE033_1E80A5D8CD82563C298D64AC1337E839LLVGACyxGAA0dE0AAWl
++ _$s7SwiftUI22EnvironmentPropertyKeyVyAA038AccessibilityReduceHighlightingEffectsE033_1E80A5D8CD82563C298D64AC1337E839LLVGML
++ _$s7SwiftUI25DebugReplaceableViewCountO13indeterminateyA2CmFWC
++ _$s7SwiftUI25DebugReplaceableViewCountO13uninitializedyA2CmFWC
++ _$s7SwiftUI25DebugReplaceableViewCountO8countingyACSicACmFWC
++ _$s7SwiftUI25DebugReplaceableViewCountOMF
++ _$s7SwiftUI25DebugReplaceableViewCountOMa
++ _$s7SwiftUI25DebugReplaceableViewCountOMf
++ _$s7SwiftUI25DebugReplaceableViewCountOMn
++ _$s7SwiftUI25DebugReplaceableViewCountON
++ _$s7SwiftUI25DebugReplaceableViewCountOWV
++ _$s7SwiftUI25DebugReplaceableViewCountOwet
++ _$s7SwiftUI25DebugReplaceableViewCountOwst
++ _$s7SwiftUI25DebugReplaceableViewCountOwug
++ _$s7SwiftUI25DebugReplaceableViewCountOwui
++ _$s7SwiftUI25DebugReplaceableViewCountOwup
++ _$s7SwiftUI25PlatformViewResponderBaseC015shouldUseHostedD18AsGestureContainerSbvg
++ _$s7SwiftUI25PlatformViewResponderBaseC015shouldUseHostedD18AsGestureContainerSbvgTj
++ _$s7SwiftUI25PlatformViewResponderBaseC015shouldUseHostedD18AsGestureContainerSbvgTq
++ _$s7SwiftUI25PlatformViewResponderBaseC015shouldUseHostedD18AsGestureContainerSbvpMV
++ _$s7SwiftUI39PlatformAccessibilitySettingsDefinitionC25reduceHighlightingEffectsSbvg
++ _$s7SwiftUI39PlatformAccessibilitySettingsDefinitionC25reduceHighlightingEffectsSbvpMV
++ _$s7SwiftUI39PlatformAccessibilitySettingsDefinitionC7SettingO25reduceHighlightingEffectsyA2EmFWC
++ _$s7SwiftUI41AccessibilityReduceHighlightingEffectsKey33_1E80A5D8CD82563C298D64AC1337E839LLVAA011EnvironmentG0A2aEP12_valuesEqualySb5ValueQz_AItFZTW
++ _$s7SwiftUI41AccessibilityReduceHighlightingEffectsKey33_1E80A5D8CD82563C298D64AC1337E839LLVAA011EnvironmentG0A2aEP12defaultValue0R0QzvgZTW
++ _$s7SwiftUI41AccessibilityReduceHighlightingEffectsKey33_1E80A5D8CD82563C298D64AC1337E839LLVAA011EnvironmentG0AAMA
++ _$s7SwiftUI41AccessibilityReduceHighlightingEffectsKey33_1E80A5D8CD82563C298D64AC1337E839LLVAA011EnvironmentG0AAMc
++ _$s7SwiftUI41AccessibilityReduceHighlightingEffectsKey33_1E80A5D8CD82563C298D64AC1337E839LLVAA011EnvironmentG0AAWP
++ _$s7SwiftUI41AccessibilityReduceHighlightingEffectsKey33_1E80A5D8CD82563C298D64AC1337E839LLVMF
++ _$s7SwiftUI41AccessibilityReduceHighlightingEffectsKey33_1E80A5D8CD82563C298D64AC1337E839LLVMXX
++ _$s7SwiftUI41AccessibilityReduceHighlightingEffectsKey33_1E80A5D8CD82563C298D64AC1337E839LLVMa
++ _$s7SwiftUI41AccessibilityReduceHighlightingEffectsKey33_1E80A5D8CD82563C298D64AC1337E839LLVMf
++ _$s7SwiftUI41AccessibilityReduceHighlightingEffectsKey33_1E80A5D8CD82563C298D64AC1337E839LLVMn
++ _$s7SwiftUI41AccessibilityReduceHighlightingEffectsKey33_1E80A5D8CD82563C298D64AC1337E839LLVN
++ _$s7SwiftUI5find133_D64CE6C88E7413721C59A34C0C940F2CLL_3key6filters9UnmanagedVyAA12TypedElementACLLCyxGGSgAGyAA12PropertyListV0Q0CGSg_xmAA11BloomFilterVtAA0R3KeyRzlFAA011EnvironmentrV0VyAA038AccessibilityReduceHighlightingEffectsV0020_1E80A5D8CD82563C298D10AC1337E839LLVG_Tt0B5
++ _$sSPy7ElementSTQzGq_Igyr_ACq_s5NeverOIegyrzr_SkRzSHR_7SwiftUI4ViewR0_r1_lTRTA.31
++ _$sSPy7ElementSTQzGq_Igyr_ACq_s5NeverOIegyrzr_SkRzSHR_7SwiftUI4ViewR0_r1_lTRTA.49
++ _$sSo11AGAttributea14AttributeGraphE10mutateBody2as12invalidating_yxm_SbyxzXEtlFySvXEfU_TA.43
++ ___unnamed_46
++ ___unnamed_66
++ ___unnamed_98
++ ___unnamed_99
++ _keypath_get.29Tm
++ _keypath_get.31Tm
++ _symbolic _____ 7SwiftUI12ForEachStateC20ViewsPerElementCountO
++ _symbolic _____ 7SwiftUI25DebugReplaceableViewCountO
++ _symbolic _____ 7SwiftUI41AccessibilityReduceHighlightingEffectsKey33_1E80A5D8CD82563C298D64AC1337E839LLV
++ _symbolic _____y_____G 7SwiftUI10MutableBoxC AA25DebugReplaceableViewCountO
++ _symbolic _____y_____GSgXw 7SwiftUI10MutableBoxC AA25DebugReplaceableViewCountO
++ _symbolic _____yxq_q0__G 7SwiftUI12ForEachStateC20ViewsPerElementCountO
+- _$s14AttributeGraph0A0V8setValueySbxFSbSPyxGXEfU_TA.11
+- _$s14AttributeGraph0A0VyACyxGqd__c5ValueQyd__RszAA12StatefulRuleRd__lufcADSPyqd__GXEfU_TA.43
+- _$s14AttributeGraph0A0VyACyxGqd__c5ValueQyd__RszAA4RuleRd__lufcADSPyqd__GXEfU_TA.44
+- _$s14AttributeGraph13PointerOffsetV2ofyACyxq_Gq_zFZAESPyq_GXEfU_TA.36
+- _$s7SwiftUI10MutableBoxCySiSgGML
+- _$s7SwiftUI10MutableBoxCySiSgGMa
+- _$s7SwiftUI12ForEachStateC15viewsPerElementSiSgSgvg
+- _$s7SwiftUI15_ViewListInputsV016debugReplaceableC5CountAA10MutableBoxCySiSgGSgvM
+- _$s7SwiftUI15_ViewListInputsV016debugReplaceableC5CountAA10MutableBoxCySiSgGSgvM.resume.0
+- _$s7SwiftUI15_ViewListInputsV016debugReplaceableC5CountAA10MutableBoxCySiSgGSgvg
+- _$s7SwiftUI15_ViewListInputsV016debugReplaceableC5CountAA10MutableBoxCySiSgGSgvpMV
+- _$s7SwiftUI15_ViewListInputsV016debugReplaceableC5CountAA10MutableBoxCySiSgGSgvpfi
+- _$s7SwiftUI15_ViewListInputsV016debugReplaceableC5CountAA10MutableBoxCySiSgGSgvs
+- _$s7SwiftUI17ObservationCenterC05_withC02dox5value_0C00C8TrackingV11_AccessListVSg06accessJ0txyKXE_tKlFxSpyALGKXEfU_TA.51
+- _$s7SwiftUI25PlatformViewResponderBaseC015shouldUseHostedD11AsContainerSbvg
+- _$s7SwiftUI25PlatformViewResponderBaseC015shouldUseHostedD11AsContainerSbvgTj
+- _$s7SwiftUI25PlatformViewResponderBaseC015shouldUseHostedD11AsContainerSbvgTq
+- _$s7SwiftUI25PlatformViewResponderBaseC015shouldUseHostedD11AsContainerSbvpMV
+- _$sSPy7ElementSTQzGq_Igyr_ACq_s5NeverOIegyrzr_SkRzSHR_7SwiftUI4ViewR0_r1_lTRTA.30
+- _$sSPy7ElementSTQzGq_Igyr_ACq_s5NeverOIegyrzr_SkRzSHR_7SwiftUI4ViewR0_r1_lTRTA.48
+- _$sSo11AGAttributea14AttributeGraphE10mutateBody2as12invalidating_yxm_SbyxzXEtlFySvXEfU_TA.42
+- ___unnamed_111
+- ___unnamed_65
+- ___unnamed_89
+- ___unnamed_90
+- ___unnamed_93
+- _keypath_get.28Tm
+- _keypath_get.30Tm
+- _symbolic _____ySiSgGSg 7SwiftUI10MutableBoxC
+- _symbolic _____ySiSgGSgXw 7SwiftUI10MutableBoxC
+CStrings:
++ ". If this view only produces one view per element in the collection, consider wrapping views in a VStack to take the fast path."
++ "viewsPerElementCount"
+- ". If this view only produces one view per element in the collection, consider views in a VStack to take the fast path."
+- "_viewsPerElement"
+- "debugReplaceableViewCount"
+
+```

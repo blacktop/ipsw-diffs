@@ -41,6 +41,7 @@
 <details open>
   <summary>View diffs</summary>
 
+- [26.4 beta 2 (23E5218e) .vs 26.4 beta 3 (23E5223f)](26_4_23E5218e__vs_26_4_23E5223f/README.md)
 - [26.4 beta 1 (23E5207q) .vs 26.4 beta 2 (23E5218e)](26_4_23E5207q__vs_26_4_23E5218e/README.md)
 - [26.3 (23D127) .vs 26.4 beta 1 (23E5207q)](26_3_23D127__vs_26_4_23E5207q/README.md)
 

@@ -1,0 +1,1040 @@
+## AppleDepth
+
+> `/System/Library/PrivateFrameworks/AppleDepth.framework/AppleDepth`
+
+```diff
+
+ 158.0.0.0.0
+-  __TEXT.__text: 0x111e6c
+-  __TEXT.__auth_stubs: 0x1440
++  __TEXT.__text: 0x10e408
++  __TEXT.__auth_stubs: 0x1430
+   __TEXT.__objc_methlist: 0x7714
+   __TEXT.__const: 0x1460
+-  __TEXT.__gcc_except_tab: 0x137c8
++  __TEXT.__gcc_except_tab: 0x137b4
+   __TEXT.__oslogstring: 0x95bb
+-  __TEXT.__cstring: 0x8c8b
+-  __TEXT.__unwind_info: 0x3f40
++  __TEXT.__cstring: 0x7d5e
++  __TEXT.__unwind_info: 0x3f38
+   __TEXT.__objc_classname: 0x9673
+   __TEXT.__objc_methname: 0x183c8
+   __TEXT.__objc_methtype: 0x813e
+
+   __DATA_CONST.__objc_selrefs: 0x38f8
+   __DATA_CONST.__objc_superrefs: 0x4c8
+   __DATA_CONST.__objc_arraydata: 0x258
+-  __AUTH_CONST.__auth_got: 0xa30
++  __AUTH_CONST.__auth_got: 0xa28
+   __AUTH_CONST.__const: 0xae8
+   __AUTH_CONST.__cfstring: 0x5ca0
+   __AUTH_CONST.__objc_const: 0x13688
+
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: E286FA08-CADE-3418-B923-FED230C8F146
++  UUID: 7A1BB0FF-201A-3206-B29B-F83638B780AB
+   Functions: 3224
+-  Symbols:   12083
+-  CStrings:  6724
++  Symbols:   12080
++  CStrings:  6713
+ 
+Symbols:
++ GCC_except_table2299
++ GCC_except_table2307
++ GCC_except_table2315
++ GCC_except_table2330
++ GCC_except_table2345
++ GCC_except_table2348
++ GCC_except_table2353
++ GCC_except_table2355
++ GCC_except_table2357
++ GCC_except_table2359
++ GCC_except_table2364
++ GCC_except_table2366
++ GCC_except_table2374
++ GCC_except_table2377
++ GCC_except_table2380
++ GCC_except_table2388
++ GCC_except_table2390
++ GCC_except_table2394
++ GCC_except_table2397
++ GCC_except_table2401
++ GCC_except_table2403
++ GCC_except_table2411
++ GCC_except_table2414
++ GCC_except_table2437
++ GCC_except_table2445
++ GCC_except_table2454
++ GCC_except_table2456
++ GCC_except_table2458
++ GCC_except_table2461
++ GCC_except_table2467
++ GCC_except_table2476
++ GCC_except_table2482
++ GCC_except_table2485
++ GCC_except_table2491
++ GCC_except_table2499
++ GCC_except_table2506
++ GCC_except_table2511
++ GCC_except_table2515
++ GCC_except_table2518
++ GCC_except_table2525
++ GCC_except_table2528
++ GCC_except_table2534
++ GCC_except_table2537
++ GCC_except_table2540
++ GCC_except_table2543
++ GCC_except_table2546
++ GCC_except_table2551
++ GCC_except_table2593
++ GCC_except_table2600
++ GCC_except_table2604
++ GCC_except_table2606
++ GCC_except_table2608
++ GCC_except_table2610
++ GCC_except_table2615
++ GCC_except_table2618
++ GCC_except_table2622
++ GCC_except_table2631
++ GCC_except_table2635
++ GCC_except_table2654
++ GCC_except_table2658
++ GCC_except_table2662
++ GCC_except_table2665
++ GCC_except_table2670
++ GCC_except_table2679
++ GCC_except_table2687
++ GCC_except_table2693
++ GCC_except_table2702
++ GCC_except_table2705
++ GCC_except_table2709
++ GCC_except_table2715
++ GCC_except_table2718
++ GCC_except_table2741
++ GCC_except_table2751
++ GCC_except_table2758
++ GCC_except_table2770
++ GCC_except_table2778
++ GCC_except_table2784
++ GCC_except_table2788
++ GCC_except_table2791
++ GCC_except_table2794
++ GCC_except_table2797
++ GCC_except_table2800
++ GCC_except_table2803
++ GCC_except_table2809
++ GCC_except_table2822
++ GCC_except_table2825
++ GCC_except_table2830
++ GCC_except_table2836
++ GCC_except_table2842
++ GCC_except_table2858
++ GCC_except_table2861
++ GCC_except_table2868
++ GCC_except_table2871
++ GCC_except_table2880
++ GCC_except_table2883
++ GCC_except_table2893
++ GCC_except_table2896
++ GCC_except_table2901
++ GCC_except_table2903
++ GCC_except_table2911
++ GCC_except_table2913
++ GCC_except_table2919
++ GCC_except_table2921
++ GCC_except_table2923
++ GCC_except_table2932
++ GCC_except_table2946
++ GCC_except_table2951
++ GCC_except_table2960
++ GCC_except_table2982
++ GCC_except_table2985
++ GCC_except_table2993
++ GCC_except_table3001
++ GCC_except_table3003
++ GCC_except_table3015
++ GCC_except_table3033
++ GCC_except_table3036
++ GCC_except_table3040
++ GCC_except_table3044
++ GCC_except_table3048
++ GCC_except_table3050
++ GCC_except_table3068
++ GCC_except_table3077
++ GCC_except_table3080
++ GCC_except_table3093
++ GCC_except_table3109
++ GCC_except_table3112
++ GCC_except_table3117
++ GCC_except_table3120
++ GCC_except_table3123
++ GCC_except_table3145
++ GCC_except_table3152
++ GCC_except_table3158
++ GCC_except_table3192
++ GCC_except_table3199
++ GCC_except_table3206
++ GCC_except_table3217
++ GCC_except_table3221
++ GCC_except_table3226
++ GCC_except_table3233
++ GCC_except_table3236
++ GCC_except_table3240
++ GCC_except_table3242
++ GCC_except_table3244
++ GCC_except_table3249
++ GCC_except_table3254
++ GCC_except_table3258
++ GCC_except_table3263
++ GCC_except_table3265
++ GCC_except_table3272
++ GCC_except_table3276
++ GCC_except_table3290
++ GCC_except_table3296
++ GCC_except_table3299
++ GCC_except_table3304
++ GCC_except_table3306
++ GCC_except_table3311
++ GCC_except_table3314
++ GCC_except_table3317
++ GCC_except_table3319
++ GCC_except_table3326
++ GCC_except_table3328
++ GCC_except_table3335
++ GCC_except_table3342
++ GCC_except_table3345
++ GCC_except_table3354
++ GCC_except_table3357
++ GCC_except_table3366
++ GCC_except_table3372
++ GCC_except_table3386
++ GCC_except_table3390
++ GCC_except_table3395
++ GCC_except_table3402
++ GCC_except_table3411
++ GCC_except_table3427
++ GCC_except_table3435
++ GCC_except_table3444
++ GCC_except_table3453
++ GCC_except_table3459
++ GCC_except_table3467
++ GCC_except_table3474
++ GCC_except_table3477
++ GCC_except_table3486
++ __PromotedConst.10911
++ __PromotedConst.10912
++ __ZL15INSTRUMENTS_ENDjyyyy.10408
++ __ZL15INSTRUMENTS_ENDjyyyy.10474
++ __ZL15INSTRUMENTS_ENDjyyyy.10657
++ __ZL15INSTRUMENTS_ENDjyyyy.1081
++ __ZL15INSTRUMENTS_ENDjyyyy.10876
++ __ZL15INSTRUMENTS_ENDjyyyy.1214
++ __ZL15INSTRUMENTS_ENDjyyyy.1276
++ __ZL15INSTRUMENTS_ENDjyyyy.1506
++ __ZL15INSTRUMENTS_ENDjyyyy.1613
++ __ZL15INSTRUMENTS_ENDjyyyy.1821
++ __ZL15INSTRUMENTS_ENDjyyyy.1853
++ __ZL15INSTRUMENTS_ENDjyyyy.2020
++ __ZL15INSTRUMENTS_ENDjyyyy.2209
++ __ZL15INSTRUMENTS_ENDjyyyy.243
++ __ZL15INSTRUMENTS_ENDjyyyy.2457
++ __ZL15INSTRUMENTS_ENDjyyyy.249
++ __ZL15INSTRUMENTS_ENDjyyyy.260
++ __ZL15INSTRUMENTS_ENDjyyyy.2669
++ __ZL15INSTRUMENTS_ENDjyyyy.2743
++ __ZL15INSTRUMENTS_ENDjyyyy.2790
++ __ZL15INSTRUMENTS_ENDjyyyy.2877
++ __ZL15INSTRUMENTS_ENDjyyyy.2910
++ __ZL15INSTRUMENTS_ENDjyyyy.2916
++ __ZL15INSTRUMENTS_ENDjyyyy.3110
++ __ZL15INSTRUMENTS_ENDjyyyy.3186
++ __ZL15INSTRUMENTS_ENDjyyyy.329
++ __ZL15INSTRUMENTS_ENDjyyyy.3424
++ __ZL15INSTRUMENTS_ENDjyyyy.3546
++ __ZL15INSTRUMENTS_ENDjyyyy.3560
++ __ZL15INSTRUMENTS_ENDjyyyy.3566
++ __ZL15INSTRUMENTS_ENDjyyyy.3816
++ __ZL15INSTRUMENTS_ENDjyyyy.4016
++ __ZL15INSTRUMENTS_ENDjyyyy.4026
++ __ZL15INSTRUMENTS_ENDjyyyy.4088
++ __ZL15INSTRUMENTS_ENDjyyyy.4277
++ __ZL15INSTRUMENTS_ENDjyyyy.4338
++ __ZL15INSTRUMENTS_ENDjyyyy.4520
++ __ZL15INSTRUMENTS_ENDjyyyy.455
++ __ZL15INSTRUMENTS_ENDjyyyy.4896
++ __ZL15INSTRUMENTS_ENDjyyyy.5111
++ __ZL15INSTRUMENTS_ENDjyyyy.5293
++ __ZL15INSTRUMENTS_ENDjyyyy.541
++ __ZL15INSTRUMENTS_ENDjyyyy.5516
++ __ZL15INSTRUMENTS_ENDjyyyy.5985
++ __ZL15INSTRUMENTS_ENDjyyyy.6133
++ __ZL15INSTRUMENTS_ENDjyyyy.6237
++ __ZL15INSTRUMENTS_ENDjyyyy.6469
++ __ZL15INSTRUMENTS_ENDjyyyy.6808
++ __ZL15INSTRUMENTS_ENDjyyyy.696
++ __ZL15INSTRUMENTS_ENDjyyyy.7084
++ __ZL15INSTRUMENTS_ENDjyyyy.710
++ __ZL15INSTRUMENTS_ENDjyyyy.7270
++ __ZL15INSTRUMENTS_ENDjyyyy.7386
++ __ZL15INSTRUMENTS_ENDjyyyy.7403
++ __ZL15INSTRUMENTS_ENDjyyyy.7591
++ __ZL15INSTRUMENTS_ENDjyyyy.7597
++ __ZL15INSTRUMENTS_ENDjyyyy.7729
++ __ZL15INSTRUMENTS_ENDjyyyy.7752
++ __ZL15INSTRUMENTS_ENDjyyyy.7777
++ __ZL15INSTRUMENTS_ENDjyyyy.7977
++ __ZL15INSTRUMENTS_ENDjyyyy.8235
++ __ZL15INSTRUMENTS_ENDjyyyy.8275
++ __ZL15INSTRUMENTS_ENDjyyyy.8324
++ __ZL15INSTRUMENTS_ENDjyyyy.8435
++ __ZL15INSTRUMENTS_ENDjyyyy.8593
++ __ZL15INSTRUMENTS_ENDjyyyy.8780
++ __ZL15INSTRUMENTS_ENDjyyyy.8786
++ __ZL15INSTRUMENTS_ENDjyyyy.8844
++ __ZL15INSTRUMENTS_ENDjyyyy.8855
++ __ZL15INSTRUMENTS_ENDjyyyy.9007
++ __ZL15INSTRUMENTS_ENDjyyyy.9411
++ __ZL15INSTRUMENTS_ENDjyyyy.9437
++ __ZL15INSTRUMENTS_ENDjyyyy.9609
++ __ZL15INSTRUMENTS_ENDjyyyy.963
++ __ZL15INSTRUMENTS_ENDjyyyy.9634
++ __ZL15INSTRUMENTS_ENDjyyyy.9883
++ __ZL17INSTRUMENTS_EVENTjyyyy.10409
++ __ZL17INSTRUMENTS_EVENTjyyyy.10475
++ __ZL17INSTRUMENTS_EVENTjyyyy.10658
++ __ZL17INSTRUMENTS_EVENTjyyyy.1082
++ __ZL17INSTRUMENTS_EVENTjyyyy.10877
++ __ZL17INSTRUMENTS_EVENTjyyyy.1215
++ __ZL17INSTRUMENTS_EVENTjyyyy.1277
++ __ZL17INSTRUMENTS_EVENTjyyyy.1507
++ __ZL17INSTRUMENTS_EVENTjyyyy.1614
++ __ZL17INSTRUMENTS_EVENTjyyyy.1822
++ __ZL17INSTRUMENTS_EVENTjyyyy.1854
++ __ZL17INSTRUMENTS_EVENTjyyyy.2021
++ __ZL17INSTRUMENTS_EVENTjyyyy.2210
++ __ZL17INSTRUMENTS_EVENTjyyyy.244
++ __ZL17INSTRUMENTS_EVENTjyyyy.2458
++ __ZL17INSTRUMENTS_EVENTjyyyy.250
++ __ZL17INSTRUMENTS_EVENTjyyyy.261
++ __ZL17INSTRUMENTS_EVENTjyyyy.2670
++ __ZL17INSTRUMENTS_EVENTjyyyy.2744
++ __ZL17INSTRUMENTS_EVENTjyyyy.2791
++ __ZL17INSTRUMENTS_EVENTjyyyy.2878
++ __ZL17INSTRUMENTS_EVENTjyyyy.2911
++ __ZL17INSTRUMENTS_EVENTjyyyy.2917
++ __ZL17INSTRUMENTS_EVENTjyyyy.3111
++ __ZL17INSTRUMENTS_EVENTjyyyy.3187
++ __ZL17INSTRUMENTS_EVENTjyyyy.330
++ __ZL17INSTRUMENTS_EVENTjyyyy.3425
++ __ZL17INSTRUMENTS_EVENTjyyyy.3547
++ __ZL17INSTRUMENTS_EVENTjyyyy.3561
++ __ZL17INSTRUMENTS_EVENTjyyyy.3567
++ __ZL17INSTRUMENTS_EVENTjyyyy.3817
++ __ZL17INSTRUMENTS_EVENTjyyyy.4017
++ __ZL17INSTRUMENTS_EVENTjyyyy.4027
++ __ZL17INSTRUMENTS_EVENTjyyyy.4089
++ __ZL17INSTRUMENTS_EVENTjyyyy.4278
++ __ZL17INSTRUMENTS_EVENTjyyyy.4339
++ __ZL17INSTRUMENTS_EVENTjyyyy.4521
++ __ZL17INSTRUMENTS_EVENTjyyyy.456
++ __ZL17INSTRUMENTS_EVENTjyyyy.4897
++ __ZL17INSTRUMENTS_EVENTjyyyy.5112
++ __ZL17INSTRUMENTS_EVENTjyyyy.5294
++ __ZL17INSTRUMENTS_EVENTjyyyy.542
++ __ZL17INSTRUMENTS_EVENTjyyyy.5517
++ __ZL17INSTRUMENTS_EVENTjyyyy.5986
++ __ZL17INSTRUMENTS_EVENTjyyyy.6134
++ __ZL17INSTRUMENTS_EVENTjyyyy.6238
++ __ZL17INSTRUMENTS_EVENTjyyyy.6470
++ __ZL17INSTRUMENTS_EVENTjyyyy.6809
++ __ZL17INSTRUMENTS_EVENTjyyyy.697
++ __ZL17INSTRUMENTS_EVENTjyyyy.7085
++ __ZL17INSTRUMENTS_EVENTjyyyy.711
++ __ZL17INSTRUMENTS_EVENTjyyyy.7271
++ __ZL17INSTRUMENTS_EVENTjyyyy.7387
++ __ZL17INSTRUMENTS_EVENTjyyyy.7404
++ __ZL17INSTRUMENTS_EVENTjyyyy.7592
++ __ZL17INSTRUMENTS_EVENTjyyyy.7598
++ __ZL17INSTRUMENTS_EVENTjyyyy.7730
++ __ZL17INSTRUMENTS_EVENTjyyyy.7753
++ __ZL17INSTRUMENTS_EVENTjyyyy.7778
++ __ZL17INSTRUMENTS_EVENTjyyyy.7978
++ __ZL17INSTRUMENTS_EVENTjyyyy.8236
++ __ZL17INSTRUMENTS_EVENTjyyyy.8276
++ __ZL17INSTRUMENTS_EVENTjyyyy.8325
++ __ZL17INSTRUMENTS_EVENTjyyyy.8436
++ __ZL17INSTRUMENTS_EVENTjyyyy.8594
++ __ZL17INSTRUMENTS_EVENTjyyyy.8781
++ __ZL17INSTRUMENTS_EVENTjyyyy.8787
++ __ZL17INSTRUMENTS_EVENTjyyyy.8845
++ __ZL17INSTRUMENTS_EVENTjyyyy.8856
++ __ZL17INSTRUMENTS_EVENTjyyyy.9008
++ __ZL17INSTRUMENTS_EVENTjyyyy.9412
++ __ZL17INSTRUMENTS_EVENTjyyyy.9438
++ __ZL17INSTRUMENTS_EVENTjyyyy.9610
++ __ZL17INSTRUMENTS_EVENTjyyyy.9635
++ __ZL17INSTRUMENTS_EVENTjyyyy.964
++ __ZL17INSTRUMENTS_EVENTjyyyy.9884
++ __ZL17INSTRUMENTS_STARTjyyyy.10410
++ __ZL17INSTRUMENTS_STARTjyyyy.10476
++ __ZL17INSTRUMENTS_STARTjyyyy.10659
++ __ZL17INSTRUMENTS_STARTjyyyy.1083
++ __ZL17INSTRUMENTS_STARTjyyyy.10878
++ __ZL17INSTRUMENTS_STARTjyyyy.1216
++ __ZL17INSTRUMENTS_STARTjyyyy.1278
++ __ZL17INSTRUMENTS_STARTjyyyy.1508
++ __ZL17INSTRUMENTS_STARTjyyyy.1615
++ __ZL17INSTRUMENTS_STARTjyyyy.1823
++ __ZL17INSTRUMENTS_STARTjyyyy.1855
++ __ZL17INSTRUMENTS_STARTjyyyy.2022
++ __ZL17INSTRUMENTS_STARTjyyyy.2211
++ __ZL17INSTRUMENTS_STARTjyyyy.245
++ __ZL17INSTRUMENTS_STARTjyyyy.2459
++ __ZL17INSTRUMENTS_STARTjyyyy.251
++ __ZL17INSTRUMENTS_STARTjyyyy.262
++ __ZL17INSTRUMENTS_STARTjyyyy.2671
++ __ZL17INSTRUMENTS_STARTjyyyy.2745
++ __ZL17INSTRUMENTS_STARTjyyyy.2792
++ __ZL17INSTRUMENTS_STARTjyyyy.2879
++ __ZL17INSTRUMENTS_STARTjyyyy.2912
++ __ZL17INSTRUMENTS_STARTjyyyy.2918
++ __ZL17INSTRUMENTS_STARTjyyyy.3112
++ __ZL17INSTRUMENTS_STARTjyyyy.3188
++ __ZL17INSTRUMENTS_STARTjyyyy.331
++ __ZL17INSTRUMENTS_STARTjyyyy.3426
++ __ZL17INSTRUMENTS_STARTjyyyy.3548
++ __ZL17INSTRUMENTS_STARTjyyyy.3562
++ __ZL17INSTRUMENTS_STARTjyyyy.3568
++ __ZL17INSTRUMENTS_STARTjyyyy.3818
++ __ZL17INSTRUMENTS_STARTjyyyy.4018
++ __ZL17INSTRUMENTS_STARTjyyyy.4028
++ __ZL17INSTRUMENTS_STARTjyyyy.4090
++ __ZL17INSTRUMENTS_STARTjyyyy.4279
++ __ZL17INSTRUMENTS_STARTjyyyy.4340
++ __ZL17INSTRUMENTS_STARTjyyyy.4522
++ __ZL17INSTRUMENTS_STARTjyyyy.457
++ __ZL17INSTRUMENTS_STARTjyyyy.4898
++ __ZL17INSTRUMENTS_STARTjyyyy.5113
++ __ZL17INSTRUMENTS_STARTjyyyy.5295
++ __ZL17INSTRUMENTS_STARTjyyyy.543
++ __ZL17INSTRUMENTS_STARTjyyyy.5518
++ __ZL17INSTRUMENTS_STARTjyyyy.5987
++ __ZL17INSTRUMENTS_STARTjyyyy.6135
++ __ZL17INSTRUMENTS_STARTjyyyy.6239
++ __ZL17INSTRUMENTS_STARTjyyyy.6471
++ __ZL17INSTRUMENTS_STARTjyyyy.6810
++ __ZL17INSTRUMENTS_STARTjyyyy.698
++ __ZL17INSTRUMENTS_STARTjyyyy.7086
++ __ZL17INSTRUMENTS_STARTjyyyy.712
++ __ZL17INSTRUMENTS_STARTjyyyy.7272
++ __ZL17INSTRUMENTS_STARTjyyyy.7388
++ __ZL17INSTRUMENTS_STARTjyyyy.7405
++ __ZL17INSTRUMENTS_STARTjyyyy.7593
++ __ZL17INSTRUMENTS_STARTjyyyy.7599
++ __ZL17INSTRUMENTS_STARTjyyyy.7731
++ __ZL17INSTRUMENTS_STARTjyyyy.7754
++ __ZL17INSTRUMENTS_STARTjyyyy.7779
++ __ZL17INSTRUMENTS_STARTjyyyy.7979
++ __ZL17INSTRUMENTS_STARTjyyyy.8237
++ __ZL17INSTRUMENTS_STARTjyyyy.8277
++ __ZL17INSTRUMENTS_STARTjyyyy.8326
++ __ZL17INSTRUMENTS_STARTjyyyy.8437
++ __ZL17INSTRUMENTS_STARTjyyyy.8595
++ __ZL17INSTRUMENTS_STARTjyyyy.8782
++ __ZL17INSTRUMENTS_STARTjyyyy.8788
++ __ZL17INSTRUMENTS_STARTjyyyy.8846
++ __ZL17INSTRUMENTS_STARTjyyyy.8857
++ __ZL17INSTRUMENTS_STARTjyyyy.9009
++ __ZL17INSTRUMENTS_STARTjyyyy.9413
++ __ZL17INSTRUMENTS_STARTjyyyy.9439
++ __ZL17INSTRUMENTS_STARTjyyyy.9611
++ __ZL17INSTRUMENTS_STARTjyyyy.9636
++ __ZL17INSTRUMENTS_STARTjyyyy.965
++ __ZL17INSTRUMENTS_STARTjyyyy.9885
++ __ZNSt12length_errorC1B9nqe210106EPKc
++ __ZNSt3__110shared_ptrIN3jpc9IIFABlock9IFAOutputEED1B9nqe210106Ev
++ __ZNSt3__110shared_ptrIN3jpc9IIFABlock9IFAOutputEED2B9nqe210106Ev
++ __ZNSt3__110unique_ptrIN3jpc9IIFABlock9IFAOutputENS_14default_deleteIS3_EEED2B9nqe210106Ev
++ __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeIm20PixelBufferSharedPtrEEPvEENS_22__hash_node_destructorINS_9allocatorIS6_EEEEED1B9nqe210106Ev
++ __ZNSt3__112__tuple_implINS_15__tuple_indicesIJLm0ELm1ELm2ELm3ELm4ELm5EEEEJbffNS_6vectorIfNS_9allocatorIfEEEES6_NS3_I31ADDisparityToDepthFitWorldPointNS4_IS7_EEEEEEC2B9nqe210106IJLm0ELm1ELm2ELm3ELm4ELm5EEJbffS6_S6_S9_EJEJEJbiiRS6_SC_RKS9_EEENS1_IJXspT_EEEENS_13__tuple_typesIJDpT0_EEENS1_IJXspT1_EEEENSG_IJDpT2_EEEDpOT3_
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_length_errorB9nqe210106Ev
++ __ZNSt3__113__nth_elementB9nqe210106INS_17_ClassicAlgPolicyERNS_6__lessIvvEENS_11__wrap_iterIPfEEEEvT1_S8_S8_T0_
++ __ZNSt3__113unordered_setIiNS_4hashIiEENS_8equal_toIiEENS_9allocatorIiEEED1B9nqe210106Ev
++ __ZNSt3__113unordered_setImNS_4hashImEENS_8equal_toImEENS_9allocatorImEEED1B9nqe210106Ev
++ __ZNSt3__115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEE15__init_buf_ptrsB9nqe210106Ev
++ __ZNSt3__119basic_ostringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEC1B9nqe210106Ev
++ __ZNSt3__120__throw_length_errorB9nqe210106EPKc
++ __ZNSt3__124__put_character_sequenceB9nqe210106IcNS_11char_traitsIcEEEERNS_13basic_ostreamIT_T0_EES7_PKS4_m
++ __ZNSt3__125__throw_bad_function_callB9nqe210106Ev
++ __ZNSt3__128__exception_guard_exceptionsINS_6vectorI11MatrixNxPtsILj1EdENS_9allocatorIS3_EEE16__destroy_vectorEED2B9nqe210106Ev
++ __ZNSt3__128__exception_guard_exceptionsINS_6vectorINS1_IiNS_9allocatorIiEEEENS2_IS4_EEE16__destroy_vectorEED2B9nqe210106Ev
++ __ZNSt3__16vectorI11MatrixNxPtsILj1EdENS_9allocatorIS2_EEE20__throw_length_errorB9nqe210106Ev
++ __ZNSt3__16vectorI31ADDisparityToDepthFitWorldPointNS_9allocatorIS1_EEE20__throw_length_errorB9nqe210106Ev
++ __ZNSt3__16vectorI7CGPointNS_9allocatorIS1_EEE20__throw_length_errorB9nqe210106Ev
++ __ZNSt3__16vectorIDv3_fNS_9allocatorIS1_EEE20__throw_length_errorB9nqe210106Ev
++ __ZNSt3__16vectorIN3jpc18IPreprocessorBlock19PearlCorrespondenceENS_9allocatorIS3_EEE20__throw_length_errorB9nqe210106Ev
++ __ZNSt3__16vectorIN3jpc18IPreprocessorBlock25PearlJasperCorrespondenceENS_9allocatorIS3_EEE20__throw_length_errorB9nqe210106Ev
++ __ZNSt3__16vectorIN3jpc9IIFABlock22IFAPearlCorrespondenceENS_9allocatorIS3_EEE18__assign_with_sizeB9nqe210106IPS3_S8_EEvT_T0_l
++ __ZNSt3__16vectorIN3jpc9IIFABlock22IFAPearlCorrespondenceENS_9allocatorIS3_EEE20__throw_length_errorB9nqe210106Ev
++ __ZNSt3__16vectorIN3jpc9IIFABlock28IFAPearlJasperCorrespondenceENS_9allocatorIS3_EEE18__assign_with_sizeB9nqe210106IPS3_S8_EEvT_T0_l
++ __ZNSt3__16vectorIN3jpc9IIFABlock28IFAPearlJasperCorrespondenceENS_9allocatorIS3_EEE20__throw_length_errorB9nqe210106Ev
++ __ZNSt3__16vectorINS0_IiNS_9allocatorIiEEEENS1_IS3_EEE20__throw_length_errorB9nqe210106Ev
++ __ZNSt3__16vectorINS0_IiNS_9allocatorIiEEEENS1_IS3_EEED1B9nqe210106Ev
++ __ZNSt3__16vectorINS0_IiNS_9allocatorIiEEEENS1_IS3_EEED2B9nqe210106Ev
++ __ZNSt3__16vectorINS_10unique_ptrIN3jpc11IIFA_FilterENS_14default_deleteIS3_EEEENS_9allocatorIS6_EEE20__throw_length_errorB9nqe210106Ev
++ __ZNSt3__16vectorINS_10unique_ptrIN3jpc11IIFA_FilterENS_14default_deleteIS3_EEEENS_9allocatorIS6_EEED2B9nqe210106Ev
++ __ZNSt3__16vectorINS_10unique_ptrIN3jpc15IFAPullCriteriaENS_14default_deleteIS3_EEEENS_9allocatorIS6_EEE20__throw_length_errorB9nqe210106Ev
++ __ZNSt3__16vectorINS_10unique_ptrIN3jpc15IFAPullCriteriaENS_14default_deleteIS3_EEEENS_9allocatorIS6_EEED2B9nqe210106Ev
++ __ZNSt3__16vectorIU8__strongP8NSStringNS_9allocatorIS3_EEE20__throw_length_errorB9nqe210106Ev
++ __ZNSt3__16vectorIU8__strongP8NSStringNS_9allocatorIS3_EEED2B9nqe210106Ev
++ __ZNSt3__16vectorIbNS_9allocatorIbEEE20__throw_length_errorB9nqe210106Ev
++ __ZNSt3__16vectorIdNS_9allocatorIdEEE20__throw_length_errorB9nqe210106Ev
++ __ZNSt3__16vectorIfNS_9allocatorIfEEE18__assign_with_sizeB9nqe210106IPfS5_EEvT_T0_l
++ __ZNSt3__16vectorIfNS_9allocatorIfEEE20__throw_length_errorB9nqe210106Ev
++ __ZNSt3__16vectorIhNS_9allocatorIhEEE20__throw_length_errorB9nqe210106Ev
++ __ZNSt3__16vectorIiNS_9allocatorIiEEE20__throw_length_errorB9nqe210106Ev
++ __ZNSt3__16vectorIiNS_9allocatorIiEEE9push_backB9nqe210106EOi
++ __ZNSt3__16vectorIjNS_9allocatorIjEEE20__throw_length_errorB9nqe210106Ev
++ __ZNSt3__16vectorImNS_9allocatorImEEE20__throw_length_errorB9nqe210106Ev
++ __ZNSt3__16vectorItNS_9allocatorItEEE20__throw_length_errorB9nqe210106Ev
++ __ZSt28__throw_bad_array_new_lengthB9nqe210106v
++ ___block_literal_global.263
++ ___block_literal_global.265
++ ___block_literal_global.267
++ ___block_literal_global.5074
++ ___block_literal_global.7358
++ ___block_literal_global.7968
++ ___block_literal_global.9978
+- GCC_except_table2301
+- GCC_except_table2311
+- GCC_except_table2321
+- GCC_except_table2332
+- GCC_except_table2346
+- GCC_except_table2351
+- GCC_except_table2354
+- GCC_except_table2356
+- GCC_except_table2358
+- GCC_except_table2361
+- GCC_except_table2365
+- GCC_except_table2369
+- GCC_except_table2375
+- GCC_except_table2378
+- GCC_except_table2383
+- GCC_except_table2389
+- GCC_except_table2391
+- GCC_except_table2396
+- GCC_except_table2398
+- GCC_except_table2402
+- GCC_except_table2409
+- GCC_except_table2412
+- GCC_except_table2416
+- GCC_except_table2442
+- GCC_except_table2447
+- GCC_except_table2455
+- GCC_except_table2457
+- GCC_except_table2459
+- GCC_except_table2465
+- GCC_except_table2471
+- GCC_except_table2478
+- GCC_except_table2483
+- GCC_except_table2487
+- GCC_except_table2498
+- GCC_except_table2502
+- GCC_except_table2510
+- GCC_except_table2514
+- GCC_except_table2517
+- GCC_except_table2520
+- GCC_except_table2526
+- GCC_except_table2529
+- GCC_except_table2535
+- GCC_except_table2538
+- GCC_except_table2541
+- GCC_except_table2544
+- GCC_except_table2547
+- GCC_except_table2552
+- GCC_except_table2594
+- GCC_except_table2601
+- GCC_except_table2605
+- GCC_except_table2607
+- GCC_except_table2609
+- GCC_except_table2613
+- GCC_except_table2617
+- GCC_except_table2619
+- GCC_except_table2625
+- GCC_except_table2632
+- GCC_except_table2636
+- GCC_except_table2656
+- GCC_except_table2661
+- GCC_except_table2664
+- GCC_except_table2666
+- GCC_except_table2674
+- GCC_except_table2680
+- GCC_except_table2691
+- GCC_except_table2699
+- GCC_except_table2703
+- GCC_except_table2706
+- GCC_except_table2710
+- GCC_except_table2717
+- GCC_except_table2720
+- GCC_except_table2750
+- GCC_except_table2752
+- GCC_except_table2769
+- GCC_except_table2772
+- GCC_except_table2781
+- GCC_except_table2787
+- GCC_except_table2790
+- GCC_except_table2793
+- GCC_except_table2796
+- GCC_except_table2799
+- GCC_except_table2802
+- GCC_except_table2804
+- GCC_except_table2821
+- GCC_except_table2823
+- GCC_except_table2827
+- GCC_except_table2834
+- GCC_except_table2839
+- GCC_except_table2843
+- GCC_except_table2859
+- GCC_except_table2865
+- GCC_except_table2869
+- GCC_except_table2876
+- GCC_except_table2882
+- GCC_except_table2885
+- GCC_except_table2894
+- GCC_except_table2900
+- GCC_except_table2902
+- GCC_except_table2904
+- GCC_except_table2912
+- GCC_except_table2918
+- GCC_except_table2920
+- GCC_except_table2922
+- GCC_except_table2926
+- GCC_except_table2934
+- GCC_except_table2949
+- GCC_except_table2952
+- GCC_except_table2964
+- GCC_except_table2983
+- GCC_except_table2992
+- GCC_except_table2994
+- GCC_except_table3002
+- GCC_except_table3005
+- GCC_except_table3016
+- GCC_except_table3035
+- GCC_except_table3038
+- GCC_except_table3042
+- GCC_except_table3045
+- GCC_except_table3049
+- GCC_except_table3051
+- GCC_except_table3073
+- GCC_except_table3078
+- GCC_except_table3081
+- GCC_except_table3094
+- GCC_except_table3111
+- GCC_except_table3114
+- GCC_except_table3118
+- GCC_except_table3121
+- GCC_except_table3124
+- GCC_except_table3146
+- GCC_except_table3154
+- GCC_except_table3165
+- GCC_except_table3194
+- GCC_except_table3200
+- GCC_except_table3209
+- GCC_except_table3220
+- GCC_except_table3225
+- GCC_except_table3229
+- GCC_except_table3234
+- GCC_except_table3237
+- GCC_except_table3241
+- GCC_except_table3243
+- GCC_except_table3245
+- GCC_except_table3251
+- GCC_except_table3255
+- GCC_except_table3261
+- GCC_except_table3264
+- GCC_except_table3266
+- GCC_except_table3273
+- GCC_except_table3284
+- GCC_except_table3293
+- GCC_except_table3298
+- GCC_except_table3300
+- GCC_except_table3305
+- GCC_except_table3307
+- GCC_except_table3313
+- GCC_except_table3316
+- GCC_except_table3318
+- GCC_except_table3323
+- GCC_except_table3327
+- GCC_except_table3331
+- GCC_except_table3336
+- GCC_except_table3343
+- GCC_except_table3347
+- GCC_except_table3355
+- GCC_except_table3358
+- GCC_except_table3369
+- GCC_except_table3373
+- GCC_except_table3388
+- GCC_except_table3394
+- GCC_except_table3401
+- GCC_except_table3403
+- GCC_except_table3415
+- GCC_except_table3428
+- GCC_except_table3437
+- GCC_except_table3445
+- GCC_except_table3455
+- GCC_except_table3464
+- GCC_except_table3473
+- GCC_except_table3475
+- GCC_except_table3483
+- GCC_except_table3487
+- __PromotedConst.10939
+- __PromotedConst.10940
+- __ZL15INSTRUMENTS_ENDjyyyy.10437
+- __ZL15INSTRUMENTS_ENDjyyyy.10503
+- __ZL15INSTRUMENTS_ENDjyyyy.10686
+- __ZL15INSTRUMENTS_ENDjyyyy.1086
+- __ZL15INSTRUMENTS_ENDjyyyy.10905
+- __ZL15INSTRUMENTS_ENDjyyyy.1219
+- __ZL15INSTRUMENTS_ENDjyyyy.1281
+- __ZL15INSTRUMENTS_ENDjyyyy.1510
+- __ZL15INSTRUMENTS_ENDjyyyy.1617
+- __ZL15INSTRUMENTS_ENDjyyyy.1828
+- __ZL15INSTRUMENTS_ENDjyyyy.1860
+- __ZL15INSTRUMENTS_ENDjyyyy.2027
+- __ZL15INSTRUMENTS_ENDjyyyy.2216
+- __ZL15INSTRUMENTS_ENDjyyyy.245
+- __ZL15INSTRUMENTS_ENDjyyyy.2463
+- __ZL15INSTRUMENTS_ENDjyyyy.251
+- __ZL15INSTRUMENTS_ENDjyyyy.262
+- __ZL15INSTRUMENTS_ENDjyyyy.2675
+- __ZL15INSTRUMENTS_ENDjyyyy.2750
+- __ZL15INSTRUMENTS_ENDjyyyy.2798
+- __ZL15INSTRUMENTS_ENDjyyyy.2885
+- __ZL15INSTRUMENTS_ENDjyyyy.2918
+- __ZL15INSTRUMENTS_ENDjyyyy.2925
+- __ZL15INSTRUMENTS_ENDjyyyy.3125
+- __ZL15INSTRUMENTS_ENDjyyyy.3201
+- __ZL15INSTRUMENTS_ENDjyyyy.332
+- __ZL15INSTRUMENTS_ENDjyyyy.3439
+- __ZL15INSTRUMENTS_ENDjyyyy.3561
+- __ZL15INSTRUMENTS_ENDjyyyy.3577
+- __ZL15INSTRUMENTS_ENDjyyyy.3583
+- __ZL15INSTRUMENTS_ENDjyyyy.3833
+- __ZL15INSTRUMENTS_ENDjyyyy.4032
+- __ZL15INSTRUMENTS_ENDjyyyy.4042
+- __ZL15INSTRUMENTS_ENDjyyyy.4104
+- __ZL15INSTRUMENTS_ENDjyyyy.4293
+- __ZL15INSTRUMENTS_ENDjyyyy.4354
+- __ZL15INSTRUMENTS_ENDjyyyy.4536
+- __ZL15INSTRUMENTS_ENDjyyyy.458
+- __ZL15INSTRUMENTS_ENDjyyyy.4906
+- __ZL15INSTRUMENTS_ENDjyyyy.5121
+- __ZL15INSTRUMENTS_ENDjyyyy.5303
+- __ZL15INSTRUMENTS_ENDjyyyy.544
+- __ZL15INSTRUMENTS_ENDjyyyy.5527
+- __ZL15INSTRUMENTS_ENDjyyyy.6001
+- __ZL15INSTRUMENTS_ENDjyyyy.6149
+- __ZL15INSTRUMENTS_ENDjyyyy.6253
+- __ZL15INSTRUMENTS_ENDjyyyy.6485
+- __ZL15INSTRUMENTS_ENDjyyyy.6824
+- __ZL15INSTRUMENTS_ENDjyyyy.700
+- __ZL15INSTRUMENTS_ENDjyyyy.7100
+- __ZL15INSTRUMENTS_ENDjyyyy.714
+- __ZL15INSTRUMENTS_ENDjyyyy.7286
+- __ZL15INSTRUMENTS_ENDjyyyy.7402
+- __ZL15INSTRUMENTS_ENDjyyyy.7425
+- __ZL15INSTRUMENTS_ENDjyyyy.7613
+- __ZL15INSTRUMENTS_ENDjyyyy.7619
+- __ZL15INSTRUMENTS_ENDjyyyy.7755
+- __ZL15INSTRUMENTS_ENDjyyyy.7778
+- __ZL15INSTRUMENTS_ENDjyyyy.7803
+- __ZL15INSTRUMENTS_ENDjyyyy.8003
+- __ZL15INSTRUMENTS_ENDjyyyy.8261
+- __ZL15INSTRUMENTS_ENDjyyyy.8302
+- __ZL15INSTRUMENTS_ENDjyyyy.8351
+- __ZL15INSTRUMENTS_ENDjyyyy.8462
+- __ZL15INSTRUMENTS_ENDjyyyy.8621
+- __ZL15INSTRUMENTS_ENDjyyyy.8808
+- __ZL15INSTRUMENTS_ENDjyyyy.8814
+- __ZL15INSTRUMENTS_ENDjyyyy.8873
+- __ZL15INSTRUMENTS_ENDjyyyy.8884
+- __ZL15INSTRUMENTS_ENDjyyyy.9036
+- __ZL15INSTRUMENTS_ENDjyyyy.9441
+- __ZL15INSTRUMENTS_ENDjyyyy.9468
+- __ZL15INSTRUMENTS_ENDjyyyy.9640
+- __ZL15INSTRUMENTS_ENDjyyyy.9666
+- __ZL15INSTRUMENTS_ENDjyyyy.968
+- __ZL15INSTRUMENTS_ENDjyyyy.9915
+- __ZL17INSTRUMENTS_EVENTjyyyy.10438
+- __ZL17INSTRUMENTS_EVENTjyyyy.10504
+- __ZL17INSTRUMENTS_EVENTjyyyy.10687
+- __ZL17INSTRUMENTS_EVENTjyyyy.1087
+- __ZL17INSTRUMENTS_EVENTjyyyy.10906
+- __ZL17INSTRUMENTS_EVENTjyyyy.1220
+- __ZL17INSTRUMENTS_EVENTjyyyy.1282
+- __ZL17INSTRUMENTS_EVENTjyyyy.1511
+- __ZL17INSTRUMENTS_EVENTjyyyy.1618
+- __ZL17INSTRUMENTS_EVENTjyyyy.1829
+- __ZL17INSTRUMENTS_EVENTjyyyy.1861
+- __ZL17INSTRUMENTS_EVENTjyyyy.2028
+- __ZL17INSTRUMENTS_EVENTjyyyy.2217
+- __ZL17INSTRUMENTS_EVENTjyyyy.246
+- __ZL17INSTRUMENTS_EVENTjyyyy.2464
+- __ZL17INSTRUMENTS_EVENTjyyyy.252
+- __ZL17INSTRUMENTS_EVENTjyyyy.263
+- __ZL17INSTRUMENTS_EVENTjyyyy.2676
+- __ZL17INSTRUMENTS_EVENTjyyyy.2751
+- __ZL17INSTRUMENTS_EVENTjyyyy.2799
+- __ZL17INSTRUMENTS_EVENTjyyyy.2886
+- __ZL17INSTRUMENTS_EVENTjyyyy.2919
+- __ZL17INSTRUMENTS_EVENTjyyyy.2926
+- __ZL17INSTRUMENTS_EVENTjyyyy.3126
+- __ZL17INSTRUMENTS_EVENTjyyyy.3202
+- __ZL17INSTRUMENTS_EVENTjyyyy.333
+- __ZL17INSTRUMENTS_EVENTjyyyy.3440
+- __ZL17INSTRUMENTS_EVENTjyyyy.3562
+- __ZL17INSTRUMENTS_EVENTjyyyy.3578
+- __ZL17INSTRUMENTS_EVENTjyyyy.3584
+- __ZL17INSTRUMENTS_EVENTjyyyy.3834
+- __ZL17INSTRUMENTS_EVENTjyyyy.4033
+- __ZL17INSTRUMENTS_EVENTjyyyy.4043
+- __ZL17INSTRUMENTS_EVENTjyyyy.4105
+- __ZL17INSTRUMENTS_EVENTjyyyy.4294
+- __ZL17INSTRUMENTS_EVENTjyyyy.4355
+- __ZL17INSTRUMENTS_EVENTjyyyy.4537
+- __ZL17INSTRUMENTS_EVENTjyyyy.459
+- __ZL17INSTRUMENTS_EVENTjyyyy.4907
+- __ZL17INSTRUMENTS_EVENTjyyyy.5122
+- __ZL17INSTRUMENTS_EVENTjyyyy.5304
+- __ZL17INSTRUMENTS_EVENTjyyyy.545
+- __ZL17INSTRUMENTS_EVENTjyyyy.5528
+- __ZL17INSTRUMENTS_EVENTjyyyy.6002
+- __ZL17INSTRUMENTS_EVENTjyyyy.6150
+- __ZL17INSTRUMENTS_EVENTjyyyy.6254
+- __ZL17INSTRUMENTS_EVENTjyyyy.6486
+- __ZL17INSTRUMENTS_EVENTjyyyy.6825
+- __ZL17INSTRUMENTS_EVENTjyyyy.701
+- __ZL17INSTRUMENTS_EVENTjyyyy.7101
+- __ZL17INSTRUMENTS_EVENTjyyyy.715
+- __ZL17INSTRUMENTS_EVENTjyyyy.7287
+- __ZL17INSTRUMENTS_EVENTjyyyy.7403
+- __ZL17INSTRUMENTS_EVENTjyyyy.7426
+- __ZL17INSTRUMENTS_EVENTjyyyy.7614
+- __ZL17INSTRUMENTS_EVENTjyyyy.7620
+- __ZL17INSTRUMENTS_EVENTjyyyy.7756
+- __ZL17INSTRUMENTS_EVENTjyyyy.7779
+- __ZL17INSTRUMENTS_EVENTjyyyy.7804
+- __ZL17INSTRUMENTS_EVENTjyyyy.8004
+- __ZL17INSTRUMENTS_EVENTjyyyy.8262
+- __ZL17INSTRUMENTS_EVENTjyyyy.8303
+- __ZL17INSTRUMENTS_EVENTjyyyy.8352
+- __ZL17INSTRUMENTS_EVENTjyyyy.8463
+- __ZL17INSTRUMENTS_EVENTjyyyy.8622
+- __ZL17INSTRUMENTS_EVENTjyyyy.8809
+- __ZL17INSTRUMENTS_EVENTjyyyy.8815
+- __ZL17INSTRUMENTS_EVENTjyyyy.8874
+- __ZL17INSTRUMENTS_EVENTjyyyy.8885
+- __ZL17INSTRUMENTS_EVENTjyyyy.9037
+- __ZL17INSTRUMENTS_EVENTjyyyy.9442
+- __ZL17INSTRUMENTS_EVENTjyyyy.9469
+- __ZL17INSTRUMENTS_EVENTjyyyy.9641
+- __ZL17INSTRUMENTS_EVENTjyyyy.9667
+- __ZL17INSTRUMENTS_EVENTjyyyy.969
+- __ZL17INSTRUMENTS_EVENTjyyyy.9916
+- __ZL17INSTRUMENTS_STARTjyyyy.10439
+- __ZL17INSTRUMENTS_STARTjyyyy.10505
+- __ZL17INSTRUMENTS_STARTjyyyy.10688
+- __ZL17INSTRUMENTS_STARTjyyyy.1088
+- __ZL17INSTRUMENTS_STARTjyyyy.10907
+- __ZL17INSTRUMENTS_STARTjyyyy.1221
+- __ZL17INSTRUMENTS_STARTjyyyy.1283
+- __ZL17INSTRUMENTS_STARTjyyyy.1512
+- __ZL17INSTRUMENTS_STARTjyyyy.1619
+- __ZL17INSTRUMENTS_STARTjyyyy.1830
+- __ZL17INSTRUMENTS_STARTjyyyy.1862
+- __ZL17INSTRUMENTS_STARTjyyyy.2029
+- __ZL17INSTRUMENTS_STARTjyyyy.2218
+- __ZL17INSTRUMENTS_STARTjyyyy.2465
+- __ZL17INSTRUMENTS_STARTjyyyy.247
+- __ZL17INSTRUMENTS_STARTjyyyy.253
+- __ZL17INSTRUMENTS_STARTjyyyy.264
+- __ZL17INSTRUMENTS_STARTjyyyy.2677
+- __ZL17INSTRUMENTS_STARTjyyyy.2752
+- __ZL17INSTRUMENTS_STARTjyyyy.2800
+- __ZL17INSTRUMENTS_STARTjyyyy.2887
+- __ZL17INSTRUMENTS_STARTjyyyy.2920
+- __ZL17INSTRUMENTS_STARTjyyyy.2927
+- __ZL17INSTRUMENTS_STARTjyyyy.3127
+- __ZL17INSTRUMENTS_STARTjyyyy.3203
+- __ZL17INSTRUMENTS_STARTjyyyy.334
+- __ZL17INSTRUMENTS_STARTjyyyy.3441
+- __ZL17INSTRUMENTS_STARTjyyyy.3563
+- __ZL17INSTRUMENTS_STARTjyyyy.3579
+- __ZL17INSTRUMENTS_STARTjyyyy.3585
+- __ZL17INSTRUMENTS_STARTjyyyy.3835
+- __ZL17INSTRUMENTS_STARTjyyyy.4034
+- __ZL17INSTRUMENTS_STARTjyyyy.4044
+- __ZL17INSTRUMENTS_STARTjyyyy.4106
+- __ZL17INSTRUMENTS_STARTjyyyy.4295
+- __ZL17INSTRUMENTS_STARTjyyyy.4356
+- __ZL17INSTRUMENTS_STARTjyyyy.4538
+- __ZL17INSTRUMENTS_STARTjyyyy.460
+- __ZL17INSTRUMENTS_STARTjyyyy.4908
+- __ZL17INSTRUMENTS_STARTjyyyy.5123
+- __ZL17INSTRUMENTS_STARTjyyyy.5305
+- __ZL17INSTRUMENTS_STARTjyyyy.546
+- __ZL17INSTRUMENTS_STARTjyyyy.5529
+- __ZL17INSTRUMENTS_STARTjyyyy.6003
+- __ZL17INSTRUMENTS_STARTjyyyy.6151
+- __ZL17INSTRUMENTS_STARTjyyyy.6255
+- __ZL17INSTRUMENTS_STARTjyyyy.6487
+- __ZL17INSTRUMENTS_STARTjyyyy.6826
+- __ZL17INSTRUMENTS_STARTjyyyy.702
+- __ZL17INSTRUMENTS_STARTjyyyy.7102
+- __ZL17INSTRUMENTS_STARTjyyyy.716
+- __ZL17INSTRUMENTS_STARTjyyyy.7288
+- __ZL17INSTRUMENTS_STARTjyyyy.7404
+- __ZL17INSTRUMENTS_STARTjyyyy.7427
+- __ZL17INSTRUMENTS_STARTjyyyy.7615
+- __ZL17INSTRUMENTS_STARTjyyyy.7621
+- __ZL17INSTRUMENTS_STARTjyyyy.7757
+- __ZL17INSTRUMENTS_STARTjyyyy.7780
+- __ZL17INSTRUMENTS_STARTjyyyy.7805
+- __ZL17INSTRUMENTS_STARTjyyyy.8005
+- __ZL17INSTRUMENTS_STARTjyyyy.8263
+- __ZL17INSTRUMENTS_STARTjyyyy.8304
+- __ZL17INSTRUMENTS_STARTjyyyy.8353
+- __ZL17INSTRUMENTS_STARTjyyyy.8464
+- __ZL17INSTRUMENTS_STARTjyyyy.8623
+- __ZL17INSTRUMENTS_STARTjyyyy.8810
+- __ZL17INSTRUMENTS_STARTjyyyy.8816
+- __ZL17INSTRUMENTS_STARTjyyyy.8875
+- __ZL17INSTRUMENTS_STARTjyyyy.8886
+- __ZL17INSTRUMENTS_STARTjyyyy.9038
+- __ZL17INSTRUMENTS_STARTjyyyy.9443
+- __ZL17INSTRUMENTS_STARTjyyyy.9470
+- __ZL17INSTRUMENTS_STARTjyyyy.9642
+- __ZL17INSTRUMENTS_STARTjyyyy.9668
+- __ZL17INSTRUMENTS_STARTjyyyy.970
+- __ZL17INSTRUMENTS_STARTjyyyy.9917
+- __ZNSt12length_errorC1B9foe210106EPKc
+- __ZNSt3__110shared_ptrIN3jpc9IIFABlock9IFAOutputEED1B9foe210106Ev
+- __ZNSt3__110shared_ptrIN3jpc9IIFABlock9IFAOutputEED2B9foe210106Ev
+- __ZNSt3__110unique_ptrIN3jpc9IIFABlock9IFAOutputENS_14default_deleteIS3_EEED2B9foe210106Ev
+- __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeIm20PixelBufferSharedPtrEEPvEENS_22__hash_node_destructorINS_9allocatorIS6_EEEEED1B9foe210106Ev
+- __ZNSt3__112__tuple_implINS_15__tuple_indicesIJLm0ELm1ELm2ELm3ELm4ELm5EEEEJbffNS_6vectorIfNS_9allocatorIfEEEES6_NS3_I31ADDisparityToDepthFitWorldPointNS4_IS7_EEEEEEC2B9foe210106IJLm0ELm1ELm2ELm3ELm4ELm5EEJbffS6_S6_S9_EJEJEJbiiRS6_SC_RKS9_EEENS1_IJXspT_EEEENS_13__tuple_typesIJDpT0_EEENS1_IJXspT1_EEEENSG_IJDpT2_EEEDpOT3_
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_length_errorB9foe210106Ev
+- __ZNSt3__113__nth_elementB9foe210106INS_17_ClassicAlgPolicyERNS_6__lessIvvEENS_11__wrap_iterIPfEEEEvT1_S8_S8_T0_
+- __ZNSt3__113unordered_setIiNS_4hashIiEENS_8equal_toIiEENS_9allocatorIiEEED1B9foe210106Ev
+- __ZNSt3__113unordered_setImNS_4hashImEENS_8equal_toImEENS_9allocatorImEEED1B9foe210106Ev
+- __ZNSt3__115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEE15__init_buf_ptrsB9foe210106Ev
+- __ZNSt3__119basic_ostringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEC1B9foe210106Ev
+- __ZNSt3__120__throw_length_errorB9foe210106EPKc
+- __ZNSt3__124__put_character_sequenceB9foe210106IcNS_11char_traitsIcEEEERNS_13basic_ostreamIT_T0_EES7_PKS4_m
+- __ZNSt3__125__throw_bad_function_callB9foe210106Ev
+- __ZNSt3__128__exception_guard_exceptionsINS_6vectorI11MatrixNxPtsILj1EdENS_9allocatorIS3_EEE16__destroy_vectorEED2B9foe210106Ev
+- __ZNSt3__128__exception_guard_exceptionsINS_6vectorINS1_IiNS_9allocatorIiEEEENS2_IS4_EEE16__destroy_vectorEED2B9foe210106Ev
+- __ZNSt3__132__internal_log_hardening_failureEPKc
+- __ZNSt3__16vectorI11MatrixNxPtsILj1EdENS_9allocatorIS2_EEE20__throw_length_errorB9foe210106Ev
+- __ZNSt3__16vectorI31ADDisparityToDepthFitWorldPointNS_9allocatorIS1_EEE20__throw_length_errorB9foe210106Ev
+- __ZNSt3__16vectorI7CGPointNS_9allocatorIS1_EEE20__throw_length_errorB9foe210106Ev
+- __ZNSt3__16vectorIDv3_fNS_9allocatorIS1_EEE20__throw_length_errorB9foe210106Ev
+- __ZNSt3__16vectorIN3jpc18IPreprocessorBlock19PearlCorrespondenceENS_9allocatorIS3_EEE20__throw_length_errorB9foe210106Ev
+- __ZNSt3__16vectorIN3jpc18IPreprocessorBlock25PearlJasperCorrespondenceENS_9allocatorIS3_EEE20__throw_length_errorB9foe210106Ev
+- __ZNSt3__16vectorIN3jpc9IIFABlock22IFAPearlCorrespondenceENS_9allocatorIS3_EEE18__assign_with_sizeB9foe210106IPS3_S8_EEvT_T0_l
+- __ZNSt3__16vectorIN3jpc9IIFABlock22IFAPearlCorrespondenceENS_9allocatorIS3_EEE20__throw_length_errorB9foe210106Ev
+- __ZNSt3__16vectorIN3jpc9IIFABlock28IFAPearlJasperCorrespondenceENS_9allocatorIS3_EEE18__assign_with_sizeB9foe210106IPS3_S8_EEvT_T0_l
+- __ZNSt3__16vectorIN3jpc9IIFABlock28IFAPearlJasperCorrespondenceENS_9allocatorIS3_EEE20__throw_length_errorB9foe210106Ev
+- __ZNSt3__16vectorINS0_IfNS_9allocatorIfEEEENS1_IS3_EEE20__throw_length_errorB9foe210106Ev
+- __ZNSt3__16vectorINS0_IiNS_9allocatorIiEEEENS1_IS3_EEE20__throw_length_errorB9foe210106Ev
+- __ZNSt3__16vectorINS0_IiNS_9allocatorIiEEEENS1_IS3_EEED1B9foe210106Ev
+- __ZNSt3__16vectorINS0_IiNS_9allocatorIiEEEENS1_IS3_EEED2B9foe210106Ev
+- __ZNSt3__16vectorINS_10unique_ptrIN3jpc11IIFA_FilterENS_14default_deleteIS3_EEEENS_9allocatorIS6_EEE20__throw_length_errorB9foe210106Ev
+- __ZNSt3__16vectorINS_10unique_ptrIN3jpc11IIFA_FilterENS_14default_deleteIS3_EEEENS_9allocatorIS6_EEED2B9foe210106Ev
+- __ZNSt3__16vectorINS_10unique_ptrIN3jpc15IFAPullCriteriaENS_14default_deleteIS3_EEEENS_9allocatorIS6_EEE20__throw_length_errorB9foe210106Ev
+- __ZNSt3__16vectorINS_10unique_ptrIN3jpc15IFAPullCriteriaENS_14default_deleteIS3_EEEENS_9allocatorIS6_EEED2B9foe210106Ev
+- __ZNSt3__16vectorIU8__strongP8NSStringNS_9allocatorIS3_EEE20__throw_length_errorB9foe210106Ev
+- __ZNSt3__16vectorIU8__strongP8NSStringNS_9allocatorIS3_EEED2B9foe210106Ev
+- __ZNSt3__16vectorIbNS_9allocatorIbEEE20__throw_length_errorB9foe210106Ev
+- __ZNSt3__16vectorIdNS_9allocatorIdEEE20__throw_length_errorB9foe210106Ev
+- __ZNSt3__16vectorIfNS_9allocatorIfEEE18__assign_with_sizeB9foe210106IPfS5_EEvT_T0_l
+- __ZNSt3__16vectorIfNS_9allocatorIfEEE20__throw_length_errorB9foe210106Ev
+- __ZNSt3__16vectorIhNS_9allocatorIhEEE20__throw_length_errorB9foe210106Ev
+- __ZNSt3__16vectorIiNS_9allocatorIiEEE20__throw_length_errorB9foe210106Ev
+- __ZNSt3__16vectorIiNS_9allocatorIiEEE9push_backB9foe210106EOi
+- __ZNSt3__16vectorIjNS_9allocatorIjEEE20__throw_length_errorB9foe210106Ev
+- __ZNSt3__16vectorImNS_9allocatorImEEE20__throw_length_errorB9foe210106Ev
+- __ZNSt3__16vectorItNS_9allocatorItEEE20__throw_length_errorB9foe210106Ev
+- __ZSt28__throw_bad_array_new_lengthB9foe210106v
+- ___block_literal_global.10010
+- ___block_literal_global.270
+- ___block_literal_global.272
+- ___block_literal_global.274
+- ___block_literal_global.5084
+- ___block_literal_global.7374
+- ___block_literal_global.7994
+Functions:
+~ -[ADEmbeddings embedValuesUsingFourierEncoding:outputBuffer:outputChannelOffset:outputBatchOffset:] : 12408 -> 12488
+~ -[ADEmbeddings initWithFrequencies:sourceFactor:] : 380 -> 428
+~ -[ADWorldToImageProjection projectPoints:count:] : 192 -> 144
+~ -[ADJasperPearlInFieldCalibrationPipeline setGMCJResult:result:temperature:] : 712 -> 676
+~ __ZN3jpc12JPCException20generateExceptionStrEv : 1200 -> 1184
+~ __Z23floatToStringScientificf : 1300 -> 1272
+~ __ZN7BucketsC2ERKNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEENS0_6vectorIfNS4_IfEEEE : 1584 -> 1516
+~ __ZNK7Buckets13getBucketNameEf : 388 -> 200
+~ __ZN14GMC_DebugUtils19getDebugPathForFileERKNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEES8_b : 980 -> 960
+~ __ZN3jpc19GMC_StandaloneUtils49convertJpcCorrespondencesToGmcStandaloneDatatypesERKNSt3__16vectorINS_9IIFABlock28IFAPearlJasperCorrespondenceENS1_9allocatorIS4_EEEERKNS2_INS3_22IFAPearlCorrespondenceENS5_ISA_EEEE : 1792 -> 1796
+~ __ZN16DisparityToDepth17RansacLine2DModel3fitERKNSt3__16vectorIfNS1_9allocatorIfEEEES7_ : 1452 -> 1464
+~ __ZN16DisparityToDepth6RansacIffE3fitERKNSt3__16vectorIfNS2_9allocatorIfEEEES8_ : 4448 -> 4188
+~ __ZN12_GLOBAL__N_113absoluteErrorERKNSt3__16vectorIfNS0_9allocatorIfEEEES6_ : 464 -> 400
+~ __ZN12_GLOBAL__N_122calculateRSquaredScoreERKNSt3__16vectorIfNS0_9allocatorIfEEEES6_ : 1012 -> 888
+~ __ZNSt3__113__nth_elementB9foe210106INS_17_ClassicAlgPolicyERNS_6__lessIvvEENS_11__wrap_iterIPfEEEEvT1_S8_S8_T0_ -> __ZNSt3__113__nth_elementB9nqe210106INS_17_ClassicAlgPolicyERNS_6__lessIvvEENS_11__wrap_iterIPfEEEEvT1_S8_S8_T0_ : 1048 -> 812
+~ __ZZN16DisparityToDepth20VioProjectionFactory6createERK13simd_float3x3RKDv3_fNSt3__18functionIFNS7_6vectorI7CGPointNS7_9allocatorISA_EEEERKNS9_IS4_NSB_IS4_EEEEEEEEN17VioProjectionImpl7projectEPS5_m : 624 -> 376
+~ -[ADJasperPearlInFieldCalibrationInterSessionData insertEntryToDiagnosticPipelineLog:] : 2128 -> 2084
+~ -[ADJasperPearlInFieldCalibrationInterSessionData persistenceData] : 596 -> 496
+~ __ZNK3jpc19IFASimpleAggregator4pullEPNS_6IFA_DBEPK19ADCameraCalibration : 5212 -> 4568
+~ __ZNSt3__16vectorIiNS_9allocatorIiEEE9push_backB9foe210106EOi -> __ZNSt3__16vectorIiNS_9allocatorIiEEE9push_backB9nqe210106EOi : 240 -> 232
+~ __ZNK3jpc19IFASimpleAggregator5applyEPNS_13IFA_DataFrameEPNS_6IFA_DBE : 2260 -> 1592
+~ +[ADJasperPearlInFieldCalibrationTelemetry reportTelemetry:firstTimeEvent:] : 5348 -> 6300
+~ __ZNK3jpc3JPC3runERKNS_12JpcInputDataEP47ADJasperPearlInFieldCalibrationInterSessionDataRNSt3__18optionalINS_11IGMC_JBlock11GmcjOutputsEEERNS7_INS_9IGLABlock9GLAOutputEEEP26ADJasperPearlTelemetryData : 3092 -> 2984
+~ __ZNK3jpc3JPC18undistortRefPointsERKNS_12JpcInputDataENSt3__110shared_ptrINS_9IIFABlock9IFAOutputEEE : 768 -> 544
+~ -[ADJasperColorInFieldCalibrationPipeline isSDF:] : 1056 -> 988
+~ -[ADJasperColorInFieldCalibrationPipeline updateLastKnownDepthMap:] : 2232 -> 1444
+~ __ZN3jpc20IFAJConfidenceFilter5applyEPNS_13IFA_DataFrameEPNS_6IFA_DBEP26ADJasperPearlTelemetryData : 808 -> 688
+~ __ZN3jpc20IFAJDepthRangeFilter5applyEPNS_13IFA_DataFrameEPNS_6IFA_DBEP26ADJasperPearlTelemetryData : 868 -> 704
+~ __ZN3jpc20IFAPJDepthDiffFilter5applyEPNS_13IFA_DataFrameEPNS_6IFA_DBEP26ADJasperPearlTelemetryData : 2440 -> 2100
+~ __ZN3jpc26IFAPJWorkDistOverlapFilter5applyEPNS_13IFA_DataFrameEPNS_6IFA_DBEP26ADJasperPearlTelemetryData : 880 -> 772
+~ __ZN3jpc17IFAPRGScoreFilter5applyEPNS_13IFA_DataFrameEPNS_6IFA_DBEP26ADJasperPearlTelemetryData : 1032 -> 824
+~ __ZN3jpc23IFAPLocalDepthVarFilter5applyEPNS_13IFA_DataFrameEPNS_6IFA_DBEP26ADJasperPearlTelemetryData : 1324 -> 1268
+~ __ZN3jpc23IFAPLocalDepthVarFilter17check_local_depthENS_17Real2DCoordinatesEmmmPtRNSt3__16vectorItNS3_9allocatorItEEEE : 812 -> 800
+~ __ZN3jpc24IFASpatialCoverageFilter5applyEPNS_13IFA_DataFrameEPNS_6IFA_DBEP26ADJasperPearlTelemetryData : 3496 -> 2976
+~ __ZN3jpc13IFA_DataFrame4initEv : 1592 -> 1320
+~ __ZN3jpc13IFA_DataFrame12initPearlPtsEv : 1044 -> 816
+~ __ZNK3jpc20PORPreprocessorBlock48interpolateDownscaledDxDyForNonIntegerCoordinateERKNS_17Real2DCoordinatesERKNS_12JpcInputDataERNSt3__14pairIffEERh : 520 -> 488
+~ __ZN14JacobianMatrix17createNzPerColumnEmmbbbb : 564 -> 492
+~ __ZNK14JacobianMatrix11qlDecomposeERK11MatrixNxPtsILj1EdE : 11416 -> 9872
+~ __Z22findJasperMisalignmentRK11MatrixNxPtsILj1EdES2_RfS3_ : 624 -> 600
+~ __ZNK3jpc24IFADepthCoverageCriteria5applyEPNS_6IFA_DBEPK19ADCameraCalibration : 1244 -> 1188
+~ __ZNK3jpc25IFAJPtsIDCoverageCriteria5applyEPNS_6IFA_DBEPK19ADCameraCalibration : 1060 -> 904
+~ __ZNK3jpc27IFAPearlFovCoverageCriteria5applyEPNS_6IFA_DBEPK19ADCameraCalibration : 1300 -> 1168
+~ __ZNK3jpc11PORIFABlock20processTelemetryDataERKNS_9IIFABlock9IFAOutputEP47ADJasperPearlInFieldCalibrationInterSessionDataP26ADJasperPearlTelemetryData : 512 -> 484
+~ __ZN16PixelBufferUtils19pixelFormatAsStringEj : 1648 -> 1636
+~ +[ADNormals normalsFromDepth:focalLength:principalPoint:normalsOutput:withHelperBuffer:] : 15100 -> 7128
+CStrings:
+- "/AppleInternal/Library/BuildRoots/4~CJRlugATZUxrvecjwAmNoMNIAVF5px5BcTiMkeA/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__algorithm/nth_element.h:122: libc++ Hardening assertion __i != __last failed: Would read out of bounds, does your comparator satisfy the strict-weak ordering requirement?\n"
+- "/AppleInternal/Library/BuildRoots/4~CJRlugATZUxrvecjwAmNoMNIAVF5px5BcTiMkeA/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__algorithm/nth_element.h:127: libc++ Hardening assertion __j != __first failed: Would read out of bounds, does your comparator satisfy the strict-weak ordering requirement?\n"
+- "/AppleInternal/Library/BuildRoots/4~CJRlugATZUxrvecjwAmNoMNIAVF5px5BcTiMkeA/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__algorithm/nth_element.h:158: libc++ Hardening assertion __i != __last failed: Would read out of bounds, does your comparator satisfy the strict-weak ordering requirement?\n"
+- "/AppleInternal/Library/BuildRoots/4~CJRlugATZUxrvecjwAmNoMNIAVF5px5BcTiMkeA/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__algorithm/nth_element.h:164: libc++ Hardening assertion __j != __first failed: Would read out of bounds, does your comparator satisfy the strict-weak ordering requirement?\n"
+- "/AppleInternal/Library/BuildRoots/4~CJRlugATZUxrvecjwAmNoMNIAVF5px5BcTiMkeA/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__bit_reference:111: libc++ Hardening assertion __ctz + __clz < sizeof(_StorageType) * 8 failed: __fill_masked_range called with invalid range\n"
+- "/AppleInternal/Library/BuildRoots/4~CJRlugATZUxrvecjwAmNoMNIAVF5px5BcTiMkeA/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__memory/unique_ptr.h:582: libc++ Hardening assertion __checker_.__in_bounds<deleter_type>(std::__to_address(__ptr_), __i) failed: unique_ptr<T[]>::operator[](index): index out of range\n"
+- "/AppleInternal/Library/BuildRoots/4~CJRlugATZUxrvecjwAmNoMNIAVF5px5BcTiMkeA/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__vector/vector.h:406: libc++ Hardening assertion __n < size() failed: vector[] index out of bounds\n"
+- "/AppleInternal/Library/BuildRoots/4~CJRlugATZUxrvecjwAmNoMNIAVF5px5BcTiMkeA/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__vector/vector.h:410: libc++ Hardening assertion __n < size() failed: vector[] index out of bounds\n"
+- "/AppleInternal/Library/BuildRoots/4~CJRlugATZUxrvecjwAmNoMNIAVF5px5BcTiMkeA/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__vector/vector_bool.h:282: libc++ Hardening assertion __n < size() failed: vector<bool>::operator[] index out of bounds\n"
+- "/AppleInternal/Library/BuildRoots/4~CJRlugATZUxrvecjwAmNoMNIAVF5px5BcTiMkeA/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/optional:796: libc++ Hardening assertion this->has_value() failed: optional operator-> called on a disengaged value\n"
+- "/AppleInternal/Library/BuildRoots/4~CJRlugATZUxrvecjwAmNoMNIAVF5px5BcTiMkeA/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/string_view:341: libc++ Hardening assertion (__end - __begin) >= 0 failed: std::string_view::string_view(iterator, sentinel) received invalid range\n"
+
+```

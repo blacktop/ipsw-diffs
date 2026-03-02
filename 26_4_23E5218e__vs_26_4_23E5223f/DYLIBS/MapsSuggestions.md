@@ -1,0 +1,178 @@
+## MapsSuggestions
+
+> `/System/Library/PrivateFrameworks/MapsSuggestions.framework/MapsSuggestions`
+
+```diff
+
+-2921.34.7.17.53
+-  __TEXT.__text: 0x183854
+-  __TEXT.__auth_stubs: 0x1bb0
++2921.34.7.17.55
++  __TEXT.__text: 0x18376c
++  __TEXT.__auth_stubs: 0x1ba0
+   __TEXT.__objc_methlist: 0x9db8
+   __TEXT.__const: 0x1468
+   __TEXT.__gcc_except_tab: 0x151e4
+-  __TEXT.__cstring: 0x2c330
++  __TEXT.__cstring: 0x2bd30
+   __TEXT.__oslogstring: 0x1618f
+   __TEXT.__ustring: 0x39c
+   __TEXT.__dlopen_cstrs: 0xb0
+
+   __TEXT.__unwind_info: 0x63d0
+   __TEXT.__eh_frame: 0xf70
+   __TEXT.__objc_classname: 0x2f6b
+-  __TEXT.__objc_methname: 0x15081
++  __TEXT.__objc_methname: 0x150c1
+   __TEXT.__objc_methtype: 0x6dfb
+-  __TEXT.__objc_stubs: 0xbe00
++  __TEXT.__objc_stubs: 0xbe20
+   __DATA_CONST.__got: 0x1040
+-  __DATA_CONST.__const: 0xf208
++  __DATA_CONST.__const: 0xf218
+   __DATA_CONST.__objc_classlist: 0x7a0
+   __DATA_CONST.__objc_catlist: 0x28
+   __DATA_CONST.__objc_protolist: 0x370
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x4700
++  __DATA_CONST.__objc_selrefs: 0x4708
+   __DATA_CONST.__objc_protorefs: 0x148
+   __DATA_CONST.__objc_superrefs: 0x438
+   __DATA_CONST.__objc_arraydata: 0x88
+-  __AUTH_CONST.__auth_got: 0xdf0
++  __AUTH_CONST.__auth_got: 0xde8
+   __AUTH_CONST.__const: 0x84e0
+-  __AUTH_CONST.__cfstring: 0xdf80
++  __AUTH_CONST.__cfstring: 0xdfc0
+   __AUTH_CONST.__objc_const: 0x176b8
+   __AUTH_CONST.__objc_intobj: 0x798
+   __AUTH_CONST.__objc_dictobj: 0x78
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 7A42ECB6-C5C9-3BDF-9336-D14B84E83288
++  UUID: 8555D42B-C844-3977-B148-8B8FE69CCFCD
+   Functions: 6249
+-  Symbols:   19262
++  Symbols:   19264
+   CStrings:  11573
+ 
+Symbols:
++ __ZNKSt3__114default_deleteIN3MSg18NotificationSenderEEclB9nqe210106EPS2_
++ __ZNSt12length_errorC1B9nqe210106EPKc
++ __ZNSt3__110unique_ptrIN3MSg20NotificationReceiverENS_14default_deleteIS2_EEE5resetB9nqe210106EPS2_
++ __ZNSt3__110unique_ptrIN3MSg5QueueENS_14default_deleteIS2_EEE5resetB9nqe210106EPS2_
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_length_errorB9nqe210106Ev
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC1B9nqe210106ILi0EEEPKc
++ __ZNSt3__113unordered_mapI25MapsSuggestionsSignalTypeN3MSg6SignalENS_4hashIS1_EENS_8equal_toIS1_EENS_9allocatorINS_4pairIKS1_S3_EEEEE16insert_or_assignB9nqe210106IRKS3_EENS9_INS_19__hash_map_iteratorINS_15__hash_iteratorIPNS_11__hash_nodeINS_17__hash_value_typeIS1_S3_EEPvEEEEEEbEERSA_OT_
++ __ZNSt3__119__allocate_at_leastB9nqe210106INS_9allocatorI24MapsSuggestionsEntryTypeEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS6_m
++ __ZNSt3__119__allocate_at_leastB9nqe210106INS_9allocatorIN3MSg24_RollingWindowBudgetRuleEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
++ __ZNSt3__119__allocate_at_leastB9nqe210106INS_9allocatorIPU8__strongP6NSDateEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS9_m
++ __ZNSt3__119__allocate_at_leastB9nqe210106INS_9allocatorIfEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS5_m
++ __ZNSt3__120__throw_length_errorB9nqe210106EPKc
++ __ZNSt3__122__hash_node_destructorINS_9allocatorINS_11__hash_nodeINS_17__hash_value_typeI25MapsSuggestionsSignalTypeN3MSg6SignalEEEPvEEEEEclB9nqe210106EPS9_
++ __ZNSt3__122__hash_node_destructorINS_9allocatorINS_11__hash_nodeINS_17__hash_value_typeI25MapsSuggestionsSignalTypeNS_6vectorIfNS1_IfEEEEEEPvEEEEEclB9nqe210106EPSA_
++ __ZNSt3__134__uninitialized_allocator_relocateB9nqe210106INS_9allocatorIN3MSg24_RollingWindowBudgetRuleEEEPS3_EEvRT_T0_S8_S8_
++ __ZNSt3__15dequeIU8__strongP6NSDateNS_9allocatorIS3_EEE26__maybe_remove_front_spareB9nqe210106Eb
++ __ZNSt3__15dequeIU8__strongP6NSDateNS_9allocatorIS3_EEED2B9nqe210106Ev
++ __ZNSt3__16vectorI24MapsSuggestionsEntryTypeNS_9allocatorIS1_EEE11__vallocateB9nqe210106Em
++ __ZNSt3__16vectorI24MapsSuggestionsEntryTypeNS_9allocatorIS1_EEE16__init_with_sizeB9nqe210106IPKS1_S7_EEvT_T0_m
++ __ZNSt3__16vectorI24MapsSuggestionsEntryTypeNS_9allocatorIS1_EEE16__init_with_sizeB9nqe210106IPS1_S6_EEvT_T0_m
++ __ZNSt3__16vectorI24MapsSuggestionsEntryTypeNS_9allocatorIS1_EEE18__assign_with_sizeB9nqe210106IPS1_S6_EEvT_T0_l
++ __ZNSt3__16vectorI24MapsSuggestionsEntryTypeNS_9allocatorIS1_EEE20__throw_length_errorB9nqe210106Ev
++ __ZNSt3__16vectorIN3MSg24_RollingWindowBudgetRuleENS_9allocatorIS2_EEE16__destroy_vectorclB9nqe210106Ev
++ __ZNSt3__16vectorIN3MSg24_RollingWindowBudgetRuleENS_9allocatorIS2_EEE20__throw_length_errorB9nqe210106Ev
++ __ZNSt3__16vectorIfNS_9allocatorIfEEE11__vallocateB9nqe210106Em
++ __ZNSt3__16vectorIfNS_9allocatorIfEEE16__init_with_sizeB9nqe210106IPKfS6_EEvT_T0_m
++ __ZNSt3__16vectorIfNS_9allocatorIfEEE20__throw_length_errorB9nqe210106Ev
++ __ZNSt3__16vectorIfNS_9allocatorIfEEEC2B9nqe210106EmRKf
++ __ZSt28__throw_bad_array_new_lengthB9nqe210106v
++ ___54-[MapsSuggestionsPredictor _openConnectionIfNecessary]_block_invoke.83
++ ___54-[MapsSuggestionsPredictor _openConnectionIfNecessary]_block_invoke.83.cold.1
++ ___54-[MapsSuggestionsPredictor _openConnectionIfNecessary]_block_invoke.84
++ ___54-[MapsSuggestionsPredictor _openConnectionIfNecessary]_block_invoke.85
++ ___54-[MapsSuggestionsPredictor _openConnectionIfNecessary]_block_invoke.85.cold.1
++ ___54-[MapsSuggestionsPredictor _openConnectionIfNecessary]_block_invoke.86
++ ___54-[MapsSuggestionsPredictor _openConnectionIfNecessary]_block_invoke.87
++ ___54-[MapsSuggestionsPredictor _openConnectionIfNecessary]_block_invoke.87.cold.1
++ ___93-[MapsSuggestionsPredictor captureActualTransportationMode:originMapItem:destinationMapItem:]_block_invoke.64
++ ___93-[MapsSuggestionsPredictor captureActualTransportationMode:originMapItem:destinationMapItem:]_block_invoke.64.cold.1
++ ___93-[MapsSuggestionsPredictor captureActualTransportationMode:originMapItem:destinationMapItem:]_block_invoke.67
++ ___95-[MapsSuggestionsPredictor predictedTransportModeForDestinationEntry:originCoordinate:handler:]_block_invoke.56
++ ___97-[MapsSuggestionsPredictor predictedTransportModeForDestinationMapItem:originCoordinate:handler:]_block_invoke.61
++ _kExperimentIDKey
++ _kExperimentTreatmentIDKey
++ _objc_msgSend$capturePredExTrainingWithChanceOfPrecipitation:chanceOfRain:chanceOfSnow:endTime:durationUntilEventEnd:durationUntilEventStart:startTime:temperature:timeOfDay:timeSinceBackgrounded:actualTransportMode:dayOfWeek:distanceFromHereToHome:distanceFromHereToOrigin:distanceFromHereToParkedCar:distanceFromHereToWork:distanceFromHere:distanceFromOriginToDestination:entryType:weatherType:mapType:predictedTransportMode:preferredTransportMode:isTourist:isCarplayConnected:isTransitPossible:userLocation:isVehicleBluetoothConnected:weatherAqi:modelName:modelVersion:modelTrainedDate:experimentationId:experimentTreatmentId:
++ _objc_msgSend$valueForKey:
+- __ZNKSt3__114default_deleteIN3MSg18NotificationSenderEEclB9foe210106EPS2_
+- __ZNSt12length_errorC1B9foe210106EPKc
+- __ZNSt3__110unique_ptrIN3MSg20NotificationReceiverENS_14default_deleteIS2_EEE5resetB9foe210106EPS2_
+- __ZNSt3__110unique_ptrIN3MSg5QueueENS_14default_deleteIS2_EEE5resetB9foe210106EPS2_
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_length_errorB9foe210106Ev
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC1B9foe210106ILi0EEEPKc
+- __ZNSt3__113unordered_mapI25MapsSuggestionsSignalTypeN3MSg6SignalENS_4hashIS1_EENS_8equal_toIS1_EENS_9allocatorINS_4pairIKS1_S3_EEEEE16insert_or_assignB9foe210106IRKS3_EENS9_INS_19__hash_map_iteratorINS_15__hash_iteratorIPNS_11__hash_nodeINS_17__hash_value_typeIS1_S3_EEPvEEEEEEbEERSA_OT_
+- __ZNSt3__119__allocate_at_leastB9foe210106INS_9allocatorI24MapsSuggestionsEntryTypeEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS6_m
+- __ZNSt3__119__allocate_at_leastB9foe210106INS_9allocatorIN3MSg24_RollingWindowBudgetRuleEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
+- __ZNSt3__119__allocate_at_leastB9foe210106INS_9allocatorIPU8__strongP6NSDateEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS9_m
+- __ZNSt3__119__allocate_at_leastB9foe210106INS_9allocatorIfEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS5_m
+- __ZNSt3__120__throw_length_errorB9foe210106EPKc
+- __ZNSt3__122__hash_node_destructorINS_9allocatorINS_11__hash_nodeINS_17__hash_value_typeI25MapsSuggestionsSignalTypeN3MSg6SignalEEEPvEEEEEclB9foe210106EPS9_
+- __ZNSt3__122__hash_node_destructorINS_9allocatorINS_11__hash_nodeINS_17__hash_value_typeI25MapsSuggestionsSignalTypeNS_6vectorIfNS1_IfEEEEEEPvEEEEEclB9foe210106EPSA_
+- __ZNSt3__132__internal_log_hardening_failureEPKc
+- __ZNSt3__134__uninitialized_allocator_relocateB9foe210106INS_9allocatorIN3MSg24_RollingWindowBudgetRuleEEEPS3_EEvRT_T0_S8_S8_
+- __ZNSt3__15dequeIU8__strongP6NSDateNS_9allocatorIS3_EEE26__maybe_remove_front_spareB9foe210106Eb
+- __ZNSt3__15dequeIU8__strongP6NSDateNS_9allocatorIS3_EEED2B9foe210106Ev
+- __ZNSt3__16vectorI24MapsSuggestionsEntryTypeNS_9allocatorIS1_EEE11__vallocateB9foe210106Em
+- __ZNSt3__16vectorI24MapsSuggestionsEntryTypeNS_9allocatorIS1_EEE16__init_with_sizeB9foe210106IPKS1_S7_EEvT_T0_m
+- __ZNSt3__16vectorI24MapsSuggestionsEntryTypeNS_9allocatorIS1_EEE16__init_with_sizeB9foe210106IPS1_S6_EEvT_T0_m
+- __ZNSt3__16vectorI24MapsSuggestionsEntryTypeNS_9allocatorIS1_EEE18__assign_with_sizeB9foe210106IPS1_S6_EEvT_T0_l
+- __ZNSt3__16vectorI24MapsSuggestionsEntryTypeNS_9allocatorIS1_EEE20__throw_length_errorB9foe210106Ev
+- __ZNSt3__16vectorIN3MSg24_RollingWindowBudgetRuleENS_9allocatorIS2_EEE16__destroy_vectorclB9foe210106Ev
+- __ZNSt3__16vectorIN3MSg24_RollingWindowBudgetRuleENS_9allocatorIS2_EEE20__throw_length_errorB9foe210106Ev
+- __ZNSt3__16vectorIfNS_9allocatorIfEEE11__vallocateB9foe210106Em
+- __ZNSt3__16vectorIfNS_9allocatorIfEEE16__init_with_sizeB9foe210106IPKfS6_EEvT_T0_m
+- __ZNSt3__16vectorIfNS_9allocatorIfEEE20__throw_length_errorB9foe210106Ev
+- __ZNSt3__16vectorIfNS_9allocatorIfEEEC2B9foe210106EmRKf
+- __ZSt28__throw_bad_array_new_lengthB9foe210106v
+- ___54-[MapsSuggestionsPredictor _openConnectionIfNecessary]_block_invoke.77
+- ___54-[MapsSuggestionsPredictor _openConnectionIfNecessary]_block_invoke.77.cold.1
+- ___54-[MapsSuggestionsPredictor _openConnectionIfNecessary]_block_invoke.78
+- ___54-[MapsSuggestionsPredictor _openConnectionIfNecessary]_block_invoke.79
+- ___54-[MapsSuggestionsPredictor _openConnectionIfNecessary]_block_invoke.79.cold.1
+- ___54-[MapsSuggestionsPredictor _openConnectionIfNecessary]_block_invoke.80
+- ___54-[MapsSuggestionsPredictor _openConnectionIfNecessary]_block_invoke.81
+- ___54-[MapsSuggestionsPredictor _openConnectionIfNecessary]_block_invoke.81.cold.1
+- ___93-[MapsSuggestionsPredictor captureActualTransportationMode:originMapItem:destinationMapItem:]_block_invoke.58
+- ___93-[MapsSuggestionsPredictor captureActualTransportationMode:originMapItem:destinationMapItem:]_block_invoke.58.cold.1
+- ___93-[MapsSuggestionsPredictor captureActualTransportationMode:originMapItem:destinationMapItem:]_block_invoke.61
+- ___95-[MapsSuggestionsPredictor predictedTransportModeForDestinationEntry:originCoordinate:handler:]_block_invoke.50
+- ___97-[MapsSuggestionsPredictor predictedTransportModeForDestinationMapItem:originCoordinate:handler:]_block_invoke.55
+- _objc_msgSend$capturePredExTrainingWithChanceOfPrecipitation:chanceOfRain:chanceOfSnow:endTime:durationUntilEventEnd:durationUntilEventStart:startTime:temperature:timeOfDay:timeSinceBackgrounded:actualTransportMode:dayOfWeek:distanceFromHereToHome:distanceFromHereToOrigin:distanceFromHereToParkedCar:distanceFromHereToWork:distanceFromHere:distanceFromOriginToDestination:entryType:weatherType:mapType:predictedTransportMode:preferredTransportMode:isTourist:isCarplayConnected:isTransitPossible:userLocation:isVehicleBluetoothConnected:weatherAqi:modelName:modelVersion:modelTrainedDate:
+Functions:
+~ __ZN3MSg24_RollingWindowBudgetRule8asStringEv : 252 -> 228
+~ __ZNSt3__15dequeIU8__strongP6NSDateNS_9allocatorIS3_EEE9pop_frontEv : 128 -> 104
+~ ___93-[MapsSuggestionsPredictor captureActualTransportationMode:originMapItem:destinationMapItem:]_block_invoke.61 -> ___93-[MapsSuggestionsPredictor captureActualTransportationMode:originMapItem:destinationMapItem:]_block_invoke.67 : 4720 -> 4820
+~ -[MapsSuggestionsSignalPack encodedFeatureDictionary] : 536 -> 496
+~ __ZNK3MSg17EnumSignalEncoderI24MapsSuggestionsEntryTypeE6encodeEf : 192 -> 140
+~ __ZNK3MSg17EnumSignalEncoderI26GEOTransportTypePreferenceE6encodeEf : 160 -> 116
+~ __ZNK3MSg17EnumSignalEncoderI10GEOMapTypeE6encodeEf : 192 -> 140
+~ __ZNK3MSg17EnumSignalEncoderI47GEOLogMsgEventPredExTrainingData_MSGWeatherTypeE6encodeEf : 192 -> 140
+~ __ZNSt3__112__hash_tableINS_17__hash_value_typeI25MapsSuggestionsSignalTypeN3MSg6SignalEEENS_22__unordered_map_hasherIS2_NS_4pairIKS2_S4_EENS_4hashIS2_EENS_8equal_toIS2_EELb1EEENS_21__unordered_map_equalIS2_S9_SD_SB_Lb1EEENS_9allocatorIS9_EEE5eraseENS_21__hash_const_iteratorIPNS_11__hash_nodeIS5_PvEEEE : 120 -> 76
+CStrings:
++ "22:23:11"
++ "Feb 24 2026"
++ "TrialExperimentID"
++ "TrialTreatmentID"
++ "capturePredExTrainingWithChanceOfPrecipitation:chanceOfRain:chanceOfSnow:endTime:durationUntilEventEnd:durationUntilEventStart:startTime:temperature:timeOfDay:timeSinceBackgrounded:actualTransportMode:dayOfWeek:distanceFromHereToHome:distanceFromHereToOrigin:distanceFromHereToParkedCar:distanceFromHereToWork:distanceFromHere:distanceFromOriginToDestination:entryType:weatherType:mapType:predictedTransportMode:preferredTransportMode:isTourist:isCarplayConnected:isTransitPossible:userLocation:isVehicleBluetoothConnected:weatherAqi:modelName:modelVersion:modelTrainedDate:experimentationId:experimentTreatmentId:"
++ "valueForKey:"
+- "/AppleInternal/Library/BuildRoots/4~CJF_ugBAf8uI667H673pbf8Hl6WuFyZjYAKtfa4/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__hash_table:1892: libc++ Hardening assertion __p != end() failed: unordered container::erase(iterator) called with a non-dereferenceable iterator\n"
+- "/AppleInternal/Library/BuildRoots/4~CJF_ugBAf8uI667H673pbf8Hl6WuFyZjYAKtfa4/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__vector/vector.h:406: libc++ Hardening assertion __n < size() failed: vector[] index out of bounds\n"
+- "/AppleInternal/Library/BuildRoots/4~CJF_ugBAf8uI667H673pbf8Hl6WuFyZjYAKtfa4/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__vector/vector.h:410: libc++ Hardening assertion __n < size() failed: vector[] index out of bounds\n"
+- "/AppleInternal/Library/BuildRoots/4~CJF_ugBAf8uI667H673pbf8Hl6WuFyZjYAKtfa4/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/deque:1553: libc++ Hardening assertion !empty() failed: deque::front called on an empty deque\n"
+- "/AppleInternal/Library/BuildRoots/4~CJF_ugBAf8uI667H673pbf8Hl6WuFyZjYAKtfa4/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/deque:2296: libc++ Hardening assertion !empty() failed: deque::pop_front called on an empty deque\n"
+- "10:58:15"
+- "Feb 15 2026"
+- "capturePredExTrainingWithChanceOfPrecipitation:chanceOfRain:chanceOfSnow:endTime:durationUntilEventEnd:durationUntilEventStart:startTime:temperature:timeOfDay:timeSinceBackgrounded:actualTransportMode:dayOfWeek:distanceFromHereToHome:distanceFromHereToOrigin:distanceFromHereToParkedCar:distanceFromHereToWork:distanceFromHere:distanceFromOriginToDestination:entryType:weatherType:mapType:predictedTransportMode:preferredTransportMode:isTourist:isCarplayConnected:isTransitPossible:userLocation:isVehicleBluetoothConnected:weatherAqi:modelName:modelVersion:modelTrainedDate:"
+
+```

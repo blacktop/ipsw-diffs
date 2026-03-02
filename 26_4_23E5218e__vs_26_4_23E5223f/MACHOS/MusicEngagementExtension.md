@@ -1,0 +1,1266 @@
+## MusicEngagementExtension
+
+> `/System/Library/ExtensionKit/Extensions/MusicEngagementExtension.appex/MusicEngagementExtension`
+
+```diff
+
+-4025.500.58.0.0
+-  __TEXT.__text: 0x4e88a8
+-  __TEXT.__auth_stubs: 0x94f0
++4025.510.63.1.0
++  __TEXT.__text: 0x4ea4e4
++  __TEXT.__auth_stubs: 0x9540
+   __TEXT.__objc_stubs: 0xcae0
+   __TEXT.__objc_methlist: 0x3cfc
+-  __TEXT.__swift5_typeref: 0x1acec
+-  __TEXT.__const: 0x2ac00
+-  __TEXT.__cstring: 0xc9e4
+-  __TEXT.__constg_swiftt: 0x110d4
+-  __TEXT.__swift5_reflstr: 0xc6e2
+-  __TEXT.__swift5_fieldmd: 0xe05c
++  __TEXT.__swift5_typeref: 0x1ae28
++  __TEXT.__const: 0x2acc0
++  __TEXT.__cstring: 0xca24
++  __TEXT.__constg_swiftt: 0x110e4
++  __TEXT.__swift5_reflstr: 0xc6b2
++  __TEXT.__swift5_fieldmd: 0xe044
+   __TEXT.__swift5_proto: 0x1970
+   __TEXT.__swift5_types: 0x1004
+   __TEXT.__swift5_entry: 0x8
+   __TEXT.__objc_classname: 0x2b2f
+   __TEXT.__objc_methname: 0x10965
+   __TEXT.__objc_methtype: 0x2c98
+-  __TEXT.__swift5_capture: 0x8598
+-  __TEXT.__oslogstring: 0x8f7a
+-  __TEXT.__swift_as_entry: 0x8bc
+-  __TEXT.__swift_as_ret: 0x778
++  __TEXT.__swift5_capture: 0x8614
++  __TEXT.__oslogstring: 0x8efa
++  __TEXT.__swift_as_entry: 0x8c4
++  __TEXT.__swift_as_ret: 0x780
+   __TEXT.__swift5_assocty: 0x2770
+   __TEXT.__swift5_builtin: 0xac8
+   __TEXT.__swift5_protos: 0x13c
+   __TEXT.__swift5_mpenum: 0x19c
+   __TEXT.__ustring: 0xec
+-  __TEXT.__unwind_info: 0x103f0
+-  __TEXT.__eh_frame: 0x15f90
+-  __DATA_CONST.__auth_got: 0x4a80
++  __TEXT.__unwind_info: 0x10440
++  __TEXT.__eh_frame: 0x15f80
++  __DATA_CONST.__auth_got: 0x4aa8
+   __DATA_CONST.__got: 0x3418
+-  __DATA_CONST.__auth_ptr: 0x32e0
+-  __DATA_CONST.__const: 0x30bf8
++  __DATA_CONST.__auth_ptr: 0x32f8
++  __DATA_CONST.__const: 0x30d70
+   __DATA_CONST.__cfstring: 0x120
+   __DATA_CONST.__objc_classlist: 0x500
+   __DATA_CONST.__objc_catlist: 0xd0
+
+   __DATA.__objc_selrefs: 0x3eb8
+   __DATA.__objc_ivar: 0x5c
+   __DATA.__objc_data: 0x8098
+-  __DATA.__data: 0x16fa0
++  __DATA.__data: 0x17040
+   __DATA.__objc_stublist: 0x18
+-  __DATA.__bss: 0x2a630
+-  __DATA.__common: 0x3e30
++  __DATA.__bss: 0x2a640
++  __DATA.__common: 0x3eb0
+   - /System/Library/Frameworks/Accelerate.framework/Accelerate
+   - /System/Library/Frameworks/BackgroundTasks.framework/BackgroundTasks
+   - /System/Library/Frameworks/Combine.framework/Combine
+
+   - /usr/lib/swift/libswift_DarwinFoundation1.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 480E8A1B-D32F-39FC-A996-5F75D1351DB9
+-  Functions: 23451
+-  Symbols:   174033
+-  CStrings:  5257
++  UUID: 31C56ECB-707B-3A0C-9504-A0A1226B46C2
++  Functions: 23490
++  Symbols:   174328
++  CStrings:  5256
+ 
+Symbols:
++ $s2os14OSLogArgumentsV6appendyySSycFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.112
++ $s2os14OSLogArgumentsV6appendyySSycFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.123
++ $s2os14OSLogArgumentsV6appendyySSycFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.131
++ $s2os14OSLogArgumentsV6appendyySSycFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.142
++ $s2os14OSLogArgumentsV6appendyySSycFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.150
++ $s2os14OSLogArgumentsV6appendyySSycFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.161
++ $s2os14OSLogArgumentsV6appendyySSycFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.172
++ $s2os14OSLogArgumentsV6appendyySSycFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.186
++ $s2os14OSLogArgumentsV6appendyySSycFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.194
++ $s2os14OSLogArgumentsV6appendyySSycFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.205
++ $s2os14OSLogArgumentsV6appendyySSycFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.216
++ $s2os14OSLogArgumentsV6appendyySSycFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.224
++ $s2os14OSLogArgumentsV6appendyySSycFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.235
++ $s2os14OSLogArgumentsV6appendyySSycFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.246
++ $s2os14OSLogArgumentsV6appendyySSycFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.257
++ $s2os14OSLogArgumentsV6appendyySSycFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.268
++ $s2os18OSLogInterpolationV06appendC0_5align7privacyySSyXA_AA0B15StringAlignmentVAA0B7PrivacyVtFSSycfu_TA.108
++ $s2os18OSLogInterpolationV06appendC0_5align7privacyySSyXA_AA0B15StringAlignmentVAA0B7PrivacyVtFSSycfu_TA.119
++ $s2os18OSLogInterpolationV06appendC0_5align7privacyySSyXA_AA0B15StringAlignmentVAA0B7PrivacyVtFSSycfu_TA.127
++ $s2os18OSLogInterpolationV06appendC0_5align7privacyySSyXA_AA0B15StringAlignmentVAA0B7PrivacyVtFSSycfu_TA.138
++ $s2os18OSLogInterpolationV06appendC0_5align7privacyySSyXA_AA0B15StringAlignmentVAA0B7PrivacyVtFSSycfu_TA.146
++ $s2os18OSLogInterpolationV06appendC0_5align7privacyySSyXA_AA0B15StringAlignmentVAA0B7PrivacyVtFSSycfu_TA.157
++ $s2os18OSLogInterpolationV06appendC0_5align7privacyySSyXA_AA0B15StringAlignmentVAA0B7PrivacyVtFSSycfu_TA.168
++ $s2os18OSLogInterpolationV06appendC0_5align7privacyySSyXA_AA0B15StringAlignmentVAA0B7PrivacyVtFSSycfu_TA.182
++ $s2os18OSLogInterpolationV06appendC0_5align7privacyySSyXA_AA0B15StringAlignmentVAA0B7PrivacyVtFSSycfu_TA.190
++ $s2os18OSLogInterpolationV06appendC0_5align7privacyySSyXA_AA0B15StringAlignmentVAA0B7PrivacyVtFSSycfu_TA.201
++ $s2os18OSLogInterpolationV06appendC0_5align7privacyySSyXA_AA0B15StringAlignmentVAA0B7PrivacyVtFSSycfu_TA.212
++ $s2os18OSLogInterpolationV06appendC0_5align7privacyySSyXA_AA0B15StringAlignmentVAA0B7PrivacyVtFSSycfu_TA.220
++ $s2os18OSLogInterpolationV06appendC0_5align7privacyySSyXA_AA0B15StringAlignmentVAA0B7PrivacyVtFSSycfu_TA.231
++ $s2os18OSLogInterpolationV06appendC0_5align7privacyySSyXA_AA0B15StringAlignmentVAA0B7PrivacyVtFSSycfu_TA.242
++ $s2os18OSLogInterpolationV06appendC0_5align7privacyySSyXA_AA0B15StringAlignmentVAA0B7PrivacyVtFSSycfu_TA.253
++ $s2os18OSLogInterpolationV06appendC0_5align7privacyySSyXA_AA0B15StringAlignmentVAA0B7PrivacyVtFSSycfu_TA.264
++ $s7LyricsX06SyncedA23VisualExperienceManagerC11updateLines8animatedAC0G12UpdateResultVSgSb_tFyycfU0_TA.207
++ $s7LyricsX06SyncedA23VisualExperienceManagerC11updateLines8animatedAC0G12UpdateResultVSgSb_tFyycfU0_TA.211
++ $s7LyricsX06SyncedA9LineLayerC015SBS_TextContentD0C0fD0C11addAnimator33_6199ED2C84AF6C925E1487713AA44194LLyyAA0d8PropertyI0CFyycfU_TA.451
++ $s7LyricsX06SyncedA9LineLayerC015SBS_TextContentD0C0fD0C11animateBlur33_6199ED2C84AF6C925E1487713AA44194LL2on4from2to8duration5delayySo7CALayerC_12CoreGraphics7CGFloatVASS2dtFySbcfU_TA.334
++ $s7LyricsX06SyncedA9LineLayerC015SBS_TextContentD0C0fD0C11animateBlur33_6199ED2C84AF6C925E1487713AA44194LL2on4from2to8duration5delayySo7CALayerC_12CoreGraphics7CGFloatVASS2dtFySbcfU_TA.354
++ $s7LyricsX06SyncedA9LineLayerC015SBS_TextContentD0C0fD0C11animateBlur33_6199ED2C84AF6C925E1487713AA44194LL2on4from2to8duration5delayySo7CALayerC_12CoreGraphics7CGFloatVASS2dtFySbcfU_TA.367
++ $s7LyricsX06SyncedA9LineLayerC13setBlurRadius_8animatedy12CoreGraphics7CGFloatV_SbtFyycfU0_TA.236
++ $s7LyricsX06SyncedA9LineLayerC13setBlurRadius_8animatedy12CoreGraphics7CGFloatV_SbtFyycfU_TA.232
++ $sIeg_ytIegr_TRTA.101
++ $sIeg_ytIegr_TRTA.108
++ $sIeg_ytIegr_TRTA.144
++ $sIeg_ytIegr_TRTA.151
++ $sIeg_ytIegr_TRTA.158
++ $sIeg_ytIegr_TRTA.165
++ $sIeg_ytIegr_TRTA.172
++ $sIeg_ytIegr_TRTA.179
++ $sIeg_ytIegr_TRTA.186
++ $sIeg_ytIegr_TRTA.193
++ $sIeg_ytIegr_TRTA.221
++ $sIeg_ytIegr_TRTA.240
++ $sIeg_ytIegr_TRTA.284
++ $sIeg_ytIegr_TRTA.291
++ $sIeg_ytIegr_TRTA.298
++ $sIeg_ytIegr_TRTA.311
++ $sIeg_ytIegr_TRTA.321
++ $sIeg_ytIegr_TRTA.347
++ $sIeg_ytIegr_TRTA.377
++ $sIeg_ytIegr_TRTA.384
++ $sIeg_ytIegr_TRTA.391
++ $sIeg_ytIegr_TRTA.401
++ $sIeg_ytIegr_TRTA.408
++ $sIeg_ytIegr_TRTA.415
++ $sIeg_ytIegr_TRTA.425
++ $sIeg_ytIegr_TRTA.432
++ $sIeg_ytIegr_TRTA.455
++ $sIeg_ytIegr_TRTA.468
++ $sIeg_ytIegr_TRTA.472
++ $sIeg_ytIegr_TRTA.87
++ $sIeg_ytIegr_TRTA.94
++ $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.83
++ $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.83TQ0_
++ $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.83Tu
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/LyricsX.build/LyricsX.build/DerivedSources/
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/LyricsX.build/LyricsX.build/Objects-normal/arm64e/Common.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/LyricsX.build/LyricsX.build/Objects-normal/arm64e/Glyph.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/LyricsX.build/LyricsX.build/Objects-normal/arm64e/LayerPropertyAnimator.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/LyricsX.build/LyricsX.build/Objects-normal/arm64e/Line.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/LyricsX.build/LyricsX.build/Objects-normal/arm64e/Lyrics.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/LyricsX.build/LyricsX.build/Objects-normal/arm64e/LyricsOptionsManager.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/LyricsX.build/LyricsX.build/Objects-normal/arm64e/LyricsSpecs.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/LyricsX.build/LyricsX.build/Objects-normal/arm64e/LyricsTextLayer.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/LyricsX.build/LyricsX.build/Objects-normal/arm64e/LyricsX.swiftmodule
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/LyricsX.build/LyricsX.build/Objects-normal/arm64e/SBS_SyncedLyricsLineLayer+Text.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/LyricsX.build/LyricsX.build/Objects-normal/arm64e/Syllable.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/LyricsX.build/LyricsX.build/Objects-normal/arm64e/SyncedLyricsLineLayer+Instrumental.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/LyricsX.build/LyricsX.build/Objects-normal/arm64e/SyncedLyricsLineLayer+Text.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/LyricsX.build/LyricsX.build/Objects-normal/arm64e/SyncedLyricsLineLayer.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/LyricsX.build/LyricsX.build/Objects-normal/arm64e/SyncedLyricsLineView_UIKit.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/LyricsX.build/LyricsX.build/Objects-normal/arm64e/SyncedLyricsManager.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/LyricsX.build/LyricsX.build/Objects-normal/arm64e/SyncedLyricsTimestampLabel.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/LyricsX.build/LyricsX.build/Objects-normal/arm64e/SyncedLyricsViewController_UIKit.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/LyricsX.build/LyricsX.build/Objects-normal/arm64e/SyncedLyricsVisualExperienceManager.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/LyricsX.build/LyricsX.build/Objects-normal/arm64e/TextContainer.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/LyricsX.build/LyricsX.build/Objects-normal/arm64e/TextKitLabel.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/LyricsX.build/LyricsX.build/Objects-normal/arm64e/Utils.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/LyricsX.build/LyricsX.build/Objects-normal/arm64e/Word.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/LyricsX.build/LyricsX.build/Objects-normal/arm64e/resource_bundle_accessor.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/Music.build/MusicEngagementExtension.build/Objects-normal/arm64e/ExtensionErrors.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/Music.build/MusicEngagementExtension.build/Objects-normal/arm64e/ExtensionRequest.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/Music.build/MusicEngagementExtension.build/Objects-normal/arm64e/MusicEngagementExtension.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/Music.build/MusicEngagementExtension.build/Objects-normal/arm64e/MusicEngagementExtension.swiftmodule
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/DerivedSources/
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/Accessibility.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/Action.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/ActionCondition.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/ActionDisplayConfiguration.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/ActionList.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/ActionType.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/Actions+AddToLibrary.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/Actions+AddToPlaylist.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/Actions+Collaborate.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/Actions+CreatePlaylist.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/Actions+DeleteFromLibrary.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/Actions+DeleteOrRemoveDownload.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/Actions+Download.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/Actions+EditPlaylist.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/Actions+Favoriting.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/Actions+Folder.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/Actions+Navigation.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/Actions+OpenInClassical.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/Actions+Pins.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/Actions+Playback.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/Actions+RateSong.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/Actions+RemoveDownload.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/Actions+RemoveFromPlaylist.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/Actions+ReportConcern.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/Actions+Share.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/Actions+SortPlaylist.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/Actions+UIMenu.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/Alert+Music.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/Alert+SwiftUI.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/Alert+UIAlertController.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/Alert.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/AppReview.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/ApplicationCapabilitiesController.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/Artwork+MediaPlayer.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/ArtworkVideoReportingController.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/AudioFormatID+Music.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/BackgroundFetchManager.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/BackgroundRefreshController.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/BagControlledValue.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/BagProvider.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/CarNowPlayingMetrics.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/ClassicalBridge.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/CloudLibrary.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/Collaboration.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/CommonStrings.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/CoreDefaults.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/CoverArtworkDataSource.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/Covers.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/Datavault+Music.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/DeviceCapabilities.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/EnvironmentMonitor.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/EnvironmentVar.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/ExplicitRestrictionsController.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/Expressions.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/Features+MusicCore.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/Foundation+Music.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/Gliss+Sonic.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/Gliss.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/GlissCoordinator.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/GlissTransition.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/GroupActivitiesManager.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/KeyboardObserverModifier.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/LSApplicationWorkspace+Music.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/LaunchURLResolver.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/LibraryActionableStateController.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/LibraryContext.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/LibraryMenu.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/LibraryModelRequest.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/LifecyclePatrol.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/MPModelObject+DefaultMusicKind.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/MPModelObject+Innermost.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/MPNowPlayingInfoAudioFormat+Music.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/MediaPlayer+Music.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/MetricsContentDictionaryConvertibles.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/MetricsEventSampler.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/MetricsReportingController.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/MetricsUtilities.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/ModelObjectBackedStoreItemMetadata.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/ModelRequest.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/MotionMode.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/MusicAction.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/MusicActionMenu+ElementBuilder.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/MusicActionMenu+Metrics.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/MusicActionMenu+SwiftUI.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/MusicActionMenu+UIMenu.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/MusicActionMenu.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/MusicActions.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/MusicCore.swiftmodule
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/MusicCoreAnalytics.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/MusicKit+Music.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/MusicTabsDictionaryProvider.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/NetworkMonitor.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/Notice.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/NowPlaying.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/NowPlayingMetadata.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/OSLog+Music.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/OptimisticValue.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/OptionalObservableObject.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/PageRender.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/PlayActivityData.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/Playback+MusicCore.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/Playback+SBSnapshot.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/PlaybackController.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/PlaybackIntentDescriptor.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/PlaybackTimeObserver.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/Player+CommandIssuing.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/Player.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/PlayerCommand.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/PlaylistSortingController.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/PresentationObserver.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/PresentationSource.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/PresentedViewState.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/Presenters.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/PrivacyAcknowledgementObserver.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/PushNotificationObserver.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/QRCode.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/RecipeColors.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/Request.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/RequestResponseController.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/RequestResponseInvalidation.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/SampleReceiver.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/SequentialVocalCommandsFilter.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/SharePlayTogetherSession.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/ShareSheetPresentation.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/SharedListening.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/Signposter.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/Song+Music.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/SortConfiguration.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/SortOptions.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/StagedInstall.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/String+Extensions.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/SubscriptionUpsellPresenter.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/TabIdentifier.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/TapToRadar.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/TextFieldAlert.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/Trait+Materials.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/UIKit+PAF.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/UnifiedMessages.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/UserDefaults+Music.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/iTunesCloud+Music.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/resource_bundle_accessor.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCoreUI.build/DerivedSources/
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCoreUI.build/Objects-normal/arm64e/AnyTransition+GlowTextReveal.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCoreUI.build/Objects-normal/arm64e/Artwork.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCoreUI.build/Objects-normal/arm64e/ArtworkConfiguration.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCoreUI.build/Objects-normal/arm64e/ArtworkPlaceholder.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCoreUI.build/Objects-normal/arm64e/Badge.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCoreUI.build/Objects-normal/arm64e/CAPackage+Music.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCoreUI.build/Objects-normal/arm64e/CNAvatarView+SwiftUIswift.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCoreUI.build/Objects-normal/arm64e/Card.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCoreUI.build/Objects-normal/arm64e/CarouselItem.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCoreUI.build/Objects-normal/arm64e/CarouselView.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCoreUI.build/Objects-normal/arm64e/CircularProgressView.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCoreUI.build/Objects-normal/arm64e/CollaborationUI.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCoreUI.build/Objects-normal/arm64e/ColorSpecs.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCoreUI.build/Objects-normal/arm64e/CoreAnimationPackageView.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCoreUI.build/Objects-normal/arm64e/Corner+Border+Shadow+Hover.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCoreUI.build/Objects-normal/arm64e/FlowViews.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCoreUI.build/Objects-normal/arm64e/FontTextStyleProvider.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCoreUI.build/Objects-normal/arm64e/Foundation+MusicCoreUI.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCoreUI.build/Objects-normal/arm64e/GlowModifier.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCoreUI.build/Objects-normal/arm64e/Gradient.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCoreUI.build/Objects-normal/arm64e/GridMetrics.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCoreUI.build/Objects-normal/arm64e/GridPreview.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCoreUI.build/Objects-normal/arm64e/HeightLimitedButtonTextView.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCoreUI.build/Objects-normal/arm64e/HitMyRect.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCoreUI.build/Objects-normal/arm64e/HostedScenePhaseSupport.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCoreUI.build/Objects-normal/arm64e/ImagePicker.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCoreUI.build/Objects-normal/arm64e/InlineProfileEditingView.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCoreUI.build/Objects-normal/arm64e/InteractionFeedbackLoadingView.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCoreUI.build/Objects-normal/arm64e/JiggleAnimationModifier.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCoreUI.build/Objects-normal/arm64e/LayoutProvider.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCoreUI.build/Objects-normal/arm64e/LibraryActionableState+SymbolButton.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCoreUI.build/Objects-normal/arm64e/LoadingView.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCoreUI.build/Objects-normal/arm64e/LyricsStateManager.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCoreUI.build/Objects-normal/arm64e/MarkupView.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCoreUI.build/Objects-normal/arm64e/MaterialyView.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCoreUI.build/Objects-normal/arm64e/Modal.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCoreUI.build/Objects-normal/arm64e/MoreLabel.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCoreUI.build/Objects-normal/arm64e/MusicCoreUI.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCoreUI.build/Objects-normal/arm64e/MusicCoreUI.swiftmodule
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCoreUI.build/Objects-normal/arm64e/MusicItemArtworkViewModels.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCoreUI.build/Objects-normal/arm64e/MusicUIContentConfiguration.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCoreUI.build/Objects-normal/arm64e/NoticePresenter.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCoreUI.build/Objects-normal/arm64e/NoticeView.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCoreUI.build/Objects-normal/arm64e/NowPlayingTrackTitleStackView.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCoreUI.build/Objects-normal/arm64e/PassthroughView.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCoreUI.build/Objects-normal/arm64e/PlayIntentButton.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCoreUI.build/Objects-normal/arm64e/ProgressiveBlurView.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCoreUI.build/Objects-normal/arm64e/QRCodeOverlayViewController.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCoreUI.build/Objects-normal/arm64e/Radiosity.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCoreUI.build/Objects-normal/arm64e/Reactions.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCoreUI.build/Objects-normal/arm64e/SameWidthHStack.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCoreUI.build/Objects-normal/arm64e/SliderView.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCoreUI.build/Objects-normal/arm64e/SwiftUI+MusicCoreUI.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCoreUI.build/Objects-normal/arm64e/SymbolButton+Logging.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCoreUI.build/Objects-normal/arm64e/SymbolButton.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCoreUI.build/Objects-normal/arm64e/TextArray.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCoreUI.build/Objects-normal/arm64e/TextViewBuilders.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCoreUI.build/Objects-normal/arm64e/TintColor.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCoreUI.build/Objects-normal/arm64e/UIKit+MediaPlayer.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCoreUI.build/Objects-normal/arm64e/UIKit+Music.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCoreUI.build/Objects-normal/arm64e/UIView+Music.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCoreUI.build/Objects-normal/arm64e/VerticalToggleSlider.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCoreUI.build/Objects-normal/arm64e/VocalsAttenuationSlider.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCoreUI.build/Objects-normal/arm64e/WaveformPlayIndicator.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCoreUI.build/Objects-normal/arm64e/WindowSceneResolver.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCoreUI.build/Objects-normal/arm64e/resource_bundle_accessor.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicFoundationObjC.build/Objects-normal/arm64e/MarqueeView.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicSiri.build/MusicSiriCore.build/Objects-normal/arm64e/Logging+MusicSiri.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicSiri.build/MusicSiriCore.build/Objects-normal/arm64e/MusicSiriCore.swiftmodule
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicSiri.build/MusicSiriDonations.build/Objects-normal/arm64e/AddItemToLibrarySiriAction.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicSiri.build/MusicSiriDonations.build/Objects-normal/arm64e/AddItemsToPlaylistSiriAction.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicSiri.build/MusicSiriDonations.build/Objects-normal/arm64e/MusicSiriDonations.swiftmodule
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicSiri.build/MusicSiriDonations.build/Objects-normal/arm64e/OpenDestinationSiriAction.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicSiri.build/MusicSiriDonations.build/Objects-normal/arm64e/OpenItemSiriAction.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicSiri.build/MusicSiriDonations.build/Objects-normal/arm64e/PlayItemSiriAction.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicSiri.build/MusicSiriDonations.build/Objects-normal/arm64e/SearchMusicSiriAction.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicSiri.build/MusicSiriDonations.build/Objects-normal/arm64e/SiriActionDonator.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicSiri.build/MusicSiriDonations.build/Objects-normal/arm64e/UpdateItemAffinitySiriAction.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicUtilities.build/InternalCollectionsUtilities.build/Objects-normal/arm64e/Descriptions.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicUtilities.build/InternalCollectionsUtilities.build/Objects-normal/arm64e/FixedWidthInteger+roundUpToPowerOfTwo.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicUtilities.build/InternalCollectionsUtilities.build/Objects-normal/arm64e/Integer rank.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicUtilities.build/InternalCollectionsUtilities.build/Objects-normal/arm64e/InternalCollectionsUtilities.swiftmodule
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicUtilities.build/InternalCollectionsUtilities.build/Objects-normal/arm64e/RandomAccessCollection+Offsets.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicUtilities.build/InternalCollectionsUtilities.build/Objects-normal/arm64e/UInt+first and last set bit.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicUtilities.build/InternalCollectionsUtilities.build/Objects-normal/arm64e/UInt+reversed.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicUtilities.build/InternalCollectionsUtilities.build/Objects-normal/arm64e/UnsafeBufferPointer+Extras.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicUtilities.build/InternalCollectionsUtilities.build/Objects-normal/arm64e/UnsafeMutableBufferPointer+Extras.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicUtilities.build/InternalCollectionsUtilities.build/Objects-normal/arm64e/UnsafeMutableRawBufferPointer+Extras.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicUtilities.build/InternalCollectionsUtilities.build/Objects-normal/arm64e/_SortedCollection.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicUtilities.build/InternalCollectionsUtilities.build/Objects-normal/arm64e/_UniqueCollection.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicUtilities.build/InternalCollectionsUtilities.build/Objects-normal/arm64e/_UnsafeBitSet+Index.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicUtilities.build/InternalCollectionsUtilities.build/Objects-normal/arm64e/_UnsafeBitSet+_Word.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicUtilities.build/InternalCollectionsUtilities.build/Objects-normal/arm64e/_UnsafeBitSet.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicUtilities.build/MusicSwiftCollections.build/Objects-normal/arm64e/MusicSwiftCollections.swiftmodule
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicUtilities.build/MusicSwiftCollections.build/Objects-normal/arm64e/OrderedSet+Codable.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicUtilities.build/MusicSwiftCollections.build/Objects-normal/arm64e/OrderedSet+CustomReflectable.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicUtilities.build/MusicSwiftCollections.build/Objects-normal/arm64e/OrderedSet+Descriptions.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicUtilities.build/MusicSwiftCollections.build/Objects-normal/arm64e/OrderedSet+Diffing.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicUtilities.build/MusicSwiftCollections.build/Objects-normal/arm64e/OrderedSet+Equatable.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicUtilities.build/MusicSwiftCollections.build/Objects-normal/arm64e/OrderedSet+ExpressibleByArrayLiteral.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicUtilities.build/MusicSwiftCollections.build/Objects-normal/arm64e/OrderedSet+Hashable.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicUtilities.build/MusicSwiftCollections.build/Objects-normal/arm64e/OrderedSet+Initializers.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicUtilities.build/MusicSwiftCollections.build/Objects-normal/arm64e/OrderedSet+Insertions.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicUtilities.build/MusicSwiftCollections.build/Objects-normal/arm64e/OrderedSet+Invariants.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicUtilities.build/MusicSwiftCollections.build/Objects-normal/arm64e/OrderedSet+Partial MutableCollection.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicUtilities.build/MusicSwiftCollections.build/Objects-normal/arm64e/OrderedSet+Partial RangeReplaceableCollection.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicUtilities.build/MusicSwiftCollections.build/Objects-normal/arm64e/OrderedSet+Partial SetAlgebra formIntersection.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicUtilities.build/MusicSwiftCollections.build/Objects-normal/arm64e/OrderedSet+Partial SetAlgebra formSymmetricDifference.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicUtilities.build/MusicSwiftCollections.build/Objects-normal/arm64e/OrderedSet+Partial SetAlgebra formUnion.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicUtilities.build/MusicSwiftCollections.build/Objects-normal/arm64e/OrderedSet+Partial SetAlgebra intersection.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicUtilities.build/MusicSwiftCollections.build/Objects-normal/arm64e/OrderedSet+Partial SetAlgebra isDisjoint.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicUtilities.build/MusicSwiftCollections.build/Objects-normal/arm64e/OrderedSet+Partial SetAlgebra isEqualSet.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicUtilities.build/MusicSwiftCollections.build/Objects-normal/arm64e/OrderedSet+Partial SetAlgebra isStrictSubset.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicUtilities.build/MusicSwiftCollections.build/Objects-normal/arm64e/OrderedSet+Partial SetAlgebra isStrictSuperset.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicUtilities.build/MusicSwiftCollections.build/Objects-normal/arm64e/OrderedSet+Partial SetAlgebra isSubset.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicUtilities.build/MusicSwiftCollections.build/Objects-normal/arm64e/OrderedSet+Partial SetAlgebra isSuperset.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicUtilities.build/MusicSwiftCollections.build/Objects-normal/arm64e/OrderedSet+Partial SetAlgebra subtract.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicUtilities.build/MusicSwiftCollections.build/Objects-normal/arm64e/OrderedSet+Partial SetAlgebra subtracting.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicUtilities.build/MusicSwiftCollections.build/Objects-normal/arm64e/OrderedSet+Partial SetAlgebra symmetricDifference.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicUtilities.build/MusicSwiftCollections.build/Objects-normal/arm64e/OrderedSet+Partial SetAlgebra union.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicUtilities.build/MusicSwiftCollections.build/Objects-normal/arm64e/OrderedSet+Partial SetAlgebra+Basics.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicUtilities.build/MusicSwiftCollections.build/Objects-normal/arm64e/OrderedSet+RandomAccessCollection.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicUtilities.build/MusicSwiftCollections.build/Objects-normal/arm64e/OrderedSet+ReserveCapacity.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicUtilities.build/MusicSwiftCollections.build/Objects-normal/arm64e/OrderedSet+SubSequence.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicUtilities.build/MusicSwiftCollections.build/Objects-normal/arm64e/OrderedSet+Testing.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicUtilities.build/MusicSwiftCollections.build/Objects-normal/arm64e/OrderedSet+UnorderedView.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicUtilities.build/MusicSwiftCollections.build/Objects-normal/arm64e/OrderedSet+UnstableInternals.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicUtilities.build/MusicSwiftCollections.build/Objects-normal/arm64e/OrderedSet.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicUtilities.build/MusicSwiftCollections.build/Objects-normal/arm64e/_HashTable+Bucket.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicUtilities.build/MusicSwiftCollections.build/Objects-normal/arm64e/_HashTable+BucketIterator.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicUtilities.build/MusicSwiftCollections.build/Objects-normal/arm64e/_HashTable+Constants.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicUtilities.build/MusicSwiftCollections.build/Objects-normal/arm64e/_HashTable+CustomStringConvertible.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicUtilities.build/MusicSwiftCollections.build/Objects-normal/arm64e/_HashTable+Testing.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicUtilities.build/MusicSwiftCollections.build/Objects-normal/arm64e/_HashTable+UnsafeHandle.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicUtilities.build/MusicSwiftCollections.build/Objects-normal/arm64e/_HashTable.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicUtilities.build/MusicSwiftCollections.build/Objects-normal/arm64e/_Hashtable+Header.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicUtilities.build/MusicUtilities.build/Objects-normal/arm64e/Addable.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicUtilities.build/MusicUtilities.build/Objects-normal/arm64e/ApplicationRecordUtilities.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicUtilities.build/MusicUtilities.build/Objects-normal/arm64e/ArrayBuilder.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicUtilities.build/MusicUtilities.build/Objects-normal/arm64e/BrightnessManager.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicUtilities.build/MusicUtilities.build/Objects-normal/arm64e/CodableImage.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicUtilities.build/MusicUtilities.build/Objects-normal/arm64e/CollectionComparison.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicUtilities.build/MusicUtilities.build/Objects-normal/arm64e/Color+Utilities.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicUtilities.build/MusicUtilities.build/Objects-normal/arm64e/Concurrency+Utilities.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicUtilities.build/MusicUtilities.build/Objects-normal/arm64e/ControlEventHandler.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicUtilities.build/MusicUtilities.build/Objects-normal/arm64e/CoreAnimation+Utilities.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicUtilities.build/MusicUtilities.build/Objects-normal/arm64e/CoreGraphics+Utilities.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicUtilities.build/MusicUtilities.build/Objects-normal/arm64e/CoreText+Utilities.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicUtilities.build/MusicUtilities.build/Objects-normal/arm64e/Datavault.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicUtilities.build/MusicUtilities.build/Objects-normal/arm64e/Dispatch+Utilities.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicUtilities.build/MusicUtilities.build/Objects-normal/arm64e/DisplayLinkHandler.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicUtilities.build/MusicUtilities.build/Objects-normal/arm64e/EdgePairSequence.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicUtilities.build/MusicUtilities.build/Objects-normal/arm64e/Features+MediaFrameworks.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicUtilities.build/MusicUtilities.build/Objects-normal/arm64e/Features+Music.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicUtilities.build/MusicUtilities.build/Objects-normal/arm64e/Features+OS.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicUtilities.build/MusicUtilities.build/Objects-normal/arm64e/Features+Utilities.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicUtilities.build/MusicUtilities.build/Objects-normal/arm64e/FileManager+Utilities.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicUtilities.build/MusicUtilities.build/Objects-normal/arm64e/Foundation+Crypto.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicUtilities.build/MusicUtilities.build/Objects-normal/arm64e/Foundation+Utilities.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicUtilities.build/MusicUtilities.build/Objects-normal/arm64e/GestureRecognizerHandler.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicUtilities.build/MusicUtilities.build/Objects-normal/arm64e/KeyboardAvoidance.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicUtilities.build/MusicUtilities.build/Objects-normal/arm64e/Logging+ModelObject.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicUtilities.build/MusicUtilities.build/Objects-normal/arm64e/Logging.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicUtilities.build/MusicUtilities.build/Objects-normal/arm64e/MUBinding.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicUtilities.build/MusicUtilities.build/Objects-normal/arm64e/Math.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicUtilities.build/MusicUtilities.build/Objects-normal/arm64e/MediaPlayer+Utilities.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicUtilities.build/MusicUtilities.build/Objects-normal/arm64e/MusicKit+Utilities.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicUtilities.build/MusicUtilities.build/Objects-normal/arm64e/MusicUtilities.swiftmodule
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicUtilities.build/MusicUtilities.build/Objects-normal/arm64e/NotificationObserver.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicUtilities.build/MusicUtilities.build/Objects-normal/arm64e/Signpost.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicUtilities.build/MusicUtilities.build/Objects-normal/arm64e/SmartDiffing.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicUtilities.build/MusicUtilities.build/Objects-normal/arm64e/Swift+Utilities.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicUtilities.build/MusicUtilities.build/Objects-normal/arm64e/SwiftUI+Utilities.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicUtilities.build/MusicUtilities.build/Objects-normal/arm64e/TextKit+Utilities.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicUtilities.build/MusicUtilities.build/Objects-normal/arm64e/UIKit+Utilities.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicUtilities.build/MusicUtilities.build/Objects-normal/arm64e/URL+Utilities.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicUtilities.build/MusicUtilities.build/Objects-normal/arm64e/UnfairLock.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicUtilities.build/MusicUtilities.build/Objects-normal/arm64e/UserDefaults+Utilities.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicUtilities.build/MusicUtilities.build/Objects-normal/arm64e/WeakArray.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicUtilities.build/MusicUtilities.build/Objects-normal/arm64e/WeakValuesDictionary.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicUtilities.build/MusicUtilities.build/Objects-normal/arm64e/iTunesStoreURLs.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicUtilities.build/MusicUtilitiesObjC.build/Objects-normal/arm64e/MonogramArtworkDataSource.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicUtilities.build/MusicUtilitiesObjC.build/Objects-normal/arm64e/MusicDarwinNotificationObserver.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicUtilities.build/MusicUtilitiesObjC.build/Objects-normal/arm64e/MusicDistributedNotificationCenter.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicUtilities.build/MusicUtilitiesObjC.build/Objects-normal/arm64e/MusicSymbolReexport.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Binaries/Music/install/TempContent/Objects/MusicUtilities.build/MusicUtilitiesObjC.build/Objects-normal/arm64e/NSString+MusicUtilitiesAdditions.o
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Sources/Music/Extensions/MusicEngagementExtension/
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Sources/Music/Packages/MusicFoundation/Package/Sources/MusicCore/
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Sources/Music/Packages/MusicFoundation/Package/Sources/MusicCore/Actions/Core/
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Sources/Music/Packages/MusicFoundation/Package/Sources/MusicCore/Actions/Library/
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Sources/Music/Packages/MusicFoundation/Package/Sources/MusicCore/Actions/Navigation/
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Sources/Music/Packages/MusicFoundation/Package/Sources/MusicCore/Actions/Others/
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Sources/Music/Packages/MusicFoundation/Package/Sources/MusicCore/Actions/Playback/
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Sources/Music/Packages/MusicFoundation/Package/Sources/MusicCore/Actions/Share/
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Sources/Music/Packages/MusicFoundation/Package/Sources/MusicCore/Actions/Taste/
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Sources/Music/Packages/MusicFoundation/Package/Sources/MusicCore/Alert/
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Sources/Music/Packages/MusicFoundation/Package/Sources/MusicCore/Analytics/
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Sources/Music/Packages/MusicFoundation/Package/Sources/MusicCore/Background Tasks/
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Sources/Music/Packages/MusicFoundation/Package/Sources/MusicCore/Bag/
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Sources/Music/Packages/MusicFoundation/Package/Sources/MusicCore/Collaboration/
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Sources/Music/Packages/MusicFoundation/Package/Sources/MusicCore/Extensions/
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Sources/Music/Packages/MusicFoundation/Package/Sources/MusicCore/Gliss/
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Sources/Music/Packages/MusicFoundation/Package/Sources/MusicCore/Internal/
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Sources/Music/Packages/MusicFoundation/Package/Sources/MusicCore/Library/
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Sources/Music/Packages/MusicFoundation/Package/Sources/MusicCore/MediaPlayer/
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Sources/Music/Packages/MusicFoundation/Package/Sources/MusicCore/Motion/
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Sources/Music/Packages/MusicFoundation/Package/Sources/MusicCore/Notices/
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Sources/Music/Packages/MusicFoundation/Package/Sources/MusicCore/Now Playing/
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Sources/Music/Packages/MusicFoundation/Package/Sources/MusicCore/Observers/
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Sources/Music/Packages/MusicFoundation/Package/Sources/MusicCore/Pins/
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Sources/Music/Packages/MusicFoundation/Package/Sources/MusicCore/Playback/
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Sources/Music/Packages/MusicFoundation/Package/Sources/MusicCore/PlaylistCovers/
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Sources/Music/Packages/MusicFoundation/Package/Sources/MusicCore/Presenters/
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Sources/Music/Packages/MusicFoundation/Package/Sources/MusicCore/RequestResponse/
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Sources/Music/Packages/MusicFoundation/Package/Sources/MusicCore/RequestResponse/MediaPlayer/
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Sources/Music/Packages/MusicFoundation/Package/Sources/MusicCore/SharePlay Together/
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Sources/Music/Packages/MusicFoundation/Package/Sources/MusicCore/SharedListening/
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Sources/Music/Packages/MusicFoundation/Package/Sources/MusicCore/UnifiedMessages/
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Sources/Music/Packages/MusicFoundation/Package/Sources/MusicCore/Utilities/
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Sources/Music/Packages/MusicFoundation/Package/Sources/MusicCoreUI/Artwork/
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Sources/Music/Packages/MusicFoundation/Package/Sources/MusicCoreUI/CAPackages/
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Sources/Music/Packages/MusicFoundation/Package/Sources/MusicCoreUI/Extensions/
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Sources/Music/Packages/MusicFoundation/Package/Sources/MusicCoreUI/HI Metrics/
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Sources/Music/Packages/MusicFoundation/Package/Sources/MusicCoreUI/Lyrics/
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Sources/Music/Packages/MusicFoundation/Package/Sources/MusicCoreUI/Modifiers/
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Sources/Music/Packages/MusicFoundation/Package/Sources/MusicCoreUI/Notices/
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Sources/Music/Packages/MusicFoundation/Package/Sources/MusicCoreUI/Protocols/
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Sources/Music/Packages/MusicFoundation/Package/Sources/MusicCoreUI/Views/
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Sources/Music/Packages/MusicFoundation/Package/Sources/MusicCoreUI/Views/Collaboration/
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Sources/Music/Packages/MusicFoundation/Package/Sources/MusicCoreUI/Views/ExpandableTextView/
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Sources/Music/Packages/MusicFoundation/Package/Sources/MusicCoreUI/Views/NowPlaying/
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Sources/Music/Packages/MusicFoundation/Package/Sources/MusicCoreUI/Views/PlaylistCovers/
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Sources/Music/Packages/MusicFoundation/Package/Sources/MusicCoreUI/Views/Reactions/
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Sources/Music/Packages/MusicFoundation/Package/Sources/MusicFoundationObjC/src/
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Sources/Music/Packages/MusicSiri/Sources/MusicSiriCore/Extensions/
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Sources/Music/Packages/MusicSiri/Sources/MusicSiriDonations/
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Sources/Music/Packages/MusicSiri/Sources/MusicSiriDonations/Actions/
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Sources/Music/SharedPackages/LyricsX/Sources/LyricsX/
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Sources/Music/SharedPackages/LyricsX/Sources/LyricsX/Line/
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Sources/Music/SharedPackages/LyricsX/Sources/LyricsX/Line/LyricsTextLayer/
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Sources/Music/SharedPackages/LyricsX/Sources/LyricsX/UIKit/
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Sources/Music/SharedPackages/MusicUtilities/Sources/InternalCollectionsUtilities/
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Sources/Music/SharedPackages/MusicUtilities/Sources/InternalCollectionsUtilities/IntegerTricks/
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Sources/Music/SharedPackages/MusicUtilities/Sources/InternalCollectionsUtilities/UnsafeBitSet/
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Sources/Music/SharedPackages/MusicUtilities/Sources/MusicSwiftCollections/HashTable/
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Sources/Music/SharedPackages/MusicUtilities/Sources/MusicSwiftCollections/OrderedSet/
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Sources/Music/SharedPackages/MusicUtilities/Sources/MusicUtilities/
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Sources/Music/SharedPackages/MusicUtilities/Sources/MusicUtilities/Bindings/
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Sources/Music/SharedPackages/MusicUtilities/Sources/MusicUtilities/Extensions/
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Sources/Music/SharedPackages/MusicUtilities/Sources/MusicUtilities/Features/
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Sources/Music/SharedPackages/MusicUtilities/Sources/MusicUtilities/UIKit/
++ /Library/Caches/com.apple.xbs/31515889-72A5-417B-862F-346E9696B0FD/TemporaryDirectory.L2L1ty/Sources/Music/SharedPackages/MusicUtilities/Sources/MusicUtilitiesObjC/src/
++ _$s11Observation04withA8Tracking_8onChangexxyXE_yyYbcyXKtlF
++ _$s16MusicKitInternal0A15LyricsViewModelC0D1XE12lyricsStreamScSys6ResultOyAA0aD8ResponseV0D0OSgs5Error_pGSgGvg
++ _$s16MusicKitInternal0A15LyricsViewModelC0D1XE12lyricsStreamScSys6ResultOyAA0aD8ResponseV0D0OSgs5Error_pGSgGvgyScS12ContinuationVyAO_GXEfU_
++ _$s16MusicKitInternal0A15LyricsViewModelC0D1XE12lyricsStreamScSys6ResultOyAA0aD8ResponseV0D0OSgs5Error_pGSgGvgyScS12ContinuationVyAO_GXEfU_TA
++ _$s16MusicKitInternal0A15LyricsViewModelC0D1XE12lyricsStreamScSys6ResultOyAA0aD8ResponseV0D0OSgs5Error_pGSgGvgyScS12ContinuationVyAO_GXEfU_yyYacfU_
++ _$s16MusicKitInternal0A15LyricsViewModelC0D1XE12lyricsStreamScSys6ResultOyAA0aD8ResponseV0D0OSgs5Error_pGSgGvgyScS12ContinuationVyAO_GXEfU_yyYacfU_TA
++ _$s16MusicKitInternal0A15LyricsViewModelC0D1XE12lyricsStreamScSys6ResultOyAA0aD8ResponseV0D0OSgs5Error_pGSgGvgyScS12ContinuationVyAO_GXEfU_yyYacfU_TATQ0_
++ _$s16MusicKitInternal0A15LyricsViewModelC0D1XE12lyricsStreamScSys6ResultOyAA0aD8ResponseV0D0OSgs5Error_pGSgGvgyScS12ContinuationVyAO_GXEfU_yyYacfU_TATu
++ _$s16MusicKitInternal0A15LyricsViewModelC0D1XE12lyricsStreamScSys6ResultOyAA0aD8ResponseV0D0OSgs5Error_pGSgGvgyScS12ContinuationVyAO_GXEfU_yyYacfU_TQ1_
++ _$s16MusicKitInternal0A15LyricsViewModelC0D1XE12lyricsStreamScSys6ResultOyAA0aD8ResponseV0D0OSgs5Error_pGSgGvgyScS12ContinuationVyAO_GXEfU_yyYacfU_TY0_
++ _$s16MusicKitInternal0A15LyricsViewModelC0D1XE12lyricsStreamScSys6ResultOyAA0aD8ResponseV0D0OSgs5Error_pGSgGvgyScS12ContinuationVyAO_GXEfU_yyYacfU_TY2_
++ _$s16MusicKitInternal0A15LyricsViewModelC0D1XE12lyricsStreamScSys6ResultOyAA0aD8ResponseV0D0OSgs5Error_pGSgGvgyScS12ContinuationVyAO_GXEfU_yyYacfU_Tu
++ _$s16MusicKitInternal0A15LyricsViewModelC0D1XE12lyricsStreamScSys6ResultOyAA0aD8ResponseV0D0OSgs5Error_pGSgGvgyScS12ContinuationVyAO_GXEfU_yyYacfU_yScCyyts5NeverOGXEfU_
++ _$s16MusicKitInternal0A15LyricsViewModelC0D1XE12lyricsStreamScSys6ResultOyAA0aD8ResponseV0D0OSgs5Error_pGSgGvgyScS12ContinuationVyAO_GXEfU_yyYacfU_yScCyyts5NeverOGXEfU_AOyXEfU_TA
++ _$s16MusicKitInternal0A15LyricsViewModelC0D1XE12lyricsStreamScSys6ResultOyAA0aD8ResponseV0D0OSgs5Error_pGSgGvgyScS12ContinuationVyAO_GXEfU_yyYacfU_yScCyyts5NeverOGXEfU_TA
++ _$s16MusicKitInternal0A15LyricsViewModelC0D1XE12lyricsStreamScSys6ResultOyAA0aD8ResponseV0D0OSgs5Error_pGSgGvgyScS12ContinuationVyAO_GXEfU_yyYacfU_yScCyyts5NeverOGXEfU_yyYbcyXEfu_
++ _$s16MusicKitInternal0A15LyricsViewModelC0D1XE12lyricsStreamScSys6ResultOyAA0aD8ResponseV0D0OSgs5Error_pGSgGvgyScS12ContinuationVyAO_GXEfU_yyYacfU_yScCyyts5NeverOGXEfU_yyYbcyXEfu_TA
++ _$s16MusicKitInternal0A15LyricsViewModelC0D1XE12lyricsStreamScSys6ResultOyAA0aD8ResponseV0D0OSgs5Error_pGSgGvgyScS12ContinuationVyAO_GXEfU_yyYacfU_yScCyyts5NeverOGXEfU_yyYbcyXEfu_yyYbcfU0_TA
++ _$s16MusicKitInternal0A15LyricsViewModelC0D1XE12lyricsStreamScSys6ResultOyAA0aD8ResponseV0D0OSgs5Error_pGSgGvpMV
++ _$s16MusicKitInternal0A15LyricsViewModelC4song0aB04SongVSgvs
++ _$s16MusicKitInternal0A15LyricsViewModelC4withAcA0A20RequestConfigurationV_tcfc
++ _$s16MusicKitInternal0A15LyricsViewModelC6lyricss6ResultOyAA0aD8ResponseV0D0OSgs5Error_pGSgvg
++ _$s16MusicKitInternal0A15LyricsViewModelCMa
++ _$s16MusicKitInternal0A15LyricsViewModelCMn
++ _$s16MusicKitInternal0A20RequestConfigurationV13globalDefaultACvgZ
++ _$s16MusicKitInternal0A20RequestConfigurationVMa
++ _$s16MusicKitInternal13CatalogLyricsVSgWOcTm
++ _$s7LyricsX06SyncedA14ViewControllerC3set6lyrics11translation15transliteration11forceUpdateyAA0A0CSg_AJ11TranslationVSgAJ15TransliterationVSgSbtF
++ _$s7LyricsX06SyncedA14ViewControllerC3set6lyrics11translation15transliteration11forceUpdateyAA0A0CSg_AJ11TranslationVSgAJ15TransliterationVSgSbtFTq
++ _$s7LyricsX06SyncedA23VisualExperienceManagerC03setA0_11forceUpdateyAA0A0CSg_SbtF
++ _$s7LyricsX06SyncedA23VisualExperienceManagerC03setA0_11forceUpdateyAA0A0CSg_SbtFSdycfU_TA
++ _$s7LyricsX06SyncedA23VisualExperienceManagerC03setA0_11forceUpdateyAA0A0CSg_SbtFTq
++ _$s7LyricsX06SyncedA23VisualExperienceManagerC06syncedA0_8deselectyAA0baE0C_AA0A4Line_ptFTf4dnn_n
++ _$s7LyricsX06SyncedA23VisualExperienceManagerC06syncedA0_8deselectyAA0baE0C_AA0A4Line_ptFyycfU_
++ _$s7LyricsX06SyncedA23VisualExperienceManagerC06syncedA0_8deselectyAA0baE0C_AA0A4Line_ptFyycfU_TA
++ _$s7LyricsX06SyncedA23VisualExperienceManagerC14timingProviderAA0ba6TimingG0_pSgvWSdycfU_Tm
++ _$s7LyricsX06SyncedA23VisualExperienceManagerCAA0baE8DelegateA2aDP06syncedA0_8deselectyAA0baE0C_AA0A4Line_ptFTW
++ _$s7LyricsX06SyncedA7ManagerC13ConfigurationV17animationDuration019finishLineAnimationF016maxEndTimeOffsetAES2dc_S2dtcfC
++ _$s7LyricsX06SyncedA9LineLayerC015SBS_TextContentD0C0fD0C23transliterationMetadata33_6199ED2C84AF6C925E1487713AA44194LL19transliteratedWords08previousC19WordRepresentations08originalsT00U11StringRange04wordW10Adjustment4sizeAG21TransliterationResultAILLOSg21MusicSwiftCollections10OrderedSetVyAA0A0C0S0VG_SayAcXCGA0_So8_NSRangeVSiSo6CGSizeVtFARycfU_Tf2nnninnnnnnii_nTf0snnnnnnsnnnn_nTf4nnnnnnnnnxnn_n
++ _$s7LyricsX06SyncedA9LineLayerC015SBS_TextContentD0C0fD0C25wordVisualRepresentations33_6199ED2C84AF6C925E1487713AA44194LL3for9lineFrame17typographicOrigin11lyricsWords4text0H15RangeAdjustment0R13StartingIndex08existingJ0SayAC4WordCG5words_Si011updatedWordyZ0tSo9CTLineRefa_So6CGRectVSo7CGPointVSayAA0A0CARVGSSS2iATtF
++ _$s7LyricsX0A0C19chineseLanguageCodeSSvau
++ _$s7LyricsX0A0C19chineseLanguageCodeSSvgZ
++ _$s7LyricsX0A0C19chineseLanguageCodeSSvpZ
++ _$s7LyricsX0A0C19chineseLanguageCodeSSvpZMV
++ _$s8MusicKit0A7LibraryC0A4CoreE15ActionableStateO18accessibilityLabelAD19AccessibilityStringVSgvg
++ _$s8MusicKit0A7LibraryC0A4CoreE15ActionableStateO18accessibilityLabelAD19AccessibilityStringVSgvpMV
++ _$s9MusicCore14PlaylistCoversO5SpecsO16brightnessValues_WZTv_r
++ _$s9MusicCore14PlaylistCoversO5SpecsO16saturationValues_WZTv_r
++ _$s9MusicCore19AccessibilityStringV19downloadButtonLabelACvau
++ _$s9MusicCore19AccessibilityStringV19downloadButtonLabelACvgZ
++ _$s9MusicCore19AccessibilityStringV19downloadButtonLabelACvpZ
++ _$s9MusicCore19AccessibilityStringV19downloadButtonLabel_WZ
++ _$s9MusicCore19AccessibilityStringV19downloadButtonLabel_Wz
++ _$s9MusicCore19AccessibilityStringV22downloadingButtonLabelACvau
++ _$s9MusicCore19AccessibilityStringV22downloadingButtonLabelACvgZ
++ _$s9MusicCore19AccessibilityStringV22downloadingButtonLabelACvpZ
++ _$s9MusicCore19AccessibilityStringV22downloadingButtonLabel_WZ
++ _$s9MusicCore19AccessibilityStringV22downloadingButtonLabel_Wz
++ _$s9MusicCore19AccessibilityStringV23addToLibraryButtonLabelACvau
++ _$s9MusicCore19AccessibilityStringV23addToLibraryButtonLabelACvgZ
++ _$s9MusicCore19AccessibilityStringV23addToLibraryButtonLabelACvpZ
++ _$s9MusicCore19AccessibilityStringV23addToLibraryButtonLabel_WZ
++ _$s9MusicCore19AccessibilityStringV23addToLibraryButtonLabel_Wz
++ _$s9MusicCore19AccessibilityStringV25downloadPausedButtonLabelACvau
++ _$s9MusicCore19AccessibilityStringV25downloadPausedButtonLabelACvgZ
++ _$s9MusicCore19AccessibilityStringV25downloadPausedButtonLabelACvpZ
++ _$s9MusicCore19AccessibilityStringV25downloadPausedButtonLabel_WZ
++ _$s9MusicCore19AccessibilityStringV25downloadPausedButtonLabel_Wz
++ _$s9MusicCore19AccessibilityStringV25downloadQueuedButtonLabelACvau
++ _$s9MusicCore19AccessibilityStringV25downloadQueuedButtonLabelACvgZ
++ _$s9MusicCore19AccessibilityStringV25downloadQueuedButtonLabelACvpZ
++ _$s9MusicCore19AccessibilityStringV25downloadQueuedButtonLabel_WZ
++ _$s9MusicCore19AccessibilityStringV25downloadQueuedButtonLabel_Wz
++ _$s9MusicCore19AccessibilityStringV32removeDownloadedMediaButtonLabelACvau
++ _$s9MusicCore19AccessibilityStringV32removeDownloadedMediaButtonLabelACvgZ
++ _$s9MusicCore19AccessibilityStringV32removeDownloadedMediaButtonLabelACvpZ
++ _$s9MusicCore19AccessibilityStringV32removeDownloadedMediaButtonLabel_WZ
++ _$s9MusicCore19AccessibilityStringV32removeDownloadedMediaButtonLabel_Wz
++ _$sS2dSbIgyyd_S2dSbIegnnd_TR014$sS2dSbIegnnd_bC167Iegyyd_TR0103$sST14MusicUtilitiesE6sorted2by10comparatorSay7ElementQzGs7KeyPathCyAFqd__G_Sbqd___qd__tXEtSLRd__lFfA0_n3___o7__tcfu_F25LyricsX0I4Line_pG_SdTt1G5Tf3nnpf_nTf3nnpf_n
++ _$sSMsSkRzrlE4sort2byySb7ElementSTQz_ADtKXE_tKFs15ContiguousArrayVy12CoreGraphics7CGFloatV3hue_AI10saturationAI10brightnessAI5alphatG_Tg50186$s9MusicCore14PlaylistCoversO12recipeColors33_11BA5CF3AE098F81240A801610064BFALL15backgroundColor07primaryN009secondaryN008tertiaryN0AC06RecipeF0VSgSo10CGColorRefa_A3NtYaFZSb0B8Graphics7H63V3hue_AQ10saturationAQ10brightnessAQ5alphat_AqR_AqsqtqUttXEfU0_Tf1cn_n
++ _$sSa6remove2atxSi_tF7LyricsX06SyncedC8LineViewC_Tg5
++ _$sSa6remove2atxSi_tF7LyricsX0C4Line_p_Tg5
++ _$sSa6remove2atxSi_tFSo13MSVLyricsWordC_Tg5Tm
++ _$sSay7LyricsX0A4Line_pGMR
++ _$sSay7LyricsX0A4Line_pGMd
++ _$sSay7LyricsX0A4Line_pGSayxGSTsWL
++ _$sSay7LyricsX0A4Line_pGSayxGSTsWl
++ _$sScCyyts5NeverOGMR
++ _$sScCyyts5NeverOGMd
++ _$sScS12ContinuationV11YieldResultOys0C0Oy16MusicKitInternal0D14LyricsResponseV0G0OSgs5Error_pGSg__GMR
++ _$sScS12ContinuationV11YieldResultOys0C0Oy16MusicKitInternal0D14LyricsResponseV0G0OSgs5Error_pGSg__GMd
++ _$sScS12ContinuationV15BufferingPolicyOys6ResultOy16MusicKitInternal0E14LyricsResponseV0H0OSgs5Error_pGSg__GMR
++ _$sScS12ContinuationV15BufferingPolicyOys6ResultOy16MusicKitInternal0E14LyricsResponseV0H0OSgs5Error_pGSg__GMd
++ _$sScS12ContinuationVys6ResultOy16MusicKitInternal0C14LyricsResponseV0F0OSgs5Error_pGSg_GMR
++ _$sScS12ContinuationVys6ResultOy16MusicKitInternal0C14LyricsResponseV0F0OSgs5Error_pGSg_GMd
++ _$sScS17makeAsyncIteratorScS0C0Vyx_GyF
++ _$sScS8IteratorV4next9isolationxSgScA_pSgYi_tYaF
++ _$sScS8IteratorV4next9isolationxSgScA_pSgYi_tYaFTu
++ _$sScS8IteratorVMn
++ _$sScS8IteratorVys6ResultOy16MusicKitInternal0C14LyricsResponseV0F0OSgs5Error_pGSg_GMR
++ _$sScS8IteratorVys6ResultOy16MusicKitInternal0C14LyricsResponseV0F0OSgs5Error_pGSg_GMd
++ _$sScSys6ResultOy16MusicKitInternal0B14LyricsResponseV0E0OSgs5Error_pGSgGMR
++ _$sScSys6ResultOy16MusicKitInternal0B14LyricsResponseV0E0OSgs5Error_pGSgGMd
++ _$sSo8CTRunRefa14MusicUtilitiesE13drawingBounds15forGlyphAtIndex9positions5scaleSo6CGRectVSi_SaySo7CGPointVGSg12CoreGraphics7CGFloatVtF
++ _$sSo8CTRunRefa14MusicUtilitiesE13drawingBounds5range9positions5scaleSo6CGRectVSo8_NSRangeV_SaySo7CGPointVGSg12CoreGraphics7CGFloatVtF
++ _$sSr13_mergeTopRuns_6buffer2bySbSaySnySiGGz_SpyxGSbx_xtKXEtKF12CoreGraphics7CGFloatV3hue_AI10saturationAI10brightnessAI5alphat_Tg50186$s9MusicCore14PlaylistCoversO12recipeColors33_11BA5CF3AE098F81240A801610064BFALL15backgroundColor07primaryN009secondaryN008tertiaryN0AC06RecipeF0VSgSo10CGColorRefa_A3NtYaFZSb0B8Graphics7H63V3hue_AQ10saturationAQ10brightnessAQ5alphat_AqR_AqsqtqUttXEfU0_Tf1nncn_n
++ _$sSr15_stableSortImpl2byySbx_xtKXE_tKFySryxGz_SiztKXEfU_12CoreGraphics7CGFloatV3hue_AF10saturationAF10brightnessAF5alphat_Tg50186$s9MusicCore14PlaylistCoversO12recipeColors33_11BA5CF3AE098F81240A801610064BFALL15backgroundColor07primaryN009secondaryN008tertiaryN0AC06RecipeF0VSgSo10CGColorRefa_A3NtYaFZSb0B8Graphics7G63V3hue_AQ10saturationAQ10brightnessAQ5alphat_AqR_AqsqtqUttXEfU0_Tf1nnncn_n
++ _$ss12_ArrayBufferV20_consumeAndCreateNewAByxGyF7LyricsX06SyncedG8LineViewC_Tg5
++ _$ss12_ArrayBufferV20_consumeAndCreateNewAByxGyFSo13MSVLyricsWordC_Tg5
++ _$ss6ResultOy16MusicKitInternal0B14LyricsResponseV0E0OSgs5Error_pGMR
++ _$ss6ResultOy16MusicKitInternal0B14LyricsResponseV0E0OSgs5Error_pGMd
++ _$ss6ResultOy16MusicKitInternal0B14LyricsResponseV0E0OSgs5Error_pGSgMR
++ _$ss6ResultOy16MusicKitInternal0B14LyricsResponseV0E0OSgs5Error_pGSgMd
++ _$ss6ResultOy16MusicKitInternal0B14LyricsResponseV0E0OSgs5Error_pGSgSgMR
++ _$ss6ResultOy16MusicKitInternal0B14LyricsResponseV0E0OSgs5Error_pGSgSgMd
++ _$ss6_merge3low3mid4high6buffer2bySbSpyxG_A3GSbx_xtKXEtKlF12CoreGraphics7CGFloatV3hue_AJ10saturationAJ10brightnessAJ5alphat_Tg50186$s9MusicCore14PlaylistCoversO12recipeColors33_11BA5CF3AE098F81240A801610064BFALL15backgroundColor07primaryN009secondaryN008tertiaryN0AC06RecipeF0VSgSo10CGColorRefa_A3NtYaFZSb0B8Graphics7I63V3hue_AQ10saturationAQ10brightnessAQ5alphat_AqR_AqsqtqUttXEfU0_Tf1nnnnc_n
++ _CGCeiling
++ _CGFloor
++ _symbolic ScCyyt_____G s5NeverO
++ _symbolic ScSy_____y_____Sg______pGSgG s6ResultOsRi_zRi0_zrlE 16MusicKitInternal0B14LyricsResponseV0E0O s5ErrorP
++ _symbolic _____ 16MusicKitInternal0A15LyricsViewModelC
++ _symbolic _____SgXwz_Xx 7LyricsX06SyncedA23VisualExperienceManagerC
++ _symbolic _____y_____Sg______pG s6ResultOsRi_zRi0_zrlE 16MusicKitInternal0B14LyricsResponseV0E0O s5ErrorP
++ _symbolic _____y_____Sg______pGSg s6ResultOsRi_zRi0_zrlE 16MusicKitInternal0B14LyricsResponseV0E0O s5ErrorP
++ _symbolic _____y_____Sg______pGSgSg s6ResultOsRi_zRi0_zrlE 16MusicKitInternal0B14LyricsResponseV0E0O s5ErrorP
++ _symbolic _____y_____y_____Sg______pGSg_G ScS12ContinuationV s6ResultOsRi_zRi0_zrlE 16MusicKitInternal0C14LyricsResponseV0F0O s5ErrorP
++ _symbolic _____y_____y_____Sg______pGSg_G ScS8IteratorV s6ResultOsRi_zRi0_zrlE 16MusicKitInternal0C14LyricsResponseV0F0O s5ErrorP
++ _symbolic _____y_____y_____Sg______pGSg__G ScS12ContinuationV11YieldResultO s0C0OsRi_zRi0_zrlE 16MusicKitInternal0D14LyricsResponseV0G0O s5ErrorP
++ _symbolic _____y_____y_____Sg______pGSg__G ScS12ContinuationV15BufferingPolicyO s6ResultOsRi_zRi0_zrlE 16MusicKitInternal0E14LyricsResponseV0H0O s5ErrorP
++ objectdestroy.103Tm
++ objectdestroy.195Tm
++ objectdestroy.213Tm
++ objectdestroy.273Tm
++ objectdestroy.306Tm
++ objectdestroy.336Tm
++ objectdestroy.82Tm
+- $s2os14OSLogArgumentsV6appendyySSycFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.113
+- $s2os14OSLogArgumentsV6appendyySSycFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.124
+- $s2os14OSLogArgumentsV6appendyySSycFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.132
+- $s2os14OSLogArgumentsV6appendyySSycFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.143
+- $s2os14OSLogArgumentsV6appendyySSycFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.151
+- $s2os14OSLogArgumentsV6appendyySSycFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.162
+- $s2os14OSLogArgumentsV6appendyySSycFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.173
+- $s2os14OSLogArgumentsV6appendyySSycFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.187
+- $s2os14OSLogArgumentsV6appendyySSycFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.195
+- $s2os14OSLogArgumentsV6appendyySSycFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.217
+- $s2os14OSLogArgumentsV6appendyySSycFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.225
+- $s2os14OSLogArgumentsV6appendyySSycFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.236
+- $s2os14OSLogArgumentsV6appendyySSycFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.247
+- $s2os14OSLogArgumentsV6appendyySSycFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.258
+- $s2os14OSLogArgumentsV6appendyySSycFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.269
+- $s2os18OSLogInterpolationV06appendC0_5align7privacyySSyXA_AA0B15StringAlignmentVAA0B7PrivacyVtFSSycfu_TA.109
+- $s2os18OSLogInterpolationV06appendC0_5align7privacyySSyXA_AA0B15StringAlignmentVAA0B7PrivacyVtFSSycfu_TA.120
+- $s2os18OSLogInterpolationV06appendC0_5align7privacyySSyXA_AA0B15StringAlignmentVAA0B7PrivacyVtFSSycfu_TA.128
+- $s2os18OSLogInterpolationV06appendC0_5align7privacyySSyXA_AA0B15StringAlignmentVAA0B7PrivacyVtFSSycfu_TA.139
+- $s2os18OSLogInterpolationV06appendC0_5align7privacyySSyXA_AA0B15StringAlignmentVAA0B7PrivacyVtFSSycfu_TA.147
+- $s2os18OSLogInterpolationV06appendC0_5align7privacyySSyXA_AA0B15StringAlignmentVAA0B7PrivacyVtFSSycfu_TA.158
+- $s2os18OSLogInterpolationV06appendC0_5align7privacyySSyXA_AA0B15StringAlignmentVAA0B7PrivacyVtFSSycfu_TA.169
+- $s2os18OSLogInterpolationV06appendC0_5align7privacyySSyXA_AA0B15StringAlignmentVAA0B7PrivacyVtFSSycfu_TA.183
+- $s2os18OSLogInterpolationV06appendC0_5align7privacyySSyXA_AA0B15StringAlignmentVAA0B7PrivacyVtFSSycfu_TA.191
+- $s2os18OSLogInterpolationV06appendC0_5align7privacyySSyXA_AA0B15StringAlignmentVAA0B7PrivacyVtFSSycfu_TA.213
+- $s2os18OSLogInterpolationV06appendC0_5align7privacyySSyXA_AA0B15StringAlignmentVAA0B7PrivacyVtFSSycfu_TA.221
+- $s2os18OSLogInterpolationV06appendC0_5align7privacyySSyXA_AA0B15StringAlignmentVAA0B7PrivacyVtFSSycfu_TA.232
+- $s2os18OSLogInterpolationV06appendC0_5align7privacyySSyXA_AA0B15StringAlignmentVAA0B7PrivacyVtFSSycfu_TA.243
+- $s2os18OSLogInterpolationV06appendC0_5align7privacyySSyXA_AA0B15StringAlignmentVAA0B7PrivacyVtFSSycfu_TA.254
+- $s2os18OSLogInterpolationV06appendC0_5align7privacyySSyXA_AA0B15StringAlignmentVAA0B7PrivacyVtFSSycfu_TA.265
+- $s7LyricsX06SyncedA23VisualExperienceManagerC11updateLines8animatedAC0G12UpdateResultVSgSb_tFyycfU0_TA.195
+- $s7LyricsX06SyncedA23VisualExperienceManagerC11updateLines8animatedAC0G12UpdateResultVSgSb_tFyycfU0_TA.199
+- $s7LyricsX06SyncedA9LineLayerC015SBS_TextContentD0C0fD0C11addAnimator33_6199ED2C84AF6C925E1487713AA44194LLyyAA0d8PropertyI0CFyycfU_TA.452
+- $s7LyricsX06SyncedA9LineLayerC015SBS_TextContentD0C0fD0C11animateBlur33_6199ED2C84AF6C925E1487713AA44194LL2on4from2to8duration5delayySo7CALayerC_12CoreGraphics7CGFloatVASS2dtFySbcfU_TA.335
+- $s7LyricsX06SyncedA9LineLayerC015SBS_TextContentD0C0fD0C11animateBlur33_6199ED2C84AF6C925E1487713AA44194LL2on4from2to8duration5delayySo7CALayerC_12CoreGraphics7CGFloatVASS2dtFySbcfU_TA.355
+- $s7LyricsX06SyncedA9LineLayerC015SBS_TextContentD0C0fD0C11animateBlur33_6199ED2C84AF6C925E1487713AA44194LL2on4from2to8duration5delayySo7CALayerC_12CoreGraphics7CGFloatVASS2dtFySbcfU_TA.368
+- $s7LyricsX06SyncedA9LineLayerC13setBlurRadius_8animatedy12CoreGraphics7CGFloatV_SbtFyycfU0_TA.228
+- $s7LyricsX06SyncedA9LineLayerC13setBlurRadius_8animatedy12CoreGraphics7CGFloatV_SbtFyycfU_TA.224
+- $sIeg_ytIegr_TRTA.150
+- $sIeg_ytIegr_TRTA.157
+- $sIeg_ytIegr_TRTA.164
+- $sIeg_ytIegr_TRTA.171
+- $sIeg_ytIegr_TRTA.178
+- $sIeg_ytIegr_TRTA.185
+- $sIeg_ytIegr_TRTA.232
+- $sIeg_ytIegr_TRTA.285
+- $sIeg_ytIegr_TRTA.292
+- $sIeg_ytIegr_TRTA.299
+- $sIeg_ytIegr_TRTA.312
+- $sIeg_ytIegr_TRTA.322
+- $sIeg_ytIegr_TRTA.348
+- $sIeg_ytIegr_TRTA.378
+- $sIeg_ytIegr_TRTA.385
+- $sIeg_ytIegr_TRTA.392
+- $sIeg_ytIegr_TRTA.402
+- $sIeg_ytIegr_TRTA.409
+- $sIeg_ytIegr_TRTA.416
+- $sIeg_ytIegr_TRTA.426
+- $sIeg_ytIegr_TRTA.433
+- $sIeg_ytIegr_TRTA.456
+- $sIeg_ytIegr_TRTA.469
+- $sIeg_ytIegr_TRTA.473
+- $sIeg_ytIegr_TRTA.84
+- $sIeg_ytIegr_TRTA.91
+- $sIeg_ytIegr_TRTA.98
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/LyricsX.build/LyricsX.build/DerivedSources/
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/LyricsX.build/LyricsX.build/Objects-normal/arm64e/Common.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/LyricsX.build/LyricsX.build/Objects-normal/arm64e/Glyph.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/LyricsX.build/LyricsX.build/Objects-normal/arm64e/LayerPropertyAnimator.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/LyricsX.build/LyricsX.build/Objects-normal/arm64e/Line.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/LyricsX.build/LyricsX.build/Objects-normal/arm64e/Lyrics.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/LyricsX.build/LyricsX.build/Objects-normal/arm64e/LyricsOptionsManager.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/LyricsX.build/LyricsX.build/Objects-normal/arm64e/LyricsSpecs.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/LyricsX.build/LyricsX.build/Objects-normal/arm64e/LyricsTextLayer.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/LyricsX.build/LyricsX.build/Objects-normal/arm64e/LyricsX.swiftmodule
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/LyricsX.build/LyricsX.build/Objects-normal/arm64e/SBS_SyncedLyricsLineLayer+Text.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/LyricsX.build/LyricsX.build/Objects-normal/arm64e/Syllable.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/LyricsX.build/LyricsX.build/Objects-normal/arm64e/SyncedLyricsLineLayer+Instrumental.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/LyricsX.build/LyricsX.build/Objects-normal/arm64e/SyncedLyricsLineLayer+Text.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/LyricsX.build/LyricsX.build/Objects-normal/arm64e/SyncedLyricsLineLayer.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/LyricsX.build/LyricsX.build/Objects-normal/arm64e/SyncedLyricsLineView_UIKit.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/LyricsX.build/LyricsX.build/Objects-normal/arm64e/SyncedLyricsManager.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/LyricsX.build/LyricsX.build/Objects-normal/arm64e/SyncedLyricsTimestampLabel.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/LyricsX.build/LyricsX.build/Objects-normal/arm64e/SyncedLyricsViewController_UIKit.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/LyricsX.build/LyricsX.build/Objects-normal/arm64e/SyncedLyricsVisualExperienceManager.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/LyricsX.build/LyricsX.build/Objects-normal/arm64e/TextContainer.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/LyricsX.build/LyricsX.build/Objects-normal/arm64e/TextKitLabel.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/LyricsX.build/LyricsX.build/Objects-normal/arm64e/Utils.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/LyricsX.build/LyricsX.build/Objects-normal/arm64e/Word.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/LyricsX.build/LyricsX.build/Objects-normal/arm64e/resource_bundle_accessor.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/Music.build/MusicEngagementExtension.build/Objects-normal/arm64e/ExtensionErrors.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/Music.build/MusicEngagementExtension.build/Objects-normal/arm64e/ExtensionRequest.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/Music.build/MusicEngagementExtension.build/Objects-normal/arm64e/MusicEngagementExtension.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/Music.build/MusicEngagementExtension.build/Objects-normal/arm64e/MusicEngagementExtension.swiftmodule
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/DerivedSources/
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/Accessibility.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/Action.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/ActionCondition.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/ActionDisplayConfiguration.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/ActionList.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/ActionType.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/Actions+AddToLibrary.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/Actions+AddToPlaylist.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/Actions+Collaborate.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/Actions+CreatePlaylist.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/Actions+DeleteFromLibrary.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/Actions+DeleteOrRemoveDownload.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/Actions+Download.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/Actions+EditPlaylist.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/Actions+Favoriting.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/Actions+Folder.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/Actions+Navigation.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/Actions+OpenInClassical.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/Actions+Pins.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/Actions+Playback.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/Actions+RateSong.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/Actions+RemoveDownload.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/Actions+RemoveFromPlaylist.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/Actions+ReportConcern.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/Actions+Share.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/Actions+SortPlaylist.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/Actions+UIMenu.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/Alert+Music.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/Alert+SwiftUI.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/Alert+UIAlertController.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/Alert.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/AppReview.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/ApplicationCapabilitiesController.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/Artwork+MediaPlayer.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/ArtworkVideoReportingController.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/AudioFormatID+Music.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/BackgroundFetchManager.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/BackgroundRefreshController.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/BagControlledValue.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/BagProvider.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/CarNowPlayingMetrics.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/ClassicalBridge.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/CloudLibrary.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/Collaboration.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/CommonStrings.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/CoreDefaults.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/CoverArtworkDataSource.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/Covers.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/Datavault+Music.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/DeviceCapabilities.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/EnvironmentMonitor.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/EnvironmentVar.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/ExplicitRestrictionsController.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/Expressions.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/Features+MusicCore.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/Foundation+Music.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/Gliss+Sonic.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/Gliss.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/GlissCoordinator.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/GlissTransition.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/GroupActivitiesManager.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/KeyboardObserverModifier.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/LSApplicationWorkspace+Music.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/LaunchURLResolver.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/LibraryActionableStateController.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/LibraryContext.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/LibraryMenu.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/LibraryModelRequest.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/LifecyclePatrol.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/MPModelObject+DefaultMusicKind.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/MPModelObject+Innermost.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/MPNowPlayingInfoAudioFormat+Music.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/MediaPlayer+Music.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/MetricsContentDictionaryConvertibles.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/MetricsEventSampler.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/MetricsReportingController.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/MetricsUtilities.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/ModelObjectBackedStoreItemMetadata.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/ModelRequest.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/MotionMode.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/MusicAction.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/MusicActionMenu+ElementBuilder.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/MusicActionMenu+Metrics.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/MusicActionMenu+SwiftUI.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/MusicActionMenu+UIMenu.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/MusicActionMenu.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/MusicActions.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/MusicCore.swiftmodule
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/MusicCoreAnalytics.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/MusicKit+Music.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/MusicTabsDictionaryProvider.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/NetworkMonitor.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/Notice.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/NowPlaying.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/NowPlayingMetadata.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/OSLog+Music.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/OptimisticValue.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/OptionalObservableObject.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/PageRender.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/PlayActivityData.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/Playback+MusicCore.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/Playback+SBSnapshot.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/PlaybackController.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/PlaybackIntentDescriptor.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/PlaybackTimeObserver.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/Player+CommandIssuing.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/Player.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/PlayerCommand.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/PlaylistSortingController.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/PresentationObserver.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/PresentationSource.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/PresentedViewState.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/Presenters.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/PrivacyAcknowledgementObserver.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/PushNotificationObserver.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/QRCode.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/RecipeColors.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/Request.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/RequestResponseController.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/RequestResponseInvalidation.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/SampleReceiver.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/SequentialVocalCommandsFilter.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/SharePlayTogetherSession.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/ShareSheetPresentation.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/SharedListening.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/Signposter.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/Song+Music.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/SortConfiguration.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/SortOptions.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/StagedInstall.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/String+Extensions.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/SubscriptionUpsellPresenter.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/TabIdentifier.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/TapToRadar.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/TextFieldAlert.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/Trait+Materials.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/UIKit+PAF.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/UnifiedMessages.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/UserDefaults+Music.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/iTunesCloud+Music.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCore.build/Objects-normal/arm64e/resource_bundle_accessor.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCoreUI.build/DerivedSources/
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCoreUI.build/Objects-normal/arm64e/AnyTransition+GlowTextReveal.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCoreUI.build/Objects-normal/arm64e/Artwork.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCoreUI.build/Objects-normal/arm64e/ArtworkConfiguration.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCoreUI.build/Objects-normal/arm64e/ArtworkPlaceholder.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCoreUI.build/Objects-normal/arm64e/Badge.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCoreUI.build/Objects-normal/arm64e/CAPackage+Music.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCoreUI.build/Objects-normal/arm64e/CNAvatarView+SwiftUIswift.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCoreUI.build/Objects-normal/arm64e/Card.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCoreUI.build/Objects-normal/arm64e/CarouselItem.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCoreUI.build/Objects-normal/arm64e/CarouselView.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCoreUI.build/Objects-normal/arm64e/CircularProgressView.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCoreUI.build/Objects-normal/arm64e/CollaborationUI.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCoreUI.build/Objects-normal/arm64e/ColorSpecs.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCoreUI.build/Objects-normal/arm64e/CoreAnimationPackageView.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCoreUI.build/Objects-normal/arm64e/Corner+Border+Shadow+Hover.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCoreUI.build/Objects-normal/arm64e/FlowViews.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCoreUI.build/Objects-normal/arm64e/FontTextStyleProvider.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCoreUI.build/Objects-normal/arm64e/Foundation+MusicCoreUI.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCoreUI.build/Objects-normal/arm64e/GlowModifier.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCoreUI.build/Objects-normal/arm64e/Gradient.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCoreUI.build/Objects-normal/arm64e/GridMetrics.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCoreUI.build/Objects-normal/arm64e/GridPreview.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCoreUI.build/Objects-normal/arm64e/HeightLimitedButtonTextView.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCoreUI.build/Objects-normal/arm64e/HitMyRect.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCoreUI.build/Objects-normal/arm64e/HostedScenePhaseSupport.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCoreUI.build/Objects-normal/arm64e/ImagePicker.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCoreUI.build/Objects-normal/arm64e/InlineProfileEditingView.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCoreUI.build/Objects-normal/arm64e/InteractionFeedbackLoadingView.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCoreUI.build/Objects-normal/arm64e/JiggleAnimationModifier.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCoreUI.build/Objects-normal/arm64e/LayoutProvider.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCoreUI.build/Objects-normal/arm64e/LibraryActionableState+SymbolButton.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCoreUI.build/Objects-normal/arm64e/LoadingView.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCoreUI.build/Objects-normal/arm64e/LyricsStateManager.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCoreUI.build/Objects-normal/arm64e/MarkupView.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCoreUI.build/Objects-normal/arm64e/MaterialyView.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCoreUI.build/Objects-normal/arm64e/Modal.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCoreUI.build/Objects-normal/arm64e/MoreLabel.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCoreUI.build/Objects-normal/arm64e/MusicCoreUI.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCoreUI.build/Objects-normal/arm64e/MusicCoreUI.swiftmodule
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCoreUI.build/Objects-normal/arm64e/MusicItemArtworkViewModels.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCoreUI.build/Objects-normal/arm64e/MusicUIContentConfiguration.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCoreUI.build/Objects-normal/arm64e/NoticePresenter.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCoreUI.build/Objects-normal/arm64e/NoticeView.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCoreUI.build/Objects-normal/arm64e/NowPlayingTrackTitleStackView.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCoreUI.build/Objects-normal/arm64e/PassthroughView.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCoreUI.build/Objects-normal/arm64e/PlayIntentButton.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCoreUI.build/Objects-normal/arm64e/ProgressiveBlurView.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCoreUI.build/Objects-normal/arm64e/QRCodeOverlayViewController.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCoreUI.build/Objects-normal/arm64e/Radiosity.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCoreUI.build/Objects-normal/arm64e/Reactions.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCoreUI.build/Objects-normal/arm64e/SameWidthHStack.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCoreUI.build/Objects-normal/arm64e/SliderView.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCoreUI.build/Objects-normal/arm64e/SwiftUI+MusicCoreUI.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCoreUI.build/Objects-normal/arm64e/SymbolButton+Logging.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCoreUI.build/Objects-normal/arm64e/SymbolButton.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCoreUI.build/Objects-normal/arm64e/TextArray.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCoreUI.build/Objects-normal/arm64e/TextViewBuilders.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCoreUI.build/Objects-normal/arm64e/TintColor.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCoreUI.build/Objects-normal/arm64e/UIKit+MediaPlayer.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCoreUI.build/Objects-normal/arm64e/UIKit+Music.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCoreUI.build/Objects-normal/arm64e/UIView+Music.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCoreUI.build/Objects-normal/arm64e/VerticalToggleSlider.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCoreUI.build/Objects-normal/arm64e/VocalsAttenuationSlider.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCoreUI.build/Objects-normal/arm64e/WaveformPlayIndicator.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCoreUI.build/Objects-normal/arm64e/WindowSceneResolver.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicCoreUI.build/Objects-normal/arm64e/resource_bundle_accessor.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicFoundation.build/MusicFoundationObjC.build/Objects-normal/arm64e/MarqueeView.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicSiri.build/MusicSiriCore.build/Objects-normal/arm64e/Logging+MusicSiri.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicSiri.build/MusicSiriCore.build/Objects-normal/arm64e/MusicSiriCore.swiftmodule
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicSiri.build/MusicSiriDonations.build/Objects-normal/arm64e/AddItemToLibrarySiriAction.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicSiri.build/MusicSiriDonations.build/Objects-normal/arm64e/AddItemsToPlaylistSiriAction.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicSiri.build/MusicSiriDonations.build/Objects-normal/arm64e/MusicSiriDonations.swiftmodule
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicSiri.build/MusicSiriDonations.build/Objects-normal/arm64e/OpenDestinationSiriAction.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicSiri.build/MusicSiriDonations.build/Objects-normal/arm64e/OpenItemSiriAction.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicSiri.build/MusicSiriDonations.build/Objects-normal/arm64e/PlayItemSiriAction.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicSiri.build/MusicSiriDonations.build/Objects-normal/arm64e/SearchMusicSiriAction.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicSiri.build/MusicSiriDonations.build/Objects-normal/arm64e/SiriActionDonator.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicSiri.build/MusicSiriDonations.build/Objects-normal/arm64e/UpdateItemAffinitySiriAction.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicUtilities.build/InternalCollectionsUtilities.build/Objects-normal/arm64e/Descriptions.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicUtilities.build/InternalCollectionsUtilities.build/Objects-normal/arm64e/FixedWidthInteger+roundUpToPowerOfTwo.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicUtilities.build/InternalCollectionsUtilities.build/Objects-normal/arm64e/Integer rank.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicUtilities.build/InternalCollectionsUtilities.build/Objects-normal/arm64e/InternalCollectionsUtilities.swiftmodule
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicUtilities.build/InternalCollectionsUtilities.build/Objects-normal/arm64e/RandomAccessCollection+Offsets.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicUtilities.build/InternalCollectionsUtilities.build/Objects-normal/arm64e/UInt+first and last set bit.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicUtilities.build/InternalCollectionsUtilities.build/Objects-normal/arm64e/UInt+reversed.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicUtilities.build/InternalCollectionsUtilities.build/Objects-normal/arm64e/UnsafeBufferPointer+Extras.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicUtilities.build/InternalCollectionsUtilities.build/Objects-normal/arm64e/UnsafeMutableBufferPointer+Extras.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicUtilities.build/InternalCollectionsUtilities.build/Objects-normal/arm64e/UnsafeMutableRawBufferPointer+Extras.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicUtilities.build/InternalCollectionsUtilities.build/Objects-normal/arm64e/_SortedCollection.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicUtilities.build/InternalCollectionsUtilities.build/Objects-normal/arm64e/_UniqueCollection.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicUtilities.build/InternalCollectionsUtilities.build/Objects-normal/arm64e/_UnsafeBitSet+Index.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicUtilities.build/InternalCollectionsUtilities.build/Objects-normal/arm64e/_UnsafeBitSet+_Word.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicUtilities.build/InternalCollectionsUtilities.build/Objects-normal/arm64e/_UnsafeBitSet.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicUtilities.build/MusicSwiftCollections.build/Objects-normal/arm64e/MusicSwiftCollections.swiftmodule
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicUtilities.build/MusicSwiftCollections.build/Objects-normal/arm64e/OrderedSet+Codable.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicUtilities.build/MusicSwiftCollections.build/Objects-normal/arm64e/OrderedSet+CustomReflectable.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicUtilities.build/MusicSwiftCollections.build/Objects-normal/arm64e/OrderedSet+Descriptions.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicUtilities.build/MusicSwiftCollections.build/Objects-normal/arm64e/OrderedSet+Diffing.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicUtilities.build/MusicSwiftCollections.build/Objects-normal/arm64e/OrderedSet+Equatable.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicUtilities.build/MusicSwiftCollections.build/Objects-normal/arm64e/OrderedSet+ExpressibleByArrayLiteral.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicUtilities.build/MusicSwiftCollections.build/Objects-normal/arm64e/OrderedSet+Hashable.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicUtilities.build/MusicSwiftCollections.build/Objects-normal/arm64e/OrderedSet+Initializers.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicUtilities.build/MusicSwiftCollections.build/Objects-normal/arm64e/OrderedSet+Insertions.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicUtilities.build/MusicSwiftCollections.build/Objects-normal/arm64e/OrderedSet+Invariants.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicUtilities.build/MusicSwiftCollections.build/Objects-normal/arm64e/OrderedSet+Partial MutableCollection.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicUtilities.build/MusicSwiftCollections.build/Objects-normal/arm64e/OrderedSet+Partial RangeReplaceableCollection.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicUtilities.build/MusicSwiftCollections.build/Objects-normal/arm64e/OrderedSet+Partial SetAlgebra formIntersection.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicUtilities.build/MusicSwiftCollections.build/Objects-normal/arm64e/OrderedSet+Partial SetAlgebra formSymmetricDifference.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicUtilities.build/MusicSwiftCollections.build/Objects-normal/arm64e/OrderedSet+Partial SetAlgebra formUnion.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicUtilities.build/MusicSwiftCollections.build/Objects-normal/arm64e/OrderedSet+Partial SetAlgebra intersection.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicUtilities.build/MusicSwiftCollections.build/Objects-normal/arm64e/OrderedSet+Partial SetAlgebra isDisjoint.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicUtilities.build/MusicSwiftCollections.build/Objects-normal/arm64e/OrderedSet+Partial SetAlgebra isEqualSet.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicUtilities.build/MusicSwiftCollections.build/Objects-normal/arm64e/OrderedSet+Partial SetAlgebra isStrictSubset.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicUtilities.build/MusicSwiftCollections.build/Objects-normal/arm64e/OrderedSet+Partial SetAlgebra isStrictSuperset.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicUtilities.build/MusicSwiftCollections.build/Objects-normal/arm64e/OrderedSet+Partial SetAlgebra isSubset.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicUtilities.build/MusicSwiftCollections.build/Objects-normal/arm64e/OrderedSet+Partial SetAlgebra isSuperset.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicUtilities.build/MusicSwiftCollections.build/Objects-normal/arm64e/OrderedSet+Partial SetAlgebra subtract.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicUtilities.build/MusicSwiftCollections.build/Objects-normal/arm64e/OrderedSet+Partial SetAlgebra subtracting.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicUtilities.build/MusicSwiftCollections.build/Objects-normal/arm64e/OrderedSet+Partial SetAlgebra symmetricDifference.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicUtilities.build/MusicSwiftCollections.build/Objects-normal/arm64e/OrderedSet+Partial SetAlgebra union.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicUtilities.build/MusicSwiftCollections.build/Objects-normal/arm64e/OrderedSet+Partial SetAlgebra+Basics.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicUtilities.build/MusicSwiftCollections.build/Objects-normal/arm64e/OrderedSet+RandomAccessCollection.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicUtilities.build/MusicSwiftCollections.build/Objects-normal/arm64e/OrderedSet+ReserveCapacity.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicUtilities.build/MusicSwiftCollections.build/Objects-normal/arm64e/OrderedSet+SubSequence.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicUtilities.build/MusicSwiftCollections.build/Objects-normal/arm64e/OrderedSet+Testing.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicUtilities.build/MusicSwiftCollections.build/Objects-normal/arm64e/OrderedSet+UnorderedView.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicUtilities.build/MusicSwiftCollections.build/Objects-normal/arm64e/OrderedSet+UnstableInternals.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicUtilities.build/MusicSwiftCollections.build/Objects-normal/arm64e/OrderedSet.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicUtilities.build/MusicSwiftCollections.build/Objects-normal/arm64e/_HashTable+Bucket.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicUtilities.build/MusicSwiftCollections.build/Objects-normal/arm64e/_HashTable+BucketIterator.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicUtilities.build/MusicSwiftCollections.build/Objects-normal/arm64e/_HashTable+Constants.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicUtilities.build/MusicSwiftCollections.build/Objects-normal/arm64e/_HashTable+CustomStringConvertible.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicUtilities.build/MusicSwiftCollections.build/Objects-normal/arm64e/_HashTable+Testing.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicUtilities.build/MusicSwiftCollections.build/Objects-normal/arm64e/_HashTable+UnsafeHandle.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicUtilities.build/MusicSwiftCollections.build/Objects-normal/arm64e/_HashTable.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicUtilities.build/MusicSwiftCollections.build/Objects-normal/arm64e/_Hashtable+Header.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicUtilities.build/MusicUtilities.build/Objects-normal/arm64e/Addable.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicUtilities.build/MusicUtilities.build/Objects-normal/arm64e/ApplicationRecordUtilities.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicUtilities.build/MusicUtilities.build/Objects-normal/arm64e/ArrayBuilder.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicUtilities.build/MusicUtilities.build/Objects-normal/arm64e/BrightnessManager.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicUtilities.build/MusicUtilities.build/Objects-normal/arm64e/CodableImage.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicUtilities.build/MusicUtilities.build/Objects-normal/arm64e/CollectionComparison.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicUtilities.build/MusicUtilities.build/Objects-normal/arm64e/Color+Utilities.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicUtilities.build/MusicUtilities.build/Objects-normal/arm64e/Concurrency+Utilities.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicUtilities.build/MusicUtilities.build/Objects-normal/arm64e/ControlEventHandler.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicUtilities.build/MusicUtilities.build/Objects-normal/arm64e/CoreAnimation+Utilities.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicUtilities.build/MusicUtilities.build/Objects-normal/arm64e/CoreGraphics+Utilities.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicUtilities.build/MusicUtilities.build/Objects-normal/arm64e/CoreText+Utilities.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicUtilities.build/MusicUtilities.build/Objects-normal/arm64e/Datavault.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicUtilities.build/MusicUtilities.build/Objects-normal/arm64e/Dispatch+Utilities.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicUtilities.build/MusicUtilities.build/Objects-normal/arm64e/DisplayLinkHandler.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicUtilities.build/MusicUtilities.build/Objects-normal/arm64e/EdgePairSequence.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicUtilities.build/MusicUtilities.build/Objects-normal/arm64e/Features+MediaFrameworks.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicUtilities.build/MusicUtilities.build/Objects-normal/arm64e/Features+Music.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicUtilities.build/MusicUtilities.build/Objects-normal/arm64e/Features+OS.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicUtilities.build/MusicUtilities.build/Objects-normal/arm64e/Features+Utilities.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicUtilities.build/MusicUtilities.build/Objects-normal/arm64e/FileManager+Utilities.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicUtilities.build/MusicUtilities.build/Objects-normal/arm64e/Foundation+Crypto.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicUtilities.build/MusicUtilities.build/Objects-normal/arm64e/Foundation+Utilities.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicUtilities.build/MusicUtilities.build/Objects-normal/arm64e/GestureRecognizerHandler.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicUtilities.build/MusicUtilities.build/Objects-normal/arm64e/KeyboardAvoidance.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicUtilities.build/MusicUtilities.build/Objects-normal/arm64e/Logging+ModelObject.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicUtilities.build/MusicUtilities.build/Objects-normal/arm64e/Logging.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicUtilities.build/MusicUtilities.build/Objects-normal/arm64e/MUBinding.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicUtilities.build/MusicUtilities.build/Objects-normal/arm64e/Math.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicUtilities.build/MusicUtilities.build/Objects-normal/arm64e/MediaPlayer+Utilities.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicUtilities.build/MusicUtilities.build/Objects-normal/arm64e/MusicKit+Utilities.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicUtilities.build/MusicUtilities.build/Objects-normal/arm64e/MusicUtilities.swiftmodule
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicUtilities.build/MusicUtilities.build/Objects-normal/arm64e/NotificationObserver.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicUtilities.build/MusicUtilities.build/Objects-normal/arm64e/Signpost.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicUtilities.build/MusicUtilities.build/Objects-normal/arm64e/SmartDiffing.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicUtilities.build/MusicUtilities.build/Objects-normal/arm64e/Swift+Utilities.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicUtilities.build/MusicUtilities.build/Objects-normal/arm64e/SwiftUI+Utilities.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicUtilities.build/MusicUtilities.build/Objects-normal/arm64e/TextKit+Utilities.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicUtilities.build/MusicUtilities.build/Objects-normal/arm64e/UIKit+Utilities.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicUtilities.build/MusicUtilities.build/Objects-normal/arm64e/URL+Utilities.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicUtilities.build/MusicUtilities.build/Objects-normal/arm64e/UnfairLock.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicUtilities.build/MusicUtilities.build/Objects-normal/arm64e/UserDefaults+Utilities.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicUtilities.build/MusicUtilities.build/Objects-normal/arm64e/WeakArray.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicUtilities.build/MusicUtilities.build/Objects-normal/arm64e/WeakValuesDictionary.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicUtilities.build/MusicUtilities.build/Objects-normal/arm64e/iTunesStoreURLs.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicUtilities.build/MusicUtilitiesObjC.build/Objects-normal/arm64e/MonogramArtworkDataSource.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicUtilities.build/MusicUtilitiesObjC.build/Objects-normal/arm64e/MusicDarwinNotificationObserver.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicUtilities.build/MusicUtilitiesObjC.build/Objects-normal/arm64e/MusicDistributedNotificationCenter.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicUtilities.build/MusicUtilitiesObjC.build/Objects-normal/arm64e/MusicSymbolReexport.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Binaries/Music/install/TempContent/Objects/MusicUtilities.build/MusicUtilitiesObjC.build/Objects-normal/arm64e/NSString+MusicUtilitiesAdditions.o
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Sources/Music/Extensions/MusicEngagementExtension/
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Sources/Music/Packages/MusicFoundation/Package/Sources/MusicCore/
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Sources/Music/Packages/MusicFoundation/Package/Sources/MusicCore/Actions/Core/
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Sources/Music/Packages/MusicFoundation/Package/Sources/MusicCore/Actions/Library/
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Sources/Music/Packages/MusicFoundation/Package/Sources/MusicCore/Actions/Navigation/
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Sources/Music/Packages/MusicFoundation/Package/Sources/MusicCore/Actions/Others/
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Sources/Music/Packages/MusicFoundation/Package/Sources/MusicCore/Actions/Playback/
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Sources/Music/Packages/MusicFoundation/Package/Sources/MusicCore/Actions/Share/
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Sources/Music/Packages/MusicFoundation/Package/Sources/MusicCore/Actions/Taste/
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Sources/Music/Packages/MusicFoundation/Package/Sources/MusicCore/Alert/
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Sources/Music/Packages/MusicFoundation/Package/Sources/MusicCore/Analytics/
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Sources/Music/Packages/MusicFoundation/Package/Sources/MusicCore/Background Tasks/
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Sources/Music/Packages/MusicFoundation/Package/Sources/MusicCore/Bag/
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Sources/Music/Packages/MusicFoundation/Package/Sources/MusicCore/Collaboration/
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Sources/Music/Packages/MusicFoundation/Package/Sources/MusicCore/Extensions/
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Sources/Music/Packages/MusicFoundation/Package/Sources/MusicCore/Gliss/
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Sources/Music/Packages/MusicFoundation/Package/Sources/MusicCore/Internal/
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Sources/Music/Packages/MusicFoundation/Package/Sources/MusicCore/Library/
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Sources/Music/Packages/MusicFoundation/Package/Sources/MusicCore/MediaPlayer/
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Sources/Music/Packages/MusicFoundation/Package/Sources/MusicCore/Motion/
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Sources/Music/Packages/MusicFoundation/Package/Sources/MusicCore/Notices/
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Sources/Music/Packages/MusicFoundation/Package/Sources/MusicCore/Now Playing/
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Sources/Music/Packages/MusicFoundation/Package/Sources/MusicCore/Observers/
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Sources/Music/Packages/MusicFoundation/Package/Sources/MusicCore/Pins/
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Sources/Music/Packages/MusicFoundation/Package/Sources/MusicCore/Playback/
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Sources/Music/Packages/MusicFoundation/Package/Sources/MusicCore/PlaylistCovers/
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Sources/Music/Packages/MusicFoundation/Package/Sources/MusicCore/Presenters/
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Sources/Music/Packages/MusicFoundation/Package/Sources/MusicCore/RequestResponse/
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Sources/Music/Packages/MusicFoundation/Package/Sources/MusicCore/RequestResponse/MediaPlayer/
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Sources/Music/Packages/MusicFoundation/Package/Sources/MusicCore/SharePlay Together/
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Sources/Music/Packages/MusicFoundation/Package/Sources/MusicCore/SharedListening/
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Sources/Music/Packages/MusicFoundation/Package/Sources/MusicCore/UnifiedMessages/
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Sources/Music/Packages/MusicFoundation/Package/Sources/MusicCore/Utilities/
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Sources/Music/Packages/MusicFoundation/Package/Sources/MusicCoreUI/Artwork/
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Sources/Music/Packages/MusicFoundation/Package/Sources/MusicCoreUI/CAPackages/
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Sources/Music/Packages/MusicFoundation/Package/Sources/MusicCoreUI/Extensions/
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Sources/Music/Packages/MusicFoundation/Package/Sources/MusicCoreUI/HI Metrics/
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Sources/Music/Packages/MusicFoundation/Package/Sources/MusicCoreUI/Lyrics/
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Sources/Music/Packages/MusicFoundation/Package/Sources/MusicCoreUI/Modifiers/
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Sources/Music/Packages/MusicFoundation/Package/Sources/MusicCoreUI/Notices/
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Sources/Music/Packages/MusicFoundation/Package/Sources/MusicCoreUI/Protocols/
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Sources/Music/Packages/MusicFoundation/Package/Sources/MusicCoreUI/Views/
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Sources/Music/Packages/MusicFoundation/Package/Sources/MusicCoreUI/Views/Collaboration/
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Sources/Music/Packages/MusicFoundation/Package/Sources/MusicCoreUI/Views/ExpandableTextView/
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Sources/Music/Packages/MusicFoundation/Package/Sources/MusicCoreUI/Views/NowPlaying/
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Sources/Music/Packages/MusicFoundation/Package/Sources/MusicCoreUI/Views/PlaylistCovers/
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Sources/Music/Packages/MusicFoundation/Package/Sources/MusicCoreUI/Views/Reactions/
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Sources/Music/Packages/MusicFoundation/Package/Sources/MusicFoundationObjC/src/
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Sources/Music/Packages/MusicSiri/Sources/MusicSiriCore/Extensions/
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Sources/Music/Packages/MusicSiri/Sources/MusicSiriDonations/
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Sources/Music/Packages/MusicSiri/Sources/MusicSiriDonations/Actions/
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Sources/Music/SharedPackages/LyricsX/Sources/LyricsX/
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Sources/Music/SharedPackages/LyricsX/Sources/LyricsX/Line/
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Sources/Music/SharedPackages/LyricsX/Sources/LyricsX/Line/LyricsTextLayer/
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Sources/Music/SharedPackages/LyricsX/Sources/LyricsX/UIKit/
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Sources/Music/SharedPackages/MusicUtilities/Sources/InternalCollectionsUtilities/
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Sources/Music/SharedPackages/MusicUtilities/Sources/InternalCollectionsUtilities/IntegerTricks/
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Sources/Music/SharedPackages/MusicUtilities/Sources/InternalCollectionsUtilities/UnsafeBitSet/
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Sources/Music/SharedPackages/MusicUtilities/Sources/MusicSwiftCollections/HashTable/
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Sources/Music/SharedPackages/MusicUtilities/Sources/MusicSwiftCollections/OrderedSet/
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Sources/Music/SharedPackages/MusicUtilities/Sources/MusicUtilities/
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Sources/Music/SharedPackages/MusicUtilities/Sources/MusicUtilities/Bindings/
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Sources/Music/SharedPackages/MusicUtilities/Sources/MusicUtilities/Extensions/
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Sources/Music/SharedPackages/MusicUtilities/Sources/MusicUtilities/Features/
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Sources/Music/SharedPackages/MusicUtilities/Sources/MusicUtilities/UIKit/
+- /Library/Caches/com.apple.xbs/2ACB3FD2-7361-490C-AB1D-534DA7748E0E/TemporaryDirectory.BSfTtT/Sources/Music/SharedPackages/MusicUtilities/Sources/MusicUtilitiesObjC/src/
+- _$s16MusicKitInternal0A13LyricsRequestV3forAC0aB04SongV_tcfC
+- _$s16MusicKitInternal0A13LyricsRequestV8responseAA0aD8ResponseVyYaKF
+- _$s16MusicKitInternal0A13LyricsRequestV8responseAA0aD8ResponseVyYaKFTu
+- _$s16MusicKitInternal0A13LyricsRequestVMa
+- _$s16MusicKitInternal0A14LyricsResponseVMa
+- _$s16MusicKitInternal13CatalogLyricsVSgWOc
+- _$s7LyricsX06SyncedA14ViewControllerC3set6lyrics11translation15transliterationyAA0A0CSg_AI11TranslationVSgAI15TransliterationVSgtF
+- _$s7LyricsX06SyncedA14ViewControllerC3set6lyrics11translation15transliterationyAA0A0CSg_AI11TranslationVSgAI15TransliterationVSgtFTq
+- _$s7LyricsX06SyncedA14ViewControllerC6lyricsAA0A0CSgvW
+- _$s7LyricsX06SyncedA23VisualExperienceManagerC6lyricsAA0A0CSgvMTq
+- _$s7LyricsX06SyncedA23VisualExperienceManagerC6lyricsAA0A0CSgvW
+- _$s7LyricsX06SyncedA23VisualExperienceManagerC6lyricsAA0A0CSgvWSdycfU_TA
+- _$s7LyricsX06SyncedA23VisualExperienceManagerC6lyricsAA0A0CSgvWSdycfU_Tm
+- _$s7LyricsX06SyncedA23VisualExperienceManagerC6lyricsAA0A0CSgvsTq
+- _$s7LyricsX06SyncedA7ManagerC13ConfigurationV16maxSelectedLinesSivg
+- _$s7LyricsX06SyncedA7ManagerC13ConfigurationV16maxSelectedLinesSivpMV
+- _$s7LyricsX06SyncedA7ManagerC13ConfigurationV17animationDuration019finishLineAnimationF016maxEndTimeOffset0J13SelectedLinesAES2dc_S2dSitcfC
+- _$s7LyricsX06SyncedA9LineLayerC015SBS_TextContentD0C0fD0C23transliterationMetadata33_6199ED2C84AF6C925E1487713AA44194LL19transliteratedWords08previousC19WordRepresentations08originalsT00U11StringRange04wordW10Adjustment4sizeAG21TransliterationResultAILLOSg21MusicSwiftCollections10OrderedSetVyAA0A0C0S0VG_SayAcXCGA0_So8_NSRangeVSiSo6CGSizeVtFARycfU_Tf2nnninnnnnnii_nTf0snnnnnnsnnnn_nTf4nnnnnndnnxnn_n
+- _$s7LyricsX06SyncedA9LineLayerC015SBS_TextContentD0C0fD0C25wordVisualRepresentations33_6199ED2C84AF6C925E1487713AA44194LL3for9lineFrame17typographicOrigin11lyricsWords4text0H15RangeAdjustment0R13StartingIndex08existingJ0SayAC4WordCG5words_Si011updatedWordyZ0tSo9CTLineRefa_So6CGRectVSo7CGPointVSayAA0A0CARVGSSS2iATtFTf4nnnnnnnnd_nTf4nnxnnnnn_n
+- _$s7LyricsX0A0C11MusicCoreUIE12StateManagerC04loadA033_821B22C4960C3A1049BE6B29C82839D4LLyyYaFTY6_
+- _$s9MusicCore14PlaylistCoversO32reorderBySaturationAndBrightness33_11BA5CF3AE098F81240A801610064BFALL6colorsAC12RecipeColorsVSay0B8Graphics7CGFloatV3hue_AK10saturationAK10brightnessAK5alphatG_tFZTf4nd_n
+- _$s9MusicCore3TTRO7KeywordO8rawValueAESgSi_tcfCTf4nd_n
+- _$sSMsSKRzrlE14_insertionSort6within9sortedEnd2byySny5IndexSlQzG_AFSb7ElementSTQz_AItKXEtKFSry12CoreGraphics7CGFloatV3hue_AL10saturationAL10brightnessAL5alphatG_Tg50139$s9MusicCore14PlaylistCoversO32reorderBySaturationAndBrightness33_11BA5CF3AE098F81240A801610064BFALL6colorsAC12RecipeColorsVSay0B8Graphics7K81V3hue_AK10saturationAK10brightnessAK5alphatG_tFZSbAkL_AkmknkOt_AkL_AkmknkOttXEfU_Tf1nncn_n
+- _$sSMsSkRzrlE4sort2byySb7ElementSTQz_ADtKXE_tKFs15ContiguousArrayVy12CoreGraphics7CGFloatV3hue_AI10saturationAI10brightnessAI5alphatG_Tg50139$s9MusicCore14PlaylistCoversO32reorderBySaturationAndBrightness33_11BA5CF3AE098F81240A801610064BFALL6colorsAC12RecipeColorsVSay0B8Graphics7H81V3hue_AK10saturationAK10brightnessAK5alphatG_tFZSbAkL_AkmknkOt_AkL_AkmknkOttXEfU_Tf1cn_n
+- _$sSMsSkRzrlE4sort2byySb7ElementSTQz_ADtKXE_tKFs15ContiguousArrayVy12CoreGraphics7CGFloatV3hue_AI10saturationAI10brightnessAI5alphatG_Tg50139$s9MusicCore14PlaylistCoversO32reorderBySaturationAndBrightness33_11BA5CF3AE098F81240A801610064BFALL6colorsAC12RecipeColorsVSay0B8Graphics7H82V3hue_AK10saturationAK10brightnessAK5alphatG_tFZSbAkL_AkmknkOt_AkL_AkmknkOttXEfU1_Tf1cn_n
+- _$sSa6append10contentsOfyqd__n_t7ElementQyd__RszSTRd__lF12CoreGraphics7CGFloatV3hue_AG10saturationAG10brightnessAG5alphat_SayAgH_AgigjgKtGTg5
+- _$sSo8CTRunRefa14MusicUtilitiesE13drawingBounds15forGlyphAtIndex9positionsSo6CGRectVSi_SaySo7CGPointVGSgtF
+- _$sSo8CTRunRefa14MusicUtilitiesE13drawingBounds5range9positionsSo6CGRectVSo8_NSRangeV_SaySo7CGPointVGSgtF
+- _$sSr13_mergeTopRuns_6buffer2bySbSaySnySiGGz_SpyxGSbx_xtKXEtKF12CoreGraphics7CGFloatV3hue_AI10saturationAI10brightnessAI5alphat_Tg50139$s9MusicCore14PlaylistCoversO32reorderBySaturationAndBrightness33_11BA5CF3AE098F81240A801610064BFALL6colorsAC12RecipeColorsVSay0B8Graphics7H81V3hue_AK10saturationAK10brightnessAK5alphatG_tFZSbAkL_AkmknkOt_AkL_AkmknkOttXEfU_Tf1nncn_n
+- _$sSr13_mergeTopRuns_6buffer2bySbSaySnySiGGz_SpyxGSbx_xtKXEtKF12CoreGraphics7CGFloatV3hue_AI10saturationAI10brightnessAI5alphat_Tg50139$s9MusicCore14PlaylistCoversO32reorderBySaturationAndBrightness33_11BA5CF3AE098F81240A801610064BFALL6colorsAC12RecipeColorsVSay0B8Graphics7H82V3hue_AK10saturationAK10brightnessAK5alphatG_tFZSbAkL_AkmknkOt_AkL_AkmknkOttXEfU1_Tf1nncn_n
+- _$sSr15_stableSortImpl2byySbx_xtKXE_tKF12CoreGraphics7CGFloatV3hue_AE10saturationAE10brightnessAE5alphat_Tg50139$s9MusicCore14PlaylistCoversO32reorderBySaturationAndBrightness33_11BA5CF3AE098F81240A801610064BFALL6colorsAC12RecipeColorsVSay0B8Graphics7G81V3hue_AK10saturationAK10brightnessAK5alphatG_tFZSbAkL_AkmknkOt_AkL_AkmknkOttXEfU_Tf1cn_n
+- _$sSr15_stableSortImpl2byySbx_xtKXE_tKFySryxGz_SiztKXEfU_12CoreGraphics7CGFloatV3hue_AF10saturationAF10brightnessAF5alphat_Tg50139$s9MusicCore14PlaylistCoversO32reorderBySaturationAndBrightness33_11BA5CF3AE098F81240A801610064BFALL6colorsAC12RecipeColorsVSay0B8Graphics7G81V3hue_AK10saturationAK10brightnessAK5alphatG_tFZSbAkL_AkmknkOt_AkL_AkmknkOttXEfU_Tf1nnncn_n
+- _$sSr15_stableSortImpl2byySbx_xtKXE_tKFySryxGz_SiztKXEfU_12CoreGraphics7CGFloatV3hue_AF10saturationAF10brightnessAF5alphat_Tg50139$s9MusicCore14PlaylistCoversO32reorderBySaturationAndBrightness33_11BA5CF3AE098F81240A801610064BFALL6colorsAC12RecipeColorsVSay0B8Graphics7G82V3hue_AK10saturationAK10brightnessAK5alphatG_tFZSbAkL_AkmknkOt_AkL_AkmknkOttXEfU1_Tf1nnncn_n
+- _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF12CoreGraphics7CGFloatV3hue_AJ10saturationAJ10brightnessAJ5alphat_Tg5
+- _$ss15ContiguousArrayV16_createNewBuffer14bufferIsUnique15minimumCapacity13growForAppendySb_SiSbtF12CoreGraphics7CGFloatV3hue_AI10saturationAI10brightnessAI5alphat_Tg5
+- _$ss6_merge3low3mid4high6buffer2bySbSpyxG_A3GSbx_xtKXEtKlF12CoreGraphics7CGFloatV3hue_AJ10saturationAJ10brightnessAJ5alphat_Tg50139$s9MusicCore14PlaylistCoversO32reorderBySaturationAndBrightness33_11BA5CF3AE098F81240A801610064BFALL6colorsAC12RecipeColorsVSay0B8Graphics7I81V3hue_AK10saturationAK10brightnessAK5alphatG_tFZSbAkL_AkmknkOt_AkL_AkmknkOttXEfU_Tf1nnnnc_n
+- _$ss6_merge3low3mid4high6buffer2bySbSpyxG_A3GSbx_xtKXEtKlF12CoreGraphics7CGFloatV3hue_AJ10saturationAJ10brightnessAJ5alphat_Tg50139$s9MusicCore14PlaylistCoversO32reorderBySaturationAndBrightness33_11BA5CF3AE098F81240A801610064BFALL6colorsAC12RecipeColorsVSay0B8Graphics7I82V3hue_AK10saturationAK10brightnessAK5alphatG_tFZSbAkL_AkmknkOt_AkL_AkmknkOttXEfU1_Tf1nnnnc_n
+- block_copy_helper.239
+- block_descriptor.241
+- block_destroy_helper.240
+- objectdestroy.187Tm
+- objectdestroy.205Tm
+- objectdestroy.274Tm
+- objectdestroy.307Tm
+- objectdestroy.337Tm
+- objectdestroy.93Tm
+CStrings:
++ "LyricsX/Glyph.swift"
++ "Remove downloaded media"
++ "[State] Empty lyrics response for song %{public}s"
+- "Using black and white colors=%{public}s"
+- "Using recipe 1 colors=%{public}s"
+- "Using recipe 2 colors=%{public}s"
+- "Using recipe 3 colors=%{public}s"
+
+```

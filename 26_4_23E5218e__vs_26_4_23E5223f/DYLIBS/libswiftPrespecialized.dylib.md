@@ -1,0 +1,212 @@
+## libswiftPrespecialized.dylib
+
+> `/usr/lib/libswiftPrespecialized.dylib`
+
+```diff
+
+ 0.0.0.0.0
+   __TEXT.__text: 0x0
+   __TEXT.__lldb_no_nlist: 0x0
+-  __DATA_CONST.__const: 0x2feec8
++  __DATA_CONST.__const: 0x2ff350
+   __DATA_CONST.__ptrhashtab: 0x17138
+   __DATA_CONST.__ptrhashtabkey: 0x25e60
+   __AUTH_CONST.__const: 0x4f9a8
+   __AUTH.__data: 0xcb2c0
+   - /usr/lib/libSystem.B.dylib
+-  UUID: CE60332F-CB86-38D6-AB38-EAC7788DD1F6
++  UUID: 39E63323-D623-3EB2-B7D6-4A7787E6329A
+   Functions: 0
+-  Symbols:   150795
++  Symbols:   150853
+   CStrings:  0
+ 
+Symbols:
++ _$s10CookingKit11RecipeTraitOMn
++ _$s10CookingKit14ExternalRecipeV5TraitOMn
++ _$s10CookingKit27RecipeFeaturesConfigurationV014UnitConversionE0VMn
++ _$s10FinanceKit12ManagedOrderCN
++ _$s10FinanceKit19ManagedCloudConsentCN
++ _$s10FinanceKit22ManagedInternalAccountCN
++ _$s10FinanceKit22ManagedOrderWebServiceCN
++ _$s10FinanceKit27ManagedPendingApplePayOrderCN
++ _$s10MapsDesign13SectionHeaderV4bodyQrvpQOMQ
++ _$s10NewsDaemon28EngagementDataEnqueueHandlerCMn
++ _$s10NewsDaemon32EngagementDataEnqueueHandlerTypeMp
++ _$s11NotesEditor06ICNoteB23ContextualBarButtonItemCN
++ _$s11ShazamKitUI15ViewIdentifiersO18closeCampaignOfferSSvpZMV
++ _$s12APFoundation12AvailabilityOMn
++ _$s12FindMyUICore12SettingsInfoVMn
++ _$s12FindMyUICore18SettingsPersonInfoVMn
++ _$s12FindMyUICore28SettingsPeopleListControllerC5StateO6LoadedVMn
++ _$s12FindMyUICore28SettingsPeopleListControllerC5StateOMn
++ _$s12FindMyUICore28SettingsPeopleListControllerCMn
++ _$s13CarAssetUtils17CAUSymbolOverrideVMn
++ _$s13CarAssetUtils22ClimateSymbolOverridesV17PresentationStateOMn
++ _$s13CarAssetUtils22ClimateSymbolOverridesV4KindOMn
++ _$s13CarAssetUtils22ClimateSymbolOverridesVMn
++ _$s13CarAssetUtils8CAUAssetO14SymbolOverrideVMn
++ _$s13DataCollector12BatchMetricsMp
++ _$s13DataCollector22UploaderTelemetryErrorMp
++ _$s13DataCollector23UnilogCancellationErrorOMn
++ _$s13HearingModeUI25EnrollmentAnalyticManagerC0D7VersionOMn
++ _$s13HomeKitEvents7LoggingMp
++ _$s13NewsAnalytics15SessionObserverCN
++ _$s13TVAppServices22FeatureDefaultsManagerCMn
++ _$s14CarPlaySupport24VoiceTemplateHostingViewC06updateF10Controller13titleVariants5image7repeats13actionButtons8delegate18hasBackgroundImageySaySSG_So7UIImageCSgSbSayAA0D20ButtonRepresentationCGAA0D14ActionHandling_pSbtFTq
++ _$s14CarPlaySupport24VoiceTemplateHostingViewCMn
++ _$s14HealthPlatform27MedicalIDChangesInputSignalCN
++ _$s14HealthPlatform7ProfileCN
++ _$s14MarketplaceKit30ConfirmationSheetCustomOptionsOMn
++ _$s15AppDistribution30ConfirmationSheetCustomOptionsOMn
++ _$s15SecureMessaging3MLSO13UpgradePolicyMp
++ _$s15SecureMessaging3MLSO15DowngradeReasonOMn
++ _$s15SecureMessaging3MLSO17DowngradeMetadataVMn
++ _$s15SecureMessaging3MLSO20DefaultUpgradePolicyVMn
++ _$s15SecureMessaging3MLSO21UpgradePolicyDecisionOMn
++ _$s15SecureMessaging3MLSO27DowngradeMetadataControllerCMn
++ _$s17AdPlatformsCommon24AnalyzingBirthYearSourceCMn
++ _$s17AdPlatformsCommon24BirthYearSourceAnalyticsMp
++ _$s17AdPlatformsCommon28BirthYearSourceCoreAnalyticsCMn
++ _$s17AdPlatformsCommon28NullBirthYearSourceAnalyticsCMn
++ _$s17CompanionSetupKit011CSKStepHomecB6ClientC0E17PreconfiguredInfoVMn
++ _$s17CompanionSetupKit18CSKFlowController2Mp
++ _$s17CompanionSetupKit18CSKStepDefinition2VMn
++ _$s17CompanionSetupKit22CSKSetupAppleTVServer2C5EventOMn
++ _$s17CompanionSetupKit22CSKSetupAppleTVServer2C7CommandOMn
++ _$s17CompanionSetupKit22CSKSetupAppleTVServer2C7UIStateC5PhaseOMn
++ _$s17CompanionSetupKit22CSKSetupAppleTVServer2C7UIStateCMn
++ _$s17CompanionSetupKit22CSKSetupAppleTVServer2CMn
++ _$s17CompanionSetupKit25CSKSetupAppleTVServerStepOMn
++ _$s17CompanionSetupKit8CSKFlow2C5EventOMn
++ _$s17CompanionSetupKit8CSKFlow2C5StateVMn
++ _$s17CompanionSetupKit8CSKFlow2C7CommandOMn
++ _$s17CompanionSetupKit8CSKFlow2CMn
++ _$s17CompanionSetupKit8CSKStep2Mp
++ _$s17DeviceDiscoveryUI19ImportContentActionV5ErrorOMn
++ _$s17DeviceDiscoveryUI19ImportContentActionVMn
++ _$s17IMSharedUtilities15AsyncMultiQueueC7perform3key_ySS_yyYaYbctFTq
++ _$s17IMSharedUtilities27TranscodingSettingsProviderCACycfCTq
++ _$s19ExtensionFoundation8_EXQueryCN
++ _$s21DeveloperToolsSupport17ResourceReferenceO5namedyAcA05NamedD0VcACmFWC
++ _$s22AuthenticationServices24ASAuthorizationUIContextV6HeaderV5TitleO4textSSvpMV
++ _$s22VisualIntelligenceCore0A21LookUpDisclosureStateOMn
++ _$s22VisualIntelligenceCore0aB13SearchServiceCMn
++ _$s24SecureMessagingAgentCore21DowngradeHistoryModelVMn
++ _$s24SecureMessagingAgentCore21DowngradeHistoryQueryVMn
++ _$s24SecureMessagingAgentCore22DowngradeMetadataModelVMn
++ _$s24SecureMessagingAgentCore22DowngradeMetadataQueryVMn
++ _$s25PrivateCloudComputeDaemon06Proto_abC14_AssetMetadataVMn
++ _$s25PrivateCloudComputeDaemon06Proto_abC20_OutboundCallContextVMn
++ _$s25PrivateCloudComputeDaemon06Proto_abC23_ReputationTokenRequestVMn
++ _$s25PrivateCloudComputeDaemon06Proto_abc1_abC8ResponseV015ReputationTokenF0VMn
++ _$s25PrivateCloudComputeDaemon06Proto_abc1_abC8ResponseV9CostTokenVMn
++ _$s25PrivateCloudComputeDaemon25Proto_Ropes_RateLimit_QoSOMn
++ _$s5TeaUI20KeyboardInputMonitorCN
++ _$s5TeaUI8CommandsC8NewsFeedE7DismissVMn
++ _$s7JetCore26AppleServicesPropertyScopeV014loadURLOverlayE0OMn
++ _$s7NewsUI20A15ActivityManagerCN
++ _$s7NewsUI224AudioActionSheetProviderCN
++ _$s7NewsUI230AMSHandleNotificationDiscernerCN
++ _$s7NewsUI230ChannelPickerEntryPointOptionsVMn
++ _$s7Sharing17SecureImportErrorOMn
++ _$s7Sharing21SFAirDropUserDefaultsCN
++ _$s7Sharing23SecureImportInvocationsO0C7ContentC10ParametersVMn
++ _$s7Sharing23SecureImportInvocationsO0C7ContentC8ResponseVMn
++ _$s7Sharing23SecureImportInvocationsO0C7ContentCMn
++ _$s7Sharing23SecureImportInvocationsO14CheckSupportedC10ParametersVMn
++ _$s7Sharing23SecureImportInvocationsO14CheckSupportedC8ResponseVMn
++ _$s7Sharing23SecureImportInvocationsO14CheckSupportedCMn
++ _$s7Sharing23SecureImportInvocationsOMn
++ _$s7SwiftUI23CoordinateSpaceProtocolP10CookingKitAA05NamedcD0VRszrlE18recipeCardHeroViewAFvpZMV
++ _$s7SwiftUI25DebugReplaceableViewCountOMn
++ _$s8NewsFeed09FormatTagB16FetchRequirementOMn
++ _$s8NewsFeed09FormatTagB17FetchFilterOptionOMn
++ _$s8NewsFeed20FormatCollectionViewCN
++ _$s8NewsFeed20FormatViewControllerCN
++ _$s8VideosUI28PlayerHUDBroadcastHelperObjCCMn
++ _$s9JetEngine26AppleServicesPropertyScopeV014loadURLOverlayE0OMn
++ _$s9PassKitUI16DescriptorsModelCMn
++ _$sSo12ICIndexStateV12NotesSupportE11descriptionSSvpMV
++ _$sSo16CPUIImageOverlayC9CarPlayUIE9alignmentSo0aB9AlignmentVvpMV
++ _$sSo22MNNavTrayGuidanceEventC10NavigationE6detailSo17GEOComposedStringCSgvpMV
++ _$sSo29IMDExportedMessageRecordBatchC14IMDPersistenceE7recordsSaySo010IMDMessageC0CGSgvpMV
++ _OBJC_CLASS_$_MTServerPodcast
++ _OBJC_CLASS_$_WFLibraryCollection
++ _OBJC_CLASS_$__TtC10FinanceKit18ManagedInstitution
++ _OBJC_CLASS_$__TtC10FinanceKit21ManagedPendingConsent
++ _OBJC_CLASS_$__TtC10FinanceKit24ManagedOrderRegistration
++ _OBJC_CLASS_$__TtC10FinanceKit34ManagedInstitutionMatchingResponse
++ _OBJC_CLASS_$__TtC10FinanceKit37ManagedBackgroundDeliveryRegistration
++ _OBJC_CLASS_$__TtC14HealthPlatform22SharableModelReference
++ _OBJC_CLASS_$__TtC14HealthPlatform6Plugin
++ _OBJC_CLASS_$__TtC14HealthPlatform7Keyword
++ _OBJC_CLASS_$__TtC5TeaUI21BarCompressionManager
++ _OBJC_CLASS_$__TtC5TeaUI24BlueprintViewportMonitor
++ _OBJC_CLASS_$__TtC7NewsUI236NotificationAppExtensionCommunicator
+- _$s10FinanceKit18ManagedInstitutionCN
+- _$s10FinanceKit21ManagedPendingConsentCN
+- _$s10FinanceKit24ManagedOrderRegistrationCN
+- _$s10FinanceKit34ManagedInstitutionMatchingResponseCN
+- _$s10FinanceKit37ManagedBackgroundDeliveryRegistrationCN
+- _$s10MapsDesign14SuggestionCellV0cD4TypeOMn
+- _$s10MapsDesign14SuggestionCellV4bodyQrvpQOMQ
+- _$s10MapsDesign14SuggestionCellVMn
+- _$s11ShazamKitUI15ViewIdentifiersO30trackMetadataRecognitionHeaderSSvpZMV
+- _$s11WorkflowKit17LibraryCollectionCN
+- _$s12GameStoreKit32PlayerProfileOverviewShelfIntentVMn
+- _$s12HomeEnergyUI04MockB16GuidanceProviderCACycfCTq
+- _$s12HomeEnergyUI04MockB16GuidanceProviderCMn
+- _$s12HomeEnergyUI0B16GuidanceProviderMp
+- _$s12HomeEnergyUI14LocationUpdateMp
+- _$s12HomeEnergyUI16GridInfoProviderMp
+- _$s12HomeEnergyUI18MockLocationUpdateVMn
+- _$s12HomeEnergyUI20LocationInfoProviderMp
+- _$s12HomeEnergyUI20MockGridInfoProviderCACycfCTq
+- _$s12HomeEnergyUI20MockGridInfoProviderCMn
+- _$s12HomeEnergyUI23LocationUpdatesProviderMp
+- _$s12HomeEnergyUI24MockLocationInfoProviderCACycfCTq
+- _$s12HomeEnergyUI24MockLocationInfoProviderCMn
+- _$s12HomeEnergyUI27MockLocationUpdatesProviderCMn
+- _$s13HomeKitEvents3LogOMn
+- _$s14CarPlaySupport24VoiceTemplateButtonsViewC23updateHostingController06actionF08delegateySayAA0D20ButtonRepresentationCG_AA0D14ActionHandling_ptFTq
+- _$s14CarPlaySupport24VoiceTemplateButtonsViewCMn
+- _$s14HealthPlatform0A24AppForegroundWorkManagerC0E6RunnerMp
+- _$s14HealthPlatform0A24AppForegroundWorkManagerCMn
+- _$s14HealthPlatform22SharableModelReferenceCN
+- _$s14HealthPlatform6PluginCN
+- _$s14HealthPlatform7KeywordCN
+- _$s14MarketplaceKit26InstallConfirmationRequestVMn
+- _$s15AppDistribution26InstallConfirmationRequestVMn
+- _$s17CompanionSetupKit28CSKDynamicEnvironmentStorageCMn
+- _$s17CompanionSetupKit29CSKDynamicEnvironmentProviderMp
+- _$s18PodcastsFoundation13ServerPodcastCN
+- _$s21DeveloperToolsSupport22LibraryContentProviderP9modifiers4baseSayAA0D4ItemVG12ModifierBaseQz_tFTq
+- _$s22AuthenticationServices24ASAuthorizationUIContextV15PasswordMessageO4textSSvpMV
+- _$s5TeaUI21BarCompressionManagerCN
+- _$s5TeaUI24BlueprintViewportMonitorCN
+- _$s7NewsUI236NotificationAppExtensionCommunicatorCN
+- _$s7SwiftUI23CoordinateSpaceProtocolP10CookingKitAA05NamedcD0VRszrlE20recipeCardScrollViewAFvpZMV
+- _$sSo16CPUIImageOverlayC9CarPlayUIE5imageSo7UIImageCSgvpMV
+- _$sSo22MNNavTrayGuidanceEventC10NavigationE20supportsSecureCodingSbvpZMV
+- _$sSo29IMDExportedMessageRecordBatchC14IMDPersistenceE12filterCountsSo011IMDFilteredbG0CvpMV
+- _$sSo32ICSearchIndexProgressCoordinatorC12NotesSupportE11contextNameSSvpZMV
+- _OBJC_CLASS_$_SFAirDropUserDefaults
+- _OBJC_CLASS_$_TUKeyboardInputMonitor
+- _OBJC_CLASS_$__EXQuery
+- _OBJC_CLASS_$__TtC10FinanceKit12ManagedOrder
+- _OBJC_CLASS_$__TtC10FinanceKit19ManagedCloudConsent
+- _OBJC_CLASS_$__TtC10FinanceKit22ManagedInternalAccount
+- _OBJC_CLASS_$__TtC10FinanceKit22ManagedOrderWebService
+- _OBJC_CLASS_$__TtC10FinanceKit27ManagedPendingApplePayOrder
+- _OBJC_CLASS_$__TtC11NotesEditor35ICNoteEditorContextualBarButtonItem
+- _OBJC_CLASS_$__TtC13NewsAnalytics15SessionObserver
+- _OBJC_CLASS_$__TtC14HealthPlatform27MedicalIDChangesInputSignal
+- _OBJC_CLASS_$__TtC14HealthPlatform7Profile
+- _OBJC_CLASS_$__TtC7NewsUI219NewsActivityManager
+- _OBJC_CLASS_$__TtC7NewsUI224AudioActionSheetProvider
+- _OBJC_CLASS_$__TtC7NewsUI230AMSHandleNotificationDiscerner
+- _OBJC_CLASS_$__TtC8NewsFeed20FormatCollectionView
+- _OBJC_CLASS_$__TtC8NewsFeed20FormatViewController
+
+```

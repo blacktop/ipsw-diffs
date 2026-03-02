@@ -1,0 +1,546 @@
+## PhotoImaging
+
+> `/System/Library/PrivateFrameworks/PhotoImaging.framework/PhotoImaging`
+
+```diff
+
+-840.1.250.0.0
+-  __TEXT.__text: 0x1b31bc
+-  __TEXT.__auth_stubs: 0x2110
++840.2.120.0.0
++  __TEXT.__text: 0x1b1b78
++  __TEXT.__auth_stubs: 0x2100
+   __TEXT.__delay_helper: 0x1bc
+   __TEXT.__objc_methlist: 0x10cf0
+   __TEXT.__const: 0x80c4
+   __TEXT.__dlopen_cstrs: 0x23a
+   __TEXT.__swift5_typeref: 0xbb
+-  __TEXT.__cstring: 0x31823
++  __TEXT.__cstring: 0x311f5
+   __TEXT.__constg_swiftt: 0x50
+   __TEXT.__swift5_reflstr: 0x6d
+   __TEXT.__swift5_fieldmd: 0x74
+
+   __TEXT.__swift5_types: 0x8
+   __TEXT.__swift_as_entry: 0x14
+   __TEXT.__swift_as_ret: 0x14
+-  __TEXT.__gcc_except_tab: 0x42d0
++  __TEXT.__gcc_except_tab: 0x42cc
+   __TEXT.__unwind_info: 0x4bb0
+   __TEXT.__eh_frame: 0x2f8
+   __TEXT.__objc_classname: 0x2b27
+
+   __DATA_CONST.__objc_protorefs: 0x8
+   __DATA_CONST.__objc_superrefs: 0x558
+   __DATA_CONST.__objc_arraydata: 0x7638
+-  __AUTH_CONST.__auth_got: 0x10a0
++  __AUTH_CONST.__auth_got: 0x1098
+   __AUTH_CONST.__const: 0x3d38
+   __AUTH_CONST.__cfstring: 0x14b40
+   __AUTH_CONST.__objc_const: 0x1f610
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 87C4FF36-0FA8-3607-A266-29C0E796C914
++  UUID: F0458C0F-54CE-324E-AA8E-0DD145EA87FB
+   Functions: 6569
+-  Symbols:   23377
+-  CStrings:  14369
++  Symbols:   23376
++  CStrings:  14364
+ 
+Symbols:
++ _ImageHarmonizationKitLibraryCore.frameworkLibrary.20968
++ _MediaAnalysisLibrary.20098
++ _MediaAnalysisLibraryCore.frameworkLibrary.20108
++ _MediaAnalysisLibraryCore.frameworkLibrary.27202
++ _NUAssertLogger.18850
++ _NUAssertLogger.19596
++ _NUAssertLogger.19729
++ _NUAssertLogger.19847
++ _NUAssertLogger.20121
++ _NUAssertLogger.20286
++ _NUAssertLogger.20956
++ _NUAssertLogger.21133
++ _NUAssertLogger.21726
++ _NUAssertLogger.21846
++ _NUAssertLogger.22038
++ _NUAssertLogger.22524
++ _NUAssertLogger.23753
++ _NUAssertLogger.24173
++ _NUAssertLogger.24359
++ _NUAssertLogger.24854
++ _NUAssertLogger.25017
++ _NUAssertLogger.25663
++ _NUAssertLogger.26047
++ _NUAssertLogger.26394
++ _NUAssertLogger.26552
++ _NUAssertLogger.27080
++ _NUAssertLogger.27340
++ _NUAssertLogger.27579
++ _NUAssertLogger.28138
++ _NUAssertLogger.28532
++ _NUAssertLogger.28740
++ _NUAssertLogger.28929
++ _NUAssertLogger.29064
++ _NUAssertLogger.29295
++ _NUAssertLogger.29374
++ _NUAssertLogger.29573
++ _NULogger.24367
++ _NULogger.25784
++ _NULogger.27696
++ _NURenderLogger.22991
++ _PhotosIntelligenceLibraryCore.frameworkLibrary.20802
++ __ZL14NUAssertLoggerv.20492
++ __ZL14NUAssertLoggerv.26601
++ __ZL14NUAssertLoggerv.27454
++ __ZL14NUAssertLoggerv.28356
++ __ZNSt12length_errorC1B9nqe210106EPKc
++ __ZNSt3__119__allocate_at_leastB9nqe210106INS_9allocatorIDv2_sEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS6_m
++ __ZNSt3__119__allocate_at_leastB9nqe210106INS_9allocatorIdEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS5_m
++ __ZNSt3__119__allocate_at_leastB9nqe210106INS_9allocatorIfEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS5_m
++ __ZNSt3__120__throw_length_errorB9nqe210106EPKc
++ __ZNSt3__16vectorI5SKnotNS_9allocatorIS1_EEE20__throw_length_errorB9nqe210106Ev
++ __ZNSt3__16vectorIDv2_sNS_9allocatorIS1_EEE20__throw_length_errorB9nqe210106Ev
++ __ZNSt3__16vectorIDv2_sNS_9allocatorIS1_EEE9push_backB9nqe210106ERKS1_
++ __ZNSt3__16vectorIDv4_fNS_9allocatorIS1_EEE20__throw_length_errorB9nqe210106Ev
++ __ZNSt3__16vectorIdNS_9allocatorIdEEE11__vallocateB9nqe210106Em
++ __ZNSt3__16vectorIdNS_9allocatorIdEEE20__throw_length_errorB9nqe210106Ev
++ __ZNSt3__16vectorIdNS_9allocatorIdEEEC2B9nqe210106Em
++ __ZNSt3__16vectorIdNS_9allocatorIdEEEC2B9nqe210106EmRKd
++ __ZNSt3__16vectorIfNS_9allocatorIfEEE11__vallocateB9nqe210106Em
++ __ZNSt3__16vectorIfNS_9allocatorIfEEE20__throw_length_errorB9nqe210106Ev
++ __ZNSt3__16vectorIfNS_9allocatorIfEEEC2B9nqe210106EmRKf
++ __ZNSt3__16vectorIhNS_9allocatorIhEEE20__throw_length_errorB9nqe210106Ev
++ __ZSt28__throw_bad_array_new_lengthB9nqe210106v
++ ___Block_byref_object_copy_.19680
++ ___Block_byref_object_copy_.20519
++ ___Block_byref_object_copy_.24382
++ ___Block_byref_object_copy_.26073
++ ___Block_byref_object_copy_.26621
++ ___Block_byref_object_copy_.27175
++ ___Block_byref_object_dispose_.19681
++ ___Block_byref_object_dispose_.20520
++ ___Block_byref_object_dispose_.24383
++ ___Block_byref_object_dispose_.26074
++ ___Block_byref_object_dispose_.26622
++ ___Block_byref_object_dispose_.27176
++ ___ImageHarmonizationKitLibraryCore_block_invoke.20969
++ ___MediaAnalysisLibraryCore_block_invoke.20109
++ ___MediaAnalysisLibraryCore_block_invoke.27203
++ ___NUAssertLogger_block_invoke.18871
++ ___NUAssertLogger_block_invoke.19619
++ ___NUAssertLogger_block_invoke.19777
++ ___NUAssertLogger_block_invoke.19875
++ ___NUAssertLogger_block_invoke.20135
++ ___NUAssertLogger_block_invoke.20324
++ ___NUAssertLogger_block_invoke.20991
++ ___NUAssertLogger_block_invoke.21153
++ ___NUAssertLogger_block_invoke.21763
++ ___NUAssertLogger_block_invoke.21845
++ ___NUAssertLogger_block_invoke.22050
++ ___NUAssertLogger_block_invoke.22548
++ ___NUAssertLogger_block_invoke.23777
++ ___NUAssertLogger_block_invoke.24189
++ ___NUAssertLogger_block_invoke.24373
++ ___NUAssertLogger_block_invoke.24871
++ ___NUAssertLogger_block_invoke.25033
++ ___NUAssertLogger_block_invoke.25748
++ ___NUAssertLogger_block_invoke.26092
++ ___NUAssertLogger_block_invoke.26415
++ ___NUAssertLogger_block_invoke.26575
++ ___NUAssertLogger_block_invoke.26902
++ ___NUAssertLogger_block_invoke.27033
++ ___NUAssertLogger_block_invoke.27366
++ ___NUAssertLogger_block_invoke.27732
++ ___NUAssertLogger_block_invoke.28152
++ ___NUAssertLogger_block_invoke.28560
++ ___NUAssertLogger_block_invoke.28755
++ ___NUAssertLogger_block_invoke.28945
++ ___NUAssertLogger_block_invoke.29084
++ ___NUAssertLogger_block_invoke.29316
++ ___NUAssertLogger_block_invoke.29407
++ ___NUAssertLogger_block_invoke.29572
++ ___NULogger_block_invoke.19707
++ ___NULogger_block_invoke.20306
++ ___NULogger_block_invoke.20844
++ ___NULogger_block_invoke.21094
++ ___NULogger_block_invoke.21753
++ ___NULogger_block_invoke.22542
++ ___NULogger_block_invoke.23636
++ ___NULogger_block_invoke.24358
++ ___NULogger_block_invoke.25789
++ ___NULogger_block_invoke.26153
++ ___NULogger_block_invoke.27146
++ ___NULogger_block_invoke.27702
++ ___NULogger_block_invoke.29598
++ ___NULogger_block_invoke.29692
++ ___NURenderLogger_block_invoke.19763
++ ___NURenderLogger_block_invoke.23020
++ ___PhotosIntelligenceLibraryCore_block_invoke.20803
++ ____ZL14NUAssertLoggerv_block_invoke.20518
++ ____ZL14NUAssertLoggerv_block_invoke.26648
++ ____ZL14NUAssertLoggerv_block_invoke.27470
++ ____ZL14NUAssertLoggerv_block_invoke.28398
++ ____ZL8NULoggerv_block_invoke.27497
++ ____lightMapImageFromData_block_invoke.19923
++ ___block_literal_global.105.28067
++ ___block_literal_global.116.28062
++ ___block_literal_global.118.22983
++ ___block_literal_global.122.28057
++ ___block_literal_global.1260.23774
++ ___block_literal_global.1262.23126
++ ___block_literal_global.128.26412
++ ___block_literal_global.141.19662
++ ___block_literal_global.143.28043
++ ___block_literal_global.151.20302
++ ___block_literal_global.166.28029
++ ___block_literal_global.176.28003
++ ___block_literal_global.18.26880
++ ___block_literal_global.182.24170
++ ___block_literal_global.184.27994
++ ___block_literal_global.18751
++ ___block_literal_global.18864
++ ___block_literal_global.18882
++ ___block_literal_global.194.22858
++ ___block_literal_global.19492
++ ___block_literal_global.19660
++ ___block_literal_global.19795
++ ___block_literal_global.19872
++ ___block_literal_global.19956
++ ___block_literal_global.20140
++ ___block_literal_global.20321
++ ___block_literal_global.20515
++ ___block_literal_global.20707
++ ___block_literal_global.20800
++ ___block_literal_global.20840
++ ___block_literal_global.20988
++ ___block_literal_global.21390
++ ___block_literal_global.21760
++ ___block_literal_global.21830
++ ___block_literal_global.22051
++ ___block_literal_global.22247
++ ___block_literal_global.22317
++ ___block_literal_global.23033
++ ___block_literal_global.23159
++ ___block_literal_global.23951
++ ___block_literal_global.24477
++ ___block_literal_global.24868
++ ___block_literal_global.25030
++ ___block_literal_global.25745
++ ___block_literal_global.26.29683
++ ___block_literal_global.26146
++ ___block_literal_global.26297
++ ___block_literal_global.26460
++ ___block_literal_global.26564
++ ___block_literal_global.26597
++ ___block_literal_global.26886
++ ___block_literal_global.27018
++ ___block_literal_global.27363
++ ___block_literal_global.27467
++ ___block_literal_global.27752
++ ___block_literal_global.28.18777
++ ___block_literal_global.28171
++ ___block_literal_global.28395
++ ___block_literal_global.28557
++ ___block_literal_global.28738
++ ___block_literal_global.29081
++ ___block_literal_global.29322
++ ___block_literal_global.29485
++ ___block_literal_global.29531
++ ___block_literal_global.29680
++ ___block_literal_global.309.27121
++ ___block_literal_global.38.26849
++ ___block_literal_global.41.20143
++ ___block_literal_global.54.29313
++ ___block_literal_global.56.22979
++ ___block_literal_global.56.26231
++ ___block_literal_global.56.28110
++ ___block_literal_global.58.22977
++ ___block_literal_global.63.19950
++ ___block_literal_global.63.21738
++ ___block_literal_global.71.28099
++ ___block_literal_global.75
++ ___block_literal_global.81.22236
++ ___block_literal_global.91.22227
++ ___block_literal_global.93.29404
++ ___block_literal_global.95.26572
++ ___block_literal_global.97.24474
++ ___getMediaAnalysisResultAttributesKeySymbolLoc_block_invoke.20147
++ ___getMediaAnalysisResultsKeySymbolLoc_block_invoke.20137
++ ___getVCPMediaAnalysisServiceClass_block_invoke.20097
++ ___getVCPMediaAnalysisServiceClass_block_invoke.27195
++ _audit_stringImageHarmonizationKit.20983
++ _audit_stringMediaAnalysis.20115
++ _audit_stringMediaAnalysis.27214
++ _colorBalanceKernels.colorBalanceKernels.26489
++ _colorBalanceKernels.onceToken.26488
++ _getMediaAnalysisResultAttributesKeySymbolLoc.ptr.20146
++ _getMediaAnalysisResultsKey.20119
++ _getMediaAnalysisResultsKeySymbolLoc.ptr.20136
++ _getVCPMediaAnalysisServiceClass.20095
++ _getVCPMediaAnalysisServiceClass.softClass.20096
++ _getVCPMediaAnalysisServiceClass.softClass.27194
++ _initialize.onceToken.23057
++ _initialize.onceToken.24725
++ _initialize.onceToken.26197
++ _roiCallback_block_invoke.26567
++ _s_log.24355
++ _s_log.26065
++ _s_signpost.24356
++ _s_signpost.26066
+- _ImageHarmonizationKitLibraryCore.frameworkLibrary.20974
+- _MediaAnalysisLibrary.20102
+- _MediaAnalysisLibraryCore.frameworkLibrary.20112
+- _MediaAnalysisLibraryCore.frameworkLibrary.27208
+- _NUAssertLogger.18854
+- _NUAssertLogger.19600
+- _NUAssertLogger.19733
+- _NUAssertLogger.19851
+- _NUAssertLogger.20125
+- _NUAssertLogger.20290
+- _NUAssertLogger.20962
+- _NUAssertLogger.21139
+- _NUAssertLogger.21732
+- _NUAssertLogger.21852
+- _NUAssertLogger.22044
+- _NUAssertLogger.22530
+- _NUAssertLogger.23759
+- _NUAssertLogger.24179
+- _NUAssertLogger.24365
+- _NUAssertLogger.24860
+- _NUAssertLogger.25023
+- _NUAssertLogger.25669
+- _NUAssertLogger.26053
+- _NUAssertLogger.26400
+- _NUAssertLogger.26558
+- _NUAssertLogger.27086
+- _NUAssertLogger.27346
+- _NUAssertLogger.27585
+- _NUAssertLogger.28146
+- _NUAssertLogger.28543
+- _NUAssertLogger.28751
+- _NUAssertLogger.28940
+- _NUAssertLogger.29075
+- _NUAssertLogger.29306
+- _NUAssertLogger.29385
+- _NUAssertLogger.29584
+- _NULogger.24373
+- _NULogger.25790
+- _NULogger.27702
+- _NURenderLogger.22997
+- _PhotosIntelligenceLibraryCore.frameworkLibrary.20808
+- __ZL14NUAssertLoggerv.20496
+- __ZL14NUAssertLoggerv.26607
+- __ZL14NUAssertLoggerv.27460
+- __ZL14NUAssertLoggerv.28367
+- __ZNSt12length_errorC1B9foe210106EPKc
+- __ZNSt3__119__allocate_at_leastB9foe210106INS_9allocatorIDv2_sEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS6_m
+- __ZNSt3__119__allocate_at_leastB9foe210106INS_9allocatorIdEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS5_m
+- __ZNSt3__119__allocate_at_leastB9foe210106INS_9allocatorIfEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS5_m
+- __ZNSt3__120__throw_length_errorB9foe210106EPKc
+- __ZNSt3__132__internal_log_hardening_failureEPKc
+- __ZNSt3__16vectorI5SKnotNS_9allocatorIS1_EEE20__throw_length_errorB9foe210106Ev
+- __ZNSt3__16vectorIDv2_sNS_9allocatorIS1_EEE20__throw_length_errorB9foe210106Ev
+- __ZNSt3__16vectorIDv2_sNS_9allocatorIS1_EEE9push_backB9foe210106ERKS1_
+- __ZNSt3__16vectorIDv4_fNS_9allocatorIS1_EEE20__throw_length_errorB9foe210106Ev
+- __ZNSt3__16vectorIdNS_9allocatorIdEEE11__vallocateB9foe210106Em
+- __ZNSt3__16vectorIdNS_9allocatorIdEEE20__throw_length_errorB9foe210106Ev
+- __ZNSt3__16vectorIdNS_9allocatorIdEEEC2B9foe210106Em
+- __ZNSt3__16vectorIdNS_9allocatorIdEEEC2B9foe210106EmRKd
+- __ZNSt3__16vectorIfNS_9allocatorIfEEE11__vallocateB9foe210106Em
+- __ZNSt3__16vectorIfNS_9allocatorIfEEE20__throw_length_errorB9foe210106Ev
+- __ZNSt3__16vectorIfNS_9allocatorIfEEEC2B9foe210106EmRKf
+- __ZNSt3__16vectorIhNS_9allocatorIhEEE20__throw_length_errorB9foe210106Ev
+- __ZSt28__throw_bad_array_new_lengthB9foe210106v
+- ___Block_byref_object_copy_.19684
+- ___Block_byref_object_copy_.20523
+- ___Block_byref_object_copy_.24388
+- ___Block_byref_object_copy_.26079
+- ___Block_byref_object_copy_.26627
+- ___Block_byref_object_copy_.27181
+- ___Block_byref_object_dispose_.19685
+- ___Block_byref_object_dispose_.20524
+- ___Block_byref_object_dispose_.24389
+- ___Block_byref_object_dispose_.26080
+- ___Block_byref_object_dispose_.26628
+- ___Block_byref_object_dispose_.27182
+- ___ImageHarmonizationKitLibraryCore_block_invoke.20975
+- ___MediaAnalysisLibraryCore_block_invoke.20113
+- ___MediaAnalysisLibraryCore_block_invoke.27209
+- ___NUAssertLogger_block_invoke.18875
+- ___NUAssertLogger_block_invoke.19623
+- ___NUAssertLogger_block_invoke.19781
+- ___NUAssertLogger_block_invoke.19879
+- ___NUAssertLogger_block_invoke.20139
+- ___NUAssertLogger_block_invoke.20328
+- ___NUAssertLogger_block_invoke.20997
+- ___NUAssertLogger_block_invoke.21159
+- ___NUAssertLogger_block_invoke.21769
+- ___NUAssertLogger_block_invoke.21851
+- ___NUAssertLogger_block_invoke.22056
+- ___NUAssertLogger_block_invoke.22554
+- ___NUAssertLogger_block_invoke.23783
+- ___NUAssertLogger_block_invoke.24195
+- ___NUAssertLogger_block_invoke.24379
+- ___NUAssertLogger_block_invoke.24877
+- ___NUAssertLogger_block_invoke.25039
+- ___NUAssertLogger_block_invoke.25754
+- ___NUAssertLogger_block_invoke.26098
+- ___NUAssertLogger_block_invoke.26421
+- ___NUAssertLogger_block_invoke.26581
+- ___NUAssertLogger_block_invoke.26908
+- ___NUAssertLogger_block_invoke.27039
+- ___NUAssertLogger_block_invoke.27372
+- ___NUAssertLogger_block_invoke.27738
+- ___NUAssertLogger_block_invoke.28160
+- ___NUAssertLogger_block_invoke.28571
+- ___NUAssertLogger_block_invoke.28766
+- ___NUAssertLogger_block_invoke.28956
+- ___NUAssertLogger_block_invoke.29095
+- ___NUAssertLogger_block_invoke.29327
+- ___NUAssertLogger_block_invoke.29418
+- ___NUAssertLogger_block_invoke.29583
+- ___NULogger_block_invoke.19711
+- ___NULogger_block_invoke.20310
+- ___NULogger_block_invoke.20850
+- ___NULogger_block_invoke.21100
+- ___NULogger_block_invoke.21759
+- ___NULogger_block_invoke.22548
+- ___NULogger_block_invoke.23642
+- ___NULogger_block_invoke.24364
+- ___NULogger_block_invoke.25795
+- ___NULogger_block_invoke.26159
+- ___NULogger_block_invoke.27152
+- ___NULogger_block_invoke.27708
+- ___NULogger_block_invoke.29609
+- ___NULogger_block_invoke.29703
+- ___NURenderLogger_block_invoke.19767
+- ___NURenderLogger_block_invoke.23026
+- ___PhotosIntelligenceLibraryCore_block_invoke.20809
+- ____ZL14NUAssertLoggerv_block_invoke.20522
+- ____ZL14NUAssertLoggerv_block_invoke.26654
+- ____ZL14NUAssertLoggerv_block_invoke.27476
+- ____ZL14NUAssertLoggerv_block_invoke.28409
+- ____ZL8NULoggerv_block_invoke.27503
+- ____lightMapImageFromData_block_invoke.19927
+- ___block_literal_global.105.28073
+- ___block_literal_global.116.28068
+- ___block_literal_global.118.22989
+- ___block_literal_global.122.28063
+- ___block_literal_global.1260.23780
+- ___block_literal_global.1262.23132
+- ___block_literal_global.128.26418
+- ___block_literal_global.141.19666
+- ___block_literal_global.143.28049
+- ___block_literal_global.151.20306
+- ___block_literal_global.166.28035
+- ___block_literal_global.176.28009
+- ___block_literal_global.18.26886
+- ___block_literal_global.182.24176
+- ___block_literal_global.184.28000
+- ___block_literal_global.18755
+- ___block_literal_global.18868
+- ___block_literal_global.18886
+- ___block_literal_global.194.22864
+- ___block_literal_global.19496
+- ___block_literal_global.19664
+- ___block_literal_global.19799
+- ___block_literal_global.19876
+- ___block_literal_global.19960
+- ___block_literal_global.20144
+- ___block_literal_global.20325
+- ___block_literal_global.20519
+- ___block_literal_global.20713
+- ___block_literal_global.20806
+- ___block_literal_global.20846
+- ___block_literal_global.20994
+- ___block_literal_global.21396
+- ___block_literal_global.21766
+- ___block_literal_global.21836
+- ___block_literal_global.22057
+- ___block_literal_global.22253
+- ___block_literal_global.22323
+- ___block_literal_global.23039
+- ___block_literal_global.23165
+- ___block_literal_global.23957
+- ___block_literal_global.24483
+- ___block_literal_global.24874
+- ___block_literal_global.25036
+- ___block_literal_global.25751
+- ___block_literal_global.26.29694
+- ___block_literal_global.26152
+- ___block_literal_global.26303
+- ___block_literal_global.26466
+- ___block_literal_global.26570
+- ___block_literal_global.26603
+- ___block_literal_global.26892
+- ___block_literal_global.27024
+- ___block_literal_global.27369
+- ___block_literal_global.27473
+- ___block_literal_global.27758
+- ___block_literal_global.28.18781
+- ___block_literal_global.28179
+- ___block_literal_global.28406
+- ___block_literal_global.28568
+- ___block_literal_global.28749
+- ___block_literal_global.29092
+- ___block_literal_global.29333
+- ___block_literal_global.29496
+- ___block_literal_global.29542
+- ___block_literal_global.29691
+- ___block_literal_global.309.27127
+- ___block_literal_global.38.26855
+- ___block_literal_global.41.20147
+- ___block_literal_global.54.29324
+- ___block_literal_global.56.22985
+- ___block_literal_global.56.26237
+- ___block_literal_global.56.28118
+- ___block_literal_global.58.22983
+- ___block_literal_global.63.19954
+- ___block_literal_global.63.21744
+- ___block_literal_global.71.28107
+- ___block_literal_global.79.28084
+- ___block_literal_global.81.22242
+- ___block_literal_global.91.22233
+- ___block_literal_global.93.29415
+- ___block_literal_global.95.26578
+- ___block_literal_global.97.24480
+- ___getMediaAnalysisResultAttributesKeySymbolLoc_block_invoke.20151
+- ___getMediaAnalysisResultsKeySymbolLoc_block_invoke.20141
+- ___getVCPMediaAnalysisServiceClass_block_invoke.20101
+- ___getVCPMediaAnalysisServiceClass_block_invoke.27201
+- _audit_stringImageHarmonizationKit.20989
+- _audit_stringMediaAnalysis.20119
+- _audit_stringMediaAnalysis.27220
+- _colorBalanceKernels.colorBalanceKernels.26495
+- _colorBalanceKernels.onceToken.26494
+- _getMediaAnalysisResultAttributesKeySymbolLoc.ptr.20150
+- _getMediaAnalysisResultsKey.20123
+- _getMediaAnalysisResultsKeySymbolLoc.ptr.20140
+- _getVCPMediaAnalysisServiceClass.20099
+- _getVCPMediaAnalysisServiceClass.softClass.20100
+- _getVCPMediaAnalysisServiceClass.softClass.27200
+- _initialize.onceToken.23063
+- _initialize.onceToken.24731
+- _initialize.onceToken.26203
+- _roiCallback_block_invoke.26573
+- _s_log.24361
+- _s_log.26071
+- _s_signpost.24362
+- _s_signpost.26072
+Functions:
+~ +[PICurvesLUTFilter calculateCurveTable:] : 6356 -> 1872
+~ ___85-[PISmartBlackAndWhiteAutoCalculator _calculateBlackAndWhiteSettingsFromBufferImage:]_block_invoke.45 : 4192 -> 3968
+~ __ZNK9MsgMatrixIdE1TEv : 204 -> 144
+~ +[PIRepairUtilities newWatchInfillFromImage:mask:] : 5372 -> 4524
+~ __ZNK12_GLOBAL__N_119_NTKUltraCubeFiller14isLocationOpenEDv2_s : 256 -> 172
+CStrings:
+- "/AppleInternal/Library/BuildRoots/4~CJalugCzDJSf1bEUzXROVapF_gYy5HRHsZm_3tA/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__vector/vector.h:1162: libc++ Hardening assertion __position != end() failed: vector::erase(iterator) called with a non-dereferenceable iterator\n"
+- "/AppleInternal/Library/BuildRoots/4~CJalugCzDJSf1bEUzXROVapF_gYy5HRHsZm_3tA/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__vector/vector.h:406: libc++ Hardening assertion __n < size() failed: vector[] index out of bounds\n"
+- "/AppleInternal/Library/BuildRoots/4~CJalugCzDJSf1bEUzXROVapF_gYy5HRHsZm_3tA/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__vector/vector.h:410: libc++ Hardening assertion __n < size() failed: vector[] index out of bounds\n"
+- "/AppleInternal/Library/BuildRoots/4~CJalugCzDJSf1bEUzXROVapF_gYy5HRHsZm_3tA/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__vector/vector.h:425: libc++ Hardening assertion !empty() failed: front() called on an empty vector\n"
+- "/AppleInternal/Library/BuildRoots/4~CJalugCzDJSf1bEUzXROVapF_gYy5HRHsZm_3tA/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__vector/vector.h:433: libc++ Hardening assertion !empty() failed: back() called on an empty vector\n"
+
+```

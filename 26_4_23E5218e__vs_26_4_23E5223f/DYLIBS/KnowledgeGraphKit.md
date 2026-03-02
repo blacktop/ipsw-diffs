@@ -1,0 +1,491 @@
+## KnowledgeGraphKit
+
+> `/System/Library/PrivateFrameworks/KnowledgeGraphKit.framework/KnowledgeGraphKit`
+
+```diff
+
+-840.1.250.0.0
+-  __TEXT.__text: 0xf2e3c
+-  __TEXT.__auth_stubs: 0x2350
++840.2.120.0.0
++  __TEXT.__text: 0xf2778
++  __TEXT.__auth_stubs: 0x2340
+   __TEXT.__objc_methlist: 0x6c7c
+   __TEXT.__const: 0x5cec
+   __TEXT.__swift5_typeref: 0xe39
+
+   __TEXT.__swift5_protos: 0x50
+   __TEXT.__swift5_proto: 0x1cc
+   __TEXT.__swift5_types: 0xdc
+-  __TEXT.__cstring: 0x5f88
++  __TEXT.__cstring: 0x568f
+   __TEXT.__oslogstring: 0x207f
+   __TEXT.__swift_as_entry: 0xac
+   __TEXT.__swift_as_ret: 0xa0
+   __TEXT.__swift5_mpenum: 0x8
+-  __TEXT.__gcc_except_tab: 0x61c0
+-  __TEXT.__unwind_info: 0x5840
++  __TEXT.__gcc_except_tab: 0x61bc
++  __TEXT.__unwind_info: 0x5838
+   __TEXT.__eh_frame: 0x26e0
+   __TEXT.__objc_classname: 0xc9e
+   __TEXT.__objc_methname: 0xcaf0
+
+   __DATA_CONST.__objc_protorefs: 0x38
+   __DATA_CONST.__objc_superrefs: 0x308
+   __DATA_CONST.__objc_arraydata: 0x268
+-  __AUTH_CONST.__auth_got: 0x11c0
++  __AUTH_CONST.__auth_got: 0x11b8
+   __AUTH_CONST.__const: 0x3848
+   __AUTH_CONST.__cfstring: 0x1d40
+   __AUTH_CONST.__objc_const: 0x85c0
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 43D0802A-9E1E-322F-97CD-BC543281B673
++  UUID: 37006A3D-D6F4-391D-931F-EC67F165AC1E
+   Functions: 6133
+-  Symbols:   11290
+-  CStrings:  3335
++  Symbols:   11289
++  CStrings:  3328
+ 
+Symbols:
++ __ZN5degasL15_getUnsignedIntEPPKh.6009
++ __ZNKSt3__114default_deleteIN5degas21CountedPathCollectionEEclB9nqe210106EPS2_
++ __ZNKSt3__114default_deleteIN5degas23UncountedPathCollectionEEclB9nqe210106EPS2_
++ __ZNSt12length_errorC1B9nqe210106EPKc
++ __ZNSt3__110__function12__value_funcIFvRN5degas11LabelCursorERNS2_6BitmapEEED2B9nqe210106Ev
++ __ZNSt3__110__function12__value_funcIFvyRKN5degas8Database18TransactionChangesEEED2B9nqe210106Ev
++ __ZNSt3__110shared_ptrIN5degas10LabelIndexEE5resetB9nqe210106INS1_20LabelIndex_ImmediateELi0EEEvPT_
++ __ZNSt3__110shared_ptrIN5degas10LabelIndexEE5resetB9nqe210106INS1_22LabelIndex_TransactionELi0EEEvPT_
++ __ZNSt3__110shared_ptrIN5degas21CountedPathCollectionEEC2B9nqe210106IS2_Li0EEEPT_
++ __ZNSt3__110shared_ptrIN5degas23UncountedPathCollectionEEC2B9nqe210106IS2_Li0EEEPT_
++ __ZNSt3__110shared_ptrIN5degas6BitmapEED1B9nqe210106Ev
++ __ZNSt3__110shared_ptrIN5degas9PredicateEEC2B9nqe210106INS1_11NoPredicateELi0EEEPT_
++ __ZNSt3__110shared_ptrIN5degas9PredicateEEC2B9nqe210106INS1_18IntersectPredicateELi0EEEPT_
++ __ZNSt3__110shared_ptrIN5degas9PredicateEEC2B9nqe210106INS1_22AllLabelsEdgePredicateELi0EEEPT_
++ __ZNSt3__110shared_ptrIN5degas9PredicateEEC2B9nqe210106INS1_22AllLabelsNodePredicateELi0EEEPT_
++ __ZNSt3__110shared_ptrIN5degas9PredicateEEC2B9nqe210106INS1_22AnyLabelsEdgePredicateELi0EEEPT_
++ __ZNSt3__110shared_ptrIN5degas9PredicateEEC2B9nqe210106INS1_22AnyLabelsNodePredicateELi0EEEPT_
++ __ZNSt3__110shared_ptrIN5degas9PredicateEED1B9nqe210106Ev
++ __ZNSt3__110shared_ptrIN5degas9StatementEEC2B9nqe210106IS2_Li0EEEPT_
++ __ZNSt3__110shared_ptrIN5degas9StatementEED1B9nqe210106Ev
++ __ZNSt3__110unique_ptrIN5degas10NodeCursorENS_14default_deleteIS2_EEED1B9nqe210106Ev
++ __ZNSt3__110unique_ptrIN5degas6BitmapENS_14default_deleteIS2_EEED1B9nqe210106Ev
++ __ZNSt3__110unique_ptrIN5degas9StatementENS_14default_deleteIS2_EEED1B9nqe210106Ev
++ __ZNSt3__112__destroy_atB9nqe210106INS_4pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrIN5degas20LabelIndex_PersistedEEEEELi0EEEvPT_
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_length_errorB9nqe210106Ev
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC1B9nqe210106EPKcm
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC1B9nqe210106ILi0EEEPKc
++ __ZNSt3__113__tree_removeB9nqe210106IPNS_16__tree_node_baseIPvEEEEvT_S5_
++ __ZNSt3__116allocator_traitsINS_9allocatorINS_11__tree_nodeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS1_IcEEEEN5degas11DatabaseMap16DatabaseMapEntryEEEPvEEEEE7destroyB9nqe210106INS_4pairIKS8_SB_EELi0EEEvRSF_PT_
++ __ZNSt3__119__allocate_at_leastB9nqe210106INS_9allocatorIN5degas9BitsetPtrEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
++ __ZNSt3__119__allocate_at_leastB9nqe210106INS_9allocatorINS_10shared_ptrIN5degas10EdgeFilterEEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS9_m
++ __ZNSt3__119__allocate_at_leastB9nqe210106INS_9allocatorINS_10shared_ptrIN5degas10NodeFilterEEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS9_m
++ __ZNSt3__119__allocate_at_leastB9nqe210106INS_9allocatorINS_10shared_ptrIN5degas9PredicateEEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS9_m
++ __ZNSt3__119__allocate_at_leastB9nqe210106INS_9allocatorINS_12basic_stringIcNS_11char_traitsIcEENS1_IcEEEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSA_m
++ __ZNSt3__119__allocate_at_leastB9nqe210106INS_9allocatorIdEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS5_m
++ __ZNSt3__119__allocate_at_leastB9nqe210106INS_9allocatorIxEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS5_m
++ __ZNSt3__119__shared_weak_count16__release_sharedB9nqe210106Ev
++ __ZNSt3__119basic_ostringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEC1B9nqe210106Ev
++ __ZNSt3__120__throw_length_errorB9nqe210106EPKc
++ __ZNSt3__124__put_character_sequenceB9nqe210106IcNS_11char_traitsIcEEEERNS_13basic_ostreamIT_T0_EES7_PKS4_m
++ __ZNSt3__125__throw_bad_function_callB9nqe210106Ev
++ __ZNSt3__127__tree_balance_after_insertB9nqe210106IPNS_16__tree_node_baseIPvEEEEvT_S5_
++ __ZNSt3__128__exception_guard_exceptionsINS_29_AllocatorDestroyRangeReverseINS_9allocatorINS_12basic_stringIcNS_11char_traitsIcEENS2_IcEEEEEEPS7_EEED2B9nqe210106Ev
++ __ZNSt3__134__uninitialized_allocator_relocateB9nqe210106INS_9allocatorIN5degas9BitsetPtrEEEPS3_EEvRT_T0_S8_S8_
++ __ZNSt3__13mapIyiNS_4lessIyEENS_9allocatorINS_4pairIKyiEEEEEC2B9nqe210106ERKS8_
++ __ZNSt3__13mapIyiNS_4lessIyEENS_9allocatorINS_4pairIKyiEEEEED1B9nqe210106Ev
++ __ZNSt3__16__treeINS_12__value_typeIyN5degas6BitmapEEENS_19__map_value_compareIyNS_4pairIKyS3_EENS_4lessIyEELb1EEENS_9allocatorIS8_EEE18_DetachedTreeCacheD2B9nqe210106Ev
++ __ZNSt3__16vectorIN5degas17StepSpecificationENS_9allocatorIS2_EEE20__throw_length_errorB9nqe210106Ev
++ __ZNSt3__16vectorIN5degas19EdgeCreationRequestENS_9allocatorIS2_EEE16__destroy_vectorclB9nqe210106Ev
++ __ZNSt3__16vectorIN5degas19EdgeCreationRequestENS_9allocatorIS2_EEE20__throw_length_errorB9nqe210106Ev
++ __ZNSt3__16vectorIN5degas19NodeCreationRequestENS_9allocatorIS2_EEE16__destroy_vectorclB9nqe210106Ev
++ __ZNSt3__16vectorIN5degas19NodeCreationRequestENS_9allocatorIS2_EEE20__throw_length_errorB9nqe210106Ev
++ __ZNSt3__16vectorIN5degas9BitsetPtrENS_9allocatorIS2_EEE11__vallocateB9nqe210106Em
++ __ZNSt3__16vectorIN5degas9BitsetPtrENS_9allocatorIS2_EEE16__destroy_vectorclB9nqe210106Ev
++ __ZNSt3__16vectorIN5degas9BitsetPtrENS_9allocatorIS2_EEE16__init_with_sizeB9nqe210106IPS2_S7_EEvT_T0_m
++ __ZNSt3__16vectorIN5degas9BitsetPtrENS_9allocatorIS2_EEE20__throw_length_errorB9nqe210106Ev
++ __ZNSt3__16vectorIN5degas9BitsetPtrENS_9allocatorIS2_EEE9push_backB9nqe210106ERKS2_
++ __ZNSt3__16vectorINS_10shared_ptrIN5degas10EdgeFilterEEENS_9allocatorIS4_EEE16__destroy_vectorclB9nqe210106Ev
++ __ZNSt3__16vectorINS_10shared_ptrIN5degas10EdgeFilterEEENS_9allocatorIS4_EEE16__init_with_sizeB9nqe210106IPS4_S9_EEvT_T0_m
++ __ZNSt3__16vectorINS_10shared_ptrIN5degas10EdgeFilterEEENS_9allocatorIS4_EEE20__throw_length_errorB9nqe210106Ev
++ __ZNSt3__16vectorINS_10shared_ptrIN5degas10EdgeFilterEEENS_9allocatorIS4_EEE9push_backB9nqe210106ERKS4_
++ __ZNSt3__16vectorINS_10shared_ptrIN5degas10NodeFilterEEENS_9allocatorIS4_EEE16__destroy_vectorclB9nqe210106Ev
++ __ZNSt3__16vectorINS_10shared_ptrIN5degas10NodeFilterEEENS_9allocatorIS4_EEE16__init_with_sizeB9nqe210106IPS4_S9_EEvT_T0_m
++ __ZNSt3__16vectorINS_10shared_ptrIN5degas10NodeFilterEEENS_9allocatorIS4_EEE20__throw_length_errorB9nqe210106Ev
++ __ZNSt3__16vectorINS_10shared_ptrIN5degas10NodeFilterEEENS_9allocatorIS4_EEE9push_backB9nqe210106ERKS4_
++ __ZNSt3__16vectorINS_10shared_ptrIN5degas9PredicateEEENS_9allocatorIS4_EEE16__destroy_vectorclB9nqe210106Ev
++ __ZNSt3__16vectorINS_10shared_ptrIN5degas9PredicateEEENS_9allocatorIS4_EEE16__init_with_sizeB9nqe210106IPS4_S9_EEvT_T0_m
++ __ZNSt3__16vectorINS_10shared_ptrIN5degas9PredicateEEENS_9allocatorIS4_EEE20__throw_length_errorB9nqe210106Ev
++ __ZNSt3__16vectorINS_10shared_ptrIN5degas9PredicateEEENS_9allocatorIS4_EEE9push_backB9nqe210106ERKS4_
++ __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE16__destroy_vectorclB9nqe210106Ev
++ __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE16__init_with_sizeB9nqe210106IPS6_SA_EEvT_T0_m
++ __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE20__throw_length_errorB9nqe210106Ev
++ __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE9push_backB9nqe210106EOS6_
++ __ZNSt3__16vectorIPKcNS_9allocatorIS2_EEE20__throw_length_errorB9nqe210106Ev
++ __ZNSt3__16vectorIPKcNS_9allocatorIS2_EEEC2B9nqe210106Em
++ __ZNSt3__16vectorIPcNS_9allocatorIS1_EEE20__throw_length_errorB9nqe210106Ev
++ __ZNSt3__16vectorIdNS_9allocatorIdEEE11__vallocateB9nqe210106Em
++ __ZNSt3__16vectorIdNS_9allocatorIdEEE20__throw_length_errorB9nqe210106Ev
++ __ZNSt3__16vectorIxNS_9allocatorIxEEE11__vallocateB9nqe210106Em
++ __ZNSt3__16vectorIxNS_9allocatorIxEEE20__throw_length_errorB9nqe210106Ev
++ __ZNSt3__16vectorIyNS_9allocatorIyEEE20__throw_length_errorB9nqe210106Ev
++ __ZNSt3__19allocatorIN5degas17StepSpecificationEE7destroyB9nqe210106EPS2_
++ __ZSt28__throw_bad_array_new_lengthB9nqe210106v
++ ___Block_byref_object_copy_.1513
++ ___Block_byref_object_copy_.2012
++ ___Block_byref_object_copy_.2286
++ ___Block_byref_object_copy_.2787
++ ___Block_byref_object_copy_.2876
++ ___Block_byref_object_copy_.3362
++ ___Block_byref_object_copy_.3528
++ ___Block_byref_object_copy_.4361
++ ___Block_byref_object_copy_.4693
++ ___Block_byref_object_copy_.5390
++ ___Block_byref_object_copy_.6272
++ ___Block_byref_object_copy_.6485
++ ___Block_byref_object_copy_.714
++ ___Block_byref_object_copy_.832
++ ___Block_byref_object_copy_.888
++ ___Block_byref_object_dispose_.1514
++ ___Block_byref_object_dispose_.2013
++ ___Block_byref_object_dispose_.2287
++ ___Block_byref_object_dispose_.2788
++ ___Block_byref_object_dispose_.2877
++ ___Block_byref_object_dispose_.3363
++ ___Block_byref_object_dispose_.3529
++ ___Block_byref_object_dispose_.4362
++ ___Block_byref_object_dispose_.4694
++ ___Block_byref_object_dispose_.5391
++ ___Block_byref_object_dispose_.6273
++ ___Block_byref_object_dispose_.6486
++ ___Block_byref_object_dispose_.715
++ ___Block_byref_object_dispose_.833
++ ___Block_byref_object_dispose_.889
++ ___block_descriptor_tmp.10.1227
++ ___block_descriptor_tmp.10.2041
++ ___block_descriptor_tmp.10.2893
++ ___block_descriptor_tmp.10.3712
++ ___block_descriptor_tmp.10.4795
++ ___block_descriptor_tmp.10.4956
++ ___block_descriptor_tmp.10.6518
++ ___block_descriptor_tmp.1163
++ ___block_descriptor_tmp.12.2895
++ ___block_descriptor_tmp.12.3715
++ ___block_descriptor_tmp.12.4798
++ ___block_descriptor_tmp.12.6520
++ ___block_descriptor_tmp.1222
++ ___block_descriptor_tmp.1237
++ ___block_descriptor_tmp.1339
++ ___block_descriptor_tmp.14.1459
++ ___block_descriptor_tmp.14.2044
++ ___block_descriptor_tmp.14.2897
++ ___block_descriptor_tmp.14.3717
++ ___block_descriptor_tmp.14.4800
++ ___block_descriptor_tmp.14.6522
++ ___block_descriptor_tmp.1446
++ ___block_descriptor_tmp.16.2046
++ ___block_descriptor_tmp.16.2899
++ ___block_descriptor_tmp.16.3719
++ ___block_descriptor_tmp.16.4802
++ ___block_descriptor_tmp.17.4961
++ ___block_descriptor_tmp.18.3721
++ ___block_descriptor_tmp.18.4804
++ ___block_descriptor_tmp.19.4963
++ ___block_descriptor_tmp.20.2049
++ ___block_descriptor_tmp.20.3723
++ ___block_descriptor_tmp.20.4806
++ ___block_descriptor_tmp.2032
++ ___block_descriptor_tmp.22.3725
++ ___block_descriptor_tmp.23.4966
++ ___block_descriptor_tmp.25.4968
++ ___block_descriptor_tmp.26.2053
++ ___block_descriptor_tmp.27.4970
++ ___block_descriptor_tmp.28.2055
++ ___block_descriptor_tmp.2887
++ ___block_descriptor_tmp.29.4972
++ ___block_descriptor_tmp.30.2057
++ ___block_descriptor_tmp.31.4813
++ ___block_descriptor_tmp.31.4974
++ ___block_descriptor_tmp.34.2060
++ ___block_descriptor_tmp.37.4816
++ ___block_descriptor_tmp.3707
++ ___block_descriptor_tmp.39.4820
++ ___block_descriptor_tmp.3951
++ ___block_descriptor_tmp.4.1216
++ ___block_descriptor_tmp.4.1231
++ ___block_descriptor_tmp.4.1448
++ ___block_descriptor_tmp.4.2035
++ ___block_descriptor_tmp.4.2889
++ ___block_descriptor_tmp.4.4790
++ ___block_descriptor_tmp.4.6514
++ ___block_descriptor_tmp.41.4822
++ ___block_descriptor_tmp.44.4824
++ ___block_descriptor_tmp.46.4827
++ ___block_descriptor_tmp.4786
++ ___block_descriptor_tmp.48.4829
++ ___block_descriptor_tmp.49.4831
++ ___block_descriptor_tmp.4950
++ ___block_descriptor_tmp.5.3952
++ ___block_descriptor_tmp.5.4953
++ ___block_descriptor_tmp.5285
++ ___block_descriptor_tmp.5693
++ ___block_descriptor_tmp.6.1224
++ ___block_descriptor_tmp.6.1239
++ ___block_descriptor_tmp.6.1453
++ ___block_descriptor_tmp.6.2037
++ ___block_descriptor_tmp.6.2881
++ ___block_descriptor_tmp.6.6500
++ ___block_descriptor_tmp.6512
++ ___block_descriptor_tmp.7.3710
++ ___block_descriptor_tmp.7.4792
++ ___block_descriptor_tmp.8.1241
++ ___block_descriptor_tmp.8.2039
++ ___block_descriptor_tmp.8.2891
++ ___block_descriptor_tmp.8.4943
++ ___block_descriptor_tmp.8.6516
++ ___block_literal_global.345
++ ___block_literal_global.3936
++ ___block_literal_global.468
++ ___block_literal_global.5283
++ ___block_literal_global.572
+- __ZN5degasL15_getUnsignedIntEPPKh.6017
+- __ZNKSt3__114default_deleteIN5degas21CountedPathCollectionEEclB9foe210106EPS2_
+- __ZNKSt3__114default_deleteIN5degas23UncountedPathCollectionEEclB9foe210106EPS2_
+- __ZNSt12length_errorC1B9foe210106EPKc
+- __ZNSt3__110__function12__value_funcIFvRN5degas11LabelCursorERNS2_6BitmapEEED2B9foe210106Ev
+- __ZNSt3__110__function12__value_funcIFvyRKN5degas8Database18TransactionChangesEEED2B9foe210106Ev
+- __ZNSt3__110shared_ptrIN5degas10LabelIndexEE5resetB9foe210106INS1_20LabelIndex_ImmediateELi0EEEvPT_
+- __ZNSt3__110shared_ptrIN5degas10LabelIndexEE5resetB9foe210106INS1_22LabelIndex_TransactionELi0EEEvPT_
+- __ZNSt3__110shared_ptrIN5degas21CountedPathCollectionEEC2B9foe210106IS2_Li0EEEPT_
+- __ZNSt3__110shared_ptrIN5degas23UncountedPathCollectionEEC2B9foe210106IS2_Li0EEEPT_
+- __ZNSt3__110shared_ptrIN5degas6BitmapEED1B9foe210106Ev
+- __ZNSt3__110shared_ptrIN5degas9PredicateEEC2B9foe210106INS1_11NoPredicateELi0EEEPT_
+- __ZNSt3__110shared_ptrIN5degas9PredicateEEC2B9foe210106INS1_18IntersectPredicateELi0EEEPT_
+- __ZNSt3__110shared_ptrIN5degas9PredicateEEC2B9foe210106INS1_22AllLabelsEdgePredicateELi0EEEPT_
+- __ZNSt3__110shared_ptrIN5degas9PredicateEEC2B9foe210106INS1_22AllLabelsNodePredicateELi0EEEPT_
+- __ZNSt3__110shared_ptrIN5degas9PredicateEEC2B9foe210106INS1_22AnyLabelsEdgePredicateELi0EEEPT_
+- __ZNSt3__110shared_ptrIN5degas9PredicateEEC2B9foe210106INS1_22AnyLabelsNodePredicateELi0EEEPT_
+- __ZNSt3__110shared_ptrIN5degas9PredicateEED1B9foe210106Ev
+- __ZNSt3__110shared_ptrIN5degas9StatementEEC2B9foe210106IS2_Li0EEEPT_
+- __ZNSt3__110shared_ptrIN5degas9StatementEED1B9foe210106Ev
+- __ZNSt3__110unique_ptrIN5degas10NodeCursorENS_14default_deleteIS2_EEED1B9foe210106Ev
+- __ZNSt3__110unique_ptrIN5degas6BitmapENS_14default_deleteIS2_EEED1B9foe210106Ev
+- __ZNSt3__110unique_ptrIN5degas9StatementENS_14default_deleteIS2_EEED1B9foe210106Ev
+- __ZNSt3__112__destroy_atB9foe210106INS_4pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrIN5degas20LabelIndex_PersistedEEEEELi0EEEvPT_
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_length_errorB9foe210106Ev
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC1B9foe210106EPKcm
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC1B9foe210106ILi0EEEPKc
+- __ZNSt3__113__tree_removeB9foe210106IPNS_16__tree_node_baseIPvEEEEvT_S5_
+- __ZNSt3__116allocator_traitsINS_9allocatorINS_11__tree_nodeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS1_IcEEEEN5degas11DatabaseMap16DatabaseMapEntryEEEPvEEEEE7destroyB9foe210106INS_4pairIKS8_SB_EELi0EEEvRSF_PT_
+- __ZNSt3__119__allocate_at_leastB9foe210106INS_9allocatorIN5degas9BitsetPtrEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
+- __ZNSt3__119__allocate_at_leastB9foe210106INS_9allocatorINS_10shared_ptrIN5degas10EdgeFilterEEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS9_m
+- __ZNSt3__119__allocate_at_leastB9foe210106INS_9allocatorINS_10shared_ptrIN5degas10NodeFilterEEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS9_m
+- __ZNSt3__119__allocate_at_leastB9foe210106INS_9allocatorINS_10shared_ptrIN5degas9PredicateEEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS9_m
+- __ZNSt3__119__allocate_at_leastB9foe210106INS_9allocatorINS_12basic_stringIcNS_11char_traitsIcEENS1_IcEEEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSA_m
+- __ZNSt3__119__allocate_at_leastB9foe210106INS_9allocatorIdEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS5_m
+- __ZNSt3__119__allocate_at_leastB9foe210106INS_9allocatorIxEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS5_m
+- __ZNSt3__119__shared_weak_count16__release_sharedB9foe210106Ev
+- __ZNSt3__119basic_ostringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEC1B9foe210106Ev
+- __ZNSt3__120__throw_length_errorB9foe210106EPKc
+- __ZNSt3__124__put_character_sequenceB9foe210106IcNS_11char_traitsIcEEEERNS_13basic_ostreamIT_T0_EES7_PKS4_m
+- __ZNSt3__125__throw_bad_function_callB9foe210106Ev
+- __ZNSt3__127__tree_balance_after_insertB9foe210106IPNS_16__tree_node_baseIPvEEEEvT_S5_
+- __ZNSt3__128__exception_guard_exceptionsINS_29_AllocatorDestroyRangeReverseINS_9allocatorINS_12basic_stringIcNS_11char_traitsIcEENS2_IcEEEEEEPS7_EEED2B9foe210106Ev
+- __ZNSt3__132__internal_log_hardening_failureEPKc
+- __ZNSt3__134__uninitialized_allocator_relocateB9foe210106INS_9allocatorIN5degas9BitsetPtrEEEPS3_EEvRT_T0_S8_S8_
+- __ZNSt3__13mapIyiNS_4lessIyEENS_9allocatorINS_4pairIKyiEEEEEC2B9foe210106ERKS8_
+- __ZNSt3__13mapIyiNS_4lessIyEENS_9allocatorINS_4pairIKyiEEEEED1B9foe210106Ev
+- __ZNSt3__16__treeINS_12__value_typeIyN5degas6BitmapEEENS_19__map_value_compareIyNS_4pairIKyS3_EENS_4lessIyEELb1EEENS_9allocatorIS8_EEE18_DetachedTreeCacheD2B9foe210106Ev
+- __ZNSt3__16vectorIN5degas17StepSpecificationENS_9allocatorIS2_EEE20__throw_length_errorB9foe210106Ev
+- __ZNSt3__16vectorIN5degas19EdgeCreationRequestENS_9allocatorIS2_EEE16__destroy_vectorclB9foe210106Ev
+- __ZNSt3__16vectorIN5degas19EdgeCreationRequestENS_9allocatorIS2_EEE20__throw_length_errorB9foe210106Ev
+- __ZNSt3__16vectorIN5degas19NodeCreationRequestENS_9allocatorIS2_EEE16__destroy_vectorclB9foe210106Ev
+- __ZNSt3__16vectorIN5degas19NodeCreationRequestENS_9allocatorIS2_EEE20__throw_length_errorB9foe210106Ev
+- __ZNSt3__16vectorIN5degas9BitsetPtrENS_9allocatorIS2_EEE11__vallocateB9foe210106Em
+- __ZNSt3__16vectorIN5degas9BitsetPtrENS_9allocatorIS2_EEE16__destroy_vectorclB9foe210106Ev
+- __ZNSt3__16vectorIN5degas9BitsetPtrENS_9allocatorIS2_EEE16__init_with_sizeB9foe210106IPS2_S7_EEvT_T0_m
+- __ZNSt3__16vectorIN5degas9BitsetPtrENS_9allocatorIS2_EEE20__throw_length_errorB9foe210106Ev
+- __ZNSt3__16vectorIN5degas9BitsetPtrENS_9allocatorIS2_EEE9push_backB9foe210106ERKS2_
+- __ZNSt3__16vectorINS_10shared_ptrIN5degas10EdgeFilterEEENS_9allocatorIS4_EEE16__destroy_vectorclB9foe210106Ev
+- __ZNSt3__16vectorINS_10shared_ptrIN5degas10EdgeFilterEEENS_9allocatorIS4_EEE16__init_with_sizeB9foe210106IPS4_S9_EEvT_T0_m
+- __ZNSt3__16vectorINS_10shared_ptrIN5degas10EdgeFilterEEENS_9allocatorIS4_EEE20__throw_length_errorB9foe210106Ev
+- __ZNSt3__16vectorINS_10shared_ptrIN5degas10EdgeFilterEEENS_9allocatorIS4_EEE9push_backB9foe210106ERKS4_
+- __ZNSt3__16vectorINS_10shared_ptrIN5degas10NodeFilterEEENS_9allocatorIS4_EEE16__destroy_vectorclB9foe210106Ev
+- __ZNSt3__16vectorINS_10shared_ptrIN5degas10NodeFilterEEENS_9allocatorIS4_EEE16__init_with_sizeB9foe210106IPS4_S9_EEvT_T0_m
+- __ZNSt3__16vectorINS_10shared_ptrIN5degas10NodeFilterEEENS_9allocatorIS4_EEE20__throw_length_errorB9foe210106Ev
+- __ZNSt3__16vectorINS_10shared_ptrIN5degas10NodeFilterEEENS_9allocatorIS4_EEE9push_backB9foe210106ERKS4_
+- __ZNSt3__16vectorINS_10shared_ptrIN5degas9PredicateEEENS_9allocatorIS4_EEE16__destroy_vectorclB9foe210106Ev
+- __ZNSt3__16vectorINS_10shared_ptrIN5degas9PredicateEEENS_9allocatorIS4_EEE16__init_with_sizeB9foe210106IPS4_S9_EEvT_T0_m
+- __ZNSt3__16vectorINS_10shared_ptrIN5degas9PredicateEEENS_9allocatorIS4_EEE20__throw_length_errorB9foe210106Ev
+- __ZNSt3__16vectorINS_10shared_ptrIN5degas9PredicateEEENS_9allocatorIS4_EEE9push_backB9foe210106ERKS4_
+- __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE16__destroy_vectorclB9foe210106Ev
+- __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE16__init_with_sizeB9foe210106IPS6_SA_EEvT_T0_m
+- __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE20__throw_length_errorB9foe210106Ev
+- __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE9push_backB9foe210106EOS6_
+- __ZNSt3__16vectorIPKcNS_9allocatorIS2_EEE20__throw_length_errorB9foe210106Ev
+- __ZNSt3__16vectorIPKcNS_9allocatorIS2_EEEC2B9foe210106Em
+- __ZNSt3__16vectorIPcNS_9allocatorIS1_EEE20__throw_length_errorB9foe210106Ev
+- __ZNSt3__16vectorIdNS_9allocatorIdEEE11__vallocateB9foe210106Em
+- __ZNSt3__16vectorIdNS_9allocatorIdEEE20__throw_length_errorB9foe210106Ev
+- __ZNSt3__16vectorIxNS_9allocatorIxEEE11__vallocateB9foe210106Em
+- __ZNSt3__16vectorIxNS_9allocatorIxEEE20__throw_length_errorB9foe210106Ev
+- __ZNSt3__16vectorIyNS_9allocatorIyEEE20__throw_length_errorB9foe210106Ev
+- __ZNSt3__19allocatorIN5degas17StepSpecificationEE7destroyB9foe210106EPS2_
+- __ZSt28__throw_bad_array_new_lengthB9foe210106v
+- ___Block_byref_object_copy_.1517
+- ___Block_byref_object_copy_.2016
+- ___Block_byref_object_copy_.2290
+- ___Block_byref_object_copy_.2791
+- ___Block_byref_object_copy_.2880
+- ___Block_byref_object_copy_.3366
+- ___Block_byref_object_copy_.3532
+- ___Block_byref_object_copy_.4367
+- ___Block_byref_object_copy_.4699
+- ___Block_byref_object_copy_.5397
+- ___Block_byref_object_copy_.6284
+- ___Block_byref_object_copy_.6497
+- ___Block_byref_object_copy_.717
+- ___Block_byref_object_copy_.835
+- ___Block_byref_object_copy_.891
+- ___Block_byref_object_dispose_.1518
+- ___Block_byref_object_dispose_.2017
+- ___Block_byref_object_dispose_.2291
+- ___Block_byref_object_dispose_.2792
+- ___Block_byref_object_dispose_.2881
+- ___Block_byref_object_dispose_.3367
+- ___Block_byref_object_dispose_.3533
+- ___Block_byref_object_dispose_.4368
+- ___Block_byref_object_dispose_.4700
+- ___Block_byref_object_dispose_.5398
+- ___Block_byref_object_dispose_.6285
+- ___Block_byref_object_dispose_.6498
+- ___Block_byref_object_dispose_.718
+- ___Block_byref_object_dispose_.836
+- ___Block_byref_object_dispose_.892
+- ___block_descriptor_tmp.10.1231
+- ___block_descriptor_tmp.10.2045
+- ___block_descriptor_tmp.10.2897
+- ___block_descriptor_tmp.10.3716
+- ___block_descriptor_tmp.10.4801
+- ___block_descriptor_tmp.10.4962
+- ___block_descriptor_tmp.10.6530
+- ___block_descriptor_tmp.1167
+- ___block_descriptor_tmp.12.2899
+- ___block_descriptor_tmp.12.3719
+- ___block_descriptor_tmp.12.4804
+- ___block_descriptor_tmp.12.6532
+- ___block_descriptor_tmp.1226
+- ___block_descriptor_tmp.1241
+- ___block_descriptor_tmp.1343
+- ___block_descriptor_tmp.14.1463
+- ___block_descriptor_tmp.14.2048
+- ___block_descriptor_tmp.14.2901
+- ___block_descriptor_tmp.14.3721
+- ___block_descriptor_tmp.14.4806
+- ___block_descriptor_tmp.14.6534
+- ___block_descriptor_tmp.1450
+- ___block_descriptor_tmp.16.2050
+- ___block_descriptor_tmp.16.2903
+- ___block_descriptor_tmp.16.3723
+- ___block_descriptor_tmp.16.4808
+- ___block_descriptor_tmp.17.4967
+- ___block_descriptor_tmp.18.3725
+- ___block_descriptor_tmp.18.4810
+- ___block_descriptor_tmp.19.4969
+- ___block_descriptor_tmp.20.2053
+- ___block_descriptor_tmp.20.3727
+- ___block_descriptor_tmp.20.4812
+- ___block_descriptor_tmp.2036
+- ___block_descriptor_tmp.22.3729
+- ___block_descriptor_tmp.23.4972
+- ___block_descriptor_tmp.25.4974
+- ___block_descriptor_tmp.26.2057
+- ___block_descriptor_tmp.27.4976
+- ___block_descriptor_tmp.28.2059
+- ___block_descriptor_tmp.2891
+- ___block_descriptor_tmp.29.4978
+- ___block_descriptor_tmp.30.2061
+- ___block_descriptor_tmp.31.4819
+- ___block_descriptor_tmp.31.4980
+- ___block_descriptor_tmp.34.2064
+- ___block_descriptor_tmp.37.4822
+- ___block_descriptor_tmp.3711
+- ___block_descriptor_tmp.39.4826
+- ___block_descriptor_tmp.3956
+- ___block_descriptor_tmp.4.1220
+- ___block_descriptor_tmp.4.1235
+- ___block_descriptor_tmp.4.1452
+- ___block_descriptor_tmp.4.2039
+- ___block_descriptor_tmp.4.2893
+- ___block_descriptor_tmp.4.4796
+- ___block_descriptor_tmp.4.6526
+- ___block_descriptor_tmp.41.4828
+- ___block_descriptor_tmp.44.4830
+- ___block_descriptor_tmp.46.4833
+- ___block_descriptor_tmp.4792
+- ___block_descriptor_tmp.48.4835
+- ___block_descriptor_tmp.49.4837
+- ___block_descriptor_tmp.4956
+- ___block_descriptor_tmp.5.3957
+- ___block_descriptor_tmp.5.4959
+- ___block_descriptor_tmp.5291
+- ___block_descriptor_tmp.5700
+- ___block_descriptor_tmp.6.1228
+- ___block_descriptor_tmp.6.1243
+- ___block_descriptor_tmp.6.1457
+- ___block_descriptor_tmp.6.2041
+- ___block_descriptor_tmp.6.2885
+- ___block_descriptor_tmp.6.6512
+- ___block_descriptor_tmp.6524
+- ___block_descriptor_tmp.7.3714
+- ___block_descriptor_tmp.7.4798
+- ___block_descriptor_tmp.8.1245
+- ___block_descriptor_tmp.8.2043
+- ___block_descriptor_tmp.8.2895
+- ___block_descriptor_tmp.8.4949
+- ___block_descriptor_tmp.8.6528
+- ___block_literal_global.346
+- ___block_literal_global.3941
+- ___block_literal_global.469
+- ___block_literal_global.5289
+- ___block_literal_global.575
+Functions:
+~ __ZNSt3__16vectorIN5degas9BitsetPtrENS_9allocatorIS2_EEE5eraseENS_11__wrap_iterIPKS2_EES9_ : 188 -> 168
+~ __ZN5degas6Bitmap9unionWithIS0_EEvRKT_ : 320 -> 220
+~ __ZN5degas6Bitmap13intersectWithIS0_EEvRKT_ : 380 -> 320
+~ __ZN5degas6Bitmap8diffWithIS0_EEvRKT_ : 656 -> 532
+~ -[KGDatabase filterElementIdentifiersForPropertyName:values:comparator:elementIdentifiers:valueTable:rowCount:error:] : 2180 -> 1884
+~ -[KGDatabase addEdges:error:] : 2012 -> 1952
+~ -[KGDatabase addNodes:error:] : 1856 -> 1824
+~ __ZN5degas10BitsetPool15purgeEmptyPagesEv : 236 -> 192
+~ __ZN5degas14AttributeQuery26elementsForAttributeValuesEyPNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEEiNS_14BinaryOperatorERNS_6BitmapE : 280 -> 216
+~ __ZN5degas14AttributeQuery32filterElementsForAttributeValuesEyPNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEEiNS_14BinaryOperatorERKNS_6BitmapERSA_ : 288 -> 232
+~ __ZN5degas6Bitmap17symmetricDiffWithIS0_EEvRKT_ : 572 -> 464
+~ -[KGElementIdentifierSet containsIdentifierSet:] : 84 -> 92
+~ __ZNK5degas6Bitmap10isSubsetOfIS0_EEbRKT_ : 256 -> 156
+~ -[KGElementIdentifierSet isSubsetOfIdentifierSet:] : 88 -> 92
+~ -[KGElementIdentifierSet intersectsIdentifierSet:] : 300 -> 236
+~ __ZN5degas14UnionPredicate24decomposeLabelsPredicateERKNSt3__110shared_ptrINS_9PredicateEEE : 192 -> 88
+~ __ZN5degas8Database11insertNodesERNSt3__16vectorINS_19NodeCreationRequestENS1_9allocatorIS3_EEEE : 492 -> 460
+~ __ZN5degas8Database11insertEdgesERNSt3__16vectorINS_19EdgeCreationRequestENS1_9allocatorIS3_EEEE : 1752 -> 1724
+~ __ZN5degas8Database23validateLabelReferencesEv : 1988 -> 2068
+~ __ZN5degas6Bitmap23unshadowedBitSetAtIndexEy : 276 -> 244
+~ __ZNSt3__16vectorIN5degas9BitsetPtrENS_9allocatorIS2_EEE6insertENS_11__wrap_iterIPKS2_EERS7_ : 760 -> 736
+~ __ZN5degas6Bitmap8clearBitEy : 504 -> 468
+~ __ZN5degas6Bitmap10clearRangeEyy : 1124 -> 996
+~ __ZNK5degas6Bitmap16countBitsInRangeEyy : 628 -> 388
+~ __ZN5degas6Bitmap15intersectBitsetERyRNS_6BitsetES1_RKS2_y : 728 -> 656
+CStrings:
+- "/AppleInternal/Library/BuildRoots/4~CJalugCzDJSf1bEUzXROVapF_gYy5HRHsZm_3tA/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__utility/is_pointer_in_range.h:38: libc++ Hardening assertion std::__is_valid_range(__begin, __end) failed: [__begin, __end) is not a valid range\n"
+- "/AppleInternal/Library/BuildRoots/4~CJalugCzDJSf1bEUzXROVapF_gYy5HRHsZm_3tA/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__vector/vector.h:1162: libc++ Hardening assertion __position != end() failed: vector::erase(iterator) called with a non-dereferenceable iterator\n"
+- "/AppleInternal/Library/BuildRoots/4~CJalugCzDJSf1bEUzXROVapF_gYy5HRHsZm_3tA/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__vector/vector.h:1172: libc++ Hardening assertion __first <= __last failed: vector::erase(first, last) called with invalid range\n"
+- "/AppleInternal/Library/BuildRoots/4~CJalugCzDJSf1bEUzXROVapF_gYy5HRHsZm_3tA/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__vector/vector.h:406: libc++ Hardening assertion __n < size() failed: vector[] index out of bounds\n"
+- "/AppleInternal/Library/BuildRoots/4~CJalugCzDJSf1bEUzXROVapF_gYy5HRHsZm_3tA/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__vector/vector.h:410: libc++ Hardening assertion __n < size() failed: vector[] index out of bounds\n"
+- "/AppleInternal/Library/BuildRoots/4~CJalugCzDJSf1bEUzXROVapF_gYy5HRHsZm_3tA/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__vector/vector.h:425: libc++ Hardening assertion !empty() failed: front() called on an empty vector\n"
+- "/AppleInternal/Library/BuildRoots/4~CJalugCzDJSf1bEUzXROVapF_gYy5HRHsZm_3tA/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/list:1420: libc++ Hardening assertion __p != end() failed: list::erase(iterator) called with a non-dereferenceable iterator\n"
+
+```
