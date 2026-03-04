@@ -39,6 +39,10 @@
 
 </details>
 
+### KDKs
+
+- [KDK DIFF](KDK.md)
+
 ## MachO
 
 ### 🆕 NEW (2)
@@ -213,28 +217,28 @@ CStrings:
 <details>
   <summary><i>View NEW</i></summary>
 
-##### `RTKit.bin`
-  - `RS: %s: local tether state %d -> %d`
-  - `charge rate`
-##### `AppleSMCFirmware.bin`
-  - `AppleSMCFirmware_H18-6164.92.2.v53.REL`
-##### `iboot_blob29.bin`
-  - `DD0E0H0J0R0V01A2AIASAIB`
-##### `iboot_blob30.bin`
-  - `DAcKBcSBcSHcOIcDLcTRcSAmBDmCFmLFmCHmSMmEdtlT`
-  - `VKSPSSTSEW1`
-  - `VBCCECFCRCBDSFCHVHWH1I2IBICIEIFILIMIOISIDKGKHKKKLKMKOKPKQKRKSKUKVKWKSLTL2MCNDNINCOSPiQvQwQCRTRCSESLSTSWSCTETLTMTUTH`
-##### `iboot_blob31.bin`
-  - `DCL%02x: 0x%08x 0x%08x 0x%08x 0x%08x 0x%08x 0x%08x 0x%08x 0x`
-  - `root@Jan 17 2026@11:12:46~.release`
 ##### `iboot_blob46.bin`
   - `tffOnOTR4x`
-  - `tnCkaWTR)x`
   - `KAEPPHTRUx`
-  - `UPCmuNTR|x`
   - `EERFPHTR@x`
+  - `UPCmuNTR|x`
+  - `tnCkaWTR)x`
+##### `AppleSMCFirmware.bin`
+  - `AppleSMCFirmware_H18-6164.92.2.v53.REL`
+##### `iboot_blob30.bin`
+  - `VKSPSSTSEW1`
+  - `VBCCECFCRCBDSFCHVHWH1I2IBICIEIFILIMIOISIDKGKHKKKLKMKOKPKQKRKSKUKVKWKSLTL2MCNDNINCOSPiQvQwQCRTRCSESLSTSWSCTETLTMTUTH`
+  - `DAcKBcSBcSHcOIcDLcTRcSAmBDmCFmLFmCHmSMmEdtlT`
 ##### `iboot_blob32.bin`
   - `IND: CHG: clear `
+##### `iboot_blob31.bin`
+  - `root@Jan 17 2026@11:12:46~.release`
+  - `DCL%02x: 0x%08x 0x%08x 0x%08x 0x%08x 0x%08x 0x%08x 0x%08x 0x`
+##### `iboot_blob29.bin`
+  - `DD0E0H0J0R0V01A2AIASAIB`
+##### `RTKit.bin`
+  - `charge rate`
+  - `RS: %s: local tether state %d -> %d`
 
 </details>
 
@@ -243,29 +247,29 @@ CStrings:
 <details>
   <summary><i>View Removed</i></summary>
 
-##### `iboot_blob29.bin`
-  - `DD0E0H0J0R0V01A2AIASAIBVBCCECFCRCBDSFCH`
-##### `iboot_blob30.bin`
-  - `DAcKBcSBcSHcOIcDLcTRcSAmBDmCFmLFmCHmSMmEdtlH`
-  - `VKSPSSTSEW1v`
-  - `VHWH1I2IBICIEIFILIMIOISIDKGKHKKKLKMKOKPKQKRKSKUKVKWKSLTL2MCNDNINCOSPiQvQwQCRTRCSESLSTSWSCTETLTMTUTH`
 ##### `iboot_blob32.bin`
   - `IND: CHG: clear charge rate`
+##### `AppleSMCFirmware.bin`
+  - `AppleSMCFirmware_H18-6164.82.1.v53.REL`
+##### `iboot_blob29.bin`
+  - `DD0E0H0J0R0V01A2AIASAIBVBCCECFCRCBDSFCH`
 ##### `iboot_blob45.bin`
   - `tTxEhTTRvx`
+##### `iboot_blob30.bin`
+  - `VHWH1I2IBICIEIFILIMIOISIDKGKHKKKLKMKOKPKQKRKSKUKVKWKSLTL2MCNDNINCOSPiQvQwQCRTRCSESLSTSWSCTETLTMTUTH`
+  - `DAcKBcSBcSHcOIcDLcTRcSAmBDmCFmLFmCHmSMmEdtlH`
+  - `VKSPSSTSEW1v`
 ##### `iboot_blob46.bin`
-  - `EERFPHTR0x`
   - `UPCmuNTRlx`
   - `KAEPPHTREx`
   - `tffOnOTR$x`
+  - `EERFPHTR0x`
 ##### `RTKit.bin`
   - ` %s: local tether state %d -> %d`
-##### `AppleSMCFirmware.bin`
-  - `AppleSMCFirmware_H18-6164.82.1.v53.REL`
 ##### `iboot_blob31.bin`
+  - `root@Jan 17 2026@11:09:56~.release`
   - `DCL%02x: 0x%08x 0x%08x 0x%08x 0x%08x 0x%08x 0x%08x 0x%08x 0x%08x`
   - `%s:%d error`
-  - `root@Jan 17 2026@11:09:56~.release`
 
 </details>
 
