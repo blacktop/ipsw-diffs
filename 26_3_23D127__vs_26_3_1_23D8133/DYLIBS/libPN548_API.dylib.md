@@ -1,0 +1,34 @@
+## libPN548_API.dylib
+
+> `/usr/lib/libPN548_API.dylib`
+
+```diff
+
+   __TEXT.__text: 0x42af4
+   __TEXT.__auth_stubs: 0xd40
+   __TEXT.__const: 0x584
+-  __TEXT.__cstring: 0xb632
++  __TEXT.__cstring: 0xb733
+   __TEXT.__oslogstring: 0x74b5
+   __TEXT.__unwind_info: 0x568
+   __DATA_CONST.__got: 0x58
+-  __DATA_CONST.__const: 0x18d8
++  __DATA_CONST.__const: 0x1908
+   __AUTH_CONST.__auth_got: 0x6a0
+   __AUTH_CONST.__const: 0x2d0
+   __AUTH_CONST.__cfstring: 0x6c0
+
+   - /usr/lib/libNFC_HAL.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libnfshared.dylib
+-  UUID: 950849AD-C224-3FC5-B097-5B05F15970CB
++  UUID: F1213A6E-BC24-35BB-BEE4-FB6A5A9C3C7E
+   Functions: 408
+   Symbols:   342
+-  CStrings:  1865
++  CStrings:  1866
+ 
+CStrings:
++ "A0130428282828A00D03610982A09808731F0B8028171717A0AF091178B028115BB02802A09E0C07401F9600FA002B52030000A0940A0FF40100002B00000000A0682A064060031914204000930400F40D0032CB006601A500280103FA0000004C0008007D00007F0000060003A06A10000000000000C8000000000000000000"
+
+```

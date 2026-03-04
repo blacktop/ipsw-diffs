@@ -1,0 +1,35 @@
+## MPSMatrix
+
+> `/System/Library/Frameworks/MetalPerformanceShaders.framework/Frameworks/MPSMatrix.framework/MPSMatrix`
+
+```diff
+
+   __TEXT.__text: 0x1d734
+   __TEXT.__auth_stubs: 0x380
+   __TEXT.__objc_methlist: 0xdc4
+-  __TEXT.__const: 0x2c60
++  __TEXT.__const: 0x2c80
+   __TEXT.__gcc_except_tab: 0x378
+   __TEXT.__cstring: 0x392a
+   __TEXT.__unwind_info: 0x360
+   __TEXT.__objc_classname: 0x1d8
+   __TEXT.__objc_methname: 0x1ba4
+-  __TEXT.__objc_methtype: 0xb5a
++  __TEXT.__objc_methtype: 0xb85
+   __TEXT.__objc_stubs: 0x1140
+   __DATA_CONST.__got: 0x120
+   __DATA_CONST.__const: 0x3340
+
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 5BB5D4BB-2C22-329F-B628-5BBF7CC7A63D
++  UUID: 8BACAB1B-723E-3460-935D-3AA2AA3939D7
+   Functions: 327
+   Symbols:   136
+   CStrings:  984
+CStrings:
++ "r^{MPSLibraryInfo=iI*^?{MPSDeviceSpecificInfo=^{MPSKernelInfo}^?Q}{MPSDeviceSpecificInfo=^{MPSKernelInfo}^?Q}{MPSDeviceSpecificInfo=^{MPSKernelInfo}^?Q}{MPSDeviceSpecificInfo=^{MPSKernelInfo}^?Q}{MPSDeviceSpecificInfo=^{MPSKernelInfo}^?Q}{MPSDeviceSpecificInfo=^{MPSKernelInfo}^?Q}{MPSDeviceSpecificInfo=^{MPSKernelInfo}^?Q}{MPSDeviceSpecificInfo=^{MPSKernelInfo}^?Q}{MPSDeviceSpecificInfo=^{MPSKernelInfo}^?Q}{MPSDeviceSpecificInfo=^{MPSKernelInfo}^?Q}{MPSDeviceSpecificInfo=^{MPSKernelInfo}^?Q}{MPSDeviceSpecificInfo=^{MPSKernelInfo}^?Q}{MPSDeviceSpecificInfo=^{MPSKernelInfo}^?Q}{MPSDeviceSpecificInfo=^{MPSKernelInfo}^?Q}{MPSDeviceSpecificInfo=^{MPSKernelInfo}^?Q}{MPSDeviceSpecificInfo=^{MPSKernelInfo}^?Q}{MPSDeviceSpecificInfo=^{MPSKernelInfo}^?Q}{MPSDeviceSpecificInfo=^{MPSKernelInfo}^?Q}{MPSDeviceSpecificInfo=^{MPSKernelInfo}^?Q}{MPSDeviceSpecificInfo=^{MPSKernelInfo}^?Q}{MPSDeviceSpecificInfo=^{MPSKernelInfo}^?Q}{MPSDeviceSpecificInfo=^{MPSKernelInfo}^?Q}{MPSDeviceSpecificInfo=^{MPSKernelInfo}^?Q}{MPSDeviceSpecificInfo=^{MPSKernelInfo}^?Q}{MPSDeviceSpecificInfo=^{MPSKernelInfo}^?Q}{MPSDeviceSpecificInfo=^{MPSKernelInfo}^?Q}{MPSDeviceSpecificInfo=^{MPSKernelInfo}^?Q}{MPSDeviceSpecificInfo=^{MPSKernelInfo}^?Q}{MPSDeviceSpecificInfo=^{MPSKernelInfo}^?Q}{MPSDeviceSpecificInfo=^{MPSKernelInfo}^?Q}{MPSDeviceSpecificInfo=^{MPSKernelInfo}^?Q}{MPSDeviceSpecificInfo=^{MPSKernelInfo}^?Q}{MPSDeviceSpecificInfo=^{MPSKernelInfo}^?Q}{MPSDeviceSpecificInfo=^{MPSKernelInfo}^?Q}{MPSDeviceSpecificInfo=^{MPSKernelInfo}^?Q}{MPSDeviceSpecificInfo=^{MPSKernelInfo}^?Q}{MPSDeviceSpecificInfo=^{MPSKernelInfo}^?Q}{MPSDeviceSpecificInfo=^{MPSKernelInfo}^?Q}{MPSDeviceSpecificInfo=^{MPSKernelInfo}^?Q}{MPSDeviceSpecificInfo=^{MPSKernelInfo}^?Q}{MPSDeviceSpecificInfo=^{MPSKernelInfo}^?Q}{MPSDeviceSpecificInfo=^{MPSKernelInfo}^?Q}{MPSDeviceSpecificInfo=^{MPSKernelInfo}^?Q}}24@0:8^v16"
+- "r^{MPSLibraryInfo=iI*^?{MPSDeviceSpecificInfo=^{MPSKernelInfo}^?Q}{MPSDeviceSpecificInfo=^{MPSKernelInfo}^?Q}{MPSDeviceSpecificInfo=^{MPSKernelInfo}^?Q}{MPSDeviceSpecificInfo=^{MPSKernelInfo}^?Q}{MPSDeviceSpecificInfo=^{MPSKernelInfo}^?Q}{MPSDeviceSpecificInfo=^{MPSKernelInfo}^?Q}{MPSDeviceSpecificInfo=^{MPSKernelInfo}^?Q}{MPSDeviceSpecificInfo=^{MPSKernelInfo}^?Q}{MPSDeviceSpecificInfo=^{MPSKernelInfo}^?Q}{MPSDeviceSpecificInfo=^{MPSKernelInfo}^?Q}{MPSDeviceSpecificInfo=^{MPSKernelInfo}^?Q}{MPSDeviceSpecificInfo=^{MPSKernelInfo}^?Q}{MPSDeviceSpecificInfo=^{MPSKernelInfo}^?Q}{MPSDeviceSpecificInfo=^{MPSKernelInfo}^?Q}{MPSDeviceSpecificInfo=^{MPSKernelInfo}^?Q}{MPSDeviceSpecificInfo=^{MPSKernelInfo}^?Q}{MPSDeviceSpecificInfo=^{MPSKernelInfo}^?Q}{MPSDeviceSpecificInfo=^{MPSKernelInfo}^?Q}{MPSDeviceSpecificInfo=^{MPSKernelInfo}^?Q}{MPSDeviceSpecificInfo=^{MPSKernelInfo}^?Q}{MPSDeviceSpecificInfo=^{MPSKernelInfo}^?Q}{MPSDeviceSpecificInfo=^{MPSKernelInfo}^?Q}{MPSDeviceSpecificInfo=^{MPSKernelInfo}^?Q}{MPSDeviceSpecificInfo=^{MPSKernelInfo}^?Q}{MPSDeviceSpecificInfo=^{MPSKernelInfo}^?Q}{MPSDeviceSpecificInfo=^{MPSKernelInfo}^?Q}{MPSDeviceSpecificInfo=^{MPSKernelInfo}^?Q}{MPSDeviceSpecificInfo=^{MPSKernelInfo}^?Q}{MPSDeviceSpecificInfo=^{MPSKernelInfo}^?Q}{MPSDeviceSpecificInfo=^{MPSKernelInfo}^?Q}{MPSDeviceSpecificInfo=^{MPSKernelInfo}^?Q}{MPSDeviceSpecificInfo=^{MPSKernelInfo}^?Q}{MPSDeviceSpecificInfo=^{MPSKernelInfo}^?Q}{MPSDeviceSpecificInfo=^{MPSKernelInfo}^?Q}{MPSDeviceSpecificInfo=^{MPSKernelInfo}^?Q}{MPSDeviceSpecificInfo=^{MPSKernelInfo}^?Q}{MPSDeviceSpecificInfo=^{MPSKernelInfo}^?Q}{MPSDeviceSpecificInfo=^{MPSKernelInfo}^?Q}{MPSDeviceSpecificInfo=^{MPSKernelInfo}^?Q}{MPSDeviceSpecificInfo=^{MPSKernelInfo}^?Q}{MPSDeviceSpecificInfo=^{MPSKernelInfo}^?Q}{MPSDeviceSpecificInfo=^{MPSKernelInfo}^?Q}}24@0:8^v16"
+
+```
