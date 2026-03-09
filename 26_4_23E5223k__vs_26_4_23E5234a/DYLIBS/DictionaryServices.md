@@ -1,0 +1,122 @@
+## DictionaryServices
+
+> `/System/Library/PrivateFrameworks/DictionaryServices.framework/DictionaryServices`
+
+```diff
+
+ 373.0.0.0.0
+-  __TEXT.__text: 0x3a3a8
+-  __TEXT.__auth_stubs: 0x1820
++  __TEXT.__text: 0x3a118
++  __TEXT.__auth_stubs: 0x1810
+   __TEXT.__objc_methlist: 0x14
+   __TEXT.__gcc_except_tab: 0xf20
+-  __TEXT.__cstring: 0x9097
++  __TEXT.__cstring: 0x8229
+   __TEXT.__const: 0xce0
+   __TEXT.__ustring: 0xa
+   __TEXT.__oslogstring: 0x1b1
+-  __TEXT.__unwind_info: 0x11d8
++  __TEXT.__unwind_info: 0x11c8
+   __TEXT.__objc_classname: 0x1a
+   __TEXT.__objc_methname: 0x4c3
+   __TEXT.__objc_methtype: 0x10
+
+   __DATA_CONST.__objc_classlist: 0x8
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_selrefs: 0x1d0
+-  __AUTH_CONST.__auth_got: 0xc20
++  __AUTH_CONST.__auth_got: 0xc18
+   __AUTH_CONST.__const: 0x11d0
+   __AUTH_CONST.__cfstring: 0x3ca0
+   __AUTH_CONST.__objc_const: 0x90
+
+   - /usr/lib/libxml2.2.dylib
+   - /usr/lib/libxslt.1.dylib
+   - /usr/lib/libz.1.dylib
+-  UUID: 7C258DF1-8643-3612-89A2-28020C7A797E
+-  Functions: 1278
+-  Symbols:   3626
+-  CStrings:  1283
++  UUID: A734BFCB-8C71-3482-9229-8DB886AC9E25
++  Functions: 1276
++  Symbols:   3621
++  CStrings:  1273
+ 
+Symbols:
++ GCC_except_table139
++ GCC_except_table170
++ __ZNKSt9type_infoeqB9nqe210106ERKS_
++ __ZNSt3__110__function12__value_funcIFvvEED2B9nqe210106Ev
++ __ZNSt3__111__sift_downB9nqe210106INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPNS_4pairIjjEEEEvT1_OT0_NS_15iterator_traitsIS8_E15difference_typeES8_
++ __ZNSt3__112__rotate_gcdB9nqe210106INS_17_ClassicAlgPolicyEPN6marisa8grimoire4trie13WeightedRangeEEET0_S7_S7_S7_
++ __ZNSt3__115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEE15__init_buf_ptrsB9nqe210106Ev
++ __ZNSt3__115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEEC2B9nqe210106Ej
++ __ZNSt3__116__insertion_sortB9nqe210106INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPNS_4pairIjjEEEEvT1_S8_T0_
++ __ZNSt3__116__insertion_sortB9nqe210106INS_17_ClassicAlgPolicyERNS_7greaterIN6marisa8grimoire4trie13WeightedRangeEEEPS6_EEvT1_SA_T0_
++ __ZNSt3__117__floyd_sift_downB9nqe210106INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPNS_4pairIjjEEEET1_S8_OT0_NS_15iterator_traitsIS8_E15difference_typeE
++ __ZNSt3__118__stable_sort_implB9nqe210106INS_17_ClassicAlgPolicyEPN6marisa8grimoire4trie13WeightedRangeENS_7greaterIS5_EEEEvT0_S9_RT1_
++ __ZNSt3__118basic_stringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEC1B9nqe210106Ev
++ __ZNSt3__119__allocate_at_leastB9nqe210106INS_9allocatorIPN6marisa8grimoire4trie5RangeEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSA_m
++ __ZNSt3__119__merge_move_assignB9nqe210106INS_17_ClassicAlgPolicyERNS_7greaterIN6marisa8grimoire4trie13WeightedRangeEEEPS6_S9_S9_EEvT1_SA_T2_SB_T3_T0_
++ __ZNSt3__119__partial_sort_implB9nqe210106INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPNS_4pairIjjEES7_EET1_S8_S8_T2_OT0_
++ __ZNSt3__121__insertion_sort_moveB9nqe210106INS_17_ClassicAlgPolicyERNS_7greaterIN6marisa8grimoire4trie13WeightedRangeEEEPS6_EEvT1_SA_PNS_15iterator_traitsISA_E10value_typeET0_
++ __ZNSt3__122__merge_move_constructB9nqe210106INS_17_ClassicAlgPolicyERNS_7greaterIN6marisa8grimoire4trie13WeightedRangeEEEPS6_S9_EEvT1_SA_T2_SB_PNS_15iterator_traitsISA_E10value_typeET0_
++ __ZNSt3__124__buffered_inplace_mergeB9nqe210106INS_17_ClassicAlgPolicyERNS_7greaterIN6marisa8grimoire4trie13WeightedRangeEEEPS6_EEvT1_SA_SA_OT0_NS_15iterator_traitsISA_E15difference_typeESF_PNSE_10value_typeE
++ __ZNSt3__125__throw_bad_function_callB9nqe210106Ev
++ __ZNSt3__126__insertion_sort_unguardedB9nqe210106INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPNS_4pairIjjEEEEvT1_S8_T0_
++ __ZNSt3__127__insertion_sort_incompleteB9nqe210106INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPNS_4pairIjjEEEEbT1_S8_T0_
++ __ZNSt3__131__partition_with_equals_on_leftB9nqe210106INS_17_ClassicAlgPolicyEPNS_4pairIjjEERNS_6__lessIvvEEEET0_S8_S8_T1_
++ __ZNSt3__132__partition_with_equals_on_rightB9nqe210106INS_17_ClassicAlgPolicyEPNS_4pairIjjEERNS_6__lessIvvEEEENS2_IT0_bEES8_S8_T1_
++ __ZNSt3__15dequeIN6marisa8grimoire4trie5RangeENS_9allocatorIS4_EEED2B9nqe210106Ev
++ __ZNSt3__17__sort3B9nqe210106INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPNS_4pairIjjEELi0EEEbT1_S8_S8_T0_
++ __ZNSt3__17__sort5B9nqe210106INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPNS_4pairIjjEELi0EEEvT1_S8_S8_S8_S8_T0_
++ __ZNSt3__18__rotateB9nqe210106INS_17_ClassicAlgPolicyEPN6marisa8grimoire4trie13WeightedRangeES6_EENS_4pairIT0_S8_EES8_S8_T1_
++ __ZNSt3__19__sift_upB9nqe210106INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPNS_4pairIjjEEEEvT1_S8_OT0_NS_15iterator_traitsIS8_E15difference_typeE
++ __ZSt28__throw_bad_array_new_lengthB9nqe210106v
+- GCC_except_table141
+- GCC_except_table174
+- __ZNKSt9type_infoeqB9foe210106ERKS_
+- __ZNSt3__110__function12__value_funcIFvvEED2B9foe210106Ev
+- __ZNSt3__111__sift_downB9foe210106INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPNS_4pairIjjEEEEvT1_OT0_NS_15iterator_traitsIS8_E15difference_typeES8_
+- __ZNSt3__112__rotate_gcdB9foe210106INS_17_ClassicAlgPolicyEPN6marisa8grimoire4trie13WeightedRangeEEET0_S7_S7_S7_
+- __ZNSt3__115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEE15__init_buf_ptrsB9foe210106Ev
+- __ZNSt3__115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEEC2B9foe210106Ej
+- __ZNSt3__116__insertion_sortB9foe210106INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPNS_4pairIjjEEEEvT1_S8_T0_
+- __ZNSt3__116__insertion_sortB9foe210106INS_17_ClassicAlgPolicyERNS_7greaterIN6marisa8grimoire4trie13WeightedRangeEEEPS6_EEvT1_SA_T0_
+- __ZNSt3__117__floyd_sift_downB9foe210106INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPNS_4pairIjjEEEET1_S8_OT0_NS_15iterator_traitsIS8_E15difference_typeE
+- __ZNSt3__118__stable_sort_implB9foe210106INS_17_ClassicAlgPolicyEPN6marisa8grimoire4trie13WeightedRangeENS_7greaterIS5_EEEEvT0_S9_RT1_
+- __ZNSt3__118basic_stringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEC1B9foe210106Ev
+- __ZNSt3__119__allocate_at_leastB9foe210106INS_9allocatorIPN6marisa8grimoire4trie5RangeEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSA_m
+- __ZNSt3__119__merge_move_assignB9foe210106INS_17_ClassicAlgPolicyERNS_7greaterIN6marisa8grimoire4trie13WeightedRangeEEEPS6_S9_S9_EEvT1_SA_T2_SB_T3_T0_
+- __ZNSt3__119__partial_sort_implB9foe210106INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPNS_4pairIjjEES7_EET1_S8_S8_T2_OT0_
+- __ZNSt3__121__insertion_sort_moveB9foe210106INS_17_ClassicAlgPolicyERNS_7greaterIN6marisa8grimoire4trie13WeightedRangeEEEPS6_EEvT1_SA_PNS_15iterator_traitsISA_E10value_typeET0_
+- __ZNSt3__122__merge_move_constructB9foe210106INS_17_ClassicAlgPolicyERNS_7greaterIN6marisa8grimoire4trie13WeightedRangeEEEPS6_S9_EEvT1_SA_T2_SB_PNS_15iterator_traitsISA_E10value_typeET0_
+- __ZNSt3__124__buffered_inplace_mergeB9foe210106INS_17_ClassicAlgPolicyERNS_7greaterIN6marisa8grimoire4trie13WeightedRangeEEEPS6_EEvT1_SA_SA_OT0_NS_15iterator_traitsISA_E15difference_typeESF_PNSE_10value_typeE
+- __ZNSt3__125__throw_bad_function_callB9foe210106Ev
+- __ZNSt3__126__insertion_sort_unguardedB9foe210106INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPNS_4pairIjjEEEEvT1_S8_T0_
+- __ZNSt3__127__insertion_sort_incompleteB9foe210106INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPNS_4pairIjjEEEEbT1_S8_T0_
+- __ZNSt3__131__partition_with_equals_on_leftB9foe210106INS_17_ClassicAlgPolicyEPNS_4pairIjjEERNS_6__lessIvvEEEET0_S8_S8_T1_
+- __ZNSt3__132__internal_log_hardening_failureEPKc
+- __ZNSt3__132__partition_with_equals_on_rightB9foe210106INS_17_ClassicAlgPolicyEPNS_4pairIjjEERNS_6__lessIvvEEEENS2_IT0_bEES8_S8_T1_
+- __ZNSt3__15dequeIN6marisa8grimoire4trie5RangeENS_9allocatorIS4_EEE26__maybe_remove_front_spareB9foe210106Eb
+- __ZNSt3__15dequeIN6marisa8grimoire4trie5RangeENS_9allocatorIS4_EEE9pop_frontEv
+- __ZNSt3__15dequeIN6marisa8grimoire4trie5RangeENS_9allocatorIS4_EEED2B9foe210106Ev
+- __ZNSt3__17__sort3B9foe210106INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPNS_4pairIjjEELi0EEEbT1_S8_S8_T0_
+- __ZNSt3__17__sort5B9foe210106INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPNS_4pairIjjEELi0EEEvT1_S8_S8_S8_S8_T0_
+- __ZNSt3__18__rotateB9foe210106INS_17_ClassicAlgPolicyEPN6marisa8grimoire4trie13WeightedRangeES6_EENS_4pairIT0_S8_EES8_S8_T1_
+- __ZNSt3__19__sift_upB9foe210106INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPNS_4pairIjjEEEEvT1_S8_OT0_NS_15iterator_traitsIS8_E15difference_typeE
+- __ZSt28__throw_bad_array_new_lengthB9foe210106v
+CStrings:
+- "/AppleInternal/Library/BuildRoots/4~CJk5ugAoPDwSiXI3TvYCUrR2YekKamvz97p0MoU/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__algorithm/sort.h:293: libc++ Hardening assertion __k != __leftmost failed: Would read out of bounds, does your comparator satisfy the strict-weak ordering requirement?\n"
+- "/AppleInternal/Library/BuildRoots/4~CJk5ugAoPDwSiXI3TvYCUrR2YekKamvz97p0MoU/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__algorithm/sort.h:603: libc++ Hardening assertion __first != __end failed: Would read out of bounds, does your comparator satisfy the strict-weak ordering requirement?\n"
+- "/AppleInternal/Library/BuildRoots/4~CJk5ugAoPDwSiXI3TvYCUrR2YekKamvz97p0MoU/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__algorithm/sort.h:615: libc++ Hardening assertion __last != __begin failed: Would read out of bounds, does your comparator satisfy the strict-weak ordering requirement?\n"
+- "/AppleInternal/Library/BuildRoots/4~CJk5ugAoPDwSiXI3TvYCUrR2YekKamvz97p0MoU/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__algorithm/sort.h:633: libc++ Hardening assertion __first != __end failed: Would read out of bounds, does your comparator satisfy the strict-weak ordering requirement?\n"
+- "/AppleInternal/Library/BuildRoots/4~CJk5ugAoPDwSiXI3TvYCUrR2YekKamvz97p0MoU/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__algorithm/sort.h:638: libc++ Hardening assertion __last != __begin failed: Would read out of bounds, does your comparator satisfy the strict-weak ordering requirement?\n"
+- "/AppleInternal/Library/BuildRoots/4~CJk5ugAoPDwSiXI3TvYCUrR2YekKamvz97p0MoU/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__algorithm/sort.h:669: libc++ Hardening assertion __first != __end failed: Would read out of bounds, does your comparator satisfy the strict-weak ordering requirement?\n"
+- "/AppleInternal/Library/BuildRoots/4~CJk5ugAoPDwSiXI3TvYCUrR2YekKamvz97p0MoU/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__algorithm/sort.h:682: libc++ Hardening assertion __last != __begin failed: Would read out of bounds, does your comparator satisfy the strict-weak ordering requirement?\n"
+- "/AppleInternal/Library/BuildRoots/4~CJk5ugAoPDwSiXI3TvYCUrR2YekKamvz97p0MoU/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__algorithm/sort.h:692: libc++ Hardening assertion __first != __end failed: Would read out of bounds, does your comparator satisfy the strict-weak ordering requirement?\n"
+- "/AppleInternal/Library/BuildRoots/4~CJk5ugAoPDwSiXI3TvYCUrR2YekKamvz97p0MoU/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__algorithm/sort.h:697: libc++ Hardening assertion __last != __begin failed: Would read out of bounds, does your comparator satisfy the strict-weak ordering requirement?\n"
+- "/AppleInternal/Library/BuildRoots/4~CJk5ugAoPDwSiXI3TvYCUrR2YekKamvz97p0MoU/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/deque:2296: libc++ Hardening assertion !empty() failed: deque::pop_front called on an empty deque\n"
+
+```

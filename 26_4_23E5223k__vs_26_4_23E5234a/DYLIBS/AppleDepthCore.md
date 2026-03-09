@@ -1,0 +1,270 @@
+## AppleDepthCore
+
+> `/System/Library/PrivateFrameworks/AppleDepthCore.framework/AppleDepthCore`
+
+```diff
+
+ 158.0.0.0.0
+-  __TEXT.__text: 0x62440
+-  __TEXT.__auth_stubs: 0x1700
++  __TEXT.__text: 0x61d28
++  __TEXT.__auth_stubs: 0x16f0
+   __TEXT.__objc_methlist: 0x23e4
+-  __TEXT.__const: 0x21c0
++  __TEXT.__const: 0x21d0
+   __TEXT.__gcc_except_tab: 0x6118
+   __TEXT.__oslogstring: 0x23cf
+-  __TEXT.__cstring: 0x3e39
++  __TEXT.__cstring: 0x3705
+   __TEXT.__unwind_info: 0x1a20
+   __TEXT.__objc_classname: 0x4c1
+   __TEXT.__objc_methname: 0x5c59
+
+   __DATA_CONST.__objc_protorefs: 0x8
+   __DATA_CONST.__objc_superrefs: 0xf8
+   __DATA_CONST.__objc_arraydata: 0x160
+-  __AUTH_CONST.__auth_got: 0xb90
++  __AUTH_CONST.__auth_got: 0xb88
+   __AUTH_CONST.__const: 0x1d0
+   __AUTH_CONST.__cfstring: 0x29c0
+   __AUTH_CONST.__objc_const: 0x3e68
+
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libz.1.dylib
+-  UUID: CFAF0C0A-1085-3B7F-937B-0EE88BB68684
++  UUID: 4C44A86D-7389-328B-A932-CB97FBC7BB5E
+   Functions: 1053
+-  Symbols:   4025
+-  CStrings:  2290
++  Symbols:   4024
++  CStrings:  2284
+ 
+Symbols:
++ __PromotedConst.2196
++ __PromotedConst.2197
++ __PromotedConst.2198
++ __PromotedConst.2199
++ __PromotedConst.2200
++ __PromotedConst.2201
++ __ZL15INSTRUMENTS_ENDjyyyy.1196
++ __ZL15INSTRUMENTS_ENDjyyyy.1407
++ __ZL15INSTRUMENTS_ENDjyyyy.1496
++ __ZL15INSTRUMENTS_ENDjyyyy.1502
++ __ZL15INSTRUMENTS_ENDjyyyy.171
++ __ZL15INSTRUMENTS_ENDjyyyy.1748
++ __ZL15INSTRUMENTS_ENDjyyyy.1802
++ __ZL15INSTRUMENTS_ENDjyyyy.2003
++ __ZL15INSTRUMENTS_ENDjyyyy.2136
++ __ZL15INSTRUMENTS_ENDjyyyy.309
++ __ZL15INSTRUMENTS_ENDjyyyy.420
++ __ZL15INSTRUMENTS_ENDjyyyy.484
++ __ZL15INSTRUMENTS_ENDjyyyy.608
++ __ZL15INSTRUMENTS_ENDjyyyy.614
++ __ZL15INSTRUMENTS_ENDjyyyy.744
++ __ZL15INSTRUMENTS_ENDjyyyy.750
++ __ZL15INSTRUMENTS_ENDjyyyy.83
++ __ZL15INSTRUMENTS_ENDjyyyy.840
++ __ZL15INSTRUMENTS_ENDjyyyy.937
++ __ZL17INSTRUMENTS_EVENTjyyyy.1197
++ __ZL17INSTRUMENTS_EVENTjyyyy.1408
++ __ZL17INSTRUMENTS_EVENTjyyyy.1497
++ __ZL17INSTRUMENTS_EVENTjyyyy.1503
++ __ZL17INSTRUMENTS_EVENTjyyyy.172
++ __ZL17INSTRUMENTS_EVENTjyyyy.1749
++ __ZL17INSTRUMENTS_EVENTjyyyy.1803
++ __ZL17INSTRUMENTS_EVENTjyyyy.2004
++ __ZL17INSTRUMENTS_EVENTjyyyy.2137
++ __ZL17INSTRUMENTS_EVENTjyyyy.310
++ __ZL17INSTRUMENTS_EVENTjyyyy.421
++ __ZL17INSTRUMENTS_EVENTjyyyy.485
++ __ZL17INSTRUMENTS_EVENTjyyyy.609
++ __ZL17INSTRUMENTS_EVENTjyyyy.615
++ __ZL17INSTRUMENTS_EVENTjyyyy.745
++ __ZL17INSTRUMENTS_EVENTjyyyy.751
++ __ZL17INSTRUMENTS_EVENTjyyyy.84
++ __ZL17INSTRUMENTS_EVENTjyyyy.841
++ __ZL17INSTRUMENTS_EVENTjyyyy.938
++ __ZL17INSTRUMENTS_STARTjyyyy.1198
++ __ZL17INSTRUMENTS_STARTjyyyy.1409
++ __ZL17INSTRUMENTS_STARTjyyyy.1498
++ __ZL17INSTRUMENTS_STARTjyyyy.1504
++ __ZL17INSTRUMENTS_STARTjyyyy.173
++ __ZL17INSTRUMENTS_STARTjyyyy.1750
++ __ZL17INSTRUMENTS_STARTjyyyy.1804
++ __ZL17INSTRUMENTS_STARTjyyyy.2005
++ __ZL17INSTRUMENTS_STARTjyyyy.2138
++ __ZL17INSTRUMENTS_STARTjyyyy.311
++ __ZL17INSTRUMENTS_STARTjyyyy.422
++ __ZL17INSTRUMENTS_STARTjyyyy.486
++ __ZL17INSTRUMENTS_STARTjyyyy.610
++ __ZL17INSTRUMENTS_STARTjyyyy.616
++ __ZL17INSTRUMENTS_STARTjyyyy.746
++ __ZL17INSTRUMENTS_STARTjyyyy.752
++ __ZL17INSTRUMENTS_STARTjyyyy.842
++ __ZL17INSTRUMENTS_STARTjyyyy.85
++ __ZL17INSTRUMENTS_STARTjyyyy.939
++ __ZNKSt3__113__string_hashIcNS_9allocatorIcEEEclB9nqe210106ERKNS_12basic_stringIcNS_11char_traitsIcEES2_EE
++ __ZNKSt3__18equal_toINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEEclB9nqe210106ERKS6_S9_
++ __ZNSt12length_errorC1B9nqe210106EPKc
++ __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE20PixelBufferSharedPtrEEPvEENS_22__hash_node_destructorINS6_ISC_EEEEED1B9nqe210106Ev
++ __ZNSt3__112__destroy_atB9nqe210106INS_4pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE20PixelBufferSharedPtrEELi0EEEvPT_
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_length_errorB9nqe210106Ev
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC1B9nqe210106ILi0EEEPKc
++ __ZNSt3__119__allocate_at_leastB9nqe210106INS_9allocatorINS_12basic_stringIcNS_11char_traitsIcEENS1_IcEEEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSA_m
++ __ZNSt3__119__allocate_at_leastB9nqe210106INS_9allocatorIP7ElementEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
++ __ZNSt3__119__allocate_at_leastB9nqe210106INS_9allocatorIPP4NodeEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS8_m
++ __ZNSt3__119__allocate_at_leastB9nqe210106INS_9allocatorIfEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS5_m
++ __ZNSt3__120__throw_length_errorB9nqe210106EPKc
++ __ZNSt3__122__hash_node_destructorINS_9allocatorINS_11__hash_nodeINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS1_IcEEEE17espresso_buffer_tEEPvEEEEEclB9nqe210106EPSC_
++ __ZNSt3__122__tree_node_destructorINS_9allocatorINS_11__tree_nodeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS1_IcEEEEN6docopt5valueEEEPvEEEEEclB9nqe210106EPSD_
++ __ZNSt3__122__tree_node_destructorINS_9allocatorINS_11__tree_nodeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS1_IcEEEEPNS_8multisetIP7ElementNSA_14ElementCompareENS1_ISB_EEEEEEPvEEEEEclB9nqe210106EPSI_
++ __ZNSt3__127__tree_balance_after_insertB9nqe210106IPNS_16__tree_node_baseIPvEEEEvT_S5_
++ __ZNSt3__128__exception_guard_exceptionsINS_29_AllocatorDestroyRangeReverseINS_9allocatorINS_12basic_stringIcNS_11char_traitsIcEENS2_IcEEEEEEPS7_EEED2B9nqe210106Ev
++ __ZNSt3__13mapINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN6docopt5valueENS_4lessIS6_EENS4_INS_4pairIKS6_S8_EEEEEC2B9nqe210106ERKSF_
++ __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE11__vallocateB9nqe210106Em
++ __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE16__destroy_vectorclB9nqe210106Ev
++ __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE16__init_with_sizeB9nqe210106IPS6_SA_EEvT_T0_m
++ __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE20__throw_length_errorB9nqe210106Ev
++ __ZNSt3__16vectorIP7ElementNS_9allocatorIS2_EEE20__throw_length_errorB9nqe210106Ev
++ __ZNSt3__16vectorIPKN10appledepth16JasperPointCloudENS_9allocatorIS4_EEE20__throw_length_errorB9nqe210106Ev
++ __ZNSt3__16vectorIPKN10appledepth16JasperPointCloudENS_9allocatorIS4_EEEC2B9nqe210106Em
++ __ZNSt3__16vectorIfNS_9allocatorIfEEE20__throw_length_errorB9nqe210106Ev
++ __ZNSt3__16vectorIfNS_9allocatorIfEEE9push_backB9nqe210106EOf
++ __ZNSt3__16vectorIfNS_9allocatorIfEEE9push_backB9nqe210106ERKf
++ __ZNSt3__1plB9nqe210106IcNS_11char_traitsIcEENS_9allocatorIcEEEENS_12basic_stringIT_T0_T1_EERKS9_PKS6_
++ __ZSt28__throw_bad_array_new_lengthB9nqe210106v
++ ___block_literal_global.1533
++ ___block_literal_global.226
++ ___block_literal_global.263
++ ___block_literal_global.265
++ ___block_literal_global.267
++ ___block_literal_global.738
+- __PromotedConst.2206
+- __PromotedConst.2207
+- __PromotedConst.2208
+- __PromotedConst.2209
+- __PromotedConst.2210
+- __PromotedConst.2211
+- __ZL15INSTRUMENTS_ENDjyyyy.1210
+- __ZL15INSTRUMENTS_ENDjyyyy.1421
+- __ZL15INSTRUMENTS_ENDjyyyy.1508
+- __ZL15INSTRUMENTS_ENDjyyyy.1514
+- __ZL15INSTRUMENTS_ENDjyyyy.1760
+- __ZL15INSTRUMENTS_ENDjyyyy.180
+- __ZL15INSTRUMENTS_ENDjyyyy.1814
+- __ZL15INSTRUMENTS_ENDjyyyy.2013
+- __ZL15INSTRUMENTS_ENDjyyyy.2146
+- __ZL15INSTRUMENTS_ENDjyyyy.320
+- __ZL15INSTRUMENTS_ENDjyyyy.430
+- __ZL15INSTRUMENTS_ENDjyyyy.496
+- __ZL15INSTRUMENTS_ENDjyyyy.624
+- __ZL15INSTRUMENTS_ENDjyyyy.630
+- __ZL15INSTRUMENTS_ENDjyyyy.759
+- __ZL15INSTRUMENTS_ENDjyyyy.765
+- __ZL15INSTRUMENTS_ENDjyyyy.84
+- __ZL15INSTRUMENTS_ENDjyyyy.856
+- __ZL15INSTRUMENTS_ENDjyyyy.954
+- __ZL17INSTRUMENTS_EVENTjyyyy.1211
+- __ZL17INSTRUMENTS_EVENTjyyyy.1422
+- __ZL17INSTRUMENTS_EVENTjyyyy.1509
+- __ZL17INSTRUMENTS_EVENTjyyyy.1515
+- __ZL17INSTRUMENTS_EVENTjyyyy.1761
+- __ZL17INSTRUMENTS_EVENTjyyyy.181
+- __ZL17INSTRUMENTS_EVENTjyyyy.1815
+- __ZL17INSTRUMENTS_EVENTjyyyy.2014
+- __ZL17INSTRUMENTS_EVENTjyyyy.2147
+- __ZL17INSTRUMENTS_EVENTjyyyy.321
+- __ZL17INSTRUMENTS_EVENTjyyyy.431
+- __ZL17INSTRUMENTS_EVENTjyyyy.497
+- __ZL17INSTRUMENTS_EVENTjyyyy.625
+- __ZL17INSTRUMENTS_EVENTjyyyy.631
+- __ZL17INSTRUMENTS_EVENTjyyyy.760
+- __ZL17INSTRUMENTS_EVENTjyyyy.766
+- __ZL17INSTRUMENTS_EVENTjyyyy.85
+- __ZL17INSTRUMENTS_EVENTjyyyy.857
+- __ZL17INSTRUMENTS_EVENTjyyyy.955
+- __ZL17INSTRUMENTS_STARTjyyyy.1212
+- __ZL17INSTRUMENTS_STARTjyyyy.1423
+- __ZL17INSTRUMENTS_STARTjyyyy.1510
+- __ZL17INSTRUMENTS_STARTjyyyy.1516
+- __ZL17INSTRUMENTS_STARTjyyyy.1762
+- __ZL17INSTRUMENTS_STARTjyyyy.1816
+- __ZL17INSTRUMENTS_STARTjyyyy.182
+- __ZL17INSTRUMENTS_STARTjyyyy.2015
+- __ZL17INSTRUMENTS_STARTjyyyy.2148
+- __ZL17INSTRUMENTS_STARTjyyyy.322
+- __ZL17INSTRUMENTS_STARTjyyyy.432
+- __ZL17INSTRUMENTS_STARTjyyyy.498
+- __ZL17INSTRUMENTS_STARTjyyyy.626
+- __ZL17INSTRUMENTS_STARTjyyyy.632
+- __ZL17INSTRUMENTS_STARTjyyyy.761
+- __ZL17INSTRUMENTS_STARTjyyyy.767
+- __ZL17INSTRUMENTS_STARTjyyyy.858
+- __ZL17INSTRUMENTS_STARTjyyyy.86
+- __ZL17INSTRUMENTS_STARTjyyyy.956
+- __ZNKSt3__113__string_hashIcNS_9allocatorIcEEEclB9foe210106ERKNS_12basic_stringIcNS_11char_traitsIcEES2_EE
+- __ZNKSt3__18equal_toINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEEclB9foe210106ERKS6_S9_
+- __ZNSt12length_errorC1B9foe210106EPKc
+- __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE20PixelBufferSharedPtrEEPvEENS_22__hash_node_destructorINS6_ISC_EEEEED1B9foe210106Ev
+- __ZNSt3__112__destroy_atB9foe210106INS_4pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE20PixelBufferSharedPtrEELi0EEEvPT_
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_length_errorB9foe210106Ev
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC1B9foe210106ILi0EEEPKc
+- __ZNSt3__119__allocate_at_leastB9foe210106INS_9allocatorINS_12basic_stringIcNS_11char_traitsIcEENS1_IcEEEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSA_m
+- __ZNSt3__119__allocate_at_leastB9foe210106INS_9allocatorIP7ElementEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
+- __ZNSt3__119__allocate_at_leastB9foe210106INS_9allocatorIPP4NodeEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS8_m
+- __ZNSt3__119__allocate_at_leastB9foe210106INS_9allocatorIfEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS5_m
+- __ZNSt3__120__throw_length_errorB9foe210106EPKc
+- __ZNSt3__122__hash_node_destructorINS_9allocatorINS_11__hash_nodeINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS1_IcEEEE17espresso_buffer_tEEPvEEEEEclB9foe210106EPSC_
+- __ZNSt3__122__tree_node_destructorINS_9allocatorINS_11__tree_nodeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS1_IcEEEEN6docopt5valueEEEPvEEEEEclB9foe210106EPSD_
+- __ZNSt3__122__tree_node_destructorINS_9allocatorINS_11__tree_nodeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS1_IcEEEEPNS_8multisetIP7ElementNSA_14ElementCompareENS1_ISB_EEEEEEPvEEEEEclB9foe210106EPSI_
+- __ZNSt3__127__tree_balance_after_insertB9foe210106IPNS_16__tree_node_baseIPvEEEEvT_S5_
+- __ZNSt3__128__exception_guard_exceptionsINS_29_AllocatorDestroyRangeReverseINS_9allocatorINS_12basic_stringIcNS_11char_traitsIcEENS2_IcEEEEEEPS7_EEED2B9foe210106Ev
+- __ZNSt3__132__internal_log_hardening_failureEPKc
+- __ZNSt3__13mapINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN6docopt5valueENS_4lessIS6_EENS4_INS_4pairIKS6_S8_EEEEEC2B9foe210106ERKSF_
+- __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE11__vallocateB9foe210106Em
+- __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE16__destroy_vectorclB9foe210106Ev
+- __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE16__init_with_sizeB9foe210106IPS6_SA_EEvT_T0_m
+- __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE20__throw_length_errorB9foe210106Ev
+- __ZNSt3__16vectorIP7ElementNS_9allocatorIS2_EEE20__throw_length_errorB9foe210106Ev
+- __ZNSt3__16vectorIPKN10appledepth16JasperPointCloudENS_9allocatorIS4_EEE20__throw_length_errorB9foe210106Ev
+- __ZNSt3__16vectorIPKN10appledepth16JasperPointCloudENS_9allocatorIS4_EEEC2B9foe210106Em
+- __ZNSt3__16vectorIfNS_9allocatorIfEEE20__throw_length_errorB9foe210106Ev
+- __ZNSt3__16vectorIfNS_9allocatorIfEEE9push_backB9foe210106EOf
+- __ZNSt3__16vectorIfNS_9allocatorIfEEE9push_backB9foe210106ERKf
+- __ZNSt3__1plB9foe210106IcNS_11char_traitsIcEENS_9allocatorIcEEEENS_12basic_stringIT_T0_T1_EERKS9_PKS6_
+- __ZSt28__throw_bad_array_new_lengthB9foe210106v
+- ___block_literal_global.1545
+- ___block_literal_global.235
+- ___block_literal_global.269
+- ___block_literal_global.271
+- ___block_literal_global.273
+- ___block_literal_global.753
+Functions:
+~ -[ADInterSessionFilter samplesVarianceFromIndex:ToIndex:ByElement:WithMean:] : 316 -> 208
+~ -[ADInterSessionFilter V2FromIndex:ToIndex:] : 168 -> 72
+~ -[ADInterSessionFilter V1FromIndex:ToIndex:] : 176 -> 84
+~ -[ADInterSessionFilter L2FromIndex:ToIndex:ByElement:WithMean:] : 252 -> 92
+~ -[ADInterSessionFilter samplesMeanFromIndex:ToIndex:ByElement:] : 272 -> 108
+~ -[ADInterSessionFilter calculateInterSessionFilterResultFromIndex:] : 636 -> 488
+~ -[ADInterSessionFilter markInStep:] : 212 -> 92
+~ -[ADInterSessionFilter setOnlineWeights:] : 404 -> 192
+~ -[ADInterSessionFilter insertEntry:withWeight:] : 4636 -> 4540
+~ __ZN27ADJasperPerformanceOverride11initFromCsvERKNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEE : 1996 -> 1920
+~ __Z17compareRawBuffersIffE19BaselineTestStats_sPT_mPT0_mmmbbf : 688 -> 620
+~ __Z17compareRawBuffersIDhDhE19BaselineTestStats_sPT_mPT0_mmmbbf : 696 -> 628
+~ +[UtilsForTests compareVImageBuffer:pixelTypeResult:offset:toRefBuffer:pixelTypeRef:ignoreResultZeros:ignoreRefZeros:outlierPercentile:] : 2872 -> 2748
+~ __Z17compareRawBuffersIDhfE19BaselineTestStats_sPT_mPT0_mmmbbf : 692 -> 624
+~ __Z17compareRawBuffersIhhE19BaselineTestStats_sPT_mPT0_mmmbbf : 660 -> 592
+~ __Z17compareRawBuffersIttE19BaselineTestStats_sPT_mPT0_mmmbbf : 660 -> 592
+~ +[ADJasperPointCloud pointCloudByMergingPointClouds:applyingTransforms:projectingToCamera:] : 608 -> 572
+~ -[ADJasperPointCloud initByMergingPointClouds:] : 332 -> 288
+CStrings:
+- "/AppleInternal/Library/BuildRoots/4~CJlNugCsdcwYOUVO6-SkPTeuuSShg9DOx0X5-1Q/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__vector/vector.h:406: libc++ Hardening assertion __n < size() failed: vector[] index out of bounds\n"
+- "/AppleInternal/Library/BuildRoots/4~CJlNugCsdcwYOUVO6-SkPTeuuSShg9DOx0X5-1Q/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/deque:1522: libc++ Hardening assertion __i < size() failed: deque::operator[] index out of bounds\n"
+- "/AppleInternal/Library/BuildRoots/4~CJlNugCsdcwYOUVO6-SkPTeuuSShg9DOx0X5-1Q/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/deque:1553: libc++ Hardening assertion !empty() failed: deque::front called on an empty deque\n"
+- "/AppleInternal/Library/BuildRoots/4~CJlNugCsdcwYOUVO6-SkPTeuuSShg9DOx0X5-1Q/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/deque:1565: libc++ Hardening assertion !empty() failed: deque::back called on an empty deque\n"
+- "/AppleInternal/Library/BuildRoots/4~CJlNugCsdcwYOUVO6-SkPTeuuSShg9DOx0X5-1Q/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/deque:2296: libc++ Hardening assertion !empty() failed: deque::pop_front called on an empty deque\n"
+- "/AppleInternal/Library/BuildRoots/4~CJlNugCsdcwYOUVO6-SkPTeuuSShg9DOx0X5-1Q/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/string:3362: libc++ Hardening assertion __first <= __last failed: string::erase(first, last) called with invalid range\n"
+
+```

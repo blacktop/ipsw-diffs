@@ -1,0 +1,135 @@
+## NowPlayingUI
+
+> `/private/var/staged_system_apps/Podcasts.app/Frameworks/NowPlayingUI.framework/NowPlayingUI`
+
+```diff
+
+-4025.500.59.0.0
+-  __TEXT.__text: 0xc713c
+-  __TEXT.__auth_stubs: 0x4e10
+-  __TEXT.__objc_stubs: 0x10a0
++4025.510.4.0.0
++  __TEXT.__text: 0xc78dc
++  __TEXT.__auth_stubs: 0x4e90
++  __TEXT.__objc_stubs: 0x1020
+   __TEXT.__objc_methlist: 0x4e4
+-  __TEXT.__const: 0x94d8
+-  __TEXT.__cstring: 0x1042
++  __TEXT.__const: 0x94f8
++  __TEXT.__cstring: 0x1092
+   __TEXT.__objc_classname: 0x901
+-  __TEXT.__objc_methname: 0x2b2d
+-  __TEXT.__swift5_typeref: 0xed7f
+-  __TEXT.__constg_swiftt: 0x2e84
+-  __TEXT.__swift5_fieldmd: 0x20f0
++  __TEXT.__objc_methname: 0x2b1d
++  __TEXT.__swift5_typeref: 0xec87
++  __TEXT.__constg_swiftt: 0x2ed8
++  __TEXT.__swift5_fieldmd: 0x213c
+   __TEXT.__swift5_builtin: 0xa0
+-  __TEXT.__swift5_reflstr: 0x2bc7
++  __TEXT.__swift5_reflstr: 0x2c17
+   __TEXT.__swift5_assocty: 0x6d8
+   __TEXT.__swift5_capture: 0x12a4
+-  __TEXT.__swift5_proto: 0x1c8
+-  __TEXT.__swift5_types: 0x1e8
++  __TEXT.__swift5_proto: 0x1d0
++  __TEXT.__swift5_types: 0x1ec
+   __TEXT.__objc_methtype: 0x6c9
+   __TEXT.__swift5_protos: 0x10
+-  __TEXT.__oslogstring: 0x1f6f
++  __TEXT.__oslogstring: 0x201f
+   __TEXT.__swift_as_entry: 0x64
+   __TEXT.__swift_as_ret: 0x60
+   __TEXT.__swift5_mpenum: 0x10
+-  __TEXT.__unwind_info: 0x29d0
+-  __TEXT.__eh_frame: 0x1eb0
+-  __DATA_CONST.__auth_got: 0x2710
+-  __DATA_CONST.__got: 0x1248
+-  __DATA_CONST.__auth_ptr: 0x14f8
+-  __DATA_CONST.__const: 0x4350
++  __TEXT.__unwind_info: 0x29c0
++  __TEXT.__eh_frame: 0x1ee0
++  __DATA_CONST.__auth_got: 0x2750
++  __DATA_CONST.__got: 0x1250
++  __DATA_CONST.__auth_ptr: 0x1508
++  __DATA_CONST.__const: 0x43b8
+   __DATA_CONST.__cfstring: 0x20
+   __DATA_CONST.__objc_classlist: 0xf8
+   __DATA_CONST.__objc_catlist: 0x8
+   __DATA_CONST.__objc_protolist: 0x78
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_protorefs: 0x40
+-  __DATA.__objc_const: 0x6038
+-  __DATA.__objc_selrefs: 0x680
++  __DATA.__objc_const: 0x6058
++  __DATA.__objc_selrefs: 0x660
+   __DATA.__objc_data: 0xbc0
+-  __DATA.__data: 0x7608
++  __DATA.__data: 0x7738
+   __DATA.__objc_stublist: 0x8
+-  __DATA.__bss: 0x4058
+-  __DATA.__common: 0x160
++  __DATA.__bss: 0x4178
++  __DATA.__common: 0x178
+   - /System/Library/Frameworks/AVFAudio.framework/AVFAudio
+   - /System/Library/Frameworks/AVFoundation.framework/AVFoundation
+   - /System/Library/Frameworks/AppIntents.framework/AppIntents
+
+   - @rpath/PodcastsTranscripts.framework/PodcastsTranscripts
+   - @rpath/ShelfKit.framework/ShelfKit
+   - @rpath/ShelfKitCollectionViews.framework/ShelfKitCollectionViews
+-  UUID: BBAFD8EA-7A44-35CF-A42F-25B97415C75C
+-  Functions: 3814
+-  Symbols:   2293
+-  CStrings:  741
++  UUID: 2FF104EF-29BE-3859-8C55-343765F128B1
++  Functions: 3831
++  Symbols:   2292
++  CStrings:  742
+ 
+Symbols:
++ _associated conformance 12NowPlayingUI23PlaybackFootnoteMessageOSHAASQ
++ _symbolic So21MPModelPodcastEpisodeCSg_____SgSaySo0aB7ChapterCGIeggng_ So29MPCPlayerItemDurationSnapshota
++ _symbolic _____ 12NowPlayingUI23PlaybackFootnoteMessageO
++ _symbolic _____ 16PodcastsPlayback0B10ControllerC0B9RouteTypeO
++ _symbolic _____ySaySo21MPModelPodcastChapterCG_G 7Combine9PublishedV9PublisherV
++ _symbolic _____y______G 7Combine9PublishedV9PublisherV 16PodcastsPlayback0E10ControllerC0E9RouteTypeO
++ _symbolic _____y______ySo21MPModelPodcastEpisodeCSg_____G_____y_____Sg_GAHySaySo0aB7ChapterCG_GG 7Combine10PublishersO0A7Latest3V AA12AnyPublisherV s5NeverO AA9PublishedV0E0V So29MPCPlayerItemDurationSnapshota
++ _symbolic _____y______y______GG 7Combine10PublishersO16RemoveDuplicatesV AA9PublishedV9PublisherV 16PodcastsPlayback0H10ControllerC0H9RouteTypeO
++ _symbolic _____y______y______y______GGSo17OS_dispatch_queueCG 7Combine10PublishersO9ReceiveOnV AC16RemoveDuplicatesV AA9PublishedV9PublisherV 16PodcastsPlayback0J10ControllerC0J9RouteTypeO
++ block_copy_helper.90
++ block_descriptor.92
++ block_destroy_helper.91
++ get_witness_table 7SwiftUI15ModifiedContentVyAA4ViewPAAE11toggleStyleyQrqd__AA06ToggleG0Rd__lFQOyAeAE06buttonG0yQrqd__AA015PrimitiveButtonG0Rd__lFQOyACyACyAeAE15sensoryFeedback_7triggerQrAA07SensoryM0V_qd__tSQRd__lFQOyAeAE10fontWeightyQrAA4FontV0Q0VSgFQOyAA6VStackVyAA05TupleE0VyACyAUyAWyACyAeAE11hoverEffect_9isEnabledQrqd___SbtAA011CustomHoverV0Rd__lFQOyAA6HStackVyACyACyAA0K0VyAA5LabelVyAA4TextVAA5ImageVGGAA14_PaddingLayoutVGA12_GG_AA09AutomaticzV0VQo_A12_G_ACyAA7DividerVA12_GtGGA12_GSg_ACyACyAUyAeAE12onTapGesture5count7performQrSi_yyctFQOyACyAeAEAX_AYQrqd___SbtAaZRd__lFQOyACyAUyA0_yAWyACyACyACyAA0H0VyAUyAWyAA012_ConditionalD0VyACyA6_A12_GA9_G_ACyACyACyA6_AA30_EnvironmentKeyWritingModifierVyAA13TextAlignmentOGGA37_yAPSgGGA12_GSgtGGGA12_GA12_GAA32_EnvironmentKeyTransformModifierVySbGG_AA6SpacerVtGGGA12_G_A17_Qo_AA01_D13ShapeModifierVyAA9RectangleVGG_Qo_SgGA12_GA12_GA22_SgACyAUyAWyACyACy010NowPlayingB031NowPlayingAdvancedSpeedControlsVA12_GA12_G_ACyACyACyA6_AA010_BlendModeV0VGA12_GA12_GtGGA12_GtGG_Qo__SbQo_A12_GA12_G_AA05PlainkG0VQo__A75_09CheckmarkhG033_5AFE32E6D2572C83EA4473CA1F90141ALLVQo_A75_014LabelAXStylingE8ModifierA98_LLVGAaDHPqd0__AaDHD3_A100_HO_A102_AA0E8ModifierHPyHCHC.71
++ get_witness_table 7SwiftUI19_ConditionalContentVyAA4ViewPAAE10labelStyleyQrqd__AA05LabelG0Rd__lFQOyAA01_e9Modifier_D0Vy010NowPlayingB00h9AXStylingeI033_5AFE32E6D2572C83EA4473CA1F90141ALLVG_AA09TitleOnlyhG0VQo_AeAEAFyQrqd__AaGRd__lFQOyAN_AA0t7AndIconhG0VQo_GAaDHPqd0__AaDHD3_AQHO_qd0__AaDHD3_ATHOHC.77
++ get_witness_table 7SwiftUI6ButtonVyAA6HStackVyAA9TupleViewVyAA15ModifiedContentVyAIyAIyAA5ImageVAA30_EnvironmentKeyWritingModifierVyAA4FontVSgGGAA12_FrameLayoutVGAA14_OpacityEffectVG_AA24ToggleStyleConfigurationV5LabelVtGGGAA0F0HPyHC.76
+- _AVAudioSessionPortCarAudio
+- _OBJC_CLASS_$_AVAudioSession
+- _OBJC_CLASS_$_AVAudioSessionPortDescription
+- _objc_msgSend$currentRoute
+- _objc_msgSend$outputs
+- _objc_msgSend$portName
+- _objc_msgSend$portType
+- _symbolic So21MPModelPodcastEpisodeCSg_____SgIeggn_ So29MPCPlayerItemDurationSnapshota
+- _symbolic _____yAAy_____y_____yAAyAAy_____y_____y_____y_____yAAyAByACyAAy_____y_____yAAyAAy_____y_____y__________GG_____GAKGG______Qo_AKG_AAy_____AKGtGGAKGSg_AAyAAyABy_____yAAy_____yAAyAByADyACyAAyAAyAAy_____yAByACy_____yAAyAgKGAIG_AAyAAyAAyAG_____y_____GGA0_y_____SgGGAKGSgtGGGAKGAKG_____ySbGG______tGGGAKG_AOQo______y_____GG_Qo_SgGAKGAKGASSgAAyAByACyAAyAAy_____AKGAKG_AAyAAyAAyAG_____GAKGAKGtGGAKGtGG_Qo__SbQo_AKGAKG______Qo_______Qo______G_____G 7SwiftUI15ModifiedContentV AA4ViewPAAE11toggleStyleyQrqd__AA06ToggleG0Rd__lFQO AeAE06buttonG0yQrqd__AA015PrimitiveButtonG0Rd__lFQO AeAE15sensoryFeedback_7triggerQrAA07SensoryM0V_qd__tSQRd__lFQO AeAE10fontWeightyQrAA4FontV0Q0VSgFQO AA6VStackV AA05TupleE0V AeAE11hoverEffect_9isEnabledQrqd___SbtAA011CustomHoverV0Rd__lFQO AA6HStackV AA0K0V AA5LabelV AA4TextV AA5ImageV AA14_PaddingLayoutV AA09AutomaticzV0V AA7DividerV AeAE12onTapGesture5count7performQrSi_yyctFQO AeAEAX_AYQrqd___SbtAaZRd__lFQO AA0H0V AA012_ConditionalD0V AA30_EnvironmentKeyWritingModifierV AA13TextAlignmentO AP AA32_EnvironmentKeyTransformModifierV AA6SpacerV AA01_D13ShapeModifierV AA9RectangleV 010NowPlayingB031NowPlayingAdvancedSpeedControlsV AA010_BlendModeV0V AA05PlainkG0V A34_09CheckmarkhG033_5AFE32E6D2572C83EA4473CA1F90141ALLV A34_014LabelAXStylingE8ModifierA42_LLV AA25_AppearanceActionModifierV
+- _symbolic _____y______ySo21MPModelPodcastEpisodeCSg_____G_____y_____Sg_GG 7Combine10PublishersO0A6LatestV AA12AnyPublisherV s5NeverO AA9PublishedV0E0V So29MPCPlayerItemDurationSnapshota
+- block_copy_helper.89
+- block_descriptor.91
+- block_destroy_helper.90
+- get_witness_table 7SwiftUI15ModifiedContentVyACyAA4ViewPAAE11toggleStyleyQrqd__AA06ToggleG0Rd__lFQOyAeAE06buttonG0yQrqd__AA015PrimitiveButtonG0Rd__lFQOyACyACyAeAE15sensoryFeedback_7triggerQrAA07SensoryM0V_qd__tSQRd__lFQOyAeAE10fontWeightyQrAA4FontV0Q0VSgFQOyAA6VStackVyAA05TupleE0VyACyAUyAWyACyAeAE11hoverEffect_9isEnabledQrqd___SbtAA011CustomHoverV0Rd__lFQOyAA6HStackVyACyACyAA0K0VyAA5LabelVyAA4TextVAA5ImageVGGAA14_PaddingLayoutVGA12_GG_AA09AutomaticzV0VQo_A12_G_ACyAA7DividerVA12_GtGGA12_GSg_ACyACyAUyAeAE12onTapGesture5count7performQrSi_yyctFQOyACyAeAEAX_AYQrqd___SbtAaZRd__lFQOyACyAUyA0_yAWyACyACyACyAA0H0VyAUyAWyAA012_ConditionalD0VyACyA6_A12_GA9_G_ACyACyACyA6_AA30_EnvironmentKeyWritingModifierVyAA13TextAlignmentOGGA37_yAPSgGGA12_GSgtGGGA12_GA12_GAA32_EnvironmentKeyTransformModifierVySbGG_AA6SpacerVtGGGA12_G_A17_Qo_AA01_D13ShapeModifierVyAA9RectangleVGG_Qo_SgGA12_GA12_GA22_SgACyAUyAWyACyACy010NowPlayingB031NowPlayingAdvancedSpeedControlsVA12_GA12_G_ACyACyACyA6_AA010_BlendModeV0VGA12_GA12_GtGGA12_GtGG_Qo__SbQo_A12_GA12_G_AA05PlainkG0VQo__A75_09CheckmarkhG033_5AFE32E6D2572C83EA4473CA1F90141ALLVQo_A75_014LabelAXStylingE8ModifierA98_LLVGAA25_AppearanceActionModifierVGAaDHPA103_AaDHPqd0__AaDHD3_A100_HO_A102_AA0E8ModifierHPyHCHC_A105_AAA107_HPyHCHC.70
+- get_witness_table 7SwiftUI19_ConditionalContentVyAA4ViewPAAE10labelStyleyQrqd__AA05LabelG0Rd__lFQOyAA01_e9Modifier_D0Vy010NowPlayingB00h9AXStylingeI033_5AFE32E6D2572C83EA4473CA1F90141ALLVG_AA09TitleOnlyhG0VQo_AeAEAFyQrqd__AaGRd__lFQOyAN_AA0t7AndIconhG0VQo_GAaDHPqd0__AaDHD3_AQHO_qd0__AaDHD3_ATHOHC.76
+- get_witness_table 7SwiftUI6ButtonVyAA6HStackVyAA9TupleViewVyAA15ModifiedContentVyAIyAIyAA5ImageVAA30_EnvironmentKeyWritingModifierVyAA4FontVSgGGAA12_FrameLayoutVGAA14_OpacityEffectVG_AA24ToggleStyleConfigurationV5LabelVtGGGAA0F0HPyHC.75
+- objectdestroy.37Tm
+CStrings:
++ "Controller updating viewModel.routeType to: %s"
++ "Video episodes can play up to 2×"
++ "Video plays at 1× with AirPlay"
++ "_routeType"
++ "footnoteMessage - routeType: %s, currentItemHasVideo: %{bool}d, hasVideoSpeedRestrictions: %{bool}d, playbackRate: %f"
+- "currentRoute"
+- "outputs"
+- "portName"
+- "portType"
+
+```

@@ -1,0 +1,519 @@
+## Security
+
+> `/System/Library/Frameworks/Security.framework/Security`
+
+```diff
+
+-61901.100.286.0.0
+-  __TEXT.__text: 0x18020c
+-  __TEXT.__auth_stubs: 0x3fb0
++61901.102.2.0.0
++  __TEXT.__text: 0x17ffd0
++  __TEXT.__auth_stubs: 0x3f90
+   __TEXT.__delay_helper: 0x340
+   __TEXT.__objc_methlist: 0x6404
+   __TEXT.__const: 0xe490
+   __TEXT.__dlopen_cstrs: 0xbc
+-  __TEXT.__cstring: 0x18ae1
+-  __TEXT.__gcc_except_tab: 0x8b94
++  __TEXT.__cstring: 0x184c5
++  __TEXT.__gcc_except_tab: 0x8b8c
+   __TEXT.__oslogstring: 0xf90c
+   __TEXT.__ustring: 0x406
+   __TEXT.__dof_codesign: 0x1f2c
+
+   __DATA_CONST.__objc_protorefs: 0x58
+   __DATA_CONST.__objc_superrefs: 0x2d8
+   __DATA_CONST.__objc_arraydata: 0x100
+-  __AUTH_CONST.__auth_got: 0x1ff0
++  __AUTH_CONST.__auth_got: 0x1fe0
+   __AUTH_CONST.__const: 0x43b8
+   __AUTH_CONST.__cfstring: 0x16540
+   __AUTH_CONST.__objc_const: 0xa088
+
+   - /usr/lib/libcoretls_cfhelpers.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libsqlite3.dylib
+-  UUID: 0D24D19B-8623-3FBA-82E9-09BF7409D5BA
+-  Functions: 7035
+-  Symbols:   20852
+-  CStrings:  11267
++  UUID: F3048DFC-6911-3BD4-9521-C20B78CE2082
++  Functions: 7034
++  Symbols:   20848
++  CStrings:  11262
+ 
+Symbols:
++ GCC_except_table6288
++ GCC_except_table6290
++ GCC_except_table6294
++ GCC_except_table6301
++ GCC_except_table6307
++ GCC_except_table6312
++ GCC_except_table6314
++ GCC_except_table6320
++ GCC_except_table6323
++ GCC_except_table6326
++ GCC_except_table6329
++ GCC_except_table6336
++ GCC_except_table6339
++ GCC_except_table6342
++ GCC_except_table6347
++ GCC_except_table6354
++ GCC_except_table6358
++ GCC_except_table6369
++ GCC_except_table6372
++ GCC_except_table6378
++ GCC_except_table6388
++ GCC_except_table6396
++ GCC_except_table6403
++ GCC_except_table6408
++ GCC_except_table6416
++ GCC_except_table6419
++ GCC_except_table6424
++ GCC_except_table6427
++ GCC_except_table6432
++ GCC_except_table6434
++ GCC_except_table6436
++ GCC_except_table6444
++ GCC_except_table6464
++ GCC_except_table6469
++ GCC_except_table6473
++ GCC_except_table6475
++ GCC_except_table6480
++ GCC_except_table6498
++ GCC_except_table6501
++ GCC_except_table6508
++ GCC_except_table6529
++ GCC_except_table6543
++ GCC_except_table6546
++ GCC_except_table6554
++ GCC_except_table6559
++ GCC_except_table6569
++ GCC_except_table6582
++ GCC_except_table6584
++ GCC_except_table6587
++ GCC_except_table6589
++ GCC_except_table6593
++ GCC_except_table6596
++ GCC_except_table6599
++ GCC_except_table6602
++ GCC_except_table6607
++ GCC_except_table6610
++ GCC_except_table6616
++ GCC_except_table6622
++ GCC_except_table6626
++ GCC_except_table6635
++ GCC_except_table6642
++ GCC_except_table6651
++ GCC_except_table6653
++ GCC_except_table6661
++ GCC_except_table6666
++ GCC_except_table6668
++ GCC_except_table6672
++ GCC_except_table6674
++ GCC_except_table6676
++ GCC_except_table6682
++ GCC_except_table6685
++ GCC_except_table6688
++ GCC_except_table6692
++ GCC_except_table6696
++ GCC_except_table6703
++ GCC_except_table6706
++ GCC_except_table6709
++ GCC_except_table6713
++ GCC_except_table6719
++ GCC_except_table6722
++ GCC_except_table6724
++ GCC_except_table6727
++ GCC_except_table6731
++ GCC_except_table6733
++ GCC_except_table6741
++ GCC_except_table6745
++ GCC_except_table6750
++ GCC_except_table6752
++ GCC_except_table6755
++ GCC_except_table6759
++ GCC_except_table6761
++ GCC_except_table6766
++ GCC_except_table6768
++ GCC_except_table6773
++ GCC_except_table6778
++ GCC_except_table6780
++ GCC_except_table6784
++ GCC_except_table6786
++ GCC_except_table6792
++ GCC_except_table6796
++ GCC_except_table6810
++ GCC_except_table6815
++ GCC_except_table6821
++ GCC_except_table6829
++ GCC_except_table6835
++ GCC_except_table6837
++ GCC_except_table6841
++ GCC_except_table6844
++ GCC_except_table6847
++ GCC_except_table6849
++ GCC_except_table6852
++ GCC_except_table6856
++ GCC_except_table6860
++ GCC_except_table6865
++ GCC_except_table6871
++ GCC_except_table6880
++ GCC_except_table6885
++ GCC_except_table6891
++ GCC_except_table6896
++ GCC_except_table6901
++ GCC_except_table6909
++ GCC_except_table6911
++ GCC_except_table6913
++ GCC_except_table6922
++ GCC_except_table6925
++ GCC_except_table6928
++ GCC_except_table6944
++ GCC_except_table6950
++ __ZNKRSt3__119basic_ostringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEE3strB9nqe210106Ev
++ __ZNKSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE4findB9nqe210106EPKcm
++ __ZNSt12length_errorC1B9nqe210106EPKc
++ __ZNSt12out_of_rangeC1B9nqe210106EPKc
++ __ZNSt3__110unique_ptrIN8Security9UniversalENS_14default_deleteIS2_EEED1B9nqe210106Ev
++ __ZNSt3__110unique_ptrINS_11__tree_nodeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN8Security5CFRefIPK8__CFDataEEEEPvEENS_22__tree_node_destructorINS6_ISH_EEEEED1B9nqe210106Ev
++ __ZNSt3__110unique_ptrINS_11__tree_nodeINS_12__value_typeIiN8Security9CFCopyRefIPK8__CFDataEEEEPvEENS_22__tree_node_destructorINS_9allocatorISB_EEEEED1B9nqe210106Ev
++ __ZNSt3__110unique_ptrINS_11__tree_nodeINS_12__value_typeIjN8Security10RefPointerINS3_11CodeSigning13CodeDirectory7BuilderEEEEEPvEENS_22__tree_node_destructorINS_9allocatorISB_EEEEED1B9nqe210106Ev
++ __ZNSt3__110unique_ptrINS_11__tree_nodeINS_12__value_typeIjN8Security10RefPointerINS3_11DynamicHashEEEEEPvEENS_22__tree_node_destructorINS_9allocatorIS9_EEEEED1B9nqe210106Ev
++ __ZNSt3__110unique_ptrINS_11__tree_nodeINS_12__value_typeIjN8Security9CFCopyRefIPK8__CFDataEEEEPvEENS_22__tree_node_destructorINS_9allocatorISB_EEEEED1B9nqe210106Ev
++ __ZNSt3__110unique_ptrINS_3mapIiN8Security9CFCopyRefIPK8__CFDataEENS_4lessIiEENS_9allocatorINS_4pairIKiS7_EEEEEENS_14default_deleteISF_EEE5resetB9nqe210106EPSF_
++ __ZNSt3__112__destroy_atB9nqe210106INS_4pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN8Security5CFRefIPK8__CFDataEEEELi0EEEvPT_
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_length_errorB9nqe210106Ev
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_out_of_rangeB9nqe210106Ev
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC1B9nqe210106ILi0EEEPKc
++ __ZNSt3__119__allocate_at_leastB9nqe210106INS_9allocatorIN8Security5CFRefIPK8__CFDataEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSB_m
++ __ZNSt3__119__allocate_at_leastB9nqe210106INS_9allocatorIPN8Security11CodeSigning15ResourceBuilder4RuleEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSA_m
++ __ZNSt3__119__allocate_at_leastB9nqe210106INS_9allocatorIjEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS5_m
++ __ZNSt3__119basic_ostringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEC1B9nqe210106Ev
++ __ZNSt3__120__throw_length_errorB9nqe210106EPKc
++ __ZNSt3__120__throw_out_of_rangeB9nqe210106EPKc
++ __ZNSt3__120back_insert_iteratorINS_6vectorIiNS_9allocatorIiEEEEEaSB9nqe210106ERKi
++ __ZNSt3__121__concatenate_stringsB9nqe210106IcNS_11char_traitsIcEENS_9allocatorIcEEEENS_12basic_stringIT_T0_T1_EERKS8_NS_15__type_identityINS_17basic_string_viewIS6_S7_EEE4typeESG_
++ __ZNSt3__122__tree_node_destructorINS_9allocatorINS_11__tree_nodeINS_12basic_stringIcNS_11char_traitsIcEENS1_IcEEEEPvEEEEEclB9nqe210106EPS9_
++ __ZNSt3__124__put_character_sequenceB9nqe210106IcNS_11char_traitsIcEEEERNS_13basic_ostreamIT_T0_EES7_PKS4_m
++ __ZNSt3__127__tree_balance_after_insertB9nqe210106IPNS_16__tree_node_baseIPvEEEEvT_S5_
++ __ZNSt3__13mapIjN8Security10RefPointerINS1_11DynamicHashEEENS_4lessIjEENS_9allocatorINS_4pairIKjS4_EEEEEC2B9nqe210106ERKSC_
++ __ZNSt3__13setIjNS_4lessIjEENS_9allocatorIjEEEC2B9nqe210106ERKS5_
++ __ZNSt3__16__treeINS_12__value_typeIjN8Security9CFCopyRefIPK8__CFDataEEEENS_19__map_value_compareIjNS_4pairIKjS7_EENS_4lessIjEELb1EEENS_9allocatorISC_EEE18_DetachedTreeCacheD2B9nqe210106Ev
++ __ZNSt3__16vectorI19CESerializedElementNS_9allocatorIS1_EEE20__throw_length_errorB9nqe210106Ev
++ __ZNSt3__16vectorIN8Security5CFRefIPK8__CFDataEENS_9allocatorIS6_EEE16__destroy_vectorclB9nqe210106Ev
++ __ZNSt3__16vectorIN8Security5CFRefIPK8__CFDataEENS_9allocatorIS6_EEE20__throw_length_errorB9nqe210106Ev
++ __ZNSt3__16vectorIPN8Security11CodeSigning12DirValidator4RuleENS_9allocatorIS5_EEE20__throw_length_errorB9nqe210106Ev
++ __ZNSt3__16vectorIPN8Security11CodeSigning15ResourceBuilder4RuleENS_9allocatorIS5_EEE20__throw_length_errorB9nqe210106Ev
++ __ZNSt3__16vectorIcNS_9allocatorIcEEE20__throw_length_errorB9nqe210106Ev
++ __ZNSt3__16vectorIhNS_9allocatorIhEEE20__throw_length_errorB9nqe210106Ev
++ __ZNSt3__16vectorIhNS_9allocatorIhEEEC2B9nqe210106Em
++ __ZNSt3__16vectorIiNS_9allocatorIiEEE20__throw_length_errorB9nqe210106Ev
++ __ZNSt3__16vectorIjNS_9allocatorIjEEE20__throw_length_errorB9nqe210106Ev
++ __ZNSt3__16vectorIjNS_9allocatorIjEEE9push_backB9nqe210106EOj
++ __ZNSt3__16vectorImNS_9allocatorImEEE20__throw_length_errorB9nqe210106Ev
++ __ZNSt3__1plB9nqe210106IcNS_11char_traitsIcEENS_9allocatorIcEEEENS_12basic_stringIT_T0_T1_EERKS9_PKS6_
++ __ZNSt3__1ssB9nqe210106IcNS_11char_traitsIcEENS_9allocatorIcEEEEDaRKNS_12basic_stringIT_T0_T1_EESC_
++ __ZSt28__throw_bad_array_new_lengthB9nqe210106v
++ ___Block_byref_object_copy_.18164
++ ___Block_byref_object_copy_.18527
++ ___Block_byref_object_copy_.18640
++ ___Block_byref_object_copy_.18895
++ ___Block_byref_object_dispose_.18165
++ ___Block_byref_object_dispose_.18528
++ ___Block_byref_object_dispose_.18641
++ ___Block_byref_object_dispose_.18896
++ ____ZN8Security11CodeSigning12hashFileDataINS_11DynamicHashEEEmNS_12UnixPlusPlus8FileDescEPT_m_block_invoke.18830
++ ___block_descriptor_tmp.1.17100
++ ___block_descriptor_tmp.11.18629
++ ___block_descriptor_tmp.12.18630
++ ___block_descriptor_tmp.17103
++ ___block_descriptor_tmp.17211
++ ___block_descriptor_tmp.17231
++ ___block_descriptor_tmp.17511
++ ___block_descriptor_tmp.17561
++ ___block_descriptor_tmp.17573
++ ___block_descriptor_tmp.18.18166
++ ___block_descriptor_tmp.18101
++ ___block_descriptor_tmp.18188
++ ___block_descriptor_tmp.18532
++ ___block_descriptor_tmp.18628
++ ___block_descriptor_tmp.18838
++ ___block_descriptor_tmp.18897
++ ___block_descriptor_tmp.18999
++ ___block_descriptor_tmp.24.18218
++ ___block_descriptor_tmp.29.18659
++ ___block_descriptor_tmp.31.18637
++ ___block_descriptor_tmp.32.18290
++ ___block_descriptor_tmp.34.18227
++ ___block_descriptor_tmp.36.18232
++ ___block_descriptor_tmp.37.18228
++ ___block_descriptor_tmp.39.17557
++ ___block_descriptor_tmp.4.18096
++ ___block_descriptor_tmp.4.18190
++ ___block_descriptor_tmp.40.18831
++ ___block_descriptor_tmp.42.18642
++ ___block_descriptor_tmp.47.18294
++ ___block_descriptor_tmp.47.18609
++ ___block_descriptor_tmp.51.18610
++ ___block_descriptor_tmp.52.18253
++ ___block_descriptor_tmp.55.18611
++ ___block_descriptor_tmp.56.18250
++ ___block_descriptor_tmp.63.18243
++ ___block_descriptor_tmp.69.17517
++ ___block_descriptor_tmp.7.17107
++ ___block_descriptor_tmp.72.17515
++ ___block_descriptor_tmp.72.18316
++ ___block_descriptor_tmp.73.18317
++ ___block_descriptor_tmp.78.18266
++ ___block_descriptor_tmp.8.18525
++ ___block_descriptor_tmp.85.18685
++ ___block_descriptor_tmp.86.18686
++ ___block_descriptor_tmp.87.18348
++ ___block_descriptor_tmp.88.18267
++ ___block_literal_global.17098
++ ___block_literal_global.17201
++ ___block_literal_global.18247
+- GCC_except_table6289
+- GCC_except_table6291
+- GCC_except_table6295
+- GCC_except_table6306
+- GCC_except_table6311
+- GCC_except_table6313
+- GCC_except_table6319
+- GCC_except_table6321
+- GCC_except_table6325
+- GCC_except_table6327
+- GCC_except_table6331
+- GCC_except_table6338
+- GCC_except_table6341
+- GCC_except_table6343
+- GCC_except_table6348
+- GCC_except_table6356
+- GCC_except_table6359
+- GCC_except_table6370
+- GCC_except_table6374
+- GCC_except_table6381
+- GCC_except_table6390
+- GCC_except_table6397
+- GCC_except_table6407
+- GCC_except_table6410
+- GCC_except_table6417
+- GCC_except_table6422
+- GCC_except_table6425
+- GCC_except_table6430
+- GCC_except_table6433
+- GCC_except_table6435
+- GCC_except_table6438
+- GCC_except_table6445
+- GCC_except_table6468
+- GCC_except_table6472
+- GCC_except_table6474
+- GCC_except_table6479
+- GCC_except_table6497
+- GCC_except_table6500
+- GCC_except_table6503
+- GCC_except_table6510
+- GCC_except_table6530
+- GCC_except_table6545
+- GCC_except_table6553
+- GCC_except_table6558
+- GCC_except_table6567
+- GCC_except_table6570
+- GCC_except_table6583
+- GCC_except_table6585
+- GCC_except_table6588
+- GCC_except_table6590
+- GCC_except_table6594
+- GCC_except_table6597
+- GCC_except_table6601
+- GCC_except_table6603
+- GCC_except_table6608
+- GCC_except_table6612
+- GCC_except_table6619
+- GCC_except_table6624
+- GCC_except_table6628
+- GCC_except_table6636
+- GCC_except_table6645
+- GCC_except_table6652
+- GCC_except_table6655
+- GCC_except_table6662
+- GCC_except_table6667
+- GCC_except_table6671
+- GCC_except_table6673
+- GCC_except_table6675
+- GCC_except_table6677
+- GCC_except_table6683
+- GCC_except_table6686
+- GCC_except_table6690
+- GCC_except_table6695
+- GCC_except_table6697
+- GCC_except_table6704
+- GCC_except_table6707
+- GCC_except_table6710
+- GCC_except_table6718
+- GCC_except_table6720
+- GCC_except_table6723
+- GCC_except_table6726
+- GCC_except_table6729
+- GCC_except_table6732
+- GCC_except_table6738
+- GCC_except_table6743
+- GCC_except_table6746
+- GCC_except_table6751
+- GCC_except_table6754
+- GCC_except_table6757
+- GCC_except_table6760
+- GCC_except_table6762
+- GCC_except_table6767
+- GCC_except_table6770
+- GCC_except_table6774
+- GCC_except_table6779
+- GCC_except_table6781
+- GCC_except_table6785
+- GCC_except_table6790
+- GCC_except_table6793
+- GCC_except_table6797
+- GCC_except_table6813
+- GCC_except_table6818
+- GCC_except_table6822
+- GCC_except_table6830
+- GCC_except_table6836
+- GCC_except_table6838
+- GCC_except_table6842
+- GCC_except_table6846
+- GCC_except_table6848
+- GCC_except_table6850
+- GCC_except_table6853
+- GCC_except_table6859
+- GCC_except_table6864
+- GCC_except_table6870
+- GCC_except_table6878
+- GCC_except_table6882
+- GCC_except_table6886
+- GCC_except_table6892
+- GCC_except_table6897
+- GCC_except_table6907
+- GCC_except_table6910
+- GCC_except_table6912
+- GCC_except_table6919
+- GCC_except_table6923
+- GCC_except_table6926
+- GCC_except_table6930
+- GCC_except_table6946
+- GCC_except_table6951
+- __ZNKRSt3__119basic_ostringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEE3strB9foe210106Ev
+- __ZNKSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE4findB9foe210106EPKcm
+- __ZNKSt3__115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEE4viewB9foe210106Ev
+- __ZNSt12length_errorC1B9foe210106EPKc
+- __ZNSt12out_of_rangeC1B9foe210106EPKc
+- __ZNSt3__110unique_ptrIN8Security9UniversalENS_14default_deleteIS2_EEED1B9foe210106Ev
+- __ZNSt3__110unique_ptrINS_11__tree_nodeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN8Security5CFRefIPK8__CFDataEEEEPvEENS_22__tree_node_destructorINS6_ISH_EEEEED1B9foe210106Ev
+- __ZNSt3__110unique_ptrINS_11__tree_nodeINS_12__value_typeIiN8Security9CFCopyRefIPK8__CFDataEEEEPvEENS_22__tree_node_destructorINS_9allocatorISB_EEEEED1B9foe210106Ev
+- __ZNSt3__110unique_ptrINS_11__tree_nodeINS_12__value_typeIjN8Security10RefPointerINS3_11CodeSigning13CodeDirectory7BuilderEEEEEPvEENS_22__tree_node_destructorINS_9allocatorISB_EEEEED1B9foe210106Ev
+- __ZNSt3__110unique_ptrINS_11__tree_nodeINS_12__value_typeIjN8Security10RefPointerINS3_11DynamicHashEEEEEPvEENS_22__tree_node_destructorINS_9allocatorIS9_EEEEED1B9foe210106Ev
+- __ZNSt3__110unique_ptrINS_11__tree_nodeINS_12__value_typeIjN8Security9CFCopyRefIPK8__CFDataEEEEPvEENS_22__tree_node_destructorINS_9allocatorISB_EEEEED1B9foe210106Ev
+- __ZNSt3__110unique_ptrINS_3mapIiN8Security9CFCopyRefIPK8__CFDataEENS_4lessIiEENS_9allocatorINS_4pairIKiS7_EEEEEENS_14default_deleteISF_EEE5resetB9foe210106EPSF_
+- __ZNSt3__112__destroy_atB9foe210106INS_4pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN8Security5CFRefIPK8__CFDataEEEELi0EEEvPT_
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_length_errorB9foe210106Ev
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_out_of_rangeB9foe210106Ev
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE2atEm
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC1B9foe210106ILi0EEEPKc
+- __ZNSt3__119__allocate_at_leastB9foe210106INS_9allocatorIN8Security5CFRefIPK8__CFDataEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSB_m
+- __ZNSt3__119__allocate_at_leastB9foe210106INS_9allocatorIPN8Security11CodeSigning15ResourceBuilder4RuleEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSA_m
+- __ZNSt3__119__allocate_at_leastB9foe210106INS_9allocatorIjEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS5_m
+- __ZNSt3__119basic_ostringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEC1B9foe210106Ev
+- __ZNSt3__120__throw_length_errorB9foe210106EPKc
+- __ZNSt3__120__throw_out_of_rangeB9foe210106EPKc
+- __ZNSt3__120back_insert_iteratorINS_6vectorIiNS_9allocatorIiEEEEEaSB9foe210106ERKi
+- __ZNSt3__121__concatenate_stringsB9foe210106IcNS_11char_traitsIcEENS_9allocatorIcEEEENS_12basic_stringIT_T0_T1_EERKS8_NS_15__type_identityINS_17basic_string_viewIS6_S7_EEE4typeESG_
+- __ZNSt3__122__tree_node_destructorINS_9allocatorINS_11__tree_nodeINS_12basic_stringIcNS_11char_traitsIcEENS1_IcEEEEPvEEEEEclB9foe210106EPS9_
+- __ZNSt3__124__put_character_sequenceB9foe210106IcNS_11char_traitsIcEEEERNS_13basic_ostreamIT_T0_EES7_PKS4_m
+- __ZNSt3__127__tree_balance_after_insertB9foe210106IPNS_16__tree_node_baseIPvEEEEvT_S5_
+- __ZNSt3__132__internal_log_hardening_failureEPKc
+- __ZNSt3__13mapIjN8Security10RefPointerINS1_11DynamicHashEEENS_4lessIjEENS_9allocatorINS_4pairIKjS4_EEEEEC2B9foe210106ERKSC_
+- __ZNSt3__13setIjNS_4lessIjEENS_9allocatorIjEEEC2B9foe210106ERKS5_
+- __ZNSt3__16__treeINS_12__value_typeIjN8Security9CFCopyRefIPK8__CFDataEEEENS_19__map_value_compareIjNS_4pairIKjS7_EENS_4lessIjEELb1EEENS_9allocatorISC_EEE18_DetachedTreeCacheD2B9foe210106Ev
+- __ZNSt3__16vectorI19CESerializedElementNS_9allocatorIS1_EEE20__throw_length_errorB9foe210106Ev
+- __ZNSt3__16vectorIN8Security5CFRefIPK8__CFDataEENS_9allocatorIS6_EEE16__destroy_vectorclB9foe210106Ev
+- __ZNSt3__16vectorIN8Security5CFRefIPK8__CFDataEENS_9allocatorIS6_EEE20__throw_length_errorB9foe210106Ev
+- __ZNSt3__16vectorIPN8Security11CodeSigning12DirValidator4RuleENS_9allocatorIS5_EEE20__throw_length_errorB9foe210106Ev
+- __ZNSt3__16vectorIPN8Security11CodeSigning15ResourceBuilder4RuleENS_9allocatorIS5_EEE20__throw_length_errorB9foe210106Ev
+- __ZNSt3__16vectorIcNS_9allocatorIcEEE20__throw_length_errorB9foe210106Ev
+- __ZNSt3__16vectorIhNS_9allocatorIhEEE20__throw_length_errorB9foe210106Ev
+- __ZNSt3__16vectorIhNS_9allocatorIhEEEC2B9foe210106Em
+- __ZNSt3__16vectorIiNS_9allocatorIiEEE20__throw_length_errorB9foe210106Ev
+- __ZNSt3__16vectorIjNS_9allocatorIjEEE20__throw_length_errorB9foe210106Ev
+- __ZNSt3__16vectorIjNS_9allocatorIjEEE9push_backB9foe210106EOj
+- __ZNSt3__16vectorImNS_9allocatorImEEE20__throw_length_errorB9foe210106Ev
+- __ZNSt3__1plB9foe210106IcNS_11char_traitsIcEENS_9allocatorIcEEEENS_12basic_stringIT_T0_T1_EERKS9_PKS6_
+- __ZNSt3__1ssB9foe210106IcNS_11char_traitsIcEENS_9allocatorIcEEEEDaRKNS_12basic_stringIT_T0_T1_EESC_
+- __ZSt28__throw_bad_array_new_lengthB9foe210106v
+- ___Block_byref_object_copy_.18172
+- ___Block_byref_object_copy_.18539
+- ___Block_byref_object_copy_.18653
+- ___Block_byref_object_copy_.18909
+- ___Block_byref_object_dispose_.18173
+- ___Block_byref_object_dispose_.18540
+- ___Block_byref_object_dispose_.18654
+- ___Block_byref_object_dispose_.18910
+- ____ZN8Security11CodeSigning12hashFileDataINS_11DynamicHashEEEmNS_12UnixPlusPlus8FileDescEPT_m_block_invoke.18844
+- ___block_descriptor_tmp.1.17101
+- ___block_descriptor_tmp.11.18642
+- ___block_descriptor_tmp.12.18643
+- ___block_descriptor_tmp.17104
+- ___block_descriptor_tmp.17212
+- ___block_descriptor_tmp.17232
+- ___block_descriptor_tmp.17515
+- ___block_descriptor_tmp.17565
+- ___block_descriptor_tmp.17578
+- ___block_descriptor_tmp.18.18174
+- ___block_descriptor_tmp.18108
+- ___block_descriptor_tmp.18196
+- ___block_descriptor_tmp.18544
+- ___block_descriptor_tmp.18641
+- ___block_descriptor_tmp.18852
+- ___block_descriptor_tmp.18911
+- ___block_descriptor_tmp.19015
+- ___block_descriptor_tmp.24.18226
+- ___block_descriptor_tmp.29.18672
+- ___block_descriptor_tmp.31.18650
+- ___block_descriptor_tmp.32.18298
+- ___block_descriptor_tmp.34.18235
+- ___block_descriptor_tmp.36.18240
+- ___block_descriptor_tmp.37.18236
+- ___block_descriptor_tmp.4.18103
+- ___block_descriptor_tmp.4.18198
+- ___block_descriptor_tmp.40.17561
+- ___block_descriptor_tmp.41.18845
+- ___block_descriptor_tmp.42.18655
+- ___block_descriptor_tmp.47.18302
+- ___block_descriptor_tmp.47.18621
+- ___block_descriptor_tmp.51.18622
+- ___block_descriptor_tmp.52.18261
+- ___block_descriptor_tmp.55.18623
+- ___block_descriptor_tmp.56.18258
+- ___block_descriptor_tmp.63.18251
+- ___block_descriptor_tmp.7.17108
+- ___block_descriptor_tmp.72.17521
+- ___block_descriptor_tmp.72.18324
+- ___block_descriptor_tmp.73.18325
+- ___block_descriptor_tmp.75.17519
+- ___block_descriptor_tmp.78.18274
+- ___block_descriptor_tmp.8.18537
+- ___block_descriptor_tmp.85.18698
+- ___block_descriptor_tmp.86.18699
+- ___block_descriptor_tmp.87.18358
+- ___block_descriptor_tmp.88.18275
+- ___block_literal_global.17099
+- ___block_literal_global.17202
+- ___block_literal_global.18255
+CStrings:
+- "/AppleInternal/Library/BuildRoots/4~CJlFugAann67OKCYVPAVsO8lV21pHcBoT-yqf-A/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__vector/vector.h:406: libc++ Hardening assertion __n < size() failed: vector[] index out of bounds\n"
+- "/AppleInternal/Library/BuildRoots/4~CJlFugAann67OKCYVPAVsO8lV21pHcBoT-yqf-A/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/string:1340: libc++ Hardening assertion __pos <= size() failed: string index out of bounds\n"
+- "/AppleInternal/Library/BuildRoots/4~CJlFugAann67OKCYVPAVsO8lV21pHcBoT-yqf-A/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/string:1471: libc++ Hardening assertion !empty() failed: string::back(): string is empty\n"
+- "/AppleInternal/Library/BuildRoots/4~CJlFugAann67OKCYVPAVsO8lV21pHcBoT-yqf-A/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/string:3371: libc++ Hardening assertion !empty() failed: string::pop_back(): string is already empty\n"
+- "/AppleInternal/Library/BuildRoots/4~CJlFugAann67OKCYVPAVsO8lV21pHcBoT-yqf-A/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/string_view:341: libc++ Hardening assertion (__end - __begin) >= 0 failed: std::string_view::string_view(iterator, sentinel) received invalid range\n"
+
+```

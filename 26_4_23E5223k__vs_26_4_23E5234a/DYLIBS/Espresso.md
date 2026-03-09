@@ -1,0 +1,652 @@
+## Espresso
+
+> `/System/Library/PrivateFrameworks/Espresso.framework/Espresso`
+
+```diff
+
+-3520.15.1.0.0
+-  __TEXT.__text: 0xc652c8
++3520.15.1.11.2
++  __TEXT.__text: 0xc672f4
+   __TEXT.__auth_stubs: 0x4e00
+   __TEXT.__objc_methlist: 0x322c
+-  __TEXT.__const: 0x5dc1a
+-  __TEXT.__gcc_except_tab: 0xdca60
+-  __TEXT.__cstring: 0x50065
+-  __TEXT.__oslogstring: 0x7b06
+-  __TEXT.__unwind_info: 0x2d698
++  __TEXT.__const: 0x5ddaa
++  __TEXT.__gcc_except_tab: 0xdcb34
++  __TEXT.__cstring: 0x5009a
++  __TEXT.__oslogstring: 0x7b2a
++  __TEXT.__unwind_info: 0x2d6a8
+   __TEXT.__eh_frame: 0x4f8
+   __TEXT.__objc_classname: 0xfbc
+-  __TEXT.__objc_methname: 0xa878
++  __TEXT.__objc_methname: 0xa885
+   __TEXT.__objc_methtype: 0x89d9
+-  __TEXT.__objc_stubs: 0x6cc0
++  __TEXT.__objc_stubs: 0x6ce0
+   __DATA_CONST.__got: 0xb98
+-  __DATA_CONST.__const: 0x2da0
++  __DATA_CONST.__const: 0x2de0
+   __DATA_CONST.__objc_classlist: 0x400
+   __DATA_CONST.__objc_protolist: 0x38
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x24e0
++  __DATA_CONST.__objc_selrefs: 0x24e8
+   __DATA_CONST.__objc_superrefs: 0x170
+   __DATA_CONST.__objc_arraydata: 0x298
+   __AUTH_CONST.__auth_got: 0x2718
+-  __AUTH_CONST.__const: 0x9f688
++  __AUTH_CONST.__const: 0x9f6a8
+   __AUTH_CONST.__cfstring: 0xa100
+   __AUTH_CONST.__objc_const: 0x8b90
+   __AUTH_CONST.__objc_intobj: 0x348
+
+   __AUTH.__thread_bss: 0x400
+   __DATA.__objc_ivar: 0x5b8
+   __DATA.__data: 0x4c0
+-  __DATA.__bss: 0x67a0
++  __DATA.__bss: 0x67a8
+   __DATA.__common: 0x2c
+   __DATA_DIRTY.__objc_data: 0x140
+   __DATA_DIRTY.__data: 0x90
+
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libcompression.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 0F72E84D-3638-33BC-B99C-BABE18F3FC1D
+-  Functions: 34369
+-  Symbols:   87603
+-  CStrings:  14095
++  UUID: 4BB5299B-D154-36AB-BD89-05878D29A631
++  Functions: 34372
++  Symbols:   87606
++  CStrings:  14100
+ 
+Symbols:
++ __ZGVZN8EspressoL11getDefaultsEvE3ret.10184
++ __ZGVZN8EspressoL11getDefaultsEvE3ret.11009
++ __ZGVZN8EspressoL11getDefaultsEvE3ret.11622
++ __ZGVZN8EspressoL11getDefaultsEvE3ret.14037
++ __ZGVZN8EspressoL11getDefaultsEvE3ret.17634
++ __ZGVZN8EspressoL11getDefaultsEvE3ret.18931
++ __ZGVZN8EspressoL11getDefaultsEvE3ret.20705
++ __ZGVZN8EspressoL11getDefaultsEvE3ret.21222
++ __ZGVZN8EspressoL11getDefaultsEvE3ret.21598
++ __ZGVZN8EspressoL11getDefaultsEvE3ret.22856
++ __ZGVZN8EspressoL11getDefaultsEvE3ret.8960
++ __ZGVZN8EspressoL11getDefaultsEvE3ret.9555
++ __ZL21getkCVANetFormatUInt8.21497
++ __ZL25initValkCVANetFormatUInt8v.21507
++ __ZL26kCVANetFormatUInt8Functionv.21511
++ __ZL29constantValkCVANetFormatUInt8.21509
++ __ZL29dispatch_auto_threadgroupsizePU35objcproto24MTLComputeCommandEncoder11objc_objectjjjj.10521
++ __ZL9onceToken.11968
++ __ZL9singleton.11970
++ __ZN4E5RT32GetPlatformIdentifierWithVariantEv
++ __ZN8EspressoL11getDefaultsEv.11619
++ __ZN8EspressoL11getDefaultsEv.18782
++ __ZN8EspressoL11getDefaultsEv.21556
++ __ZN8EspressoL11getDefaultsEv.8812
++ __ZN8EspressoL11getDefaultsEv.9548
++ __ZN8EspressoL9onceTokenE.17929
++ __ZZL15AppleCVALibraryvE4sLib.10010
++ __ZZL15AppleCVALibraryvE4sLib.21488
++ __ZZL15AppleCVALibraryvE5sOnce.10008
++ __ZZL15AppleCVALibraryvE5sOnce.21486
++ __ZZN8EspressoL11getDefaultsEvE3ret.10185
++ __ZZN8EspressoL11getDefaultsEvE3ret.11010
++ __ZZN8EspressoL11getDefaultsEvE3ret.11623
++ __ZZN8EspressoL11getDefaultsEvE3ret.14038
++ __ZZN8EspressoL11getDefaultsEvE3ret.17636
++ __ZZN8EspressoL11getDefaultsEvE3ret.18933
++ __ZZN8EspressoL11getDefaultsEvE3ret.20707
++ __ZZN8EspressoL11getDefaultsEvE3ret.21223
++ __ZZN8EspressoL11getDefaultsEvE3ret.21599
++ __ZZN8EspressoL11getDefaultsEvE3ret.22858
++ __ZZN8EspressoL11getDefaultsEvE3ret.8961
++ __ZZN8EspressoL11getDefaultsEvE3ret.9556
++ ___Block_byref_object_copy_.1.18458
++ ___Block_byref_object_copy_.13965
++ ___Block_byref_object_copy_.16770
++ ___Block_byref_object_copy_.17745
++ ___Block_byref_object_copy_.18456
++ ___Block_byref_object_copy_.20019
++ ___Block_byref_object_copy_.21470
++ ___Block_byref_object_dispose_.13966
++ ___Block_byref_object_dispose_.16771
++ ___Block_byref_object_dispose_.17746
++ ___Block_byref_object_dispose_.18457
++ ___Block_byref_object_dispose_.2.18459
++ ___Block_byref_object_dispose_.20020
++ ___Block_byref_object_dispose_.21471
++ ____ZL15AppleCVALibraryv_block_invoke.10014
++ ____ZL15AppleCVALibraryv_block_invoke.21492
++ ____ZN8Espresso19sync_copy_from_hostENSt3__110shared_ptrINS_23abstract_blob_containerEEENS1_INS_4blobIfLi4EEEEE_block_invoke.13211
++ ____ZN8Espresso19sync_copy_from_hostENSt3__110shared_ptrINS_23abstract_blob_containerEEENS1_INS_4blobIfLi4EEEEE_block_invoke.13614
++ ____ZN8Espresso19sync_copy_from_hostENSt3__110shared_ptrINS_23abstract_blob_containerEEENS1_INS_4blobIfLi4EEEEE_block_invoke.21476
++ ____ZN8Espresso19sync_copy_from_hostENSt3__110shared_ptrINS_23abstract_blob_containerEEENS1_INS_4blobIfLi4EEEEE_block_invoke.8276
++ ___assign_helper_atomic_property_.12117
++ ___assign_helper_atomic_property_.13658
++ ___block_descriptor_tmp.17431
++ ___block_literal_global.10.12313
++ ___block_literal_global.10.14108
++ ___block_literal_global.10.19572
++ ___block_literal_global.10.7457
++ ___block_literal_global.100.14168
++ ___block_literal_global.10009
++ ___block_literal_global.102.12373
++ ___block_literal_global.103.14170
++ ___block_literal_global.106.14172
++ ___block_literal_global.108.12376
++ ___block_literal_global.109.14174
++ ___block_literal_global.11007
++ ___block_literal_global.111.12378
++ ___block_literal_global.112.14176
++ ___block_literal_global.114.12380
++ ___block_literal_global.115.14178
++ ___block_literal_global.115.17785
++ ___block_literal_global.11668
++ ___block_literal_global.117.17786
++ ___block_literal_global.118.14180
++ ___block_literal_global.119.17787
++ ___block_literal_global.11969
++ ___block_literal_global.121.11949
++ ___block_literal_global.121.14182
++ ___block_literal_global.122.12383
++ ___block_literal_global.12307
++ ___block_literal_global.124.14184
++ ___block_literal_global.125.12385
++ ___block_literal_global.127.14186
++ ___block_literal_global.128.12387
++ ___block_literal_global.13.12315
++ ___block_literal_global.13.14110
++ ___block_literal_global.130.14188
++ ___block_literal_global.131.12389
++ ___block_literal_global.133.14190
++ ___block_literal_global.134.12391
++ ___block_literal_global.136.14192
++ ___block_literal_global.139.14194
++ ___block_literal_global.14031
++ ___block_literal_global.14102
++ ___block_literal_global.142.14196
++ ___block_literal_global.149.12397
++ ___block_literal_global.152.12399
++ ___block_literal_global.155.12401
++ ___block_literal_global.158.12403
++ ___block_literal_global.16.12317
++ ___block_literal_global.16.14112
++ ___block_literal_global.161.12405
++ ___block_literal_global.164.12407
++ ___block_literal_global.167.12409
++ ___block_literal_global.16868
++ ___block_literal_global.17.7498
++ ___block_literal_global.170.12411
++ ___block_literal_global.173.12413
++ ___block_literal_global.17325
++ ___block_literal_global.176.12415
++ ___block_literal_global.17784
++ ___block_literal_global.179.12417
++ ___block_literal_global.17930
++ ___block_literal_global.182.12419
++ ___block_literal_global.185.12421
++ ___block_literal_global.188.12423
++ ___block_literal_global.19.12319
++ ___block_literal_global.19.14114
++ ___block_literal_global.19.7508
++ ___block_literal_global.191.12425
++ ___block_literal_global.194.12427
++ ___block_literal_global.19568
++ ___block_literal_global.197.12429
++ ___block_literal_global.2.7458
++ ___block_literal_global.20.7283
++ ___block_literal_global.200.12431
++ ___block_literal_global.203.12433
++ ___block_literal_global.20481
++ ___block_literal_global.20500
++ ___block_literal_global.206.12435
++ ___block_literal_global.209.12437
++ ___block_literal_global.212.12439
++ ___block_literal_global.21487
++ ___block_literal_global.215.12441
++ ___block_literal_global.218.12443
++ ___block_literal_global.22.12321
++ ___block_literal_global.22.14116
++ ___block_literal_global.22.19594
++ ___block_literal_global.221.12445
++ ___block_literal_global.22277
++ ___block_literal_global.224.12447
++ ___block_literal_global.227.12449
++ ___block_literal_global.230.12451
++ ___block_literal_global.233.12453
++ ___block_literal_global.236.11806
++ ___block_literal_global.236.12455
++ ___block_literal_global.239.12457
++ ___block_literal_global.242.12459
++ ___block_literal_global.243.11807
++ ___block_literal_global.245.12461
++ ___block_literal_global.246.11809
++ ___block_literal_global.248.12463
++ ___block_literal_global.25.12323
++ ___block_literal_global.25.14118
++ ___block_literal_global.25.19596
++ ___block_literal_global.25.20484
++ ___block_literal_global.251.12465
++ ___block_literal_global.252.11811
++ ___block_literal_global.254.12467
++ ___block_literal_global.257.11813
++ ___block_literal_global.257.12469
++ ___block_literal_global.260.12471
++ ___block_literal_global.263.12473
++ ___block_literal_global.266.12475
++ ___block_literal_global.268.11817
++ ___block_literal_global.269.12477
++ ___block_literal_global.271.11818
++ ___block_literal_global.272.12479
++ ___block_literal_global.273.11819
++ ___block_literal_global.275.12481
++ ___block_literal_global.28.12325
++ ___block_literal_global.28.14120
++ ___block_literal_global.28.19598
++ ___block_literal_global.284.11823
++ ___block_literal_global.287.11825
++ ___block_literal_global.290.11827
++ ___block_literal_global.293.11829
++ ___block_literal_global.3.19569
++ ___block_literal_global.3.9647
++ ___block_literal_global.31.12327
++ ___block_literal_global.31.14122
++ ___block_literal_global.31.19600
++ ___block_literal_global.329.11839
++ ___block_literal_global.33.9876
++ ___block_literal_global.338.11841
++ ___block_literal_global.34.12329
++ ___block_literal_global.34.14124
++ ___block_literal_global.34.19602
++ ___block_literal_global.341.11842
++ ___block_literal_global.344.11844
++ ___block_literal_global.347.11846
++ ___block_literal_global.350.11848
++ ___block_literal_global.353.11850
++ ___block_literal_global.355.11851
++ ___block_literal_global.36.9878
++ ___block_literal_global.37.12331
++ ___block_literal_global.37.14126
++ ___block_literal_global.37.19604
++ ___block_literal_global.4.12309
++ ___block_literal_global.4.14104
++ ___block_literal_global.4.17938
++ ___block_literal_global.40.12333
++ ___block_literal_global.40.14128
++ ___block_literal_global.40.19606
++ ___block_literal_global.41.9880
++ ___block_literal_global.43.12335
++ ___block_literal_global.43.14130
++ ___block_literal_global.43.19608
++ ___block_literal_global.43.9881
++ ___block_literal_global.46.12337
++ ___block_literal_global.46.14132
++ ___block_literal_global.46.19610
++ ___block_literal_global.49.12339
++ ___block_literal_global.49.14134
++ ___block_literal_global.49.19612
++ ___block_literal_global.5.19570
++ ___block_literal_global.5.7468
++ ___block_literal_global.52.12341
++ ___block_literal_global.52.14136
++ ___block_literal_global.52.19614
++ ___block_literal_global.55.12343
++ ___block_literal_global.55.14138
++ ___block_literal_global.55.19616
++ ___block_literal_global.58.12345
++ ___block_literal_global.58.14140
++ ___block_literal_global.58.19618
++ ___block_literal_global.61.12347
++ ___block_literal_global.61.14142
++ ___block_literal_global.61.19620
++ ___block_literal_global.63.9888
++ ___block_literal_global.64.12349
++ ___block_literal_global.64.14144
++ ___block_literal_global.64.19622
++ ___block_literal_global.67.12351
++ ___block_literal_global.67.14146
++ ___block_literal_global.67.19624
++ ___block_literal_global.7.12311
++ ___block_literal_global.7.14106
++ ___block_literal_global.7.17940
++ ___block_literal_global.7.19571
++ ___block_literal_global.70.12353
++ ___block_literal_global.70.14148
++ ___block_literal_global.70.19626
++ ___block_literal_global.7297
++ ___block_literal_global.73.12355
++ ___block_literal_global.73.14150
++ ___block_literal_global.73.19628
++ ___block_literal_global.7456
++ ___block_literal_global.7540
++ ___block_literal_global.76.12357
++ ___block_literal_global.76.14152
++ ___block_literal_global.79.12359
++ ___block_literal_global.79.14154
++ ___block_literal_global.7909
++ ___block_literal_global.82.12361
++ ___block_literal_global.82.14156
++ ___block_literal_global.8282
++ ___block_literal_global.85.12363
++ ___block_literal_global.85.14158
++ ___block_literal_global.8513
++ ___block_literal_global.87.9897
++ ___block_literal_global.88.12365
++ ___block_literal_global.88.14160
++ ___block_literal_global.90.12366
++ ___block_literal_global.9010
++ ___block_literal_global.91.14162
++ ___block_literal_global.93.12368
++ ___block_literal_global.93.9900
++ ___block_literal_global.94.14164
++ ___block_literal_global.9573
++ ___block_literal_global.96.12370
++ ___block_literal_global.9646
++ ___block_literal_global.97.14166
++ ___block_literal_global.9867
++ ___copy_helper_atomic_property_.12120
++ ___copy_helper_atomic_property_.13660
++ _objc_msgSend$gpuCoreCount
+- __ZGVZN8EspressoL11getDefaultsEvE3ret.10183
+- __ZGVZN8EspressoL11getDefaultsEvE3ret.11008
+- __ZGVZN8EspressoL11getDefaultsEvE3ret.11621
+- __ZGVZN8EspressoL11getDefaultsEvE3ret.14036
+- __ZGVZN8EspressoL11getDefaultsEvE3ret.17633
+- __ZGVZN8EspressoL11getDefaultsEvE3ret.18930
+- __ZGVZN8EspressoL11getDefaultsEvE3ret.20704
+- __ZGVZN8EspressoL11getDefaultsEvE3ret.21221
+- __ZGVZN8EspressoL11getDefaultsEvE3ret.21597
+- __ZGVZN8EspressoL11getDefaultsEvE3ret.22855
+- __ZGVZN8EspressoL11getDefaultsEvE3ret.8959
+- __ZGVZN8EspressoL11getDefaultsEvE3ret.9554
+- __ZL21getkCVANetFormatUInt8.21496
+- __ZL25initValkCVANetFormatUInt8v.21506
+- __ZL26kCVANetFormatUInt8Functionv.21510
+- __ZL29constantValkCVANetFormatUInt8.21508
+- __ZL29dispatch_auto_threadgroupsizePU35objcproto24MTLComputeCommandEncoder11objc_objectjjjj.10520
+- __ZL9onceToken.11967
+- __ZL9singleton.11969
+- __ZN8EspressoL11getDefaultsEv.11618
+- __ZN8EspressoL11getDefaultsEv.18781
+- __ZN8EspressoL11getDefaultsEv.21555
+- __ZN8EspressoL11getDefaultsEv.8811
+- __ZN8EspressoL11getDefaultsEv.9547
+- __ZN8EspressoL9onceTokenE.17928
+- __ZZL15AppleCVALibraryvE4sLib.10009
+- __ZZL15AppleCVALibraryvE4sLib.21487
+- __ZZL15AppleCVALibraryvE5sOnce.10007
+- __ZZL15AppleCVALibraryvE5sOnce.21485
+- __ZZN8EspressoL11getDefaultsEvE3ret.10184
+- __ZZN8EspressoL11getDefaultsEvE3ret.11009
+- __ZZN8EspressoL11getDefaultsEvE3ret.11622
+- __ZZN8EspressoL11getDefaultsEvE3ret.14037
+- __ZZN8EspressoL11getDefaultsEvE3ret.17635
+- __ZZN8EspressoL11getDefaultsEvE3ret.18932
+- __ZZN8EspressoL11getDefaultsEvE3ret.20706
+- __ZZN8EspressoL11getDefaultsEvE3ret.21222
+- __ZZN8EspressoL11getDefaultsEvE3ret.21598
+- __ZZN8EspressoL11getDefaultsEvE3ret.22857
+- __ZZN8EspressoL11getDefaultsEvE3ret.8960
+- __ZZN8EspressoL11getDefaultsEvE3ret.9555
+- ___Block_byref_object_copy_.1.18457
+- ___Block_byref_object_copy_.13964
+- ___Block_byref_object_copy_.16769
+- ___Block_byref_object_copy_.17744
+- ___Block_byref_object_copy_.18455
+- ___Block_byref_object_copy_.20018
+- ___Block_byref_object_copy_.21469
+- ___Block_byref_object_dispose_.13965
+- ___Block_byref_object_dispose_.16770
+- ___Block_byref_object_dispose_.17745
+- ___Block_byref_object_dispose_.18456
+- ___Block_byref_object_dispose_.2.18458
+- ___Block_byref_object_dispose_.20019
+- ___Block_byref_object_dispose_.21470
+- ____ZL15AppleCVALibraryv_block_invoke.10013
+- ____ZL15AppleCVALibraryv_block_invoke.21491
+- ____ZN8Espresso19sync_copy_from_hostENSt3__110shared_ptrINS_23abstract_blob_containerEEENS1_INS_4blobIfLi4EEEEE_block_invoke.13210
+- ____ZN8Espresso19sync_copy_from_hostENSt3__110shared_ptrINS_23abstract_blob_containerEEENS1_INS_4blobIfLi4EEEEE_block_invoke.13613
+- ____ZN8Espresso19sync_copy_from_hostENSt3__110shared_ptrINS_23abstract_blob_containerEEENS1_INS_4blobIfLi4EEEEE_block_invoke.21475
+- ____ZN8Espresso19sync_copy_from_hostENSt3__110shared_ptrINS_23abstract_blob_containerEEENS1_INS_4blobIfLi4EEEEE_block_invoke.8275
+- ___assign_helper_atomic_property_.12116
+- ___assign_helper_atomic_property_.13657
+- ___block_descriptor_tmp.17430
+- ___block_literal_global.10.12312
+- ___block_literal_global.10.14107
+- ___block_literal_global.10.19571
+- ___block_literal_global.10.7456
+- ___block_literal_global.100.14167
+- ___block_literal_global.10008
+- ___block_literal_global.102.12372
+- ___block_literal_global.103.14169
+- ___block_literal_global.106.14171
+- ___block_literal_global.108.12375
+- ___block_literal_global.109.14173
+- ___block_literal_global.11006
+- ___block_literal_global.111.12377
+- ___block_literal_global.112.14175
+- ___block_literal_global.114.12379
+- ___block_literal_global.115.14177
+- ___block_literal_global.115.17784
+- ___block_literal_global.11667
+- ___block_literal_global.117.17785
+- ___block_literal_global.118.14179
+- ___block_literal_global.119.17786
+- ___block_literal_global.11968
+- ___block_literal_global.121.11948
+- ___block_literal_global.121.14181
+- ___block_literal_global.122.12382
+- ___block_literal_global.12306
+- ___block_literal_global.124.14183
+- ___block_literal_global.125.12384
+- ___block_literal_global.127.14185
+- ___block_literal_global.128.12386
+- ___block_literal_global.13.12314
+- ___block_literal_global.13.14109
+- ___block_literal_global.130.14187
+- ___block_literal_global.131.12388
+- ___block_literal_global.133.14189
+- ___block_literal_global.134.12390
+- ___block_literal_global.136.14191
+- ___block_literal_global.139.14193
+- ___block_literal_global.14030
+- ___block_literal_global.14101
+- ___block_literal_global.142.14195
+- ___block_literal_global.149.12396
+- ___block_literal_global.152.12398
+- ___block_literal_global.155.12400
+- ___block_literal_global.158.12402
+- ___block_literal_global.16.12316
+- ___block_literal_global.16.14111
+- ___block_literal_global.161.12404
+- ___block_literal_global.164.12406
+- ___block_literal_global.167.12408
+- ___block_literal_global.16867
+- ___block_literal_global.17.7497
+- ___block_literal_global.170.12410
+- ___block_literal_global.173.12412
+- ___block_literal_global.17324
+- ___block_literal_global.176.12414
+- ___block_literal_global.17783
+- ___block_literal_global.179.12416
+- ___block_literal_global.17929
+- ___block_literal_global.182.12418
+- ___block_literal_global.185.12420
+- ___block_literal_global.188.12422
+- ___block_literal_global.19.12318
+- ___block_literal_global.19.14113
+- ___block_literal_global.19.7507
+- ___block_literal_global.191.12424
+- ___block_literal_global.194.12426
+- ___block_literal_global.19567
+- ___block_literal_global.197.12428
+- ___block_literal_global.2.7457
+- ___block_literal_global.20.7282
+- ___block_literal_global.200.12430
+- ___block_literal_global.203.12432
+- ___block_literal_global.20480
+- ___block_literal_global.20499
+- ___block_literal_global.206.12434
+- ___block_literal_global.209.12436
+- ___block_literal_global.212.12438
+- ___block_literal_global.21486
+- ___block_literal_global.215.12440
+- ___block_literal_global.218.12442
+- ___block_literal_global.22.12320
+- ___block_literal_global.22.14115
+- ___block_literal_global.22.19593
+- ___block_literal_global.221.12444
+- ___block_literal_global.22276
+- ___block_literal_global.224.12446
+- ___block_literal_global.227.12448
+- ___block_literal_global.230.12450
+- ___block_literal_global.233.12452
+- ___block_literal_global.236.11805
+- ___block_literal_global.236.12454
+- ___block_literal_global.239.12456
+- ___block_literal_global.242.12458
+- ___block_literal_global.243.11806
+- ___block_literal_global.245.12460
+- ___block_literal_global.246.11808
+- ___block_literal_global.248.12462
+- ___block_literal_global.25.12322
+- ___block_literal_global.25.14117
+- ___block_literal_global.25.19595
+- ___block_literal_global.25.20483
+- ___block_literal_global.251.12464
+- ___block_literal_global.252.11810
+- ___block_literal_global.254.12466
+- ___block_literal_global.257.11812
+- ___block_literal_global.257.12468
+- ___block_literal_global.260.12470
+- ___block_literal_global.263.12472
+- ___block_literal_global.266.12474
+- ___block_literal_global.268.11816
+- ___block_literal_global.269.12476
+- ___block_literal_global.271.11817
+- ___block_literal_global.272.12478
+- ___block_literal_global.273.11818
+- ___block_literal_global.275.12480
+- ___block_literal_global.28.12324
+- ___block_literal_global.28.14119
+- ___block_literal_global.28.19597
+- ___block_literal_global.284.11822
+- ___block_literal_global.287.11824
+- ___block_literal_global.290.11826
+- ___block_literal_global.293.11828
+- ___block_literal_global.3.19568
+- ___block_literal_global.3.9646
+- ___block_literal_global.31.12326
+- ___block_literal_global.31.14121
+- ___block_literal_global.31.19599
+- ___block_literal_global.329.11838
+- ___block_literal_global.33.9875
+- ___block_literal_global.338.11840
+- ___block_literal_global.34.12328
+- ___block_literal_global.34.14123
+- ___block_literal_global.34.19601
+- ___block_literal_global.341.11841
+- ___block_literal_global.344.11843
+- ___block_literal_global.347.11845
+- ___block_literal_global.350.11847
+- ___block_literal_global.353.11849
+- ___block_literal_global.355.11850
+- ___block_literal_global.36.9877
+- ___block_literal_global.37.12330
+- ___block_literal_global.37.14125
+- ___block_literal_global.37.19603
+- ___block_literal_global.4.12308
+- ___block_literal_global.4.14103
+- ___block_literal_global.4.17937
+- ___block_literal_global.40.12332
+- ___block_literal_global.40.14127
+- ___block_literal_global.40.19605
+- ___block_literal_global.41.9879
+- ___block_literal_global.43.12334
+- ___block_literal_global.43.14129
+- ___block_literal_global.43.19607
+- ___block_literal_global.43.9880
+- ___block_literal_global.46.12336
+- ___block_literal_global.46.14131
+- ___block_literal_global.46.19609
+- ___block_literal_global.49.12338
+- ___block_literal_global.49.14133
+- ___block_literal_global.49.19611
+- ___block_literal_global.5.19569
+- ___block_literal_global.5.7467
+- ___block_literal_global.52.12340
+- ___block_literal_global.52.14135
+- ___block_literal_global.52.19613
+- ___block_literal_global.55.12342
+- ___block_literal_global.55.14137
+- ___block_literal_global.55.19615
+- ___block_literal_global.58.12344
+- ___block_literal_global.58.14139
+- ___block_literal_global.58.19617
+- ___block_literal_global.61.12346
+- ___block_literal_global.61.14141
+- ___block_literal_global.61.19619
+- ___block_literal_global.63.9887
+- ___block_literal_global.64.12348
+- ___block_literal_global.64.14143
+- ___block_literal_global.64.19621
+- ___block_literal_global.67.12350
+- ___block_literal_global.67.14145
+- ___block_literal_global.67.19623
+- ___block_literal_global.7.12310
+- ___block_literal_global.7.14105
+- ___block_literal_global.7.17939
+- ___block_literal_global.7.19570
+- ___block_literal_global.70.12352
+- ___block_literal_global.70.14147
+- ___block_literal_global.70.19625
+- ___block_literal_global.7296
+- ___block_literal_global.73.12354
+- ___block_literal_global.73.14149
+- ___block_literal_global.73.19627
+- ___block_literal_global.7455
+- ___block_literal_global.7539
+- ___block_literal_global.76.12356
+- ___block_literal_global.76.14151
+- ___block_literal_global.79.12358
+- ___block_literal_global.79.14153
+- ___block_literal_global.7908
+- ___block_literal_global.82.12360
+- ___block_literal_global.82.14155
+- ___block_literal_global.8281
+- ___block_literal_global.85.12362
+- ___block_literal_global.85.14157
+- ___block_literal_global.8512
+- ___block_literal_global.87.9896
+- ___block_literal_global.88.12364
+- ___block_literal_global.88.14159
+- ___block_literal_global.90.12365
+- ___block_literal_global.9009
+- ___block_literal_global.91.14161
+- ___block_literal_global.93.12367
+- ___block_literal_global.93.9899
+- ___block_literal_global.94.14163
+- ___block_literal_global.9572
+- ___block_literal_global.96.12369
+- ___block_literal_global.9645
+- ___block_literal_global.97.14165
+- ___block_literal_global.9866
+- ___copy_helper_atomic_property_.12119
+- ___copy_helper_atomic_property_.13659
+CStrings:
++ "3520.15.1.11.2"
++ "H17C.bundle"
++ "H17S.bundle"
++ "H17SCD variant not defined"
++ "Kernel validation warning @ %zu: %s"
++ "gpuCoreCount"
+- "3520.15.1"
+
+```

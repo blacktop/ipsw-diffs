@@ -1,0 +1,185 @@
+## GPUToolsCore
+
+> `/System/Library/PrivateFrameworks/GPUToolsCore.framework/GPUToolsCore`
+
+```diff
+
+ 310.8.0.0.0
+-  __TEXT.__text: 0x38d5c
+-  __TEXT.__auth_stubs: 0x1540
++  __TEXT.__text: 0x38568
++  __TEXT.__auth_stubs: 0x1530
+   __TEXT.__init_offsets: 0x4
+   __TEXT.__objc_methlist: 0x1c0c
+-  __TEXT.__const: 0x378
++  __TEXT.__const: 0x398
+   __TEXT.__gcc_except_tab: 0xc5c
+-  __TEXT.__cstring: 0x11515
++  __TEXT.__cstring: 0x10b4b
+   __TEXT.__ustring: 0x8
+   __TEXT.__oslogstring: 0x158
+   __TEXT.__unwind_info: 0x1118
+
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_selrefs: 0x1548
+   __DATA_CONST.__objc_superrefs: 0xc0
+-  __AUTH_CONST.__auth_got: 0xab8
++  __AUTH_CONST.__auth_got: 0xab0
+   __AUTH_CONST.__const: 0x650
+   __AUTH_CONST.__cfstring: 0x5ae0
+   __AUTH_CONST.__objc_const: 0x31e0
+
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 446A1C9F-DA70-346C-AB0F-56A7007EB568
+-  Functions: 1420
+-  Symbols:   4543
+-  CStrings:  5420
++  UUID: 02AA0AEB-B9DD-31FB-AEC9-19D1CE49266B
++  Functions: 1419
++  Symbols:   4538
++  CStrings:  5412
+ 
+Symbols:
++ GCC_except_table78
++ GCC_except_table81
++ GCC_except_table89
++ GCC_except_table97
++ __ZNSt12length_errorC1B9nqe210106EPKc
++ __ZNSt12out_of_rangeC1B9nqe210106EPKc
++ __ZNSt3__110__function12__value_funcIFvvEE4swapB9nqe210106ERS3_
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_length_errorB9nqe210106Ev
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_out_of_rangeB9nqe210106Ev
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC1B9nqe210106ILi0EEEPKc
++ __ZNSt3__113random_deviceC1B9nqe210106Ev
++ __ZNSt3__115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEE15__init_buf_ptrsB9nqe210106Ev
++ __ZNSt3__115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEEC2B9nqe210106Ej
++ __ZNSt3__116__pad_and_outputB9nqe210106IcNS_11char_traitsIcEEEENS_19ostreambuf_iteratorIT_T0_EES6_PKS4_S8_S8_RNS_8ios_baseES4_
++ __ZNSt3__118basic_stringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEC1B9nqe210106Ev
++ __ZNSt3__119__allocate_at_leastB9nqe210106INS_9allocatorIN8GPUTools9Interpose20DYObjCMethodOverrideEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS8_m
++ __ZNSt3__119__allocate_at_leastB9nqe210106INS_9allocatorINS_4pairI23dy_polymorphic_scalar_tbEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS8_m
++ __ZNSt3__119__allocate_at_leastB9nqe210106INS_9allocatorIP23dy_polymorphic_scalar_tEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
++ __ZNSt3__119__allocate_at_leastB9nqe210106INS_9allocatorIP23dy_polymorphic_vector_tEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
++ __ZNSt3__119__allocate_at_leastB9nqe210106INS_9allocatorIPPvEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
++ __ZNSt3__119basic_ostringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEC1B9nqe210106Ev
++ __ZNSt3__120__throw_length_errorB9nqe210106EPKc
++ __ZNSt3__120__throw_out_of_rangeB9nqe210106EPKc
++ __ZNSt3__122__hash_node_destructorINS_9allocatorINS_11__hash_nodeINS_17__hash_value_typeIPKvNS_12basic_stringIcNS_11char_traitsIcEENS1_IcEEEEEEPvEEEEEclB9nqe210106EPSD_
++ __ZNSt3__122__hash_node_destructorINS_9allocatorINS_11__hash_nodeINS_17__hash_value_typeIiNS_12basic_stringIcNS_11char_traitsIcEENS1_IcEEEEEEPvEEEEEclB9nqe210106EPSB_
++ __ZNSt3__122__hash_node_destructorINS_9allocatorINS_11__hash_nodeINS_17__hash_value_typeIyNS_12basic_stringIcNS_11char_traitsIcEENS1_IcEEEEEEPvEEEEEclB9nqe210106EPSB_
++ __ZNSt3__124__put_character_sequenceB9nqe210106IcNS_11char_traitsIcEEEERNS_13basic_ostreamIT_T0_EES7_PKS4_m
++ __ZNSt3__125__throw_bad_function_callB9nqe210106Ev
++ __ZNSt3__128__exception_guard_exceptionsINS_6vectorIN8GPUTools2FB4FbufENS_9allocatorIS4_EEE16__destroy_vectorEED2B9nqe210106Ev
++ __ZNSt3__15dequeI23dy_polymorphic_scalar_tNS_9allocatorIS1_EEE26__maybe_remove_front_spareB9nqe210106Eb
++ __ZNSt3__15dequeI23dy_polymorphic_scalar_tNS_9allocatorIS1_EEED2B9nqe210106Ev
++ __ZNSt3__15dequeI23dy_polymorphic_vector_tNS_9allocatorIS1_EEE26__maybe_remove_front_spareB9nqe210106Eb
++ __ZNSt3__15dequeI23dy_polymorphic_vector_tNS_9allocatorIS1_EEED2B9nqe210106Ev
++ __ZNSt3__16vectorI14TextTableEntryNS_9allocatorIS1_EEE20__throw_length_errorB9nqe210106Ev
++ __ZNSt3__16vectorIN8GPUTools2FB4FbufENS_9allocatorIS3_EEE20__throw_length_errorB9nqe210106Ev
++ __ZNSt3__16vectorIN8GPUTools2FB4FbufENS_9allocatorIS3_EEED2B9nqe210106Ev
++ __ZNSt3__16vectorIN8GPUTools9Interpose20DYObjCMethodOverrideENS_9allocatorIS3_EEE11__vallocateB9nqe210106Em
++ __ZNSt3__16vectorIN8GPUTools9Interpose20DYObjCMethodOverrideENS_9allocatorIS3_EEE16__init_with_sizeB9nqe210106IPKS3_S9_EEvT_T0_m
++ __ZNSt3__16vectorIN8GPUTools9Interpose20DYObjCMethodOverrideENS_9allocatorIS3_EEE20__throw_length_errorB9nqe210106Ev
++ __ZNSt3__16vectorINS_4pairI23dy_polymorphic_scalar_tbEENS_9allocatorIS3_EEE20__throw_length_errorB9nqe210106Ev
++ __ZNSt3__16vectorINS_4pairI23dy_polymorphic_scalar_tbEENS_9allocatorIS3_EEE9push_backB9nqe210106EOS3_
++ __ZNSt3__16vectorIPPvNS_9allocatorIS2_EEE20__throw_length_errorB9nqe210106Ev
++ __ZNSt3__16vectorIPPvNS_9allocatorIS2_EEE9push_backB9nqe210106EOS2_
++ __ZNSt3__16vectorIjNS_9allocatorIjEEE20__throw_length_errorB9nqe210106Ev
++ __ZNSt3__1eqB9nqe210106IcNS_11char_traitsIcEENS_9allocatorIcEEEEbRKNS_12basic_stringIT_T0_T1_EEPKS6_
++ __ZSt28__throw_bad_array_new_lengthB9nqe210106v
+- GCC_except_table82
+- GCC_except_table83
+- GCC_except_table91
+- GCC_except_table99
+- __ZNSt12length_errorC1B9foe210106EPKc
+- __ZNSt12out_of_rangeC1B9foe210106EPKc
+- __ZNSt3__110__function12__value_funcIFvvEE4swapB9foe210106ERS3_
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_length_errorB9foe210106Ev
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_out_of_rangeB9foe210106Ev
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC1B9foe210106ILi0EEEPKc
+- __ZNSt3__113random_deviceC1B9foe210106Ev
+- __ZNSt3__115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEE15__init_buf_ptrsB9foe210106Ev
+- __ZNSt3__115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEEC2B9foe210106Ej
+- __ZNSt3__116__pad_and_outputB9foe210106IcNS_11char_traitsIcEEEENS_19ostreambuf_iteratorIT_T0_EES6_PKS4_S8_S8_RNS_8ios_baseES4_
+- __ZNSt3__118basic_stringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEC1B9foe210106Ev
+- __ZNSt3__119__allocate_at_leastB9foe210106INS_9allocatorIN8GPUTools9Interpose20DYObjCMethodOverrideEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS8_m
+- __ZNSt3__119__allocate_at_leastB9foe210106INS_9allocatorINS_4pairI23dy_polymorphic_scalar_tbEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS8_m
+- __ZNSt3__119__allocate_at_leastB9foe210106INS_9allocatorIP23dy_polymorphic_scalar_tEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
+- __ZNSt3__119__allocate_at_leastB9foe210106INS_9allocatorIP23dy_polymorphic_vector_tEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
+- __ZNSt3__119__allocate_at_leastB9foe210106INS_9allocatorIPPvEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
+- __ZNSt3__119basic_ostringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEC1B9foe210106Ev
+- __ZNSt3__120__throw_length_errorB9foe210106EPKc
+- __ZNSt3__120__throw_out_of_rangeB9foe210106EPKc
+- __ZNSt3__122__hash_node_destructorINS_9allocatorINS_11__hash_nodeINS_17__hash_value_typeIPKvNS_12basic_stringIcNS_11char_traitsIcEENS1_IcEEEEEEPvEEEEEclB9foe210106EPSD_
+- __ZNSt3__122__hash_node_destructorINS_9allocatorINS_11__hash_nodeINS_17__hash_value_typeIiNS_12basic_stringIcNS_11char_traitsIcEENS1_IcEEEEEEPvEEEEEclB9foe210106EPSB_
+- __ZNSt3__122__hash_node_destructorINS_9allocatorINS_11__hash_nodeINS_17__hash_value_typeIyNS_12basic_stringIcNS_11char_traitsIcEENS1_IcEEEEEEPvEEEEEclB9foe210106EPSB_
+- __ZNSt3__124__put_character_sequenceB9foe210106IcNS_11char_traitsIcEEEERNS_13basic_ostreamIT_T0_EES7_PKS4_m
+- __ZNSt3__125__throw_bad_function_callB9foe210106Ev
+- __ZNSt3__128__exception_guard_exceptionsINS_6vectorIN8GPUTools2FB4FbufENS_9allocatorIS4_EEE16__destroy_vectorEED2B9foe210106Ev
+- __ZNSt3__132__internal_log_hardening_failureEPKc
+- __ZNSt3__15dequeI23dy_polymorphic_scalar_tNS_9allocatorIS1_EEE26__maybe_remove_front_spareB9foe210106Eb
+- __ZNSt3__15dequeI23dy_polymorphic_scalar_tNS_9allocatorIS1_EEE9pop_frontEv
+- __ZNSt3__15dequeI23dy_polymorphic_scalar_tNS_9allocatorIS1_EEED2B9foe210106Ev
+- __ZNSt3__15dequeI23dy_polymorphic_vector_tNS_9allocatorIS1_EEE26__maybe_remove_front_spareB9foe210106Eb
+- __ZNSt3__15dequeI23dy_polymorphic_vector_tNS_9allocatorIS1_EEE9pop_frontEv
+- __ZNSt3__15dequeI23dy_polymorphic_vector_tNS_9allocatorIS1_EEED2B9foe210106Ev
+- __ZNSt3__16vectorI14TextTableEntryNS_9allocatorIS1_EEE20__throw_length_errorB9foe210106Ev
+- __ZNSt3__16vectorIN8GPUTools2FB4FbufENS_9allocatorIS3_EEE20__throw_length_errorB9foe210106Ev
+- __ZNSt3__16vectorIN8GPUTools2FB4FbufENS_9allocatorIS3_EEED2B9foe210106Ev
+- __ZNSt3__16vectorIN8GPUTools9Interpose20DYObjCMethodOverrideENS_9allocatorIS3_EEE11__vallocateB9foe210106Em
+- __ZNSt3__16vectorIN8GPUTools9Interpose20DYObjCMethodOverrideENS_9allocatorIS3_EEE16__init_with_sizeB9foe210106IPKS3_S9_EEvT_T0_m
+- __ZNSt3__16vectorIN8GPUTools9Interpose20DYObjCMethodOverrideENS_9allocatorIS3_EEE20__throw_length_errorB9foe210106Ev
+- __ZNSt3__16vectorINS_4pairI23dy_polymorphic_scalar_tbEENS_9allocatorIS3_EEE20__throw_length_errorB9foe210106Ev
+- __ZNSt3__16vectorINS_4pairI23dy_polymorphic_scalar_tbEENS_9allocatorIS3_EEE9push_backB9foe210106EOS3_
+- __ZNSt3__16vectorIPPvNS_9allocatorIS2_EEE20__throw_length_errorB9foe210106Ev
+- __ZNSt3__16vectorIPPvNS_9allocatorIS2_EEE9push_backB9foe210106EOS2_
+- __ZNSt3__16vectorIjNS_9allocatorIjEEE20__throw_length_errorB9foe210106Ev
+- __ZNSt3__1eqB9foe210106IcNS_11char_traitsIcEENS_9allocatorIcEEEEbRKNS_12basic_stringIT_T0_T1_EEPKS6_
+- __ZSt28__throw_bad_array_new_lengthB9foe210106v
+Functions:
+~ __ZN8GPUTools9Interpose28DYInstallObjCMethodOverridesERKNSt3__16vectorINS0_20DYObjCMethodOverrideENS1_9allocatorIS3_EEEE : 468 -> 224
+~ __ZN8GPUTools2FB6Stream13WriteFunctionERKNS_2FD8FunctionE : 852 -> 728
+~ _DYFillVMStatisticsFromDictionary : 564 -> 548
+~ __ZNSt3__112__hash_tableINS_17__hash_value_typeIPvyEENS_22__unordered_map_hasherIS2_NS_4pairIKS2_yEENS_4hashIS2_EENS_8equal_toIS2_EELb1EEENS_21__unordered_map_equalIS2_S7_SB_S9_Lb1EEENS_9allocatorIS7_EEE5eraseENS_21__hash_const_iteratorIPNS_11__hash_nodeIS3_S2_EEEE : 112 -> 68
+~ __ZNK8GPUTools2FB7Decoder6DecodeEPKvmRNS_2FD8FunctionE : 1676 -> 1552
+~ __ZN8GPUTools2FB20FIFOArgumentProvider8GetUInt8Ev : 96 -> 92
+~ __ZN8GPUTools2FB20FIFOArgumentProvider9GetUInt16Ev : 96 -> 92
+~ __ZN8GPUTools2FB20FIFOArgumentProvider9GetUInt32Ev : 96 -> 92
+~ __ZN8GPUTools2FB20FIFOArgumentProvider9GetUInt64Ev : 92 -> 88
+~ __ZN8GPUTools2FB20FIFOArgumentProvider10GetUIntPtrEv : 92 -> 88
+~ __ZN8GPUTools2FB20FIFOArgumentProvider8GetFloatEv : 104 -> 92
+~ __ZN8GPUTools2FB20FIFOArgumentProvider9GetDoubleEv : 100 -> 88
+~ __ZN8GPUTools2FB20FIFOArgumentProvider14GetVoidPointerEv : 92 -> 88
+~ __ZN8GPUTools2FB20FIFOArgumentProvider14GetCharPointerEv : 92 -> 88
+~ __ZN8GPUTools2FB24FunctionArgumentProvider8GetUInt8Ev : 88 -> 28
+~ __ZN8GPUTools2FB24FunctionArgumentProvider9GetUInt16Ev : 88 -> 28
+~ __ZN8GPUTools2FB24FunctionArgumentProvider9GetUInt32Ev : 88 -> 28
+~ __ZN8GPUTools2FB24FunctionArgumentProvider9GetUInt64Ev : 88 -> 28
+~ __ZN8GPUTools2FB24FunctionArgumentProvider10GetUIntPtrEv : 88 -> 28
+~ __ZN8GPUTools2FB24FunctionArgumentProvider8GetFloatEv : 88 -> 28
+~ __ZN8GPUTools2FB24FunctionArgumentProvider9GetDoubleEv : 88 -> 28
+~ __ZN8GPUTools2FB24FunctionArgumentProvider14GetVoidPointerEv : 88 -> 28
+~ __ZN8GPUTools2FB24FunctionArgumentProvider14GetCharPointerEv : 88 -> 28
+~ __ZN8GPUTools2FB27FIFOPointerArgumentProvider8GetUInt8Ev : 96 -> 92
+~ __ZN8GPUTools2FB27FIFOPointerArgumentProvider9GetUInt16Ev : 96 -> 92
+~ __ZN8GPUTools2FB27FIFOPointerArgumentProvider9GetUInt32Ev : 96 -> 92
+~ __ZN8GPUTools2FB27FIFOPointerArgumentProvider9GetUInt64Ev : 96 -> 92
+~ __ZN8GPUTools2FB27FIFOPointerArgumentProvider10GetUIntPtrEv : 96 -> 92
+~ __ZN8GPUTools2FB27FIFOPointerArgumentProvider8GetFloatEv : 104 -> 92
+~ __ZN8GPUTools2FB27FIFOPointerArgumentProvider9GetDoubleEv : 104 -> 92
+~ __ZN8GPUTools2FB27FIFOPointerArgumentProvider14GetVoidPointerEv : 96 -> 92
+~ __ZN8GPUTools2FB27FIFOPointerArgumentProvider14GetCharPointerEv : 96 -> 92
+- __ZNSt3__15dequeI23dy_polymorphic_vector_tNS_9allocatorIS1_EEE9pop_frontEv
+~ __ZN8GPUTools10StatisticsC2EPKNS0_7elementEm : 2100 -> 1360
+CStrings:
+- "/AppleInternal/Library/BuildRoots/4~CJlkugAuTpBdib00ZFkVRbbQ89UkmxxXFd_jJwU/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__hash_table:1892: libc++ Hardening assertion __p != end() failed: unordered container::erase(iterator) called with a non-dereferenceable iterator\n"
+- "/AppleInternal/Library/BuildRoots/4~CJlkugAuTpBdib00ZFkVRbbQ89UkmxxXFd_jJwU/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__vector/vector.h:406: libc++ Hardening assertion __n < size() failed: vector[] index out of bounds\n"
+- "/AppleInternal/Library/BuildRoots/4~CJlkugAuTpBdib00ZFkVRbbQ89UkmxxXFd_jJwU/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__vector/vector.h:410: libc++ Hardening assertion __n < size() failed: vector[] index out of bounds\n"
+- "/AppleInternal/Library/BuildRoots/4~CJlkugAuTpBdib00ZFkVRbbQ89UkmxxXFd_jJwU/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__vector/vector.h:425: libc++ Hardening assertion !empty() failed: front() called on an empty vector\n"
+- "/AppleInternal/Library/BuildRoots/4~CJlkugAuTpBdib00ZFkVRbbQ89UkmxxXFd_jJwU/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__vector/vector.h:433: libc++ Hardening assertion !empty() failed: back() called on an empty vector\n"
+- "/AppleInternal/Library/BuildRoots/4~CJlkugAuTpBdib00ZFkVRbbQ89UkmxxXFd_jJwU/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__vector/vector.h:486: libc++ Hardening assertion !empty() failed: vector::pop_back called on an empty vector\n"
+- "/AppleInternal/Library/BuildRoots/4~CJlkugAuTpBdib00ZFkVRbbQ89UkmxxXFd_jJwU/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/deque:1553: libc++ Hardening assertion !empty() failed: deque::front called on an empty deque\n"
+- "/AppleInternal/Library/BuildRoots/4~CJlkugAuTpBdib00ZFkVRbbQ89UkmxxXFd_jJwU/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/deque:2296: libc++ Hardening assertion !empty() failed: deque::pop_front called on an empty deque\n"
+
+```

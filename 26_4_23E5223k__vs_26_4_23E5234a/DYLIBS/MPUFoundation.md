@@ -1,0 +1,129 @@
+## MPUFoundation
+
+> `/System/Library/PrivateFrameworks/MPUFoundation.framework/MPUFoundation`
+
+```diff
+
+ 4025.100.2.0.0
+-  __TEXT.__text: 0x19d34
+-  __TEXT.__auth_stubs: 0x7c0
++  __TEXT.__text: 0x199d4
++  __TEXT.__auth_stubs: 0x7b0
+   __TEXT.__objc_methlist: 0x22a4
+-  __TEXT.__cstring: 0x1c62
++  __TEXT.__cstring: 0xc90
+   __TEXT.__const: 0x160
+   __TEXT.__gcc_except_tab: 0x454
+   __TEXT.__dlopen_cstrs: 0x8e
+
+   __DATA_CONST.__objc_selrefs: 0x1920
+   __DATA_CONST.__objc_protorefs: 0x8
+   __DATA_CONST.__objc_superrefs: 0xb8
+-  __AUTH_CONST.__auth_got: 0x3f8
++  __AUTH_CONST.__auth_got: 0x3f0
+   __AUTH_CONST.__const: 0x90
+   __AUTH_CONST.__cfstring: 0xe60
+   __AUTH_CONST.__objc_const: 0x5318
+
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libxml2.2.dylib
+-  UUID: 76C30101-AD67-3CCD-910B-38317D820616
++  UUID: 6D4323AD-D3C2-3D4D-A511-DB7EECD21800
+   Functions: 773
+-  Symbols:   2995
+-  CStrings:  1603
++  Symbols:   2994
++  CStrings:  1592
+ 
+Symbols:
++ __ZNKSt3__111__copy_implclB9nqe210106IPN3MPU18LayoutInterpolator16EntriesContainerES5_S5_EENS_4pairIT_T1_EES7_T0_S8_
++ __ZNKSt3__129_AllocatorDestroyRangeReverseINS_9allocatorIN3MPU18LayoutInterpolator16EntriesContainerEEEPS4_EclB9nqe210106Ev
++ __ZNSt12length_errorC1B9nqe210106EPKc
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_length_errorB9nqe210106Ev
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC1B9nqe210106ILi0EEEPKc
++ __ZNSt3__114__split_bufferIN3MPU18LayoutInterpolator16EntriesContainerERNS_9allocatorIS3_EEE17__destruct_at_endB9nqe210106EPS3_
++ __ZNSt3__115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEE15__init_buf_ptrsB9nqe210106Ev
++ __ZNSt3__115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEEC2B9nqe210106Ej
++ __ZNSt3__116__pad_and_outputB9nqe210106IcNS_11char_traitsIcEEEENS_19ostreambuf_iteratorIT_T0_EES6_PKS4_S8_S8_RNS_8ios_baseES4_
++ __ZNSt3__119__allocate_at_leastB9nqe210106INS_9allocatorIN3MPU18LayoutInterpolator16EntriesContainerEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS8_m
++ __ZNSt3__119__allocate_at_leastB9nqe210106INS_9allocatorIN3MPU18LayoutInterpolator5EntryEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS8_m
++ __ZNSt3__119__allocate_at_leastB9nqe210106INS_9allocatorIN3MPU7Point3DEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
++ __ZNSt3__119basic_ostringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEC1B9nqe210106Ev
++ __ZNSt3__120__throw_length_errorB9nqe210106EPKc
++ __ZNSt3__124__put_character_sequenceB9nqe210106IcNS_11char_traitsIcEEEERNS_13basic_ostreamIT_T0_EES7_PKS4_m
++ __ZNSt3__127__insertion_sort_incompleteB9nqe210106INS_17_ClassicAlgPolicyERZ73-[MPULayoutInterpolator _sortPointsFor3DInterpolation:usingQueriedPoint:]E3$_4PN3MPU7Point3DEEEbT1_S7_T0_
++ __ZNSt3__128__exception_guard_exceptionsINS_29_AllocatorDestroyRangeReverseINS_9allocatorIN3MPU18LayoutInterpolator16EntriesContainerEEEPS5_EEED2B9nqe210106Ev
++ __ZNSt3__134__uninitialized_allocator_relocateB9nqe210106INS_9allocatorIN3MPU18LayoutInterpolator16EntriesContainerEEEPS4_EEvRT_T0_S9_S9_
++ __ZNSt3__135__uninitialized_allocator_copy_implB9nqe210106INS_9allocatorIN3MPU18LayoutInterpolator16EntriesContainerEEEPS4_S6_S6_EET2_RT_T0_T1_S7_
++ __ZNSt3__16vectorIN3MPU18LayoutInterpolator16EntriesContainerENS_9allocatorIS3_EEE11__vallocateB9nqe210106Em
++ __ZNSt3__16vectorIN3MPU18LayoutInterpolator16EntriesContainerENS_9allocatorIS3_EEE16__destroy_vectorclB9nqe210106Ev
++ __ZNSt3__16vectorIN3MPU18LayoutInterpolator16EntriesContainerENS_9allocatorIS3_EEE18__assign_with_sizeB9nqe210106IPS3_S8_EEvT_T0_l
++ __ZNSt3__16vectorIN3MPU18LayoutInterpolator16EntriesContainerENS_9allocatorIS3_EEE20__throw_length_errorB9nqe210106Ev
++ __ZNSt3__16vectorIN3MPU18LayoutInterpolator16EntriesContainerENS_9allocatorIS3_EEE30__emplace_back_assume_capacityB9nqe210106IJRKS3_EEEvDpOT_
++ __ZNSt3__16vectorIN3MPU18LayoutInterpolator16EntriesContainerENS_9allocatorIS3_EEE5clearB9nqe210106Ev
++ __ZNSt3__16vectorIN3MPU18LayoutInterpolator5EntryENS_9allocatorIS3_EEE11__vallocateB9nqe210106Em
++ __ZNSt3__16vectorIN3MPU18LayoutInterpolator5EntryENS_9allocatorIS3_EEE16__init_with_sizeB9nqe210106IPS3_S8_EEvT_T0_m
++ __ZNSt3__16vectorIN3MPU18LayoutInterpolator5EntryENS_9allocatorIS3_EEE18__assign_with_sizeB9nqe210106IPS3_S8_EEvT_T0_l
++ __ZNSt3__16vectorIN3MPU18LayoutInterpolator5EntryENS_9allocatorIS3_EEE20__throw_length_errorB9nqe210106Ev
++ __ZNSt3__16vectorIN3MPU7Point3DENS_9allocatorIS2_EEE20__throw_length_errorB9nqe210106Ev
++ __ZNSt3__17__sort3B9nqe210106INS_17_ClassicAlgPolicyERZ73-[MPULayoutInterpolator _sortPointsFor3DInterpolation:usingQueriedPoint:]E3$_4PN3MPU7Point3DELi0EEEbT1_S7_S7_T0_
++ __ZNSt3__17__sort5B9nqe210106INS_17_ClassicAlgPolicyERZ73-[MPULayoutInterpolator _sortPointsFor3DInterpolation:usingQueriedPoint:]E3$_4PN3MPU7Point3DELi0EEEvT1_S7_S7_S7_S7_T0_
++ __ZSt28__throw_bad_array_new_lengthB9nqe210106v
+- __ZNKSt3__111__copy_implclB9foe210106IPN3MPU18LayoutInterpolator16EntriesContainerES5_S5_EENS_4pairIT_T1_EES7_T0_S8_
+- __ZNKSt3__129_AllocatorDestroyRangeReverseINS_9allocatorIN3MPU18LayoutInterpolator16EntriesContainerEEEPS4_EclB9foe210106Ev
+- __ZNSt12length_errorC1B9foe210106EPKc
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_length_errorB9foe210106Ev
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC1B9foe210106ILi0EEEPKc
+- __ZNSt3__114__split_bufferIN3MPU18LayoutInterpolator16EntriesContainerERNS_9allocatorIS3_EEE17__destruct_at_endB9foe210106EPS3_
+- __ZNSt3__115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEE15__init_buf_ptrsB9foe210106Ev
+- __ZNSt3__115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEEC2B9foe210106Ej
+- __ZNSt3__116__pad_and_outputB9foe210106IcNS_11char_traitsIcEEEENS_19ostreambuf_iteratorIT_T0_EES6_PKS4_S8_S8_RNS_8ios_baseES4_
+- __ZNSt3__119__allocate_at_leastB9foe210106INS_9allocatorIN3MPU18LayoutInterpolator16EntriesContainerEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS8_m
+- __ZNSt3__119__allocate_at_leastB9foe210106INS_9allocatorIN3MPU18LayoutInterpolator5EntryEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS8_m
+- __ZNSt3__119__allocate_at_leastB9foe210106INS_9allocatorIN3MPU7Point3DEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
+- __ZNSt3__119basic_ostringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEC1B9foe210106Ev
+- __ZNSt3__120__throw_length_errorB9foe210106EPKc
+- __ZNSt3__124__put_character_sequenceB9foe210106IcNS_11char_traitsIcEEEERNS_13basic_ostreamIT_T0_EES7_PKS4_m
+- __ZNSt3__127__insertion_sort_incompleteB9foe210106INS_17_ClassicAlgPolicyERZ73-[MPULayoutInterpolator _sortPointsFor3DInterpolation:usingQueriedPoint:]E3$_4PN3MPU7Point3DEEEbT1_S7_T0_
+- __ZNSt3__128__exception_guard_exceptionsINS_29_AllocatorDestroyRangeReverseINS_9allocatorIN3MPU18LayoutInterpolator16EntriesContainerEEEPS5_EEED2B9foe210106Ev
+- __ZNSt3__132__internal_log_hardening_failureEPKc
+- __ZNSt3__134__uninitialized_allocator_relocateB9foe210106INS_9allocatorIN3MPU18LayoutInterpolator16EntriesContainerEEEPS4_EEvRT_T0_S9_S9_
+- __ZNSt3__135__uninitialized_allocator_copy_implB9foe210106INS_9allocatorIN3MPU18LayoutInterpolator16EntriesContainerEEEPS4_S6_S6_EET2_RT_T0_T1_S7_
+- __ZNSt3__16vectorIN3MPU18LayoutInterpolator16EntriesContainerENS_9allocatorIS3_EEE11__vallocateB9foe210106Em
+- __ZNSt3__16vectorIN3MPU18LayoutInterpolator16EntriesContainerENS_9allocatorIS3_EEE16__destroy_vectorclB9foe210106Ev
+- __ZNSt3__16vectorIN3MPU18LayoutInterpolator16EntriesContainerENS_9allocatorIS3_EEE18__assign_with_sizeB9foe210106IPS3_S8_EEvT_T0_l
+- __ZNSt3__16vectorIN3MPU18LayoutInterpolator16EntriesContainerENS_9allocatorIS3_EEE20__throw_length_errorB9foe210106Ev
+- __ZNSt3__16vectorIN3MPU18LayoutInterpolator16EntriesContainerENS_9allocatorIS3_EEE30__emplace_back_assume_capacityB9foe210106IJRKS3_EEEvDpOT_
+- __ZNSt3__16vectorIN3MPU18LayoutInterpolator16EntriesContainerENS_9allocatorIS3_EEE5clearB9foe210106Ev
+- __ZNSt3__16vectorIN3MPU18LayoutInterpolator5EntryENS_9allocatorIS3_EEE11__vallocateB9foe210106Em
+- __ZNSt3__16vectorIN3MPU18LayoutInterpolator5EntryENS_9allocatorIS3_EEE16__init_with_sizeB9foe210106IPS3_S8_EEvT_T0_m
+- __ZNSt3__16vectorIN3MPU18LayoutInterpolator5EntryENS_9allocatorIS3_EEE18__assign_with_sizeB9foe210106IPS3_S8_EEvT_T0_l
+- __ZNSt3__16vectorIN3MPU18LayoutInterpolator5EntryENS_9allocatorIS3_EEE20__throw_length_errorB9foe210106Ev
+- __ZNSt3__16vectorIN3MPU7Point3DENS_9allocatorIS2_EEE20__throw_length_errorB9foe210106Ev
+- __ZNSt3__17__sort3B9foe210106INS_17_ClassicAlgPolicyERZ73-[MPULayoutInterpolator _sortPointsFor3DInterpolation:usingQueriedPoint:]E3$_4PN3MPU7Point3DELi0EEEbT1_S7_S7_T0_
+- __ZNSt3__17__sort5B9foe210106INS_17_ClassicAlgPolicyERZ73-[MPULayoutInterpolator _sortPointsFor3DInterpolation:usingQueriedPoint:]E3$_4PN3MPU7Point3DELi0EEEvT1_S7_S7_S7_S7_T0_
+- __ZSt28__throw_bad_array_new_lengthB9foe210106v
+Functions:
+~ __ZNSt3__16vectorIN3MPU18LayoutInterpolator16EntriesContainerENS_9allocatorIS3_EEE6insertENS_11__wrap_iterIPKS3_EERS8_ : 364 -> 340
+~ -[MPULayoutInterpolator valueForReferenceMetric:secondaryReferenceMetric:] : 900 -> 872
+~ -[MPULayoutInterpolator _interpolatedValueForPrimaryReferenceMetric:secondaryReferenceMetric:betweenFirstEntriesContainer:andSecondEntriesContainer:] : 1148 -> 1092
+~ __ZNSt3__16vectorIN3MPU7Point3DENS_9allocatorIS2_EEE6insertENS_11__wrap_iterIPKS2_EERS7_ : 576 -> 552
+~ __ZNSt3__111__introsortINS_17_ClassicAlgPolicyERZ73-[MPULayoutInterpolator _sortPointsFor3DInterpolation:usingQueriedPoint:]E3$_4PN3MPU7Point3DELb0EEEvT1_S7_T0_NS_15iterator_traitsIS7_E15difference_typeEb : 3652 -> 3128
+~ __ZN3MPU7Point3D55resolveEquationOfPlaneDefinedByFirstThreePointsInVectorERNSt3__16vectorIS0_NS1_9allocatorIS0_EEEEPdS7_S7_ : 564 -> 436
+~ __ZN3MPU18LayoutInterpolator16EntriesContainer11insertEntryENS0_5EntryE : 596 -> 540
+~ __ZNSt3__16vectorIN3MPU18LayoutInterpolator5EntryENS_9allocatorIS3_EEE6insertENS_11__wrap_iterIPKS3_EERS8_ : 484 -> 460
+CStrings:
+- "/AppleInternal/Library/BuildRoots/4~CJlougBlDhoUeHr3muTRXuGupP94Vc5I-2ikjPY/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__algorithm/sort.h:293: libc++ Hardening assertion __k != __leftmost failed: Would read out of bounds, does your comparator satisfy the strict-weak ordering requirement?\n"
+- "/AppleInternal/Library/BuildRoots/4~CJlougBlDhoUeHr3muTRXuGupP94Vc5I-2ikjPY/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__algorithm/sort.h:603: libc++ Hardening assertion __first != __end failed: Would read out of bounds, does your comparator satisfy the strict-weak ordering requirement?\n"
+- "/AppleInternal/Library/BuildRoots/4~CJlougBlDhoUeHr3muTRXuGupP94Vc5I-2ikjPY/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__algorithm/sort.h:615: libc++ Hardening assertion __last != __begin failed: Would read out of bounds, does your comparator satisfy the strict-weak ordering requirement?\n"
+- "/AppleInternal/Library/BuildRoots/4~CJlougBlDhoUeHr3muTRXuGupP94Vc5I-2ikjPY/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__algorithm/sort.h:633: libc++ Hardening assertion __first != __end failed: Would read out of bounds, does your comparator satisfy the strict-weak ordering requirement?\n"
+- "/AppleInternal/Library/BuildRoots/4~CJlougBlDhoUeHr3muTRXuGupP94Vc5I-2ikjPY/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__algorithm/sort.h:638: libc++ Hardening assertion __last != __begin failed: Would read out of bounds, does your comparator satisfy the strict-weak ordering requirement?\n"
+- "/AppleInternal/Library/BuildRoots/4~CJlougBlDhoUeHr3muTRXuGupP94Vc5I-2ikjPY/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__algorithm/sort.h:669: libc++ Hardening assertion __first != __end failed: Would read out of bounds, does your comparator satisfy the strict-weak ordering requirement?\n"
+- "/AppleInternal/Library/BuildRoots/4~CJlougBlDhoUeHr3muTRXuGupP94Vc5I-2ikjPY/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__algorithm/sort.h:682: libc++ Hardening assertion __last != __begin failed: Would read out of bounds, does your comparator satisfy the strict-weak ordering requirement?\n"
+- "/AppleInternal/Library/BuildRoots/4~CJlougBlDhoUeHr3muTRXuGupP94Vc5I-2ikjPY/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__algorithm/sort.h:692: libc++ Hardening assertion __first != __end failed: Would read out of bounds, does your comparator satisfy the strict-weak ordering requirement?\n"
+- "/AppleInternal/Library/BuildRoots/4~CJlougBlDhoUeHr3muTRXuGupP94Vc5I-2ikjPY/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__algorithm/sort.h:697: libc++ Hardening assertion __last != __begin failed: Would read out of bounds, does your comparator satisfy the strict-weak ordering requirement?\n"
+- "/AppleInternal/Library/BuildRoots/4~CJlougBlDhoUeHr3muTRXuGupP94Vc5I-2ikjPY/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__utility/is_pointer_in_range.h:38: libc++ Hardening assertion std::__is_valid_range(__begin, __end) failed: [__begin, __end) is not a valid range\n"
+- "/AppleInternal/Library/BuildRoots/4~CJlougBlDhoUeHr3muTRXuGupP94Vc5I-2ikjPY/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__vector/vector.h:406: libc++ Hardening assertion __n < size() failed: vector[] index out of bounds\n"
+
+```

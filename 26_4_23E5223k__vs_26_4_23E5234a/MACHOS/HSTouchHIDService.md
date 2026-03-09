@@ -1,0 +1,465 @@
+## HSTouchHIDService
+
+> `/System/Library/HIDPlugins/ServicePlugins/HSTouchHIDService.plugin/HSTouchHIDService`
+
+```diff
+
+ 9140.3.0.0.0
+-  __TEXT.__text: 0xc13f8
+-  __TEXT.__auth_stubs: 0x1940
++  __TEXT.__text: 0xc0fbc
++  __TEXT.__auth_stubs: 0x1930
+   __TEXT.__objc_stubs: 0x6260
+   __TEXT.__init_offsets: 0x1280
+   __TEXT.__objc_methlist: 0x4a78
+   __TEXT.__const: 0x3dde
+-  __TEXT.__gcc_except_tab: 0xd808
+-  __TEXT.__cstring: 0xb32b
++  __TEXT.__gcc_except_tab: 0xd7f4
++  __TEXT.__cstring: 0xae25
+   __TEXT.__oslogstring: 0x37c7
+   __TEXT.__objc_methname: 0x6f19
+   __TEXT.__objc_classname: 0xb9a
+   __TEXT.__objc_methtype: 0x59a6
+-  __TEXT.__unwind_info: 0x4450
+-  __DATA_CONST.__auth_got: 0xcb0
++  __TEXT.__unwind_info: 0x4430
++  __DATA_CONST.__auth_got: 0xca8
+   __DATA_CONST.__got: 0x270
+   __DATA_CONST.__const: 0x1b70
+   __DATA_CONST.__cfstring: 0x6e40
+
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 7FBBBF91-95EC-3BB6-8BB1-64AD14F148B1
+-  Functions: 4769
+-  Symbols:   26521
+-  CStrings:  4516
++  UUID: B8CA8D40-92D4-32E4-ACD3-F7CF4D04648E
++  Functions: 4762
++  Symbols:   26506
++  CStrings:  4512
+ 
+Symbols:
++ /Library/Caches/com.apple.xbs/155CDCF2-CB6E-46EC-87A8-994106826DBB/TemporaryDirectory.Y8yxWs/Binaries/Multitouch/install/Symbols/BuiltProducts/libHSTPipeline.a(Contact.o)
++ /Library/Caches/com.apple.xbs/155CDCF2-CB6E-46EC-87A8-994106826DBB/TemporaryDirectory.Y8yxWs/Binaries/Multitouch/install/Symbols/BuiltProducts/libHSTPipeline.a(HSTBackboardBridge.o)
++ /Library/Caches/com.apple.xbs/155CDCF2-CB6E-46EC-87A8-994106826DBB/TemporaryDirectory.Y8yxWs/Binaries/Multitouch/install/Symbols/BuiltProducts/libHSTPipeline.a(HSTCREventGenerator.o)
++ /Library/Caches/com.apple.xbs/155CDCF2-CB6E-46EC-87A8-994106826DBB/TemporaryDirectory.Y8yxWs/Binaries/Multitouch/install/Symbols/BuiltProducts/libHSTPipeline.a(HSTCircularBuffer.o)
++ /Library/Caches/com.apple.xbs/155CDCF2-CB6E-46EC-87A8-994106826DBB/TemporaryDirectory.Y8yxWs/Binaries/Multitouch/install/Symbols/BuiltProducts/libHSTPipeline.a(HSTContactStabilizer.o)
++ /Library/Caches/com.apple.xbs/155CDCF2-CB6E-46EC-87A8-994106826DBB/TemporaryDirectory.Y8yxWs/Binaries/Multitouch/install/Symbols/BuiltProducts/libHSTPipeline.a(HSTCoreAnalytics.o)
++ /Library/Caches/com.apple.xbs/155CDCF2-CB6E-46EC-87A8-994106826DBB/TemporaryDirectory.Y8yxWs/Binaries/Multitouch/install/Symbols/BuiltProducts/libHSTPipeline.a(HSTEvent.o)
++ /Library/Caches/com.apple.xbs/155CDCF2-CB6E-46EC-87A8-994106826DBB/TemporaryDirectory.Y8yxWs/Binaries/Multitouch/install/Symbols/BuiltProducts/libHSTPipeline.a(HSTFrame+Python.o)
++ /Library/Caches/com.apple.xbs/155CDCF2-CB6E-46EC-87A8-994106826DBB/TemporaryDirectory.Y8yxWs/Binaries/Multitouch/install/Symbols/BuiltProducts/libHSTPipeline.a(HSTFrame.o)
++ /Library/Caches/com.apple.xbs/155CDCF2-CB6E-46EC-87A8-994106826DBB/TemporaryDirectory.Y8yxWs/Binaries/Multitouch/install/Symbols/BuiltProducts/libHSTPipeline.a(HSTFrameParser.o)
++ /Library/Caches/com.apple.xbs/155CDCF2-CB6E-46EC-87A8-994106826DBB/TemporaryDirectory.Y8yxWs/Binaries/Multitouch/install/Symbols/BuiltProducts/libHSTPipeline.a(HSTHIDEventGenerator.o)
++ /Library/Caches/com.apple.xbs/155CDCF2-CB6E-46EC-87A8-994106826DBB/TemporaryDirectory.Y8yxWs/Binaries/Multitouch/install/Symbols/BuiltProducts/libHSTPipeline.a(HSTHIDEventStatistics.o)
++ /Library/Caches/com.apple.xbs/155CDCF2-CB6E-46EC-87A8-994106826DBB/TemporaryDirectory.Y8yxWs/Binaries/Multitouch/install/Symbols/BuiltProducts/libHSTPipeline.a(HSTHIDEvents.o)
++ /Library/Caches/com.apple.xbs/155CDCF2-CB6E-46EC-87A8-994106826DBB/TemporaryDirectory.Y8yxWs/Binaries/Multitouch/install/Symbols/BuiltProducts/libHSTPipeline.a(HSTPencilVirtualService.o)
++ /Library/Caches/com.apple.xbs/155CDCF2-CB6E-46EC-87A8-994106826DBB/TemporaryDirectory.Y8yxWs/Binaries/Multitouch/install/Symbols/BuiltProducts/libHSTPipeline.a(HSTPipeline_vers.o)
++ /Library/Caches/com.apple.xbs/155CDCF2-CB6E-46EC-87A8-994106826DBB/TemporaryDirectory.Y8yxWs/Binaries/Multitouch/install/Symbols/BuiltProducts/libHSTPipeline.a(HSTRecordingManager.o)
++ /Library/Caches/com.apple.xbs/155CDCF2-CB6E-46EC-87A8-994106826DBB/TemporaryDirectory.Y8yxWs/Binaries/Multitouch/install/Symbols/BuiltProducts/libHSTPipeline.a(HSTSensingAlgs.o)
++ /Library/Caches/com.apple.xbs/155CDCF2-CB6E-46EC-87A8-994106826DBB/TemporaryDirectory.Y8yxWs/Binaries/Multitouch/install/Symbols/BuiltProducts/libHSTPipeline.a(HSTServerStage.o)
++ /Library/Caches/com.apple.xbs/155CDCF2-CB6E-46EC-87A8-994106826DBB/TemporaryDirectory.Y8yxWs/Binaries/Multitouch/install/Symbols/BuiltProducts/libHSTPipeline.a(HSTTipOffsetFilter.o)
++ /Library/Caches/com.apple.xbs/155CDCF2-CB6E-46EC-87A8-994106826DBB/TemporaryDirectory.Y8yxWs/Binaries/Multitouch/install/Symbols/BuiltProducts/libHSTPipeline.a(Types.o)
++ /Library/Caches/com.apple.xbs/155CDCF2-CB6E-46EC-87A8-994106826DBB/TemporaryDirectory.Y8yxWs/Binaries/Multitouch/install/Symbols/BuiltProducts/libTrackpadHostAlg.a(MTActionEvent_.o)
++ /Library/Caches/com.apple.xbs/155CDCF2-CB6E-46EC-87A8-994106826DBB/TemporaryDirectory.Y8yxWs/Binaries/Multitouch/install/Symbols/BuiltProducts/libTrackpadHostAlg.a(MTChordCyclingTrackpad_.o)
++ /Library/Caches/com.apple.xbs/155CDCF2-CB6E-46EC-87A8-994106826DBB/TemporaryDirectory.Y8yxWs/Binaries/Multitouch/install/Symbols/BuiltProducts/libTrackpadHostAlg.a(MTChordCycling_.o)
++ /Library/Caches/com.apple.xbs/155CDCF2-CB6E-46EC-87A8-994106826DBB/TemporaryDirectory.Y8yxWs/Binaries/Multitouch/install/Symbols/BuiltProducts/libTrackpadHostAlg.a(MTChordGestureSet_.o)
++ /Library/Caches/com.apple.xbs/155CDCF2-CB6E-46EC-87A8-994106826DBB/TemporaryDirectory.Y8yxWs/Binaries/Multitouch/install/Symbols/BuiltProducts/libTrackpadHostAlg.a(MTChordIntegrating_.o)
++ /Library/Caches/com.apple.xbs/155CDCF2-CB6E-46EC-87A8-994106826DBB/TemporaryDirectory.Y8yxWs/Binaries/Multitouch/install/Symbols/BuiltProducts/libTrackpadHostAlg.a(MTChordTable_.o)
++ /Library/Caches/com.apple.xbs/155CDCF2-CB6E-46EC-87A8-994106826DBB/TemporaryDirectory.Y8yxWs/Binaries/Multitouch/install/Symbols/BuiltProducts/libTrackpadHostAlg.a(MTFingerEllipseTip_.o)
++ /Library/Caches/com.apple.xbs/155CDCF2-CB6E-46EC-87A8-994106826DBB/TemporaryDirectory.Y8yxWs/Binaries/Multitouch/install/Symbols/BuiltProducts/libTrackpadHostAlg.a(MTFingerToPathMap_.o)
++ /Library/Caches/com.apple.xbs/155CDCF2-CB6E-46EC-87A8-994106826DBB/TemporaryDirectory.Y8yxWs/Binaries/Multitouch/install/Symbols/BuiltProducts/libTrackpadHostAlg.a(MTForceBehavior_.o)
++ /Library/Caches/com.apple.xbs/155CDCF2-CB6E-46EC-87A8-994106826DBB/TemporaryDirectory.Y8yxWs/Binaries/Multitouch/install/Symbols/BuiltProducts/libTrackpadHostAlg.a(MTForceConfig.o)
++ /Library/Caches/com.apple.xbs/155CDCF2-CB6E-46EC-87A8-994106826DBB/TemporaryDirectory.Y8yxWs/Binaries/Multitouch/install/Symbols/BuiltProducts/libTrackpadHostAlg.a(MTForceFilter_.o)
++ /Library/Caches/com.apple.xbs/155CDCF2-CB6E-46EC-87A8-994106826DBB/TemporaryDirectory.Y8yxWs/Binaries/Multitouch/install/Symbols/BuiltProducts/libTrackpadHostAlg.a(MTForceManagement_.o)
++ /Library/Caches/com.apple.xbs/155CDCF2-CB6E-46EC-87A8-994106826DBB/TemporaryDirectory.Y8yxWs/Binaries/Multitouch/install/Symbols/BuiltProducts/libTrackpadHostAlg.a(MTForceThresholding_.o)
++ /Library/Caches/com.apple.xbs/155CDCF2-CB6E-46EC-87A8-994106826DBB/TemporaryDirectory.Y8yxWs/Binaries/Multitouch/install/Symbols/BuiltProducts/libTrackpadHostAlg.a(MTGestureConfig_.o)
++ /Library/Caches/com.apple.xbs/155CDCF2-CB6E-46EC-87A8-994106826DBB/TemporaryDirectory.Y8yxWs/Binaries/Multitouch/install/Symbols/BuiltProducts/libTrackpadHostAlg.a(MTHIDEventAppend.o)
++ /Library/Caches/com.apple.xbs/155CDCF2-CB6E-46EC-87A8-994106826DBB/TemporaryDirectory.Y8yxWs/Binaries/Multitouch/install/Symbols/BuiltProducts/libTrackpadHostAlg.a(MTHandMotion_.o)
++ /Library/Caches/com.apple.xbs/155CDCF2-CB6E-46EC-87A8-994106826DBB/TemporaryDirectory.Y8yxWs/Binaries/Multitouch/install/Symbols/BuiltProducts/libTrackpadHostAlg.a(MTHandStatistics_.o)
++ /Library/Caches/com.apple.xbs/155CDCF2-CB6E-46EC-87A8-994106826DBB/TemporaryDirectory.Y8yxWs/Binaries/Multitouch/install/Symbols/BuiltProducts/libTrackpadHostAlg.a(MTPListGestureConfig_.o)
++ /Library/Caches/com.apple.xbs/155CDCF2-CB6E-46EC-87A8-994106826DBB/TemporaryDirectory.Y8yxWs/Binaries/Multitouch/install/Symbols/BuiltProducts/libTrackpadHostAlg.a(MTParameterFactory_.o)
++ /Library/Caches/com.apple.xbs/155CDCF2-CB6E-46EC-87A8-994106826DBB/TemporaryDirectory.Y8yxWs/Binaries/Multitouch/install/Symbols/BuiltProducts/libTrackpadHostAlg.a(MTParserPath_.o)
++ /Library/Caches/com.apple.xbs/155CDCF2-CB6E-46EC-87A8-994106826DBB/TemporaryDirectory.Y8yxWs/Binaries/Multitouch/install/Symbols/BuiltProducts/libTrackpadHostAlg.a(MTPathStates_.o)
++ /Library/Caches/com.apple.xbs/155CDCF2-CB6E-46EC-87A8-994106826DBB/TemporaryDirectory.Y8yxWs/Binaries/Multitouch/install/Symbols/BuiltProducts/libTrackpadHostAlg.a(MTRestZoneIntegrator_.o)
++ /Library/Caches/com.apple.xbs/155CDCF2-CB6E-46EC-87A8-994106826DBB/TemporaryDirectory.Y8yxWs/Binaries/Multitouch/install/Symbols/BuiltProducts/libTrackpadHostAlg.a(MTSlideGesture_.o)
++ /Library/Caches/com.apple.xbs/155CDCF2-CB6E-46EC-87A8-994106826DBB/TemporaryDirectory.Y8yxWs/Binaries/Multitouch/install/Symbols/BuiltProducts/libTrackpadHostAlg.a(MTSurfaceDimensions_.o)
++ /Library/Caches/com.apple.xbs/155CDCF2-CB6E-46EC-87A8-994106826DBB/TemporaryDirectory.Y8yxWs/Binaries/Multitouch/install/Symbols/BuiltProducts/libTrackpadHostAlg.a(MTTapDragManager_.o)
++ /Library/Caches/com.apple.xbs/155CDCF2-CB6E-46EC-87A8-994106826DBB/TemporaryDirectory.Y8yxWs/Binaries/Multitouch/install/Symbols/BuiltProducts/libTrackpadHostAlg.a(MTTrackpadUberAlg.o)
++ /Library/Caches/com.apple.xbs/155CDCF2-CB6E-46EC-87A8-994106826DBB/TemporaryDirectory.Y8yxWs/Binaries/Multitouch/install/Symbols/BuiltProducts/libTrackpadHostAlg.a(USBKey.o)
++ /Library/Caches/com.apple.xbs/155CDCF2-CB6E-46EC-87A8-994106826DBB/TemporaryDirectory.Y8yxWs/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTPipeline.build/DerivedSources/
++ /Library/Caches/com.apple.xbs/155CDCF2-CB6E-46EC-87A8-994106826DBB/TemporaryDirectory.Y8yxWs/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/DerivedSources/
++ /Library/Caches/com.apple.xbs/155CDCF2-CB6E-46EC-87A8-994106826DBB/TemporaryDirectory.Y8yxWs/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/ActuationManager.o
++ /Library/Caches/com.apple.xbs/155CDCF2-CB6E-46EC-87A8-994106826DBB/TemporaryDirectory.Y8yxWs/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/ActuationMultipliers.o
++ /Library/Caches/com.apple.xbs/155CDCF2-CB6E-46EC-87A8-994106826DBB/TemporaryDirectory.Y8yxWs/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/ActuationTone.o
++ /Library/Caches/com.apple.xbs/155CDCF2-CB6E-46EC-87A8-994106826DBB/TemporaryDirectory.Y8yxWs/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/ActuationWaveform.o
++ /Library/Caches/com.apple.xbs/155CDCF2-CB6E-46EC-87A8-994106826DBB/TemporaryDirectory.Y8yxWs/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/ActuatorLimits.o
++ /Library/Caches/com.apple.xbs/155CDCF2-CB6E-46EC-87A8-994106826DBB/TemporaryDirectory.Y8yxWs/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/CoreAccessoryManager.o
++ /Library/Caches/com.apple.xbs/155CDCF2-CB6E-46EC-87A8-994106826DBB/TemporaryDirectory.Y8yxWs/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/EmbeddedTrackpadFirmwareManager.o
++ /Library/Caches/com.apple.xbs/155CDCF2-CB6E-46EC-87A8-994106826DBB/TemporaryDirectory.Y8yxWs/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/EmbeddedTrackpadHIDEventProcessor.o
++ /Library/Caches/com.apple.xbs/155CDCF2-CB6E-46EC-87A8-994106826DBB/TemporaryDirectory.Y8yxWs/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/FirmwareUtil.o
++ /Library/Caches/com.apple.xbs/155CDCF2-CB6E-46EC-87A8-994106826DBB/TemporaryDirectory.Y8yxWs/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/HSMousePipelineCreation.o
++ /Library/Caches/com.apple.xbs/155CDCF2-CB6E-46EC-87A8-994106826DBB/TemporaryDirectory.Y8yxWs/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/HSTFirmwareManager.o
++ /Library/Caches/com.apple.xbs/155CDCF2-CB6E-46EC-87A8-994106826DBB/TemporaryDirectory.Y8yxWs/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/HSTPipelineCreation.o
++ /Library/Caches/com.apple.xbs/155CDCF2-CB6E-46EC-87A8-994106826DBB/TemporaryDirectory.Y8yxWs/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/HSTSAPipelineCreation.o
++ /Library/Caches/com.apple.xbs/155CDCF2-CB6E-46EC-87A8-994106826DBB/TemporaryDirectory.Y8yxWs/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/HSTTelemetryAnalyticsStage.o
++ /Library/Caches/com.apple.xbs/155CDCF2-CB6E-46EC-87A8-994106826DBB/TemporaryDirectory.Y8yxWs/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/HSTouchHIDService.o
++ /Library/Caches/com.apple.xbs/155CDCF2-CB6E-46EC-87A8-994106826DBB/TemporaryDirectory.Y8yxWs/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/HSTouchHIDService_vers.o
++ /Library/Caches/com.apple.xbs/155CDCF2-CB6E-46EC-87A8-994106826DBB/TemporaryDirectory.Y8yxWs/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/HSTrackpadDefs.o
++ /Library/Caches/com.apple.xbs/155CDCF2-CB6E-46EC-87A8-994106826DBB/TemporaryDirectory.Y8yxWs/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/HSTrackpadPipelineCreation.o
++ /Library/Caches/com.apple.xbs/155CDCF2-CB6E-46EC-87A8-994106826DBB/TemporaryDirectory.Y8yxWs/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/MTGestureConfigGenerator.o
++ /Library/Caches/com.apple.xbs/155CDCF2-CB6E-46EC-87A8-994106826DBB/TemporaryDirectory.Y8yxWs/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/MTPluginLogging.o
++ /Library/Caches/com.apple.xbs/155CDCF2-CB6E-46EC-87A8-994106826DBB/TemporaryDirectory.Y8yxWs/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/MTPreferences.o
++ /Library/Caches/com.apple.xbs/155CDCF2-CB6E-46EC-87A8-994106826DBB/TemporaryDirectory.Y8yxWs/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/MacOSTrackpadHIDEventProcessor.o
++ /Library/Caches/com.apple.xbs/155CDCF2-CB6E-46EC-87A8-994106826DBB/TemporaryDirectory.Y8yxWs/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/MacTrackpadBridge.o
++ /Library/Caches/com.apple.xbs/155CDCF2-CB6E-46EC-87A8-994106826DBB/TemporaryDirectory.Y8yxWs/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/MomentumCurve.o
++ /Library/Caches/com.apple.xbs/155CDCF2-CB6E-46EC-87A8-994106826DBB/TemporaryDirectory.Y8yxWs/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/MouseBridge.o
++ /Library/Caches/com.apple.xbs/155CDCF2-CB6E-46EC-87A8-994106826DBB/TemporaryDirectory.Y8yxWs/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/PeppyHIDService.o
++ /Library/Caches/com.apple.xbs/155CDCF2-CB6E-46EC-87A8-994106826DBB/TemporaryDirectory.Y8yxWs/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/PointerBridge.o
++ /Library/Caches/com.apple.xbs/155CDCF2-CB6E-46EC-87A8-994106826DBB/TemporaryDirectory.Y8yxWs/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/PointerHIDEventProcessor.o
++ /Library/Caches/com.apple.xbs/155CDCF2-CB6E-46EC-87A8-994106826DBB/TemporaryDirectory.Y8yxWs/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/PointerSettings.o
++ /Library/Caches/com.apple.xbs/155CDCF2-CB6E-46EC-87A8-994106826DBB/TemporaryDirectory.Y8yxWs/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/TrackpadActuatorStage.o
++ /Library/Caches/com.apple.xbs/155CDCF2-CB6E-46EC-87A8-994106826DBB/TemporaryDirectory.Y8yxWs/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/TrackpadAlgStage.o
++ /Library/Caches/com.apple.xbs/155CDCF2-CB6E-46EC-87A8-994106826DBB/TemporaryDirectory.Y8yxWs/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/TrackpadBridge.o
++ /Library/Caches/com.apple.xbs/155CDCF2-CB6E-46EC-87A8-994106826DBB/TemporaryDirectory.Y8yxWs/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/TrackpadFirmwareManager.o
++ /Library/Caches/com.apple.xbs/155CDCF2-CB6E-46EC-87A8-994106826DBB/TemporaryDirectory.Y8yxWs/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/TrackpadHIDEventProcessor.o
++ /Library/Caches/com.apple.xbs/155CDCF2-CB6E-46EC-87A8-994106826DBB/TemporaryDirectory.Y8yxWs/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/TrackpadMomentumGeneratorStage.o
++ /Library/Caches/com.apple.xbs/155CDCF2-CB6E-46EC-87A8-994106826DBB/TemporaryDirectory.Y8yxWs/Sources/Multitouch/HIDSensingTouch/HSTPipeline/
++ /Library/Caches/com.apple.xbs/155CDCF2-CB6E-46EC-87A8-994106826DBB/TemporaryDirectory.Y8yxWs/Sources/Multitouch/HIDSensingTouch/HSTouchHIDService/
++ /Library/Caches/com.apple.xbs/155CDCF2-CB6E-46EC-87A8-994106826DBB/TemporaryDirectory.Y8yxWs/Sources/Multitouch/MT2TPHIDService/HSTrackpad/
++ /Library/Caches/com.apple.xbs/155CDCF2-CB6E-46EC-87A8-994106826DBB/TemporaryDirectory.Y8yxWs/Sources/Multitouch/MT2TPHIDService/HSTrackpad/Alg/
++ /Library/Caches/com.apple.xbs/155CDCF2-CB6E-46EC-87A8-994106826DBB/TemporaryDirectory.Y8yxWs/Sources/Multitouch/MT2TPHIDService/HSTrackpad/Alg/Parser/Force/
++ /Library/Caches/com.apple.xbs/155CDCF2-CB6E-46EC-87A8-994106826DBB/TemporaryDirectory.Y8yxWs/Sources/Multitouch/MT2TPHIDService/HSTrackpad/Alg/Parser/Gestures/
++ /Library/Caches/com.apple.xbs/155CDCF2-CB6E-46EC-87A8-994106826DBB/TemporaryDirectory.Y8yxWs/Sources/Multitouch/MT2TPHIDService/HSTrackpad/Alg/Parser/PathsNHands/
++ /Library/Caches/com.apple.xbs/155CDCF2-CB6E-46EC-87A8-994106826DBB/TemporaryDirectory.Y8yxWs/Sources/Multitouch/MT2TPHIDService/HSTrackpad/PostAlg/
++ /Library/Caches/com.apple.xbs/155CDCF2-CB6E-46EC-87A8-994106826DBB/TemporaryDirectory.Y8yxWs/Sources/Multitouch/MT2TPHIDService/HSTrackpad/PostAlg/EventProcessors/
++ /Library/Caches/com.apple.xbs/155CDCF2-CB6E-46EC-87A8-994106826DBB/TemporaryDirectory.Y8yxWs/Sources/Multitouch/MT2TPHIDService/HSTrackpad/PostAlg/TrackpadActuatorStage/
++ /Library/Caches/com.apple.xbs/155CDCF2-CB6E-46EC-87A8-994106826DBB/TemporaryDirectory.Y8yxWs/Sources/Multitouch/MT2TPHIDService/HSTrackpad/PreAlg/
++ /Library/Caches/com.apple.xbs/155CDCF2-CB6E-46EC-87A8-994106826DBB/TemporaryDirectory.Y8yxWs/Sources/Multitouch/MT2TPHIDService/HSTrackpad/PreAlg/Bridges/
++ /Library/Caches/com.apple.xbs/155CDCF2-CB6E-46EC-87A8-994106826DBB/TemporaryDirectory.Y8yxWs/Sources/Multitouch/MT2TPHIDService/HSTrackpad/PreAlg/Bridges/Managers/
++ /Library/Caches/com.apple.xbs/155CDCF2-CB6E-46EC-87A8-994106826DBB/TemporaryDirectory.Y8yxWs/Sources/Multitouch/MT2TPHIDService/HSTrackpad/PreAlg/FirmwareManagers/
++ /Library/Caches/com.apple.xbs/155CDCF2-CB6E-46EC-87A8-994106826DBB/TemporaryDirectory.Y8yxWs/Sources/Multitouch/Plugin/
++ /Library/Caches/com.apple.xbs/155CDCF2-CB6E-46EC-87A8-994106826DBB/TemporaryDirectory.Y8yxWs/Sources/Multitouch/Plugin/Parser/
++ GCC_except_table288
++ GCC_except_table298
++ GCC_except_table312
++ GCC_except_table325
++ GCC_except_table328
++ GCC_except_table332
++ GCC_except_table337
++ GCC_except_table350
++ GCC_except_table361
++ GCC_except_table365
++ GCC_except_table367
++ GCC_except_table375
++ GCC_except_table379
++ GCC_except_table382
++ GCC_except_table391
++ GCC_except_table408
++ __ZNKSt3__113__string_hashIcNS_9allocatorIcEEEclB9nqe210106ERKNS_12basic_stringIcNS_11char_traitsIcEES2_EE
++ __ZNKSt3__121__murmur2_or_cityhashImLm64EEclB9nqe210106EPKvm
++ __ZNKSt3__18equal_toINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEEclB9nqe210106ERKS6_S9_
++ __ZNKSt3__18equal_toIU6__weakPU26objcproto15HSPreferencable7HSStageEclB9nqe210106ERU6__weakKS3_S7_
++ __ZNKSt3__18equal_toIU6__weakPU26objcproto15HSStageObserver11objc_objectEclB9nqe210106ERU6__weakKS2_S6_
++ __ZNKSt9type_infoeqB9nqe210106ERKS_
++ __ZNSt3__110__function12__value_funcIFN6HSUtil6BufferENS_10shared_ptrINS2_10ConnectionEEEOS3_EE4swapB9nqe210106ERS9_
++ __ZNSt3__110__function12__value_funcIFN6HSUtil6BufferENS_10shared_ptrINS2_10ConnectionEEEOS3_EEC2B9nqe210106ERKS9_
++ __ZNSt3__110__function12__value_funcIFN6HSUtil6BufferENS_10shared_ptrINS2_10ConnectionEEEOS3_EED2B9nqe210106Ev
++ __ZNSt3__110__function12__value_funcIFP11objc_objectRN6HSUtil7DecoderERKNS4_8CoderKeyEEE4swapB9nqe210106ERSB_
++ __ZNSt3__110__function12__value_funcIFP11objc_objectRN6HSUtil7DecoderERKNS4_8CoderKeyEEEC2B9nqe210106ERKSB_
++ __ZNSt3__110__function12__value_funcIFbRN6HSUtil7EncoderEP11objc_objectEE4swapB9nqe210106ERS8_
++ __ZNSt3__110__function12__value_funcIFbRN6HSUtil7EncoderEP11objc_objectEEC2B9nqe210106ERKS8_
++ __ZNSt3__110__function12__value_funcIFbRN6HSUtil7EncoderEP11objc_objectEED2B9nqe210106Ev
++ __ZNSt3__110__function12__value_funcIFvNS_10shared_ptrI8HSMapperEEEE4swapB9nqe210106ERS6_
++ __ZNSt3__110__function12__value_funcIFvNS_10shared_ptrI8HSMapperEEEEC2B9nqe210106ERKS6_
++ __ZNSt3__110__function12__value_funcIFvNS_10shared_ptrI8HSMapperEEEED2B9nqe210106Ev
++ __ZNSt3__110__function12__value_funcIFvNS_10shared_ptrIN6HSUtil10ConnectionEEEEE4swapB9nqe210106ERS7_
++ __ZNSt3__110__function12__value_funcIFvNS_10shared_ptrIN6HSUtil10ConnectionEEEEEC2B9nqe210106ERKS7_
++ __ZNSt3__110__function12__value_funcIFvNS_10shared_ptrIN6HSUtil10ConnectionEEEEED2B9nqe210106Ev
++ __ZNSt3__110shared_ptrI8HSMapperEC2B9nqe210106IS1_Li0EEEPT_
++ __ZNSt3__110shared_ptrIN6HSUtil10ConnectionEEC2B9nqe210106IS2_Li0EEEPT_
++ __ZNSt3__110unique_ptrI8HSMapperNS_14default_deleteIS1_EEED1B9nqe210106Ev
++ __ZNSt3__110unique_ptrIN6HSUtil10ConnectionENS_14default_deleteIS2_EEED1B9nqe210106Ev
++ __ZNSt3__110unique_ptrIN6HSUtil10EncoderBufENS_14default_deleteIS2_EEED1B9nqe210106Ev
++ __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEU8__strongP7HSStageEEPvEENS_22__hash_node_destructorINS6_ISE_EEEEED1B9nqe210106Ev
++ __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeIU8__strongP11objc_objectyEEPvEENS_22__hash_node_destructorINS_9allocatorIS8_EEEEED1B9nqe210106Ev
++ __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeIyU8__strongP11objc_objectEEPvEENS_22__hash_node_destructorINS_9allocatorIS8_EEEEED1B9nqe210106Ev
++ __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeIyU8__strongP7HSProxyEEPvEENS_22__hash_node_destructorINS_9allocatorIS8_EEEEED1B9nqe210106Ev
++ __ZNSt3__110unique_ptrINS_11__hash_nodeIU6__weakPU26objcproto15HSPreferencable7HSStagePvEENS_22__hash_node_destructorINS_9allocatorIS7_EEEEED1B9nqe210106Ev
++ __ZNSt3__110unique_ptrINS_11__hash_nodeIU6__weakPU26objcproto15HSStageObserver11objc_objectPvEENS_22__hash_node_destructorINS_9allocatorIS6_EEEEED1B9nqe210106Ev
++ __ZNSt3__110unique_ptrINS_11__hash_nodeIU8__strongP7HSStagePvEENS_22__hash_node_destructorINS_9allocatorIS6_EEEEED1B9nqe210106Ev
++ __ZNSt3__110unique_ptrINS_15__thread_structENS_14default_deleteIS1_EEED1B9nqe210106Ev
++ __ZNSt3__110unique_ptrINS_5tupleIJNS0_INS_15__thread_structENS_14default_deleteIS2_EEEEZN6HSUtil10Connection5startEvEUlvE_EEENS3_IS9_EEED1B9nqe210106Ev
++ __ZNSt3__111unique_lockINS_5mutexEE4lockB9nqe210106Ev
++ __ZNSt3__111unique_lockINS_5mutexEE6unlockB9nqe210106Ev
++ __ZNSt3__112__destroy_atB9nqe210106INS_4pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEU8__strongP7HSStageEELi0EEEvPT_
++ __ZNSt3__113__tree_removeB9nqe210106IPNS_16__tree_node_baseIPvEEEEvT_S5_
++ __ZNSt3__114__split_bufferINS_10unique_ptrI12EncoderStateNS_14default_deleteIS2_EEEERNS_9allocatorIS5_EEE17__destruct_at_endB9nqe210106EPS5_
++ __ZNSt3__114__thread_proxyB9nqe210106INS_5tupleIJNS_10unique_ptrINS_15__thread_structENS_14default_deleteIS3_EEEEZN6HSUtil10Connection5startEvEUlvE_EEEEEPvSB_
++ __ZNSt3__115allocate_sharedB9nqe210106I6ClientNS_9allocatorIS1_EEJS1_ELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
++ __ZNSt3__115allocate_sharedB9nqe210106IN6HSUtil12ReceiveRightENS_9allocatorIS2_EEJS2_ELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
++ __ZNSt3__115allocate_sharedB9nqe210106IN6HSUtil6BufferENS_9allocatorIS2_EEJELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
++ __ZNSt3__115allocate_sharedB9nqe210106IN6HSUtil6BufferENS_9allocatorIS2_EEJRKNS2_11InvalidTypeEELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
++ __ZNSt3__115allocate_sharedB9nqe210106IN6HSUtil6BufferENS_9allocatorIS2_EEJRKNS2_8CopyTypeERU8__strongP6NSDataELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
++ __ZNSt3__115allocate_sharedB9nqe210106IN6HSUtil6BufferENS_9allocatorIS2_EEJRKNS2_9FixedTypeERmELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
++ __ZNSt3__115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEE15__init_buf_ptrsB9nqe210106Ev
++ __ZNSt3__115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEEC2B9nqe210106Ej
++ __ZNSt3__116__pad_and_outputB9nqe210106IcNS_11char_traitsIcEEEENS_19ostreambuf_iteratorIT_T0_EES6_PKS4_S8_S8_RNS_8ios_baseES4_
++ __ZNSt3__118condition_variable8wait_forB9nqe210106IxNS_5ratioILl1ELl1000000EEEEENS_9cv_statusERNS_11unique_lockINS_5mutexEEERKNS_6chrono8durationIT_T0_EE
++ __ZNSt3__119__allocate_at_leastB9nqe210106INS_9allocatorIN16HSRecordingTypes9PlayFrameEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
++ __ZNSt3__119__allocate_at_leastB9nqe210106INS_9allocatorINS_10unique_ptrI12EncoderStateNS_14default_deleteIS3_EEEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSA_m
++ __ZNSt3__119__allocate_at_leastB9nqe210106INS_9allocatorINS_10unique_ptrIN6HSUtil10EncoderBufENS_14default_deleteIS4_EEEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSB_m
++ __ZNSt3__119__allocate_at_leastB9nqe210106INS_9allocatorIU8__strongP11objc_objectEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS8_m
++ __ZNSt3__119basic_ostringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEC1B9nqe210106Ev
++ __ZNSt3__120__shared_ptr_emplaceI6ClientNS_9allocatorIS1_EEE21__on_zero_shared_implB9nqe210106IS3_Li0EEEvv
++ __ZNSt3__120__shared_ptr_emplaceI6ClientNS_9allocatorIS1_EEEC2B9nqe210106IJS1_ES3_Li0EEES3_DpOT_
++ __ZNSt3__120__shared_ptr_emplaceIN6HSUtil12ReceiveRightENS_9allocatorIS2_EEEC2B9nqe210106IJS2_ES4_Li0EEES4_DpOT_
++ __ZNSt3__120__shared_ptr_emplaceIN6HSUtil6BufferENS_9allocatorIS2_EEEC2B9nqe210106IJES4_Li0EEES4_DpOT_
++ __ZNSt3__120__shared_ptr_emplaceIN6HSUtil6BufferENS_9allocatorIS2_EEEC2B9nqe210106IJRKNS2_11InvalidTypeEES4_Li0EEES4_DpOT_
++ __ZNSt3__120__shared_ptr_emplaceIN6HSUtil6BufferENS_9allocatorIS2_EEEC2B9nqe210106IJRKNS2_8CopyTypeERU8__strongP6NSDataES4_Li0EEES4_DpOT_
++ __ZNSt3__120__shared_ptr_emplaceIN6HSUtil6BufferENS_9allocatorIS2_EEEC2B9nqe210106IJRKNS2_9FixedTypeERmES4_Li0EEES4_DpOT_
++ __ZNSt3__121__murmur2_or_cityhashImLm64EE18__hash_len_0_to_16B9nqe210106EPKcm
++ __ZNSt3__121__murmur2_or_cityhashImLm64EE19__hash_len_17_to_32B9nqe210106EPKcm
++ __ZNSt3__121__murmur2_or_cityhashImLm64EE19__hash_len_33_to_64B9nqe210106EPKcm
++ __ZNSt3__124__put_character_sequenceB9nqe210106IcNS_11char_traitsIcEEEERNS_13basic_ostreamIT_T0_EES7_PKS4_m
++ __ZNSt3__125__throw_bad_function_callB9nqe210106Ev
++ __ZNSt3__127__tree_balance_after_insertB9nqe210106IPNS_16__tree_node_baseIPvEEEEvT_S5_
++ __ZNSt3__14pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEU8__strongP7HSStageEC2B9nqe210106ERKSB_
++ __ZNSt3__16threadC2B9nqe210106IZN6HSUtil10Connection5startEvEUlvE_JELi0EEEOT_DpOT0_
++ __ZNSt3__16vectorIN16HSRecordingTypes9PlayFrameENS_9allocatorIS2_EEE20__throw_length_errorB9nqe210106Ev
++ __ZNSt3__16vectorIN16HSRecordingTypes9PlayFrameENS_9allocatorIS2_EEE9push_backB9nqe210106ERKS2_
++ __ZNSt3__16vectorINS_10unique_ptrI12EncoderStateNS_14default_deleteIS2_EEEENS_9allocatorIS5_EEE16__destroy_vectorclB9nqe210106Ev
++ __ZNSt3__16vectorINS_10unique_ptrI12EncoderStateNS_14default_deleteIS2_EEEENS_9allocatorIS5_EEE20__throw_length_errorB9nqe210106Ev
++ __ZNSt3__16vectorINS_10unique_ptrI12EncoderStateNS_14default_deleteIS2_EEEENS_9allocatorIS5_EEE5clearB9nqe210106Ev
++ __ZNSt3__16vectorINS_10unique_ptrI12EncoderStateNS_14default_deleteIS2_EEEENS_9allocatorIS5_EEE9push_backB9nqe210106EOS5_
++ __ZNSt3__16vectorINS_10unique_ptrIN6HSUtil10EncoderBufENS_14default_deleteIS3_EEEENS_9allocatorIS6_EEE16__destroy_vectorclB9nqe210106Ev
++ __ZNSt3__16vectorINS_10unique_ptrIN6HSUtil10EncoderBufENS_14default_deleteIS3_EEEENS_9allocatorIS6_EEE20__throw_length_errorB9nqe210106Ev
++ __ZNSt3__16vectorIU8__strongP11objc_objectNS_9allocatorIS3_EEE16__destroy_vectorclB9nqe210106Ev
++ __ZNSt3__16vectorIU8__strongP11objc_objectNS_9allocatorIS3_EEE20__throw_length_errorB9nqe210106Ev
++ __ZNSt3__16vectorIU8__strongP11objc_objectNS_9allocatorIS3_EEE9push_backB9nqe210106ERU8__strongKS2_
++ __ZNSt3__16vectorIZ34-[HSRecordingStage _stopRecording]E6RegionNS_9allocatorIS1_EEE20__throw_length_errorB9nqe210106Ev
++ __ZNSt3__18__invokeB9nqe210106IJRZN8HSMapper23_createConnectionConfigENS_8weak_ptrIS1_EEPU28objcproto17OS_dispatch_queue8NSObjectbEUlNS_10shared_ptrIN6HSUtil10ConnectionEEEE_SA_EEENS_20__invoke_result_implIvJDpT_EE4typeEDpOSE_
++ __ZNSt3__18__invokeB9nqe210106IJRZN8HSMapper23_createConnectionConfigENS_8weak_ptrIS1_EEPU28objcproto17OS_dispatch_queue8NSObjectbEUlNS_10shared_ptrIN6HSUtil10ConnectionEEEONS8_6BufferEE_SA_SB_EEENS_20__invoke_result_implIvJDpT_EE4typeEDpOSG_
+- /Library/Caches/com.apple.xbs/C25BFEB5-E6FA-41F6-A492-B54EC8326D0E/TemporaryDirectory.J5fW16/Binaries/Multitouch/install/Symbols/BuiltProducts/libHSTPipeline.a(Contact.o)
+- /Library/Caches/com.apple.xbs/C25BFEB5-E6FA-41F6-A492-B54EC8326D0E/TemporaryDirectory.J5fW16/Binaries/Multitouch/install/Symbols/BuiltProducts/libHSTPipeline.a(HSTBackboardBridge.o)
+- /Library/Caches/com.apple.xbs/C25BFEB5-E6FA-41F6-A492-B54EC8326D0E/TemporaryDirectory.J5fW16/Binaries/Multitouch/install/Symbols/BuiltProducts/libHSTPipeline.a(HSTCREventGenerator.o)
+- /Library/Caches/com.apple.xbs/C25BFEB5-E6FA-41F6-A492-B54EC8326D0E/TemporaryDirectory.J5fW16/Binaries/Multitouch/install/Symbols/BuiltProducts/libHSTPipeline.a(HSTCircularBuffer.o)
+- /Library/Caches/com.apple.xbs/C25BFEB5-E6FA-41F6-A492-B54EC8326D0E/TemporaryDirectory.J5fW16/Binaries/Multitouch/install/Symbols/BuiltProducts/libHSTPipeline.a(HSTContactStabilizer.o)
+- /Library/Caches/com.apple.xbs/C25BFEB5-E6FA-41F6-A492-B54EC8326D0E/TemporaryDirectory.J5fW16/Binaries/Multitouch/install/Symbols/BuiltProducts/libHSTPipeline.a(HSTCoreAnalytics.o)
+- /Library/Caches/com.apple.xbs/C25BFEB5-E6FA-41F6-A492-B54EC8326D0E/TemporaryDirectory.J5fW16/Binaries/Multitouch/install/Symbols/BuiltProducts/libHSTPipeline.a(HSTEvent.o)
+- /Library/Caches/com.apple.xbs/C25BFEB5-E6FA-41F6-A492-B54EC8326D0E/TemporaryDirectory.J5fW16/Binaries/Multitouch/install/Symbols/BuiltProducts/libHSTPipeline.a(HSTFrame+Python.o)
+- /Library/Caches/com.apple.xbs/C25BFEB5-E6FA-41F6-A492-B54EC8326D0E/TemporaryDirectory.J5fW16/Binaries/Multitouch/install/Symbols/BuiltProducts/libHSTPipeline.a(HSTFrame.o)
+- /Library/Caches/com.apple.xbs/C25BFEB5-E6FA-41F6-A492-B54EC8326D0E/TemporaryDirectory.J5fW16/Binaries/Multitouch/install/Symbols/BuiltProducts/libHSTPipeline.a(HSTFrameParser.o)
+- /Library/Caches/com.apple.xbs/C25BFEB5-E6FA-41F6-A492-B54EC8326D0E/TemporaryDirectory.J5fW16/Binaries/Multitouch/install/Symbols/BuiltProducts/libHSTPipeline.a(HSTHIDEventGenerator.o)
+- /Library/Caches/com.apple.xbs/C25BFEB5-E6FA-41F6-A492-B54EC8326D0E/TemporaryDirectory.J5fW16/Binaries/Multitouch/install/Symbols/BuiltProducts/libHSTPipeline.a(HSTHIDEventStatistics.o)
+- /Library/Caches/com.apple.xbs/C25BFEB5-E6FA-41F6-A492-B54EC8326D0E/TemporaryDirectory.J5fW16/Binaries/Multitouch/install/Symbols/BuiltProducts/libHSTPipeline.a(HSTHIDEvents.o)
+- /Library/Caches/com.apple.xbs/C25BFEB5-E6FA-41F6-A492-B54EC8326D0E/TemporaryDirectory.J5fW16/Binaries/Multitouch/install/Symbols/BuiltProducts/libHSTPipeline.a(HSTPencilVirtualService.o)
+- /Library/Caches/com.apple.xbs/C25BFEB5-E6FA-41F6-A492-B54EC8326D0E/TemporaryDirectory.J5fW16/Binaries/Multitouch/install/Symbols/BuiltProducts/libHSTPipeline.a(HSTPipeline_vers.o)
+- /Library/Caches/com.apple.xbs/C25BFEB5-E6FA-41F6-A492-B54EC8326D0E/TemporaryDirectory.J5fW16/Binaries/Multitouch/install/Symbols/BuiltProducts/libHSTPipeline.a(HSTRecordingManager.o)
+- /Library/Caches/com.apple.xbs/C25BFEB5-E6FA-41F6-A492-B54EC8326D0E/TemporaryDirectory.J5fW16/Binaries/Multitouch/install/Symbols/BuiltProducts/libHSTPipeline.a(HSTSensingAlgs.o)
+- /Library/Caches/com.apple.xbs/C25BFEB5-E6FA-41F6-A492-B54EC8326D0E/TemporaryDirectory.J5fW16/Binaries/Multitouch/install/Symbols/BuiltProducts/libHSTPipeline.a(HSTServerStage.o)
+- /Library/Caches/com.apple.xbs/C25BFEB5-E6FA-41F6-A492-B54EC8326D0E/TemporaryDirectory.J5fW16/Binaries/Multitouch/install/Symbols/BuiltProducts/libHSTPipeline.a(HSTTipOffsetFilter.o)
+- /Library/Caches/com.apple.xbs/C25BFEB5-E6FA-41F6-A492-B54EC8326D0E/TemporaryDirectory.J5fW16/Binaries/Multitouch/install/Symbols/BuiltProducts/libHSTPipeline.a(Types.o)
+- /Library/Caches/com.apple.xbs/C25BFEB5-E6FA-41F6-A492-B54EC8326D0E/TemporaryDirectory.J5fW16/Binaries/Multitouch/install/Symbols/BuiltProducts/libTrackpadHostAlg.a(MTActionEvent_.o)
+- /Library/Caches/com.apple.xbs/C25BFEB5-E6FA-41F6-A492-B54EC8326D0E/TemporaryDirectory.J5fW16/Binaries/Multitouch/install/Symbols/BuiltProducts/libTrackpadHostAlg.a(MTChordCyclingTrackpad_.o)
+- /Library/Caches/com.apple.xbs/C25BFEB5-E6FA-41F6-A492-B54EC8326D0E/TemporaryDirectory.J5fW16/Binaries/Multitouch/install/Symbols/BuiltProducts/libTrackpadHostAlg.a(MTChordCycling_.o)
+- /Library/Caches/com.apple.xbs/C25BFEB5-E6FA-41F6-A492-B54EC8326D0E/TemporaryDirectory.J5fW16/Binaries/Multitouch/install/Symbols/BuiltProducts/libTrackpadHostAlg.a(MTChordGestureSet_.o)
+- /Library/Caches/com.apple.xbs/C25BFEB5-E6FA-41F6-A492-B54EC8326D0E/TemporaryDirectory.J5fW16/Binaries/Multitouch/install/Symbols/BuiltProducts/libTrackpadHostAlg.a(MTChordIntegrating_.o)
+- /Library/Caches/com.apple.xbs/C25BFEB5-E6FA-41F6-A492-B54EC8326D0E/TemporaryDirectory.J5fW16/Binaries/Multitouch/install/Symbols/BuiltProducts/libTrackpadHostAlg.a(MTChordTable_.o)
+- /Library/Caches/com.apple.xbs/C25BFEB5-E6FA-41F6-A492-B54EC8326D0E/TemporaryDirectory.J5fW16/Binaries/Multitouch/install/Symbols/BuiltProducts/libTrackpadHostAlg.a(MTFingerEllipseTip_.o)
+- /Library/Caches/com.apple.xbs/C25BFEB5-E6FA-41F6-A492-B54EC8326D0E/TemporaryDirectory.J5fW16/Binaries/Multitouch/install/Symbols/BuiltProducts/libTrackpadHostAlg.a(MTFingerToPathMap_.o)
+- /Library/Caches/com.apple.xbs/C25BFEB5-E6FA-41F6-A492-B54EC8326D0E/TemporaryDirectory.J5fW16/Binaries/Multitouch/install/Symbols/BuiltProducts/libTrackpadHostAlg.a(MTForceBehavior_.o)
+- /Library/Caches/com.apple.xbs/C25BFEB5-E6FA-41F6-A492-B54EC8326D0E/TemporaryDirectory.J5fW16/Binaries/Multitouch/install/Symbols/BuiltProducts/libTrackpadHostAlg.a(MTForceConfig.o)
+- /Library/Caches/com.apple.xbs/C25BFEB5-E6FA-41F6-A492-B54EC8326D0E/TemporaryDirectory.J5fW16/Binaries/Multitouch/install/Symbols/BuiltProducts/libTrackpadHostAlg.a(MTForceFilter_.o)
+- /Library/Caches/com.apple.xbs/C25BFEB5-E6FA-41F6-A492-B54EC8326D0E/TemporaryDirectory.J5fW16/Binaries/Multitouch/install/Symbols/BuiltProducts/libTrackpadHostAlg.a(MTForceManagement_.o)
+- /Library/Caches/com.apple.xbs/C25BFEB5-E6FA-41F6-A492-B54EC8326D0E/TemporaryDirectory.J5fW16/Binaries/Multitouch/install/Symbols/BuiltProducts/libTrackpadHostAlg.a(MTForceThresholding_.o)
+- /Library/Caches/com.apple.xbs/C25BFEB5-E6FA-41F6-A492-B54EC8326D0E/TemporaryDirectory.J5fW16/Binaries/Multitouch/install/Symbols/BuiltProducts/libTrackpadHostAlg.a(MTGestureConfig_.o)
+- /Library/Caches/com.apple.xbs/C25BFEB5-E6FA-41F6-A492-B54EC8326D0E/TemporaryDirectory.J5fW16/Binaries/Multitouch/install/Symbols/BuiltProducts/libTrackpadHostAlg.a(MTHIDEventAppend.o)
+- /Library/Caches/com.apple.xbs/C25BFEB5-E6FA-41F6-A492-B54EC8326D0E/TemporaryDirectory.J5fW16/Binaries/Multitouch/install/Symbols/BuiltProducts/libTrackpadHostAlg.a(MTHandMotion_.o)
+- /Library/Caches/com.apple.xbs/C25BFEB5-E6FA-41F6-A492-B54EC8326D0E/TemporaryDirectory.J5fW16/Binaries/Multitouch/install/Symbols/BuiltProducts/libTrackpadHostAlg.a(MTHandStatistics_.o)
+- /Library/Caches/com.apple.xbs/C25BFEB5-E6FA-41F6-A492-B54EC8326D0E/TemporaryDirectory.J5fW16/Binaries/Multitouch/install/Symbols/BuiltProducts/libTrackpadHostAlg.a(MTPListGestureConfig_.o)
+- /Library/Caches/com.apple.xbs/C25BFEB5-E6FA-41F6-A492-B54EC8326D0E/TemporaryDirectory.J5fW16/Binaries/Multitouch/install/Symbols/BuiltProducts/libTrackpadHostAlg.a(MTParameterFactory_.o)
+- /Library/Caches/com.apple.xbs/C25BFEB5-E6FA-41F6-A492-B54EC8326D0E/TemporaryDirectory.J5fW16/Binaries/Multitouch/install/Symbols/BuiltProducts/libTrackpadHostAlg.a(MTParserPath_.o)
+- /Library/Caches/com.apple.xbs/C25BFEB5-E6FA-41F6-A492-B54EC8326D0E/TemporaryDirectory.J5fW16/Binaries/Multitouch/install/Symbols/BuiltProducts/libTrackpadHostAlg.a(MTPathStates_.o)
+- /Library/Caches/com.apple.xbs/C25BFEB5-E6FA-41F6-A492-B54EC8326D0E/TemporaryDirectory.J5fW16/Binaries/Multitouch/install/Symbols/BuiltProducts/libTrackpadHostAlg.a(MTRestZoneIntegrator_.o)
+- /Library/Caches/com.apple.xbs/C25BFEB5-E6FA-41F6-A492-B54EC8326D0E/TemporaryDirectory.J5fW16/Binaries/Multitouch/install/Symbols/BuiltProducts/libTrackpadHostAlg.a(MTSlideGesture_.o)
+- /Library/Caches/com.apple.xbs/C25BFEB5-E6FA-41F6-A492-B54EC8326D0E/TemporaryDirectory.J5fW16/Binaries/Multitouch/install/Symbols/BuiltProducts/libTrackpadHostAlg.a(MTSurfaceDimensions_.o)
+- /Library/Caches/com.apple.xbs/C25BFEB5-E6FA-41F6-A492-B54EC8326D0E/TemporaryDirectory.J5fW16/Binaries/Multitouch/install/Symbols/BuiltProducts/libTrackpadHostAlg.a(MTTapDragManager_.o)
+- /Library/Caches/com.apple.xbs/C25BFEB5-E6FA-41F6-A492-B54EC8326D0E/TemporaryDirectory.J5fW16/Binaries/Multitouch/install/Symbols/BuiltProducts/libTrackpadHostAlg.a(MTTrackpadUberAlg.o)
+- /Library/Caches/com.apple.xbs/C25BFEB5-E6FA-41F6-A492-B54EC8326D0E/TemporaryDirectory.J5fW16/Binaries/Multitouch/install/Symbols/BuiltProducts/libTrackpadHostAlg.a(USBKey.o)
+- /Library/Caches/com.apple.xbs/C25BFEB5-E6FA-41F6-A492-B54EC8326D0E/TemporaryDirectory.J5fW16/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTPipeline.build/DerivedSources/
+- /Library/Caches/com.apple.xbs/C25BFEB5-E6FA-41F6-A492-B54EC8326D0E/TemporaryDirectory.J5fW16/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/DerivedSources/
+- /Library/Caches/com.apple.xbs/C25BFEB5-E6FA-41F6-A492-B54EC8326D0E/TemporaryDirectory.J5fW16/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/ActuationManager.o
+- /Library/Caches/com.apple.xbs/C25BFEB5-E6FA-41F6-A492-B54EC8326D0E/TemporaryDirectory.J5fW16/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/ActuationMultipliers.o
+- /Library/Caches/com.apple.xbs/C25BFEB5-E6FA-41F6-A492-B54EC8326D0E/TemporaryDirectory.J5fW16/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/ActuationTone.o
+- /Library/Caches/com.apple.xbs/C25BFEB5-E6FA-41F6-A492-B54EC8326D0E/TemporaryDirectory.J5fW16/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/ActuationWaveform.o
+- /Library/Caches/com.apple.xbs/C25BFEB5-E6FA-41F6-A492-B54EC8326D0E/TemporaryDirectory.J5fW16/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/ActuatorLimits.o
+- /Library/Caches/com.apple.xbs/C25BFEB5-E6FA-41F6-A492-B54EC8326D0E/TemporaryDirectory.J5fW16/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/CoreAccessoryManager.o
+- /Library/Caches/com.apple.xbs/C25BFEB5-E6FA-41F6-A492-B54EC8326D0E/TemporaryDirectory.J5fW16/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/EmbeddedTrackpadFirmwareManager.o
+- /Library/Caches/com.apple.xbs/C25BFEB5-E6FA-41F6-A492-B54EC8326D0E/TemporaryDirectory.J5fW16/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/EmbeddedTrackpadHIDEventProcessor.o
+- /Library/Caches/com.apple.xbs/C25BFEB5-E6FA-41F6-A492-B54EC8326D0E/TemporaryDirectory.J5fW16/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/FirmwareUtil.o
+- /Library/Caches/com.apple.xbs/C25BFEB5-E6FA-41F6-A492-B54EC8326D0E/TemporaryDirectory.J5fW16/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/HSMousePipelineCreation.o
+- /Library/Caches/com.apple.xbs/C25BFEB5-E6FA-41F6-A492-B54EC8326D0E/TemporaryDirectory.J5fW16/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/HSTFirmwareManager.o
+- /Library/Caches/com.apple.xbs/C25BFEB5-E6FA-41F6-A492-B54EC8326D0E/TemporaryDirectory.J5fW16/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/HSTPipelineCreation.o
+- /Library/Caches/com.apple.xbs/C25BFEB5-E6FA-41F6-A492-B54EC8326D0E/TemporaryDirectory.J5fW16/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/HSTSAPipelineCreation.o
+- /Library/Caches/com.apple.xbs/C25BFEB5-E6FA-41F6-A492-B54EC8326D0E/TemporaryDirectory.J5fW16/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/HSTTelemetryAnalyticsStage.o
+- /Library/Caches/com.apple.xbs/C25BFEB5-E6FA-41F6-A492-B54EC8326D0E/TemporaryDirectory.J5fW16/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/HSTouchHIDService.o
+- /Library/Caches/com.apple.xbs/C25BFEB5-E6FA-41F6-A492-B54EC8326D0E/TemporaryDirectory.J5fW16/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/HSTouchHIDService_vers.o
+- /Library/Caches/com.apple.xbs/C25BFEB5-E6FA-41F6-A492-B54EC8326D0E/TemporaryDirectory.J5fW16/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/HSTrackpadDefs.o
+- /Library/Caches/com.apple.xbs/C25BFEB5-E6FA-41F6-A492-B54EC8326D0E/TemporaryDirectory.J5fW16/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/HSTrackpadPipelineCreation.o
+- /Library/Caches/com.apple.xbs/C25BFEB5-E6FA-41F6-A492-B54EC8326D0E/TemporaryDirectory.J5fW16/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/MTGestureConfigGenerator.o
+- /Library/Caches/com.apple.xbs/C25BFEB5-E6FA-41F6-A492-B54EC8326D0E/TemporaryDirectory.J5fW16/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/MTPluginLogging.o
+- /Library/Caches/com.apple.xbs/C25BFEB5-E6FA-41F6-A492-B54EC8326D0E/TemporaryDirectory.J5fW16/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/MTPreferences.o
+- /Library/Caches/com.apple.xbs/C25BFEB5-E6FA-41F6-A492-B54EC8326D0E/TemporaryDirectory.J5fW16/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/MacOSTrackpadHIDEventProcessor.o
+- /Library/Caches/com.apple.xbs/C25BFEB5-E6FA-41F6-A492-B54EC8326D0E/TemporaryDirectory.J5fW16/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/MacTrackpadBridge.o
+- /Library/Caches/com.apple.xbs/C25BFEB5-E6FA-41F6-A492-B54EC8326D0E/TemporaryDirectory.J5fW16/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/MomentumCurve.o
+- /Library/Caches/com.apple.xbs/C25BFEB5-E6FA-41F6-A492-B54EC8326D0E/TemporaryDirectory.J5fW16/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/MouseBridge.o
+- /Library/Caches/com.apple.xbs/C25BFEB5-E6FA-41F6-A492-B54EC8326D0E/TemporaryDirectory.J5fW16/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/PeppyHIDService.o
+- /Library/Caches/com.apple.xbs/C25BFEB5-E6FA-41F6-A492-B54EC8326D0E/TemporaryDirectory.J5fW16/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/PointerBridge.o
+- /Library/Caches/com.apple.xbs/C25BFEB5-E6FA-41F6-A492-B54EC8326D0E/TemporaryDirectory.J5fW16/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/PointerHIDEventProcessor.o
+- /Library/Caches/com.apple.xbs/C25BFEB5-E6FA-41F6-A492-B54EC8326D0E/TemporaryDirectory.J5fW16/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/PointerSettings.o
+- /Library/Caches/com.apple.xbs/C25BFEB5-E6FA-41F6-A492-B54EC8326D0E/TemporaryDirectory.J5fW16/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/TrackpadActuatorStage.o
+- /Library/Caches/com.apple.xbs/C25BFEB5-E6FA-41F6-A492-B54EC8326D0E/TemporaryDirectory.J5fW16/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/TrackpadAlgStage.o
+- /Library/Caches/com.apple.xbs/C25BFEB5-E6FA-41F6-A492-B54EC8326D0E/TemporaryDirectory.J5fW16/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/TrackpadBridge.o
+- /Library/Caches/com.apple.xbs/C25BFEB5-E6FA-41F6-A492-B54EC8326D0E/TemporaryDirectory.J5fW16/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/TrackpadFirmwareManager.o
+- /Library/Caches/com.apple.xbs/C25BFEB5-E6FA-41F6-A492-B54EC8326D0E/TemporaryDirectory.J5fW16/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/TrackpadHIDEventProcessor.o
+- /Library/Caches/com.apple.xbs/C25BFEB5-E6FA-41F6-A492-B54EC8326D0E/TemporaryDirectory.J5fW16/Binaries/Multitouch/install/TempContent/Objects/MultitouchSoftware.build/HSTouchHIDService.build/Objects-normal/arm64e/TrackpadMomentumGeneratorStage.o
+- /Library/Caches/com.apple.xbs/C25BFEB5-E6FA-41F6-A492-B54EC8326D0E/TemporaryDirectory.J5fW16/Sources/Multitouch/HIDSensingTouch/HSTPipeline/
+- /Library/Caches/com.apple.xbs/C25BFEB5-E6FA-41F6-A492-B54EC8326D0E/TemporaryDirectory.J5fW16/Sources/Multitouch/HIDSensingTouch/HSTouchHIDService/
+- /Library/Caches/com.apple.xbs/C25BFEB5-E6FA-41F6-A492-B54EC8326D0E/TemporaryDirectory.J5fW16/Sources/Multitouch/MT2TPHIDService/HSTrackpad/
+- /Library/Caches/com.apple.xbs/C25BFEB5-E6FA-41F6-A492-B54EC8326D0E/TemporaryDirectory.J5fW16/Sources/Multitouch/MT2TPHIDService/HSTrackpad/Alg/
+- /Library/Caches/com.apple.xbs/C25BFEB5-E6FA-41F6-A492-B54EC8326D0E/TemporaryDirectory.J5fW16/Sources/Multitouch/MT2TPHIDService/HSTrackpad/Alg/Parser/Force/
+- /Library/Caches/com.apple.xbs/C25BFEB5-E6FA-41F6-A492-B54EC8326D0E/TemporaryDirectory.J5fW16/Sources/Multitouch/MT2TPHIDService/HSTrackpad/Alg/Parser/Gestures/
+- /Library/Caches/com.apple.xbs/C25BFEB5-E6FA-41F6-A492-B54EC8326D0E/TemporaryDirectory.J5fW16/Sources/Multitouch/MT2TPHIDService/HSTrackpad/Alg/Parser/PathsNHands/
+- /Library/Caches/com.apple.xbs/C25BFEB5-E6FA-41F6-A492-B54EC8326D0E/TemporaryDirectory.J5fW16/Sources/Multitouch/MT2TPHIDService/HSTrackpad/PostAlg/
+- /Library/Caches/com.apple.xbs/C25BFEB5-E6FA-41F6-A492-B54EC8326D0E/TemporaryDirectory.J5fW16/Sources/Multitouch/MT2TPHIDService/HSTrackpad/PostAlg/EventProcessors/
+- /Library/Caches/com.apple.xbs/C25BFEB5-E6FA-41F6-A492-B54EC8326D0E/TemporaryDirectory.J5fW16/Sources/Multitouch/MT2TPHIDService/HSTrackpad/PostAlg/TrackpadActuatorStage/
+- /Library/Caches/com.apple.xbs/C25BFEB5-E6FA-41F6-A492-B54EC8326D0E/TemporaryDirectory.J5fW16/Sources/Multitouch/MT2TPHIDService/HSTrackpad/PreAlg/
+- /Library/Caches/com.apple.xbs/C25BFEB5-E6FA-41F6-A492-B54EC8326D0E/TemporaryDirectory.J5fW16/Sources/Multitouch/MT2TPHIDService/HSTrackpad/PreAlg/Bridges/
+- /Library/Caches/com.apple.xbs/C25BFEB5-E6FA-41F6-A492-B54EC8326D0E/TemporaryDirectory.J5fW16/Sources/Multitouch/MT2TPHIDService/HSTrackpad/PreAlg/Bridges/Managers/
+- /Library/Caches/com.apple.xbs/C25BFEB5-E6FA-41F6-A492-B54EC8326D0E/TemporaryDirectory.J5fW16/Sources/Multitouch/MT2TPHIDService/HSTrackpad/PreAlg/FirmwareManagers/
+- /Library/Caches/com.apple.xbs/C25BFEB5-E6FA-41F6-A492-B54EC8326D0E/TemporaryDirectory.J5fW16/Sources/Multitouch/Plugin/
+- /Library/Caches/com.apple.xbs/C25BFEB5-E6FA-41F6-A492-B54EC8326D0E/TemporaryDirectory.J5fW16/Sources/Multitouch/Plugin/Parser/
+- GCC_except_table289
+- GCC_except_table299
+- GCC_except_table313
+- GCC_except_table327
+- GCC_except_table329
+- GCC_except_table333
+- GCC_except_table338
+- GCC_except_table356
+- GCC_except_table363
+- GCC_except_table366
+- GCC_except_table372
+- GCC_except_table377
+- GCC_except_table380
+- GCC_except_table385
+- GCC_except_table392
+- GCC_except_table409
+- __ZNKSt3__113__string_hashIcNS_9allocatorIcEEEclB9foe210106ERKNS_12basic_stringIcNS_11char_traitsIcEES2_EE
+- __ZNKSt3__121__murmur2_or_cityhashImLm64EEclB9foe210106EPKvm
+- __ZNKSt3__18equal_toINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEEclB9foe210106ERKS6_S9_
+- __ZNKSt3__18equal_toIU6__weakPU26objcproto15HSPreferencable7HSStageEclB9foe210106ERU6__weakKS3_S7_
+- __ZNKSt3__18equal_toIU6__weakPU26objcproto15HSStageObserver11objc_objectEclB9foe210106ERU6__weakKS2_S6_
+- __ZNKSt9type_infoeqB9foe210106ERKS_
+- __ZNSt12length_errorC1B9foe210106EPKc
+- __ZNSt3__110__function12__value_funcIFN6HSUtil6BufferENS_10shared_ptrINS2_10ConnectionEEEOS3_EE4swapB9foe210106ERS9_
+- __ZNSt3__110__function12__value_funcIFN6HSUtil6BufferENS_10shared_ptrINS2_10ConnectionEEEOS3_EEC2B9foe210106ERKS9_
+- __ZNSt3__110__function12__value_funcIFN6HSUtil6BufferENS_10shared_ptrINS2_10ConnectionEEEOS3_EED2B9foe210106Ev
+- __ZNSt3__110__function12__value_funcIFP11objc_objectRN6HSUtil7DecoderERKNS4_8CoderKeyEEE4swapB9foe210106ERSB_
+- __ZNSt3__110__function12__value_funcIFP11objc_objectRN6HSUtil7DecoderERKNS4_8CoderKeyEEEC2B9foe210106ERKSB_
+- __ZNSt3__110__function12__value_funcIFP11objc_objectRN6HSUtil7DecoderERKNS4_8CoderKeyEEED2B9foe210106Ev
+- __ZNSt3__110__function12__value_funcIFbRN6HSUtil7EncoderEP11objc_objectEE4swapB9foe210106ERS8_
+- __ZNSt3__110__function12__value_funcIFbRN6HSUtil7EncoderEP11objc_objectEEC2B9foe210106ERKS8_
+- __ZNSt3__110__function12__value_funcIFbRN6HSUtil7EncoderEP11objc_objectEED2B9foe210106Ev
+- __ZNSt3__110__function12__value_funcIFvNS_10shared_ptrI8HSMapperEEEE4swapB9foe210106ERS6_
+- __ZNSt3__110__function12__value_funcIFvNS_10shared_ptrI8HSMapperEEEEC2B9foe210106ERKS6_
+- __ZNSt3__110__function12__value_funcIFvNS_10shared_ptrI8HSMapperEEEED2B9foe210106Ev
+- __ZNSt3__110__function12__value_funcIFvNS_10shared_ptrIN6HSUtil10ConnectionEEEEE4swapB9foe210106ERS7_
+- __ZNSt3__110__function12__value_funcIFvNS_10shared_ptrIN6HSUtil10ConnectionEEEEEC2B9foe210106ERKS7_
+- __ZNSt3__110__function12__value_funcIFvNS_10shared_ptrIN6HSUtil10ConnectionEEEEED2B9foe210106Ev
+- __ZNSt3__110shared_ptrI8HSMapperEC2B9foe210106IS1_Li0EEEPT_
+- __ZNSt3__110shared_ptrIN6HSUtil10ConnectionEEC2B9foe210106IS2_Li0EEEPT_
+- __ZNSt3__110unique_ptrI8HSMapperNS_14default_deleteIS1_EEED1B9foe210106Ev
+- __ZNSt3__110unique_ptrIN6HSUtil10ConnectionENS_14default_deleteIS2_EEED1B9foe210106Ev
+- __ZNSt3__110unique_ptrIN6HSUtil10EncoderBufENS_14default_deleteIS2_EEED1B9foe210106Ev
+- __ZNSt3__110unique_ptrIN6HSUtil7Decoder9CallbacksENS_14default_deleteIS3_EEE5resetB9foe210106EPS3_
+- __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEU8__strongP7HSStageEEPvEENS_22__hash_node_destructorINS6_ISE_EEEEED1B9foe210106Ev
+- __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeIU8__strongP11objc_objectyEEPvEENS_22__hash_node_destructorINS_9allocatorIS8_EEEEED1B9foe210106Ev
+- __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeIyU8__strongP11objc_objectEEPvEENS_22__hash_node_destructorINS_9allocatorIS8_EEEEED1B9foe210106Ev
+- __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeIyU8__strongP7HSProxyEEPvEENS_22__hash_node_destructorINS_9allocatorIS8_EEEEED1B9foe210106Ev
+- __ZNSt3__110unique_ptrINS_11__hash_nodeIU6__weakPU26objcproto15HSPreferencable7HSStagePvEENS_22__hash_node_destructorINS_9allocatorIS7_EEEEED1B9foe210106Ev
+- __ZNSt3__110unique_ptrINS_11__hash_nodeIU6__weakPU26objcproto15HSStageObserver11objc_objectPvEENS_22__hash_node_destructorINS_9allocatorIS6_EEEEED1B9foe210106Ev
+- __ZNSt3__110unique_ptrINS_11__hash_nodeIU8__strongP7HSStagePvEENS_22__hash_node_destructorINS_9allocatorIS6_EEEEED1B9foe210106Ev
+- __ZNSt3__110unique_ptrINS_15__thread_structENS_14default_deleteIS1_EEED1B9foe210106Ev
+- __ZNSt3__110unique_ptrINS_5tupleIJNS0_INS_15__thread_structENS_14default_deleteIS2_EEEEZN6HSUtil10Connection5startEvEUlvE_EEENS3_IS9_EEED1B9foe210106Ev
+- __ZNSt3__111unique_lockINS_5mutexEE4lockB9foe210106Ev
+- __ZNSt3__111unique_lockINS_5mutexEE6unlockB9foe210106Ev
+- __ZNSt3__112__destroy_atB9foe210106INS_4pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEU8__strongP7HSStageEELi0EEEvPT_
+- __ZNSt3__112__hash_tableIU6__weakPU26objcproto15HSStageObserver11objc_objectN6HSUtil12ObjectHasherENS_8equal_toIS3_EENS_9allocatorIS3_EEE5eraseENS_21__hash_const_iteratorIPNS_11__hash_nodeIS3_PvEEEE
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_length_errorB9foe210106Ev
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC1B9foe210106ILi0EEEPKc
+- __ZNSt3__113__tree_removeB9foe210106IPNS_16__tree_node_baseIPvEEEEvT_S5_
+- __ZNSt3__114__split_bufferINS_10unique_ptrI12EncoderStateNS_14default_deleteIS2_EEEERNS_9allocatorIS5_EEE17__destruct_at_endB9foe210106EPS5_
+- __ZNSt3__114__thread_proxyB9foe210106INS_5tupleIJNS_10unique_ptrINS_15__thread_structENS_14default_deleteIS3_EEEEZN6HSUtil10Connection5startEvEUlvE_EEEEEPvSB_
+- __ZNSt3__115allocate_sharedB9foe210106I6ClientNS_9allocatorIS1_EEJS1_ELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB9foe210106IN6HSUtil12ReceiveRightENS_9allocatorIS2_EEJS2_ELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB9foe210106IN6HSUtil6BufferENS_9allocatorIS2_EEJELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB9foe210106IN6HSUtil6BufferENS_9allocatorIS2_EEJRKNS2_11InvalidTypeEELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB9foe210106IN6HSUtil6BufferENS_9allocatorIS2_EEJRKNS2_8CopyTypeERU8__strongP6NSDataELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB9foe210106IN6HSUtil6BufferENS_9allocatorIS2_EEJRKNS2_9FixedTypeERmELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
+- __ZNSt3__115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEE15__init_buf_ptrsB9foe210106Ev
+- __ZNSt3__115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEEC2B9foe210106Ej
+- __ZNSt3__116__pad_and_outputB9foe210106IcNS_11char_traitsIcEEEENS_19ostreambuf_iteratorIT_T0_EES6_PKS4_S8_S8_RNS_8ios_baseES4_
+- __ZNSt3__118condition_variable8wait_forB9foe210106IxNS_5ratioILl1ELl1000000EEEEENS_9cv_statusERNS_11unique_lockINS_5mutexEEERKNS_6chrono8durationIT_T0_EE
+- __ZNSt3__119__allocate_at_leastB9foe210106INS_9allocatorIN16HSRecordingTypes9PlayFrameEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
+- __ZNSt3__119__allocate_at_leastB9foe210106INS_9allocatorIN6HSUtil7Encoder15ContainerRecordEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS8_m
+- __ZNSt3__119__allocate_at_leastB9foe210106INS_9allocatorINS_10unique_ptrI12EncoderStateNS_14default_deleteIS3_EEEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSA_m
+- __ZNSt3__119__allocate_at_leastB9foe210106INS_9allocatorINS_10unique_ptrIN6HSUtil10EncoderBufENS_14default_deleteIS4_EEEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSB_m
+- __ZNSt3__119__allocate_at_leastB9foe210106INS_9allocatorIU8__strongP11objc_objectEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS8_m
+- __ZNSt3__119__shared_weak_count16__release_sharedB9foe210106Ev
+- __ZNSt3__119basic_ostringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEC1B9foe210106Ev
+- __ZNSt3__120__shared_ptr_emplaceI6ClientNS_9allocatorIS1_EEE21__on_zero_shared_implB9foe210106IS3_Li0EEEvv
+- __ZNSt3__120__shared_ptr_emplaceI6ClientNS_9allocatorIS1_EEEC2B9foe210106IJS1_ES3_Li0EEES3_DpOT_
+- __ZNSt3__120__shared_ptr_emplaceIN6HSUtil12ReceiveRightENS_9allocatorIS2_EEEC2B9foe210106IJS2_ES4_Li0EEES4_DpOT_
+- __ZNSt3__120__shared_ptr_emplaceIN6HSUtil6BufferENS_9allocatorIS2_EEEC2B9foe210106IJES4_Li0EEES4_DpOT_
+- __ZNSt3__120__shared_ptr_emplaceIN6HSUtil6BufferENS_9allocatorIS2_EEEC2B9foe210106IJRKNS2_11InvalidTypeEES4_Li0EEES4_DpOT_
+- __ZNSt3__120__shared_ptr_emplaceIN6HSUtil6BufferENS_9allocatorIS2_EEEC2B9foe210106IJRKNS2_8CopyTypeERU8__strongP6NSDataES4_Li0EEES4_DpOT_
+- __ZNSt3__120__shared_ptr_emplaceIN6HSUtil6BufferENS_9allocatorIS2_EEEC2B9foe210106IJRKNS2_9FixedTypeERmES4_Li0EEES4_DpOT_
+- __ZNSt3__120__throw_length_errorB9foe210106EPKc
+- __ZNSt3__121__murmur2_or_cityhashImLm64EE18__hash_len_0_to_16B9foe210106EPKcm
+- __ZNSt3__121__murmur2_or_cityhashImLm64EE19__hash_len_17_to_32B9foe210106EPKcm
+- __ZNSt3__121__murmur2_or_cityhashImLm64EE19__hash_len_33_to_64B9foe210106EPKcm
+- __ZNSt3__124__put_character_sequenceB9foe210106IcNS_11char_traitsIcEEEERNS_13basic_ostreamIT_T0_EES7_PKS4_m
+- __ZNSt3__125__throw_bad_function_callB9foe210106Ev
+- __ZNSt3__127__tree_balance_after_insertB9foe210106IPNS_16__tree_node_baseIPvEEEEvT_S5_
+- __ZNSt3__132__internal_log_hardening_failureEPKc
+- __ZNSt3__14pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEU8__strongP7HSStageEC2B9foe210106ERKSB_
+- __ZNSt3__16threadC2B9foe210106IZN6HSUtil10Connection5startEvEUlvE_JELi0EEEOT_DpOT0_
+- __ZNSt3__16vectorIN16HSRecordingTypes9PlayFrameENS_9allocatorIS2_EEE20__throw_length_errorB9foe210106Ev
+- __ZNSt3__16vectorIN16HSRecordingTypes9PlayFrameENS_9allocatorIS2_EEE9push_backB9foe210106ERKS2_
+- __ZNSt3__16vectorIN6HSUtil7Encoder15ContainerRecordENS_9allocatorIS3_EEE20__throw_length_errorB9foe210106Ev
+- __ZNSt3__16vectorIN6HSUtil7Encoder15ContainerRecordENS_9allocatorIS3_EEE9push_backB9foe210106EOS3_
+- __ZNSt3__16vectorINS_10unique_ptrI12EncoderStateNS_14default_deleteIS2_EEEENS_9allocatorIS5_EEE16__destroy_vectorclB9foe210106Ev
+- __ZNSt3__16vectorINS_10unique_ptrI12EncoderStateNS_14default_deleteIS2_EEEENS_9allocatorIS5_EEE20__throw_length_errorB9foe210106Ev
+- __ZNSt3__16vectorINS_10unique_ptrI12EncoderStateNS_14default_deleteIS2_EEEENS_9allocatorIS5_EEE5clearB9foe210106Ev
+- __ZNSt3__16vectorINS_10unique_ptrI12EncoderStateNS_14default_deleteIS2_EEEENS_9allocatorIS5_EEE9push_backB9foe210106EOS5_
+- __ZNSt3__16vectorINS_10unique_ptrIN6HSUtil10EncoderBufENS_14default_deleteIS3_EEEENS_9allocatorIS6_EEE16__destroy_vectorclB9foe210106Ev
+- __ZNSt3__16vectorINS_10unique_ptrIN6HSUtil10EncoderBufENS_14default_deleteIS3_EEEENS_9allocatorIS6_EEE20__throw_length_errorB9foe210106Ev
+- __ZNSt3__16vectorINS_10unique_ptrIN6HSUtil10EncoderBufENS_14default_deleteIS3_EEEENS_9allocatorIS6_EEE8pop_backB9foe210106Ev
+- __ZNSt3__16vectorIU8__strongP11objc_objectNS_9allocatorIS3_EEE16__destroy_vectorclB9foe210106Ev
+- __ZNSt3__16vectorIU8__strongP11objc_objectNS_9allocatorIS3_EEE20__throw_length_errorB9foe210106Ev
+- __ZNSt3__16vectorIU8__strongP11objc_objectNS_9allocatorIS3_EEE9push_backB9foe210106ERU8__strongKS2_
+- __ZNSt3__16vectorIZ34-[HSRecordingStage _stopRecording]E6RegionNS_9allocatorIS1_EEE20__throw_length_errorB9foe210106Ev
+- __ZNSt3__18__invokeB9foe210106IJRZN8HSMapper23_createConnectionConfigENS_8weak_ptrIS1_EEPU28objcproto17OS_dispatch_queue8NSObjectbEUlNS_10shared_ptrIN6HSUtil10ConnectionEEEE_SA_EEENS_20__invoke_result_implIvJDpT_EE4typeEDpOSE_
+- __ZNSt3__18__invokeB9foe210106IJRZN8HSMapper23_createConnectionConfigENS_8weak_ptrIS1_EEPU28objcproto17OS_dispatch_queue8NSObjectbEUlNS_10shared_ptrIN6HSUtil10ConnectionEEEONS8_6BufferEE_SA_SB_EEENS_20__invoke_result_implIvJDpT_EE4typeEDpOSG_
+- __ZSt28__throw_bad_array_new_lengthB9foe210106v
+CStrings:
+- "/AppleInternal/Library/BuildRoots/4~CJlJugCqwvqusytbxLtK9y0cb0tGpnV6SX9rPHQ/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__hash_table:1892: libc++ Hardening assertion __p != end() failed: unordered container::erase(iterator) called with a non-dereferenceable iterator\n"
+- "/AppleInternal/Library/BuildRoots/4~CJlJugCqwvqusytbxLtK9y0cb0tGpnV6SX9rPHQ/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__vector/vector.h:406: libc++ Hardening assertion __n < size() failed: vector[] index out of bounds\n"
+- "/AppleInternal/Library/BuildRoots/4~CJlJugCqwvqusytbxLtK9y0cb0tGpnV6SX9rPHQ/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__vector/vector.h:429: libc++ Hardening assertion !empty() failed: front() called on an empty vector\n"
+- "/AppleInternal/Library/BuildRoots/4~CJlJugCqwvqusytbxLtK9y0cb0tGpnV6SX9rPHQ/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__vector/vector.h:486: libc++ Hardening assertion !empty() failed: vector::pop_back called on an empty vector\n"
+
+```

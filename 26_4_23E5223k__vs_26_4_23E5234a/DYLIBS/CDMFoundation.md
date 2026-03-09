@@ -1,0 +1,212 @@
+## CDMFoundation
+
+> `/System/Library/PrivateFrameworks/CDMFoundation.framework/CDMFoundation`
+
+```diff
+
+ 3520.38.1.0.0
+-  __TEXT.__text: 0x286590
+-  __TEXT.__auth_stubs: 0x9aa0
++  __TEXT.__text: 0x286510
++  __TEXT.__auth_stubs: 0x9a90
+   __TEXT.__objc_methlist: 0x8254
+   __TEXT.__const: 0xd58f
+   __TEXT.__swift5_typeref: 0x42aa
+   __TEXT.__swift5_fieldmd: 0x3dcc
+   __TEXT.__constg_swiftt: 0x567c
+   __TEXT.__swift5_protos: 0xa0
+-  __TEXT.__cstring: 0x1b14a
++  __TEXT.__cstring: 0x1b017
+   __TEXT.__swift5_types: 0x57c
+   __TEXT.__swift5_proto: 0x9c0
+   __TEXT.__swift5_reflstr: 0x307a
+
+   __TEXT.__swift5_mpenum: 0x3c
+   __TEXT.__swift_as_entry: 0x24c
+   __TEXT.__swift_as_ret: 0x290
+-  __TEXT.__gcc_except_tab: 0xcf58
++  __TEXT.__gcc_except_tab: 0xcf54
+   __TEXT.__ustring: 0x164
+   __TEXT.__unwind_info: 0x7e30
+   __TEXT.__eh_frame: 0x7ed8
+
+   __DATA_CONST.__objc_protorefs: 0x80
+   __DATA_CONST.__objc_superrefs: 0x3f8
+   __DATA_CONST.__objc_arraydata: 0xa0
+-  __AUTH_CONST.__auth_got: 0x4d68
++  __AUTH_CONST.__auth_got: 0x4d60
+   __AUTH_CONST.__const: 0xa648
+   __AUTH_CONST.__cfstring: 0x7ca0
+   __AUTH_CONST.__objc_const: 0x122e0
+
+   - /usr/lib/swift/libswift_StringProcessing.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 7946291E-B9F0-3A6C-B278-D9C94DDFB36B
++  UUID: EC89778A-2EEA-30CC-B905-CEEBA2A758E9
+   Functions: 12592
+-  Symbols:   24683
+-  CStrings:  9661
++  Symbols:   24682
++  CStrings:  9660
+ 
+Symbols:
++ __ZNKSt3__114default_deleteIN4siri8ontology9MatchInfoEEclB9nqe210106EPS3_
++ __ZNSt12length_errorC1B9nqe210106EPKc
++ __ZNSt3__110unique_ptrIN2PB6WriterENS_14default_deleteIS2_EEED1B9nqe210106Ev
++ __ZNSt3__110unique_ptrIN4siri8ontology13UsoEntitySpanENS_14default_deleteIS3_EEED1B9nqe210106Ev
++ __ZNSt3__110unique_ptrIN4siri8ontology13UsoIdentifierENS_14default_deleteIS3_EEED1B9nqe210106Ev
++ __ZNSt3__110unique_ptrIN4siri8ontology8UsoGraphENS_14default_deleteIS3_EEED1B9nqe210106Ev
++ __ZNSt3__111make_uniqueB9nqe210106IN4siri8ontology13UsoEntitySpanEJELi0EEENS_10unique_ptrIT_NS_14default_deleteIS5_EEEEDpOT0_
++ __ZNSt3__112basic_stringIDsNS_11char_traitsIDsEENS_9allocatorIDsEEE20__throw_length_errorB9nqe210106Ev
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_length_errorB9nqe210106Ev
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC1B9nqe210106EPKcm
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC1B9nqe210106ILi0EEEPKc
++ __ZNSt3__115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEEC2B9nqe210106Ej
++ __ZNSt3__118basic_stringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEC1B9nqe210106Ev
++ __ZNSt3__119__shared_weak_count16__release_sharedB9nqe210106Ev
++ __ZNSt3__119basic_ostringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEC1B9nqe210106Ev
++ __ZNSt3__120__optional_copy_baseINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEELb0EEC2B9nqe210106ERKS7_
++ __ZNSt3__120__throw_length_errorB9nqe210106EPKc
++ __ZNSt3__123__optional_storage_baseINS_10unique_ptrIN4siri8ontology9MatchInfoENS_14default_deleteIS4_EEEELb0EE13__assign_fromB9nqe210106INS_27__optional_move_assign_baseIS7_Lb0EEEEEvOT_
++ __ZNSt3__123__optional_storage_baseINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEELb0EE13__assign_fromB9nqe210106INS_27__optional_move_assign_baseIS6_Lb0EEEEEvOT_
++ __ZNSt3__124__put_character_sequenceB9nqe210106IcNS_11char_traitsIcEEEERNS_13basic_ostreamIT_T0_EES7_PKS4_m
++ __ZNSt3__16vectorINS_10unique_ptrIN4siri8ontology12SpanPropertyENS_14default_deleteIS4_EEEENS_9allocatorIS7_EEE16__destroy_vectorclB9nqe210106Ev
++ __ZNSt3__16vectorINS_10unique_ptrIN4siri8ontology14AsrAlternativeENS_14default_deleteIS4_EEEENS_9allocatorIS7_EEE16__destroy_vectorclB9nqe210106Ev
++ __ZNSt3__16vectorIfNS_9allocatorIfEEE11__vallocateB9nqe210106Em
++ __ZNSt3__16vectorIfNS_9allocatorIfEEE16__init_with_sizeB9nqe210106IPfS5_EEvT_T0_m
++ __ZNSt3__16vectorIfNS_9allocatorIfEEE20__throw_length_errorB9nqe210106Ev
++ __ZSt28__throw_bad_array_new_lengthB9nqe210106v
++ ___Block_byref_object_copy_.10453
++ ___Block_byref_object_copy_.2222
++ ___Block_byref_object_copy_.2317
++ ___Block_byref_object_copy_.2949
++ ___Block_byref_object_copy_.3732
++ ___Block_byref_object_copy_.3879
++ ___Block_byref_object_copy_.5236
++ ___Block_byref_object_copy_.5982
++ ___Block_byref_object_copy_.6696
++ ___Block_byref_object_copy_.7161
++ ___Block_byref_object_copy_.8115
++ ___Block_byref_object_copy_.8890
++ ___Block_byref_object_dispose_.10454
++ ___Block_byref_object_dispose_.2223
++ ___Block_byref_object_dispose_.2318
++ ___Block_byref_object_dispose_.2950
++ ___Block_byref_object_dispose_.3733
++ ___Block_byref_object_dispose_.3880
++ ___Block_byref_object_dispose_.5237
++ ___Block_byref_object_dispose_.5983
++ ___Block_byref_object_dispose_.6697
++ ___Block_byref_object_dispose_.7162
++ ___Block_byref_object_dispose_.8116
++ ___Block_byref_object_dispose_.8891
++ ___block_literal_global.10063
++ ___block_literal_global.10347
++ ___block_literal_global.10686
++ ___block_literal_global.10843
++ ___block_literal_global.11112
++ ___block_literal_global.2245
++ ___block_literal_global.3743
++ ___block_literal_global.445.8200
++ ___block_literal_global.4458
++ ___block_literal_global.4567
++ ___block_literal_global.4697
++ ___block_literal_global.493.3710
++ ___block_literal_global.5525
++ ___block_literal_global.5815
++ ___block_literal_global.6822
++ ___block_literal_global.7110
++ ___block_literal_global.7521
++ ___block_literal_global.7701
++ ___block_literal_global.7785
++ ___block_literal_global.8266
++ ___block_literal_global.8311
++ ___block_literal_global.8805
++ ___block_literal_global.9929
++ _getNameStringToEnumDict.onceToken.7784
++ _getNameStringToEnumDict.onceToken.8310
+- __ZNKSt3__114default_deleteIN4siri8ontology9MatchInfoEEclB9foe210106EPS3_
+- __ZNSt12length_errorC1B9foe210106EPKc
+- __ZNSt3__110unique_ptrIN2PB6WriterENS_14default_deleteIS2_EEED1B9foe210106Ev
+- __ZNSt3__110unique_ptrIN4siri8ontology13UsoEntitySpanENS_14default_deleteIS3_EEED1B9foe210106Ev
+- __ZNSt3__110unique_ptrIN4siri8ontology13UsoIdentifierENS_14default_deleteIS3_EEED1B9foe210106Ev
+- __ZNSt3__110unique_ptrIN4siri8ontology8UsoGraphENS_14default_deleteIS3_EEED1B9foe210106Ev
+- __ZNSt3__111make_uniqueB9foe210106IN4siri8ontology13UsoEntitySpanEJELi0EEENS_10unique_ptrIT_NS_14default_deleteIS5_EEEEDpOT0_
+- __ZNSt3__112basic_stringIDsNS_11char_traitsIDsEENS_9allocatorIDsEEE20__throw_length_errorB9foe210106Ev
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_length_errorB9foe210106Ev
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC1B9foe210106EPKcm
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC1B9foe210106ILi0EEEPKc
+- __ZNSt3__115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEEC2B9foe210106Ej
+- __ZNSt3__118basic_stringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEC1B9foe210106Ev
+- __ZNSt3__119__shared_weak_count16__release_sharedB9foe210106Ev
+- __ZNSt3__119basic_ostringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEC1B9foe210106Ev
+- __ZNSt3__120__optional_copy_baseINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEELb0EEC2B9foe210106ERKS7_
+- __ZNSt3__120__throw_length_errorB9foe210106EPKc
+- __ZNSt3__123__optional_storage_baseINS_10unique_ptrIN4siri8ontology9MatchInfoENS_14default_deleteIS4_EEEELb0EE13__assign_fromB9foe210106INS_27__optional_move_assign_baseIS7_Lb0EEEEEvOT_
+- __ZNSt3__123__optional_storage_baseINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEELb0EE13__assign_fromB9foe210106INS_27__optional_move_assign_baseIS6_Lb0EEEEEvOT_
+- __ZNSt3__124__put_character_sequenceB9foe210106IcNS_11char_traitsIcEEEERNS_13basic_ostreamIT_T0_EES7_PKS4_m
+- __ZNSt3__132__internal_log_hardening_failureEPKc
+- __ZNSt3__16vectorINS_10unique_ptrIN4siri8ontology12SpanPropertyENS_14default_deleteIS4_EEEENS_9allocatorIS7_EEE16__destroy_vectorclB9foe210106Ev
+- __ZNSt3__16vectorINS_10unique_ptrIN4siri8ontology14AsrAlternativeENS_14default_deleteIS4_EEEENS_9allocatorIS7_EEE16__destroy_vectorclB9foe210106Ev
+- __ZNSt3__16vectorIfNS_9allocatorIfEEE11__vallocateB9foe210106Em
+- __ZNSt3__16vectorIfNS_9allocatorIfEEE16__init_with_sizeB9foe210106IPfS5_EEvT_T0_m
+- __ZNSt3__16vectorIfNS_9allocatorIfEEE20__throw_length_errorB9foe210106Ev
+- __ZSt28__throw_bad_array_new_lengthB9foe210106v
+- ___Block_byref_object_copy_.10455
+- ___Block_byref_object_copy_.2223
+- ___Block_byref_object_copy_.2318
+- ___Block_byref_object_copy_.2951
+- ___Block_byref_object_copy_.3734
+- ___Block_byref_object_copy_.3881
+- ___Block_byref_object_copy_.5238
+- ___Block_byref_object_copy_.5984
+- ___Block_byref_object_copy_.6698
+- ___Block_byref_object_copy_.7163
+- ___Block_byref_object_copy_.8117
+- ___Block_byref_object_copy_.8892
+- ___Block_byref_object_dispose_.10456
+- ___Block_byref_object_dispose_.2224
+- ___Block_byref_object_dispose_.2319
+- ___Block_byref_object_dispose_.2952
+- ___Block_byref_object_dispose_.3735
+- ___Block_byref_object_dispose_.3882
+- ___Block_byref_object_dispose_.5239
+- ___Block_byref_object_dispose_.5985
+- ___Block_byref_object_dispose_.6699
+- ___Block_byref_object_dispose_.7164
+- ___Block_byref_object_dispose_.8118
+- ___Block_byref_object_dispose_.8893
+- ___block_literal_global.10065
+- ___block_literal_global.10349
+- ___block_literal_global.10688
+- ___block_literal_global.10844
+- ___block_literal_global.11113
+- ___block_literal_global.2246
+- ___block_literal_global.3745
+- ___block_literal_global.445.8202
+- ___block_literal_global.4460
+- ___block_literal_global.4569
+- ___block_literal_global.4699
+- ___block_literal_global.493.3712
+- ___block_literal_global.5527
+- ___block_literal_global.5817
+- ___block_literal_global.6824
+- ___block_literal_global.7112
+- ___block_literal_global.7523
+- ___block_literal_global.7703
+- ___block_literal_global.7787
+- ___block_literal_global.8268
+- ___block_literal_global.8313
+- ___block_literal_global.8807
+- ___block_literal_global.9931
+- _getNameStringToEnumDict.onceToken.7786
+- _getNameStringToEnumDict.onceToken.8312
+Functions:
+~ -[CDMCATIChildService getCATIEmbeddingTensor:] : 524 -> 468
+~ +[CDMSiriVocabularyProtoSpanMatcher getFirstEntitySpanFromGraph:] : 340 -> 324
+~ -[CATILogisticsRegressionModel getBestIntent:numberOfModels:weightMatrix:guids:usoEdgeKey:] : 668 -> 612
+CStrings:
+- "/AppleInternal/Library/BuildRoots/4~CJmnugCpsEcWRpMS2zkf_rMz2PX3rho1_x5v0C8/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__vector/vector.h:406: libc++ Hardening assertion __n < size() failed: vector[] index out of bounds\n"
+
+```

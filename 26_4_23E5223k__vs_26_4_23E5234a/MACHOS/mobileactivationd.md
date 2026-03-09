@@ -1,0 +1,263 @@
+## mobileactivationd
+
+> `/usr/libexec/mobileactivationd`
+
+```diff
+
+-1076.100.28.0.0
+-  __TEXT.__text: 0x321b48
++1076.102.1.0.0
++  __TEXT.__text: 0x321b30
+   __TEXT.__auth_stubs: 0x1190
+   __TEXT.__objc_stubs: 0x31c0
+   __TEXT.__objc_methlist: 0x1104
+   __TEXT.__const: 0x5c398
+-  __TEXT.__cstring: 0xe987
++  __TEXT.__cstring: 0xe984
+   __TEXT.__objc_methname: 0x3fab
+   __TEXT.__oslogstring: 0xf38
+   __TEXT.__objc_classname: 0x1b4
+
+   __TEXT.__gcc_except_tab: 0x1c3c
+   __TEXT.__dlopen_cstrs: 0x294
+   __TEXT.__ustring: 0x4
+-  __TEXT.__unwind_info: 0x11b0
++  __TEXT.__unwind_info: 0x11a8
+   __TEXT.__eh_frame: 0xa0
+   __DATA_CONST.__auth_got: 0x8d8
+   __DATA_CONST.__got: 0x498
+
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/liblockdown.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 777C7340-6506-38E5-B5E9-075E477C75AF
++  UUID: 66E3937E-463B-35EE-BA0A-1D63ECFC7C39
+   Functions: 1612
+   Symbols:   10924
+   CStrings:  4672
+Symbols:
++ /AppleInternal/Library/BuildRoots/4~CKc5ugCytnXFDv86YyHfDIUYSeelcoidPnGhOK0/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/local/lib/amd/libDER.a(DER_Decode.o)
++ /AppleInternal/Library/BuildRoots/4~CKc5ugCytnXFDv86YyHfDIUYSeelcoidPnGhOK0/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/local/lib/libCoreTrust.a(AppleAnchors.o)
++ /AppleInternal/Library/BuildRoots/4~CKc5ugCytnXFDv86YyHfDIUYSeelcoidPnGhOK0/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/local/lib/libCoreTrust.a(CMS.o)
++ /AppleInternal/Library/BuildRoots/4~CKc5ugCytnXFDv86YyHfDIUYSeelcoidPnGhOK0/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/local/lib/libCoreTrust.a(CTEvaluate.o)
++ /AppleInternal/Library/BuildRoots/4~CKc5ugCytnXFDv86YyHfDIUYSeelcoidPnGhOK0/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/local/lib/libCoreTrust.a(CTEvaluateBAA.o)
++ /AppleInternal/Library/BuildRoots/4~CKc5ugCytnXFDv86YyHfDIUYSeelcoidPnGhOK0/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/local/lib/libCoreTrust.a(CryptoUtils.o)
++ /AppleInternal/Library/BuildRoots/4~CKc5ugCytnXFDv86YyHfDIUYSeelcoidPnGhOK0/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/local/lib/libCoreTrust.a(DERUtils.o)
++ /AppleInternal/Library/BuildRoots/4~CKc5ugCytnXFDv86YyHfDIUYSeelcoidPnGhOK0/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/local/lib/libCoreTrust.a(X509Certificate.o)
++ /AppleInternal/Library/BuildRoots/4~CKc5ugCytnXFDv86YyHfDIUYSeelcoidPnGhOK0/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/local/lib/libCoreTrust.a(X509Chain.o)
++ /AppleInternal/Library/BuildRoots/4~CKc5ugCytnXFDv86YyHfDIUYSeelcoidPnGhOK0/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/local/lib/libCoreTrust.a(X509Policy.o)
++ /AppleInternal/Library/BuildRoots/4~CKc5ugCytnXFDv86YyHfDIUYSeelcoidPnGhOK0/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/local/lib/libCoreTrust.a(iCDPAnchors.o)
++ /AppleInternal/Library/BuildRoots/4~CKc5ugCytnXFDv86YyHfDIUYSeelcoidPnGhOK0/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/local/lib/libaks.a(acl_keys.o)
++ /AppleInternal/Library/BuildRoots/4~CKc5ugCytnXFDv86YyHfDIUYSeelcoidPnGhOK0/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/local/lib/libaks.a(aks_pack.o)
++ /AppleInternal/Library/BuildRoots/4~CKc5ugCytnXFDv86YyHfDIUYSeelcoidPnGhOK0/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/local/lib/libaks.a(der_utils.o)
++ /AppleInternal/Library/BuildRoots/4~CKc5ugCytnXFDv86YyHfDIUYSeelcoidPnGhOK0/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/local/lib/libaks.a(firebloom_hacks.o)
++ /AppleInternal/Library/BuildRoots/4~CKc5ugCytnXFDv86YyHfDIUYSeelcoidPnGhOK0/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/local/lib/libaks.a(libaks_client.o)
++ /AppleInternal/Library/BuildRoots/4~CKc5ugCytnXFDv86YyHfDIUYSeelcoidPnGhOK0/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/local/lib/libaks.a(libaks_internal.o)
++ /AppleInternal/Library/BuildRoots/4~CKc5ugCytnXFDv86YyHfDIUYSeelcoidPnGhOK0/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/local/lib/libaks.a(libaks_ref_key.o)
++ /Library/Caches/com.apple.xbs/2B49E703-FB99-41CB-9D47-AB9002CED559/TemporaryDirectory.NzaBCn/Sources/CoreTrust/Source/
++ /Library/Caches/com.apple.xbs/31011921-24FD-48C4-BF72-D496EA564F4E/TemporaryDirectory.jCwdyf/Sources/libDER/libDER/
++ /Library/Caches/com.apple.xbs/86EEAF6C-B9EE-4F07-913A-92E199143E95/TemporaryDirectory.yIoom2/Sources/AppleKeyStore_libs/
++ /Library/Caches/com.apple.xbs/E57E8B02-56C2-4838-B4A2-561201EEE982/TemporaryDirectory.qmB6fF/Binaries/MobileActivation/install/TempContent/Objects/MobileActivation.build/mobileactivationd.build/Objects-normal/arm64e/BAAASMFiOSRootCAPEM.o
++ /Library/Caches/com.apple.xbs/E57E8B02-56C2-4838-B4A2-561201EEE982/TemporaryDirectory.qmB6fF/Binaries/MobileActivation/install/TempContent/Objects/MobileActivation.build/mobileactivationd.build/Objects-normal/arm64e/BAAMFiRootCAPEM.o
++ /Library/Caches/com.apple.xbs/E57E8B02-56C2-4838-B4A2-561201EEE982/TemporaryDirectory.qmB6fF/Binaries/MobileActivation/install/TempContent/Objects/MobileActivation.build/mobileactivationd.build/Objects-normal/arm64e/BAASCRTRootCAPEM.o
++ /Library/Caches/com.apple.xbs/E57E8B02-56C2-4838-B4A2-561201EEE982/TemporaryDirectory.qmB6fF/Binaries/MobileActivation/install/TempContent/Objects/MobileActivation.build/mobileactivationd.build/Objects-normal/arm64e/BAAUCRTRootCAPEM.o
++ /Library/Caches/com.apple.xbs/E57E8B02-56C2-4838-B4A2-561201EEE982/TemporaryDirectory.qmB6fF/Binaries/MobileActivation/install/TempContent/Objects/MobileActivation.build/mobileactivationd.build/Objects-normal/arm64e/BAAVMRootCAPEM.o
++ /Library/Caches/com.apple.xbs/E57E8B02-56C2-4838-B4A2-561201EEE982/TemporaryDirectory.qmB6fF/Binaries/MobileActivation/install/TempContent/Objects/MobileActivation.build/mobileactivationd.build/Objects-normal/arm64e/FactoryUCRTRootCAPEM.o
++ /Library/Caches/com.apple.xbs/E57E8B02-56C2-4838-B4A2-561201EEE982/TemporaryDirectory.qmB6fF/Binaries/MobileActivation/install/TempContent/Objects/MobileActivation.build/mobileactivationd.build/Objects-normal/arm64e/GestaltHlpr.o
++ /Library/Caches/com.apple.xbs/E57E8B02-56C2-4838-B4A2-561201EEE982/TemporaryDirectory.qmB6fF/Binaries/MobileActivation/install/TempContent/Objects/MobileActivation.build/mobileactivationd.build/Objects-normal/arm64e/MACollectionInterface.o
++ /Library/Caches/com.apple.xbs/E57E8B02-56C2-4838-B4A2-561201EEE982/TemporaryDirectory.qmB6fF/Binaries/MobileActivation/install/TempContent/Objects/MobileActivation.build/mobileactivationd.build/Objects-normal/arm64e/MATelephonyInfo.o
++ /Library/Caches/com.apple.xbs/E57E8B02-56C2-4838-B4A2-561201EEE982/TemporaryDirectory.qmB6fF/Binaries/MobileActivation/install/TempContent/Objects/MobileActivation.build/mobileactivationd.build/Objects-normal/arm64e/MobileActivationError.o
++ /Library/Caches/com.apple.xbs/E57E8B02-56C2-4838-B4A2-561201EEE982/TemporaryDirectory.qmB6fF/Binaries/MobileActivation/install/TempContent/Objects/MobileActivation.build/mobileactivationd.build/Objects-normal/arm64e/MobileActivationErrorPrivate.o
++ /Library/Caches/com.apple.xbs/E57E8B02-56C2-4838-B4A2-561201EEE982/TemporaryDirectory.qmB6fF/Binaries/MobileActivation/install/TempContent/Objects/MobileActivation.build/mobileactivationd.build/Objects-normal/arm64e/MobileRecertifyEngine.o
++ /Library/Caches/com.apple.xbs/E57E8B02-56C2-4838-B4A2-561201EEE982/TemporaryDirectory.qmB6fF/Binaries/MobileActivation/install/TempContent/Objects/MobileActivation.build/mobileactivationd.build/Objects-normal/arm64e/NSData+MobileActivation.o
++ /Library/Caches/com.apple.xbs/E57E8B02-56C2-4838-B4A2-561201EEE982/TemporaryDirectory.qmB6fF/Binaries/MobileActivation/install/TempContent/Objects/MobileActivation.build/mobileactivationd.build/Objects-normal/arm64e/NSDateFormatter+MobileActivation.o
++ /Library/Caches/com.apple.xbs/E57E8B02-56C2-4838-B4A2-561201EEE982/TemporaryDirectory.qmB6fF/Binaries/MobileActivation/install/TempContent/Objects/MobileActivation.build/mobileactivationd.build/Objects-normal/arm64e/NSDictionary+MobileActivation.o
++ /Library/Caches/com.apple.xbs/E57E8B02-56C2-4838-B4A2-561201EEE982/TemporaryDirectory.qmB6fF/Binaries/MobileActivation/install/TempContent/Objects/MobileActivation.build/mobileactivationd.build/Objects-normal/arm64e/NSString+MobileActivation.o
++ /Library/Caches/com.apple.xbs/E57E8B02-56C2-4838-B4A2-561201EEE982/TemporaryDirectory.qmB6fF/Binaries/MobileActivation/install/TempContent/Objects/MobileActivation.build/mobileactivationd.build/Objects-normal/arm64e/NetworkProvider.o
++ /Library/Caches/com.apple.xbs/E57E8B02-56C2-4838-B4A2-561201EEE982/TemporaryDirectory.qmB6fF/Binaries/MobileActivation/install/TempContent/Objects/MobileActivation.build/mobileactivationd.build/Objects-normal/arm64e/QABAAASMFiOSRootCAPEM.o
++ /Library/Caches/com.apple.xbs/E57E8B02-56C2-4838-B4A2-561201EEE982/TemporaryDirectory.qmB6fF/Binaries/MobileActivation/install/TempContent/Objects/MobileActivation.build/mobileactivationd.build/Objects-normal/arm64e/QABAAMFiRootCAPEM.o
++ /Library/Caches/com.apple.xbs/E57E8B02-56C2-4838-B4A2-561201EEE982/TemporaryDirectory.qmB6fF/Binaries/MobileActivation/install/TempContent/Objects/MobileActivation.build/mobileactivationd.build/Objects-normal/arm64e/QABAASCRTRootCAPEM.o
++ /Library/Caches/com.apple.xbs/E57E8B02-56C2-4838-B4A2-561201EEE982/TemporaryDirectory.qmB6fF/Binaries/MobileActivation/install/TempContent/Objects/MobileActivation.build/mobileactivationd.build/Objects-normal/arm64e/QABAAUCRTRootCAPEM.o
++ /Library/Caches/com.apple.xbs/E57E8B02-56C2-4838-B4A2-561201EEE982/TemporaryDirectory.qmB6fF/Binaries/MobileActivation/install/TempContent/Objects/MobileActivation.build/mobileactivationd.build/Objects-normal/arm64e/QABAAVMRootCAPEM.o
++ /Library/Caches/com.apple.xbs/E57E8B02-56C2-4838-B4A2-561201EEE982/TemporaryDirectory.qmB6fF/Binaries/MobileActivation/install/TempContent/Objects/MobileActivation.build/mobileactivationd.build/Objects-normal/arm64e/QAIphoneActivationPEM.o
++ /Library/Caches/com.apple.xbs/E57E8B02-56C2-4838-B4A2-561201EEE982/TemporaryDirectory.qmB6fF/Binaries/MobileActivation/install/TempContent/Objects/MobileActivation.build/mobileactivationd.build/Objects-normal/arm64e/QAIphoneDeviceCAPEM.o
++ /Library/Caches/com.apple.xbs/E57E8B02-56C2-4838-B4A2-561201EEE982/TemporaryDirectory.qmB6fF/Binaries/MobileActivation/install/TempContent/Objects/MobileActivation.build/mobileactivationd.build/Objects-normal/arm64e/QAUCRTRootCAP384PEM.o
++ /Library/Caches/com.apple.xbs/E57E8B02-56C2-4838-B4A2-561201EEE982/TemporaryDirectory.qmB6fF/Binaries/MobileActivation/install/TempContent/Objects/MobileActivation.build/mobileactivationd.build/Objects-normal/arm64e/QAUCRTRootCAPEM.o
++ /Library/Caches/com.apple.xbs/E57E8B02-56C2-4838-B4A2-561201EEE982/TemporaryDirectory.qmB6fF/Binaries/MobileActivation/install/TempContent/Objects/MobileActivation.build/mobileactivationd.build/Objects-normal/arm64e/QAUCRTSubCAPEM.o
++ /Library/Caches/com.apple.xbs/E57E8B02-56C2-4838-B4A2-561201EEE982/TemporaryDirectory.qmB6fF/Binaries/MobileActivation/install/TempContent/Objects/MobileActivation.build/mobileactivationd.build/Objects-normal/arm64e/RaptorActivationPEM.o
++ /Library/Caches/com.apple.xbs/E57E8B02-56C2-4838-B4A2-561201EEE982/TemporaryDirectory.qmB6fF/Binaries/MobileActivation/install/TempContent/Objects/MobileActivation.build/mobileactivationd.build/Objects-normal/arm64e/RaptorDeviceCAPEM.o
++ /Library/Caches/com.apple.xbs/E57E8B02-56C2-4838-B4A2-561201EEE982/TemporaryDirectory.qmB6fF/Binaries/MobileActivation/install/TempContent/Objects/MobileActivation.build/mobileactivationd.build/Objects-normal/arm64e/UCRTRootCAPEM.o
++ /Library/Caches/com.apple.xbs/E57E8B02-56C2-4838-B4A2-561201EEE982/TemporaryDirectory.qmB6fF/Binaries/MobileActivation/install/TempContent/Objects/MobileActivation.build/mobileactivationd.build/Objects-normal/arm64e/UCRTSubCAPEM.o
++ /Library/Caches/com.apple.xbs/E57E8B02-56C2-4838-B4A2-561201EEE982/TemporaryDirectory.qmB6fF/Binaries/MobileActivation/install/TempContent/Objects/MobileActivation.build/mobileactivationd.build/Objects-normal/arm64e/activation_support.o
++ /Library/Caches/com.apple.xbs/E57E8B02-56C2-4838-B4A2-561201EEE982/TemporaryDirectory.qmB6fF/Binaries/MobileActivation/install/TempContent/Objects/MobileActivation.build/mobileactivationd.build/Objects-normal/arm64e/activation_support_shared.o
++ /Library/Caches/com.apple.xbs/E57E8B02-56C2-4838-B4A2-561201EEE982/TemporaryDirectory.qmB6fF/Binaries/MobileActivation/install/TempContent/Objects/MobileActivation.build/mobileactivationd.build/Objects-normal/arm64e/authkit.o
++ /Library/Caches/com.apple.xbs/E57E8B02-56C2-4838-B4A2-561201EEE982/TemporaryDirectory.qmB6fF/Binaries/MobileActivation/install/TempContent/Objects/MobileActivation.build/mobileactivationd.build/Objects-normal/arm64e/baa.o
++ /Library/Caches/com.apple.xbs/E57E8B02-56C2-4838-B4A2-561201EEE982/TemporaryDirectory.qmB6fF/Binaries/MobileActivation/install/TempContent/Objects/MobileActivation.build/mobileactivationd.build/Objects-normal/arm64e/baa_oids.o
++ /Library/Caches/com.apple.xbs/E57E8B02-56C2-4838-B4A2-561201EEE982/TemporaryDirectory.qmB6fF/Binaries/MobileActivation/install/TempContent/Objects/MobileActivation.build/mobileactivationd.build/Objects-normal/arm64e/battery_management.o
++ /Library/Caches/com.apple.xbs/E57E8B02-56C2-4838-B4A2-561201EEE982/TemporaryDirectory.qmB6fF/Binaries/MobileActivation/install/TempContent/Objects/MobileActivation.build/mobileactivationd.build/Objects-normal/arm64e/bridge.o
++ /Library/Caches/com.apple.xbs/E57E8B02-56C2-4838-B4A2-561201EEE982/TemporaryDirectory.qmB6fF/Binaries/MobileActivation/install/TempContent/Objects/MobileActivation.build/mobileactivationd.build/Objects-normal/arm64e/bridge_support.o
++ /Library/Caches/com.apple.xbs/E57E8B02-56C2-4838-B4A2-561201EEE982/TemporaryDirectory.qmB6fF/Binaries/MobileActivation/install/TempContent/Objects/MobileActivation.build/mobileactivationd.build/Objects-normal/arm64e/common.o
++ /Library/Caches/com.apple.xbs/E57E8B02-56C2-4838-B4A2-561201EEE982/TemporaryDirectory.qmB6fF/Binaries/MobileActivation/install/TempContent/Objects/MobileActivation.build/mobileactivationd.build/Objects-normal/arm64e/coretrust.o
++ /Library/Caches/com.apple.xbs/E57E8B02-56C2-4838-B4A2-561201EEE982/TemporaryDirectory.qmB6fF/Binaries/MobileActivation/install/TempContent/Objects/MobileActivation.build/mobileactivationd.build/Objects-normal/arm64e/crypto.o
++ /Library/Caches/com.apple.xbs/E57E8B02-56C2-4838-B4A2-561201EEE982/TemporaryDirectory.qmB6fF/Binaries/MobileActivation/install/TempContent/Objects/MobileActivation.build/mobileactivationd.build/Objects-normal/arm64e/data_ark.o
++ /Library/Caches/com.apple.xbs/E57E8B02-56C2-4838-B4A2-561201EEE982/TemporaryDirectory.qmB6fF/Binaries/MobileActivation/install/TempContent/Objects/MobileActivation.build/mobileactivationd.build/Objects-normal/arm64e/data_migration_support.o
++ /Library/Caches/com.apple.xbs/E57E8B02-56C2-4838-B4A2-561201EEE982/TemporaryDirectory.qmB6fF/Binaries/MobileActivation/install/TempContent/Objects/MobileActivation.build/mobileactivationd.build/Objects-normal/arm64e/device_tree.o
++ /Library/Caches/com.apple.xbs/E57E8B02-56C2-4838-B4A2-561201EEE982/TemporaryDirectory.qmB6fF/Binaries/MobileActivation/install/TempContent/Objects/MobileActivation.build/mobileactivationd.build/Objects-normal/arm64e/dsp.o
++ /Library/Caches/com.apple.xbs/E57E8B02-56C2-4838-B4A2-561201EEE982/TemporaryDirectory.qmB6fF/Binaries/MobileActivation/install/TempContent/Objects/MobileActivation.build/mobileactivationd.build/Objects-normal/arm64e/env.o
++ /Library/Caches/com.apple.xbs/E57E8B02-56C2-4838-B4A2-561201EEE982/TemporaryDirectory.qmB6fF/Binaries/MobileActivation/install/TempContent/Objects/MobileActivation.build/mobileactivationd.build/Objects-normal/arm64e/env_darwin.o
++ /Library/Caches/com.apple.xbs/E57E8B02-56C2-4838-B4A2-561201EEE982/TemporaryDirectory.qmB6fF/Binaries/MobileActivation/install/TempContent/Objects/MobileActivation.build/mobileactivationd.build/Objects-normal/arm64e/findmy.o
++ /Library/Caches/com.apple.xbs/E57E8B02-56C2-4838-B4A2-561201EEE982/TemporaryDirectory.qmB6fF/Binaries/MobileActivation/install/TempContent/Objects/MobileActivation.build/mobileactivationd.build/Objects-normal/arm64e/host.o
++ /Library/Caches/com.apple.xbs/E57E8B02-56C2-4838-B4A2-561201EEE982/TemporaryDirectory.qmB6fF/Binaries/MobileActivation/install/TempContent/Objects/MobileActivation.build/mobileactivationd.build/Objects-normal/arm64e/iPhoneActivationPEM.o
++ /Library/Caches/com.apple.xbs/E57E8B02-56C2-4838-B4A2-561201EEE982/TemporaryDirectory.qmB6fF/Binaries/MobileActivation/install/TempContent/Objects/MobileActivation.build/mobileactivationd.build/Objects-normal/arm64e/iPhoneCAPEM.o
++ /Library/Caches/com.apple.xbs/E57E8B02-56C2-4838-B4A2-561201EEE982/TemporaryDirectory.qmB6fF/Binaries/MobileActivation/install/TempContent/Objects/MobileActivation.build/mobileactivationd.build/Objects-normal/arm64e/iPhoneDeviceCAPEM.o
++ /Library/Caches/com.apple.xbs/E57E8B02-56C2-4838-B4A2-561201EEE982/TemporaryDirectory.qmB6fF/Binaries/MobileActivation/install/TempContent/Objects/MobileActivation.build/mobileactivationd.build/Objects-normal/arm64e/identity_support.o
++ /Library/Caches/com.apple.xbs/E57E8B02-56C2-4838-B4A2-561201EEE982/TemporaryDirectory.qmB6fF/Binaries/MobileActivation/install/TempContent/Objects/MobileActivation.build/mobileactivationd.build/Objects-normal/arm64e/keylist.o
++ /Library/Caches/com.apple.xbs/E57E8B02-56C2-4838-B4A2-561201EEE982/TemporaryDirectory.qmB6fF/Binaries/MobileActivation/install/TempContent/Objects/MobileActivation.build/mobileactivationd.build/Objects-normal/arm64e/libaks_keymanagement.o
++ /Library/Caches/com.apple.xbs/E57E8B02-56C2-4838-B4A2-561201EEE982/TemporaryDirectory.qmB6fF/Binaries/MobileActivation/install/TempContent/Objects/MobileActivation.build/mobileactivationd.build/Objects-normal/arm64e/log.o
++ /Library/Caches/com.apple.xbs/E57E8B02-56C2-4838-B4A2-561201EEE982/TemporaryDirectory.qmB6fF/Binaries/MobileActivation/install/TempContent/Objects/MobileActivation.build/mobileactivationd.build/Objects-normal/arm64e/main.o
++ /Library/Caches/com.apple.xbs/E57E8B02-56C2-4838-B4A2-561201EEE982/TemporaryDirectory.qmB6fF/Binaries/MobileActivation/install/TempContent/Objects/MobileActivation.build/mobileactivationd.build/Objects-normal/arm64e/mobileactivationd.o
++ /Library/Caches/com.apple.xbs/E57E8B02-56C2-4838-B4A2-561201EEE982/TemporaryDirectory.qmB6fF/Binaries/MobileActivation/install/TempContent/Objects/MobileActivation.build/mobileactivationd.build/Objects-normal/arm64e/msu_data_accessor.o
++ /Library/Caches/com.apple.xbs/E57E8B02-56C2-4838-B4A2-561201EEE982/TemporaryDirectory.qmB6fF/Binaries/MobileActivation/install/TempContent/Objects/MobileActivation.build/mobileactivationd.build/Objects-normal/arm64e/path_support_shared.o
++ /Library/Caches/com.apple.xbs/E57E8B02-56C2-4838-B4A2-561201EEE982/TemporaryDirectory.qmB6fF/Binaries/MobileActivation/install/TempContent/Objects/MobileActivation.build/mobileactivationd.build/Objects-normal/arm64e/regioncode.o
++ /Library/Caches/com.apple.xbs/E57E8B02-56C2-4838-B4A2-561201EEE982/TemporaryDirectory.qmB6fF/Binaries/MobileActivation/install/TempContent/Objects/MobileActivation.build/mobileactivationd.build/Objects-normal/arm64e/requests.o
++ /Library/Caches/com.apple.xbs/E57E8B02-56C2-4838-B4A2-561201EEE982/TemporaryDirectory.qmB6fF/Binaries/MobileActivation/install/TempContent/Objects/MobileActivation.build/mobileactivationd.build/Objects-normal/arm64e/requests_network.o
++ /Library/Caches/com.apple.xbs/E57E8B02-56C2-4838-B4A2-561201EEE982/TemporaryDirectory.qmB6fF/Binaries/MobileActivation/install/TempContent/Objects/MobileActivation.build/mobileactivationd.build/Objects-normal/arm64e/requests_support.o
++ /Library/Caches/com.apple.xbs/E57E8B02-56C2-4838-B4A2-561201EEE982/TemporaryDirectory.qmB6fF/Binaries/MobileActivation/install/TempContent/Objects/MobileActivation.build/mobileactivationd.build/Objects-normal/arm64e/reverseproxy.o
++ /Library/Caches/com.apple.xbs/E57E8B02-56C2-4838-B4A2-561201EEE982/TemporaryDirectory.qmB6fF/Binaries/MobileActivation/install/TempContent/Objects/MobileActivation.build/mobileactivationd.build/Objects-normal/arm64e/root_certificates.o
++ /Library/Caches/com.apple.xbs/E57E8B02-56C2-4838-B4A2-561201EEE982/TemporaryDirectory.qmB6fF/Binaries/MobileActivation/install/TempContent/Objects/MobileActivation.build/mobileactivationd.build/Objects-normal/arm64e/runtime_environment.o
++ /Library/Caches/com.apple.xbs/E57E8B02-56C2-4838-B4A2-561201EEE982/TemporaryDirectory.qmB6fF/Binaries/MobileActivation/install/TempContent/Objects/MobileActivation.build/mobileactivationd.build/Objects-normal/arm64e/security_keymanagement.o
++ /Library/Caches/com.apple.xbs/E57E8B02-56C2-4838-B4A2-561201EEE982/TemporaryDirectory.qmB6fF/Binaries/MobileActivation/install/TempContent/Objects/MobileActivation.build/mobileactivationd.build/Objects-normal/arm64e/signpost.o
++ /Library/Caches/com.apple.xbs/E57E8B02-56C2-4838-B4A2-561201EEE982/TemporaryDirectory.qmB6fF/Binaries/MobileActivation/install/TempContent/Objects/MobileActivation.build/mobileactivationd.build/Objects-normal/arm64e/splunk_logging.o
++ /Library/Caches/com.apple.xbs/E57E8B02-56C2-4838-B4A2-561201EEE982/TemporaryDirectory.qmB6fF/Binaries/MobileActivation/install/TempContent/Objects/MobileActivation.build/mobileactivationd.build/Objects-normal/arm64e/support.o
++ /Library/Caches/com.apple.xbs/E57E8B02-56C2-4838-B4A2-561201EEE982/TemporaryDirectory.qmB6fF/Binaries/MobileActivation/install/TempContent/Objects/MobileActivation.build/mobileactivationd.build/Objects-normal/arm64e/sysctl_.o
++ /Library/Caches/com.apple.xbs/E57E8B02-56C2-4838-B4A2-561201EEE982/TemporaryDirectory.qmB6fF/Binaries/MobileActivation/install/TempContent/Objects/MobileActivation.build/mobileactivationd.build/Objects-normal/arm64e/sysctl__darwin.o
++ /Library/Caches/com.apple.xbs/E57E8B02-56C2-4838-B4A2-561201EEE982/TemporaryDirectory.qmB6fF/Binaries/MobileActivation/install/TempContent/Objects/MobileActivation.build/mobileactivationd.build/Objects-normal/arm64e/trial.o
++ /Library/Caches/com.apple.xbs/E57E8B02-56C2-4838-B4A2-561201EEE982/TemporaryDirectory.qmB6fF/Binaries/MobileActivation/install/TempContent/Objects/MobileActivation.build/mobileactivationd.build/Objects-normal/arm64e/vm_host_support.o
++ /Library/Caches/com.apple.xbs/E57E8B02-56C2-4838-B4A2-561201EEE982/TemporaryDirectory.qmB6fF/Binaries/MobileActivation/install/TempContent/Objects/MobileActivation.build/mobileactivationd.build/Objects-normal/arm64e/vm_libavp.o
++ /Library/Caches/com.apple.xbs/E57E8B02-56C2-4838-B4A2-561201EEE982/TemporaryDirectory.qmB6fF/Binaries/MobileActivation/install/TempContent/Objects/MobileActivation.build/mobileactivationd.build/Objects-normal/arm64e/vm_support.o
++ /Library/Caches/com.apple.xbs/E57E8B02-56C2-4838-B4A2-561201EEE982/TemporaryDirectory.qmB6fF/Sources/MobileActivation/certs/Activation/PROD/
++ /Library/Caches/com.apple.xbs/E57E8B02-56C2-4838-B4A2-561201EEE982/TemporaryDirectory.qmB6fF/Sources/MobileActivation/certs/Activation/QA/
++ /Library/Caches/com.apple.xbs/E57E8B02-56C2-4838-B4A2-561201EEE982/TemporaryDirectory.qmB6fF/Sources/MobileActivation/certs/BAA/PROD/
++ /Library/Caches/com.apple.xbs/E57E8B02-56C2-4838-B4A2-561201EEE982/TemporaryDirectory.qmB6fF/Sources/MobileActivation/certs/BAA/QA/
++ /Library/Caches/com.apple.xbs/E57E8B02-56C2-4838-B4A2-561201EEE982/TemporaryDirectory.qmB6fF/Sources/MobileActivation/certs/UCRT/PROD/
++ /Library/Caches/com.apple.xbs/E57E8B02-56C2-4838-B4A2-561201EEE982/TemporaryDirectory.qmB6fF/Sources/MobileActivation/certs/UCRT/QA/
++ /Library/Caches/com.apple.xbs/E57E8B02-56C2-4838-B4A2-561201EEE982/TemporaryDirectory.qmB6fF/Sources/MobileActivation/mobileactivationd/
++ /Library/Caches/com.apple.xbs/E57E8B02-56C2-4838-B4A2-561201EEE982/TemporaryDirectory.qmB6fF/Sources/MobileActivation/shared/
++ ___block_descriptor_56_e8_32s40bs_e33_v16?0"NSObject<OS_xpc_object>"8l
+- /AppleInternal/Library/BuildRoots/4~CJlTugCJK9E6CSidY6dyQ6y7fBBRWstAZjeGUAg/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/local/lib/amd/libDER.a(DER_Decode.o)
+- /AppleInternal/Library/BuildRoots/4~CJlTugCJK9E6CSidY6dyQ6y7fBBRWstAZjeGUAg/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/local/lib/libCoreTrust.a(AppleAnchors.o)
+- /AppleInternal/Library/BuildRoots/4~CJlTugCJK9E6CSidY6dyQ6y7fBBRWstAZjeGUAg/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/local/lib/libCoreTrust.a(CMS.o)
+- /AppleInternal/Library/BuildRoots/4~CJlTugCJK9E6CSidY6dyQ6y7fBBRWstAZjeGUAg/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/local/lib/libCoreTrust.a(CTEvaluate.o)
+- /AppleInternal/Library/BuildRoots/4~CJlTugCJK9E6CSidY6dyQ6y7fBBRWstAZjeGUAg/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/local/lib/libCoreTrust.a(CTEvaluateBAA.o)
+- /AppleInternal/Library/BuildRoots/4~CJlTugCJK9E6CSidY6dyQ6y7fBBRWstAZjeGUAg/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/local/lib/libCoreTrust.a(CryptoUtils.o)
+- /AppleInternal/Library/BuildRoots/4~CJlTugCJK9E6CSidY6dyQ6y7fBBRWstAZjeGUAg/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/local/lib/libCoreTrust.a(DERUtils.o)
+- /AppleInternal/Library/BuildRoots/4~CJlTugCJK9E6CSidY6dyQ6y7fBBRWstAZjeGUAg/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/local/lib/libCoreTrust.a(X509Certificate.o)
+- /AppleInternal/Library/BuildRoots/4~CJlTugCJK9E6CSidY6dyQ6y7fBBRWstAZjeGUAg/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/local/lib/libCoreTrust.a(X509Chain.o)
+- /AppleInternal/Library/BuildRoots/4~CJlTugCJK9E6CSidY6dyQ6y7fBBRWstAZjeGUAg/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/local/lib/libCoreTrust.a(X509Policy.o)
+- /AppleInternal/Library/BuildRoots/4~CJlTugCJK9E6CSidY6dyQ6y7fBBRWstAZjeGUAg/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/local/lib/libCoreTrust.a(iCDPAnchors.o)
+- /AppleInternal/Library/BuildRoots/4~CJlTugCJK9E6CSidY6dyQ6y7fBBRWstAZjeGUAg/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/local/lib/libaks.a(acl_keys.o)
+- /AppleInternal/Library/BuildRoots/4~CJlTugCJK9E6CSidY6dyQ6y7fBBRWstAZjeGUAg/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/local/lib/libaks.a(aks_pack.o)
+- /AppleInternal/Library/BuildRoots/4~CJlTugCJK9E6CSidY6dyQ6y7fBBRWstAZjeGUAg/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/local/lib/libaks.a(der_utils.o)
+- /AppleInternal/Library/BuildRoots/4~CJlTugCJK9E6CSidY6dyQ6y7fBBRWstAZjeGUAg/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/local/lib/libaks.a(firebloom_hacks.o)
+- /AppleInternal/Library/BuildRoots/4~CJlTugCJK9E6CSidY6dyQ6y7fBBRWstAZjeGUAg/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/local/lib/libaks.a(libaks_client.o)
+- /AppleInternal/Library/BuildRoots/4~CJlTugCJK9E6CSidY6dyQ6y7fBBRWstAZjeGUAg/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/local/lib/libaks.a(libaks_internal.o)
+- /AppleInternal/Library/BuildRoots/4~CJlTugCJK9E6CSidY6dyQ6y7fBBRWstAZjeGUAg/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/local/lib/libaks.a(libaks_ref_key.o)
+- /Library/Caches/com.apple.xbs/1FAAEE0C-A3D5-47A5-B2A7-7ED7A72DFF04/TemporaryDirectory.WgA02S/Sources/libDER/libDER/
+- /Library/Caches/com.apple.xbs/98239336-FA86-496F-9523-F24AC0AE9763/TemporaryDirectory.XYR4kh/Sources/AppleKeyStore_libs/
+- /Library/Caches/com.apple.xbs/C7E369A4-38AC-4637-B326-235E7630FBFE/TemporaryDirectory.O49iyA/Binaries/MobileActivation/install/TempContent/Objects/MobileActivation.build/mobileactivationd.build/Objects-normal/arm64e/BAAASMFiOSRootCAPEM.o
+- /Library/Caches/com.apple.xbs/C7E369A4-38AC-4637-B326-235E7630FBFE/TemporaryDirectory.O49iyA/Binaries/MobileActivation/install/TempContent/Objects/MobileActivation.build/mobileactivationd.build/Objects-normal/arm64e/BAAMFiRootCAPEM.o
+- /Library/Caches/com.apple.xbs/C7E369A4-38AC-4637-B326-235E7630FBFE/TemporaryDirectory.O49iyA/Binaries/MobileActivation/install/TempContent/Objects/MobileActivation.build/mobileactivationd.build/Objects-normal/arm64e/BAASCRTRootCAPEM.o
+- /Library/Caches/com.apple.xbs/C7E369A4-38AC-4637-B326-235E7630FBFE/TemporaryDirectory.O49iyA/Binaries/MobileActivation/install/TempContent/Objects/MobileActivation.build/mobileactivationd.build/Objects-normal/arm64e/BAAUCRTRootCAPEM.o
+- /Library/Caches/com.apple.xbs/C7E369A4-38AC-4637-B326-235E7630FBFE/TemporaryDirectory.O49iyA/Binaries/MobileActivation/install/TempContent/Objects/MobileActivation.build/mobileactivationd.build/Objects-normal/arm64e/BAAVMRootCAPEM.o
+- /Library/Caches/com.apple.xbs/C7E369A4-38AC-4637-B326-235E7630FBFE/TemporaryDirectory.O49iyA/Binaries/MobileActivation/install/TempContent/Objects/MobileActivation.build/mobileactivationd.build/Objects-normal/arm64e/FactoryUCRTRootCAPEM.o
+- /Library/Caches/com.apple.xbs/C7E369A4-38AC-4637-B326-235E7630FBFE/TemporaryDirectory.O49iyA/Binaries/MobileActivation/install/TempContent/Objects/MobileActivation.build/mobileactivationd.build/Objects-normal/arm64e/GestaltHlpr.o
+- /Library/Caches/com.apple.xbs/C7E369A4-38AC-4637-B326-235E7630FBFE/TemporaryDirectory.O49iyA/Binaries/MobileActivation/install/TempContent/Objects/MobileActivation.build/mobileactivationd.build/Objects-normal/arm64e/MACollectionInterface.o
+- /Library/Caches/com.apple.xbs/C7E369A4-38AC-4637-B326-235E7630FBFE/TemporaryDirectory.O49iyA/Binaries/MobileActivation/install/TempContent/Objects/MobileActivation.build/mobileactivationd.build/Objects-normal/arm64e/MATelephonyInfo.o
+- /Library/Caches/com.apple.xbs/C7E369A4-38AC-4637-B326-235E7630FBFE/TemporaryDirectory.O49iyA/Binaries/MobileActivation/install/TempContent/Objects/MobileActivation.build/mobileactivationd.build/Objects-normal/arm64e/MobileActivationError.o
+- /Library/Caches/com.apple.xbs/C7E369A4-38AC-4637-B326-235E7630FBFE/TemporaryDirectory.O49iyA/Binaries/MobileActivation/install/TempContent/Objects/MobileActivation.build/mobileactivationd.build/Objects-normal/arm64e/MobileActivationErrorPrivate.o
+- /Library/Caches/com.apple.xbs/C7E369A4-38AC-4637-B326-235E7630FBFE/TemporaryDirectory.O49iyA/Binaries/MobileActivation/install/TempContent/Objects/MobileActivation.build/mobileactivationd.build/Objects-normal/arm64e/MobileRecertifyEngine.o
+- /Library/Caches/com.apple.xbs/C7E369A4-38AC-4637-B326-235E7630FBFE/TemporaryDirectory.O49iyA/Binaries/MobileActivation/install/TempContent/Objects/MobileActivation.build/mobileactivationd.build/Objects-normal/arm64e/NSData+MobileActivation.o
+- /Library/Caches/com.apple.xbs/C7E369A4-38AC-4637-B326-235E7630FBFE/TemporaryDirectory.O49iyA/Binaries/MobileActivation/install/TempContent/Objects/MobileActivation.build/mobileactivationd.build/Objects-normal/arm64e/NSDateFormatter+MobileActivation.o
+- /Library/Caches/com.apple.xbs/C7E369A4-38AC-4637-B326-235E7630FBFE/TemporaryDirectory.O49iyA/Binaries/MobileActivation/install/TempContent/Objects/MobileActivation.build/mobileactivationd.build/Objects-normal/arm64e/NSDictionary+MobileActivation.o
+- /Library/Caches/com.apple.xbs/C7E369A4-38AC-4637-B326-235E7630FBFE/TemporaryDirectory.O49iyA/Binaries/MobileActivation/install/TempContent/Objects/MobileActivation.build/mobileactivationd.build/Objects-normal/arm64e/NSString+MobileActivation.o
+- /Library/Caches/com.apple.xbs/C7E369A4-38AC-4637-B326-235E7630FBFE/TemporaryDirectory.O49iyA/Binaries/MobileActivation/install/TempContent/Objects/MobileActivation.build/mobileactivationd.build/Objects-normal/arm64e/NetworkProvider.o
+- /Library/Caches/com.apple.xbs/C7E369A4-38AC-4637-B326-235E7630FBFE/TemporaryDirectory.O49iyA/Binaries/MobileActivation/install/TempContent/Objects/MobileActivation.build/mobileactivationd.build/Objects-normal/arm64e/QABAAASMFiOSRootCAPEM.o
+- /Library/Caches/com.apple.xbs/C7E369A4-38AC-4637-B326-235E7630FBFE/TemporaryDirectory.O49iyA/Binaries/MobileActivation/install/TempContent/Objects/MobileActivation.build/mobileactivationd.build/Objects-normal/arm64e/QABAAMFiRootCAPEM.o
+- /Library/Caches/com.apple.xbs/C7E369A4-38AC-4637-B326-235E7630FBFE/TemporaryDirectory.O49iyA/Binaries/MobileActivation/install/TempContent/Objects/MobileActivation.build/mobileactivationd.build/Objects-normal/arm64e/QABAASCRTRootCAPEM.o
+- /Library/Caches/com.apple.xbs/C7E369A4-38AC-4637-B326-235E7630FBFE/TemporaryDirectory.O49iyA/Binaries/MobileActivation/install/TempContent/Objects/MobileActivation.build/mobileactivationd.build/Objects-normal/arm64e/QABAAUCRTRootCAPEM.o
+- /Library/Caches/com.apple.xbs/C7E369A4-38AC-4637-B326-235E7630FBFE/TemporaryDirectory.O49iyA/Binaries/MobileActivation/install/TempContent/Objects/MobileActivation.build/mobileactivationd.build/Objects-normal/arm64e/QABAAVMRootCAPEM.o
+- /Library/Caches/com.apple.xbs/C7E369A4-38AC-4637-B326-235E7630FBFE/TemporaryDirectory.O49iyA/Binaries/MobileActivation/install/TempContent/Objects/MobileActivation.build/mobileactivationd.build/Objects-normal/arm64e/QAIphoneActivationPEM.o
+- /Library/Caches/com.apple.xbs/C7E369A4-38AC-4637-B326-235E7630FBFE/TemporaryDirectory.O49iyA/Binaries/MobileActivation/install/TempContent/Objects/MobileActivation.build/mobileactivationd.build/Objects-normal/arm64e/QAIphoneDeviceCAPEM.o
+- /Library/Caches/com.apple.xbs/C7E369A4-38AC-4637-B326-235E7630FBFE/TemporaryDirectory.O49iyA/Binaries/MobileActivation/install/TempContent/Objects/MobileActivation.build/mobileactivationd.build/Objects-normal/arm64e/QAUCRTRootCAP384PEM.o
+- /Library/Caches/com.apple.xbs/C7E369A4-38AC-4637-B326-235E7630FBFE/TemporaryDirectory.O49iyA/Binaries/MobileActivation/install/TempContent/Objects/MobileActivation.build/mobileactivationd.build/Objects-normal/arm64e/QAUCRTRootCAPEM.o
+- /Library/Caches/com.apple.xbs/C7E369A4-38AC-4637-B326-235E7630FBFE/TemporaryDirectory.O49iyA/Binaries/MobileActivation/install/TempContent/Objects/MobileActivation.build/mobileactivationd.build/Objects-normal/arm64e/QAUCRTSubCAPEM.o
+- /Library/Caches/com.apple.xbs/C7E369A4-38AC-4637-B326-235E7630FBFE/TemporaryDirectory.O49iyA/Binaries/MobileActivation/install/TempContent/Objects/MobileActivation.build/mobileactivationd.build/Objects-normal/arm64e/RaptorActivationPEM.o
+- /Library/Caches/com.apple.xbs/C7E369A4-38AC-4637-B326-235E7630FBFE/TemporaryDirectory.O49iyA/Binaries/MobileActivation/install/TempContent/Objects/MobileActivation.build/mobileactivationd.build/Objects-normal/arm64e/RaptorDeviceCAPEM.o
+- /Library/Caches/com.apple.xbs/C7E369A4-38AC-4637-B326-235E7630FBFE/TemporaryDirectory.O49iyA/Binaries/MobileActivation/install/TempContent/Objects/MobileActivation.build/mobileactivationd.build/Objects-normal/arm64e/UCRTRootCAPEM.o
+- /Library/Caches/com.apple.xbs/C7E369A4-38AC-4637-B326-235E7630FBFE/TemporaryDirectory.O49iyA/Binaries/MobileActivation/install/TempContent/Objects/MobileActivation.build/mobileactivationd.build/Objects-normal/arm64e/UCRTSubCAPEM.o
+- /Library/Caches/com.apple.xbs/C7E369A4-38AC-4637-B326-235E7630FBFE/TemporaryDirectory.O49iyA/Binaries/MobileActivation/install/TempContent/Objects/MobileActivation.build/mobileactivationd.build/Objects-normal/arm64e/activation_support.o
+- /Library/Caches/com.apple.xbs/C7E369A4-38AC-4637-B326-235E7630FBFE/TemporaryDirectory.O49iyA/Binaries/MobileActivation/install/TempContent/Objects/MobileActivation.build/mobileactivationd.build/Objects-normal/arm64e/activation_support_shared.o
+- /Library/Caches/com.apple.xbs/C7E369A4-38AC-4637-B326-235E7630FBFE/TemporaryDirectory.O49iyA/Binaries/MobileActivation/install/TempContent/Objects/MobileActivation.build/mobileactivationd.build/Objects-normal/arm64e/authkit.o
+- /Library/Caches/com.apple.xbs/C7E369A4-38AC-4637-B326-235E7630FBFE/TemporaryDirectory.O49iyA/Binaries/MobileActivation/install/TempContent/Objects/MobileActivation.build/mobileactivationd.build/Objects-normal/arm64e/baa.o
+- /Library/Caches/com.apple.xbs/C7E369A4-38AC-4637-B326-235E7630FBFE/TemporaryDirectory.O49iyA/Binaries/MobileActivation/install/TempContent/Objects/MobileActivation.build/mobileactivationd.build/Objects-normal/arm64e/baa_oids.o
+- /Library/Caches/com.apple.xbs/C7E369A4-38AC-4637-B326-235E7630FBFE/TemporaryDirectory.O49iyA/Binaries/MobileActivation/install/TempContent/Objects/MobileActivation.build/mobileactivationd.build/Objects-normal/arm64e/battery_management.o
+- /Library/Caches/com.apple.xbs/C7E369A4-38AC-4637-B326-235E7630FBFE/TemporaryDirectory.O49iyA/Binaries/MobileActivation/install/TempContent/Objects/MobileActivation.build/mobileactivationd.build/Objects-normal/arm64e/bridge.o
+- /Library/Caches/com.apple.xbs/C7E369A4-38AC-4637-B326-235E7630FBFE/TemporaryDirectory.O49iyA/Binaries/MobileActivation/install/TempContent/Objects/MobileActivation.build/mobileactivationd.build/Objects-normal/arm64e/bridge_support.o
+- /Library/Caches/com.apple.xbs/C7E369A4-38AC-4637-B326-235E7630FBFE/TemporaryDirectory.O49iyA/Binaries/MobileActivation/install/TempContent/Objects/MobileActivation.build/mobileactivationd.build/Objects-normal/arm64e/common.o
+- /Library/Caches/com.apple.xbs/C7E369A4-38AC-4637-B326-235E7630FBFE/TemporaryDirectory.O49iyA/Binaries/MobileActivation/install/TempContent/Objects/MobileActivation.build/mobileactivationd.build/Objects-normal/arm64e/coretrust.o
+- /Library/Caches/com.apple.xbs/C7E369A4-38AC-4637-B326-235E7630FBFE/TemporaryDirectory.O49iyA/Binaries/MobileActivation/install/TempContent/Objects/MobileActivation.build/mobileactivationd.build/Objects-normal/arm64e/crypto.o
+- /Library/Caches/com.apple.xbs/C7E369A4-38AC-4637-B326-235E7630FBFE/TemporaryDirectory.O49iyA/Binaries/MobileActivation/install/TempContent/Objects/MobileActivation.build/mobileactivationd.build/Objects-normal/arm64e/data_ark.o
+- /Library/Caches/com.apple.xbs/C7E369A4-38AC-4637-B326-235E7630FBFE/TemporaryDirectory.O49iyA/Binaries/MobileActivation/install/TempContent/Objects/MobileActivation.build/mobileactivationd.build/Objects-normal/arm64e/data_migration_support.o
+- /Library/Caches/com.apple.xbs/C7E369A4-38AC-4637-B326-235E7630FBFE/TemporaryDirectory.O49iyA/Binaries/MobileActivation/install/TempContent/Objects/MobileActivation.build/mobileactivationd.build/Objects-normal/arm64e/device_tree.o
+- /Library/Caches/com.apple.xbs/C7E369A4-38AC-4637-B326-235E7630FBFE/TemporaryDirectory.O49iyA/Binaries/MobileActivation/install/TempContent/Objects/MobileActivation.build/mobileactivationd.build/Objects-normal/arm64e/dsp.o
+- /Library/Caches/com.apple.xbs/C7E369A4-38AC-4637-B326-235E7630FBFE/TemporaryDirectory.O49iyA/Binaries/MobileActivation/install/TempContent/Objects/MobileActivation.build/mobileactivationd.build/Objects-normal/arm64e/env.o
+- /Library/Caches/com.apple.xbs/C7E369A4-38AC-4637-B326-235E7630FBFE/TemporaryDirectory.O49iyA/Binaries/MobileActivation/install/TempContent/Objects/MobileActivation.build/mobileactivationd.build/Objects-normal/arm64e/env_darwin.o
+- /Library/Caches/com.apple.xbs/C7E369A4-38AC-4637-B326-235E7630FBFE/TemporaryDirectory.O49iyA/Binaries/MobileActivation/install/TempContent/Objects/MobileActivation.build/mobileactivationd.build/Objects-normal/arm64e/findmy.o
+- /Library/Caches/com.apple.xbs/C7E369A4-38AC-4637-B326-235E7630FBFE/TemporaryDirectory.O49iyA/Binaries/MobileActivation/install/TempContent/Objects/MobileActivation.build/mobileactivationd.build/Objects-normal/arm64e/host.o
+- /Library/Caches/com.apple.xbs/C7E369A4-38AC-4637-B326-235E7630FBFE/TemporaryDirectory.O49iyA/Binaries/MobileActivation/install/TempContent/Objects/MobileActivation.build/mobileactivationd.build/Objects-normal/arm64e/iPhoneActivationPEM.o
+- /Library/Caches/com.apple.xbs/C7E369A4-38AC-4637-B326-235E7630FBFE/TemporaryDirectory.O49iyA/Binaries/MobileActivation/install/TempContent/Objects/MobileActivation.build/mobileactivationd.build/Objects-normal/arm64e/iPhoneCAPEM.o
+- /Library/Caches/com.apple.xbs/C7E369A4-38AC-4637-B326-235E7630FBFE/TemporaryDirectory.O49iyA/Binaries/MobileActivation/install/TempContent/Objects/MobileActivation.build/mobileactivationd.build/Objects-normal/arm64e/iPhoneDeviceCAPEM.o
+- /Library/Caches/com.apple.xbs/C7E369A4-38AC-4637-B326-235E7630FBFE/TemporaryDirectory.O49iyA/Binaries/MobileActivation/install/TempContent/Objects/MobileActivation.build/mobileactivationd.build/Objects-normal/arm64e/identity_support.o
+- /Library/Caches/com.apple.xbs/C7E369A4-38AC-4637-B326-235E7630FBFE/TemporaryDirectory.O49iyA/Binaries/MobileActivation/install/TempContent/Objects/MobileActivation.build/mobileactivationd.build/Objects-normal/arm64e/keylist.o
+- /Library/Caches/com.apple.xbs/C7E369A4-38AC-4637-B326-235E7630FBFE/TemporaryDirectory.O49iyA/Binaries/MobileActivation/install/TempContent/Objects/MobileActivation.build/mobileactivationd.build/Objects-normal/arm64e/libaks_keymanagement.o
+- /Library/Caches/com.apple.xbs/C7E369A4-38AC-4637-B326-235E7630FBFE/TemporaryDirectory.O49iyA/Binaries/MobileActivation/install/TempContent/Objects/MobileActivation.build/mobileactivationd.build/Objects-normal/arm64e/log.o
+- /Library/Caches/com.apple.xbs/C7E369A4-38AC-4637-B326-235E7630FBFE/TemporaryDirectory.O49iyA/Binaries/MobileActivation/install/TempContent/Objects/MobileActivation.build/mobileactivationd.build/Objects-normal/arm64e/main.o
+- /Library/Caches/com.apple.xbs/C7E369A4-38AC-4637-B326-235E7630FBFE/TemporaryDirectory.O49iyA/Binaries/MobileActivation/install/TempContent/Objects/MobileActivation.build/mobileactivationd.build/Objects-normal/arm64e/mobileactivationd.o
+- /Library/Caches/com.apple.xbs/C7E369A4-38AC-4637-B326-235E7630FBFE/TemporaryDirectory.O49iyA/Binaries/MobileActivation/install/TempContent/Objects/MobileActivation.build/mobileactivationd.build/Objects-normal/arm64e/msu_data_accessor.o
+- /Library/Caches/com.apple.xbs/C7E369A4-38AC-4637-B326-235E7630FBFE/TemporaryDirectory.O49iyA/Binaries/MobileActivation/install/TempContent/Objects/MobileActivation.build/mobileactivationd.build/Objects-normal/arm64e/path_support_shared.o
+- /Library/Caches/com.apple.xbs/C7E369A4-38AC-4637-B326-235E7630FBFE/TemporaryDirectory.O49iyA/Binaries/MobileActivation/install/TempContent/Objects/MobileActivation.build/mobileactivationd.build/Objects-normal/arm64e/regioncode.o
+- /Library/Caches/com.apple.xbs/C7E369A4-38AC-4637-B326-235E7630FBFE/TemporaryDirectory.O49iyA/Binaries/MobileActivation/install/TempContent/Objects/MobileActivation.build/mobileactivationd.build/Objects-normal/arm64e/requests.o
+- /Library/Caches/com.apple.xbs/C7E369A4-38AC-4637-B326-235E7630FBFE/TemporaryDirectory.O49iyA/Binaries/MobileActivation/install/TempContent/Objects/MobileActivation.build/mobileactivationd.build/Objects-normal/arm64e/requests_network.o
+- /Library/Caches/com.apple.xbs/C7E369A4-38AC-4637-B326-235E7630FBFE/TemporaryDirectory.O49iyA/Binaries/MobileActivation/install/TempContent/Objects/MobileActivation.build/mobileactivationd.build/Objects-normal/arm64e/requests_support.o
+- /Library/Caches/com.apple.xbs/C7E369A4-38AC-4637-B326-235E7630FBFE/TemporaryDirectory.O49iyA/Binaries/MobileActivation/install/TempContent/Objects/MobileActivation.build/mobileactivationd.build/Objects-normal/arm64e/reverseproxy.o
+- /Library/Caches/com.apple.xbs/C7E369A4-38AC-4637-B326-235E7630FBFE/TemporaryDirectory.O49iyA/Binaries/MobileActivation/install/TempContent/Objects/MobileActivation.build/mobileactivationd.build/Objects-normal/arm64e/root_certificates.o
+- /Library/Caches/com.apple.xbs/C7E369A4-38AC-4637-B326-235E7630FBFE/TemporaryDirectory.O49iyA/Binaries/MobileActivation/install/TempContent/Objects/MobileActivation.build/mobileactivationd.build/Objects-normal/arm64e/runtime_environment.o
+- /Library/Caches/com.apple.xbs/C7E369A4-38AC-4637-B326-235E7630FBFE/TemporaryDirectory.O49iyA/Binaries/MobileActivation/install/TempContent/Objects/MobileActivation.build/mobileactivationd.build/Objects-normal/arm64e/security_keymanagement.o
+- /Library/Caches/com.apple.xbs/C7E369A4-38AC-4637-B326-235E7630FBFE/TemporaryDirectory.O49iyA/Binaries/MobileActivation/install/TempContent/Objects/MobileActivation.build/mobileactivationd.build/Objects-normal/arm64e/signpost.o
+- /Library/Caches/com.apple.xbs/C7E369A4-38AC-4637-B326-235E7630FBFE/TemporaryDirectory.O49iyA/Binaries/MobileActivation/install/TempContent/Objects/MobileActivation.build/mobileactivationd.build/Objects-normal/arm64e/splunk_logging.o
+- /Library/Caches/com.apple.xbs/C7E369A4-38AC-4637-B326-235E7630FBFE/TemporaryDirectory.O49iyA/Binaries/MobileActivation/install/TempContent/Objects/MobileActivation.build/mobileactivationd.build/Objects-normal/arm64e/support.o
+- /Library/Caches/com.apple.xbs/C7E369A4-38AC-4637-B326-235E7630FBFE/TemporaryDirectory.O49iyA/Binaries/MobileActivation/install/TempContent/Objects/MobileActivation.build/mobileactivationd.build/Objects-normal/arm64e/sysctl_.o
+- /Library/Caches/com.apple.xbs/C7E369A4-38AC-4637-B326-235E7630FBFE/TemporaryDirectory.O49iyA/Binaries/MobileActivation/install/TempContent/Objects/MobileActivation.build/mobileactivationd.build/Objects-normal/arm64e/sysctl__darwin.o
+- /Library/Caches/com.apple.xbs/C7E369A4-38AC-4637-B326-235E7630FBFE/TemporaryDirectory.O49iyA/Binaries/MobileActivation/install/TempContent/Objects/MobileActivation.build/mobileactivationd.build/Objects-normal/arm64e/trial.o
+- /Library/Caches/com.apple.xbs/C7E369A4-38AC-4637-B326-235E7630FBFE/TemporaryDirectory.O49iyA/Binaries/MobileActivation/install/TempContent/Objects/MobileActivation.build/mobileactivationd.build/Objects-normal/arm64e/vm_host_support.o
+- /Library/Caches/com.apple.xbs/C7E369A4-38AC-4637-B326-235E7630FBFE/TemporaryDirectory.O49iyA/Binaries/MobileActivation/install/TempContent/Objects/MobileActivation.build/mobileactivationd.build/Objects-normal/arm64e/vm_libavp.o
+- /Library/Caches/com.apple.xbs/C7E369A4-38AC-4637-B326-235E7630FBFE/TemporaryDirectory.O49iyA/Binaries/MobileActivation/install/TempContent/Objects/MobileActivation.build/mobileactivationd.build/Objects-normal/arm64e/vm_support.o
+- /Library/Caches/com.apple.xbs/C7E369A4-38AC-4637-B326-235E7630FBFE/TemporaryDirectory.O49iyA/Sources/MobileActivation/certs/Activation/PROD/
+- /Library/Caches/com.apple.xbs/C7E369A4-38AC-4637-B326-235E7630FBFE/TemporaryDirectory.O49iyA/Sources/MobileActivation/certs/Activation/QA/
+- /Library/Caches/com.apple.xbs/C7E369A4-38AC-4637-B326-235E7630FBFE/TemporaryDirectory.O49iyA/Sources/MobileActivation/certs/BAA/PROD/
+- /Library/Caches/com.apple.xbs/C7E369A4-38AC-4637-B326-235E7630FBFE/TemporaryDirectory.O49iyA/Sources/MobileActivation/certs/BAA/QA/
+- /Library/Caches/com.apple.xbs/C7E369A4-38AC-4637-B326-235E7630FBFE/TemporaryDirectory.O49iyA/Sources/MobileActivation/certs/UCRT/PROD/
+- /Library/Caches/com.apple.xbs/C7E369A4-38AC-4637-B326-235E7630FBFE/TemporaryDirectory.O49iyA/Sources/MobileActivation/certs/UCRT/QA/
+- /Library/Caches/com.apple.xbs/C7E369A4-38AC-4637-B326-235E7630FBFE/TemporaryDirectory.O49iyA/Sources/MobileActivation/mobileactivationd/
+- /Library/Caches/com.apple.xbs/C7E369A4-38AC-4637-B326-235E7630FBFE/TemporaryDirectory.O49iyA/Sources/MobileActivation/shared/
+- /Library/Caches/com.apple.xbs/E3F75923-B9A8-4507-B83B-1091C4165EB0/TemporaryDirectory.moXSwq/Sources/CoreTrust/Source/
+- ___block_descriptor_64_e8_32s40bs48r_e33_v16?0"NSObject<OS_xpc_object>"8l
+CStrings:
++ "1076.102.1"
++ "Absinthe/2.0 iOS Device Activator (MobileActivation-1076.102.1 built on Mar  5 2026 at 23:49:42)"
++ "iOS Device Activator (MobileActivation-1076.102.1)"
+- "1076.100.28"
+- "Absinthe/2.0 iOS Device Activator (MobileActivation-1076.100.28 built on Feb 22 2026 at 03:08:51)"
+- "iOS Device Activator (MobileActivation-1076.100.28)"
+
+```

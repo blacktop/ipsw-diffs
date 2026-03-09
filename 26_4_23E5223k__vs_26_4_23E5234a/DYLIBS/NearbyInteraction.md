@@ -1,0 +1,93 @@
+## NearbyInteraction
+
+> `/System/Library/Frameworks/NearbyInteraction.framework/NearbyInteraction`
+
+```diff
+
+ 524.0.7.0.0
+-  __TEXT.__text: 0x338d4
+-  __TEXT.__auth_stubs: 0x830
++  __TEXT.__text: 0x33858
++  __TEXT.__auth_stubs: 0x820
+   __TEXT.__objc_methlist: 0x3f10
+   __TEXT.__gcc_except_tab: 0x5758
+-  __TEXT.__cstring: 0x502a
++  __TEXT.__cstring: 0x4dcd
+   __TEXT.__const: 0x4f0
+   __TEXT.__oslogstring: 0x1365
+   __TEXT.__swift5_typeref: 0x83
+
+   __DATA_CONST.__objc_protorefs: 0x10
+   __DATA_CONST.__objc_superrefs: 0x180
+   __DATA_CONST.__objc_arraydata: 0x40
+-  __AUTH_CONST.__auth_got: 0x428
++  __AUTH_CONST.__auth_got: 0x420
+   __AUTH_CONST.__const: 0x418
+   __AUTH_CONST.__cfstring: 0x55e0
+   __AUTH_CONST.__objc_const: 0x71f8
+
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: CCA00691-D2E2-3B53-91E7-01993DCC6BE5
++  UUID: 64DFC939-AB36-3195-AF16-1585CDF5AD17
+   Functions: 1471
+-  Symbols:   5232
+-  CStrings:  3380
++  Symbols:   5231
++  CStrings:  3378
+ 
+Symbols:
++ __ZNSt12length_errorC1B9nqe210106EPKc
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_length_errorB9nqe210106Ev
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC1B9nqe210106ILi0EEEPKc
++ __ZNSt3__119__allocate_at_leastB9nqe210106INS_9allocatorI33UWBSessionInterruptionBookkeepingEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS6_m
++ __ZNSt3__119__allocate_at_leastB9nqe210106INS_9allocatorImEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS5_m
++ __ZNSt3__119__allocate_at_leastB9nqe210106INS_9allocatorItEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS5_m
++ __ZNSt3__120__throw_length_errorB9nqe210106EPKc
++ __ZNSt3__16vectorI33UWBSessionInterruptionBookkeepingNS_9allocatorIS1_EEE11__vallocateB9nqe210106Em
++ __ZNSt3__16vectorI33UWBSessionInterruptionBookkeepingNS_9allocatorIS1_EEE18__assign_with_sizeB9nqe210106IPS1_S6_EEvT_T0_l
++ __ZNSt3__16vectorI33UWBSessionInterruptionBookkeepingNS_9allocatorIS1_EEE20__throw_length_errorB9nqe210106Ev
++ __ZNSt3__16vectorIhNS_9allocatorIhEEE11__vallocateB9nqe210106Em
++ __ZNSt3__16vectorIhNS_9allocatorIhEEE16__init_with_sizeB9nqe210106IPKhS6_EEvT_T0_m
++ __ZNSt3__16vectorIhNS_9allocatorIhEEE16__init_with_sizeB9nqe210106IPhS5_EEvT_T0_m
++ __ZNSt3__16vectorIhNS_9allocatorIhEEE20__throw_length_errorB9nqe210106Ev
++ __ZNSt3__16vectorIhNS_9allocatorIhEEEC2B9nqe210106Em
++ __ZNSt3__16vectorImNS_9allocatorImEEE11__vallocateB9nqe210106Em
++ __ZNSt3__16vectorImNS_9allocatorImEEE16__init_with_sizeB9nqe210106IPKmS6_EEvT_T0_m
++ __ZNSt3__16vectorImNS_9allocatorImEEE20__throw_length_errorB9nqe210106Ev
++ __ZNSt3__16vectorItNS_9allocatorItEEE11__vallocateB9nqe210106Em
++ __ZNSt3__16vectorItNS_9allocatorItEEE16__init_with_sizeB9nqe210106IPtS5_EEvT_T0_m
++ __ZNSt3__16vectorItNS_9allocatorItEEE20__throw_length_errorB9nqe210106Ev
++ __ZSt28__throw_bad_array_new_lengthB9nqe210106v
+- __ZNSt12length_errorC1B9foe210106EPKc
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_length_errorB9foe210106Ev
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC1B9foe210106ILi0EEEPKc
+- __ZNSt3__119__allocate_at_leastB9foe210106INS_9allocatorI33UWBSessionInterruptionBookkeepingEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS6_m
+- __ZNSt3__119__allocate_at_leastB9foe210106INS_9allocatorImEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS5_m
+- __ZNSt3__119__allocate_at_leastB9foe210106INS_9allocatorItEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS5_m
+- __ZNSt3__120__throw_length_errorB9foe210106EPKc
+- __ZNSt3__132__internal_log_hardening_failureEPKc
+- __ZNSt3__16vectorI33UWBSessionInterruptionBookkeepingNS_9allocatorIS1_EEE11__vallocateB9foe210106Em
+- __ZNSt3__16vectorI33UWBSessionInterruptionBookkeepingNS_9allocatorIS1_EEE18__assign_with_sizeB9foe210106IPS1_S6_EEvT_T0_l
+- __ZNSt3__16vectorI33UWBSessionInterruptionBookkeepingNS_9allocatorIS1_EEE20__throw_length_errorB9foe210106Ev
+- __ZNSt3__16vectorIhNS_9allocatorIhEEE11__vallocateB9foe210106Em
+- __ZNSt3__16vectorIhNS_9allocatorIhEEE16__init_with_sizeB9foe210106IPKhS6_EEvT_T0_m
+- __ZNSt3__16vectorIhNS_9allocatorIhEEE16__init_with_sizeB9foe210106IPhS5_EEvT_T0_m
+- __ZNSt3__16vectorIhNS_9allocatorIhEEE20__throw_length_errorB9foe210106Ev
+- __ZNSt3__16vectorIhNS_9allocatorIhEEEC2B9foe210106Em
+- __ZNSt3__16vectorImNS_9allocatorImEEE11__vallocateB9foe210106Em
+- __ZNSt3__16vectorImNS_9allocatorImEEE16__init_with_sizeB9foe210106IPKmS6_EEvT_T0_m
+- __ZNSt3__16vectorImNS_9allocatorImEEE20__throw_length_errorB9foe210106Ev
+- __ZNSt3__16vectorItNS_9allocatorItEEE11__vallocateB9foe210106Em
+- __ZNSt3__16vectorItNS_9allocatorItEEE16__init_with_sizeB9foe210106IPtS5_EEvT_T0_m
+- __ZNSt3__16vectorItNS_9allocatorItEEE20__throw_length_errorB9foe210106Ev
+- __ZSt28__throw_bad_array_new_lengthB9foe210106v
+Functions:
+~ -[NISession uwbSessionInterruptionReasonEnded:timestamp:] : 1240 -> 1204
+~ __Z34PRCommonConvertHexNSStringToNSDataP8NSString : 428 -> 340
+CStrings:
+- "/AppleInternal/Library/BuildRoots/4~CJlHugAYEmE88i4X2W715NHpxl0q0AYv-xphuGE/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__vector/vector.h:406: libc++ Hardening assertion __n < size() failed: vector[] index out of bounds\n"
+- "/AppleInternal/Library/BuildRoots/4~CJlHugAYEmE88i4X2W715NHpxl0q0AYv-xphuGE/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/string:1340: libc++ Hardening assertion __pos <= size() failed: string index out of bounds\n"
+
+```

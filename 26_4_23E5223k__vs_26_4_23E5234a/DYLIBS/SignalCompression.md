@@ -1,0 +1,90 @@
+## SignalCompression
+
+> `/System/Library/PrivateFrameworks/SignalCompression.framework/SignalCompression`
+
+```diff
+
+ 29.100.2.0.0
+-  __TEXT.__text: 0x10590
+-  __TEXT.__auth_stubs: 0x960
++  __TEXT.__text: 0x10008
++  __TEXT.__auth_stubs: 0x950
+   __TEXT.__objc_methlist: 0xc4
+   __TEXT.__const: 0x1cc0
+   __TEXT.__gcc_except_tab: 0x320
+   __TEXT.__oslogstring: 0xf19
+-  __TEXT.__cstring: 0x4eb
++  __TEXT.__cstring: 0x3bb
+   __TEXT.__swift5_typeref: 0x25c
+   __TEXT.__constg_swiftt: 0x2e0
+   __TEXT.__swift5_reflstr: 0x1b9
+
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_selrefs: 0x88
+   __DATA_CONST.__objc_superrefs: 0x10
+-  __AUTH_CONST.__auth_got: 0x4c0
++  __AUTH_CONST.__auth_got: 0x4b8
+   __AUTH_CONST.__const: 0x628
+   __AUTH_CONST.__cfstring: 0x1c0
+   __AUTH_CONST.__objc_const: 0x5b0
+
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 428EDD6C-BC4D-35EE-85EE-BA4270458D89
++  UUID: C056502C-50AC-3D7F-94BC-1F861F3DF262
+   Functions: 376
+-  Symbols:   548
+-  CStrings:  209
++  Symbols:   547
++  CStrings:  208
+ 
+Symbols:
++ __ZNSt12length_errorC1B9nqe210106EPKc
++ __ZNSt3__119__allocate_at_leastB9nqe210106INS_9allocatorIN3gcl17ArithmeticContextEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
++ __ZNSt3__119__allocate_at_leastB9nqe210106INS_9allocatorIN3gcl6motion9SliceInfoEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS8_m
++ __ZNSt3__119__allocate_at_leastB9nqe210106INS_9allocatorIiEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS5_m
++ __ZNSt3__120__throw_length_errorB9nqe210106EPKc
++ __ZNSt3__16vectorIN3gcl17ArithmeticContextENS_9allocatorIS2_EEE20__throw_length_errorB9nqe210106Ev
++ __ZNSt3__16vectorIN3gcl6motion9SliceInfoENS_9allocatorIS3_EEE20__throw_length_errorB9nqe210106Ev
++ __ZNSt3__16vectorIN3gcl6motion9SliceInfoENS_9allocatorIS3_EEE9push_backB9nqe210106EOS3_
++ __ZNSt3__16vectorIhNS_9allocatorIhEEE11__vallocateB9nqe210106Em
++ __ZNSt3__16vectorIhNS_9allocatorIhEEE16__init_with_sizeB9nqe210106IPhS5_EEvT_T0_m
++ __ZNSt3__16vectorIhNS_9allocatorIhEEE20__throw_length_errorB9nqe210106Ev
++ __ZNSt3__16vectorIhNS_9allocatorIhEEEC2B9nqe210106Em
++ __ZNSt3__16vectorIiNS_9allocatorIiEEE11__vallocateB9nqe210106Em
++ __ZNSt3__16vectorIiNS_9allocatorIiEEE16__init_with_sizeB9nqe210106IPKiS6_EEvT_T0_m
++ __ZNSt3__16vectorIiNS_9allocatorIiEEE20__throw_length_errorB9nqe210106Ev
++ __ZNSt3__16vectorIiNS_9allocatorIiEEEC2B9nqe210106Em
++ __ZNSt3__16vectorIiNS_9allocatorIiEEEC2B9nqe210106EmRKi
++ __ZSt28__throw_bad_array_new_lengthB9nqe210106v
+- __ZNSt12length_errorC1B9foe210106EPKc
+- __ZNSt3__119__allocate_at_leastB9foe210106INS_9allocatorIN3gcl17ArithmeticContextEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
+- __ZNSt3__119__allocate_at_leastB9foe210106INS_9allocatorIN3gcl6motion9SliceInfoEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS8_m
+- __ZNSt3__119__allocate_at_leastB9foe210106INS_9allocatorIiEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS5_m
+- __ZNSt3__120__throw_length_errorB9foe210106EPKc
+- __ZNSt3__132__internal_log_hardening_failureEPKc
+- __ZNSt3__16vectorIN3gcl17ArithmeticContextENS_9allocatorIS2_EEE20__throw_length_errorB9foe210106Ev
+- __ZNSt3__16vectorIN3gcl6motion9SliceInfoENS_9allocatorIS3_EEE20__throw_length_errorB9foe210106Ev
+- __ZNSt3__16vectorIN3gcl6motion9SliceInfoENS_9allocatorIS3_EEE9push_backB9foe210106EOS3_
+- __ZNSt3__16vectorIhNS_9allocatorIhEEE11__vallocateB9foe210106Em
+- __ZNSt3__16vectorIhNS_9allocatorIhEEE16__init_with_sizeB9foe210106IPhS5_EEvT_T0_m
+- __ZNSt3__16vectorIhNS_9allocatorIhEEE20__throw_length_errorB9foe210106Ev
+- __ZNSt3__16vectorIhNS_9allocatorIhEEEC2B9foe210106Em
+- __ZNSt3__16vectorIiNS_9allocatorIiEEE11__vallocateB9foe210106Em
+- __ZNSt3__16vectorIiNS_9allocatorIiEEE16__init_with_sizeB9foe210106IPKiS6_EEvT_T0_m
+- __ZNSt3__16vectorIiNS_9allocatorIiEEE20__throw_length_errorB9foe210106Ev
+- __ZNSt3__16vectorIiNS_9allocatorIiEEEC2B9foe210106Em
+- __ZNSt3__16vectorIiNS_9allocatorIiEEEC2B9foe210106EmRKi
+- __ZSt28__throw_bad_array_new_lengthB9foe210106v
+Functions:
+~ __ZN3gcl6motion11EncoderImpl14encodeResidualEiPKiS3_iRKNS0_12BinarizationERNS0_9ACContextE : 988 -> 664
+~ __ZN3gcl6motion11EncoderImpl11encodeFrameEPKiNS0_9FrameTypeEPhmRmRKNS0_7Encoder18EncodingParametersE : 1208 -> 944
+~ __ZN3gcl6motion11EncoderImpl11encodeFrameEPKhNS0_9FrameTypeEPhmRmRKNS0_7Encoder18EncodingParametersE : 2072 -> 2032
+~ __ZN3gcl6motion11DecoderImpl14decodeResidualEiPKiiRKNS0_12BinarizationERNS0_9ACContextEPi : 880 -> 648
+~ __ZN3gcl6motion11DecoderImpl11decodeFrameEPKhmRmPi : 1912 -> 1456
+~ __ZN3gcl6motion11DecoderImpl21handleCompressedFrameEPKhmNS0_9FrameTypeEPhRmm : 2540 -> 2440
+CStrings:
+- "/AppleInternal/Library/BuildRoots/4~CJlQugD19nqEJ7ZvFmbWpcCN_tghg11minq8u2U/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__vector/vector.h:406: libc++ Hardening assertion __n < size() failed: vector[] index out of bounds\n"
+
+```

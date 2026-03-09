@@ -1,0 +1,80 @@
+## AppleIntelligenceReportingProcessing
+
+> `/System/Library/PrivateFrameworks/AppleIntelligenceReportingProcessing.framework/AppleIntelligenceReportingProcessing`
+
+```diff
+
+-155.0.0.0.0
+-  __TEXT.__text: 0xcc58c
+-  __TEXT.__auth_stubs: 0x28e0
+-  __TEXT.__const: 0x5ad6
+-  __TEXT.__swift5_typeref: 0x211b
++155.100.1.0.0
++  __TEXT.__text: 0xcca0c
++  __TEXT.__auth_stubs: 0x28f0
++  __TEXT.__const: 0x5af6
++  __TEXT.__swift5_typeref: 0x21b1
+   __TEXT.__cstring: 0x4083
+   __TEXT.__oslogstring: 0x3dae
+   __TEXT.__swift5_reflstr: 0x25cd
+
+   __TEXT.__objc_methname: 0x1a85
+   __TEXT.__objc_methtype: 0x2e
+   __TEXT.__objc_stubs: 0x17e0
+-  __DATA_CONST.__got: 0x9f8
++  __DATA_CONST.__got: 0xa10
+   __DATA_CONST.__const: 0x680
+   __DATA_CONST.__objc_classlist: 0x90
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_selrefs: 0x5f8
+-  __AUTH_CONST.__auth_got: 0x1478
++  __AUTH_CONST.__auth_got: 0x1480
+   __AUTH_CONST.__const: 0x4ad8
+   __AUTH_CONST.__cfstring: 0x7e0
+   __AUTH_CONST.__objc_const: 0x16a0
+   __AUTH.__data: 0xeb0
+-  __DATA.__data: 0xec0
++  __DATA.__data: 0xf00
+   __DATA.__bss: 0x5a80
+   __DATA.__common: 0x68
+   __DATA_DIRTY.__objc_data: 0xf0
+
+   - /usr/lib/swift/libswift_DarwinFoundation1.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: C8CFFE6C-599F-30D3-8FD9-D071B17BAD6F
+-  Functions: 5837
+-  Symbols:   16935
++  UUID: E8FF9F80-5E77-37EC-B79C-C7DE4978DF03
++  Functions: 5842
++  Symbols:   16971
+   CStrings:  1058
+ 
+Symbols:
++ _$s27IntelligencePlatformLibrary0C0O7StreamsO05AppleA0O9ReportingO16AssetDeliveryLogO24SoftwareUpdateControllerOAA14StreamResourceAAMc
++ _$s27IntelligencePlatformLibrary0C0O7StreamsO05AppleA0O9ReportingO16AssetDeliveryLogO24SoftwareUpdateControllerOAmA14StreamResourceAAWL
++ _$s27IntelligencePlatformLibrary0C0O7StreamsO05AppleA0O9ReportingO16AssetDeliveryLogO24SoftwareUpdateControllerOAmA14StreamResourceAAWlTm
++ _$s27IntelligencePlatformLibrary0C0O7StreamsO05AppleA0O9ReportingO16AssetDeliveryLogO24SoftwareUpdateControllerOMa
++ _$s36AppleIntelligenceReportingProcessing0aB18BiomeEventSequenceC13AsyncIteratorV9startDate7optionsAE10Foundation0K0VSg_SayAA0eF14ReadingOptionsVGtcfcAA0abeF0O0B15PlatformLibrary0abC27SoftwareUpdateControllerLogVcfU6_
++ _$s36AppleIntelligenceReportingProcessing22AnyBiomeEventPublisherCy0B15PlatformLibrary0abC27SoftwareUpdateControllerLogVGMR
++ _$s36AppleIntelligenceReportingProcessing22AnyBiomeEventPublisherCy0B15PlatformLibrary0abC27SoftwareUpdateControllerLogVGMd
++ _$s7Combine10PublishersO3MapVy_AA12AnyPublisherVy27IntelligencePlatformLibrary05AppleF36ReportingSoftwareUpdateControllerLogVs5Error_pG0ifJ10Processing0iF10BiomeEventOGAEy_xq_GAA0E0AAWL
++ _$s7Combine10PublishersO3MapVy_AA12AnyPublisherVy27IntelligencePlatformLibrary05AppleF36ReportingSoftwareUpdateControllerLogVs5Error_pG0ifJ10Processing0iF10BiomeEventOGMR
++ _$s7Combine10PublishersO3MapVy_AA12AnyPublisherVy27IntelligencePlatformLibrary05AppleF36ReportingSoftwareUpdateControllerLogVs5Error_pG0ifJ10Processing0iF10BiomeEventOGMd
++ _$s7Combine12AnyPublisherVy27IntelligencePlatformLibrary05AppleD36ReportingSoftwareUpdateControllerLogVs5Error_pGACyxq_GAA0C0AAWL
++ _$s7Combine12AnyPublisherVy27IntelligencePlatformLibrary05AppleD36ReportingSoftwareUpdateControllerLogVs5Error_pGACyxq_GAA0C0AAWlTm
++ _$s7Combine12AnyPublisherVy27IntelligencePlatformLibrary05AppleD36ReportingSoftwareUpdateControllerLogVs5Error_pGMR
++ _$s7Combine12AnyPublisherVy27IntelligencePlatformLibrary05AppleD36ReportingSoftwareUpdateControllerLogVs5Error_pGMd
++ _$s7Combine22AsyncThrowingPublisherV8IteratorVyAA10PublishersO3MapVy_AA03AnyD0Vy27IntelligencePlatformLibrary05AppleI36ReportingSoftwareUpdateControllerLogVs5Error_pG0liM10Processing0lI10BiomeEventOG_GMR
++ _$s7Combine22AsyncThrowingPublisherV8IteratorVyAA10PublishersO3MapVy_AA03AnyD0Vy27IntelligencePlatformLibrary05AppleI36ReportingSoftwareUpdateControllerLogVs5Error_pG0liM10Processing0lI10BiomeEventOG_GMd
++ _$s7Combine22AsyncThrowingPublisherVyAA10PublishersO3MapVy_AA03AnyD0Vy27IntelligencePlatformLibrary05AppleH36ReportingSoftwareUpdateControllerLogVs5Error_pG0khL10Processing0kH10BiomeEventOGGMR
++ _$s7Combine22AsyncThrowingPublisherVyAA10PublishersO3MapVy_AA03AnyD0Vy27IntelligencePlatformLibrary05AppleH36ReportingSoftwareUpdateControllerLogVs5Error_pG0khL10Processing0kH10BiomeEventOGGMd
++ _symbolic _____y_____G 36AppleIntelligenceReportingProcessing22AnyBiomeEventPublisherC 0B15PlatformLibrary0abC27SoftwareUpdateControllerLogV
++ _symbolic _____y___________pG 7Combine12AnyPublisherV 27IntelligencePlatformLibrary05AppleD36ReportingSoftwareUpdateControllerLogV s5ErrorP
++ _symbolic _____y______y___________pG_____G 7Combine10PublishersO3MapV AA12AnyPublisherV 27IntelligencePlatformLibrary05AppleF36ReportingSoftwareUpdateControllerLogV s5ErrorP 0ifJ10Processing0iF10BiomeEventO
++ _symbolic _____y_____y______y___________pG_____GG 7Combine22AsyncThrowingPublisherV AA10PublishersO3MapV AA03AnyD0V 27IntelligencePlatformLibrary05AppleH36ReportingSoftwareUpdateControllerLogV s5ErrorP 0khL10Processing0kH10BiomeEventO
++ _symbolic _____y_____y______y___________pG_____G_G 7Combine22AsyncThrowingPublisherV8IteratorV AA10PublishersO3MapV AA03AnyD0V 27IntelligencePlatformLibrary05AppleI36ReportingSoftwareUpdateControllerLogV s5ErrorP 0liM10Processing0lI10BiomeEventO
+- _$s27IntelligencePlatformLibrary0C0O7StreamsO05AppleA0O9ReportingO5BuddyOAkA14StreamResourceAAWlTm
+- _$s7Combine12AnyPublisherVy27IntelligencePlatformLibrary05AppleD17ReportingBuddyLogVs5Error_pGACyxq_GAA0C0AAWlTm
+
+```

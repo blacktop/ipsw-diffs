@@ -1,0 +1,168 @@
+## coresymbolicationd
+
+> `/System/Library/PrivateFrameworks/CoreSymbolication.framework/coresymbolicationd`
+
+```diff
+
+ 64575.51.1.0.0
+-  __TEXT.__text: 0x858c
+-  __TEXT.__auth_stubs: 0x7a0
++  __TEXT.__text: 0x854c
++  __TEXT.__auth_stubs: 0x790
+   __TEXT.__const: 0x29f
+-  __TEXT.__gcc_except_tab: 0x740
+-  __TEXT.__cstring: 0x754
++  __TEXT.__gcc_except_tab: 0x734
++  __TEXT.__cstring: 0x5f1
+   __TEXT.__oslogstring: 0x37a
+   __TEXT.__unwind_info: 0x408
+-  __DATA_CONST.__auth_got: 0x3d8
++  __DATA_CONST.__auth_got: 0x3d0
+   __DATA_CONST.__got: 0xe0
+   __DATA_CONST.__const: 0x3f8
+   __DATA.__data: 0xd8
+
+   - /System/Library/PrivateFrameworks/CoreSymbolication.framework/CoreSymbolication
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+-  UUID: 869FBF39-DE94-3050-8E20-D70C009FBF23
+-  Functions: 168
+-  Symbols:   1180
+-  CStrings:  75
++  UUID: 8643A7C6-7737-3525-8520-A6F383C2BD8F
++  Functions: 167
++  Symbols:   1174
++  CStrings:  74
+ 
+Symbols:
++ /Library/Caches/com.apple.xbs/8C95F994-2CEB-4EE8-8389-FFBCBBF70E81/TemporaryDirectory.tzfb3o/Binaries/CoreSymbolication/install/TempContent/Objects/CoreSymbolication.build/coresymbolicationd.build/DerivedSources/
++ /Library/Caches/com.apple.xbs/8C95F994-2CEB-4EE8-8389-FFBCBBF70E81/TemporaryDirectory.tzfb3o/Binaries/CoreSymbolication/install/TempContent/Objects/CoreSymbolication.build/coresymbolicationd.build/Objects-normal/arm64e/CSCppArchitecture.o
++ /Library/Caches/com.apple.xbs/8C95F994-2CEB-4EE8-8389-FFBCBBF70E81/TemporaryDirectory.tzfb3o/Binaries/CoreSymbolication/install/TempContent/Objects/CoreSymbolication.build/coresymbolicationd.build/Objects-normal/arm64e/CSCppUtility.o
++ /Library/Caches/com.apple.xbs/8C95F994-2CEB-4EE8-8389-FFBCBBF70E81/TemporaryDirectory.tzfb3o/Binaries/CoreSymbolication/install/TempContent/Objects/CoreSymbolication.build/coresymbolicationd.build/Objects-normal/arm64e/MMapArchiveFileSystem.o
++ /Library/Caches/com.apple.xbs/8C95F994-2CEB-4EE8-8389-FFBCBBF70E81/TemporaryDirectory.tzfb3o/Binaries/CoreSymbolication/install/TempContent/Objects/CoreSymbolication.build/coresymbolicationd.build/Objects-normal/arm64e/UUID.o
++ /Library/Caches/com.apple.xbs/8C95F994-2CEB-4EE8-8389-FFBCBBF70E81/TemporaryDirectory.tzfb3o/Binaries/CoreSymbolication/install/TempContent/Objects/CoreSymbolication.build/coresymbolicationd.build/Objects-normal/arm64e/Utility.o
++ /Library/Caches/com.apple.xbs/8C95F994-2CEB-4EE8-8389-FFBCBBF70E81/TemporaryDirectory.tzfb3o/Binaries/CoreSymbolication/install/TempContent/Objects/CoreSymbolication.build/coresymbolicationd.build/Objects-normal/arm64e/XPC.o
++ /Library/Caches/com.apple.xbs/8C95F994-2CEB-4EE8-8389-FFBCBBF70E81/TemporaryDirectory.tzfb3o/Binaries/CoreSymbolication/install/TempContent/Objects/CoreSymbolication.build/coresymbolicationd.build/Objects-normal/arm64e/coresymbolicationd_main.o
++ /Library/Caches/com.apple.xbs/8C95F994-2CEB-4EE8-8389-FFBCBBF70E81/TemporaryDirectory.tzfb3o/Binaries/CoreSymbolication/install/TempContent/Objects/CoreSymbolication.build/coresymbolicationd.build/Objects-normal/arm64e/coresymbolicationd_vers.o
++ /Library/Caches/com.apple.xbs/8C95F994-2CEB-4EE8-8389-FFBCBBF70E81/TemporaryDirectory.tzfb3o/Sources/CoreSymbolication/CoreSymbolication/
++ /Library/Caches/com.apple.xbs/8C95F994-2CEB-4EE8-8389-FFBCBBF70E81/TemporaryDirectory.tzfb3o/Sources/CoreSymbolication/Shared/
++ /Library/Caches/com.apple.xbs/8C95F994-2CEB-4EE8-8389-FFBCBBF70E81/TemporaryDirectory.tzfb3o/Sources/CoreSymbolication/coresymbolicationd/
++ GCC_except_table68
++ GCC_except_table75
++ __ZNKSt9type_infoeqB9nqe210106ERKS_
++ __ZNSt12length_errorC1B9nqe210106EPKc
++ __ZNSt3__110__function12__value_funcIFbRN21MMapArchiveFileSystem12ArchiveEntryEEEC2B9nqe210106ERKS6_
++ __ZNSt3__110__function12__value_funcIFbRN21MMapArchiveFileSystem12ArchiveEntryEEED2B9nqe210106Ev
++ __ZNSt3__110unique_ptrI21MMapArchiveFileSystemNS_14default_deleteIS1_EEE5resetB9nqe210106EPS1_
++ __ZNSt3__110unique_ptrIN21MMapArchiveFileSystem10MMapMemoryENS_14default_deleteIS2_EEE5resetB9nqe210106EPS2_
++ __ZNSt3__110unique_ptrIvZL37coresymbolicationd_write_mmap_archive13XPCDictionaryRS1_jiE3$_0ED1B9nqe210106Ev
++ __ZNSt3__111make_uniqueB9nqe210106IN21MMapArchiveFileSystem10MMapMemoryEJRiS3_iRmELi0EEENS_10unique_ptrIT_NS_14default_deleteIS6_EEEEDpOT0_
++ __ZNSt3__112__rotate_gcdB9nqe210106INS_17_ClassicAlgPolicyEPN21MMapArchiveFileSystem12ArchiveEntryEEET0_S5_S5_S5_
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_length_errorB9nqe210106Ev
++ __ZNSt3__113__equal_rangeB9nqe210106INS_17_ClassicAlgPolicyER10SortByUUIDPN21MMapArchiveFileSystem12ArchiveEntryES6_S5_NS_10__identityEEENS_4pairIT1_S9_EES9_T2_RKT3_OT0_OT4_
++ __ZNSt3__113__upper_boundB9nqe210106INS_17_ClassicAlgPolicyER10SortByUUIDPN21MMapArchiveFileSystem12ArchiveEntryES6_S5_RNS_10__identityEEET1_S9_T2_RKT3_OT0_OT4_
++ __ZNSt3__115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEE15__init_buf_ptrsB9nqe210106Ev
++ __ZNSt3__115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEEC2B9nqe210106Ej
++ __ZNSt3__116__pad_and_outputB9nqe210106IcNS_11char_traitsIcEEEENS_19ostreambuf_iteratorIT_T0_EES6_PKS4_S8_S8_RNS_8ios_baseES4_
++ __ZNSt3__119basic_ostringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEC1B9nqe210106Ev
++ __ZNSt3__120__throw_length_errorB9nqe210106EPKc
++ __ZNSt3__123__stable_partition_implB9nqe210106INS_17_ClassicAlgPolicyERNS_8functionIFbRN21MMapArchiveFileSystem12ArchiveEntryEEEEPS4_EET1_SA_SA_T0_NS_26bidirectional_iterator_tagE
++ __ZNSt3__124__put_character_sequenceB9nqe210106IcNS_11char_traitsIcEEEERNS_13basic_ostreamIT_T0_EES7_PKS4_m
++ __ZNSt3__125__throw_bad_function_callB9nqe210106Ev
++ __ZNSt3__16vectorIN21MMapArchiveFileSystem12ArchiveEntryENS_9allocatorIS2_EEE11__vallocateB9nqe210106Em
++ __ZNSt3__16vectorIN21MMapArchiveFileSystem12ArchiveEntryENS_9allocatorIS2_EEE16__init_with_sizeB9nqe210106IPKS2_S8_EEvT_T0_m
++ __ZNSt3__16vectorIN21MMapArchiveFileSystem12ArchiveEntryENS_9allocatorIS2_EEE16__init_with_sizeB9nqe210106IPS2_S7_EEvT_T0_m
++ __ZNSt3__16vectorIN21MMapArchiveFileSystem12ArchiveEntryENS_9allocatorIS2_EEE20__throw_length_errorB9nqe210106Ev
++ __ZNSt3__16vectorIN21MMapArchiveFileSystem12ArchiveEntryENS_9allocatorIS2_EEE9push_backB9nqe210106EOS2_
++ __ZNSt3__16vectorIN21MMapArchiveFileSystem12ArchiveEntryENS_9allocatorIS2_EEE9push_backB9nqe210106ERKS2_
++ __ZNSt3__16vectorIiNS_9allocatorIiEEE20__throw_length_errorB9nqe210106Ev
++ __ZNSt3__18__rotateB9nqe210106INS_17_ClassicAlgPolicyEPN21MMapArchiveFileSystem12ArchiveEntryES4_EENS_4pairIT0_S6_EES6_S6_T1_
++ __ZNSt3__19allocatorIN21MMapArchiveFileSystem12ArchiveEntryEE17allocate_at_leastB9nqe210106Em
++ __ZNSt3__19allocatorIiE17allocate_at_leastB9nqe210106Em
++ __ZSt28__throw_bad_array_new_lengthB9nqe210106v
++ __block_descriptor_tmp.30
++ __block_descriptor_tmp.34
++ __block_descriptor_tmp.38
++ __block_descriptor_tmp.41
++ __block_descriptor_tmp.48
++ __block_descriptor_tmp.50
++ __block_descriptor_tmp.56
++ __block_descriptor_tmp.59
++ __block_descriptor_tmp.61
++ __block_descriptor_tmp.68
++ __block_descriptor_tmp.73
++ __block_literal_global.32
++ __block_literal_global.36
++ __block_literal_global.40
++ __block_literal_global.53
+- /Library/Caches/com.apple.xbs/A1A21501-0A4F-4F11-B6C8-E0B62EFB3FAC/TemporaryDirectory.F1ydpG/Binaries/CoreSymbolication/install/TempContent/Objects/CoreSymbolication.build/coresymbolicationd.build/DerivedSources/
+- /Library/Caches/com.apple.xbs/A1A21501-0A4F-4F11-B6C8-E0B62EFB3FAC/TemporaryDirectory.F1ydpG/Binaries/CoreSymbolication/install/TempContent/Objects/CoreSymbolication.build/coresymbolicationd.build/Objects-normal/arm64e/CSCppArchitecture.o
+- /Library/Caches/com.apple.xbs/A1A21501-0A4F-4F11-B6C8-E0B62EFB3FAC/TemporaryDirectory.F1ydpG/Binaries/CoreSymbolication/install/TempContent/Objects/CoreSymbolication.build/coresymbolicationd.build/Objects-normal/arm64e/CSCppUtility.o
+- /Library/Caches/com.apple.xbs/A1A21501-0A4F-4F11-B6C8-E0B62EFB3FAC/TemporaryDirectory.F1ydpG/Binaries/CoreSymbolication/install/TempContent/Objects/CoreSymbolication.build/coresymbolicationd.build/Objects-normal/arm64e/MMapArchiveFileSystem.o
+- /Library/Caches/com.apple.xbs/A1A21501-0A4F-4F11-B6C8-E0B62EFB3FAC/TemporaryDirectory.F1ydpG/Binaries/CoreSymbolication/install/TempContent/Objects/CoreSymbolication.build/coresymbolicationd.build/Objects-normal/arm64e/UUID.o
+- /Library/Caches/com.apple.xbs/A1A21501-0A4F-4F11-B6C8-E0B62EFB3FAC/TemporaryDirectory.F1ydpG/Binaries/CoreSymbolication/install/TempContent/Objects/CoreSymbolication.build/coresymbolicationd.build/Objects-normal/arm64e/Utility.o
+- /Library/Caches/com.apple.xbs/A1A21501-0A4F-4F11-B6C8-E0B62EFB3FAC/TemporaryDirectory.F1ydpG/Binaries/CoreSymbolication/install/TempContent/Objects/CoreSymbolication.build/coresymbolicationd.build/Objects-normal/arm64e/XPC.o
+- /Library/Caches/com.apple.xbs/A1A21501-0A4F-4F11-B6C8-E0B62EFB3FAC/TemporaryDirectory.F1ydpG/Binaries/CoreSymbolication/install/TempContent/Objects/CoreSymbolication.build/coresymbolicationd.build/Objects-normal/arm64e/coresymbolicationd_main.o
+- /Library/Caches/com.apple.xbs/A1A21501-0A4F-4F11-B6C8-E0B62EFB3FAC/TemporaryDirectory.F1ydpG/Binaries/CoreSymbolication/install/TempContent/Objects/CoreSymbolication.build/coresymbolicationd.build/Objects-normal/arm64e/coresymbolicationd_vers.o
+- /Library/Caches/com.apple.xbs/A1A21501-0A4F-4F11-B6C8-E0B62EFB3FAC/TemporaryDirectory.F1ydpG/Sources/CoreSymbolication/CoreSymbolication/
+- /Library/Caches/com.apple.xbs/A1A21501-0A4F-4F11-B6C8-E0B62EFB3FAC/TemporaryDirectory.F1ydpG/Sources/CoreSymbolication/Shared/
+- /Library/Caches/com.apple.xbs/A1A21501-0A4F-4F11-B6C8-E0B62EFB3FAC/TemporaryDirectory.F1ydpG/Sources/CoreSymbolication/coresymbolicationd/
+- GCC_except_table69
+- GCC_except_table76
+- __ZNKSt3__115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEE4viewB9foe210106Ev
+- __ZNKSt9type_infoeqB9foe210106ERKS_
+- __ZNSt12length_errorC1B9foe210106EPKc
+- __ZNSt3__110__function12__value_funcIFbRN21MMapArchiveFileSystem12ArchiveEntryEEEC2B9foe210106ERKS6_
+- __ZNSt3__110__function12__value_funcIFbRN21MMapArchiveFileSystem12ArchiveEntryEEED2B9foe210106Ev
+- __ZNSt3__110unique_ptrI21MMapArchiveFileSystemNS_14default_deleteIS1_EEE5resetB9foe210106EPS1_
+- __ZNSt3__110unique_ptrIN21MMapArchiveFileSystem10MMapMemoryENS_14default_deleteIS2_EEE5resetB9foe210106EPS2_
+- __ZNSt3__110unique_ptrIvZL37coresymbolicationd_write_mmap_archive13XPCDictionaryRS1_jiE3$_0ED1B9foe210106Ev
+- __ZNSt3__111make_uniqueB9foe210106IN21MMapArchiveFileSystem10MMapMemoryEJRiS3_iRmELi0EEENS_10unique_ptrIT_NS_14default_deleteIS6_EEEEDpOT0_
+- __ZNSt3__112__rotate_gcdB9foe210106INS_17_ClassicAlgPolicyEPN21MMapArchiveFileSystem12ArchiveEntryEEET0_S5_S5_S5_
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_length_errorB9foe210106Ev
+- __ZNSt3__113__equal_rangeB9foe210106INS_17_ClassicAlgPolicyER10SortByUUIDPN21MMapArchiveFileSystem12ArchiveEntryES6_S5_NS_10__identityEEENS_4pairIT1_S9_EES9_T2_RKT3_OT0_OT4_
+- __ZNSt3__113__upper_boundB9foe210106INS_17_ClassicAlgPolicyER10SortByUUIDPN21MMapArchiveFileSystem12ArchiveEntryES6_S5_RNS_10__identityEEET1_S9_T2_RKT3_OT0_OT4_
+- __ZNSt3__115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEE15__init_buf_ptrsB9foe210106Ev
+- __ZNSt3__115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEEC2B9foe210106Ej
+- __ZNSt3__116__pad_and_outputB9foe210106IcNS_11char_traitsIcEEEENS_19ostreambuf_iteratorIT_T0_EES6_PKS4_S8_S8_RNS_8ios_baseES4_
+- __ZNSt3__119basic_ostringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEC1B9foe210106Ev
+- __ZNSt3__120__throw_length_errorB9foe210106EPKc
+- __ZNSt3__123__stable_partition_implB9foe210106INS_17_ClassicAlgPolicyERNS_8functionIFbRN21MMapArchiveFileSystem12ArchiveEntryEEEEPS4_EET1_SA_SA_T0_NS_26bidirectional_iterator_tagE
+- __ZNSt3__124__put_character_sequenceB9foe210106IcNS_11char_traitsIcEEEERNS_13basic_ostreamIT_T0_EES7_PKS4_m
+- __ZNSt3__125__throw_bad_function_callB9foe210106Ev
+- __ZNSt3__132__internal_log_hardening_failureEPKc
+- __ZNSt3__16vectorIN21MMapArchiveFileSystem12ArchiveEntryENS_9allocatorIS2_EEE11__vallocateB9foe210106Em
+- __ZNSt3__16vectorIN21MMapArchiveFileSystem12ArchiveEntryENS_9allocatorIS2_EEE16__init_with_sizeB9foe210106IPKS2_S8_EEvT_T0_m
+- __ZNSt3__16vectorIN21MMapArchiveFileSystem12ArchiveEntryENS_9allocatorIS2_EEE16__init_with_sizeB9foe210106IPS2_S7_EEvT_T0_m
+- __ZNSt3__16vectorIN21MMapArchiveFileSystem12ArchiveEntryENS_9allocatorIS2_EEE20__throw_length_errorB9foe210106Ev
+- __ZNSt3__16vectorIN21MMapArchiveFileSystem12ArchiveEntryENS_9allocatorIS2_EEE9push_backB9foe210106EOS2_
+- __ZNSt3__16vectorIN21MMapArchiveFileSystem12ArchiveEntryENS_9allocatorIS2_EEE9push_backB9foe210106ERKS2_
+- __ZNSt3__16vectorIiNS_9allocatorIiEEE20__throw_length_errorB9foe210106Ev
+- __ZNSt3__18__rotateB9foe210106INS_17_ClassicAlgPolicyEPN21MMapArchiveFileSystem12ArchiveEntryES4_EENS_4pairIT0_S6_EES6_S6_T1_
+- __ZNSt3__19allocatorIN21MMapArchiveFileSystem12ArchiveEntryEE17allocate_at_leastB9foe210106Em
+- __ZNSt3__19allocatorIiE17allocate_at_leastB9foe210106Em
+- __ZSt28__throw_bad_array_new_lengthB9foe210106v
+- __block_descriptor_tmp.31
+- __block_descriptor_tmp.35
+- __block_descriptor_tmp.39
+- __block_descriptor_tmp.42
+- __block_descriptor_tmp.49
+- __block_descriptor_tmp.52
+- __block_descriptor_tmp.57
+- __block_descriptor_tmp.60
+- __block_descriptor_tmp.62
+- __block_descriptor_tmp.69
+- __block_descriptor_tmp.74
+- __block_literal_global.33
+- __block_literal_global.37
+- __block_literal_global.41
+- __block_literal_global.54
+Functions:
+~ __ZN21MMapArchiveFileSystem13match_archiveERNS_12ArchiveEntryE : 1108 -> 1164
+- __ZNKSt3__115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEE4viewB9foe210106Ev
+~ __ZN21MMapArchiveFileSystem30_remove_entries_with_predicateEPNS_12ArchiveEntryES1_NSt3__18functionIFbRS0_EEE : 756 -> 748
+~ __ZNSt3__123__stable_partition_implINS_17_ClassicAlgPolicyERZN21MMapArchiveFileSystem30_remove_entries_with_predicateEPNS2_12ArchiveEntryES4_NS_8functionIFbRS3_EEEE3$_1S4_lNS_4pairIS4_lEEEET1_SD_SD_T0_T2_T3_NS_26bidirectional_iterator_tagE : 1044 -> 1056
+CStrings:
+- "/AppleInternal/Library/BuildRoots/4~CJlFugD6VT9tQq1ywYVIWyi-eGOJwD1YyEqkp30/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/string_view:341: libc++ Hardening assertion (__end - __begin) >= 0 failed: std::string_view::string_view(iterator, sentinel) received invalid range\n"
+
+```

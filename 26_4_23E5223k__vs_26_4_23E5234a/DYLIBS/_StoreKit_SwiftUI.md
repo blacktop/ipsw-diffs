@@ -1,0 +1,45 @@
+## _StoreKit_SwiftUI
+
+> `/System/Library/Frameworks/_StoreKit_SwiftUI.framework/_StoreKit_SwiftUI`
+
+```diff
+
+-815.4.20.0.0
+-  __TEXT.__text: 0x2807a8
++815.4.22.2.1
++  __TEXT.__text: 0x280bf8
+   __TEXT.__auth_stubs: 0x54f0
+   __TEXT.__objc_methlist: 0x434
+   __TEXT.__cstring: 0x4837
+   __TEXT.__const: 0x25754
+   __TEXT.__constg_swiftt: 0xf074
+-  __TEXT.__swift5_typeref: 0x198fc
++  __TEXT.__swift5_typeref: 0x19902
+   __TEXT.__swift5_builtin: 0x140
+   __TEXT.__swift5_reflstr: 0x7581
+   __TEXT.__swift5_fieldmd: 0x87e8
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 683025CB-1AC0-3F77-8626-539F6FCA5D45
+-  Functions: 15378
++  UUID: 0EEDD830-2E73-3E52-9B91-AE00019E40D2
++  Functions: 15381
+   Symbols:   12734
+   CStrings:  1048
+ 
+Symbols:
++ _get_witness_table 7SwiftUI19_ConditionalContentVyAA08ModifiedD0VyAA014_ViewModifier_D0Vy010_StoreKit_aB0011CloseButtonG033_78C014B73488EC7608CDCCD28AF4826ALLVGAA08_OverlayG0VyAEyAEyAH035LinkCheckedEnvironmentActionDismissK0AJLLVAH07Dynamicjk5StyleG0AJLLVGAA023AccessibilityAttachmentG0VGSgGGAA05EmptyF0VGAA0F0HPAyAA1_HPAlAA1_HPyHC_AxA0fG0HPyHCHC_A_AAA1_HPyHCHC.15
++ _symbolic _____y_____y_____y_____G_____yAByABy__________G_____GSgGG_____G 7SwiftUI19_ConditionalContentV AA08ModifiedD0V AA014_ViewModifier_D0V 010_StoreKit_aB0011CloseButtonG033_78C014B73488EC7608CDCCD28AF4826ALLV AA08_OverlayG0V AH035LinkCheckedEnvironmentActionDismissK0AJLLV AH07Dynamicjk5StyleG0AJLLV AA023AccessibilityAttachmentG0V AA05EmptyF0V
++ _symbolic _____y_____y_____y_____G_____yAByABy__________G_____GSgGG______G 7SwiftUI19_ConditionalContentV7StorageO AA08ModifiedD0V AA014_ViewModifier_D0V 010_StoreKit_aB0011CloseButtonH033_78C014B73488EC7608CDCCD28AF4826ALLV AA08_OverlayH0V AJ035LinkCheckedEnvironmentActionDismissL0ALLLV AJ07Dynamickl5StyleH0ALLLV AA023AccessibilityAttachmentH0V AA05EmptyG0V
+- _get_witness_table 7SwiftUI19_ConditionalContentVyAA08ModifiedD0VyAA014_ViewModifier_D0Vy010_StoreKit_aB0011CloseButtonG033_78C014B73488EC7608CDCCD28AF4826ALLVGAA08_OverlayG0VyAEyAEyAH035LinkCheckedEnvironmentActionDismissK0AJLLVAH07Dynamicjk5StyleG0AJLLVGAA023AccessibilityAttachmentG0VGSgGGALGAA0F0HPAyAA_HPAlAA_HPyHC_AxA0fG0HPyHCHC_AlAA_HPyHCHC.15
+- _symbolic _____y_____y_____y_____G_____yAByABy__________G_____GSgGGAEG 7SwiftUI19_ConditionalContentV AA08ModifiedD0V AA014_ViewModifier_D0V 010_StoreKit_aB0011CloseButtonG033_78C014B73488EC7608CDCCD28AF4826ALLV AA08_OverlayG0V AH035LinkCheckedEnvironmentActionDismissK0AJLLV AH07Dynamicjk5StyleG0AJLLV AA023AccessibilityAttachmentG0V
+- _symbolic _____y_____y_____y_____G_____yAByABy__________G_____GSgGGAE_G 7SwiftUI19_ConditionalContentV7StorageO AA08ModifiedD0V AA014_ViewModifier_D0V 010_StoreKit_aB0011CloseButtonH033_78C014B73488EC7608CDCCD28AF4826ALLV AA08_OverlayH0V AJ035LinkCheckedEnvironmentActionDismissL0ALLLV AJ07Dynamickl5StyleH0ALLLV AA023AccessibilityAttachmentH0V
+CStrings:
++ "01:37:22"
++ "Mar  6 2026"
+- "09:22:41"
+- "Feb 22 2026"
+
+```

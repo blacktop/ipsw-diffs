@@ -1,0 +1,114 @@
+## CoreIDVPAD
+
+> `/System/Library/PrivateFrameworks/CoreIDVPAD.framework/CoreIDVPAD`
+
+```diff
+
+ 3.0.2.0.0
+-  __TEXT.__text: 0x46090
+-  __TEXT.__auth_stubs: 0x1670
++  __TEXT.__text: 0x43140
++  __TEXT.__auth_stubs: 0x1660
+   __TEXT.__objc_methlist: 0xe68
+-  __TEXT.__const: 0x27e0
++  __TEXT.__const: 0x27d0
+   __TEXT.__gcc_except_tab: 0xa10
+-  __TEXT.__cstring: 0x13a2
++  __TEXT.__cstring: 0x1132
+   __TEXT.__oslogstring: 0x19a8
+   __TEXT.__constg_swiftt: 0x1894
+   __TEXT.__swift5_typeref: 0xc60
+
+   __TEXT.__swift_as_entry: 0x1c
+   __TEXT.__swift_as_ret: 0x1c
+   __TEXT.__swift5_capture: 0x22c
+-  __TEXT.__unwind_info: 0xf00
++  __TEXT.__unwind_info: 0xef0
+   __TEXT.__eh_frame: 0xda0
+   __TEXT.__objc_classname: 0x603
+   __TEXT.__objc_methname: 0x280b
+
+   __DATA_CONST.__objc_selrefs: 0x920
+   __DATA_CONST.__objc_protorefs: 0x20
+   __DATA_CONST.__objc_superrefs: 0x38
+-  __AUTH_CONST.__auth_got: 0xb50
++  __AUTH_CONST.__auth_got: 0xb48
+   __AUTH_CONST.__const: 0x1800
+   __AUTH_CONST.__cfstring: 0x800
+   __AUTH_CONST.__objc_const: 0x3288
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: E96F401A-EA96-39EE-A216-96AA827EEFD1
++  UUID: 50B2E0FB-0EE6-31B9-BDDD-D4DF587A4834
+   Functions: 1311
+-  Symbols:   1950
+-  CStrings:  930
++  Symbols:   1949
++  CStrings:  928
+ 
+Symbols:
++ __ZNSt12length_errorC1B9nqe210106EPKc
++ __ZNSt12out_of_rangeC1B9nqe210106EPKc
++ __ZNSt3__110shared_ptrIN6vision3mod21LivenessCheck_OptionsEED2B9nqe210106Ev
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_length_errorB9nqe210106Ev
++ __ZNSt3__116__pad_and_outputB9nqe210106IcNS_11char_traitsIcEEEENS_19ostreambuf_iteratorIT_T0_EES6_PKS4_S8_S8_RNS_8ios_baseES4_
++ __ZNSt3__120__throw_length_errorB9nqe210106EPKc
++ __ZNSt3__120__throw_out_of_rangeB9nqe210106EPKc
++ __ZNSt3__124__put_character_sequenceB9nqe210106IcNS_11char_traitsIcEEEERNS_13basic_ostreamIT_T0_EES7_PKS4_m
++ __ZNSt3__128__exception_guard_exceptionsINS_29_AllocatorDestroyRangeReverseINS_9allocatorINS_6vectorIfNS2_IfEEEEEEPS5_EEED2B9nqe210106Ev
++ __ZNSt3__128__exception_guard_exceptionsINS_6vectorINS1_INS1_IfNS_9allocatorIfEEEENS2_IS4_EEEENS2_IS6_EEE16__destroy_vectorEED2B9nqe210106Ev
++ __ZNSt3__128__exception_guard_exceptionsINS_6vectorINS1_IfNS_9allocatorIfEEEENS2_IS4_EEE16__destroy_vectorEED1B9nqe210106Ev
++ __ZNSt3__135__uninitialized_allocator_copy_implB9nqe210106INS_9allocatorINS_6vectorIfNS1_IfEEEEEEPS4_S6_S6_EET2_RT_T0_T1_S7_
++ __ZNSt3__16vectorINS0_INS0_IfNS_9allocatorIfEEEENS1_IS3_EEEENS1_IS5_EEE20__throw_length_errorB9nqe210106Ev
++ __ZNSt3__16vectorINS0_INS0_IfNS_9allocatorIfEEEENS1_IS3_EEEENS1_IS5_EEED2B9nqe210106Ev
++ __ZNSt3__16vectorINS0_IfNS_9allocatorIfEEEENS1_IS3_EEE20__throw_length_errorB9nqe210106Ev
++ __ZNSt3__16vectorINS0_IfNS_9allocatorIfEEEENS1_IS3_EEEC2B9nqe210106EmRKS3_
++ __ZNSt3__16vectorINS0_IfNS_9allocatorIfEEEENS1_IS3_EEED1B9nqe210106Ev
++ __ZNSt3__16vectorIfNS_9allocatorIfEEE20__throw_length_errorB9nqe210106Ev
++ __ZNSt3__16vectorIfNS_9allocatorIfEEEC1B9nqe210106ERKS3_
++ __ZNSt3__16vectorIiNS_9allocatorIiEEE20__throw_length_errorB9nqe210106Ev
++ __ZNSt3__16vectorIiNS_9allocatorIiEEE9push_backB9nqe210106ERKi
++ __ZSt28__throw_bad_array_new_lengthB9nqe210106v
+- __ZNSt12length_errorC1B9foe210106EPKc
+- __ZNSt12out_of_rangeC1B9foe210106EPKc
+- __ZNSt3__110shared_ptrIN6vision3mod21LivenessCheck_OptionsEED2B9foe210106Ev
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_length_errorB9foe210106Ev
+- __ZNSt3__116__pad_and_outputB9foe210106IcNS_11char_traitsIcEEEENS_19ostreambuf_iteratorIT_T0_EES6_PKS4_S8_S8_RNS_8ios_baseES4_
+- __ZNSt3__120__throw_length_errorB9foe210106EPKc
+- __ZNSt3__120__throw_out_of_rangeB9foe210106EPKc
+- __ZNSt3__124__put_character_sequenceB9foe210106IcNS_11char_traitsIcEEEERNS_13basic_ostreamIT_T0_EES7_PKS4_m
+- __ZNSt3__128__exception_guard_exceptionsINS_29_AllocatorDestroyRangeReverseINS_9allocatorINS_6vectorIfNS2_IfEEEEEEPS5_EEED2B9foe210106Ev
+- __ZNSt3__128__exception_guard_exceptionsINS_6vectorINS1_INS1_IfNS_9allocatorIfEEEENS2_IS4_EEEENS2_IS6_EEE16__destroy_vectorEED2B9foe210106Ev
+- __ZNSt3__128__exception_guard_exceptionsINS_6vectorINS1_IfNS_9allocatorIfEEEENS2_IS4_EEE16__destroy_vectorEED1B9foe210106Ev
+- __ZNSt3__132__internal_log_hardening_failureEPKc
+- __ZNSt3__135__uninitialized_allocator_copy_implB9foe210106INS_9allocatorINS_6vectorIfNS1_IfEEEEEEPS4_S6_S6_EET2_RT_T0_T1_S7_
+- __ZNSt3__16vectorINS0_INS0_IfNS_9allocatorIfEEEENS1_IS3_EEEENS1_IS5_EEE20__throw_length_errorB9foe210106Ev
+- __ZNSt3__16vectorINS0_INS0_IfNS_9allocatorIfEEEENS1_IS3_EEEENS1_IS5_EEED2B9foe210106Ev
+- __ZNSt3__16vectorINS0_IfNS_9allocatorIfEEEENS1_IS3_EEE20__throw_length_errorB9foe210106Ev
+- __ZNSt3__16vectorINS0_IfNS_9allocatorIfEEEENS1_IS3_EEEC2B9foe210106EmRKS3_
+- __ZNSt3__16vectorINS0_IfNS_9allocatorIfEEEENS1_IS3_EEED1B9foe210106Ev
+- __ZNSt3__16vectorIfNS_9allocatorIfEEE20__throw_length_errorB9foe210106Ev
+- __ZNSt3__16vectorIfNS_9allocatorIfEEEC1B9foe210106ERKS3_
+- __ZNSt3__16vectorIiNS_9allocatorIiEEE20__throw_length_errorB9foe210106Ev
+- __ZNSt3__16vectorIiNS_9allocatorIiEEE9push_backB9foe210106ERKi
+- __ZSt28__throw_bad_array_new_lengthB9foe210106v
+Functions:
+~ -[PADAlgorithms processFacePoseInput:gesture:error:] : 2068 -> 1784
+~ __ZL15NSArrayAsVectorP7NSArrayIP8NSNumberE : 284 -> 232
+~ -[PADAlgorithms performFAC:gesture:error:] : 2344 -> 2088
+~ -[PADAlgorithms performIDMatching:toFaceprints:error:] : 1768 -> 1652
+~ __ZN6vision3mod22LivenessCheckPredictor18computeMouthHeightENSt3__16vectorIfNS2_9allocatorIfEEEE : 1600 -> 164
+~ __ZN6vision3mod22LivenessCheckPredictor24computeEyebrow2EyeHeightENSt3__16vectorIfNS2_9allocatorIfEEEE : 1708 -> 148
+~ __ZN6vision3mod22LivenessCheckPredictor21computeEyeAspectRatioENSt3__16vectorIfNS2_9allocatorIfEEEE : 1620 -> 264
+~ __ZN6vision3mod22LivenessCheckPredictor17runStitchDetectorERK13vImage_BufferRbRfb : 2660 -> 1132
+~ __ZN6vision3mod22LivenessCheckPredictor19processFacePoseDataERKNSt3__16vectorIfNS2_9allocatorIfEEEES8_S8_S8_RKNS3_IS6_NS4_IS6_EEEERKi : 1764 -> 1320
+~ __ZN6vision3mod22LivenessCheckPredictor27runFaceActionClassificationERKNSt3__16vectorIfNS2_9allocatorIfEEEES8_S8_S8_RKNS3_IS6_NS4_IS6_EEEERKi : 5576 -> 3120
+~ __ZN6vision3mod22LivenessCheckPredictor21runTrajectoryAnalysisERNSt3__16vectorINS3_IfNS2_9allocatorIfEEEENS4_IS6_EEEERKNS2_3mapINS2_12basic_stringIcNS2_11char_traitsIcEENS4_IcEEEENS3_IiNS4_IiEEEENS2_4lessISF_EENS4_INS2_4pairIKSF_SH_EEEEEE : 5940 -> 4468
+~ __ZN6vision3mod22LivenessCheckPredictor13runIDMatchingERKNSt3__16vectorINS3_IfNS2_9allocatorIfEEEENS4_IS6_EEEERKS6_ : 3144 -> 1992
+CStrings:
+- "/AppleInternal/Library/BuildRoots/4~CJleugDmlAvV5JbZOWm3FeLGuAjAav4JQibNKCk/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__vector/vector.h:406: libc++ Hardening assertion __n < size() failed: vector[] index out of bounds\n"
+- "/AppleInternal/Library/BuildRoots/4~CJleugDmlAvV5JbZOWm3FeLGuAjAav4JQibNKCk/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__vector/vector.h:410: libc++ Hardening assertion __n < size() failed: vector[] index out of bounds\n"
+
+```

@@ -1,0 +1,240 @@
+## DesktopServicesPriv
+
+> `/System/Library/PrivateFrameworks/DesktopServicesPriv.framework/DesktopServicesPriv`
+
+```diff
+
+-1827.4.6.0.0
+-  __TEXT.__text: 0x11ce50
++1827.4.7.0.0
++  __TEXT.__text: 0x11cfe8
+   __TEXT.__auth_stubs: 0x1e80
+   __TEXT.__objc_methlist: 0x366c
+   __TEXT.__const: 0x47b8
+-  __TEXT.__gcc_except_tab: 0x1c2c4
++  __TEXT.__gcc_except_tab: 0x1c2e4
+   __TEXT.__oslogstring: 0x35fe
+   __TEXT.__cstring: 0x46f3
+   __TEXT.__ustring: 0x20
+-  __TEXT.__unwind_info: 0x8a40
++  __TEXT.__unwind_info: 0x8a60
+   __TEXT.__objc_classname: 0x823
+   __TEXT.__objc_methname: 0x7c28
+   __TEXT.__objc_methtype: 0x5f8e
+
+   - /usr/lib/libbsm.0.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: D1A65220-9735-32FB-A118-B9DA7D1FD10C
+-  Functions: 5490
+-  Symbols:   17329
++  UUID: FC7C547B-E251-388C-92CD-0C645832C76D
++  Functions: 5492
++  Symbols:   17338
+   CStrings:  3154
+ 
+Symbols:
++ GCC_except_table1007
++ GCC_except_table1011
++ GCC_except_table1028
++ GCC_except_table1030
++ GCC_except_table1035
++ GCC_except_table1041
++ GCC_except_table1045
++ GCC_except_table1049
++ GCC_except_table1055
++ GCC_except_table1059
++ GCC_except_table1063
++ GCC_except_table1067
++ GCC_except_table1071
++ GCC_except_table1074
++ GCC_except_table1079
++ GCC_except_table1083
++ GCC_except_table1094
++ GCC_except_table1102
++ GCC_except_table1106
++ GCC_except_table1110
++ GCC_except_table1123
++ GCC_except_table1134
++ GCC_except_table1141
++ GCC_except_table1159
++ GCC_except_table1167
++ GCC_except_table1192
++ GCC_except_table205
++ GCC_except_table221
++ GCC_except_table230
++ GCC_except_table268
++ GCC_except_table285
++ GCC_except_table288
++ GCC_except_table318
++ GCC_except_table333
++ GCC_except_table335
++ GCC_except_table359
++ GCC_except_table361
++ GCC_except_table370
++ GCC_except_table376
++ GCC_except_table380
++ GCC_except_table388
++ GCC_except_table392
++ GCC_except_table395
++ GCC_except_table409
++ GCC_except_table413
++ GCC_except_table420
++ GCC_except_table440
++ GCC_except_table457
++ GCC_except_table464
++ GCC_except_table478
++ GCC_except_table481
++ GCC_except_table497
++ GCC_except_table510
++ GCC_except_table517
++ GCC_except_table528
++ GCC_except_table558
++ GCC_except_table568
++ GCC_except_table595
++ GCC_except_table597
++ GCC_except_table608
++ GCC_except_table620
++ GCC_except_table630
++ GCC_except_table636
++ GCC_except_table640
++ GCC_except_table646
++ GCC_except_table653
++ GCC_except_table701
++ GCC_except_table707
++ GCC_except_table710
++ GCC_except_table712
++ GCC_except_table720
++ GCC_except_table733
++ GCC_except_table737
++ GCC_except_table741
++ GCC_except_table750
++ GCC_except_table752
++ GCC_except_table756
++ GCC_except_table763
++ GCC_except_table782
++ GCC_except_table788
++ GCC_except_table793
++ GCC_except_table805
++ GCC_except_table807
++ GCC_except_table815
++ GCC_except_table880
++ GCC_except_table896
++ GCC_except_table910
++ GCC_except_table918
++ GCC_except_table932
++ GCC_except_table938
++ GCC_except_table954
++ GCC_except_table959
++ GCC_except_table963
++ GCC_except_table975
++ GCC_except_table980
++ GCC_except_table993
++ __Z16static_objc_castI6NSDataU8__strongP11objc_objectEPT_T0_
++ __Z4CopyI6NSDataEDaPT_
++ __ZN16TDSHelperContext10RenamePathEPKcRK7TStringbbP6NSDatab
++ __ZN50TDesktopServicesHelperNewFileSystemObjectOperation17FPPreflightRenameE8TNodePtrRK7TString
++ __ZN50TDesktopServicesHelperNewFileSystemObjectOperation4MakeERK17OperationSelectorPK10__CFStringPK7__CFURL16OperationOptionsP6NSData
++ __ZN50TDesktopServicesHelperNewFileSystemObjectOperation6RenameERK8TNodePtrRK7TStringbbP6NSData
++ __ZN50TDesktopServicesHelperNewFileSystemObjectOperationC1ERK17OperationSelectorPK10__CFStringPK7__CFURL16OperationOptionsP6NSData
++ __ZN50TDesktopServicesHelperNewFileSystemObjectOperationC2ERK17OperationSelectorPK10__CFStringPK7__CFURL16OperationOptionsP6NSData
++ __ZN5TNode19SetNameAndExtensionERK7TStringbbP50TDesktopServicesHelperNewFileSystemObjectOperationb
+- GCC_except_table1002
+- GCC_except_table1010
+- GCC_except_table1027
+- GCC_except_table1029
+- GCC_except_table1033
+- GCC_except_table1039
+- GCC_except_table1044
+- GCC_except_table1048
+- GCC_except_table1053
+- GCC_except_table1056
+- GCC_except_table1062
+- GCC_except_table1066
+- GCC_except_table1070
+- GCC_except_table1072
+- GCC_except_table1078
+- GCC_except_table1082
+- GCC_except_table109
+- GCC_except_table1092
+- GCC_except_table1101
+- GCC_except_table1105
+- GCC_except_table1109
+- GCC_except_table1120
+- GCC_except_table1127
+- GCC_except_table1138
+- GCC_except_table1157
+- GCC_except_table1166
+- GCC_except_table1191
+- GCC_except_table220
+- GCC_except_table222
+- GCC_except_table251
+- GCC_except_table257
+- GCC_except_table269
+- GCC_except_table286
+- GCC_except_table314
+- GCC_except_table334
+- GCC_except_table360
+- GCC_except_table373
+- GCC_except_table389
+- GCC_except_table394
+- GCC_except_table405
+- GCC_except_table411
+- GCC_except_table419
+- GCC_except_table423
+- GCC_except_table431
+- GCC_except_table448
+- GCC_except_table459
+- GCC_except_table466
+- GCC_except_table477
+- GCC_except_table495
+- GCC_except_table504
+- GCC_except_table511
+- GCC_except_table514
+- GCC_except_table527
+- GCC_except_table530
+- GCC_except_table557
+- GCC_except_table567
+- GCC_except_table596
+- GCC_except_table607
+- GCC_except_table619
+- GCC_except_table629
+- GCC_except_table635
+- GCC_except_table645
+- GCC_except_table650
+- GCC_except_table706
+- GCC_except_table709
+- GCC_except_table711
+- GCC_except_table719
+- GCC_except_table732
+- GCC_except_table736
+- GCC_except_table739
+- GCC_except_table751
+- GCC_except_table755
+- GCC_except_table761
+- GCC_except_table781
+- GCC_except_table787
+- GCC_except_table792
+- GCC_except_table803
+- GCC_except_table806
+- GCC_except_table814
+- GCC_except_table879
+- GCC_except_table894
+- GCC_except_table909
+- GCC_except_table917
+- GCC_except_table928
+- GCC_except_table937
+- GCC_except_table953
+- GCC_except_table957
+- GCC_except_table961
+- GCC_except_table970
+- GCC_except_table979
+- GCC_except_table992
+- _NodeDSCreateOperation
+- __ZN16TDSHelperContext10RenamePathEPKcRK7TStringbb
+- __ZN50TDesktopServicesHelperNewFileSystemObjectOperation4MakeERK17OperationSelectorPK10__CFStringPK7__CFURL16OperationOptions
+- __ZN50TDesktopServicesHelperNewFileSystemObjectOperation6RenameERK8TNodePtrRK7TStringbb
+- __ZN50TDesktopServicesHelperNewFileSystemObjectOperationC1ERK17OperationSelectorPK10__CFStringPK7__CFURL16OperationOptions
+- __ZN5TNode19SetNameAndExtensionERK7TStringbbP50TDesktopServicesHelperNewFileSystemObjectOperation
+
+```

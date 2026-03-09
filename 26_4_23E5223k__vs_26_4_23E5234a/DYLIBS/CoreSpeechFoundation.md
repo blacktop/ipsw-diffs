@@ -1,0 +1,514 @@
+## CoreSpeechFoundation
+
+> `/System/Library/PrivateFrameworks/CoreSpeechFoundation.framework/CoreSpeechFoundation`
+
+```diff
+
+-3520.89.1.0.0
+-  __TEXT.__text: 0xd4df0
+-  __TEXT.__auth_stubs: 0x1ee0
++3520.89.2.0.0
++  __TEXT.__text: 0xcf23c
++  __TEXT.__auth_stubs: 0x1ed0
+   __TEXT.__objc_methlist: 0xcbb8
+   __TEXT.__const: 0x928
+   __TEXT.__dlopen_cstrs: 0x24a
+
+   __TEXT.__swift5_types: 0x1c
+   __TEXT.__swift5_fieldmd: 0x128
+   __TEXT.__swift5_reflstr: 0x84
+-  __TEXT.__cstring: 0x158ea
++  __TEXT.__cstring: 0x156d8
+   __TEXT.__swift5_mpenum: 0x8
+   __TEXT.__swift5_proto: 0x8
+-  __TEXT.__gcc_except_tab: 0x42b0
+-  __TEXT.__oslogstring: 0x10714
+-  __TEXT.__unwind_info: 0x3e20
++  __TEXT.__gcc_except_tab: 0x42a4
++  __TEXT.__oslogstring: 0x1082d
++  __TEXT.__unwind_info: 0x3df8
+   __TEXT.__eh_frame: 0xe0
+   __TEXT.__objc_classname: 0x1edf
+-  __TEXT.__objc_methname: 0x21fc9
++  __TEXT.__objc_methname: 0x22019
+   __TEXT.__objc_methtype: 0x47c5
+-  __TEXT.__objc_stubs: 0x11920
++  __TEXT.__objc_stubs: 0x11960
+   __DATA_CONST.__got: 0xfc0
+-  __DATA_CONST.__const: 0x26d0
++  __DATA_CONST.__const: 0x26d8
+   __DATA_CONST.__objc_classlist: 0x700
+   __DATA_CONST.__objc_catlist: 0x58
+   __DATA_CONST.__objc_protolist: 0x1c0
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x6ef0
++  __DATA_CONST.__objc_selrefs: 0x6f00
+   __DATA_CONST.__objc_protorefs: 0x30
+   __DATA_CONST.__objc_superrefs: 0x530
+   __DATA_CONST.__objc_arraydata: 0x198
+-  __AUTH_CONST.__auth_got: 0xf88
++  __AUTH_CONST.__auth_got: 0xf80
+   __AUTH_CONST.__const: 0x17b0
+-  __AUTH_CONST.__cfstring: 0x9200
++  __AUTH_CONST.__cfstring: 0x9220
+   __AUTH_CONST.__objc_const: 0x13a00
+   __AUTH_CONST.__objc_dictobj: 0x1e0
+   __AUTH_CONST.__objc_intobj: 0x378
+
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 9AB169BA-75A2-3DD9-934D-0911E6FF5BFC
++  UUID: 507B3AFB-EAD5-3505-A222-2762B72C262D
+   Functions: 4902
+-  Symbols:   16636
+-  CStrings:  10444
++  Symbols:   16638
++  CStrings:  10451
+ 
+Symbols:
++ GCC_except_table3107
++ GCC_except_table3111
++ GCC_except_table3113
++ _AudioConverterFillComplexBuffer_BlockInvoke.11302
++ __ZNKSt3__111__copy_implclB9nqe210106IPNS_6vectorINS2_IfNS_9allocatorIfEEEENS3_IS5_EEEES8_S8_EENS_4pairIT_T1_EESA_T0_SB_
++ __ZNKSt3__111__copy_implclB9nqe210106IPNS_6vectorIfNS_9allocatorIfEEEES6_S6_EENS_4pairIT_T1_EES8_T0_S9_
++ __ZNKSt3__114default_deleteI21CSAudioZeroFilterImplItEEclB9nqe210106EPS2_
++ __ZNSt12length_errorC1B9nqe210106EPKc
++ __ZNSt12out_of_rangeC1B9nqe210106EPKc
++ __ZNSt16invalid_argumentC1B9nqe210106EPKc
++ __ZNSt3__110unique_ptrI18BatchBeepCancellerNS_14default_deleteIS1_EEE5resetB9nqe210106EPS1_
++ __ZNSt3__110unique_ptrI22NonlinearBeepCancellerNS_14default_deleteIS1_EEE5resetB9nqe210106EPS1_
++ __ZNSt3__110unique_ptrI24CSAudioSpectralMeterImplNS_14default_deleteIS1_EEE5resetB9nqe210106EPS1_
++ __ZNSt3__110unique_ptrIN10corespeech25CSAudioCircularBufferImplIfEENS_14default_deleteIS3_EEE5resetB9nqe210106EPS3_
++ __ZNSt3__110unique_ptrIN10corespeech25CSAudioCircularBufferImplItEENS_14default_deleteIS3_EEE5resetB9nqe210106EPS3_
++ __ZNSt3__119__allocate_at_leastB9nqe210106INS_9allocatorIN21CSAudioZeroFilterImplItE7ZeroRunEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS8_m
++ __ZNSt3__119__allocate_at_leastB9nqe210106INS_9allocatorIPjEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS6_m
++ __ZNSt3__119__allocate_at_leastB9nqe210106INS_9allocatorIfEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS5_m
++ __ZNSt3__119__allocate_at_leastB9nqe210106INS_9allocatorIjEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS5_m
++ __ZNSt3__119__allocate_at_leastB9nqe210106INS_9allocatorItEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS5_m
++ __ZNSt3__120__throw_length_errorB9nqe210106EPKc
++ __ZNSt3__120__throw_out_of_rangeB9nqe210106EPKc
++ __ZNSt3__128__exception_guard_exceptionsINS_29_AllocatorDestroyRangeReverseINS_9allocatorINS_6vectorIfNS2_IfEEEEEEPS5_EEED2B9nqe210106Ev
++ __ZNSt3__135__uninitialized_allocator_copy_implB9nqe210106INS_9allocatorINS_6vectorINS2_IfNS1_IfEEEENS1_IS4_EEEEEEPS6_S8_S8_EET2_RT_T0_T1_S9_
++ __ZNSt3__135__uninitialized_allocator_copy_implB9nqe210106INS_9allocatorINS_6vectorIfNS1_IfEEEEEEPS4_S6_S6_EET2_RT_T0_T1_S7_
++ __ZNSt3__16vectorI21bnns_graph_argument_tNS_9allocatorIS1_EEE20__throw_length_errorB9nqe210106Ev
++ __ZNSt3__16vectorI21bnns_graph_argument_tNS_9allocatorIS1_EEE9push_backB9nqe210106EOS1_
++ __ZNSt3__16vectorIN21CSAudioZeroFilterImplItE7ZeroRunENS_9allocatorIS3_EEE20__throw_length_errorB9nqe210106Ev
++ __ZNSt3__16vectorINS0_INS0_INS0_IfNS_9allocatorIfEEEENS1_IS3_EEEENS1_IS5_EEEENS1_IS7_EEE16__destroy_vectorclB9nqe210106Ev
++ __ZNSt3__16vectorINS0_INS0_INS0_IfNS_9allocatorIfEEEENS1_IS3_EEEENS1_IS5_EEEENS1_IS7_EEE20__throw_length_errorB9nqe210106Ev
++ __ZNSt3__16vectorINS0_INS0_IfNS_9allocatorIfEEEENS1_IS3_EEEENS1_IS5_EEE11__vallocateB9nqe210106Em
++ __ZNSt3__16vectorINS0_INS0_IfNS_9allocatorIfEEEENS1_IS3_EEEENS1_IS5_EEE16__destroy_vectorclB9nqe210106Ev
++ __ZNSt3__16vectorINS0_INS0_IfNS_9allocatorIfEEEENS1_IS3_EEEENS1_IS5_EEE16__init_with_sizeB9nqe210106IPS5_S9_EEvT_T0_m
++ __ZNSt3__16vectorINS0_INS0_IfNS_9allocatorIfEEEENS1_IS3_EEEENS1_IS5_EEE20__throw_length_errorB9nqe210106Ev
++ __ZNSt3__16vectorINS0_IfNS_9allocatorIfEEEENS1_IS3_EEE11__vallocateB9nqe210106Em
++ __ZNSt3__16vectorINS0_IfNS_9allocatorIfEEEENS1_IS3_EEE16__destroy_vectorclB9nqe210106Ev
++ __ZNSt3__16vectorINS0_IfNS_9allocatorIfEEEENS1_IS3_EEE16__init_with_sizeB9nqe210106IPS3_S7_EEvT_T0_m
++ __ZNSt3__16vectorINS0_IfNS_9allocatorIfEEEENS1_IS3_EEE18__assign_with_sizeB9nqe210106IPS3_S7_EEvT_T0_l
++ __ZNSt3__16vectorINS0_IfNS_9allocatorIfEEEENS1_IS3_EEE20__throw_length_errorB9nqe210106Ev
++ __ZNSt3__16vectorINS0_IfNS_9allocatorIfEEEENS1_IS3_EEE5clearB9nqe210106Ev
++ __ZNSt3__16vectorINS0_IfNS_9allocatorIfEEEENS1_IS3_EEEC2B9nqe210106EmRKS3_
++ __ZNSt3__16vectorINS0_IhNS_9allocatorIhEEEENS1_IS3_EEE16__destroy_vectorclB9nqe210106Ev
++ __ZNSt3__16vectorINS0_IhNS_9allocatorIhEEEENS1_IS3_EEE20__throw_length_errorB9nqe210106Ev
++ __ZNSt3__16vectorINS0_IhNS_9allocatorIhEEEENS1_IS3_EEE5clearB9nqe210106Ev
++ __ZNSt3__16vectorINS0_IjNS_9allocatorIjEEEENS1_IS3_EEE16__destroy_vectorclB9nqe210106Ev
++ __ZNSt3__16vectorIPKcNS_9allocatorIS2_EEE20__throw_length_errorB9nqe210106Ev
++ __ZNSt3__16vectorIPKcNS_9allocatorIS2_EEEC2B9nqe210106Em
++ __ZNSt3__16vectorIPKfNS_9allocatorIS2_EEE20__throw_length_errorB9nqe210106Ev
++ __ZNSt3__16vectorIPKtNS_9allocatorIS2_EEE20__throw_length_errorB9nqe210106Ev
++ __ZNSt3__16vectorIfNS_9allocatorIfEEE11__vallocateB9nqe210106Em
++ __ZNSt3__16vectorIfNS_9allocatorIfEEE16__init_with_sizeB9nqe210106IPfS5_EEvT_T0_m
++ __ZNSt3__16vectorIfNS_9allocatorIfEEE18__assign_with_sizeB9nqe210106IPfS5_EEvT_T0_l
++ __ZNSt3__16vectorIfNS_9allocatorIfEEE20__throw_length_errorB9nqe210106Ev
++ __ZNSt3__16vectorIfNS_9allocatorIfEEE9push_backB9nqe210106EOf
++ __ZNSt3__16vectorIfNS_9allocatorIfEEEC2B9nqe210106Em
++ __ZNSt3__16vectorIfNS_9allocatorIfEEEC2B9nqe210106EmRKf
++ __ZNSt3__16vectorIhNS_9allocatorIhEEE11__vallocateB9nqe210106Em
++ __ZNSt3__16vectorIhNS_9allocatorIhEEE16__init_with_sizeB9nqe210106IPhS5_EEvT_T0_m
++ __ZNSt3__16vectorIhNS_9allocatorIhEEE20__throw_length_errorB9nqe210106Ev
++ __ZNSt3__16vectorIjNS_9allocatorIjEEE20__throw_length_errorB9nqe210106Ev
++ __ZNSt3__16vectorItNS_9allocatorItEEE20__throw_length_errorB9nqe210106Ev
++ __ZSt28__throw_bad_array_new_lengthB9nqe210106v
++ ___Block_byref_object_copy_.12497
++ ___Block_byref_object_copy_.12885
++ ___Block_byref_object_copy_.13168
++ ___Block_byref_object_copy_.13985
++ ___Block_byref_object_copy_.14707
++ ___Block_byref_object_copy_.14835
++ ___Block_byref_object_copy_.15702
++ ___Block_byref_object_copy_.2495
++ ___Block_byref_object_copy_.3249
++ ___Block_byref_object_copy_.4524
++ ___Block_byref_object_copy_.4745
++ ___Block_byref_object_copy_.5548
++ ___Block_byref_object_copy_.5964
++ ___Block_byref_object_copy_.9125
++ ___Block_byref_object_dispose_.12498
++ ___Block_byref_object_dispose_.12886
++ ___Block_byref_object_dispose_.13169
++ ___Block_byref_object_dispose_.13986
++ ___Block_byref_object_dispose_.14708
++ ___Block_byref_object_dispose_.14836
++ ___Block_byref_object_dispose_.15703
++ ___Block_byref_object_dispose_.2496
++ ___Block_byref_object_dispose_.3250
++ ___Block_byref_object_dispose_.4525
++ ___Block_byref_object_dispose_.4746
++ ___Block_byref_object_dispose_.5549
++ ___Block_byref_object_dispose_.5965
++ ___Block_byref_object_dispose_.9126
++ ___block_literal_global.10075
++ ___block_literal_global.10931
++ ___block_literal_global.11133
++ ___block_literal_global.11366
++ ___block_literal_global.11577
++ ___block_literal_global.11614
++ ___block_literal_global.12541
++ ___block_literal_global.12999
++ ___block_literal_global.13268
++ ___block_literal_global.13512
++ ___block_literal_global.13890
++ ___block_literal_global.14270
++ ___block_literal_global.14427
++ ___block_literal_global.14529
++ ___block_literal_global.14585
++ ___block_literal_global.14731
++ ___block_literal_global.14978
++ ___block_literal_global.15071
++ ___block_literal_global.15161
++ ___block_literal_global.15490
++ ___block_literal_global.15727
++ ___block_literal_global.2436
++ ___block_literal_global.2511
++ ___block_literal_global.2611
++ ___block_literal_global.2660
++ ___block_literal_global.2904
++ ___block_literal_global.3161
++ ___block_literal_global.3269
++ ___block_literal_global.3537
++ ___block_literal_global.3691
++ ___block_literal_global.3917
++ ___block_literal_global.4552
++ ___block_literal_global.4713
++ ___block_literal_global.4761
++ ___block_literal_global.5317
++ ___block_literal_global.5401
++ ___block_literal_global.6176
++ ___block_literal_global.6359
++ ___block_literal_global.6425
++ ___block_literal_global.6481
++ ___block_literal_global.6617
++ ___block_literal_global.6635
++ ___block_literal_global.6828
++ ___block_literal_global.6891
++ ___block_literal_global.6949
++ ___block_literal_global.8657
++ ___block_literal_global.8719
++ ___block_literal_global.8859
++ ___block_literal_global.8916
++ ___block_literal_global.91.2956
++ ___block_literal_global.9168
++ ___block_literal_global.9469
++ ___block_literal_global.9599
++ ___block_literal_global.9706
++ ___block_literal_global.9981
++ _kVTEIFirstPassTriggeredFromDarwinSecure
++ _objc_msgSend$isVoiceTriggerAvailable
++ _objc_msgSend$setVoiceTriggerEnabled:sender:deviceType:endpointId:
++ _sharedHandler.onceToken.12540
++ _sharedHandler.sharedHandler.12542
++ _sharedInstance._sharedInstance.10076
++ _sharedInstance._sharedInstance.10932
++ _sharedInstance._sharedInstance.11615
++ _sharedInstance._sharedInstance.14530
++ _sharedInstance._sharedInstance.14586
++ _sharedInstance._sharedInstance.15072
++ _sharedInstance._sharedInstance.15162
++ _sharedInstance._sharedInstance.3918
++ _sharedInstance._sharedInstance.4714
++ _sharedInstance._sharedInstance.5318
++ _sharedInstance._sharedInstance.6177
++ _sharedInstance._sharedInstance.6829
++ _sharedInstance.onceToken.10074
++ _sharedInstance.onceToken.10930
++ _sharedInstance.onceToken.11132
++ _sharedInstance.onceToken.11613
++ _sharedInstance.onceToken.13267
++ _sharedInstance.onceToken.14528
++ _sharedInstance.onceToken.14584
++ _sharedInstance.onceToken.14977
++ _sharedInstance.onceToken.15070
++ _sharedInstance.onceToken.15160
++ _sharedInstance.onceToken.15489
++ _sharedInstance.onceToken.15726
++ _sharedInstance.onceToken.2510
++ _sharedInstance.onceToken.3268
++ _sharedInstance.onceToken.3690
++ _sharedInstance.onceToken.3916
++ _sharedInstance.onceToken.4551
++ _sharedInstance.onceToken.4712
++ _sharedInstance.onceToken.4760
++ _sharedInstance.onceToken.5316
++ _sharedInstance.onceToken.6175
++ _sharedInstance.onceToken.6358
++ _sharedInstance.onceToken.6616
++ _sharedInstance.onceToken.6827
++ _sharedInstance.onceToken.8718
++ _sharedInstance.onceToken.8915
++ _sharedInstance.onceToken.9468
++ _sharedInstance.onceToken.9598
++ _sharedInstance.onceToken.9705
++ _sharedInstance.sharedInstance.11134
++ _sharedInstance.sharedInstance.13269
++ _sharedInstance.sharedInstance.14979
++ _sharedInstance.sharedInstance.15491
++ _sharedInstance.sharedInstance.15728
++ _sharedInstance.sharedInstance.2512
++ _sharedInstance.sharedInstance.3270
++ _sharedInstance.sharedInstance.3692
++ _sharedInstance.sharedInstance.4762
++ _sharedInstance.sharedInstance.6360
++ _sharedInstance.sharedInstance.8720
++ _sharedInstance.sharedInstance.8917
++ _sharedInstance.sharedInstance.9600
++ _sharedInstance.sharedInstance.9707
++ _sharedInstance.sharedManager.6618
++ _sharedLogger.onceToken.13889
++ _sharedLogger.onceToken.2610
++ _sharedLogger.onceToken.6424
++ _sharedLogger.onceToken.6634
++ _sharedLogger.shared.13891
++ _sharedManager.onceToken.14730
++ _sharedManager.onceToken.3160
++ _sharedManager.sharedManager.14732
++ _sharedMonitor.onceToken.5400
++ _sharedMonitor.sharedMonitor.5402
++ _sharedPreferences.onceToken.8656
+- GCC_except_table3110
+- GCC_except_table3116
+- GCC_except_table3117
+- _AudioConverterFillComplexBuffer_BlockInvoke.11306
+- __ZNKSt3__111__copy_implclB9foe210106IPNS_6vectorINS2_IfNS_9allocatorIfEEEENS3_IS5_EEEES8_S8_EENS_4pairIT_T1_EESA_T0_SB_
+- __ZNKSt3__111__copy_implclB9foe210106IPNS_6vectorIfNS_9allocatorIfEEEES6_S6_EENS_4pairIT_T1_EES8_T0_S9_
+- __ZNKSt3__114default_deleteI21CSAudioZeroFilterImplItEEclB9foe210106EPS2_
+- __ZNSt12length_errorC1B9foe210106EPKc
+- __ZNSt12out_of_rangeC1B9foe210106EPKc
+- __ZNSt16invalid_argumentC1B9foe210106EPKc
+- __ZNSt3__110unique_ptrI18BatchBeepCancellerNS_14default_deleteIS1_EEE5resetB9foe210106EPS1_
+- __ZNSt3__110unique_ptrI22NonlinearBeepCancellerNS_14default_deleteIS1_EEE5resetB9foe210106EPS1_
+- __ZNSt3__110unique_ptrI24CSAudioSpectralMeterImplNS_14default_deleteIS1_EEE5resetB9foe210106EPS1_
+- __ZNSt3__110unique_ptrIN10corespeech25CSAudioCircularBufferImplIfEENS_14default_deleteIS3_EEE5resetB9foe210106EPS3_
+- __ZNSt3__110unique_ptrIN10corespeech25CSAudioCircularBufferImplItEENS_14default_deleteIS3_EEE5resetB9foe210106EPS3_
+- __ZNSt3__119__allocate_at_leastB9foe210106INS_9allocatorIN21CSAudioZeroFilterImplItE7ZeroRunEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS8_m
+- __ZNSt3__119__allocate_at_leastB9foe210106INS_9allocatorIPjEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS6_m
+- __ZNSt3__119__allocate_at_leastB9foe210106INS_9allocatorIfEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS5_m
+- __ZNSt3__119__allocate_at_leastB9foe210106INS_9allocatorIjEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS5_m
+- __ZNSt3__119__allocate_at_leastB9foe210106INS_9allocatorItEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS5_m
+- __ZNSt3__120__throw_length_errorB9foe210106EPKc
+- __ZNSt3__120__throw_out_of_rangeB9foe210106EPKc
+- __ZNSt3__128__exception_guard_exceptionsINS_29_AllocatorDestroyRangeReverseINS_9allocatorINS_6vectorIfNS2_IfEEEEEEPS5_EEED2B9foe210106Ev
+- __ZNSt3__132__internal_log_hardening_failureEPKc
+- __ZNSt3__135__uninitialized_allocator_copy_implB9foe210106INS_9allocatorINS_6vectorINS2_IfNS1_IfEEEENS1_IS4_EEEEEEPS6_S8_S8_EET2_RT_T0_T1_S9_
+- __ZNSt3__135__uninitialized_allocator_copy_implB9foe210106INS_9allocatorINS_6vectorIfNS1_IfEEEEEEPS4_S6_S6_EET2_RT_T0_T1_S7_
+- __ZNSt3__16vectorI21bnns_graph_argument_tNS_9allocatorIS1_EEE20__throw_length_errorB9foe210106Ev
+- __ZNSt3__16vectorI21bnns_graph_argument_tNS_9allocatorIS1_EEE9push_backB9foe210106EOS1_
+- __ZNSt3__16vectorIN21CSAudioZeroFilterImplItE7ZeroRunENS_9allocatorIS3_EEE20__throw_length_errorB9foe210106Ev
+- __ZNSt3__16vectorINS0_INS0_INS0_IfNS_9allocatorIfEEEENS1_IS3_EEEENS1_IS5_EEEENS1_IS7_EEE16__destroy_vectorclB9foe210106Ev
+- __ZNSt3__16vectorINS0_INS0_INS0_IfNS_9allocatorIfEEEENS1_IS3_EEEENS1_IS5_EEEENS1_IS7_EEE20__throw_length_errorB9foe210106Ev
+- __ZNSt3__16vectorINS0_INS0_IfNS_9allocatorIfEEEENS1_IS3_EEEENS1_IS5_EEE11__vallocateB9foe210106Em
+- __ZNSt3__16vectorINS0_INS0_IfNS_9allocatorIfEEEENS1_IS3_EEEENS1_IS5_EEE16__destroy_vectorclB9foe210106Ev
+- __ZNSt3__16vectorINS0_INS0_IfNS_9allocatorIfEEEENS1_IS3_EEEENS1_IS5_EEE16__init_with_sizeB9foe210106IPS5_S9_EEvT_T0_m
+- __ZNSt3__16vectorINS0_INS0_IfNS_9allocatorIfEEEENS1_IS3_EEEENS1_IS5_EEE20__throw_length_errorB9foe210106Ev
+- __ZNSt3__16vectorINS0_IfNS_9allocatorIfEEEENS1_IS3_EEE11__vallocateB9foe210106Em
+- __ZNSt3__16vectorINS0_IfNS_9allocatorIfEEEENS1_IS3_EEE16__destroy_vectorclB9foe210106Ev
+- __ZNSt3__16vectorINS0_IfNS_9allocatorIfEEEENS1_IS3_EEE16__init_with_sizeB9foe210106IPS3_S7_EEvT_T0_m
+- __ZNSt3__16vectorINS0_IfNS_9allocatorIfEEEENS1_IS3_EEE18__assign_with_sizeB9foe210106IPS3_S7_EEvT_T0_l
+- __ZNSt3__16vectorINS0_IfNS_9allocatorIfEEEENS1_IS3_EEE20__throw_length_errorB9foe210106Ev
+- __ZNSt3__16vectorINS0_IfNS_9allocatorIfEEEENS1_IS3_EEE5clearB9foe210106Ev
+- __ZNSt3__16vectorINS0_IfNS_9allocatorIfEEEENS1_IS3_EEEC2B9foe210106EmRKS3_
+- __ZNSt3__16vectorINS0_IhNS_9allocatorIhEEEENS1_IS3_EEE16__destroy_vectorclB9foe210106Ev
+- __ZNSt3__16vectorINS0_IhNS_9allocatorIhEEEENS1_IS3_EEE20__throw_length_errorB9foe210106Ev
+- __ZNSt3__16vectorINS0_IhNS_9allocatorIhEEEENS1_IS3_EEE5clearB9foe210106Ev
+- __ZNSt3__16vectorINS0_IjNS_9allocatorIjEEEENS1_IS3_EEE16__destroy_vectorclB9foe210106Ev
+- __ZNSt3__16vectorIPKcNS_9allocatorIS2_EEE20__throw_length_errorB9foe210106Ev
+- __ZNSt3__16vectorIPKcNS_9allocatorIS2_EEEC2B9foe210106Em
+- __ZNSt3__16vectorIPKfNS_9allocatorIS2_EEE20__throw_length_errorB9foe210106Ev
+- __ZNSt3__16vectorIPKtNS_9allocatorIS2_EEE20__throw_length_errorB9foe210106Ev
+- __ZNSt3__16vectorIfNS_9allocatorIfEEE11__vallocateB9foe210106Em
+- __ZNSt3__16vectorIfNS_9allocatorIfEEE16__init_with_sizeB9foe210106IPfS5_EEvT_T0_m
+- __ZNSt3__16vectorIfNS_9allocatorIfEEE18__assign_with_sizeB9foe210106IPfS5_EEvT_T0_l
+- __ZNSt3__16vectorIfNS_9allocatorIfEEE20__throw_length_errorB9foe210106Ev
+- __ZNSt3__16vectorIfNS_9allocatorIfEEE9push_backB9foe210106EOf
+- __ZNSt3__16vectorIfNS_9allocatorIfEEEC2B9foe210106Em
+- __ZNSt3__16vectorIfNS_9allocatorIfEEEC2B9foe210106EmRKf
+- __ZNSt3__16vectorIhNS_9allocatorIhEEE11__vallocateB9foe210106Em
+- __ZNSt3__16vectorIhNS_9allocatorIhEEE16__init_with_sizeB9foe210106IPhS5_EEvT_T0_m
+- __ZNSt3__16vectorIhNS_9allocatorIhEEE20__throw_length_errorB9foe210106Ev
+- __ZNSt3__16vectorIjNS_9allocatorIjEEE20__throw_length_errorB9foe210106Ev
+- __ZNSt3__16vectorItNS_9allocatorItEEE20__throw_length_errorB9foe210106Ev
+- __ZSt28__throw_bad_array_new_lengthB9foe210106v
+- ___Block_byref_object_copy_.12501
+- ___Block_byref_object_copy_.12889
+- ___Block_byref_object_copy_.13172
+- ___Block_byref_object_copy_.13989
+- ___Block_byref_object_copy_.14711
+- ___Block_byref_object_copy_.14839
+- ___Block_byref_object_copy_.15706
+- ___Block_byref_object_copy_.2496
+- ___Block_byref_object_copy_.3250
+- ___Block_byref_object_copy_.4526
+- ___Block_byref_object_copy_.4747
+- ___Block_byref_object_copy_.5552
+- ___Block_byref_object_copy_.5970
+- ___Block_byref_object_copy_.9127
+- ___Block_byref_object_dispose_.12502
+- ___Block_byref_object_dispose_.12890
+- ___Block_byref_object_dispose_.13173
+- ___Block_byref_object_dispose_.13990
+- ___Block_byref_object_dispose_.14712
+- ___Block_byref_object_dispose_.14840
+- ___Block_byref_object_dispose_.15707
+- ___Block_byref_object_dispose_.2497
+- ___Block_byref_object_dispose_.3251
+- ___Block_byref_object_dispose_.4527
+- ___Block_byref_object_dispose_.4748
+- ___Block_byref_object_dispose_.5553
+- ___Block_byref_object_dispose_.5971
+- ___Block_byref_object_dispose_.9128
+- ___block_literal_global.10077
+- ___block_literal_global.10933
+- ___block_literal_global.11137
+- ___block_literal_global.11370
+- ___block_literal_global.11581
+- ___block_literal_global.11618
+- ___block_literal_global.12545
+- ___block_literal_global.13003
+- ___block_literal_global.13272
+- ___block_literal_global.13516
+- ___block_literal_global.13894
+- ___block_literal_global.14274
+- ___block_literal_global.14431
+- ___block_literal_global.14533
+- ___block_literal_global.14589
+- ___block_literal_global.14735
+- ___block_literal_global.14982
+- ___block_literal_global.15075
+- ___block_literal_global.15165
+- ___block_literal_global.15494
+- ___block_literal_global.15731
+- ___block_literal_global.2437
+- ___block_literal_global.2512
+- ___block_literal_global.2612
+- ___block_literal_global.2661
+- ___block_literal_global.2905
+- ___block_literal_global.3162
+- ___block_literal_global.3270
+- ___block_literal_global.3538
+- ___block_literal_global.3692
+- ___block_literal_global.3918
+- ___block_literal_global.4554
+- ___block_literal_global.4715
+- ___block_literal_global.4763
+- ___block_literal_global.5321
+- ___block_literal_global.5405
+- ___block_literal_global.6182
+- ___block_literal_global.6365
+- ___block_literal_global.6431
+- ___block_literal_global.6487
+- ___block_literal_global.6623
+- ___block_literal_global.6641
+- ___block_literal_global.6834
+- ___block_literal_global.6897
+- ___block_literal_global.6955
+- ___block_literal_global.8659
+- ___block_literal_global.8721
+- ___block_literal_global.8861
+- ___block_literal_global.8918
+- ___block_literal_global.91.2957
+- ___block_literal_global.9170
+- ___block_literal_global.9471
+- ___block_literal_global.9601
+- ___block_literal_global.9708
+- ___block_literal_global.9983
+- _sharedHandler.onceToken.12544
+- _sharedHandler.sharedHandler.12546
+- _sharedInstance._sharedInstance.10078
+- _sharedInstance._sharedInstance.10934
+- _sharedInstance._sharedInstance.11619
+- _sharedInstance._sharedInstance.14534
+- _sharedInstance._sharedInstance.14590
+- _sharedInstance._sharedInstance.15076
+- _sharedInstance._sharedInstance.15166
+- _sharedInstance._sharedInstance.3919
+- _sharedInstance._sharedInstance.4716
+- _sharedInstance._sharedInstance.5322
+- _sharedInstance._sharedInstance.6183
+- _sharedInstance._sharedInstance.6835
+- _sharedInstance.onceToken.10076
+- _sharedInstance.onceToken.10932
+- _sharedInstance.onceToken.11136
+- _sharedInstance.onceToken.11617
+- _sharedInstance.onceToken.13271
+- _sharedInstance.onceToken.14532
+- _sharedInstance.onceToken.14588
+- _sharedInstance.onceToken.14981
+- _sharedInstance.onceToken.15074
+- _sharedInstance.onceToken.15164
+- _sharedInstance.onceToken.15493
+- _sharedInstance.onceToken.15730
+- _sharedInstance.onceToken.2511
+- _sharedInstance.onceToken.3269
+- _sharedInstance.onceToken.3691
+- _sharedInstance.onceToken.3917
+- _sharedInstance.onceToken.4553
+- _sharedInstance.onceToken.4714
+- _sharedInstance.onceToken.4762
+- _sharedInstance.onceToken.5320
+- _sharedInstance.onceToken.6181
+- _sharedInstance.onceToken.6364
+- _sharedInstance.onceToken.6622
+- _sharedInstance.onceToken.6833
+- _sharedInstance.onceToken.8720
+- _sharedInstance.onceToken.8917
+- _sharedInstance.onceToken.9470
+- _sharedInstance.onceToken.9600
+- _sharedInstance.onceToken.9707
+- _sharedInstance.sharedInstance.11138
+- _sharedInstance.sharedInstance.13273
+- _sharedInstance.sharedInstance.14983
+- _sharedInstance.sharedInstance.15495
+- _sharedInstance.sharedInstance.15732
+- _sharedInstance.sharedInstance.2513
+- _sharedInstance.sharedInstance.3271
+- _sharedInstance.sharedInstance.3693
+- _sharedInstance.sharedInstance.4764
+- _sharedInstance.sharedInstance.6366
+- _sharedInstance.sharedInstance.8722
+- _sharedInstance.sharedInstance.8919
+- _sharedInstance.sharedInstance.9602
+- _sharedInstance.sharedInstance.9709
+- _sharedInstance.sharedManager.6624
+- _sharedLogger.onceToken.13893
+- _sharedLogger.onceToken.2611
+- _sharedLogger.onceToken.6430
+- _sharedLogger.onceToken.6640
+- _sharedLogger.shared.13895
+- _sharedManager.onceToken.14734
+- _sharedManager.onceToken.3161
+- _sharedManager.sharedManager.14736
+- _sharedMonitor.onceToken.5404
+- _sharedMonitor.sharedMonitor.5406
+- _sharedPreferences.onceToken.8658
+CStrings:
++ "%s Host VT disabled, automatically disabling Darwin display VT preference"
++ "%s Host VT enabled, automatically enabling Darwin display VT preference"
++ "%s Initial VT disabled, propagating to Darwin display VT preference"
++ "%s Initial VT enabled, propagating to Darwin display VT preference"
++ "-[CSVoiceTriggerEnabledMonitor _didReceiveVoiceTriggerSettingChanged:]"
++ "DarwinSecure"
++ "isVoiceTriggerAvailable"
++ "setVoiceTriggerEnabled:sender:deviceType:endpointId:"
+- "/AppleInternal/Library/BuildRoots/4~CJliugCgBAlJKe4LPy-BAHf08N6QFaiztyy2li0/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__vector/vector.h:406: libc++ Hardening assertion __n < size() failed: vector[] index out of bounds\n"
+- "/AppleInternal/Library/BuildRoots/4~CJliugCgBAlJKe4LPy-BAHf08N6QFaiztyy2li0/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.4.Internal.sdk/usr/include/c++/v1/__vector/vector.h:410: libc++ Hardening assertion __n < size() failed: vector[] index out of bounds\n"
+
+```
