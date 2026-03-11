@@ -30,6 +30,7 @@
 <a href="#ipados-17-7">iPadOS 17.7</a> ·
 <a href="#ios-17-6-1">iOS 17.6.1</a> ·
 <a href="#ios-16-7">iOS 16.7</a> ·
+<a href="#ios-15-8">iOS 15.8</a> ·
 <a href="#ios-12-5">iOS 12.5</a> ·
 <a href="#macos-26-3-beta">macOS 26.3 beta</a> ·
 <a href="#macos-15-5-beta">macOS 15.5 beta</a> ·
@@ -340,6 +341,15 @@
 
 - [16.7.14 (20H370) .vs 16.7.15 (20H380)](16_7_14_20H370__vs_16_7_15_20H380/README.md)
 - [16.7.13 (20H365) .vs 16.7.14 (20H370)](16_7_13_20H365__vs_16_7_14_20H370/README.md)
+
+</details>
+
+<a id="ios-15-8"></a>
+### iOS 15.8
+<details>
+  <summary>View diffs</summary>
+
+- [15.8.6 (19H402) .vs 15.8.7 (19H411)](15_8_6_19H402__vs_15_8_7_19H411/README.md)
 
 </details>
 
