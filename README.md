@@ -338,6 +338,7 @@
 <details>
   <summary>View diffs</summary>
 
+- [16.7.14 (20H370) .vs 16.7.15 (20H380)](16_7_14_20H370__vs_16_7_15_20H380/README.md)
 - [16.7.13 (20H365) .vs 16.7.14 (20H370)](16_7_13_20H365__vs_16_7_14_20H370/README.md)
 
 </details>
