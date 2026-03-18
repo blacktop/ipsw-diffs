@@ -1,6 +1,6 @@
-# 23D8133__iPhone17,1 .vs 23D771330a__iPhone17,1
+# 23D8133 .vs 23D771330a
 
-## Inputs
+## OTAs
 
 - `23D8133__iPhone17,1`
 - `23D771330a__iPhone17,1`
@@ -11,8 +11,8 @@
 
 | iOS | Version |
 | :-- | :------ |
-| Patched OTA *(23D8133__iPhone17,1)* | 623.2.7.10.4 |
-| Patched OTA *(23D771330a__iPhone17,1)* | 623.2.7.110.1 |
+| Patched OTA *(23D8133)* | 623.2.7.10.4 |
+| Patched OTA *(23D771330a)* | 623.2.7.110.1 |
 
 ### Dylibs
 
