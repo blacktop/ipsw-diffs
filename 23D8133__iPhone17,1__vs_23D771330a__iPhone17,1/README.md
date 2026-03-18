@@ -1,5 +1,8 @@
 # 23D8133 .vs 23D771330a
 
+## Apple Security Content
+- <https://support.apple.com/en-us/126604>
+
 ## OTAs
 
 - `23D8133__iPhone17,1`
