@@ -1,0 +1,50 @@
+## assistantd
+
+> `/System/Library/PrivateFrameworks/AssistantServices.framework/assistantd`
+
+```diff
+
+ 3520.86.6.0.0
+-  __TEXT.__text: 0x394340
++  __TEXT.__text: 0x3943a8
+   __TEXT.__auth_stubs: 0x3620
+-  __TEXT.__objc_stubs: 0x46480
++  __TEXT.__objc_stubs: 0x464a0
+   __TEXT.__objc_methlist: 0x22f98
+   __TEXT.__const: 0x10b28
+   __TEXT.__dlopen_cstrs: 0x99d
+   __TEXT.__gcc_except_tab: 0x4810
+-  __TEXT.__cstring: 0x51b3e
++  __TEXT.__cstring: 0x51b21
+   __TEXT.__oslogstring: 0x42d3c
+   __TEXT.__objc_classname: 0x5331
+   __TEXT.__objc_methname: 0x5f945
+
+   __DATA_CONST.__got: 0x3bd8
+   __DATA_CONST.__auth_ptr: 0x20
+   __DATA_CONST.__const: 0x13f48
+-  __DATA_CONST.__cfstring: 0x12ba0
++  __DATA_CONST.__cfstring: 0x12b80
+   __DATA_CONST.__objc_classlist: 0xd40
+   __DATA_CONST.__objc_catlist: 0x630
+   __DATA_CONST.__objc_protolist: 0x718
+
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libresolv.9.dylib
+   - /usr/lib/libz.1.dylib
+-  UUID: 4098BF5A-1850-3D27-A864-EFC30ED03DC5
++  UUID: FF485C2C-F034-3579-813A-00E210DA45C9
+   Functions: 14431
+   Symbols:   2941
+-  CStrings:  30126
++  CStrings:  30124
+ 
+Functions:
+~ sub_1000241e8 : 144 -> 224
+~ sub_1000689f0 -> sub_100068a40 : 1016 -> 1040
+CStrings:
++ "30"
+- "376"
+- "https://seed.siri.apple.com"
+
+```

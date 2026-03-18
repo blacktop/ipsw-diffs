@@ -1,0 +1,115 @@
+## libswiftPrespecialized.dylib
+
+> `/usr/lib/libswiftPrespecialized.dylib`
+
+```diff
+
+ 0.0.0.0.0
+   __TEXT.__text: 0x0
+   __TEXT.__lldb_no_nlist: 0x0
+-  __DATA_CONST.__const: 0x301808
++  __DATA_CONST.__const: 0x301f60
+   __DATA_CONST.__ptrhashtab: 0x171d8
+   __DATA_CONST.__ptrhashtabkey: 0x25f80
+   __AUTH_CONST.__const: 0x4fa68
+   __AUTH.__data: 0xcbe30
+   - /usr/lib/libSystem.B.dylib
+-  UUID: D7373A53-E45F-39E1-93B6-98EBE43EDCFA
++  UUID: 5A948692-A59D-3114-9C6A-C4043A709487
+   Functions: 0
+-  Symbols:   151349
++  Symbols:   151432
+   CStrings:  0
+ 
+Symbols:
++ _$s13HomeDataModel06CameraB13StoreProtocolMp
++ _$s13HomeDataModel0A23FaceClassificationStoreCMn
++ _$s13HomeDataModel15CameraClipAssetC14resourceLoader_39shouldWaitForLoadingOfRequestedResourceSbSo07AVAssetoH0C_So0poL7RequestCtFTq
++ _$s13HomeDataModel15CameraClipAssetCMn
++ _$s13HomeDataModel16CameraEventCacheCMn
++ _$s13HomeDataModel18CameraClipsLibraryCMn
++ _$s13HomeDataModel23CameraClipsLibraryErrorOMn
++ _$s13HomeDataModel23ClipFetchingEnvironmentMp
++ _$s13HomeDataModel23FaceClassificationStoreMp
++ _$s13HomeDataModel25CameraClipPlaybackManagerC15ContentProviderMp
++ _$s13HomeDataModel25CameraClipPlaybackManagerCMn
++ _$s13HomeDataModel26CameraClipsLibraryProtocolMp
++ _$s13HomeDataModel30DefaultClipFetchingEnvironmentVMn
++ _$s13HomeDataModel30FaceClassificationNameResolverC6update6nearby5ownerQr4UserQzSg_SbtFQOMQ
++ _$s13HomeDataModel30FaceClassificationNameResolverCMn
++ _$s13HomeDataModel35CameraRecordingEventManagerProtocolMp
++ _$s13HomeDataModel37CameraClipScrubberDemoContentProviderC7baseURLAC10Foundation0K0V_tcfCTq
++ _$s13HomeDataModel37CameraClipScrubberDemoContentProviderCMn
++ _$s16HeadphoneManager18B698FeatureContentC0A10SettingsUIE12singularNameSSvpMV
++ _$s16HeadphoneManager19B515dFeatureContentCMn
++ _$s19StreamingAppleTrace0C11MultiplexerCMn
++ _$s19StreamingAppleTrace0C6ReaderMp
++ _$s19StreamingAppleTrace0C6WriterCMn
++ _$s19StreamingAppleTrace0abC5ErrorOMn
++ _$s19StreamingAppleTrace10SourceTypeOMn
++ _$s19StreamingAppleTrace12KTraceReaderCMn
++ _$s19StreamingAppleTrace13AgentInstanceVMn
++ _$s19StreamingAppleTrace13FrameMetadataVMn
++ _$s19StreamingAppleTrace14StreamMetadataVMn
++ _$s19StreamingAppleTrace15ProviderSessionOMn
++ _$s19StreamingAppleTrace15TraceportReaderC8platform8routerId04portH0AcA8PlatformO_s6UInt32VAJtKcfCTq
++ _$s19StreamingAppleTrace15TraceportReaderCMn
++ _$s19StreamingAppleTrace16FilesystemReaderC7recordsScsyAA6RecordVs5Error_pGyFTq
++ _$s19StreamingAppleTrace16FilesystemReaderCMn
++ _$s19StreamingAppleTrace6RecordVMn
++ _$s19StreamingAppleTrace8FileTypeOMn
++ _$s19StreamingAppleTrace8PlatformOMn
++ _$s19StreamingAppleTrace9AgentTypeOMn
++ _$s7HomeUI210PlayerViewCMn
++ _$s7HomeUI212ActivePersonVMn
++ _$s7HomeUI212TimelineItemMp
++ _$s7HomeUI213PlaybackModelC13ConfigurationV07InitialC8LocationOMn
++ _$s7HomeUI213PlaybackModelC13ConfigurationVMn
++ _$s7HomeUI213PlaybackModelC5StateVMn
++ _$s7HomeUI213PlaybackModelC6ActionOMn
++ _$s7HomeUI213PlaybackModelCMn
++ _$s7HomeUI214CameraClipListV4bodyQrvpQOMQ
++ _$s7HomeUI214CameraClipListVMn
++ _$s7HomeUI214PlaybackEffectMp
++ _$s7HomeUI214PlaybackEffectP12shouldRemain4with5afterSbAA0C5ModelC5StateVy11EnvironmentQz_G_AH6ActionOyAL_GSgtFTq
++ _$s7HomeUI214TimelineLayoutVMn
++ _$s7HomeUI215PlaybackElementMp
++ _$s7HomeUI215PlaybackSurfaceMp
++ _$s7HomeUI215PlaybackSurfaceP6playerSo8AVPlayerCSgvMTq
++ _$s7HomeUI215TalkToggleStyleVMn
++ _$s7HomeUI215WidgetTileStyleO8allCasesSayACGvpZMV
++ _$s7HomeUI216ClipTimelineItemV2IDOMn
++ _$s7HomeUI216ClipTimelineItemVMn
++ _$s7HomeUI216PlaybackPositionVMn
++ _$s7HomeUI216PlaybackProgressVMn
++ _$s7HomeUI217CameraDetailsViewV12ClipScrubberV4bodyQrvpQOMQ
++ _$s7HomeUI217CameraDetailsViewV12ClipScrubberVMn
++ _$s7HomeUI217CameraDetailsViewV15ClipButtonStyleV8makeBody13configurationQr7SwiftUI0gH13ConfigurationV_tFQOMQ
++ _$s7HomeUI217CameraDetailsViewV15ClipButtonStyleVMn
++ _$s7HomeUI217CameraDetailsViewV21ClipScrubberTimestampVMn
++ _$s7HomeUI217CameraDetailsViewV23ClipScrubberToggleStyleVMn
++ _$s7HomeUI217CameraDetailsViewV9ConstantsOMn
++ _$s7HomeUI217CameraDetailsViewVMn
++ _$s7HomeUI217ElementDescriptorVMn
++ _$s7HomeUI217NearbyToggleStyleVMn
++ _$s7HomeUI217VolumeToggleStyleVMn
++ _$s7HomeUI219PlaybackEnvironmentMp
++ _$s7HomeUI222CameraClipTimelineViewV4bodyQrvpQOMQ
++ _$s7HomeUI222CameraClipTimelineViewVMn
++ _$s7HomeUI222CameraDetailsDebugViewVMn
++ _$s7HomeUI222OverlayTalkToggleStyleVMn
++ _$s7HomeUI222TimelineLayoutProviderMp
++ _$s7HomeUI222TimelineLayoutProviderP6layout3for7options17selectedElementIDAA0cD0VyxGSay0J0QzG_Shy7OptionsQzGAK_10IdentifierQZSgtFZTq
++ _$s7HomeUI223LivePlaybackEnvironmentCMn
++ _$s7HomeUI225TimelineScrubbingBehaviorOMn
++ _$s7HomeUI229DefaultTimelineLayoutProviderV7OptionsOMn
++ _$s7HomeUI229DefaultTimelineLayoutProviderVMn
++ _$s7HomeUI230EmptyNearbyAccessoriesModifierV4body7contentQr7SwiftUI05_ViewF8_ContentVyACG_tFQOMQ
++ _$s7HomeUI231ScrubbingTimelineLayoutProviderV7OptionsOMn
++ _$s7HomeUI231ScrubbingTimelineLayoutProviderVMn
++ _OBJC_CLASS_$__TtC12ModelCatalog17ResourceContainer
+- _$s12ModelCatalog17ResourceContainerCN
+- _$s16HeadphoneManager18B698FeatureContentC0A10SettingsUIE013featureFooterF0SSvpMV
+- _$s7HomeUI215WidgetTileStyleO15temperatureFont7SwiftUI0G0VvpMV
+
+```
