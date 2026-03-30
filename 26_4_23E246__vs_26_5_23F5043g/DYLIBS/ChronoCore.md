@@ -1,0 +1,1337 @@
+## ChronoCore
+
+> `/System/Library/PrivateFrameworks/ChronoCore.framework/ChronoCore`
+
+```diff
+
+-664.4.42.100.0
+-  __TEXT.__text: 0x3ac334
+-  __TEXT.__auth_stubs: 0x7ae0
+-  __TEXT.__objc_methlist: 0x18c8
+-  __TEXT.__const: 0x11dd8
+-  __TEXT.__cstring: 0x5ced
++664.5.17.1.101
++  __TEXT.__text: 0x40c7e4
++  __TEXT.__auth_stubs: 0x84c0
++  __TEXT.__objc_methlist: 0x1e48
++  __TEXT.__const: 0x13d98
++  __TEXT.__cstring: 0x6c0b
++  __TEXT.__oslogstring: 0x14d37
+   __TEXT.__gcc_except_tab: 0x78
+-  __TEXT.__oslogstring: 0x123c9
+   __TEXT.__dlopen_cstrs: 0x7a
+-  __TEXT.__constg_swiftt: 0xa0ac
+-  __TEXT.__swift5_typeref: 0xb240
+-  __TEXT.__swift5_reflstr: 0x9234
+-  __TEXT.__swift5_fieldmd: 0x6dbc
+-  __TEXT.__swift5_builtin: 0x168
+-  __TEXT.__swift5_assocty: 0x610
+-  __TEXT.__swift5_proto: 0xa04
+-  __TEXT.__swift5_types: 0x588
+-  __TEXT.__swift5_protos: 0x1cc
+-  __TEXT.__swift5_capture: 0x45f4
+-  __TEXT.__swift_as_entry: 0xe8
+-  __TEXT.__swift_as_ret: 0xd4
++  __TEXT.__constg_swiftt: 0xb728
++  __TEXT.__swift5_typeref: 0xbfa9
++  __TEXT.__swift5_reflstr: 0xa343
++  __TEXT.__swift5_fieldmd: 0x7b18
++  __TEXT.__swift5_builtin: 0x190
++  __TEXT.__swift5_assocty: 0x688
++  __TEXT.__swift5_proto: 0xb20
++  __TEXT.__swift5_types: 0x63c
++  __TEXT.__swift5_protos: 0x21c
++  __TEXT.__swift5_capture: 0x4f00
++  __TEXT.__swift_as_entry: 0x184
++  __TEXT.__swift_as_ret: 0x180
+   __TEXT.__swift5_mpenum: 0x30
+-  __TEXT.__unwind_info: 0x6280
+-  __TEXT.__eh_frame: 0x999c
+-  __TEXT.__objc_classname: 0x2524
+-  __TEXT.__objc_methname: 0x9fed
+-  __TEXT.__objc_methtype: 0x28a6
+-  __TEXT.__objc_stubs: 0x3bc0
+-  __DATA_CONST.__got: 0x1a28
+-  __DATA_CONST.__const: 0x198
+-  __DATA_CONST.__objc_classlist: 0x4e8
+-  __DATA_CONST.__objc_protolist: 0x258
++  __TEXT.__unwind_info: 0x72c8
++  __TEXT.__eh_frame: 0xc8c4
++  __TEXT.__objc_classname: 0x2db7
++  __TEXT.__objc_methname: 0xb5b5
++  __TEXT.__objc_methtype: 0x2c10
++  __TEXT.__objc_stubs: 0x4440
++  __DATA_CONST.__got: 0x1d68
++  __DATA_CONST.__const: 0x1b8
++  __DATA_CONST.__objc_classlist: 0x5c0
++  __DATA_CONST.__objc_catlist: 0x8
++  __DATA_CONST.__objc_protolist: 0x2b8
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x14f0
+-  __DATA_CONST.__objc_protorefs: 0x138
++  __DATA_CONST.__objc_selrefs: 0x1898
++  __DATA_CONST.__objc_protorefs: 0x170
+   __DATA_CONST.__objc_superrefs: 0x10
+-  __AUTH_CONST.__auth_got: 0x3d80
+-  __AUTH_CONST.__const: 0x10150
++  __AUTH_CONST.__auth_got: 0x4270
++  __AUTH_CONST.__const: 0x12468
+   __AUTH_CONST.__cfstring: 0x60
+-  __AUTH_CONST.__objc_const: 0x14108
+-  __AUTH.__objc_data: 0x958
+-  __AUTH.__data: 0x14f8
++  __AUTH_CONST.__objc_const: 0x17720
++  __AUTH.__objc_data: 0x18f0
++  __AUTH.__data: 0x28a8
+   __DATA.__objc_ivar: 0x14
+-  __DATA.__data: 0x2ed0
+-  __DATA.__bss: 0x73f0
+-  __DATA.__common: 0xd8
+-  __DATA_DIRTY.__objc_data: 0x30d0
+-  __DATA_DIRTY.__data: 0xe048
++  __DATA.__data: 0x3a30
++  __DATA.__bss: 0x8a70
++  __DATA.__common: 0x228
++  __DATA_DIRTY.__objc_data: 0x30f0
++  __DATA_DIRTY.__data: 0xe0f8
+   __DATA_DIRTY.__bss: 0x83b0
+   __DATA_DIRTY.__common: 0x7b8
++  - /System/Library/Frameworks/AccessoryLiveActivities.framework/AccessoryLiveActivities
++  - /System/Library/Frameworks/AccessoryNotifications.framework/AccessoryNotifications
+   - /System/Library/Frameworks/Accounts.framework/Accounts
+   - /System/Library/Frameworks/ActivityKit.framework/ActivityKit
+   - /System/Library/Frameworks/Combine.framework/Combine
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
++  - /System/Library/Frameworks/CoreImage.framework/CoreImage
+   - /System/Library/Frameworks/CoreLocation.framework/CoreLocation
+   - /System/Library/Frameworks/CoreServices.framework/CoreServices
+   - /System/Library/Frameworks/CoreTelephony.framework/CoreTelephony
+
+   - /System/Library/PrivateFrameworks/CoreAnalytics.framework/CoreAnalytics
+   - /System/Library/PrivateFrameworks/CoreDuet.framework/CoreDuet
+   - /System/Library/PrivateFrameworks/CoreUtils.framework/CoreUtils
++  - /System/Library/PrivateFrameworks/DeviceAccess.framework/DeviceAccess
+   - /System/Library/PrivateFrameworks/DoNotDisturb.framework/DoNotDisturb
+   - /System/Library/PrivateFrameworks/DuetActivityScheduler.framework/DuetActivityScheduler
+   - /System/Library/PrivateFrameworks/FeatureFlags.framework/FeatureFlags
+   - /System/Library/PrivateFrameworks/FrontBoard.framework/FrontBoard
+   - /System/Library/PrivateFrameworks/FrontBoardServices.framework/FrontBoardServices
+   - /System/Library/PrivateFrameworks/IDS.framework/IDS
++  - /System/Library/PrivateFrameworks/IconServices.framework/IconServices
+   - /System/Library/PrivateFrameworks/IntentsCore.framework/IntentsCore
+   - /System/Library/PrivateFrameworks/LinkMetadata.framework/LinkMetadata
+   - /System/Library/PrivateFrameworks/LinkServices.framework/LinkServices
+   - /System/Library/PrivateFrameworks/ManagedConfiguration.framework/ManagedConfiguration
+   - /System/Library/PrivateFrameworks/MediaRemote.framework/MediaRemote
+   - /System/Library/PrivateFrameworks/OSAnalytics.framework/OSAnalytics
++  - /System/Library/PrivateFrameworks/OSEligibility.framework/OSEligibility
+   - /System/Library/PrivateFrameworks/PowerLog.framework/PowerLog
+   - /System/Library/PrivateFrameworks/PrivacyDisclosureCore.framework/PrivacyDisclosureCore
+   - /System/Library/PrivateFrameworks/Rapport.framework/Rapport
+
+   - /usr/lib/swift/libswift_DarwinFoundation3.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 8BF27F61-2EF2-325D-A667-918D5651A445
+-  Functions: 9275
+-  Symbols:   6253
+-  CStrings:  3521
++  UUID: B7573EAB-D857-3A31-A83A-4A49DE6E9424
++  Functions: 10506
++  Symbols:   7136
++  CStrings:  3997
+ 
+Symbols:
++ +[AuthorizationPromptIconPathGenerator generateIconPathForService:withBadge:]
++ +[AuthorizationPromptIconPathGenerator generateIconPathForService:withBadge:].cold.1
++ +[AuthorizationPromptIconPathGenerator generateIconPathForService:withBadge:].cold.2
++ -[DASession(CHS) setupForDeferredReconnect]
++ _BSProcessNameForPID
++ _CFRunLoopAddSource
++ _CFRunLoopGetMain
++ _CFRunLoopSourceInvalidate
++ _CFUserNotificationCancel
++ _CFUserNotificationCreate
++ _CFUserNotificationCreateRunLoopSource
++ _OBJC_CLASS_$_ACUISActivityAlertClientType
++ _OBJC_CLASS_$_AuthorizationPromptIconPathGenerator
++ _OBJC_CLASS_$_CIContext
++ _OBJC_CLASS_$_CIImage
++ _OBJC_CLASS_$_DADaemonSession
++ _OBJC_CLASS_$_DADevice
++ _OBJC_CLASS_$_DADeviceAccessoryServiceInfo
++ _OBJC_CLASS_$_DADeviceAppAccessInfo
++ _OBJC_CLASS_$_DADeviceEvent
++ _OBJC_CLASS_$_DAExtensionEventLifecycle
++ _OBJC_CLASS_$_DAExtensionRuntimeAssertion
++ _OBJC_CLASS_$_DAExtensionSession
++ _OBJC_CLASS_$_DAExtensionSessionConfiguration
++ _OBJC_CLASS_$_DASession
++ _OBJC_CLASS_$_ISIcon
++ _OBJC_CLASS_$_ISImageDescriptor
++ _OBJC_CLASS_$_LSApplicationIdentity
++ _OBJC_CLASS_$_LSApplicationProxy
++ _OBJC_CLASS_$_LSApplicationWorkspace
++ _OBJC_CLASS_$_NSMutableDictionary
++ _OBJC_CLASS_$_RBSProcessHandle
++ _OBJC_CLASS_$_RBSProcessIdentifier
++ _OBJC_CLASS_$_RBSProcessIdentity
++ _OBJC_CLASS_$_SBSRemoteAlertActivationContext
++ _OBJC_CLASS_$_SBSRemoteAlertConfigurationContext
++ _OBJC_CLASS_$_SBSRemoteAlertDefinition
++ _OBJC_CLASS_$_SBSRemoteAlertHandle
++ _OBJC_CLASS_$__TtC10ChronoCore28AccessoryAppActivitiesServer
++ _OBJC_CLASS_$__TtC10ChronoCore29AccessoryAuthorizationManager
++ _OBJC_CLASS_$__TtC10ChronoCore31AccessoryDeviceActivitiesServer
++ _OBJC_CLASS_$__TtC10ChronoCore32AccessoryDataExtensionConnection
++ _OBJC_METACLASS_$_AuthorizationPromptIconPathGenerator
++ _OBJC_METACLASS_$__TtC10ChronoCore28AccessoryAppActivitiesServer
++ _OBJC_METACLASS_$__TtC10ChronoCore29AccessoryAuthorizationManager
++ _OBJC_METACLASS_$__TtC10ChronoCore31AccessoryDeviceActivitiesServer
++ _OBJC_METACLASS_$__TtC10ChronoCore32AccessoryDataExtensionConnection
++ _OBJC_METACLASS_$__TtC10ChronoCoreP33_1464FEDF978092F94B0C17071EC6F10528AccessoryActivitiesAppClient
++ _OBJC_METACLASS_$__TtC10ChronoCoreP33_7A975BECF13013476FCF2495283D7FAD35AccessoryLiveActivitiesDeviceClient
++ _OBJC_METACLASS_$__TtC10ChronoCoreP33_8F3E710730722E0E2C0257FB5B775E9624_RemoteAlertHandleHolder
++ _OBJC_METACLASS_$__TtCC10ChronoCore26AccessoryActivitiesServiceP33_58B36C80751E5FA3D01723FC22BB357126_AlertCoordinationDelegate
++ _SBUserNotificationAllowMenuButtonDismissal
++ _SBUserNotificationButtonLayoutDirectionKey
++ _SBUserNotificationDefaultButtonTag
++ _SBUserNotificationHeaderImagePath
++ _TCCAuthPromptIconFromServiceName
++ _TCCCopyIconResourcePathForService
++ __DATA__TtC10ChronoCore13WaitCondition
++ __DATA__TtC10ChronoCore21DeviceAccessInterface
++ __DATA__TtC10ChronoCore25CFUserNotificationWrapper
++ __DATA__TtC10ChronoCore26AccessoryActivitiesService
++ __DATA__TtC10ChronoCore26AccessoryRegistrationStore
++ __DATA__TtC10ChronoCore26DefaultEligibilityResolver
++ __DATA__TtC10ChronoCore28AccessoryAppActivitiesServer
++ __DATA__TtC10ChronoCore29AccessoryActivityActionsStore
++ __DATA__TtC10ChronoCore29AccessoryAuthorizationManager
++ __DATA__TtC10ChronoCore30DefaultLiveActivityAppProvider
++ __DATA__TtC10ChronoCore31AccessoryDeviceActivitiesServer
++ __DATA__TtC10ChronoCore32AccessoryDataExtensionConnection
++ __DATA__TtC10ChronoCore33AccessoryActivityIconCacheManager
++ __DATA__TtC10ChronoCore36AccessoryActivityArchiveCacheManager
++ __DATA__TtC10ChronoCore37AccessoryActivityAvailabilityProvider
++ __DATA__TtC10ChronoCore37AccessoryAuthorizationDialogPresenter
++ __DATA__TtC10ChronoCore37AccessoryAuthorizationPersistentStore
++ __DATA__TtC10ChronoCoreP33_1464FEDF978092F94B0C17071EC6F10528AccessoryActivitiesAppClient
++ __DATA__TtC10ChronoCoreP33_58B36C80751E5FA3D01723FC22BB35719Accessory
++ __DATA__TtC10ChronoCoreP33_7A975BECF13013476FCF2495283D7FAD35AccessoryLiveActivitiesDeviceClient
++ __DATA__TtC10ChronoCoreP33_7E32AEBA88BC29B0216ADB1467F3ABC512WeakObserver
++ __DATA__TtC10ChronoCoreP33_8F3E710730722E0E2C0257FB5B775E9624_RemoteAlertHandleHolder
++ __DATA__TtCC10ChronoCore21DeviceAccessInterfaceP33_7E32AEBA88BC29B0216ADB1467F3ABC510DeviceInfo
++ __DATA__TtCC10ChronoCore26AccessoryActivitiesServiceP33_58B36C80751E5FA3D01723FC22BB357126_AlertCoordinationDelegate
++ __DATA__TtCC10ChronoCore32AccessoryDataExtensionConnectionP33_09632A0BF453E132D07B7AE00A590D4111ClientProxy
++ __DATA__TtCC10ChronoCoreP33_7A975BECF13013476FCF2495283D7FAD35AccessoryLiveActivitiesDeviceClient26_ClientActivityParticipant
++ __INSTANCE_METHODS__TtC10ChronoCore32AccessoryDataExtensionConnection
++ __INSTANCE_METHODS__TtC10ChronoCoreP33_8F3E710730722E0E2C0257FB5B775E9624_RemoteAlertHandleHolder
++ __INSTANCE_METHODS__TtCC10ChronoCore26AccessoryActivitiesServiceP33_58B36C80751E5FA3D01723FC22BB357126_AlertCoordinationDelegate
++ __IVARS__TtC10ChronoCore13WaitCondition
++ __IVARS__TtC10ChronoCore21DeviceAccessInterface
++ __IVARS__TtC10ChronoCore25CFUserNotificationWrapper
++ __IVARS__TtC10ChronoCore26AccessoryActivitiesService
++ __IVARS__TtC10ChronoCore26AccessoryRegistrationStore
++ __IVARS__TtC10ChronoCore28AccessoryAppActivitiesServer
++ __IVARS__TtC10ChronoCore29AccessoryActivityActionsStore
++ __IVARS__TtC10ChronoCore29AccessoryAuthorizationManager
++ __IVARS__TtC10ChronoCore31AccessoryDeviceActivitiesServer
++ __IVARS__TtC10ChronoCore32AccessoryDataExtensionConnection
++ __IVARS__TtC10ChronoCore33AccessoryActivityIconCacheManager
++ __IVARS__TtC10ChronoCore36AccessoryActivityArchiveCacheManager
++ __IVARS__TtC10ChronoCore37AccessoryActivityAvailabilityProvider
++ __IVARS__TtC10ChronoCore37AccessoryAuthorizationDialogPresenter
++ __IVARS__TtC10ChronoCore37AccessoryAuthorizationPersistentStore
++ __IVARS__TtC10ChronoCoreP33_1464FEDF978092F94B0C17071EC6F10528AccessoryActivitiesAppClient
++ __IVARS__TtC10ChronoCoreP33_58B36C80751E5FA3D01723FC22BB35719Accessory
++ __IVARS__TtC10ChronoCoreP33_7A975BECF13013476FCF2495283D7FAD35AccessoryLiveActivitiesDeviceClient
++ __IVARS__TtC10ChronoCoreP33_7E32AEBA88BC29B0216ADB1467F3ABC512WeakObserver
++ __IVARS__TtC10ChronoCoreP33_8F3E710730722E0E2C0257FB5B775E9624_RemoteAlertHandleHolder
++ __IVARS__TtCC10ChronoCore21DeviceAccessInterfaceP33_7E32AEBA88BC29B0216ADB1467F3ABC510DeviceInfo
++ __IVARS__TtCC10ChronoCore26AccessoryActivitiesServiceP33_58B36C80751E5FA3D01723FC22BB357126_AlertCoordinationDelegate
++ __IVARS__TtCC10ChronoCore32AccessoryDataExtensionConnectionP33_09632A0BF453E132D07B7AE00A590D4111ClientProxy
++ __IVARS__TtCC10ChronoCoreP33_7A975BECF13013476FCF2495283D7FAD35AccessoryLiveActivitiesDeviceClient26_ClientActivityParticipant
++ __METACLASS_DATA__TtC10ChronoCore13WaitCondition
++ __METACLASS_DATA__TtC10ChronoCore21DeviceAccessInterface
++ __METACLASS_DATA__TtC10ChronoCore25CFUserNotificationWrapper
++ __METACLASS_DATA__TtC10ChronoCore26AccessoryActivitiesService
++ __METACLASS_DATA__TtC10ChronoCore26AccessoryRegistrationStore
++ __METACLASS_DATA__TtC10ChronoCore26DefaultEligibilityResolver
++ __METACLASS_DATA__TtC10ChronoCore28AccessoryAppActivitiesServer
++ __METACLASS_DATA__TtC10ChronoCore29AccessoryActivityActionsStore
++ __METACLASS_DATA__TtC10ChronoCore29AccessoryAuthorizationManager
++ __METACLASS_DATA__TtC10ChronoCore30DefaultLiveActivityAppProvider
++ __METACLASS_DATA__TtC10ChronoCore31AccessoryDeviceActivitiesServer
++ __METACLASS_DATA__TtC10ChronoCore32AccessoryDataExtensionConnection
++ __METACLASS_DATA__TtC10ChronoCore33AccessoryActivityIconCacheManager
++ __METACLASS_DATA__TtC10ChronoCore36AccessoryActivityArchiveCacheManager
++ __METACLASS_DATA__TtC10ChronoCore37AccessoryActivityAvailabilityProvider
++ __METACLASS_DATA__TtC10ChronoCore37AccessoryAuthorizationDialogPresenter
++ __METACLASS_DATA__TtC10ChronoCore37AccessoryAuthorizationPersistentStore
++ __METACLASS_DATA__TtC10ChronoCoreP33_1464FEDF978092F94B0C17071EC6F10528AccessoryActivitiesAppClient
++ __METACLASS_DATA__TtC10ChronoCoreP33_58B36C80751E5FA3D01723FC22BB35719Accessory
++ __METACLASS_DATA__TtC10ChronoCoreP33_7A975BECF13013476FCF2495283D7FAD35AccessoryLiveActivitiesDeviceClient
++ __METACLASS_DATA__TtC10ChronoCoreP33_7E32AEBA88BC29B0216ADB1467F3ABC512WeakObserver
++ __METACLASS_DATA__TtC10ChronoCoreP33_8F3E710730722E0E2C0257FB5B775E9624_RemoteAlertHandleHolder
++ __METACLASS_DATA__TtCC10ChronoCore21DeviceAccessInterfaceP33_7E32AEBA88BC29B0216ADB1467F3ABC510DeviceInfo
++ __METACLASS_DATA__TtCC10ChronoCore26AccessoryActivitiesServiceP33_58B36C80751E5FA3D01723FC22BB357126_AlertCoordinationDelegate
++ __METACLASS_DATA__TtCC10ChronoCore32AccessoryDataExtensionConnectionP33_09632A0BF453E132D07B7AE00A590D4111ClientProxy
++ __METACLASS_DATA__TtCC10ChronoCoreP33_7A975BECF13013476FCF2495283D7FAD35AccessoryLiveActivitiesDeviceClient26_ClientActivityParticipant
++ __OBJC_$_CATEGORY_DASession_$_CHS
++ __OBJC_$_CATEGORY_INSTANCE_METHODS_DASession_$_CHS
++ __OBJC_$_CLASS_METHODS_AuthorizationPromptIconPathGenerator
++ __OBJC_$_INSTANCE_METHODS__TtC10ChronoCore28AccessoryAppActivitiesServer(ChronoCore)
++ __OBJC_$_INSTANCE_METHODS__TtC10ChronoCore29AccessoryAuthorizationManager(ChronoCore)
++ __OBJC_$_INSTANCE_METHODS__TtC10ChronoCore31AccessoryDeviceActivitiesServer(ChronoCore)
++ __OBJC_$_INSTANCE_METHODS__TtC10ChronoCoreP33_1464FEDF978092F94B0C17071EC6F10528AccessoryActivitiesAppClient(ChronoCore)
++ __OBJC_$_INSTANCE_METHODS__TtC10ChronoCoreP33_7A975BECF13013476FCF2495283D7FAD35AccessoryLiveActivitiesDeviceClient(ChronoCore)
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_CHSAccessoryLiveActivitiesAppXPCServer
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_CHSAccessoryLiveActivitiesDeviceXPCClient
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_CHSAccessoryLiveActivitiesDeviceXPCServer
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_LSApplicationWorkspaceObserverProtocol
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_SBSRemoteAlertHandleObserver
++ __OBJC_$_PROTOCOL_METHOD_TYPES_CHSAccessoryLiveActivitiesAppXPCServer
++ __OBJC_$_PROTOCOL_METHOD_TYPES_CHSAccessoryLiveActivitiesDeviceXPCClient
++ __OBJC_$_PROTOCOL_METHOD_TYPES_CHSAccessoryLiveActivitiesDeviceXPCServer
++ __OBJC_$_PROTOCOL_METHOD_TYPES_LSApplicationWorkspaceObserverProtocol
++ __OBJC_$_PROTOCOL_METHOD_TYPES_SBSRemoteAlertHandleObserver
++ __OBJC_$_PROTOCOL_REFS_LSApplicationWorkspaceObserverProtocol
++ __OBJC_$_PROTOCOL_REFS_SBSRemoteAlertHandleObserver
++ __OBJC_CLASS_PROTOCOLS_$__TtC10ChronoCore28AccessoryAppActivitiesServer(ChronoCore)
++ __OBJC_CLASS_PROTOCOLS_$__TtC10ChronoCore29AccessoryAuthorizationManager(ChronoCore)
++ __OBJC_CLASS_PROTOCOLS_$__TtC10ChronoCore31AccessoryDeviceActivitiesServer(ChronoCore)
++ __OBJC_CLASS_PROTOCOLS_$__TtC10ChronoCoreP33_1464FEDF978092F94B0C17071EC6F10528AccessoryActivitiesAppClient(ChronoCore)
++ __OBJC_CLASS_PROTOCOLS_$__TtC10ChronoCoreP33_7A975BECF13013476FCF2495283D7FAD35AccessoryLiveActivitiesDeviceClient(ChronoCore)
++ __OBJC_CLASS_RO_$_AuthorizationPromptIconPathGenerator
++ __OBJC_LABEL_PROTOCOL_$_CHSAccessoryLiveActivitiesAppXPCServer
++ __OBJC_LABEL_PROTOCOL_$_CHSAccessoryLiveActivitiesDeviceXPCClient
++ __OBJC_LABEL_PROTOCOL_$_CHSAccessoryLiveActivitiesDeviceXPCServer
++ __OBJC_LABEL_PROTOCOL_$_LSApplicationWorkspaceObserverProtocol
++ __OBJC_LABEL_PROTOCOL_$_SBSRemoteAlertHandleObserver
++ __OBJC_METACLASS_RO_$_AuthorizationPromptIconPathGenerator
++ __OBJC_PROTOCOL_$_CHSAccessoryLiveActivitiesAppXPCServer
++ __OBJC_PROTOCOL_$_CHSAccessoryLiveActivitiesDeviceXPCClient
++ __OBJC_PROTOCOL_$_CHSAccessoryLiveActivitiesDeviceXPCServer
++ __OBJC_PROTOCOL_$_LSApplicationWorkspaceObserverProtocol
++ __OBJC_PROTOCOL_$_SBSRemoteAlertHandleObserver
++ __PROPERTIES__TtC10ChronoCoreP33_1464FEDF978092F94B0C17071EC6F10528AccessoryActivitiesAppClient
++ __PROTOCOLS__TtC10ChronoCoreP33_8F3E710730722E0E2C0257FB5B775E9624_RemoteAlertHandleHolder
++ __PROTOCOLS__TtC10ChronoCoreP33_8F3E710730722E0E2C0257FB5B775E9624_RemoteAlertHandleHolder.13
++ __PROTOCOLS__TtCC10ChronoCore26AccessoryActivitiesServiceP33_58B36C80751E5FA3D01723FC22BB357126_AlertCoordinationDelegate
++ __PROTOCOLS__TtCC10ChronoCore26AccessoryActivitiesServiceP33_58B36C80751E5FA3D01723FC22BB357126_AlertCoordinationDelegate.30
++ __PROTOCOL_INSTANCE_METHODS_OPT__TtP18ActivityUIServices27ActivityAlertClientDelegate_
++ __PROTOCOL_INSTANCE_METHODS__TtP18ActivityUIServices22ActivityAlertProviding_
++ __PROTOCOL_INSTANCE_METHODS__TtP18ActivityUIServices27ActivityAlertClientDelegate_
++ __PROTOCOL_METHOD_TYPES__TtP18ActivityUIServices22ActivityAlertProviding_
++ __PROTOCOL_METHOD_TYPES__TtP18ActivityUIServices27ActivityAlertClientDelegate_
++ __PROTOCOL_PROPERTIES__TtP18ActivityUIServices22ActivityAlertProviding_
++ __PROTOCOL_PROTOCOLS__TtP18ActivityUIServices27ActivityAlertClientDelegate_
++ __PROTOCOL__TtP18ActivityUIServices22ActivityAlertProviding_
++ __PROTOCOL__TtP18ActivityUIServices27ActivityAlertClientDelegate_
++ ___swift_memcpy416_8
++ _associated conformance 10ChronoCore13DADeviceProxyVSHAASQ
++ _associated conformance 10ChronoCore17DescriptorServiceC0A3Kit016InternalActivityC9ProvidingAaD0gcH0
++ _associated conformance 10ChronoCore17DescriptorServiceC0A3Kit0C9ServicingAaD016InternalActivityC9Providing
++ _associated conformance 10ChronoCore21DeviceAccessInterfaceC6Errors33_7E32AEBA88BC29B0216ADB1467F3ABC5LLOSHAASQ
++ _associated conformance 10ChronoCore22ActivityReloadStrategyC6Errors33_63387614D0810C39327CA95CDA721692LLOSHAASQ
++ _associated conformance 10ChronoCore24DescriptorIntentResolverC6Errors33_37E56A8F8D4947C5993B4164EF8A910ALLOSHAASQ
++ _associated conformance 10ChronoCore26AccessoryActivitiesServiceC26AuthorizationFailureReason33_58B36C80751E5FA3D01723FC22BB3571LLOSHAASQ
++ _associated conformance 10ChronoCore27RemoteActivityLaunchServiceC6Errors33_458D91E5E35DAB9501CC89403E4F3663LLOSHAASQ
++ _associated conformance 10ChronoCore28AccessoryActivitiesAppClient33_1464FEDF978092F94B0C17071EC6F105LLC6ErrorsOSHAASQ
++ _associated conformance 10ChronoCore29InteractiveWidgetActionRunnerC6Errors33_BBEE03C4DECF2FA4D5B6D93BE2BEC2ADLLO10Foundation13CustomNSErrorAAs5Error
++ _associated conformance 10ChronoCore29InteractiveWidgetActionRunnerC6Errors33_BBEE03C4DECF2FA4D5B6D93BE2BEC2ADLLO10Foundation14LocalizedErrorAAs0T0
++ _associated conformance 10ChronoCore32AccessoryDataExtensionConnectionC6Errors33_09632A0BF453E132D07B7AE00A590D41LLOSHAASQ
++ _associated conformance 10ChronoCore34InitialAuthorizationDialogResponseOSHAASQ
++ _associated conformance 10ChronoCore35AccessoryLiveActivitiesDeviceClient33_7A975BECF13013476FCF2495283D7FADLLC6ErrorsOSHAASQ
++ _associated conformance 10ChronoCore36FullAccessConfirmationDialogResponseOSHAASQ
++ _associated conformance 10ChronoCore37AccessoryAuthorizationDialogPresenterC6Errors33_8F3E710730722E0E2C0257FB5B775E96LLOSHAASQ
++ _associated conformance So15CIContextOptionaSHSCSQ
++ _associated conformance So15CIContextOptionas20_SwiftNewtypeWrapperSCSY
++ _associated conformance So15CIContextOptionas20_SwiftNewtypeWrapperSCs35_HasCustomAnyHashableRepresentation
++ _associated conformance So27CIImageRepresentationOptionaSHSCSQ
++ _associated conformance So27CIImageRepresentationOptionas20_SwiftNewtypeWrapperSCSY
++ _associated conformance So27CIImageRepresentationOptionas20_SwiftNewtypeWrapperSCs021_HasCustomAnyHashableB0
++ _block_copy_helper.100
++ _block_copy_helper.104
++ _block_copy_helper.112
++ _block_copy_helper.123
++ _block_copy_helper.124
++ _block_copy_helper.130
++ _block_copy_helper.131
++ _block_copy_helper.139
++ _block_copy_helper.144
++ _block_copy_helper.145
++ _block_copy_helper.158
++ _block_copy_helper.167
++ _block_copy_helper.173
++ _block_copy_helper.179
++ _block_copy_helper.185
++ _block_copy_helper.191
++ _block_copy_helper.202
++ _block_copy_helper.213
++ _block_copy_helper.229
++ _block_copy_helper.235
++ _block_copy_helper.241
++ _block_copy_helper.252
++ _block_copy_helper.259
++ _block_copy_helper.271
++ _block_copy_helper.279
++ _block_copy_helper.284
++ _block_copy_helper.291
++ _block_copy_helper.306
++ _block_copy_helper.316
++ _block_copy_helper.54
++ _block_copy_helper.67
++ _block_copy_helper.68
++ _block_copy_helper.73
++ _block_copy_helper.77
++ _block_copy_helper.83
++ _block_copy_helper.86
++ _block_copy_helper.93
++ _block_copy_helper.95
++ _block_descriptor.102
++ _block_descriptor.106
++ _block_descriptor.114
++ _block_descriptor.125
++ _block_descriptor.126
++ _block_descriptor.132
++ _block_descriptor.133
++ _block_descriptor.141
++ _block_descriptor.146
++ _block_descriptor.147
++ _block_descriptor.160
++ _block_descriptor.169
++ _block_descriptor.175
++ _block_descriptor.181
++ _block_descriptor.187
++ _block_descriptor.193
++ _block_descriptor.204
++ _block_descriptor.215
++ _block_descriptor.231
++ _block_descriptor.237
++ _block_descriptor.243
++ _block_descriptor.254
++ _block_descriptor.261
++ _block_descriptor.273
++ _block_descriptor.281
++ _block_descriptor.286
++ _block_descriptor.293
++ _block_descriptor.308
++ _block_descriptor.318
++ _block_descriptor.56
++ _block_descriptor.69
++ _block_descriptor.70
++ _block_descriptor.75
++ _block_descriptor.79
++ _block_descriptor.85
++ _block_descriptor.88
++ _block_descriptor.95
++ _block_descriptor.97
++ _block_destroy_helper.101
++ _block_destroy_helper.105
++ _block_destroy_helper.113
++ _block_destroy_helper.124
++ _block_destroy_helper.125
++ _block_destroy_helper.131
++ _block_destroy_helper.132
++ _block_destroy_helper.140
++ _block_destroy_helper.145
++ _block_destroy_helper.146
++ _block_destroy_helper.159
++ _block_destroy_helper.168
++ _block_destroy_helper.174
++ _block_destroy_helper.180
++ _block_destroy_helper.186
++ _block_destroy_helper.192
++ _block_destroy_helper.203
++ _block_destroy_helper.214
++ _block_destroy_helper.230
++ _block_destroy_helper.236
++ _block_destroy_helper.242
++ _block_destroy_helper.253
++ _block_destroy_helper.260
++ _block_destroy_helper.272
++ _block_destroy_helper.280
++ _block_destroy_helper.285
++ _block_destroy_helper.292
++ _block_destroy_helper.307
++ _block_destroy_helper.317
++ _block_destroy_helper.55
++ _block_destroy_helper.68
++ _block_destroy_helper.69
++ _block_destroy_helper.74
++ _block_destroy_helper.78
++ _block_destroy_helper.84
++ _block_destroy_helper.87
++ _block_destroy_helper.94
++ _block_destroy_helper.96
++ _dispatch_semaphore_create
++ _flat unique 18ActivityUIServices0A14AlertProviding_p
++ _flat unique So41CHSAccessoryLiveActivitiesDeviceXPCClient_p
++ _get_enum_tag_for_layout_string 10ChronoCore29InteractiveWidgetActionRunnerC6Errors33_BBEE03C4DECF2FA4D5B6D93BE2BEC2ADLLO
++ _get_enum_tag_for_layout_string 10ChronoCore35DefaultAccessoryActivityIconFactoryV6ErrorsO
++ _get_enum_tag_for_layout_string 10ChronoCore46AccessoryActivityArchiveURLProtectorDataSource_pSg
++ _kCFRunLoopCommonModes
++ _kCFUserNotificationAlertHeaderKey
++ _kCFUserNotificationAlertMessageKey
++ _kCFUserNotificationDefaultButtonTitleKey
++ _kCFUserNotificationOtherButtonTitleKey
++ _kCIContextUseSoftwareRenderer
++ _kCIFormatRGBA8
++ _kTCCServiceAccessoryLiveActivities
++ _objc_msgSend$CGImage
++ _objc_msgSend$__swift_setObject:forKeyedSubscript:
++ _objc_msgSend$accessoryServicesMap
++ _objc_msgSend$activateWithContext:
++ _objc_msgSend$activityUpdated:
++ _objc_msgSend$activityUpdatedForAlert:completion:
++ _objc_msgSend$addObserver:
++ _objc_msgSend$appAccessInfoMap
++ _objc_msgSend$applicationIsInstalled:
++ _objc_msgSend$associatedBundleID
++ _objc_msgSend$authorizationLevel
++ _objc_msgSend$body
++ _objc_msgSend$bundleForClass:
++ _objc_msgSend$colorSpace
++ _objc_msgSend$currentState
++ _objc_msgSend$defaultWorkspace
++ _objc_msgSend$device
++ _objc_msgSend$deviceFlags
++ _objc_msgSend$deviceIdentifier
++ _objc_msgSend$endpoint
++ _objc_msgSend$eventType
++ _objc_msgSend$executeCommand:error:
++ _objc_msgSend$extensionCapability
++ _objc_msgSend$extensionPointIdentifier
++ _objc_msgSend$fileExistsAtPath:isDirectory:
++ _objc_msgSend$generateIconPathForService:withBadge:
++ _objc_msgSend$getDevicesWithFlags:session:error:
++ _objc_msgSend$handleForIdentifier:error:
++ _objc_msgSend$identifierWithPid:
++ _objc_msgSend$identityForLSApplicationIdentity:
++ _objc_msgSend$imageForDescriptor:
++ _objc_msgSend$initWithBundleIdentifier:
++ _objc_msgSend$initWithBundleIdentifier:URL:personaUniqueString:personaType:
++ _objc_msgSend$initWithCGImage:
++ _objc_msgSend$initWithDevice:
++ _objc_msgSend$initWithDevice:capabilityFlags:
++ _objc_msgSend$initWithDictionary:
++ _objc_msgSend$initWithName:authorizationLevel:bundleID:deviceID:
++ _objc_msgSend$initWithOptions:
++ _objc_msgSend$initWithSceneProvidingProcess:configurationIdentifier:
++ _objc_msgSend$initWithSize:scale:
++ _objc_msgSend$initWithUnsignedInt:
++ _objc_msgSend$initialize:
++ _objc_msgSend$isInternal
++ _objc_msgSend$makeXPCConnectionWithError:
++ _objc_msgSend$newHandleWithDefinition:configurationContext:
++ _objc_msgSend$placeholder
++ _objc_msgSend$prepareImageForDescriptor:
++ _objc_msgSend$realToken
++ _objc_msgSend$remoteClient:
++ _objc_msgSend$remoteObjectProxyWithErrorHandler:
++ _objc_msgSend$removeObserver:
++ _objc_msgSend$setAppearance:
++ _objc_msgSend$setBundleID:
++ _objc_msgSend$setCapabilityFlags:
++ _objc_msgSend$setDeferReconnect:
++ _objc_msgSend$setDeviceAccessoryServiceInfo:device:completionHandler:
++ _objc_msgSend$setDeviceFlags:
++ _objc_msgSend$setDuration:
++ _objc_msgSend$setEventHandler:
++ _objc_msgSend$setInternal:
++ _objc_msgSend$setReason:
++ _objc_msgSend$setUserInfo:
++ _objc_msgSend$setupForDeferredReconnect
++ _objc_msgSend$synchronousRemoteObjectProxyWithErrorHandler:
++ _objc_msgSend$title
++ _objc_msgSend$unregisterObserver:
++ _objc_msgSend$writePNGRepresentationOfImage:toURL:format:colorSpace:options:error:
++ _objectdestroy.113Tm
++ _objectdestroy.134Tm
++ _objectdestroy.152Tm
++ _objectdestroy.168Tm
++ _objectdestroy.171Tm
++ _objectdestroy.27Tm
++ _objectdestroy.31Tm
++ _objectdestroy.42Tm
++ _objectdestroy.44Tm
++ _objectdestroy.47Tm
++ _objectdestroy.50Tm
++ _objectdestroy.54Tm
++ _objectdestroy.64Tm
++ _objectdestroy.94Tm
++ _swift_continuation_await
++ _swift_continuation_init
++ _swift_continuation_throwingResume
++ _swift_continuation_throwingResumeWithError
++ _symbolic $s10ChronoCore18DialogPresentationP
++ _symbolic $s10ChronoCore20EligibilityResolvingP
++ _symbolic $s10ChronoCore23DeviceAccessInterfacingP
++ _symbolic $s10ChronoCore24LiveActivityAppProvidingP
++ _symbolic $s10ChronoCore25ActivityUpdateParticipantP
++ _symbolic $s10ChronoCore26AccessoryActivityServicingP
++ _symbolic $s10ChronoCore28AccessoryActivityIconFactoryP
++ _symbolic $s10ChronoCore28AccessoryRegistrationStoringP
++ _symbolic $s10ChronoCore28DeviceAccessExtensionSessionP
++ _symbolic $s10ChronoCore29DeviceAccessInterfaceObserverP
++ _symbolic $s10ChronoCore30AccessoryAuthorizationManagingP
++ _symbolic $s10ChronoCore32AccessoryAuthorizationPersistingP
++ _symbolic $s10ChronoCore34AccessoryActivityIconCacheManagingP
++ _symbolic $s10ChronoCore37AccessoryActivityArchiveCacheManagingP
++ _symbolic $s10ChronoCore37AccessoryAuthorizationManagerDelegateP
++ _symbolic $s10ChronoCore37AccessoryDataExtensionProxyConnectionP
++ _symbolic $s10ChronoCore38AccessoryActivityAvailabilityProvidingP
++ _symbolic $s10ChronoCore38AccessoryAuthorizationDialogPresentingP
++ _symbolic $s10ChronoCore39AccessoryDataExtensionConnectionFactoryP
++ _symbolic $s10ChronoCore46AccessoryActivityArchiveURLProtectorDataSourceP
++ _symbolic SDySSShy_____y_____GGG 14ChronoServices15TypedIdentifierV AA0D4TypeO6BundleO9ContainerO
++ _symbolic SDySS_____G 10ChronoCore21DeviceAccessInterfaceC0C4Info33_7E32AEBA88BC29B0216ADB1467F3ABC5LLC
++ _symbolic SDySS_____G 10ChronoCore9Accessory33_58B36C80751E5FA3D01723FC22BB3571LLC
++ _symbolic SDySS_____G 23AccessoryLiveActivities0A12RegistrationV
++ _symbolic SDySS_____SgG 10ChronoCore25CFUserNotificationWrapperC
++ _symbolic SDy__________G 9ChronoKit27AccessoryActivityIdentifierV 0A4Core0C17ActivitiesServiceC01_D5State33_58B36C80751E5FA3D01723FC22BB3571LLV
++ _symbolic SS3key______5valuet 23AccessoryLiveActivities0A12RegistrationV
++ _symbolic SS______y_____Gt 14ChronoServices15TypedIdentifierV AA0D4TypeO6BundleO9ContainerO
++ _symbolic Say_____G 10ChronoCore12WeakObserver33_7E32AEBA88BC29B0216ADB1467F3ABC5LLC
++ _symbolic Say_____G 10ChronoCore13DADeviceProxyV
++ _symbolic Say_____G 22AccessoryNotifications20SettingsCapabilitiesV
++ _symbolic Say_____G 23AccessoryLiveActivities0A6DeviceV
++ _symbolic Say_____G 23AccessoryLiveActivities0aB8ActivityV
++ _symbolic Say______pG 10ChronoCore25ActivityUpdateParticipantP
++ _symbolic Say______pG 10ChronoCore29DeviceAccessInterfaceObserverP
++ _symbolic Say_____y_____GG 14ChronoServices15TypedIdentifierV AA0D4TypeO6BundleO9ContainerO
++ _symbolic Say_____y_____GGSg 14ChronoServices15TypedIdentifierV AA0D4TypeO6BundleO9ContainerO
++ _symbolic Say_____yyt_GG ScS12ContinuationV
++ _symbolic ScCySb______pG s5ErrorP
++ _symbolic ScCy___________pG 10ChronoCore34InitialAuthorizationDialogResponseO s5ErrorP
++ _symbolic ScCy___________pG 10ChronoCore36FullAccessConfirmationDialogResponseO s5ErrorP
++ _symbolic ScSyytG
++ _symbolic SccySo8NSNumberC______pG s5ErrorP
++ _symbolic Shy_____G 10ChronoCore28AccessoryActivitiesAppClient33_1464FEDF978092F94B0C17071EC6F105LLC
++ _symbolic Shy_____G 10ChronoCore35AccessoryLiveActivitiesDeviceClient33_7A975BECF13013476FCF2495283D7FADLLC
++ _symbolic Shy_____G 9ChronoKit27AccessoryActivityIdentifierV
++ _symbolic So13NSFileManagerC
++ _symbolic So15DADaemonSessionC
++ _symbolic So15NSXPCConnectionCSg
++ _symbolic So16DAEventExtensionC
++ _symbolic So20SBSRemoteAlertHandleC
++ _symbolic So21OS_dispatch_semaphoreC
++ _symbolic So22LSApplicationWorkspaceCSg
++ _symbolic So27DAExtensionRuntimeAssertionCSg
++ _symbolic So27DAExtensionRuntimeAssertionCSgz_Xx
++ _symbolic So7NSErrorCSgIeyBhy_
++ _symbolic So8DADeviceC
++ _symbolic So8NSNumberCSgSo7NSErrorCSgIeyByy_
++ _symbolic So8NSNumberCSg______pSgIeggg_ s5ErrorP
++ _symbolic _____ 10ChronoCore12WeakObserver33_7E32AEBA88BC29B0216ADB1467F3ABC5LLC
++ _symbolic _____ 10ChronoCore13DADeviceProxyV
++ _symbolic _____ 10ChronoCore13WaitConditionC
++ _symbolic _____ 10ChronoCore21DeviceAccessInterfaceC
++ _symbolic _____ 10ChronoCore21DeviceAccessInterfaceC0C4Info33_7E32AEBA88BC29B0216ADB1467F3ABC5LLC
++ _symbolic _____ 10ChronoCore21DeviceAccessInterfaceC6Errors33_7E32AEBA88BC29B0216ADB1467F3ABC5LLO
++ _symbolic _____ 10ChronoCore22ActivityReloadStrategyC6Errors33_63387614D0810C39327CA95CDA721692LLO
++ _symbolic _____ 10ChronoCore24DescriptorIntentResolverC6Errors33_37E56A8F8D4947C5993B4164EF8A910ALLO
++ _symbolic _____ 10ChronoCore24_RemoteAlertHandleHolder33_8F3E710730722E0E2C0257FB5B775E96LLC
++ _symbolic _____ 10ChronoCore25CFUserNotificationWrapperC
++ _symbolic _____ 10ChronoCore26AccessoryActivitiesServiceC
++ _symbolic _____ 10ChronoCore26AccessoryActivitiesServiceC14_ActivityState33_58B36C80751E5FA3D01723FC22BB3571LLV
++ _symbolic _____ 10ChronoCore26AccessoryActivitiesServiceC26AuthorizationFailureReason33_58B36C80751E5FA3D01723FC22BB3571LLO
++ _symbolic _____ 10ChronoCore26AccessoryActivitiesServiceC26_AlertCoordinationDelegate33_58B36C80751E5FA3D01723FC22BB3571LLC
++ _symbolic _____ 10ChronoCore26AccessoryActivitiesServiceC6Errors33_58B36C80751E5FA3D01723FC22BB3571LLO
++ _symbolic _____ 10ChronoCore26AccessoryRegistrationStoreC
++ _symbolic _____ 10ChronoCore26DefaultEligibilityResolverC
++ _symbolic _____ 10ChronoCore27RemoteActivityLaunchServiceC6Errors33_458D91E5E35DAB9501CC89403E4F3663LLO
++ _symbolic _____ 10ChronoCore28AccessoryActivitiesAppClient33_1464FEDF978092F94B0C17071EC6F105LLC
++ _symbolic _____ 10ChronoCore28AccessoryActivitiesAppClient33_1464FEDF978092F94B0C17071EC6F105LLC6ErrorsO
++ _symbolic _____ 10ChronoCore28AccessoryAppActivitiesServerC
++ _symbolic _____ 10ChronoCore29AccessoryActivityActionsStoreC
++ _symbolic _____ 10ChronoCore29AccessoryAuthorizationManagerC
++ _symbolic _____ 10ChronoCore29AccessoryAuthorizationManagerC6Errors33_8C2568B76FBEE2782BD7E2EE24D3E993LLO
++ _symbolic _____ 10ChronoCore29InteractiveWidgetActionRunnerC6Errors33_BBEE03C4DECF2FA4D5B6D93BE2BEC2ADLLO
++ _symbolic _____ 10ChronoCore30DefaultLiveActivityAppProviderC
++ _symbolic _____ 10ChronoCore31AccessoryDeviceActivitiesServerC
++ _symbolic _____ 10ChronoCore32AccessoryDataExtensionConnectionC
++ _symbolic _____ 10ChronoCore32AccessoryDataExtensionConnectionC11ClientProxy33_09632A0BF453E132D07B7AE00A590D41LLC
++ _symbolic _____ 10ChronoCore32AccessoryDataExtensionConnectionC6Errors33_09632A0BF453E132D07B7AE00A590D41LLO
++ _symbolic _____ 10ChronoCore33AccessoryActivityIconCacheManagerC
++ _symbolic _____ 10ChronoCore34InitialAuthorizationDialogResponseO
++ _symbolic _____ 10ChronoCore35AccessoryLiveActivitiesDeviceClient33_7A975BECF13013476FCF2495283D7FADLLC
++ _symbolic _____ 10ChronoCore35AccessoryLiveActivitiesDeviceClient33_7A975BECF13013476FCF2495283D7FADLLC01_G19ActivityParticipantC
++ _symbolic _____ 10ChronoCore35AccessoryLiveActivitiesDeviceClient33_7A975BECF13013476FCF2495283D7FADLLC6ErrorsO
++ _symbolic _____ 10ChronoCore35DefaultAccessoryActivityIconFactoryV
++ _symbolic _____ 10ChronoCore35DefaultAccessoryActivityIconFactoryV6ErrorsO
++ _symbolic _____ 10ChronoCore36AccessoryActivityArchiveCacheManagerC
++ _symbolic _____ 10ChronoCore36AccessoryActivityArchiveURLProtectorV
++ _symbolic _____ 10ChronoCore36FullAccessConfirmationDialogResponseO
++ _symbolic _____ 10ChronoCore37AccessoryActivityAvailabilityProviderC
++ _symbolic _____ 10ChronoCore37AccessoryAuthorizationDialogPresenterC
++ _symbolic _____ 10ChronoCore37AccessoryAuthorizationDialogPresenterC6Errors33_8F3E710730722E0E2C0257FB5B775E96LLO
++ _symbolic _____ 10ChronoCore37AccessoryAuthorizationPersistentStoreC
++ _symbolic _____ 10ChronoCore9Accessory33_58B36C80751E5FA3D01723FC22BB3571LLC
++ _symbolic _____ 11ActivityKit0A5StateO
++ _symbolic _____ 14ChronoServices11PreferencesC
++ _symbolic _____ 23AccessoryLiveActivities0A18AuthorizationStateO
++ _symbolic _____ 23AccessoryLiveActivities0A19AuthorizationResultO
++ _symbolic _____ 23AccessoryLiveActivities0A19RegistrationRequestV
++ _symbolic _____ 23AccessoryLiveActivities0A6DeviceV
++ _symbolic _____ 23AccessoryLiveActivities0aB15ActivityPayloadV
++ _symbolic _____ 23AccessoryLiveActivities0aC25AuthorizationSheetRequestV
++ _symbolic _____ So15CIContextOptiona
++ _symbolic _____ So27CIImageRepresentationOptiona
++ _symbolic _____3key______5valuet 9ChronoKit27AccessoryActivityIdentifierV 0A4Core0C17ActivitiesServiceC01_D5State33_58B36C80751E5FA3D01723FC22BB3571LLV
++ _symbolic _____3key______5valuetSg 9ChronoKit27AccessoryActivityIdentifierV 0A4Core0C17ActivitiesServiceC01_D5State33_58B36C80751E5FA3D01723FC22BB3571LLV
++ _symbolic _____Sg 10ChronoCore13DADeviceProxyV
++ _symbolic _____Sg 10ChronoCore13WaitConditionC
++ _symbolic _____Sg 10ChronoCore26AccessoryActivitiesServiceC14_ActivityState33_58B36C80751E5FA3D01723FC22BB3571LLV
++ _symbolic _____Sg 10ChronoCore26AccessoryActivitiesServiceC26AuthorizationFailureReason33_58B36C80751E5FA3D01723FC22BB3571LLO
++ _symbolic _____Sg 10ChronoCore26AccessoryActivitiesServiceC26_AlertCoordinationDelegate33_58B36C80751E5FA3D01723FC22BB3571LLC
++ _symbolic _____Sg 10ChronoCore32AccessoryDataExtensionConnectionC
++ _symbolic _____Sg 10ChronoCore35AccessoryLiveActivitiesDeviceClient33_7A975BECF13013476FCF2495283D7FADLLC01_G19ActivityParticipantC
++ _symbolic _____Sg 18ActivityUIServices0A11AlertClientC
++ _symbolic _____Sg 23AccessoryLiveActivities0A12RegistrationV
++ _symbolic _____Sg 23AccessoryLiveActivities0A14IconDescriptorV
++ _symbolic _____Sg 23AccessoryLiveActivities0A18AuthorizationStateO
++ _symbolic _____Sg 23AccessoryLiveActivities0A19AuthorizationResultO
++ _symbolic _____Sg 23AccessoryLiveActivities0A19RegistrationRequestV21EntitledConfigurationV
++ _symbolic _____Sg 23AccessoryLiveActivities0A6DeviceV
++ _symbolic _____Sg 23AccessoryLiveActivities0aB15ActivityPayloadV
++ _symbolic _____Sg 23AccessoryLiveActivities0aB8ActivityV7ContentV
++ _symbolic _____Sg 23AccessoryLiveActivities0aB8ActivityV7ContentV12AlertMessageV
++ _symbolic _____Sg 9ChronoKit27AccessoryActivityIdentifierV
++ _symbolic _____Sg 9WidgetKit23AccessoryActivityActionV
++ _symbolic _____Sg So18CFRunLoopSourceRefa
++ _symbolic _____Sg So21CFUserNotificationRefa
++ _symbolic _____SgXw 10ChronoCore21DeviceAccessInterfaceC
++ _symbolic _____SgXw 10ChronoCore26AccessoryActivitiesServiceC
++ _symbolic _____SgXw 10ChronoCore28AccessoryActivitiesAppClient33_1464FEDF978092F94B0C17071EC6F105LLC
++ _symbolic _____SgXw 10ChronoCore28AccessoryAppActivitiesServerC
++ _symbolic _____SgXw 10ChronoCore31AccessoryDeviceActivitiesServerC
++ _symbolic _____SgXw 10ChronoCore32AccessoryDataExtensionConnectionC
++ _symbolic _____SgXw 10ChronoCore35AccessoryLiveActivitiesDeviceClient33_7A975BECF13013476FCF2495283D7FADLLC
++ _symbolic _____SgXw 10ChronoCore37AccessoryActivityAvailabilityProviderC
++ _symbolic _____SgXw 10ChronoCore37AccessoryAuthorizationDialogPresenterC
++ _symbolic _____SgXwz_Xx 10ChronoCore21DeviceAccessInterfaceC
++ _symbolic _____SgXwz_Xx 10ChronoCore28AccessoryActivitiesAppClient33_1464FEDF978092F94B0C17071EC6F105LLC
++ _symbolic _____SgXwz_Xx 10ChronoCore28AccessoryAppActivitiesServerC
++ _symbolic _____SgXwz_Xx 10ChronoCore31AccessoryDeviceActivitiesServerC
++ _symbolic _____SgXwz_Xx 10ChronoCore35AccessoryLiveActivitiesDeviceClient33_7A975BECF13013476FCF2495283D7FADLLC
++ _symbolic _____SgXwz_Xx 10ChronoCore37AccessoryAuthorizationDialogPresenterC
++ _symbolic _____Sg______pSgIeghgg_ 10Foundation4DataV s5ErrorP
++ _symbolic _____XDXMT 10ChronoCore21DeviceAccessInterfaceC
++ _symbolic ______p 10ChronoCore20EligibilityResolvingP
++ _symbolic ______p 10ChronoCore23DeviceAccessInterfacingP
++ _symbolic ______p 10ChronoCore24LiveActivityAppProvidingP
++ _symbolic ______p 10ChronoCore25ActivityUpdateParticipantP
++ _symbolic ______p 10ChronoCore26AccessoryActivityServicingP
++ _symbolic ______p 10ChronoCore28AccessoryActivityIconFactoryP
++ _symbolic ______p 10ChronoCore28AccessoryRegistrationStoringP
++ _symbolic ______p 10ChronoCore28DeviceAccessExtensionSessionP
++ _symbolic ______p 10ChronoCore29DeviceAccessInterfaceObserverP
++ _symbolic ______p 10ChronoCore30AccessoryAuthorizationManagingP
++ _symbolic ______p 10ChronoCore32AccessoryAuthorizationPersistingP
++ _symbolic ______p 10ChronoCore34AccessoryActivityIconCacheManagingP
++ _symbolic ______p 10ChronoCore37AccessoryActivityArchiveCacheManagingP
++ _symbolic ______p 10ChronoCore38AccessoryActivityAvailabilityProvidingP
++ _symbolic ______p 10ChronoCore38AccessoryAuthorizationDialogPresentingP
++ _symbolic ______p 10ChronoCore46AccessoryActivityArchiveURLProtectorDataSourceP
++ _symbolic ______p 18ActivityUIServices0A14AlertProvidingP
++ _symbolic ______p 9ChronoKit31AccessoryActivityActionsStoringP
++ _symbolic ______p 9ChronoKit35InternalActivityDescriptorProvidingP
++ _symbolic ______p So41CHSAccessoryLiveActivitiesDeviceXPCClientP
++ _symbolic ______pIegg_ 10ChronoCore29DeviceAccessInterfaceObserverP
++ _symbolic ______pSg 10ChronoCore37AccessoryDataExtensionProxyConnectionP
++ _symbolic ______pSg 10ChronoCore39AccessoryDataExtensionConnectionFactoryP
++ _symbolic ______pSg 10ChronoCore46AccessoryActivityArchiveURLProtectorDataSourceP
++ _symbolic ______pSg 9ChronoKit31AccessoryActivityActionsStoringP
++ _symbolic ______pSgIeghg_ s5ErrorP
++ _symbolic ______pSgXw 10ChronoCore23DeviceAccessInterfacingP
++ _symbolic ______pSgXw 10ChronoCore29DeviceAccessInterfaceObserverP
++ _symbolic ______pSgXw 10ChronoCore37AccessoryAuthorizationManagerDelegateP
++ _symbolic ______ypt So15CIContextOptiona
++ _symbolic ______ypt So27CIImageRepresentationOptiona
++ _symbolic ______ypt s11AnyHashableV
++ _symbolic _____ySSShy_____y_____GGG s18_DictionaryStorageC 14ChronoServices15TypedIdentifierV AC0F4TypeO6BundleO9ContainerO
++ _symbolic _____ySS_____G s18_DictionaryStorageC 10ChronoCore21DeviceAccessInterfaceC0E4Info33_7E32AEBA88BC29B0216ADB1467F3ABC5LLC
++ _symbolic _____ySS_____G s18_DictionaryStorageC 10ChronoCore9Accessory33_58B36C80751E5FA3D01723FC22BB3571LLC
++ _symbolic _____ySS_____G s18_DictionaryStorageC 23AccessoryLiveActivities0C12RegistrationV
++ _symbolic _____ySS_____SgG s18_DictionaryStorageC 10ChronoCore25CFUserNotificationWrapperC
++ _symbolic _____ySV_____G s18_DictionaryStorageC 10ChronoCore25CFUserNotificationWrapperC
++ _symbolic _____y_____G s11_SetStorageC 10ChronoCore28AccessoryActivitiesAppClient33_1464FEDF978092F94B0C17071EC6F105LLC
++ _symbolic _____y_____G s11_SetStorageC 10ChronoCore35AccessoryLiveActivitiesDeviceClient33_7A975BECF13013476FCF2495283D7FADLLC
++ _symbolic _____y_____G s11_SetStorageC 9ChronoKit27AccessoryActivityIdentifierV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 10ChronoCore13DADeviceProxyV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 22AccessoryNotifications20SettingsCapabilitiesV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 23AccessoryLiveActivities0D6DeviceV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 23AccessoryLiveActivities0dE8ActivityV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 9WidgetKit23AccessoryActivityActionV
++ _symbolic _____y__________G s18_DictionaryStorageC 9ChronoKit27AccessoryActivityIdentifierV 0C4Core0E17ActivitiesServiceC01_F5State33_58B36C80751E5FA3D01723FC22BB3571LLV
++ _symbolic _____y______pG s23_ContiguousArrayStorageC 10ChronoCore25ActivityUpdateParticipantP
++ _symbolic _____y______pG s23_ContiguousArrayStorageC 10ChronoCore29DeviceAccessInterfaceObserverP
++ _symbolic _____y______p_____G 7Combine12AnyPublisherV 9ChronoKit22ActivityStateProvidingP s5NeverO
++ _symbolic _____y______y______p_____GSo17OS_dispatch_queueCG 7Combine10PublishersO9ReceiveOnV AA12AnyPublisherV 9ChronoKit22ActivityStateProvidingP s5NeverO
++ _symbolic _____y______yptG s23_ContiguousArrayStorageC So15CIContextOptiona
++ _symbolic _____y______yptG s23_ContiguousArrayStorageC s11AnyHashableV
++ _symbolic _____y_____ypG s18_DictionaryStorageC So15CIContextOptiona
++ _symbolic _____y_____ypG s18_DictionaryStorageC So27CIImageRepresentationOptiona
++ _symbolic _____y_____yyt_GG s23_ContiguousArrayStorageC ScS12ContinuationV
++ _symbolic _____yyt_G ScS12ContinuationV
++ _symbolic _____yyt_G ScS8IteratorV
++ _symbolic _____yyt__G ScS12ContinuationV15BufferingPolicyO
++ _symbolic ySucSg
++ _symbolic ytSg
++ _symbolic ytSgIeAgHr_
++ _type_layout_string 10ChronoCore29AccessoryAuthorizationManagerC6Errors33_8C2568B76FBEE2782BD7E2EE24D3E993LLO
++ _type_layout_string 10ChronoCore29InteractiveWidgetActionRunnerC6Errors33_BBEE03C4DECF2FA4D5B6D93BE2BEC2ADLLO
++ _type_layout_string 10ChronoCore35DefaultAccessoryActivityIconFactoryV6ErrorsO
++ _type_layout_string 10ChronoCore36AccessoryActivityArchiveURLProtectorV
++ _type_layout_string So27CIImageRepresentationOptiona
+- ___swift_memcpy376_8
+- _associated conformance 10ChronoCore17DescriptorServiceC0A3Kit0C9ServicingAaD08ActivityC9Providing
+- _associated conformance 10ChronoCore22ActivityReloadStrategyC6ErrorsOSHAASQ
+- _associated conformance 10ChronoCore24DescriptorIntentResolverC6ErrorsOSHAASQ
+- _associated conformance 10ChronoCore27RemoteActivityLaunchServiceC6ErrorsOSHAASQ
+- _associated conformance 10ChronoCore29InteractiveWidgetActionRunnerC6ErrorsO10Foundation13CustomNSErrorAAs5Error
+- _associated conformance 10ChronoCore29InteractiveWidgetActionRunnerC6ErrorsO10Foundation14LocalizedErrorAAs0J0
+- _block_copy_helper.108
+- _block_copy_helper.135
+- _block_copy_helper.141
+- _block_copy_helper.154
+- _block_copy_helper.175
+- _block_copy_helper.198
+- _block_copy_helper.209
+- _block_copy_helper.225
+- _block_copy_helper.231
+- _block_copy_helper.237
+- _block_copy_helper.267
+- _block_copy_helper.275
+- _block_copy_helper.280
+- _block_copy_helper.287
+- _block_copy_helper.292
+- _block_copy_helper.302
+- _block_descriptor.110
+- _block_descriptor.137
+- _block_descriptor.143
+- _block_descriptor.156
+- _block_descriptor.177
+- _block_descriptor.200
+- _block_descriptor.211
+- _block_descriptor.227
+- _block_descriptor.233
+- _block_descriptor.239
+- _block_descriptor.269
+- _block_descriptor.277
+- _block_descriptor.282
+- _block_descriptor.289
+- _block_descriptor.294
+- _block_descriptor.304
+- _block_destroy_helper.109
+- _block_destroy_helper.136
+- _block_destroy_helper.142
+- _block_destroy_helper.155
+- _block_destroy_helper.176
+- _block_destroy_helper.199
+- _block_destroy_helper.210
+- _block_destroy_helper.226
+- _block_destroy_helper.232
+- _block_destroy_helper.238
+- _block_destroy_helper.268
+- _block_destroy_helper.276
+- _block_destroy_helper.281
+- _block_destroy_helper.288
+- _block_destroy_helper.293
+- _block_destroy_helper.303
+- _get_enum_tag_for_layout_string 10ChronoCore29InteractiveWidgetActionRunnerC6ErrorsO
+- _objectdestroy.148Tm
+- _objectdestroy.164Tm
+- _objectdestroy.167Tm
+- _objectdestroy.28Tm
+- _objectdestroy.85Tm
+- _symbolic _____ 10ChronoCore22ActivityReloadStrategyC6ErrorsO
+- _symbolic _____ 10ChronoCore24DescriptorIntentResolverC6ErrorsO
+- _symbolic _____ 10ChronoCore27RemoteActivityLaunchServiceC6ErrorsO
+- _symbolic _____ 10ChronoCore29InteractiveWidgetActionRunnerC6ErrorsO
+- _symbolic ______p 9ChronoKit27ActivityDescriptorProvidingP
+- _type_layout_string 10ChronoCore29InteractiveWidgetActionRunnerC6ErrorsO
+- _type_layout_string So18NSFileAttributeKeya
+CStrings:
++ "%{public}@ was not authorized to access accessory %{public}s: %{public}s"
++ ", authorization="
++ ", registeredToContainerBundleIdentifier="
++ "<DADeviceProxy: accessoryID="
++ "@\"ACAlertPresentationOptions\"16@0:8"
++ "@\"TLAlertConfiguration\"16@0:8"
++ "@28@0:8^{__CFString=}16B24"
++ "Accessory directory does not exist: %{public}s"
++ "AccessoryActivityCacheManager"
++ "AccessoryAuthorizationDialog"
++ "AccessoryDeviceActivities service connection from %{public}s activated"
++ "AccessoryDeviceActivities service connection from %{public}s denied because the feature is unavailable."
++ "AccessoryDeviceActivities service connection from %{public}s failed to authenticate <entitled: %{public}s>"
++ "AccessoryDeviceActivities service connection from %{public}s interrupted"
++ "AccessoryDeviceActivities service connection from %{public}s invalidated"
++ "AccessoryLiveActivities service connection from %{public}@ denied because the feature is unavailable (auditToken)."
++ "AccessoryLiveActivities service connection from %{public}s activated"
++ "AccessoryLiveActivities service connection from %{public}s denied because the feature is unavailable (auditToken)."
++ "AccessoryLiveActivities service connection from %{public}s denied because the feature is unavailable (bundleID)."
++ "AccessoryLiveActivities service connection from %{public}s interrupted"
++ "AccessoryLiveActivities service connection from %{public}s invalidated"
++ "AccessoryLiveActivitiesAppClient["
++ "AccessoryLiveActivitiesDeviceClient["
++ "Accessory[%{public}s] is not authorized to notify about activity: %{public}s."
++ "Accessory[%{public}s] not found."
++ "Activity [%{public}s] not authorized for accessory [%{public}s - activityBundleID: %s]"
++ "Activity forwarding registration for accessory %{public}s failed - %{public}@."
++ "Activity state changed to: %{public}s"
++ "Activity: %{public}s has no container bundle identifier."
++ "AddActivitySubscription"
++ "AddLiveActivityForwarding"
++ "AddOrUpdateLiveActivityAction"
++ "Added activity subscription for accessory %s to activity %s"
++ "Added update participant: %{public}s"
++ "Adding/updating action for activity: %{public}s, token: %{public}s, type: %{public}s"
++ "Alert arrived before subscription state for activity %{public}s; synthesizing initial active state."
++ "Allowing accessory activity functionality bypassing EU eligibility."
++ "Alternate button for initial authorization dialog"
++ "AuthorizationPromptIconPathGenerator"
++ "AuthorizationPromptIconPathGenerator returned nil, prompt will display without icon"
++ "Base directory does not exist for reaping: %{public}s"
++ "Base directory does not exist: %{public}s"
++ "CGImage"
++ "CHS"
++ "CHSAccessoryLiveActivitiesAppXPCServer"
++ "CHSAccessoryLiveActivitiesDeviceXPCClient"
++ "CHSAccessoryLiveActivitiesDeviceXPCServer"
++ "ChronoCore.AccessoryActivitiesAppClient"
++ "ChronoCore.AccessoryAppActivitiesServer"
++ "ChronoCore.AccessoryAuthorizationManager"
++ "ChronoCore.AccessoryDataExtensionConnection"
++ "ChronoCore.AccessoryDeviceActivitiesServer"
++ "ChronoCore.AccessoryLiveActivitiesDeviceClient"
++ "ChronoCore._AlertCoordinationDelegate"
++ "ChronoCore._RemoteAlertHandleHolder"
++ "Cleaned up subscription for dismissed activity %{public}s on accessory %{public}s"
++ "Coordinating with participant: %{public}s for alerting activity: %{public}s"
++ "Could not create full access confirmation user notification"
++ "Could not create initial dialog user notification"
++ "Created icon for %{public}s accessory %{public}s"
++ "Default button for full access confirmation dialog"
++ "Default button for initial authorization dialog"
++ "DeleteAccessoryRegistration"
++ "DeleteLiveActivityActions"
++ "DeleteSpecificLiveActivityAction"
++ "Deleted registration for accessory: %{public}s"
++ "Deleting all actions for activity: %{public}s"
++ "Deleting registration for accessory: %{public}s"
++ "Deleting specific action for activity: %{public}s, token: %{public}s"
++ "Denial for %{private}s to forward Live Actvities"
++ "Device access update for %{private}s failed - attempting rollback: %{public}@"
++ "Device added: %s"
++ "Device removed: %s"
++ "Device updated: %s"
++ "Device was removed but unable to remove restered device: %{public}s"
++ "ERROR: unexpected event type in sessionStarted event."
++ "Error determining eligibility for accessory live activities: %{public}@"
++ "Error determining generic eligibility for accessory live activities (general): %{public}@"
++ "Error fetching initial devices: %{public}@"
++ "Error reconciling authorization for accessory[%{public}s]: %{public}@"
++ "Error reconciling registration for accessory[%{public}s]: %{public}@"
++ "Error removing activity subscription for accessory %{public}s and activityID: %{public}s"
++ "Error removing registration for accessory: %{public}s, error: %{public}@"
++ "Error removing subscription for accessory %{public}s and activity: %{public}s"
++ "Error rolling back registration store for accessory %{public}s, error: %{public}@"
++ "Error updating device access authorization: %{public}@"
++ "FULL_ACCESS_CONFIRMATION_DIALOG_DEFAULT_BUTTON"
++ "FULL_ACCESS_CONFIRMATION_DIALOG_HEADER"
++ "FULL_ACCESS_CONFIRMATION_DIALOG_OTHER_BUTTON"
++ "FULL_ACCESS_CONFIRMATION_DIALOG_SUBTITLE"
++ "Failed to clear icon cache: %{public}@"
++ "Failed to get list of protected accessory archive URLs: %{public}@"
++ "Failed to load data from backing store: %{public}@"
++ "Failed to persist activity subscription removal: %{public}@"
++ "Failed to persist activity subscription: %{public}@"
++ "Failed to persist authorization update: %{public}@"
++ "Failed to persist registration deletion: %{public}@"
++ "Failed to persist registration update: %{public}@"
++ "Failed to register for os_eligibility notification."
++ "Failed to remove %{public}ld uninstalled app from accessory authorizations: %{public}@"
++ "Failed to remove bundle ID from authorizations: %{public}@"
++ "Failed to unregister activity forwarding to accessory %{public}s because the device was not paired with app: %{public}s"
++ "Failed to update device access authorization for %{public}s: %{public}@"
++ "First state update received"
++ "Header for full access confirmation dialog"
++ "Header for initial authorization dialog"
++ "INITIAL_AUTHORIZATION_DIALOG_ALTERNATE_BUTTON"
++ "INITIAL_AUTHORIZATION_DIALOG_DEFAULT_BUTTON"
++ "INITIAL_AUTHORIZATION_DIALOG_HEADER"
++ "INITIAL_AUTHORIZATION_DIALOG_SUBTITLE"
++ "Ignoring non-local activity."
++ "Initialized with devices: %{public}s"
++ "LSApplicationWorkspaceObserverProtocol"
++ "Loaded %ld authorizations from backing store"
++ "Loaded %ld registrations and %ld activity subscriptions from backing store"
++ "Migrating descriptor isInternal: %{public}s to %{bool,public}d"
++ "Migrating descriptor isInternal: %{public}s:%{public}s to %{bool,public}d"
++ "No backing store provided, authorizations will not persist across restarts"
++ "No backing store provided, registrations will not persist across restarts"
++ "No connection factory configured - unable to generate connection for device: %{public}s"
++ "No connection found for accessory: %{public}s"
++ "No container bundle identifier found for activity[%{public}s]"
++ "No device found. Failed to unregister activity forwarding to accessory %{public}s"
++ "No icon path available, displaying prompt without icon"
++ "No registered accessory devices found for activity state change; ignoring activity state change."
++ "No registration found for accessory %{public}s"
++ "No subscription found for activity [%{public}s] and accessory [%{public}s]"
++ "Other button for full access confirmation dialog"
++ "Participant: %{public}s error'd handling update for activity: %{public}s: %{public}@"
++ "Participant: %{public}s handled the alerting update for activity: %{public}s"
++ "Proposed accessory archive URLs for reaping: %{public}s"
++ "Protected accessory archive URLs: %{public}s"
++ "Publishing state changed to %{public}s for activity: %{public}s"
++ "ReapOldLiveActivityActions"
++ "Reaping old actions older than %{public}s"
++ "Received os_eligibility notification."
++ "Received state change for activity [%{public}s]"
++ "Reconciling %{public}ld stale bundle ID(s) from accessory authorizations"
++ "Registering accessory %{public}s activity forwarding on behalf of %{public}s"
++ "Registration for %{public}s already complete, returning existing authorization: %s"
++ "Registration for %{public}s already completed in the past, but we couldn't find the registration."
++ "Registration for %{public}s failed because device proxy was not found."
++ "Registration for %{public}s failed because the device was not paired with app: %{public}s"
++ "Registration for %{public}s requested on behalf of %{public}s, but is already registered for %{public}s.  Denying registration."
++ "Registration successful for accessory %{public}s - %{public}s"
++ "RemoveActivitySubscription"
++ "RemoveContainerBundleIDsFromAuthorizations"
++ "RemoveLiveActivityForwarding"
++ "Removed %{public}ld uninstalled app(s) from accessory authorizations"
++ "Removed activity subscription for accessory %s from activity %s"
++ "Removed update participant: %{public}s"
++ "Removing %{public}ld subscriptions for accessory %{public}s"
++ "Removing registration for accessory: %{public}s"
++ "Requested to add extension, but purging instead because we shouldn't cache it: %{public}s - isApple? %{bool,public}d"
++ "Requesting accessoryNotificationCenter to presentActivityAuthorizationSheet with current authorization state %s"
++ "Requesting permission to allow Live activity forwarding to remote devices: %{private}s"
++ "Rollback failed: %{public}@"
++ "Rolling back registration store for accessory %{public}s"
++ "SBSRemoteAlertHandleObserver"
++ "Set up authorization"
++ "Starting AccessoryLiveActivityService"
++ "Starting device access interface"
++ "Subscribing activities to accessory %{public}s"
++ "Subscribing to alert coordination for accessoryID: %{public}s"
++ "Subtitle for full access confirmation dialog"
++ "Subtitle for initial authorization dialog"
++ "Successfully fetched TCC prompt icon at path: %{public}@"
++ "Successfully unregistered activity forwarding for accessory %{public}s"
++ "T@\"ACAlertPresentationOptions\",N,R"
++ "T@\"TLAlertConfiguration\",N,R"
++ "TCCAuthPromptIconFromServiceName returned nil for service"
++ "TCCCopyIconResourcePathForService returned nil for service"
++ "Trying to remove %{public}ld uninstalled app from accessory authorizations"
++ "Unable to coordinate alert context because activity state was not found for activity with identifier: %{public}s"
++ "Unable to coordinate for alerting activity %{public}s because no alert participant was found."
++ "Unable to create AccessoryDevice for %{public}s: %{public}@"
++ "Unable to create CFUserNotification"
++ "Unable to create connection for accessory: %{public}s"
++ "Unable to create notification run loop source"
++ "Unable to create session configuration for device proxy: %{public}s"
++ "Unable to find container bundle identifier for activity: %{public}s"
++ "UpdateAccessoryAuthorization"
++ "UpdateAccessoryRegistration"
++ "Updated authorization for device: %{public}s to %{public}s"
++ "Updating registration for accessory: %{public}s"
++ "User wants to selectively authorize live activity forwarding per app"
++ "Using icon at path: %s"
++ "Vv24@0:8@?<v@?@\"NSError\">16"
++ "Vv24@0:8@?<v@?@\"NSNumber\"@\"NSError\">16"
++ "Vv32@0:8@\"NSData\"16@?<v@?@\"NSNumber\"@\"NSError\">24"
++ "Vv40@0:8@\"NSString\"16@\"NSData\"24@?<v@?@\"NSError\">32"
++ "Vv48@0:8@\"NSString\"16@\"NSString\"24@\"NSNumber\"32@?<v@?@\"NSData\"@\"NSError\">40"
++ "[%{public}@] query returned %{public}ld widget descriptors, %{public}ld controls, %{public}ld activities"
++ "[%{public}s] Activated"
++ "[%{public}s] Activating..."
++ "[%{public}s] Activation condition was false!!!"
++ "[%{public}s] Created"
++ "[%{public}s] Destroyed"
++ "[%{public}s] Error acquiring assertion: %{public}@"
++ "[%{public}s] Failed to create runtime assertion"
++ "[%{public}s] Failed to decode request data: %@"
++ "[%{public}s] Failed to get bundle identifier from process"
++ "[%{public}s] Ignoring attempt to set new accessory identifier (already set)"
++ "[%{public}s] Invalidated!"
++ "[%{public}s] Process %{public}s was not foreground"
++ "[%{public}s] Runtime assertion: acquired"
++ "[%{public}s] Runtime assertion: failed - %{public}@"
++ "[%{public}s] Runtime assertion: invalidated"
++ "[%{public}s] Runtime assertion: invalidation handler invoked"
++ "[%{public}s] Sending activity update"
++ "[%{public}s] Sending activity update for alert"
++ "[%{public}s] Sent initialization payload."
++ "[%{public}s] Set accessory ID: %{public}s"
++ "[%{public}s] Unable to deliver initialization payload: %{public}@"
++ "[%{public}s] Unable to encode activity update payload to client(s): %{public}@"
++ "[%{public}s] XPC Starting..."
++ "[%{public}s] XPC connection interrupted!"
++ "[%{public}s] XPC connection invalidated!"
++ "_TtC10ChronoCore13WaitCondition"
++ "_TtC10ChronoCore21DeviceAccessInterface"
++ "_TtC10ChronoCore25CFUserNotificationWrapper"
++ "_TtC10ChronoCore26AccessoryActivitiesService"
++ "_TtC10ChronoCore26AccessoryRegistrationStore"
++ "_TtC10ChronoCore26DefaultEligibilityResolver"
++ "_TtC10ChronoCore28AccessoryAppActivitiesServer"
++ "_TtC10ChronoCore29AccessoryActivityActionsStore"
++ "_TtC10ChronoCore29AccessoryAuthorizationManager"
++ "_TtC10ChronoCore30DefaultLiveActivityAppProvider"
++ "_TtC10ChronoCore31AccessoryDeviceActivitiesServer"
++ "_TtC10ChronoCore32AccessoryDataExtensionConnection"
++ "_TtC10ChronoCore33AccessoryActivityIconCacheManager"
++ "_TtC10ChronoCore36AccessoryActivityArchiveCacheManager"
++ "_TtC10ChronoCore37AccessoryActivityAvailabilityProvider"
++ "_TtC10ChronoCore37AccessoryAuthorizationDialogPresenter"
++ "_TtC10ChronoCore37AccessoryAuthorizationPersistentStore"
++ "_TtC10ChronoCoreP33_1464FEDF978092F94B0C17071EC6F10528AccessoryActivitiesAppClient"
++ "_TtC10ChronoCoreP33_58B36C80751E5FA3D01723FC22BB35719Accessory"
++ "_TtC10ChronoCoreP33_7A975BECF13013476FCF2495283D7FAD35AccessoryLiveActivitiesDeviceClient"
++ "_TtC10ChronoCoreP33_7E32AEBA88BC29B0216ADB1467F3ABC512WeakObserver"
++ "_TtC10ChronoCoreP33_8F3E710730722E0E2C0257FB5B775E9624_RemoteAlertHandleHolder"
++ "_TtCC10ChronoCore21DeviceAccessInterfaceP33_7E32AEBA88BC29B0216ADB1467F3ABC510DeviceInfo"
++ "_TtCC10ChronoCore26AccessoryActivitiesServiceP33_58B36C80751E5FA3D01723FC22BB357126_AlertCoordinationDelegate"
++ "_TtCC10ChronoCore32AccessoryDataExtensionConnectionP33_09632A0BF453E132D07B7AE00A590D4111ClientProxy"
++ "_TtCC10ChronoCoreP33_7A975BECF13013476FCF2495283D7FAD35AccessoryLiveActivitiesDeviceClient26_ClientActivityParticipant"
++ "_TtP18ActivityUIServices22ActivityAlertProviding_"
++ "_TtP18ActivityUIServices27ActivityAlertClientDelegate_"
++ "__swift_setObject:forKeyedSubscript:"
++ "_accessoryID"
++ "_activityService"
++ "_activitySubscriptions"
++ "_applicationWorkspace"
++ "_archiveCacheManager"
++ "_authorizationManager"
++ "_authorizationStore"
++ "_availabilityProvider"
++ "_baseDirectory"
++ "_connectionFactory"
++ "_deviceAccessInterface"
++ "_dialogPresenter"
++ "_eligibilityResolver"
++ "_fileManager"
++ "_handle"
++ "_iconCacheManager"
++ "_iconFactory"
++ "_liveActivityAppProvider"
++ "_lock_authorizationsByAccessoryID"
++ "_lock_done"
++ "_lock_fullAccessConfirmationDialogRequests"
++ "_lock_initialDialogRequests"
++ "_lock_invalidated"
++ "_lock_isAllowed"
++ "_lock_pendingCoordinationActivityIDs"
++ "_lock_responseHandler"
++ "_lock_result"
++ "_lock_source"
++ "_lock_userNotification"
++ "_lock_waitingContinuations"
++ "_owner"
++ "_platformProvider"
++ "_preferences"
++ "_presentActivityAlertToCoordinate(accessoryID:activityAlertContext:)"
++ "_queue_accessoriesByAccessoryID"
++ "_queue_accessoryID"
++ "_queue_actionsReapTimer"
++ "_queue_activated"
++ "_queue_activityActionsStore"
++ "_queue_activityState"
++ "_queue_deviceInfoByID"
++ "_queue_extensionSession"
++ "_queue_initializationPayloadSent"
++ "_queue_interactionService"
++ "_queue_isValid"
++ "_queue_logIdentifier"
++ "_queue_observers"
++ "_queue_participant"
++ "_queue_registrationStore"
++ "_queue_session"
++ "_queue_xpcConnection"
++ "_registrationToken"
++ "_registrationsByAccessoryID"
++ "_service"
++ "_store"
++ "_waitCondition"
++ "_waitForActivationCondition"
++ "accessoryActivitiesAvailability"
++ "accessoryActivityActionStoring"
++ "accessoryActivityActionsStore"
++ "accessoryActivityAuthorizationManager"
++ "accessoryActivityAuthorizationStore"
++ "accessoryAuthorizationDialogPresenter"
++ "accessoryDeviceActivitiesServer"
++ "accessoryDeviceActivitiesXPCServer"
++ "accessoryExtensionConnectionIncoming"
++ "accessoryExtensionConnectionOutgoing"
++ "accessoryID"
++ "accessoryIconCacheManager"
++ "accessoryLiveActivitiesAppServer"
++ "accessoryLiveActivitiesServer"
++ "accessoryLiveActivitiesService"
++ "accessoryNotRegistered"
++ "accessoryRegistrationStore"
++ "accessoryService"
++ "accessoryServicesMap"
++ "activateWithContext:"
++ "activityAlertClient"
++ "activityAlertClientDelegate"
++ "activityUpdated(activity:)"
++ "activityUpdated:"
++ "activityUpdatedForAlert(activity:)"
++ "activityUpdatedForAlert:completion:"
++ "activityWithAlertClient:didPresentAlertProvider:"
++ "activityWithAlertClient:dismissAlertProvider:"
++ "activityWithAlertClient:presentAlertProvider:completion:"
++ "addObserver:"
++ "allRegisteredDevices:"
++ "appAccessInfoMap"
++ "applicationIconDidChange:"
++ "applicationInstallsArePrioritized:arePaused:"
++ "applicationInstallsDidCancel:"
++ "applicationInstallsDidChange:"
++ "applicationInstallsDidPause:"
++ "applicationInstallsDidPrioritize:"
++ "applicationInstallsDidResume:"
++ "applicationInstallsDidStart:"
++ "applicationInstallsDidUpdateIcon:"
++ "applicationIsInstalled:"
++ "applicationStateDidChange:"
++ "applicationsDidChangePersonas:"
++ "applicationsDidFailToInstall:"
++ "applicationsDidFailToUninstall:"
++ "applicationsDidInstall:"
++ "applicationsDidUninstall:"
++ "applicationsDidUpdateMetadata:"
++ "applicationsWillInstall:"
++ "applicationsWillUninstall:"
++ "associatedBundleID"
++ "authorizationLevel"
++ "body"
++ "bundleForClass:"
++ "callingBundleIdentifierNotFound"
++ "callingContainerBundleIdentifierNotFound"
++ "callingExtensionRecordNotFound"
++ "cfUserNotification"
++ "colorSpace"
++ "com.apple.ChronoCore.AccessoryLiveActivitiesAuthorizationPersistentStore.calloutQueue"
++ "com.apple.Gaspar"
++ "com.apple.accessory-data-provider"
++ "com.apple.chrono.AccessoryLiveActivities-AuthorizationAppSheet"
++ "com.apple.chrono.accessoryExtensionConnection"
++ "com.apple.chrono.accessoryLiveActivities.appServer"
++ "com.apple.chrono.deviceAccessInterface"
++ "com.apple.chrono.deviceAccessInterface.callout"
++ "com.apple.chronod.accessoryLiveActivities"
++ "com.apple.chronod.accessoryLiveActivities.calloutQueue"
++ "com.apple.chronod.accessoryLiveActivitiesForwarding"
++ "com.apple.chronod.activityAccessory."
++ "currentAuthorizationResult:"
++ "currentLiveActivities:"
++ "currentState"
++ "databaseWasRebuilt"
++ "defaultWorkspace"
++ "device"
++ "deviceAccessoryMonitor"
++ "deviceFlags"
++ "deviceIdentifier"
++ "deviceManagementPolicyDidChange:"
++ "disableLiveActivityForwarding:containerBundleID:completion:"
++ "dummy for reconciliation removal"
++ "enableLiveActivityForwarding:containerBundleID:completion:"
++ "endpoint"
++ "eventType"
++ "executeCommand:error:"
++ "extensionCapability"
++ "extensionPointIdentifier"
++ "fetchIconURL:completion:"
++ "fileExistsAtPath:isDirectory:"
++ "generateIconPathForService:withBadge:"
++ "getDevicesWithFlags:session:error:"
++ "handleForIdentifier:error:"
++ "helperPlaceholdersInstalled:"
++ "helperPlaceholdersUninstalled:"
++ "identifierWithPid:"
++ "identityForLSApplicationIdentity:"
++ "imageForDescriptor:"
++ "initWithBundleIdentifier:"
++ "initWithBundleIdentifier:URL:personaUniqueString:personaType:"
++ "initWithCGImage:"
++ "initWithDevice:"
++ "initWithDevice:capabilityFlags:"
++ "initWithDictionary:"
++ "initWithName:authorizationLevel:bundleID:deviceID:"
++ "initWithOptions:"
++ "initWithSceneProvidingProcess:configurationIdentifier:"
++ "initWithSize:scale:"
++ "initWithUnsignedInt:"
++ "initialize:"
++ "isAllowed changed to: %{bool,public}d"
++ "isEntitled"
++ "isInternal"
++ "makeXPCConnectionWithError:"
++ "networkUsageChanged:"
++ "newHandleWithDefinition:configurationContext:"
++ "observeLaunchProhibitedApps"
++ "participants"
++ "payloadIdentifier"
++ "pluginsDidInstall:"
++ "pluginsDidUninstall:"
++ "pluginsWillUninstall:"
++ "prepareImageForDescriptor:"
++ "presentActivityAuthorizationSheet:completion:"
++ "presentAuthorizationDialog(accessoryID:accessoryName:)"
++ "presentFullAccessConfirmationDialog(_:accessoryName:appCount:)"
++ "presentFullAccessConfirmationDialog:accessoryName:appCount:completion:"
++ "presentationOptions"
++ "proxy"
++ "realToken"
++ "registerDevice:completion:"
++ "registrationBundleIdentifierAndCallingBundleIdentifierMismatch"
++ "remote alert handle did deactivate"
++ "remote alert handle did invalidate"
++ "remoteAlertHandle:didInvalidateWithError:"
++ "remoteAlertHandleDidActivate:"
++ "remoteAlertHandleDidDeactivate:"
++ "remoteClient:"
++ "remoteObjectProxyWithErrorHandler:"
++ "removeAllRegisteredDevices:"
++ "removeObserver:"
++ "removeRegisteredDevice:completion:"
++ "setAccessoryID:"
++ "setAppearance:"
++ "setBundleID:"
++ "setCapabilityFlags:"
++ "setDeferReconnect:"
++ "setDeviceAccessoryServiceInfo:device:completionHandler:"
++ "setDeviceFlags:"
++ "setDuration:"
++ "setEventHandler:"
++ "setInternal:"
++ "setReason:"
++ "setupForDeferredReconnect"
++ "synchronousRemoteObjectProxyWithErrorHandler:"
++ "title"
++ "unregisterObserver:"
++ "updateAuthorization(forDevice:authorization:containerBundleIdentifier:)"
++ "updateAuthorization:authorizationState:completion:"
++ "v16@?0@\"DAEvent\"8"
++ "v16@?0@\"DAEventExtension\"8"
++ "v24@0:8@\"SBSRemoteAlertHandle\"16"
++ "v24@?0@\"NSNumber\"8@\"NSError\"16"
++ "v32@0:8@\"NSArray\"16@\"NSArray\"24"
++ "v32@0:8@\"SBSRemoteAlertHandle\"16@\"NSError\"24"
++ "v32@0:8@\"_TtC18ActivityUIServices19ActivityAlertClient\"16@\"<_TtP18ActivityUIServices22ActivityAlertProviding_>\"24"
++ "v40@0:8@\"_TtC18ActivityUIServices19ActivityAlertClient\"16@\"<_TtP18ActivityUIServices22ActivityAlertProviding_>\"24@?<v@?@\"NSError\">32"
++ "writePNGRepresentationOfImage:toURL:format:colorSpace:options:error:"
+- "Requested to add extension, but purging instead because we shouldn't cache it: %{public}s - isInternal? %{bool,public}d"
+- "[%{public}@] query returned %{public}ld widget descriptors, %{public}ld controls"
+- "[%{public}s] Unable to fetch activity entry due to error: %{public}@"
+
+```

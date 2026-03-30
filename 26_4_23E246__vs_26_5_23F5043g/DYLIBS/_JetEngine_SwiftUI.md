@@ -1,0 +1,113 @@
+## _JetEngine_SwiftUI
+
+> `/System/Library/PrivateFrameworks/_JetEngine_SwiftUI.framework/_JetEngine_SwiftUI`
+
+```diff
+
+-9.4.21.0.0
+-  __TEXT.__text: 0x155eb0
+-  __TEXT.__auth_stubs: 0x52f0
++9.5.3.0.0
++  __TEXT.__text: 0x157224
++  __TEXT.__auth_stubs: 0x5300
+   __TEXT.__objc_methlist: 0x18c
+-  __TEXT.__const: 0xf930
+-  __TEXT.__constg_swiftt: 0x9b04
+-  __TEXT.__swift5_typeref: 0xa071
++  __TEXT.__const: 0xf980
++  __TEXT.__constg_swiftt: 0x9bdc
++  __TEXT.__swift5_typeref: 0xa0a1
+   __TEXT.__swift5_builtin: 0x12c
+-  __TEXT.__swift5_reflstr: 0x2ec0
+-  __TEXT.__swift5_fieldmd: 0x38d4
++  __TEXT.__swift5_reflstr: 0x2ee0
++  __TEXT.__swift5_fieldmd: 0x38fc
+   __TEXT.__swift5_assocty: 0x1640
+   __TEXT.__swift5_proto: 0x528
+-  __TEXT.__swift5_types: 0x4dc
++  __TEXT.__swift5_types: 0x4e0
+   __TEXT.__cstring: 0x3571
+   __TEXT.__swift5_mpenum: 0x8c
+   __TEXT.__swift5_capture: 0x3038
+
+   __TEXT.__oslogstring: 0x4c
+   __TEXT.__swift_as_entry: 0x134
+   __TEXT.__swift_as_ret: 0x12c
+-  __TEXT.__unwind_info: 0x4608
+-  __TEXT.__eh_frame: 0x443c
++  __TEXT.__unwind_info: 0x4630
++  __TEXT.__eh_frame: 0x4444
+   __TEXT.__objc_classname: 0x830
+   __TEXT.__objc_methname: 0xf3c
+   __TEXT.__objc_methtype: 0x113
+   __TEXT.__objc_stubs: 0xd60
+-  __DATA_CONST.__got: 0x12f0
++  __DATA_CONST.__got: 0x12e0
+   __DATA_CONST.__const: 0x1c0
+   __DATA_CONST.__objc_classlist: 0xe0
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_selrefs: 0x3b0
+-  __AUTH_CONST.__auth_got: 0x2980
++  __AUTH_CONST.__auth_got: 0x2988
+   __AUTH_CONST.__const: 0xa5a0
+   __AUTH_CONST.__objc_const: 0x1780
+   __AUTH.__objc_data: 0x368
+-  __AUTH.__data: 0x778
+-  __DATA.__data: 0x5020
++  __AUTH.__data: 0x808
++  __DATA.__data: 0x5028
+   __DATA.__bss: 0x5ed0
+   __DATA.__common: 0x38
+   __DATA_DIRTY.__objc_data: 0x700
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: A4899804-ABC0-3AD8-A397-ED8C732E3F9C
+-  Functions: 6279
+-  Symbols:   3207
++  UUID: A89ECFE5-11A6-3912-9763-596B5C2537E7
++  Functions: 6289
++  Symbols:   3217
+   CStrings:  512
+ 
+Symbols:
++ _get_witness_table 18_JetEngine_SwiftUI17_MediaArtworkBody023_8FC4452CDC73A1D6B1D415L8A4F9D86FLLV0cD04ViewHPyHC.45
++ _get_witness_table 7SwiftUI15ModifiedContentVy9JetEngine12MediaArtworkVAA32_EnvironmentKeyTransformModifierVyAD26PageRenderMetricsPresenterCSgGGAA4ViewHPAfaN01_ef1_aB0yHC_AlA0qL0HPyHCHC.44
++ _get_witness_table 7SwiftUI15ModifiedContentVyACyACy9JetEngine12MediaArtworkVAA30_EnvironmentKeyWritingModifierVy01_ef1_aB00gH18PageRenderTracking023_8FC4452CDC73A1D6B1D415T8A4F9D86FLLOSgGGAI018ImpressionableViewL0VGAI013ClickLocationzL0VGAA0Z0HPAraVHPAoaVHPAfavIyHC_AnA0zL0HPyHCHC_AqaWHPyHCHC_AtaWHPyHCHC.46
++ _get_witness_table 7SwiftUI19_ConditionalContentVyAA08ModifiedD0VyAEyAEyAA7AnyViewVAA12_FrameLayoutVGAA25_AppearanceActionModifierVGALG011_JetEngine_aB036_MediaArtworkDeprecatedFallbackImageVyAJGGAA0G0HPAnaTHPAmaTHPAjaTHPAgaTHPyHC_AiA0gL0HPyHCHC_AlaUHPyHCHC_AlaUHPyHCHC_AraTHPyHCHC.133
++ _get_witness_table 7SwiftUI4ViewRzlAA15ModifiedContentVyxAA30_EnvironmentKeyWritingModifierVy011_JetEngine_aB030MediaArtworkPageRenderTracking023_8FC4452CDC73A1D6B1D415U8A4F9D86FLLOSgGGAaBHPxAaBHD1__AlA0cI0HPyHCHC.49
++ _get_witness_table 7SwiftUI4ViewRzlAA15ModifiedContentVyxAA32_EnvironmentKeyTransformModifierVySbGGAaBHPxAaBHD1__AgA0cI0HPyHCHC.48
++ _get_witness_table 7SwiftUI4ViewRzlAA15ModifiedContentVyxAA32_EnvironmentKeyTransformModifierVySbGGAaBHPxAaBHD1__AgA0cI0HPyHCHCTm
++ _get_witness_table 9JetEngine10ShelfModelRzl7SwiftUI15ModifiedContentVyAEyAEyAA12MediaArtworkVAC30_EnvironmentKeyWritingModifierVy01_ab1_eF00iJ18PageRenderTracking023_8FC4452CDC73A1D6B1D415V8A4F9D86FLLOSgGGAJ018ImpressionableViewN0VGAJ017ClickLocationViewN0VGAC4ViewHPAscWHPApcWHPAgcwJyHC_AoC04ViewN0HPyHCHC_ArcXHPyHCHC_AucXHPyHCHC.47
++ _objectdestroy.84Tm
++ _swift_cvw_initEnumMetadataSinglePayloadWithLayoutString
++ _swift_cvw_singlePayloadEnumGeneric_destructiveInjectEnumTag
++ _swift_cvw_singlePayloadEnumGeneric_getEnumTag
++ _symbolic _____ 18_JetEngine_SwiftUI30MediaArtworkPageRenderTracking023_8FC4452CDC73A1D6B1D415N8A4F9D86FLLO
++ _symbolic _____ 7SwiftUI17EnvironmentValuesV011_JetEngine_aB0E36__Key_mediaArtworkPageRenderTracking023_8FC4452CDC73A1D6B1D415Q8A4F9D86FLLV
++ _symbolic _____ 9JetEngine17ImpressionMetricsV2IDV
++ _symbolic _____Sg 18_JetEngine_SwiftUI30MediaArtworkPageRenderTracking023_8FC4452CDC73A1D6B1D415N8A4F9D86FLLO
++ _symbolic _____yAAyAAy__________y_____SgGG_____G_____G 7SwiftUI15ModifiedContentV 9JetEngine12MediaArtworkV AA30_EnvironmentKeyWritingModifierV 01_ef1_aB00gH18PageRenderTracking023_8FC4452CDC73A1D6B1D415T8A4F9D86FLLO AI018ImpressionableViewL0V AI013ClickLocationzL0V
++ _symbolic _____yAAy__________y_____SgGG_____G 7SwiftUI15ModifiedContentV 9JetEngine12MediaArtworkV AA30_EnvironmentKeyWritingModifierV 01_ef1_aB00gH18PageRenderTracking023_8FC4452CDC73A1D6B1D415T8A4F9D86FLLO AI018ImpressionableViewL0V
++ _symbolic _____y_____SgG 7SwiftUI11EnvironmentV 011_JetEngine_aB030MediaArtworkPageRenderTracking023_8FC4452CDC73A1D6B1D415O8A4F9D86FLLO
++ _symbolic _____y_____SgG 7SwiftUI30_EnvironmentKeyWritingModifierV 011_JetEngine_aB030MediaArtworkPageRenderTracking023_8FC4452CDC73A1D6B1D415R8A4F9D86FLLO
++ _symbolic _____y_____Sg_G 7SwiftUI11EnvironmentV7ContentO 011_JetEngine_aB030MediaArtworkPageRenderTracking023_8FC4452CDC73A1D6B1D415P8A4F9D86FLLO
++ _symbolic _____y__________y_____SgGG 7SwiftUI15ModifiedContentV 9JetEngine12MediaArtworkV AA30_EnvironmentKeyWritingModifierV 01_ef1_aB00gH18PageRenderTracking023_8FC4452CDC73A1D6B1D415T8A4F9D86FLLO
++ _symbolic _____yx_____y_____SgGG 7SwiftUI15ModifiedContentV AA30_EnvironmentKeyWritingModifierV 011_JetEngine_aB030MediaArtworkPageRenderTracking023_8FC4452CDC73A1D6B1D415T8A4F9D86FLLO
+- _get_witness_table 18_JetEngine_SwiftUI17_MediaArtworkBody023_8FC4452CDC73A1D6B1D415L8A4F9D86FLLV0cD04ViewHPyHC.43
+- _get_witness_table 7SwiftUI15ModifiedContentVy9JetEngine12MediaArtworkVAA32_EnvironmentKeyTransformModifierVyAD26PageRenderMetricsPresenterCSgGGAA4ViewHPAfaN01_ef1_aB0yHC_AlA0qL0HPyHCHC.42
+- _get_witness_table 7SwiftUI15ModifiedContentVyACyACy9JetEngine12MediaArtworkVAA30_EnvironmentKeyWritingModifierVyAD17ImpressionMetricsV2IDVSgGG01_ef1_aB0018ImpressionableViewL0VGAP013ClickLocationqL0VGAA0Q0HPAsaWHPAoaWHPAfawPyHC_AnA0qL0HPyHCHC_AraXHPyHCHC_AuaXHPyHCHC.44
+- _get_witness_table 7SwiftUI19_ConditionalContentVyAA08ModifiedD0VyAEyAEyAA7AnyViewVAA12_FrameLayoutVGAA25_AppearanceActionModifierVGALG011_JetEngine_aB036_MediaArtworkDeprecatedFallbackImageVyAJGGAA0G0HPAnaTHPAmaTHPAjaTHPAgaTHPyHC_AiA0gL0HPyHCHC_AlaUHPyHCHC_AlaUHPyHCHC_AraTHPyHCHC.121
+- _get_witness_table 7SwiftUI4ViewRzlAA15ModifiedContentVyxAA32_EnvironmentKeyTransformModifierVySbGGAaBHPxAaBHD1__AgA0cI0HPyHCHC.46
+- _get_witness_table 9JetEngine10ShelfModelRzl7SwiftUI15ModifiedContentVyAEyAEyAA12MediaArtworkVAC30_EnvironmentKeyWritingModifierVyAA17ImpressionMetricsV2IDVSgGG01_ab1_eF0018ImpressionableViewN0VGAQ013ClickLocationsN0VGAC0S0HPAtcXHPApcXHPAgcxQyHC_AoC0sN0HPyHCHC_AscYHPyHCHC_AvcYHPyHCHC.45
+- _objectdestroy.72Tm
+- _symbolic _____ 7SwiftUI17EnvironmentValuesV011_JetEngine_aB0E30__Key_mediaArtworkImpressionId023_8FC4452CDC73A1D6B1D415P8A4F9D86FLLV
+- _symbolic _____yAAyAAy__________y_____SgGG_____G_____G 7SwiftUI15ModifiedContentV 9JetEngine12MediaArtworkV AA30_EnvironmentKeyWritingModifierV AD17ImpressionMetricsV2IDV 01_ef1_aB0018ImpressionableViewL0V AM013ClickLocationqL0V
+- _symbolic _____yAAy__________y_____SgGG_____G 7SwiftUI15ModifiedContentV 9JetEngine12MediaArtworkV AA30_EnvironmentKeyWritingModifierV AD17ImpressionMetricsV2IDV 01_ef1_aB0018ImpressionableViewL0V
+- _symbolic _____y_____SgG 7SwiftUI11EnvironmentV 9JetEngine17ImpressionMetricsV2IDV
+- _symbolic _____y_____SgG 7SwiftUI30_EnvironmentKeyWritingModifierV 9JetEngine17ImpressionMetricsV2IDV
+- _symbolic _____y_____Sg_G 7SwiftUI11EnvironmentV7ContentO 9JetEngine17ImpressionMetricsV2IDV
+- _symbolic _____y__________y_____SgGG 7SwiftUI15ModifiedContentV 9JetEngine12MediaArtworkV AA30_EnvironmentKeyWritingModifierV AD17ImpressionMetricsV2IDV
+
+```

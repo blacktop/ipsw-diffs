@@ -1,0 +1,595 @@
+## PassKitUI
+
+> `/System/Library/PrivateFrameworks/PassKitUI.framework/PassKitUI`
+
+```diff
+
+-1642.5.18.0.0
+-  __TEXT.__text: 0x106de88
+-  __TEXT.__auth_stubs: 0x110d0
+-  __TEXT.__objc_methlist: 0x589f8
+-  __TEXT.__const: 0x67ef0
+-  __TEXT.__swift5_typeref: 0xd23c4
++1642.6.1.0.0
++  __TEXT.__text: 0x1070458
++  __TEXT.__auth_stubs: 0x11120
++  __TEXT.__objc_methlist: 0x58ae8
++  __TEXT.__const: 0x67f00
++  __TEXT.__swift5_typeref: 0xd23a4
+   __TEXT.__constg_swiftt: 0x1f664
+   __TEXT.__swift5_fieldmd: 0x1993c
+   __TEXT.__swift5_builtin: 0xc58
+   __TEXT.__swift5_reflstr: 0x1cc48
+   __TEXT.__swift5_assocty: 0x6458
+-  __TEXT.__cstring: 0x60f0e
++  __TEXT.__cstring: 0x610aa
+   __TEXT.__oslogstring: 0x24893
+   __TEXT.__swift5_capture: 0xfc08
+   __TEXT.__swift5_proto: 0x237c
+
+   __TEXT.__swift_as_ret: 0x8b4
+   __TEXT.__swift5_protos: 0xfc
+   __TEXT.__swift5_mpenum: 0x114
+-  __TEXT.__gcc_except_tab: 0x13c90
++  __TEXT.__gcc_except_tab: 0x13e70
+   __TEXT.__ustring: 0xcfe
+-  __TEXT.__unwind_info: 0x33308
++  __TEXT.__unwind_info: 0x333e0
+   __TEXT.__eh_frame: 0x17634
+-  __TEXT.__objc_classname: 0x17e7d
+-  __TEXT.__objc_methname: 0xcbce8
++  __TEXT.__objc_classname: 0x17e80
++  __TEXT.__objc_methname: 0xcc0e8
+   __TEXT.__objc_methtype: 0x28167
+-  __TEXT.__objc_stubs: 0x84c20
++  __TEXT.__objc_stubs: 0x84ec0
+   __DATA_CONST.__got: 0xb938
+-  __DATA_CONST.__const: 0x18a80
++  __DATA_CONST.__const: 0x18af8
+   __DATA_CONST.__objc_classlist: 0x3640
+   __DATA_CONST.__objc_catlist: 0x1d0
+   __DATA_CONST.__objc_protolist: 0x17b0
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x27860
++  __DATA_CONST.__objc_selrefs: 0x27908
+   __DATA_CONST.__objc_protorefs: 0x688
+   __DATA_CONST.__objc_superrefs: 0x2338
+-  __DATA_CONST.__objc_arraydata: 0x4e8
++  __DATA_CONST.__objc_arraydata: 0x4f0
+   __DATA_CONST.__vfx_script_tbl: 0x20
+-  __AUTH_CONST.__auth_got: 0x8878
++  __AUTH_CONST.__auth_got: 0x88a0
+   __AUTH_CONST.__const: 0x4a130
+-  __AUTH_CONST.__cfstring: 0x33880
+-  __AUTH_CONST.__objc_const: 0xc1628
++  __AUTH_CONST.__cfstring: 0x339a0
++  __AUTH_CONST.__objc_const: 0xc16d8
+   __AUTH_CONST.__objc_doubleobj: 0x1a0
+-  __AUTH_CONST.__objc_intobj: 0x1488
+-  __AUTH_CONST.__objc_arrayobj: 0x4b0
++  __AUTH_CONST.__objc_intobj: 0x14e8
++  __AUTH_CONST.__objc_arrayobj: 0x4c8
+   __AUTH_CONST.__objc_dictobj: 0x118
+   __AUTH_CONST.__objc_floatobj: 0x30
+   __AUTH.__objc_data: 0x301e8
+   __AUTH.__data: 0x19160
+-  __DATA.__objc_ivar: 0x9288
++  __DATA.__objc_ivar: 0x9298
+   __DATA.__data: 0x33100
+   __DATA.__objc_stublist: 0x10
+   __DATA.__bss: 0x44870
+
+   - /usr/lib/swift/libswift_StringProcessing.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: D53018CC-697B-39A2-953F-92A1E3A388F6
+-  Functions: 74712
+-  Symbols:   128019
+-  CStrings:  54555
++  UUID: BE2D9733-87A2-380F-AB45-665A79CE9FEC
++  Functions: 74754
++  Symbols:   128140
++  CStrings:  54599
+ 
+Symbols:
++ +[PKPaymentAuthorizationController paymentServicesMerchantURLForAPIType:isDelegated:completion:]
++ +[PKPaymentAuthorizationViewController paymentServicesMerchantURLForAPIType:isDelegated:completion:]
++ -[PKDashboardPaymentPassDataSource _messageForPeerPaymentVerificationWithCompletion:]
++ -[PKDashboardPaymentPassDataSource _messageForVirtualCardEnabled]
++ -[PKDashboardPaymentPassDataSource peerPaymentAccountResolutionController]
++ -[PKNewPaymentCredentialProvisioningViewController _applicationDidBecomeActive:]
++ -[PKNewPaymentCredentialProvisioningViewController _autoFillCredentialForCurrentProvisioning]
++ -[PKNewPaymentCredentialProvisioningViewController _prefillCVVAfterAuthentication]
++ -[PKNewPaymentCredentialProvisioningViewController _requestAuthWithReason:completion:]
++ -[PKNewPaymentCredentialProvisioningViewController _requestCVVAuthenticationIfNeededWithCompletion:]
++ -[PKNewPaymentCredentialProvisioningViewController _requiresAuthForCVV]
++ -[PKPassbookSettingsController _requestAuthWithReason:completion:]
++ -[PKPaymentAddDebitCardViewController _continueSetupFlow]
++ -[PKPeerPaymentActionController presentIdentityVerification]
++ -[PKPeerPaymentIdentityVerificationExplanationViewController setShowNotNow:]
++ -[PKPeerPaymentIdentityVerificationExplanationViewController setUsePhotoIDImage:]
++ -[PKPeerPaymentSetupFlowController pushIdentityVerificationControllerOnNavigationController:]
++ -[PKPeerPaymentSetupFlowController shouldOfferIdentityVerification]
++ -[PKPeerPaymentSetupFlowController viewControllerForIdentityVerificationWithCompletion:]
++ -[PKPeerPaymentSetupFlowControllerAssociatedAccountConfiguration allowsInlineIdentityVerification]
++ -[PKPeerPaymentSetupFlowControllerAssociatedAccountConfiguration setAllowsInlineIdentityVerification:]
++ -[PKPeerPaymentSetupFlowProvisionConfiguration allowsInlineIdentityVerification]
++ -[PKPeerPaymentSetupFlowProvisionConfiguration setAllowsInlineIdentityVerification:]
++ GCC_except_table107
++ GCC_except_table160
++ GCC_except_table204
++ GCC_except_table218
++ GCC_except_table235
++ GCC_except_table262
++ GCC_except_table270
++ GCC_except_table276
++ GCC_except_table303
++ GCC_except_table318
++ GCC_except_table340
++ GCC_except_table348
++ GCC_except_table351
++ GCC_except_table364
++ GCC_except_table367
++ GCC_except_table380
++ GCC_except_table404
++ GCC_except_table408
++ GCC_except_table413
++ GCC_except_table415
++ GCC_except_table436
++ GCC_except_table442
++ GCC_except_table451
++ GCC_except_table456
++ GCC_except_table473
++ GCC_except_table496
++ GCC_except_table512
++ GCC_except_table514
++ GCC_except_table517
++ GCC_except_table519
++ GCC_except_table521
++ GCC_except_table532
++ GCC_except_table560
++ GCC_except_table577
++ GCC_except_table580
++ GCC_except_table582
++ GCC_except_table627
++ GCC_except_table632
++ GCC_except_table636
++ GCC_except_table638
++ GCC_except_table645
++ GCC_except_table658
++ _OBJC_IVAR_$_PKPeerPaymentSetupFlowController._identityVerificationController
++ _OBJC_IVAR_$_PKPeerPaymentSetupFlowControllerAssociatedAccountConfiguration._allowsInlineIdentityVerification
++ _OBJC_IVAR_$_PKPeerPaymentSetupFlowProvisionConfiguration._allowsInlineIdentityVerification
++ _PKCashCIPReloadEnabled
++ _PKPeerPaymentHasDismissedPeerPaymentCompleteVerification
++ _PKPeerPaymentHasDismissedPeerPaymentIDVOffer
++ _PKPeerPaymentSetHasDismissedPeerPaymentCompleteVerification
++ _PKPeerPaymentSetHasDismissedPeerPaymentIDVOffer
++ ___100+[PKPaymentAuthorizationViewController paymentServicesMerchantURLForAPIType:isDelegated:completion:]_block_invoke
++ ___100-[PKNewPaymentCredentialProvisioningViewController _requestCVVAuthenticationIfNeededWithCompletion:]_block_invoke
++ ___105-[PKDashboardPaymentPassDataSource _messageForPeerPaymentAssociatedAccountStateChangedForSecurityReasons]_block_invoke.1255
++ ___46-[PKPassbookSettingsController _fetchAccounts]_block_invoke.788
++ ___49-[PKDashboardPaymentPassDataSource _loadMessages]_block_invoke_23
++ ___55-[PKDashboardPaymentPassDataSource reloadFrontmostPass]_block_invoke.414
++ ___55-[PKDashboardPaymentPassDataSource reloadFrontmostPass]_block_invoke.431
++ ___55-[PKDashboardPaymentPassDataSource reloadFrontmostPass]_block_invoke_2.415
++ ___55-[PKDashboardPaymentPassDataSource reloadFrontmostPass]_block_invoke_2.432
++ ___57-[PKDashboardPaymentPassDataSource _lostModeButtonTapped]_block_invoke.2129
++ ___64-[PKDashboardPaymentPassDataSource reloadAccountWithNewAccount:]_block_invoke.572
++ ___64-[PKDashboardPaymentPassDataSource reloadAccountWithNewAccount:]_block_invoke.581
++ ___64-[PKDashboardPaymentPassDataSource reloadAccountWithNewAccount:]_block_invoke_2.573
++ ___64-[PKDashboardPaymentPassDataSource reloadAccountWithNewAccount:]_block_invoke_2.582
++ ___64-[PKDashboardPaymentPassDataSource reloadAccountWithNewAccount:]_block_invoke_3.574
++ ___65-[PKDashboardPaymentPassDataSource _addToAMPButtonTappedForPass:]_block_invoke.2161
++ ___65-[PKDashboardPaymentPassDataSource _addToAMPButtonTappedForPass:]_block_invoke_2.2174
++ ___65-[PKDashboardPaymentPassDataSource _messageForFirstMonthCoOwners]_block_invoke.1825
++ ___65-[PKDashboardPaymentPassDataSource _updateWithTransactionGroups:]_block_invoke.648
++ ___65-[PKDashboardPaymentPassDataSource loadSummariesWithForceReload:]_block_invoke.629
++ ___65-[PKDashboardPaymentPassDataSource loadSummariesWithForceReload:]_block_invoke.634
++ ___65-[PKPeerPaymentActionController performActionWithCurrencyAmount:]_block_invoke.129
++ ___65-[PKPeerPaymentActionController performActionWithCurrencyAmount:]_block_invoke_2.130
++ ___65-[PKPeerPaymentActionController performActionWithCurrencyAmount:]_block_invoke_3.132
++ ___65-[PKPeerPaymentActionController performActionWithCurrencyAmount:]_block_invoke_4.133
++ ___66-[PKDashboardPaymentPassDataSource _fetchAMPEnrollmentEligibility]_block_invoke.2148
++ ___66-[PKDashboardPaymentPassDataSource _fetchAMPEnrollmentEligibility]_block_invoke.2153
++ ___66-[PKDashboardPaymentPassDataSource _fetchAMPEnrollmentEligibility]_block_invoke_2.2154
++ ___66-[PKPassbookSettingsController _requestAuthWithReason:completion:]_block_invoke
++ ___66-[PKPassbookSettingsController _requestAuthWithReason:completion:]_block_invoke_2
++ ___69-[PKPassbookSettingsController _registerForPeerPaymentWithSpecifier:]_block_invoke.720
++ ___69-[PKPaymentAddDebitCardViewController _presentPaymentSetupController]_block_invoke_2.88
++ ___69-[PKPaymentAddDebitCardViewController _presentPaymentSetupController]_block_invoke_5
++ ___69-[PKPeerPaymentActionController _presentTermsAndConditionsWithError:]_block_invoke.195
++ ___69-[PKPeerPaymentActionController _presentTermsAndConditionsWithError:]_block_invoke.196
++ ___70-[PKPeerPaymentSetupFlowController _nextViewControllerWithCompletion:]_block_invoke.53
++ ___70-[PKPeerPaymentSetupFlowController _nextViewControllerWithCompletion:]_block_invoke.55
++ ___70-[PKPeerPaymentSetupFlowController _nextViewControllerWithCompletion:]_block_invoke.57
++ ___70-[PKPeerPaymentSetupFlowController _nextViewControllerWithCompletion:]_block_invoke.62
++ ___70-[PKPeerPaymentSetupFlowController _nextViewControllerWithCompletion:]_block_invoke_2.56
++ ___70-[PKPeerPaymentSetupFlowController _nextViewControllerWithCompletion:]_block_invoke_2.59
++ ___70-[PKPeerPaymentSetupFlowController _nextViewControllerWithCompletion:]_block_invoke_2.63
++ ___71-[PKPassbookSettingsController _unregisterForPeerPaymentWithSpecifier:]_block_invoke.763
++ ___71-[PKPeerPaymentActionController _presentIdentityVerificationWithError:]_block_invoke.194
++ ___71-[PKPeerPaymentSetupFlowController _handleDisplayableError:completion:]_block_invoke.65
++ ___71-[PKPeerPaymentSetupFlowController _handleDisplayableError:completion:]_block_invoke.66
++ ___71-[PKPeerPaymentSetupFlowController _handleDisplayableError:completion:]_block_invoke.80
++ ___71-[PKPeerPaymentSetupFlowController _handleDisplayableError:completion:]_block_invoke.81
++ ___71-[PKPeerPaymentSetupFlowController _handleDisplayableError:completion:]_block_invoke_2.78
++ ___71-[PKPeerPaymentSetupFlowController _handleDisplayableError:completion:]_block_invoke_2.82
++ ___72-[PKDashboardPassGroupViewController presentSearchWithQuery:completion:]_block_invoke.357
++ ___72-[PKDashboardPassGroupViewController presentSearchWithQuery:completion:]_block_invoke_2.358
++ ___72-[PKPeerPaymentSetupFlowController _addAssociatedAccountWithCompletion:]_block_invoke.113
++ ___72-[PKPeerPaymentSetupFlowController _addAssociatedAccountWithCompletion:]_block_invoke_2.111
++ ___73-[PKDashboardPaymentPassDataSource _presentLegalAgreement:userConsented:]_block_invoke.1842
++ ___73-[PKDashboardPaymentPassDataSource _presentLegalAgreement:userConsented:]_block_invoke_2.1843
++ ___74-[PKDashboardPaymentPassDataSource _messagesForPeerPaymentPendingRequests]_block_invoke.1593
++ ___74-[PKDashboardPaymentPassDataSource _messagesForPeerPaymentPendingRequests]_block_invoke_2.1597
++ ___75-[PKDashboardPaymentPassDataSource _yearlyTransactionGroupsWithCompletion:]_block_invoke.642
++ ___76-[PKDashboardPaymentPassDataSource _messageForInterestChargeWithCompletion:]_block_invoke.1345
++ ___76-[PKDashboardPaymentPassDataSource _messagesForAccountStatusWithCompletion:]_block_invoke.1031
++ ___76-[PKDashboardPaymentPassDataSource _messagesForAccountStatusWithCompletion:]_block_invoke.971
++ ___76-[PKDashboardPaymentPassDataSource _messagesForAccountStatusWithCompletion:]_block_invoke_2.1048
++ ___76-[PKDashboardPaymentPassDataSource _messagesForAccountStatusWithCompletion:]_block_invoke_3.1100
++ ___76-[PKDashboardPaymentPassDataSource _messagesForAccountStatusWithCompletion:]_block_invoke_4.1123
++ ___76-[PKDashboardPaymentPassDataSource _messagesForAccountStatusWithCompletion:]_block_invoke_5.1127
++ ___76-[PKDashboardPaymentPassDataSource _messagesForAccountStatusWithCompletion:]_block_invoke_6.1130
++ ___76-[PKDashboardPaymentPassDataSource _messagesForAccountStatusWithCompletion:]_block_invoke_7.1134
++ ___76-[PKDashboardPaymentPassDataSource _messagesForAccountStatusWithCompletion:]_block_invoke_8.1141
++ ___76-[PKDashboardPaymentPassDataSource _monthlyTransactionGroupsWithCompletion:]_block_invoke.643
++ ___76-[PKDashboardPaymentPassDataSource _monthlyTransactionGroupsWithCompletion:]_block_invoke.647
++ ___76-[PKDashboardPaymentPassDataSource reloadPhysicalCardsWithNewPhysicalCards:]_block_invoke.603
++ ___76-[PKNewPaymentCredentialProvisioningViewController preflightWithCompletion:]_block_invoke_4
++ ___77-[PKPeerPaymentSetupFlowController _presentTermWithTermsResponse:completion:]_block_invoke.85
++ ___78-[PKDashboardPaymentPassDataSource reloadAccountPendingMembersWithNewMembers:]_block_invoke.627
++ ___80-[PKNewPaymentCredentialProvisioningViewController _applicationDidBecomeActive:]_block_invoke
++ ___81-[PKDashboardPaymentPassDataSource _calculateDiffAndUpdateWithTransactionGroups:]_block_invoke.2291
++ ___81-[PKDashboardPaymentPassDataSource _calculateDiffAndUpdateWithTransactionGroups:]_block_invoke.2292
++ ___82-[PKPeerPaymentSetupFlowController _presentManateeCapableOperationWithCompletion:]_block_invoke.88
++ ___82-[PKPeerPaymentSetupFlowController _presentManateeCapableOperationWithCompletion:]_block_invoke_2.89
++ ___85-[PKDashboardPaymentPassDataSource _messageForPeerPaymentVerificationWithCompletion:]_block_invoke
++ ___85-[PKDashboardPaymentPassDataSource _messageForPeerPaymentVerificationWithCompletion:]_block_invoke_2
++ ___85-[PKDashboardPaymentPassDataSource _messageForPeerPaymentVerificationWithCompletion:]_block_invoke_3
++ ___85-[PKDashboardPaymentPassDataSource _messageForPeerPaymentVerificationWithCompletion:]_block_invoke_4
++ ___85-[PKDashboardPaymentPassDataSource _messageForPeerPaymentVerificationWithCompletion:]_block_invoke_5
++ ___85-[PKDashboardPaymentPassDataSource issuerInstallmentDashboardMessagesWithCompletion:]_block_invoke.2301
++ ___85-[PKDashboardPaymentPassDataSource issuerInstallmentDashboardMessagesWithCompletion:]_block_invoke_2.2302
++ ___85-[PKDashboardPaymentPassDataSource issuerInstallmentDashboardMessagesWithCompletion:]_block_invoke_3.2303
++ ___85-[PKDashboardPaymentPassDataSource issuerInstallmentDashboardMessagesWithCompletion:]_block_invoke_4.2304
++ ___86-[PKNewPaymentCredentialProvisioningViewController _requestAuthWithReason:completion:]_block_invoke
++ ___86-[PKNewPaymentCredentialProvisioningViewController _requestAuthWithReason:completion:]_block_invoke_2
++ ___88-[PKPeerPaymentSetupFlowController viewControllerForIdentityVerificationWithCompletion:]_block_invoke
++ ___88-[PKPeerPaymentSetupFlowController viewControllerForIdentityVerificationWithCompletion:]_block_invoke_2
++ ___89-[PKPeerPaymentSetupFlowController _presentIdentityVerificationFlowWithError:completion:]_block_invoke.101
++ ___89-[PKPeerPaymentSetupFlowController _presentIdentityVerificationFlowWithError:completion:]_block_invoke_2.104
++ ___89-[PKPeerPaymentSetupFlowController _presentIdentityVerificationFlowWithError:completion:]_block_invoke_3.105
++ ___89-[PKPeerPaymentSetupFlowController _presentIdentityVerificationFlowWithError:completion:]_block_invoke_4.108
++ ___93-[PKPeerPaymentSetupFlowController pushIdentityVerificationControllerOnNavigationController:]_block_invoke
++ ___93-[PKPeerPaymentSetupFlowController pushIdentityVerificationControllerOnNavigationController:]_block_invoke_2
++ ___94-[PKDashboardPaymentPassDataSource reloadAccountUserInvitationsWithNewAccountUserInvitations:]_block_invoke.618
++ ___94-[PKPassbookSettingsController _checkPairedDeviceSupportOfHiddenPassesAndRefreshUIIfNecessary]_block_invoke.802
++ ___94-[PKPassbookSettingsController _performPhoneToWatchProvisioningForPaymentPass:withCompletion:]_block_invoke.876
++ ___94-[PKPassbookSettingsController _performPhoneToWatchProvisioningForPaymentPass:withCompletion:]_block_invoke_2.877
++ ___95-[PKPeerPaymentIdentityVerificationExplanationViewController explanationViewDidSelectContinue:]_block_invoke.51
++ ___95-[PKPeerPaymentIdentityVerificationExplanationViewController explanationViewDidSelectContinue:]_block_invoke.65
++ ___95-[PKPeerPaymentSetupFlowController _willDisplayErrorForOperationOperationInContext:completion:]_block_invoke.131
++ ___95-[PKPeerPaymentSetupFlowController _willDisplayErrorForOperationOperationInContext:completion:]_block_invoke.138
++ ___95-[PKPeerPaymentSetupFlowController _willDisplayErrorForOperationOperationInContext:completion:]_block_invoke.145
++ ___95-[PKPeerPaymentSetupFlowController _willDisplayErrorForOperationOperationInContext:completion:]_block_invoke.165
++ ___95-[PKPeerPaymentSetupFlowController _willDisplayErrorForOperationOperationInContext:completion:]_block_invoke.172
++ ___95-[PKPeerPaymentSetupFlowController _willDisplayErrorForOperationOperationInContext:completion:]_block_invoke.173
++ ___95-[PKPeerPaymentSetupFlowController _willDisplayErrorForOperationOperationInContext:completion:]_block_invoke_2.158
++ ___96+[PKPaymentAuthorizationController paymentServicesMerchantURLForAPIType:isDelegated:completion:]_block_invoke
++ ___block_descriptor_40_e8_32r_e32_v16?0"PKDashboardPassMessage"8lr32l8
++ ___block_descriptor_440_e8_32s40s48s56s64s72s80s88s96s104s112s120s128s136s144s152s160s168s176s184s192s200s208s216r224r232r240r248r256r264r272r280r288r296r304r312r320r328r336r344r352r360r368r376r384r392r400r408r416r424r432w_e5_v8?0lw432l8s32l8s40l8r216l8r224l8r232l8r240l8r248l8s48l8s56l8r256l8r264l8r272l8r280l8r288l8s64l8s72l8s80l8s88l8s96l8r296l8s104l8s112l8r304l8r312l8r320l8r328l8r336l8r344l8s120l8s128l8s136l8s144l8s152l8r352l8r360l8r368l8s160l8s168l8r376l8r384l8r392l8r400l8r408l8s176l8s184l8r416l8r424l8s192l8s200l8s208l8
++ ___block_descriptor_48_e8_32bs40w_e63_v24?0"PKPeerPaymentIdentityVerificationResponse"8"NSError"16lw40l8s32l8
++ ___block_descriptor_72_e8_32s40s48bs56r64w_e18_v16?0"NSNumber"8ls32l8r56l8s40l8w64l8s48l8
++ ___block_literal_global.1103
++ ___block_literal_global.1167
++ ___block_literal_global.1226
++ ___block_literal_global.1349
++ ___block_literal_global.1352
++ ___block_literal_global.1445
++ ___block_literal_global.1455
++ ___block_literal_global.1459
++ ___block_literal_global.1733
++ ___block_literal_global.1753
++ ___block_literal_global.1765
++ ___block_literal_global.1786
++ ___block_literal_global.1797
++ ___block_literal_global.1818
++ ___block_literal_global.1831
++ ___block_literal_global.1948
++ ___block_literal_global.2143
++ ___block_literal_global.2221
++ ___block_literal_global.289
++ ___block_literal_global.3299
++ ___block_literal_global.3303
++ ___block_literal_global.3358
++ ___block_literal_global.3364
++ ___block_literal_global.3371
++ ___block_literal_global.425
++ ___block_literal_global.514
++ ___block_literal_global.539
++ ___block_literal_global.541
++ ___block_literal_global.593
++ ___block_literal_global.598
++ ___block_literal_global.614
++ ___block_literal_global.621
++ ___block_literal_global.623
++ ___block_literal_global.632
++ ___block_literal_global.640
++ ___block_literal_global.645
++ ___block_literal_global.646
++ ___block_literal_global.661
++ ___block_literal_global.667
++ ___block_literal_global.712
++ ___block_literal_global.855
++ ___block_literal_global.881
++ ___block_literal_global.893
++ _get_witness_table 7SwiftUI14GeometryReaderVyAA15ModifiedContentVyAEyAA6VStackVyAA12ViewThatFitsVyAA05TupleH0Vy07PassKitB0020DynamicPaymentButtonH7CardArt33_17D584437EA070ADEF2D60B8B27939E1LLVSg_A2OtGGGAA12_FrameLayoutVGAA19_BackgroundModifierVyAA6ZStackVyAKyAA06_ShapeH0VyAA16RoundedRectangleVAA5ColorVG_AA017StrokeBorderShapeH0VyA2_A4_AA05EmptyH0VGSgtGGGGGAA0H0HPyHC.5
++ _objc_msgSend$_autoFillCredentialForCurrentProvisioning
++ _objc_msgSend$_continueSetupFlow
++ _objc_msgSend$_messageForPeerPaymentVerificationWithCompletion:
++ _objc_msgSend$_messageForVirtualCardEnabled
++ _objc_msgSend$_prefillCVVAfterAuthentication
++ _objc_msgSend$_requestAuthWithReason:completion:
++ _objc_msgSend$_requestCVVAuthenticationIfNeededWithCompletion:
++ _objc_msgSend$_requiresAuthForCVV
++ _objc_msgSend$allowsInlineIdentityVerification
++ _objc_msgSend$fpanCredentialForPrimaryAccountIdentifier:passUniqueID:credential:error:
++ _objc_msgSend$paymentServicesMerchantURLForAPIType:isDelegated:completion:
++ _objc_msgSend$peerPaymentAccountResolutionController
++ _objc_msgSend$prefillValuesWithPaymentCredential:targetDevice:
++ _objc_msgSend$pushIdentityVerificationControllerOnNavigationController:
++ _objc_msgSend$setAllowsInlineIdentityVerification:
++ _objc_msgSend$setDisableCVVPrefill:
++ _objc_msgSend$setPeerPaymentSubType:
++ _objc_msgSend$setShowNotNow:
++ _objc_msgSend$setUsePhotoIDImage:
++ _objc_msgSend$shouldOfferIdentityVerification
++ _objc_msgSend$viewControllerForIdentityVerificationWithCompletion:
++ _symbolic _____yAAy_____y_____y_____y_____Sg_A2EtGGG_____G_____y_____yADy_____y__________G______yAoP_____GSgtGGGG 7SwiftUI15ModifiedContentV AA6VStackV AA12ViewThatFitsV AA05TupleF0V 07PassKitB0020DynamicPaymentButtonF7CardArt33_17D584437EA070ADEF2D60B8B27939E1LLV AA12_FrameLayoutV AA19_BackgroundModifierV AA6ZStackV AA06_ShapeF0V AA16RoundedRectangleV AA5ColorV AA017StrokeBorderShapeF0V AA05EmptyF0V
++ _symbolic _____y__________G______yAbC_____GSgt 7SwiftUI10_ShapeViewV AA16RoundedRectangleV AA5ColorV AA012StrokeBordercD0V AA05EmptyD0V
++ _symbolic _____y_______________GSg 7SwiftUI21StrokeBorderShapeViewV AA16RoundedRectangleV AA5ColorV AA05EmptyF0V
++ _symbolic _____y___________y_____y__________G______yAeF_____GSgtGG 7SwiftUI13_VariadicViewO4TreeV AA13_ZStackLayoutV AA05TupleD0V AA06_ShapeD0V AA16RoundedRectangleV AA5ColorV AA012StrokeBorderiD0V AA05EmptyD0V
++ _symbolic _____y_____yABy_____y_____y_____y_____Sg_A2FtGGG_____G_____y_____yAEy_____y__________G______yApQ_____GSgtGGGGG 7SwiftUI14GeometryReaderV AA15ModifiedContentV AA6VStackV AA12ViewThatFitsV AA05TupleH0V 07PassKitB0020DynamicPaymentButtonH7CardArt33_17D584437EA070ADEF2D60B8B27939E1LLV AA12_FrameLayoutV AA19_BackgroundModifierV AA6ZStackV AA06_ShapeH0V AA16RoundedRectangleV AA5ColorV AA017StrokeBorderShapeH0V AA05EmptyH0V
++ _symbolic _____y_____y_____y_____y__________G______yAeF_____GSgtGGG 7SwiftUI19_BackgroundModifierV AA6ZStackV AA9TupleViewV AA06_ShapeG0V AA16RoundedRectangleV AA5ColorV AA012StrokeBorderhG0V AA05EmptyG0V
+- -[PKPaymentAddDebitCardViewController _setupLater]
+- -[PKPaymentAddDebitCardViewController _terminateSetupFlow]
+- -[PKPaymentAddDebitCardViewController paymentSetupDidFinish:]
+- GCC_except_table215
+- GCC_except_table220
+- GCC_except_table227
+- GCC_except_table232
+- GCC_except_table237
+- GCC_except_table260
+- GCC_except_table264
+- GCC_except_table267
+- GCC_except_table274
+- GCC_except_table278
+- GCC_except_table282
+- GCC_except_table288
+- GCC_except_table299
+- GCC_except_table304
+- GCC_except_table333
+- GCC_except_table335
+- GCC_except_table337
+- GCC_except_table339
+- GCC_except_table341
+- GCC_except_table347
+- GCC_except_table356
+- GCC_except_table359
+- GCC_except_table361
+- GCC_except_table372
+- GCC_except_table382
+- GCC_except_table385
+- GCC_except_table396
+- GCC_except_table405
+- GCC_except_table407
+- GCC_except_table423
+- GCC_except_table427
+- GCC_except_table448
+- GCC_except_table450
+- GCC_except_table465
+- GCC_except_table481
+- GCC_except_table488
+- GCC_except_table504
+- GCC_except_table506
+- GCC_except_table509
+- GCC_except_table511
+- GCC_except_table513
+- GCC_except_table523
+- GCC_except_table524
+- GCC_except_table552
+- GCC_except_table558
+- GCC_except_table569
+- GCC_except_table572
+- GCC_except_table616
+- GCC_except_table619
+- GCC_except_table628
+- GCC_except_table630
+- GCC_except_table637
+- GCC_except_table642
+- GCC_except_table646
+- ___105-[PKDashboardPaymentPassDataSource _messageForPeerPaymentAssociatedAccountStateChangedForSecurityReasons]_block_invoke.1227
+- ___46-[PKPassbookSettingsController _fetchAccounts]_block_invoke.786
+- ___55-[PKDashboardPaymentPassDataSource reloadFrontmostPass]_block_invoke.411
+- ___55-[PKDashboardPaymentPassDataSource reloadFrontmostPass]_block_invoke.428
+- ___55-[PKDashboardPaymentPassDataSource reloadFrontmostPass]_block_invoke_2.412
+- ___55-[PKDashboardPaymentPassDataSource reloadFrontmostPass]_block_invoke_2.429
+- ___57-[PKDashboardPaymentPassDataSource _lostModeButtonTapped]_block_invoke.2102
+- ___64-[PKDashboardPaymentPassDataSource reloadAccountWithNewAccount:]_block_invoke.569
+- ___64-[PKDashboardPaymentPassDataSource reloadAccountWithNewAccount:]_block_invoke.578
+- ___64-[PKDashboardPaymentPassDataSource reloadAccountWithNewAccount:]_block_invoke_2.570
+- ___64-[PKDashboardPaymentPassDataSource reloadAccountWithNewAccount:]_block_invoke_2.579
+- ___64-[PKDashboardPaymentPassDataSource reloadAccountWithNewAccount:]_block_invoke_3.571
+- ___65-[PKDashboardPaymentPassDataSource _addToAMPButtonTappedForPass:]_block_invoke.2134
+- ___65-[PKDashboardPaymentPassDataSource _addToAMPButtonTappedForPass:]_block_invoke_2.2147
+- ___65-[PKDashboardPaymentPassDataSource _messageForFirstMonthCoOwners]_block_invoke.1798
+- ___65-[PKDashboardPaymentPassDataSource _updateWithTransactionGroups:]_block_invoke.645
+- ___65-[PKDashboardPaymentPassDataSource loadSummariesWithForceReload:]_block_invoke.626
+- ___65-[PKDashboardPaymentPassDataSource loadSummariesWithForceReload:]_block_invoke.631
+- ___65-[PKPeerPaymentActionController performActionWithCurrencyAmount:]_block_invoke.123
+- ___65-[PKPeerPaymentActionController performActionWithCurrencyAmount:]_block_invoke_2.124
+- ___65-[PKPeerPaymentActionController performActionWithCurrencyAmount:]_block_invoke_3.126
+- ___65-[PKPeerPaymentActionController performActionWithCurrencyAmount:]_block_invoke_4.127
+- ___66-[PKDashboardPaymentPassDataSource _fetchAMPEnrollmentEligibility]_block_invoke.2121
+- ___66-[PKDashboardPaymentPassDataSource _fetchAMPEnrollmentEligibility]_block_invoke.2126
+- ___66-[PKDashboardPaymentPassDataSource _fetchAMPEnrollmentEligibility]_block_invoke_2.2127
+- ___69-[PKPassbookSettingsController _registerForPeerPaymentWithSpecifier:]_block_invoke.719
+- ___69-[PKPeerPaymentActionController _presentTermsAndConditionsWithError:]_block_invoke.189
+- ___69-[PKPeerPaymentActionController _presentTermsAndConditionsWithError:]_block_invoke.190
+- ___70-[PKPeerPaymentSetupFlowController _nextViewControllerWithCompletion:]_block_invoke.45
+- ___70-[PKPeerPaymentSetupFlowController _nextViewControllerWithCompletion:]_block_invoke.47
+- ___70-[PKPeerPaymentSetupFlowController _nextViewControllerWithCompletion:]_block_invoke.49
+- ___70-[PKPeerPaymentSetupFlowController _nextViewControllerWithCompletion:]_block_invoke.54
+- ___70-[PKPeerPaymentSetupFlowController _nextViewControllerWithCompletion:]_block_invoke_2.48
+- ___70-[PKPeerPaymentSetupFlowController _nextViewControllerWithCompletion:]_block_invoke_2.51
+- ___70-[PKPeerPaymentSetupFlowController _nextViewControllerWithCompletion:]_block_invoke_2.55
+- ___71-[PKPassbookSettingsController _unregisterForPeerPaymentWithSpecifier:]_block_invoke.762
+- ___71-[PKPeerPaymentActionController _presentIdentityVerificationWithError:]_block_invoke.188
+- ___71-[PKPeerPaymentSetupFlowController _handleDisplayableError:completion:]_block_invoke.59
+- ___71-[PKPeerPaymentSetupFlowController _handleDisplayableError:completion:]_block_invoke.60
+- ___71-[PKPeerPaymentSetupFlowController _handleDisplayableError:completion:]_block_invoke.74
+- ___71-[PKPeerPaymentSetupFlowController _handleDisplayableError:completion:]_block_invoke.75
+- ___71-[PKPeerPaymentSetupFlowController _handleDisplayableError:completion:]_block_invoke_2.72
+- ___71-[PKPeerPaymentSetupFlowController _handleDisplayableError:completion:]_block_invoke_2.76
+- ___72-[PKDashboardPassGroupViewController presentSearchWithQuery:completion:]_block_invoke.356
+- ___72-[PKDashboardPassGroupViewController presentSearchWithQuery:completion:]_block_invoke_2.357
+- ___72-[PKPeerPaymentSetupFlowController _addAssociatedAccountWithCompletion:]_block_invoke.107
+- ___72-[PKPeerPaymentSetupFlowController _addAssociatedAccountWithCompletion:]_block_invoke_2.108
+- ___73-[PKDashboardPaymentPassDataSource _presentLegalAgreement:userConsented:]_block_invoke.1815
+- ___73-[PKDashboardPaymentPassDataSource _presentLegalAgreement:userConsented:]_block_invoke_2.1816
+- ___74-[PKDashboardPaymentPassDataSource _messagesForPeerPaymentPendingRequests]_block_invoke.1566
+- ___74-[PKDashboardPaymentPassDataSource _messagesForPeerPaymentPendingRequests]_block_invoke_2.1570
+- ___75-[PKDashboardPaymentPassDataSource _yearlyTransactionGroupsWithCompletion:]_block_invoke.639
+- ___76-[PKDashboardPaymentPassDataSource _messageForInterestChargeWithCompletion:]_block_invoke.1318
+- ___76-[PKDashboardPaymentPassDataSource _messagesForAccountStatusWithCompletion:]_block_invoke.1028
+- ___76-[PKDashboardPaymentPassDataSource _messagesForAccountStatusWithCompletion:]_block_invoke.968
+- ___76-[PKDashboardPaymentPassDataSource _messagesForAccountStatusWithCompletion:]_block_invoke_2.1045
+- ___76-[PKDashboardPaymentPassDataSource _messagesForAccountStatusWithCompletion:]_block_invoke_3.1097
+- ___76-[PKDashboardPaymentPassDataSource _messagesForAccountStatusWithCompletion:]_block_invoke_4.1120
+- ___76-[PKDashboardPaymentPassDataSource _messagesForAccountStatusWithCompletion:]_block_invoke_5.1124
+- ___76-[PKDashboardPaymentPassDataSource _messagesForAccountStatusWithCompletion:]_block_invoke_6.1127
+- ___76-[PKDashboardPaymentPassDataSource _messagesForAccountStatusWithCompletion:]_block_invoke_7.1131
+- ___76-[PKDashboardPaymentPassDataSource _messagesForAccountStatusWithCompletion:]_block_invoke_8.1138
+- ___76-[PKDashboardPaymentPassDataSource _monthlyTransactionGroupsWithCompletion:]_block_invoke.640
+- ___76-[PKDashboardPaymentPassDataSource _monthlyTransactionGroupsWithCompletion:]_block_invoke.644
+- ___76-[PKDashboardPaymentPassDataSource reloadPhysicalCardsWithNewPhysicalCards:]_block_invoke.600
+- ___77-[PKPeerPaymentSetupFlowController _presentTermWithTermsResponse:completion:]_block_invoke.79
+- ___78-[PKDashboardPaymentPassDataSource reloadAccountPendingMembersWithNewMembers:]_block_invoke.624
+- ___81-[PKDashboardPaymentPassDataSource _calculateDiffAndUpdateWithTransactionGroups:]_block_invoke.2264
+- ___81-[PKDashboardPaymentPassDataSource _calculateDiffAndUpdateWithTransactionGroups:]_block_invoke.2265
+- ___82-[PKPassbookSettingsController _requestAuthForShowingAutoFillCardsWithCompletion:]_block_invoke_2
+- ___82-[PKPeerPaymentSetupFlowController _presentManateeCapableOperationWithCompletion:]_block_invoke.82
+- ___82-[PKPeerPaymentSetupFlowController _presentManateeCapableOperationWithCompletion:]_block_invoke_2.83
+- ___85-[PKDashboardPaymentPassDataSource issuerInstallmentDashboardMessagesWithCompletion:]_block_invoke.2274
+- ___85-[PKDashboardPaymentPassDataSource issuerInstallmentDashboardMessagesWithCompletion:]_block_invoke_2.2275
+- ___85-[PKDashboardPaymentPassDataSource issuerInstallmentDashboardMessagesWithCompletion:]_block_invoke_3.2276
+- ___85-[PKDashboardPaymentPassDataSource issuerInstallmentDashboardMessagesWithCompletion:]_block_invoke_4.2277
+- ___89-[PKPeerPaymentSetupFlowController _presentIdentityVerificationFlowWithError:completion:]_block_invoke.97
+- ___89-[PKPeerPaymentSetupFlowController _presentIdentityVerificationFlowWithError:completion:]_block_invoke_2.101
+- ___89-[PKPeerPaymentSetupFlowController _presentIdentityVerificationFlowWithError:completion:]_block_invoke_3.102
+- ___89-[PKPeerPaymentSetupFlowController _presentIdentityVerificationFlowWithError:completion:]_block_invoke_4.105
+- ___94-[PKDashboardPaymentPassDataSource reloadAccountUserInvitationsWithNewAccountUserInvitations:]_block_invoke.615
+- ___94-[PKPassbookSettingsController _checkPairedDeviceSupportOfHiddenPassesAndRefreshUIIfNecessary]_block_invoke.801
+- ___94-[PKPassbookSettingsController _performPhoneToWatchProvisioningForPaymentPass:withCompletion:]_block_invoke.874
+- ___94-[PKPassbookSettingsController _performPhoneToWatchProvisioningForPaymentPass:withCompletion:]_block_invoke_2.876
+- ___95-[PKPeerPaymentIdentityVerificationExplanationViewController explanationViewDidSelectContinue:]_block_invoke.45
+- ___95-[PKPeerPaymentIdentityVerificationExplanationViewController explanationViewDidSelectContinue:]_block_invoke.59
+- ___95-[PKPeerPaymentSetupFlowController _willDisplayErrorForOperationOperationInContext:completion:]_block_invoke.128
+- ___95-[PKPeerPaymentSetupFlowController _willDisplayErrorForOperationOperationInContext:completion:]_block_invoke.135
+- ___95-[PKPeerPaymentSetupFlowController _willDisplayErrorForOperationOperationInContext:completion:]_block_invoke.142
+- ___95-[PKPeerPaymentSetupFlowController _willDisplayErrorForOperationOperationInContext:completion:]_block_invoke.162
+- ___95-[PKPeerPaymentSetupFlowController _willDisplayErrorForOperationOperationInContext:completion:]_block_invoke.169
+- ___95-[PKPeerPaymentSetupFlowController _willDisplayErrorForOperationOperationInContext:completion:]_block_invoke.170
+- ___95-[PKPeerPaymentSetupFlowController _willDisplayErrorForOperationOperationInContext:completion:]_block_invoke_2.155
+- ___block_descriptor_432_e8_32s40s48s56s64s72s80s88s96s104s112s120s128s136s144s152s160s168s176s184s192s200s208s216r224r232r240r248r256r264r272r280r288r296r304r312r320r328r336r344r352r360r368r376r384r392r400r408r416r424w_e5_v8?0lw424l8s32l8s40l8r216l8r224l8r232l8r240l8r248l8s48l8s56l8r256l8r264l8r272l8r280l8r288l8s64l8s72l8s80l8s88l8s96l8r296l8s104l8s112l8r304l8r312l8r320l8r328l8r336l8s120l8s128l8s136l8s144l8s152l8r344l8r352l8r360l8s160l8s168l8r368l8r376l8r384l8r392l8r400l8s176l8s184l8r408l8r416l8s192l8s200l8s208l8
+- ___block_literal_global.1100
+- ___block_literal_global.1164
+- ___block_literal_global.1198
+- ___block_literal_global.1322
+- ___block_literal_global.1325
+- ___block_literal_global.1418
+- ___block_literal_global.1453
+- ___block_literal_global.1457
+- ___block_literal_global.1706
+- ___block_literal_global.1726
+- ___block_literal_global.173
+- ___block_literal_global.1738
+- ___block_literal_global.1770
+- ___block_literal_global.1791
+- ___block_literal_global.1804
+- ___block_literal_global.1921
+- ___block_literal_global.2116
+- ___block_literal_global.2194
+- ___block_literal_global.3267
+- ___block_literal_global.3271
+- ___block_literal_global.3326
+- ___block_literal_global.3332
+- ___block_literal_global.3339
+- ___block_literal_global.513
+- ___block_literal_global.538
+- ___block_literal_global.540
+- ___block_literal_global.590
+- ___block_literal_global.595
+- ___block_literal_global.611
+- ___block_literal_global.618
+- ___block_literal_global.620
+- ___block_literal_global.629
+- ___block_literal_global.637
+- ___block_literal_global.643
+- ___block_literal_global.644
+- ___block_literal_global.655
+- ___block_literal_global.666
+- ___block_literal_global.709
+- ___block_literal_global.854
+- ___block_literal_global.880
+- ___block_literal_global.890
+- _get_witness_table 7SwiftUI14GeometryReaderVyAA15ModifiedContentVyAEyAA6VStackVyAA12ViewThatFitsVyAA05TupleH0Vy07PassKitB0020DynamicPaymentButtonH7CardArt33_17D584437EA070ADEF2D60B8B27939E1LLVSg_A2OtGGGAA12_FrameLayoutVGAA19_BackgroundModifierVyAA6ZStackVyAKyAA06_ShapeH0VyAA16RoundedRectangleVAA5ColorVG_AA011StrokeShapeH0VyA2_A4_AA05EmptyH0VGSgtGGGGGAA0H0HPyHC.5
+- _symbolic _____yAAy_____y_____y_____y_____Sg_A2EtGGG_____G_____y_____yADy_____y__________G______yAoP_____GSgtGGGG 7SwiftUI15ModifiedContentV AA6VStackV AA12ViewThatFitsV AA05TupleF0V 07PassKitB0020DynamicPaymentButtonF7CardArt33_17D584437EA070ADEF2D60B8B27939E1LLV AA12_FrameLayoutV AA19_BackgroundModifierV AA6ZStackV AA06_ShapeF0V AA16RoundedRectangleV AA5ColorV AA011StrokeShapeF0V AA05EmptyF0V
+- _symbolic _____y__________G______yAbC_____GSgt 7SwiftUI10_ShapeViewV AA16RoundedRectangleV AA5ColorV AA06StrokecD0V AA05EmptyD0V
+- _symbolic _____y_______________G 7SwiftUI15StrokeShapeViewV AA16RoundedRectangleV AA5ColorV AA05EmptyE0V
+- _symbolic _____y_______________GSg 7SwiftUI15StrokeShapeViewV AA16RoundedRectangleV AA5ColorV AA05EmptyE0V
+- _symbolic _____y___________y_____y__________G______yAeF_____GSgtGG 7SwiftUI13_VariadicViewO4TreeV AA13_ZStackLayoutV AA05TupleD0V AA06_ShapeD0V AA16RoundedRectangleV AA5ColorV AA06StrokeiD0V AA05EmptyD0V
+- _symbolic _____y_____yABy_____y_____y_____y_____Sg_A2FtGGG_____G_____y_____yAEy_____y__________G______yApQ_____GSgtGGGGG 7SwiftUI14GeometryReaderV AA15ModifiedContentV AA6VStackV AA12ViewThatFitsV AA05TupleH0V 07PassKitB0020DynamicPaymentButtonH7CardArt33_17D584437EA070ADEF2D60B8B27939E1LLV AA12_FrameLayoutV AA19_BackgroundModifierV AA6ZStackV AA06_ShapeH0V AA16RoundedRectangleV AA5ColorV AA011StrokeShapeH0V AA05EmptyH0V
+- _symbolic _____y_____y_____y_____y__________G______yAeF_____GSgtGGG 7SwiftUI19_BackgroundModifierV AA6ZStackV AA9TupleViewV AA06_ShapeG0V AA16RoundedRectangleV AA5ColorV AA06StrokehG0V AA05EmptyG0V
+CStrings:
++ "?6OJP"
++ "IDENTITY_VERIFICATION_DASHBOARD_MESSAGE_ACTION"
++ "IDENTITY_VERIFICATION_DASHBOARD_MESSAGE_BODY"
++ "IDENTITY_VERIFICATION_DASHBOARD_MESSAGE_PENDING_ACTION"
++ "IDENTITY_VERIFICATION_DASHBOARD_MESSAGE_PENDING_BODY"
++ "IDENTITY_VERIFICATION_DASHBOARD_MESSAGE_TITLE"
++ "IDENTITY_VERIFICATION_REQUIRED_ERROR_DESCRIPTION"
++ "IDENTITY_VERIFICATION_REQUIRED_ERROR_TITLE"
++ "SETTINGS_PHONE_TO_WATCH_PROVISIONING_AUTHENTICATION_REASON"
++ "T@\"PKPeerPaymentAccountResolutionController\",R,N,V_peerPaymentAccountResolutionController"
++ "TB,N,V_allowsInlineIdentityVerification"
++ "_allowsInlineIdentityVerification"
++ "_applicationDidBecomeActive:"
++ "_autoFillCredentialForCurrentProvisioning"
++ "_continueSetupFlow"
++ "_hasCompletedCVVAuth"
++ "_identityVerificationController"
++ "_messageForPeerPaymentVerificationWithCompletion:"
++ "_messageForVirtualCardEnabled"
++ "_prefillCVVAfterAuthentication"
++ "_requestAuthWithReason:completion:"
++ "_requestCVVAuthenticationIfNeededWithCompletion:"
++ "_requiresAuthForCVV"
++ "allowsInlineIdentityVerification"
++ "paymentServicesMerchantURLForAPIType:isDelegated:completion:"
++ "peerPaymentAccountResolutionController"
++ "peerPaymentCIP"
++ "prefillValuesWithPaymentCredential:targetDevice:"
++ "pushIdentityVerificationControllerOnNavigationController:"
++ "setAllowsInlineIdentityVerification:"
++ "setDisableCVVPrefill:"
++ "setPeerPaymentSubType:"
++ "setShowNotNow:"
++ "setUsePhotoIDImage:"
++ "shouldOfferIdentityVerification"
++ "viewControllerForIdentityVerificationWithCompletion:"
+- "?6OIP"
+
+```

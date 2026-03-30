@@ -1,0 +1,68 @@
+## PodcastsTranscripts
+
+> `/private/var/staged_system_apps/Podcasts.app/Frameworks/PodcastsTranscripts.framework/PodcastsTranscripts`
+
+```diff
+
+-4025.510.6.0.0
+-  __TEXT.__text: 0x9949c
++4025.600.4.0.0
++  __TEXT.__text: 0x997b8
+   __TEXT.__auth_stubs: 0x36e0
+   __TEXT.__objc_stubs: 0x2560
+   __TEXT.__objc_methlist: 0x924
+   __TEXT.__const: 0x75c8
+   __TEXT.__objc_classname: 0x9ba
+   __TEXT.__objc_methname: 0x3bdf
+-  __TEXT.__swift5_typeref: 0x529a
++  __TEXT.__swift5_typeref: 0x5332
+   __TEXT.__constg_swiftt: 0x1dc8
+   __TEXT.__swift5_builtin: 0x12c
+   __TEXT.__swift5_reflstr: 0x1b73
+
+   __TEXT.__unwind_info: 0x2168
+   __TEXT.__eh_frame: 0x1608
+   __DATA_CONST.__auth_got: 0x1b78
+-  __DATA_CONST.__got: 0xe18
+-  __DATA_CONST.__auth_ptr: 0xec0
++  __DATA_CONST.__got: 0xe28
++  __DATA_CONST.__auth_ptr: 0xec8
+   __DATA_CONST.__const: 0x40e8
+   __DATA_CONST.__objc_classlist: 0x108
+   __DATA_CONST.__objc_catlist: 0x8
+
+   __DATA.__objc_const: 0x3088
+   __DATA.__objc_selrefs: 0xce0
+   __DATA.__objc_data: 0x11b8
+-  __DATA.__data: 0x40b8
++  __DATA.__data: 0x40d8
+   __DATA.__bss: 0x53e8
+   __DATA.__common: 0xb8
+   - /System/Library/Frameworks/AVFAudio.framework/AVFAudio
+
+   - @rpath/PodcastsActions.framework/PodcastsActions
+   - @rpath/PodcastsPlayback.framework/PodcastsPlayback
+   - @rpath/ShelfKit.framework/ShelfKit
+-  UUID: 10A2A629-BE80-3D81-8717-3251E57EFE0B
+-  Functions: 3143
+-  Symbols:   1956
++  UUID: 45693218-CB4A-3082-8E87-F9E7EC44B237
++  Functions: 3146
++  Symbols:   1958
+   CStrings:  831
+ 
+Symbols:
++ _symbolic _____yAAyAAyAAy__________G_____G_____y_____GG_____G 7SwiftUI15ModifiedContentV AA4TextV 19PodcastsTranscripts0eD4ViewV010TranscriptD4FontV AA16_BlendModeEffectV AA24_ForegroundStyleModifierV AA08AnyShapeO0V AA033_AccessibilityIgnoresInvertColorshP0V
++ _symbolic _____yAAyAAyAAy_____y_____y__________yAAyAAyAD_____G_____y_____GG_AKtGGG_____G_____G_____ySny_____GSgGG_____y_____GG 7SwiftUI15ModifiedContentV AA6ZStackV AA012_ConditionalD0V AA4TextV AA9TupleViewV AA16_BlendModeEffectV AA01_g8RendererI8ModifierV 19PodcastsTranscripts010TranscriptgdM0V AA033_AccessibilityIgnoresInvertColorsiN0V AP0gdI0V0qD4FontV AA010_AnimationN0V SS5IndexV AA017_PreferenceActionN0V AI9LayoutKeyV
++ _symbolic _____yAAyAAy_____y_____y__________yAAyAAyAD_____G_____y_____GG_AKtGGG_____G_____G_____ySny_____GSgGG 7SwiftUI15ModifiedContentV AA6ZStackV AA012_ConditionalD0V AA4TextV AA9TupleViewV AA16_BlendModeEffectV AA01_g8RendererI8ModifierV 19PodcastsTranscripts010TranscriptgdM0V AA033_AccessibilityIgnoresInvertColorsiN0V AP0gdI0V0qD4FontV AA010_AnimationN0V SS5IndexV
++ _symbolic _____yAAy_____y_____y__________yAAyAAyAD_____G_____y_____GG_AKtGGG_____G_____G 7SwiftUI15ModifiedContentV AA6ZStackV AA012_ConditionalD0V AA4TextV AA9TupleViewV AA16_BlendModeEffectV AA01_g8RendererI8ModifierV 19PodcastsTranscripts010TranscriptgdM0V AA033_AccessibilityIgnoresInvertColorsiN0V AP0gdI0V0qD4FontV
++ _symbolic _____y_____y_____y__________yAAyAAyAD_____G_____y_____GG_AKtGGG_____G 7SwiftUI15ModifiedContentV AA6ZStackV AA012_ConditionalD0V AA4TextV AA9TupleViewV AA16_BlendModeEffectV AA01_g8RendererI8ModifierV 19PodcastsTranscripts010TranscriptgdM0V AA033_AccessibilityIgnoresInvertColorsiN0V
++ get_witness_table 7SwiftUI15ModifiedContentVyACyACyACyAA4TextV19PodcastsTranscripts0eD4ViewV010TranscriptD4FontVGAA16_BlendModeEffectVGAA24_ForegroundStyleModifierVyAA08AnyShapeO0VGGAA033_AccessibilityIgnoresInvertColorshP0VGAA0H0HPAtaXHPAnaXHPAkaXHPAeaXHPyHC_AjA0hP0HPyHCHC_AmaYHPyHCHC_AsaYHPyHCHC_AvaYHPyHCHC.7
++ get_witness_table 7SwiftUI15ModifiedContentVyACyACyACyAA6ZStackVyAA012_ConditionalD0VyAA4TextVAA9TupleViewVyACyACyAiA16_BlendModeEffectVGAA01_g8RendererI8ModifierVy19PodcastsTranscripts010TranscriptgdM0VGG_AUtGGGAA033_AccessibilityIgnoresInvertColorsiN0VGAQ0gdI0V0qD4FontVGAA010_AnimationN0VySnySS5IndexVGSgGGAA017_PreferenceActionN0VyAI9LayoutKeyVGGAA0I0HPA12_AAA19_HPA4_AAA19_HPA_AAA19_HPAxAA19_HPyHC_AzA0iN0HPyHCHC_A3_AAA20_HPyHCHC_A11_AAA20_HPyHCHC_A17_AAA20_HPyHCHC.17
+- _symbolic _____yAAyAAy_____y_____y__________yAAyAAyAD_____G_____y_____GG_AKtGGG_____G_____ySny_____GSgGG_____y_____GG 7SwiftUI15ModifiedContentV AA6ZStackV AA012_ConditionalD0V AA4TextV AA9TupleViewV AA16_BlendModeEffectV AA01_g8RendererI8ModifierV 19PodcastsTranscripts010TranscriptgdM0V AP0gdI0V0qD4FontV AA010_AnimationN0V SS5IndexV AA017_PreferenceActionN0V AI9LayoutKeyV
+- _symbolic _____yAAy_____y_____y__________yAAyAAyAD_____G_____y_____GG_AKtGGG_____G_____ySny_____GSgGG 7SwiftUI15ModifiedContentV AA6ZStackV AA012_ConditionalD0V AA4TextV AA9TupleViewV AA16_BlendModeEffectV AA01_g8RendererI8ModifierV 19PodcastsTranscripts010TranscriptgdM0V AP0gdI0V0qD4FontV AA010_AnimationN0V SS5IndexV
+- _symbolic _____y_____y_____y__________yAAyAAyAD_____G_____y_____GG_AKtGGG_____G 7SwiftUI15ModifiedContentV AA6ZStackV AA012_ConditionalD0V AA4TextV AA9TupleViewV AA16_BlendModeEffectV AA01_g8RendererI8ModifierV 19PodcastsTranscripts010TranscriptgdM0V AP0gdI0V0qD4FontV
+- get_witness_table 7SwiftUI15ModifiedContentVyACyACyAA4TextV19PodcastsTranscripts0eD4ViewV010TranscriptD4FontVGAA16_BlendModeEffectVGAA24_ForegroundStyleModifierVyAA08AnyShapeO0VGGAA0H0HPAnaUHPAkaUHPAeaUHPyHC_AjA0hP0HPyHCHC_AmaVHPyHCHC_AsaVHPyHCHC.7
+- get_witness_table 7SwiftUI15ModifiedContentVyACyACyAA6ZStackVyAA012_ConditionalD0VyAA4TextVAA9TupleViewVyACyACyAiA16_BlendModeEffectVGAA01_g8RendererI8ModifierVy19PodcastsTranscripts010TranscriptgdM0VGG_AUtGGGAQ0gdI0V0qD4FontVGAA010_AnimationN0VySnySS5IndexVGSgGGAA017_PreferenceActionN0VyAI9LayoutKeyVGGAA0I0HPA9_AAA16_HPA1_AAA16_HPAxAA16_HPyHC_A0_AA0iN0HPyHCHC_A8_AAA17_HPyHCHC_A14_AAA17_HPyHCHC.17
+
+```

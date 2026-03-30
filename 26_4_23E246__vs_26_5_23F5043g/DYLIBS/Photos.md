@@ -1,0 +1,410 @@
+## Photos
+
+> `/System/Library/Frameworks/Photos.framework/Photos`
+
+```diff
+
+-842.0.102.0.0
+-  __TEXT.__text: 0x2af108
++850.0.100.0.0
++  __TEXT.__text: 0x2af138
+   __TEXT.__auth_stubs: 0x2b60
+   __TEXT.__objc_methlist: 0x2474c
+   __TEXT.__const: 0x11d0
+
+   __TEXT.__objc_classname: 0x3855
+   __TEXT.__objc_methname: 0x6c9bf
+   __TEXT.__objc_methtype: 0x6e4f
+-  __TEXT.__objc_stubs: 0x3a980
++  __TEXT.__objc_stubs: 0x3a9a0
+   __DATA_CONST.__got: 0x2768
+   __DATA_CONST.__const: 0x7fa8
+   __DATA_CONST.__objc_classlist: 0xdc8
+
+   __DATA_CONST.__objc_selrefs: 0x13310
+   __DATA_CONST.__objc_protorefs: 0x48
+   __DATA_CONST.__objc_superrefs: 0xb48
+-  __DATA_CONST.__objc_arraydata: 0x978
++  __DATA_CONST.__objc_arraydata: 0x988
+   __AUTH_CONST.__auth_got: 0x15c0
+   __AUTH_CONST.__const: 0x3e68
+   __AUTH_CONST.__cfstring: 0x288a0
+   __AUTH_CONST.__objc_const: 0x3db00
+-  __AUTH_CONST.__objc_intobj: 0x2088
+-  __AUTH_CONST.__objc_arrayobj: 0x6f0
++  __AUTH_CONST.__objc_intobj: 0x20b8
++  __AUTH_CONST.__objc_arrayobj: 0x708
+   __AUTH_CONST.__objc_doubleobj: 0x130
+   __AUTH_CONST.__objc_dictobj: 0xf0
+   __AUTH.__objc_data: 0x6e48
+
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 7FB046E3-2F63-399E-98F1-6EEFAD4FD8CC
++  UUID: 60167B30-711D-3EED-9EF5-E9A56A858911
+   Functions: 13686
+-  Symbols:   45697
++  Symbols:   45698
+   CStrings:  29228
+ 
+Symbols:
++ _SensitiveContentAnalysisLibraryCore.frameworkLibrary.36813
++ ___Block_byref_object_copy_.34882
++ ___Block_byref_object_copy_.35311
++ ___Block_byref_object_copy_.35890
++ ___Block_byref_object_copy_.36167
++ ___Block_byref_object_copy_.37104
++ ___Block_byref_object_copy_.37604
++ ___Block_byref_object_copy_.39234
++ ___Block_byref_object_copy_.39791
++ ___Block_byref_object_copy_.43873
++ ___Block_byref_object_copy_.44298
++ ___Block_byref_object_copy_.44509
++ ___Block_byref_object_copy_.44738
++ ___Block_byref_object_copy_.46082
++ ___Block_byref_object_copy_.46490
++ ___Block_byref_object_copy_.47008
++ ___Block_byref_object_copy_.47316
++ ___Block_byref_object_copy_.47690
++ ___Block_byref_object_copy_.48177
++ ___Block_byref_object_copy_.48681
++ ___Block_byref_object_copy_.49561
++ ___Block_byref_object_copy_.49759
++ ___Block_byref_object_copy_.49969
++ ___Block_byref_object_copy_.50006
++ ___Block_byref_object_copy_.52175
++ ___Block_byref_object_copy_.52476
++ ___Block_byref_object_copy_.53210
++ ___Block_byref_object_copy_.54012
++ ___Block_byref_object_dispose_.34883
++ ___Block_byref_object_dispose_.35312
++ ___Block_byref_object_dispose_.35891
++ ___Block_byref_object_dispose_.36168
++ ___Block_byref_object_dispose_.37105
++ ___Block_byref_object_dispose_.37605
++ ___Block_byref_object_dispose_.39235
++ ___Block_byref_object_dispose_.39792
++ ___Block_byref_object_dispose_.43874
++ ___Block_byref_object_dispose_.44299
++ ___Block_byref_object_dispose_.44510
++ ___Block_byref_object_dispose_.44739
++ ___Block_byref_object_dispose_.46083
++ ___Block_byref_object_dispose_.46491
++ ___Block_byref_object_dispose_.47009
++ ___Block_byref_object_dispose_.47317
++ ___Block_byref_object_dispose_.47691
++ ___Block_byref_object_dispose_.48178
++ ___Block_byref_object_dispose_.48682
++ ___Block_byref_object_dispose_.49562
++ ___Block_byref_object_dispose_.49760
++ ___Block_byref_object_dispose_.49970
++ ___Block_byref_object_dispose_.50007
++ ___Block_byref_object_dispose_.52176
++ ___Block_byref_object_dispose_.52477
++ ___Block_byref_object_dispose_.53211
++ ___Block_byref_object_dispose_.54013
++ ___SensitiveContentAnalysisLibraryCore_block_invoke.36814
++ ___block_literal_global.1044.36989
++ ___block_literal_global.1066.36987
++ ___block_literal_global.1068.36985
++ ___block_literal_global.1102.36983
++ ___block_literal_global.112.41537
++ ___block_literal_global.134.48237
++ ___block_literal_global.146.39202
++ ___block_literal_global.228.40734
++ ___block_literal_global.34827
++ ___block_literal_global.34972
++ ___block_literal_global.35152
++ ___block_literal_global.35628
++ ___block_literal_global.36172
++ ___block_literal_global.36676
++ ___block_literal_global.37.47809
++ ___block_literal_global.37470
++ ___block_literal_global.37665
++ ___block_literal_global.38214
++ ___block_literal_global.38521
++ ___block_literal_global.39277
++ ___block_literal_global.39535
++ ___block_literal_global.39964
++ ___block_literal_global.40548
++ ___block_literal_global.40750
++ ___block_literal_global.41235
++ ___block_literal_global.41543
++ ___block_literal_global.42880
++ ___block_literal_global.43463
++ ___block_literal_global.43876
++ ___block_literal_global.44564
++ ___block_literal_global.44755
++ ___block_literal_global.45377
++ ___block_literal_global.46167
++ ___block_literal_global.46522
++ ___block_literal_global.46839
++ ___block_literal_global.46930
++ ___block_literal_global.47598
++ ___block_literal_global.47816
++ ___block_literal_global.48256
++ ___block_literal_global.48404
++ ___block_literal_global.49174
++ ___block_literal_global.49526
++ ___block_literal_global.49971
++ ___block_literal_global.50019
++ ___block_literal_global.50333
++ ___block_literal_global.50606
++ ___block_literal_global.51919
++ ___block_literal_global.53298
++ ___block_literal_global.53866
++ ___block_literal_global.85.53844
++ ___getSCSensitivityAnalysisClass_block_invoke.36812
++ __currentTimestampString.s_formatter.47810
++ __currentTimestampString.s_onceToken.47808
++ _allowedInfoKeys.allowedKeys.41040
++ _allowedInfoKeys.onceToken.41039
++ _audit_stringSensitiveContentAnalysis.36819
++ _defaultManager.onceToken.52259
++ _entityKeyMap.pl_once_object_15.36666
++ _entityKeyMap.pl_once_object_15.40580
++ _entityKeyMap.pl_once_object_15.44778
++ _entityKeyMap.pl_once_object_15.46513
++ _entityKeyMap.pl_once_object_15.46922
++ _entityKeyMap.pl_once_object_15.48401
++ _entityKeyMap.pl_once_object_15.50481
++ _entityKeyMap.pl_once_object_15.51400
++ _entityKeyMap.pl_once_object_16.34814
++ _entityKeyMap.pl_once_object_16.40737
++ _entityKeyMap.pl_once_object_16.47586
++ _entityKeyMap.pl_once_object_16.53853
++ _entityKeyMap.pl_once_token_15.36665
++ _entityKeyMap.pl_once_token_15.40579
++ _entityKeyMap.pl_once_token_15.44777
++ _entityKeyMap.pl_once_token_15.46512
++ _entityKeyMap.pl_once_token_15.46921
++ _entityKeyMap.pl_once_token_15.48400
++ _entityKeyMap.pl_once_token_15.50480
++ _entityKeyMap.pl_once_token_15.51399
++ _entityKeyMap.pl_once_token_16.34813
++ _entityKeyMap.pl_once_token_16.40736
++ _entityKeyMap.pl_once_token_16.47585
++ _entityKeyMap.pl_once_token_16.53852
++ _getSCSensitivityAnalysisClass.36808
++ _getSCSensitivityAnalysisClass.softClass.36811
++ _identifierPropertiesToFetch.array.35629
++ _identifierPropertiesToFetch.onceToken.35627
++ _objc_msgSend$queryForAssetResourceUploadJobsWithConfiguration:states:options:
++ _propertiesToFetchWithHint:.array.36677
++ _propertiesToFetchWithHint:.array.40601
++ _propertiesToFetchWithHint:.array.46523
++ _propertiesToFetchWithHint:.array.48405
++ _propertiesToFetchWithHint:.array.50494
++ _propertiesToFetchWithHint:.array.51428
++ _propertiesToFetchWithHint:.onceToken.36675
++ _propertiesToFetchWithHint:.onceToken.40600
++ _propertiesToFetchWithHint:.onceToken.46521
++ _propertiesToFetchWithHint:.onceToken.48403
++ _propertiesToFetchWithHint:.onceToken.50493
++ _propertiesToFetchWithHint:.onceToken.51427
++ _propertiesToFetchWithHint:.pl_once_object_15.34828
++ _propertiesToFetchWithHint:.pl_once_object_15.40751
++ _propertiesToFetchWithHint:.pl_once_object_15.47599
++ _propertiesToFetchWithHint:.pl_once_object_15.53867
++ _propertiesToFetchWithHint:.pl_once_token_15.34826
++ _propertiesToFetchWithHint:.pl_once_token_15.40749
++ _propertiesToFetchWithHint:.pl_once_token_15.47597
++ _propertiesToFetchWithHint:.pl_once_token_15.53865
++ _sharedDecoder.s_onceToken.50605
++ _sharedDecoder.s_shared.50607
++ _transformValueExpression:forKeyPath:._passThroughSet.36660
++ _transformValueExpression:forKeyPath:._passThroughSet.40569
++ _transformValueExpression:forKeyPath:._passThroughSet.44760
++ _transformValueExpression:forKeyPath:._passThroughSet.46501
++ _transformValueExpression:forKeyPath:._passThroughSet.48398
++ _transformValueExpression:forKeyPath:._passThroughSet.51378
++ _transformValueExpression:forKeyPath:._passThroughSet.53815
++ _transformValueExpression:forKeyPath:.onceToken.36659
++ _transformValueExpression:forKeyPath:.onceToken.40568
++ _transformValueExpression:forKeyPath:.onceToken.44759
++ _transformValueExpression:forKeyPath:.onceToken.46500
++ _transformValueExpression:forKeyPath:.onceToken.48397
++ _transformValueExpression:forKeyPath:.onceToken.51377
++ _transformValueExpression:forKeyPath:.onceToken.53814
+- _SensitiveContentAnalysisLibraryCore.frameworkLibrary.36808
+- ___Block_byref_object_copy_.34877
+- ___Block_byref_object_copy_.35306
+- ___Block_byref_object_copy_.35885
+- ___Block_byref_object_copy_.36162
+- ___Block_byref_object_copy_.37099
+- ___Block_byref_object_copy_.37599
+- ___Block_byref_object_copy_.39229
+- ___Block_byref_object_copy_.39786
+- ___Block_byref_object_copy_.43868
+- ___Block_byref_object_copy_.44293
+- ___Block_byref_object_copy_.44504
+- ___Block_byref_object_copy_.44733
+- ___Block_byref_object_copy_.46077
+- ___Block_byref_object_copy_.46485
+- ___Block_byref_object_copy_.47003
+- ___Block_byref_object_copy_.47311
+- ___Block_byref_object_copy_.47685
+- ___Block_byref_object_copy_.48172
+- ___Block_byref_object_copy_.48676
+- ___Block_byref_object_copy_.49556
+- ___Block_byref_object_copy_.49754
+- ___Block_byref_object_copy_.49964
+- ___Block_byref_object_copy_.50001
+- ___Block_byref_object_copy_.52170
+- ___Block_byref_object_copy_.52471
+- ___Block_byref_object_copy_.53205
+- ___Block_byref_object_copy_.54007
+- ___Block_byref_object_dispose_.34878
+- ___Block_byref_object_dispose_.35307
+- ___Block_byref_object_dispose_.35886
+- ___Block_byref_object_dispose_.36163
+- ___Block_byref_object_dispose_.37100
+- ___Block_byref_object_dispose_.37600
+- ___Block_byref_object_dispose_.39230
+- ___Block_byref_object_dispose_.39787
+- ___Block_byref_object_dispose_.43869
+- ___Block_byref_object_dispose_.44294
+- ___Block_byref_object_dispose_.44505
+- ___Block_byref_object_dispose_.44734
+- ___Block_byref_object_dispose_.46078
+- ___Block_byref_object_dispose_.46486
+- ___Block_byref_object_dispose_.47004
+- ___Block_byref_object_dispose_.47312
+- ___Block_byref_object_dispose_.47686
+- ___Block_byref_object_dispose_.48173
+- ___Block_byref_object_dispose_.48677
+- ___Block_byref_object_dispose_.49557
+- ___Block_byref_object_dispose_.49755
+- ___Block_byref_object_dispose_.49965
+- ___Block_byref_object_dispose_.50002
+- ___Block_byref_object_dispose_.52171
+- ___Block_byref_object_dispose_.52472
+- ___Block_byref_object_dispose_.53206
+- ___Block_byref_object_dispose_.54008
+- ___SensitiveContentAnalysisLibraryCore_block_invoke.36809
+- ___block_literal_global.1044.36984
+- ___block_literal_global.1066.36982
+- ___block_literal_global.1068.36980
+- ___block_literal_global.1102.36978
+- ___block_literal_global.112.41532
+- ___block_literal_global.134.48232
+- ___block_literal_global.146.39197
+- ___block_literal_global.228.40729
+- ___block_literal_global.34822
+- ___block_literal_global.34967
+- ___block_literal_global.35147
+- ___block_literal_global.35623
+- ___block_literal_global.36167
+- ___block_literal_global.36671
+- ___block_literal_global.37.47804
+- ___block_literal_global.37465
+- ___block_literal_global.37660
+- ___block_literal_global.38209
+- ___block_literal_global.38516
+- ___block_literal_global.39272
+- ___block_literal_global.39530
+- ___block_literal_global.39959
+- ___block_literal_global.40543
+- ___block_literal_global.40745
+- ___block_literal_global.41230
+- ___block_literal_global.41538
+- ___block_literal_global.42875
+- ___block_literal_global.43458
+- ___block_literal_global.43871
+- ___block_literal_global.44559
+- ___block_literal_global.44750
+- ___block_literal_global.45372
+- ___block_literal_global.46162
+- ___block_literal_global.46517
+- ___block_literal_global.46834
+- ___block_literal_global.46925
+- ___block_literal_global.47593
+- ___block_literal_global.47811
+- ___block_literal_global.48251
+- ___block_literal_global.48399
+- ___block_literal_global.49169
+- ___block_literal_global.49521
+- ___block_literal_global.49966
+- ___block_literal_global.50014
+- ___block_literal_global.50328
+- ___block_literal_global.50601
+- ___block_literal_global.51914
+- ___block_literal_global.53293
+- ___block_literal_global.53861
+- ___block_literal_global.85.53839
+- ___getSCSensitivityAnalysisClass_block_invoke.36807
+- __currentTimestampString.s_formatter.47805
+- __currentTimestampString.s_onceToken.47803
+- _allowedInfoKeys.allowedKeys.41035
+- _allowedInfoKeys.onceToken.41034
+- _audit_stringSensitiveContentAnalysis.36814
+- _defaultManager.onceToken.52254
+- _entityKeyMap.pl_once_object_15.36661
+- _entityKeyMap.pl_once_object_15.40575
+- _entityKeyMap.pl_once_object_15.44773
+- _entityKeyMap.pl_once_object_15.46508
+- _entityKeyMap.pl_once_object_15.46917
+- _entityKeyMap.pl_once_object_15.48396
+- _entityKeyMap.pl_once_object_15.50476
+- _entityKeyMap.pl_once_object_15.51395
+- _entityKeyMap.pl_once_object_16.34809
+- _entityKeyMap.pl_once_object_16.40732
+- _entityKeyMap.pl_once_object_16.47581
+- _entityKeyMap.pl_once_object_16.53848
+- _entityKeyMap.pl_once_token_15.36660
+- _entityKeyMap.pl_once_token_15.40574
+- _entityKeyMap.pl_once_token_15.44772
+- _entityKeyMap.pl_once_token_15.46507
+- _entityKeyMap.pl_once_token_15.46916
+- _entityKeyMap.pl_once_token_15.48395
+- _entityKeyMap.pl_once_token_15.50475
+- _entityKeyMap.pl_once_token_15.51394
+- _entityKeyMap.pl_once_token_16.34808
+- _entityKeyMap.pl_once_token_16.40731
+- _entityKeyMap.pl_once_token_16.47580
+- _entityKeyMap.pl_once_token_16.53847
+- _getSCSensitivityAnalysisClass.36803
+- _getSCSensitivityAnalysisClass.softClass.36806
+- _identifierPropertiesToFetch.array.35624
+- _identifierPropertiesToFetch.onceToken.35622
+- _propertiesToFetchWithHint:.array.36672
+- _propertiesToFetchWithHint:.array.40596
+- _propertiesToFetchWithHint:.array.46518
+- _propertiesToFetchWithHint:.array.48400
+- _propertiesToFetchWithHint:.array.50489
+- _propertiesToFetchWithHint:.array.51423
+- _propertiesToFetchWithHint:.onceToken.36670
+- _propertiesToFetchWithHint:.onceToken.40595
+- _propertiesToFetchWithHint:.onceToken.46516
+- _propertiesToFetchWithHint:.onceToken.48398
+- _propertiesToFetchWithHint:.onceToken.50488
+- _propertiesToFetchWithHint:.onceToken.51422
+- _propertiesToFetchWithHint:.pl_once_object_15.34823
+- _propertiesToFetchWithHint:.pl_once_object_15.40746
+- _propertiesToFetchWithHint:.pl_once_object_15.47594
+- _propertiesToFetchWithHint:.pl_once_object_15.53862
+- _propertiesToFetchWithHint:.pl_once_token_15.34821
+- _propertiesToFetchWithHint:.pl_once_token_15.40744
+- _propertiesToFetchWithHint:.pl_once_token_15.47592
+- _propertiesToFetchWithHint:.pl_once_token_15.53860
+- _sharedDecoder.s_onceToken.50600
+- _sharedDecoder.s_shared.50602
+- _transformValueExpression:forKeyPath:._passThroughSet.36655
+- _transformValueExpression:forKeyPath:._passThroughSet.40564
+- _transformValueExpression:forKeyPath:._passThroughSet.44755
+- _transformValueExpression:forKeyPath:._passThroughSet.46496
+- _transformValueExpression:forKeyPath:._passThroughSet.48393
+- _transformValueExpression:forKeyPath:._passThroughSet.51373
+- _transformValueExpression:forKeyPath:._passThroughSet.53810
+- _transformValueExpression:forKeyPath:.onceToken.36654
+- _transformValueExpression:forKeyPath:.onceToken.40563
+- _transformValueExpression:forKeyPath:.onceToken.44754
+- _transformValueExpression:forKeyPath:.onceToken.46495
+- _transformValueExpression:forKeyPath:.onceToken.48392
+- _transformValueExpression:forKeyPath:.onceToken.51372
+- _transformValueExpression:forKeyPath:.onceToken.53809
+Functions:
+~ +[PHAssetResourceUploadJob fetchJobsWithAction:options:] : 300 -> 348
+
+```

@@ -1,0 +1,1415 @@
+## BiomeLibrary
+
+> `/System/Library/PrivateFrameworks/BiomeLibrary.framework/BiomeLibrary`
+
+```diff
+
+-274.52.1.0.0
+-  __TEXT.__text: 0x6ee154
++274.54.0.0.0
++  __TEXT.__text: 0x6f1d94
+   __TEXT.__auth_stubs: 0x6b0
+-  __TEXT.__objc_methlist: 0x4b2ac
++  __TEXT.__objc_methlist: 0x4b5bc
+   __TEXT.__const: 0x4594
+   __TEXT.__swift5_typeref: 0x172
+   __TEXT.__swift5_capture: 0x30
+-  __TEXT.__cstring: 0x49d53
++  __TEXT.__cstring: 0x49ec7
+   __TEXT.__constg_swiftt: 0x560
+   __TEXT.__swift5_fieldmd: 0x1f0
+   __TEXT.__swift5_types: 0x7c
+   __TEXT.__oslogstring: 0x47
+-  __TEXT.__unwind_info: 0xd3c8
++  __TEXT.__unwind_info: 0xd460
+   __TEXT.__eh_frame: 0x40
+-  __TEXT.__objc_classname: 0x8e62
+-  __TEXT.__objc_methname: 0x86f8f
+-  __TEXT.__objc_methtype: 0x6b88
+-  __TEXT.__objc_stubs: 0x37c40
+-  __DATA_CONST.__got: 0x1a80
+-  __DATA_CONST.__const: 0x1d5d8
+-  __DATA_CONST.__objc_classlist: 0x2128
++  __TEXT.__objc_classname: 0x8eb3
++  __TEXT.__objc_methname: 0x87194
++  __TEXT.__objc_methtype: 0x6ba2
++  __TEXT.__objc_stubs: 0x37da0
++  __DATA_CONST.__got: 0x1a90
++  __DATA_CONST.__const: 0x1d688
++  __DATA_CONST.__objc_classlist: 0x2140
+   __DATA_CONST.__objc_protolist: 0x48
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x114f0
++  __DATA_CONST.__objc_selrefs: 0x11558
+   __DATA_CONST.__objc_protorefs: 0x8
+-  __DATA_CONST.__objc_superrefs: 0x19b8
+-  __DATA_CONST.__objc_arraydata: 0xa5e8
++  __DATA_CONST.__objc_superrefs: 0x19c8
++  __DATA_CONST.__objc_arraydata: 0xa638
+   __AUTH_CONST.__auth_got: 0x360
+-  __AUTH_CONST.__const: 0x9438
+-  __AUTH_CONST.__cfstring: 0x47660
+-  __AUTH_CONST.__objc_const: 0x983e0
+-  __AUTH_CONST.__objc_arrayobj: 0x6138
++  __AUTH_CONST.__const: 0x9498
++  __AUTH_CONST.__cfstring: 0x477e0
++  __AUTH_CONST.__objc_const: 0x98990
++  __AUTH_CONST.__objc_arrayobj: 0x6180
+   __AUTH_CONST.__objc_intobj: 0x300
+-  __AUTH.__objc_data: 0x93e0
++  __AUTH.__objc_data: 0x94d0
+   __AUTH.__data: 0xf0
+-  __DATA.__objc_ivar: 0x78c4
++  __DATA.__objc_ivar: 0x7904
+   __DATA.__data: 0x328
+   __DATA.__bss: 0x18
+   __DATA_DIRTY.__objc_data: 0xc350
+
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswiftos.dylib
+-  UUID: 55FE9F3F-A5DC-3A8C-8ADB-3CEA687EB1E0
+-  Functions: 26903
+-  Symbols:   82978
+-  CStrings:  38455
++  UUID: BD201137-E5C0-3C00-9C7C-CEA95D1571EE
++  Functions: 26972
++  Symbols:   83177
++  CStrings:  38504
+ 
+Symbols:
++ +[BMAppResumePrediction columns]
++ +[BMAppResumePrediction eventWithData:dataVersion:]
++ +[BMAppResumePrediction latestDataVersion]
++ +[BMAppResumePrediction protoFields]
++ +[BMAppResumePrediction validKeyPaths]
++ +[BMDeviceAppResumePredictions columns]
++ +[BMDeviceAppResumePredictions eventWithData:dataVersion:]
++ +[BMDeviceAppResumePredictions latestDataVersion]
++ +[BMDeviceAppResumePredictions protoFields]
++ +[BMDeviceAppResumePredictions validKeyPaths]
++ +[_BMDeviceAppResumeLibraryNode Predictions]
++ +[_BMDeviceAppResumeLibraryNode configurationForPredictions]
++ +[_BMDeviceAppResumeLibraryNode identifier]
++ +[_BMDeviceAppResumeLibraryNode storeConfigurationForPredictions]
++ +[_BMDeviceAppResumeLibraryNode streamNames]
++ +[_BMDeviceAppResumeLibraryNode streamWithName:]
++ +[_BMDeviceAppResumeLibraryNode sublibraries]
++ +[_BMDeviceAppResumeLibraryNode syncPolicyForPredictions]
++ +[_BMDeviceAppResumeLibraryNode validKeyPaths]
++ +[_BMDeviceLibraryNode AppResume]
++ -[BMAppResumePrediction .cxx_destruct]
++ -[BMAppResumePrediction bundleId]
++ -[BMAppResumePrediction confidenceValue]
++ -[BMAppResumePrediction dataVersion]
++ -[BMAppResumePrediction description]
++ -[BMAppResumePrediction hasConfidenceValue]
++ -[BMAppResumePrediction hasIsRecommended]
++ -[BMAppResumePrediction initByReadFrom:]
++ -[BMAppResumePrediction initWithBundleId:confidenceValue:isRecommended:]
++ -[BMAppResumePrediction initWithJSONDictionary:error:]
++ -[BMAppResumePrediction isEqual:]
++ -[BMAppResumePrediction isRecommended]
++ -[BMAppResumePrediction jsonDictionary]
++ -[BMAppResumePrediction serialize]
++ -[BMAppResumePrediction setHasConfidenceValue:]
++ -[BMAppResumePrediction setHasIsRecommended:]
++ -[BMAppResumePrediction writeTo:]
++ -[BMDeviceAppResumePredictions .cxx_destruct]
++ -[BMDeviceAppResumePredictions _predictionsJSONArray]
++ -[BMDeviceAppResumePredictions dataVersion]
++ -[BMDeviceAppResumePredictions description]
++ -[BMDeviceAppResumePredictions hasNandBudgetLeft]
++ -[BMDeviceAppResumePredictions hasPredictedDuration]
++ -[BMDeviceAppResumePredictions hasVersion]
++ -[BMDeviceAppResumePredictions initByReadFrom:]
++ -[BMDeviceAppResumePredictions initWithJSONDictionary:error:]
++ -[BMDeviceAppResumePredictions initWithVersion:predictionType:predictions:predictedDuration:outputReason:nandBudgetLeft:]
++ -[BMDeviceAppResumePredictions isEqual:]
++ -[BMDeviceAppResumePredictions jsonDictionary]
++ -[BMDeviceAppResumePredictions nandBudgetLeft]
++ -[BMDeviceAppResumePredictions outputReason]
++ -[BMDeviceAppResumePredictions predictedDuration]
++ -[BMDeviceAppResumePredictions predictionType]
++ -[BMDeviceAppResumePredictions predictions]
++ -[BMDeviceAppResumePredictions serialize]
++ -[BMDeviceAppResumePredictions setHasNandBudgetLeft:]
++ -[BMDeviceAppResumePredictions setHasPredictedDuration:]
++ -[BMDeviceAppResumePredictions setHasVersion:]
++ -[BMDeviceAppResumePredictions version]
++ -[BMDeviceAppResumePredictions writeTo:]
++ _BMAppResumePredictionBundleIdColumn
++ _BMAppResumePredictionConfidenceValueColumn
++ _BMAppResumePredictionIsRecommendedColumn
++ _BMDeviceAppResumePredictionsIdentifier
++ _BMDeviceAppResumePredictionsNandBudgetLeftColumn
++ _BMDeviceAppResumePredictionsOutputReasonAsString
++ _BMDeviceAppResumePredictionsOutputReasonColumn
++ _BMDeviceAppResumePredictionsOutputReasonDecode
++ _BMDeviceAppResumePredictionsOutputReasonFromString
++ _BMDeviceAppResumePredictionsOutputReasonFromString.sortedEnums
++ _BMDeviceAppResumePredictionsOutputReasonFromString.sortedStrings
++ _BMDeviceAppResumePredictionsPredictedDurationColumn
++ _BMDeviceAppResumePredictionsPredictionTypeAsString
++ _BMDeviceAppResumePredictionsPredictionTypeColumn
++ _BMDeviceAppResumePredictionsPredictionTypeDecode
++ _BMDeviceAppResumePredictionsPredictionTypeFromString
++ _BMDeviceAppResumePredictionsPredictionTypeFromString.sortedEnums
++ _BMDeviceAppResumePredictionsPredictionTypeFromString.sortedStrings
++ _BMDeviceAppResumePredictionsPredictionsColumn
++ _BMDeviceAppResumePredictionsVersionColumn
++ _OBJC_CLASS_$_BMAppResumePrediction
++ _OBJC_CLASS_$_BMDeviceAppResumePredictions
++ _OBJC_CLASS_$__BMDeviceAppResumeLibraryNode
++ _OBJC_IVAR_$_BMAppResumePrediction._bundleId
++ _OBJC_IVAR_$_BMAppResumePrediction._confidenceValue
++ _OBJC_IVAR_$_BMAppResumePrediction._dataVersion
++ _OBJC_IVAR_$_BMAppResumePrediction._hasConfidenceValue
++ _OBJC_IVAR_$_BMAppResumePrediction._hasIsRecommended
++ _OBJC_IVAR_$_BMAppResumePrediction._isRecommended
++ _OBJC_IVAR_$_BMDeviceAppResumePredictions._dataVersion
++ _OBJC_IVAR_$_BMDeviceAppResumePredictions._hasNandBudgetLeft
++ _OBJC_IVAR_$_BMDeviceAppResumePredictions._hasPredictedDuration
++ _OBJC_IVAR_$_BMDeviceAppResumePredictions._hasVersion
++ _OBJC_IVAR_$_BMDeviceAppResumePredictions._nandBudgetLeft
++ _OBJC_IVAR_$_BMDeviceAppResumePredictions._outputReason
++ _OBJC_IVAR_$_BMDeviceAppResumePredictions._predictedDuration
++ _OBJC_IVAR_$_BMDeviceAppResumePredictions._predictionType
++ _OBJC_IVAR_$_BMDeviceAppResumePredictions._predictions
++ _OBJC_IVAR_$_BMDeviceAppResumePredictions._version
++ _OBJC_METACLASS_$_BMAppResumePrediction
++ _OBJC_METACLASS_$_BMDeviceAppResumePredictions
++ _OBJC_METACLASS_$__BMDeviceAppResumeLibraryNode
++ __OBJC_$_CLASS_METHODS_BMAppResumePrediction
++ __OBJC_$_CLASS_METHODS_BMDeviceAppResumePredictions
++ __OBJC_$_CLASS_METHODS__BMDeviceAppResumeLibraryNode
++ __OBJC_$_CLASS_PROP_LIST_BMAppResumePrediction
++ __OBJC_$_CLASS_PROP_LIST_BMDeviceAppResumePredictions
++ __OBJC_$_INSTANCE_METHODS_BMAppResumePrediction
++ __OBJC_$_INSTANCE_METHODS_BMDeviceAppResumePredictions
++ __OBJC_$_INSTANCE_VARIABLES_BMAppResumePrediction
++ __OBJC_$_INSTANCE_VARIABLES_BMDeviceAppResumePredictions
++ __OBJC_$_PROP_LIST_BMAppResumePrediction
++ __OBJC_$_PROP_LIST_BMDeviceAppResumePredictions
++ __OBJC_CLASS_PROTOCOLS_$_BMAppResumePrediction
++ __OBJC_CLASS_PROTOCOLS_$_BMDeviceAppResumePredictions
++ __OBJC_CLASS_RO_$_BMAppResumePrediction
++ __OBJC_CLASS_RO_$_BMDeviceAppResumePredictions
++ __OBJC_CLASS_RO_$__BMDeviceAppResumeLibraryNode
++ __OBJC_METACLASS_RO_$_BMAppResumePrediction
++ __OBJC_METACLASS_RO_$_BMDeviceAppResumePredictions
++ __OBJC_METACLASS_RO_$__BMDeviceAppResumeLibraryNode
++ ___39+[BMDeviceAppResumePredictions columns]_block_invoke
++ ___BMDeviceAppResumePredictionsOutputReasonFromString_block_invoke
++ ___BMDeviceAppResumePredictionsPredictionTypeFromString_block_invoke
++ ___block_literal_global.100263
++ ___block_literal_global.100475
++ ___block_literal_global.100649
++ ___block_literal_global.101.110565
++ ___block_literal_global.101177
++ ___block_literal_global.10130
++ ___block_literal_global.101319
++ ___block_literal_global.101782
++ ___block_literal_global.102157
++ ___block_literal_global.103.49513
++ ___block_literal_global.103049
++ ___block_literal_global.10374
++ ___block_literal_global.103889
++ ___block_literal_global.1040.97543
++ ___block_literal_global.104468
++ ___block_literal_global.104774
++ ___block_literal_global.105670
++ ___block_literal_global.105898
++ ___block_literal_global.106.83475
++ ___block_literal_global.10624
++ ___block_literal_global.1063.21607
++ ___block_literal_global.107.59531
++ ___block_literal_global.107052
++ ___block_literal_global.107383
++ ___block_literal_global.107760
++ ___block_literal_global.10785
++ ___block_literal_global.108.116096
++ ___block_literal_global.108.96288
++ ___block_literal_global.108141
++ ___block_literal_global.108573
++ ___block_literal_global.109.110584
++ ___block_literal_global.109118
++ ___block_literal_global.109423
++ ___block_literal_global.109635
++ ___block_literal_global.109951
++ ___block_literal_global.110238
++ ___block_literal_global.111247
++ ___block_literal_global.111846
++ ___block_literal_global.112188
++ ___block_literal_global.11237
++ ___block_literal_global.112610
++ ___block_literal_global.112939
++ ___block_literal_global.113.116089
++ ___block_literal_global.113282
++ ___block_literal_global.11355
++ ___block_literal_global.113655
++ ___block_literal_global.113887
++ ___block_literal_global.114.48187
++ ___block_literal_global.114156
++ ___block_literal_global.114476
++ ___block_literal_global.114662
++ ___block_literal_global.115.93139
++ ___block_literal_global.115314
++ ___block_literal_global.115503
++ ___block_literal_global.115979
++ ___block_literal_global.116947
++ ___block_literal_global.118074
++ ___block_literal_global.118725
++ ___block_literal_global.118959
++ ___block_literal_global.119.102221
++ ___block_literal_global.119.96487
++ ___block_literal_global.119281
++ ___block_literal_global.119651
++ ___block_literal_global.120.110626
++ ___block_literal_global.12331
++ ___block_literal_global.124.105070
++ ___block_literal_global.126.36739
++ ___block_literal_global.128.55059
++ ___block_literal_global.12803
++ ___block_literal_global.12912
++ ___block_literal_global.13092
++ ___block_literal_global.132.32661
++ ___block_literal_global.13520
++ ___block_literal_global.13742
++ ___block_literal_global.141.98049
++ ___block_literal_global.142.94486
++ ___block_literal_global.143.98050
++ ___block_literal_global.144.94487
++ ___block_literal_global.153.27200
++ ___block_literal_global.15394
++ ___block_literal_global.155.31935
++ ___block_literal_global.155.33251
++ ___block_literal_global.155.50976
++ ___block_literal_global.15590
++ ___block_literal_global.156.90104
++ ___block_literal_global.1564.37763
++ ___block_literal_global.15787
++ ___block_literal_global.159.105024
++ ___block_literal_global.159.116384
++ ___block_literal_global.1619
++ ___block_literal_global.162.68237
++ ___block_literal_global.16215
++ ___block_literal_global.16457
++ ___block_literal_global.16755
++ ___block_literal_global.170.105261
++ ___block_literal_global.17011
++ ___block_literal_global.171.51373
++ ___block_literal_global.17220
++ ___block_literal_global.17342
++ ___block_literal_global.174.91581
++ ___block_literal_global.175.95197
++ ___block_literal_global.177.82385
++ ___block_literal_global.1786
++ ___block_literal_global.179.23645
++ ___block_literal_global.179.82386
++ ___block_literal_global.18.100837
++ ___block_literal_global.18067
++ ___block_literal_global.181.105238
++ ___block_literal_global.181.23646
++ ___block_literal_global.18170
++ ___block_literal_global.183.95857
++ ___block_literal_global.18415
++ ___block_literal_global.185.86887
++ ___block_literal_global.18755
++ ___block_literal_global.18821
++ ___block_literal_global.19049
++ ___block_literal_global.194
++ ___block_literal_global.19504
++ ___block_literal_global.19653
++ ___block_literal_global.199.40679
++ ___block_literal_global.199.57686
++ ___block_literal_global.203.41784
++ ___block_literal_global.204.103670
++ ___block_literal_global.20470
++ ___block_literal_global.205.24657
++ ___block_literal_global.207.116483
++ ___block_literal_global.207.60608
++ ___block_literal_global.207.61234
++ ___block_literal_global.20729
++ ___block_literal_global.208.117812
++ ___block_literal_global.209.116468
++ ___block_literal_global.209.60609
++ ___block_literal_global.209.61235
++ ___block_literal_global.21.109413
++ ___block_literal_global.21.109938
++ ___block_literal_global.21.118713
++ ___block_literal_global.21.119635
++ ___block_literal_global.21.39197
++ ___block_literal_global.21.59480
++ ___block_literal_global.21.60059
++ ___block_literal_global.21.70162
++ ___block_literal_global.21.78441
++ ___block_literal_global.21.95533
++ ___block_literal_global.21151
++ ___block_literal_global.216.112960
++ ___block_literal_global.21724
++ ___block_literal_global.218.112962
++ ___block_literal_global.22085
++ ___block_literal_global.222.115340
++ ___block_literal_global.222.91746
++ ___block_literal_global.223.111241
++ ___block_literal_global.22350
++ ___block_literal_global.2242
++ ___block_literal_global.226.104081
++ ___block_literal_global.22682
++ ___block_literal_global.228.104082
++ ___block_literal_global.228.22430
++ ___block_literal_global.23.89764
++ ___block_literal_global.230.104083
++ ___block_literal_global.230.25925
++ ___block_literal_global.23059
++ ___block_literal_global.23447
++ ___block_literal_global.235.104553
++ ___block_literal_global.235.23736
++ ___block_literal_global.23714
++ ___block_literal_global.238.90404
++ ___block_literal_global.23881
++ ___block_literal_global.24.103902
++ ___block_literal_global.24.110225
++ ___block_literal_global.24.111835
++ ___block_literal_global.24.115929
++ ___block_literal_global.24.22698
++ ___block_literal_global.24.37743
++ ___block_literal_global.24.47886
++ ___block_literal_global.24.72226
++ ___block_literal_global.24.74064
++ ___block_literal_global.24.78664
++ ___block_literal_global.24.79931
++ ___block_literal_global.24.99974
++ ___block_literal_global.240.101118
++ ___block_literal_global.240.66379
++ ___block_literal_global.240.88822
++ ___block_literal_global.240.90405
++ ___block_literal_global.24171
++ ___block_literal_global.244.31318
++ ___block_literal_global.244.83607
++ ___block_literal_global.246.31319
++ ___block_literal_global.24656
++ ___block_literal_global.25204
++ ___block_literal_global.253.100852
++ ___block_literal_global.255.100853
++ ___block_literal_global.25875
++ ___block_literal_global.259.100854
++ ___block_literal_global.261.116010
++ ___block_literal_global.263.116011
++ ___block_literal_global.265.82496
++ ___block_literal_global.267.82497
++ ___block_literal_global.268.115388
++ ___block_literal_global.269.107414
++ ___block_literal_global.27.12590
++ ___block_literal_global.27.16444
++ ___block_literal_global.27.28718
++ ___block_literal_global.27.31923
++ ___block_literal_global.27.36680
++ ___block_literal_global.27.48724
++ ___block_literal_global.27.81918
++ ___block_literal_global.27.83114
++ ___block_literal_global.27099
++ ___block_literal_global.27431
++ ___block_literal_global.27782
++ ___block_literal_global.28153
++ ___block_literal_global.286.53299
++ ___block_literal_global.28735
++ ___block_literal_global.288.53300
++ ___block_literal_global.289.101200
++ ___block_literal_global.29.110408
++ ___block_literal_global.29.59472
++ ___block_literal_global.29.95525
++ ___block_literal_global.290.117795
++ ___block_literal_global.290.53301
++ ___block_literal_global.291.101201
++ ___block_literal_global.292.108159
++ ___block_literal_global.293.101202
++ ___block_literal_global.294.53302
++ ___block_literal_global.295.54241
++ ___block_literal_global.296.83976
++ ___block_literal_global.297.84158
++ ___block_literal_global.29875
++ ___block_literal_global.30.112880
++ ___block_literal_global.30.114463
++ ___block_literal_global.30.53830
++ ___block_literal_global.30.59823
++ ___block_literal_global.30.60583
++ ___block_literal_global.30.66334
++ ___block_literal_global.30.86504
++ ___block_literal_global.30.94371
++ ___block_literal_global.30373
++ ___block_literal_global.307.103592
++ ___block_literal_global.30766
++ ___block_literal_global.30962
++ ___block_literal_global.31146
++ ___block_literal_global.312.112335
++ ___block_literal_global.313.82930
++ ___block_literal_global.31584
++ ___block_literal_global.318.107447
++ ___block_literal_global.318.74132
++ ___block_literal_global.31835
++ ___block_literal_global.32.118702
++ ___block_literal_global.32695
++ ___block_literal_global.33.11065
++ ___block_literal_global.33.111041
++ ___block_literal_global.33.27648
++ ___block_literal_global.33.52712
++ ___block_literal_global.33.54989
++ ___block_literal_global.33.94848
++ ___block_literal_global.33045
++ ___block_literal_global.33250
++ ___block_literal_global.33546
++ ___block_literal_global.33871
++ ___block_literal_global.34.10625
++ ___block_literal_global.340.15463
++ ___block_literal_global.34115
++ ___block_literal_global.343.96240
++ ___block_literal_global.34326
++ ___block_literal_global.344.108229
++ ___block_literal_global.34561
++ ___block_literal_global.34791
++ ___block_literal_global.35.38524
++ ___block_literal_global.35.48104
++ ___block_literal_global.35.52295
++ ___block_literal_global.35.55211
++ ___block_literal_global.35.64400
++ ___block_literal_global.35.80134
++ ___block_literal_global.35.81908
++ ___block_literal_global.35.85435
++ ___block_literal_global.35164
++ ___block_literal_global.353.91732
++ ___block_literal_global.35529
++ ___block_literal_global.356.103572
++ ___block_literal_global.35683
++ ___block_literal_global.358.107486
++ ___block_literal_global.36.10349
++ ___block_literal_global.36.10626
++ ___block_literal_global.36.114137
++ ___block_literal_global.36.16202
++ ___block_literal_global.36.73647
++ ___block_literal_global.36.93397
++ ___block_literal_global.360.103575
++ ___block_literal_global.360.107487
++ ___block_literal_global.364.113435
++ ___block_literal_global.366.113436
++ ___block_literal_global.366.98495
++ ___block_literal_global.36696
++ ___block_literal_global.368.113437
++ ___block_literal_global.368.98496
++ ___block_literal_global.370.78103
++ ___block_literal_global.372.78105
++ ___block_literal_global.37251
++ ___block_literal_global.374.78107
++ ___block_literal_global.37629
++ ___block_literal_global.37691
++ ___block_literal_global.38.109921
++ ___block_literal_global.38.116166
++ ___block_literal_global.38.60040
++ ___block_literal_global.38.94363
++ ___block_literal_global.38722
++ ___block_literal_global.38863
++ ___block_literal_global.39.107358
++ ___block_literal_global.39.24172
++ ___block_literal_global.39.32678
++ ___block_literal_global.39.65361
++ ___block_literal_global.39.79252
++ ___block_literal_global.39.99333
++ ___block_literal_global.39211
++ ___block_literal_global.394.110603
++ ___block_literal_global.39574
++ ___block_literal_global.40354
++ ___block_literal_global.406.92482
++ ___block_literal_global.40678
++ ___block_literal_global.41.12604
++ ___block_literal_global.41.94838
++ ___block_literal_global.41093
++ ___block_literal_global.41212
++ ___block_literal_global.41623
++ ___block_literal_global.42.102132
++ ___block_literal_global.42.103492
++ ___block_literal_global.42.62709
++ ___block_literal_global.42.76985
++ ___block_literal_global.422.76846
++ ___block_literal_global.424.76848
++ ___block_literal_global.424.91865
++ ___block_literal_global.424.94961
++ ___block_literal_global.42572
++ ___block_literal_global.426.103559
++ ___block_literal_global.426.91866
++ ___block_literal_global.42720
++ ___block_literal_global.428.103561
++ ___block_literal_global.428.86910
++ ___block_literal_global.428.91867
++ ___block_literal_global.43.59658
++ ___block_literal_global.430.86911
++ ___block_literal_global.431.116212
++ ___block_literal_global.43223
++ ___block_literal_global.436.96313
++ ___block_literal_global.44.16190
++ ___block_literal_global.44.27672
++ ___block_literal_global.44.41953
++ ___block_literal_global.44.48707
++ ___block_literal_global.44.73623
++ ___block_literal_global.44.76986
++ ___block_literal_global.44.86490
++ ___block_literal_global.45.30076
++ ___block_literal_global.45.55481
++ ___block_literal_global.45.61802
++ ___block_literal_global.45.82966
++ ___block_literal_global.45.9713
++ ___block_literal_global.45.99758
++ ___block_literal_global.45038
++ ___block_literal_global.45345
++ ___block_literal_global.454.105152
++ ___block_literal_global.454.43614
++ ___block_literal_global.454.92499
++ ___block_literal_global.454.94470
++ ___block_literal_global.456.43615
++ ___block_literal_global.45655
++ ___block_literal_global.458.26099
++ ___block_literal_global.458.43616
++ ___block_literal_global.45854
++ ___block_literal_global.46.118688
++ ___block_literal_global.46244
++ ___block_literal_global.46498
++ ___block_literal_global.46621
++ ___block_literal_global.467.91853
++ ___block_literal_global.46910
++ ___block_literal_global.47.111879
++ ___block_literal_global.47.57234
++ ___block_literal_global.47.66317
++ ___block_literal_global.47874
++ ___block_literal_global.48.43575
++ ___block_literal_global.48.98858
++ ___block_literal_global.48749
++ ___block_literal_global.49.60021
++ ___block_literal_global.49.94352
++ ___block_literal_global.49015
++ ___block_literal_global.49512
++ ___block_literal_global.49867
++ ___block_literal_global.50.105940
++ ___block_literal_global.50.114443
++ ___block_literal_global.50272
++ ___block_literal_global.50960
++ ___block_literal_global.516.93290
++ ___block_literal_global.51724
++ ___block_literal_global.52.110411
++ ___block_literal_global.52.116149
++ ___block_literal_global.52089
++ ___block_literal_global.52294
++ ___block_literal_global.52442
++ ___block_literal_global.52728
++ ___block_literal_global.53.114704
++ ___block_literal_global.53298
++ ___block_literal_global.53843
++ ___block_literal_global.54.108108
++ ___block_literal_global.54.118946
++ ___block_literal_global.54.119268
++ ___block_literal_global.54.55968
++ ___block_literal_global.54.59643
++ ___block_literal_global.54131
++ ___block_literal_global.55.66480
++ ___block_literal_global.550.116423
++ ___block_literal_global.55008
++ ___block_literal_global.55210
++ ___block_literal_global.55506
++ ___block_literal_global.55978
++ ___block_literal_global.56.108109
++ ___block_literal_global.56.53804
++ ___block_literal_global.57.109622
++ ___block_literal_global.57.60032
++ ___block_literal_global.57.87559
++ ___block_literal_global.57.92671
++ ___block_literal_global.57233
++ ___block_literal_global.57600
++ ___block_literal_global.58.118075
++ ___block_literal_global.580.116411
++ ___block_literal_global.59.107100
++ ___block_literal_global.59.79230
++ ___block_literal_global.59013
++ ___block_literal_global.59461
++ ___block_literal_global.596.103546
++ ___block_literal_global.59804
++ ___block_literal_global.60069
++ ___block_literal_global.60237
++ ___block_literal_global.60447
++ ___block_literal_global.60900
++ ___block_literal_global.61.111857
++ ___block_literal_global.61233
++ ___block_literal_global.61695
++ ___block_literal_global.62.104980
++ ___block_literal_global.62269
++ ___block_literal_global.62678
++ ___block_literal_global.62902
++ ___block_literal_global.63.110377
++ ___block_literal_global.63.27793
++ ___block_literal_global.63.66472
++ ___block_literal_global.63.72481
++ ___block_literal_global.630.110596
++ ___block_literal_global.634.96442
++ ___block_literal_global.636.96443
++ ___block_literal_global.63781
++ ___block_literal_global.64.112611
++ ___block_literal_global.64.113656
++ ___block_literal_global.64053
++ ___block_literal_global.64399
++ ___block_literal_global.65.92663
++ ___block_literal_global.65.98841
++ ___block_literal_global.65024
++ ___block_literal_global.65173
++ ___block_literal_global.65389
++ ___block_literal_global.66.113657
++ ___block_literal_global.66350
++ ___block_literal_global.67109
++ ___block_literal_global.67952
++ ___block_literal_global.68.112612
++ ___block_literal_global.68202
++ ___block_literal_global.68803
++ ___block_literal_global.69.111871
++ ___block_literal_global.69.112980
++ ___block_literal_global.69238
++ ___block_literal_global.69527
++ ___block_literal_global.70.112613
++ ___block_literal_global.70172
++ ___block_literal_global.70417
++ ___block_literal_global.70555
++ ___block_literal_global.71.112981
++ ___block_literal_global.71.72418
++ ___block_literal_global.71033
++ ___block_literal_global.71301
++ ___block_literal_global.717.41983
++ ___block_literal_global.719.92700
++ ___block_literal_global.72.103685
++ ___block_literal_global.72.33047
++ ___block_literal_global.72.52141
++ ___block_literal_global.721.92701
++ ___block_literal_global.72239
++ ___block_literal_global.72426
++ ___block_literal_global.725.92702
++ ___block_literal_global.73040
++ ___block_literal_global.733.96506
++ ___block_literal_global.73631
++ ___block_literal_global.73916
++ ___block_literal_global.74.103686
++ ___block_literal_global.74.117831
++ ___block_literal_global.74.66578
++ ___block_literal_global.741.105467
++ ___block_literal_global.74282
++ ___block_literal_global.749.54685
++ ___block_literal_global.75.105187
++ ___block_literal_global.75567
++ ___block_literal_global.75862
++ ___block_literal_global.76.79878
++ ___block_literal_global.760.51362
++ ___block_literal_global.762.96742
++ ___block_literal_global.764.51363
++ ___block_literal_global.76401
++ ___block_literal_global.766.51364
++ ___block_literal_global.768.51365
++ ___block_literal_global.76984
++ ___block_literal_global.77.111266
++ ___block_literal_global.77.111904
++ ___block_literal_global.77126
++ ___block_literal_global.78.94926
++ ___block_literal_global.78206
++ ___block_literal_global.78454
++ ___block_literal_global.78648
++ ___block_literal_global.78865
++ ___block_literal_global.79.110514
++ ___block_literal_global.79.111267
++ ___block_literal_global.79277
++ ___block_literal_global.79436
++ ___block_literal_global.79941
++ ___block_literal_global.80133
++ ___block_literal_global.80241
++ ___block_literal_global.80575
++ ___block_literal_global.81646
++ ___block_literal_global.81934
++ ___block_literal_global.82.94927
++ ___block_literal_global.82342
++ ___block_literal_global.82912
++ ___block_literal_global.83130
++ ___block_literal_global.83539
++ ___block_literal_global.83867
++ ___block_literal_global.84.35097
++ ___block_literal_global.84296
++ ___block_literal_global.84656
++ ___block_literal_global.85.69529
++ ___block_literal_global.85.86419
++ ___block_literal_global.85434
++ ___block_literal_global.86.94344
++ ___block_literal_global.860.116614
++ ___block_literal_global.86471
++ ___block_literal_global.87.69530
++ ___block_literal_global.87042
++ ___block_literal_global.87219
++ ___block_literal_global.87558
++ ___block_literal_global.87988
++ ___block_literal_global.8848
++ ___block_literal_global.88820
++ ___block_literal_global.89.69531
++ ___block_literal_global.895.42195
++ ___block_literal_global.895.86751
++ ___block_literal_global.897.86753
++ ___block_literal_global.89783
++ ___block_literal_global.90.110503
++ ___block_literal_global.90080
++ ___block_literal_global.90374
++ ___block_literal_global.91256
++ ___block_literal_global.91540
++ ___block_literal_global.917.86764
++ ___block_literal_global.919.86765
++ ___block_literal_global.92.105118
++ ___block_literal_global.921.86766
++ ___block_literal_global.92280
++ ___block_literal_global.9260
++ ___block_literal_global.93095
++ ___block_literal_global.94409
++ ___block_literal_global.9480
++ ___block_literal_global.94870
++ ___block_literal_global.95.35246
++ ___block_literal_global.95.48285
++ ___block_literal_global.95078
++ ___block_literal_global.95543
++ ___block_literal_global.95742
++ ___block_literal_global.96064
++ ___block_literal_global.96691
++ ___block_literal_global.9750
++ ___block_literal_global.97999
++ ___block_literal_global.98213
++ ___block_literal_global.98892
++ ___block_literal_global.99307
++ ___block_literal_global.99439
++ ___block_literal_global.99777
++ ___block_literal_global.99984
++ _objc_msgSend$AppResume
++ _objc_msgSend$Predictions
++ _objc_msgSend$configurationForPredictions
++ _objc_msgSend$hasIsRecommended
++ _objc_msgSend$hasNandBudgetLeft
++ _objc_msgSend$initWithBundleId:confidenceValue:isRecommended:
++ _objc_msgSend$initWithVersion:predictionType:predictions:predictedDuration:outputReason:nandBudgetLeft:
++ _objc_msgSend$isRecommended
++ _objc_msgSend$nandBudgetLeft
++ _objc_msgSend$storeConfigurationForPredictions
++ _objc_msgSend$syncPolicyForPredictions
+- _BMGeneratedImageFailureReasonFeatureFromString.sortedEnums
+- _BMMomentsNotificationsFireDateSourceFromString.sortedEnums
+- ___block_literal_global.100253
+- ___block_literal_global.100465
+- ___block_literal_global.100639
+- ___block_literal_global.101.110555
+- ___block_literal_global.101167
+- ___block_literal_global.10121
+- ___block_literal_global.101309
+- ___block_literal_global.101772
+- ___block_literal_global.102147
+- ___block_literal_global.103.49503
+- ___block_literal_global.103039
+- ___block_literal_global.10365
+- ___block_literal_global.103879
+- ___block_literal_global.1040.97533
+- ___block_literal_global.104458
+- ___block_literal_global.104764
+- ___block_literal_global.105660
+- ___block_literal_global.105888
+- ___block_literal_global.106.83465
+- ___block_literal_global.10615
+- ___block_literal_global.1063.21597
+- ___block_literal_global.107.59521
+- ___block_literal_global.107042
+- ___block_literal_global.107373
+- ___block_literal_global.107750
+- ___block_literal_global.10776
+- ___block_literal_global.108.116086
+- ___block_literal_global.108.96278
+- ___block_literal_global.108131
+- ___block_literal_global.108563
+- ___block_literal_global.109.110574
+- ___block_literal_global.109108
+- ___block_literal_global.109413
+- ___block_literal_global.109625
+- ___block_literal_global.109941
+- ___block_literal_global.110228
+- ___block_literal_global.111237
+- ___block_literal_global.111836
+- ___block_literal_global.112178
+- ___block_literal_global.11228
+- ___block_literal_global.112600
+- ___block_literal_global.112929
+- ___block_literal_global.113.116079
+- ___block_literal_global.113272
+- ___block_literal_global.11346
+- ___block_literal_global.113645
+- ___block_literal_global.113877
+- ___block_literal_global.114.48177
+- ___block_literal_global.114146
+- ___block_literal_global.114466
+- ___block_literal_global.114652
+- ___block_literal_global.115.93129
+- ___block_literal_global.115304
+- ___block_literal_global.115493
+- ___block_literal_global.115969
+- ___block_literal_global.116937
+- ___block_literal_global.118064
+- ___block_literal_global.118715
+- ___block_literal_global.118949
+- ___block_literal_global.119.102211
+- ___block_literal_global.119.96477
+- ___block_literal_global.119271
+- ___block_literal_global.120.110616
+- ___block_literal_global.12322
+- ___block_literal_global.124.105060
+- ___block_literal_global.126.36729
+- ___block_literal_global.12794
+- ___block_literal_global.128.55049
+- ___block_literal_global.12903
+- ___block_literal_global.13083
+- ___block_literal_global.132.32651
+- ___block_literal_global.13511
+- ___block_literal_global.13732
+- ___block_literal_global.141.98039
+- ___block_literal_global.142.94476
+- ___block_literal_global.143.98040
+- ___block_literal_global.144.94477
+- ___block_literal_global.153.27190
+- ___block_literal_global.15384
+- ___block_literal_global.155.31925
+- ___block_literal_global.155.33241
+- ___block_literal_global.155.50966
+- ___block_literal_global.15580
+- ___block_literal_global.156.90094
+- ___block_literal_global.1564.37753
+- ___block_literal_global.15777
+- ___block_literal_global.159.105014
+- ___block_literal_global.159.116374
+- ___block_literal_global.162.68227
+- ___block_literal_global.16205
+- ___block_literal_global.1628
+- ___block_literal_global.16447
+- ___block_literal_global.16745
+- ___block_literal_global.170.105251
+- ___block_literal_global.17001
+- ___block_literal_global.171.51363
+- ___block_literal_global.17210
+- ___block_literal_global.17332
+- ___block_literal_global.174.91571
+- ___block_literal_global.175.95187
+- ___block_literal_global.177.82375
+- ___block_literal_global.179.23635
+- ___block_literal_global.179.82376
+- ___block_literal_global.1795
+- ___block_literal_global.18.100827
+- ___block_literal_global.18057
+- ___block_literal_global.181.105228
+- ___block_literal_global.181.23636
+- ___block_literal_global.18160
+- ___block_literal_global.183.95847
+- ___block_literal_global.18405
+- ___block_literal_global.185.86877
+- ___block_literal_global.18745
+- ___block_literal_global.18811
+- ___block_literal_global.19039
+- ___block_literal_global.19494
+- ___block_literal_global.19643
+- ___block_literal_global.199.40669
+- ___block_literal_global.199.57676
+- ___block_literal_global.203.41774
+- ___block_literal_global.204.103660
+- ___block_literal_global.20460
+- ___block_literal_global.205.24647
+- ___block_literal_global.207.116473
+- ___block_literal_global.207.60598
+- ___block_literal_global.207.61224
+- ___block_literal_global.20719
+- ___block_literal_global.208.117802
+- ___block_literal_global.209.116458
+- ___block_literal_global.209.60599
+- ___block_literal_global.209.61225
+- ___block_literal_global.21.109403
+- ___block_literal_global.21.109928
+- ___block_literal_global.21.118703
+- ___block_literal_global.21.39187
+- ___block_literal_global.21.59470
+- ___block_literal_global.21.60049
+- ___block_literal_global.21.70152
+- ___block_literal_global.21.78431
+- ___block_literal_global.21.95523
+- ___block_literal_global.21141
+- ___block_literal_global.216.112950
+- ___block_literal_global.21714
+- ___block_literal_global.218.112952
+- ___block_literal_global.22075
+- ___block_literal_global.222.115330
+- ___block_literal_global.222.91736
+- ___block_literal_global.223.111231
+- ___block_literal_global.22340
+- ___block_literal_global.2249
+- ___block_literal_global.226.104071
+- ___block_literal_global.22672
+- ___block_literal_global.228.104072
+- ___block_literal_global.228.22420
+- ___block_literal_global.23.89754
+- ___block_literal_global.230.104073
+- ___block_literal_global.230.25915
+- ___block_literal_global.23049
+- ___block_literal_global.23437
+- ___block_literal_global.235.104543
+- ___block_literal_global.235.23726
+- ___block_literal_global.23704
+- ___block_literal_global.238.90394
+- ___block_literal_global.23871
+- ___block_literal_global.24.103892
+- ___block_literal_global.24.110215
+- ___block_literal_global.24.111825
+- ___block_literal_global.24.115919
+- ___block_literal_global.24.22688
+- ___block_literal_global.24.37733
+- ___block_literal_global.24.47876
+- ___block_literal_global.24.72216
+- ___block_literal_global.24.74054
+- ___block_literal_global.24.78654
+- ___block_literal_global.24.79921
+- ___block_literal_global.24.99964
+- ___block_literal_global.240.101108
+- ___block_literal_global.240.66369
+- ___block_literal_global.240.88812
+- ___block_literal_global.240.90395
+- ___block_literal_global.24161
+- ___block_literal_global.244.31308
+- ___block_literal_global.244.83597
+- ___block_literal_global.246.31309
+- ___block_literal_global.24646
+- ___block_literal_global.25194
+- ___block_literal_global.253.100842
+- ___block_literal_global.255.100843
+- ___block_literal_global.25865
+- ___block_literal_global.259.100844
+- ___block_literal_global.261.116000
+- ___block_literal_global.263.116001
+- ___block_literal_global.265.82486
+- ___block_literal_global.267.82487
+- ___block_literal_global.268.115378
+- ___block_literal_global.269.107404
+- ___block_literal_global.27.12581
+- ___block_literal_global.27.16434
+- ___block_literal_global.27.28708
+- ___block_literal_global.27.31913
+- ___block_literal_global.27.36670
+- ___block_literal_global.27.48714
+- ___block_literal_global.27.81908
+- ___block_literal_global.27.83104
+- ___block_literal_global.27089
+- ___block_literal_global.27421
+- ___block_literal_global.27772
+- ___block_literal_global.28143
+- ___block_literal_global.286.53289
+- ___block_literal_global.28725
+- ___block_literal_global.288.53290
+- ___block_literal_global.289.101190
+- ___block_literal_global.29.110398
+- ___block_literal_global.29.59462
+- ___block_literal_global.29.95515
+- ___block_literal_global.290.117785
+- ___block_literal_global.290.53291
+- ___block_literal_global.291.101191
+- ___block_literal_global.292.108149
+- ___block_literal_global.293.101192
+- ___block_literal_global.294.53292
+- ___block_literal_global.295.54231
+- ___block_literal_global.296.83966
+- ___block_literal_global.297.84148
+- ___block_literal_global.29865
+- ___block_literal_global.30.112870
+- ___block_literal_global.30.114453
+- ___block_literal_global.30.53820
+- ___block_literal_global.30.59813
+- ___block_literal_global.30.60573
+- ___block_literal_global.30.66324
+- ___block_literal_global.30.86494
+- ___block_literal_global.30.94361
+- ___block_literal_global.30363
+- ___block_literal_global.307.103582
+- ___block_literal_global.30756
+- ___block_literal_global.30952
+- ___block_literal_global.31136
+- ___block_literal_global.312.112325
+- ___block_literal_global.313.82920
+- ___block_literal_global.31574
+- ___block_literal_global.318.107437
+- ___block_literal_global.318.74122
+- ___block_literal_global.31825
+- ___block_literal_global.32.118692
+- ___block_literal_global.32685
+- ___block_literal_global.33.11056
+- ___block_literal_global.33.111031
+- ___block_literal_global.33.27638
+- ___block_literal_global.33.52702
+- ___block_literal_global.33.54979
+- ___block_literal_global.33.94838
+- ___block_literal_global.33035
+- ___block_literal_global.33240
+- ___block_literal_global.33536
+- ___block_literal_global.33861
+- ___block_literal_global.34.10616
+- ___block_literal_global.340.15453
+- ___block_literal_global.34105
+- ___block_literal_global.343.96230
+- ___block_literal_global.34316
+- ___block_literal_global.344.108219
+- ___block_literal_global.34551
+- ___block_literal_global.34781
+- ___block_literal_global.35.38514
+- ___block_literal_global.35.48094
+- ___block_literal_global.35.52285
+- ___block_literal_global.35.55201
+- ___block_literal_global.35.64390
+- ___block_literal_global.35.80124
+- ___block_literal_global.35.81898
+- ___block_literal_global.35.85425
+- ___block_literal_global.35154
+- ___block_literal_global.353.91722
+- ___block_literal_global.35519
+- ___block_literal_global.356.103562
+- ___block_literal_global.35673
+- ___block_literal_global.358.107476
+- ___block_literal_global.36.10340
+- ___block_literal_global.36.10617
+- ___block_literal_global.36.114127
+- ___block_literal_global.36.16192
+- ___block_literal_global.36.73637
+- ___block_literal_global.36.93387
+- ___block_literal_global.360.103565
+- ___block_literal_global.360.107477
+- ___block_literal_global.364.113425
+- ___block_literal_global.366.113426
+- ___block_literal_global.366.98485
+- ___block_literal_global.36686
+- ___block_literal_global.368.113427
+- ___block_literal_global.368.98486
+- ___block_literal_global.370.78093
+- ___block_literal_global.372.78095
+- ___block_literal_global.37241
+- ___block_literal_global.374.78097
+- ___block_literal_global.37619
+- ___block_literal_global.37681
+- ___block_literal_global.38.109911
+- ___block_literal_global.38.116156
+- ___block_literal_global.38.60030
+- ___block_literal_global.38.94353
+- ___block_literal_global.38712
+- ___block_literal_global.38853
+- ___block_literal_global.39.107348
+- ___block_literal_global.39.24162
+- ___block_literal_global.39.32668
+- ___block_literal_global.39.65351
+- ___block_literal_global.39.79242
+- ___block_literal_global.39.99323
+- ___block_literal_global.39201
+- ___block_literal_global.394.110593
+- ___block_literal_global.39564
+- ___block_literal_global.40344
+- ___block_literal_global.406.92472
+- ___block_literal_global.40668
+- ___block_literal_global.41.12595
+- ___block_literal_global.41.94828
+- ___block_literal_global.41083
+- ___block_literal_global.41202
+- ___block_literal_global.41613
+- ___block_literal_global.42.102122
+- ___block_literal_global.42.103482
+- ___block_literal_global.42.62699
+- ___block_literal_global.42.76975
+- ___block_literal_global.422.76836
+- ___block_literal_global.424.76838
+- ___block_literal_global.424.91855
+- ___block_literal_global.424.94951
+- ___block_literal_global.42562
+- ___block_literal_global.426.103549
+- ___block_literal_global.426.91856
+- ___block_literal_global.42710
+- ___block_literal_global.428.103551
+- ___block_literal_global.428.86900
+- ___block_literal_global.428.91857
+- ___block_literal_global.43.59648
+- ___block_literal_global.430.86901
+- ___block_literal_global.431.116202
+- ___block_literal_global.43213
+- ___block_literal_global.436.96303
+- ___block_literal_global.44.16180
+- ___block_literal_global.44.27662
+- ___block_literal_global.44.41943
+- ___block_literal_global.44.48697
+- ___block_literal_global.44.73613
+- ___block_literal_global.44.76976
+- ___block_literal_global.44.86480
+- ___block_literal_global.45.30066
+- ___block_literal_global.45.55471
+- ___block_literal_global.45.61792
+- ___block_literal_global.45.82956
+- ___block_literal_global.45.9704
+- ___block_literal_global.45.99748
+- ___block_literal_global.45028
+- ___block_literal_global.45335
+- ___block_literal_global.454.105142
+- ___block_literal_global.454.43604
+- ___block_literal_global.454.92489
+- ___block_literal_global.454.94460
+- ___block_literal_global.456.43605
+- ___block_literal_global.45645
+- ___block_literal_global.458.26089
+- ___block_literal_global.458.43606
+- ___block_literal_global.45844
+- ___block_literal_global.46.118678
+- ___block_literal_global.46234
+- ___block_literal_global.46488
+- ___block_literal_global.46611
+- ___block_literal_global.467.91843
+- ___block_literal_global.46900
+- ___block_literal_global.47.111869
+- ___block_literal_global.47.57224
+- ___block_literal_global.47.66307
+- ___block_literal_global.47864
+- ___block_literal_global.48.43565
+- ___block_literal_global.48.98848
+- ___block_literal_global.48739
+- ___block_literal_global.49.60011
+- ___block_literal_global.49.94342
+- ___block_literal_global.49005
+- ___block_literal_global.49502
+- ___block_literal_global.49857
+- ___block_literal_global.50.105930
+- ___block_literal_global.50.114433
+- ___block_literal_global.50262
+- ___block_literal_global.50950
+- ___block_literal_global.516.93280
+- ___block_literal_global.51714
+- ___block_literal_global.52.110401
+- ___block_literal_global.52.116139
+- ___block_literal_global.52079
+- ___block_literal_global.52284
+- ___block_literal_global.52432
+- ___block_literal_global.52718
+- ___block_literal_global.53.114694
+- ___block_literal_global.53288
+- ___block_literal_global.53833
+- ___block_literal_global.54.108098
+- ___block_literal_global.54.118936
+- ___block_literal_global.54.119258
+- ___block_literal_global.54.55958
+- ___block_literal_global.54.59633
+- ___block_literal_global.54121
+- ___block_literal_global.54998
+- ___block_literal_global.55.66470
+- ___block_literal_global.550.116413
+- ___block_literal_global.55200
+- ___block_literal_global.55496
+- ___block_literal_global.55968
+- ___block_literal_global.56.108099
+- ___block_literal_global.56.53794
+- ___block_literal_global.57.109612
+- ___block_literal_global.57.60022
+- ___block_literal_global.57.87549
+- ___block_literal_global.57.92661
+- ___block_literal_global.57223
+- ___block_literal_global.57590
+- ___block_literal_global.58.118065
+- ___block_literal_global.580.116401
+- ___block_literal_global.59.107090
+- ___block_literal_global.59.79220
+- ___block_literal_global.59003
+- ___block_literal_global.59451
+- ___block_literal_global.596.103536
+- ___block_literal_global.59794
+- ___block_literal_global.60059
+- ___block_literal_global.60227
+- ___block_literal_global.60437
+- ___block_literal_global.60890
+- ___block_literal_global.61.111847
+- ___block_literal_global.61223
+- ___block_literal_global.61685
+- ___block_literal_global.62.104970
+- ___block_literal_global.62259
+- ___block_literal_global.62668
+- ___block_literal_global.62892
+- ___block_literal_global.63.110367
+- ___block_literal_global.63.27783
+- ___block_literal_global.63.66462
+- ___block_literal_global.63.72471
+- ___block_literal_global.630.110586
+- ___block_literal_global.634.96432
+- ___block_literal_global.636.96433
+- ___block_literal_global.63771
+- ___block_literal_global.64.112601
+- ___block_literal_global.64.113646
+- ___block_literal_global.64043
+- ___block_literal_global.64389
+- ___block_literal_global.65.92653
+- ___block_literal_global.65.98831
+- ___block_literal_global.65014
+- ___block_literal_global.65163
+- ___block_literal_global.65379
+- ___block_literal_global.66.113647
+- ___block_literal_global.66340
+- ___block_literal_global.67099
+- ___block_literal_global.67942
+- ___block_literal_global.68.112602
+- ___block_literal_global.68192
+- ___block_literal_global.68793
+- ___block_literal_global.69.111861
+- ___block_literal_global.69.112970
+- ___block_literal_global.69228
+- ___block_literal_global.69517
+- ___block_literal_global.70.112603
+- ___block_literal_global.70162
+- ___block_literal_global.70407
+- ___block_literal_global.70545
+- ___block_literal_global.71.112971
+- ___block_literal_global.71.72408
+- ___block_literal_global.71023
+- ___block_literal_global.71291
+- ___block_literal_global.717.41973
+- ___block_literal_global.719.92690
+- ___block_literal_global.72.103675
+- ___block_literal_global.72.33037
+- ___block_literal_global.72.52131
+- ___block_literal_global.721.92691
+- ___block_literal_global.72229
+- ___block_literal_global.72416
+- ___block_literal_global.725.92692
+- ___block_literal_global.73030
+- ___block_literal_global.733.96496
+- ___block_literal_global.73621
+- ___block_literal_global.73906
+- ___block_literal_global.74.103676
+- ___block_literal_global.74.117821
+- ___block_literal_global.74.66568
+- ___block_literal_global.741.105457
+- ___block_literal_global.74272
+- ___block_literal_global.749.54675
+- ___block_literal_global.75.105177
+- ___block_literal_global.75557
+- ___block_literal_global.75852
+- ___block_literal_global.76.79868
+- ___block_literal_global.760.51352
+- ___block_literal_global.762.96732
+- ___block_literal_global.76391
+- ___block_literal_global.764.51353
+- ___block_literal_global.766.51354
+- ___block_literal_global.768.51355
+- ___block_literal_global.76974
+- ___block_literal_global.77.111256
+- ___block_literal_global.77.111894
+- ___block_literal_global.77116
+- ___block_literal_global.78.94916
+- ___block_literal_global.78196
+- ___block_literal_global.78444
+- ___block_literal_global.78638
+- ___block_literal_global.78855
+- ___block_literal_global.79.110504
+- ___block_literal_global.79.111257
+- ___block_literal_global.79267
+- ___block_literal_global.79426
+- ___block_literal_global.79931
+- ___block_literal_global.80123
+- ___block_literal_global.80231
+- ___block_literal_global.80565
+- ___block_literal_global.81636
+- ___block_literal_global.81924
+- ___block_literal_global.82.94917
+- ___block_literal_global.82332
+- ___block_literal_global.82902
+- ___block_literal_global.83120
+- ___block_literal_global.83529
+- ___block_literal_global.83857
+- ___block_literal_global.84.35087
+- ___block_literal_global.84286
+- ___block_literal_global.84646
+- ___block_literal_global.85.69519
+- ___block_literal_global.85.86409
+- ___block_literal_global.85424
+- ___block_literal_global.86.94334
+- ___block_literal_global.860.116604
+- ___block_literal_global.86461
+- ___block_literal_global.87.69520
+- ___block_literal_global.87032
+- ___block_literal_global.87209
+- ___block_literal_global.87548
+- ___block_literal_global.87978
+- ___block_literal_global.8839
+- ___block_literal_global.88810
+- ___block_literal_global.89.69521
+- ___block_literal_global.895.42185
+- ___block_literal_global.895.86741
+- ___block_literal_global.897.86743
+- ___block_literal_global.89773
+- ___block_literal_global.90.110493
+- ___block_literal_global.90070
+- ___block_literal_global.90364
+- ___block_literal_global.91246
+- ___block_literal_global.91530
+- ___block_literal_global.917.86754
+- ___block_literal_global.919.86755
+- ___block_literal_global.92.105108
+- ___block_literal_global.921.86756
+- ___block_literal_global.92270
+- ___block_literal_global.9251
+- ___block_literal_global.93085
+- ___block_literal_global.94399
+- ___block_literal_global.9471
+- ___block_literal_global.94860
+- ___block_literal_global.95.35236
+- ___block_literal_global.95.48275
+- ___block_literal_global.95068
+- ___block_literal_global.95533
+- ___block_literal_global.95732
+- ___block_literal_global.96054
+- ___block_literal_global.96681
+- ___block_literal_global.9741
+- ___block_literal_global.97989
+- ___block_literal_global.98203
+- ___block_literal_global.98882
+- ___block_literal_global.99297
+- ___block_literal_global.99429
+- ___block_literal_global.99767
+- ___block_literal_global.99974
+Functions:
+~ +[_BMDeviceLibraryNode sublibraries] : 416 -> 444
++ +[_BMDeviceLibraryNode AppResume]
+CStrings:
++ "28BA5806-44EB-49BF-8695-3C9775C0C384"
++ "@56@0:8@16i24@28@36i44@48"
++ "AppResume"
++ "BMAppResumePrediction"
++ "BMAppResumePrediction with bundleId: %@, confidenceValue: %@, isRecommended: %@"
++ "BMDeviceAppResumePredictions"
++ "BMDeviceAppResumePredictions with version: %@, predictionType: %@, predictions: %@, predictedDuration: %@, outputReason: %@, nandBudgetLeft: %@"
++ "Device.AppResume.Predictions"
++ "Dock"
++ "Freezer"
++ "Heuristic"
++ "Predictions"
++ "Prewarm"
++ "TB,N,V_hasIsRecommended"
++ "TB,N,V_hasNandBudgetLeft"
++ "TB,R,N,V_isRecommended"
++ "Td,R,N,V_nandBudgetLeft"
++ "_BMDeviceAppResumeLibraryNode"
++ "_hasIsRecommended"
++ "_hasNandBudgetLeft"
++ "_isRecommended"
++ "_nandBudgetLeft"
++ "configurationForPredictions"
++ "hasIsRecommended"
++ "hasNandBudgetLeft"
++ "initWithBundleId:confidenceValue:isRecommended:"
++ "initWithVersion:predictionType:predictions:predictedDuration:outputReason:nandBudgetLeft:"
++ "isRecommended"
++ "nandBudgetLeft"
++ "setHasIsRecommended:"
++ "setHasNandBudgetLeft:"
++ "storeConfigurationForPredictions"
++ "syncPolicyForPredictions"
+
+```

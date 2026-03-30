@@ -1,0 +1,121 @@
+## AppleMediaServicesUIPaymentSheets
+
+> `/System/Library/PrivateFrameworks/AppleMediaServicesUIPaymentSheets.framework/AppleMediaServicesUIPaymentSheets`
+
+```diff
+
+-7.4.25.2.3
+-  __TEXT.__text: 0x20714
++7.5.4.1.0
++  __TEXT.__text: 0x2162c
+   __TEXT.__auth_stubs: 0x16b0
+   __TEXT.__objc_methlist: 0x20
+-  __TEXT.__const: 0x2694
+-  __TEXT.__constg_swiftt: 0xc94
+-  __TEXT.__swift5_typeref: 0x30ee
+-  __TEXT.__swift5_reflstr: 0x70d
+-  __TEXT.__swift5_fieldmd: 0x9b4
++  __TEXT.__const: 0x27a4
++  __TEXT.__constg_swiftt: 0xcd8
++  __TEXT.__swift5_typeref: 0x34e4
++  __TEXT.__swift5_reflstr: 0x73d
++  __TEXT.__swift5_fieldmd: 0xa00
+   __TEXT.__swift5_builtin: 0x3c
+-  __TEXT.__swift5_assocty: 0x318
+-  __TEXT.__swift5_proto: 0xf8
+-  __TEXT.__swift5_types: 0xd4
++  __TEXT.__swift5_assocty: 0x330
++  __TEXT.__swift5_proto: 0xfc
++  __TEXT.__swift5_types: 0xd8
+   __TEXT.__cstring: 0x7a0
+   __TEXT.__swift5_capture: 0x358
+   __TEXT.__swift_as_entry: 0x20
+   __TEXT.__swift_as_ret: 0x20
+   __TEXT.__swift5_protos: 0x8
+-  __TEXT.__unwind_info: 0x9c8
++  __TEXT.__unwind_info: 0x9f8
+   __TEXT.__eh_frame: 0x65c
+   __TEXT.__objc_classname: 0x241
+-  __TEXT.__objc_methname: 0x3af
++  __TEXT.__objc_methname: 0x3bf
+   __TEXT.__objc_methtype: 0x79
+-  __TEXT.__objc_stubs: 0x540
+-  __DATA_CONST.__got: 0x4e0
++  __TEXT.__objc_stubs: 0x560
++  __DATA_CONST.__got: 0x4f0
+   __DATA_CONST.__const: 0x128
+   __DATA_CONST.__objc_classlist: 0x40
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x160
++  __DATA_CONST.__objc_selrefs: 0x168
+   __AUTH_CONST.__auth_got: 0xb60
+-  __AUTH_CONST.__const: 0x1df0
++  __AUTH_CONST.__const: 0x1e80
+   __AUTH_CONST.__objc_const: 0x4e0
+   __AUTH.__objc_data: 0xe8
+   __AUTH.__data: 0x660
+-  __DATA.__data: 0xa20
+-  __DATA.__bss: 0x1588
++  __DATA.__data: 0xad8
++  __DATA.__bss: 0x15f8
+   __DATA.__common: 0x38
+   __DATA_DIRTY.__objc_data: 0x150
+-  __DATA_DIRTY.__data: 0x260
++  __DATA_DIRTY.__data: 0x268
+   __DATA_DIRTY.__bss: 0x900
+   - /System/Library/Frameworks/Combine.framework/Combine
+   - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: BC0FC27F-F94C-3192-9F23-6FB002837B5E
+-  Functions: 1120
+-  Symbols:   1117
+-  CStrings:  112
++  UUID: BCABF3E9-9A54-308A-97CB-09A510521819
++  Functions: 1139
++  Symbols:   1145
++  CStrings:  113
+ 
+Symbols:
++ ___swift_memcpy64_8
++ _associated conformance 33AppleMediaServicesUIPaymentSheets28ParentalVerificationIconViewV7SwiftUI0I0AA4BodyAdEP_AdE
++ _get_witness_table 7SwiftUI19_ConditionalContentVyAA08ModifiedD0VyAEyAA5ImageVAA18_AspectRatioLayoutVGAA010_FlexFrameI0VGAA6ZStackVyAA9TupleViewVyAEyAEyAA9RectangleVAA24_ForegroundStyleModifierVyAA5ColorVGGALG_AEyAEyAEyAjXGALGAA08_PaddingI0VGtGGGAA0N0HPAmAA7_HPAjAA7_HPAgAA7_HPyHC_AiA0nR0HPyHCHC_AlAA8_HPyHCHC_A5_AAA7_HPyHCHC.8
++ _get_witness_table 7SwiftUI6VStackVyAA9TupleViewVyAA6HStackVyAEyAA15ModifiedContentVyAIyAIy33AppleMediaServicesUIPaymentSheets024ParentalVerificationIconE0VAA11_ClipEffectVyAA16RoundedRectangleVGGAA12_FrameLayoutVGAA08_PaddingV0VG_AA4TextVAA6SpacerVtGG_AIyAA0E0P13PaymentUIBaseE21paymentItemBackgroundQryFQOyAIyA4_AAE10fontWeightyQrAA4FontV6WeightVSgFQOyAIyAzA05_FlexuV0VG_Qo_AWG_Qo_AQGtGGAAA3_HPyHC.7
++ _objc_msgSend$lightGrayColor
++ _symbolic So7UIColorC
++ _symbolic So7UIImageCSg
++ _symbolic _____ 33AppleMediaServicesUIPaymentSheets28ParentalVerificationIconViewV
++ _symbolic _____yAAyAAyAAy__________G_____y_____GG_____G_____G 7SwiftUI15ModifiedContentV AA5ImageV AA18_AspectRatioLayoutV AA24_ForegroundStyleModifierV AA5ColorV AA010_FlexFrameH0V AA08_PaddingH0V
++ _symbolic _____yAAyAAy__________G_____y_____GG_____G 7SwiftUI15ModifiedContentV AA5ImageV AA18_AspectRatioLayoutV AA24_ForegroundStyleModifierV AA5ColorV AA010_FlexFrameH0V
++ _symbolic _____yAAyAAy__________y_____GG_____G_____G 7SwiftUI15ModifiedContentV 33AppleMediaServicesUIPaymentSheets28ParentalVerificationIconViewV AA11_ClipEffectV AA16RoundedRectangleV AA12_FrameLayoutV AA08_PaddingS0V
++ _symbolic _____yAAyAAy__________y_____GG_____G_____G___________t 7SwiftUI15ModifiedContentV 33AppleMediaServicesUIPaymentSheets28ParentalVerificationIconViewV AA11_ClipEffectV AA16RoundedRectangleV AA12_FrameLayoutV AA08_PaddingS0V AA4TextV AA6SpacerV
++ _symbolic _____yAAy__________G_____G 7SwiftUI15ModifiedContentV AA5ImageV AA18_AspectRatioLayoutV AA010_FlexFrameH0V
++ _symbolic _____yAAy__________y_____GG_____G 7SwiftUI15ModifiedContentV 33AppleMediaServicesUIPaymentSheets28ParentalVerificationIconViewV AA11_ClipEffectV AA16RoundedRectangleV AA12_FrameLayoutV
++ _symbolic _____yAAy__________y_____GG_____G 7SwiftUI15ModifiedContentV AA9RectangleV AA24_ForegroundStyleModifierV AA5ColorV AA16_FlexFrameLayoutV
++ _symbolic _____y__________G 7SwiftUI15ModifiedContentV AA4TextV AA16_FlexFrameLayoutV
++ _symbolic _____y___________y_____yACy_____yAEyAEy__________y_____GG_____G_____G___________tGG_AEy_____yAEy_____yAEyAO_____G_Qo_AMG_Qo_AIGtGG 7SwiftUI13_VariadicViewO4TreeV AA13_VStackLayoutV AA05TupleD0V AA6HStackV AA15ModifiedContentV 33AppleMediaServicesUIPaymentSheets024ParentalVerificationIconD0V AA11_ClipEffectV AA16RoundedRectangleV AA06_FrameG0V AA08_PaddingG0V AA4TextV AA6SpacerV AA0D0P13PaymentUIBaseE21paymentItemBackgroundQryFQO A2_AAE10fontWeightyQrAA4FontV6WeightVSgFQO AA05_FlexxG0V
++ _symbolic _____y___________y_____yADyADy__________y_____GG_____G_____G___________tGG 7SwiftUI13_VariadicViewO4TreeV AA13_HStackLayoutV AA05TupleD0V AA15ModifiedContentV 33AppleMediaServicesUIPaymentSheets024ParentalVerificationIconD0V AA11_ClipEffectV AA16RoundedRectangleV AA06_FrameG0V AA08_PaddingG0V AA4TextV AA6SpacerV
++ _symbolic _____y__________y_____GG 7SwiftUI15ModifiedContentV 33AppleMediaServicesUIPaymentSheets28ParentalVerificationIconViewV AA11_ClipEffectV AA16RoundedRectangleV
++ _symbolic _____y__________y_____GGSg 7SwiftUI15ModifiedContentV AA5ImageV AA11_ClipEffectV AA16RoundedRectangleV
++ _symbolic _____y__________y__________y_____GGSgG 7SwiftUI5LabelV 33AppleMediaServicesUIPaymentSheets15TitleHeaderViewV AA15ModifiedContentV AA5ImageV AA11_ClipEffectV AA16RoundedRectangleV
++ _symbolic _____y_____yAAy__________G_Qo______G 7SwiftUI15ModifiedContentV AA4ViewPAAE10fontWeightyQrAA4FontV0G0VSgFQO AA4TextV AA16_FlexFrameLayoutV AA08_PaddingL0V
++ _symbolic _____y_____yAAy_____yAAy__________G_Qo______G_Qo______y_____GG 7SwiftUI15ModifiedContentV AA4ViewP13PaymentUIBaseE21paymentItemBackgroundQryFQO AeAE10fontWeightyQrAA4FontV0L0VSgFQO AA4TextV AA16_FlexFrameLayoutV AA08_PaddingQ0V AA11_ClipEffectV AA16RoundedRectangleV
++ _symbolic _____y_____yABy__________G_____G_____y_____yAByABy__________y_____GGAFG_AByAByAByAeMGAFG_____GtGGG 7SwiftUI19_ConditionalContentV AA08ModifiedD0V AA5ImageV AA18_AspectRatioLayoutV AA010_FlexFrameI0V AA6ZStackV AA9TupleViewV AA9RectangleV AA24_ForegroundStyleModifierV AA5ColorV AA08_PaddingI0V
++ _symbolic _____y_____yABy__________y_____GG_____G_AByAByAByABy__________GAFGAHG_____GtG 7SwiftUI9TupleViewV AA15ModifiedContentV AA9RectangleV AA24_ForegroundStyleModifierV AA5ColorV AA16_FlexFrameLayoutV AA5ImageV AA012_AspectRatioN0V AA08_PaddingN0V
++ _symbolic _____y_____y_____yABy_____yADyADy__________y_____GG_____G_____G___________tGG_ADy_____yADy_____yADyAN_____G_Qo_ALG_Qo_AHGtGG 7SwiftUI6VStackV AA9TupleViewV AA6HStackV AA15ModifiedContentV 33AppleMediaServicesUIPaymentSheets024ParentalVerificationIconE0V AA11_ClipEffectV AA16RoundedRectangleV AA12_FrameLayoutV AA08_PaddingV0V AA4TextV AA6SpacerV AA0E0P13PaymentUIBaseE21paymentItemBackgroundQryFQO AzAE10fontWeightyQrAA4FontV6WeightVSgFQO AA05_FlexuV0V
++ _symbolic _____y_____y_____yACyACy__________y_____GG_____G_____G___________tGG 7SwiftUI6HStackV AA9TupleViewV AA15ModifiedContentV 33AppleMediaServicesUIPaymentSheets024ParentalVerificationIconE0V AA11_ClipEffectV AA16RoundedRectangleV AA12_FrameLayoutV AA08_PaddingU0V AA4TextV AA6SpacerV
++ _symbolic _____y_____y_____yACyACy__________y_____GG_____G_____G___________tGG_ACy_____yACy_____yACyAM_____G_Qo_AKG_Qo_AGGt 7SwiftUI6HStackV AA9TupleViewV AA15ModifiedContentV 33AppleMediaServicesUIPaymentSheets024ParentalVerificationIconE0V AA11_ClipEffectV AA16RoundedRectangleV AA12_FrameLayoutV AA08_PaddingU0V AA4TextV AA6SpacerV AA0E0P13PaymentUIBaseE21paymentItemBackgroundQryFQO AxAE10fontWeightyQrAA4FontV6WeightVSgFQO AA05_FlextU0V
++ _symbolic _____y_____y_____yACy__________y_____GG_____G_ACyACyACyACy__________GAGGAIG_____GtGG 7SwiftUI6ZStackV AA9TupleViewV AA15ModifiedContentV AA9RectangleV AA24_ForegroundStyleModifierV AA5ColorV AA16_FlexFrameLayoutV AA5ImageV AA012_AspectRatioO0V AA08_PaddingO0V
++ _type_layout_string 33AppleMediaServicesUIPaymentSheets28ParentalVerificationIconViewV
+- ___swift_memcpy48_8
+- _get_witness_table 7SwiftUI6VStackVyAA9TupleViewVyAA15ModifiedContentVyAGyAA5ImageVAA16_OverlayModifierVyAA011StrokeShapeE0VyAA16RoundedRectangleVAA5ColorVAA05EmptyE0VGGGAA11_ClipEffectVyAOGG_AGyAA4TextVAA14_PaddingLayoutVGAGyA0_AA022_EnvironmentKeyWritingJ0VyAA0S9AlignmentOGGtGGAA0E0HPyHC.1
+- _symbolic _____yAAy__________y_____y_______________GGG_____yAEGG_AAy__________GAAyAN_____y_____GGt 7SwiftUI15ModifiedContentV AA5ImageV AA16_OverlayModifierV AA15StrokeShapeViewV AA16RoundedRectangleV AA5ColorV AA05EmptyJ0V AA11_ClipEffectV AA4TextV AA14_PaddingLayoutV AA022_EnvironmentKeyWritingG0V AA0Q9AlignmentO
+- _symbolic _____y__________G 7SwiftUI15ModifiedContentV AA4TextV AA14_PaddingLayoutV
+- _symbolic _____y___________y_____yADy__________y_____y_______________GGG_____yAHGG_ADy__________GADyAQ_____y_____GGtGG 7SwiftUI13_VariadicViewO4TreeV AA13_VStackLayoutV AA05TupleD0V AA15ModifiedContentV AA5ImageV AA16_OverlayModifierV AA011StrokeShapeD0V AA16RoundedRectangleV AA5ColorV AA05EmptyD0V AA11_ClipEffectV AA4TextV AA08_PaddingG0V AA022_EnvironmentKeyWritingM0V AA0V9AlignmentO
+- _symbolic _____y_____y_____yACy__________y_____y_______________GGG_____yAGGG_ACy__________GACyAP_____y_____GGtGG 7SwiftUI6VStackV AA9TupleViewV AA15ModifiedContentV AA5ImageV AA16_OverlayModifierV AA011StrokeShapeE0V AA16RoundedRectangleV AA5ColorV AA05EmptyE0V AA11_ClipEffectV AA4TextV AA14_PaddingLayoutV AA022_EnvironmentKeyWritingJ0V AA0S9AlignmentO
+CStrings:
++ "lightGrayColor"
+
+```
