@@ -25,7 +25,7 @@
    CStrings:  660
 Functions:
 ~ __Z34corecaptureIsDevFusedOrCSRInternalb : 100 -> 120
-~ sub_fffffe000a5757a8 -> __Z29corecaptureIsDebuggbleUnifiedv : 116 -> 100
+~ __Z29corecaptureIsDebuggbleUnifiedv : 116 -> 100
 ~ __ZN6CCPipe25initWithOwnerNameCapacityEP9IOServicePKcS3_PK13CCPipeOptions : 6272 -> 6308
 ~ __Z16DefaultLogPolicyv -> sub_fffffe000a61b474 : 108 -> 100
 ~ __ZN11CCIOService17ccForcePanic_ImplEbP8OSString : 184 -> 188
