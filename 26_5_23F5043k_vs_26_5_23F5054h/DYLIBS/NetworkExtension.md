@@ -1,0 +1,626 @@
+## NetworkExtension
+
+> `/System/Library/Frameworks/NetworkExtension.framework/NetworkExtension`
+
+```diff
+
+-2226.120.12.0.0
+-  __TEXT.__text: 0x20af90
+-  __TEXT.__auth_stubs: 0x4500
+-  __TEXT.__objc_methlist: 0xeff0
++2226.120.15.0.0
++  __TEXT.__text: 0x20b1c0
++  __TEXT.__auth_stubs: 0x4510
++  __TEXT.__objc_methlist: 0xf008
+   __TEXT.__const: 0x34a4
+-  __TEXT.__cstring: 0x186f9
++  __TEXT.__cstring: 0x186fd
+   __TEXT.__constg_swiftt: 0xc1c
+   __TEXT.__swift5_typeref: 0xdd3
+   __TEXT.__swift5_reflstr: 0x464
+
+   __TEXT.__swift5_proto: 0x60
+   __TEXT.__swift5_types: 0x90
+   __TEXT.__swift5_capture: 0xd58
+-  __TEXT.__oslogstring: 0x23cb8
++  __TEXT.__oslogstring: 0x23d0b
+   __TEXT.__swift_as_entry: 0xe4
+   __TEXT.__swift_as_ret: 0x104
+   __TEXT.__swift5_protos: 0x14
+   __TEXT.__gcc_except_tab: 0x5ad0
+-  __TEXT.__unwind_info: 0x5510
++  __TEXT.__unwind_info: 0x5518
+   __TEXT.__eh_frame: 0x2900
+   __TEXT.__objc_classname: 0x2fc2
+-  __TEXT.__objc_methname: 0x1b207
+-  __TEXT.__objc_methtype: 0x4132
+-  __TEXT.__objc_stubs: 0x10720
++  __TEXT.__objc_methname: 0x1b237
++  __TEXT.__objc_methtype: 0x4140
++  __TEXT.__objc_stubs: 0x10780
+   __DATA_CONST.__got: 0x1740
+   __DATA_CONST.__const: 0x5a78
+   __DATA_CONST.__objc_classlist: 0xb40
+   __DATA_CONST.__objc_catlist: 0x10
+   __DATA_CONST.__objc_protolist: 0x270
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x51f8
++  __DATA_CONST.__objc_selrefs: 0x5208
+   __DATA_CONST.__objc_protorefs: 0x158
+   __DATA_CONST.__objc_superrefs: 0x718
+   __DATA_CONST.__objc_arraydata: 0x138
+-  __AUTH_CONST.__auth_got: 0x2290
++  __AUTH_CONST.__auth_got: 0x2298
+   __AUTH_CONST.__const: 0x3e98
+   __AUTH_CONST.__cfstring: 0x18180
+-  __AUTH_CONST.__objc_const: 0x22c40
++  __AUTH_CONST.__objc_const: 0x22c50
+   __AUTH_CONST.__objc_intobj: 0x390
+   __AUTH_CONST.__objc_arrayobj: 0x168
+   __AUTH_CONST.__objc_dictobj: 0x28
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 720F7BD4-C9D1-34A3-BF83-34C29F150EBD
+-  Functions: 7920
+-  Symbols:   22980
+-  CStrings:  15923
++  UUID: 2AFED14C-1C09-3273-B688-7DB085E36E64
++  Functions: 7922
++  Symbols:   22988
++  CStrings:  15928
+ 
+Symbols:
++ -[NEProvider initAllowUnentitled:withOptions:]
++ -[NERelayConfiguration hasMatchPrefixes]
++ GCC_except_table4155
++ GCC_except_table4166
++ GCC_except_table4172
++ GCC_except_table4195
++ GCC_except_table4199
++ GCC_except_table4205
++ GCC_except_table4211
++ GCC_except_table4219
++ GCC_except_table4292
++ GCC_except_table4300
++ GCC_except_table4398
++ GCC_except_table4400
++ GCC_except_table4482
++ GCC_except_table4625
++ GCC_except_table4629
++ GCC_except_table4663
++ GCC_except_table4673
++ GCC_except_table4677
++ GCC_except_table4689
++ GCC_except_table4709
++ GCC_except_table4711
++ GCC_except_table4717
++ GCC_except_table4719
++ GCC_except_table4811
++ GCC_except_table4880
++ GCC_except_table4901
++ GCC_except_table4914
++ GCC_except_table5012
++ GCC_except_table5017
++ GCC_except_table5058
++ GCC_except_table5106
++ GCC_except_table5170
++ GCC_except_table5173
++ GCC_except_table5209
++ GCC_except_table5233
++ GCC_except_table5241
++ GCC_except_table5280
++ GCC_except_table5285
++ GCC_except_table5288
++ GCC_except_table5334
++ GCC_except_table5356
++ GCC_except_table5359
++ GCC_except_table5435
++ GCC_except_table5762
++ GCC_except_table5798
++ GCC_except_table5799
++ GCC_except_table5802
++ GCC_except_table5867
++ GCC_except_table5873
++ GCC_except_table5874
++ GCC_except_table5882
++ GCC_except_table5885
++ GCC_except_table5895
++ GCC_except_table5916
++ GCC_except_table5917
++ GCC_except_table5921
++ GCC_except_table5922
++ GCC_except_table5929
++ GCC_except_table5938
++ GCC_except_table5941
++ GCC_except_table5945
++ GCC_except_table6022
++ GCC_except_table6023
++ GCC_except_table6171
++ GCC_except_table6172
++ GCC_except_table6181
++ GCC_except_table6187
++ GCC_except_table6188
++ GCC_except_table6193
++ GCC_except_table6219
++ GCC_except_table6298
++ GCC_except_table6299
++ ___Block_byref_object_copy_.12748
++ ___Block_byref_object_copy_.170
++ ___Block_byref_object_copy_.20602
++ ___Block_byref_object_copy_.21871
++ ___Block_byref_object_copy_.22922
++ ___Block_byref_object_copy_.24062
++ ___Block_byref_object_copy_.24780
++ ___Block_byref_object_copy_.27439
++ ___Block_byref_object_copy_.28613
++ ___Block_byref_object_copy_.7099
++ ___Block_byref_object_dispose_.12749
++ ___Block_byref_object_dispose_.171
++ ___Block_byref_object_dispose_.20603
++ ___Block_byref_object_dispose_.21872
++ ___Block_byref_object_dispose_.22923
++ ___Block_byref_object_dispose_.24063
++ ___Block_byref_object_dispose_.24781
++ ___Block_byref_object_dispose_.27440
++ ___Block_byref_object_dispose_.28614
++ ___Block_byref_object_dispose_.7100
++ ___block_descriptor_tmp.19808
++ ___block_descriptor_tmp.23615
++ ___block_descriptor_tmp.25664
++ ___block_descriptor_tmp.26270
++ ___block_literal_global.10278
++ ___block_literal_global.1139
++ ___block_literal_global.13033
++ ___block_literal_global.13405
++ ___block_literal_global.14.22383
++ ___block_literal_global.1481
++ ___block_literal_global.15.25894
++ ___block_literal_global.17.18100
++ ___block_literal_global.17975
++ ___block_literal_global.18109
++ ___block_literal_global.18416
++ ___block_literal_global.1893
++ ___block_literal_global.19717
++ ___block_literal_global.20.18106
++ ___block_literal_global.20392
++ ___block_literal_global.20906
++ ___block_literal_global.2093
++ ___block_literal_global.21968
++ ___block_literal_global.2237
++ ___block_literal_global.22388
++ ___block_literal_global.2256
++ ___block_literal_global.22788
++ ___block_literal_global.23529
++ ___block_literal_global.2353
++ ___block_literal_global.23613
++ ___block_literal_global.24165
++ ___block_literal_global.24277
++ ___block_literal_global.24320
++ ___block_literal_global.24515
++ ___block_literal_global.24697
++ ___block_literal_global.2513
++ ___block_literal_global.25611
++ ___block_literal_global.25662
++ ___block_literal_global.25898
++ ___block_literal_global.25993
++ ___block_literal_global.2631
++ ___block_literal_global.26376
++ ___block_literal_global.26931
++ ___block_literal_global.27019
++ ___block_literal_global.27167
++ ___block_literal_global.27405
++ ___block_literal_global.27951
++ ___block_literal_global.28.27443
++ ___block_literal_global.2830
++ ___block_literal_global.28665
++ ___block_literal_global.2975
++ ___block_literal_global.3098
++ ___block_literal_global.3190
++ ___block_literal_global.3464
++ ___block_literal_global.3736
++ ___block_literal_global.3817
++ ___block_literal_global.4245
++ ___block_literal_global.4331
++ ___block_literal_global.4704
++ ___block_literal_global.5004
++ ___block_literal_global.5650
++ ___block_literal_global.63.20387
++ ___block_literal_global.63.3185
++ ___block_literal_global.63.4999
++ ___block_literal_global.69.2088
++ ___block_literal_global.69.3731
++ ___block_literal_global.69.3812
++ ___block_literal_global.7.25602
++ ___block_literal_global.7128
++ ___block_literal_global.73.25988
++ ___block_literal_global.7356
++ ___block_literal_global.75.4240
++ ___block_literal_global.75.4326
++ ___block_literal_global.7543
++ ___block_literal_global.7964
++ ___block_literal_global.8088
++ __extensionAuxiliaryHostProtocol.protocol.20388
++ __extensionAuxiliaryHostProtocol.protocol.2089
++ __extensionAuxiliaryHostProtocol.protocol.24321
++ __extensionAuxiliaryHostProtocol.protocol.2510
++ __extensionAuxiliaryHostProtocol.protocol.25989
++ __extensionAuxiliaryHostProtocol.protocol.2628
++ __extensionAuxiliaryHostProtocol.protocol.2827
++ __extensionAuxiliaryHostProtocol.protocol.2972
++ __extensionAuxiliaryHostProtocol.protocol.3095
++ __extensionAuxiliaryHostProtocol.protocol.3186
++ __extensionAuxiliaryHostProtocol.protocol.3732
++ __extensionAuxiliaryHostProtocol.protocol.3813
++ __extensionAuxiliaryHostProtocol.protocol.4241
++ __extensionAuxiliaryHostProtocol.protocol.4327
++ __extensionAuxiliaryHostProtocol.protocol.4701
++ __extensionAuxiliaryHostProtocol.protocol.5000
++ __extensionAuxiliaryHostProtocol.protocolInit.20386
++ __extensionAuxiliaryHostProtocol.protocolInit.2087
++ __extensionAuxiliaryHostProtocol.protocolInit.24319
++ __extensionAuxiliaryHostProtocol.protocolInit.2509
++ __extensionAuxiliaryHostProtocol.protocolInit.25987
++ __extensionAuxiliaryHostProtocol.protocolInit.2627
++ __extensionAuxiliaryHostProtocol.protocolInit.2826
++ __extensionAuxiliaryHostProtocol.protocolInit.2971
++ __extensionAuxiliaryHostProtocol.protocolInit.3094
++ __extensionAuxiliaryHostProtocol.protocolInit.3184
++ __extensionAuxiliaryHostProtocol.protocolInit.3730
++ __extensionAuxiliaryHostProtocol.protocolInit.3811
++ __extensionAuxiliaryHostProtocol.protocolInit.4239
++ __extensionAuxiliaryHostProtocol.protocolInit.4325
++ __extensionAuxiliaryHostProtocol.protocolInit.4700
++ __extensionAuxiliaryHostProtocol.protocolInit.4998
++ __extensionAuxiliaryVendorProtocol.protocol.20393
++ __extensionAuxiliaryVendorProtocol.protocol.2094
++ __extensionAuxiliaryVendorProtocol.protocol.2257
++ __extensionAuxiliaryVendorProtocol.protocol.2354
++ __extensionAuxiliaryVendorProtocol.protocol.2514
++ __extensionAuxiliaryVendorProtocol.protocol.25994
++ __extensionAuxiliaryVendorProtocol.protocol.2632
++ __extensionAuxiliaryVendorProtocol.protocol.2831
++ __extensionAuxiliaryVendorProtocol.protocol.2976
++ __extensionAuxiliaryVendorProtocol.protocol.3099
++ __extensionAuxiliaryVendorProtocol.protocol.3191
++ __extensionAuxiliaryVendorProtocol.protocol.3737
++ __extensionAuxiliaryVendorProtocol.protocol.3818
++ __extensionAuxiliaryVendorProtocol.protocol.4246
++ __extensionAuxiliaryVendorProtocol.protocol.4332
++ __extensionAuxiliaryVendorProtocol.protocol.4705
++ __extensionAuxiliaryVendorProtocol.protocol.5005
++ __extensionAuxiliaryVendorProtocol.protocolInit.20391
++ __extensionAuxiliaryVendorProtocol.protocolInit.2092
++ __extensionAuxiliaryVendorProtocol.protocolInit.2255
++ __extensionAuxiliaryVendorProtocol.protocolInit.2352
++ __extensionAuxiliaryVendorProtocol.protocolInit.2512
++ __extensionAuxiliaryVendorProtocol.protocolInit.25992
++ __extensionAuxiliaryVendorProtocol.protocolInit.2630
++ __extensionAuxiliaryVendorProtocol.protocolInit.2829
++ __extensionAuxiliaryVendorProtocol.protocolInit.2974
++ __extensionAuxiliaryVendorProtocol.protocolInit.3097
++ __extensionAuxiliaryVendorProtocol.protocolInit.3189
++ __extensionAuxiliaryVendorProtocol.protocolInit.3735
++ __extensionAuxiliaryVendorProtocol.protocolInit.3816
++ __extensionAuxiliaryVendorProtocol.protocolInit.4244
++ __extensionAuxiliaryVendorProtocol.protocolInit.4330
++ __extensionAuxiliaryVendorProtocol.protocolInit.4703
++ __extensionAuxiliaryVendorProtocol.protocolInit.5003
++ _convert_error_to_string.24775
++ _driverInterface.driverInterface.10275
++ _driverInterface.driverInterface.20903
++ _driverInterface.driverInterface.22384
++ _driverInterface.driverInterface.7536
++ _driverInterface.onceToken.10274
++ _driverInterface.onceToken.20902
++ _driverInterface.onceToken.22382
++ _driverInterface.onceToken.7535
++ _g_noAppFilter.28587
++ _globalConfigurationManager.gChangeQueue.18104
++ _globalConfigurationManager.gChangeQueue.5648
++ _globalConfigurationManager.gConfigurationManager.18101
++ _globalConfigurationManager.gConfigurationManager.5646
++ _globalConfigurationManager.onceToken.18099
++ _globalConfigurationManager.onceToken.5645
++ _loadedManagers.loadedManagers.27403
++ _loadedManagers.loadedManagers.28590
++ _loadedManagers.managers_init.27402
++ _loadedManagers.managers_init.28589
++ _managerInterface.managerInterface.10279
++ _managerInterface.managerInterface.20907
++ _managerInterface.managerInterface.22389
++ _managerInterface.onceToken.10277
++ _managerInterface.onceToken.20905
++ _managerInterface.onceToken.22387
++ _nw_endpoint_create_address_from_string
++ _objc_msgSend$hasMatchPrefixes
++ _objc_msgSend$initAllowUnentitled:withOptions:
++ _objc_msgSend$isFullDevice
++ _sharedManager.g_manager.27020
++ _sharedManager.g_manager.7357
++ _sharedManager.g_manager.7965
++ _sharedManager.init_manager.7355
++ _sharedManager.init_manager.7963
++ _sharedManager.onceToken.18108
++ _sharedManager.onceToken.27018
++ _sharedManager.onceToken.28664
++ _sharedManager.onceToken.5649
+- GCC_except_table4154
+- GCC_except_table4165
+- GCC_except_table4171
+- GCC_except_table4186
+- GCC_except_table4198
+- GCC_except_table4203
+- GCC_except_table4210
+- GCC_except_table4217
+- GCC_except_table4290
+- GCC_except_table4299
+- GCC_except_table4392
+- GCC_except_table4399
+- GCC_except_table4481
+- GCC_except_table4624
+- GCC_except_table4628
+- GCC_except_table4662
+- GCC_except_table4672
+- GCC_except_table4676
+- GCC_except_table4688
+- GCC_except_table4708
+- GCC_except_table4710
+- GCC_except_table4716
+- GCC_except_table4718
+- GCC_except_table4810
+- GCC_except_table4879
+- GCC_except_table4900
+- GCC_except_table4913
+- GCC_except_table5010
+- GCC_except_table5015
+- GCC_except_table5056
+- GCC_except_table5102
+- GCC_except_table5168
+- GCC_except_table5171
+- GCC_except_table5207
+- GCC_except_table5227
+- GCC_except_table5239
+- GCC_except_table5278
+- GCC_except_table5279
+- GCC_except_table5286
+- GCC_except_table5332
+- GCC_except_table5354
+- GCC_except_table5357
+- GCC_except_table5433
+- GCC_except_table5760
+- GCC_except_table5796
+- GCC_except_table5797
+- GCC_except_table5800
+- GCC_except_table5865
+- GCC_except_table5871
+- GCC_except_table5872
+- GCC_except_table5880
+- GCC_except_table5883
+- GCC_except_table5893
+- GCC_except_table5908
+- GCC_except_table5909
+- GCC_except_table5918
+- GCC_except_table5919
+- GCC_except_table5927
+- GCC_except_table5936
+- GCC_except_table5939
+- GCC_except_table5943
+- GCC_except_table6020
+- GCC_except_table6021
+- GCC_except_table6150
+- GCC_except_table6151
+- GCC_except_table6179
+- GCC_except_table6184
+- GCC_except_table6185
+- GCC_except_table6191
+- GCC_except_table6217
+- GCC_except_table6294
+- GCC_except_table6295
+- ___Block_byref_object_copy_.12749
+- ___Block_byref_object_copy_.171
+- ___Block_byref_object_copy_.20596
+- ___Block_byref_object_copy_.21864
+- ___Block_byref_object_copy_.22913
+- ___Block_byref_object_copy_.24052
+- ___Block_byref_object_copy_.24770
+- ___Block_byref_object_copy_.27425
+- ___Block_byref_object_copy_.28599
+- ___Block_byref_object_copy_.7096
+- ___Block_byref_object_dispose_.12750
+- ___Block_byref_object_dispose_.172
+- ___Block_byref_object_dispose_.20597
+- ___Block_byref_object_dispose_.21865
+- ___Block_byref_object_dispose_.22914
+- ___Block_byref_object_dispose_.24053
+- ___Block_byref_object_dispose_.24771
+- ___Block_byref_object_dispose_.27426
+- ___Block_byref_object_dispose_.28600
+- ___Block_byref_object_dispose_.7097
+- ___block_descriptor_tmp.19802
+- ___block_descriptor_tmp.23605
+- ___block_descriptor_tmp.25651
+- ___block_descriptor_tmp.26257
+- ___block_literal_global.10280
+- ___block_literal_global.1130
+- ___block_literal_global.13034
+- ___block_literal_global.13406
+- ___block_literal_global.14.22376
+- ___block_literal_global.1472
+- ___block_literal_global.15.25881
+- ___block_literal_global.17.18096
+- ___block_literal_global.17971
+- ___block_literal_global.18105
+- ___block_literal_global.18410
+- ___block_literal_global.1884
+- ___block_literal_global.19711
+- ___block_literal_global.20.18102
+- ___block_literal_global.20386
+- ___block_literal_global.2086
+- ___block_literal_global.20900
+- ___block_literal_global.21961
+- ___block_literal_global.2230
+- ___block_literal_global.22381
+- ___block_literal_global.2249
+- ___block_literal_global.22778
+- ___block_literal_global.2346
+- ___block_literal_global.23519
+- ___block_literal_global.23603
+- ___block_literal_global.24155
+- ___block_literal_global.24267
+- ___block_literal_global.24310
+- ___block_literal_global.24505
+- ___block_literal_global.24687
+- ___block_literal_global.2506
+- ___block_literal_global.25598
+- ___block_literal_global.25649
+- ___block_literal_global.25885
+- ___block_literal_global.25980
+- ___block_literal_global.2624
+- ___block_literal_global.26363
+- ___block_literal_global.26918
+- ___block_literal_global.27006
+- ___block_literal_global.27153
+- ___block_literal_global.27391
+- ___block_literal_global.27937
+- ___block_literal_global.28.27429
+- ___block_literal_global.2823
+- ___block_literal_global.28651
+- ___block_literal_global.2968
+- ___block_literal_global.3091
+- ___block_literal_global.3183
+- ___block_literal_global.3457
+- ___block_literal_global.3729
+- ___block_literal_global.3810
+- ___block_literal_global.4238
+- ___block_literal_global.4324
+- ___block_literal_global.4698
+- ___block_literal_global.4998
+- ___block_literal_global.5644
+- ___block_literal_global.63.20381
+- ___block_literal_global.63.3178
+- ___block_literal_global.63.4993
+- ___block_literal_global.69.2081
+- ___block_literal_global.69.3724
+- ___block_literal_global.69.3805
+- ___block_literal_global.7.25589
+- ___block_literal_global.7125
+- ___block_literal_global.73.25975
+- ___block_literal_global.7353
+- ___block_literal_global.75.4233
+- ___block_literal_global.75.4319
+- ___block_literal_global.7540
+- ___block_literal_global.7963
+- ___block_literal_global.8087
+- __extensionAuxiliaryHostProtocol.protocol.20382
+- __extensionAuxiliaryHostProtocol.protocol.2082
+- __extensionAuxiliaryHostProtocol.protocol.24311
+- __extensionAuxiliaryHostProtocol.protocol.2503
+- __extensionAuxiliaryHostProtocol.protocol.25976
+- __extensionAuxiliaryHostProtocol.protocol.2621
+- __extensionAuxiliaryHostProtocol.protocol.2820
+- __extensionAuxiliaryHostProtocol.protocol.2965
+- __extensionAuxiliaryHostProtocol.protocol.3088
+- __extensionAuxiliaryHostProtocol.protocol.3179
+- __extensionAuxiliaryHostProtocol.protocol.3725
+- __extensionAuxiliaryHostProtocol.protocol.3806
+- __extensionAuxiliaryHostProtocol.protocol.4234
+- __extensionAuxiliaryHostProtocol.protocol.4320
+- __extensionAuxiliaryHostProtocol.protocol.4695
+- __extensionAuxiliaryHostProtocol.protocol.4994
+- __extensionAuxiliaryHostProtocol.protocolInit.20380
+- __extensionAuxiliaryHostProtocol.protocolInit.2080
+- __extensionAuxiliaryHostProtocol.protocolInit.24309
+- __extensionAuxiliaryHostProtocol.protocolInit.2502
+- __extensionAuxiliaryHostProtocol.protocolInit.25974
+- __extensionAuxiliaryHostProtocol.protocolInit.2620
+- __extensionAuxiliaryHostProtocol.protocolInit.2819
+- __extensionAuxiliaryHostProtocol.protocolInit.2964
+- __extensionAuxiliaryHostProtocol.protocolInit.3087
+- __extensionAuxiliaryHostProtocol.protocolInit.3177
+- __extensionAuxiliaryHostProtocol.protocolInit.3723
+- __extensionAuxiliaryHostProtocol.protocolInit.3804
+- __extensionAuxiliaryHostProtocol.protocolInit.4232
+- __extensionAuxiliaryHostProtocol.protocolInit.4318
+- __extensionAuxiliaryHostProtocol.protocolInit.4694
+- __extensionAuxiliaryHostProtocol.protocolInit.4992
+- __extensionAuxiliaryVendorProtocol.protocol.20387
+- __extensionAuxiliaryVendorProtocol.protocol.2087
+- __extensionAuxiliaryVendorProtocol.protocol.2250
+- __extensionAuxiliaryVendorProtocol.protocol.2347
+- __extensionAuxiliaryVendorProtocol.protocol.2507
+- __extensionAuxiliaryVendorProtocol.protocol.25981
+- __extensionAuxiliaryVendorProtocol.protocol.2625
+- __extensionAuxiliaryVendorProtocol.protocol.2824
+- __extensionAuxiliaryVendorProtocol.protocol.2969
+- __extensionAuxiliaryVendorProtocol.protocol.3092
+- __extensionAuxiliaryVendorProtocol.protocol.3184
+- __extensionAuxiliaryVendorProtocol.protocol.3730
+- __extensionAuxiliaryVendorProtocol.protocol.3811
+- __extensionAuxiliaryVendorProtocol.protocol.4239
+- __extensionAuxiliaryVendorProtocol.protocol.4325
+- __extensionAuxiliaryVendorProtocol.protocol.4699
+- __extensionAuxiliaryVendorProtocol.protocol.4999
+- __extensionAuxiliaryVendorProtocol.protocolInit.20385
+- __extensionAuxiliaryVendorProtocol.protocolInit.2085
+- __extensionAuxiliaryVendorProtocol.protocolInit.2248
+- __extensionAuxiliaryVendorProtocol.protocolInit.2345
+- __extensionAuxiliaryVendorProtocol.protocolInit.2505
+- __extensionAuxiliaryVendorProtocol.protocolInit.25979
+- __extensionAuxiliaryVendorProtocol.protocolInit.2623
+- __extensionAuxiliaryVendorProtocol.protocolInit.2822
+- __extensionAuxiliaryVendorProtocol.protocolInit.2967
+- __extensionAuxiliaryVendorProtocol.protocolInit.3090
+- __extensionAuxiliaryVendorProtocol.protocolInit.3182
+- __extensionAuxiliaryVendorProtocol.protocolInit.3728
+- __extensionAuxiliaryVendorProtocol.protocolInit.3809
+- __extensionAuxiliaryVendorProtocol.protocolInit.4237
+- __extensionAuxiliaryVendorProtocol.protocolInit.4323
+- __extensionAuxiliaryVendorProtocol.protocolInit.4697
+- __extensionAuxiliaryVendorProtocol.protocolInit.4997
+- _convert_error_to_string.24765
+- _driverInterface.driverInterface.10277
+- _driverInterface.driverInterface.20897
+- _driverInterface.driverInterface.22377
+- _driverInterface.driverInterface.7533
+- _driverInterface.onceToken.10276
+- _driverInterface.onceToken.20896
+- _driverInterface.onceToken.22375
+- _driverInterface.onceToken.7532
+- _g_noAppFilter.28573
+- _globalConfigurationManager.gChangeQueue.18100
+- _globalConfigurationManager.gChangeQueue.5642
+- _globalConfigurationManager.gConfigurationManager.18097
+- _globalConfigurationManager.gConfigurationManager.5640
+- _globalConfigurationManager.onceToken.18095
+- _globalConfigurationManager.onceToken.5639
+- _loadedManagers.loadedManagers.27389
+- _loadedManagers.loadedManagers.28576
+- _loadedManagers.managers_init.27388
+- _loadedManagers.managers_init.28575
+- _managerInterface.managerInterface.10281
+- _managerInterface.managerInterface.20901
+- _managerInterface.managerInterface.22382
+- _managerInterface.onceToken.10279
+- _managerInterface.onceToken.20899
+- _managerInterface.onceToken.22380
+- _sharedManager.g_manager.27007
+- _sharedManager.g_manager.7354
+- _sharedManager.g_manager.7964
+- _sharedManager.init_manager.7352
+- _sharedManager.init_manager.7962
+- _sharedManager.onceToken.18104
+- _sharedManager.onceToken.27005
+- _sharedManager.onceToken.28650
+- _sharedManager.onceToken.5643
+CStrings:
++ "%@: failed to init, provider is not initialized"
++ "@24@0:8B16i20"
++ "AddVPNConfiguration.png"
++ "Instantiating NEGuardProxyProvider"
++ "hasMatchPrefixes"
++ "initAllowUnentitled:withOptions:"
+- "NetworkConnect.icns"
+
+```

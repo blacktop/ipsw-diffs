@@ -1,0 +1,256 @@
+## MessageProtection
+
+> `/System/Library/PrivateFrameworks/MessageProtection.framework/MessageProtection`
+
+```diff
+
+-385.100.10.0.0
+-  __TEXT.__text: 0x8797c
+-  __TEXT.__auth_stubs: 0x2110
++385.120.3.0.0
++  __TEXT.__text: 0x8b300
++  __TEXT.__auth_stubs: 0x2160
+   __TEXT.__objc_methlist: 0x2374
+-  __TEXT.__const: 0x5444
+-  __TEXT.__cstring: 0x3123
++  __TEXT.__const: 0x5854
++  __TEXT.__cstring: 0x31d7
+   __TEXT.__oslogstring: 0x25e1
+   __TEXT.__gcc_except_tab: 0x580
+   __TEXT.__ustring: 0x21c
+-  __TEXT.__constg_swiftt: 0x12f4
+-  __TEXT.__swift5_typeref: 0xf39
+-  __TEXT.__swift5_proto: 0x4a8
+-  __TEXT.__swift5_types: 0x190
++  __TEXT.__constg_swiftt: 0x1398
++  __TEXT.__swift5_typeref: 0xf7f
++  __TEXT.__swift5_proto: 0x4d0
++  __TEXT.__swift5_types: 0x1a4
+   __TEXT.__swift5_capture: 0xec
+-  __TEXT.__swift5_fieldmd: 0x1284
+-  __TEXT.__swift5_reflstr: 0x1117
++  __TEXT.__swift5_fieldmd: 0x1358
++  __TEXT.__swift5_reflstr: 0x11f2
+   __TEXT.__swift5_protos: 0x8
+   __TEXT.__swift5_assocty: 0x1c8
+-  __TEXT.__unwind_info: 0x1e80
+-  __TEXT.__eh_frame: 0x2910
++  __TEXT.__unwind_info: 0x1f68
++  __TEXT.__eh_frame: 0x2be0
+   __TEXT.__objc_classname: 0x997
+   __TEXT.__objc_methname: 0x43b9
+   __TEXT.__objc_methtype: 0xff0
+   __TEXT.__objc_stubs: 0x3280
+-  __DATA_CONST.__got: 0x5e8
++  __DATA_CONST.__got: 0x608
+   __DATA_CONST.__const: 0x3c8
+   __DATA_CONST.__objc_classlist: 0x258
+   __DATA_CONST.__objc_catlist: 0x10
+
+   __DATA_CONST.__objc_selrefs: 0xf70
+   __DATA_CONST.__objc_protorefs: 0x18
+   __DATA_CONST.__objc_superrefs: 0x128
+-  __AUTH_CONST.__auth_got: 0x1098
+-  __AUTH_CONST.__const: 0x2521
++  __AUTH_CONST.__auth_got: 0x10c0
++  __AUTH_CONST.__const: 0x2670
+   __AUTH_CONST.__cfstring: 0x18a0
+   __AUTH_CONST.__objc_const: 0x6200
+   __AUTH_CONST.__objc_intobj: 0xd8
+   __AUTH.__objc_data: 0x330
+-  __AUTH.__data: 0x188
++  __AUTH.__data: 0x298
+   __DATA.__objc_ivar: 0x178
+-  __DATA.__data: 0x988
+-  __DATA.__common: 0x1e0
+-  __DATA.__bss: 0x6000
++  __DATA.__data: 0xa10
++  __DATA.__common: 0x208
++  __DATA.__bss: 0x6480
+   __DATA_DIRTY.__objc_data: 0x1e00
+   __DATA_DIRTY.__data: 0x1cd8
+   __DATA_DIRTY.__bss: 0x3350
+
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswiftos.dylib
+-  UUID: 5F1FAC26-AB43-35A0-884F-716333218FE0
+-  Functions: 2541
+-  Symbols:   10196
+-  CStrings:  1624
++  UUID: 3E9911E4-1F20-34B3-8D89-D75B45A52682
++  Functions: 2604
++  Symbols:   10431
++  CStrings:  1629
+ 
+Symbols:
++ _$s10Foundation4DataV15_RepresentationO15reserveCapacityyySiF
++ _$s17MessageProtection011DAEncryptedA0V10ciphertext10Foundation4DataVvg
++ _$s17MessageProtection011DAEncryptedA0V10ciphertext10Foundation4DataVvpMV
++ _$s17MessageProtection011DAEncryptedA0V12messageIndexs6UInt32Vvg
++ _$s17MessageProtection011DAEncryptedA0V12messageIndexs6UInt32VvpMV
++ _$s17MessageProtection011DAEncryptedA0V5keyID10Foundation4DataVvg
++ _$s17MessageProtection011DAEncryptedA0V5keyID10Foundation4DataVvpMV
++ _$s17MessageProtection011DAEncryptedA0V5keyID12messageIndex10ciphertextAC10Foundation4DataV_s6UInt32VAItcfC
++ _$s17MessageProtection011DAEncryptedA0VMF
++ _$s17MessageProtection011DAEncryptedA0VMa
++ _$s17MessageProtection011DAEncryptedA0VMf
++ _$s17MessageProtection011DAEncryptedA0VMn
++ _$s17MessageProtection011DAEncryptedA0VN
++ _$s17MessageProtection011DAEncryptedA0VWV
++ _$s17MessageProtection011DAEncryptedA0Vwet
++ _$s17MessageProtection011DAEncryptedA0Vwst
++ _$s17MessageProtection14MPPB_DARatchetV06decodeA07decoderyxz_tK21InternalSwiftProtobuf7DecoderRzlF
++ _$s17MessageProtection14MPPB_DARatchetV13isInitializedSbvg
++ _$s17MessageProtection14MPPB_DARatchetV17_protobuf_nameMap21InternalSwiftProtobuf05_NameG0VvpZ
++ _$s17MessageProtection14MPPB_DARatchetV17_protobuf_nameMap_WZ
++ _$s17MessageProtection14MPPB_DARatchetV17_protobuf_nameMap_Wz
++ _$s17MessageProtection14MPPB_DARatchetV21InternalSwiftProtobuf01_A18ImplementationBaseAAMc
++ _$s17MessageProtection14MPPB_DARatchetV21InternalSwiftProtobuf01_A18ImplementationBaseAAMcMK
++ _$s17MessageProtection14MPPB_DARatchetV21InternalSwiftProtobuf01_A18ImplementationBaseAASHWb
++ _$s17MessageProtection14MPPB_DARatchetV21InternalSwiftProtobuf01_A18ImplementationBaseAaD0A0PWb
++ _$s17MessageProtection14MPPB_DARatchetV21InternalSwiftProtobuf01_A18ImplementationBaseAadEP29_protobuf_generated_isEqualTo5otherSbx_tFTW
++ _$s17MessageProtection14MPPB_DARatchetV21InternalSwiftProtobuf0A0AAMc
++ _$s17MessageProtection14MPPB_DARatchetV21InternalSwiftProtobuf0A0AAMcMK
++ _$s17MessageProtection14MPPB_DARatchetV21InternalSwiftProtobuf0A0AAs28CustomDebugStringConvertiblePWb
++ _$s17MessageProtection14MPPB_DARatchetV21InternalSwiftProtobuf0A0AadEP05protoA4NameSSvgZTW
++ _$s17MessageProtection14MPPB_DARatchetV21InternalSwiftProtobuf0A0AadEP06decodeA07decoderyqd__z_tKAD7DecoderRd__lFTW
++ _$s17MessageProtection14MPPB_DARatchetV21InternalSwiftProtobuf0A0AadEP13isInitializedSbvgTW
++ _$s17MessageProtection14MPPB_DARatchetV21InternalSwiftProtobuf0A0AadEP13unknownFieldsAD14UnknownStorageVvMTW
++ _$s17MessageProtection14MPPB_DARatchetV21InternalSwiftProtobuf0A0AadEP13unknownFieldsAD14UnknownStorageVvMTW.resume.0
++ _$s17MessageProtection14MPPB_DARatchetV21InternalSwiftProtobuf0A0AadEP13unknownFieldsAD14UnknownStorageVvgTW
++ _$s17MessageProtection14MPPB_DARatchetV21InternalSwiftProtobuf0A0AadEP13unknownFieldsAD14UnknownStorageVvsTW
++ _$s17MessageProtection14MPPB_DARatchetV21InternalSwiftProtobuf0A0AadEP4hash4intoys6HasherVz_tFTW
++ _$s17MessageProtection14MPPB_DARatchetV21InternalSwiftProtobuf0A0AadEP8traverse7visitoryqd__z_tKAD7VisitorRd__lFTW
++ _$s17MessageProtection14MPPB_DARatchetV21InternalSwiftProtobuf0A0AadEP9isEqualTo7messageSbAdE_p_tFTW
++ _$s17MessageProtection14MPPB_DARatchetV21InternalSwiftProtobuf0A0AadEPxycfCTW
++ _$s17MessageProtection14MPPB_DARatchetV21InternalSwiftProtobuf19_ProtoNameProvidingAAMc
++ _$s17MessageProtection14MPPB_DARatchetV21InternalSwiftProtobuf19_ProtoNameProvidingAAMcMK
++ _$s17MessageProtection14MPPB_DARatchetV21InternalSwiftProtobuf19_ProtoNameProvidingAadEP17_protobuf_nameMapAD01_iM0VvgZTW
++ _$s17MessageProtection14MPPB_DARatchetV2eeoiySbAC_ACtFZTf4nnd_n
++ _$s17MessageProtection14MPPB_DARatchetV8traverse7visitoryxz_tK21InternalSwiftProtobuf7VisitorRzlF
++ _$s17MessageProtection14MPPB_DARatchetV8traverse7visitoryxz_tK21InternalSwiftProtobuf7VisitorRzlFyyKXEfU0_
++ _$s17MessageProtection14MPPB_DARatchetV8traverse7visitoryxz_tK21InternalSwiftProtobuf7VisitorRzlFyyKXEfU1_
++ _$s17MessageProtection14MPPB_DARatchetV8traverse7visitoryxz_tK21InternalSwiftProtobuf7VisitorRzlFyyKXEfU_
++ _$s17MessageProtection14MPPB_DARatchetVAC21InternalSwiftProtobuf01_A18ImplementationBaseAAWL
++ _$s17MessageProtection14MPPB_DARatchetVAC21InternalSwiftProtobuf0A0AAWL
++ _$s17MessageProtection14MPPB_DARatchetVACSHAAWL
++ _$s17MessageProtection14MPPB_DARatchetVACSQAAWL
++ _$s17MessageProtection14MPPB_DARatchetVACSQAAWlTm
++ _$s17MessageProtection14MPPB_DARatchetVACs28CustomDebugStringConvertibleAAWL
++ _$s17MessageProtection14MPPB_DARatchetVMF
++ _$s17MessageProtection14MPPB_DARatchetVMa
++ _$s17MessageProtection14MPPB_DARatchetVMf
++ _$s17MessageProtection14MPPB_DARatchetVMl
++ _$s17MessageProtection14MPPB_DARatchetVMn
++ _$s17MessageProtection14MPPB_DARatchetVMr
++ _$s17MessageProtection14MPPB_DARatchetVN
++ _$s17MessageProtection14MPPB_DARatchetVSHAAMc
++ _$s17MessageProtection14MPPB_DARatchetVSHAAMcMK
++ _$s17MessageProtection14MPPB_DARatchetVSHAASH13_rawHashValue4seedS2i_tFTW
++ _$s17MessageProtection14MPPB_DARatchetVSHAASH4hash4intoys6HasherVz_tFTW
++ _$s17MessageProtection14MPPB_DARatchetVSHAASH9hashValueSivgTW
++ _$s17MessageProtection14MPPB_DARatchetVSHAASQWb
++ _$s17MessageProtection14MPPB_DARatchetVSQAAMc
++ _$s17MessageProtection14MPPB_DARatchetVSQAAMcMK
++ _$s17MessageProtection14MPPB_DARatchetVSQAASQ2eeoiySbx_xtFZTW
++ _$s17MessageProtection14MPPB_DARatchetVWV
++ _$s17MessageProtection14MPPB_DARatchetVs28CustomDebugStringConvertibleAAMc
++ _$s17MessageProtection14MPPB_DARatchetVs28CustomDebugStringConvertibleAAMcMK
++ _$s17MessageProtection14MPPB_DARatchetVs28CustomDebugStringConvertibleAAsADP16debugDescriptionSSvgTW
++ _$s17MessageProtection14MPPB_DARatchetVwet
++ _$s17MessageProtection14MPPB_DARatchetVwst
++ _$s17MessageProtection15DAOnlineRatchetV14serializedData10Foundation0F0VyF
++ _$s17MessageProtection15DAOnlineRatchetV20incomingDirectionKey08outgoingfG006publicG0AC9CryptoKit09SymmetricG0V_AiG19XWingMLKEM768X25519O06PublicG0VtKcfC
++ _$s17MessageProtection15DAOnlineRatchetV4data5keyIDAC10Foundation4DataV_AHtKcfC
++ _$s17MessageProtection15DAOnlineRatchetV4open_17authenticatedData10Foundation0G0VAA011DAEncryptedA0V_AHSgtKF
++ _$s17MessageProtection15DAOnlineRatchetV4seal7message17authenticatedDataAA011DAEncryptedA0V10Foundation0H0V_AKSgtKF
++ _$s17MessageProtection15DAOnlineRatchetV5keyID10Foundation4DataVvg
++ _$s17MessageProtection15DAOnlineRatchetV5keyID10Foundation4DataVvpMV
++ _$s17MessageProtection15DAOnlineRatchetVMF
++ _$s17MessageProtection15DAOnlineRatchetVMa
++ _$s17MessageProtection15DAOnlineRatchetVMf
++ _$s17MessageProtection15DAOnlineRatchetVMl
++ _$s17MessageProtection15DAOnlineRatchetVMn
++ _$s17MessageProtection15DAOnlineRatchetVMr
++ _$s17MessageProtection15DAOnlineRatchetVN
++ _$s17MessageProtection15DAOnlineRatchetVWV
++ _$s17MessageProtection15DAOnlineRatchetVwet
++ _$s17MessageProtection15DAOnlineRatchetVwst
++ _$s17MessageProtection15DARatchetErrorsOACSQAAWL
++ _$s17MessageProtection15DARatchetErrorsOACSQAAWl
++ _$s17MessageProtection15DARatchetErrorsOACs5ErrorAAWL
++ _$s17MessageProtection15DARatchetErrorsOACs5ErrorAAWl
++ _$s17MessageProtection15DARatchetErrorsOMF
++ _$s17MessageProtection15DARatchetErrorsOMa
++ _$s17MessageProtection15DARatchetErrorsOMf
++ _$s17MessageProtection15DARatchetErrorsOMn
++ _$s17MessageProtection15DARatchetErrorsON
++ _$s17MessageProtection15DARatchetErrorsOSHAAMc
++ _$s17MessageProtection15DARatchetErrorsOSHAAMcMK
++ _$s17MessageProtection15DARatchetErrorsOSHAASH13_rawHashValue4seedS2i_tFTW
++ _$s17MessageProtection15DARatchetErrorsOSHAASH4hash4intoys6HasherVz_tFTW
++ _$s17MessageProtection15DARatchetErrorsOSHAASH9hashValueSivgTW
++ _$s17MessageProtection15DARatchetErrorsOSHAASQWb
++ _$s17MessageProtection15DARatchetErrorsOSQAAMc
++ _$s17MessageProtection15DARatchetErrorsOSQAAMcMK
++ _$s17MessageProtection15DARatchetErrorsOSQAASQ2eeoiySbx_xtFZTW
++ _$s17MessageProtection15DARatchetErrorsOWV
++ _$s17MessageProtection15DARatchetErrorsOs5ErrorAAMc
++ _$s17MessageProtection15DARatchetErrorsOs5ErrorAAMcMK
++ _$s17MessageProtection15DARatchetErrorsOs5ErrorAAsADP19_getEmbeddedNSErroryXlSgyFTW
++ _$s17MessageProtection15DARatchetErrorsOs5ErrorAAsADP5_codeSivgTW
++ _$s17MessageProtection15DARatchetErrorsOs5ErrorAAsADP7_domainSSvgTW
++ _$s17MessageProtection15DARatchetErrorsOs5ErrorAAsADP9_userInfoyXlSgvgTW
++ _$s17MessageProtection15DARatchetErrorsOwet
++ _$s17MessageProtection15DARatchetErrorsOwst
++ _$s17MessageProtection15DARatchetErrorsOwug
++ _$s17MessageProtection15DARatchetErrorsOwui
++ _$s17MessageProtection15DARatchetErrorsOwup
++ _$s17MessageProtection25DATransportSymmetricLayerV4open_17authenticatedData5using10Foundation0H0VAI_AI9CryptoKit0D3KeyVtKFZTf4nnnd_n
++ _$s17MessageProtection25DATransportSymmetricLayerV4seal_17authenticatedData5using10Foundation0H0VAI_AI9CryptoKit0D3KeyVtKFZTf4nnnd_n
++ _$s17MessageProtection30DATransportSecurityRatchetStepV7ratchety9CryptoKit12SymmetricKeyV3key_s6UInt64V5indext07messageK0_AgH_AjKt05chainK0tAgH_AjKt_tFAGSWXEfU0_
++ _$s17MessageProtection30DATransportSecurityRatchetStepV7ratchety9CryptoKit12SymmetricKeyV3key_s6UInt64V5indext07messageK0_AgH_AjKt05chainK0tAgH_AjKt_tFAGSWXEfU_
++ _$s17MessageProtection30DATransportSecurityRatchetStepVAA09SymmetriceF0A2aDP7ratchety9CryptoKit0G3KeyV3key_s6UInt64V5indext07messageK0_AiJ_AlMt05chainK0tAiJ_AlMt_tFTW
++ _$s17MessageProtection30DATransportSecurityRatchetStepVAA09SymmetriceF0AAMc
++ _$s17MessageProtection30DATransportSecurityRatchetStepVAA09SymmetriceF0AAWP
++ _$s17MessageProtection30DATransportSecurityRatchetStepVMF
++ _$s17MessageProtection30DATransportSecurityRatchetStepVMa
++ _$s17MessageProtection30DATransportSecurityRatchetStepVMf
++ _$s17MessageProtection30DATransportSecurityRatchetStepVMn
++ _$s17MessageProtection30DATransportSecurityRatchetStepVN
++ _$s17MessageProtection31DARatchetStepKeyDerivationLabel10Foundation4DataVvp
++ _$s17MessageProtection31DARatchetStepKeyDerivationLabel_WZ
++ _$s17MessageProtection31DARatchetStepKeyDerivationLabel_Wz
++ _$s9CryptoKit12SHA384DigestV10Foundation15ContiguousBytesAAMc
++ _$s9CryptoKit12SHA384DigestVAC10Foundation15ContiguousBytesAAWL
++ _$s9CryptoKit19XWingMLKEM768X25519O9PublicKeyV17rawRepresentation10Foundation4DataVvg
++ _$s9CryptoKit19XWingMLKEM768X25519O9PublicKeyVMa
++ _$s9CryptoKit3AESO3GCMO5NonceV10Foundation15ContiguousBytesAAMc
++ _$s9CryptoKit3AESO3GCMO5NonceVAG10Foundation15ContiguousBytesAAWL
++ _$s9CryptoKit3AESO3GCMO5NonceVAGSTAAWL
++ _$s9CryptoKit3AESO3GCMO5NonceVSTAAMc
++ _$s9CryptoKit3AESO3GCMO5NonceVSgWOh
++ _$s9CryptoKit3AESO3GCMO9SealedBoxV5nonceAE5NonceVvg
++ _$sST19underestimatedCountSivgTj
++ _$sSmsE1poiyxqd___xtSTRd__7ElementQyd__ABRtzlFZ10Foundation4DataV_9CryptoKit3AESO3GCMO5NonceVTt2g5
++ ___swift_memcpy40_8
++ _associated conformance 17MessageProtection14MPPB_DARatchetV21InternalSwiftProtobuf01_A18ImplementationBaseAASH
++ _associated conformance 17MessageProtection14MPPB_DARatchetV21InternalSwiftProtobuf01_A18ImplementationBaseAaD0A0
++ _associated conformance 17MessageProtection14MPPB_DARatchetV21InternalSwiftProtobuf0A0AAs28CustomDebugStringConvertible
++ _associated conformance 17MessageProtection14MPPB_DARatchetVSHAASQ
++ _associated conformance 17MessageProtection15DARatchetErrorsOSHAASQ
++ _symbolic _____ 17MessageProtection011DAEncryptedA0V
++ _symbolic _____ 17MessageProtection14MPPB_DARatchetV
++ _symbolic _____ 17MessageProtection15DAOnlineRatchetV
++ _symbolic _____ 17MessageProtection15DARatchetErrorsO
++ _symbolic _____ 17MessageProtection30DATransportSecurityRatchetStepV
++ _type_layout_string 17MessageProtection011DAEncryptedA0V
+CStrings:
++ "AccessoryTransportSecurity-RatchetKeys-"
++ "MessageProtection/DAOnlineCrypto.swift"
++ "incomingRatchetState"
++ "keyID"
++ "outgoingRatchetState"
+
+```

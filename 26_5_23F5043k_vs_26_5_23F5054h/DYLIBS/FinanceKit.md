@@ -1,0 +1,261 @@
+## FinanceKit
+
+> `/System/Library/Frameworks/FinanceKit.framework/FinanceKit`
+
+```diff
+
+-310.5.1.0.0
+-  __TEXT.__text: 0x670384
+-  __TEXT.__auth_stubs: 0x5350
++310.5.2.0.0
++  __TEXT.__text: 0x68932c
++  __TEXT.__auth_stubs: 0x5470
+   __TEXT.__objc_methlist: 0x4390
+-  __TEXT.__const: 0x6c368
+-  __TEXT.__cstring: 0x12723
+-  __TEXT.__oslogstring: 0x83c8
++  __TEXT.__const: 0x6cb88
++  __TEXT.__cstring: 0x127f3
++  __TEXT.__oslogstring: 0x83b8
+   __TEXT.__gcc_except_tab: 0x14
+-  __TEXT.__swift5_typeref: 0x1599a
+-  __TEXT.__constg_swiftt: 0x1448c
+-  __TEXT.__swift5_reflstr: 0xf6c3
+-  __TEXT.__swift5_fieldmd: 0x18924
+-  __TEXT.__swift5_builtin: 0x528
++  __TEXT.__swift5_typeref: 0x165d2
++  __TEXT.__constg_swiftt: 0x14554
++  __TEXT.__swift5_reflstr: 0xf723
++  __TEXT.__swift5_fieldmd: 0x189ac
++  __TEXT.__swift5_builtin: 0x550
+   __TEXT.__swift5_assocty: 0x2cb0
+-  __TEXT.__swift5_proto: 0x5dbc
+-  __TEXT.__swift5_types: 0x1e14
+-  __TEXT.__swift5_capture: 0x20ec
++  __TEXT.__swift5_proto: 0x5dcc
++  __TEXT.__swift5_types: 0x1e24
++  __TEXT.__swift5_capture: 0x22d8
+   __TEXT.__swift5_protos: 0x228
+-  __TEXT.__swift_as_entry: 0x8c0
+-  __TEXT.__swift_as_ret: 0xa20
+-  __TEXT.__swift5_mpenum: 0x1d0
+-  __TEXT.__unwind_info: 0x1c530
+-  __TEXT.__eh_frame: 0x2ed44
+-  __TEXT.__objc_classname: 0x468b
+-  __TEXT.__objc_methname: 0x14d25
++  __TEXT.__swift_as_entry: 0x9dc
++  __TEXT.__swift_as_ret: 0xad8
++  __TEXT.__swift5_mpenum: 0x1f0
++  __TEXT.__unwind_info: 0x1d030
++  __TEXT.__eh_frame: 0x30e1c
++  __TEXT.__objc_classname: 0x46bb
++  __TEXT.__objc_methname: 0x14ca5
+   __TEXT.__objc_methtype: 0x1bb3
+-  __TEXT.__objc_stubs: 0x102a0
+-  __DATA_CONST.__got: 0x1508
++  __TEXT.__objc_stubs: 0x102c0
++  __DATA_CONST.__got: 0x1550
+   __DATA_CONST.__const: 0x4948
+-  __DATA_CONST.__objc_classlist: 0xac8
++  __DATA_CONST.__objc_classlist: 0xad0
+   __DATA_CONST.__objc_catlist: 0x8
+   __DATA_CONST.__objc_protolist: 0x130
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x4678
++  __DATA_CONST.__objc_selrefs: 0x4680
+   __DATA_CONST.__objc_protorefs: 0xb8
+   __DATA_CONST.__objc_superrefs: 0x1c0
+-  __AUTH_CONST.__auth_got: 0x29b8
+-  __AUTH_CONST.__const: 0x38488
++  __AUTH_CONST.__auth_got: 0x2a48
++  __AUTH_CONST.__const: 0x38900
+   __AUTH_CONST.__cfstring: 0x480
+-  __AUTH_CONST.__objc_const: 0x14da8
++  __AUTH_CONST.__objc_const: 0x14d18
+   __AUTH_CONST.__objc_intobj: 0x60
+-  __AUTH.__objc_data: 0x5dd8
+-  __AUTH.__data: 0xac90
++  __AUTH.__objc_data: 0x5e28
++  __AUTH.__data: 0xad60
+   __DATA.__objc_ivar: 0x400
+-  __DATA.__data: 0xfe30
+-  __DATA.__bss: 0xa8a20
+-  __DATA.__common: 0x210
++  __DATA.__data: 0x10310
++  __DATA.__bss: 0xa8c40
++  __DATA.__common: 0x218
+   __DATA_DIRTY.__objc_data: 0x3800
+-  __DATA_DIRTY.__data: 0x8280
++  __DATA_DIRTY.__data: 0x8270
+   __DATA_DIRTY.__bss: 0xb980
+-  __DATA_DIRTY.__common: 0xb8
++  __DATA_DIRTY.__common: 0x60
+   - /System/Library/Frameworks/Accounts.framework/Accounts
+   - /System/Library/Frameworks/CloudKit.framework/CloudKit
+   - /System/Library/Frameworks/Contacts.framework/Contacts
+
+   - /usr/lib/swift/libswift_StringProcessing.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 838B41F1-DCCF-3555-8543-80B3F9853382
+-  Functions: 40091
+-  Symbols:   16753
+-  CStrings:  6175
++  UUID: 82E3176F-8B77-317D-9B4B-5A882258274E
++  Functions: 40410
++  Symbols:   16841
++  CStrings:  6181
+ 
+Symbols:
++ __DATA__TtC10FinanceKit16LastTokenManager
++ __IVARS__TtC10FinanceKit16LastTokenManager
++ __METACLASS_DATA__TtC10FinanceKit16LastTokenManager
++ ___unnamed_6
++ _flat unique ScI_px7ElementScIRts_q_7FailureScIRtsXP
++ _generic environment s12IdentifiableRzl
++ _get_enum_tag_for_layout_string 10FinanceKit24SingleTokenProcessResultOyxG
++ _get_enum_tag_for_layout_string 10FinanceKit9TokenInfoO
++ _get_witness_table STRzlSay10FinanceKit9TokenInfoOGSTHPyHC.45
++ _objc_msgSend$storeTokens
++ _objectdestroy.20Tm
++ _objectdestroy.24Tm
++ _objectdestroy.28Tm
++ _objectdestroy.32Tm
++ _swift_allocateMetadataPack
++ _symbolic 7ElementScIQyd__
++ _symbolic 7FailureScIQyd__
++ _symbolic B2
++ _symbolic B3
++ _symbolic SDySSSo8NSNumberCGSg
++ _symbolic Say_____G 10FinanceKit9TokenInfoO
++ _symbolic So11NSPredicateCSgyYbKcSg
++ _symbolic _____ 10FinanceKit16LastTokenManagerC
++ _symbolic _____ 10FinanceKit24SingleTokenProcessResultO
++ _symbolic _____ 10FinanceKit5PropsV
++ _symbolic _____ 10FinanceKit9TokenInfoO
++ _symbolic __________y_q_G______pXjSg r0_lScI_px7ElementRts_q_7FailureRtsXPXGMq 10FinanceKit0C5StoreC7ChangesV s5ErrorP
++ _symbolic _____ySay_____GG 23AsyncAlgorithmsInternal0A12SyncSequenceV 10FinanceKit0F5StoreC12HistoryTokenV
++ _symbolic _____ySay_____GG 23AsyncAlgorithmsInternal0A12SyncSequenceV 10FinanceKit9TokenInfoO
++ _symbolic _____y_____G 10FinanceKit24SingleTokenProcessResultO AA15InternalAccountV
++ _symbolic _____y_____G 10FinanceKit24SingleTokenProcessResultO AA18BankConnectConsentV
++ _symbolic _____y_____G 10FinanceKit24SingleTokenProcessResultO AA19InternalTransactionV
++ _symbolic _____y_____G 10FinanceKit24SingleTokenProcessResultO AA22InternalAccountBalanceV
++ _symbolic _____y_____G 10FinanceKit24SingleTokenProcessResultO AA27FinHealthTransactionInsightV11EntityGroupV
++ _symbolic _____y_____G s19AsyncFilterSequenceV So20NSNotificationCenterC10FoundationE13NotificationsC
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 10FinanceKit0D5StoreC12HistoryTokenV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 10FinanceKit9TokenInfoO
++ _symbolic _____y__________G 10FinanceKit5PropsV AA14ManagedAccountC AA0E0O
++ _symbolic _____y__________G 10FinanceKit5PropsV AA14ManagedConsentC AA011BankConnectE0V
++ _symbolic _____y__________G 10FinanceKit5PropsV AA18ManagedTransactionC AA0E0V
++ _symbolic _____y__________G 10FinanceKit5PropsV AA21ManagedAccountBalanceC AA0eF0V
++ _symbolic _____y__________G 10FinanceKit5PropsV AA22ManagedInternalAccountC AA0eF0V
++ _symbolic _____y__________G 10FinanceKit5PropsV AA26ManagedInternalTransactionC AA0eF0V
++ _symbolic _____y__________G 10FinanceKit5PropsV AA29ManagedInternalAccountBalanceC AA0efG0V
++ _symbolic _____y__________G 10FinanceKit5PropsV AA38ManagedFinHealthTransactionEntityGroupC AA0efG7InsightV0hI0V
++ _symbolic _____y_____ySay_____GG_____y______GG s24AsyncThrowingMapSequenceV 0A18AlgorithmsInternal0a4SyncD0V 10FinanceKit0H5StoreC12HistoryTokenV AH7ChangesV AF0F11TransactionV
++ _symbolic _____y_____ySay_____GG_____y______GG s24AsyncThrowingMapSequenceV 0A18AlgorithmsInternal0a4SyncD0V 10FinanceKit0H5StoreC12HistoryTokenV AH7ChangesV AF0F14AccountBalanceV
++ _symbolic _____y_____ySay_____GG_____y______GG s24AsyncThrowingMapSequenceV 0A18AlgorithmsInternal0a4SyncD0V 10FinanceKit0H5StoreC12HistoryTokenV AH7ChangesV AF0F7AccountV
++ _symbolic _____y_____ySay_____GG_____y______GG s24AsyncThrowingMapSequenceV 0A18AlgorithmsInternal0a4SyncD0V 10FinanceKit0H5StoreC12HistoryTokenV AH7ChangesV AF18BankConnectConsentV
++ _symbolic _____y_____ySay_____GG_____y______GG s24AsyncThrowingMapSequenceV 0A18AlgorithmsInternal0a4SyncD0V 10FinanceKit0H5StoreC12HistoryTokenV AH7ChangesV AF27FinHealthTransactionInsightV11EntityGroupV
++ _symbolic _____y_____ySay_____GG_____y______G_G s24AsyncThrowingMapSequenceV8IteratorV 0A18AlgorithmsInternal0a4SyncD0V 10FinanceKit0I5StoreC12HistoryTokenV AJ7ChangesV AH0G11TransactionV
++ _symbolic _____y_____ySay_____GG_____y______G_G s24AsyncThrowingMapSequenceV8IteratorV 0A18AlgorithmsInternal0a4SyncD0V 10FinanceKit0I5StoreC12HistoryTokenV AJ7ChangesV AH0G14AccountBalanceV
++ _symbolic _____y_____ySay_____GG_____y______G_G s24AsyncThrowingMapSequenceV8IteratorV 0A18AlgorithmsInternal0a4SyncD0V 10FinanceKit0I5StoreC12HistoryTokenV AJ7ChangesV AH0G7AccountV
++ _symbolic _____y_____ySay_____GG_____y______G_G s24AsyncThrowingMapSequenceV8IteratorV 0A18AlgorithmsInternal0a4SyncD0V 10FinanceKit0I5StoreC12HistoryTokenV AJ7ChangesV AH18BankConnectConsentV
++ _symbolic _____y_____ySay_____GG_____y______G_G s24AsyncThrowingMapSequenceV8IteratorV 0A18AlgorithmsInternal0a4SyncD0V 10FinanceKit0I5StoreC12HistoryTokenV AJ7ChangesV AH27FinHealthTransactionInsightV11EntityGroupV
++ _symbolic _____y_____y_____GSay_____GG s24AsyncThrowingMapSequenceV s0a6FilterD0V So20NSNotificationCenterC10FoundationE13NotificationsC 10FinanceKit9TokenInfoO
++ _symbolic _____y_____y_____yABy_____y_____GSay_____GG_____yAHGG_____y_____GGSayAOGG 23AsyncAlgorithmsInternal0A22ChunkedByGroupSequenceV s0a11ThrowingMapG0V s0a4FlatiG0V s0a6FilterG0V So20NSNotificationCenterC10FoundationE13NotificationsC 10FinanceKit9TokenInfoO AA0a4SyncG0V AO06SingleR13ProcessResultO AO0C11TransactionV
++ _symbolic _____y_____y_____yABy_____y_____GSay_____GG_____yAHGG_____y_____GGSayAOGG 23AsyncAlgorithmsInternal0A22ChunkedByGroupSequenceV s0a11ThrowingMapG0V s0a4FlatiG0V s0a6FilterG0V So20NSNotificationCenterC10FoundationE13NotificationsC 10FinanceKit9TokenInfoO AA0a4SyncG0V AO06SingleR13ProcessResultO AO0C14AccountBalanceV
++ _symbolic _____y_____y_____yABy_____y_____GSay_____GG_____yAHGG_____y_____GGSayAOGG 23AsyncAlgorithmsInternal0A22ChunkedByGroupSequenceV s0a11ThrowingMapG0V s0a4FlatiG0V s0a6FilterG0V So20NSNotificationCenterC10FoundationE13NotificationsC 10FinanceKit9TokenInfoO AA0a4SyncG0V AO06SingleR13ProcessResultO AO0C7AccountV
++ _symbolic _____y_____y_____yABy_____y_____GSay_____GG_____yAHGG_____y_____GGSayAOGG 23AsyncAlgorithmsInternal0A22ChunkedByGroupSequenceV s0a11ThrowingMapG0V s0a4FlatiG0V s0a6FilterG0V So20NSNotificationCenterC10FoundationE13NotificationsC 10FinanceKit9TokenInfoO AA0a4SyncG0V AO06SingleR13ProcessResultO AO18BankConnectConsentV
++ _symbolic _____y_____y_____yABy_____y_____GSay_____GG_____yAHGG_____y_____GGSayAOGG 23AsyncAlgorithmsInternal0A22ChunkedByGroupSequenceV s0a11ThrowingMapG0V s0a4FlatiG0V s0a6FilterG0V So20NSNotificationCenterC10FoundationE13NotificationsC 10FinanceKit9TokenInfoO AA0a4SyncG0V AO06SingleR13ProcessResultO AO27FinHealthTransactionInsightV06EntityF0V
++ _symbolic _____y_____y_____ySay_____GG_____y_____GGSayAIGG 23AsyncAlgorithmsInternal0A22ChunkedByGroupSequenceV s0a11ThrowingMapG0V AA0a4SyncG0V 10FinanceKit9TokenInfoO AH06SingleM13ProcessResultO AH0C11TransactionV
++ _symbolic _____y_____y_____ySay_____GG_____y_____GGSayAIGG 23AsyncAlgorithmsInternal0A22ChunkedByGroupSequenceV s0a11ThrowingMapG0V AA0a4SyncG0V 10FinanceKit9TokenInfoO AH06SingleM13ProcessResultO AH0C14AccountBalanceV
++ _symbolic _____y_____y_____ySay_____GG_____y_____GGSayAIGG 23AsyncAlgorithmsInternal0A22ChunkedByGroupSequenceV s0a11ThrowingMapG0V AA0a4SyncG0V 10FinanceKit9TokenInfoO AH06SingleM13ProcessResultO AH0C7AccountV
++ _symbolic _____y_____y_____ySay_____GG_____y_____GGSayAIGG 23AsyncAlgorithmsInternal0A22ChunkedByGroupSequenceV s0a11ThrowingMapG0V AA0a4SyncG0V 10FinanceKit9TokenInfoO AH06SingleM13ProcessResultO AH18BankConnectConsentV
++ _symbolic _____y_____y_____ySay_____GG_____y_____GGSayAIGG 23AsyncAlgorithmsInternal0A22ChunkedByGroupSequenceV s0a11ThrowingMapG0V AA0a4SyncG0V 10FinanceKit9TokenInfoO AH06SingleM13ProcessResultO AH27FinHealthTransactionInsightV06EntityF0V
++ _symbolic _____y_____y_____y_____GSay_____GG_____yAGGG s20AsyncFlatMapSequenceV s0a8ThrowingcD0V s0a6FilterD0V So20NSNotificationCenterC10FoundationE13NotificationsC 10FinanceKit9TokenInfoO 0A18AlgorithmsInternal0a4SyncD0V
++ _symbolic _____y_____y_____y_____yACy_____y_____GSay_____GG_____yAIGG_____y_____GGSayAPGG_____y_AOGG s31AsyncThrowingCompactMapSequenceV 0A18AlgorithmsInternal0a14ChunkedByGroupE0V s0abdE0V s0a4FlatdE0V s0a6FilterE0V So20NSNotificationCenterC10FoundationE13NotificationsC 10FinanceKit9TokenInfoO AC0a4SyncE0V AQ06SingleS13ProcessResultO AQ0G11TransactionV AQ0Q5StoreC7ChangesV
++ _symbolic _____y_____y_____y_____yACy_____y_____GSay_____GG_____yAIGG_____y_____GGSayAPGG_____y_AOGG s31AsyncThrowingCompactMapSequenceV 0A18AlgorithmsInternal0a14ChunkedByGroupE0V s0abdE0V s0a4FlatdE0V s0a6FilterE0V So20NSNotificationCenterC10FoundationE13NotificationsC 10FinanceKit9TokenInfoO AC0a4SyncE0V AQ06SingleS13ProcessResultO AQ0G14AccountBalanceV AQ0Q5StoreC7ChangesV
++ _symbolic _____y_____y_____y_____yACy_____y_____GSay_____GG_____yAIGG_____y_____GGSayAPGG_____y_AOGG s31AsyncThrowingCompactMapSequenceV 0A18AlgorithmsInternal0a14ChunkedByGroupE0V s0abdE0V s0a4FlatdE0V s0a6FilterE0V So20NSNotificationCenterC10FoundationE13NotificationsC 10FinanceKit9TokenInfoO AC0a4SyncE0V AQ06SingleS13ProcessResultO AQ0G7AccountV AQ0Q5StoreC7ChangesV
++ _symbolic _____y_____y_____y_____yACy_____y_____GSay_____GG_____yAIGG_____y_____GGSayAPGG_____y_AOGG s31AsyncThrowingCompactMapSequenceV 0A18AlgorithmsInternal0a14ChunkedByGroupE0V s0abdE0V s0a4FlatdE0V s0a6FilterE0V So20NSNotificationCenterC10FoundationE13NotificationsC 10FinanceKit9TokenInfoO AC0a4SyncE0V AQ06SingleS13ProcessResultO AQ18BankConnectConsentV AQ0Q5StoreC7ChangesV
++ _symbolic _____y_____y_____y_____yACy_____y_____GSay_____GG_____yAIGG_____y_____GGSayAPGG_____y_AOGG s31AsyncThrowingCompactMapSequenceV 0A18AlgorithmsInternal0a14ChunkedByGroupE0V s0abdE0V s0a4FlatdE0V s0a6FilterE0V So20NSNotificationCenterC10FoundationE13NotificationsC 10FinanceKit9TokenInfoO AC0a4SyncE0V AQ06SingleS13ProcessResultO AQ27FinHealthTransactionInsightV06EntityJ0V AQ0Q5StoreC7ChangesV
++ _symbolic _____y_____y_____y_____yACy_____y_____GSay_____GG_____yAIGG_____y_____GGSayAPGG_____y_AOG_G s31AsyncThrowingCompactMapSequenceV8IteratorV 0A18AlgorithmsInternal0a14ChunkedByGroupE0V s0abdE0V s0a4FlatdE0V s0a6FilterE0V So20NSNotificationCenterC10FoundationE13NotificationsC 10FinanceKit9TokenInfoO AE0a4SyncE0V AS06SingleT13ProcessResultO AS0H11TransactionV AS0R5StoreC7ChangesV
++ _symbolic _____y_____y_____y_____yACy_____y_____GSay_____GG_____yAIGG_____y_____GGSayAPGG_____y_AOG_G s31AsyncThrowingCompactMapSequenceV8IteratorV 0A18AlgorithmsInternal0a14ChunkedByGroupE0V s0abdE0V s0a4FlatdE0V s0a6FilterE0V So20NSNotificationCenterC10FoundationE13NotificationsC 10FinanceKit9TokenInfoO AE0a4SyncE0V AS06SingleT13ProcessResultO AS0H14AccountBalanceV AS0R5StoreC7ChangesV
++ _symbolic _____y_____y_____y_____yACy_____y_____GSay_____GG_____yAIGG_____y_____GGSayAPGG_____y_AOG_G s31AsyncThrowingCompactMapSequenceV8IteratorV 0A18AlgorithmsInternal0a14ChunkedByGroupE0V s0abdE0V s0a4FlatdE0V s0a6FilterE0V So20NSNotificationCenterC10FoundationE13NotificationsC 10FinanceKit9TokenInfoO AE0a4SyncE0V AS06SingleT13ProcessResultO AS0H7AccountV AS0R5StoreC7ChangesV
++ _symbolic _____y_____y_____y_____yACy_____y_____GSay_____GG_____yAIGG_____y_____GGSayAPGG_____y_AOG_G s31AsyncThrowingCompactMapSequenceV8IteratorV 0A18AlgorithmsInternal0a14ChunkedByGroupE0V s0abdE0V s0a4FlatdE0V s0a6FilterE0V So20NSNotificationCenterC10FoundationE13NotificationsC 10FinanceKit9TokenInfoO AE0a4SyncE0V AS06SingleT13ProcessResultO AS18BankConnectConsentV AS0R5StoreC7ChangesV
++ _symbolic _____y_____y_____y_____yACy_____y_____GSay_____GG_____yAIGG_____y_____GGSayAPGG_____y_AOG_G s31AsyncThrowingCompactMapSequenceV8IteratorV 0A18AlgorithmsInternal0a14ChunkedByGroupE0V s0abdE0V s0a4FlatdE0V s0a6FilterE0V So20NSNotificationCenterC10FoundationE13NotificationsC 10FinanceKit9TokenInfoO AE0a4SyncE0V AS06SingleT13ProcessResultO AS27FinHealthTransactionInsightV06EntityK0V AS0R5StoreC7ChangesV
++ _symbolic _____y_____y_____y_____ySay_____GG_____y_____GGSayAJGG_____y_AIGG s31AsyncThrowingCompactMapSequenceV 0A18AlgorithmsInternal0a14ChunkedByGroupE0V s0abdE0V AC0a4SyncE0V 10FinanceKit9TokenInfoO AJ06SingleN13ProcessResultO AJ0G11TransactionV AJ0L5StoreC7ChangesV
++ _symbolic _____y_____y_____y_____ySay_____GG_____y_____GGSayAJGG_____y_AIGG s31AsyncThrowingCompactMapSequenceV 0A18AlgorithmsInternal0a14ChunkedByGroupE0V s0abdE0V AC0a4SyncE0V 10FinanceKit9TokenInfoO AJ06SingleN13ProcessResultO AJ0G14AccountBalanceV AJ0L5StoreC7ChangesV
++ _symbolic _____y_____y_____y_____ySay_____GG_____y_____GGSayAJGG_____y_AIGG s31AsyncThrowingCompactMapSequenceV 0A18AlgorithmsInternal0a14ChunkedByGroupE0V s0abdE0V AC0a4SyncE0V 10FinanceKit9TokenInfoO AJ06SingleN13ProcessResultO AJ0G7AccountV AJ0L5StoreC7ChangesV
++ _symbolic _____y_____y_____y_____ySay_____GG_____y_____GGSayAJGG_____y_AIGG s31AsyncThrowingCompactMapSequenceV 0A18AlgorithmsInternal0a14ChunkedByGroupE0V s0abdE0V AC0a4SyncE0V 10FinanceKit9TokenInfoO AJ06SingleN13ProcessResultO AJ18BankConnectConsentV AJ0L5StoreC7ChangesV
++ _symbolic _____y_____y_____y_____ySay_____GG_____y_____GGSayAJGG_____y_AIGG s31AsyncThrowingCompactMapSequenceV 0A18AlgorithmsInternal0a14ChunkedByGroupE0V s0abdE0V AC0a4SyncE0V 10FinanceKit9TokenInfoO AJ06SingleN13ProcessResultO AJ27FinHealthTransactionInsightV06EntityJ0V AJ0L5StoreC7ChangesV
++ _symbolic _____y_____y_____y_____ySay_____GG_____y_____GGSayAJGG_____y_AIG_G s31AsyncThrowingCompactMapSequenceV8IteratorV 0A18AlgorithmsInternal0a14ChunkedByGroupE0V s0abdE0V AE0a4SyncE0V 10FinanceKit9TokenInfoO AL06SingleO13ProcessResultO AL0H11TransactionV AL0M5StoreC7ChangesV
++ _symbolic _____y_____y_____y_____ySay_____GG_____y_____GGSayAJGG_____y_AIG_G s31AsyncThrowingCompactMapSequenceV8IteratorV 0A18AlgorithmsInternal0a14ChunkedByGroupE0V s0abdE0V AE0a4SyncE0V 10FinanceKit9TokenInfoO AL06SingleO13ProcessResultO AL0H14AccountBalanceV AL0M5StoreC7ChangesV
++ _symbolic _____y_____y_____y_____ySay_____GG_____y_____GGSayAJGG_____y_AIG_G s31AsyncThrowingCompactMapSequenceV8IteratorV 0A18AlgorithmsInternal0a14ChunkedByGroupE0V s0abdE0V AE0a4SyncE0V 10FinanceKit9TokenInfoO AL06SingleO13ProcessResultO AL0H7AccountV AL0M5StoreC7ChangesV
++ _symbolic _____y_____y_____y_____ySay_____GG_____y_____GGSayAJGG_____y_AIG_G s31AsyncThrowingCompactMapSequenceV8IteratorV 0A18AlgorithmsInternal0a14ChunkedByGroupE0V s0abdE0V AE0a4SyncE0V 10FinanceKit9TokenInfoO AL06SingleO13ProcessResultO AL18BankConnectConsentV AL0M5StoreC7ChangesV
++ _symbolic _____y_____y_____y_____ySay_____GG_____y_____GGSayAJGG_____y_AIG_G s31AsyncThrowingCompactMapSequenceV8IteratorV 0A18AlgorithmsInternal0a14ChunkedByGroupE0V s0abdE0V AE0a4SyncE0V 10FinanceKit9TokenInfoO AL06SingleO13ProcessResultO AL27FinHealthTransactionInsightV06EntityK0V AL0M5StoreC7ChangesV
++ _symbolic _____yqd__qd_0_G 10FinanceKit5PropsV
++ _symbolic _____yxq_G 10FinanceKit5PropsV
++ _symbolic q0_q0_Qp_QP
++ _symbolic q_xYbKc
++ _symbolic qd_0_
++ _symbolic sB0
++ _type_layout_string 10FinanceKit9TokenInfoO
++ _type_layout_string s12IdentifiableRzs8SendableRzl10FinanceKit24SingleTokenProcessResultOyxG
+- ___unnamed_2
+- _objectdestroy.83Tm
+- _symbolic Say_____GAASg_SS_____SgtYaKc 10FinanceKit0A5StoreC12HistoryTokenV AA32AuxiliaryEntityPredicateProviderV
+- _symbolic Say_____y_q_GG 10FinanceKit0A5StoreC7ChangesV
+- _symbolic _____ So20NSNotificationCenterC10FoundationE13NotificationsC8IteratorV
+- _symbolic ___________SS_____Sg_____SgtYaKc 10FinanceKit36FinancialDataPersistentHistoryChangeV AA0A5StoreC0F5TokenV 10Foundation4UUIDV AA32AuxiliaryEntityPredicateProviderV
+- _symbolic _____y_____y______GG s23_ContiguousArrayStorageC 10FinanceKit0D5StoreC7ChangesV AC15InternalAccountV
+- _symbolic _____y_____y______GG s23_ContiguousArrayStorageC 10FinanceKit0D5StoreC7ChangesV AC18BankConnectConsentV
+- _symbolic _____y_____y______GG s23_ContiguousArrayStorageC 10FinanceKit0D5StoreC7ChangesV AC19InternalTransactionV
+- _symbolic _____y_____y______GG s23_ContiguousArrayStorageC 10FinanceKit0D5StoreC7ChangesV AC22InternalAccountBalanceV
+- _symbolic _____y_____y______GG s23_ContiguousArrayStorageC 10FinanceKit0D5StoreC7ChangesV AC27FinHealthTransactionInsightV11EntityGroupV
+- _symbolic q_xKc
+CStrings:
++ "End of initial bundle"
++ "FinanceKit/FinancialDataAsyncIterator.swift"
++ "Insertion History: "
++ "No local store identifier, cannot determine token"
++ "No notification token"
++ "No store identifier, token will not be relevant"
++ "Persisten History "
++ "Store identifier: %s does not match local identifier:%s, token is not related to our store"
++ "This should not happen"
++ "[FDAI] Adding initial %ld history tokens for %s"
++ "[FDAI] Deinitializing"
++ "[FDAI] Enqueing end of bundle"
++ "[FDAI] Initial fetch, adding empty changes for %s"
++ "[FDAI] No Changes for entity %s, Updating token to %s"
++ "[FDAI] Yielding Changes for entity %s, Updates %s"
++ "[FDAI] found relevant change, sending tokens"
++ "[FDAI] started with token: %s"
++ "[LTM] setting initial token %s"
++ "[LTM] setting last token %s"
++ "_TtC10FinanceKit16LastTokenManager"
++ "changesIterator"
++ "internalReadOnly"
++ "notificationChangesIterator"
++ "props"
++ "storeTokens"
+- "Adding final updates to change history for entity %s, inserted: %ld, updated: %ld, deleted: %ld"
+- "Adding relevant pending updates to change history for entity %s, inserted: %ld, updated: %ld, deleted: %ld"
+- "Found relevant change, performing fetch"
+- "Initial fetch, sending empty updates"
+- "No local store identifier, notification is not relevant"
+- "No notification token, notification is not relevant"
+- "No store identifier, notification is not relevant."
+- "Not monitoring changes, removing from buffer"
+- "Processing next FinanceStore change for token %s"
+- "Store identifier: %s does not match local identifier:%s, notification is not relevant"
+- "auxiliaryModelPredicates"
+- "buffer"
+- "initialized"
+- "lastNotificationToken"
+- "managedPredicate"
+- "managedToModel"
+- "notificationIterator"
+
+```

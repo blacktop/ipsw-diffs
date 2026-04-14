@@ -1,0 +1,1275 @@
+## MigrationKit
+
+> `/System/Library/PrivateFrameworks/MigrationKit.framework/MigrationKit`
+
+```diff
+
+-1224.120.85.502.1
+-  __TEXT.__text: 0x729eec
+-  __TEXT.__auth_stubs: 0x61b0
+-  __TEXT.__objc_methlist: 0x6ce4
+-  __TEXT.__const: 0x361f8
+-  __TEXT.__oslogstring: 0xf4cc
+-  __TEXT.__cstring: 0x15a51
++1224.120.91.502.3
++  __TEXT.__text: 0x78cb58
++  __TEXT.__auth_stubs: 0x6510
++  __TEXT.__objc_methlist: 0x6d5c
++  __TEXT.__const: 0x37ab8
++  __TEXT.__oslogstring: 0xf7bc
++  __TEXT.__cstring: 0x17c71
+   __TEXT.__gcc_except_tab: 0x1788
+-  __TEXT.__constg_swiftt: 0xde14
+-  __TEXT.__swift5_typeref: 0xafc5
+-  __TEXT.__swift5_builtin: 0x2f8
+-  __TEXT.__swift5_reflstr: 0xba22
+-  __TEXT.__swift5_fieldmd: 0xcbf8
+-  __TEXT.__swift5_assocty: 0x2018
+-  __TEXT.__swift5_proto: 0x2180
+-  __TEXT.__swift5_types: 0xc00
+-  __TEXT.__swift_as_entry: 0x10f8
+-  __TEXT.__swift_as_ret: 0x145c
+-  __TEXT.__swift5_capture: 0x2a90
+-  __TEXT.__swift5_protos: 0x144
+-  __TEXT.__swift5_mpenum: 0xd8
+-  __TEXT.__unwind_info: 0x15248
+-  __TEXT.__eh_frame: 0x3ac38
+-  __TEXT.__objc_classname: 0x3ee1
+-  __TEXT.__objc_methname: 0x13ae6
+-  __TEXT.__objc_methtype: 0x446e
+-  __TEXT.__objc_stubs: 0xfb60
+-  __DATA_CONST.__got: 0x2268
+-  __DATA_CONST.__const: 0xb08
+-  __DATA_CONST.__objc_classlist: 0xb88
++  __TEXT.__constg_swiftt: 0xe818
++  __TEXT.__swift5_typeref: 0xb6ef
++  __TEXT.__swift5_builtin: 0x30c
++  __TEXT.__swift5_reflstr: 0xc252
++  __TEXT.__swift5_fieldmd: 0xd43c
++  __TEXT.__swift5_assocty: 0x2090
++  __TEXT.__swift5_proto: 0x21f0
++  __TEXT.__swift5_types: 0xc5c
++  __TEXT.__swift_as_entry: 0x1294
++  __TEXT.__swift_as_ret: 0x17ac
++  __TEXT.__swift5_capture: 0x2c80
++  __TEXT.__swift5_protos: 0x160
++  __TEXT.__swift5_mpenum: 0xf0
++  __TEXT.__swift5_types2: 0x8
++  __TEXT.__unwind_info: 0x172c8
++  __TEXT.__eh_frame: 0x3f740
++  __TEXT.__objc_classname: 0x40e1
++  __TEXT.__objc_methname: 0x14036
++  __TEXT.__objc_methtype: 0x44ce
++  __TEXT.__objc_stubs: 0xfc60
++  __DATA_CONST.__got: 0x2318
++  __DATA_CONST.__const: 0xb28
++  __DATA_CONST.__objc_classlist: 0xbd0
+   __DATA_CONST.__objc_catlist: 0x20
+-  __DATA_CONST.__objc_protolist: 0x2a8
++  __DATA_CONST.__objc_protolist: 0x2b8
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x4b90
+-  __DATA_CONST.__objc_protorefs: 0x118
++  __DATA_CONST.__objc_selrefs: 0x4bf8
++  __DATA_CONST.__objc_protorefs: 0x120
+   __DATA_CONST.__objc_superrefs: 0x330
+   __DATA_CONST.__objc_arraydata: 0x488
+-  __AUTH_CONST.__auth_got: 0x30f0
+-  __AUTH_CONST.__const: 0x15c30
++  __AUTH_CONST.__auth_got: 0x32a0
++  __AUTH_CONST.__const: 0x17720
+   __AUTH_CONST.__cfstring: 0x5620
+-  __AUTH_CONST.__objc_const: 0x1a440
++  __AUTH_CONST.__objc_const: 0x1b0b8
+   __AUTH_CONST.__objc_intobj: 0xcc0
+   __AUTH_CONST.__objc_dictobj: 0x28
+   __AUTH_CONST.__objc_arrayobj: 0x210
+-  __AUTH.__objc_data: 0x77b8
+-  __AUTH.__data: 0x14ef8
+-  __DATA.__objc_ivar: 0x7bc
+-  __DATA.__data: 0xcd20
+-  __DATA.__bss: 0x3ada0
+-  __DATA.__common: 0x1550
++  __AUTH.__objc_data: 0x78e0
++  __AUTH.__data: 0x15ad0
++  __DATA.__objc_ivar: 0x7c0
++  __DATA.__data: 0xd340
++  __DATA.__bss: 0x3b7d0
++  __DATA.__common: 0x14e8
+   __DATA_DIRTY.__objc_data: 0x50
+   __DATA_DIRTY.__bss: 0x10
+   - /System/Library/Frameworks/AVFoundation.framework/AVFoundation
+
+   - /usr/lib/swift/libswift_StringProcessing.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: DDCBC871-88C8-3990-A1A0-E19F8811BA1E
+-  Functions: 22034
+-  Symbols:   15766
+-  CStrings:  9154
++  UUID: F5105EBD-787E-33BA-A562-A34FDB2F6071
++  Functions: 23128
++  Symbols:   16007
++  CStrings:  9437
+ 
+Symbols:
++ -[MKDeviceLockAssertion keyBagStateNotificationToken]
++ -[MKDeviceLockAssertion logCurrentKeyBagState]
++ -[MKDeviceLockAssertion registerForKeyBagStateChanges]
++ -[MKDeviceLockAssertion registerForKeyBagStateChanges].cold.1
++ -[MKDeviceLockAssertion setKeyBagStateNotificationToken:]
++ -[MKHomescreenMigrator resetWithCompletion:]
++ _IOPSCopyPowerSourcesByTypePrecise
++ _IOPSCopyPowerSourcesList
++ _IOPSGetPowerSourceDescription
++ _MKBGetDeviceLockState
++ _MKCopyPrecisePowerSources
++ _NSURLFileProtectionKey
++ _OBJC_CLASS_$_IMDaemonController
++ _OBJC_CLASS_$__TtC12MigrationKit22USBCableViewController
++ _OBJC_IVAR_$_MKDeviceLockAssertion._keyBagStateNotificationToken
++ _OBJC_METACLASS_$__TtC12MigrationKit22USBCableViewController
++ __DATA__TtC12MigrationKit15NetworkRegistry
++ __DATA__TtC12MigrationKit16FileContentDepot
++ __DATA__TtC12MigrationKit17DataExportContext
++ __DATA__TtC12MigrationKit18ExponentialBackoff
++ __DATA__TtC12MigrationKit20ClientNetworkManager
++ __DATA__TtC12MigrationKit20ServerNetworkManager
++ __DATA__TtC12MigrationKit22USBCableViewController
++ __DATA__TtC12MigrationKit24IncomingFileContentDepot
++ __DATA__TtC12MigrationKit30FileContentBatchFetchScheduler
++ __DATA__TtC12MigrationKit32MessageCloudAttachmentDownloader
++ __DATA__TtCV12MigrationKit16OSMigrationAssetP33_E0887E598169825261A190FA76EA413413_StorageClass
++ __DATA__TtCV12MigrationKit18OSMigrationMessageP33_E81BC49CB30EDAC494D457742BD3F7B813_StorageClass
++ __DATA__TtCV12MigrationKit28OSMigrationVoiceMemoMetadataP33_892E34C6D3857802F0C91F92CBDCEEA613_StorageClass
++ __IVARS__TtC12MigrationKit15NetworkRegistry
++ __IVARS__TtC12MigrationKit16FileContentDepot
++ __IVARS__TtC12MigrationKit17DataExportContext
++ __IVARS__TtC12MigrationKit18ExponentialBackoff
++ __IVARS__TtC12MigrationKit20ClientNetworkManager
++ __IVARS__TtC12MigrationKit20ServerNetworkManager
++ __IVARS__TtC12MigrationKit24IncomingFileContentDepot
++ __IVARS__TtC12MigrationKit30FileContentBatchFetchScheduler
++ __IVARS__TtC12MigrationKit32MessageCloudAttachmentDownloader
++ __IVARS__TtC12MigrationKitP33_4781FC3AED08F6972E566563A20994AD23FileContentBatchFetcher
++ __IVARS__TtCV12MigrationKit16OSMigrationAssetP33_E0887E598169825261A190FA76EA413413_StorageClass
++ __IVARS__TtCV12MigrationKit18OSMigrationMessageP33_E81BC49CB30EDAC494D457742BD3F7B813_StorageClass
++ __IVARS__TtCV12MigrationKit28OSMigrationVoiceMemoMetadataP33_892E34C6D3857802F0C91F92CBDCEEA613_StorageClass
++ __METACLASS_DATA__TtC12MigrationKit15NetworkRegistry
++ __METACLASS_DATA__TtC12MigrationKit16FileContentDepot
++ __METACLASS_DATA__TtC12MigrationKit17DataExportContext
++ __METACLASS_DATA__TtC12MigrationKit18ExponentialBackoff
++ __METACLASS_DATA__TtC12MigrationKit20ClientNetworkManager
++ __METACLASS_DATA__TtC12MigrationKit20ServerNetworkManager
++ __METACLASS_DATA__TtC12MigrationKit22USBCableViewController
++ __METACLASS_DATA__TtC12MigrationKit24IncomingFileContentDepot
++ __METACLASS_DATA__TtC12MigrationKit30FileContentBatchFetchScheduler
++ __METACLASS_DATA__TtC12MigrationKit32MessageCloudAttachmentDownloader
++ __METACLASS_DATA__TtCV12MigrationKit16OSMigrationAssetP33_E0887E598169825261A190FA76EA413413_StorageClass
++ __METACLASS_DATA__TtCV12MigrationKit18OSMigrationMessageP33_E81BC49CB30EDAC494D457742BD3F7B813_StorageClass
++ __METACLASS_DATA__TtCV12MigrationKit28OSMigrationVoiceMemoMetadataP33_892E34C6D3857802F0C91F92CBDCEEA613_StorageClass
++ __OBJC_$_PROP_LIST_IMDaemonMultiplexedConnectionManaging
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_IMDaemonMultiplexedConnectionManaging
++ __OBJC_$_PROTOCOL_METHOD_TYPES_IMDaemonMultiplexedConnectionManaging
++ __OBJC_$_PROTOCOL_REFS_IMDaemonMultiplexedConnectionManaging
++ __OBJC_LABEL_PROTOCOL_$_IMDaemonMultiplexedConnectionManaging
++ __OBJC_PROTOCOL_$_IMDaemonMultiplexedConnectionManaging
++ ___54-[MKDeviceLockAssertion registerForKeyBagStateChanges]_block_invoke
++ ___block_descriptor_32_e8_v12?0i8l
++ ___swift_cannot_copy_noncopyable_type
++ ___swift_get_extra_inhabitant_index.137Tm
++ ___swift_get_extra_inhabitant_index.139Tm
++ ___swift_get_extra_inhabitant_index.30Tm
++ ___swift_memcpy160_8
++ ___swift_memcpy49_8
++ ___swift_mutable_project_boxed_opaque_existential_1Tm
++ ___swift_store_extra_inhabitant_index.138Tm
++ ___swift_store_extra_inhabitant_index.140Tm
++ ___swift_store_extra_inhabitant_index.31Tm
++ _associated conformance 12MigrationKit10FetchPhase33_3F657933E6F0285B766BABAE5FCBDE89LLOSHAASQ
++ _associated conformance 12MigrationKit10FetchState33_3F657933E6F0285B766BABAE5FCBDE89LLOSHAASQ
++ _associated conformance 12MigrationKit10FetchState33_3F657933E6F0285B766BABAE5FCBDE89LLOs12CaseIterableAA8AllCasessAEP_Sl
++ _associated conformance 12MigrationKit10NukeTarget33_C9D689418E6FF1AED0BB5A8819F40B47LLVSHAASQ
++ _associated conformance 12MigrationKit14OffloadCommandV10CodingKeys33_4B6E4861B0065F43B821872C5FE05358LLOSHAASQ
++ _associated conformance 12MigrationKit14OffloadCommandV10CodingKeys33_4B6E4861B0065F43B821872C5FE05358LLOs0E3KeyAAs23CustomStringConvertible
++ _associated conformance 12MigrationKit14OffloadCommandV10CodingKeys33_4B6E4861B0065F43B821872C5FE05358LLOs0E3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 12MigrationKit14OffloadCommandV22ArgumentParserInternal013AsyncParsableD0AaD0iD0
++ _associated conformance 12MigrationKit14OffloadCommandV22ArgumentParserInternal08ParsableD0AaD0H9Arguments
++ _associated conformance 12MigrationKit14OffloadCommandV22ArgumentParserInternal17ParsableArgumentsAASe
++ _associated conformance 12MigrationKit18FileContentHandler33_330145A20F6407626BB26D96C0574FE3LLVAA010BatchFetchE0AA8MetadataAaEP_21InternalSwiftProtobuf7Message
++ _associated conformance 12MigrationKit18FileContentHandler33_330145A20F6407626BB26D96C0574FE3LLVAA010BatchFetchE0AA8MetadataAaEP_AA03HascD10Identifier
++ _associated conformance 12MigrationKit18FileContentHandler33_330145A20F6407626BB26D96C0574FE3LLVAA010BatchFetchE0AA8MetadataAaEP_AA16HasExportFailure
++ _associated conformance 12MigrationKit24OSMigrationResourceEntryV18UserScopeSelectionO21InternalSwiftProtobuf4EnumAASH
++ _associated conformance 12MigrationKit24OSMigrationResourceEntryV18UserScopeSelectionO21InternalSwiftProtobuf4EnumAASY
++ _associated conformance 12MigrationKit24OSMigrationResourceEntryV18UserScopeSelectionOSHAASQ
++ _associated conformance 12MigrationKit24OSMigrationResourceEntryV18UserScopeSelectionOs12CaseIterableAA8AllCasessAFP_Sl
++ _associated conformance 12MigrationKit25PossibleMessageAttachmentVAA22FileContentConvertibleAA0G0AaDP_AA0fG0
++ _associated conformance 12MigrationKit38PhotoLibraryPersistenceAssetModelActorCAA17BatchFetchHandlerAA8MetadataAaDP_21InternalSwiftProtobuf7Message
++ _associated conformance 12MigrationKit38PhotoLibraryPersistenceAssetModelActorCAA17BatchFetchHandlerAA8MetadataAaDP_AA16HasExportFailure
++ _associated conformance 12MigrationKit38PhotoLibraryPersistenceAssetModelActorCAA17BatchFetchHandlerAA8MetadataAaDP_AA24HasFileContentIdentifier
++ _associated conformance 12MigrationKit43OSMigrationCloudFileContentDownloadProgressV21InternalSwiftProtobuf26_MessageImplementationBaseAASH
++ _associated conformance 12MigrationKit43OSMigrationCloudFileContentDownloadProgressV21InternalSwiftProtobuf26_MessageImplementationBaseAaD0L0
++ _associated conformance 12MigrationKit43OSMigrationCloudFileContentDownloadProgressV21InternalSwiftProtobuf7MessageAAs28CustomDebugStringConvertible
++ _associated conformance 12MigrationKit43OSMigrationCloudFileContentDownloadProgressVSHAASQ
++ _associated conformance 12MigrationKit6UIHintOSHAASQ
++ _associated conformance 12MigrationKit7OrdinalVSHAASQ
++ _associated conformance 12MigrationKit7OrdinalVSLAASQ
++ _block_copy_helper.103
++ _block_copy_helper.104
++ _block_copy_helper.112
++ _block_copy_helper.117
++ _block_copy_helper.130
++ _block_copy_helper.143
++ _block_copy_helper.156
++ _block_copy_helper.160
++ _block_copy_helper.163
++ _block_copy_helper.176
++ _block_copy_helper.189
++ _block_copy_helper.202
++ _block_copy_helper.215
++ _block_copy_helper.228
++ _block_copy_helper.241
++ _block_copy_helper.255
++ _block_copy_helper.276
++ _block_copy_helper.283
++ _block_copy_helper.290
++ _block_copy_helper.297
++ _block_copy_helper.304
++ _block_copy_helper.311
++ _block_copy_helper.318
++ _block_copy_helper.331
++ _block_copy_helper.344
++ _block_copy_helper.357
++ _block_copy_helper.371
++ _block_copy_helper.378
++ _block_copy_helper.38
++ _block_copy_helper.385
++ _block_copy_helper.392
++ _block_copy_helper.42
++ _block_copy_helper.50
++ _block_copy_helper.54
++ _block_copy_helper.60
++ _block_copy_helper.61
++ _block_copy_helper.76
++ _block_copy_helper.80
++ _block_copy_helper.90
++ _block_copy_helper.99
++ _block_descriptor.101
++ _block_descriptor.105
++ _block_descriptor.106
++ _block_descriptor.114
++ _block_descriptor.119
++ _block_descriptor.132
++ _block_descriptor.145
++ _block_descriptor.158
++ _block_descriptor.162
++ _block_descriptor.165
++ _block_descriptor.178
++ _block_descriptor.191
++ _block_descriptor.204
++ _block_descriptor.217
++ _block_descriptor.230
++ _block_descriptor.243
++ _block_descriptor.257
++ _block_descriptor.278
++ _block_descriptor.285
++ _block_descriptor.292
++ _block_descriptor.299
++ _block_descriptor.306
++ _block_descriptor.313
++ _block_descriptor.320
++ _block_descriptor.333
++ _block_descriptor.346
++ _block_descriptor.359
++ _block_descriptor.373
++ _block_descriptor.380
++ _block_descriptor.387
++ _block_descriptor.394
++ _block_descriptor.40
++ _block_descriptor.44
++ _block_descriptor.52
++ _block_descriptor.56
++ _block_descriptor.62
++ _block_descriptor.63
++ _block_descriptor.78
++ _block_descriptor.82
++ _block_descriptor.92
++ _block_destroy_helper.100
++ _block_destroy_helper.104
++ _block_destroy_helper.105
++ _block_destroy_helper.113
++ _block_destroy_helper.118
++ _block_destroy_helper.131
++ _block_destroy_helper.144
++ _block_destroy_helper.157
++ _block_destroy_helper.161
++ _block_destroy_helper.164
++ _block_destroy_helper.177
++ _block_destroy_helper.190
++ _block_destroy_helper.203
++ _block_destroy_helper.216
++ _block_destroy_helper.229
++ _block_destroy_helper.242
++ _block_destroy_helper.256
++ _block_destroy_helper.277
++ _block_destroy_helper.284
++ _block_destroy_helper.291
++ _block_destroy_helper.298
++ _block_destroy_helper.305
++ _block_destroy_helper.312
++ _block_destroy_helper.319
++ _block_destroy_helper.332
++ _block_destroy_helper.345
++ _block_destroy_helper.358
++ _block_destroy_helper.372
++ _block_destroy_helper.379
++ _block_destroy_helper.386
++ _block_destroy_helper.39
++ _block_destroy_helper.393
++ _block_destroy_helper.43
++ _block_destroy_helper.51
++ _block_destroy_helper.55
++ _block_destroy_helper.61
++ _block_destroy_helper.62
++ _block_destroy_helper.77
++ _block_destroy_helper.81
++ _block_destroy_helper.91
++ _flat unique So37IMDaemonMultiplexedConnectionManaging_p
++ _get_enum_tag_for_layout_string 12MigrationKit14ContentRequest33_4781FC3AED08F6972E566563A20994ADLLO
++ _get_enum_tag_for_layout_string 12MigrationKit9SelectionOIegn_Sg
++ _get_type_metadata 12MigrationKit7OrdinalV9GeneratorV noncopyable.4
++ _get_type_metadata 15Synchronization6AtomicVys6UInt64VG noncopyable.4
++ _notify_cancel
++ _notify_register_dispatch
++ _nw_parameters_set_receive_any_interface
++ _nw_parameters_set_use_awdl
++ _objc_msgSend$displayScale
++ _objc_msgSend$initWithCGImage:scale:orientation:
++ _objc_msgSend$initWithFileDescriptor:closeOnDealloc:
++ _objc_msgSend$logCurrentKeyBagState
++ _objc_msgSend$multiplexedConnectionWithLabel:capabilities:context:
++ _objc_msgSend$prepareImageForDescriptor:
++ _objc_msgSend$registerForKeyBagStateChanges
++ _objc_msgSend$resetHomeScreenLayoutWithCompletion:
++ _objc_msgSend$resetWithCompletion:
++ _objc_msgSend$setKeyBagStateNotificationToken:
++ _objc_msgSend$sharedController
++ _objc_msgSend$tearDownBluetooth
++ _objc_msgSend$traitCollection
++ _objectdestroy.108Tm
++ _objectdestroy.12Tm
++ _objectdestroy.140Tm
++ _objectdestroy.150Tm
++ _objectdestroy.18Tm
++ _objectdestroy.21Tm
++ _objectdestroy.23Tm
++ _objectdestroy.36Tm
++ _objectdestroy.39Tm
++ _objectdestroy.42Tm
++ _objectdestroy.59Tm
++ _objectdestroy.68Tm
++ _pipe
++ _posix_spawn_file_actions_addclose
++ _posix_spawn_file_actions_adddup2
++ _posix_spawn_file_actions_destroy
++ _posix_spawn_file_actions_init
++ _swift_initStructMetadata
++ _swift_task_isCancelled
++ _symbolic $s12MigrationKit12BatchFetcherP
++ _symbolic $s12MigrationKit14NetworkManagerP
++ _symbolic $s12MigrationKit15NetworkDelegateP
++ _symbolic $s12MigrationKit17BatchFetchHandlerP
++ _symbolic $s12MigrationKit20ClientNetworkManagerC8DelegateP
++ _symbolic $s12MigrationKit20ServerNetworkManagerC8DelegateP
++ _symbolic $s12MigrationKit21MessageAttachmentLikeP
++ _symbolic 8Metadata_____Qz 12MigrationKit17BatchFetchHandlerP
++ _symbolic SDySSShy_____GG 12MigrationKit7OrdinalV
++ _symbolic SDy_____SDy_____ScCyyt______pGGG 12MigrationKit20ImportStateBroadcastV AA7OrdinalV s5ErrorP
++ _symbolic SDy_____SSG s6UInt64V
++ _symbolic SDy_____SayScCyyt_____GGG 12MigrationKit24ForeignContentIdentifierV s5NeverO
++ _symbolic SDy_____Say_____yyt______pGGG 10Foundation4DataV 12MigrationKit25TimeSensitiveContinuationV s5ErrorP
++ _symbolic SDy_____ScCyyt______pGG 12MigrationKit7OrdinalV s5ErrorP
++ _symbolic SDy_____ScTyyt_____GG 10Foundation4DataV s5NeverO
++ _symbolic SDy_____Shy_____GG 12MigrationKit9SelectionO AA6UIHintO
++ _symbolic SDy__________G 12MigrationKit20OSMigrationDataClassO AA20NegotiatedFCISupportO
++ _symbolic SDy__________G s6UInt64V 12MigrationKit10FetchEntry33_3F657933E6F0285B766BABAE5FCBDE89LLV
++ _symbolic SDy___________pG 10Foundation4DataV s5ErrorP
++ _symbolic SDy___________pG 12MigrationKit24ForeignContentIdentifierV s5ErrorP
++ _symbolic SDy_____y_____YaYbcG 12MigrationKit7OrdinalV 10Foundation4DataV
++ _symbolic Say_____10attachment______8cloudFCItG 6IMCore12ImportExportO10AttachmentV 10Foundation4DataV
++ _symbolic Say_____G 12MigrationKit10FetchState33_3F657933E6F0285B766BABAE5FCBDE89LLO
++ _symbolic Say_____G 12MigrationKit18FileContentRequestV
++ _symbolic Say_____G 12MigrationKit24OSMigrationResourceEntryV18UserScopeSelectionO
++ _symbolic Shy_____G 10Foundation4DataV
++ _symbolic Shy_____G 12MigrationKit6UIHintO
++ _symbolic Shy_____G23selfSupportedSelections_AB04peerbC0SDyAAShy_____GG7uiHintst 12MigrationKit9SelectionO AA6UIHintO
++ _symbolic Si_____Sg______pIeghHyrzo_ 12MigrationKit18OSMigrationV1FrameV06OneOf_E0O s5ErrorP
++ _symbolic Si_____Sg______pIeghHyrzo_ 12MigrationKit36OSMigrationTargetToSourceFlowControlV06OneOf_defgH0O s5ErrorP
++ _symbolic Si___________pIeghHyrzo_ 10Foundation3URLV s5ErrorP
++ _symbolic Si___________pIeghHyrzo_ 12MigrationKit13AppPropertiesV s5ErrorP
++ _symbolic _____ 12MigrationKit10FetchEntry33_3F657933E6F0285B766BABAE5FCBDE89LLV
++ _symbolic _____ 12MigrationKit10FetchPhase33_3F657933E6F0285B766BABAE5FCBDE89LLO
++ _symbolic _____ 12MigrationKit10FetchState33_3F657933E6F0285B766BABAE5FCBDE89LLO
++ _symbolic _____ 12MigrationKit10NukeTarget33_C9D689418E6FF1AED0BB5A8819F40B47LLV
++ _symbolic _____ 12MigrationKit14BatteryManagerO
++ _symbolic _____ 12MigrationKit14ContentRequest33_4781FC3AED08F6972E566563A20994ADLLO
++ _symbolic _____ 12MigrationKit14OffloadCommandV
++ _symbolic _____ 12MigrationKit14OffloadCommandV10CodingKeys33_4B6E4861B0065F43B821872C5FE05358LLO
++ _symbolic _____ 12MigrationKit15NetworkRegistryC
++ _symbolic _____ 12MigrationKit16FileContentDepotC
++ _symbolic _____ 12MigrationKit16OSMigrationAssetV13_StorageClass33_E0887E598169825261A190FA76EA4134LLC
++ _symbolic _____ 12MigrationKit17DataExportContextC
++ _symbolic _____ 12MigrationKit17DataExportContextC22NegotiatedCapabilitiesV
++ _symbolic _____ 12MigrationKit17SelectionViewCellC13ConfigurationV
++ _symbolic _____ 12MigrationKit18ExponentialBackoffC
++ _symbolic _____ 12MigrationKit18ExportFailureErrorV
++ _symbolic _____ 12MigrationKit18FileContentHandler33_330145A20F6407626BB26D96C0574FE3LLV
++ _symbolic _____ 12MigrationKit18FileContentRequestV
++ _symbolic _____ 12MigrationKit18OSMigrationMessageV13_StorageClass33_E81BC49CB30EDAC494D457742BD3F7B8LLC
++ _symbolic _____ 12MigrationKit20ClientNetworkManagerC
++ _symbolic _____ 12MigrationKit20ServerNetworkManagerC
++ _symbolic _____ 12MigrationKit22ExportFileContentStoreV
++ _symbolic _____ 12MigrationKit22USBCableViewControllerC
++ _symbolic _____ 12MigrationKit23FileContentBatchFetcher33_4781FC3AED08F6972E566563A20994ADLLC
++ _symbolic _____ 12MigrationKit24IncomingFileContentDepotC
++ _symbolic _____ 12MigrationKit24OSMigrationResourceEntryV18UserScopeSelectionO
++ _symbolic _____ 12MigrationKit25PossibleMessageAttachmentV
++ _symbolic _____ 12MigrationKit28OSMigrationVoiceMemoMetadataV13_StorageClass33_892E34C6D3857802F0C91F92CBDCEEA6LLC
++ _symbolic _____ 12MigrationKit30FileContentBatchFetchSchedulerC
++ _symbolic _____ 12MigrationKit32MessageCloudAttachmentDownloaderC
++ _symbolic _____ 12MigrationKit32MessageCloudAttachmentDownloaderC13ProgressStats028_89CFD46AC5D91A2AB204A2797A8O3D7ELLV
++ _symbolic _____ 12MigrationKit32MessageCloudAttachmentDownloaderC13ProgressStats028_89CFD46AC5D91A2AB204A2797A8O3D7ELLV5TallyV
++ _symbolic _____ 12MigrationKit43OSMigrationCloudFileContentDownloadProgressV
++ _symbolic _____ 12MigrationKit6UIHintO
++ _symbolic _____ 12MigrationKit7OrdinalV
++ _symbolic _____ 12MigrationKit7OrdinalV9GeneratorV
++ _symbolic _____ 6IMCore12ImportExportO10AttachmentV
++ _symbolic _____10attachment______8cloudFCIt 6IMCore12ImportExportO10AttachmentV 10Foundation4DataV
++ _symbolic _____3key_ScCyyt______pG5valuet 12MigrationKit7OrdinalV s5ErrorP
++ _symbolic _____3key_ScCyyt______pG5valuetSg 12MigrationKit7OrdinalV s5ErrorP
++ _symbolic _____7message______14attachmentSizet 6IMCore12ImportExportO7MessageV s6UInt64V
++ _symbolic _____IeghHg_ 10Foundation4DataV
++ _symbolic _____Ieghn_ 12MigrationKit6ServerC5StateO
++ _symbolic _____Sg 12MigrationKit10FetchEntry33_3F657933E6F0285B766BABAE5FCBDE89LLV
++ _symbolic _____Sg 12MigrationKit14ContentRequest33_4781FC3AED08F6972E566563A20994ADLLO
++ _symbolic _____Sg 12MigrationKit17DataExportContextC
++ _symbolic _____Sg 12MigrationKit17HashedFileContentO
++ _symbolic _____Sg 12MigrationKit17SelectionViewCellC13ConfigurationV
++ _symbolic _____Sg 12MigrationKit18ExponentialBackoffC
++ _symbolic _____Sg 12MigrationKit24IncomingFileContentDepotC
++ _symbolic _____Sg 12MigrationKit24OSMigrationResourceEntryV18UserScopeSelectionO
++ _symbolic _____Sg 12MigrationKit32MessageCloudAttachmentDownloaderC
++ _symbolic _____Sg 12MigrationKit43OSMigrationCloudFileContentDownloadProgressV
++ _symbolic _____SgXw 12MigrationKit038ReleaseCrossPlatformCellularPlanClientH10ControllerC
++ _symbolic _____SgXw 12MigrationKit20ClientNetworkManagerC
++ _symbolic _____SgXw 12MigrationKit20ServerNetworkManagerC
++ _symbolic _____SgXw 12MigrationKit32MessageCloudAttachmentDownloaderC
++ _symbolic _____SgXw 12MigrationKit54ReleaseCrossPlatformCellularPlanClientServerControllerC
++ _symbolic _____SgXwz_Xx 12MigrationKit20ClientNetworkManagerC
++ _symbolic _____SgXwz_Xx 12MigrationKit20ServerNetworkManagerC
++ _symbolic _____SgXwz_Xx 12MigrationKit32MessageCloudAttachmentDownloaderC
++ _symbolic _____Sg_ABt 6IMCore12ImportExportO7MessageV8ReactionV
++ _symbolic _____Sg_ABt s15SuspendingClockV7InstantV
++ _symbolic ______ScCyyt______pGt 12MigrationKit7OrdinalV s5ErrorP
++ _symbolic __________Ieghnn_ 12MigrationKit9SelectionO AA10EstimationV
++ _symbolic ____________pt s6UInt64V s5ErrorP
++ _symbolic ___________pIeghHnzo_ 12MigrationKit33OSMigrationCloudFileContentUpdateV s5ErrorP
++ _symbolic ___________t 10Foundation4DataV 12MigrationKit24ForeignContentIdentifierV
++ _symbolic ___________t s6UInt64V 12MigrationKit10FetchEntry33_3F657933E6F0285B766BABAE5FCBDE89LLV
++ _symbolic ______p 12MigrationKit12BatchFetcherP
++ _symbolic ______p 12MigrationKit14NetworkManagerP
++ _symbolic ______p6stream______13contentLengtht 12MigrationKit16AsyncInputStreamP s6UInt64V
++ _symbolic ______pSg 12MigrationKit21MimeTypeRepresentableP
++ _symbolic ______pSg So37IMDaemonMultiplexedConnectionManagingP
++ _symbolic ______pSgXw 12MigrationKit15NetworkDelegateP
++ _symbolic ______pSgXw 12MigrationKit20ClientNetworkManagerC8DelegateP
++ _symbolic ______pSgXw 12MigrationKit20ServerNetworkManagerC8DelegateP
++ _symbolic ______p______11contentType_____0A6Lengtht 12MigrationKit16AsyncInputStreamP AA19ResourceContentTypeV s6UInt64V
++ _symbolic ______pm 12MigrationKit14NetworkManagerP
++ _symbolic _____ySDy_____ScTyyt_____GG_____G s13ManagedBufferCsRi__rlE 12MigrationKit7OrdinalV s5NeverO So16os_unfair_lock_sV
++ _symbolic _____ySSSaySSGG s18_DictionaryStorageC
++ _symbolic _____ySSShy_____GG s18_DictionaryStorageC 12MigrationKit7OrdinalV
++ _symbolic _____ySSypG 12MigrationKit20ConcurrentDictionaryC
++ _symbolic _____ySdG 22ArgumentParserInternal6OptionV
++ _symbolic _____ySiG 22ArgumentParserInternal6OptionV
++ _symbolic _____ySiSgG 12MigrationKit15InternalDefaultV
++ _symbolic _____y_Shy_____GG 10Foundation20PredicateExpressionsO5ValueV AA4DataV
++ _symbolic _____y_____10attachment______8cloudFCItG s23_ContiguousArrayStorageC 6IMCore12ImportExportO10AttachmentV 10Foundation4DataV
++ _symbolic _____y_____G 12MigrationKit23FileContentBatchFetcher33_4781FC3AED08F6972E566563A20994ADLLC AA0cD7Handler33_330145A20F6407626BB26D96C0574FE3LLV
++ _symbolic _____y_____G 12MigrationKit23FileContentBatchFetcher33_4781FC3AED08F6972E566563A20994ADLLC AA38PhotoLibraryPersistenceAssetModelActorC
++ _symbolic _____y_____G 15Synchronization6AtomicV s6UInt64V
++ _symbolic _____y_____G s11_SetStorageC 12MigrationKit10NukeTarget33_C9D689418E6FF1AED0BB5A8819F40B47LLV
++ _symbolic _____y_____G s11_SetStorageC 12MigrationKit6UIHintO
++ _symbolic _____y_____G s11_SetStorageC 12MigrationKit7OrdinalV
++ _symbolic _____y_____G s11_SetStorageC s6UInt64V
++ _symbolic _____y_____G s22KeyedDecodingContainerV 12MigrationKit14OffloadCommandV10CodingKeys33_4B6E4861B0065F43B821872C5FE05358LLO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 12MigrationKit10FetchEntry33_3F657933E6F0285B766BABAE5FCBDE89LLV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 12MigrationKit10NukeTarget33_C9D689418E6FF1AED0BB5A8819F40B47LLV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 12MigrationKit18FileContentRequestV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 12MigrationKit6UIHintO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 6IMCore12ImportExportO10AttachmentV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 6IMCore12ImportExportO10AttachmentV18MissingFileReasonsV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC s6UInt64V
++ _symbolic _____y_____SDy_____ScCyyt______pGGG s18_DictionaryStorageC 12MigrationKit20ImportStateBroadcastV AC7OrdinalV s5ErrorP
++ _symbolic _____y_____SSG s18_DictionaryStorageC s6UInt64V
++ _symbolic _____y_____SayScCyyt_____GGG s18_DictionaryStorageC 12MigrationKit24ForeignContentIdentifierV s5NeverO
++ _symbolic _____y_____Say_____yyt______pGGG s18_DictionaryStorageC 10Foundation4DataV 12MigrationKit25TimeSensitiveContinuationV s5ErrorP
++ _symbolic _____y_____ScCyyt______pGG s18_DictionaryStorageC 12MigrationKit7OrdinalV s5ErrorP
++ _symbolic _____y_____ScTyyt_____GG 12MigrationKit20ConcurrentDictionaryC AA7OrdinalV s5NeverO
++ _symbolic _____y_____ScTyyt_____GG s18_DictionaryStorageC 10Foundation4DataV s5NeverO
++ _symbolic _____y_____ScTyyt_____GG s18_DictionaryStorageC 12MigrationKit7OrdinalV s5NeverO
++ _symbolic _____y_____Shy_____GG s18_DictionaryStorageC 12MigrationKit9SelectionO AC6UIHintO
++ _symbolic _____y__________G s18_DictionaryStorageC 10Foundation4DataV 12MigrationKit24ForeignContentIdentifierV
++ _symbolic _____y__________G s18_DictionaryStorageC 12MigrationKit10FetchState33_3F657933E6F0285B766BABAE5FCBDE89LLO s6UInt64V
++ _symbolic _____y__________G s18_DictionaryStorageC 12MigrationKit20OSMigrationDataClassO AC20NegotiatedFCISupportO
++ _symbolic _____y__________G s18_DictionaryStorageC 12MigrationKit24ForeignContentIdentifierV AC0F7Request33_4781FC3AED08F6972E566563A20994ADLLO
++ _symbolic _____y__________G s18_DictionaryStorageC s6UInt64V 12MigrationKit10FetchEntry33_3F657933E6F0285B766BABAE5FCBDE89LLV
++ _symbolic _____y____________ptG s23_ContiguousArrayStorageC s6UInt64V s5ErrorP
++ _symbolic _____y___________pG s18_DictionaryStorageC 10Foundation4DataV s5ErrorP
++ _symbolic _____y___________pG s18_DictionaryStorageC 12MigrationKit24ForeignContentIdentifierV s5ErrorP
++ _symbolic _____y___________pG s18_DictionaryStorageC s6UInt64V s5ErrorP
++ _symbolic _____y___________pG s6ResultOsRi_zRi0_zrlE 10Foundation3URLV s5ErrorP
++ _symbolic _____y___________pG s6ResultOsRi_zRi0_zrlE 12MigrationKit25PossibleMessageAttachmentV s5ErrorP
++ _symbolic _____y___________tG s23_ContiguousArrayStorageC 10Foundation4DataV 12MigrationKit24ForeignContentIdentifierV
++ _symbolic _____y___________tG s23_ContiguousArrayStorageC 12MigrationKit10FetchState33_3F657933E6F0285B766BABAE5FCBDE89LLO s6UInt64V
++ _symbolic _____y___________y___________pGtG s23_ContiguousArrayStorageC 12MigrationKit24ForeignContentIdentifierV s6ResultOsRi_zRi0_zrlE AC010HashedFileG0O s5ErrorP
++ _symbolic _____y__________y___________pGG s18_DictionaryStorageC 10Foundation4DataV s6ResultOsRi_zRi0_zrlE 12MigrationKit21HashedContentIdentityV s5ErrorP
++ _symbolic _____y______y_Shy_____GG_____y______y______GACGG 10Foundation20PredicateExpressionsO16SequenceContainsV AC5ValueV AA4DataV AC7KeyPathV AC8VariableV 12MigrationKit35ForeignToNativeIdentityMappingEntry33_026ED77405C2205536EE1EA341CEFDBBLLC
++ _symbolic _____y_____y_____YaYbcG s18_DictionaryStorageC 12MigrationKit7OrdinalV 10Foundation4DataV
++ _symbolic _____y_____yyt______pGG s23_ContiguousArrayStorageC 12MigrationKit25TimeSensitiveContinuationV s5ErrorP
++ _symbolic y_____YaYbKc 12MigrationKit33OSMigrationCloudFileContentUpdateV
++ _symbolic y_____YaYbKc 12MigrationKit43OSMigrationCloudFileContentDownloadProgressV
++ _symbolic y___________tYbc 12MigrationKit9SelectionO AA10EstimationV
++ _symbolic y_____zYaKc 12MigrationKit14DeletionResult33_C9D689418E6FF1AED0BB5A8819F40B47LLV
++ _type_layout_string 12MigrationKit10FetchEntry33_3F657933E6F0285B766BABAE5FCBDE89LLV
++ _type_layout_string 12MigrationKit10NukeTarget33_C9D689418E6FF1AED0BB5A8819F40B47LLV
++ _type_layout_string 12MigrationKit14ContentRequest33_4781FC3AED08F6972E566563A20994ADLLO
++ _type_layout_string 12MigrationKit17MessageEstimationV
++ _type_layout_string 12MigrationKit17SelectionViewCellC13ConfigurationV
++ _type_layout_string 12MigrationKit18ExportFailureErrorV
++ _type_layout_string 12MigrationKit18FileContentRequestV
++ _type_layout_string 12MigrationKit22ExportFileContentStoreV
++ _type_layout_string 12MigrationKit32MessageCloudAttachmentDownloaderC13ProgressStats028_89CFD46AC5D91A2AB204A2797A8O3D7ELLV5TallyV
++ _type_layout_string 12MigrationKit7OrdinalV
+- __DATA__TtC12MigrationKit14NetworkManager
+- __DATA__TtCV12MigrationKit16OSMigrationAssetP33_13D66C4EC1B1831280A918BD4F7D71F013_StorageClass
+- __DATA__TtCV12MigrationKit18OSMigrationMessageP33_F2D56D5E7DEA747D877788BB4B1FFC5113_StorageClass
+- __DATA__TtCV12MigrationKit28OSMigrationVoiceMemoMetadataP33_EE5FE4B739864F33F2950D4D356B1FD413_StorageClass
+- __IVARS__TtC12MigrationKit14NetworkManager
+- __IVARS__TtCV12MigrationKit16OSMigrationAssetP33_13D66C4EC1B1831280A918BD4F7D71F013_StorageClass
+- __IVARS__TtCV12MigrationKit18OSMigrationMessageP33_F2D56D5E7DEA747D877788BB4B1FFC5113_StorageClass
+- __IVARS__TtCV12MigrationKit28OSMigrationVoiceMemoMetadataP33_EE5FE4B739864F33F2950D4D356B1FD413_StorageClass
+- __METACLASS_DATA__TtC12MigrationKit14NetworkManager
+- __METACLASS_DATA__TtCV12MigrationKit16OSMigrationAssetP33_13D66C4EC1B1831280A918BD4F7D71F013_StorageClass
+- __METACLASS_DATA__TtCV12MigrationKit18OSMigrationMessageP33_F2D56D5E7DEA747D877788BB4B1FFC5113_StorageClass
+- __METACLASS_DATA__TtCV12MigrationKit28OSMigrationVoiceMemoMetadataP33_EE5FE4B739864F33F2950D4D356B1FD413_StorageClass
+- ___swift_get_extra_inhabitant_index.125Tm
+- ___swift_get_extra_inhabitant_index.17Tm
+- ___swift_memcpy50_8
+- ___swift_memcpy66_8
+- ___swift_mutable_project_boxed_opaque_existential_2
+- ___swift_store_extra_inhabitant_index.126Tm
+- ___swift_store_extra_inhabitant_index.18Tm
+- _associated conformance 12MigrationKit24OSMigrationUserSelectionO21InternalSwiftProtobuf4EnumAASH
+- _associated conformance 12MigrationKit24OSMigrationUserSelectionO21InternalSwiftProtobuf4EnumAASY
+- _associated conformance 12MigrationKit24OSMigrationUserSelectionOSHAASQ
+- _associated conformance 12MigrationKit24OSMigrationUserSelectionOs12CaseIterableAA8AllCasessADP_Sl
+- _associated conformance 12MigrationKit25OSMigrationAppContentListV21InternalSwiftProtobuf26_MessageImplementationBaseAASH
+- _associated conformance 12MigrationKit25OSMigrationAppContentListV21InternalSwiftProtobuf26_MessageImplementationBaseAaD0J0
+- _associated conformance 12MigrationKit25OSMigrationAppContentListV21InternalSwiftProtobuf7MessageAAs28CustomDebugStringConvertible
+- _associated conformance 12MigrationKit25OSMigrationAppContentListVSHAASQ
+- _associated conformance 12MigrationKit27OSMigrationAppContentExportV21InternalSwiftProtobuf26_MessageImplementationBaseAASH
+- _associated conformance 12MigrationKit27OSMigrationAppContentExportV21InternalSwiftProtobuf26_MessageImplementationBaseAaD0J0
+- _associated conformance 12MigrationKit27OSMigrationAppContentExportV21InternalSwiftProtobuf7MessageAAs28CustomDebugStringConvertible
+- _associated conformance 12MigrationKit27OSMigrationAppContentExportVSHAASQ
+- _associated conformance 12MigrationKit29OSMigrationAppContentTransferV21InternalSwiftProtobuf26_MessageImplementationBaseAASH
+- _associated conformance 12MigrationKit29OSMigrationAppContentTransferV21InternalSwiftProtobuf26_MessageImplementationBaseAaD0J0
+- _associated conformance 12MigrationKit29OSMigrationAppContentTransferV21InternalSwiftProtobuf7MessageAAs28CustomDebugStringConvertible
+- _associated conformance 12MigrationKit29OSMigrationAppContentTransferVSHAASQ
+- _associated conformance 12MigrationKit6ServerC15PreflightStatusOSHAASQ
+- _block_copy_helper.109
+- _block_copy_helper.122
+- _block_copy_helper.135
+- _block_copy_helper.148
+- _block_copy_helper.151
+- _block_copy_helper.155
+- _block_copy_helper.168
+- _block_copy_helper.181
+- _block_copy_helper.194
+- _block_copy_helper.207
+- _block_copy_helper.220
+- _block_copy_helper.233
+- _block_copy_helper.246
+- _block_copy_helper.253
+- _block_copy_helper.26
+- _block_copy_helper.260
+- _block_copy_helper.267
+- _block_copy_helper.274
+- _block_copy_helper.281
+- _block_copy_helper.288
+- _block_copy_helper.301
+- _block_copy_helper.314
+- _block_copy_helper.327
+- _block_copy_helper.33
+- _block_copy_helper.341
+- _block_copy_helper.348
+- _block_copy_helper.355
+- _block_copy_helper.37
+- _block_copy_helper.39
+- _block_copy_helper.41
+- _block_copy_helper.51
+- _block_copy_helper.53
+- _block_copy_helper.68
+- _block_copy_helper.71
+- _block_copy_helper.74
+- _block_copy_helper.82
+- _block_copy_helper.89
+- _block_copy_helper.93
+- _block_descriptor.111
+- _block_descriptor.124
+- _block_descriptor.137
+- _block_descriptor.150
+- _block_descriptor.153
+- _block_descriptor.157
+- _block_descriptor.170
+- _block_descriptor.183
+- _block_descriptor.196
+- _block_descriptor.209
+- _block_descriptor.222
+- _block_descriptor.235
+- _block_descriptor.248
+- _block_descriptor.255
+- _block_descriptor.262
+- _block_descriptor.269
+- _block_descriptor.276
+- _block_descriptor.28
+- _block_descriptor.283
+- _block_descriptor.290
+- _block_descriptor.303
+- _block_descriptor.316
+- _block_descriptor.329
+- _block_descriptor.343
+- _block_descriptor.35
+- _block_descriptor.350
+- _block_descriptor.357
+- _block_descriptor.39
+- _block_descriptor.41
+- _block_descriptor.43
+- _block_descriptor.53
+- _block_descriptor.55
+- _block_descriptor.70
+- _block_descriptor.73
+- _block_descriptor.76
+- _block_descriptor.84
+- _block_descriptor.91
+- _block_descriptor.95
+- _block_destroy_helper.110
+- _block_destroy_helper.123
+- _block_destroy_helper.136
+- _block_destroy_helper.149
+- _block_destroy_helper.152
+- _block_destroy_helper.156
+- _block_destroy_helper.169
+- _block_destroy_helper.182
+- _block_destroy_helper.195
+- _block_destroy_helper.208
+- _block_destroy_helper.221
+- _block_destroy_helper.234
+- _block_destroy_helper.247
+- _block_destroy_helper.254
+- _block_destroy_helper.261
+- _block_destroy_helper.268
+- _block_destroy_helper.27
+- _block_destroy_helper.275
+- _block_destroy_helper.282
+- _block_destroy_helper.289
+- _block_destroy_helper.302
+- _block_destroy_helper.315
+- _block_destroy_helper.328
+- _block_destroy_helper.34
+- _block_destroy_helper.342
+- _block_destroy_helper.349
+- _block_destroy_helper.356
+- _block_destroy_helper.38
+- _block_destroy_helper.40
+- _block_destroy_helper.42
+- _block_destroy_helper.52
+- _block_destroy_helper.54
+- _block_destroy_helper.69
+- _block_destroy_helper.72
+- _block_destroy_helper.75
+- _block_destroy_helper.83
+- _block_destroy_helper.90
+- _block_destroy_helper.94
+- _objc_msgSend$cleanBluetooth
+- _objc_msgSend$imageForDescriptor:
+- _objc_msgSend$initWithCGImage:
+- _objc_msgSend$peerSupportedSelectionsWithCompletionHandler:
+- _objc_msgSend$supportedSelectionsWithCompletionHandler:
+- _objectdestroy.136Tm
+- _objectdestroy.169Tm
+- _objectdestroy.16Tm
+- _objectdestroy.178Tm
+- _objectdestroy.24Tm
+- _objectdestroy.31Tm
+- _objectdestroy.5Tm
+- _symbolic SDySSShy_____GG 10Foundation4UUIDV
+- _symbolic SDy_____SDy_____ScCyyt______pGGG 12MigrationKit20ImportStateBroadcastV 10Foundation4UUIDV s5ErrorP
+- _symbolic SDy_____ScCyyt______pGG 10Foundation4UUIDV s5ErrorP
+- _symbolic SDy__________G 12MigrationKit20OSMigrationDataClassO AA20MigratorCapabilitiesV
+- _symbolic SDy__________G 12MigrationKit23OSMigrationResourceTypeO AA15MessageDownloadV
+- _symbolic Say_____G 12MigrationKit24OSMigrationAppIdentifierV
+- _symbolic Say_____G 12MigrationKit24OSMigrationUserSelectionO
+- _symbolic Say_____G 12MigrationKit27OSMigrationAppContentExportV
+- _symbolic ScCyShy_____GSg_____G s5UInt8V s5NeverO
+- _symbolic ScGyytG
+- _symbolic Shy_____G 12MigrationKit20OSMigrationDataClassO
+- _symbolic Shy_____GSg 12MigrationKit9SelectionO
+- _symbolic Shy_____GSg s5UInt8V
+- _symbolic Si_____Sg______pIegHyrzo_ 12MigrationKit18OSMigrationV1FrameV06OneOf_E0O s5ErrorP
+- _symbolic Si_____Sg______pIegHyrzo_ 12MigrationKit36OSMigrationTargetToSourceFlowControlV06OneOf_defgH0O s5ErrorP
+- _symbolic Si___________pIegHyrzo_ 10Foundation3URLV s5ErrorP
+- _symbolic Si___________pIegHyrzo_ 12MigrationKit13AppPropertiesV s5ErrorP
+- _symbolic _____ 12MigrationKit14NetworkManagerC
+- _symbolic _____ 12MigrationKit15MessageDownloadV
+- _symbolic _____ 12MigrationKit16FileContentDepotV
+- _symbolic _____ 12MigrationKit16OSMigrationAssetV13_StorageClass33_13D66C4EC1B1831280A918BD4F7D71F0LLC
+- _symbolic _____ 12MigrationKit18OSMigrationMessageV13_StorageClass33_F2D56D5E7DEA747D877788BB4B1FFC51LLC
+- _symbolic _____ 12MigrationKit24IncomingFileContentDepotV
+- _symbolic _____ 12MigrationKit24OSMigrationUserSelectionO
+- _symbolic _____ 12MigrationKit25OSMigrationAppContentListV
+- _symbolic _____ 12MigrationKit27OSMigrationAppContentExportV
+- _symbolic _____ 12MigrationKit28OSMigrationVoiceMemoMetadataV13_StorageClass33_EE5FE4B739864F33F2950D4D356B1FD4LLC
+- _symbolic _____ 12MigrationKit29OSMigrationAppContentTransferV
+- _symbolic _____ 12MigrationKit6ServerC15PreflightStatusO
+- _symbolic _____3key_ScCyyt______pG5valuet 10Foundation4UUIDV s5ErrorP
+- _symbolic _____3key_ScCyyt______pG5valuetSg 10Foundation4UUIDV s5ErrorP
+- _symbolic _____3key_ScTyyt_____G5valuet 10Foundation4UUIDV s5NeverO
+- _symbolic _____Sg 12MigrationKit23AppPropertiesControllerC
+- _symbolic _____Sg 12MigrationKit24AppDataclassesControllerC
+- _symbolic _____Sg 12MigrationKit24OSMigrationUserSelectionO
+- _symbolic _____Sg 12MigrationKit29OSMigrationAppContentTransferV
+- _symbolic _____Sg 12MigrationKit9SelectionO
+- _symbolic _____SgXw 12MigrationKit14NetworkManagerC
+- _symbolic _____SgXw 12MigrationKit18CopyableAtomicBoolC
+- _symbolic _____SgXwz_Xx 12MigrationKit14NetworkManagerC
+- _symbolic _____SgXwz_Xx 12MigrationKit18CopyableAtomicBoolC
+- _symbolic _____Sg_ABt 12MigrationKit29OSMigrationAppContentTransferV
+- _symbolic ______ScCyyt______pGt 10Foundation4UUIDV s5ErrorP
+- _symbolic ______ScTyyt_____Gt 10Foundation4UUIDV s5NeverO
+- _symbolic ______ScTyyt_____GtSg 10Foundation4UUIDV s5NeverO
+- _symbolic ______p6stream______Sg13contentLengtht 12MigrationKit16AsyncInputStreamP s6UInt64V
+- _symbolic ______p______11contentType_____Sg0A6Lengtht 12MigrationKit16AsyncInputStreamP AA19ResourceContentTypeV s6UInt64V
+- _symbolic _____ySDy_____ScTyyt_____GG_____G s13ManagedBufferCsRi__rlE 10Foundation4UUIDV s5NeverO So16os_unfair_lock_sV
+- _symbolic _____ySSShy_____GG s18_DictionaryStorageC 10Foundation4UUIDV
+- _symbolic _____y_____G 10Foundation17KeyPathComparatorV 12MigrationKit20OSMigrationDataClassO
+- _symbolic _____y_____G 2os21OSAllocatedUnfairLockV s6UInt64V
+- _symbolic _____y_____G s11_SetStorageC 10Foundation4UUIDV
+- _symbolic _____y_____SDy_____ScCyyt______pGGG s18_DictionaryStorageC 12MigrationKit20ImportStateBroadcastV 10Foundation4UUIDV s5ErrorP
+- _symbolic _____y_____ScCyyt______pGG s18_DictionaryStorageC 10Foundation4UUIDV s5ErrorP
+- _symbolic _____y_____ScTyyt_____GG 12MigrationKit20ConcurrentDictionaryC 10Foundation4UUIDV s5NeverO
+- _symbolic _____y_____ScTyyt_____GG s18_DictionaryStorageC 10Foundation4UUIDV s5NeverO
+- _symbolic _____y______G 10Foundation20PredicateExpressionsO5ValueV AA4DataV
+- _symbolic _____y__________G s13ManagedBufferCsRi__rlE s6UInt64V So16os_unfair_lock_sV
+- _symbolic _____y__________G s18_DictionaryStorageC 12MigrationKit23OSMigrationResourceTypeO AC15MessageDownloadV
+- _symbolic _____y__________GSg 12MigrationKit10AsyncCacheC AA9SelectionO AA25OSMigrationDataClassEntryV
+- _symbolic _____y___________pG s6ResultOsRi_zRi0_zrlE 12MigrationKit17MessageAttachmentV s5ErrorP
+- _symbolic _____y______y______y______G_____G_____y_AFGG 10Foundation20PredicateExpressionsO5EqualV AC7KeyPathV AC8VariableV 12MigrationKit35ForeignToNativeIdentityMappingEntry33_026ED77405C2205536EE1EA341CEFDBBLLC AA4DataV AC5ValueV
+- _symbolic y______p_SbtYaYb_____YccSg 12MigrationKit7NetworkP AA8APIActorC
+- _symbolic y______pcSg 12MigrationKit7NetworkP
+- _type_layout_string 12MigrationKit15MessageDownloadV
+CStrings:
++ "\n  Attempting ck-sync-initiate-sync -p backfill..."
++ "\n  Attempting ck-write-all-attachments..."
++ "\n  Attempting ck-write-dirty-messages..."
++ "\n  Checking sync status after trigger..."
++ "\n  Waiting 15s then checking attachment state..."
++ "\n  ── Retry "
++ "\nNothing to offload — no attachments on disk."
++ "\n[1/8] Pre-flight checks..."
++ "\n[2/8] Checking current attachment state..."
++ "\n[3/8] Marking all chats dirty for upload..."
++ "\n[4/8] Syncing chats & messages to CloudKit..."
++ "\n[5/8] Syncing attachments to CloudKit..."
++ "\n[6/8] Waiting for "
++ "\n[7/8] Purging synced attachments from disk..."
++ "\n[8/8] Restarting iMessage processes..."
++ "\n── 1. Account & Sync Status ──"
++ "\n── 2. Database State ──"
++ "\n── 3. Dirty Records ──"
++ "\n── 4. CloudKit Storage ──"
++ "\n── 5. Live Sync Test ──"
++ "     (no output)"
++ "    ck_sync_state="
++ "  Already CK-synced:  "
++ "  Attachment ck_sync_state after 20s:"
++ "  Attachment ck_sync_state breakdown:"
++ "  Attachment sync state after trigger:"
++ "  Attachment sync state:"
++ "  Attachments in DB:  "
++ "  Attachments total (DB):  "
++ "  CK-synced:               "
++ "  Chat ck_sync_state breakdown:"
++ "  CloudKit Sync Diagnostics"
++ "  Continuing anyway, but expect incomplete results."
++ "  Diagnostics complete — review output above"
++ "  Disk usage:         "
++ "  Disk usage:              "
++ "  Files on disk:      "
++ "  Files on disk:           "
++ "  Files purged:       "
++ "  Final sync state:"
++ "  Marking chats dirty..."
++ "  Message ck_sync_state breakdown:"
++ "  Not offloaded:      "
++ "  Not synced to CK:   "
++ "  Not synced:              "
++ "  Offload Complete"
++ "  On disk (DB):       "
++ "  On disk (DB):            "
++ "  Proceeding to purge the "
++ "  Sample attachment rows (limit "
++ "  Space freed:        "
++ "  Strategy: cancel stuck sync + re-trigger"
++ "  Strategy: restart imagent + full re-sync"
++ "  Sync incomplete after "
++ "  Sync stalled at "
++ "  WARNING: iCloud storage may be full — sync will likely fail."
++ "  Waiting for sync... "
++ "  iMessage Attachment Offload"
++ "  ── periodic diagnostic ──"
++ " (escalating) ──"
++ " (no CloudKit copy)"
++ " AND ck_sync_state="
++ " GROUP BY ck_sync_state"
++ " attachments synced to CloudKit."
++ " attachments to reach ck_sync_state="
++ " cloud-pending items still undelivered"
++ " to record error, may have already been delivered"
++ "%{public}s network already exists"
++ ") did not match requested count ("
++ ", destination directory not found"
++ ", source not found"
++ "/usr/local/bin/dvdo"
++ "/var/mobile/Library/SMS/sms.db"
++ "@\"<IMDaemonProtocol>\"16@0:8"
++ "APPROXIMATE_VALUE"
++ "Asset at ordinal %{public}llu failed: %{public}s"
++ "AttachmentDownloader returned nil for attachment"
++ "Base timeout for iCloud attachment downloads, in seconds. Actual timeout is max(base, fileSize / minBytesPerSecond)"
++ "Batch error (%{public}ldx): %{public}s"
++ "Batch fetch completed with "
++ "Cloud attachment download exhausted all retries: %s"
++ "Cloud attachment download failed"
++ "Cloud attachment download is still in progress for identifier "
++ "Cloud content already available, enqueuing as pending: %s"
++ "Cloud content became available: %s"
++ "Cloud content notification received for %s"
++ "Cloud content pending download"
++ "Cloud content wait timed out for %s, will attempt download anyway"
++ "Cloud download cancelled for attachment %s"
++ "Cloud download progress: remaining=%llu items (%llu bytes), downloaded=%llu items (%llu bytes), elapsed=%llus"
++ "Cloud-pending timeout reached with %ld entries remaining, transitioning to pending for retry"
++ "CloudFileContentDownloadProgress"
++ "Could not get power source info"
++ "Current Capacity"
++ "Current keybag lock state: %s"
++ "Deferring cloud download for attachment ("
++ "Delivered cached FCI to importer"
++ "Device lock assertion successfully acquired for migration"
++ "Downloaded count ("
++ "Downloaded file not found after successful download"
++ "Downloaded item "
++ "Enqueued cloud-pending FCI: %s"
++ "Enqueuing FCI download"
++ "FROM attachment WHERE transfer_state="
++ "Failed checking cache for FCI, enqueuing for download"
++ "Failed checking existence"
++ "Failed converting '"
++ "Failed delivering cached FCI to importer"
++ "Failed download attachment"
++ "Failed fetching DevPropertiesModel where"
++ "Failed to register for keybag state change notifications: %u"
++ "Failed to reset home screen layout"
++ "Failed to send cloud download failure notification to peer"
++ "Failure fetching file content"
++ "File Content Depot"
++ "File at ordinal %{public}llu failed: %{public}s"
++ "File content part "
++ "File inaccessible to source"
++ "GET /messages"
++ "GET /messages received bytes=%llu"
++ "GET /messages/attachments"
++ "GET /messages/conversations"
++ "GET /messages/conversations received bytes=%llu"
++ "GET /messages/participants"
++ "GET /messages/participants received bytes=%llu"
++ "GET /photos-and-videos completed. delivered=%llu, cached=%llu, errors=%ld"
++ "Hardware Constraints"
++ "How often to report iCloud attachment download progress, in seconds"
++ "IMDaemonMultiplexedConnectionManaging"
++ "Ingested (batch)"
++ "Interval between sync poll checks, in seconds"
++ "Keybag state changed: %s"
++ "LOW_BATTERY_DESC"
++ "LOW_BATTERY_TITLE"
++ "Locally supported selections: "
++ "Max number of sync retry attempts"
++ "Maximum concurrent file content batch fetches"
++ "Maximum number of concurrent iCloud attachment downloads"
++ "Maximum number of items to fetch in a single batch"
++ "Maximum number of retry attempts for a failed batch fetch"
++ "Maximum number of retry attempts for a failed iCloud attachment download"
++ "Maximum size in MB of a single batch fetch"
++ "Maximum total time to wait for sync to complete, in seconds"
++ "MigrationKit/APIClient+SIMDownloadAdditions.swift"
++ "MigrationKit/BatteryManager.swift"
++ "MigrationKit/ClientNetworkManager.swift"
++ "MigrationKit/DataExportContext.swift"
++ "MigrationKit/FileContentBatchFetch.swift"
++ "MigrationKit/FileContentBatchFetchScheduler.swift"
++ "MigrationKit/IncomingFileContentDepot.swift"
++ "MigrationKit/MessageCloudAttachmentDownloader.swift"
++ "MigrationKit/NetworkRegistry.swift"
++ "MigrationKit/OffloadCommand.swift"
++ "Minimum expected download speed for iCloud attachments in bytes/sec. Used to scale timeout for large files"
++ "Network not reachable: MobileAsset download will likely fail"
++ "Network reachable (expensive=%{bool}d): proceeding with MobileAsset download"
++ "Network to remove is not the existing %{public}s network, skipping removal"
++ "No cloud-pending entries to transition for identifier: %s"
++ "No entry found for ordinal "
++ "No internal battery found"
++ "Offload iMessage attachments to iCloud (sync to CloudKit, then purge from disk)"
++ "Override battery level percentage (0-100)"
++ "Peer supported selections: "
++ "Received cloud content update before depot initialized"
++ "Received cloudContentUpdate with no identifier"
++ "Received device info without data export context"
++ "Received disconnection response"
++ "Received download result for unrequested FCI: "
++ "Releasing device lock assertion"
++ "Retrying after connection error in "
++ "Retrying cloud download for %s after backoff"
++ "Run diagnostics only — don't offload, just print full sync state"
++ "SELECT COUNT(*) FROM attachment WHERE transfer_state="
++ "SELECT ROWID, guid, transfer_state, ck_sync_state, ck_record_id, sr_ck_sync_state, total_bytes, filename "
++ "SELECT ck_sync_state, COUNT(*) FROM "
++ "SELECT transfer_state, ck_sync_state, COUNT(*), SUM(total_bytes) FROM attachment GROUP BY transfer_state, ck_sync_state"
++ "SELECTION_SUMMARY"
++ "SELECTION_SUMMARY_WITH_CLOUD"
++ "Sending cloud FCI"
++ "Server silently failed to provide response to FCI request"
++ "Successfully reset home screen layout"
++ "T@\"<IMDaemonProtocol>\",R,N"
++ "Ti,N,V_keyBagStateNotificationToken"
++ "Time with no progress before declaring sync stalled, in seconds"
++ "Timeout in seconds to wait for cloud content before attempting download anyway"
++ "Transitioned %ld cloud-pending entries to pending after timeout"
++ "Transitioned %ld cloud-pending entries to pending for identifier: %s"
++ "Unexpected error while waiting for disconnection request delivery"
++ "Unreachable: ForeignFCI not found in identifier lookup"
++ "User excluded"
++ "Using battery level override: %ld%%"
++ "Waiting for cloud content"
++ "Warning: disconnection request may not be delivered to peer"
++ "Zero attachments synced — run with --diagnose for full state dump"
++ "_TtC12MigrationKit15NetworkRegistry"
++ "_TtC12MigrationKit16FileContentDepot"
++ "_TtC12MigrationKit17DataExportContext"
++ "_TtC12MigrationKit18ExponentialBackoff"
++ "_TtC12MigrationKit20ClientNetworkManager"
++ "_TtC12MigrationKit20ServerNetworkManager"
++ "_TtC12MigrationKit22USBCableViewController"
++ "_TtC12MigrationKit24IncomingFileContentDepot"
++ "_TtC12MigrationKit30FileContentBatchFetchScheduler"
++ "_TtC12MigrationKit32MessageCloudAttachmentDownloader"
++ "_TtCV12MigrationKit16OSMigrationAssetP33_E0887E598169825261A190FA76EA413413_StorageClass"
++ "_TtCV12MigrationKit18OSMigrationMessageP33_E81BC49CB30EDAC494D457742BD3F7B813_StorageClass"
++ "_TtCV12MigrationKit28OSMigrationVoiceMemoMetadataP33_892E34C6D3857802F0C91F92CBDCEEA613_StorageClass"
++ "_config"
++ "_dataControlRouterReceivedDeviceInfo(_:)"
++ "_fetch(part:partCount:context:)"
++ "_fileURL"
++ "_keyBagStateNotificationToken"
++ "_makeError(_:to:underlyingError:)"
++ "_rcsMessageID"
++ "_stagingBucket"
++ "abandoned_in_cloud_pending"
++ "abandoned_in_pending"
++ "abandoned_in_requested"
++ "acknowledgmentQueue"
++ "activeTasks"
++ "additional storage required"
++ "asCloudOnly(cloudFCI:)"
++ "assertion"
++ "attachment_count="
++ "backgroundTasks"
++ "batch fetch phase: "
++ "batteryLevelOverride"
++ "bookKeepingDuration"
++ "calling flow.firstViewController(). flow=%@"
++ "cancel called before run(); skipping client cancel"
++ "cancel called before run(); skipping server cancel"
++ "ck-account-check"
++ "ck-check-additional-storage-required"
++ "ck-create-attachment-zone"
++ "ck-fetch-ramp-state"
++ "ck-fetch-salt-from-cloudkit"
++ "ck-load-dirty-messages-with-limit"
++ "ck-mark-all-chats-dirty"
++ "ck-metric-attachments-to-purge"
++ "ck-print-cached-ramp-state"
++ "ck-print-sync-state"
++ "ck-purge-attachments-on-disk"
++ "ck-query-current-storage"
++ "ck-sync-all-attachments"
++ "ck-sync-all-messages"
++ "ck-sync-initiate-periodic-sync"
++ "ck-sync-initiate-sync"
++ "ck-update-attachment-filesizes"
++ "ck-write-all-attachments"
++ "ck-write-all-dirty-chats"
++ "ck-write-dirty-messages"
++ "cleanPersistence"
++ "client tearDownBluetooth"
++ "cloudAttachmentDownloadMaxConcurrent"
++ "cloudAttachmentDownloadMaxRetryAttempts"
++ "cloudAttachmentDownloadMinBytesPerSecond"
++ "cloudAttachmentDownloadProgressIntervalSeconds"
++ "cloudAttachmentDownloadTimeoutSeconds"
++ "cloudContentBecameAvailable(cloudContentUpdate:)"
++ "cloudContentObservers"
++ "cloudContentWaiters"
++ "cloudDownloadManager"
++ "cloudPendingTimedOut"
++ "com.apple.mobile.keybagd.lock_status"
++ "committedBytes"
++ "complete called."
++ "confirmSelection called without migration context"
++ "connectWithCompletion:"
++ "connected=true, expensive="
++ "contentIdentities(foreignContentIdentifiers:)"
++ "currentDelay"
++ "dataExportContext"
++ "deliverCachedContent(batch:)"
++ "deliveredViaFetchCount"
++ "deliveryDuration"
++ "depotCacheHitCount"
++ "deserialized conversation: %s"
++ "deserialized message: %s"
++ "deserialized participant: %s"
++ "determine reachability"
++ "didEstimateWithSelection:bytesOnDisk:itemsOnDisk:bytesInCloud:itemsInCloud:uiHints:"
++ "didReceiveSelectionOptionsWithSelfSupportedSelections:peerSupportedSelections:uiHints:"
++ "didReceiveTransferResultWithResult:"
++ "displayScale"
++ "download cloud attachment id="
++ "download wasDownloaded="
++ "download(fcis:context:)"
++ "download(foreignContentIdentifier:context:)"
++ "download(foreignContentIdentifiers:)"
++ "download(foreignContentIdentifiers:context:)"
++ "download(identifier:clientPool:context:)"
++ "downloadAndDeliver(batch:)"
++ "downloadAndDeliverContent(requests:)"
++ "downloadAttachment(attachment:cloudFCI:notifier:)"
++ "downloadDuration"
++ "downloadFailures"
++ "downloaded bytes="
++ "downloads"
++ "errorCollector"
++ "estimated. message_count=%llu, conversation_count=%llu, participants_count=%llu, attachment_on_disk_count=%llu, attachment_on_disk_size=%llu, attachment_in_cloud_count=%llu, attachment_in_cloud_size=%llu"
++ "estimated. selection=%hhu, items_on_disk=%llu bytes_on_disk=%llu, items_in_cloud=%llu, bytes_in_cloud=%llu"
++ "failedEntries"
++ "fetch metadata and batch download files "
++ "fetchFileContentFor(metadata:stream:contentType:ordinal:)"
++ "fetchPhase"
++ "fileContentAckRouter"
++ "fileContentBatchFetchCloudPendingTimeoutSeconds"
++ "fileContentBatchFetchMaxConcurrent"
++ "fileContentBatchFetchMaxItems"
++ "fileContentBatchFetchMaxRetryAttempts"
++ "fileContentBatchFetchMaxSizeMB"
++ "fileContentDepot"
++ "fileContentsRouter"
++ "fileURL()"
++ "fileURLOrError"
++ "fix up attributes"
++ "handle(request:)"
++ "import message id="
++ "import messages"
++ "importFile(to:properties:fileContent:context:)"
++ "inFlightDownloads"
++ "ingest conversation: "
++ "initWithCGImage:scale:orientation:"
++ "initWithFileDescriptor:closeOnDealloc:"
++ "initialDelay"
++ "isApproximate"
++ "isInICloud"
++ "keyBagStateNotificationToken"
++ "knownCloudIdentifiers"
++ "locked"
++ "logCurrentKeyBagState"
++ "maxDelay"
++ "maxSyncWaitSeconds"
++ "multiplexedConnectionWithLabel:capabilities:context:"
++ "multiplier"
++ "negotiatedFCI"
++ "networkLost(_:)"
++ "networkLost(_:isCurrent:)"
++ "notifier"
++ "offloadAttachments()"
++ "onEstimated"
++ "partFor(identifier:)"
++ "pendingQueue"
++ "permanentDownloadFailures"
++ "pollIntervalSeconds"
++ "populate data class entry cache"
++ "post a com.apple.imdpersistenceagent.notification.mergecompleted notification"
++ "prepareImageForDescriptor:"
++ "progressHandler"
++ "progressTask"
++ "received(cloudContentUpdate:)"
++ "registerForKeyBagStateChanges"
++ "registry"
++ "remoteProxy"
++ "resetHomeScreenLayoutWithCompletion:"
++ "resetHomescreenLayout(_:)"
++ "resetWithCompletion:"
++ "resolvedCloudIdentifiers"
++ "s, giving up early"
++ "scheduler"
++ "selfSupportedSelections"
++ "selfSupportedSelections() is not implemented."
++ "server sent no content"
++ "setKeyBagStateNotificationToken:"
++ "sharedController"
++ "shouldFetch(metadata:context:)"
++ "sim is set, fetching view controller from TSSIMSetupFlow."
++ "skipping reaction to multi-attachment message. message_id=%s, reacting_to_message_id=%s"
++ "spaceCheckTask"
++ "stallTimeoutSeconds"
++ "succeeded on attempt "
++ "supportsCloudDownload"
++ "synchronousRemoteProxy"
++ "tearDownBluetooth()"
++ "tearDownBluetooth() is not implemented."
++ "timed out, assuming disconnected"
++ "traitCollection"
++ "uiHints"
++ "unlocked"
++ "url(for:)"
++ "v12@?0i8"
++ "v24@0:8@?<v@?>16"
++ "v40@0:8@\"NSArray\"16@\"NSArray\"24@\"NSDictionary\"32"
++ "v60@0:8C16Q20Q28Q36Q44@\"NSArray\"52"
++ "v60@0:8C16Q20Q28Q36Q44@52"
++ "waitForCompletion(batchFetcher:)"
++ "waitForSetup"
+- " should have a deletion handler"
+- " state change before attestation completed"
+- "%s %s: %s, peer importer: %s"
+- "%{public}s network is already being managed"
+- "%{public}s succeeded on attempt %{public}ld with %s"
+- "%{public}s was cancelled"
+- "A disconnection request is already in flight; ignoring new request with reason %s"
+- "AppContentExport"
+- "AppContentTransfer"
+- "Downloaded item"
+- "Failed converting '%s' to date"
+- "Failed downloading asset"
+- "Failed exporting attachment"
+- "Failed fetching (ForeignToNativeIdentityMappingEntry in _026ED77405C2205536EE1EA341CEFDBB)"
+- "Failed fetching DevPropertiesModel"
+- "Failed to download file"
+- "Found existing"
+- "GET /messages did receive data. bytes=%llu"
+- "GET /messages did receive messages."
+- "GET /messages/attachments did read a file. bytes="
+- "GET /messages/attachments did receive message attachments."
+- "GET /messages/conversations did receive data. bytes=%llu"
+- "GET /messages/conversations did receive message conversations."
+- "GET /messages/participants did receive data. bytes=%llu"
+- "GET /messages/participants did receive message participants."
+- "GET /photos-and-videos did read multipart. bytes=%ld"
+- "Locally supported selections: %{public}s"
+- "MigrationKit/NetworkManager.swift"
+- "Missing peer capabilities for "
+- "Populated data class entry cache in %{public}s"
+- "Populating data class entry cache"
+- "Preflight failed, additional bytes required: %llu"
+- "Preflight result: status=%s"
+- "Received remote failure for file content part "
+- "Requesting"
+- "Timed out while waiting for disconnection response"
+- "Unexpected error while waiting for disconnection response"
+- "_TtC12MigrationKit14NetworkManager"
+- "_TtCV12MigrationKit16OSMigrationAssetP33_13D66C4EC1B1831280A918BD4F7D71F013_StorageClass"
+- "_TtCV12MigrationKit18OSMigrationMessageP33_F2D56D5E7DEA747D877788BB4B1FFC5113_StorageClass"
+- "_TtCV12MigrationKit28OSMigrationVoiceMemoMetadataP33_EE5FE4B739864F33F2950D4D356B1FD413_StorageClass"
+- "_compatible"
+- "_disclosureHandler"
+- "_estimation"
+- "_estimationOverride"
+- "_fetch(part:partCount:context:into:)"
+- "_locked"
+- "_selection"
+- "application/vnd.os-migration.app-content-array+protobuf"
+- "chunked transfer encoding is not supported"
+- "cleanBluetooth"
+- "cleanBluetooth()"
+- "cleanBluetooth() is not implemented."
+- "client cleanBluetooth"
+- "clone(to:)"
+- "contentIdentity(foreignContentIdentifier:)"
+- "converted a message. message=%s"
+- "could not determine reachability due to timeout and will treat the current state as disconnected."
+- "deserialized a conversation. %s"
+- "deserialized a message. %s"
+- "deserialized a participant. %s"
+- "determined reachability. connected=%{bool}d"
+- "determined reachability. connected=%{bool}d, expensive=%{bool}d"
+- "didEstimateWithSelection:bytesOnDisk:bytesInCloud:items:"
+- "didTransferWithResult:"
+- "disconnectContinuation"
+- "download(foreignContentIdentifier:context:into:)"
+- "download(foreignContentIdentifiers:context:into:)"
+- "download(request:to:client:context:)"
+- "downloadPhotos(context:)"
+- "downloadsByResource"
+- "estimated. message_count=%llu, conversation_count=%llu, participants_count=%llu, attachment_count=%llu, attachment_on_disk_size=%llu, attachment_in_cloud_size=%llu"
+- "estimated. selection=%hhu, bytes_on_disk=%llu, bytes_in_cloud=%llu items=%llu"
+- "exportersByFirstPathComponent(selections:appPropertiesController:appDataclassesController:peerImportCapabilities:peerDeviceInfo:)"
+- "handle(request:response:)"
+- "imageForDescriptor:"
+- "importFile(to:properties:stream:context:)"
+- "importItem(properties:stream:containerURL:context:)"
+- "imported a message. id=%s, attachment_count=%ld"
+- "imported messages."
+- "init(attachment:)"
+- "initWithCGImage:"
+- "move(to:shouldDeleteSource:)"
+- "networkLost(_:_:)"
+- "networkLostHandler"
+- "partFor(digest:)"
+- "peerImportCapabilities"
+- "peerSupportedSelections()"
+- "peerSupportedSelectionsWithCompletionHandler:"
+- "posted a notification. notification=%s"
+- "progressUpdatedWithPercentComplete:estimatedSecondsRemaining:"
+- "return peer supported selections"
+- "return supported selections"
+- "server shut down while sim was set — dispatching disconnected error"
+- "supportedSelections()"
+- "supportedSelections() is not implemented."
+- "supportedSelectionsWithCompletionHandler:"
+- "v16@?0@\"NSSet\"8"
+- "v24@0:8@?<v@?@\"NSSet\">16"
+- "v44@0:8C16Q20Q28Q36"
+- "will import a conversation. id=%s"
+- "will import a message. id=%s, attachment_count=%ld"
+- "will import messages."
+- "will post a notification. notification=%s"
+- "{Error converting "
+
+```

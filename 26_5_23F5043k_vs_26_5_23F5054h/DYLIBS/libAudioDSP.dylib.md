@@ -1,0 +1,493 @@
+## libAudioDSP.dylib
+
+> `/System/Library/Frameworks/AudioToolbox.framework/libAudioDSP.dylib`
+
+```diff
+
+-819.601.0.0.0
+-  __TEXT.__text: 0x4ea538
++819.603.0.0.0
++  __TEXT.__text: 0x4ea6b8
+   __TEXT.__auth_stubs: 0x3f60
+   __TEXT.__objc_methlist: 0x37c
+-  __TEXT.__const: 0x99e00
++  __TEXT.__const: 0x99e30
+   __TEXT.__gcc_except_tab: 0x34498
+-  __TEXT.__cstring: 0x32676
++  __TEXT.__cstring: 0x326be
+   __TEXT.__oslogstring: 0x2af64
+   __TEXT.__dlopen_cstrs: 0x9e
+   __TEXT.__unwind_info: 0xefb8
+
+   __TEXT.__objc_methtype: 0x789
+   __TEXT.__objc_stubs: 0x10e0
+   __DATA_CONST.__got: 0x3e8
+-  __DATA_CONST.__const: 0xd9e0
++  __DATA_CONST.__const: 0xd9f0
+   __DATA_CONST.__objc_classlist: 0x20
+   __DATA_CONST.__objc_protolist: 0x20
+   __DATA_CONST.__objc_imageinfo: 0x8
+
+   __DATA_CONST.__objc_arraydata: 0x78
+   __AUTH_CONST.__auth_got: 0x1fc0
+   __AUTH_CONST.__const: 0x22170
+-  __AUTH_CONST.__cfstring: 0x20e40
++  __AUTH_CONST.__cfstring: 0x20e80
+   __AUTH_CONST.__objc_const: 0x800
+   __AUTH_CONST.__objc_intobj: 0x228
+   __AUTH_CONST.__objc_dictobj: 0x50
+
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libxml2.2.dylib
+-  UUID: CD889D3E-59EA-332A-883F-2C9A7E5102C5
++  UUID: BAE511A0-E2F6-389F-8F85-378F7595482A
+   Functions: 12562
+   Symbols:   32829
+-  CStrings:  15491
++  CStrings:  15495
+ 
+Symbols:
++ __PromotedConst.37634
++ __ZGVZN12_GLOBAL__N_115IsInternalBuildEvE16sIsInternalBuild.13210
++ __ZGVZN2AU8DSPGraphL6GetLogEvE4sLog.26346
++ __ZL14CopyBufferListRK15AudioBufferListRS_.10726
++ __ZL14CopyBufferListRK15AudioBufferListRS_.15830
++ __ZL14CopyBufferListRK15AudioBufferListRS_.18348
++ __ZL14CopyBufferListRK15AudioBufferListRS_.23906
++ __ZL14CopyBufferListRK15AudioBufferListRS_.26566
++ __ZL14CopyBufferListRK15AudioBufferListRS_.30389
++ __ZL14CopyBufferListRK15AudioBufferListRS_.31951
++ __ZL14CopyBufferListRK15AudioBufferListRS_.8454
++ __ZL14CopyBufferListRK15AudioBufferListRS_.9806
++ __ZL14CopyBufferListRK15AudioBufferListRS_j.33825
++ __ZL14kParameterList.13931
++ __ZL14kParameterList.18514
++ __ZL14kParameterList.21883
++ __ZL14kParameterList.22666
++ __ZL14kParameterList.23135
++ __ZL14kParameterList.27438
++ __ZL14kParameterList.28422
++ __ZL14kParameterList.33197
++ __ZL16kFuMa2ACNMapping.29109
++ __ZL20_simd_slerp_internal10simd_quatfS_f.26476
++ __ZL24audit_stringCoreAudioKit.13379
++ __ZL30kAUAcousticPasscodeMax_NumBits.15104
++ __ZL30kAUAcousticPasscodeMin_NumBits.15102
++ __ZL43kAUAcousticPasscodeMax_NumFreqsPerCodeToUse.15103
++ __ZL4kEPS.12673
++ __ZL8kPresets.16004
++ __ZN11ecMIMO_base7ec_initEbjjjjjjjfffffjjbfjjjffffffb
++ __ZN11ecMIMO_iQRD7ec_initEbjjjjjjjfffffjjbfjjjffffffb
++ __ZN12_GLOBAL__N_115IsInternalBuildEv.13206
++ __ZN12_GLOBAL__N_117loadDictionaryRefENSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEE.13334
++ __ZN12_GLOBAL__N_124convertExceptionToStringERKN8DSPGraph9ExceptionE.13224
++ __ZN12_GLOBAL__N_124convertExceptionToStringERKNSt3__112system_errorE.13227
++ __ZN12_GLOBAL__N_124convertExceptionToStringERKSt9exception.13229
++ __ZN13MicSenseUtilsL5kOnefE.25129
++ __ZN13MicSenseUtilsL5kepsfE.25123
++ __ZN13MicSenseUtilsL5kepsfE.33869
++ __ZN13MicSenseUtilsL6kZerofE.21609
++ __ZN13MicSenseUtilsL6kZerofE.25092
++ __ZN13MicSenseUtilsL6kZerofE.33858
++ __ZN2IRL19kDirectivityPresetsE.9390
++ __ZN6DspLib6BiquadL14kBypassSectionE.30464
++ __ZN6DspLibL17kLegacyConvertersE.21292
++ __ZN6DspLibL26kBubbleParameterConvertersE.24600
++ __ZN6DspLibL26kBubbleParameterConvertersE.29763
++ __ZN6DspLibL26kBubbleParameterConvertersE.30960
++ __ZN6DspLibL26kBubbleParameterConvertersE.31081
++ __ZN6DspLibL26kBubbleParameterConvertersE.31659
++ __ZN7PPUtilsL31kSupportedRealToComplexDFTSizesE.19754
++ __ZZL17AUDenoiseLogScopevE4once.27558
++ __ZZL17AUDenoiseLogScopevE4once.29908
++ __ZZL17AUDenoiseLogScopevE5scope.27560
++ __ZZL17AUDenoiseLogScopevE5scope.29910
++ __ZZL18AUBeamItFDLogScopevE4once.34003
++ __ZZL18AUBeamItFDLogScopevE5scope.34005
++ __ZZL18AUBeamItTDLogScopevE4once.19642
++ __ZZL18AUBeamItTDLogScopevE5scope.19644
++ __ZZL22AUNeuralNetVADLogScopevE4once.18124
++ __ZZL22AUNeuralNetVADLogScopevE5scope.18126
++ __ZZL23CoreAudioKitLibraryCorePPcE16frameworkLibrary.0.13375
++ __ZZL45getCAUI_createCustomViewForAudioUnitSymbolLocvE3ptr.0.13356
++ __ZZN12_GLOBAL__N_115IsInternalBuildEvE16sIsInternalBuild.13211
++ __ZZN12_GLOBAL__N_119registerInternalAUsEvE11s_predicate.13418
++ __ZZN2AU8DSPGraphL6GetLogEvE4sLog.26349
++ ____Z15getAUHOAZoomLogv_block_invoke.31375
++ ____Z19getMatrixUtilityLogv_block_invoke.16278
++ ____Z19getMatrixUtilityLogv_block_invoke.34235
++ ____Z22getAUSoundIsolationLogv_block_invoke.13183
++ ____Z22getAUSoundIsolationLogv_block_invoke.33395
++ ____Z22getAUSoundIsolationLogv_block_invoke.9259
++ ____Z28AudioStatisticsLibraryLoaderv_block_invoke.11615
++ ____Z28AudioStatisticsLibraryLoaderv_block_invoke.13382
++ ____Z28AudioStatisticsLibraryLoaderv_block_invoke.20560
++ ____Z28AudioStatisticsLibraryLoaderv_block_invoke.21119
++ ____ZL17AUDenoiseLogScopev_block_invoke.27567
++ ____ZL17AUDenoiseLogScopev_block_invoke.29918
++ ____ZL18AUBeamItFDLogScopev_block_invoke.34012
++ ____ZL18AUBeamItTDLogScopev_block_invoke.19651
++ ____ZL22AUNeuralNetVADLogScopev_block_invoke.18133
++ ____ZL23CoreAudioKitLibraryCorePPc_block_invoke.13376
++ ____ZL45getCAUI_createCustomViewForAudioUnitSymbolLocv_block_invoke.13357
++ ____ZN12_GLOBAL__N_119registerInternalAUsEv_block_invoke.13438
++ ____ZN14AUTemplateBaseI14AUCPMSVolumeV1NSt3__15tupleIJN4cpms8VolumeV110Parameters18TC_smoother_attackENS5_19TC_smoother_releaseENS5_11VolumeLevelENS5_10OutputGainEEEENS2_IJN9AUGeneric10Properties6BypassENS4_10Properties9LUTSystemEEEENS2_IJNSE_11PowerBudgetEEEEE11GetLogScopeEv_block_invoke.27890
++ ___block_descriptor_tmp.10256
++ ___block_descriptor_tmp.10347
++ ___block_descriptor_tmp.10505
++ ___block_descriptor_tmp.10641
++ ___block_descriptor_tmp.11613
++ ___block_descriptor_tmp.11933
++ ___block_descriptor_tmp.12187
++ ___block_descriptor_tmp.12309
++ ___block_descriptor_tmp.12480
++ ___block_descriptor_tmp.12649
++ ___block_descriptor_tmp.12739
++ ___block_descriptor_tmp.13099
++ ___block_descriptor_tmp.13703
++ ___block_descriptor_tmp.14561
++ ___block_descriptor_tmp.15837
++ ___block_descriptor_tmp.16276
++ ___block_descriptor_tmp.18131
++ ___block_descriptor_tmp.19634
++ ___block_descriptor_tmp.19649
++ ___block_descriptor_tmp.20072
++ ___block_descriptor_tmp.20540
++ ___block_descriptor_tmp.21118
++ ___block_descriptor_tmp.21456
++ ___block_descriptor_tmp.23016
++ ___block_descriptor_tmp.23922
++ ___block_descriptor_tmp.25034
++ ___block_descriptor_tmp.25138
++ ___block_descriptor_tmp.26529
++ ___block_descriptor_tmp.27565
++ ___block_descriptor_tmp.27797
++ ___block_descriptor_tmp.27888
++ ___block_descriptor_tmp.28092
++ ___block_descriptor_tmp.29099
++ ___block_descriptor_tmp.29916
++ ___block_descriptor_tmp.30331
++ ___block_descriptor_tmp.30574
++ ___block_descriptor_tmp.30816
++ ___block_descriptor_tmp.31373
++ ___block_descriptor_tmp.31611
++ ___block_descriptor_tmp.31793
++ ___block_descriptor_tmp.31955
++ ___block_descriptor_tmp.32162
++ ___block_descriptor_tmp.32365
++ ___block_descriptor_tmp.33393
++ ___block_descriptor_tmp.34010
++ ___block_descriptor_tmp.34233
++ ___block_descriptor_tmp.34325
++ ___block_descriptor_tmp.35470
++ ___block_descriptor_tmp.35537
++ ___block_descriptor_tmp.8039
++ ___block_descriptor_tmp.8672
++ ___block_descriptor_tmp.9105
++ ___block_descriptor_tmp.9308
++ ___block_descriptor_tmp.9321
++ ___block_descriptor_tmp.9567
++ ___block_descriptor_tmp.9696
++ ___block_literal_global.10209
++ ___block_literal_global.10336
++ ___block_literal_global.10500
++ ___block_literal_global.10637
++ ___block_literal_global.11607
++ ___block_literal_global.11929
++ ___block_literal_global.12182
++ ___block_literal_global.12297
++ ___block_literal_global.12476
++ ___block_literal_global.12636
++ ___block_literal_global.12735
++ ___block_literal_global.13088
++ ___block_literal_global.13446
++ ___block_literal_global.13696
++ ___block_literal_global.14529
++ ___block_literal_global.15826
++ ___block_literal_global.16027
++ ___block_literal_global.16271
++ ___block_literal_global.16941
++ ___block_literal_global.18125
++ ___block_literal_global.18210
++ ___block_literal_global.19020
++ ___block_literal_global.19632
++ ___block_literal_global.19643
++ ___block_literal_global.20070
++ ___block_literal_global.20515
++ ___block_literal_global.21115
++ ___block_literal_global.21454
++ ___block_literal_global.23012
++ ___block_literal_global.23907
++ ___block_literal_global.24295
++ ___block_literal_global.24969
++ ___block_literal_global.25078
++ ___block_literal_global.25136
++ ___block_literal_global.26525
++ ___block_literal_global.27429
++ ___block_literal_global.27559
++ ___block_literal_global.27795
++ ___block_literal_global.27882
++ ___block_literal_global.28084
++ ___block_literal_global.29090
++ ___block_literal_global.29909
++ ___block_literal_global.30327
++ ___block_literal_global.30572
++ ___block_literal_global.30814
++ ___block_literal_global.30942
++ ___block_literal_global.31364
++ ___block_literal_global.31608
++ ___block_literal_global.31772
++ ___block_literal_global.31947
++ ___block_literal_global.32156
++ ___block_literal_global.32361
++ ___block_literal_global.33384
++ ___block_literal_global.34004
++ ___block_literal_global.34229
++ ___block_literal_global.34321
++ ___block_literal_global.35463
++ ___block_literal_global.56.13419
++ ___block_literal_global.8028
++ ___block_literal_global.8670
++ ___block_literal_global.9102
++ ___block_literal_global.9153
++ ___block_literal_global.9306
++ ___block_literal_global.9319
++ ___block_literal_global.9538
++ ___block_literal_global.9692
+- __PromotedConst.37628
+- __ZGVZN12_GLOBAL__N_115IsInternalBuildEvE16sIsInternalBuild.13204
+- __ZGVZN2AU8DSPGraphL6GetLogEvE4sLog.26340
+- __ZL14CopyBufferListRK15AudioBufferListRS_.10720
+- __ZL14CopyBufferListRK15AudioBufferListRS_.15824
+- __ZL14CopyBufferListRK15AudioBufferListRS_.18342
+- __ZL14CopyBufferListRK15AudioBufferListRS_.23900
+- __ZL14CopyBufferListRK15AudioBufferListRS_.26560
+- __ZL14CopyBufferListRK15AudioBufferListRS_.30383
+- __ZL14CopyBufferListRK15AudioBufferListRS_.31945
+- __ZL14CopyBufferListRK15AudioBufferListRS_.8448
+- __ZL14CopyBufferListRK15AudioBufferListRS_.9800
+- __ZL14CopyBufferListRK15AudioBufferListRS_j.33819
+- __ZL14kParameterList.13925
+- __ZL14kParameterList.18508
+- __ZL14kParameterList.21877
+- __ZL14kParameterList.22660
+- __ZL14kParameterList.23129
+- __ZL14kParameterList.27432
+- __ZL14kParameterList.28416
+- __ZL14kParameterList.33191
+- __ZL16kFuMa2ACNMapping.29103
+- __ZL20_simd_slerp_internal10simd_quatfS_f.26470
+- __ZL24audit_stringCoreAudioKit.13373
+- __ZL30kAUAcousticPasscodeMax_NumBits.15098
+- __ZL30kAUAcousticPasscodeMin_NumBits.15096
+- __ZL43kAUAcousticPasscodeMax_NumFreqsPerCodeToUse.15097
+- __ZL4kEPS.12667
+- __ZL8kPresets.15998
+- __ZN11ecMIMO_base7ec_initEbjjjjjjjfffffjjbfjjjfffff
+- __ZN11ecMIMO_iQRD7ec_initEbjjjjjjjfffffjjbfjjjfffff
+- __ZN12_GLOBAL__N_115IsInternalBuildEv.13200
+- __ZN12_GLOBAL__N_117loadDictionaryRefENSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEE.13328
+- __ZN12_GLOBAL__N_124convertExceptionToStringERKN8DSPGraph9ExceptionE.13218
+- __ZN12_GLOBAL__N_124convertExceptionToStringERKNSt3__112system_errorE.13221
+- __ZN12_GLOBAL__N_124convertExceptionToStringERKSt9exception.13223
+- __ZN13MicSenseUtilsL5kOnefE.25123
+- __ZN13MicSenseUtilsL5kepsfE.25117
+- __ZN13MicSenseUtilsL5kepsfE.33863
+- __ZN13MicSenseUtilsL6kZerofE.21603
+- __ZN13MicSenseUtilsL6kZerofE.25086
+- __ZN13MicSenseUtilsL6kZerofE.33852
+- __ZN2IRL19kDirectivityPresetsE.9384
+- __ZN6DspLib6BiquadL14kBypassSectionE.30458
+- __ZN6DspLibL17kLegacyConvertersE.21286
+- __ZN6DspLibL26kBubbleParameterConvertersE.24594
+- __ZN6DspLibL26kBubbleParameterConvertersE.29757
+- __ZN6DspLibL26kBubbleParameterConvertersE.30954
+- __ZN6DspLibL26kBubbleParameterConvertersE.31075
+- __ZN6DspLibL26kBubbleParameterConvertersE.31653
+- __ZN7PPUtilsL31kSupportedRealToComplexDFTSizesE.19748
+- __ZZL17AUDenoiseLogScopevE4once.27552
+- __ZZL17AUDenoiseLogScopevE4once.29902
+- __ZZL17AUDenoiseLogScopevE5scope.27554
+- __ZZL17AUDenoiseLogScopevE5scope.29904
+- __ZZL18AUBeamItFDLogScopevE4once.33997
+- __ZZL18AUBeamItFDLogScopevE5scope.33999
+- __ZZL18AUBeamItTDLogScopevE4once.19636
+- __ZZL18AUBeamItTDLogScopevE5scope.19638
+- __ZZL22AUNeuralNetVADLogScopevE4once.18118
+- __ZZL22AUNeuralNetVADLogScopevE5scope.18120
+- __ZZL23CoreAudioKitLibraryCorePPcE16frameworkLibrary.0.13369
+- __ZZL45getCAUI_createCustomViewForAudioUnitSymbolLocvE3ptr.0.13350
+- __ZZN12_GLOBAL__N_115IsInternalBuildEvE16sIsInternalBuild.13205
+- __ZZN12_GLOBAL__N_119registerInternalAUsEvE11s_predicate.13412
+- __ZZN2AU8DSPGraphL6GetLogEvE4sLog.26343
+- ____Z15getAUHOAZoomLogv_block_invoke.31369
+- ____Z19getMatrixUtilityLogv_block_invoke.16272
+- ____Z19getMatrixUtilityLogv_block_invoke.34229
+- ____Z22getAUSoundIsolationLogv_block_invoke.13177
+- ____Z22getAUSoundIsolationLogv_block_invoke.33389
+- ____Z22getAUSoundIsolationLogv_block_invoke.9253
+- ____Z28AudioStatisticsLibraryLoaderv_block_invoke.11609
+- ____Z28AudioStatisticsLibraryLoaderv_block_invoke.13376
+- ____Z28AudioStatisticsLibraryLoaderv_block_invoke.20554
+- ____Z28AudioStatisticsLibraryLoaderv_block_invoke.21113
+- ____ZL17AUDenoiseLogScopev_block_invoke.27561
+- ____ZL17AUDenoiseLogScopev_block_invoke.29912
+- ____ZL18AUBeamItFDLogScopev_block_invoke.34006
+- ____ZL18AUBeamItTDLogScopev_block_invoke.19645
+- ____ZL22AUNeuralNetVADLogScopev_block_invoke.18127
+- ____ZL23CoreAudioKitLibraryCorePPc_block_invoke.13370
+- ____ZL45getCAUI_createCustomViewForAudioUnitSymbolLocv_block_invoke.13351
+- ____ZN12_GLOBAL__N_119registerInternalAUsEv_block_invoke.13432
+- ____ZN14AUTemplateBaseI14AUCPMSVolumeV1NSt3__15tupleIJN4cpms8VolumeV110Parameters18TC_smoother_attackENS5_19TC_smoother_releaseENS5_11VolumeLevelENS5_10OutputGainEEEENS2_IJN9AUGeneric10Properties6BypassENS4_10Properties9LUTSystemEEEENS2_IJNSE_11PowerBudgetEEEEE11GetLogScopeEv_block_invoke.27884
+- ___block_descriptor_tmp.10250
+- ___block_descriptor_tmp.10341
+- ___block_descriptor_tmp.10499
+- ___block_descriptor_tmp.10635
+- ___block_descriptor_tmp.11607
+- ___block_descriptor_tmp.11927
+- ___block_descriptor_tmp.12181
+- ___block_descriptor_tmp.12303
+- ___block_descriptor_tmp.12474
+- ___block_descriptor_tmp.12643
+- ___block_descriptor_tmp.12733
+- ___block_descriptor_tmp.13093
+- ___block_descriptor_tmp.13697
+- ___block_descriptor_tmp.14555
+- ___block_descriptor_tmp.15831
+- ___block_descriptor_tmp.16270
+- ___block_descriptor_tmp.18125
+- ___block_descriptor_tmp.19628
+- ___block_descriptor_tmp.19643
+- ___block_descriptor_tmp.20066
+- ___block_descriptor_tmp.20534
+- ___block_descriptor_tmp.21112
+- ___block_descriptor_tmp.21450
+- ___block_descriptor_tmp.23010
+- ___block_descriptor_tmp.23916
+- ___block_descriptor_tmp.25028
+- ___block_descriptor_tmp.25132
+- ___block_descriptor_tmp.26523
+- ___block_descriptor_tmp.27559
+- ___block_descriptor_tmp.27791
+- ___block_descriptor_tmp.27882
+- ___block_descriptor_tmp.28086
+- ___block_descriptor_tmp.29093
+- ___block_descriptor_tmp.29910
+- ___block_descriptor_tmp.30325
+- ___block_descriptor_tmp.30568
+- ___block_descriptor_tmp.30810
+- ___block_descriptor_tmp.31367
+- ___block_descriptor_tmp.31605
+- ___block_descriptor_tmp.31787
+- ___block_descriptor_tmp.31949
+- ___block_descriptor_tmp.32156
+- ___block_descriptor_tmp.32359
+- ___block_descriptor_tmp.33387
+- ___block_descriptor_tmp.34004
+- ___block_descriptor_tmp.34227
+- ___block_descriptor_tmp.34319
+- ___block_descriptor_tmp.35464
+- ___block_descriptor_tmp.35531
+- ___block_descriptor_tmp.8033
+- ___block_descriptor_tmp.8666
+- ___block_descriptor_tmp.9099
+- ___block_descriptor_tmp.9302
+- ___block_descriptor_tmp.9315
+- ___block_descriptor_tmp.9561
+- ___block_descriptor_tmp.9690
+- ___block_literal_global.10203
+- ___block_literal_global.10330
+- ___block_literal_global.10494
+- ___block_literal_global.10631
+- ___block_literal_global.11601
+- ___block_literal_global.11923
+- ___block_literal_global.12176
+- ___block_literal_global.12291
+- ___block_literal_global.12470
+- ___block_literal_global.12630
+- ___block_literal_global.12729
+- ___block_literal_global.13082
+- ___block_literal_global.13440
+- ___block_literal_global.13690
+- ___block_literal_global.14523
+- ___block_literal_global.15820
+- ___block_literal_global.16021
+- ___block_literal_global.16265
+- ___block_literal_global.16935
+- ___block_literal_global.18119
+- ___block_literal_global.18204
+- ___block_literal_global.19014
+- ___block_literal_global.19626
+- ___block_literal_global.19637
+- ___block_literal_global.20064
+- ___block_literal_global.20509
+- ___block_literal_global.21109
+- ___block_literal_global.21448
+- ___block_literal_global.23006
+- ___block_literal_global.23901
+- ___block_literal_global.24289
+- ___block_literal_global.24963
+- ___block_literal_global.25072
+- ___block_literal_global.25130
+- ___block_literal_global.26519
+- ___block_literal_global.27423
+- ___block_literal_global.27553
+- ___block_literal_global.27789
+- ___block_literal_global.27876
+- ___block_literal_global.28078
+- ___block_literal_global.29084
+- ___block_literal_global.29903
+- ___block_literal_global.30321
+- ___block_literal_global.30566
+- ___block_literal_global.30808
+- ___block_literal_global.30936
+- ___block_literal_global.31358
+- ___block_literal_global.31602
+- ___block_literal_global.31766
+- ___block_literal_global.31941
+- ___block_literal_global.32150
+- ___block_literal_global.32355
+- ___block_literal_global.33378
+- ___block_literal_global.33998
+- ___block_literal_global.34223
+- ___block_literal_global.34315
+- ___block_literal_global.35457
+- ___block_literal_global.56.13413
+- ___block_literal_global.8022
+- ___block_literal_global.8664
+- ___block_literal_global.9096
+- ___block_literal_global.9147
+- ___block_literal_global.9300
+- ___block_literal_global.9313
+- ___block_literal_global.9532
+- ___block_literal_global.9686
+Functions:
+~ __ZN5ausdk9APFactoryINS_27AUBaseProcessMultipleLookupE8AUECMIMOE9ConstructEPvP28OpaqueAudioComponentInstance : 2144 -> 2220
+~ __ZN8AUECMIMO26ProcessMultipleBufferListsERjjjPPK15AudioBufferListjPPS1_ : 3036 -> 3040
+~ __ZN8AUECMIMO10InitializeEv : 2688 -> 2756
+~ __ZN8AUECMIMO12DoCoreECInitEv : 1164 -> 1200
+~ __ZN11ecMIMO_iQRD7ec_procEPK15AudioBufferListS2_S2_PS0_S3_S3_b : 8824 -> 8928
+~ __ZN11ecMIMO_iQRD7ec_initEbjjjjjjjfffffjjbfjjjfffff -> __ZN11ecMIMO_iQRD7ec_initEbjjjjjjjfffffjjbfjjjffffffb : 768 -> 800
+~ __ZN11ecMIMO_iQRD14ec_state_resetEv : 1152 -> 1172
+~ __ZN11ecMIMO_iQRDD2Ev : 716 -> 732
+~ __ZN4AUSM18DynamicSpatializer16updateParametersEb : 940 -> 968
+CStrings:
++ "/AppleInternal/Library/BuildRoots/4~CMeQugD5slGAURwujRb7nEDEEgP3XvCTHsCLc3I/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.5.Internal.sdk/System/Library/PrivateFrameworks/AudioToolboxCore.framework/PrivateHeaders/DSPGraph_Box.h"
++ "/AppleInternal/Library/BuildRoots/4~CMeQugD5slGAURwujRb7nEDEEgP3XvCTHsCLc3I/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.5.Internal.sdk/usr/local/include/boost/uuid/detail/random_provider_posix.ipp"
++ "15:13:25"
++ "15:13:32"
++ "15:13:38"
++ "15:13:56"
++ "Activate HiZ Protection (0 to de-activate, 1 to activate)"
++ "Apr  2 2026"
++ "HiZ threshold"
+- "/AppleInternal/Library/BuildRoots/4~CLeNugBNBzrTq__kmEPYaC2l1A9Lg7UohswO968/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.5.Internal.sdk/System/Library/PrivateFrameworks/AudioToolboxCore.framework/PrivateHeaders/DSPGraph_Box.h"
+- "/AppleInternal/Library/BuildRoots/4~CLeNugBNBzrTq__kmEPYaC2l1A9Lg7UohswO968/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.5.Internal.sdk/usr/local/include/boost/uuid/detail/random_provider_posix.ipp"
+- "23:17:53"
+- "23:17:59"
+- "23:18:03"
+- "23:18:16"
+- "Mar 19 2026"
+
+```

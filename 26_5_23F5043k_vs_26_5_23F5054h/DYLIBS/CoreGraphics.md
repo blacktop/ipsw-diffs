@@ -1,0 +1,656 @@
+## CoreGraphics
+
+> `/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics`
+
+```diff
+
+-1965.4.3.0.0
+-  __TEXT.__text: 0x4ee360
++1965.5.1.0.0
++  __TEXT.__text: 0x4ee4e4
+   __TEXT.__stubs: 0x18
+   __TEXT.__auth_stubs: 0x3e20
+   __TEXT.__resolver_help: 0xd8
+   __TEXT.__objc_methlist: 0x4138
+   __TEXT.__const: 0x1ce5a0
+-  __TEXT.__cstring: 0x402dd
++  __TEXT.__cstring: 0x402fc
+   __TEXT.__dlopen_cstrs: 0x131
+   __TEXT.__constg_swiftt: 0x1408
+   __TEXT.__swift5_typeref: 0x161a
+
+   __TEXT.__swift5_capture: 0x3bc
+   __TEXT.__swift5_protos: 0x30
+   __TEXT.__swift5_mpenum: 0x5c
+-  __TEXT.__gcc_except_tab: 0x5e24
++  __TEXT.__gcc_except_tab: 0x5e28
+   __TEXT.__oslogstring: 0x15
+   __TEXT.__ustring: 0x1c
+-  __TEXT.__unwind_info: 0x9790
++  __TEXT.__unwind_info: 0x9798
+   __TEXT.__eh_frame: 0x37d8
+   __TEXT.__objc_classname: 0x5ca
+-  __TEXT.__objc_methname: 0x614a
++  __TEXT.__objc_methname: 0x6168
+   __TEXT.__objc_methtype: 0x2e9b
+-  __TEXT.__objc_stubs: 0x6e20
+-  __DATA_CONST.__got: 0x6f0
++  __TEXT.__objc_stubs: 0x6e40
++  __DATA_CONST.__got: 0x700
+   __DATA_CONST.__const: 0x2fc68
+   __DATA_CONST.__objc_classlist: 0x258
+   __DATA_CONST.__objc_catlist: 0x10
+   __DATA_CONST.__objc_protolist: 0x90
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x23f8
++  __DATA_CONST.__objc_selrefs: 0x2400
+   __DATA_CONST.__objc_protorefs: 0x28
+   __DATA_CONST.__objc_superrefs: 0x1d8
+   __DATA_CONST.__objc_arraydata: 0x170
+   __AUTH_CONST.__auth_got: 0x1f28
+   __AUTH_CONST.__const: 0x12198
+-  __AUTH_CONST.__cfstring: 0x9a40
++  __AUTH_CONST.__cfstring: 0x9a60
+   __AUTH_CONST.__objc_const: 0x66d0
+   __AUTH_CONST.__objc_dictobj: 0x50
+   __AUTH_CONST.__objc_intobj: 0xc0
+
+   - /usr/lib/swift/libswiftObjectiveC.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+-  UUID: 3625EDEA-6DC7-36F8-BECD-CD26470F8CBA
+-  Functions: 13342
+-  Symbols:   28176
+-  CStrings:  14219
++  UUID: DC11EFDB-5C0B-3384-A8E6-0225C102C81D
++  Functions: 13343
++  Symbols:   28181
++  CStrings:  14222
+ 
+Symbols:
++ GCC_except_table10081
++ GCC_except_table10086
++ GCC_except_table10089
++ GCC_except_table10092
++ GCC_except_table10098
++ GCC_except_table10107
++ GCC_except_table10220
++ GCC_except_table10231
++ GCC_except_table10262
++ GCC_except_table10266
++ GCC_except_table10270
++ GCC_except_table10273
++ GCC_except_table10276
++ GCC_except_table10279
++ GCC_except_table10282
++ GCC_except_table10288
++ GCC_except_table10293
++ GCC_except_table10295
++ GCC_except_table10300
++ GCC_except_table10303
++ GCC_except_table10305
++ GCC_except_table10313
++ GCC_except_table10315
++ GCC_except_table10325
++ GCC_except_table10329
++ GCC_except_table10332
++ GCC_except_table10334
++ GCC_except_table10337
++ GCC_except_table10358
++ GCC_except_table10368
++ GCC_except_table10374
++ GCC_except_table10378
++ GCC_except_table10383
++ GCC_except_table10424
++ GCC_except_table10427
++ GCC_except_table10429
++ GCC_except_table10434
++ GCC_except_table10857
++ GCC_except_table10872
++ GCC_except_table11284
++ GCC_except_table9361
++ GCC_except_table9387
++ GCC_except_table9394
++ GCC_except_table9396
++ GCC_except_table9400
++ GCC_except_table9402
++ GCC_except_table9407
++ GCC_except_table9517
++ GCC_except_table9521
++ GCC_except_table9528
++ GCC_except_table9532
++ GCC_except_table9548
++ GCC_except_table9682
++ _BLEND16.21865
++ _BLEND8.21866
++ _CGRemotePDFDataTooLargeError
++ _DAM.21868
++ _DAplusdDA.21846
++ _DMplusDAM.21869
++ _DMplusDM.21844
++ _DplusDAM.21867
++ _DplusDM.21845
++ _NSCocoaErrorDomain
++ _OBJC_CLASS_$_NSError
++ _PDAcolorburnPDA.21853
++ _PDAcolordodgePDA.21852
++ _PDAdarkenPDA.21851
++ _PDAdifferencePDA.21856
++ _PDAexclusionPDA.21857
++ _PDAhardlightPDA.21854
++ _PDAhuePDA.21858
++ _PDAlightenPDA.21850
++ _PDAluminosityPDA.21860
++ _PDAmultiplyPDA.21847
++ _PDAoverlayPDA.21849
++ _PDAsaturationPDA.21859
++ _PDAscreenPDA.21848
++ _PDAsoftlightPDA.21855
++ _PDAtranspose_huePDA.21861
++ _PDAtranspose_luminosityPDA.21863
++ _PDAtranspose_saturationPDA.21862
++ _PDM.21843
++ _PIXELCONSTANT.21870
++ _RGBAF.21835
++ __CMYK_data.20801
++ __RGBA_data.19920
++ __ZL15interpolate_waf.21958
++ __ZL15interpolate_waf.21989
++ __ZL16interpolate_1616.20964
++ __ZL17_CMYK_float_alpha.19616
++ __ZL18interpolate_cmykaf.19615
++ __ZL18interpolate_cmykaf.22029
++ __ZN12_GLOBAL__N_112release_dataEPv.20913
++ __ZN12_GLOBAL__N_13endEPvP13path_iterator.20914
++ __ZN12_GLOBAL__N_15beginEPvPK7CGPointP13path_iterator.20916
++ __ZN12_GLOBAL__N_17iterateEPv17CGPathElementTypePK7CGPointP13path_iterator.20915
++ ___Block_byref_object_copy_.19349
++ ___Block_byref_object_copy_.19552
++ ___Block_byref_object_copy_.20880
++ ___Block_byref_object_dispose_.19350
++ ___Block_byref_object_dispose_.19553
++ ___Block_byref_object_dispose_.20881
++ ___block_descriptor_tmp.10.20208
++ ___block_descriptor_tmp.100.21675
++ ___block_descriptor_tmp.102.21676
++ ___block_descriptor_tmp.106.21679
++ ___block_descriptor_tmp.11.22089
++ ___block_descriptor_tmp.12.21928
++ ___block_descriptor_tmp.13.20267
++ ___block_descriptor_tmp.13.20526
++ ___block_descriptor_tmp.17.20535
++ ___block_descriptor_tmp.19.20265
++ ___block_descriptor_tmp.19430
++ ___block_descriptor_tmp.19442
++ ___block_descriptor_tmp.19554
++ ___block_descriptor_tmp.2.22408
++ ___block_descriptor_tmp.20.22726
++ ___block_descriptor_tmp.20126
++ ___block_descriptor_tmp.20345
++ ___block_descriptor_tmp.20477
++ ___block_descriptor_tmp.20616
++ ___block_descriptor_tmp.20692
++ ___block_descriptor_tmp.20783
++ ___block_descriptor_tmp.20839
++ ___block_descriptor_tmp.20924
++ ___block_descriptor_tmp.21.23421
++ ___block_descriptor_tmp.21682
++ ___block_descriptor_tmp.21767
++ ___block_descriptor_tmp.21935
++ ___block_descriptor_tmp.22.21943
++ ___block_descriptor_tmp.22071
++ ___block_descriptor_tmp.22143
++ ___block_descriptor_tmp.22225
++ ___block_descriptor_tmp.22311
++ ___block_descriptor_tmp.22402
++ ___block_descriptor_tmp.22419
++ ___block_descriptor_tmp.22666
++ ___block_descriptor_tmp.23069
++ ___block_descriptor_tmp.23418
++ ___block_descriptor_tmp.25.20262
++ ___block_descriptor_tmp.26.23439
++ ___block_descriptor_tmp.27.22721
++ ___block_descriptor_tmp.3.22079
++ ___block_descriptor_tmp.31.19555
++ ___block_descriptor_tmp.33.20255
++ ___block_descriptor_tmp.33.22711
++ ___block_descriptor_tmp.39.23058
++ ___block_descriptor_tmp.39.23466
++ ___block_descriptor_tmp.4.20135
++ ___block_descriptor_tmp.4.20491
++ ___block_descriptor_tmp.40.23388
++ ___block_descriptor_tmp.46.22704
++ ___block_descriptor_tmp.47.22706
++ ___block_descriptor_tmp.48.20276
++ ___block_descriptor_tmp.53.20274
++ ___block_descriptor_tmp.68.20259
++ ___block_descriptor_tmp.71.20250
++ ___block_descriptor_tmp.73.23277
++ ___block_descriptor_tmp.78.19518
++ ___block_descriptor_tmp.8.20622
++ ___block_descriptor_tmp.83.21683
++ ___block_descriptor_tmp.9.20505
++ ___block_descriptor_tmp.90.21691
++ ___block_descriptor_tmp.96.21688
++ ___block_literal_global.10.20886
++ ___block_literal_global.108.21677
++ ___block_literal_global.11.20503
++ ___block_literal_global.12.20206
++ ___block_literal_global.12.20884
++ ___block_literal_global.13.22087
++ ___block_literal_global.14.21921
++ ___block_literal_global.15.20229
++ ___block_literal_global.15.20524
++ ___block_literal_global.15.20882
++ ___block_literal_global.19369
++ ___block_literal_global.19428
++ ___block_literal_global.19440
++ ___block_literal_global.20122
++ ___block_literal_global.20343
++ ___block_literal_global.20475
++ ___block_literal_global.20674
++ ___block_literal_global.20763
++ ___block_literal_global.20837
++ ___block_literal_global.20895
++ ___block_literal_global.20919
++ ___block_literal_global.21.20230
++ ___block_literal_global.21141
++ ___block_literal_global.21353
++ ___block_literal_global.21684
++ ___block_literal_global.21765
++ ___block_literal_global.21918
++ ___block_literal_global.22069
++ ___block_literal_global.22138
++ ___block_literal_global.22199
++ ___block_literal_global.22269
++ ___block_literal_global.22292
++ ___block_literal_global.22309
++ ___block_literal_global.22400
++ ___block_literal_global.22411
++ ___block_literal_global.22699
++ ___block_literal_global.23.23419
++ ___block_literal_global.23043
++ ___block_literal_global.23416
++ ___block_literal_global.24.21941
++ ___block_literal_global.27.20231
++ ___block_literal_global.28.23437
++ ___block_literal_global.29.22701
++ ___block_literal_global.35.20234
++ ___block_literal_global.35.22702
++ ___block_literal_global.4.20891
++ ___block_literal_global.4.22297
++ ___block_literal_global.4.22406
++ ___block_literal_global.41.23045
++ ___block_literal_global.42.23384
++ ___block_literal_global.5.22077
++ ___block_literal_global.50.20271
++ ___block_literal_global.55.20272
++ ___block_literal_global.6.20131
++ ___block_literal_global.6.20489
++ ___block_literal_global.7.20889
++ ___block_literal_global.70.20257
++ ___block_literal_global.73.20248
++ ___block_literal_global.75.23275
++ ___block_literal_global.92.19360
++ ___block_literal_global.92.21685
++ ___block_literal_global.98.21686
++ _clip_to_glyphs.22588
++ _colorsync_smart_null.20253
++ _colorsync_smart_null.23391
++ _convert_src_data_to_float.20233
++ _converter_copy_debug_description.20216
++ _converter_copy_format_description.20217
++ _copy_debug_description.23261
++ _copy_pdf_description.21113
++ _defaults_setup.21616
++ _draw_glyphs.22584
++ _get_font_info.21831
++ _get_font_stream.20661
++ _get_font_stream.20951
++ _identifier.23187
++ _interpolate_16161616.21836
++ _interpolate_8555.21840
++ _interpolate_8888.21839
++ _interpolate_rgbaf.21834
++ _objc_msgSend$initWithDomain:code:userInfo:
++ _op_B.23028
++ _op_Bstar.23027
++ _op_CS.23022
++ _op_Do.23017
++ _op_EI.23016
++ _op_G.23012
++ _op_J.23000
++ _op_K.22998
++ _op_M.22995
++ _op_Q.22992
++ _op_RG.22989
++ _op_S.22987
++ _op_SCN.22984
++ _op_W.22981
++ _op_Wstar.22980
++ _op_b.23030
++ _op_bstar.23029
++ _op_c.23026
++ _op_cm.23025
++ _op_cs.23024
++ _op_d.23021
++ _op_f.23015
++ _op_fstar.23014
++ _op_g.23013
++ _op_gs.23003
++ _op_h.23002
++ _op_j.23001
++ _op_k.22999
++ _op_l.22997
++ _op_m.22996
++ _op_n.22994
++ _op_q.22993
++ _op_re.22991
++ _op_rg.22990
++ _op_s.22988
++ _op_scn.22986
++ _op_v.22983
++ _op_w.22982
++ _op_y.22979
++ _patch_data_release.20690
++ _patch_data_release.20780
++ _pattern_finalize.23553
++ _weights.21864
+- GCC_except_table10080
+- GCC_except_table10085
+- GCC_except_table10088
+- GCC_except_table10091
+- GCC_except_table10097
+- GCC_except_table10106
+- GCC_except_table10219
+- GCC_except_table10229
+- GCC_except_table10258
+- GCC_except_table10264
+- GCC_except_table10267
+- GCC_except_table10272
+- GCC_except_table10274
+- GCC_except_table10277
+- GCC_except_table10281
+- GCC_except_table10284
+- GCC_except_table10291
+- GCC_except_table10294
+- GCC_except_table10299
+- GCC_except_table10301
+- GCC_except_table10304
+- GCC_except_table10312
+- GCC_except_table10314
+- GCC_except_table10324
+- GCC_except_table10326
+- GCC_except_table10331
+- GCC_except_table10333
+- GCC_except_table10336
+- GCC_except_table10357
+- GCC_except_table10367
+- GCC_except_table10369
+- GCC_except_table10375
+- GCC_except_table10379
+- GCC_except_table10422
+- GCC_except_table10425
+- GCC_except_table10428
+- GCC_except_table10432
+- GCC_except_table10856
+- GCC_except_table10870
+- GCC_except_table11283
+- GCC_except_table9360
+- GCC_except_table9386
+- GCC_except_table9392
+- GCC_except_table9395
+- GCC_except_table9397
+- GCC_except_table9401
+- GCC_except_table9403
+- GCC_except_table9516
+- GCC_except_table9520
+- GCC_except_table9527
+- GCC_except_table9530
+- GCC_except_table9547
+- GCC_except_table9681
+- _BLEND16.21859
+- _BLEND8.21860
+- _DAM.21862
+- _DAplusdDA.21840
+- _DMplusDAM.21863
+- _DMplusDM.21838
+- _DplusDAM.21861
+- _DplusDM.21839
+- _PDAcolorburnPDA.21847
+- _PDAcolordodgePDA.21846
+- _PDAdarkenPDA.21845
+- _PDAdifferencePDA.21850
+- _PDAexclusionPDA.21851
+- _PDAhardlightPDA.21848
+- _PDAhuePDA.21852
+- _PDAlightenPDA.21844
+- _PDAluminosityPDA.21854
+- _PDAmultiplyPDA.21841
+- _PDAoverlayPDA.21843
+- _PDAsaturationPDA.21853
+- _PDAscreenPDA.21842
+- _PDAsoftlightPDA.21849
+- _PDAtranspose_huePDA.21855
+- _PDAtranspose_luminosityPDA.21857
+- _PDAtranspose_saturationPDA.21856
+- _PDM.21837
+- _PIXELCONSTANT.21864
+- _RGBAF.21829
+- __CMYK_data.20795
+- __RGBA_data.19914
+- __ZL15interpolate_waf.21952
+- __ZL15interpolate_waf.21983
+- __ZL16interpolate_1616.20958
+- __ZL17_CMYK_float_alpha.19612
+- __ZL18interpolate_cmykaf.19611
+- __ZL18interpolate_cmykaf.22023
+- __ZN12_GLOBAL__N_112release_dataEPv.20907
+- __ZN12_GLOBAL__N_13endEPvP13path_iterator.20908
+- __ZN12_GLOBAL__N_15beginEPvPK7CGPointP13path_iterator.20910
+- __ZN12_GLOBAL__N_17iterateEPv17CGPathElementTypePK7CGPointP13path_iterator.20909
+- ___Block_byref_object_copy_.19347
+- ___Block_byref_object_copy_.19548
+- ___Block_byref_object_copy_.20874
+- ___Block_byref_object_dispose_.19348
+- ___Block_byref_object_dispose_.19549
+- ___Block_byref_object_dispose_.20875
+- ___block_descriptor_tmp.10.20202
+- ___block_descriptor_tmp.100.21669
+- ___block_descriptor_tmp.102.21670
+- ___block_descriptor_tmp.106.21673
+- ___block_descriptor_tmp.11.22083
+- ___block_descriptor_tmp.12.21922
+- ___block_descriptor_tmp.13.20261
+- ___block_descriptor_tmp.13.20520
+- ___block_descriptor_tmp.17.20529
+- ___block_descriptor_tmp.19.20259
+- ___block_descriptor_tmp.19426
+- ___block_descriptor_tmp.19438
+- ___block_descriptor_tmp.19550
+- ___block_descriptor_tmp.2.22402
+- ___block_descriptor_tmp.20.22720
+- ___block_descriptor_tmp.20120
+- ___block_descriptor_tmp.20339
+- ___block_descriptor_tmp.20471
+- ___block_descriptor_tmp.20610
+- ___block_descriptor_tmp.20686
+- ___block_descriptor_tmp.20777
+- ___block_descriptor_tmp.20833
+- ___block_descriptor_tmp.20918
+- ___block_descriptor_tmp.21.23415
+- ___block_descriptor_tmp.21676
+- ___block_descriptor_tmp.21761
+- ___block_descriptor_tmp.21929
+- ___block_descriptor_tmp.22.21937
+- ___block_descriptor_tmp.22065
+- ___block_descriptor_tmp.22137
+- ___block_descriptor_tmp.22219
+- ___block_descriptor_tmp.22305
+- ___block_descriptor_tmp.22396
+- ___block_descriptor_tmp.22413
+- ___block_descriptor_tmp.22660
+- ___block_descriptor_tmp.23063
+- ___block_descriptor_tmp.23412
+- ___block_descriptor_tmp.25.20256
+- ___block_descriptor_tmp.26.23433
+- ___block_descriptor_tmp.27.22715
+- ___block_descriptor_tmp.3.22073
+- ___block_descriptor_tmp.31.19551
+- ___block_descriptor_tmp.33.20249
+- ___block_descriptor_tmp.33.22705
+- ___block_descriptor_tmp.39.23052
+- ___block_descriptor_tmp.39.23460
+- ___block_descriptor_tmp.4.20129
+- ___block_descriptor_tmp.4.20485
+- ___block_descriptor_tmp.40.23382
+- ___block_descriptor_tmp.46.22698
+- ___block_descriptor_tmp.47.22700
+- ___block_descriptor_tmp.48.20270
+- ___block_descriptor_tmp.53.20268
+- ___block_descriptor_tmp.68.20253
+- ___block_descriptor_tmp.71.20244
+- ___block_descriptor_tmp.73.23271
+- ___block_descriptor_tmp.78.19514
+- ___block_descriptor_tmp.8.20616
+- ___block_descriptor_tmp.83.21677
+- ___block_descriptor_tmp.9.20499
+- ___block_descriptor_tmp.90.21685
+- ___block_descriptor_tmp.96.21682
+- ___block_literal_global.10.20880
+- ___block_literal_global.108.21671
+- ___block_literal_global.11.20497
+- ___block_literal_global.12.20200
+- ___block_literal_global.12.20878
+- ___block_literal_global.13.22081
+- ___block_literal_global.14.21915
+- ___block_literal_global.15.20223
+- ___block_literal_global.15.20518
+- ___block_literal_global.15.20876
+- ___block_literal_global.19365
+- ___block_literal_global.19424
+- ___block_literal_global.19436
+- ___block_literal_global.20116
+- ___block_literal_global.20337
+- ___block_literal_global.20469
+- ___block_literal_global.20668
+- ___block_literal_global.20757
+- ___block_literal_global.20831
+- ___block_literal_global.20889
+- ___block_literal_global.20913
+- ___block_literal_global.21.20224
+- ___block_literal_global.21135
+- ___block_literal_global.21347
+- ___block_literal_global.21678
+- ___block_literal_global.21759
+- ___block_literal_global.21912
+- ___block_literal_global.22063
+- ___block_literal_global.22132
+- ___block_literal_global.22193
+- ___block_literal_global.22263
+- ___block_literal_global.22286
+- ___block_literal_global.22303
+- ___block_literal_global.22394
+- ___block_literal_global.22405
+- ___block_literal_global.22693
+- ___block_literal_global.23.23413
+- ___block_literal_global.23037
+- ___block_literal_global.23410
+- ___block_literal_global.24.21935
+- ___block_literal_global.27.20225
+- ___block_literal_global.28.23431
+- ___block_literal_global.29.22695
+- ___block_literal_global.35.20228
+- ___block_literal_global.35.22696
+- ___block_literal_global.4.20885
+- ___block_literal_global.4.22291
+- ___block_literal_global.4.22400
+- ___block_literal_global.41.23039
+- ___block_literal_global.42.23378
+- ___block_literal_global.5.22071
+- ___block_literal_global.50.20265
+- ___block_literal_global.55.20266
+- ___block_literal_global.6.20125
+- ___block_literal_global.6.20483
+- ___block_literal_global.7.20883
+- ___block_literal_global.70.20251
+- ___block_literal_global.73.20242
+- ___block_literal_global.75.23269
+- ___block_literal_global.92.19356
+- ___block_literal_global.92.21679
+- ___block_literal_global.98.21680
+- _clip_to_glyphs.22582
+- _colorsync_smart_null.20247
+- _colorsync_smart_null.23385
+- _convert_src_data_to_float.20227
+- _converter_copy_debug_description.20210
+- _converter_copy_format_description.20211
+- _copy_debug_description.23255
+- _copy_pdf_description.21107
+- _defaults_setup.21610
+- _draw_glyphs.22578
+- _get_font_info.21825
+- _get_font_stream.20655
+- _get_font_stream.20945
+- _identifier.23181
+- _interpolate_16161616.21830
+- _interpolate_8555.21834
+- _interpolate_8888.21833
+- _interpolate_rgbaf.21828
+- _op_B.23022
+- _op_Bstar.23021
+- _op_CS.23016
+- _op_Do.23011
+- _op_EI.23010
+- _op_G.23006
+- _op_J.22994
+- _op_K.22992
+- _op_M.22989
+- _op_Q.22986
+- _op_RG.22983
+- _op_S.22981
+- _op_SCN.22978
+- _op_W.22975
+- _op_Wstar.22974
+- _op_b.23024
+- _op_bstar.23023
+- _op_c.23020
+- _op_cm.23019
+- _op_cs.23018
+- _op_d.23015
+- _op_f.23009
+- _op_fstar.23008
+- _op_g.23007
+- _op_gs.22997
+- _op_h.22996
+- _op_j.22995
+- _op_k.22993
+- _op_l.22991
+- _op_m.22990
+- _op_n.22988
+- _op_q.22987
+- _op_re.22985
+- _op_rg.22984
+- _op_s.22982
+- _op_scn.22980
+- _op_v.22977
+- _op_w.22976
+- _op_y.22973
+- _patch_data_release.20684
+- _patch_data_release.20774
+- _pattern_finalize.23547
+- _weights.21858
+Functions:
+~ __ZNK10PageLayout12getWordRangeEml : 912 -> 1024
+~ -[CGRemotePDFServiceProxy newRemotePDFDocumentWithData:error:] : 472 -> 572
++ _CGRemotePDFDataTooLargeError
+~ -[CGRemotePDFServiceProxy newRemotePDFDocumentWithData:completion:] : 288 -> 392
+CStrings:
++ "/AppleInternal/Library/BuildRoots/4~CMtougAXfZsgr9-Eck52UHfMcg_AWxIh0o2Q8d8/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.5.Internal.sdk/usr/local/include/boost/graph/topological_sort.hpp"
++ "PDF data too large (%lu bytes)"
++ "initWithDomain:code:userInfo:"
++ "void PageLayout::ConvertTextRangesToStringRanges(I &&, O &&) const [I = std::ranges::transform_view<std::ranges::ref_view<std::vector<std::pair<unsigned long, CFRange>>>, (lambda at /Library/Caches/com.apple.xbs/01E5506B-57BD-48A8-8871-A7B1293AA802/TemporaryDirectory.jG6gRM/Sources/CoreGraphics/CoreGraphics/PDF/Text/Selection/Selection.mm:489:59)> &, O = std::back_insert_iterator<std::vector<CFRange>>]"
+- "/AppleInternal/Library/BuildRoots/4~CLiCugBs20l-w4GOTxRDWQg2NGlephTSXXLZFa4/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.5.Internal.sdk/usr/local/include/boost/graph/topological_sort.hpp"
+- "void PageLayout::ConvertTextRangesToStringRanges(I &&, O &&) const [I = std::ranges::transform_view<std::ranges::ref_view<std::vector<std::pair<unsigned long, CFRange>>>, (lambda at /Library/Caches/com.apple.xbs/21D90488-5AEF-463F-835E-2E2D3EA40A60/TemporaryDirectory.5qooCX/Sources/CoreGraphics/CoreGraphics/PDF/Text/Selection/Selection.mm:489:59)> &, O = std::back_insert_iterator<std::vector<CFRange>>]"
+
+```

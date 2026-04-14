@@ -1,0 +1,252 @@
+## transparencyd
+
+> `filesystem/usr/libexec/transparencyd`
+
+```diff
+
+-1547.120.12.0.0
+-  __TEXT.__text: 0x2e1dfc
+-  __TEXT.__auth_stubs: 0x37d0
++1547.120.16.0.0
++  __TEXT.__text: 0x2e7944
++  __TEXT.__auth_stubs: 0x37f0
+   __TEXT.__objc_stubs: 0x1dba0
+   __TEXT.__objc_methlist: 0x15920
+   __TEXT.__cstring: 0x113b3
+   __TEXT.__objc_classname: 0x3e64
+   __TEXT.__objc_methname: 0x24f32
+-  __TEXT.__const: 0x114b8
++  __TEXT.__const: 0x11b88
+   __TEXT.__gcc_except_tab: 0x51d4
+   __TEXT.__oslogstring: 0x122a8
+-  __TEXT.__objc_methtype: 0x82f1
+-  __TEXT.__swift5_typeref: 0x3990
++  __TEXT.__objc_methtype: 0x8301
++  __TEXT.__swift5_typeref: 0x3e60
+   __TEXT.__swift5_capture: 0x1690
+-  __TEXT.__constg_swiftt: 0x48a4
+-  __TEXT.__swift5_reflstr: 0x263e
+-  __TEXT.__swift5_fieldmd: 0x38e4
+-  __TEXT.__swift5_proto: 0xbf0
+-  __TEXT.__swift5_types: 0x394
+-  __TEXT.__swift5_assocty: 0x660
++  __TEXT.__constg_swiftt: 0x48d4
++  __TEXT.__swift5_reflstr: 0x271e
++  __TEXT.__swift5_fieldmd: 0x3918
++  __TEXT.__swift5_proto: 0xc34
++  __TEXT.__swift5_types: 0x398
++  __TEXT.__swift5_assocty: 0x8b8
+   __TEXT.__swift5_builtin: 0x104
+-  __TEXT.__swift5_mpenum: 0x8
+-  __TEXT.__swift5_protos: 0x28
+-  __TEXT.__swift_as_entry: 0x1d8
++  __TEXT.__swift_as_entry: 0x1dc
+   __TEXT.__swift_as_ret: 0x188
+-  __TEXT.__unwind_info: 0xbce8
+-  __TEXT.__eh_frame: 0x80a0
+-  __DATA_CONST.__auth_got: 0x1bf8
+-  __DATA_CONST.__got: 0x1128
+-  __DATA_CONST.__auth_ptr: 0x998
++  __TEXT.__swift5_protos: 0x28
++  __TEXT.__swift5_mpenum: 0x8
++  __TEXT.__unwind_info: 0xbe10
++  __TEXT.__eh_frame: 0x8320
++  __DATA_CONST.__auth_got: 0x1c08
++  __DATA_CONST.__got: 0x1160
++  __DATA_CONST.__auth_ptr: 0xf08
+   __DATA_CONST.__const: 0x186f0
+   __DATA_CONST.__cfstring: 0xe380
+   __DATA_CONST.__objc_classlist: 0xd60
+
+   __DATA.__objc_selrefs: 0x88e0
+   __DATA.__objc_ivar: 0x1128
+   __DATA.__objc_data: 0x9eb0
+-  __DATA.__data: 0xd540
++  __DATA.__data: 0xd650
+   __DATA.__thread_vars: 0x48
+   __DATA.__thread_bss: 0xc
+-  __DATA.__bss: 0x19130
++  __DATA.__bss: 0x199c0
+   __DATA.__common: 0x978
+   - /System/Library/Frameworks/Accounts.framework/Accounts
+   - /System/Library/Frameworks/CFNetwork.framework/CFNetwork
+
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+-  UUID: 90BD8AE2-DF91-384A-BF24-3751C4E57415
+-  Functions: 18667
+-  Symbols:   1662
++  UUID: 62135220-1351-30D4-B64D-268C6FE96499
++  Functions: 18779
++  Symbols:   1827
+   CStrings:  13789
+ 
+Symbols:
++ _$s10Foundation4DataV16CoreTransparency18CTBytesConvertibleADWP
++ _$s10VRFWitness16CoreTransparency25AETEventsResponseProtocolPTl
++ _$s11Application16CoreTransparency15LogHeadProtocolPTl
++ _$s11Application16CoreTransparency15MapHeadProtocolPTl
++ _$s12SignedObject16CoreTransparency031AETEventsResponseLogConsistencyF8ProtocolPTl
++ _$s12SignedObject16CoreTransparency15PATNodeProtocolPTl
++ _$s12SignedObject16CoreTransparency15TLTNodeProtocolPTl
++ _$s12SignedObject16CoreTransparency16LogEntryProtocolPTl
++ _$s12SignedObject16CoreTransparency16MapEntryProtocolPTl
++ _$s12VRFPublicKey16CoreTransparency21PATConfigNodeProtocolPTl
++ _$s14InclusionProof16CoreTransparency25AETEventsResponseProtocolPTl
++ _$s15ProtocolVersion16CoreTransparency013LogClosedNodeA0PTl
++ _$s15ProtocolVersion16CoreTransparency013PATConfigNodeA0PTl
++ _$s15ProtocolVersion16CoreTransparency013TLTConfigNodeA0PTl
++ _$s16CoreTransparency031AETEventsResponseLogConsistencyD8ProtocolMp
++ _$s16CoreTransparency031AETEventsResponseLogConsistencyD8ProtocolP11proofHashes9ManyBytesQzvgTq
++ _$s16CoreTransparency031AETEventsResponseLogConsistencyD8ProtocolP12SignedObjectAC_AA0hiG0Tn
++ _$s16CoreTransparency031AETEventsResponseLogConsistencyD8ProtocolP6endSlh12SignedObjectQzvgTq
++ _$s16CoreTransparency031AETEventsResponseLogConsistencyD8ProtocolP8startSlh12SignedObjectQzvgTq
++ _$s16CoreTransparency031AETEventsResponseLogConsistencyD8ProtocolP9ManyBytesAC_AA17CTBytesCollectionTn
++ _$s16CoreTransparency15LogHeadProtocolMp
++ _$s16CoreTransparency15LogHeadProtocolP03logD4Hash5BytesQzvgTq
++ _$s16CoreTransparency15LogHeadProtocolP0C4TypeAC_SYTn
++ _$s16CoreTransparency15LogHeadProtocolP11ApplicationAC_SYTn
++ _$s16CoreTransparency15LogHeadProtocolP11application11ApplicationQzvgTq
++ _$s16CoreTransparency15LogHeadProtocolP11timestampMss6UInt64VvgTq
++ _$s16CoreTransparency15LogHeadProtocolP14logBeginningMss6UInt64VvgTq
++ _$s16CoreTransparency15LogHeadProtocolP5BytesAC_AA18CTBytesConvertibleTn
++ _$s16CoreTransparency15LogHeadProtocolP6treeIDs6UInt64VvgTq
++ _$s16CoreTransparency15LogHeadProtocolP7logSizes6UInt64VvgTq
++ _$s16CoreTransparency15LogHeadProtocolP7logType0cG0QzvgTq
++ _$s16CoreTransparency15LogHeadProtocolP8revisions6UInt64VvgTq
++ _$s16CoreTransparency15MapHeadProtocolMp
++ _$s16CoreTransparency15MapHeadProtocolP03LogD0AC_AA0fdE0Tn
++ _$s16CoreTransparency15MapHeadProtocolP03mapD4Hash5BytesQzvgTq
++ _$s16CoreTransparency15MapHeadProtocolP09changeLogD00gD0QzvgTq
++ _$s16CoreTransparency15MapHeadProtocolP0C4TypeAC_SYTn
++ _$s16CoreTransparency15MapHeadProtocolP10populatingSbvgTq
++ _$s16CoreTransparency15MapHeadProtocolP11ApplicationAC_SYTn
++ _$s16CoreTransparency15MapHeadProtocolP11application11ApplicationQzvgTq
++ _$s16CoreTransparency15MapHeadProtocolP11timestampMss6UInt64VvgTq
++ _$s16CoreTransparency15MapHeadProtocolP14logBeginningMss6UInt64VvgTq
++ _$s16CoreTransparency15MapHeadProtocolP5BytesAC_AA18CTBytesConvertibleTn
++ _$s16CoreTransparency15MapHeadProtocolP6treeIDs6UInt64VvgTq
++ _$s16CoreTransparency15MapHeadProtocolP7mapType0cG0QzvgTq
++ _$s16CoreTransparency15MapHeadProtocolP8revisions6UInt64VvgTq
++ _$s16CoreTransparency15PATNodeProtocolMp
++ _$s16CoreTransparency15PATNodeProtocolP12SignedObjectAC_AA0efD0Tn
++ _$s16CoreTransparency15PATNodeProtocolP15predecessorHead12SignedObjectQzvgTq
++ _$s16CoreTransparency15TLTNodeProtocolMp
++ _$s16CoreTransparency15TLTNodeProtocolP12SignedObjectAC_AA0efD0Tn
++ _$s16CoreTransparency15TLTNodeProtocolP7patHead12SignedObjectQzvgTq
++ _$s16CoreTransparency16LogEntryProtocolMp
++ _$s16CoreTransparency16LogEntryProtocolP0C4TypeAC_SYTn
++ _$s16CoreTransparency16LogEntryProtocolP12SignedObjectAC_AA0fgE0Tn
++ _$s16CoreTransparency16LogEntryProtocolP12nodePositions6UInt64VvgTq
++ _$s16CoreTransparency16LogEntryProtocolP25hashesOfPeersInPathToRoot9ManyBytesQzvgTq
++ _$s16CoreTransparency16LogEntryProtocolP3slh12SignedObjectQzvgTq
++ _$s16CoreTransparency16LogEntryProtocolP5BytesAC_AA18CTBytesConvertibleTn
++ _$s16CoreTransparency16LogEntryProtocolP7logType0cG0QzvgTq
++ _$s16CoreTransparency16LogEntryProtocolP8NodeTypeAC_SYTn
++ _$s16CoreTransparency16LogEntryProtocolP8nodeType04NodeG0QzvgTq
++ _$s16CoreTransparency16LogEntryProtocolP9ManyBytesAC_AA17CTBytesCollectionTn
++ _$s16CoreTransparency16LogEntryProtocolP9nodeBytes0G0QzvgTq
++ _$s16CoreTransparency16MapEntryProtocolMp
++ _$s16CoreTransparency16MapEntryProtocolP12SignedObjectAC_AA0fgE0Tn
++ _$s16CoreTransparency16MapEntryProtocolP25hashesOfPeersInPathToRoot9ManyBytesQzvgTq
++ _$s16CoreTransparency16MapEntryProtocolP3smh12SignedObjectQzvgTq
++ _$s16CoreTransparency16MapEntryProtocolP5BytesAC_AA18CTBytesConvertibleTn
++ _$s16CoreTransparency16MapEntryProtocolP7mapLeaf5BytesQzvgTq
++ _$s16CoreTransparency16MapEntryProtocolP9ManyBytesAC_AA17CTBytesCollectionTn
++ _$s16CoreTransparency17SignatureProtocolMp
++ _$s16CoreTransparency17SignatureProtocolP18signingKeySpkihash5BytesQzvgTq
++ _$s16CoreTransparency17SignatureProtocolP5BytesAC_AA18CTBytesConvertibleTn
++ _$s16CoreTransparency17SignatureProtocolP9AlgorithmAC_SYTn
++ _$s16CoreTransparency17SignatureProtocolP9algorithm9AlgorithmQzvgTq
++ _$s16CoreTransparency17SignatureProtocolP9signature5BytesQzvgTq
++ _$s16CoreTransparency18VRFWitnessProtocolMp
++ _$s16CoreTransparency18VRFWitnessProtocolP4type7VRFTypeQzvgTq
++ _$s16CoreTransparency18VRFWitnessProtocolP5BytesAC_AA18CTBytesConvertibleTn
++ _$s16CoreTransparency18VRFWitnessProtocolP5proof5BytesQzvgTq
++ _$s16CoreTransparency18VRFWitnessProtocolP6output5BytesQzvgTq
++ _$s16CoreTransparency18VRFWitnessProtocolP7VRFTypeAC_SYTn
++ _$s16CoreTransparency20SignedObjectProtocolMp
++ _$s16CoreTransparency20SignedObjectProtocolP5BytesAC_AA18CTBytesConvertibleTn
++ _$s16CoreTransparency20SignedObjectProtocolP6object5BytesQzvgTq
++ _$s16CoreTransparency20SignedObjectProtocolP9SignatureAC_AA0fE0Tn
++ _$s16CoreTransparency20SignedObjectProtocolP9signature9SignatureQzvgTq
++ _$s16CoreTransparency20VRFPublicKeyProtocolMp
++ _$s16CoreTransparency20VRFPublicKeyProtocolP03vrfD05BytesQzvgTq
++ _$s16CoreTransparency20VRFPublicKeyProtocolP4type7VRFTypeQzvgTq
++ _$s16CoreTransparency20VRFPublicKeyProtocolP5BytesAC_AA18CTBytesConvertibleTn
++ _$s16CoreTransparency20VRFPublicKeyProtocolP7VRFTypeAC_SYTn
++ _$s16CoreTransparency21ChangeLogNodeProtocolMp
++ _$s16CoreTransparency21ChangeLogNodeProtocolP5BytesAC_AA18CTBytesConvertibleTn
++ _$s16CoreTransparency21ChangeLogNodeProtocolP8mutation5BytesQzvgTq
++ _$s16CoreTransparency21LogClosedNodeProtocolMp
++ _$s16CoreTransparency21LogClosedNodeProtocolP0F7VersionAC_SYTn
++ _$s16CoreTransparency21LogClosedNodeProtocolP11timestampMss6UInt64VvgTq
++ _$s16CoreTransparency21LogClosedNodeProtocolP26earliestVersionForNextTree0fH0QzvgTq
++ _$s16CoreTransparency21PATConfigNodeProtocolMp
++ _$s16CoreTransparency21PATConfigNodeProtocolP0E7VersionAC_SYTn
++ _$s16CoreTransparency21PATConfigNodeProtocolP12VRFPublicKeyAC_AA0fgE0Tn
++ _$s16CoreTransparency21PATConfigNodeProtocolP12vrfPublicKey09VRFPublicH0QzvgTq
++ _$s16CoreTransparency21PATConfigNodeProtocolP14publicKeyBytes0H0QzvgTq
++ _$s16CoreTransparency21PATConfigNodeProtocolP15earliestVersion0eG0QzvgTq
++ _$s16CoreTransparency21PATConfigNodeProtocolP5BytesAC_AA18CTBytesConvertibleTn
++ _$s16CoreTransparency21TLTConfigNodeProtocolMp
++ _$s16CoreTransparency21TLTConfigNodeProtocolP0E7VersionAC_SYTn
++ _$s16CoreTransparency21TLTConfigNodeProtocolP11treeCounters6UInt32VvgTq
++ _$s16CoreTransparency21TLTConfigNodeProtocolP14publicKeyBytes0H0QzvgTq
++ _$s16CoreTransparency21TLTConfigNodeProtocolP15earliestVersion0eG0QzvgTq
++ _$s16CoreTransparency21TLTConfigNodeProtocolP5BytesAC_AA18CTBytesConvertibleTn
++ _$s16CoreTransparency22InclusionProofProtocolMp
++ _$s16CoreTransparency22InclusionProofProtocolP5BytesAC_AA18CTBytesConvertibleTn
++ _$s16CoreTransparency22InclusionProofProtocolP5index5BytesQzvgTq
++ _$s16CoreTransparency22InclusionProofProtocolP8LogEntryAC_AA0fgE0Tn
++ _$s16CoreTransparency22InclusionProofProtocolP8MapEntryAC_AA0fgE0Tn
++ _$s16CoreTransparency22InclusionProofProtocolP8mapEntry03MapG0QzvgTq
++ _$s16CoreTransparency22InclusionProofProtocolP8patEntry03LogG0QzSgvgTq
++ _$s16CoreTransparency22InclusionProofProtocolP8tltEntry03LogG0QzSgvgTq
++ _$s16CoreTransparency25AETEventsResponseProtocolMp
++ _$s16CoreTransparency25AETEventsResponseProtocolP014LogConsistencyD0AC_AA0cdfgdE0Tn
++ _$s16CoreTransparency25AETEventsResponseProtocolP10VRFWitnessAC_AA0fE0Tn
++ _$s16CoreTransparency25AETEventsResponseProtocolP13userIDWitness10VRFWitnessQzvgTq
++ _$s16CoreTransparency25AETEventsResponseProtocolP14InclusionProofAC_AA0fgE0Tn
++ _$s16CoreTransparency25AETEventsResponseProtocolP15inclusionProofsSay14InclusionProofQzGvgTq
++ _$s16CoreTransparency25AETEventsResponseProtocolP6StatusAC_SYTn
++ _$s16CoreTransparency25AETEventsResponseProtocolP6status6StatusQzvgTq
++ _$s16CoreTransparency25AETEventsResponseProtocolP9responsesSay014LogConsistencyD0QzGvgTq
++ _$s22LogConsistencyResponse16CoreTransparency09AETEventsC8ProtocolPTl
++ _$s5Bytes16CoreTransparency15LogHeadProtocolPTl
++ _$s5Bytes16CoreTransparency15MapHeadProtocolPTl
++ _$s5Bytes16CoreTransparency16LogEntryProtocolPTl
++ _$s5Bytes16CoreTransparency16MapEntryProtocolPTl
++ _$s5Bytes16CoreTransparency17SignatureProtocolPTl
++ _$s5Bytes16CoreTransparency18VRFWitnessProtocolPTl
++ _$s5Bytes16CoreTransparency20SignedObjectProtocolPTl
++ _$s5Bytes16CoreTransparency20VRFPublicKeyProtocolPTl
++ _$s5Bytes16CoreTransparency21ChangeLogNodeProtocolPTl
++ _$s5Bytes16CoreTransparency21PATConfigNodeProtocolPTl
++ _$s5Bytes16CoreTransparency21TLTConfigNodeProtocolPTl
++ _$s5Bytes16CoreTransparency22InclusionProofProtocolPTl
++ _$s6Status16CoreTransparency25AETEventsResponseProtocolPTl
++ _$s7LogHead16CoreTransparency03MapB8ProtocolPTl
++ _$s7LogType16CoreTransparency0A12HeadProtocolPTl
++ _$s7LogType16CoreTransparency0A13EntryProtocolPTl
++ _$s7MapType16CoreTransparency0A12HeadProtocolPTl
++ _$s7VRFType16CoreTransparency18VRFWitnessProtocolPTl
++ _$s7VRFType16CoreTransparency20VRFPublicKeyProtocolPTl
++ _$s8LogEntry16CoreTransparency22InclusionProofProtocolPTl
++ _$s8MapEntry16CoreTransparency22InclusionProofProtocolPTl
++ _$s8NodeType16CoreTransparency16LogEntryProtocolPTl
++ _$s9Algorithm16CoreTransparency17SignatureProtocolPTl
++ _$s9ManyBytes16CoreTransparency031AETEventsResponseLogConsistencyF8ProtocolPTl
++ _$s9ManyBytes16CoreTransparency16LogEntryProtocolPTl
++ _$s9ManyBytes16CoreTransparency16MapEntryProtocolPTl
++ _$s9Signature16CoreTransparency20SignedObjectProtocolPTl
++ _$sSS18_fromUTF8RepairingySS6result_Sb11repairsMadetSRys5UInt8VGFZ
++ _$sSTsSQ7ElementRpzrlE13elementsEqualySbqd__STRd__AAQyd__ABRSlF
++ _$sSWN
++ _$sSWSTsWP
++ _$sSWs19_HasContiguousBytessWP
++ _$sSayxG16CoreTransparency17CTBytesCollectionA2B0C11ConvertibleRzlMc
++ _$ss5UInt8VSQsWP
+
+```

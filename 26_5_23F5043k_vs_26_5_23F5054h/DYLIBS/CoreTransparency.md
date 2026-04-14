@@ -1,0 +1,274 @@
+## CoreTransparency
+
+> `/System/Library/PrivateFrameworks/CoreTransparency.framework/CoreTransparency`
+
+```diff
+
+-1547.120.12.0.0
+-  __TEXT.__text: 0x88f0
+-  __TEXT.__auth_stubs: 0x3c0
+-  __TEXT.__const: 0x1100
+-  __TEXT.__constg_swiftt: 0x470
+-  __TEXT.__swift5_typeref: 0x34d
+-  __TEXT.__swift5_reflstr: 0x488
+-  __TEXT.__swift5_fieldmd: 0x574
+-  __TEXT.__swift5_assocty: 0xc0
+-  __TEXT.__swift5_proto: 0xcc
+-  __TEXT.__swift5_types: 0x38
++1547.120.16.0.0
++  __TEXT.__text: 0x120b0
++  __TEXT.__auth_stubs: 0x570
++  __TEXT.__const: 0x2894
++  __TEXT.__swift5_typeref: 0xda8
++  __TEXT.__swift5_reflstr: 0xb18
++  __TEXT.__swift5_assocty: 0x3d8
++  __TEXT.__swift5_fieldmd: 0xd00
++  __TEXT.__constg_swiftt: 0x1034
++  __TEXT.__swift5_protos: 0x70
++  __TEXT.__swift5_proto: 0x1dc
++  __TEXT.__swift5_types: 0x9c
+   __TEXT.__swift5_types2: 0xc
+-  __TEXT.__swift5_protos: 0x20
+-  __TEXT.__cstring: 0x29d
+-  __TEXT.__unwind_info: 0x430
+-  __TEXT.__eh_frame: 0x308
+-  __DATA_CONST.__got: 0x48
++  __TEXT.__cstring: 0x31d
++  __TEXT.__unwind_info: 0x870
++  __TEXT.__eh_frame: 0x9b0
++  __DATA_CONST.__got: 0xb8
+   __DATA_CONST.__const: 0x30
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __AUTH_CONST.__auth_got: 0x1e0
+-  __AUTH_CONST.__const: 0xb70
+-  __AUTH.__data: 0x48
+-  __DATA.__data: 0x120
+-  __DATA.__bss: 0x1780
+-  - /System/Library/Frameworks/CryptoKit.framework/CryptoKit
++  __AUTH_CONST.__auth_got: 0x2b8
++  __AUTH_CONST.__const: 0x1a50
++  __AUTH.__data: 0x530
++  __DATA.__data: 0x210
++  __DATA.__bss: 0x3280
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+
+   - /usr/lib/swift/libswiftObjectiveC.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+-  UUID: 036CBC5C-84ED-31E5-9C72-7F9CF2534C40
+-  Functions: 501
+-  Symbols:   235
+-  CStrings:  26
++  UUID: C1BF5B54-CC09-3955-8A83-7837E3CAF25B
++  Functions: 1125
++  Symbols:   552
++  CStrings:  29
+ 
+Symbols:
++ ___stack_chk_fail
++ ___stack_chk_guard
++ ___swift_getEnumTagSinglePayload
++ ___swift_memcpy113_8
++ ___swift_memcpy17_8
++ ___swift_memcpy193_8
++ ___swift_memcpy25_8
++ ___swift_memcpy48_8
++ ___swift_memcpy56_8
++ ___swift_memcpy65_8
++ ___swift_memcpy72_8
++ ___swift_memcpy8_8
++ ___swift_memcpy9_8
++ ___swift_storeEnumTagSinglePayload
++ _associated conformance 16CoreTransparency042CTEscapableAETEventsResponseLogConsistencyE0VAA0defgE8ProtocolAA12SignedObjectAaDP_AA0ijH0
++ _associated conformance 16CoreTransparency042CTEscapableAETEventsResponseLogConsistencyE0VAA0defgE8ProtocolAA9ManyBytesAaDP_AA17CTBytesCollection
++ _associated conformance 16CoreTransparency10CTNodeTypeOSHAASQ
++ _associated conformance 16CoreTransparency10CTPBStatusOSHAASQ
++ _associated conformance 16CoreTransparency15CTChangeLogNodeVAA06ChangedE8ProtocolAA5BytesAaDP_AA18CTBytesConvertible
++ _associated conformance 16CoreTransparency15CTLogClosedNodeVAA03LogdE8ProtocolAA0G7VersionAaDP_SY
++ _associated conformance 16CoreTransparency15CTPATConfigNodeVAA09PATConfigD8ProtocolAA0F7VersionAaDP_SY
++ _associated conformance 16CoreTransparency15CTPATConfigNodeVAA09PATConfigD8ProtocolAA12VRFPublicKeyAaDP_AA0ghF0
++ _associated conformance 16CoreTransparency15CTPATConfigNodeVAA09PATConfigD8ProtocolAA5BytesAaDP_AA18CTBytesConvertible
++ _associated conformance 16CoreTransparency15CTPBApplicationOSHAASQ
++ _associated conformance 16CoreTransparency15CTTLTConfigNodeVAA09TLTConfigD8ProtocolAA0F7VersionAaDP_SY
++ _associated conformance 16CoreTransparency15CTTLTConfigNodeVAA09TLTConfigD8ProtocolAA5BytesAaDP_AA18CTBytesConvertible
++ _associated conformance 16CoreTransparency19CTEscapableLogEntryVAA0dE8ProtocolAA0D4TypeAaDP_SY
++ _associated conformance 16CoreTransparency19CTEscapableLogEntryVAA0dE8ProtocolAA12SignedObjectAaDP_AA0ghF0
++ _associated conformance 16CoreTransparency19CTEscapableLogEntryVAA0dE8ProtocolAA5BytesAaDP_AA18CTBytesConvertible
++ _associated conformance 16CoreTransparency19CTEscapableLogEntryVAA0dE8ProtocolAA8NodeTypeAaDP_SY
++ _associated conformance 16CoreTransparency19CTEscapableLogEntryVAA0dE8ProtocolAA9ManyBytesAaDP_AA17CTBytesCollection
++ _associated conformance 16CoreTransparency19CTEscapableMapEntryVAA0dE8ProtocolAA12SignedObjectAaDP_AA0ghF0
++ _associated conformance 16CoreTransparency19CTEscapableMapEntryVAA0dE8ProtocolAA5BytesAaDP_AA18CTBytesConvertible
++ _associated conformance 16CoreTransparency19CTEscapableMapEntryVAA0dE8ProtocolAA9ManyBytesAaDP_AA17CTBytesCollection
++ _associated conformance 16CoreTransparency19CTPBProtocolVersionOSHAASQ
++ _associated conformance 16CoreTransparency20CTEscapableSignatureVAA0D8ProtocolAA5BytesAaDP_AA18CTBytesConvertible
++ _associated conformance 16CoreTransparency20CTEscapableSignatureVAA0D8ProtocolAA9AlgorithmAaDP_SY
++ _associated conformance 16CoreTransparency20CTSignatureAlgorithmOSHAASQ
++ _associated conformance 16CoreTransparency21CTEscapableVRFWitnessVAA0D8ProtocolAA5BytesAaDP_AA18CTBytesConvertible
++ _associated conformance 16CoreTransparency21CTEscapableVRFWitnessVAA0D8ProtocolAA7VRFTypeAaDP_SY
++ _associated conformance 16CoreTransparency23CTEscapableSignedObjectVAA0dE8ProtocolAA5BytesAaDP_AA18CTBytesConvertible
++ _associated conformance 16CoreTransparency23CTEscapableSignedObjectVAA0dE8ProtocolAA9SignatureAaDP_AA0gF0
++ _associated conformance 16CoreTransparency23CTEscapableVRFPublicKeyVAA0dE8ProtocolAA5BytesAaDP_AA18CTBytesConvertible
++ _associated conformance 16CoreTransparency23CTEscapableVRFPublicKeyVAA0dE8ProtocolAA7VRFTypeAaDP_SY
++ _associated conformance 16CoreTransparency25CTEscapableInclusionProofVAA0dE8ProtocolAA5BytesAaDP_AA18CTBytesConvertible
++ _associated conformance 16CoreTransparency25CTEscapableInclusionProofVAA0dE8ProtocolAA8LogEntryAaDP_AA0ghF0
++ _associated conformance 16CoreTransparency25CTEscapableInclusionProofVAA0dE8ProtocolAA8MapEntryAaDP_AA0ghF0
++ _associated conformance 16CoreTransparency28CTEscapableAETEventsResponseVAA0dE8ProtocolAA014LogConsistencyE0AaDP_AA0degheF0
++ _associated conformance 16CoreTransparency28CTEscapableAETEventsResponseVAA0dE8ProtocolAA10VRFWitnessAaDP_AA0gF0
++ _associated conformance 16CoreTransparency28CTEscapableAETEventsResponseVAA0dE8ProtocolAA14InclusionProofAaDP_AA0ghF0
++ _associated conformance 16CoreTransparency28CTEscapableAETEventsResponseVAA0dE8ProtocolAA6StatusAaDP_SY
++ _associated conformance 16CoreTransparency9CTLogHeadVAA03LogD8ProtocolAA0E4TypeAaDP_SY
++ _associated conformance 16CoreTransparency9CTLogHeadVAA03LogD8ProtocolAA11ApplicationAaDP_SY
++ _associated conformance 16CoreTransparency9CTLogHeadVAA03LogD8ProtocolAA5BytesAaDP_AA18CTBytesConvertible
++ _associated conformance 16CoreTransparency9CTLogTypeOSHAASQ
++ _associated conformance 16CoreTransparency9CTMapHeadVAA03MapD8ProtocolAA03LogD0AaDP_AA0gdF0
++ _associated conformance 16CoreTransparency9CTMapHeadVAA03MapD8ProtocolAA0E4TypeAaDP_SY
++ _associated conformance 16CoreTransparency9CTMapHeadVAA03MapD8ProtocolAA11ApplicationAaDP_SY
++ _associated conformance 16CoreTransparency9CTMapHeadVAA03MapD8ProtocolAA5BytesAaDP_AA18CTBytesConvertible
++ _associated conformance 16CoreTransparency9CTMapTypeOSHAASQ
++ _associated conformance 16CoreTransparency9CTPATNodeVAA15PATNodeProtocolAA12SignedObjectAaDP_AA0fgE0
++ _associated conformance 16CoreTransparency9CTTLTNodeVAA15TLTNodeProtocolAA12SignedObjectAaDP_AA0fgE0
++ _associated conformance 16CoreTransparency9CTVRFTypeOSHAASQ
++ _get_enum_tag_for_layout_string 16CoreTransparency19CTEscapableLogEntryVSg
++ _get_type_metadata 16CoreTransparency16WireFormatReaderV noncopyable.4
++ _memcmp
++ _memmove
++ _swift_allocError
++ _swift_getTupleTypeMetadata2
++ _swift_retain
++ _symbolic $s16CoreTransparency031AETEventsResponseLogConsistencyD8ProtocolP
++ _symbolic $s16CoreTransparency15CTBytesSequenceP
++ _symbolic $s16CoreTransparency15LogHeadProtocolP
++ _symbolic $s16CoreTransparency15MapHeadProtocolP
++ _symbolic $s16CoreTransparency15PATNodeProtocolP
++ _symbolic $s16CoreTransparency15TLTNodeProtocolP
++ _symbolic $s16CoreTransparency16LogEntryProtocolP
++ _symbolic $s16CoreTransparency16MapEntryProtocolP
++ _symbolic $s16CoreTransparency17CTBytesCollectionP
++ _symbolic $s16CoreTransparency17SignatureProtocolP
++ _symbolic $s16CoreTransparency18CTBytesConvertibleP
++ _symbolic $s16CoreTransparency18VRFWitnessProtocolP
++ _symbolic $s16CoreTransparency20SignedObjectProtocolP
++ _symbolic $s16CoreTransparency20VRFPublicKeyProtocolP
++ _symbolic $s16CoreTransparency21ChangeLogNodeProtocolP
++ _symbolic $s16CoreTransparency21LogClosedNodeProtocolP
++ _symbolic $s16CoreTransparency21PATConfigNodeProtocolP
++ _symbolic $s16CoreTransparency21TLTConfigNodeProtocolP
++ _symbolic $s16CoreTransparency22InclusionProofProtocolP
++ _symbolic $s16CoreTransparency25AETEventsResponseProtocolP
++ _symbolic 10VRFWitness_____Qz 16CoreTransparency25AETEventsResponseProtocolP
++ _symbolic 11Application_____Qz 16CoreTransparency15LogHeadProtocolP
++ _symbolic 11Application_____Qz 16CoreTransparency15MapHeadProtocolP
++ _symbolic 11Application______8RawValueSYQZ 16CoreTransparency15LogHeadProtocolP
++ _symbolic 11Application______8RawValueSYQZ 16CoreTransparency15MapHeadProtocolP
++ _symbolic 12SignedObject_____Qz 16CoreTransparency031AETEventsResponseLogConsistencyD8ProtocolP
++ _symbolic 12SignedObject_____Qz 16CoreTransparency15PATNodeProtocolP
++ _symbolic 12SignedObject_____Qz 16CoreTransparency15TLTNodeProtocolP
++ _symbolic 12SignedObject_____Qz 16CoreTransparency16LogEntryProtocolP
++ _symbolic 12SignedObject_____Qz 16CoreTransparency16MapEntryProtocolP
++ _symbolic 12VRFPublicKey_____Qz 16CoreTransparency21PATConfigNodeProtocolP
++ _symbolic 14InclusionProof_____Qz 16CoreTransparency25AETEventsResponseProtocolP
++ _symbolic 15ProtocolVersion_____Qz 16CoreTransparency21LogClosedNodeProtocolP
++ _symbolic 15ProtocolVersion_____Qz 16CoreTransparency21PATConfigNodeProtocolP
++ _symbolic 15ProtocolVersion_____Qz 16CoreTransparency21TLTConfigNodeProtocolP
++ _symbolic 15ProtocolVersion______8RawValueSYQZ 16CoreTransparency21LogClosedNodeProtocolP
++ _symbolic 15ProtocolVersion______8RawValueSYQZ 16CoreTransparency21PATConfigNodeProtocolP
++ _symbolic 15ProtocolVersion______8RawValueSYQZ 16CoreTransparency21TLTConfigNodeProtocolP
++ _symbolic 22LogConsistencyResponse_____Qz 16CoreTransparency25AETEventsResponseProtocolP
++ _symbolic 5Bytes_____Qz 16CoreTransparency15LogHeadProtocolP
++ _symbolic 5Bytes_____Qz 16CoreTransparency15MapHeadProtocolP
++ _symbolic 5Bytes_____Qz 16CoreTransparency16LogEntryProtocolP
++ _symbolic 5Bytes_____Qz 16CoreTransparency16MapEntryProtocolP
++ _symbolic 5Bytes_____Qz 16CoreTransparency17SignatureProtocolP
++ _symbolic 5Bytes_____Qz 16CoreTransparency18VRFWitnessProtocolP
++ _symbolic 5Bytes_____Qz 16CoreTransparency20SignedObjectProtocolP
++ _symbolic 5Bytes_____Qz 16CoreTransparency20VRFPublicKeyProtocolP
++ _symbolic 5Bytes_____Qz 16CoreTransparency21ChangeLogNodeProtocolP
++ _symbolic 5Bytes_____Qz 16CoreTransparency21PATConfigNodeProtocolP
++ _symbolic 5Bytes_____Qz 16CoreTransparency21TLTConfigNodeProtocolP
++ _symbolic 5Bytes_____Qz 16CoreTransparency22InclusionProofProtocolP
++ _symbolic 6Status_____Qz 16CoreTransparency25AETEventsResponseProtocolP
++ _symbolic 6Status______8RawValueSYQZ 16CoreTransparency25AETEventsResponseProtocolP
++ _symbolic 7LogHead_____Qz 16CoreTransparency15MapHeadProtocolP
++ _symbolic 7LogType_____Qz 16CoreTransparency15LogHeadProtocolP
++ _symbolic 7LogType_____Qz 16CoreTransparency16LogEntryProtocolP
++ _symbolic 7LogType______8RawValueSYQZ 16CoreTransparency15LogHeadProtocolP
++ _symbolic 7LogType______8RawValueSYQZ 16CoreTransparency16LogEntryProtocolP
++ _symbolic 7MapType_____Qz 16CoreTransparency15MapHeadProtocolP
++ _symbolic 7MapType______8RawValueSYQZ 16CoreTransparency15MapHeadProtocolP
++ _symbolic 7VRFType_____Qz 16CoreTransparency18VRFWitnessProtocolP
++ _symbolic 7VRFType_____Qz 16CoreTransparency20VRFPublicKeyProtocolP
++ _symbolic 7VRFType______8RawValueSYQZ 16CoreTransparency18VRFWitnessProtocolP
++ _symbolic 7VRFType______8RawValueSYQZ 16CoreTransparency20VRFPublicKeyProtocolP
++ _symbolic 8LogEntry_____Qz 16CoreTransparency22InclusionProofProtocolP
++ _symbolic 8MapEntry_____Qz 16CoreTransparency22InclusionProofProtocolP
++ _symbolic 8NodeType_____Qz 16CoreTransparency16LogEntryProtocolP
++ _symbolic 8NodeType______8RawValueSYQZ 16CoreTransparency16LogEntryProtocolP
++ _symbolic 9Algorithm_____Qz 16CoreTransparency17SignatureProtocolP
++ _symbolic 9Algorithm______8RawValueSYQZ 16CoreTransparency17SignatureProtocolP
++ _symbolic 9ManyBytes_____Qz 16CoreTransparency031AETEventsResponseLogConsistencyD8ProtocolP
++ _symbolic 9ManyBytes_____Qz 16CoreTransparency16LogEntryProtocolP
++ _symbolic 9ManyBytes_____Qz 16CoreTransparency16MapEntryProtocolP
++ _symbolic 9Signature_____Qz 16CoreTransparency20SignedObjectProtocolP
++ _symbolic SaySay_____GG s5UInt8V
++ _symbolic Say_____G 16CoreTransparency042CTEscapableAETEventsResponseLogConsistencyE0V
++ _symbolic Say_____G 16CoreTransparency25CTEscapableInclusionProofV
++ _symbolic Say_____G s5UInt8V
++ _symbolic Sb
++ _symbolic SnySiG
++ _symbolic _____ 16CoreTransparency042CTEscapableAETEventsResponseLogConsistencyE0V
++ _symbolic _____ 16CoreTransparency10CTNodeTypeO
++ _symbolic _____ 16CoreTransparency10CTPBStatusO
++ _symbolic _____ 16CoreTransparency15CTChangeLogNodeV
++ _symbolic _____ 16CoreTransparency15CTLogClosedNodeV
++ _symbolic _____ 16CoreTransparency15CTPATConfigNodeV
++ _symbolic _____ 16CoreTransparency15CTPBApplicationO
++ _symbolic _____ 16CoreTransparency15CTTLTConfigNodeV
++ _symbolic _____ 16CoreTransparency19CTEscapableLogEntryV
++ _symbolic _____ 16CoreTransparency19CTEscapableMapEntryV
++ _symbolic _____ 16CoreTransparency19CTPBProtocolVersionO
++ _symbolic _____ 16CoreTransparency20CTEscapableSignatureV
++ _symbolic _____ 16CoreTransparency20CTSignatureAlgorithmO
++ _symbolic _____ 16CoreTransparency21CTEscapableVRFWitnessV
++ _symbolic _____ 16CoreTransparency23CTEscapableSignedObjectV
++ _symbolic _____ 16CoreTransparency23CTEscapableVRFPublicKeyV
++ _symbolic _____ 16CoreTransparency25CTEscapableInclusionProofV
++ _symbolic _____ 16CoreTransparency28CTEscapableAETEventsResponseV
++ _symbolic _____ 16CoreTransparency9CTLogHeadV
++ _symbolic _____ 16CoreTransparency9CTLogTypeO
++ _symbolic _____ 16CoreTransparency9CTMapHeadV
++ _symbolic _____ 16CoreTransparency9CTMapTypeO
++ _symbolic _____ 16CoreTransparency9CTPATNodeV
++ _symbolic _____ 16CoreTransparency9CTTLTNodeV
++ _symbolic _____ 16CoreTransparency9CTVRFTypeO
++ _symbolic _____ s5UInt8V
++ _symbolic _____ s6UInt64V
++ _symbolic _____Sg 16CoreTransparency19CTEscapableLogEntryV
++ _type_layout_string 16CoreTransparency042CTEscapableAETEventsResponseLogConsistencyE0V
++ _type_layout_string 16CoreTransparency15CTChangeLogNodeV
++ _type_layout_string 16CoreTransparency15CTLogClosedNodeV
++ _type_layout_string 16CoreTransparency15CTPATConfigNodeV
++ _type_layout_string 16CoreTransparency15CTTLTConfigNodeV
++ _type_layout_string 16CoreTransparency19CTEscapableLogEntryV
++ _type_layout_string 16CoreTransparency19CTEscapableMapEntryV
++ _type_layout_string 16CoreTransparency20CTEscapableSignatureV
++ _type_layout_string 16CoreTransparency21CTEscapableVRFWitnessV
++ _type_layout_string 16CoreTransparency23CTEscapableSignedObjectV
++ _type_layout_string 16CoreTransparency23CTEscapableVRFPublicKeyV
++ _type_layout_string 16CoreTransparency25CTEscapableInclusionProofV
++ _type_layout_string 16CoreTransparency28CTEscapableAETEventsResponseV
++ _type_layout_string 16CoreTransparency9CTLogHeadV
++ _type_layout_string 16CoreTransparency9CTMapHeadV
++ _type_layout_string 16CoreTransparency9CTPATNodeV
+- __swift_stdlib_malloc_size
+- _get_type_metadata 16CoreTransparency16WireFormatReaderV noncopyable.1
+- _malloc_size
+- _swift_allocObject
+- _symbolic _____y_____G s23_ContiguousArrayStorageC s5UInt8V
+CStrings:
++ "com.apple.TransparencyTLSError.excessBytes("
++ "com.apple.TransparencyTLSError.truncatedMessage("
++ "offset element "
+
+```

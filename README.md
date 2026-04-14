@@ -46,6 +46,7 @@
 <details open>
   <summary>View diffs</summary>
 
+- [26.5 beta 1 _(v2)_ (23F5043k) .vs 26.5 beta 2 (23F5054h) __OTAs__](26_5_23F5043k_vs_26_5_23F5054h/README.md)
 - [26.5 beta 1 (23F5043g) .vs 26.5 beta 1 _(v2)_ (23F5043k)](26_5_23F5043g__vs_26_5_23F5043k/README.md)
 - [26.4 (23E246) .vs 26.5 beta 1 (23F5043g)](26_4_23E246__vs_26_5_23F5043g/README.md)
 
