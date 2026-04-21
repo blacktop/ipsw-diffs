@@ -1,0 +1,2473 @@
+## WebKit
+
+> `/System/Library/Frameworks/WebKit.framework/WebKit`
+
+```diff
+
+-624.2.2.10.1
+-  __TEXT.__text: 0x12a38f4
++624.2.4.10.1
++  __TEXT.__text: 0x1298e98
+   __TEXT.__auth_stubs: 0x19e50
+   __TEXT.__delay_helper: 0xdc
+-  __TEXT.__objc_methlist: 0x1a9ec
++  __TEXT.__objc_methlist: 0x1aa6c
+   __TEXT.__dlsym_cstr: 0x954
+   __TEXT.__getClass_cstr: 0xace
+   __TEXT.__const: 0x6128
+-  __TEXT.__cstring: 0x1db5ad
++  __TEXT.__cstring: 0x1d9bae
+   __TEXT.__swift5_typeref: 0x1084
+   __TEXT.__constg_swiftt: 0xcf0
+   __TEXT.__swift5_reflstr: 0x8c2
+
+   __TEXT.__swift_as_ret: 0x130
+   __TEXT.__swift5_assocty: 0x210
+   __TEXT.__swift5_types2: 0x4
+-  __TEXT.__gcc_except_tab: 0x7bd94
+-  __TEXT.__oslogstring: 0x5bbf9
++  __TEXT.__gcc_except_tab: 0x7bb54
++  __TEXT.__oslogstring: 0x5bee2
+   __TEXT.__ustring: 0xd44
+-  __TEXT.__unwind_info: 0x2f2d0
++  __TEXT.__unwind_info: 0x2f370
+   __TEXT.__eh_frame: 0x2490
+-  __TEXT.__objc_classname: 0x376f
+-  __TEXT.__objc_methname: 0x4c54c
+-  __TEXT.__objc_methtype: 0x3d1fa
++  __TEXT.__objc_classname: 0x37b2
++  __TEXT.__objc_methname: 0x4c52c
++  __TEXT.__objc_methtype: 0x3d255
+   __TEXT.__objc_stubs: 0x2cbc0
+   __DATA_CONST.__got: 0x2258
+   __DATA_CONST.__const: 0x212b0
+-  __DATA_CONST.__objc_classlist: 0xcb8
++  __DATA_CONST.__objc_classlist: 0xcc0
+   __DATA_CONST.__objc_catlist: 0x58
+-  __DATA_CONST.__objc_protolist: 0x468
++  __DATA_CONST.__objc_protolist: 0x470
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_selrefs: 0x10e00
+   __DATA_CONST.__objc_protorefs: 0xa8
+-  __DATA_CONST.__objc_superrefs: 0xa08
++  __DATA_CONST.__objc_superrefs: 0xa10
+   __DATA_CONST.__objc_arraydata: 0x5f8
+   __AUTH_CONST.__auth_got: 0xcf40
+-  __AUTH_CONST.__const: 0x6bb30
++  __AUTH_CONST.__const: 0x6bbd0
+   __AUTH_CONST.__cfstring: 0x13340
+-  __AUTH_CONST.__objc_const: 0x29b20
++  __AUTH_CONST.__objc_const: 0x29c48
+   __AUTH_CONST.__objc_intobj: 0x618
+   __AUTH_CONST.__objc_dictobj: 0x190
+   __AUTH_CONST.__objc_arrayobj: 0xd8
+   __AUTH_CONST.__objc_doubleobj: 0x20
+-  __AUTH.__objc_data: 0x60d0
+-  __AUTH.__data: 0x820
+-  __DATA.__objc_ivar: 0x11cc
+-  __DATA.__data: 0x3e44
++  __AUTH.__objc_data: 0x6120
++  __AUTH.__data: 0x818
++  __DATA.__objc_ivar: 0x11d0
++  __DATA.__data: 0x3ea4
+   __DATA.__common: 0x1470
+   __DATA.__bss: 0x3390
+   __DATA_DIRTY.__objc_ivar: 0x418
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: B6A95093-3822-35C3-A9CA-F1BEE910E578
+-  Functions: 77045
+-  Symbols:   209458
+-  CStrings:  33988
++  UUID: 308CE214-9C02-36F9-AFBA-6F455DCFAD94
++  Functions: 77162
++  Symbols:   209468
++  CStrings:  34004
+ 
+Symbols:
++ -[WKCompactContextMenuPresenterControl .cxx_destruct]
++ -[WKCompactContextMenuPresenterControl contextMenuInteraction:configuration:highlightPreviewForItemWithIdentifier:]
++ -[WKCompactContextMenuPresenterControl contextMenuInteraction:configurationForMenuAtLocation:]
++ -[WKCompactContextMenuPresenterControl contextMenuInteraction:willDisplayMenuForConfiguration:animator:]
++ -[WKCompactContextMenuPresenterControl contextMenuInteraction:willEndForConfiguration:animator:]
++ -[WKCompactContextMenuPresenterControl externalDelegate]
++ -[WKCompactContextMenuPresenterControl setExternalDelegate:]
++ GCC_except_table1002
++ GCC_except_table1009
++ GCC_except_table1011
++ GCC_except_table1015
++ GCC_except_table1019
++ GCC_except_table1027
++ GCC_except_table1029
++ GCC_except_table1037
++ GCC_except_table1039
++ GCC_except_table1046
++ GCC_except_table1048
++ GCC_except_table1061
++ GCC_except_table1062
++ GCC_except_table1068
++ GCC_except_table1070
++ GCC_except_table1075
++ GCC_except_table1096
++ GCC_except_table1099
++ GCC_except_table1103
++ GCC_except_table1104
++ GCC_except_table1109
++ GCC_except_table1118
++ GCC_except_table1121
++ GCC_except_table1127
++ GCC_except_table1134
++ GCC_except_table1139
++ GCC_except_table1160
++ GCC_except_table1162
++ GCC_except_table1164
++ GCC_except_table1178
++ GCC_except_table1179
++ GCC_except_table1188
++ GCC_except_table1190
++ GCC_except_table1192
++ GCC_except_table1202
++ GCC_except_table1211
++ GCC_except_table1217
++ GCC_except_table1236
++ GCC_except_table1243
++ GCC_except_table1248
++ GCC_except_table1249
++ GCC_except_table1267
++ GCC_except_table1278
++ GCC_except_table1299
++ GCC_except_table1304
++ GCC_except_table1307
++ GCC_except_table1323
++ GCC_except_table1324
++ GCC_except_table1334
++ GCC_except_table1336
++ GCC_except_table1347
++ GCC_except_table1357
++ GCC_except_table1358
++ GCC_except_table1375
++ GCC_except_table1376
++ GCC_except_table1378
++ GCC_except_table1379
++ GCC_except_table1382
++ GCC_except_table1398
++ GCC_except_table1401
++ GCC_except_table1402
++ GCC_except_table1404
++ GCC_except_table1415
++ GCC_except_table1418
++ GCC_except_table1419
++ GCC_except_table1421
++ GCC_except_table1432
++ GCC_except_table1434
++ GCC_except_table1438
++ GCC_except_table1442
++ GCC_except_table1445
++ GCC_except_table1448
++ GCC_except_table1451
++ GCC_except_table1470
++ GCC_except_table1479
++ GCC_except_table1484
++ GCC_except_table1490
++ GCC_except_table1491
++ GCC_except_table1493
++ GCC_except_table1496
++ GCC_except_table1499
++ GCC_except_table1508
++ GCC_except_table1513
++ GCC_except_table1522
++ GCC_except_table1523
++ GCC_except_table1528
++ GCC_except_table1531
++ GCC_except_table1536
++ GCC_except_table1538
++ GCC_except_table1542
++ GCC_except_table1544
++ GCC_except_table1554
++ GCC_except_table1555
++ GCC_except_table1561
++ GCC_except_table1562
++ GCC_except_table1565
++ GCC_except_table1567
++ GCC_except_table1572
++ GCC_except_table1574
++ GCC_except_table1576
++ GCC_except_table1579
++ GCC_except_table1586
++ GCC_except_table1593
++ GCC_except_table1597
++ GCC_except_table1599
++ GCC_except_table1608
++ GCC_except_table1613
++ GCC_except_table1618
++ GCC_except_table1623
++ GCC_except_table1625
++ GCC_except_table1626
++ GCC_except_table1628
++ GCC_except_table1629
++ GCC_except_table1633
++ GCC_except_table1635
++ GCC_except_table1647
++ GCC_except_table1649
++ GCC_except_table1652
++ GCC_except_table1657
++ GCC_except_table1659
++ GCC_except_table1662
++ GCC_except_table1663
++ GCC_except_table1665
++ GCC_except_table1673
++ GCC_except_table1681
++ GCC_except_table1691
++ GCC_except_table1696
++ GCC_except_table1697
++ GCC_except_table1714
++ GCC_except_table1718
++ GCC_except_table1719
++ GCC_except_table1721
++ GCC_except_table1722
++ GCC_except_table1723
++ GCC_except_table1725
++ GCC_except_table1727
++ GCC_except_table1739
++ GCC_except_table1743
++ GCC_except_table1744
++ GCC_except_table1747
++ GCC_except_table1752
++ GCC_except_table1756
++ GCC_except_table1759
++ GCC_except_table1763
++ GCC_except_table1765
++ GCC_except_table1767
++ GCC_except_table1772
++ GCC_except_table1778
++ GCC_except_table1781
++ GCC_except_table1786
++ GCC_except_table1790
++ GCC_except_table1792
++ GCC_except_table1794
++ GCC_except_table1795
++ GCC_except_table1797
++ GCC_except_table1799
++ GCC_except_table1801
++ GCC_except_table1806
++ GCC_except_table1820
++ GCC_except_table1821
++ GCC_except_table1825
++ GCC_except_table1827
++ GCC_except_table1844
++ GCC_except_table1846
++ GCC_except_table1847
++ GCC_except_table1850
++ GCC_except_table1851
++ GCC_except_table1864
++ GCC_except_table1865
++ GCC_except_table1867
++ GCC_except_table1869
++ GCC_except_table1871
++ GCC_except_table1873
++ GCC_except_table1881
++ GCC_except_table1889
++ GCC_except_table1894
++ GCC_except_table1896
++ GCC_except_table1908
++ GCC_except_table1914
++ GCC_except_table1920
++ GCC_except_table1921
++ GCC_except_table1922
++ GCC_except_table1924
++ GCC_except_table1926
++ GCC_except_table1928
++ GCC_except_table1929
++ GCC_except_table1936
++ GCC_except_table1944
++ GCC_except_table1949
++ GCC_except_table1950
++ GCC_except_table1954
++ GCC_except_table1957
++ GCC_except_table1966
++ GCC_except_table1970
++ GCC_except_table1978
++ GCC_except_table1979
++ GCC_except_table1984
++ GCC_except_table1987
++ GCC_except_table1991
++ GCC_except_table1992
++ GCC_except_table2005
++ GCC_except_table2008
++ GCC_except_table2011
++ GCC_except_table2020
++ GCC_except_table2025
++ GCC_except_table2029
++ GCC_except_table2035
++ GCC_except_table2038
++ GCC_except_table2039
++ GCC_except_table2043
++ GCC_except_table2056
++ GCC_except_table2062
++ GCC_except_table2068
++ GCC_except_table2072
++ GCC_except_table2087
++ GCC_except_table2090
++ GCC_except_table2091
++ GCC_except_table2093
++ GCC_except_table2096
++ GCC_except_table2100
++ GCC_except_table2153
++ GCC_except_table2158
++ GCC_except_table2161
++ GCC_except_table2164
++ GCC_except_table2172
++ GCC_except_table2175
++ GCC_except_table2182
++ GCC_except_table2186
++ GCC_except_table2190
++ GCC_except_table2203
++ GCC_except_table2207
++ GCC_except_table2208
++ GCC_except_table2209
++ GCC_except_table2211
++ GCC_except_table2213
++ GCC_except_table2226
++ GCC_except_table2228
++ GCC_except_table2230
++ GCC_except_table2232
++ GCC_except_table2234
++ GCC_except_table2494
++ GCC_except_table2495
++ GCC_except_table2496
++ GCC_except_table2500
++ GCC_except_table2502
++ GCC_except_table2503
++ GCC_except_table2504
++ GCC_except_table2510
++ GCC_except_table2518
++ GCC_except_table2520
++ GCC_except_table2521
++ GCC_except_table2531
++ GCC_except_table2536
++ GCC_except_table2576
++ GCC_except_table2582
++ GCC_except_table2589
++ GCC_except_table2592
++ GCC_except_table2596
++ GCC_except_table2603
++ GCC_except_table2609
++ GCC_except_table2613
++ GCC_except_table2614
++ GCC_except_table2616
++ GCC_except_table2617
++ GCC_except_table2620
++ GCC_except_table2622
++ GCC_except_table2627
++ GCC_except_table2630
++ GCC_except_table2633
++ GCC_except_table2637
++ GCC_except_table2638
++ GCC_except_table2640
++ GCC_except_table2641
++ GCC_except_table2647
++ GCC_except_table2651
++ GCC_except_table2655
++ GCC_except_table2660
++ GCC_except_table2665
++ GCC_except_table2669
++ GCC_except_table2670
++ GCC_except_table2671
++ GCC_except_table2673
++ GCC_except_table2674
++ GCC_except_table2680
++ GCC_except_table2684
++ GCC_except_table2690
++ GCC_except_table2693
++ GCC_except_table2695
++ GCC_except_table2700
++ GCC_except_table2703
++ GCC_except_table2706
++ GCC_except_table2708
++ GCC_except_table2710
++ GCC_except_table2711
++ GCC_except_table2714
++ GCC_except_table2716
++ GCC_except_table2726
++ GCC_except_table2730
++ GCC_except_table2731
++ GCC_except_table2736
++ GCC_except_table2737
++ GCC_except_table2738
++ GCC_except_table2742
++ GCC_except_table2743
++ GCC_except_table2744
++ GCC_except_table2757
++ GCC_except_table2759
++ GCC_except_table2760
++ GCC_except_table2761
++ GCC_except_table2762
++ GCC_except_table2790
++ GCC_except_table2800
++ GCC_except_table2804
++ GCC_except_table2808
++ GCC_except_table2818
++ GCC_except_table2819
++ GCC_except_table2823
++ GCC_except_table2824
++ GCC_except_table2829
++ GCC_except_table2842
++ GCC_except_table2843
++ GCC_except_table2844
++ GCC_except_table2859
++ GCC_except_table2863
++ GCC_except_table2874
++ GCC_except_table2875
++ GCC_except_table2879
++ GCC_except_table2880
++ GCC_except_table2894
++ GCC_except_table2897
++ GCC_except_table2902
++ GCC_except_table2904
++ GCC_except_table2908
++ GCC_except_table2909
++ GCC_except_table2910
++ GCC_except_table2912
++ GCC_except_table2914
++ GCC_except_table2969
++ GCC_except_table2971
++ GCC_except_table2972
++ GCC_except_table2977
++ GCC_except_table2993
++ GCC_except_table2994
++ GCC_except_table3007
++ GCC_except_table3008
++ GCC_except_table3010
++ GCC_except_table3019
++ GCC_except_table3028
++ GCC_except_table3031
++ GCC_except_table3032
++ GCC_except_table3043
++ GCC_except_table3044
++ GCC_except_table3051
++ GCC_except_table3057
++ GCC_except_table3063
++ GCC_except_table3068
++ GCC_except_table3081
++ GCC_except_table3082
++ GCC_except_table3083
++ GCC_except_table3102
++ GCC_except_table3118
++ GCC_except_table3119
++ GCC_except_table3121
++ GCC_except_table3122
++ GCC_except_table3126
++ GCC_except_table3135
++ GCC_except_table3141
++ GCC_except_table3143
++ GCC_except_table3144
++ GCC_except_table3147
++ GCC_except_table3148
++ GCC_except_table3150
++ GCC_except_table3168
++ GCC_except_table3169
++ GCC_except_table3171
++ GCC_except_table3176
++ GCC_except_table3177
++ GCC_except_table3188
++ GCC_except_table3193
++ GCC_except_table3194
++ GCC_except_table3197
++ GCC_except_table3200
++ GCC_except_table3202
++ GCC_except_table3205
++ GCC_except_table3206
++ GCC_except_table3209
++ GCC_except_table3211
++ GCC_except_table3218
++ GCC_except_table3223
++ GCC_except_table3230
++ GCC_except_table3238
++ GCC_except_table3242
++ GCC_except_table3244
++ GCC_except_table3255
++ GCC_except_table3257
++ GCC_except_table3258
++ GCC_except_table3262
++ GCC_except_table3263
++ GCC_except_table3270
++ GCC_except_table3274
++ GCC_except_table3278
++ GCC_except_table3281
++ GCC_except_table3282
++ GCC_except_table3283
++ GCC_except_table3285
++ GCC_except_table3297
++ GCC_except_table3300
++ GCC_except_table3303
++ GCC_except_table3304
++ GCC_except_table3305
++ GCC_except_table3306
++ GCC_except_table3308
++ GCC_except_table3309
++ GCC_except_table3311
++ GCC_except_table3390
++ GCC_except_table3391
++ GCC_except_table3392
++ GCC_except_table3428
++ GCC_except_table3447
++ GCC_except_table3448
++ GCC_except_table3452
++ GCC_except_table3472
++ GCC_except_table3473
++ GCC_except_table3481
++ GCC_except_table3493
++ GCC_except_table3503
++ GCC_except_table3504
++ GCC_except_table3506
++ GCC_except_table3507
++ GCC_except_table3510
++ GCC_except_table3514
++ GCC_except_table3516
++ GCC_except_table3550
++ GCC_except_table3551
++ GCC_except_table3552
++ GCC_except_table3553
++ GCC_except_table3554
++ GCC_except_table3555
++ GCC_except_table3556
++ GCC_except_table3557
++ GCC_except_table3564
++ GCC_except_table3585
++ GCC_except_table3587
++ GCC_except_table3588
++ GCC_except_table3607
++ GCC_except_table3617
++ GCC_except_table3619
++ GCC_except_table3626
++ GCC_except_table3643
++ GCC_except_table3644
++ GCC_except_table3661
++ GCC_except_table3662
++ GCC_except_table3667
++ GCC_except_table3668
++ GCC_except_table3680
++ GCC_except_table3687
++ GCC_except_table3688
++ GCC_except_table3699
++ GCC_except_table3704
++ GCC_except_table3724
++ GCC_except_table3725
++ GCC_except_table3726
++ GCC_except_table3727
++ GCC_except_table3733
++ GCC_except_table3734
++ GCC_except_table3741
++ GCC_except_table3766
++ GCC_except_table3767
++ GCC_except_table3773
++ GCC_except_table3774
++ GCC_except_table3775
++ GCC_except_table3778
++ GCC_except_table3779
++ GCC_except_table3780
++ GCC_except_table3803
++ GCC_except_table3804
++ GCC_except_table3812
++ GCC_except_table3814
++ GCC_except_table3830
++ GCC_except_table3849
++ GCC_except_table3864
++ GCC_except_table3865
++ GCC_except_table3882
++ GCC_except_table3885
++ GCC_except_table3886
++ GCC_except_table3902
++ GCC_except_table3903
++ GCC_except_table3918
++ GCC_except_table3919
++ GCC_except_table3920
++ GCC_except_table3932
++ GCC_except_table3940
++ GCC_except_table3948
++ GCC_except_table3955
++ GCC_except_table3958
++ GCC_except_table3961
++ GCC_except_table3981
++ GCC_except_table3993
++ GCC_except_table4020
++ GCC_except_table4021
++ GCC_except_table4043
++ GCC_except_table4045
++ GCC_except_table4046
++ GCC_except_table4055
++ GCC_except_table4059
++ GCC_except_table4071
++ GCC_except_table4078
++ GCC_except_table4112
++ GCC_except_table4124
++ GCC_except_table4125
++ GCC_except_table4126
++ GCC_except_table4127
++ GCC_except_table4134
++ GCC_except_table4137
++ GCC_except_table4155
++ GCC_except_table4162
++ GCC_except_table4164
++ GCC_except_table4186
++ GCC_except_table4187
++ GCC_except_table4188
++ GCC_except_table4217
++ GCC_except_table4218
++ GCC_except_table4221
++ GCC_except_table4223
++ GCC_except_table4244
++ GCC_except_table4245
++ GCC_except_table4247
++ GCC_except_table4250
++ GCC_except_table4252
++ GCC_except_table4253
++ GCC_except_table4260
++ GCC_except_table4275
++ GCC_except_table4276
++ GCC_except_table4281
++ GCC_except_table4283
++ GCC_except_table4289
++ GCC_except_table4297
++ GCC_except_table4318
++ GCC_except_table4319
++ GCC_except_table4333
++ GCC_except_table4335
++ GCC_except_table4337
++ GCC_except_table4347
++ GCC_except_table4348
++ GCC_except_table4350
++ GCC_except_table4376
++ GCC_except_table4383
++ GCC_except_table4391
++ GCC_except_table4405
++ GCC_except_table4406
++ GCC_except_table4409
++ GCC_except_table4433
++ GCC_except_table4437
++ GCC_except_table4444
++ GCC_except_table4445
++ GCC_except_table4448
++ GCC_except_table4455
++ GCC_except_table4456
++ GCC_except_table4459
++ GCC_except_table4477
++ GCC_except_table4485
++ GCC_except_table4501
++ GCC_except_table4506
++ GCC_except_table4507
++ GCC_except_table4508
++ GCC_except_table4532
++ GCC_except_table4536
++ GCC_except_table4544
++ GCC_except_table4570
++ GCC_except_table4572
++ GCC_except_table4583
++ GCC_except_table4584
++ GCC_except_table4585
++ GCC_except_table4596
++ GCC_except_table4597
++ GCC_except_table4598
++ GCC_except_table4601
++ GCC_except_table4615
++ GCC_except_table4616
++ GCC_except_table4629
++ GCC_except_table4630
++ GCC_except_table4645
++ GCC_except_table4646
++ GCC_except_table4649
++ GCC_except_table4680
++ GCC_except_table4683
++ GCC_except_table4685
++ GCC_except_table4687
++ GCC_except_table4702
++ GCC_except_table4705
++ GCC_except_table4722
++ GCC_except_table4742
++ GCC_except_table4751
++ GCC_except_table4752
++ GCC_except_table4757
++ GCC_except_table4766
++ GCC_except_table4779
++ GCC_except_table4786
++ GCC_except_table4788
++ GCC_except_table4793
++ GCC_except_table4795
++ GCC_except_table4808
++ GCC_except_table4809
++ GCC_except_table4810
++ GCC_except_table4813
++ GCC_except_table4816
++ GCC_except_table4864
++ GCC_except_table4870
++ GCC_except_table4882
++ GCC_except_table4929
++ GCC_except_table4934
++ GCC_except_table4936
++ GCC_except_table4941
++ GCC_except_table4943
++ GCC_except_table4958
++ GCC_except_table4960
++ GCC_except_table4963
++ GCC_except_table4968
++ GCC_except_table4969
++ GCC_except_table4977
++ GCC_except_table4980
++ GCC_except_table4999
++ GCC_except_table5005
++ GCC_except_table5007
++ GCC_except_table5014
++ GCC_except_table5015
++ GCC_except_table5018
++ GCC_except_table5022
++ GCC_except_table5023
++ GCC_except_table5037
++ GCC_except_table5040
++ GCC_except_table5046
++ GCC_except_table5047
++ GCC_except_table5050
++ GCC_except_table5055
++ GCC_except_table5056
++ GCC_except_table5059
++ GCC_except_table5084
++ GCC_except_table5095
++ GCC_except_table5098
++ GCC_except_table5109
++ GCC_except_table5110
++ GCC_except_table5111
++ GCC_except_table5114
++ GCC_except_table5141
++ GCC_except_table5158
++ GCC_except_table5159
++ GCC_except_table5164
++ GCC_except_table5189
++ GCC_except_table5197
++ GCC_except_table5201
++ GCC_except_table5202
++ GCC_except_table5214
++ GCC_except_table5225
++ GCC_except_table5233
++ GCC_except_table5248
++ GCC_except_table5258
++ GCC_except_table5266
++ GCC_except_table5273
++ GCC_except_table5281
++ GCC_except_table5285
++ GCC_except_table5294
++ GCC_except_table5299
++ GCC_except_table5302
++ GCC_except_table5307
++ GCC_except_table5313
++ GCC_except_table5323
++ GCC_except_table5332
++ GCC_except_table5335
++ GCC_except_table5345
++ GCC_except_table5346
++ GCC_except_table5348
++ GCC_except_table5361
++ GCC_except_table5363
++ GCC_except_table5377
++ GCC_except_table5378
++ GCC_except_table5389
++ GCC_except_table5390
++ GCC_except_table5391
++ GCC_except_table5392
++ GCC_except_table5393
++ GCC_except_table5394
++ GCC_except_table5395
++ GCC_except_table5401
++ GCC_except_table5402
++ GCC_except_table5404
++ GCC_except_table5408
++ GCC_except_table5416
++ GCC_except_table5429
++ GCC_except_table5430
++ GCC_except_table5440
++ GCC_except_table5443
++ GCC_except_table5444
++ GCC_except_table5457
++ GCC_except_table5458
++ GCC_except_table5461
++ GCC_except_table5490
++ GCC_except_table5491
++ GCC_except_table5492
++ GCC_except_table5496
++ GCC_except_table5498
++ GCC_except_table5504
++ GCC_except_table5505
++ GCC_except_table5507
++ GCC_except_table5532
++ GCC_except_table5565
++ GCC_except_table5566
++ GCC_except_table5569
++ GCC_except_table5573
++ GCC_except_table5575
++ GCC_except_table5577
++ GCC_except_table5587
++ GCC_except_table5588
++ GCC_except_table5596
++ GCC_except_table5610
++ GCC_except_table5615
++ GCC_except_table5617
++ GCC_except_table5619
++ GCC_except_table5626
++ GCC_except_table5627
++ GCC_except_table5629
++ GCC_except_table5656
++ GCC_except_table5659
++ GCC_except_table5662
++ GCC_except_table5664
++ GCC_except_table5667
++ GCC_except_table5680
++ GCC_except_table5681
++ GCC_except_table5689
++ GCC_except_table5692
++ GCC_except_table5696
++ GCC_except_table5705
++ GCC_except_table5708
++ GCC_except_table5711
++ GCC_except_table5713
++ GCC_except_table5715
++ GCC_except_table5736
++ GCC_except_table574
++ GCC_except_table5742
++ GCC_except_table5745
++ GCC_except_table576
++ GCC_except_table5761
++ GCC_except_table5766
++ GCC_except_table5782
++ GCC_except_table5783
++ GCC_except_table5784
++ GCC_except_table5785
++ GCC_except_table579
++ GCC_except_table5791
++ GCC_except_table5797
++ GCC_except_table580
++ GCC_except_table5807
++ GCC_except_table5834
++ GCC_except_table5844
++ GCC_except_table5851
++ GCC_except_table5868
++ GCC_except_table5883
++ GCC_except_table5884
++ GCC_except_table5907
++ GCC_except_table5908
++ GCC_except_table5930
++ GCC_except_table5955
++ GCC_except_table5956
++ GCC_except_table5994
++ GCC_except_table6002
++ GCC_except_table6035
++ GCC_except_table6037
++ GCC_except_table6039
++ GCC_except_table6048
++ GCC_except_table617
++ GCC_except_table635
++ GCC_except_table642
++ GCC_except_table655
++ GCC_except_table659
++ GCC_except_table668
++ GCC_except_table690
++ GCC_except_table704
++ GCC_except_table709
++ GCC_except_table717
++ GCC_except_table720
++ GCC_except_table723
++ GCC_except_table724
++ GCC_except_table729
++ GCC_except_table742
++ GCC_except_table743
++ GCC_except_table745
++ GCC_except_table754
++ GCC_except_table769
++ GCC_except_table770
++ GCC_except_table773
++ GCC_except_table777
++ GCC_except_table778
++ GCC_except_table796
++ GCC_except_table845
++ GCC_except_table866
++ GCC_except_table876
++ GCC_except_table879
++ GCC_except_table883
++ GCC_except_table886
++ GCC_except_table898
++ GCC_except_table900
++ GCC_except_table904
++ GCC_except_table915
++ GCC_except_table916
++ GCC_except_table920
++ GCC_except_table922
++ GCC_except_table937
++ GCC_except_table938
++ GCC_except_table943
++ GCC_except_table944
++ GCC_except_table947
++ GCC_except_table956
++ GCC_except_table969
++ GCC_except_table973
++ GCC_except_table983
++ GCC_except_table991
++ GCC_except_table994
++ GCC_except_table999
++ _OBJC_CLASS_$_WKCompactContextMenuPresenterControl
++ _OBJC_IVAR_$_WKCompactContextMenuPresenterControl._externalDelegate
++ _OBJC_METACLASS_$_UIControl
++ _OBJC_METACLASS_$_WKCompactContextMenuPresenterControl
++ __MergedGlobals.105
++ __MergedGlobals.208
++ __MergedGlobals.234
++ __MergedGlobals.276
++ __MergedGlobals.277
++ __MergedGlobals.373
++ __MergedGlobals.374
++ __MergedGlobals.871
++ __MergedGlobals.997
++ __MergedGlobals.998
++ __OBJC_$_INSTANCE_METHODS_WKCompactContextMenuPresenterControl
++ __OBJC_$_INSTANCE_VARIABLES_WKCompactContextMenuPresenterControl
++ __OBJC_$_PROP_LIST_WKCompactContextMenuPresenter
++ __OBJC_$_PROP_LIST_WKCompactContextMenuPresenterControl
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_WKCompactContextMenuPresenter
++ __OBJC_$_PROTOCOL_METHOD_TYPES_WKCompactContextMenuPresenter
++ __OBJC_CLASS_PROTOCOLS_$_WKCompactContextMenuPresenterButton
++ __OBJC_CLASS_PROTOCOLS_$_WKCompactContextMenuPresenterControl
++ __OBJC_CLASS_RO_$_WKCompactContextMenuPresenterControl
++ __OBJC_LABEL_PROTOCOL_$_WKCompactContextMenuPresenter
++ __OBJC_METACLASS_RO_$_WKCompactContextMenuPresenterControl
++ __OBJC_PROTOCOL_$_WKCompactContextMenuPresenter
++ __ZN3API10Navigation30whenSafeBrowsingCheckCompletesEON3WTF8FunctionIFvvEEE
++ __ZN3API10Navigation40fireSafeBrowsingCheckCompletionCallbacksEv
++ __ZN3IPC10Connection14sendAsyncReplyIN8Messages10WebProcess31SetThirdPartyCookieBlockingModeEJEEEvN3WTF23ObjectIdentifierGenericINS_16AsyncReplyIDTypeENS5_38ObjectIdentifierThreadSafeAccessTraitsIyEEyEEDpOT0_
++ __ZN3IPC10Connection4sendIN8Messages21RemoteGraphicsContext10DrawGlyphsEEENS_5ErrorEOT_yN3WTF9OptionSetINS_10SendOptionELNS8_14ConcurrencyTagE0EEENSt3__18optionalINS8_6Thread3QOSEEE
++ __ZN3IPC10Connection4sendIN8Messages21RemoteGraphicsContext13FillClosedArcEEENS_5ErrorEOT_yN3WTF9OptionSetINS_10SendOptionELNS8_14ConcurrencyTagE0EEENSt3__18optionalINS8_6Thread3QOSEEE
++ __ZN3IPC10Connection4sendIN8Messages9LogStream26DOCUMENTLOADER_STOPLOADINGEEENS_5ErrorEOT_yN3WTF9OptionSetINS_10SendOptionELNS8_14ConcurrencyTagE0EEENSt3__18optionalINS8_6Thread3QOSEEE
++ __ZN3IPC10Connection4sendIN8Messages9LogStream26FRAMELOADER_STOPALLLOADERSEEENS_5ErrorEOT_yN3WTF9OptionSetINS_10SendOptionELNS8_14ConcurrencyTagE0EEENSt3__18optionalINS8_6Thread3QOSEEE
++ __ZN3IPC10Connection4sendIN8Messages9LogStream53DOCUMENTLOADER_STARTLOADINGMAINRESOURCE_STARTING_LOADEEENS_5ErrorEOT_yN3WTF9OptionSetINS_10SendOptionELNS8_14ConcurrencyTagE0EEENSt3__18optionalINS8_6Thread3QOSEEE
++ __ZN3IPC13ArgumentCoderIN3WTF7HashMapINS1_23ObjectIdentifierGenericIN7WebCore21ProcessIdentifierTypeENS1_38ObjectIdentifierMainThreadAccessTraitsIyEEyEENS1_6VectorINS1_6StringELm0ENS1_15CrashOnOverflowELm16ENS1_10FastMallocEEENS1_11DefaultHashIS8_EENS1_10HashTraitsIS8_EENSG_ISD_EENS1_15HashTableTraitsELNS1_17ShouldValidateKeyE1ESC_EEE6encodeINS_7EncoderESL_EEvRT_OT0_
++ __ZN3IPC13ArgumentCoderIN3WTF8JSONImpl5ValueEE6encodeERNS_7EncoderERKS3_
++ __ZN3IPC13ArgumentCoderIN3WTF9RetainPtrI12NSURLRequestEEE6encodeIS3_PS3_EEvRNS_7EncoderERKNS2_IT_EE
++ __ZN3IPC13ArgumentCoderIN5mpark7variantIJN6WebKit11CoreIPCDateENS3_13CoreIPCStringEbN3WTF6VectorINS7_INSt3__14pairIS5_NS7_INS9_IS5_NS2_IJNS3_13CoreIPCNumberENS3_11CoreIPCDataES4_bEEEEELm0ENS6_15CrashOnOverflowELm16ENS6_10FastMallocEEEEELm0ESE_Lm16ESF_EELm0ESE_Lm16ESF_EEEEEE6decodeINS_7DecoderEJEEENS8_8optionalISK_EERT_NS8_16integer_sequenceImJXspT0_EEEEm
++ __ZN3IPC13ArgumentCoderIN5mpark7variantIJN6WebKit13CoreIPCNumberENS3_11CoreIPCDateEEEEE6decodeINS_7DecoderEJEEENSt3__18optionalIS6_EERT_NSA_16integer_sequenceImJXspT0_EEEEm
++ __ZN3IPC13ArgumentCoderIN5mpark7variantIJN6WebKit14CoreIPCCFArrayENS3_14CoreIPCBooleanENS3_21CoreIPCCFCharacterSetENS3_11CoreIPCDataENS3_11CoreIPCDateENS3_19CoreIPCCFDictionaryENS3_11CoreIPCNullENS3_13CoreIPCNumberENS3_13CoreIPCStringENS3_12CoreIPCCFURLEEEEE6encodeINS_7EncoderERKSE_JEEEvRT_OT0_NSt3__116integer_sequenceImJXspT1_EEEEm
++ __ZN3IPC13ArgumentCoderIN5mpark7variantIJN6WebKit14CoreIPCCFArrayENS3_14CoreIPCBooleanENS3_21CoreIPCCFCharacterSetENS3_11CoreIPCDataENS3_11CoreIPCDateENS3_19CoreIPCCFDictionaryENS3_11CoreIPCNullENS3_13CoreIPCNumberENS3_13CoreIPCStringENS3_12CoreIPCCFURLEEEEE6encodeINS_7EncoderERKSE_JLm0EEEEvRT_OT0_NSt3__116integer_sequenceImJXspT1_EEEEm
++ __ZN3IPC13ArgumentCoderIN5mpark7variantIJN6WebKit14CoreIPCCFArrayENS3_14CoreIPCBooleanENS3_21CoreIPCCFCharacterSetENS3_11CoreIPCDataENS3_11CoreIPCDateENS3_19CoreIPCCFDictionaryENS3_11CoreIPCNullENS3_13CoreIPCNumberENS3_13CoreIPCStringENS3_12CoreIPCCFURLEEEEE6encodeINS_7EncoderERKSE_JLm0ELm1EEEEvRT_OT0_NSt3__116integer_sequenceImJXspT1_EEEEm
++ __ZN3IPC13ArgumentCoderIN5mpark7variantIJN6WebKit14CoreIPCCFArrayENS3_14CoreIPCBooleanENS3_21CoreIPCCFCharacterSetENS3_11CoreIPCDataENS3_11CoreIPCDateENS3_19CoreIPCCFDictionaryENS3_11CoreIPCNullENS3_13CoreIPCNumberENS3_13CoreIPCStringENS3_12CoreIPCCFURLEEEEE6encodeINS_7EncoderERKSE_JLm0ELm1ELm2EEEEvRT_OT0_NSt3__116integer_sequenceImJXspT1_EEEEm
++ __ZN3IPC13ArgumentCoderIN5mpark7variantIJN6WebKit21CoreIPCDateComponentsENS3_20CoreIPCCNPhoneNumberENS3_22CoreIPCCNPostalAddressENS3_13CoreIPCStringEEEEE6encodeINS_7EncoderERKS8_JEEEvRT_OT0_NSt3__116integer_sequenceImJXspT1_EEEEm
++ __ZN3IPC13ArgumentCoderIN5mpark7variantIJN6WebKit21CoreIPCDateComponentsENS3_20CoreIPCCNPhoneNumberENS3_22CoreIPCCNPostalAddressENS3_13CoreIPCStringEEEEE6encodeINS_7EncoderERKS8_JLm0EEEEvRT_OT0_NSt3__116integer_sequenceImJXspT1_EEEEm
++ __ZN3IPC13ArgumentCoderIN5mpark7variantIJN6WebKit21CoreIPCDateComponentsENS3_20CoreIPCCNPhoneNumberENS3_22CoreIPCCNPostalAddressENS3_13CoreIPCStringEEEEE6encodeINS_7EncoderERKS8_JLm0ELm1EEEEvRT_OT0_NSt3__116integer_sequenceImJXspT1_EEEEm
++ __ZN3IPC13ArgumentCoderIN5mpark7variantIJN6WebKit21CoreIPCDateComponentsENS3_20CoreIPCCNPhoneNumberENS3_22CoreIPCCNPostalAddressENS3_13CoreIPCStringEEEEE6encodeINS_7EncoderERKS8_JLm0ELm1ELm2EEEEvRT_OT0_NSt3__116integer_sequenceImJXspT1_EEEEm
++ __ZN3IPC13ArgumentCoderIN5mpark7variantIJN7WebCore10ColorSpaceEN3WTF9RetainPtrIPK10__CFStringEEN6WebKit7ICCDataENSB_17IndexedColorSpaceEEEEE6encodeINS_7EncoderERKSE_JLm0EEEEvRT_OT0_NSt3__116integer_sequenceImJXspT1_EEEEm
++ __ZN3IPC13ArgumentCoderIN5mpark7variantIJN7WebCore11PackedColor4RGBAENS3_24OutOfLineColorDataForIPCEEEEE6encodeINS_7EncoderERKS7_JEEEvRT_OT0_NSt3__116integer_sequenceImJXspT1_EEEEm
++ __ZN3IPC13ArgumentCoderIN5mpark7variantIJN7WebCore11PackedColor4RGBAENS3_24OutOfLineColorDataForIPCEEEEE6encodeINS_7EncoderERKS7_JLm0EEEEvRT_OT0_NSt3__116integer_sequenceImJXspT1_EEEEm
++ __ZN3IPC13ArgumentCoderIN5mpark7variantIJN7WebCore19ResourceRequestBase11RequestDataENS3_27ResourceRequestPlatformDataEEEEE6encodeINS_7EncoderES7_JEEEvRT_OT0_NSt3__116integer_sequenceImJXspT1_EEEEm
++ __ZN3IPC13ArgumentCoderIN5mpark7variantIJN7WebCore19ResourceRequestBase11RequestDataENS3_27ResourceRequestPlatformDataEEEEE6encodeINS_7EncoderES7_JLm0EEEEvRT_OT0_NSt3__116integer_sequenceImJXspT1_EEEEm
++ __ZN3IPC13ArgumentCoderIN5mpark7variantIJN7WebCore5Style13ListStyleType8NoneDataENS5_10StringDataENS5_16CounterStyleDataEEEEE6encodeINS_7EncoderES9_JEEEvRT_OT0_NSt3__116integer_sequenceImJXspT1_EEEEm
++ __ZN3IPC13ArgumentCoderIN5mpark7variantIJN7WebCore5Style13ListStyleType8NoneDataENS5_10StringDataENS5_16CounterStyleDataEEEEE6encodeINS_7EncoderES9_JLm0EEEEvRT_OT0_NSt3__116integer_sequenceImJXspT1_EEEEm
++ __ZN3IPC13ArgumentCoderIN5mpark7variantIJN7WebCore5Style13ListStyleType8NoneDataENS5_10StringDataENS5_16CounterStyleDataEEEEE6encodeINS_7EncoderES9_JLm0ELm1EEEEvRT_OT0_NSt3__116integer_sequenceImJXspT1_EEEEm
++ __ZN3IPC13ArgumentCoderIN6WebKit20MediaDescriptionInfoEE6encodeERNS_7EncoderERKS2_
++ __ZN3IPC13ArgumentCoderIN6WebKit22DocumentEditingContext16TextRectAndRangeEE6encodeERNS_7EncoderERKS3_
++ __ZN3IPC13ArgumentCoderIN6WebKit23CoreIPCNSURLRequestDataEE6encodeERNS_7EncoderERKS2_
++ __ZN3IPC13ArgumentCoderIN6WebKit26CoreIPCContactLabeledValueEE6encodeERNS_7EncoderERKS2_
++ __ZN3IPC13ArgumentCoderIN6WebKit26CoreIPCDDScannerResultDataEE6encodeERNS_7EncoderERKS2_
++ __ZN3IPC13ArgumentCoderIN6WebKit26CoreIPCNSURLCredentialDataEE6encodeERNS_7EncoderERKS2_
++ __ZN3IPC13ArgumentCoderIN6WebKit27CoreIPCPersonNameComponentsEE6encodeERNS_7EncoderERKS2_
++ __ZN3IPC13ArgumentCoderIN7WebCore13ImageResourceEE6encodeERNS_7EncoderERKS2_
++ __ZN3IPC13ArgumentCoderIN7WebCore15ColorDataForIPCEE6encodeERNS_7EncoderERKS2_
++ __ZN3IPC13ArgumentCoderIN7WebCore17CameraCalibrationEE6encodeERNS_7EncoderERKS2_
++ __ZN3IPC13ArgumentCoderIN7WebCore17PathDataQuadCurveEE6decodeERNS_7DecoderE
++ __ZN3IPC13ArgumentCoderIN7WebCore18RequiresClipToRectEE6encodeINS_7EncoderEEEvRT_S2_
++ __ZN3IPC13ArgumentCoderIN7WebCore19ResourceRequestBase11RequestDataEE6encodeERNS_7EncoderERKS3_
++ __ZN3IPC13ArgumentCoderIN7WebCore21MessagePortIdentifierEE6encodeERNS_7EncoderERKS2_
++ __ZN3IPC13ArgumentCoderIN7WebCore21PlatformTextTrackDataEE6encodeERNS_7EncoderERKS2_
++ __ZN3IPC13ArgumentCoderIN7WebCore23ApplePayInstallmentItemEE6encodeERNS_7EncoderERKS2_
++ __ZN3IPC13ArgumentCoderIN7WebCore24OutOfLineColorDataForIPCEE6encodeERNS_7EncoderERKS2_
++ __ZN3IPC13ArgumentCoderIN7WebCore26FontPlatformFeatureSettingEE6encodeERNS_7EncoderERKS2_
++ __ZN3IPC13ArgumentCoderIN7WebCore26NotificationOptionsPayloadEE6encodeERNS_7EncoderERKS2_
++ __ZN3IPC13ArgumentCoderIN7WebCore27ApplePayPaymentTokenContextEE6encodeERNS_7EncoderERKS2_
++ __ZN3IPC13ArgumentCoderIN7WebCore27DocumentMarkerLineStyleModeEE6decodeINS_7DecoderEEENSt3__18optionalIS2_EERT_
++ __ZN3IPC13ArgumentCoderIN7WebCore27ResourceRequestPlatformDataEE6encodeERNS_7EncoderERKS2_
++ __ZN3IPC13ArgumentCoderIN7WebCore31PlatformAudioTrackConfigurationEE6encodeERNS_7EncoderERKS2_
++ __ZN3IPC13ArgumentCoderIN7WebCore31PlatformVideoTrackConfigurationEE6encodeERNS_7EncoderERKS2_
++ __ZN3IPC13ArgumentCoderIN7WebCore37BasicComponentTransferFilterOperationEE6encodeERNS_7EncoderERKS2_
++ __ZN3IPC13ArgumentCoderIN7WebCore3PCM22AttributionTriggerDataEE6encodeERNS_7EncoderERKS3_
++ __ZN3IPC13ArgumentCoderIN7WebCore5Style13ListStyleTypeEE6encodeERNS_7EncoderERKS3_
++ __ZN3IPC13ArgumentCoderIN7WebCore8TextListEE6encodeERNS_7EncoderERKS2_
++ __ZN3IPC13ArgumentCoderINS_19ArrayReferenceTupleIJtN7WebCore9FloatSizeEEEEE6encodeINS_7EncoderEJLm0ELm1EEEEvRT_RKS4_NSt3__116integer_sequenceImJXspT0_EEEE
++ __ZN3IPC13ArgumentCoderINSt3__110unique_ptrIN3WTF7HashSetINS3_6StringENS3_11DefaultHashIS5_EENS3_10HashTraitsIS5_EENS3_15HashTableTraitsELNS3_17ShouldValidateKeyE1EEENS1_14default_deleteISC_EEEEE6encodeINS_7EncoderERKSF_EEvRT_OT0_
++ __ZN3IPC13ArgumentCoderINSt3__110unique_ptrIN6WebKit27CoreIPCPersonNameComponentsENS1_14default_deleteIS4_EEEEE6encodeINS_7EncoderERKS7_EEvRT_OT0_
++ __ZN3IPC13ArgumentCoderINSt3__14pairIN3WTF6StringEN7WebCore31ContentSecurityPolicyHeaderTypeEEEE6encodeINS_7EncoderERKS7_EEvRT_OT0_
++ __ZN3IPC13ArgumentCoderINSt3__14pairIN7WebCore16AttributedString5RangeEN3WTF7HashMapINS6_6StringENS4_14AttributeValueENS6_11DefaultHashIS8_EENS6_10HashTraitsIS8_EENSC_IS9_EENS6_15HashTableTraitsELNS6_17ShouldValidateKeyE1ENS6_10FastMallocEEEEEE6encodeINS_7EncoderERKSJ_EEvRT_OT0_
++ __ZN3IPC13ArgumentCoderINSt3__15tupleIJN3WTF23ObjectIdentifierGenericIN7WebCore18PageIdentifierTypeENS3_38ObjectIdentifierMainThreadAccessTraitsIyEEyEENS1_8optionalINS4_IN6WebKit29WebExtensionTabIdentifierTypeES8_yEEEENSA_INS4_INSB_32WebExtensionWindowIdentifierTypeES8_yEEEEEEEE6encodeINS_7EncoderERKSI_JLm0ELm1ELm2EEEEvRT_OT0_NS1_16integer_sequenceImJXspT1_EEEE
++ __ZN3IPC13ArgumentCoderINSt3__15tupleIJN7WebCore17PathDataQuadCurveEEEEE6decodeINS_7DecoderEJEEENS1_8optionalIS5_EERT_DpONS9_IT0_EE
++ __ZN3IPC13ArgumentCoderINSt3__15tupleIJNS1_8optionalIN3WTF23ObjectIdentifierGenericIN6WebKit29StorageAreaImplIdentifierTypeENS4_38ObjectIdentifierMainThreadAccessTraitsIyEEyEEEENS4_6StringESC_SC_SC_yEEEE6decodeINS_7DecoderEJEEENS3_ISD_EERT_DpONS3_IT0_EE
++ __ZN3IPC13ArgumentCoderINSt3__15tupleIJNS1_8optionalIN3WTF23ObjectIdentifierGenericIN6WebKit29StorageAreaImplIdentifierTypeENS4_38ObjectIdentifierMainThreadAccessTraitsIyEEyEEEENS4_6StringESC_SC_SC_yEEEE6decodeINS_7DecoderEJSB_EEENS3_ISD_EERT_DpONS3_IT0_EE
++ __ZN3IPC13ArgumentCoderINSt3__15tupleIJNS1_8optionalIN3WTF23ObjectIdentifierGenericIN6WebKit29StorageAreaImplIdentifierTypeENS4_38ObjectIdentifierMainThreadAccessTraitsIyEEyEEEENS4_6StringESC_SC_SC_yEEEE6decodeINS_7DecoderEJSB_SC_EEENS3_ISD_EERT_DpONS3_IT0_EE
++ __ZN3IPC13ArgumentCoderINSt3__15tupleIJNS1_8optionalIN3WTF23ObjectIdentifierGenericIN6WebKit29StorageAreaImplIdentifierTypeENS4_38ObjectIdentifierMainThreadAccessTraitsIyEEyEEEENS4_6StringESC_SC_SC_yEEEE6decodeINS_7DecoderEJSB_SC_SC_EEENS3_ISD_EERT_DpONS3_IT0_EE
++ __ZN3IPC13ArgumentCoderINSt3__15tupleIJNS1_8optionalIN3WTF23ObjectIdentifierGenericIN6WebKit29StorageAreaImplIdentifierTypeENS4_38ObjectIdentifierMainThreadAccessTraitsIyEEyEEEENS4_6StringESC_SC_SC_yEEEE6decodeINS_7DecoderEJSB_SC_SC_SC_EEENS3_ISD_EERT_DpONS3_IT0_EE
++ __ZN3IPC13ArgumentCoderINSt3__15tupleIJNS1_8optionalIN3WTF23ObjectIdentifierGenericIN6WebKit29StorageAreaImplIdentifierTypeENS4_38ObjectIdentifierMainThreadAccessTraitsIyEEyEEEENS4_6StringESC_SC_SC_yEEEE6decodeINS_7DecoderEJSB_SC_SC_SC_SC_EEENS3_ISD_EERT_DpONS3_IT0_EE
++ __ZN3IPC13ArgumentCoderINSt3__15tupleIJNS1_8optionalIN3WTF23ObjectIdentifierGenericIN6WebKit29StorageAreaImplIdentifierTypeENS4_38ObjectIdentifierMainThreadAccessTraitsIyEEyEEEENS4_6StringESC_SC_SC_yEEEE6decodeINS_7DecoderEJSB_SC_SC_SC_SC_yEEENS3_ISD_EERT_DpONS3_IT0_EE
++ __ZN3IPC13ArgumentCoderINSt3__15tupleIJbN3WTF7HashMapINS3_6StringES5_NS3_11DefaultHashIS5_EENS3_10HashTraitsIS5_EES9_NS3_15HashTableTraitsELNS3_17ShouldValidateKeyE1ENS3_10FastMallocEEEEEEE6decodeINS_7DecoderEJEEENS1_8optionalISE_EERT_DpONSI_IT0_EE
++ __ZN3IPC13ArgumentCoderINSt3__18optionalIN3WTF23ObjectIdentifierGenericIN6WebKit29StorageAreaImplIdentifierTypeENS3_38ObjectIdentifierMainThreadAccessTraitsIyEEyEEEEE6decodeINS_7DecoderEEENS2_ISA_EERT_
++ __ZN3IPC13ArgumentCoderINSt3__18optionalIN3WTF6VectorINS1_4pairIN6WebKit13CoreIPCStringEN5mpark7variantIJNS6_13CoreIPCNumberES7_NS6_11CoreIPCDateEEEEEELm0ENS3_15CrashOnOverflowELm16ENS3_10FastMallocEEEEEE6encodeINS_7EncoderERKSH_EEvRT_OT0_
++ __ZN3IPC13ArgumentCoderINSt3__18optionalIN3WTF6VectorINS1_4pairIN6WebKit13CoreIPCStringES7_EELm0ENS3_15CrashOnOverflowELm16ENS3_10FastMallocEEEEEE6encodeINS_7EncoderERKSC_EEvRT_OT0_
++ __ZN3IPC13ArgumentCoderINSt3__18optionalIN3WTF6VectorINS3_9RetainPtrI15DDScannerResultEELm0ENS3_15CrashOnOverflowELm16ENS3_10FastMallocEEEEEE6encodeINS_7EncoderERKSB_EEvRT_OT0_
++ __ZN3IPC13ArgumentCoderINSt3__18optionalIN6WebKit16CoreIPCCNContactEEEE6encodeINS_7EncoderES5_EEvRT_OT0_
++ __ZN3IPC13ArgumentCoderINSt3__18optionalIN6WebKit16CoreIPCStringSetEEEE6encodeINS_7EncoderES5_EEvRT_OT0_
++ __ZN3IPC13ArgumentCoderINSt3__18optionalIN6WebKit17CoreIPCDictionaryEEEE6encodeINS_7EncoderES5_EEvRT_OT0_
++ __ZN3IPC13ArgumentCoderINSt3__18optionalIN7WebCore24ResourceRequestRequesterEEEE6encodeINS_7EncoderERKS5_EEvRT_OT0_
++ __ZN3IPC13ArgumentCoderINSt3__18optionalIN7WebCore26NotificationOptionsPayloadEEEE6encodeINS_7EncoderERKS5_EEvRT_OT0_
++ __ZN3IPC13ArgumentCoderINSt3__18optionalIN7WebCore3PCM14EphemeralNonceEEEE6encodeINS_7EncoderERKS6_EEvRT_OT0_
++ __ZN3IPC13ArgumentCoderINSt3__18optionalIbEEE6encodeINS_7EncoderERS3_EEvRT_OT0_
++ __ZN3IPC13ArgumentCoderIP10__CVBufferE6encodeERNS_7EncoderES2_
++ __ZN3IPC13ArgumentCoderIP12CGColorSpaceE6encodeERNS_7EncoderES2_
++ __ZN3IPC13ArgumentCoderIP16__SecCertificateE6encodeERNS_7EncoderES2_
++ __ZN3IPC13ArgumentCoderIP7CGColorE6encodeERNS_7EncoderES2_
++ __ZN3IPC13ArgumentCoderIPK10__CFStringE6encodeERNS_7EncoderES3_
++ __ZN3IPC13ArgumentCoderIPK14__CFDictionaryE6encodeERNS_7EncoderES3_
++ __ZN3IPC13ArgumentCoderIyE6encodeINS_23StreamConnectionEncoderEEEvRT_y
++ __ZN3IPC13handleMessageIN8Messages14StorageAreaMap20DispatchStorageEventENS_10ConnectionEN6WebKit14StorageAreaMapES6_FvRKNSt3__18optionalIN3WTF23ObjectIdentifierGenericINS5_29StorageAreaImplIdentifierTypeENS9_38ObjectIdentifierMainThreadAccessTraitsIyEEyEEEERKNS9_6StringESK_SK_SK_yEEEvRT0_RNS_7DecoderEPT1_MT2_T3_
++ __ZN3IPC14TransferStringC1EOS0_
++ __ZN3IPC18handleMessageAsyncIN8Messages10WebProcess31SetThirdPartyCookieBlockingModeENS_10ConnectionEN6WebKit10WebProcessES6_FvN7WebCore28ThirdPartyCookieBlockingModeEON3WTF17CompletionHandlerIFvvEEEEEEvRT0_RNS_7DecoderEPT1_MT2_T3_
++ __ZN3IPC19VectorArgumentCoderILb0EN3WTF12KeyValuePairIN5mpark7variantIJN6WebKit14CoreIPCCFArrayENS5_14CoreIPCBooleanENS5_21CoreIPCCFCharacterSetENS5_11CoreIPCDataENS5_11CoreIPCDateENS5_19CoreIPCCFDictionaryENS5_11CoreIPCNullENS5_13CoreIPCNumberENS5_13CoreIPCStringENS5_12CoreIPCCFURLEEEENS5_13CoreIPCCFTypeEEELm0ENS1_15CrashOnOverflowELm16EE6encodeINS_7EncoderERKNS1_6VectorISI_Lm0ESJ_Lm16ENS1_10FastMallocEEEEEvRT_OT0_
++ __ZN3IPC19VectorArgumentCoderILb0EN3WTF9RetainPtrI8NSStringEELm0ENS1_15CrashOnOverflowELm16EE6encodeINS_7EncoderERKNS1_6VectorIS4_Lm0ES5_Lm16ENS1_10FastMallocEEEEEvRT_OT0_
++ __ZN3IPC19VectorArgumentCoderILb0EN6WebKit26WebsiteDataStoreParametersELm0EN3WTF15CrashOnOverflowELm16EE6encodeINS_7EncoderENS3_6VectorIS2_Lm0ES4_Lm16ENS3_10FastMallocEEEEEvRT_OT0_
++ __ZN3IPC19VectorArgumentCoderILb0EN7WebCore15HTTPHeaderFieldELm0EN3WTF15CrashOnOverflowELm16EE6encodeINS_7EncoderERKNS3_6VectorIS2_Lm0ES4_Lm16ENS3_10FastMallocEEEEEvRT_OT0_
++ __ZN3IPC19VectorArgumentCoderILb0EN7WebCore21PlatformTextTrackDataELm0EN3WTF15CrashOnOverflowELm16EE6encodeINS_7EncoderERKNS3_6VectorIS2_Lm0ES4_Lm16ENS3_10FastMallocEEEEEvRT_OT0_
++ __ZN3IPC19VectorArgumentCoderILb0EN7WebCore36OrganizationStorageAccessPromptQuirkELm0EN3WTF15CrashOnOverflowELm16EE6encodeINS_7EncoderENS3_6VectorIS2_Lm0ES4_Lm16ENS3_10FastMallocEEEEEvRT_OT0_
++ __ZN3IPC19VectorArgumentCoderILb0EN7WebCore6FourCCELm0EN3WTF15CrashOnOverflowELm16EE6encodeINS_7EncoderERKNS3_6VectorIS2_Lm0ES4_Lm16ENS3_10FastMallocEEEEEvRT_OT0_
++ __ZN3IPC19VectorArgumentCoderILb0ENSt3__14pairIN3WTF23ObjectIdentifierGenericIN7WebCore21ProcessIdentifierTypeENS3_38ObjectIdentifierMainThreadAccessTraitsIyEEyEENS5_17RegistrableDomainEEELm0ENS3_15CrashOnOverflowELm16EE6encodeINS_7EncoderENS3_6VectorISB_Lm0ESC_Lm16ENS3_10FastMallocEEEEEvRT_OT0_
++ __ZN3IPC19VectorArgumentCoderILb0ENSt3__14pairIN6WebKit13CoreIPCStringEN5mpark7variantIJNS3_13CoreIPCNumberES4_NS3_11CoreIPCDateEEEEEELm0EN3WTF15CrashOnOverflowELm16EE6encodeINS_7EncoderERKNSB_6VectorISA_Lm0ESC_Lm16ENSB_10FastMallocEEEEEvRT_OT0_
++ __ZN3IPC19VectorArgumentCoderILb0ENSt3__14pairIN6WebKit13CoreIPCStringES4_EELm0EN3WTF15CrashOnOverflowELm16EE6encodeINS_7EncoderERKNS6_6VectorIS5_Lm0ES7_Lm16ENS6_10FastMallocEEEEEvRT_OT0_
++ __ZN3IPC20encodeObjectDirectlyI12NSDictionaryEEvRNS_7EncoderEPT_
++ __ZN3IPC20encodeObjectDirectlyI14PKPaymentTokenEEvRNS_7EncoderEPT_
++ __ZN3IPC20encodeObjectDirectlyI16PKShippingMethodEEvRNS_7EncoderEPT_
++ __ZN3IPC20encodeObjectDirectlyI19PKSecureElementPassEEvRNS_7EncoderEPT_
++ __ZN3IPC20encodeObjectDirectlyI21PKDateComponentsRangeEEvRNS_7EncoderEPT_
++ __ZN3IPC20encodeObjectDirectlyI5NSSetEEvRNS_7EncoderEPT_
++ __ZN3IPC20encodeObjectDirectlyI9CNContactEEvRNS_7EncoderEPT_
++ __ZN3IPC22StreamClientConnection13trySendStreamIN8Messages9LogStream36PERFORMANCELOGGING_MEMORY_USAGE_INFOEJEEEbNSt3__14spanIhLm18446744073709551615EEERT_DpOT0_
++ __ZN3IPC22StreamClientConnection13trySendStreamIN8Messages9LogStream38WEBPROCESS_DESTROY_RENDERING_RESOURCESEJEEEbNSt3__14spanIhLm18446744073709551615EEERT_DpOT0_
++ __ZN3IPC22StreamClientConnection4sendIN8Messages9LogStream36PERFORMANCELOGGING_MEMORY_USAGE_INFOEN6WebKit23LogStreamIdentifierTypeEN3WTF38ObjectIdentifierThreadSafeAccessTraitsIyEEyEENS_5ErrorEOT_NS7_23ObjectIdentifierGenericIT0_T1_T2_EE
++ __ZN3IPC22StreamClientConnection4sendIN8Messages9LogStream38WEBPROCESS_DESTROY_RENDERING_RESOURCESEN6WebKit23LogStreamIdentifierTypeEN3WTF38ObjectIdentifierThreadSafeAccessTraitsIyEEyEENS_5ErrorEOT_NS7_23ObjectIdentifierGenericIT0_T1_T2_EE
++ __ZN3IPC7Decoder6decodeIN5mpark7variantIJN6WebKit11CoreIPCDateENS4_13CoreIPCStringEbN3WTF6VectorINS8_INSt3__14pairIS6_NS8_INSA_IS6_NS3_IJNS4_13CoreIPCNumberENS4_11CoreIPCDataES5_bEEEEELm0ENS7_15CrashOnOverflowELm16ENS7_10FastMallocEEEEELm0ESF_Lm16ESG_EELm0ESF_Lm16ESG_EEEEEEENS9_8optionalIT_EEv
++ __ZN3IPC7Decoder6decodeIN7WebCore27DocumentMarkerLineStyleModeEEENSt3__18optionalIT_EEv
++ __ZN3IPC7Decoder6decodeINSt3__15tupleIJN3WTF23ObjectIdentifierGenericIN7WebCore18PageIdentifierTypeENS4_38ObjectIdentifierMainThreadAccessTraitsIyEEyEENS4_6StringEEEEEENS2_8optionalIT_EEv
++ __ZN3IPC7Decoder6decodeINSt3__15tupleIJN7WebCore28ThirdPartyCookieBlockingModeEEEEEENS2_8optionalIT_EEv
++ __ZN3IPC7Decoder6decodeINSt3__15tupleIJNS2_8optionalIN3WTF23ObjectIdentifierGenericIN6WebKit29StorageAreaImplIdentifierTypeENS5_38ObjectIdentifierMainThreadAccessTraitsIyEEyEEEENS5_6StringESD_SD_SD_yEEEEENS4_IT_EEv
++ __ZN3IPC7Decoder6decodeINSt3__15tupleIJjNS2_8optionalIjEEEEEEENS4_IT_EEv
++ __ZN3IPC7Decoder6decodeINSt3__18optionalIN3WTF23ObjectIdentifierGenericIN6WebKit29StorageAreaImplIdentifierTypeENS4_38ObjectIdentifierMainThreadAccessTraitsIyEEyEEEEEENS3_IT_EEv
++ __ZN3IPC7Encoder10encodeSpanIKN7WebCore9FloatSizeELm18446744073709551615EEEvNSt3__14spanIT_XT0_EEE
++ __ZN3IPC7Encoder10encodeSpanIKtLm18446744073709551615EEEvNSt3__14spanIT_XT0_EEE
++ __ZN3IPC7EncoderlsIRKN7WebCore15PathRoundedRectEEERS0_OT_
++ __ZN3WTF12VectorBufferIN6WebKit12NetworkCache15SubresourceInfoELm0ENS_10FastMallocEE5adoptEOS5_
++ __ZN3WTF14HashCountedSetINS_6StringENS_11DefaultHashIS1_EENS_10HashTraitsIS1_EEE6removeENS_24HashTableIteratorAdapterINS_9HashTableIS1_NS_12KeyValuePairIS1_jEENS_24KeyValuePairKeyExtractorISA_EES3_NS_7HashMapIS1_jS3_S5_NS4_IjEENS_15HashTableTraitsELNS_17ShouldValidateKeyE1ENS_10FastMallocEE18KeyValuePairTraitsES5_SH_EESA_EE
++ __ZN3WTF20VectorTypeOperationsIN6WebKit12NetworkCache15SubresourceInfoEE8destructEPS3_S5_
++ __ZN3WTF21CrossThreadCopierBaseILb0ELb0EN6WebKit12NetworkCache5Cache12RetrieveInfoEE4copyEOS4_
++ __ZN3WTF22IdentityHashTranslatorINS_10HashTraitsIN7WebCore17RegistrableDomainEEENS_11DefaultHashIS3_EEE9translateIS3_S3_ZNS_9HashTableIS3_S3_NS_17IdentityExtractorES6_S4_S4_NS_10FastMallocEEC1ERKSC_EUlvE_EEvRT_RKT0_RKT1_
++ __ZN3WTF22IdentityHashTranslatorINS_10HashTraitsIN7WebCore4SiteEEENS_11DefaultHashIS3_EEE9translateIS3_S3_ZNS_9HashTableIS3_S3_NS_17IdentityExtractorES6_S4_S4_NS_10FastMallocEE3addILNS_17ShouldValidateKeyE1EEENS_18HashTableAddResultINS_17HashTableIteratorISC_S3_S3_SA_S6_S4_S4_EEEERKS3_EUlvE_EEvRT_RKT0_RKT1_
++ __ZN3WTF5DequeINS_17CompletionHandlerIFvbEEELm0EE9takeFirstEv
++ __ZN3WTF6Detail15CallableWrapperIZZN6WebKit12WebPageProxy29decidePolicyForResponseSharedEONS_3RefINS2_15WebProcessProxyENS_12RawPtrTraitsIS5_EENS_21DefaultRefDerefTraitsIS5_EEEENS_23ObjectIdentifierGenericIN7WebCore18PageIdentifierTypeENS_38ObjectIdentifierMainThreadAccessTraitsIyEEyEEONS2_13FrameInfoDataENSt3__18optionalINSC_INSD_24NavigationIdentifierTypeESG_yEEEERKNSD_16ResourceResponseERKNSD_15ResourceRequestEbONS_6StringEbNSD_28CrossOriginOpenerPolicyValueEONS_17CompletionHandlerIFvONS2_14PolicyDecisionEEEEEN3$_0clENSD_12PolicyActionEPN3API15WebsitePoliciesENS2_28ProcessSwapRequestedByClientENSL_INS2_26NavigatingToAppBoundDomainEEENS2_24WasNavigationInterceptedEEUlvE0_vJEE4callEv
++ __ZN3WTF6Detail15CallableWrapperIZZN6WebKit12WebPageProxy29decidePolicyForResponseSharedEONS_3RefINS2_15WebProcessProxyENS_12RawPtrTraitsIS5_EENS_21DefaultRefDerefTraitsIS5_EEEENS_23ObjectIdentifierGenericIN7WebCore18PageIdentifierTypeENS_38ObjectIdentifierMainThreadAccessTraitsIyEEyEEONS2_13FrameInfoDataENSt3__18optionalINSC_INSD_24NavigationIdentifierTypeESG_yEEEERKNSD_16ResourceResponseERKNSD_15ResourceRequestEbONS_6StringEbNSD_28CrossOriginOpenerPolicyValueEONS_17CompletionHandlerIFvONS2_14PolicyDecisionEEEEEN3$_0clENSD_12PolicyActionEPN3API15WebsitePoliciesENS2_28ProcessSwapRequestedByClientENSL_INS2_26NavigatingToAppBoundDomainEEENS2_24WasNavigationInterceptedEEUlvE0_vJEED0Ev
++ __ZN3WTF6Detail15CallableWrapperIZZN6WebKit12WebPageProxy29decidePolicyForResponseSharedEONS_3RefINS2_15WebProcessProxyENS_12RawPtrTraitsIS5_EENS_21DefaultRefDerefTraitsIS5_EEEENS_23ObjectIdentifierGenericIN7WebCore18PageIdentifierTypeENS_38ObjectIdentifierMainThreadAccessTraitsIyEEyEEONS2_13FrameInfoDataENSt3__18optionalINSC_INSD_24NavigationIdentifierTypeESG_yEEEERKNSD_16ResourceResponseERKNSD_15ResourceRequestEbONS_6StringEbNSD_28CrossOriginOpenerPolicyValueEONS_17CompletionHandlerIFvONS2_14PolicyDecisionEEEEEN3$_0clENSD_12PolicyActionEPN3API15WebsitePoliciesENS2_28ProcessSwapRequestedByClientENSL_INS2_26NavigatingToAppBoundDomainEEENS2_24WasNavigationInterceptedEEUlvE0_vJEED1Ev
++ __ZN3WTF6Detail15CallableWrapperIZZN6WebKit12WebPageProxy31decidePolicyForNavigationActionEONS_3RefINS2_15WebProcessProxyENS_12RawPtrTraitsIS5_EENS_21DefaultRefDerefTraitsIS5_EEEERNS2_13WebFrameProxyEONS2_20NavigationActionDataEONS_17CompletionHandlerIFvONS2_14PolicyDecisionEEEEEN3$_0clEN7WebCore12PolicyActionEPN3API15WebsitePoliciesENS2_28ProcessSwapRequestedByClientENSt3__18optionalINS2_26NavigatingToAppBoundDomainEEENS2_24WasNavigationInterceptedEEUlvE_vJEE4callEv
++ __ZN3WTF6Detail15CallableWrapperIZZN6WebKit12WebPageProxy31decidePolicyForNavigationActionEONS_3RefINS2_15WebProcessProxyENS_12RawPtrTraitsIS5_EENS_21DefaultRefDerefTraitsIS5_EEEERNS2_13WebFrameProxyEONS2_20NavigationActionDataEONS_17CompletionHandlerIFvONS2_14PolicyDecisionEEEEEN3$_0clEN7WebCore12PolicyActionEPN3API15WebsitePoliciesENS2_28ProcessSwapRequestedByClientENSt3__18optionalINS2_26NavigatingToAppBoundDomainEEENS2_24WasNavigationInterceptedEEUlvE_vJEED0Ev
++ __ZN3WTF6Detail15CallableWrapperIZZN6WebKit12WebPageProxy31decidePolicyForNavigationActionEONS_3RefINS2_15WebProcessProxyENS_12RawPtrTraitsIS5_EENS_21DefaultRefDerefTraitsIS5_EEEERNS2_13WebFrameProxyEONS2_20NavigationActionDataEONS_17CompletionHandlerIFvONS2_14PolicyDecisionEEEEEN3$_0clEN7WebCore12PolicyActionEPN3API15WebsitePoliciesENS2_28ProcessSwapRequestedByClientENSt3__18optionalINS2_26NavigatingToAppBoundDomainEEENS2_24WasNavigationInterceptedEEUlvE_vJEED1Ev
++ __ZN3WTF6Detail15CallableWrapperIZZZN6WebKit12WebPageProxy29decidePolicyForResponseSharedEONS_3RefINS2_15WebProcessProxyENS_12RawPtrTraitsIS5_EENS_21DefaultRefDerefTraitsIS5_EEEENS_23ObjectIdentifierGenericIN7WebCore18PageIdentifierTypeENS_38ObjectIdentifierMainThreadAccessTraitsIyEEyEEONS2_13FrameInfoDataENSt3__18optionalINSC_INSD_24NavigationIdentifierTypeESG_yEEEERKNSD_16ResourceResponseERKNSD_15ResourceRequestEbONS_6StringEbNSD_28CrossOriginOpenerPolicyValueEONS_17CompletionHandlerIFvONS2_14PolicyDecisionEEEEEN3$_0clENSD_12PolicyActionEPN3API15WebsitePoliciesENS2_28ProcessSwapRequestedByClientENSL_INS2_26NavigatingToAppBoundDomainEEENS2_24WasNavigationInterceptedEENUlvE0_clEvEUlOT_E_vJON5mpark7variantIJNS2_18ContinueUnsafeLoadENS_3URLEEEEEE4callES1M_
++ __ZN3WTF6Detail15CallableWrapperIZZZN6WebKit12WebPageProxy29decidePolicyForResponseSharedEONS_3RefINS2_15WebProcessProxyENS_12RawPtrTraitsIS5_EENS_21DefaultRefDerefTraitsIS5_EEEENS_23ObjectIdentifierGenericIN7WebCore18PageIdentifierTypeENS_38ObjectIdentifierMainThreadAccessTraitsIyEEyEEONS2_13FrameInfoDataENSt3__18optionalINSC_INSD_24NavigationIdentifierTypeESG_yEEEERKNSD_16ResourceResponseERKNSD_15ResourceRequestEbONS_6StringEbNSD_28CrossOriginOpenerPolicyValueEONS_17CompletionHandlerIFvONS2_14PolicyDecisionEEEEEN3$_0clENSD_12PolicyActionEPN3API15WebsitePoliciesENS2_28ProcessSwapRequestedByClientENSL_INS2_26NavigatingToAppBoundDomainEEENS2_24WasNavigationInterceptedEENUlvE0_clEvEUlOT_E_vJON5mpark7variantIJNS2_18ContinueUnsafeLoadENS_3URLEEEEEED0Ev
++ __ZN3WTF6Detail15CallableWrapperIZZZN6WebKit12WebPageProxy29decidePolicyForResponseSharedEONS_3RefINS2_15WebProcessProxyENS_12RawPtrTraitsIS5_EENS_21DefaultRefDerefTraitsIS5_EEEENS_23ObjectIdentifierGenericIN7WebCore18PageIdentifierTypeENS_38ObjectIdentifierMainThreadAccessTraitsIyEEyEEONS2_13FrameInfoDataENSt3__18optionalINSC_INSD_24NavigationIdentifierTypeESG_yEEEERKNSD_16ResourceResponseERKNSD_15ResourceRequestEbONS_6StringEbNSD_28CrossOriginOpenerPolicyValueEONS_17CompletionHandlerIFvONS2_14PolicyDecisionEEEEEN3$_0clENSD_12PolicyActionEPN3API15WebsitePoliciesENS2_28ProcessSwapRequestedByClientENSL_INS2_26NavigatingToAppBoundDomainEEENS2_24WasNavigationInterceptedEENUlvE0_clEvEUlOT_E_vJON5mpark7variantIJNS2_18ContinueUnsafeLoadENS_3URLEEEEEED1Ev
++ __ZN3WTF6Detail15CallableWrapperIZZZN6WebKit12WebPageProxy31decidePolicyForNavigationActionEONS_3RefINS2_15WebProcessProxyENS_12RawPtrTraitsIS5_EENS_21DefaultRefDerefTraitsIS5_EEEERNS2_13WebFrameProxyEONS2_20NavigationActionDataEONS_17CompletionHandlerIFvONS2_14PolicyDecisionEEEEEN3$_0clEN7WebCore12PolicyActionEPN3API15WebsitePoliciesENS2_28ProcessSwapRequestedByClientENSt3__18optionalINS2_26NavigatingToAppBoundDomainEEENS2_24WasNavigationInterceptedEENUlvE_clEvEUlOT_E_vJON5mpark7variantIJNS2_18ContinueUnsafeLoadENS_3URLEEEEEE4callES17_
++ __ZN3WTF6Detail15CallableWrapperIZZZN6WebKit12WebPageProxy31decidePolicyForNavigationActionEONS_3RefINS2_15WebProcessProxyENS_12RawPtrTraitsIS5_EENS_21DefaultRefDerefTraitsIS5_EEEERNS2_13WebFrameProxyEONS2_20NavigationActionDataEONS_17CompletionHandlerIFvONS2_14PolicyDecisionEEEEEN3$_0clEN7WebCore12PolicyActionEPN3API15WebsitePoliciesENS2_28ProcessSwapRequestedByClientENSt3__18optionalINS2_26NavigatingToAppBoundDomainEEENS2_24WasNavigationInterceptedEENUlvE_clEvEUlOT_E_vJON5mpark7variantIJNS2_18ContinueUnsafeLoadENS_3URLEEEEEED0Ev
++ __ZN3WTF6Detail15CallableWrapperIZZZN6WebKit12WebPageProxy31decidePolicyForNavigationActionEONS_3RefINS2_15WebProcessProxyENS_12RawPtrTraitsIS5_EENS_21DefaultRefDerefTraitsIS5_EEEERNS2_13WebFrameProxyEONS2_20NavigationActionDataEONS_17CompletionHandlerIFvONS2_14PolicyDecisionEEEEEN3$_0clEN7WebCore12PolicyActionEPN3API15WebsitePoliciesENS2_28ProcessSwapRequestedByClientENSt3__18optionalINS2_26NavigatingToAppBoundDomainEEENS2_24WasNavigationInterceptedEENUlvE_clEvEUlOT_E_vJON5mpark7variantIJNS2_18ContinueUnsafeLoadENS_3URLEEEEEED1Ev
++ __ZN3WTF6VectorIN3IPC10Connection16PendingSyncReplyELm0ENS_15CrashOnOverflowELm16ENS_10FastMallocEE6shrinkEm
++ __ZN3WTF6VectorIN6WebKit12NetworkCache15SubresourceInfoELm0ENS_15CrashOnOverflowELm16ENS_10FastMallocEEaSEOS6_
++ __ZN3WTF6VectorINS_23ObjectIdentifierGenericIN3IPC16AsyncReplyIDTypeENS_38ObjectIdentifierThreadSafeAccessTraitsIyEEyEELm0ENS_15CrashOnOverflowELm16ENS_10FastMallocEE14appendSlowCaseILNS_13FailureActionE0ERS6_EEbOT0_
++ __ZN3WTF7HashMapIN6WebKit12NetworkCache3KeyENSt3__110unique_ptrINS2_22SpeculativeLoadManager14PreloadedEntryENS4_14default_deleteIS7_EEEENS_11DefaultHashIS3_EENS_10HashTraitsIS3_EENSD_ISA_EENS_15HashTableTraitsELNS_17ShouldValidateKeyE1ENS_10FastMallocEE4takeERKS3_
++ __ZN3WTF7HashMapINS_23ObjectIdentifierGenericIN7WebCore18PageIdentifierTypeENS_38ObjectIdentifierMainThreadAccessTraitsIyEEyEENS_6StringENS_11DefaultHashIS6_EENS_10HashTraitsIS6_EENSA_IS7_EENS_15HashTableTraitsELNS_17ShouldValidateKeyE1ENS_10FastMallocEE6removeERKS6_
++ __ZN3WTF7HashMapINS_6StringENS_8FunctionIFN3JSC7JSValueERNS3_14JSGlobalObjectEEEENS_11DefaultHashIS1_EENS_10HashTraitsIS1_EENSB_IS8_EENS_15HashTableTraitsELNS_17ShouldValidateKeyE1ENS_10FastMallocEE3setIZZN6WebKit7WebPage13runJavaScriptEPNSJ_8WebFrameEONSJ_23RunJavaScriptParametersEN7WebCore16ProcessQualifiedINS_23ObjectIdentifierGenericINSJ_26ContentWorldIdentifierTypeENS_38ObjectIdentifierMainThreadAccessTraitsIyEEyEEEEbONS_17CompletionHandlerIFvNSt12experimental15fundamentals_v38expectedINSJ_26JavaScriptEvaluationResultENSt3__18optionalINSP_16ExceptionDetailsEEEEEEEEENK3$_0clINS13_INS_6VectorINS12_4pairIS1_S11_EELm0ENS_15CrashOnOverflowELm16ESG_EEEEEENS13_ISH_EEOT_EUlS6_E_EENS_18HashTableAddResultINS_17HashTableIteratorINS_9HashTableIS1_NS_12KeyValuePairIS1_S8_EENS_24KeyValuePairKeyExtractorIS1Q_EESA_NSH_18KeyValuePairTraitsESC_SG_EES1_S1Q_S1S_SA_S1T_SC_EEEERKS1_S1K_
++ __ZN3WTF7RunLoop13DispatchTimerD2Ev
++ __ZN3WTF8FunctionIFvNSt3__110unique_ptrIN6WebKit12NetworkCache5EntryENS1_14default_deleteIS5_EEEEEEC1IZNS4_5Cache8retrieveERKN7WebCore15ResourceRequestENS1_8optionalINS4_13GlobalFrameIDEEENSH_INS3_26NavigatingToAppBoundDomainEEEbNS_9OptionSetINSD_26AdvancedPrivacyProtectionsELNS_14ConcurrencyTagE0EEEONS0_IFvS8_RKNSC_12RetrieveInfoEEEEE3$_0EEOT_
++ __ZN3WTF8FunctionIFvvEEC2IZN6WebKit12NetworkCache18retrieveFromMemoryINS_18SizedIteratorRangeINS_7HashMapINS_23ObjectIdentifierGenericINS5_7Storage28WriteOperationIdentifierTypeENS_38ObjectIdentifierMainThreadAccessTraitsIyEEyEENSt3__110unique_ptrINSA_14WriteOperationENSF_14default_deleteISH_EEEENS_11DefaultHashISE_EENS_10HashTraitsISE_EENSN_ISK_EENS_15HashTableTraitsELNS_17ShouldValidateKeyE1ENS_10FastMallocEEENS_23HashTableValuesIteratorINS_9HashTableISE_NS_12KeyValuePairISE_SK_EENS_24KeyValuePairKeyExtractorISX_EESM_NST_18KeyValuePairTraitsESO_SS_EESE_SK_EEEEEEbRKT_RKNS5_3KeyERNS_17CompletionHandlerIFbONSA_6RecordERKNSA_7TimingsEEEEEUlvE_EEOS14_
++ __ZN3WTF9HashTableIN6WebKit12NetworkCache3KeyENS_12KeyValuePairIS3_jEENS_24KeyValuePairKeyExtractorIS5_EENS_11DefaultHashIS3_EENS_7HashMapIS3_jS9_NS_10HashTraitsIS3_EENSB_IjEENS_15HashTableTraitsELNS_17ShouldValidateKeyE1ENS_10FastMallocEE18KeyValuePairTraitsESC_SG_E13allocateTableEj
++ __ZN3WTF9HashTableIN6WebKit12NetworkCache3KeyENS_12KeyValuePairIS3_jEENS_24KeyValuePairKeyExtractorIS5_EENS_11DefaultHashIS3_EENS_7HashMapIS3_jS9_NS_10HashTraitsIS3_EENSB_IjEENS_15HashTableTraitsELNS_17ShouldValidateKeyE1ENS_10FastMallocEE18KeyValuePairTraitsESC_SG_E15deallocateTableEPS5_
++ __ZN3WTF9HashTableIN6WebKit12NetworkCache3KeyENS_12KeyValuePairIS3_jEENS_24KeyValuePairKeyExtractorIS5_EENS_11DefaultHashIS3_EENS_7HashMapIS3_jS9_NS_10HashTraitsIS3_EENSB_IjEENS_15HashTableTraitsELNS_17ShouldValidateKeyE1ENS_10FastMallocEE18KeyValuePairTraitsESC_SG_E4findINS_22IdentityHashTranslatorISI_S9_EELSF_1ES3_EENS_17HashTableIteratorISJ_S3_S5_S7_S9_SI_SC_EERKT1_
++ __ZN3WTF9HashTableIN6WebKit12NetworkCache3KeyENS_12KeyValuePairIS3_jEENS_24KeyValuePairKeyExtractorIS5_EENS_11DefaultHashIS3_EENS_7HashMapIS3_jS9_NS_10HashTraitsIS3_EENSB_IjEENS_15HashTableTraitsELNS_17ShouldValidateKeyE1ENS_10FastMallocEE18KeyValuePairTraitsESC_SG_E6lookupINS_22IdentityHashTranslatorISI_S9_EELSF_1ES3_EEPS5_RKT1_
++ __ZN3WTF9HashTableIN6WebKit12NetworkCache3KeyENS_12KeyValuePairIS3_jEENS_24KeyValuePairKeyExtractorIS5_EENS_11DefaultHashIS3_EENS_7HashMapIS3_jS9_NS_10HashTraitsIS3_EENSB_IjEENS_15HashTableTraitsELNS_17ShouldValidateKeyE1ENS_10FastMallocEE18KeyValuePairTraitsESC_SG_E6rehashENS_7CheckedIjNS_15CrashOnOverflowEEEPS5_
++ __ZN3WTF9HashTableIN7WebCore17RegistrableDomainES2_NS_17IdentityExtractorENS_11DefaultHashIS2_EENS_10HashTraitsIS2_EES7_NS_10FastMallocEE17lookupForReinsertINS_22IdentityHashTranslatorIS7_S5_EES2_EEPS2_RKT0_
++ __ZN3WTF9HashTableIN7WebCore4SiteES2_NS_17IdentityExtractorENS_11DefaultHashIS2_EENS_10HashTraitsIS2_EES7_NS_10FastMallocEE17lookupForReinsertERKS2_
++ __ZN3WTF9HashTableIN7WebCore4SiteES2_NS_17IdentityExtractorENS_11DefaultHashIS2_EENS_10HashTraitsIS2_EES7_NS_10FastMallocEE3addILNS_17ShouldValidateKeyE1EEENS_18HashTableAddResultINS_17HashTableIteratorIS9_S2_S2_S3_S5_S7_S7_EEEERKS2_
++ __ZN3WTF9HashTableIN7WebCore4SiteES2_NS_17IdentityExtractorENS_11DefaultHashIS2_EENS_10HashTraitsIS2_EES7_NS_10FastMallocEE6rehashENS_7CheckedIjNS_15CrashOnOverflowEEEPS2_
++ __ZN3WTF9HashTableINS_23ObjectIdentifierGenericIN6WebKit28StorageAreaMapIdentifierTypeENS_38ObjectIdentifierMainThreadAccessTraitsIyEEyEENS_12KeyValuePairIS6_NS_7WeakPtrINS2_14StorageAreaMapENS_18DefaultWeakPtrImplENS_12RawPtrTraitsISA_EEEEEENS_24KeyValuePairKeyExtractorISE_EENS_11DefaultHashIS6_EENS_7HashMapIS6_SD_SI_NS_10HashTraitsIS6_EENSK_ISD_EENS_15HashTableTraitsELNS_17ShouldValidateKeyE1ENS_10FastMallocEE18KeyValuePairTraitsESL_SP_E6lookupINS_24HashMapTranslatorAdapterISR_NS_22IdentityHashTranslatorISR_SI_EEEELSO_1ES6_EEPSE_RKT1_
++ __ZN3WTF9HashTableINS_23ObjectIdentifierGenericIN7WebCore18PageIdentifierTypeENS_38ObjectIdentifierMainThreadAccessTraitsIyEEyEENS_12KeyValuePairIS6_NS_6StringEEENS_24KeyValuePairKeyExtractorIS9_EENS_11DefaultHashIS6_EENS_7HashMapIS6_S8_SD_NS_10HashTraitsIS6_EENSF_IS8_EENS_15HashTableTraitsELNS_17ShouldValidateKeyE1ENS_10FastMallocEE18KeyValuePairTraitsESG_SK_E4findINS_22IdentityHashTranslatorISM_SD_EELSJ_1ES6_EENS_17HashTableIteratorISN_S6_S9_SB_SD_SM_SG_EERKT1_
++ __ZN3WTF9HashTableINS_7WeakPtrIN6WebKit23RemoteLayerBackingStoreENS_18DefaultWeakPtrImplENS_12RawPtrTraitsIS4_EEEES7_NS_17IdentityExtractorENS_11DefaultHashIS7_EENS_10HashTraitsIS7_EESC_NS_10FastMallocEE12deleteBucketERS7_
++ __ZN3WTF9HashTableIyNS_12KeyValuePairIyNS_8FunctionIFvvEEEEENS_24KeyValuePairKeyExtractorIS5_EENS_11DefaultHashIyEENS_7HashMapIyS4_S9_NS_10HashTraitsIyEENSB_IS4_EENS_15HashTableTraitsELNS_17ShouldValidateKeyE1ENS_10FastMallocEE18KeyValuePairTraitsESC_SG_E5beginEv
++ __ZN5mpark6detail10assignmentINS0_6traitsIJN3WTF6StringENS3_9RetainPtrIPK10__CFStringEEN3IPC14TransferString11SharedSpan8ENSB_12SharedSpan16EEEEE7emplaceILm0EJKS4_EEEDTclptfpT13construct_altclsr6access4baseE7get_altIXT_EEdefpTEspclsr3libE7forwardIT0_Efp_EEEDpOSI_
++ __ZN5mpark6detail10visitation3alt9visit_altINS0_4dtorEJRNS0_10destructorINS0_6traitsIJN3IPC24ConnectionSendSyncResultIN8Messages22RemoteRenderingBackend36PrepareImageBufferSetsForDisplaySyncEE9ReplyDataENS7_5ErrorEEEELNS0_5TraitE1EEEEEEDcOT_DpOT0_
++ __ZN5mpark6detail11constructorINS0_6traitsIJN3IPC24ConnectionSendSyncResultIN8Messages22RemoteRenderingBackend36PrepareImageBufferSetsForDisplaySyncEE9ReplyDataENS3_5ErrorEEEEE17generic_constructINS0_16move_constructorISB_LNS0_5TraitE1EEEEEvRSC_OT_
++ __ZN5mpark7variantIJN3WTF6StringENS1_9RetainPtrIPK10__CFStringEEN3IPC14TransferString11SharedSpan8ENS9_12SharedSpan16EEEaSIKS2_Li0ELm0ES2_Li0EEERSC_OT_
++ __ZN6WebKit10WebProcess33setOptInCookiePartitioningEnabledEb
++ __ZN6WebKit12NetworkCache15SubresourceLoadD2Ev
++ __ZN6WebKit12NetworkCache17SubresourcesEntry22updateSubresourceLoadsERKN3WTF6VectorINSt3__110unique_ptrINS0_15SubresourceLoadENS4_14default_deleteIS6_EEEELm0ENS2_15CrashOnOverflowELm16ENS2_10FastMallocEEE
++ __ZN6WebKit12NetworkCache22SpeculativeLoadManagerC1ERNS0_5CacheERNS0_7StorageE
++ __ZN6WebKit12WebCookieJar33setOptInCookiePartitioningEnabledEb
++ __ZN6WebKit14InjectedBundle13didCreatePageERNS_7WebPageE
++ __ZN6WebKit20NetworkLoadSchedulerD1Ev
++ __ZN6WebKit21NetworkLoadParametersD2Ev
++ __ZN6WebKit21NetworkSchemeRegistryD2Ev
++ __ZN6WebKit21RemoteGraphicsContext15strokeQuadCurveERKN7WebCore17PathDataQuadCurveE
++ __ZN6WebKit21WebCoreUserScriptDataD2Ev
++ __ZN6WebKit27CompactContextMenuPresenterC2EP6UIViewPU43objcproto32UIContextMenuInteractionDelegate11objc_objectNS0_19ShowsMenuFromSourceE
++ __ZN6WebKit27WebFoundTextRangeController17clearCachedRangesEv
++ __ZN6WebKit32RemoteImageBufferGraphicsContextD2Ev
++ __ZN6WebKit7WebPage21windowScreenDidChangeEjNSt3__18optionalIjEE
++ __ZN6WebKit7WebPage28notifyPageOfAppBoundBehaviorEv
++ __ZN6WebKit9LogClient4sendIN8Messages9LogStream36PERFORMANCELOGGING_MEMORY_USAGE_INFOEEEvOT_
++ __ZN6WebKit9LogClient4sendIN8Messages9LogStream38WEBPROCESS_DESTROY_RENDERING_RESOURCESEEEvOT_
++ __ZN7WebCore20ServiceWorkerScriptsD1Ev
++ __ZN7WebCore28ServiceWorkerRegistrationKeyD1Ev
++ __ZN7WebCoreeqERKNS_13HTTPHeaderMapES2_
++ __ZN8Messages17RemoteImageBuffer14GetPixelBuffer6encodeIN3IPC7EncoderEEEvRT_
++ __ZN8Messages21RemoteGraphicsContext10DrawGlyphs6encodeIN3IPC7EncoderEEEvRT_
++ __ZN8Messages25GPUConnectionToWebProcess19SetMediaEnvironment6encodeIN3IPC7EncoderEEEvRT_
++ __ZN8Messages9LogStream23LogOnBehalfOfWebContent6encodeIN3IPC7EncoderEEEvRT_
++ __ZN8Messages9LogStream26DOCUMENTLOADER_STOPLOADING6encodeIN3IPC7EncoderEEEvRT_
++ __ZN8Messages9LogStream26FRAMELOADER_STOPALLLOADERS6encodeIN3IPC7EncoderEEEvRT_
++ __ZN8Messages9LogStream32WEBRESOURCELOADER_DIDRECEIVEDATA6encodeIN3IPC7EncoderEEEvRT_
++ __ZN8Messages9LogStream38WEBPROCESS_DESTROY_RENDERING_RESOURCES6encodeIN3IPC23StreamConnectionEncoderEEEvRT_
++ __ZN8Messages9LogStream39WEBRESOURCELOADER_DIDFINISHRESOURCELOAD6encodeIN3IPC7EncoderEEEvRT_
++ __ZNSt3__18optionalIN3IPC14TransferStringEEC1B9sqn210106IS2_Li0EEEOT_
++ __ZNSt3__18optionalIN6WebKit12NetworkCache15SubresourceInfoEED1Ev
++ __ZNSt3__18optionalIN6WebKit21WebCoreUserScriptDataEED1Ev
++ __ZNSt3__18optionalIN7WebCore15ResourceRequestEED2Ev
++ __ZNSt3__18optionalINS_5tupleIJNS0_IN3WTF23ObjectIdentifierGenericIN6WebKit29StorageAreaImplIdentifierTypeENS2_38ObjectIdentifierMainThreadAccessTraitsIyEEyEEEENS2_6StringESA_SA_SA_yEEEED2Ev
++ __ZTVN3WTF6Detail15CallableWrapperIZZN6WebKit12WebPageProxy29decidePolicyForResponseSharedEONS_3RefINS2_15WebProcessProxyENS_12RawPtrTraitsIS5_EENS_21DefaultRefDerefTraitsIS5_EEEENS_23ObjectIdentifierGenericIN7WebCore18PageIdentifierTypeENS_38ObjectIdentifierMainThreadAccessTraitsIyEEyEEONS2_13FrameInfoDataENSt3__18optionalINSC_INSD_24NavigationIdentifierTypeESG_yEEEERKNSD_16ResourceResponseERKNSD_15ResourceRequestEbONS_6StringEbNSD_28CrossOriginOpenerPolicyValueEONS_17CompletionHandlerIFvONS2_14PolicyDecisionEEEEEN3$_0clENSD_12PolicyActionEPN3API15WebsitePoliciesENS2_28ProcessSwapRequestedByClientENSL_INS2_26NavigatingToAppBoundDomainEEENS2_24WasNavigationInterceptedEEUlvE0_vJEEE
++ __ZTVN3WTF6Detail15CallableWrapperIZZN6WebKit12WebPageProxy31decidePolicyForNavigationActionEONS_3RefINS2_15WebProcessProxyENS_12RawPtrTraitsIS5_EENS_21DefaultRefDerefTraitsIS5_EEEERNS2_13WebFrameProxyEONS2_20NavigationActionDataEONS_17CompletionHandlerIFvONS2_14PolicyDecisionEEEEEN3$_0clEN7WebCore12PolicyActionEPN3API15WebsitePoliciesENS2_28ProcessSwapRequestedByClientENSt3__18optionalINS2_26NavigatingToAppBoundDomainEEENS2_24WasNavigationInterceptedEEUlvE_vJEEE
++ __ZTVN3WTF6Detail15CallableWrapperIZZZN6WebKit12WebPageProxy29decidePolicyForResponseSharedEONS_3RefINS2_15WebProcessProxyENS_12RawPtrTraitsIS5_EENS_21DefaultRefDerefTraitsIS5_EEEENS_23ObjectIdentifierGenericIN7WebCore18PageIdentifierTypeENS_38ObjectIdentifierMainThreadAccessTraitsIyEEyEEONS2_13FrameInfoDataENSt3__18optionalINSC_INSD_24NavigationIdentifierTypeESG_yEEEERKNSD_16ResourceResponseERKNSD_15ResourceRequestEbONS_6StringEbNSD_28CrossOriginOpenerPolicyValueEONS_17CompletionHandlerIFvONS2_14PolicyDecisionEEEEEN3$_0clENSD_12PolicyActionEPN3API15WebsitePoliciesENS2_28ProcessSwapRequestedByClientENSL_INS2_26NavigatingToAppBoundDomainEEENS2_24WasNavigationInterceptedEENUlvE0_clEvEUlOT_E_vJON5mpark7variantIJNS2_18ContinueUnsafeLoadENS_3URLEEEEEEE
++ __ZTVN3WTF6Detail15CallableWrapperIZZZN6WebKit12WebPageProxy31decidePolicyForNavigationActionEONS_3RefINS2_15WebProcessProxyENS_12RawPtrTraitsIS5_EENS_21DefaultRefDerefTraitsIS5_EEEERNS2_13WebFrameProxyEONS2_20NavigationActionDataEONS_17CompletionHandlerIFvONS2_14PolicyDecisionEEEEEN3$_0clEN7WebCore12PolicyActionEPN3API15WebsitePoliciesENS2_28ProcessSwapRequestedByClientENSt3__18optionalINS2_26NavigatingToAppBoundDomainEEENS2_24WasNavigationInterceptedEENUlvE_clEvEUlOT_E_vJON5mpark7variantIJNS2_18ContinueUnsafeLoadENS_3URLEEEEEEE
++ __ZZN6WebKit12NetworkCache22SpeculativeLoadManager21revalidateSubresourceERKNS0_15SubresourceInfoENSt3__110unique_ptrINS0_5EntryENS5_14default_deleteIS7_EEEERKNS0_13GlobalFrameIDENS5_8optionalINS_26NavigatingToAppBoundDomainEEEbN3WTF9OptionSetIN7WebCore26AdvancedPrivacyProtectionsELNSH_14ConcurrencyTagE0EEEEN3$_0D1Ev
++ __ZZN6WebKit12NetworkCache22SpeculativeLoadManager8retrieveERKNS0_3KeyEON3WTF8FunctionIFvNSt3__110unique_ptrINS0_5EntryENS7_14default_deleteIS9_EEEEEEEEN3$_0clEv
++ __ZZN6WebKit12NetworkCache5Cache8retrieveERKN7WebCore15ResourceRequestENSt3__18optionalINS0_13GlobalFrameIDEEENS7_INS_26NavigatingToAppBoundDomainEEEbN3WTF9OptionSetINS2_26AdvancedPrivacyProtectionsELNSC_14ConcurrencyTagE0EEEONSC_8FunctionIFvNS6_10unique_ptrINS0_5EntryENS6_14default_deleteISJ_EEEERKNS1_12RetrieveInfoEEEEEN3$_0D1Ev
++ __ZZN6WebKit12NetworkCache5Cache8retrieveERKN7WebCore15ResourceRequestENSt3__18optionalINS0_13GlobalFrameIDEEENS7_INS_26NavigatingToAppBoundDomainEEEbN3WTF9OptionSetINS2_26AdvancedPrivacyProtectionsELNSC_14ConcurrencyTagE0EEEONSC_8FunctionIFvNS6_10unique_ptrINS0_5EntryENS6_14default_deleteISJ_EEEERKNS1_12RetrieveInfoEEEEEN3$_0clESM_
++ __ZZN6WebKit12NetworkCache5CacheC1ERNS_14NetworkProcessERKN3WTF6StringEONS4_3RefINS0_7StorageENS4_12RawPtrTraitsIS9_EENS4_21DefaultRefDerefTraitsIS9_EEEENS4_9OptionSetINS0_11CacheOptionELNS4_14ConcurrencyTagE0EEEN3PAL9SessionIDEENK3$_1clEb
++ __ZZZN6WebKit12WebPageProxy29decidePolicyForResponseSharedEON3WTF3RefINS_15WebProcessProxyENS1_12RawPtrTraitsIS3_EENS1_21DefaultRefDerefTraitsIS3_EEEENS1_23ObjectIdentifierGenericIN7WebCore18PageIdentifierTypeENS1_38ObjectIdentifierMainThreadAccessTraitsIyEEyEEONS_13FrameInfoDataENSt3__18optionalINSA_INSB_24NavigationIdentifierTypeESE_yEEEERKNSB_16ResourceResponseERKNSB_15ResourceRequestEbONS1_6StringEbNSB_28CrossOriginOpenerPolicyValueEONS1_17CompletionHandlerIFvONS_14PolicyDecisionEEEEEN3$_0clENSB_12PolicyActionEPN3API15WebsitePoliciesENS_28ProcessSwapRequestedByClientENSJ_INS_26NavigatingToAppBoundDomainEEENS_24WasNavigationInterceptedEENUlvE0_D1Ev
+- GCC_except_table1001
+- GCC_except_table1003
+- GCC_except_table1012
+- GCC_except_table1013
+- GCC_except_table1016
+- GCC_except_table1018
+- GCC_except_table1025
+- GCC_except_table1028
+- GCC_except_table1035
+- GCC_except_table1036
+- GCC_except_table1043
+- GCC_except_table1045
+- GCC_except_table1058
+- GCC_except_table1059
+- GCC_except_table1066
+- GCC_except_table1067
+- GCC_except_table1071
+- GCC_except_table1076
+- GCC_except_table1084
+- GCC_except_table1091
+- GCC_except_table1094
+- GCC_except_table1105
+- GCC_except_table1114
+- GCC_except_table1117
+- GCC_except_table1123
+- GCC_except_table1126
+- GCC_except_table1131
+- GCC_except_table1132
+- GCC_except_table1136
+- GCC_except_table1144
+- GCC_except_table1148
+- GCC_except_table1161
+- GCC_except_table1163
+- GCC_except_table1165
+- GCC_except_table1176
+- GCC_except_table1182
+- GCC_except_table1183
+- GCC_except_table1187
+- GCC_except_table1208
+- GCC_except_table1213
+- GCC_except_table1214
+- GCC_except_table1215
+- GCC_except_table1240
+- GCC_except_table1245
+- GCC_except_table1246
+- GCC_except_table1266
+- GCC_except_table1276
+- GCC_except_table1281
+- GCC_except_table1298
+- GCC_except_table1303
+- GCC_except_table1308
+- GCC_except_table1313
+- GCC_except_table1319
+- GCC_except_table1322
+- GCC_except_table1327
+- GCC_except_table1330
+- GCC_except_table1339
+- GCC_except_table1342
+- GCC_except_table1353
+- GCC_except_table1359
+- GCC_except_table1366
+- GCC_except_table1370
+- GCC_except_table1372
+- GCC_except_table1373
+- GCC_except_table1374
+- GCC_except_table1394
+- GCC_except_table1397
+- GCC_except_table1410
+- GCC_except_table1413
+- GCC_except_table1414
+- GCC_except_table1416
+- GCC_except_table1427
+- GCC_except_table1431
+- GCC_except_table1435
+- GCC_except_table1437
+- GCC_except_table1439
+- GCC_except_table1456
+- GCC_except_table1464
+- GCC_except_table1471
+- GCC_except_table1476
+- GCC_except_table1478
+- GCC_except_table1482
+- GCC_except_table1483
+- GCC_except_table1485
+- GCC_except_table1488
+- GCC_except_table1492
+- GCC_except_table1495
+- GCC_except_table1501
+- GCC_except_table1504
+- GCC_except_table1505
+- GCC_except_table1511
+- GCC_except_table1524
+- GCC_except_table1537
+- GCC_except_table1540
+- GCC_except_table1546
+- GCC_except_table1553
+- GCC_except_table1557
+- GCC_except_table1560
+- GCC_except_table1563
+- GCC_except_table1564
+- GCC_except_table1566
+- GCC_except_table1570
+- GCC_except_table1571
+- GCC_except_table1573
+- GCC_except_table1582
+- GCC_except_table1583
+- GCC_except_table1585
+- GCC_except_table1587
+- GCC_except_table1590
+- GCC_except_table1592
+- GCC_except_table1594
+- GCC_except_table1605
+- GCC_except_table1615
+- GCC_except_table1617
+- GCC_except_table1619
+- GCC_except_table1620
+- GCC_except_table1621
+- GCC_except_table1624
+- GCC_except_table1627
+- GCC_except_table1634
+- GCC_except_table1636
+- GCC_except_table1641
+- GCC_except_table1643
+- GCC_except_table1645
+- GCC_except_table1648
+- GCC_except_table1650
+- GCC_except_table1653
+- GCC_except_table1656
+- GCC_except_table1664
+- GCC_except_table1672
+- GCC_except_table1679
+- GCC_except_table1682
+- GCC_except_table1687
+- GCC_except_table1701
+- GCC_except_table1703
+- GCC_except_table1704
+- GCC_except_table1705
+- GCC_except_table1706
+- GCC_except_table1707
+- GCC_except_table1708
+- GCC_except_table1709
+- GCC_except_table1712
+- GCC_except_table1728
+- GCC_except_table1729
+- GCC_except_table1733
+- GCC_except_table1734
+- GCC_except_table1737
+- GCC_except_table1741
+- GCC_except_table1742
+- GCC_except_table1745
+- GCC_except_table1749
+- GCC_except_table1753
+- GCC_except_table1757
+- GCC_except_table1762
+- GCC_except_table1770
+- GCC_except_table1774
+- GCC_except_table1775
+- GCC_except_table1776
+- GCC_except_table1779
+- GCC_except_table1782
+- GCC_except_table1787
+- GCC_except_table1791
+- GCC_except_table1796
+- GCC_except_table1810
+- GCC_except_table1811
+- GCC_except_table1815
+- GCC_except_table1817
+- GCC_except_table1828
+- GCC_except_table1833
+- GCC_except_table1835
+- GCC_except_table1836
+- GCC_except_table1840
+- GCC_except_table1843
+- GCC_except_table1849
+- GCC_except_table1853
+- GCC_except_table1856
+- GCC_except_table1858
+- GCC_except_table1862
+- GCC_except_table1870
+- GCC_except_table1878
+- GCC_except_table1883
+- GCC_except_table1885
+- GCC_except_table1886
+- GCC_except_table1888
+- GCC_except_table1898
+- GCC_except_table1900
+- GCC_except_table1903
+- GCC_except_table1906
+- GCC_except_table1913
+- GCC_except_table1915
+- GCC_except_table1918
+- GCC_except_table1925
+- GCC_except_table1933
+- GCC_except_table1935
+- GCC_except_table1938
+- GCC_except_table1939
+- GCC_except_table1943
+- GCC_except_table1955
+- GCC_except_table1956
+- GCC_except_table1959
+- GCC_except_table1962
+- GCC_except_table1965
+- GCC_except_table1968
+- GCC_except_table1980
+- GCC_except_table1981
+- GCC_except_table1986
+- GCC_except_table1994
+- GCC_except_table2000
+- GCC_except_table2009
+- GCC_except_table2014
+- GCC_except_table2018
+- GCC_except_table2024
+- GCC_except_table2027
+- GCC_except_table2028
+- GCC_except_table2032
+- GCC_except_table2045
+- GCC_except_table2051
+- GCC_except_table2057
+- GCC_except_table2061
+- GCC_except_table2065
+- GCC_except_table2071
+- GCC_except_table2079
+- GCC_except_table2080
+- GCC_except_table2085
+- GCC_except_table2089
+- GCC_except_table2129
+- GCC_except_table2142
+- GCC_except_table2146
+- GCC_except_table2149
+- GCC_except_table2152
+- GCC_except_table2160
+- GCC_except_table2170
+- GCC_except_table2174
+- GCC_except_table2178
+- GCC_except_table2183
+- GCC_except_table2189
+- GCC_except_table2191
+- GCC_except_table2196
+- GCC_except_table2197
+- GCC_except_table2199
+- GCC_except_table2204
+- GCC_except_table2210
+- GCC_except_table2214
+- GCC_except_table2218
+- GCC_except_table2220
+- GCC_except_table2472
+- GCC_except_table2474
+- GCC_except_table2476
+- GCC_except_table2480
+- GCC_except_table2482
+- GCC_except_table2483
+- GCC_except_table2485
+- GCC_except_table2490
+- GCC_except_table2491
+- GCC_except_table2506
+- GCC_except_table2508
+- GCC_except_table2519
+- GCC_except_table2524
+- GCC_except_table2564
+- GCC_except_table2568
+- GCC_except_table2569
+- GCC_except_table2570
+- GCC_except_table2577
+- GCC_except_table2584
+- GCC_except_table2590
+- GCC_except_table2591
+- GCC_except_table2595
+- GCC_except_table2597
+- GCC_except_table2601
+- GCC_except_table2604
+- GCC_except_table2606
+- GCC_except_table2608
+- GCC_except_table2610
+- GCC_except_table2615
+- GCC_except_table2621
+- GCC_except_table2623
+- GCC_except_table2625
+- GCC_except_table2626
+- GCC_except_table2628
+- GCC_except_table2629
+- GCC_except_table2636
+- GCC_except_table2639
+- GCC_except_table2642
+- GCC_except_table2645
+- GCC_except_table2650
+- GCC_except_table2653
+- GCC_except_table2658
+- GCC_except_table2659
+- GCC_except_table2661
+- GCC_except_table2668
+- GCC_except_table2672
+- GCC_except_table2681
+- GCC_except_table2686
+- GCC_except_table2687
+- GCC_except_table2691
+- GCC_except_table2694
+- GCC_except_table2697
+- GCC_except_table2698
+- GCC_except_table2699
+- GCC_except_table2701
+- GCC_except_table2702
+- GCC_except_table2709
+- GCC_except_table2717
+- GCC_except_table2719
+- GCC_except_table2721
+- GCC_except_table2722
+- GCC_except_table2729
+- GCC_except_table2732
+- GCC_except_table2733
+- GCC_except_table2734
+- GCC_except_table2735
+- GCC_except_table2748
+- GCC_except_table2751
+- GCC_except_table2752
+- GCC_except_table2753
+- GCC_except_table2781
+- GCC_except_table2791
+- GCC_except_table2793
+- GCC_except_table2795
+- GCC_except_table2799
+- GCC_except_table2806
+- GCC_except_table2807
+- GCC_except_table2809
+- GCC_except_table2810
+- GCC_except_table2814
+- GCC_except_table2833
+- GCC_except_table2835
+- GCC_except_table2850
+- GCC_except_table2854
+- GCC_except_table2865
+- GCC_except_table2866
+- GCC_except_table2870
+- GCC_except_table2871
+- GCC_except_table2885
+- GCC_except_table2888
+- GCC_except_table2891
+- GCC_except_table2893
+- GCC_except_table2895
+- GCC_except_table2899
+- GCC_except_table2901
+- GCC_except_table2903
+- GCC_except_table2905
+- GCC_except_table2960
+- GCC_except_table2962
+- GCC_except_table2963
+- GCC_except_table2968
+- GCC_except_table2984
+- GCC_except_table2985
+- GCC_except_table2997
+- GCC_except_table2998
+- GCC_except_table3000
+- GCC_except_table3001
+- GCC_except_table3009
+- GCC_except_table3013
+- GCC_except_table3018
+- GCC_except_table3022
+- GCC_except_table3024
+- GCC_except_table3041
+- GCC_except_table3047
+- GCC_except_table3048
+- GCC_except_table3053
+- GCC_except_table3062
+- GCC_except_table3071
+- GCC_except_table3073
+- GCC_except_table3092
+- GCC_except_table3108
+- GCC_except_table3109
+- GCC_except_table3111
+- GCC_except_table3112
+- GCC_except_table3116
+- GCC_except_table3125
+- GCC_except_table3127
+- GCC_except_table3131
+- GCC_except_table3133
+- GCC_except_table3134
+- GCC_except_table3138
+- GCC_except_table3140
+- GCC_except_table3158
+- GCC_except_table3159
+- GCC_except_table3161
+- GCC_except_table3162
+- GCC_except_table3166
+- GCC_except_table3167
+- GCC_except_table3173
+- GCC_except_table3178
+- GCC_except_table3180
+- GCC_except_table3184
+- GCC_except_table3185
+- GCC_except_table3187
+- GCC_except_table3191
+- GCC_except_table3196
+- GCC_except_table3198
+- GCC_except_table3199
+- GCC_except_table3213
+- GCC_except_table3220
+- GCC_except_table3228
+- GCC_except_table3232
+- GCC_except_table3234
+- GCC_except_table3235
+- GCC_except_table3237
+- GCC_except_table3248
+- GCC_except_table3250
+- GCC_except_table3252
+- GCC_except_table3253
+- GCC_except_table3264
+- GCC_except_table3265
+- GCC_except_table3268
+- GCC_except_table3271
+- GCC_except_table3272
+- GCC_except_table3273
+- GCC_except_table3276
+- GCC_except_table3277
+- GCC_except_table3279
+- GCC_except_table3280
+- GCC_except_table3288
+- GCC_except_table3293
+- GCC_except_table3294
+- GCC_except_table3295
+- GCC_except_table3299
+- GCC_except_table3380
+- GCC_except_table3381
+- GCC_except_table3382
+- GCC_except_table3418
+- GCC_except_table3435
+- GCC_except_table3436
+- GCC_except_table3440
+- GCC_except_table3456
+- GCC_except_table3457
+- GCC_except_table3465
+- GCC_except_table3474
+- GCC_except_table3477
+- GCC_except_table3478
+- GCC_except_table3482
+- GCC_except_table3487
+- GCC_except_table3488
+- GCC_except_table3491
+- GCC_except_table3500
+- GCC_except_table3535
+- GCC_except_table3536
+- GCC_except_table3537
+- GCC_except_table3538
+- GCC_except_table3539
+- GCC_except_table3540
+- GCC_except_table3541
+- GCC_except_table3542
+- GCC_except_table3549
+- GCC_except_table3558
+- GCC_except_table3570
+- GCC_except_table3572
+- GCC_except_table359
+- GCC_except_table3591
+- GCC_except_table3594
+- GCC_except_table3601
+- GCC_except_table3603
+- GCC_except_table3627
+- GCC_except_table3628
+- GCC_except_table3645
+- GCC_except_table3646
+- GCC_except_table3651
+- GCC_except_table3652
+- GCC_except_table3664
+- GCC_except_table3669
+- GCC_except_table3670
+- GCC_except_table3681
+- GCC_except_table3686
+- GCC_except_table3691
+- GCC_except_table3706
+- GCC_except_table3707
+- GCC_except_table3708
+- GCC_except_table3714
+- GCC_except_table3715
+- GCC_except_table3722
+- GCC_except_table374
+- GCC_except_table3747
+- GCC_except_table3748
+- GCC_except_table3754
+- GCC_except_table3755
+- GCC_except_table3756
+- GCC_except_table3759
+- GCC_except_table3760
+- GCC_except_table3761
+- GCC_except_table3784
+- GCC_except_table3785
+- GCC_except_table3793
+- GCC_except_table3795
+- GCC_except_table3806
+- GCC_except_table3808
+- GCC_except_table3826
+- GCC_except_table3840
+- GCC_except_table3841
+- GCC_except_table3842
+- GCC_except_table3859
+- GCC_except_table3862
+- GCC_except_table3879
+- GCC_except_table3880
+- GCC_except_table3895
+- GCC_except_table3896
+- GCC_except_table3897
+- GCC_except_table3909
+- GCC_except_table3917
+- GCC_except_table3925
+- GCC_except_table3933
+- GCC_except_table3936
+- GCC_except_table3939
+- GCC_except_table3959
+- GCC_except_table3971
+- GCC_except_table3998
+- GCC_except_table3999
+- GCC_except_table4023
+- GCC_except_table4025
+- GCC_except_table4026
+- GCC_except_table4035
+- GCC_except_table4039
+- GCC_except_table4051
+- GCC_except_table4058
+- GCC_except_table4092
+- GCC_except_table4104
+- GCC_except_table4105
+- GCC_except_table4106
+- GCC_except_table4107
+- GCC_except_table4114
+- GCC_except_table4117
+- GCC_except_table4135
+- GCC_except_table4142
+- GCC_except_table4144
+- GCC_except_table4148
+- GCC_except_table4166
+- GCC_except_table4167
+- GCC_except_table4181
+- GCC_except_table4190
+- GCC_except_table4197
+- GCC_except_table4198
+- GCC_except_table4203
+- GCC_except_table4204
+- GCC_except_table4207
+- GCC_except_table4225
+- GCC_except_table4232
+- GCC_except_table4233
+- GCC_except_table4235
+- GCC_except_table4238
+- GCC_except_table4240
+- GCC_except_table4241
+- GCC_except_table4256
+- GCC_except_table4259
+- GCC_except_table4263
+- GCC_except_table4269
+- GCC_except_table4277
+- GCC_except_table4310
+- GCC_except_table4313
+- GCC_except_table4315
+- GCC_except_table4317
+- GCC_except_table4327
+- GCC_except_table4328
+- GCC_except_table4356
+- GCC_except_table4363
+- GCC_except_table4371
+- GCC_except_table4384
+- GCC_except_table4385
+- GCC_except_table4386
+- GCC_except_table4389
+- GCC_except_table4393
+- GCC_except_table4417
+- GCC_except_table4425
+- GCC_except_table4428
+- GCC_except_table4435
+- GCC_except_table4436
+- GCC_except_table4439
+- GCC_except_table4457
+- GCC_except_table4465
+- GCC_except_table4466
+- GCC_except_table4481
+- GCC_except_table4487
+- GCC_except_table4488
+- GCC_except_table4511
+- GCC_except_table4512
+- GCC_except_table4516
+- GCC_except_table452
+- GCC_except_table4524
+- GCC_except_table4541
+- GCC_except_table4542
+- GCC_except_table4549
+- GCC_except_table4554
+- GCC_except_table4564
+- GCC_except_table4576
+- GCC_except_table4577
+- GCC_except_table4580
+- GCC_except_table4587
+- GCC_except_table4594
+- GCC_except_table4595
+- GCC_except_table4609
+- GCC_except_table4624
+- GCC_except_table4625
+- GCC_except_table4628
+- GCC_except_table4659
+- GCC_except_table4662
+- GCC_except_table4663
+- GCC_except_table4664
+- GCC_except_table4666
+- GCC_except_table4681
+- GCC_except_table4701
+- GCC_except_table4723
+- GCC_except_table4732
+- GCC_except_table4733
+- GCC_except_table4738
+- GCC_except_table4747
+- GCC_except_table4750
+- GCC_except_table4760
+- GCC_except_table4767
+- GCC_except_table4774
+- GCC_except_table4776
+- GCC_except_table4789
+- GCC_except_table4790
+- GCC_except_table4791
+- GCC_except_table4794
+- GCC_except_table4797
+- GCC_except_table4822
+- GCC_except_table4840
+- GCC_except_table4849
+- GCC_except_table4901
+- GCC_except_table4908
+- GCC_except_table4913
+- GCC_except_table4915
+- GCC_except_table4920
+- GCC_except_table4921
+- GCC_except_table4937
+- GCC_except_table4939
+- GCC_except_table4947
+- GCC_except_table4948
+- GCC_except_table4956
+- GCC_except_table4957
+- GCC_except_table4959
+- GCC_except_table4979
+- GCC_except_table4985
+- GCC_except_table4987
+- GCC_except_table4994
+- GCC_except_table4995
+- GCC_except_table5002
+- GCC_except_table5003
+- GCC_except_table5006
+- GCC_except_table5016
+- GCC_except_table5017
+- GCC_except_table5020
+- GCC_except_table5027
+- GCC_except_table5030
+- GCC_except_table5035
+- GCC_except_table5039
+- GCC_except_table5064
+- GCC_except_table5075
+- GCC_except_table5078
+- GCC_except_table5089
+- GCC_except_table5090
+- GCC_except_table5091
+- GCC_except_table5094
+- GCC_except_table5121
+- GCC_except_table5138
+- GCC_except_table5139
+- GCC_except_table5142
+- GCC_except_table5144
+- GCC_except_table5169
+- GCC_except_table5177
+- GCC_except_table5181
+- GCC_except_table5185
+- GCC_except_table5194
+- GCC_except_table5213
+- GCC_except_table5228
+- GCC_except_table5238
+- GCC_except_table5246
+- GCC_except_table5253
+- GCC_except_table5261
+- GCC_except_table5265
+- GCC_except_table5274
+- GCC_except_table5279
+- GCC_except_table5282
+- GCC_except_table5283
+- GCC_except_table5287
+- GCC_except_table5293
+- GCC_except_table5309
+- GCC_except_table5312
+- GCC_except_table5315
+- GCC_except_table5318
+- GCC_except_table5325
+- GCC_except_table5326
+- GCC_except_table5328
+- GCC_except_table5334
+- GCC_except_table5341
+- GCC_except_table5343
+- GCC_except_table5353
+- GCC_except_table5357
+- GCC_except_table5368
+- GCC_except_table5370
+- GCC_except_table5371
+- GCC_except_table5372
+- GCC_except_table5375
+- GCC_except_table5376
+- GCC_except_table5381
+- GCC_except_table5382
+- GCC_except_table5384
+- GCC_except_table5409
+- GCC_except_table5410
+- GCC_except_table5420
+- GCC_except_table5423
+- GCC_except_table5424
+- GCC_except_table5437
+- GCC_except_table5438
+- GCC_except_table5441
+- GCC_except_table5470
+- GCC_except_table5471
+- GCC_except_table5472
+- GCC_except_table5476
+- GCC_except_table5478
+- GCC_except_table5484
+- GCC_except_table5485
+- GCC_except_table5487
+- GCC_except_table5512
+- GCC_except_table5545
+- GCC_except_table5546
+- GCC_except_table5547
+- GCC_except_table5548
+- GCC_except_table5549
+- GCC_except_table5553
+- GCC_except_table5555
+- GCC_except_table5556
+- GCC_except_table5557
+- GCC_except_table5579
+- GCC_except_table5590
+- GCC_except_table5595
+- GCC_except_table5597
+- GCC_except_table5606
+- GCC_except_table5607
+- GCC_except_table5609
+- GCC_except_table5636
+- GCC_except_table5639
+- GCC_except_table564
+- GCC_except_table5640
+- GCC_except_table5642
+- GCC_except_table5644
+- GCC_except_table5647
+- GCC_except_table5649
+- GCC_except_table565
+- GCC_except_table5652
+- GCC_except_table5661
+- GCC_except_table5671
+- GCC_except_table5676
+- GCC_except_table5685
+- GCC_except_table5688
+- GCC_except_table5693
+- GCC_except_table5695
+- GCC_except_table5702
+- GCC_except_table5716
+- GCC_except_table5725
+- GCC_except_table5741
+- GCC_except_table5746
+- GCC_except_table5762
+- GCC_except_table5763
+- GCC_except_table5764
+- GCC_except_table5765
+- GCC_except_table5771
+- GCC_except_table5777
+- GCC_except_table5787
+- GCC_except_table5814
+- GCC_except_table5824
+- GCC_except_table5831
+- GCC_except_table5848
+- GCC_except_table5863
+- GCC_except_table5864
+- GCC_except_table5887
+- GCC_except_table5888
+- GCC_except_table5910
+- GCC_except_table5935
+- GCC_except_table5936
+- GCC_except_table595
+- GCC_except_table5974
+- GCC_except_table598
+- GCC_except_table5982
+- GCC_except_table5997
+- GCC_except_table5999
+- GCC_except_table6015
+- GCC_except_table6028
+- GCC_except_table603
+- GCC_except_table633
+- GCC_except_table634
+- GCC_except_table640
+- GCC_except_table645
+- GCC_except_table650
+- GCC_except_table658
+- GCC_except_table674
+- GCC_except_table680
+- GCC_except_table695
+- GCC_except_table696
+- GCC_except_table697
+- GCC_except_table703
+- GCC_except_table707
+- GCC_except_table713
+- GCC_except_table716
+- GCC_except_table719
+- GCC_except_table733
+- GCC_except_table736
+- GCC_except_table741
+- GCC_except_table747
+- GCC_except_table764
+- GCC_except_table774
+- GCC_except_table776
+- GCC_except_table785
+- GCC_except_table797
+- GCC_except_table807
+- GCC_except_table817
+- GCC_except_table841
+- GCC_except_table878
+- GCC_except_table881
+- GCC_except_table911
+- GCC_except_table924
+- GCC_except_table933
+- GCC_except_table936
+- GCC_except_table942
+- GCC_except_table949
+- GCC_except_table951
+- GCC_except_table959
+- GCC_except_table963
+- GCC_except_table964
+- GCC_except_table965
+- GCC_except_table972
+- GCC_except_table989
+- GCC_except_table992
+- GCC_except_table995
+- GCC_except_table998
+- __MergedGlobals.206
+- __MergedGlobals.236
+- __MergedGlobals.272
+- __MergedGlobals.273
+- __MergedGlobals.353
+- __MergedGlobals.354
+- __MergedGlobals.867
+- __MergedGlobals.91
+- __MergedGlobals.995
+- __MergedGlobals.996
+- __ZN3IPC10Connection32retrySendMessageWithSharedMemoryENSt3__110unique_ptrINS_11MachMessageENS1_14default_deleteIS3_EEEERN3WTF9UniqueRefINS_7EncoderEEE
+- __ZN3IPC10Connection4sendIN8Messages21RemoteGraphicsContext15StrokeClosedArcEEENS_5ErrorEOT_yN3WTF9OptionSetINS_10SendOptionELNS8_14ConcurrencyTagE0EEENSt3__18optionalINS8_6Thread3QOSEEE
+- __ZN3IPC10Connection4sendIN8Messages21RemoteGraphicsContext8FillRectEEENS_5ErrorEOT_yN3WTF9OptionSetINS_10SendOptionELNS8_14ConcurrencyTagE0EEENSt3__18optionalINS8_6Thread3QOSEEE
+- __ZN3IPC10Connection4sendIN8Messages9LogStream30DOCUMENTLOADER_DETACHFROMFRAMEEEENS_5ErrorEOT_yN3WTF9OptionSetINS_10SendOptionELNS8_14ConcurrencyTagE0EEENSt3__18optionalINS8_6Thread3QOSEEE
+- __ZN3IPC10Connection4sendIN8Messages9LogStream35FRAMELOADER_SETPOLICYDOCUMENTLOADEREEENS_5ErrorEOT_yN3WTF9OptionSetINS_10SendOptionELNS8_14ConcurrencyTagE0EEENSt3__18optionalINS8_6Thread3QOSEEE
+- __ZN3IPC13ArgumentCoderIN3PAL9SessionIDEE6encodeERNS_7EncoderERKS2_
+- __ZN3IPC13ArgumentCoderIN3WTF23ObjectIdentifierGenericIN6WebKit14DownloadIDTypeENS1_38ObjectIdentifierMainThreadAccessTraitsIyEEyEEE6encodeERNS_7EncoderERKS7_
+- __ZN3IPC13ArgumentCoderIN3WTF23ObjectIdentifierGenericIN6WebKit17TapIdentifierTypeENS1_38ObjectIdentifierMainThreadAccessTraitsIyEEyEEE6encodeERNS_7EncoderERKS7_
+- __ZN3IPC13ArgumentCoderIN3WTF23ObjectIdentifierGenericIN6WebKit17WebUndoStepIDTypeENS1_38ObjectIdentifierMainThreadAccessTraitsIyEEyEEE6encodeERNS_7EncoderERKS7_
+- __ZN3IPC13ArgumentCoderIN3WTF23ObjectIdentifierGenericIN6WebKit22DataTaskIdentifierTypeENS1_38ObjectIdentifierMainThreadAccessTraitsIyEEyEEE6encodeERNS_7EncoderERKS7_
+- __ZN3IPC13ArgumentCoderIN3WTF23ObjectIdentifierGenericIN6WebKit22TextCheckerRequestTypeENS1_38ObjectIdentifierMainThreadAccessTraitsIyEEyEEE6encodeERNS_7EncoderERKS7_
+- __ZN3IPC13ArgumentCoderIN3WTF23ObjectIdentifierGenericIN6WebKit23PDFPluginIdentifierTypeENS1_38ObjectIdentifierMainThreadAccessTraitsIyEEyEEE6encodeERNS_7EncoderERKS7_
+- __ZN3IPC13ArgumentCoderIN3WTF23ObjectIdentifierGenericIN6WebKit23PageGroupIdentifierTypeENS1_38ObjectIdentifierMainThreadAccessTraitsIyEEyEEE6encodeERNS_7EncoderERKS7_
+- __ZN3IPC13ArgumentCoderIN3WTF23ObjectIdentifierGenericIN6WebKit23RemoteCDMIdentifierTypeENS1_38ObjectIdentifierMainThreadAccessTraitsIyEEyEEE6encodeERNS_7EncoderERKS7_
+- __ZN3IPC13ArgumentCoderIN3WTF23ObjectIdentifierGenericIN6WebKit24UserScriptIdentifierTypeENS1_38ObjectIdentifierMainThreadAccessTraitsIyEEyEEE6encodeERNS_7EncoderERKS7_
+- __ZN3IPC13ArgumentCoderIN3WTF23ObjectIdentifierGenericIN6WebKit25GeolocationIdentifierTypeENS1_38ObjectIdentifierMainThreadAccessTraitsIyEEyEEE6encodeERNS_7EncoderERKS7_
+- __ZN3IPC13ArgumentCoderIN3WTF23ObjectIdentifierGenericIN6WebKit26ContentWorldIdentifierTypeENS1_38ObjectIdentifierMainThreadAccessTraitsIyEEyEEE6encodeERNS_7EncoderERKS7_
+- __ZN3IPC13ArgumentCoderIN3WTF23ObjectIdentifierGenericIN6WebKit26LegacyCustomProtocolIDTypeENS1_38ObjectIdentifierThreadSafeAccessTraitsIyEEyEEE6encodeERNS_7EncoderERKS7_
+- __ZN3IPC13ArgumentCoderIN3WTF23ObjectIdentifierGenericIN6WebKit26MessageBatchIdentifierTypeENS1_38ObjectIdentifierMainThreadAccessTraitsIyEEyEEE6encodeERNS_7EncoderERKS7_
+- __ZN3IPC13ArgumentCoderIN3WTF23ObjectIdentifierGenericIN6WebKit26VideoDecoderIdentifierTypeENS1_38ObjectIdentifierThreadSafeAccessTraitsIyEEyEEE6encodeERNS_7EncoderERKS7_
+- __ZN3IPC13ArgumentCoderIN3WTF23ObjectIdentifierGenericIN6WebKit26VideoEncoderIdentifierTypeENS1_38ObjectIdentifierThreadSafeAccessTraitsIyEEyEEE6encodeERNS_7EncoderERKS7_
+- __ZN3IPC13ArgumentCoderIN3WTF23ObjectIdentifierGenericIN6WebKit28ImageBufferSetIdentifierTypeENS1_38ObjectIdentifierMainThreadAccessTraitsIyEEyEEE6encodeERNS_7EncoderERKS7_
+- __ZN3IPC13ArgumentCoderIN3WTF23ObjectIdentifierGenericIN6WebKit28RemoteGradientIdentifierTypeENS1_38ObjectIdentifierThreadSafeAccessTraitsIyEEyEEE6encodeERNS_7EncoderERKS7_
+- __ZN3IPC13ArgumentCoderIN3WTF23ObjectIdentifierGenericIN6WebKit28RemoteSnapshotIdentifierTypeENS1_38ObjectIdentifierThreadSafeAccessTraitsIyEEyEEE6encodeERNS_7EncoderERKS7_
+- __ZN3IPC13ArgumentCoderIN3WTF23ObjectIdentifierGenericIN6WebKit28ShapeDetectionIdentifierTypeENS1_38ObjectIdentifierMainThreadAccessTraitsIyEEyEEE6encodeERNS_7EncoderERKS7_
+- __ZN3IPC13ArgumentCoderIN3WTF23ObjectIdentifierGenericIN6WebKit28UserStyleSheetIdentifierTypeENS1_38ObjectIdentifierMainThreadAccessTraitsIyEEyEEE6encodeERNS_7EncoderERKS7_
+- __ZN3IPC13ArgumentCoderIN3WTF23ObjectIdentifierGenericIN6WebKit29RemoteLegacyCDMIdentifierTypeENS1_38ObjectIdentifierMainThreadAccessTraitsIyEEyEEE6encodeERNS_7EncoderERKS7_
+- __ZN3IPC13ArgumentCoderIN3WTF23ObjectIdentifierGenericIN6WebKit29StorageAreaImplIdentifierTypeENS1_38ObjectIdentifierMainThreadAccessTraitsIyEEyEEE6encodeERNS_7EncoderERKS7_
+- __ZN3IPC13ArgumentCoderIN3WTF23ObjectIdentifierGenericIN6WebKit29WebExtensionTabIdentifierTypeENS1_38ObjectIdentifierMainThreadAccessTraitsIyEEyEEE6encodeERNS_7EncoderERKS7_
+- __ZN3IPC13ArgumentCoderIN3WTF23ObjectIdentifierGenericIN6WebKit30RemoteVideoFrameIdentifierTypeENS1_38ObjectIdentifierThreadSafeAccessTraitsIyEEyEEE6encodeERNS_7EncoderERKS7_
+- __ZN3IPC13ArgumentCoderIN3WTF23ObjectIdentifierGenericIN6WebKit30VisitedLinkTableIdentifierTypeENS1_38ObjectIdentifierMainThreadAccessTraitsIyEEyEEE6encodeERNS_7EncoderERKS7_
+- __ZN3IPC13ArgumentCoderIN3WTF23ObjectIdentifierGenericIN6WebKit31LibWebRTCResolverIdentifierTypeENS1_38ObjectIdentifierThreadSafeAccessTraitsIyEEyEEE6encodeERNS_7EncoderERKS7_
+- __ZN3IPC13ArgumentCoderIN3WTF23ObjectIdentifierGenericIN6WebKit31RemoteCDMInstanceIdentifierTypeENS1_38ObjectIdentifierMainThreadAccessTraitsIyEEyEEE6encodeERNS_7EncoderERKS7_
+- __ZN3IPC13ArgumentCoderIN3WTF23ObjectIdentifierGenericIN6WebKit31RemoteDisplayListIdentifierTypeENS1_38ObjectIdentifierThreadSafeAccessTraitsIyEEyEEE6encodeERNS_7EncoderERKS7_
+- __ZN3IPC13ArgumentCoderIN3WTF23ObjectIdentifierGenericIN6WebKit31RemoteMediaSourceIdentifierTypeENS1_38ObjectIdentifierMainThreadAccessTraitsIyEEyEEE6encodeERNS_7EncoderERKS7_
+- __ZN3IPC13ArgumentCoderIN3WTF23ObjectIdentifierGenericIN6WebKit31WebExtensionFrameIdentifierTypeENS1_38ObjectIdentifierMainThreadAccessTraitsIyEEyEEE6encodeERNS_7EncoderERKS7_
+- __ZN3IPC13ArgumentCoderIN3WTF23ObjectIdentifierGenericIN6WebKit32RemoteSourceBufferIdentifierTypeENS1_38ObjectIdentifierMainThreadAccessTraitsIyEEyEEE6encodeERNS_7EncoderERKS7_
+- __ZN3IPC13ArgumentCoderIN3WTF23ObjectIdentifierGenericIN6WebKit32WebExtensionWindowIdentifierTypeENS1_38ObjectIdentifierMainThreadAccessTraitsIyEEyEEE6encodeERNS_7EncoderERKS7_
+- __ZN3IPC13ArgumentCoderIN3WTF23ObjectIdentifierGenericIN6WebKit33RemoteMediaResourceIdentifierTypeENS1_38ObjectIdentifierMainThreadAccessTraitsIyEEyEEE6encodeERNS_7EncoderERKS7_
+- __ZN3IPC13ArgumentCoderIN3WTF23ObjectIdentifierGenericIN6WebKit33WebExtensionContextIdentifierTypeENS1_38ObjectIdentifierMainThreadAccessTraitsIyEEyEEE6encodeERNS_7EncoderERKS7_
+- __ZN3IPC13ArgumentCoderIN3WTF23ObjectIdentifierGenericIN6WebKit33WebTransportSessionIdentifierTypeENS1_38ObjectIdentifierThreadSafeAccessTraitsIyEEyEEE6encodeERNS_7EncoderERKS7_
+- __ZN3IPC13ArgumentCoderIN3WTF23ObjectIdentifierGenericIN6WebKit33WebURLSchemeHandlerIdentifierTypeENS1_38ObjectIdentifierMainThreadAccessTraitsIyEEyEEE6encodeERNS_7EncoderERKS7_
+- __ZN3IPC13ArgumentCoderIN3WTF23ObjectIdentifierGenericIN6WebKit34QuotaIncreaseRequestIdentifierTypeENS1_38ObjectIdentifierThreadSafeAccessTraitsIyEEyEEE6encodeERNS_7EncoderERKS7_
+- __ZN3IPC13ArgumentCoderIN3WTF23ObjectIdentifierGenericIN6WebKit34ScriptMessageHandlerIdentifierTypeENS1_38ObjectIdentifierMainThreadAccessTraitsIyEEyEEE6encodeERNS_7EncoderERKS7_
+- __ZN3IPC13ArgumentCoderIN3WTF23ObjectIdentifierGenericIN6WebKit35RemoteGraphicsContextIdentifierTypeENS1_38ObjectIdentifierThreadSafeAccessTraitsIyEEyEEE6encodeERNS_7EncoderERKS7_
+- __ZN3IPC13ArgumentCoderIN3WTF23ObjectIdentifierGenericIN6WebKit35UserContentControllerIdentifierTypeENS1_38ObjectIdentifierMainThreadAccessTraitsIyEEyEEE6encodeERNS_7EncoderERKS7_
+- __ZN3IPC13ArgumentCoderIN3WTF23ObjectIdentifierGenericIN6WebKit36RemoteAudioDestinationIdentifierTypeENS1_38ObjectIdentifierMainThreadAccessTraitsIyEEyEEE6encodeERNS_7EncoderERKS7_
+- __ZN3IPC13ArgumentCoderIN3WTF23ObjectIdentifierGenericIN6WebKit36RemoteLegacyCDMSessionIdentifierTypeENS1_38ObjectIdentifierMainThreadAccessTraitsIyEEyEEE6encodeERNS_7EncoderERKS7_
+- __ZN3IPC13ArgumentCoderIN3WTF23ObjectIdentifierGenericIN6WebKit36RemoteSnapshotRecorderIdentifierTypeENS1_38ObjectIdentifierThreadSafeAccessTraitsIyEEyEEE6encodeERNS_7EncoderERKS7_
+- __ZN3IPC13ArgumentCoderIN3WTF23ObjectIdentifierGenericIN6WebKit36WebExtensionControllerIdentifierTypeENS1_38ObjectIdentifierMainThreadAccessTraitsIyEEyEEE6encodeERNS_7EncoderERKS7_
+- __ZN3IPC13ArgumentCoderIN3WTF23ObjectIdentifierGenericIN6WebKit37AuthenticationChallengeIdentifierTypeENS1_38ObjectIdentifierMainThreadAccessTraitsIyEEyEEE6encodeERNS_7EncoderERKS7_
+- __ZN3IPC13ArgumentCoderIN3WTF23ObjectIdentifierGenericIN6WebKit37RemoteGraphicsContextGLIdentifierTypeENS1_38ObjectIdentifierThreadSafeAccessTraitsIyEEyEEE6encodeERNS_7EncoderERKS7_
+- __ZN3IPC13ArgumentCoderIN3WTF23ObjectIdentifierGenericIN6WebKit37WebExtensionPortChannelIdentifierTypeENS1_38ObjectIdentifierMainThreadAccessTraitsIyEEyEEE6encodeERNS_7EncoderERKS7_
+- __ZN3IPC13ArgumentCoderIN3WTF23ObjectIdentifierGenericIN6WebKit38RemoteAudioVideoRendererIdentifierTypeENS1_38ObjectIdentifierMainThreadAccessTraitsIyEEyEEE6encodeERNS_7EncoderERKS7_
+- __ZN3IPC13ArgumentCoderIN3WTF23ObjectIdentifierGenericIN6WebKit38RemoteCDMInstanceSessionIdentifierTypeENS1_38ObjectIdentifierMainThreadAccessTraitsIyEEyEEE6encodeERNS_7EncoderERKS7_
+- __ZN3IPC13ArgumentCoderIN3WTF23ObjectIdentifierGenericIN6WebKit38SampleBufferDisplayLayerIdentifierTypeENS1_38ObjectIdentifierMainThreadAccessTraitsIyEEyEEE6encodeERNS_7EncoderERKS7_
+- __ZN3IPC13ArgumentCoderIN3WTF23ObjectIdentifierGenericIN6WebKit39RemoteDisplayListRecorderIdentifierTypeENS1_38ObjectIdentifierThreadSafeAccessTraitsIyEEyEEE6encodeERNS_7EncoderERKS7_
+- __ZN3IPC13ArgumentCoderIN3WTF23ObjectIdentifierGenericIN6WebKit41RemoteAudioHardwareListenerIdentifierTypeENS1_38ObjectIdentifierMainThreadAccessTraitsIyEEyEEE6encodeERNS_7EncoderERKS7_
+- __ZN3IPC13ArgumentCoderIN3WTF23ObjectIdentifierGenericIN6WebKit41RemoteRemoteCommandListenerIdentifierTypeENS1_38ObjectIdentifierMainThreadAccessTraitsIyEEyEEE6encodeERNS_7EncoderERKS7_
+- __ZN3IPC13ArgumentCoderIN3WTF23ObjectIdentifierGenericIN6WebKit41RemoteSerializedImageBufferIdentifierTypeENS1_38ObjectIdentifierThreadSafeAccessTraitsIyEEyEEE6encodeERNS_7EncoderERKS7_
+- __ZN3IPC13ArgumentCoderIN3WTF23ObjectIdentifierGenericIN6WebKit43MarkSurfacesAsVolatileRequestIdentifierTypeENS1_38ObjectIdentifierMainThreadAccessTraitsIyEEyEEE6encodeERNS_7EncoderERKS7_
+- __ZN3IPC13ArgumentCoderIN3WTF23ObjectIdentifierGenericIN6WebKit48RetrieveRecordResponseBodyCallbackIdentifierTypeENS1_38ObjectIdentifierMainThreadAccessTraitsIyEEyEEE6encodeERNS_7EncoderERKS7_
+- __ZN3IPC13ArgumentCoderIN3WTF23ObjectIdentifierGenericIN6WebKit55AudioMediaStreamTrackRendererInternalUnitIdentifierTypeENS1_38ObjectIdentifierMainThreadAccessTraitsIyEEyEEE6encodeERNS_7EncoderERKS7_
+- __ZN3IPC13ArgumentCoderIN3WTF23ObjectIdentifierGenericIN7WebCore18NodeIdentifierTypeENS1_38ObjectIdentifierMainThreadAccessTraitsIyEEyEEE6encodeERNS_7EncoderERKS7_
+- __ZN3IPC13ArgumentCoderIN3WTF23ObjectIdentifierGenericIN7WebCore18PortIdentifierTypeENS1_38ObjectIdentifierThreadSafeAccessTraitsIyEEyEEE6encodeERNS_7EncoderERKS7_
+- __ZN3IPC13ArgumentCoderIN3WTF23ObjectIdentifierGenericIN7WebCore19FrameIdentifierTypeENS1_38ObjectIdentifierMainThreadAccessTraitsIyEEyEEE6encodeERNS_7EncoderERKS7_
+- __ZN3IPC13ArgumentCoderIN3WTF23ObjectIdentifierGenericIN7WebCore20DictationContextTypeENS1_38ObjectIdentifierMainThreadAccessTraitsIyEEyEEE6encodeERNS_7EncoderERKS7_
+- __ZN3IPC13ArgumentCoderIN3WTF23ObjectIdentifierGenericIN7WebCore21ProcessIdentifierTypeENS1_38ObjectIdentifierMainThreadAccessTraitsIyEEyEEE6encodeERNS_7EncoderERKS7_
+- __ZN3IPC13ArgumentCoderIN3WTF23ObjectIdentifierGenericIN7WebCore21WebLockIdentifierTypeENS1_38ObjectIdentifierThreadSafeAccessTraitsIyEEyEEE6encodeERNS_7EncoderERKS7_
+- __ZN3IPC13ArgumentCoderIN3WTF23ObjectIdentifierGenericIN7WebCore22IDBIndexIdentifierTypeENS1_38ObjectIdentifierThreadSafeAccessTraitsIyEEyEEE6encodeERNS_7EncoderERKS7_
+- __ZN3IPC13ArgumentCoderIN3WTF23ObjectIdentifierGenericIN7WebCore22JSHandleIdentifierTypeENS1_38ObjectIdentifierMainThreadAccessTraitsIyEEyEEE6encodeERNS_7EncoderERKS7_
+- __ZN3IPC13ArgumentCoderIN3WTF23ObjectIdentifierGenericIN7WebCore23WebSocketIdentifierTypeENS1_38ObjectIdentifierThreadSafeAccessTraitsIyEEyEEE6encodeERNS_7EncoderERKS7_
+- __ZN3IPC13ArgumentCoderIN3WTF23ObjectIdentifierGenericIN7WebCore25MediaPlayerIdentifierTypeENS1_38ObjectIdentifierMainThreadAccessTraitsIyEEyEEE6encodeERNS_7EncoderERKS7_
+- __ZN3IPC13ArgumentCoderIN3WTF23ObjectIdentifierGenericIN7WebCore25MediaUniqueIdentifierTypeENS1_38ObjectIdentifierMainThreadAccessTraitsIyEEyEEE6encodeERNS_7EncoderERKS7_
+- __ZN3IPC13ArgumentCoderIN3WTF23ObjectIdentifierGenericIN7WebCore26ImageDecoderIdentifierTypeENS1_38ObjectIdentifierMainThreadAccessTraitsIyEEyEEE6encodeERNS_7EncoderERKS7_
+- __ZN3IPC13ArgumentCoderIN3WTF23ObjectIdentifierGenericIN7WebCore26MediaSessionIdentifierTypeENS1_38ObjectIdentifierMainThreadAccessTraitsIyEEyEEE6encodeERNS_7EncoderERKS7_
+- __ZN3IPC13ArgumentCoderIN3WTF23ObjectIdentifierGenericIN7WebCore26SharedWorkerIdentifierTypeENS1_38ObjectIdentifierMainThreadAccessTraitsIyEEyEEE6encodeERNS_7EncoderERKS7_
+- __ZN3IPC13ArgumentCoderIN3WTF23ObjectIdentifierGenericIN7WebCore27PlatformLayerIdentifierTypeENS1_38ObjectIdentifierMainThreadAccessTraitsIyEEyEEE6encodeERNS_7EncoderERKS7_
+- __ZN3IPC13ArgumentCoderIN3WTF23ObjectIdentifierGenericIN7WebCore27ServiceWorkerIdentifierTypeENS1_38ObjectIdentifierThreadSafeAccessTraitsIyEEyEEE6encodeERNS_7EncoderERKS7_
+- __ZN3IPC13ArgumentCoderIN3WTF23ObjectIdentifierGenericIN7WebCore27SleepDisablerIdentifierTypeENS1_38ObjectIdentifierMainThreadAccessTraitsIyEEyEEE6encodeERNS_7EncoderERKS7_
+- __ZN3IPC13ArgumentCoderIN3WTF23ObjectIdentifierGenericIN7WebCore28IDBObjectStoreIdentifierTypeENS1_38ObjectIdentifierThreadSafeAccessTraitsIyEEyEEE6encodeERNS_7EncoderERKS7_
+- __ZN3IPC13ArgumentCoderIN3WTF23ObjectIdentifierGenericIN7WebCore28ResourceLoaderIdentifierTypeENS1_38ObjectIdentifierThreadSafeAccessTraitsIyEEyEEE6encodeERNS_7EncoderERKS7_
+- __ZN3IPC13ArgumentCoderIN3WTF23ObjectIdentifierGenericIN7WebCore29BackForwardItemIdentifierTypeENS1_38ObjectIdentifierMainThreadAccessTraitsIyEEyEEE6encodeERNS_7EncoderERKS7_
+- __ZN3IPC13ArgumentCoderIN3WTF23ObjectIdentifierGenericIN7WebCore29LibWebRTCSocketIdentifierTypeENS1_38ObjectIdentifierThreadSafeAccessTraitsIyEEyEEE6encodeERNS_7EncoderERKS7_
+- __ZN3IPC13ArgumentCoderIN3WTF23ObjectIdentifierGenericIN7WebCore30AttributedStringTextListIDTypeENS1_38ObjectIdentifierMainThreadAccessTraitsIyEEyEEE6encodeERNS_7EncoderERKS7_
+- __ZN3IPC13ArgumentCoderIN3WTF23ObjectIdentifierGenericIN7WebCore30FileSystemHandleIdentifierTypeENS1_38ObjectIdentifierThreadSafeAccessTraitsIyEEyEEE6encodeERNS_7EncoderERKS7_
+- __ZN3IPC13ArgumentCoderIN3WTF23ObjectIdentifierGenericIN7WebCore30InbandGenericCueIdentifierTypeENS1_38ObjectIdentifierMainThreadAccessTraitsIyEEyEEE6encodeERNS_7EncoderERKS7_
+- __ZN3IPC13ArgumentCoderIN3WTF23ObjectIdentifierGenericIN7WebCore30PushSubscriptionIdentifierTypeENS1_38ObjectIdentifierMainThreadAccessTraitsIyEEyEEE6encodeERNS_7EncoderERKS7_
+- __ZN3IPC13ArgumentCoderIN3WTF23ObjectIdentifierGenericIN7WebCore30ServiceWorkerJobIdentifierTypeENS1_38ObjectIdentifierThreadSafeAccessTraitsIyEEyEEE6encodeERNS_7EncoderERKS7_
+- __ZN3IPC13ArgumentCoderIN3WTF23ObjectIdentifierGenericIN7WebCore30UserGestureTokenIdentifierTypeENS1_38ObjectIdentifierMainThreadAccessTraitsIyEEyEEE6encodeERNS_7EncoderERKS7_
+- __ZN3IPC13ArgumentCoderIN3WTF23ObjectIdentifierGenericIN7WebCore30UserMediaRequestIdentifierTypeENS1_38ObjectIdentifierMainThreadAccessTraitsIyEEyEEE6encodeERNS_7EncoderERKS7_
+- __ZN3IPC13ArgumentCoderIN3WTF23ObjectIdentifierGenericIN7WebCore31AttributedStringTextTableIDTypeENS1_38ObjectIdentifierMainThreadAccessTraitsIyEEyEEE6encodeERNS_7EncoderERKS7_
+- __ZN3IPC13ArgumentCoderIN3WTF23ObjectIdentifierGenericIN7WebCore31MediaPlayerClientIdentifierTypeENS1_38ObjectIdentifierMainThreadAccessTraitsIyEEyEEE6encodeERNS_7EncoderERKS7_
+- __ZN3IPC13ArgumentCoderIN3WTF23ObjectIdentifierGenericIN7WebCore31MediaSessionGroupIdentifierTypeENS1_38ObjectIdentifierMainThreadAccessTraitsIyEEyEEE6encodeERNS_7EncoderERKS7_
+- __ZN3IPC13ArgumentCoderIN3WTF23ObjectIdentifierGenericIN7WebCore31RenderingResourceIdentifierTypeENS1_38ObjectIdentifierThreadSafeAccessTraitsIyEEyEEE6encodeERNS_7EncoderERKS7_
+- __ZN3IPC13ArgumentCoderIN3WTF23ObjectIdentifierGenericIN7WebCore32SharedWorkerObjectIdentifierTypeENS1_38ObjectIdentifierMainThreadAccessTraitsIyEEyEEE6encodeERNS_7EncoderERKS7_
+- __ZN3IPC13ArgumentCoderIN3WTF23ObjectIdentifierGenericIN7WebCore32WebTransportStreamIdentifierTypeENS1_38ObjectIdentifierMainThreadAccessTraitsIyEEyEEE6encodeERNS_7EncoderERKS7_
+- __ZN3IPC13ArgumentCoderIN3WTF23ObjectIdentifierGenericIN7WebCore33LayerHostingContextIdentifierTypeENS1_38ObjectIdentifierMainThreadAccessTraitsIyEEyEEE6encodeERNS_7EncoderERKS7_
+- __ZN3IPC13ArgumentCoderIN3WTF23ObjectIdentifierGenericIN7WebCore33RTCDataChannelLocalIdentifierTypeENS1_38ObjectIdentifierThreadSafeAccessTraitsIyEEyEEE6encodeERNS_7EncoderERKS7_
+- __ZN3IPC13ArgumentCoderIN3WTF23ObjectIdentifierGenericIN7WebCore33RealtimeMediaSourceIdentifierTypeENS1_38ObjectIdentifierMainThreadAccessTraitsIyEEyEEE6encodeERNS_7EncoderERKS7_
+- __ZN3IPC13ArgumentCoderIN3WTF23ObjectIdentifierGenericIN7WebCore33TextCheckingRequestIdentifierTypeENS1_38ObjectIdentifierMainThreadAccessTraitsIyEEyEEE6encodeERNS_7EncoderERKS7_
+- __ZN3IPC13ArgumentCoderIN3WTF23ObjectIdentifierGenericIN7WebCore34BackForwardFrameItemIdentifierTypeENS1_38ObjectIdentifierMainThreadAccessTraitsIyEEyEEE6encodeERNS_7EncoderERKS7_
+- __ZN3IPC13ArgumentCoderIN3WTF23ObjectIdentifierGenericIN7WebCore34SamplesRendererTrackIdentifierTypeENS1_38ObjectIdentifierThreadSafeAccessTraitsIyEEyEEE6encodeERNS_7EncoderERKS7_
+- __ZN3IPC13ArgumentCoderIN3WTF23ObjectIdentifierGenericIN7WebCore34TextManipulationItemIdentifierTypeENS1_38ObjectIdentifierMainThreadAccessTraitsIyEEyEEE6encodeERNS_7EncoderERKS7_
+- __ZN3IPC13ArgumentCoderIN3WTF23ObjectIdentifierGenericIN7WebCore35BackgroundFetchRecordIdentifierTypeENS1_38ObjectIdentifierMainThreadAccessTraitsIyEEyEEE6encodeERNS_7EncoderERKS7_
+- __ZN3IPC13ArgumentCoderIN3WTF23ObjectIdentifierGenericIN7WebCore35IDBDatabaseConnectionIdentifierTypeENS1_38ObjectIdentifierThreadSafeAccessTraitsIyEEyEEE6encodeERNS_7EncoderERKS7_
+- __ZN3IPC13ArgumentCoderIN3WTF23ObjectIdentifierGenericIN7WebCore35MediaKeySystemRequestIdentifierTypeENS1_38ObjectIdentifierMainThreadAccessTraitsIyEEyEEE6encodeERNS_7EncoderERKS7_
+- __ZN3IPC13ArgumentCoderIN3WTF23ObjectIdentifierGenericIN7WebCore35TextManipulationTokenIdentifierTypeENS1_38ObjectIdentifierMainThreadAccessTraitsIyEEyEEE6encodeERNS_7EncoderERKS7_
+- __ZN3IPC13ArgumentCoderIN3WTF23ObjectIdentifierGenericIN7WebCore35WebTransportSendGroupIdentifierTypeENS1_38ObjectIdentifierMainThreadAccessTraitsIyEEyEEE6encodeERNS_7EncoderERKS7_
+- __ZN3IPC13ArgumentCoderIN3WTF23ObjectIdentifierGenericIN7WebCore36AttributedStringTextTableBlockIDTypeENS1_38ObjectIdentifierMainThreadAccessTraitsIyEEyEEE6encodeERNS_7EncoderERKS7_
+- __ZN3IPC13ArgumentCoderIN3WTF23ObjectIdentifierGenericIN7WebCore39ServiceWorkerRegistrationIdentifierTypeENS1_38ObjectIdentifierThreadSafeAccessTraitsIyEEyEEE6encodeERNS_7EncoderERKS7_
+- __ZN3IPC13ArgumentCoderIN3WTF23ObjectIdentifierGenericIN7WebCore40FileSystemSyncAccessHandleIdentifierTypeENS1_38ObjectIdentifierThreadSafeAccessTraitsIyEEyEEE6encodeERNS_7EncoderERKS7_
+- __ZN3IPC13ArgumentCoderIN3WTF23ObjectIdentifierGenericIN7WebCore42FileSystemWritableFileStreamIdentifierTypeENS1_38ObjectIdentifierThreadSafeAccessTraitsIyEEyEEE6encodeERNS_7EncoderERKS7_
+- __ZN3IPC13ArgumentCoderIN3WTF23ObjectIdentifierGenericIN7WebCore47SpeechRecognitionConnectionClientIdentifierTypeENS1_38ObjectIdentifierMainThreadAccessTraitsIyEEyEEE6encodeERNS_7EncoderERKS7_
+- __ZN3IPC13ArgumentCoderIN3WTF23ObjectIdentifierGenericINS_17SyncRequestIDTypeENS1_38ObjectIdentifierThreadSafeAccessTraitsIyEEyEEE6encodeERNS_7EncoderERKS6_
+- __ZN3IPC13ArgumentCoderIN6WebKit14CoreIPCBooleanEE6encodeERNS_7EncoderERKS2_
+- __ZN3IPC13ArgumentCoderIN6WebKit18WebExtensionWindow12PopulateTabsEE6encodeINS_7EncoderEEEvRT_S3_
+- __ZN3IPC13ArgumentCoderIN6WebKit20CallDownloadDidStartEE6encodeINS_7EncoderEEEvRT_S2_
+- __ZN3IPC13ArgumentCoderIN6WebKit21GPUProcessPreferencesEE6encodeERNS_7EncoderERKS2_
+- __ZN3IPC13ArgumentCoderIN6WebKit22UseDownloadPlaceholderEE6encodeINS_7EncoderEEEvRT_S2_
+- __ZN3IPC13ArgumentCoderIN6WebKit25MonotonicObjectIdentifierINS1_17TransactionIDTypeEEEE6encodeERNS_7EncoderERKS4_
+- __ZN3IPC13ArgumentCoderIN6WebKit25MonotonicObjectIdentifierINS1_25EditorStateIdentifierTypeEEEE6encodeERNS_7EncoderERKS4_
+- __ZN3IPC13ArgumentCoderIN6WebKit26NavigatingToAppBoundDomainEE6encodeINS_7EncoderEEEvRT_S2_
+- __ZN3IPC13ArgumentCoderIN6WebKit28DidFilterKnownLinkDecorationEE6encodeINS_7EncoderEEEvRT_S2_
+- __ZN3IPC13ArgumentCoderIN6WebKit6WebGPU29PresentationContextDescriptorEE6encodeERNS_7EncoderERKS3_
+- __ZN3IPC13ArgumentCoderIN6WebKit8WebPushD22PushMessageDispositionEE6encodeINS_7EncoderEEEvRT_S3_
+- __ZN3IPC13ArgumentCoderIN6WebKit9FrameTypeEE6encodeINS_7EncoderEEEvRT_S2_
+- __ZN3IPC13ArgumentCoderIN7WebCore11ContentTypeEE6encodeERNS_7EncoderERKS2_
+- __ZN3IPC13ArgumentCoderIN7WebCore11LockHistoryEE6encodeINS_7EncoderEEEvRT_S2_
+- __ZN3IPC13ArgumentCoderIN7WebCore13UsedLegacyTLSEE6encodeINS_7EncoderEEEvRT_S2_
+- __ZN3IPC13ArgumentCoderIN7WebCore14AdjustViewSizeEE6encodeINS_7EncoderEEEvRT_S2_
+- __ZN3IPC13ArgumentCoderIN7WebCore14DOMCacheEngine10CacheInfosEE6encodeERNS_7EncoderERKS3_
+- __ZN3IPC13ArgumentCoderIN7WebCore14IPAddressSpaceEE6encodeINS_7EncoderEEEvRT_S2_
+- __ZN3IPC13ArgumentCoderIN7WebCore15PathRoundedRectEE6encodeERNS_7EncoderERKS2_
+- __ZN3IPC13ArgumentCoderIN7WebCore15StorageEstimateEE6encodeERNS_7EncoderERKS2_
+- __ZN3IPC13ArgumentCoderIN7WebCore16IDBGetRecordDataEE6encodeERNS_7EncoderERKS2_
+- __ZN3IPC13ArgumentCoderIN7WebCore16ScrollIsAnimatedEE6encodeINS_7EncoderEEEvRT_S2_
+- __ZN3IPC13ArgumentCoderIN7WebCore17ImageBufferFormatEE6encodeERNS_7EncoderERKS2_
+- __ZN3IPC13ArgumentCoderIN7WebCore17RotationDirectionEE6encodeINS_7EncoderEEEvRT_S2_
+- __ZN3IPC13ArgumentCoderIN7WebCore17WasPrivateRelayedEE6encodeINS_7EncoderEEEvRT_S2_
+- __ZN3IPC13ArgumentCoderIN7WebCore18SuspendedUnderLockEE6encodeINS_7EncoderEEEvRT_S2_
+- __ZN3IPC13ArgumentCoderIN7WebCore19LockBackForwardListEE6encodeINS_7EncoderEEEvRT_S2_
+- __ZN3IPC13ArgumentCoderIN7WebCore20IncludeSecureCookiesEE6encodeINS_7EncoderEEEvRT_S2_
+- __ZN3IPC13ArgumentCoderIN7WebCore21AudioSessionMayResumeEE6encodeINS_7EncoderEEEvRT_S2_
+- __ZN3IPC13ArgumentCoderIN7WebCore21NotificationEventTypeEE6encodeINS_7EncoderEEEvRT_S2_
+- __ZN3IPC13ArgumentCoderIN7WebCore23CDMInstanceSuccessValueEE6encodeINS_7EncoderEEEvRT_S2_
+- __ZN3IPC13ArgumentCoderIN7WebCore25EventMakesGamepadsVisibleEE6encodeINS_7EncoderEEEvRT_S2_
+- __ZN3IPC13ArgumentCoderIN7WebCore25FoundElementInRemoteFrameEE6encodeINS_7EncoderEEEvRT_S2_
+- __ZN3IPC13ArgumentCoderIN7WebCore26ServiceWorkerIsInspectableEE6encodeINS_7EncoderEEEvRT_S2_
+- __ZN3IPC13ArgumentCoderIN7WebCore29RequiresScriptTrackingPrivacyEE6encodeINS_7EncoderEEEvRT_S2_
+- __ZN3IPC13ArgumentCoderIN7WebCore30CrossOriginEmbedderPolicyValueEE6encodeINS_7EncoderEEEvRT_S2_
+- __ZN3IPC13ArgumentCoderIN7WebCore32SameSiteStrictEnforcementEnabledEE6encodeINS_7EncoderEEEvRT_S2_
+- __ZN3IPC13ArgumentCoderIN7WebCore3PCM20AttributionEphemeralEE6encodeINS_7EncoderEEEvRT_S3_
+- __ZN3IPC13ArgumentCoderIN9Inspector15FrontendChannel14ConnectionTypeEE6encodeINS_7EncoderEEEvRT_S3_
+- __ZN3IPC13ArgumentCoderINS_21SharedBufferReference18SerializableBufferEE6encodeERNS_7EncoderEOS2_
+- __ZN3IPC13ArgumentCoderINS_25ObjectIdentifierReferenceIN3WTF23ObjectIdentifierGenericIN6WebKit30RemoteVideoFrameIdentifierTypeENS2_38ObjectIdentifierThreadSafeAccessTraitsIyEEyEEEEE6encodeERNS_7EncoderERKS9_
+- __ZN3IPC13ArgumentCoderINSt3__15tupleIJN3WTF23ObjectIdentifierGenericIN7WebCore21ProcessIdentifierTypeENS3_38ObjectIdentifierMainThreadAccessTraitsIyEEyEEN6WebKit30SharedPreferencesForWebProcessEEEEE6decodeINS_7DecoderEJS9_EEENS1_8optionalISC_EERT_DpONSG_IT0_EE
+- __ZN3IPC24ConnectionSendSyncResultIN8Messages22RemoteRenderingBackend36PrepareImageBufferSetsForDisplaySyncEEC1EOS4_
+- __ZN3IPC7Encoder12encodeObjectIfEEvRKT_
+- __ZN3IPC7EncoderlsIRKNSt3__14pairIN3WTF6StringEN7WebCore31ContentSecurityPolicyHeaderTypeEEEEERS0_OT_
+- __ZN3IPC7EncoderlsIRKiEERS0_OT_
+- __ZN3IPC7EncoderlsIRiEERS0_OT_
+- __ZN3IPC7EncoderlsIiEERS0_OT_
+- __ZN3WTF12VectorBufferIN7WebCore6Region4SpanELm16ENS_10FastMallocEE14allocateBufferILNS_13FailureActionE0EEEbm
+- __ZN3WTF13StringBuilder6appendEh
+- __ZN3WTF14WeakPtrFactoryIN6WebKit20NetworkLoadSchedulerENS_18DefaultWeakPtrImplEED2Ev
+- __ZN3WTF3RefIN7WebCore11ImageBufferENS_12RawPtrTraitsIS2_EENS_21DefaultRefDerefTraitsIS2_EEED1Ev
+- __ZN3WTF6RefPtrIN6WebKit22RemoteImageBufferProxyENS_12RawPtrTraitsIS2_EENS_21DefaultRefDerefTraitsIS2_EEEaSEOS7_
+- __ZN3WTF6RefPtrIN7WebCore11ImageBufferENS_12RawPtrTraitsIS2_EENS_21DefaultRefDerefTraitsIS2_EEEaSEOS7_
+- __ZN3WTF9HashTableIN6WebKit12NetworkCache13GlobalFrameIDENS_12KeyValuePairIS3_NS_6RefPtrINS2_22SpeculativeLoadManager16PendingFrameLoadENS_12RawPtrTraitsIS7_EENS_21DefaultRefDerefTraitsIS7_EEEEEENS_24KeyValuePairKeyExtractorISD_EENS_11DefaultHashIS3_EENS_7HashMapIS3_SC_SH_NS_10HashTraitsIS3_EENSJ_ISC_EENS_15HashTableTraitsELNS_17ShouldValidateKeyE1ENS_10FastMallocEE18KeyValuePairTraitsESK_SO_E17lookupForReinsertINS_22IdentityHashTranslatorISQ_SH_EES3_EEPSD_RKT0_
+- __ZN3WTF9HashTableIN6WebKit12NetworkCache3KeyENS_12KeyValuePairIS3_NSt3__110unique_ptrINS2_22SpeculativeLoadManager14PreloadedEntryENS5_14default_deleteIS8_EEEEEENS_24KeyValuePairKeyExtractorISC_EENS_11DefaultHashIS3_EENS_7HashMapIS3_SB_SG_NS_10HashTraitsIS3_EENSI_ISB_EENS_15HashTableTraitsELNS_17ShouldValidateKeyE1ENS_10FastMallocEE18KeyValuePairTraitsESJ_SN_E6removeEPSC_
+- __ZN3WTF9HashTableINS_23ObjectIdentifierGenericIN7WebCore18PageIdentifierTypeENS_38ObjectIdentifierMainThreadAccessTraitsIyEEyEENS_12KeyValuePairIS6_NSt3__110unique_ptrINS_7HashMapINS_6StringENS9_IN6WebKit20NetworkLoadScheduler11HostContextENS8_14default_deleteISE_EEEENS_11DefaultHashISB_EENS_10HashTraitsISB_EENSK_ISH_EENS_15HashTableTraitsELNS_17ShouldValidateKeyE1ENS_10FastMallocEEENSF_ISQ_EEEEEENS_24KeyValuePairKeyExtractorIST_EENSI_IS6_EENSA_IS6_SS_SW_NSK_IS6_EENSK_ISS_EESN_LSO_1ESP_E18KeyValuePairTraitsESX_SP_E15deallocateTableEPST_
+- __ZN3WTF9HashTableINSt3__15tupleIJNS_6StringES3_EEENS_12KeyValuePairIS4_N6WebKit20NetworkLoadScheduler33PendingMainResourcePreconnectInfoEEENS_24KeyValuePairKeyExtractorIS9_EENS_11DefaultHashIS4_EENS_7HashMapIS4_S8_SD_NS_10HashTraitsIS4_EENSF_IS8_EENS_15HashTableTraitsELNS_17ShouldValidateKeyE1ENS_10FastMallocEE18KeyValuePairTraitsESG_SK_E15deallocateTableEPS9_
+- __ZN3WTF9UniqueRefIN3IPC7EncoderEED2Ev
+- __ZN5mpark6detail10assignmentINS0_6traitsIJN3WTF6StringENS3_9RetainPtrIPK10__CFStringEEN3IPC14TransferString11SharedSpan8ENSB_12SharedSpan16EEEEE10assign_altILm0ES4_S4_EEvRNS0_3altIXT_ET0_EEOT1_
+- __ZN5mpark6detail10assignmentINS0_6traitsIJN3WTF6StringENS3_9RetainPtrIPK10__CFStringEEN3IPC14TransferString11SharedSpan8ENSB_12SharedSpan16EEEEE7emplaceILm0EJS4_EEEDTclptfpT13construct_altclsr6access4baseE7get_altIXT_EEdefpTEspclsr3libE7forwardIT0_Efp_EEEDpOSH_
+- __ZN5mpark6detail10visitation3alt12visit_alt_atIZNS0_11constructorINS0_6traitsIJN3WTF6StringENS6_9RetainPtrIPK10__CFStringEEN3IPC14TransferString11SharedSpan8ENSE_12SharedSpan16EEEEE17generic_constructINS0_16move_constructorISH_LNS0_5TraitE1EEEEEvRSI_OT_EUlRSO_OT0_E_JSN_SM_EEEDcmSP_DpOT0_
+- __ZN5mpark6detail10visitation3alt9visit_altINS0_4dtorEJRNS0_10destructorINS0_6traitsIJN3WTF6StringENS7_9RetainPtrIPK10__CFStringEEN3IPC14TransferString11SharedSpan8ENSF_12SharedSpan16EEEELNS0_5TraitE1EEEEEEDcOT_DpOT0_
+- __ZN5mpark6detail11constructorINS0_6traitsIJN3WTF6StringENS3_9RetainPtrIPK10__CFStringEEN3IPC14TransferString11SharedSpan8ENSB_12SharedSpan16EEEEE17generic_constructINS0_16move_constructorISE_LNS0_5TraitE1EEEEEvRSF_OT_
+- __ZN5mpark6detail16move_constructorINS0_6traitsIJN3IPC24ConnectionSendSyncResultIN8Messages22RemoteMediaPlayerProxy10ColorSpaceEE9ReplyDataENS3_5ErrorEEEELNS0_5TraitE1EED2Ev
+- __ZN6WebKit12NetworkCache15SubresourceInfoD1Ev
+- __ZN6WebKit14ImageBufferSetD2Ev
+- __ZN6WebKit21RemoteGraphicsContext8setAlphaEf
+- __ZN6WebKit22NetworkActivityTrackerD1Ev
+- __ZN6WebKit27CompactContextMenuPresenterC2EP6UIViewPU43objcproto32UIContextMenuInteractionDelegate11objc_object
+- __ZN6WebKit8WebImageD2Ev
+- __ZN8Messages10WebProcess23BacklightLevelDidChange6encodeIN3IPC7EncoderEEEvRT_
+- __ZN8Messages21RemoteGraphicsContext18DrawFocusRingRects6encodeIN3IPC7EncoderEEEvRT_
+- __ZN8Messages21RemoteGraphicsContext8FillRect6encodeIN3IPC7EncoderEEEvRT_
+- __ZN8Messages9LogStream29WEBRESOURCELOADER_CONSTRUCTOR6encodeIN3IPC7EncoderEEEvRT_
+- __ZN8Messages9LogStream30DOCUMENTLOADER_DETACHFROMFRAME6encodeIN3IPC7EncoderEEEvRT_
+- __ZN8Messages9LogStream30WEBLOADERSTRATEGY_SCHEDULELOAD6encodeIN3IPC7EncoderEEEvRT_
+- __ZN8Messages9LogStream35FRAMELOADER_SETPOLICYDOCUMENTLOADER6encodeIN3IPC7EncoderEEEvRT_
+- __ZN8Messages9LogStream63SUBRESOURCELOADER_WILLSENDREQUESTINTERNAL_RESOURCELOAD_FINISHED6encodeIN3IPC7EncoderEEEvRT_
+- __ZNK3WTF7HashMapINS_23ObjectIdentifierGenericIN6WebKit28StorageAreaMapIdentifierTypeENS_38ObjectIdentifierMainThreadAccessTraitsIyEEyEENS_7WeakPtrINS2_14StorageAreaMapENS_18DefaultWeakPtrImplENS_12RawPtrTraitsIS9_EEEENS_11DefaultHashIS6_EENS_10HashTraitsIS6_EENSF_ISC_EENS_15HashTableTraitsELNS_17ShouldValidateKeyE1ENS_10FastMallocEE3getINS_22IdentityHashTranslatorINSL_18KeyValuePairTraitsESE_EES6_EEPS8_RKT0_
+- __ZNSt3__110unique_ptrIN3IPC7DecoderENS_14default_deleteIS2_EEED1B9sqn210106Ev
+- __ZNSt3__110unique_ptrIN3IPC7EncoderENS_14default_deleteIS2_EEED1B9sqn210106Ev
+- __ZNSt3__110unique_ptrIN6WebKit12NetworkCache15SubresourceLoadENS_14default_deleteIS3_EEE5resetB9sqn210106EPS3_
+- __ZNSt3__111make_uniqueB9sqn210106IN3WTF6Detail15CallableWrapperIZN6WebKit12NetworkCache18retrieveFromMemoryINS1_18SizedIteratorRangeINS1_7HashMapINS1_23ObjectIdentifierGenericINS5_7Storage28WriteOperationIdentifierTypeENS1_38ObjectIdentifierMainThreadAccessTraitsIyEEyEENS_10unique_ptrINSA_14WriteOperationENS_14default_deleteISG_EEEENS1_11DefaultHashISE_EENS1_10HashTraitsISE_EENSM_ISJ_EENS1_15HashTableTraitsELNS1_17ShouldValidateKeyE1ENS1_10FastMallocEEENS1_23HashTableValuesIteratorINS1_9HashTableISE_NS1_12KeyValuePairISE_SJ_EENS1_24KeyValuePairKeyExtractorISW_EESL_NSS_18KeyValuePairTraitsESN_SR_EESE_SJ_EEEEEEbRKT_RKNS5_3KeyERNS1_17CompletionHandlerIFbONSA_6RecordERKNSA_7TimingsEEEEEUlvE_vJEEEJS1I_ELi0EEENSF_IS13_NSH_IS13_EEEEDpOT0_
+- __ZNSt3__18optionalIN3IPC24ConnectionSendSyncResultIN8Messages22RemoteRenderingBackend36PrepareImageBufferSetsForDisplaySyncEEEEC1B9sqn210106IS6_Li0EEEOT_
+- __ZNSt3__18optionalIN3WTF6RefPtrIN7WebCore11ImageBufferENS1_12RawPtrTraitsIS4_EENS1_21DefaultRefDerefTraitsIS4_EEEEEaSB9sqn210106IS9_Li0EEERSA_OT_
+- __ZNSt3__18optionalIN6WebKit21WebCoreUserScriptDataEED2Ev
+- __ZZN3IPC14TransferStringC1EON5mpark7variantIJNSt3__19monostateENS3_4spanIKhLm18446744073709551615EEENS5_IKDsLm18446744073709551615EEENS0_11SharedSpan8ENS0_12SharedSpan16EEEEENKUlS7_E_clES7_
+- __ZZN6WebKit12NetworkCache18retrieveFromMemoryIN3WTF18SizedIteratorRangeINS2_7HashMapINS2_23ObjectIdentifierGenericINS0_7Storage28WriteOperationIdentifierTypeENS2_38ObjectIdentifierMainThreadAccessTraitsIyEEyEENSt3__110unique_ptrINS6_14WriteOperationENSB_14default_deleteISD_EEEENS2_11DefaultHashISA_EENS2_10HashTraitsISA_EENSJ_ISG_EENS2_15HashTableTraitsELNS2_17ShouldValidateKeyE1ENS2_10FastMallocEEENS2_23HashTableValuesIteratorINS2_9HashTableISA_NS2_12KeyValuePairISA_SG_EENS2_24KeyValuePairKeyExtractorIST_EESI_NSP_18KeyValuePairTraitsESK_SO_EESA_SG_EEEEEEbRKT_RKNS0_3KeyERNS2_17CompletionHandlerIFbONS6_6RecordERKNS6_7TimingsEEEEENUlvE_C2EOS1F_
+- __ZZN6WebKit12NetworkCache18retrieveFromMemoryIN3WTF18SizedIteratorRangeINS2_7HashMapINS2_23ObjectIdentifierGenericINS0_7Storage28WriteOperationIdentifierTypeENS2_38ObjectIdentifierMainThreadAccessTraitsIyEEyEENSt3__110unique_ptrINS6_14WriteOperationENSB_14default_deleteISD_EEEENS2_11DefaultHashISA_EENS2_10HashTraitsISA_EENSJ_ISG_EENS2_15HashTableTraitsELNS2_17ShouldValidateKeyE1ENS2_10FastMallocEEENS2_23HashTableValuesIteratorINS2_9HashTableISA_NS2_12KeyValuePairISA_SG_EENS2_24KeyValuePairKeyExtractorIST_EESI_NSP_18KeyValuePairTraitsESK_SO_EESA_SG_EEEEEEbRKT_RKNS0_3KeyERNS2_17CompletionHandlerIFbONS6_6RecordERKNS6_7TimingsEEEEENUlvE_clEv
+- __ZZNK3WTF47ThreadSafeRefCountedAndCanMakeThreadSafeWeakPtrIN3IPC10Connection16SyncMessageStateELNS_17DestructionThreadE0EE5derefEvENKUlvE_clEv
+- __ZZZN6WebKit12WebPageProxy29decidePolicyForResponseSharedEON3WTF3RefINS_15WebProcessProxyENS1_12RawPtrTraitsIS3_EENS1_21DefaultRefDerefTraitsIS3_EEEENS1_23ObjectIdentifierGenericIN7WebCore18PageIdentifierTypeENS1_38ObjectIdentifierMainThreadAccessTraitsIyEEyEEONS_13FrameInfoDataENSt3__18optionalINSA_INSB_24NavigationIdentifierTypeESE_yEEEERKNSB_16ResourceResponseERKNSB_15ResourceRequestEbONS1_6StringEbNSB_28CrossOriginOpenerPolicyValueEONS1_17CompletionHandlerIFvONS_14PolicyDecisionEEEEEN3$_0clENSB_12PolicyActionEPN3API15WebsitePoliciesENS_28ProcessSwapRequestedByClientENSJ_INS_26NavigatingToAppBoundDomainEEENS_24WasNavigationInterceptedEENUlS13_E_C1EOS1B_
+CStrings:
++ "%p - [pageProxyID=%llu, webPageID=%llu, PID=%i] WebPageProxy::decidePolicyForNavigationAction: Ignoring download because Safe Browsing found a match."
++ "%p - [pageProxyID=%llu, webPageID=%llu, PID=%i] WebPageProxy::decidePolicyForNavigationAction: showing safe browsing warning, navigationID=%llu"
++ "%p - [pageProxyID=%llu, webPageID=%llu, PID=%i] WebPageProxy::decidePolicyForResponseShared: showing safe browsing warning, navigationID=%llu"
++ "/AppleInternal/Library/BuildRoots/4~CNcougB0wJtNXairUaE_bMpu139urKBW1RhXyoM/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.5.Internal.sdk/System/Cryptexes/OS/System/Library/PrivateFrameworks/WebCore.framework/PrivateHeaders/GCGLSpan.h"
++ "/AppleInternal/Library/BuildRoots/4~CNcougB0wJtNXairUaE_bMpu139urKBW1RhXyoM/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.5.Internal.sdk/System/Cryptexes/OS/System/Library/PrivateFrameworks/WebCore.framework/PrivateHeaders/IOSurface.h"
++ "/AppleInternal/Library/BuildRoots/4~CNcougB0wJtNXairUaE_bMpu139urKBW1RhXyoM/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.5.Internal.sdk/System/Cryptexes/OS/System/Library/PrivateFrameworks/WebCore.framework/PrivateHeaders/PixelFormat.h"
++ "/AppleInternal/Library/BuildRoots/4~CNcougB0wJtNXairUaE_bMpu139urKBW1RhXyoM/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.5.Internal.sdk/System/Cryptexes/OS/System/Library/PrivateFrameworks/WebCore.framework/PrivateHeaders/SecurityOriginData.h"
++ "/AppleInternal/Library/BuildRoots/4~CNcougB0wJtNXairUaE_bMpu139urKBW1RhXyoM/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.5.Internal.sdk/System/Cryptexes/OS/System/Library/PrivateFrameworks/WebCore.framework/PrivateHeaders/StorageNamespaceProvider.h"
++ "/AppleInternal/Library/BuildRoots/4~CNcougB0wJtNXairUaE_bMpu139urKBW1RhXyoM/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.5.Internal.sdk/System/Cryptexes/OS/System/Library/PrivateFrameworks/WebCore.framework/PrivateHeaders/StyleLengthWrapper.h"
++ "/AppleInternal/Library/BuildRoots/4~CNcougB0wJtNXairUaE_bMpu139urKBW1RhXyoM/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.5.Internal.sdk/System/Library/Frameworks/JavaScriptCore.framework/PrivateHeaders/DisallowVMEntry.h"
++ "/AppleInternal/Library/BuildRoots/4~CNcougB0wJtNXairUaE_bMpu139urKBW1RhXyoM/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.5.Internal.sdk/System/Library/Frameworks/JavaScriptCore.framework/PrivateHeaders/GenericTypedArrayViewInlines.h"
++ "/AppleInternal/Library/BuildRoots/4~CNcougB0wJtNXairUaE_bMpu139urKBW1RhXyoM/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.5.Internal.sdk/usr/local/include/WebKitAdditions/DyldCallbackAdditions.h"
++ "/AppleInternal/Library/BuildRoots/4~CNcougB0wJtNXairUaE_bMpu139urKBW1RhXyoM/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.5.Internal.sdk/usr/local/include/pal/spi/cocoa/NSAttributedStringSPI.h"
++ "/AppleInternal/Library/BuildRoots/4~CNcougB0wJtNXairUaE_bMpu139urKBW1RhXyoM/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.5.Internal.sdk/usr/local/include/wtf/Box.h"
++ "/AppleInternal/Library/BuildRoots/4~CNcougB0wJtNXairUaE_bMpu139urKBW1RhXyoM/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.5.Internal.sdk/usr/local/include/wtf/CheckedArithmetic.h"
++ "/AppleInternal/Library/BuildRoots/4~CNcougB0wJtNXairUaE_bMpu139urKBW1RhXyoM/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.5.Internal.sdk/usr/local/include/wtf/CheckedPtr.h"
++ "/AppleInternal/Library/BuildRoots/4~CNcougB0wJtNXairUaE_bMpu139urKBW1RhXyoM/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.5.Internal.sdk/usr/local/include/wtf/CheckedRef.h"
++ "/AppleInternal/Library/BuildRoots/4~CNcougB0wJtNXairUaE_bMpu139urKBW1RhXyoM/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.5.Internal.sdk/usr/local/include/wtf/CompactVariantOperations.h"
++ "/AppleInternal/Library/BuildRoots/4~CNcougB0wJtNXairUaE_bMpu139urKBW1RhXyoM/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.5.Internal.sdk/usr/local/include/wtf/CompletionHandler.h"
++ "/AppleInternal/Library/BuildRoots/4~CNcougB0wJtNXairUaE_bMpu139urKBW1RhXyoM/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.5.Internal.sdk/usr/local/include/wtf/Deque.h"
++ "/AppleInternal/Library/BuildRoots/4~CNcougB0wJtNXairUaE_bMpu139urKBW1RhXyoM/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.5.Internal.sdk/usr/local/include/wtf/HashTable.h"
++ "/AppleInternal/Library/BuildRoots/4~CNcougB0wJtNXairUaE_bMpu139urKBW1RhXyoM/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.5.Internal.sdk/usr/local/include/wtf/LazyUniqueRef.h"
++ "/AppleInternal/Library/BuildRoots/4~CNcougB0wJtNXairUaE_bMpu139urKBW1RhXyoM/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.5.Internal.sdk/usr/local/include/wtf/Markable.h"
++ "/AppleInternal/Library/BuildRoots/4~CNcougB0wJtNXairUaE_bMpu139urKBW1RhXyoM/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.5.Internal.sdk/usr/local/include/wtf/ObjectIdentifier.h"
++ "/AppleInternal/Library/BuildRoots/4~CNcougB0wJtNXairUaE_bMpu139urKBW1RhXyoM/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.5.Internal.sdk/usr/local/include/wtf/Ref.h"
++ "/AppleInternal/Library/BuildRoots/4~CNcougB0wJtNXairUaE_bMpu139urKBW1RhXyoM/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.5.Internal.sdk/usr/local/include/wtf/RefCounted.h"
++ "/AppleInternal/Library/BuildRoots/4~CNcougB0wJtNXairUaE_bMpu139urKBW1RhXyoM/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.5.Internal.sdk/usr/local/include/wtf/RefPtr.h"
++ "/AppleInternal/Library/BuildRoots/4~CNcougB0wJtNXairUaE_bMpu139urKBW1RhXyoM/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.5.Internal.sdk/usr/local/include/wtf/RetainPtr.h"
++ "/AppleInternal/Library/BuildRoots/4~CNcougB0wJtNXairUaE_bMpu139urKBW1RhXyoM/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.5.Internal.sdk/usr/local/include/wtf/StdLibExtras.h"
++ "/AppleInternal/Library/BuildRoots/4~CNcougB0wJtNXairUaE_bMpu139urKBW1RhXyoM/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.5.Internal.sdk/usr/local/include/wtf/ThreadSafeWeakHashSet.h"
++ "/AppleInternal/Library/BuildRoots/4~CNcougB0wJtNXairUaE_bMpu139urKBW1RhXyoM/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.5.Internal.sdk/usr/local/include/wtf/ThreadSafeWeakPtr.h"
++ "/AppleInternal/Library/BuildRoots/4~CNcougB0wJtNXairUaE_bMpu139urKBW1RhXyoM/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.5.Internal.sdk/usr/local/include/wtf/ThreadSpecific.h"
++ "/AppleInternal/Library/BuildRoots/4~CNcougB0wJtNXairUaE_bMpu139urKBW1RhXyoM/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.5.Internal.sdk/usr/local/include/wtf/TypeCasts.h"
++ "/AppleInternal/Library/BuildRoots/4~CNcougB0wJtNXairUaE_bMpu139urKBW1RhXyoM/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.5.Internal.sdk/usr/local/include/wtf/Vector.h"
++ "/AppleInternal/Library/BuildRoots/4~CNcougB0wJtNXairUaE_bMpu139urKBW1RhXyoM/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.5.Internal.sdk/usr/local/include/wtf/WeakPtr.h"
++ "/AppleInternal/Library/BuildRoots/4~CNcougB0wJtNXairUaE_bMpu139urKBW1RhXyoM/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.5.Internal.sdk/usr/local/include/wtf/WeakRef.h"
++ "/AppleInternal/Library/BuildRoots/4~CNcougB0wJtNXairUaE_bMpu139urKBW1RhXyoM/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.5.Internal.sdk/usr/local/include/wtf/cf/TypeCastsCF.h"
++ "/AppleInternal/Library/BuildRoots/4~CNcougB0wJtNXairUaE_bMpu139urKBW1RhXyoM/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.5.Internal.sdk/usr/local/include/wtf/cocoa/TypeCastsCocoa.h"
++ "/AppleInternal/Library/BuildRoots/4~CNcougB0wJtNXairUaE_bMpu139urKBW1RhXyoM/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.5.Internal.sdk/usr/local/include/wtf/text/StringBuilder.h"
++ "/AppleInternal/Library/BuildRoots/4~CNcougB0wJtNXairUaE_bMpu139urKBW1RhXyoM/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.5.Internal.sdk/usr/local/include/wtf/text/StringConcatenate.h"
++ "/AppleInternal/Library/BuildRoots/4~CNcougB0wJtNXairUaE_bMpu139urKBW1RhXyoM/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.5.Internal.sdk/usr/local/include/wtf/text/StringImpl.h"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/WebKit/Source/WebKit/UIProcess/Cocoa/WebPageProxyCocoa.mm 1430: Invalid message dispatched %{public}s"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/WebKit/Source/WebKit/UIProcess/Cocoa/WebPageProxyCocoa.mm 1432: Invalid message dispatched %{public}s"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/WebKit/Source/WebKit/UIProcess/Cocoa/WebPageProxyCocoa.mm 1535: Invalid message dispatched %{public}s"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/WebKit/Source/WebKit/UIProcess/Cocoa/WebPageProxyCocoa.mm 916: Invalid message dispatched %{public}s"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/WebKit/Source/WebKit/UIProcess/WebPageProxy.cpp 10242: Invalid message dispatched %{public}s"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/WebKit/Source/WebKit/UIProcess/WebPageProxy.cpp 10585: Invalid message dispatched %{public}s"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/WebKit/Source/WebKit/UIProcess/WebPageProxy.cpp 10590: Invalid message dispatched %{public}s"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/WebKit/Source/WebKit/UIProcess/WebPageProxy.cpp 10876: Invalid message dispatched %{public}s"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/WebKit/Source/WebKit/UIProcess/WebPageProxy.cpp 11409: Invalid message dispatched %{public}s"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/WebKit/Source/WebKit/UIProcess/WebPageProxy.cpp 11540: Invalid message dispatched %{public}s"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/WebKit/Source/WebKit/UIProcess/WebPageProxy.cpp 11543: Invalid message dispatched %{public}s"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/WebKit/Source/WebKit/UIProcess/WebPageProxy.cpp 11591: Invalid message dispatched %{public}s"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/WebKit/Source/WebKit/UIProcess/WebPageProxy.cpp 11594: Invalid message dispatched %{public}s"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/WebKit/Source/WebKit/UIProcess/WebPageProxy.cpp 11631: Invalid message dispatched %{public}s"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/WebKit/Source/WebKit/UIProcess/WebPageProxy.cpp 11678: Invalid message dispatched %{public}s"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/WebKit/Source/WebKit/UIProcess/WebPageProxy.cpp 11789: Invalid message dispatched %{public}s"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/WebKit/Source/WebKit/UIProcess/WebPageProxy.cpp 11805: Invalid message dispatched %{public}s"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/WebKit/Source/WebKit/UIProcess/WebPageProxy.cpp 11821: Invalid message dispatched %{public}s"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/WebKit/Source/WebKit/UIProcess/WebPageProxy.cpp 11837: Invalid message dispatched %{public}s"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/WebKit/Source/WebKit/UIProcess/WebPageProxy.cpp 11865: Invalid message dispatched %{public}s"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/WebKit/Source/WebKit/UIProcess/WebPageProxy.cpp 11881: Invalid message dispatched %{public}s"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/WebKit/Source/WebKit/UIProcess/WebPageProxy.cpp 12985: Invalid message dispatched %{public}s"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/WebKit/Source/WebKit/UIProcess/WebPageProxy.cpp 13253: Invalid message dispatched %{public}s"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/WebKit/Source/WebKit/UIProcess/WebPageProxy.cpp 13472: Invalid message dispatched %{public}s"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/WebKit/Source/WebKit/UIProcess/WebPageProxy.cpp 14434: Invalid message dispatched %{public}s"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/WebKit/Source/WebKit/UIProcess/WebPageProxy.cpp 14435: Invalid message dispatched %{public}s"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/WebKit/Source/WebKit/UIProcess/WebPageProxy.cpp 14436: Invalid message dispatched %{public}s"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/WebKit/Source/WebKit/UIProcess/WebPageProxy.cpp 15426: Invalid message dispatched %{public}s"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/WebKit/Source/WebKit/UIProcess/WebPageProxy.cpp 15428: Invalid message dispatched %{public}s"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/WebKit/Source/WebKit/UIProcess/WebPageProxy.cpp 15435: Invalid message dispatched %{public}s"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/WebKit/Source/WebKit/UIProcess/WebPageProxy.cpp 15437: Invalid message dispatched %{public}s"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/WebKit/Source/WebKit/UIProcess/WebPageProxy.cpp 15444: Invalid message dispatched %{public}s"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/WebKit/Source/WebKit/UIProcess/WebPageProxy.cpp 15446: Invalid message dispatched %{public}s"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/WebKit/Source/WebKit/UIProcess/WebPageProxy.cpp 15507: Invalid message dispatched %{public}s"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/WebKit/Source/WebKit/UIProcess/WebPageProxy.cpp 15516: Invalid message dispatched %{public}s"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/WebKit/Source/WebKit/UIProcess/WebPageProxy.cpp 15569: Invalid message dispatched %{public}s"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/WebKit/Source/WebKit/UIProcess/WebPageProxy.cpp 15570: Invalid message dispatched %{public}s"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/WebKit/Source/WebKit/UIProcess/WebPageProxy.cpp 15584: Invalid message dispatched %{public}s"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/WebKit/Source/WebKit/UIProcess/WebPageProxy.cpp 15585: Invalid message dispatched %{public}s"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/WebKit/Source/WebKit/UIProcess/WebPageProxy.cpp 15586: Invalid message dispatched %{public}s"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/WebKit/Source/WebKit/UIProcess/WebPageProxy.cpp 15600: Invalid message dispatched %{public}s"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/WebKit/Source/WebKit/UIProcess/WebPageProxy.cpp 15601: Invalid message dispatched %{public}s"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/WebKit/Source/WebKit/UIProcess/WebPageProxy.cpp 15609: Invalid message dispatched %{public}s"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/WebKit/Source/WebKit/UIProcess/WebPageProxy.cpp 15612: Invalid message dispatched %{public}s"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/WebKit/Source/WebKit/UIProcess/WebPageProxy.cpp 15623: Invalid message dispatched %{public}s"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/WebKit/Source/WebKit/UIProcess/WebPageProxy.cpp 15624: Invalid message dispatched %{public}s"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/WebKit/Source/WebKit/UIProcess/WebPageProxy.cpp 15625: Invalid message dispatched %{public}s"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/WebKit/Source/WebKit/UIProcess/WebPageProxy.cpp 15654: Invalid message dispatched %{public}s"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/WebKit/Source/WebKit/UIProcess/WebPageProxy.cpp 15657: Invalid message dispatched %{public}s"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/WebKit/Source/WebKit/UIProcess/WebPageProxy.cpp 15702: Invalid message dispatched %{public}s"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/WebKit/Source/WebKit/UIProcess/WebPageProxy.cpp 15703: Invalid message dispatched %{public}s"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/WebKit/Source/WebKit/UIProcess/WebPageProxy.cpp 15717: Invalid message dispatched %{public}s"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/WebKit/Source/WebKit/UIProcess/WebPageProxy.cpp 15718: Invalid message dispatched %{public}s"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/WebKit/Source/WebKit/UIProcess/WebPageProxy.cpp 17015: Invalid message dispatched %{public}s"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/WebKit/Source/WebKit/UIProcess/WebPageProxy.cpp 7889: Invalid message dispatched %{public}s"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/WebKit/Source/WebKit/UIProcess/WebPageProxy.cpp 7909: Invalid message dispatched %{public}s"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/WebKit/Source/WebKit/UIProcess/WebPageProxy.cpp 8066: Invalid message dispatched %{public}s"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/WebKit/Source/WebKit/UIProcess/WebPageProxy.cpp 8115: Invalid message dispatched %{public}s"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/WebKit/Source/WebKit/UIProcess/WebPageProxy.cpp 8116: Invalid message dispatched %{public}s"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/WebKit/Source/WebKit/UIProcess/WebPageProxy.cpp 8443: Invalid message dispatched %{public}s"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/WebKit/Source/WebKit/UIProcess/WebPageProxy.cpp 8821: Invalid message dispatched %{public}s"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/WebKit/Source/WebKit/UIProcess/WebPageProxy.cpp 8861: Invalid message dispatched %{public}s"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/WebKit/Source/WebKit/UIProcess/WebPageProxy.cpp 8899: Invalid message dispatched %{public}s"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/WebKit/Source/WebKit/UIProcess/WebPageProxy.cpp 8900: Invalid message dispatched %{public}s"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/WebKit/Source/WebKit/UIProcess/WebPageProxy.cpp 9159: Invalid message dispatched %{public}s"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/WebKit/Source/WebKit/UIProcess/WebPageProxy.cpp 9191: Invalid message dispatched %{public}s"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/WebKit/Source/WebKit/UIProcess/WebPageProxy.cpp 9213: Invalid message dispatched %{public}s"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/WebKit/Source/WebKit/UIProcess/WebPageProxy.cpp 9214: Invalid message dispatched %{public}s"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/WebKit/Source/WebKit/UIProcess/WebPageProxy.cpp 9215: Invalid message dispatched %{public}s"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/WebKit/Source/WebKit/UIProcess/WebPageProxy.cpp 9244: Invalid message dispatched %{public}s"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/WebKit/Source/WebKit/UIProcess/WebPageProxy.cpp 9246: Invalid message dispatched %{public}s"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/WebKit/Source/WebKit/UIProcess/WebPageProxy.cpp 9247: Invalid message dispatched %{public}s"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/WebKit/Source/WebKit/UIProcess/WebPageProxy.cpp 9262: Invalid message dispatched %{public}s"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/WebKit/Source/WebKit/UIProcess/WebPageProxy.cpp 9263: Invalid message dispatched %{public}s"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/WebKit/Source/WebKit/UIProcess/WebPageProxy.cpp 9295: Invalid message dispatched %{public}s"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/WebKit/Source/WebKit/UIProcess/WebPageProxy.cpp 9889: Invalid message dispatched %{public}s"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/WebKit/Source/WebKit/UIProcess/WebPageProxy.cpp 9890: Invalid message dispatched %{public}s"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/WebKit/Source/WebKit/UIProcess/WebPageProxy.cpp 9891: Invalid message dispatched %{public}s"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/WebKit/Source/WebKit/UIProcess/WebPageProxy.cpp 9900: Invalid message dispatched %{public}s"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/WebKit/Source/WebKit/UIProcess/WebPageProxy.cpp 9914: Invalid message dispatched %{public}s"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/WebKit/Source/WebKit/UIProcess/WebPageProxy.cpp 9921: Invalid message dispatched %{public}s"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/WebKit/Source/WebKit/UIProcess/WebPageProxy.cpp 9944: Invalid message dispatched %{public}s"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/WebKit/Source/WebKit/UIProcess/WebProcessProxy.cpp 2273: Invalid message dispatched %{public}s"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/WebKit/Source/WebKit/UIProcess/WebProcessProxy.cpp 2567: Invalid message dispatched %{public}s"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/WebKit/Source/WebKit/UIProcess/WebProcessProxy.cpp 2928: Invalid message dispatched %{public}s"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/WebKit/Source/WebKit/UIProcess/WebProcessProxy.cpp 2929: Invalid message dispatched %{public}s"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/WebKit/Source/WebKit/UIProcess/WebProcessProxy.cpp 2930: Invalid message dispatched %{public}s"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/WebKit/Source/WebKit/UIProcess/WebProcessProxy.cpp 2971: Invalid message dispatched %{public}s"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/WebKit/Source/WebKit/UIProcess/WebProcessProxy.cpp 3247: Invalid message dispatched %{public}s"
++ "@\"<UIContextMenuInteractionDelegate>\"16@0:8"
++ "T@\"<UIContextMenuInteractionDelegate>\",W,N"
++ "WKCompactContextMenuPresenter"
++ "WKCompactContextMenuPresenterControl"
++ "beginSafeBrowsingCheck: check ongoing, deferring warning navigationID=%llu"
++ "beginSafeBrowsingCheck: error navigationID=%llu"
++ "beginSafeBrowsingCheck: no threat, completing navigationID=%llu"
++ "beginSafeBrowsingCheck: showing warning navigationID=%llu"
++ "beginSafeBrowsingCheck: threat found navigationID=%llu, type=%s"
++ "malware"
++ "phishing"
++ "static T *WTF::LazyUniqueRef<WebKit::NetworkSession, WebKit::WebSharedWorkerServer>::callFunc(OwnerType &, LazyUniqueRef<type-parameter-0-0, type-parameter-0-1> &) [OwnerType = WebKit::NetworkSession, T = WebKit::WebSharedWorkerServer, Func = (lambda at /Library/Caches/com.apple.xbs/D7830913-01CB-4F5F-859C-C8FE9ED8169E/TemporaryDirectory.54kl2f/Sources/WebKit/Source/WebKit/NetworkProcess/NetworkSession.cpp:181:28)]"
++ "unwanted"
++ "v24@0:8@\"<UIContextMenuInteractionDelegate>\"16"
++ "{AlignedStorage<API::Navigation, 16UL>=\"m_storage\"{Storage=\"data\"[4288C]}}"
+- "/AppleInternal/Library/BuildRoots/4~CM7qugDGrGk0C8M27cbBjbGl0jxIEHogUqtO340/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.5.Internal.sdk/System/Cryptexes/OS/System/Library/PrivateFrameworks/WebCore.framework/PrivateHeaders/GCGLSpan.h"
+- "/AppleInternal/Library/BuildRoots/4~CM7qugDGrGk0C8M27cbBjbGl0jxIEHogUqtO340/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.5.Internal.sdk/System/Cryptexes/OS/System/Library/PrivateFrameworks/WebCore.framework/PrivateHeaders/IOSurface.h"
+- "/AppleInternal/Library/BuildRoots/4~CM7qugDGrGk0C8M27cbBjbGl0jxIEHogUqtO340/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.5.Internal.sdk/System/Cryptexes/OS/System/Library/PrivateFrameworks/WebCore.framework/PrivateHeaders/PixelFormat.h"
+- "/AppleInternal/Library/BuildRoots/4~CM7qugDGrGk0C8M27cbBjbGl0jxIEHogUqtO340/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.5.Internal.sdk/System/Cryptexes/OS/System/Library/PrivateFrameworks/WebCore.framework/PrivateHeaders/SecurityOriginData.h"
+- "/AppleInternal/Library/BuildRoots/4~CM7qugDGrGk0C8M27cbBjbGl0jxIEHogUqtO340/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.5.Internal.sdk/System/Cryptexes/OS/System/Library/PrivateFrameworks/WebCore.framework/PrivateHeaders/StorageNamespaceProvider.h"
+- "/AppleInternal/Library/BuildRoots/4~CM7qugDGrGk0C8M27cbBjbGl0jxIEHogUqtO340/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.5.Internal.sdk/System/Cryptexes/OS/System/Library/PrivateFrameworks/WebCore.framework/PrivateHeaders/StyleLengthWrapper.h"
+- "/AppleInternal/Library/BuildRoots/4~CM7qugDGrGk0C8M27cbBjbGl0jxIEHogUqtO340/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.5.Internal.sdk/System/Library/Frameworks/JavaScriptCore.framework/PrivateHeaders/DisallowVMEntry.h"
+- "/AppleInternal/Library/BuildRoots/4~CM7qugDGrGk0C8M27cbBjbGl0jxIEHogUqtO340/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.5.Internal.sdk/System/Library/Frameworks/JavaScriptCore.framework/PrivateHeaders/GenericTypedArrayViewInlines.h"
+- "/AppleInternal/Library/BuildRoots/4~CM7qugDGrGk0C8M27cbBjbGl0jxIEHogUqtO340/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.5.Internal.sdk/usr/local/include/WebKitAdditions/DyldCallbackAdditions.h"
+- "/AppleInternal/Library/BuildRoots/4~CM7qugDGrGk0C8M27cbBjbGl0jxIEHogUqtO340/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.5.Internal.sdk/usr/local/include/pal/spi/cocoa/NSAttributedStringSPI.h"
+- "/AppleInternal/Library/BuildRoots/4~CM7qugDGrGk0C8M27cbBjbGl0jxIEHogUqtO340/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.5.Internal.sdk/usr/local/include/wtf/Box.h"
+- "/AppleInternal/Library/BuildRoots/4~CM7qugDGrGk0C8M27cbBjbGl0jxIEHogUqtO340/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.5.Internal.sdk/usr/local/include/wtf/CheckedArithmetic.h"
+- "/AppleInternal/Library/BuildRoots/4~CM7qugDGrGk0C8M27cbBjbGl0jxIEHogUqtO340/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.5.Internal.sdk/usr/local/include/wtf/CheckedPtr.h"
+- "/AppleInternal/Library/BuildRoots/4~CM7qugDGrGk0C8M27cbBjbGl0jxIEHogUqtO340/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.5.Internal.sdk/usr/local/include/wtf/CheckedRef.h"
+- "/AppleInternal/Library/BuildRoots/4~CM7qugDGrGk0C8M27cbBjbGl0jxIEHogUqtO340/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.5.Internal.sdk/usr/local/include/wtf/CompactVariantOperations.h"
+- "/AppleInternal/Library/BuildRoots/4~CM7qugDGrGk0C8M27cbBjbGl0jxIEHogUqtO340/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.5.Internal.sdk/usr/local/include/wtf/CompletionHandler.h"
+- "/AppleInternal/Library/BuildRoots/4~CM7qugDGrGk0C8M27cbBjbGl0jxIEHogUqtO340/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.5.Internal.sdk/usr/local/include/wtf/Deque.h"
+- "/AppleInternal/Library/BuildRoots/4~CM7qugDGrGk0C8M27cbBjbGl0jxIEHogUqtO340/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.5.Internal.sdk/usr/local/include/wtf/HashTable.h"
+- "/AppleInternal/Library/BuildRoots/4~CM7qugDGrGk0C8M27cbBjbGl0jxIEHogUqtO340/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.5.Internal.sdk/usr/local/include/wtf/LazyUniqueRef.h"
+- "/AppleInternal/Library/BuildRoots/4~CM7qugDGrGk0C8M27cbBjbGl0jxIEHogUqtO340/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.5.Internal.sdk/usr/local/include/wtf/Markable.h"
+- "/AppleInternal/Library/BuildRoots/4~CM7qugDGrGk0C8M27cbBjbGl0jxIEHogUqtO340/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.5.Internal.sdk/usr/local/include/wtf/ObjectIdentifier.h"
+- "/AppleInternal/Library/BuildRoots/4~CM7qugDGrGk0C8M27cbBjbGl0jxIEHogUqtO340/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.5.Internal.sdk/usr/local/include/wtf/Ref.h"
+- "/AppleInternal/Library/BuildRoots/4~CM7qugDGrGk0C8M27cbBjbGl0jxIEHogUqtO340/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.5.Internal.sdk/usr/local/include/wtf/RefCounted.h"
+- "/AppleInternal/Library/BuildRoots/4~CM7qugDGrGk0C8M27cbBjbGl0jxIEHogUqtO340/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.5.Internal.sdk/usr/local/include/wtf/RefPtr.h"
+- "/AppleInternal/Library/BuildRoots/4~CM7qugDGrGk0C8M27cbBjbGl0jxIEHogUqtO340/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.5.Internal.sdk/usr/local/include/wtf/RetainPtr.h"
+- "/AppleInternal/Library/BuildRoots/4~CM7qugDGrGk0C8M27cbBjbGl0jxIEHogUqtO340/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.5.Internal.sdk/usr/local/include/wtf/StdLibExtras.h"
+- "/AppleInternal/Library/BuildRoots/4~CM7qugDGrGk0C8M27cbBjbGl0jxIEHogUqtO340/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.5.Internal.sdk/usr/local/include/wtf/ThreadSafeWeakHashSet.h"
+- "/AppleInternal/Library/BuildRoots/4~CM7qugDGrGk0C8M27cbBjbGl0jxIEHogUqtO340/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.5.Internal.sdk/usr/local/include/wtf/ThreadSafeWeakPtr.h"
+- "/AppleInternal/Library/BuildRoots/4~CM7qugDGrGk0C8M27cbBjbGl0jxIEHogUqtO340/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.5.Internal.sdk/usr/local/include/wtf/ThreadSpecific.h"
+- "/AppleInternal/Library/BuildRoots/4~CM7qugDGrGk0C8M27cbBjbGl0jxIEHogUqtO340/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.5.Internal.sdk/usr/local/include/wtf/TypeCasts.h"
+- "/AppleInternal/Library/BuildRoots/4~CM7qugDGrGk0C8M27cbBjbGl0jxIEHogUqtO340/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.5.Internal.sdk/usr/local/include/wtf/Vector.h"
+- "/AppleInternal/Library/BuildRoots/4~CM7qugDGrGk0C8M27cbBjbGl0jxIEHogUqtO340/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.5.Internal.sdk/usr/local/include/wtf/WeakPtr.h"
+- "/AppleInternal/Library/BuildRoots/4~CM7qugDGrGk0C8M27cbBjbGl0jxIEHogUqtO340/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.5.Internal.sdk/usr/local/include/wtf/WeakRef.h"
+- "/AppleInternal/Library/BuildRoots/4~CM7qugDGrGk0C8M27cbBjbGl0jxIEHogUqtO340/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.5.Internal.sdk/usr/local/include/wtf/cf/TypeCastsCF.h"
+- "/AppleInternal/Library/BuildRoots/4~CM7qugDGrGk0C8M27cbBjbGl0jxIEHogUqtO340/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.5.Internal.sdk/usr/local/include/wtf/cocoa/TypeCastsCocoa.h"
+- "/AppleInternal/Library/BuildRoots/4~CM7qugDGrGk0C8M27cbBjbGl0jxIEHogUqtO340/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.5.Internal.sdk/usr/local/include/wtf/text/StringBuilder.h"
+- "/AppleInternal/Library/BuildRoots/4~CM7qugDGrGk0C8M27cbBjbGl0jxIEHogUqtO340/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.5.Internal.sdk/usr/local/include/wtf/text/StringConcatenate.h"
+- "/AppleInternal/Library/BuildRoots/4~CM7qugDGrGk0C8M27cbBjbGl0jxIEHogUqtO340/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.5.Internal.sdk/usr/local/include/wtf/text/StringImpl.h"
+- "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/WebKit/Source/WebKit/UIProcess/Cocoa/WebPageProxyCocoa.mm 1407: Invalid message dispatched %{public}s"
+- "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/WebKit/Source/WebKit/UIProcess/Cocoa/WebPageProxyCocoa.mm 1409: Invalid message dispatched %{public}s"
+- "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/WebKit/Source/WebKit/UIProcess/Cocoa/WebPageProxyCocoa.mm 1512: Invalid message dispatched %{public}s"
+- "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/WebKit/Source/WebKit/UIProcess/Cocoa/WebPageProxyCocoa.mm 893: Invalid message dispatched %{public}s"
+- "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/WebKit/Source/WebKit/UIProcess/WebPageProxy.cpp 10119: Invalid message dispatched %{public}s"
+- "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/WebKit/Source/WebKit/UIProcess/WebPageProxy.cpp 10462: Invalid message dispatched %{public}s"
+- "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/WebKit/Source/WebKit/UIProcess/WebPageProxy.cpp 10467: Invalid message dispatched %{public}s"
+- "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/WebKit/Source/WebKit/UIProcess/WebPageProxy.cpp 10753: Invalid message dispatched %{public}s"
+- "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/WebKit/Source/WebKit/UIProcess/WebPageProxy.cpp 11286: Invalid message dispatched %{public}s"
+- "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/WebKit/Source/WebKit/UIProcess/WebPageProxy.cpp 11294: Invalid message dispatched %{public}s"
+- "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/WebKit/Source/WebKit/UIProcess/WebPageProxy.cpp 11420: Invalid message dispatched %{public}s"
+- "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/WebKit/Source/WebKit/UIProcess/WebPageProxy.cpp 11468: Invalid message dispatched %{public}s"
+- "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/WebKit/Source/WebKit/UIProcess/WebPageProxy.cpp 11471: Invalid message dispatched %{public}s"
+- "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/WebKit/Source/WebKit/UIProcess/WebPageProxy.cpp 11508: Invalid message dispatched %{public}s"
+- "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/WebKit/Source/WebKit/UIProcess/WebPageProxy.cpp 11555: Invalid message dispatched %{public}s"
+- "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/WebKit/Source/WebKit/UIProcess/WebPageProxy.cpp 11666: Invalid message dispatched %{public}s"
+- "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/WebKit/Source/WebKit/UIProcess/WebPageProxy.cpp 11682: Invalid message dispatched %{public}s"
+- "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/WebKit/Source/WebKit/UIProcess/WebPageProxy.cpp 11698: Invalid message dispatched %{public}s"
+- "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/WebKit/Source/WebKit/UIProcess/WebPageProxy.cpp 11714: Invalid message dispatched %{public}s"
+- "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/WebKit/Source/WebKit/UIProcess/WebPageProxy.cpp 11742: Invalid message dispatched %{public}s"
+- "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/WebKit/Source/WebKit/UIProcess/WebPageProxy.cpp 11758: Invalid message dispatched %{public}s"
+- "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/WebKit/Source/WebKit/UIProcess/WebPageProxy.cpp 12857: Invalid message dispatched %{public}s"
+- "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/WebKit/Source/WebKit/UIProcess/WebPageProxy.cpp 13125: Invalid message dispatched %{public}s"
+- "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/WebKit/Source/WebKit/UIProcess/WebPageProxy.cpp 13344: Invalid message dispatched %{public}s"
+- "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/WebKit/Source/WebKit/UIProcess/WebPageProxy.cpp 14306: Invalid message dispatched %{public}s"
+- "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/WebKit/Source/WebKit/UIProcess/WebPageProxy.cpp 14307: Invalid message dispatched %{public}s"
+- "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/WebKit/Source/WebKit/UIProcess/WebPageProxy.cpp 14308: Invalid message dispatched %{public}s"
+- "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/WebKit/Source/WebKit/UIProcess/WebPageProxy.cpp 15298: Invalid message dispatched %{public}s"
+- "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/WebKit/Source/WebKit/UIProcess/WebPageProxy.cpp 15300: Invalid message dispatched %{public}s"
+- "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/WebKit/Source/WebKit/UIProcess/WebPageProxy.cpp 15307: Invalid message dispatched %{public}s"
+- "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/WebKit/Source/WebKit/UIProcess/WebPageProxy.cpp 15309: Invalid message dispatched %{public}s"
+- "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/WebKit/Source/WebKit/UIProcess/WebPageProxy.cpp 15316: Invalid message dispatched %{public}s"
+- "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/WebKit/Source/WebKit/UIProcess/WebPageProxy.cpp 15318: Invalid message dispatched %{public}s"
+- "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/WebKit/Source/WebKit/UIProcess/WebPageProxy.cpp 15379: Invalid message dispatched %{public}s"
+- "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/WebKit/Source/WebKit/UIProcess/WebPageProxy.cpp 15388: Invalid message dispatched %{public}s"
+- "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/WebKit/Source/WebKit/UIProcess/WebPageProxy.cpp 15441: Invalid message dispatched %{public}s"
+- "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/WebKit/Source/WebKit/UIProcess/WebPageProxy.cpp 15442: Invalid message dispatched %{public}s"
+- "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/WebKit/Source/WebKit/UIProcess/WebPageProxy.cpp 15456: Invalid message dispatched %{public}s"
+- "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/WebKit/Source/WebKit/UIProcess/WebPageProxy.cpp 15457: Invalid message dispatched %{public}s"
+- "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/WebKit/Source/WebKit/UIProcess/WebPageProxy.cpp 15458: Invalid message dispatched %{public}s"
+- "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/WebKit/Source/WebKit/UIProcess/WebPageProxy.cpp 15472: Invalid message dispatched %{public}s"
+- "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/WebKit/Source/WebKit/UIProcess/WebPageProxy.cpp 15473: Invalid message dispatched %{public}s"
+- "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/WebKit/Source/WebKit/UIProcess/WebPageProxy.cpp 15481: Invalid message dispatched %{public}s"
+- "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/WebKit/Source/WebKit/UIProcess/WebPageProxy.cpp 15484: Invalid message dispatched %{public}s"
+- "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/WebKit/Source/WebKit/UIProcess/WebPageProxy.cpp 15495: Invalid message dispatched %{public}s"
+- "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/WebKit/Source/WebKit/UIProcess/WebPageProxy.cpp 15496: Invalid message dispatched %{public}s"
+- "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/WebKit/Source/WebKit/UIProcess/WebPageProxy.cpp 15497: Invalid message dispatched %{public}s"
+- "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/WebKit/Source/WebKit/UIProcess/WebPageProxy.cpp 15526: Invalid message dispatched %{public}s"
+- "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/WebKit/Source/WebKit/UIProcess/WebPageProxy.cpp 15529: Invalid message dispatched %{public}s"
+- "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/WebKit/Source/WebKit/UIProcess/WebPageProxy.cpp 15574: Invalid message dispatched %{public}s"
+- "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/WebKit/Source/WebKit/UIProcess/WebPageProxy.cpp 15575: Invalid message dispatched %{public}s"
+- "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/WebKit/Source/WebKit/UIProcess/WebPageProxy.cpp 15589: Invalid message dispatched %{public}s"
+- "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/WebKit/Source/WebKit/UIProcess/WebPageProxy.cpp 15590: Invalid message dispatched %{public}s"
+- "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/WebKit/Source/WebKit/UIProcess/WebPageProxy.cpp 16887: Invalid message dispatched %{public}s"
+- "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/WebKit/Source/WebKit/UIProcess/WebPageProxy.cpp 7884: Invalid message dispatched %{public}s"
+- "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/WebKit/Source/WebKit/UIProcess/WebPageProxy.cpp 7904: Invalid message dispatched %{public}s"
+- "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/WebKit/Source/WebKit/UIProcess/WebPageProxy.cpp 8061: Invalid message dispatched %{public}s"
+- "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/WebKit/Source/WebKit/UIProcess/WebPageProxy.cpp 8110: Invalid message dispatched %{public}s"
+- "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/WebKit/Source/WebKit/UIProcess/WebPageProxy.cpp 8111: Invalid message dispatched %{public}s"
+- "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/WebKit/Source/WebKit/UIProcess/WebPageProxy.cpp 8434: Invalid message dispatched %{public}s"
+- "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/WebKit/Source/WebKit/UIProcess/WebPageProxy.cpp 8755: Invalid message dispatched %{public}s"
+- "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/WebKit/Source/WebKit/UIProcess/WebPageProxy.cpp 8795: Invalid message dispatched %{public}s"
+- "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/WebKit/Source/WebKit/UIProcess/WebPageProxy.cpp 8833: Invalid message dispatched %{public}s"
+- "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/WebKit/Source/WebKit/UIProcess/WebPageProxy.cpp 8834: Invalid message dispatched %{public}s"
+- "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/WebKit/Source/WebKit/UIProcess/WebPageProxy.cpp 9036: Invalid message dispatched %{public}s"
+- "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/WebKit/Source/WebKit/UIProcess/WebPageProxy.cpp 9068: Invalid message dispatched %{public}s"
+- "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/WebKit/Source/WebKit/UIProcess/WebPageProxy.cpp 9090: Invalid message dispatched %{public}s"
+- "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/WebKit/Source/WebKit/UIProcess/WebPageProxy.cpp 9091: Invalid message dispatched %{public}s"
+- "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/WebKit/Source/WebKit/UIProcess/WebPageProxy.cpp 9092: Invalid message dispatched %{public}s"
+- "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/WebKit/Source/WebKit/UIProcess/WebPageProxy.cpp 9121: Invalid message dispatched %{public}s"
+- "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/WebKit/Source/WebKit/UIProcess/WebPageProxy.cpp 9123: Invalid message dispatched %{public}s"
+- "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/WebKit/Source/WebKit/UIProcess/WebPageProxy.cpp 9124: Invalid message dispatched %{public}s"
+- "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/WebKit/Source/WebKit/UIProcess/WebPageProxy.cpp 9139: Invalid message dispatched %{public}s"
+- "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/WebKit/Source/WebKit/UIProcess/WebPageProxy.cpp 9140: Invalid message dispatched %{public}s"
+- "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/WebKit/Source/WebKit/UIProcess/WebPageProxy.cpp 9172: Invalid message dispatched %{public}s"
+- "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/WebKit/Source/WebKit/UIProcess/WebPageProxy.cpp 9766: Invalid message dispatched %{public}s"
+- "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/WebKit/Source/WebKit/UIProcess/WebPageProxy.cpp 9767: Invalid message dispatched %{public}s"
+- "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/WebKit/Source/WebKit/UIProcess/WebPageProxy.cpp 9768: Invalid message dispatched %{public}s"
+- "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/WebKit/Source/WebKit/UIProcess/WebPageProxy.cpp 9777: Invalid message dispatched %{public}s"
+- "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/WebKit/Source/WebKit/UIProcess/WebPageProxy.cpp 9791: Invalid message dispatched %{public}s"
+- "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/WebKit/Source/WebKit/UIProcess/WebPageProxy.cpp 9798: Invalid message dispatched %{public}s"
+- "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/WebKit/Source/WebKit/UIProcess/WebPageProxy.cpp 9821: Invalid message dispatched %{public}s"
+- "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/WebKit/Source/WebKit/UIProcess/WebProcessProxy.cpp 2271: Invalid message dispatched %{public}s"
+- "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/WebKit/Source/WebKit/UIProcess/WebProcessProxy.cpp 2563: Invalid message dispatched %{public}s"
+- "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/WebKit/Source/WebKit/UIProcess/WebProcessProxy.cpp 2924: Invalid message dispatched %{public}s"
+- "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/WebKit/Source/WebKit/UIProcess/WebProcessProxy.cpp 2925: Invalid message dispatched %{public}s"
+- "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/WebKit/Source/WebKit/UIProcess/WebProcessProxy.cpp 2926: Invalid message dispatched %{public}s"
+- "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/WebKit/Source/WebKit/UIProcess/WebProcessProxy.cpp 2967: Invalid message dispatched %{public}s"
+- "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/WebKit/Source/WebKit/UIProcess/WebProcessProxy.cpp 3243: Invalid message dispatched %{public}s"
+- "static T *WTF::LazyUniqueRef<WebKit::NetworkSession, WebKit::WebSharedWorkerServer>::callFunc(OwnerType &, LazyUniqueRef<type-parameter-0-0, type-parameter-0-1> &) [OwnerType = WebKit::NetworkSession, T = WebKit::WebSharedWorkerServer, Func = (lambda at /Library/Caches/com.apple.xbs/6ECE2483-A019-4716-9F8F-C66C5FFCBB64/TemporaryDirectory.NA7KzS/Sources/WebKit/Source/WebKit/NetworkProcess/NetworkSession.cpp:181:28)]"
+- "{AlignedStorage<API::Navigation, 16UL>=\"m_storage\"{Storage=\"data\"[4272C]}}"
+
+```

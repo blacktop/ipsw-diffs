@@ -1,0 +1,138 @@
+## libIPTelephony.dylib
+
+> `/System/Library/PrivateFrameworks/IPTelephony.framework/Support/libIPTelephony.dylib`
+
+```diff
+
+-2656.2.0.0.0
+-  __TEXT.__text: 0x50c5f0
++2657.0.0.0.0
++  __TEXT.__text: 0x50e000
+   __TEXT.__auth_stubs: 0x2d80
+   __TEXT.__init_offsets: 0x158
+   __TEXT.__objc_methlist: 0x748
+-  __TEXT.__const: 0x2000b
+-  __TEXT.__gcc_except_tab: 0x4eb2c
+-  __TEXT.__cstring: 0x37b31
+-  __TEXT.__oslogstring: 0xf984
+-  __TEXT.__unwind_info: 0x18e68
++  __TEXT.__const: 0x2014b
++  __TEXT.__gcc_except_tab: 0x4ecd8
++  __TEXT.__cstring: 0x37b40
++  __TEXT.__oslogstring: 0xfafc
++  __TEXT.__unwind_info: 0x18eb8
+   __TEXT.__objc_classname: 0x12f
+   __TEXT.__objc_methname: 0x1de8
+   __TEXT.__objc_methtype: 0x1118
+   __TEXT.__objc_stubs: 0x1c80
+   __DATA_CONST.__got: 0x4a8
+-  __DATA_CONST.__const: 0x3520
++  __DATA_CONST.__const: 0x3530
+   __DATA_CONST.__objc_classlist: 0x38
+   __DATA_CONST.__objc_protolist: 0x30
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_selrefs: 0x968
+   __DATA_CONST.__objc_superrefs: 0x38
+   __AUTH_CONST.__auth_got: 0x16d0
+-  __AUTH_CONST.__const: 0x3bf58
++  __AUTH_CONST.__const: 0x3c080
+   __AUTH_CONST.__cfstring: 0x26e0
+   __AUTH_CONST.__objc_const: 0xbf8
+   __AUTH_CONST.__objc_intobj: 0x60
+
+   __DATA.__objc_ivar: 0x64
+   __DATA.__data: 0x398
+   __DATA.__bss: 0x20
+-  __DATA.__common: 0xcc
++  __DATA.__common: 0xe4
+   __DATA_DIRTY.__objc_data: 0xf0
+   __DATA_DIRTY.__data: 0x1d0
+   __DATA_DIRTY.__common: 0xc30
+
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libprotobuf-lite.dylib
+   - /usr/lib/libxml2.2.dylib
+-  UUID: 02A479D6-4A62-3F2F-8A78-BB297A415199
+-  Functions: 17037
+-  Symbols:   51086
+-  CStrings:  10001
++  UUID: FA9D0B2E-CD34-3E85-A7F0-7EE6C19F9D9A
++  Functions: 17054
++  Symbols:   51139
++  CStrings:  10005
+ 
+Symbols:
++ __ZN31SipAcceptCpimBodyEncodingHeaderD0Ev
++ __ZN31SipAcceptCpimBodyEncodingHeaderD1Ev
++ __ZN3ims6lazuli15kBodyCompressedE
++ __ZN3ims6lazuli24kMlsBinaryBlobCompressedE
++ __ZN9SipHeader29kHeaderAcceptCpimBodyEncodingE
++ __ZNK10SipMessage6headerI31SipAcceptCpimBodyEncodingHeaderEEPKT_v
++ __ZNK16SipLazuliManager17mlsBlobFromParamsERK16LazuliSendParams
++ __ZNK16SipLazuliManager23assignContentFromParamsERK16LazuliSendParamsRNSt3__112basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEE
++ __ZNK31SipAcceptCpimBodyEncodingHeader5cloneEv
++ __ZNKSt3__110__function6__funcIZN3ims11dumpMessageERKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEESA_RS8_SB_SA_SA_bbE3$_0FbhEE11target_typeEv
++ __ZNKSt3__110__function6__funcIZN3ims11dumpMessageERKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEESA_RS8_SB_SA_SA_bbE3$_0FbhEE6targetERKSt9type_info
++ __ZNKSt3__110__function6__funcIZN3ims11dumpMessageERKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEESA_RS8_SB_SA_SA_bbE3$_0FbhEE7__cloneEPNS0_6__baseISD_EE
++ __ZNKSt3__110__function6__funcIZN3ims11dumpMessageERKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEESA_RS8_SB_SA_SA_bbE3$_0FbhEE7__cloneEv
++ __ZNSt3__110__function12__value_funcIFbhEED2B9nqe210106Ev
++ __ZNSt3__110__function6__funcIZN3ims11dumpMessageERKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEESA_RS8_SB_SA_SA_bbE3$_0FbhEE18destroy_deallocateEv
++ __ZNSt3__110__function6__funcIZN3ims11dumpMessageERKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEESA_RS8_SB_SA_SA_bbE3$_0FbhEE7destroyEv
++ __ZNSt3__110__function6__funcIZN3ims11dumpMessageERKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEESA_RS8_SB_SA_SA_bbE3$_0FbhEED0Ev
++ __ZNSt3__110__function6__funcIZN3ims11dumpMessageERKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEESA_RS8_SB_SA_SA_bbE3$_0FbhEED1Ev
++ __ZNSt3__110__function6__funcIZN3ims11dumpMessageERKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEESA_RS8_SB_SA_SA_bbE3$_0FbhEEclEOh
++ __ZNSt3__110__list_impIN16SipLazuliManager25DeferredGroupModificationENS_9allocatorIS2_EEE13__create_nodeB9nqe210106IJRKNS_12basic_stringIcNS_11char_traitsIcEENS3_IcEEEESD_RKNS_6vectorISB_NS3_ISB_EEEENS2_6ActionERKNS_10shared_ptrINSE_IhNS3_IhEEEEEEEEEPNS_11__list_nodeIS2_PvEEPNS_16__list_node_baseIS2_SR_EESW_DpOT_
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE16__assign_trivialB9nqe210106INS_11__wrap_iterIPKhEESA_EEvT_T0_m
++ __ZNSt3__115allocate_sharedB9nqe210106INS_6vectorIhNS_9allocatorIhEEEENS2_IS4_EEJRKS4_ELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
++ __ZTI31SipAcceptCpimBodyEncodingHeader
++ __ZTINSt3__110__function6__baseIFbhEEE
++ __ZTINSt3__110__function6__funcIZN3ims11dumpMessageERKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEESA_RS8_SB_SA_SA_bbE3$_0FbhEEE
++ __ZTIZN3ims11dumpMessageERKNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEES8_RS6_S9_S8_S8_bbE3$_0
++ __ZTS31SipAcceptCpimBodyEncodingHeader
++ __ZTSNSt3__110__function6__baseIFbhEEE
++ __ZTSNSt3__110__function6__funcIZN3ims11dumpMessageERKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEESA_RS8_SB_SA_SA_bbE3$_0FbhEEE
++ __ZTSZN3ims11dumpMessageERKNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEES8_RS6_S9_S8_S8_bbE3$_0
++ __ZTV31SipAcceptCpimBodyEncodingHeader
++ __ZTVNSt3__110__function6__funcIZN3ims11dumpMessageERKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEESA_RS8_SB_SA_SA_bbE3$_0FbhEEE
++ ___copy_helper_block_e8_32c67_ZTSKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE56c67_ZTSKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE80c67_ZTSKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE104c40_ZTSKNSt3__16vectorIhNS_9allocatorIhEEEE128c40_ZTSKNSt3__16vectorIhNS_9allocatorIhEEEE152c22_ZTS16LazuliSendParams
++ ___copy_helper_block_e8_40c41_ZTSNSt3__18weak_ptrIN3ims6lazuli4ChatEEE56c67_ZTSKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE80c67_ZTSKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE104c67_ZTSKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE128c40_ZTSKNSt3__16vectorIhNS_9allocatorIhEEEE152c40_ZTSKNSt3__16vectorIhNS_9allocatorIhEEEE
++ ___cxx_global_var_init.124
++ ___destroy_helper_block_e8_32c67_ZTSKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE56c67_ZTSKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE80c67_ZTSKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE104c40_ZTSKNSt3__16vectorIhNS_9allocatorIhEEEE128c40_ZTSKNSt3__16vectorIhNS_9allocatorIhEEEE152c22_ZTS16LazuliSendParams
++ ___destroy_helper_block_e8_40c41_ZTSNSt3__18weak_ptrIN3ims6lazuli4ChatEEE56c67_ZTSKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE80c67_ZTSKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE104c67_ZTSKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE128c40_ZTSKNSt3__16vectorIhNS_9allocatorIhEEEE152c40_ZTSKNSt3__16vectorIhNS_9allocatorIhEEEE
+- __ZN3ims17countNonPrintableERKNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEE
+- __ZNSt3__110__list_impIN16SipLazuliManager25DeferredGroupModificationENS_9allocatorIS2_EEE13__create_nodeB9nqe210106IJRKNS_12basic_stringIcNS_11char_traitsIcEENS3_IcEEEESD_RKNS_6vectorISB_NS3_ISB_EEEENS2_6ActionERNS_10shared_ptrINSE_IhNS3_IhEEEEEEEEEPNS_11__list_nodeIS2_PvEEPNS_16__list_node_baseIS2_SQ_EESV_DpOT_
+- ___block_descriptor_tmp.89
+- ___copy_helper_block_e8_40c41_ZTSNSt3__18weak_ptrIN3ims6lazuli4ChatEEE56c67_ZTSKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE80c67_ZTSKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE104c67_ZTSKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE128c40_ZTSKNSt3__16vectorIhNS_9allocatorIhEEEE
+- ___copy_helper_block_e8_40c67_ZTSKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE64c67_ZTSKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE88c67_ZTSKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE112c40_ZTSKNSt3__16vectorIhNS_9allocatorIhEEEE136c22_ZTS16LazuliSendParams
+- ___cxx_global_var_init.121
+- ___destroy_helper_block_e8_40c41_ZTSNSt3__18weak_ptrIN3ims6lazuli4ChatEEE56c67_ZTSKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE80c67_ZTSKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE104c67_ZTSKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE128c40_ZTSKNSt3__16vectorIhNS_9allocatorIhEEEE
+- ___destroy_helper_block_e8_40c67_ZTSKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE64c67_ZTSKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE88c67_ZTSKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE112c40_ZTSKNSt3__16vectorIhNS_9allocatorIhEEEE136c22_ZTS16LazuliSendParams
+CStrings:
++ "#D %{private, mask.hash}sLeaving Group Chat %{public}s with trx %s. isE2EE=%{bool}d"
++ "#D %{private, mask.hash}sUsing compressed mls blob %zu bytes"
++ "#D %{private, mask.hash}susing compressed mls blob %zu bytes"
++ "#D %{private, mask.hash}susing compressed pdu %zu bytes"
++ "#I %{private, mask.hash}sServer not using CPIM compression"
++ "#I %{private, mask.hash}sUsing CPIM compression %{BOOL}d (%s)"
++ "/AppleInternal/Library/BuildRoots/4~CNX9ugDxophncKPxBY5Eli-Dy4w98Q9ptpOL_tI/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.5.Internal.sdk/usr/local/include/ARI/ari_sdk_msg.h"
++ "/AppleInternal/Library/BuildRoots/4~CNX9ugDxophncKPxBY5Eli-Dy4w98Q9ptpOL_tI/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.5.Internal.sdk/usr/local/include/google/protobuf/repeated_field.h"
++ "Accept-CPIM-Body-Encoding"
++ "Creating Group Chat txn %{public}s subject '%{sensitive}s' xml %{sensitive}s isE2ee=%{BOOL}d"
++ "RCSCompression"
++ "[Binary Content: %{public}zu bytes]"
++ "gzip"
++ "kBodyCompressed"
++ "kMlsBinaryBlobCompressed"
+- " isE2EE="
+- " subject '"
+- "#D %{private, mask.hash}sMLS binary blob size: %zu"
+- "%{public}.*P"
+- "%{sensitive}.*P"
+- "' xml "
+- "/AppleInternal/Library/BuildRoots/4~CMtyugDll0VQfWWvTs3a5LfhUiVkTNpbtapgyd8/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.5.Internal.sdk/usr/local/include/ARI/ari_sdk_msg.h"
+- "/AppleInternal/Library/BuildRoots/4~CMtyugDll0VQfWWvTs3a5LfhUiVkTNpbtapgyd8/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.5.Internal.sdk/usr/local/include/google/protobuf/repeated_field.h"
+- "Creating Group Chat txn "
+- "Leaving Group Chat "
+- "Next body contains %{sensitive}zu binary.  Dumping hex:"
+
+```

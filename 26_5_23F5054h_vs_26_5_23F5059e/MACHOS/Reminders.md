@@ -1,0 +1,176 @@
+## Reminders
+
+> `/private/var/staged_system_apps/Reminders.app/Reminders`
+
+```diff
+
+-3975.0.0.0.0
+-  __TEXT.__text: 0x66c744
+-  __TEXT.__auth_stubs: 0x13640
+-  __TEXT.__objc_stubs: 0xaba0
++3976.0.0.0.0
++  __TEXT.__text: 0x64ea3c
++  __TEXT.__auth_stubs: 0x13340
++  __TEXT.__objc_stubs: 0xab60
+   __TEXT.__objc_methlist: 0x7ca4
+-  __TEXT.__const: 0x1f484
+-  __TEXT.__objc_methname: 0x1bf75
++  __TEXT.__const: 0x1f004
++  __TEXT.__objc_methname: 0x1bf45
+   __TEXT.__oslogstring: 0xca00
+   __TEXT.__objc_classname: 0x6c48
+   __TEXT.__objc_methtype: 0x6ac2
+-  __TEXT.__cstring: 0x11a1e
++  __TEXT.__cstring: 0x119fe
+   __TEXT.__gcc_except_tab: 0x5c
+-  __TEXT.__swift5_typeref: 0x138aa
++  __TEXT.__swift5_typeref: 0x136e4
+   __TEXT.__swift5_entry: 0x8
+   __TEXT.__constg_swiftt: 0x14214
+   __TEXT.__swift5_builtin: 0x320
+
+   __TEXT.__swift5_assocty: 0x1408
+   __TEXT.__swift5_proto: 0x10e8
+   __TEXT.__swift5_types: 0xcb8
+-  __TEXT.__swift5_capture: 0xabb4
++  __TEXT.__swift5_capture: 0xa680
+   __TEXT.__swift5_protos: 0x53c
+-  __TEXT.__swift_as_entry: 0x3d4
+-  __TEXT.__swift_as_ret: 0x408
++  __TEXT.__swift_as_entry: 0x334
++  __TEXT.__swift_as_ret: 0x3ac
+   __TEXT.__swift5_mpenum: 0x80
+-  __TEXT.__unwind_info: 0xe270
+-  __TEXT.__eh_frame: 0xed04
+-  __DATA_CONST.__auth_got: 0x9b30
+-  __DATA_CONST.__got: 0x3eb0
+-  __DATA_CONST.__auth_ptr: 0x4fc0
+-  __DATA_CONST.__const: 0x22dc0
++  __TEXT.__unwind_info: 0xdd48
++  __TEXT.__eh_frame: 0xd5cc
++  __DATA_CONST.__auth_got: 0x99b0
++  __DATA_CONST.__got: 0x3e18
++  __DATA_CONST.__auth_ptr: 0x4f88
++  __DATA_CONST.__const: 0x22640
+   __DATA_CONST.__cfstring: 0x3a0
+   __DATA_CONST.__objc_classlist: 0xc10
+   __DATA_CONST.__objc_catlist: 0x8
+
+   __DATA_CONST.__objc_protorefs: 0x250
+   __DATA_CONST.__objc_superrefs: 0x30
+   __DATA.__objc_const: 0x1d438
+-  __DATA.__objc_selrefs: 0x49d0
++  __DATA.__objc_selrefs: 0x49c0
+   __DATA.__objc_ivar: 0x7c
+   __DATA.__objc_data: 0xd298
+-  __DATA.__data: 0x2ed48
++  __DATA.__data: 0x2ec88
+   __DATA.__objc_stublist: 0xd8
+   __DATA.__bss: 0x14e70
+   __DATA.__common: 0x6d0
+
+   - /usr/lib/swift/libswift_StringProcessing.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: BD534B3C-DC51-3A52-8912-A513F781095C
+-  Functions: 21364
+-  Symbols:   8356
+-  CStrings:  6822
++  UUID: B85044C8-9609-311B-95C8-6D82CD2D0F46
++  Functions: 21093
++  Symbols:   8284
++  CStrings:  6819
+ 
+Symbols:
++ _$s15RemindersUICore12TTRIMenuItemV5title8subtitle5image4item13selectedTitleACyxGSS_SSSgSo7UIImageCSgxAJtcfC
++ _$s19ReminderKitInternal12REMTimeOfDayO24localizedTimeRangeStringSSvg
++ _$s19ReminderKitInternal12REMTimeOfDayO5nightyA2CmFWC
++ _$s19ReminderKitInternal12REMTimeOfDayO7eveningyA2CmFWC
++ _$s19ReminderKitInternal12REMTimeOfDayO7morningyA2CmFWC
++ _$s19ReminderKitInternal12REMTimeOfDayO9afternoonyA2CmFWC
++ _$s19ReminderKitInternal12REMTimeOfDayOMa
+- _$s15RemindersUICore12TTRIMenuItemV5title5image4item13selectedTitleACyxGSS_So7UIImageCSgxSSSgtcfC
+- _$s15RemindersUICore21TTRLocalizableStringsO0A4ListO21newSectionPlaceholder10listLayoutSSAA012TTRReminderseJ0O_tFZ
+- _$s15RemindersUICore25TTRRemindersListViewModelC9SectionIDO013EditableCasesgH0O09remObjectH0So09REMObjectH0CSgvg
+- _$s15RemindersUICore26TTRRemindersDeletionResultO17DeleteRequestTypeO0D29TreatmentForRecurringReminderOMn
+- _$s15RemindersUICore28TTRRelativeInsertionPositionO9beforeAllyACyxGAEmlFWC
+- _$s15RemindersUICore35TTRReminderDetailOptimisticReminderV8reminderSo11REMReminderCSgvg
+- _$s15RemindersUICore35TTRReminderDetailOptimisticReminderVMa
+- _$s15RemindersUICore35TTRReminderDetailOptimisticReminderVMn
+- _$s15RemindersUICore41TTRAccountsListsInteractorDeleteArgumentsV010sublistsToF010forGroupIDSayAA24TTRListOrCustomSmartListOGSo09REMObjectL0C_tF
+- _$s19RemindersAppIntents010OpenSearchB17IntentInteractionV12searchPhraseACSS_tcfC
+- _$s19RemindersAppIntents010OpenSearchB17IntentInteractionVAA0bfG0AAWP
+- _$s19RemindersAppIntents010OpenSearchB17IntentInteractionVMa
+- _$s19RemindersAppIntents011DeleteListsB17IntentInteractionV5listsACSayAA10ListEntityVG_tcfC
+- _$s19RemindersAppIntents011DeleteListsB17IntentInteractionVAA0bfG0AAWP
+- _$s19RemindersAppIntents011DeleteListsB17IntentInteractionVMa
+- _$s19RemindersAppIntents013CreateSectionB17IntentInteractionC6resultAA0E6EntityVSgvs
+- _$s19RemindersAppIntents013CreateSectionB17IntentInteractionC7sectionAcA0E6EntityV_tcfc
+- _$s19RemindersAppIntents013CreateSectionB17IntentInteractionCAA0bfG0AAWP
+- _$s19RemindersAppIntents013CreateSectionB17IntentInteractionCMa
+- _$s19RemindersAppIntents013UpdateSectionB17IntentInteractionC5apply7sectionyAA0E6EntityV_tF
+- _$s19RemindersAppIntents013UpdateSectionB17IntentInteractionC6resultAA0E6EntityVSgvs
+- _$s19RemindersAppIntents013UpdateSectionB17IntentInteractionC6targetAcA0E6EntityV_tcfc
+- _$s19RemindersAppIntents013UpdateSectionB17IntentInteractionCAA0bfG0AAWP
+- _$s19RemindersAppIntents013UpdateSectionB17IntentInteractionCMa
+- _$s19RemindersAppIntents014CreateReminderB17IntentInteractionC6resultAA0E6EntityVSgvs
+- _$s19RemindersAppIntents014CreateReminderB17IntentInteractionC8reminderAcA0E6EntityV_tcfc
+- _$s19RemindersAppIntents014CreateReminderB17IntentInteractionCAA0bfG0AAWP
+- _$s19RemindersAppIntents014CreateReminderB17IntentInteractionCMa
+- _$s19RemindersAppIntents014DeleteSectionsB17IntentInteractionV8sectionsACSayAA13SectionEntityVG_tcfC
+- _$s19RemindersAppIntents014DeleteSectionsB17IntentInteractionVAA0bfG0AAWP
+- _$s19RemindersAppIntents014DeleteSectionsB17IntentInteractionVMa
+- _$s19RemindersAppIntents014UpdateReminderB17IntentInteractionC5apply8reminderyAA0E6EntityV_tF
+- _$s19RemindersAppIntents014UpdateReminderB17IntentInteractionC6resultAA0E6EntityVSgvs
+- _$s19RemindersAppIntents014UpdateReminderB17IntentInteractionC6targetAcA0E6EntityV_tcfc
+- _$s19RemindersAppIntents014UpdateReminderB17IntentInteractionCAA0bfG0AAWP
+- _$s19RemindersAppIntents014UpdateReminderB17IntentInteractionCMa
+- _$s19RemindersAppIntents04MoveaB17IntentInteractionV6TargetO14parentReminderyAeA0I6EntityV_AA0I17InsertionPositionOSgtcAEmFWC
+- _$s19RemindersAppIntents04MoveaB17IntentInteractionV6TargetO4listyAeA10ListEntityVSg_AA25ReminderInsertionPositionOSgtcAEmFWC
+- _$s19RemindersAppIntents04MoveaB17IntentInteractionV6TargetO7sectionyAeA13SectionEntityVSg_AA25ReminderInsertionPositionOSgtcAEmFWC
+- _$s19RemindersAppIntents04MoveaB17IntentInteractionV6TargetOMa
+- _$s19RemindersAppIntents04MoveaB17IntentInteractionV9reminders6targetACSayAA14ReminderEntityVG_AC6TargetOtcfC
+- _$s19RemindersAppIntents04MoveaB17IntentInteractionVAA0beF0AAWP
+- _$s19RemindersAppIntents04MoveaB17IntentInteractionVMa
+- _$s19RemindersAppIntents06Deletea10ListGroupsB17IntentInteractionV6groups14deleteSublistsACSayAA11GroupEntityVG_SbtcfC
+- _$s19RemindersAppIntents06Deletea10ListGroupsB17IntentInteractionVAA0bgH0AAWP
+- _$s19RemindersAppIntents06Deletea10ListGroupsB17IntentInteractionVMa
+- _$s19RemindersAppIntents06DeleteaB17IntentInteractionV9reminders14deleteSubtasksACSayAA14ReminderEntityVG_SbSgtcfC
+- _$s19RemindersAppIntents06DeleteaB17IntentInteractionVAA0beF0AAWP
+- _$s19RemindersAppIntents06DeleteaB17IntentInteractionVMa
+- _$s19RemindersAppIntents0B26IntentInteractionPublisherC05beginE06source2id7prepareAA0bdE5TokenVSS_q_xyYaKXEtYaKAA0bdE0RzSHR_r0_lF
+- _$s19RemindersAppIntents0B26IntentInteractionPublisherC05beginE06source2id7prepareAA0bdE5TokenVSS_q_xyYaKXEtYaKAA0bdE0RzSHR_r0_lFTu
+- _$s19RemindersAppIntents0B26IntentInteractionPublisherC06donateE03foryAA0bdE5TokenV_tYaF
+- _$s19RemindersAppIntents0B26IntentInteractionPublisherC06donateE03foryAA0bdE5TokenV_tYaFTu
+- _$s19RemindersAppIntents0B26IntentInteractionPublisherC06updateE03for4type0G0yAA0bdE5TokenV_xmyxzYaKXEtYaKAA0bdE0RzlF
+- _$s19RemindersAppIntents0B26IntentInteractionPublisherC06updateE03for4type0G0yAA0bdE5TokenV_xmyxzYaKXEtYaKAA0bdE0RzlFTu
+- _$s19RemindersAppIntents0B26IntentInteractionPublisherC07discardE03foryAA0bdE5TokenV_tYaF
+- _$s19RemindersAppIntents0B26IntentInteractionPublisherC07discardE03foryAA0bdE5TokenV_tYaFTu
+- _$s19RemindersAppIntents0B26IntentInteractionPublisherC6donateyyxAA0bdE0RzlF
+- _$s19RemindersAppIntents0B26IntentInteractionPublisherCScAAAMc
+- _$s19RemindersAppIntents10ListEntityV011customSmartD006parentD025deferredPropertyPerformerACSo08REMSmartD0C_So7REMListCSgAA0de8DeferredJ10Performing_pSgtcfC
+- _$s19RemindersAppIntents10ListEntityV017listOrCustomSmartD025deferredPropertyPerformerACSg0A6UICore07TTRListghiD0O_AA0de8DeferredK10Performing_pSgtcfC
+- _$s19RemindersAppIntents10ListEntityV4base25deferredPropertyPerformerACSgx_AA0de8DeferredH10Performing_pSgtc0A6UICore15TTRListProtocolRzlufC
+- _$s19RemindersAppIntents10ListEntityV4list25deferredPropertyPerformerACSo7REMListC_AA0de8DeferredH10Performing_pSgtcfC
+- _$s19RemindersAppIntents10ListEntityVMn
+- _$s19RemindersAppIntents11GroupEntityV21listOrCustomSmartList8sublistsACSg0A6UICore07TTRListghiJ0O_SayAA0jE0VGtcfC
+- _$s19RemindersAppIntents11GroupEntityVMn
+- _$s19RemindersAppIntents13SectionEntityV2id4name4list11isCollapsed25deferredPropertyPerformerAcA0dE2IDO_SSAA04ListE0VSbAA0de8DeferredL10Performing_pSgtcfC
+- _$s19RemindersAppIntents13SectionEntityV4nameSSvg
+- _$s19RemindersAppIntents14ReminderEntityV4base25deferredPropertyPerformerACSgx_AA04Liste8DeferredH10Performing_AA0dekhL0pSgtc0A6UICore19TTRReminderProtocolRzlufC
+- _$s19RemindersAppIntents14ReminderEntityV8reminder8subtasks26recurrentInstanceSpecifier07sectionE8Provider25deferredPropertyPerformerACSo11REMReminderC_SayAJGSgAA09RecurrentiJ0VSgAA07SectionE0VSgyKXEAA04Liste8DeferredN10Performing_AA0detnU0pSgtcfC
+- _$s19RemindersAppIntents14ReminderEntityVMn
+- _$s19RemindersAppIntents18UpdatedSectionInfoV13updatedEntityAA0eH0Vvg
+- _$s19RemindersAppIntents18UpdatedSectionInfoV14originalEntityAA0eH0Vvg
+- _$s19RemindersAppIntents25ReminderInsertionPositionO3topyA2CmFWC
+- _$s19RemindersAppIntents25ReminderInsertionPositionO6bottomyA2CmFWC
+- _$s19RemindersAppIntents25ReminderInsertionPositionOMa
+- _$s19RemindersAppIntents25ReminderInsertionPositionOMn
+- _$s19RemindersAppIntents26RecurrentInstanceSpecifierVMa
+- _$s19RemindersAppIntents26RecurrentInstanceSpecifierVMn
+CStrings:
+- "SectionNameEditing"
+- "fetchRemindersWithObjectIDs:error:"
+- "parentList"
+
+```

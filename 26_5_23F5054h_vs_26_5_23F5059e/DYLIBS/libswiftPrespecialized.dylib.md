@@ -1,0 +1,161 @@
+## libswiftPrespecialized.dylib
+
+> `/usr/lib/libswiftPrespecialized.dylib`
+
+```diff
+
+ 0.0.0.0.0
+   __TEXT.__text: 0x0
+   __TEXT.__lldb_no_nlist: 0x0
+-  __DATA_CONST.__const: 0x302d98
++  __DATA_CONST.__const: 0x3034a0
+   __DATA_CONST.__ptrhashtab: 0x170f8
+   __DATA_CONST.__ptrhashtabkey: 0x25e00
+   __AUTH_CONST.__const: 0x4f970
+   __AUTH.__data: 0xcaed0
+   - /usr/lib/libSystem.B.dylib
+-  UUID: E94C8FA6-F7D1-3A54-A0CE-6F1559470A68
++  UUID: D1BD2AB6-F936-3179-9BE1-7664DF0C363D
+   Functions: 0
+-  Symbols:   151432
++  Symbols:   151509
+   CStrings:  0
+ 
+Symbols:
++ _$s10CryptexKit11ContentSpecMp
++ _$s10CryptexKit11PkgObjectIdVMn
++ _$s10CryptexKit13ContentHasherVMn
++ _$s10CryptexKit18ContentAddressableMp
++ _$s10CryptexKit6Base32OMn
++ _$s10CryptexKit6PkgEnvV0A6ServerE6RecordVMn
++ _$s10CryptexKit6PkgEnvV4SpecV7XpcKeysOMn
++ _$s10CryptexKit6PkgEnvV4SpecVMn
++ _$s10CryptexKit6PkgEnvV7OptionsVMn
++ _$s10CryptexKit6PkgEnvV7XpcKeysOMn
++ _$s10CryptexKit6PkgEnvVMn
++ _$s10CryptexKit7PkgTreeV4LinkV10CodingKeysOMn
++ _$s10CryptexKit7PkgTreeV4LinkV7XpcKeysOMn
++ _$s10CryptexKit7PkgTreeV4LinkVMn
++ _$s10CryptexKit7PkgTreeV4SpecV7XpcKeysOMn
++ _$s10CryptexKit7PkgTreeV4SpecVMn
++ _$s10CryptexKit7PkgTreeV5EntryO0E4TypeOMn
++ _$s10CryptexKit7PkgTreeV5EntryO10CodingKeysOMn
++ _$s10CryptexKit7PkgTreeV5EntryO7XpcKeysOMn
++ _$s10CryptexKit7PkgTreeV5EntryOMn
++ _$s10CryptexKit7PkgTreeV7OptionsVMn
++ _$s10CryptexKit7PkgTreeV7XpcKeysOMn
++ _$s10CryptexKit7PkgTreeVMn
++ _$s10CryptexKit8PkgErrorV4KindOMn
++ _$s10CryptexKit8PkgErrorVMn
++ _$s12BNNSGraphPCC0A5ErrorOMn
++ _$s12BNNSGraphPCC16UntrustedContextC8FunctionVMn
++ _$s12BNNSGraphPCC17IRValidationErrorOMn
++ _$s12BNNSGraphPCC19JSONIRCreationErrorOMn
++ _$s12BNNSGraphPCC21UntrustedContextErrorOMn
++ _$s12FinanceKitUI015OrderListActiveD3RowV4bodyQrvpQOMQ
++ _$s12FinanceKitUI015OrderListActiveD3RowV9ViewModelVMn
++ _$s12FinanceKitUI015OrderListActiveD3RowVMn
++ _$s12FinanceKitUI024OrderListActiveExtractedD3RowV4bodyQrvpQOMQ
++ _$s12FinanceKitUI024OrderListActiveExtractedD3RowV9ViewModelVMn
++ _$s12FinanceKitUI024OrderListActiveExtractedD3RowVMn
++ _$s12FinanceKitUI12OrderDetailsV4bodyQrvpQOMQ
++ _$s12FinanceKitUI12OrderDetailsV9ViewModelVMn
++ _$s12FinanceKitUI12OrderDetailsVMn
++ _$s12FinanceKitUI21ExtractedOrderDetailsV9ViewModelVMn
++ _$s12FinanceKitUI21ExtractedOrderDetailsVMn
++ _$s12FinanceKitUI23OrderActionsMenuContextV6OriginOMn
++ _$s12FinanceKitUI23OrderActionsMenuContextVMn
++ _$s12FinanceKitUI35SingleAccountStartDateSelectionViewV4bodyQrvpQOMQ
++ _$s12GameStoreKit21PageRenderAssetLoaderP31didFinishLoadingInitialViewportyyFTq
++ _$s12MigrationKit10EstimationV9XPCHelperC5coderAESgSo7NSCoderC_tcfCTq
++ _$s12MigrationKit10EstimationV9XPCHelperCMn
++ _$s12NewsArticles26EndOfArticleViewControllerCN
++ _$s12TelephonyKit10EstimationV9XPCHelperC5coderAESgSo7NSCoderC_tcfCTq
++ _$s12TelephonyKit10EstimationV9XPCHelperCMn
++ _$s13CryptexServer12PkgInventoryC12EraseOptionsVMn
++ _$s13NewsAnalytics15SportsEventDataVMn
++ _$s14ProductKitCore9ProxSetupO9AccessoryO17SupportedFeaturesVMn
++ _$s15ScreenTimeSwift21STExpressIntroductionO8InternalO16DeferredSettingsVMn
++ _$s16CoreTransparency10CTELogHeadVMn
++ _$s16CoreTransparency10CTEMapHeadVMn
++ _$s16CoreTransparency11VerifiedSLHVMn
++ _$s16CoreTransparency15CTEPublicKeyBagVMn
++ _$s16CoreTransparency17PublicKeyBagErrorOMn
++ _$s16CoreTransparency17SignedObjectErrorOMn
++ _$s16CoreTransparency20CTVerificationResultOMn
++ _$s16CoreTransparency20PublicKeyBagProtocolMp
++ _$s16CoreTransparency21CTEPublicKeysResponseVMn
++ _$s16CoreTransparency22SLHVerificationResultsVMn
++ _$s16CoreTransparency25PatInclusionProofProtocolMp
++ _$s16CoreTransparency26PublicKeysResponseProtocolMp
++ _$s16CoreTransparency28CTEscapablePatInclusionProofVMn
++ _$s16CoreTransparency28SignedObjectProtobufParsableMp
++ _$s16GameServicesCore0A24CenterServerNotificationO22SpotlightDeleteEntriesVMn
++ _$s18AppleMediaServices17BinaryResultModelOMn
++ _$s18AppleMediaServices18PromiseFinishModelO5EventOMn
++ _$s18AppleMediaServices18PromiseFinishModelO6ActionVMn
++ _$s18AppleMediaServices18PromiseFinishModelOMn
++ _$s18AppleMediaServices21KeychainStoreProtocolP10deleteDataSbyFTq
++ _$s18AppleMediaServices21NotificationWaitModelO5EventOMn
++ _$s18AppleMediaServices21NotificationWaitModelO6ActionOMn
++ _$s18AppleMediaServices21NotificationWaitModelOMn
++ _$s18AppleMediaServices22EngagementMessageCacheC6filter7messageSaySSGSo013AMSEngagementE13EventResponseC_tFTq
++ _$s18AppleMediaServices23DiagnosticActionOptionsC05ProbeF0C7enabled8duration6targetAESb_SdSSSgtcfCTq
++ _$s18AppleMediaServices8OnceGateVMn
++ _$s19ReminderKitInternal23REMHashtagLabel_CodableCN
++ _$s19UnifiedMessagingKit11ActionKindsO5tableSDySS9JetEngine0D5Model_pXpGvpZMV
++ _$s23LocalAuthenticationCore15LACDateProviderCMn
++ _$s23LocalAuthenticationCore16LACDateProvidingMp
++ _$s23LocalAuthenticationCore23LACAutoLockBackoffStateVMn
++ _$s23LocalAuthenticationCore25LACAutoLockBackoffMonitorCMn
++ _$s23LocalAuthenticationCore25LACAutoLockBackoffTrackerCMn
++ _$s23LocalAuthenticationCore26LACAutoLockBackoffTrackingMp
++ _$s23LocalAuthenticationCore28LACAutoLockBackoffMonitoringMp
++ _$s23LocalAuthenticationCore28LACAutoLockBackoffThresholdsVMn
++ _$s3XPC18XPCReceivedMessageV10auditTokenSo0D8_token_tavpMV
++ _$s5TeaUI24BlueprintViewportMonitorCN
++ _$s7ChatKit14CKImageScalingCMn
++ _$s7SwiftUI4ViewP19UnifiedMessagingKitE37notificationAuthorizationPresentation11isPresented3bag8bundleId14metricsOverlay13resultHandlerQrAA7BindingVySbG_So14AMSBagProtocol_pSSSDySSypGys6ResultOySo21UNAuthorizationStatusVs5Error_pGctFQOMQ
++ _$s8NewsFeed0B28AdGroupHeadlineRepresentableMp
++ _$s8NewsFeed20FormatCollectionViewCN
++ _$s8NewsFeed21FormatVideoPlayMethodOMn
++ _$s8NewsFeed29FormatVideoPlayerExposureDataVMn
++ _$s8NewsFeed32FormatVideoPlayerCoordinatorTypeP27endTrackingExposureIfNeeded12exposureDatayAA0cdejN0V_tFTq
++ _$sSo24FTMessageDeliverySigningC10FTServicesE11signMessage4with17useDataSignatures4body10urlRequest11queryStringSDyS2SGSo07IDSBaseF0C_Sb10Foundation0I0VSgSo19NSMutableURLRequestCSgSStYaFTu
++ _OBJC_CLASS_$_NAEndOfArticlePresentationOptions
++ _OBJC_CLASS_$_REMObjectID_Codable
++ _OBJC_CLASS_$_REMReminder_Codable
++ _OBJC_CLASS_$__TtC19NewsPersonalization28ComputeServiceScoringService
++ _OBJC_CLASS_$__TtC5TeaUI21BarCompressionManager
++ _OBJC_CLASS_$__TtC5TeaUI23CardSplitViewController
+- _$s10CryptexKit10PkgEnvInfoV10CodingKeysOMn
+- _$s10CryptexKit10PkgEnvInfoVMn
+- _$s10CryptexKit10PkgEnvSpecV10CodingKeysOMn
+- _$s10CryptexKit10PkgEnvSpecVMn
+- _$s10CryptexKit17PkgEnvInfoOptionsVMn
+- _$s10CryptexKit8PkgErrorOMn
+- _$s12BNNSGraphPCC16UntrustedContextC9withGraphyxxSo12bnns_graph_taKXEKlFTq
+- _$s12GameStoreKit27OverlayMagicPocketHiddenKeyVMn
+- _$s12GameStoreKit45ThreeDimensionalArtworkGradientBackgroundViewC08gradientI5FrameSo6CGRectVvMTq
+- _$s12NewsArticles31EndOfArticlePresentationOptionsCN
+- _$s16CoreTransparency9CTLogHeadVMn
+- _$s16CoreTransparency9CTMapHeadVMn
+- _$s19NewsPersonalization021ComputeServiceScoringD0CN
+- _$s19ReminderKitInternal19REMObjectID_CodableCN
+- _$s19ReminderKitInternal19REMReminder_CodableCN
+- _$s3XPC18XPCReceivedMessageV12expectsReplySbvpMV
+- _$s5TeaUI21BarCompressionManagerCN
+- _$s5TeaUI23CardSplitViewControllerCN
+- _$s5TeaUI8CommandsC8NewsFeedE0E5VideoVMn
+- _$s8NewsFeed0B24VideoPlaybackRestrictionOMn
+- _$s8NewsFeed18FormatVideoBindingV4TextOMn
+- _$s8NewsFeed18FormatVideoBindingV7CommandOMn
+- _$s8NewsFeed18FormatVideoBindingVMn
+- _$s8NewsFeed32FormatVideoPlayerCoordinatorTypeP10endSessionyyFTq
+- _$s8NewsFeed46FormatVideoBindingPlaybackRestrictionCountdownVMn
+- _OBJC_CLASS_$_REMHashtagLabel_Codable
+- _OBJC_CLASS_$__TtC12NewsArticles26EndOfArticleViewController
+- _OBJC_CLASS_$__TtC5TeaUI24BlueprintViewportMonitor
+- _OBJC_CLASS_$__TtC8NewsFeed20FormatCollectionView
+
+```
