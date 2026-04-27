@@ -1,0 +1,56 @@
+## libswiftPrespecialized.dylib
+
+> `/usr/lib/libswiftPrespecialized.dylib`
+
+```diff
+
+ 0.0.0.0.0
+   __TEXT.__text: 0x0
+   __TEXT.__lldb_no_nlist: 0x0
+-  __DATA_CONST.__const: 0x3034a0
++  __DATA_CONST.__const: 0x3036d0
+   __DATA_CONST.__ptrhashtab: 0x170f8
+   __DATA_CONST.__ptrhashtabkey: 0x25e00
+   __AUTH_CONST.__const: 0x4f970
+   __AUTH.__data: 0xcaed0
+   - /usr/lib/libSystem.B.dylib
+-  UUID: D1BD2AB6-F936-3179-9BE1-7664DF0C363D
++  UUID: 6E57F402-B2A3-3CF1-BB35-0432222F671C
+   Functions: 0
+-  Symbols:   151509
++  Symbols:   151523
+   CStrings:  0
+ 
+Symbols:
++ _$s10PegasusKit17ProxyConfigSourceOMn
++ _$s12AppleIDSetup37AMSAccountEligibilitySyncTaskProtocolMp
++ _$s12GameStoreKit22AccessPointIconPaddingVMn
++ _$s12MigrationKit19MessageExportDumperOMn
++ _$s12NIOIMAPCore227UserAuthenticationMechanismV014authenticationD0AA021IMAPURLAuthenticationD0OSgvpMV
++ _$s15SecureMessaging3MLSO27WaitForArbitrationOperationCMn
++ _$s15SecureMessaging3MLSO42SwiftMLSParticipantKeyRolledOutputProtocolMp
++ _$s16CloudAttestation17EnvironmentPolicyV5ErrorOMn
++ _$s16CloudAttestation17EnvironmentPolicyVMn
++ _$s16HeadphoneManager29DefaultFeatureContentInternalCMn
++ _$s19NewsPersonalization24PublisherGroupEngagementVMn
++ _$s19NewsPersonalization26RecipeAutoFavoritesManagerCN
++ _$s19UnifiedMessagingKit20InlinePlacementTokenC14removeFromCellyyFTq
++ _$s19UnifiedMessagingKit20InlinePlacementTokenCMn
++ _$s21UserNotificationsCore27AccessoryNotificationHandleP4kind0dB015AlertingContextV4KindOvgTq
++ _$s22AccessoryNotifications15AlertingContextV4KindOMn
++ _$s7SwiftUI4ViewP19UnifiedMessagingKitE13messageCenteryQrAD07MessageH0CFQOMQ
++ _$s9BlastDoor11CPIMMessageV19EncapsulatedMessageV15ContentEncodingOMn
++ _$s9ChronoKit22ActivityDescriptorInfoVMn
++ _OBJC_CLASS_$__TtC19NewsPersonalization27NewsAppConfigurationManager
++ _OBJC_CLASS_$__TtC8NewsFeed20FormatCollectionView
++ _OBJC_CLASS_$__TtC8NewsFeed31FormatPuzzleEmbedViewController
+- _$s12NIOIMAPCore227UserAuthenticationMechanismV07encodedB0AA07EncodedB0VSgvpMV
+- _$s19NewsPersonalization0A23AppConfigurationManagerCN
+- _$s21UserNotificationsCore27AccessoryNotificationHandleP14isIncomingCallSbvgTq
+- _$s7SwiftUI4ViewP19UnifiedMessagingKitE37notificationAuthorizationPresentation11isPresented3bag8bundleId14metricsOverlay13resultHandlerQrAA7BindingVySbG_So14AMSBagProtocol_pSSSDySSypGys6ResultOySo21UNAuthorizationStatusVs5Error_pGctFQOMQ
+- _$s8NewsFeed20FormatCollectionViewCN
+- _$s8NewsFeed31FormatPuzzleEmbedViewControllerCN
+- _$sSo24FTMessageDeliverySigningC10FTServicesE11signMessage4with17useDataSignatures4body10urlRequest11queryStringSDyS2SGSo07IDSBaseF0C_Sb10Foundation0I0VSgSo19NSMutableURLRequestCSgSStYaFTu
+- _OBJC_CLASS_$__TtC19NewsPersonalization26RecipeAutoFavoritesManager
+
+```

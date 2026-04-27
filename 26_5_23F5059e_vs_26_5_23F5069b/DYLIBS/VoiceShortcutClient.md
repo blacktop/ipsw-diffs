@@ -1,0 +1,576 @@
+## VoiceShortcutClient
+
+> `/System/Library/PrivateFrameworks/VoiceShortcutClient.framework/VoiceShortcutClient`
+
+```diff
+
+-4607.0.0.0.0
+-  __TEXT.__text: 0x13dc48
++4610.0.0.0.0
++  __TEXT.__text: 0x13dd8c
+   __TEXT.__auth_stubs: 0x37c0
+-  __TEXT.__objc_methlist: 0xc644
++  __TEXT.__objc_methlist: 0xc674
+   __TEXT.__const: 0xd188
+   __TEXT.__dlopen_cstrs: 0xdb4
+-  __TEXT.__cstring: 0x16eb0
++  __TEXT.__cstring: 0x16edc
+   __TEXT.__swift5_typeref: 0x2fc3
+   __TEXT.__swift5_reflstr: 0x136a
+   __TEXT.__swift5_assocty: 0x390
+
+   __TEXT.__unwind_info: 0x6368
+   __TEXT.__eh_frame: 0x53a0
+   __TEXT.__objc_classname: 0x296f
+-  __TEXT.__objc_methname: 0x1c865
++  __TEXT.__objc_methname: 0x1c8f5
+   __TEXT.__objc_methtype: 0x4b2c
+-  __TEXT.__objc_stubs: 0x12320
++  __TEXT.__objc_stubs: 0x12360
+   __DATA_CONST.__got: 0x1140
+-  __DATA_CONST.__const: 0x3528
++  __DATA_CONST.__const: 0x3530
+   __DATA_CONST.__objc_classlist: 0x938
+   __DATA_CONST.__objc_catlist: 0xc8
+   __DATA_CONST.__objc_protolist: 0x180
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x5db8
++  __DATA_CONST.__objc_selrefs: 0x5dc8
+   __DATA_CONST.__objc_protorefs: 0xa0
+   __DATA_CONST.__objc_superrefs: 0x798
+   __DATA_CONST.__objc_arraydata: 0x1a10
+   __AUTH_CONST.__auth_got: 0x1bf8
+   __AUTH_CONST.__const: 0x8488
+-  __AUTH_CONST.__cfstring: 0x18ac0
+-  __AUTH_CONST.__objc_const: 0x19428
++  __AUTH_CONST.__cfstring: 0x18b00
++  __AUTH_CONST.__objc_const: 0x19488
+   __AUTH_CONST.__objc_intobj: 0x49b0
+   __AUTH_CONST.__objc_arrayobj: 0x150
+   __AUTH_CONST.__objc_dictobj: 0x230
+   __AUTH.__objc_data: 0x3ae8
+   __AUTH.__data: 0x1ad8
+-  __DATA.__objc_ivar: 0xc88
++  __DATA.__objc_ivar: 0xc90
+   __DATA.__data: 0x3b98
+   __DATA.__bss: 0x15528
+   __DATA.__common: 0x30
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 45C76BA8-BBC2-3CBA-A3BA-3439CFCC28F4
+-  Functions: 9496
+-  Symbols:   19558
+-  CStrings:  12708
++  UUID: 61769002-DF08-31D6-93C0-A3826909B069
++  Functions: 9500
++  Symbols:   19571
++  CStrings:  12716
+ 
+Symbols:
++ -[WFWorkflowRunRequest setXCallbackURLSuccessURLScheme:]
++ -[WFWorkflowRunRequest xCallbackURLSuccessURLScheme]
++ -[WFWorkflowRunningContext setXCallbackURLSuccessURLScheme:]
++ -[WFWorkflowRunningContext xCallbackURLSuccessURLScheme]
++ GCC_except_table2161
++ GCC_except_table2172
++ GCC_except_table2197
++ GCC_except_table2220
++ GCC_except_table2225
++ GCC_except_table2228
++ GCC_except_table2301
++ GCC_except_table2366
++ GCC_except_table2373
++ GCC_except_table2381
++ GCC_except_table2593
++ GCC_except_table2646
++ GCC_except_table2650
++ GCC_except_table2655
++ GCC_except_table2686
++ GCC_except_table2806
++ GCC_except_table2809
++ GCC_except_table2816
++ GCC_except_table2822
++ GCC_except_table2827
++ GCC_except_table2846
++ GCC_except_table2852
++ GCC_except_table3036
++ GCC_except_table3106
++ GCC_except_table3118
++ GCC_except_table3121
++ GCC_except_table3196
++ GCC_except_table3202
++ GCC_except_table3208
++ GCC_except_table3346
++ GCC_except_table3347
++ GCC_except_table3414
++ GCC_except_table3501
++ GCC_except_table3520
++ GCC_except_table3521
++ GCC_except_table3530
++ GCC_except_table3531
++ GCC_except_table3537
++ GCC_except_table3540
++ GCC_except_table3580
++ GCC_except_table3670
++ GCC_except_table3700
++ GCC_except_table3701
++ GCC_except_table3909
++ GCC_except_table3916
++ GCC_except_table3919
++ GCC_except_table3922
++ GCC_except_table3924
++ GCC_except_table3932
++ GCC_except_table4041
++ GCC_except_table4054
++ GCC_except_table4161
++ GCC_except_table4211
++ GCC_except_table4240
++ GCC_except_table4245
++ GCC_except_table4248
++ GCC_except_table4251
++ GCC_except_table4254
++ GCC_except_table4257
++ GCC_except_table4266
++ GCC_except_table4269
++ GCC_except_table4271
++ GCC_except_table4274
++ GCC_except_table4277
++ GCC_except_table4284
++ GCC_except_table4289
++ GCC_except_table4294
++ GCC_except_table4314
++ GCC_except_table4326
++ GCC_except_table4358
++ _BiomeLibraryLibraryCore.frameworkLibrary.3467
++ _BiomeLibraryLibraryCore.frameworkLibrary.8632
++ _ContentKitLibrary.13453
++ _ContentKitLibrary.19118
++ _ContentKitLibrary.5276
++ _ContentKitLibraryCore.frameworkLibrary.13456
++ _ContentKitLibraryCore.frameworkLibrary.19129
++ _ContentKitLibraryCore.frameworkLibrary.5286
++ _CoreLocationLibraryCore.frameworkLibrary.9129
++ _CoreTextLibraryCore.frameworkLibrary.12376
++ _IconServicesLibrary.16734
++ _IconServicesLibraryCore.frameworkLibrary.16743
++ _ImageIOLibrary.5621
++ _ImageIOLibrary.9794
++ _ImageIOLibraryCore.frameworkLibrary.5639
++ _ImageIOLibraryCore.frameworkLibrary.9839
++ _LinkPresentationLibraryCore.frameworkLibrary.13437
++ _LinkServicesLibrary.6964
++ _LinkServicesLibraryCore.frameworkLibrary.6966
++ _OBJC_IVAR_$_WFWorkflowRunRequest._xCallbackURLSuccessURLScheme
++ _OBJC_IVAR_$_WFWorkflowRunningContext._xCallbackURLSuccessURLScheme
++ _UIImageFunction.9829
++ _UIKitLibrary.sLib.12109
++ _UIKitLibrary.sLib.4939
++ _UIKitLibrary.sLib.9834
++ _UIKitLibrary.sOnce.12102
++ _UIKitLibrary.sOnce.4934
++ _UIKitLibrary.sOnce.9824
++ _UIKitLibraryCore.frameworkLibrary.19154
++ _VisionKitCoreLibraryCore.frameworkLibrary.14879
++ _WFBiomeLibrary.8628
++ _WFWorkflowRunSourceXCallbackURL
++ ___BiomeLibraryLibraryCore_block_invoke.3468
++ ___BiomeLibraryLibraryCore_block_invoke.8633
++ ___Block_byref_object_copy_.10657
++ ___Block_byref_object_copy_.13277
++ ___Block_byref_object_copy_.15075
++ ___Block_byref_object_copy_.16213
++ ___Block_byref_object_copy_.1781
++ ___Block_byref_object_copy_.19138
++ ___Block_byref_object_copy_.2826
++ ___Block_byref_object_copy_.5527
++ ___Block_byref_object_copy_.5736
++ ___Block_byref_object_copy_.6012
++ ___Block_byref_object_dispose_.10658
++ ___Block_byref_object_dispose_.13278
++ ___Block_byref_object_dispose_.15076
++ ___Block_byref_object_dispose_.16214
++ ___Block_byref_object_dispose_.1782
++ ___Block_byref_object_dispose_.19139
++ ___Block_byref_object_dispose_.2827
++ ___Block_byref_object_dispose_.5528
++ ___Block_byref_object_dispose_.5737
++ ___Block_byref_object_dispose_.6013
++ ___ContentKitLibraryCore_block_invoke.13457
++ ___ContentKitLibraryCore_block_invoke.19130
++ ___ContentKitLibraryCore_block_invoke.5287
++ ___CoreLocationLibraryCore_block_invoke.9130
++ ___CoreTextLibraryCore_block_invoke.12377
++ ___IconServicesLibraryCore_block_invoke.16744
++ ___ImageIOLibraryCore_block_invoke.5640
++ ___ImageIOLibraryCore_block_invoke.9840
++ ___LinkPresentationLibraryCore_block_invoke.13438
++ ___LinkServicesLibraryCore_block_invoke.6967
++ ___UIKitLibraryCore_block_invoke.19155
++ ___UIKitLibrary_block_invoke.12107
++ ___UIKitLibrary_block_invoke.4937
++ ___UIKitLibrary_block_invoke.9832
++ ___VisionKitCoreLibraryCore_block_invoke.14880
++ ___block_literal_global.10167
++ ___block_literal_global.10479
++ ___block_literal_global.10686
++ ___block_literal_global.11109
++ ___block_literal_global.11140
++ ___block_literal_global.11757
++ ___block_literal_global.12103
++ ___block_literal_global.12517
++ ___block_literal_global.13541
++ ___block_literal_global.140.10204
++ ___block_literal_global.14627
++ ___block_literal_global.149.12504
++ ___block_literal_global.14919
++ ___block_literal_global.15098
++ ___block_literal_global.15455
++ ___block_literal_global.15575
++ ___block_literal_global.158.10653
++ ___block_literal_global.15902
++ ___block_literal_global.16217
++ ___block_literal_global.1752
++ ___block_literal_global.17665
++ ___block_literal_global.18307
++ ___block_literal_global.18369
++ ___block_literal_global.19148
++ ___block_literal_global.19198
++ ___block_literal_global.19209
++ ___block_literal_global.19467
++ ___block_literal_global.1978
++ ___block_literal_global.204
++ ___block_literal_global.206.1990
++ ___block_literal_global.208.10647
++ ___block_literal_global.208.1992
++ ___block_literal_global.3633
++ ___block_literal_global.4325
++ ___block_literal_global.4770
++ ___block_literal_global.4940
++ ___block_literal_global.50.17946
++ ___block_literal_global.5227
++ ___block_literal_global.5273
++ ___block_literal_global.5525
++ ___block_literal_global.56.1982
++ ___block_literal_global.5661
++ ___block_literal_global.5788
++ ___block_literal_global.59.1984
++ ___block_literal_global.5909
++ ___block_literal_global.6023
++ ___block_literal_global.6176
++ ___block_literal_global.62.16218
++ ___block_literal_global.6329
++ ___block_literal_global.65.1986
++ ___block_literal_global.7236
++ ___block_literal_global.77.15446
++ ___block_literal_global.8842
++ ___block_literal_global.8877
++ ___block_literal_global.9719
++ ___block_literal_global.9825
++ ___block_literal_global.9946
++ ___getBiomeLibrarySymbolLoc_block_invoke.3464
++ ___getBiomeLibrarySymbolLoc_block_invoke.8630
++ ___getCGImageSourceCopyPropertiesAtIndexSymbolLoc_block_invoke.9812
++ ___getCGImageSourceCreateImageAtIndexSymbolLoc_block_invoke.9808
++ ___getCGImageSourceCreateWithDataSymbolLoc_block_invoke.9800
++ ___getCGImageSourceGetCountSymbolLoc_block_invoke.9804
++ ___getCLLocationClass_block_invoke.9128
++ ___getISImageDescriptorClass_block_invoke.16731
++ ___getLPLinkMetadataClass_block_invoke.13434
++ ___getVKCRemoveBackgroundRequestHandlerClass_block_invoke.14878
++ ___getWFContentCollectionClass_block_invoke.5275
++ ___getWFContentItemClass_block_invoke.13431
++ ___getWFContentItemClass_block_invoke.19142
++ ___getWFStringContentItemClass_block_invoke.19117
++ ___getkCGImagePropertyOrientationSymbolLoc_block_invoke.9818
++ ___getkISImageDescriptorHomeScreenSymbolLoc_block_invoke.16733
++ _audit_stringBiomeLibrary.3471
++ _audit_stringBiomeLibrary.8636
++ _audit_stringContentKit.13460
++ _audit_stringContentKit.19135
++ _audit_stringContentKit.5293
++ _audit_stringCoreLocation.9145
++ _audit_stringCoreText.12381
++ _audit_stringIconServices.16747
++ _audit_stringImageIO.5643
++ _audit_stringImageIO.9843
++ _audit_stringLinkPresentation.13452
++ _audit_stringLinkServices.6973
++ _audit_stringUIKit.19158
++ _audit_stringVisionKitCore.14883
++ _classUIImage.9827
++ _getBiomeLibrarySymbolLoc.ptr.3463
++ _getBiomeLibrarySymbolLoc.ptr.8629
++ _getCGImageSourceCopyPropertiesAtIndexSymbolLoc.ptr.9811
++ _getCGImageSourceCreateImageAtIndexSymbolLoc.ptr.9807
++ _getCGImageSourceCreateWithDataSymbolLoc.ptr.9799
++ _getCGImageSourceGetCountSymbolLoc.ptr.9803
++ _getCLLocationClass.softClass.9127
++ _getISImageDescriptorClass.softClass.16730
++ _getLPLinkMetadataClass.softClass.13433
++ _getUIImageClass.9821
++ _getVKCRemoveBackgroundRequestHandlerClass.softClass.14877
++ _getWFContentCollectionClass.softClass.5274
++ _getWFContentItemClass.softClass.13430
++ _getWFContentItemClass.softClass.19141
++ _getWFStringContentItemClass.softClass.19116
++ _getkCGImagePropertyOrientationSymbolLoc.ptr.9817
++ _getkISImageDescriptorHomeScreenSymbolLoc.ptr.16732
++ _initUIImage.9823
++ _objc_msgSend$setXCallbackURLSuccessURLScheme:
++ _objc_msgSend$xCallbackURLSuccessURLScheme
++ _timestampDateFormatter.dateFormatter.15576
++ _timestampDateFormatter.onceToken.15574
+- GCC_except_table2159
+- GCC_except_table2170
+- GCC_except_table2195
+- GCC_except_table2218
+- GCC_except_table2223
+- GCC_except_table2226
+- GCC_except_table2299
+- GCC_except_table2364
+- GCC_except_table2371
+- GCC_except_table2379
+- GCC_except_table2591
+- GCC_except_table2644
+- GCC_except_table2648
+- GCC_except_table2653
+- GCC_except_table2684
+- GCC_except_table2804
+- GCC_except_table2807
+- GCC_except_table2814
+- GCC_except_table2820
+- GCC_except_table2825
+- GCC_except_table2844
+- GCC_except_table2850
+- GCC_except_table3034
+- GCC_except_table3104
+- GCC_except_table3116
+- GCC_except_table3119
+- GCC_except_table3194
+- GCC_except_table3200
+- GCC_except_table3206
+- GCC_except_table3344
+- GCC_except_table3345
+- GCC_except_table3412
+- GCC_except_table3499
+- GCC_except_table3517
+- GCC_except_table3518
+- GCC_except_table3526
+- GCC_except_table3529
+- GCC_except_table3534
+- GCC_except_table3535
+- GCC_except_table3578
+- GCC_except_table3668
+- GCC_except_table3697
+- GCC_except_table3698
+- GCC_except_table3905
+- GCC_except_table3912
+- GCC_except_table3915
+- GCC_except_table3918
+- GCC_except_table3920
+- GCC_except_table3928
+- GCC_except_table4033
+- GCC_except_table4050
+- GCC_except_table4157
+- GCC_except_table4207
+- GCC_except_table4236
+- GCC_except_table4241
+- GCC_except_table4244
+- GCC_except_table4247
+- GCC_except_table4250
+- GCC_except_table4253
+- GCC_except_table4258
+- GCC_except_table4265
+- GCC_except_table4267
+- GCC_except_table4270
+- GCC_except_table4273
+- GCC_except_table4280
+- GCC_except_table4285
+- GCC_except_table4290
+- GCC_except_table4306
+- GCC_except_table4322
+- GCC_except_table4354
+- _BiomeLibraryLibraryCore.frameworkLibrary.3462
+- _BiomeLibraryLibraryCore.frameworkLibrary.8641
+- _ContentKitLibrary.13462
+- _ContentKitLibrary.19119
+- _ContentKitLibrary.5285
+- _ContentKitLibraryCore.frameworkLibrary.13465
+- _ContentKitLibraryCore.frameworkLibrary.19130
+- _ContentKitLibraryCore.frameworkLibrary.5295
+- _CoreLocationLibraryCore.frameworkLibrary.9138
+- _CoreTextLibraryCore.frameworkLibrary.12386
+- _IconServicesLibrary.16743
+- _IconServicesLibraryCore.frameworkLibrary.16752
+- _ImageIOLibrary.5630
+- _ImageIOLibrary.9810
+- _ImageIOLibraryCore.frameworkLibrary.5648
+- _ImageIOLibraryCore.frameworkLibrary.9855
+- _LinkPresentationLibraryCore.frameworkLibrary.13446
+- _LinkServicesLibrary.6973
+- _LinkServicesLibraryCore.frameworkLibrary.6975
+- _UIImageFunction.9845
+- _UIKitLibrary.sLib.12119
+- _UIKitLibrary.sLib.4948
+- _UIKitLibrary.sLib.9850
+- _UIKitLibrary.sOnce.12112
+- _UIKitLibrary.sOnce.4943
+- _UIKitLibrary.sOnce.9840
+- _UIKitLibraryCore.frameworkLibrary.19155
+- _VisionKitCoreLibraryCore.frameworkLibrary.14888
+- _WFBiomeLibrary.8637
+- ___BiomeLibraryLibraryCore_block_invoke.3463
+- ___BiomeLibraryLibraryCore_block_invoke.8642
+- ___Block_byref_object_copy_.10676
+- ___Block_byref_object_copy_.13286
+- ___Block_byref_object_copy_.15084
+- ___Block_byref_object_copy_.16222
+- ___Block_byref_object_copy_.1778
+- ___Block_byref_object_copy_.19139
+- ___Block_byref_object_copy_.2821
+- ___Block_byref_object_copy_.5536
+- ___Block_byref_object_copy_.5745
+- ___Block_byref_object_copy_.6021
+- ___Block_byref_object_dispose_.10677
+- ___Block_byref_object_dispose_.13287
+- ___Block_byref_object_dispose_.15085
+- ___Block_byref_object_dispose_.16223
+- ___Block_byref_object_dispose_.1779
+- ___Block_byref_object_dispose_.19140
+- ___Block_byref_object_dispose_.2822
+- ___Block_byref_object_dispose_.5537
+- ___Block_byref_object_dispose_.5746
+- ___Block_byref_object_dispose_.6022
+- ___ContentKitLibraryCore_block_invoke.13466
+- ___ContentKitLibraryCore_block_invoke.19131
+- ___ContentKitLibraryCore_block_invoke.5296
+- ___CoreLocationLibraryCore_block_invoke.9139
+- ___CoreTextLibraryCore_block_invoke.12387
+- ___IconServicesLibraryCore_block_invoke.16753
+- ___ImageIOLibraryCore_block_invoke.5649
+- ___ImageIOLibraryCore_block_invoke.9856
+- ___LinkPresentationLibraryCore_block_invoke.13447
+- ___LinkServicesLibraryCore_block_invoke.6976
+- ___UIKitLibraryCore_block_invoke.19156
+- ___UIKitLibrary_block_invoke.12117
+- ___UIKitLibrary_block_invoke.4946
+- ___UIKitLibrary_block_invoke.9848
+- ___VisionKitCoreLibraryCore_block_invoke.14889
+- ___block_literal_global.10183
+- ___block_literal_global.10496
+- ___block_literal_global.10705
+- ___block_literal_global.11128
+- ___block_literal_global.11159
+- ___block_literal_global.11776
+- ___block_literal_global.12113
+- ___block_literal_global.12527
+- ___block_literal_global.13550
+- ___block_literal_global.140.10220
+- ___block_literal_global.14636
+- ___block_literal_global.149.12514
+- ___block_literal_global.14928
+- ___block_literal_global.15107
+- ___block_literal_global.15464
+- ___block_literal_global.15584
+- ___block_literal_global.158.10672
+- ___block_literal_global.15911
+- ___block_literal_global.16226
+- ___block_literal_global.1749
+- ___block_literal_global.17674
+- ___block_literal_global.18308
+- ___block_literal_global.18370
+- ___block_literal_global.19149
+- ___block_literal_global.19199
+- ___block_literal_global.19210
+- ___block_literal_global.19468
+- ___block_literal_global.1975
+- ___block_literal_global.201
+- ___block_literal_global.203.1985
+- ___block_literal_global.205.10664
+- ___block_literal_global.208.10665
+- ___block_literal_global.3628
+- ___block_literal_global.4320
+- ___block_literal_global.4779
+- ___block_literal_global.4949
+- ___block_literal_global.50.17955
+- ___block_literal_global.5236
+- ___block_literal_global.5282
+- ___block_literal_global.5534
+- ___block_literal_global.56.1979
+- ___block_literal_global.5670
+- ___block_literal_global.5797
+- ___block_literal_global.59.1981
+- ___block_literal_global.5918
+- ___block_literal_global.6032
+- ___block_literal_global.6185
+- ___block_literal_global.62.16227
+- ___block_literal_global.6338
+- ___block_literal_global.65.1983
+- ___block_literal_global.7245
+- ___block_literal_global.77.15455
+- ___block_literal_global.8851
+- ___block_literal_global.8886
+- ___block_literal_global.9735
+- ___block_literal_global.9841
+- ___block_literal_global.9962
+- ___getBiomeLibrarySymbolLoc_block_invoke.3459
+- ___getBiomeLibrarySymbolLoc_block_invoke.8639
+- ___getCGImageSourceCopyPropertiesAtIndexSymbolLoc_block_invoke.9828
+- ___getCGImageSourceCreateImageAtIndexSymbolLoc_block_invoke.9824
+- ___getCGImageSourceCreateWithDataSymbolLoc_block_invoke.9816
+- ___getCGImageSourceGetCountSymbolLoc_block_invoke.9820
+- ___getCLLocationClass_block_invoke.9137
+- ___getISImageDescriptorClass_block_invoke.16740
+- ___getLPLinkMetadataClass_block_invoke.13443
+- ___getVKCRemoveBackgroundRequestHandlerClass_block_invoke.14887
+- ___getWFContentCollectionClass_block_invoke.5284
+- ___getWFContentItemClass_block_invoke.13440
+- ___getWFContentItemClass_block_invoke.19143
+- ___getWFStringContentItemClass_block_invoke.19118
+- ___getkCGImagePropertyOrientationSymbolLoc_block_invoke.9834
+- ___getkISImageDescriptorHomeScreenSymbolLoc_block_invoke.16742
+- _audit_stringBiomeLibrary.3466
+- _audit_stringBiomeLibrary.8645
+- _audit_stringContentKit.13469
+- _audit_stringContentKit.19136
+- _audit_stringContentKit.5302
+- _audit_stringCoreLocation.9154
+- _audit_stringCoreText.12391
+- _audit_stringIconServices.16756
+- _audit_stringImageIO.5652
+- _audit_stringImageIO.9859
+- _audit_stringLinkPresentation.13461
+- _audit_stringLinkServices.6982
+- _audit_stringUIKit.19159
+- _audit_stringVisionKitCore.14892
+- _classUIImage.9843
+- _getBiomeLibrarySymbolLoc.ptr.3458
+- _getBiomeLibrarySymbolLoc.ptr.8638
+- _getCGImageSourceCopyPropertiesAtIndexSymbolLoc.ptr.9827
+- _getCGImageSourceCreateImageAtIndexSymbolLoc.ptr.9823
+- _getCGImageSourceCreateWithDataSymbolLoc.ptr.9815
+- _getCGImageSourceGetCountSymbolLoc.ptr.9819
+- _getCLLocationClass.softClass.9136
+- _getISImageDescriptorClass.softClass.16739
+- _getLPLinkMetadataClass.softClass.13442
+- _getUIImageClass.9837
+- _getVKCRemoveBackgroundRequestHandlerClass.softClass.14886
+- _getWFContentCollectionClass.softClass.5283
+- _getWFContentItemClass.softClass.13439
+- _getWFContentItemClass.softClass.19142
+- _getWFStringContentItemClass.softClass.19117
+- _getkCGImagePropertyOrientationSymbolLoc.ptr.9833
+- _getkISImageDescriptorHomeScreenSymbolLoc.ptr.16741
+- _initUIImage.9839
+- _timestampDateFormatter.dateFormatter.15585
+- _timestampDateFormatter.onceToken.15583
+CStrings:
++ "T@\"NSString\",C,N,V_xCallbackURLSuccessURLScheme"
++ "_xCallbackURLSuccessURLScheme"
++ "setXCallbackURLSuccessURLScheme:"
++ "x-callback-url"
++ "xCallbackURLSuccessURLScheme"
+
+```

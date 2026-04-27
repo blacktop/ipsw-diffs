@@ -1,0 +1,71 @@
+## MediaCoreUI
+
+> `/System/Library/PrivateFrameworks/MediaCoreUI.framework/MediaCoreUI`
+
+```diff
+
+-4025.510.1.0.0
+-  __TEXT.__text: 0x2b3bb8
+-  __TEXT.__auth_stubs: 0x5bb0
++4025.610.1.0.0
++  __TEXT.__text: 0x2b3c70
++  __TEXT.__auth_stubs: 0x5bc0
+   __TEXT.__objc_methlist: 0x2ee0
+   __TEXT.__const: 0x28fc4
+-  __TEXT.__swift5_typeref: 0x17a72
++  __TEXT.__swift5_typeref: 0x17ad2
+   __TEXT.__constg_swiftt: 0x13804
+   __TEXT.__swift5_builtin: 0x500
+   __TEXT.__swift5_reflstr: 0x8336
+
+   __TEXT.__objc_methname: 0xc15d
+   __TEXT.__objc_methtype: 0x4133
+   __TEXT.__objc_stubs: 0x4fa0
+-  __DATA_CONST.__got: 0x1ac8
++  __DATA_CONST.__got: 0x1ad8
+   __DATA_CONST.__const: 0x9c0
+   __DATA_CONST.__objc_classlist: 0x4c0
+   __DATA_CONST.__objc_catlist: 0x18
+
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_selrefs: 0x2398
+   __DATA_CONST.__objc_protorefs: 0x108
+-  __AUTH_CONST.__auth_got: 0x2de0
++  __AUTH_CONST.__auth_got: 0x2de8
+   __AUTH_CONST.__const: 0x1afa0
+   __AUTH_CONST.__objc_const: 0xba70
+   __AUTH.__objc_data: 0x3180
+   __AUTH.__data: 0x4370
+-  __DATA.__data: 0xa4b8
++  __DATA.__data: 0xa4c8
+   __DATA.__bss: 0xd198
+   __DATA.__common: 0x5d8
+   __DATA_DIRTY.__objc_data: 0x1cf8
+
+   - /usr/lib/swift/libswift_DarwinFoundation1.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 73C9CDD5-2536-39B6-91CB-2F86B4AB3AF6
+-  Functions: 14154
+-  Symbols:   7534
++  UUID: 5F9A3366-0B07-3834-877A-CF4EDD5A9D7D
++  Functions: 14156
++  Symbols:   7535
+   CStrings:  3039
+ 
+Symbols:
++ _get_witness_table 7SwiftUI13_VariadicViewO4TreeVy_AA11_LayoutRootVy09MediaCoreB021SymbolTransportButton33_855B558EBF42837AEC5F9AECC17AAF2ALLV0lF0VGAA05TupleD0VyAA15ModifiedContentVyAA5ImageVAA15_HiddenModifierVG_ARyAA0L0VyAA0D0PAAE27accessibilityRepresentation14representationQrqd__yXE_tAaZRd__lFQOyARyAA9RectangleVAA20_MaskAlignmentEffectVyARyAtA08_PaddingF0VGGG_ATQo_GAA01_u5ShapeX0VyA3_GGtGGAaZHPAnA01_cd1_dG0HPyHC_A17_AaZHPyHCHC.251
++ _get_witness_table 7SwiftUI6ButtonVyAA15ModifiedContentVyAA9RectangleV6_InsetVAA20_MaskAlignmentEffectVyAEyAEy09MediaCoreB021AnimatedCAPackageViewVAA06_ScaleJ0VGAA01_E13ShapeModifierVyAA6CircleVGGGGGAA0O0HPyHC.252
++ _symbolic _____y__________G_AAy_____y_____yAAy__________yAAyAB_____GGG_ABQo_G_____yAFGGt 7SwiftUI15ModifiedContentV AA5ImageV AA15_HiddenModifierV AA6ButtonV AA4ViewPAAE27accessibilityRepresentation14representationQrqd__yXE_tAaJRd__lFQO AA9RectangleV AA20_MaskAlignmentEffectV AA14_PaddingLayoutV AA01_d5ShapeG0V
++ _symbolic _____y______y_____G_____y_____y__________G_AFy_____y_____yAFy__________yAFyAG_____GGG_AGQo_G_____yAKGGtGG 7SwiftUI13_VariadicViewO4TreeV AA11_LayoutRootV 09MediaCoreB021SymbolTransportButton33_855B558EBF42837AEC5F9AECC17AAF2ALLV0lF0V AA05TupleD0V AA15ModifiedContentV AA5ImageV AA15_HiddenModifierV AA0L0V AA0D0PAAE27accessibilityRepresentation14representationQrqd__yXE_tAaXRd__lFQO AA9RectangleV AA20_MaskAlignmentEffectV AA08_PaddingF0V AA01_u5ShapeX0V
++ _symbolic _____y_____y__________G_ABy_____y_____yABy__________yAByAC_____GGG_ACQo_G_____yAGGGtG 7SwiftUI9TupleViewV AA15ModifiedContentV AA5ImageV AA15_HiddenModifierV AA6ButtonV AA0D0PAAE27accessibilityRepresentation14representationQrqd__yXE_tAaLRd__lFQO AA9RectangleV AA20_MaskAlignmentEffectV AA14_PaddingLayoutV AA01_f5ShapeI0V
++ _symbolic _____y_____y__________yAAy__________GGG_ADQo_ 7SwiftUI4ViewPAAE27accessibilityRepresentation14representationQrqd__yXE_tAaBRd__lFQO AA15ModifiedContentV AA9RectangleV AA20_MaskAlignmentEffectV AA5ImageV AA14_PaddingLayoutV
++ _symbolic _____y_____y_____yAAy__________yAAy__________GGG_AEQo_G_____yACGG 7SwiftUI15ModifiedContentV AA6ButtonV AA4ViewPAAE27accessibilityRepresentation14representationQrqd__yXE_tAaFRd__lFQO AA9RectangleV AA20_MaskAlignmentEffectV AA5ImageV AA14_PaddingLayoutV AA01_D13ShapeModifierV
+- _get_witness_table 7SwiftUI13_VariadicViewO4TreeVy_AA11_LayoutRootVy09MediaCoreB021SymbolTransportButton33_855B558EBF42837AEC5F9AECC17AAF2ALLV0lF0VGAA05TupleD0VyAA15ModifiedContentVyAA5ImageVAA15_HiddenModifierVG_ARyAA0L0VyARyAA9RectangleVAA20_MaskAlignmentEffectVyARyAtA08_PaddingF0VGGGGAA01_u5ShapeX0VyA_GGtGGAA0D0HPAnA01_cd1_dG0HPyHC_A12_AAA14_HPyHCHC.250
+- _get_witness_table 7SwiftUI6ButtonVyAA15ModifiedContentVyAA9RectangleV6_InsetVAA20_MaskAlignmentEffectVyAEyAEy09MediaCoreB021AnimatedCAPackageViewVAA06_ScaleJ0VGAA01_E13ShapeModifierVyAA6CircleVGGGGGAA0O0HPyHC.251
+- _symbolic _____y__________G_AAy_____yAAy__________yAAyAB_____GGGG_____yAFGGt 7SwiftUI15ModifiedContentV AA5ImageV AA15_HiddenModifierV AA6ButtonV AA9RectangleV AA20_MaskAlignmentEffectV AA14_PaddingLayoutV AA01_d5ShapeG0V
+- _symbolic _____y______y_____G_____y_____y__________G_AFy_____yAFy__________yAFyAG_____GGGG_____yAKGGtGG 7SwiftUI13_VariadicViewO4TreeV AA11_LayoutRootV 09MediaCoreB021SymbolTransportButton33_855B558EBF42837AEC5F9AECC17AAF2ALLV0lF0V AA05TupleD0V AA15ModifiedContentV AA5ImageV AA15_HiddenModifierV AA0L0V AA9RectangleV AA20_MaskAlignmentEffectV AA08_PaddingF0V AA01_u5ShapeX0V
+- _symbolic _____y_____yAAy__________yAAy__________GGGG_____yACGG 7SwiftUI15ModifiedContentV AA6ButtonV AA9RectangleV AA20_MaskAlignmentEffectV AA5ImageV AA14_PaddingLayoutV AA01_D13ShapeModifierV
+- _symbolic _____y_____y__________G_ABy_____yABy__________yAByAC_____GGGG_____yAGGGtG 7SwiftUI9TupleViewV AA15ModifiedContentV AA5ImageV AA15_HiddenModifierV AA6ButtonV AA9RectangleV AA20_MaskAlignmentEffectV AA14_PaddingLayoutV AA01_f5ShapeI0V
+
+```

@@ -1,0 +1,122 @@
+## CommunicationDetails
+
+> `/System/Library/PrivateFrameworks/CommunicationDetails.framework/CommunicationDetails`
+
+```diff
+
+-1450.600.53.2.3
+-  __TEXT.__text: 0xc3b30
++1450.600.61.2.7
++  __TEXT.__text: 0xc43a8
+   __TEXT.__auth_stubs: 0x2d70
+   __TEXT.__objc_methlist: 0x15b8
+-  __TEXT.__const: 0x7626
++  __TEXT.__const: 0x7646
+   __TEXT.__swift5_typeref: 0x59aa
+-  __TEXT.__swift5_capture: 0xe68
++  __TEXT.__swift5_capture: 0xe9c
+   __TEXT.__cstring: 0x2184
+-  __TEXT.__constg_swiftt: 0x4138
++  __TEXT.__constg_swiftt: 0x4150
+   __TEXT.__swift5_reflstr: 0x2ecb
+   __TEXT.__swift5_assocty: 0x750
+   __TEXT.__swift5_fieldmd: 0x2574
+   __TEXT.__swift5_proto: 0x2c4
+   __TEXT.__swift5_types: 0x2c0
+-  __TEXT.__swift_as_entry: 0x98
++  __TEXT.__swift_as_entry: 0x9c
+   __TEXT.__swift_as_ret: 0x74
+   __TEXT.__oslogstring: 0x1197
+   __TEXT.__swift5_protos: 0x30
+   __TEXT.__swift5_builtin: 0x1cc
+   __TEXT.__swift5_mpenum: 0x50
+-  __TEXT.__unwind_info: 0x3708
+-  __TEXT.__eh_frame: 0x24bc
++  __TEXT.__unwind_info: 0x3728
++  __TEXT.__eh_frame: 0x250c
+   __TEXT.__objc_classname: 0x1027
+-  __TEXT.__objc_methname: 0x5e8d
++  __TEXT.__objc_methname: 0x5e9d
+   __TEXT.__objc_methtype: 0x1b77
+-  __TEXT.__objc_stubs: 0x3580
++  __TEXT.__objc_stubs: 0x35a0
+   __DATA_CONST.__got: 0xa58
+   __DATA_CONST.__const: 0xa00
+   __DATA_CONST.__objc_classlist: 0x180
+   __DATA_CONST.__objc_protolist: 0x1b0
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x1480
++  __DATA_CONST.__objc_selrefs: 0x1488
+   __DATA_CONST.__objc_protorefs: 0xd8
+   __AUTH_CONST.__auth_got: 0x16c0
+-  __AUTH_CONST.__const: 0x4fc0
++  __AUTH_CONST.__const: 0x4fe8
+   __AUTH_CONST.__cfstring: 0x60
+   __AUTH_CONST.__objc_const: 0x3c30
+-  __AUTH.__objc_data: 0x2818
++  __AUTH.__objc_data: 0x2830
+   __AUTH.__data: 0x20e0
+   __DATA.__data: 0x23b8
+   __DATA.__bss: 0x62c9
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: F7AB39EE-7323-3D88-AB23-C382816BF7A6
+-  Functions: 6218
+-  Symbols:   17043
+-  CStrings:  1393
++  UUID: 26FE6770-9B05-3BE7-8453-7362EF017AFC
++  Functions: 6232
++  Symbols:   17072
++  CStrings:  1394
+ 
+Symbols:
++ _$s20CommunicationDetails19SegmentedTabControlC015observeSelectedD033_14FE08E8F5222DE52E4C6E817780A66FLLyyFyyXEfU_
++ _$s20CommunicationDetails19SegmentedTabControlC015observeSelectedD033_14FE08E8F5222DE52E4C6E817780A66FLLyyFyyXEfU_TA
++ _$s20CommunicationDetails19SegmentedTabControlC015observeSelectedD033_14FE08E8F5222DE52E4C6E817780A66FLLyyFyyXEfU_TA.67
++ _$s20CommunicationDetails19SegmentedTabControlC015observeSelectedD033_14FE08E8F5222DE52E4C6E817780A66FLLyyFyyYbcyXEfu_TA
++ _$s20CommunicationDetails19SegmentedTabControlC015observeSelectedD033_14FE08E8F5222DE52E4C6E817780A66FLLyyFyyYbcyXEfu_TA.68
++ _$s20CommunicationDetails19SegmentedTabControlC015observeSelectedD033_14FE08E8F5222DE52E4C6E817780A66FLLyyFyyYbcyXEfu_TATm
++ _$s20CommunicationDetails19SegmentedTabControlC015observeSelectedD033_14FE08E8F5222DE52E4C6E817780A66FLLyyFyyYbcyXEfu_yyYbcfU0_TA
++ _$s20CommunicationDetails19SegmentedTabControlC015observeSelectedD033_14FE08E8F5222DE52E4C6E817780A66FLLyyFyyYbcyXEfu_yyYbcfU0_Tm
++ _$s20CommunicationDetails19SegmentedTabControlC015observeSelectedD033_14FE08E8F5222DE52E4C6E817780A66FLLyyFyyYbcyXEfu_yyYbcfU0_yyYaYbScMYccfU_
++ _$s20CommunicationDetails19SegmentedTabControlC015observeSelectedD033_14FE08E8F5222DE52E4C6E817780A66FLLyyFyyYbcyXEfu_yyYbcfU0_yyYaYbScMYccfU_TA
++ _$s20CommunicationDetails19SegmentedTabControlC015observeSelectedD033_14FE08E8F5222DE52E4C6E817780A66FLLyyFyyYbcyXEfu_yyYbcfU0_yyYaYbScMYccfU_TATQ0_
++ _$s20CommunicationDetails19SegmentedTabControlC015observeSelectedD033_14FE08E8F5222DE52E4C6E817780A66FLLyyFyyYbcyXEfu_yyYbcfU0_yyYaYbScMYccfU_TATu
++ _$s20CommunicationDetails19SegmentedTabControlC015observeSelectedD033_14FE08E8F5222DE52E4C6E817780A66FLLyyFyyYbcyXEfu_yyYbcfU0_yyYaYbScMYccfU_TY0_
++ _$s20CommunicationDetails19SegmentedTabControlC015observeSelectedD033_14FE08E8F5222DE52E4C6E817780A66FLLyyFyyYbcyXEfu_yyYbcfU0_yyYaYbScMYccfU_Tu
++ _$s20CommunicationDetails19SegmentedTabControlC11observeTabs33_14FE08E8F5222DE52E4C6E817780A66FLLyyFyyXEfU_
++ _$s20CommunicationDetails19SegmentedTabControlC11observeTabs33_14FE08E8F5222DE52E4C6E817780A66FLLyyFyyXEfU_TA
++ _$s20CommunicationDetails19SegmentedTabControlC11observeTabs33_14FE08E8F5222DE52E4C6E817780A66FLLyyFyyXEfU_TA.59
++ _$s20CommunicationDetails19SegmentedTabControlC11observeTabs33_14FE08E8F5222DE52E4C6E817780A66FLLyyFyyYbcyXEfu_TA
++ _$s20CommunicationDetails19SegmentedTabControlC11observeTabs33_14FE08E8F5222DE52E4C6E817780A66FLLyyFyyYbcyXEfu_TA.60
++ _$s20CommunicationDetails19SegmentedTabControlC11observeTabs33_14FE08E8F5222DE52E4C6E817780A66FLLyyFyyYbcyXEfu_TATm
++ _$s20CommunicationDetails19SegmentedTabControlC11observeTabs33_14FE08E8F5222DE52E4C6E817780A66FLLyyFyyYbcyXEfu_yyYbcfU0_TA
++ _$s20CommunicationDetails19SegmentedTabControlC11observeTabs33_14FE08E8F5222DE52E4C6E817780A66FLLyyFyyYbcyXEfu_yyYbcfU0_yyYaYbScMYccfU_
++ _$s20CommunicationDetails19SegmentedTabControlC11observeTabs33_14FE08E8F5222DE52E4C6E817780A66FLLyyFyyYbcyXEfu_yyYbcfU0_yyYaYbScMYccfU_TA
++ _$s20CommunicationDetails19SegmentedTabControlC11observeTabs33_14FE08E8F5222DE52E4C6E817780A66FLLyyFyyYbcyXEfu_yyYbcfU0_yyYaYbScMYccfU_TATQ0_
++ _$s20CommunicationDetails19SegmentedTabControlC11observeTabs33_14FE08E8F5222DE52E4C6E817780A66FLLyyFyyYbcyXEfu_yyYbcfU0_yyYaYbScMYccfU_TATu
++ _$s20CommunicationDetails19SegmentedTabControlC11observeTabs33_14FE08E8F5222DE52E4C6E817780A66FLLyyFyyYbcyXEfu_yyYbcfU0_yyYaYbScMYccfU_TY0_
++ _$s20CommunicationDetails19SegmentedTabControlC11observeTabs33_14FE08E8F5222DE52E4C6E817780A66FLLyyFyyYbcyXEfu_yyYbcfU0_yyYaYbScMYccfU_Tu
++ _$s20CommunicationDetails19SegmentedTabControlC14updateSegments33_14FE08E8F5222DE52E4C6E817780A66FLLyyF
++ _objc_msgSend$removeAllSegments
++ _objectdestroy.46Tm
+- _$s20CommunicationDetails19SegmentedTabControlC16observeViewModel33_14FE08E8F5222DE52E4C6E817780A66FLLyyFyyXEfU_
+- _$s20CommunicationDetails19SegmentedTabControlC16observeViewModel33_14FE08E8F5222DE52E4C6E817780A66FLLyyFyyXEfU_TA
+- _$s20CommunicationDetails19SegmentedTabControlC16observeViewModel33_14FE08E8F5222DE52E4C6E817780A66FLLyyFyyXEfU_TA.57
+- _$s20CommunicationDetails19SegmentedTabControlC16observeViewModel33_14FE08E8F5222DE52E4C6E817780A66FLLyyFyyYbcyXEfu_TA
+- _$s20CommunicationDetails19SegmentedTabControlC16observeViewModel33_14FE08E8F5222DE52E4C6E817780A66FLLyyFyyYbcyXEfu_TA.58
+- _$s20CommunicationDetails19SegmentedTabControlC16observeViewModel33_14FE08E8F5222DE52E4C6E817780A66FLLyyFyyYbcyXEfu_TATm
+- _$s20CommunicationDetails19SegmentedTabControlC16observeViewModel33_14FE08E8F5222DE52E4C6E817780A66FLLyyFyyYbcyXEfu_yyYbcfU0_
+- _$s20CommunicationDetails19SegmentedTabControlC16observeViewModel33_14FE08E8F5222DE52E4C6E817780A66FLLyyFyyYbcyXEfu_yyYbcfU0_TA
+- _$s20CommunicationDetails19SegmentedTabControlC16observeViewModel33_14FE08E8F5222DE52E4C6E817780A66FLLyyFyyYbcyXEfu_yyYbcfU0_yyYaYbScMYccfU_
+- _$s20CommunicationDetails19SegmentedTabControlC16observeViewModel33_14FE08E8F5222DE52E4C6E817780A66FLLyyFyyYbcyXEfu_yyYbcfU0_yyYaYbScMYccfU_TA
+- _$s20CommunicationDetails19SegmentedTabControlC16observeViewModel33_14FE08E8F5222DE52E4C6E817780A66FLLyyFyyYbcyXEfu_yyYbcfU0_yyYaYbScMYccfU_TATQ0_
+- _$s20CommunicationDetails19SegmentedTabControlC16observeViewModel33_14FE08E8F5222DE52E4C6E817780A66FLLyyFyyYbcyXEfu_yyYbcfU0_yyYaYbScMYccfU_TATu
+- _$s20CommunicationDetails19SegmentedTabControlC16observeViewModel33_14FE08E8F5222DE52E4C6E817780A66FLLyyFyyYbcyXEfu_yyYbcfU0_yyYaYbScMYccfU_TY0_
+- _$s20CommunicationDetails19SegmentedTabControlC16observeViewModel33_14FE08E8F5222DE52E4C6E817780A66FLLyyFyyYbcyXEfu_yyYbcfU0_yyYaYbScMYccfU_Tu
+CStrings:
++ "removeAllSegments"
+
+```

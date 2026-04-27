@@ -1,0 +1,655 @@
+## PhotosUIPrivate
+
+> `/System/Library/PrivateFrameworks/PhotosUIPrivate.framework/PhotosUIPrivate`
+
+```diff
+
+-850.0.120.0.0
+-  __TEXT.__text: 0x5cd3e0
++852.0.102.0.0
++  __TEXT.__text: 0x5cd49c
+   __TEXT.__auth_stubs: 0xa020
+   __TEXT.__objc_methlist: 0x55754
+   __TEXT.__const: 0x17248
+
+   __TEXT.__swift5_proto: 0xb44
+   __TEXT.__swift5_types: 0x674
+   __TEXT.__oslogstring: 0x16b0e
+-  __TEXT.__cstring: 0x3723e
++  __TEXT.__cstring: 0x37267
+   __TEXT.__swift_as_entry: 0x244
+   __TEXT.__swift_as_ret: 0x258
+   __TEXT.__swift5_protos: 0x4c
+
+   __TEXT.__unwind_info: 0x19af8
+   __TEXT.__eh_frame: 0x6184
+   __TEXT.__objc_classname: 0xd0be
+-  __TEXT.__objc_methname: 0xfdf64
++  __TEXT.__objc_methname: 0xfdfa4
+   __TEXT.__objc_methtype: 0x2328c
+-  __TEXT.__objc_stubs: 0x99180
++  __TEXT.__objc_stubs: 0x991c0
+   __DATA_CONST.__got: 0x56f8
+   __DATA_CONST.__const: 0xd990
+   __DATA_CONST.__objc_classlist: 0x1f88
+
+   __DATA_CONST.__objc_catlist2: 0x10
+   __DATA_CONST.__objc_protolist: 0x13e8
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x2d1b0
++  __DATA_CONST.__objc_selrefs: 0x2d1b8
+   __DATA_CONST.__objc_protorefs: 0x480
+   __DATA_CONST.__objc_superrefs: 0x1310
+   __DATA_CONST.__vfx_script_tbl: 0x10
+   __DATA_CONST.__objc_arraydata: 0x1520
+   __AUTH_CONST.__auth_got: 0x5020
+   __AUTH_CONST.__const: 0x13970
+-  __AUTH_CONST.__cfstring: 0x293e0
+-  __AUTH_CONST.__objc_const: 0x8e278
++  __AUTH_CONST.__cfstring: 0x29400
++  __AUTH_CONST.__objc_const: 0x8e298
+   __AUTH_CONST.__objc_arrayobj: 0xd98
+   __AUTH_CONST.__objc_intobj: 0x1608
+   __AUTH_CONST.__objc_dictobj: 0x370
+
+   __AUTH_CONST.__objc_floatobj: 0x20
+   __AUTH.__objc_data: 0x190c8
+   __AUTH.__data: 0x3ed0
+-  __DATA.__objc_ivar: 0x64d8
++  __DATA.__objc_ivar: 0x64dc
+   __DATA.__data: 0x13628
+   __DATA.__objc_stublist: 0x20
+   __DATA.__bss: 0x17118
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: E6F06EE1-62B4-3B65-98D8-538F5974123D
++  UUID: D3BEDB88-C98C-3B5F-9515-70783CBF1664
+   Functions: 41231
+-  Symbols:   105789
+-  CStrings:  52573
++  Symbols:   105792
++  CStrings:  52577
+ 
+Symbols:
++ _AdditionalViewTitleHeightAnimatorObservationContext.49209
++ _BackgroundViewObservationContext.43962
++ _ManagedConfigurationLibrary.94698
++ _ManagedConfigurationLibraryCore.frameworkLibrary.94708
++ _MergedVideoProviderContext.32379
++ _OBJC_IVAR_$_PUCommentsTableDataController._isInMigratedSharedAlbum
++ _PUImportSelectionManagerObserverContext.34988
++ _PUPickerConfigurationObservationContext.61653
++ _PUPickerConfigurationObservationContext.89124
++ _PXImportAssetsDataSourceManagerObserverContext.32691
++ _PXImportAssetsDataSourceManagerObserverContext.34987
++ _PXImportControllerObserverContext.32690
++ _PXImportControllerObserverContext.34986
++ _PhotosUICoreSelectionManagerObservationContext.45251
++ _PhotosUITesterLibrary.83934
++ _PhotosUITesterLibraryCore.frameworkLibrary.32935
++ _PhotosUITesterLibraryCore.frameworkLibrary.83940
++ _PlayerItemObservationContext.43963
++ _VideoMuteControllerContext.43173
++ ___Block_byref_object_copy_.18703
++ ___Block_byref_object_copy_.20562
++ ___Block_byref_object_copy_.21634
++ ___Block_byref_object_copy_.22092
++ ___Block_byref_object_copy_.22548
++ ___Block_byref_object_copy_.25196
++ ___Block_byref_object_copy_.25468
++ ___Block_byref_object_copy_.28509
++ ___Block_byref_object_copy_.30164
++ ___Block_byref_object_copy_.33222
++ ___Block_byref_object_copy_.33845
++ ___Block_byref_object_copy_.34924
++ ___Block_byref_object_copy_.36083
++ ___Block_byref_object_copy_.37318
++ ___Block_byref_object_copy_.37385
++ ___Block_byref_object_copy_.38498
++ ___Block_byref_object_copy_.39119
++ ___Block_byref_object_copy_.43396
++ ___Block_byref_object_copy_.44028
++ ___Block_byref_object_copy_.44912
++ ___Block_byref_object_copy_.46669
++ ___Block_byref_object_copy_.47579
++ ___Block_byref_object_copy_.51597
++ ___Block_byref_object_copy_.52434
++ ___Block_byref_object_copy_.60144
++ ___Block_byref_object_copy_.61001
++ ___Block_byref_object_copy_.62026
++ ___Block_byref_object_copy_.64164
++ ___Block_byref_object_copy_.64898
++ ___Block_byref_object_copy_.66401
++ ___Block_byref_object_copy_.75546
++ ___Block_byref_object_copy_.84201
++ ___Block_byref_object_copy_.86938
++ ___Block_byref_object_copy_.87432
++ ___Block_byref_object_copy_.87835
++ ___Block_byref_object_copy_.91207
++ ___Block_byref_object_copy_.92859
++ ___Block_byref_object_copy_.94576
++ ___Block_byref_object_copy_.97085
++ ___Block_byref_object_copy_.98261
++ ___Block_byref_object_dispose_.18704
++ ___Block_byref_object_dispose_.20563
++ ___Block_byref_object_dispose_.21635
++ ___Block_byref_object_dispose_.22093
++ ___Block_byref_object_dispose_.22549
++ ___Block_byref_object_dispose_.25197
++ ___Block_byref_object_dispose_.25469
++ ___Block_byref_object_dispose_.28510
++ ___Block_byref_object_dispose_.30165
++ ___Block_byref_object_dispose_.33223
++ ___Block_byref_object_dispose_.33846
++ ___Block_byref_object_dispose_.34925
++ ___Block_byref_object_dispose_.36084
++ ___Block_byref_object_dispose_.37319
++ ___Block_byref_object_dispose_.37386
++ ___Block_byref_object_dispose_.38499
++ ___Block_byref_object_dispose_.39120
++ ___Block_byref_object_dispose_.43397
++ ___Block_byref_object_dispose_.44029
++ ___Block_byref_object_dispose_.44913
++ ___Block_byref_object_dispose_.46670
++ ___Block_byref_object_dispose_.47580
++ ___Block_byref_object_dispose_.51598
++ ___Block_byref_object_dispose_.52435
++ ___Block_byref_object_dispose_.60145
++ ___Block_byref_object_dispose_.61002
++ ___Block_byref_object_dispose_.62027
++ ___Block_byref_object_dispose_.64165
++ ___Block_byref_object_dispose_.64899
++ ___Block_byref_object_dispose_.66402
++ ___Block_byref_object_dispose_.75547
++ ___Block_byref_object_dispose_.84202
++ ___Block_byref_object_dispose_.86939
++ ___Block_byref_object_dispose_.87433
++ ___Block_byref_object_dispose_.87836
++ ___Block_byref_object_dispose_.91208
++ ___Block_byref_object_dispose_.92860
++ ___Block_byref_object_dispose_.94577
++ ___Block_byref_object_dispose_.97086
++ ___Block_byref_object_dispose_.98262
++ ___ManagedConfigurationLibraryCore_block_invoke.94709
++ ___NUAssertLogger_block_invoke.95420
++ ___PhotosUITesterLibraryCore_block_invoke.32936
++ ___PhotosUITesterLibraryCore_block_invoke.83941
++ ___block_literal_global.13.98266
++ ___block_literal_global.17.98264
++ ___block_literal_global.19265
++ ___block_literal_global.19685
++ ___block_literal_global.20494
++ ___block_literal_global.21642
++ ___block_literal_global.219.27022
++ ___block_literal_global.219.33851
++ ___block_literal_global.223.89147
++ ___block_literal_global.223.95432
++ ___block_literal_global.22482
++ ___block_literal_global.23317
++ ___block_literal_global.238.21577
++ ___block_literal_global.238.38088
++ ___block_literal_global.24251
++ ___block_literal_global.24518
++ ___block_literal_global.24913
++ ___block_literal_global.25148
++ ___block_literal_global.25262
++ ___block_literal_global.25980
++ ___block_literal_global.261.44144
++ ___block_literal_global.27032
++ ___block_literal_global.27141
++ ___block_literal_global.275.44132
++ ___block_literal_global.28114
++ ___block_literal_global.28277
++ ___block_literal_global.29517
++ ___block_literal_global.30332
++ ___block_literal_global.30715
++ ___block_literal_global.30814
++ ___block_literal_global.311.38000
++ ___block_literal_global.31578
++ ___block_literal_global.32.95110
++ ___block_literal_global.32128
++ ___block_literal_global.32404
++ ___block_literal_global.32530
++ ___block_literal_global.33233
++ ___block_literal_global.33857
++ ___block_literal_global.34319
++ ___block_literal_global.34911
++ ___block_literal_global.357.33213
++ ___block_literal_global.36432
++ ___block_literal_global.37092
++ ___block_literal_global.37268
++ ___block_literal_global.38098
++ ___block_literal_global.38501
++ ___block_literal_global.39620
++ ___block_literal_global.39848
++ ___block_literal_global.40082
++ ___block_literal_global.40734
++ ___block_literal_global.41196
++ ___block_literal_global.41692
++ ___block_literal_global.42774
++ ___block_literal_global.43215
++ ___block_literal_global.436.45883
++ ___block_literal_global.44158
++ ___block_literal_global.45279
++ ___block_literal_global.46308
++ ___block_literal_global.46827
++ ___block_literal_global.47500
++ ___block_literal_global.48613
++ ___block_literal_global.49267
++ ___block_literal_global.49796
++ ___block_literal_global.50.53922
++ ___block_literal_global.50132
++ ___block_literal_global.50842
++ ___block_literal_global.50973
++ ___block_literal_global.51674
++ ___block_literal_global.52378
++ ___block_literal_global.53409
++ ___block_literal_global.53930
++ ___block_literal_global.53978
++ ___block_literal_global.54358
++ ___block_literal_global.56320
++ ___block_literal_global.59096
++ ___block_literal_global.603.36930
++ ___block_literal_global.60429
++ ___block_literal_global.60833
++ ___block_literal_global.61091
++ ___block_literal_global.61679
++ ___block_literal_global.62073
++ ___block_literal_global.62352
++ ___block_literal_global.62816
++ ___block_literal_global.64236
++ ___block_literal_global.65262
++ ___block_literal_global.68224
++ ___block_literal_global.77.41136
++ ___block_literal_global.83.34287
++ ___block_literal_global.83.48614
++ ___block_literal_global.84119
++ ___block_literal_global.84563
++ ___block_literal_global.84658
++ ___block_literal_global.84836
++ ___block_literal_global.85242
++ ___block_literal_global.86895
++ ___block_literal_global.87511
++ ___block_literal_global.87837
++ ___block_literal_global.88838
++ ___block_literal_global.89169
++ ___block_literal_global.89510
++ ___block_literal_global.89821
++ ___block_literal_global.9.62807
++ ___block_literal_global.90841
++ ___block_literal_global.92603
++ ___block_literal_global.93064
++ ___block_literal_global.93514
++ ___block_literal_global.94143
++ ___block_literal_global.94639
++ ___block_literal_global.94716
++ ___block_literal_global.95010
++ ___block_literal_global.95149
++ ___block_literal_global.95431
++ ___block_literal_global.95516
++ ___block_literal_global.95872
++ ___block_literal_global.96377
++ ___block_literal_global.97076
++ ___block_literal_global.97333
++ ___block_literal_global.97349
++ ___block_literal_global.97763
++ ___block_literal_global.97812
++ ___block_literal_global.98113
++ ___block_literal_global.98268
++ ___block_literal_global.98295
++ ___block_literal_global.98372
++ ___block_literal_global.98862
++ ___block_literal_global.98960
++ ___getMCProfileConnectionClass_block_invoke.94697
++ ___getPUTesterCurationViewControllerFactoryClass_block_invoke.83933
++ _audit_stringManagedConfiguration.94715
++ _audit_stringPhotosUITester.32948
++ _audit_stringPhotosUITester.83947
++ _commonInit.39239
++ _commonInit.39363
++ _commonInit.53562
++ _defaultConverter.defaultConverter.42775
++ _defaultConverter.onceToken.42773
++ _defaultManager.defaultManager.95517
++ _defaultManager.onceToken.95515
++ _getMCProfileConnectionClass.softClass.94696
++ _getPUTesterCurationViewControllerFactoryClass.83931
++ _getPUTesterCurationViewControllerFactoryClass.softClass.83932
++ _initWithFrame:.onceToken.30714
++ _initialize.onceToken.61678
++ _objc_msgSend$assetIsInMigratedSharedAlbum:
++ _objc_msgSend$px_isRenamable
++ _sharedInstance.onceToken.24517
++ _sharedInstance.onceToken.32749
++ _sharedInstance.onceToken.37267
++ _sharedInstance.onceToken.41195
++ _sharedInstance.onceToken.46307
++ _sharedInstance.onceToken.52377
++ _sharedInstance.onceToken.56319
++ _sharedInstance.onceToken.62815
++ _sharedInstance.onceToken.65261
++ _sharedInstance.onceToken.84118
++ _sharedInstance.onceToken.84562
++ _sharedInstance.onceToken.84835
++ _sharedInstance.onceToken.85241
++ _sharedInstance.onceToken.88837
++ _sharedInstance.onceToken.89509
++ _sharedInstance.onceToken.94638
++ _sharedInstance.onceToken.95148
++ _sharedInstance.onceToken.95871
++ _sharedInstance.sharedInstance.24519
++ _sharedInstance.sharedInstance.37269
++ _sharedInstance.sharedInstance.41197
++ _sharedInstance.sharedInstance.46309
++ _sharedInstance.sharedInstance.52379
++ _sharedInstance.sharedInstance.56321
++ _sharedInstance.sharedInstance.65263
++ _sharedInstance.sharedInstance.84120
++ _sharedInstance.sharedInstance.84564
++ _sharedInstance.sharedInstance.84837
++ _sharedInstance.sharedInstance.85243
++ _sharedInstance.sharedInstance.88839
++ _sharedInstance.sharedInstance.89511
++ _sharedInstance.sharedInstance.91008
++ _sharedInstance.sharedInstance.94640
++ _sharedInstance.sharedInstance.95150
++ _sharedInstance.sharedInstance.95873
++ _srlCompensationLoadingQueue.onceToken.36431
++ _srlCompensationLoadingQueue.queue.36433
+- _AdditionalViewTitleHeightAnimatorObservationContext.49200
+- _BackgroundViewObservationContext.43957
+- _ManagedConfigurationLibrary.94691
+- _ManagedConfigurationLibraryCore.frameworkLibrary.94701
+- _MergedVideoProviderContext.32378
+- _PUImportSelectionManagerObserverContext.34987
+- _PUPickerConfigurationObservationContext.61655
+- _PUPickerConfigurationObservationContext.89117
+- _PXImportAssetsDataSourceManagerObserverContext.32690
+- _PXImportAssetsDataSourceManagerObserverContext.34986
+- _PXImportControllerObserverContext.32689
+- _PXImportControllerObserverContext.34985
+- _PhotosUICoreSelectionManagerObservationContext.45246
+- _PhotosUITesterLibrary.83927
+- _PhotosUITesterLibraryCore.frameworkLibrary.32934
+- _PhotosUITesterLibraryCore.frameworkLibrary.83933
+- _PlayerItemObservationContext.43958
+- _VideoMuteControllerContext.43177
+- ___Block_byref_object_copy_.18702
+- ___Block_byref_object_copy_.20561
+- ___Block_byref_object_copy_.21633
+- ___Block_byref_object_copy_.22091
+- ___Block_byref_object_copy_.22547
+- ___Block_byref_object_copy_.25195
+- ___Block_byref_object_copy_.25467
+- ___Block_byref_object_copy_.28508
+- ___Block_byref_object_copy_.30163
+- ___Block_byref_object_copy_.33221
+- ___Block_byref_object_copy_.33844
+- ___Block_byref_object_copy_.34923
+- ___Block_byref_object_copy_.36082
+- ___Block_byref_object_copy_.37317
+- ___Block_byref_object_copy_.37384
+- ___Block_byref_object_copy_.38497
+- ___Block_byref_object_copy_.39118
+- ___Block_byref_object_copy_.43385
+- ___Block_byref_object_copy_.44023
+- ___Block_byref_object_copy_.44907
+- ___Block_byref_object_copy_.46658
+- ___Block_byref_object_copy_.47567
+- ___Block_byref_object_copy_.51591
+- ___Block_byref_object_copy_.52429
+- ___Block_byref_object_copy_.60146
+- ___Block_byref_object_copy_.61003
+- ___Block_byref_object_copy_.62028
+- ___Block_byref_object_copy_.64166
+- ___Block_byref_object_copy_.64900
+- ___Block_byref_object_copy_.66402
+- ___Block_byref_object_copy_.75547
+- ___Block_byref_object_copy_.84194
+- ___Block_byref_object_copy_.86931
+- ___Block_byref_object_copy_.87425
+- ___Block_byref_object_copy_.87828
+- ___Block_byref_object_copy_.91200
+- ___Block_byref_object_copy_.92852
+- ___Block_byref_object_copy_.94569
+- ___Block_byref_object_copy_.97078
+- ___Block_byref_object_copy_.98254
+- ___Block_byref_object_dispose_.18703
+- ___Block_byref_object_dispose_.20562
+- ___Block_byref_object_dispose_.21634
+- ___Block_byref_object_dispose_.22092
+- ___Block_byref_object_dispose_.22548
+- ___Block_byref_object_dispose_.25196
+- ___Block_byref_object_dispose_.25468
+- ___Block_byref_object_dispose_.28509
+- ___Block_byref_object_dispose_.30164
+- ___Block_byref_object_dispose_.33222
+- ___Block_byref_object_dispose_.33845
+- ___Block_byref_object_dispose_.34924
+- ___Block_byref_object_dispose_.36083
+- ___Block_byref_object_dispose_.37318
+- ___Block_byref_object_dispose_.37385
+- ___Block_byref_object_dispose_.38498
+- ___Block_byref_object_dispose_.39119
+- ___Block_byref_object_dispose_.43386
+- ___Block_byref_object_dispose_.44024
+- ___Block_byref_object_dispose_.44908
+- ___Block_byref_object_dispose_.46659
+- ___Block_byref_object_dispose_.47568
+- ___Block_byref_object_dispose_.51592
+- ___Block_byref_object_dispose_.52430
+- ___Block_byref_object_dispose_.60147
+- ___Block_byref_object_dispose_.61004
+- ___Block_byref_object_dispose_.62029
+- ___Block_byref_object_dispose_.64167
+- ___Block_byref_object_dispose_.64901
+- ___Block_byref_object_dispose_.66403
+- ___Block_byref_object_dispose_.75548
+- ___Block_byref_object_dispose_.84195
+- ___Block_byref_object_dispose_.86932
+- ___Block_byref_object_dispose_.87426
+- ___Block_byref_object_dispose_.87829
+- ___Block_byref_object_dispose_.91201
+- ___Block_byref_object_dispose_.92853
+- ___Block_byref_object_dispose_.94570
+- ___Block_byref_object_dispose_.97079
+- ___Block_byref_object_dispose_.98255
+- ___ManagedConfigurationLibraryCore_block_invoke.94702
+- ___NUAssertLogger_block_invoke.95413
+- ___PhotosUITesterLibraryCore_block_invoke.32935
+- ___PhotosUITesterLibraryCore_block_invoke.83934
+- ___block_literal_global.13.98259
+- ___block_literal_global.17.98257
+- ___block_literal_global.19264
+- ___block_literal_global.19684
+- ___block_literal_global.20493
+- ___block_literal_global.21641
+- ___block_literal_global.219.27021
+- ___block_literal_global.219.33850
+- ___block_literal_global.223.89140
+- ___block_literal_global.223.95425
+- ___block_literal_global.22481
+- ___block_literal_global.23316
+- ___block_literal_global.238.21576
+- ___block_literal_global.238.38087
+- ___block_literal_global.24250
+- ___block_literal_global.24517
+- ___block_literal_global.24912
+- ___block_literal_global.25147
+- ___block_literal_global.25261
+- ___block_literal_global.25979
+- ___block_literal_global.261.44139
+- ___block_literal_global.27031
+- ___block_literal_global.27140
+- ___block_literal_global.275.44127
+- ___block_literal_global.28113
+- ___block_literal_global.28276
+- ___block_literal_global.29516
+- ___block_literal_global.30331
+- ___block_literal_global.30714
+- ___block_literal_global.30813
+- ___block_literal_global.311.37999
+- ___block_literal_global.31577
+- ___block_literal_global.32.95103
+- ___block_literal_global.32127
+- ___block_literal_global.32403
+- ___block_literal_global.32529
+- ___block_literal_global.33232
+- ___block_literal_global.33856
+- ___block_literal_global.34318
+- ___block_literal_global.34910
+- ___block_literal_global.357.33212
+- ___block_literal_global.36431
+- ___block_literal_global.37091
+- ___block_literal_global.37267
+- ___block_literal_global.38097
+- ___block_literal_global.38500
+- ___block_literal_global.39619
+- ___block_literal_global.39847
+- ___block_literal_global.40081
+- ___block_literal_global.40733
+- ___block_literal_global.41195
+- ___block_literal_global.41691
+- ___block_literal_global.42773
+- ___block_literal_global.43213
+- ___block_literal_global.436.45876
+- ___block_literal_global.44153
+- ___block_literal_global.45274
+- ___block_literal_global.46297
+- ___block_literal_global.46816
+- ___block_literal_global.47484
+- ___block_literal_global.48604
+- ___block_literal_global.49258
+- ___block_literal_global.49787
+- ___block_literal_global.50.53917
+- ___block_literal_global.50123
+- ___block_literal_global.50837
+- ___block_literal_global.50968
+- ___block_literal_global.51668
+- ___block_literal_global.52373
+- ___block_literal_global.53404
+- ___block_literal_global.53925
+- ___block_literal_global.53973
+- ___block_literal_global.54353
+- ___block_literal_global.56319
+- ___block_literal_global.59097
+- ___block_literal_global.603.36929
+- ___block_literal_global.60431
+- ___block_literal_global.60835
+- ___block_literal_global.61093
+- ___block_literal_global.61681
+- ___block_literal_global.62075
+- ___block_literal_global.62354
+- ___block_literal_global.62818
+- ___block_literal_global.64238
+- ___block_literal_global.65264
+- ___block_literal_global.68225
+- ___block_literal_global.77.41135
+- ___block_literal_global.83.34286
+- ___block_literal_global.83.48605
+- ___block_literal_global.84112
+- ___block_literal_global.84556
+- ___block_literal_global.84651
+- ___block_literal_global.84829
+- ___block_literal_global.85235
+- ___block_literal_global.86888
+- ___block_literal_global.87504
+- ___block_literal_global.87830
+- ___block_literal_global.88831
+- ___block_literal_global.89162
+- ___block_literal_global.89503
+- ___block_literal_global.89814
+- ___block_literal_global.9.62809
+- ___block_literal_global.90834
+- ___block_literal_global.92596
+- ___block_literal_global.93057
+- ___block_literal_global.93507
+- ___block_literal_global.94136
+- ___block_literal_global.94632
+- ___block_literal_global.94709
+- ___block_literal_global.95003
+- ___block_literal_global.95142
+- ___block_literal_global.95424
+- ___block_literal_global.95509
+- ___block_literal_global.95865
+- ___block_literal_global.96370
+- ___block_literal_global.97069
+- ___block_literal_global.97326
+- ___block_literal_global.97342
+- ___block_literal_global.97756
+- ___block_literal_global.97805
+- ___block_literal_global.98106
+- ___block_literal_global.98261
+- ___block_literal_global.98288
+- ___block_literal_global.98365
+- ___block_literal_global.98855
+- ___block_literal_global.98953
+- ___getMCProfileConnectionClass_block_invoke.94690
+- ___getPUTesterCurationViewControllerFactoryClass_block_invoke.83926
+- _audit_stringManagedConfiguration.94708
+- _audit_stringPhotosUITester.32947
+- _audit_stringPhotosUITester.83940
+- _commonInit.39238
+- _commonInit.39362
+- _commonInit.53557
+- _defaultConverter.defaultConverter.42774
+- _defaultConverter.onceToken.42772
+- _defaultManager.defaultManager.95510
+- _defaultManager.onceToken.95508
+- _getMCProfileConnectionClass.softClass.94689
+- _getPUTesterCurationViewControllerFactoryClass.83924
+- _getPUTesterCurationViewControllerFactoryClass.softClass.83925
+- _initWithFrame:.onceToken.30713
+- _initialize.onceToken.61680
+- _sharedInstance.onceToken.24516
+- _sharedInstance.onceToken.32748
+- _sharedInstance.onceToken.37266
+- _sharedInstance.onceToken.41194
+- _sharedInstance.onceToken.46296
+- _sharedInstance.onceToken.52372
+- _sharedInstance.onceToken.56318
+- _sharedInstance.onceToken.62817
+- _sharedInstance.onceToken.65263
+- _sharedInstance.onceToken.84111
+- _sharedInstance.onceToken.84555
+- _sharedInstance.onceToken.84828
+- _sharedInstance.onceToken.85234
+- _sharedInstance.onceToken.88830
+- _sharedInstance.onceToken.89502
+- _sharedInstance.onceToken.94631
+- _sharedInstance.onceToken.95141
+- _sharedInstance.onceToken.95864
+- _sharedInstance.sharedInstance.24518
+- _sharedInstance.sharedInstance.37268
+- _sharedInstance.sharedInstance.41196
+- _sharedInstance.sharedInstance.46298
+- _sharedInstance.sharedInstance.52374
+- _sharedInstance.sharedInstance.56320
+- _sharedInstance.sharedInstance.65265
+- _sharedInstance.sharedInstance.84113
+- _sharedInstance.sharedInstance.84557
+- _sharedInstance.sharedInstance.84830
+- _sharedInstance.sharedInstance.85236
+- _sharedInstance.sharedInstance.88832
+- _sharedInstance.sharedInstance.89504
+- _sharedInstance.sharedInstance.91001
+- _sharedInstance.sharedInstance.94633
+- _sharedInstance.sharedInstance.95143
+- _sharedInstance.sharedInstance.95866
+- _srlCompensationLoadingQueue.onceToken.36430
+- _srlCompensationLoadingQueue.queue.36432
+Functions:
+~ -[PUCommentsTableDataController tableView:numberOfRowsInSection:] : 144 -> 160
+~ -[PUCommentsTableDataController setAsset:] : 196 -> 216
+~ -[PUSidebarViewController outlineCell:updatedTitle:forItem:] : 632 -> 628
+~ ___61-[PUOneUpBarsController requestInfoOfKind:withResultHandler:]_block_invoke : 1104 -> 1168
+~ -[PUOneUpBarsController _updateCommentsButtonIfNeeded] : 976 -> 1012
+~ -[PUOneUpBarsController updateBars] : 6440 -> 6496
+CStrings:
++ "PUCommentsInfoIsInMigratedSharedAlbumKey"
++ "_isInMigratedSharedAlbum"
++ "assetIsInMigratedSharedAlbum:"
+
+```

@@ -1,0 +1,251 @@
+## AccessoryNotifications
+
+> `/System/Library/Frameworks/AccessoryNotifications.framework/AccessoryNotifications`
+
+```diff
+
+-640.5.31.0.0
+-  __TEXT.__text: 0x60820
+-  __TEXT.__auth_stubs: 0x1490
++640.5.32.103.0
++  __TEXT.__text: 0x625d8
++  __TEXT.__auth_stubs: 0x1480
+   __TEXT.__objc_methlist: 0x1b4
+-  __TEXT.__const: 0x9650
+-  __TEXT.__swift5_typeref: 0x2256
+-  __TEXT.__cstring: 0x133d
+-  __TEXT.__constg_swiftt: 0x184c
+-  __TEXT.__swift5_reflstr: 0xcd9
+-  __TEXT.__swift5_fieldmd: 0x1960
+-  __TEXT.__swift5_proto: 0x884
+-  __TEXT.__swift5_types: 0x244
+-  __TEXT.__swift5_capture: 0x378
+-  __TEXT.__oslogstring: 0xafa
++  __TEXT.__const: 0x9640
++  __TEXT.__swift5_typeref: 0x2280
++  __TEXT.__cstring: 0x13ad
++  __TEXT.__constg_swiftt: 0x1890
++  __TEXT.__swift5_reflstr: 0xcb9
++  __TEXT.__swift5_fieldmd: 0x1964
++  __TEXT.__swift5_proto: 0x898
++  __TEXT.__swift5_types: 0x248
++  __TEXT.__swift5_capture: 0x3b8
++  __TEXT.__oslogstring: 0xefa
+   __TEXT.__swift5_assocty: 0x198
+   __TEXT.__swift5_builtin: 0x64
+   __TEXT.__swift_as_entry: 0xfc
+   __TEXT.__swift_as_ret: 0xd4
+   __TEXT.__swift5_mpenum: 0x34
+   __TEXT.__swift5_protos: 0x14
+-  __TEXT.__unwind_info: 0x1d50
+-  __TEXT.__eh_frame: 0x28e8
++  __TEXT.__unwind_info: 0x1da8
++  __TEXT.__eh_frame: 0x2af8
+   __TEXT.__objc_classname: 0x456
+-  __TEXT.__objc_methname: 0x7a2
++  __TEXT.__objc_methname: 0x7e7
+   __TEXT.__objc_methtype: 0x326
+   __TEXT.__objc_stubs: 0x640
+   __DATA_CONST.__got: 0x340
+-  __DATA_CONST.__const: 0xf8
++  __DATA_CONST.__const: 0x128
+   __DATA_CONST.__objc_classlist: 0x60
+   __DATA_CONST.__objc_protolist: 0x30
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_selrefs: 0x1c8
+   __DATA_CONST.__objc_protorefs: 0x20
+-  __AUTH_CONST.__auth_got: 0xa50
+-  __AUTH_CONST.__const: 0x45a8
+-  __AUTH_CONST.__objc_const: 0xb00
+-  __AUTH.__objc_data: 0x410
++  __AUTH_CONST.__auth_got: 0xa48
++  __AUTH_CONST.__const: 0x46d8
++  __AUTH_CONST.__objc_const: 0xb40
++  __AUTH.__objc_data: 0x450
+   __AUTH.__data: 0xcf8
+-  __DATA.__data: 0x1ad0
+-  __DATA.__bss: 0x10f80
++  __DATA.__data: 0x1b00
++  __DATA.__bss: 0x11200
+   __DATA.__common: 0x28
+   - /System/Library/Frameworks/AccessorySetupKit.framework/AccessorySetupKit
+   - /System/Library/Frameworks/AccessoryTransportExtension.framework/AccessoryTransportExtension
+
+   - /usr/lib/swift/libswift_DarwinFoundation1.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: D89765CD-7225-38B7-956F-B6B8C8526323
+-  Functions: 2529
+-  Symbols:   1301
+-  CStrings:  323
++  UUID: 2835D363-1E4B-30D5-80DC-88889D3A7912
++  Functions: 2561
++  Symbols:   1303
++  CStrings:  340
+ 
+Symbols:
++ __PROTOCOLS__TtC22AccessoryNotifications33NotificationsForwardingConnection.81
++ __PROTOCOLS__TtCCC22AccessoryNotifications23NotificationsForwarding7SessionP33_EC090A179A116047E8CC4127E7CEE6FF14ExportedObject.108
++ _associated conformance 22AccessoryNotifications0A5ErrorO0aB21UnavailableCodingKeys33_B47805DAAF14330679D67C823D0FC574LLOs0E3KeyAAs23CustomStringConvertible
++ _associated conformance 22AccessoryNotifications0A5ErrorO0aB21UnavailableCodingKeys33_B47805DAAF14330679D67C823D0FC574LLOs0E3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22AccessoryNotifications0A5ErrorOSHAASQ
++ _associated conformance 22AccessoryNotifications15AlertingContextV4KindO10CodingKeys33_41EDA93517A7F0FFAB8015826FA806B2LLOSHAASQ
++ _associated conformance 22AccessoryNotifications15AlertingContextV4KindO10CodingKeys33_41EDA93517A7F0FFAB8015826FA806B2LLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 22AccessoryNotifications15AlertingContextV4KindO10CodingKeys33_41EDA93517A7F0FFAB8015826FA806B2LLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22AccessoryNotifications15AlertingContextV4KindO15AlarmCodingKeys33_41EDA93517A7F0FFAB8015826FA806B2LLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 22AccessoryNotifications15AlertingContextV4KindO15AlarmCodingKeys33_41EDA93517A7F0FFAB8015826FA806B2LLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22AccessoryNotifications15AlertingContextV4KindO15TimerCodingKeys33_41EDA93517A7F0FFAB8015826FA806B2LLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 22AccessoryNotifications15AlertingContextV4KindO15TimerCodingKeys33_41EDA93517A7F0FFAB8015826FA806B2LLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22AccessoryNotifications15AlertingContextV4KindO22IncomingCallCodingKeys33_41EDA93517A7F0FFAB8015826FA806B2LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 22AccessoryNotifications15AlertingContextV4KindO22IncomingCallCodingKeys33_41EDA93517A7F0FFAB8015826FA806B2LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22AccessoryNotifications15AlertingContextV4KindO22NotificationCodingKeys33_41EDA93517A7F0FFAB8015826FA806B2LLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 22AccessoryNotifications15AlertingContextV4KindO22NotificationCodingKeys33_41EDA93517A7F0FFAB8015826FA806B2LLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22AccessoryNotifications15AlertingContextV4KindOSHAASQ
++ _block_copy_helper.219
++ _block_copy_helper.222
++ _block_copy_helper.229
++ _block_copy_helper.235
++ _block_descriptor.221
++ _block_descriptor.224
++ _block_descriptor.231
++ _block_descriptor.237
++ _block_destroy_helper.220
++ _block_destroy_helper.223
++ _block_destroy_helper.230
++ _block_destroy_helper.236
++ _get_type_metadata 15Synchronization5MutexVySayScCySo15NSXPCConnectionCs5Error_pGGG noncopyable.117
++ _get_type_metadata 15Synchronization5MutexVySo15NSXPCConnectionCSgG noncopyable.103
++ _objectdestroy.159Tm
++ _symbolic _____ 22AccessoryNotifications0A5ErrorO0aB21UnavailableCodingKeys33_B47805DAAF14330679D67C823D0FC574LLO
++ _symbolic _____ 22AccessoryNotifications15AlertingContextV4KindO
++ _symbolic _____ 22AccessoryNotifications15AlertingContextV4KindO10CodingKeys33_41EDA93517A7F0FFAB8015826FA806B2LLO
++ _symbolic _____ 22AccessoryNotifications15AlertingContextV4KindO15AlarmCodingKeys33_41EDA93517A7F0FFAB8015826FA806B2LLO
++ _symbolic _____ 22AccessoryNotifications15AlertingContextV4KindO15TimerCodingKeys33_41EDA93517A7F0FFAB8015826FA806B2LLO
++ _symbolic _____ 22AccessoryNotifications15AlertingContextV4KindO22IncomingCallCodingKeys33_41EDA93517A7F0FFAB8015826FA806B2LLO
++ _symbolic _____ 22AccessoryNotifications15AlertingContextV4KindO22NotificationCodingKeys33_41EDA93517A7F0FFAB8015826FA806B2LLO
++ _symbolic _____Iegn_ 22AccessoryNotifications0A12NotificationV
++ _symbolic _____Iegn_ 22AccessoryNotifications0A12NotificationV10IdentifierV
++ _symbolic _____Sg_____c 22AccessoryNotifications0A12NotificationV AC10IdentifierV
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22AccessoryNotifications0D5ErrorO0dE21UnavailableCodingKeys33_B47805DAAF14330679D67C823D0FC574LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22AccessoryNotifications15AlertingContextV4KindO10CodingKeys33_41EDA93517A7F0FFAB8015826FA806B2LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22AccessoryNotifications15AlertingContextV4KindO15AlarmCodingKeys33_41EDA93517A7F0FFAB8015826FA806B2LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22AccessoryNotifications15AlertingContextV4KindO15TimerCodingKeys33_41EDA93517A7F0FFAB8015826FA806B2LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22AccessoryNotifications15AlertingContextV4KindO22IncomingCallCodingKeys33_41EDA93517A7F0FFAB8015826FA806B2LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22AccessoryNotifications15AlertingContextV4KindO22NotificationCodingKeys33_41EDA93517A7F0FFAB8015826FA806B2LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22AccessoryNotifications0D5ErrorO0dE21UnavailableCodingKeys33_B47805DAAF14330679D67C823D0FC574LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22AccessoryNotifications15AlertingContextV4KindO10CodingKeys33_41EDA93517A7F0FFAB8015826FA806B2LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22AccessoryNotifications15AlertingContextV4KindO15AlarmCodingKeys33_41EDA93517A7F0FFAB8015826FA806B2LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22AccessoryNotifications15AlertingContextV4KindO15TimerCodingKeys33_41EDA93517A7F0FFAB8015826FA806B2LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22AccessoryNotifications15AlertingContextV4KindO22IncomingCallCodingKeys33_41EDA93517A7F0FFAB8015826FA806B2LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22AccessoryNotifications15AlertingContextV4KindO22NotificationCodingKeys33_41EDA93517A7F0FFAB8015826FA806B2LLO
++ _symbolic _____ytIegnr_ 22AccessoryNotifications0A12NotificationV
++ _symbolic _____ytIegnr_ 22AccessoryNotifications0A12NotificationV10IdentifierV
++ _symbolic y_____c 22AccessoryNotifications0A12NotificationV
++ _symbolic y_____c 22AccessoryNotifications0A12NotificationV10IdentifierV
+- __PROTOCOLS__TtC22AccessoryNotifications33NotificationsForwardingConnection.75
+- __PROTOCOLS__TtCCC22AccessoryNotifications23NotificationsForwarding7SessionP33_EC090A179A116047E8CC4127E7CEE6FF14ExportedObject.105
+- _associated conformance 22AccessoryNotifications0A5ErrorO06CustomC10CodingKeys33_B47805DAAF14330679D67C823D0FC574LLOSHAASQ
+- _associated conformance 22AccessoryNotifications0A5ErrorO06CustomC10CodingKeys33_B47805DAAF14330679D67C823D0FC574LLOs0E3KeyAAs0D17StringConvertible
+- _associated conformance 22AccessoryNotifications0A5ErrorO06CustomC10CodingKeys33_B47805DAAF14330679D67C823D0FC574LLOs0E3KeyAAs0D22DebugStringConvertible
+- _associated conformance 22AccessoryNotifications0A5ErrorO0aB21UnsupportedCodingKeys33_B47805DAAF14330679D67C823D0FC574LLOs0E3KeyAAs23CustomStringConvertible
+- _associated conformance 22AccessoryNotifications0A5ErrorO0aB21UnsupportedCodingKeys33_B47805DAAF14330679D67C823D0FC574LLOs0E3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 22AccessoryNotifications0A5ErrorO23NilXPCSessionCodingKeys33_B47805DAAF14330679D67C823D0FC574LLOs0F3KeyAAs23CustomStringConvertible
+- _associated conformance 22AccessoryNotifications0A5ErrorO23NilXPCSessionCodingKeys33_B47805DAAF14330679D67C823D0FC574LLOs0F3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 22AccessoryNotifications0A5ErrorO24InvalidRequestCodingKeys33_B47805DAAF14330679D67C823D0FC574LLOs0F3KeyAAs23CustomStringConvertible
+- _associated conformance 22AccessoryNotifications0A5ErrorO24InvalidRequestCodingKeys33_B47805DAAF14330679D67C823D0FC574LLOs0F3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 22AccessoryNotifications0A5ErrorO33UnableToGetUserResponseCodingKeys33_B47805DAAF14330679D67C823D0FC574LLOs0I3KeyAAs23CustomStringConvertible
+- _associated conformance 22AccessoryNotifications0A5ErrorO33UnableToGetUserResponseCodingKeys33_B47805DAAF14330679D67C823D0FC574LLOs0I3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 22AccessoryNotifications0A5ErrorO33UnableToPresentSettingsCodingKeys33_B47805DAAF14330679D67C823D0FC574LLOs0H3KeyAAs23CustomStringConvertible
+- _associated conformance 22AccessoryNotifications0A5ErrorO33UnableToPresentSettingsCodingKeys33_B47805DAAF14330679D67C823D0FC574LLOs0H3KeyAAs28CustomDebugStringConvertible
+- _block_copy_helper.204
+- _block_copy_helper.207
+- _block_copy_helper.214
+- _block_copy_helper.220
+- _block_descriptor.206
+- _block_descriptor.209
+- _block_descriptor.216
+- _block_descriptor.222
+- _block_destroy_helper.205
+- _block_destroy_helper.208
+- _block_destroy_helper.215
+- _block_destroy_helper.221
+- _get_enum_tag_for_layout_string 22AccessoryNotifications0A5ErrorO
+- _get_type_metadata 15Synchronization5MutexVySayScCySo15NSXPCConnectionCs5Error_pGGG noncopyable.114
+- _get_type_metadata 15Synchronization5MutexVySo15NSXPCConnectionCSgG noncopyable.100
+- _objc_retain_x26
+- _objectdestroy.144Tm
+- _symbolic SDy__________G 22AccessoryNotifications0A12NotificationV10IdentifierV AC
+- _symbolic SS7message_t
+- _symbolic _____ 22AccessoryNotifications0A5ErrorO06CustomC10CodingKeys33_B47805DAAF14330679D67C823D0FC574LLO
+- _symbolic _____ 22AccessoryNotifications0A5ErrorO0aB21UnsupportedCodingKeys33_B47805DAAF14330679D67C823D0FC574LLO
+- _symbolic _____ 22AccessoryNotifications0A5ErrorO23NilXPCSessionCodingKeys33_B47805DAAF14330679D67C823D0FC574LLO
+- _symbolic _____ 22AccessoryNotifications0A5ErrorO24InvalidRequestCodingKeys33_B47805DAAF14330679D67C823D0FC574LLO
+- _symbolic _____ 22AccessoryNotifications0A5ErrorO33UnableToGetUserResponseCodingKeys33_B47805DAAF14330679D67C823D0FC574LLO
+- _symbolic _____ 22AccessoryNotifications0A5ErrorO33UnableToPresentSettingsCodingKeys33_B47805DAAF14330679D67C823D0FC574LLO
+- _symbolic ___________t 22AccessoryNotifications0A12NotificationV10IdentifierV AC
+- _symbolic _____y_____G s22KeyedDecodingContainerV 22AccessoryNotifications0D5ErrorO06CustomF10CodingKeys33_B47805DAAF14330679D67C823D0FC574LLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 22AccessoryNotifications0D5ErrorO0dE21UnsupportedCodingKeys33_B47805DAAF14330679D67C823D0FC574LLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 22AccessoryNotifications0D5ErrorO23NilXPCSessionCodingKeys33_B47805DAAF14330679D67C823D0FC574LLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 22AccessoryNotifications0D5ErrorO24InvalidRequestCodingKeys33_B47805DAAF14330679D67C823D0FC574LLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 22AccessoryNotifications0D5ErrorO33UnableToGetUserResponseCodingKeys33_B47805DAAF14330679D67C823D0FC574LLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 22AccessoryNotifications0D5ErrorO33UnableToPresentSettingsCodingKeys33_B47805DAAF14330679D67C823D0FC574LLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 22AccessoryNotifications0D5ErrorO06CustomF10CodingKeys33_B47805DAAF14330679D67C823D0FC574LLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 22AccessoryNotifications0D5ErrorO0dE21UnsupportedCodingKeys33_B47805DAAF14330679D67C823D0FC574LLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 22AccessoryNotifications0D5ErrorO23NilXPCSessionCodingKeys33_B47805DAAF14330679D67C823D0FC574LLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 22AccessoryNotifications0D5ErrorO24InvalidRequestCodingKeys33_B47805DAAF14330679D67C823D0FC574LLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 22AccessoryNotifications0D5ErrorO33UnableToGetUserResponseCodingKeys33_B47805DAAF14330679D67C823D0FC574LLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 22AccessoryNotifications0D5ErrorO33UnableToPresentSettingsCodingKeys33_B47805DAAF14330679D67C823D0FC574LLO
+- _symbolic _____y__________G s18_DictionaryStorageC 22AccessoryNotifications0C12NotificationV10IdentifierV AE
+- _type_layout_string 22AccessoryNotifications0A5ErrorO
+CStrings:
++ "%{public}s -- %{public}@"
++ "[AccessoryNotificationCenter] %{public}s: Unhandled response: %{public}@"
++ "[AccessoryNotificationCenter] send: %{public}@"
++ "[AccessoryNotificationCenter] send: Nil session"
++ "[AccessoryNotificationCenter] sendSync: %{public}@"
++ "[AccessoryNotificationCenter] sendSync: nil XPC session."
++ "[AccessoryNotification] %{public}s: File access is only available during an AccessoryNotification event."
++ "[AccessoryNotificationsManager] %{public}s: Error decoding response. %{private}@"
++ "[AccessoryNotificationsManager] %{public}s: Error sending request: %{private}@"
++ "[AccessoryNotificationsManager] %{public}s: Unhandled response: %{private}@"
++ "[AccessoryNotificationsManager] %{public}s: nil XPC session"
++ "[NotificationForwarding] %{public}s: Error handling notification response from accessory."
++ "[NotificationForwarding] %{public}s: Error removing notifications with identifier: %{private}s"
++ "[NotificationForwarding] %{public}s: proxy is nil"
++ "accessoryNotificationsUnavailable"
++ "forwardingDecision(for:requestAuthorizationIfEligible:)"
++ "lookupActiveNotification"
++ "presentSettings(for:capabilities:scenePersistentIdentifier:)"
++ "removeActiveNotification"
++ "removeNotifications(forIdentifiers:sourceIdentifier:for:)"
++ "removeNotifications(identifiers:)"
++ "requestAccessorySettingsRecords(types:)"
++ "requestAccessorySettingsRecordsSync(types:)"
++ "requestDeviceName(for:)"
++ "requestFileAccess(notificationIdentifier:fileIdentifier:)"
++ "requestRecordsAndDevices(types:)"
++ "requestValidApps(given:)"
++ "requestValidDevices(types:)"
++ "save(allowedApps:for:with:)"
++ "save(publicRecord:)"
++ "sendResponse(_:)"
++ "sendResponse(_:for:)"
++ "storeActiveNotification"
+- "Error handling notification response from accessory."
+- "Error removing notifications."
+- "Error sending request"
+- "Error sending sync request"
+- "File access is only available during an AccessoryNotification event."
+- "Unable to retrieve records and devices: "
+- "Unable to retrieve records: "
+- "Unable to retrieve valid apps"
+- "Unable to retrieve valid devices: "
+- "Unexpected response: "
+- "Unhandled response: "
+- "accessoryNotificationsUnsupported"
+- "activeNotifications"
+- "unable to get file URL"
+- "unableToGetUserResponse"
+- "unableToPresentSettings"
+
+```
