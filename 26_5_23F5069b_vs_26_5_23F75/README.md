@@ -88,9 +88,9 @@ CStrings:
    CStrings:  661
 Functions:
 ~ __Z34corecaptureIsDevFusedOrCSRInternalb : 120 -> 100
-~ __Z29corecaptureIsDebuggbleUnifiedv -> sub_fffffe000a57bfb8 : 100 -> 116
+~ __Z29corecaptureIsDebuggbleUnifiedv : 100 -> 116
 ~ __ZN6CCPipe25initWithOwnerNameCapacityEP9IOServicePKcS3_PK13CCPipeOptions : 6308 -> 6272
-~ __Z16DefaultLogPolicyv : 100 -> 108
+~ sub_fffffe000a5855c4 -> __Z16DefaultLogPolicyv : 100 -> 108
 ~ __ZN11CCIOService17ccForcePanic_ImplEbP8OSString : 188 -> 184
 ~ __ZN16CCPipeUserClient12initWithTaskEP4taskPvjP12OSDictionary : 356 -> 352
 ~ sub_fffffe000a588de8 -> sub_fffffe000a583380 : 12 -> 8
@@ -732,6 +732,10 @@ CStrings:
 ### 🔑 Entitlements
 
 - [Entitlements DIFF](Entitlements.md)
+
+### Sandbox Profiles
+
+- [Sandbox Profiles DIFF](Sandbox.md)
 
 ## Firmware
 
