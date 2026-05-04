@@ -1,0 +1,60 @@
+## IDSFoundation
+
+> `/System/Library/PrivateFrameworks/IDSFoundation.framework/IDSFoundation`
+
+```diff
+
+-1969.600.51.2.4
+-  __TEXT.__text: 0x505c5c
++1969.600.51.2.5
++  __TEXT.__text: 0x505c58
+   __TEXT.__auth_stubs: 0x5080
+   __TEXT.__objc_methlist: 0x1b0d4
+   __TEXT.__const: 0x3be80
+
+   __TEXT.__unwind_info: 0x14328
+   __TEXT.__eh_frame: 0x15c04
+   __TEXT.__objc_classname: 0x5327
+-  __TEXT.__objc_methname: 0x38dd7
++  __TEXT.__objc_methname: 0x38df7
+   __TEXT.__objc_methtype: 0x84ac
+   __TEXT.__objc_stubs: 0x1ba40
+   __DATA_CONST.__got: 0x1500
+
+   __AUTH_CONST.__auth_got: 0x2850
+   __AUTH_CONST.__const: 0x180c0
+   __AUTH_CONST.__cfstring: 0x2b840
+-  __AUTH_CONST.__objc_const: 0x3d450
++  __AUTH_CONST.__objc_const: 0x3d470
+   __AUTH_CONST.__objc_intobj: 0xbd0
+   __AUTH_CONST.__objc_arrayobj: 0x1e90
+   __AUTH_CONST.__objc_doubleobj: 0x20
+   __AUTH_CONST.__objc_dictobj: 0x78
+   __AUTH.__objc_data: 0x9ef0
+   __AUTH.__data: 0xaeb0
+-  __DATA.__objc_ivar: 0x27d4
++  __DATA.__objc_ivar: 0x27d8
+   __DATA.__data: 0xe228
+   __DATA.__crash_info: 0x148
+   __DATA.__bss: 0x5fe10
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswift_StringProcessing.dylib
+   - /usr/lib/swift/libswiftos.dylib
+-  UUID: A0DD96F4-264C-3E3D-AD4A-E7F574B0ED9C
++  UUID: 89092CDD-18A8-37DE-937B-3864299F9655
+   Functions: 30478
+   Symbols:   4969
+-  CStrings:  25761
++  CStrings:  25762
+ 
+Functions:
+~ sub_1a90abb48 -> sub_1a907bb48 : 1540 -> 1536
+CStrings:
++ "TB,R,V_sessionIsUserParticipantInitiated"
++ "_sessionIsUserParticipantInitiated"
++ "sessionIsUserParticipantInitiated"
+- "TB,R,V_sessionIsNonUserParticipantInitiated"
+- "sessionIsNonUserParticipantInitiated"
+
+```

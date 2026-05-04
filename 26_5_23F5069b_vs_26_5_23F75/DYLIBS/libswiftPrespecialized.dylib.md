@@ -1,0 +1,115 @@
+## libswiftPrespecialized.dylib
+
+> `/usr/lib/libswiftPrespecialized.dylib`
+
+```diff
+
+ 0.0.0.0.0
+   __TEXT.__text: 0x0
+   __TEXT.__lldb_no_nlist: 0x0
+-  __DATA_CONST.__const: 0x3036d0
++  __DATA_CONST.__const: 0x303ef0
+   __DATA_CONST.__ptrhashtab: 0x170f8
+   __DATA_CONST.__ptrhashtabkey: 0x25e00
+   __AUTH_CONST.__const: 0x4f970
+   __AUTH.__data: 0xcaed0
+   - /usr/lib/libSystem.B.dylib
+-  UUID: 6E57F402-B2A3-3CF1-BB35-0432222F671C
++  UUID: 87E6C6C9-40DD-3639-83C2-07BB64BCAF42
+   Functions: 0
+-  Symbols:   151523
++  Symbols:   151608
+   CStrings:  0
+ 
+Symbols:
++ _$s13HomeDataModel06CameraB13StoreProtocolMp
++ _$s13HomeDataModel0A23FaceClassificationStoreCMn
++ _$s13HomeDataModel15CameraClipAssetC14resourceLoader_39shouldWaitForLoadingOfRequestedResourceSbSo07AVAssetoH0C_So0poL7RequestCtFTq
++ _$s13HomeDataModel15CameraClipAssetCMn
++ _$s13HomeDataModel16CameraEventCacheCMn
++ _$s13HomeDataModel18CameraClipsLibraryCMn
++ _$s13HomeDataModel23CameraClipsLibraryErrorOMn
++ _$s13HomeDataModel23ClipFetchingEnvironmentMp
++ _$s13HomeDataModel23FaceClassificationStoreMp
++ _$s13HomeDataModel25CameraClipPlaybackManagerC15ContentProviderMp
++ _$s13HomeDataModel25CameraClipPlaybackManagerCMn
++ _$s13HomeDataModel26CameraClipsLibraryProtocolMp
++ _$s13HomeDataModel30DefaultClipFetchingEnvironmentVMn
++ _$s13HomeDataModel30FaceClassificationNameResolverC6update6nearby5ownerQr4UserQzSg_SbtFQOMQ
++ _$s13HomeDataModel30FaceClassificationNameResolverCMn
++ _$s13HomeDataModel35CameraRecordingEventManagerProtocolMp
++ _$s13HomeDataModel37CameraClipScrubberDemoContentProviderC7baseURLAC10Foundation0K0V_tcfCTq
++ _$s13HomeDataModel37CameraClipScrubberDemoContentProviderCMn
++ _$s16HeadphoneManager18B698FeatureContentC0A10SettingsUIE12singularNameSSvpMV
++ _$s26WatchFacesWallpaperSupport10BlurKernelO5ErrorOMn
++ _$s26WatchFacesWallpaperSupport10BlurKernelOMn
++ _$s26WatchFacesWallpaperSupport20DefaultInitializableMp
++ _$s26WatchFacesWallpaperSupport9PrideLensO16BackgroundColorsVMn
++ _$s26WatchFacesWallpaperSupport9PrideLensO4MeshV5ErrorOMn
++ _$s26WatchFacesWallpaperSupport9PrideLensO4MeshVMn
++ _$s26WatchFacesWallpaperSupport9PrideLensO4Vec3VMn
++ _$s26WatchFacesWallpaperSupport9PrideLensO5ModesVMn
++ _$s26WatchFacesWallpaperSupport9PrideLensO5StateV0F0V14CylinderFacetsOMn
++ _$s26WatchFacesWallpaperSupport9PrideLensO5StateV0F0V5ShapeOMn
++ _$s26WatchFacesWallpaperSupport9PrideLensO5StateV0F0VMn
++ _$s26WatchFacesWallpaperSupport9PrideLensO5StateV10BackgroundVMn
++ _$s26WatchFacesWallpaperSupport9PrideLensO5StateV15ScreenTransformVMn
++ _$s26WatchFacesWallpaperSupport9PrideLensO5StateV4ModeOMn
++ _$s26WatchFacesWallpaperSupport9PrideLensO5StateVMn
++ _$s26WatchFacesWallpaperSupport9PrideLensO8RendererC5ErrorOMn
++ _$s26WatchFacesWallpaperSupport9PrideLensO8RendererCMn
++ _$s26WatchFacesWallpaperSupport9PrideLensO9BeachBallO8RendererC5ErrorOMn
++ _$s26WatchFacesWallpaperSupport9PrideLensO9BeachBallO8RendererCMn
++ _$s26WatchFacesWallpaperSupport9PrideLensO9BeachBallOMn
++ _$s26WatchFacesWallpaperSupport9PrideLensOMn
++ _$s7HomeUI210PlayerViewCMn
++ _$s7HomeUI212ActivePersonVMn
++ _$s7HomeUI212TimelineItemMp
++ _$s7HomeUI213PlaybackModelC13ConfigurationV07InitialC8LocationOMn
++ _$s7HomeUI213PlaybackModelC13ConfigurationVMn
++ _$s7HomeUI213PlaybackModelC5StateVMn
++ _$s7HomeUI213PlaybackModelC6ActionOMn
++ _$s7HomeUI213PlaybackModelCMn
++ _$s7HomeUI214CameraClipListV4bodyQrvpQOMQ
++ _$s7HomeUI214CameraClipListVMn
++ _$s7HomeUI214PlaybackEffectMp
++ _$s7HomeUI214PlaybackEffectP12shouldRemain4with5afterSbAA0C5ModelC5StateVy11EnvironmentQz_G_AH6ActionOyAL_GSgtFTq
++ _$s7HomeUI214TimelineLayoutVMn
++ _$s7HomeUI215PlaybackElementMp
++ _$s7HomeUI215PlaybackSurfaceMp
++ _$s7HomeUI215PlaybackSurfaceP6playerSo8AVPlayerCSgvMTq
++ _$s7HomeUI215TalkToggleStyleVMn
++ _$s7HomeUI215WidgetTileStyleO8allCasesSayACGvpZMV
++ _$s7HomeUI216ClipTimelineItemV2IDOMn
++ _$s7HomeUI216ClipTimelineItemVMn
++ _$s7HomeUI216PlaybackPositionVMn
++ _$s7HomeUI216PlaybackProgressVMn
++ _$s7HomeUI217CameraDetailsViewV12ClipScrubberV4bodyQrvpQOMQ
++ _$s7HomeUI217CameraDetailsViewV12ClipScrubberVMn
++ _$s7HomeUI217CameraDetailsViewV15ClipButtonStyleV8makeBody13configurationQr7SwiftUI0gH13ConfigurationV_tFQOMQ
++ _$s7HomeUI217CameraDetailsViewV15ClipButtonStyleVMn
++ _$s7HomeUI217CameraDetailsViewV21ClipScrubberTimestampVMn
++ _$s7HomeUI217CameraDetailsViewV23ClipScrubberToggleStyleVMn
++ _$s7HomeUI217CameraDetailsViewV9ConstantsOMn
++ _$s7HomeUI217CameraDetailsViewVMn
++ _$s7HomeUI217ElementDescriptorVMn
++ _$s7HomeUI217NearbyToggleStyleVMn
++ _$s7HomeUI217VolumeToggleStyleVMn
++ _$s7HomeUI219PlaybackEnvironmentMp
++ _$s7HomeUI222CameraClipTimelineViewV4bodyQrvpQOMQ
++ _$s7HomeUI222CameraClipTimelineViewVMn
++ _$s7HomeUI222CameraDetailsDebugViewVMn
++ _$s7HomeUI222OverlayTalkToggleStyleVMn
++ _$s7HomeUI222TimelineLayoutProviderMp
++ _$s7HomeUI222TimelineLayoutProviderP6layout3for7options17selectedElementIDAA0cD0VyxGSay0J0QzG_Shy7OptionsQzGAK_10IdentifierQZSgtFZTq
++ _$s7HomeUI223LivePlaybackEnvironmentCMn
++ _$s7HomeUI225TimelineScrubbingBehaviorOMn
++ _$s7HomeUI229DefaultTimelineLayoutProviderV7OptionsOMn
++ _$s7HomeUI229DefaultTimelineLayoutProviderVMn
++ _$s7HomeUI230EmptyNearbyAccessoriesModifierV4body7contentQr7SwiftUI05_ViewF8_ContentVyACG_tFQOMQ
++ _$s7HomeUI231ScrubbingTimelineLayoutProviderV7OptionsOMn
++ _$s7HomeUI231ScrubbingTimelineLayoutProviderVMn
+- _$s16HeadphoneManager18B698FeatureContentC0A10SettingsUIE11deviceColors6UInt32VvpMV
+- _$s7HomeUI215WidgetTileStyleO15temperatureFont7SwiftUI0G0VvpMV
+
+```
