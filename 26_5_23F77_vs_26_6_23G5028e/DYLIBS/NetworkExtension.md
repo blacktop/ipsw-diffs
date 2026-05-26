@@ -1,0 +1,307 @@
+## NetworkExtension
+
+> `/System/Library/Frameworks/NetworkExtension.framework/NetworkExtension`
+
+```diff
+
+-2226.120.19.0.0
+-  __TEXT.__text: 0x20b6c4
++2226.160.3.0.0
++  __TEXT.__text: 0x20b43c
+   __TEXT.__auth_stubs: 0x4520
+   __TEXT.__objc_methlist: 0xf020
+-  __TEXT.__const: 0x34a4
++  __TEXT.__const: 0x3494
+   __TEXT.__cstring: 0x1871f
+   __TEXT.__constg_swiftt: 0xc1c
+   __TEXT.__swift5_typeref: 0xdd3
+
+   __TEXT.__swift5_proto: 0x60
+   __TEXT.__swift5_types: 0x90
+   __TEXT.__swift5_capture: 0xd58
+-  __TEXT.__oslogstring: 0x23db0
++  __TEXT.__oslogstring: 0x23d01
+   __TEXT.__swift_as_entry: 0xe4
+   __TEXT.__swift_as_ret: 0x104
+   __TEXT.__swift5_protos: 0x14
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: E6508882-2601-3F86-9339-99C58499F237
++  UUID: 27866DF4-F1AB-3221-BBC3-1E063A7BBDBB
+   Functions: 7924
+   Symbols:   22997
+-  CStrings:  15939
++  CStrings:  15935
+ 
+Symbols:
++ ___Block_byref_object_copy_.12760
++ ___Block_byref_object_copy_.15211
++ ___Block_byref_object_copy_.20613
++ ___Block_byref_object_copy_.21878
++ ___Block_byref_object_copy_.22929
++ ___Block_byref_object_copy_.24070
++ ___Block_byref_object_copy_.24788
++ ___Block_byref_object_copy_.27447
++ ___Block_byref_object_copy_.28621
++ ___Block_byref_object_copy_.7118
++ ___Block_byref_object_copy_.9682
++ ___Block_byref_object_dispose_.12761
++ ___Block_byref_object_dispose_.15212
++ ___Block_byref_object_dispose_.20614
++ ___Block_byref_object_dispose_.21879
++ ___Block_byref_object_dispose_.22930
++ ___Block_byref_object_dispose_.24071
++ ___Block_byref_object_dispose_.24789
++ ___Block_byref_object_dispose_.27448
++ ___Block_byref_object_dispose_.28622
++ ___Block_byref_object_dispose_.7119
++ ___Block_byref_object_dispose_.9683
++ ___block_descriptor_tmp.19819
++ ___block_descriptor_tmp.23623
++ ___block_descriptor_tmp.25672
++ ___block_descriptor_tmp.26278
++ ___block_literal_global.10.15805
++ ___block_literal_global.10.9348
++ ___block_literal_global.10292
++ ___block_literal_global.13042
++ ___block_literal_global.13418
++ ___block_literal_global.14.22390
++ ___block_literal_global.14379
++ ___block_literal_global.14544
++ ___block_literal_global.15.25902
++ ___block_literal_global.15213
++ ___block_literal_global.15807
++ ___block_literal_global.16393
++ ___block_literal_global.16636
++ ___block_literal_global.17.14392
++ ___block_literal_global.17.18110
++ ___block_literal_global.17124
++ ___block_literal_global.17985
++ ___block_literal_global.18119
++ ___block_literal_global.18427
++ ___block_literal_global.19728
++ ___block_literal_global.20.18116
++ ___block_literal_global.20403
++ ___block_literal_global.20916
++ ___block_literal_global.21975
++ ___block_literal_global.22395
++ ___block_literal_global.22795
++ ___block_literal_global.23537
++ ___block_literal_global.23621
++ ___block_literal_global.24173
++ ___block_literal_global.24285
++ ___block_literal_global.24328
++ ___block_literal_global.24523
++ ___block_literal_global.24705
++ ___block_literal_global.25619
++ ___block_literal_global.25670
++ ___block_literal_global.25906
++ ___block_literal_global.26001
++ ___block_literal_global.26384
++ ___block_literal_global.26939
++ ___block_literal_global.27027
++ ___block_literal_global.27175
++ ___block_literal_global.27413
++ ___block_literal_global.27959
++ ___block_literal_global.28.27451
++ ___block_literal_global.28673
++ ___block_literal_global.4.14382
++ ___block_literal_global.5660
++ ___block_literal_global.63.20398
++ ___block_literal_global.7.25610
++ ___block_literal_global.7147
++ ___block_literal_global.73.25996
++ ___block_literal_global.7375
++ ___block_literal_global.7562
++ ___block_literal_global.7983
++ ___block_literal_global.8107
++ ___block_literal_global.9346
++ __extensionAuxiliaryHostProtocol.protocol.20399
++ __extensionAuxiliaryHostProtocol.protocol.24329
++ __extensionAuxiliaryHostProtocol.protocol.25997
++ __extensionAuxiliaryHostProtocol.protocolInit.20397
++ __extensionAuxiliaryHostProtocol.protocolInit.24327
++ __extensionAuxiliaryHostProtocol.protocolInit.25995
++ __extensionAuxiliaryVendorProtocol.protocol.20404
++ __extensionAuxiliaryVendorProtocol.protocol.26002
++ __extensionAuxiliaryVendorProtocol.protocolInit.20402
++ __extensionAuxiliaryVendorProtocol.protocolInit.26000
++ _convert_error_to_string.24783
++ _driverInterface.driverInterface.10289
++ _driverInterface.driverInterface.17125
++ _driverInterface.driverInterface.20913
++ _driverInterface.driverInterface.22391
++ _driverInterface.driverInterface.7555
++ _driverInterface.onceToken.10288
++ _driverInterface.onceToken.17123
++ _driverInterface.onceToken.20912
++ _driverInterface.onceToken.22389
++ _driverInterface.onceToken.7554
++ _g_noAppFilter.28595
++ _globalConfigurationManager.gChangeQueue.18114
++ _globalConfigurationManager.gChangeQueue.5658
++ _globalConfigurationManager.gConfigurationManager.18111
++ _globalConfigurationManager.gConfigurationManager.5656
++ _globalConfigurationManager.onceToken.18109
++ _globalConfigurationManager.onceToken.5655
++ _initGlobals.onceToken.16635
++ _loadedManagers.loadedManagers.27411
++ _loadedManagers.loadedManagers.28598
++ _loadedManagers.managers_init.27410
++ _loadedManagers.managers_init.28597
++ _managerInterface.managerInterface.10293
++ _managerInterface.managerInterface.20917
++ _managerInterface.managerInterface.22396
++ _managerInterface.onceToken.10291
++ _managerInterface.onceToken.20915
++ _managerInterface.onceToken.22394
++ _sharedManager.g_manager.27028
++ _sharedManager.g_manager.7376
++ _sharedManager.g_manager.7984
++ _sharedManager.init_manager.7374
++ _sharedManager.init_manager.7982
++ _sharedManager.onceToken.18118
++ _sharedManager.onceToken.27026
++ _sharedManager.onceToken.28672
++ _sharedManager.onceToken.5659
+- ___Block_byref_object_copy_.12764
+- ___Block_byref_object_copy_.15215
+- ___Block_byref_object_copy_.20617
+- ___Block_byref_object_copy_.21882
+- ___Block_byref_object_copy_.22933
+- ___Block_byref_object_copy_.24074
+- ___Block_byref_object_copy_.24792
+- ___Block_byref_object_copy_.27451
+- ___Block_byref_object_copy_.28625
+- ___Block_byref_object_copy_.7122
+- ___Block_byref_object_copy_.9686
+- ___Block_byref_object_dispose_.12765
+- ___Block_byref_object_dispose_.15216
+- ___Block_byref_object_dispose_.20618
+- ___Block_byref_object_dispose_.21883
+- ___Block_byref_object_dispose_.22934
+- ___Block_byref_object_dispose_.24075
+- ___Block_byref_object_dispose_.24793
+- ___Block_byref_object_dispose_.27452
+- ___Block_byref_object_dispose_.28626
+- ___Block_byref_object_dispose_.7123
+- ___Block_byref_object_dispose_.9687
+- ___block_descriptor_tmp.19823
+- ___block_descriptor_tmp.23627
+- ___block_descriptor_tmp.25676
+- ___block_descriptor_tmp.26282
+- ___block_literal_global.10.15809
+- ___block_literal_global.10.9352
+- ___block_literal_global.10296
+- ___block_literal_global.13046
+- ___block_literal_global.13422
+- ___block_literal_global.14.22394
+- ___block_literal_global.14383
+- ___block_literal_global.14548
+- ___block_literal_global.15.25906
+- ___block_literal_global.15217
+- ___block_literal_global.15811
+- ___block_literal_global.16397
+- ___block_literal_global.16640
+- ___block_literal_global.17.14396
+- ___block_literal_global.17.18114
+- ___block_literal_global.17128
+- ___block_literal_global.17989
+- ___block_literal_global.18123
+- ___block_literal_global.18431
+- ___block_literal_global.19732
+- ___block_literal_global.20.18120
+- ___block_literal_global.20407
+- ___block_literal_global.20920
+- ___block_literal_global.21979
+- ___block_literal_global.22399
+- ___block_literal_global.22799
+- ___block_literal_global.23541
+- ___block_literal_global.23625
+- ___block_literal_global.24177
+- ___block_literal_global.24289
+- ___block_literal_global.24332
+- ___block_literal_global.24527
+- ___block_literal_global.24709
+- ___block_literal_global.25623
+- ___block_literal_global.25674
+- ___block_literal_global.25910
+- ___block_literal_global.26005
+- ___block_literal_global.26388
+- ___block_literal_global.26943
+- ___block_literal_global.27031
+- ___block_literal_global.27179
+- ___block_literal_global.27417
+- ___block_literal_global.27963
+- ___block_literal_global.28.27455
+- ___block_literal_global.28677
+- ___block_literal_global.4.14386
+- ___block_literal_global.5664
+- ___block_literal_global.63.20402
+- ___block_literal_global.7.25614
+- ___block_literal_global.7151
+- ___block_literal_global.73.26000
+- ___block_literal_global.7379
+- ___block_literal_global.7566
+- ___block_literal_global.7987
+- ___block_literal_global.8111
+- ___block_literal_global.9350
+- __extensionAuxiliaryHostProtocol.protocol.20403
+- __extensionAuxiliaryHostProtocol.protocol.24333
+- __extensionAuxiliaryHostProtocol.protocol.26001
+- __extensionAuxiliaryHostProtocol.protocolInit.20401
+- __extensionAuxiliaryHostProtocol.protocolInit.24331
+- __extensionAuxiliaryHostProtocol.protocolInit.25999
+- __extensionAuxiliaryVendorProtocol.protocol.20408
+- __extensionAuxiliaryVendorProtocol.protocol.26006
+- __extensionAuxiliaryVendorProtocol.protocolInit.20406
+- __extensionAuxiliaryVendorProtocol.protocolInit.26004
+- _convert_error_to_string.24787
+- _driverInterface.driverInterface.10293
+- _driverInterface.driverInterface.17129
+- _driverInterface.driverInterface.20917
+- _driverInterface.driverInterface.22395
+- _driverInterface.driverInterface.7559
+- _driverInterface.onceToken.10292
+- _driverInterface.onceToken.17127
+- _driverInterface.onceToken.20916
+- _driverInterface.onceToken.22393
+- _driverInterface.onceToken.7558
+- _g_noAppFilter.28599
+- _globalConfigurationManager.gChangeQueue.18118
+- _globalConfigurationManager.gChangeQueue.5662
+- _globalConfigurationManager.gConfigurationManager.18115
+- _globalConfigurationManager.gConfigurationManager.5660
+- _globalConfigurationManager.onceToken.18113
+- _globalConfigurationManager.onceToken.5659
+- _initGlobals.onceToken.16639
+- _loadedManagers.loadedManagers.27415
+- _loadedManagers.loadedManagers.28602
+- _loadedManagers.managers_init.27414
+- _loadedManagers.managers_init.28601
+- _managerInterface.managerInterface.10297
+- _managerInterface.managerInterface.20921
+- _managerInterface.managerInterface.22400
+- _managerInterface.onceToken.10295
+- _managerInterface.onceToken.20919
+- _managerInterface.onceToken.22398
+- _sharedManager.g_manager.27032
+- _sharedManager.g_manager.7380
+- _sharedManager.g_manager.7988
+- _sharedManager.init_manager.7378
+- _sharedManager.init_manager.7986
+- _sharedManager.onceToken.18122
+- _sharedManager.onceToken.27030
+- _sharedManager.onceToken.28676
+- _sharedManager.onceToken.5663
+Functions:
+~ -[NEFilterSocketFlow createNewFlowReply:controlSocket:verdict:context:] : 1716 -> 1068
+CStrings:
+- "%@: No control socket to qualify flow"
+- "%@: Write operation on the control socket failed while qualifying flow (%s)"
+- "%@: no flow found for flow qualification"
+- "%@: qualifying flow"
+
+```

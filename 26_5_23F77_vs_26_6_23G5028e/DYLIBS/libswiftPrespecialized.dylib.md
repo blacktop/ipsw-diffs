@@ -1,0 +1,223 @@
+## libswiftPrespecialized.dylib
+
+> `/usr/lib/libswiftPrespecialized.dylib`
+
+```diff
+
+ 0.0.0.0.0
+   __TEXT.__text: 0x0
+   __TEXT.__lldb_no_nlist: 0x0
+-  __DATA_CONST.__const: 0x303ef0
+-  __DATA_CONST.__ptrhashtab: 0x170f8
+-  __DATA_CONST.__ptrhashtabkey: 0x25e00
+-  __AUTH_CONST.__const: 0x4f970
+-  __AUTH.__data: 0xcaed0
++  __DATA_CONST.__const: 0x303f00
++  __DATA_CONST.__ptrhashtab: 0x170c8
++  __DATA_CONST.__ptrhashtabkey: 0x25db8
++  __AUTH_CONST.__const: 0x4f938
++  __AUTH.__data: 0xcac18
+   - /usr/lib/libSystem.B.dylib
+-  UUID: 8DB1137E-1FAD-3C6C-BB53-607C077BF603
++  UUID: EEF3DB8F-45CF-3A1E-A1DD-96947214AB4A
+   Functions: 0
+-  Symbols:   151608
++  Symbols:   151615
+   CStrings:  0
+ 
+Symbols:
++ _$s10CAFCombine30FormattedMeasurementComponentsVMn
++ _$s10FTServices17PrimaryQueueActorCMn
++ _$s10FTServices17PrimaryQueueActorCMo
++ _$s11MapsSupport18MSPBlastdoorResultCMn
++ _$s11MapsSupport25MSPMapsBlastdoorInterfaceCMn
++ _$s12GameStoreKit17FlowPreviewActionC21previewViewController19presentationContext018requiresNavigationI013actionMetricsACSo06UIViewI0C_AA0d12PresentationK0OSb9JetEngine0fO0VtcfCTq
++ _$s12GameStoreKit8TextCardC13deserializing5usingAC9JetEngine10JSONObjectV_AF11JSONContextVtKcfCTq
++ _$s12ModelCatalog17ResourceContainerCN
++ _$s12ModelCatalog21MobileGestaltProviderVMn
++ _$s12ModelCatalog22MobileGestaltProvidingMp
++ _$s12ModelCatalog9ArgumentsO10UseDefaultO5ValueOMn
++ _$s12ModelCatalog9ArgumentsO10UseDefaultOMn
++ _$s12ModelCatalog9ArgumentsO23VariantResolverArgumentVMn
++ _$s12ModelCatalog9ArgumentsO8LanguageO5ValueOMn
++ _$s12ModelCatalog9ArgumentsO8LanguageOMn
++ _$s12ModelCatalog9ArgumentsOMn
++ _$s13CarAssetUtils38DriveModeThemeAssociationConfigurationVMn
++ _$s14CarPlayAssetUI10InstrumentV10GaugeStyleO05ColorF13ConfigurationVMn
++ _$s14CarPlayAssetUI13SkippingRulesOMn
++ _$s14CarPlayAssetUI14VisibilityRuleO015ActiveComponentF0VMn
++ _$s14CarPlayAssetUI14VisibilityRuleO022TransitioningComponentF0VMn
++ _$s14CarPlayAssetUI16OverrideResolverOMn
++ _$s14CarPlayAssetUI17ResolvablePaddingMp
++ _$s14CarPlayAssetUI18RequestContentRuleVMn
++ _$s14CarPlayAssetUI19LayoutDirectionRuleV0F0OMn
++ _$s14CarPlayAssetUI19LayoutDirectionRuleVMn
++ _$s14CarPlayAssetUI22AppearanceTrackingViewVMn
++ _$s15SecureMessaging3MLSO23IncomingEventMetricTypeOMn
++ _$s16CoreTransparency11CTPublicKeyVMn
++ _$s16CoreTransparency11VerifiedSMHVMn
++ _$s16CoreTransparency16CTECDSASignatureVMn
++ _$s16CoreTransparency16CertificateErrorOMn
++ _$s16CoreTransparency16MapProofProtocolMp
++ _$s16CoreTransparency19CTEscapableMapProofVMn
++ _$s16CoreTransparency21CTAlgorithmIdentifierVMn
++ _$s16CoreTransparency21CTPublicKeyCollectionMp
++ _$s16CoreTransparency21ConsistencyProofErrorOMn
++ _$s16CoreTransparency22CTSubjectPublicKeyInfoVMn
++ _$s16CoreTransparency22SMHVerificationResultsVMn
++ _$s16CoreTransparency24LogHeadVerificationErrorOMn
++ _$s16CoreTransparency24MapHeadVerificationErrorOMn
++ _$s16CoreTransparency29SignedObjectVerificationErrorOMn
++ _$s16CoreTransparency30CTEscapablePublicKeyCollectionVMn
++ _$s16GameServicesCore11ManagedTaskCMn
++ _$s16GameServicesCore7BackoffVMn
++ _$s16HeadphoneManager18B698FeatureContentC0A10SettingsUIE11deviceColors6UInt32VvpMV
++ _$s17AdPlatformsCommon15ActualBirthYearVMn
++ _$s17AdPlatformsCommon21PersonalizedAdsSourceMp
++ _$s17AdPlatformsCommon21PersonalizedAdsStatusOMn
++ _$s17AdPlatformsCommon9ActualAgeVMn
++ _$s19ModelCatalogRuntime24SensitiveRegionEvaluatorVMn
++ _$s20AppleMediaServicesUI15AssignAACIDTaskCMn
++ _$s20MapsBlastDoorSupport0abC6ClientCMn
++ _$s20MapsBlastDoorSupport21SharedETATripUnpackerVMn
++ _$s20MapsBlastDoorSupport24SharedETACommandUnpackerVMn
++ _$s24SecureMessagingAgentCore16OutgoingFTDModelVMn
++ _$s24SecureMessagingAgentCore16OutgoingFTDQueryVMn
++ _$s24SecureMessagingAgentCore20SetupConnectionQueueCMn
++ _$s5CAFUI10PickerItemVMn
++ _$s5CAFUI24CAFUITableViewControllerC5styleACSo07UITableC5StyleV_tcfCTq
++ _$s6IMCore12ImportExportO26PinnedConversationResolverVMn
++ _$s7HomeUI215WidgetTileStyleO15temperatureFont7SwiftUI0G0VvpMV
++ _$s8NewsCore17FeedEditionConfigVMn
++ _$s8NewsFeed15TagImageApplierC10imageCache07feedNavD6Styler12assetManagerAC5TeaUI0dG4Type_p_AA0bidjO0_pSo07FCAssetL0CtcfCTq
++ _$s8NewsFeed20FormatCollectionViewCN
++ _$s8SwiftMLS0B0O9ExtensionO017SubjectCommitmentC0VMn
++ _$s8VideosUI28SignificantChangeManagerObjCCMn
++ _$s9BlastDoor13SpamSenderDTOVMn
++ _$s9BlastDoor15ShareETAETAInfoVMn
++ _$s9BlastDoor16ShareETAGeoStateVMn
++ _$s9BlastDoor18ShareETACoordinateVMn
++ _$s9BlastDoor18ShareETASenderInfoVMn
++ _$s9BlastDoor20ShareETAWaypointInfoVMn
++ _$s9BlastDoor25_ObjCSpamSenderDTOWrapperCMn
++ _$s9ChronoKit29AccessoryActivitySubscriptionVMn
++ _$s9DashBoard17DBWallpaperWindowC11windowScene5frameACSo08UIWindowF0C_So6CGRectVtcfCTq
++ _$s9DashBoard19DBClimateControllerC29secondaryDockFocusableRegionsSaySo6CGRectVGvgTq
++ _$s9DashBoard22DBDashboardFocusUpdateCMn
++ _$s9DashBoard23DBScreenshotFlashWindowC11windowScene5frameACSo08UIWindowG0C_So6CGRectVtcfCTq
++ _$s9DashBoard24DBSplitContentControllerC15relinquishFocus7heading12focusedFrameySo14UIFocusHeadingV_So6CGRectVtFTq
++ _$s9DashBoard25DBDashboardFocusableSceneOMn
++ _$s9DashBoard28DBDashboardFocusUpdateActionOMn
++ _$s9DashBoard31DBDashboardFocusMovementManagerC08evaluateE04from7heading12focusedFrameAA0cD6UpdateCSgAA0C14FocusableSceneO_So14UIFocusHeadingVSo6CGRectVtFTq
++ _$s9DashBoard31DBDashboardFocusMovementManagerCMn
++ _$s9SEService11SESDataTaskC14HTTPStatusCodeOMn
++ _$s9SEService11SESDataTaskC9ErrorCodeOMn
++ _$s9SEService11SESDataTaskCMn
++ _$s9SEService19SESDataTaskProtocolMp
++ _$s9SEService28SESThirdPartyServiceReporterV13ConfigurationOMn
++ _$s9SEService28SESThirdPartyServiceReporterV16ReportTypeHeaderOMn
++ _$s9SEService28SESThirdPartyServiceReporterV19SecureElementKeyingOMn
++ _$s9SEService28SESThirdPartyServiceReporterV25WebRetrievedConfigurationVMn
++ _$s9SEService28SESThirdPartyServiceReporterV29DefaultsOverrideConfigurationVMn
++ _$s9SEService28SESThirdPartyServiceReporterV8ResponseVMn
++ _$s9SEService28SESThirdPartyServiceReporterV9ErrorCodeOMn
++ _$s9SEService28SESThirdPartyServiceReporterVMn
++ _$s9SeymourUI25NullEngagementCoordinatorCMn
++ _$sSS9SESSharedE15hexStringAsData10Foundation0E0VSgvpMV
++ _$sSo13CAFVolumeTypeV10CAFCombineE11descriptionSSvpMV
++ ___unnamed_atom_220
+- _$s10CAFCombine21SafeReadOnlyPublishedCMo
+- _$s12ModelCatalog22UseCaseStatusesWrapperC5coderACSgSo7NSCoderC_tcfCTq
+- _$s12ModelCatalog23VariantResolverArgumentVMn
+- _$s13HomeDataModel06CameraB13StoreProtocolMp
+- _$s13HomeDataModel0A23FaceClassificationStoreCMn
+- _$s13HomeDataModel15CameraClipAssetC14resourceLoader_39shouldWaitForLoadingOfRequestedResourceSbSo07AVAssetoH0C_So0poL7RequestCtFTq
+- _$s13HomeDataModel15CameraClipAssetCMn
+- _$s13HomeDataModel16CameraEventCacheCMn
+- _$s13HomeDataModel18CameraClipsLibraryCMn
+- _$s13HomeDataModel23CameraClipsLibraryErrorOMn
+- _$s13HomeDataModel23ClipFetchingEnvironmentMp
+- _$s13HomeDataModel23FaceClassificationStoreMp
+- _$s13HomeDataModel25CameraClipPlaybackManagerC15ContentProviderMp
+- _$s13HomeDataModel25CameraClipPlaybackManagerCMn
+- _$s13HomeDataModel26CameraClipsLibraryProtocolMp
+- _$s13HomeDataModel30DefaultClipFetchingEnvironmentVMn
+- _$s13HomeDataModel30FaceClassificationNameResolverC6update6nearby5ownerQr4UserQzSg_SbtFQOMQ
+- _$s13HomeDataModel30FaceClassificationNameResolverCMn
+- _$s13HomeDataModel35CameraRecordingEventManagerProtocolMp
+- _$s13HomeDataModel37CameraClipScrubberDemoContentProviderC7baseURLAC10Foundation0K0V_tcfCTq
+- _$s13HomeDataModel37CameraClipScrubberDemoContentProviderCMn
+- _$s13TeaFoundation10PoolObjectCy8NewsFeed31FormatDecorationProviderFactoryCG
+- _$s14CarPlayAssetUI28DeprecatedPersistentElementsV3KeyOMn
+- _$s14CarPlayAssetUI28DeprecatedPersistentElementsVMn
+- _$s16GameServicesCore23InstallMetadataProtocolP24appStoreLastLaunchedDate10Foundation0K0VSgvgTq
+- _$s16HeadphoneManager18B698FeatureContentC0A10SettingsUIE12singularNameSSvpMV
+- _$s17AdPlatformsCommon23TrialTimerUpdateServiceC18registerReloadTaskyyyyYaYbcYaFTq
+- _$s17AdPlatformsCommon37OnDeviceAttributionConfigurationStoreP25incorporateJourneyMetricsSaySiGvgTq
+- _$s19ModelCatalogRuntime21SubscriptionParameterVN
+- _$s5CAFUI20CAFUIPickerTableCellCMn
+- _$s5CAFUI24CAFUIButtonRepresentableP12buttonActionSo09CAFButtonE0VvMTq
+- _$s7HomeUI210PlayerViewCMn
+- _$s7HomeUI212ActivePersonVMn
+- _$s7HomeUI212TimelineItemMp
+- _$s7HomeUI213PlaybackModelC13ConfigurationV07InitialC8LocationOMn
+- _$s7HomeUI213PlaybackModelC13ConfigurationVMn
+- _$s7HomeUI213PlaybackModelC5StateVMn
+- _$s7HomeUI213PlaybackModelC6ActionOMn
+- _$s7HomeUI213PlaybackModelCMn
+- _$s7HomeUI214CameraClipListV4bodyQrvpQOMQ
+- _$s7HomeUI214CameraClipListVMn
+- _$s7HomeUI214PlaybackEffectMp
+- _$s7HomeUI214PlaybackEffectP12shouldRemain4with5afterSbAA0C5ModelC5StateVy11EnvironmentQz_G_AH6ActionOyAL_GSgtFTq
+- _$s7HomeUI214TimelineLayoutVMn
+- _$s7HomeUI215PlaybackElementMp
+- _$s7HomeUI215PlaybackSurfaceMp
+- _$s7HomeUI215PlaybackSurfaceP6playerSo8AVPlayerCSgvMTq
+- _$s7HomeUI215TalkToggleStyleVMn
+- _$s7HomeUI215WidgetTileStyleO8allCasesSayACGvpZMV
+- _$s7HomeUI216ClipTimelineItemV2IDOMn
+- _$s7HomeUI216ClipTimelineItemVMn
+- _$s7HomeUI216PlaybackPositionVMn
+- _$s7HomeUI216PlaybackProgressVMn
+- _$s7HomeUI217CameraDetailsViewV12ClipScrubberV4bodyQrvpQOMQ
+- _$s7HomeUI217CameraDetailsViewV12ClipScrubberVMn
+- _$s7HomeUI217CameraDetailsViewV15ClipButtonStyleV8makeBody13configurationQr7SwiftUI0gH13ConfigurationV_tFQOMQ
+- _$s7HomeUI217CameraDetailsViewV15ClipButtonStyleVMn
+- _$s7HomeUI217CameraDetailsViewV21ClipScrubberTimestampVMn
+- _$s7HomeUI217CameraDetailsViewV23ClipScrubberToggleStyleVMn
+- _$s7HomeUI217CameraDetailsViewV9ConstantsOMn
+- _$s7HomeUI217CameraDetailsViewVMn
+- _$s7HomeUI217ElementDescriptorVMn
+- _$s7HomeUI217NearbyToggleStyleVMn
+- _$s7HomeUI217VolumeToggleStyleVMn
+- _$s7HomeUI219PlaybackEnvironmentMp
+- _$s7HomeUI222CameraClipTimelineViewV4bodyQrvpQOMQ
+- _$s7HomeUI222CameraClipTimelineViewVMn
+- _$s7HomeUI222CameraDetailsDebugViewVMn
+- _$s7HomeUI222OverlayTalkToggleStyleVMn
+- _$s7HomeUI222TimelineLayoutProviderMp
+- _$s7HomeUI222TimelineLayoutProviderP6layout3for7options17selectedElementIDAA0cD0VyxGSay0J0QzG_Shy7OptionsQzGAK_10IdentifierQZSgtFZTq
+- _$s7HomeUI223LivePlaybackEnvironmentCMn
+- _$s7HomeUI225TimelineScrubbingBehaviorOMn
+- _$s7HomeUI229DefaultTimelineLayoutProviderV7OptionsOMn
+- _$s7HomeUI229DefaultTimelineLayoutProviderVMn
+- _$s7HomeUI230EmptyNearbyAccessoriesModifierV4body7contentQr7SwiftUI05_ViewF8_ContentVyACG_tFQOMQ
+- _$s7HomeUI231ScrubbingTimelineLayoutProviderV7OptionsOMn
+- _$s7HomeUI231ScrubbingTimelineLayoutProviderVMn
+- _$s8NewsFeed0B13EditionConfigVMn
+- _$s8NewsFeed31FormatDecorationProviderFactoryCN
+- _$s9DashBoard19DBClimateControllerC30updateLayoutForCurrentViewAreayyFTq
+- _$s9DashBoard24DBSplitContentControllerC12cornerRadius12CoreGraphics7CGFloatVvMTq
+- _$s9DashBoard32DBGlassInCallWidgetAppIconButtonC27applicationBundleIdentifierSSSgvMTq
+- _$s9SESShared5ECIESO9SealedBoxV8combined10Foundation4DataVvpMV
+- _$sSay19ModelCatalogRuntime21SubscriptionParameterVG
+- _$ss23_ContiguousArrayStorageCy19ModelCatalogRuntime21SubscriptionParameterVG
+- _OBJC_CLASS_$__TtC12ModelCatalog17ResourceContainer
+- _OBJC_CLASS_$__TtC8NewsFeed20FormatCollectionView
+- ___unnamed_atom_219
+- ___unnamed_atom_6120
+- ___unnamed_atom_6121
+- ___unnamed_atom_6122
+- ___unnamed_atom_6123
+
+```

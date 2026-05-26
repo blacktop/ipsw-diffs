@@ -1,0 +1,101 @@
+## Foundation
+
+> `/System/Library/Frameworks/Foundation.framework/Foundation`
+
+```diff
+
+-5026.5.4.0.0
+-  __TEXT.__text: 0xac88cc
++5026.6.2.0.0
++  __TEXT.__text: 0xac9bdc
+   __TEXT.__auth_stubs: 0x9f10
+   __TEXT.__delay_stubs: 0x800
+   __TEXT.__delay_helper: 0x184
+
+   - /usr/lib/swift/libswift_DarwinFoundation1.dylib
+   - /usr/lib/swift/libswift_StringProcessing.dylib
+   - /usr/lib/swift/libswiftos.dylib
+-  UUID: 2F9C66E8-7A0E-379E-8608-F42EF19F0C33
+-  Functions: 40753
+-  Symbols:   139763
++  UUID: 860D3FE8-D902-3119-B7CF-5C3890D4ADE5
++  Functions: 40755
++  Symbols:   139769
+   CStrings:  22769
+ 
+Symbols:
++ _$s10Foundation13URLComponentsV01_B0V9isFileURL33_B5B4F7D37EB01AEFDA851AD2BCAB8395LLSbvg
++ _$sSSSgWOc
++ _$sSy10FoundationE21addingPercentEncoding33_A90579D1FA072CB135F95EF00BA46450LL15forURLComponent18skipAlreadyEncodedSSAA0M11AllowedMaskV_SbtFSSSRys5UInt8VGXEfU_SS_TG5TA.41
++ _$sSy10FoundationE21addingPercentEncoding33_A90579D1FA072CB135F95EF00BA46450LL15forURLComponent18skipAlreadyEncodedSSAA0M11AllowedMaskV_SbtFSSSRys5UInt8VGXEfU_Ss_TG5TA.104
++ _$sSy10FoundationE21addingPercentEncoding33_A90579D1FA072CB135F95EF00BA46450LL15forURLComponent18skipAlreadyEncodedSSAA0M11AllowedMaskV_SbtFSSSRys5UInt8VGXEfU_Ss_TG5TA.105
++ _$sSy10FoundationE21addingPercentEncoding33_A90579D1FA072CB135F95EF00BA46450LL15forURLComponent18skipAlreadyEncodedSSAA0M11AllowedMaskV_SbtFSSSRys5UInt8VGXEfU_Ss_TG5TA.106
++ _$sSy10FoundationE21addingPercentEncoding33_A90579D1FA072CB135F95EF00BA46450LL15forURLComponent18skipAlreadyEncodedSSAA0M11AllowedMaskV_SbtFSSSRys5UInt8VGXEfU_Ss_TG5TA.124
++ _$sSy10FoundationE21addingPercentEncoding33_A90579D1FA072CB135F95EF00BA46450LL15forURLComponent18skipAlreadyEncodedSSAA0M11AllowedMaskV_SbtFSSSRys5UInt8VGXEfU_Ss_TG5TA.125
++ _$sSy10FoundationE21addingPercentEncoding33_A90579D1FA072CB135F95EF00BA46450LL15forURLComponent18skipAlreadyEncodedSSAA0M11AllowedMaskV_SbtFSSSRys5UInt8VGXEfU_Ss_TG5TA.126
++ _$sSy10FoundationE26removingURLPercentEncoding33_A90579D1FA072CB135F95EF00BA46450LL9excluding8encodingSSSgShys5UInt8VG_SSAAE0D0VtFAFSRyAHGXEfU_SS_TG5TA.107
++ _$sSy10FoundationE26removingURLPercentEncoding33_A90579D1FA072CB135F95EF00BA46450LL9excluding8encodingSSSgShys5UInt8VG_SSAAE0D0VtFAFSRyAHGXEfU_SS_TG5TA.108
++ _$sSy10FoundationE26removingURLPercentEncoding33_A90579D1FA072CB135F95EF00BA46450LL9excluding8encodingSSSgShys5UInt8VG_SSAAE0D0VtFAFSRyAHGXEfU_SS_TG5TA.29
++ _$sSy10FoundationE26removingURLPercentEncoding33_A90579D1FA072CB135F95EF00BA46450LL9excluding8encodingSSSgShys5UInt8VG_SSAAE0D0VtFAFSRyAHGXEfU_SS_TG5TA.69
++ _$sSy10FoundationE26removingURLPercentEncoding33_A90579D1FA072CB135F95EF00BA46450LL9excluding8encodingSSSgShys5UInt8VG_SSAAE0D0VtFAFSRyAHGXEfU_Ss_TG5TA.104
++ _$sSy10FoundationE26removingURLPercentEncoding33_A90579D1FA072CB135F95EF00BA46450LL9excluding8encodingSSSgShys5UInt8VG_SSAAE0D0VtFAFSRyAHGXEfU_Ss_TG5TA.113
++ _$sSy10FoundationE26removingURLPercentEncoding33_A90579D1FA072CB135F95EF00BA46450LL9excluding8encodingSSSgShys5UInt8VG_SSAAE0D0VtFAFSRyAHGXEfU_Ss_TG5TA.114
++ _$sSy10FoundationE26removingURLPercentEncoding33_A90579D1FA072CB135F95EF00BA46450LL9excluding8encodingSSSgShys5UInt8VG_SSAAE0D0VtFAFSRyAHGXEfU_Ss_TG5TA.115
++ _keypath_set.44Tm
++ _keypath_set.46Tm
++ _keypath_set.54Tm
++ _keypath_set.56Tm
+- _$sSy10FoundationE21addingPercentEncoding33_A90579D1FA072CB135F95EF00BA46450LL15forURLComponent18skipAlreadyEncodedSSAA0M11AllowedMaskV_SbtFSSSRys5UInt8VGXEfU_SS_TG5TA.39
+- _$sSy10FoundationE21addingPercentEncoding33_A90579D1FA072CB135F95EF00BA46450LL15forURLComponent18skipAlreadyEncodedSSAA0M11AllowedMaskV_SbtFSSSRys5UInt8VGXEfU_Ss_TG5TA.119
+- _$sSy10FoundationE21addingPercentEncoding33_A90579D1FA072CB135F95EF00BA46450LL15forURLComponent18skipAlreadyEncodedSSAA0M11AllowedMaskV_SbtFSSSRys5UInt8VGXEfU_Ss_TG5TA.120
+- _$sSy10FoundationE21addingPercentEncoding33_A90579D1FA072CB135F95EF00BA46450LL15forURLComponent18skipAlreadyEncodedSSAA0M11AllowedMaskV_SbtFSSSRys5UInt8VGXEfU_Ss_TG5TA.121
+- _$sSy10FoundationE21addingPercentEncoding33_A90579D1FA072CB135F95EF00BA46450LL15forURLComponent18skipAlreadyEncodedSSAA0M11AllowedMaskV_SbtFSSSRys5UInt8VGXEfU_Ss_TG5TA.93
+- _$sSy10FoundationE21addingPercentEncoding33_A90579D1FA072CB135F95EF00BA46450LL15forURLComponent18skipAlreadyEncodedSSAA0M11AllowedMaskV_SbtFSSSRys5UInt8VGXEfU_Ss_TG5TA.94
+- _$sSy10FoundationE21addingPercentEncoding33_A90579D1FA072CB135F95EF00BA46450LL15forURLComponent18skipAlreadyEncodedSSAA0M11AllowedMaskV_SbtFSSSRys5UInt8VGXEfU_Ss_TG5TA.95
+- _$sSy10FoundationE26removingURLPercentEncoding33_A90579D1FA072CB135F95EF00BA46450LL9excluding8encodingSSSgShys5UInt8VG_SSAAE0D0VtFAFSRyAHGXEfU_SS_TG5TA.104
+- _$sSy10FoundationE26removingURLPercentEncoding33_A90579D1FA072CB135F95EF00BA46450LL9excluding8encodingSSSgShys5UInt8VG_SSAAE0D0VtFAFSRyAHGXEfU_SS_TG5TA.105
+- _$sSy10FoundationE26removingURLPercentEncoding33_A90579D1FA072CB135F95EF00BA46450LL9excluding8encodingSSSgShys5UInt8VG_SSAAE0D0VtFAFSRyAHGXEfU_SS_TG5TA.63
+- _$sSy10FoundationE26removingURLPercentEncoding33_A90579D1FA072CB135F95EF00BA46450LL9excluding8encodingSSSgShys5UInt8VG_SSAAE0D0VtFAFSRyAHGXEfU_Ss_TG5TA.100
+- _$sSy10FoundationE26removingURLPercentEncoding33_A90579D1FA072CB135F95EF00BA46450LL9excluding8encodingSSSgShys5UInt8VG_SSAAE0D0VtFAFSRyAHGXEfU_Ss_TG5TA.101
+- _$sSy10FoundationE26removingURLPercentEncoding33_A90579D1FA072CB135F95EF00BA46450LL9excluding8encodingSSSgShys5UInt8VG_SSAAE0D0VtFAFSRyAHGXEfU_Ss_TG5TA.107
+- _$sSy10FoundationE26removingURLPercentEncoding33_A90579D1FA072CB135F95EF00BA46450LL9excluding8encodingSSSgShys5UInt8VG_SSAAE0D0VtFAFSRyAHGXEfU_Ss_TG5TA.99
+- __NSGetUnsignedInt2
+- _keypath_set.41Tm
+- _keypath_set.43Tm
+- _keypath_set.51Tm
+- _keypath_set.53Tm
+Functions:
+~ _$s10Foundation11_BridgedURLC9appending4path13directoryHintAA0C0VSgx_AH09DirectoryG0OtSyRzlF : 3924 -> 4280
+~ _$s10Foundation11_BridgedURLC22appendingPathComponentyAA0C0VSgSSF : 3488 -> 3932
+~ _$s10Foundation13URLComponentsV01_B0V16_uncheckedString8originalSSSb_tF : 4940 -> 5132
+~ _$s10Foundation11_BridgedURLC22appendingPathComponent_11isDirectoryAA0C0VSgSS_SbtF : 3552 -> 4044
+~ -[NSSubqueryExpression predicate] : 24 -> 28
+~ ___NSFinalizeThreadData : 972 -> 984
+~ _$ss6UInt16Vs21_ObjectiveCBridgeable10FoundationsACP024_conditionallyBridgeFromB1C_6resultSb01_B5CTypeQz_xSgztFZTW : 152 -> 156
+~ _$s10Foundation4DataV15_RepresentationO15replaceSubrange_4with5countySnySiG_SVSgSitF : 1988 -> 2000
+~ _$s10Foundation4DataV6appendyyACF : 476 -> 480
+~ _$s10Foundation13URLComponentsV4pathSSvg : 1056 -> 1492
+~ -[NSUnarchiver decodeValueOfObjCType:at:] : 148 -> 144
+~ -[NSIndexSet initWithCoder:] : 832 -> 912
+~ -[NSIndexPath initWithCoder:] : 1248 -> 1340
+~ -[NSRunLoop(NSRunLoop) dealloc] : 168 -> 156
+- __NSGetUnsignedInt2
+~ -[NSUbiquitousKeyValueStore setData:forKey:] : 188 -> 200
+~ _$s10Foundation3URLV13ParseStrategyV8validate33_A01ABE4B92FBB7740946FF347E50CFEELLySbAA13URLComponentsVF : 5128 -> 5616
+~ _$s10Foundation3URLV13ParseStrategyV17fillDefaultValues33_A01ABE4B92FBB7740946FF347E50CFEELL3foryAA13URLComponentsVz_tF : 6512 -> 6852
+~ _$s10Foundation3URLV13ParseStrategyV5parseyACSSKF : 5000 -> 5016
+- _$sSS_yptWOc
++ _$sSS_yptWOc
++ _$sSSSgWOc
++ _$s10Foundation13URLComponentsV01_B0V9isFileURL33_B5B4F7D37EB01AEFDA851AD2BCAB8395LLSbvg
+~ _$s10Foundation13URLComponentsV4pathSSvM : 1024 -> 1384
+~ _$s10Foundation13URLComponentsV4pathSSvM.resume.0 : 116 -> 124
+~ _$s10Foundation13URLComponentsV12customMirrors0D0Vvg : 5896 -> 6004
+~ _$s10Foundation13URLComponentsV6encode2toys7Encoder_p_tKF : 5932 -> 6196
+~ _$s10Foundation21_NSSwiftURLComponentsC4pathSSSgvg : 1200 -> 1568
+~ _$s10Foundation3URLV11FormatStyleV23generateFormattedString33_F8B4154C969F98989DA6333BFCB7F2FELL4from14useEncodedHostSSAA13URLComponentsV_SbtF : 7064 -> 7248
+~ -[NSMutableDictionary(NSURLExtras) _web_setObject:forUncopiedKey:] : 12 -> 20
++ __NSGetUnsignedInt
+~ -[NSLookupMatch setLanguageIdentifier:] : 12 -> 20
+
+```

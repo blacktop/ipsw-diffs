@@ -1,0 +1,188 @@
+## CarAssetUtils
+
+> `/System/Library/PrivateFrameworks/CarAssetUtils.framework/CarAssetUtils`
+
+```diff
+
+-471.29.3.0.0
+-  __TEXT.__text: 0x3eb2c
+-  __TEXT.__auth_stubs: 0xd80
++471.34.0.0.0
++  __TEXT.__text: 0x3cac4
++  __TEXT.__auth_stubs: 0xd50
+   __TEXT.__objc_methlist: 0x2d4
+-  __TEXT.__const: 0x91b8
+-  __TEXT.__swift5_typeref: 0x1a0c
+-  __TEXT.__constg_swiftt: 0x14dc
+-  __TEXT.__swift5_reflstr: 0x142b
+-  __TEXT.__swift5_fieldmd: 0x2130
++  __TEXT.__const: 0x8ff8
++  __TEXT.__swift5_typeref: 0x191e
++  __TEXT.__constg_swiftt: 0x14c8
++  __TEXT.__swift5_reflstr: 0x13cb
++  __TEXT.__swift5_fieldmd: 0x20d8
+   __TEXT.__swift5_builtin: 0x3c
+-  __TEXT.__cstring: 0x102d
+-  __TEXT.__swift5_proto: 0x9a0
+-  __TEXT.__swift5_types: 0x264
++  __TEXT.__cstring: 0xffd
++  __TEXT.__swift5_proto: 0x98c
++  __TEXT.__swift5_types: 0x260
+   __TEXT.__oslogstring: 0x444
+-  __TEXT.__swift5_assocty: 0x390
++  __TEXT.__swift5_assocty: 0x360
+   __TEXT.__swift5_protos: 0x4
+   __TEXT.__swift5_capture: 0xb4
+   __TEXT.__swift_as_entry: 0xc
+   __TEXT.__swift_as_ret: 0x8
+   __TEXT.__swift5_mpenum: 0x18
+-  __TEXT.__unwind_info: 0x1928
+-  __TEXT.__eh_frame: 0x23e8
++  __TEXT.__unwind_info: 0x18e0
++  __TEXT.__eh_frame: 0x2458
+   __TEXT.__objc_classname: 0x207
+   __TEXT.__objc_methname: 0x6aa
+   __TEXT.__objc_methtype: 0x2eb
+   __TEXT.__objc_stubs: 0x320
+-  __DATA_CONST.__got: 0x190
++  __DATA_CONST.__got: 0x180
+   __DATA_CONST.__const: 0x1f0
+   __DATA_CONST.__objc_classlist: 0x30
+   __DATA_CONST.__objc_protolist: 0x50
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_selrefs: 0x1d0
+   __DATA_CONST.__objc_protorefs: 0x30
+-  __AUTH_CONST.__auth_got: 0x6c8
+-  __AUTH_CONST.__const: 0x69a1
++  __AUTH_CONST.__auth_got: 0x6b0
++  __AUTH_CONST.__const: 0x6779
+   __AUTH_CONST.__objc_const: 0x6f0
+   __AUTH.__objc_data: 0x428
+   __AUTH.__data: 0x298
+-  __DATA.__data: 0x1858
+-  __DATA.__bss: 0x12a20
++  __DATA.__data: 0x1830
++  __DATA.__bss: 0x127a0
+   __DATA.__common: 0x20
+   __DATA_DIRTY.__objc_data: 0x68
+   __DATA_DIRTY.__data: 0x50
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: BD051133-D6CC-3A7B-B45D-2A090FAFE2E4
+-  Functions: 2524
+-  Symbols:   1022
+-  CStrings:  348
++  UUID: E2DEF600-4213-3B49-B9FA-FD4C4AB9EF6F
++  Functions: 2496
++  Symbols:   1004
++  CStrings:  341
+ 
+Symbols:
++ ___swift_memcpy138_8
++ ___swift_memcpy20_8
++ ___swift_memcpy237_8
++ _associated conformance 13CarAssetUtils17CAUSymbolOverrideV10CodingKeys33_A42158674F22FD470134F5C4EBE9A06ALLOSHAASQ
++ _associated conformance 13CarAssetUtils17CAUSymbolOverrideV10CodingKeys33_A42158674F22FD470134F5C4EBE9A06ALLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 13CarAssetUtils17CAUSymbolOverrideV10CodingKeys33_A42158674F22FD470134F5C4EBE9A06ALLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 13CarAssetUtils22ClimateSymbolOverridesV0E13ConfigurationV10CodingKeys33_A42158674F22FD470134F5C4EBE9A06ALLOSHAASQ
++ _associated conformance 13CarAssetUtils22ClimateSymbolOverridesV0E13ConfigurationV10CodingKeys33_A42158674F22FD470134F5C4EBE9A06ALLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 13CarAssetUtils22ClimateSymbolOverridesV0E13ConfigurationV10CodingKeys33_A42158674F22FD470134F5C4EBE9A06ALLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 13CarAssetUtils22ClimateSymbolOverridesV10CodingKeys33_A42158674F22FD470134F5C4EBE9A06ALLOSHAASQ
++ _associated conformance 13CarAssetUtils22ClimateSymbolOverridesV10CodingKeys33_A42158674F22FD470134F5C4EBE9A06ALLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 13CarAssetUtils22ClimateSymbolOverridesV10CodingKeys33_A42158674F22FD470134F5C4EBE9A06ALLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 13CarAssetUtils38DriveModeThemeAssociationConfigurationV10CodingKeys33_6787D484C66D343B3AF375CFFC225911LLOSHAASQ
++ _associated conformance 13CarAssetUtils38DriveModeThemeAssociationConfigurationV10CodingKeys33_6787D484C66D343B3AF375CFFC225911LLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 13CarAssetUtils38DriveModeThemeAssociationConfigurationV10CodingKeys33_6787D484C66D343B3AF375CFFC225911LLOs0I3KeyAAs28CustomDebugStringConvertible
++ _symbolic SDy_____SDy_____SDy__________GGG 13CarAssetUtils22ClimateSymbolOverridesV4KindO AC11LayoutStyleO AC17PresentationStateO AC0E13ConfigurationV
++ _symbolic SDy_____SDy__________GG 13CarAssetUtils22ClimateSymbolOverridesV11LayoutStyleO AC17PresentationStateO AC0E13ConfigurationV
++ _symbolic SbSg
++ _symbolic _____ 13CarAssetUtils17CAUSymbolOverrideV10CodingKeys33_A42158674F22FD470134F5C4EBE9A06ALLO
++ _symbolic _____ 13CarAssetUtils22ClimateSymbolOverridesV0E13ConfigurationV10CodingKeys33_A42158674F22FD470134F5C4EBE9A06ALLO
++ _symbolic _____ 13CarAssetUtils22ClimateSymbolOverridesV10CodingKeys33_A42158674F22FD470134F5C4EBE9A06ALLO
++ _symbolic _____ 13CarAssetUtils38DriveModeThemeAssociationConfigurationV
++ _symbolic _____ 13CarAssetUtils38DriveModeThemeAssociationConfigurationV10CodingKeys33_6787D484C66D343B3AF375CFFC225911LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 13CarAssetUtils17CAUSymbolOverrideV10CodingKeys33_A42158674F22FD470134F5C4EBE9A06ALLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 13CarAssetUtils22ClimateSymbolOverridesV0H13ConfigurationV10CodingKeys33_A42158674F22FD470134F5C4EBE9A06ALLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 13CarAssetUtils22ClimateSymbolOverridesV10CodingKeys33_A42158674F22FD470134F5C4EBE9A06ALLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 13CarAssetUtils38DriveModeThemeAssociationConfigurationV10CodingKeys33_6787D484C66D343B3AF375CFFC225911LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 13CarAssetUtils17CAUSymbolOverrideV10CodingKeys33_A42158674F22FD470134F5C4EBE9A06ALLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 13CarAssetUtils22ClimateSymbolOverridesV0H13ConfigurationV10CodingKeys33_A42158674F22FD470134F5C4EBE9A06ALLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 13CarAssetUtils22ClimateSymbolOverridesV10CodingKeys33_A42158674F22FD470134F5C4EBE9A06ALLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 13CarAssetUtils38DriveModeThemeAssociationConfigurationV10CodingKeys33_6787D484C66D343B3AF375CFFC225911LLO
++ _type_layout_string 13CarAssetUtils38DriveModeThemeAssociationConfigurationV
+- ___swift_memcpy11_8
+- ___swift_memcpy153_8
+- ___swift_memcpy253_8
+- _associated conformance 13CarAssetUtils17CAUSymbolOverrideV10CodingKeysOSHAASQ
+- _associated conformance 13CarAssetUtils17CAUSymbolOverrideV10CodingKeysOs0F3KeyAAs23CustomStringConvertible
+- _associated conformance 13CarAssetUtils17CAUSymbolOverrideV10CodingKeysOs0F3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 13CarAssetUtils22ClimateSymbolOverridesV0E13ConfigurationV10CodingKeysOSHAASQ
+- _associated conformance 13CarAssetUtils22ClimateSymbolOverridesV0E13ConfigurationV10CodingKeysOs0H3KeyAAs23CustomStringConvertible
+- _associated conformance 13CarAssetUtils22ClimateSymbolOverridesV0E13ConfigurationV10CodingKeysOs0H3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 13CarAssetUtils22ClimateSymbolOverridesV10CodingKeysOSHAASQ
+- _associated conformance 13CarAssetUtils22ClimateSymbolOverridesV10CodingKeysOs0G3KeyAAs23CustomStringConvertible
+- _associated conformance 13CarAssetUtils22ClimateSymbolOverridesV10CodingKeysOs0G3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 13CarAssetUtils22ClimateSymbolOverridesV17FlexibleCodingKey33_A42158674F22FD470134F5C4EBE9A06ALLVs0hI0AAs23CustomStringConvertible
+- _associated conformance 13CarAssetUtils22ClimateSymbolOverridesV17FlexibleCodingKey33_A42158674F22FD470134F5C4EBE9A06ALLVs0hI0AAs28CustomDebugStringConvertible
+- _associated conformance 13CarAssetUtils32DriveModeThemeAssociationEnabledO12OnCodingKeys33_6787D484C66D343B3AF375CFFC225911LLOs0J3KeyAAs23CustomStringConvertible
+- _associated conformance 13CarAssetUtils32DriveModeThemeAssociationEnabledO12OnCodingKeys33_6787D484C66D343B3AF375CFFC225911LLOs0J3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 13CarAssetUtils32DriveModeThemeAssociationEnabledO13OffCodingKeys33_6787D484C66D343B3AF375CFFC225911LLOs0J3KeyAAs23CustomStringConvertible
+- _associated conformance 13CarAssetUtils32DriveModeThemeAssociationEnabledO13OffCodingKeys33_6787D484C66D343B3AF375CFFC225911LLOs0J3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 13CarAssetUtils32DriveModeThemeAssociationEnabledOSHAASQ
+- _swift_initStackObject
+- _swift_setDeallocating
+- _symbolic SiSg
+- _symbolic _____ 13CarAssetUtils17CAUSymbolOverrideV10CodingKeysO
+- _symbolic _____ 13CarAssetUtils22ClimateSymbolOverridesV0E13ConfigurationV10CodingKeysO
+- _symbolic _____ 13CarAssetUtils22ClimateSymbolOverridesV10CodingKeysO
+- _symbolic _____ 13CarAssetUtils22ClimateSymbolOverridesV17FlexibleCodingKey33_A42158674F22FD470134F5C4EBE9A06ALLV
+- _symbolic _____ 13CarAssetUtils32DriveModeThemeAssociationEnabledO12OnCodingKeys33_6787D484C66D343B3AF375CFFC225911LLO
+- _symbolic _____ 13CarAssetUtils32DriveModeThemeAssociationEnabledO13OffCodingKeys33_6787D484C66D343B3AF375CFFC225911LLO
+- _symbolic ______SDy__________Gt 13CarAssetUtils22ClimateSymbolOverridesV11LayoutStyleO AC17PresentationStateO AC0E13ConfigurationV
+- _symbolic _____y_____G s22KeyedDecodingContainerV 13CarAssetUtils17CAUSymbolOverrideV10CodingKeysO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 13CarAssetUtils22ClimateSymbolOverridesV0H13ConfigurationV10CodingKeysO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 13CarAssetUtils22ClimateSymbolOverridesV10CodingKeysO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 13CarAssetUtils22ClimateSymbolOverridesV17FlexibleCodingKey33_A42158674F22FD470134F5C4EBE9A06ALLV
+- _symbolic _____y_____G s22KeyedDecodingContainerV 13CarAssetUtils22ClimateSymbolOverridesV4KindO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 13CarAssetUtils17CAUSymbolOverrideV10CodingKeysO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 13CarAssetUtils22ClimateSymbolOverridesV0H13ConfigurationV10CodingKeysO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 13CarAssetUtils22ClimateSymbolOverridesV10CodingKeysO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 13CarAssetUtils22ClimateSymbolOverridesV11LayoutStyleO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 13CarAssetUtils22ClimateSymbolOverridesV17PresentationStateO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 13CarAssetUtils22ClimateSymbolOverridesV4KindO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 13CarAssetUtils32DriveModeThemeAssociationEnabledO12OnCodingKeys33_6787D484C66D343B3AF375CFFC225911LLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 13CarAssetUtils32DriveModeThemeAssociationEnabledO13OffCodingKeys33_6787D484C66D343B3AF375CFFC225911LLO
+- _symbolic _____y_____GSg s22KeyedDecodingContainerV 13CarAssetUtils22ClimateSymbolOverridesV10CodingKeysO
+- _symbolic _____y_____SDy_____SDy__________GGG s18_DictionaryStorageC 13CarAssetUtils22ClimateSymbolOverridesV4KindO AE11LayoutStyleO AE17PresentationStateO AE0G13ConfigurationV
+- _symbolic _____y_____SDy__________GG s18_DictionaryStorageC 13CarAssetUtils22ClimateSymbolOverridesV11LayoutStyleO AE17PresentationStateO AE0G13ConfigurationV
+- _symbolic _____y______SDy__________GtG s23_ContiguousArrayStorageC 13CarAssetUtils22ClimateSymbolOverridesV11LayoutStyleO AE17PresentationStateO AE0H13ConfigurationV
+- _symbolic _____y__________G s18_DictionaryStorageC 13CarAssetUtils11CAUGridSizeV4KindO AE
+- _symbolic _____y__________G s18_DictionaryStorageC 13CarAssetUtils22ClimateSymbolOverridesV17PresentationStateO AE0G13ConfigurationV
+- _symbolic _____y___________tG s23_ContiguousArrayStorageC 13CarAssetUtils11CAUGridSizeV4KindO AE
+- _type_layout_string 13CarAssetUtils22ClimateSymbolOverridesV17FlexibleCodingKey33_A42158674F22FD470134F5C4EBE9A06ALLV
+CStrings:
++ ", allowManualUnlinking: "
++ "DriveModeThemeAssociationConfiguration(allowManualUnlinking: "
++ "allowManualUnlinking"
++ "bottom_label_bottom_padding"
++ "label_to_vehicle_padding"
++ "top_label_top_padding"
++ "use_color_coded_tires"
+- "fanLeft"
+- "fanRight"
+- "left_bottom_label_bottom_padding"
+- "left_top_label_top_padding"
+- "overrides"
+- "primaryColor"
+- "quickControlsSize"
+- "right_bottom_label_bottom_padding"
+- "right_top_label_top_padding"
+- "secondaryColor"
+- "symbols"
+- "tertiaryColor"
+- "windshieldFront"
+- "windshieldRear"
+
+```

@@ -1,0 +1,223 @@
+## CAFCombine
+
+> `/System/Library/PrivateFrameworks/CAFCombine.framework/CAFCombine`
+
+```diff
+
+-515.29.0.0.0
+-  __TEXT.__text: 0x135d3c
+-  __TEXT.__auth_stubs: 0x1380
+-  __TEXT.__objc_methlist: 0x7594
+-  __TEXT.__const: 0x1ac74
+-  __TEXT.__swift5_typeref: 0xa350
+-  __TEXT.__cstring: 0x55da
++515.34.1.0.0
++  __TEXT.__text: 0x137348
++  __TEXT.__auth_stubs: 0x13e0
++  __TEXT.__objc_methlist: 0x75c4
++  __TEXT.__const: 0x1ad4c
++  __TEXT.__swift5_typeref: 0xa3a4
++  __TEXT.__cstring: 0x5618
+   __TEXT.__oslogstring: 0xc
+   __TEXT.__swift5_capture: 0x240
+-  __TEXT.__constg_swiftt: 0x8898
++  __TEXT.__constg_swiftt: 0x88d4
+   __TEXT.__swift5_builtin: 0x474
+-  __TEXT.__swift5_reflstr: 0x821c
+-  __TEXT.__swift5_fieldmd: 0x3fbc
++  __TEXT.__swift5_reflstr: 0x8270
++  __TEXT.__swift5_fieldmd: 0x3ffc
+   __TEXT.__swift5_assocty: 0x2dc8
+   __TEXT.__swift5_proto: 0x994
+-  __TEXT.__swift5_types: 0x2fc
++  __TEXT.__swift5_types: 0x300
+   __TEXT.__swift_as_entry: 0xc
+   __TEXT.__swift_as_ret: 0xc
+   __TEXT.__swift5_protos: 0x14
+-  __TEXT.__unwind_info: 0x80c8
+-  __TEXT.__eh_frame: 0x2040
+-  __TEXT.__objc_classname: 0x2dd9
+-  __TEXT.__objc_methname: 0xf18f
+-  __TEXT.__objc_methtype: 0x41c5
+-  __TEXT.__objc_stubs: 0x6540
+-  __DATA_CONST.__got: 0xad0
++  __TEXT.__unwind_info: 0x8020
++  __TEXT.__eh_frame: 0x2020
++  __TEXT.__objc_classname: 0x2dd3
++  __TEXT.__objc_methname: 0xf30f
++  __TEXT.__objc_methtype: 0x420b
++  __TEXT.__objc_stubs: 0x66c0
++  __DATA_CONST.__got: 0xae0
+   __DATA_CONST.__const: 0x1588
+   __DATA_CONST.__objc_classlist: 0x3e0
+   __DATA_CONST.__objc_protolist: 0x850
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x2e60
++  __DATA_CONST.__objc_selrefs: 0x2ed0
+   __DATA_CONST.__objc_protorefs: 0x428
+-  __AUTH_CONST.__auth_got: 0x9c8
+-  __AUTH_CONST.__const: 0x2250
+-  __AUTH_CONST.__objc_const: 0x2b210
+-  __AUTH.__objc_data: 0xdad8
+-  __AUTH.__data: 0x3f00
+-  __DATA.__data: 0xb5c0
+-  __DATA.__bss: 0x157b0
++  __AUTH_CONST.__auth_got: 0x9f8
++  __AUTH_CONST.__const: 0x22d0
++  __AUTH_CONST.__objc_const: 0x2b260
++  __AUTH.__objc_data: 0xdb08
++  __AUTH.__data: 0x3ef8
++  __DATA.__data: 0xb608
++  __DATA.__bss: 0x157c0
+   __DATA.__common: 0x8
+   __DATA_DIRTY.__objc_data: 0x100
+   __DATA_DIRTY.__data: 0xa0
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 8C0C941A-4EDA-3792-986F-816B3F59A5A2
+-  Functions: 16590
+-  Symbols:   49761
+-  CStrings:  2999
++  UUID: DAA292FC-EB3B-303C-B364-5421CC2D55F4
++  Functions: 16622
++  Symbols:   49872
++  CStrings:  3019
+ 
+Symbols:
++ _$s10CAFCombine21SafeReadOnlyPublishedC14projectedValue7Combine12AnyPublisherVyq_s5NeverOGvgAA26CAFButtonSettingObservableC_SfSgTg5
++ _$s10CAFCombine21SafeReadOnlyPublishedC14projectedValue7Combine12AnyPublisherVyq_s5NeverOGvgq_SgAKcfU_AA26CAFButtonSettingObservableC_SfSgTG5
++ _$s10CAFCombine21SafeReadOnlyPublishedC14projectedValue7Combine12AnyPublisherVyq_s5NeverOGvgq_SgAKcfU_AA26CAFButtonSettingObservableC_SfSgTG5Tm
++ _$s10CAFCombine21SafeReadOnlyPublishedC14projectedValue7Combine12AnyPublisherVyq_s5NeverOGvgq_SgAKcfU_AA26CAFButtonSettingObservableC_SfSgTg5
++ _$s10CAFCombine21SafeReadOnlyPublishedC20observedValuekeypathACyxq_Gs7KeyPathCy8ObservedQzq_G_tcfcAA26CAFButtonSettingObservableC_SfSgTg5
++ _$s10CAFCombine21SafeReadOnlyPublishedC5valueq_SgvsAA26CAFButtonSettingObservableC_SfSgTg5
++ _$s10CAFCombine21SafeReadOnlyPublishedCyAA26CAFButtonSettingObservableCSfSgGMR
++ _$s10CAFCombine21SafeReadOnlyPublishedCyAA26CAFButtonSettingObservableCSfSgGMd
++ _$s10CAFCombine26CAFButtonSettingObservableC06buttonC7Service_27didUpdateHeartbeatFrequencyySo0bC0C_SftF
++ _$s10CAFCombine26CAFButtonSettingObservableC06buttonC7Service_27didUpdateHeartbeatFrequencyySo0bC0C_SftFTo
++ _$s10CAFCombine26CAFButtonSettingObservableC06buttonC7Service_29didUpdateSupportsPressAndHoldySo0bC0C_SbtF
++ _$s10CAFCombine26CAFButtonSettingObservableC06buttonC7Service_29didUpdateSupportsPressAndHoldySo0bC0C_SbtFTo
++ _$s10CAFCombine26CAFButtonSettingObservableC18heartbeatFrequencySfSgvg
++ _$s10CAFCombine26CAFButtonSettingObservableC18heartbeatFrequencySfSgvgTj
++ _$s10CAFCombine26CAFButtonSettingObservableC18heartbeatFrequencySfSgvgTq
++ _$s10CAFCombine26CAFButtonSettingObservableC18heartbeatFrequencySfSgvpMV
++ _$s10CAFCombine26CAFButtonSettingObservableC19$heartbeatFrequency7Combine12AnyPublisherVySfSgs5NeverOGvg
++ _$s10CAFCombine26CAFButtonSettingObservableC19$heartbeatFrequency7Combine12AnyPublisherVySfSgs5NeverOGvgTj
++ _$s10CAFCombine26CAFButtonSettingObservableC19$heartbeatFrequency7Combine12AnyPublisherVySfSgs5NeverOGvgTq
++ _$s10CAFCombine26CAFButtonSettingObservableC19$heartbeatFrequency7Combine12AnyPublisherVySfSgs5NeverOGvpMV
++ _$s10CAFCombine26CAFButtonSettingObservableC19_heartbeatFrequency33_08080FF9A805F1D00241845F91520EE1LLAA21SafeReadOnlyPublishedCyACSfSgGvpWvd
++ _$s10CAFCombine26CAFButtonSettingObservableC20supportsPressAndHoldSbSgvg
++ _$s10CAFCombine26CAFButtonSettingObservableC20supportsPressAndHoldSbSgvgTj
++ _$s10CAFCombine26CAFButtonSettingObservableC20supportsPressAndHoldSbSgvgTq
++ _$s10CAFCombine26CAFButtonSettingObservableC20supportsPressAndHoldSbSgvpMV
++ _$s10CAFCombine26CAFButtonSettingObservableC21$supportsPressAndHold7Combine12AnyPublisherVySbSgs5NeverOGvg
++ _$s10CAFCombine26CAFButtonSettingObservableC21$supportsPressAndHold7Combine12AnyPublisherVySbSgs5NeverOGvgTj
++ _$s10CAFCombine26CAFButtonSettingObservableC21$supportsPressAndHold7Combine12AnyPublisherVySbSgs5NeverOGvgTq
++ _$s10CAFCombine26CAFButtonSettingObservableC21$supportsPressAndHold7Combine12AnyPublisherVySbSgs5NeverOGvpMV
++ _$s10CAFCombine26CAFButtonSettingObservableC21_supportsPressAndHold33_08080FF9A805F1D00241845F91520EE1LLAA21SafeReadOnlyPublishedCyACSbSgGvpWvd
++ _$s10CAFCombine30FormattedMeasurementComponentsV12numericValueSSvg
++ _$s10CAFCombine30FormattedMeasurementComponentsV12numericValueSSvpMV
++ _$s10CAFCombine30FormattedMeasurementComponentsV4unitSSvg
++ _$s10CAFCombine30FormattedMeasurementComponentsV4unitSSvpMV
++ _$s10CAFCombine30FormattedMeasurementComponentsV9formattedSSvg
++ _$s10CAFCombine30FormattedMeasurementComponentsV9formattedSSvpMV
++ _$s10CAFCombine30FormattedMeasurementComponentsVMF
++ _$s10CAFCombine30FormattedMeasurementComponentsVMa
++ _$s10CAFCombine30FormattedMeasurementComponentsVMf
++ _$s10CAFCombine30FormattedMeasurementComponentsVMn
++ _$s10CAFCombine30FormattedMeasurementComponentsVN
++ _$s10CAFCombine30FormattedMeasurementComponentsVWV
++ _$s10CAFCombine30FormattedMeasurementComponentsVwet
++ _$s10CAFCombine30FormattedMeasurementComponentsVwst
++ _$s10Foundation11MeasurementV10CAFCombineSo11NSDimensionCRbzrlE04makeB9Formatter33_7209219363774640AE59D01BFA5E036ALLSo013NSMeasurementF0CyFZ
++ _$s10Foundation11MeasurementV10CAFCombineSo11NSDimensionCRbzrlE04makeB9Formatter33_7209219363774640AE59D01BFA5E036ALLSo013NSMeasurementF0CyFZAF_Ttg5
++ _$s10Foundation11MeasurementV10CAFCombineSo11NSDimensionCRbzrlE10components33_7209219363774640AE59D01BFA5E036ALL5usingAD09FormattedB10ComponentsVSo22NSMeasurementFormatterC_tF
++ _$s10Foundation11MeasurementV10CAFCombineSo11NSDimensionCRbzrlE10components33_7209219363774640AE59D01BFA5E036ALL5usingAD09FormattedB10ComponentsVSo22NSMeasurementFormatterC_tFAF_Tg5
++ _$s10Foundation11MeasurementV10CAFCombineSo11NSDimensionCRbzrlE19formattedComponents19exactFractionDigitsAD09FormattedbF0VSi_tF
++ _$s10Foundation11MeasurementV10CAFCombineSo11NSDimensionCRbzrlE19formattedComponents21maximumFractionDigitsAD09FormattedbF0VSi_tF
++ _$s10Foundation11MeasurementV10CAFCombineSo17NSUnitTemperatureCRszrlE13isMinMaxLabel2in03minhI0SbSo13CAFFloatRangeCSg_So014CAFTemperatureghI0VtF
++ _$s10Foundation11MeasurementV5value4unitACyxGSd_xtcfC
++ _$s10Foundation11MeasurementVySo11NSDimensionCGMR
++ _$s10Foundation11MeasurementVySo11NSDimensionCGMd
++ _$s10Foundation12CharacterSetV11whitespacesACvgZ
++ _$s10Foundation12CharacterSetVMa
++ _$s10Foundation6LocaleVMn
++ _$s10Foundation6LocaleVSgMR
++ _$s10Foundation6LocaleVSgMd
++ _$s10Foundation6LocaleVSgWOh
++ _$sS2SSlsWL
++ _$sS2SSlsWl
++ _$sSS15replaceSubrange_4withySnySS5IndexVG_xtSlRzSJ7ElementRtzlF
++ _$sSSSlsMc
++ _$sSYsSHRzSH8RawValueSYRpzrlE04hashB0SivgSo21CAFAutoClimateControlC10CAFCombineE0D13ModeIntensityO_TB5
++ _$sSYsSHRzSH8RawValueSYRpzrlE04hashB0SivgSo7CAFVentC10CAFCombineE13ConfigurationO_TB5Tm
++ _$sSYsSHRzSH8RawValueSYRpzrlE08_rawHashB04seedS2i_tFSo21CAFAutoClimateControlC10CAFCombineE0F13ModeIntensityO_TB5
++ _$sSo11NSDimensionC10CAFCombineE15localizedSymbolSSyF
++ _$sSo11NSDimensionCML
++ _$sSo16CAFButtonSettingC10CAFCombineE25heartbeatFrequencyBridged33_08080FF9A805F1D00241845F91520EE1LLSfSgvg
++ _$sSo16CAFButtonSettingC10CAFCombineE25heartbeatFrequencyBridged33_08080FF9A805F1D00241845F91520EE1LLSfSgvpABTK
++ _$sSo16CAFButtonSettingC10CAFCombineE27supportsPressAndHoldBridged33_08080FF9A805F1D00241845F91520EE1LLSbSgvg
++ _$sSo21CAFAutoClimateControlC10CAFCombineE10deactivateSbyF
++ _$sSo21CAFAutoClimateControlC10CAFCombineE11isAvailable33_762A37A1691AF1E48F17F48DEFFB72EALLSbvg
++ _$sSo21CAFAutoClimateControlC10CAFCombineE8activateSbyF
++ _$sSo21CAFAutoClimateControlC10CAFCombineE8isActiveSbSgvg
++ _$sSo21CAFAutoClimateControlC10CAFCombineE8isActiveSbSgvpMV
++ _$sSo21CAFAutoClimateControlC10CAFCombineE8setLevelySbs5UInt8VF
++ _$sSp14moveInitialize4from5countySpyxG_SitFSo12CAFMediaItemC_Tg5
++ _$sSp14moveInitialize4from5countySpyxG_SitFs6UInt32V_Tg5
++ _$sSy10FoundationE18trimmingCharacters2inSSAA12CharacterSetV_tF
++ _$sSy10FoundationE5range2of7optionsAB6localeSnySS5IndexVGSgqd___So22NSStringCompareOptionsVAiA6LocaleVSgtSyRd__lF
++ _OBJC_CLASS_$_NSDimension
++ ___swift_memcpy32_8
++ _objc_msgSend$hasHeartbeatFrequency
++ _objc_msgSend$hasSupportsPressAndHold
++ _objc_msgSend$heartbeatFrequency
++ _objc_msgSend$initWithDouble:
++ _objc_msgSend$levelDisabled
++ _objc_msgSend$levelInvalid
++ _objc_msgSend$levelRange
++ _objc_msgSend$registeredForSupportsPressAndHold
++ _objc_msgSend$registeredForheartbeatFrequency
++ _objc_msgSend$setPositiveInfinitySymbol:
++ _objc_msgSend$supportsPressAndHold
++ _objc_msgSend$symbol
++ _symbolic _____ 10CAFCombine30FormattedMeasurementComponentsV
++ _symbolic _____Sg 10Foundation6LocaleV
++ _symbolic _____ySo11NSDimensionCG 10Foundation11MeasurementV
++ _symbolic _____y_____SfSgG 10CAFCombine21SafeReadOnlyPublishedC AA26CAFButtonSettingObservableC
++ _type_layout_string 10CAFCombine30FormattedMeasurementComponentsV
+- _$s10CAFCombine13SafePublishedC14projectedValue7Combine12AnyPublisherVyq_s5NeverOGvgq_SgAKcfU_AA31CAFAutoClimateControlObservableC_s6UInt32VSgTG5Tm
+- _$sSYsSHRzSH8RawValueSYRpzrlE04hashB0Sivg10CAFCombine29CAFAutomakerOverlayIdentifierO_TB5
+- _$sSYsSHRzSH8RawValueSYRpzrlE04hashB0Sivg10CAFCombine29CAFAutomakerOverlayIdentifierO_TB5Tm
+- _$sSYsSHRzSH8RawValueSYRpzrlE08_rawHashB04seedS2i_tF10CAFCombine29CAFAutomakerOverlayIdentifierO_TB5
+- _$ss22_ContiguousArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFs4Int8V_Tg5
+- _$ss22_ContiguousArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFs5Int16V_Tg5
+- _$ss22_ContiguousArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFs5Int32V_Tg5
+- _$ss22_ContiguousArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFs5Int64V_Tg5
+- _$ss22_ContiguousArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFs5UInt8V_Tg5
+- _$ss22_ContiguousArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFs6UInt16V_Tg5
+- _$ss22_ContiguousArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFs6UInt64V_Tg5
+CStrings:
++ ", heartbeatFrequency: "
++ ", supportsPressAndHold: "
++ "_heartbeatFrequency"
++ "_supportsPressAndHold"
++ "buttonSettingService:didUpdateHeartbeatFrequency:"
++ "buttonSettingService:didUpdateSupportsPressAndHold:"
++ "hasHeartbeatFrequency"
++ "hasSupportsPressAndHold"
++ "heartbeatFrequency"
++ "initWithDouble:"
++ "levelDisabled"
++ "levelInvalid"
++ "levelRange"
++ "registeredForSupportsPressAndHold"
++ "registeredForheartbeatFrequency"
++ "setPositiveInfinitySymbol:"
++ "supportsPressAndHold"
++ "symbol"
++ "v28@0:8@\"CAFButtonSetting\"16B24"
++ "v28@0:8@\"CAFButtonSetting\"16f24"
+
+```

@@ -1,0 +1,717 @@
+## DashBoard
+
+> `/System/Library/PrivateFrameworks/DashBoard.framework/DashBoard`
+
+```diff
+
+-555.27.1.0.0
+-  __TEXT.__text: 0x2bd948
+-  __TEXT.__auth_stubs: 0x64c0
+-  __TEXT.__objc_methlist: 0x163e4
+-  __TEXT.__const: 0xaab4
+-  __TEXT.__cstring: 0xcac7
+-  __TEXT.__gcc_except_tab: 0x1e68
+-  __TEXT.__oslogstring: 0x151dc
+-  __TEXT.__swift5_typeref: 0xa340
+-  __TEXT.__swift5_fieldmd: 0x34cc
+-  __TEXT.__constg_swiftt: 0x62c4
+-  __TEXT.__swift5_reflstr: 0x4177
+-  __TEXT.__swift5_capture: 0x24c8
+-  __TEXT.__swift5_types: 0x4ec
+-  __TEXT.__swift5_assocty: 0x798
+-  __TEXT.__swift5_proto: 0x340
+-  __TEXT.__swift5_protos: 0x34
+-  __TEXT.__swift5_builtin: 0x280
+-  __TEXT.__swift_as_entry: 0xf4
++555.32.0.0.0
++  __TEXT.__text: 0x2c9cbc
++  __TEXT.__auth_stubs: 0x6530
++  __TEXT.__objc_methlist: 0x16774
++  __TEXT.__const: 0xb084
++  __TEXT.__cstring: 0xcd37
++  __TEXT.__gcc_except_tab: 0x1ea4
++  __TEXT.__oslogstring: 0x154cc
++  __TEXT.__swift5_typeref: 0xa56e
++  __TEXT.__swift5_fieldmd: 0x365c
++  __TEXT.__constg_swiftt: 0x6530
++  __TEXT.__swift5_reflstr: 0x4397
++  __TEXT.__swift5_capture: 0x24c0
++  __TEXT.__swift5_types: 0x54c
++  __TEXT.__swift5_assocty: 0x7c8
++  __TEXT.__swift5_proto: 0x370
++  __TEXT.__swift5_protos: 0x38
++  __TEXT.__swift5_builtin: 0x2d0
++  __TEXT.__swift_as_entry: 0xf8
+   __TEXT.__swift_as_ret: 0xe8
+   __TEXT.__swift5_mpenum: 0x8
+-  __TEXT.__unwind_info: 0x9290
+-  __TEXT.__eh_frame: 0x378c
+-  __TEXT.__objc_classname: 0x4e78
+-  __TEXT.__objc_methname: 0x3e8f5
+-  __TEXT.__objc_methtype: 0xd011
+-  __TEXT.__objc_stubs: 0x252c0
+-  __DATA_CONST.__got: 0x2b68
+-  __DATA_CONST.__const: 0x3708
+-  __DATA_CONST.__objc_classlist: 0xac8
++  __TEXT.__unwind_info: 0x94e8
++  __TEXT.__eh_frame: 0x3b3c
++  __TEXT.__objc_classname: 0x4f68
++  __TEXT.__objc_methname: 0x3f325
++  __TEXT.__objc_methtype: 0xd101
++  __TEXT.__objc_stubs: 0x259a0
++  __DATA_CONST.__got: 0x2b88
++  __DATA_CONST.__const: 0x3760
++  __DATA_CONST.__objc_classlist: 0xae0
+   __DATA_CONST.__objc_catlist: 0xc0
+-  __DATA_CONST.__objc_protolist: 0xa40
++  __DATA_CONST.__objc_protolist: 0xa50
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0xc538
+-  __DATA_CONST.__objc_protorefs: 0x4c8
++  __DATA_CONST.__objc_selrefs: 0xc720
++  __DATA_CONST.__objc_protorefs: 0x4d0
+   __DATA_CONST.__objc_superrefs: 0x4d0
+-  __DATA_CONST.__objc_arraydata: 0x168
+-  __AUTH_CONST.__auth_got: 0x3270
+-  __AUTH_CONST.__const: 0x9ae0
+-  __AUTH_CONST.__cfstring: 0x8420
+-  __AUTH_CONST.__objc_const: 0x4a768
+-  __AUTH_CONST.__objc_intobj: 0x318
+-  __AUTH_CONST.__objc_arrayobj: 0x198
++  __DATA_CONST.__objc_arraydata: 0x178
++  __AUTH_CONST.__auth_got: 0x32a8
++  __AUTH_CONST.__const: 0x9cc0
++  __AUTH_CONST.__cfstring: 0x8460
++  __AUTH_CONST.__objc_const: 0x4b3f8
++  __AUTH_CONST.__objc_intobj: 0x348
++  __AUTH_CONST.__objc_arrayobj: 0x1c8
+   __AUTH_CONST.__objc_doubleobj: 0xc0
+   __AUTH_CONST.__objc_dictobj: 0x78
+-  __AUTH.__objc_data: 0xdfc0
+-  __AUTH.__data: 0x30f8
+-  __DATA.__objc_ivar: 0x126c
+-  __DATA.__data: 0x9480
+-  __DATA.__bss: 0x6e68
++  __AUTH.__objc_data: 0xe2e8
++  __AUTH.__data: 0x3178
++  __DATA.__objc_ivar: 0x1280
++  __DATA.__data: 0x9560
++  __DATA.__bss: 0x7278
+   __DATA.__common: 0x318
+   __DATA_DIRTY.__objc_data: 0x640
+   __DATA_DIRTY.__bss: 0x140
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: F2126B3B-DF4B-3EBA-A2DC-3FDD501DC450
+-  Functions: 13748
+-  Symbols:   27670
+-  CStrings:  15184
++  UUID: BCFFC7A9-DCAE-3925-B7F9-899D74B8195E
++  Functions: 13956
++  Symbols:   27900
++  CStrings:  15303
+ 
+Symbols:
++ -[DBAppDockViewController focusableRegions]
++ -[DBAudioNotificationManager setAudioWindow:viewController:]
++ -[DBDashboard _handleSystemNudgeWithHeading:]
++ -[DBDashboard _handleSystemNudgeWithHeading:].cold.1
++ -[DBDashboard _legacyHandleFocusMovementAction:fromScene:]
++ -[DBDashboard _systemNudgeLeftPressed:]
++ -[DBDashboard _systemNudgeRightPressed:]
++ -[DBDashboard convertRect:fromScene:]
++ -[DBDashboard convertRect:toScene:]
++ -[DBDashboard focusEnvironmentCurrentStatusBarEdge]
++ -[DBDashboard focusEnvironmentFocusableRegionsForScene:]
++ -[DBDashboard focusEnvironmentHasDualStatusBar]
++ -[DBDashboard focusEnvironmentIsRightHandDrive]
++ -[DBDashboard focusEnvironmentLayoutDirection]
++ -[DBDashboard focusEnvironmentSupportsClimateOverlay]
++ -[DBDashboard focusableSceneTypeForScene:]
++ -[DBDashboard handleFocusMovementAction:fromScene:].cold.1
++ -[DBDashboard handleFocusUpdate:action:]
++ -[DBDashboard handleFocusUpdate:action:].cold.1
++ -[DBDashboard modernFocusMovementManager]
++ -[DBDashboard primaryClimateFocusAssertion]
++ -[DBDashboard primaryDockLocalScene]
++ -[DBDashboard secondaryClimateFocusAssertion]
++ -[DBDashboard secondaryDockLocalScene]
++ -[DBDashboard setModernFocusMovementManager:]
++ -[DBDashboard setPrimaryClimateFocusAssertion:]
++ -[DBDashboard setPrimaryDockLocalScene:]
++ -[DBDashboard setSecondaryClimateFocusAssertion:]
++ -[DBDashboard setSecondaryDockLocalScene:]
++ -[DBDashboardWorkspaceOwner isApplicationScene:]
++ -[DBDockRootViewController dockToTopClimateFocusGuide]
++ -[DBDockRootViewController focusableRegions]
++ -[DBDockRootViewController isContentHidden]
++ -[DBDockRootViewController setContentHidden:]
++ -[DBDockRootViewController setDockToTopClimateFocusGuide:]
++ -[DBStatusBarStateProvider activeStatusBarStyleOverride]
++ -[DBStatusBarStateProvider hasActiveStyleOverride]
++ -[DBStatusBarViewController focusableRegions]
++ -[DBStatusBarViewController focusableRegions].cold.1
++ GCC_except_table102
++ GCC_except_table106
++ GCC_except_table110
++ GCC_except_table126
++ GCC_except_table195
++ GCC_except_table208
++ GCC_except_table24
++ GCC_except_table252
++ GCC_except_table254
++ GCC_except_table259
++ GCC_except_table260
++ GCC_except_table33
++ GCC_except_table35
++ GCC_except_table42
++ GCC_except_table462
++ GCC_except_table465
++ GCC_except_table466
++ GCC_except_table52
++ GCC_except_table60
++ _OBJC_CLASS_$_BKSMutableHIDEventSenderDescriptor
++ _OBJC_CLASS_$__TtC9DashBoard22DBDashboardFocusUpdate
++ _OBJC_CLASS_$__TtC9DashBoard31DBDashboardFocusMovementManager
++ _OBJC_IVAR_$_DBDashboard._modernFocusMovementManager
++ _OBJC_IVAR_$_DBDashboard._primaryClimateFocusAssertion
++ _OBJC_IVAR_$_DBDashboard._primaryDockLocalScene
++ _OBJC_IVAR_$_DBDashboard._secondaryClimateFocusAssertion
++ _OBJC_IVAR_$_DBDashboard._secondaryDockLocalScene
++ _OBJC_IVAR_$_DBDockRootViewController._contentHidden
++ _OBJC_IVAR_$_DBDockRootViewController._dockToTopClimateFocusGuide
++ _OBJC_METACLASS_$__TtC9DashBoard22DBDashboardFocusUpdate
++ _OBJC_METACLASS_$__TtC9DashBoard31DBDashboardFocusMovementManager
++ _OBJC_METACLASS_$__TtC9DashBoardP33_DCA12AEA884FDE0EAA126EB7DB58D4CE27DBDashboardFocusDebugWindow
++ __DATA__TtC9DashBoard22DBDashboardFocusUpdate
++ __DATA__TtC9DashBoard31DBDashboardFocusMovementManager
++ __DATA__TtC9DashBoardP33_DCA12AEA884FDE0EAA126EB7DB58D4CE27DBDashboardFocusDebugWindow
++ __INSTANCE_METHODS__TtC9DashBoard22DBDashboardFocusUpdate
++ __IVARS__TtC9DashBoard22DBDashboardFocusUpdate
++ __IVARS__TtC9DashBoard31DBDashboardFocusMovementManager
++ __METACLASS_DATA__TtC9DashBoard22DBDashboardFocusUpdate
++ __METACLASS_DATA__TtC9DashBoard31DBDashboardFocusMovementManager
++ __METACLASS_DATA__TtC9DashBoardP33_DCA12AEA884FDE0EAA126EB7DB58D4CE27DBDashboardFocusDebugWindow
++ __OBJC_$_INSTANCE_METHODS__TtC9DashBoard16DBDockController(DashBoard|DashBoard1|DashBoard2|DashBoard3|DashBoard4|DashBoard5|DashBoard6)
++ __OBJC_$_INSTANCE_METHODS__TtC9DashBoard31DBDashboardFocusMovementManager(DashBoard)
++ __OBJC_$_PROP_LIST__TtP9DashBoard27DBDashboardFocusEnvironment_
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS__TtP9DashBoard27DBDashboardFocusEnvironment_
++ __OBJC_$_PROTOCOL_METHOD_TYPES__TtP9DashBoard27DBDashboardFocusEnvironment_
++ __OBJC_$_PROTOCOL_REFS__TtP9DashBoard27DBDashboardFocusEnvironment_
++ __OBJC_CLASS_PROTOCOLS_$__TtC9DashBoard16DBDockController(DashBoard|DashBoard1|DashBoard2|DashBoard3|DashBoard4|DashBoard5|DashBoard6)
++ __OBJC_LABEL_PROTOCOL_$__TtP9DashBoard27DBDashboardFocusEnvironment_
++ __OBJC_PROTOCOL_$__TtP9DashBoard27DBDashboardFocusEnvironment_
++ __PROPERTIES__TtC9DashBoard22DBDashboardFocusUpdate
++ __PROTOCOL_INSTANCE_METHODS__TtP9DashBoard27DBDashboardFocusEnvironment_
++ __PROTOCOL_METHOD_TYPES__TtP9DashBoard27DBDashboardFocusEnvironment_
++ __PROTOCOL_PROPERTIES__TtP9DashBoard27DBDashboardFocusEnvironment_
++ __PROTOCOL_PROTOCOLS__TtP9DashBoard27DBDashboardFocusEnvironment_
++ __PROTOCOL__TtP9DashBoard27DBDashboardFocusEnvironment_
++ __UICarPlaySceneLevelKeyWindowsEnabled
++ __UIStringFromFocusHeading
++ ___152-[DBDashboard environmentConfiguration:viewAreaDidChangeFromViewAreaFrame:safeAreaInsets:toViewAreaFrame:safeAreaInsets:duration:transitionControlType:]_block_invoke.756
++ ___25-[DBDashboard _setupDock]_block_invoke_4
++ ___33-[DBDashboard _handleSessionURL:]_block_invoke.707
++ ___33-[DBDashboard _handleSessionURL:]_block_invoke.708
++ ___33-[DBDashboard _handleSessionURL:]_block_invoke.724
++ ___33-[DBDashboard _handleSessionURL:]_block_invoke.724.cold.1
++ ___34-[DBDashboard _updateWindowFrames]_block_invoke_3
++ ___37-[DBDashboard _animateStartupToIcons]_block_invoke.765
++ ___37-[DBDashboard _animateStartupToIcons]_block_invoke_2.766
++ ___37-[DBDashboard _handleTapToRadarEvent]_block_invoke.526
++ ___37-[DBDashboard _handleTapToRadarEvent]_block_invoke_2.529
++ ___40-[DBDashboard _updateUserInterfaceStyle]_block_invoke.604
++ ___40-[DBDashboard _updateUserInterfaceStyle]_block_invoke.605
++ ___40-[DBDashboard _updateUserInterfaceStyle]_block_invoke.606
++ ___43-[DBDashboard _setupSplitContentController]_block_invoke.468
++ ___44-[DBDockRootViewController focusableRegions]_block_invoke
++ ___44-[DBDockRootViewController focusableRegions]_block_invoke_2
++ ___50-[DBDashboard _animateStartupFromScaledMainWindow]_block_invoke.770
++ ___51-[DBAppDockViewController _generateOrderedAppItems]_block_invoke.241
++ ___53-[DBDashboard _notifyAccessoryIfNeededWithUIContext:]_block_invoke.594
++ ___56-[DBDashboard focusEnvironmentFocusableRegionsForScene:]_block_invoke
++ ___57-[DBDashboard _handleBackgroundURLDeliveryForLaunchInfo:]_block_invoke.514
++ ___57-[DBDashboard _handleBackgroundURLDeliveryForLaunchInfo:]_block_invoke.521
++ ___59-[DBDashboard _updateWallpaperWithAnimationDuration:delay:]_block_invoke_4
++ ___60-[DBDockRootViewController _setupClimateVerticalFocusGuides]_block_invoke_3
++ ___92-[DBDashboard lockOutController:didChangeFromLockoutMode:toLockOutMode:animated:takeScreen:]_block_invoke.676
++ ___92-[DBDashboard lockOutController:didChangeFromLockoutMode:toLockOutMode:animated:takeScreen:]_block_invoke.677
++ ___block_descriptor_40_e8_32s_e17_16?0"NSValue"8ls32l8
++ ___block_descriptor_48_e8_32s_e17_16?0"NSValue"8ls32l8
++ ___block_literal_global.1684
++ ___block_literal_global.273
++ ___block_literal_global.505
++ ___block_literal_global.528
++ ___block_literal_global.531
++ ___block_literal_global.610
++ ___block_literal_global.660
++ ___block_literal_global.688
++ ___block_literal_global.714
++ ___block_literal_global.768
++ ___block_literal_global.776
++ ___block_literal_global.783
++ _associated conformance 9DashBoard25DBDashboardFocusableSceneOSHAASQ
++ _associated conformance 9DashBoard28DBDashboardFocusUpdateActionOSHAASQ
++ _block_copy_helper.133
++ _block_copy_helper.158
++ _block_copy_helper.165
++ _block_copy_helper.172
++ _block_copy_helper.220
++ _block_copy_helper.69
++ _block_copy_helper.75
++ _block_copy_helper.79
++ _block_copy_helper.85
++ _block_copy_helper.91
++ _block_descriptor.135
++ _block_descriptor.160
++ _block_descriptor.167
++ _block_descriptor.174
++ _block_descriptor.222
++ _block_descriptor.71
++ _block_descriptor.77
++ _block_descriptor.81
++ _block_descriptor.87
++ _block_descriptor.93
++ _block_destroy_helper.134
++ _block_destroy_helper.159
++ _block_destroy_helper.166
++ _block_destroy_helper.173
++ _block_destroy_helper.221
++ _block_destroy_helper.70
++ _block_destroy_helper.76
++ _block_destroy_helper.80
++ _block_destroy_helper.86
++ _block_destroy_helper.92
++ _flat unique 9DashBoard27DBDashboardFocusEnvironment_p
++ _get_underlying_type_ref 7SwiftUI4ViewPAAEAcAE4task4name8priority4file4line_QrSSSg_ScPSSSiyyYaYAcntFQOQr.5
++ _get_underlying_witness 7SwiftUI4ViewPAAEAcAE4task4name8priority4file4line_QrSSSg_ScPSSSiyyYaYAcntFQOqd__AaBHC.6
++ _get_witness_table 7SwiftUI15ModifiedContentVyAA014_ViewModifier_D0Vy9DashBoard033CloseButtonFocusEffectCoordinatorF033_73D3EAFCCDEF5FB059F5819ABDB3422BLLVGAA022_EnvironmentKeyWritingF0VySbGGAA0E0HPAjaOHPyHC_AmA0eF0HPyHCHC.253
++ _kDBFocusDebugWindowDefaultsKey
++ _objc_msgSend$_handleSystemNudgeWithHeading:
++ _objc_msgSend$_legacyHandleFocusMovementAction:fromScene:
++ _objc_msgSend$acquirePrimaryFocus
++ _objc_msgSend$acquirePrimaryFocusWithHeading:focusedFrame:
++ _objc_msgSend$acquireSecondaryFocusWithHeading:focusedFrame:
++ _objc_msgSend$activeStatusBarStyleOverride
++ _objc_msgSend$blueColor
++ _objc_msgSend$clientSettings
++ _objc_msgSend$containsScene:
++ _objc_msgSend$convertRect:fromScene:
++ _objc_msgSend$convertRect:fromView:
++ _objc_msgSend$convertRect:toScene:
++ _objc_msgSend$disableDebugWindow
++ _objc_msgSend$dockToTopClimateFocusGuide
++ _objc_msgSend$enableDebugWindowWithWindowScene:
++ _objc_msgSend$evaluateMovementFromScene:heading:focusedFrame:
++ _objc_msgSend$focusEnvironmentCurrentStatusBarEdge
++ _objc_msgSend$focusEnvironmentFocusableRegionsForScene:
++ _objc_msgSend$focusEnvironmentHasDualStatusBar
++ _objc_msgSend$focusEnvironmentIsRightHandDrive
++ _objc_msgSend$focusEnvironmentLayoutDirection
++ _objc_msgSend$focusEnvironmentSupportsClimateOverlay
++ _objc_msgSend$focusableRegionFrames
++ _objc_msgSend$focusableRegions
++ _objc_msgSend$focusableSceneTypeForScene:
++ _objc_msgSend$focusedScene
++ _objc_msgSend$greenColor
++ _objc_msgSend$handleFocusUpdate:action:
++ _objc_msgSend$hasActiveStyleOverride
++ _objc_msgSend$initWithAC:leftFan:rightFan:frontDefrost:rearDefrost:targetTemperature:
++ _objc_msgSend$initWithFocusEnvironment:
++ _objc_msgSend$initWithWindowScene:primaryDockLocalScene:secondaryDockLocalScene:layoutEngine:iconProvider:environment:
++ _objc_msgSend$initWithWindowScene:primaryDockScene:secondaryDockScene:quickControlsScene:layoutEngine:environment:persistentElementsManager:
++ _objc_msgSend$invertedDescriptor
++ _objc_msgSend$isApplicationScene:
++ _objc_msgSend$isAtLockOutWindowLevel
++ _objc_msgSend$modernFocusMovementManager
++ _objc_msgSend$nullDisplay
++ _objc_msgSend$orangeColor
++ _objc_msgSend$primaryClimateFocusAssertion
++ _objc_msgSend$primaryDockFocusableRegions
++ _objc_msgSend$primaryDockLocalScene
++ _objc_msgSend$primaryFocusableRegions
++ _objc_msgSend$purpleColor
++ _objc_msgSend$relinquishPrimaryFocus
++ _objc_msgSend$relinquishPrimaryFocusWithHeading:focusedFrame:
++ _objc_msgSend$relinquishSecondaryFocus
++ _objc_msgSend$relinquishSecondaryFocusWithHeading:focusedFrame:
++ _objc_msgSend$resetLockOutWindowLevel
++ _objc_msgSend$secondaryClimateFocusAssertion
++ _objc_msgSend$secondaryDockFocusableRegions
++ _objc_msgSend$secondaryDockLocalScene
++ _objc_msgSend$secondaryFocusableRegions
++ _objc_msgSend$setAssociatedDisplay:
++ _objc_msgSend$setAudioWindow:viewController:
++ _objc_msgSend$setContentHidden:
++ _objc_msgSend$setDockToTopClimateFocusGuide:
++ _objc_msgSend$setLockOutWindowLevel
++ _objc_msgSend$setPrimaryClimateFocusAssertion:
++ _objc_msgSend$setPrimaryDockLocalScene:
++ _objc_msgSend$setSecondaryClimateFocusAssertion:
++ _objc_msgSend$setSecondaryDockLocalScene:
++ _objc_msgSend$setSenderDescriptors:
++ _objc_msgSend$shouldSuppressStartupNotifications
++ _objc_msgSend$systemTealColor
++ _objc_msgSend$yellowColor
++ _objectdestroy.120Tm
++ _symbolic $s9DashBoard27DBDashboardFocusEnvironmentP
++ _symbolic $s9DashBoard33DBDashboardFocusMovementEvaluatorP
++ _symbolic SDy_____Say_____GG 9DashBoard25DBDashboardFocusableSceneO So6CGRectV
++ _symbolic SDy_____y_____SSGSo25DBWallpaperViewControllerCG 14CarPlayAssetUI11TaggedValueV AA6LayoutV
++ _symbolic SDy_____y_____SSGSo7FBSceneCG 14CarPlayAssetUI11TaggedValueV AA6LayoutV
++ _symbolic SDy_____y_____SSG_____G 14CarPlayAssetUI11TaggedValueV AA6LayoutV 9DashBoard34_DBInstrumentClusterScenePresenter33_AA18878D27B62631944FB3DCC9C55247LLC
++ _symbolic ScTyyt_____GSg s5NeverO
++ _symbolic So8UIWindowCSg
++ _symbolic _____ 9DashBoard22DBDashboardFocusUpdateC
++ _symbolic _____ 9DashBoard25DBDashboardFocusableSceneO
++ _symbolic _____ 9DashBoard27DBDashboardFocusDebugWindow33_DCA12AEA884FDE0EAA126EB7DB58D4CELLC
++ _symbolic _____ 9DashBoard28DBDashboardFocusUpdateActionO
++ _symbolic _____ 9DashBoard31DBDashboardFocusMovementManagerC
++ _symbolic _____ 9DashBoard40DBDashboardFocusMovementEvaluatorTopDockV
++ _symbolic _____ 9DashBoard41DBDashboardFocusMovementEvaluatorDualDockV
++ _symbolic _____ 9DashBoard43DBDashboardFocusMovementEvaluatorBottomDockV
++ _symbolic _____ 9DashBoard45DBDashboardFocusMovementEvaluatorVerticalDockV
++ _symbolic _____ So14UIFocusHeadingV
++ _symbolic _____ So30UIUserInterfaceLayoutDirectionV
++ _symbolic _____5frame______5scenet So6CGRectV 9DashBoard25DBDashboardFocusableSceneO
++ _symbolic _____Sg 9DashBoard21DBDockSceneHostWindowC
++ _symbolic ______Say_____Gt 9DashBoard25DBDashboardFocusableSceneO So6CGRectV
++ _symbolic ______pSg 9DashBoard33DBDashboardFocusMovementEvaluatorP
++ _symbolic ______pXo 9DashBoard27DBDashboardFocusEnvironmentP
++ _symbolic _____yAAyAAyAAyAAyAAyAAyAAy_____yAAyAAyAAyAAy_____y_____y__________y_____SSGG_Qo______G_____G_____y_____SgGGAMy_____SgGG______Qo_AMy_____SgGGAMy_____SgGGAMySdSgGGAMy_____SgGGAMy_____GGAMy_____GGAMy_____SgGG_____G 7SwiftUI15ModifiedContentV AA4ViewPAAE11environmentyQrqd__SgRld__C11Observation10ObservableRd__lFQO AE012CarPlayAssetB0E12layoutOutputyQrAJ06LayoutM0VFQO AA6IDViewV AJ0nE0V AJ11TaggedValueV AJ0N0V AA12_ScaleEffectV 9DashBoard016CloseButtonFocusS19CoordinatorModifier33_73D3EAFCCDEF5FB059F5819ABDB3422BLLV AA022_EnvironmentKeyWritingZ0V AX0vwxsY0AZLLC AJ17DataSourceManagerC AJ15DisplayProviderC AJ04SlotE7BuilderV AJ0n10BackgroundE7BuilderV AJ017ClusterTransitionY0C AJ08SetNeedsX12UpdateActionV AJ19SymbolImageProviderV AJ14DriverSideRuleV10DriverSideO AA14_TaskModifier2V
++ _symbolic _____yAAyAAyAAyAAyAAyAAy_____yAAyAAyAAyAAy_____y_____y__________y_____SSGG_Qo______G_____G_____y_____SgGGAMy_____SgGG______Qo_AMy_____SgGGAMy_____SgGGAMySdSgGGAMy_____SgGGAMy_____GGAMy_____GGAMy_____SgGG 7SwiftUI15ModifiedContentV AA4ViewPAAE11environmentyQrqd__SgRld__C11Observation10ObservableRd__lFQO AE012CarPlayAssetB0E12layoutOutputyQrAJ06LayoutM0VFQO AA6IDViewV AJ0nE0V AJ11TaggedValueV AJ0N0V AA12_ScaleEffectV 9DashBoard016CloseButtonFocusS19CoordinatorModifier33_73D3EAFCCDEF5FB059F5819ABDB3422BLLV AA022_EnvironmentKeyWritingZ0V AX0vwxsY0AZLLC AJ17DataSourceManagerC AJ15DisplayProviderC AJ04SlotE7BuilderV AJ0n10BackgroundE7BuilderV AJ017ClusterTransitionY0C AJ08SetNeedsX12UpdateActionV AJ19SymbolImageProviderV AJ14DriverSideRuleV10DriverSideO
++ _symbolic _____yAAyAAyAAyAAyAAy_____yAAyAAyAAyAAy_____y_____y__________y_____SSGG_Qo______G_____G_____y_____SgGGAMy_____SgGG______Qo_AMy_____SgGGAMy_____SgGGAMySdSgGGAMy_____SgGGAMy_____GGAMy_____GG 7SwiftUI15ModifiedContentV AA4ViewPAAE11environmentyQrqd__SgRld__C11Observation10ObservableRd__lFQO AE012CarPlayAssetB0E12layoutOutputyQrAJ06LayoutM0VFQO AA6IDViewV AJ0nE0V AJ11TaggedValueV AJ0N0V AA12_ScaleEffectV 9DashBoard016CloseButtonFocusS19CoordinatorModifier33_73D3EAFCCDEF5FB059F5819ABDB3422BLLV AA022_EnvironmentKeyWritingZ0V AX0vwxsY0AZLLC AJ17DataSourceManagerC AJ15DisplayProviderC AJ04SlotE7BuilderV AJ0n10BackgroundE7BuilderV AJ017ClusterTransitionY0C AJ08SetNeedsX12UpdateActionV AJ19SymbolImageProviderV
++ _symbolic _____yAAyAAyAAyAAy_____yAAyAAyAAyAAy_____y_____y__________y_____SSGG_Qo______G_____G_____y_____SgGGAMy_____SgGG______Qo_AMy_____SgGGAMy_____SgGGAMySdSgGGAMy_____SgGGAMy_____GG 7SwiftUI15ModifiedContentV AA4ViewPAAE11environmentyQrqd__SgRld__C11Observation10ObservableRd__lFQO AE012CarPlayAssetB0E12layoutOutputyQrAJ06LayoutM0VFQO AA6IDViewV AJ0nE0V AJ11TaggedValueV AJ0N0V AA12_ScaleEffectV 9DashBoard016CloseButtonFocusS19CoordinatorModifier33_73D3EAFCCDEF5FB059F5819ABDB3422BLLV AA022_EnvironmentKeyWritingZ0V AX0vwxsY0AZLLC AJ17DataSourceManagerC AJ15DisplayProviderC AJ04SlotE7BuilderV AJ0n10BackgroundE7BuilderV AJ017ClusterTransitionY0C AJ08SetNeedsX12UpdateActionV
++ _symbolic _____yAAyAAyAAy_____yAAyAAyAAyAAy_____y_____y__________y_____SSGG_Qo______G_____G_____y_____SgGGAMy_____SgGG______Qo_AMy_____SgGGAMy_____SgGGAMySdSgGGAMy_____SgGG 7SwiftUI15ModifiedContentV AA4ViewPAAE11environmentyQrqd__SgRld__C11Observation10ObservableRd__lFQO AE012CarPlayAssetB0E12layoutOutputyQrAJ06LayoutM0VFQO AA6IDViewV AJ0nE0V AJ11TaggedValueV AJ0N0V AA12_ScaleEffectV 9DashBoard016CloseButtonFocusS19CoordinatorModifier33_73D3EAFCCDEF5FB059F5819ABDB3422BLLV AA022_EnvironmentKeyWritingZ0V AX0vwxsY0AZLLC AJ17DataSourceManagerC AJ15DisplayProviderC AJ04SlotE7BuilderV AJ0n10BackgroundE7BuilderV AJ017ClusterTransitionY0C
++ _symbolic _____yAAyAAyAAy_____y_____y__________y_____SSGG_Qo______G_____G_____y_____SgGGAMy_____SgGG 7SwiftUI15ModifiedContentV AA4ViewP012CarPlayAssetB0E12layoutOutputyQrAF06LayoutJ0VFQO AA6IDViewV AF0kE0V AF11TaggedValueV AF0K0V AA12_ScaleEffectV 9DashBoard016CloseButtonFocusP19CoordinatorModifier33_73D3EAFCCDEF5FB059F5819ABDB3422BLLV AA022_EnvironmentKeyWritingW0V AT0stupV0AVLLC AF17DataSourceManagerC
++ _symbolic _____yAAyAAy_____yAAyAAyAAyAAy_____y_____y__________y_____SSGG_Qo______G_____G_____y_____SgGGAMy_____SgGG______Qo_AMy_____SgGGAMy_____SgGGAMySdSgGG 7SwiftUI15ModifiedContentV AA4ViewPAAE11environmentyQrqd__SgRld__C11Observation10ObservableRd__lFQO AE012CarPlayAssetB0E12layoutOutputyQrAJ06LayoutM0VFQO AA6IDViewV AJ0nE0V AJ11TaggedValueV AJ0N0V AA12_ScaleEffectV 9DashBoard016CloseButtonFocusS19CoordinatorModifier33_73D3EAFCCDEF5FB059F5819ABDB3422BLLV AA022_EnvironmentKeyWritingZ0V AX0vwxsY0AZLLC AJ17DataSourceManagerC AJ15DisplayProviderC AJ04SlotE7BuilderV AJ0n10BackgroundE7BuilderV
++ _symbolic _____yAAyAAy_____y_____y__________y_____SSGG_Qo______G_____G_____y_____SgGG 7SwiftUI15ModifiedContentV AA4ViewP012CarPlayAssetB0E12layoutOutputyQrAF06LayoutJ0VFQO AA6IDViewV AF0kE0V AF11TaggedValueV AF0K0V AA12_ScaleEffectV 9DashBoard016CloseButtonFocusP19CoordinatorModifier33_73D3EAFCCDEF5FB059F5819ABDB3422BLLV AA022_EnvironmentKeyWritingW0V AT0stupV0AVLLC
++ _symbolic _____yAAy_____yAAyAAyAAyAAy_____y_____y__________y_____SSGG_Qo______G_____G_____y_____SgGGAMy_____SgGG______Qo_AMy_____SgGGAMy_____SgGG 7SwiftUI15ModifiedContentV AA4ViewPAAE11environmentyQrqd__SgRld__C11Observation10ObservableRd__lFQO AE012CarPlayAssetB0E12layoutOutputyQrAJ06LayoutM0VFQO AA6IDViewV AJ0nE0V AJ11TaggedValueV AJ0N0V AA12_ScaleEffectV 9DashBoard016CloseButtonFocusS19CoordinatorModifier33_73D3EAFCCDEF5FB059F5819ABDB3422BLLV AA022_EnvironmentKeyWritingZ0V AX0vwxsY0AZLLC AJ17DataSourceManagerC AJ15DisplayProviderC AJ04SlotE7BuilderV AJ0n10BackgroundE7BuilderV
++ _symbolic _____yAAy_____yAAy_____y_____ySay_____G_____yAESSGAAyAAyAAy__________G_____G_____y_____GGGG_____y_____GG_____G_____y_____SgGGAZyAGy_____SSGSgGG 7SwiftUI15ModifiedContentV 012CarPlayAssetB08CarouselV AA6ZStackV AA7ForEachV AD4SlotV AD11TaggedValueV AD0L4ViewV AA12_FrameLayoutV AA09_PositionQ0V AA21_TraitWritingModifierV AA06ZIndexS3KeyV AA016_BackgroundStyleU0V AA8MaterialV AD9ComponentV AA012_EnvironmentwtU0V AD0lO7BuilderV AD0Q0V
++ _symbolic _____yAAy_____y_____y__________y_____SSGG_Qo______G_____G 7SwiftUI15ModifiedContentV AA4ViewP012CarPlayAssetB0E12layoutOutputyQrAF06LayoutJ0VFQO AA6IDViewV AF0kE0V AF11TaggedValueV AF0K0V AA12_ScaleEffectV 9DashBoard016CloseButtonFocusP19CoordinatorModifier33_73D3EAFCCDEF5FB059F5819ABDB3422BLLV
++ _symbolic _____y_____5frame______5scenetG s23_ContiguousArrayStorageC So6CGRectV 9DashBoard25DBDashboardFocusableSceneO
++ _symbolic _____y_____SSG 14CarPlayAssetUI11TaggedValueV AA4SlotV
++ _symbolic _____y_____SSG 14CarPlayAssetUI11TaggedValueV AA4ZoneV
++ _symbolic _____y_____SSG 14CarPlayAssetUI11TaggedValueV AA6LayoutV
++ _symbolic _____y_____SSG 14CarPlayAssetUI11TaggedValueV AA9ComponentV
++ _symbolic _____y_____SSG3key_So25DBWallpaperViewControllerC5valuet 14CarPlayAssetUI11TaggedValueV AA6LayoutV
++ _symbolic _____y_____SSG3key_So25DBWallpaperViewControllerC5valuetSg 14CarPlayAssetUI11TaggedValueV AA6LayoutV
++ _symbolic _____y_____SSGSg 14CarPlayAssetUI11TaggedValueV AA6LayoutV
++ _symbolic _____y_____SSGSg 14CarPlayAssetUI11TaggedValueV AA9ComponentV
++ _symbolic _____y_____SSGSg_ADt 14CarPlayAssetUI11TaggedValueV AA6LayoutV
++ _symbolic _____y_____SSGSg_ADt 14CarPlayAssetUI11TaggedValueV AA9ComponentV
++ _symbolic _____y_____Say_____GG s18_DictionaryStorageC 9DashBoard25DBDashboardFocusableSceneO So6CGRectV
++ _symbolic _____y_____SgG 7SwiftUI30_EnvironmentKeyWritingModifierV 012CarPlayAssetB014DriverSideRuleV0jK0O
++ _symbolic _____y______Say_____GtG s23_ContiguousArrayStorageC 9DashBoard25DBDashboardFocusableSceneO So6CGRectV
++ _symbolic _____y___________ySay_____G_____yADSSG_____yAHyAHy__________G_____G_____y_____GGGG 7SwiftUI13_VariadicViewO4TreeV AA13_ZStackLayoutV AA7ForEachV 012CarPlayAssetB04SlotV AJ11TaggedValueV AA15ModifiedContentV AJ0mD0V AA06_FrameG0V AA09_PositionG0V AA21_TraitWritingModifierV AA06ZIndexT3KeyV
++ _symbolic _____y__________y_____SSGG 7SwiftUI6IDViewV 012CarPlayAssetB010LayoutViewV AD11TaggedValueV AD0G0V
++ _symbolic _____y_____yAAyAAyAAyAAyAAyAAy_____yAAyAAyAAyAAy_____y_____y__________y_____SSGG_Qo______G_____G_____y_____SgGGAMy_____SgGG______Qo_AMy_____SgGGAMy_____SgGGAMySdSgGGAMy_____SgGGAMy_____GGAMy_____GGAMy_____SgGG_Qo_ 7SwiftUI4ViewPAAE4task4name8priority4file4line_QrSSSg_ScPSSSiyyYaYAcntFQO AA15ModifiedContentV AcAE11environmentyQrqd__SgRld__C11Observation10ObservableRd__lFQO AC012CarPlayAssetB0E12layoutOutputyQrAP06LayoutR0VFQO AA6IDViewV AP0sC0V AP11TaggedValueV AP0S0V AA12_ScaleEffectV 9DashBoard016CloseButtonFocusX19CoordinatorModifier33_73D3EAFCCDEF5FB059F5819ABDB3422BLLV AA30_EnvironmentKeyWritingModifierV A2_016CloseButtonFocusX11CoordinatorA4_LLC AP17DataSourceManagerC AP15DisplayProviderC AP04SlotC7BuilderV AP0s10BackgroundC7BuilderV AP28ClusterTransitionCoordinatorC AP25SetNeedsFocusUpdateActionV AP19SymbolImageProviderV AP14DriverSideRuleV10DriverSideO
++ _symbolic _____y_____yAAyAAyAAyAAy_____y_____y__________y_____SSGG_Qo______G_____G_____y_____SgGGAMy_____SgGG______Qo_AMy_____SgGG 7SwiftUI15ModifiedContentV AA4ViewPAAE11environmentyQrqd__SgRld__C11Observation10ObservableRd__lFQO AE012CarPlayAssetB0E12layoutOutputyQrAJ06LayoutM0VFQO AA6IDViewV AJ0nE0V AJ11TaggedValueV AJ0N0V AA12_ScaleEffectV 9DashBoard016CloseButtonFocusS19CoordinatorModifier33_73D3EAFCCDEF5FB059F5819ABDB3422BLLV AA022_EnvironmentKeyWritingZ0V AX0vwxsY0AZLLC AJ17DataSourceManagerC AJ15DisplayProviderC AJ04SlotE7BuilderV
++ _symbolic _____y_____yAAy_____y_____ySay_____G_____yAESSGAAyAAyAAy__________G_____G_____y_____GGGG_____y_____GG_____G_____y_____SgGG 7SwiftUI15ModifiedContentV 012CarPlayAssetB08CarouselV AA6ZStackV AA7ForEachV AD4SlotV AD11TaggedValueV AD0L4ViewV AA12_FrameLayoutV AA09_PositionQ0V AA21_TraitWritingModifierV AA06ZIndexS3KeyV AA016_BackgroundStyleU0V AA8MaterialV AD9ComponentV AA012_EnvironmentwtU0V AD0lO7BuilderV
++ _symbolic _____y_____yABy_____yABy_____y_____ySay_____G_____yAFSSGAByAByABy__________G_____G_____y_____GGGG_____y_____GG_____G_____y_____SgGGA_yAHy_____SSGSgGGG 7SwiftUI19UIHostingControllerC AA15ModifiedContentV 012CarPlayAssetB08CarouselV AA6ZStackV AA7ForEachV AF4SlotV AF11TaggedValueV AF0N4ViewV AA12_FrameLayoutV AA09_PositionS0V AA21_TraitWritingModifierV AA06ZIndexU3KeyV AA016_BackgroundStyleW0V AA8MaterialV AF9ComponentV AA012_EnvironmentyvW0V AF0nQ7BuilderV AF0S0V
++ _symbolic _____y_____ySay_____G_____yACSSG_____yAGyAGy__________G_____G_____y_____GGGG 7SwiftUI6ZStackV AA7ForEachV 012CarPlayAssetB04SlotV AF11TaggedValueV AA15ModifiedContentV AF0I4ViewV AA12_FrameLayoutV AA09_PositionP0V AA21_TraitWritingModifierV AA06ZIndexR3KeyV
++ _symbolic _____y_____y_____SSGG s23_ContiguousArrayStorageC 14CarPlayAssetUI11TaggedValueV AC9ComponentV
++ _symbolic _____y_____y_____SSGSgG 7SwiftUI30_EnvironmentKeyWritingModifierV 012CarPlayAssetB011TaggedValueV AD6LayoutV
++ _symbolic _____y_____y_____SSGSo25DBWallpaperViewControllerCG s18_DictionaryStorageC 14CarPlayAssetUI11TaggedValueV AC6LayoutV
++ _symbolic _____y_____y_____SSGSo7FBSceneCG s18_DictionaryStorageC 14CarPlayAssetUI11TaggedValueV AC6LayoutV
++ _symbolic _____y_____y_____SSG_____G s18_DictionaryStorageC 14CarPlayAssetUI11TaggedValueV AC6LayoutV 9DashBoard34_DBInstrumentClusterScenePresenter33_AA18878D27B62631944FB3DCC9C55247LLC
++ _symbolic _____y_____y_____ySay_____G_____yADSSGAAyAAyAAy__________G_____G_____y_____GGGG_____y_____GG 7SwiftUI15ModifiedContentV AA6ZStackV AA7ForEachV 012CarPlayAssetB04SlotV AH11TaggedValueV AH0K4ViewV AA12_FrameLayoutV AA09_PositionP0V AA21_TraitWritingModifierV AA06ZIndexR3KeyV AA016_BackgroundStyleT0V AA8MaterialV
++ _symbolic _____y_____y_____y__________y_____SSGG_Qo______G 7SwiftUI15ModifiedContentV AA4ViewP012CarPlayAssetB0E12layoutOutputyQrAF06LayoutJ0VFQO AA6IDViewV AF0kE0V AF11TaggedValueV AF0K0V AA12_ScaleEffectV
++ _type_layout_string 9DashBoard41DBDashboardFocusMovementEvaluatorDualDockV
++ _type_layout_string 9DashBoard45DBDashboardFocusMovementEvaluatorVerticalDockV
++ _type_layout_string So14UIFocusHeadingV
+- -[DBDashboard climateFocusAssertion]
+- -[DBDashboard dockLocalScene]
+- -[DBDashboard setClimateFocusAssertion:]
+- -[DBDashboard setDockLocalScene:]
+- GCC_except_table103
+- GCC_except_table107
+- GCC_except_table112
+- GCC_except_table176
+- GCC_except_table189
+- GCC_except_table22
+- GCC_except_table232
+- GCC_except_table234
+- GCC_except_table239
+- GCC_except_table240
+- GCC_except_table32
+- GCC_except_table39
+- GCC_except_table437
+- GCC_except_table440
+- GCC_except_table441
+- GCC_except_table50
+- GCC_except_table99
+- _OBJC_IVAR_$_DBDashboard._climateFocusAssertion
+- _OBJC_IVAR_$_DBDashboard._dockLocalScene
+- __OBJC_$_INSTANCE_METHODS__TtC9DashBoard16DBDockController(DashBoard|DashBoard1|DashBoard2|DashBoard3|DashBoard4|DashBoard5)
+- __OBJC_CLASS_PROTOCOLS_$__TtC9DashBoard16DBDockController(DashBoard|DashBoard1|DashBoard2|DashBoard3|DashBoard4|DashBoard5)
+- __PROPERTIES__TtC9DashBoard16DBDockController
+- ___152-[DBDashboard environmentConfiguration:viewAreaDidChangeFromViewAreaFrame:safeAreaInsets:toViewAreaFrame:safeAreaInsets:duration:transitionControlType:]_block_invoke.734
+- ___33-[DBDashboard _handleSessionURL:]_block_invoke.685
+- ___33-[DBDashboard _handleSessionURL:]_block_invoke.686
+- ___33-[DBDashboard _handleSessionURL:]_block_invoke.702
+- ___33-[DBDashboard _handleSessionURL:]_block_invoke.702.cold.1
+- ___37-[DBDashboard _animateStartupToIcons]_block_invoke.743
+- ___37-[DBDashboard _animateStartupToIcons]_block_invoke_2.744
+- ___37-[DBDashboard _handleTapToRadarEvent]_block_invoke.506
+- ___37-[DBDashboard _handleTapToRadarEvent]_block_invoke_2.509
+- ___40-[DBDashboard _updateUserInterfaceStyle]_block_invoke.584
+- ___40-[DBDashboard _updateUserInterfaceStyle]_block_invoke.585
+- ___43-[DBDashboard _setupSplitContentController]_block_invoke.448
+- ___50-[DBDashboard _animateStartupFromScaledMainWindow]_block_invoke.748
+- ___51-[DBAppDockViewController _generateOrderedAppItems]_block_invoke.240
+- ___53-[DBDashboard _notifyAccessoryIfNeededWithUIContext:]_block_invoke.574
+- ___57-[DBDashboard _handleBackgroundURLDeliveryForLaunchInfo:]_block_invoke.494
+- ___57-[DBDashboard _handleBackgroundURLDeliveryForLaunchInfo:]_block_invoke.501
+- ___92-[DBDashboard lockOutController:didChangeFromLockoutMode:toLockOutMode:animated:takeScreen:]_block_invoke.654
+- ___92-[DBDashboard lockOutController:didChangeFromLockoutMode:toLockOutMode:animated:takeScreen:]_block_invoke.655
+- ___block_literal_global.1621
+- ___block_literal_global.269
+- ___block_literal_global.485
+- ___block_literal_global.508
+- ___block_literal_global.511
+- ___block_literal_global.589
+- ___block_literal_global.638
+- ___block_literal_global.666
+- ___block_literal_global.692
+- ___block_literal_global.739
+- ___block_literal_global.746
+- _block_copy_helper.145
+- _block_copy_helper.152
+- _block_copy_helper.162
+- _block_copy_helper.169
+- _block_copy_helper.214
+- _block_copy_helper.49
+- _block_copy_helper.72
+- _block_copy_helper.88
+- _block_copy_helper.94
+- _block_descriptor.147
+- _block_descriptor.154
+- _block_descriptor.164
+- _block_descriptor.171
+- _block_descriptor.216
+- _block_descriptor.51
+- _block_descriptor.74
+- _block_descriptor.90
+- _block_descriptor.96
+- _block_destroy_helper.146
+- _block_destroy_helper.153
+- _block_destroy_helper.163
+- _block_destroy_helper.170
+- _block_destroy_helper.215
+- _block_destroy_helper.50
+- _block_destroy_helper.73
+- _block_destroy_helper.89
+- _block_destroy_helper.95
+- _get_underlying_type_ref 7SwiftUI4ViewPAAEAcAE4task4name8priority4file4line_QrSSSg_ScPSSSiyyYaYAcntFQOQr.2
+- _get_underlying_witness 7SwiftUI4ViewPAAEAcAE4task4name8priority4file4line_QrSSSg_ScPSSSiyyYaYAcntFQOqd__AaBHC.3
+- _get_witness_table 7SwiftUI15ModifiedContentVyAA014_ViewModifier_D0Vy9DashBoard033CloseButtonFocusEffectCoordinatorF033_73D3EAFCCDEF5FB059F5819ABDB3422BLLVGAA022_EnvironmentKeyWritingF0VySbGGAA0E0HPAjaOHPyHC_AmA0eF0HPyHCHC.247
+- _objc_msgSend$_responderWindow
+- _objc_msgSend$climateFocusAssertion
+- _objc_msgSend$dockLocalScene
+- _objc_msgSend$initWithAC:fan:leftFan:rightFan:frontDefrost:rearDefrost:targetTemperature:
+- _objc_msgSend$initWithWindowScene:dockLocalScene:layoutEngine:iconProvider:environment:
+- _objc_msgSend$initWithWindowScene:primaryDockScene:secondaryDockScene:quickControlsScene:layoutEngine:environment:
+- _objc_msgSend$primaryDockFrame
+- _objc_msgSend$secondaryDockFrame
+- _objc_msgSend$setClimateFocusAssertion:
+- _objc_msgSend$setDockLocalScene:
+- _objc_msgSend$setPersistentElementsManager:
+- _objectdestroy.117Tm
+- _objectdestroy.11Tm
+- _symbolic SDy_____y__________GSo25DBWallpaperViewControllerCG 14CarPlayAssetUI11TaggedValueV AA6LayoutV 10Foundation4UUIDV
+- _symbolic SDy_____y__________GSo7FBSceneCG 14CarPlayAssetUI11TaggedValueV AA6LayoutV 10Foundation4UUIDV
+- _symbolic SDy_____y__________G_____G 14CarPlayAssetUI11TaggedValueV AA6LayoutV 10Foundation4UUIDV 9DashBoard34_DBInstrumentClusterScenePresenter33_AA18878D27B62631944FB3DCC9C55247LLC
+- _symbolic _____ 10Foundation4UUIDV
+- _symbolic _____Sg 14CarPlayAssetUI28DeprecatedPersistentElementsV
+- _symbolic _____SgXw 9DashBoard27DBPersistentElementsManagerC
+- _symbolic _____yAAyAAyAAyAAyAAyAAy_____yAAyAAyAAyAAy_____y_____y__________y__________GG_Qo______G_____G_____y_____SgGGANy_____SgGG______Qo_ANy_____SgGGANy_____SgGGANySdSgGGANy_____SgGGANy_____GGANy_____GG_____G 7SwiftUI15ModifiedContentV AA4ViewPAAE11environmentyQrqd__SgRld__C11Observation10ObservableRd__lFQO AE012CarPlayAssetB0E12layoutOutputyQrAJ06LayoutM0VFQO AA6IDViewV AJ0nE0V AJ11TaggedValueV AJ0N0V 10Foundation4UUIDV AA12_ScaleEffectV 9DashBoard016CloseButtonFocusU19CoordinatorModifier33_73D3EAFCCDEF5FB059F5819ABDB3422BLLV AA30_EnvironmentKeyWritingModifierV A_0xyzU11CoordinatorA1_LLC AJ17DataSourceManagerC AJ15DisplayProviderC AJ04SlotE7BuilderV AJ0n10BackgroundE7BuilderV AJ28ClusterTransitionCoordinatorC AJ08SetNeedsZ12UpdateActionV AJ19SymbolImageProviderV AA14_TaskModifier2V
+- _symbolic _____yAAyAAyAAyAAyAAy_____yAAyAAyAAyAAy_____y_____y__________y__________GG_Qo______G_____G_____y_____SgGGANy_____SgGG______Qo_ANy_____SgGGANy_____SgGGANySdSgGGANy_____SgGGANy_____GGANy_____GG 7SwiftUI15ModifiedContentV AA4ViewPAAE11environmentyQrqd__SgRld__C11Observation10ObservableRd__lFQO AE012CarPlayAssetB0E12layoutOutputyQrAJ06LayoutM0VFQO AA6IDViewV AJ0nE0V AJ11TaggedValueV AJ0N0V 10Foundation4UUIDV AA12_ScaleEffectV 9DashBoard016CloseButtonFocusU19CoordinatorModifier33_73D3EAFCCDEF5FB059F5819ABDB3422BLLV AA30_EnvironmentKeyWritingModifierV A_0xyzU11CoordinatorA1_LLC AJ17DataSourceManagerC AJ15DisplayProviderC AJ04SlotE7BuilderV AJ0n10BackgroundE7BuilderV AJ28ClusterTransitionCoordinatorC AJ08SetNeedsZ12UpdateActionV AJ19SymbolImageProviderV
+- _symbolic _____yAAyAAyAAyAAy_____yAAyAAyAAyAAy_____y_____y__________y__________GG_Qo______G_____G_____y_____SgGGANy_____SgGG______Qo_ANy_____SgGGANy_____SgGGANySdSgGGANy_____SgGGANy_____GG 7SwiftUI15ModifiedContentV AA4ViewPAAE11environmentyQrqd__SgRld__C11Observation10ObservableRd__lFQO AE012CarPlayAssetB0E12layoutOutputyQrAJ06LayoutM0VFQO AA6IDViewV AJ0nE0V AJ11TaggedValueV AJ0N0V 10Foundation4UUIDV AA12_ScaleEffectV 9DashBoard016CloseButtonFocusU19CoordinatorModifier33_73D3EAFCCDEF5FB059F5819ABDB3422BLLV AA30_EnvironmentKeyWritingModifierV A_0xyzU11CoordinatorA1_LLC AJ17DataSourceManagerC AJ15DisplayProviderC AJ04SlotE7BuilderV AJ0n10BackgroundE7BuilderV AJ28ClusterTransitionCoordinatorC AJ08SetNeedsZ12UpdateActionV
+- _symbolic _____yAAyAAyAAy_____yAAyAAyAAyAAy_____y_____y__________y__________GG_Qo______G_____G_____y_____SgGGANy_____SgGG______Qo_ANy_____SgGGANy_____SgGGANySdSgGGANy_____SgGG 7SwiftUI15ModifiedContentV AA4ViewPAAE11environmentyQrqd__SgRld__C11Observation10ObservableRd__lFQO AE012CarPlayAssetB0E12layoutOutputyQrAJ06LayoutM0VFQO AA6IDViewV AJ0nE0V AJ11TaggedValueV AJ0N0V 10Foundation4UUIDV AA12_ScaleEffectV 9DashBoard016CloseButtonFocusU19CoordinatorModifier33_73D3EAFCCDEF5FB059F5819ABDB3422BLLV AA30_EnvironmentKeyWritingModifierV A_0xyzU11CoordinatorA1_LLC AJ17DataSourceManagerC AJ15DisplayProviderC AJ04SlotE7BuilderV AJ0n10BackgroundE7BuilderV AJ28ClusterTransitionCoordinatorC
+- _symbolic _____yAAyAAyAAy_____y_____y__________y__________GG_Qo______G_____G_____y_____SgGGANy_____SgGG 7SwiftUI15ModifiedContentV AA4ViewP012CarPlayAssetB0E12layoutOutputyQrAF06LayoutJ0VFQO AA6IDViewV AF0kE0V AF11TaggedValueV AF0K0V 10Foundation4UUIDV AA12_ScaleEffectV 9DashBoard016CloseButtonFocusR19CoordinatorModifier33_73D3EAFCCDEF5FB059F5819ABDB3422BLLV AA022_EnvironmentKeyWritingY0V AW0uvwrX0AYLLC AF17DataSourceManagerC
+- _symbolic _____yAAyAAy_____yAAyAAyAAyAAy_____y_____y__________y__________GG_Qo______G_____G_____y_____SgGGANy_____SgGG______Qo_ANy_____SgGGANy_____SgGGANySdSgGG 7SwiftUI15ModifiedContentV AA4ViewPAAE11environmentyQrqd__SgRld__C11Observation10ObservableRd__lFQO AE012CarPlayAssetB0E12layoutOutputyQrAJ06LayoutM0VFQO AA6IDViewV AJ0nE0V AJ11TaggedValueV AJ0N0V 10Foundation4UUIDV AA12_ScaleEffectV 9DashBoard016CloseButtonFocusU19CoordinatorModifier33_73D3EAFCCDEF5FB059F5819ABDB3422BLLV AA30_EnvironmentKeyWritingModifierV A_0xyzU11CoordinatorA1_LLC AJ17DataSourceManagerC AJ15DisplayProviderC AJ04SlotE7BuilderV AJ0n10BackgroundE7BuilderV
+- _symbolic _____yAAyAAy_____y_____y__________y__________GG_Qo______G_____G_____y_____SgGG 7SwiftUI15ModifiedContentV AA4ViewP012CarPlayAssetB0E12layoutOutputyQrAF06LayoutJ0VFQO AA6IDViewV AF0kE0V AF11TaggedValueV AF0K0V 10Foundation4UUIDV AA12_ScaleEffectV 9DashBoard016CloseButtonFocusR19CoordinatorModifier33_73D3EAFCCDEF5FB059F5819ABDB3422BLLV AA022_EnvironmentKeyWritingY0V AW0uvwrX0AYLLC
+- _symbolic _____yAAy_____yAAyAAyAAyAAy_____y_____y__________y__________GG_Qo______G_____G_____y_____SgGGANy_____SgGG______Qo_ANy_____SgGGANy_____SgGG 7SwiftUI15ModifiedContentV AA4ViewPAAE11environmentyQrqd__SgRld__C11Observation10ObservableRd__lFQO AE012CarPlayAssetB0E12layoutOutputyQrAJ06LayoutM0VFQO AA6IDViewV AJ0nE0V AJ11TaggedValueV AJ0N0V 10Foundation4UUIDV AA12_ScaleEffectV 9DashBoard016CloseButtonFocusU19CoordinatorModifier33_73D3EAFCCDEF5FB059F5819ABDB3422BLLV AA30_EnvironmentKeyWritingModifierV A_0xyzU11CoordinatorA1_LLC AJ17DataSourceManagerC AJ15DisplayProviderC AJ04SlotE7BuilderV AJ0n10BackgroundE7BuilderV
+- _symbolic _____yAAy_____yAAy_____y_____ySay_____G_____yAE_____GAAyAAyAAy__________G_____G_____y_____GGGG_____y_____GG_____G_____y_____SgGGA_yAGy_____AHGSgGG 7SwiftUI15ModifiedContentV 012CarPlayAssetB08CarouselV AA6ZStackV AA7ForEachV AD4SlotV AD11TaggedValueV 10Foundation4UUIDV AD0L4ViewV AA12_FrameLayoutV AA09_PositionS0V AA21_TraitWritingModifierV AA06ZIndexU3KeyV AA016_BackgroundStyleW0V AA8MaterialV AD9ComponentV AA012_EnvironmentyvW0V AD0lQ7BuilderV AD0S0V
+- _symbolic _____yAAy_____y_____y__________y__________GG_Qo______G_____G 7SwiftUI15ModifiedContentV AA4ViewP012CarPlayAssetB0E12layoutOutputyQrAF06LayoutJ0VFQO AA6IDViewV AF0kE0V AF11TaggedValueV AF0K0V 10Foundation4UUIDV AA12_ScaleEffectV 9DashBoard016CloseButtonFocusR19CoordinatorModifier33_73D3EAFCCDEF5FB059F5819ABDB3422BLLV
+- _symbolic _____y__________G 14CarPlayAssetUI11TaggedValueV AA4SlotV 10Foundation4UUIDV
+- _symbolic _____y__________G 14CarPlayAssetUI11TaggedValueV AA4ZoneV 10Foundation4UUIDV
+- _symbolic _____y__________G 14CarPlayAssetUI11TaggedValueV AA6LayoutV 10Foundation4UUIDV
+- _symbolic _____y__________G 14CarPlayAssetUI11TaggedValueV AA9ComponentV 10Foundation4UUIDV
+- _symbolic _____y__________G3key_So25DBWallpaperViewControllerC5valuet 14CarPlayAssetUI11TaggedValueV AA6LayoutV 10Foundation4UUIDV
+- _symbolic _____y__________G3key_So25DBWallpaperViewControllerC5valuetSg 14CarPlayAssetUI11TaggedValueV AA6LayoutV 10Foundation4UUIDV
+- _symbolic _____y__________GSg 14CarPlayAssetUI11TaggedValueV AA6LayoutV 10Foundation4UUIDV
+- _symbolic _____y__________GSg 14CarPlayAssetUI11TaggedValueV AA9ComponentV 10Foundation4UUIDV
+- _symbolic _____y__________GSg_AEt 14CarPlayAssetUI11TaggedValueV AA6LayoutV 10Foundation4UUIDV
+- _symbolic _____y__________GSg_AEt 14CarPlayAssetUI11TaggedValueV AA9ComponentV 10Foundation4UUIDV
+- _symbolic _____y___________ySay_____G_____yAD_____G_____yAIyAIy__________G_____G_____y_____GGGG 7SwiftUI13_VariadicViewO4TreeV AA13_ZStackLayoutV AA7ForEachV 012CarPlayAssetB04SlotV AJ11TaggedValueV 10Foundation4UUIDV AA15ModifiedContentV AJ0mD0V AA06_FrameG0V AA09_PositionG0V AA21_TraitWritingModifierV AA06ZIndexV3KeyV
+- _symbolic _____y__________y__________GG 7SwiftUI6IDViewV 012CarPlayAssetB010LayoutViewV AD11TaggedValueV AD0G0V 10Foundation4UUIDV
+- _symbolic _____y_____yAAyAAyAAyAAyAAy_____yAAyAAyAAyAAy_____y_____y__________y__________GG_Qo______G_____G_____y_____SgGGANy_____SgGG______Qo_ANy_____SgGGANy_____SgGGANySdSgGGANy_____SgGGANy_____GGANy_____GG_Qo_ 7SwiftUI4ViewPAAE4task4name8priority4file4line_QrSSSg_ScPSSSiyyYaYAcntFQO AA15ModifiedContentV AcAE11environmentyQrqd__SgRld__C11Observation10ObservableRd__lFQO AC012CarPlayAssetB0E12layoutOutputyQrAP06LayoutR0VFQO AA6IDViewV AP0sC0V AP11TaggedValueV AP0S0V 10Foundation4UUIDV AA12_ScaleEffectV 9DashBoard016CloseButtonFocusZ19CoordinatorModifier33_73D3EAFCCDEF5FB059F5819ABDB3422BLLV AA30_EnvironmentKeyWritingModifierV A5_016CloseButtonFocusZ11CoordinatorA7_LLC AP17DataSourceManagerC AP15DisplayProviderC AP04SlotC7BuilderV AP0s10BackgroundC7BuilderV AP28ClusterTransitionCoordinatorC AP25SetNeedsFocusUpdateActionV AP19SymbolImageProviderV
+- _symbolic _____y_____yAAyAAyAAyAAy_____y_____y__________y__________GG_Qo______G_____G_____y_____SgGGANy_____SgGG______Qo_ANy_____SgGG 7SwiftUI15ModifiedContentV AA4ViewPAAE11environmentyQrqd__SgRld__C11Observation10ObservableRd__lFQO AE012CarPlayAssetB0E12layoutOutputyQrAJ06LayoutM0VFQO AA6IDViewV AJ0nE0V AJ11TaggedValueV AJ0N0V 10Foundation4UUIDV AA12_ScaleEffectV 9DashBoard016CloseButtonFocusU19CoordinatorModifier33_73D3EAFCCDEF5FB059F5819ABDB3422BLLV AA30_EnvironmentKeyWritingModifierV A_0xyzU11CoordinatorA1_LLC AJ17DataSourceManagerC AJ15DisplayProviderC AJ04SlotE7BuilderV
+- _symbolic _____y_____yAAy_____y_____ySay_____G_____yAE_____GAAyAAyAAy__________G_____G_____y_____GGGG_____y_____GG_____G_____y_____SgGG 7SwiftUI15ModifiedContentV 012CarPlayAssetB08CarouselV AA6ZStackV AA7ForEachV AD4SlotV AD11TaggedValueV 10Foundation4UUIDV AD0L4ViewV AA12_FrameLayoutV AA09_PositionS0V AA21_TraitWritingModifierV AA06ZIndexU3KeyV AA016_BackgroundStyleW0V AA8MaterialV AD9ComponentV AA012_EnvironmentyvW0V AD0lQ7BuilderV
+- _symbolic _____y_____yABy_____yABy_____y_____ySay_____G_____yAF_____GAByAByABy__________G_____G_____y_____GGGG_____y_____GG_____G_____y_____SgGGA0_yAHy_____AIGSgGGG 7SwiftUI19UIHostingControllerC AA15ModifiedContentV 012CarPlayAssetB08CarouselV AA6ZStackV AA7ForEachV AF4SlotV AF11TaggedValueV 10Foundation4UUIDV AF0N4ViewV AA12_FrameLayoutV AA09_PositionU0V AA21_TraitWritingModifierV AA06ZIndexW3KeyV AA016_BackgroundStyleY0V AA8MaterialV AF9ComponentV AA015_EnvironmentKeyxY0V AF0nS7BuilderV AF0U0V
+- _symbolic _____y_____ySay_____G_____yAC_____G_____yAHyAHy__________G_____G_____y_____GGGG 7SwiftUI6ZStackV AA7ForEachV 012CarPlayAssetB04SlotV AF11TaggedValueV 10Foundation4UUIDV AA15ModifiedContentV AF0I4ViewV AA12_FrameLayoutV AA09_PositionR0V AA21_TraitWritingModifierV AA06ZIndexT3KeyV
+- _symbolic _____y_____y__________GG s23_ContiguousArrayStorageC 14CarPlayAssetUI11TaggedValueV AC9ComponentV 10Foundation4UUIDV
+- _symbolic _____y_____y__________GSgG 7SwiftUI30_EnvironmentKeyWritingModifierV 012CarPlayAssetB011TaggedValueV AD6LayoutV 10Foundation4UUIDV
+- _symbolic _____y_____y__________GSo25DBWallpaperViewControllerCG s18_DictionaryStorageC 14CarPlayAssetUI11TaggedValueV AC6LayoutV 10Foundation4UUIDV
+- _symbolic _____y_____y__________GSo7FBSceneCG s18_DictionaryStorageC 14CarPlayAssetUI11TaggedValueV AC6LayoutV 10Foundation4UUIDV
+- _symbolic _____y_____y__________G_____G s18_DictionaryStorageC 14CarPlayAssetUI11TaggedValueV AC6LayoutV 10Foundation4UUIDV 9DashBoard34_DBInstrumentClusterScenePresenter33_AA18878D27B62631944FB3DCC9C55247LLC
+- _symbolic _____y_____y_____ySay_____G_____yAD_____GAAyAAyAAy__________G_____G_____y_____GGGG_____y_____GG 7SwiftUI15ModifiedContentV AA6ZStackV AA7ForEachV 012CarPlayAssetB04SlotV AH11TaggedValueV 10Foundation4UUIDV AH0K4ViewV AA12_FrameLayoutV AA09_PositionR0V AA21_TraitWritingModifierV AA06ZIndexT3KeyV AA016_BackgroundStyleV0V AA8MaterialV
+- _symbolic _____y_____y_____y__________y__________GG_Qo______G 7SwiftUI15ModifiedContentV AA4ViewP012CarPlayAssetB0E12layoutOutputyQrAF06LayoutJ0VFQO AA6IDViewV AF0kE0V AF11TaggedValueV AF0K0V 10Foundation4UUIDV AA12_ScaleEffectV
+CStrings:
++ " assertion for scene: "
++ "; focusedFrame: "
++ "<DBDashboardFocusUpdate: "
++ "@\"NSArray\"24@0:8q16"
++ "@\"_TtC9DashBoard31DBDashboardFocusMovementManager\""
++ "@16@?0@\"NSValue\"8"
++ "@64@0:8q16Q24{CGRect={CGPoint=dd}{CGSize=dd}}32"
++ "@72@0:8@16@24@32@40@48@56@64"
++ "Applying focus update: %@"
++ "CARFocusDebugWindowEnabled"
++ "Cannot show audio notification — window or view controller is nil (window=%@, viewController=%@) for service: %@"
++ "DashBoard.DBDashboardFocusDebugWindow"
++ "DashBoard.DBDashboardFocusMovementManager"
++ "DashBoard.DBDashboardFocusUpdate"
++ "Failed to create local status bar scene(s)!"
++ "Failed to retrieve window scene for local secondary dock scene %{public}@"
++ "Focus movement action is not allowed"
++ "Focus movement action received from unknown scene: %@"
++ "Handling focus movement action with heading: %@, source scene: %ld"
++ "Refreshing audio window and view controller (window=%@, viewController=%@)"
++ "SecondaryDock-%@"
++ "Startup notification gate is closed, suppressing audio notification"
++ "T@\"<DBFocusAssertion>\",&,N,V_primaryClimateFocusAssertion"
++ "T@\"<DBFocusAssertion>\",&,N,V_secondaryClimateFocusAssertion"
++ "T@\"DBFocusGuide\",&,N,V_dockToTopClimateFocusGuide"
++ "T@\"FBScene\",&,N,V_primaryDockLocalScene"
++ "T@\"FBScene\",&,N,V_secondaryDockLocalScene"
++ "T@\"_TtC9DashBoard31DBDashboardFocusMovementManager\",&,N,V_modernFocusMovementManager"
++ "TB,N,GisContentHidden,V_contentHidden"
++ "TB,N,VisContentHidden"
++ "TQ,N,R,Vheading"
++ "Tq,N,R,Vaction"
++ "Tq,N,R,Vscene"
++ "T{CGRect={CGPoint=dd}{CGSize=dd}},N,R,VfocusedFrame"
++ "UIFocus Set SecondaryClimateFocusAssertion %@"
++ "Unexpected focus update: %@"
++ "Unknown scene currently has focus: %@"
++ "[PairingAnimation] Climate: elevating window levels (climateDockLockOut, climateQuickControlsLockOut)"
++ "[PairingAnimation] Climate: resetting window levels (climateDock, climateQuickControls)"
++ "[PairingAnimation] Dock: elevating window level for Hello animation"
++ "[PairingAnimation] Dock: restoring content after Hello animation"
++ "[previewForLayout] Resolution FAILED for layout: %s, vehicleType: %s, error: %@"
++ "[previewForLayout] Resolution returned nil for layout: %s, vehicleType: %s"
++ "_TtC9DashBoard22DBDashboardFocusUpdate"
++ "_TtC9DashBoard31DBDashboardFocusMovementManager"
++ "_TtC9DashBoardP33_DCA12AEA884FDE0EAA126EB7DB58D4CE27DBDashboardFocusDebugWindow"
++ "_TtP9DashBoard27DBDashboardFocusEnvironment_"
++ "_contentHidden"
++ "_dockToTopClimateFocusGuide"
++ "_handleSystemNudgeWithHeading:"
++ "_legacyHandleFocusMovementAction:fromScene:"
++ "_modernFocusMovementManager"
++ "_primaryClimateFocusAssertion"
++ "_primaryDockLocalScene"
++ "_primaryDockSceneHostWindow"
++ "_secondaryClimateFocusAssertion"
++ "_secondaryDockLocalScene"
++ "_secondaryDockScene"
++ "_secondaryDockSceneHostWindow"
++ "_secondaryFocusAssertion"
++ "_systemNudgeLeftPressed:"
++ "_systemNudgeRightPressed:"
++ "acquirePrimaryFocus"
++ "acquirePrimaryFocusWithHeading:focusedFrame:"
++ "acquireSecondaryFocusWithHeading:focusedFrame:"
++ "activeStatusBarStyleOverride"
++ "blueColor"
++ "clientSettings"
++ "containsScene:"
++ "contentHidden"
++ "convertRect:fromScene:"
++ "convertRect:fromView:"
++ "convertRect:toScene:"
++ "debugWindow"
++ "disableDebugWindow"
++ "dockToTopClimateFocusGuide"
++ "enableDebugWindowWithWindowScene:"
++ "endAppearanceTransitionTask"
++ "evaluateMovementFromScene:heading:focusedFrame:"
++ "focusEnvironment"
++ "focusEnvironmentCurrentStatusBarEdge"
++ "focusEnvironmentFocusableRegionsForScene:"
++ "focusEnvironmentHasDualStatusBar"
++ "focusEnvironmentIsRightHandDrive"
++ "focusEnvironmentLayoutDirection"
++ "focusEnvironmentSupportsClimateOverlay"
++ "focusableRegionFrames"
++ "focusableRegions"
++ "focusableSceneTypeForScene:"
++ "focusedScene"
++ "greenColor"
++ "handleFocusUpdate:action:"
++ "hasActiveStyleOverride"
++ "initWithAC:leftFan:rightFan:frontDefrost:rearDefrost:targetTemperature:"
++ "initWithFocusEnvironment:"
++ "initWithWindowScene:primaryDockLocalScene:secondaryDockLocalScene:layoutEngine:iconProvider:environment:"
++ "initWithWindowScene:primaryDockScene:secondaryDockScene:quickControlsScene:layoutEngine:environment:persistentElementsManager:"
++ "invertedDescriptor"
++ "isApplicationScene:"
++ "isAtLockOutWindowLevel"
++ "isContentHidden"
++ "modernFocusMovementManager"
++ "nullDisplay"
++ "orangeColor"
++ "primaryClimateFocusAssertion"
++ "primaryDockFocusableRegions"
++ "primaryDockLocalScene"
++ "primaryFocusableRegions"
++ "purpleColor"
++ "relinquishPrimaryFocus"
++ "relinquishPrimaryFocusWithHeading:focusedFrame:"
++ "relinquishSecondaryFocus"
++ "relinquishSecondaryFocusWithHeading:focusedFrame:"
++ "resetLockOutWindowLevel"
++ "secondaryClimate"
++ "secondaryClimateFocusAssertion"
++ "secondaryDockFocusableRegions"
++ "secondaryDockLocalScene"
++ "secondaryFocusableRegions"
++ "setAssociatedDisplay:"
++ "setAudioWindow:viewController:"
++ "setContentHidden:"
++ "setDockToTopClimateFocusGuide:"
++ "setLockOutWindowLevel"
++ "setModernFocusMovementManager:"
++ "setPrimaryClimateFocusAssertion:"
++ "setPrimaryDockLocalScene:"
++ "setSecondaryClimateFocusAssertion:"
++ "setSecondaryDockLocalScene:"
++ "setSenderDescriptors:"
++ "shouldSuppressStartupNotifications"
++ "systemTealColor"
++ "yellowColor"
++ "{CGRect={CGPoint=dd}{CGSize=dd}}56@0:8{CGRect={CGPoint=dd}{CGSize=dd}}16q48"
+- "!\xf1"
+- "AudioSettings has not received all values"
+- "T@\"<DBFocusAssertion>\",&,N,V_climateFocusAssertion"
+- "T@\"FBScene\",&,N,V_dockLocalScene"
+- "T@\"_TtC9DashBoard27DBPersistentElementsManager\",N,W,VpersistentElementsManager"
+- "Updating climateSettings.primaryDockFrame: %s; climateSettings.secondaryDockFrame: %s;"
+- "_climateFocusAssertion"
+- "_dockLocalScene"
+- "_dockSceneHostWindow"
+- "_responderWindow"
+- "climateFocusAssertion"
+- "dockLocalScene"
+- "initWithAC:fan:leftFan:rightFan:frontDefrost:rearDefrost:targetTemperature:"
+- "initWithWindowScene:dockLocalScene:layoutEngine:iconProvider:environment:"
+- "initWithWindowScene:primaryDockScene:secondaryDockScene:quickControlsScene:layoutEngine:environment:"
+- "setClimateFocusAssertion:"
+- "setDockLocalScene:"
+
+```
