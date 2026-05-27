@@ -10842,13 +10842,13 @@
 
 ```diff
 
- 		io_service_open_extended
- 		io_server_version
- 		io_service_get_matching_services_bin
-+		io_registry_entry_get_property_bin_buf
- 		mach_port_request_notification
- 		mach_port_set_attributes
- 		mach_port_get_context_from_user
+ 				io_service_open_extended
+ 				io_server_version
+ 				io_service_get_matching_services_bin
++				io_registry_entry_get_property_bin_buf
+ 				mach_port_request_notification
+ 				mach_port_set_attributes
+ 				mach_port_get_context_from_user
 ```
 
 ##### ANECompilerService
@@ -10900,16 +10900,16 @@
 +		MSC_iokit_user_client_trap)
  )
  
- (deny sysctl*)
+ (allow mach-kernel-endpoint
 
- 		io_registry_entry_from_path
- 		io_service_open_extended
- 		io_connect_method
-+		io_connect_async_method
-+		io_registry_entry_get_registry_entry_id
- 		io_server_version
- 		io_service_get_matching_service_bin
- 		io_service_get_matching_services_bin
+ 				io_registry_entry_from_path
+ 				io_service_open_extended
+ 				io_connect_method
++				io_connect_async_method
++				io_registry_entry_get_registry_entry_id
+ 				io_server_version
+ 				io_service_get_matching_service_bin
+ 				io_service_get_matching_services_bin
 ```
 
 ##### ASPCarryLog
@@ -11005,16 +11005,16 @@
 +		MSC_iokit_user_client_trap)
  )
  
- (deny sysctl*)
+ (allow mach-kernel-endpoint
 
- 		io_registry_entry_from_path
- 		io_service_open_extended
- 		io_connect_method
-+		io_connect_async_method
-+		io_registry_entry_get_registry_entry_id
- 		io_server_version
- 		io_service_get_matching_service_bin
- 		io_service_get_matching_services_bin
+ 				io_registry_entry_from_path
+ 				io_service_open_extended
+ 				io_connect_method
++				io_connect_async_method
++				io_registry_entry_get_registry_entry_id
+ 				io_server_version
+ 				io_service_get_matching_service_bin
+ 				io_service_get_matching_services_bin
 ```
 
 ##### BTLEServer
@@ -11197,13 +11197,13 @@
  		SYS_readv
  		SYS_writev
 
- 		thread_terminate
- 		thread_suspend
- 		thread_resume
-+		thread_info
- 		thread_policy
- 		vm_map_external
- 		vm_remap_external
+ 				thread_terminate
+ 				thread_suspend
+ 				thread_resume
++				thread_info
+ 				thread_policy
+ 				vm_map_external
+ 				vm_remap_external
 ```
 
 ##### CoreSpotlightService
@@ -11255,13 +11255,13 @@
  		SYS_fstatat64
  		SYS_mkdirat
 
- 		task_set_exc_guard_behavior
- 		vm_remap_external
- 		vm_reallocate
-+		mach_vm_copy
- 		mach_vm_map_external
- 		mach_vm_region_recurse
- 		_mach_make_memory_entry
+ 				task_set_exc_guard_behavior
+ 				vm_remap_external
+ 				vm_reallocate
++				mach_vm_copy
+ 				mach_vm_map_external
+ 				mach_vm_region_recurse
+ 				_mach_make_memory_entry
 
  	(deny system-memorystatus-control
  		(require-all
@@ -11323,13 +11323,13 @@
 
 ```diff
 
- 		mach_port_get_context_from_user
- 		mach_port_is_connection_for_service
- 		mach_port_get_service_port_info
-+		task_threads_from_user
- 		task_info_from_user
- 		task_get_special_port_from_user
- 		task_set_special_port
+ 				mach_port_get_context_from_user
+ 				mach_port_is_connection_for_service
+ 				mach_port_get_service_port_info
++				task_threads_from_user
+ 				task_info_from_user
+ 				task_get_special_port_from_user
+ 				task_set_special_port
 ```
 
 ##### IntelligentLight
@@ -11594,16 +11594,16 @@
 +		MSC_iokit_user_client_trap)
  )
  
- (deny sysctl*)
+ (allow mach-kernel-endpoint
 
- 		io_service_close
- 		io_service_open_extended
- 		io_connect_method
-+		io_connect_async_method
-+		io_registry_entry_get_registry_entry_id
- 		io_server_version
- 		io_service_get_matching_service_bin
- 		io_service_get_matching_services_bin
+ 				io_service_close
+ 				io_service_open_extended
+ 				io_connect_method
++				io_connect_async_method
++				io_registry_entry_get_registry_entry_id
+ 				io_server_version
+ 				io_service_get_matching_service_bin
+ 				io_service_get_matching_services_bin
 ```
 
 ##### ScreenTimeAgent
@@ -11949,13 +11949,13 @@
 
 ```diff
 
- 		mach_exception_raise_state
- 		mach_exception_raise_state_identity
- 		io_service_open_extended
-+		mach_port_request_notification
- 		mach_port_set_attributes
- 		mach_port_get_context_from_user
- 		mach_port_is_connection_for_service
+ 				mach_exception_raise_state
+ 				mach_exception_raise_state_identity
+ 				io_service_open_extended
++				mach_port_request_notification
+ 				mach_port_set_attributes
+ 				mach_port_get_context_from_user
+ 				mach_port_is_connection_for_service
 ```
 
 ##### WorkoutKitXPCService
@@ -12069,20 +12069,20 @@
  		MSC_thread_get_special_reply_port
  		MSC_swtch_pri
 
- 		io_registry_entry_create_iterator
- 		io_service_open_extended
- 		io_connect_method
-+		io_connect_async_method
-+		io_connect_set_notification_port_64
- 		io_service_add_interest_notification_64
-+		io_registry_entry_get_registry_entry_id
- 		io_server_version
- 		io_service_get_matching_service_bin
- 		io_service_get_matching_services_bin
-+		io_service_add_notification_bin_64
- 		io_registry_entry_get_properties_bin_buf
- 		io_registry_entry_get_property_bin_buf
- 		mach_port_destroy
+ 				io_registry_entry_create_iterator
+ 				io_service_open_extended
+ 				io_connect_method
++				io_connect_async_method
++				io_connect_set_notification_port_64
+ 				io_service_add_interest_notification_64
++				io_registry_entry_get_registry_entry_id
+ 				io_server_version
+ 				io_service_get_matching_service_bin
+ 				io_service_get_matching_services_bin
++				io_service_add_notification_bin_64
+ 				io_registry_entry_get_properties_bin_buf
+ 				io_registry_entry_get_property_bin_buf
+ 				mach_port_destroy
 ```
 
 ##### amsengagementd
@@ -12430,13 +12430,13 @@
  		MSC_thread_get_special_reply_port
  		MSC_swtch_pri
 
- 		io_service_open_extended
- 		io_connect_method
- 		io_connect_async_method
-+		io_connect_set_notification_port_64
- 		io_service_add_interest_notification_64
- 		io_registry_entry_get_registry_entry_id
- 		io_server_version
+ 				io_service_open_extended
+ 				io_connect_method
+ 				io_connect_async_method
++				io_connect_set_notification_port_64
+ 				io_service_add_interest_notification_64
+ 				io_registry_entry_get_registry_entry_id
+ 				io_server_version
 ```
 
 ##### cdpd
@@ -12516,14 +12516,14 @@
  
  (deny iokit-set-properties)
 
- 		io_registry_entry_get_parent_iterator
- 		io_service_open_extended
- 		io_connect_method
-+		io_connect_async_method
-+		io_registry_entry_get_registry_entry_id
- 		io_server_version
- 		io_service_get_matching_service_bin
- 		io_service_get_matching_services_bin
+ 				io_registry_entry_get_parent_iterator
+ 				io_service_open_extended
+ 				io_connect_method
++				io_connect_async_method
++				io_registry_entry_get_registry_entry_id
+ 				io_server_version
+ 				io_service_get_matching_service_bin
+ 				io_service_get_matching_services_bin
 ```
 
 ##### com.apple.SensorKit.CHSupportService
@@ -12675,17 +12675,17 @@
 
 ```diff
 
- 		vm_remap_external
- 		vm_reallocate
- 		mach_vm_map_external
-+		mach_vm_remap_external
- 		_mach_make_memory_entry
- 		mach_vm_range_create
- 		mach_vm_reallocate
-+		mach_memory_entry_ownership
- 		task_restartable_ranges_register
- 		task_restartable_ranges_synchronize)
- )
+ 				vm_remap_external
+ 				vm_reallocate
+ 				mach_vm_map_external
++				mach_vm_remap_external
+ 				_mach_make_memory_entry
+ 				mach_vm_range_create
+ 				mach_vm_reallocate
++				mach_memory_entry_ownership
+ 				task_restartable_ranges_register
+ 				task_restartable_ranges_synchronize)
+ 		)
 ```
 
 ##### com.apple.photos.ImageConversionService
@@ -12814,13 +12814,13 @@
  		MSC_mach_generate_activity_id
  		MSC_mach_msg2_trap
 
- 		task_get_special_port_from_user
- 		task_set_special_port
- 		semaphore_create
-+		semaphore_destroy
- 		task_set_exc_guard_behavior
- 		vm_map_external
- 		vm_remap_external
+ 				task_get_special_port_from_user
+ 				task_set_special_port
+ 				semaphore_create
++				semaphore_destroy
+ 				task_set_exc_guard_behavior
+ 				vm_map_external
+ 				vm_remap_external
 ```
 
 ##### deviceaccessd
@@ -12866,13 +12866,13 @@
 
 ```diff
 
- 		host_info
- 		host_get_clock_service
- 		host_get_special_port
-+		clock_get_time
- 		mach_exception_raise
- 		mach_exception_raise_state
- 		mach_exception_raise_state_identity
+ 				host_info
+ 				host_get_clock_service
+ 				host_get_special_port
++				clock_get_time
+ 				mach_exception_raise
+ 				mach_exception_raise_state
+ 				mach_exception_raise_state_identity
 ```
 
 ##### donotdisturbd
@@ -12908,17 +12908,17 @@
  		MSC_thread_get_special_reply_port
  		MSC_swtch_pri
 
- 		io_registry_entry_get_name
- 		io_service_close
- 		io_registry_get_root_entry
-+		io_registry_entry_create_iterator
- 		io_service_open_extended
- 		io_connect_method
- 		io_connect_async_method
-+		io_connect_set_notification_port_64
- 		io_service_add_interest_notification_64
- 		io_registry_entry_get_registry_entry_id
- 		io_server_version
+ 				io_registry_entry_get_name
+ 				io_service_close
+ 				io_registry_get_root_entry
++				io_registry_entry_create_iterator
+ 				io_service_open_extended
+ 				io_connect_method
+ 				io_connect_async_method
++				io_connect_set_notification_port_64
+ 				io_service_add_interest_notification_64
+ 				io_registry_entry_get_registry_entry_id
+ 				io_server_version
 ```
 
 ##### ecosystemanalyticsd
@@ -12938,13 +12938,13 @@
 
 ```diff
 
- 		io_registry_get_root_entry
- 		io_service_open_extended
- 		io_connect_method
-+		io_connect_async_method
- 		io_service_add_interest_notification_64
- 		io_registry_entry_get_registry_entry_id
- 		io_server_version
+ 				io_registry_get_root_entry
+ 				io_service_open_extended
+ 				io_connect_method
++				io_connect_async_method
+ 				io_service_add_interest_notification_64
+ 				io_registry_entry_get_registry_entry_id
+ 				io_server_version
 ```
 
 ##### feedbackd
@@ -12977,13 +12977,13 @@
 
 ```diff
 
- 		vm_reallocate
- 		mach_vm_copy
- 		mach_vm_map_external
-+		mach_vm_remap_external
- 		mach_vm_region_recurse
- 		mach_vm_region
- 		_mach_make_memory_entry
+ 				vm_reallocate
+ 				mach_vm_copy
+ 				mach_vm_map_external
++				mach_vm_remap_external
+ 				mach_vm_region_recurse
+ 				mach_vm_region
+ 				_mach_make_memory_entry
 ```
 
 ##### fitcored
@@ -13016,13 +13016,13 @@
 
 ```diff
 
- 		mach_exception_raise_state_identity
- 		io_iterator_next
- 		io_registry_entry_from_path
-+		io_registry_entry_get_property_bytes
- 		io_registry_entry_get_child_iterator
- 		io_service_close
- 		io_registry_entry_create_iterator
+ 				mach_exception_raise_state_identity
+ 				io_iterator_next
+ 				io_registry_entry_from_path
++				io_registry_entry_get_property_bytes
+ 				io_registry_entry_get_child_iterator
+ 				io_service_close
+ 				io_registry_entry_create_iterator
 ```
 
 ##### gamed
@@ -13076,13 +13076,13 @@
 
 ```diff
 
- 		semaphore_create
- 		semaphore_destroy
- 		task_set_exc_guard_behavior
-+		thread_info
- 		thread_policy
- 		vm_remap_external
- 		vm_reallocate
+ 				semaphore_create
+ 				semaphore_destroy
+ 				task_set_exc_guard_behavior
++				thread_info
+ 				thread_policy
+ 				vm_remap_external
+ 				vm_reallocate
 ```
 
 ##### griddatad
@@ -13258,13 +13258,13 @@
  		SYS_writev
  		SYS_rename
 
- 		semaphore_destroy
- 		task_set_exc_guard_behavior
- 		task_create_identity_token
-+		thread_info
- 		vm_remap_external
- 		mach_make_memory_entry_64
- 		vm_reallocate
+ 				semaphore_destroy
+ 				task_set_exc_guard_behavior
+ 				task_create_identity_token
++				thread_info
+ 				vm_remap_external
+ 				mach_make_memory_entry_64
+ 				vm_reallocate
 ```
 
 ##### intelligentroutingd
@@ -13399,26 +13399,26 @@
 
 ```diff
 
- 		mach_make_memory_entry_64
- 		vm_reallocate
- 		mach_vm_read
-+		mach_vm_write
- 		mach_vm_copy
- 		mach_vm_map_external
- 		mach_vm_remap_external
+ 				mach_make_memory_entry_64
+ 				vm_reallocate
+ 				mach_vm_read
++				mach_vm_write
+ 				mach_vm_copy
+ 				mach_vm_map_external
+ 				mach_vm_remap_external
 ```
 
 ##### locationpushd
 
 ```diff
 
- 		task_get_special_port_from_user
- 		task_set_special_port
- 		semaphore_create
-+		semaphore_destroy
- 		task_set_exc_guard_behavior
- 		thread_info
- 		vm_copy
+ 				task_get_special_port_from_user
+ 				task_set_special_port
+ 				semaphore_create
++				semaphore_destroy
+ 				task_set_exc_guard_behavior
+ 				thread_info
+ 				vm_copy
 ```
 
 ##### lsd
@@ -13550,13 +13550,13 @@
 
 ```diff
 
- 		task_get_special_port_from_user
- 		task_set_special_port
- 		semaphore_create
-+		semaphore_destroy
- 		task_set_exc_guard_behavior
- 		task_create_identity_token
- 		thread_terminate
+ 				task_get_special_port_from_user
+ 				task_set_special_port
+ 				semaphore_create
++				semaphore_destroy
+ 				task_set_exc_guard_behavior
+ 				task_create_identity_token
+ 				thread_terminate
 ```
 
 ##### mobileactivationd
@@ -13603,21 +13603,21 @@
  		MSC_thread_get_special_reply_port
  		MSC_swtch_pri
 
- 		io_service_get_matching_services_bin
- 		io_registry_entry_get_properties_bin_buf
- 		io_registry_entry_get_property_bin_buf
-+		mach_port_destroy
- 		mach_port_request_notification
- 		mach_port_set_attributes
- 		mach_port_get_context_from_user
+ 				io_service_get_matching_services_bin
+ 				io_registry_entry_get_properties_bin_buf
+ 				io_registry_entry_get_property_bin_buf
++				mach_port_destroy
+ 				mach_port_request_notification
+ 				mach_port_set_attributes
+ 				mach_port_get_context_from_user
 
- 		vm_remap_external
- 		mach_make_memory_entry_64
- 		vm_reallocate
-+		mach_vm_read
- 		mach_vm_copy
- 		mach_vm_map_external
- 		mach_vm_remap_external
+ 				vm_remap_external
+ 				mach_make_memory_entry_64
+ 				vm_reallocate
++				mach_vm_read
+ 				mach_vm_copy
+ 				mach_vm_map_external
+ 				mach_vm_remap_external
 ```
 
 ##### mobilerepaird
@@ -13658,13 +13658,13 @@
 
 ```diff
 
- 		semaphore_destroy
- 		task_set_exc_guard_behavior
- 		task_create_identity_token
-+		thread_info
- 		thread_policy
- 		vm_remap_external
- 		vm_reallocate
+ 				semaphore_destroy
+ 				task_set_exc_guard_behavior
+ 				task_create_identity_token
++				thread_info
+ 				thread_policy
+ 				vm_remap_external
+ 				vm_reallocate
 ```
 
 ##### nanobackupd
@@ -13770,13 +13770,13 @@
 
 ```diff
 
- 		task_set_exc_guard_behavior
- 		thread_info
- 		vm_remap_external
-+		mach_make_memory_entry_64
- 		vm_reallocate
- 		mach_vm_map_external
- 		mach_vm_region
+ 				task_set_exc_guard_behavior
+ 				thread_info
+ 				vm_remap_external
++				mach_make_memory_entry_64
+ 				vm_reallocate
+ 				mach_vm_map_external
+ 				mach_vm_region
 
  	(deny system-memorystatus-control
  		(require-all
@@ -13896,13 +13896,13 @@
  		MSC_thread_get_special_reply_port
  		MSC_swtch_pri
 
- 		thread_get_state_to_user
- 		thread_suspend
- 		thread_resume
-+		thread_info
- 		thread_policy
- 		vm_remap_external
- 		vm_reallocate
+ 				thread_get_state_to_user
+ 				thread_suspend
+ 				thread_resume
++				thread_info
+ 				thread_policy
+ 				vm_remap_external
+ 				vm_reallocate
 ```
 
 ##### rapportd
@@ -13982,13 +13982,13 @@
  	)
  )
 
- 		io_registry_entry_get_properties_bin_buf
- 		io_registry_entry_get_property_bin_buf
- 		mach_port_get_refs
-+		mach_port_request_notification
- 		mach_port_set_attributes
- 		mach_port_get_context_from_user
- 		mach_port_is_connection_for_service
+ 				io_registry_entry_get_properties_bin_buf
+ 				io_registry_entry_get_property_bin_buf
+ 				mach_port_get_refs
++				mach_port_request_notification
+ 				mach_port_set_attributes
+ 				mach_port_get_context_from_user
+ 				mach_port_is_connection_for_service
 ```
 
 ##### rtcreportingd
@@ -14092,13 +14092,13 @@
 
 ```diff
 
- 		task_set_exc_guard_behavior
- 		task_create_identity_token
- 		thread_terminate
-+		thread_info
- 		thread_policy
- 		vm_copy
- 		vm_remap_external
+ 				task_set_exc_guard_behavior
+ 				task_create_identity_token
+ 				thread_terminate
++				thread_info
+ 				thread_policy
+ 				vm_copy
+ 				vm_remap_external
 ```
 
 ##### softwareupdateservicesd
@@ -14121,13 +14121,13 @@
  		MSC_thread_get_special_reply_port
  		MSC_swtch_pri
 
- 		io_service_open_extended
- 		io_connect_method
- 		io_connect_async_method
-+		io_connect_set_notification_port_64
- 		io_service_add_interest_notification_64
- 		io_registry_entry_get_registry_entry_id
- 		io_server_version
+ 				io_service_open_extended
+ 				io_connect_method
+ 				io_connect_async_method
++				io_connect_set_notification_port_64
+ 				io_service_add_interest_notification_64
+ 				io_registry_entry_get_registry_entry_id
+ 				io_server_version
 ```
 
 ##### spaceattributiond
@@ -14181,13 +14181,13 @@
 
 ```diff
 
- 		task_set_special_port
- 		semaphore_create
- 		semaphore_destroy
-+		task_create_identity_token
- 		thread_info
- 		vm_remap_external
- 		vm_reallocate
+ 				task_set_special_port
+ 				semaphore_create
+ 				semaphore_destroy
++				task_create_identity_token
+ 				thread_info
+ 				vm_remap_external
+ 				vm_reallocate
 ```
 
 ##### storekitd

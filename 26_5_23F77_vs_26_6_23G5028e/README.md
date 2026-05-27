@@ -1262,6 +1262,367 @@
 
 </details>
 
+## Localizations
+
+### 🆕 NEW (2)
+
+<details>
+  <summary><i>View New</i></summary>
+
+#### NFLocationService
+
+>  `FileSystem/System/Library/PrivateFrameworks/NearFieldPrivateServices.framework/XPCServices/NFLocationService.xpc/InfoPlist.loctable`
+
+```text
+en.CFBundleDisplayName = "NFLocationService"
+en.CFBundleName = "NFLocationService"
+en.NSHumanReadableCopyright = ""
+en.NSLocationAlwaysAndWhenInUseUsageDescription = "Location service requested by NFC subsystem"
+en.NSLocationUsageDescription = "Location service requested by NFC subsystem"
+en.NSLocationWhenInUseUsageDescription = "Location service requested by NFC subsystem"
+```
+#### NFReportingService
+
+>  `FileSystem/System/Library/PrivateFrameworks/NearFieldPrivateServices.framework/XPCServices/NFReportingService.xpc/InfoPlist.loctable`
+
+```text
+en.CFBundleDisplayName = "NFReportingService"
+en.CFBundleName = "NFReportingService"
+en.NSHumanReadableCopyright = ""
+```
+
+</details>
+
+### ❌ Removed (4)
+
+- `FileSystem/System/Library/AccessibilityBundles/Moments.axbundle/Accessibility-Jurassic.loctable`
+- `FileSystem/System/Library/AccessibilityBundles/Music.axbundle/Accessibility-AQ.loctable`
+- `FileSystem/System/Library/AccessibilityBundles/MusicApplication.axbundle/Accessibility-AQ.loctable`
+- `FileSystem/System/Library/PrivateFrameworks/HeadphoneConfigs.framework/DeviceConfig-Seed.loctable`
+
+### ⬆️ Updated (14)
+
+<details>
+  <summary><i>View Updated</i></summary>
+
+#### CarPlaySettings
+
+>  `FileSystem/Applications/CarPlaySettings.app/Localizable.loctable`
+
+```diff
+
+ en.ACCESSIBILITY_HEADER_HEARING = "Hearing"
+ en.ACCESSIBILITY_HEADER_PHYSICAL_AND_MOTOR = "Physical and Motor"
+ en.ACCESSIBILITY_HEADER_VISION = "Vision"
++en.ACCESSIBILITY_LINK_DRIVE_MODE = "Link Drive Mode"
++en.ACCESSIBILITY_RESET = "Reset"
+ en.ACCESSIBILITY_SETTING_OFF = "Off"
+ en.ACCESSIBILITY_SETTING_ON = "On"
+ en.ACCESSIBILITY_SIREN = "Siren"
+ en.ACCESSIBILITY_SOUND_RECOGNITION = "Sound Recognition"
+ en.ACCESSIBILITY_TEXT_SIZE = "Text Size"
+ en.ACCESSIBILITY_TITLE = "Accessibility"
++en.ACCESSIBILITY_UNLINK_DRIVE_MODE = "Unlink Drive Mode"
+ en.ACCESSIBILITY_VOICE_CONTROL = "Voice Control"
+ en.ACCESSIBILITY_VOICE_CONTROL_FOOTER = "Voice Control allows you to use your iPhone’s microphone to control CarPlay with voice commands. Try: go home, swipe right, open \u003capp\u003e, scroll down, tap \u003cbutton\u003e."
+ en.AI_AND_SIRI_TITLE = "Apple Intelligence \u0026 Siri"
+
+ en.MESSAGES_PINS_TITLE = "Pinned Conversations"
+ en.Not Available While Driving = "Not Available While Driving"
+ en.OK = "OK"
++en.RESET = "Reset"
+ en.RESET_ALERT_BUTTON_TITLE = "Reset to Original"
+ en.RESET_BUTTON_TITLE = "Reset"
+ en.RESET_THEME_TITLE = "Reset to original will remove all edits made to this theme."
+
+ en.VIDEO_LOGGING_TURN_ON = "Turn On Video Logging"
+ en.VIDEO_SETTINGS_UNAVAILABLE = "Some video settings will be available when you’re not driving."
+ en.VIDEO_VERSION = "Version"
++en.WALLPAPER = "Wallpaper"
+ en.WALLPAPER_BUTTON_CANCEL = "Cancel"
+ en.WALLPAPER_BUTTON_CUSTOMIZE = "Customize"
+ en.WALLPAPER_BUTTON_SET = "Set"
+ en.WALLPAPER_TITLE = "Wallpaper"
+ en.Wallpaper %@ = "Wallpaper %@"
+-en.Wallpaper = "Wallpaper"
+
+```
+
+#### SharingViewService
+
+>  `FileSystem/Applications/SharingViewService.app/Localizable.loctable`
+
+```diff
+
+ en.NAME_TAG = "Name AirTag"
+ en.NETWORK_ERROR = "Cannot set up AirTag. Check your internet connection and try again."
+ en.NFC_CONTINUE_FOR_MORE = "Continue for More Items"
++en.NFC_DEVELOPMENT_SCAN = "NFC Test Scan for Developers"
++en.NFC_DEVELOPMENT_SUBTITLE_FORMAT = "%@\n\nYou may only scan cards for testing purposes. Before you begin, cardholders must be aware and approve of their cards being used.\n\nTo help prevent misuse, Apple collects and logs the developer team of this app and the location of this iPhone when a test scan is performed."
+ en.NFC_TIMEOUT = "Detection paused due to inactivity"
+ en.NOT_NOW = "Not Now"
+ en.NOT_YOUR_AIRPODS = "Not Your AirPods"
+
+```
+
+#### MediaControls
+
+>  `FileSystem/System/Library/AccessibilityBundles/MediaControls.axbundle/Accessibility.loctable`
+
+```diff
+
+ en.route.description.speaker = "Speaker"
+ en.route.description.tv = "TV"
+ en.route.state.pending.value = "Pending"
++en.route.subtitle.battery = "Battery"
++en.routepicker.connection.options = "Connection Options"
+ en.session.collapsed = "Collapsed"
+ en.session.collapsed.hint = "Activate to expand"
+ en.session.expanded = "Expanded"
+
+```
+
+#### BackgroundAssets
+
+>  `FileSystem/System/Library/Frameworks/BackgroundAssets.framework/BAError.loctable`
+
+```diff
+
+ en.-53 = "This operation cannot be performed because the caller is lacking the iCloud container identifier entitlement."
+ en.-54 = "This operation cannot be performed because the caller is not permitted to access this CloudKit container."
+ en.-57 = "This operation cannot be performed because the file cannot be marked purgeable."
++en.-58 = "This operation cannot be performed because the file URL is not within the application's allowed containers."
+ en.-600 = "The bundle record isn’t an application record."
+ en.0 = "Invalid error code"
+ en.100 = "A download with the requested identifier has already been scheduled."
+
+```
+
+#### com.apple.onboarding.analyticsdevice
+
+>  `FileSystem/System/Library/OnBoardingBundles/com.apple.onboarding.analyticsdevice.bundle/AnalyticsDevice.loctable`
+
+```diff
+
+ en.BUTTON_TITLE = "About Device Analytics \u0026 Privacy…"
+ en.BUTTON_TITLE_APPLETV = "About Device Analytics \u0026 Privacy"
++en.BUTTON_TITLE_APPLEVISION = "About visionOS Developer Analytics \u0026 Privacy…"
+ en.FOOTER_TEXT_WIFI_APPLETV = "Apple would like your help improving and developing its products and services.\n\nYour Apple TV can automatically collect analytics information about your Apple TV and any connected devices and send it to Apple for analysis — but only with your explicit consent.\n\nAnalytics information may include details about hardware and operating system specifications, performance statistics, and data about how you use your devices and applications. None of the collected information identifies you personally. Personal data is not logged at all or is removed from any reports before they are sent to Apple. You can review this information on your Apple TV by going to Settings \u003e General \u003e Privacy \u0026 Security and selecting Analytics Data. You may choose to disable the sharing of Apple TV Analytics altogether. To do so, go to Settings \u003e General \u003e Privacy \u0026 Security and turn off Share Apple TV Analytics.\n\nIf you agree to send Analytics information to Apple from multiple devices that use the same iCloud account, we may correlate some usage data about Apple apps across those devices by syncing using end-to-end encryption. We do this in a manner that does not identify you to Apple.\n\nBy using these features, you agree and consent to Apple’s and its subsidiaries’ and agents’ transmission, collection, maintenance, processing, and use of this information as described above.\n\nAt all times, information collected by Apple will be treated in accordance with Apple’s Privacy Policy, which can be found at www.apple.com/privacy."
+-en.FOOTER_TEXT_WIFI_APPLEVISION = "visionOS Device Analytics\n\nApple Vision Pro Analytics may include details about hardware and operating system specifications, performance statistics, and data about how you use your devices and applications. Analytics may also include information such as hand position, hand and eye input errors, and limited information about your surroundings such as room size and lighting quality.\n\nThis information is used to help Apple improve and develop its products and services. None of the collected information identifies you personally. Personal data is not logged at all, is subject to privacy-preserving techniques such as differential privacy, or is removed from any reports before they’re sent to Apple. You can review this information on your visionOS device by going to Settings \u003e Privacy \u0026 Security \u003e Analytics \u0026 Improvements and tapping Analytics Data.\n\nIf you have consented to provide Apple with this information, and you have Location Services turned on, the location of your device may also be sent to help Apple analyze performance issues (for example, the strength or weakness of a Wi-Fi signal in a particular location). This analytics location data may include locations such as the location where a call ends. You may choose to disable Location Services for Analytics at any time. To do so, go to Settings \u003e Privacy \u0026 Security \u003e Location Services \u003e System Services and tap to turn off Analytics.\n\nIf you agree to send Analytics information to Apple from multiple devices that use the same iCloud account, we may correlate some usage data about Apple apps across those devices by syncing using end-to-end encryption. We do this in a manner that does not identify you to Apple.\n\nYou may also choose to disable the sharing of Device Analytics altogether. To do so, go to Settings \u003e Privacy \u0026 Security \u003e Analytics \u0026 Improvements, and turn off Share Apple Vision Pro Analytics.\n\nBy using these features, you agree and consent to Apple’s and its subsidiaries’ and agents’ transmission, collection, maintenance, processing, and use of this information as described above.\n\nAt all times, information collected by Apple will be treated in accordance with Apple’s Privacy Policy, which can be found at www.apple.com/privacy."
++en.FOOTER_TEXT_WIFI_APPLEVISION = "visionOS Developer Analytics may include details about how you use your device, such as:\n\n• Hardware and operating system specifications, performance statistics, and data about how you use your devices and applications\n• Hand measurements and movements\n• Eye calibration measurements and errors\n• Your surroundings, such as room size, lighting quality, and nearby objects detected by the device\n\nDeveloper Analytics do not include identifiable information, health data, raw images recorded by the device’s cameras, or information about race, ethnicity or skin tone.\n\nThis information is used to help Apple improve and develop its products and services. The information collected is not tied to your Apple Account, and Apple applies privacy-preserving techniques such as differential privacy to protect your data. You can review this information on your visionOS device by going to Settings \u003e Privacy \u0026 Security \u003e Analytics \u0026 Improvements and tapping Analytics Data.\n\nIf you have Location Services turned on, the location of your device may also be sent to help Apple analyze performance issues (for example, the strength or weakness of a Wi-Fi signal in a particular location). This analytics location data may include locations such as the location where a call ends or the location of a failed in-store transaction. You may choose to disable Location Services for Analytics at any time. To do so, go to Settings \u003e Privacy \u0026 Security \u003e Location Services \u003e System Services and tap to turn off Analytics.\n\nIf you send Analytics information to Apple from multiple devices that use the same iCloud account, we may correlate some usage data about Apple apps across those devices by syncing using end-to-end encryption. We do this in a manner that does not identify you to Apple.\n\nYou may also choose to disable the sharing of visionOS Developer Analytics altogether. To do so, go to Settings \u003e Privacy \u0026 Security \u003e Analytics \u0026 Improvements, and turn off Share Apple Vision Pro Developer Analytics.\n\nBy using these features, you agree and consent to Apple’s and its subsidiaries’ and agents’ transmission, collection, maintenance, processing, and use of this information as described above.\n\nAt all times, information collected by Apple will be treated in accordance with Apple’s Privacy Policy, which can be found at www.apple.com/privacy."
+ en.FOOTER_TEXT_WIFI_APPLEWATCH = "Watch Analytics\n\nWatch Analytics may include details about hardware and operating system specifications, performance statistics, and data about how you use your devices and applications. This information is used to help Apple improve and develop its products and services. None of the collected information identifies you personally. Personal data is not logged at all, is subject to privacy-preserving techniques such as differential privacy, or is removed from any reports before they’re sent to Apple. You can review this information on your Watch by going to Settings \u003e Privacy \u0026 Security \u003e Analytics \u0026 Improvements and tapping Analytics Data.\n\nIf you have consented to provide Apple with this information, and you have Location Services turned on, the location of your devices may also be sent to help Apple analyze performance issues (for example, the strength or weakness of a mobile or Wi-Fi signal in a particular location). This analytics location data may include locations such as the location where a call ends or the location of a failed in-store transaction. You may choose to disable Location Services for Watch Analytics at any time. To do so, go to Settings \u003e Privacy \u0026 Security \u003e Location Services \u003e System Services and tap to turn off Apple Watch Analytics.\n\nYou may also choose to disable the sharing of Watch Analytics altogether. To do so, go to Settings \u003e Privacy \u0026 Security \u003e Analytics \u0026 Improvements, and tap to turn off Share iPhone \u0026 Watch Analytics.\n\nBy using these features, you agree and consent to Apple’s and its subsidiaries’ and agents’ transmission, collection, maintenance, processing, and use of this information as described above.\n\nAt all times, information collected by Apple will be treated in accordance with Apple’s Privacy Policy, which can be found at www.apple.com/privacy."
+ en.FOOTER_TEXT_WIFI_HOMEPOD = "HomePod Device Analytics\n\nHomePod Analytics may include details about hardware and operating system specifications, performance statistics, data about your paired devices and supported HomeKit accessories, and how you use your devices and HomePod features. This information is used to help Apple improve and develop its products and services. None of the collected information identifies you personally. Personal data is not logged at all, is subject to privacy-preserving techniques such as differential privacy, or is removed from any reports before they’re sent to Apple. You can review this information by opening the Home app on your iOS or iPadOS device or your Mac that is signed in to the same Apple Account as your HomePod. On your iOS or iPadOS device, press and hold the HomePod, go to Settings, tap Analytics \u0026 Improvements, then tap Analytics Data. On your Mac, right-click the HomePod, click Settings, click Analytics \u0026 Improvements, then click Analytics Data.\n\nIf you have consented to provide Apple with this information, and you have Location Services turned on, the location of your devices may also be sent to help Apple analyze performance issues (for example, the strength or weakness of a Wi-Fi signal in a particular location). This analytics location data may include locations such as the location of your devices. You can disable Location Services at any time. To do so, open the Home app on your iOS or iPadOS device or your Mac that is signed in to the same Apple Account as your HomePod. On your iOS or iPadOS device, press and hold the HomePod, tap Settings, then tap to turn off Location Services. On your Mac, right-click the HomePod, click Settings, then click to turn off Location Services.\n\nIf you agree to send Analytics information to Apple from multiple devices that use the same iCloud account, we may correlate some usage data about Apple features across those devices by syncing using end-to-end encryption. We do this in a manner that does not identify you to Apple.\n\nYou may also choose to disable the sharing of Device Analytics altogether. To do so, open the Home app on your iOS or iPadOS device or Mac that is signed in to the same Apple Account as your HomePod. On your iOS or iPadOS device, press and hold on the HomePod, tap Settings, tap Analytics \u0026 Improvements, then tap to turn off Share HomePod Analytics. On your Mac, right-click the HomePod, click Settings, click Analytics \u0026 Improvements, then click to turn off Share HomePod Analytics.\n\nBy using these features, you agree and consent to Apple’s and its subsidiaries’ and agents’ transmission, collection, maintenance, processing, and use of this information as described above.\n\nAt all times, information collected by Apple will be treated in accordance with Apple’s Privacy Policy, which can be found at www.apple.com/privacy."
+ en.FOOTER_TEXT_WIFI_IPAD = "iPadOS Device Analytics\n\niPad Analytics may include details about hardware and operating system specifications, performance statistics, and data about how you use your devices and applications. This information is used to help Apple improve and develop its products and services. None of the collected information identifies you personally. Personal data is not logged at all, is subject to privacy-preserving techniques such as differential privacy, or is removed from any reports before they’re sent to Apple. You can review this information on your iPadOS device by going to Settings \u003e Privacy \u0026 Security \u003e Analytics \u0026 Improvements and tapping Analytics Data.\n\nIf you have consented to provide Apple with this information, and you have Location Services turned on, the location of your devices may also be sent to help Apple analyze performance issues (for example, the strength or weakness of a mobile or Wi-Fi signal in a particular location). This analytics location data may include locations such as the location where a call ends or the location of a failed in-store transaction. You may choose to disable Location Services for Analytics at any time. To do so, go to Settings \u003e Privacy \u0026 Security \u003e Location Services \u003e System Services and tap to turn off iPad Analytics.\n\nIf you agree to send Analytics information to Apple from multiple devices that use the same iCloud account, we may correlate some usage data about Apple apps across those devices by syncing using end-to-end encryption. We do this in a manner that does not identify you to Apple.\n\nYou may also choose to disable the sharing of Device Analytics altogether. To do so, go to Settings \u003e Privacy \u0026 Security \u003e Analytics \u0026 Improvements, and tap to turn off Share iPad Analytics.\n\nBy using these features, you agree and consent to Apple’s and its subsidiaries’ and agents’ transmission, collection, maintenance, processing, and use of this information as described above.\n\nAt all times, information collected by Apple will be treated in accordance with Apple’s Privacy Policy, which can be found at www.apple.com/privacy."
+
+ en.FOOTER_TEXT_WIFI_IPOD = "iOS Device Analytics\n\niPod Analytics may include details about hardware and operating system specifications, performance statistics, and data about how you use your devices and applications. This information is used to help Apple improve and develop its products and services. None of the collected information identifies you personally. Personal data is not logged at all, is subject to privacy-preserving techniques such as differential privacy, or is removed from any reports before they’re sent to Apple. You can review this information on your iOS device by going to Settings \u003e Privacy \u0026 Security \u003e Analytics \u0026 Improvements and tapping Analytics Data.\n\nIf you have consented to provide Apple with this information, and you have Location Services turned on, the location of your devices may also be sent to help Apple analyze performance issues (for example, the strength or weakness of a mobile or Wi-Fi signal in a particular location). This analytics location data may include locations such as the location where a call ends or the location of a failed in-store transaction. You may choose to disable Location Services for Analytics at any time. To do so, go to Settings \u003e Privacy \u0026 Security \u003e Location Services \u003e System Services and tap to turn off iPod Analytics.\n\nIf you agree to send Analytics information to Apple from multiple devices that use the same iCloud account, we may correlate some usage data about Apple apps across those devices by syncing using end-to-end encryption. We do this in a manner that does not identify you to Apple.\n\nYou may also choose to disable the sharing of Device Analytics altogether. To do so, go to Settings \u003e Privacy \u0026 Security \u003e Analytics \u0026 Improvements, and tap to turn off “Share iPod touch Analytics.”\n\nBy using these features, you agree and consent to Apple’s and its subsidiaries’ and agents’ transmission, collection, maintenance, processing, and use of this information as described above.\n\nAt all times, information collected by Apple will be treated in accordance with Apple’s Privacy Policy, which can be found at www.apple.com/privacy."
+ en.FOOTER_TEXT_WIFI_MAC = "With your permission, macOS can automatically collect analytics information from your Mac and send it to Apple to help improve and develop its products and services. This information is sent only with your consent and is submitted anonymously to Apple.\n\nFurther Details\n\nIf you agree to send Mac Analytics information to Apple, it may include:\n\n• Details about app or system crashes, freezes, or kernel panics\n• Information about events on your Mac (for example, whether a certain function such as waking your Mac was successful or not)\n• Usage information (for example, data about how you use Apple and third-party software, hardware, and services)\n\nAnalytics data contains your computer’s hardware and software specifications, including information about devices connected to your Mac and the versions of the operating system and apps you’re using on your Mac. Personal data is not logged at all in the reports generated by your Mac, is subject to privacy-preserving techniques such as differential privacy, or is removed from any reports before they’re sent to Apple. If you want to add a description of your actions when the problem occurred, click the disclosure triangle and enter your comments. Please do not provide personal information.\n\nData can be sent automatically if one of these events occurs:\n\n• An app quits unexpectedly.\n• You choose to force an app to quit.\n• A system error occurs that causes your Mac to restart, or requires you to restart your Mac.\n\nIf you agree, we may share your crash data with Apple’s partners and third-party developers to improve their software, hardware, and services designed for use with Apple products. Apple may also provide such partners and third-party developers with a subset of analytics information that is relevant to that partner’s or developer’s software, hardware, and/or services, as long as the information is in a form that does not personally identify you.\n\nIf you agree to send Analytics information to Apple from multiple devices that use the same iCloud account, we may correlate some usage data about Apple apps across those devices by syncing using end-to-end encryption. We do this in a manner that does not identify you to Apple.\n\nInformation is sent to Apple using your internet connection. If your Mac is not connected to the internet, the data is saved and sent the next time you connect to the internet.\n\nYour Mac keeps analytics information for one month after it is generated, then deletes the information.\n\nIf you have consented to provide Apple with Analytics information, and you have Location Services turned on, the location of your device, such as your current region, may be sent to Apple. You may choose to disable Location Services for Analytics at any time. To do so, go to System Settings \u003e Privacy \u0026 Security \u003e Location Services \u003e System Services and tap to turn off Mac Analytics.\n\nOpt Out of Sharing Analytics\n\nYou can opt out of sharing analytics from your Mac at any time by going to System Settings \u003e Privacy \u0026 Security \u003e Analytics \u0026 Improvements, then deselecting Share Mac Analytics. To stop sharing analytics data with app developers, deselect Share with App Developers. Analytics information will no longer be sent to Apple.\n\nView Analytics Information\n\nYou can use the Console app to view analytics information sent to Apple. To do so, open Console, then click Mac Analytics Data in the sidebar. Console shows analytics information even if you did not select to send reports automatically. SubmitDiagInfo entries indicate when analytics information was sent to Apple.\n\nIf you are signed in as an administrator user, you can view all reports. If you are not signed in as an administrator, you can view only User Reports.\n\nTo view analytics information from Pages, Numbers, Keynote, or Freeform, open the app, then click the app name in the menu and go to Analytics \u0026 Privacy \u003e Show Analytics Data.\n\nPrivacy Policy\n\nAll analytics information is sent to Apple anonymously.\n\nBy using these features, you agree and consent to Apple’s and its subsidiaries’ and agents’ transmission, collection, maintenance, processing, and use of this information as described above.\n\nAt all times, information collected by Apple will be treated in accordance with Apple’s Privacy Policy, which can be found at www.apple.com/privacy."
+ en.FOOTER_TEXT_WLAN_APPLETV = "Apple would like your help improving and developing its products and services.\n\nYour Apple TV can automatically collect analytics information about your Apple TV and any connected devices and send it to Apple for analysis — but only with your explicit consent.\n\nAnalytics information may include details about hardware and operating system specifications, performance statistics, and data about how you use your devices and applications. None of the collected information identifies you personally. Personal data is not logged at all or is removed from any reports before they are sent to Apple. You can review this information on your Apple TV by going to Settings \u003e General \u003e Privacy \u0026 Security and selecting Analytics Data. You may choose to disable the sharing of Apple TV Analytics altogether. To do so, go to Settings \u003e General \u003e Privacy \u0026 Security and turn off Share Apple TV Analytics.\n\nIf you agree to send Analytics information to Apple from multiple devices that use the same iCloud account, we may correlate some usage data about Apple apps across those devices by syncing using end-to-end encryption. We do this in a manner that does not identify you to Apple.\n\nBy using these features, you agree and consent to Apple’s and its subsidiaries’ and agents’ transmission, collection, maintenance, processing, and use of this information as described above.\n\nAt all times, information collected by Apple will be treated in accordance with Apple’s Privacy Policy, which can be found at www.apple.com/privacy."
+-en.FOOTER_TEXT_WLAN_APPLEVISION = "visionOS Device Analytics\n\nApple Vision Pro Analytics may include details about hardware and operating system specifications, performance statistics, and data about how you use your devices and applications. Analytics may also include information such as hand position, hand and eye input errors, and limited information about your surroundings such as room size and lighting quality.\n\nThis information is used to help Apple improve and develop its products and services. None of the collected information identifies you personally. Personal data is not logged at all, is subject to privacy-preserving techniques such as differential privacy, or is removed from any reports before they’re sent to Apple. You can review this information on your visionOS device by going to Settings \u003e Privacy \u0026 Security \u003e Analytics \u0026 Improvements and tapping Analytics Data.\n\nIf you have consented to provide Apple with this information, and you have Location Services turned on, the location of your device may also be sent to help Apple analyze performance issues (for example, the strength or weakness of a WLAN signal in a particular location). This analytics location data may include locations such as the location where a call ends. You may choose to disable Location Services for Analytics at any time. To do so, go to Settings \u003e Privacy \u0026 Security \u003e Location Services \u003e System Services and tap to turn off Analytics.\n\nIf you agree to send Analytics information to Apple from multiple devices that use the same iCloud account, we may correlate some usage data about Apple apps across those devices by syncing using end-to-end encryption. We do this in a manner that does not identify you to Apple.\n\nYou may also choose to disable the sharing of Device Analytics altogether. To do so, go to Settings \u003e Privacy \u0026 Security \u003e Analytics \u0026 Improvements, and turn off Share Apple Vision Pro Analytics.\n\nBy using these features, you agree and consent to Apple’s and its subsidiaries’ and agents’ transmission, collection, maintenance, processing, and use of this information as described above.\n\nAt all times, information collected by Apple will be treated in accordance with Apple’s Privacy Policy, which can be found at www.apple.com/privacy."
++en.FOOTER_TEXT_WLAN_APPLEVISION = "visionOS Developer Analytics may include details about how you use your device, such as:\n\n• Hardware and operating system specifications, performance statistics, and data about how you use your devices and applications\n• Hand measurements and movements\n• Eye calibration measurements and errors\n• Your surroundings, such as room size, lighting quality, and nearby objects detected by the device\n\nDeveloper Analytics do not include identifiable information, health data, raw images recorded by the device’s cameras, or information about race, ethnicity or skin tone.\n\nThis information is used to help Apple improve and develop its products and services. The information collected is not tied to your Apple Account, and Apple applies privacy-preserving techniques such as differential privacy to protect your data. You can review this information on your visionOS device by going to Settings \u003e Privacy \u0026 Security \u003e Analytics \u0026 Improvements and tapping Analytics Data.\n\nIf you have Location Services turned on, the location of your device may also be sent to help Apple analyze performance issues (for example, the strength or weakness of a WLAN signal in a particular location). This analytics location data may include locations such as the location where a call ends or the location of a failed in-store transaction. You may choose to disable Location Services for Analytics at any time. To do so, go to Settings \u003e Privacy \u0026 Security \u003e Location Services \u003e System Services and tap to turn off Analytics.\n\nIf you send Analytics information to Apple from multiple devices that use the same iCloud account, we may correlate some usage data about Apple apps across those devices by syncing using end-to-end encryption. We do this in a manner that does not identify you to Apple.\n\nYou may also choose to disable the sharing of visionOS Developer Analytics altogether. To do so, go to Settings \u003e Privacy \u0026 Security \u003e Analytics \u0026 Improvements, and turn off Share Apple Vision Pro Developer Analytics.\n\nBy using these features, you agree and consent to Apple’s and its subsidiaries’ and agents’ transmission, collection, maintenance, processing, and use of this information as described above.\n\nAt all times, information collected by Apple will be treated in accordance with Apple’s Privacy Policy, which can be found at www.apple.com/privacy."
+ en.FOOTER_TEXT_WLAN_APPLEWATCH = "Watch Analytics\n\nWatch Analytics may include details about hardware and operating system specifications, performance statistics, and data about how you use your devices and applications. This information is used to help Apple improve and develop its products and services. None of the collected information identifies you personally. Personal data is not logged at all, is subject to privacy-preserving techniques such as differential privacy, or is removed from any reports before they’re sent to Apple. You can review this information on your Watch by going to Settings \u003e Privacy \u0026 Security \u003e Analytics \u0026 Improvements and tapping Analytics Data.\n\nIf you have consented to provide Apple with this information, and you have Location Services turned on, the location of your devices may also be sent to help Apple analyze performance issues (for example, the strength or weakness of a mobile or WLAN signal in a particular location). This analytics location data may include locations such as the location where a call ends or the location of a failed in-store transaction. You may choose to disable Location Services for Watch Analytics at any time. To do so, go to Settings \u003e Privacy \u0026 Security \u003e Location Services \u003e System Services and tap to turn off Apple Watch Analytics.\n\nYou may also choose to disable the sharing of Watch Analytics altogether. To do so, go to Settings \u003e Privacy \u0026 Security \u003e Analytics \u0026 Improvements, and tap to turn off Share iPhone \u0026 Watch Analytics.\n\nBy using these features, you agree and consent to Apple’s and its subsidiaries’ and agents’ transmission, collection, maintenance, processing, and use of this information as described above.\n\nAt all times, information collected by Apple will be treated in accordance with Apple’s Privacy Policy, which can be found at www.apple.com/privacy."
+ en.FOOTER_TEXT_WLAN_HOMEPOD = "HomePod Device Analytics\n\nHomePod Analytics may include details about hardware and operating system specifications, performance statistics, data about your paired devices and supported HomeKit accessories, and how you use your devices and HomePod features. This information is used to help Apple improve and develop its products and services. None of the collected information identifies you personally. Personal data is not logged at all, is subject to privacy-preserving techniques such as differential privacy, or is removed from any reports before they’re sent to Apple. You can review this information by opening the Home app on your iOS or iPadOS device or your Mac that is signed in to the same Apple Account as your HomePod. On your iOS or iPadOS device, press and hold the HomePod, go to Settings, tap Analytics \u0026 Improvements, then tap Analytics Data. On your Mac, right-click the HomePod, click Settings, click Analytics \u0026 Improvements, then click Analytics Data.\n\nIf you have consented to provide Apple with this information, and you have Location Services turned on, the location of your devices may also be sent to help Apple analyze performance issues (for example, the strength or weakness of a WLAN signal in a particular location). This analytics location data may include locations such as the location of your devices. You can disable Location Services at any time. To do so, open the Home app on your iOS or iPadOS device or your Mac that is signed in to the same Apple Account as your HomePod. On your iOS or iPadOS device, press and hold the HomePod, tap Settings, then tap to turn off Location Services. On your Mac, right-click the HomePod, click Settings, then click to turn off Location Services.\n\nIf you agree to send Analytics information to Apple from multiple devices that use the same iCloud account, we may correlate some usage data about Apple features across those devices by syncing using end-to-end encryption. We do this in a manner that does not identify you to Apple.\n\nYou may also choose to disable the sharing of Device Analytics altogether. To do so, open the Home app on your iOS or iPadOS device or your Mac that is signed in to the same Apple Account as your HomePod. On your iOS or iPadOS device, press and hold on the HomePod, tap Settings, tap Analytics \u0026 Improvements, then tap to turn off Share HomePod Analytics. On your Mac, right-click the HomePod, click Settings, click Analytics \u0026 Improvements, then click to turn off Share HomePod Analytics.\n\nBy using these features, you agree and consent to Apple’s and its subsidiaries’ and agents’ transmission, collection, maintenance, processing, and use of this information as described above.\n\nAt all times, information collected by Apple will be treated in accordance with Apple’s Privacy Policy, which can be found at www.apple.com/privacy."
+ en.FOOTER_TEXT_WLAN_IPAD = "iPadOS Device Analytics\n\niPad Analytics may include details about hardware and operating system specifications, performance statistics, and data about how you use your devices and applications. This information is used to help Apple improve and develop its products and services. None of the collected information identifies you personally. Personal data is not logged at all, is subject to privacy-preserving techniques such as differential privacy, or is removed from any reports before they’re sent to Apple. You can review this information on your iPadOS device by going to Settings \u003e Privacy \u0026 Security \u003e Analytics \u0026 Improvements and tapping Analytics Data.\n\nIf you have consented to provide Apple with this information, and you have Location Services turned on, the location of your devices may also be sent to help Apple analyze performance issues (for example, the strength or weakness of a mobile or WLAN signal in a particular location). This analytics location data may include locations such as the location where a call ends or the location of a failed in-store transaction. You may choose to disable Location Services for Analytics at any time. To do so, go to Settings \u003e Privacy \u0026 Security \u003e Location Services \u003e System Services and tap to turn off iPad Analytics.\n\nIf you agree to send Analytics information to Apple from multiple devices that use the same iCloud account, we may correlate some usage data about Apple apps across those devices by syncing using end-to-end encryption. We do this in a manner that does not identify you to Apple.\n\nYou may also choose to disable the sharing of Device Analytics altogether. To do so, go to Settings \u003e Privacy \u0026 Security \u003e Analytics \u0026 Improvements, and tap to turn off Share iPad Analytics.\n\nBy using these features, you agree and consent to Apple’s and its subsidiaries’ and agents’ transmission, collection, maintenance, processing, and use of this information as described above.\n\nAt all times, information collected by Apple will be treated in accordance with Apple’s Privacy Policy, which can be found at www.apple.com/privacy."
+
+ en.FOOTER_TEXT_WLAN_IPOD = "iOS Device Analytics\n\niPod Analytics may include details about hardware and operating system specifications, performance statistics, and data about how you use your devices and applications. This information is used to help Apple improve and develop its products and services. None of the collected information identifies you personally. Personal data is not logged at all, is subject to privacy-preserving techniques such as differential privacy, or is removed from any reports before they’re sent to Apple. You can review this information on your iOS device by going to Settings \u003e Privacy \u0026 Security \u003e Analytics \u0026 Improvements and tapping Analytics Data.\n\nIf you have consented to provide Apple with this information, and you have Location Services turned on, the location of your devices may also be sent to help Apple analyze performance issues (for example, the strength or weakness of a mobile or WLAN signal in a particular location). This analytics location data may include locations such as the location where a call ends or the location of a failed in-store transaction. You may choose to disable Location Services for Analytics at any time. To do so, go to Settings \u003e Privacy \u0026 Security \u003e Location Services \u003e System Services and tap to turn off iPod Analytics.\n\nIf you agree to send Analytics information to Apple from multiple devices that use the same iCloud account, we may correlate some usage data about Apple apps across those devices by syncing using end-to-end encryption. We do this in a manner that does not identify you to Apple.\n\nYou may also choose to disable the sharing of Device Analytics altogether. To do so, go to Settings \u003e Privacy \u0026 Security \u003e Analytics \u0026 Improvements, and tap to turn off “Share iPod touch Analytics.”\n\nBy using these features, you agree and consent to Apple’s and its subsidiaries’ and agents’ transmission, collection, maintenance, processing, and use of this information as described above.\n\nAt all times, information collected by Apple will be treated in accordance with Apple’s Privacy Policy, which can be found at www.apple.com/privacy."
+ en.FOOTER_TEXT_WLAN_MAC = "With your permission, macOS can automatically collect analytics information from your Mac and send it to Apple to help improve and develop its products and services. This information is sent only with your consent and is submitted anonymously to Apple.\n\nFurther Details\n\nIf you agree to send Mac Analytics information to Apple, it may include:\n\n• Details about app or system crashes, freezes, or kernel panics\n• Information about events on your Mac (for example, whether a certain function such as waking your Mac was successful or not)\n• Usage information (for example, data about how you use Apple and third-party software, hardware, and services)\n\nAnalytics data contains your computer’s hardware and software specifications, including information about devices connected to your Mac and the versions of the operating system and apps you’re using on your Mac. Personal data is not logged at all in the reports generated by your Mac, is subject to privacy-preserving techniques such as differential privacy, or is removed from any reports before they’re sent to Apple. If you want to add a description of your actions when the problem occurred, click the disclosure triangle and enter your comments. Please do not provide personal information.\n\nData can be sent automatically if one of these events occurs:\n\n• An app quits unexpectedly.\n• You choose to force an app to quit.\n• A system error occurs that causes your Mac to restart, or requires you to restart your Mac.\n\nIf you agree, we may share your crash data with Apple’s partners and third-party developers to improve their software, hardware, and services designed for use with Apple products. Apple may also provide such partners and third-party developers with a subset of analytics information that is relevant to that partner’s or developer’s software, hardware, and/or services, as long as the information is in a form that does not personally identify you.\n\nIf you agree to send Analytics information to Apple from multiple devices that use the same iCloud account, we may correlate some usage data about Apple apps across those devices by syncing using end-to-end encryption. We do this in a manner that does not identify you to Apple.\n\nInformation is sent to Apple using your internet connection. If your Mac is not connected to the internet, the data is saved and sent the next time you connect to the internet.\n\nYour Mac keeps analytics information for one month after it is generated, then deletes the information.\n\nIf you have consented to provide Apple with Analytics information, and you have Location Services turned on, the location of your device, such as your current region, may be sent to Apple. You may choose to disable Location Services for Analytics at any time. To do so, go to System Settings \u003e Privacy \u0026 Security \u003e Privacy \u003e Location Services \u003e System Services and tap to turn off Mac Analytics.\n\nOpt Out of Sharing Analytics\n\nYou can opt out of sharing analytics from your Mac at any time by going to System Settings \u003e Privacy \u0026 Security \u003e Privacy \u003e Analytics \u0026 Improvements, then deselecting Share Mac Analytics. To stop sharing analytics data with app developers, deselect Share with App Developers. Analytics information will no longer be sent to Apple.\n\nView Analytics Information\n\nYou can use the Console app to view analytics information sent to Apple. To do so, open Console, then click Mac Analytics Data in the sidebar. Console shows analytics information even if you did not select to send reports automatically. SubmitDiagInfo entries indicate when analytics information was sent to Apple.\n\nIf you are signed in as an administrator user, you can view all reports. If you are not signed in as an administrator, you can view only User Reports.\n\nTo view analytics information from Pages, Numbers, Keynote, or Freeform, open the app, then click the app name in the menu and go to Analytics \u0026 Privacy \u003e Show Analytics Data.\n\nPrivacy Policy\n\nAll analytics information is sent to Apple anonymously.\n\nBy using these features, you agree and consent to Apple’s and its subsidiaries’ and agents’ transmission, collection, maintenance, processing, and use of this information as described above.\n\nAt all times, information collected by Apple will be treated in accordance with Apple’s Privacy Policy, which can be found at www.apple.com/privacy."
+ en.SPLASH_SHORT_TITLE = "Device Analytics"
++en.SPLASH_SHORT_TITLE_APPLEVISION = "visionOS Developer Analytics"
+ en.SPLASH_SUMMARY = "Analytics is designed to protect your information and enable you to choose what you share."
+ en.SPLASH_TITLE = "Device Analytics \u0026 Privacy"
++en.SPLASH_TITLE_APPLEVISION = "visionOS Developer Analytics \u0026 Privacy"
+
+```
+
+#### com.apple.onboarding.reportconcernAuth
+
+>  `FileSystem/System/Library/OnBoardingBundles/com.apple.onboarding.reportconcernAuth.bundle/ReportConcernAuth.loctable`
+
+```diff
+
+-en.BUTTON_CAPTION = "This report will be used to improve Apple products and services, for example to train models. It will be linked to your Apple Account. By submitting, you represent you own or have permission to upload the report content, which may contain copyrighted, personal, or sensitive information."
++en.BUTTON_CAPTION = "This feedback will be linked to your Apple Account and may be used to improve Apple products and services, for example to train models. Attachments may contain copyrighted, personal, or sensitive information."
+ en.BUTTON_TITLE = "See how your data is managed…"
+ en.FIFTH_BULLET = "If you report a concern related to searching Google using Visual Intelligence, you can choose to allow your report to be shared with Google."
+ en.FIRST_BULLET = "Report a Concern collects information to solve reported issues. Information collected for reports related to certain features available in the Apple Beta Software Program is stored in association with your Apple Account. Before you submit these reports, your Apple Account will be shown on the screen. All other reports are associated with a random unique identifier that is not linked to your Apple Account."
+
+```
+
+#### com.apple.onboarding.reportconcernUnauth
+
+>  `FileSystem/System/Library/OnBoardingBundles/com.apple.onboarding.reportconcernUnauth.bundle/ReportConcernUnauth.loctable`
+
+```diff
+
+-en.BUTTON_CAPTION = "This report will be used to improve Apple products and services, for example to train models. It will not be linked to your Apple Account. By submitting, you represent you own or have permission to upload the report content, which may contain copyrighted, personal, or sensitive information."
++en.BUTTON_CAPTION = "This feedback will be used to improve Apple products and services, for example to train models. It will not be linked to your Apple Account. By submitting, you represent you own or have permission to upload the content, which may contain copyrighted, personal, or sensitive information."
+ en.BUTTON_TITLE = "See how your data is managed…"
+ en.FIFTH_BULLET = "If you report a concern related to searching Google using Visual Intelligence, you can choose to allow your report to be shared with Google."
+ en.FIRST_BULLET = "Report a Concern collects information to solve reported issues. Information collected for reports related to certain features available in the Apple Beta Software Program is stored in association with your Apple Account. Before you submit these reports, your Apple Account will be shown on the screen. All other reports are associated with a random unique identifier that is not linked to your Apple Account."
+
+```
+
+#### AXNTKUtilities
+
+>  `FileSystem/System/Library/PrivateFrameworks/AXNTKUtilities.framework/Accessibility.loctable`
+
+```diff
+
+ en.alarm.date.format.plural = "Alarm at %@"
+ en.alarm.snoozed.format = "Alarm snoozing for %@"
+ en.alarms.off = "All alarms off"
++en.autospeak.disable = "Disable Auto Speak"
++en.autospeak.disable.confirmation = "Auto Speak Disabled"
++en.autospeak.enable = "Enable Auto Speak"
++en.autospeak.enable.confirmation = "Auto Speak Enabled"
+ en.battery.label = "Battery"
+ en.battery.level = "%@ battery power"
+ en.butterfly.video.announcement.Amphitryon = "A brown butterfly with yellow dots flapping its wings gently in the breeze."
+
+```
+
+#### ActionKit
+
+>  `FileSystem/System/Library/PrivateFrameworks/ActionKit.framework/Localizable.loctable`
+
+```diff
+
+ en.All Keys (WFGetDictionaryValueType) = "All Keys"
+ en.All Values (WFGetDictionaryValueType) = "All Values"
+ en.Allow Access = "Allow Access"
++en.Allow this shortcut to change one or more system configuration files? = "Allow this shortcut to change one or more system configuration files?"
+ en.Allow this shortcut to edit one or more system configuration files? = "Allow this shortcut to edit one or more system configuration files?"
+ en.Allow this shortcut to make a change to a shell configuration file? = "Allow this shortcut to make a change to a shell configuration file?"
+-en.Allow this shortcut to make a change to shell configuration file? = "Allow this shortcut to make a change to shell configuration file?"
+ en.Allow this shortcut to move one or more files into a system configuration folder? = "Allow this shortcut to move one or more files into a system configuration folder?"
+ en.Allow this shortcut to rename one or more system configuration files? = "Allow this shortcut to rename one or more system configuration files?"
+ en.Allow “%1$@” to access Speech Recognition? = "Allow “%1$@” to access Speech Recognition?"
+
+```
+
+#### CommunicationsFilter
+
+>  `FileSystem/System/Library/PrivateFrameworks/CommunicationsFilter.framework/CommunicationsFilter.loctable`
+
+```diff
+
+ en.%d_ADDITIONAL_CONTACTS_BLOCKED_ALERT_TITLE.value.NSStringFormatValueTypeKey = "d"
+ en.%d_ADDITIONAL_CONTACTS_BLOCKED_ALERT_TITLE.value.one = "%d other contact who shares the same phone number or email address was unblocked."
+ en.%d_ADDITIONAL_CONTACTS_BLOCKED_ALERT_TITLE.value.other = "%d other contacts who share the same phone number or email address were unblocked."
++en.BLOCKLIST_LIMIT_ALERT_BUTTON_ALTERNATE = "Cancel"
++en.BLOCKLIST_LIMIT_ALERT_BUTTON_DEFAULT = "Go to Settings"
++en.BLOCKLIST_LIMIT_ALERT_MESSAGE = "You’ve reached the maximum number of blocked contacts. To block additional callers, remove a blocked contact in Settings."
++en.BLOCKLIST_LIMIT_ALERT_TITLE = "Blocked Contacts Limit Reached"
+
+```
+
+#### GameStoreKit
+
+>  `FileSystem/System/Library/PrivateFrameworks/GameStoreKit.framework/Localizable.loctable`
+
+```diff
+
+ en.ENERGY_MODE_LOW_POWER_TITLE = "Low Power"
+ en.ENERGY_MODE_TITLE = "Energy Mode"
+ en.EVENT_CARD_TEXT_SEPARATOR = " • "
++en.Ended %@ = "Ended %@"
+ en.Ended on %@ = "Ended on %@"
+ en.Ends in %@ = "Ends in %@"
+ en.FAILED_TO_REMOVE_A_FRIEND_ERROR_MESSAGE = "failed to remove a friend"
+
+ en.INVITE_FRIENDS_SHELF_HEADER = "Suggestions"
+ en.INVITE_FRIEND_SUBTITLE = "Invite Friend"
+ en.LAST_PLAYED = "Played %@"
+-en.LEADERBOARD_PLAYER_SCOPE_FRIENDS = "Friends"
+-en.LEADERBOARD_PLAYER_SCOPE_GLOBAL = "Global"
+-en.LEADERBOARD_TIME_SCOPE_ALL_TIME = "All Time"
+-en.LEADERBOARD_TIME_SCOPE_THIS_WEEK = "This Week"
+-en.LEADERBOARD_TIME_SCOPE_TODAY = "Today"
+ en.LEADERBOARD_TOTAL_PLAYERS = "Total Players"
+ en.ONBOARDING_ACTIVITY_SHARING_ALLOW = "Allow"
+ en.ONBOARDING_ACTIVITY_SHARING_EVERYONE = "Everyone"
+
+ en.OVERLAY_OPEN_SETTINGS_TITLE = "Open Settings"
+ en.REMOTEUI_REPORT_PROBLEM = "Report A Problem"
+ en.REMOTEUI_SERVER_COMMUNICATION_ERROR = "There was an error communicating with the server."
++en.Resets in %@ = "Resets in %@"
+ en.SCREENSHOT_PREVIEW_ACCESSIBILITY_LABEL = "Preview Screenshot"
+ en.SEARCH_IN_APP_STORE = "Search in App Store"
+ en.SETTINGS_PRIVACY_FOOTER_LINK_PREFIX = "Reset the identifier used to report Games usage statistics to Apple."
+
+```
+
+#### IMCore
+
+>  `FileSystem/System/Library/PrivateFrameworks/IMCore.framework/IMCoreLocalizable.loctable`
+
+```diff
+
+ en.PLACEHOLDER_TEXT_VIEW_SATELLITE_MESSAGE = "iMessage • Satellite"
+ en.PLACEHOLDER_TEXT_VIEW_SATELLITE_MESSAGE_SMS = "Text Message • Satellite"
+ en.POLL_VOTE_MESSAGE = "Sent a vote"
+-en.POLL_VOTE_OTHER_MESSAGE = "$(%@) sent a vote"
+-en.POLL_VOTE_SELF_MESSAGE = "You sent a vote"
+ en.Photo Message = "Photo Message"
+ en.Please join me in this chat. = "Please join me in this chat."
+ en.Recent Buddies = "Recent Buddies"
+
+```
+
+#### IMSharedUtilities
+
+>  `FileSystem/System/Library/PrivateFrameworks/IMSharedUtilities.framework/IMSharedUtilities.loctable`
+
+```diff
+
+ en.PARTICIPANT_ADDRESS_FIRST_ITEM = "%@"
+ en.PARTICIPANT_ADDRESS_NON_FINAL_ITEM = ", %@"
+ en.PARTICIPANT_ADDRESS_TO_YOU_ITEM = "To you"
++en.POLL_ADD_CHOICE_MESSAGE = "Added a choice to a poll"
++en.POLL_ADD_CHOICE_OTHER_MESSAGE = "$(%@) added %@ to a poll"
++en.POLL_ADD_CHOICE_SELF_MESSAGE = "You added %@ to a poll"
++en.POLL_FALLBACK = "Sent a poll"
++en.POLL_QUOTED_OPTION = "“%@”"
+ en.POLL_VOTE_MESSAGE = "Sent a vote"
+-en.POLL_VOTE_OTHER_MESSAGE = "$(%@) sent a vote"
+-en.POLL_VOTE_SELF_MESSAGE = "You sent a vote"
++en.POLL_VOTE_OTHER_EMPTY_CHANGES_MESSAGE = "$(%@) sent a vote"
++en.POLL_VOTE_OTHER_MESSAGE_REMOVED = "$(%@) removed a vote from %@"
++en.POLL_VOTE_OTHER_MESSAGE_VOTED = "$(%@) voted for %@"
++en.POLL_VOTE_OTHER_MESSAGE_VOTED_AND_REMOVED = "$(%@) voted for %@ and removed a vote from %@"
++en.POLL_VOTE_SELF_EMPTY_CHANGES_MESSAGE = "You sent a vote"
++en.POLL_VOTE_SELF_MESSAGE_REMOVED = "You removed a vote from %@"
++en.POLL_VOTE_SELF_MESSAGE_VOTED = "You voted for %@"
++en.POLL_VOTE_SELF_MESSAGE_VOTED_AND_REMOVED = "You voted for %@ and removed a vote from %@"
+ en.Photo Message = "Photo Message"
+ en.Questioned "%@" = "Questioned “%@”"
+ en.Questioned %@ = "Questioned %@"
+
+```
+
+#### VideosUI
+
+>  `FileSystem/System/Library/PrivateFrameworks/VideosUI.framework/Localizable.loctable`
+
+```diff
+
+ en.TV.SideBar.Section.Default = "TV"
+ en.TV.SideBar.Section.Default.AppleTV = "TV"
+ en.TV.SideBar.Section.YourTV = "Your TV"
++en.TV.Significant.Change.approval.required = "Approval Required"
++en.TV.Significant.Change.ask.for.approval = "Ask for Approval"
++en.TV.Significant.Change.ask.for.approval.again = "Ask Again"
++en.TV.Significant.Change.description.shown.to.parent = "This app update includes changes that require parent or guardian approval."
++en.TV.Significant.Change.waiting.view.message = "You'll be able to use Apple TV after your parent or guardian approves your request."
++en.TV.Significant.Change.warming.view.message = "Apple TV has some new features. You'll need approval from your parent or guardian to continue using the app."
+ en.TV.Sports = "Sports"
+ en.TV.Sports.Away = "Away"
+ en.TV.Sports.Badge.ReAir = "RE-AIR"
+
+```
+
+
+</details>
+
 ## Feature Flags
 
 ### ⬆️ Updated (7)
