@@ -1,0 +1,14 @@
+version: 2
+updates:
+  # Keep the SHA-pinned actions in .github/workflows fresh, with a 7-day
+  # cooldown so a compromised release isn't adopted before it's caught.
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: weekly
+    cooldown:
+      default-days: 7
+    groups:
+      actions:
+        patterns:
+          - "*"

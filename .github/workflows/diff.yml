@@ -1,73 +1,282 @@
-# This is a basic workflow to help you get started with Actions
-
 name: Diff
 
-# Controls when the workflow will run
+# Automatically diffs each newly-released macOS and iOS build against the
+# previously-recorded one. A cron polls AppleDB a few times a day; a run only
+# does work when a build it has not already diffed appears. Manual runs with
+# explicit builds are still supported via workflow_dispatch.
 on:
-  # Allows you to run this workflow manually from the Actions tab
+  schedule:
+    # Cron is UTC and does NOT observe DST. Times below target the window
+    # Apple usually posts new IPSWs (~11:00 America/Denver). The UTC hours
+    # are set for MDT (summer, UTC-6); in MST (winter, UTC-7) bump the two
+    # burst lines +1h (17->18, 18->19) and the hourly gap to 18,19.
+    #
+    # Note: 5 min is GitHub's minimum interval, and scheduled runs can be
+    # delayed under load — the burst gives more chances to catch the drop.
+    - cron: '*/5 17 * * *'                 # 11:00-11:55 MDT, every 5 min
+    - cron: '0,5,10,15,20,25,30 18 * * *'  # 12:00-12:30 MDT, every 5 min
+    - cron: '0 0-16,19-23 * * *'           # top of every other hour, all day
   workflow_dispatch:
     inputs:
-      osType:
-        description: 'OS Type'
-        required: true
-        default: 'macOS'
+      os:
+        description: 'OS to diff'
+        required: false
+        default: both
         type: choice
         options:
-        - macOS
-        - iOS
-      device:
-        description: 'Device'
-        required: true
-        default: 'Mac14,3'
-        type: choice
-        options:
-        - Mac14,3
-        - iPhone16,2
+          - both
+          - macOS
+          - iOS
       prev_build:
-        description: Previous build
+        description: 'Previous build (manual override; requires next_build)'
+        required: false
         type: string
-        required: true
       next_build:
-        description: Next build
+        description: 'Next build (manual override; requires prev_build)'
+        required: false
         type: string
-        required: true
 
+# Least privilege: nothing by default, the job opts into contents:write so it
+# can commit and push new diffs.
+permissions: {}
+
+# Serialize runs so overlapping crons never race on the push. Never cancel a
+# run mid-diff: an interrupted diff leaves a partial directory.
 concurrency:
-  group: ${{ github.ref }}
-  cancel-in-progress: true
+  group: auto-diff
+  cancel-in-progress: false
 
-# A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
-  # This workflow contains a single job called "build"
-  build:
-    # The type of runner that the job will run on
+  diff:
+    permissions:
+      contents: write
     runs-on: macos-14
-
-    # Steps represent a sequence of tasks that will be executed as part of the job
+    timeout-minutes: 180
+    strategy:
+      fail-fast: false
+      # One leg at a time: each leg checks out after the previous one pushed,
+      # so commits to the same branch can't collide.
+      max-parallel: 1
+      matrix:
+        include:
+          - os: macOS
+            device: Mac14,3
+          - os: iOS
+            device: iPhone16,2
     steps:
-      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - uses: actions/checkout@v4
+      - name: Checkout
+        # persist-credentials stays on (default): the job pushes new diffs.
+        uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5 # v4.3.1
+        with:
+          fetch-depth: 1
 
-      # Runs a diff
-      - name: Download `ipsw`
+      # Skip this matrix leg when a manual run targeted only the other OS.
+      - name: Should this OS run?
+        id: gate
+        env:
+          MATRIX_OS: ${{ matrix.os }}
+          REQUESTED_OS: ${{ github.event.inputs.os }}
         run: |
-          brew install blacktop/tap/ipsw
+          # REQUESTED_OS is empty for cron/push and 'both'|'macOS'|'iOS' for
+          # manual runs. Run this leg unless a specific other OS was requested.
+          if [ -n "$REQUESTED_OS" ] && [ "$REQUESTED_OS" != "both" ] && [ "$REQUESTED_OS" != "$MATRIX_OS" ]; then
+            echo "run=false" >> "$GITHUB_OUTPUT"
+            echo "Skipping $MATRIX_OS (manual run requested $REQUESTED_OS only)"
+          else
+            echo "run=true" >> "$GITHUB_OUTPUT"
+          fi
 
-      # Runs a diff
-      - name: Create Diff
+      - name: Install ipsw
+        if: steps.gate.outputs.run == 'true'
+        run: brew install blacktop/tap/ipsw
+
+      # AppleDB is cloned locally for --show-latest; cache it so each poll
+      # doesn't re-clone hundreds of MB.
+      - name: Cache AppleDB
+        if: steps.gate.outputs.run == 'true'
+        uses: actions/cache@5a3ec84eff668545956fd18022155c47e93e2684 # v4.2.3
+        with:
+          path: ~/.config/ipsw
+          key: appledb-${{ runner.os }}
+
+      # Decide whether there is a new build to diff. Writes prev/next build
+      # info to the step outputs consumed by the diff step.
+      - name: Detect new build
+        id: detect
+        if: steps.gate.outputs.run == 'true'
+        env:
+          MATRIX_OS: ${{ matrix.os }}
+          DEVICE: ${{ matrix.device }}
+          MANUAL_PREV: ${{ github.event.inputs.prev_build }}
+          MANUAL_NEXT: ${{ github.event.inputs.next_build }}
+          GITHUB_TOKEN: ${{ github.token }}
         run: |
-          mkdir /tmp/IPSW1 /tmp/IPSW2
-          ipsw dl appledb --os ${{ inputs.osType }} --device '${{ inputs.device }}' --build '${{ inputs.prev_build }}' --output /tmp/IPSW1 --confirm
-          ipsw dl appledb --os ${{ inputs.osType }} --device '${{ inputs.device }}' --build '${{ inputs.next_build }}' --output /tmp/IPSW2 --confirm
+          set -euo pipefail
+          cache_file=".cache/${MATRIX_OS}.json"
+
+          # Manual override: caller supplied both builds explicitly.
+          if [ -n "$MANUAL_PREV" ] && [ -n "$MANUAL_NEXT" ]; then
+            echo "Manual override: $MANUAL_PREV -> $MANUAL_NEXT"
+            {
+              echo "do_diff=true"
+              echo "prev_build=$MANUAL_PREV"
+              echo "next_build=$MANUAL_NEXT"
+              echo "next_version=manual"
+            } >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+
+          # Latest available build for this device, as JSON.
+          latest_json="$(ipsw dl appledb --os "$MATRIX_OS" --device "$DEVICE" --show-latest --no-color)"
+          next_version="$(printf '%s' "$latest_json" | jq -r '.version')"
+          next_build="$(printf '%s' "$latest_json" | jq -r '.build')"
+          if [ -z "$next_build" ] || [ "$next_build" = "null" ]; then
+            echo "::warning::AppleDB returned no build for $MATRIX_OS $DEVICE"
+            echo "do_diff=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          echo "Latest $MATRIX_OS: $next_version ($next_build)"
+
+          # Bootstrap: no cache yet — record the current latest as the baseline
+          # and diff the NEXT new build against it. Do not diff on bootstrap.
+          if [ ! -f "$cache_file" ]; then
+            mkdir -p .cache
+            jq -n --arg v "$next_version" --arg b "$next_build" \
+              '{version:$v, build:$b}' > "$cache_file"
+            echo "Bootstrapped $cache_file at $next_build; nothing to diff yet"
+            echo "do_diff=false" >> "$GITHUB_OUTPUT"
+            echo "bootstrap=true" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+
+          prev_build="$(jq -r '.build' "$cache_file")"
+
+          # Already current: the recorded build matches the latest.
+          if [ "$prev_build" = "$next_build" ]; then
+            echo "No new $MATRIX_OS build (still $next_build)"
+            echo "do_diff=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+
+          # Belt-and-suspenders: a diff directory already ending in the next
+          # build means we produced it before (e.g. cache lost). Re-record and
+          # skip rather than redo the work.
+          if compgen -G "*_${next_build}" > /dev/null; then
+            echo "Diff dir for $next_build already exists; re-recording cache, skipping"
+            jq -n --arg v "$next_version" --arg b "$next_build" \
+              '{version:$v, build:$b}' > "$cache_file"
+            echo "do_diff=false" >> "$GITHUB_OUTPUT"
+            echo "recache_only=true" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+
+          echo "New $MATRIX_OS build: $prev_build -> $next_build"
+          {
+            echo "do_diff=true"
+            echo "prev_build=$prev_build"
+            echo "next_build=$next_build"
+            echo "next_version=$next_version"
+          } >> "$GITHUB_OUTPUT"
+
+      - name: Download and diff
+        if: steps.gate.outputs.run == 'true' && steps.detect.outputs.do_diff == 'true'
+        env:
+          MATRIX_OS: ${{ matrix.os }}
+          DEVICE: ${{ matrix.device }}
+          PREV_BUILD: ${{ steps.detect.outputs.prev_build }}
+          NEXT_BUILD: ${{ steps.detect.outputs.next_build }}
+          NEXT_VERSION: ${{ steps.detect.outputs.next_version }}
+          GITHUB_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          prev_dir="$RUNNER_TEMP/prev"
+          next_dir="$RUNNER_TEMP/next"
+          mkdir -p "$prev_dir" "$next_dir"
+
+          echo "::group::Download $MATRIX_OS $PREV_BUILD"
+          ipsw dl appledb --os "$MATRIX_OS" --device "$DEVICE" --build "$PREV_BUILD" --output "$prev_dir" --confirm
+          echo "::endgroup::"
+          echo "::group::Download $MATRIX_OS $NEXT_BUILD"
+          ipsw dl appledb --os "$MATRIX_OS" --device "$DEVICE" --build "$NEXT_BUILD" --output "$next_dir" --confirm
+          echo "::endgroup::"
+
+          echo "::group::Diff"
           ipsw diff -V --output . \
-                       --markdown \
-                       --fw \
-                       --launchd \
-                       --feat \
-                       --strs \
-                       /tmp/IPSW1/*.ipsw \
-                       /tmp/IPSW2/*.ipsw
-          git config --global user.name 'blacktop'
-          git config --global user.email 'blacktop@users.noreply.github.com'
-          git commit -am "Automated Diff of ${{ inputs.osType }} ${{ inputs.prev_build }} -> ${{ inputs.next_build }}"
-          git push
+            --markdown \
+            --fw \
+            --launchd \
+            --feat \
+            --strs \
+            "$prev_dir"/*.ipsw \
+            "$next_dir"/*.ipsw
+          echo "::endgroup::"
+
+          # Record the build we just diffed up to (skipped on a manual override
+          # where the real version string is unknown).
+          if [ "$NEXT_VERSION" != "manual" ]; then
+            mkdir -p .cache
+            jq -n --arg v "$NEXT_VERSION" --arg b "$NEXT_BUILD" \
+              '{version:$v, build:$b}' > ".cache/${MATRIX_OS}.json"
+          fi
+
+      # Single commit/push path for all outcomes: a fresh diff, a bootstrapped
+      # baseline, or a re-recorded cache. Skips cleanly when nothing changed
+      # (e.g. "no new build"). Without this, bootstrap/recache would rewrite
+      # .cache locally but never persist it, re-triggering every run.
+      - name: Commit and push
+        if: steps.gate.outputs.run == 'true'
+        env:
+          MATRIX_OS: ${{ matrix.os }}
+          PREV_BUILD: ${{ steps.detect.outputs.prev_build }}
+          NEXT_BUILD: ${{ steps.detect.outputs.next_build }}
+          DO_DIFF: ${{ steps.detect.outputs.do_diff }}
+          GITHUB_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          git config user.name 'blacktop'
+          git config user.email 'blacktop@users.noreply.github.com'
+          git add -A
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+            exit 0
+          fi
+          if [ "$DO_DIFF" = "true" ]; then
+            msg="Automated Diff of ${MATRIX_OS} ${PREV_BUILD} -> ${NEXT_BUILD}"
+          else
+            msg="chore(${MATRIX_OS}): record build baseline"
+          fi
+          git commit -m "$msg"
+
+          # The serialized matrix makes pushes ordered, but retry-with-rebase
+          # guards against a concurrently-merged commit (the legs touch disjoint
+          # files, so a rebase is conflict-free).
+          for attempt in 1 2 3; do
+            if git push; then
+              break
+            fi
+            echo "push failed (attempt $attempt); rebasing"
+            git pull --rebase --autostash
+          done
+
+      - name: Summary
+        if: steps.gate.outputs.run == 'true'
+        env:
+          MATRIX_OS: ${{ matrix.os }}
+          DO_DIFF: ${{ steps.detect.outputs.do_diff }}
+          PREV_BUILD: ${{ steps.detect.outputs.prev_build }}
+          NEXT_BUILD: ${{ steps.detect.outputs.next_build }}
+          BOOTSTRAP: ${{ steps.detect.outputs.bootstrap }}
+          RECACHE: ${{ steps.detect.outputs.recache_only }}
+        run: |
+          {
+            echo "### ${MATRIX_OS}"
+            if [ "$DO_DIFF" = "true" ]; then
+              echo "- Diffed \`${PREV_BUILD}\` → \`${NEXT_BUILD}\`"
+            elif [ "$BOOTSTRAP" = "true" ]; then
+              echo "- Bootstrapped baseline; nothing to diff yet"
+            elif [ "$RECACHE" = "true" ]; then
+              echo "- Diff already existed; re-recorded cache only"
+            else
+              echo "- No new build"
+            fi
+          } >> "$GITHUB_STEP_SUMMARY"
