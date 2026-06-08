@@ -1,0 +1,78 @@
+## DigitalSeparation
+
+> `FileSystem/System/Library/PrivateFrameworks/DigitalSeparation.framework/Localizable.loctable`
+
+```diff
+
+ en.CALENDAR = "Calendar"
+ en.CAMERA = "Camera"
+ en.CONTACTS = "Contacts"
++en.DEVELOPER_MODE_SESSION_LIVE = "Screen sharing session is live"
+ en.HEALTH = "Health"
+ en.HOMEKIT = "HomeKit"
+ en.LOCAL_NETWORK = "Local Network"
+
+ en.com.apple.DigitalSeparation.ItemSharing_RESOURCES_NAME_TRUNCATION.NUM_MORE.one = "%d other shared item"
+ en.com.apple.DigitalSeparation.ItemSharing_RESOURCES_NAME_TRUNCATION.NUM_MORE.other = "%d other shared items"
+ en.com.apple.DigitalSeparation.ItemSharing_RESOURCES_NAME_TRUNCATION.NUM_MORE.two = "%d other shared items"
++en.com.apple.DigitalSeparation.ItemSharing_RESOURCE_NAME.NSStringLocalizedFormatKey = "%#@NUM_RESOURCE@"
++en.com.apple.DigitalSeparation.ItemSharing_RESOURCE_NAME.NUM_RESOURCE.NSStringFormatSpecTypeKey = "NSStringPluralRuleType"
++en.com.apple.DigitalSeparation.ItemSharing_RESOURCE_NAME.NUM_RESOURCE.NSStringFormatValueTypeKey = "d"
++en.com.apple.DigitalSeparation.ItemSharing_RESOURCE_NAME.NUM_RESOURCE.one = "%d Shared Item"
++en.com.apple.DigitalSeparation.ItemSharing_RESOURCE_NAME.NUM_RESOURCE.other = "%d Shared Items"
++en.com.apple.DigitalSeparation.ItemSharing_RESOURCE_NAME.NUM_RESOURCE.two = "%d Shared Items"
+ en.com.apple.DigitalSeparation.ItemSharing_STOP_ALL_LABEL = "Stop Sharing All Items"
+ en.com.apple.DigitalSeparation.ItemSharing_STOP_ALL_SHARING_ALERT_DETAIL = "By continuing, you will no longer share items with anyone in the Find My app. The owner and other people the item is shared with can still locate it in Find My. You will start getting notified when this item is near you."
+ en.com.apple.DigitalSeparation.ItemSharing_STOP_ALL_SHARING_ALERT_LABEL = "Stop Sharing All Items"
+
+ en.com.apple.DigitalSeparation.Photos_PUBLIC_SHARING_DETAIL_TEXT_SHARED_LIBRARY.NUM_RESOURCES.one = "1 Shared Library is public"
+ en.com.apple.DigitalSeparation.Photos_PUBLIC_SHARING_DETAIL_TEXT_SHARED_LIBRARY.NUM_RESOURCES.other = "%lu Shared Libraries are public"
+ en.com.apple.DigitalSeparation.Photos_PUBLIC_SHARING_DETAIL_TEXT_SHARED_LIBRARY.NUM_RESOURCES.two = "%lu Shared Libraries are public"
++en.com.apple.DigitalSeparation.Photos_RESOURCE_NAME_SINGLE_SHARED_LIBRARY = "Shared Library"
+ en.com.apple.DigitalSeparation.Photos_SHARED_ALBUM_NAME_TRUNCATION.NSStringLocalizedFormatKey = "%#@NUM_MORE@"
+ en.com.apple.DigitalSeparation.Photos_SHARED_ALBUM_NAME_TRUNCATION.NUM_MORE.NSStringFormatSpecTypeKey = "NSStringPluralRuleType"
+ en.com.apple.DigitalSeparation.Photos_SHARED_ALBUM_NAME_TRUNCATION.NUM_MORE.NSStringFormatValueTypeKey = "d"
+
+ en.com.apple.DigitalSeparation.Photos_STOP_BY_PERSON_BOTH_SINGLE_SHARED_ALBUM_WITH_NAME = "You and %@ share the photo album %@ with each other."
+ en.com.apple.DigitalSeparation.Photos_STOP_BY_PERSON_BOTH_SINGLE_SHARED_LIBRARY = "You and %@ share a photo library with each other."
+ en.com.apple.DigitalSeparation.Photos_STOP_BY_PERSON_BOTH_SINGLE_SHARED_LIBRARY_SCWB = "Stop sharing a photo library with %@."
+-en.com.apple.DigitalSeparation.Photos_STOP_BY_PERSON_BOTH_SINGLE_SHARED_LIBRARY_SCWB_WITH_NAME = "Stop sharing the photo library %@ with %@."
+-en.com.apple.DigitalSeparation.Photos_STOP_BY_PERSON_BOTH_SINGLE_SHARED_LIBRARY_WITH_NAME = "You and %@ share the photo library %@ with each other."
+ en.com.apple.DigitalSeparation.Photos_STOP_BY_PERSON_INCOMING_MULTIPLE_SHARED_ALBUM.NSStringLocalizedFormatKey = "You have access to %#@NUM_RESOURCES@ of %@’s Shared Albums."
+ en.com.apple.DigitalSeparation.Photos_STOP_BY_PERSON_INCOMING_MULTIPLE_SHARED_ALBUM.NUM_RESOURCES.NSStringFormatSpecTypeKey = "NSStringPluralRuleType"
+ en.com.apple.DigitalSeparation.Photos_STOP_BY_PERSON_INCOMING_MULTIPLE_SHARED_ALBUM.NUM_RESOURCES.NSStringFormatValueTypeKey = "lu"
+
+ en.com.apple.DigitalSeparation.Photos_STOP_BY_PERSON_INCOMING_SINGLE_SHARED_ALBUM_WITH_NAME = "You have access to %@’s Shared Album %@."
+ en.com.apple.DigitalSeparation.Photos_STOP_BY_PERSON_INCOMING_SINGLE_SHARED_LIBRARY = "You have access to %@’s Shared Library."
+ en.com.apple.DigitalSeparation.Photos_STOP_BY_PERSON_INCOMING_SINGLE_SHARED_LIBRARY_SCWB = "Stop sharing %@’s library."
+-en.com.apple.DigitalSeparation.Photos_STOP_BY_PERSON_INCOMING_SINGLE_SHARED_LIBRARY_SCWB_WITH_NAME = "Stop sharing %@’s library %@."
+-en.com.apple.DigitalSeparation.Photos_STOP_BY_PERSON_INCOMING_SINGLE_SHARED_LIBRARY_WITH_NAME = "You have access to %@’s Shared Library %@."
+ en.com.apple.DigitalSeparation.Photos_STOP_BY_PERSON_INDIRECT_SHARED_ALBUM.NSStringLocalizedFormatKey = "You and %@ both have access to %#@NUM_RESOURCES@."
+ en.com.apple.DigitalSeparation.Photos_STOP_BY_PERSON_INDIRECT_SHARED_ALBUM.NUM_RESOURCES.NSStringFormatSpecTypeKey = "NSStringPluralRuleType"
+ en.com.apple.DigitalSeparation.Photos_STOP_BY_PERSON_INDIRECT_SHARED_ALBUM.NUM_RESOURCES.NSStringFormatValueTypeKey = "lu"
+
+ en.com.apple.DigitalSeparation.Photos_STOP_BY_PERSON_INDIRECT_SHARED_LIBRARY_SCWB.NUM_RESOURCES.one = "1 library"
+ en.com.apple.DigitalSeparation.Photos_STOP_BY_PERSON_INDIRECT_SHARED_LIBRARY_SCWB.NUM_RESOURCES.other = "%lu libraries"
+ en.com.apple.DigitalSeparation.Photos_STOP_BY_PERSON_INDIRECT_SHARED_LIBRARY_SCWB.NUM_RESOURCES.two = "%lu libraries"
+-en.com.apple.DigitalSeparation.Photos_STOP_BY_PERSON_INDIRECT_SHARED_LIBRARY_SCWB_WITH_NAME = "Stop sharing the photo library %@ shared to you and %@ by another person."
+-en.com.apple.DigitalSeparation.Photos_STOP_BY_PERSON_INDIRECT_SHARED_LIBRARY_WITH_NAME = "You and %@ both have access to the photo libraries %@ shared to you by other people."
+ en.com.apple.DigitalSeparation.Photos_STOP_BY_PERSON_INDIRECT_SINGLE_SHARED_ALBUM_SCWB = "Stop sharing one photo album shared to you and %@ by another person."
+ en.com.apple.DigitalSeparation.Photos_STOP_BY_PERSON_INDIRECT_SINGLE_SHARED_ALBUM_SCWB_WITH_NAME = "Stop sharing the photo album %@ shared to you and %@ by another person."
+ en.com.apple.DigitalSeparation.Photos_STOP_BY_PERSON_INDIRECT_SINGLE_SHARED_ALBUM_WITH_NAME = "You and %@ both have access to the photo album %@ shared to you by another person."
+ en.com.apple.DigitalSeparation.Photos_STOP_BY_PERSON_INDIRECT_SINGLE_SHARED_LIBRARY_SCWB = "Stop sharing one photo library shared to you and %@ by another person."
+-en.com.apple.DigitalSeparation.Photos_STOP_BY_PERSON_INDIRECT_SINGLE_SHARED_LIBRARY_SCWB_WITH_NAME = "Stop sharing the photo library %@ shared to you and %@ by another person."
+-en.com.apple.DigitalSeparation.Photos_STOP_BY_PERSON_INDIRECT_SINGLE_SHARED_LIBRARY_WITH_NAME = "You and %@ both have access to the photo library %@ shared to you by another person."
+ en.com.apple.DigitalSeparation.Photos_STOP_BY_PERSON_OUTGOING_MULTIPLE_SHARED_ALBUM.NSStringLocalizedFormatKey = "%@ has access to %#@NUM_RESOURCES@"
+ en.com.apple.DigitalSeparation.Photos_STOP_BY_PERSON_OUTGOING_MULTIPLE_SHARED_ALBUM.NUM_RESOURCES.NSStringFormatSpecTypeKey = "NSStringPluralRuleType"
+ en.com.apple.DigitalSeparation.Photos_STOP_BY_PERSON_OUTGOING_MULTIPLE_SHARED_ALBUM.NUM_RESOURCES.NSStringFormatValueTypeKey = "lu"
+
+ en.com.apple.DigitalSeparation.Photos_STOP_BY_PERSON_OUTGOING_SINGLE_SHARED_ALBUM_WITH_NAME = "%@ has access to your Shared Album %@."
+ en.com.apple.DigitalSeparation.Photos_STOP_BY_PERSON_OUTGOING_SINGLE_SHARED_LIBRARY = "%@ has access to your Shared Library."
+ en.com.apple.DigitalSeparation.Photos_STOP_BY_PERSON_OUTGOING_SINGLE_SHARED_LIBRARY_SCWB = "Stop sharing your library with %@."
+-en.com.apple.DigitalSeparation.Photos_STOP_BY_PERSON_OUTGOING_SINGLE_SHARED_LIBRARY_SCWB_WITH_NAME = "Stop sharing your library %@ with %@."
+-en.com.apple.DigitalSeparation.Photos_STOP_BY_PERSON_OUTGOING_SINGLE_SHARED_LIBRARY_WITH_NAME = "%@ has access to your Shared Library %@."
+ en.com.apple.DigitalSeparation.Photos_STOP_BY_TYPE_SUBTITLE_MULTIPLE_SHARED_ALBUM = "Select anyone you would like to stop sharing Shared Albums with."
+ en.com.apple.DigitalSeparation.Photos_STOP_BY_TYPE_SUBTITLE_MULTIPLE_SHARED_ALBUM_SINGLE_SHARED_LIBRARY = "Select anyone you would like to stop sharing Shared Albums and a Shared Library with."
+ en.com.apple.DigitalSeparation.Photos_STOP_BY_TYPE_SUBTITLE_SINGLE_SHARED_ALBUM = "Select anyone you would like to stop sharing a Shared Album with."
+
+```

@@ -1,0 +1,71 @@
+## Diagnostics
+
+> `FileSystem/Applications/Diagnostics.app/Localizable.loctable`
+
+```diff
+
+ en.DIAGNOSTICS = "Diagnostics"
+ en.DIAGNOSTICS_CB = "Diagnostics \u0026 Repair"
+ en.DIAGNOSTICS_COMPLETE_SUBTITLE_GENERIC = "Your session with Apple Support is now complete. You may return to using your device as normal."
++en.DIAGNOSTICS_COMPLETE_SUBTITLE_GESTALT_DEVICE = "Your session with Apple Support is now complete. You may return to using your %@ as normal."
+ en.DIAGNOSTICS_COMPLETE_SUBTITLE_IPAD = "Your session with Apple Support is now complete. You may return to using your iPad as normal."
+ en.DIAGNOSTICS_COMPLETE_SUBTITLE_IPHONE = "Your session with Apple Support is now complete. You may return to using your iPhone as normal."
+ en.DIAGNOSTICS_COMPLETE_SUBTITLE_IPOD = "Your session with Apple Support is now complete. You may return to using your iPod as normal."
+
+ en.DIAGNOSTICS_COMPLETE_TITLE = "Diagnostics Complete"
+ en.DIAGNOSTICS_COMPLETE_TITLE_CB = "Diagnostics \u0026 Repair Complete"
+ en.DIAGNOSTICS_ERROR = "Diagnostics Error"
++en.DIAGS_DEVICE_SELECTOR_TITLE = "Select a Device"
++en.DIAGS_SESSION_SKIPPING = "Skipping…"
++en.DIAGS_SESSION_TEST_IN_PROGRESS = "Testing…"
+ en.DISAGREE = "Disagree"
+ en.DISCONNECTING = "Disconnecting…"
+ en.DISMISS = "Dismiss"
+ en.DONE = "Done"
+ en.DOUBLE_HEIGHT_BANNER_TEXT = "Touch to return to Diagnostics"
+ en.ELS_DEVICE_SELECTOR_DEVICES_HOMEPOD = "HomePod"
+-en.ELS_DEVICE_SELECTOR_DEVICES_IPHONE_IPAD = "iPhone and iPad"
++en.ELS_DEVICE_SELECTOR_DEVICES_IPAD = "iPad"
++en.ELS_DEVICE_SELECTOR_DEVICES_IPHONE = "iPhone"
++en.ELS_DEVICE_SELECTOR_DEVICES_IPHONE_AND_IPAD = "iPhone and iPad"
+ en.ELS_DEVICE_SELECTOR_DEVICES_MAC = "Mac"
+ en.ELS_DEVICE_SELECTOR_DEVICES_TV = "Apple TV"
+ en.ELS_DEVICE_SELECTOR_DEVICES_VISION = "Apple Vision Pro"
+
+ en.ENHANCED_LOGGING_SEND_CELLULAR = "Send Using Cellular"
+ en.ENHANCED_LOGGING_SEND_REVIEW = "Review Logs Before Sending"
+ en.ENHANCED_LOGGING_SEND_WIFI = "Send to Apple"
++en.ENHANCED_LOGGING_SESDIAGNOSTIC = "Digital Car Key Diagnostic"
++en.ENHANCED_LOGGING_SESDIAGNOSTIC_DESCRIPTION = "The Digital Car Key Diagnostic generates files that allow Apple to troubleshoot issues with your device and help Apple to improve its products and services. The generated files may contain some of your personal information relating to your Digital Car Key usage while you have enhanced logging enabled, including information about any devices you pair your device with, your location while using your Digital Car Key, and actions you perform using your Digital Car Key, such as locking or sharing keys. The generated files may also contain personal information about persons with whom you’ve shared your Digital Car Key, including email addresses or phone numbers. You will be able to review the log files on your computer prior to sending them to Apple. By enabling Digital Car Key Diagnostic and submitting the generated files to Apple, you agree and consent to Apple’s and its subsidiaries’ and agents’ transmission, collection, maintenance, processing and use of this information as described above. At all times, information received by Apple will be treated in accordance with Apple’s Privacy Policy, which can be found at www.apple.com/privacy."
++en.ENHANCED_LOGGING_SESDIAGNOSTIC_SENSITIVE_INFORMATION = "The Digital Car Key Diagnostic generates files that allow Apple to troubleshoot issues with your device and help Apple to improve its products and services."
+ en.ENHANCED_LOGGING_SLEEP_ALGORITHMS = "Sleep Algorithm Logs"
+ en.ENHANCED_LOGGING_SLEEP_ALGORITHMS_DESCRIPTION = "This diagnostic session collects logs that allow Apple to troubleshoot issues with the performance of sleep tracking and/or respiratory rates generated on your Apple Watch and helps Apple to improve its products and services. The generated files may include information such as user motion history, system time zone history, wrist state history, charger state history, sleep focus and sleep schedule history, app launch history for certain health-related apps (such as the Health app or the Sleep app), sleep samples, and respiration rate samples, present on your watch and phone that were generated in the last 7 days.  In addition, if you agree to this consent, Apple Watch sysdiagnose logging will be enabled on your device. The sysdiagnose logs may include information such as your name, your username, your email address and email settings, features enabled on your Apple Watch, the apps you use while logging is enabled, file paths, file names, downloads, network connection information, and other details including health feature availability, your settings for certain Health features (e.g., your Heart Rate settings), and ECG app usage data. These logs may include data that could personally identify you."
+ en.ENHANCED_LOGGING_SLEEP_ALGORITHMS_SENSITIVE_INFORMATION = "Sleep Focus and Sleep Schedule history, App Launch history for selected health-related apps, Sleep and Respiration Rate Samples"
+
+ en.GO_BACK = "Go Back"
+ en.HISTORY = "History"
+ en.HISTORY_AVAILABLE_APPLE_WATCH = "History is available on Apple Watch"
++en.HOMEPOD_CONNECTION_ALERT_MESSAGE = "Make sure your HomePod is nearby, powered on, and connected to your network."
+ en.HOW_CAN_WE_HELP_YOU = "How can we help you?"
+ en.IN_PROGRESS_SCREEN_TESTING_DURATION = "Testing will take approximately %@"
+ en.LEARN_MORE = "Learn more…"
+
+ en.OUT_OF_SPACE_WATCH = "Diagnostics requires a minimum of %@ of free space."
+ en.RETRY = "Try again"
+ en.ROSE_GOLD = "Rose Gold"
++en.ROTATE_DEVICE_LANDSCAPE = "Rotate your device to landscape to continue"
++en.ROTATE_DEVICE_PORTRAIT = "Rotate your device to portrait to continue"
++en.ROTATE_DEVICE_RIGHT_SIDE_UP = "Rotate your device right-side up to continue"
+ en.RUNNING_DIAGNOSTICS = "Running Diagnostics"
+ en.RUN_DIAGNOSTICS = "Terms and Conditions"
+ en.RUN_DIAGNOSTICS_CB = "Diagnostics \u0026 Repair Privacy"
+
+ en.UNKNOWN_ERROR = "An unknown error occurred."
+ en.UNSUPPORTED = "Unsupported"
+ en.USE_FULL_SCREEN_PROMPT = "“%@” would like to use the full screen of this device."
++en.Unsupported Flow = "Unsupported Flow"
+ en.WAITING_FOR_SUPPORT = "Waiting for support…"
+ en.WAITING_FOR_TESTS = "Waiting…"
+ en.WATCH_CONNECTION_ALERT_MESSAGE = "Make sure your Apple Watch is nearby, powered on, and not in Airplane Mode."
+
+```

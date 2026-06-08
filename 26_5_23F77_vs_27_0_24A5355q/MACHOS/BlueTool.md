@@ -5,30 +5,40 @@
 ```diff
 
 -5.14.0.0.0
--  __TEXT.__text: 0x4ef04
+-  __TEXT.__text: 0x4ef04 sha256:441359bb9ed0ca7301e4e4246740eef73327d403b10a2006b8b5733cc677e41f
+-  __TEXT.__auth_stubs: 0xc10 sha256:89020159c64842843f85adc5780149705df476d9f829835306f1e23e0a1774b1
+-  __TEXT.__objc_stubs: 0x2e0 sha256:1e7f3ca19fa5df06e62dd5bbdac45ad35003381c2208f49f120e2fc0b6b9f87d
+-  __TEXT.__init_offsets: 0x59c sha256:16455dad181f3c1b0e35868a8074f6c52f50d5c1325442a7ac6c69d543f6321f
 +2700.29.0.0.0
-+  __TEXT.__text: 0x4dd2c
-   __TEXT.__auth_stubs: 0xc10
-   __TEXT.__objc_stubs: 0x2e0
-   __TEXT.__init_offsets: 0x59c
-
-   __TEXT.__cstring: 0xecc3
-   __TEXT.__oslogstring: 0x4844
-   __TEXT.__objc_methname: 0x1c0
--  __TEXT.__unwind_info: 0x12c8
--  __DATA_CONST.__auth_got: 0x610
--  __DATA_CONST.__got: 0xd8
--  __DATA_CONST.__auth_ptr: 0x18
-+  __TEXT.__unwind_info: 0x12c0
-   __DATA_CONST.__const: 0x6ca8
-   __DATA_CONST.__cfstring: 0x500
-   __DATA_CONST.__objc_imageinfo: 0x8
-+  __DATA_CONST.__auth_got: 0x610
-+  __DATA_CONST.__got: 0xd8
-+  __DATA_CONST.__auth_ptr: 0x18
-   __DATA.__objc_selrefs: 0xb8
-   __DATA.__data: 0x990
-   __DATA.__bss: 0x1559
++  __TEXT.__text: 0x4dd2c sha256:568577a683e4ed4879a529ad47cb2916458157573d789ec1cd9e7e6d93c663ae
++  __TEXT.__auth_stubs: 0xc10 sha256:e511af1b43d7a874cf9ec29afa1b5b5c988c0d2def2231e0cd13987aa8cac87c
++  __TEXT.__objc_stubs: 0x2e0 sha256:e894e565c3110df27bee551583326b4d62d71007397bb6a4d6691c6978d9059e
++  __TEXT.__init_offsets: 0x59c sha256:ef74ccb494e97a815f8cd6a982638e6ff2414f56da348e2b00705ac3efc4cbca
+   __TEXT.__const: 0x47c5a0 sha256:7387ac6dab40d32bb7c20b93c13dea9ff0b59518ab594b1a84c8819845052751
+-  __TEXT.__cstring: 0xecc3 sha256:ef49ae3668fca0595fad413ed2ff5643c0269da2122ec5991ba02ff989053fd7
++  __TEXT.__cstring: 0xecc3 sha256:c0f381259e09691bd68a3cad66635af89a473e677078a51c568c45d396a1d066
+   __TEXT.__oslogstring: 0x4844 sha256:35cf7b1a057a6fcc8b22935bfbe06a347c5e5c20813ae9cfea83daf04f8ef01a
+   __TEXT.__objc_methname: 0x1c0 sha256:5ac7cdecbebb9063d9d599f1427e0a3c734849023de8d13b3ce05b6d9c0f6940
+-  __TEXT.__unwind_info: 0x12c8 sha256:74a9d6cf38e316b10a9567a678285d99b4f188d450a0260f7393aee6c83af6ff
+-  __DATA_CONST.__auth_got: 0x610 sha256:49d7145b568ecc93b525e83e147b54c1f428047259d771f281d32f372de957a3
+-  __DATA_CONST.__got: 0xd8 sha256:66e34c191b5993cf64e0f827939e04b09f489fd3faf5a82d9c3ac67b1da0ccb7
+-  __DATA_CONST.__auth_ptr: 0x18 sha256:b24af9a1ffaa6fc9f7fa654ff53dccbeee01f71a00ba9f0d2ae4c784ccde5e06
+-  __DATA_CONST.__const: 0x6ca8 sha256:52b0e8fdaa227539ee13e641ea4680ccc6828220805fb5f97628a69afcd4589c
+-  __DATA_CONST.__cfstring: 0x500 sha256:983a4f808538a817984bca39c10991bf935bd7e6b6bb76f7ebacd10e70d89e72
++  __TEXT.__unwind_info: 0x12c0 sha256:6dd2aaf4aa61d87d1f8f16637243e78f060e972356a86ec95c242e8d1675c3fb
++  __DATA_CONST.__const: 0x6ca8 sha256:82bdbacb2fc55857dddbc2a83b0d1c536c8d59a67f5486dc2b2cdad7b0ffb12b
++  __DATA_CONST.__cfstring: 0x500 sha256:133b43cb2607727b16264a235534c57bdf4100609884db6a50ffbd5237cf5fc9
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:1fa65ffcccc24c72d5d7f804a2be05ae57dfbb8769ffb33c4272ed6795b7e61c
+-  __DATA.__objc_selrefs: 0xb8 sha256:2435b12ceb40c1c93110ee1239a12dc5edcdeae2911cd23a9be81ea30dd46ebf
+-  __DATA.__data: 0x990 sha256:87c691115521e20c7503f78c6336cf4eefaec5046f135e66501bac73cbeeaea1
++  __DATA_CONST.__auth_got: 0x610 sha256:75c4319507e9fa5542485bf1125e94ce398ea63453586c5e7975b8cad5878b5b
++  __DATA_CONST.__got: 0xd8 sha256:20a35e5fd87d4b172c9eb28f63bfa72f894f0eee57f7540b34971928605b2ccc
++  __DATA_CONST.__auth_ptr: 0x18 sha256:5ce252157e1fabf913257bce664a29f41d2c9347721d8ae671cbb8005a12325a
++  __DATA.__objc_selrefs: 0xb8 sha256:c11540f1a60a9bfbb385c4250b97ea6010529b89bd6c654747380687cb053f7d
++  __DATA.__data: 0x990 sha256:91c76c648b6895e9e14831649f81e07b4d7c9499b13ee4ea9e299b6a5bc87bf4
+   __DATA.__bss: 0x1559 sha256:73e4e3d254f227157c7d19af4e7fa7bc9cffe1a367deeb053a6cb38f3592d8cf
+   __DATA.__common: 0x4c2 sha256:170df23d4d726d53d0141e46eec0b2f3795c7d9120bd8a3b57b466eee20186e7
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
 
    - /usr/lib/libedit.3.dylib
    - /usr/lib/libobjc.A.dylib

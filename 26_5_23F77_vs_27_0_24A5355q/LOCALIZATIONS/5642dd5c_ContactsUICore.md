@@ -1,0 +1,65 @@
+## ContactsUICore
+
+> `FileSystem/System/Library/PrivateFrameworks/ContactsUICore.framework/Localized.loctable`
+
+```diff
+
+ en.ALERT_IGNORE_MUTE_LABEL = "Emergency Bypass On"
+ en.ALERT_SOUND_LABEL_AND_VALUE = "Sound: %@"
+ en.ALERT_VIBRATION_LABEL_AND_VALUE = "Vibration: %@"
++en.APPLE_SUPPORT_NAME = "Apple Support"
+ en.APPLE_VISION = "Apple Vision"
+ en.AUDIOCALL_ACTION_TYPE_ACCESSIBILITY_LABEL = "Call"
+ en.AUDIOCALL_ACTION_TYPE_BUTTON = "call"
+
+ en.RINGTONE_PICKER_GROUP_TITLE_STANDARD = "Standard"
+ en.RINGTONE_PICKER_NONE = "None"
+ en.Recents = "Recents"
++en.SAVED_AUTOFILL_DETAILS = "Saved AutoFill Details"
+ en.SENSITIVE_CONTENT_ACTION_HIDE_PHOTO_TITLE = "Hide Photo"
+ en.SENSITIVE_CONTENT_BUTTON_TITLE = "Show"
+ en.SENSITIVE_CONTENT_DESCRIPTION = "This may be sensitive."
+ en.SENSITIVE_CONTENT_HELP_BUTTON_TITLE = "Ways To Get Help"
+ en.SHARE_CONTACT_ACTION_BUTTON_TITLE = "Share Contact"
+ en.SHARE_LOCATION_ALERT_MESSAGE = "Share My Location"
+-en.SHARE_LOCATION_END_OF_DAY_TEXT = "Share Until End of Day"
+-en.SHARE_LOCATION_INDEFINITELY_TEXT = "Share Indefinitely"
++en.SHARE_LOCATION_CUSTOM_TEXT = "Custom"
++en.SHARE_LOCATION_END_OF_DAY_TEXT = "Until End of Day"
++en.SHARE_LOCATION_INDEFINITELY_TEXT = "Indefinitely"
+ en.SHARE_LOCATION_LABEL_TEXT = "Share My Location"
+-en.SHARE_LOCATION_ONE_HOUR_TEXT = "Share for One Hour"
++en.SHARE_LOCATION_ONE_HOUR_TEXT = "For One Hour"
+ en.SHARE_LOCATION_STOP_SHARING_CONFIRMATION = "Stop Sharing"
+ en.SHARE_LOCATION_STOP_SHARING_LABEL_TEXT = "Stop Sharing My Location"
+ en.SHARE_LOCATION_STOP_SHARING_TEXT = "Stop Sharing My Location"
+
+ en.SNAP_AVATAR_SUGGESTIONS_GALLERY_TITLE = "Choose Your Photo"
+ en.SNAP_DISPLAY_PREFERENCE_ALWAYS_UPDATE = "Update Automatically"
+ en.SNAP_DISPLAY_PREFERENCE_ASK_FOR_UPDATES = "Ask Before Updating"
+-en.SNAP_DISPLAY_PREFERENCE_CONTACT_CARD_TITLE = "Contact Photo \u0026 Poster"
++en.SNAP_DISPLAY_PREFERENCE_CONTACT_CARD_TITLE = "Contact Photo"
+ en.SNAP_DISPLAY_PREFERENCE_CONTACT_CARD_VALUE_ALWAYS_UPDATE = "Shared by %@"
+ en.SNAP_DISPLAY_PREFERENCE_CONTACT_ME_CARD_TITLE = "Shared Name and Photo"
+ en.SNAP_DISPLAY_PREFERENCE_DISABLED = "Sharing Off"
+
+ en.SNAP_SOURCE_CAMERA = "Camera"
+ en.SNAP_SOURCE_COLOR = "Color"
+ en.SNAP_SOURCE_EMOJI = "Emoji"
++en.SNAP_SOURCE_IMAGE_PLAYGROUND = "Image Playground"
++en.SNAP_SOURCE_IMAGE_PLAYGROUND_DESCRIPTION = "Create custom images with Image Playground."
++en.SNAP_SOURCE_IMAGE_PLAYGROUND_TITLE = "Create an Image"
+ en.SNAP_SOURCE_MEMOJI = "Memoji"
+ en.SNAP_SOURCE_MONOGRAM = "Monogram"
+ en.SNAP_SOURCE_MONOGRAM_FALLBACK = "AA"
+
+ en.SUGGESTION_REVIEW_MAIL_DEFAULT_TITLE = "No subject"
+ en.SUGGESTION_REVIEW_TITLE = "Review"
+ en.SUGGESTION_UNKNOWN_ORIGIN = "%@ (suggestion)"
++en.SUPPORT_ACTION_CHAT = "Chat in Messages"
++en.SUPPORT_ACTION_GUIDED_HELP = "Get Step-by-Step Help"
+ en.Skype IM_SERVICE_NAME = "Skype"
+ en.SkypeInstant IM_SERVICE_NAME = "Skype"
+ en.TEXTTONE_CARD_ITEM_LABEL = "Text Tone"
+
+```

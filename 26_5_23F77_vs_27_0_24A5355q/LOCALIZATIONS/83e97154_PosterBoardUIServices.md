@@ -1,0 +1,52 @@
+## PosterBoardUIServices
+
+> `FileSystem/System/Library/PrivateFrameworks/PosterBoardUIServices.framework/Localizable.loctable`
+
+```diff
+
++en.%@ = "%@"
++en.%@ is not supported = "%@ is not supported"
+ en.Archive Configuration to Disk (/var/tmp/) = "Archive Configuration to Disk (/var/tmp/)"
+ en.Archive URL: %@ = "Archive URL: %@"
+ en.Archive from file at %@ = "Archive from file at %@"
+ en.Bounding Shape = "Bounding Shape"
+ en.Bounding Shape: %@ = "Bounding Shape: %@"
++en.Calculate the rectangle based on the Y origin = "Calculate the rectangle based on the Y origin"
+ en.Commit Configuration = "Commit Configuration"
+ en.Configuration = "Configuration"
++en.Configure override for %@ = "Configure override for %@"
+ en.Contact = "Contact"
+ en.Contact Identifier: %@ = "Contact Identifier: %@"
+ en.Create New Configuration = "Create New Configuration"
+
+ en.Existing Configuration = "Existing Configuration"
+ en.Extension = "Extension"
+ en.Extension: %@ = "Extension: %@"
++en.Failed to load = "Failed to load"
+ en.Found nil configuration = "Found nil configuration"
++en.Mode = "Mode"
++en.More Options = "More Options"
+ en.Only shows contacts that have a poster configured = "Only shows contacts that have a poster configured"
+ en.Please place configuration archive somewhere on disk and run `login -f defaults read com.apple.PosterTester BoundingShape-archiveDataAbsoluteURL <absolute path>` = "Please place configuration archive somewhere on disk and run `login -f defaults read com.apple.PosterTester BoundingShape-archiveDataAbsoluteURL \u003cabsolute path\u003e`"
+ en.Read From Disk = "Read From Disk"
++en.Rect Override = "Rect Override"
+ en.Refresh Configurations = "Refresh Configurations"
+ en.Refresh Descriptors = "Refresh Descriptors"
+ en.Role = "Role"
+ en.Role: %@ = "Role: %@"
+ en.Select Poster Archive = "Select Poster Archive"
+-en.Show As Snapshot = "Show As Snapshot"
+-en.Show as Editor = "Show as Editor"
++en.Set property values explicitly = "Set property values explicitly"
++en.Show Overlay = "Show Overlay"
++en.Show as Snapshot = "Show as Snapshot"
+ en.Show as Snapshot: %@ = "Show as Snapshot: %@"
++en.Size: %@ = "Size: %@"
+ en.Transition Progress = "Transition Progress"
+-en.Will present %@ = "Will present %@"
++en.View Controller = "View Controller"
+ en.role not yet supported = "role not yet supported"
+ en.snapshot = "snapshot"
+ en.snapshot was nil = "snapshot was nil"
+
+```

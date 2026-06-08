@@ -1,0 +1,47 @@
+## AskToUI
+
+> `FileSystem/System/Library/PrivateFrameworks/AskToUI.framework/Localizable.loctable`
+
+```diff
+
+ en. = ""
++en.A system error occurred. Please try again later. = "A system error occurred. Please try again later."
++en.Add Name = "Add Name"
++en.An error occurred while attempting to send the response.%@ = "An error occurred while attempting to send the response.%@"
+ en.An unknown error occurred. = "An unknown error occurred."
+-en.ApproveInPersonLocalizationKey = "Approve in Person"
+-en.AskToApproveLocalizationKey = "Ask to Approve"
++en.Approve = "Approve"
++en.Approved by %@ = "Approved by %@"
+ en.AskToCommunicateAlertBodyLocalizationKey = "You need permission from a parent or guardian to contact “%@”."
+ en.Cancel = "Cancel"
+-en.CancelLocalizationKey = "Cancel"
+-en.Can’t Ask = "Can’t Ask"
+ en.Could Not Approve in Person = "Could Not Approve in Person"
++en.Create a new contact or add this number to an existing contact. = "Create a new contact or add this number to an existing contact."
++en.Decline = "Decline"
++en.Denied by %@ = "Denied by %@"
++en.Edit Name = "Edit Name"
++en.Email = "Email"
+ en.GenericAlertBodyLocalizationKey = "You need permission from a parent or guardian."
++en.Handle = "Handle"
+ en.Learn More = "Learn More"
++en.Name = "Name"
+ en.Not Available = "Not Available"
+ en.OK = "OK"
++en.Open App = "Open App"
++en.Open “%@” = "Open “%@”"
++en.Options = "Options"
++en.Phone = "Phone"
+ en.Request timed out. Check your network connection and try again. = "Request timed out. Check your network connection and try again."
++en.Save = "Save"
+ en.SignificantAppUpdateAlertBodyLocalizationKey = "You need your parent or guardian’s approval to continue."
+-en.You can approve or decline this request on other Apple devices. = "You can approve or decline this request on other Apple devices."
++en.The Screen Time passcode is not set. Please set one to continue. = "The Screen Time passcode is not set. Please set one to continue."
++en.The Screen Time passcode was not entered correctly. = "The Screen Time passcode was not entered correctly."
++en.Try responding to this request on your other Apple devices. = "Try responding to this request on your other Apple devices."
++en.Unable to Respond = "Unable to Respond"
++en.Unable to respond. Try responding to this request on your other Apple devices. = "Unable to respond. Try responding to this request on your other Apple devices."
+ en.[Internal Only] %@ = "[Internal Only] %@"
+
+```

@@ -5,36 +5,40 @@
 ```diff
 
 -70.0.0.0.0
--  __TEXT.__text: 0xc02c
--  __TEXT.__auth_stubs: 0x6b0
--  __TEXT.__gcc_except_tab: 0x1214
--  __TEXT.__cstring: 0x119f
--  __TEXT.__const: 0x5c5
--  __TEXT.__unwind_info: 0x790
--  __TEXT.__objc_methname: 0x194
--  __TEXT.__objc_stubs: 0x220
--  __DATA_CONST.__got: 0x88
+-  __TEXT.__text: 0xc02c sha256:946c49a958a2fb5e3c4de83490ca3cad4df456cf296ed52bd0c338727b5f409b
+-  __TEXT.__auth_stubs: 0x6b0 sha256:4c7446588ee692af934ca645c1e8a3032626357dda295f401f9e0f24989f5c11
+-  __TEXT.__gcc_except_tab: 0x1214 sha256:5337caf8b67c6177f97490827104e7e2e55d4985b8c6990179603b347ab323ea
+-  __TEXT.__cstring: 0x119f sha256:505e9abd8ea67c229df0802c8b5b448a6fff9af8ab4f00caf711a1d613848831
+-  __TEXT.__const: 0x5c5 sha256:e180d0f593efb50343ac244ede2c158e21bbae884915a47516ace757c1263fa6
+-  __TEXT.__unwind_info: 0x790 sha256:871327261f5302ebbc6fd1e3e4c3a75c5aa6e95c6e0d42cdb2ec3a6001a045eb
+-  __TEXT.__objc_methname: 0x194 sha256:757418f56736650c950aa15f8f7af3574f7e11ae7d0e754b2ab2b3dd1ad398b6
+-  __TEXT.__objc_stubs: 0x220 sha256:7ff54564fe8c494d5eab8cd0606d4c107d7c93f787e44b2f5721fb5b4ba01bb4
+-  __DATA_CONST.__got: 0x88 sha256:bf5a7e8c7d640b2a8808d80b443c15770c93441455714092359570e68efc2de7
+-  __DATA_CONST.__const: 0x18 sha256:c3ff8b4d03a72d3f94832213291f8a3f95dc1ae23047d0b20bd3a9fdf021c103
 +106.0.0.0.0
-+  __TEXT.__text: 0xd52c
-+  __TEXT.__gcc_except_tab: 0x115c
-+  __TEXT.__cstring: 0x18b
-+  __TEXT.__const: 0x5e9
-+  __TEXT.__oslogstring: 0x1027
-+  __TEXT.__unwind_info: 0x7f8
++  __TEXT.__text: 0xd52c sha256:c838423a52aba7cc455ac1abc6589379bacb58ee1d13af0289ecf94b5e51476b
++  __TEXT.__gcc_except_tab: 0x115c sha256:e4f00c65da1d9c727c3e3334978bf074c5befdfbe11ac7d52e878a9f11a080f5
++  __TEXT.__cstring: 0x18b sha256:2f2a97b640f17b5697cc526cd8bb15037bb92331f1a9a6d1440f93e1b0dbd180
++  __TEXT.__const: 0x5e9 sha256:069dfdccf0988f0adceff03c7ab7233869e982509fbc37679000f3d7c0c993be
++  __TEXT.__oslogstring: 0x1027 sha256:4290074cd2e835507ac4f2f35dcf6e6efc9242d90a3ff6f43bbf6ea6692d9312
++  __TEXT.__unwind_info: 0x7f8 sha256:0b2b618242e963c20eac05f627580c930c7020d77260b7469f8cfd9044c6a16d
 +  __TEXT.__objc_stubs: 0x0
 +  __TEXT.__auth_stubs: 0x0
 +  __TEXT.__objc_methname: 0x0
-   __DATA_CONST.__const: 0x18
-   __DATA_CONST.__objc_imageinfo: 0x8
-+  __DATA_CONST.__weak_got: 0x8
-   __DATA_CONST.__objc_selrefs: 0x88
--  __AUTH_CONST.__auth_got: 0x368
++  __DATA_CONST.__const: 0x18 sha256:743bfc8f6635ed2390e98bf5972a88255c89c4d77805b3aca3a255fa9b414331
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x88 sha256:e035ca22679251247257f79252e8d8aadc2d257565bcc6e635c92cf8c46ff54c
+-  __AUTH_CONST.__auth_got: 0x368 sha256:8d1e9411cca439b62a6660f321c680c11a5966bea6081c14b541bf8d38194eb8
+-  __AUTH_CONST.__const: 0x2e8 sha256:19c01f35880c116ed833aa1f7c1c5ed162a6247ca0cbf79c161ea0853fdfb5a1
+-  __AUTH_CONST.__cfstring: 0x160 sha256:df5d7003dd0217e958097130f303eaffce1e9432aea868591d918a44476c34dd
+-  __DATA_DIRTY.__common: 0x8 sha256:af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc
++  __DATA_CONST.__weak_got: 0x8 sha256:baed7a8f4fe06577baf9413d1425189458482e4f64d55b4f5cc304378385a036
++  __DATA_CONST.__objc_selrefs: 0x88 sha256:97cce24fa470fb5225adb1389e208d2d7f8a88c8d22d4fc06615e8e0570d365e
 +  __DATA_CONST.__got: 0x0
-   __AUTH_CONST.__const: 0x2e8
-   __AUTH_CONST.__cfstring: 0x160
--  __DATA_DIRTY.__common: 0x8
-+  __AUTH_CONST.__weak_auth_got: 0x18
-+  __AUTH_CONST.__auth_got: 0x350
++  __AUTH_CONST.__const: 0x2e8 sha256:4c3d9aca36cecaa4896a5c141109c1a2f11f91184745b425098f55ba515455e0
++  __AUTH_CONST.__cfstring: 0x160 sha256:75735bc19d427eb20b75d8bd9b76e4196913019120e55230c4aff9b450a00323
++  __AUTH_CONST.__weak_auth_got: 0x18 sha256:0c2ab22cd1cc30d690edd58528eceded545db3c64dcee3e10415a5bc1f7d1b0f
++  __AUTH_CONST.__auth_got: 0x350 sha256:4925b9b6329f24346bce043f2cdabb940199fd87188f3ae77c9559bf7cfa9f43
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/Foundation.framework/Foundation
    - /System/Library/Frameworks/Security.framework/Security

@@ -1,0 +1,15 @@
+## FindMyUICore
+
+> `FileSystem/System/Library/PrivateFrameworks/FindMyUICore.framework/UIPeople.loctable`
+
+```diff
+
++en.OFFER_LOCATION_DURATION_TITLE_ALWAYS = "Always"
++en.OFFER_LOCATION_DURATION_TITLE_CUSTOM = "Custom"
+ en.OFFER_LOCATION_DURATION_TITLE_END_OF_DAY = "Until End of Day"
++en.OFFER_LOCATION_DURATION_TITLE_FOR_TODAY = "For Today"
+ en.OFFER_LOCATION_DURATION_TITLE_INDEFINITELY = "Indefinitely"
+ en.OFFER_LOCATION_DURATION_TITLE_ONE_HOUR = "For One Hour"
+ en.OFFER_LOCATION_DURATION_TITLE_PIN = "Map Pin"
+
+```

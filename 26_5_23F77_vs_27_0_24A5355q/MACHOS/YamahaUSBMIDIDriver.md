@@ -5,31 +5,33 @@
 ```diff
 
 -324.501.0.6.0
--  __TEXT.__text: 0x1ee30
--  __TEXT.__auth_stubs: 0x800
--  __TEXT.__cstring: 0x7c1
--  __TEXT.__gcc_except_tab: 0xeac
--  __TEXT.__const: 0x280
+-  __TEXT.__text: 0x1ee30 sha256:7284f1f3c80c396e8ea8c3d312dcc6455a82d1f76103a8221c1856b38516c759
+-  __TEXT.__auth_stubs: 0x800 sha256:17d476fdfb59154ebaeabb770de6233aa15df4d58ad8ca18ca21723765d89937
+-  __TEXT.__cstring: 0x7c1 sha256:732e0fde25a6c8373618ba15c3bae4207891a41906b29d0f22542676e548d70b
+-  __TEXT.__gcc_except_tab: 0xeac sha256:bef64a465c11349ccb40b5921e794298073d6fa8f073a19dbb6a13ce5ca2b238
+-  __TEXT.__const: 0x280 sha256:3a6938a557ff034030a65b71baba4e7298ed23195a2812cb8e87f836255072bd
 +328.0.0.0.0
-+  __TEXT.__text: 0x1e5a4
-+  __TEXT.__realtime: 0x4c8
-+  __TEXT.__auth_stubs: 0x770
-+  __TEXT.__const: 0x290
-+  __TEXT.__cstring: 0x282d
-+  __TEXT.__gcc_except_tab: 0xda4
-   __TEXT.__oslogstring: 0x3c7e
--  __TEXT.__unwind_info: 0xac0
--  __DATA_CONST.__auth_got: 0x408
--  __DATA_CONST.__got: 0xe8
--  __DATA_CONST.__const: 0xca0
-+  __TEXT.__unwind_info: 0xa98
-+  __DATA_CONST.__const: 0xc48
-   __DATA_CONST.__cfstring: 0x360
-+  __DATA_CONST.__auth_got: 0x3c0
-+  __DATA_CONST.__got: 0xc8
-   __DATA.__data: 0x98
--  __DATA.__bss: 0x109
-+  __DATA.__bss: 0x99
++  __TEXT.__text: 0x1e5a4 sha256:e3b66324f5f69273d1ac202296bf1a17bf109fed9d69b34a5989f710d4ec8841
++  __TEXT.__realtime: 0x4c8 sha256:8d087061f9af41af25770cf1256d8d4927db09897b2122a2d82590c10ab3d58e
++  __TEXT.__auth_stubs: 0x770 sha256:f30875aa1c05888c825cdce4ea7b38771f75cba6db9c901e4488ffdbcc0f1945
++  __TEXT.__const: 0x290 sha256:9a0cd30f7b2ff97e76d856705490401079031742f11d961759399c2852324dee
++  __TEXT.__cstring: 0x282d sha256:3b1f84a66173e0d3af7d7e0e6de8eb43bb4663b1d98466ad9162282136629884
++  __TEXT.__gcc_except_tab: 0xda4 sha256:725142c5854750eae975abcf8073118bdd361ee783f53804ddd549d46795eb29
+   __TEXT.__oslogstring: 0x3c7e sha256:a66516cbb3066ae42d8c549401ac9b933ae82b8cc647c7537b2b68cd215975c1
+-  __TEXT.__unwind_info: 0xac0 sha256:37d3209184c55b566818133fed82493e14f6eccf4aa4af77d27c7788350ce344
+-  __DATA_CONST.__auth_got: 0x408 sha256:c13652562e83fcc7ea6d831c66f1b3de483a8a9cdc5800970e29c89cdde29ae2
+-  __DATA_CONST.__got: 0xe8 sha256:47147ec076cc2b01ee30364bc846b3ed6d40c34447b3f7fcefc5fbdc556a37b3
+-  __DATA_CONST.__const: 0xca0 sha256:f00437e4d06928575e8775a36c62e567126b6818e390deee14849a3f336479b0
+-  __DATA_CONST.__cfstring: 0x360 sha256:f14a5e00a08fa34132ae83e27ad7b70ff77969cea4065c34b419bdaad30a529c
+-  __DATA.__data: 0x98 sha256:dea5351c5ff488f47214eee62593edc793b32fea32bf680ba81f48a0111b7e43
+-  __DATA.__bss: 0x109 sha256:766945d07e482349b0c75427ad1146bf0c21f1c7e7ee55dbbf990402fe20bfdd
++  __TEXT.__unwind_info: 0xa98 sha256:6e3ea758f30630a500717ab597a401491e1c52b5144c4bdbf2f906c6412d0802
++  __DATA_CONST.__const: 0xc48 sha256:e3bb140b05d42e87e1b9db70d56b953d26d35aadc1cce44cd4845b20d5aca16a
++  __DATA_CONST.__cfstring: 0x360 sha256:1662ecfe567c6759e98b14efc8e40c4b2ac6348be1039067ad62801c10df711d
++  __DATA_CONST.__auth_got: 0x3c0 sha256:5f864d0a6b67e73aaa20da22584cc46e181484cd0e0db4aa4fd82bd1b4e33ac3
++  __DATA_CONST.__got: 0xc8 sha256:08fa2b070cb8e27c004556cae0941aa499d4fb69f1dac3fc8105945c56314d6c
++  __DATA.__data: 0x98 sha256:5965033c8034605649b7430217d7a272f21db06bda99110160910ff52ebfc374
++  __DATA.__bss: 0x99 sha256:f1663cceeb67ba35c5a5cbf58b56050ddbe5ec5680ea9e55837b57524f29b876
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/CoreMIDI.framework/CoreMIDI
    - /System/Library/Frameworks/IOKit.framework/Versions/A/IOKit

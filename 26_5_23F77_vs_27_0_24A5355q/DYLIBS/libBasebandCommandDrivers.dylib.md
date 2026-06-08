@@ -5,37 +5,40 @@
 ```diff
 
 -1418.1.0.0.0
--  __TEXT.__text: 0x14220
--  __TEXT.__auth_stubs: 0x710
--  __TEXT.__const: 0x2a70
--  __TEXT.__gcc_except_tab: 0x1d18
--  __TEXT.__cstring: 0x2a62
--  __TEXT.__oslogstring: 0x326
--  __TEXT.__unwind_info: 0xd30
--  __DATA_CONST.__got: 0xd0
--  __DATA_CONST.__const: 0x1130
+-  __TEXT.__text: 0x14220 sha256:b6977178112c234a2599a9bc3232305bec59380104e5d493dea9b290b77eecab
+-  __TEXT.__auth_stubs: 0x710 sha256:82591ec0fdb97e3af412e9899107d18b9f5f66dfeba67bcf19c7a2e609cb4f98
+-  __TEXT.__const: 0x2a70 sha256:c9ffc627aafbecae4b68ea2d74db758ed066ff13e191aa9e315e04e96134eabd
+-  __TEXT.__gcc_except_tab: 0x1d18 sha256:644ed417dcec92064890c0bcd83a1cff896a027304f9fe8f270b8d99681db734
+-  __TEXT.__cstring: 0x2a62 sha256:d5f5400aac2a97baa9539bdbff4a86cbf6710ed93341eec84f3661f4da1746c1
+-  __TEXT.__oslogstring: 0x326 sha256:652031834c2a435a602dbfdd975865809b8d9fdf1e6ca0fb94a46a88282b5691
+-  __TEXT.__unwind_info: 0xd30 sha256:349c319482eb13a31472f9ce97cdeb54181b20bf6579200c264cf3cc31b5f9de
+-  __DATA_CONST.__got: 0xd0 sha256:be3280b3affd3fed51402ce818ad0207b018b60df2d97d566b613236feb73352
+-  __DATA_CONST.__const: 0x1130 sha256:cdadd981aa736bce7145597baae0c9c24d7cd88f307f00b9a97ecf2932e96a26
 +1563.0.0.0.0
-+  __TEXT.__text: 0x17298
-+  __TEXT.__init_offsets: 0x4
-+  __TEXT.__const: 0x2a60
-+  __TEXT.__gcc_except_tab: 0x1d9c
-+  __TEXT.__cstring: 0x2a82
-+  __TEXT.__oslogstring: 0x383
-+  __TEXT.__unwind_info: 0xd60
++  __TEXT.__text: 0x17298 sha256:67026fc7c98bf36708945532944e92152f124caf537e484566cf462a432d485c
++  __TEXT.__init_offsets: 0x4 sha256:0d8a405b08987b4cc7480eb29510425f780f589ddc50776e9e5df805294f1fba
++  __TEXT.__const: 0x2a60 sha256:22b40360db7e68b580d395ca0106fddf947184dbd11666ce9122abd4505eee5d
++  __TEXT.__gcc_except_tab: 0x1d9c sha256:36877c9dfa150c737ea09979327b0e90c34b4c5100c634d4bd4da8bc43abe952
++  __TEXT.__cstring: 0x2a82 sha256:25d692bfd6fb1fdcf185e53d6b7ac1abe2e8e1f67bace104fa149a086100cb27
++  __TEXT.__oslogstring: 0x383 sha256:71889b09ec496c75331566385802e7c3f8850bad829e553847b29698d3b2b070
++  __TEXT.__unwind_info: 0xd60 sha256:0d6a552b9f4e8e9b9fde5c71493242102aaec6d85bfb0f29ba4254d1c96d3f48
 +  __TEXT.__auth_stubs: 0x0
-+  __DATA_CONST.__const: 0x1128
-   __DATA_CONST.__objc_imageinfo: 0x8
--  __AUTH_CONST.__auth_got: 0x390
--  __AUTH_CONST.__const: 0x1e00
-+  __DATA_CONST.__weak_got: 0x10
++  __DATA_CONST.__const: 0x1128 sha256:1dd6f9b00b373c4853378757c07534f4f0aa8fa10bfad688609913cc1854abdf
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __AUTH_CONST.__auth_got: 0x390 sha256:cd8bed0bfd5d0063bbe4bbd9d6867663bfbe10d2a9e374dfe52ff5d065096c99
+-  __AUTH_CONST.__const: 0x1e00 sha256:30b6101e3250a28031cde24d1516b19678bd5d1b9c62aa2006a955bcf4fb06fc
+-  __AUTH_CONST.__cfstring: 0x2360 sha256:8043aff910bfa0e4e15b304fa12a0fec510732103e5f7feaa814b866f5f46030
+-  __DATA.__data: 0x28 sha256:172cd82bd565432897a84b417d1e4c9c5d7388d8e73ce0da14021782dec6cadb
++  __DATA_CONST.__weak_got: 0x10 sha256:db089a9946ee2f440f1454b6bd081bc906524b106b3b9bd5745c567d00425fed
 +  __DATA_CONST.__got: 0x0
-+  __AUTH_CONST.__const: 0x1e18
-   __AUTH_CONST.__cfstring: 0x2360
-+  __AUTH_CONST.__weak_auth_got: 0x10
++  __AUTH_CONST.__const: 0x1e18 sha256:0806e3bf68e371a9d0289910ba468862537cbcdd0e1f2358f8ef23d2aeb44c32
++  __AUTH_CONST.__cfstring: 0x2360 sha256:c6ac144f8af09f1ac4fe9f05551362e94b848a56f812843db0ab75eb57b854d8
++  __AUTH_CONST.__weak_auth_got: 0x10 sha256:290149e422ec40b0273600157a594a1152f2acf9916597016a24319850a9d2db
 +  __AUTH_CONST.__auth_got: 0x0
-   __DATA.__data: 0x28
-   __DATA_DIRTY.__bss: 0x30
++  __DATA.__data: 0x28 sha256:fb9daa9e324a0b54977573fbcf0a83108f04b6bda75756eb330b0f454ca4a519
+   __DATA_DIRTY.__bss: 0x30 sha256:17b0761f87b081d5cf10757ccc89f12be355c70e2e29df288b65b30710dcbcd1
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
 
    - /usr/lib/libTelephonyCapabilities.dylib
    - /usr/lib/libTelephonyUtilDynamic.dylib

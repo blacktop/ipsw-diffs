@@ -5,38 +5,40 @@
 ```diff
 
 -95.0.2.0.0
--  __TEXT.__text: 0x13c0f4
--  __TEXT.__auth_stubs: 0x850
--  __TEXT.__const: 0x4ba0
--  __TEXT.__gcc_except_tab: 0x4c6c
--  __TEXT.__cstring: 0x26ca7
+-  __TEXT.__text: 0x13c0f4 sha256:52111ee0a1836502a16dfd91d8b1d22c270427bffae78e1e5d82eae125f0484b
+-  __TEXT.__auth_stubs: 0x850 sha256:ecef969337f3a68e4ffc8fd30df2053763f809bcc1d9d7ef9b7625f17df5fd41
+-  __TEXT.__const: 0x4ba0 sha256:4dbc89fe6350a2d1c0c04136be26ae862f5c2653c2b5a97c06a02790625e56e2
+-  __TEXT.__gcc_except_tab: 0x4c6c sha256:c1d11ce952354ac6d3cee4fadae7d51b5ad170f4e04435b06f527855d5af1ed6
+-  __TEXT.__cstring: 0x26ca7 sha256:d6762516efe2ecf27fce614f2acaa062eb50c61ec795ca0b6d80fdf6f3faf7c1
 +216.0.0.0.0
-+  __TEXT.__text: 0x1507a4
-+  __TEXT.__const: 0x5510
-+  __TEXT.__gcc_except_tab: 0x492c
-+  __TEXT.__cstring: 0x293ba
-   __TEXT.__oslogstring: 0xb
--  __TEXT.__unwind_info: 0x1ce8
--  __DATA_CONST.__got: 0xb0
--  __DATA_CONST.__const: 0x598
--  __AUTH_CONST.__auth_got: 0x430
--  __AUTH_CONST.__const: 0x1d10
-+  __TEXT.__unwind_info: 0x1ee8
++  __TEXT.__text: 0x1507a4 sha256:f5c71bcfb46724c661f49d8c4b8d50e9cadb2bea27b823f9c05bc8a498f2326b
++  __TEXT.__const: 0x5510 sha256:20ed5e834d2c7c90be59fae772bf225e50f36465dd6e5aba9e774a1d07f9866e
++  __TEXT.__gcc_except_tab: 0x492c sha256:5ba89405c5f18f3a7ab097e7ad236c9e2525c8f35435fbd633e227fc75574a26
++  __TEXT.__cstring: 0x293ba sha256:9e8e9f4fcfe6939a057421ae7fa674b34b3d1c8582a22f639f24b86c1da57b71
+   __TEXT.__oslogstring: 0xb sha256:9c3b17502bb69ebb405f31e5124ce5b6083944941f7748255fb280a55b456511
+-  __TEXT.__unwind_info: 0x1ce8 sha256:c3ae047b95de7cdb8b498d6fb63bd3a48c19d0247f3ec96956e058e841fb6978
+-  __DATA_CONST.__got: 0xb0 sha256:633fbd28ecd9f37ea3d9ef0b9044d8234ab96b8b74b2752f4f4df9ec49db10a5
+-  __DATA_CONST.__const: 0x598 sha256:6235b0f1ee83ee97c0fefd614f99fd280b5c64d1f5fb6c753fc58efdbcf0b9d7
+-  __AUTH_CONST.__auth_got: 0x430 sha256:dbbeab0f6e345e630799be71c8bf2f3d29422cdea7a8ee405d55a7ab41a0df50
+-  __AUTH_CONST.__const: 0x1d10 sha256:c714c3d9da6876e1ae8f40f7a5077f03c9223b9c90994d5775b94d2dd0fed8b6
+-  __AUTH_CONST.__cfstring: 0x20 sha256:333c740c44a05f1427ef10e29753d5e7bf38b34f11748bc534cbda5f9111b891
+-  __AUTH.__data: 0x3f8 sha256:544ad7d80815fdfb2d1fabd93b8f2bc0c145c35407378d10f9c27870506ca486
+-  __DATA.__data: 0x28698 sha256:6c864bb53400d2a7927f491b641dd719dc659c93a3a02794a180a50b265d1f33
+-  __DATA.__common: 0x680a9 sha256:3c42ac1a9954f19c7d11849715955e80560473723b948449c284c5ecdd1d55e5
+-  __DATA.__bss: 0x83e0 sha256:6ab9b0efb0a7ea910b687c86ad150535d7173eb3eb5b6db102bc39f2182f9002
++  __TEXT.__unwind_info: 0x1ee8 sha256:65d758c69a104c2e04f2296eec3f0a3ebcf268dd6c6f27d8c1edee5a59f6df6c
 +  __TEXT.__auth_stubs: 0x0
-+  __DATA_CONST.__const: 0x3d8
-+  __DATA_CONST.__weak_got: 0x8
++  __DATA_CONST.__const: 0x3d8 sha256:f527934405c388ca6b4d32c8e80c2fda7b9018f7a273221b5f5bde10a3bbfade
++  __DATA_CONST.__weak_got: 0x8 sha256:baed7a8f4fe06577baf9413d1425189458482e4f64d55b4f5cc304378385a036
 +  __DATA_CONST.__got: 0x0
-+  __AUTH_CONST.__const: 0x1e08
-   __AUTH_CONST.__cfstring: 0x20
-+  __AUTH_CONST.__weak_auth_got: 0x30
-+  __AUTH_CONST.__auth_got: 0x438
-   __AUTH.__data: 0x3f8
--  __DATA.__data: 0x28698
--  __DATA.__common: 0x680a9
--  __DATA.__bss: 0x83e0
-+  __DATA.__data: 0x3b5e0
-+  __DATA.__common: 0x5dcd1
-+  __DATA.__bss: 0x83d8
++  __AUTH_CONST.__const: 0x1e08 sha256:3ff6196ad5378d20075505b8a9f4aba25574246da422d9fc5a893dea40acb032
++  __AUTH_CONST.__cfstring: 0x20 sha256:78397af84a9c900e225b805d8091d834e1d94103cbd04ecad203827fbc3f7c7b
++  __AUTH_CONST.__weak_auth_got: 0x30 sha256:e52ce14949ec4afd10b28ffdaed98682af68fe2ae49b19c1c52e7b230f6de61b
++  __AUTH_CONST.__auth_got: 0x438 sha256:d20d5d685a1fdb28a974551a0c8c0eed3f75410cf9055957b7a3a9790fc2e06a
++  __AUTH.__data: 0x3f8 sha256:d8dad1929c02d465fc4f14d01f27cc89fe73bbe02466a14477dea809877bc2a5
++  __DATA.__data: 0x3b5e0 sha256:e9cb52e8267197419c80682a9f26df309d63c46b0efa65c78446580a97700d1e
++  __DATA.__common: 0x5dcd1 sha256:e88209426ff449806b89551dbe35aa624ea537cd033f4ddcf58cacb5e1c97d2b
++  __DATA.__bss: 0x83d8 sha256:6c35d79130585703ecca44ecabb8e7377a0d3ff77ad382d43e2ad5fbfc9f1b38
    - /System/Library/Frameworks/Accelerate.framework/Accelerate
    - /System/Library/Frameworks/CFNetwork.framework/CFNetwork
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation

@@ -5,23 +5,25 @@
 ```diff
 
 -788.100.31.0.0
--  __TEXT.__text: 0x6b10
+-  __TEXT.__text: 0x6b10 sha256:387f08195b2b3a2cf99f20e3d08428161d49b1ac86cc32ec0eb19af0cbfe585b
 +844.0.0.0.0
-+  __TEXT.__text: 0x6ed8
-   __TEXT.__auth_stubs: 0x210
--  __TEXT.__cstring: 0x1305
--  __TEXT.__unwind_info: 0x118
-+  __TEXT.__const: 0x20
-+  __TEXT.__cstring: 0x1312
-+  __TEXT.__unwind_info: 0x110
-   __DATA_CONST.__auth_got: 0x108
-   __DATA_CONST.__got: 0x40
-   __DATA_CONST.__auth_ptr: 0x8
--  __DATA_CONST.__const: 0x60
-+  __DATA.__data: 0xab8
-   __DATA.__common: 0x68
--  __DATA.__bss: 0x560
-+  __DATA.__bss: 0x578
++  __TEXT.__text: 0x6ed8 sha256:82111ec7e65a5874c4fa7a6760103f9f672f1eb55bb44edc397e50ae1891069d
+   __TEXT.__auth_stubs: 0x210 sha256:3928e842f40d746f94c5e9f6071e52d4367db2854333c54254ccfa0685ed2a81
+-  __TEXT.__cstring: 0x1305 sha256:598b9ea12bd629ebabd908b0f9057f5d144b15f5d9a06f661b732a2e375235cd
+-  __TEXT.__unwind_info: 0x118 sha256:87e13c4838fbb11c8e4f8e322d46105cac41a266dc0bd79a9c8d66781b9e0bf9
++  __TEXT.__const: 0x20 sha256:7ba93033d30f2ad9c03ae5412551f0197f4bc77f4a948cabe01a0be0e9ca7248
++  __TEXT.__cstring: 0x1312 sha256:a8b5df2e5e65450ed67bcb6fad1cf9afd7966997e23ca0a7f82552d5d6d605f4
++  __TEXT.__unwind_info: 0x110 sha256:08385308915b8ce371d980cdab9cc994c415cfff09c0e921b61a0abadefcdc2e
+   __DATA_CONST.__auth_got: 0x108 sha256:3d74e5ed7bc7e19f30bfe8a15087dacb4c1f2f6525be00cf1fe1d1f527bc42d4
+   __DATA_CONST.__got: 0x40 sha256:618e2a196d05059baf7b07efc13e2a3c6cca199d0604255d4b7c1312c37b9d36
+-  __DATA_CONST.__auth_ptr: 0x8 sha256:0ff7f9872a24e7e0d0cd01518fa6c18a7cf4960b9b304ce7bfa8ce9e8b5fea88
+-  __DATA_CONST.__const: 0x60 sha256:4061609e746dd7f99ad692229508374c8bcf648939d977d86725380c12881810
+-  __DATA.__common: 0x68 sha256:a5b094e2a2d3fd0aa966fbb2fcabcefa4d1b8c4e4184b79c9fd027f3ee357830
+-  __DATA.__bss: 0x560 sha256:5acc5a778b70e151dc1acf6da2f9731a92f7fd5dc9cef33aa507cacde1c1334e
++  __DATA_CONST.__auth_ptr: 0x8 sha256:1dcbfcac9d2268799a6ad4ccf9521a692de723f1742c2b837416387409d56b90
++  __DATA.__data: 0xab8 sha256:402d49f676e0199b5db3fadf696c467f4fc7cbe07dd0a49191ee45728930ed26
++  __DATA.__common: 0x68 sha256:39f37f8d1931b3bdf767e7510dd69509fbf23af1f7654933d0a4d291cbdd4418
++  __DATA.__bss: 0x578 sha256:671a03b622d3d43fba5bbe87536a2f2b381488a896d9199522aec397ec5de576
    - /usr/lib/libSystem.B.dylib
 -  UUID: C7BD2A7B-D78D-3CD2-8A7E-5F9DAC14C70C
 -  Functions: 71

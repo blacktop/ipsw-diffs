@@ -1,0 +1,45 @@
+## SafariCore
+
+> `SystemOS/System/Library/PrivateFrameworks/SafariCore.framework/en.lproj/Localizable.stringsdict`
+
+```diff
+
++%lu passwords could not be fixed because Passwords could not access the verification codes..NSStringLocalizedFormatKey = "%#@message@"
++%lu passwords could not be fixed because Passwords could not access the verification codes..message.NSStringFormatSpecTypeKey = "NSStringPluralRuleType"
++%lu passwords could not be fixed because Passwords could not access the verification codes..message.NSStringFormatValueTypeKey = "lu"
++%lu passwords could not be fixed because Passwords could not access the verification codes..message.one = "%lu password could not be fixed because Passwords could not access the verification code."
++%lu passwords could not be fixed because Passwords could not access the verification codes..message.other = "%lu passwords could not be fixed because Passwords could not access the verification codes."
++%lu passwords could not be fixed because Passwords encountered a network issue or another issue that may not occur if you try again..NSStringLocalizedFormatKey = "%#@message@"
++%lu passwords could not be fixed because Passwords encountered a network issue or another issue that may not occur if you try again..message.NSStringFormatSpecTypeKey = "NSStringPluralRuleType"
++%lu passwords could not be fixed because Passwords encountered a network issue or another issue that may not occur if you try again..message.NSStringFormatValueTypeKey = "lu"
++%lu passwords could not be fixed because Passwords encountered a network issue or another issue that may not occur if you try again..message.one = "%lu password could not be fixed because Passwords encountered a network issue or another issue that may not occur if you try again."
++%lu passwords could not be fixed because Passwords encountered a network issue or another issue that may not occur if you try again..message.other = "%lu passwords could not be fixed because Passwords encountered a network issue or another issue that may not occur if you try again."
+ %zu seconds left..NSStringLocalizedFormatKey = "%#@numberOfSeconds@."
+ %zu seconds left..numberOfSeconds.NSStringFormatSpecTypeKey = "NSStringPluralRuleType"
+ %zu seconds left..numberOfSeconds.NSStringFormatValueTypeKey = "zd"
+ %zu seconds left..numberOfSeconds.one = "%zd second left"
+ %zu seconds left..numberOfSeconds.other = "%zd seconds left"
++New strong passwords have been saved for %ld accounts..NSStringLocalizedFormatKey = "%#@message@"
++New strong passwords have been saved for %ld accounts..message.NSStringFormatSpecTypeKey = "NSStringPluralRuleType"
++New strong passwords have been saved for %ld accounts..message.NSStringFormatValueTypeKey = "ld"
++New strong passwords have been saved for %ld accounts..message.one = "One new strong password has been saved."
++New strong passwords have been saved for %ld accounts..message.other = "New strong passwords have been saved for %ld accounts."
++New strong passwords have been saved for %ld out of %ld accounts..NSStringLocalizedFormatKey = "%#@strongPasswordsMessage@ out of %#@accounts@."
++New strong passwords have been saved for %ld out of %ld accounts..accounts.NSStringFormatSpecTypeKey = "NSStringPluralRuleType"
++New strong passwords have been saved for %ld out of %ld accounts..accounts.NSStringFormatValueTypeKey = "ld"
++New strong passwords have been saved for %ld out of %ld accounts..accounts.one = "%ld account"
++New strong passwords have been saved for %ld out of %ld accounts..accounts.other = "%ld accounts"
++New strong passwords have been saved for %ld out of %ld accounts..strongPasswordsMessage.NSStringFormatSpecTypeKey = "NSStringPluralRuleType"
++New strong passwords have been saved for %ld out of %ld accounts..strongPasswordsMessage.NSStringFormatValueTypeKey = "ld"
++New strong passwords have been saved for %ld out of %ld accounts..strongPasswordsMessage.one = "New strong password has been saved for %ld"
++New strong passwords have been saved for %ld out of %ld accounts..strongPasswordsMessage.other = "New strong passwords have been saved for %ld"
++Passwords could not fix these passwords automatically..NSStringLocalizedFormatKey = "%#@message@"
++Passwords could not fix these passwords automatically..message.NSStringFormatSpecTypeKey = "NSStringPluralRuleType"
++Passwords could not fix these passwords automatically..message.NSStringFormatValueTypeKey = "ld"
++Passwords could not fix these passwords automatically..message.one = "Passwords could not fix this password automatically."
++Passwords could not fix these passwords automatically..message.other = "Passwords could not fix these passwords automatically."
+ This code is valid for the next %zu seconds..NSStringLocalizedFormatKey = "This code is valid for the next %#@numberOfSeconds@."
+ This code is valid for the next %zu seconds..numberOfSeconds.NSStringFormatSpecTypeKey = "NSStringPluralRuleType"
+ This code is valid for the next %zu seconds..numberOfSeconds.NSStringFormatValueTypeKey = "zd"
+
+```

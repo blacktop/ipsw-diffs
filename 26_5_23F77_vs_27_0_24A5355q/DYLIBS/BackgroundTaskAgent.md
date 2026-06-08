@@ -5,21 +5,25 @@
 ```diff
 
  63.0.0.0.0
-   __TEXT.__text: 0x4bc
--  __TEXT.__auth_stubs: 0xd0
-   __TEXT.__cstring: 0x39d
-   __TEXT.__oslogstring: 0x13f
-   __TEXT.__unwind_info: 0x70
--  __DATA_CONST.__got: 0x10
+-  __TEXT.__text: 0x4bc sha256:571b5856813ab0a51b001217b6ccb774e454f079d59e6cbf1c92b544b6c7267c
+-  __TEXT.__auth_stubs: 0xd0 sha256:db5634ee6966e1e5f227cfb9546e3b8c048a4986a8411e6efd14916a3cb5d7fe
++  __TEXT.__text: 0x4bc sha256:84045c276a94d2eb6c47760a0660c06907988c0241360290455058dcb030944a
+   __TEXT.__cstring: 0x39d sha256:d71c59a1b5248ccf262b81b62953b7d3066097679e3cce28720e76e466c9385d
+   __TEXT.__oslogstring: 0x13f sha256:7032bf3e35a8926f1aa1406a1af01f6d8ec71090ae8b147db60c090ac3550ca5
+-  __TEXT.__unwind_info: 0x70 sha256:70b6f1f0bd7dbd096edb11550aca448eed0ef8ab42fab2c5f0248364d7765d59
+-  __DATA_CONST.__got: 0x10 sha256:374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb
+-  __DATA_CONST.__const: 0xb0 sha256:b3e1ad0c99b73c90dfd132b336ae46a654dd81d4fd45b5bb95f11a6e81231dc8
++  __TEXT.__unwind_info: 0x70 sha256:107558273ed9063b8ba922c7de4d942b18e1661d958aca8d55b7a26a9dc9f5ea
 +  __TEXT.__auth_stubs: 0x0
-   __DATA_CONST.__const: 0xb0
-   __DATA_CONST.__objc_imageinfo: 0x8
--  __AUTH_CONST.__auth_got: 0x68
++  __DATA_CONST.__const: 0xb0 sha256:545a4d3ce007efa106c173ad29f9a5f1ddd74a64e1da4aded1cc8d2bd16e4bd0
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __AUTH_CONST.__auth_got: 0x68 sha256:39f37f8d1931b3bdf767e7510dd69509fbf23af1f7654933d0a4d291cbdd4418
+-  __AUTH_CONST.__const: 0x20 sha256:6d90988252152c2d85eebc0a539d9ef821dac5256c5e4c80c90428f04a9d0b40
 +  __DATA_CONST.__got: 0x0
-   __AUTH_CONST.__const: 0x20
++  __AUTH_CONST.__const: 0x20 sha256:13b33216526bf49f3e7d7656c8f3b837d7dc4c41ff21a6e63cfa357a95bb265a
 +  __AUTH_CONST.__auth_got: 0x0
-   __DATA_DIRTY.__common: 0x18
-   __DATA_DIRTY.__bss: 0x8
+   __DATA_DIRTY.__common: 0x18 sha256:9d908ecfb6b256def8b49a7c504e6c889c4b0e41fe6ce3e01863dd7b61a20aa0
+   __DATA_DIRTY.__bss: 0x8 sha256:af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc
    - /System/Library/Frameworks/Foundation.framework/Foundation
    - /usr/lib/libSystem.B.dylib
 -  UUID: F951860C-3220-3F5D-8EAA-BDEA5BF000C1
@@ -27,5 +31,26 @@
    Functions: 20
    Symbols:   74
    CStrings:  33
+Functions:
+~ _btaLock : sha256 66be3771594910f2d9d7e0ed136d27528f0b8c696d49829155cb7347b037a9ca -> 39b1b6652f09ee0ea0f9e4e9f95ee8ee39b9ab589e1553542f858a61cab65eb6
+~ ___btaLock_block_invoke : sha256 d18ed4f17f78d444a254e22070130ad49e2061e8d4570a8a6c08030f3c68847a -> ad6bb81bd38b095d05fee48aa06dfe04637324233b23f56f0a644e0600a36940
+~ _btaUnlock : sha256 d0d3e789f861812dc8522015b19dfedb1756f99bce456a22133d79a8bad98f79 -> 7fe35ccf8cac9f428e09046bfb2b29126bec8362338a82fa80ec63aa1090addd
+~ _BackgroundTaskAgentInit : sha256 21679d33d7f642c1ce24e293812810a1f86ecad1c393ebbc67aa04c7ad4c02de -> 0781027c50c0305c54037851ab3ade9df1eaa9342b7327b1600493bc862b0f58
+~ _BackgroundTaskAgentAddJob : sha256 76d2ceba2d8df6cf511a29e2b7ea2438ceb3b924efa16cfd799e516b02ca669a -> 48b21b2b2af9faadacc542e7760a876ccebe8a51dfd77c2c17bb9fdfbc9fdc00
+~ _BackgroundTaskAgentRemoveJob : sha256 8d915aa4b1da592599c2b51714d8e6635f3d012cb12afb0f38f67a502c8fe696 -> 13385f45737c2ce38264349d683a337337769a629e059110b71ca63e1048bbd3
+~ _BackgroundTaskAgentCopyJob : sha256 7b9a2fcb089088d370fcbe581175f80c00b3983af9ff83e0c905bc9895c62e7d -> 8597c0cbf86f585b554d700cb9b8927a20f0238c497782077378391356fb85c5
+~ _OUTLINED_FUNCTION_0 : sha256 8523aff4bae768e927391cfd79fe1c994bd44f29127ee9e94dcf03d37262c762 -> 390ddd353759f2c03c9ac97cb381e9f9239e8c198fd9d814ffe6371c1b6a4df5
+~ _OUTLINED_FUNCTION_1 : sha256 ad57248930ea404ba2296b995535cfd5fee898aea02a4f46cfd0c3fbaf54a16e -> d76d003f4ea57085acd754d89dc26a14a7cdd69bc6d4fcd8e58f21dbf58414e2
+~ _OUTLINED_FUNCTION_2 : sha256 e1cb9887596ffe5a4485124441144338a6430ee3bf0c6a03f165fb20557eb244 -> 40d80618a00f76c4707ae7ea2c02e88f1dacb96255fd6bd5cb399bb18472866c
+~ _btaLock.cold.1 : sha256 6258b7acda8b6fb427bf509085ccb10326e377bc0709ce1f408fd15ba9f1fb43 -> 17bc3498a325541e2759ebc79254fa32fd9cd7be38bbb2db915dbc2742f5e0f0
+~ _BackgroundTaskAgentInit.cold.1 : sha256 f9ddc2f4310bceeb207400e5657f99b1ef9310539d8e4580d4ddcc9767e31e64 -> eaea720447bab42e3c4fa98a2888894255ca4deef3f3687204d0220bb8cd5809
+~ _BackgroundTaskAgentAddJob.cold.1 : sha256 f911dd7cff075f7a1b12b55f8dbafb6b6e2df4c0bd4e9d06eac1b18f05bafbbb -> a40535fca2fdf5f431b9dc835c01ea01ff1e20a9ba9c3a080ec3954363c16fd0
+~ _BackgroundTaskAgentAddJob.cold.2 : sha256 2e1c6a63cfb9ec22ec2d89e9ca7df42d19ca387864ff20acdb47313108fa3ae9 -> f6dee044d39ee790bb327ddb2ceac5bf6b9170e5d76d6e96a9b38650cf5da996
+~ _BackgroundTaskAgentAddJob.cold.3 : sha256 bb910a95d1d1dad44ca48912d674a27f65a0a634b7767fcbd9df2c95309b2a5f -> 5cc0327b20764b0543614a8c5f54cb3fc9a97eea7a9f17b83ed4010028087daa
+~ _BackgroundTaskAgentRemoveJob.cold.1 : sha256 3b34166101cac7d18afab832d6a0292db3e32c041cf985507e90b3e6e49bf709 -> 8a296e3367358eab5c0bca2ebf86d3a65089f63bd536c5b43430a1bdf5227158
+~ _BackgroundTaskAgentRemoveJob.cold.2 : sha256 e0696110b01ec0719602bafa316d4a35f7f565ef411bd909da547c3e854f1517 -> b2b880f43a5fac5ba65eaee90d71e5f6533840fd21ea7ea581869899d9903d47
+~ _BackgroundTaskAgentRemoveJob.cold.3 : sha256 e61c44c0fc114af2a691d0fd0a74eaa8177b1e89b2ee00127a31d89cb09890fe -> 516e7d52787c15353c68716857165803d2d1a54166bdba02a6c18bbf18f32190
+~ _BackgroundTaskAgentCopyJob.cold.1 : sha256 ebe0a1b236a8aea07b0c221cd89b6686d2a7a1fbd37c2584c1d0b82ae65b9c65 -> 2937a71af79ad9bb398856fd6414744ecad7f2e21d30ca77172fe494a45a91f3
+~ _BackgroundTaskAgentCopyJob.cold.2 : sha256 6e9c9b56caa60e722b1f12bf7a2f64e868039776f0dc65db1c4acbe51463871e -> 0b64c4ff61668c842816c72e16e1952434a4e13071a413f42c7faa2783f12bb3
 
 ```

@@ -1,0 +1,53 @@
+## Hearing
+
+> `FileSystem/System/Library/PrivateFrameworks/SensorKitUI.framework/AuthGroups/Hearing.bundle/InfoPlist.loctable`
+
+```diff
+
+ en.Accessibility Settings = "Accessibility Settings"
++en.Adaptive Audio Strength = "Adaptive Audio Strength"
++en.Adjust Media Enabled = "Adjust Media Enabled"
++en.Adjust Voice Enabled = "Adjust Voice Enabled"
++en.Ambient Noise Reduction = "Ambient Noise Reduction"
+ en.Audio Exposure Sample Lifetime = "Audio Exposure Sample Lifetime"
+ en.BGEnabled = "Enabled"
+ en.Background Sounds = "Background Sounds"
+-en.COLLECTED_DATA = "Audio preferences such as accessibility and music settings."
++en.COLLECTED_DATA_0 = "Audio preferences such as accessibility and music settings."
++en.COLLECTED_DATA_1 = "General information about your headphone settings."
++en.Conversation Awareness Enabled = "Conversation Awareness Enabled"
++en.Conversation Boost Enabled = "Conversation Boost Enabled"
+ en.Environmental Sound Measurement Enabled = "Environmental Sound Measurement Enabled"
+ en.HAEnabled = "HAEnabled"
+ en.Headphone Accommodations = "Headphone Accommodations"
+ en.Headphone Safety Audio Level = "Headphone Safety Audio Level"
++en.Hearing Aid Amplification = "Hearing Aid Amplification"
++en.Hearing Aid Balance = "Hearing Aid Balance"
++en.Hearing Aid Enabled = "Hearing Aid Enabled"
++en.Hearing Aid Tone = "Hearing Aid Tone"
++en.Hearing Assistance = "Hearing Assistance"
++en.Hearing Protection Enabled = "Hearing Protection Enabled"
+ en.Late Night Mode Enabled = "Late Night Mode Enabled"
+ en.Left Right Balance = "Left Right Balance"
++en.Listening Mode = "Listening Mode"
++en.Media Assist Enabled = "Media Assist Enabled"
+ en.Media Enhance Application = "Media Enhance Application"
+ en.Media Enhance Boosting = "Media Enhance Boosting"
+ en.Media Enhance Tuning = "Media Enhance Tuning"
+ en.Mono Audio Enabled = "Mono Audio Enabled"
+ en.Music Settings = "Music Settings"
+-en.NOT_COLLECTED_DATA = "Any samples of headphone or device audio, including environment and voice sounds."
++en.NOT_COLLECTED_DATA = "Any samples of headphone or device audio, such as environmental and voice sounds."
++en.Personalized Spatial Audio Enabled = "Personalized Spatial Audio Enabled"
++en.Personalized Volume Enabled = "Personalized Volume Enabled"
+ en.Play With Media Enabled = "Play With Media Enabled"
+ en.REQUIRED_AUTH_ALERT_DETAIL = "%@ requires %@ data in order for you to enroll in this study."
+ en.REQUIRED_AUTH_REVOKE_ALERT_DETAIL = "Turning off %@ data will end your contributions to this study."
+
+ en.SRDisplayName = "Hearing \u0026 Audio Settings"
+ en.Sound Check Enabled = "Sound Check Enabled"
+ en.Sound Name = "Sound Name"
++en.Spatial Audio Enabled = "Spatial Audio Enabled"
+ en.Stop On Lock Enabled = "Stop On Lock Enabled"
+
+```

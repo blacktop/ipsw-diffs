@@ -1,0 +1,30 @@
+## NanoPassKitUI
+
+> `FileSystem/System/Library/PrivateFrameworks/NanoPassKitUI.framework/PeerPayment.loctable`
+
+```diff
+
+-en.FDIC_SIGNAGE_VERIFY_ON_YOUR_IPHONE = "Verify identity on your iPhone."
+ en.PEER_PAYMENT_BALANCE_LABEL_FORMAT = "BALANCE: %@"
+ en.PEER_PAYMENT_BUBBLE_ACCEPTING_TEXT = "Accepting…"
+ en.PEER_PAYMENT_BUBBLE_ACCEPT_BUTTON_TEXT = "Accept"
+
+ en.PEER_PAYMENT_BUBBLE_CANCELLED_TEXT = "Canceled"
+ en.PEER_PAYMENT_BUBBLE_EXPIRED_TEXT = "Expired"
+ en.PEER_PAYMENT_BUBBLE_FAILED_TEXT = "Failed"
+-en.PEER_PAYMENT_BUBBLE_GROUP_REQUEST_FOR = "Pay %@"
+ en.PEER_PAYMENT_BUBBLE_GROUP_REQUEST_WHISPER = "Per Person"
+ en.PEER_PAYMENT_BUBBLE_PAY_BUTTON_TEXT = "Pay"
+ en.PEER_PAYMENT_BUBBLE_PENDING_TEXT = "Pending…"
+
+ en.PEER_PAYMENT_BUBBLE_REJECTING_BUTTON_TEXT = "Rejecting…"
+ en.PEER_PAYMENT_BUBBLE_REJECT_BUTTON_TEXT = "Reject"
+ en.PEER_PAYMENT_BUBBLE_REQUEST_FOR = "%@ Request"
++en.PEER_PAYMENT_BUBBLE_REQUEST_WITHOUT_AMOUNT_EMAIL = "Pay %@"
++en.PEER_PAYMENT_BUBBLE_REQUEST_WITHOUT_AMOUNT_NAME = "Pay %@"
++en.PEER_PAYMENT_BUBBLE_REQUEST_WITHOUT_AMOUNT_PHONE = "Pay %@"
+ en.PEER_PAYMENT_CANCEL_ACTION_TITLE = "Cancel"
+ en.PEER_PAYMENT_CONFIRM_RISK_LEVEL_ACTION_CONTINUE = "Send Anyway"
+ en.PEER_PAYMENT_CONFIRM_RISK_LEVEL_MESSAGE = "This request has been flagged as suspicious and may be a scam. If you send money, it will not be refunded and transactions cannot be reversed."
+
+```

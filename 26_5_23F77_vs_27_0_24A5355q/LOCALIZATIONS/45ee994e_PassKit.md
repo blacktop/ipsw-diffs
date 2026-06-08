@@ -1,0 +1,37 @@
+## PassKit
+
+> `FileSystem/System/Library/Frameworks/PassKit.framework/RemoteNetworkPaymentHost_Localizable.loctable`
+
+```text
+en.CLIENT_PAIRING_NOTIFICATION_DISBURSEMENT_MESSAGE_IPAD = "Use your iPad to confirm this Apple Pay transfer on %@."
+en.CLIENT_PAIRING_NOTIFICATION_DISBURSEMENT_MESSAGE_IPHONE = "Use your iPhone to confirm this Apple Pay transfer on %@."
+en.CLIENT_PAIRING_NOTIFICATION_DISBURSEMENT_TITLE = "Confirm Transfer"
+en.CLIENT_PAIRING_NOTIFICATION_MESSAGE_IPAD = "Use your iPad to confirm this Apple Pay purchase on %@."
+en.CLIENT_PAIRING_NOTIFICATION_MESSAGE_IPHONE = "Use your iPhone to confirm this Apple Pay purchase on %@."
+en.CLIENT_PAIRING_NOTIFICATION_TITLE = "Confirm Purchase"
+en.HOST_ADD_PAYMENT_CARD_BUTTON = "Add new payment card"
+en.HOST_HANDOFF_CONTINUE_PAYMENT_MESSAGE = "Use your iPhone to pay or add a payment method on this iPad."
+en.HOST_HANDOFF_CONTINUE_PAYMENT_TITLE_IPHONE = "Continue on iPhone"
+en.HOST_HANDOFF_MERCHANT_TERMINAL_MODE_CONNECTED_MESSAGE = "Customer is paying with their device."
+en.HOST_HANDOFF_MERCHANT_TERMINAL_MODE_CONNECTED_TITLE = "Paying with Apple Pay"
+en.HOST_HANDOFF_MERCHANT_TERMINAL_MODE_PAIRING_MESSAGE = "Customer is viewing payment options on their device."
+en.HOST_HANDOFF_MERCHANT_TERMINAL_MODE_PAIRING_TITLE = "Choosing Payment Method"
+en.HOST_NO_INTERNET_CONNECTION_MESSAGE = "Check your internet connection and try again."
+en.HOST_NO_INTERNET_CONNECTION_TITLE = "No Internet Connection"
+en.HOST_PAIRING_COMPANION_DEVICE_DISBURSEMENT_MESSAGE = "Confirm Apple Pay transfer details on your iPhone or iPad."
+en.HOST_PAIRING_COMPANION_DEVICE_DISBURSEMENT_MESSAGE_IPAD = "Confirm Apple Pay transfer details on your iPad."
+en.HOST_PAIRING_COMPANION_DEVICE_DISBURSEMENT_MESSAGE_IPHONE = "Confirm Apple Pay transfer details on your iPhone."
+en.HOST_PAIRING_COMPANION_DEVICE_DISBURSEMENT_MESSAGE_NAMED_DEVICE = "Confirm Apple Pay transfer details on %@."
+en.HOST_PAIRING_COMPANION_DEVICE_MESSAGE = "Confirm Apple Pay purchase details on your iPhone or iPad."
+en.HOST_PAIRING_COMPANION_DEVICE_MESSAGE_IPAD = "Confirm Apple Pay purchase details on your iPad."
+en.HOST_PAIRING_COMPANION_DEVICE_MESSAGE_IPHONE = "Confirm Apple Pay purchase details on your iPhone."
+en.HOST_PAIRING_COMPANION_DEVICE_MESSAGE_NAMED_DEVICE = "Confirm Apple Pay purchase details on %@."
+en.HOST_PAIRING_COMPANION_DEVICE_TITLE = "Continue on Apple Device"
+en.HOST_PAIRING_COMPANION_DEVICE_TITLE_IPAD = "Continue on iPad"
+en.HOST_PAIRING_COMPANION_DEVICE_TITLE_IPHONE = "Continue on iPhone"
+en.HOST_PAIRING_SCAN_CODE_DISBURSEMENT_MESSAGE = "Use the Camera app to continue your Apple Pay transfer on your iPhone."
+en.HOST_PAIRING_SCAN_CODE_DISBURSEMENT_MESSAGE_WITH_VERSION = "Use the Camera app to continue your Apple Pay transfer on your iPhone. Requires %@ or later."
+en.HOST_PAIRING_SCAN_CODE_MESSAGE = "Use the Camera app to continue your Apple Pay purchase on your iPhone."
+en.HOST_PAIRING_SCAN_CODE_MESSAGE_WITH_VERSION = "Use the Camera app to continue your Apple Pay purchase on your iPhone. Requires %@ or later."
+en.HOST_PAIRING_SCAN_CODE_TITLE = "Scan Code with iPhone"
+```

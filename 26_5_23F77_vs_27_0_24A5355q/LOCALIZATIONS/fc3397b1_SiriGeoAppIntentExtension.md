@@ -1,0 +1,38 @@
+## SiriGeoAppIntentExtension
+
+> `FileSystem/System/Library/ExtensionKit/Extensions/SiriGeoAppIntentExtension.appex/Localizable.loctable`
+
+```text
+en.Give me ${transportationType} directions from ${origin} to ${destinations} = "Give me ${transportationType} directions from ${origin} to ${destinations}"
+en.Operating Hours = "Operating Hours"
+en.Operating Time Range = "Operating Time Range"
+en.PlaceholderSubtitle = "PlaceholderSubtitle"
+en.Rating = "Rating"
+en.Rating Descriptor = "Rating Descriptor"
+en.Rating Entity = "Rating Entity"
+en.SiriGeoAppIntent = "SiriGeoAppIntent"
+en.Source = "Source"
+en.Start Navigation for Third Party Apps = "Start Navigation for Third Party Apps"
+en.get.elevation.intent.title = "Get Elevation"
+en.navigation.preferences.case.avoid.busy.roads = "Avoid Busy Roads"
+en.navigation.preferences.case.avoid.highways = "Avoid Highways"
+en.navigation.preferences.case.avoid.hills = "Avoid Hills"
+en.navigation.preferences.case.avoid.stairs = "Avoid Stairs"
+en.navigation.preferences.case.avoid.tolls = "Avoid Tolls"
+en.operating.status.case.normal.hours = "Normal Hours"
+en.operating.status.case.permanently.closed = "Permanently Closed"
+en.operating.status.case.temporarily.closed = "Temporarily Closed"
+en.place.entity.name = "Name"
+en.place.entity.place = "Place"
+en.price.range.case.expensive = "Expensive"
+en.price.range.case.high.expensive = "Highly Expensive"
+en.price.range.case.inexpensive = "Inexpensive"
+en.price.range.case.moderate.expensive = "Moderately Expensive"
+en.rating.descriptor.case.outOfFive = "Out of Five"
+en.rating.descriptor.case.percentage = "Percentage"
+en.third.party.start.navigation.intent.dialog = "Getting Directions"
+en.transportation.type.case.cycling = "Cycling"
+en.transportation.type.case.driving = "Driving"
+en.transportation.type.case.transit = "Transit"
+en.transportation.type.case.walking = "Walking"
+```

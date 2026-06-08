@@ -5,27 +5,27 @@
 ```diff
 
 -2155.122.1.0.0
--  __TEXT.__text: 0x320
--  __TEXT.__auth_stubs: 0xc0
--  __TEXT.__cstring: 0x135
--  __TEXT.__oslogstring: 0xa8
--  __TEXT.__unwind_info: 0x68
--  __DATA.__auth_got: 0x60
--  __DATA.__got: 0x10
+-  __TEXT.__text: 0x320 sha256:02796fc8bba792c161a12576716fb0f2faf19a18af28f2d2aeab95cae0f54fbe
+-  __TEXT.__auth_stubs: 0xc0 sha256:d46961262b49bb42218c034f932aeadac2944b31d3370b7ab48e454c51976078
+-  __TEXT.__cstring: 0x135 sha256:d63025aeb0ca70d348c8ea9f5b5396b80a1f79eb28516e36876ec17a7f1d0660
+-  __TEXT.__oslogstring: 0xa8 sha256:4e3808c571c582795711dcb0a0b5134fe72e6733125dc62931d10c072d314854
+-  __TEXT.__unwind_info: 0x68 sha256:a0399c8466825249a00a69d22502717a2672e436b451af81c94d1fcea00d7c0e
+-  __DATA.__auth_got: 0x60 sha256:75443b2d7eb304af704e135ce779b1582e40b4e112f49dba1aedc8490c781a2a
+-  __DATA.__got: 0x10 sha256:40cb96e58e665ad64a2cf8f5ec089104d0e2d98f344bfd9e55d74bd7c0b96392
 +2369.0.0.0.7
-+  __TEXT.__text: 0x1684
-+  __TEXT.__auth_stubs: 0x250
-+  __TEXT.__const: 0xd8
-+  __TEXT.__cstring: 0x3a4
-+  __TEXT.__oslogstring: 0x17c
-+  __TEXT.__unwind_info: 0xe0
-+  __DATA.__const: 0xa8
-+  __DATA.__data: 0x4
-+  __DATA.__auth_got: 0x128
-+  __DATA.__got: 0x28
-+  __DATA.__auth_ptr: 0x8
-+  __DATA.__common: 0x8
-+  __DATA.__bss: 0x50
++  __TEXT.__text: 0x1684 sha256:1f34b2115954ff8ac24df73b1bbf2a9a8ef6a816c246fa8f919e06ab5097fdc2
++  __TEXT.__auth_stubs: 0x250 sha256:e2a0737aa6b78281f5e39538457147b6623a590de5bbdccaa79fce403c26fbb6
++  __TEXT.__const: 0xd8 sha256:90bc5ac964755c2815ff10cbcbf61653cf68264208c955e4ad551f86478880f0
++  __TEXT.__cstring: 0x3a4 sha256:61ee01baa40e97cb2ff0b55ab67132985db982f90442153179c012619eed4d55
++  __TEXT.__oslogstring: 0x17c sha256:0c144cb52db40f56548d5ace454a01d10f476b7faa8a25386553f9c35da4265b
++  __TEXT.__unwind_info: 0xe0 sha256:fcda00669ad74bf427f8262151e6a07469a61435f0db680894b5047d29641647
++  __DATA.__const: 0xa8 sha256:88023623fb18c71140bc916139e5ea04829956b2ed21156cbe735c6e5060268d
++  __DATA.__data: 0x4 sha256:ad95131bc0b799c0b1af477fb14fcf26a6a9f76079e48bf090acb7e8367bfd0e
++  __DATA.__auth_got: 0x128 sha256:92b159f863c99d81135dedd2f73bbcc47ce3b354b3c12bf745f21160f657d794
++  __DATA.__got: 0x28 sha256:d4e59ab65e31e49ede043585045ba9e443a29dfaf2bc6e5470adeb552a3ae2b8
++  __DATA.__auth_ptr: 0x8 sha256:3c434e043460eb153fb9d083737226365344d20461c45db225446b0e64e9ca79
++  __DATA.__common: 0x8 sha256:af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc
++  __DATA.__bss: 0x50 sha256:5b6fb58e61fa475939767d68a446f97f1bff02c0e5935a3ea8bb51e6515783d8
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/IOKit.framework/Versions/A/IOKit
 +  - /System/Library/PrivateFrameworks/CoreAnalytics.framework/CoreAnalytics

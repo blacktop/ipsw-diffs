@@ -7,12 +7,14 @@
 -515.29.0.0.0
 +531.2.1.0.0
    __TEXT.__text: 0x0
-   __TEXT.__const: 0x6
--  __DATA_CONST.__const: 0x98
-+  __DATA_CONST.__const: 0x88
-   __DATA_CONST.__objc_imageinfo: 0x8
-   __DATA.__common: 0x1
+   __TEXT.__const: 0x6 sha256:45673cfcd9849e761a24b07d99f5c35167c343244c160b973b55a29408d9d988
+-  __DATA_CONST.__const: 0x98 sha256:85ada57e1f601e962d705f389285adb4e74f450bc00672240dfef7399d82457f
+-  __DATA_CONST.__objc_imageinfo: 0x8 sha256:8c2e86a3d61473a17440ee60441113a7d285704a3b70278f03e88b3c356a5493
++  __DATA_CONST.__const: 0x88 sha256:b707241545a346265aab1ffb32ff64b55bf8f8dc1b56a46ef33ce3d15db11d33
++  __DATA_CONST.__objc_imageinfo: 0x8 sha256:ce857dcadc2529f941104469975d60698ea3610a86c121e7b4aee224cd0c59ea
+   __DATA.__common: 0x1 sha256:6e340b9cffb37a989ca544e6bb780a2c78901d3fb33738768511a30617afa01d
    - /System/Library/Frameworks/CarPlay.framework/CarPlay
+   - /System/Library/Frameworks/Foundation.framework/Foundation
 
    - /usr/lib/swift/libswiftCoreFoundation.dylib
    - /usr/lib/swift/libswiftCoreImage.dylib

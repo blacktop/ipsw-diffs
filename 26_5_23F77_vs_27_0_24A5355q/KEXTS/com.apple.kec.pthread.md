@@ -6,24 +6,26 @@
 
 -539.100.4.0.0
 +553.0.0.0.0
-   __TEXT.__const: 0x40
-   __TEXT.__cstring: 0x72d
--  __TEXT_EXEC.__text: 0x5c00
-+  __TEXT_EXEC.__text: 0x658c
+   __TEXT.__const: 0x40 sha256:653b95902c56168eb5d11cee69cfc7f0bd5e92194b09e216277b9dcc3917b6a3
+   __TEXT.__cstring: 0x72d sha256:7d8ccfb8101d1b0ce701e4a491856d1fbcd49d78221673a24272c5a031975bc9
+-  __TEXT_EXEC.__text: 0x5c00 sha256:e929e256d6c1c3a5dc5f043cf6c7db29165bed3c82c05aff769a5174661ac9cc
++  __TEXT_EXEC.__text: 0x658c sha256:c7e3fbcab168216f25cc8582be61b572f0935ccfa2ba487b1a2820c2ad185852
    __TEXT_EXEC.__auth_stubs: 0x0
--  __DATA.__data: 0x12c
-+  __DATA.__data: 0x154
-   __DATA.__bss: 0x21
-   __DATA.__common: 0x30
--  __DATA_CONST.__auth_got: 0x1b0
--  __DATA_CONST.__got: 0x10
-   __DATA_CONST.__const: 0x3f8
-+  __DATA_CONST.__weak_got: 0x10
-   __DATA_CONST.__kalloc_type: 0x80
+-  __DATA.__data: 0x12c sha256:7a950d6f41f5e21efd944b8ec8c07f42c85c7a47d3a408892de9a8affa4774f8
++  __DATA.__data: 0x154 sha256:768e92cd741ebd82c253c2cb42706f613a3af8927ef28c89a2a78c0a15e5697b
+   __DATA.__bss: 0x21 sha256:7f9c9e31ac8256ca2f258583df262dbc7d6f68f2a03043d5c99a4ae5a7396ce9
+   __DATA.__common: 0x30 sha256:17b0761f87b081d5cf10757ccc89f12be355c70e2e29df288b65b30710dcbcd1
+-  __DATA_CONST.__auth_got: 0x1b0 sha256:4f9d4af966d6354a27443115cdcbd8053c7f89c9e7c5576c849ab572d7aed167
+-  __DATA_CONST.__got: 0x10 sha256:815fcee37301b887b37f3d9a9e51b99ba4ef26b0c6f80be51d4a5fd94dbdeab4
+-  __DATA_CONST.__const: 0x3f8 sha256:f06449710c99f8c32fdd24df009a31626740ff79774c4de5d78a20ab40b1ccdf
+-  __DATA_CONST.__kalloc_type: 0x80 sha256:7d09dc4b71bfb44511884220c36c6d547423872d0c9eeee4a911dba13b035349
 -  UUID: 4D2B56EC-3471-367C-8F73-15FC837DDE43
 -  Functions: 60
-+  __DATA_CONST.__auth_got: 0x1b8
-+  __DATA_CONST.__got: 0x10
++  __DATA_CONST.__const: 0x3f8 sha256:968942d7b3b7fe0a175212337e2d579e00238f021849fcd6db71e3519175fdec
++  __DATA_CONST.__weak_got: 0x10 sha256:0ac5b4620d73cb68f2b740e8200c0f118d919fac9aad41b8ccc9f8830d5df60b
++  __DATA_CONST.__kalloc_type: 0x80 sha256:dcbd1211acbf8c66b3e092943655147cddf3023294e55114d557e10f35c26431
++  __DATA_CONST.__auth_got: 0x1b8 sha256:6f81cda5b0fa912d082685abd5176a11b069da1993eb5294c635dce18069114c
++  __DATA_CONST.__got: 0x10 sha256:b3bed9c2d4ae457e0b92a98b59a7b3826f02171289698b390eef669f09228c03
 +  UUID: EAF6EAFF-47B0-3195-8FCD-99C6B049BA10
 +  Functions: 97
    Symbols:   0

@@ -5,38 +5,40 @@
 ```diff
 
 -1418.1.0.0.0
--  __TEXT.__text: 0x31c78
--  __TEXT.__auth_stubs: 0xc90
+-  __TEXT.__text: 0x31c78 sha256:7e3b597a7a84f1b6368a150b3dd0bc19ded955db762ee219b30871f0fce1bc9b
+-  __TEXT.__auth_stubs: 0xc90 sha256:bfb741d17f7a09f7fe28e422e4388cee5a699002e2875e7ba5f882ab762f8c63
+-  __TEXT.__init_offsets: 0x3c sha256:675b3444e3654a915f794c2b0f677e8963c6538429cc1f8bde39fde22b68076e
+-  __TEXT.__const: 0x225d sha256:601fe7c697e3df67ba4d1db1d3e6d46d31a6197eb69674366af20e55b1e99595
+-  __TEXT.__gcc_except_tab: 0x2794 sha256:5c57f6f148744280f03eee360dd15f5fa80cac05f06aa35436d72fa3b7166a76
+-  __TEXT.__cstring: 0x9ca sha256:3b184c755075b5ab4aae1bd1af29c3a396a7de5f66c54380fd441ba50f35aa28
+-  __TEXT.__oslogstring: 0x2b18 sha256:90a049308478cae4ab6c24023d9105dc74cf9cb08d7f6ca5f62ad11302a9c5aa
+-  __TEXT.__unwind_info: 0x1108 sha256:5bd4dbe0d0ff1549cb0bff5863c3228a2d6c71d2ee83a76329f366946f78cb6d
+-  __DATA_CONST.__got: 0x148 sha256:43a7f135724804f7c16409f284bedb840a6173479bbf7f6d91d4b0fcae3d83c5
+-  __DATA_CONST.__const: 0x5b0 sha256:78f66be09e38530582cde68613fae6c154ca64930b1d619c0f276dbcf040e2b8
+-  __AUTH_CONST.__auth_got: 0x650 sha256:5c3d773719d4f547f3bba0109bc143a2ce2e9b4c23d907d010265963426acc1c
+-  __AUTH_CONST.__const: 0x2100 sha256:bebd9a1b526d9a4b5edbd782bd0274a53a0f6994a472886783cfff63262605a5
+-  __AUTH_CONST.__cfstring: 0x20 sha256:ee6d3117988aa4b0739147b1d337aecb46be7495fb2d17400749ee54e12d383f
 +1563.0.0.0.0
-+  __TEXT.__text: 0x34794
-   __TEXT.__init_offsets: 0x3c
--  __TEXT.__const: 0x225d
--  __TEXT.__gcc_except_tab: 0x2794
--  __TEXT.__cstring: 0x9ca
--  __TEXT.__oslogstring: 0x2b18
--  __TEXT.__unwind_info: 0x1108
--  __DATA_CONST.__got: 0x148
--  __DATA_CONST.__const: 0x5b0
--  __AUTH_CONST.__auth_got: 0x650
--  __AUTH_CONST.__const: 0x2100
-+  __TEXT.__const: 0x2158
-+  __TEXT.__gcc_except_tab: 0x240c
-+  __TEXT.__cstring: 0xa20
-+  __TEXT.__oslogstring: 0x2bb0
-+  __TEXT.__unwind_info: 0x1090
++  __TEXT.__text: 0x34794 sha256:e06cc344e0c685068b77d819957a7f774edb33b58daab01d5509df9c4c051d3a
++  __TEXT.__init_offsets: 0x3c sha256:b9796541f4e06960633e44d2eb7db315a2f413abf6c90ddcf9e0c224d7521a3f
++  __TEXT.__const: 0x2158 sha256:d4a5de099a1e1b98370928c5164792f60f10163cc92d18e2ea49b78ca50eaf2d
++  __TEXT.__gcc_except_tab: 0x240c sha256:75a3d7def6df7951a0415782fe44311d7fadd0768f8c1811d042757703370855
++  __TEXT.__cstring: 0xa20 sha256:04c106dc0840b1823cdd98a06a39b10bc694f040403b415c4063194b27820e0b
++  __TEXT.__oslogstring: 0x2bb0 sha256:e6ef2e8f38661a095a8e5fd6dafbf45822c4b3437cde30e6b7cb3a7689477656
++  __TEXT.__unwind_info: 0x1090 sha256:3898b6d16abe3e2b731aecbd939b84603a29f29c1b15aadb7982a9bb424cf748
 +  __TEXT.__auth_stubs: 0x0
-+  __DATA_CONST.__const: 0x5e0
-+  __DATA_CONST.__weak_got: 0x60
++  __DATA_CONST.__const: 0x5e0 sha256:edbb109196bc4ffa94560c80001c67c78c062c12506d69d49f0f7fe825e08e85
++  __DATA_CONST.__weak_got: 0x60 sha256:be449e9726fe5f374c78985749cd883d80b2cc4cf380308907a3460acebd1e35
 +  __DATA_CONST.__got: 0x0
-+  __AUTH_CONST.__const: 0x20f0
-   __AUTH_CONST.__cfstring: 0x20
-+  __AUTH_CONST.__weak_auth_got: 0x20
++  __AUTH_CONST.__const: 0x20f0 sha256:351a849f11b9449e0dca045e102ac099e1b896de70fed07ee1901695c157f57d
++  __AUTH_CONST.__cfstring: 0x20 sha256:1169475eb2c89e05e37e211e660bc9d2910d9f263493e4e471b9f7ae875a43e2
++  __AUTH_CONST.__weak_auth_got: 0x20 sha256:933fbc1ea3c831567dfc853d70e45d918c6f4d128631d64cd4e716726587fc9c
 +  __AUTH_CONST.__auth_got: 0x0
-   __DATA.__data: 0x1d0
--  __DATA.__bss: 0xa0
-+  __DATA.__bss: 0x98
-   __DATA.__common: 0x60
-   __DATA_DIRTY.__data: 0x28
+   __DATA.__data: 0x1d0 sha256:7e9fa29c3264abf9447175378930c03b834687c945221872afb466a632533e8f
+-  __DATA.__bss: 0xa0 sha256:b393978842a0fa3d3e1470196f098f473f9678e72463cb65ec4ab5581856c2e4
++  __DATA.__bss: 0x98 sha256:85ada57e1f601e962d705f389285adb4e74f450bc00672240dfef7399d82457f
+   __DATA.__common: 0x60 sha256:2ea9ab9198d1638007400cd2c3bef1cc745b864b76011a0e1bc52180ac6452d4
+   __DATA_DIRTY.__data: 0x28 sha256:2c34ce1df23b838c5abf2a7f6437cca3d3067ed509ff25f11df6b11b582b51eb
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
 
    - /usr/lib/libTelephonyCapabilities.dylib

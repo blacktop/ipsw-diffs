@@ -4,18 +4,25 @@
 
 ```diff
 
-   __TEXT_EXEC.__auth_stubs: 0xc0
-   __DATA.__data: 0xc8
-   __DATA.__common: 0x38
--  __DATA_CONST.__auth_got: 0x60
--  __DATA_CONST.__got: 0x18
-   __DATA_CONST.__mod_init_func: 0x8
-   __DATA_CONST.__mod_term_func: 0x8
-   __DATA_CONST.__const: 0x6c8
-   __DATA_CONST.__kalloc_type: 0x40
+ 1.0.0.0.0
+   __TEXT.__cstring: 0x48 sha256:9c3db2605d118a8b92dc48ffe11f114384cb51fb9b4b1d734f09d141a30039c5
+-  __TEXT_EXEC.__text: 0xa20 sha256:64295f8f08a1669fbaeafab0ffb57bb3e4e6d918a63d008c387ecf169397364c
+-  __TEXT_EXEC.__auth_stubs: 0xc0 sha256:8efcfc730dc7671e9cbe2178c0ec395372cce5be65ad5e5c922f1937c66222a4
++  __TEXT_EXEC.__text: 0xa20 sha256:a92be20c836402f5e5f0b07e91309f1596b928002795fd430fc11f3436906ff5
++  __TEXT_EXEC.__auth_stubs: 0xc0 sha256:565f1bfafdd6f82a10635c62a1815123f9cc9a1f7de3055ded1ec16125c7f00f
+   __DATA.__data: 0xc8 sha256:2a68ba6c566b1e24c703bb7e545a66cf72cd153899f36e8bc0ddb087e127ee75
+   __DATA.__common: 0x38 sha256:d4817aa5497628e7c77e6b606107042bbba3130888c5f47a375e6179be789fbb
+-  __DATA_CONST.__auth_got: 0x60 sha256:310813b01bf9e56ee84291b65793cf0c62eb2ce847d34ba936879f5ab6b80fd2
+-  __DATA_CONST.__got: 0x18 sha256:3a621af02fa9cda893507bfa0ab49407f2ca6cb80e64359542e247c82923084e
+   __DATA_CONST.__mod_init_func: 0x8 sha256:fd8cdad76371858e8dd9426a69b66c20753a5c9eae501124663a435ebc0aa2a5
+   __DATA_CONST.__mod_term_func: 0x8 sha256:abd466286761268cd02bfcfab129f0fbaeadc8fb95e95161937a2f4a4090e68a
+-  __DATA_CONST.__const: 0x6c8 sha256:30875f509f37a396f3ad1d79ecaebbc143f03005774a3cb39e12c17aa4f913da
+-  __DATA_CONST.__kalloc_type: 0x40 sha256:5018cb42d8b46108c0baea873f5e04a5a613eaedf44dc9e943563c8241e67304
 -  UUID: 82F7252F-8891-3E30-9464-63EBF8926C0B
-+  __DATA_CONST.__auth_got: 0x60
-+  __DATA_CONST.__got: 0x18
++  __DATA_CONST.__const: 0x6c8 sha256:e4532f13bfd7f1a34cb766564de3e9d37b4bb473acbfec6ca88cfbc6fa7ae971
++  __DATA_CONST.__kalloc_type: 0x40 sha256:a25fd53655953134285f1f4fb8017e5e4c69f6df51ac2db9be469ea30c91ab5c
++  __DATA_CONST.__auth_got: 0x60 sha256:9cf7bf04b2c8995a486f902b77b643d26d7e6faf175acb93f774df6f814571af
++  __DATA_CONST.__got: 0x18 sha256:ebf884563a7a2612db06ea4bb1cd5d43909467bf62200dcad05915d5d40a09cc
 +  UUID: FFC11444-2165-3536-938B-642E57081046
    Functions: 52
    Symbols:   460
@@ -29,5 +36,19 @@ Symbols:
 - /Library/Caches/com.apple.xbs/17DDB8B8-DDB1-4801-84EC-AD3FF0DD6D81/TemporaryDirectory.FqFhut/Binaries/AppleARMPL011Driver/install/TempContent/Objects/AppleARMPL011Driver.build/AppleARMPL011Driver.build/Objects-normal/arm64e/AppleARMPL011Driver.o
 - /Library/Caches/com.apple.xbs/17DDB8B8-DDB1-4801-84EC-AD3FF0DD6D81/TemporaryDirectory.FqFhut/Binaries/AppleARMPL011Driver/install/TempContent/Objects/AppleARMPL011Driver.build/AppleARMPL011Driver.build/Objects-normal/arm64e/AppleARMPL011Driver_info.o
 - /Library/Caches/com.apple.xbs/17DDB8B8-DDB1-4801-84EC-AD3FF0DD6D81/TemporaryDirectory.FqFhut/Sources/AppleARMPL011Driver/AppleARMPL011Driver/
+Functions:
+~ __ZN19AppleARMPL011Driver9MetaClassC1Ev : sha256 d03eab5093bf322d4040ac011daa12066af0fed58c502dbf6d92d1dbbbfcde9d -> 3d752fc26e268536b766d3ef40bae6b51ea0f46819fae6395eacc20001c7f152
+~ __ZN19AppleARMPL011DriverC2EPK11OSMetaClass : sha256 18965f0004c5d91a8133fa6a7096cc39c9f609639da10ab1b648e6c0fb0f2682 -> 087918926da4a8a1a36dd09a84744cd08176a2bde294baf19a4c5532870b13b6
+~ __ZN19AppleARMPL011DriverC1EPK11OSMetaClass : sha256 1ca7c354a8ba712c1c0ed3bf38f4ce0709f028ef890b0f44a93ede6815f86ef4 -> ebe27009c19fdfad7c10166bff297f495db291b4ce03af3c51edd0a2582aa831
+~ __ZN19AppleARMPL011DriverD0Ev : sha256 995f7ac4e14bb29b6808a82d9b8d14c21cb3d9de754507755a47eec69ad32100 -> 1c3a72c3a660db8cb6f69469d83a0a8eb3fe8c6b1e040353c35714ce821218e7
+~ __ZN19AppleARMPL011DriverdlEPvm : sha256 74900879d6be08dd10dfb89d4d97e1eb1bb38319c5ac4b98c1cf2faa400e55d6 -> e8b9f4f695c2ec6245e81b7af52f5a130c285a7c15bf07d6df67137c8e29a108
+~ __ZN19AppleARMPL011Driver9MetaClassC2Ev : sha256 561b35eb48d74c2cd0890842e72056ee71e81600a87d0a9fe270d02da29744bd -> 784ad94fa7a756e58d2555d2eadbab02292a1fe9e583603e98c58bef738b3456
+~ __ZNK19AppleARMPL011Driver9MetaClass5allocEv : sha256 2c60bb83fbd424fc152e7216cc54c2578f558d126e69d05bb83541d902717b4d -> 7297baecc1de156fe7eba74b013e86887fc64cf86f3c36cbdcf9d52f462d3c18
+~ __ZN19AppleARMPL011DrivernwEm : sha256 92ec8ab60e971e95122eeeaaa0906c030d40ce44675f41ac038b7ec5095dbbad -> 608a72264898f3dc0cea8dd5835c715081d29d6d196239e98d6230c023a7cd19
+~ __ZN19AppleARMPL011DriverC1Ev : sha256 9aeb46f9bab16578a0a029c939471200a0c843919db1a345213064322c332ca1 -> 031a936cf69f2521e14e2f5469d26fcdec293e666788facc5c2551c288dbacf0
+~ __ZN19AppleARMPL011DriverC2Ev : sha256 6da5f6652448f518a27ed3f4cdfcf2af6d24bdc74273c4eb4852c48f8c5e6b38 -> ef51e2146ce5c50fcb4748cc87992a77777bc1792fbd77ead8afffd398ca01e7
+~ __ZN19AppleARMPL011Driver5startEP9IOService : sha256 6b4c46d4dcddebb496cd2c378ec3646eccdf12fc09342e7fe5fc0797818df345 -> 42a0cd9d781292f27c10128e3ecc35caa189ed40bed866c898ebc3c10c35d13d
+~ __ZN19AppleARMPL011Driver4freeEv : sha256 7d22d2dde21d2d05a8e323ca240cca4707f68aa6c153ae8dc0c9bd4ffc875360 -> 1d72b5900195044fec772b5d0794c555e5fd2e3740e6d422eaa9e85852dd2434
+~ _GLOBAL__sub_I_AppleARMPL011Driver.cpp : sha256 7de21bf43f5446e57230fc022e31c499244d185ccd060583930ecf4d47e3a7a4 -> d51340a6eb2504d6cfde75a0c73c3a718432c1780a2e4b4b4eae6ed0f5ff66ea
 
 ```

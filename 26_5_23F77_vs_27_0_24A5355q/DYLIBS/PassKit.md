@@ -7,7 +7,7 @@
 -1642.6.5.0.0
 +1677.4.0.0.0
    __TEXT.__text: 0x0
-   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
    - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
 -  - /System/Library/Frameworks/CoreServices.framework/CoreServices
    - /System/Library/Frameworks/Foundation.framework/Foundation

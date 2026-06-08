@@ -1,0 +1,36 @@
+## AuthorizationPromptService
+
+> `FileSystem/Applications/AuthorizationPromptService.app/Localizable.loctable`
+
+```text
+en.%@ (%@) = "%1$@ (%2$@)"
+en..USAGE_DESCRIPTION %@ = "%@"
+en.ACCESSIBILITY = "Accessibility"
+en.ALLOW_AUTH = "allow"
+en.ALLOW_BUTTON_TITLE = "Allow"
+en.ALWAYS_AUTH = "always"
+en.APP_EXPLAINATION = "App Explanation:"
+en.APP_NAME = "“%@”"
+en.Allow = "Allow"
+en.BLUETOOTH_ALWAYS = "Bluetooth"
+en.CAMERA = "Camera"
+en.DEFAULT_ORG_RECOMMENDED_ACCESS_FOR_APP %@ = "Organization Recommends Allowing Access for “%@” "
+en.Deny = "Deny"
+en.Key = "Key"
+en.LOCAL_NETWORK = "Local Network"
+en.LOCATION = "Location"
+en.LOCATION_ACCURACY_APPROXIMATE = "approximate"
+en.LOCATION_ACCURACY_PRECISE = "precise"
+en.MICROPHONE = "Microphone"
+en.NOT_NOW_BUTTON_TITLE = "Not Now"
+en.ORG_JUSTIFICATION %@ = "From your organization: %@"
+en.ORG_RECOMMENDED_ACCESS_FOR_APP %@ %@ = "“%@” Recommends Allowing Access for “%@” "
+en.Reject = "Reject"
+en.Remote authorization view for %@ for %@ = "Remote authorization view for %1$@ for %2$@"
+en.SERVICE_NAME_WITH_ACCURACY_AUTHORIZATION %@ %@ %@ = "%@ (%@, %@)"
+en.SERVICE_NAME_WITH_AUTHORIZATION %@ %@ = "%@ (%@)"
+en.SPEECH_DICTATION = "Speech Dictation"
+en.TITLE_PART2 = " would like permission to link your app activity with data from other companies’ apps, websites, or with offline data, for personalized advertising or to measure advertising effectiveness. The %@ may also share your information with data brokers."
+en.USER_TRACKING_LEARNMORE_BUTTON = "Additional Information"
+en.WHILE_IN_USE_AUTH = "while using app"
+```

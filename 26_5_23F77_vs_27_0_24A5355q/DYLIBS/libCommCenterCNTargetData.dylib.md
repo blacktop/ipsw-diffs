@@ -5,22 +5,25 @@
 ```diff
 
 -13187.6.0.0.0
+-  __TEXT.__text: 0x838 sha256:7996a66623c2d993e66bdee3cdde1e149954cffe45267c1e192d1d1cd1e68b81
+-  __TEXT.__auth_stubs: 0x110 sha256:9c590b2f86f68e4ce1f849b41317144cd9d598453dfa87f3880d63dd0d710ff2
+-  __TEXT.__const: 0xf0 sha256:651ba2a39d08dd9fc65a6175f525bd0a8afcb7883871703cb29347b5e29b7116
 +13466.3.0.0.0
-   __TEXT.__text: 0x838
--  __TEXT.__auth_stubs: 0x110
--  __TEXT.__const: 0xf0
-+  __TEXT.__const: 0xf8
-   __TEXT.__gcc_except_tab: 0x18
-   __TEXT.__cstring: 0x2f
-   __TEXT.__unwind_info: 0x98
--  __DATA_CONST.__got: 0x8
--  __AUTH_CONST.__auth_got: 0x90
++  __TEXT.__text: 0x838 sha256:469b352a94f47fddc591235baa5346fd196c02230c4a48b7eed551a071c5d908
++  __TEXT.__const: 0xf8 sha256:644ee79dc1af7573daae95c8e054ac3f2895ef01dfd5c2dea3096d57ea8285cb
+   __TEXT.__gcc_except_tab: 0x18 sha256:a84200567459ab4eab3df24397c66f9a4212410b3a88ba3607341095c6751ff2
+   __TEXT.__cstring: 0x2f sha256:47cc95e7a6125f93c5d1ffc7013ee3f3b71b8e9083c7cb0f0c698d77e4792865
+-  __TEXT.__unwind_info: 0x98 sha256:c0a015e02b576e89acb8db636f44c3aba23f67abfcdd454ebaecaf756acaba7f
+-  __DATA_CONST.__got: 0x8 sha256:af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc
+-  __AUTH_CONST.__auth_got: 0x90 sha256:09e9cc2c30eddddfb729240723318ac3b54ababf4c23a62ada4fcbcbb642fe14
+-  __AUTH_CONST.__const: 0xc8 sha256:ac50202e398e38219ac279213a34f7e07f6e8a72676011803cfce891684b8c7f
++  __TEXT.__unwind_info: 0x98 sha256:c8af027ab25f1000f5d0b608ce71f3aa66783cb68795f2ecfe9f08bab9d60a3f
 +  __TEXT.__auth_stubs: 0x0
 +  __DATA_CONST.__got: 0x0
-   __AUTH_CONST.__const: 0xc8
-+  __AUTH_CONST.__weak_auth_got: 0x18
++  __AUTH_CONST.__const: 0xc8 sha256:bec466c511443b4a2e3af92fbd2f410971355bcfc80aafad5cd069a2a35ac61b
++  __AUTH_CONST.__weak_auth_got: 0x18 sha256:a88ed344b2ba4c156e4cfa19ad16a39620704c415415886023acafd647426424
 +  __AUTH_CONST.__auth_got: 0x0
-   __DATA.__common: 0x20
+   __DATA.__common: 0x20 sha256:66687aadf862bd776c8fc18b8e9f8e20089714856ee233b3902a591d0d5f2925
    - /System/Library/Frameworks/CoreLocation.framework/CoreLocation
    - /System/Library/Frameworks/_LocationEssentials.framework/_LocationEssentials
    - /System/Library/PrivateFrameworks/CoreNavigation.framework/CoreNavigation
@@ -34,5 +37,16 @@
 Symbols:
 + __ZNSt3__119__shared_weak_count16__release_sharedB9foe220100Ev
 - __ZNSt3__119__shared_weak_count16__release_sharedB9nqe210106Ev
+Functions:
+~ __ZN6stewie13TargetInstant15invalidInstanceEv : sha256 c705024bf84cc57c4236a52180a0c366e5dbb1629b9af548e91c0fd39706b932 -> dbaacd21a70b4d0b1d28d4c27728073cbe1e00ca45ecdaaf4db87f5060f8cfbf
+~ _createCoreNavigationTargetData : sha256 f47623f350695573217f9dd949e2298133614ad0d8a1cbecf3072ed6e2885ceb -> 37ad5aa4f6207929043270fe401790060efe0f217f937d21d0b8df9b860f17bf
+~ __ZNSt3__120__shared_ptr_emplaceIN12_GLOBAL__N_124CoreNavigationTargetDataENS_9allocatorIS2_EEED1Ev : sha256 2c05b104a894228a093e79cac587c2c15000c4b738f483d7bfbe6a682e055950 -> 667f610b5abfa434516a756f6f0fe5733403433767011b34cd77eb15adfeb0b4
+~ __ZNSt3__120__shared_ptr_emplaceIN12_GLOBAL__N_124CoreNavigationTargetDataENS_9allocatorIS2_EEED0Ev : sha256 efbf72faa34347b34ca736faacc59cb1ef1eae2e0c723465ca7797cc31233c77 -> 15e92c753a241ebb8baab1208911c3e143fc616215ada5b9ae6e94c7a869abaf
+~ __ZNSt3__120__shared_ptr_emplaceIN12_GLOBAL__N_124CoreNavigationTargetDataENS_9allocatorIS2_EEE21__on_zero_shared_weakEv : sha256 fa01e43bb737c493ec3541c11d58a83a2f3fdb119e55d434407b1c0668e7e8db -> 87a2e71c1db800ec977e830130da4417f521fecf595ed6f85143ad5bcb56e015
+~ __ZN12_GLOBAL__N_124CoreNavigationTargetDataD1Ev : sha256 5ca47f2f878591fa0158670fc6475c85a4f5f61a698197717927673f327a2921 -> 33e9cac4bcf0f1d72e300a6548657923227dbd4f487c5fb7d95ed84ae1fa38a5
+~ __ZN12_GLOBAL__N_124CoreNavigationTargetDataD0Ev : sha256 ff87b7b58723c93c0a1650bcec6dc9112dac529cdc97afe3c4b25ce58ad7a393 -> 07c3bdbd5a40ccd4968dff968934d009f6ebdbab8b5a557465a06cdedcef8893
+~ __ZNK12_GLOBAL__N_124CoreNavigationTargetData16getTargetInstantERKN6stewie11GeoLocationEiRKNS1_6CATimeE : sha256 bb18cd3da255add41b2165ea8405eb2ad5f7ab40e28aed1b0b9b914d1cd26973 -> 7fee30714bedbc2913e6554bb37ee5f3027cad141ebeb79e3f3a1309b3eb0504
+~ __ZNSt3__119__shared_weak_count16__release_sharedB9nqe210106Ev -> __ZNSt3__119__shared_weak_count16__release_sharedB9foe220100Ev : sha256 cbfc4dc310fccdabfcb05034fc67c91de2833a7a8b0b372e0a8101dbbe278d52 -> 06bee74e081372bb4df1fd01a88ab3a890ec45ebdc229aee4e7ba3b4c8ac1257
+~ __ZNK6stewie11GeoLocation30distanceMetersIgnoringAltitudeERKS0_ : sha256 a54d72ab054c7c7a077b01734fbecf1269fd1e3de6e891baf4748fe7056ca168 -> 7caa2f985198ba10ca72a277b98d625f97c32bd6574106ed05779253ae2ae6c1
 
 ```

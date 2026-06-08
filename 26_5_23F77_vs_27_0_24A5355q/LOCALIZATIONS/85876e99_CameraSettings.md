@@ -1,0 +1,58 @@
+## CameraSettings
+
+> `FileSystem/System/Library/PreferenceBundles/CameraSettings.bundle/CameraSettings.loctable`
+
+```diff
+
+ en.CAM_PRESERVE_CREATIVE_CONTROLS_SWITCH = "Creative Controls"
+ en.CAM_PRESERVE_EXPOSURE_FOOTER = "Preserve the exposure adjustment, rather than automatically reset, and always show the exposure adjustment indicator."
+ en.CAM_PRESERVE_EXPOSURE_SWITCH = "Exposure Adjustment"
+-en.CAM_PRESERVE_LAST_OPENED_DRAWER_CONTROL_FOOTER = "Preserve the previously used camera tool when expanding the controls menu, rather than showing the list of camera tools."
+-en.CAM_PRESERVE_LAST_OPENED_DRAWER_CONTROL_SWITCH = "Controls Menu"
+ en.CAM_PRESERVE_LINEAR_DNG_FOOTER = "Preserve the Apple ProRAW setting, rather than automatically reset."
+ en.CAM_PRESERVE_LINEAR_DNG_SWITCH = "Apple ProRAW"
+ en.CAM_PRESERVE_LIVE_PHOTO_FOOTER = "Preserve the Live Photo setting, rather than automatically reset to Live Photo turned on."
+
+ en.CAM_SECONDARY_PHOTO_FORMAT_FOOTER_RAW48_JPEG_XL_LOSSY = "• 20 MB for ProRAW at 48 MP"
+ en.CAM_SHARED_LIBRARY_GROUP_HEADER = "Shared Library"
+ en.CAM_USE_60_FPS_VIDEO = "Record Video at 60 FPS"
++en.CAM_VCC_CANCEL_OPERATION = "Cancel Resize"
++en.CAM_VCC_CLOSE_BUTTON = "Close"
++en.CAM_VCC_CONFIGURE_DESCRIPTION_1 = "Set the amount of storage to reserve for video captures."
++en.CAM_VCC_CONFIGURE_DESCRIPTION_2 = "You can modify or remove Pro Video Storage at any time to reclaim space."
++en.CAM_VCC_CURRENT_CAPACITY_LEGEND = "Current Capacity"
++en.CAM_VCC_DESCRIPTION_FOOTER = "Pro Video Storage supports optimized recording of high-bandwidth video formats directly on iPhone's internal storage."
++en.CAM_VCC_ERROR_MESSAGE = "There was an issue while managing Pro Video Storage. Please try again later."
++en.CAM_VCC_ERROR_TITLE = "Pro Video Storage Error"
++en.CAM_VCC_FREE_STORAGE_LEGEND = "%@ available on iPhone"
++en.CAM_VCC_NEW_CAPACITY_LEGEND = "New Capacity"
++en.CAM_VCC_OK_BUTTON = "OK"
++en.CAM_VCC_PRORES_FORMAT_LABEL = "ProRes 4K 30 FPS"
++en.CAM_VCC_RECORDING_TIME_HOURS_MINUTES = "%dh %dm of recording"
++en.CAM_VCC_RECORDING_TIME_MINUTES = "%dm of recording"
++en.CAM_VCC_RECOVERY_ALERT_MESSAGE = "Camera Storage has encountered a problem and needs to be reset."
++en.CAM_VCC_RECOVERY_ALERT_TITLE = "Camera Storage Issue"
++en.CAM_VCC_RECOVERY_ERROR_MESSAGE = "There was a problem resetting Camera Storage, please try again later."
++en.CAM_VCC_RECOVERY_ERROR_TITLE = "Camera Storage Recovery Issue"
++en.CAM_VCC_SETTINGS_MANAGE_TITLE = "Configure Pro Video Storage"
++en.CAM_VCC_SETTINGS_TITLE = "Pro Video Storage"
++en.CAM_VCC_SET_CAPACITY_ERROR_MESSAGE = "There was an issue while modifying the capacity of Pro Video Storage. Try again with a lower capacity."
++en.CAM_VCC_STORAGE_FORMAT_GB = "%d GB"
++en.CAM_VCC_STORAGE_FORMAT_TB = "%.1f TB"
++en.CAM_VCC_UNIT_GB = "GB"
++en.CAM_VCC_UNIT_TB = "TB"
++en.CAM_VCC_UPDATE_BUTTON = "Update Pro Video Storage"
+ en.CAM_VIDEO_RECORDING_DISABLE_CAMERA_SWITCHING_FOOTER = "Do not automatically switch between cameras while recording video."
+ en.CAM_VIDEO_RECORDING_DISABLE_CAMERA_SWITCHING_TITLE = "Lock Camera"
+ en.CAM_VIDEO_RECORDING_LOCK_WHITE_BALANCE_FOOTER = "Lock white balance while recording video."
+
+ en.CAM_VIDEO_RECORDING_MIX_AUDIO_WITH_OTHERS_FOOTER = "Audio playback will not pause automatically when recording video. When playing audio using the iPhone speaker, audio will be recorded in mono."
+ en.CAM_VIDEO_RECORDING_MIX_AUDIO_WITH_OTHERS_TITLE = "Allow Audio Playback"
+ en.COMPOSITION_GROUP_TITLE = "Composition"
++en.DISABLE_BURST_TIMER_FOOTER = "Disables bursts when capturing from timer."
++en.DISABLE_BURST_TIMER_SWITCH = "Burst From Timer"
+ en.ENHANCED_JPEG_RESOLUTION_SIZE_FOOTER_12MP = "• 3 MB at 12 MP"
+ en.ENHANCED_JPEG_RESOLUTION_SIZE_FOOTER_24MP = "• 4.8 MB at 24 MP"
+ en.ENHANCED_RAW_RESOLUTION_SIZE_FOOTER = "A ProRAW file will be approximately:"
+
+```

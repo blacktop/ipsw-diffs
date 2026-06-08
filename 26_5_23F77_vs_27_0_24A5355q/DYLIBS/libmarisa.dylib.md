@@ -5,22 +5,25 @@
 ```diff
 
 -26.202.0.0.0
--  __TEXT.__text: 0xfd88
--  __TEXT.__auth_stubs: 0x210
+-  __TEXT.__text: 0xfd88 sha256:2bc6a62678f6b43982f9be179666afc88ebcdb23b082829457d76f9aa11adf17
+-  __TEXT.__auth_stubs: 0x210 sha256:148246012892274b0568747b2aab9bce1912c448b28d26c509e204a3239a6546
+-  __TEXT.__gcc_except_tab: 0x768 sha256:95d0a850491297088909939b8f2a85fc9c299c9d593b1640102b8af9af4c3782
+-  __TEXT.__cstring: 0x59e8 sha256:33bed01e523fd73aff59d690bb30066d2c2802390b6a99f3a6ef0be142f03b4e
+-  __TEXT.__const: 0x8e0 sha256:0e98ae520f4df953dc6bca01eb1843ad7a383aaae50d5e52fbb44459bd34c7ad
+-  __TEXT.__unwind_info: 0x680 sha256:292df1c512456d84c6eb8fa88ded2a765a49967f42df14246107a1a164b3584c
+-  __DATA_CONST.__got: 0x30 sha256:17b0761f87b081d5cf10757ccc89f12be355c70e2e29df288b65b30710dcbcd1
+-  __AUTH_CONST.__auth_got: 0x110 sha256:852ab310f021c276ee2898dbb39a7d7e43452c0c76141d8289f4897b3c5d8440
+-  __AUTH_CONST.__const: 0x40 sha256:7d709ad058248706e286194ccf55afccbe56197faf73d9f6f5b0779bdeffe616
 +28.0.0.0.0
-+  __TEXT.__text: 0xffb4
-   __TEXT.__gcc_except_tab: 0x768
--  __TEXT.__cstring: 0x59e8
-+  __TEXT.__cstring: 0x59eb
-   __TEXT.__const: 0x8e0
--  __TEXT.__unwind_info: 0x680
--  __DATA_CONST.__got: 0x30
--  __AUTH_CONST.__auth_got: 0x110
-+  __TEXT.__unwind_info: 0x688
++  __TEXT.__text: 0xffb4 sha256:5e67d4a59000c6312ba966df95be920354b4b2edf2469bd211177549c7ec7a2c
++  __TEXT.__gcc_except_tab: 0x768 sha256:5b1e9efc049248e9e542713734dcebb416f4802fa566c34f717d6032c35c548b
++  __TEXT.__cstring: 0x59eb sha256:742d9989bc8ac03a8d6e2bf3d734c7b18e6f9a1e453e66a6bbd844980346e60a
++  __TEXT.__const: 0x8e0 sha256:a9da3209ff75870fe385e81845cea159381f67613ea6617b5310c1c4fedd59c5
++  __TEXT.__unwind_info: 0x688 sha256:688ded0fae81ae71f7354e3c6abe5f70e6262f243d759a07121d47763e92fdc7
 +  __TEXT.__auth_stubs: 0x0
 +  __DATA_CONST.__got: 0x0
-   __AUTH_CONST.__const: 0x40
-+  __AUTH_CONST.__weak_auth_got: 0x38
++  __AUTH_CONST.__const: 0x40 sha256:010ccd17d46782cf71ac72bc939c1e1dacdc4cad3b5f5b2b5aee43c4615d0066
++  __AUTH_CONST.__weak_auth_got: 0x38 sha256:1bf45060a491ae3549b4f3d0bf721ea9b004aa9e3c624fc3e41c51ed3e57dccf
 +  __AUTH_CONST.__auth_got: 0x0
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib

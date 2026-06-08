@@ -1,0 +1,37 @@
+## SiriSetup
+
+> `FileSystem/System/Library/PrivateFrameworks/SiriSetup.framework/History.loctable`
+
+```text
+en.ASSISTANT_HISTORY_LABEL = "Siri \u0026 Dictation History"
+en.DELETE_SIRI_HISTORY = "Delete Siri \u0026 Dictation History"
+en.DELETE_SIRI_HISTORY_ACTION = "Delete Siri \u0026 Dictation History"
+en.DELETE_SIRI_HISTORY_ALERT_DISMISS = "OK"
+en.DELETE_SIRI_HISTORY_ALERT_FAILURE_MESSAGE = "Please make sure you are connected to the internet and try again."
+en.DELETE_SIRI_HISTORY_ALERT_FAILURE_TITLE = "Your Siri and Dictation History Was Unable to Be Deleted"
+en.DELETE_SIRI_HISTORY_ALERT_SHEET_CANCEL = "Cancel"
+en.DELETE_SIRI_HISTORY_ALERT_SHEET_MESSAGE.NSStringDeviceSpecificRuleType.applevision = "Siri \u0026 Dictation interactions currently associated with this Apple Vision Pro will be deleted from Apple servers."
+en.DELETE_SIRI_HISTORY_ALERT_SHEET_MESSAGE.NSStringDeviceSpecificRuleType.ipad = "Siri \u0026 Dictation interactions currently associated with this iPad will be deleted from Apple servers."
+en.DELETE_SIRI_HISTORY_ALERT_SHEET_MESSAGE.NSStringDeviceSpecificRuleType.iphone = "Siri \u0026 Dictation interactions currently associated with this iPhone will be deleted from Apple servers."
+en.DELETE_SIRI_HISTORY_ALERT_SHEET_MESSAGE.NSStringDeviceSpecificRuleType.other = "Siri \u0026 Dictation interactions currently associated with this device will be deleted from Apple servers."
+en.DELETE_SIRI_HISTORY_ALERT_SHEET_MESSAGE_RPI_ON.NSStringDeviceSpecificRuleType.applevision = "Siri \u0026 Dictation transcripts that are stored on this Apple Vision Pro and used to personalize your experience will be deleted."
+en.DELETE_SIRI_HISTORY_ALERT_SHEET_MESSAGE_RPI_ON.NSStringDeviceSpecificRuleType.ipad = "Siri \u0026 Dictation transcripts that are stored on this iPad and used to personalize your experience will be deleted."
+en.DELETE_SIRI_HISTORY_ALERT_SHEET_MESSAGE_RPI_ON.NSStringDeviceSpecificRuleType.iphone = "Siri \u0026 Dictation transcripts that are stored on this iPhone and used to personalize your experience will be deleted."
+en.DELETE_SIRI_HISTORY_ALERT_SHEET_MESSAGE_RPI_ON.NSStringDeviceSpecificRuleType.other = "Siri \u0026 Dictation transcripts that are stored on your device and used to personalize your experience will be deleted."
+en.DELETE_SIRI_HISTORY_ALERT_SUCCESS_MESSAGE = "Your Siri and Dictation history will be deleted."
+en.DELETE_SIRI_HISTORY_ALERT_SUCCESS_TITLE = "Your Request Is Being Processed"
+en.DELETE_SIRI_HISTORY_FOOTER_EXPLANATION_OPTEDIN.NSStringDeviceSpecificRuleType.applevision = "This will also delete Siri \u0026 Dictation interactions currently associated with this Apple Vision Pro from Apple servers. Data that has been sampled to help improve Siri and Dictation is no longer associated with this Apple Vision Pro and will not be deleted. "
+en.DELETE_SIRI_HISTORY_FOOTER_EXPLANATION_OPTEDIN.NSStringDeviceSpecificRuleType.ipad = "This will also delete Siri \u0026 Dictation interactions currently associated with this iPad from Apple servers. Data that has been sampled to help improve Siri and Dictation is no longer associated with this iPad and will not be deleted. "
+en.DELETE_SIRI_HISTORY_FOOTER_EXPLANATION_OPTEDIN.NSStringDeviceSpecificRuleType.iphone = "This will also delete Siri \u0026 Dictation interactions currently associated with this iPhone from Apple servers. Data that has been sampled to help improve Siri and Dictation is no longer associated with this iPhone and will not be deleted. "
+en.DELETE_SIRI_HISTORY_FOOTER_EXPLANATION_OPTEDIN.NSStringDeviceSpecificRuleType.other = "This will also delete Siri \u0026 Dictation interactions currently associated with this device from Apple servers. Data that has been sampled to help improve Siri and Dictation is no longer associated with this device and will not be deleted. "
+en.DELETE_SIRI_HISTORY_FOOTER_EXPLANATION_OPTEDOUT.NSStringDeviceSpecificRuleType.applevision = "Delete Siri \u0026 Dictation interactions currently associated with this Apple Vision Pro from Apple servers. "
+en.DELETE_SIRI_HISTORY_FOOTER_EXPLANATION_OPTEDOUT.NSStringDeviceSpecificRuleType.ipad = "Delete Siri \u0026 Dictation interactions currently associated with this iPad from Apple servers. "
+en.DELETE_SIRI_HISTORY_FOOTER_EXPLANATION_OPTEDOUT.NSStringDeviceSpecificRuleType.iphone = "Delete Siri \u0026 Dictation interactions currently associated with this iPhone from Apple servers. "
+en.DELETE_SIRI_HISTORY_FOOTER_EXPLANATION_OPTEDOUT.NSStringDeviceSpecificRuleType.other = "Delete Siri \u0026 Dictation interactions currently associated with this device from Apple servers. "
+en.DELETE_SIRI_HISTORY_FOOTER_EXPLANATION_RPI_ON.NSStringDeviceSpecificRuleType.applevision = "Delete the transcripts of your Siri \u0026 Dictation requests that are stored on this Apple Vision Pro and used to personalize your experience. "
+en.DELETE_SIRI_HISTORY_FOOTER_EXPLANATION_RPI_ON.NSStringDeviceSpecificRuleType.ipad = "Delete the transcripts of your Siri \u0026 Dictation requests that are stored on this iPad and used to personalize your experience. "
+en.DELETE_SIRI_HISTORY_FOOTER_EXPLANATION_RPI_ON.NSStringDeviceSpecificRuleType.iphone = "Delete the transcripts of your Siri \u0026 Dictation requests that are stored on this iPhone and used to personalize your experience. "
+en.DELETE_SIRI_HISTORY_FOOTER_EXPLANATION_RPI_ON.NSStringDeviceSpecificRuleType.other = "Delete the transcripts of your Siri \u0026 Dictation requests that are stored on your device and used to personalize your experience. "
+en.DELETE_SIRI_HISTORY_FOOTER_LINK = "About Improve Siri \u0026 Dictation…"
+en.SIRI_REQUESTS_ABOUT_LINK_TEXT = "About Siri \u0026 Privacy…"
+```

@@ -1,0 +1,53 @@
+## Filters
+
+> `FileSystem/System/Library/CoreImage/CIBarcode.cifilter/Filters.loctable`
+
+```diff
+
+ en.CIBarcodeGenerator.description = "Generate a barcode image from a CIBarcodeDescriptor."
+ en.CIBarcodeGenerator.inputBarcodeDescriptor = "Barcode Descriptor"
+ en.CIBarcodeGenerator.inputBarcodeDescriptor.description = "The CIBarcodeDescription object to generate an image for."
++en.CICodabarBarcodeGenerator = "Codabar Barcode Generator"
++en.CICodabarBarcodeGenerator.description = "Generate a Codabar barcode image for message data."
++en.CICodabarBarcodeGenerator.inputBarcodeHeight = "Barcode Height"
++en.CICodabarBarcodeGenerator.inputBarcodeHeight.description = "The height of the generated barcode in pixels."
++en.CICodabarBarcodeGenerator.inputMessage = "Message"
++en.CICodabarBarcodeGenerator.inputMessage.description = "The message to encode in the Codabar Barcode"
++en.CICodabarBarcodeGenerator.inputQuietSpace = "Quiet Space"
++en.CICodabarBarcodeGenerator.inputQuietSpace.description = "The number of empty white pixels that should surround the barcode."
+ en.CICode128BarcodeGenerator = "Code 128 Barcode Generator"
+ en.CICode128BarcodeGenerator.description = "Generate a Code 128 barcode image for message data."
+ en.CICode128BarcodeGenerator.inputBarcodeHeight = "Barcode Height"
+
+ en.CICode128BarcodeGenerator.inputMessage.description = "The message to encode in the Code 128 Barcode"
+ en.CICode128BarcodeGenerator.inputQuietSpace = "Quiet Space"
+ en.CICode128BarcodeGenerator.inputQuietSpace.description = "The number of empty white pixels that should surround the barcode."
++en.CICode39BarcodeGenerator = "Code 39 Barcode Generator"
++en.CICode39BarcodeGenerator.description = "Generate a Code 39 barcode image for message data."
++en.CICode39BarcodeGenerator.inputBarcodeHeight = "Barcode Height"
++en.CICode39BarcodeGenerator.inputBarcodeHeight.description = "The height of the generated barcode in pixels."
++en.CICode39BarcodeGenerator.inputMessage = "Message"
++en.CICode39BarcodeGenerator.inputMessage.description = "The message to encode in the Code 39 Barcode"
++en.CICode39BarcodeGenerator.inputQuietSpace = "Quiet Space"
++en.CICode39BarcodeGenerator.inputQuietSpace.description = "The number of empty white pixels that should surround the barcode."
++en.CIEAN13BarcodeGenerator = "EAN-13 Barcode Generator"
++en.CIEAN13BarcodeGenerator.description = "Generate an EAN-13 barcode image for message data."
++en.CIEAN13BarcodeGenerator.inputBarcodeHeight = "Barcode Height"
++en.CIEAN13BarcodeGenerator.inputBarcodeHeight.description = "The height of the generated barcode in pixels."
++en.CIEAN13BarcodeGenerator.inputMessage = "Message"
++en.CIEAN13BarcodeGenerator.inputMessage.description = "The message to encode in the EAN-13 Barcode"
++en.CIEAN13BarcodeGenerator.inputQuietSpace = "Quiet Space"
++en.CIEAN13BarcodeGenerator.inputQuietSpace.description = "The number of empty white pixels that should surround the barcode."
++en.CIInterleaved2of5BarcodeGenerator = "Interleaved 2 of 5 Barcode Generator"
++en.CIInterleaved2of5BarcodeGenerator.description = "Generate an Interleaved 2 of 5 barcode image for message data."
++en.CIInterleaved2of5BarcodeGenerator.inputBarcodeHeight = "Barcode Height"
++en.CIInterleaved2of5BarcodeGenerator.inputBarcodeHeight.description = "The height of the generated barcode in pixels."
++en.CIInterleaved2of5BarcodeGenerator.inputMessage = "Message"
++en.CIInterleaved2of5BarcodeGenerator.inputMessage.description = "The message to encode in the Interleaved 2 of 5 Barcode"
++en.CIInterleaved2of5BarcodeGenerator.inputQuietSpace = "Quiet Space"
++en.CIInterleaved2of5BarcodeGenerator.inputQuietSpace.description = "The number of empty white pixels that should surround the barcode."
+ en.CIPDF417BarcodeGenerator = "PDF417 Barcode Generator"
+ en.CIPDF417BarcodeGenerator.description = "Generate a PDF417 barcode image for message data."
+ en.CIPDF417BarcodeGenerator.inputAlwaysSpecifyCompaction = "Always Specify Compaction"
+
+```

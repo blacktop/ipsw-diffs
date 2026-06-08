@@ -5,47 +5,68 @@
 ```diff
 
 -301.23.4.7.0
--  __TEXT.__text: 0x5b1c
--  __TEXT.__auth_stubs: 0x2f0
+-  __TEXT.__text: 0x5b1c sha256:06ebdf158255923ff1475e763f4cbb525102d8645a9e396d5ab2ca668cb0cd28
+-  __TEXT.__auth_stubs: 0x2f0 sha256:0cf28c8612daa0f55dbf11792e86a5314503c0a586ff5a158b678fef3eb823c9
+-  __TEXT.__objc_methlist: 0x5c4 sha256:e2f987cf09665180a0f5ef9281a775e858e4406f673df4347318e730a203ea64
 +301.24.0.19.0
-+  __TEXT.__text: 0x5640
-   __TEXT.__objc_methlist: 0x5c4
-   __TEXT.__const: 0x48
--  __TEXT.__gcc_except_tab: 0x320
--  __TEXT.__cstring: 0x5cb
-+  __TEXT.__gcc_except_tab: 0x2b0
-+  __TEXT.__cstring: 0x5bf
-   __TEXT.__oslogstring: 0x62d
-   __TEXT.__dlopen_cstrs: 0x54
--  __TEXT.__unwind_info: 0x2b0
--  __TEXT.__objc_classname: 0x87
--  __TEXT.__objc_methname: 0x119e
--  __TEXT.__objc_methtype: 0x920
--  __TEXT.__objc_stubs: 0x980
--  __DATA_CONST.__got: 0xa0
-+  __TEXT.__unwind_info: 0x2a8
++  __TEXT.__text: 0x5640 sha256:d1c969a1d19749c02372fe05185d5673d3809f6d7796ce8739c9c1684c7cf0f8
++  __TEXT.__objc_methlist: 0x5c4 sha256:ca4256dfbb83ee805ccad3297f4df5c5f5226a1c7988993792b3635fe4bfbcf2
+   __TEXT.__const: 0x48 sha256:02bf21625f1cab0e411c2514bb999f9067a4f9f1c3016020e75b62348b5a48ea
+-  __TEXT.__gcc_except_tab: 0x320 sha256:7f4322b928b9d02f75c050f910a0fd89b784aaff3a590cd631a6e230767914e9
+-  __TEXT.__cstring: 0x5cb sha256:09587ece2657d04f5b79d773d025b488f1dc1d2375a7ad2f59e4a6be45173a90
++  __TEXT.__gcc_except_tab: 0x2b0 sha256:c7124719f989605eb992786546aebf33a87adf4a744e6938a6a239192c7da453
++  __TEXT.__cstring: 0x5bf sha256:f22daa9a5ae7e94955b770d4a19baf56c2d8022c25a14bd2386df3d8e9bbdd00
+   __TEXT.__oslogstring: 0x62d sha256:c8b6e63270cbffacde9190d81520da7ef409309a20cf90043c309437990eed19
+   __TEXT.__dlopen_cstrs: 0x54 sha256:35b1f4aa0ed4bc7391db43adf1c7c3cc807fe8bccaf716b900a7dda58c4487bb
+-  __TEXT.__unwind_info: 0x2b0 sha256:e4805785abc0d1714f671d7a3da01b9ba412a24026e7d9f07a48f2f541201dc7
+-  __TEXT.__objc_classname: 0x87 sha256:c5d6937889f3f1fccb0bbd8a164ca01bb763cf8a69144bbb0de272f947ec12a0
+-  __TEXT.__objc_methname: 0x119e sha256:e8a86ece5184ff6dd5f785e78495fe966538370910548601d137e61bf5aec764
+-  __TEXT.__objc_methtype: 0x920 sha256:d39e82d484eb535335c0ed0e099c465be7d9b7e859e447bf231f47bb572367eb
+-  __TEXT.__objc_stubs: 0x980 sha256:59532828eef12b62bb2205e3a0de6c4c7f33ba955843291284f7b5fb501c2305
+-  __DATA_CONST.__got: 0xa0 sha256:086883c6f7082df54028bd8638bffbd581810ba37b77dc733374376786ba22bd
+-  __DATA_CONST.__const: 0x2c8 sha256:47d5bf5520a1885227880ff15f2a3eb77dcd14ef6bfbe81d9ca08b501dd9227e
+-  __DATA_CONST.__objc_classlist: 0x20 sha256:0ada792e0910e772b59d36a5484089ea65884e9855c35f8d6ef3a57cb22f8134
+-  __DATA_CONST.__objc_catlist: 0x8 sha256:860b00d575241553b9fc0fc28e887d8edd443d1fe07e8a22568bb4c50884390d
+-  __DATA_CONST.__objc_protolist: 0x20 sha256:59a0f5f6afc6c606660d1fa8356a3f73bedf842747a31d5dd9a23eb79c71f2a3
++  __TEXT.__unwind_info: 0x2a8 sha256:561a11340204189f53157789c4e7301cde3ecd45676a3d122c961830fa48ea3e
 +  __TEXT.__objc_stubs: 0x0
 +  __TEXT.__auth_stubs: 0x0
 +  __TEXT.__objc_classname: 0x0
 +  __TEXT.__objc_methname: 0x0
 +  __TEXT.__objc_methtype: 0x0
-   __DATA_CONST.__const: 0x2c8
-   __DATA_CONST.__objc_classlist: 0x20
-   __DATA_CONST.__objc_catlist: 0x8
-
-   __DATA_CONST.__objc_protorefs: 0x8
-   __DATA_CONST.__objc_superrefs: 0x10
-   __DATA_CONST.__objc_arraydata: 0x10
--  __AUTH_CONST.__auth_got: 0x188
-+  __DATA_CONST.__got: 0xa0
-   __AUTH_CONST.__const: 0xa0
-   __AUTH_CONST.__cfstring: 0x420
-   __AUTH_CONST.__objc_const: 0x650
-   __AUTH_CONST.__objc_arrayobj: 0x30
++  __DATA_CONST.__const: 0x2c8 sha256:d5eb4340c4ba9a10211ab91d7d9eef5c1d15fed938b49beb1ec0f0d49c9f1793
++  __DATA_CONST.__objc_classlist: 0x20 sha256:2d9e3836f5261a65cf7fffd358cbb2046ad397a6909f75ada120914ad2d74d46
++  __DATA_CONST.__objc_catlist: 0x8 sha256:eeb50df9eb8845759635cddbadbecb57a1192291ca00290498159f28d79b631f
++  __DATA_CONST.__objc_protolist: 0x20 sha256:824bdebac5ec881f32b81fbeea70337a60fc67dc58bf1045d47bb3636e8c512c
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x480 sha256:67cb9d0462f6e087f187d264425f14f54c9a63ed9968cb59d77d17baf7992749
+-  __DATA_CONST.__objc_protorefs: 0x8 sha256:009eaa4902655812b11169d945f41e11d5504b91e58653885df4bde0924cdb52
+-  __DATA_CONST.__objc_superrefs: 0x10 sha256:fba46f3efdff7e29aa5de37b5f2de7c76f6906d1bff994e453d33c9f00f2a855
+-  __DATA_CONST.__objc_arraydata: 0x10 sha256:d831132b97d7bbcc5c56a373855bd75e9b5afdbe4dffd0f21aee97e2d38ae562
+-  __AUTH_CONST.__auth_got: 0x188 sha256:3eefc4790b52024832ea4c03c6e7a781f3ef9416866a959b2777fce101ad9d61
+-  __AUTH_CONST.__const: 0xa0 sha256:6457c6413f2723953860a05419e83456513d0a15a25607b270cce28c0c512ddb
+-  __AUTH_CONST.__cfstring: 0x420 sha256:26dcb058b41f91f01bba9bc8b4d69dce229085c3f381dc73679775d255afd9da
+-  __AUTH_CONST.__objc_const: 0x650 sha256:b9d34b51f4fde8d0f1986da23d576e52c32c51540f51b79773ef098d5f037382
+-  __AUTH_CONST.__objc_arrayobj: 0x30 sha256:9e442f4ae24bcea9339b93a7babd297fc50f57c8756e3691d3494a8bb38487b8
++  __DATA_CONST.__objc_selrefs: 0x480 sha256:6ab634add824b60fa33d3384868b72de1a19866eb2eedfec62191c3dd4d8460d
++  __DATA_CONST.__objc_protorefs: 0x8 sha256:1c17398837ee1d55df6c04f8a05b6063cd47f5f3d6e2752eadcbdeae664859fd
++  __DATA_CONST.__objc_superrefs: 0x10 sha256:a46bfc76b7a910cfbfaedd3f77d0483534a5d12d457c19faa9c2534e4ba8f2f4
++  __DATA_CONST.__objc_arraydata: 0x10 sha256:3f6750264acfab494720911431a14279e8c3ac5031d8bed27982bce4b7483970
++  __DATA_CONST.__got: 0xa0 sha256:a5f164fdc121b311680e0867dcc5e563418e4a1159c7409a171c4ada7dc43cd4
++  __AUTH_CONST.__const: 0xa0 sha256:1ca07e791a198b6f3822ebbb983735728793ee9d16d7d614549138d411c0256a
++  __AUTH_CONST.__cfstring: 0x420 sha256:f122fe88d26aea18002c9c2d4831879a3f0711d2352cc9ac26798f21e4235aab
++  __AUTH_CONST.__objc_const: 0x650 sha256:3e04d087ad57705c15de68a8deef6ecf033799b91ef9e5dd343587d3982b311c
++  __AUTH_CONST.__objc_arrayobj: 0x30 sha256:566c480409ba1164733651dcd128cb098345da4adfedd260f77d512f88f30e08
 +  __AUTH_CONST.__auth_got: 0x0
-   __DATA.__objc_ivar: 0x18
-   __DATA.__data: 0x180
-   __DATA.__bss: 0x8
+   __DATA.__objc_ivar: 0x18 sha256:1fbc7ebcafcc02dc4f0829b1415c60ec9c28016e70b25aaee06e3605278c24ec
+-  __DATA.__data: 0x180 sha256:1b2f07e2666173d4ced2dbc321c08a99b6488563922d118a76cc888e96d28750
++  __DATA.__data: 0x180 sha256:d33cd8c87ae126b92bcf924b014957dfa6115ba315e6d0f7b595d63c273334ec
+   __DATA.__bss: 0x8 sha256:af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc
+-  __DATA_DIRTY.__objc_data: 0x140 sha256:abb98493dc07d7c455edb811aa436aa6d655a327fe0a419c055cf339995f320a
++  __DATA_DIRTY.__objc_data: 0x140 sha256:82c1aafa57a918fef2ffa5aa6c6e381adc36a1736c59bedc111787214f64734b
+   __DATA_DIRTY.__bss: 0x38 sha256:d4817aa5497628e7c77e6b606107042bbba3130888c5f47a375e6179be789fbb
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/FileProvider.framework/FileProvider
 
    - /System/Library/PrivateFrameworks/SoftLinking.framework/SoftLinking
    - /usr/lib/libSystem.B.dylib

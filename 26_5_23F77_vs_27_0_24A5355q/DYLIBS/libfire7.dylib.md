@@ -5,35 +5,39 @@
 ```diff
 
 -130.0.2.0.0
--  __TEXT.__text: 0x27df0c
--  __TEXT.__auth_stubs: 0x530
+-  __TEXT.__text: 0x27df0c sha256:2ff5100761161f66844ff61f16da10167e63f580181b12291061dbf2bdafa6c1
+-  __TEXT.__auth_stubs: 0x530 sha256:600977c1af395d7fde9eb9cef4f7282b8f87feb6eb0065f8d4f580d099068f4f
+-  __TEXT.__init_offsets: 0x10 sha256:c45ae70f09dd9bad5982ce46dd5bbdea84b2fa753b82f02b2cc3cde8a35b144e
+-  __TEXT.__const: 0x2cd74 sha256:30480d2072c488d5a2491dcc255df0c2a093fca85ef8ffc13421cc37f18caf06
+-  __TEXT.__cstring: 0x3fe91 sha256:9a0bee60286a05b01c72e65c5ec3f29966b79f3a43faec69196bdac9d5d7fc3c
+-  __TEXT.__gcc_except_tab: 0x557c sha256:0ce7121230bb82f22e1978949d6a8c71425fb76a78a288cf08d32ce35de46fe5
+-  __TEXT.__unwind_info: 0x56d8 sha256:17916edc07a111dc327d6ade08451ca19d6c9f38e058618a044a25d8edcd0b4b
+-  __DATA_CONST.__got: 0x70 sha256:a84aae228e31adae56b9df51fc34e6655b7e2abfbabe0a2beea72fd2a20480a8
+-  __DATA_CONST.__const: 0x84d8 sha256:1b8eee8e5ab30da0b34481f29fdcd4eb193171516d36b252ff36e8de4bb728db
+-  __AUTH_CONST.__auth_got: 0x2a0 sha256:ba3f394be3676a75acae8f124cf32c16449b81f2f3bcebec9b7c08763c84d86d
+-  __AUTH_CONST.__const: 0x11378 sha256:c50407ac745b3d2efd565dab55e112d15a65bc3574a2d5831c1a4a68ebc40436
+-  __DATA.__data: 0x178 sha256:3e09012cba0fb6b7337c8741f3c01d91a9da9e316aaeb4bc1985265bfcddbfb0
 +135.0.2.0.0
-+  __TEXT.__text: 0x282c9c
-   __TEXT.__init_offsets: 0x10
--  __TEXT.__const: 0x2cd74
--  __TEXT.__cstring: 0x3fe91
--  __TEXT.__gcc_except_tab: 0x557c
--  __TEXT.__unwind_info: 0x56d8
--  __DATA_CONST.__got: 0x70
--  __DATA_CONST.__const: 0x84d8
--  __AUTH_CONST.__auth_got: 0x2a0
--  __AUTH_CONST.__const: 0x11378
-+  __TEXT.__const: 0x2cd1c
-+  __TEXT.__cstring: 0x3fe95
-+  __TEXT.__gcc_except_tab: 0x54ec
-+  __TEXT.__unwind_info: 0x5760
++  __TEXT.__text: 0x282c9c sha256:de7083f48efa73abb754ea387e89e1b5b3443f243b6fca525b986f67232085cd
++  __TEXT.__init_offsets: 0x10 sha256:040415a980c46387fea2a22bd2dad53ccf7fbcf29bc19559d78589396f5a91d2
++  __TEXT.__const: 0x2cd1c sha256:68ce8744a76023bdece6e7a69213b8a972b56dc35fc3eb307f1c92cc15e5a4f7
++  __TEXT.__cstring: 0x3fe95 sha256:1d62606d6b902437c7e95d59b13f49852cda891d629fd4f3d20529510215ea09
++  __TEXT.__gcc_except_tab: 0x54ec sha256:b37cd3bb7f09ae94c701d8c495f2771d32f8551325110bdb551e6054953d1ae6
++  __TEXT.__unwind_info: 0x5760 sha256:78128743d9934b5e87c917cf2771eb3966239fae30bbcc5bc805794e24e2257d
 +  __TEXT.__auth_stubs: 0x0
-+  __DATA_CONST.__const: 0x84a0
-+  __DATA_CONST.__weak_got: 0x8
++  __DATA_CONST.__const: 0x84a0 sha256:cc9f7ca8b0a0b21dcc43690ad3bee806c0eae2850e0338d7dca20381d5efe4c8
++  __DATA_CONST.__weak_got: 0x8 sha256:baed7a8f4fe06577baf9413d1425189458482e4f64d55b4f5cc304378385a036
 +  __DATA_CONST.__got: 0x0
-+  __AUTH_CONST.__const: 0x11398
-+  __AUTH_CONST.__weak_auth_got: 0x20
-+  __AUTH_CONST.__auth_got: 0x280
-   __DATA.__data: 0x178
-   __DATA.__common: 0x28
-   __DATA.__bss: 0x2
-
-   __DATA_DIRTY.__bss: 0x9c
++  __AUTH_CONST.__const: 0x11398 sha256:3715120b91e4a77e91335badbfeca615ea982a0f3231af7b199c7e64b1219ec6
++  __AUTH_CONST.__weak_auth_got: 0x20 sha256:5cca76ae8ace9b7acc47a69e7c11ba1290a4b81ea841f1af45121785f7717804
++  __AUTH_CONST.__auth_got: 0x280 sha256:9e132485d5107211de325a45e7917cbe3e4b5b9cde3e4ee91d7d2102317759ee
++  __DATA.__data: 0x178 sha256:da5fc9fa23e40c5340383ca699029ec7a82edff3853aa9cf0c80be0117c0fce7
+   __DATA.__common: 0x28 sha256:2c34ce1df23b838c5abf2a7f6437cca3d3067ed509ff25f11df6b11b582b51eb
+   __DATA.__bss: 0x2 sha256:96a296d224f285c67bee93c30f8a309157f0daa35dc5b87e410b78630a09cfc7
+-  __DATA_DIRTY.__data: 0x368 sha256:8c96ca165e8d999623edd099f1aae109e70e11aec1c298f451a9d1fa3db22372
++  __DATA_DIRTY.__data: 0x368 sha256:9f77bccb098d2c00788918c30fda08153f3feb51c02cb448f5c9e6a395398b01
+   __DATA_DIRTY.__common: 0x9d8 sha256:1c71ec6b184ef378eafadf86f731339eca87693678f565d78b071e0bcbebaae7
+   __DATA_DIRTY.__bss: 0x9c sha256:59bf9091f4cbbd2a8796bfe086a501c57226c42739dcf8ad323e7493ad51e38f
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
 -  UUID: 23A4C927-5362-3FD6-B2F6-E83C624999BD

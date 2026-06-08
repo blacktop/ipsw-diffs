@@ -5,37 +5,40 @@
 ```diff
 
 -350.1.0.0.0
--  __TEXT.__text: 0x142598
--  __TEXT.__auth_stubs: 0xf90
--  __TEXT.__const: 0x31320
--  __TEXT.__cstring: 0x9b3e
--  __TEXT.__gcc_except_tab: 0x13f8
+-  __TEXT.__text: 0x142598 sha256:be24497d276ec409a5ee060809c70bac3f4dde44cbd0cc8947314bb8040b091a
+-  __TEXT.__auth_stubs: 0xf90 sha256:a3f57b0870b6439ab8390a8d1112ae743e462db280a7bccbea85dd01d0611537
+-  __TEXT.__const: 0x31320 sha256:0bf8b479acbb29a0d2c177a4cc490fec95d7c0ee67e3165779c82c21a3ae9848
+-  __TEXT.__cstring: 0x9b3e sha256:51e3c9093aa556ffe78c7fc53b9b6532edf5a9c3cfa04936ba4af428a87ebfba
+-  __TEXT.__gcc_except_tab: 0x13f8 sha256:5b513369d6d97f59b7f5c2c2cc641771c3c6ef6ef2fe3afa51c7a4008488f519
 +374.5.0.0.0
-+  __TEXT.__text: 0x13625c
-+  __TEXT.__const: 0x10dd4
-+  __TEXT.__cstring: 0x214d6
-+  __TEXT.__gcc_except_tab: 0xfd8
-   __TEXT.__ustring: 0x20
--  __TEXT.__unwind_info: 0x19a0
--  __TEXT.__eh_frame: 0x470
--  __DATA_CONST.__got: 0x4f8
--  __DATA_CONST.__const: 0x5b8
--  __AUTH_CONST.__auth_got: 0x7d0
--  __AUTH_CONST.__const: 0x11a0
-+  __TEXT.__unwind_info: 0x1848
-+  __TEXT.__eh_frame: 0x808
++  __TEXT.__text: 0x13625c sha256:3138ce80fae84131ff4eda08562ba4e916d8b4dd52423c2aeb80a377565c5721
++  __TEXT.__const: 0x10dd4 sha256:7217883929032a24393cf51b924019612571be88018cdb0658337945776b9a17
++  __TEXT.__cstring: 0x214d6 sha256:873e3c5f78c18543960624f3deaf4fc9d2d81b97bf4ee866d804ae08b1f9c127
++  __TEXT.__gcc_except_tab: 0xfd8 sha256:8d636160149358f53424c8858cb967d84e801bd8490a5420a4b568ebff707839
+   __TEXT.__ustring: 0x20 sha256:0653f871c1e757b7a0cd85112ccdb88c84b031ce58ff5fded0f2db4bdbbd34b5
+-  __TEXT.__unwind_info: 0x19a0 sha256:6c8f5cef237975b82ffcc71cce014d03c03d527fb04d31f0d120ec46b96e850d
+-  __TEXT.__eh_frame: 0x470 sha256:fd2dc63a6f6d41fc01b9bc04100e4bdca7425bc9ba79cdeacd437977005d1a81
+-  __DATA_CONST.__got: 0x4f8 sha256:fbb4fa31c3fa0c14ccb3fe426e39dcad529b17e379309c0adbe27fcc93feba50
+-  __DATA_CONST.__const: 0x5b8 sha256:0b65313a2f2f646e4bb6c8c00e33d720bff7793dc65b6aae2f6da5f700a259bf
+-  __AUTH_CONST.__auth_got: 0x7d0 sha256:dde8e9fc683ec41ef6d9a5c1f73e27cb0437f8ca187cb8486791a0b673b8a90d
+-  __AUTH_CONST.__const: 0x11a0 sha256:14fce7e9a77a1637247be6e9c41661e945471be2d22469ac0b15ca750c641a4b
+-  __AUTH_CONST.__cfstring: 0x9a0 sha256:77dde2e86d452a7418504eac6c40761d5a64c9d51c679d6f1b75d36f1df5647a
+-  __DATA.__bss: 0x1b0 sha256:1fe2373734955e60c172999142934b52e69ba7ab9039b3c18ea54082ba32afcd
+-  __DATA_DIRTY.__data: 0x38 sha256:2b835e01cbca429ea351210decd80697602cefe2b70a97bd8a8628690d9ae9eb
++  __TEXT.__unwind_info: 0x1848 sha256:fa57796fb79c33f8e8381f67d43e3c9d7cafad8ab995a3283d6b781f7244d4ca
++  __TEXT.__eh_frame: 0x808 sha256:788f999bbfde1aabb27559865a30831ff73b236696f809d2001198bb49498cc3
 +  __TEXT.__auth_stubs: 0x0
-+  __DATA_CONST.__const: 0xd0
++  __DATA_CONST.__const: 0xd0 sha256:16d46ed7106e789b386bb109c94ad73a90becd21cff8a1326320ca1cc73c7190
 +  __DATA_CONST.__got: 0x0
-+  __AUTH_CONST.__const: 0x1188
-   __AUTH_CONST.__cfstring: 0x9a0
--  __DATA.__bss: 0x1b0
-+  __AUTH_CONST.__weak_auth_got: 0x50
-+  __AUTH_CONST.__auth_got: 0x720
-+  __DATA.__bss: 0x1a0
-   __DATA_DIRTY.__data: 0x38
-   __DATA_DIRTY.__bss: 0x38
++  __AUTH_CONST.__const: 0x1188 sha256:7e0cc1f5259c8e0bb22ecc796943a784190f962271e722c235e6d79a5d3ed5dc
++  __AUTH_CONST.__cfstring: 0x9a0 sha256:4ce39bece8ee4a62a3aac09c5471d24706abfd35594dda930f8e2e49741e0516
++  __AUTH_CONST.__weak_auth_got: 0x50 sha256:653c522aa6b331c14c98ed1dc061f523591dd31fa6600e7914ed8fdfc107d125
++  __AUTH_CONST.__auth_got: 0x720 sha256:d68334e72457a9eefb367b20fe21b635debd92b6f131fb7f8776652021fd5e6c
++  __DATA.__bss: 0x1a0 sha256:4cc7e6272db6b1ad7581f76c63c694e926e20698e9b02223d5041a55960463f2
++  __DATA_DIRTY.__data: 0x38 sha256:89b86ff109cc792d305cdaae2f4f44a0fcf46bd6f9bd59f756d603460a3037e3
+   __DATA_DIRTY.__bss: 0x38 sha256:d4817aa5497628e7c77e6b606107042bbba3130888c5f47a375e6179be789fbb
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
 
    - /System/Library/PrivateFrameworks/IOSurfaceAccelerator.framework/IOSurfaceAccelerator
    - /usr/lib/libSystem.B.dylib

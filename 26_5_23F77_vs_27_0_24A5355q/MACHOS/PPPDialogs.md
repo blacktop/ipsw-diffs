@@ -4,15 +4,22 @@
 
 ```diff
 
-   __TEXT.__auth_stubs: 0x210
-   __TEXT.__cstring: 0x34d
-   __TEXT.__unwind_info: 0x90
-+  __DATA_CONST.__cfstring: 0x320
-   __DATA_CONST.__auth_got: 0x108
-   __DATA_CONST.__got: 0xd8
--  __DATA_CONST.__cfstring: 0x320
-   __DATA.__data: 0x240
-   __DATA.__bss: 0x48
+ 1027.0.0.0.0
+-  __TEXT.__text: 0xe30 sha256:b161e86820e652ec246e549581c5685683b7a10682e7a67adea2f12fac88d1d9
+-  __TEXT.__auth_stubs: 0x210 sha256:57a290cc2ccada24aa615c8d385dcdec5e368e8588b9849e6fd74b6496698610
++  __TEXT.__text: 0xe30 sha256:275a9fd7cc74e6c7a8d831180bec2114fc315c2e7e724ee2584c3b588b2468be
++  __TEXT.__auth_stubs: 0x210 sha256:91885a6fc5d6c8c9698a422e9921e9052e1d681930d07119c3e5bedb340874df
+   __TEXT.__cstring: 0x34d sha256:f206c13d0c480086447934bc49a053d39af1e81e66da1758d54630fbffd0ec09
+-  __TEXT.__unwind_info: 0x90 sha256:23b8dacec5f131926c51853e62eb9dc60953b2298b0d0ce3caf45b73a56b0ac4
+-  __DATA_CONST.__auth_got: 0x108 sha256:3d74e5ed7bc7e19f30bfe8a15087dacb4c1f2f6525be00cf1fe1d1f527bc42d4
+-  __DATA_CONST.__got: 0xd8 sha256:f9cca6f1da4e10b7d26fdda1f870ba11788f7c54921446e55c6414e2a9268067
+-  __DATA_CONST.__cfstring: 0x320 sha256:80e63feccf38576b7a1c408f05b77415c81d4c603bc4e9276faff6ada9356785
++  __TEXT.__unwind_info: 0x90 sha256:f8e6f1c41401878efe05a3c3c5c8402443ddeae81c20d8c9e266165af3bb38a0
++  __DATA_CONST.__cfstring: 0x320 sha256:2615bbdff38f872a7f58b8a1a872ef3bdf7c962fdd2cdc7c5df2c2dd73c46323
++  __DATA_CONST.__auth_got: 0x108 sha256:aef27df45dc16efcd1bd84c06f66b392760e458a5eb3117066e95897f760e855
++  __DATA_CONST.__got: 0xd8 sha256:e26aa91885ee5240053bf5bac0f579a66ff3d98bda350b278e58725ff1fe5822
+   __DATA.__data: 0x240 sha256:79ef162f7cd570549973ca85a7f93cd6bf3ebb8f4f75035e1b364a2fddf12bd3
+   __DATA.__bss: 0x48 sha256:834a709ba2534ebe3ee1397fd4f7bd288b2acc1d20a08d6c862dcd99b6f04400
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /usr/lib/libSystem.B.dylib
 -  UUID: 7FC3AC2F-C223-369D-A457-61BA4BC83D1C
@@ -21,7 +28,18 @@
    Symbols:   68
    CStrings:  63
 Functions:
+~ sub_5b8 : sha256 8b0218891e8e41bd303f62f407b82dccab98237c06963edac517fdf1f0a977b4 -> 68fec5e99b068b2e305ee674de1b7a786988e26203d91da3e590da4ab7d8bf7a
+~ _start : sha256 62ed22835dc93ff5c2c3a4df37c8ee1c8b36c130b55bad31264543dc37960223 -> f293ae5ce4768b14174e43b4d227bc66999124e87eb5b91f5b79be5e383e1905
+~ sub_708 : sha256 bd5523736898c2079e7d2b9af05b40d222220b97c9e09ecf34cd0b7b63dfea04 -> 0a763aa0c5569acf9ea82154eb19182b96504fea7aab67816c5ed66a96ab65da
+~ sub_750 : sha256 df43e984d4713becdd9083bf4e065cdabb14f5d14cef9faed04a5f191be6850a -> 734a505dfd5816587d85978d6ae29bea6abc347673b17fc80b609552312816ec
+~ sub_788 : sha256 147348df0aa10729372bcfcb63354070d3f0a27926eb1796a8d5f85e146c6a76 -> b35776f82f5e2cc8d241a3640ff7d0b9b589ebafc34b2472f99af81f83529590
+~ sub_7c0 : sha256 83ca8c3a258052cf27c8ef99f78a86e9c2da8f61b9ef5ced2a96d9c1940bfbb8 -> 3c4a11a43c8124bfe066149ba12b3f213e68c94933bf07b4f1fad0a031277d48
+~ sub_830 : sha256 84516d0397b6af207134c0b927b7841c2784870ad7f10feae725d9c7c9a69a28 -> c710002da915aaeb6c0d054d21ef77fba90fe68b08f6d166b49f9b95279d9aac
 ~ _dialog_reminder_thread : 492 -> 488
+~ _dialog_reminder_watch : sha256 a4fa1ab0a68a5f3bbcd1ffcb530881c01caffc9c48f7f5d9113b4c4adbd69ae3 -> fcee2f6fda5ddd1a98c2a8e750fdb87c4aeda0ea1fc3c3b28f983893050764bb
+~ sub_b5c -> sub_b58 : sha256 d20c0b6772d20f055b92cfa103f609a844b300e52f957765698e36b697bb125a -> 5c7d86af3cee3830dc51246dff70431fc30e20e2dfa090a3fcfe72ceec9b1d57
+~ _dialog_password : sha256 5c2a89be567de3492643500650e47ec45d2d91ddebb8571b3d6d466fd45f4574 -> 06708a6636866b40d32388c2e243645f4878174629af35937c6d77c006251ed2
 ~ _dialog_invoke_ui_thread : 384 -> 388
+~ sub_136c : sha256 8920c6fb8c8f0f7d56690a02ba483fcab462a935d142cd87759f58f1d3b7ea0d -> 5b8a26f07d84b284faa21aa225c2ac4df1035e01c7738fed6711166a472121fd
 
 ```

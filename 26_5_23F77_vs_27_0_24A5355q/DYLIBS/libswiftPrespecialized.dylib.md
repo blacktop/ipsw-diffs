@@ -7,16 +7,16 @@
  0.0.0.0.0
    __TEXT.__text: 0x0
    __TEXT.__lldb_no_nlist: 0x0
--  __DATA_CONST.__const: 0x303ef0
--  __DATA_CONST.__ptrhashtab: 0x170f8
--  __DATA_CONST.__ptrhashtabkey: 0x25e00
--  __AUTH_CONST.__const: 0x4f970
--  __AUTH.__data: 0xcaed0
-+  __DATA_CONST.__const: 0x3a8758
-+  __DATA_CONST.__ptrhashtab: 0x16e48
-+  __DATA_CONST.__ptrhashtabkey: 0x259f8
-+  __AUTH_CONST.__const: 0x4f2d0
-+  __AUTH.__data: 0xc9500
+-  __DATA_CONST.__const: 0x303ef0 sha256:5458b9909410a29da63d89db5ee8d06750b2b3d2ff3d2c188daa05342468527c
+-  __DATA_CONST.__ptrhashtab: 0x170f8 sha256:d26b1eb3a65490144f6a61e2ebc6f6f288bfa1ad3218620a48c0c407a17e9738
+-  __DATA_CONST.__ptrhashtabkey: 0x25e00 sha256:8a750458ff5b2cf6836c49d54e58cb2172c56ec6588ff741d4daa0341014e41f
+-  __AUTH_CONST.__const: 0x4f970 sha256:adfecb8ff1e8a1185208ab3fc763383255c789b5ceec81d8cc2c42d161b2827f
+-  __AUTH.__data: 0xcaed0 sha256:2790a65ccb83ca3c45d6a5cb1562e8ae35775911db1a7512056dbc6217024370
++  __DATA_CONST.__const: 0x3a8758 sha256:efbba0f7f091dc643ecfbde15b48d7a514e27f4eef213b022cc33ae9ca426154
++  __DATA_CONST.__ptrhashtab: 0x16e48 sha256:2974b78f71d5b3bc3155f82bf804bbc3649860b56900f57604135b301f81c3a0
++  __DATA_CONST.__ptrhashtabkey: 0x259f8 sha256:33013472bcb59d303a77486d41d5f4b1d5bc33013385b67eceda980bb75076bd
++  __AUTH_CONST.__const: 0x4f2d0 sha256:85323f545bdf72d288c98ce8df99c5d4c3b152ddb604ae64c861ddb666f6fc44
++  __AUTH.__data: 0xc9500 sha256:badbd13848394f658fc094933a9d632b2480c37e212b4b0d25e8fb58bfa7129a
    - /usr/lib/libSystem.B.dylib
 -  UUID: 8DB1137E-1FAD-3C6C-BB53-607C077BF603
 +  UUID: B325D59F-A170-304B-B298-03AAEF2F73F8

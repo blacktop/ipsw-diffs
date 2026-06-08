@@ -1,0 +1,65 @@
+## PrintKitUI
+
+> `FileSystem/System/Library/PrivateFrameworks/PrintKitUI.framework/Localizable.loctable`
+
+```diff
+
+ en.Auto Select Media Type = "Auto Select Media Type"
+ en.Automatic = "Automatic"
+ en.Back = "Back"
++en.Bale = "Bale"
+ en.Best = "Best"
+ en.Bind (Left) = "Bind (Left)"
+ en.Bind (Top) = "Bind (Top)"
+
+ en.Black and White - Draft = "Black and White - Draft"
+ en.Black and White = "Black and White"
+ en.Border = "Border"
+-en.COPIES_FORMAT.Copies.NSStringFormatSpecTypeKey = "NSStringPluralRuleType"
+-en.COPIES_FORMAT.Copies.NSStringFormatValueTypeKey = "d"
+-en.COPIES_FORMAT.Copies.one = "%d Copy"
+-en.COPIES_FORMAT.Copies.other = "%d Copies"
+-en.COPIES_FORMAT.NSStringLocalizedFormatKey = "%#@Copies@"
++en.COPIES_FORMAT.NSStringLocalizedFormatKey = "%#@value@"
++en.COPIES_FORMAT.value.NSStringFormatSpecTypeKey = "NSStringPluralRuleType"
++en.COPIES_FORMAT.value.NSStringFormatValueTypeKey = "d"
++en.COPIES_FORMAT.value.one = "%d Copy"
++en.COPIES_FORMAT.value.other = "%d Copies"
+ en.Check the front panel of the printer “%@” to see the PIN. = "Check the front panel of the printer “%@” to see the PIN."
+ en.Choose the connection settings for “%@” = "Choose the connection settings for “%@”"
+ en.Coat = "Coat"
+
+ en.Finishing Options = "Finishing Options"
+ en.Finishing Template = "Finishing Template"
+ en.Finishing Templates = "Finishing Templates"
++en.Finishings View = "Finishings View"
+ en.Flip Horizontally = "Flip Horizontally"
+ en.Flipped Horizontally = "Flipped Horizontally"
+ en.Fold = "Fold"
+
+ en.More Info = "More Info"
+ en.More Options = "More Options"
+ en.More… = "More…"
+-en.NUP_PAGES.NSStringLocalizedFormatKey = "%1$#@nUpPages@"
+-en.NUP_PAGES.nUpPages.NSStringFormatSpecTypeKey = "NSStringPluralRuleType"
+-en.NUP_PAGES.nUpPages.NSStringFormatValueTypeKey = "ld"
+-en.NUP_PAGES.nUpPages.one = "1 page per sheet"
+-en.NUP_PAGES.nUpPages.other = "%ld pages per sheet"
++en.NUP_PAGES.NSStringLocalizedFormatKey = "%#@value@"
++en.NUP_PAGES.value.NSStringFormatSpecTypeKey = "NSStringPluralRuleType"
++en.NUP_PAGES.value.NSStringFormatValueTypeKey = "ld"
++en.NUP_PAGES.value.one = "1 page per sheet"
++en.NUP_PAGES.value.other = "%ld pages per sheet"
+ en.Name = "Name"
+ en.No AirPrint Printers Found = "No AirPrint Printers Found"
+ en.No Layout Border = "None"
+
+ en.Set up printer “%@”… = "Set up printer “%@”…"
+ en.Setting up printer “%@”… = "Setting up printer “%@”…"
+ en.Setup Printer = "Setup Printer"
++en.Share[Button] = "Share"
+ en.Sheet %ld = "Sheet %ld"
+ en.Sheet %ld of %ld = "Sheet %ld of %ld"
+ en.Sheet View = "Sheet View"
+
+```

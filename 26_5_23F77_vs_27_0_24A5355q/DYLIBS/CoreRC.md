@@ -5,48 +5,78 @@
 ```diff
 
 -273.0.0.0.0
--  __TEXT.__text: 0x49f44
--  __TEXT.__auth_stubs: 0x640
+-  __TEXT.__text: 0x49f44 sha256:5094badaffe639bad168fea6fd332e80ede01acf94dff28dcb27e7564f2302cd
+-  __TEXT.__auth_stubs: 0x640 sha256:3c58ea162f3ff2a2a426b588b11cf7864d145f395e9e7a8b1f25672b1eb101de
+-  __TEXT.__objc_methlist: 0x4f2c sha256:e00debf87bb072e4bc2f2d65d81b01fe900005b3d8bfb9e57b63b9d5316b255b
+-  __TEXT.__const: 0x3c8 sha256:1bdbb8d295946ac78071d024f66114debcb53502d1d102ca1676187d6ec3a14d
+-  __TEXT.__cstring: 0xffb0 sha256:f1dff5159b9938d5957cf65ec0b8e50df768713dc0162cfd5a754bc060f8fe54
 +275.0.0.0.0
-+  __TEXT.__text: 0x4a68c
-   __TEXT.__objc_methlist: 0x4f2c
-   __TEXT.__const: 0x3c8
-   __TEXT.__cstring: 0xffb0
-   __TEXT.__gcc_except_tab: 0x12c
-   __TEXT.__oslogstring: 0x1d1
-   __TEXT.__dlopen_cstrs: 0x58
--  __TEXT.__unwind_info: 0x15b0
--  __TEXT.__objc_classname: 0x5ca
--  __TEXT.__objc_methname: 0x9b02
--  __TEXT.__objc_methtype: 0x2902
--  __TEXT.__objc_stubs: 0x8140
--  __DATA_CONST.__got: 0x250
-+  __TEXT.__unwind_info: 0x15e8
++  __TEXT.__text: 0x4a68c sha256:ceeff9a97839fd443754b591234456b0f0afa730dc716b2e52126def750ca657
++  __TEXT.__objc_methlist: 0x4f2c sha256:c794a19f10c3f80690fb3d2be0f65c020b2efde3c051615a27b68ea048487cf3
++  __TEXT.__const: 0x3c8 sha256:67a1331e7d43b771aa52d9aa812c431ecfda3b0f978332034a10a8804a8377cd
++  __TEXT.__cstring: 0xffb0 sha256:4c6fac9ba3a9eb6afd1975c798244842228911ca645279d729f4f3ff48167466
+   __TEXT.__gcc_except_tab: 0x12c sha256:546c80c3a948b112f69d15cd6dbbf3847ef2d347b44af706f4500901bc74c45e
+   __TEXT.__oslogstring: 0x1d1 sha256:1d7b32e29bce785534a5f33d145240c5a558869ab4e756344b5de0e2ab4471a6
+   __TEXT.__dlopen_cstrs: 0x58 sha256:96359fcd0a63d4b6d6c583bbe11f4b84a2a4924361813cb38b292e35d2f1f3e6
+-  __TEXT.__unwind_info: 0x15b0 sha256:4d55b04d51c7dd9b755cd847eaeda246807d94d3e68e62f7207e6a8845cd2ad2
+-  __TEXT.__objc_classname: 0x5ca sha256:00e831805d66a60ef215c504f6f7ade3ed92951a748c66128e33212086cdec89
+-  __TEXT.__objc_methname: 0x9b02 sha256:0757cca7ffffd0a95bf17a3ff23eb5e3ab83fb78281494a6060415852c180034
+-  __TEXT.__objc_methtype: 0x2902 sha256:2d29e8866bac7505135f13d6d29c0b7b08e84d44acf178fa21b21e604d09b2d9
+-  __TEXT.__objc_stubs: 0x8140 sha256:e57eed8357762a9469af17516f8aed8e9e360cc6b403147f681bbc4a31c94820
+-  __DATA_CONST.__got: 0x250 sha256:c1895cd23e1cd1aacb551f69110130f5270d57facfb049a7a837c3e3675221aa
+-  __DATA_CONST.__const: 0x1d40 sha256:aa7af899f3b2d003fe0c53afccc3271d84b551ded0cf5a225423fa5edac242cc
+-  __DATA_CONST.__objc_classlist: 0x178 sha256:2bd75be3748ab38285df4e921b964a541c8c162e99e02e5824bcaecd4ff71d9c
+-  __DATA_CONST.__objc_nlclslist: 0x10 sha256:a6dbdda551be7ac248cd88f5c2865af82fea0133a3e3891d4578d2449760e0bf
+-  __DATA_CONST.__objc_catlist: 0x28 sha256:bb2d07508ba8f7072aa8c54881c685e27365c72ee2bc3b5aa1452bcfcca2a3cb
+-  __DATA_CONST.__objc_protolist: 0xd0 sha256:0ce6435b513d0c08f11bf4d4ceb73f82d1bf35d76b3ec71fbb6b443de872e6c8
++  __TEXT.__unwind_info: 0x15e8 sha256:412e3e5fcee4a84c2d69eaec48f6dea48942f2505e4ecea796df59dd8950e530
 +  __TEXT.__objc_stubs: 0x0
 +  __TEXT.__auth_stubs: 0x0
 +  __TEXT.__objc_classname: 0x0
 +  __TEXT.__objc_methname: 0x0
 +  __TEXT.__objc_methtype: 0x0
-   __DATA_CONST.__const: 0x1d40
-   __DATA_CONST.__objc_classlist: 0x178
-   __DATA_CONST.__objc_nlclslist: 0x10
-
-   __DATA_CONST.__objc_protorefs: 0x18
-   __DATA_CONST.__objc_superrefs: 0x140
-   __DATA_CONST.__objc_arraydata: 0x168
--  __AUTH_CONST.__auth_got: 0x330
-+  __DATA_CONST.__got: 0x250
-   __AUTH_CONST.__const: 0x60
-   __AUTH_CONST.__cfstring: 0x3540
-   __AUTH_CONST.__objc_const: 0x4d10
-
-   __AUTH_CONST.__objc_arrayobj: 0x168
-   __AUTH_CONST.__objc_intobj: 0x150
-   __AUTH_CONST.__objc_doubleobj: 0x20
++  __DATA_CONST.__const: 0x1d40 sha256:7392ff465f25b963154440240ec065050722387011ce7ffc1efd3038fc43fef1
++  __DATA_CONST.__objc_classlist: 0x178 sha256:e6e0057e9e9b04625a5a9891b0df35cfa8b8a4a51095327475e87f13d6aa24ef
++  __DATA_CONST.__objc_nlclslist: 0x10 sha256:055137d275ad99f953cdad045aa3a6cff1f998113c535928d3d8e801fb7bfd68
++  __DATA_CONST.__objc_catlist: 0x28 sha256:1f8de7a0f765876c361640b3c64a24444f36f3daba47f117912ba56c826f667c
++  __DATA_CONST.__objc_protolist: 0xd0 sha256:af71cd93d0179a924cfe410adb89b2db7a4f4fca1f35f5362bbb7bc076be021d
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x2420 sha256:422594389f78cba3fb42d85071998b6564d8ee94964b0f8e56db550898fd7eca
+-  __DATA_CONST.__objc_protorefs: 0x18 sha256:8512ad358ad31f92e4f1878e90692b36ad757ead7c5987f154089be5f5847df8
+-  __DATA_CONST.__objc_superrefs: 0x140 sha256:e443bb4218036ca20feaf1ac2f27768658539e34f6f0871dc954d2d5f7257bc8
+-  __DATA_CONST.__objc_arraydata: 0x168 sha256:93fb2bc72c054bd99d7ef3e4b37d4fabfed035f59254a203150ef026c56e8b56
+-  __AUTH_CONST.__auth_got: 0x330 sha256:0645a4a67dcec462dc9f335bb0564e6e39bf12ea7e40cf8de81418210102c2d1
+-  __AUTH_CONST.__const: 0x60 sha256:52c26ff7142549d5e129a7ec24b612ccf948dd1e0704d4612b56754bb9fc6aac
+-  __AUTH_CONST.__cfstring: 0x3540 sha256:39f61ef9489c062c8dcf712569175e4c17574746df26be70173081d0641a46c6
+-  __AUTH_CONST.__objc_const: 0x4d10 sha256:7f0173aaebf8fcd2752373f5350d15f72d9233a50e13753603e66c321559e294
+-  __AUTH_CONST.__objc_dictobj: 0x28 sha256:c90cdf7255b7a61c02c31f5d0c89ae199c44f80270736b4f1e9c8eee6a88886f
+-  __AUTH_CONST.__objc_arrayobj: 0x168 sha256:e5d7e29296880202d26a0d54560fcd9b25c008bb54837373d5525a8d94608e74
+-  __AUTH_CONST.__objc_intobj: 0x150 sha256:cd2d34c21b228a6668a071fa22accf3284c0076ba369b79e450fa886e866305f
+-  __AUTH_CONST.__objc_doubleobj: 0x20 sha256:5eadf66738dde0fabdf5b472a2f091894e7c9c066bc55b03d4dbd41f71fd690f
+-  __AUTH.__objc_data: 0xd70 sha256:18972597e365632a73388ee7909521891f6fcf11c82f07c70c47ad4a8cc32413
++  __DATA_CONST.__objc_selrefs: 0x2420 sha256:a926d8bff0d8250a003a67109276a40a84aeea004c84e64f675471032c66df43
++  __DATA_CONST.__objc_protorefs: 0x18 sha256:0d74c711d1b71b07370dfce4af3b8de8a86c551201d5eb2115664cc6f8618325
++  __DATA_CONST.__objc_superrefs: 0x140 sha256:150a90d3432ffdb005c2eed19166ed285acf0cb471f5aad5d1035032ca999f62
++  __DATA_CONST.__objc_arraydata: 0x168 sha256:d154c8f0125adbf405acdce50ad1e564e78026c997ef4fd5dedbb2b67bd2c942
++  __DATA_CONST.__got: 0x250 sha256:baeb95a3867688096a5fc931be2310c0a364b894fcdb6e891c37775cd30023cb
++  __AUTH_CONST.__const: 0x60 sha256:a573b2800eb893f49feba244268c44f5408a7778b3058142e02240cc7460f552
++  __AUTH_CONST.__cfstring: 0x3540 sha256:1e3339737ac07a52cb5ff84e45ab60507df17224f76a90fb218f488f27930ab6
++  __AUTH_CONST.__objc_const: 0x4d10 sha256:19c6ae285fe1ec4fe2ff6763f06b936ff2437270827900f15c6cd5162c3905a7
++  __AUTH_CONST.__objc_dictobj: 0x28 sha256:556cc6554b8fde882a63fd058b1ec06474bd6d47856d850e779d92971b0e0403
++  __AUTH_CONST.__objc_arrayobj: 0x168 sha256:85d4f145fdcad722bc49563270cef3c5f1c41ac3c3f1a727c0bea2e291fe5698
++  __AUTH_CONST.__objc_intobj: 0x150 sha256:5b8a300b31f81ef302e5968bf211f75fd844692eace9a5f06b0f14d33920e95c
++  __AUTH_CONST.__objc_doubleobj: 0x20 sha256:98c7fc1f4d53ea04533e520b8dc2bb78c686c07a183f77493d806c6eb810d2c0
 +  __AUTH_CONST.__auth_got: 0x0
-   __AUTH.__objc_data: 0xd70
-   __DATA.__objc_ivar: 0x300
-   __DATA.__data: 0x1398
++  __AUTH.__objc_data: 0xd70 sha256:2585ab45d8abc4e4d7d1613cb11ddcae9eaca7ad958bedab971745e6cd069894
+   __DATA.__objc_ivar: 0x300 sha256:2bc533609794bba904f32a706b99d442701aa514841c41b6b92120fd13c21015
+-  __DATA.__data: 0x1398 sha256:bb2d3e268c3067f0faeef49eaa1a418df3520154bf1d4b4650ebd45924053411
++  __DATA.__data: 0x1398 sha256:7540bb7e6b194916b820d9d861429c9f263a514f7408147571c1854f7b787f3d
+   __DATA.__bss: 0x390 sha256:d2710a3a6574fc3d509a62191d8933226f0046f7ffcd83fd8de6866684c5f73e
+-  __DATA_DIRTY.__objc_data: 0x140 sha256:dfac6aac2d4df613307a2944a474ab2a8c8a16c08c82b64002f7b089506f62dd
++  __DATA_DIRTY.__objc_data: 0x140 sha256:ef4334bb7f219de54fd401835993d8b757252b99952a9b851ac9d5e72766cc37
+   __DATA_DIRTY.__bss: 0x20 sha256:66687aadf862bd776c8fc18b8e9f8e20089714856ee233b3902a591d0d5f2925
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
 
    - /System/Library/PrivateFrameworks/SoftLinking.framework/SoftLinking
    - /usr/lib/libSystem.B.dylib
@@ -61,92 +91,458 @@
 +  CStrings:  2145
  
 Functions:
+~ -[CoreIRButton init] : sha256 9abb034b69a1807e53ab8f540f10654170181d37ca772c556d4b3806cb21b632 -> ab100c269bddc4c5c2c4edd77b9cf14047a161eb0958c235860c353826a3d886
+~ -[CoreIRButton initWithUsagePage:usageID:] : sha256 ce95c2acafcfabf646440c7862686932484c8a0f015b4f287cf0fc777480e569 -> cb4fa41e1b4ea39c0ffb996a9ae3a9be4b2ce781b6c435ea889663b80585a933
+~ -[CoreIRButton initWithCoder:] : sha256 90dae66739063bf852c10fce2e0b52762c7b0a9372f62d0e598a0975dc38db70 -> 2b6ae6f7ab9178b17d9df1274073d4049edc4a9ffc7fb55171f6ce1ddb898ff2
+~ -[CoreIRButton encodeWithCoder:] : sha256 c69dce8c7c394821308489f978c225dacb9307953dd15c87f04d78a290902b4c -> 50b61b91bc73a9d74becdf417f2362b49396b2eef6d3d6073e8cdb1a5b81bf1b
+~ -[CoreIRButton copyWithZone:] : sha256 75d443de82b4982ee91ce6b117d0c98d014f2c8d7eeb87b28ce4908311ed845d -> 5187dbfa47f6fa566bd00494fa610142561fb50d46e8797f25143713dd600a59
+~ -[CoreIRButton description] : sha256 807971c81a338127bdff19b6a07ee298a2fb4d7b7f561c92a4a968662226a0a1 -> a1ac30c8fa3dadf2f6addf7ecc0a8fa66aad625baa8a222968c752da366eab12
+~ -[CoreIRButton isEqual:] : sha256 dfaaa12dbe23217a887d038e08272b8034de433e65ccf270cfb1cf8b282b2c5a -> 07f25a8fadd0f805374995babbb692712b62e3a8a9aeb3af58991f91adcfe340
+~ -[CoreIRBusClient classForCoder] : sha256 28536ef6e73c3f89e1dbf7b9196ad10796c62408d93133999b733d37ac1ff59d -> 717aede46c455c270493a0a10999cd006c212fd4d7ccdc15a104a93824adcc24
+~ -[CoreIRBusClient addDeviceWithType:matching:error:] : sha256 dfab160bf505dbd7881991b3dcc1b9c0ae856e75066fa7f9c539dcc1755abd21 -> d27e56dd7d60d14335d0495d97b4f2edd8520b8d94bab1024f63b375f447343d
+~ ___Block_byref_object_copy_ : sha256 e65a7bcb6671cca49409917b4e97ae631a9f0aaf5979bfb1e9cc3c59fe1f5617 -> 60dddb1b78ec1d7833c145b7db139fef56210b144c65ed8d792f2f936e4d049e
+~ ___Block_byref_object_dispose_ : sha256 103c790cab1cfdfd86ec39519bd4d16742107722305b87e52b5194f187ab8359 -> ca8ee688598c6c0c06a4424fc2e855fab1d4c2980b4c14d2df89c2e3480ce86d
+~ ___52-[CoreIRBusClient addDeviceWithType:matching:error:]_block_invoke : sha256 77154aba6580997dd7a45af9e318af9140748c4dafa4518563d4901fe1316bab -> 89b7d1860636835cc27296bb2978d43f63d603c2387f0f7303a8d90366c1b6f3
+~ ___52-[CoreIRBusClient addDeviceWithType:matching:error:]_block_invoke_2 : sha256 90ecd2c824197052c7b6fe0d48ce5939766c2c5dc96ce82141dc3c4cb8a16627 -> 73ea0596a7f43fcf6423faaeb359910965b238c14306d4eada058216071ea2fa
+~ -[CoreIRBusClient addDeviceWithType:matching:learningSession:error:] : sha256 9f7250eb6be41a22b83059c6f2b64cf233b49a05f1bd6ef56e00ff28a51b828b -> 02bfbf834da6d8f5332cefa830801e9368bc48a41c8f1c109f82e1d2789a12a1
+~ ___68-[CoreIRBusClient addDeviceWithType:matching:learningSession:error:]_block_invoke : sha256 f1d2169c5b375c13e4f897ea628d510c1ef81ac0a88099f682d5f06517e80c80 -> 44ed37ba44b95598604a9f175baf82d8b286e60890ab6276253c5398b09bc545
+~ ___68-[CoreIRBusClient addDeviceWithType:matching:learningSession:error:]_block_invoke_2 : sha256 f7cde81061e5ae23786be3a3152a71e08c26bb0a66607e24242abc0366a7755e -> bd7b860acbdbd6010a04bda40e35e1efd2834619ec6dcf60385eceb11a489993
+~ -[CoreIRBusClient deleteDevice:error:] : sha256 3ca331bbba830fff227dc8f291188af18adeb037038983e48f4bcd7fef92cd3c -> 8db53fb62685e3b342e552fcc9fb113ffb5e358a0e40737f20a6f0fed9303f09
+~ ___38-[CoreIRBusClient deleteDevice:error:]_block_invoke : sha256 d05d5c6ce30930abcb41d575c616a525c11749460d9011b86b77ca6db23a09d9 -> 0cfd683afa5e11d2dfe1ec844fddfd922dfd0a47e405db171f8aed9a88961f84
+~ ___38-[CoreIRBusClient deleteDevice:error:]_block_invoke_2 : sha256 e3970e81e34d92c434cb0f75b390851455d8488654804fac87f3147a365ff363 -> 98535df2357276064a93edc2bd0ee2494d3dec92481db41ce6670570a903520f
+~ ___53-[CoreIRBusClient setPairState:forAppleRemote:error:]_block_invoke : sha256 9f0b6f1b942dbb1c53c782bdc864a7f18d5eca93258fa00c3d669a8387382809 -> ab367009a34a6f24006e8bba7693dee687b7213f78fa1b987df04ca1e8723fdf
+~ _OUTLINED_FUNCTION_6 : sha256 5a0810d4f793f6196fb2f60e9591e95a7c7710f4210a4d663fd81ec66e95d5f3 -> 14b1514ad78b80ef0c4869afc13f43bc466f83841b1ebbd3bccae8e277a8b7a9
+~ _OUTLINED_FUNCTION_1 : sha256 142bf6fcb959704cac76c477f08c8db093e82f5c8ecdb98b4ee48fc91a7f1270 -> a21398f79b193eb5c8ce5e2965690ce0febaf7788ad2b6d6c4f48e3925b66160
+~ -[CoreRCManagerProvider(CEC) initCECOverrides] : sha256 ee3c0dad9d739bb3c964feb3fbbcbc1127aed96559272ab11c0694c2957e2e90 -> 515781a3adf3e0e2374c1c0001dc21a5cbc47a99402e8ee52831fa159cb2dd6d
 ~ -[CoreRCManagerProvider(CEC) addDeviceWithBus:logicalAddress:physicalAddress:attributes:message:reason:] : 356 -> 360
+~ -[CoreRCManagerClient(CEC) performActiveSourceAsync:withMenus:reply:] : sha256 01ac35466189e325c53acd55c1b518be1791577c8c3a6ebf9d3bd242a8e53307 -> d3d60d9ee1a11cfaf2ef15b8851ee7caa78f5808881d9d40f7639f4f0d86f54b
+~ -[CoreRCManagerClient(CEC) performDeckControlSetDeckStatusAsync:forDevice:reply:] : sha256 52aad52b34af780978cba3a8bb1f68cf1aeb0b9b8f4e80242fec8c28a5b5cd23 -> ff72a89f275d2e39e3548a5d8a00dea3f13d47b6de693d1b4f21b32fc63258b8
+~ -[CoreRCManagerClient(CEC) performDeckControlCommandAsync:controlMode:targetDevice:reply:] : sha256 513e4cf06890f5e1204da49683f4353b96813fae03d1154476e2dc983ff584ae -> 6dbb39d75afb55cc522b13e654f296a0a182fa59a0b9838c84fc1f5bc617c7c7
+~ -[CoreRCManagerClient(CEC) performDeckControlPlayAsync:playMode:targetDevice:reply:] : sha256 cced6502f5a6813648724336552e3404cb4e13a676fbafb4b39f38e8ad7fff50 -> 767fb5edcd918e026716ffc6af22e47337db336536bbf75983bf9b1ce90a6d3f
+~ -[CoreRCManagerClient(CEC) performDeckControlRefreshStatusAsync:targetDevice:requestType:reply:] : sha256 7c6a08c55282d8b74fc59a27f41df5061b400081e077013353a90e5ec659d635 -> a68873e80a367d52d888511f1a5270b33bee712b72f9bdd524b3747dfd355260
+~ -[CoreRCManagerClient(CEC) performInactiveSourceAsync:reply:] : sha256 9c9ab5f0d6a609df8d564fd7a62c9ad3b8098d332491d8b26dd61932f44ec56b -> f6c262ec7b5529c03b9689ae5472e0d49a316d6cb5c68ee06757133fdbe56736
+~ -[CoreRCManagerClient(CEC) performRefreshDevicesAsync:reply:] : sha256 64a586304c72148137426e2ea2ba1d9b1df35b0236fe6b884b05852a027e8438 -> 6a487a0b95c4f10a584df42d363575c76ca26223c4a399c47498edc9455fe04d
+~ -[CoreRCManagerClient(CEC) performRefreshProperties:ofDevice:withDeviceAsync:reply:] : sha256 6a85ff8fee10f70b2d0d1f70205d612c34ab1a08ee20a480fb04149a9a571795 -> afc3ac74724a57dce2276a4a8f1acc5ab793386d5afc868a64c05bb6b2b5e7c9
+~ -[CoreRCManagerClient(CEC) performRequestActiveSourceAsync:reply:] : sha256 6bf0c41f7c8427bcba06d6760202cbb752cc94ea23a46c556e8db67b7dfa750f -> 4b84292808c9edc389b314c6501b3695c7120ee2792c04153b65213c7cbfea6b
+~ -[CoreRCManagerClient(CEC) performSetSystemAudioControlEnabled:withDeviceAsync:reply:] : sha256 1f0d12be470f9b37a2ae88db1919799b0947efce26108f6a5b35199b4096ddd7 -> 6c6c876ba0ed1efefcc08f53fa646c9b70752f686159787a754bbfd0759bfe42
+~ -[CoreRCManagerClient(CEC) performSystemAudioModeRequestAsync:withDesiredState:reply:] : sha256 296cb0206317e23246123d7d5f77d225a6503019f3dcba21887456c803229bf7 -> a4a94534a2d775dac6663c104b29008b223087702d9d295eb4fc5ddcaa377ea0
+~ -[CoreRCManagerClient(CEC) performSetAudioReturnChannelControlEnabled:withDeviceAsync:reply:] : sha256 4f7a3e2f6679496b23364503d20e94642e7e15d7247a3199e28d403cbccb03b7 -> b06c10e013d4693946cb49fc991194b9d273c8deac569bc92142a5c4c2c64447
+~ -[CoreRCManagerClient(CEC) performRequestAudioReturnChannelStatusChangeTo:withDeviceAsync:reply:] : sha256 2ce73ce7b897af5db41d4f271a4b9fc03cf083ea050ecf3580cd9f12400add0a -> a7a0e23633f009af493ab56d149e6ebd3f83a8ea9878a59aa4278d9e1fd141b3
+~ -[CoreRCManagerClient(CEC) performSetAudioVolumeStatus:withDeviceAsync:reply:] : sha256 5658efdd77cc9dc81d27b878c388732e415560bc0dca3f51f9898620c5644bb1 -> 5fbbf9d9bbb1a4dcc0741d83bf538604dd2a1c25b75918afb465b477ed569c78
+~ -[CoreRCManagerClient(CEC) performSetAudioMuteStatus:withDeviceAsync:reply:] : sha256 1418fc76bb7798772431ba1a7cbdaf02629f5fbc14f7b14ba5609cee910027fa -> 3eca73ed9fb22e894fcbd80aacb0c7b3be056c2c3e63ccfdd4e68cbfdc1ba0e2
+~ -[CoreRCManagerClient(CEC) performSetSupportedAudioFormats:withDeviceAsync:reply:] : sha256 3dc0faf1047a00a76299eecc736992194ac646e904f8001b267133dec4271ff4 -> 5ec72f2be9846b70ca26906b90694673d621a950d3ee1dd0930f7307b9ce3a80
+~ -[CoreRCManagerClient(CEC) performSetTrackAudioStatusEnabled:pressTimeout:pollInterval:withDeviceAsync:reply:] : sha256 e802f114907d10813c11ef133e6a6c8c8d068619bf3eece657fe3b558bf0b8de -> 73e6b70a13f83ab85e5f002887abaa1085eb934cd636b32688abb6469833fc3d
+~ -[CoreRCManagerClient(CEC) performRequestAudioStatusAsync:reply:] : sha256 5e86e3202b4643542c1de51b531d7e8d67e7c4071055cfe2adea54e884bd2e8a -> 25875378dd588efb8bd29a3ebddd9dee31b9fc3c26da3ec61d7ef96c5437378c
+~ -[CoreRCManagerClient(CEC) performRequestSystemAudioModeStatusChangeTo:withDeviceAsync:reply:] : sha256 0af3e13e62e1a6c94dd6b651b8f27f12ff888dffc635779944b3c6540d17ad29 -> df768797c5c86f999878752357993f0a47fb3077d1990b602012cb138438c89e
+~ -[CoreRCManagerClient(CEC) performSetPowerStatus:withDeviceAsync:reply:] : sha256 eaf47e2fe2254ae02da98058b069805cf994b31db071cddb607b66d0d6fa12a8 -> 3a409850a1961ecf8abb6912f4a311c9737a945eb63041f109508d43ab509c89
+~ -[CoreRCManagerClient(CEC) performRemoveFromBus:reply:] : sha256 049ce39eee0be96d277b4e0634d7f2070c5cb5ebac9fb026ee1019834cb263a4 -> d3c14535ced8ed7cc2b77cc5809c695943a96df8dff13d17d33a2bb8d50eda0b
+~ -[CoreRCManagerClient(CEC) performStandbyAsync:targetDevice:reply:] : sha256 994bc2a3afc198980da5aeb151f9e82df6b022d4e7f9c77268afab26aad6621c -> 1617fb507d54e0b39eb10ff006ee995f918c2bd4e5987a7e543da801e6dc31ff
+~ -[CoreRCManagerClient(CEC) queryLocalInstanceAsync:bus:reply:] : sha256 bb685e6df58ebe71573245f128edf1b7dad17847c8427c21a01a7873ec5713f9 -> abe522a245f2ee86d445675f089903458a20fbd61a19862bc9e6f7e4ade3a8c8
+~ -[CoreRCManagerClient(CEC) performRemoveDeviceWithTypeAsync:bus:reply:] : sha256 54fa80f1344552396f216ff82396ae340957c95bb8844734eb18ec7c2104dea1 -> 9189ab67ce490792955b20f1c7c73177f2c5ef659b0396ab5ac55768b0cd6ebc
+~ -[CoreRCManagerClient(CEC) setOsdNameAsync:forBus:reply:] : sha256 f148938abf06459b66069776133c92d9c83786241d17517d3529842352d12dff -> 798fbc4e5a68da6c3227d97fef8a376dcfa32100d13026d446cf6a14072c05cb
+~ -[CoreRCManagerClient(CEC) setTvLanguageCodeAsync:forBus:reply:] : sha256 66777a85f62231880034647ca48f9cefd653ccb8cf3594991a2e22e66fb3f709 -> efd95bdf770bc9e9cd4c46f30577d095ef7204ca89d52439969ca475bf95baf9
+~ -[CoreRCManagerClient(CEC) injectRXMessageAsync:forBus:reply:] : sha256 9fb35506e027d5e6f502220aff1805ebe4dfe3c6134a325dbc16ae45e310e752 -> 3f80d03367a9a2c2a1a0a604eab43cbd3802e17e357beba841cbfe7768253219
+~ -[CoreRCManagerClient(CEC) injectTXMessageAsync:forBus:reply:] : sha256 b679559e79bb74a7e0eb2ce0b729f4322e3dd9ba7d35bac326ed2029218cab7f -> 64d5ac15345eeee9a04720b8282742cbd9040232fe348ab5b94edf94b2f69f71
+~ -[CoreRCManagerClient(CEC) cecBus:activeSourceHasChangedTo:fromDevice:] : sha256 3a532f26688b13f6166bd087072c8bcd7f0b044d5d0c8d375b3299fdb4b1f342 -> 71e7276951ee57ff323f4851b91c68620c5588c3b3dbee3cce411073b0ecc282
+~ -[CoreRCManagerClient(CEC) cecBus:rxMessageReceived:] : sha256 8a330de746eb6e2c11fc10d8748a077a875fadbc66d4e038f9a90b402c0be54f -> 3d96e262b1a01ef1594d2c55f896c748ee56ace5a3bb37262937ec4c8424df86
+~ -[CoreRCManagerClient(CEC) cecBus:txMessageSent:error:] : sha256 3f2ef8edecd6ac58122323f2cb30b421a29f78951eb5343d7ea18abac5109424 -> 3cbfb6ff4a50d70e2c405ecd715e98864cdc8112993e8b4a96a43275e9f1de17
+~ -[CoreRCManagerClient(CEC) cecDeviceShouldAssertActiveSource:] : sha256 9c158ea7c58c2da0042c6c8c451ba0c8521b6aa7de04e78818a9c3d7b5e44b19 -> 102a96792fb6a61949f3512b9952ed99d90153beabcd2086bf1e60efae949957
+~ -[CoreRCManagerClient(CEC) cecDevice:activeSourceStatusHasChanged:] : sha256 8983001da33b73a18b81eddbe901d1233acbdd303f61a6420db845eb1635e0c1 -> dc51b6df0ac43d5282a83d1b1b0711addb063ff83dfcec7e2483441316be63f8
+~ -[CoreRCManagerClient(CEC) cecDevice:deckControlPlayHasBeenReceived:fromDevice:] : sha256 79b600955cf0f20e21d6008d68ad1f084b373fee0b4aeed4e580b9b870f4ed70 -> e98740a6e2a941dc93dbc8f95c0796ed979ef19ebcde81c1249868dc7d16dedb
+~ -[CoreRCManagerClient(CEC) cecDevice:deckControlCommandHasBeenReceived:fromDevice:] : sha256 f55e884bc66b364a17504767e6761a6fc346d410ac2f95ff68327ca8f747335c -> 1ab645012b6e6392ec92b1dffc304cf4e6301b65abc25aeca1852f91bdcc0c55
+~ -[CoreRCManagerClient(CEC) cecDevice:deckControlStatusHasBeenUpdated:fromDevice:] : sha256 3b2d210373600cac6014dd3904d9a3b3b8e129653213d39102f2001117e045e1 -> a0a121fb77eca11fbfa0c689f7b5ca0b39899baeb904770416e310675c20a375
+~ -[CoreRCManagerClient(CEC) cecDevice:featureAbort:] : sha256 2e69f3f3c37fcc4f80cc2e4d959db47c39e563ab0d5d21d18b0247a8d1ee0957 -> a3d0c27f1a9c0f364ad362da2aa47b98e2191525f5cdfe89653fb819076edb65
+~ -[CoreRCManagerClient(CEC) cecDevice:standbyRequestHasBeenReceived:] : sha256 a0bc729b37ba3485ad794cc090360438713fab1744638e6a1209e99814f6f8e6 -> ff9deb3b7eb87fadb24f098a85124324045fff7de1bb88e842b9ac1291f77372
+~ -[CoreRCManagerClient(CEC) cecDevice:receivedRequestAudioReturnChannelStatusChangeTo:fromDevice:] : sha256 98eeed8fb56aa2f14e2b8f970d570a82ff6ed927f0aba87a70504df5cbf1f59b -> 0cebb484797ae0aea68285e3c4e22737067e550737500922c13cc0b40a9f1a41
+~ -[CoreRCManagerClient(CEC) cecDevice:requestAudioReturnChannelStatusChangeTo:didFinishWithResult:error:] : sha256 d056930d9400c39e71301869c2d4b6b4810e3d6eb9f06418d46c13231b854607 -> 4feb57bda334a271f93d117483f6a42ea454f314b5ba05524a19f0464934061b
+~ -[CoreRCManagerClient(CEC) cecDevice:receivedRequestSystemAudioModeStatusChangeTo:fromDevice:] : sha256 2e623c8e7a26b78eb62510ea1f7fa734b994f9799970a942b468923f877419a9 -> 731c12d814b6dd23b3268a540c12a95ab6d919ad30f22af4f27e93689feecfcd
+~ -[CoreRCManagerClient(CEC) cecDevice:requestSystemAudioModeStatusChangeTo:didFinishWithResult:error:] : sha256 03ae5e6bf3ade7576b633e3c9399250bd9ae5a354277b6a55bb0896c3862a949 -> c814d5e1a3c47ea34e32238c890e70a7976dac8022806ddeb51a479cecc7ddab
+~ -[CoreRCManagerClient(CEC) cecDevice:audioStatusReceived:muteStatus:] : sha256 fb269725449bdb32d50eb777ff9156c945432a0a521a4953300f2377437dec6a -> f9c9478aa4c65f0294ba7a00e3b9c5f46a4981959baadd69a9bcafb2440fe83a
+~ _OUTLINED_FUNCTION_1 : sha256 b3815b45c8bec8ba466a1fbdc273a52873c7ebaa26bba47d8c07321f435f8f03 -> 96e626c991dddacff3804c5217a80ca5c87fadf381ab5c8de17cd420e5d090f1
+~ _OUTLINED_FUNCTION_1 : sha256 2fafc2379e1f0a38c500d09cee1113a8eb748b67ec17424c50edd1a2f9813452 -> ad75d5ad8f87ac95c8e306cd7588da4cad287fd1df4351893d4a72d15988d7e3
+~ _OUTLINED_FUNCTION_6 : sha256 acfce38ae4d927e9bda94844160e8a94f780d659cfc15f33c6e95903d782f54a -> 7382d61c71427618bcf179b2ca2b2f9e195e098b5c3e3cbe99b59ed90ae3477a
+~ _OUTLINED_FUNCTION_5 : sha256 74b7e48841eb1cc8d986532ed3fe0e23ea2907cea4a8d9194806efe7acca8b2f -> 8a2813a7fbd54674c03f6360610869f1654cb1a59b016ad37dd924b7f604c037
+~ _OUTLINED_FUNCTION_6 : sha256 3a0a947732caee843cb2616551c6ba2fafc9d63a7c949facfcf712fe3091bb7d -> 4de67b4b1133dc5edc2efe75c07b618b26316abfe44d00db3de50d85b2f7fe4a
+~ +[CoreRCManagerProvider allocWithZone:] : sha256 9dea7d510bf5901ac1be07bc1a04d79c3e71f9dfefd3eb2cd6c85c61445566a9 -> a6cbe39d73d0c98cd468dbe87ad3b96c56c148adf60097cdf5e071d731c3f491
+~ -[CoreRCManagerProvider initWithSerialQueue:] : sha256 e6412cf1a282656491321ef82c7bfda1e68fd422b73886797b3a43acaee30778 -> 0ee2b1f692bfe56b4ed0cd7cc652b35718665ce9070e2bf135b21e81ecffe0af
 ~ -[CoreRCManagerProvider initWithSerialQueue:withoutPlugins:] : 156 -> 160
 ~ -[CoreRCManagerProvider dealloc] : 116 -> 128
+~ -[CoreRCManagerProvider setProperty:forKey:ofBus:error:] : sha256 a7d2477ceab585d319566e2d58059548ed82faee0dbb849ae913498428ade591 -> 892bc389985bd378d8519556d35b5d29b5a2f4ba99157cfa04ba91aaa6083cf2
+~ -[CoreRCManagerProvider propertyForKey:ofBus:error:] : sha256 45ba84a298cba11778ebceaa6cd1046010a0ad4cb526fd32d73ecc90418907b1 -> 5084858662bdf49051f8a640ec403591a530cc14d1aad7a6b583c499ee55b2ca
+~ -[CoreRCManagerProvider setExtendedProperty:forKey:ofDevice:error:] : sha256 99b5c5d9c15d1a1ebea9894e98ec5fbad180f15f34bbcecba714b18749fe2f60 -> c291582e1e7653faada3870b48fd83b9d4d03c95384b8627bf160853b0374054
+~ -[CoreRCManagerProvider extendedPropertyForKey:ofDevice:error:] : sha256 c8f8501ee1ee3fc7e3ec55d127a2823397718e40efc6cd17a65c3fc3702432dd -> 3e50aabd401fdb4d5bbddf663feb0be0d44723fd31776b1941231f744f7984e6
+~ -[CoreRCManagerProvider interfaceController:didAddInterface:] : sha256 8052d3f829cbf9fe800580080e772146c0d026b78faed87e8d916ca4c36a2ef6 -> b022c7c6a504f8f27f971411563af64e767745ed90f99a528f5a4633e8df4d9d
+~ -[CoreRCManagerProvider interfaceController:didRemoveInterface:] : sha256 759a1e9eb6aa2237ad17a3a38fd76db33de75c1c148e3c9eaa6cbc14055b6dc1 -> 4ca42a99c8e9f1276567e47d6cb26a22a224b8992ca3e0da4824e6834905f4e7
 ~ -[CoreRCManagerProvider createRCOverrideFromPaths:] : 408 -> 412
 ~ -[CoreRCManagerProvider initOverrides] : 824 -> 832
 ~ -[CoreRCManagerProvider addDeviceWithBus:transportProperties:error:] : 400 -> 404
 ~ -[CoreRCManagerProvider standardOverride] : 16 -> 20
+~ -[CoreRCManagerProvider setStandardOverride:] : sha256 b17bcabae14871022304abc6fef5992740361bbeea2991ebe451cc8522783474 -> 5396aeeb77b43bf7f2c783b9957ca72ba6938385f26a2a279db16ef9babcf3b3
 ~ -[CoreRCManagerProvider pluginOverrides] : 16 -> 20
+~ -[CoreRCManagerProvider setPluginOverrides:] : sha256 2dfc13cc6802ab7cb4a577640928af4d96b6ac90190fd3e9a747ab3e91432811 -> 44fca0f4b1b615ddc9bad0214e975c5ae59ce075202b5717646cd3c7d16358ce
 ~ -[CoreRCManagerProvider interfaceController] : 16 -> 20
+~ _OUTLINED_FUNCTION_0 : sha256 1ac44e517643d89c2bc1d73bee57670b5d0f9d06bdc73af84e16aae7d23033b6 -> db6284cfa020c0be02a20240edf3563dad96ea5083cdf52ab35a3d58407ff1d2
+~ _OUTLINED_FUNCTION_1 : sha256 e8db73196cbbb916494348c0dcf78da526c808682ce9f16745694d36a63bb63b -> 144dc1e6adb3428e06912f98c26788ebdf332c56d3421f89e7122becc22ad1fd
 ~ -[CoreRCInterfaceController(FakeInterfaceListener) fakeInterfaceListener] : 272 -> 276
+~ +[AppleIRDeviceProvider load] : sha256 d2cb77baa2e1b3dd4233670429facae459f3649b267d2d18f96e961b6faecffe -> 9d63855d6b80a8aabdf4fd5fe6b5cdc3cb6499a0bb2c8b91cef9f84d55ee9b84
+~ -[AppleIRDeviceProvider init] : sha256 ea3984c99ddec7b58149768804f01489a7dd07c72025ba971fa33cee94c1674a -> aadf07603a885b36db35a59b31895644957c4518c125c25ce693118c5662a7ef
 ~ -[AppleIRDeviceProvider initWithBus:deviceUID:] : 104 -> 112
 ~ -[AppleIRDeviceProvider dealloc] : 84 -> 88
+~ -[AppleIRDeviceProvider classForCoder] : sha256 1252661187200f4ae91eb15c54fad46b42a68b139ea1803face0b7f2575ee411 -> 3de88a387cd008df91720d4866243549fdd98bff194d91310c146a8703ea8f9d
+~ -[AppleIRDeviceProvider busProvider] : sha256 a866681fcad73a89719660814105ba13f6e220a1eb31b0f8b894b95461277de9 -> a704b0d5386e266c6f55e9ecdc01cb8097a9cdf1359883fe5961b450f15ab2d4
+~ -[AppleIRDeviceProvider vendorID] : sha256 6b3aa992fae539a93c99f70542d2f1129e6c53851162ee37bb8b3627a13ee182 -> 8a16ade8dcaa462cc70dbc0f0439da36270e8a3eac9c4f010a230754e9d7e11d
+~ -[AppleIRDeviceProvider setVendorID:] : sha256 39b4749b5e875db31f265c8416e414363bbdfe94d0560361f6dc7dc8b3818d61 -> 2e4ee543a28731e2e76f8ee3ec9f790f51332ac07ec742265b3a589c89942342
+~ -[AppleIRDeviceProvider pairAppleRemote:] : sha256 08aa63232cc4e73694eaf7a81936abeee009f41fc737cfc43252c6da3d06b8d7 -> 4d5cccfb6006015d7c508afa19ce43862703dacef255576468e057710a2c7dfb
+~ -[AppleIRDeviceProvider unpairAppleRemote:] : sha256 a548b544fba8471390dc19e66dff9155c33bc0f4bf8ddb2b27f843b565a18755 -> 039efe510f375718a5de18edb856eb9777a9ea06e42b472ef142d4c4bc5efc69
 ~ -[AppleIRDeviceProvider dispatchEventsForCommand:toDevice:] : 1400 -> 1424
 ~ -[AppleIRDeviceProvider _dispatchEventWithCommand:timestamp:toDevice:] : 312 -> 316
+~ -[AppleIRDeviceProvider _dispatchAppleVendorEventPage:usage:timestamp:toDevice:] : sha256 0d8121e31d4834ecea27c991009de2b550f250693266828b014e6d7a37139876 -> 83ca1ea1b09d9b37b0a81f2a4636f0187380a255a94dc9358b66f010a65ba36d
 ~ -[AppleIRDeviceProvider _synthesizeButtonReleaseWithTimestamp:] : 256 -> 260
 ~ -[AppleIRDeviceProvider _schedulePressAndHoldTimer] : 180 -> 184
 ~ ___51-[AppleIRDeviceProvider _schedulePressAndHoldTimer]_block_invoke : 156 -> 160
 ~ -[AppleIRDeviceProvider _cancelPressAndHoldTimer] : 24 -> 28
 ~ -[AppleIRDeviceProvider deviceUID] : 16 -> 20
+~ _OUTLINED_FUNCTION_0 : sha256 5a35ae22d82d19c263d66d4ef0e217b419c863e2f51e4ffc27442238a2f87b2f -> 496deddd91a1e9250f9895b052b0eeec06c70c03ccf5211aa86fa9e18a0c7eeb
+~ _OUTLINED_FUNCTION_1 : sha256 a16920d74a45ae149d37870a94aec9a044e929a60de19191c0881304f230c7c6 -> 7ba7264619fc6375dd11c24c6df59a19f1460f8679453c257f70f2b43712e354
+~ _OUTLINED_FUNCTION_2 : sha256 bfeab5957869a9c6058069c113e392262e19a8e868b6d2ac959bc49dc3534057 -> 482bcfd0d69a159a9ab5babeb65d9ad04d2d0b42289b8e5892838e794f684c5c
+~ _OUTLINED_FUNCTION_3 : sha256 ea1269e876dc8a3f15f7380eeb5cb4287855dc87c16becd8de2490ea922af9f5 -> 99efe0566fc902560fb54b0252f6ecaec14b862fabb1f38cd09fadd9c8bfa466
+~ _OUTLINED_FUNCTION_4 : sha256 b22bb707117f84d276ec723fd4ae6bf2fd4f6b79c7b18a166b8f60abeb131281 -> d03d9ff631416ce4c2a28cb2bedef528cf82a4a64a1338a1ddf0d808fdf81317
+~ _OUTLINED_FUNCTION_5 : sha256 5f0f535fdc51f5675f74d871a6a8462ebce7320001244ee96a47545e8c9a71e5 -> 39eb1e90fad663de14e9d9baed4b023ed4d779483509b92e0ae62066c731bec8
+~ _OUTLINED_FUNCTION_6 : sha256 6dbabb5c44423ec8b3e00008263f1566eb09451b57b57f33f6dca503347fa69e -> 4dd3206ec9edf90ff1f3b65177ab0b476ca805e23b330d3deb53d5ff2337abe9
+~ _OUTLINED_FUNCTION_7 : sha256 d7d986578457c8bcb3854187ba02daa1f5db282188f6c698623032c95b5563ab -> 1df2c5d52190052f3b9a394b5c0efb33f5914e2d592ada7c7d4ae0e2c04e934c
+~ -[CoreIRBusProvider classForCoder] : sha256 0c8360efbbb15b5ea340c0c2e30e36931b7373a82e576938b193cc9301734869 -> 3cc5afc90e6ea53450e0ef1be0d5c667da0421ee2c65757daf1f243f548ebf8e
 ~ -[CoreIRBusProvider initWithInterface:] : 360 -> 372
+~ ___39-[CoreIRBusProvider initWithInterface:]_block_invoke : sha256 f0bfaa7ea3066c06a3a18063212b107a1ef0f1c4e615263a9bd0e7505252d6d5 -> eec96aebc60352b05cbe1f0ee44918fb1de97f177de980969ecf1bece21fcb21
+~ +[CoreIRBusProvider deviceDictClasses] : sha256 9141fd058e54e4d9e0e5ef08fcffb210047859110eab2b1841562075aaffc859 -> 8c6dc9606a5a466e428ae4c56363c23e3f09722f5cde01e59a16524a2b1792bd
 ~ -[CoreIRBusProvider dealloc] : 112 -> 120
 ~ -[CoreIRBusProvider setManager:] : 148 -> 156
+~ -[CoreIRBusProvider willAddToManager:] : sha256 db665343426643a98a1c0b862d63c27989e08f1419cbf10493ea33f4fdb1a1b0 -> d041e5505c21874d1b81602211369d3e6d250c10d130ad6b1c0d510affde16ea
+~ -[CoreIRBusProvider setProperty:forKey:error:] : sha256 5b6258d0a146ff22b382d9a225d261889fb88813499d88abd6a3597f072fa299 -> 47ed3b57b90a18a7a4b813d59b0cfc50658fc21d97a0bf036d47475bd82b9525
+~ -[CoreIRBusProvider propertyForKey:error:] : sha256 9814e0cc698c0ff5254e1f968e2eb8ae98a7caf98453722f73761823c3a5bfa7 -> 08764cb2ad3ce5cb5478205ad7a9c25377fa4bbca7dff21ab8b42f8278c1d012
 ~ -[CoreIRBusProvider localDevice] : 16 -> 20
+~ -[CoreIRBusProvider didRemoveDevice:] : sha256 ba73de82bb1caeb9faf026e6eda0d296ea7835a114d5c4a44670eca58811d7f4 -> b8aae721eade4210933d882c030c245ac6e1b670fff7b5fdd34ffb14a262b8f4
 ~ -[CoreIRBusProvider updateAllowHibernation] : 408 -> 412
 ~ -[CoreIRBusProvider updateLearnedProtocols] : 388 -> 392
+~ -[CoreIRBusProvider thirdPartyRemotes] : sha256 270530a89b2c61a513743f8e504ee533c905f9d028cadb413057f4b61e00c957 -> 14f3d9771da586ac92a1e56ab32413d5c2db0f8dae2d69edeb468be28c4c239d
+~ ___38-[CoreIRBusProvider thirdPartyRemotes]_block_invoke : sha256 140a16a9f94dea4ffb59e40ab3344e62d9a6ee4fefc134e8925fb39fab7d8b57 -> c48bd4becc041a62aac5ae94929343534c1f0340a67c09407247159750fa9b7b
+~ -[CoreIRBusProvider addDeviceWithType:matching:learningSession:error:] : sha256 a0802c7f11d8d236a20dde17d9fee7f748f2ff4c4690a98292d455a77fa95ec4 -> ce8715fc215ba1e8451cf428f8b418cb6d436c85f9e8b481051bb7e0d9557c90
+~ -[CoreIRBusProvider _addDeviceWithType:matching:transportProperties:error:] : sha256 a2d858c56d03a0106055e83deabfce0f995a703b462837055da735ca75dd015a -> 04583bcb3a350f435f353eba923d7570b3dc5465092d6c67c9e6c58b97783c16
 ~ -[CoreIRBusProvider getExistingDeviceWithType:matching:] : 380 -> 384
 ~ -[CoreIRBusProvider addMappingsFromRemote:toLearningSession:] : 920 -> 928
+~ -[CoreIRBusProvider _recreatePairedDeviceFromDefaults:key:] : sha256 cc260459cd9473de15315f69e441ef613443e3d7d4f8e79636f0aa1cd61c1aa4 -> 6884f2dd9758a6eaf4c6254915f911ba3631eb9350988092aed1f1aac096ba90
+~ -[CoreIRBusProvider willRemoveDevice:] : sha256 568127179339e4874a74d214f744130698c274d1d886bd9629c550fb3e174ab8 -> c4e3a4f0204e7cb4ae607dac1ebfbbef43f76f1196a4e929cab76f9fc3218de3
+~ -[CoreIRBusProvider saveDevicePrefsWithDict:error:] : sha256 eddd92fc8c23450b68bbf52de7992dc19bf3fef0ee16cbcaed6934ef78dacaf7 -> 1ccbf0ae572f7fb3fd2bd73b3b0a9dfd2caf40aba424d047ffa43f81051dadef
 ~ -[CoreIRBusProvider deleteDevicePrefsWithUUID:UUIDKey:] : 692 -> 696
 ~ -[CoreIRBusProvider setPrefsPropertyForUUID:UUIDKey:object:key:] : 840 -> 844
 ~ -[CoreIRBusProvider copyPrefsPropertyForUUID:UUIDKey:key:] : 480 -> 484
+~ -[CoreIRBusProvider updatePersistentValue:forProperty:ofDevice:] : sha256 f2cd00bebca3f9f00ee0d47e955ac38906b1114ad6183b2137ff21eb849a0816 -> e45b08d11527496d5052026ecf1d2932bc51e00586acbe975e6c2f2d78a3351f
 ~ -[CoreIRBusProvider mergePersistentMappingsFromSession:ofDevice:] : 692 -> 696
 ~ -[CoreIRBusProvider interface:receivedCommand:] : 164 -> 168
+~ -[CoreIRBusProvider appleIRDeviceWithUID:create:] : sha256 705ac1953a5018fe8601cc7a19ac6fe4835d268fee0b0ea15e9f9050747061cc -> be7640c23d85bf9949a87dcc6fc3600b81ba62d15040bfed2424ea5e90269076
+~ -[CoreIRBusProvider _findAppleRemoteWithUID:] : sha256 6c41e8fe365216fb72a05388e415e744e10f52a055b7c938601c9caf508c678f -> 9677b36706a08e94fbe7dcb367f9521a49a976344274af78816fa33eea55ef40
+~ ___45-[CoreIRBusProvider _findAppleRemoteWithUID:]_block_invoke : sha256 cafd8ac0d245db8769dc703adeb7b7b31a76c95a26d0ec88b59ae394ab7f8304 -> 072a39c939cc93db1fcafe1b64167c04fe23d310c971410e9581a594d02e8263
 ~ -[CoreIRBusProvider interface] : 16 -> 20
+~ _OUTLINED_FUNCTION_2 : sha256 864448027105645357f0982bc213a92153751be84bc188913c72c723b28049c6 -> 5ffdd9facd6754954e5428dfc43d121b8028358d09e2962c41a1e6e9ccdc3001
+~ _OUTLINED_FUNCTION_2 : sha256 738e82c0b227cb224411826bc90a4bbb12aeb5d0d28e26b29e484bb3800ddbe5 -> e4a8b2e5073ae1041f88ea6f684d8f79d28a624fcd1818c7460ee0c06c8869d4
+~ _OUTLINED_FUNCTION_8 : sha256 7ba59ab7fa613080b46a286b907ad3291b47c4943a50ab46c1da6d58c5b676da -> e476769d45ca7faeb5ec81741d8a3100879ede97335e2dbc297def60da2d9004
+~ _OUTLINED_FUNCTION_4 : sha256 bd08779a14f963e723084fbc6bbc46db02f1a9e9633b06f338109fc1e4a4b681 -> 9bd19614f593d73eca55993dbcd6526ce0e8cc65b95a92fedefb464dc59c0865
+~ _OUTLINED_FUNCTION_5 : sha256 149e5550482fec3d1567e4dd9fcfd045cbd3d8f759572d813f288d294c1b9b57 -> 80abbeb16ae04d3991f6defad8d27ba81e10160fde096e3207ed7ab7bfbcb9bc
+~ _OUTLINED_FUNCTION_6 : sha256 59b7e9bfb74fb06a9697e24c1558675a9922f78ebac52f3e5ac8d1486195eca5 -> b557bc14e9d84887dd371404d50238b9a5944b26a9a65608b85a24d253f8beca
+~ _OUTLINED_FUNCTION_7 : sha256 987f50ae90058304acace71638c74291ab9efae501308606ced694651dd63194 -> 6336ce3cae65e01f2deada97b302ea20c5c40e47b08ce454091d7c983855147e
+~ _OUTLINED_FUNCTION_8 : sha256 802f6e2f6e50ab14df52d35fba7c33483a4927890c9fb786b447af8970cb086f -> 373d078ba1580474cd8eacd56926b6be5217352dbc7ba105ef9326ea300bb36f
+~ _OUTLINED_FUNCTION_10 : sha256 7ee799cdb0f424258840fdb51822f1483419586c2ae29b301bf71b591a8010b7 -> b0b7bf88aca51e419ad59e1600af4f8c09f280c15d1e20fcf61acf84af4425cb
+~ _OUTLINED_FUNCTION_12 : sha256 601a97c4914fd83a75c6c078191f12b69a18b1145da55d03034baa9569f14403 -> 3dde71a37de55facfeacf12d11e0b2bb3747f0e182159857f84f08054ad644e0
+~ _OUTLINED_FUNCTION_13 : sha256 7db779d25988d9c3f852ce1922a84cce5ca9845543834251e97013ac9937e93c -> 179eb91ff36c5a3d20c6fc7ba5918765ede0574eba296266490d987a42588988
+~ _OUTLINED_FUNCTION_14 : sha256 4a7ba813252d7ec7621afbf9b1af144c0e8daee0e6a2d0f987e39a518fd64ca4 -> 02698a8ea91b461bed04bb58fe23d1e6da242a473c8c11cc25b32cea77d4087c
+~ _OUTLINED_FUNCTION_15 : sha256 31fb622c481d09ddfcbebd641542b227b486e76d232f0bcf76516cbd7552da95 -> 46ae5d5b1f255c8aa322f8ee9cc4a1bd6c282ae925b36867bc2fa9e04108ca46
+~ _OUTLINED_FUNCTION_16 : sha256 220e88687d7a2c0ea1f367ad5a0aaa0c2e355e92aed8615fdc5bcd55b8326365 -> 29ade93f6880ee76c2cfc48db2e5754413ed9dc3de1f766f1d006ee19fa69de5
+~ _OUTLINED_FUNCTION_17 : sha256 dc06e3b20a8cb12e425bffebf2195e82e0fad3cb8d9114058e659301d8cfd0d2 -> 9aa6a2da3b536282f8d3990e2eb2e8b8f5489e7c2b5e625782f20adf374034ec
+~ _OUTLINED_FUNCTION_18 : sha256 8f0e42157e36407a3029beb9297f0ac65b2c8a162b113836c20e9df1b2fa8bee -> 5d1d296ee0030111c00250a4ffea51bdd2501428cb731e3cbd58c4e311aa3de8
+~ _OUTLINED_FUNCTION_19 : sha256 07a57ad3f1745270b1b02d540eed518afa1ce44ec6e4e6918d2f72e3cb44a6e3 -> 8667042ab97321a6d38d00a6f681e5eded9181ef5cbaf9aef90763228359ab41
+~ -[CoreCECDevice(Analytics) analyticsKey] : sha256 33c0a1614338c8c971d7f90a938b9cd795e956514fd93050107e7e4147ca867c -> a9b793744dcebaaad9f3d459f2269b6e36a592731e4edbea2d3627a72841738d
+~ -[CoreCECDevice(Analytics) analyticsDescription] : sha256 c473a313dc9b73793a6570cbf3436749313572d24decc3693d36017d511d654c -> b4607df78b74fd7d694128b8d516aa1ad15db92d72780a2508ad2cd4e38948e6
+~ -[CoreCECDevice(Analytics) sendAnalyticsForErrorString:vendorID:productID:serialNumber:week:year:monitorName:] : sha256 6ebae9f068dbfce940404fbd05949a4486dd5e9ba97f1ded5f063fd85f2f3dcd -> aedcdeee904046c2b3052695484cca29bfa5ed9b3732c9011ec95e6582e62411
+~ -[CoreCECDevice(Analytics) sendLogicalAddressErrorAnalyticsForMessage:] : sha256 f4bd7119aebeac99cf0bd8a07566d61f133928c83a901f148d06a442e66f97eb -> 3b69cb3eadf1cbbc15eb0eea5a3472b243f23e53a20a8c3fda25ab75c4361ad8
 ~ -[CoreCECBus(Analytics) analyticsContext] : 296 -> 300
+~ +[NSError(Analytics) sendCECErrorAnalyticsWithContext:] : sha256 15233e9a592136b0309355d90cea2be23de259c851f3ab02579a6ab1d7b28632 -> b5126856f19c9a54e5481517ac6a4709ad6ac5563e4c0841ba5455ba1513ef63
+~ -[NSError(Analytics) sendCECErrorAnalyticsWithContext:] : sha256 f0977d1296314b5491475977266c63464f79b1bb29144633605cdb287290d9aa -> 0dd412cec03031b45a1b56efc05e15b87dab94fa8af6f7a249d0905e8e8fd27f
 ~ -[CoreCECBus initWithBus:] : 336 -> 360
 ~ -[CoreCECBus initWithLinkState:physicalAddress:] : 188 -> 208
+~ -[CoreCECBus init] : sha256 b5e87c54cad8af19aa10ab19123cd9af5343f3c8b2a2d95b6b2624a415963c95 -> e09f7bb1eddfbf9dd220f12b37e38543f896c5b7893417ae8301f7e0cbde06da
 ~ -[CoreCECBus initWithCoder:] : 432 -> 456
 ~ -[CoreCECBus encodeWithCoder:] : 304 -> 328
+~ -[CoreCECBus mergeProperties] : sha256 0f0d3be97c06a16c9f81496026cb44f037b70a86d4c912db95d2514d5c4213b5 -> a238a8d07e37102f038d903238a42198ccba016ed3db0f232f234cfc5714f1b3
+~ -[CoreCECBus description] : sha256 6234fde7e8a3cd2c2558edb350400071395cb88fb023d5dfce37428204311a90 -> 77591183b32e022a5c98f803420e20a87f43decff8b51de17d320af23e83baa3
 ~ -[CoreCECBus dealloc] : 88 -> 92
+~ -[CoreCECBus delegate] : sha256 05f74ea7074135ca9d01f0b2c762259667be3fb0032d6f823f0491045ea4b76e -> 93255f5cce7a3ff0b1580e02543c9b5baf534d5149304ff1bb73eda99d9dc24f
+~ -[CoreCECBus setDelegate:] : sha256 980710417d24844e2801b28cde4c403ad96b42d248885f295890db20fef6049e -> 63b8aeab5e595ffa0638dadd1e48e6585d1871195add35fe324a8cf83f215b17
+~ -[CoreCECBus activeSource] : sha256 82570a61c3fee4e07edb10d63211e0d95f31c7bfe9b2ba19004920020e6348af -> c89b423f004619d6f13ae83061c9a5521fad11401c19015b793955e71dca480c
+~ ___26-[CoreCECBus activeSource]_block_invoke : sha256 5c8335ee8bf32a869fb9ce95ac34b9579860b9de72b27bc7ebc163e2405540a5 -> 09c5e0847d45fe09d2819b04bd3fc177218f36ab3440601aeac7ddd588816826
+~ -[CoreCECBus osdName] : sha256 3859bd0ed20f8a4e5c0f81a59a43f56ff2c68e8fb673226ce5d044e4c79c4882 -> 70ca5f04ec273913ebac2ca3ad9308ac6fc09b8908376ffc2d855d224fd29101
+~ -[CoreCECBus tvLanguageCode] : sha256 2568d243d3e39e49c587187086f3139a3f3fa3cd19fd86addc306595186d5bbb -> b55398379e4c3da7b0dea8183359445068bc3b0dd671074b8658c5296c0f6057
+~ -[CoreCECBus addDeviceWithAttributes:error:] : sha256 a4b7d5ae7e0584ea252195e2684e2c7a5eddbc19d2853fd39400a6a12cd1f015 -> e983357718c005328126ecb69c6ff555f8558864d91ba868ff06a9b4deb06036
 ~ -[CoreCECBus removeDeviceWithType:] : 416 -> 420
+~ -[CoreCECBus rootPhysicalDevice] : sha256 e4e600f5b720531766338ff8684adea17d312cc250de6885d8888ab52a02c42c -> 9b49c32ab107b2dc8ba5b66065514041be4d7b8d119c9ad9a741924add519dfc
 ~ -[CoreCECBus setLinkState:physicalAddress:] : 28 -> 36
+~ -[CoreCECBus setOSDName:error:] : sha256 cfba57a68b464bb98c483db3630ac6ed019441fe6b4168ef53f619b54c4e3f85 -> 926adf0d1beb642ea80518fffa6e5c88f259e285e993d5405e59bc709a8c2903
+~ -[CoreCECBus setTvLanguageCode:error:] : sha256 d7d84a2187535d26e5423ee0a1f84bf15c110a2615e9528a413adb20aaada57f -> ad715c180ce5256ab2afa04b58bba88a20abe8af381f36276c6f1db356de83e5
 ~ -[CoreCECBus setStreamPath:] : 32 -> 40
 ~ -[CoreCECBus deviceOnBusWithLogicalAddress:] : 284 -> 288
+~ -[CoreCECBus didChangeActiveSourceFrom:to:] : sha256 60f179d0be90d3d79b770551e403ec34844903ec25cb250bd0f610e4b81da1bf -> 92d9df7e77b546a3eb45ba551d372f423d702569c85bf45ddf3cf4763db6650c
+~ -[CoreCECBus didChangeLinkState:physicalAddress:] : sha256 5c7c5f27bc3d00c9951ea9060638c629a3058bb11bdf2b1e1395015a9b5bdac1 -> e408c40a36d419e083feb1d901663f03a14210b3d0b06c2c0cd16a16eabe57c9
+~ -[CoreCECBus didReceiveRXMessage:] : sha256 a46545dea1ad84c483c1c0ff8426e96a2f4cdb98811f3c6c2194a08cf548740b -> 8bed5180f27e991b4086bd9fc968b3a0dcd5b8d537ca8e0a0e4c4f546cb5c66b
+~ -[CoreCECBus didSendTXMessage:error:] : sha256 f44bbc33b51c20783e524b3cd75837140986e90882d081789785244c4954ac2b -> c412e78c94a4f4a7a20380fdeb164353a227229a2f42bdbf8c2379e0e08240bf
 ~ -[CoreCECBus didUpdateProperties:] : 184 -> 188
+~ -[CoreCECBus notifyDelegateLinkStateUpdated] : sha256 231e7e4b04466c2f7013ddec8913444dc01f84328d6faba5f8f776624005cc0a -> 6572b9f802b0c2f7e71a10b543b76696881c6ebe6af5d58a57ecee1f6788ba0b
 ~ -[CoreCECBus physicalAddress] : 16 -> 20
 ~ -[CoreCECBus setPhysicalAddress:] : 16 -> 20
 ~ -[CoreCECBus edidAttributes] : 16 -> 20
+~ -[CoreCECBus setEdidAttributes:] : sha256 1ea715e0052be80439283ba2a8f81c87c36425a0dc471a07613b3b5b7f7d076c -> c0ac3a0ea940c6fab9be88ce634ec21eef723f954d934eed2f4ba13eb0a9f4ee
 ~ -[CoreCECBus hasLink] : 16 -> 20
 ~ -[CoreCECBus setHasLink:] : 16 -> 20
 ~ -[CoreCECBus streamPath] : 16 -> 20
 ~ -[CoreCECBus systemAudioModeStatus] : 16 -> 20
 ~ -[CoreCECBus setSystemAudioModeStatus:] : 16 -> 20
+~ -[CoreCECBus osdNameASCII] : sha256 d589a0b540ef20e7ddcbfc353568f530ee2c2b1a6860b958451b877129393445 -> 759d495ee9432a47d313dfd2e68be2ff8029ddc9ce18e9a66329a54133b12f82
+~ -[CoreCECBus setOsdNameASCII:] : sha256 c2fc51c2d78d07b53c409c7a9684c6260ec3044e6d639392a303a7fc4df0063e -> 0d4fc06b17d6d2067117f121e94919370be713ed2f71f8a5fe1ea2670d70c4b5
+~ -[CoreCECBus tvLanguageCodeASCII] : sha256 a566c73caef73ca57ff28deea529ceab82b4505635ae4c3fc53f75515e82fb08 -> d17dee819150c309dba1fa0cc3779db49c8fcbe004377f347e3b10c93dad32cd
+~ -[CoreCECBus setTvLanguageCodeASCII:] : sha256 d42061edde2980c7ea2bf51d0049c4182c2542b2c08d8fb7f17288adcea658e4 -> fbc7f1ab096cc5b1589b7611beca32c34bf037d9e88b8da87e54d730b49672aa
 ~ -[CoreCECBus lastStreamPath] : 16 -> 20
+~ _OUTLINED_FUNCTION_2 : sha256 f19f2dfcd6c2ecd8397ca7e3fecfa7e1cbd4e9f5231b383d8041d5e23ee0f35d -> 806c0d0915c1b2852d0906fde5f11c474513d44b5a9d78c23b3aa02259619254
+~ -[CoreRCManagerClient(Private) queryLoggingAsync:] : sha256 08095e7ca3b3fd438236d627fc799c4f2861136dfdf958b6fdf011a0231f9929 -> 7f1af2eb2330844cd6046956bee1420073053b140db793381c99cf02e06807ba
+~ -[CoreRCManagerClient(Private) setLoggingAsync:reply:] : sha256 54e48b76f1c4b8ab767c71999ce52e5c8accc01ae8a14bdd0634ddf6116d28f1 -> 2ed9b24202b19d65f86bb9bf68ca3c27288b7f682950cb685addb95a17a3f4f3
+~ -[CoreRCHIDEvent dealloc] : sha256 068b4092b7cf96702ed06aa2481371933c6f555d1f417f5fcde8ab3b41e8502e -> 952b93befc74713220b1934e7430653cf6358469d5e72fd877b6c1ebb22593fe
+~ -[CoreRCHIDEvent init] : sha256 2d526446ade5c336579376f6001e6df3acb83ca85cb390c704ed44f954b1bddd -> 1807569d217c4d8db589b1a0ec36afd1619b384b93b76c1d3dfd9df2555eddea
+~ -[CoreRCHIDEvent initWithIOHIDEvent:] : sha256 c6774ada72df44b15368c0f61bc0df13c9196a86204963837713d8e6ee71477d -> 38661fe130b308ad151af4b75bb24f0fd3b0c0a9e6259206872d7fd0f691b9e1
+~ -[CoreRCHIDEvent initWithCoder:] : sha256 3904ccdcf1755046b508268628a76be45623ec4bbb44518b0c6c699c080bdcd5 -> 89fbcac28adc41d0ce725c97b599a7520b00ae3fb1ce31d3f210a024700d2dac
+~ -[CoreRCHIDEvent encodeWithCoder:] : sha256 48d31f8388d1d543a4c0737e1b5eadbd89bae31939208f5bd2d5404eb4d85ad6 -> 0918d03fc79d4793a62785310fd2695f75a71e5d6ba234eda7dbbf095cbe6e2b
+~ -[CoreRCHIDEvent initKeyboardEventWithUsagePage:usageID:pressed:timestamp:] : sha256 bad49ff05da17e20af183a9aae82814d2e35e301ce4d1253a015b763daf92f9b -> 187bd6de6839be1f9af78d326226f902114a56b20ed6470f8e8a1a4bca9ac2eb
+~ -[CoreRCHIDEvent initWithCommand:pressed:] : sha256 9c5af47fa6d609f40018d806e16241e3df5d837db68386451fa107ba40a594fc -> 8ca292842f32ea968ab475cc8569acd3227da536e47f34b3dfbce83e970c2e57
+~ -[CoreRCHIDEvent initWithCommand:pressed:timestamp:] : sha256 4fb7b3281967485b06fe1cf42057dad6eb49d8af54b4bcc735212d327b17547b -> c52eb502f24c272b008519a5840a1d005b39ebf98d241ddfc40c44eeed483a77
+~ -[CoreRCHIDEvent debugDescription] : sha256 8c3e3eecd97fd683c700643e38597491261a4313f00e8693ab059710b7efea74 -> 64fa1951406ef92e06656421c17001352f8133f222be55fe0e006fadae4ac942
+~ -[CoreRCHIDEvent description] : sha256 69d98d8cf3c774dbad599157bd6b8dd1a4d5c4ca7c80f0eaaa948dcac061a14d -> b44e613f242626729dad3930e060e640d6c99935265dd6c1c9e716af87e2deb8
+~ -[CoreRCHIDEvent isEqualToRCHIDEvent:] : sha256 ec088410d92b376d0ec08adaa3ded60f06be5a3b75546fd27ca577c4004580bf -> 4ef876938d879e99bd445dd713ad60bf92e964193fea88c3a930f2322cf36920
+~ -[CoreRCHIDEvent isRepeat] : sha256 91ddacc253adf60c40f75f43b9d11426c811eefb841b2cf1c63e48e4f5014aee -> 9b838ecc14b647e38e8869c2701fca782e1d72290d7446e0749d49705f31f227
+~ -[CoreRCHIDEvent getCommand:pressed:] : sha256 6e920cb0d81ce806d62e00d3a4b57f36e4da0caec076fdeb006bbb2d858ce18f -> af5ee23205f6693d6c9f86b968690c0b4b065c1183abff6f212ee5fc2d05d2c9
+~ -[CoreRCHIDEvent copyWithZone:] : sha256 f060aa4a1319acb06b4c2db1b1aa34796969a60ec49ce6846f8f29ee7f25c5a0 -> 94e4003f8360a38a47c2252256876a62545f942b90196d0bcdc2018c80cb81a4
 ~ -[NSMutableSet(CECPhysicalDeviceSet) physicalDeviceWithAddress:] : 256 -> 260
+~ -[CoreCECPhysicalDevice init] : sha256 9756f6c3ca0ba455621b00b3f3d03d767280a2907b48fdffec966ae0113148be -> b97596bdfec5f28b170fa3c3b66be2149b22d52a9b43eec69f21cda57a017b36
+~ -[CoreCECPhysicalDevice dealloc] : sha256 d836897c092b751987e0ce66113e026ef4bb64cbeb6bd08b224a2226ba5219d8 -> ccdc4b9d91cf764b64294589a3eea2d374aa5da833784d3f8a9c7f1ab19602fc
 ~ -[CoreCECPhysicalDevice description] : 380 -> 384
+~ -[CoreCECPhysicalDevice isEqual:] : sha256 5432db5a482f071afde50a43dcc1db7f6b436957e594b6cd7d768b54e9e3c0f0 -> 569a35ba65e96e5c0252e71282a97a1747246a8981e9b7253b516207a013703c
+~ -[CoreCECPhysicalDevice initWithPhysicalAddress:] : sha256 25a0f5ed8495161cbbd2d31c82e48c70c8f003420e6c43b6fbd3feb1eba44169 -> 99f105a0114f0cd8bc4bb2b11643bbb8f534a964803e78a38c87b0c22c7806e0
+~ -[CoreCECPhysicalDevice initWithLogicalDevice:] : sha256 9057694ac4f32efcd2602c0a7cba55768969761399ea9d474dff050ef84b47b3 -> 58b7ac8da1e9739b3ec38a6d39e981c37b6b46e81c1ff0ddc2c6b3c6c813561d
+~ -[CoreCECPhysicalDevice addChild:] : sha256 2335d8ee7a167b23c61a1d14e6a96c98fef7762971de487c6702d7df4f49def4 -> e0a69bbbfd637dd21277be7f044da70866792eecc88a7d036b7029d9d53a757d
+~ -[CoreCECPhysicalDevice addLogicalDevice:] : sha256 530faa2366ff41fc42b43fb4f997b90a0c91cd959083883c5f766aa821b84ea3 -> 669ff9ed1e6fb50ee7ca8af32a4ffdd6223843b837c758003e1e7eb3a680e037
+~ -[CoreCECPhysicalDevice compare:] : sha256 8ffecdc27f0f92c67ddf2feba01c12fe02b7029ea81bc8348fa403967e6cb24d -> 067237b0983ca5c5285313d4841d01af05fc76880262bdb6c19f32938d75a13e
 ~ +[CoreCECPhysicalDevice physicalDeviceTreeWithLogicalDevices:] : 696 -> 700
+~ -[CoreCECPhysicalDevice children] : sha256 cdacb5db28954bc09e44e4e7b72d14e16135e4f6c28c2a7f7f637e6eb04ba978 -> ac326fe9ee5f84944bb605df3c37bb628924cc63326fc8895e18a482a1fbb456
+~ -[CoreCECPhysicalDevice logicalDevices] : sha256 83c8bc70ac0ce1f6b6625da99d73047148ae79dc8fa1b1f46d75a407c06e0143 -> fc8c0bbc7b9fc8c4bc766901d3221b6cc2c86470c5db3959c7184774835689bd
+~ -[CoreCECPhysicalDevice propertyList] : sha256 986de700047503bfd869b0762e29c9f97e9bae3cddbf55f023a02e0a812be207 -> cf93da3b94fda1ac5f4a25fdede6380c14e93d4d3a6c9b05f5ddf768e47f5f53
+~ -[CoreRCXPCService(CECPrivate) fakeCreateCECBusAsync:reply:] : sha256 365957bb30d63dca89aa0a81fcc38ca35191f729a9ce7643643af484720d18ec -> 4fd7b24b2564262a0c83fad91707bf06f82b51095820de813a3cecf4fab57fa4
+~ ___60-[CoreRCXPCService(CECPrivate) fakeCreateCECBusAsync:reply:]_block_invoke : sha256 2ba0732874c5785f78e3988357abf9e3933b24a7cb649cc42f7971385e2c5400 -> 12e08d05c68a65600d48ceccd046a038dccae5eb0dc6a95ba9eae0c5935fa176
+~ -[CoreRCXPCService(CECPrivate) _fakeCreateCECBusAsync:reply:] : sha256 e162a1b14de488490aaf413be7296c7f5c4b1a4818c0d3818289f2ffac91ef92 -> 6cc37b5829ff28232dad58049f385e840c2812c98ead803d4261d949e0978192
+~ -[CoreRCXPCService(CECPrivate) fakeRemoveCECBusAsync:reply:] : sha256 9925ea7bd9e263983ea4c8583815332c77345e3361d0de5bceeb5e75df1864a5 -> 3fec58ae34187b17f563ad57f110a477979535ce71d9e47e6855ae55e0f25ebe
+~ ___60-[CoreRCXPCService(CECPrivate) fakeRemoveCECBusAsync:reply:]_block_invoke : sha256 c951d6620240acabef1ada5d00aba113053efe8c4addfaca1cd9ab598d5b9b63 -> cdfce152a8b7dcb01a81a8d8374b671d2bcbd6e4a6a370b393eaaa9f3002f7b3
+~ -[CoreRCXPCService(CECPrivate) _fakeRemoveCECBusAsync:reply:] : sha256 fefe4419f093cfe9bf3e43f84d72fe6a9fbf3c04cad787cfba161d948956b8e9 -> 322ce240cb7489c4c9fbfb0376a49418882b7ff9d7c30f102901129f045a10eb
+~ -[CoreRCXPCService(CECPrivate) fakeSetCECBusLinkStateAsync:linkState:physicalAddress:reply:] : sha256 146510196cfb7383c7e610c8fa6298d8b2a079e17a733cef7bffd6a5dc640027 -> 812c5cdddd3751bb2805b0f6ce90ed32e083fa0861aae98e1ed8032f23f54bd9
+~ ___92-[CoreRCXPCService(CECPrivate) fakeSetCECBusLinkStateAsync:linkState:physicalAddress:reply:]_block_invoke : sha256 01458c4953287d7cb93968838b000428abe2bf4d7c1c21eaabaa759510a3346c -> e8959eb705cb578c3d550c62d2b6370b6a884bac1eb198060ffcaf794867580f
+~ -[CoreRCXPCService(CECPrivate) _fakeSetCECBusLinkStateAsync:linkState:physicalAddress:reply:] : sha256 d0a61dc603115de57c4b79f4cae475d5a9691604e3d66e73c596a1c839ce13fc -> 5744e894332d127a57b920e112cef80102341080fbb6f0be9a79f4b36b0c3d82
+~ -[CoreRCXPCService(CECPrivate) fakeCreateRemoteCECDeviceAsync:bus:logicalAddress:physicalAddress:reply:] : sha256 5f2e0d348bb2024a9f4ac40a9f17dfc569363fbd4b774ce9b1c943b3256d5be5 -> a3c37e94167180376fc08ec0bb4a355e5084d9ecd13fa6d6795dc877a21d2c30
+~ ___104-[CoreRCXPCService(CECPrivate) fakeCreateRemoteCECDeviceAsync:bus:logicalAddress:physicalAddress:reply:]_block_invoke : sha256 b6f4ac6073000991fe97912fefead3d1527b46882675c69c2f41f84a1b894e38 -> f126f097f3b701459050501300c1a0781ada74fbd285abe452dc0e20d3d05433
+~ -[CoreRCXPCService(CECPrivate) _fakeCreateRemoteCECDeviceAsync:bus:logicalAddress:physicalAddress:reply:] : sha256 175090c37d84e6f835a9c6a4fa7d80aa8621ebaf20698a0986c8a1be1f8fc631 -> 344d375ed807888ef9c67efff89ac2335900ee06f21b657dcd868d1a4c0e7453
+~ -[CoreRCXPCService(CECPrivate) fakeSetCECDeviceLogicalAddressAsync:logicalAddress:reply:] : sha256 cae919f1563eb7fd36c238bc92e0af98e8b6dd39ea441409c1ba61de4a3b75b4 -> 0347e7771d52c2f97d8ec3387066c9784c9624362c140c8bccdb3ccaefe6038a
+~ ___89-[CoreRCXPCService(CECPrivate) fakeSetCECDeviceLogicalAddressAsync:logicalAddress:reply:]_block_invoke : sha256 25885b7596d685cca65230470996ff97cf0fd044cd89f9e14906c4627a5b9110 -> 1d53abb0c135069272cc64ba8386de712e5a138b66c216eef7410149c901a202
+~ -[CoreRCXPCService(CECPrivate) _fakeSetCECDeviceLogicalAddressAsync:logicalAddress:reply:] : sha256 65900eed5441a471d76efd29597d6129aee42f0b5904a3e9292ec0bdf2b21260 -> 3a97ac126814ba201a39315aac4c1969124af215e1f3c804da8be5536b53457c
+~ -[CoreRCXPCService(CECPrivate) fakeRemoveCECDeviceAsync:reply:] : sha256 0d23159fb970ffe856dd9e6abecd267c3b95ed21b10e953b40bbe645742cbbf8 -> 5d8a6f4872382f0d9e52352e64f7201f7e014bbe949bbe164fa31148b0384994
+~ ___63-[CoreRCXPCService(CECPrivate) fakeRemoveCECDeviceAsync:reply:]_block_invoke : sha256 63a14ff47d776b9d2cf072535b5504db6cea990d5223e08ed65c9d0f4dfba9be -> 88196ecb4e6c9cb9c5f21d0dfc6ca37fc83f2e25cc8e1f3bafff25d55b49334f
+~ -[CoreRCXPCService(CECPrivate) _fakeRemoveCECDeviceAsync:reply:] : sha256 0f4135d02d89c963bf0ffb97380eaad6ff2213c8edefe078b1f2e4950a020bbf -> 5b909cb78bfd269eaec0ec9a631279e18873d8a65a56037bedf27deec58e4e57
+~ _OUTLINED_FUNCTION_14 : sha256 dbb18d667cfcfa83fd5edb09a40d61468832118cb099018f9c9a3827e83cac78 -> 4529161105f6fc5afa4453162f62fb67c25a409b23c22a10a5dce4446b681c20
+~ _OUTLINED_FUNCTION_3 : sha256 07eba1202b51d1b9862149c1de552d28cff9fb08c408e525eeb15bb2b7664a5c -> c8d096f9f502b564591050232f3e26e4d478ea75a19fb78606fdcb8697ced84b
+~ _OUTLINED_FUNCTION_7 : sha256 645b22ce3e5542a0b241f8e312ad20eb4c08fe1dd3fb2175cecc9541b6c40de0 -> bfb150b97a5401b9c56ba35cc4ecb9fd1905450abe067cf035897f8195905925
+~ _OUTLINED_FUNCTION_9 : sha256 b23e429c034e17026ef3f6f87018bbf5902afbc8bb2d9e3fe7b6b54c2f628b64 -> a51c601358017ec696e5c36eab93a6b7ed515ec1085d5a9c98a9849b214f7d84
+~ +[IRProtocol protocolWithID:options:] : sha256 bc2e5f2cfe800d273ea57b916a4d56c82702533979f4ce2993ac8b5037d65bbb -> 2464a9bf49812bf5b1d107bdb087b25312b060f7f972be46d4cfe4366d45b906
+~ +[IRProtocol protocolWithID:options:hasRepeats:] : sha256 62d4ac6e1551ac40d7e61afb1ed08f595978ed200b9913d5383e14554d44a1ec -> 9e092a9f39c5ce5eed405ee621b4fad030d2416cdcba1a6fede30633d0594979
+~ -[IRProtocol init] : sha256 d5f72ecce58f8cac64c79fd2db5ad8ab5609a96168eb45584fa708f0c96922a4 -> 1b089f793d5a88d26d2358acc0ecdb224285288b8cad5fff750f6faf0dd3f511
+~ -[IRProtocol initWithProtocolID:options:] : sha256 ec23aa3149bb808a4b66d9688669bf554120ec02ffdadaf107c23ebd513a0564 -> 817a9b2db9e338bd6094a40744e85a2ef72676421b12e488d9ba38b0811be598
+~ -[IRProtocol initWithCoder:] : sha256 330de384a76c15ffe2bcba307b99cd63a0273db9eeeda11b1d638f50f850ae20 -> 601f62657b4a503a9da1490c2c7f21ff458125c7eb02ed211e7e096d46e90e30
+~ -[IRProtocol encodeWithCoder:] : sha256 ca1c788d88017e2f87ba81d4fb2ee54f410bb10f14fb09980fdbf270f0cddcde -> 6c7e07a9353911a78de3e57361c353d738bbbf0d673ca58c6a39b46c0431a48f
+~ -[IRProtocol description] : sha256 f7351c0e643bb20e2abc41384af68c6d5527c17bbb09dde3556d746d6604a5f9 -> 5f0b1f3ea15ad38bbbbae6e24332da31d367f4d53ee546a8499caa2f44b907fa
+~ -[IRProtocol isEqual:] : sha256 3c7e325d532745195d1a9535c354a95733d9360c35f997db9b96a401343fc4ff -> 5d0f6db4728ebac400d3527cc351130bc1d3d986bca0a42277554e2d272f5626
+~ __IRDecoder_Initialize : sha256 39427e6359e56abeaa15f1dadf0666345102717a4e92e0ac0ab7afac3d672680 -> adadea1eabd5e879b2561b24f8926d71946f1c7597d7a7d67e5ff2fc3388a011
+~ _OUTLINED_FUNCTION_1 : sha256 a300aa06cd3f79a49cd8b9bb2daf962188c4b8a87c3cd3db7d6127b8fc6a0b61 -> 5494ecdd99f6aec465c6a4dae7fc600243f9f3b5a2c8e9020eb39c5fd5f02ca4
+~ _OUTLINED_FUNCTION_2 : sha256 0882639df7e483eaef2e0cb9d779fb2c15a49de30b5db555457194f3417a3820 -> a6604e79d13147892ceddf5a8384378d9bdcb3bbfb30cc79c7ecd487566005e7
+~ +[CECFakeInterface defaultTVProperties] : sha256 c4d5d3c2f80158537bffb662bcd1082436b8045d5850bcee9ff30d4da5f9a78e -> 5f3aa01d0585d3f6ba28af734573ba40522004d906c820beedad11b219c8505f
+~ +[CECFakeInterface defaultPlaybackDeviceProperties] : sha256 539cabbd566374b78cdcea05cbbe55e7586c190a99f5dffb53bcb05dee3bc166 -> a58c99420ea713bdb053628e3d7ddd42a04b1933fb14e7af93d6d87f6e8d9c74
+~ +[CECFakeInterface defaultAudioSystemProperties] : sha256 2d1cd827423fbf8be5da3cfa3a709e40f181cc4f8da413a9853572daf6618d5b -> 76d4a8f62b398f5f6502f21a94536358f6dbf5891377ec14cca9b26cf8e31f46
+~ +[CECFakeInterface defaultPropertiesWithPhysicalAddress:] : sha256 59c52382845b6c9c086164742ed3553c35141716b129407cdeded4a5bab57d44 -> 2d218c199073cf7e37283aeb53eeabddd19af3a5eed5fc59e23fbf9066667478
 ~ -[CECFakeInterface initWithInterfaceListener:properties:] : 180 -> 188
 ~ -[CECFakeInterface dealloc] : 116 -> 128
+~ -[CECFakeInterface errorIsNack:] : sha256 79d4c33b4754389a29d1a27888ded66af21dbb105df18b0b242ccc0be64fe0c4 -> 5dce071bc849b929c09f82c9b4eec6a65e9532f8b37c22998297f2a24680a5a9
 ~ -[CECFakeInterface sendFrame:withRetryCount:error:] : 268 -> 272
+~ -[CECFakeInterface receivedFrame:] : sha256 c2c20de64e6426b49a4a3f696344dfe59e48375e818f695611c32cf64cf9932b -> c93745344bd864a3b0d069b6e66a063e80d7c2d7cd143a28a90503059e840ae0
 ~ -[CECFakeInterface receivedFrames] : 16 -> 20
 ~ -[CECFakeInterface clearReceivedFrames] : 16 -> 20
 ~ -[CECFakeInterface lastReceivedFrameWithOpcode:andHeader:] : 236 -> 240
+~ -[CECFakeInterface lastReceivedFrameWithOpcode:] : sha256 0d27c7c7b195d94f6d2e0cd7962ad031986252d99ff6212c3cdbc2e7586a51ef -> f186ed7857c4f0df8a3f0662ae23454c9860d92c2a62e59f82ab46bce15276a2
 ~ -[CECFakeInterface pingTo:acknowledged:error:] : 152 -> 156
 ~ -[CECFakeInterface properties] : 16 -> 20
 ~ -[CECFakeInterface fakePropertiesChanged:] : 100 -> 104
+~ -[CECFakeInterface fakeTerminated] : sha256 ee6cdbf1fdaf3bed523989dae2299929ddb45bbacad4d0604cde78c7d7c9c1cf -> efc01afbd87332b9a151c2660f20d2256905f915036adace2479eabefabd266e
 ~ -[CECFakeInterface fakeHotPlugDetect:] : 104 -> 108
 ~ -[CECFakeInterface fakeHotPlugDetectWithPhysicalAddress:] : 148 -> 152
 ~ -[CECFakeInterface setBlockedMessages:] : 88 -> 92
+~ _OUTLINED_FUNCTION_0 : sha256 83b97c225c95a1a09cfaddcab6691c2110cdab045d7d7f8555adf089492fb43e -> cdfe2793e8ffc1d4f7413dc503d4ff67af275b987c887492a0471d15b37f37dc
+~ _OUTLINED_FUNCTION_1 : sha256 2b07d63e9d297e23de2653ded2740dd42e833898cd983842c9b8c4fee839af6f -> 1d76aa5d096b3abba02301ed3d96c8d60c649aca8637356247c8336f217e67af
+~ -[CECEDIDAttributes initWithVendorID:] : sha256 b98a14604a7886713a24fd1fa9fe4688659a680d7369f3cecbff87af0db79e56 -> b47e9f5fba7358081045fb2587dee00a38950c31ffa67ff1352f3162d5f804f4
+~ -[CECEDIDAttributes initWithModelName:] : sha256 46507efcd7006ef890f8a1febe8bcc0b3f50433edbb6d2c72af9ee1899ce046a -> d12d882aafcd4c424a00b8f3974bce8d00b207d4d43165162218bbb6ab786eeb
+~ -[CECEDIDAttributes initWithCoder:] : sha256 f2ab23fc3dd3ff488fd4e5c32bae778308f9ae3e84407c89cf468833380f2bbc -> 00254b2bc394a37f9f2ddbb4efc51ebf5dadbee9a6c67875c5fb5a57df478768
+~ -[CECEDIDAttributes encodeWithCoder:] : sha256 416c63bc0045006d6838a5110108d4add5ead4f8287b62a4e1b9014b0d268c30 -> 6deb31483090a7c5312546058b086a802cee01ee51c2455714357e571ed5e9ed
+~ -[CECEDIDAttributes description] : sha256 9fe8bfa6ca202c98b28f58b730229d11db8d1f5ac780b9808ba22ab00081193c -> c1e66dd5c9b73e95daf845a7f1c658c129c5340a53b2c0d538701361e76d4b4d
+~ -[CECEDIDAttributes copyWithZone:] : sha256 f2521f7744ab83e2d26c12e72c28276b0745e59193e31fe3d409c6e12103dc2b -> 078b7ccd83ea6dce1b2a405a04569172ac077376f20412ef55f1706467eed404
+~ -[CECEDIDAttributes dealloc] : sha256 80b98d7e7b30fcd170a269da9be6a7993ffe2082531f3ce95e4bbdf6608de9c3 -> 9ddce4eb591ce31e033404c5cda7434601026613bc92b03fe143a218b07f1a56
+~ -[CECEDIDAttributes setModelName:] : sha256 1c7e668cd30fc3a13348c716159aafa79c26e35af5ae70484678f4abad283640 -> 709d8b5eb1e373138755292e04b6a6dc25236f554d5f5e5e526f7283ea4df61a
+~ -[CECEDIDAttributes setUuid:] : sha256 3b44bdc2a7548d5a1f90068f8452398633648e97a149ece7dd41707d5ab43f8c -> a81128eaa0b4e899ce48aeac34e6facbef66fb1887e5e6efc73183c7f01f7405
+~ -[CECFakeInterfaceListener fakeAddInterfaceWithProperties:] : sha256 8d61846edc10ba1af2d9f33f342621a70a31c3928ca2d44a6746fdbfb72fe65d -> df4e00115e4662e880b24614f281423e3f63cd90203bbebc36d45e6dab9dbb13
+~ -[CECFakeInterfaceListener scheduleWithDispatchQueue:] : sha256 38b742246e3aa78d4baeb05b9b46aa885608a80f516e2d09848d2266cde6df42 -> 7861a7ac193ebe724ef01d6b0ad0f73a2137fdf04917e1b42a40c9d32e3880d2
+~ -[CECFakeInterfaceListener unscheduleFromDispatchQueue:] : sha256 582fe1340b4d1df1c4140fc6f0e2b9523b6cc10ff121d31c2053b93902d69436 -> cea77f9c60216a51089fe66088af0f648d82cfd78775d66b632d4336cc94f524
 ~ -[CECFakeInterfaceListener interface:setAddressMask:error:] : 328 -> 332
 ~ -[CECFakeInterfaceListener interface:sendFrame:withRetryCount:error:] : 420 -> 424
 ~ -[CECFakeInterfaceListener interface:pingTo:acknowledged:error:] : 316 -> 320
+~ -[CECFakeInterfaceListener createAudioSystemDevice:andFakeInterface:withPhysicalAddress:] : sha256 b5e9e10fc167eea36d9e7c153503ab19a5640947684e0d85d90553f174955c8f -> 573731add3377447dd6308e46abc54e5072cf2659c59b220cdf579a32ec53d5d
+~ -[CECFakeInterfaceListener createPlaybackDevice:andFakeInterface:withPhysicalAddress:] : sha256 de7bc3e6058035a284f17e4b432d979f66b89fd898b6ff0344a7b8867bc2ce47 -> c2e79c7b5cf246eb3290322e738541e331e317d1acb7d00e8b63f5064ff165bf
+~ -[CECFakeInterfaceListener createTVDevice:andFakeInterface:withPhysicalAddress:] : sha256 48d90172974847bea3a8c17201e31aae4b26a8c4c793ba616eff7bcc7f5ca8d7 -> a29b371c5e00aaafe7098803068403b3e2be92507c65817ae74d75112e181db3
+~ -[CECFakeInterfaceListener createDevice:andFakeInterface:withPhysicalAddress:withLogicalAddress:] : sha256 47606cc41071a834aa49a1930a23c9b33b67c19da3c9a8954b784ccfd0db99b6 -> 8baa1e836df222a6b53a61ad7a6e786a20e5c8c3975cd7f1f55a7a69f4748e2b
+~ -[CECFakeInterfaceListener createDeviceProvider:andFakeInterface:withPhysicalAddress:andLogicalAddress:] : sha256 7f4e510d235d2700e9f93ffa8173145ba6a4252f1ff4392d777d9da1870924c2 -> c2f791e569fb114eceeef58bd71eb8a0f991adf250c78f65f6c217afd227e59d
+~ _OUTLINED_FUNCTION_0 : sha256 19c39ac046ac10a1b178234c74b538256f5d7cff615e7bf9f77490207dce30ce -> 29a6a7a99b02af87d12623694069b82b882d8fed6e70cf766722b571790aabbd
+~ -[IRFrame initWithTimings:count:timestamp:] : sha256 2d0209afaafbd11c39ef19e3735ce6a02c094fcedd67749b80b6fb976cae65bc -> c205ac523767e7049f7dae4761e0b1f0cf634da7006ac961127540152ea2b8bf
+~ -[IRFrame dealloc] : sha256 b50f4930bf55ad2e0a798a81b3c9b67723b4fd923387f0fb3d66047db2d129b4 -> b7099119f1376a07972811f30d0e3fbd39ff25a60cf21cc3a54ba9a2b6689c93
+~ -[IRFrame timeIntervalAtIndex:] : sha256 6c9311330809a05600011669f6ecd82e4251a37ab95fcbf3ac5392ccc608e9a3 -> b03426eb6ae6ff78e52f8073f124aa1f948f7e4a0cef0a075347bfd05f5b5389
+~ -[IRFrame getTimings:range:] : sha256 bf314e6f5c2fca2d4fb73cd28a33f9c87269f3c0e7b2c6adc1f632090cf7005d -> 6ee5f9fc9cb4a16a74f70b31c6ed3413882bfc99e8c3615f054322a2d9ddfcff
+~ -[CoreRCXPCService(IR) setOSDNameAsync:forDevice:reply:] : sha256 3b78c3ccff05be0aa8cbbe1d9693e7a4807d4ef6e49864927d825e9be7336df4 -> 153c9ddd26d987ae82fe98ff418be1aa94aedce8d14de6e4d2a0d250d1cbd2cd
+~ ___56-[CoreRCXPCService(IR) setOSDNameAsync:forDevice:reply:]_block_invoke : sha256 4cfa7bf467263182a411f6850f4701af231b3b94d2fa62ddec3a1477cc73c850 -> eb807b293b2bea0675201ea88d311d149199b17df0523bb6bad6bc15af73f103
+~ -[CoreRCXPCService(IR) _setOSDNameAsync:forDevice:reply:] : sha256 fb741741783331f91c1c27493386c222b6ab09013e9a48c435008559dbc4145a -> c8c006627c54439cdaf3118c64d6b5970b7745f8feeff8dcef5e627900bea776
+~ -[CoreRCXPCService(IR) setPairStateAsync:forAppleRemote:reply:] : sha256 edc15d9549b217e565226c1bd1ed869d47bd1efbff44540d97fcb8671005052e -> 13609966f82bf0ab01dbfa267d52064f6b31b528168b2445459819d51369d215
+~ ___63-[CoreRCXPCService(IR) setPairStateAsync:forAppleRemote:reply:]_block_invoke : sha256 6816aca20027c8afab64a44b8e28e4361224c26ce4c5e9c101df152840dcb423 -> 3ec2234d83c3f401401f0387ee67a5e9fed5d6677dc4974753d6bb7697159d51
+~ -[CoreRCXPCService(IR) _setPairStateAsync:forAppleRemote:reply:] : sha256 8aebd765c8ff4cb6f50913c72266187f8b4c8b0653c4ac0b5411e2466957d21f -> 4a60a0fef3017cab269bf281a28c222a05c477e610f97460a129f71f3ca1ddfb
+~ -[CoreRCXPCService(IR) addDeviceOnBusAsync:withType:matching:reply:] : sha256 adae3fd6e70e3fa5d717dfa94b6e57a23163d42001a40475cc0c2e2e086d4960 -> aa448c1d3c31fdf2a351c7bf86ed6557c40f7fbc60fddfc8eb6fdb37e72a82eb
+~ ___68-[CoreRCXPCService(IR) addDeviceOnBusAsync:withType:matching:reply:]_block_invoke : sha256 3fbb1d273bde60f4d850f419bd1885abd242c62848ed2672382a89dc1b8f6726 -> 64920c86a145338efa55aeb26ac3b177bfcf0f4bce9d3a24e1a4241eeffdce0d
+~ -[CoreRCXPCService(IR) _addDeviceOnBusAsync:withType:matching:reply:] : sha256 e21ffffda502dc866118e1452d889bf84966a25f20c53aa5d9fb38d4fa6cc9fd -> b1b0f16707bd424b59def15f32d19d9c7c702f6902c8c83616ae63df3050c276
+~ -[CoreRCXPCService(IR) startLearningSessionWithDeviceAsync:forReason:reply:] : sha256 fc55e0b44918de0ad108ea73d0c62b97c43bccc9ced305197b6816db494fdded -> 7dfcfc1c7c1fd92d02dc79c4174d34f146429bed5a879ef0d0b994730d572963
+~ ___76-[CoreRCXPCService(IR) startLearningSessionWithDeviceAsync:forReason:reply:]_block_invoke : sha256 8c67b81f0c353352043d03e9bb8c5d60305ab24345061b5d04b2b03b44eff15e -> 2fcf667c8b52435bb41484d6513e17e3fc9846397e9dc3c485b224728034437d
+~ -[CoreRCXPCService(IR) updateMappingWithSessionOwningDeviceAsync:forTargetDevice:reply:] : sha256 ff341015a5e75fd2a687c3bd40995064cf9130eff5aa656ede9e285f2e7bdf5b -> f46bb6817122b35f326d5b450964f5fa536575035b93aff15964cba04bd72d47
+~ ___88-[CoreRCXPCService(IR) updateMappingWithSessionOwningDeviceAsync:forTargetDevice:reply:]_block_invoke : sha256 79bedd07dce678889a0e1cd4c112159e5f471d0f39386e62f15814843f6490d5 -> a912f21de0c9f5a867ef744bcc16886d828a03028fcaea515fdab043eb67fb3e
+~ -[CoreRCXPCService(IR) addDeviceOnBusAsync:withType:matching:withSessionOwningDevice:reply:] : sha256 bb91f2720695873a9545930da6149603f3db0685c67c2b34b6e53e89d3c954ba -> 73b3fd37fda4c45e8a4b1bc3d9dbfeff7b9d4994a9bbaf35da782337a7590d12
+~ ___92-[CoreRCXPCService(IR) addDeviceOnBusAsync:withType:matching:withSessionOwningDevice:reply:]_block_invoke : sha256 51d539fd083a8ac03347a82ef1c5ec484841fe4a8c6d5379f71c640a65af40b1 -> 47c7f83ced36dded16cc5d5d3a014f07b852bf6ef3acaf5e95173eef6de48f24
+~ -[CoreRCXPCService(IR) _addDeviceOnBusAsync:withType:matching:withSessionOwningDevice:reply:] : sha256 d439b3127585ab39b203db411d67b5e0863611887181176ad2bbdd2d1e1f082b -> 6f1cae23a34c07ff5a72d7bded3b823e848f23d8ca1bfadbdb908fcc0ae03e74
+~ -[CoreRCXPCService(IR) deleteDeviceAsync:fromBus:reply:] : sha256 2fed6e20e98453c5ad55ffc257831bcefe9fed65178a1f9495e1acfa339c540c -> c14b00b0e809965caf732e888dc6cd7f60b833ec4f9982db021ec2b1c6f841d4
+~ ___56-[CoreRCXPCService(IR) deleteDeviceAsync:fromBus:reply:]_block_invoke : sha256 efaa6c4e5b8c3fca2e28f539cf389113bb55ea559260ab1798b8bb52a5bf2879 -> e3d8526579bc55fc1f276adf9297156eeda6f4a85bd94dc819c71dc370a4cb4a
+~ -[CoreRCXPCService(IR) _deleteDeviceAsync:fromBus:reply:] : sha256 182dd7c9fdef949077910612de85ea0b64549bbef625c45b7b41c3f4689ad360 -> f32649f729fc559b73a48ee499be766f8633144ae4a0fbd7afc6fd225f36e0dd
+~ -[CoreRCXPCService(IR) sendCommandAsync:fromDevice:reply:] : sha256 7414309f79b8db68f346f3ac6b05778497a641d38622793b8ceb2e3f2bcd673b -> 3d7535d09f9147e6ba737dbafa96322892ef7267593834740abe217c76ad322b
+~ ___58-[CoreRCXPCService(IR) sendCommandAsync:fromDevice:reply:]_block_invoke : sha256 d115bf88ec3974cbec5d9eabf5e6e34ca97bffd8babba89ea5fadc0a5fc929b8 -> ef2d078cc9673bd561d9f3b3054ddcf7962595ead4ea9a16ba7767d98e5e66d2
+~ -[CoreRCXPCService(IR) _sendCommandAsync:fromDevice:reply:] : sha256 4c60ae6aa6875c1e396372aca3f7ed012df526ab14909539784c099ad194b4d3 -> 560c472042b3760bc139e758a9b12d33f622007384f7364637da327b95457cdb
+~ -[CoreRCXPCService(IR) clearAllStoredCommandsFromDeviceAsync:reply:] : sha256 06ae7e76ce28b3de2f6121c642a8677932d981c96a568342e72d1af617df3360 -> 03a5058aa79d58c576c11045eb21f0da7c5ddc5ea2b1e6f161635df4709e0f04
+~ ___68-[CoreRCXPCService(IR) clearAllStoredCommandsFromDeviceAsync:reply:]_block_invoke : sha256 2404a495aecf3585cb14a6b90b23392ec2344b2a36275d341b9908681fabf745 -> 12df9a80ac6c9560abbe4d8fc30329b1f9952e534e6edb65fc97d74fa77cacb1
+~ -[CoreRCXPCService(IR) _clearAllStoredCommandsFromDeviceAsync:reply:] : sha256 bb5b41506879cb0ad41747f7e06b3f32f288f9a9f221af97a6be4af2ad40b082 -> 7b20937a983ab935aa411856b490f498269e2f8e9779e5d08be7d06a8d6e84a2
+~ -[CoreRCXPCService(IR) setCommandAsync:target:source:forButtonCombination:delay:reply:] : sha256 fc3343ae51c2ff3a15682b8104c301b056639f9f9c951d8b9edfde66de9bbb8f -> ce5889ee9e2ac8d79b42792f72ef6fada8c727257da88b65f5de0221b8aade70
+~ ___87-[CoreRCXPCService(IR) setCommandAsync:target:source:forButtonCombination:delay:reply:]_block_invoke : sha256 8a2f17be56f6155cbf99d05e25f358c1c5d4823949751e8257c7d6e88fb00a18 -> ad14cc506c9b3bfbd8ca76404f8f37457ec5b74fadfa6e523390834c47e9ccd5
+~ -[CoreRCXPCService(IR) _setCommandAsync:target:source:forButtonCombination:delay:reply:] : sha256 8f7aeed80cdc1b36811db540b8c98b14c54ccb7c86d1529dba28979c35ca5d47 -> a74871b55b57e5489ea9e8926b162a16799a5538f865acba9df251924ca7bda0
+~ -[CoreRCXPCService(IR) changeButtonCombinationAsync:delay:enabled:forDevice:reply:] : sha256 17678537dad5072f66c53aa01f52690e53d912e316a1b9bece6eaa1feee64388 -> 887ff38f7d052eb345abda353ad8e35fbfff4bdeb221f5d1a7b8a37381cb5987
+~ ___83-[CoreRCXPCService(IR) changeButtonCombinationAsync:delay:enabled:forDevice:reply:]_block_invoke : sha256 e3c74e7b20415373b9f92725410b8ef2c9d46e662b6c7b963b47e30423b58e92 -> f18e4fae3f134d74dbe51c02b1063e0c46793e5fc6bbee3f64be448ca88a30a3
+~ -[CoreRCXPCService(IR) _changeButtonCombinationAsync:delay:enabled:forDevice:reply:] : sha256 02f17fdef3d15a20755ac73a808a161852fcf929c00f8678a1983bd3c6516f28 -> 521b9776d5103fc15fa8e5710c497c478fc6871f02803a427eb7d66968a6e17f
+~ -[CoreRCXPCService(IR) startLearningCommandAsync:withDevice:reply:] : sha256 a60c5571fb8e29ab24c5cc84901cab4fd93079c126383cbd8678443ca432d710 -> 92f917fe42fb5c04de28eda8f63a4418b7c32d921c5f8ee27ceeaa7cc021d5ad
+~ ___67-[CoreRCXPCService(IR) startLearningCommandAsync:withDevice:reply:]_block_invoke : sha256 5e771faedaf7595afb3be0d73d8330776782947528cc27d602b6c848051cf26a -> 0ec55668c189da45be8234dda11a22e1b8b4b4bcd4aaa5c785fd84e636c90a4f
+~ -[CoreRCXPCService(IR) _startLearningCommandAsync:withDevice:reply:] : sha256 4ff000bcd4020c9c0ac6f81f9d3bf85f304fc0f173cc21084fb09b7bb3ff2b61 -> cdd1d42d164b005db2894df4848a4cef1ef42d4828ab30a12e96e01d8b2aea0d
+~ -[CoreRCXPCService(IR) endLearningWithDeviceAsync:reply:] : sha256 c6bb21f8d8014f05a6ef17ccaee405c06262a59d36da0786223601fbfc9aa990 -> 4ff24ab649a1c2fa28c7bd332fce86283e6d05182121a38154bee8fb97e4bdf0
+~ ___57-[CoreRCXPCService(IR) endLearningWithDeviceAsync:reply:]_block_invoke : sha256 fcd6ee4bd8db0f17de3e371c37a3b05c40bc6e9f1ac01cff0a60e021020f809c -> b4742efcae2c47d36aa39b6719a68b04eda4e74d6ab9aee959a4cf6a23b7da84
+~ -[CoreRCXPCService(IR) _endLearningWithDeviceAsync:reply:] : sha256 4d658795cbfde3964f65b6b272cd4c8f4fbfba5bf6ad65302f1899cd35309b98 -> 3eaeb30447fa0ad1cef42f204089434bdff02c20cdc3a933d2458c2a6ac1ac5b
+~ -[CoreRCXPCService(IR) addMappingWithDeviceAsync:withProtocolID:options:commandToMap:command:repeat:reply:] : sha256 c176bcb826f84722a84e609303ee8e2d47dc6aec55f39f1c2b44238578a6f60d -> c8bbe6be3dfbff43dba2524a6c39e7c68ab56f602a359bfdc3938265ec11cd45
+~ ___107-[CoreRCXPCService(IR) addMappingWithDeviceAsync:withProtocolID:options:commandToMap:command:repeat:reply:]_block_invoke : sha256 d745d31a41979de37deb5712010b7380f06fafdf622d00fb76e9d4bcdbeb1c0a -> 8ca3059fa71d20cf7ca01b6d2b4a5eb7b16dae3d13314e40e6fada2f45ac9f3b
+~ -[CoreRCXPCService(IR) _addMappingWithDeviceAsync:withProtocolID:options:commandToMap:command:repeat:reply:] : sha256 f5a88484d1db9cf081120b9acefb2cf0740a41cae109aec65904c52921a785be -> 9c8ef0a93309ca84fcbd8cf23f1e81595391b7e338e5a308a70aa2282cbbf8c0
+~ -[CoreRCXPCService(IR) learningSessionForDevice:commandProgress:] : sha256 8ca2cbdd2e8eb5aa69b5b766f88d4812752e611ef711975cb89b1475447ae15d -> 78ceb7074ad8b5b0fb439358bacf96a1589a6bdd31299d582b3e4e630d7824d9
+~ ___65-[CoreRCXPCService(IR) learningSessionForDevice:commandProgress:]_block_invoke : sha256 d6dc3a755f911d975d5f3725cfc16c6d472a1629f3d36e47ebfd66ecb119a541 -> 3347df406462783d8c1b863241d51939e26c8302818c1f8d526d41b2737babc9
+~ -[CoreRCXPCService(IR) learningSessionForDevice:status:] : sha256 047e05d0b5958d540e0fa82e1f968e86a0d228ba2581b391ceda53865dc504c2 -> a4a341248c97cb661b3f774b439e8f9e6abd4d1aa3ce086b274a67be6a9867f1
+~ ___56-[CoreRCXPCService(IR) learningSessionForDevice:status:]_block_invoke : sha256 5e64f2dbb477d2b263a6cab1a3377b7531d7507bd0a1e45f5e1b1ec0293be58b -> 9243ff68780a25cfef81d3f959799167baaf06f6512ddb3bf6323aae3fed8932
+~ -[CoreRCXPCService(IR) learningSessionForDevice:duplicateCommand:target:] : sha256 87a44a0ffebbfaacbb6dc6782c6085bb4cbc666b95d21faedba55d711387a691 -> c7c6e964a6576583a012d259746818d2a3f71437422df7cce3681b4883a950e6
+~ ___73-[CoreRCXPCService(IR) learningSessionForDevice:duplicateCommand:target:]_block_invoke : sha256 b098ae7da20f7ebd57a68959aacba8c29157644680cc054635653d1fdefa46b7 -> 1e68fd3bdbb97eb78fc5bdd2e00bb7a71810d7336239d324581657a78c9fdda1
+~ -[CoreRCXPCService(IR) learningSessionForDeviceCommandDone:] : sha256 84ae6a0dfdf6c1575ebe38f112da5d3c9de406dbab6866d39b6e80636d1195e4 -> 67743c9046e117e7e4065db2b1b20085896a8d6b90e6025631b02d48f84099c3
+~ ___60-[CoreRCXPCService(IR) learningSessionForDeviceCommandDone:]_block_invoke : sha256 9632122e0c29269ac7eca43ebb5324ff1750a047ed745875612b067d2db72061 -> 0bb5b4faae8931a8cfb0fd212c73ec510b12bd8d04ef1140db1003e085ca7236
+~ _OUTLINED_FUNCTION_4 : sha256 ea3cb0df755e25de4cc5889667c787498df542ba2da983deaf07bb3b3ed9eec3 -> db86ab2d5b09ac79238dd48b8a9563cc7bf399efb534468c41430692ea78b638
+~ _OUTLINED_FUNCTION_7 : sha256 f7f8a1a06af55d63f3c0efe676ff14fcccf6b762441513e5112f9912f75d1fb6 -> f1ad53778f2cfc757663e733642be86505fadbc6f95dc9d76fa32ddc644d1d3c
+~ _OUTLINED_FUNCTION_10 : sha256 75a64863e7982cd036a3fa29e616bcac57ffa7de3425b145e659bd184ca9ee08 -> 58c422791ddef4587229f5e9442e8960e5e5e585f450fbcb3725b88c09ffc108
+~ _OUTLINED_FUNCTION_11 : sha256 e4a7beabe97cf22dcca7a50b325f2349064b3fdf5943e2636ea12c4527fc939b -> c1ef5443b5729565691c89b35ba87e1589a676783abf6dec0da5a3d3bc860d63
+~ -[CoreRCInterfaceListener init] : sha256 6fd3172bfccfeddb60184793d238441c384680a816d8e4bdf6ceeafd34f95147 -> d2e8de6d1a95c8b5e7edf4048308d6aeca0d5eb80759a3301fcdb1f83af95c77
+~ -[CoreRCInterfaceListener initWithInterfaceController:] : sha256 ca1a79fed81d7f565646e3a564d9885ed567b2a140919019ce0bd1e0bcc62bf1 -> e7ab323d1512c2cba222b66e6da4aab431f9d4182cbfe43d4331edf5205fd066
+~ -[CoreRCInterfaceListener dealloc] : sha256 82ab9e944819d16905248a5e166667bad7dfd7aeb7615d8b38ac13d0810c11c3 -> a0fe03b84af8748cb542135b50fbf48eb031387fa96013e02cc34cd2bdcbb3cf
+~ -[CoreRCInterfaceListener scheduleWithDispatchQueue:] : sha256 637c4746b615b674f2236f0bb8ee17a53a3057263c0ea7bb5bbba1d2157eb9a9 -> b5e87abc7580713ac39266e2570a7b47cdbc4446c1977c26b58d970e03f73ffe
+~ -[CoreRCInterfaceListener unscheduleFromDispatchQueue:] : sha256 85297cde49d1841cf7dd492623a8f78ce5b64e60944bef255d1dce12573a933c -> 2ad87fce022ea742d3abda2401f3f1ff88d9dceae534d137aff8fd1663d9dc40
+~ -[CoreRCInterfaceListener addInterface:] : sha256 2cc4fbb210ec787bcd45ab44780ecf28f74ad4243d1408518a12a22d41193e29 -> 88d9d0df501dee8eb12604bf8675891642980d2f4789ea0e2f5e36a1c9a3bae2
+~ -[CoreRCInterfaceListener removeInterface:] : sha256 6d4be62feca07f9e6461a412a9c938650c210ade6c0f846c89cefebaa46f81a3 -> 4d02cb61fa1e93e2cbd6b86141c133cb0a272c19ce8fb34a2d795f0dee7ef23b
+~ -[CoreRCInterfaceListener firstInterface] : sha256 a0e727227319df6de6ef90165afabdbc0b42017ad378a419e115fc49615e3bae -> cc6ba4f5d6d60061a02c12ce481853cfcc3ab974ec3bbcea90d0e2bdfc2c2d2d
+~ -[AppleIRDeviceClient classForCoder] : sha256 9f701b90ee310143b3d04ca0a46ea96a49dfb542afcf54abc483bf4994bc1c02 -> 1c0e43e0d4243624783ab29ae7393e75249910939ee2b8fc72bb6c8131c1eb27
+~ -[AppleIRDeviceClient pairAppleRemote:] : sha256 1cd0e42228c8e95ec9e4de2ed6483a1e5660bd782f620f6168463e3dc8e37a52 -> fe2790869fa91543450e3d5209b51db307465f0785947faf03742042a34787cb
+~ -[AppleIRDeviceClient unpairAppleRemote:] : sha256 3d83dcba73dda3cfbc2a5a15eb7c12cace15a9be5e540eeb776e6b20b6712215 -> 4d64841cb623ab1ac527f570b689ebd13bb9e7c919b2a7aae2ffa4b3a3a026a8
+~ +[CoreCECDeviceBasicAttributes deviceAttributesWithPrimaryType:otherTypes:features:rcProfile:vendorID:version:] : sha256 6d28c9e724575d02f16f49c911bcb42e7fc2e424b6985a52fc1643b17052fedf -> c4dcc3cc0680b2115694397be62cc6790e4c4876ba3399efa51e0e687ecb723e
+~ +[CoreCECDeviceBasicAttributes deviceAttributesWithPrimaryType:otherTypes:features:rcProfile:vendorID:version:active:] : sha256 8a9020d93bc28e511f43f2306b64df6d776379566b5ac2f1812c6d8bf0b31633 -> 7e4e0ab1e0184e02218039d215f57e07db1ff643441c2daba5d73882024f9afd
+~ +[CoreCECDeviceBasicAttributes deviceAttributesWithPrimaryType:otherTypes:features:rcProfile:vendorID:version:active:options:] : sha256 3fe578adac2fdde42d589dbc22b2da25ec380b34cbc936e3ee24f74cb9306a91 -> e8656114414aea3fa0acaa9f72d70178ca72a801367ef12c6aaf2cd870ea326d
+~ -[CoreCECDeviceBasicAttributes initWithPrimaryType:otherTypes:features:rcProfile:vendorID:version:active:options:] : sha256 cf035681a2ca381bb8f9b0d15c47a5cbd1f5bf9e646d9b6c5259899782cb1cad -> 0cd97ad3673ab6ba26f755d4f5b40d02aa16fc096fb365e9076a2c5242c409bc
+~ -[CoreCECDeviceBasicAttributes initWithCoder:] : sha256 3a9f4f84c2ae5b1c76c9413066d2ccd23ebc3614a4176059f2ad1acd0fed9622 -> 02ba62781f7efec11e0ef82e02b39934f65596179c1f62325ab5d854b6b2edfe
+~ -[CoreCECDeviceBasicAttributes encodeWithCoder:] : sha256 16060e0b1d995b231863aa6f6cca3f648bced0dca2cabb7d4a626bf8683d6252 -> 736c0fe00dd8cc9c9f60d76b4bb11ab51ca8de5f45152339ec3e8102802cd2e5
+~ -[CoreCECDeviceBasicAttributes dealloc] : sha256 369615281102951f9a79d119dca2414361a969774caeb07c352023eca4558494 -> 405e9f41723678b38857f6e03e98790bd340358f5d8b3ccc645a75b9c22acd2d
+~ -[CoreCECDeviceBasicAttributes description] : sha256 e9e5053d044046daf761e43d13fdb3bf9ec5f5f3c3a368b31e7d4500234a43d4 -> 4ce53ac510983fc34f5e5452d63a841d53f90f72852beb8536dcde852cbd5e3a
+~ -[CoreCECDeviceBasicAttributes isEqual:] : sha256 c64fcba6ea93320d1c3e2130713d16799ab2021492c63cc127c4d1ffeedad5b6 -> 48ffa900dc9c76b879dc043394d3e9e1fdf0e1e77b550d8ae6409a71ba29a235
+~ -[CoreCECDeviceBasicAttributes hash] : sha256 a45414eb6b1d92c2272395abef92cf347cc669c0918968cecf8bb150ea41d21a -> 975fe2e09bbb56e77393efad1da70ba97c632c2cb9dcd7c776ba7c2d4d6e2af6
+~ -[CoreCECDevice isCEC2Device] : sha256 9c3c55eb38690c23b8e02f48d6dee984a6a286d06dba504c158ccbc0616e7267 -> 9f6f80bb8e0f8f19a1deaa1c715a5bb5aeb272c137c188f96f9dd6ad8ea5568b
 ~ -[CoreCECDevice initWithDevice:] : 496 -> 568
 ~ -[CoreCECDevice initWithBus:local:] : 384 -> 456
+~ -[CoreCECDevice initWithBus:local:logicalAddress:physicalAddress:deviceType:] : sha256 4c32ccb09e6d8f252deaa5023b4ea0d0c8067b4b826f7dd68323c4347833380d -> 16793747ea1a2b3bf1fd328e40c2635a5b9dab2681325597c401bb6233496a3c
 ~ -[CoreCECDevice initWithBus:local:logicalAddress:physicalAddress:attributes:] : 236 -> 272
 ~ -[CoreCECDevice initWithCoder:] : 704 -> 776
 ~ -[CoreCECDevice encodeWithCoder:] : 576 -> 648
+~ -[CoreCECDevice mergeProperties] : sha256 0601922a52b4324db05a48f80c3d1b76f2cfe68621f1294da4c7d18853deaae2 -> 5016f10af377c4830b4104c9dbfdcf7a938420230d062c6bd76a8218dbba2a77
 ~ -[CoreCECDevice description] : 804 -> 808
 ~ -[CoreCECDevice dealloc] : 100 -> 108
+~ -[CoreCECDevice delegate] : sha256 3b32c4d0ff73d32ab43f956fa5d063ec4d2d31c7367ccc163fb78f7bb73f9d0a -> a5901161e3d266c7f4d4bd9cad2e1072f59d2793840ab74dbc6716d08259c190
+~ -[CoreCECDevice setDelegate:] : sha256 0bc81cccf0ce72389fd6356d6137a9d34ce0834de80c097963c1417b1d6958d4 -> ce693322caa1db18c2b567dc03989df55e7bbab26f2cd6972cb8952d2b95a841
+~ -[CoreCECDevice defaultKnownDeviceFeaturesMaskForCECVersion:] : sha256 5a96f0086e0846797eced2ac38fb7bb3f6b7856f2fe728306ef45908cb9c090e -> afb5147faa5375209cbf42bfdef1704d640c463c69f72390fcfa308d31d4240d
+~ -[CoreCECDevice isUnregistered] : sha256 e1159045fbcef33d9e86900e3bc1f84a435f2e9d303da179637e17181350d8e9 -> 5e72dbaac57ce115d9cf105b42d411a731d83ccaa39ae3f8a285bfe13203a5aa
 ~ -[CoreCECDevice setIsActiveSource:] : 32 -> 36
 ~ -[CoreCECDevice deckControlSetDeckStatus:error:] : 152 -> 156
+~ -[CoreCECDevice refreshPropertiesOfDevice:error:] : sha256 84a47c06b3ceaa2ac6f1e732387d16b5349358cfb0f30cb404f27a639c0d35c4 -> 6e87c767b7308a413fa08a04f95cc4ad8583454667d093a7e483a596140345d3
 ~ -[CoreCECDevice setSystemAudioControlEnabled:error:] : 112 -> 116
+~ -[CoreCECDevice systemAudioModeRequest:error:] : sha256 1bc96bbf858818f170373089029c19aa2f9280c764d2da128346870fa3f1aa73 -> 67f04fab96d551f0ffc1a2880cad88f813bac5ff9e79fc8e5cf929b406d2f8eb
 ~ -[CoreCECDevice setPowerStatus:error:] : 160 -> 164
+~ -[CoreCECDevice didChangePowerStatus:] : sha256 2e4c9b0d5cc48fe6e949bd5d0537d69493b09c43e610979eb28effc614b72991 -> 3f5841c6afd0354222989f674d97c2251c10ea093681ad55176fa56372d23452
 ~ -[CoreCECDevice setAudioReturnChannelControlEnabled:error:] : 112 -> 116
 ~ -[CoreCECDevice setAudioVolumeStatus:error:] : 184 -> 188
 ~ -[CoreCECDevice setAudioMuteStatus:error:] : 116 -> 120
 ~ -[CoreCECDevice setSupportedAudioFormats:error:] : 540 -> 556
+~ -[CoreCECDevice featureSupportStatus:] : sha256 be9abf663ee79ba8e3ca08f945a569e2951549148cda7a5de30e1572486a2168 -> d64b9732701854988bda543ce6a4b3c416445115bfde5eca54e32d345be1bd23
+~ -[CoreCECDevice setFeature:supportStatus:] : sha256 bb5b07e90bcc0d1a59fbf799e66709066164e454e5c375f4cc5802da193982f6 -> ed2c695532282df220d4f2f82189538f3d33633b1c23d07e917415dd35e100b5
+~ -[CoreCECDevice removeFromBus] : sha256 caf67fa369a3d5715e29c2b55a3f1698c952e0d69f01c00261c25ab556293930 -> 51f8ec69012b050491ea0d077ccd3902ef1ab589a32cf41d260310bf434d2022
+~ -[CoreCECDevice deckControlCommandHasBeenReceived:fromDevice:] : sha256 ac95a4791a752b09ce19877a743288c12cb918baa980c3785418ebcc914ce6a7 -> b3132a32e9e4eee94cf173ca72912ca6fa0a7584e1ed210e315b39a71cea9510
+~ -[CoreCECDevice deckControlPlayHasBeenReceived:fromDevice:] : sha256 cf1e10e7866e02ce1497c6f373f6a46beeac9f1d86089419b456f18d437b4005 -> 89cf12a94551b8fd84562cd965dc5519c35a367ee2028e7af63a481d0b9838b4
+~ -[CoreCECDevice deckControlStatusHasBeenUpdated:fromDevice:] : sha256 ca471f9525de380cf4ee74afd0b0cc0d76c3244589567b37d6ce4b8bf8b72707 -> 6c349b3c3cf8d7109fe66ad9ed1f7b9d83a000fa039f065384bd4c87fa18160d
+~ -[CoreCECDevice featureAbort:] : sha256 61a348c8400af3a72852884353f95bd57bc8747eadc015a52f89c71bd4c2c58d -> 4e1fa95a3871a2a63b7e6883f4aa97d6f992f5f63e43a55414af21ecc12da261
+~ -[CoreCECDevice shouldAssertActiveSource] : sha256 5ddc52add9ee2790c1d05acc12695d00d54cd7ed58d64f062e02f1579d6253cd -> 4dc005152300831d261ec39bbdaaf4c95d169e68f9c40e959fd45dd20a2f177e
+~ -[CoreCECDevice standbyRequestHasBeenReceived:] : sha256 da7359a31485a8df9b262c76c95680ab7f30906d1df44d280a200f977d2e119a -> a3580290bb19be772549729dc6be77f3eb09bb348aa0635f16f35d1b3867faf8
+~ -[CoreCECDevice receivedRequestSystemAudioModeStatusChangeTo:fromDevice:] : sha256 6eefc94e80e5948ada88fea8d9316e0eeeb1df70e1d523a8d178ad784284f287 -> 2a395a266a6fd72445b0dcf94d3fba7667102e5ba9ca35e8bccf944619c52aac
+~ -[CoreCECDevice requestSystemAudioModeStatusChangeTo:didFinishWithResult:error:] : sha256 cbed22749ff6782609fe06523278065df6472bc17d9fe29cb302ff2b1a40aef6 -> 4488069f213e8bd7f308da21017b4e28c82fdbfce994959c3b4c3b6dbbd75012
+~ -[CoreCECDevice receivedRequestAudioReturnChannelStatusChangeTo:fromDevice:] : sha256 3b232e259f971a076e1ca4b96a2ab975e154d65c4bb7d1eab0642fdc343763e6 -> 0368a3cdd61e29911922e9c5e93adf2884cf0d7ad86b308ef07ab3d837030ea4
+~ -[CoreCECDevice requestAudioReturnChannelStatusChangeTo:didFinishWithResult:error:] : sha256 80ba2c2291a33bf2cf8af640e5ca4395b1843401beeed75a8dc7aecd2069712e -> c3eadd1e73e5b7c2f05125875bf3c9212a0dabc131b123bcb70ce4c50b972264
+~ -[CoreCECDevice audioStatusReceived:muteStatus:] : sha256 1060e3c8e45f53dc45cadbd932465b4bcb4dbf9204b203d0e7dfe4fa02f761b7 -> 6d52d341f976e59129bac1d842b87c2dbd83fca6375b6d0986bf4297e63ddc51
+~ -[CoreCECDevice notifyDelegateShouldAssertActiveSource] : sha256 a8db64b20ae1e76e9e07d4c4cec8475eac4a1f6b21f194990b4bd7da78ee5505 -> e42ab36d8b619cd1f07cc883868c9ddd22688d028dc096479b8e7fd902445c4b
+~ -[CoreCECDevice notifyDelegateActiveSourceStatusHasChanged] : sha256 117bcfe4fafaff8e4231eeb79829bb154284c3d689b3d0b5678d5694579cb7ca -> f470a49beeb9e5f4fa71c083794f80bbdbeb063106018a942423e8a8c5690c72
+~ -[CoreCECDevice notifyDelegateDeckControlCommandHasBeenReceived:command:] : sha256 1efb42ba59b487943fe1223dcf1924e313badf9f5d9c2643426a3f465f966aea -> d8161df793714677615327ab62e439c5abfb6a61eb3a2080a6697966fb01f217
+~ -[CoreCECDevice notifyDelegateDeckControlPlayHasBeenReceived:playMode:] : sha256 547a296c6ced6d54e38a3b1d507be603beced236f96fbd50e5c093dc026b7750 -> 9e7ef8fbf18661078a004747334ab71fc30ccc62ac0a37586b6e67246c5d9008
+~ -[CoreCECDevice notifyDelegateDeckControlStatusHasBeenUpdated:deckInfo:] : sha256 27f60d50f5731ebd02c21ca06c7d6fd9c25b2178620f894757bb4f50105a16a5 -> 043ca92ee04a6864c6029bf8a6f6a55c4fe18ce3d1214a5fb48d10e0ecf44b9f
+~ -[CoreCECDevice notifyDelegateFeatureAbort:] : sha256 58d3bfb8f4aeab2a40ebcbff952a994011212e72f7050b8b30246bacbe8b8ea3 -> 270c12ffa3a50e2711f597a1ac6c8e1fd88034e71618b662d46d2890240cfbf5
+~ -[CoreCECDevice notifyDelegateStandbyRequestHasBeenReceived:] : sha256 1af755939981c0d56175f66c6a91493c4eb632ec7a7edc9eae116a60f14fb790 -> e19caa6eafd9f74f090fbaadc7beb96e20a44ea3d854f2bb234a306fcaddb569
+~ -[CoreCECDevice notifyDelegateReceivedRequestSystemAudioModeStatusChangeTo:fromDevice:] : sha256 645a094559bcc4b7c818a5c479ab42747388cfd8ba4d662f496f4630f273d686 -> 55785e4bc8d3f56eec0e103d48f9cc293afe50733318751955dae06f7d6a1ffa
+~ -[CoreCECDevice notifyDelegateRequestSystemAudioModeStatusChangeTo:didFinishWithResult:error:] : sha256 90acce3d9b8ed13d3d6da9fa8d7f5412b0871c1b57c32b3cacaa4a4a9120d21b -> d3583c71f1816d38b5c6e49d66e2fa8c5a2922fd699ecf688cb543a8979b202d
+~ -[CoreCECDevice notifyDelegateReceivedRequestAudioReturnChannelStatusChangeTo:fromDevice:] : sha256 696876a40ec14270427d1675aa1927c8837c4e28d53630fd9e3d38dd4698be02 -> 088ae6ae1f3e4d18dda36c03011d7f63c385ec63dd0e9c8459611f1746247709
+~ -[CoreCECDevice notifyDelegateRequestAudioReturnChannelStatusChangeTo:didFinishWithResult:error:] : sha256 18db9794cf574c6374f1df70b6298f965a343142b1826f82d1354dfe434d5cdd -> 19d40cf8879c883da4976bcbaaa6c88ee7ea94e5e6d2e26b489318f44d1d584a
+~ -[CoreCECDevice notifyDelegateAudioStatusReceived:muteStatus:] : sha256 74457d9480ea5b0ae85c64ee0c48647e00018f5f1fe0297718aaf14f2aff3380 -> 2c278d809e0475fa100177f429029107d398459cb091b1bda6ae93e3bfed5657
 ~ -[CoreCECDevice logicalAddress] : 16 -> 20
 ~ -[CoreCECDevice setLogicalAddress:] : 16 -> 20
 ~ -[CoreCECDevice physicalAddress] : 16 -> 20
@@ -160,6 +556,7 @@ Functions:
 ~ -[CoreCECDevice allDeviceTypes] : 16 -> 20
 ~ -[CoreCECDevice setAllDeviceTypes:] : 16 -> 20
 ~ -[CoreCECDevice rcProfile] : 16 -> 20
+~ -[CoreCECDevice setRcProfile:] : sha256 6e9e39b59731515d14da5a582aded5acbef868bb7fa2fcb25e4fb078073f68ea -> cd9e086bc3b10ddd5d7802dcb0dd1038bd400314005129b28c40cb7076c61594
 ~ -[CoreCECDevice powerStatus] : 16 -> 20
 ~ -[CoreCECDevice setPowerStatus:] : 16 -> 20
 ~ -[CoreCECDevice isActiveSource] : 16 -> 20
@@ -172,63 +569,331 @@ Functions:
 ~ -[CoreCECDevice audioMuteStatus] : 16 -> 20
 ~ -[CoreCECDevice setAudioMuteStatus:] : 16 -> 20
 ~ -[CoreCECDevice audioFormats] : 16 -> 20
+~ -[CoreCECDevice setAudioFormats:] : sha256 7b0ff37b767b5731e71c873b6df4e95745b1f7078fea475275a84d2d32c2d273 -> a707f650695a84f6a71490d354d7d86e6b15e63b1271b129375093837349dae9
 ~ -[CoreCECDevice audioFormatsCount] : 16 -> 20
 ~ -[CoreCECDevice setAudioFormatsCount:] : 16 -> 20
 ~ -[CoreCECDevice deviceFeatures] : 16 -> 20
 ~ -[CoreCECDevice setDeviceFeatures:] : 16 -> 20
 ~ -[CoreCECDevice knownDeviceFeatures] : 16 -> 20
 ~ -[CoreCECDevice setKnownDeviceFeatures:] : 16 -> 20
+~ _OUTLINED_FUNCTION_0 : sha256 b0599e4838955ef80ba4ebafeb23932c1f03aa990120508dcf42e735333b8ee1 -> 65e515819ad3ae3c9c650fdd4071eb4ac34c7410e05524f906c255d0dbdd0684
+~ _OUTLINED_FUNCTION_3 : sha256 1c651445b22e6e82b21e50109e447b6359b4e4f61821a00aaef51382c21491f9 -> 87c4e4a4be031f3a021c8ad2ae777b1ec7965254799401a9a6ce4f92cc9d5fcb
+~ _OUTLINED_FUNCTION_8 : sha256 e612d21a0ffcdfd60a2a4be0d488577c39541d31b12ef107cbc5ba67233ad100 -> fa2befa38f03ab420d4fdd2cd08e0de44809c22bf2a62031ea8dafa623b04498
+~ _OUTLINED_FUNCTION_3 : sha256 e614b19cd5cfcbbb75aafc7313427b9ef2ac01023693891944d516a2565c47c4 -> 4c72ed1311d9e55f7c3fac281b0a2aff0a240574e822398cf6394209203c3c04
+~ _OUTLINED_FUNCTION_7 : sha256 6e829122a054477f17b3fc913d90f54a72face6e1208c1d1e1388e9e7f504080 -> 67d4edd2a5973d8d822b02f4db187c17c9775e27831e6edb3524f5e5746f965e
+~ +[NSUserDefaults(CEC) cecUserDefaults] : sha256 ca35cbf30643b2d5978b2b04155a6dd408f1898f5a65f3a3b5303a13c8c1054c -> 70d90ee9a403a1b7084e2639efdd45f92d29339b7a0d488b889462c4ea7f3fb2
+~ ___38+[NSUserDefaults(CEC) cecUserDefaults]_block_invoke : sha256 a5cbded49bcd35c6790a646fc94c235927653e4e39f1007cfa4c0ea3a9108d57 -> f710adb01c543f4b046fbb3095b92bf8afebe212301a3a59f1937946d396f0c5
+~ -[NSUserDefaults(CEC) cecDeferLossOfLink] : sha256 e83d51713e8b00f6d614941469ebfc969954ec0b7398d28ec2402634164c619b -> c14ad20aec13b74668dc53444dd9c0d8fe41b59e8bd6016159a7c20e52c82144
+~ -[NSUserDefaults(CEC) setLastKnownPhysicalAddress:] : sha256 72d8cee6cb65a378632e98e1461be6c36299f3e9461b2f54863cf1663a989485 -> 1519d3fbcdc2140df956a840012683ea958ffaffa97ede04e5f645458e13a5c1
 ~ -[NSUserDefaults(CEC) lastKnownPhysicalAddress] : 280 -> 236
+~ -[NSUserDefaults(CEC) cecActiveSourceRecentlySentDuration] : sha256 d09763856fd473e9bb3aabf7497614d63c6631bda69f2391c3f06448c6bc08c4 -> c5e8141c3d10ab66b950542496e3abf3d5cf5691aa91d1a0547b64ceae57f7d9
+~ -[NSUserDefaults(CEC) powerNotificationDebounceTime] : sha256 1c777da072591c31348c9cd157dbc371f68979ed8c4f77cfb8f3181153f19c87 -> df1bd2ade8b17af28f3d4c06ae2c052019a9df43a791eec52b26f86c3b784afa
+~ _CoreRCWaitForAsyncOperation : sha256 0dab78278b3e88ae8b1f1836fdec257fcc4e1d8da1c1466d690ff91f0d55073f -> 11cc672bc1f8ebd9d7d48a42cf0f21ab084d8f6f27408d96232b0bc14d8cc667
+~ ___Block_byref_object_copy_ : sha256 e8465aa9f22f889af2706eea8657f072e4e9c90d1000649358525ff038eff908 -> d90a111e5f24a700ccd949bd63851d7d69aa7db49d473aa000e27da102e6dfac
+~ ___Block_byref_object_dispose_ : sha256 5fc2f65d04da408a4fd437114eb724dcdb425e910f76743ab9a9d87611a4e161 -> 59935a1e38649df446d51ba21da2dad94e85027f16d2807724d303854641fd52
+~ ___CoreRCWaitForAsyncOperation_block_invoke : sha256 e07ce580878ace9098fcd5f1d6640c183054c358b06f550134917fcaaa902d5c -> fd18d812d867d80a84bb4fff561c0d99e54dee44f7f7f6fb36297e280f81ebd7
+~ -[CoreRCManagerClient(CECPrivate) fakeCreateCECBusAsync:reply:] : sha256 ef9bbd1675dd9284b7e21addb1fcb0ead24bacd5822253b86e622bca07a500c7 -> c98de2d5f7b4445bed07b6e22c21e9efd16d8b3b27ef656bc46028ccc7011ad5
+~ -[CoreRCManagerClient(CECPrivate) fakeRemoveCECBusAsync:reply:] : sha256 1c308194ea0e0aee56f2ae90aefdd645d8a7c590a9ec039cbeed66cbc0ba2a6a -> 44b9c9fafa9cf8899ace82722f50b66d88c8c1348ab5bf2d5b4d2363a2e160f3
+~ -[CoreRCManagerClient(CECPrivate) fakeSetCECBusLinkStateAsync:linkState:physicalAddress:reply:] : sha256 74511ab2d8a9272663623e36596b8d8537d5e5a968c1ec99220d5267091cd40b -> 6a112bc275c30d2538f4bc539813b65f08e05fba1000b4bfac50b7375be53e7c
+~ -[CoreRCManagerClient(CECPrivate) fakeCreateRemoteCECDeviceAsync:bus:logicalAddress:physicalAddress:reply:] : sha256 eaf423ad92235884cd48dd0c6a5467ce1edb0c5bd25fe345b385275eec315749 -> 99791e185752100ec41317790d591b7c36439c7bb04bd660a6d169ea3b05e622
+~ -[CoreRCManagerClient(CECPrivate) fakeSetCECDeviceLogicalAddressAsync:logicalAddress:reply:] : sha256 f4f02544109d0598b8c7c8c977117128a67b6e0f5205886c3ea4148872a5c0ba -> 9829c282a8c49ea9b135c13d5ddf350f1276b77219fe349cf7d2c7a24c95fcad
+~ -[CoreRCManagerClient(CECPrivate) fakeRemoveCECDeviceAsync:reply:] : sha256 2b54fef8165f5264ec92abbf58453d06db660d3f9a2d2be60869f9a14bf52dc7 -> f0110144ecf853aafb4eb2ea99672cf514a5314eaa050db163556784bd0a981a
+~ _CECPhysicalAddressStringWithAddress : sha256 7950dcc59788a4352321e5ce09d4abda04f267000bea78b7b4486a47495f34c6 -> e696270fd981fa5ead609a10fc20688472e27c069be5bbabd1d8e9d2084e6c04
+~ _CECVendorIDStringWithID : sha256 47b2fde55b22f3838f4a1e0339fda3e280e22368176d70d94c7238ec0d7afc41 -> 9616fb761ba84bb0d5a6f16e551608dd1567bccc3c5868278a77bcd0906d9923
+~ _CECDeviceTypeString : sha256 57d6e6dbc1107175a80ff25c447dcfd062ef0d8c0ec7b5228394f4e0f113cb38 -> b87eec4736072137dcaa0c3a443126a60f92b1ff7642a96d92ab194d05a6717f
+~ _CECPowerStatusString : sha256 1ed067dbbb337f56b5474bd6215022205c3f22109fde17ed8a5dfa93fbf31131 -> 541dbcd904dde823d63bdb9d48bafcf880924c77b9b633c809f0ac816bb62978
+~ _CECVersionString : sha256 9fa461954e64b73e7a7d65e725f5a0564f1b93bab533dc0f31e2b7829895b823 -> d899e192cf3bbed1205b1b658c4490ed67d42ebb105fea8a12296022ac3469a0
+~ _CECAddressString : sha256 66d3b0480bd8e8200f4817523d689232196d945bec0899fe8ba6f5ea8788d563 -> 1c001c5a349b07b7c2bbfb42b89b3d7f6af1e74a96b14f56e3e3f18b7ed9e99f
+~ _CECAbortReasonString : sha256 73c8487744c2191bea5e5c263eb151f37048a717365d47e2e252511c179605e5 -> e991e8eceb2bb51b15645e4d51fd25f8abb78ba9c999e4c64cf6fd5c6f51e3e0
+~ _CECMessageTypeString : sha256 41bac6e9aa37bcf26fd11831e336defc0117074974dd0c60563e66990b425782 -> de1f9b37764c2f6944e42718750e4a7fa726fff338847f971c0ad0f1731c6722
+~ _CECUserControlString : sha256 2aff85e58b75f0e7d70ad5672f8d6b4d5c7e05acb2ba3664415d83a50ef6a919 -> 00e5d60b3f66315748887767c1904eaf314337685e7eae22924fbde3521edff1
+~ _CECDeckControlModeString : sha256 286e4c7b85b4d549b89225c4fa5b520835c42beaf6a409d2a877add43c747652 -> 636bf70eb5f90b2230f7a6aa3be04b8f7c946fad2d624009a528b1457d758835
+~ _CECPlayModeString : sha256 160b37c6d90c19ee45a5bd0ae9d9466a5fc5cd004630eeaf39d8bf9d85e34072 -> bae09cbe7dcab78e9ccb67a88d9e0c648cb58a584ffdab3e01ad8efd68cb3c28
+~ _CECUserControlForCoreRCCommand : sha256 9b60641040894b40259e1465472d71e0380f63cb07e7d273169c008e121bf2a8 -> b7c1410850bd88ad66381c6dbc4db611306e71de24b1c1da1be424b82115a26f
+~ _CoreRCCommandForCECDeckControlMode : sha256 406892fd83bbc5a9c7dd146651c1bf905bebd672289259ce103adfcdf74273af -> a8da0e3fbfc914eac370208b9789646d8fc0ac65f8f27db18e5ab651142824a6
+~ -[CoreRCDevice init] : sha256 f42d30613229800234a00cbf80b83def3301280bdd6c4db7237c3a921929319d -> 536a03f930cc540e474b0c6d792a6dc6c012abc3ebd670fa65937567ab8a1b41
+~ -[CoreRCDevice initWithDevice:] : sha256 df226ee6435e08386a20419a14d2615ddb3bac81f0b4419c699f03028ea7484d -> 32e3089c549095fa369408b0a17188be990248bdbb04b940455c490473995ac8
+~ -[CoreRCDevice initWithBus:local:] : sha256 af32638aa0e672b9614ce61d3249a6534fdb1ae6c1bf3bed265e9eead9e44724 -> e07d2b98cd971f1b9b5e341c58892c591020eb63389b8c3d6a0b23f28ba52e24
+~ -[CoreRCDevice initWithCoder:] : sha256 9e98a42282f7d021e095753c712c157221bd40fc5e862c7a88e23a865eeed0d5 -> 8588b9e46c47ffc009bf6158592f4dd5df443b691e01b38a11921aa5537fc639
+~ -[CoreRCDevice encodeWithCoder:] : sha256 e97cef586d3d33c804aaadbfdaaafa56c86cf9955c4f8241269047f3906c0f57 -> bbc468948e16868e73538b477dfb44c6c77dd88932dc22be95edf14ce2e79598
+~ -[CoreRCDevice dealloc] : sha256 cd3d1985880dc650f7cc80b24c2ec20ca25ba3d9c2516ba79aaf773d64ae0d97 -> 06d01995808dfa8ee8b20ee5aa40e5104cbc31160186b7d5737733de50ebafa1
+~ -[CoreRCDevice copyWithZone:] : sha256 710848519e335f4ba121a1d862995bad25e3c90a1dec0ba8cf88020245ece3be -> b63a49add2fb132b40cae4e99a4cc8fcd8464586ca3cd4c79ff883b576961707
+~ -[CoreRCDevice description] : sha256 999090dab9a8636bd8f2417fd3c7494427c4048b804d5d8e446dba950b17bf58 -> 19e314ca37165ad8b7e6fe9be7190219d548bb4ececcda5699b0878998bb5048
+~ -[CoreRCDevice isEqual:] : sha256 3c0784af6fb786a6b2a6630a8bae895946f494f10a4d59b912c3889cf0477997 -> 3bd7ab1a99420f7fd09c7a95ed04be732ed1a4c774c8b19b39a8fd9774a8ce15
+~ -[CoreRCDevice hash] : sha256 ea9bbb81753e0dfcc66d1b8424f97d7cba332bb8612ec58eed05deb403471d58 -> ebc5a706e4689ac1f5fc40224e958abfb05eb559409def25f66fc37276e2436b
+~ -[CoreRCDevice bus] : sha256 a1d92f5b25d42d5177e61ab7e7e6a2e795f3a0e96c77b2be8f4a22ffc991ef3a -> 53e6be3f9e74711e2c006303c8019e3bf21f011dc857293b0da87297c9e1989e
+~ -[CoreRCDevice mergeProperties] : sha256 b71c343ea8e3e5e7fa983593f0615bba66ccda2803b55f426b04e1ad772427a5 -> 8c480d634556d505e134951b07b3c48ba7de50b1a377bbf2eb3fc44ee5f941a1
+~ -[CoreRCDevice sendHIDEvent:error:] : sha256 b12487075e5b715180d5296daa8d95fb6a2c965dbb3ec43d6618e53c17c6869c -> 195aa981d7c2b8036930fd8c0ccc7fc7d039a90175d602e9bdfacce2d66ff139
+~ -[CoreRCDevice sendHIDEvent:target:error:] : sha256 67cb7fde15a693da9cc75409688085ac0d3480fc6545d51e51c3846dd6ab85c0 -> 3cc8b0d5c731c2fe515a3d69d63cfda54ed138125ab462e46d63e25faaef11c4
+~ -[CoreRCDevice sendCommand:target:withDuration:error:] : sha256 508fd6d397e59e6ac825b6b78d03e8d4fcbe633bd9207a6c79e43ae38be1a2f0 -> 1cdb6eadddafc725a44312a7e8b309cb5bd77b706ffc670dbf76b54b9b106bb0
+~ -[CoreRCDevice receivedHIDEvent:fromDevice:] : sha256 4a314a083861163f4453036d505f7279b6d80b76edd2371469428743839f192d -> 794dd5c66a2a50f5baeea701df50b38318adda949fb550fe8f3d41d0c44375bc
+~ -[CoreRCDevice setExtendedProperty:forKey:error:] : sha256 190c0eb1fd57b3759b83a69b750e13a917c51dfe79bde9fdc39d9e068ff5a38a -> e34bcbc0dbaa79ab350051211d5baa36630ce99aa36767d2578e2f11cdb55b7e
+~ -[CoreRCDevice extendedPropertyForKey:error:] : sha256 9d0c55295e62af7cb51a2605ae6447c7c1a6828eb557b18fcc8b90e953919365 -> 9a7161b1ae25e25536bb7a64ae6b1ac52b3b488737cbcf0c83ab2f6166f135f8
+~ -[CoreRCDevice didRemoveFromBus:] : sha256 0d39bcec24d6cba0715ed4021d0f338d98587f1a0e4a7e8d08b9f5ad0dd727d2 -> 9f213358f75dd3d9688016e03b1bb110b1dd0ee1aa9eb2783c0e4866c1489243
 ~ -[CoreRCDevice removeAllOwningClients] : 316 -> 320
+~ -[CoreRCDevice removeOwningClient:] : sha256 813126faea283ee7c715a4d7f7e1c95941ca7516dd4e8a0b0b66ac7c42e2ef83 -> f5ae34236766c97ff6e05dd4b2c90ad2eb426844db688c531d60fc540f1c405b
+~ -[CoreRCDevice addOwningClient:] : sha256 a0e4f20b5d5f363443a5c9e0dd5460e6686150ef9fd7065f88e59662f5725d5f -> b5dac3fc9cf9e4e2ffc026b9f3522994c690de6b8eaf71affe744b5262bf0f30
+~ -[CoreRCDevice setUniqueID:] : sha256 98e11f2fbc39c4534b449c0b28c7fd5b49be5186691793be3be785fb5a050a05 -> 22fa68e8300920d7ff38f3c90b352f054e8411bf6b291839f7e883f0a30c1738
+~ _OUTLINED_FUNCTION_0 : sha256 6e2fa146e56b5df87e3a67a37294eba6edd447a138aae58c2e395e31d5076432 -> 20b5c60cd01bbcf548ba8bbce9bd44a3301d8b87294e464e1c6d900f852a93b2
+~ ___39-[CoreIRDeviceClient setOSDName:error:]_block_invoke : sha256 9103168a12295bf18eb5de30887a76157cdc1acff16ba7476fd42d6a28a18d3a -> 8b653b8bf9adea2a41bea65be7b9344ebf871dac289866b0c97ad2791b4511f3
+~ -[CoreIRDeviceClient classForCoder] : sha256 26aa039f2a0316a7a78acccc6a4a8d3e78327f6c50a773a98a2300e517b8e0db -> 425f6fc68d67dc78afa19524f43126e959f64536c2ce0391c4be13354d66c485
+~ -[CoreIRDeviceClient sendCommand:error:] : sha256 87d9ef2c850164b104c10d68831753b6d1bb2eeea89a505639c0ac7b0b334fce -> f98e92a6737a70750877b443ba557288973c2245a42098a74e8d3f99e8147cd4
+~ ___40-[CoreIRDeviceClient sendCommand:error:]_block_invoke : sha256 3cada8d09b1196e7d22f6179b92484988bee152bf24e8657874627431fccb603 -> 803e392961b822bb407082132bd9b81f53a5a74c13bd2d27f13d195b5796e4f2
+~ -[CoreIRDeviceClient clearAllStoredCommands:] : sha256 a61d143f5cf766bf67ec4eafece53d4dbf80031d3aeaef07795207ac6ff33788 -> 4cb6f982b82e3ff387d9d9fed8ad96df9a4a16e824f100396f79d05f1fa6d816
+~ ___45-[CoreIRDeviceClient clearAllStoredCommands:]_block_invoke : sha256 f0e93028186e596d2703eb39ed34cde20a20fd104e94c62ce0522f53322062d4 -> 486919f04e3f8d041cfc5930d6ec163234236f8a37f26c5a7ad5549a05a01635
+~ ___45-[CoreIRDeviceClient clearAllStoredCommands:]_block_invoke_2 : sha256 7f7c66c6db69e82e90f07c970bb403987171f31ce54ffa8c4224125436a20315 -> 7fa23a86cd14711ec97829a2774b1688370647525d3d0643c822e6abc53990c8
+~ -[CoreIRDeviceClient setCommand:target:forButtonCombination:delay:error:] : sha256 52741339b7cf89ec162ddaf6c1fc3035539d8d7db7d15dc8fef027610abc2ced -> 029c69af5ecb25cf1f0a04bd08773b77c2939a8b1506c923e206c992392ea7ad
+~ ___73-[CoreIRDeviceClient setCommand:target:forButtonCombination:delay:error:]_block_invoke : sha256 9bdc6a102c4dbd0902188b030810e0300e4835d784f787f0908fbfbbcc3d29b9 -> 98e51f363219bab202852180d4e8d2b234a05649b7e265f1d62aefafd6b26d1e
+~ ___73-[CoreIRDeviceClient setCommand:target:forButtonCombination:delay:error:]_block_invoke_2 : sha256 1c6cb8ba133b940eb2aaabdd2f03a24b7d512cc278a0bb5ce46643c6e9004d3e -> c9be1cbc6f9f4e955d81344ae5b01e1e50dacd64a58bfdf4809aae6bbb8c4d8d
+~ -[CoreIRDeviceClient enableButtonCombination:delay:error:] : sha256 484d1368f0255072852ba563c2e734f9e275b6d11593ec947a8e37eb8854e484 -> ffa49800ef934f4fcb5275d2a594ae389b7165e07d078202917f9c470d7a8849
+~ -[CoreIRDeviceClient disableButtonCombination:delay:error:] : sha256 30487ce7e15230bdfe994176e1bbcacf5d28695369ab96a521be256c5cc74693 -> 5dfe19a4c45bb9d91d79eca945bd159a04d9abbe266ddaae089e6cf6b8a5a73b
+~ -[CoreIRDeviceClient changeButtonCombination:delay:enabled:error:] : sha256 015df8c731dc121625f166ac6299a1c383faae75e807919bfbe70a00551711a4 -> d09074df80e91396a578cd264476c0fe4d66c840d531fb6fa3fe13e0abe34017
+~ ___66-[CoreIRDeviceClient changeButtonCombination:delay:enabled:error:]_block_invoke : sha256 5fb06dccfe6f8fd61bf0235239195f00a8e18ec4f09ad57db05a9d69c06f4a6c -> 93a74ea8cd83cff1bca7bd24c32f960c8638b37439aa8ca9fe11c798405e8653
+~ ___66-[CoreIRDeviceClient changeButtonCombination:delay:enabled:error:]_block_invoke_2 : sha256 fed2f11ac1d6e59e3a908337083bd072ac6e48adf7a91ea6de1282a44c93f2bf -> dd88ae725a739a743181668cb5a8aae40495266b19182feef9c20ff6230f4f83
+~ -[CoreIRDeviceClient startLearningSessionWithReason:error:] : sha256 3a072e3efb668aea39f1c19087fef08ee0af0b097e3c0ac661e671406312614a -> c59e235c605c9f61393968b5c8c35ea178cba718f2dfd35a72e14e41b2e491f5
+~ ___Block_byref_object_copy_ : sha256 b1e054013396e2eeeb927693e1339acb956757d0515a2148012a53844712f713 -> 1973c57fa515fb599cc89110ffc608d7b317623e77a8cf85b79be6fc77211118
+~ ___Block_byref_object_dispose_ : sha256 7c8f2679e69e1bc704ac6ead3dea4698ed7bb39cb51d4c59c099d7479f7a7787 -> ba99a0fa95cf944a51677427729c1a207d80f75cc1115c7aea813bd8335830e7
+~ ___59-[CoreIRDeviceClient startLearningSessionWithReason:error:]_block_invoke : sha256 3d8a4ddcf01b6043fbc1c841ee319785adfa62b4991a81f93cca5e1d79021a11 -> 39ef18dfdd3402c17e493b6fede3ca2507c53c0ef16f6e8a62a085b3d7cbfd2f
+~ ___59-[CoreIRDeviceClient startLearningSessionWithReason:error:]_block_invoke_2 : sha256 5f0a324e8d6f42e9928eb3d77c5ca9c6f7f73525b6ef3526dee52245e6f45baa -> 86472c0b5bc80078a49c995475359003fa0668711d5ad2f7401e19fbd86e60c1
+~ -[CoreIRDeviceClient updateMappingWithSession:error:] : sha256 30aba0454809d8b86683ced0f39d71e2a84a1283f243952a1cbf7c4bd51d45f9 -> 1d9801bba2f46306d199a8744e07511683a6e59db104069cc50c282bd304514c
+~ ___53-[CoreIRDeviceClient updateMappingWithSession:error:]_block_invoke : sha256 ec65df1196cfe8ba5c9f63e5225f6fca5ce4889eb3aa5fcc7be42f9942e4a8bd -> 65c07f3c0fb9bec7fad2ad7ac1fafce60beadc341707762aff7484126ffd7116
+~ ___53-[CoreIRDeviceClient updateMappingWithSession:error:]_block_invoke_2 : sha256 239577015df3f9c10e51b01c225d265a395f91768fad092a1f513d0016494f7f -> 6e26150d01ec1e42880dea3ec4e60560d702bb2e0067a38617b0c155a393342a
+~ _OUTLINED_FUNCTION_0 : sha256 a1ea417e924d38411d180b337cd38ce71998f9805bd7308d80e5ba7dbd4fa8b3 -> cac2fedefb12b602cdb3cc5dd125d28f7d373640159277e519f9a670fbe3d7b2
+~ _OUTLINED_FUNCTION_5 : sha256 b269bb10bdaa0e86b81d2267ec085c8f90e8ebfc24c478908d183a90a5042a44 -> 0a8b7c6bc3741bf7add61aa5ef1db6e4628a5a76baa4e82f2ea2c0e066d3c7c7
+~ _OUTLINED_FUNCTION_3 : sha256 4be10a042bcd74ffc154e084f93931533aee670a01970a2815143a8e22e2cbe7 -> c0f11bddb930c4813f03d47d71cf2a1719ce4f4ca8bf1e52a91a7b3b71442b0d
+~ _OUTLINED_FUNCTION_4 : sha256 18dd7a0932523fe69826c0c5c694197c4f3b44dfebde40679a65fff78e9c1979 -> ff17c753fa8edd1a39109a6bfdfee0e2ff2486bb9ef10de1e95849c686349799
+~ _CoreCECAddressString : sha256 c440ae56810be48faf535e46166d6271146aef54b139959019974e78780c6500 -> 9a531b1ce1417c05888c1e6c4154f599c1bfad5e7edfaca282cadb7264261340
+~ _CoreCECDeviceTypeString : sha256 e6549f6354292bb54787fa82808d69aa6d844411894ddb7572cb71fbc8e5ff86 -> 1ed9fb9ee98688c52a1fbeeb2817dbd22ae194e17722a2d57b14cd20224f4550
+~ _CoreCECVendorIDString : sha256 28158dc8a0cfad59dcd1aefc2cb2375104f87e2b9384bb39965220d590e1a05d -> 209bcf293088891790714ebe70c98a1dd1260398bbdd22a3e8d67e9cf8a1f337
+~ _CoreCECVersionString : sha256 90899819e0bc901cd9ead888938808caa19289357745de009de5a398f4a343c4 -> 81b4291deb73275b53bbe8686c22f98f550830702d2881f73bb0a27ecb90cb5b
+~ _CoreCECPowerStatusString : sha256 310b9ceb3e4ed9ec25a24f1486b84bb6656ee61dbb6ef8129e9717cc02e9d536 -> 5b2a8c2d781f557e9a12660e4f1deab5a613034387e1af5c067967cfd2b0e527
+~ _CoreCECDeckInfoString : sha256 4c314e3dd3af2179aa288aadeafcd7dd427665a705b3661e0c70f3bade03885d -> 6bc14d4629282a7d5661fb09ffda4f3de969be33f9b3eb3e02644ee7420c6227
+~ _CoreCECDeckControlModeString : sha256 c93742a5396426480356774520ac7a28b426d04962c63e8d35d437c7fa212a1b -> 67e2af26fb888a4179dc5f885e3533598c6feb664a61b0a6e6394886eb41f1ce
+~ _CoreCECPlayModeString : sha256 e5883e623ecf5d723b710a46ac4d3af94c06b5e5951f68ce7847e66129d94904 -> 78919816bc5998b64c46d3b4f6fd5b1db78b89dafd0c79808e8b33f04e158352
+~ _CoreCECStatusRequestTypeString : sha256 e2d708d208e389745a3b5931f03d3c7a2f6f6492b224e278ab56cb7909cb49e9 -> 57efd08a7e6ff55182c354c313e9161ceaf1e4c02c85c3341d4c8333278eabdc
+~ _CoreCECSystemAudioModeStatusString : sha256 99e8189422ae2f346218646e3e0763bee969162b26b8bf84696d900ab6114892 -> 8e9ffe48940e8363896c47247470a86000a388f81f1998c4b44084062825cde9
+~ _CoreCECActivationStatusString : sha256 6c725ed3d8c3f6a76c749285707898ea8beeb804d3f5676871060b074ad1c0ca -> 5d28eed93fbfc8eac486dd1d0886fa3a974c625d5d8c2bfa5b950e84bcf2ed15
+~ _CoreCECRCProfileString : sha256 d9b3edcaad206957452a12c6af4a6de2f8a8747cd71b0f27893975dfbd653a71 -> 51b77979d23bc2e7fdadc286a40c1c535c083239ac3834e25d3d768dd5c860a7
+~ _CoreCECDeviceSourceRCProfileWithSupportedMenuCommands : sha256 3b776b1980ae0d82ba9a17581334ba0988549128b74d29ac1d5b49f31334105f -> 24b7548db268517a278d811a10f6fb95dd0b4f2b75008f1174cb04a112855afa
+~ _CoreCECDeviceTVRCProfileWithID : sha256 a49d54c51aa1689af534f1041ea6274122d538f9115fa7a4c8d8699e36eda617 -> d75b146e60a5271226a8fa7d581569e70ea8a4761a18a1c6496b7908faa2e13a
 ~ -[CECInterface init] : 76 -> 80
+~ -[CECInterface setHardwareAddressMask:error:] : sha256 3444c90655e73abd0c3962b41c58d518c64d9d85ff370b11bc4f49a194b84704 -> 632995398bf97598683c3f9b7850af8de8f9f116a7d0e892e8e0ee3c600a3c4f
+~ -[CECInterface setAddressMask:error:] : sha256 7fd0975b343a19ae32d9bef4467537332a0eb2974e497ef078dc92bee9f3ec66 -> b7ddc98242c2623565a2ae900cb0c88ea05f8db0a6cf9bee7303f9460cda3a01
 ~ -[CECInterface hasMultipleLogicalAddresses] : 32 -> 36
 ~ -[CECInterface setSnoopingMode:error:] : 176 -> 180
+~ -[CECInterface errorIsNack:] : sha256 51780325b11e1dbf2e468e3e6b23576438dcd41c458898acab169b190a6ac5d8 -> 90095716af1f3352b500f70f907070b68a122ec358294d0c76ee7055e48bd5eb
+~ -[CECInterface sendFrame:withRetryCount:error:] : sha256 698f67231e5a85f18ec097e521acab2030e0578a50792443594c6731784e8916 -> d64927cb69221a5a630042b33f7bde5c4eb73fc0891767e1321bf3a71510c424
+~ -[CECInterface sendFrame:error:] : sha256 996478857b2da0ee7e6ad422f249fe7a9915fca4b11254d4647c787792df603b -> d0b9e9ded47a5f2cd9847a64566fb1b9b2b6004dd295ec674e2d44eb394958bd
+~ -[CECInterface receivedFrame:] : sha256 b1b461e2f1b50f8f6f1df23f7b182f6f1a2a33a299a5fa81eef33f5f0d8b4721 -> 6c428a945196b9b3123ea49f2ed9bea99b56cd319f1798183a6fb6b73004d919
 ~ ___30-[CECInterface receivedFrame:]_block_invoke : 304 -> 320
 ~ -[CECInterface hibernationChanged:] : 36 -> 44
+~ -[CECInterface properties] : sha256 f8b92722273ffe471c894af2b2f0ffe195d711d40aeb5a1fa5918326166c665f -> ce7e3acdcbb48e6b1735ce7a27c30c4f5e7784b77e34e6393a886aa0df9c6732
+~ -[CECInterface didChangeProperties] : sha256 e6e4cc262737a331be9863c8e688cf41b23b6da721b7b79acd899b6f50312b35 -> b10f51b8d21c68b37dcd4c767884cee34dc6e878d958eb7d790d67fc0fd4ad25
+~ -[CECInterface pingTo:acknowledged:error:] : sha256 8888bc75319ed855f71618e0650f77bf753e463d6e86ec8e742096519735ddcc -> 5188f6c34111b81cd64a3baeb56790c4ae589796bf333bbca2f70c6f71d14904
+~ -[CECInterface triggerTapToRadarForAddressConflict:cecAddress:deviceType:] : sha256 64bb4a355c97d2e27e17e3d364e4118ff0f23031b94aa39a1b40594c27b741fc -> 568596cba31f67527ab14b53d60d96c046bddbad277acb56fa23397455e21b01
+~ _getRadarDraftClass : sha256 39104429f408c45bc76d4dc69357f1d2a1d540af220c9d75aa736e7fe9a26fdd -> d38b599f93ca97b481abc3de4ced7ec0ea754ffc63056bd0c49b401fc1b98bb2
+~ _getRadarComponentClass : sha256 269d8ea6a5cceeeefb41c45123a73e9c2506c6aade26bb899cca77dd0ec91cbf -> b3d0ec1980f84164248bfb01cfc57d752d776235363ebc1a991e9dea053401fd
+~ _getTapToRadarServiceClass : sha256 ba84426c90f31dd37a422fafbc4752e7ed335ffe797ff060d914857e0160a8ab -> 49f73bfb82ae497797d7b24c5929c5309de91c5f57e1b69b3f3f20532fc7b145
+~ -[CECInterface allocateCECAddress:forDeviceType:error:] : sha256 3ceb20d704d030c19ab00c2722111bba5440ad5adc52ece01779f45add49ec57 -> 12ff2981a84e9bded4ec19419ad7ad82709a2b6cabe47f64a6e06ba4bbdfa5d8
 ~ -[CECInterface delegate] : 16 -> 20
 ~ -[CECInterface setDelegate:] : 16 -> 20
 ~ -[CECInterface addressMask] : 16 -> 20
 ~ -[CECInterface snoopingMode] : 16 -> 20
 ~ -[CECInterface hibernating] : 16 -> 20
+~ -[CECInterface lastReceivedFrame] : sha256 186c531d54ae6a6c0ab45098972f895e1cdbb781a022b3b654e801d2d5a091d3 -> 864a058d577137fbd79ca57b02d5fe0fac5d489239dbedf57cbc4e30df8547f5
+~ -[CECInterface setLastReceivedFrame:] : sha256 33b1bfa468e1b78d38bc1456b052e17f86c4b8fc47425160e33a7bff7f5ef9de -> 7999e4872983d9e952444337f05d04a928ce7a257c1662c1bcb527e0570a457c
+~ _TapToRadarKitLibraryCore : sha256 cfd69e4aa3f32c2fa7a3e6e8844053f05f33c14bdee30c61fdd4e45a1c1ebcd6 -> eeb96e8f8f5799e6b849edf78ea92163e7ebfbf40fc2dd6b9861505b72171a1d
+~ ___TapToRadarKitLibraryCore_block_invoke : sha256 76dff9e07db4cb50a85af22a30dccb3e9a859760438cc32c925e51e530dc134d -> 03b43a2ef96c647530ac7fa52912945ad00ee30c59ec508b97d8ca5d52ded953
+~ ___Block_byref_object_copy_ : sha256 fdaa6e45af428d0c2aba72c8786a99740dcececb7487ffdc41139503c5ea4671 -> f7cac16c6b67730ca10894edb24793917c38929b70bf5b85c085793a0036c146
+~ ___Block_byref_object_dispose_ : sha256 3167bf4e83e3bcad9b031f069954574e6c50080a271a0f48f5bba48dffa7d780 -> 690914c8b973fea942fdc30a00bdc076197f6f5d867f3abfbc01bd392d4599f2
+~ ___getRadarDraftClass_block_invoke : sha256 04cd80894ca0d61439cd2656c37ea4ce9044b23715192783f040b8dd39c6a7f6 -> e39773efa6f1c232274ccfa6db2b60210631a6d6a0c0054776ac34692df13509
+~ _TapToRadarKitLibrary : sha256 e9248384c01591794636a8b841dcf4419d0cbee759031def69f2732af537b8c0 -> 2d91e1c9044cc73fd9b5d06103b502a7b17eda9f65ec84d29bfc0b9f115ae5e1
+~ ___getRadarComponentClass_block_invoke : sha256 b0893a5ebe8679aecbf9c871326c5ba01684e35615ec527dee0a93c23efde3a2 -> 30f77e16a15ce423f69014fa886220d76ccb98429d405f9ebd0e16277560933d
+~ ___getTapToRadarServiceClass_block_invoke : sha256 592e746828336e43772d976a6a54380282eb0ff39d13f1d035de79005eb128c2 -> 9c6c82287d32bdc571a3de599602dd2f579ea105ccbae4d7dc8a8bdd550e975d
+~ _OUTLINED_FUNCTION_0 : sha256 d68ed832cd34848cc24ce230f1d7f656d2ac4b8d356a56fbcc5f48cec01432c7 -> af7f901cb41f7e7ed892509feab7c5156cf0a5d2cb38945e6a6b583958ba347a
+~ _OUTLINED_FUNCTION_1 : sha256 a430f543fc1d7c8c0d7e9d7caac265e919735c42a76a28bade93925efda72d41 -> e03100b1b91d3a48245232dc8ccb082d71b06de45a9ca2b5cea51c0ecfba8a05
+~ _OUTLINED_FUNCTION_2 : sha256 2591328929b48859a353df31b2ad1bb9a253bdc68e4d49230195530b6475285a -> 4d7a001d3a37cf60fdfb6cd4c7c6a77ced2d905b7521a02757a2723f8db2d095
+~ _OUTLINED_FUNCTION_3 : sha256 db691d79f3ca9c1e4c275fe827d811ceb3eb52f74e8f8ee34ca454d933a05a28 -> 762dfde0560ee3b52fa7d3bfebcabb1f97c4ab58da4c0069a2d86dbb600c6289
+~ _OUTLINED_FUNCTION_4 : sha256 90cd7a67efe74ddd2961a260af64bfce0801ae694c1f551c30b9ccac393c681d -> 0eb36f12d758447177481719ca3e66e99267b7a4871275575e78d7ee3f3ad2f8
+~ +[NSError(CEC) cecFeatureAbortErrorWithOpCode:reason:method:] : sha256 f8109a561dbad9fde9c4d1a32a5fe336e52ea7900386b12a5346300e6301735a -> 276447f9b519df46ade04d2c231487feac10d0233526c9c462ba98cb4464e50f
+~ +[NSError(CEC) cecAcknowledgementErrorWithUnderlyingError:] : sha256 db13df97a4f07df9e0704a5070e788e670d4d57ddc0318f2e3e65a104903b15d -> 87bc400454d86ed3f0365ea16975482c38751a52c1d31c5025facc5f867fb829
+~ +[NSError(CEC) cecIOErrorWithUnderlyingError:] : sha256 2ee0c5fb3e83d9958d979c682c6169f70e292d470aeea2d505749865ced1fbfa -> 48018f11feaae7e6a0ef93ace77004b04d6d8b766d8e06a29d5708ab1d078496
+~ +[NSError(CEC) cecTimeoutError] : sha256 1cfd6dafb32f31ad0f1a4630239a8e03b297c8aaab02400feb894cb252d81510 -> df49f56759cadf17586780f10e7705af0d70bbab8ba13a3d186c36a6d8bf1c5e
+~ +[NSError(CEC) cecTopologyChangeError] : sha256 175dd4eeed03b12922d145d5379c8854885f8a6e838becd1184da30eee311dd2 -> da3297d5ef5041f794bd37dfab196ae633a6b3c060af91747ef476162a71d412
+~ -[NSError(CEC) isCECAcknowledgementError] : sha256 4ea29d5d41c99d61ebbce7e692957be78d605367980d6f8d9ea9a849d62d45bb -> 9300dfe8f235a56ba380a9b193031c74464235ec600d900c3157a4e50329cf33
+~ +[CoreRCManager allocWithZone:] : sha256 f963615f4ef9f8c865e8cea1b00b67dcbc694091ef7218813206156e881c5c87 -> 9b28d51ffeaa66180c515a447566e31fec6834596c5be2e3e1de9a81359a7d7d
+~ -[CoreRCManager init] : sha256 f0ee9f0fe56afd1c489fc9630ec3e35abad8843595012c1b280a7d231cf7e4c3 -> 5f48edb3431cfaaf40b6d77c2c41959d09346f7928c63520fb6f60decaa2dc39
+~ -[CoreRCManager initWithSerialQueue:] : sha256 4e5c73746cd6031a9ab7b0c59b086d8a16a54020894b99de62e4e88a42762ae2 -> ccacb0df74f130ded36b2af00358a24555800872b3416d00241beafb7f184b8b
+~ -[CoreRCManager dealloc] : sha256 f27670f6290a50517179a96cf2ada1c5e5b041c1808bf8d4cce23c9cc452352b -> 39a4279d1c7b35abbad5b6396604c71d8e470ccf4bea253315b62e3d31c103c5
+~ -[CoreRCManager buses] : sha256 4ffcd899dd49e07239b57d38a8daf0fdce2078a7a18c04d73e8799fc664839bd -> 92ce93f6a05bfd531bb480a572d8ad961b2438539effc4e4c7c825adc5435236
+~ -[CoreRCManager managedBusEquivalentTo:] : sha256 2f34ae3ed774981973d7a5a501f2981c6077fb0f4b37aa16b1b7334d873b8a1d -> 8106df71aa5cbfe633bcff327cb97862ecd7e3e2708ace5373d044ae8813a99b
 ~ -[CoreRCManager managedBusForDevice:] : 280 -> 284
+~ -[CoreRCManager managedDeviceEquivalentTo:] : sha256 a3c85c5ec97474598f11029ead5d5098c93e5cbf769b939445bac044ab2427bf -> e42e00def6bae26dbc27ae3fa1b7d79f2f35c2e9dc82a1292da5f516bdc07074
 ~ -[CoreRCManager addBus:] : 260 -> 216
+~ -[CoreRCManager notifyDelegateAddBus:] : sha256 c05f8011980672e0ab9d6c7f78f6b4f240c9dc8e91b2a7a6e0bb86f767118c93 -> da7f1dececb366fb8c979d0d0ce43815be3f480732ffa029cd49f46cac090661
+~ -[CoreRCManager notifyDelegateRemoveBus:] : sha256 ce4970eaa06daf0e0974f69f5d830f6ca9e68c1393817ee3bdc713bdbe73ef30 -> 760c181252922837af8e59e70fd71465e9294e5f005067826cb0e74abdf2c8b5
+~ -[CoreRCManager notifyDelegateUpdateBus:] : sha256 7a466d3cfea25816c1dd705b57dd3ce9f0f8ec87d3bc4428fc3c0182ce558aea -> 6b33ced801db31541a200c94ecf8d6eab4fdbd735f1f2c8acac9b59bc6118bcc
 ~ -[CoreCECBusProvider initWithLinkState:physicalAddress:] : 120 -> 128
 ~ -[CoreCECBusProvider initWithBus:] : 116 -> 124
 ~ -[CoreCECBusProvider initWithCoder:] : 116 -> 124
 ~ -[CoreCECBusProvider initWithInterface:] : 488 -> 492
 ~ -[CoreCECBusProvider description] : 192 -> 200
 ~ -[CoreCECBusProvider dealloc] : 132 -> 140
+~ -[CoreCECBusProvider classForCoder] : sha256 06668d242aa05be06521fc06bde954a568ce80905a76de5bf8412ed717ac445b -> ccb6743879aed835140ce0eb3e0d101a3fbddf03f10376bbaf3a5af5e9fe46f5
+~ -[CoreCECBusProvider copyWithZone:] : sha256 9bc8aadb2272819803c58876028007eb3104f28351e86826bddf2c6df1fcbdd0 -> 3e4da3fb5dc97515ade6d6c62f3f23f2c0f89e11d62a7e0fdf13e3dfd04873e1
+~ -[CoreCECBusProvider setProperty:forKey:error:] : sha256 d78092166ae5075c6a0000ab5fa24d8d9ad0443b1081a38d1d8f61a490acdd8e -> cf9c4450439a871fa552d4d26e093bae497387f93f25486d9f2523876718c16a
+~ -[CoreCECBusProvider propertyForKey:error:] : sha256 a248d97973aa85931c2e8f095d17d0bce8de1be65a7493872328c2e9044f0bc8 -> 2e0e3bb149509e29556ef655ac610b221ee779c7382e96e1a8058d116ee78658
 ~ -[CoreCECBusProvider allocateCECAddressForDeviceType:withCECAddress:error:] : 340 -> 344
+~ -[CoreCECBusProvider addDeviceWithLogicalAddress:message:reason:] : sha256 9e5ff907fcf7422966777d89e9ff6ce0dd2e6926bbc8b6a0c41fdd1d76b6ea36 -> 09b343ac98b1ba1d347bc33b96ca1497d1aa7c17baabe936a99ecee7451dd908
 ~ -[CoreCECBusProvider setLinkState:physicalAddress:] : 316 -> 324
+~ -[CoreCECBusProvider didChangeLinkState:physicalAddress:] : sha256 1dc64ee70a454e0d35a189af898a488496aedea9883b8b973947923ca16a7814 -> caef7e0a281becd3a1aa3a0700918293a654f56d48053ed73de3f4adcdc42ef1
+~ -[CoreCECBusProvider refreshDevicesWithInitiator:error:] : sha256 17115418be27de8778fe4b6a5f42df18987c7d4a61d7693bda5135e74a21ea35 -> 4bf1402ea8ba5ae37766e4d835d79a8b0ed69e15819afe95a6862294a60615f0
+~ -[CoreCECBusProvider pollingOperation:shouldSkipAddress:] : sha256 8a6490baf61935a65b95a1e644ebbd85480158101158454867aa0c046a60cd8d -> 0d82bebe4ac96c1c44c6d7f999c185ae4a8d03946f68b76226cebb76ede16d05
+~ -[CoreCECBusProvider pollingOperation:deviceNotRespondingAtAddress:] : sha256 70865c8363d1d0c26561bbe1f4b074f4c9f6984cab49320b39e1c5e349e7cf46 -> 769e3be996cdb4fe28399bd7d6ea7136aec4beebe0d5da7724f871959a7467ae
+~ -[CoreCECBusProvider pollingOperation:encounteredError:forMessage:] : sha256 5bf4a6d4f1fcb45dc5150d29b33c748191c79e1c762c5c0c6fd17f138962ffbf -> 4971039df62403d68af596cdd1d352cc0c2a11c2e9011df725899d948d7cfcf5
+~ -[CoreCECBusProvider pollingOperationCompleted:] : sha256 9a32c6e97c8d62030c06d630814e770c3bbe0fd730e807678e065799b9e4eedc -> f406309e3cf2b87f6f6389f6450b3e6a50c568542618a8293611aaaa00af7a22
+~ -[CoreCECBusProvider _changeActiveSourceFrom:to:] : sha256 56b354649846080da6e04fbd873d84510c72a6add2d4a1f62868241c80e03eee -> ee450cb6ab9aaab94f0e6fa8962e48d2b3189e9a4f69783703ceded1a5096cde
+~ -[CoreCECBusProvider setStreamPath:] : sha256 6eee40a02d603670f0a63a15f93b25f3b0bc82f934c8b95e584dd9cf5c954392 -> a27e205f8f84a65ec83868a8e2c415c456fe8787787c489a2eb5181692926599
+~ -[CoreCECBusProvider setOsdNameASCII:] : sha256 dcee1b27c3521f2d6e12473c82838df642f32e2f48763792f5bf35785d378b27 -> 5ab2e42f1d9561f6bd3c81e1e00f75d90d50c86df91e3ac3cac64277ae3a6ffc
+~ -[CoreCECBusProvider setTvLanguageCodeASCII:] : sha256 0ac2e05bf2abc7e2897b64b8d642eddee133594978ea5e0190e1c67da8c9b6ac -> d3d7752c4080de0d5e232b82c20ba995bb68c2243525c6e88e81fa7970d29984
+~ -[CoreCECBusProvider setSystemAudioModeStatus:] : sha256 245515b843b3a0463f8dd170d3ff622b4bac133261bdc7147c2c057a914c15c0 -> 0558f1322d12a8d615794d801e7316dc208bb466065cb7b9764a5b5f806f1795
+~ -[CoreCECBusProvider setActiveSource:] : sha256 51fcc87e9968ecbb888e8997f7a26920924c67d7f1e69cf056968138870b29d6 -> a1e4ef440c6de9e6eafd2072641726ecb3f4f78c914b2e35a7bff5b72f7cf305
+~ -[CoreCECBusProvider makeDeviceInactiveSource:] : sha256 f24b7be1c01ecdd90fec60532417301140f0f3690c2991b6654d6d64fbda460b -> 6cc6b1efef95220f352f0f649b6322a8be8fae40048f981bb9610be403ab157f
 ~ -[CoreCECBusProvider updateAllowHibernation] : 416 -> 420
+~ -[CoreCECBusProvider _cecErrorWithError:fromInterface:] : sha256 493c1c938339b498dc0d3879c635f0f7869dcbf45ec7bde771cb30f414fbe918 -> 03e416478db57a63a87b3736ee871ff9e453ca9d5ed564044a34474916968a7e
+~ -[CoreCECBusProvider _sendMessage:toDevice:withRetryCount:error:] : sha256 da312c45939940e5c356de22fab49ce9aab53e885d8740ee1d67252c5a96dcb0 -> b53ba2976bf9540b8d0c77dabd756385affe12c3171b8916eae839da0620beaa
+~ -[CoreCECBusProvider sendMessage:withRetryCount:error:] : sha256 006e8e4268f828d04d064759eb4a5f3fc66a7ead0ddc00a5ca44f039989d68c6 -> 0252aa18ac341ee18323629f4f7d9f5803c0e3e80b470ccbfcc3c08cf1c8702a
+~ -[CoreCECBusProvider sendMessage:error:] : sha256 4100c9e4bce68ec986cd1e1b6344bdea2d92b3ecba217a00aab7b4ebc51bf8f0 -> ce8178179e153eb5d8a1e148497b6e84dc3f37ac1b5a01ce9840de2a61b0f91f
 ~ -[CoreCECBusProvider areMultipleCECBusses] : 284 -> 288
+~ -[CoreCECBusProvider injectTXMessage:error:] : sha256 2a6c441a800d98480fae10de6867e75de6bdce09afc64faa89425d5313201f21 -> 70ba74284be43117106f33e144f88b2b4f3adad268c5411bbc9ae0f3c3cb81ea
+~ -[CoreCECBusProvider injectRXMessage:error:] : sha256 d27a6ee818f21cbe8d91998c7d7bca5dd9fa59fef3a18166bcff3dcbc1d1d33f -> df93659f112154b81a5c9305d1a3ec8d366d69821e6ef30bdb249b8a073e058e
 ~ -[CoreCECBusProvider interface:hibernationChanged:] : 356 -> 360
 ~ -[CoreCECBusProvider reallocateAllCECAddresses:] : 904 -> 916
+~ ___48-[CoreCECBusProvider reallocateAllCECAddresses:]_block_invoke : sha256 f5cb89a3797e19f9b03e01787ac3b6ddd29338c03ca8b7206d34d491a413b87a -> 44bb704bb57055e7a1fa5605bab02996bfd70919ae8b78b204de382b91271f5c
 ~ -[CoreCECBusProvider deferLossOfLink] : 16 -> 20
 ~ -[CoreCECBusProvider interface] : 16 -> 20
 ~ -[CoreCECBusProvider pollingOperation] : 16 -> 20
+~ -[CoreCECBusProvider setPollingOperation:] : sha256 3eb1ae521f46d69ae2b5d022fa0c897e946be660414ea16274e092bee789c893 -> 61365a1a8110bfa597e6c7afe06d716c2e21c776ecb311bcc94c9374842504b5
+~ _OUTLINED_FUNCTION_0 : sha256 da76885918459e20e2b0f88b5b39da7f3713f75f704a8d7a689c35a1e901a782 -> acfa60591a69a5f4aa126828bb75bb46f5db1cc962ec00e7eb1f53469b6b101a
+~ -[CoreIRLearningSession init] : sha256 b5019638527ac67bbfd5d7bcf3eab72ad298a028f77c26f063d4e72bcddc6610 -> 7c32a9c6d51b5b5a7b3eeb6ec84cb7d235fcfe95082c1cf7332792a7a612ceb6
+~ -[CoreIRLearningSession initWithReason:] : sha256 b234de01933de0ab198020bbd9b1eba643a0fd0d093ad0755be30e20cf7aba74 -> f9095163b1beeb9d31ddd81378c86285aa098a19666b52dee74714b91969989e
+~ -[CoreIRLearningSession initWithCoder:] : sha256 969b163161213a893433eb5f66588a6c62d323d5364b4b870f225850c3f58834 -> 4b8a17c59a2d81891114a0ca11be125495afb5624d01b24f62ed945b1936b3d5
+~ -[CoreIRLearningSession encodeWithCoder:] : sha256 58aff62a290a1b2a444d5eaa47532008c9f7a7d1e6482ecb053ebf9f27802748 -> 707edbbf77e1050a541230066771e9418aec9b3d005460eef097f19e2bd7f386
+~ -[CoreIRLearningSession copyWithZone:] : sha256 8e81f609e8d6a8371e7aee5921b03262db0dd3601da3ebaf708832249351311a -> bb4ea7ecc9e55a13bb2f33a141674cd21f2169f658f7e3f75257ef63716ccee0
 ~ -[CoreRCManagerClient dealloc] : 84 -> 88
+~ ___33-[CoreRCManagerClient connection]_block_invoke : sha256 83d8311808607205a85a2ef27de7279b99439aec45cf862043b78281809690be -> fff8ea465cbe65d00cbfb3f01a73617db384ceb67c93f607b399205474850cd8
+~ ___33-[CoreRCManagerClient connection]_block_invoke_2 : sha256 70941241cf636756d3eb6d50f034f8cb4610c943e727cf1a36b946e9e16e3198 -> 6c468abe5140c22f2647caa1bd79c565d3bf4fce771cb91247de5d6644b3c8dc
 ~ -[CoreRCManagerClient connectionInterrupted] : 132 -> 136
+~ -[CoreRCManagerClient invalidate] : sha256 dbb2b06d2760676295e701f4b3b80b9c4558422f75319fb5dc5d56249a669d78 -> 3dac3769dc31a9ec80e987d98726f6d475c8424ca9a2a536779fdfd62621270a
+~ -[CoreRCManagerClient setProperty:forKey:ofBus:error:] : sha256 d348ae0a357d7b4cf9a57ee8c35209c85260295f5ce5ef8315bb803dbc003e9f -> 01a20fb7aaf11e43b73e488a56daea3cb2df4cdec417cf863766c67767d7aa46
+~ ___54-[CoreRCManagerClient setProperty:forKey:ofBus:error:]_block_invoke : sha256 977e9545fde53da26f5380f67088c9b16e320fd8e39bd4a78b0b40c6a00839af -> 20d6fb40036e1a6c72437142cd2031731ad497ed312f46c7632a25a402db7ab9
+~ -[CoreRCManagerClient propertyForKey:ofBus:error:] : sha256 7227ee66b73fa115110067e3fd0c942403839bb92bb8e2c08d4052e6d6ca224f -> 6c9bc6edd8094069f18f0f2cbbd0cc75a0d710259c672168ab012fad4015b98e
+~ ___Block_byref_object_copy_ : sha256 0fe299d602b9c69c0cecb45910d9e4c8d4cc7549465bb32bf641a29d98ed4237 -> 742de309bcf7e9ddabeed455234d54d25f4ae3c2c9fc2e6db9a8803a5ca0ffbe
+~ ___Block_byref_object_dispose_ : sha256 666885d20c476e6f0e129ab1c1df5f0cdb74c5b1c2f832141539dd14997722d2 -> 95340ce97d3ec0cca534004568cee36d909061ab105e6aa74cd4fd13cef2b860
+~ ___50-[CoreRCManagerClient propertyForKey:ofBus:error:]_block_invoke : sha256 ae43cdb7073b1c8c3cec86a999ae35f311fd391c7abc9ed9176685555e6f088a -> d8326580baac265b7655ca98a57561d85ca7dd82f2d5cfa3034a0acbe5a29fce
+~ ___50-[CoreRCManagerClient propertyForKey:ofBus:error:]_block_invoke_2 : sha256 db044eacfbf7ca7506cf2afa0c697aee13d08b1f4531425d8f535010f3175f04 -> 2606dbc5a249ea4497b28b4a59a42edf1edc0fdc5aad8fd77c7c5c451efbe8ae
+~ -[CoreRCManagerClient setExtendedProperty:forKey:ofDevice:error:] : sha256 101980541730316041f26357d529006d52fd28106234f808db028a601f507e2c -> 5dc346907765387ce8ed9c260f38ec466c32d8a3baab47913020f89e61deb986
+~ ___65-[CoreRCManagerClient setExtendedProperty:forKey:ofDevice:error:]_block_invoke : sha256 830ebcb4397611a1b389669ed7259763f6b1dac63b2547fb984f85db5509e388 -> 56a6ef37384281b38a5c925fc6b89e82bafcf77e0f873cae3b6b90e2005602ac
+~ -[CoreRCManagerClient extendedPropertyForKey:ofDevice:error:] : sha256 5a20949422224d3e22a6207d1cb641f31521645eb4363965470e10c10f786269 -> 870217e14ad11d8267d1c1deeaf60d8bb65f7560d77d82845ee3b23d7fd71f3e
+~ ___61-[CoreRCManagerClient extendedPropertyForKey:ofDevice:error:]_block_invoke : sha256 79ceb3b2035630147f592223d0397c4c3088a2d82beb2feb866149454e3f8a9c -> 206020d353f36fe28d41125f41578570c9daacde66ef771be8ed157ed83061cd
+~ ___61-[CoreRCManagerClient extendedPropertyForKey:ofDevice:error:]_block_invoke_2 : sha256 a5d63efd97e23678f22d4609f0175436a171a8626b2f14d26f6b2869a7f939f8 -> ed80e47d72e39a6c334d67181110ce71168a324414b4c987add7940bb010216c
+~ -[CoreRCManagerClient setDelegate:] : sha256 651d6cf8a2da1a35ca904694d2c502cd91028f19cc03b3cedea10db3031f380b -> a1216e11826416302bf78b7a789a8ad8a8e7ed7626232c4c6eda56da46d3a594
+~ -[CoreRCManagerClient buses] : sha256 eb7fd9c61031906342e3b9c5c3d0d8184b89f951f18926a20a788546f1eb7fe8 -> adf525130b084af74490a663b5bfb3edeb08d498e6fe00c47dc1824db24213d4
+~ ___28-[CoreRCManagerClient buses]_block_invoke : sha256 18ec0bb80c09050498efeb5a4c5b7fe8d924d9c6eccc8196512bffbe965d3def -> 4c531dfcbb8ac0481804de463e3ec2b2821b359752a0fc6e2d1d40de0c4e4b83
+~ ___28-[CoreRCManagerClient buses]_block_invoke_2 : sha256 21b0ff6cc43778187208d86704a26b51b9ca88760ace4942a9c20c022671a9d2 -> cd1d04cdf42415be42f195e4105eb59b4ed3364d3e97632ac9e2b877b7858298
 ~ -[CoreRCManagerClient mergeBus:] : 236 -> 192
 ~ -[CoreRCManagerClient synchBuses:] : 592 -> 600
+~ ___34-[CoreRCManagerClient synchBuses:]_block_invoke : sha256 4c4ae0b066a3027889595315845099bb0be4e2f11bac77648fbffe72079fe701 -> eda50991867c41f7679cd0f02221886e93b2c2fd186363efd5a2ca57fcd9458b
+~ -[CoreRCManagerClient sendHIDEvent:fromDevice:toDevice:error:] : sha256 dcdd06f462f0851cb5ddc4a83872e63d5bb94a1200a3fbb0ffcf6bc8fbf9a985 -> cc9cf407af3ad762766eaa6e7c61367c4af26b058b32794b72ef1eed5bf1a52c
+~ ___62-[CoreRCManagerClient sendHIDEvent:fromDevice:toDevice:error:]_block_invoke : sha256 0a780aa6b1d8def3476a8179b6c9eba2e006980daec7f6f0399435a05699a582 -> a6c3403bde927458c217aacbf30d6f26dc5e33a79f9ea23d58f984b96b56edcf
+~ -[CoreRCManagerClient sendCommand:fromDevice:toDevice:withDuration:error:] : sha256 c4162631db0c3377e49c539397fdf060a9a60115a32a5397e856b070e6dde742 -> 26d43692d288d9b7941b39ce1e4d4b9faf7d5e511a1eb04ec94ce4feec99a6f8
+~ ___74-[CoreRCManagerClient sendCommand:fromDevice:toDevice:withDuration:error:]_block_invoke : sha256 928e08e970f96e4c873680329d5864c048564326246ce6c523018119ed29aad6 -> cb85eb02b5080eaae2f9967d36d16561dd42db41a9516ce82fc5304498ad7fe1
+~ -[CoreRCManagerClient queryBusesAsync:] : sha256 ebd148c544ec377b36ed60e206aa2a7dc3fd64c55e107636ed2be16d67de9639 -> ac1756806cca1f7d9941d2de08ab25ea871586cd62a349d037420dffd1f8c838
+~ -[CoreRCManagerClient sendHIDEventAsync:fromDevice:toDevice:reply:] : sha256 16e16eee54ac609c3ba39af59fc5a3c29f5fb6e816b20d05c8c43e195b1e65e2 -> b1fda99725edef7b69255b1e83aba425d9b8d437e2f1c25b95feaef00586dd7b
+~ -[CoreRCManagerClient sendCommandAsync:fromDevice:toDevice:withDuration:reply:] : sha256 c3088bfa8b850a8a88fda60aa356bee22c69a401b0c9525e965aa3675a1b6211 -> 0ecb8533d2625526bf0169b77c12d1e14d0216115ee05f783bb6b506f29dd404
+~ -[CoreRCManagerClient setPropertyAsync:forKey:ofBus:reply:] : sha256 eeb4168eda4f5db129aed36af67f7c3b64f2e470d1c0a8263f3e1d79ad783cb2 -> 6f418bac2a1c2beeb9c870b114bdfff951ce9fe8e60af6700b962c6e44b1ad92
+~ -[CoreRCManagerClient getPropertyAsyncForKey:ofBus:reply:] : sha256 72e5ef7ff648bffbf33c3ea043f605a0927ecf404401295e84b922d2849586e5 -> bbfa36727c756a397d767c3db0173ff110db0f2b4b14e352b07bdbd40c173cb7
+~ -[CoreRCManagerClient setExtendedPropertyAsync:forKey:ofDevice:reply:] : sha256 f5b04989e4891e21436ab42c47cb1645de5f79e98efa25496b7167fe241fd06c -> f29d40086e2055308c284221cf2598c0a60cfc4d73d530db01fd83b4945f9bc0
+~ -[CoreRCManagerClient getExtendedPropertyAsyncForKey:ofDevice:reply:] : sha256 11e14707f51b48da908dec71fd842c57999e850d2a09c95e50411ed6bb5ce540 -> 697bc4d82666a301627bb4747007818293352cef361fa680a342d1930a064c04
 ~ -[CoreRCManagerClient busHasBeenAdded:] : 300 -> 260
+~ ___39-[CoreRCManagerClient busHasBeenAdded:]_block_invoke : sha256 b48bba18ddf8fef3b0cf5a18853fc3b8902c1265379f5174775c64715ade2424 -> 5c49ed6919e16700c1d503a4bc37616fd5a269d341d16eb83f9cc81b4f11f2b7
 ~ -[CoreRCManagerClient busHasBeenRemoved:] : 300 -> 260
+~ ___41-[CoreRCManagerClient busHasBeenRemoved:]_block_invoke : sha256 18fa9c4f5ecbd71090f5126f1cd927ccba96dcda83b3edda2e1324182b790e4e -> 71cb1ff5bb5df46abfe78d79da0851373251948f4a4f20658b2d1d0425afb14e
 ~ -[CoreRCManagerClient busHasBeenUpdated:] : 300 -> 260
+~ ___41-[CoreRCManagerClient busHasBeenUpdated:]_block_invoke : sha256 b687285a10927fd804d9704314d6dcd0d06507d910ac5a3f3c72883646002af2 -> b4e60051019e62db0c443ba802f332699d7361967e3cc6f986389608cb3b427e
+~ -[CoreRCManagerClient setLogging:] : sha256 a75e6c55ca344d5ac83173b5f8d7a887f6d17625e720e7fb0bb6496277e780f4 -> a00ea52ac4e8495d3abf6c5419d7648d16080d153205d30cebf2ce46e58119db
+~ -[CoreRCManagerClient bus:deviceHasBeenAdded:] : sha256 5264e817d3dad0fc78ab72ab58834f0835460510c495f7c2fbc6025674fba99b -> 1b2bc6b3cf9ef95979e63dc8ab1ae40fa0dea6e50d5cb539beab26f67415536c
+~ -[CoreRCManagerClient bus:deviceHasBeenRemoved:] : sha256 805b13cfa9d53c83e8040742b9f6a6da801870688d5533372593b725424fd686 -> eba8788c9c4330b7de521f371f2ccca82ae50dad7823d8f2f9032af151940a9c
+~ -[CoreRCManagerClient bus:deviceHasBeenUpdated:] : sha256 c41168e6557ff567ad3a83103169f2b17a65ccb788698005dd4363c90cd62332 -> c95ad59a7b3f42610593d0391923f9aa4f36306e4fec9d569cab8724ac4d088e
+~ -[CoreRCManagerClient device:receivedHIDEvent:fromDevice:] : sha256 5845c8ba7188b1cc7521ca9d70a3cfbd97c2e5a0777c0fe481c3ad46b611e9a8 -> 7a2e093078f580b2362c8bdb3dd8c82dba0703237822874ad29bcf3c1d0d5c93
 ~ _OUTLINED_FUNCTION_0 : 44 -> 48
+~ _OUTLINED_FUNCTION_4 : sha256 68472408a9eed062a13364e93dfe1d328502f5dea4a51220a849c3b82181f8bf -> 0bce5d385916df77420d7c6ad1e9b33aafffe699ad70aeaeddd72ec9a57e07dd
+~ -[CoreRCXPCService(Private) queryLoggingAsync:] : sha256 bc1effc3cd0704a11117f782c2d9e71631561a381346caee720a4c4417ec87a5 -> dfc74ef54ad379271c48afd0935d972fa825dccf878ce1bffd71fedc184ec0a2
+~ -[CoreRCXPCService(Private) setLoggingAsync:reply:] : sha256 0ccb8469e1c26896261c11d8933f23611400fde098fa846fa9c974ad5cf81320 -> f7e7238144615b3ac717412ffc53cbe4fb498b4979c5a18f0186c04f65774142
+~ ___51-[CoreRCXPCService(Private) setLoggingAsync:reply:]_block_invoke : sha256 01ad3f406f45d86521ff30ccf0e55107c5af0dfcd99f1e52f459665cc6a05629 -> 2ab26bd4005ee3f209ca2be3c9a541424d3232963bb114a3185c58b53fc25348
+~ _OUTLINED_FUNCTION_1 : sha256 c9d8f579b3381312c57548b9faecb32f002a300826c43e2abda6b5b7048063a6 -> a49c3b2347da338c1ba1441d0168f96cd220712d34247ec53e4591a896f37578
+~ -[CoreRCBus init] : sha256 a49544dcad484fc6fa698c8d4ade24dc7dcf4765b0618f8807db55ad41e55250 -> 6a787fbf3373b0096ebf607dbc6fbe04b83417f7bc8fb95c8ec67257bb3d3dfb
 ~ -[CoreRCBus initWithBus:] : 352 -> 356
 ~ -[CoreRCBus initWithCoder:] : 440 -> 444
+~ -[CoreRCBus encodeWithCoder:] : sha256 a5b428a3f7af9d264e23e2065a49ac5e75c2a8e69393d67d72a50d9ec832a063 -> bec0be693522e5d407bc2038882a8338c2137c7728d870b7b4c5040d3f28d59e
+~ -[CoreRCBus dealloc] : sha256 742663e9c455004515eb0a1249665b5791048fd8ffe4da611a90b7e3376345c7 -> b67dc7ae1647614cc4697cfa8cb2b654ef2c873370ddc7b4b8c5b0a507aaed1b
+~ -[CoreRCBus copyWithZone:] : sha256 3b8b145cff0021f765721be62cbd6d2d3b2d1f56df3c0a75de72fa84abf79dc4 -> 962a59f2ef80a49d68fdc1e2c667c0df658656acaa95a9b8ce23da0ca68d60af
+~ -[CoreRCBus description] : sha256 1656ade1ec6d6c1df6bf9871216bdbc127b8cd79494d62ea64ebbba5f739fbc2 -> d0f83e015430c1e10f53e49efb4c7480991e8c8e12adc582bb69976053e70808
+~ -[CoreRCBus isEqual:] : sha256 fbe189753dda28f391e7b4c19bfe762f3bd84f72b36621c155df59e66a1e5eda -> a4b19692c83228a97c278454abd4186ee1cb6cea05622f346c86071c79547a66
+~ -[CoreRCBus hash] : sha256 ffb265783040d38deac59ada14db642e138d95bf08fb180743d9d9dff1586115 -> cae5a88a983a6a3023ffdc241caea46025f0028c449b7830bf966587de4f3070
+~ -[CoreRCBus serialQueue] : sha256 ce1413734506233f532cfdce449ae99bd247a44f5f51a0b933f625cdfd716198 -> 61131cc2076e3fccb2f57f63107534b3c6819191fd735d8ff0205cb45a991aff
+~ -[CoreRCBus setProperty:forKey:error:] : sha256 875dcc56dc75666d4b7ee821ed086c81c3f693d7bf91b29b17572558011a4dbb -> 6d2797c943b18fd40155ac2698cc64696eee8caf6e7ba64076c8e4dc91e5f02f
+~ -[CoreRCBus propertyForKey:error:] : sha256 bac633ff0cbf9f733ce3b6c5dcad1ebfba24e56c33cc6121531d49ba8ba2995c -> 71ff249533f6f2f659e3a17cd35ca679026be7535d8d42c65a10db3186a1c90f
 ~ -[CoreRCBus setManager:] : 240 -> 244
+~ -[CoreRCBus addDevice:] : sha256 455a3c1a8eeeac6d216e99b261a7ff4649c88504c0cc70e7adbd084d5503fd30 -> 27fe512b300d812e5a2c73a9aec91cb0cc8a0c12d8af791be7c6c6e9216151b0
 ~ -[CoreRCBus removeAllExternalDevices] : 632 -> 644
 ~ -[CoreRCBus didRemoveFromManager:] : 228 -> 232
+~ -[CoreRCBus mergeProperties] : sha256 55af35d9fc12b046ae317905e9e3eb72e5992a83c50bc43bcacd28fefb9a3f5c -> 609d71736278bef7ceda1c7b0c918a4951a71d73949f1651b686872694e82025
+~ -[CoreRCBus didUpdateProperties:] : sha256 a622be1a29b32bc456e11012d79ce74b800c4cbccb344ef0cbfa2ad59c307a16 -> c09599a772bbc6995735dd8b1a0b9d732ae93bae378fa4f9a05fdac69792405f
+~ -[CoreRCBus mergeDevice:] : sha256 3d1e2db497271c69b12710dfac360b00c76173ebdbb8c82d68acb02a8ebdf038 -> bf6c4d8ad35e6ce49fb55b8d4263cc560f7a2b8516e731d8824196e56bd5736c
+~ -[CoreRCBus devices] : sha256 c6bcd674e81f0bb096d560be9f1ecb468c9724b2b63a8dfd5fdb9930e9c19961 -> 44f8b635edc26ef013ff76cff588ad5119d6af7c9cda876e07d39249a664fac7
+~ -[CoreRCBus deviceOnBusEquivalentTo:] : sha256 b46125ca4b2d27d548b69cfa8a494d644bc2f4708f146414bfc71570833fa097 -> 6f8aff066af853a45087b10d6c0d6f25e926d57dc06d144ace27a76b1a50f10e
+~ -[CoreRCBus notifyDelegateDeviceAdded:] : sha256 3a65d8951173e6aa3f6bea71d172acf4dddc6ebd7a4a885c709b81b89dc49251 -> 2234d9ab2d093ee8507aa76f3038ab61ec7fb0fa3cc91e2d36d2e17ebda195e7
+~ -[CoreRCBus notifyDelegateDeviceRemoved:] : sha256 7f8463cd640b2d7b066b8ecb5382e8e31e5c7901c904389fef31d88d947569bc -> c8354827722e2828a5d76d924be934e27c05d0911b70dbe242f2b867f8f89c7f
 ~ -[CoreRCBus notifyDelegateAllDevicesRemoved:] : 296 -> 300
+~ -[CoreRCBus notifyDelegateDeviceUpdated:] : sha256 670e9085aad25b746786983b8aadc4c2d0767527994db4efdff31e88a4fbd7c6 -> f889a16a18a3f4579dda53dc5e94bd69b1c2ebb2889a0fc65198a5c3b6eebd51
+~ -[CoreRCBus setAllowHibernation:error:] : sha256 b9674c9c3df8c48e7746f9a7cb3bbbe1350c9299d0f133450b8b1fcb4f6f5dc1 -> e0e0d3e6242f156d18bfbe0649977535181f7d97d7c83bdd7c8ecd2e97153ff8
+~ _OUTLINED_FUNCTION_0 : sha256 074c17190eb4158a0f15597b40710acd98cae1705dc365d0daab681015992a2f -> 808797240fdf8b6fb659df39be29e3b43b0479db293ef937dc4f17dd8ec3e64e
+~ -[CoreRCHIDEvent(CEC) getCECUserControl:pressed:] : sha256 e2884cbb5e1c976762fc15674956d82b156037417cdecbb9f6c90bf5fb8efc87 -> 79e17329a4085b21896bdc9d04e6bb42cc8eca9505b5bf4b693b956280abe49c
+~ -[CoreRCHIDEvent(CEC) initWithCECUserControl:pressed:] : sha256 c75a6d4f74dcaafab040772fa0ec266b95c72924f112697373b6186dba6ac5e3 -> bb908319611cca915e5bb7c2b59dbc62352c2531429d4845d439601af53f5aa5
+~ -[CoreRCHIDEvent(CEC) initWithCECDeckControlMode:pressed:] : sha256 46f72e32c938d1a8d656b65ed706f1182a31a517736a12a840d356abeb8dfbb9 -> 7480c5361b6e2345bac5f40375dc323359ee9323714c25c3ba3bbfc393c156c5
+~ -[CoreRCHIDEvent(CEC) initWithCECPlayMode:pressed:] : sha256 e2968fa4914c4016aea27da380125719bc473626a125d0e3ac5d2744de855a6c -> 74134f7c4839a6963b3f3b47df863fcca275e871890cd5c9e8c2675041543e27
+~ _OUTLINED_FUNCTION_0 : sha256 c0263fdf43a7763c0f48f74fc8b15fd0ecae6d573843c47bc56671f6c6f74005 -> 0f47a0edfb6d74bdcf5a48c6c1e70358384339cb10d8226e9d1e478b723b0867
+~ +[CoreIRDeviceProvider load] : sha256 b5a79f68637fb8724a9cd2c3edfb0ddaa750e5542dc6343ca7c68df67d2419b3 -> f3b74bea529c9e7706b6d654a614afd5a9af6c44bedd09454b0ccbca8f9e8767
 ~ -[CoreIRDeviceProvider dealloc] : 196 -> 208
 ~ -[CoreIRDeviceProvider initWithBus:local:deviceType:] : 136 -> 148
 ~ -[CoreIRDeviceProvider initWithDevice:] : 236 -> 252
 ~ -[CoreIRDeviceProvider initWithCoder:] : 164 -> 176
 ~ -[CoreIRDeviceProvider encodeWithCoder:] : 100 -> 104
+~ -[CoreIRDeviceProvider classForCoder] : sha256 27b3a74b22915c0a083827e4b6d32d2c99eba602da1dd78c37d8fa88fd1cc871 -> 35f3fef9baa188ba5e0a3fb9dc8a452d44bf41744ef68730cdebb7adb1c81805
+~ -[CoreIRDeviceProvider interface] : sha256 73615df8d9b6753163e17f41c74ea54105d962577f114498bda54601946980e0 -> cf3862dc031f39a8f51ddaec12d3159fd9674813f2487a4dcc4beee12fd6686d
+~ -[CoreIRDeviceProvider busProvider] : sha256 b6721bfd1de1d695b27437ae6b61844416ce087e9b1a02ff59aacb2c80931405 -> 7419090188b6ef40315b2d2ca029aaf5691f0573e418d7ee6ec1c9ad4dcfebf5
+~ -[CoreIRDeviceProvider learningSessionProvider] : sha256 c9c80fd0a9fb13c1b1c6e8d01608723d6fab4ad511c63302a9f9208a0d4fc656 -> 112fa72f775328b7c7b523e632f2a8a49577f5144bf65c94f0bc9dc1bb8c19ea
+~ -[CoreIRDeviceProvider setOSDName:error:] : sha256 bc269b524a136a7c8a0acca6dbc6acf50a076ae638a7ad1391dd7cb0c454d58d -> 03f0e5f318be3c2865bc7b5eddfedbb21e301038fe0b2bb0cf5596a5b1aae210
+~ -[CoreIRDeviceProvider persistentProperties] : sha256 6455a342e4018ec6defb0a325e5889e8fc95b3aafea5ef383f4db394741a7f8d -> 3f768c262b2bba7ccad5b11a6eaae0093036967dcd0665080a7add8c2b9ccf45
+~ -[CoreIRDeviceProvider setPersistentProperties:] : sha256 7d3d68719565099c227d804bbb5c295546616c5a3d928270986ba364fdb8dba5 -> 1e19613d571e10717d442b3b2c856c80c039b687fdda0360a7fc7150d41f00d5
+~ -[CoreIRDeviceProvider setExtendedProperty:forKey:error:] : sha256 dc106d3caef8fc9938ffaf01305b213f34c5470933c65fed11fdef96fad0b2d5 -> ef1adddfa3e1dae3fa2fcc5e8fca46cf16619f755cd58bb9f03dae5037a988d4
+~ -[CoreIRDeviceProvider extendedPropertyForKey:error:] : sha256 13d3e676f359d1978b412fbad8f5b62c5ab06ba8fa88d835f6a3976c47aace3e -> bbaa14ac5400824f8dad85db3c9e290e123014fffe4039355082b5df9ea3469f
 ~ -[CoreIRDeviceProvider protocolMask] : 292 -> 300
 ~ -[CoreIRDeviceProvider infraredCommandForCommand:] : 488 -> 496
 ~ -[CoreIRDeviceProvider setInfraredCommand:forCommand:error:] : 328 -> 332
+~ -[CoreIRDeviceProvider sendHIDEvent:target:error:] : sha256 2f54dafaa2db0534e30856ea7e7a41b3bdb7e7c53f16ca3ac5159bf41a48d175 -> 337e5208c656d1644bd4348e4daea33eddf9a4b7852dffd3c1667d7a97a16a91
+~ -[CoreIRDeviceProvider sendCommand:target:withDuration:error:] : sha256 6a070859ee973d0ee433005dfa4eddd687f3db2ee36a6552480211c6d7fd90b2 -> 3286b3b98f6dd47b6997b10151297dce00f668cc28f3eec9a34799bbffbdbe34
+~ -[CoreIRDeviceProvider sendCommand:error:] : sha256 e7628f9c3356c3ec227a8f7a7ad0e76a7703e4fc876cbce7e033b7539d1bfb00 -> 40485fbda163415bd706e6098af8be13661b634f6c2f7b1f059d201ed674f193
+~ -[CoreIRDeviceProvider clearAllStoredCommands:] : sha256 84be76b45257e048c588cb55d1f37e47da2ef52cdcae9fcaa3cc2f88d7fb8223 -> 66547da18dc9dd5340117a2507cecb26ff442151b418c77516027db3e223b5e1
+~ -[CoreIRDeviceProvider setCommand:target:forButtonCombination:delay:error:] : sha256 81a54f51c7f0f359635ca9df571feb4c10fbe156b5f80997d9cb741f4a82d97f -> 13f3362d1567fc5535fea19990d31622c15948617991f287e07ebf483c73c667
+~ -[CoreIRDeviceProvider enableButtonCombination:delay:error:] : sha256 8f3a0e996cfabc351c281e346bf6831f43ccc489e88747b71bcd7136ef57f44d -> dfe57c5a029b7785f905c8a9e09d6b9de5ac15af27c18ecaf3d3e61ff0c96ce8
+~ -[CoreIRDeviceProvider disableButtonCombination:delay:error:] : sha256 79a4c3ae7c5dbc5ac6091905b99a36e07f22ce187c3563fad46af473f150b8f8 -> 2cd9f80bdea739b94b3c1031f6e23ff6d9f14716c8f556165cf270bcb6976f19
+~ -[CoreIRDeviceProvider startLearningSessionWithReason:error:] : sha256 525a97e1bcecf4fd0c434128404731fb9a388798addc0b3d5f012cbfa96edf8b -> a85fe7d5b70cafb91bdb42448d5b8b13ad6c88d7e836257691eb0e315d8f5883
+~ -[CoreIRDeviceProvider setMappingWithSession:error:] : sha256 e65d50386a8e9d8e016f24071d065ceb9b5f73994d7a8a61352cc979d2be0911 -> aca5b54c8e4fc046647a3e848dc6ba65bd5523a9f2b130af7da757b316f1c995
+~ ___Block_byref_object_copy_ : sha256 24bd7df5fcd778f1dfc1d98a1b066dae62bff5c9fdbcf93e9c9a5acc0d175752 -> ff65036d1ec8f0f5dbe8f3a97136a9cd3291b8e75df4a114468d864562d7a817
+~ ___Block_byref_object_dispose_ : sha256 45795104d88259e6cf948f3411ab8603914f29af53a134bbf0bace4a14c378fd -> 6d3566921ce80da4afad667eff8b93d31e5de0a3cfc9b1a3cc8ea8e2c18cfc15
+~ ___52-[CoreIRDeviceProvider setMappingWithSession:error:]_block_invoke : sha256 ae08eabdbc150a58e025e9168094e96fe9a9bcff6101e671b32059812f2c0802 -> 88e65df601da1a22df6979a0c663b4f4e8381621213b40895c18c700ece9d132
 ~ -[CoreIRDeviceProvider dispatchEventsForCommand:toDevice:] : 876 -> 892
 ~ -[CoreIRDeviceProvider findDuplicateIRCommand:forCommand:device:] : 584 -> 596
 ~ -[CoreIRDeviceProvider synthesizeButtonReleaseWithTimestamp:] : 264 -> 268
@@ -236,39 +901,319 @@ Functions:
 ~ ___49-[CoreIRDeviceProvider schedulePressAndHoldTimer]_block_invoke : 156 -> 160
 ~ -[CoreIRDeviceProvider cancelPressAndHoldTimer] : 24 -> 28
 ~ -[CoreIRDeviceProvider dispatchEventForCommand:matchingButton:timestamp:toDevice:] : 364 -> 368
+~ -[CoreIRDeviceProvider dispatchButtonEventWithCommand:pressed:timestamp:toDevice:] : sha256 d1c555a5c6be4a965e96f9fd52935a4643ccb6982747b0b254dce010b073d624 -> 14c2f280e2c04cc4cbd59c68bb146d2bf783eba8a5f2501901182c41b270a013
 ~ -[CoreIRDeviceProvider matchingDict] : 16 -> 20
+~ -[CoreIRDeviceProvider setMatchingDict:] : sha256 32b43f23fc17d192ddfdd3909dda09d7c3d569f89305417c3edcf6c2a1d55c01 -> 22eba5036ef5f30d6b45a58db65d373f5dbfca7b5030513bf8855ddc65f2528c
+~ _OUTLINED_FUNCTION_1 : sha256 45fafce8ed294f1b49f42954fb1e7047f51990415e5fb0cc353ff9d3e07b3b88 -> ce768d32031f0aff68f79ce2e70b802ea05218b8b4a43364f6fad0fbe555760f
+~ _OUTLINED_FUNCTION_2 : sha256 9241139ef0318e5a32ddbcefad71c5be3a5497f0e59ac4510429d3cbb21a7396 -> c03c4bc6ef50e3cf76dbf381ae3b6b4f6f49bb64f35842509328b166956c6a50
+~ _OUTLINED_FUNCTION_3 : sha256 b5199ef1e611f7bcaa2cf4c5f3f99adc9091377707de640b18aaefb27570141e -> 668b715c1c35becc43181201d90056a29251c125de4ca1d21ee17c7cc671a083
+~ _OUTLINED_FUNCTION_5 : sha256 f601cfb7b30861beac984a95937e1cbcc040604bbe139e58b8b1e51c36e13003 -> bbf133c550bab4ab3c5cf22826236700bd22a5b79187f30a4eb50379a712b8f2
+~ _OUTLINED_FUNCTION_8 : sha256 e5c47da8bec676243908e4d74e3a3a6cc58bc9fc298351bbb123998270ff26af -> 5b88c05d6c56d3a9d727379cdf540d44d3d4dc6781633cba4ba13d88d6408e42
+~ _OUTLINED_FUNCTION_9 : sha256 218e58336e7acf74f3c26cf8cf7e07862bf31ddc85344321b5aff3ae6266536b -> 83549e09807f009bd1ba30102a57576b662b1ef3fac05b2539dc8a82fd1e9482
+~ -[AppleIRCommand vendorID] : sha256 4506ef74e7cd5bc6d7d61a8a9763fb47e86b4b022aa2efb5e806d9c6a906affe -> d2a15337771c89253d06ed3add364ff730c84c4796065a204d5858c3a4228772
+~ -[AppleIRCommand commandPage] : sha256 4c9e3e5e3fb444b7e0f7169b66e6b4a9322ad842ffd8c8be0b0c9ae7cb71186b -> 98cc8d62160cc34cfeeb8fb88342fc84c17865c5c716e5a720df20e39334e97c
+~ -[AppleIRCommand deviceUID] : sha256 df7cc9b4b540b9e0ecb171adc56fc11b190a8a8bd38c7a60c64d1fd264b79a63 -> 2075df782391a9b3657b74dc2de16a66494e8ef3fe2cb9f672361c1618df1649
+~ -[AppleIRCommand commandID] : sha256 af16892c8a8185212b097590f4238ed35343080228ca4cb779f3d3aca744d633 -> ef952f3ef0d6061d6ee90c6cba00a78f11fe5f3d2a8fe6c8d49cbc8875077230
+~ -[AppleIRCommand token] : sha256 82b2f16a3d4c2cddf4de1bb1b027918dac90e2517e5417dfa97971c29910b717 -> c2645cfa2d53365ed2381577b21b18022bb5802084ac5bff6edd529b03fbf22d
+~ -[AppleIRCommand description] : sha256 ffa358aded322cec8bcc97a68533d954b401ecb21022a42cfe9d444adc9c69d7 -> d05371327376c2defbe46e3587f396ff5538b230207ac3d56f627b21ea0e2a92
+~ -[AppleIRCommand initWithPayload:repeat:] : sha256 b032a33beefdcde5014eca0729cf62eb1815d71a5d9c8834454f7e3e892899f7 -> a2b195026cff2373e7dd4cb90e7dbb124443ff9a0119da138bdeee0ce1ec01a4
+~ -[AppleIRCommand isA39PlayPauseSelect] : sha256 1f40178d17fde430197ee3a18390f4116c30fc88604492c219747ad698dec1c0 -> 6dabbe8a5072a8c0e00500b33a319c4f1d4944e5e42a109506f707dcc62b8787
+~ -[AppleIRCommand isB39PlayPauseOrSelect] : sha256 2cdb55991f668025dc30abc07f1c7161bbdb14fc2ea3bfeb32ca369f2a7268c3 -> c88d0d20fb01e3872b3807278853233262d48db0e9a737aa8a384bd444f6055e
+~ -[AppleIRCommand isB39Command] : sha256 8caa995daa3cd5050dd9d7d497c7c10bfbf9c47d51927059b325ba23767e4f93 -> ca2a0a5a9b09f6342d891c3ff61a02741c60dec23e1d3a50e4a55578553649f9
+~ -[AppleIRCommand isPairingRequest] : sha256 62df3a654237a777069e114bc702756be531eb980fdc3b334bc204700faabbd0 -> 213a77253237a3e00c8bbcbd0b4f0a49796007231e0cd6b6277a69a2aff83ddc
+~ -[AppleIRCommand isUnpairingRequest] : sha256 a75b7253fe91103a64f10390b54b912d13392a2c45171a9104b4d2f0fd93c2f4 -> 4d275c1277f8b04969117e99500249ed9b8f92ae3214dbd90117708f2aa9d485
+~ -[AppleIRCommand isStackshotRequest] : sha256 88920aae4cff710184640df3c568608761cd8c318a39b5fbb75f1fd75651e6db -> 9b459f5dcac00ddc819f6fbb68e29aaa8394f28de0f9e34891558a8326e3257f
+~ -[AppleIRCommand isBTLEDiscoveryModeRequest] : sha256 e0b6aa1a6aece6aaea18c10c2522e0cd190f8c9613ca6215e2535b391778f561 -> 07260559aaa88575d911362141d025f76b199d8e68493e2fd1faea1744769b04
+~ -[AppleIRCommand command] : sha256 4e42e9f05b1cb1cb7ca46d8fbab0d8126094444a0800d1f4361ad89a421e521f -> f77ca1b8c9589eeedf06f654289165a23da7b2334cd6ab5a73727477c0b4dfcd
+~ -[AppleIRCommand getVendorSpecificHIDUsagePage:usageID:ignoreRepeats:] : sha256 fee3af441b2ff0cfbcba6c76a11088da9e4a67b8beef19b5eeca63133c34e991 -> ff92e5507c34e753613f585b81e5c3f5549f2cbcbf98f27deb210d5927778b72
+~ -[CoreRCInterfaceController init] : sha256 b1bd3c1dc4efd8005b28439013b07f9ac622587d5c748dd1fc1571eac2981167 -> 48fc45218904bd5e8c28ec125f6e9a97c8f250712ba18f5ac4264c034a32f322
 ~ -[CoreRCInterfaceController dealloc] : 304 -> 308
+~ -[CoreRCInterfaceController addInterfaceListenerClass:] : sha256 99373d0c3300e28bb3224426e849b02b3c71876687c3828432cbe3fa8aee4958 -> 78b664505a2b88512fcd790f9b3c813e5f1e5f17492a0e3f523d75f7c4b9539d
 ~ -[CoreRCInterfaceController addBundlesFromPaths:expectedClass:] : 284 -> 288
 ~ -[CoreRCInterfaceController startOnQueue:] : 700 -> 708
+~ ___42-[CoreRCInterfaceController startOnQueue:]_block_invoke : sha256 d3b1712ab634b27fc989b390babba3954af32f0b5ae205082afd6b0f00854ab7 -> df5dcf5b0427f20eb3f67e78d25f64bfe602c3583b277ec84b9da1ad6d6bfb4a
 ~ -[CoreRCInterfaceController firstInterface] : 232 -> 236
+~ -[CoreRCInterfaceController interfaceListener:didAddInterface:] : sha256 db51e5e1d2754b4b791cb1c9dc5dfed30a84a4bd83f13a730d823b172a6ad459 -> 67f82f497b695a2ec0e9a83cd4cbbfd03f876d13ec7b4d8f0b5ec236b8cb22df
+~ -[CoreRCInterfaceController interfaceListener:didRemoveInterface:] : sha256 8e2c359a09883a09389831030aebc5236a3b75fca875321c14bafa3b7b3057bc -> ccc9ba7761c4171997b745d6e15340c6696e401f665f4535b9a3c0e16db07b97
+~ _CoreRCCommandString : sha256 16c16434395dc37167c7fb5de64a79a6416aa904df378d25d6af5a58b5491c82 -> ef9791b6f864a7ca006b7efae42ea1a5827c029affff3656e73aef85a40d557d
+~ _CoreRCCommandForString : sha256 dcfac6aa8de5ff95271f422852bb522facb15ae1bfd0d7a364d138879b7da5c1 -> 898d73be0ae9bec2dc06a2120016150f6ee6f02876a1a228ffdbf117ce456f27
+~ +[CECRouter routerWithSinkInterface:] : sha256 5595345c9f5cc2c3a3776a08fea8235a1cdd982cce1eb47bbaf7032a3a0cde23 -> c594cc77ad4fdce11869fe9118996d7391bfbffd56812130d662b1e94d0e9ddc
+~ -[CECRouter initWithSinkInterface:] : sha256 779c2d4618879e25f45ee2d6052d1b827e01d81bbac1b0c819ef681fad070058 -> 50ccfc94bd5c969420523001f44ae37f2dfa06b18939f04f3f036931a8f69d34
+~ -[CECRouter dealloc] : sha256 b5736ea6075291207a712fdb739b350dec52cd612e7baa505a245199ebb87366 -> 7f0d6c885504762f75b4db248e4c0c5c29adf94964603b67971648fd4528caab
+~ -[CECRouter newRouterInterface] : sha256 c1a130e55418f330e7e86dd20cbb88f50b7cd276893c6f0f4dcffca8acec5e0d -> 19158d79cb2c61a81c0cf876c35927713a73ee2d5e879b6c1a29d306b5ea16b9
 ~ -[CECRouter interface:setAddressMask:error:] : 276 -> 280
 ~ -[CECRouter interface:setSnoopingMode:error:] : 276 -> 280
 ~ -[CECRouter interface:sendFrame:withRetryCount:error:] : 424 -> 428
+~ -[CECRouter properties] : sha256 c4ddef6204993c433c74a6352e30c53d49d64143ff6acd216925b5bd40195566 -> a4d57a47410a34eeda72c9abb200240efc5b9b449130f57c7ca802cd73aab167
+~ -[CECRouter interface:receivedFrame:] : sha256 ce0e00880662ce715518f9e6353856c079a877446a87bf9f03612a1b61321f05 -> 439bf9175d11f5f4edecbed554cf3f96f8d71bcdb0239ade3bdbeef0e04bf108
+~ -[CECRouter interfacePropertiesChanged:] : sha256 4e5a02ee7485d98546761deb948f69e7e3d362bb4379c65452d1e205602dc259 -> 618410773acca82ba707a9c6d8df7a3e3f72415c7fa7d19d5415c29d46c72534
 ~ -[CECRouterInterface initWithRouter:] : 96 -> 100
 ~ -[CECRouterInterface dealloc] : 84 -> 88
 ~ -[CECRouterInterface setAddressMask:error:] : 116 -> 120
 ~ -[CECRouterInterface setSnoopingMode:error:] : 116 -> 120
 ~ -[CECRouterInterface sendFrame:withRetryCount:error:] : 124 -> 128
+~ -[CECRouterInterface receivedFrame:] : sha256 583d83982b6e0c47d3220557b7ffe48a9fb048eb6464626ca221b427acf4aaf4 -> 2314a0a4a451beff4b1f77df724c76464649a7c32dcf8426b0d4d2f50f87213d
 ~ -[CECRouterInterface properties] : 16 -> 20
+~ _CoreRCXPCServiceInterface : sha256 26321c7e4f8e457acb0122b264a0d9ba499ae11a2b9aaec2c214b026a6a65c0d -> 66e8fc6485fa65192b117863a77e79c42192305338e60328adeae9c5be75951a
+~ _CoreRCXPCClientInterface : sha256 1babbb7b645b471ff37208ca1a359653ba1420d1e2b7a6563dfb24a6e3764b71 -> 0929e4c1d4b0f4d4384958529bc65a678bf4979395c2292517d716ec724f07d6
+~ -[CoreRCManagerClient(IR) setOSDNameAsync:forDevice:reply:] : sha256 97dfd6c27526cbbd100f548ff63c9b3ef4f320408051ed5c56953db9a533765f -> 8036c8d6e9aba8cb9b40383311637ba025f1af5b63741067a1eccef2748803bb
+~ -[CoreRCManagerClient(IR) setPairStateAsync:forAppleRemote:reply:] : sha256 6ff1ee7e096b3eaced8d6cf43f353316c1011bacf92232ee4320fecc684ab064 -> 505fd35bed427a11d6b7d6c8f2cf3e9094e51433779c9e9e3f2643040bdd58f0
+~ -[CoreRCManagerClient(IR) startLearningCommandAsync:withDevice:reply:] : sha256 0c22f6a77277c6a45b43f118a769ddd8f9247c60fe8acf28bb600ffcec750e52 -> c1858e45db8dbb9503bcd6633198073c9241f3dc579e643bebf5c6d36ea97a12
+~ -[CoreRCManagerClient(IR) endLearningWithDeviceAsync:reply:] : sha256 59aeac2c8fc5153afd0709332fc8c11c7d17daaac18ed4fbf7eccc8b9b15bc80 -> e7df2762385608ae93e36c37b44e8874cf68f30f6154fe081031064d2b7ba0d7
+~ -[CoreRCManagerClient(IR) addMappingWithDeviceAsync:withProtocolID:options:commandToMap:command:repeat:reply:] : sha256 c3aa98e8dcf1ab61feb60fc37496f25c573255da9fbeba4deb626b3575002338 -> b8a24d1af72043d09deb0322bd9be94491a89c0335675ec21d732e8220b6d80a
+~ -[CoreRCManagerClient(IR) addDeviceOnBusAsync:withType:matching:reply:] : sha256 b9100beee831d965206aa264d438fe4104c8bfc6a57f06ede4c0cf5bd514cd68 -> 20d83753ae775f801ba411bddd2b069622fc8b20fb5cd36a9c4a11804a68426c
+~ -[CoreRCManagerClient(IR) updateMappingWithSessionOwningDeviceAsync:forTargetDevice:reply:] : sha256 e6cf36aef2ffb84021038add9727ac721845d6326d849fa1518ad436ee0a0dbd -> 193643675a27acc66574d952a01162f0cae422049af3287d5dc50817b6991f8f
+~ -[CoreRCManagerClient(IR) startLearningSessionWithDeviceAsync:forReason:reply:] : sha256 064984c2dd8ce9816f5b49d39f6f1daa335ef1ff97ed5884d7cf37dfa79293cb -> 51029b7a3b490755eb95a9b73c5fe1ad72213194945eb01b09dde47e5b448a85
+~ -[CoreRCManagerClient(IR) addDeviceOnBusAsync:withType:matching:withSessionOwningDevice:reply:] : sha256 8e0597e8ca3eeeb9e76f66d245c3ef0e47cc2c639994868aa4b7cef06369fcdc -> 85a56ca4a9bb62ea3e7d2aadeaa39a7d3a9928a3ee9e0b77475f7815a0fa128d
+~ -[CoreRCManagerClient(IR) deleteDeviceAsync:fromBus:reply:] : sha256 23d31dedf19d3cb4f7200b3e6f4c6acb0cbd5650d6471bce23d9eaa93aabe7a3 -> bf4e1518205c9dc692639ebfb594b0c5c2f3139670de09b4a130ad5d6dc4b5cf
+~ -[CoreRCManagerClient(IR) sendCommandAsync:fromDevice:reply:] : sha256 651e2de8ca12ee68b0945086e1985601c40b81cef807ff24c1dec162093c2961 -> 1d52d7ff1bb9859af4a7929f4e2bfb7df746c7e8231318dd969732ad44f0b944
+~ -[CoreRCManagerClient(IR) clearAllStoredCommandsFromDeviceAsync:reply:] : sha256 bf9da3c2688cad0723e733726ec54e339fbf3a583879957c45c91f68e68a34c1 -> 35b16f2576f9a5348e6f6396af513d3adcae8bc896d75f286a517434443e04d6
+~ -[CoreRCManagerClient(IR) setCommandAsync:target:source:forButtonCombination:delay:reply:] : sha256 8592d404374f1cca8a93674ea039014086d517fa98fb5a6cf7fe918297a7c2c8 -> 273057a62fac528391af13ef3e06d0a091f8e91649b0b968ae635672f1526c51
+~ -[CoreRCManagerClient(IR) changeButtonCombinationAsync:delay:enabled:forDevice:reply:] : sha256 41a4b9d93fb17cee465016a282218ea8f0f8d0efb7c7b863a82c00bf828d50d6 -> f977ad8004f50dac1ac8d1e48e2ce5906a2581925045a43e63e2ba8704945582
+~ -[CoreRCManagerClient(IR) learningSessionForDevice:commandProgress:] : sha256 1075ccc0b8a6628da8d6faa94e8a2e52c5a183f94e2289d177d3f552689d8cdf -> 2d48b6521f829234c11ef590231548a8cd291b85cf52fd5d01eee566e3742b8b
+~ -[CoreRCManagerClient(IR) learningSessionForDevice:status:] : sha256 8c0b0e7592ac734beb69e66d06851cad319fb4a8b05728adc0d2dfde9f29774c -> 37a92b6412808df530d718547fb95b269981c73f983651ffbe426a7e0881035d
+~ -[CoreRCManagerClient(IR) learningSessionForDevice:duplicateCommand:target:] : sha256 fa1fd8b752c65e52db37d0f2795f2c81bcd6a60aa65574e6be99435e4ea5b199 -> 16fba59b9da4307a8d5f9d2613f867340bb1bb5ef41375898eaaef7b53291eba
+~ -[CoreRCManagerClient(IR) learningSessionForDeviceCommandDone:] : sha256 a1417aff6497cfbeedd1a8e15855d9469b9a10f24b1c2a87289f65fc5a2223a8 -> 8270464e3806818e4ea2482acdd39a6908c02dcef2bc3cdf3a3711c003f04c52
+~ -[NSXPCConnection(CoreRC) corerc_checkEntitlement:] : sha256 cb20da9dde818c0e29e5f572ee666c50c1699755986345b403b8eacdc0645fc3 -> b51c1e2d9a047ad694b7f72a4db4aa9565b4f900022736ef3a766ac0614be3e9
+~ -[CoreRCXPCService checkEntitlement:] : sha256 078feab03a96a4c68c27ed66d8fccea37aee81e7d30dbfee74159c6548e2786d -> 276e71a87ea2502b8e1ecc50f6ccbf0b8308f38cc017436a4fdc6b42ca722f1e
 ~ -[CoreRCXPCService enumerateClientsHavingEntitlement:usingBlock:] : 308 -> 312
 ~ -[CoreRCXPCService enumerateClientsUsingBlock:] : 252 -> 256
+~ -[CoreRCXPCService enumerateClient:usingBlock:] : sha256 23d789b532e3e9591587f8f783e0cdd1e1b124cd101b8269167f3fda1838d9ae -> 34efa561a158ae41f52c2ac96ba33ced79ed8b61f6918d192f93c0fbf14eabaa
+~ -[CoreRCXPCService init] : sha256 286a56ffe74bf3fbb84c9eadb3fc30daf2daa150990af43b4f5b4f6bb36e781d -> da4c89805ec31d316275ebebc3fd6cac6567081e6cb46c6264578cc1d4c26440
+~ -[CoreRCXPCService dealloc] : sha256 2e88f2aa71be2c06e618d611afaacb192b770317817076e8bb680cffe4026f33 -> 9cab3fed55dc8b21d1be1989dfac22871d6287c95da8e012ca6520d01c2455c6
+~ -[CoreRCXPCService invalidate] : sha256 46538610d092e6e00ad0c796de83f2efecfa052eb18dabca145a134833d1afd4 -> 958c07716d7909aa2d8221745926b356043f5ea6203594da6fb257d997d622a2
+~ -[CoreRCXPCService listener:shouldAcceptNewConnection:] : sha256 4c47a71938d74c0c6c5f50019f06ab388170a391fc252e142fb1e9cd6a0fabd9 -> e800dcae1cc51aee321748badfdb8cd2f31c0d1ff306506d557bb29c3db512ed
+~ ___55-[CoreRCXPCService listener:shouldAcceptNewConnection:]_block_invoke : sha256 6420cdd0c302a352b894f45289a23904c18be06492f5887ac36e1921d9c9b02b -> c3353de4f1d6a8c1a3b9659031379cb88a4fae780142c7057bd78f474e81ff87
+~ -[CoreRCXPCService connectionInvalidated:] : sha256 e605ad7b15d21cb04fdf62139af1c479f76ae374bea709a1768275c1970c9106 -> e1e86467b1bcacfc3dde792105689628e50ec3c7894ce88d26c4ffa4c5f7803a
 ~ ___42-[CoreRCXPCService connectionInvalidated:]_block_invoke : 380 -> 384
+~ -[CoreRCXPCService sendHIDEventAsync:fromDevice:toDevice:reply:] : sha256 12986a07c0959ce3c2921bbfb6f40b528170888363b744788324d107436fc4c6 -> ac934250a26744df4beb0f3a173d37d6bcfd1801023216dfe24f2e2902dc8187
+~ ___64-[CoreRCXPCService sendHIDEventAsync:fromDevice:toDevice:reply:]_block_invoke : sha256 38c1a0ba7cf6ae6f3304d7353e425736483b85308c0bf5ab6f4f51be2ddb559f -> 1809247ea187ea3d6e9881db67445a5e97cc1968b90de6bab575db346a81138d
+~ -[CoreRCXPCService _sendHIDEventAsync:fromDevice:toDevice:reply:] : sha256 5cdc553f58469b2bfa9925250976778bb45f075d73a90d398d0e2109ca3c885b -> b4850dbdd60e33669fb074c6d03f87f15686b718624eabbac64ca16b58fbfce8
+~ -[CoreRCXPCService sendCommandAsync:fromDevice:toDevice:withDuration:reply:] : sha256 50d2398cc89b2c45626b22e29db8d653c80f92b7e8f7d5b851c9af35bc3a51b3 -> 97f054b3e0aed1a904b2f8c402ab626d8adf5a2d8e98cfa3a92e9a422aa79e9d
+~ ___76-[CoreRCXPCService sendCommandAsync:fromDevice:toDevice:withDuration:reply:]_block_invoke : sha256 b4e34018d6a139a16f3ba6b87661ee6d1585d7abc1b5145b901267f0fe7f6ebe -> 1c1021f7909a5799522a11a18c51bd015654a300fc59c2756f7422999b806895
+~ -[CoreRCXPCService _sendCommandAsync:fromDevice:toDevice:withDuration:reply:] : sha256 ca8edb0a22f04c5f4dd8f379b7552ef58e87beb499dfac258225e624e498b551 -> e45a46efbb078dcebd6fb80d54f8717bc1285726664d0ca1e0bb0b1a68b41faf
+~ -[CoreRCXPCService queryBusesAsync:] : sha256 d50aed89b716ea0a6a420f350f36c01c81c82a6311f2ae56bec7bf6f1e0ea5c1 -> be16db56650223a893dc0c9aee583e87d6a06f067c458637dcb3ce3e30cb90c9
+~ ___36-[CoreRCXPCService queryBusesAsync:]_block_invoke : sha256 48963e4951e67ba37c2233384f2bc0e2c10bf729fd6761690c377e22afc08489 -> f3fd3f1a8446207db9c4dc7ab609386be8e2317eb97930a1fdab85b26be04f29
+~ -[CoreRCXPCService _queryBusesAsync:] : sha256 654fd2c3ba9dfd859ae05fdc24cd899de14966fb40a820116dd636a3a2ebfdef -> 19a93e739413e2416a2c91510db56ed395b9f5af098888ecdbae1044528d8f2e
+~ -[CoreRCXPCService setPropertyAsync:forKey:ofBus:reply:] : sha256 550af0a9d11678436da1ff447aa728ecb9675dffd6dda5333379dd784884f775 -> d581a063ef1134858be581fb16550f9f18e075a7b543fa1b927097b6a1f7bddb
+~ ___56-[CoreRCXPCService setPropertyAsync:forKey:ofBus:reply:]_block_invoke : sha256 1e2c8ad8574b64275238440a821af6a03b8e07e24cf0627654b551f9434c2b0e -> 40feb16ec834adcc1ff20320b5a4fd321e83f83b6301e3a662b41f54f199ee99
+~ -[CoreRCXPCService _setPropertyAsync:forKey:ofBus:reply:] : sha256 2e130518168f7c347646b5aa62631f1b04124df9493890b5605eba054f4ff4fc -> 89bc37eb7ac797c0e5e2802ef52dd91cd96d8ea28d2ca937a0a523c9b47fb40f
+~ -[CoreRCXPCService getPropertyAsyncForKey:ofBus:reply:] : sha256 be2b0d2046373fd225f5f523080707ae7e6a63df67735ecae4f95e16af7b2b5c -> 21c27ce30cb10923a769349c77009e0746df5c1b5203e0976b5738684da5ff03
+~ ___55-[CoreRCXPCService getPropertyAsyncForKey:ofBus:reply:]_block_invoke : sha256 cf5e0de4f577660ab90153339d81f8bc51995b0a326e3d15870b3872bc240019 -> ebfb8a16478ae907de0a888b225ced48d061eb835a594b22538f0b675502c780
+~ -[CoreRCXPCService _getPropertyAsyncForKey:ofBus:reply:] : sha256 f90dae005992bd65fc6f168609809d916d77cd7fb1574c634b5c389944b6895e -> 110deeb25069b56a10f9f90fb9104427f72ecf7ce0dda7a9b29d2b5f79b75269
+~ -[CoreRCXPCService setExtendedPropertyAsync:forKey:ofDevice:reply:] : sha256 f46d5f5b7745047161f337812d46f78142c84def9a6c44f08dc2c15d6926f874 -> b281a9e25a64ec44307e3826f282903a415fb31ccc2ee1e0f2b30c523807af14
+~ ___67-[CoreRCXPCService setExtendedPropertyAsync:forKey:ofDevice:reply:]_block_invoke : sha256 27d265cf551a1f4f2d41376f4cdf44ca2f6a2b653e7d386f12ee007cf447b71b -> 279936555bf817e40b30473d11895f52b0cf4f3927546c7dc89270cae7f32f1a
+~ -[CoreRCXPCService _setExtendedPropertyAsync:forKey:ofDevice:reply:] : sha256 127af717c49422679b95946d3dd477c3aa70a6182ded82ca919d523f28bd5ee7 -> 94a8a66fcf48a1d446f86e17c207f17ef013a850e32b63b64ef507d82b5bf131
+~ -[CoreRCXPCService getExtendedPropertyAsyncForKey:ofDevice:reply:] : sha256 cafe0add05d5068d691e8cd251aafde4dca123f9fb5f57b38f8fde32d382380e -> 64c66a7c79e7281915a0a11992c562ac913f79eb5ca30b5935c9bb8133176a69
+~ ___66-[CoreRCXPCService getExtendedPropertyAsyncForKey:ofDevice:reply:]_block_invoke : sha256 72ec1be8eb9be354f90dd51d23e80e1bfc4d8a7dbfeb8a67eb979906829f8be9 -> 0219ab71dbdff0cbd7960381db6b894fa03eb87d72573b9f4f23acc38a52a861
+~ -[CoreRCXPCService _getExtendedPropertyAsyncForKey:ofDevice:reply:] : sha256 3895b33b2d65c390309fa0e28feb0e41c0e8a48f18035943dc67cfa7017df691 -> 37b87e85cb033da56e3b7f1a53cbad672edfaf9071501d12256d169496b7a1cb
 ~ -[CoreRCXPCService manager:hasAdded:] : 424 -> 428
+~ ___37-[CoreRCXPCService manager:hasAdded:]_block_invoke : sha256 1fbb86f362113c7e8e0cd77434fec888d611b28dcf1c305a7b74cdeb155048ab -> 33c39adafd145c2d4b3fd1eb7a4839b1259e08e4c79418521012d71421fd48fb
+~ -[CoreRCXPCService manager:hasRemoved:] : sha256 305b9bcfc2cc23bcc4dfa6e0ccd6835f11c810a2b84d693b165517220cef2955 -> 89138a6cd984bd7b79ed939bfb9815d3e8e7f2d1b1616522e2d177f4702bdabc
+~ ___39-[CoreRCXPCService manager:hasRemoved:]_block_invoke : sha256 98fcd92ff6702320454f72ba9434f81eb394eac1b5a02e7cd28319569a2654bb -> e9b7052250fcf76f8ec7a0059f9da53080078b5290793ead1808d1af9756c2ab
+~ -[CoreRCXPCService manager:hasUpdated:] : sha256 b3688b449061e2d26bac1040c15517b1c62551e3c3ea136d628899c0d6a2f6df -> 37664b8637a5b252c3f8df484b579494682527bd8fd94305e94df255de505967
+~ ___39-[CoreRCXPCService manager:hasUpdated:]_block_invoke : sha256 1e024bf7d0340c8d2baad91d9ae42c7b87b849eb460dc2692bcd2b496401f9b9 -> 370b38f800044d69c83a27c6bfb0118011751497be985a3c8594ba29c87e42ce
+~ -[CoreRCXPCService bus:deviceHasBeenAdded:] : sha256 5c89d807425683fe7c7d95aaa5a57f83aef95b79382f615cf2f7afc8555af0a4 -> 7107125a273b1dc0198dad692161220e65c85777ef0f93b9b1ac0d26626bf03a
+~ ___43-[CoreRCXPCService bus:deviceHasBeenAdded:]_block_invoke : sha256 5dfc24b819ec9e5b2f0533a637ab99a7f7871d37ad0096057bc7ed7027332743 -> 564395a516e34becf4dedc71e509fc7aa5880b19a17c92d01acf2b0acf951adc
+~ -[CoreRCXPCService bus:deviceHasBeenRemoved:] : sha256 6b368f4dd85b4f47e7e44d87fcf2f801291bf74d2f2f2ef0a45f502408e5194c -> 627de423529afbf364e97a7c33e0acef006a99778e31dd8dcd96c9849f68a409
+~ ___45-[CoreRCXPCService bus:deviceHasBeenRemoved:]_block_invoke : sha256 2ca7b60562f73d9e3bf5b2f63c445686c2926fcd4c42f4e90145a82793cfa059 -> 2d505386eebc363929f193e6d65829896797080f1d451cad0b2449951cdaa783
+~ -[CoreRCXPCService bus:deviceHasBeenUpdated:] : sha256 2a2a2cecd8ae4058ff79b277a56dab08c5e0a2852b5a11b432f507d69f3ce812 -> c91a5ced2ac60eafa4c54d7bff78e4ee8ad8ee748682ea4acfa243a1e9844d23
+~ ___45-[CoreRCXPCService bus:deviceHasBeenUpdated:]_block_invoke : sha256 270b9ec3f9d5e8bf220399fd6ed9b6c55c58735437e79028fd557728d346eb4e -> fdea74668c3e5a4262fedea50e380516cd36ecde8f2cb4a2a67bfe71b4c618a1
+~ -[CoreRCXPCService device:receivedHIDEvent:fromDevice:] : sha256 5049d1566d127b2a1bbff91b0a8d17b342a17d12ca8a2a470efc16471cccf319 -> 0df65db4f9fdc2418f1bffeed05c705c3f5348ae20eaa09020cc338be34e0965
+~ ___55-[CoreRCXPCService device:receivedHIDEvent:fromDevice:]_block_invoke : sha256 7ffe635f35dfc4ae711d6375b56ef899016fd2553df923e528d2bdaacda947be -> a9fad234225b9d3ac5950f06f1fc1b47d5920baf04134f91b8167a1c7d8ec4d6
 ~ -[CoreCECDeviceProvider initWithBus:local:] : 92 -> 100
 ~ -[CoreCECDeviceProvider initWithDevice:] : 152 -> 160
 ~ -[CoreCECDeviceProvider initWithCoder:] : 92 -> 100
+~ -[CoreCECDeviceProvider dealloc] : sha256 902bed9bb084bd739b2fdf24070ec37e27fe35b2b78bf2c5c290722f63f765a7 -> bd61c8e6039475de1fa0df734a553a57b28fe3b08ce4d12c1e25e01fb12ddd61
 ~ -[CoreCECDeviceProvider willRemoveFromBus:] : 380 -> 384
+~ -[CoreCECDeviceProvider classForCoder] : sha256 12b4b132297959b3cdbfa1859906d6758921369e593d8a685dd07a125ec504d0 -> 3fc84490d9c36f355e69b7d3193fcbbc10e8be9ef56444a7e511901f64ee1e8e
+~ -[CoreCECDeviceProvider copyWithZone:] : sha256 7492f0e712fa7540de9662ebe73cc75f65a88811dc1b72b8a84e32cc54b118f3 -> c3ea07f5d464db061cc0a27358fa665c8ecc444a803768a9ff2ad0e30ad450b1
+~ -[CoreCECDeviceProvider busProvider] : sha256 400835c369293965e8ea04b9382529252b8e63231c865acecc97e3873835e082 -> 4d6931d4c85eaf4a56f14bdb937f8217555a389d3c773269c33eaceaf7dc6d27
+~ -[CoreCECDeviceProvider serialQueue] : sha256 cee62f89ff4adf9094e73af8a0157268ea23e2d403e72c8e12057d11f6bb9457 -> 7bfea16523c7bc5bb056df31ca0f01f65c6a5f66f857db2ce66e33b1682a2260
+~ -[CoreCECDeviceProvider setExtendedProperty:forKey:error:] : sha256 1f818d8fe158a9b3a1d8d7184232cfbb1574c4ec2592ad4c6e62752b55f711bc -> 79b91bbad4c631d98a07218ecd6a1616000d0da222be3ae1818dc547710b2cff
+~ -[CoreCECDeviceProvider extendedPropertyForKey:error:] : sha256 3bc143666b7c59583d0cb4311ac757adaf32ab94ce5b51cc7e7c5c319d0448fe -> 408764a605400a95230eb119adecb08398e4083c5a9da58a6ba930802dfb1647
+~ -[CoreCECDeviceProvider didAddToBus:] : sha256 0f6dfabf8740b045c2a050514ac2a38423207071103afcccc4a9e31455c6b726 -> 1eb371b49c07287eaafc3f31873703d646448903ca043af296bbeb58960de397
+~ -[CoreCECDeviceProvider deckControlCommandWithMode:target:error:] : sha256 0b5788ffaa7deccf53c7df7205c614a63ccc6fea85f089d22b7613727e0df912 -> 456f6ac9b9d8ae21df5702807147968b4c073a16674910c5b100a4eb7a702887
+~ -[CoreCECDeviceProvider deckControlPlayWithMode:target:error:] : sha256 c8eb310598de490e9ecf4b5c84bf4ae6f72119aff10e9fe0e1741c19f8c43254 -> 71ce35f2bf2da904bdc7ebc58ceecb20b9a2e4fba7dfa67b2148fcb9944d18b0
+~ -[CoreCECDeviceProvider deckControlRefreshStatus:requestType:error:] : sha256 68e0bf0329bdafed4c33597721e63c8411205db2d4c12854371fd988075ea88e -> 28aa69add62221b5d8ef845cf49ac36bc20f41ee23513b1f017b704046c9c2ca
+~ -[CoreCECDeviceProvider performStandbyWithTargetDevice:error:] : sha256 a0a3feac3e463bebf190a5979641f78f71bfa3359434d46af495db7b462e208d -> 1d95a426d53e411a81cd8c1d13740bbdcf88eeec3db0bb2a2400c9531203e58e
+~ -[CoreCECDeviceProvider refreshProperties:ofDevice:error:] : sha256 5b404f82f3ea11ae5fb0c4fa93b63a0898636fb50851719c4dce6cc82afe4602 -> 2933781986c0991feaa4eba7ee7b7799371faee39787e50afeb1eb921cad405e
+~ ___58-[CoreCECDeviceProvider refreshProperties:ofDevice:error:]_block_invoke : sha256 a229f1f74e32153f94cc5d0e88623dfd671042ee1034a98a94d0c523f72caa84 -> 5a072359ee0b8cab912331c481a9361569d5914bce53776ba86b2b2c65044b72
+~ ___58-[CoreCECDeviceProvider refreshProperties:ofDevice:error:]_block_invoke_2 : sha256 2eb3d86ea32d252162b10e953be26918a973b3e39d0bf19caf3533e737120d76 -> 98ebc3fb123739baf16a7bd77f9d54efec38cfe050f62fb016d4cf09909eeaf4
+~ ___58-[CoreCECDeviceProvider refreshProperties:ofDevice:error:]_block_invoke_3 : sha256 243631d8ae869ea820717209a58ac75c249e98c1ac2ae21f93cf20b471ef146e -> 843047665ff23131adadc50d2958d69132ebf4ac044126b2f8b4072899182f23
+~ ___58-[CoreCECDeviceProvider refreshProperties:ofDevice:error:]_block_invoke_4 : sha256 96de66a47e8982e1ed018fcd2d7ee6d4c7053444e4a6c72209791522ce69eff3 -> 25ab3619ff3a18d651187abe7cf292abed505517e847a31a2df8230a98a0a96d
+~ ___58-[CoreCECDeviceProvider refreshProperties:ofDevice:error:]_block_invoke_5 : sha256 a2fe339e1cb12312b6c56f7e4af3fce0a79f7ce1edb37d1685c34c5674b0b956 -> a9baa8457cc95c3dac229401413983687e17e0a96be221dae45165621e9ee57c
+~ -[CoreCECDeviceProvider refreshActiveSource] : sha256 94c39b28e0353ef70a6c3e25fc671a06779f9de4f692cb434355d010585875be -> 6c27fbbecac94d62e285f0c0590482c742084633b98d2862725096cb14a17e9f
+~ -[CoreCECDeviceProvider refreshSystemAudioModeStatus] : sha256 221a245db0651f657646992145c72ca1f60882f2e0177ac2639bb8679cd5ed22 -> 16a9a0262599b29e68e7bc61960d11e003eaddc92732ceb5775c837a7466d69f
+~ -[CoreCECDeviceProvider broadcastPresence] : sha256 196492971e6aa083eba5e3df82dac5321ab2a6a2df4a99960cf0518c9d17e522 -> f546bc0405fc643eb19eb2d83c4e99f02e5a5065bbf17d15baa72161c293f86b
+~ -[CoreCECDeviceProvider dispatchAsyncLowPriority:] : sha256 e9f42bfbbb200570449f979b44bd4e2d54a06a59079e8471cf1a877796165d91 -> a07d8433afffed1263839c349726037c0e4fe091abfb9b54dc6f85e157bd1518
+~ -[CoreCECDeviceProvider probeAbsoluteVolumeControl_handleFeatureAbortReceivedFromDevice:withOpcode:reason:] : sha256 990e6281623826e3a086e2eb05ad7b34f3ea89d4370dcc8bc5adbb33e790c30d -> 1d81ab5387009521d7ff74985a2ec8b2a386e7cfd3096d00921e8dd8de4d5f36
+~ -[CoreCECDeviceProvider setSystemAudioControlEnabled:error:] : sha256 ef47f49f1d2843a44432dbee86ced7f0c43653a2b22a840133377563b85cd793 -> 2f03e282b926ab86c9a053eae185d05d5daea1fd1cc11cedec8490f62f70504d
+~ -[CoreCECDeviceProvider systemAudioModeRequest:error:] : sha256 76a1e06bb63145b3f011036ebda800ea22c43510136c999110cb5137d0af39de -> c7f79cc43d02bda52f2ed41df8576ad669b0dadd18bc549c3498baff4dca4a13
+~ -[CoreCECDeviceProvider requestSystemAudioModeStatusChangeTo:error:] : sha256 2854dd2cc3218449a950cef017e4cf3300d1dc1cd2404ae26ff09b1c02cb6382 -> 45beb0f249ba8cdb9f1d827d014f1d6f04a389de463d2675100ccfffc50a0e92
+~ -[CoreCECDeviceProvider setAudioReturnChannelControlEnabled:error:] : sha256 dd01b213f595c6264901a4f1339fbbda1482489274161e943870b83125938340 -> db20492f959ce320336d895c736a581b1c21f4a806fb0fb5a3a30694b5c6dc43
+~ -[CoreCECDeviceProvider requestAudioReturnChannelStatusChangeTo:error:] : sha256 edb02661c13aee60578c36f4b2ce9214b398f945c203850549426dac669a9084 -> cb72dc1f94ba6c873046ef1be60d30e481ccb148a9eb82794e5b51aa7a561b52
+~ -[CoreCECDeviceProvider didChangePowerStatus:] : sha256 d3af2684018655d6ac274f328e534f214d6826a826f65dbfb847374ce1da383a -> e3f55ad4f9c4b80f7328cecfc73a1e3a0bb5db28ef2abc33a5428f5ef1dc901d
+~ -[CoreCECDeviceProvider setTrackAudioStatusEnabled:pressTimeout:pollInterval:error:] : sha256 f56a7bc20323a0bd2b4229ccb7c52e1e941901a433944b276e1590f865fddb55 -> f6463e523e849c4d1f9e225e2bf01a71cbe5a71affde7336bf50a3b6d42f2c14
+~ -[CoreCECDeviceProvider requestAudioStatus:] : sha256 1e5faaef96a2009e5682d4afc589d4433b64d982dac5c095539cc426432d9b13 -> 1d0c1112ea03f9e919465b5790d2e4f7750b2c6038f1454fe81479ab27757220
+~ -[CoreCECDeviceProvider getRemoteControlDestination:logicalAddress:forTargetDevice:command:error:] : sha256 5078777cbe0d5c53c674e249893dd53a4adb8c91a1964ca3c32f63de4a67c727 -> 6f0a36cfd7ae7c55696755fb3b7152a5cfdb1ba153b988c95715851345bc1de7
 ~ -[CoreCECDeviceProvider userControlScheduleInitiatorRepetitionTimeout] : 188 -> 192
 ~ ___70-[CoreCECDeviceProvider userControlScheduleInitiatorRepetitionTimeout]_block_invoke : 36 -> 40
 ~ -[CoreCECDeviceProvider userControlCancelInitiatorRepetitionTimeout] : 24 -> 28
+~ -[CoreCECDeviceProvider userControlInitiatorRepetitionTimeoutExpired] : sha256 786432d1586c8b5726f7d98fa21b07e87ef11b01450843db970bee721cc7bf74 -> cc8e753b2ee9cad1c394f07b65bc93faabd5de80a0542d07cb10ceb824fb681f
 ~ -[CoreCECDeviceProvider userControlScheduleInitiatorTrackAudioStatusTimeout] : 460 -> 464
 ~ ___76-[CoreCECDeviceProvider userControlScheduleInitiatorTrackAudioStatusTimeout]_block_invoke : 148 -> 152
 ~ -[CoreCECDeviceProvider userControlCancelInitiatorTrackAudioStatusTimeout] : 24 -> 28
+~ -[CoreCECDeviceProvider userControlInitiatorTrackAudioStatusTimeoutExpired] : sha256 d5a32c819b1ad33edb56c70defd9c0a37c73c7d6d8153d65ea7aa7b19337ee72 -> 751f49ed91cf0f39af8ac876859f9c98b020e0d993a369b55805b399994901c1
 ~ -[CoreCECDeviceProvider userControlScheduleFollowerSafetyTimeout] : 188 -> 192
 ~ ___65-[CoreCECDeviceProvider userControlScheduleFollowerSafetyTimeout]_block_invoke : 36 -> 40
 ~ -[CoreCECDeviceProvider userControlCancelFollowerSafetyTimeout] : 24 -> 28
+~ -[CoreCECDeviceProvider userControlFollowerSafetyTimeoutExpired] : sha256 b5acd2b39e46283c29fbfd4b4a07e7b424bf79fd059483a4f3b10eec155f4828 -> 122ac55537f55f9e0d4b3efaa35ea95f513b98272ea50696095a2e39bbacffdc
+~ -[CoreCECDeviceProvider userControlFollowerSynthesizeRelease] : sha256 59eb56c1baf0f47252b6e1d72c2840e3175f6acee53b343f2d520e464d543ab7 -> 157a2024fd4dd622d1948df8e9a5a53c89aad5eb81034dea8a3dea363ccf2dba
+~ -[CoreCECDeviceProvider audioStatusChanged] : sha256 f689725ae3bfa5b5e2586e9edf848ae58a3eb04c065736d99c0ecc60bff18ee0 -> e5a28bf1a830d566da27e7eb5b284914df86d8fed5c0052f36520294067b10a8
+~ -[CoreCECDeviceProvider audioStatusHandleUserControl:pressed:] : sha256 9a7509acbaf69186e2451197d01466b0b099dae3f5f0b264ee796e84759b284e -> 7e44104e132dfe75c8112765f0dd582060593061438bb00db69e5eefb454cbde
+~ -[CoreCECDeviceProvider audioStatusHandleUserControlPressed] : sha256 c3e4f6f6c86e4d21fcae3c6e91febb62271c9798a1ebe1864f9465fe265a1e87 -> 5ba3cee3db4557eeeaaf530b1eae46274783592672933d6d232be7d47b000f31
+~ -[CoreCECDeviceProvider audioStatusHandleUserControlReleased] : sha256 033156f8db87a83803caf80eaeaa3fe472c4067ca5f52c78f1c3c4d49f086db3 -> 35036aacffc5ce5603e9c04443a2524c662c1d031af9ec76c7101c35459b75ae
+~ -[CoreCECDeviceProvider scheduleReportAudioStatus] : sha256 61a7dc1567b4745da8868196d8f3cc5c037c2e0f31a201e92609b9091d223898 -> c233589c888c4f56a4c2aa4ceaf15ea1984ca0dfa9f60b8541374b2430f152a2
+~ -[CoreCECDeviceProvider sendReportAudioStatus] : sha256 3717ce48936b3e14e0d56f3dc5bef593b44564a2b4cbd25d94357f6d46cc45e8 -> da88eecaf837638643bd7f84b0310391bf977e56c2feaf9cb4ac2838cf45d2e6
+~ -[CoreCECDeviceProvider activeARCAudioSystem] : sha256 6ed86a93a69c9e1b297865aedcc983edce344f9da723c13ccf9d670e087d36d4 -> 4fb0c271de77df0cf5037dfcd3fcc199734047a8b7542daed4fb2fb16f3c174e
+~ -[CoreCECDeviceProvider resetAudioStatusState] : sha256 9189bc31ddb8704432c4b1a9812608393f9960d3183fae0e412ddb1d67a51b81 -> 0fc778e7c373572622902d4c8d851d562662ccdca0ee11a0aecdf97997da1d37
+~ -[CoreCECDeviceProvider deviceRequestSystemAudioModeStatusChangeTo:error:] : sha256 55d7f190d985dc4611298662832d9314d04d3da305284d7e4cb0a9ace68acfd8 -> ba4d476455ba348efe745c58c3e255dbee4a9232bcf3064c6e2b19e3faa250da
+~ -[CoreCECDeviceProvider dsamStarting:] : sha256 4fea0a480bb59c31a41af79e836e052bab6a3b8e1feb9713a6f421b4ebca3cb2 -> f08fb1d15347739369d149334513011608c28fb5168ebb63230759ea184744e6
+~ -[CoreCECDeviceProvider dsamStartingWithPhysicalAddress:] : sha256 d080b505d40c2cbfc7cfeb128fc5a3b6aa6506a1fc42d111c797ef4ebcb2ad06 -> 1570aa5a13d34974bc27f40a61d0f776c28dc3a0ff65aaddf2602abe1bb8e144
+~ -[CoreCECDeviceProvider dsamStarting_handleBroadcastSSAMOnResponseTimeout] : sha256 2dfa6adb1ba5e9f1974d2860fd37afbeed1efd7618066a3e9e6ec7d651c2313d -> a65aa264fd8edb514aaf68ab33f83fad1977f29c22c75b0d75455a0f9910bbe8
+~ -[CoreCECDeviceProvider dsamStarting_handleBroadcastSSAMOnResponseReceived] : sha256 4104a6d5b08f13730adb1d8e533b833385ed2bbe2211b22e00b23541c1c90d1d -> b3a0169c577a334ff71469f124f8f13de84161ce08254a6d08c03b6855539644
+~ -[CoreCECDeviceProvider dsamStopping] : sha256 58aba6ca12d1faabd8ba41ad29c2e6e7ff8ef181f0170fbdba7cd62d2e144280 -> 2d63499fd2bc773f509da279a7a76a07cbecb77ab2ed2b041a5116dfa649d400
+~ -[CoreCECDeviceProvider dsamStopping_handleBroadcastSSAMOffResponseTimeout] : sha256 d45da5356c095ed028ee7e5701c0baf8dcf334c95e9734779c27e30614167705 -> 92e628bdf5c418f32da4974c67e6bdae2e9b557f000d8a0979b05314cad12ac8
+~ -[CoreCECDeviceProvider dsamStopping_handleBroadcastSSAMOffResponseReceived] : sha256 012807c56379036fdfaea71b9db084dc7cb99ee99ad220881c83940fecdf07fd -> 95cf2c4ce53a09b0b163bb77ffadd61d4e3874bbf195e102a871c2d0de3bbd06
+~ -[CoreCECDeviceProvider audioSystemRequestSystemAudioModeStatusChangeTo:error:] : sha256 42a588466aedbc8c3681042a1cf0214cf4228365ebd466341d7b0714226cbf78 -> 1b3d7bd7803add832e418d7f62ff131d1240d2b682d0bd07afd13e092e228f88
+~ -[CoreCECDeviceProvider samStarting] : sha256 f4472609b751524fce6df6c23d18b18228f759474e310cb53446abc9609eedee -> 707d343c61a3e47912d6fa7419cd1ac2a5386384bf2287e17cac93b0867a66f2
+~ -[CoreCECDeviceProvider samStarting_broadcast_Req_Act_Src] : sha256 d62a953da3dbd5612b0e22bcd1c71321809051376e9a0f1480216498384c7b34 -> ca6d989db065ad88b41c2784022a2bd83fb4a31f3d0ade33477822bf7ce82767
+~ -[CoreCECDeviceProvider samStarting_handleActiveSourceResponseTimeout] : sha256 ebd9c79388a6f90e2a441a048298189006b9c81c705857b97be53249364d29f6 -> d01a10984938740a59b9d19ac9c6b07c7623bf94e087ee015000f7394cfd8d41
+~ -[CoreCECDeviceProvider samStarting_handleActiveSourceReceived] : sha256 ea05e4db66b4d60d4ae837ceb944063bcfc9765d64b89b6fa2fff7321e111cec -> 9b28f11f8db270269c6633006cfbf7a274a3a693038b392559facaa3b4c7c091
+~ -[CoreCECDeviceProvider samStarting_send_SSAM_ON_to_TV] : sha256 a938839cd4d945ed0e6819916f127112830101f323eb91f2fcf1f25eb76638a1 -> ac7b470f425b166ac3e4f4598aea553ae8aac0d614bafa5396fb5fb0faad322a
+~ -[CoreCECDeviceProvider samStarting_handleFeatureAbortResponseTimeout] : sha256 0ae39c444e1f91de163ddbb0b0b932499729d431fd1cd5f802164f3e516225a7 -> 046c13c9a2f09289be2070e1dc63aa21cc9435ea0e8882eda9c2cfedf50cd25f
+~ -[CoreCECDeviceProvider samStarting_handleFeatureAbortReceived] : sha256 1663b4902a6131598c879dde699ad20ec9c20feb51bfa66a0dad189c5360d400 -> 1cd0dbb398257063df94554fc8a0525e107331899c6afe48a0de65a69ba5886e
+~ -[CoreCECDeviceProvider samStarting_broadcast_SSAM_ON] : sha256 6d07176d473a78cfdef8504a1423b0eaa299e3f63f1f49726b5412fe6f0c08bc -> d57a6ed01015873a7ab4265d0943a96dd440ff3edce7b899a1602b3e82ebff8a
+~ -[CoreCECDeviceProvider samStopping] : sha256 65aa25a263d253d1d396aaa1447bb662fcea0d8700b08b7bd3c237fcad5f16b4 -> 8d0e535bff97aa037cc5fcd625e4a5399380570e6f24a8fea2aecff7f08e3452
+~ -[CoreCECDeviceProvider samResetStateToOff] : sha256 390d87014a61d6da781146bcb56eef166df8aa0b6a790608f2f2e0666a5cf5d1 -> 1156f222dda74fd721a30c3d31e0b80f1f18cc00388b81c920a16ac007788188
+~ -[CoreCECDeviceProvider systemAudioModeTransitionInProgress] : sha256 c71b28913d82e5ace0bb6a8b0bf5c6d9ce76afbc2b505b6fdf8221a7e7181112 -> 9c01353041d67925ccc5045c364a87464aa62f2d4e844b50a6d142c16f6bb32f
+~ -[CoreCECDeviceProvider samInformDelegateOfSuccessTransitioningTo:] : sha256 db95f285db5fdbc9358ec0f8f1f1b2563d8fefe27e6a3b188c758c62f4ed9290 -> ef08ec0ee536bd75963212e9bd4a6608d7a8d87fe93a9bd092f1928215c3ca53
+~ -[CoreCECDeviceProvider samInformDelegateTransitionTo:failedWithError:] : sha256 7a6520006fd9b685939fdca141a1a856b00c3bdd1b1d436c449004f8a3f0b08b -> 8c7001dada93d953f75aaa5bc752d4d718c85e341e695e6cec60e2ef793c8d73
+~ -[CoreCECDeviceProvider arcStarting] : sha256 6824c92b276e9ba36cb41390b296177df14ac1aab23a270e248bcfb36d9fc12e -> 6c4bc8797b1056ccc8d7bc155532b1d9effc570f66f6e131a626e15e041b501b
+~ -[CoreCECDeviceProvider arcStarting_handleReportARCInitiatedReceived] : sha256 861044d0eac56ccbab9bf8a2805b9d22817e57cc4d95f05f23af1d1a76d9b1a2 -> a08b9a1d07c975ddb0d41e92337bba783e1501a2f29c1d63df12e4531f713da7
+~ -[CoreCECDeviceProvider arcStarting_handleFeatureAbortReceivedWithOpcode:reason:] : sha256 a569aa1775a46dad11c1f0855015c138639b1536f5b32fd7f1f1bddc0a63f66a -> 94af2c0e23c93ad3cba1ed30ee8d9941107ac15b61f1a8b45273c511c57e978d
+~ -[CoreCECDeviceProvider arcStopping] : sha256 f6dfb7bf5a906b0fd99ba52fda08ec2d9a473a36d3a9dd73887f49e2b39e3a8b -> 5362bdab242ce45b54168db4befb03f9d478a4efd6b61b4bddd3017927567675
+~ -[CoreCECDeviceProvider arcStopping_handleReportARCTerminatedReceived] : sha256 8154b3f32222425b2871d4206116d6c219216da43eaac784d31b76251361e316 -> f25d7e400fd94f950db6b1afc9347c37c0c978a4e78017eb5e56317c753c3bd5
+~ -[CoreCECDeviceProvider arcStopping_handleFeatureAbortReceivedWithOpcode:reason:] : sha256 b2bfce1c21485b5d43b4a0b01aa18e149f6f8e299b0a5473f437ba4a94b9be7b -> de12303bd0cbc502153b8abd97a8c0e59dc3bfeda9e681339cada1ded4113ae1
+~ -[CoreCECDeviceProvider audioReturnChannelTransitionInProgress] : sha256 f6d6174760019c97a7490d735f76779fc646aac5a9db2a4bee09460c8b378884 -> 3f05b1ce0adae9d0fd3be1f199d78e99e5643bb2451b640d216ce9ceee8b7be5
+~ -[CoreCECDeviceProvider arcInformDelegateOfSuccessTransitioningTo:] : sha256 8dc18cb9dc2b1f59d9e7188c573207e8ce319193d0fc3daf88a9ebddf5f73f37 -> 4e8175393422f1f4219b7eeee7d0ba7c664b3b5cad25f85360bd16f40956e473
+~ -[CoreCECDeviceProvider arcInformDelegateTransitionTo:failedWithError:] : sha256 5e040cf9d94c6bcf9734282af26ebd1c9b5477683cc24af1a7edd5711a23c083 -> af312648e97e39dd57ae1f25f6e87f94ba6750ab9a6b126741c82b1ec9007915
+~ -[CoreCECDeviceProvider dispatchSelector:] : sha256 b6a43acb6c82a9bd932001078bacf564762b4b837532bd1e3d3a10d46aad2f88 -> c92951e06c8a28864ef44fa2cf12ff20c18768a3f68884b13d287b7162f62a55
+~ ___42-[CoreCECDeviceProvider dispatchSelector:]_block_invoke : sha256 a3d41f0292c2ff85df5644e71f4311ff8386b05b066a7a23c5584f9e6b945792 -> 4de2bc47a2dc257329bc1b505c189377895d224bdb05e5a0848a0ecf243edfb0
+~ -[CoreCECDeviceProvider dispatchSelector:withObject:] : sha256 2cbf8b31df244e9b2371cf7471cc72bd68f83ffc1ed13ae6e541dfe4ea6a9588 -> 8ae867ec28f7ca1d38a72cfa426603649267f566e0afb8c504ca9adf65ce4684
+~ ___53-[CoreCECDeviceProvider dispatchSelector:withObject:]_block_invoke : sha256 b5b73190c03e91e05596b613630175e190321cb194633b801df5a21856f77d2a -> 25891ec6ca5b1b8b77741b3a81cfa9ce8ab8484975ce7459177f2662393edbae
+~ -[CoreCECDeviceProvider dispatchSelector:afterDelay:] : sha256 375cbff1c9a9be55c3de7a24fb2ca8cf7d40e5c771a71a7c356188ec101b3c69 -> 7074eb2bb058329cdcb307fc5ac400192a4822bc6de6531247ad0dfa1eab172c
+~ ___53-[CoreCECDeviceProvider dispatchSelector:afterDelay:]_block_invoke : sha256 c9890a7006d2fdca21e4f6ce1953bb1719bedd6dc1bd6fbe52a0bf9fb2197f59 -> aa82b44c896ac35f470b25558bae1c269ad060212cc1865255c0e623f045cc6a
+~ -[CoreCECDeviceProvider dispatchSelector:withObject:afterDelay:] : sha256 993a41920c814a630b595c9f2d69c8e325653429c68c233cb1a648b7738f1490 -> 329696eb175b26a2b516fad1853d55df20d4a28c12ef8ffaed7af189484160ef
+~ ___64-[CoreCECDeviceProvider dispatchSelector:withObject:afterDelay:]_block_invoke : sha256 50ec902c8b2e4844309dfea359329ff0b3758306171c3de3f674d61f20a1f327 -> 393b82010c93f098ee2b777f1def2ac30d46b5b3d82842f1c29def4afe0f03bc
+~ -[CoreCECDeviceProvider handleDeviceSelected] : sha256 0903f44f07b0d6236ae2489c740bcf4d7a597c978dbfa6713171ea9e9fd0c65d -> c42bc7014c2f25c1fd3610cb08c6b09ca54228b0ac75bcb85bb6e53c80fbeac2
+~ -[CoreCECDeviceProvider hibernationChanged:] : sha256 983f0c41e72619e52725e7579669ef10940938cd2aecc25731704522623029f8 -> ea870b6b83921280e8962a62bf3c51042fd79938c415c61e9968514fa52eedab
+~ -[CoreCECDeviceProvider filterMessage:toDevice:] : sha256 bc0c103e84e4b288e35035a10d97bcf87f1a02c030b01e10d795001eebe60f04 -> 052deee3877f28e8f4e0e43f60aae8ac800ebc9658e8bb166ce6c2318fe9622a
+~ -[CoreCECDeviceProvider handleMessage:fromDevice:broadcast:] : sha256 bcfa63ebd987b5e7355b1cf5533af86c9b3ff2da7e40cec5aa5cf69ed1e2c1ea -> 665e5f66dacdaab58036921f6502679ca15f7524aaff6bfc43396a2e51f9fa55
+~ -[CoreCECDeviceProvider error:handlingMessage:fromDevice:] : sha256 c69deeb3d105ffcab9add7e4c8a7baed538678e42f6c23e783e4ab447b3c64b8 -> 7e5c25cd9f9629afa46bc4f4cef89974f22c089006a6373b3c132b737587aff4
+~ -[CoreCECDeviceProvider didNotHandleMessage:unsupportedOperand:] : sha256 4130a4dc7a29d6dd6d5bfe32a9d5984f0dfc91a29f322705891275967c18068e -> 8cfe8169dc971376c8860cc5b58da6dde29dac3066812b6fe1e7e784f0260537
+~ -[CoreCECDeviceProvider handlingRequiredForSystemAudioModeMessage:] : sha256 82ee0cf8f93ba980beaff07cd32c7a958d3ac68a06f1008f6ef8c59fd9555aa7 -> 705a4324292176f154014a29b5e2724af71b41793446736b6517ebef89d5f825
+~ -[CoreCECDeviceProvider handlingRequiredForAudioReturnChannelMessage:] : sha256 f31991fdbb1ad5aa148bba67f020ab5830fb4d0b25e00decfbd89d015f4caec3 -> 07a5859103bae1a87ae9fd9f07242923a63955bf4ad1d516214dc4c59d12bcb9
+~ -[CoreCECDeviceProvider initiatorAddressErrorDetectedForMessage:] : sha256 2169acb99d0691040f05912282622e09619834e2b551b5fda7f165f3c0f3f6d4 -> 3601a93b91f1898251c7a2a206ac31774f7f087adc2eae3c0dfc23fcd939b433
+~ -[CoreCECDeviceProvider handleFeatureAbortMessage:fromDevice:] : sha256 ef71227051b8de5b73cfe5f52c15c7bbbbb9c47dbcf9ccbbbf8bae776680fa33 -> 7f5a4c64af95bff99fd2e4d599eec46c4ac4e4560d53668a3e46a5238d975d04
+~ -[CoreCECDeviceProvider filterActiveSourceMessage:] : sha256 67e191d602306475f184cf5da869d204efd51bdb7f303bda491fca8834dd99c0 -> ea1abce93e945861137464a5b6fb9b96501106fa900cf26893b3733d1728f9ef
+~ -[CoreCECDeviceProvider handleActiveSourceMessage:fromDevice:] : sha256 d9c1f606d611a08bd9fad073bb487f8d9f87bf494099077504bdb2b8b492caa2 -> 08b73f636231426e1d2368728439a5931434c243ba78677ca58231cd54eeb7e5
+~ -[CoreCECDeviceProvider handleRequestActiveSourceMessage:fromDevice:] : sha256 bdec6be9657f3471ac3129aebe86301ec46030465a4b1227207aee405721cb4c -> 15ce30c719f91a949348ceb9ef15feab53e44e542e8db70f5b10749066acb2ed
+~ -[CoreCECDeviceProvider filterInactiveSourceMessage:toDevice:] : sha256 dc86a75499bc26dc246a25ed6007e48145ad43d3f35df652b99eb08602c26609 -> 2e6d2c121ee6c6cb28325e4e1986114fed2e8ef50ea7489df92b4b3db567e115
+~ -[CoreCECDeviceProvider filterSetStreamPathMessage:] : sha256 730f89414d1c8363e7d2ae91005cbd1c26e3cd929c04a7ecb4a7b35609b72ef5 -> 76dca6e3e1717aba73fb26a69ea5c211291b2dc7d4978cf8e84b2f1e76b7af9c
+~ -[CoreCECDeviceProvider handleSetStreamPathMessage:] : sha256 cca2d7548ce7231e26bcca0557fbc1f43e3db4a8e1db125a8cb9151cb0d7e9ef -> a94bd81397c3f646106209c315722ea9bed16cd14bd57b2906ee7ea9caa8e7a8
+~ -[CoreCECDeviceProvider filterRoutingChangeMessage:] : sha256 3e9ee9a8d514bf8e1c28be34b2cb4862b2177e55ab255533bf25ea014ded8c4f -> 25535ffde2fa555556620dbb3d66415c7532955307366c8a54b454d9bf7af34d
+~ -[CoreCECDeviceProvider filterRoutingInformationMessage:] : sha256 3075886622aed21279a57f43c773418b2f5e27892c769e6ebf4c58462f049bcb -> 0401b6d8355e65cf747425c9c46f7c6c9a7f9e517a9899cc2ea21cd49d381795
+~ -[CoreCECDeviceProvider filterSetOSDNameMessage:toDevice:] : sha256 3a3986326b60523a3771bbc9a4f04155129e3754e057c04249cc37164da61d26 -> 8311f23be3fc40a5dce84bf26416f515d0d77678fa19b93d72a8f6e0268ef484
+~ -[CoreCECDeviceProvider handleGiveOSDNameMessage:fromDevice:] : sha256 9eaeff3f207c16c8e9e8cbfe2cd7946a4a48105263fac732d3dbd7382971c9a0 -> 18519885779b6c8fe241ddadf3adfd59a33e20078a128ada91bd56b67512c26c
+~ -[CoreCECDeviceProvider filterDeviceVendorIDMessage:] : sha256 8eb7004556582e4b98a7cb9f5752635957ee767792fa11a6a9bd1550f5a1f09c -> f9cb53f21b1d6cb20ab50d9ac3e8d1ce578d2b724260dbcd4e63f67126d528dd
+~ -[CoreCECDeviceProvider handleGiveDeviceVendorIDMessage:fromDevice:] : sha256 3ff9d3ad0e65227965fda2d3fa9e2ce3950644d9d26f983e63d8af60a8f09e31 -> 4111efc5d0a86e7b404bc508b386cf2b1863c572c2cb5c63eec4aef126620377
+~ -[CoreCECDeviceProvider filterCECVersionMessage:toDevice:] : sha256 c9efda7c6ca2a2addde0dc2c2543c6fde80749693a0f935c4c459c039bb451aa -> 8168dcc32007b1bbcb089884abf3e50458f9fa0663b233455f9c9869f7b22703
+~ -[CoreCECDeviceProvider handleGetCECVersionMessage:fromDevice:] : sha256 3c743bd647399eb8406f387d8e3f683842961878dfa368896c90f718eb39dc7e -> eaa64eb75c5ad844879d9548ad566c3b26c53aafdff3b34bf9facc15a87446e7
+~ -[CoreCECDeviceProvider filterReportPhysicalAddressMessage:] : sha256 34dea276e3a4f25e99ec308771a1a5e56c9ee5e57183807da3a5e33c368b709d -> b0aaae879ef1887425a29b1bee990d74253d565d5fff9b2addc7f9afa4bd4e98
+~ -[CoreCECDeviceProvider handleGivePhysicalAddressMessage:fromDevice:] : sha256 f3e98174886795eac9104863f6638aa9341a2384ef1d677610fad57de08121ab -> 8019997d6d6eb1580122d1a46b9d9f02d37e3fec6332d5b1362cf9c2c10fabe7
+~ -[CoreCECDeviceProvider handleGetMenuLanguageMessage:fromDevice:] : sha256 b5d3ab8311469c8b34ea0d9869742cd1cf1a346a15475fc1e7f0c8c40bc2a12c -> 1b48db60d94e3dfa7996d7aae56c9efa67bbc4cccac8d066edc557f9a550b3e5
+~ -[CoreCECDeviceProvider handleGiveFeaturesMessage:fromDevice:] : sha256 4129d29c9649cdc067232d584ed9c9f51935c8f24e649d8d766536083b330353 -> dcfb7b7d69389ac0595332eb9756996b76fac892a4d2e246b300310a85d9bae8
+~ -[CoreCECDeviceProvider filterReportPowerStatusMessage:toDevice:] : sha256 b93cc4d5e92f4bd346b0a23649d2c88c08c0a399813596163851027373385232 -> db497becbdc140cf856108db1189658983cd1dda3e608467b24cecaf96d5f50b
+~ -[CoreCECDeviceProvider handleGiveDevicePowerStatusMessage:fromDevice:] : sha256 c66cd402acdfe18d647ae4211ca22f30f862f2f315e6dad745c51d04a6921ef6 -> 2ed342c5e3e6e23e8f8c67eca277b8c44806cd5785905c8d9469b66891979eee
+~ -[CoreCECDeviceProvider handleDeckControlPlayMessage:fromDevice:] : sha256 a7e0d6cf9a6a5f82c40a6b45b01491f258f58787a00d1299a87b5241e8aa7080 -> 89150af088f97e21a96cf2affbb7ba21fcd8cfad3ddc3c92e41af6af4dee0f01
+~ -[CoreCECDeviceProvider handleDeckControlMessage:fromDevice:] : sha256 7d7df84d75825acd313c22ebad29110449fddca9fd8a390672d67698b95e08f5 -> 597278dd484d7cf96f99a7117cd6effd3ffdea28541e209f3471451d2e7f293c
+~ -[CoreCECDeviceProvider filterDeckStatusMessage:toDevice:] : sha256 c0f0737ff59e9b416e4d5e08ccdbda000f91cd2724e732a6efb6261dc7cd7fb2 -> 6fb4e93ab6c62854d01825b4d6a320f265b258ebb426e73daaa207978df6dd17
 ~ -[CoreCECDeviceProvider handleGiveDeckStatusMessage:fromDevice:] : 604 -> 612
+~ -[CoreCECDeviceProvider handleMenuRequest:fromDevice:] : sha256 0b43f5efb6ebe28c1fe93c6496ef57ebca42eda85259e42136d4a277301c17da -> 222132cc7f008e72296f7dab1ddab158cca9d08c92ab688fd99c985465ff572c
+~ -[CoreCECDeviceProvider handleUserControlPressedMessage:fromDevice:] : sha256 a59d4c8ee472c2c70f2937e338700751bd3e6bbf1290b44f4116b6bee2d7b028 -> 7a5f42006fe45ed4a0d0f631b35241b8455abfe14415ec1916a75a562a0a19d1
+~ -[CoreCECDeviceProvider handleUserControlReleasedMessage:fromDevice:] : sha256 9cad5383d348f0aada66dc547b866e704d3827105f3573b1f127474dd3062525 -> 747ed781e8f01ab7daf89fd4bb7f7ffdf092fdff93e72d5579e8c41b30359a16
+~ -[CoreCECDeviceProvider handleUserControl:pressed:fromDevice:abortReason:] : sha256 631895bb952c25c8348310b89880cb51d9d36c3be74773eccdd5794dce8027d0 -> 456f1194f0c938359ef967969248ebc55d2033afb239a4c112d9431b747e9393
+~ -[CoreCECDeviceProvider handleReportAudioStatusMessage:fromDevice:] : sha256 c35c34460fe98e95db0720dfa4deb955db08a38700ad50d266766e141e3f96d0 -> b5c0535357c141684bd4136b322d45eb92a1d08e50086ca4dcd518695f8df3ab
+~ -[CoreCECDeviceProvider handleGiveAudioStatusMessage:fromDevice:] : sha256 3c13dcf7e433f406b81dfd9fddf734495de71bf561b7d9e619120117ae684856 -> 65ed5b07a3e8b48f897913d08916b208d2c8e6aaecac469bfebbb9c231459fa0
+~ -[CoreCECDeviceProvider handleGiveSystemAudioModeStatusMessage:fromDevice:] : sha256 a54057a7acd777a187c166710cea44a247bc4f608beb62b3c0e3a46f13f769a5 -> a7e6c6808921dc34740344a67507846af6026f736d4fbb4c7be5b098ada8a720
+~ -[CoreCECDeviceProvider filterSetSystemAudioModeMessage:toDevice:] : sha256 376002148bda0c8975a59a17f18b1a3fa1349f4d097ba227b54d27c616cc4a3a -> 268036af24117bb8da018ecdaf037bc36106ffed42c7e13ab2e8f07abdab44b1
 ~ -[CoreCECDeviceProvider handleRequestShortAudioDescriptorMessage:fromDevice:] : 784 -> 792
+~ -[CoreCECDeviceProvider handleSetSystemAudioModeMessage:fromDevice:] : sha256 1bb0bc5fd6cfd1f55429b466b237b3b5d08f34a61666778dba81f488b8b5c6c3 -> 0c9020c885d417558530e93c08d9c908308fecf09540eb88433f394cccf5393c
+~ -[CoreCECDeviceProvider handleSystemAudioModeRequestMessage:fromDevice:] : sha256 b3ff29635e39bfb2caaba4ce3e7e2a55be02f04cd5dbf58e7924c4a444282621 -> 9658c392fc43ce4d2326b851ec3afc94c1b7620adb71b282204e40f7455558aa
+~ -[CoreCECDeviceProvider handleSetAudioVolumeLevelMessage:fromDevice:] : sha256 c7a4e87f66f060e443d231851ec80ce33fe5329ef384bb9b14a475d7a5aa2eee -> 2c5578022124b00e87be355ff3f9fcbc604cff64c861e903ca52e0cdf2801a4f
+~ -[CoreCECDeviceProvider filterSystemAudioModeStatusMessage:toDevice:] : sha256 4a129b87cdd6fe73251fbd16e23b1a3f2b5d116e64a51ece174757f47a685dc2 -> b0e4280c5fd8eec930bba81e5c996ff82b59bef2166b7e55379e0e2b8de55c54
+~ -[CoreCECDeviceProvider handleRequestARCInitiationMessage:fromDevice:] : sha256 46525b936fc25ece54dd36ff2e73603b7a830dcb9a74cb3fcd126796887a4000 -> 3a48dffa19fc755cdca705ddc0e66628e31f69c87f5bbbfff294005aa30aa26c
+~ -[CoreCECDeviceProvider handleReportARCInitiatedMessage:fromDevice:] : sha256 d9c2f3ed4e5270167108eebe1f80dc94e0a6f03eb01bc3966a7244b1ee9ca1f1 -> 8a0bc8d55fb626c2da54a550af3ff4fd1fda66f58d2131569ebdc4c6f81031be
+~ -[CoreCECDeviceProvider handleRequestARCTerminationMessage:fromDevice:] : sha256 1b979a6c4f7c505ce59384dc278874e89dee30c8d7e67f0e38513d44a583615b -> 849ace5128fe8baa906159617e7f19ee98d8dcc9f4581a9e5f8580689d75e54c
+~ -[CoreCECDeviceProvider handleReportARCTerminatedMessage:fromDevice:] : sha256 6185874c2478bbb8452afb75423c38c7fab98fa850302e717ac8a8301e89166a -> 57ac156220d9554474e02f8144a0b3d23c5ccdc4d8e7339daff14f54df2b45c3
+~ -[CoreCECDeviceProvider sendActiveSourceStatus:error:] : sha256 37c35ec5a6dd5e5e8d50f9fd454593e1c3b2cae206b800727e0593aac11f847d -> 462b968cce7751cfe45bb5cbcbc260bbb6aa143a221946981768dbf3a70ef6a2
+~ -[CoreCECDeviceProvider sendMessage:withRetryCount:error:] : sha256 188c376c8fb026f07fe463376322cb0c89c1c0a3b501f745ef0fa8f4bec90b10 -> a866875aa3acf1e900741bb4fe3aa3f1f89da46a467bbf4f2e9608ec88543e59
+~ -[CoreCECDeviceProvider sendMessage:error:] : sha256 e5ba6307cf41189e6980b9c8b7249ce3d5c8dd21b22917277cebb13e87cb9435 -> db7077d746f4cf16c66188d7c2792b9163e01e360ac0875f34ab6bfa4e5f4a13
+~ -[CoreCECDeviceProvider activeSource:] : sha256 a46ee21801c663e3da9010821eaff18c5aa74ba2038ac59ea451d3245f67b9a8 -> b60019e3721387d9372abb950010467f4d34fe918d3331cdcadb3b8ca681cf41
+~ -[CoreCECDeviceProvider imageViewOnTo:error:] : sha256 7e75cd60346826c2186aa5ca4df86481a2749e220f710d46b942ef2471d47dec -> 3473bfd686b149b83b9a7c72984d6a8a434787a1528b6f0db7c98b9d64627d3c
+~ -[CoreCECDeviceProvider textViewOnTo:error:] : sha256 b3316218956e7d8bd64a3b0de8d3112079aaff98adb8b6447e8352380bfe2923 -> cef102a776c5359a050f6caebe369649de71f7f1b2ff82d6131b76dc4f0269cb
+~ -[CoreCECDeviceProvider oneTouchPlayWithMenu:to:error:] : sha256 173cc72e038c2ea4c8f9c5963901173b088183a05eace4e570fbbc1d9a43d8c2 -> 9e0476f00fb8746e7dc7f400a410582f2656f3b9e33cdbf1fccc8644927f5810
+~ -[CoreCECDeviceProvider inactiveSourceTo:error:] : sha256 7a90292d6141c142bf01bf9202798f774d6caa70e287299e72e13a2a820d270e -> e94355c68e1b38ca5e2074f80ed4c53d38ca91d74ae67fc53ec55c7b043d123f
+~ -[CoreCECDeviceProvider requestActiveSource:] : sha256 871751b4c42f934e1e6da9d4fb11f51218c4e6640534388eb1de4e3048ee3a95 -> b2bbc129a0a3edbca7d080b9402453b4c288bb8f5ff66c2b0ddaf7a87b750470
+~ -[CoreCECDeviceProvider routingChangeOriginalAddress:newAddress:error:] : sha256 748dd392902910e901a76f25e9d46afb3b11ca5b327025ca0c431d1560c0b282 -> 1ec88a9f224918dbd891d4130ebe469278a4f2f3b33a9b5ad5ba53ef203a5233
+~ -[CoreCECDeviceProvider routingInformationPhysicalAddress:error:] : sha256 f2448d74f855fcf7ff1d7b33b5d22325ec89a851acda0c625155c37b4438c561 -> b9f1e3468ee1c9d4a8fe4cf90ddf0827ee244b216c0e4133cd4787c94464f9a2
+~ -[CoreCECDeviceProvider setStreamPathPhysicalAddress:error:] : sha256 1b649b9ef179ab53244a3dd446ee2907485bc24ead75cab68283fa0f79f40719 -> f0a8697b36ea8c24c1f6d38e9d12b076bce2ca0b4ba4e51894480479c32dda1c
+~ -[CoreCECDeviceProvider standbyTo:error:] : sha256 ff9f47fe997e1ad04f0f3e3119c96bea0dc36d053d1b9d077e7dffdbb542abd1 -> 391b38c16e35a30bc029ae0d4b5dca9a0e22d35064383561584f666c9394aea8
+~ -[CoreCECDeviceProvider cecVersion:to:error:] : sha256 70b07cfaa3b6ece5cf09fa6f3723032c3d87f124e6b75eb5bfe4354ae2f76290 -> 2d8596d2f33500d5a2a0029af7736c7fb08bc323c4024458fd3f6a6db875bf4c
+~ -[CoreCECDeviceProvider getCECVersionTo:error:] : sha256 acc44fa0b761f8ed2dfac326d4577de8087e4fbc335e8ad0731709cc1c0d6eae -> c64ed0b62004ae621b8021c5a59604b32a0b8b0f0b38189186aebc5ba85559c9
+~ -[CoreCECDeviceProvider givePhysicalAddressTo:error:] : sha256 eeadd257288a5289fbb85ae477461522eee52db959f872d3ec8175205ef3649f -> 23614676c911d01dc28ae39e7e99a3839323fe15528983e58720a566764eaf53
+~ -[CoreCECDeviceProvider getMenuLanguageTo:error:] : sha256 b4b47ab175e3a32900eb169c344d6a20aa52a211129e553d6335ff67f78a831b -> 7cfaee0c69203b0736bb5bd34943b5805dd5a00a8451ef8172adec6e4acd7f93
+~ -[CoreCECDeviceProvider pollTo:error:] : sha256 08426867430135d52f578d45f2bc843fde9a9b8236133f926de7d9d48c5be2d5 -> 8545ca0f9d7bcff4a8a048581a99860353fd30202731023df9e6b5a6f6a193ea
+~ -[CoreCECDeviceProvider reportPhysicalAddress:] : sha256 6645c334039a659b44183c7004a126f00f87681cfd72e6e097eb79f4d88629ba -> 358b516f6a3620d4768469af6d4fd31b6cffc41a3901d62847b78aa7e2fa2773
+~ -[CoreCECDeviceProvider setMenuLanguage:error:] : sha256 900bc30c4d77e2d7f4cbc6f93b703ecdb2ca61df5edcb8e6f6c680cccdb8e1f4 -> 5a9d745461b0d179156cdd5d3163a8ff8ca96ea513047fc9abb39c6aadc7a810
+~ -[CoreCECDeviceProvider reportFeatures:] : sha256 a1b8f11e4df05eed4122816c1ab320ec2095a08c5be6fd9d7ec5e985ef43de18 -> 7e0f68f92d1caee4b09716ff2c6d4ab372c9de0935252b043ec7c5ac2a70cb71
+~ -[CoreCECDeviceProvider deckControlWithMode:to:error:] : sha256 434cf122b5b0828425aa41d25bdedf08577576517725d9f278a7347b865f1100 -> ebd574750a1bd704ab84b05dd692a9a66bb9e4947047f3866333b009745be05b
+~ -[CoreCECDeviceProvider deckStatusWithInfo:to:error:] : sha256 ab5780fedfe5c0b15c1ab8cb37374764b7a926e021ecd7d6cc05f863d216300b -> f5baf74ab94a799e9485140e819a6b153c3e0989fbccc87e707745c7a59abffd
+~ -[CoreCECDeviceProvider giveDeckStatusWithRequest:to:error:] : sha256 7b2720e985c4e5b2d0094c3424cf30546b0fbce264fc12cd9369e8db7f9a8d83 -> b4a3306f84e0c566ad4897b4dfe41d5851f899ff623b24518f79c3c6f1009b95
+~ -[CoreCECDeviceProvider playWithMode:to:error:] : sha256 a5377ebf1d7275fc2460dba93104fdbc65de6b36b303b368b6dfc5ccf5fb84a4 -> e1fb8e7a16bda81ab10f9fd987317f3ed6836e91dc4b249c2eea003cb07dc627
+~ -[CoreCECDeviceProvider deviceVendorID:error:] : sha256 3498d21e60c988027193de656a1f56a7930a3cb1f500f5f8ba8529160ae98ebc -> 30af07b0ddc12bebb8caf4744a332a61da0a84222686772814b2f7e0c0fc9c04
+~ -[CoreCECDeviceProvider giveDeviceVendorIDTo:error:] : sha256 b580648d2db6b049f9a2ae2135e23dccf19727c35a719114ec20c43c0990c696 -> 091156e7118bcc0b2bc54af7bef074c99c5a65defe21a63f56bf53633212db01
+~ -[CoreCECDeviceProvider giveOSDNameTo:error:] : sha256 daf2451c5c33dcfbbb0ce317e905f9df60b4e36817d19f6b19603970447a1118 -> 02aca99969f034581dc01f5b8464f4077fd253424e0df7327869ebde0891f18d
+~ -[CoreCECDeviceProvider setOSDName:to:error:] : sha256 a7c113ae2bfe6754cbf98173e52763deff1de978009f2d31531001b554e98b32 -> cf35f094502e3107bc1b7ea40926fc917b35309fecd6f1f77dade194ba6cb7f6
+~ -[CoreCECDeviceProvider menuStatus:to:error:] : sha256 6e0294b94f61190e43252e516250532c8af67228a11dbea0fc8c88d71472895f -> 355305441540029e4cc47e4209692e23e6fbed1b4e2a677cf226612d167abde4
+~ -[CoreCECDeviceProvider userControlPressed:to:error:] : sha256 88f73d1714bab671ece158945c9c32f7ac352acb6734a75f1f3f17c15aa3df51 -> 0072965578bb825d10c5062f612fcc7f9faa9f31c771eff0189dbedb9d59b69b
+~ -[CoreCECDeviceProvider userControlReleasedTo:error:] : sha256 a33522ec3702c774bb7a174fa0ac4efabc91971180b289fee04fd132d712af71 -> e439c1e19c1894c2455bfec3b434ed352236f7b9884fcecbacb0d0dd1f0f4391
+~ -[CoreCECDeviceProvider giveDevicePowerStatusTo:error:] : sha256 2a21c4d14971df655af876e558171f921382dfce6bb5a7340b9aef3f11cae8dc -> d346a63e84d1ede71c9e1b7a008766df6b744c6f621faa3481f7e44bce096667
+~ -[CoreCECDeviceProvider reportPowerStatus:to:error:] : sha256 3117114bc01e616f23c3da58ed9ff2fd27844e7c406aff26f0cb3a8a0477dd77 -> c22995dfe66fe15954875c48d5842af3979a5029248d6be31d05d34dd358aa99
+~ -[CoreCECDeviceProvider featureAbort:reason:to:error:] : sha256 770964cdc29bff5654a645ec12cda7c98dc94406c4afbb74ec277c3c2b55e12c -> 7f76e70e61a52eedf5a2b2885b7445f695019bacecbc6a4226c70dd3503b3e25
+~ -[CoreCECDeviceProvider abortTo:error:] : sha256 c94e015690376278b8f8092167035ec3b58e837fec12f5a05959dc141b421f77 -> 6dc72dd716faf4301668ec46bc5a93db1be032f1d0d5b53a49ddebc17e812604
+~ -[CoreCECDeviceProvider giveAudioStatusTo:error:] : sha256 a66451cc5d0aa89981ddd6d666f72e902e3c52941bbc5979cb97393400a52719 -> c3732cc8c17816e0b12afe74f4c612cd60827bae4545de7e2130ae99cb1e4414
+~ -[CoreCECDeviceProvider giveSystemAudioModeStatusTo:error:] : sha256 ba8aac23694d9a19990e5306bf823b216d43d4ed6a470be4994b0b537aaf2ba3 -> 56c441489fba9885d0edebd13a2edeea92b70ceb417b70bd15332c375891bbf6
+~ -[CoreCECDeviceProvider systemAudioModeRequestWithPhysicalAddress:to:error:] : sha256 503a686b4a4e09470e379ecdd5dad6a1ab7878d41f5f24981f24e290e2c3ad2d -> f86a599d0bef6a7a36fd13c6fe0f02a5bc20999437ed292ca207df2955166513
+~ -[CoreCECDeviceProvider reportAudioStatusTo:error:] : sha256 c784f74d6553c51c955ad75cf3b5a45a39b4fc056606e13c0307c0f4f0fe3871 -> c16b89cb3a6529a8ee9beff2d95dccd173fce023271ba7b8d7635b18dce03734
+~ -[CoreCECDeviceProvider reportShortAudioDescriptorTo:error:] : sha256 4f304839aba8ad5789dfc513b24538848d424d8a898618d02b8b564d3010863b -> 4199d7af8f26e33cfa57543ad648f0ea26d4e61f995d7fe56fc40dd408c4d514
+~ -[CoreCECDeviceProvider requestShortAudioDescriptor:error:] : sha256 c91c12f309ec1c3d4e9b24cc0904b5b67955ed323468d831ebd03e300e668e3b -> 9e6dd0ab951e247e45c0520d198fd14386796d38a4ca27066ce99a3a773bf8b6
+~ -[CoreCECDeviceProvider setSystemAudioMode:to:error:] : sha256 4883ea5bc5b096b8e1e4ff737f293933ac0a9745ebb7221f27b0dba29cd33e0c -> 3029fa3f91d1dccf5943b9b8817377615db816dc320703e0538c569377967125
+~ -[CoreCECDeviceProvider systemAudioModeStatus:error:] : sha256 4e5dc69b6b36cfc5dd0e62e6b4e0fcd1b88e76015292a7093d0fed8010edd376 -> 1c3f7774827e056c0bf04801a73ef2ce4bb8107b56c103637412df8ea442fbcb
+~ -[CoreCECDeviceProvider initiateARC:error:] : sha256 b1056a5fe536cbc7ee1b753e8f20f0bb048d1ca08177a3bd9300a23a059d88d5 -> 8fa59cc585837e4ca1a228816aa737b4e9594ac22dc1d7b9dad39edaa3b1355c
+~ -[CoreCECDeviceProvider terminateARC:error:] : sha256 760415f0bc27365306b67b67b64aaf8adb7efc4b95a1d31ea1ec0eac0c57d933 -> 1fdf4aaf6fa4b079aba8bdebedd66f234086ba21f29402ac554c83a9b208f8dc
 ~ -[CoreCECDeviceProvider sendFromAddress] : 16 -> 20
 ~ -[CoreCECDeviceProvider setSendFromAddress:] : 16 -> 20
 ~ -[CoreCECDeviceProvider deckStatusRequestMask] : 16 -> 20
@@ -288,6 +1233,31 @@ Functions:
 ~ -[CoreCECDeviceProvider setTrackAudioStatusPressTimeout:] : 16 -> 20
 ~ -[CoreCECDeviceProvider trackAudioStatusPollInterval] : 16 -> 20
 ~ -[CoreCECDeviceProvider setTrackAudioStatusPollInterval:] : 16 -> 20
+~ _OUTLINED_FUNCTION_3 : sha256 f5768f3bfed135220a169154c094381e455d3c673ae0413ddb5a5de0492f21cb -> 583f226edf57134d725f52be1565c0db08b3744b07a99f0884ac8b1133841551
+~ _OUTLINED_FUNCTION_4 : sha256 c68ae6afc1a8210bd78f2cd41ebb27fb339be0f88064b31875835fa3cceb4b4c -> 3d776ce99b47d78bb7da095f5c789c50b3a41b33e79e1bf1b68616c4dc1a05e8
+~ _OUTLINED_FUNCTION_5 : sha256 00859772bfc951714cce7f9d6bcd1f2919c527ebbd78b8082040c0aac16d3983 -> bac9e06fb3cf89feb4b0f456ccc30c0551af25e34b0d31cb236ac4c03d2ebf1a
+~ _OUTLINED_FUNCTION_6 : sha256 b9aa346d6f8f72b745ceaf834d7da8a1fd2288574a1ee6ed46cc4c9f028b5fbe -> 547e5becfeff3a6d9764d614401cb0638c29d86c05f23916f9893c886b7d20fa
+~ _OUTLINED_FUNCTION_7 : sha256 bcdd0f2fe84e1d1ddb6c5d200e2d2e0a79addf9e7d7470e510186c195ef34a73 -> 108236df41f6c17aee2ba7ff8fb6727a5b2286762d02e42d5480ec4540ae137a
+~ _OUTLINED_FUNCTION_9 : sha256 23ab9956dc753b3f2665e841859b79f454cdd59558061fb28574307daab6ace3 -> 9cae335ac84e01e6c40f7086071d213e6a02e67b177fc3fc8abac75b032f8e5c
+~ _OUTLINED_FUNCTION_10 : sha256 293db1bb2797a44a1918e472d51f29728a4a2ad097919c9bcf8ce6bdda4ee387 -> 9a312bf08fbae170d9c7c923fbbd5f7351786fb66378d35fdc9ee225574e8c9b
+~ _OUTLINED_FUNCTION_11 : sha256 da4599e5709a786705727f85dad2895ce9962bbee737767dca377a2908fa3db9 -> d57d70ae753f4d5b2e7cd7125ba48769926010e9a7435457564fa98ed90bb380
+~ _OUTLINED_FUNCTION_12 : sha256 3a5bb2ed78b7719d7bc99992ebbcc07cef7f78cc0688379cfc57445712989c5a -> 3731674389586767c192c9b140db660f0c6346738e732bfbf3b2d474fce7a6eb
+~ _OUTLINED_FUNCTION_13 : sha256 2d5a80c51937de2f6fa27838ec0df4b4ba4e4bb2a53256f17095ac7f8b29fe6e -> 094845cf28a421eb75e40e416fce41f0033f321eace9980f7e7a33ef27a67b23
+~ _OUTLINED_FUNCTION_15 : sha256 30b72e64c51023bab5092cfcff9abbb0dc8be92b84e34f517b1c89d23eb98404 -> cdb25b6bd4f64e36d443e562398756705c425cd4ed828b383461bc63eaaf9fcf
+~ _OUTLINED_FUNCTION_17 : sha256 9fac388376f927f715f39d16fc78606e16a8610a8d792bf247d887a36acea325 -> d0e11d7a2f2a0d58adcb771c035d1149f1c6e8298eb2433b871f61beb56233f9
+~ _OUTLINED_FUNCTION_25 : sha256 42f258e5677893b5b1dd8170afd65116dcaea9e73664903b15d267a445b39370 -> dd92f4cc2860d3ca99c84a881d3863f0507676ceeec541d1d8fa9cb2427cbfb1
+~ _OUTLINED_FUNCTION_26 : sha256 36f0e3cdd320434e3708528ccef5d4b02854d617b5976f5803d6068df03fcafd -> 59b8513b48aec057308467ffed2ac60f49cd9db01e577bbd5f39f5498ac5dd1e
+~ _OUTLINED_FUNCTION_31 : sha256 3d7215741b5f12a9a9860fe56e00a11119bd5dfa45d54d126194e8120b66486d -> 33cf6b3dafc3a73de0cfe7798518b142b6f5082f2aff7c87fb215ad472f0f2a2
+~ _OUTLINED_FUNCTION_32 : sha256 aadd4f05382770923b1f6c5d766b5bb14048c48e759ca1a9b941135a539fedf8 -> 3cf58668f9a063bb5a466e8677414cbf936821808143644f0566403f07c9c76c
+~ _OUTLINED_FUNCTION_33 : sha256 e0e1ae9d5c061a1f06e7907aea722272abbac5b5813dfba3f5b7c2519454e1a4 -> 192cf8b3b479c1dd3af70ce2a4e457a67e30c5460937dfbf1cfc1064744a952b
+~ _OUTLINED_FUNCTION_34 : sha256 9abd6e36b45ae339d3fc373368edca0353dc66a245eeed1c34a620a4f629a045 -> 5f6812c844ba0a61bb1fb2ef5259ac46b38636c19829ab5cc72be17b57e4097f
+~ _OUTLINED_FUNCTION_35 : sha256 4f4cb9f1c29d99394d8d58f9531a919a9fb138ab3f5210b373c3f5b9fc220e46 -> 86e8545127e5fe618f8b4d54d4e50b789706ea553689effc1e2d20cf32a20d57
+~ _OUTLINED_FUNCTION_36 : sha256 541e4e2fe63b7e7138c8ac7edb956befe4c3a8e5969c608d3c1c8690a8f29caf -> 8cf9fa1a1aadd16042d8c2940688bef18d349e626c12a8d2f46ccea9199581fd
+~ _OUTLINED_FUNCTION_37 : sha256 f4985b7b1bbba39aaa9d04957f1951ae0e0d1e09df2cd262896cdcf2814fea4d -> 0fd7d7d947dd265a2a4c9fd0efce45fa66303fc28cac188bcfea22fd0272307c
+~ _OUTLINED_FUNCTION_39 : sha256 a0b3a4957c5d0e04ef1188d84b2614710656ae31b521c33f46d1bb61af02f050 -> 21c78015085217a05926c2d4d9139d5ee28f7b65fb62cc9a15af4cca17a5de71
+~ -[CoreCECTypesInternal init] : sha256 bf29277b97e5b21624a417cb3a5c47392fb3394e5c4f05f582cf7e73a7056e82 -> 880aff83cd0e466efdc28ee15f4cc301a0dce042d84f7b5c8fe196566fb512f4
+~ -[CoreCECTypesInternal dealloc] : sha256 979e9f10859a361c61b72385b97ce495d847c3e39ba089c69f785ceb9963e762 -> d30c80c3e449151fd845c517042e6ac304fb48ca6402c37c450e4bf4048a6e94
+~ +[CoreCECTypesInternal defaultTypes] : sha256 133e4100181a4a3670a02362b4113d453309785d87e645a4e0052ab9e471866a -> 0e996515a797eafdd5041e8bc65a9202e961ade7cfc2b9dea0466a13a38a79de
 ~ -[CoreCECTypesInternal stringForDeckControlMode:] : 292 -> 296
 ~ -[CoreCECTypesInternal deckControlModeForString:] : 300 -> 304
 ~ -[CoreCECTypesInternal stringForDeckInfo:] : 292 -> 296
@@ -300,42 +1270,301 @@ Functions:
 ~ -[CoreCECTypesInternal requestTypeForString:] : 300 -> 304
 ~ -[CoreCECTypesInternal stringForSystemAudioStatus:] : 292 -> 296
 ~ -[CoreCECTypesInternal systemAudioStatusForString:] : 300 -> 304
+~ -[CoreCECTypesInternal stringForActivationStatus:] : sha256 da449a57461593eb01bad4ae04928b8617383d63992b7aa32a764c79cd8617d8 -> fffba9c1739834352da59a6a10954237fb456b13e367525df16f07d0056ab1dd
+~ _CoreCECStatusRequestForCECStatusRequest : sha256 0092ac3e4b136bf2fe3030c25dcc33a761c24744fb817f4820043ff884473e55 -> 7d970e6b46a01b277154ab2aff4e75fa8df98f14d417b9be9284ffd4b4c99bb0
+~ _CoreCECDeckControlModeForCECDeckControlMode : sha256 cc94405c56da46927babf7103118bd58afd11c10610e7469db10a0ba0c75217f -> 6fcff67714780e0fb76d8a9db2ac4279db9b6fc170cb90c7301c3113ca0fbe0b
+~ _CECDeckInfoForCoreCECDeckInfo : sha256 a42a651e83361e3cb718a073358cbd53dd7a4004c94df87a4de5168659aad84a -> 231800d879f37fb9fb99cc6c39c8c674039593d5712b298aea2057e1ac42b26a
+~ _CoreCECDeckInfoForCECDeckInfo : sha256 6aa22fa31d3c3991c12a0cb33271d3acea79a9e4a79ed9e441bb2533abcf640a -> 2f33ddcc73a64e26cb14de8421702f96672ecd3bb7c8c2d3f90a790745e8164a
+~ _CECPlayModeForCoreCECPlayMode : sha256 306466f4a3d831cbd752c61c4414d099f58262da17d5f4dfe3a23828d271b002 -> 89c176c82595f20686a66264feb2929d44f21f89a3c45ecb79d654ee48e7824f
+~ _CoreCECPlayModeForCECPlayMode : sha256 2c0406194852b0152df46866b539cda5cc03c141457ec09e78f4267273dd27e9 -> c35625055c837e87f703b46425ce28d397ee6e673d73ce67a2e21393c8be6b99
+~ _CoreCECDeviceTypeForCECDeviceType : sha256 3dc60c97a16013185ca05b7beef401f49d8d85425f9edfada2f89cc82a956607 -> e64f89d4cce03922b8f71571a5637a13e2a167baaff040e2689b90e35519f2ec
+~ _CoreCECDeviceFeaturesMaskForCECDeviceFeaturesMask : sha256 af13493da096a4b1414d3c0a1f4c7c9403195d9ceee8684443f64d64632328d0 -> 31a777c8273712a7a46b847849337b6e72f0f002fc7917ee7a6f0e29ff104829
+~ _CoreCECRCProfileIDFromCECRCProfileID : sha256 f69fab07b1189e739c702b58ffc8366b154a833594626363805cd80179cd6dd6 -> 6cb1ab8db046681047a73b275d5753e79a93d6c83f81eb8a662b0d8f96b5684d
+~ _CECRCProfileForCoreCECRCProfile : sha256 2977626ef2183957f86ad4a81c1e71c9362ea67a29f4b438a5c4dfa4e8f79b38 -> ce033cf5677edce850d908298bd51b43b432dbccebffbe759ed6e0d45bba4534
+~ _CoreCECRCProfileForCECRCProfile : sha256 cec97da36ee10c0926c0a8da619e87b8657172b51ee82e3d3a073eae6fa4f740 -> 3f73d638bdf8216e952e394a96071196adb7ee491b368ec48bec04daf0366649
+~ -[CoreIRLearningSessionClient startLearningCommand:] : sha256 d916b2513693d390d82f9f19c7522bfb2c8313a3abd535cc0dd5d1e19a22b01b -> 9a0eb83091766a35423b4de8c35a8105b745f4a5c3a73411af5a7fbee89af508
+~ ___52-[CoreIRLearningSessionClient startLearningCommand:]_block_invoke : sha256 30d32663052882ee5ad289afec562444cbc5689f3e7d0a0e17dc3c350d7ff222 -> 4cb6caf0359e16185ac2f05973d4cb9c06702f17707077fc40032c7c5aef189d
+~ ___52-[CoreIRLearningSessionClient startLearningCommand:]_block_invoke_2 : sha256 e7d6922c17a66d243544474684e2baa4dc163565a05a8b9483ecf1a45a61d60e -> 2423dd5f5325446e97b440f019ed771f49a481f1f00a448345a65c4be39b23a0
+~ -[CoreIRLearningSessionClient endLearning] : sha256 a0ed39055854d86d6d1fb642f153ab864c5d61f5a11e0b490bc5c80c1b4639b1 -> f472b5f4afc6ed5fbb60ac48de9af72d6f730b6932ad6e64576095e2554ba842
+~ ___42-[CoreIRLearningSessionClient endLearning]_block_invoke : sha256 9a564635ed87c1309f4c54432bac9a0c90970d4af23c29f1a3ad5d2d3c50c460 -> 44911772de3e1565cc9c526f59bff3375569ff4b1660a84503faf95008257988
+~ -[CoreIRLearningSessionClient addMappingWithProtocolID:options:commandToMap:command:repeat:] : sha256 694ea9bb8e76f4d564b7c4d4ce4b7a7baf75a96d1bf1200d9bd1b3813bb09e1b -> 6f3a01ee505aea7693a694debcf793ce1d80b268da6800cb67c9c7f438bdc8cb
+~ ___92-[CoreIRLearningSessionClient addMappingWithProtocolID:options:commandToMap:command:repeat:]_block_invoke : sha256 98416063a83df7cd49609e43301c9b9a543853033aded2849e971c0fe328e22b -> 3fbd10b9d685ab4659375cfa66763f2cc509d46790ce69247844ed9568ec1270
 ~ -[CoreIRLearningSessionClient manager] : 16 -> 20
 ~ -[CoreIRLearningSessionClient setManager:] : 16 -> 20
+~ _OUTLINED_FUNCTION_0 : sha256 abf7220842dde3a21b7f4401e420e0df3f8b0a1d30c882b8ca123b422700be8f -> f115a157083a457b39e581744c8c51909bf2f24c819a8fd5efc263a40d0e3e35
+~ +[IRCommand commandWithProtocol:payload:repeat:] : sha256 ec7209d7996551d856e12e92ccaab40387f0e091592365697fdde77ae75404dc -> 891e829d6ea4c59f77d7c8201fb71467abcd499438240274e85ad2960efc7c7d
+~ -[IRCommand dealloc] : sha256 db950baf5bce0b782c5780c8ff3a1cdc320267e390c3df1d8a107dd7d90dc289 -> 39e7c7453a0f3225e7709e39b8ca36df4069a8166da21933128e7b89ea1a0d48
+~ -[IRCommand init] : sha256 e8cf9a3527795081d111486131ecb6a1f3c94dc0a04bb7fa448136b2464e99f9 -> 4a72ced9ff606c635a0f99236f074e3c110163b3ba67377ada8289c79f0e035e
+~ -[IRCommand initWithProtocol:payload:repeat:] : sha256 2cd36691dcd494c3dad2f8adf305f3dee2f3371ecd7b3faf38bae595ea1929e0 -> 1752b0cd53d8084011d295e9fef7ad2799cb3783f6780d308c569f3e8b5c7fcc
 ~ -[IRCommand initWithCoder:] : 364 -> 368
 ~ -[IRCommand encodeWithCoder:] : 228 -> 232
+~ -[IRCommand copyWithZone:] : sha256 df5df067856f29bdf743c80c391025b08229bf15deaaa1c504f7bf5788b50b68 -> fffc78e0bb7b2def6b0116cb62f5f6b91fb292e69d1bd9353485bfb280f779e0
 ~ -[IRCommand description] : 340 -> 344
+~ -[IRCommand isEqual:] : sha256 69434f2a5679b7a7065b83df273e63afa08a0e5f3b3ddfda6703b12a28f60561 -> d11d14aa84616e36202718320889f7c3164aa713f951b1ee42824d0a27a17fad
+~ -[IRCommand hash] : sha256 024b26fc60240acba5148322b6f6a9c5e4bba19ee13578ce0deb67476204c0ad -> 27581e904822f270270da2424f5e7c59f354c9184629da2b219586fd8dd3e436
+~ -[CoreRCInterface dealloc] : sha256 db267d3f43044b4d7deea3f50638376fd37fa62a3ed953c7739e02f33d65719f -> 8ef71856ba0495d7a9fb2c32d31829b0642f458e3ad548528ded6250b7861983
+~ -[CoreRCInterface doesNotImplement:error:] : sha256 9694bc9303de24de2b11e49a93bab97ddeb465220d46f4945e20878c13425829 -> d1d473ee3dd54af13252c3eaba03d5cf71da4210829d5cfeac0168edc317ffd8
+~ -[CoreRCInterface scheduleWithDispatchQueue:] : sha256 1386cf79b4425459fe378a009280377525c37ad8f896a8529cf463bf8c64ec56 -> 7f457716df8e5bacc68cae014d5c90f9297e16658ad568dcfbbbdcd2dcde07e6
+~ -[CoreRCInterface unscheduleFromDispatchQueue:] : sha256 04b4e9f3ee42ebbce2f31cf967e4f37990c997ca8c412a31c76123f90e13e6a1 -> ca6ea800eee34cf33b52d65e3138cab2a1a6fcdd310e7aaed453a36071769a01
+~ -[CoreRCInterface setProperty:forKey:error:] : sha256 04cef73fdc1fb2aea5c47df1e180e976f369f7b653252e794a6de65ffb25bc18 -> db47cf9074e7c48e9e4e17e4f75b85e8a5350f64b948ac567d9449f8ee8063cf
+~ -[CoreRCInterface propertyForKey:error:] : sha256 c808b17c0dfcc68c69ede4313c8db7e8f38f337838fa8063d00729ccb01de7a1 -> 946d1a45b0c57108381f7530458ff57664722e4a4a7e4962be01c207d20ae67e
+~ -[CoreRCInterface dispatchAsyncHighPriority:] : sha256 8704d0e16461d8ca3efd00b635f88fdddc4ffb03b364e0cd612483cd73ef0771 -> a9f6704c86f6f291044cb774bb89f48afb51533dfa201c08b21f3c4b72e13228
+~ -[CoreRCInterface setSerialQueue:] : sha256 166a87d071a2fc31932c82380988ec1e91fd5f460c53a8f031fa942673f5abd0 -> 576efcac2e7c78bc2b80b329ecc9832836e8ec65a6f3e49505ff26a5e0d1acc0
+~ -[CoreRCInterface setTestProperty:] : sha256 bfcd8792f075305bc85e0c33eafc02994c25d18dac63b2583d8b0e618c80101b -> 29c98bb50ef5e32c5f138c5c6dea80a9fcba8ae95590dbbc34c3971d0714cc76
+~ -[CoreRCXPCService(CEC) performActiveSourceAsync:withMenus:reply:] : sha256 daad1e87fbd16b95f3209d8dbd0d096591c529f51cf6d04ca5e992152d4753f8 -> 2be5f97fa39eddc0c3afe6097a82e0b6da5f47e545a6d8767558521be4ad7f15
+~ ___66-[CoreRCXPCService(CEC) performActiveSourceAsync:withMenus:reply:]_block_invoke : sha256 30216683764b8151e414a4d5c93db2615b4992ba00d128dbd42835a1b072b373 -> 058fe8a3ec49b87d1445deebb63b04af7530252316c2a217267ecf6401504a62
+~ -[CoreRCXPCService(CEC) _performActiveSourceAsync:withMenus:allowRemoteDevice:reply:] : sha256 7298a13d6d0d074a7fc27ef1a8cd6fac00cd1bfebbef797539dfa3ee6b42387b -> fa2129d7512b93911d1438e0ee5ac6ba7a9c7d5e8b460c1dee9ae29265f2ebe5
+~ -[CoreRCXPCService(CEC) performDeckControlSetDeckStatusAsync:forDevice:reply:] : sha256 fa3f2a293558d318630df2f86f5714b36aac8e4966085eda4869ee0b87a6a536 -> 566c99f1ed2b41ea3fa3df31b22938af2bceef889d258bdee05d2c8d8b5bcf1c
+~ ___78-[CoreRCXPCService(CEC) performDeckControlSetDeckStatusAsync:forDevice:reply:]_block_invoke : sha256 cba0028d717ec217e5a1eea78a51617984c3fb2732931046eac029d17c5dee9c -> c69d51ca6183d88d21a36ddd2205615bee87d3ccd5b1f8826de310071fb50656
+~ -[CoreRCXPCService(CEC) _performDeckControlSetDeckStatusAsync:forDevice:allowRemoteDevice:reply:] : sha256 97069277e652fbb0ce1047ed8755b8827b69dfe82569a17ee052ca3bb5bbac93 -> 46e196abb7e9d5a6cbb080753a213c835910a2a6dfcb1ddac411eebd215c76f2
+~ -[CoreRCXPCService(CEC) performDeckControlCommandAsync:controlMode:targetDevice:reply:] : sha256 4037faed957d80693b7902222a02e46c56a556ee11fca7ac5dd594e7b7073386 -> df758ec8a53d06a6813a654962f88e029fb34ac001a8abf76d6479d7d21e8bd4
+~ ___87-[CoreRCXPCService(CEC) performDeckControlCommandAsync:controlMode:targetDevice:reply:]_block_invoke : sha256 6edee6090fc4ddbb47ba1c66e7839ebea729be147b32fa37df54772d928905a7 -> 29d4d6437b4d5da1f6fbb612582851b23298df14d0cad7600bdbc95a702c454b
+~ -[CoreRCXPCService(CEC) _performDeckControlCommandAsync:controlMode:targetDevice:allowRemoteDevice:reply:] : sha256 50894f2e65861cc9ea1d552b855f8490e5d459634a780242e1f54da14fe004e8 -> b697604701ed0efb1037ebaec0307697b52f4dfce4f819b57d0e89e74857237b
+~ -[CoreRCXPCService(CEC) performDeckControlPlayAsync:playMode:targetDevice:reply:] : sha256 31c002e293aebc84a7bbed96294d795e2bce9da036aeb85fd23b4266e7e802e6 -> cc684646f521ab744269f92ee17fe785a5d4b3ba0df8b9e95a3f5d2005440b43
+~ ___81-[CoreRCXPCService(CEC) performDeckControlPlayAsync:playMode:targetDevice:reply:]_block_invoke : sha256 17e018f972201d1f276d3de90961c8def1be5660443d4b37a996e14d21ecacbb -> b664f9f0697386499cdb8ffeae3cc3b60c4128afa6eea74bef02ec14eb77ab09
+~ -[CoreRCXPCService(CEC) _performDeckControlPlayAsync:playMode:targetDevice:allowRemoteDevice:reply:] : sha256 c1d80b7399a0d30606b9d72a1af36853beecbdd154cbd583634fbabdd34e9dd0 -> ac1bc32416e5648c058113632e26bab8d99bab490416cbdfc20a08a2c21002e4
+~ -[CoreRCXPCService(CEC) performDeckControlRefreshStatusAsync:targetDevice:requestType:reply:] : sha256 07212f78aa0602c16df252d871aeecb2c055250367c578ea8b404395d796ad3f -> 2c10936039f4d3cf5c7b8104d6fe217c635babea8ef7107b7967da26422c1dbf
+~ ___93-[CoreRCXPCService(CEC) performDeckControlRefreshStatusAsync:targetDevice:requestType:reply:]_block_invoke : sha256 87b40be598cc4a227006b4257cadc8e857f791dc876e7ea5c1e52b71a2185355 -> 7397d9ec6c97984d22576a539662359d6c8348ed0ed80a55be033682913e6d64
+~ -[CoreRCXPCService(CEC) _performDeckControlRefreshStatusAsync:targetDevice:requestType:allowRemoteDevice:reply:] : sha256 3362c94343a7d2a8d4bbad566efc72d266612f6902e14d1481bcd5f1dc990c7e -> 6468f89dc8416850b4ec73c268c9817d05aa96510280edba9afea83277f64719
+~ -[CoreRCXPCService(CEC) performInactiveSourceAsync:reply:] : sha256 e4cdf9b441f67bdeb38f3ff90c1c1e58d28200bdf02df4197404c47cff630497 -> 0b14ed944b22f9532c861b666cc1c452532a1127e3bb7176e5c17a90385ee87d
+~ ___58-[CoreRCXPCService(CEC) performInactiveSourceAsync:reply:]_block_invoke : sha256 1f6c2246710af97562f1f0c8802cec6911097b5dd9c7f9f101882ebe53b54c0b -> 8db9b0eb25e62cccc587e419a5fc76898389d3aef03f6a0d5351ef101b0d47c7
+~ -[CoreRCXPCService(CEC) _performInactiveSourceAsync:allowRemoteDevice:reply:] : sha256 27c1873acaed6f4336331a887de89fd83a6e19eedf04e486dc7aee2b64e81438 -> b819d6e8e80031fc315bf9cefc3f8cfdcf0aec5243c126d94d210daf50787725
+~ -[CoreRCXPCService(CEC) performRefreshDevicesAsync:reply:] : sha256 1de6e72ee86e08d1b59c2b1b4c264d8b32d06a552f4206d69b63404179240c57 -> 6e2f4cc74617d6b9d0666338c14fd11f2f010f9634141f011072be9424ec9c52
+~ ___58-[CoreRCXPCService(CEC) performRefreshDevicesAsync:reply:]_block_invoke : sha256 bd5f58bcd87bc46bcc67da86eb3d294c3553dbacfb31edb60ffed2638eac724a -> 452280d392b61ca4094e3862ff1087fc8ffad643c7917126382b8d024ec8daf9
+~ -[CoreRCXPCService(CEC) _performRefreshDevicesAsync:allowRemoteDevice:reply:] : sha256 9ccfc4658dcbe1b607081989596b8403654fe1995f3d62ad0b95b8cafd2846c6 -> 8785a724c6c41e552d8a74aed8ae3c69024bc38f4a13f5e9db484a16a3404f77
+~ -[CoreRCXPCService(CEC) performRefreshProperties:ofDevice:withDeviceAsync:reply:] : sha256 744a721e5d300eb6bd9c69c91b05f66f9e15e119d3b1edcdde8cf9c38c8ec8d9 -> ff066690afc52186234b8f21829a17717b6498efa2dc028d478e542810a32b13
+~ ___81-[CoreRCXPCService(CEC) performRefreshProperties:ofDevice:withDeviceAsync:reply:]_block_invoke : sha256 225d46c93d2ba84397030b9c41205ff0f1a49d93e0437a9e11f8713c1406e397 -> 0b908d7103524041af7d752f4396668dc0fac81fad12b513be39b6abde71db96
+~ -[CoreRCXPCService(CEC) _performRefreshProperties:ofDevice:withDeviceAsync:allowRemoteDevice:reply:] : sha256 ad7ddbf6cceca05b8eb7fc5493ae114262fa9b2e0b1d6a3bb03170d316bca2ec -> 27d08cd84a8cb731d23d95225903dea83f1a276bd115be1cc68f3bab94e4ea88
+~ -[CoreRCXPCService(CEC) performRequestActiveSourceAsync:reply:] : sha256 d0efd17cda3e61fabe63a51a6b8daa3cc33085dcd9620ff16193aa12a56f3791 -> 8e9f6f1d899dcbf5c80919ba9b84d8ad0a74e2bacf45c3028e131f97aa17ade7
+~ ___63-[CoreRCXPCService(CEC) performRequestActiveSourceAsync:reply:]_block_invoke : sha256 d372b7306931da0754521bf0797659a3e2943f98eb84f2f92e79d802a0f486c0 -> 9bfe55221955105375f8aa0aad0ec11544068385912bce3cd22d586b55eb1e94
+~ -[CoreRCXPCService(CEC) _performRequestActiveSourceAsync:allowRemoteDevice:reply:] : sha256 4a7c820d7f79203d934771b8e0e28c64432f1d74f2380f2d730ce5fa60a504e1 -> 1b923a73cf093c4f765952dc5deec8ba372f2026be56c5eb9f5f8afdd9c1e89e
+~ -[CoreRCXPCService(CEC) performSetSystemAudioControlEnabled:withDeviceAsync:reply:] : sha256 8547e8f713af34adb181009bb327454f7fde5386541a1429ecedc9b8e2a0609a -> 2a6f3e2e40458412bd3b8b0139fbbbce952167e79cd8dd867d280757b108f238
+~ ___83-[CoreRCXPCService(CEC) performSetSystemAudioControlEnabled:withDeviceAsync:reply:]_block_invoke : sha256 c0b05d83a4b26c28cfc5e28943e471f0cface6e2b1c611d5502743eebe74ed28 -> 02b2c53fcb146fcb914e04e0c3d23664ac3cef3de0c11c4787e0d1424f3ab76b
+~ -[CoreRCXPCService(CEC) _performSetSystemAudioControlEnabled:withDeviceAsync:allowRemoteDevice:reply:] : sha256 98b4f2ae87e75242214c6536fb29d891774bd5081012bdd42449f383027487f6 -> 26431aede536a1806258cbaa30124696f7fb24c6c4a91258349567cecd84fefe
+~ -[CoreRCXPCService(CEC) performSystemAudioModeRequestAsync:withDesiredState:reply:] : sha256 e05088c9b20d38d2801651b7c36a6f8f255d491afba2d1733fd7a84de83a69c3 -> 656d07f8305953bf5c99a3eb309d5f7be083cbec87b58f4063e2da9476684489
+~ ___83-[CoreRCXPCService(CEC) performSystemAudioModeRequestAsync:withDesiredState:reply:]_block_invoke : sha256 1675bfb135e75c244ae392bdd97f6c9fb831dd56683bc9fc7b93e556a5424671 -> 663c1139f6cf3975777b2b1e4b831ca371a760c222f4ad8865172a2af6f21072
+~ -[CoreRCXPCService(CEC) _performSystemAudioModeRequestAsync:withDesiredState:allowRemoteDevice:reply:] : sha256 407a9a8522e6d6f87d3b17ccc061bf2f9d27099befeb6b7d81a8944b4d2dbc7b -> 799d3bb46b9e587e29c7ba2671c766141d5d285032eac9904e6ee0ef8fcae352
+~ -[CoreRCXPCService(CEC) performSetAudioReturnChannelControlEnabled:withDeviceAsync:reply:] : sha256 e280d9cbf602525d74afb6c9e8d74a4a9cabaab84bc282ccb0d2e103d1058b04 -> 1c4aa2ce66830f27c528f69c9d76caf13b145eaacfc3d54b0275e267d4a36a34
+~ ___90-[CoreRCXPCService(CEC) performSetAudioReturnChannelControlEnabled:withDeviceAsync:reply:]_block_invoke : sha256 2ed7e239de1468f3c222beafdf93539ed5b9d7e673e70b969e57ce740a544f36 -> bfb099eeae06fcf711cdadcce7cd6918059a75dea8ed368d2280311dc76343e0
+~ -[CoreRCXPCService(CEC) _performSetAudioReturnChannelControlEnabled:withDeviceAsync:allowRemoteDevice:reply:] : sha256 da108956cfabde9deff0de2ed9a5ce8f9ad134b7eaefec081ca25c09b5e47314 -> 62f901877110784e26bc48030e844d5372b975f4a31375e7603a7fe4f74cc9bb
+~ -[CoreRCXPCService(CEC) performRequestAudioReturnChannelStatusChangeTo:withDeviceAsync:reply:] : sha256 a87f682641cfb5ac62c6b251167ab80c6f7a6ded0437009278b60b271630e2e7 -> 25df63685c3858c5bf11fe03003e1e722361fa1dcdfe5bd87e3b09078b1d550b
+~ ___94-[CoreRCXPCService(CEC) performRequestAudioReturnChannelStatusChangeTo:withDeviceAsync:reply:]_block_invoke : sha256 50504b40bdb936dcab86e088d15835562edcb18c2dc6c8788a4526aba97ed324 -> 34931cbe7e2bfc0d6cfb12425a1b6541fd06ccfb60420b88208a7732f35bb3dc
+~ -[CoreRCXPCService(CEC) _performRequestAudioReturnChannelStatusChangeTo:withDeviceAsync:allowRemoteDevice:reply:] : sha256 0c15b5d68f2568d19900ddae8d3d45ecdfd21b0aeba622407e448aa0a09509ef -> bd8c2b75148d3f0468eb9eb7cd023cbcdf3cb7c54dac465229f724f88b5091a7
+~ -[CoreRCXPCService(CEC) performSetAudioVolumeStatus:withDeviceAsync:reply:] : sha256 1205514d6c8cd318f8d73a212d3aedfc5282298871dfeca5e817d647b494ef60 -> ec0c6ce477da56a675538554c6e0ca00d53e02475cef0ece32e84a9ac7046e71
+~ ___75-[CoreRCXPCService(CEC) performSetAudioVolumeStatus:withDeviceAsync:reply:]_block_invoke : sha256 fdc31101a97d403a0f3818e693aa6fc1bf3c209f3f9ceb9d636bd021cc45d31d -> 49ef2adbb04d7c622cbce636e1bf27caf9c5cb8a0df5443c79d2af7409df68cf
+~ -[CoreRCXPCService(CEC) _performSetAudioVolumeStatus:withDeviceAsync:allowRemoteDevice:reply:] : sha256 1a52996107bbc9389b5b1df7f12a9c13aa8170577cb97c31b2325f181b491dc2 -> 08094863fa65c92a00c16ef0e11f689063f76c07abc26539bee76dfa7b67effb
+~ -[CoreRCXPCService(CEC) performSetAudioMuteStatus:withDeviceAsync:reply:] : sha256 6603850f30d02ee6746346f0c9a6e96facbb33ac879d25a5cdd573790c242d2c -> e69959388c24929d553ca546475f113a15b3f12503da25625f9054c5741dcc44
+~ ___73-[CoreRCXPCService(CEC) performSetAudioMuteStatus:withDeviceAsync:reply:]_block_invoke : sha256 8c8392527d628d0113f29b8c5a4c5c81c26eeb7682d790fb1bb3f077aba60087 -> 4b022d59ece4e17fb7b0f4c67b627c57799bc827b1b7aabd8cf1cf7ad14441f2
+~ -[CoreRCXPCService(CEC) _performSetAudioMuteStatus:withDeviceAsync:allowRemoteDevice:reply:] : sha256 2d0ca54e53da02dfa309c5a82a8236861c15436576be186e0c7bc55b3060e102 -> 9ad9e40673f544d6226d213dc6ceb90c522f7a60e30ead06e753bedae25e24f7
+~ -[CoreRCXPCService(CEC) performSetSupportedAudioFormats:withDeviceAsync:reply:] : sha256 11f011d030e3b2a0699790f4361c0697e128c811a166751f10eb654f2ddcec99 -> edf4a5a75cf09e1d316decf510bec84ff5ca0c18b2f7134d8c585c6a74200caa
+~ ___79-[CoreRCXPCService(CEC) performSetSupportedAudioFormats:withDeviceAsync:reply:]_block_invoke : sha256 661f8eed4e1c04b11c7cfcbcb9e156767b5a8d3cc4ff3e2a87723b8574a9ae89 -> b154abd46d7872667c58b2686dc475173a34a3ad05bf3b600307a4530ecc6a11
+~ -[CoreRCXPCService(CEC) _performSetSupportedAudioFormats:withDeviceAsync:allowRemoteDevice:reply:] : sha256 01f93e1cf067c377fda08d06e6addf3729d69a0db533a6d4cfb26c13bd3aaa0a -> b1cfee398a7c64abee7f2723d660bc80306c4097ca3e0062ea99cb0dca39a6de
+~ -[CoreRCXPCService(CEC) performSetTrackAudioStatusEnabled:pressTimeout:pollInterval:withDeviceAsync:reply:] : sha256 7b579a268fb68c90e0da3f510b45039d8db19b59f6ec6b29be377d096c444e71 -> c2c04a44e62ac714fd5b6a1db3dae9214df78626999fc575671d385193732a85
+~ ___107-[CoreRCXPCService(CEC) performSetTrackAudioStatusEnabled:pressTimeout:pollInterval:withDeviceAsync:reply:]_block_invoke : sha256 e7fa341591fb96fbcde6a0f931623a2fb32f23305dd7d2a151aaeb006f1b1557 -> b3bd33902fa84552b987f2d8fe77fca02837d3c568f2c065af82122d27100e46
+~ -[CoreRCXPCService(CEC) _performSetTrackAudioStatusEnabled:pressTimeout:pollInterval:withDeviceAsync:reply:] : sha256 99bedb5c080d190ade17f017d020d99f2779cf69f086eddc11d9a49376d01ddb -> 021b1e2291078a39cbbdc5cc3dc02282fc891b3b48e9744f178d678ae28397d1
+~ -[CoreRCXPCService(CEC) performRequestAudioStatusAsync:reply:] : sha256 cfd3707c287959bd995b7378a76cbfcdf11e5940ea488cade8e897bdcb9d6d84 -> 42e81b70461dbc6d9243aca15c3fbd91b4e6900d2a8e3f8c322fa5d4a50a993a
+~ ___62-[CoreRCXPCService(CEC) performRequestAudioStatusAsync:reply:]_block_invoke : sha256 4c3345441d96127ea9295b67cdbf15523f8f2d7185b635baa93c61e06e1f4e0f -> e6289847e20ccfddfce51f95231c021349c9e91d38eee18adb3ba13bfa2653cd
+~ -[CoreRCXPCService(CEC) _performRequestAudioStatusAsync:reply:] : sha256 9b6d6fd9ff95db3a47980fe17aeee0dd37267d0646d3f16f2e1b87469e281e8c -> e64dcedf006b2d1fad2de99cd2351e1ac9956a166b9ca13b55fd20e597ae2737
+~ -[CoreRCXPCService(CEC) performRequestSystemAudioModeStatusChangeTo:withDeviceAsync:reply:] : sha256 c365464ddadc578df5fc3414b25f5cbcfb6ca448273332408a573adaca09091a -> b4f16175e8175af04aafe69c8a7465e6c367f7b6a87b47cff5971c023b65368c
+~ ___91-[CoreRCXPCService(CEC) performRequestSystemAudioModeStatusChangeTo:withDeviceAsync:reply:]_block_invoke : sha256 3e37d82a84db3bf2f70d161ffad8bca9ae7030638d85a8110d69a73ec794145f -> 419274f1ef13f928cb94b583c62ebe314910030e601a13b7333d8703f4e67eec
+~ -[CoreRCXPCService(CEC) _performRequestSystemAudioModeStatusChangeTo:withDeviceAsync:allowRemoteDevice:reply:] : sha256 981487d5e029427990520b60165c80605bd00f0ac845139371f8f94f05f94edd -> 37208773861482a37b493185772e0544b84a9eb715de7a62ca97d5890a0948b8
+~ -[CoreRCXPCService(CEC) performSetPowerStatus:withDeviceAsync:reply:] : sha256 e89d6149443286f4a3690d66afa9fdb9c98e712cccaadd7105a39bdf8362ccbb -> fb4945cd7bf813d82a5c4f038351e1553ce813b2456da789727553be8c822c44
+~ ___69-[CoreRCXPCService(CEC) performSetPowerStatus:withDeviceAsync:reply:]_block_invoke : sha256 edfc2f3a1a4a46e29c36adbcae9d7cae965b32cf1ea74c9076ed2adbf60de39d -> 9dfa79caa7bf356fe3ebbf555c2a8184b29f15a713f601fcd9ca9789877e991a
+~ -[CoreRCXPCService(CEC) _performSetPowerStatus:withDeviceAsync:allowRemoteDevice:reply:] : sha256 e68b484e49ba3e503e13811e317bc373e0b2a82d73f4d471f0ee71a893949bff -> b986f651104f61804c9902a73f2eb47ad70ebe109e800230e41e04e61a4bc3b8
+~ -[CoreRCXPCService(CEC) performRemoveFromBus:reply:] : sha256 bcebb2848b890d693b59ebe9e1e738b9a8f1fb872b5bbae481e298876e47ed86 -> 8686ca1707b267b7c6a3756cdf6bd1fa7d59d118b3512474399d6ab78f1d0faf
+~ ___52-[CoreRCXPCService(CEC) performRemoveFromBus:reply:]_block_invoke : sha256 9bf8da28ab03ec5abacc84498c4e82cf0e61630c9f30d98b1fb3e4ab7b51fcd6 -> 426ae1f25b5b4af8171eec53ac157fdb9ef5ef25a86b0fa63ee1f9bc03f75f55
+~ -[CoreRCXPCService(CEC) _performRemoveFromBus:reply:] : sha256 841ece1bffa7edd65a84f54dc304884e781ec76b5953adcb075c5b0f08ed3130 -> 9ce9c4ec29c5ceb7fd9039151c0462b23a91c269696524eb6c64480830c20abf
+~ -[CoreRCXPCService(CEC) performStandbyAsync:targetDevice:reply:] : sha256 1f7b9e91984a647c8e6442b0463cda357ccd056e33ddb823c3efb19b401b5e54 -> cbeffd7a264a8d246a376c0b9c11b7fb95fc7be542e0484a838a9e53da8d3c37
+~ ___64-[CoreRCXPCService(CEC) performStandbyAsync:targetDevice:reply:]_block_invoke : sha256 b78ffb847ba2f15846a6e62b5b78aa779b3551684a7349cf2ef16ec9938cc086 -> b16ab420a5fe95be53b24c476fef9f9ae538ab753916062fa996c6643ef4c718
+~ -[CoreRCXPCService(CEC) _performStandbyAsync:targetDevice:allowRemoteDevice:reply:] : sha256 4ee0abe3cf5bd96100b3c575213aeb36778570bc0112711aab12800f9b475947 -> 1962c496937f7a34fcbaaba4c4fd9f5e9b1a3e8f01e8ee243bdcdc8339948b47
+~ -[CoreRCXPCService(CEC) queryLocalInstanceAsync:bus:reply:] : sha256 c7701aca4d19e61c8cf9f597c01eac7ded67ecce0b77a41c79241d31b05526a0 -> c2cba51f547a0a5faf65c20743cc7b173ab44d647959dc891114b0045cce56f3
+~ ___59-[CoreRCXPCService(CEC) queryLocalInstanceAsync:bus:reply:]_block_invoke : sha256 fda8e97c41a6fe521650565ec1b256e5a4f906a782b4a217ff48fffd3adb05a3 -> d15938761558db687ec546074fac10aaaa788ca3d9b493b3b017a6df3d5b356b
+~ -[CoreRCXPCService(CEC) performRemoveDeviceWithTypeAsync:bus:reply:] : sha256 de6b09f1e79dbfe98687dad3310ef1229b1fb79893afbcd04822360d22aca146 -> 27f03cffbac4d2c20134e75bb8c1556a41ee442e8ebef1e85d382e7d56ede1c4
+~ ___68-[CoreRCXPCService(CEC) performRemoveDeviceWithTypeAsync:bus:reply:]_block_invoke : sha256 079ad43d03b3b34c7e246eb8c66ad59d514791472120f48897ff16a65d040961 -> 10deae2dace63ae1e9129bdaadf80781eefbe8e5b994fa08f65dd11f23e986d3
+~ -[CoreRCXPCService(CEC) _performRemoveDeviceWithTypeAsync:bus:reply:] : sha256 8b22710fa1913b4a0bb78fd5242acb687f9a3b52a16de7ce446573a7ee85f283 -> 89178f96a0b0078cf24522a3add8ddf113b138a66d956eba35f57b25d9313807
+~ -[CoreRCXPCService(CEC) setOsdNameAsync:forBus:reply:] : sha256 54ce7d7b6100057d1960798fd7af28ca3fc3cd825a4eeb3845021cb23662341d -> 9627493f32b79d6806a0cddd758a21665d71c41a57eef01faa1bd04876e83f76
+~ ___54-[CoreRCXPCService(CEC) setOsdNameAsync:forBus:reply:]_block_invoke : sha256 3b95d56374692605ce75913ad14d7d4c9862f64de0f897e850bf95a966114380 -> e6f81faad255737d282eb5bf86205c57f0ae26993788929e48d9fdb4b333255f
+~ -[CoreRCXPCService(CEC) _setOsdNameAsync:forBus:reply:] : sha256 2716ab2a8fb7d4a737efe709d4c2ad8f39718cfa5fdfd0f66ef06484bc849b70 -> 1749de437e0b89402781ab3ff56613e5152a92ce5cb62ea9e287e1d03d8c4ace
+~ -[CoreRCXPCService(CEC) setTvLanguageCodeAsync:forBus:reply:] : sha256 053d3ccdbe11364f1b7e2c11e757731b02f1c824cc7c4eba87198905ad2e6966 -> 28e77c586947a4fba07bcdd313676a8bdaf6b7dddecc3d195a338eb88421de0a
+~ ___61-[CoreRCXPCService(CEC) setTvLanguageCodeAsync:forBus:reply:]_block_invoke : sha256 2e92c87a6f79b852c42c554b18acadd5744c8f76455015a0d5246f5d76ce1695 -> e7b3fa441ecd47cc0fb6bf06ce105fc190ecccdc064ad7f76846cd2654423834
+~ -[CoreRCXPCService(CEC) _setTvLanguageCodeAsync:forBus:reply:] : sha256 6cc80900710ec9ae384736e794053d529b7f82970137be1460e6c45dc4fa6dfe -> 76c407437b516ca84dbfe15ba1b6966f78198acac4431e876b46d87cb57e117c
+~ -[CoreRCXPCService(CEC) injectRXMessageAsync:forBus:reply:] : sha256 e31984cedfe713d0682ff04801fec2b5fae5a3c1c08fd75eb2ed94bc361747c4 -> 21cf5a646e2156fcc8174458a3a0517aff13ff3a420b468ab4f98f6616e6e5df
+~ ___59-[CoreRCXPCService(CEC) injectRXMessageAsync:forBus:reply:]_block_invoke : sha256 ca7b09e23df30ea7f4e2232e9c75ea77fdc65a8557198d7108a3bffa48aa511a -> bb8db9d8b4bac58b43fde30daf457af4ef1336f4dbe5cdabbb5242c291ac6c2b
+~ -[CoreRCXPCService(CEC) _injectRXMessageAsync:forBus:reply:] : sha256 ebc48509c862723c791e34773ee2db27a7c87c22fa1c9bbb84bc8a22316c1364 -> dc704e040fb22fc1d5ce1983939bf71db2208ac6817adb5d8e5699ac8ee2fa61
+~ -[CoreRCXPCService(CEC) injectTXMessageAsync:forBus:reply:] : sha256 bdbf17518bec812da91849a848e23494e1f285bf8ccb2f0be9f7b6fe465262c1 -> dd3694a7052a5689d4a4c14bb940419c7a2cbf7e3a19ad00ef1f64e07b71da8d
+~ ___59-[CoreRCXPCService(CEC) injectTXMessageAsync:forBus:reply:]_block_invoke : sha256 ecff002eafa3f07397f7e68c08a57f2fb58f04d558a0f4ea6db61b026b16c025 -> 558302006eb992d6f88186dc7e276965612a2d220ffe70ab39d9329ea9042d3b
+~ -[CoreRCXPCService(CEC) _injectTXMessageAsync:forBus:reply:] : sha256 341e99c8c57d8813dd1db4272c45a6dc5e82a06be4d34a97d63305951ec822e4 -> 5bdccfcf1bfe25db8ed11ada91d254a09b6aba7668036f82ea32419a348a909d
+~ -[CoreRCXPCService(CEC) cecBus:activeSourceHasChangedTo:fromDevice:] : sha256 bed0bcdb9549b13f1f7201a3809ea4b18bdc96d115d53d496194b9e54cab334f -> f5ec09c9ed2d9cb33bb438abbd7959b442cbb08d7efcaac50670bfa6a43ceab0
+~ ___68-[CoreRCXPCService(CEC) cecBus:activeSourceHasChangedTo:fromDevice:]_block_invoke : sha256 54f2419aa82396f37549fc385bf265bb5cc7af44209b4c661cd402c91374c59f -> 8d6e4d60a4a600b935292f762502a286d5f74b4d0ca5a72682cfd09f5e5fcc0a
+~ -[CoreRCXPCService(CEC) cecBus:rxMessageReceived:] : sha256 1d1989d0f6d54b071ec6d7e0e4f26274945bde3c53e7f2d22a40191833f2897a -> a3a0d4649adb011b2fbbe8af5441efb786d676b07eb2be92aba855e42cb5c84a
+~ ___50-[CoreRCXPCService(CEC) cecBus:rxMessageReceived:]_block_invoke : sha256 0cb7218d13115fe51ad60dbb310ac203a253795b24b83e795c366d38c77556dc -> 57114b5d35d4dac0e0e5ca252e20f7dd5c106eb364830e7f1f591431fee62d93
+~ -[CoreRCXPCService(CEC) cecBus:txMessageSent:error:] : sha256 b0b22f3eb9afeefd453d4e0e92248c61dae78174a2f8138c1c208b0403143206 -> 81197201fbd3157bb348a6f8506b805a65782743c889c2c0929b256566ed8be9
+~ ___52-[CoreRCXPCService(CEC) cecBus:txMessageSent:error:]_block_invoke : sha256 0be05529395dcdc605bef8f09f4b052c39a3ace81e0de286fc3a07d21647a60c -> 4be750837dcfcc9668eaea7acf590f73b1147813d9a4ac9a6e6a018b55c69ad4
+~ -[CoreRCXPCService(CEC) cecDeviceShouldAssertActiveSource:] : sha256 122bec3c1313d63309731da2e750924e381071b1366ed04ae2d3c7c12eb28928 -> 63249639f2ef45cda8494c549c4e0d3ffc82a739b2ec0a9eb719931d2ae26b0a
+~ ___59-[CoreRCXPCService(CEC) cecDeviceShouldAssertActiveSource:]_block_invoke : sha256 1991db517b45bc42d2dd77f2762dfb84790179b14b22fa0821865397bbdb2450 -> b65aa1159ddaa72a8900bf6b029eb64718e8e9034d549e312a1efc8955a2b56b
+~ -[CoreRCXPCService(CEC) cecDevice:activeSourceStatusHasChanged:] : sha256 791d4a5f3d722a55047f8845bc3fd3e7583e712ff8b4d7cb2e240800a98b804e -> 34b35f71733af270aeb63f5965bfe98d183771af633b23810cee65e5cff9893c
+~ ___64-[CoreRCXPCService(CEC) cecDevice:activeSourceStatusHasChanged:]_block_invoke : sha256 f63db7d3a12fa9fa46bad8e25edf3c697d7079fe6861f6d2c58e7626074ae601 -> 51e31cffe841a5b051c226e0e25eb7c5d1b870e5d0ce9a0beec16991bd2d93f4
+~ -[CoreRCXPCService(CEC) cecDevice:deckControlPlayHasBeenReceived:fromDevice:] : sha256 f825938778b8de8be8cfa2114202c3aeadbc20954c2c5393824acdf3f98dc12c -> 8da7ce9ec4c662e47cfa7e204b65bd8f4868e1795c978c13bad1ea43004ec1ce
+~ ___77-[CoreRCXPCService(CEC) cecDevice:deckControlPlayHasBeenReceived:fromDevice:]_block_invoke : sha256 511c90d14ce85c084fbdc58ffd6c7279887fc23a6a3d53a30e3d3943b293bb2b -> ea3006e0001411630461cbeb41f14dac811e0a67efe8e0c949c211d40705cf4a
+~ -[CoreRCXPCService(CEC) cecDevice:deckControlCommandHasBeenReceived:fromDevice:] : sha256 48151c52b4000d93ef48846d81d292bce92b6ea65b953805b670c3f484bc1f4d -> 0ee899c1888bdfac4d741e2658508be1ff7e442bd763b318f436cf20e5ce2098
+~ ___80-[CoreRCXPCService(CEC) cecDevice:deckControlCommandHasBeenReceived:fromDevice:]_block_invoke : sha256 52385f61fc67ad2df3bb093d33daa3df15e162f4e816793580945b253865d65a -> 422ea1494cd3ea9583efbc03033d091c754423d842ddbf33920cf3574c04b092
+~ -[CoreRCXPCService(CEC) cecDevice:deckControlStatusHasBeenUpdated:fromDevice:] : sha256 6212ad8b512cf48657845a11e7beb92e1ad3fb5958914864044e60b78d946535 -> a560082eff7a3fb4ef26ee746497d4a485083c1e7ad7af92fec10ad231c1d309
+~ ___78-[CoreRCXPCService(CEC) cecDevice:deckControlStatusHasBeenUpdated:fromDevice:]_block_invoke : sha256 8f1a41b2e29c4e94d4c30bbfb58e684f007625abdd48c85b903f9722673e32da -> d8bf77b9b9d712cd871ff65cd6df87f77146ec550c8b4462670286305935e1ba
+~ -[CoreRCXPCService(CEC) cecDevice:featureAbort:] : sha256 d846763f2ce352e060929ef4a871d982dab3d5c0eebf709341642209a2a5e64e -> d8d33ca1ec6ba895d8639de2e49aefae83b13b19d9c0e6a31da787ff7f17c218
+~ ___48-[CoreRCXPCService(CEC) cecDevice:featureAbort:]_block_invoke : sha256 67f542a3e0938680d736166fa5fda0ee4e717c37dfb834f35f4b2a47ccdf08b4 -> 4ebc8279b6a10b3c076ce6fdad4524235aad5b718c66b9f73b98cc96b064a65c
+~ -[CoreRCXPCService(CEC) cecDevice:standbyRequestHasBeenReceived:] : sha256 f5ade29e079e6ce163161589fde6be5fa3e3656f5cebda9b468a60a2f596718d -> fd7ea3731b9ba0cc068cb49c24478bd2781d9cabc8cbb2bbbd4bbb8e5e4f7e05
+~ ___65-[CoreRCXPCService(CEC) cecDevice:standbyRequestHasBeenReceived:]_block_invoke : sha256 ea6a11562ce6ef1750a5e252c0f888a6d3d83b717e67c2986291e5ab04788bf4 -> 27841613e4ed18d4fd4e68ec0a32547251d82ace6e2410c0963c5134fcccca8f
+~ -[CoreRCXPCService(CEC) cecDevice:receivedRequestAudioReturnChannelStatusChangeTo:fromDevice:] : sha256 cba3e4df6a91a81ca6967485e729f4078278e1a8f0fba4614388c4a6cdafaf6e -> 2c65c318d501d833ab07f4a0b034d14c82d02505a16a72567e8c67d12e24322e
+~ ___94-[CoreRCXPCService(CEC) cecDevice:receivedRequestAudioReturnChannelStatusChangeTo:fromDevice:]_block_invoke : sha256 5323710173c1fabebd907916a577ff231d9ce39bc2b942b19ea41fcc6b9b77cc -> 9a8c13969a833d09f60a78daa4c471c6ec74d856af81dfdc223670f46ae024dc
+~ -[CoreRCXPCService(CEC) cecDevice:requestAudioReturnChannelStatusChangeTo:didFinishWithResult:error:] : sha256 5f663e6175afe093eb3a18d72f837e8253c5c7cd8c6dc68220603cfc14a2c3b4 -> c42dbb8462b4197b487384b145c6f559bd86103868284f695fc831e3ef45ef47
+~ ___101-[CoreRCXPCService(CEC) cecDevice:requestAudioReturnChannelStatusChangeTo:didFinishWithResult:error:]_block_invoke : sha256 4ca4f3705e11db29ed0daa14b5ae87c53d6ea53fc57c4f157588737ca1115b83 -> c5b27a015fc73626a4d9b81797f16692dc56c4f1df56619071fef238c0b2dba9
+~ -[CoreRCXPCService(CEC) cecDevice:receivedRequestSystemAudioModeStatusChangeTo:fromDevice:] : sha256 2a292f4837e616c3100b540e06134686c6ce0209a05d1c3fce56bc6c7e9768b9 -> b561e0b675184edd131afa926923bdf2939c6ebac1acfda1f12a1220abbee577
+~ ___91-[CoreRCXPCService(CEC) cecDevice:receivedRequestSystemAudioModeStatusChangeTo:fromDevice:]_block_invoke : sha256 74b513332a5208494fef898a6a0d8001c8d1f1ddc54fdd8f60466a46c289d9ed -> 5657a653a2ce9b3dcdd6faf92fd5728b204534280f51df29c4e1e597ebf82130
+~ -[CoreRCXPCService(CEC) cecDevice:requestSystemAudioModeStatusChangeTo:didFinishWithResult:error:] : sha256 4a3c47b0061c16d8b39419e49d99f4331424da5e5acaf32996b012b8935de75a -> beaa522d2147eaa3f632e1b9aaad29f47df8fc116728450bbf0dbbe725d8af49
+~ ___98-[CoreRCXPCService(CEC) cecDevice:requestSystemAudioModeStatusChangeTo:didFinishWithResult:error:]_block_invoke : sha256 3d69095e3aeaa2158e647e1c73c00e582f20ed3c6d6425c72def6fdfc490012b -> c6984f2bf60d07367a2e3c9346887bc60861dd86b6b6c3b35b07da44a089b463
+~ -[CoreRCXPCService(CEC) cecDevice:audioStatusReceived:muteStatus:] : sha256 0e061a0dee7d10eb1b8c5f062dad8ed4079abb791ee86be1eb26c14230bb2aa5 -> fdeb6ba0bd7a02d73c184fee8aaa39a51c687a07444106a15c4554acf18798ec
+~ ___66-[CoreRCXPCService(CEC) cecDevice:audioStatusReceived:muteStatus:]_block_invoke : sha256 52fd564af6d75519a983ba08b844faa3ad8aafc8928bea49618b342b84e5e7f2 -> 1f7b4e80c579b4fa5d43e3feee67ee697957b24b5b8d2e337332479b93d743c4
+~ _OUTLINED_FUNCTION_3 : sha256 0329124060d7b853981489c55cc163d1e79f48034aac344f6e4bf24db87128d4 -> 24a1296623ba041629c19e9a6d6441573336a2595fe6144e21e357d5535219f5
+~ _OUTLINED_FUNCTION_5 : sha256 ddad6d08f2651c93483a942942ff3cf127421a311d211bf1e09660642818272f -> e0adf528402b72d88286a0891a81b2d34c5fe6cfeff268748be0c2c5b1a7603c
+~ -[IRInterface setPairState:forDeviceUID:error:] : sha256 bdc53720f3a72a1d019b541f66d1614c6bc127047eb43bf5d507fa0c3f0cf0ff -> 8f2f3953a68ee93784423bef86f47f49db161768f40cbc84a49c28995e603453
+~ -[IRInterface receivedCommand:] : sha256 b3c473bd6e242e57346ec7b7f1710f2f89cca237586f3ec14f480a6a2cc0cda5 -> 13e92d2f6ea75310983b9b28454fbf0167b67018e3d87188762dba1ecc79172b
+~ ___31-[IRInterface receivedCommand:]_block_invoke : sha256 ce572957932b81bf4db768b9fdd665eae3803895ebf7d84298517ef454169040 -> 8befe698f2b09c5bfc6baa60a5567c697c0271e9442f11502f5f374b3789245a
+~ -[IRInterface buttons] : sha256 b54716b8649a31d0a98e69c8222295f85c514b86dd3f39b8902edde48b0efeb9 -> 013dbe890889932a555eb3e124156acbf3d10379f0dcbd61b38014ecdfbc67f7
+~ -[IRInterface maxStoredCommands] : sha256 df8b5cee99434a837ee1ec49c4fef608553b2a1415ad856ffe0f4b55dcd20503 -> 556b9b9ac924ee0c233014f9498e45a4dd7914099b7aae5941f813dfd9d91a60
+~ -[IRInterface transmitCommand:pressDuration:error:] : sha256 c07c94d9b9741f1404ca3a8d0cdbb51a14c780ad42ec891d5bdc6485d6609495 -> 432986a2a76f41778af1acc966af3a1ea47012df9cbbbed9847e5fcfc44730e9
+~ -[IRInterface transmitFrame:error:] : sha256 15ff91a2af932ba29815e8d35ac2fa6b84f0ba2b679e5387d01a3e210b39d639 -> 932041d6a15fe80bab6fdc665569f114e37e22b589bc448c7afd93b8ef02ef09
+~ -[IRInterface clearAllStoredCommands:] : sha256 75209f2686c8bf534a31ab6bd6e8f128382abfdeed4f61cc7cfd2e6c174ce104 -> 79d72fb4f09c4602aef66330bbbf9eb7257ecd0d3225f865f4fb15442403ee3c
+~ -[IRInterface setCommand:forButtonCombination:delay:error:] : sha256 63f587af3bcf039fb2f06b5de0b35df5819e69f583ee4592bd0b966e88cc0fc3 -> f19b4501e0fd809a85deebb4f780e691e4777a9fff6935447d1625dd5e8c6467
+~ -[IRInterface resetAllButtons:] : sha256 43517e65ad78b08278acd3dd14e0131aa114df8190564e0d8eab2378cd62bb03 -> e27b7949503f53f0cef4897408216584fc180725b4e411acd821fd7b897cab19
+~ -[IRInterface enableButtonCombination:delay:error:] : sha256 a456aa56c5ab01758144138dd623da1b40ebba858edf91d6b59b91852a7b47e0 -> 9ff0c988973c77bb09e5b2b20a2fc92a0ec930811fbc3d702e6731bfcfa1bcf7
+~ -[IRInterface disableButtonCombination:delay:error:] : sha256 f6b493c76110eed41529ed70aa532267d0e5d52a40cfc822acb3472dfc097f7f -> 102f51ca3e30fee229b6e203f7e997b3aa9b51213bf0755212e7f390d2899074
+~ -[IRInterface setLearnedProtocolMask:error:] : sha256 2b603d4dbcb26e7c5c64e8df5e8331b71d6f242abe099b2146844494386f20f0 -> 97f045bcd403c85a7aeb12221af39a0be3668e23557d28a38d989d1c80690f5b
 ~ -[IRInterface delegate] : 16 -> 20
 ~ -[IRInterface setDelegate:] : 16 -> 20
 ~ -[IRInterface isTxInterface] : 16 -> 20
 ~ -[IRInterface setIsTxInterface:] : 16 -> 20
 ~ -[IRInterface isRxInterface] : 16 -> 20
 ~ -[IRInterface setIsRxInterface:] : 16 -> 20
+~ -[CECBusPollingOperation init] : sha256 bc05a24cd371c11eedce635b1fc341d6e126d9dde8607e3b4f8cb74f32524a4a -> 4f44dcdcfd969a94eb42cf9c9ba08a0ef587ab283741bab994bef4a3b6c506e8
+~ -[CECBusPollingOperation initWithInterface:initiator:queue:] : sha256 e27f620fd28a0bde72aec68eda5768590206b36efcb995a869d9f2a5f0713452 -> 861f8f90e5ce107ef2b2c8108c148b48d27c0505d8e769069fb345ed44d060e3
+~ -[CECBusPollingOperation dealloc] : sha256 25857faa7a9be76a3e5f9bd77ce4fcefc0c5be24c1c7b52722a9cb785b473054 -> 970dfdf5bcf1a622150b46de164f611980be22e02510e00fb78effb6258d6791
+~ -[CECBusPollingOperation startPolling] : sha256 9413b590f1abb585a209c69970dd61404b36585313a16580a8cf30a2c6c67d71 -> 3ee7047a5ed4d9f48686b4059b406c5187fd8f52e47022bdad90b5d70c5ababa
+~ -[CECBusPollingOperation continuePolling] : sha256 f7ab471f471e6b263a0840444732892fcc24ffe756102b56dce9669a83d46c11 -> 0c125accbb89fcf67a2198e06d9bd8ff89fcb225b2a82fbec35fccbe06494cfa
+~ ___41-[CECBusPollingOperation continuePolling]_block_invoke : sha256 71adc4fc38a10d11da9150aad9280f768ee65c4955351521417517a5268b80aa -> cbe01db6ca22693c6ea999711bad1e525833582002d6b762948a1c535e8b08f6
+~ ___41-[CECBusPollingOperation continuePolling]_block_invoke_2 : sha256 9a13cf97feab66a6002a145a9f1c7d756a822e929638cb67b8ef8957084b2eb5 -> 2418951e39634833c74e0bca0b7725a6c60903a768f846e0cb9db7c8c37eeda3
+~ -[CECBusPollingOperation poll] : sha256 b01f58a1be1e9180ce931843fbc465849af51e6296044b6d6cb473fa9029cbb8 -> 41030867d9037aeec66bf72aa93ebd63d59187f44dd2dfc7026697e89bfc43a4
+~ _OUTLINED_FUNCTION_0 : sha256 ddf04d9d107e7af41b2b20c8352b39e640252db92a1ca11c19c20ccd83be516e -> 5f1b8cbc0340afe7959d04874650dec1973321867f58006a4ef7f3da49a2509a
+~ -[CoreCECBusClient classForCoder] : sha256 1ffaf3ea4d8e143b64788b186ebcfbe48bb24e11b0e3e3949e98815545290c32 -> 1fa8c947b57312fa72884855114e8d6812224f008db1e4782b0b64d6c87c58de
+~ -[CoreCECBusClient copyWithZone:] : sha256 139d5e0370f8378a70f15e64e6f48e75fea762fca85e2cd9c492426114310cb5 -> e61da862b6a07de1cf7a25a32d7e1ea8d45816062095fe56f57bedf9884815aa
+~ -[CoreCECBusClient addDeviceWithAttributes:error:] : sha256 bcd652364f6b6dd817f8e944708668b7fc54c2d19c146d58d6639dd0e9a25a96 -> e327d21393f57eea46c3d5742483d061502dcabd17236683651da036b18a6e09
+~ ___Block_byref_object_copy_ : sha256 8cf00b3cbce10e2d62d2db067c6e639aafb8600778d02b29903a788a61d9a410 -> 287fdf1aa7f531c22098534a236f3aaa81f6b163ed8319b0fd634238758ceb84
+~ ___Block_byref_object_dispose_ : sha256 e0a574368c905d5318f6864bfe804d7747527b46670650266b4abfe831a69cfc -> 282e15232c7398c200e07e953bc5d7e96bf4dd0b55a272a829e2129ba99b019b
+~ ___50-[CoreCECBusClient addDeviceWithAttributes:error:]_block_invoke : sha256 67d1a5dd9410bf45e9f36fb8c481b65cf1e94ca2d89519c49685a724d94f955b -> 587bcbbf9b57433c4e31aea117d6aa4e2a95ae6ab805c13efe9d9fde6cda2fdc
+~ ___50-[CoreCECBusClient addDeviceWithAttributes:error:]_block_invoke_2 : sha256 bd1e0ba9259728e1efd8e3648a42c5875099d058b800f28a08beff6dcc32232b -> d6eafb085cfdd7187135063f5b9a54bd966a1391167a3b8dd7926d4e10238635
+~ -[CoreCECBusClient removeDeviceWithType:] : sha256 8670a74c785ed6c51990e2f30da3ae092199b5949129927a8375091b87a294dd -> c8cfa237f5a9e9682aa22a96b0ebb7259a51a2f002d8b2962d031773261c2d16
+~ ___41-[CoreCECBusClient removeDeviceWithType:]_block_invoke : sha256 04291d206601e49663ba2c7ca5a7dca27174c496af6354cd1c85ef5765904037 -> 11d5acc541b858fef4c8772cfdb96e05a83cb7c2bef6d6a4c46ce02b6f8c5057
+~ ___37-[CoreCECBusClient setOSDName:error:]_block_invoke : sha256 49a9dca4477eb0d52211a9100ade2d833943366729d51681ea2c97bdc2781235 -> 6691540e32be9f208c03f14b5c96188b1c43f6f3c8b2a442a8ce03b301ac43a7
+~ -[CoreCECBusClient setTvLanguageCode:error:] : sha256 9ffdcbaca14d3325271bea306c9788e4f07bce3ec272516b9dc9fa23f5c47eed -> ce006c1dbd3bd01903f5264e4a269610bbb1a96f6e56a81ca269b135f2e25982
+~ ___44-[CoreCECBusClient setTvLanguageCode:error:]_block_invoke : sha256 5d5c45ec67dbb3ad8fe30907459c86e4c577b9c00c4746e367fe1b1323610244 -> 882ded23377e259d81b2f527e00bda3ab3f29c7a8206086710e23464b0a7d76d
+~ -[CoreCECBusClient injectRXMessage:error:] : sha256 ee236809f17417331f97f29150f1ea2709366de48afdca3575eeff1929e6a363 -> 6a651a800e97e73077bb94dba84ff32d7f9e84617458991bb49731485b0165f7
+~ ___42-[CoreCECBusClient injectRXMessage:error:]_block_invoke : sha256 924d8bc54ac3996fd28d91b54c221e69497733d853f81c47ff2de161f2017676 -> 45c87b4fdaeeca1ce9d6794e0eb14085e1a2304cf461def7b88ae97bf79cdb05
+~ -[CoreCECBusClient injectTXMessage:error:] : sha256 f329111d7574079af4b452a24653c44bd7eca947123fa2ba6605c81ca5fd4b64 -> ad95422541b06ccbe04d7932342b1107c30ab0aa398eedd08255b1423e4a1c73
+~ ___42-[CoreCECBusClient injectTXMessage:error:]_block_invoke : sha256 e81a955cf4d6bedcc38258504635ba54371a50187ffc3d4e0f393cd1b05c125a -> 6798131c610ce263b74d3d33b5a7a0b614771b3c489d52289b0383a844147eab
+~ _OUTLINED_FUNCTION_0 : sha256 0b69b45501247d97aab6da709985520e141ae33da2d25becc6fc99f838b564c3 -> d1958e305f0f3e251ef188045e8306f0e788ef0ba2f741aef8c20b692791b7b6
+~ _OUTLINED_FUNCTION_2 : sha256 c3cb779095be75e31fcdf53ba19036dab0b57a6652c0f85a772b7f44bdd00753 -> 7f688e533f45d0e961fcb12f03ec90d95062fe40c3a2e61d39c5391842dd26d0
+~ -[CECInterface(CECMessage) sendMessage:withRetryCount:error:] : sha256 341a37c1bbbb3e1920029a4cbed8fb6b446a152ef612321dcf341fc277e69f8c -> 54eb7604e2a22a37e805dcccc2aa00244ee43efee7d7d001baa300db4afbafd9
+~ -[CECInterface(CECMessage) sendMessage:error:] : sha256 ea80f248bfdd83024a03749df56b245771382b6a3726dab0abadba0dd8cfd82b -> 8e515f95ce9db073204b0c03e3a4c06b48284b529c9a1aace8ccd34ab821385e
+~ -[CoreCECDeviceClient classForCoder] : sha256 141eadb49385248eb000c09a1c823d2f35db0a2bd505ef8a38ea08dab916743e -> 7072c4d7ffda09067b7b386474a55653e56f5c754dd5b8618faa5e281941ef74
+~ -[CoreCECDeviceClient copyWithZone:] : sha256 e639b6b7c76555c329a69cec6cfdf092e7d294c553ee27dd99150d7a4eb55e74 -> f1621b49353cea6468aa21ddad38a5b495fe60427c5a52c3e75fe03195cc7b62
+~ -[CoreCECDeviceClient deckControlSetDeckStatus:error:] : sha256 00c54bbc9eae10fbcf3cde59ca8d2bbe8992fa71b82bb460435aa9ea2da4069d -> 8ba1f503bf03f0f6eb2a6980c8e4ab87951849a1be8e4b3a5d914ab9909be69c
+~ ___54-[CoreCECDeviceClient deckControlSetDeckStatus:error:]_block_invoke : sha256 22be58c186ccd5b90d980fda8d8d7543026666e257c4130987c55e4456386f99 -> 620dbeac63379c6fda03e8bf096b832cdda78d9c8b733b35f9cabba1fdd3dd74
+~ -[CoreCECDeviceClient deckControlCommandWithMode:target:error:] : sha256 8dee5f2c320c02d0893ca00e6b090ad0b7042e5f9920f97097a5d5e3fc33de28 -> a4f45296422be5f09fa7a55c67ce51ebed0c041dc767c2f9bd7064737a418016
+~ ___63-[CoreCECDeviceClient deckControlCommandWithMode:target:error:]_block_invoke : sha256 25e1687e0edfb9363b4a1bada8e1389bec2f0a3ed7e0ea8870087fe1aadf7bed -> 3d103a35238e9f9fd6712d4fbe5812e0fc81db0630ea0826154d4309b445c0e4
+~ -[CoreCECDeviceClient deckControlPlayWithMode:target:error:] : sha256 821a68275997e5b84552bd64f4366dae911ef8ad808f8464c993d9191a80d8fb -> 7aa2104d6a937725ba26ccf1e01569976e6208aae5925363eb4ab5b1ae36f3e9
+~ ___60-[CoreCECDeviceClient deckControlPlayWithMode:target:error:]_block_invoke : sha256 f568a7f17b859e7440d6516ec4b9ceaa4b93bccb5d838cb07c4f385bab8df9ad -> 32587d1dbb4d16ffad17ccd799089b8eb37e37913c29dc36cae60ac8baa9ae36
+~ -[CoreCECDeviceClient deckControlRefreshStatus:requestType:error:] : sha256 daaaafddbd5193c1c8e261f0497ceda6a0c1a705bd2c89cdfd3e85292440fde2 -> 72bd4106a27489c307f0d941e80b09fe0b20a7197760e8ee2ff398e5e09b18d3
+~ ___66-[CoreCECDeviceClient deckControlRefreshStatus:requestType:error:]_block_invoke : sha256 5e0587fd3969777ca036fcc27a04e6d072638e810542067cb7e9191c1b52311d -> 602e13277ab172764ea9dc1470b3f37c961f2e52bb4ba837f80a568089506c34
+~ -[CoreCECDeviceClient makeActiveSourceWithTVMenus:error:] : sha256 344496b300f8d01fb80bcda096bbe0c818a52ff3632e07c87733264703fa2a81 -> 36ff3ebd524f043271093679f57f988554218a8b308d1fe85c6f4ec09db1fbfc
+~ ___57-[CoreCECDeviceClient makeActiveSourceWithTVMenus:error:]_block_invoke : sha256 4ac8489ff200a5342e429301ce9a39954c5b6bb3ae5998788c48045bcf6b9653 -> 8f0a45e2119ec0bbed86198711cce72c3484053966cf30600315477bc22c58a8
+~ -[CoreCECDeviceClient performStandbyWithTargetDevice:error:] : sha256 a388fe6c7befa11fa985e97fd0cbda106bb9b427e897043c68fafbb90904f573 -> 87229c65b7bd4653cc6e25968419d3fe6593d4185f091effa03fd82a9a550d1b
+~ ___60-[CoreCECDeviceClient performStandbyWithTargetDevice:error:]_block_invoke : sha256 e163614d7e0d2dd9d4ce0279bbbbb8a6c5dfd7a1b245cc355769eb5b56d77320 -> 284af6a7095fe634d1dd451a88c784ad9e05cf071fee14c262da53ae5ac092e0
+~ -[CoreCECDeviceClient refreshDevices:] : sha256 132a1da40d0f1c9a3ef3847337d150e75b219075cbf074d2733916b58a02ac10 -> dd325ae7e7f3cc9fdb1674baf857e4d9b6dd68022849e7304f198d365a126462
+~ ___38-[CoreCECDeviceClient refreshDevices:]_block_invoke : sha256 9b37715a70a53f1e2e17d1e52ef079a5aa668c830c2e1034eb0f4cff977bb185 -> 96d70883ace8c73af130689018da6209e52a7c8662ae9694cebcc04b00dddd79
+~ -[CoreCECDeviceClient refreshProperties:ofDevice:error:] : sha256 63460809ef3bc7292974350269529475d4fcd979c497fbda22816513b0788c31 -> 42a078eaf9c34930deb540a186f391029ca3246c2f86290ff4c7de3f3537bdbb
+~ ___56-[CoreCECDeviceClient refreshProperties:ofDevice:error:]_block_invoke : sha256 d920e23839de02f0c1ad94ff91a576d2bf07808456f33d2d2aba6b44c57b0ecc -> 1a3a23355d0135e26baf1f25bd47c139f6b353eb47d84237c188bccbf67b509f
+~ -[CoreCECDeviceClient requestActiveSource:] : sha256 97dd3cb92b01695f6d1c3f8b828558beb78085575042573b7f96dfd5b723acd1 -> c03808c3c8bcc11171fea2ecea09cd7126adbb4150ad720e151c449b30ca6986
+~ ___43-[CoreCECDeviceClient requestActiveSource:]_block_invoke : sha256 d3be61b731924c5a4235c8b3c275498487d8320adaf90729d63a75aa85ede6d7 -> 9a0c908e84cdf32eae47e5b2bb2f48dac913607af1da3b5de00105759335a7e8
+~ -[CoreCECDeviceClient resignActiveSource:] : sha256 e65f22a388eee196bf413c7a297d182f9e09de3452dff4f83398bc3c5b38857a -> 11e93ddb844f2c99f81289bec871ac53062ed6b7c0fabad5bee4c38f7385a1e2
+~ ___42-[CoreCECDeviceClient resignActiveSource:]_block_invoke : sha256 018dc3e0a1419811679e2a0a9a6dae75fc1d8911caeeb85e7b89b57d9a9b2c89 -> da47e7485ec9da08d0a4741d0b0de1783033e91e4cb691ca01e47ef6511c0f60
+~ -[CoreCECDeviceClient setSystemAudioControlEnabled:error:] : sha256 21de51dd0bdd3aa5c818e57d8d0ea3f702c5dd9edf6c5f7add9cf59d2fcf5563 -> 98f95273648a6276e88126822053f48fd549986d34ba0b8121045619a8d01c1d
+~ ___58-[CoreCECDeviceClient setSystemAudioControlEnabled:error:]_block_invoke : sha256 8d84ee8f985b7f347d426cedae4ed1b32f3bb911943a9583e25a181eac93927f -> f462d69dea1a0b7ccaa618a84f609c82348a6965fff6de356c4597d91a4c6076
+~ -[CoreCECDeviceClient systemAudioModeRequest:error:] : sha256 143a157ffcebf0bf90cea4aa6f6758ece9927bc6b279c80b1f887185f5b06289 -> 10fe51652fafe8d82a4eb73eb9e55a140ea8fb7234808b37663a72d50473c021
+~ ___52-[CoreCECDeviceClient systemAudioModeRequest:error:]_block_invoke : sha256 2c1a61b5f2e36b442b7f1a59aafcefdff42a864909b0f44223d30a5e8007f9ad -> 6441be72f883536364093eb81508172ba704dc81099e6743621f66d02340bf0a
+~ -[CoreCECDeviceClient setAudioReturnChannelControlEnabled:error:] : sha256 6705182001ad1126aea50970322d4842b729994c17cf2da902e12eb4c0e143fb -> cf7fb24a055c97f9feefa622c37ae4a9f61607050306454c1514d3636da65cea
+~ ___65-[CoreCECDeviceClient setAudioReturnChannelControlEnabled:error:]_block_invoke : sha256 b4169d73e396d36acad7c277e2b2d1559c8a03b5b1a4c94de722e0c6cfbabd1d -> 7bc44c325265fd6359782a808ae463673a8b25e8e8098bec3d66cec6b0cc2d82
+~ -[CoreCECDeviceClient requestAudioReturnChannelStatusChangeTo:error:] : sha256 2983713af44282ca341131f77d7f7ebc0bc78e29a0291080ad4fc5c53fe91f88 -> edfefe29be6db06438d2167bf8278f4d1a59b733b36a296e6993432c0fc6e7a9
+~ ___69-[CoreCECDeviceClient requestAudioReturnChannelStatusChangeTo:error:]_block_invoke : sha256 6a13261faea1c065ff5a5e2c1ad11cca421ebffc2329f6ebb4c327452d723a89 -> 6f914f9f5ac01efed0e717f03be3feb999f2595ee313090c6b7c3e05b464f146
+~ -[CoreCECDeviceClient setAudioVolumeStatus:error:] : sha256 8ce314e81faf1e020662ae97474c468e14a5991ec5496001583646efb215cb69 -> f59ef572c2684489b7a24ed7922b3a7e045c9efae28ae447b5aa991e0fe2e9ee
+~ ___50-[CoreCECDeviceClient setAudioVolumeStatus:error:]_block_invoke : sha256 a0f90d7b96dcad1a1e5f6197a17095501490d6356a662147d0990e872d99857a -> 78e9f657663d0864132654da399f162acfd07691d7d3ea60444cf665820bc232
+~ -[CoreCECDeviceClient setAudioMuteStatus:error:] : sha256 23ada07869897b6a219d19829185238b5a33753bb91efb07c8d0491d54c109a9 -> b9cff871f943ad75b71bb2e70f008163af138271cc3296fa7a395ce98895555a
+~ ___48-[CoreCECDeviceClient setAudioMuteStatus:error:]_block_invoke : sha256 72080cbfc092571506fe92e5757ed64d10de20cd49a5337e33788ffe5d6f3fd2 -> b5a7ae056a889ec2ddc8ba9675a17cf4b90785c0598f614a7fb51f4d5cb57d1c
+~ -[CoreCECDeviceClient setSupportedAudioFormats:count:error:] : sha256 516fb629c1c37f0d5357c4d0ca4a81795f4521c26e66d4158b52e6c1b839d2a4 -> 9d982e5ae5579108d564e03f7bee9896b74ee855d4fc589d5b9178d5b18e7662
+~ ___60-[CoreCECDeviceClient setSupportedAudioFormats:count:error:]_block_invoke : sha256 57bbd5d52376a70b9fcc2e9374c3ed82e89a9d49bc488e1795d2da7063918c8c -> 889b05cd981df24719c580a59113bb06c1f67d9308df08f3834c5f37bef136e1
+~ -[CoreCECDeviceClient setTrackAudioStatusEnabled:pressTimeout:pollInterval:error:] : sha256 c762c6ae303aa90c1d43fbde376da8c124b96dbdff366d82f914441c2b9e463c -> b6b991495796c617a813f0723859557d0cdbfac553195f81e21bd304f6eeaaae
+~ ___82-[CoreCECDeviceClient setTrackAudioStatusEnabled:pressTimeout:pollInterval:error:]_block_invoke : sha256 97d854c987e608bb9a64b3d9cda039956e5eea14a64da8df241c4de51fbb2722 -> 022977c7c8bd13bae729633c66a6abd0d14efe191c31806a28763311529a8f28
+~ -[CoreCECDeviceClient requestAudioStatus:] : sha256 582995bebec115b38bb15f3aa3036eb0842f981c91082a87f491bfe7c4e5ecfd -> 34e2dc405dfa2fe0ba0e562b2385a40e427f43b49bc002916f1d0a64f2c1ae3b
+~ ___42-[CoreCECDeviceClient requestAudioStatus:]_block_invoke : sha256 ee0b53e734ee9a60a0bb1e418e71cccbb238f9991a7e8676a5aaea039c7d6829 -> 4579f28b2e2697e3b1fed22bac42130fb2190b7b72e860392f565cd380bceaa2
+~ -[CoreCECDeviceClient requestSystemAudioModeStatusChangeTo:error:] : sha256 6ef02c835be0b2d97def35e94ebd6d4bd1fb41bf258a241083f23d5b3b515a50 -> f2af4003bf293df170ec6448a13aad64ed265a4f097f4fe93aff2f11b790414d
+~ ___66-[CoreCECDeviceClient requestSystemAudioModeStatusChangeTo:error:]_block_invoke : sha256 c4ed4e0add8c5d6c6aae4dcedff645bbde28e86e5bb121b2f43ca8357656171f -> 9f4a2dfe8c88ff7a6b78a3ae61dfede415009c22564aec23928d9b7420d25ae3
+~ ___44-[CoreCECDeviceClient setPowerStatus:error:]_block_invoke : sha256 5bd4296fd36aa31abe2f707d460488346b71e9d7f9826320793d231153cedbd7 -> f728bd80a4fa35d7942af5f2068e07fec08daaeefe05d2525b83b26d3b3dd827
+~ -[CoreCECDeviceClient removeFromBus] : sha256 c69d39de35a15fb168ba4f4b798fc6b057c98dd6bd22ca42ec3ef24ef87332c3 -> fd0971ef5bb9119caf134a9bec785a09d25c587e49442f41d591951e1f2535ee
+~ ___36-[CoreCECDeviceClient removeFromBus]_block_invoke : sha256 9b606eeda41bd53c2a07d7251174f95b2403db4cfc9a5f7cc61511fab6ce4b8a -> 1f5fea294c2bbb05f3e92027614e672de41d2e011e660d4d4799b7ac8fc2863a
+~ _OUTLINED_FUNCTION_0 : sha256 99071789d4472a452fe1ce5f2e7f13b92372618826e112165bdb59d0f4dde8f1 -> 16547cc7f6b0692eccd439aa29aab70c28ef935e5dcc8eb0b81a73224049aebd
+~ -[CoreIRLearningSessionProvider classForCoder] : sha256 8bfc7af961e3cc9c39a6a03f48e9a2a2b02599549c34e93d27c574d711303270 -> f4511df274302332e36fe3cd1d5ffa62181980514cb9a51d4ff97dfea7f398b6
 ~ -[CoreIRLearningSessionProvider scheduleWithDispatchQueue:] : 16 -> 20
 ~ -[CoreIRLearningSessionProvider disableAllTimers] : 148 -> 160
+~ -[CoreIRLearningSessionProvider cleanup] : sha256 fbfdb9a5ea3f7825ddf70349595362cbecf231bbd8137db767883ce68eb29a5a -> d9c240172a761d9e29036229b0a85f196ea4288741bf46230d2b5df05acc4951
 ~ -[CoreIRLearningSessionProvider dealloc] : 88 -> 92
 ~ -[CoreIRLearningSessionProvider setCaptureState:] : 112 -> 116
 ~ -[CoreIRLearningSessionProvider enumerateMappingUsingBlock:] : 352 -> 356
+~ ___54-[CoreIRLearningSessionProvider startLearningCommand:]_block_invoke : sha256 b0dc8fdc915750ef6c2048cac434d68e075d54ae55ee3105884ea0afe8acd5eb -> 181b6cb43f40809fac8c5934ece69ab85d6c07572b06a94f942fbc0c2207d9a5
+~ -[CoreIRLearningSessionProvider endLearning] : sha256 bdb644e421bb93c6e1413a44e554e73b7ded5d3098cbaa5f0221ae7a23dc3bf8 -> 00e4517898a3107c4cbd54553b75d6dbd8316235c4b4ffdc803e855ccbffac00
 ~ -[CoreIRLearningSessionProvider processIRCommand:] : 360 -> 364
+~ ___43-[CoreIRLearningSessionProvider initTimers]_block_invoke : sha256 c3be40c6e47f18198467035e47f3d62904b533d3b963e81d12533c6d78a72fa9 -> f889be893993314e31592435644fd9f672a68aa686de2d5af3bc673a87afcf92
+~ ___43-[CoreIRLearningSessionProvider initTimers]_block_invoke_2 : sha256 c55919094acfce6f891a70bef166b2abb0bb7ad219e3acfbfc2923ed71fcdb4e -> faa9c3783d464c0624b44f661037429257a42035a10d1d791962b96b4ca2a4af
 ~ -[CoreIRLearningSessionProvider updateProgress] : 232 -> 240
 ~ -[CoreIRLearningSessionProvider captureIRCommand:] : 408 -> 424
 ~ -[CoreIRLearningSessionProvider waitForIdle] : 160 -> 164
 ~ -[CoreIRLearningSessionProvider processCapturedPattern] : 1412 -> 1436
+~ -[CoreIRLearningSessionProvider addMappingWithProtocolID:options:commandToMap:command:repeat:] : sha256 ecae7f0b0a5f65efa25deff83ee6158c8bf9ffd8f5e7f255b047b9d379b5ee6e -> 7e65807b8b17146c45b8eb1837a4f7da25e6802eeeb2d64fb82fe406164421fe
 ~ -[CoreIRLearningSessionProvider _findDuplicateIRCommand:forCommand:device:] : 380 -> 388
 ~ -[CoreIRLearningSessionProvider handleNoSignal] : 308 -> 316
 ~ -[CoreIRLearningSessionProvider handleIdle] : 540 -> 560
 ~ -[CoreIRLearningSessionProvider handleDone] : 336 -> 344
 ~ -[CoreIRLearningSessionProvider currentCommand] : 16 -> 20
 ~ -[CoreIRLearningSessionProvider mappings] : 16 -> 20
+~ -[CoreIRLearningSessionProvider setMappings:] : sha256 3698504f1a63c0dbd8ace55070cb21de0d8a3540493f9a029018164424917f38 -> e3af0abec3969af1fc719f390d27961e4b2b36b90c2fe750617afe6355075904
+~ _OUTLINED_FUNCTION_0 -> _OUTLINED_FUNCTION_1 : sha256 e1a1c51d2fbe290e89f168c1a8a703c7b6c302652c50117815fb2bf410a70196 -> 4291e04e8436de063bcfb1cd1d3808254607c84de0652dc68df0849d168d55db
+~ _OUTLINED_FUNCTION_2 : sha256 6feeb5f2bb811de1a3c0e2af922815861e036bb6345da071c94a8575d60877e5 -> 8b76603731e8ef225a94ca1d1ea4d7fba9361d82e8422aa4e39b868a42c496ed
+~ _OUTLINED_FUNCTION_3 : sha256 f73438f237bb4921081577834be23bbd03fe15fafbe403c674ba040288d6d906 -> 9139feb28efdb64d3bfcbfa224570969b975ee8de6946769a23dfb11ec5b9990
+~ _OUTLINED_FUNCTION_4 : sha256 42499d254a729364453b407593dc472d2d2b131d24019981179b6f6f02a65826 -> 01406be6f6e872ba9c3808895d7c3daaa6acd1d16a845f144171cb9b101a5bf1
+~ _OUTLINED_FUNCTION_5 : sha256 f019b20ccda51e9b8e6676889693ed762bdae15dfeb0e904d5477e204cf67418 -> 632e8767ced00d81b8a59a75eb49fafa8d501b403eb4bfa3e066a1cc0cc4ffc2
 + _OUTLINED_FUNCTION_6
+~ -[CoreIRDevice setOSDName:error:] : sha256 74bdff2c32ec7b5183047a6788c0b98467152fbffa958f4134694711b19ffe27 -> 986bbc9e24d1fdb2bc1b20efec7020d3ea1d237ba685349cc5427b8e1beee4e8
 ~ -[CoreIRDevice dealloc] : 108 -> 116
 ~ -[CoreIRDevice initWithBus:local:deviceType:] : 164 -> 188
+~ -[CoreIRDevice initWithBus:local:] : sha256 ca3fa3c7b1d9f803d52919d46e82bae01dca1ae618652b13c6aa1914c8c7afc8 -> 1d92fa512aaf73e961d0f5da0b11eb4db3491c035b06775e2e0a7421e0ec0721
 ~ -[CoreIRDevice initWithDevice:] : 236 -> 256
 ~ -[CoreIRDevice initWithCoder:] : 312 -> 332
 ~ -[CoreIRDevice encodeWithCoder:] : 220 -> 240
+~ -[CoreIRDevice mergeProperties] : sha256 feccf0335c99ccf0d5c36fe9bfa09d92603fb08b7c10bbfc15c11d2312bfbbbc -> c1b18f4478e70ada7b7a4d4d15001695dfbece2570501e0e8bebc350d47b9a01
 ~ -[CoreIRDevice description] : 308 -> 328
 ~ -[CoreIRDevice debugDescription] : 152 -> 156
+~ -[CoreIRDevice deviceID] : sha256 f41634acf86348ba252238513d6d63eb7097bc4f09aa2717b079fb5eb96d0cc8 -> f038116b8dc8e5f47f66b7a5b814de4df931ec84f89a9d507caf5ed161950298
+~ -[CoreIRDevice is3rdPartyRemote] : sha256 556c4705f9934c4621bff8866a41f84e9f3e07dfa9ef80f2a84274d2374e7e24 -> dd2efea9d8118f21b4dc6da856a7e0510381324d7dd3b72f08bb9de78eb1ab06
 ~ -[CoreIRDevice setLearningSession:] : 104 -> 108
+~ -[CoreIRDevice pairAppleRemote:] : sha256 4b17bac59c3f71a53cbec9d2a113e2d131acf1dc37d8b08eb7980bafe0b905f5 -> 9a0e57af101942964d7d526a0c021cb636bf5aa23ccecf48419341badeed2740
+~ -[CoreIRDevice unpairAppleRemote:] : sha256 70e3a724bbfe9a3fdee8589074e056eb15ac78ce94306de092f86fb0a448ba6e -> 68bf864d94d9ee3379bc99db871a833c26cbe755947db1829d890627a52cbc60
 ~ -[CoreIRDevice isTransmitter] : 16 -> 20
 ~ -[CoreIRDevice setIsTransmitter:] : 16 -> 20
 ~ -[CoreIRDevice isReceiver] : 16 -> 20
@@ -343,47 +1572,710 @@ Functions:
 ~ -[CoreIRDevice vendorID] : 16 -> 20
 ~ -[CoreIRDevice setVendorID:] : 16 -> 20
 ~ -[CoreIRDevice buttons] : 16 -> 20
+~ -[CoreIRDevice setButtons:] : sha256 1a5ca7dd0b5027441169463bc9a2f5722a8d1fd1080835870cb69d071313bb5e -> dd824e10096227e1052c7d31f014ab4d357a5311599cbafe7368b008f2ead541
 ~ -[CoreIRDevice learningSession] : 16 -> 20
 ~ -[CoreIRDevice OSDName] : 16 -> 20
+~ -[CoreIRDevice setOSDName:] : sha256 fe4233d95c3fd4298ea8d386bd7a3a7ae0bef47f7243fb1b4d2d96bee0f15b23 -> 35047ac23ce2d845ede21b74ad00d3d1d9977df78553fd997d14897b47a9c161
+~ _OUTLINED_FUNCTION_0 : sha256 85e2ade0a6bea4e3d17a48465358176fa5858af42f1abf413975827a1c57a990 -> 719e6ae50b7c1c62d51fc85bbc3531807b4fb8a6cbbe395d0715045d437c7f2a
 ~ -[CoreIRBus init] : 84 -> 92
+~ -[CoreIRBus initWithBus:] : sha256 b19e5170744b2f2247768434d858a1f1af928b9931a1b5e59961ab64696296cb -> c1fff4148b69f0f809f0c59799ea546fecf989ae338a3dc0c57ee33de9c8cccf
+~ -[CoreIRBus initWithCoder:] : sha256 76bde8d7198dec51958bf871e79869da12768630a3910e6d7d7f3dabdf16fcc2 -> 9582890f03118ec8d87a450145e057452e58ac270b5152f775166ca1c3f70bc4
+~ -[CoreIRBus encodeWithCoder:] : sha256 54b31ddd385b4dce4997e87237ca545b8464a54abc208d68d60f9c3be59b097e -> a16e3c2b6f2723af0761cfee76a0ad75c445a39bf69d4da26ab21efe3ed62aa6
 ~ -[CoreIRBus dealloc] : 100 -> 108
+~ -[CoreIRBus mergeProperties] : sha256 f31275394fce5e062747ee8f864adb3ed13efde39347af685dace01468ea54ae -> fc7e7ee59b3984b7313b2345c705c23dce19483ae558fa27aba755a2596e50b1
+~ -[CoreIRBus description] : sha256 9140bb22457289dd3309b77f9b604dcf71e674f779205c7708964fdf8752e79a -> 1b4cf2ad12828fe3c76a5434b78b35e5beef0bac705b779791a6b88779227b44
+~ -[CoreIRBus willRemoveDevice:] : sha256 3020242ac726e5c5cf167c8336a23d0f7c8dcbddad90e6c195acdc0a5b69b57d -> 6cf87a002c3757f181a580d995ae22716a1a9f4b0c43aa0261e98c5198fe2d5f
 ~ -[CoreIRBus setLastAppleRemote:] : 72 -> 68
 ~ -[CoreIRBus setPairedAppleRemote:] : 72 -> 68
+~ -[CoreIRBus setPairedAppleRemote:error:] : sha256 fd67eb5dc47595c5b5b01b9a1ad0bd43cfabcad494b6ed96af84313607efddb1 -> e8dcbfef4525bf89de3f6c8b4c4541c51caa4f8e11ac877050a75da06648d372
+~ -[CoreIRBus didDispatchCommandFromAppleRemote:] : sha256 902649ded9a5c01302b1bb38d39635161148d3818297a99b99a67ead681b2671 -> 571a286a3e11e6e6de4a902da4c51013d611a8f5d10897c223056969a0a9437c
 ~ -[CoreIRBus pairedAppleRemote] : 16 -> 20
 ~ -[CoreIRBus lastAppleRemote] : 16 -> 20
+~ -[CECMessage initWithFrame:] : sha256 4497f448a4a3966e189167d54078cecca7c51abc89005e2f2774806c2735f61f -> 865ba3b59470cdaae171e06ee961b5ae6d1a7924254d59a947f77a6e51972b45
+~ -[CECMessage initWithCoder:] : sha256 84068b365aacb536f3e629b7fadb4e9672959b30abef3a9855a6453afbe89caf -> 15d58a225e182d215880dd20b7f93df9f2114fed674380a76a57893107aa0da6
+~ -[CECMessage encodeWithCoder:] : sha256 a65bcf03083103c8a0ec05e1ba7a4f5b65fbeed60429f5cc6a5f5341ae44f894 -> 00dc04506cdde96c37fc72806b5bdc5f7f0a15f042b4b9cadbf545af31140894
+~ -[CECMessage debugDescription] : sha256 a6675a08528e470312718c1d634d6864a98de0f54eb641f50d26d91721b85394 -> b345e3d1ddfbd98ca077b2ff61a71e4214f3fc628a47b5a510d5bb1017af6452
+~ -[CECMessage nominalLatency] : sha256 7bad223408b4295f7f23fe005bfcbaf1d702d6b9dab87095e161202da5cc84fb -> aaa3154fdf63b3276e9dc067d4862c9730c7fdab5c9ae9f99f8601a67a910c74
+~ -[CECMessage shouldBeIgnored] : sha256 18971a6df47d8efb31161beb3499791292abbf11f9579e0b1565fd1e7a8dd52d -> 99e0c3b4ee80827f73f294f5e08ae06bb5ebebd460122d96581e5666040948ef
+~ -[CECMessage isBroadcast] : sha256 47580563bc044b6f7bdd7eb9a719e705fb14ffb9bad097f6e9059fa2493e1d9f -> b78097c4248d172c1e93cfdc3cc89165be622e36b296563365d77d7daa1591f7
+~ +[CECMessage messageWithFrame:] : sha256 b56e4eca878431032f5d455aac8ee3fb29fda1dfcc757d473a0a1fa88a10da93 -> 941aa7e723d2ca883b268f65d202da2b14168e96a901bc262eaf8e8934ff689e
+~ +[CECMessage activeSourceFrom:physicalAddress:] : sha256 83a55a602326d4c352561ca924b4a2727924816b86e8229c321f83477a24ab2a -> 562a55e9c8414091778a41792f046b16fb3b64e884065410180c1eb8f0a1fc3c
+~ +[CECMessage imageViewOnFrom:to:] : sha256 15144078dbc20d71d15ff33d1c364ba832a885993359bc4395e1ddbaa296694a -> 0595a3d7a1bfc4184d53e50e2ecb803bd39eafb615bc76aff2d21e4401dee986
+~ +[CECMessage textViewOnFrom:to:] : sha256 2a81e25aa51f43e799b3fc0820dea03d8c7003df971fb15b60f014c09f4b2271 -> 65d98234041ed2f7a9837b3f6f5651f03729ea331b10b5b9dc4ed5a3543a9bfb
+~ +[CECMessage inactiveSourceFrom:to:physicalAddress:] : sha256 9dbbc9c5c805e3d18e94867f255af3c573e21207f9f6c16588dbfe452cbb860a -> 7a557f7057eb633d5556a26abca9c2ef43c344291d8267e37f43de79f338100b
+~ +[CECMessage requestActiveSourceFrom:] : sha256 da5138b8746ee5931f5e92712cf0e8421db255e65f3ed1522ef13f42961b6066 -> 08bc1ea96f051b994911d7aa861e8393229f101818f0a323dab0416e02b484e6
+~ +[CECMessage routingChangeFrom:originalAddress:newAddress:] : sha256 d581141bf2164486f3396221dc945e38e204467d25e8a93d5e9c3cd08590bcb1 -> 45617c6e3750ed598ceb57afa03e25b1060d6faf470b5c0e6fd86676f1a5b8f1
+~ +[CECMessage routingInformationFrom:physicalAddress:] : sha256 5e4b11f9ef67f85e7fe55b4207e888f11bfdf432cfc4f790c5374fc3d11c1e9d -> ebddf4c03c58e56a7c01242b2a0131ea080ec3b94035fe6eb2258af6801bc147
+~ +[CECMessage setStreamPathFrom:physicalAddress:] : sha256 779ef5fbb4bc7311187273a764c442f83238ecbdf7152d8931c4be37c8889871 -> c376d69c7c6f3b3628e9e6818b3e8cd803bd02fb3539ad6946b412eed460aa7d
+~ +[CECMessage standbyFrom:to:] : sha256 f8934624b5a309c1d38d0f67d2a25a47174b1ea5de31662fe86fd7bef840b908 -> e520716e05cb37c67a1263d85cfcf34a98220efc5fa18e9672d5a05cca8df4ab
+~ +[CECMessage cecVersion:from:to:] : sha256 8ae16aa06989ddb8dd8043a1c36d0bca64aab70ba9c74f7ed4a233be3d465dc6 -> 8b9a53c6241c6134b3ef59163fd23bcb7f705ccef5f2c4989cd8c621b43ea396
+~ +[CECMessage getCECVersionFrom:to:] : sha256 a5fefeccf343747629866697349ff57518f6f05e35ba34dcad8479480a88bf99 -> 8de225dd7553bfc86acf140e7f61cdb473a25b7b93b6323e15b7c792c3ce5858
+~ +[CECMessage givePhysicalAddressFrom:to:] : sha256 f736c6b34452e621972dbab9edaa679451a88faabf34898538647714e0383a33 -> 592cde4628cfe0221d0c9a9857c030cd145f9b7c5efb0dd5ee4eaaa86943c764
+~ +[CECMessage getMenuLanguageFrom:to:] : sha256 eb049f26362ee323295b671c34e3b72c2486838a3518274b277d6aee6bfcacf4 -> 7c7190c6c9e634ab83d9d2d84ee88c48dc141d9f18d3c0cd5d10255c809bfad3
+~ +[CECMessage pollFrom:to:] : sha256 1793b3ddd2a5d23343351bdeb9e4d278cc214082989f813f62a2710d061ff061 -> b6627e381a1cb6eac1a1fb23d4319f5f5f1da8ac894911412fe25b7342825bad
+~ +[CECMessage reportPhysicalAddress:deviceType:from:] : sha256 6278b960d9fb7421f3ce511977c35e26504e05fa495fbd3486c07cc0bbc76740 -> bcadc889b2d605653b3efb7cc70df8f8b7b8c42d9de6f9d90e8dcbf811f83c61
+~ +[CECMessage setMenuLanguage:from:] : sha256 952fcf5a641f8c6186026308427f80897a6d669ae090a5fce053a951b55ee351 -> 6d3928d45f3605f1c7f41a24982393a4e9e4fc8cd234245becd858c36f527cc9
+~ +[CECMessage reportFeaturesWith:deviceTypes:rcProfile:deviceFeatures:from:] : sha256 28339b76a60c365c7f4429d4fdba076e1bfc4ec8473f5f2c1935cc71a961d0a0 -> cb97f1696ccf87ce1010c9bcc5fd02c90309e7a7ee410c60e0e560f5772fd5ff
+~ +[CECMessage deckControlWithMode:from:to:] : sha256 21d6915d168780b2df14815180912b028dc561222d67e2c65a80ba9e33c8661e -> 2760ab8152939414a8640e1a85012c8243b207eb2a7cd75520205690609c62c9
+~ +[CECMessage deckStatusWithInfo:from:to:] : sha256 a128600791c2911f823af5fcce14f756f7237d399c03b20223fbaf1dc3356da7 -> e66c3ed92906a785566dff7bff30469ec45880bb754046a24c7fdcb9f86c09ef
+~ +[CECMessage giveDeckStatusWithRequest:from:to:] : sha256 18b728baef5089ebd8007a055132bbebf22b259f7fcf4cdeba6b612903fb392f -> 5f8ee5e680da2187170ac8ac546d6566305e9e4af23d29260e984e434f5b1235
+~ +[CECMessage playWithMode:from:to:] : sha256 34de3814efeab54f9340678acea7472ea9236c03aaaea91b223854c639e141af -> 1425cf129f654e1a83e7df9e014de8953fd0b5007ed1d2e945e9de8354c4cf8f
+~ +[CECMessage deviceVendorID:from:] : sha256 8589ff8f36ce999d0161d7bc833528504a02a5232d86cc0e89dbe26a63f3d60b -> b826dee89f6b7630b7ab394ffd8d1ba29cd99767bffae21c356fbe1841471f71
+~ +[CECMessage giveDeviceVendorIDFrom:to:] : sha256 75085125d8fcb9dd25f97616160d2f8e67e85f0d8ad71ece7312268893c3abee -> c365e6231ee72dcc0b42013cfce5a01c82bda34daf8279c0332a7214396e1aec
+~ +[CECMessage giveOSDNameFrom:to:] : sha256 628ab883f139856394b09cf53bfb5e8f649ff086371ca1979edc48b53c66af10 -> c1e53d1a6317bf22b4151b5a37c19bcb620b49931cc03a03cca1ff6db7083768
+~ +[CECMessage setOSDName:from:to:] : sha256 5b79eeae6be31d812002374f8e13631c53a63245dbdb828b74c94314613c4bc5 -> 7f765557cb98bd5d59cc55a80c41b51da49ab1cd8220fecad602eaed160dfb9b
+~ +[CECMessage menuStatus:from:to:] : sha256 090b56f57b03243a0332618f89ad309d2f780054f7613bc5607a8a2795b02b96 -> f3b03f609519f367970a7ff5ef6b5aa6adc43937b396d0cb85ff57d48ad558cc
+~ +[CECMessage userControlPressed:from:to:] : sha256 84b4315500a6202f475936680dcb75e371967ea7d041dfdaa3516b351e2b9705 -> 40cf35d765f9216eb3a5530cf5ae54953a43413ffe002489178ba40ed9cf85ea
+~ +[CECMessage userControlReleasedFrom:to:] : sha256 40a9f7ce5211d2eec7e60d2541762b2fbab7bc1f1c978f3b7da672b630ccf0b0 -> 2f9accec9cda039e0431cdc68e5bbec7b21a04c8523e80e6352af3e60445bb30
+~ +[CECMessage giveDevicePowerStatusFrom:to:] : sha256 ca939d48ce12e3eedefc5cf4511112f5511ddc3be902c0b2f8fc83ae57065609 -> 60649a5f9194956b4c35ccf5bbf7e61ddb9f7729dbcdd485782aabbf5a1cabd1
+~ +[CECMessage reportPowerStatus:from:to:] : sha256 56333af108666db76bfef54c2f605ce2e937665fcda19c9f536b004408d84ceb -> 49fc75793cd5f089af3981f814ecbc36702b3b6a13593f9a6d7cad0e79d2d156
+~ +[CECMessage featureAbort:reason:from:to:] : sha256 9223de8beb007f16037adb8e77f9facf30ee56b34966f701ffb4690a9a98385b -> e9a61f4013ef0203e9fb2c11a6c0b8417ac8bc615e26376ae21b5227c9b680a0
+~ +[CECMessage abortFrom:to:] : sha256 2b0e0d48990822cedfce06bbcfda4f0f1c40bc021edf011aa26c79e5519bb93f -> 521e80e793cfd2f613fb4c9134625ac273f4a2c1895f17057a2e7dc07971512f
+~ +[CECMessage giveAudioStatusFrom:to:] : sha256 d35a001179ec95b5100316e4a471f4adde8efcafde562ed1ba2795e853a9685c -> 9ab2059a54a988217eda635242cc71be5ad47308d64e3c29ef86f5e6cfa53764
+~ +[CECMessage giveSystemAudioModeStatusFrom:to:] : sha256 128933b08acb7549a14c21aa93ff5e7decd927ee7a1171a82fb3435f783cf584 -> bc9564edf6e9a87f4d12dbadca92f621808ddc8c6a55995298478bf6f6a6a760
+~ +[CECMessage setSystemAudioMode:from:to:] : sha256 6877307f3e85039714deee23c8a5fedb4376ee2dfded527d9482e71623a2a37a -> ca542f8d0cfbc386fccc94a980426a3f26d4fec681778f26c8633c7102283406
+~ +[CECMessage systemAudioModeRequestWithPhysicalAddress:from:to:] : sha256 4308232ca060c3fc00bcb8071550baec833883c8a00ea5bcf9d0d2eba4d5f934 -> 954ccd22bc5c0cb9cd56fff96a0c205505b16a95ae58e7b681d5158073f5a28d
+~ +[CECMessage systemAudioModeStatus:from:to:] : sha256 e93c548dd9bd7b974aadf86c88726ea5ad8a2e47ceb1f886a8defb2ea5815a90 -> 423f0892f577832d6969d32af688e51b7a200daf5edd9f7e82e7a072dbb9c30c
+~ +[CECMessage reportAudioStatusWithVolume:mute:from:to:] : sha256 5b7642060e4964851ed4eaa401576f7f521484a5fc8a4196b103a3336ff0aa0c -> 6e45dd8ded5f8dab873f65e7d56235533b029aff7b6a2ce4aa4d39d210aa55d8
+~ +[CECMessage reportShortAudioDescriptor:length:from:to:] : sha256 e249fe537eaafb255ca77b04fbebc7401e862cf765adc7e98cec529daaf90d3d -> 66d6daf750441de579f8183fc69e728240654dc2711cecbe4c49a4e2d4eae904
+~ +[CECMessage setAudioVolumeLevel:from:to:] : sha256 476825e861409eec210bfdf7b6ebb87cb1e220514e12da3fe47d0b093e87fb6c -> d7661d851615b2ed69cdbe779bb8b310b112e9a7d7d81c1bf4d3084de987d7bf
+~ +[CECMessage initiateARCFrom:to:] : sha256 61abd6f96d1c661c376c93a208726196dc6423786d3ed65faa83886eeb63889b -> ad8a5a97ca933227d008cc4a5527b96fce7324236a51eb10b7cef7b483e29cd9
+~ +[CECMessage terminateARCFrom:to:] : sha256 c2413f90cc257d0139bc59b4d036b5759b15b01e30f5c0577f51e37b6ef84dfd -> 44dcf319fa8ef2878d83c6593e1f96126ba0e410bda046d23d7135d2599d1b1a
+~ _OUTLINED_FUNCTION_4 : sha256 4fbd2cb0575a61f818c8087c7e6c6f2101c3f9cddb58432591b5b494d17b54ae -> 4e35ad433321e2d010050814a45a1454cde60db62f878193ea50a7e59443c299
+~ _OUTLINED_FUNCTION_7 : sha256 b65fa97407b4595ee194e73873b3f955a81cdc5bf8bc7b177aeff76b03ee8c6d -> c34d8474f821151ef16bb063fe56713e629421fed4525ce8b41dd287c7d4f4a0
+~ _OUTLINED_FUNCTION_9 : sha256 339e3c19d26ebc429455e68e91761ef5686680ced92588d4fc29a702d7d5396d -> d8756693bdbddd26b30d4577351a77a5d4fbd61952e221c15a8e7c1ca49d9a0a
+~ -[CoreIRBusClient setPairState:forAppleRemote:error:] : sha256 96dcb608a6ae6219f60f8f1957c4d40d7b7bb19b02c7ed32036508fe3aa3616e -> 3ae573abf2f2824f1d9f38a51b47d59fa59830deb77f6be008fbc4049610f87e
+~ ___68-[CoreIRBusClient addDeviceWithType:matching:learningSession:error:]_block_invoke_2.cold.1 : sha256 c5e4eb864785285815045c7279ac4ad80ef0153e12578895814da5c24cc58118 -> 3d8ee459068e6b3cbb4c09344ec63ed9afc42025cb3bdd3b5c1868714a71e41e
+~ -[CoreIRBusClient deleteDevice:error:].cold.1 : sha256 e2545e19cbc76a8901e92a4f0c7c4c2805bb5eda8817393cf6f16d4213bfe33b -> 131988fd6e6c7e2d618f0e9ca627657c1ea8c2cc23658b6dd063649e1a862033
+~ -[CoreIRBusClient deleteDevice:error:].cold.2 : sha256 c633f25a56aa689efa2e024533085237122e6539ace5a3d76f7d1b3115dbdc01 -> 10c4f2853f3c9ca9f20e7e9a53ad428205cf7b114a69f0bf10a59a12f38938b2
+~ ___38-[CoreIRBusClient deleteDevice:error:]_block_invoke_2.cold.1 : sha256 f82b27d68767a50eb547e00c7c063b4c7289428466a4aac0836451e92b5d2047 -> 12208724251b118c556b8b2aeb99013ee330af1dad55d41a157f2eb96e32d6a5
+~ ___71-[CoreRCManagerClient(CEC) cecBus:activeSourceHasChangedTo:fromDevice:]_block_invoke : sha256 e4545b7745e1974a539d521f4e229dc160de16abc58b65d9d9d89156a880894f -> a311e581d45ece636b4103541f113c764d25c654b71852948cdbc16e1f3df187
+~ ___53-[CoreRCManagerClient(CEC) cecBus:rxMessageReceived:]_block_invoke : sha256 97788b85c0694c2ac715f9ce8783f59ce4e9930b640dcaac09376c811c90ed26 -> aa969abfe736eefc6950d30e3dd1b1e80ab648810ee5c5241455bc2829e8952b
+~ ___55-[CoreRCManagerClient(CEC) cecBus:txMessageSent:error:]_block_invoke : sha256 ce175d17775545e5503c894554d449e860079da325db8dab9052ba2823135238 -> dba0d1bd16405053834f3834d9c0e9cb07eb979785710a5ebc74164b1db7c141
+~ ___62-[CoreRCManagerClient(CEC) cecDeviceShouldAssertActiveSource:]_block_invoke : sha256 973199cfdc573b291abc6e54e64204b6556562e4e6fa00d50e72eeecf08b4c6c -> 5ca4d1041e75cad18d969d5347e2ad3159ada2c103f39a169de8293c98339686
+~ ___67-[CoreRCManagerClient(CEC) cecDevice:activeSourceStatusHasChanged:]_block_invoke : sha256 3d1761e482f65ac95c4d4f87d723b2f450c08cbb71b7bf5951eb73cf00bb51ac -> 46f96918bc3f2dd0c67dbc63ceb6c50dea50afc4e787e4c3837db0ee6f7c55e2
+~ ___80-[CoreRCManagerClient(CEC) cecDevice:deckControlPlayHasBeenReceived:fromDevice:]_block_invoke : sha256 f98c95a415ef72f343ff3b3bd3ab92c5ef20fc459c6921460133d06593fd7bb4 -> eb52464364a491fdea04331b23af323a5ba3d4b75382fe7f5a94d6014a529697
+~ ___83-[CoreRCManagerClient(CEC) cecDevice:deckControlCommandHasBeenReceived:fromDevice:]_block_invoke : sha256 96be23a70229a0ce78a5e0b7a3ed0ff3a7e0859b44ba16a37b4ca16502afab25 -> 9100985143ceb8900779ee58528064a7953bbf96dbc70e98ee60c1fe11aa5d9a
+~ ___81-[CoreRCManagerClient(CEC) cecDevice:deckControlStatusHasBeenUpdated:fromDevice:]_block_invoke : sha256 e78766f0e3692a2c2e58ef1bc97406c06f442e520783d9826e1aa8e48b1be839 -> d78096d832ff932a710e6085321642e45e8964a96cfb01139380a6f12cf7f616
+~ ___51-[CoreRCManagerClient(CEC) cecDevice:featureAbort:]_block_invoke : sha256 db929827e08a8ca0bdfa072d041a87b41b5ebaa08b7f123182865b79f681fbcf -> 5ab454f063bad6ab99baf42a24f47f360a0adf445c32fe48e92dfcefae3f166e
+~ ___68-[CoreRCManagerClient(CEC) cecDevice:standbyRequestHasBeenReceived:]_block_invoke : sha256 e7a1af5120cf2c6709373a0e53968be657a5417e1ea2e3009ec2c463b89122aa -> 8362820672210c77340e0326e71a4e8c49a95bcb895972db371c67cf989656f0
+~ ___97-[CoreRCManagerClient(CEC) cecDevice:receivedRequestAudioReturnChannelStatusChangeTo:fromDevice:]_block_invoke : sha256 14147e5c3d14778d8cb5624857fcc4bf4894fc594542ff9b45fb479cbf723750 -> 20be1110a9cd607b6dfa1e310770232e7ad5892000c9afde9ad6e087e490159e
+~ ___104-[CoreRCManagerClient(CEC) cecDevice:requestAudioReturnChannelStatusChangeTo:didFinishWithResult:error:]_block_invoke : sha256 4d18daeb0432e8b387093072229365905d38cd8c71307a64807a86e1dbb43ead -> 43eaf00e96e4dbad814f82ce7d1b412c67d1eb6281dfb1503e93d7e77b5c9bb3
+~ ___94-[CoreRCManagerClient(CEC) cecDevice:receivedRequestSystemAudioModeStatusChangeTo:fromDevice:]_block_invoke : sha256 081727cecadac8b266608a336f6a1d66ce7965433c2833bd3e4aa8fe9da2b665 -> 43e768fb7fcf22d8211f4a59d1d8a448d123f538d0837c9668d4bceb56080fc5
+~ ___101-[CoreRCManagerClient(CEC) cecDevice:requestSystemAudioModeStatusChangeTo:didFinishWithResult:error:]_block_invoke : sha256 cfc1013d920f6e19ec45f68019cb996fea19093cd0e7cc0b014dcc99a7585f5f -> c86f8688b5a0a289ae9b1042e9db3a51c8244430e24db12808cbeb675df3b32b
+~ ___69-[CoreRCManagerClient(CEC) cecDevice:audioStatusReceived:muteStatus:]_block_invoke : sha256 3eaaf480673053bbde54bd14dd2d1820e158409f25dabf5f9ae8809b15ff8321 -> 1d591019db558d37b035c785f188ce1becc442e4700ac6a5b4b9af54380a2ed4
+~ -[CoreRCManagerProvider setProperty:forKey:ofBus:error:].cold.1 : sha256 3e85a82ad88c05e4b95b253e5872d9efb3c4b122453afe4bb9a031063c0e33e6 -> 12cc7f3f3c5379c5b5f4c5044722169c13f5016d145c65d92f48e20e77409604
+~ -[CoreRCManagerProvider interfaceController:didAddInterface:].cold.1 : sha256 34191f5961850fb1210a07af77aa89081768deb234cf04e75d6ab691cf82c075 -> b003fcef5d61987065f6842d6777340ba132a66d027da22aa02d3836af6ab42d
+~ -[CoreRCManagerProvider interfaceController:didRemoveInterface:].cold.1 : sha256 29e609e9502c4df03d3bcd2c0ddaa9746c1d25f5fcef0c6daff04d709c14c147 -> 32f769f4d2476113aaee72b3c380f0b0b5274bcbc22d06cece310eab40eaa98b
+~ -[CoreRCManagerProvider initOverrides].cold.1 : sha256 20b8f5471a600c2aeb19217cac43c570c95eedcd1198d42c915c68e6ba0a8681 -> b1e820f7ee9d62b12b017ee990d9eb9c4e20af98d4a9d093f5aca9f0f1808cac
+~ -[CoreRCManagerProvider addDeviceWithBus:transportProperties:error:].cold.1 : sha256 1e0a7725fbcb8d7bcea9a3cfbd20ee6760d9681f07052a00ac4096ea4f75aa3d -> c8524949d13309e5e2d0027900abc542cb640e10c8b5a9c74b4bfdb14619f111
+~ -[AppleIRDeviceProvider dispatchEventsForCommand:toDevice:].cold.1 : sha256 b95b7ed0a95507fa370281d884ccddc3827b5f8b90119781b211e9544f24ccde -> 9e4cae828197c38b5fe37379d1db232f926af062615c8e7984d9cfe2b200c2d6
+~ -[AppleIRDeviceProvider dispatchEventsForCommand:toDevice:].cold.2 : sha256 815ce3fa9607e81110af82f4bac4c0857f3938e1c10d89d12d4f41c768baed1b -> b52dcf38ef5154dbea30e993f673a353d619975b0d58bba0310f9f94dfe19c36
+~ -[AppleIRDeviceProvider dispatchEventsForCommand:toDevice:].cold.3 : sha256 88841699ffe54519ae79011f16620c005ddee2a7b32528aed02df8973ebee038 -> 7128b6fb8cd17a0adcd4dbad056e1510d714c12fb7359e8ea125e60aab0bf3d3
+~ -[AppleIRDeviceProvider dispatchEventsForCommand:toDevice:].cold.4 : sha256 22f35050f3d3905627fac41275640de6fec45c60fd4dc66b38c24339744c286d -> 6535fe947decbc95c5a29cce3a361d7dd9f913366bf863bb2b043bd9e5b83ab4
+~ -[AppleIRDeviceProvider dispatchEventsForCommand:toDevice:].cold.5 : sha256 2b02633d51120d5441477d4c5e06e88e8385bf00dd042c20b2baddef84c895ac -> a343457ee77bb10714168f1aca2e0cbbfddf06e343c112134fd389c4c2b489df
+~ -[AppleIRDeviceProvider dispatchEventsForCommand:toDevice:].cold.6 : sha256 973972170d0ffbd3ddcd9c054ee88974b84df4a528f3cbc98d73061fa0b32d60 -> 1086e65848801805f5a0e11b2b23a8dbe7bc4787680dbf2bc583bbb5f6398c4a
+~ -[AppleIRDeviceProvider dispatchEventsForCommand:toDevice:].cold.7 : sha256 a1a81d9c0623026156ec67e578d4bd1fae58d7501c6f31af5cbe4039848f735a -> eff937c0e6e903846b891490eb022f29cf7b5e23863eb71ed03d76b3efae5480
+~ -[AppleIRDeviceProvider dispatchEventsForCommand:toDevice:].cold.8 : sha256 81ea5cf5787cf5376bb9f194e83220bf94c1b7f7a669f0bf2dbf36277a45f2cc -> e762d08cf0b70ebe24b8eab7e18f790decc142a573128122a502e34e484df2a5
+~ -[AppleIRDeviceProvider dispatchEventsForCommand:toDevice:].cold.9 : sha256 930eae9e992c600fb6d55c8d153feac721fa4e5a20af61699a3bbfe534934c30 -> 91fd4a97438dd00c9e53474b7e2781231891f8b04807e6b7fecb7d6a5ba00c79
+~ -[AppleIRDeviceProvider dispatchEventsForCommand:toDevice:].cold.10 : sha256 c9545cf45a9fe221e5ee90f5f23647eff6de323aa766a80a2ff274d593146e96 -> 82cf03f5ace5014cb5d992b39b52a348fe1d23e172c73e45998f2a69cdd4719d
+~ -[AppleIRDeviceProvider dispatchEventsForCommand:toDevice:].cold.11 : sha256 81c9c33eed09de00c3af5edab3429c13b78b2b443d177033c3d81b8f7fbbd062 -> 316d664485649f3e1d4912088af9eaa85096f2c6106037fe7c12a9960fe36db8
+~ -[AppleIRDeviceProvider dispatchEventsForCommand:toDevice:].cold.12 : sha256 daa05823545c87bfb526ec2883c6779d2632d6857aa8d0c371890562a31bd556 -> 4ce1582086bbaa3d5ba8e044a70d3f492cd0f4fbce213abdc94cecaeb8adee5c
+~ -[AppleIRDeviceProvider dispatchEventsForCommand:toDevice:].cold.13 : sha256 a62208d7b96f32223c323d239bb1728fef96888be43ff78450299bbe4be7d48c -> 6f2a712614e9985e5a8a29f8015eaed4fb17ebf2c005963e9a8e6018d36ad542
+~ -[AppleIRDeviceProvider dispatchEventsForCommand:toDevice:].cold.14 : sha256 364ba033e3d1bd49c230a1255e21a5ec0022b3d24f81615dfacf768fc78aca0a -> 83bb974d9361bf178c0a287964f29d48fbe087335bfc0216e1095ed263fbdc73
+~ -[AppleIRDeviceProvider dispatchEventsForCommand:toDevice:].cold.15 : sha256 a99abd7449005ade15b1b2dd7b53ac2324f49ac862cb3cb6d4edb5926666cbc2 -> 69811c929f40f173816085df22cf1d4357d9efad63fe6f5a107a77a6a84feeed
+~ -[AppleIRDeviceProvider _dispatchEventWithCommand:timestamp:toDevice:].cold.1 : sha256 68141fb5f7a088d7f1e62d55da1da2fa279ec35e174880600c73047105b89ff3 -> 3adeef1b8db13b6f39291ea70a94d1fb71001dff8a45da321db067fb5f824556
+~ -[AppleIRDeviceProvider _dispatchEventWithCommand:timestamp:toDevice:].cold.2 : sha256 55da20c701126d581196ac1048d7da43a0f1bd057f0eac4d090859d6b6740067 -> 2f506b8f46404475f49b9b0ae410940b7e8d9a8822a282bc4618b3ea633a827c
+~ -[AppleIRDeviceProvider _dispatchEventWithCommand:timestamp:toDevice:].cold.3 : sha256 3352b9e520abf58c2def59401abee77317a60fa6e16c20188b96816c9446a655 -> 306f38f3ca05fd660a316b3e69b961354aeaffa36b9a2fef78e59430212bb21d
+~ -[AppleIRDeviceProvider _dispatchEventWithCommand:timestamp:toDevice:].cold.4 : sha256 eac69f2b1997d0dd956acbc7940479483f6ed24c8002257a60c81a919c0260a4 -> 9d94f9a21bd100af32c7ed4c09b0b8648115d32658229d13ec8de3f419834518
+~ -[AppleIRDeviceProvider _dispatchAppleVendorEventPage:usage:timestamp:toDevice:].cold.1 : sha256 e7ea42fd0e64b9eabecaf2c335f738de32b48dc563fdc8481e34140591e0e956 -> 031da8aa8b68a6e6e2b454a1988b159bd682ac07073a7fcb743ca9c0eea29c45
+~ -[AppleIRDeviceProvider _dispatchAppleVendorEventPage:usage:timestamp:toDevice:].cold.2 : sha256 f82b55917511ab482d14b49c9634053be22a05018a7422a20b3d3835139b454f -> 48195fe8720e07189904db1afa2d45fd2a974ba38efe06c3208512ab65ffbd27
+~ -[AppleIRDeviceProvider _synthesizeButtonReleaseWithTimestamp:].cold.1 : sha256 527988bc1bd4f3f48c62c9fafc192a2b0f6a60d0b9779d9a1b45346734c0e92c -> f8609789ee2212156516d803447c6a3a3d4002e491d94cbd2e9719dec0ea6107
 ~ ___51-[AppleIRDeviceProvider _schedulePressAndHoldTimer]_block_invoke.cold.1 : 80 -> 84
+~ -[CoreIRBusProvider didAddDevice:] : sha256 42af116cf050f7cff5a6094481f30f8d5caa5e9fc2870e9d3eab847e7167a5b8 -> 78998690a6cc9264e58cd0e45b73aacefa6fbe9cb512430272abf6e6c941f37f
+~ -[CoreIRBusProvider addDeviceWithType:matching:error:] : sha256 7e6d72f6c3431f23738e2634d64a81bd9ef698e00bd002e7b9fb0566dbcf420e -> dc748594edc359249cab3ad34e0b2a0e9d47d587cbb3e6f9172d78fc8f7e38d1
+~ -[CoreIRBusProvider _addAppleRemoteWithDeviceUID:] : sha256 13a4bd0eed9e6e4b7c50bcbc68cfdc254aa82f8ca0897cc443fc7924740f7d90 -> 44061cc58193fa50c2e16e72e57c7115781f7708d2bc914d045806868c3df9a5
 ~ -[CoreIRBusProvider migrateOldRemotes] : 1196 -> 1200
 ~ -[CoreIRBusProvider recreateDevices] : 1240 -> 1244
 ~ -[CoreIRBusProvider copyDevicePrefs:] : 628 -> 632
 ~ -[CoreIRBusProvider _removeMappingForCommand:from:] : 236 -> 240
+~ -[CoreIRBusProvider setPairedAppleRemote:error:] : sha256 cca801bc97211d80e212d7be69dbc7fd51c63b72285d9b1254e267cb8c48ea1e -> a2745cdd77ccffb30b78a456ab94f96f8128307a543168408f6b9dc46ae7d95e
+~ -[CoreIRBusProvider willAddToManager:].cold.1 : sha256 a484a44a3c6204a8f4cdd02e182a80f00883c3575cb567c418321fde1dae2f69 -> f094315044b8d60296cf99e44a9f73f5c83fe1fcc4b31b1b973299be66f122a8
+~ -[CoreIRBusProvider updateAllowHibernation].cold.1 : sha256 b6514f21529f4a6c37daf7e3c877a559377beacaac3a34eb4d582cfd93fce62f -> 88bbe9126578070d00b19bb4ac5f7aa4acd70a97c905c169b0f0b9b34eee3cdc
+~ -[CoreIRBusProvider updateLearnedProtocols].cold.1 : sha256 42eacf5084182db75abcdd4db725ce6a86a3b475d8828e7c42e99b252024d0f8 -> 0251bd7b4a3e15cd6fcfa305d6f53e9f5e4f2314a0561da8a54a5f7f911d4d2e
+~ -[CoreIRBusProvider updateLearnedProtocols].cold.2 : sha256 2a09f6c1b33597b24b236382991984e4f91d0fb3e44853d222cb98bdd50e4621 -> 30fbfa5847c95678e742db28f9200307650ef61556986675b6aacfc60511c843
+~ -[CoreIRBusProvider addDeviceWithType:matching:learningSession:error:].cold.1 : sha256 a1df256d5fbb49634b3e64a1f05e906bc096d817bac9fcfc4170dbfe2d35ef5b -> 0f9d89d6a58600b7e3e4bbdffdcca864b807b2a18c9b015d634326805f2fd11d
+~ -[CoreIRBusProvider addDeviceWithType:matching:learningSession:error:].cold.2 : sha256 b86160af127c3ec4edacc8be59a875d8c3ed553aa1ec7f3d45190f66aaac02b0 -> 922a546c9d5f0039209a110eb672288f571f98774e21102931b3431dfdfc86d5
+~ -[CoreIRBusProvider getExistingDeviceWithType:matching:].cold.1 : sha256 336f499d1b14b7b2ffadd9c659d1618c41be426b50e5ec4924ba63893ad4d6d8 -> bf75982d58fd1771aff0d472cccb6b88f297df50e029c773760d82b9e6ec833f
+~ -[CoreIRBusProvider _recreatePairedDeviceFromDefaults:key:].cold.1 : sha256 8d16a2ced59be2784f9040a9c48384da34fefdbe4630ac9fc599e6c9633c6a30 -> be463271d28ed813040ac9d6f5a9a860cb03dc6849cadcde0e8d78b623177636
+~ -[CoreIRBusProvider _recreatePairedDeviceFromDefaults:key:].cold.2 : sha256 11ac05e5a10832003e6790a22cf938c8fb86f50c2866a8c1fd4d7297bad108cd -> 66b9db4752f5b01c50289c0da6fc61f324bdf5baf6f3c29998a334ee16fbc6f3
+~ -[CoreIRBusProvider saveDevicePrefsWithDict:error:].cold.2 : sha256 7504744c0a48e19e4d7f60e90697adf887dbcb61e005fd1525f9bb23d3a11866 -> f6422f2e2f80a6f583d00d172981d6bda833413899860593ffe290865b7895d7
+~ -[CoreIRBusProvider saveDevicePrefsWithDict:error:].cold.3 : sha256 5f9ada12b5d56bd8fe12dd1c3ae8e75ab2a5fb7fa86fc5d6c8c66e13f13a2fa7 -> f6cbffc51eb7f1a7be7e7b02a11da2311320bb45a6848593901ae727e0ba9b8b
+~ -[CoreIRBusProvider deleteDevicePrefsWithUUID:UUIDKey:].cold.1 : sha256 366197aa28ef809143aa63b8bb004eebe980ed1f2f60d9c13b3abd3ebf5590d5 -> f630fe7d2d136119e770e458b66a78f65b9a443b1e4750071aedd5632718949c
+~ -[CoreIRBusProvider deleteDevicePrefsWithUUID:UUIDKey:].cold.2 : sha256 285777b70062f28c7315a08ba3bd1f45eed2ec265fa26fda560b5e4d5885a35e -> 9929cab83ae5dd1a5ba7438a059aaf47e14ed9e392706c387838919e698f0b22
+~ -[CoreIRBusProvider deleteDevicePrefsWithUUID:UUIDKey:].cold.3 : sha256 a3cf9795a8fa99e37919d80ee01c7bee9259b45d1500345ccd66ff6d2918b869 -> 4fa1e88ee2cda44b2db261fa158b367ea0df76a62f8f17b07193b9600cb61aa5
+~ -[CoreIRBusProvider deleteDevicePrefsWithUUID:UUIDKey:].cold.4 : sha256 5f0f26514e92386bf14e43d2ad47cbea37034b0c21f96afb4d2fa4e4827bd9f7 -> 2f624f853ae0c36b95f6dcd530d3e215522bf4c508d1b943c706812b2d81ab25
+~ -[CoreIRBusProvider deleteDevicePrefsWithUUID:UUIDKey:].cold.5 : sha256 a2a8a00ab6335ab5238f45270741381469e13193b4a609ffe5d5eff4008c47ef -> a5125c1e0150287fbe78f3bdc10e90bb6ce4e3a84b8d7181c43196051a82b686
+~ -[CoreIRBusProvider setPrefsPropertyForUUID:UUIDKey:object:key:].cold.1 : sha256 c6b02e8242634860d92bd7474db60604cf09ca7d7678206266ada221e6ae001c -> a32f760f303084db0fc96ef8f41654d4ce1101ceda9a3ea6364d11695ec4b181
+~ -[CoreIRBusProvider setPrefsPropertyForUUID:UUIDKey:object:key:].cold.2 : sha256 d8f3c03ea55408751f601144992611c30c40a4ad420b53cd86c2875fca99a622 -> 1425dbed1b8bc492757b698c5daea1b96ebb9b068a00ada5b4df692f571e22d7
+~ -[CoreIRBusProvider setPrefsPropertyForUUID:UUIDKey:object:key:].cold.3 : sha256 422f46d486536516389573ed0a600dbfec85f64542674e3ba3d29a9144829695 -> 38c2615f4e9589f6a34a47cbcb6489be26e4770d33a87885f25ad0d92999eb63
+~ -[CoreIRBusProvider setPrefsPropertyForUUID:UUIDKey:object:key:].cold.4 : sha256 e9395f07cc9159b0a9ebff7046d901c0444cd2364a5e405f89625b1449040fc5 -> c2c2d1dfac33be3b63d4f180290249337e5ba8a400a48797c6b54c575f209a97
+~ -[CoreIRBusProvider setPrefsPropertyForUUID:UUIDKey:object:key:].cold.5 : sha256 b19867c43d6a429141ee73ca0212b492d587dd7cc2168e5030f72d85781724cd -> 3695254cce7a5d2c7a9f3879d2fb9978abfa7184c917a43517504ba4aa67b613
+~ -[CoreIRBusProvider copyPrefsPropertyForUUID:UUIDKey:key:].cold.1 : sha256 ec99d4cc5eba86d74b70b1aace289f26b799a9de15c1fdd226e64897f91deb4c -> 929d9bbdca1dcc2b6e299d37fd31235f60146b80835bfbea5caa78c0672a04ef
+~ -[CoreIRBusProvider copyPrefsPropertyForUUID:UUIDKey:key:].cold.2 : sha256 1b5e3cfa23b41a5c63893dde8ed04771934985200c1af2324e42ce96747e1d86 -> 3c5786f215feed6b3aaacda335cd6dd87d82839022fa56d5a1bfa1402fc0572d
+~ -[CoreIRBusProvider updatePersistentValue:forProperty:ofDevice:].cold.1 : sha256 8921e7e22441c78ca754c237f835871b9cf5245abdc58264f8af690a7dcb04ab -> 343fdf140235c3fcaf2d30379f91c68386dd974113d18d8470a41477776b281e
+~ -[CoreIRBusProvider updatePersistentValue:forProperty:ofDevice:].cold.2 : sha256 bf15c87e7764976deec638582f8f385103dcbccbd2e9e2fa9c4b1ca5b4b075fa -> 2e908c2f140bde8ca69fd68501e3e478478ecd8124188b52f33e2e891e7fbcbd
+~ -[CoreIRBusProvider mergePersistentMappingsFromSession:ofDevice:].cold.1 : sha256 88a5b729c6b9b636093e7682d92ba6973b413a42d97ab7acaeabf43b9b5694e5 -> bbacf611d5d384a4ac3a9262d4b634b7c3d8419e387a0b358c628e240422f134
+~ -[CoreIRBusProvider mergePersistentMappingsFromSession:ofDevice:].cold.2 : sha256 94ead01869fac6d4454fdcb07b7bde77e6bf66d6684b684743efaee053ab431c -> 7b94abb9e94ce1ffa8204d1c690af9b640df7ebe38de09723ab612a65bf67204
+~ -[CoreIRBusProvider _findAppleRemoteWithUID:].cold.1 : sha256 44eff88c65451e06b67ff061398f45cef3d0dd25ea53570251112553c152aa1b -> f7d3d533b4a235c91534e39b09dbd4875483399dac7d7731eb1ff7bea51f4d2a
+~ -[CoreCECDevice(Analytics) sendAnalyticsForErrorString:vendorID:productID:serialNumber:week:year:monitorName:].cold.1 : sha256 28972edc6b9df09f7da454052af4b6becf2b55b6181472464b7401218c1a9c5e -> d3f465521a4672d0651552cf1212f1598f51fd6c1b65a330ab74a42f52652298
+~ -[CoreCECDevice(Analytics) sendLogicalAddressErrorAnalyticsForMessage:].cold.1 : sha256 bd0e38a0612c667572ae91f066274226b1fa8fdf63c4c6f529337591e43ee298 -> c20c554d82a8e2f2c1b1da5f9cb69ceef9d31152e350028f28806bacce41b4bc
+~ -[CoreCECBus activeSource].cold.1 : sha256 89e2e966d85142852192653119725cccac7ea084e52776b898d46d6c68c5f087 -> a7d305efe9667d46e04d756956b9b06e63983215c569eb541502a1e4a08c2d07
+~ -[CoreCECBus removeDeviceWithType:].cold.1 : sha256 1c136ce407ad4c665bf73eb77cdf9f0d3a623d71562309ebde3f3efc33617e18 -> 8c29c9d6ad3ce4faee7ef7d993570e43068f84afead88c0b1ae7607e936d9202
+~ -[CoreCECBus removeDeviceWithType:].cold.2 : sha256 55327b67cf8f3fad2f713f8c682ebf7e327c23787948c19fc902201777a029fc -> e8c45f055b7aa8de648f7f84f6d7cb431b1a5d04e9f64b2aef963057965d4adb
+~ -[CoreCECBus setOSDName:error:].cold.1 : sha256 cba7bd95495a44c1040ecc5e52fbdfdb1c61e62ee00eca9a802a1158935c5fe8 -> bcd6237f95fd1178a386da9fbd6af005bd1cb08f04ce6673edd5bb8afdbab726
+~ -[CoreCECBus setOSDName:error:].cold.2 : sha256 5f184494b399d7b2f9b06fcfbb3d597cfe2fdaf1938d1618e5c967ef78b4fe88 -> af254cc76843071e68805cb263ef8e521f78764ab38e754908e162275aa839ee
+~ -[CoreCECBus setTvLanguageCode:error:].cold.3 : sha256 98d089f3e13ed4a7a9fe35863a44286164b438e3f09f08c615f40d7635b4c793 -> 9c68afb67597d69d1fc1376266065a6181efd68cdbbc0737f35a6f5f1c498435
+~ -[CoreCECBus setTvLanguageCode:error:].cold.1 : sha256 c57f57323e5640d8941239bf4c6e067f6465808a86fbd862f830640f00a8c33c -> 75068a09a525b83fe5a7e016a962fec2a0e0e8da8dddf6ceea4e40cb72a059d2
+~ -[CoreCECBus setTvLanguageCode:error:].cold.2 : sha256 0676442eb2c06f88a139861b696e8070bd6ed29b5ba55b692fb8eb7d2e8fa304 -> d5dc44e8d6ef1c15c6c556770875962881cbc0464c514404a70822b5dc9e7e86
+~ -[CoreCECBus didChangeLinkState:physicalAddress:].cold.1 : sha256 fd1c1050ff6c3c03242584c5a846d8419ff82da4bf98fdcdce17bcbb9f9e12f2 -> 725c041bafc47bd8764e7380c865aebb8ba543202eee65d5d2ec0b2c5bd73df8
+~ -[CoreCECBus didReceiveRXMessage:].cold.1 : sha256 921015cc1880bb06cd2d7f38c782275c98eb8a4e95b5d413964b745ca2f20b80 -> d8f2546bb22732e82239f5666fc884d4018f6ca220e026d75e5e15e8f80820a1
+~ -[CoreCECBus didSendTXMessage:error:].cold.1 : sha256 7eaa74e69ffdfce9549928bd5e2b3931b597fd3040a3b868cf1f6eab1a250785 -> d109370191b91838eabaca92ad3f8f2e90dfa04b4e05e37da0575410726bcf92
+~ -[CoreCECBus notifyDelegateLinkStateUpdated].cold.1 : sha256 5a5ebe32c2f98731395c17f3adae91f364ad875f7c867390751634fb629a6be9 -> 52fe317157690fd2ea31cb7c11fc7d009d8c2ea16ca8d563e2bef99e39edd4c9
+~ -[CoreRCHIDEvent initWithCommand:pressed:timestamp:].cold.1 : sha256 289d2c5aa13e8d9893252c59f51b11d75edfadbeb14fd16caecdb0b33f141a6a -> e1bce417ba344a831c0f6dc15bd1cbb1be54363d4842b6d5c9743c93a0b86686
+~ -[CoreRCXPCService(CECPrivate) fakeCreateCECBusAsync:reply:].cold.1 : sha256 ec1964577991f41e73db2ef6196001aee0405e134e5939dc80c8d3477a4cb09f -> 2698ec9cf8622a184eaa3e9d766489454cab9995650a4d89c41b2ae09ba98b84
+~ -[CoreRCXPCService(CECPrivate) fakeSetCECDeviceLogicalAddressAsync:logicalAddress:reply:].cold.2 : sha256 c4986d40c5b90ab9bf48f6ee29b6589daacfe197eeab1c71a61a114f8971e2b7 -> 953bf017c64743b83473781300f4322e485594ee8bdd7f763a3cf8a148f985b9
+~ -[CoreRCXPCService(CECPrivate) _fakeCreateCECBusAsync:reply:].cold.1 : sha256 f81040df3662eb61e0f2996189d77b9b2024f83d8660ceb9fe0e426debce595c -> b6d95bbd3208aa0beba3eece4aef32e3bf3ea2d4616bf195e3be31a7e09699e5
+~ -[CoreRCXPCService(CECPrivate) fakeRemoveCECBusAsync:reply:].cold.1 : sha256 8c1aa42bc99f16bc33638848222564f187c0ddc54d6ed061e6778be56cbc99bd -> 6c4a3a449dc3a987a57a52f7607855208f6ebfc7313b90a1dce759fa7eb88225
+~ -[CoreRCXPCService(IR) setPairStateAsync:forAppleRemote:reply:].cold.1 : sha256 916dd7b5c2332a05a99956a8fcb199375badad22e6f9d4b2285e2f5590265380 -> da8c86d2114286ac9f3caba44041b18f7c1ea2e3de686668d342a3f211676450
+~ -[CoreRCXPCService(CECPrivate) _fakeRemoveCECBusAsync:reply:].cold.1 : sha256 56d926c27d716fbcc03740184282667a9cefa607b4ffceac58f9e378c8e6aa58 -> 6899461104e4c0fdeff926778cdb6fcde8e459eb100bafa10f5c6882c3f0d7f6
+~ -[CoreRCXPCService(CECPrivate) _fakeSetCECDeviceLogicalAddressAsync:logicalAddress:reply:].cold.3 : sha256 ce32e450f728b6459bb7a91ac349bfc7f508e61a96eeb442ff6c70781d4224dc -> 58fa6bbd4726835a069f49a0a03bd595da48202d7f0cc2f93f3573d2a91dc0ec
+~ -[CoreRCXPCService(CECPrivate) fakeSetCECBusLinkStateAsync:linkState:physicalAddress:reply:].cold.1 : sha256 595bac27552ab17723a70fcef16188a14b234a492b6e4e57f02024b6064bc612 -> 83e402ce8e727e63a87f98ca0eaad66dfe5dccdb8c5f2c68fa2a6462ca54bb15
+~ -[CoreRCXPCService(CECPrivate) fakeCreateRemoteCECDeviceAsync:bus:logicalAddress:physicalAddress:reply:].cold.1 : sha256 f73ce8dcc7d13d4f3af95d2db425ae228953214ff47ea6b55c037da548932390 -> 763ceed4937d036794425cab650954b4d2e953db3cb1e3a41add61a29a36a783
+~ -[CoreRCXPCService(CECPrivate) _fakeCreateRemoteCECDeviceAsync:bus:logicalAddress:physicalAddress:reply:].cold.1 : sha256 3304c1eb52fd8d3cfb09dcebc16d15bde76fe50a6e1fb8515c700b0f5733a11f -> ba69b0c5374ba1caf9547f594f926ba29953b51fbf7e6f7d66562980899fe64b
+~ -[CoreRCXPCService(CECPrivate) _fakeCreateRemoteCECDeviceAsync:bus:logicalAddress:physicalAddress:reply:].cold.2 : sha256 26fabc8abdb86643266ecf2984a31f69e155b1c2acb8a7dd12aa8cfcf35b11be -> a1ba2cd285d4a91db7e5b4737161cbd2c410b737a6d05378e2d362b5b6ca5c3c
+~ -[CoreRCXPCService(CECPrivate) fakeSetCECDeviceLogicalAddressAsync:logicalAddress:reply:].cold.1 : sha256 96243a92da07f9eaf14250a709b3d5ef44473c34c2bc371da18b60029be3dab7 -> 13cdeaf1ed0413a19e50f85a14a0769578ece718ab175f8987b2fc6fb57ed62c
+~ -[CoreRCXPCService(CECPrivate) _fakeSetCECDeviceLogicalAddressAsync:logicalAddress:reply:].cold.1 : sha256 bdb476854347addd6a27bdccd4e23e760d82c1303ddbfb5033a09504667aa141 -> 3c45740c7e265f84d8644970cd5b019acd1114a9c03a0fd5b9459322ee191acc
+~ -[CoreRCXPCService(CECPrivate) fakeRemoveCECDeviceAsync:reply:].cold.1 : sha256 39a64c011bb06a87b77c20fb2c9c00a5ff7cba5da60139707cf3332928470392 -> 53032d1700a63771bf44d93b3c7a7b9ebaf50b92a1ef8b77c0bce924dacb83c8
+~ -[CoreRCXPCService(CECPrivate) _fakeRemoveCECDeviceAsync:reply:].cold.1 : sha256 5c184de5086d784102e562c002b91a088d00d8af7dccda11bf85eca8164d8558 -> a951db5bae7332eef9e2e717e507e9a6d92bc7a49d419c1e0db67f0ecafda35d
 ~ _IRDecoder_Decode : 2324 -> 2336
+~ __IRDecoder_Initialize.cold.1 : sha256 ff62542daff921cc5cd5aca313a0f847aecefcc6afeaa464f6859d2fcd7fea2f -> 1f254192f5023451b7b9488e82dcb41d78e742ec8ea72f4faf313f07dc152bfa
+~ __IRDecoder_Initialize.cold.2 : sha256 cf862d1a50b1d9523c470c7c6fc09911425fd4a1e76803b9b22918b81d7e1b8a -> cb6515558ae35f89554a443fe3151d4fb4bcdcb9c8481caea212c4e6c26e8d78
+~ -[CECFakeInterface scheduleWithDispatchQueue:] : sha256 64de6162830984fd0c39e8ab6442973e1c41ad34c33926fa19dd7cbd2fdc9838 -> ccf52999b3980c4e940b8d160ade0f7639367b79ed74385b547ad60fc96948aa
+~ -[CECFakeInterface unscheduleFromDispatchQueue:] : sha256 201180b5773615e5071680df4a9defd94bd7367886423a63a743b3e656f0513b -> 8cbff61f73d0d3c10d2e5469a943f7225cc8d77e29b250198392526ea5fc0a59
+~ -[CECFakeInterface receivedFrame:].cold.1 : sha256 607a4cc1eba76c2817ac7fa53e13865f67af12c139b27fd2cedef89c850b4c66 -> 7a11535c103d9667832f4b2b39801847ef309de7a96f66e207dbc240e7429564
+~ -[CECEDIDAttributes initWithAttributes:] : sha256 86217d20a99eb28a0e2da8349626e6eac21e56aa2c822c95e785ad14a9f72b3c -> cb37e77f723f333144aa901fd81e3ec3484aa723d8a023e597ed590332aa8031
+~ -[CECFakeInterfaceListener createDeviceProvider:andFakeInterface:withPhysicalAddress:andLogicalAddress:].cold.1 : sha256 f930a0e8fbe6c7a616334c5580d0473db172ae640a279f7532714c708112162e -> 49253d245a293d14922af630e6b26938aaebb43f3018f30fb3e5c9f34833af86
+~ -[CECFakeInterfaceListener createDeviceProvider:andFakeInterface:withPhysicalAddress:andLogicalAddress:].cold.2 : sha256 3f6ef625c1696e7426d251a004daa6f1dc835251fd7a34f805a1b5343ad358ee -> 7e47d70908ddfc61ce184d37a646ab5a5b02296622d9ad8783fe35a34e79c8fc
+~ -[CECFakeInterfaceListener createDeviceProvider:andFakeInterface:withPhysicalAddress:andLogicalAddress:].cold.3 : sha256 d2cfcc0f0feab07c327df4663615e8bca063d1146dc26eb3418f8307da622c6f -> 5f8f1c8e6d42dacc306c5b43bc07803470fbd6e252fd11551bd4c0b085c5895d
+~ -[CoreRCXPCService(IR) _startLearningSessionWithDeviceAsync:forReason:reply:] : sha256 f5f179a60b8cb5874003dd7c6a8cdd743414b88524cd1839eed302f248a2c46f -> 1a7f2e79d5659fd9cbacb94a5a86526a28bb4b58ff29157214b9d1dad7b8b060
+~ -[CoreRCXPCService(IR) _updateMappingWithSessionOwningDeviceAsync:forTargetDevice:reply:] : sha256 5b784d87cf0c892ffda2b0e891dc22db32fc6a382f0748f3e06d4c3fa5a02601 -> de5b750ebb0c5a2daeee9f2e608ab0946af91e9710f70841393762a5bf06e096
+~ -[CoreRCXPCService(IR) _setOSDNameAsync:forDevice:reply:].cold.1 : sha256 46ad4affddecf02a05b34c093219533ecb268014454167df6ceb0e71879ec402 -> 6c1ae8a4b8d9ac2bf80d1e10cf079df39f4dbd68bc34312e41fa0a9360e6d2d3
+~ -[CoreRCXPCService(IR) _setOSDNameAsync:forDevice:reply:].cold.2 : sha256 dcee55b753982f4d506dbe629032be7e05c98afaef372269ce1328fa0830f82f -> 8b00741a55a93bd72e2b21a14ffe73487a79673673a1217fee9e54452be6258a
+~ -[CoreRCXPCService(IR) _setPairStateAsync:forAppleRemote:reply:].cold.1 : sha256 d2633d4388fe1d78195b79365e1560e92b99fdb54fe0a73ad0bb9c0af65729c9 -> 82c60ce011064e3b96a6eb5c36a37733463fbc0fc798a9c3d81581f5186bae9f
+~ -[CoreRCXPCService(IR) _setPairStateAsync:forAppleRemote:reply:].cold.2 : sha256 775218ba7e29a7d5eb48855164f7e796461a4843e4434defb1d3bcb442b85d21 -> e2203640c901ba69e0a3872f994148a4c0a8a362829ced6e0aef8c05798ba311
+~ -[CoreRCXPCService(IR) _startLearningCommandAsync:withDevice:reply:].cold.3 : sha256 0bd60f64e5d007c5751f29c5243f95650318277517e7de4224cb6b3cd784c128 -> 24d9aeb759c7d04a3f17778b15085de2cd0128670a8583664891524cf76197f5
+~ -[CoreRCXPCService(IR) startLearningSessionWithDeviceAsync:forReason:reply:].cold.1 : sha256 4e4db48fdff910481e0689cac5d267a37c97e625ee29fa489f8882043a953d31 -> b3a21720c312b15b45d9e16f0fd825443704e1251cdb9e382e3443a95a8928e5
+~ -[CoreRCXPCService(IR) _addDeviceOnBusAsync:withType:matching:reply:].cold.1 : sha256 3c81bf25f1dc60ccf39af792e1ef105e933b8d0895a365d00ac0b5bf239fe451 -> 916ad7c5606dbde2861afebd9db673f08657f2366627408c5f939dd239540ad9
+~ -[CoreRCXPCService(IR) _addDeviceOnBusAsync:withType:matching:reply:].cold.2 : sha256 73c0fe86d5a80fc0afabee76ee6233c5990568b5954be84d777a228061b05e1f -> 2e798726c6564cf71a63f1e22df33360d5fdfc0ce55bb2d2274d36d62255d61a
+~ -[CoreRCXPCService(IR) _addDeviceOnBusAsync:withType:matching:reply:].cold.3 : sha256 157fc75c049496536825bb1f12dd49f262f8c869a2cff71ca6ed2b1060b72f4e -> ca769b32dadd85e3606195b58bfa7c2029dacac961d1b3f6d5bb542ab222d4bf
+~ -[CoreRCXPCService(IR) updateMappingWithSessionOwningDeviceAsync:forTargetDevice:reply:].cold.1 : sha256 b10204d211b475c9064f0ef65693eea729a05085febe0aece1907b2a3b0ff59a -> d50dede682c9f30c64279d3a41d355d9a06fa203629bb13769e6c410e0b291e0
+~ -[CoreRCXPCService(IR) _addDeviceOnBusAsync:withType:matching:withSessionOwningDevice:reply:].cold.1 : sha256 9e466e19636d15534d9f26794c5bf8fab1f81dd68eecce764cf755367a7e9b25 -> d163fadad90f483cdd1f1bfe0ddee4e3e34ef8a02b30a94325deb7404bd7ce21
+~ -[CoreRCXPCService(IR) _addDeviceOnBusAsync:withType:matching:withSessionOwningDevice:reply:].cold.3 : sha256 6d385a2fa20830939cfbefc65382bc4b038221c2f48abfc0bd30fbb6e60bb321 -> 589881bf978a6916f4e42e9b77ddda38f22b479af851121065b52efee301b70c
+~ -[CoreRCXPCService(IR) _deleteDeviceAsync:fromBus:reply:].cold.1 : sha256 5591e6f6113215838a7ae46fbb2af51487c9c08c25ddff54cf663ff2b7c112ae -> 0663d20561af9c1f8490426723586448f3988918b29b7e0bd5a7561801db373f
+~ -[CoreRCXPCService(IR) _deleteDeviceAsync:fromBus:reply:].cold.3 : sha256 fdb27c26da2538c3f4627c58a85aa834dc0da06268b8aa0ed04516801a89b197 -> e77e3e5f2d6109aece3e4be5220090c21cd30bef0d1c4863810bdbbec0fc94ea
+~ -[CoreRCXPCService(IR) _sendCommandAsync:fromDevice:reply:].cold.1 : sha256 03776c401d292dc290ba42fbe7af70d2756e071f8c1d85efdeb8000d0f65401e -> fe3e3417d0d75c9440727de879e818fc29ad7bd33e63b8e54cd016b8a98e0332
+~ -[CoreRCXPCService(IR) _clearAllStoredCommandsFromDeviceAsync:reply:].cold.1 : sha256 3c91b0ca4b126bb010815e718c0af7268190cd6118693beb54cfe05734a28cfd -> 23a0a4ff17437d2e61e29d35fb055d325a0632bea852d8a9ae85b1634c9e2f1a
+~ -[CoreRCXPCService(IR) _setCommandAsync:target:source:forButtonCombination:delay:reply:].cold.1 : sha256 8ac74165fde0d0dc1666ca2d48dd44b0e0534aa8ceb6b130282b2df125f25a9b -> 2689d8f8edfe26e2db7d370e4d0a8dacd930ddf94a7c0aef898a677bc58a1db6
+~ -[CoreRCXPCService(IR) _setCommandAsync:target:source:forButtonCombination:delay:reply:].cold.2 : sha256 d0230c20db5dda9453371ed185de03a23d254286b66b6300c8e6f833a46cd4b3 -> 4921fc8c13367afca775b7ad0e9519df26c2e4a9706d30587f29a9bf1ef0b695
+~ -[CoreRCXPCService(IR) _setCommandAsync:target:source:forButtonCombination:delay:reply:].cold.3 : sha256 64d65a901a892450ed7a11befd5f34a087c3946eb9c0a925a323bbdb24d13cb4 -> 43265ace710f0b5cb2ab5570a1c0c056d1899343b18249633a1889078e2b4568
+~ -[CoreRCXPCService(IR) _changeButtonCombinationAsync:delay:enabled:forDevice:reply:].cold.1 : sha256 0106c15828670a80983668dd133e06d58afc0f3c78d69803c0922ca9995a7b2a -> 70fc15f58f1fd32b93cd3a9e8307c361bb78c6ca70d0d4d9adbbe6f88ee548fd
+~ -[CoreRCXPCService(IR) _startLearningCommandAsync:withDevice:reply:].cold.1 : sha256 20167f415932f93dfd1572facab556b7f4fa75d698cc7a86bab14a4c85e8cdd7 -> 3ced56532782adf9e75c09452ae3f10e1e571ec53f6c5157be5171bf2a655194
+~ -[CoreRCXPCService(IR) _endLearningWithDeviceAsync:reply:].cold.1 : sha256 701c49c1eae4d4fd9a37eb1f2880c1aab85fddeb394d70539a468abb37528784 -> c0ce5c89fe727f9633064173020d581c346b784bafbf44bd938915bc5324ee04
+~ -[CoreRCXPCService(IR) _addMappingWithDeviceAsync:withProtocolID:options:commandToMap:command:repeat:reply:].cold.1 : sha256 f40e8c97e9332f7951077814d37d0cc725d9bde675509d3bd06c994b9264bf0c -> 733108512ad8384e21ddd8f6fe85fbd5876785138e6173f293cc575ee7d38aca
+~ -[CoreRCXPCService(IR) learningSessionForDevice:commandProgress:].cold.1 : sha256 1cd4706dc55b04bc16ded0f51fa90b496ed2033622e977bdcf56603abe2b1c7f -> 69f12116da1a24e421769eedc93c1f6479cc202415fcc76740427103d463bd39
+~ -[CoreRCXPCService(IR) learningSessionForDevice:status:].cold.1 : sha256 68b098a06337a5472b44b839c6970fffd8b87ea4b7e80001727ef23c797bd3f1 -> 7561240c13eb32888bf81e9387cecb56aec467a265405aeba724944fa5fd7601
+~ -[CoreRCXPCService(IR) learningSessionForDeviceCommandDone:].cold.1 : sha256 eaffd1ac4ae802951c5504fae0c40dc0ff09f4632321691c4588fdf065a1ba36 -> 5437d4524ae3df83f66d77b2c56f24785cfe5f791f6953541aba04ec3ba4f1d1
+~ -[CoreRCInterfaceListener scheduleWithDispatchQueue:].cold.1 : sha256 e42adec58f796a396093f14e95a9b65b2489e694c50ec0f8744c4bb9c67711b4 -> 4fd4695c5422861beabb70072f23d080da40e5b58eedf48b5755b6649cda11c8
+~ -[CoreRCInterfaceListener unscheduleFromDispatchQueue:].cold.1 : sha256 ecefbce143a696e5e15a5e55359e355c9acd30cc9739caff0ea88a68e30f0f66 -> 71c4cb177543bfdb38b8908a936caf8a19a1c9deefc965f5ab828bebaf6da123
 ~ -[CoreCECDevice setDeckStatus:] : 20 -> 24
+~ -[CoreCECDevice deckControlSetDeckStatus:error:].cold.1 : sha256 0992241db0045dceb81bf0cabff98e484fa0846289899686b85ecbe9cd789b9e -> c9440b12bf40edac00ed25454546ffa9d7833455c69ae65d11d08abb04a106bf
+~ -[CoreCECDevice setSystemAudioControlEnabled:error:].cold.1 : sha256 ebb657bd1ba738c81c53c77fd436fb8602508efd826226206cf73b74b357971c -> 0840fff76111712044897eec95b37ec60481a689399e3f6bf32dd5fd421409e0
+~ -[CoreCECDevice systemAudioModeRequest:error:].cold.1 : sha256 e37025629201b5fb3edfe0074252fbdefe02e356c0a894c9e77f3e3c5a566b2d -> 628a2a9886803e30b4a01a14914f7ad07167893a2aea7e460c4aa526cbeb724b
+~ -[CoreCECDevice setPowerStatus:error:].cold.1 : sha256 de3226ceb11a093f4380f949711a866318d2ed91f1716dec3f99386e76f3ba2c -> e37913327cd5766de48deb2308ad4dc6b98d826af4f7b7f861e7b36957a31ad3
+~ -[CoreCECDevice setAudioReturnChannelControlEnabled:error:].cold.1 : sha256 95f0dead95399aa80caa4f8fed9c46e3af67d620f6fa8fb545e60c9ae7c77d05 -> 8514978693e4eae65a5c0265663d092d9df12c339ffbe59e2d89b728682a7490
+~ -[CoreCECDevice setAudioVolumeStatus:error:].cold.1 : sha256 670e7b41987878877bcea12d617a0612ee6d24e42d4768f49f77771d3edf0a94 -> 46c214c5764c332fb57508acf507d8866cb35c32054fdf11a9a597d6a9801c69
+~ -[CoreCECDevice setAudioMuteStatus:error:].cold.1 : sha256 a640d612a7f1583169eebb327e668799a5a81a5edd9682eb25296b759efe5b94 -> d11714fc9bc8a76c7bc9d0d318271d5addb8eada65f3dea363a3104947c92775
+~ -[CoreCECDevice setSupportedAudioFormats:error:].cold.1 : sha256 a5040d66df056468bd5a0f0cfd8316b61634713c5ab7154bd16baf621850b9c5 -> 07b0170829318a685fefa36d96c9a3519df6c7a8d7e6666eed454775b9901897
+~ -[CoreCECDevice setSupportedAudioFormats:error:].cold.2 : sha256 54c1da419b01f71854c3dcef5bdd0bae2462fb8ae81902006c1a52d06294c175 -> 5b17f17fff7c9a0ec93c28c36f6263a87151b5039ffae40282eae4d45ee17fd4
+~ -[CoreCECDevice removeFromBus].cold.1 : sha256 bca20fa82ae83c00ef705a31626443368714fa3e70c05d13cdf203040458afcb -> cd7d50aa101889bcec789c9339e39ea071450d7c5dc08fcc84c0b7b116cf00f9
+~ -[CoreCECDevice deckControlCommandHasBeenReceived:fromDevice:].cold.1 : sha256 352e3a133dfc36858e50aea14f7d6b9cd9087d4a6e5bb12148add8fc5fd8def6 -> 0c439edfba0a4b046a3429a6b58b8bf1b41a2d2896e2d0d7dcbd278349b452f3
+~ -[CoreCECDevice deckControlPlayHasBeenReceived:fromDevice:].cold.1 : sha256 1f0e26af0d3690b2bdbee4718f132485348934e8878cbc4d5235e2dc994ee217 -> a40ee5114e7aeebeb41f763de84f207a0aed10a07501af36366f353ff989e46a
+~ -[CoreCECDevice deckControlStatusHasBeenUpdated:fromDevice:].cold.1 : sha256 39d8fec7701cf13696ff23be38ee181693ac72784f87ab8d19468fd9e6a0c48e -> ad3c7f7aeffafa49f3471c8f2eca6c1c8f8467a2a1c93c0ecb867609b69070f3
+~ -[CoreCECDevice standbyRequestHasBeenReceived:].cold.1 : sha256 3625bbcf9630ff95f8cdc3dab13a5e194386951723451a9d5f57c803c4f3353d -> 035e05699928471494f2d4060039da8f88eada518b56c4bc612f0217e2f4f9dd
+~ -[CoreCECDevice receivedRequestSystemAudioModeStatusChangeTo:fromDevice:].cold.1 : sha256 decbb789af102b8d208f0486f53e85fa90925bc3bb224e6bd0e078fc773e2ed0 -> 56bf4da7c01e80bd6c1dc564c9d12c5ea9106e4fc1139b8c0809aa966f0ebcea
+~ -[CoreCECDevice receivedRequestAudioReturnChannelStatusChangeTo:fromDevice:].cold.1 : sha256 5fcb0cc750ff31f0682bab4f8804e2bbfb18a6ba2d10d85d2fa1a60e45b616a8 -> 7dbb1469bd52bc10e1d3aeb4bdc8a92223331cd75cabb0d6bac75e93e745fd09
+~ -[CoreCECDevice notifyDelegateShouldAssertActiveSource].cold.1 : sha256 5ef0fd6edcc0364e13a1f63981905bf1116492377dc77fb3efa66e0c531152d6 -> 93a818a6d0db18cf063d7eb75279ccb185f1bd934fb315550194de326ad57052
+~ -[CoreCECDevice notifyDelegateActiveSourceStatusHasChanged].cold.1 : sha256 22efde3a46e950649d2b64e6e4e84b59a88c0dc6ad816399b8682f420caf012c -> d5cff6d45bafadf955412d14040265782b11f0d45ce55a47ebc4bebf56c6fb2c
+~ -[CoreCECDevice notifyDelegateDeckControlCommandHasBeenReceived:command:].cold.1 : sha256 0cbe29b02f1f025d0e2b640724f70f73386ebdbd98d26af49e4139a62bc57dee -> 38480de159386360798b118e58a23ee34ca7a4955374b69376b3dfc69bfe4731
+~ -[CoreCECDevice notifyDelegateDeckControlPlayHasBeenReceived:playMode:].cold.1 : sha256 70de37b0e252148acff4e46d62af7e2763528166b8177926b5703bcc99e6d049 -> 91d173a31e56084a09bf16dd7c3b7edfde1f0890dfe248bf1190a27c77fa4d71
+~ -[CoreCECDevice notifyDelegateDeckControlStatusHasBeenUpdated:deckInfo:].cold.1 : sha256 5f79a72a10683166bd85e4dae60d05b8d8ce08e837e7f762d1361f81a853133c -> a81e20701ec9f2d2900aa96ee6c12f13736ebb914c36dbea7b53a26c8dbd7653
+~ -[CoreCECDevice notifyDelegateFeatureAbort:].cold.1 : sha256 d20ca596b507b6b9b8e3a5d1da0f779005a009584575e9acf78da6e0adc8929d -> 87307ab7cd1e30bbc9af8797c8135c1a4926e763b29966fc00208e914fba0e18
+~ -[CoreCECDevice notifyDelegateStandbyRequestHasBeenReceived:].cold.1 : sha256 a76c88f81042374bb69f9ea98cd1fa90e52be45f016b399a398c589ff1b10077 -> dc9d24fdc28ee2fd6f5b06a18ba6691fac436af0a268909a0e279b223b758d36
+~ -[CoreCECDevice notifyDelegateReceivedRequestSystemAudioModeStatusChangeTo:fromDevice:].cold.1 : sha256 f8d4a9b5d10ec46138f02592237e3fbe81161b4ee278568308f3a780c052e824 -> 5b803a5c4902da09a31c0e54a8340758db7130f87493f9e723e3c32cffec2aec
+~ -[CoreCECDevice notifyDelegateRequestSystemAudioModeStatusChangeTo:didFinishWithResult:error:].cold.1 : sha256 f851cb9e4b08c62f83522cd2dc3037ad9aea2c2880f9ec03e7cbb4a7a5a1d4f1 -> 6901140637ea1b50f8c4b0beebdeced7d9f40604b2238e735884b1f3d08b4acf
+~ -[CoreCECDevice notifyDelegateReceivedRequestAudioReturnChannelStatusChangeTo:fromDevice:].cold.1 : sha256 cc7fbad53741951a0f9be4ea02ce6cd9aba8ddb37360d28eab2d08501cddf7ce -> 6aa92aa2f28ef5cf024ddd09622f53832d28f93ed8b19c616b8bc00e22224c22
+~ -[CoreCECDevice notifyDelegateAudioStatusReceived:muteStatus:].cold.1 : sha256 9f5201efd843e0d3fa9b161945f6c3d8fbd4dc067dc3c838b9adf86daa7ca6d3 -> 20454c61ccbf3438d26d62d9b5e27c3ea879060158a1257c389a3974371fe476
+~ +[NSUserDefaults(CEC) cecUserDefaults].cold.1 : sha256 7604cfbb7c186db4e873ae40066610bb94cce56a8a4acb746033535c1e3ed649 -> 3d84fbb3862b14d5738e7ca75a70d4fbe894acb548ca2795197fc9dde53762b9
+~ _CECPhysicalAddressStringWithAddress.cold.1 : sha256 dc98ac5d6f340b73eaa98db46fa09ee14a7ae759a8b42379f918c06ec9cb728b -> f42fd3fb483f4cdbedc1bc6182f9f3f0f97518904e0b5ddd94e9dd4671fa1b04
+~ _CECPhysicalAddressStringWithAddress.cold.2 : sha256 af23b95a32a28d23e24819df6068e8b5cee5fdecad8a62f292c4b2496a9404d2 -> bb70dffa8572996b728605935efe4d33c669b4577f9ef979786109c40329cc24
+~ _CECVendorIDStringWithID.cold.1 : sha256 09311c326167120f4511cc84a409aba933dfefe5df61e132e8100d455e0cd82b -> fa721300c5a7046f7d4949ce9533a126c9d9fc21de5df182d9c7199cbcae5123
+~ _CECVendorIDStringWithID.cold.2 : sha256 0edf7380223da1cc9df8f532fc13663123c7cb314385480a226fde3d010b6f28 -> 4a37e770d1b692fa89b53640c9075b2a6b63403384c3a98e9e192ea218536107
 ~ -[CoreRCDevice mergePropertiesFromDevice:] : 456 -> 460
+~ -[CoreRCDevice receivedHIDEvent:fromDevice:].cold.1 : sha256 170093c2186895f5bd06c3c300ae860a81afb5a2eccbad00216faa4e81071a90 -> 58920409c6984dcbb597536ab61d96ab83f59d829c9f8e918afe9c0581b2d624
+~ -[CoreRCDevice receivedHIDEvent:fromDevice:].cold.2 : sha256 06e2ae633285a3501111747f020da68b2b83bfa6ad93fdeb1d3f5c7ea60a5eb0 -> 7c16f7b0231e17097f9b8d94def0c8cad9cbed870530496eeb418e2d98a23712
+~ -[CoreRCDevice removeAllOwningClients].cold.1 : sha256 4ec51078b447bc70aab9720fa4791676018ac47c0fe8411c16a2855fa542146d -> 4115a1366dd58a3533c757328ac239cf604159fcb97a3395b2ef2cf241f8f1df
+~ -[CoreIRDeviceClient setOSDName:error:] : sha256 218b3355afe5e9a392c08c47b232c7b6c7444e22694b09b3fe381ed3d65f137f -> 4a81cf3c009fb4591b9a3c0a3715584ee6263b55ec1a95fe5bbd7a12717bcf8d
+~ -[CoreIRDeviceClient sendCommand:error:].cold.1 : sha256 8989acb3f20767bf49bd18787d12a5bb042a563f1e3b70e55b8a9d04a9b1fdfb -> 746cfa050c3c9d7c9655537d7384ee5217a0e582e1ee1760649c78c629e913c0
+~ -[CoreIRDeviceClient sendCommand:error:].cold.2 : sha256 90b50a6464671c800f3f5d2ca50378dba0a8094d193214683c518b733eafc471 -> 586a8257d92a9f903e7285201f4aff601c0f3cebdc67025ed85e68337c4fe69e
+~ -[CoreIRDeviceClient clearAllStoredCommands:].cold.1 : sha256 2bda863a6d7d732deb232443047aaf96234f9aec51eb64a2122cb41d177c73c1 -> 6302340de2556f6367950b6053e410d79f8f6032dd7e8b8a16cca9072e7b344c
+~ -[CoreIRDeviceClient clearAllStoredCommands:].cold.2 : sha256 6d9fdf31aea2608526973b9c8f1ae819b8728c286ec921feb73416f5a4be1da4 -> 93ed9cac3e9e1a6c38024fb5adc1db8f054a01b2a8f2bcb490c91bb0adbb5318
+~ ___73-[CoreIRDeviceClient setCommand:target:forButtonCombination:delay:error:]_block_invoke_2.cold.1 : sha256 45eb8b94cffcf0fcbe8bb6a0abb56a6b962ce210fa409e6ba2d46c6d872f7191 -> 92f4cd91e168b9347995c0b61254680bb14a726f5c8d418d1ff22ea5e907844d
+~ -[CoreIRDeviceClient setCommand:target:forButtonCombination:delay:error:].cold.1 : sha256 46f09c5084be0918d14b2e41640f88496291f19c490315708a7a4799e5a4f864 -> e733b6dc6fad8c47a272184096f519724d97480927c24c33df18c3030d64abbc
+~ -[CoreIRDeviceClient setCommand:target:forButtonCombination:delay:error:].cold.2 : sha256 2d45818668706462cc2b712a7de0bd5db0e7fed3f379fb14780539b90f0b3f87 -> 1df7ead65f683fb1b4c216de157f97918331d85fac1472b4b2782a597cf019b3
+~ -[CoreIRDeviceClient enableButtonCombination:delay:error:].cold.1 : sha256 2f34a95dc102bdc737722cf35add153caec68a06288230dfcdc53fb4c38b3d45 -> c1c23697527b41d7dd36f6fcb4837aa553778d231f3a123349a8c2810d0d62c6
+~ -[CoreIRDeviceClient disableButtonCombination:delay:error:].cold.1 : sha256 e04f8ec29450763ea44f8e21ce5675439d4b119ee50f8de14b228403aa322109 -> c438c6080bd940702c70ee53e350c99149b693334b9ccc53d5bf649165cfaf87
+~ -[CoreIRDeviceClient changeButtonCombination:delay:enabled:error:].cold.1 : sha256 0029f3df1846b5d2b3880796095f7521694e564bb11d27f14de96084109671e7 -> f45484ee10518186606771b58a766a53038a656760d8b9f4a35900ba35c0384b
+~ -[CoreIRDeviceClient updateMappingWithSession:error:].cold.1 : sha256 117a78a931982bbd7976ec309984640653a60ead87b9e18aefb335f0c48c74eb -> ad94a7aa8156d7559c2dc6468aed68e2897d01e634205255f9b90ef8ed9c0507
+~ -[CoreIRDeviceClient updateMappingWithSession:error:].cold.2 : sha256 3179dc3a2a1fcaa12038d838d95401e59bf7383319b49a6a6ed787747465dc9b -> 36f4ebc1afd3c51fc36725018fa4e03647f4d37d7d857a0bf71e4939652d7480
+~ -[CECInterface deallocateCECAddress:error:] : sha256 3accb02b0cb850db4b209210c62d41bfae96d9f0f318a01e5bdb4b6fef00c704 -> 8fb20964412e152ba103f56c719feedf9ddcc6041132a5c63fed08779be33afa
+~ ___30-[CECInterface receivedFrame:]_block_invoke.cold.1 : sha256 57e7fea8929a886d4e341125a30f29a4cae791fd02214b52777c6338d889821e -> 3c0437641c30d52edd41871cef6b8ce7327a7a4ce762836f387039a59f1242e5
+~ -[CECInterface pingTo:acknowledged:error:].cold.1 : sha256 cf973b69c96579255e8f2a281b6f4a31ea4e8c8a633119412a80159ecd005a2e -> 2302c461d7be86a83d2a37dccd2688a642043deb4c93b97f59d0bb4781a401cc
+~ -[CECInterface triggerTapToRadarForAddressConflict:cecAddress:deviceType:].cold.1 : sha256 4e15248b6f61eec4af0bf30210745f0b0cf7b2955ca8ed1d7311865c98b1dca3 -> d3ac0925bfcaff1cd8bb693c07d17a9fe0823e39872d8323b8a8fbd33214b960
+~ -[CECInterface triggerTapToRadarForAddressConflict:cecAddress:deviceType:].cold.2 : sha256 a4a30ac870140d2c7aa493187cac00370299c86cd84bb7c0a3c8755b9fc84d54 -> 4717bef452093c63a1b1aa9e55997bdc51d3686482d8bb3b94d96f74b6747f29
+~ -[CECInterface allocateCECAddress:forDeviceType:error:].cold.1 : sha256 17aeb658b385e4180553569c1b3a7bc842006ffe564ae22b37342c3619376bee -> abeb9a592420bc5648ccda9f9aa66d389b9a65f5cab420aaaf993f5af3dc900b
+~ -[CECInterface allocateCECAddress:forDeviceType:error:].cold.2 : sha256 c11818012dc09efc278f90ee5edaf9c0213e6d92fb42fcbf6bdcb48d2c0f76f8 -> e844424b1fbb56aecf9a52eaff70fe21a59e83dffac973c6b2e545da5a8c9cd9
+~ -[CECInterface allocateCECAddress:forDeviceType:error:].cold.4 : sha256 062bdf75b1283b4a155bfef3466b2d8e6830e2b0cd3e3faf3e9e6a8ea0c8bf24 -> b9970d4a5a9b56adf405647c5ecde8b1e2ef0eb4d77400926b0b2ad0c6d83a78
+~ ___getRadarDraftClass_block_invoke.cold.1 : sha256 c4066f436a6d7a3c76e4dd13d2985f37c94abf0476a7d01ba67a672b96a3738a -> 3d4b809b59e2812bf7130669025b97e9975b3001eef51111f271b39c84c02082
+~ _TapToRadarKitLibrary.cold.1 : sha256 8a58362648d8111924708cb6645b9b56eff4c133b1594ec3fa31144e5f3a0355 -> 856e1d7c7a870df0f4533b14fef4fd28404602c997ba13d9c10f42b9cde5b777
+~ ___getRadarComponentClass_block_invoke.cold.1 : sha256 be7a3a4a9c3c624024498718b0ecb4aabd0c5b290563abef7be90ad0c768bbc7 -> a9bee34ec2b4415f79a1c73b603988d7084ce03df83fa120ce2b1491395550ab
+~ ___getTapToRadarServiceClass_block_invoke.cold.1 : sha256 ae41ab2512d75e2c9a5de819deb9c725db238fcb75b414e2d91d6eac797847e8 -> 7a21c49a36cbef30d55aba01b60251cd7fc2260b923f5d47fb33be0df6c43656
+~ -[CoreRCManager removeBus:] : sha256 8a1b13728dd84328c1f38db8d3a3a7bb6c95da7c6255c620201eefb4073484d1 -> 2a7bef3ada6f7bb3871925a2bffb652ee2cc0bb606c78b99c152ddb3976b13fb
+~ -[CoreRCManager addBus:].cold.1 : sha256 8fc2b524c44b8a2b1c291feee206fdd4b55d965af9508cb64f8c493e76c2239f -> 4809450c2f8d1531c0a3ff473268833738fa31ead37148b6419a2e1c980f500e
+~ -[NSDictionary(CoreCECInterfaceProperties) getLinkState:physicalAddress:] : sha256 15d613ca7161b0f6cc2a26ed46a702cf1aae2dac58140089edea4f0c83022876 -> 99c47ef9e75006efd5afd5820fbab582c43f1e5d651f04780f9cfc5ec5c73367
+~ -[CoreCECBusProvider addDeviceWithLogicalAddress:physicalAddress:attributes:message:reason:] : sha256 7878d40e6b49db4723cde5a8a203a4244513bbb1d3281c2b9ae53b00e7ae1f0a -> e5d69be59f20527a19ca9d0ec7d52be438352364443842f4bbfbe24af786688e
 ~ -[CoreCECBusProvider addDeviceWithAttributes:error:] : 1884 -> 1892
 ~ -[CoreCECBusProvider willRemoveDevice:] : 240 -> 244
+~ -[CoreCECBusProvider destinationConfirmedForMessage:] : sha256 acf07ecf48e007e01cba80b63f79041eff781b3e7a02369aae02511a3298d827 -> f8a53e7609787abc5b04ed3f836962c3073231821649cbb85a31e6cab6f867c0
+~ -[CoreCECBusProvider destinationExpectedForMessage:] : sha256 23936dfc3708cb4d60e296b433b68ad4569be78dcbf487b55e8f00f48c96a6c0 -> c030029f11aa5ae1d374dc6eb15aa4535affd70b872700c8a56425cafbfb31ae
+~ -[CoreCECBusProvider interface:receivedFrame:] : sha256 d03092b766e761d7ef8ad7b4854847e8c19a199d65dbf134f10bbfa1468655d2 -> 210756fc77fdff6fcd8606d8a8e437277178fa13a2790a6050fc4028daf279db
 ~ -[CoreCECBusProvider receivedMessage:] : 648 -> 652
 ~ -[CoreCECBusProvider interfacePropertiesChanged:] : 504 -> 508
+~ -[CoreCECBusProvider allocateCECAddressForDeviceType:withCECAddress:error:].cold.1 : sha256 5e864a0d910f0da0e67cb9abfa3a663ac6cc93933aa51754640502086ef11f98 -> 5aa4086897fa1c67e8849af178a18e6ebb63bfdac2bcb0f510781b762d53766d
+~ -[CoreCECBusProvider allocateCECAddressForDeviceType:withCECAddress:error:].cold.3 : sha256 da5c2108ebb8c0fcde4eba2fe05d286becb3a28e998ba92e579452b6f71963f6 -> 56e92027ef7a894972ad7662b3711c9cae08a19f1f579198428bd61149388db2
+~ -[CoreCECBusProvider allocateCECAddressForDeviceType:withCECAddress:error:].cold.4 : sha256 69250b8d1e4d78467dd70a38f04c158448ccab1e707638c211b68cc9f6e0be95 -> 0304df5c5d3e6979b9d24adfaec770836defc2e4e572fca523a597df209eda61
+~ -[CoreCECBusProvider addDeviceWithLogicalAddress:message:reason:].cold.1 : sha256 c19a60ebe2607cfa5a3b2052e0f65d7841fba136617b77453069c13625e8ecdc -> 89ddda859f8b19a6efa115b59050d854799cb561ea68bcab9be2e0ea047562ad
+~ -[CoreCECBusProvider setLinkState:physicalAddress:].cold.1 : sha256 accacfd3da69fe755b23594ff8d3f81629d1cd9075938f441c36ed6f01916b8b -> 6b500581797012c741d24463b9080c00f1acf0de4e23cf459d42f77222e855ce
+~ -[CoreCECBusProvider setLinkState:physicalAddress:].cold.2 : sha256 970cff92b865a504e532f2193fd79d950b822539e0c90e85ba87b95946758e36 -> 819de9d949deafa490e2c9f94340b14fd9fc88bc814055f047401670af637548
+~ -[CoreCECBusProvider refreshDevicesWithInitiator:error:].cold.1 : sha256 3997f0bd44a02a96cfd90fe808b817b04ccaa21766e8bb22c8867a060447c678 -> 66cd9ce0bef3c6c964eef0c7e2ed802a1469d11fc60eb16b7db0a3ae241d19cb
+~ -[CoreCECBusProvider refreshDevicesWithInitiator:error:].cold.2 : sha256 32f3e67cd8591ea7099473e9b9132b6cb0f968a14a196d2674ba5a4338620c23 -> 895ed2db4e75e507ac5bb178dbaa8f974198ac29936d6ad338324c5f497f1876
+~ -[CoreCECBusProvider pollingOperation:shouldSkipAddress:].cold.1 : sha256 1eda95e4110a0b7c7cbddc2ae17dc2ed8afe414cc3de1c62dccd4fcd7cb76998 -> 0a8528fcd71222e8040dd25aa4c60ea6b0e7a4157c73f846b006135a43e84bf5
+~ -[CoreCECBusProvider pollingOperation:deviceNotRespondingAtAddress:].cold.1 : sha256 f337d98150d96e1fd6ff2966654ca5e9863928fb299647df9ef37254bab60cad -> 95d979226c00e8bfc62d0b917d96098791ad1b93a6a18e574d2e265397373daa
+~ -[CoreCECBusProvider updateAllowHibernation].cold.1 : sha256 bff448ce842154fe41c9f87ff9fd5ef71285ea9785f404dae37affc179584f85 -> 0217d5f2a2b80916b8de8036b9967ce512abb15eed5f2e8714b4ddd96e4c3494
+~ -[CoreCECBusProvider _sendMessage:toDevice:withRetryCount:error:].cold.1 : sha256 5740d1ac1eb962c71dc91ce88891a042f48dbeef80356bfbacb93a8608f582fe -> 9e4625fedf0b694e458946da4264f8b728c043fe045505019b741a868bcafd28
+~ -[CoreCECBusProvider _sendMessage:toDevice:withRetryCount:error:].cold.2 : sha256 38e23304cbf055fe5170983691ca1fbac1c0a330a65722869c9d9c89a11b6e01 -> 8b4278f6fb4e49480d5e019fa5847933d419b162367bd05edd824b648b66beb0
+~ -[CoreCECBusProvider _sendMessage:toDevice:withRetryCount:error:].cold.3 : sha256 1152602fc31bc3290b71b4cdc45ac2dce42c1305cd50ef718811d9478860898d -> e0a337ca953371c2f9e626c6d41f34a0118e1882cf2fb1ec0cdeb6c5293b11df
+~ -[CoreCECBusProvider _sendMessage:toDevice:withRetryCount:error:].cold.4 : sha256 99765d35743eb160f81c688402e602fb9769037d687949c722c2be0b1f98f103 -> 86a241ef1a0f372323abad0ba8d7c047f2088223073192e37ad7ff68528d59c8
+~ -[CoreCECBusProvider _sendMessage:toDevice:withRetryCount:error:].cold.5 : sha256 edb8e25caee1c591fc7629575bbccdf6230219a28331512906c762f979185b0d -> 1a8e52bd12e6705bc98d6f6e5396718e45a8bc12b95d61c1701ff88ae0a4b8cf
+~ -[CoreCECBusProvider _sendMessage:toDevice:withRetryCount:error:].cold.6 : sha256 7a24f5de230b2ac355dc2a137c03252f20e3318284eb5b6a5d2e85ace07c49b1 -> 4333ab95f5d47dbb386f1ea8c5af229b3ebc91b7450c523add68ef20b2c58c3e
+~ -[CoreCECBusProvider injectTXMessage:error:].cold.1 : sha256 9e4bbd08eb730fab156ea4c0874a095e1b2aa0239fe0a67adc720ef599e63391 -> 54d3bf5a899a6c9799d81ea42786c83d57eac88b33ab19cde5e1b0a617e9a7b1
+~ -[CoreCECBusProvider injectTXMessage:error:].cold.2 : sha256 69b2d53b2e2ac718c5f7796d44299247db9853fe87dba9368cee30533f046a81 -> 9882749f076db3981c0168afba6ff2dddc7188c551703afcb059bb2c899bebb4
+~ -[CoreCECBusProvider injectTXMessage:error:].cold.3 : sha256 e5d1704acc454908169d5cbc3a24f1229e8c0523600af67234c055da8534015c -> 36d3f6f434ec7708783c7ddab419199a1975df84e8287f1c669c3ccef06342b9
+~ -[CoreCECBusProvider injectRXMessage:error:].cold.1 : sha256 5bb1bd046157f3967843de74f369b8dd01fc40999592d96672cb4024e5f9669d -> 8aff31a1d6e537a00a2579d5c1f4461712288e54b2eaff29ec9512063adde7e5
+~ -[CoreCECBusProvider reallocateAllCECAddresses:].cold.1 : sha256 6b9e75cdae9453eb54fe225aadac5a45c1d10c432f8c07327c4642aa97949473 -> 121efdf793719af1f29b93ea872e7640ae079677e2dac671440fdc31a3526af2
+~ -[CoreIRLearningSession endLearning] : sha256 b41d14f40a13b01331a3232f786da7aa14b19d063ea7e45e709c084bc61101fe -> 4cb6e9b5bee3a4527dc81c92154654fd18d4ad52aa04e59a29111414d781f8f3
 ~ -[CoreRCManagerClient connection] : 232 -> 236
+~ ___46-[CoreRCManagerClient bus:deviceHasBeenAdded:]_block_invoke : sha256 345bd39f9543d3b9c91c3fd1bfdc9ba223576597763aada48f79b7f3458ccf22 -> 2c822cbbc27552221b1e6798ea56c24eb59194af578ede50d4ce524810245cdf
+~ ___48-[CoreRCManagerClient bus:deviceHasBeenRemoved:]_block_invoke : sha256 2d25cbefdec74639d6254cf5e74f771313cc7d65389982c8816769fc53198797 -> f95cbe8fa88ba3adda454c8898d10efafc54fc9658453b82688f653e4ce67890
+~ ___48-[CoreRCManagerClient bus:deviceHasBeenUpdated:]_block_invoke : sha256 959fa6020ecfa958432e9a2f0a330cc9ee9bdf5817de593d837ec004b26f2b73 -> b40eecaff75e569bb59f71b1b42fa4b6700301517dd7a85367ec1bef182dfa30
+~ ___58-[CoreRCManagerClient device:receivedHIDEvent:fromDevice:]_block_invoke : sha256 9b8fd5dd97ba4a2fef7817b02eb33922363317d8124868f6064de85f2a9c5da0 -> e0669e7db6baa73553dc5391eb723b6fc462a2b1a4b1e24ab099e2a1bf43d704
 ~ -[CoreRCManagerClient connectionInterrupted].cold.1 : 80 -> 84
+~ ___50-[CoreCECBusClient addDeviceWithAttributes:error:]_block_invoke_2.cold.1 : sha256 d4414a70bd4623fd9abf2257e7ce3bf0f72083d3d12672e83126e05379be41f6 -> 082b77a51b357748c91c212dbdc169cfc30fc65d790abf8e83a223fcc6a65764
+~ -[CoreRCManagerClient mergeBus:].cold.1 : sha256 c3278f1bb5f0670ed7962033b632cc7fb5dacb8349e51dfdb2d5161fc8b080df -> 967dedc221f8c4252f337878fc93974023a372eda45fe2c2808c194541234877
+~ -[CoreRCManagerClient synchBuses:].cold.1 : sha256 9f82ba574d825a9e701fa70ac2758cfb757350884bdab2b1dc0cf4e5d5522bf9 -> c98cdd4f9369c0658ab1fd0464e46e1f8eff6856ad91c7c3698e1a9b20bf7e56
+~ -[CoreRCManagerClient sendHIDEvent:fromDevice:toDevice:error:].cold.1 : sha256 a5939e349fb20a825ee56758d12c20c0bbea984c779e86cb493265e6cad18c97 -> 2e932e4f19e3c14ab49196a83a9c72e502416633aee80cf4ef37ef85968561cf
+~ -[CoreRCManagerClient sendCommand:fromDevice:toDevice:withDuration:error:].cold.1 : sha256 0c36cfd79956ef052b76636fc052c7edba7e639615da289cae0c52b3e6107ef1 -> d949b175ff0c2a2738b3b706dea64da682d148a416f6fed39464ef9130e2657c
+~ -[CoreRCManagerClient busHasBeenAdded:].cold.1 : sha256 51247142b2e93ecbeb41632e578b491ca1acdea0c455a18d3d61245794ed6d8e -> 029935673b6df4faaf03911bab06ae0cf41c6a8a8f804813fed4f6acb874fe76
+~ ___39-[CoreRCManagerClient busHasBeenAdded:]_block_invoke.cold.1 : sha256 10624d961fa95a61527c5cb8547a91c9ea47a5a85911553881a9fd95dcb3e5b8 -> 07a6c6a0e22b63bfb5e8f1b3272d3f30d24a648ab882dc2926f81c8d5d8ab099
+~ -[CoreRCManagerClient busHasBeenRemoved:].cold.1 : sha256 bc5cb8d1517ffdefee51cd9ee9d15413d2742761f8e2079be7f53f49fbf3f446 -> d111cdbef0afc67b782c6ccb8ddd046adf33f802c8395a4e18a46b084d46753e
+~ ___41-[CoreRCManagerClient busHasBeenRemoved:]_block_invoke.cold.1 : sha256 72120b583c47460e14d15f9c84c0a5f8a52e679babe07561c49efb936d1aff6a -> 25515f2c223846c45c3d000610285d7c5469b24cb512cea71651709678131d8c
+~ -[CoreRCManagerClient busHasBeenUpdated:].cold.1 : sha256 a86dc5df4ba917f7e1498639412daba5cacfc8043f847f584ddc2167bd677f80 -> 0b829ba67935d62d9740369503fcea4baf266d7ee8455b82ce1a365621e0236e
+~ ___41-[CoreRCManagerClient busHasBeenUpdated:]_block_invoke.cold.1 : sha256 c3d4d076d1ffb61a3c9ff6b47a9a78c515a8274490d11bb40250129eab0f1631 -> 30fe6ada0044dab4dd33c16240222b0e8c7fd2282a2c2fbe2aea2810f643f8dc
+~ -[CoreRCManagerClient setLogging:].cold.1 : sha256 e0481e246b89e20dc40d6ad16331fe65c4122ca5be806aa77bb698442042d97d -> 04a84d8d977b21a7e91373db04af8a2071b36ddbb8b826d0b1b5a840c6e3ac5f
+~ -[CoreRCXPCService(Private) queryLoggingAsync:].cold.1 : sha256 6b7820134eba3c51eae3172b8cc716cce98d6888cf99847312b563ddaa304258 -> 9fa123d98a038116f53b8806fe8860f1f69420e055b8a893c877f87a030c5d5d
+~ -[CoreRCXPCService(Private) setLoggingAsync:reply:].cold.2 : sha256 b0f3481fc54b82acd990964ea5d7976fc01f7aebce85c2fca59bd0f8a51b576d -> 22ce8c510e1883a3bc5b61026bdb54570c9aa33e610490348370d1325a8ba708
+~ -[CoreRCXPCService(Private) setLoggingAsync:reply:].cold.1 : sha256 b55a948278ae15a7b4b6204fd373db394332953ddfbeb35453631507f2c96787 -> f19be676b1910af8a42b4f7eb3413261503db80165a880df1f40b6bc544f558d
+~ -[CoreRCBus removeDevice:] : sha256 c9ff2f95320b58b7353405e76159f083ba5584918f78ff948535dad615cb9f45 -> 2ff278f2e9fb87b164ae357d9e0e357a48c2cbda148a0d4142b115eaea488c5d
+~ -[CoreRCBus replaceDevice:withDevice:] : sha256 17a9aa5a0d159f9ba27647f2767e5b4ce8dcf7084d1ddcb233c8b7d24d3135a4 -> 2489b6ebf4b26f8d3f4c614ac66e84b1cd24bd3dc82c43e0db7425f2720982e9
 ~ -[CoreRCBus mergePropertiesFromBus:] : 600 -> 608
+~ -[CoreRCBus serialQueue].cold.1 : sha256 5e1d4a1c1a4d3da6574045eb8a53fc0570069267f397ce06dd8639c2a69b5740 -> 0dc8a078c0efe7f3acbfcf02624546ff3b06a29bacdb32351eaf535930b97dee
+~ -[CoreRCBus notifyDelegateDeviceAdded:].cold.1 : sha256 49525b713f54c5919e19f4e813f60530170b4209354e73c7b5ae8c07cfa01a93 -> 399b68856f08a781e85dd4b2a6ec9aac450f0e9d533c55b4c78fa7864fe33a28
+~ -[CoreRCBus notifyDelegateDeviceRemoved:].cold.1 : sha256 823cc93455ba582d315be021164f6ac77f04b140ec43ee536c3d2810cc05f2e4 -> 60879431fb8fe5eb339e91db6de99983286804ed92b30f1acdb2b11c70841626
+~ -[CoreRCBus notifyDelegateAllDevicesRemoved:].cold.1 : sha256 7794b9038f31509106015d7e5bda7ea64b74d355a815d850da14d993ca446ebd -> 32138147eae8b46786dba112b50d1d540b51338507088d32a54179d51d1c5a04
+~ -[CoreRCBus notifyDelegateDeviceUpdated:].cold.1 : sha256 0398ec45a504e96d3e7667f24da2077048b34bddf66dfbce76795adbfb51a31b -> fed445265d0bede665a77e06d2f4efc62073f9267f536d7642994d1a21abfbf3
+~ -[CoreRCHIDEvent(CEC) initWithCECAudioVolumeLevel:] : sha256 de12b9ee2d85850c164cf8dc68a5bdfa2b06549a806e16bccc53f4e6d6d7bd7b -> 6652e942236a6280af1621ac70050814de8e5b0d1ed269539fb76ec4474f9382
+~ -[CoreRCHIDEvent(CEC) initWithCECUserControl:pressed:].cold.1 : sha256 3e85c9d84802685535c870397f3d220dea015e62594842d16a5127710a4ac9b7 -> ee48df9ecbff27c0c3c67d2a894c21343d40c0bafd6350da97a8fa4d2bfa014a
+~ -[CoreRCHIDEvent(CEC) initWithCECDeckControlMode:pressed:].cold.1 : sha256 7c616187a695cfee77ad98746683fef5262cb246a90108e51273b4b6b17a3d3a -> 1c8eadc34e1c0da7901d04e69ff14b942069903326b6e84f898cb5dafdda97b1
+~ -[CoreRCHIDEvent(CEC) initWithCECPlayMode:pressed:].cold.1 : sha256 872d3f55cf8c52e87e509ae739de4216d262c88f0f81638738b7623c4275fe44 -> 1eeaf60a06ea8ce0b6b541ea443148b9c6050152d19a26e0a82e4e8ff7d1d25e
 ~ -[CoreIRDeviceProvider _removeMappingForCommand:] : 264 -> 272
+~ -[CoreIRDeviceProvider updateMappingWithSession:error:] : sha256 84199be14b87f946cb00bf43f218575eaad6501857bbe9f238e2abe812f5c1d4 -> 2dc706fe597153adac1a7a4de1bcc14f09170086b1d56753dc4c84a7aaec5f7c
 ~ -[CoreIRDeviceProvider _findButtonWithCommand:] : 64 -> 68
 ~ -[CoreIRDeviceProvider _setInfraredCommandPattern:repeatPattern:forCommand:] : 592 -> 616
 ~ -[CoreIRDeviceProvider handleIRCommand:] : 604 -> 608
+~ -[CoreIRDeviceProvider setOSDName:error:].cold.1 : sha256 ee2e97be5b3ef27562dc997312b426a0b2e62c21bc676aca93a1d65049bb84a8 -> 46e36e56fd496c683cc3ae541cbbd4a9dd26c6394774509defffc6c3c4600bce
 ~ -[CoreIRDeviceProvider infraredCommandForCommand:].cold.1 : 64 -> 68
+~ -[CoreIRDeviceProvider infraredCommandForCommand:].cold.2 : sha256 889299c20c47126ee8dc5752275a7fe71b1b399951e4c14be8108ca43a678862 -> 9b457eec87fc1bf1a8e89d9778de5f446808c5a704b4fa4cac3543f54f40ffda
+~ -[CoreIRDeviceProvider infraredCommandForCommand:].cold.3 : sha256 d5f60eba0be3011bb4489c97c14c56f906a0a9a85ecdc33e6a7cffad18151d89 -> 8d29a52992ef5a08154d55fc11ae09047992b0fdde2e040e5a5161ffbdc6981f
+~ -[CoreIRDeviceProvider setInfraredCommand:forCommand:error:].cold.1 : sha256 c3679b883c3d3451ae309a886536c99b606f80d164b16be846bcd8477a205a3c -> 5f376725827ba12374e33a784d55b8dbe577b501c1645f543d2b3b5189afe737
+~ -[CoreIRDeviceProvider sendHIDEvent:target:error:].cold.1 : sha256 8cba2cf60de95883a3bac624f45e2371407bfb152f3fdb5a849af551c2379337 -> 384420669bd80b24ba8a8179dab9d72c1e9a18156af5a39766a6b854593d6d7c
+~ -[CoreIRDeviceProvider sendHIDEvent:target:error:].cold.2 : sha256 d25fac9dfb02c414c040f5ca977de2a09f819cca4343d87161b7a25ec6051e45 -> 01197f413536f392e547f054744d88c92863610d98ac6d2c4f5265b1f81bd94b
+~ -[CoreIRDeviceProvider sendHIDEvent:target:error:].cold.3 : sha256 b16b0f0965f0537040a0c49e6faa5c846a095a45ad27ac434e18ba9397f93c20 -> 34687f209c573119bdfbcff55e7d16c669868f8fbd06a414a6672482c401f8f8
+~ -[CoreIRDeviceProvider setCommand:target:forButtonCombination:delay:error:].cold.1 : sha256 6f290f5674c7cf30924395ae6b5ae123daf7ab124f5a2ee1689e051bf6474c8d -> b8587b6b090736e8cdc1e46f61e440cfab737424952fd9f7f1da682be4c80454
+~ -[CoreIRDeviceProvider startLearningSessionWithReason:error:].cold.1 : sha256 6c4285d9f789e40968d93aaa907a9ee81eeff2b17623ba7c4001dff3ed745bf1 -> 62bb35bc23510f42494ee684fced5f2c54c6e7bee4b23dce823b68f4265020e1
+~ ___52-[CoreIRDeviceProvider setMappingWithSession:error:]_block_invoke.cold.1 : sha256 4be97818035ede0339b5cf5fae03af27bfe0231f3f385ab639572e285b30f188 -> a74c9e655a27ee87d6fd61b35dd8b6934dec31ea99e54f4e631e009f944d9c23
+~ -[CoreIRDeviceProvider dispatchEventsForCommand:toDevice:].cold.1 : sha256 5ff0f9e371ce8cd62d8ffe8a02a81c4f15bb5c1ba0d7bf0171a147fed991d9be -> 8b150caad783f2464b7bb280a99b2a26337e730a70cddeea18f8a4f4bf780230
+~ -[CoreIRDeviceProvider dispatchEventsForCommand:toDevice:].cold.2 : sha256 ae6d41bd3a098bab645fae7cd8b687cc14e78e4821193934c6d9afcc40d668c4 -> 8529477b403f16ebeccc3a31865c82461ce2b7c7f5054a52c271ca275198540a
+~ -[CoreIRDeviceProvider dispatchEventsForCommand:toDevice:].cold.3 : sha256 a854d24332f50466c0dd4f53e93791fcb5964f6af8a0e95163807e45ab0b63d9 -> e2b35453ef54e3f13e1583b6331cd5929f0aaf387fc96f337a2667d0391652f0
+~ -[CoreIRDeviceProvider dispatchEventsForCommand:toDevice:].cold.4 : sha256 f04442902ef7113a76c2b00c58f9994cc9a526a12a96ba4eec2f3d29523f4429 -> 6b3b59cf71e5d057b3d831ccd4c6e888524260404f885da18cc616772e76d05b
+~ -[CoreIRDeviceProvider dispatchEventsForCommand:toDevice:].cold.5 : sha256 5adc0fc1aea75b833eae074e922be33b56c34e89091118c5bdf2f99a8eff64a8 -> da6d3e80d96700b8b8d71073607cb88fdfe8667be38b987304c3799276745fc9
+~ -[CoreIRDeviceProvider dispatchEventsForCommand:toDevice:].cold.6 : sha256 fa60e6b27d3965ec737c621247ed4f7519f6891bec56ee128b594f446d52dbcd -> dae2566305ece4b28be8bce766c09be1c655376a8b15ee50237a909698e5c2a7
+~ -[CoreIRDeviceProvider findDuplicateIRCommand:forCommand:device:].cold.1 : sha256 e020ae6a7bbec84b6aeb6971c3016f9c1686bbba42f320f4fb09c6e7a7322942 -> 62b9630fabf1eda1d260f7db5aee22b56d22f2b51e3cbb33526f0b3d54482194
+~ -[CoreIRDeviceProvider synthesizeButtonReleaseWithTimestamp:].cold.1 : sha256 9de692e086789d6431097903ae1a850ad5860de3afab4bebb18afaec0827864b -> af5ccef27a3cdd29690c7a187f3e77297cd8a95339b374865de94a7790a79cbe
 ~ ___49-[CoreIRDeviceProvider schedulePressAndHoldTimer]_block_invoke.cold.1 : 80 -> 84
+~ -[CoreIRDeviceProvider dispatchEventForCommand:matchingButton:timestamp:toDevice:].cold.1 : sha256 2d9fd76a968453c7f86f563a07f9c2971bfb6d7e9fd8e0a43f8c649bc670b82a -> 26462000222f1575325f411d72d3a803046b78b0d2d327e34e43fcb35c1127cd
+~ -[CoreIRDeviceProvider dispatchEventForCommand:matchingButton:timestamp:toDevice:].cold.2 : sha256 1a78fd6bf144f4f851c77ade8a96727bc55d10fc9356dd4dbe9ce68d093db237 -> aeaea1c1d378def05880c5674c9da692477c354fdb03b4d2aef939b45e2a1b91
+~ -[CoreIRDeviceProvider dispatchEventForCommand:matchingButton:timestamp:toDevice:].cold.3 : sha256 8d006fa2800831dff5861971df41692b643ad98530e77264c70d962d8cd3e1ac -> 19a7ca892668d422c595fc0e239b3b7f1491fb70a20bed0a0a1990047ced5ed6
+~ -[CoreIRDeviceProvider dispatchButtonEventWithCommand:pressed:timestamp:toDevice:].cold.1 : sha256 57158af75702c13adf01f7b19262885ac11733d86c58827be2ed926555592da1 -> 6600ca66872d907c00ec7c7205880af65210717e11110e46581c14bd61556b6c
+~ -[AppleIRCommand getVendorSpecificHIDUsagePage:usageID:ignoreRepeats:].cold.1 : sha256 ef1b55f42cc3f3a5bf6aa5a682dbc5fa8ed38b12b2fd7f7379c6663cde087f71 -> 84d681eeeaa7528c53de3b94b3884c2027a09cf904bc737cd5274f678b41193c
+~ -[AppleIRCommand getVendorSpecificHIDUsagePage:usageID:ignoreRepeats:].cold.2 : sha256 644cfc9f98c7fc4bbf72bc3810934f1950c80844ac3e6f910a316f599bd8fd4b -> f85e5f622acd6741992c3211e0fba6f8c8f1f670fb43ed4a7b5e1494bbef1884
+~ -[CECRouterInterface receivedFrame:].cold.1 : sha256 cdd534aa360f9af8b07303e112772cfedc169f41a4d5a964ce75383d5490f8b9 -> 3cd29310d7248957c4aeb2772c5a79c9e3233b0c91bdce8991602b5216ea9541
+~ ___68-[CoreRCManagerClient(IR) learningSessionForDevice:commandProgress:]_block_invoke : sha256 0120874a2e68b649b50cbfb2722d184ad9e3417b44261174d7595d72613312be -> 9f8294eb7a338a5876f2ba2c3023160cf54058e9c44467d9415af5509b30903e
+~ ___59-[CoreRCManagerClient(IR) learningSessionForDevice:status:]_block_invoke : sha256 bc4af6b55264ad1c70c4fc18ea8604cb72fd9f028e4c09128e692201cf85ed1e -> fb2163ee5bc348094a34b7cda219e41de48a9b6dfcbc57f20917f5b8861652ec
+~ ___76-[CoreRCManagerClient(IR) learningSessionForDevice:duplicateCommand:target:]_block_invoke : sha256 38a9c43a1c383fac3d1605d94fb2ccd58982d8ad409226357816c137832dfd5c -> 3d740f75f83597250ac0af94b20b458678f01e8177310bfdd5ab927f043f7c21
+~ ___63-[CoreRCManagerClient(IR) learningSessionForDeviceCommandDone:]_block_invoke : sha256 d0536d57cb3cbdd7f7e74980787d80b734d95ec0cb5f099e2e5590fff1df01c1 -> 086a5c5f91d23836076e6516bec7a060d3a0e3f776d3bcc68434c0e1396eee1b
+~ -[CoreRCXPCService startOnQueue:] : sha256 2e87155e311a3264323df5077da9323320e3724fbf9169bafd8ba716296fef3b -> 2c387c1e74da90795433cce30ab8be252662972a0a2daa843842e5e89a56f652
+~ -[CoreRCXPCService checkEntitlement:].cold.1 : sha256 b94a383be21d60db252b6d8eb978275d79d12ea19fb2534298ec2bcecb742b75 -> 7807147de663c86ffb7766fa7c71d3ef0c5a5f9bb5a74245f6d5b5c13f659376
+~ -[CoreRCXPCService enumerateClientsHavingEntitlement:usingBlock:].cold.1 : sha256 aee19993b6fd28b39175609085c731edd9aff8f88032a7765ddcf58dc37e2db5 -> 64c52ae93344b1901f21366382c5527b5ba66dd233ce7d5e5937223f39143796
+~ -[CoreRCXPCService listener:shouldAcceptNewConnection:].cold.1 : sha256 b6233b3be9179afdeca56324fa22e9cb91b5c11774917cf57459359b837ced18 -> 82b26a7273a41a685636435c9c5147c28b8a65ca765b80f46db5e4ac1e92b881
+~ -[CoreRCXPCService connectionInvalidated:].cold.1 : sha256 4b05d71c088d5c8e7900ef6354313765d0537dd62a9a2c0315220a4e482aa5df -> 2eacd9897adddb3ba4f8de6fee8c5a8da1be389e5fbb8bf3f601047185ec5700
+~ ___42-[CoreRCXPCService connectionInvalidated:]_block_invoke.cold.1 : sha256 422d9bae76f98b3496776ac1be8195afdf58b6060b861fa3fb90a0448c1e2f10 -> 0ae015a8f74e89f51f6cc1d7310929efe0750dbc9abc2965289ba1c7f1f995db
+~ -[CoreRCXPCService setPropertyAsync:forKey:ofBus:reply:].cold.1 : sha256 b083020e715e93a73aa4197b4a874fca4037adc453a0bb57122087ed4c307bd7 -> 8ac59cd27b1970ecc8f7990b6d6881a24951f9b87bbd66c1ffbb1647a08b1caa
+~ -[CoreRCXPCService _sendHIDEventAsync:fromDevice:toDevice:reply:].cold.1 : sha256 5ed120525ae279c42aceff82864623865d696745af98d1482a0840ad69bdfe91 -> 9ad0aae0ca35e8542094e197d9ec2dc35f57096bb772f8208ae19064528b4d2a
+~ -[CoreRCXPCService _sendCommandAsync:fromDevice:toDevice:withDuration:reply:].cold.1 : sha256 b60562c66543289c4d563bc1bb4d294608cc5f4f74949017bf1d7d11a84ae61a -> 6365dcfe474394d845d32acd15c0e5ba31c482b85dce0684ae430edc46cebacd
+~ -[CoreRCXPCService queryBusesAsync:].cold.1 : sha256 dfa499764cd664fefc10c6d4afdc3f61119d0cba26261ae1d6b56c93daeb5a8b -> c8f3a312e29e54c9411aefdc03ce87d08cc13d861fd9be8ae1da4f5a58a28698
+~ -[CoreRCXPCService _queryBusesAsync:].cold.1 : sha256 8bbec2391160fc73d1c893b02a1e8ee981599fdff3cbc0162107fd6072015f44 -> 3f7597c42baa89965b8fe32d5aada942cb3446ea184cb3f542cac9dc32405803
+~ -[CoreRCXPCService _setPropertyAsync:forKey:ofBus:reply:].cold.1 : sha256 9d7bffa79962bae09b7dd72ddd90c1a08b2eafecbef9e1168c99f96ab922a530 -> 8b81c7295972c29575eb13c6f14926a071d43e7b3a5b63386c830efadc62df7e
+~ -[CoreRCXPCService _getPropertyAsyncForKey:ofBus:reply:].cold.1 : sha256 801ae1afc8e5cdb98fd3464d4588ae2fdafc4853c81af91fdd28f724e1a913a6 -> 4615e6c7445fb7739645291f773afd28bfb67c4b13095104b04c5cbe078df0f5
+~ -[CoreRCXPCService _setExtendedPropertyAsync:forKey:ofDevice:reply:].cold.1 : sha256 3bcc571aa85b3619beaf85b1d750b900b9b0217aaf21b6541574e25ed49fe897 -> be1f51544fbfca27c3aab2fe16d214003c510b3f74e113dddd733349465e738b
+~ -[CoreRCXPCService _getExtendedPropertyAsyncForKey:ofDevice:reply:].cold.1 : sha256 d90e883b00e12df4f69bd25ee46f4f090edd3069150a28d1a9b608d6a21d27c7 -> 97e832f6b7e51ea33a1dfebc61b41712979cd56827ddd5fe3f38626e59069582
+~ -[CoreRCXPCService manager:hasAdded:].cold.1 : sha256 a1c969565dd9af6480d8ef674c6afd270fc495dfa85d8745357529c6210cc12b -> 1a61b36e201303099eec63a7ebf7ff4388fd316a35ac0348b556b5b9e4c34f08
+~ -[CoreRCXPCService manager:hasRemoved:].cold.1 : sha256 3ed0fea06a2871103f397734c75509af4ee32a9c30cb28cba80889d0168f3085 -> b97adb160cbc79e0f658c0891e4aee17bd7b623cd6def73cf071e19a39c08e01
+~ -[CoreRCXPCService manager:hasUpdated:].cold.1 : sha256 8bf50c0089a4992b00c090ecbb76ddafe54b9f7473cfefa7289860d8e00b90cf -> 33c056b5db2d389ad3bf3e897eca9d8d6abf39fc547e2536794a130b17904beb
+~ -[CoreCECDeviceProvider didRemoveFromBus:] : sha256 c643d1fc92f89bad2b1544a00680bbe1e2c7d5fd9dd7061e7792023dbeb82bf6 -> 0a5e145e498d95922f641c6a6fad2198b8a6c5f37f064060ddae087c256302ab
+~ -[CoreCECDeviceProvider deckControlSetDeckStatus:error:] : sha256 ac7f7a5123d7b158feaa8a0f4cd3bde34b4881459102f4ca6adbc98aecfb0341 -> f0cc0a5d7f88ee552b201c891b0759b2d2ab8a167ea17dd9b0d6cf6e63f18a3a
+~ -[CoreCECDeviceProvider makeActiveSourceWithTVMenus:error:] : sha256 ccc6ef3127a76eadec40b7981b2cdc898aa0d0f48eae8a6639b1698124ffbb38 -> db435f3bbef69d42e39d1ef29e795286a9202b048453d2ae77627ea0e63e7989
+~ -[CoreCECDeviceProvider sendHIDEvent:target:error:] : sha256 aa19af94ecc45f94e2eda2f4e1056ec37537d0d27550d75112644646d1c10bb2 -> 719f46db42887b43227d099302a6622aee9b9e7a08ba1e9f64cb9d9a0dda4d7d
+~ -[CoreCECDeviceProvider resignActiveSource:] : sha256 a2c5db2f6cdd763c5cbf05d041f407ce00e1f4d8da9171254b0fcd3eb625ccee -> 199498c924afa5f250ba9d96e86c53433933984f962df21c7ad7b1ed13c9a1b6
+~ -[CoreCECDeviceProvider setAudioVolumeStatus:error:] : sha256 1e8fc61aec1fd554b0177d5969b6951c8f211995aea4ad07ef8d8e3d1eb650c4 -> 2eb160189d83d55f83155a12edd2d57c9241b7a8fa69f9dee205b1d2b33df713
+~ -[CoreCECDeviceProvider setAudioMuteStatus:error:] : sha256 033e89295a909bef6c485db284cf71236b4229e9da1b2e370d89341862a427d4 -> ba2b04f3814b05687c07dee894362a01c15886f4eb34d946d5a2d6b38548865c
+~ -[CoreCECDeviceProvider setSupportedAudioFormats:error:] : sha256 4e500e158c71071c5c2a452fbc2010f38bd3c4a407138010520f5bf8daf182c3 -> b1c45f4d1d8b51f1343b436c2733c0c15aaa0a9129abb23dd3d24acf40673183
+~ -[CoreCECDeviceProvider receivedSetAudioVolumeLevel:fromDevice:] : sha256 733b9806627cc6d9fbde5d6a0e200c5d386c16f1e016b429352a229d9b672097 -> a98f4cbcee13362252cc31db4b4ba635b49079e6ed4e4c0578801a7207faf124
+~ -[CoreCECDeviceProvider filterSetMenuLanguageMessage:] : sha256 d2d79124577a843ec02e56b76a7cbe6b4f0e1635368429f9c454c2ed9fa9b88e -> f38fa22072388897bf34b2fd955b671a22c1c2fa3ccae3eaf19a2fd9f2b0eeab
+~ -[CoreCECDeviceProvider filterReportFeaturesMessage:toDevice:] : sha256 75fd9ac98c904fbac0d75f3153d29156e7edf69d5ba126c4d8ab89c3c0ee86c3 -> c62e5a62e2e445ecea3e1b9580e929c06b9e335ce3da542210a1fb0234895777
 ~ -[CoreCECDeviceProvider sendDeckStatusToDevice:] : 336 -> 340
+~ -[CoreCECDeviceProvider sendFeatureAbort:forMessage:] : sha256 e61792a6f63d96efcabe4bf6363337b6a40784d57bf5840ebac0d0471b2fa650 -> 5e37d058f116a253d0bd1e8cfb9e7f6e71df7c8030f1a697efcea12d0c817489
+~ -[CoreCECDeviceProvider willRemoveFromBus:].cold.1 : sha256 9636c89fe82c6a1b48c93d20e4d967b8b3518ab83339571f428f987c6c67b6b5 -> 34df3ef1cf10862c9dae85d08e058b548b04dc8bdc523a4a94d35be695692691
+~ -[CoreCECDeviceProvider serialQueue].cold.1 : sha256 b358751afb727fc3cb519e39091db3f7ae657e5eaf1ca6d1a4667a3badd199ab -> 189887e6cdf0a3371c1368742615cd339a1d95e7345f2c61a01584bc56ce96dd
+~ -[CoreCECDeviceProvider didAddToBus:].cold.1 : sha256 8d86f95c50ed38af66bf43df91e3849f228fe50333c0a1e1ae5a86ef5c062c35 -> 201c99c260bd673299e75875d2ea1bce1f16d41fbd5a5bba8c6827233c3af4ae
+~ -[CoreCECDeviceProvider deckControlCommandWithMode:target:error:].cold.1 : sha256 43ede40964d15c2aede44f4f670c6dac47ec413618ead030e58523a0a92cc0a9 -> 3c7fc9fdf814110d51a81ebd601ed21ef933dbc092656484edca3ab24a40c898
+~ -[CoreCECDeviceProvider systemAudioModeRequest:error:].cold.4 : sha256 6bf0cf11c1cfcbcbd033eb7c31b7776262c6c572da4c413705d86d0651c674cc -> edce68b32e0876d3df2e0a93c1395b7afcd6cf47a0bee8bdb71a8bb288e53294
+~ -[CoreCECDeviceProvider refreshProperties:ofDevice:error:].cold.3 : sha256 89d0d657d25b0ea2e334c629fd1f90e77426396770879843d9b3ea3433635511 -> d47b3b68c894aee6c016e81f892c20829ee058a77f53eeac35db534be66b5fe2
+~ -[CoreCECDeviceProvider deckControlPlayWithMode:target:error:].cold.1 : sha256 320f7a7ba1209880702c167d2422fa6d4bf1a7d6c587465a641d8ed9047afc3c -> 5831d6adb3f6e43f7b03407e6696ac764ee3a0da5bb337cd48743efffbd55400
+~ -[CoreCECDeviceProvider deckControlRefreshStatus:requestType:error:].cold.1 : sha256 302af45801febe00509b411d4a3932e7d638498bbc2a76bd4d3359534b54d6a8 -> 232f5ca7c0ad3aea570a35dc9d5d29cbc8bc6108a775a591f9ff2ba9d2595741
+~ -[CoreCECDeviceProvider performStandbyWithTargetDevice:error:].cold.1 : sha256 d2bbaf3ef9fa6e1fffc210dbe24c1c23fdee4ce425764332d4c6646876e0dc31 -> c69c9ae9d41913580ff9e29d2c019ef13e52a2991600895d40372777e230806b
+~ -[CoreCECDeviceProvider refreshActiveSource].cold.1 : sha256 ffcb41e9d9e5d771c194de9dc4fc9970375a6f12cc15dea1d30fd7d3b3274235 -> 2c46f58aa22c11775a0c1fa4a04c32ee427edc92a7177eb632f39780ae9f7461
+~ -[CoreCECDeviceProvider refreshSystemAudioModeStatus].cold.1 : sha256 0c9190abff7e26df57319011cd114e34ad42eb8fa5a848c08ebc05d71141fcec -> b356fd51c2cc2f8bd688e09278902022d0b3ab4f730d3ea1754a6a7df2eb2b99
+~ -[CoreCECDeviceProvider probeAbsoluteVolumeControl_handleFeatureAbortReceivedFromDevice:withOpcode:reason:].cold.1 : sha256 729978b27223c47f597290e50f4807b54ab0a46ac21377b1daa6b69ec6e92acf -> 01993e242cf39edbe382d4dbe29273ed10356394d5186e1abd1c448cae8268f5
+~ -[CoreCECDeviceProvider setSystemAudioControlEnabled:error:].cold.1 : sha256 2852769490d6b34ada61d849e39f278ba3fc8a9f399651a43d204f86ca88a614 -> 0a9535f4d2d29450ba54591cad32cef85269356bb8660a19476674d62d70db61
+~ -[CoreCECDeviceProvider systemAudioModeRequest:error:].cold.1 : sha256 b1d27666eeab588158c0250721ca943100e717c42f635d65e3965d68af4e240e -> d4434385d4a5b08e97c19e8ce4cdab1a855cce45cfa63101f546da93c8ff976d
+~ -[CoreCECDeviceProvider systemAudioModeRequest:error:].cold.3 : sha256 92ae81ab7fbd64b5569231698557a1a0b0f0892cd1bcf3ef3b2e3c613da6ea0d -> d3e2d7cf7a0f008b1347732b53da96ba783c65c208f721cb4f7683b2b228738e
+~ -[CoreCECDeviceProvider requestSystemAudioModeStatusChangeTo:error:].cold.1 : sha256 6b10e41fd63a4730f9d8a367a0dfc88ed84b1e7de2e2327353478f2cc9bd4951 -> 431e84bf726bfc1fd7855f0e70e77314b1e26840d63729231f0fc5e7c0fbbd68
+~ -[CoreCECDeviceProvider requestSystemAudioModeStatusChangeTo:error:].cold.3 : sha256 27283efc0c6085f6ca75b1439e2e60c4cc266baf03f819cd1b48bbb389423f1f -> 1a5c7f720a07f0e4daf31ee99ac6413e402dbd33ebdc07f8696b0ab0a3662339
+~ -[CoreCECDeviceProvider setAudioReturnChannelControlEnabled:error:].cold.1 : sha256 654d030afddad9496c4d444ca0342331426d33c4fe60655e684ebfbd1df7baea -> aeed7c8e69aea0cf98265ef23cbb8d6980d926ebb56e4d5c138330e36ad4ecbf
+~ -[CoreCECDeviceProvider requestAudioReturnChannelStatusChangeTo:error:].cold.1 : sha256 4e677fed1d263432bdf5da368b92c50d99c95dfe223bbc347c16b03976047c68 -> 61a50f796f1c891e2554256410e9dc650fa25dd85c6e885ab52f2e04ee8af85b
+~ -[CoreCECDeviceProvider requestAudioReturnChannelStatusChangeTo:error:].cold.2 : sha256 92f5ad06eff164140379343c7458bce1dfd6ba6feaf65798c07fdf570fabd68d -> 11e1037e344bdc00e7902faf49cffd9011a63eb2056e65ff51528a128ce63d56
+~ -[CoreCECDeviceProvider requestAudioReturnChannelStatusChangeTo:error:].cold.3 : sha256 a7d6d88829591d6c7ba781e0c42c7b21c794cb1bce50d135bda36344bde44fb2 -> 8f4a8f59cf156ad47ee78f056618a2a0e7b3d2198f283f58abd815c7e7226063
+~ -[CoreCECDeviceProvider didChangePowerStatus:].cold.1 : sha256 3653d46307b2dc0e8c80ff8e98d46828c65244120304b50cdde53aa83a91ef14 -> df08f3e4a322f5f64984d8f3f1b8691b62fa735f2d96c0a994656a706848ee6c
+~ -[CoreCECDeviceProvider setTrackAudioStatusEnabled:pressTimeout:pollInterval:error:].cold.1 : sha256 094f41cec8e66cbd089766bcd13697ee15b6959a4e7eed6361642eba72ba028e -> 2ec512d31efcd50efc5320c85239a178e54d088e298c1d601b7e5814cf54aec2
+~ -[CoreCECDeviceProvider setTrackAudioStatusEnabled:pressTimeout:pollInterval:error:].cold.2 : sha256 598cc5221ab3eab88fca800bf6189c0878589df81b9664d34df688b850770832 -> 3b8fa8659ea97ac21501a2f150ffd3af0fce95359c90c895c3f9d56255f54303
+~ -[CoreCECDeviceProvider requestAudioStatus:].cold.1 : sha256 da2e6dd3747ab07d118cc9ec2a436db1dba8f6914dfc9ba0ebcebd5bacf4b070 -> 6a42a536ee46dd833dca3743b2ab6df0f5727a7a606ae8dbafa548c4f10425ee
+~ -[CoreCECDeviceProvider getRemoteControlDestination:logicalAddress:forTargetDevice:command:error:].cold.1 : sha256 7fde9f65fbb604dabfa9c0c7ccb3b8f093a93f0062b7269798331a29e6bead05 -> 326681788829103c3a68e5d066eb65d669e9e9531f359304dbaea753e3ef708f
+~ -[CoreCECDeviceProvider getRemoteControlDestination:logicalAddress:forTargetDevice:command:error:].cold.5 : sha256 d641dcd9955740a360adf8a194c68076038dc03ee1e6df3ed76c91243a028196 -> c6ae7733e0ab6e09c460725104130ed3e41c996abdaf31f92ac482c61ba7026f
+~ -[CoreCECDeviceProvider userControlScheduleInitiatorTrackAudioStatusTimeout].cold.1 : sha256 f9328c2ed9aee9911dadfb0822adcc515aaed5fc54050ab94d8cbc835a3cbaea -> 67770423b0ad1bb3a5eeaa864da2717be1d1ce6973372d552d8e4a5c9b687567
+~ -[CoreCECDeviceProvider userControlScheduleInitiatorTrackAudioStatusTimeout].cold.2 : sha256 18c5fca5e0d4cdde3da9bca783654d7f5d04fa531d7d2d32acabfbe2929c6e02 -> 8f00d104605b2c9205a5c4bab7a32b08ba07869ee11c3d682dd1fac3af861d29
 ~ ___76-[CoreCECDeviceProvider userControlScheduleInitiatorTrackAudioStatusTimeout]_block_invoke.cold.1 : 80 -> 84
+~ -[CoreCECDeviceProvider userControlInitiatorTrackAudioStatusTimeoutExpired].cold.1 : sha256 c7f6f89fc47153bc6e4ca9ac0e00893e0d936a689ea5ae0051f9a0a09f0accb2 -> d125ae1e8e0b61a5d21a68ca43760abfaf992d0b54d04d8d475964781e35b23e
+~ -[CoreCECDeviceProvider userControlInitiatorTrackAudioStatusTimeoutExpired].cold.2 : sha256 d3d50ea6f14bccc8b268b61a2920f5cc25353eb75dfc47af3c8b4fce0a54bbc6 -> fb3314ef99ac5c839a645b185deb469517c350cea08b24fff095d5e07ff2592a
+~ -[CoreCECDeviceProvider userControlFollowerSafetyTimeoutExpired].cold.1 : sha256 04a2e9526a1bcee672daedadb8825ae6c98b14acf49726478f6e1e539f303682 -> 06384ec440e95b2c9d040febc8aa2a4c4abc676ba3d2079f33081fb13d38149f
+~ -[CoreCECDeviceProvider userControlFollowerSynthesizeRelease].cold.1 : sha256 13b785c53484337ed338fc3a542da9470e1032655640e6ebc8c4eb6ea4e9caa4 -> b0d88e76569e2f148a9c0db07614e415e5cc34bc474e35a60c220cb8b1dc3360
+~ -[CoreCECDeviceProvider audioStatusChanged].cold.1 : sha256 c14bfdd20c5859ec165d9b6e64e396af1582a1e52440b02893d7548944341c89 -> f08f3af2bf1679dcccf7fbbb5d2b2b6bfcf298ed841965d7dafc79984da73eda
+~ -[CoreCECDeviceProvider audioStatusChanged].cold.2 : sha256 d7ff84837d57113b31f2d158f71e5dcb2828f07ea30b1616881e8a6cc9055030 -> c0316c513075a32e779eab37eb8f6c1ab61d384a76c447b000753ed3a231060e
+~ -[CoreCECDeviceProvider audioStatusHandleUserControlReleased].cold.1 : sha256 996f764f8b5f1f7c8bb761f7b120f74980b09b2b61759872977c353f0441169b -> e72b34faf0c2f1a4a82bd87219ff0c9e13eeef6dbbc02458c864c6d758842210
+~ -[CoreCECDeviceProvider audioStatusHandleUserControlReleased].cold.2 : sha256 537fcb3bb2969a7363be423efc501e3e7273246a270fe336b881b352e018a7a0 -> 8da6e09f4654ae0226d6bd376009e6843210f801d3bf017bc137262629765f28
+~ -[CoreCECDeviceProvider deviceRequestSystemAudioModeStatusChangeTo:error:].cold.1 : sha256 a5a1ab0ae3ad9b52670dd4db6a0ea73d7e5a20d436401ac29feb36710def7ac2 -> 165d395cec073ed57dc62c04685442262417777f93e5aa78802e043e1ce9687f
+~ -[CoreCECDeviceProvider deviceRequestSystemAudioModeStatusChangeTo:error:].cold.2 : sha256 14cc4f3156be52163c7420686f98581fabf4480bf2e2ee252eedcb6539f4ef92 -> ec67a81f87190635cd18f3ce3a77ad28bf71f0fa28c3e5e181da91877d13e90a
+~ -[CoreCECDeviceProvider dsamStarting:].cold.1 : sha256 912cfb040b8f0274b60e6d6cfdff4035dc3a5aac681c30c3ec147c001c52b81b -> 67610b6d66fc3e0b2386089ed3943cb2d55a011d08c32043ffea96f1fef408c3
+~ -[CoreCECDeviceProvider dsamStartingWithPhysicalAddress:].cold.1 : sha256 0c907132d87e766f40d6d96bcbd3c97f09a8b3085dbe559a1193c3bdce72526d -> 6eada000b2bea5bb176aa1e2a50aa5275259edcfa2d195d000dee3ce953e7415
+~ -[CoreCECDeviceProvider dsamStartingWithPhysicalAddress:].cold.2 : sha256 27bfc2183b82dbd01d972934ba2b025d6f92dd9ffd433d7cbe3da193740ea150 -> c0674dadeb70c140c7b91542bfedcfa6dc34d775dd039fea9502528549efba5a
+~ -[CoreCECDeviceProvider dsamStarting_handleBroadcastSSAMOnResponseTimeout].cold.1 : sha256 a4e629a94dba9e9d1b67d46e9db4857f188c304e06425c10e86235cd48713bf1 -> 8046a5d83da36fee33b999917574519d10debb3cc734e03f767bedf1d8177415
+~ -[CoreCECDeviceProvider dsamStarting_handleBroadcastSSAMOnResponseTimeout].cold.2 : sha256 30aa709246df73a1c08a43da9172c8b468d89aba011c40dd4d01af9b6b35b60c -> 9cd38d219948113efa06bd2f5bac74a5421b70516b4c8b24e30eda38ca1cba58
+~ -[CoreCECDeviceProvider dsamStarting_handleBroadcastSSAMOnResponseTimeout].cold.3 : sha256 e68f4b55f7b221089549904ea8594de0103b5d192665eef04f00289dd27ef0e2 -> 8b1669da3fcf44da04cf4730aed525dd826b4f28edbe84bcc07e02985c39cad5
+~ -[CoreCECDeviceProvider dsamStarting_handleBroadcastSSAMOnResponseReceived].cold.1 : sha256 26c5363ee42ad6c6c7a34d135790b049b8337e6570d4c6e9a3baaa89db182342 -> 53675673766a935d3f7bcc5037993426efff74e5464f5d1071bc7b55ff5eba5a
+~ -[CoreCECDeviceProvider dsamStarting_handleBroadcastSSAMOnResponseReceived].cold.2 : sha256 c31231eedb3139a0f701dda87d2fe84d258aaafac1576fc1a9b92fab3756f16e -> 350dd932a65588734bbb50a568c93dabd6b0c6979fea80bd696716c8028a96f1
+~ -[CoreCECDeviceProvider dsamStopping].cold.1 : sha256 5fa7e3ef73f6c965718bb33c7b9a72dcfdbe913e08369ae40ed49c655b29b6be -> d3c1fbe1688fb514470970094007724fef57906ebb5413324d288c2c2d697f18
+~ -[CoreCECDeviceProvider dsamStopping].cold.2 : sha256 14f8b096cc1c346ffe38ae6d43e80ec483e4db325052ed98c288bd27fe69cc50 -> 9613f98a06e398ab6c8f5fa177643d2709b58c56a8a3d0ad3c6180d34f0aaba5
+~ -[CoreCECDeviceProvider dsamStopping_handleBroadcastSSAMOffResponseTimeout].cold.1 : sha256 236e23e75063fedbb759cf5e5117f35c105bbc125a7e7ba209b63c50399a29bf -> 901d9c76b793f366c4052cae1ab586cb5a8b81878b70ca632b1a43e1d1f0d4e1
+~ -[CoreCECDeviceProvider dsamStopping_handleBroadcastSSAMOffResponseTimeout].cold.2 : sha256 86ebbab4bf4164389a15b693aff24d52390e1815710171a19bd028644a610cd9 -> 9a071f941051e2011718fa965e110d133fbc3e22c9ba36fb653775c7d305a59f
+~ -[CoreCECDeviceProvider dsamStopping_handleBroadcastSSAMOffResponseTimeout].cold.3 : sha256 4f876c6e9cd0d83fd6be1880d988748402b3f140ac62177cace4f6a137329a5c -> c3bc500f56980466a72182178cf2667ab282b007b826911379d92a86a28207e2
+~ -[CoreCECDeviceProvider dsamStopping_handleBroadcastSSAMOffResponseReceived].cold.1 : sha256 bccd678ec903d60b7b57c3292ba236225e8049911535c50e674336a54887e7ce -> 7b96b6503ebfe332dd530b5519d4d312a8c5b878b1cc16892f548f971faa65ce
+~ -[CoreCECDeviceProvider dsamStopping_handleBroadcastSSAMOffResponseReceived].cold.2 : sha256 883299b0a105caa2be863355501e53a22a810184bcf334122c4560d44c75e4a0 -> b698529669f67b51a8951225a803f649a1020f0063d85463683f56cce838591f
+~ -[CoreCECDeviceProvider audioSystemRequestSystemAudioModeStatusChangeTo:error:].cold.1 : sha256 9250aa9b36ced3feb892ba2592dbccfba97f9ad826e91f69be36174f6ba7dba2 -> 99a37cb4b1a6a035ba531d0df1489e90856d3db3ce84a8b7180f142e846506aa
+~ -[CoreCECDeviceProvider samStarting_broadcast_Req_Act_Src].cold.1 : sha256 e8d1813d71be875b685917f496cc29a235b437e1c627215c2b77aa28a40cecc7 -> fc7a2d14554c02a5b494266dd8c757a880f8449a541c36770725351af8cd79f8
+~ -[CoreCECDeviceProvider samStarting_broadcast_Req_Act_Src].cold.2 : sha256 b831bd5f27796a88a123a944724e263b59a197a9337c2e4d6504107783e03b89 -> 1eec7df963681eac6cd928ec21de46c69228a634cdca4a8db8e543154a6a18f2
+~ -[CoreCECDeviceProvider samStarting_handleActiveSourceResponseTimeout].cold.1 : sha256 74777323be0a637904596ccf7d56c38a1877b8d4bde6bf3c22d0c51a3e9ace52 -> 7d1d6954b8b1ccbeb96c48f2d7ec88ed3efd593a1103ff6ea5e62ec7d819a7ca
+~ -[CoreCECDeviceProvider samStarting_handleActiveSourceResponseTimeout].cold.2 : sha256 7169bc9d953d67c98481805323ed03f7390a1888dcc8a3b722fb98afcb5e0d08 -> 28911ef44c2d9d4526955dedee244f061ea2f5b0c10b54be9a502c7e8b7c9bfc
+~ -[CoreCECDeviceProvider samStarting_handleActiveSourceResponseTimeout].cold.3 : sha256 f795230a48c5ee0a71510921f5b145943e0b230c2952a981b67d0cf149658ef6 -> 0e35f99dbccc4430ad882876226c92ac80d8a58ac7cbc16a128af8b09b3c94de
+~ -[CoreCECDeviceProvider samStarting_handleActiveSourceReceived].cold.1 : sha256 cfce9a4626a82a8d7082b99da0e85d7988ecef481e62f62378c8e3690dfa99ff -> d72073f72bf16119f9a3f5360dd01c3e25957c5e74bcd487c97be07d2e0e8325
+~ -[CoreCECDeviceProvider samStarting_handleActiveSourceReceived].cold.2 : sha256 d965ffe6cc69cf39eac0822bfa7569377ba78f8aec1acf40b32daab356e65073 -> 92a8790d6f2d25ac360861534c017d28b899d8d338947bc79fe7d3f27871c017
+~ -[CoreCECDeviceProvider samStarting_handleActiveSourceReceived].cold.3 : sha256 da71a45fa35be6736d2b8ac6fd0f32db3ec7439a0cf1ab1163f32c06fad64975 -> edd96a6cf0fc480cad82a38050dae5543dfe9ab62c7ffc892b92b3184516f8b4
+~ -[CoreCECDeviceProvider samStarting_send_SSAM_ON_to_TV].cold.1 : sha256 591adfd4030c6300c5096bdb73493d7b836b3457e6ba6c97cb9a9a5de3a355e3 -> ac0e65c15074ea86d70aa7cf99b52ae583a2be3dbf7989a0930575a97d8dbbb8
+~ -[CoreCECDeviceProvider samStarting_send_SSAM_ON_to_TV].cold.2 : sha256 cecb643db89fa22ae46232a41e781bb76e0ff1e57aa15e77263ad88a632624ac -> 9d626441b72683a174bf2f2d41cf55b775df54b4b43f2624c12875ad8f084eb8
+~ -[CoreCECDeviceProvider samStarting_handleFeatureAbortResponseTimeout].cold.1 : sha256 68f11f135ea10627bd9b9d6c99d8466c23ad37e6c507e47a74f3ec6ba5154500 -> 3a7e240f928bbe41fa31cf5a1e9866110765f767a995b2f0764dbc70684ce82f
+~ -[CoreCECDeviceProvider samStarting_handleFeatureAbortResponseTimeout].cold.2 : sha256 d25c3577ee91466b9eec257daee959bf426eceebcc888749e8fc8986b0099eaa -> ad5bb164fb505f7ac5f19b3ea7114b904109a059d642c21937f0de731bc4d62a
+~ -[CoreCECDeviceProvider samStarting_handleFeatureAbortReceived].cold.1 : sha256 a183752571a4c07887a058b112f6a844591500a70622edccb53c374369fa4fac -> eb1535d9cdec4dd3865eb3f60257a28840fb7b9e813facb974550fbf1d092876
+~ -[CoreCECDeviceProvider samStarting_handleFeatureAbortReceived].cold.2 : sha256 fbdff15b805980b4838ef25a5ea7b11aa5433140d5ee0be31e55859863cc56c2 -> 71994d8ba8613dc09b4356613ec66b0ef141d90ebbd3df45402f08f2d8c646ed
+~ -[CoreCECDeviceProvider samStarting_broadcast_SSAM_ON].cold.1 : sha256 ba37c7eb24f87253d03383ff3beca23bb8f592308916bb97d5858a32753af963 -> 4bdab7a729c85dd85bb3b911725e14d608d9c2855987af04ddbd213623245ba8
+~ -[CoreCECDeviceProvider samStarting_broadcast_SSAM_ON].cold.2 : sha256 f3f1a84dcf2608647258781c01fb001e7daadbd576c27bce903c827f6e79b080 -> 68895d868c7a412d01b54bdc0f5cb9419a46fa72f6239c628f0255f64fbf8e39
+~ -[CoreCECDeviceProvider samStarting_broadcast_SSAM_ON].cold.3 : sha256 b4270e48a49ebd002f4332e2c538fdd6dfe3c4f1194bdf5d11834260ecd64519 -> 541737de8b0803c86536a3fb9006f17b41ea91e617ab3159baa1f3c2ec97b2c5
+~ -[CoreCECDeviceProvider samStopping].cold.1 : sha256 af4909b9bf72edb3289e1016f7425599f5349bd3f49d79c4dc8f7f7f048c3ee2 -> e10638c2a246cca522b84fca57a7d67ecfe6921fa5a85eadb06b7bd17b376188
+~ -[CoreCECDeviceProvider samStopping].cold.2 : sha256 a890ff1d05b3e2a5ce799ef6c879d03372ae7f951190916a9984d18645134187 -> adb6681face84265aa4a0da33cf5ed0b1cf4982985edaa3ddb633a3a0dbb2caa
+~ -[CoreCECDeviceProvider samStopping].cold.3 : sha256 253b83a5cf6815d86733c5145f2a40be54c6d906911d9a68891b0526914e0299 -> e65885c77c88ef92bcd19ca27931d7bfb8e8a5e030674f490c15cf0bf8663e5c
+~ -[CoreCECDeviceProvider arcStarting].cold.1 : sha256 bb21a55eb936eca4f1de40f0c29089ee66577aa0996aa7f6b90a59d8aa8ab3ae -> 5953fb68eb8d3e0548f0c17898626b08f89b80d44f440e104128cfa544da09ff
+~ -[CoreCECDeviceProvider arcStarting].cold.2 : sha256 6a08bddf4d489036c48ea7ebd7e0e73421d583d445a7cf11b02eb9b94390a70d -> 505a5d3bf68c7f127ccd4db2f5c997026ca8b304e3efeb5fa854563a604ba515
+~ -[CoreCECDeviceProvider arcStarting_handleReportARCInitiatedReceived].cold.1 : sha256 d91bcab934b4b016d64640331768b5065b0145e0c6b03ab1641efcda813fb681 -> 882eb87535afc59cef6f5e45d466c4006934ee8b20b0cff6922026b01204853f
+~ -[CoreCECDeviceProvider arcStarting_handleFeatureAbortReceivedWithOpcode:reason:].cold.1 : sha256 d2904863edb1ea16832e5df34c8a1a63b5346080697f24266e71d1a8c5613d30 -> 71fb51850e2d1bfe19c68f4a4005f8c081a93c21a6f892258496180f28568dd5
+~ -[CoreCECDeviceProvider arcStarting_handleFeatureAbortReceivedWithOpcode:reason:].cold.2 : sha256 c99d38ecf9ac5e61db3cd404117f69913a74a27a4c09835e0e63cb297d92ca27 -> 3be083f92563cadcc3e428c9d17e9ecef60726c130f49e6ae01a40124d67778f
+~ -[CoreCECDeviceProvider arcStopping].cold.1 : sha256 e90ebbeb787dcb5570338442843c13d7fc107a9f8f30063b52d96c064f81932b -> 4e36c9eb27c7fa4e64ae7eb90d408ee4c0c068f057e34a0863b3f6f8157e0379
+~ -[CoreCECDeviceProvider arcStopping].cold.2 : sha256 5d18c7e02ad57817c5813222c7f1aaa78c832abe2f310784c248f72236ffc6fa -> 59aa0a0f589000b7223951e92dd385b6d1760fa2f71466ddbc900bfc1a1cc82f
+~ -[CoreCECDeviceProvider arcStopping_handleReportARCTerminatedReceived].cold.1 : sha256 33bd7eb8aa2f0726b42c8656c490bef3e45df2c401b08b72b0764cf0a4851013 -> 918aece36b1665cd7902a2e7b312ae1de1c1b8caea2e9e2be0595e41c4983619
+~ -[CoreCECDeviceProvider arcStopping_handleFeatureAbortReceivedWithOpcode:reason:].cold.1 : sha256 ae470c46a1e50661a7a8e9db3d80b931fa75ffdb7fe459210164698c55b9eb87 -> be13d560261aa79012809408adce95629e7186c62d0bb055dc28050677e363ec
+~ -[CoreCECDeviceProvider arcStopping_handleFeatureAbortReceivedWithOpcode:reason:].cold.2 : sha256 87354df174ed13598d01fdaa4576958dc9ef02778c84c4a058fbb692ca392a6c -> abf2f94f02bd6ebb33b40a5eac1c8e8bc21bc67387476f6f201ca0b17e63ec01
+~ -[CoreCECDeviceProvider hibernationChanged:].cold.1 : sha256 66bb9ec4634aaffe59e7460f21292475e9e016b2c2e6717543b821915256b9e9 -> ecb614b6936fca5a4e214817a36cee7d147e4ec3f96f664a98fa0117c31667d5
+~ -[CoreCECDeviceProvider filterMessage:toDevice:].cold.1 : sha256 c4d9dd79be733e0316e31625c5630234c892232227c6606ed3b64bb13e004a95 -> f0b2b8e483943c36d6b2eb4db507b3cbddae223be0f29c4cee46574557c577de
+~ -[CoreCECDeviceProvider handleMessage:fromDevice:broadcast:].cold.1 : sha256 e6656bb43b4fd6162faf69b62df6e4a6ec09a2dea7b5d29befaf3bc18bc65f03 -> 5932a945e7898ed1199a1ff769311797d1ef35fac8c2eba92ab22077a9f06afa
+~ -[CoreCECDeviceProvider didNotHandleMessage:unsupportedOperand:].cold.1 : sha256 32f00cddb3cde2ae148be2effedc819415dc8a8c597f67846e53cc314df49a16 -> 683bc31b63283a73eb5c8718f62e760f14a33bc72484aa3584ec32f17072cd61
+~ -[CoreCECDeviceProvider handlingRequiredForSystemAudioModeMessage:].cold.1 : sha256 af01889638f1f81944ea42391522648c8672f5a85c09c764b15f493cf698d749 -> fc891b0ae6a21e01f247eaed7286da573889b5be75aa4c630a5026255f4387bb
+~ -[CoreCECDeviceProvider initiatorAddressErrorDetectedForMessage:].cold.1 : sha256 675229b3ecbeaa8329e10437fa21c6484bcf4367485a644c4cfdef7d650c8f65 -> b959218fa3a10753417ddb81c5c06e0741bcdfd5000ab6f1f0112c1ccb055972
+~ -[CoreCECDeviceProvider handleFeatureAbortMessage:fromDevice:].cold.1 : sha256 1399f6fcfb61a4e40740a9709732eb6137d4baaf57ff2468ceed957a31a3ac5a -> 3be3b98225a673ca4fa46eba4ed7c8411681c738488eaaadbf3f37ba14685e4f
+~ -[CoreCECDeviceProvider filterActiveSourceMessage:].cold.1 : sha256 38217b1a4de3fefd3d26aa1636f326ce895cbc79085b29316c2dfc5033eb468f -> 3f9be6a12efff30dbb4d4133470842f3cd7808ff7ecb11f0eebfb9d619e34d3e
+~ -[CoreCECDeviceProvider filterInactiveSourceMessage:toDevice:].cold.1 : sha256 3adfeb5613291d109c913db5b7ddf522aa3765c2fae50b41cfaec82024c6b1cd -> 677fe1aa36c147c38d40e52bc19330ef98375ee82baae9e895063fd56ba66f61
+~ -[CoreCECDeviceProvider filterSetStreamPathMessage:].cold.1 : sha256 f8430b0e643ff7825ab045c1e0f771c72c10f9e64c175ef31c61a2cdd56553b2 -> b3cfa29148569a5e870385fa430a42cc9607d1f9b73e1631425e10965059f5fd
+~ -[CoreCECDeviceProvider filterSetStreamPathMessage:].cold.2 : sha256 c67d1003b0c76f5893234cd734543d31cf6dc9f5771a5b4651be03bcf58925c9 -> 88698de2d8ede97a853d3f5d2063b1f46336886e020d287f9df8af1b6af7ab76
+~ -[CoreCECDeviceProvider filterSetStreamPathMessage:].cold.3 : sha256 dbb6d80d197fb6a3d03d71db6baec3d01289a159c92f882c435af0114552cbb3 -> 3177684d5fd470adc7fe21fc899e573ae655b79d3aaa9cccc11f0e40fee59755
+~ -[CoreCECDeviceProvider filterRoutingChangeMessage:].cold.1 : sha256 b4c959f050ad87d8bf629e27c673226f247ba16104fc4e947707dc5dabe95fe4 -> 2782efecc2a230849a70e019eda69d602374221bef331dc0bd5fe13e5aca7213
+~ -[CoreCECDeviceProvider filterRoutingChangeMessage:].cold.2 : sha256 240fcc0f3cc86062f30145fd6b2f6e3858ce4eb6ced6ef0024b3269a9cb30423 -> 73e78226248fa1c40e8e389d3b05d9360bec76ee31aa689f981debd13173fe33
+~ -[CoreCECDeviceProvider filterRoutingChangeMessage:].cold.3 : sha256 0d7113d800673010bfeb8f6ede5747df6a4f474e37a686b1054a80e2540a8991 -> f32828bfe587306a45e7b0340328c687b227b5b2906e5074ff0f5f977631bb8a
+~ -[CoreCECDeviceProvider filterRoutingInformationMessage:].cold.1 : sha256 7a75215030a2430a14259c68097e40228503b7334c995ae9baa3b1763d77150d -> 391d9a5c00d1398165b5dbe08ce5cc2a822770c0a6e2af4a3cacda35551b0d06
+~ -[CoreCECDeviceProvider filterSetOSDNameMessage:toDevice:].cold.1 : sha256 c64b041935ef8d8c9a8967be36ddc76f86eafafad0bd3bd769401fa60759b001 -> eb02f6e9cd5da5bbc02645857e5fabd0efcb19dd4b7ef556e227b3ca265ff0ca
+~ -[CoreCECDeviceProvider filterDeviceVendorIDMessage:].cold.1 : sha256 55ceb37ce0291064e5f33aad82438b3280700e90a86a4e522468e7c491534e57 -> aac49c66f9d54b9d13494ad5e733c11a273ea1d0fa235f532072726683444992
+~ -[CoreCECDeviceProvider filterCECVersionMessage:toDevice:].cold.1 : sha256 e8354631cb31734c72a130dbcdfff6a1635cf3a40897899eb16fc98b9052a6eb -> 08a5acefe44532dc43fe9a788f784ed59ca36943d2b9e65873e13ed1e8fad8db
+~ -[CoreCECDeviceProvider filterReportPhysicalAddressMessage:].cold.1 : sha256 8bc5d1e465671e39059641cc392c776df92b1154f8636ce620760d0f6b883105 -> a01701456923f42b65344436912ee0240b96e14c86993adabd0c24717616633d
+~ -[CoreCECDeviceProvider filterReportPowerStatusMessage:toDevice:].cold.1 : sha256 dffdcb4e3307e94a4ea4fbc751e98e1b50baa318bdefebaa5043a2e699563cd2 -> 7addc8d8771757810e4c7518815f53b38859bce3f5707488267278f25ea83c14
+~ -[CoreCECDeviceProvider filterDeckStatusMessage:toDevice:].cold.1 : sha256 ec98676f0b7b7b0b850ead5f210dafe2fe38a503657f456312052627f4e95fc7 -> f925108be3145c16286f051df17801f40a297e83532361a13592d766180ec153
+~ -[CoreCECDeviceProvider handleGiveDeckStatusMessage:fromDevice:].cold.1 : sha256 4fd7f17815bcf3fba93053e1341efc66039a76e5346ca6445b5ad152270938a1 -> 958bce8d6d4661933e4c83e2d95d5c0e9a6963f7467994c599e0a2a9378b9bcb
+~ -[CoreCECDeviceProvider handleGiveDeckStatusMessage:fromDevice:].cold.2 : sha256 2a6629cb6b2b4b5993d54d9b71636e81dc6385ead712675e0b8fc46ee3d6b654 -> b5bf924ed7573270c8a83eb5108bef065ad9f4769cd6960b6699a56fb2ce69db
+~ -[CoreCECDeviceProvider handleUserControlPressedMessage:fromDevice:].cold.1 : sha256 4d64bea4a04155945b0122b7ca8e18b636ac536283f688932b07a026cbcc8482 -> 01bc50af6b6025dc5df6d45de82f129006ab449813bfa305baed45cc9d04e19f
+~ -[CoreCECDeviceProvider handleUserControlReleasedMessage:fromDevice:].cold.1 : sha256 b9b57d70f62d941a2b55cfd8bef49f1ade1a0fa3bfacc8f2220d97d4909a48c3 -> eefda302d27adb52a5bf54c42fc63b52aa8abd96ebce3627dc632f5311f0bf21
+~ -[CoreCECDeviceProvider handleUserControlReleasedMessage:fromDevice:].cold.2 : sha256 76d26f5b41eaf517be661440859ad3f88abd041291e40f061cbabb56e02ff828 -> 4601a84a67d7a9b1972fc7ee9c51e43712bfcaaf2f4c464a2c2179522d1516f1
+~ -[CoreCECDeviceProvider handleUserControl:pressed:fromDevice:abortReason:].cold.1 : sha256 ddebd7c2b3640f593e7b08f655b890af630eeafbcf8d8d569d05c2232ed7e2bf -> 08a8cb3be485555c9122df71e25fd5ad5eaba74b3850220cae211c8f2ef0a4ee
+~ -[CoreCECDeviceProvider handleUserControl:pressed:fromDevice:abortReason:].cold.2 : sha256 242d5df652a66efd421d8d904dd92b39a3617f754078e19c45e15f7d51caa918 -> 66b311b0f8538b227dfacb02f5858538d2ce3596c97163adaeb5ac1957d9e8c2
+~ -[CoreCECDeviceProvider handleReportAudioStatusMessage:fromDevice:].cold.1 : sha256 b03172178f27d24b7bd098edb432f43133c4a3e9f458a54782a28c411c52ca62 -> fa273ae5dd23cf8ade685d5074a76a35f950e7825c5660d0882ea9ca2702cf7e
+~ -[CoreCECDeviceProvider handleReportAudioStatusMessage:fromDevice:].cold.2 : sha256 bad248d1d8c94f3453d0aa41d6692f9e133a65c44946f52bdc3f97aa74698f91 -> 6e70c0e44ca737eef1a571faebd48454dd20d2cfebafe1ece89a75dbe8ab9347
+~ -[CoreCECDeviceProvider handleReportAudioStatusMessage:fromDevice:].cold.3 : sha256 1f76487497b13e63fecf3bca6aa9567fe6e735631989991889754816622d0058 -> 7ccbbd1e5238e0a552c9ce2cff37307703f63a76d358ea7dcf15813059d35327
+~ -[CoreCECDeviceProvider handleReportAudioStatusMessage:fromDevice:].cold.4 : sha256 8cef7b6f1cb20cfaf4e5a0487bcb68a8d6f658d5457507ca2d52ef75c429a83a -> c6a8857e31cf61214cb84874216150a64dc9c7e9a6c8408d12c46d79d7699ade
+~ -[CoreCECDeviceProvider filterSetSystemAudioModeMessage:toDevice:].cold.1 : sha256 ed05e916e165d22d494f86eadd311633baceb9acf36d6863f19fa8f19364c7c5 -> 626691ab5de40c16deef467ec2424838f247d3fe72cfaf261d5fe3a15d25d9ca
+~ -[CoreCECDeviceProvider filterSetSystemAudioModeMessage:toDevice:].cold.2 : sha256 89fb48b34dbabd90abad807b630ba1c412c1c742dce3a130da6638168b0b44df -> 037ca991eeb6738cc04add31bd718f61c29568909b5df3b5c4f00b5c2da958f1
+~ -[CoreCECDeviceProvider handleRequestShortAudioDescriptorMessage:fromDevice:].cold.1 : sha256 8fd24ef709c587b0440e078dcc8d038bdc884d0da2d1c8268389ea5ddce7403d -> 5db2f05dffbf2e313e0efcd78875d356ce167bdab32ce62fa604758974b8e0d4
+~ -[CoreCECDeviceProvider handleRequestShortAudioDescriptorMessage:fromDevice:].cold.2 : sha256 b6067a39a3d7bc95a03c1ec7c6dd5148f096bd365f72e6c823b88334113d06a6 -> 35c7c7a7da0bec2a32038b5ecd770f1665c9630cdb20f49a42960c504ba430b8
 ~ -[CoreCECDeviceProvider handleRequestShortAudioDescriptorMessage:fromDevice:].cold.3 : 104 -> 108
+~ -[CoreCECDeviceProvider handleRequestShortAudioDescriptorMessage:fromDevice:].cold.4 : sha256 d40c1d7fe7ea9e928f2a66ef15e70784333aa1db4ac2a4f72a3979902deea09b -> d3527c90f1ec2b8699fa3e0572abf37ceb351e22734c5ba95bf8f36c9832760a
+~ -[CoreCECDeviceProvider handleRequestShortAudioDescriptorMessage:fromDevice:].cold.5 : sha256 6af5ce47287b8e2f0758015bca499c6fe6a6a9629eb0eb337e81a92bfaf5fc95 -> d153c30dc5618736d023fa491c923be50d9b2c93ad09f1815646453df4b21988
+~ -[CoreCECDeviceProvider handleSetSystemAudioModeMessage:fromDevice:].cold.1 : sha256 4dc8f22b5c765531ae2f3acc79bec157a1bb35833b9c97d8df03ce88a0a16289 -> 1a0829dc03faf7a6473420fc5b8750a8484a0f0e8045c7eda89dc0ce3664fb99
+~ -[CoreCECDeviceProvider handleSystemAudioModeRequestMessage:fromDevice:].cold.1 : sha256 bb13bb864b80994964aff187fb545aee9bb695bbd964d7271ccbf130d1508b15 -> c66364a7c143bd0f8db02931e187635a72a42d3b885c25b11e557870c4dcc6c6
+~ -[CoreCECDeviceProvider handleSystemAudioModeRequestMessage:fromDevice:].cold.2 : sha256 96b7473710d0496a5e7bcbf8d885a4b17985ca1b85b20e3e16ca2196b9f27367 -> 3b1a79ea34adedd1930ee6d77beec5c84dea6685b33ebbfc2bb9ca08729f7562
+~ -[CoreCECDeviceProvider handleSystemAudioModeRequestMessage:fromDevice:].cold.3 : sha256 cdc9f77751cd77b6a325d12b510b31a11b71bfb7cbc97bf7aa25458a4cf38997 -> 2ad5b503e85a2a8215ed44fffe3a60fb826b9a52ba84694a39b103d9af997e32
+~ -[CoreCECDeviceProvider handleSetAudioVolumeLevelMessage:fromDevice:].cold.1 : sha256 5dcb4152155bb5ef0610a2782349c5bbb0d7703db95b01fc18e03ee602f491c4 -> 82e93b864d9b4724e9495adebf7910a2f0653f545e6033155d1b27eadbd78b91
+~ -[CoreCECDeviceProvider handleSetAudioVolumeLevelMessage:fromDevice:].cold.2 : sha256 ce90ef3c7836b625f45ae827d0557dae6aef5e1189d58ae7b61b5cbaffa80dea -> 344461801a04315cddbdfc1d30abd8b96dc815ed0ae69f2a1b4df8c139f354c6
+~ -[CoreCECDeviceProvider filterSystemAudioModeStatusMessage:toDevice:].cold.1 : sha256 b973507d5ed685a0d1f16f505a46d7f26d88ad13bab11d973ae7551e1470ea4b -> f0473c56dbc527189602af1519fa2392dd498ed73c605b7ad5b785d9821ea92c
+~ -[CoreCECDeviceProvider filterSystemAudioModeStatusMessage:toDevice:].cold.2 : sha256 e0dfbbb3a75a87ff496d0e2c50ecb088cd0e859e4111d030e892d5bdd1bd47e4 -> a7e3bb00853df79912fe31374b5da933b4809b22cd76f4a42b66757e3a46d3ff
+~ -[CoreCECDeviceProvider handleRequestARCInitiationMessage:fromDevice:].cold.1 : sha256 9ef8ff4fc363defada15f04366407958888102db9d6b6fce195f91dd5ff0d242 -> b33baee47c77dd9e4e1583052953ece5373e4c76af0eb26cc9ae1ecf7106b80f
+~ -[CoreCECDeviceProvider handleRequestARCTerminationMessage:fromDevice:].cold.1 : sha256 7d0a447fdc80546e6f6bea1ff69d1f7a731558db27fd9d7f2aa0753037046fca -> 5178f49fea4d162a724a4e0f9f47c59a9144e5724e663e32c66ee4bde512d898
+~ -[CoreCECDeviceProvider sendMessage:withRetryCount:error:].cold.1 : sha256 c6c3e658a6a5e65361435c877c890c961db5816596f5028875a7e93267168496 -> 358626f307b764f20451644e852564c008908081b321fe3b51a99b96c1c00c11
+~ -[CoreCECDeviceProvider sendMessage:withRetryCount:error:].cold.2 : sha256 69de4f2c0923c093d313f4d1c21801e86f5e2cee641f8c4910f631ebbbc720b4 -> e119ed5099711901878b746a56bffb51ec0e0354067511db53eea82ea153dac7
+~ -[CoreCECDeviceProvider oneTouchPlayWithMenu:to:error:].cold.1 : sha256 278e5dd8eb6ee04a647500960a0e240b3139095d5505af3aa99bc2eb35ca4ab6 -> 5764c961807447598983e8ad0bbf93b4dc69890fe3d808562b9112fc5b129c85
+~ -[CoreCECDeviceProvider reportPhysicalAddress:].cold.1 : sha256 d116589971d97a1340f724c6493d4e5061142ddc33b668c0e9f26b831092a3b8 -> 1634251d0e0f081776b05ac7c0e0727b7bc75bf25f6af089330764d0c75f751d
+~ -[CoreCECDeviceProvider reportFeatures:].cold.3 : sha256 5a85de9c21b513bf8a94d286155c05176a85e68c23bd414ea6e239077e4d3fb1 -> 362653ce3607ed3144de0b89f5d8791fcf98f1767749c44858c470f22c482c26
+~ -[CoreCECDeviceProvider reportShortAudioDescriptorTo:error:].cold.1 : sha256 1d3dbff659bec32bcdd33b6903f2e49c596048de9b4edc64f17a2274bcc663d6 -> 746f0103c16744aebae78263b2a9f42339c3ed042efeb83a2def221b1bda90d6
+~ -[CoreCECDeviceProvider requestShortAudioDescriptor:error:].cold.1 : sha256 942bdde24aa9bbe241c9f0d06d4b947ff4667882419d92881376d80baf3d15b4 -> a40265aca52e3674f4db21e31e8c3a31c1e02d1a76b015f3e6263f80649201b4
+~ -[CoreCECDeviceProvider setSystemAudioMode:to:error:].cold.1 : sha256 d786385d2f1fc378b6eb42ffade89d4d0cb9102cf4ad560f07905795955f20b7 -> 5c924b670849188d919f9f7ac27d275131169d8d6df942509d6845d7fa8bd19c
+~ -[CoreCECDeviceProvider systemAudioModeStatus:error:].cold.1 : sha256 f768a590282f13408c253d268fb5a2a485011e29ba735fb9b8ec39c0f559f953 -> 20e8b8165dbf2f3393e0f27ae49d3820c6fc139289a157c2615e47f199e25bee
+~ -[CoreCECDeviceProvider initiateARC:error:].cold.1 : sha256 aa7cfe72c6a9aea430c403e0b665e14e3dd04016f665475918b460e023951970 -> f32dad96cdb1190fc8fd20b249bc320a040f4d3bd4fa0d1fe76fc91d0aff55f0
+~ -[CoreCECDeviceProvider terminateARC:error:].cold.1 : sha256 f413359a383e5643ab4900d2ce16c12878e6e77b3f2116f6847385d94447db56 -> 2c0b22976680395680fa420389c34e7248f9bdf32f23f177c16e57a25cd8da60
+~ -[CoreIRLearningSessionClient startLearningCommand:].cold.1 : sha256 c7241766059cfc892b9778e3de5cbcd02b016cb717d21e171408bd8ad126082e -> 85632e58b1fe6017cf66c04ef91c90200b39a52e1b67c519735e5b2e886517cd
+~ -[CoreIRLearningSessionClient startLearningCommand:].cold.2 : sha256 9ff92673f0799da6814d3215accab48b7356c506265a99729635622ba1912a7c -> d31f28cc01515db916b31eaeb2190041121042887a5dea4783b33013ca85241d
+~ ___52-[CoreIRLearningSessionClient startLearningCommand:]_block_invoke_2.cold.1 : sha256 a24548551979b61ba6f28fae9c0a216af61ae8fe6e3971da5cece0c8df9cef08 -> 4a0ee2bd002d6f4b5c9adf60811077600eefe9549d06fc1b510158cd48b724fa
+~ -[CoreIRLearningSessionClient endLearning].cold.1 : sha256 f3067c9b3f7a9aa21b199f10d0ec7f083c681a4cc1ada440b7fba767fced5605 -> cb1fc352efa89d5e67c74bc47b6243fa64818e71e015b9c8e2fae133918e88dc
+~ -[CoreIRLearningSessionClient endLearning].cold.2 : sha256 2a4d512e89e0ce7f6c1e4d0e3211fe8cf1170cd87e1d827486d93e14cfd69c61 -> cd1247555a718ee7e92236aee8cb5646cffc016fed42a13a8ea0abf90bcc7b8d
+~ -[CoreIRLearningSessionClient addMappingWithProtocolID:options:commandToMap:command:repeat:].cold.1 : sha256 43f3d4630d9f19b8543ba6b9171a562826ccdf539f8a826448809242abbe42a0 -> 8ed98fe91af92986125664ecb9992578247378229e8854099613c9867d985efa
+~ -[CoreIRLearningSessionClient addMappingWithProtocolID:options:commandToMap:command:repeat:].cold.2 : sha256 ef7626fc68426bbf43a7de2ac4952cb2c9e69c34f6b076a9ac96295513d6c5ad -> a5148774b4be0bbd3431fc95667649e1dd27b3651216901aee9928d4c3dad910
+~ -[IRCommand setSequence:withCount:] : sha256 25a917c05642ed3c04c3217bb26c93d9c21ee27b12e927f686fba138ce04a5e8 -> 84508a7cda154a617fb7789beca32c2bad88a7442d7dff97aab5c3b97c83581a
+~ -[CoreRCInterface doesNotImplement:error:].cold.1 : sha256 67f5d6a611a71b15ceb2174faa4e5a6ef60961570a93f759ec86befeecbb0ea6 -> efd4cb441bc89433b771ae2384ffa6e0dc6f8878e6c0116eec33f1747ee96a4b
+~ -[CoreRCInterface propertyForKey:error:].cold.1 : sha256 5534436f3adfcf15b58b3615eca4b1f499a43e01ccd7051f5c251d40f235ba03 -> 0f09a2aff948ff8bb3a7cabf6a44961b028c261fbccc5007b6b01dce52bae167
+~ -[CoreRCXPCService(CEC) _queryLocalInstanceAsync:bus:client:reply:] : sha256 d5b54553a142fc477fff86270b3d6de73d21e7527517755c05729a68b37162d7 -> 02a34ee4d071c88336774a600b0c70c391adc3807310973e0c5ac5f67d83c273
+~ -[CoreRCXPCService(CEC) _performActiveSourceAsync:withMenus:allowRemoteDevice:reply:].cold.1 : sha256 d62a953efee20e909900098747d5d017729ac2b3b0c237b4150a80d93e3c5169 -> fd9bf8e8c20023559895d34e9266fad6b7876de1e239e85cd02aa6a4d51787bf
+~ -[CoreRCXPCService(CEC) _performDeckControlSetDeckStatusAsync:forDevice:allowRemoteDevice:reply:].cold.1 : sha256 d5494b8712ef59e71f87bd3e30b4bd57145cfa0252635504eeb8171043427639 -> 4aa1331d98279c2651ef8e44a2afb76974195f6b0a8336d5cfd8d1adecbfa8f9
+~ -[CoreRCXPCService(CEC) performRemoveDeviceWithTypeAsync:bus:reply:].cold.1 : sha256 9383c8e3418bfd698497054a2508e42b3836cf92046929757fa5dbd413f880a3 -> b9a7be87317b3aac22abe1cc24afcf104fd30629e96258c4af3e8df861bd35eb
+~ -[CoreRCXPCService(CEC) _performDeckControlSetDeckStatusAsync:forDevice:allowRemoteDevice:reply:].cold.3 : sha256 19588cccf935adbbd0d95d3feefec40684c96541cccb3bc9a3235bc6b28c91d2 -> 079496705f609bc3bf0f480bc96a8ee651c548b0d58e9cbd7fb76147cb5a50eb
+~ -[CoreRCXPCService(CEC) _performInactiveSourceAsync:allowRemoteDevice:reply:].cold.1 : sha256 0deb301be2194b8333499807ee3521e11c979ba7a95d185444ad35342cd4aec4 -> 9d0cd9a59a51b31bc405e326e3439bb10d0751e12731d392a348cc8e9002a102
+~ -[CoreRCXPCService(CEC) _performRefreshDevicesAsync:allowRemoteDevice:reply:].cold.1 : sha256 d95b992201f600f5ffb098ea63eead91b9ef63939339b2a13756a5fc28ef763d -> 7112b1a46f6b658b86a1349ba406e97b61c63602b11821b4b58ed0b8dbf3de46
+~ -[CoreRCXPCService(CEC) _performRefreshProperties:ofDevice:withDeviceAsync:allowRemoteDevice:reply:].cold.1 : sha256 4f7fdf2236917d1ea1d2aa905168bc7adf64f548ca9151bdf583b6f93094704a -> fc77ecb8aa13438834e55deec13a2e541e5310af240578affcd1993796df3ea2
+~ -[CoreRCXPCService(CEC) _performRequestActiveSourceAsync:allowRemoteDevice:reply:].cold.1 : sha256 705581fa90a0f2be031f3487f36c8fb584991f40d4f47f5c10a5ec784806f394 -> 4e46728791719e0693bf6fa045e88aa9a26db6bd264dd8812976795648e1c105
+~ -[CoreRCXPCService(CEC) _performSetSystemAudioControlEnabled:withDeviceAsync:allowRemoteDevice:reply:].cold.1 : sha256 5e6b7ad934cdce52c6abbce93cd2318d0bf72813b37c3d4e1d2f9b777f1dc5f7 -> ae1318aee4adf2f4e9d2d5e3cd4efce722d5b903f2fd4669e9368dc7704f1f02
+~ -[CoreRCXPCService(CEC) _performSystemAudioModeRequestAsync:withDesiredState:allowRemoteDevice:reply:].cold.1 : sha256 bf06f2c9eea8df1ad434a2f51d26f05ee07cee7fbb61b342a40976cf41a09e6c -> 98f45750751532d09d5595b2db1b058a2b09b8e457ea813b980082aa6c13e720
+~ -[CoreRCXPCService(CEC) _performSetAudioReturnChannelControlEnabled:withDeviceAsync:allowRemoteDevice:reply:].cold.1 : sha256 72ef730dd5d6a93a95b6ec88a0a54bdedc8f0f35c8344a79a307b554554c0547 -> 6e41cca100252c2028ae0e0c56347de03a951d584b39c8c74ac24239819427c1
+~ -[CoreRCXPCService(CEC) _performRequestAudioReturnChannelStatusChangeTo:withDeviceAsync:allowRemoteDevice:reply:].cold.1 : sha256 753cf5dc35699faa06f3d93dc1c3af38ec48a45c1a372d9dcff4f753a3011da5 -> c8fb58f3ae011f474df8034bfb3b51fbfb022254c26e867c73485bbc9ae3f427
+~ -[CoreRCXPCService(CEC) _performSetAudioVolumeStatus:withDeviceAsync:allowRemoteDevice:reply:].cold.1 : sha256 afe1e31a29f41fad7bf860a285a760990032a637c41f702a674cd3052df55b59 -> ceb16a14c0eed8a3102e258e59831b50bcdd06c88e2e1910cd5d459bb968474f
+~ -[CoreRCXPCService(CEC) _performSetAudioMuteStatus:withDeviceAsync:allowRemoteDevice:reply:].cold.1 : sha256 645ac537a4790707cd8ef637a3b1ce3baab103ea7f432ce2af7469c6b28c8f49 -> 1f64d3c05ef70e4f9c14ce57838e09cb02e6a3bfbf3c7e8708c7627b458eff0c
+~ -[CoreRCXPCService(CEC) _performSetSupportedAudioFormats:withDeviceAsync:allowRemoteDevice:reply:].cold.1 : sha256 59e0ddce1fbfc9be7c9273e3ee7befa21911675252c54e383daca67179b6f756 -> ae5ee6b7ef9143e6704605d71fc1573110c9b8af4ee8b3be996d46c24f3c6c93
+~ -[CoreRCXPCService(CEC) _performSetTrackAudioStatusEnabled:pressTimeout:pollInterval:withDeviceAsync:reply:].cold.1 : sha256 a685ded0f55ff19eb0926159c7488b401e6b061c1e8575e28d504c80d8ebade9 -> fa53a81bce32be32a27f26e0425dc5053fd8b4ae74287492f5eb7d20a49caa2f
+~ -[CoreRCXPCService(CEC) _performRequestAudioStatusAsync:reply:].cold.1 : sha256 c19466c3ca19dfb3722e6901d00d0cd8e5e95b0c56914682229b37b3bb6b4bcb -> 386fc143b5c317930bd6f0c32bcc6c99b8219827f5cc31ccd9da5ce6082eec3a
+~ -[CoreRCXPCService(CEC) _performRequestSystemAudioModeStatusChangeTo:withDeviceAsync:allowRemoteDevice:reply:].cold.1 : sha256 0a6794e8f70a5428517454cc01666cc9741172e7a4f8e0d0d64834b87975d6da -> f267f6b54a4681fc4a82a431eb2cc164fcbca344b72ac56349d2988e6ef33908
+~ -[CoreRCXPCService(CEC) _performSetPowerStatus:withDeviceAsync:allowRemoteDevice:reply:].cold.1 : sha256 7e809e1150638968e6c5d49c3ece44c787cd137631c007dd6649b4445420c7d1 -> 447eae567dff4e9274a4357b852f0da55d1f0db351dae700ee455d15e61db579
+~ -[CoreRCXPCService(CEC) _performRemoveFromBus:reply:].cold.1 : sha256 aa28653f28412cd5faab7791ff5512f2c62050267dca87aca05d474f48e082a2 -> ae21c10f0d38d7ceed7dd7ffbfa5bf003e944f08553dce8ed4a08c6006f0f58c
+~ -[CoreRCXPCService(CEC) queryLocalInstanceAsync:bus:reply:].cold.1 : sha256 164a4bc7033fa985fb3b7cc141708e1223ba803e0336145a14bfa08b1ba192b2 -> 77a1c0e26bd67178fc0aa099be8029f22651830cfbe7649cdd469b0f0c21b10a
+~ -[CoreRCXPCService(CEC) _performRemoveDeviceWithTypeAsync:bus:reply:].cold.1 : sha256 07fa705c5a44a98c553ae3eb0eb095db12055fa38c8f4da88d5fccccb82b0c27 -> 3b1bcf7493d2a399b7ac6249311181e9171a1a2268e510425de2a4f169c48bdb
+~ -[CoreRCXPCService(CEC) _performRemoveDeviceWithTypeAsync:bus:reply:].cold.2 : sha256 376eaeb9adca53117e77538c36175661d7507ab37c6f4752859cf34f7c5a8322 -> a623dba5116181100faa33f3b6d450631ea69823f14c7d92172d10c7ce8dbd27
+~ -[CoreRCXPCService(CEC) _setOsdNameAsync:forBus:reply:].cold.1 : sha256 436a23427af8f749526b29cfbf795771e2cd9038eec0f6225675350b19c703e0 -> a00ffbafbc80ef6e2c6eb0b7cff45753a233096922fde9b5a7d5177d77ef44c1
+~ -[CoreRCXPCService(CEC) _setTvLanguageCodeAsync:forBus:reply:].cold.1 : sha256 d880e0ba311f8ad6aabf1379310d2ca0dc66685454b13fd5f357318fa0966cb9 -> a9c60348ed1205000bf579303c6b5836f82585079d697078eb5135eb5ac8c2e3
+~ -[CoreRCXPCService(CEC) _injectRXMessageAsync:forBus:reply:].cold.1 : sha256 2379cd6d2f2d2ec3c2654d4d150be2d164af39247c9762eb1305f79727100b21 -> 78aefdd177e14dc7a6e64c4d703c5096554977497da8ed4c9e478335b62772be
+~ -[CoreRCXPCService(CEC) _injectTXMessageAsync:forBus:reply:].cold.1 : sha256 c546e4751ade914d2f2d20e532407c6fe94a9bfab3f4056708040cf0af1d6726 -> 086885575531de5e1bcba158221514b30e3adc93c2f1d2cd17b6b19742ea6681
+~ -[CoreRCXPCService(CEC) cecBus:activeSourceHasChangedTo:fromDevice:].cold.1 : sha256 78968f98269dfef5b92d524409a6cba95da65f076a553c70ff93a5e1f51bbc54 -> 8eb82ebae16be96dfdcbffabfce23518db5eeab83e6d115dc7a99ef31aa3807c
+~ -[CoreRCXPCService(CEC) cecBus:rxMessageReceived:].cold.1 : sha256 a9da01d935bdeb05057d612ff16608fd8e96a299d9e2414533c66c8d0b28095f -> 2363a1e0e7a76f36e3307e61ddea1f2f789fc0318c58ea67d826ca8e84ed4b92
+~ -[CoreRCXPCService(CEC) cecBus:txMessageSent:error:].cold.1 : sha256 48dd58a2f57e3d6f99b0d48c5ceb75c24f414af52ed3d4597bd4a1cd492a487f -> ee78a247410f6628b4a0d3c4b9ffc912aa6269f65f41c08381d0869277565b6d
+~ -[CoreRCXPCService(CEC) cecDeviceShouldAssertActiveSource:].cold.1 : sha256 a401aca6e108b100902a2b7ca88dcd915cce7a293f8f2ab4c68d938a5a64460b -> 8d29893167210fd1a3e66fb1d54a2e4f2f17d06186af7972f03d988af9e736ec
+~ -[CoreRCXPCService(CEC) cecDevice:requestAudioReturnChannelStatusChangeTo:didFinishWithResult:error:].cold.1 : sha256 fde0bac2d50659c618e9258149663040d6c9f782aa3e84e6ba8aa4cfa9faa294 -> 3fbbce9139aa39e0f79d34cf0590110217d9962183e646886d50692f2b7ddce5
+~ -[CoreRCXPCService(CEC) cecDevice:requestSystemAudioModeStatusChangeTo:didFinishWithResult:error:].cold.1 : sha256 030b32665e3bdb61bd2b4850b018d59f4289ca79c4db54769f476114ec06309f -> 6ea48a6b8af14b5745768fb19bbea02ea4904a88397db52faae407dcfc071585
+~ -[CoreRCXPCService(CEC) cecDevice:audioStatusReceived:muteStatus:].cold.1 : sha256 6f8cdc3a923cbda00bfc16acb526d7c17ea0605caee8ba519389a9bfa1210ea1 -> 1673b3617438a2a5e04ec7136b84ba69605d97d98164ca283e0bf3c05b297ebc
 ~ -[IRInterface receivedFrame:] : 616 -> 624
+~ -[IRInterface processTimings:range:timestamp:] : sha256 d183d9015be55ec0dd59d30ffc529700a379d4aa9d09777bfecad8691dc201f1 -> e02dd5306a208fa946882aad9f7976f419b3ccd170a935ccb31b0282e95d3959
+~ -[IRInterface setLearnedProtocolMask:error:].cold.1 : sha256 ac87c456b4fe1f66a34455bd9aa110b928f0716368f30408df57d03b51911b41 -> 5c226bb95d527fc8fba7f44eae2217c63a8bfcd6fa887732f5889b539bc9b7d9
+~ -[CECBusPollingOperation poll].cold.1 : sha256 7f034b9ab9ac0734d1a001812a1616fd738ea5bc534b842834b4367d57c62f7f -> 67b38268c50144583a8ca85865faa3ced237b8a2b1ec428df0d61bbeb6a46fa3
+~ -[CECBusPollingOperation poll].cold.2 : sha256 4302328601b062b34f787ccdff2abf2d55ee4967b544d239f2918d3ba2d99d8c -> e3983b02e213b419384e6602bff6f079a16dbde5f691f15a331cd53fab72db69
+~ -[CoreCECBusClient setOSDName:error:] : sha256 8b4cfdbc65bc7da252cf3923769ddb714102c6c9d1271301cd7b4264b7a53496 -> 7025c3cc387beb75bdb779504b8c9a68d1fc446f4cd0aca5991ff05eb4828a00
+~ -[CoreCECBusClient removeDeviceWithType:].cold.1 : sha256 76775404ea38d28a0172839df789836a6f09b37c7e8d63297fa9b43d89c32ea0 -> f445d3d1e6f97a1ea162cba3637340426facfa7c5e33c426d773ca630830f497
+~ -[CoreCECBusClient removeDeviceWithType:].cold.2 : sha256 17109484aee7b762ea29ae726643e60b76bc1dbe1d1599f952647034af2371ad -> a2078be3f7d2fc90a5584abeb6998e89c50eddd1dd6859569740edf8e129e768
+~ -[CoreCECBusClient removeDeviceWithType:].cold.3 : sha256 7d4d883e8d2a646737d1f47654de059cac9625a38f0a38f690fb014a4846d049 -> 7c44a94614eb94daac64829763be55f9e4b8e5e79ffc6971bcd3b8d6dbb15e34
+~ -[CoreCECBusClient setTvLanguageCode:error:].cold.1 : sha256 d7ba8e1736083a0482a374e12571393191429bb92ef19dd4b393745e5b1a8f40 -> a2d65f50e1c3a19c766208ce8dcb8e82183c49d0725c6fbd22556c57122bef66
+~ -[CoreCECBusClient injectRXMessage:error:].cold.1 : sha256 154400235391f2f5be521122a58d806b7b40249d416ee4f282b168c5d6aefbe6 -> 8215b9a23eafb4b7e3103cb2490b630c00beb85f15f554020cc907b443f4f068
+~ -[CoreCECBusClient injectTXMessage:error:].cold.1 : sha256 7c7eb8cb368454b92d5b3e8097bad2fe4664cd00ed90c870f2b23348f5d939b7 -> dd4d6fb58eaea820285e749929c1259baf5110b8cf87198ef790d0b4fab865db
+~ -[CoreCECDeviceClient setPowerStatus:error:] : sha256 b0a62b738cc71f42f256ea420b3beda1a855f55d158bf5353dc781469d6976bd -> 2cad1beca1a16cd5ba7ba43f608eef1d76d30f99006039288907447e465aecfc
+~ -[CoreCECDeviceClient deckControlSetDeckStatus:error:].cold.1 : sha256 a4e0c91c64e0cabf88d8deb20a42c2c4722774580ecaed700bd19d2f32f97dd1 -> a2cef4fb247fb693678ba13ca76b75efbe79e51800b0a402013a07908a4ad5fb
+~ -[CoreCECDeviceClient deckControlCommandWithMode:target:error:].cold.1 : sha256 06aa537d6d09c5a34ca9ca330da53fcce1e9a5c75b75054ed27e2db99ab68ed1 -> 6aa4ed527abc4ebfefddd83ffd7f271b9ea59c21387beb8a6ff3030aa85c3aa6
+~ -[CoreCECDeviceClient deckControlPlayWithMode:target:error:].cold.1 : sha256 4c12fcbb059af89c0fad729e29c30f7f78e0c0973e4baf8061f891ddd875ce30 -> 3a15940a92b53f681ef77bd3229d2b7f1f34c6d97f29030e9d03c329167214d9
+~ -[CoreCECDeviceClient deckControlRefreshStatus:requestType:error:].cold.1 : sha256 8519a2610fcc4a0836881b5d7cebb88571ef5d688cc9719e65d82621edd59911 -> 8881e28f0833ab164baf3a4f1e37a89dfe692726284f6df55af7d9eca23207fd
+~ -[CoreCECDeviceClient makeActiveSourceWithTVMenus:error:].cold.1 : sha256 717055e0703f835c5306029ec0799eb36ad756373ea0e060fd929c9193869c9b -> d6dea4a8822a32bc670568e2084bb2790b301365db954b8ac2c107b93cb43b38
+~ -[CoreCECDeviceClient performStandbyWithTargetDevice:error:].cold.1 : sha256 73d1cab62c85c847982cc21172de5513ead0f90eda0974593698c1699795ae86 -> 0c6000ec68fe4ee5f5a4a82c7c1622bb0df6efed5e478ce090ad73f4f84bf66c
+~ -[CoreCECDeviceClient refreshDevices:].cold.1 : sha256 4e224937bb267d6c006460b5e861ee0b210f55b62dc1dbb936a244abf3235b78 -> cd745dc935387038fd95c446c7cd04ada2c88dfb4b3bfcf33e7c0d0c4dbbfe3c
+~ -[CoreCECDeviceClient refreshProperties:ofDevice:error:].cold.1 : sha256 9b5a8acbf6a0905bddfcc2c5d4082bd868e74ab55b3dc5b6192a656e522cc647 -> abc49704568d510695b6ecdb41fbac9521836e3601eef124417fc14cd64cbb9e
+~ -[CoreCECDeviceClient requestActiveSource:].cold.1 : sha256 cbf6826e1bca8721556c0718c16a2137fcfcac923bbae1c6021655a70a6d12d4 -> d88848e48d02dd2ad1cb35a849609bd942ddccabd6ccfb6020ed60bae9d9e304
+~ -[CoreCECDeviceClient resignActiveSource:].cold.1 : sha256 1e074b1becb05515fc4a72082f2a4f760eb261cf511463afaca876c1c4b09885 -> 12cfe668c4af493abef96b6afd5190fb53d722ff5c98e273f685dd872e3389ef
+~ -[CoreCECDeviceClient setSystemAudioControlEnabled:error:].cold.1 : sha256 61c802f6b8024c9c27ac972a11fd6fbb0784bca2aa53816ee2164ace3a46695e -> 84f4bf05a46afc6dfd43beee7f4ae50272dfb1b5f71b338490f8e4056fd7e253
+~ -[CoreCECDeviceClient systemAudioModeRequest:error:].cold.1 : sha256 bdfdb366126231b165eee76aabbd49cb9dd684073ef952f7a937f717d336e743 -> 6cc3cb51dc823796877cf812375240963603236082b451a5a88ed091d38acf8f
+~ -[CoreCECDeviceClient setAudioReturnChannelControlEnabled:error:].cold.1 : sha256 10a8b7d641d7b89afce7fd31be1ca43a08fcf0e543ecfc9bfb3eb2794d508a0f -> afae9a2b47faa6048a7a00c23ea470dfa4530101e50a21dc2ded047339e660fb
+~ -[CoreCECDeviceClient setAudioReturnChannelControlEnabled:error:].cold.2 : sha256 ef77edb05088ce085e9c0b96099ab1eacf08a29aef9d9c7a2c72dfe242b41d18 -> 6cddf50e4e603d0d202b50f740fbb46b28cbea54e74f719fcf44235a8bad0100
+~ -[CoreCECDeviceClient requestAudioReturnChannelStatusChangeTo:error:].cold.1 : sha256 ae913f2a5d6268813355828a7720b23f6a91cf302f1b73857857d4dba12834df -> c7010fa6d077b4068ab89bd8637c03e65c5dafca128efa5035921779d80509aa
+~ -[CoreCECDeviceClient requestAudioReturnChannelStatusChangeTo:error:].cold.2 : sha256 5422c975ff8f72c1b00aa49f8bf9d1a449adfbdd24a1391567732dd232dd762c -> 3d641808e6fad1b09c7e929f98e26d44bf6fea629df9e9ba45d4f86fee95c075
+~ -[CoreCECDeviceClient setAudioVolumeStatus:error:].cold.1 : sha256 04d5ec08d74e256aed578175c684abc572481b89cd85486b669c8395a79135b8 -> a8f8c0d480e5e5b5fcf4b7ae0c6bfc7fcac0a4faed1ae775854b4a58f616a8b0
+~ -[CoreCECDeviceClient setAudioVolumeStatus:error:].cold.2 : sha256 946010c87c6bc0d19af8bdf88348f683bc7556abd82501b7c600ce69c66f1ec1 -> 7f43e1a304ec847fac40cf1bdff28375a519268604a4183ecad6e7a37e63ddcf
+~ -[CoreCECDeviceClient setAudioMuteStatus:error:].cold.1 : sha256 90a0c8bfa838ca35a6931dd494fa18ae34f17059ecb0d25c5cbbff882e99d965 -> 88338986a5b5cf08f0045deecd68322db1bedbc4b76f3291d56585e7c838f8a9
+~ -[CoreCECDeviceClient setAudioMuteStatus:error:].cold.2 : sha256 ed27271c00349dc8be4a66e32ee6068c5a532e1c69d333512743bd0a535d73c2 -> 9c6fcc1ad6dfe996cbc40a340d74ecd5ba806ceb400659816694b072abacb1cb
+~ -[CoreCECDeviceClient setSupportedAudioFormats:count:error:].cold.1 : sha256 647837788cf5ea61bb2714d810defe10333e4b6ece1f5e5cbf4817c13b161a1b -> 07041313386ee92ecb142b06771f58b34aabbe03848d0a3a334ef72ee36c8c1c
+~ -[CoreCECDeviceClient setSupportedAudioFormats:count:error:].cold.2 : sha256 d96176ee28b99e18aa414cc97e1c454e8f1b3d27f04e247ca7a7b1238e8a424f -> 33efc70d9975298523f0d6629a7754305da0349a39685459242a3919351c1454
+~ -[CoreCECDeviceClient setTrackAudioStatusEnabled:pressTimeout:pollInterval:error:].cold.1 : sha256 cbdba25bf1ce308bf01ec88cb13ee7acdcd9f169801652ac0a48e635771ceefe -> 088ab800b839cdc96dfb73cab28e4b2d143cf5f6adf84aea4d25f1833b6ac7d1
+~ -[CoreCECDeviceClient requestAudioStatus:].cold.1 : sha256 aaf839ce3214134e907d4007f2dc4bb27085df686922d150cd0268b8bd25edbf -> 250ad320d3a1d2f8c1dad4432c1b3f44f3d745ce465fa6459e9cd493d891480f
+~ -[CoreCECDeviceClient requestSystemAudioModeStatusChangeTo:error:].cold.1 : sha256 a8eddb752ae90fca9e2cba75f706cfbfcbfaf3835f64e51b0f7bf507d48a5f9f -> 02f225f1d2dd7ab23e5082ca102962f09d48d4064a8b0dd08a9d502274f41106
+~ -[CoreCECDeviceClient requestSystemAudioModeStatusChangeTo:error:].cold.2 : sha256 502e12e8e49562a4f2844bae435639cea22685172089ff6be7326cc9032275ba -> 90db7b95cc455025185701268c75ee4535d860b2ba618e3e30627a1b8978170b
+~ -[CoreCECDeviceClient removeFromBus].cold.1 : sha256 72594e081d89b3c54a7c64a77b1c5b1ca0ede9ed2f294980cc289cd1924ad039 -> caba9bb491b128dab0708f836292779573354b11d6bc9e7525cf9ce88bc4fe59
+~ -[CoreCECDeviceClient removeFromBus].cold.2 : sha256 62a63714b9889ef41ef1c43212a4978f189e57f379f18cf75bf1b9797a475afe -> f92a132e2f17fdd0deafcf70b586423c33ee64660476a8ef274af662848fb631
 ~ -[CoreIRLearningSessionProvider startLearningCommand:] : 408 -> 424
 ~ -[CoreIRLearningSessionProvider initTimer:withTimeout:handler:] : 260 -> 264
 ~ -[CoreIRLearningSessionProvider initTimers] : 412 -> 428
+~ -[CoreIRLearningSessionProvider _newMappingWithProtocolID:options:commandToMap:commands:commandCount:repeats:repeatCount:] : sha256 9920a40d39b1b23bbad7112b7198c8530ff9fe264d3e2b7321eff00cab0c864b -> a035fdc209a5b71020343121a0c159ba139bb62eecb9583fff8a1216579e1980
 ~ -[CoreIRLearningSessionProvider _addMapping:] : 236 -> 240
 ~ -[CoreIRLearningSessionProvider _removeMappingForCommand:] : 276 -> 284
 ~ -[CoreIRLearningSessionProvider addMappingWithProtocolID:options:commandToMap:commands:commandCount:repeats:repeatCount:] : 84 -> 80
 ~ -[CoreIRLearningSessionProvider setCaptureState:].cold.1 : 76 -> 80
 ~ -[CoreIRLearningSessionProvider processIRCommand:].cold.1 : 76 -> 84
+~ -[CoreIRLearningSessionProvider processIRCommand:].cold.2 : sha256 3c3f4c1c770f2010fdcb7494452fca71e2a1fd937848ad818c0f95e291461223 -> 3211772b0393108475f63febbdd525f1f997bb6b9c5bb288eb8b18c30dbe5908
+~ -[CoreIRLearningSessionProvider updateProgress].cold.1 : sha256 0e677f8b4dbe63a813c09e2647bf0113121240b77fd1953f1cdf4400de112a58 -> 746dd48a89ef1263b20abc1726c641f4767f42f99b7efbbfa016e44c79168b98
+~ -[CoreIRLearningSessionProvider captureIRCommand:].cold.1 : sha256 9d3355fea741f435ed7b6846c829ae710b428d22357a9444fa748ca38c9e3311 -> 96d6429e32e927653e050a3abc8e37b8813e0bfe18b8d57271d2ca7c63355260
+~ -[CoreIRLearningSessionProvider waitForIdle].cold.1 : sha256 8e0c5674d5632b46bf7351fb759d006a6b45024f3cd88cc56ca0b5346d5d1864 -> 0acc728be135e2f38fb768ee04551f9022d9ea03aee1d6b87da18cb79746e03b
+~ -[CoreIRLearningSessionProvider processCapturedPattern].cold.1 : sha256 787504fa2e6521a46be8c4392855241283ee33cd5adedfa3299b74fd4c02cc82 -> 6015742387c2d0424d45ea7950bdf758737727ad1a5f72e76544899602a76714
+~ -[CoreIRLearningSessionProvider processCapturedPattern].cold.3 : sha256 f9cc3fc14d633f962d3c3e31993e266f04364094d6c469fabf35d9acd93b451d -> 5954bab577c82bcf8742ed19508f127b00f40c5083c557ac09fd24be088486cf
+~ -[CoreIRLearningSessionProvider processCapturedPattern].cold.4 : sha256 07ffed4639ae461da0a51ae4aeeb8e9d969ac177f75346263e325a204e5cfe2a -> 47dfe0c82046629fd04e4d493702daf053fd18e4c01e279eed31e127c4a77204
+~ -[CoreIRLearningSessionProvider processCapturedPattern].cold.5 : sha256 ba75919ccc9508ddbabf036a337c4699d64c713bdd0b2efbfd0c5a51e8e9463b -> 06cc4b6506ae6df5759b956a4353f42452707958caa958d4ee24b47cb487894b
+~ -[CoreIRLearningSessionProvider processCapturedPattern].cold.6 : sha256 89cce4eeaa8c74f888866a6e06b4d67af7602b70eb88d16aafab29a59ac37a85 -> 8e17383e6aa09acd1cb8140e35749a2848ffb361d6d82442b0445aa4bacdb93b
+~ -[CoreIRLearningSessionProvider processCapturedPattern].cold.7 : sha256 a0d6e288d1388e8c1b52dabde41644dc08cf834b133199ec493709d51f38cc59 -> 91f952bf1e17fc3adf4b7faaa9a538e6b4cdcbdadbdd99d9da6cf48b36c1ed04
+~ -[CoreIRLearningSessionProvider handleNoSignal].cold.1 : sha256 ac42529a762f928c0fbfaa03e4a89d393720417181ad3de594e8fb8ba1c07ea1 -> e5655dc8c81b04b70f458dee7ed0d835370b8d8e970d80477df51635b30dab82
+~ -[CoreIRLearningSessionProvider handleNoSignal].cold.2 : sha256 b322b8768f9c441dda64024f1078b84e83092c5008770739026981e7063b2d3a -> 67a91d71d3818958f8eb705b79a46bdfc1080164acc80775cbcdb9c57c372857
+~ -[CoreIRLearningSessionProvider handleNoSignal].cold.3 : sha256 d5fd2e2c3eee1b06fd82db5a392a838987e9570c70a8f801b53255045d67cb89 -> 51ed60b20a45334427ddb8c4cafa4daf61e92c19fb77cff87c180d5ca3319893
+~ -[CoreIRLearningSessionProvider handleIdle].cold.1 : sha256 d3d9b450e12026b5457cf411362072bff053eac6c8aa50fdec44b14bf202f61f -> 4b8b9254d9b05f2fa4590bad5e826b9d09b306a730b1b9f607df56a3478343d5
+~ -[CoreIRLearningSessionProvider handleIdle].cold.2 : sha256 4e9e2b05248bd76d7448aad6e3788b5ce5e786f88897a62157b4b71a44749dce -> 911f702de0135afa5b6fa45ac02eafad551b84f60d0b9246aa914b795e09d48c
+~ -[CoreIRLearningSessionProvider handleDone].cold.1 : sha256 d72edc84f6bd32489cdc9ebc91c593e2a515e9c35fdeb7f112c151c464983440 -> 811f941b1b1381ae4c2b7fcc58999ffebd03b748127763042bc1aff1c9528717
+~ -[CoreIRDevice setOSDName:error:].cold.1 : sha256 3892ca1cebe66257d22ec0e3a13a465186241977e9ad2ec4ddb1e51ae2a010c0 -> ad659796bee53d1b4d3ac0d9229af76c6fa5f39299351d1aad93d29733cce99c
+~ -[CoreIRDevice setOSDName:error:].cold.2 : sha256 c67dca1c5a2be7eed6e877164ae3688044fd9c19d1358218b946140e9687bdf7 -> 7d76c45b083588c57ce555de58d5a3ca073b721c03785fb7fd2b932509271776
+~ -[CECMessage description] : sha256 e02bd0069ee6f4702ea30309a043c595181787f92f2a7b553a5c226dd475939e -> 2224e780e1709d35add785ffe6541feff56efa370f35083c2771fc0f48c4012b
+~ -[CECMessage parseActiveSourcePhysicalAddress:] : sha256 195b6cbea8db8b1e78f541d77e858c5039005fb7d7d14beb1178cc6081c4aa8a -> 582f06b456cf260ab09b9ae964953b2535dd133dbda75c81e8dc684ab53831b4
+~ -[CECMessage parseInactiveSourcePhysicalAddress:] : sha256 6e0968e8002f05d5a0365bf7cd6c6ecc73b602761c52cc3be0852133693fd505 -> cca16d37b4a2bebf76d0d9d08f677dcfdbeae0bfb9326e627430702ef8473a35
+~ -[CECMessage parseRoutingChangeOriginalAddress:newAddress:] : sha256 1d7bc6e22edeffd6b27665d91acd4ad9d6ba180e18cf8721c82771f58af36c4d -> 66814c09b03f037bbc8466d474fdbde707e3cdddf9146d9511135fd719338e28
+~ -[CECMessage parseRoutingInformationPhysicalAddress:] : sha256 aba5e026adb00006eb6f6dfece8a23d5786136372e8c246b79168923763fb4e3 -> ae76f69c187306e8dfb37a27312b2d701506ff3b2617dfc70886c8415666ec7d
+~ -[CECMessage parseSetStreamPathPhysicalAddress:] : sha256 6bea12383f96ea6c20fa0fb2839903586af2851212516694ce8e665ff910c49e -> ad0c713ec9d15c242eefc68cf997c1100be30d7cfe8d35ff7869ba377cbdc55f
+~ -[CECMessage parseCECVersion:] : sha256 0437dd3cf5599970d0a8727e041e86f6ba11b15e89f49c45bfa99081b37abc5a -> 7bd35fa00c1afebefdea4cdc248fb37505218fc75b813766062f461b9f815040
+~ -[CECMessage parseReportPhysicalAddress:deviceType:] : sha256 83bb00f281f2cd7520dc2675d1e3f40f04fced4d12aa8a48ecc5f18eb188eff2 -> a026abb60aa169dafecc1ee6698587186dc8053a65f9dde92ccb414ab0ac0446
+~ -[CECMessage parseSetMenuLanguage:] : sha256 bda788de36ceb8687f1cec44423de09e21b9e50bd4050a9fa48bb418a1316a72 -> c6412b095ff071ba3c042db07478a3268291ffdab84d29cfd845dea5fb42af8a
+~ -[CECMessage parseDeckControlMode:] : sha256 3f8d062ad0ea4d360dcf7b102932194ceaa07e2a1c996c2e4b8794d07f46d4c5 -> 034223d45095293a7b016260ba22172d08502899f157a311cf1c7393e12191c6
+~ -[CECMessage parseDeckStatusInfo:] : sha256 f99b826238a9293aef264040276a8f44b5b579d55ca246cadc4b974d1fdb6539 -> 304fc3c17537f06f5e0dd1f5b813d8d3997a3389c20c2f99f0fd0892e802f9f4
+~ -[CECMessage parseGiveDeckStatusRequest:] : sha256 a698e86c6a8785633b0916735de52046d56dd14ed06b1acd580e5b2b79aaca56 -> 10661f3765989f52550676be7c36582f19e56b25db7171d214ad8cbfb7edf0ff
+~ -[CECMessage parsePlayMode:] : sha256 56eb0c63c1c10de64a63d02beeffb4a1111ba0174a9f614e69896501978c70a1 -> 68163109fa422d3ad38099ccf6740bc0eccfbf5d7c9715f3ab7e8ed8d0ca632c
+~ -[CECMessage parseDeviceVendorID:] : sha256 94566eb06b8f6e0944c198fa787614b262522c86d53580b9ee1e586c318ad37d -> 8675894aae41437fc0525c13fcbc32c85c1837fd4d2e4b9945e993a1cb2df511
+~ -[CECMessage parseReportAudioStatus:muteStatus:] : sha256 f18c9c02d38b30874da54fe3c62256f68c63c2c58a10f1b9859a50a2e2d0ff13 -> 95b1644ae56fd5c7dec54e9a14f56bf5762c640a6cbf9971b3df31f6d1608a27
+~ -[CECMessage parseSetOSDName:] : sha256 e644f4b0ce07e88b2dcb51ed65a6cebb7446d408e38387b6bb1bb7c03a3c7057 -> c59eaf3078c7f967b98199253a738b29af92af4811b83cb3fc0bc60bdd030d04
+~ -[CECMessage parseMenuRequest:] : sha256 47af4091cef84c7945b55977928864c9204fac6caaeb9c200f73f554dc79d151 -> a07c72e30ce3a9c996c50f9241d7ccdf8f2035f47ec12553f93e1d7359651b2e
+~ -[CECMessage parseUserControlPressed:] : sha256 96187913bdb360575e5778180bc9965e1c7f7bbfe82fb13d8f82eb1b0c3dd73a -> 72878b179d7a7c38ebffd1b0f7e496fadc26c8e5dba07e5dc7be307ce7f90f10
+~ -[CECMessage parseReportPowerStatus:] : sha256 b203ce6399b404fbbc826372b2091d44b4e0e40b30188546c9654b4ecd201232 -> 3b81daa3c183cc04ccc99704adc1bfa5c905570edb3646bc878d4a00e4c74472
+~ -[CECMessage parseSystemAudioModeStatus:] : sha256 b7e81360cac8e322c64ea404061f86958624ebd133c343a1faad318627de09fd -> 79a91ef29c378f8671c6bfe05375ebcc728f743ac5739bee8e0b83f2a0e70023
+~ -[CECMessage parseFeatureAbortOpcode:reason:] : sha256 3868de32ff0e537ba4d5d10615edf92226dc6a92507d380640d4b97d5a206d73 -> 35cf831dfd265a3717b0b66944cd6fd60f056534fe0354496aac9568c3fb226b
+~ -[CECMessage parseReportFeatures:deviceTypes:rcProfile:features:] : sha256 06723c0ea9817db03a7f46d729c01a0639eb5cca5ea0bbff867a4a070198b423 -> 933fe301e818c5f6022e9101f96d905115d9b5ce3672f94697a92c72be2c4e7b
 CStrings:
 - "#16@0:8"
 - "@"

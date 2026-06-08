@@ -5,30 +5,32 @@
 ```diff
 
 -550.48.0.0.0
--  __TEXT.__text: 0x21cd4
--  __TEXT.__auth_stubs: 0xae0
--  __TEXT.__const: 0x74418
--  __TEXT.__gcc_except_tab: 0x4ac
--  __TEXT.__cstring: 0x123f
--  __TEXT.__oslogstring: 0x42f6
--  __TEXT.__unwind_info: 0x450
--  __DATA_CONST.__got: 0x248
--  __AUTH_CONST.__auth_got: 0x578
+-  __TEXT.__text: 0x21cd4 sha256:ee87673009315e965b99f7bf4e31277d6d7953a95ccd388e3c2a80a1ed2e061b
+-  __TEXT.__auth_stubs: 0xae0 sha256:85370fbc8b0db2dd3dee198846bc8f4a8bdc431c5de058d523beec8a5648c5a5
+-  __TEXT.__const: 0x74418 sha256:3226020a0a74af0aad3b3898beec62f7bccf3f84a72c160dccdc078eaebe1990
+-  __TEXT.__gcc_except_tab: 0x4ac sha256:6abf9d24a8e02beb2f9746f8c7b1689967f40395a6b2dd0c4e5dfbb8ed4757b6
+-  __TEXT.__cstring: 0x123f sha256:e72a542887cf6e4db2240b77adbd1cdbfa96c477f3c87b4bd8beaef874c160ff
+-  __TEXT.__oslogstring: 0x42f6 sha256:da611ba3a43ff921d1863f2b3e7376f3396b5a9ff53f7a6397c5a75a7f099b19
+-  __TEXT.__unwind_info: 0x450 sha256:b097db598fbe52e5a839b8c15545eef3424a4c81d8da1f4993360bd519752cda
+-  __DATA_CONST.__got: 0x248 sha256:bdfedb2be9c5ca042c73edc733699a152e76ec9ab7630630f51c6139dee31ab5
+-  __AUTH_CONST.__auth_got: 0x578 sha256:60ee4670d5b2939be93aa175b74e6c8cde08ad6558fd9ce6f44b4cf1eb3486bf
+-  __AUTH_CONST.__const: 0x138 sha256:0ad15feb6fa9b84e8790995b0b11ff7e0917b3273a4c0c4e009b476711957cee
+-  __AUTH_CONST.__cfstring: 0x160 sha256:ffaf39cf9071f4c2802b419cabe02fe10335ec4e30ba9f5bc244169f57f3ef05
 +600.24.1.0.0
-+  __TEXT.__text: 0x22164
-+  __TEXT.__gcc_except_tab: 0x460
-+  __TEXT.__const: 0x74460
-+  __TEXT.__cstring: 0x1258
-+  __TEXT.__oslogstring: 0x46d6
-+  __TEXT.__unwind_info: 0x448
++  __TEXT.__text: 0x22164 sha256:4f2981904f84e146d578ec1cfced45db3c9c7421aa978670332b29be541fd5c1
++  __TEXT.__gcc_except_tab: 0x460 sha256:3b41da727d7373d1bcd53c5b4e4d3863df23f2614c4f1aa8c8d18bb6e004c3e4
++  __TEXT.__const: 0x74460 sha256:3f3394cec244b5d6b7e6bfffef535c89ad46432f45ead38cb34ca4160fc33c17
++  __TEXT.__cstring: 0x1258 sha256:95dfb919014a0e6dd286f77bad0e88aa8a28a58527099d1848b95ecbd6a8c3e1
++  __TEXT.__oslogstring: 0x46d6 sha256:edddb14210e715b6e3838188c0d714a800b55b3ac46fc4fc1eaf066cfaa1e1cc
++  __TEXT.__unwind_info: 0x448 sha256:8b316c523b5b1f6b2eea58cb386beaf54265dcb2cd377aeeb86d42620008da9b
 +  __TEXT.__auth_stubs: 0x0
-+  __DATA_CONST.__weak_got: 0x8
++  __DATA_CONST.__weak_got: 0x8 sha256:83dc6bdc3b206003de0638fb3beeb4e915467a812128a89cb530dc2f3f4643ea
 +  __DATA_CONST.__got: 0x0
-   __AUTH_CONST.__const: 0x138
-   __AUTH_CONST.__cfstring: 0x160
-+  __AUTH_CONST.__weak_auth_got: 0x40
-+  __AUTH_CONST.__auth_got: 0x568
-   __DATA.__data: 0xb
++  __AUTH_CONST.__const: 0x138 sha256:8863f9694fca18c51f386bac300bb2e2f46c2491d3fb040d3e2d2b3b0fc96ed5
++  __AUTH_CONST.__cfstring: 0x160 sha256:feedbd8325c8c70c0a8554175a7e52a4224c949a19e1d8a86850239edde262ac
++  __AUTH_CONST.__weak_auth_got: 0x40 sha256:4e373949de19a8f83e2c5e0de40654e3a1f259cd1f93caecaee5e3e55e48b583
++  __AUTH_CONST.__auth_got: 0x568 sha256:e253c6a87bdd62e771c0ef1b9850dbc9523c51408ca282f994d3530dbbad9b11
+   __DATA.__data: 0xb sha256:c38e04005892d8e9d616567903bb1e719e623e8ed7248a253ccaadefa39e87f2
    - /System/Library/Frameworks/Accelerate.framework/Accelerate
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
 

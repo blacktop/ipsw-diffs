@@ -6,24 +6,59 @@
 
 -135.100.1.0.0
 +138.0.0.0.0
-   __TEXT.__cstring: 0x2e6
-   __TEXT.__os_log: 0x283
-   __TEXT_EXEC.__text: 0x1300
+   __TEXT.__cstring: 0x2e6 sha256:58a1c1834f212b5d68a447f4e8db21442a9b939b2c346a3c0ee6ffeca23d2008
+   __TEXT.__os_log: 0x283 sha256:8f5286ad875113bb43be68120a1531080f3b7e1ece4682d6ec5007401da04a25
+-  __TEXT_EXEC.__text: 0x1300 sha256:dfbc39fede482a2c06ca131aad9ac505cec47bfe9f86fbd95b217edc45679f21
++  __TEXT_EXEC.__text: 0x1300 sha256:eb324268cd5578c125e05a8e5815a8243b7f5723d540fbd8f5b9673e3dba01ff
    __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0xc4
-   __DATA.__common: 0x38
--  __DATA_CONST.__auth_got: 0x80
--  __DATA_CONST.__got: 0x30
-   __DATA_CONST.__mod_init_func: 0x8
-   __DATA_CONST.__mod_term_func: 0x8
-   __DATA_CONST.__const: 0x730
-   __DATA_CONST.__kalloc_type: 0x40
+-  __DATA.__data: 0xc4 sha256:a7160377a0eff99262de690ed067afee58dcf8aa4ed1c3ab032572d92cd5c812
++  __DATA.__data: 0xc4 sha256:e2a4bf74ca993fd5b719bcacc924ec4fc7ba0f5c85a8e3223c297d24572289a0
+   __DATA.__common: 0x38 sha256:d4817aa5497628e7c77e6b606107042bbba3130888c5f47a375e6179be789fbb
+-  __DATA_CONST.__auth_got: 0x80 sha256:7e7ddde252522ecfbdf659171b697aceb3442041ab97400173352f29fe2f57b9
+-  __DATA_CONST.__got: 0x30 sha256:4ece46e3cf9532d71d7f0a0330f3a8a5aec3c02ca4678f67f3cd2db45571dadb
+-  __DATA_CONST.__mod_init_func: 0x8 sha256:ef17f75ec97064a686de018c8e4e4c8dde461cff2aee336d34adac52b88b504f
+-  __DATA_CONST.__mod_term_func: 0x8 sha256:a2fb16a4c202fa151920c133e1e78aee831ef6e334bcf17f3e3220a8f8754d87
+-  __DATA_CONST.__const: 0x730 sha256:0576b2ddd13e7d53300cab9d786c963ac5529137f8d4c54d369daa7a4212ead8
+-  __DATA_CONST.__kalloc_type: 0x40 sha256:3a6b6b2bf34961b94a67b877f6c9017f13340441da3075661111fc7771ca6e1f
 -  UUID: 99A9ED59-02DA-3CDF-8659-8905AF78C7E1
-+  __DATA_CONST.__auth_got: 0x80
-+  __DATA_CONST.__got: 0x30
++  __DATA_CONST.__mod_init_func: 0x8 sha256:c06f53f55afb8d3171a15a9a3e52042ee464c4c74ed3fd310440de98837f3ab9
++  __DATA_CONST.__mod_term_func: 0x8 sha256:dec045ae793a1d9075f60574a5a0640b5c1f1c10913d8260782c5c8ced64e065
++  __DATA_CONST.__const: 0x730 sha256:a58332a3df5ccb146f546a38ce265091561f786bfe1aa1626db1b78f1ecd307a
++  __DATA_CONST.__kalloc_type: 0x40 sha256:69efcd8c74907f9a63469110c96a34a02fb6112df0df270c9242c705f4ca0687
++  __DATA_CONST.__auth_got: 0x80 sha256:84cad8a17e2dcf99e6fd4074e22e77a6de2f807c87e742ce87b4a80ab8da1547
++  __DATA_CONST.__got: 0x30 sha256:c72251c91d543d2a73aba9d29019aaa9c68ea285b62ab2d4daa2567ec2612862
 +  UUID: 87F931AF-06BE-30AB-9DB3-13BBBCEDBAD0
    Functions: 30
    Symbols:   0
    CStrings:  22
+Functions:
+~ sub_fffffe0009535e20 -> sub_fffffe000991e8b0 : sha256 5aab4e9cd2319776ad3d5fa763fe90e275bbf02a81f25fd563d5dafe0316b549 -> 6d873b919643c7418935727369e72311f6c5effde2a564a14c47093dfa7e3b81
+~ sub_fffffe0009535e68 -> sub_fffffe000991e8f8 : sha256 0b27e3675e4ba58206960500036fe729fb8351e167e644b76eeefd159a889e3b -> ce7be28e7e7c6d2d7babf0e41a0a1db82b16128f7dcc6d9ac9c01ef6f244e947
+~ sub_fffffe0009535e70 -> sub_fffffe000991e900 : sha256 680a98fcd8d26b4d8bf5ce38131e878bb4c572ecd23fca1d32b98445c80d614f -> ea6d271d6642b198b96f71c4b0f5b4c6d28a0baa1f803b68e37743683f03a2b1
+~ sub_fffffe0009535ea4 -> sub_fffffe000991e934 : sha256 c85cbef5ebbdcd97e6431f9fd7d85abc7dc347e765bba77e9a0963977df0f921 -> 6dd4eaac338c456360fdb6f36c238b978bc9b0582d393853b67757fc6d0505b8
+~ sub_fffffe0009535ed8 -> sub_fffffe000991e968 : sha256 ea404d1f64ba007aaa6f9f859e51b98eba05020f64f5f249be0e0dc2446a3711 -> 998bbe8402b2011ecd40aca29f8608253c0eb6c8dc85f04907aec8d451708c96
+~ sub_fffffe0009535ee0 -> sub_fffffe000991e970 : sha256 d202867eaac34f8560db32180169017f506130b36154ecd04c6aac79938dbea7 -> 40f1c830db1ad28f18163e903851b8aa0cb875c9ce1ddb373083d6e2caaee5e3
+~ sub_fffffe0009535ee8 -> sub_fffffe000991e978 : sha256 14560f2afacbca633eb510ed40c2fc60c6498b6ec56bdcc20a92f922b789148e -> 6242b85348e2948cd5be8955ae6d69885c82380686736d5faf02187b958e595f
+~ sub_fffffe0009535f2c -> sub_fffffe000991e9bc : sha256 a2bc0c962ba37d78d67e5b92bbe8fe680cca383c63370627c2a6f2161ad1fd69 -> b0f230d0c3df9183ca91d9a14e88d792ccbf026fc44b7f0a2fb9f4e8c21e0c52
+~ sub_fffffe0009535f44 -> sub_fffffe000991e9d4 : sha256 3ec13022d539d07e1db877351bdb7b9b134257d42065affab7b27a5fe935cf2d -> 96aa695680942dfc7755074a78640770484ef96a2db0d8da6bb255ba190440aa
+~ sub_fffffe0009535f54 -> sub_fffffe000991e9e4 : sha256 d1aaae3d1b0371ed8063832327bd51da74c60aed5f3e8d2b51375e4ecca9d435 -> e93e8bc0f1c2a92d7f3ef9a24a49007fdbf33379d39c71ed975efa30913e57dd
+~ sub_fffffe0009535f9c -> sub_fffffe000991ea2c : sha256 38a0714c7ab1c079b178548b936cff43b662b4c5694a420174bc22a632d0a211 -> 7665ecea1fb0a53fc561fdafc2d6f91d0decfbecf97bd99f7d0b45aebb197b4f
+~ sub_fffffe0009536004 -> sub_fffffe000991ea94 : sha256 7c5ba55cf953631b5fb07ebaa4648e60ff768b3a1e51aa82d66c71d54f73d21c -> 47a703fc998ec47ed88ba41e233c049bc8217b4dc1315a6cea75e08c43799912
+~ sub_fffffe0009536018 -> sub_fffffe000991eaa8 : sha256 a111ee0cb0361b5be5c5aac4fe01386154bf28cbae1a117dd3be4ad16f24e54a -> 491ff1d576b4f50174fd0d4adfc1f7b7731130135229f175d7dd65ac1d442982
+~ sub_fffffe0009536070 -> sub_fffffe000991eb00 : sha256 56042997a21fc1b81e3970c1b3146817c69456abfc7315819272b445fdd33d7e -> a1454d9fe5d4f0e99332d47a47bfdfb1f3fbaa5e93db26a5bc6eeccb45f9e26c
+~ sub_fffffe00095360c8 -> sub_fffffe000991eb58 : sha256 4b2a25656ac737d977864f7cc0b43307b813002d7bac284475ba0cae5ed2068d -> 27d5edde73b2e3a2c9c98357a40f56257de0f6a1850d78c5987e5a7e64ee8a0f
+~ __ZN30AppleThunderboltUSBDownAdapter5startEP9IOService -> sub_fffffe000991eb78 : sha256 23f9c485b7b86f9eac6ba923cf13bfe437761377d7e1427a32093aa6c912215d -> 0881f5220cdf906de67fa8d6f5d3952ace36122a31faa11ed5a134a1e25b3b6b
+~ __ZN30AppleThunderboltUSBDownAdapter8finalizeEj -> sub_fffffe000991eff0 : sha256 a5943beba943e659df4d8a9db73b05561b05325d69b183457940266961d99c9b -> ec8a089c67860630052b1d36dbfb27b759c6f73b59f16b91c30fa2cda9ed72ef
+~ __ZN30AppleThunderboltUSBDownAdapter4freeEv -> sub_fffffe000991f170 : sha256 dfba00f000ce5350d5f1e6350481fcf3c4dca4cf8a05eaf62fd4ee16a02391a0 -> cab9c70db8257cf1a15bcc5cb06650e2fc9e3fbb63dc5e758619f7220291f96a
+~ __ZN30AppleThunderboltUSBDownAdapter15createResourcesEv -> sub_fffffe000991f2bc : sha256 44f97ef7878e529df76a2a9675dec7069cfa3849635e3f28e222d86a23699954 -> a33e1083682669569cb0cf8570a50b027663f12b6c3e11419252e62b5865d344
+~ __ZN30AppleThunderboltUSBDownAdapter20setThunderboltClientEP28AppleThunderboltUSBUpAdapter -> sub_fffffe000991f40c : sha256 c63b1b6057845c06167d6050f7d477d1be32e299806c4c0b6b602ac583347866 -> 7654551da889a32fefda346397cc84c1471e5ced76bb0d4d8fda3da92b0d00b9
+~ __ZN30AppleThunderboltUSBDownAdapter13enableAdapterEb -> sub_fffffe000991f5d4 : sha256 068e4af33c43f73b718a34869110b3ef035f872a52b6af4eb113fbdd966a7729 -> ece9dbe0d6751bf0e838bfdb58d5ce94ac16676ec19d3df14fe021af0e0efd3d
+~ __ZN30AppleThunderboltUSBDownAdapter9lateSleepEv -> sub_fffffe000991f844 : sha256 a5addddf676ce237710680481d5c04ed380ac2d64ba795a7bd5e8a8138098d18 -> 9381f71bcfec0227a86724d3c800d1d4eb88b76f7f3e2bc389ad9a3bab3788fe
+~ __ZN30AppleThunderboltUSBDownAdapter9earlyWakeEv -> sub_fffffe000991f99c : sha256 5de3edfd5106a0a73afa4ed488f31f1b6acb71ba3905b719a1e719967a74f0db -> 844f7ddcb1ef4545071a6e5ae74b1e727c048a5deccc5e240aa0d9a2eb0416d2
+~ sub_fffffe0009537070 -> sub_fffffe000991fb00 : sha256 12d3358ae970a180b2a7df393fb2b7fa344455a2914c83844afb7470dbb98c5e -> 1ad1ece79532d0ad625d10f09914ae6140adb4ec799a0646ffbd5876b8742665
+~ sub_fffffe0009537078 -> sub_fffffe000991fb08 : sha256 a56037cedd5c065d28ec224207b6deca86cd32c0edd4a2760a61c34aeecaf22b -> b935f489647fd4087d4b02e5e33879ceef254d317da4e8da2efee01f14765cf4
+~ sub_fffffe00095370c8 -> sub_fffffe000991fb58 : sha256 bd4c051b0cee472a2d4e22373f208f32de3bfd5f92c4150963525524a41d7c86 -> 10b9a0da09ba0509891caa3ca9c70c5540697a00718535f46da42cd8a03d0111
+~ sub_fffffe00095370d8 -> sub_fffffe000991fb68 : sha256 54bc9a06e326d2e9f86bc9779adc82c7ccd100ca2dcde9231a3026ce5eaa715c -> b418a51aa8e67e32621ebdcd4fb3df1548d7b678cfe300f80bdc464336ef68c5
+~ sub_fffffe00095370fc -> sub_fffffe000991fb8c : sha256 2e28fab3a948e29c565fe4ede859d4b748f27530f00f9b7588ab8b1c345443bf -> 34ffe223665e61ea10cad79c49c79d9b2ace303d7d6f1845b0599cccdb8f0a58
 
 ```

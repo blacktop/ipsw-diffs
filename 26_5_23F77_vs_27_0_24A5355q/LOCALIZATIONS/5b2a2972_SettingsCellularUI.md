@@ -1,0 +1,38 @@
+## SettingsCellularUI
+
+> `FileSystem/System/Library/PrivateFrameworks/SettingsCellularUI.framework/EDGE Settings.loctable`
+
+```text
+en.APN = "APN"
+en.APN_NAME = "APN"
+en.Advanced = "Advanced"
+en.Auto = "Auto"
+en.CANCEL = "Cancel"
+en.CELLULAR_DATA = "Cellular Data"
+en.DNS = "DNS"
+en.EDGE_TITLE = "Cellular Data"
+en.ERASE_CARRIER_SETTINGS = "Erase Carrier Settings"
+en.ERASE_CARRIER_SETTINGS_CONFIRM_STRING = "You will need to enter new carrier settings manually to continue using cellular data."
+en.ERASE_CARRIER_SETTINGS_TITLE = "Erase Carrier Settings?"
+en.HTTP Proxy = "HTTP Proxy"
+en.IMS_NAME = "IMS"
+en.LTE_ATTACH_APN = "LTE Setup (optional)"
+en.MMSC_NAME = "MMSC"
+en.MMS_MAX_MESSAGE_SIZE = "MMS Max Message Size"
+en.MMS_NAME = "MMS"
+en.MMS_PROXY = "MMS Proxy"
+en.MMS_UA_PROF_URL = "MMS UA Prof URL"
+en.Manual = "Manual"
+en.Off = "Off"
+en.PASSWORD = "Password"
+en.Port = "Port"
+en.RESET = "Reset"
+en.RESET_SETTINGS = "Reset Settings"
+en.RESET_SETTINGS_CONFIRMATION_STRING = "Are you sure you wish to reset all network-related settings to their original values?"
+en.Server = "Server"
+en.TETHERING_NAME = "Personal Hotspot"
+en.USERNAME = "Username"
+en.USE_CARRIER_SETTINGS_FOOTER_TEXT = "Settings for this carrier have not been verified by Apple. Carrier settings may affect battery life, calls, messages, and cellular data. These settings may be updated automatically in the future."
+en.USE_CARRIER_SETTINGS_SWITCH_NAME = "Use Carrier Settings"
+en.VISUAL_VOICEMAIL = "Visual Voicemail"
+```

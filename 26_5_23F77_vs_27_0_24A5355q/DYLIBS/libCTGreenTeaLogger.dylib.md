@@ -5,26 +5,30 @@
 ```diff
 
 -13187.6.0.0.0
--  __TEXT.__text: 0xdb8
--  __TEXT.__auth_stubs: 0x160
+-  __TEXT.__text: 0xdb8 sha256:2518eb0436ebab8cf85a6e7310d44cac84340b5e214bb39dc3714955427be942
+-  __TEXT.__auth_stubs: 0x160 sha256:6118bbc9cc59c7b5f9bab94e0f7be3fd3dc3271afcf9ea411c7a016e4c39cdbb
 +13466.3.0.0.0
-+  __TEXT.__text: 0xd60
-   __TEXT.__const: 0xcd
-   __TEXT.__cstring: 0x9c
-   __TEXT.__oslogstring: 0x29
-   __TEXT.__gcc_except_tab: 0x60
--  __TEXT.__unwind_info: 0xf8
--  __DATA_CONST.__got: 0x10
-+  __TEXT.__unwind_info: 0x110
++  __TEXT.__text: 0xd60 sha256:56181ca630c19920236692f6bff0e764f599f97f591b0de3690228f8eabf9843
+   __TEXT.__const: 0xcd sha256:183ea707578cc6f618788c98b1b9dfcd37e80402416bf5ec2a96fb75706b93c6
+   __TEXT.__cstring: 0x9c sha256:1547e6c531ce52427ba4917fa3150348bd72416bc6c92a3bc19976bb6c867644
+   __TEXT.__oslogstring: 0x29 sha256:36972d07ad0401d3a5d4a6b7c5658d7a5de6d489d68d26475f6f425cfb9bb6ba
+-  __TEXT.__gcc_except_tab: 0x60 sha256:dba034c290289f4fce3a517b0312d6807c9c3ac1f1d9e715a0a17811217f0efe
+-  __TEXT.__unwind_info: 0xf8 sha256:e0bdeb7d6f43df6994b6e24cef6019ca74b171c233b0a078d629a7224ff68ac2
+-  __DATA_CONST.__got: 0x10 sha256:374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb
+-  __DATA_CONST.__const: 0xa0 sha256:7d2ef2f16aefa124dbe525cf1437834ff7f4bc7f6f54d1d340419dda737fcf5f
+-  __AUTH_CONST.__auth_got: 0xb8 sha256:97ebbff2b6b27d12a71cf5614a92ed7c7321da66ed679ae5d8c035857ff9e0d3
+-  __AUTH_CONST.__const: 0x170 sha256:f2700bc0e7a2f4804c10f50905d5d13dbf2f9c8d7f83f6a70dbb32ac7788ef2d
+-  __AUTH_CONST.__cfstring: 0x60 sha256:04d4bb461c860ff0d6b074211ed64ec5f2066816ca810784143126c142fcf228
++  __TEXT.__gcc_except_tab: 0x60 sha256:68610e3b6b6d03cbed70f0dccdad390a8197f90bb0e5c7f3d40b86bfd699a5ae
++  __TEXT.__unwind_info: 0x110 sha256:fdd9771fed4c03ce32384e9e0050e8579521dd58fe663454e3b5fc60c2823ad1
 +  __TEXT.__auth_stubs: 0x0
-   __DATA_CONST.__const: 0xa0
--  __AUTH_CONST.__auth_got: 0xb8
++  __DATA_CONST.__const: 0xa0 sha256:1eaff7e3ad89dbcd447977ff294e235b9eef48205ddeeb486ac08546b8b61591
 +  __DATA_CONST.__got: 0x0
-   __AUTH_CONST.__const: 0x170
-   __AUTH_CONST.__cfstring: 0x60
-+  __AUTH_CONST.__weak_auth_got: 0x18
++  __AUTH_CONST.__const: 0x170 sha256:6cb8281ef16333c114a5ae56d8fbef3674b1fd2eaff7bad3fc82918c7822c631
++  __AUTH_CONST.__cfstring: 0x60 sha256:2db069a1b481c51b644e1dc766439a3e69b7d72318cab57d9d8ab12b59647f65
++  __AUTH_CONST.__weak_auth_got: 0x18 sha256:c4f685488ee12499860f131fd37a6f4fe49fe5255e7ca8c7761452c34ebde4a0
 +  __AUTH_CONST.__auth_got: 0x0
-   __DATA_DIRTY.__bss: 0x78
+   __DATA_DIRTY.__bss: 0x78 sha256:6edd9f6f9cc92cded36e6c4a580933f9c9f1b90562b46903b806f21902a1a54f
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib

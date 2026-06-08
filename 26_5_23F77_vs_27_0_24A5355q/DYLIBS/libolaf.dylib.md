@@ -5,33 +5,40 @@
 ```diff
 
 -184.0.0.0.0
--  __TEXT.__text: 0x249fe0
--  __TEXT.__auth_stubs: 0x830
+-  __TEXT.__text: 0x249fe0 sha256:0803f3bd5a7bc311b256e6aa780b407b94a76c4bcd11282e92147410a1b38980
+-  __TEXT.__auth_stubs: 0x830 sha256:30bd9c140c0936689531d0b1efcf386096eb5c667b72ecb015d5bbb214cce9e3
+-  __TEXT.__init_offsets: 0x4 sha256:188bbe63022eda66065403d31f9349721170832dd0586bc7fb6c83281cb0449f
+-  __TEXT.__const: 0x3a1f8 sha256:e0817addeabc2a032cd9b195233d406e81be87c2aaa7c62e5f8d29a704f36260
+-  __TEXT.__gcc_except_tab: 0x8b68 sha256:587c1113c72f975b583e5a2002a60b5ff1d57e145e7726bd10d6e4731e9ba4fc
+-  __TEXT.__cstring: 0x614cf sha256:af03d622115246159e5eff14c665f1c5774af44b48de4f24961d9d1d7381b93f
+-  __TEXT.__unwind_info: 0x32c0 sha256:a90ac9edb672d089ff1d2ce6020f5b165ba3f15ee6e8418323c81e68504ea8ed
+-  __DATA_CONST.__got: 0xa0 sha256:12e895887f32adaafbb56e6247f696d9fb9df5f5c1be2badb96f7b56d8f4b939
+-  __DATA_CONST.__const: 0x44be8 sha256:ca5f9fd15fad4951bb5633800a0923974590490dc39c1f3521ed63da3fd2df9d
+-  __AUTH_CONST.__auth_got: 0x420 sha256:b971823e3d9cb7b801bf5fe0396a89b82312766596c2dd1338fc47b953b356f8
+-  __AUTH_CONST.__const: 0x3e68 sha256:50ad6deea8fb403595d29e7993ff0a2cd227fce49c37934952d53d52caf799a7
+-  __AUTH.__data: 0x150 sha256:a16a8e184aaca13327d72b5da2ee126f0065a7e7f5532e81250c1f18f9b657b6
 +192.0.0.0.0
-+  __TEXT.__text: 0x253188
-   __TEXT.__init_offsets: 0x4
--  __TEXT.__const: 0x3a1f8
--  __TEXT.__gcc_except_tab: 0x8b68
--  __TEXT.__cstring: 0x614cf
--  __TEXT.__unwind_info: 0x32c0
--  __DATA_CONST.__got: 0xa0
-+  __TEXT.__const: 0x3a268
-+  __TEXT.__gcc_except_tab: 0x8b58
-+  __TEXT.__cstring: 0x61511
-+  __TEXT.__unwind_info: 0x3400
++  __TEXT.__text: 0x253188 sha256:870453af25933a3b496c4d722370c6a282c891dba92c3ad22f2f9cd0c63df793
++  __TEXT.__init_offsets: 0x4 sha256:1a0a241a1ad3c2b9d4614505e39430c2b4212a9c221295ea8251ccf801641f73
++  __TEXT.__const: 0x3a268 sha256:63b7c16e89a83693316b04775f9cb40e83df4a729f40ae429e59240e46b97d98
++  __TEXT.__gcc_except_tab: 0x8b58 sha256:75967e0805def92a51745097577babdc1b03c9a847a4987328b07021420fdf69
++  __TEXT.__cstring: 0x61511 sha256:ce3384d8287655025d4e34c422075a85ab058371068ddf0ec51a6126f1c87d46
++  __TEXT.__unwind_info: 0x3400 sha256:e442a7fa9ae70bc247e48f2d2b076bcdcfbd3e0d7ca153bf054118b802c41f6b
 +  __TEXT.__auth_stubs: 0x0
-   __DATA_CONST.__const: 0x44be8
--  __AUTH_CONST.__auth_got: 0x420
--  __AUTH_CONST.__const: 0x3e68
-+  __DATA_CONST.__weak_got: 0x8
++  __DATA_CONST.__const: 0x44be8 sha256:72057ed407690bb9bea8489628e9f12acdf3a06b1d327f4125a6a8a259903436
++  __DATA_CONST.__weak_got: 0x8 sha256:8b01d53d4209f4d0e8d3b87f0c39dd167fa5cefec7a50c74265da1e12cf4a86c
 +  __DATA_CONST.__got: 0x0
-+  __AUTH_CONST.__const: 0x3e88
-+  __AUTH_CONST.__weak_auth_got: 0x40
-+  __AUTH_CONST.__auth_got: 0x3e0
-   __AUTH.__data: 0x150
-   __DATA.__data: 0x594d8
-   __DATA.__bss: 0x100c
-
++  __AUTH_CONST.__const: 0x3e88 sha256:f50751aa46b35cb32232cfe410341cbff8fdba1816f577ba2afd0551652a6ba6
++  __AUTH_CONST.__weak_auth_got: 0x40 sha256:528eee94c0a789bf2ea936b7a98087429a2ecd6673a95e63a68f472d76a52ada
++  __AUTH_CONST.__auth_got: 0x3e0 sha256:5f51d9e57c051cc516388346d860976bff3531da9561f6570c19b2ca2da48eab
++  __AUTH.__data: 0x150 sha256:60ce2238fd4fb080d811aa745377a1a2030cf81661eb909712e77926c741d034
+   __DATA.__data: 0x594d8 sha256:2764be17219eb036e8d2be19dec28d65f25efc28f94b6e8da18afb8bbfea7599
+   __DATA.__bss: 0x100c sha256:858a21cec2a3cf2b0f08988b89d523c66c0d69d33fbbb60b48eecb38bb12917d
+   __DATA.__common: 0x200 sha256:076a27c79e5ace2a3d47f9dd2e83e4ff6ea8872b3c2218f66c92b89b55f36560
+-  __DATA_DIRTY.__data: 0x541f9 sha256:99e14cee27dca7b9d678b99e2a1c7cc8433d1174bfba3a0e1b1716ead1522d9d
++  __DATA_DIRTY.__data: 0x541f9 sha256:17ed8ba3e92f15ea6b3addd26eeb3f82a0206dee7600567a8bc71320424ff7b5
+   __DATA_DIRTY.__common: 0x22d20 sha256:c74d6b2221988428864079dfadd5d8b01a37780a13a897d48f747c217682d5db
+   __DATA_DIRTY.__bss: 0x393e8 sha256:cdf32635778eb29067456c5e03d4d4d556a472242d9b67856ea3adf689f3ed56
    - /System/Library/Frameworks/Accelerate.framework/Accelerate
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib

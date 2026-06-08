@@ -5,26 +5,31 @@
 ```diff
 
 -1046.100.13.0.0
+-  __TEXT.__text: 0xb04 sha256:5b7f7bbdce2387b1c314acffd37f1bc06d925d7e9d1cbc4abdd2fdcf5e8760b7
+-  __TEXT.__auth_stubs: 0x1e0 sha256:a38094f1c1d8138f66bddb336102d76b1ab4c2935b3773c59763796b6d2f79a8
 +1084.0.0.0.0
-   __TEXT.__text: 0xb04
--  __TEXT.__auth_stubs: 0x1e0
-   __TEXT.__gcc_except_tab: 0x20
-   __TEXT.__const: 0x10
-   __TEXT.__cstring: 0x54
-   __TEXT.__oslogstring: 0x42
-   __TEXT.__unwind_info: 0xd8
--  __DATA_CONST.__got: 0x20
++  __TEXT.__text: 0xb04 sha256:bb553b40166882e7ee4da814e4a6bcb771bb6aab4ae99563be452ab42593c31d
+   __TEXT.__gcc_except_tab: 0x20 sha256:555a79c612c23490c2334ccc0ff2dbf920ac029233ce4fab60a68700045b8564
+   __TEXT.__const: 0x10 sha256:34bfbac534ee3591b0ab6067b862b81a56e2fe134fba233156d5456fba407987
+   __TEXT.__cstring: 0x54 sha256:e647fa07aa449adc5be8550f94ea93cc95a222452b2108c92b4cd7265f81aed7
+   __TEXT.__oslogstring: 0x42 sha256:2bb0407cb8474731dd8b7f6bc696d4f5b17b2d863e9b9cec1d8856e4331c23ac
+-  __TEXT.__unwind_info: 0xd8 sha256:e2bc1bd6fe514ab5de02e017c152973f994eb3fb863ad1af3ee1f30ab4fcd714
+-  __DATA_CONST.__got: 0x20 sha256:66687aadf862bd776c8fc18b8e9f8e20089714856ee233b3902a591d0d5f2925
+-  __DATA_CONST.__const: 0x40 sha256:bbbb54c721738e4d787f71f95db38d7f2124588afc8dd5c3b022669cf91af774
+-  __AUTH_CONST.__auth_got: 0xf8 sha256:d582e9390482349b43fac050f70e3a2ce4f37fa3db867fa8841a46eb7af0ac87
+-  __AUTH_CONST.__const: 0x20 sha256:c6a026d883463cea7b449a88f0f79c724940a30b6f35fc38c5c5f3e0313585c7
+-  __AUTH.__data: 0x78 sha256:8983f0d7e2457a281d6468ce09bc35bb69717fcbfb39c6cba6c0c523a64e5238
++  __TEXT.__unwind_info: 0xd8 sha256:099b0c6bfa53c6c9a4e2169b9f29a36dbc42400a43387dd2911ed4dfc33e2a50
 +  __TEXT.__auth_stubs: 0x0
-   __DATA_CONST.__const: 0x40
--  __AUTH_CONST.__auth_got: 0xf8
++  __DATA_CONST.__const: 0x40 sha256:85ef7718e9f2fdd5af2fbc84e7be71228f4b46199e747d80cbe8ab9b90433562
 +  __DATA_CONST.__got: 0x0
-   __AUTH_CONST.__const: 0x20
-+  __AUTH_CONST.__weak_auth_got: 0x10
++  __AUTH_CONST.__const: 0x20 sha256:9d832e1d2555bbf07892b8c1769f047dddbd95c34891122103e1cd112756910b
++  __AUTH_CONST.__weak_auth_got: 0x10 sha256:33a79679efb69e90269fe6dc2dc9b793280fd830eba1f9e6fe9f83b921b11a18
 +  __AUTH_CONST.__auth_got: 0x0
-   __AUTH.__data: 0x78
-   __DATA.__bss: 0x14
++  __AUTH.__data: 0x78 sha256:bacc49d3599928a5a68e7eb5b47d9472c886f556539bd2379ccced469809de8f
+   __DATA.__bss: 0x14 sha256:de47c9b27eb8d300dbb5f2c353e632c393262cf06340c4fa7f1b40c4cbd36f90
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
-
+   - /System/Library/Frameworks/IOKit.framework/Versions/A/IOKit
    - /usr/lib/libMobileGestalt.dylib
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
@@ -33,5 +38,23 @@
    Functions: 33
    Symbols:   56
    CStrings:  7
+Functions:
+~ __ZN25AppleSPUDispCompassPlugin5allocEPK13__CFAllocator : sha256 2fdced846de571179cf198126e993451cb655c039646405c77f538cc2b41509d -> b75ffe76b6761d856338802a2bcd587f7684b38b6aeda5a5555bfe74d1a79401
+~ __ZN25AppleSPUDispCompassPlugindlEPv : sha256 e45e55ff1bd4c84fca930b6cf5a763b9a03aba51d15ba7a4d9c7b55ba9779c50 -> 6d8dc7008682c8cf2fc3e21a273801aa2d975fbddef496dae7420a13f4d9ab58
+~ sub_2a7af2984 -> sub_2476629d4 : sha256 52558884ea1fe17ffe312ea41ebf2e4d759c1acc3d6ca9809fb637d95bd9d334 -> 291cf8f272317cbd81102f2bdb29a33731cbb34454c2f75f71120e3e09a1979e
+~ __ZN25AppleSPUDispCompassPluginC2EPK13__CFAllocator : sha256 eebe2e4d2b698a5052648d883f22416b1748e374e3241485c3631db28b68f3a5 -> 8fb923ddf7426ff2ed82e702e06f25c0244b832a4402820348be3d3342eda747
+~ __ZN25AppleSPUDispCompassPluginD2Ev : sha256 20c9a4880d2ce98f9e10c4606e33eee3fd24020463d356fdf1d292043e7bfcf8 -> 91267ad68f4f4af1ab05ec1cd339fcf0858c119271f2f049b504369a626edb10
+~ __ZN25AppleSPUDispCompassPlugin14QueryInterfaceE11CFUUIDBytesPPv : sha256 b5efd1f8ff2c73716803b128f033b0aee1ab7cb885714f367fbabc9170d5c601 -> 54d937406775473aa22fe10ea695ec820038a531de004ac745a000b60bdbd57b
+~ __ZN25AppleSPUDispCompassPlugin4openEP14__IOHIDServicej : sha256 5a76ba8a07a61634286b77173b172f24c4c11de8814b05b019721fa6f7479092 -> 1f4fbb4a3109af05ff9d99dccd611155c33183d57c3899bfc5b071681cfd01c0
+~ sub_2a7af2d6c -> sub_247662dbc : sha256 8ad1f0de60553fa5bae98a3715e8b41759bb59a8be6997fb60db036d6658fa28 -> ca6b9c877fb1655b6636042d45d76860267ac918c8d328e04be86a658a12da23
+~ __ZN25AppleSPUDispCompassPlugin5closeEP14__IOHIDServicej : sha256 f2d429072ad3dfea8a5469c5dbb1832b1a7b02d5bfa36ebb654d4d6e60e80a5b -> 6672fc50b3ca850674336f52dd9e3a52deb6bcad54978610c86606c443775735
+~ _AppleSPUDispCompassServicePluginFactory : sha256 ae103edc45e98e7193cf93282ab3c457a76560c415e5b4669dd9636fce62eb06 -> b1e492d49f919ccc4202e7ea8699e9c1cd15e6c110adfb1628b83038abb8bbc8
+~ sub_2a7af2ed8 -> sub_247662f28 : sha256 6586fddad22ebb97cd5e1a927cd44fe6b52e8cb51984213b049d1f9dd5a85faa -> e4bfb2c478c30f829f849b528012d35d44f57baaeffc0a9c1aa216176ca04bff
+~ __ZN25AppleSPUDispCompassPlugin13openInterfaceEP14ServiceContextP14__IOHIDService : sha256 ab6d98459519ee91fb907faa5fa5020be1c608a855018c59712bd0a88cd8823e -> b225914bdcbbc15a18beb7d0b613d6d9df466350ccb42801125534da695f8d29
+~ sub_2a7af30ec -> sub_24766313c : sha256 624a9cc7ea8255a94367aeacbf5765fa8e4fa01b6f00b7e77c458cdf142ecc84 -> 15121b50d7a098ced1a9cfcb801ae56605035deb5ae781cfa8b3ef33a5c1010b
+~ __ZN25AppleSPUDispCompassPlugin11setPropertyEP14ServiceContextjPvm : sha256 ae7f5aece87b62f41bb1ed9b02355a4328217e4d231b647c20b5fbd46fb4ffca -> 6dd3e3f1c0a09045850ae2b86a05ca8a494dea1e1641c0e3e796c4ed3c716380
+~ __ZN25AppleSPUDispCompassPlugin25getIOHIDServiceRegistryIDEP14__IOHIDService : sha256 4d95014ee056091951b91008e7f13ac2afd89f7752282ab98970f72a01527428 -> 96075b71eddb40154143ff017edb141adbbf97c090fe4bab1e409f71ce0d70d1
+~ sub_2a7af3364 -> sub_2476633b4 : sha256 16ec81a8f145974d5de4bfc375d5e36e2e58ecd1800359f8a088fe710ab33fe7 -> bcd8b6d684b7a7b8e8ce435c4f14c07ded83ca94b55ff9fa3c37cfdbc438c7a9
+~ sub_2a7af3378 -> sub_2476633c8 : sha256 20aae7ee6b3515f048abc33de5f57df4f5ecf8290a75f77e8cbfc5d58bb354c8 -> de974a2e09ee6bc7a8b2d63b437c49512455909c8c9df774035652e4a23b2b4b
 
 ```

@@ -5,19 +5,23 @@
 ```diff
 
 -847.100.26.0.0
+-  __TEXT.__text: 0xc04 sha256:1df2193375f601ea3ab5057e02761fb064d6d45a804bed7474d588e64c8d506e
+-  __TEXT.__auth_stubs: 0x340 sha256:14ca79375ae974bd50e5a98d8b3c19cc6c4f4d9e10ed76ed32ded455c9b6de3a
 +891.0.0.0.0
-   __TEXT.__text: 0xc04
-   __TEXT.__auth_stubs: 0x340
-   __TEXT.__cstring: 0x256
-   __TEXT.__unwind_info: 0x90
--  __DATA_CONST.__auth_got: 0x1a0
--  __DATA_CONST.__got: 0x40
-   __DATA_CONST.__const: 0x70
-   __DATA_CONST.__cfstring: 0x1e0
-+  __DATA_CONST.__auth_got: 0x1a0
-+  __DATA_CONST.__got: 0x40
-   __DATA.__data: 0x70
-   __DATA.__bss: 0x38
++  __TEXT.__text: 0xc04 sha256:e191ee39f1b89b7d48922ce8a6f6fe46e70a65feb72f03797f47f2125b446119
++  __TEXT.__auth_stubs: 0x340 sha256:4c51bb36af1aa6447cce44b4a91c5ef56774b1ed0a21c80f94ea8af9055dff3b
+   __TEXT.__cstring: 0x256 sha256:c9c11b3200338612c232623ecc7fc57ed4d30b5e9db91117f5b4735b1351257c
+-  __TEXT.__unwind_info: 0x90 sha256:40b741c75825d29b8994eb6f46a3d65b9eaad1963ea49ca7988a04b5a5f6989f
+-  __DATA_CONST.__auth_got: 0x1a0 sha256:ec42948938e95575abd5f1556dd17714229598cfff4320567315f03cb0bddbd6
+-  __DATA_CONST.__got: 0x40 sha256:713ad915b065046969f0f0eea35c72aeadfa6e4fecaffb4cb6d9a7b924d5ae1f
++  __TEXT.__unwind_info: 0x90 sha256:73e03b19bbec3c0e7258bdb6b6c823e1ac26fb216097f64da0bd26eb80223280
+   __DATA_CONST.__const: 0x70 sha256:acf8a0d38706b932205a96f1cb68a4bb817a6849a5ae895890fd6836e6c68f0c
+-  __DATA_CONST.__cfstring: 0x1e0 sha256:b8016404cc3c1a0dec22c4dfb570538799be72a27d00de50c0be63388f714ecd
++  __DATA_CONST.__cfstring: 0x1e0 sha256:e63dfd41c9ff4a57880175c5203fb5fbee13405477f29c2288fbd35501902495
++  __DATA_CONST.__auth_got: 0x1a0 sha256:44bba2d0723518ffcd909aa02b6166a767ef51cb138f030638409f7e4189807c
++  __DATA_CONST.__got: 0x40 sha256:5ab74beef459eadd092e0884c3f6c9efa229f44e01cf1c2122cb77472b450011
+   __DATA.__data: 0x70 sha256:eb3ebe78c418f77147f589ceb4a95db8b4edcc4fd9fd49ff78cf4e77921e4fd1
+   __DATA.__bss: 0x38 sha256:d4817aa5497628e7c77e6b606107042bbba3130888c5f47a375e6179be789fbb
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
 
    - /System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration
@@ -28,5 +32,19 @@
    Functions: 14
    Symbols:   70
    CStrings:  31
+Functions:
+~ _lockdownArrivalCallback : sha256 3bd396671c3a285dcc023d4dfa43c1b578c7bb64bbb6d471eba3849b36ab1cf9 -> 4e93ca6090ccb617b3cee6e2d0e7d954ecfebecb961f26e243b13ab334234c6f
+~ __usb_device_configuration_add_interface : sha256 664b5b04cd58e46b6b272b7fec5feac4abdbd19adb8e400d2d21934fced31017 -> 2620189dca8d3dce7517fb10970dd6b49f6c77b06b5c239d964210fb69a9772b
+~ sub_888 : sha256 59812a37209b9050c1375786fa79cee2e499df9cb2a436d2879f0c704be35e3d -> 5436c4cddb9b5ea966651781a4de5f1be42f950502ecb175657b69f4ca62addd
+~ __usb_device_configuration_remove_interface : sha256 abe854f5e5414ebf725dcd24474712c98e689c16a5f2fb00577ccaf443811075 -> c80d362631a476b87c797e308b61a458656d501ec78595d697968096160dd699
+~ _start : sha256 aecfc09ba4e13048861849fdb19c0d064a9d087c7086db410ab1e75fb2a9577e -> b3070665eb7cd87c9c0d5ab21b0bdf8a1814caa96713d7dbb6f4cc612d08d74a
+~ sub_c34 : sha256 60d6d1bcfef303d794873b420eb46f10826a5520137121a368b74cbd6fdbd6b0 -> 4a72fd23a65b5118e97e66aab9b3aea29923919d02e49933ce6c9645ea8175e5
+~ sub_e30 : sha256 eff0a0cbc790540b72f08bda3c812bedac2cac3dc028fdb5bd623a0e1053402e -> 9f364218f9b849630eaf5abc0822311f0dda8e806666faab17e9b9e4097fd12c
+~ sub_e90 : sha256 1002aeb66bff167f3cffb439ccd20d52dd88444836db0a796e7cb92ab00ecac8 -> c5451a6d22902bf00fd2ce030759647903cdd3e7b11ed420d1754626ce936a85
+~ sub_1074 : sha256 af1942992f99535b79bd5a8d8715d885bfd87781f5c902111c7829d76ba9e5d7 -> b593023bf9896f0f9e8b7bc1023b56d2549d2f2c648cbb371a971d2091c7a80c
+~ _usb_device_configuration_server_routine : sha256 749f03406b89750f1ff69f4bae429870d3f16139e9adabd4e47cf775bbb9d9f4 -> 47bd5e1591beaf5cbf8f0283474b6a106907ac069209bcafa01386bcadf76c33
+~ sub_10fc : sha256 6470341da96e47805610e6b4a8c56b85a7f1ffd7fad2cb87dd80a3c5cbff9509 -> 2698d7fef3d2a44c6d023b99d8315a17d7438089a9be58a024e8870d6ab0bf37
+~ sub_11bc : sha256 322948611caaacee1bce2c46470b56749232df38274840c6eb3f652f1d7e54b1 -> 320f5cca1c516cc65715fb59d8963b34e85b90d1ab3b34d23696a23f835af2ef
+~ _usb_device_configuration_server : sha256 bf7a4e391e8ed56381fe2832098e53d81553f9932979c59dc8ead377c5d931c3 -> 28e7c97628f872f3f6fbe4458a0ee7570023ace233668a5b6b2f6d23df1da347
 
 ```

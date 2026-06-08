@@ -5,35 +5,39 @@
 ```diff
 
  13.4.1.0.0
--  __TEXT.__text: 0x150b8
--  __TEXT.__auth_stubs: 0xa70
--  __TEXT.__const: 0x91c
--  __TEXT.__gcc_except_tab: 0x15a4
--  __TEXT.__cstring: 0xd1a
--  __TEXT.__unwind_info: 0xb00
--  __TEXT.__objc_classname: 0x1
--  __TEXT.__objc_methname: 0xc53
--  __TEXT.__objc_stubs: 0x1160
--  __DATA_CONST.__got: 0xe0
-+  __TEXT.__text: 0x14928
-+  __TEXT.__const: 0x91b
-+  __TEXT.__gcc_except_tab: 0x15e8
-+  __TEXT.__cstring: 0xd1b
-+  __TEXT.__unwind_info: 0xb30
+-  __TEXT.__text: 0x150b8 sha256:b5c7722b694b84b77c33699fbaf87b99cc7b808bbb5f220a8a5124561419dedf
+-  __TEXT.__auth_stubs: 0xa70 sha256:97b8b3c82588c8dd620c6996b8f095fe88de0dba3b5d6eb99b52af00b92670d6
+-  __TEXT.__const: 0x91c sha256:1c907e8b49a675188d503ce268643b4fef0a483b887904da6051373a7c616e44
+-  __TEXT.__gcc_except_tab: 0x15a4 sha256:14f20a5b62764ecdf1b8e063fcb7b99f08a2fff5c35099396aa6048dcd91df38
+-  __TEXT.__cstring: 0xd1a sha256:9943c664ba03e8875346682502e8953c793bedfc185fac99ead18f89178fca80
+-  __TEXT.__unwind_info: 0xb00 sha256:d0f0ca88800b012d4442e8fc13f0b0c146e1011ea6234f53c13105aee3b0ad9d
+-  __TEXT.__objc_classname: 0x1 sha256:6e340b9cffb37a989ca544e6bb780a2c78901d3fb33738768511a30617afa01d
+-  __TEXT.__objc_methname: 0xc53 sha256:ebffec4b1fbc5f82181a78cd16a43717d05da829ae803f8f0eced1f9a32b2e53
+-  __TEXT.__objc_stubs: 0x1160 sha256:6187c374c97cc90db6d3df2cf4daec2424bfd61f7e7b8f09ebbe6b645becda0a
+-  __DATA_CONST.__got: 0xe0 sha256:31164ac1e288a694afd44f5f77e0b9efc61cc9bb7948caa3c69c837156be539f
+-  __DATA_CONST.__const: 0xa8 sha256:4c9f6751e278f3b045fd51e99cbbc16c189a13f362ecefcac84a48c324fbc27d
++  __TEXT.__text: 0x14928 sha256:56182a3ab82043e847676196aef0306a097100a14d99ed25f3f5e574e035ba44
++  __TEXT.__const: 0x91b sha256:25fb6b0fec81953ca66e6058b0da3e57b2b6ba82e8e00540000ca8fede3106ab
++  __TEXT.__gcc_except_tab: 0x15e8 sha256:a92c1fc2c2d5e81762ff77a9d59b1e972027b798181b5e655682bcac1fa6972d
++  __TEXT.__cstring: 0xd1b sha256:d95f5fa34bf45eada8b470f8926af77f61e050091191adf0d84a22c46bcfd0cc
++  __TEXT.__unwind_info: 0xb30 sha256:c533b406520ef692bd9781a26faa240506d12dbcd80b922527f2a1608c0b408d
 +  __TEXT.__objc_stubs: 0x0
 +  __TEXT.__auth_stubs: 0x0
 +  __TEXT.__objc_methname: 0x0
-   __DATA_CONST.__const: 0xa8
-   __DATA_CONST.__objc_imageinfo: 0x8
-+  __DATA_CONST.__weak_got: 0x8
-   __DATA_CONST.__objc_selrefs: 0x458
--  __AUTH_CONST.__auth_got: 0x548
++  __DATA_CONST.__const: 0xa8 sha256:745d689054ffd3d53c3c3b46197f56aaa7d396c66b654d3edd5776730caa79c9
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x458 sha256:823900588943fa8f420f300e97e56b5958cfc190a366d3986fb61e8466865f32
+-  __AUTH_CONST.__auth_got: 0x548 sha256:e925cfd87782acddcdb26168b013d7f6e634352580a7d2760ca8cb9e87854fa5
+-  __AUTH_CONST.__const: 0x1378 sha256:668c2996a4796cb34e3e6c1e678562341250ae189a65f066501bb7bff20a77c7
+-  __AUTH_CONST.__cfstring: 0x520 sha256:262c7233380b9672b238772a1659afd1966edf4aaf80c4832d35c67a25632a91
++  __DATA_CONST.__weak_got: 0x8 sha256:baed7a8f4fe06577baf9413d1425189458482e4f64d55b4f5cc304378385a036
++  __DATA_CONST.__objc_selrefs: 0x458 sha256:f48683c9bedcd460860035ed9016deadcbe7e766b52b17c4416f910edfd4e2be
 +  __DATA_CONST.__got: 0x0
-   __AUTH_CONST.__const: 0x1378
-   __AUTH_CONST.__cfstring: 0x520
-+  __AUTH_CONST.__weak_auth_got: 0x18
-+  __AUTH_CONST.__auth_got: 0x528
-   __DATA.__bss: 0x30
++  __AUTH_CONST.__const: 0x1378 sha256:6bbd7e74e48bbf24aa49e7d9c75f975b36bc249fa2fe02b074d2f83a8b85b835
++  __AUTH_CONST.__cfstring: 0x520 sha256:07b4d36a82a85b9e2074d66ce537ac0b29624b98cefe274cf88900d35747c65d
++  __AUTH_CONST.__weak_auth_got: 0x18 sha256:4c9086399a60567bb62f4575e4ff5c4d528b161c67192d2848dc85e806442b88
++  __AUTH_CONST.__auth_got: 0x528 sha256:8544996d681dfec3d4f0be0a93c38bcdf4e2a69bcc5d36e1d01a0f3106d2dbb2
+   __DATA.__bss: 0x30 sha256:17b0761f87b081d5cf10757ccc89f12be355c70e2e29df288b65b30710dcbcd1
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
 

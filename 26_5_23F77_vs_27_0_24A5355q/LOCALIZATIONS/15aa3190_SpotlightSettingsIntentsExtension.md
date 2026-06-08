@@ -1,0 +1,36 @@
+## SpotlightSettingsIntentsExtension
+
+> `FileSystem/System/Library/ExtensionKit/Extensions/SpotlightSettingsIntentsExtension.appex/AppIntents.loctable`
+
+```diff
+
+ en.OPEN_SETTINGS_INTENT.TARGET.DESCRIPTION = "Search Settings to navigate to in Settings app"
+ en.OPEN_SETTINGS_INTENT.TARGET.TITLE = "Search Setting"
+ en.OPEN_SETTINGS_INTENT.TITLE = "Open Search Settings"
++en.SETTINGS_DEEP_LINKS.CATEGORIES.SYNONYM_ 1 = "results"
++en.SETTINGS_DEEP_LINKS.CATEGORIES.SYNONYM_ 2 = "hits"
++en.SETTINGS_DEEP_LINKS.CATEGORIES.SYNONYM_ 3 = "searches"
++en.SETTINGS_DEEP_LINKS.CATEGORIES.SYNONYM_ 4 = "searching"
++en.SETTINGS_DEEP_LINKS.CATEGORIES.SYNONYM_ 5 = "finding"
++en.SETTINGS_DEEP_LINKS.CATEGORIES.SYNONYM_0 = "find"
++en.SETTINGS_DEEP_LINKS.CATEGORIES.TITLE = "Spotlight search categories"
++en.SETTINGS_DEEP_LINKS.PRIVACY.SYNONYM_0 = "privacy"
++en.SETTINGS_DEEP_LINKS.PRIVACY.SYNONYM_1 = "protect"
++en.SETTINGS_DEEP_LINKS.PRIVACY.SYNONYM_10 = "blocked"
++en.SETTINGS_DEEP_LINKS.PRIVACY.SYNONYM_11 = "blocking"
++en.SETTINGS_DEEP_LINKS.PRIVACY.SYNONYM_12 = "Siri suggestions and privacy"
++en.SETTINGS_DEEP_LINKS.PRIVACY.SYNONYM_2 = "prevent"
++en.SETTINGS_DEEP_LINKS.PRIVACY.SYNONYM_3 = "secret"
++en.SETTINGS_DEEP_LINKS.PRIVACY.SYNONYM_4 = "hidden"
++en.SETTINGS_DEEP_LINKS.PRIVACY.SYNONYM_5 = "protected"
++en.SETTINGS_DEEP_LINKS.PRIVACY.SYNONYM_6 = "protecting"
++en.SETTINGS_DEEP_LINKS.PRIVACY.SYNONYM_7 = "protection"
++en.SETTINGS_DEEP_LINKS.PRIVACY.SYNONYM_8 = "preventing"
++en.SETTINGS_DEEP_LINKS.PRIVACY.SYNONYM_9 = "prevention"
++en.SETTINGS_DEEP_LINKS.PRIVACY.TITLE = "Block search of private files"
+ en.SETTINGS_DEEP_LINKS.ROOT.SYNONYM_0 = "Spotlight"
+ en.SETTINGS_DEEP_LINKS.ROOT.TITLE = "Search"
++en.SETTINGS_DEEP_LINKS.SUBTITLE = "Spotlight"
+ en.SETTINGS_DEEP_LINKS.TYPE_NAME = "Search Settings"
+
+```

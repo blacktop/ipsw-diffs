@@ -5,25 +5,62 @@
 ```diff
 
 -340.3.0.0.0
+-  __TEXT.__cstring: 0x2e7 sha256:e461f6b664ed1823d2fdccb7ecc26fff966f0e4ac896d969bf9a162a85e779f8
 +400.34.0.0.0
-   __TEXT.__cstring: 0x2e7
-   __TEXT.__os_log: 0xf8
-   __TEXT_EXEC.__text: 0xa04
++  __TEXT.__cstring: 0x2e7 sha256:487eb736fe109463f4ee6bea93add47775e24cad9a0e3d39e2d74b3c843fe8fa
+   __TEXT.__os_log: 0xf8 sha256:72b018f6e5e17234253d6cffd64c4a553ff6acf0034bad77002f58830a26f443
+-  __TEXT_EXEC.__text: 0xa04 sha256:730349611952363946b628513e6ecd238d50c7b5e2b000dae4c5dae9b70d1001
++  __TEXT_EXEC.__text: 0xa04 sha256:f58461cc6e5a0d26de99aa5a76789b5f1ff4258fe386c22a856ea29f7afd1358
    __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0xc8
-   __DATA.__common: 0x38
--  __DATA_CONST.__auth_got: 0x68
--  __DATA_CONST.__got: 0x20
-   __DATA_CONST.__mod_init_func: 0x8
-   __DATA_CONST.__mod_term_func: 0x8
-   __DATA_CONST.__const: 0x648
-   __DATA_CONST.__kalloc_type: 0x40
+-  __DATA.__data: 0xc8 sha256:989f7027308e0a24c0355f3e18bf1443a6a27749ccc9d7ba1ee08d9006b08d68
++  __DATA.__data: 0xc8 sha256:038163dd2bc96fff0fa7145f85878876343e70971a14ed8c8a2e8b7337b553e6
+   __DATA.__common: 0x38 sha256:d4817aa5497628e7c77e6b606107042bbba3130888c5f47a375e6179be789fbb
+-  __DATA_CONST.__auth_got: 0x68 sha256:881b9396db0dbdb8e34b1be611aef9494a06b7917bbb40c12f242d353fd31fb5
+-  __DATA_CONST.__got: 0x20 sha256:7ca3f6041713656d23f69ac945291721dc7ef1b717dbc7a3e8e5e947dd962f6c
+-  __DATA_CONST.__mod_init_func: 0x8 sha256:7faf2503fdd27babe098bed3547b85ed49df23a7269c94b1db0395910611eca5
+-  __DATA_CONST.__mod_term_func: 0x8 sha256:2555b108cf1d1bba0b8f585a340a3460e6fced107166668b4e21470b2f486b00
+-  __DATA_CONST.__const: 0x648 sha256:f1b54d3596a5d8642c084fb4500869f73fd833570e28fcd7a3fdccb380a36fed
+-  __DATA_CONST.__kalloc_type: 0x40 sha256:e7392a14d2af0cb71958550d425731287e28626b271a0f0d8ba128a84379e87c
 -  UUID: BF2E1803-C0B7-3211-8D1D-1A69EA4804D0
-+  __DATA_CONST.__auth_got: 0x68
-+  __DATA_CONST.__got: 0x20
++  __DATA_CONST.__mod_init_func: 0x8 sha256:bd1e54928a2fc01b4c2e01a8e929eac7e0dc514a37aecd277abc0b3faeb80f1e
++  __DATA_CONST.__mod_term_func: 0x8 sha256:11811e6eb403cdc3121a129e5212db02a531aee94754ccfbdc6e1cc75e72d937
++  __DATA_CONST.__const: 0x648 sha256:4e5e09bfd84d9a43d01ea788478935f9178e95d64743ebaec1f2ba7494f29471
++  __DATA_CONST.__kalloc_type: 0x40 sha256:db0f8167ba18d823f96a5e26fac47d830c0a869d8696087204da107fbc3fb3ae
++  __DATA_CONST.__auth_got: 0x68 sha256:c909a29b1a9582e0e38b46ba0e3f35fd4e3fed4c2f6eaa7cc5438803993b7f68
++  __DATA_CONST.__got: 0x20 sha256:9ee50a24c1c6a58982af4f1e55f3cd429c3740ad94d70476d846d327fd9f4043
 +  UUID: 08D29104-406D-33E9-A6AD-02E0A0148C12
    Functions: 32
    Symbols:   0
    CStrings:  15
+Functions:
+~ sub_fffffe0009dcbc90 -> sub_fffffe000a193880 : sha256 a8106b8a4145352fc4a50f8e4a494f0cfabae06fa5934e6bbbc2470a9401f324 -> 950bf5c6a407580572c969bccfc8de8dc0e79315dcbeb5c64b80a6106f54fb47
+~ sub_fffffe0009dcbcd8 -> sub_fffffe000a1938c8 : sha256 9ed6abcffc3fceff36ac117fe9df5cf85dd32ec03f68331547cd4fe381f66b39 -> 637b9e9791355080b7dd8a45a826c8fa2b30800d5c36e66886d18fcc99205be7
+~ sub_fffffe0009dcbce0 -> sub_fffffe000a1938d0 : sha256 e311fef93da1117e5955634cbc594f5386b65c933bc84d764139764fbfc4ffdc -> a0f58bc1dee068b1c4388188ee38d7cf05b6141c106ee3eaa3bf24f8e31a0a7e
+~ sub_fffffe0009dcbd14 -> sub_fffffe000a193904 : sha256 35a0b3e2eb46b94dc3f1a2478caad9594abd25dc1f85e9a57c70ac4f6140f49d -> 3a2310989992a7ad8872385efe6e4ed98798bfb7e6bbf1cef931a0dd6f0dfc0a
+~ sub_fffffe0009dcbd58 -> sub_fffffe000a193948 : sha256 69f825ecea7c28a6011e6f75ca74f4492be2d39994b8de8fec4207473b2808dc -> cfddf7bc38224e738f556189289fea49fc57cc04c112f8cf8bdb78beec5267eb
+~ sub_fffffe0009dcbd9c -> sub_fffffe000a19398c : sha256 52fffec8b265dc8326b04bb4e7ce048a0d1e2eba3e775bb7262dc9414d5880cc -> 60db4426e24a6bf07d0ace4cbc9af2341de0812b24fdc2bc3df9f0bee3019542
+~ sub_fffffe0009dcbdb4 -> sub_fffffe000a1939a4 : sha256 0fb1e46d9a07b4f58fc0b1e61a5ad003c22227115edd04a474cf34216daf2429 -> c26b0f5b08e1a435d69b8995ece7576d4f88fcc7451e1a3047ed8b3b51fa9ae8
+~ sub_fffffe0009dcbdc4 -> sub_fffffe000a1939b4 : sha256 8aa36d5e2ae146f85e6ce0b5d3233e1f3c3462bac853d666b971cd7848671fef -> 8913f338f0966a897a163992784a68e4a3b4abbd762bafb4cb4135df009eb893
+~ sub_fffffe0009dcbe0c -> sub_fffffe000a1939fc : sha256 34692d95177a9f1b85eb680d3de7da4acc844df9ca8b676169c8458aa89c4f28 -> ffb7a53123202c3fe9f40039bf9aa4f547bd02f5306041dc88f1fbbf7b92f0d7
+~ sub_fffffe0009dcbe74 -> sub_fffffe000a193a64 : sha256 af8670a8c33791d1ad623c4bdee528f54e3e08efda57bd0c145997e93de89a26 -> 3a6fa96366d92a581b8a92a87e22221537c8b726b6f8ad3303ccc1ed86321244
+~ sub_fffffe0009dcbe88 -> sub_fffffe000a193a78 : sha256 9c9a463420a15ebde547bbd67c9c21daddbfad670b923aece0f7ebf57207c26d -> 5075ce971b4c89061cc9437facf05b62034ef9c9137100578b90065dca51e280
+~ sub_fffffe0009dcbee0 -> sub_fffffe000a193ad0 : sha256 b35d978af9d7166bb096591781db69760148c75bfad863bfc5291dd08928391a -> ee6bc90b44ba30f866ed9629c7dbd777d5a68746de7062e3b288cace64b02f51
+~ __ZN32IOPAudioHapticsLEAPControlDevice12_handleStartEP9IOService -> sub_fffffe000a193b28 : sha256 7d2faeb8d76210d1693984dbf422c097b7f0d1893de483355539c7d4b89cfc22 -> d6e2f15e98d0cf0e0dd52315ad7d178f63ce5fe1af01192a260d2f50cc3474df
+~ __ZN32IOPAudioHapticsLEAPControlDevice34_handleDeviceSpecificClientRequestEP12OSDictionary -> sub_fffffe000a193cc0 : sha256 bc4f41265e69a32925bca83575999931168ad3215736b8f583f691c286bf28ec -> 4232af196770f5eb0d91c1f6b84c92ee4aa9a73bef737fc9454d5605807def03
+~ sub_fffffe0009dcc38c -> sub_fffffe000a193f7c : sha256 d88823eca2ac29ce3e33fe094d5756d063239c413c48b6d124a82e24a51710fe -> 6e511049196b5f40de783fe72d1561162369daa9e2852500ef53ed46bad88078
+~ sub_fffffe0009dcc3a4 -> sub_fffffe000a193f94 : sha256 f3b17fbcb2f6da74b1b95f84dbbab4c2a8ee6c30166c44dd3d857f3e3b0b12d2 -> 076cbf16ec08ea593e7f39b8cc249ae25badab73dd22484de9e119b3bb96712e
+~ sub_fffffe0009dcc3f4 -> sub_fffffe000a193fe4 : sha256 7a058233a7f169f2262a6d45c73477215d37b43da6d86316b0bac9383618e2aa -> 1742fbee4d8e66953e0008fdfd7c00cb6323f28bcd348ccbaa49186fc3ca7a72
+~ sub_fffffe0009dcc404 -> sub_fffffe000a193ff4 : sha256 2a6064f7fc129961fe270d68527aae13da569313044e0a6ef6c25129fb9d5431 -> 20c8ad157f46e9fe5b5e8183030b2bd09d9aacb3b0cbb14c123f493075638087
+~ sub_fffffe0009dcc420 -> sub_fffffe000a194010 : sha256 013aa8b95711ae41696326e4dbbff0e351a0539e1820ca26d967dc74b876aee5 -> e723df003715b77e69c8e601fa8db3c4c79deccc3607e11e6eaa2955c4a163e5
+~ sub_fffffe0009dcc434 -> sub_fffffe000a194024 : sha256 dc94f3e84d6b87b4dd482e40ce2807ba896699d4223a23d10ac2a35f645d0a29 -> d6a3c1d01073d74c3c4fb8655ed4634a91de904cbb62318017e0c84758980973
+~ sub_fffffe0009dcc458 -> sub_fffffe000a194048 : sha256 e82c06b480928a22c2f6bcb1a007be5b6d52f2b9bb5972d71f490a0100eca779 -> 5aabd2b8dd39187879faa6e2ecfec40574316b0cc9213a6a0e9d92445bf837b6
+~ sub_fffffe0009dcc46c -> sub_fffffe000a19405c : sha256 512d7e0a03313d877ebc15cdac7ea890cfd45e25f7a899dbd9d777b34447bfb7 -> d87279e8f71ce0b1bcd8e90e386ea4bdab9bb478d4e88b8a6218f93e8f547a13
+~ sub_fffffe0009dcc480 -> sub_fffffe000a194070 : sha256 bedfe610c36648c3c2ac5614cc0c3350ce1846550629d44317eef40d4695b0ed -> d8887ea72b1724dbe7a43ee1222c5134b79677c65cd6d5aa289b8e28bc2b2c98
+~ sub_fffffe0009dcc494 -> sub_fffffe000a194084 : sha256 3374725fc7e65e6f9823755e851e91bd80d58acfd7a674e67227ce33d09137c7 -> 5e2e36a78e21d2f3a824e2be60d8649b18bcb1f692b8093b6b2318a4400ae898
+~ __ZN32IOPAudioHapticsLEAPControlDevice12_handleStartEP9IOService.cold.1 -> sub_fffffe000a1940a8 : sha256 90f16cb02687782721086370f4fcd5583f3ceef7996519a7f5b73dd906503247 -> 4782a8b58182912660d80338d978e5b818630138118557e52bc9feb216c6275b
+~ __ZN32IOPAudioHapticsLEAPControlDevice34_handleDeviceSpecificClientRequestEP12OSDictionary.cold.1 -> sub_fffffe000a194114 : sha256 31d01dab920b8e88cfd5a5d2711257298a074c687c3adcd6132ce640b438a677 -> e4bb71baf0e75f950e5d91f6a45717d0c367d11e6dd8b9066b476aa63212881f
+~ __ZN32IOPAudioHapticsLEAPControlDevice34_handleDeviceSpecificClientRequestEP12OSDictionary.cold.2 -> sub_fffffe000a194160 : sha256 0af5b0fa2784a9c5e6c95def13c1517b8e2114fb02c92b13b0be145c1f3818d9 -> ad01e6888c53a8057b905acf24e224dcb033bd13670a3d4c07eb2b00b431f738
+~ __ZN32IOPAudioHapticsLEAPControlDevice34_handleDeviceSpecificClientRequestEP12OSDictionary.cold.3 -> sub_fffffe000a1941cc : sha256 30de95ed44b65fd7458a78b188898657959c9ac3e9c2e6b0d4f53040b109d65e -> e3c3c209adfda39170e0833e2fe16651162802bdb6d2476bde27a282c0f0abb8
+~ __ZN32IOPAudioHapticsLEAPControlDevice34_handleDeviceSpecificClientRequestEP12OSDictionary.cold.4 -> sub_fffffe000a194218 : sha256 9965c713e27597e6fa215b3b43a88e647e81ac1b9894a5836c24dcac48422782 -> 49504bc770cbdbfc0012d1a80f20f925806bdfd6a19bb4b451063d8b34e347ea
 
 ```

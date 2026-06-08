@@ -6,21 +6,26 @@
 
 -9140.5.0.0.0
 +9170.17.0.0.0
-   __TEXT.__cstring: 0x75
-   __TEXT.__os_log: 0x135
-   __TEXT_EXEC.__text: 0x5f8
-   __TEXT_EXEC.__auth_stubs: 0x90
-   __DATA.__data: 0xc8
-   __DATA.__common: 0x38
--  __DATA_CONST.__auth_got: 0x48
--  __DATA_CONST.__got: 0x20
-   __DATA_CONST.__mod_init_func: 0x8
-   __DATA_CONST.__mod_term_func: 0x8
-   __DATA_CONST.__const: 0x790
-   __DATA_CONST.__kalloc_type: 0x40
+   __TEXT.__cstring: 0x75 sha256:05f78b06da18d270e713a616b35af7b9b20efb00a5a7a4fecf814d9d161d4118
+   __TEXT.__os_log: 0x135 sha256:3c8eb796ac5adef42a4014cc5c77efe8fc999482042c78753c53ce8dcddc8719
+-  __TEXT_EXEC.__text: 0x5f8 sha256:988020c0730303f4c734c19fc95e52042f154fb092409a81059e2577c07738ec
+-  __TEXT_EXEC.__auth_stubs: 0x90 sha256:2abe663b7b4b872337c45b026d3bd3f57e6c52c139dbe2320057d8a0bbbf5523
+-  __DATA.__data: 0xc8 sha256:831264336a0f9017890c0ba1afa48241b673e5cc36ef745f29c1f6ea2d7c41a0
++  __TEXT_EXEC.__text: 0x5f8 sha256:9a3d8d204e654ccd4940c72792f71712171beb9c0fc52a501e40073427da5d43
++  __TEXT_EXEC.__auth_stubs: 0x90 sha256:996352f870bf9ffe9a38cfd790ddeebfbcf43113e8701d18e991d99b3cb1fae5
++  __DATA.__data: 0xc8 sha256:bc162de6c36c510ddca8ee5444f423e0e69efe60b47a18adfcb36dfde8230e64
+   __DATA.__common: 0x38 sha256:d4817aa5497628e7c77e6b606107042bbba3130888c5f47a375e6179be789fbb
+-  __DATA_CONST.__auth_got: 0x48 sha256:0d1623d72397501c434aba9abd85488c964a8ea60bfc823ac685c3f4cb0e0b9c
+-  __DATA_CONST.__got: 0x20 sha256:b056a7b1f11363802bfac3073676f943fc72bb04610e099c9f26f478c9ad9ce8
+   __DATA_CONST.__mod_init_func: 0x8 sha256:c194f684f16bbde090dbf0953a97bea1af6616a9184cf3e3f941ed616d5763e9
+   __DATA_CONST.__mod_term_func: 0x8 sha256:400b519a0e4c57846ab6b939fe8bc6d1bc944a56a1d1082372da5c37ffc62779
+-  __DATA_CONST.__const: 0x790 sha256:83e0e1f5e6feee8ff96e8869128489f399c4abecdc4be10d9438997aaf5922c9
+-  __DATA_CONST.__kalloc_type: 0x40 sha256:9d1fdb8e344b9fc8568abe5972db0f2a7c89baa85f85c008d342e1dae1e59b5a
 -  UUID: D9F508E9-B551-3EDB-AAA9-9ACE3A034019
-+  __DATA_CONST.__auth_got: 0x48
-+  __DATA_CONST.__got: 0x20
++  __DATA_CONST.__const: 0x790 sha256:be1be3631821a239ea318773d6773a6ead067649c92a68dd945d6c559eea4150
++  __DATA_CONST.__kalloc_type: 0x40 sha256:3348d0d723f812ac2f8af719878af9e790979e6a04902731acfa2650a705df8a
++  __DATA_CONST.__auth_got: 0x48 sha256:596758f6b1324538010485d09b7923ea01e7c5e4ea1b362a1dc59b31b4c7f898
++  __DATA_CONST.__got: 0x20 sha256:b44032ef24688952b247086d76d754cb4d875a178bdaee708819c4545ca45797
 +  UUID: E09E39C6-D0B0-3C06-80A4-FB21A53B2720
    Functions: 23
    Symbols:   371
@@ -34,5 +39,18 @@ Symbols:
 - /Library/Caches/com.apple.xbs/792C7BA8-D74A-489C-ABD9-21FBE611C3F4/TemporaryDirectory.Qn2HdB/Binaries/AppleTopCase/install/TempContent/Objects/AppleTopCase.build/AppleUSBTopCaseDriver.build/Objects-normal/arm64e/AppleUSBTopCaseDriver_info.o
 - /Library/Caches/com.apple.xbs/792C7BA8-D74A-489C-ABD9-21FBE611C3F4/TemporaryDirectory.Qn2HdB/Binaries/AppleTopCase/install/TempContent/Objects/AppleTopCase.build/AppleUSBTopCaseDriver.build/Objects-normal/arm64e/AppleUSBTopCaseHIDDriver.o
 - /Library/Caches/com.apple.xbs/792C7BA8-D74A-489C-ABD9-21FBE611C3F4/TemporaryDirectory.Qn2HdB/Sources/AppleTopCase/USB/
+Functions:
+~ __ZN24AppleUSBTopCaseHIDDriver9MetaClassC1Ev : sha256 04abe6b7e15b90d989557e615b8db19c1506e12d0fc2f91c4a7fcf0cca7b7bd2 -> 97135b6fbedb58e2ed57849263e755a46c3e6d59a3742839170daa7379fdc761
+~ __ZN24AppleUSBTopCaseHIDDriverC2EPK11OSMetaClass : sha256 1ab022025f410c1f85eed34b953aeb6b512745b4a669d4f5f852e06e7de489bf -> fb324a1abc553f73e14115a7abfed5016de0c46e4100c39807d7601c2b0b2b27
+~ __ZN24AppleUSBTopCaseHIDDriverC1EPK11OSMetaClass : sha256 db13528a871507e7aecf9d3b72fed16939aa8a7a96a3e081ff8587a154f08019 -> f804aa5144c7884cee5b8644b1088d6ba968e054214b15a6e5ff226764a1f03f
+~ __ZN24AppleUSBTopCaseHIDDriverD0Ev : sha256 217f9bc9961eee1e9c96301ffa53508fa80250c859c647ca83d1541f38ff3f1a -> 715a9e0dfbb3f55320d9f9fed5476ac0ffcc2de6627b66193e4b41541aa77884
+~ __ZN24AppleUSBTopCaseHIDDriverdlEPvm : sha256 92abc135c5049528366c840ecf14520a0f531cf37f5c87e01fc6ec4c8ee5a8a1 -> 847276fbb6eedf8bb252d2bae1335ed4511a116ef50766edf526168aebb1fc9b
+~ __ZN24AppleUSBTopCaseHIDDriver9MetaClassC2Ev : sha256 e8352e6235c68cbb1ff2e10a5928846263b083be50ade252bdf68d813138b2a7 -> 24a78b3986b44e37af68129bf973fdc696f9628bb875ad7cf6fefbf78bb183a5
+~ __ZNK24AppleUSBTopCaseHIDDriver9MetaClass5allocEv : sha256 551c2614996d5e5848c701ed0447186cb16c151b29ba74e379eaeec7e1f0977a -> 59b7a23e71b9a1ef32e73422ea0827cbbd4a96023e4f222c98c6a691f6c3b999
+~ __ZN24AppleUSBTopCaseHIDDrivernwEm : sha256 a6d63f9517e9c307ed4feb384fc927fd2ef74fda7cf7314322262a2c73836385 -> 45b9c35ab238cb9bccf7cfc0ca522ab7cee16f20245dadc054efc5ad31ce1c77
+~ __ZN24AppleUSBTopCaseHIDDriverC1Ev : sha256 aba98b1c314f417e19caf9502ccd9d14bd43cee171057f5619bf2c120ee41b44 -> fb2b65e182695c4a59685b1f1c3fae31d0bac630a800027500669763c4912910
+~ __ZN24AppleUSBTopCaseHIDDriverC2Ev : sha256 1d2683824ef1b9df36558adcaec7cf9b116d0bcd4f1793e10b71e8b18f81a75f -> b1be990166e61411c5e7e0039e15cf17d83b6df590558f7f63631539c00d68c3
+~ __ZN24AppleUSBTopCaseHIDDriver11handleStartEP9IOService : sha256 8c6c507ba7877660cd0288d967c7d7660cdcbabfd6d01c464d3606d7a4c535af -> b4db0fadc18c735112a040735ec52dcc3d06bda51ee328603e6149b032737810
+~ _GLOBAL__sub_I_AppleUSBTopCaseHIDDriver.cpp : sha256 a23ff31f1edcbe7945f5d025739f6f8f4ea8e1e6d6a64beacab09a8eb76d2bcd -> 64b2f19dde523547ecd4b30dcf74f31c233f75359486c1d3fdf7cca97f8fb528
 
 ```

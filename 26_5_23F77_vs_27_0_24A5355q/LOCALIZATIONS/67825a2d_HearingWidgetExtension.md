@@ -1,0 +1,36 @@
+## HearingWidgetExtension
+
+> `FileSystem/System/Library/PrivateFrameworks/HearingWidgetExtension.appex/HearingWidgetExtension.loctable`
+
+```text
+en.ADJUST_VOLUME_DESCRIPTION = "Increase or decrease the volume on your hearing devices."
+en.ADJUST_VOLUME_TITLE = "Adjust Hearing Device Volume"
+en.DIRECTION_PARAM = "Direction"
+en.EAR_BOTH = "Both"
+en.EAR_LEFT = "Left"
+en.EAR_PARAM = "Ear"
+en.EAR_RIGHT = "Right"
+en.EAR_TYPE = "Ear"
+en.LEFT_EAR_SHORT = "L"
+en.MUTE_BUTTON = "Mute"
+en.MUTE_VOLUME_DESCRIPTION = "Set all hearing devices volumes to zero"
+en.MUTE_VOLUME_TITLE = "Mute Hearing Device Volume"
+en.NO_HEARING_AID = "No hearing device connected"
+en.NO_PRESETS_AVAILABLE = "No presets available"
+en.PRESETS_HEADER = "Presets"
+en.PRESET_1 = "Preset 1"
+en.PRESET_2 = "Preset 2"
+en.PRESET_3 = "Preset 3"
+en.PRESET_NAME_PARAM = "Preset Name"
+en.PRESET_WIDGET_DESCRIPTION = "View and change your hearing device presets"
+en.PRESET_WIDGET_DISPLAY_NAME = "Hearing Device Presets"
+en.RIGHT_EAR_SHORT = "R"
+en.SELECT_PRESET_DESCRIPTION = "Change the selected preset on your hearing devices."
+en.SELECT_PRESET_TITLE = "Select Hearing Device Preset"
+en.VOLUME_DIRECTION_DOWN = "Decrease"
+en.VOLUME_DIRECTION_TYPE = "Volume Direction"
+en.VOLUME_DIRECTION_UP = "Increase"
+en.VOLUME_HEADER = "Volume"
+en.VOLUME_WIDGET_DESCRIPTION = "Adjust your hearing device volume"
+en.VOLUME_WIDGET_DISPLAY_NAME = "Hearing Device Volume"
+```

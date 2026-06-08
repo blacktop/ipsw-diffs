@@ -5,13 +5,14 @@
 ```diff
 
  3.0.0.0.0
--  __TEXT.__text: 0xd10
--  __TEXT.__auth_stubs: 0x90
-+  __TEXT.__text: 0xd24
-   __TEXT.__cstring: 0x29
-   __TEXT.__unwind_info: 0xb0
--  __DATA_CONST.__got: 0x8
--  __AUTH_CONST.__auth_got: 0x48
+-  __TEXT.__text: 0xd10 sha256:ad61e14e0599de1f83fd97b76161e871b8e6ae323c6b79b6e6e3bb2aa7e76f36
+-  __TEXT.__auth_stubs: 0x90 sha256:b1b2e63596f2bfbf2d8f3cb331255399064a319f025d1295cbe5a03c18244b26
++  __TEXT.__text: 0xd24 sha256:76d9ffde39de92e04434c39ac25fc86885d339e6466966949540babe962b4c5b
+   __TEXT.__cstring: 0x29 sha256:a3a006278fbe4f2ba177246cc06e1cd0e24420d51503256cf93ef5ee8489ee59
+-  __TEXT.__unwind_info: 0xb0 sha256:b077e070d952970a96ae85863bb113d6120c0fb33662d08a1479ad28a5c43f71
+-  __DATA_CONST.__got: 0x8 sha256:af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc
+-  __AUTH_CONST.__auth_got: 0x48 sha256:834a709ba2534ebe3ee1397fd4f7bd288b2acc1d20a08d6c862dcd99b6f04400
++  __TEXT.__unwind_info: 0xb0 sha256:356af7c822001203e85864f5edfd84ed0ba158412c92d9ce8015636b47a656de
 +  __TEXT.__auth_stubs: 0x0
 +  __DATA_CONST.__got: 0x0
 +  __AUTH_CONST.__auth_got: 0x0
@@ -23,8 +24,21 @@
    CStrings:  11
 Functions:
 ~ _usbuf_hexdump : 460 -> 468
+~ _usbuf_putbuf : sha256 92eb7ac4475c2a4e6a08c1227fc090cc22c5478b87f03a7f72c487400bab715c -> f54e372a04281d30436ae50757f01cb9f4a7bc7a1f84f7d9d27bdb6dedaabeaf
+~ _usbuf_printf_drain : sha256 70a0f952ebd22da80d518f20e06bbc63a96ab1cf82c599912af7f7817aa60320 -> 0e041401a4f7e487c66c934873f26e24b86f4a1382b1e530d8f91b64129007ef
+~ _usbuf_new : sha256 beefae37792045095731535af115426cf35e69d023d5cc5ffedb818ff60a8a31 -> 71ad312e60af07d9be1442951c8d6af6bb2213ddcd2a60953b753634b514fb2d
+~ _usbuf_drain : sha256 0c76091d8f461da6d2d1d2062deec90e1e16a55f66853f4a5bdf0a9b89dfd01d -> b91fe03952c77443daa739dd08115cc5bc7cf5f88e6d495f326410640601e09e
 ~ _sbuf_put_bytes : 244 -> 248
+~ _usbuf_bcpy : sha256 0c856a9b01f45d1c9d7bae017e5e243adee212abb8665f31c48e978fdcf4440b -> fb13e97f154437923a7ccd1708f7c9296950eebb0192832d93959481eba1fea6
+~ _usbuf_cat : sha256 bb216bea594c19b14d877f96c099d91dbd0559f5a4ddf46aefa21b320f01c193 -> f42abdd226a1e150fcc7cac391faa3e4d65f3d47b7015819b15e73fe8902231c
+~ _usbuf_cpy : sha256 6cdf83a1c13a673754a55defd78220b4036325c6cddc897c9460ea1d62678e4a -> 889224b6a25f83656e9ebafdd5eb06107262cefd29eb8e084cf0e739d37957eb
 ~ _usbuf_vprintf : 268 -> 272
+~ _sbuf_extend : sha256 ccd76af09f3c43bde0ae0603bf793c8ffcfb8cf40250de41504a9ff7a0ffca29 -> 83709349fad4ff7f51a1f6bb081b02b08e697711e5075487aac203df64f8e764
+~ _usbuf_printf : sha256 f7427dc41918c1c0eeae7e35a54618e9aef93a8e52774ad6fc1e1aa046d597b3 -> 91dd4b8d3b6afc44f371c05b2e2d91cf2b610d0496978e14e453482bc9aaffd0
+~ _sbuf_put_byte : sha256 37f0dc67ff2f72e75f86a3dd66bdfca165da295f7a075cf4ad03dbf3627aeda3 -> f5b31888464ff42bc8b8871866064ee55956063fa0ba434b25c084ee021851f9
 ~ _usbuf_trim : 168 -> 172
+~ _usbuf_finish : sha256 bdd60be7c3f839d79fdedb4eeb97c60e4fb98c3ba9e133994ee547087a25771a -> a3340c65f459294bcaffb7d04bd5480816962a67b087036029c207f8dd12183e
+~ _usbuf_delete : sha256 87181e8d3dcdf3f73541b3199c29f9dd37e746d9fbe6443dfdbadc57ba8fd821 -> c000f23cea03278f11cd2e1666cb1f125837204389908eeac29b3a1519448529
+~ _usbuf_end_section : sha256 4d8353747c6d2cb0b18cbf4f58e7a53564b40426f9c84fb9b3d86b449778e66c -> 3f123245d7582782f96a3b10192976176dc25df303872c52c3779948624e273f
 
 ```

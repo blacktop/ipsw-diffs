@@ -1,0 +1,38 @@
+## AccessibilitySharedUISupport
+
+> `FileSystem/System/Library/PrivateFrameworks/AccessibilitySharedUISupport.framework/Accessibility-AXAction.loctable`
+
+```text
+en.accessibilityAction.assistiveTouch.section = "AssistiveTouch"
+en.accessibilityAction.assistiveTouch.section.custom-gesture.subsection = "Custom"
+en.accessibilityAction.assistiveTouch.section.gesture.subsection = "Gestures"
+en.accessibilityAction.assistiveTouch.section.menu.subsection = "Menu"
+en.accessibilityAction.assistiveTouch.section.rotateScreen.subsection = "Rotate Screen"
+en.accessibilityAction.assistiveTouch.section.scroll.subsection = "Scroll"
+en.accessibilityAction.device.section = "Device"
+en.accessibilityAction.dwell.section = "Dwell"
+en.accessibilityAction.feature.section = "Accessibility"
+en.accessibilityAction.none = "None"
+en.accessibilityAction.platform = "Platform"
+en.accessibilityAction.platform.appletv = "TV"
+en.accessibilityAction.platform.applewatch = "Apple Watch"
+en.accessibilityAction.platform.filter.all = "All"
+en.accessibilityAction.platform.filter.current = "Current"
+en.accessibilityAction.platform.filter.multiple = "Multiple"
+en.accessibilityAction.platform.ipad = "iPad"
+en.accessibilityAction.platform.iphone = "iPhone"
+en.accessibilityAction.platform.mac = "Mac"
+en.accessibilityAction.platform.reset.filter = "Reset Filter"
+en.accessibilityAction.platform.visionpro = "Vision Pro"
+en.accessibilityAction.pointerControl.section = "Pointer Control"
+en.accessibilityAction.scroll.section = "Scroll"
+en.accessibilityAction.section.all = "All Actions"
+en.accessibilityAction.shortcuts.section = "Shortcuts"
+en.accessibilityAction.switchControl.section = "Switch Control"
+en.accessibilityAction.switchControl.section.element.subsection = "Element"
+en.accessibilityAction.switchControl.section.gesture.subsection = "Gesture"
+en.accessibilityAction.switchControl.section.menu.subsection = "Menu"
+en.accessibilityAction.switchControl.section.navigation.subsection = "Navigation"
+en.accessibilityAction.switchControl.section.recipe.subsection = "Recipe"
+en.accessibilityAction.system.section = "System"
+```

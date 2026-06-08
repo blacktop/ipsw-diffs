@@ -5,26 +5,26 @@
 ```diff
 
 -1418.1.0.0.0
--  __TEXT.__text: 0x5cb8
--  __TEXT.__auth_stubs: 0x4e0
--  __TEXT.__const: 0x77
--  __TEXT.__gcc_except_tab: 0x450
--  __TEXT.__cstring: 0x832
--  __TEXT.__unwind_info: 0x110
--  __DATA_CONST.__got: 0x68
--  __AUTH_CONST.__auth_got: 0x278
+-  __TEXT.__text: 0x5cb8 sha256:535d495ccd145dc42f32c287ea7e094e970d7deef0e82d9a83ab8ce32646117c
+-  __TEXT.__auth_stubs: 0x4e0 sha256:dcd4595c57301ccb8964d4b5b4c079770f71fec85bf9f4c0cbdedbee5df401c5
+-  __TEXT.__const: 0x77 sha256:73cc043c70f05be99d53858ab5631a6761f08dbab75539aa885e6d725fc0210c
+-  __TEXT.__gcc_except_tab: 0x450 sha256:5307bf0416178b8d8082a5240555c7bae187e731edf541c6b7560cbde61a9e62
+-  __TEXT.__cstring: 0x832 sha256:ce818041636e5f3affd459d610b8319acd6b88917196f38afde79d8b5f88d888
+-  __TEXT.__unwind_info: 0x110 sha256:6a438d1790428b562fac37b40edd5d46f01a09a7ea9fd6a1728d9b3c6fc20665
+-  __DATA_CONST.__got: 0x68 sha256:5ad54f22e287635ad786abe18d9acf2d762845856ee5dd832a02e17fe5fd70ba
+-  __AUTH_CONST.__auth_got: 0x278 sha256:be6e55c3d72c3bfd7a318c0e25016019ffaa6ccd4e1c9ca85c7be8e7087bd7dd
 +1563.0.0.0.0
-+  __TEXT.__text: 0x6640
-+  __TEXT.__const: 0x78
-+  __TEXT.__gcc_except_tab: 0x400
-+  __TEXT.__cstring: 0x830
-+  __TEXT.__unwind_info: 0x118
++  __TEXT.__text: 0x6640 sha256:4ea64221b783bfc5f5492d3aae460fff646fd4ff841527c41e1f4844b4526f36
++  __TEXT.__const: 0x78 sha256:f9cd073701b61d39df56150b0c2489835f4f7b5232bffeb325976b18a74fccb6
++  __TEXT.__gcc_except_tab: 0x400 sha256:ca98c943158ec1aeb0d89d2585a4bce62e14eebce88b310f3fcd3bc8c46d5297
++  __TEXT.__cstring: 0x830 sha256:b2c32d528bfba1329522c99b36b21c3f076a68017d94cb945e3c76cb018e724e
++  __TEXT.__unwind_info: 0x118 sha256:b1a93078ff4163416e9a87bc57471a4bd65ae8bae634776b0faae0ed83de2205
 +  __TEXT.__auth_stubs: 0x0
-+  __DATA_CONST.__weak_got: 0x8
++  __DATA_CONST.__weak_got: 0x8 sha256:baed7a8f4fe06577baf9413d1425189458482e4f64d55b4f5cc304378385a036
 +  __DATA_CONST.__got: 0x0
-+  __AUTH_CONST.__weak_auth_got: 0x10
++  __AUTH_CONST.__weak_auth_got: 0x10 sha256:290149e422ec40b0273600157a594a1152f2acf9916597016a24319850a9d2db
 +  __AUTH_CONST.__auth_got: 0x0
-   __DATA_DIRTY.__bss: 0x204
+   __DATA_DIRTY.__bss: 0x204 sha256:6fccf64883a8a1239c04e92532142750460e412d3e8d93bbe5f2d83b82f5e145
    - /usr/lib/libETLDMCDynamic.dylib
    - /usr/lib/libETLDynamic.dylib
 

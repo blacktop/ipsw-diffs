@@ -5,39 +5,39 @@
 ```diff
 
 -382.0.0.0.0
--  __TEXT.__text: 0x1917e0
--  __TEXT.__auth_stubs: 0xad0
--  __TEXT.__const: 0x8180
--  __TEXT.__cstring: 0xc68d
--  __TEXT.__oslogstring: 0x777
--  __TEXT.__unwind_info: 0x1d10
--  __DATA_CONST.__got: 0x80
--  __DATA_CONST.__const: 0x1df0
--  __AUTH_CONST.__auth_got: 0x568
--  __AUTH_CONST.__const: 0x11c0
--  __AUTH.__data: 0x930
--  __DATA.__data: 0x1b0
+-  __TEXT.__text: 0x1917e0 sha256:67fb0340abfefebc7fb8f99b2255df42d76d18fd837541bfe225dfa0c1b718ff
+-  __TEXT.__auth_stubs: 0xad0 sha256:8bb286ea6c80c1ded6af024fb2985c83e979731d0113c1e5e1f3303cf65b501f
+-  __TEXT.__const: 0x8180 sha256:5c9681c923f1fb46fbe73ca9d44f7a75bcbd44085281507a0d2c6bf7a2beb49e
+-  __TEXT.__cstring: 0xc68d sha256:017c2a8e0a2dd317088b914d76acacb1f7531003477c6d9d148bcf36b95afda2
+-  __TEXT.__oslogstring: 0x777 sha256:68b72a91900c788c26b81a960764dc2176686b43b50b7956edb99df4413ce4db
+-  __TEXT.__unwind_info: 0x1d10 sha256:d5a15ce0d53961586c5f3ba13c2eb4c09ac209c9fa9efd553be8130fb315df8a
+-  __DATA_CONST.__got: 0x80 sha256:38723a2e5e8a17aa7950dc008209944e898f69a7bd10a23c839d341e935fd5ca
+-  __DATA_CONST.__const: 0x1df0 sha256:736953ededec9fc2f599fdb0fe5733996a6ef9eb213563267ee0ee77f20cb409
+-  __AUTH_CONST.__auth_got: 0x568 sha256:e253c6a87bdd62e771c0ef1b9850dbc9523c51408ca282f994d3530dbbad9b11
+-  __AUTH_CONST.__const: 0x11c0 sha256:acffec9e37731a40e4f89b155056406826dd861fac2eecdd12f03810ba2942fa
+-  __AUTH.__data: 0x930 sha256:af6d5aa2374a484e0fdc910182c33cab5aa6ad7e64bc860e5a4ae976d8fc0be1
+-  __DATA.__data: 0x1b0 sha256:1dfdf4e725446ea9e6b5518128bd4ff45635065b782444a481a6bd626b2f2a4a
 +401.0.0.0.0
-+  __TEXT.__text: 0x19e19c
-+  __TEXT.__const: 0x8774
-+  __TEXT.__cstring: 0xcec2
-+  __TEXT.__oslogstring: 0x7c0
-+  __TEXT.__unwind_info: 0x1df0
++  __TEXT.__text: 0x19e19c sha256:2ea8d355a6f428ebbef5d9dbdc06e2e7fb9a4760db5b468e2e8d7ac0e778042e
++  __TEXT.__const: 0x8774 sha256:6a172bd15e9820b4ea539898ed7ccf027bae231de7ed281ac4aba6699ff9067f
++  __TEXT.__cstring: 0xcec2 sha256:f5a3acbae02b091c56c76841903ddc17efff519a5414fcfc186d3148883ffe07
++  __TEXT.__oslogstring: 0x7c0 sha256:1145913275574e25ee3b4fbf413b1f0327ccb474cdfb482e960e232a13fc46a8
++  __TEXT.__unwind_info: 0x1df0 sha256:02eb33e7cfe8829056731e7d49ab7b9cc0a157fb83f085757d305b7a81bb7302
 +  __TEXT.__auth_stubs: 0x0
-+  __DATA_CONST.__const: 0x1e70
++  __DATA_CONST.__const: 0x1e70 sha256:b9336f50d3eda2ecd636a6a434cf7157c3ef1651eda75c0be4d2d2a9116005d6
 +  __DATA_CONST.__got: 0x0
-+  __AUTH_CONST.__const: 0x1230
-+  __AUTH_CONST.__auth_got: 0x580
-+  __AUTH.__data: 0x878
-+  __DATA.__data: 0x190
-   __DATA.__crash_info: 0x148
--  __DATA.__bss: 0x2700
-+  __DATA.__bss: 0x2710
-   __DATA.__common: 0x10
--  __DATA_DIRTY.__data: 0x3cb0
--  __DATA_DIRTY.__bss: 0x2e0
-+  __DATA_DIRTY.__data: 0x3f50
-+  __DATA_DIRTY.__bss: 0x2f8
++  __AUTH_CONST.__const: 0x1230 sha256:78ceb90e04b04864d89f303ee49fc73db5c897f3200a94a8b47273b46f26788c
++  __AUTH_CONST.__auth_got: 0x580 sha256:bffeeb2d12ba6108806a508082dee2f5ce23d1edeaf81acd4feb8c0d08038978
++  __AUTH.__data: 0x878 sha256:2e884fa15fb6ecd4c0f12d69d2f652751329e1d55189f588cbe4241091aabe5a
++  __DATA.__data: 0x190 sha256:cd7b72b0797809dd67ec9988a90cadc00f6b942d3c8a93ab5385bd5e54d863fe
+   __DATA.__crash_info: 0x148 sha256:6da6349e97370e8d430272961ce52dff296ff7c22208bd465045a16f557b12e4
+-  __DATA.__bss: 0x2700 sha256:b7a97989f1ba3f95f37802294575f6a79ec01e483d42ac38ea4995744b08913b
++  __DATA.__bss: 0x2710 sha256:95b532cc4381affdff0d956e12520a04129ed49d37e154228368fe5621f0b9a2
+   __DATA.__common: 0x10 sha256:374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb
+-  __DATA_DIRTY.__data: 0x3cb0 sha256:799b031d1efd36f4e9e26e9589bdf0c9a638c65e75fe612e8bf14610c2e4545f
+-  __DATA_DIRTY.__bss: 0x2e0 sha256:c6c9b8650bdf333e657353246bc6f5b02f61950d8990935e2f0e38a63197c80c
++  __DATA_DIRTY.__data: 0x3f50 sha256:6ab5f8a4396b74c55d18214d4a4cacb0baec8c92ca15039983328c00f6d6bb46
++  __DATA_DIRTY.__bss: 0x2f8 sha256:4f30fcacbfd63bac8e76d8a4e97e451d48353631dfa7064250df934b872232f5
    - /usr/lib/libSystem.B.dylib
 -  UUID: 0A0C0FA5-02BB-35B5-9CE5-B702637152A7
 -  Functions: 2463

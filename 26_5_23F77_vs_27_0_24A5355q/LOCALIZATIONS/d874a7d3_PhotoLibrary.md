@@ -1,0 +1,65 @@
+## PhotoLibrary
+
+> `FileSystem/System/Library/PrivateFrameworks/PhotoLibrary.framework/PhotoLibrary.loctable`
+
+```diff
+
+ en.CAMERA_ROLL_LOCKED_iPhone Simulator = "Your iPhone is locked."
+ en.CAMERA_ROLL_LOCKED_iPod touch = "Your iPod is locked."
+ en.CANCEL = "Cancel"
+-en.CANNOT_ADD_SUBSCRIBER_BY_PHONES_MESSAGE.NSStringLocalizedFormatKey = "%#@format@"
+-en.CANNOT_ADD_SUBSCRIBER_BY_PHONES_MESSAGE.format.NSStringFormatSpecTypeKey = "NSStringPluralRuleType"
+-en.CANNOT_ADD_SUBSCRIBER_BY_PHONES_MESSAGE.format.NSStringFormatValueTypeKey = "lu"
+-en.CANNOT_ADD_SUBSCRIBER_BY_PHONES_MESSAGE.format.other = "%1$lu phone numbers invited to “%2$@” cannot receive shared album invitations."
++en.CANNOT_ADD_PARTICIPANT_BY_PHONES_MESSAGE.NSStringLocalizedFormatKey = "%#@format@"
++en.CANNOT_ADD_PARTICIPANT_BY_PHONES_MESSAGE.format.NSStringFormatSpecTypeKey = "NSStringPluralRuleType"
++en.CANNOT_ADD_PARTICIPANT_BY_PHONES_MESSAGE.format.NSStringFormatValueTypeKey = "lu"
++en.CANNOT_ADD_PARTICIPANT_BY_PHONES_MESSAGE.format.other = "%1$lu phone numbers invited to “%2$@” cannot receive shared album invitations."
+ en.CAPTURING = "Capturing"
+ en.CHOOSE_PHOTO_BUTTON = "Choose"
+ en.CHOOSE_PHOTO_TITLE = "Choose Photo"
+
+ en.EMPTY_CAMERA_ROLL_LOCKED_MESSAGE_iPod touch = "Unlock your iPod to see all of your photos and videos."
+ en.EMPTY_CAMERA_ROLL_PHOTOS = "You can take photos using the camera."
+ en.EMPTY_CAMERA_ROLL_VIDEOS = "You can take videos using the camera."
+-en.EMPTY_PHOTO_STREAM_LIST = "Add a new shared photo stream to share photos with friends and family"
+ en.ENABLE_SHAREDALBUM_MESSAGE = "Shared Albums must be turned on to join this shared album."
+ en.ENABLE_SHAREDALBUM_TITLE = "Turn on Shared Albums"
+ en.EXPUNGE_BUTTON_TITLE_ITEM = "Delete Item Permanently"
+
+ en.NO_EMAIL_TITLE = "Email Account"
+ en.NO_PHOTOS = "No Photos"
+ en.NO_PHOTOS_VIDEOS = "No Photos or Videos"
+-en.NO_SHARED_PHOTOS = "No Shared Photos"
+ en.NO_SPACE_MESSAGE_iPad = "This iPad does not have enough free space to import any photos."
+ en.NO_SPACE_MESSAGE_iPhone = "This iPhone does not have enough free space to import any photos."
+ en.NO_SPACE_MESSAGE_iPod = "This iPod does not have enough free space to import any photos."
+
+ en.PHOTOBROWSER_TOOLBAR_SHARE = "Share"
+ en.PHOTOBROWSER_TOOLBAR_VIDEOPAUSE = "Pause"
+ en.PHOTOBROWSER_TOOLBAR_VIDEOPLAY = "Play"
+-en.PHOTOSTREAM_SAVE_TO_CAMERAROLL = "Save to Camera Roll"
+-en.PHOTOSTREAM_SAVE_TO_SAVEDPHOTOS = "Save to Saved Photos"
+ en.PHOTOS_CUSTOM_NOTIFICATIONS_GROUP_TITLE_SHARED_LIBRARY = "Shared Library"
+ en.PHOTOS_CUSTOM_NOTIFICATIONS_MEMORIES = "Memories"
+ en.PHOTOS_CUSTOM_NOTIFICATIONS_SHARED_ALBUMS = "Shared Albums"
+ en.PHOTOS_CUSTOM_NOTIFICATIONS_SHARED_LIBRARY_DELETION_NOTIFICATIONS = "Deletion Notifications"
+ en.PHOTOS_CUSTOM_NOTIFICATIONS_SHARED_LIBRARY_SUGGESTIONS = "For Your Shared Library"
+ en.PHOTO_FILENAME = "photo"
+-en.PHOTO_STREAM_UPDATED = "Updated %@"
+ en.PHOTO_TITLE_FORMAT = "%1$@ of %2$@"
+ en.PICTURES_REMAINING_FORMAT = "%d Remaining"
+ en.PORTRAIT_BADGE_ACCESSIBILITY_LABEL = "portrait"
+
+ en.TRIM_VIDEO_NAV_TITLE_IMAGE_PICKER = "Edit Video"
+ en.TVOUT_PLACEHOLDER_SUBTITLE = "This video is playing on the TV."
+ en.TVOUT_PLACEHOLDER_TITLE = "TV Connected"
+-en.UNABLE_TO_SUBSCRIBE_ERROR_MESSAGE = "Photos was unable to subscribe to the shared album"
+-en.UNABLE_TO_SUBSCRIBE_ERROR_TITLE = "Unable to Subscribe"
++en.UNABLE_TO_JOIN_ERROR_MESSAGE = "Photos was unable to join the shared album"
++en.UNABLE_TO_JOIN_ERROR_TITLE = "Unable to Join"
+ en.UNDELETE_BUTTON_TITLE_ITEM = "Recover Item"
+ en.UNDELETE_BUTTON_TITLE_ITEMS.NSStringLocalizedFormatKey = "%#@format@"
+ en.UNDELETE_BUTTON_TITLE_ITEMS.format.NSStringFormatSpecTypeKey = "NSStringPluralRuleType"
+
+```

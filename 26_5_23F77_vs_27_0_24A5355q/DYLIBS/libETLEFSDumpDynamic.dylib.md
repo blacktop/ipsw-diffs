@@ -5,25 +5,26 @@
 ```diff
 
 -1418.1.0.0.0
--  __TEXT.__text: 0xe134
--  __TEXT.__auth_stubs: 0x2c0
--  __TEXT.__const: 0x47f
--  __TEXT.__gcc_except_tab: 0x688
+-  __TEXT.__text: 0xe134 sha256:428b9bc00bf9786f564fcb2edb2cf751d59470fb20244f220f320e27baf2e439
+-  __TEXT.__auth_stubs: 0x2c0 sha256:c3e88878f1573fbef44c8282b9b0f91cffa50b911b5517bd8764ce9216e010ab
+-  __TEXT.__const: 0x47f sha256:a6b5b8ed4a697c011e3d71e9f2994429de67c890e248ba928b21a5abf7f9a1ed
+-  __TEXT.__gcc_except_tab: 0x688 sha256:ecf51171928cf4c8c3482e0b3aef5c6ac16e2c445bb00889c7d9465441c3e428
 +1563.0.0.0.0
-+  __TEXT.__text: 0xeab0
-+  __TEXT.__const: 0x488
-+  __TEXT.__gcc_except_tab: 0x6c0
-   __TEXT.__oslogstring: 0x1f
-   __TEXT.__cstring: 0x68
--  __TEXT.__unwind_info: 0x3a8
--  __DATA_CONST.__got: 0x70
--  __AUTH_CONST.__auth_got: 0x168
-+  __TEXT.__unwind_info: 0x3a0
++  __TEXT.__text: 0xeab0 sha256:192dc7760fa86691b774140922fa672e30984d7c69daeef661f711ce34f237e5
++  __TEXT.__const: 0x488 sha256:4f0078e7b0d09bc3404242098b7bcd7f3b0d0328d485a7e0e71e9ffabfd878e0
++  __TEXT.__gcc_except_tab: 0x6c0 sha256:a7af3911bcbf965df2945de5fa938d24878d72e761fb01177c890e1ad1b2c893
+   __TEXT.__oslogstring: 0x1f sha256:ea73dd276ace5584f488e9339e239fa697be754c8f2fb0fba76da7ac1eba9698
+   __TEXT.__cstring: 0x68 sha256:82fb283e6d2a12527e1c981d65405fc6fa7bdc447234c17c075290d8b5220f56
+-  __TEXT.__unwind_info: 0x3a8 sha256:edd92dc5558729468cf5f51c8cb03d17c5597202d9392090be149fc68c1c02c0
+-  __DATA_CONST.__got: 0x70 sha256:53ba406bce7203d3380d818648c71c595d7c1b283ba6ff3fb5df7b081949c030
+-  __AUTH_CONST.__auth_got: 0x168 sha256:a02c6a0d48c779bb53c46e5d24e7f5f7f09ff1be3dd999306c3e025b823a0dae
+-  __AUTH_CONST.__const: 0x6f0 sha256:c7e228ed30f3016750ff8cb160a468b9f09300bb4092e56f1314cc78f2dd0284
++  __TEXT.__unwind_info: 0x3a0 sha256:ac0222c4653b99fb8f80f49e250cf151b308fc9c6711e89514088416617fd31b
 +  __TEXT.__auth_stubs: 0x0
-+  __DATA_CONST.__weak_got: 0x10
++  __DATA_CONST.__weak_got: 0x10 sha256:db089a9946ee2f440f1454b6bd081bc906524b106b3b9bd5745c567d00425fed
 +  __DATA_CONST.__got: 0x0
-   __AUTH_CONST.__const: 0x6f0
-+  __AUTH_CONST.__weak_auth_got: 0x20
++  __AUTH_CONST.__const: 0x6f0 sha256:d8e86eebea9e2a7a6bee7e3b419743ff42791c18935f9bffb61610d6ceafdeee
++  __AUTH_CONST.__weak_auth_got: 0x20 sha256:52c9b9f7054537bcbd1b0015a017ad87fc2d84bd7ab268479e6b5286366dc849
 +  __AUTH_CONST.__auth_got: 0x0
    - /usr/lib/libETLDynamic.dylib
    - /usr/lib/libSystem.B.dylib

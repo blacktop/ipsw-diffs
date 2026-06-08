@@ -1,0 +1,77 @@
+## Default
+
+> `FileSystem/System/Library/Carrier Bundles/iPhone/Default.bundle/CellBroadcast.loctable`
+
+```diff
+
+ en.Earthquake Title = "Earthquake Early Warning"
+ en.Emergency Alarm = "Emergency Alarm"
+ en.Emergency Alert = "Emergency Alert"
++en.Emergency Alert Extreme = "Emergency Alert Extreme"
++en.Emergency Alert Severe = "Emergency Alert Severe"
+ en.Emergency Alerts = "Emergency Alerts"
++en.Emergency Alerts Extreme = "Emergency Alerts Extreme"
++en.Emergency Alerts Severe = "Emergency Alerts Severe"
+ en.Emergency Notifications = "Emergency Notifications"
+ en.Emergency Warning Alerts = "Emergency Warning Alerts"
+ en.End of Threat = "End of Threat"
+
+ en.Exercise Alert = "Exercise Alert"
+ en.Exercise Alerts = "Exercise Alerts"
+ en.Exercise and Drill Messages = "Exercise and Drill Messages"
++en.Exercise test = "Exercise test"
++en.Exercise tests = "Exercise tests"
+ en.Exercises = "Exercises"
+ en.Exercises Alert = "Exercises Alert"
+ en.Exercises Alerts = "Exercises Alerts"
+
+ en.Extreme Danger = "Extreme Danger"
+ en.Extreme Emergency Alert = "Extreme Emergency Alert"
+ en.Extreme Emergency Warning Alerts = "Extreme Emergency Warning Alerts"
++en.Extreme National Alert = "Extreme National Alert"
++en.Extreme National Alerts = "Extreme National Alerts"
+ en.Extreme Threat = "Extreme Threat"
++en.Extreme Threats = "Extreme Threats"
+ en.Extreme and Severe Threats = "Extreme and Severe Threats"
+ en.Extremely Severe Alerts = "Extremely Severe Alerts"
+ en.FR-ALERT : Extreme alert = "FR-ALERT : Extreme alert"
+
+ en.HR-AMBER : Missing Person = "HR-AMBER : Missing Person"
+ en.Hazard Information = "Hazard Information"
+ en.Immediate Danger = "Immediate Danger"
++en.Imminent Risk Alert = "Imminent Risk Alert"
+ en.Imminent Threat Emergency Alert = "Imminent Threat Emergency Alert"
+ en.Imminent Threat Emergency Alerts = "Imminent Threat Emergency Alerts"
+ en.Important Warning = "Important Warning"
+
+ en.Information = "Information"
+ en.Informational Alert = "Informational Alert"
+ en.Informative Messages = "Informative Messages"
++en.Kidnapping - Missing Person = "Kidnapping - Missing Person"
+ en.Kidnapping Alert = "Kidnapping Alert"
+ en.Korean Public Alert System = "Korean Public Alert System"
+ en.LU-Alert : Kidnapping Alert = "LU-Alert : Kidnapping Alert"
+
+ en.Priority AusAlert = "Priority AusAlert"
+ en.Public Safety Alert = "Public Safety Alert"
+ en.Public Safety Alerts = "Public Safety Alerts"
++en.Public Safety Message = "Public Safety Message"
++en.Public Safety Messages = "Public Safety Messages"
+ en.Public Safety Warning Alert = "Public Safety Warning Alert"
+ en.Public Safety Warning Alerts = "Public Safety Warning Alerts"
+ en.Public Warning = "Public Warning"
+
+ en.Severe Alerts (Level 3) = "Severe Alerts (Level 3)"
+ en.Severe Alerts with Severity of Severe = "Severe Alerts with Severity of Severe"
+ en.Severe Threat = "Severe Threat"
++en.Severe Threats = "Severe Threats"
+ en.Significant Danger = "Significant Danger"
+ en.State Alert Notification = "State Alert Notification"
++en.State and local Test = "State and local Test"
++en.State and local Tests = "State and local Tests"
++en.State and local test = "State and local test"
+ en.State/Local Test = "State/Local Test"
+ en.Taiwan National Alert = "Presidential Alert"
+ en.Test = "Test"
+
+```

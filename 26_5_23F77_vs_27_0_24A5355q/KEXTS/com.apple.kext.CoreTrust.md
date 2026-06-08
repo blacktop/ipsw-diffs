@@ -5,22 +5,25 @@
 ```diff
 
 -171.120.2.0.0
--  __TEXT.__const: 0x3be0
--  __TEXT_EXEC.__text: 0xa078
+-  __TEXT.__const: 0x3be0 sha256:bfb2f20ccca54974a25d904cb7ee52e62f1922510fb6f5f421c42ab0f3f35180
+-  __TEXT_EXEC.__text: 0xa078 sha256:0dde076f4594eca81a9262f20052778b5d4b41053b2de43ea3015bbcf2850c8f
 +205.0.0.0.0
-+  __TEXT.__const: 0x6b78
-+  __TEXT_EXEC.__text: 0xac20
++  __TEXT.__const: 0x6b78 sha256:832c0b0094c850d76a64dcb9cae711177033197db1edfd69db6788a0440b855a
++  __TEXT_EXEC.__text: 0xac20 sha256:2c160f2c6ae4966dfe39da06dfa890847e50dd7221523ef5bb5f9db73003bc0b
    __TEXT_EXEC.__auth_stubs: 0x0
-   __DATA.__data: 0xd8
-   __DATA.__common: 0x10
--  __DATA_CONST.__auth_got: 0xe8
-+  __DATA_CONST.__const: 0x3ef0
-+  __DATA_CONST.__auth_got: 0x110
-   __DATA_CONST.__got: 0x8
-   __DATA_CONST.__auth_ptr: 0x10
--  __DATA_CONST.__const: 0x3970
+-  __DATA.__data: 0xd8 sha256:f9fdef8944a8ebf19b84cfb9e777893ba08bcb95d4133bc821d961448c19f7e4
++  __DATA.__data: 0xd8 sha256:fb9c0c06e6c68ba946c79980b4ba668938c4352113ebb4ea739039779a9e20b4
+   __DATA.__common: 0x10 sha256:374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb
+-  __DATA_CONST.__auth_got: 0xe8 sha256:9969b6b0c6e9a6f1da9872d91042cde7e3d2ded14438c9e5b9b35a037de2869f
+-  __DATA_CONST.__got: 0x8 sha256:fdfdf3dc1f4a432257b04705e08ef194e67244a02f672ca74cb4f033a16f4daf
+-  __DATA_CONST.__auth_ptr: 0x10 sha256:fcf0d9935731c2395c0fe182b1882b47ff5d5c9ca575cfeba94498d4cc6ec708
+-  __DATA_CONST.__const: 0x3970 sha256:8425d4333ad7b1f45edf70b7343ea070731dc74567bd798e92284b8a43ce44a3
 -  UUID: EF413884-941F-3D16-8D5E-1B85FEB85FC2
 -  Functions: 131
++  __DATA_CONST.__const: 0x3ef0 sha256:a9fc46281518bc2f2c12c7d92d4588cabb2b43a27ba02d7e22836bf6deea2c9e
++  __DATA_CONST.__auth_got: 0x110 sha256:ea8227e8e49fa30671f8b605d0c54e75902fe55ca25bb1df4389bd5fd2fce8e8
++  __DATA_CONST.__got: 0x8 sha256:97893586ceb157a2389598ac7b7c9ce0294cd4a289984b57edb1677517796053
++  __DATA_CONST.__auth_ptr: 0x10 sha256:5c9444f8e2f45b3b1543d966503c75ee17886bc422fe6b9b468d26fe6880e013
 +  UUID: 30B68107-04D5-37CF-A9E5-65C5F61DFE92
 +  Functions: 139
    Symbols:   0

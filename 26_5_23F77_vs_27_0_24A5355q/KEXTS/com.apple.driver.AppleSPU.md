@@ -5,37 +5,39 @@
 ```diff
 
 -1046.100.13.0.0
--  __TEXT.__cstring: 0x5b92
--  __TEXT.__os_log: 0xa46
+-  __TEXT.__cstring: 0x5b92 sha256:d952e9e4a6f46f1d8c6f6932ed75f4333700bd9300c4103d002b1aeb0276edb4
+-  __TEXT.__os_log: 0xa46 sha256:9e0e69453a6a51bf6c6f3f624a7168122f22ceb9b10136160e4f0f392fed20b3
+-  __TEXT.__const: 0x358 sha256:f5ba399a928ece857280389d16c9d222b0ace016320e81ac9cfa191b7416e9ca
+-  __TEXT_EXEC.__text: 0x46190 sha256:1ed82860522919ea1e7d14ed18e031014cb0fa528f59482aca5c3bf058708e02
 +1084.0.0.0.0
-+  __TEXT.__cstring: 0x5d68
-+  __TEXT.__os_log: 0xb29
-   __TEXT.__const: 0x358
--  __TEXT_EXEC.__text: 0x46190
-+  __TEXT_EXEC.__text: 0x48240
++  __TEXT.__cstring: 0x5d68 sha256:4748e158fc559bffe061f7fdf1400ac8d11378ea78eec161f3859c2ec460aff7
++  __TEXT.__os_log: 0xb29 sha256:d027f398ecb04d6db349c38e44a4217680388fea6e397c07399d45ee519f0b28
++  __TEXT.__const: 0x358 sha256:dbeb2a7abe6b830a44bd4c309b37776bc8b4f6d1460eac8cb554a2381702c955
++  __TEXT_EXEC.__text: 0x48240 sha256:856dcce41e9893ce9ae9a10ab1c79cc771e78b05c92b5a04057db543e23e681c
    __TEXT_EXEC.__auth_stubs: 0x0
--  __DATA.__data: 0x878
--  __DATA.__common: 0x998
--  __DATA.__bss: 0x5b0
--  __DATA_CONST.__auth_got: 0x5e8
--  __DATA_CONST.__got: 0x1b0
--  __DATA_CONST.__auth_ptr: 0x8
--  __DATA_CONST.__mod_init_func: 0x180
--  __DATA_CONST.__mod_term_func: 0x180
--  __DATA_CONST.__const: 0x165c0
--  __DATA_CONST.__kalloc_type: 0xf00
-+  __DATA.__data: 0x938
-+  __DATA.__common: 0x9c0
-+  __DATA.__bss: 0x5d0
-+  __DATA_CONST.__mod_init_func: 0x188
-+  __DATA_CONST.__mod_term_func: 0x188
-+  __DATA_CONST.__const: 0x17488
-+  __DATA_CONST.__kalloc_type: 0xf40
-   __DATA_CONST.__kalloc_var: 0x320
+-  __DATA.__data: 0x878 sha256:44dd28791c9e666f0a0ca9ef0eca8ae63d016d5dbaf03e35b66afd11e51deff0
+-  __DATA.__common: 0x998 sha256:e66f98a7fe250db74521cc03f1f1b34f9570d21f9f251e5a930d8d696957352c
+-  __DATA.__bss: 0x5b0 sha256:f42ac9f0d388a01081157fa77ee261a09b07c7b8284187e7d1fd477880b92c45
+-  __DATA_CONST.__auth_got: 0x5e8 sha256:01e40ae096feba6783ce7aba4bdcae0956a285e39cd4c8b5a1d33bb64eb84173
+-  __DATA_CONST.__got: 0x1b0 sha256:2755e37800e43f160e71affbb3188e1c050e8b3fb9f6295068ca57f5ca77b95c
+-  __DATA_CONST.__auth_ptr: 0x8 sha256:11de8efe63e5fa2e85e795d31090e98d293b0df372d470937599a942aacb4f03
+-  __DATA_CONST.__mod_init_func: 0x180 sha256:3d6b65ed883f5e6d442a20cb533bfecca28f10fc0f8db9c867d4bf84f6c3fb83
+-  __DATA_CONST.__mod_term_func: 0x180 sha256:db6aae2d226b26ee7a48b1fdd94a5709b07a4ebb1c163701a09cfb0389aa016f
+-  __DATA_CONST.__const: 0x165c0 sha256:e30ca72c31f7dff16732c09359bded08c9780001e45ed8db6ad57d54c7f83c16
+-  __DATA_CONST.__kalloc_type: 0xf00 sha256:863f1e62116f83a17d4dcce9ada1be2fc967ff6c4729096bd66c208868b6508e
+-  __DATA_CONST.__kalloc_var: 0x320 sha256:204012a3d2cadc72d70b6d9fc25623bad11007b422726569e7c97c9bb955cb68
 -  UUID: 2690AD1A-6F74-3EE9-B8D7-ED34F255C760
 -  Functions: 2238
-+  __DATA_CONST.__auth_got: 0x5f8
-+  __DATA_CONST.__got: 0x1c8
++  __DATA.__data: 0x938 sha256:02dbe99fd0e4a744d51439d1e473005fd7d9db0094bd997f0e0fc5cc878c6d08
++  __DATA.__common: 0x9c0 sha256:89f71694141dedff4a8c78b5db40be02ac451aa869ecc708ff8313e5525dd433
++  __DATA.__bss: 0x5d0 sha256:8aa01aabc92db2f90ff1ad773b41d39fae8e25472e3ca428f60d9bf417089d18
++  __DATA_CONST.__mod_init_func: 0x188 sha256:266dfc1e4d0084db12b560d2048599f04a30fe4f325c05b24b1de0b3a44176d4
++  __DATA_CONST.__mod_term_func: 0x188 sha256:12b03d6b67424980fa464ae18bcccc65c4ea17077185dfc7a2a1a4095f40a806
++  __DATA_CONST.__const: 0x17488 sha256:a9930e3f7401e7af119eb01b05a90bb7ce80b8b1df912877d4eaffcca56649f4
++  __DATA_CONST.__kalloc_type: 0xf40 sha256:cbec6f276d83068dfc12a5f10c7a07b43803dbf0dacc4291084bec78e12bb506
++  __DATA_CONST.__kalloc_var: 0x320 sha256:227192c47abb0b1eec2ab3276c2b874edb14f7e601f474f5747e499d2d3ac561
++  __DATA_CONST.__auth_got: 0x5f8 sha256:c2db9d2ac995edd38a1b75a242284d8f6373118290309844199771cd11bb043b
++  __DATA_CONST.__got: 0x1c8 sha256:1da1630b490d427461ef7f362cd4c484555cb089c50cadaf265b4ae9aced6656
 +  UUID: 7FDC4843-82A0-36A7-98AF-8A459C1C5202
 +  Functions: 2321
    Symbols:   0

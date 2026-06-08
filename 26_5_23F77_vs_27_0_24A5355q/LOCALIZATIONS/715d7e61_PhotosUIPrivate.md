@@ -1,0 +1,23 @@
+## PhotosUIPrivate
+
+> `FileSystem/System/Library/PrivateFrameworks/PhotosUIPrivate.framework/PhotosUI-Cleanup.loctable`
+
+```diff
+
+ en.PHOTOEDIT_CLEANUP_IOS_PROMPT_REDACTION = "Tap, brush, or circle what you want to redact."
+ en.PHOTOEDIT_CLEANUP_IOS_PROMPT_SAFETY_FILTER_APPLIED = "Safety filter applied."
+ en.PHOTOEDIT_CLEANUP_IOS_PROMPT_UNKNOWN_ERROR = "An unexpected error occurred. Try again later."
+-en.PHOTOEDIT_CLEANUP_IOS_SCANNING = "Scanning…"
+ en.PHOTOEDIT_CLEANUP_RESET = "RESET"
+ en.PHOTOEDIT_CLEANUP_RESET_ACTION_TITLE = "Reset"
++en.PHOTOEDIT_CLEANUP_RESET_MENU_TITLE = "Reset Clean Up"
+ en.PHOTOEDIT_CLEANUP_TOOLBAR_BUTTON_AX_LABEL = "Clean Up"
+ en.PHOTOEDIT_CLEANUP_TOOL_BUTTON = "Clean Up"
+ en.PHOTOEDIT_CLEANUP_TOP_LABEL = "CLEAN UP"
+-en.PHOTOEDIT_PIXELLATE_FACES_ACTION_TITLE = "Pixellate Faces"
+-en.PHOTOEDIT_PIXELLATE_FACES_MENU_ITEM_NO = "No"
+-en.PHOTOEDIT_PIXELLATE_FACES_MENU_ITEM_YES = "Yes"
+ en.PHOTOEDIT_PROGRESS_CLEANUP_RENDERING = "Cleaning up"
++en.PHOTOEDIT_PROGRESS_CLEANUP_RENDERING_ELLIPSIS = "Cleaning up…"
+
+```

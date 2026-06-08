@@ -5,26 +5,29 @@
 ```diff
 
  7019.0.0.0.0
--  __TEXT.__text: 0x887e0
--  __TEXT.__auth_stubs: 0x350
-+  __TEXT.__text: 0x89e94
-   __TEXT.__init_offsets: 0x4
-   __TEXT.__gcc_except_tab: 0x1d14
-   __TEXT.__cstring: 0x112a
-   __TEXT.__const: 0x2466
--  __TEXT.__unwind_info: 0x1c90
--  __DATA_CONST.__got: 0x28
--  __AUTH_CONST.__auth_got: 0x1b0
-+  __TEXT.__unwind_info: 0x1fd8
+-  __TEXT.__text: 0x887e0 sha256:a9b41f7b92bf13819c423478bf531edadadb7ede773db57d328d42ab6f3fc3a3
+-  __TEXT.__auth_stubs: 0x350 sha256:a3f9a3eb731ffd3a18beec0304020ea9558e0503f2877981d71b0e6fdf18ae5b
+-  __TEXT.__init_offsets: 0x4 sha256:570b63bdee2d3b72c2f8189ac1dba9d4f875eff147fe5a4022a596798cbe62ba
+-  __TEXT.__gcc_except_tab: 0x1d14 sha256:65ce648d15dcc085280afb568458230d021419373aef53476d7c1db682611582
++  __TEXT.__text: 0x89e94 sha256:d7d1431f438aa74633f05d10c56e4fad737d50f544208df943115c883768241f
++  __TEXT.__init_offsets: 0x4 sha256:321e00976fd07fe51c14d415fa4d1926fa1ee19e6f709456a65623fdcb5eacf1
++  __TEXT.__gcc_except_tab: 0x1d14 sha256:f1274cf1c064b04a5409948a5c8b3d8c9350b5253d985ab7e7d6d31237c14a09
+   __TEXT.__cstring: 0x112a sha256:dfe9d35c83230e2da8ee062754cb8d606612d2ca1fe501c70e841b076ddc719e
+   __TEXT.__const: 0x2466 sha256:c5c5416b806d4b83d5227d25e80b59d4dd58b320d9d3ad7acb7ae6f2106268f9
+-  __TEXT.__unwind_info: 0x1c90 sha256:efd9220749d4be3b6b684192a1b485ca2247b1e24bc04af9ca28071b55789f25
+-  __DATA_CONST.__got: 0x28 sha256:99761b295f5025aee8ed5f9f467e337531d85ebaa124878c5667b7cf41a265f9
+-  __AUTH_CONST.__auth_got: 0x1b0 sha256:104136c3940474bff265815e7ebe93060ba329dc149421a97217873979a6d0fd
+-  __AUTH_CONST.__const: 0x3570 sha256:58018653f44337ae0cb81bfe6933192b88a52de00ac05090331a1b8957b649a2
++  __TEXT.__unwind_info: 0x1fd8 sha256:ec52686b6f2cb03995da5f9124d298a347fa6bf17f021405d1fd2a557d853de6
 +  __TEXT.__auth_stubs: 0x0
-+  __DATA_CONST.__weak_got: 0x8
++  __DATA_CONST.__weak_got: 0x8 sha256:baed7a8f4fe06577baf9413d1425189458482e4f64d55b4f5cc304378385a036
 +  __DATA_CONST.__got: 0x0
-   __AUTH_CONST.__const: 0x3570
-+  __AUTH_CONST.__weak_auth_got: 0x28
++  __AUTH_CONST.__const: 0x3570 sha256:1850542877e34d8fc7a06334bd2c5bc0708b7f7fc42d182d85b27bbfbb195477
++  __AUTH_CONST.__weak_auth_got: 0x28 sha256:e6c98ac2b6d36ee157f0f6f67d2766fdf735877ea06b91ad7560b042d5658992
 +  __AUTH_CONST.__auth_got: 0x0
-   __DATA.__common: 0x1
-   __DATA_DIRTY.__common: 0x2f8
-   __DATA_DIRTY.__bss: 0x1
+   __DATA.__common: 0x1 sha256:6e340b9cffb37a989ca544e6bb780a2c78901d3fb33738768511a30617afa01d
+   __DATA_DIRTY.__common: 0x2f8 sha256:4f30fcacbfd63bac8e76d8a4e97e451d48353631dfa7064250df934b872232f5
+   __DATA_DIRTY.__bss: 0x1 sha256:6e340b9cffb37a989ca544e6bb780a2c78901d3fb33738768511a30617afa01d
 
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libprotobuf-lite.dylib

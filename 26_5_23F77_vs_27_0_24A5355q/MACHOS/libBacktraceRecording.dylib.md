@@ -5,22 +5,30 @@
 ```diff
 
 -64575.39.1.0.0
--  __TEXT.__text: 0x58b8
+-  __TEXT.__text: 0x58b8 sha256:ee43630e9884411a97a6fd80e791a2b6d3479c7cf3f6fbc86d63f67d683e8b54
+-  __TEXT.__auth_stubs: 0x3a0 sha256:95540adc07b5f70b2851a376ab36b927a98a739b7c4d039aa56a26e87cd54937
+-  __TEXT.__init_offsets: 0x4 sha256:9d2eec605420da697af3f304c6d2fe5ea74cb4cf666f84f6fc613bba332198e8
+-  __TEXT.__const: 0x70 sha256:950fc13fb90a349d0539601a0fb249f71a8a6af8ea9474d5a1678274fb0c45be
 +64578.47.1.0.0
-+  __TEXT.__text: 0x5948
-   __TEXT.__auth_stubs: 0x3a0
-   __TEXT.__init_offsets: 0x4
-   __TEXT.__const: 0x70
-   __TEXT.__cstring: 0x180b
-   __TEXT.__unwind_info: 0x138
-+  __DATA_CONST.__const: 0x298
-   __DATA_CONST.__auth_got: 0x1d0
-   __DATA_CONST.__got: 0x38
-   __DATA_CONST.__auth_ptr: 0x20
--  __DATA_CONST.__const: 0x288
-   __DATA.__data: 0x140
-   __DATA.__common: 0x19
-   __DATA.__bss: 0xfd
++  __TEXT.__text: 0x5948 sha256:65f09cf841fcc223d77bb45b95890344a157e4bd00048163146e7b0f760f1def
++  __TEXT.__auth_stubs: 0x3a0 sha256:eb8abd5adc84c36035c85ebcc3b08669389b8c87ea832049d467fac5a763e33b
++  __TEXT.__init_offsets: 0x4 sha256:60aa1a6530b508041779e0105d1c242a27156e9039c97069e1eec5125a21f3b7
++  __TEXT.__const: 0x70 sha256:f0bfe30e9234b860a8837f72ba4f49970d629905c14e5b6554d766ebfa04be47
+   __TEXT.__cstring: 0x180b sha256:264d4cdb21cba44d5fc480e3333deb4adf2ce090a8e92778c7771cc6879fafa7
+-  __TEXT.__unwind_info: 0x138 sha256:c7eab05c5cbf801871e38cbf8380aec88f5025558b3e981ebbc579e2b224e306
+-  __DATA_CONST.__auth_got: 0x1d0 sha256:5c0b09008906d8e378d5eeaee3c047197d253b81c10fb530e0cd6ea83cc353fb
+-  __DATA_CONST.__got: 0x38 sha256:bc89d541f08a8221019b7806d2ff852d25d702cc4f616026b6452d226e0db1e1
+-  __DATA_CONST.__auth_ptr: 0x20 sha256:83372a93ed3030a8fe5490d04ad2c646360099c1879e64a8c1c4963cda3c0b98
+-  __DATA_CONST.__const: 0x288 sha256:cd6dde7228ce29f7d6b4fa2b78e4b993457ac2250b59e5f5387d8e11aed925e9
+-  __DATA.__data: 0x140 sha256:4659ecd6e3c4962b1e3c078b3ea4e1b92b9a5cc9fd1c549f66eb11b9b4d7b7aa
++  __TEXT.__unwind_info: 0x138 sha256:517cb95e518b035fae5aa206a810aca7c4eca01930c95c8690244afaf3a918e7
++  __DATA_CONST.__const: 0x298 sha256:d2b047fdf88f409522569c7c81e1a5dbb8e9821068eb7c81359a757b6e3d7aca
++  __DATA_CONST.__auth_got: 0x1d0 sha256:b714d409ec1ccb194be1a370dd6b6b8375e9a21904cb3946dd570905fffb7681
++  __DATA_CONST.__got: 0x38 sha256:1e69fed03b43d410ee5963b93b61cc512c2176bd205e5582da5bb21e02b779a5
++  __DATA_CONST.__auth_ptr: 0x20 sha256:bf85cc5e2c93a6571040f0f5c243724ae8915048d415e58058efbb10ed6dddb2
++  __DATA.__data: 0x140 sha256:5de4b8fcb389439c34139d54f4d766f86a10424872697449f07785053b8a3b51
+   __DATA.__common: 0x19 sha256:61126de1b795b976f3ac878f48e88fa77a87d7308ba57c7642b9e1068403a496
+   __DATA.__bss: 0xfd sha256:7cd881f70ccc462cc607ef88953ad3f1e3948fb3c03f2f6f114458464232bcf0
    - /usr/lib/libSystem.B.dylib
 -  UUID: 29CA8402-7D4D-3320-9982-E610EE352ED3
 +  UUID: DAEA0CB2-8144-38B7-82D7-D62C230098D0
@@ -28,24 +36,61 @@
    Symbols:   187
    CStrings:  178
 Functions:
+~ ___introspection_dispatch_get_queues : sha256 5a576f5885dc73d088ce936f51ba0f7c2b2ff74056c72d1c94a5767f3de3fd1c -> 26f9954d201598c9090c85f9420f98714b78995ca31d98446fa7a53970713694
+~ ___introspection_dispatch_queue_get_pending_items : sha256 da3453b8a8f657f438c34d2319860da8f384a852e34b054d35cc7cdf53f7a4e2 -> 75e565dc470a7f29c0782c3d7dc793116f5da36401e7b3a3e6f38592939f6b10
 ~ ___introspection_dispatch_queue_item_get_info : 432 -> 440
+~ ___introspection_dispatch_thread_get_item_info : sha256 e9db52bf345c974cfa4ab3ea3d9ae76702346290316e03ce143bd6c4c0e93082 -> cd681e605a72655495dab8f6a8abab89414ce7218cf3ab548163135d842e8043
+~ _current_thread_info : sha256 25ab825ca1bd5cef932c15feb855d8fc01fe4182acc98889df603c386463b040 -> a1ba09c2f6c17169e199a8ecb65da1a3bca30cc2b2878bb8a6c924fa07c23bfa
+~ _dispatch_queue_label : sha256 22ef0602d06f6d250566ea39d6e2a16e554ded4e7f7436cd143b6a5d5e349c56 -> 61b4b5f319fbbf017829e1170a8c844fd9f3f9bd27449f5d45f394d906ef74ca
 ~ _dispatch_queue_serialnum : 60 -> 68
+~ _add_thread_info_to_list : sha256 5885020933a3359b05129ee0abc40ee4761c846c48880d28a03b077f87c249b2 -> 103e07ab03172eefdacf7aa1008b6f45d60fd199f8d1b6272c0b6284a8c9e9f4
+~ _get_entry_from_free_list : sha256 6bc843c38864ffd4b99d781c02c4a4d519a362bfcd14f4bc0d171a327e976216 -> b31d60699ce80044878b30668063789b3ad97590cd2e606be215cf53fd62f10c
+~ ___library_initializer : sha256 dc354ee50a7aee9526390b94fb8670c0b4d3ed6564ec15b25cd1e33dbe11eda1 -> 7587b5e6c45909a56e230fa36bdd16e77e5039a87812b3c5d1ea759c18ddb86b
+~ _fork_prepare_handler : sha256 b609943a8995955f48866a3b49b35ee359b04d183d9c46834c5b884d6d42bdbe -> f831ef8733bd79ba2f3a13305e993e62dd67359e587c2f27f688a22d7111fcb2
+~ _fork_parent_process_handler : sha256 5d238fee9afb43aee113363741f57f731755a9f8f181f6c6abd86d76b7784d33 -> f7bfb40319e0cfb36f3259eaba88d48a2d112eddbae3b72db25f92aca60a6a8d
+~ _pthread_introspection_hook : sha256 31cd36623e1d4b44c2eaa1a986c8fb956829179bc7ea0629a89bfabdd329a870 -> ae84d16a47af00eacc32016f4a0447e9a3e50d9cb69e5322cc17387d1f98e217
+~ _thread_terminating : sha256 de83b296dbcb53fd995a3f4568bf105fb03efdb5213bb1897f5aeec5779735dd -> 7c65324b481e1ab5683eb50bcbe83f4374d479a682c1d91f73db59e4f7ff1546
+~ _gcd_queue_create_hook : sha256 4839aebf2460404b9735e294c744112a3f8865ca36612aeffa4f8de4de51195c -> 90ba3dfcb751b004366f0af563a746d91db7107e63699357039a7dd82d838ccd
+~ _gcd_queue_dispose_hook : sha256 58d9b6cd3d2df71e3093488d5758c0b249ca1c20788e461f4f27ee94d34cc551 -> 6b3c58bbc951c0815e6d467451b66ad80905e26c8394480c56c1481d1dacdca5
 ~ _gcd_queue_item_enqueue_hook : 1248 -> 1252
+~ _gcd_queue_item_dequeue_hook : sha256 cf23dbfe26babdd37b6c034db32e40c97ee814e54a7c9e6f8915d24c0fcb923a -> c0cd026bdb055d76229e84d0e738fecd76dd17fffabcf84a2a54449130f7dcc0
+~ _gcd_queue_item_complete_hook : sha256 a5529327ad4f2c713fef7e67a3cbab10c50022a2256c65a6fd37828c72aa7705 -> e834c79e42b2e10d4995974f171483981e6f003644ada499b588bd2adc151ab2
 ~ _add_queue_info_to_list : 456 -> 460
+~ ___gcd_queue_dispose_hook_block_invoke_2 : sha256 f3ec691b700cbdf5d717f7a5f517b218cc58cf7f5a450b5b94acc2cc62e2126e -> d061816d5c36ec237d318d4b9d91d7de517ffc2f7c27802b7acf948193ea527f
+~ _is_interesting_event : sha256 6032f144d3ad5054a1f8dbec3e56d07883ff912d60c59d470b95c6bcf51b7bf7 -> 1555cb0871df8c28aee21cc65066ac68c7f79a61819745aa3f5d2918ccb04f88
 ~ _find_or_create_queue_info : 324 -> 332
+~ _collapse_enqueuing_recursion : sha256 191766697f0764ab148db33f7baf9c73b291c21c81f28f9f198ef47736ee9b1b -> 4d52a96119f1d1a21e9b273944eb74d3484f9f3a027af8cefb06794593818c55
+~ _decrement_work_item_refcount : sha256 0e3f054a9ce5a4c3a766d3f533ff7a21fbf3708313a6a6078d2757cd2e7bb03e -> 1d6f7b4d92a6d7f2a6ca0ddafec37533cc15db177e2e01eed6a8c3edfe452e33
+~ ___thread_terminating_block_invoke : sha256 3bf32c336890bee077c28460f15d4b149fdafc323eab666ba8924be9370b6110 -> 44519d88d7bc45e5c1dff548f38956560fb1c4392c45540b62facdfd2b0dd7f1
 ~ _resetDyldInsertLibraries : 432 -> 436
+~ _print_thread_summary : sha256 8d16e7e71e24dc278a7480cbccacb0588099e8afbaa00ba3f4091f2514a03308 -> e7a6f5775271c3f080333302adb8f186bc375a7ec9a0a5ecf6528664a4f63f0e
+~ _print_queue_summary : sha256 c661843872f541cc2d8f1bc75fa833d874998bb2777fbe6e323c3d940b887623 -> 140f5d801b5bcc1a06661b920558a15cb6290c2fce18ba1340706dff9b12a9fb
 ~ _print_logical_backtrace : 1480 -> 1488
+~ _backtrace_contains_function : sha256 83ed746a5869d68ffa6620f7cf5fce2e8ea7c7ff332fbcf0532c7464233a5b2f -> d06a68c343c6e4641a15c0e012ee17f9a98f75f9d3e4836f10b8a005dd473643
+~ _get_and_print_backtrace : sha256 9ee2b8415f07f9b81e55ceab64101506fbd57918a30598eb445559a666240523 -> f98062b7007dbdd669aaf71aeaf040726c6c4708af77e04f6f04d887cebc20ff
 ~ _print_queue_item : 1600 -> 1604
+~ _print_item_backtrace : sha256 5a4dfd9e4d757536fa77c1d3b1e8864c2efc602f9c0209365f12f1991d26350e -> 4a0a6ba58794697f2c11ef416620b455a39eadcda670159632b7bfb382379544
+~ _print_queue_item_and_current_backtrace : sha256 6abc50173240f1c191dc9a32f73f70e9165ca54f2cf0b4a4b34dfd0ff49e4382 -> ecb4751518a3da671a22480b09a26cf21c34ad758709a2e8e78d72855ffd4296
 ~ _print_gcd_queue_create_dispose : 472 -> 476
 ~ _print_gcd_queue_item_enqueue_dequeue : 840 -> 844
 ~ _print_gcd_item_conflict : 592 -> 596
 ~ _print_gcd_queue_item_complete : 732 -> 768
 ~ _print_pthread_event : 584 -> 588
+~ _print_list : sha256 dc7d56da29e50c5894316c2500b4dcf230e6b7a9be349dab0e4fa43463691d88 -> 27798d9ecd705c8b483cc7e1cc13ef48d0f093b76e2f8b3806dd188329de785e
+~ _locked_print_dispatch_info : sha256 9e4ea4fe61ef00bf8cf991ce9214e5d98d4d1952985f498537e4774c1fa14c91 -> 494a406acc11905f401c6405c51c0ed156d67c7d58f53f52a294d34b88a22350
+~ _initialize_debug_printing : sha256 204600490925b4b39c0e226ec066f1c78f26ba62351b9b7903e9e2d3f5302de6 -> 625629d57f03b70fe7f6b3fc20a86d8e3c528dec3e73822bd8bec79b9b6476eb
+~ _my_malloc_logger : sha256 ec7145666f18180fe33bd72cf3fd34c131346502000a24dd7b659445538a7787 -> 6202b01289f17bf74531693f21b8a21abf1ac61a1e7908e6faa291f78d636130
 ~ _print_backtrace : 568 -> 572
+~ _create_backtrace_uniquing_table : sha256 5135f6b01a7429c1265a0e1369feb3c29285e425842cf41a4f444b06ea73a27d -> b92e6571fb977b429ac760fb5b1947e209a5d74ee3b9d079d8d9d463aa270d3c
 ~ _enter_stack_in_backtrace_uniquing_table : 828 -> 836
+~ _remove_stack_from_backtrace_uniquing_table : sha256 ca453f43945bc039f06a5314ff5f2bb8aeb1f4a1b8d70644a76485bd91d59847 -> b3032bde4b267cf4f3c9d21f6801adec54e6e2082c5b8405f378c2eb7d699f99
 ~ _stack_frames_for_uniqued_stack : 268 -> 272
+~ _enter_ptrSized_stack_in_backtrace_uniquing_table : sha256 bf0efbaa874b18cc8ea210d865091559c5b999391cddc5030c4a118c77a00571 -> 347cc599410b56ca5f34f6575c0d69f01a2bd09422f3f3f67ab857c402f81250
+~ _ptrSized_stack_frames_for_uniqued_stack : sha256 8e447bd581e652dad7793f120eeb9599bd9e355276f3c66bc2e8516c743d9e4d -> e5186f082740c7bd350f065f733e5110a26132b06f8b576d1325bad7db22001b
 ~ __enter_frames_in_table_while_locked : 296 -> 312
 ~ _print_dispatch_info : 548 -> 556
 ~ _print_logical_backtrace : 752 -> 756
+~ get_entry_from_free_list.cold.1 : sha256 0e10bcdbc73081c5f34e1eb42f8b81959e24b9c9db63e61386e6feb2ca1d630d -> c4856645d95ae9f0d1c24b49d20a3e52354c9b36a5e7b06a576233b099921f33
+~ create_backtrace_uniquing_table.cold.1 : sha256 97a7b5b520d44f3a7027fd58ffd38ed6d4b5642f4a28856c0224f3594df476d4 -> d6444446f3a1283c2a42fe80458a1ea0cb900c415d83cb6c170094d389e06e56
 
 ```

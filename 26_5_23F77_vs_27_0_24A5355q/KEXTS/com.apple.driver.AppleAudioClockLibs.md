@@ -1,0 +1,41 @@
+## com.apple.driver.AppleAudioClockLibs
+
+> `com.apple.driver.AppleAudioClockLibs`
+
+```diff
+
+-540.3.0.0.0
++600.6.0.0.0
+   __TEXT.__os_log: 0x103 sha256:8d6c6ff99c66170b4653fe22a0e04b8adfca31e080959bd3c73cb7e15d7d7479
+   __TEXT.__cstring: 0x200 sha256:6ab2575301e063a81e5fc2727569c1ff550eb6fc6b19f881dd4ff908832ef102
+-  __TEXT_EXEC.__text: 0x7b4 sha256:0bb71fdf9541c94595bba3943faa7fe206bdae4901738328e69524e42b942847
++  __TEXT_EXEC.__text: 0x7b4 sha256:21e0c2032e989c02434c811399b21c7b99138283c9050d768242183581b1dd7d
+   __TEXT_EXEC.__auth_stubs: 0x0
+-  __DATA.__data: 0xc8 sha256:c432d162a89bb04de4f57ff20f8abf7ac880750f61f62b617a3ba6caf079175b
++  __DATA.__data: 0xc8 sha256:6e1331cd74b37a72eb2c2c73d0a8868fc421150fcfedeb8ea560acf2db58154d
+   __DATA.__common: 0x10 sha256:374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb
+   __DATA.__bss: 0x18 sha256:9d908ecfb6b256def8b49a7c504e6c889c4b0e41fe6ce3e01863dd7b61a20aa0
+-  __DATA_CONST.__auth_got: 0x28 sha256:392cdfb59cf3148c473f7901886fd2ef1c88bbe832c25d16778d1635397b63b6
+-  __DATA_CONST.__got: 0x10 sha256:1c55cecf0bc39e5826bf943c03fde7f2e0af05ac77405a8ab8945e4e3e8fb75a
+-  UUID: 6CA306E4-A9FC-3BB7-A6A2-A8CE42E60C72
++  __DATA_CONST.__auth_got: 0x28 sha256:93e34ec9d3f82545ffeff9e1e960d78630911c1d5b877d3c2699bbb6ecb2e68d
++  __DATA_CONST.__got: 0x10 sha256:691caf8ae124349242f2653fc61aea345e5deefcab95ada7e2b9d7e66c74fa16
++  UUID: 647BD9CF-2A27-385A-98E5-B287E532FE39
+   Functions: 13
+   Symbols:   0
+   CStrings:  22
+Functions:
+~ __ZN26AppleAudioDeviceTreeHelper11getPropertyEPKcS1_PK15IORegistryPlane -> sub_fffffe00088ae9b0 : sha256 e6c96a06c4b3522b3a5e731e5c9ddcd630c11d93fbadfcc35815de60b473c316 -> a2c6152439331dad74203c7e17dcf0c05e136d3a78a9d87195be9447914f0bc4
+~ __ZN26AppleAudioDeviceTreeHelper18getPropertyUint32tEPjPKcS2_PK15IORegistryPlane -> sub_fffffe00088aeb24 : sha256 087a92ca448eb4755c984761225c75ed07e2e37b88f1a4aaec570e1a45b86a92 -> 456ef9dbc9583d73db8cea8d372afe43a74d5050a59aca19efa7fd9a7ad4c880
+~ __ZN15AppleAudioClock7Utility20getMachTimeAlignmentEv -> sub_fffffe00088aec68 : sha256 95e03c374a2e487561721f99ee6630e5bdf1a51c74e18c7af66e849644d59386 -> 6d8403d67c2d20ebfa789eaa92c63adffaad35ae3a3a3ee4e72cb787d2401035
+~ __ZN15AppleAudioClock7Utility20getUSBAudioAlignmentEv -> sub_fffffe00088aecec : sha256 ebb06e228187d381551f999c465a53cf27dc5f7ed4ee7f58f9e917001c5be111 -> e0999de210463e05ea187d794e34d294e9a1ea97a91941f25b2a58d182ff8ec5
+~ __ZN15AppleAudioClock7Utility19getMachTimeMaxDriftEv -> sub_fffffe00088aed70 : sha256 4ce71c2320ba3f7f37ef46a7c0455ad45181b18509ae6f6aeba010131eb32bc3 -> d0244f217ca105fc628859100b0535c126cf4c117cd70fed2ece937d39ced58e
+~ __ZN15AppleAudioClock7Utility22getClockDomainOverrideEPK9IOServicePKc -> sub_fffffe00088aee4c : sha256 010637361128547668f8573b362c61b9e323d144db4915960f3df703b9d0de49 -> 0cb3dfa568f43a1611c3e430a4a17642d6cafc1fe80c5dce64689ce92b59d9e5
+~ __ZN15AppleAudioClock7Utility22getClockDomainOverrideEPK9IOService -> sub_fffffe00088af0d0 : sha256 d8e131f3b6b2f3b6d80bc62dd8fed2a76f0e6d524a4086329f1ffa3067c223f2 -> c6ba2bc1eb7ef2040d35b02dd3108d5d693b782b1f41af4cf478340a6a8f3e8e
+~ sub_fffffe00086c8c70 -> sub_fffffe00088af0e0 : sha256 4904a838841b45bbecb3494e87472b45f3b2199fd6cd4862951d61be6a161310 -> 8b767d470895d5cd2560f9774cd22e5d0eef56669d7c63c5d4ff86144fcfbbb1
+~ sub_fffffe00086c8c94 -> sub_fffffe00088af104 : sha256 b13a6a9088d9777fe6a8b883486aa8069b209004b521d47ec3496cd7f3b71709 -> 3e58829e9fe7b1fd84d7380eeffd94552d2635cb676e3557ba6fd1caffaf7b01
+~ sub_fffffe00086c8ca8 -> sub_fffffe00088af118 : sha256 ea437d509eef35c9de4cff14f2f53fcdb8cb511b0c6392eacbb183b15b087040 -> 5d1b7c58d42be0244ba5d9ccb85c2170cecbb1cc7ed5e6936d03680a4ec9d042
+~ sub_fffffe00086c8cbc -> sub_fffffe00088af12c : sha256 98bf80e2e970a0be5942f471e4479a490ae11cf7e57f41f160e86b87533836dd -> 5717e43692291aa68759499503f0c182aea2b3a459391b36a7fed9d8c8fcfefd
+~ sub_fffffe00086c8cd0 -> sub_fffffe00088af140 : sha256 7be8318ce6334d1c7126a126bc5039f8564588012775c0f43c6c7e42ae9e928d -> e6e339e017beb61c11430e5773145cb9fc141322d57275807f4756d1550c08a2
+
+```

@@ -5,39 +5,40 @@
 ```diff
 
 -427.0.0.0.0
--  __TEXT.__text: 0x3fec
--  __TEXT.__auth_stubs: 0x4e0
--  __TEXT.__const: 0xa0
--  __TEXT.__gcc_except_tab: 0xec
--  __TEXT.__cstring: 0x11b
--  __TEXT.__oslogstring: 0x771
--  __TEXT.__unwind_info: 0x180
--  __TEXT.__objc_classname: 0x1
--  __TEXT.__objc_methname: 0x24b
--  __TEXT.__objc_stubs: 0x380
--  __DATA_CONST.__got: 0x70
--  __DATA_CONST.__const: 0x188
+-  __TEXT.__text: 0x3fec sha256:3a8655db9e1614c647a4a4d0ac63264fb2064c16dda618c810298410516b7839
+-  __TEXT.__auth_stubs: 0x4e0 sha256:8b8e661c4ab1c04ee727d84acdacb935268c00f40d3a184f46cc062024b462a1
+-  __TEXT.__const: 0xa0 sha256:dd576c5092d351c55aa60893cf42cd942a113aea16c78d4556409891ffd798dc
+-  __TEXT.__gcc_except_tab: 0xec sha256:bfefdb1462f74acce6195debbeb9e43f2905ff88c397353b08017cd1327dcb02
+-  __TEXT.__cstring: 0x11b sha256:4335a9bf8aed988eb9feb6790c0f0156f0436c62d8a367e5ba40dde19768768e
+-  __TEXT.__oslogstring: 0x771 sha256:1884ce6fc1999ed00396474a5b256af75e927ec68677b240d5829f4f13613fcf
+-  __TEXT.__unwind_info: 0x180 sha256:04ad00885bde2906ac6c9e98e595a15c282e44c229f012f36bdb7ce1221e10ba
+-  __TEXT.__objc_classname: 0x1 sha256:6e340b9cffb37a989ca544e6bb780a2c78901d3fb33738768511a30617afa01d
+-  __TEXT.__objc_methname: 0x24b sha256:fed7e8b507cdc192b8520aab4c0502bbf5e2e1ee40557de2003c457b1d045e5b
+-  __TEXT.__objc_stubs: 0x380 sha256:898d03d09936b8092f6c0d0b1ecf437b96d1b0cd09ff2ea91137c226448df847
+-  __DATA_CONST.__got: 0x70 sha256:b5fdab78d8947eacc864bfeecb4d2100780e5afe1cd8efafb124887913ac49fa
+-  __DATA_CONST.__const: 0x188 sha256:9cd815905a8718cef8e4115870c8de9732a6aa5832e8441f6f29946d62ab3d95
 +434.0.0.0.0
-+  __TEXT.__text: 0x4788
-+  __TEXT.__const: 0xa8
-+  __TEXT.__gcc_except_tab: 0x1a4
-+  __TEXT.__cstring: 0x4b8
-+  __TEXT.__oslogstring: 0x97b
-+  __TEXT.__unwind_info: 0x1a0
++  __TEXT.__text: 0x4788 sha256:f577a055f1552da5da130d909f39ab1117baaefede9fab8abce42672a84f9591
++  __TEXT.__const: 0xa8 sha256:f37681378bafc83bd3a43bba6717615acff3e84ee5c19f3cfc74c557cf901f3d
++  __TEXT.__gcc_except_tab: 0x1a4 sha256:25f95a5cebbc689d96cf47192f266e8acf783a0b35b4f6487da630a8287571e3
++  __TEXT.__cstring: 0x4b8 sha256:fcee42aed5da9a93a448ff90ad8620839a4424384720eabe7de9a1bf4d4df606
++  __TEXT.__oslogstring: 0x97b sha256:5725591ce5c8fea3a07f0f2e3f4b28b2bcc9666b7cb36881d420949df511a168
++  __TEXT.__unwind_info: 0x1a0 sha256:b3eefca937ccf2e94b93e5d1f7ff1f48cd276d0ccc3963c2f6883206667d9479
 +  __TEXT.__objc_stubs: 0x0
 +  __TEXT.__auth_stubs: 0x0
 +  __TEXT.__objc_methname: 0x0
-+  __DATA_CONST.__const: 0x1f8
-   __DATA_CONST.__objc_imageinfo: 0x8
--  __DATA_CONST.__objc_selrefs: 0xe0
--  __AUTH_CONST.__auth_got: 0x280
-+  __DATA_CONST.__objc_selrefs: 0xb8
++  __DATA_CONST.__const: 0x1f8 sha256:7da419f3aa4b14f18469ad24a90727e15ad94b8c92ad5a3eac2fd1d8ebdbedc3
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0xe0 sha256:481fa93bccd688b513721e73151912d14ebf83c96a596c714b973e7cfc01de58
+-  __AUTH_CONST.__auth_got: 0x280 sha256:9e132485d5107211de325a45e7917cbe3e4b5b9cde3e4ee91d7d2102317759ee
+-  __AUTH_CONST.__cfstring: 0x180 sha256:a5d0ba9203412e1a80137c09ee7d5f090b6204bf7b6967d53f1bf41f17f6cadb
+-  __DATA.__bss: 0xc sha256:15ec7bf0b50732b49f8228e07d24365338f9e3ab994b00af08e5a3bffe55fd8b
++  __DATA_CONST.__objc_selrefs: 0xb8 sha256:6a2637b99dc05d08b9956e1f0168c9cb9054c3e34047bb5d08936bc3e39680af
 +  __DATA_CONST.__got: 0x0
-+  __AUTH_CONST.__const: 0x20
-   __AUTH_CONST.__cfstring: 0x180
--  __DATA.__bss: 0xc
++  __AUTH_CONST.__const: 0x20 sha256:34e5e8606911770c95ac77f96d61ef2dc89e58746eabd74b01caf945f1416e8f
++  __AUTH_CONST.__cfstring: 0x180 sha256:2cf3626b2fef3a8940c41d8c56bfc9bb7e6813d646ccd046f10f422e06e5a2a8
 +  __AUTH_CONST.__auth_got: 0x0
-+  __DATA.__bss: 0x10
++  __DATA.__bss: 0x10 sha256:374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/Foundation.framework/Foundation
    - /usr/lib/libSystem.B.dylib

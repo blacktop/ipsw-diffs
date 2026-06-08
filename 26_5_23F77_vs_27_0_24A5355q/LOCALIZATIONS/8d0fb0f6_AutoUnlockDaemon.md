@@ -1,0 +1,37 @@
+## AutoUnlockDaemon
+
+> `FileSystem/System/Library/PrivateFrameworks/AutoUnlockDaemon.framework/Localizable.loctable`
+
+```text
+en.CANCEL_BUTTON_TITLE = "Cancel"
+en.DISMISS = "Dismiss"
+en.GUEST_MODE_UNLOCK_PASSCODE_PROMPT_MESSAGE = "Enter your passcode to use your iPhone or iPad for Guest User."
+en.GUEST_MODE_UNLOCK_PASSCODE_PROMPT_TITLE = "Enable Guest User"
+en.LOCK = "Lock"
+en.MAC_UNLOCK_PHONE_ARM_PROMPT_APP_NAME = "iPhone Mirroring"
+en.MAC_UNLOCK_PHONE_ARM_PROMPT_MESSAGE = "Your Passcode is required to use %@."
+en.MAC_UNLOCK_PHONE_ARM_PROMPT_TITLE = "Enter Passcode"
+en.MAC_UNLOCK_PHONE_PASSCODE_PROMPT_FALLBACK_MESSAGE = "Enter your iPhone passcode to trust this Mac."
+en.MAC_UNLOCK_PHONE_PASSCODE_PROMPT_MESSAGE = "Enter your iPhone passcode to trust \"%@\"."
+en.MAC_UNLOCK_PHONE_PASSCODE_PROMPT_TITLE = "Enable %@"
+en.TRY_AGAIN = "Try Again"
+en.UNLOCK_FAILED_COMMUNICATION_BODY_XROS_PHONE = "Make sure your Apple Vision Pro is unlocked with Bluetooth turned on."
+en.UNLOCK_FAILED_COMMUNICATION_TITLE_XROS_PHONE = "Vision Pro Not Detected Nearby"
+en.UNLOCK_PASSCODE_REQUIRED_BODY_XROS_PHONE = "You can create a passcode in the Apple Vision Pro Settings app."
+en.UNLOCK_PASSCODE_REQUIRED_TITLE_XROS_PHONE = "Passcode on Vision Pro Required"
+en.VISION_UNLOCK_FAILURE_ALERT_BODY = "Make sure Vision Pro is turned on and has been unlocked within the past hour."
+en.VISION_UNLOCK_FAILURE_ALERT_TITLE = "Unable to communicate with Apple Vision Pro"
+en.VISION_UNLOCK_IPHONE_PASSCODE_PROMPT_TITLE = "Enable %@"
+en.VISION_UNLOCK_IPHONE_PROMPT_APP_NAME = "iPhone Auto Unlock"
+en.VISION_UNLOCK_IPHONE_PROMPT_FALLBACK_MESSAGE = "Enter your iPhone passcode to trust this Vision Pro."
+en.VISION_UNLOCK_IPHONE_PROMPT_MESSAGE = "Enter your iPhone passcode to trust \"%@\"."
+en.VISION_UNLOCK_IPHONE_UNLOCKED = "iPhone unlocked by Vision Pro"
+en.XROS_LOCKED_BODY = "Unlock your Apple Vision Pro and try again."
+en.XROS_LOCKED_TITLE = "Vision Pro Must Be Unlocked"
+en.XROS_UNLOCK_IPHONE_BLUETOOTH_OFF_BODY = "You can turn on Bluetooth in Control Center."
+en.XROS_UNLOCK_IPHONE_BLUETOOTH_OFF_TITLE = "iPhone Bluetooth Must be On"
+en.XROS_UNLOCK_IPHONE_NO_GUEST_MODE_BODY = "Pairing with Apple Vision Pro is not available when Guest User is on."
+en.XROS_UNLOCK_IPHONE_NO_GUEST_MODE_TITLE = "Pairing Unavailable"
+en.XROS_UNLOCK_IPHONE_NO_INTERNET_BODY = "Connect both iPhone and Apple Vision Pro to the internet and try again."
+en.XROS_UNLOCK_IPHONE_NO_INTERNET_TITLE = "No Internet Connection"
+```

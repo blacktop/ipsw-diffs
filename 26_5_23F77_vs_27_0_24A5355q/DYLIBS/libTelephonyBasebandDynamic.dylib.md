@@ -5,36 +5,40 @@
 ```diff
 
 -6392.0.0.0.0
--  __TEXT.__text: 0x5d98
--  __TEXT.__auth_stubs: 0x720
+-  __TEXT.__text: 0x5d98 sha256:2dab1e12e3b38ddf8259e8f08c32d5b77e0d6b481735096581789ec6279f420b
+-  __TEXT.__auth_stubs: 0x720 sha256:a669b0fecaa0cb43d1d5d04b3acd9759f43472e9a7e3316f24fc4143c7c10c6a
+-  __TEXT.__init_offsets: 0x4 sha256:8fef1161ec4e796cf786148db3e67bb13f330ad10e08af16a5b2add57e6b0f19
+-  __TEXT.__gcc_except_tab: 0x104 sha256:bb9fa8df4b8bfca53b357a0015533a58f652628d05bfd96af6fb1819403a9ce0
+-  __TEXT.__cstring: 0x2a15 sha256:48747058ac92044ba5676c23be3f083b3d97cf11a8d7d7050711d3e2faabd226
+-  __TEXT.__const: 0x50 sha256:723673aaff2b3f73bbae53df2439945c814df82fa0bfe1f9d063247e7f4783ba
+-  __TEXT.__oslogstring: 0x278 sha256:6a7ac04056d9d2b5c903dacc7ade6f8d5b980219f99850742e10dfa77f79acc2
+-  __TEXT.__unwind_info: 0x210 sha256:d32bef409bad7fcf21cd5a2e792c228441e9d3150ef7f02d87afb7fff2c0a6b1
+-  __DATA_CONST.__got: 0x78 sha256:7eb6cd0cb50763b285f39b3e66be5b518ed5262c15fc37fc338c0330b9e3b69a
+-  __DATA_CONST.__const: 0x250 sha256:880d8ed24373c691f9ccc2065e41f4e63f61ae10e686a92cfb48a35f5ca2e395
+-  __AUTH_CONST.__auth_got: 0x398 sha256:ea991ad1bb0d7c3694ff0bf886c132bede9cc8d5c1c6eb8ce9b934b34b434484
+-  __AUTH_CONST.__const: 0x1e0 sha256:bdb59f9004d69cd39fe9e73bd52d0fa8a7efe7dbb71fbb854ec5e764c5e93f41
+-  __AUTH_CONST.__cfstring: 0x80 sha256:44a50bb7e6b5b3ba36ce6ee27dba76369961dd88b8e1cd5c5ff83b021a765430
+-  __DATA.__bss: 0x4 sha256:df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119
+-  __DATA.__common: 0x10 sha256:374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb
 +6554.0.0.0.0
-+  __TEXT.__text: 0xb4e8
-   __TEXT.__init_offsets: 0x4
--  __TEXT.__gcc_except_tab: 0x104
--  __TEXT.__cstring: 0x2a15
--  __TEXT.__const: 0x50
--  __TEXT.__oslogstring: 0x278
--  __TEXT.__unwind_info: 0x210
--  __DATA_CONST.__got: 0x78
-+  __TEXT.__const: 0x80
-+  __TEXT.__gcc_except_tab: 0xcc
-+  __TEXT.__cstring: 0x2a6e
-+  __TEXT.__oslogstring: 0x19ae
-+  __TEXT.__unwind_info: 0x220
++  __TEXT.__text: 0xb4e8 sha256:4cdf041573f3d0f446d6b096510994d1e67b9478dab2e6063b954076afc06cb8
++  __TEXT.__init_offsets: 0x4 sha256:f8ae6099ea341e556008ac2a7da504a58f84ce0476badabd436bdccb1f2a6b48
++  __TEXT.__const: 0x80 sha256:440c5b3b26ef2302430df29901f30d03d049bc990e51cea924a92d66ab67c28b
++  __TEXT.__gcc_except_tab: 0xcc sha256:9ed72f7fbee46539e96cd045e15381850fea6f34ddbaf62af8b47c9ec3474714
++  __TEXT.__cstring: 0x2a6e sha256:1e58cc772f3c292b3f460c29803b725bcc5a3601da5209df150be9c15d1ca336
++  __TEXT.__oslogstring: 0x19ae sha256:5351f23e2f52abeaf40b5894afc62bacb64a91a121e2ed6ddb0b0920f3059dd1
++  __TEXT.__unwind_info: 0x220 sha256:0d3c85c57bd5189180aa133ac909f8c66c97fea9a160fc8c84e71595b9073768
 +  __TEXT.__auth_stubs: 0x0
-   __DATA_CONST.__const: 0x250
--  __AUTH_CONST.__auth_got: 0x398
++  __DATA_CONST.__const: 0x250 sha256:bdaaaa354f1ffba7e4e6ea2b8edc86cba15c94ee60f3079fc867813d9edd8015
 +  __DATA_CONST.__got: 0x0
-   __AUTH_CONST.__const: 0x1e0
-   __AUTH_CONST.__cfstring: 0x80
--  __DATA.__bss: 0x4
--  __DATA.__common: 0x10
-+  __AUTH_CONST.__weak_auth_got: 0x10
++  __AUTH_CONST.__const: 0x1e0 sha256:7046db7938120e7ac4d73dafd31dc46627b2648a1e19ae96f028c97eecd48f51
++  __AUTH_CONST.__cfstring: 0x80 sha256:13faa44e8cc9c8a1d95c7ef41c29b698412ab933cdc303277378fbbab9ec00cc
++  __AUTH_CONST.__weak_auth_got: 0x10 sha256:eea02642beb18481e7c20f71accafc70bde0c2fbe6d247660b04514b5f07518f
 +  __AUTH_CONST.__auth_got: 0x0
-   __DATA_DIRTY.__data: 0x10
--  __DATA_DIRTY.__bss: 0x70
--  __DATA_DIRTY.__common: 0x8
-+  __DATA_DIRTY.__bss: 0x90
+   __DATA_DIRTY.__data: 0x10 sha256:eba956dc8f5e792f083beb1e308446a00c07f6a663aebe3d3d7ecc6936d4a6ab
+-  __DATA_DIRTY.__bss: 0x70 sha256:b5fdab78d8947eacc864bfeecb4d2100780e5afe1cd8efafb124887913ac49fa
+-  __DATA_DIRTY.__common: 0x8 sha256:af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc
++  __DATA_DIRTY.__bss: 0x90 sha256:81c611f35bff79491538b2f7cf201c7597a661a5c549633541c62bdc8af1613f
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/IOKit.framework/Versions/A/IOKit
    - /usr/lib/libSystem.B.dylib

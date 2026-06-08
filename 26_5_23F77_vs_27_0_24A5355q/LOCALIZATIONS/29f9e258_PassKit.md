@@ -1,0 +1,58 @@
+## PassKit
+
+> `FileSystem/System/Library/Frameworks/PassKit.framework/PayWithRewards_Localizable.loctable`
+
+```diff
+
+ en.DASHBOARD_DETAILS_REWARDS_BALANCE_SUBTITLE_TYPE_POINTS = "%@ points"
+ en.LAST_UPDATED_FORMAT = "Updated %@"
+ en.PAYMENT_METHOD_BADGE_REWARDS = "Use Rewards"
++en.PAYMENT_OFFER_HUB_REWARDS_APPLIED_CASHBACK = "%@ in cash back applied"
++en.PAYMENT_OFFER_HUB_REWARDS_APPLIED_FALLBACK = "%@ in rewards applied"
++en.PAYMENT_OFFER_HUB_REWARDS_APPLIED_MILES = "%@ in miles applied"
++en.PAYMENT_OFFER_HUB_REWARDS_APPLIED_POINTS = "%@ in points applied"
++en.PAYMENT_OFFER_HUB_REWARDS_APPLIED_PROGRAM_CURRENCY_NAME = "%1$@ %2$@ applied"
++en.PAYMENT_OFFER_HUB_REWARDS_STATEMENT_CREDIT = "Will be shown as statement credit."
+ en.PAYMENT_OFFER_SELECTOR_REDEEM_REWARDS_APPLIED_BALANCE_TYPE_CASHBACK = "%@ applied"
+ en.PAYMENT_OFFER_SELECTOR_REDEEM_REWARDS_APPLIED_BALANCE_TYPE_MILES = "%1$@ (%2$@ miles) applied"
+ en.PAYMENT_OFFER_SELECTOR_REDEEM_REWARDS_APPLIED_BALANCE_TYPE_POINTS = "%1$@ (%2$@ points) applied"
+
+ en.PAYMENT_SHEET_OFFER_USE_REWARDS_SUBTITLE_TYPE_MILES = "%1$@: %2$@ miles"
+ en.PAYMENT_SHEET_OFFER_USE_REWARDS_SUBTITLE_TYPE_POINTS = "%1$@: %2$@ points"
+ en.PAYMENT_SHEET_OFFER_USE_REWARDS_SUBTITLE_TYPE_UNKNOWN = "%1$@: %2$@"
++en.PAYMENT_SHEET_REDEEM_REWARDS_AVAILABLE_TYPE_CASHBACK = "%@ Available"
++en.PAYMENT_SHEET_REDEEM_REWARDS_AVAILABLE_TYPE_MILES = "%@ Miles Available"
++en.PAYMENT_SHEET_REDEEM_REWARDS_AVAILABLE_TYPE_POINTS = "%@ Points Available"
++en.PAYMENT_SHEET_REDEEM_REWARDS_AVAILABLE_TYPE_UNKNOWN = "%@ Available"
+ en.PAYMENT_SHEET_REDEEM_REWARDS_BALANCE_TYPE_CASHBACK = "Balance: %@"
+ en.PAYMENT_SHEET_REDEEM_REWARDS_BALANCE_TYPE_MILES = "Balance: %1$@ miles (%2$@)"
+ en.PAYMENT_SHEET_REDEEM_REWARDS_BALANCE_TYPE_POINTS = "Balance: %1$@ points (%2$@)"
+ en.PAYMENT_SHEET_REDEEM_REWARDS_BALANCE_TYPE_UNKNOWN = "Balance: %@"
+ en.PAYMENT_SHEET_REDEEM_REWARDS_TERMS_LABEL = "Rewards will be applied as statement credit."
+ en.PAYMENT_SHEET_REDEEM_REWARDS_TERMS_LINK = "%@ Terms and Conditions"
++en.PAYMENT_SHEET_REWARDS_CURRENCY_STATEMENT_CREDITS = "%@ in statement credits"
++en.PAYMENT_SHEET_REWARDS_CURRENCY_USE_CASHBACK = "Use %@ Cash Back"
++en.PAYMENT_SHEET_REWARDS_CURRENCY_USE_CASHBACK_PROGRAM_NAME = "Use %1$@ %2$@"
++en.PAYMENT_SHEET_REWARDS_CURRENCY_USE_FALLBACK = "Use %@ in rewards"
++en.PAYMENT_SHEET_REWARDS_CURRENCY_USE_MILES = "Use %@ Miles"
++en.PAYMENT_SHEET_REWARDS_CURRENCY_USE_POINTS = "Use %@ Points"
++en.PAYMENT_SHEET_REWARDS_DETAILS_QUANTITY_VALUE_CASHBACK = "%@ Cashback"
++en.PAYMENT_SHEET_REWARDS_DETAILS_QUANTITY_VALUE_MILES = "%@ Miles"
++en.PAYMENT_SHEET_REWARDS_DETAILS_QUANTITY_VALUE_POINTS = "%@ Points"
++en.PAYMENT_SHEET_REWARDS_DETAILS_QUANTITY_VALUE_UNKNOWN = "%@"
+ en.PWR_BALANCE_DETAILS_FOOTER = "The available balance reflects rewards earned through your last statement."
++en.PWR_BALANCE_DETAILS_TITLE = "Rewards"
+ en.PWR_BALANCE_DETAILS_USE_REWARDS = "Use Rewards"
+ en.PWR_BALANCE_DETAILS_VIEW_AVAILABLE_BALANCE_TITLE = "Available Balance"
+ en.PWR_BALANCE_DETAILS_VIEW_NOT_REDEEMABLE_BALANCE_TITLE = "Not Redeemable Balance"
+
+ en.REWARDS_EXPLANATION_SCREEN_BODY = "When you apply rewards to Apple Pay purchases, the full purchase amount is due at checkout.\n\nYour payment card issuer will provide a statement credit equal to the value of the rewards used for the purchase."
+ en.REWARDS_EXPLANATION_SCREEN_CONTINUE = "Continue"
+ en.REWARDS_EXPLANATION_SCREEN_TITLE = "Using Payment Card Rewards with Apple Pay"
++en.REWARDS_FLOW_APPLY_REWARDS = "Apply Rewards"
++en.REWARDS_FLOW_LOADING = "Loading Rewards…"
+ en.TRANSACTION_DETAILS_FOOTER = "For information and status updates, visit your card’s rewards portal."
+ en.TRANSACTION_DETAILS_HEADER = "Rewards"
+ en.TRANSACTION_DETAILS_REWARDS_PROGRAM_USED = "%@ Used"
+
+```

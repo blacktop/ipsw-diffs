@@ -1,0 +1,37 @@
+## OptimizeYourHealthArticleLocalizable
+
+> `FileSystem/System/Library/Health/FeedItemPlugins/MenstrualCyclesAppPlugin.healthplugin/OptimizeYourHealthArticleLocalizable.loctable`
+
+```text
+en.ARTICLE_DESCRIPTION = "This new life stage requires a different approach to your health."
+en.ARTICLE_TITLE = "Navigating the Shifts That Come with Menopause"
+en.SECTION1_PARAGRAPH1 = "Menopause marks the end of your menstrual cycles and the beginning of a new chapter for your health."
+en.SECTION1_PARAGRAPH2 = "As your hormone levels shift, so do your body’s needs. This comes with real challenges, but it also comes with an opportunity to rethink your health and find your next path."
+en.SECTION2_HEADER = "How your health changes in menopause"
+en.SECTION2_LIST_ITEM1 = "Your blood pressure or cholesterol levels might go up. Estrogen helps keep your blood vessels flexible and your cholesterol in check. As you get older and your estrogen levels go down, you may develop hypertension (high blood pressure) or high cholesterol."
+en.SECTION2_LIST_ITEM2 = "Your bones can get more fragile. Estrogen is crucial for maintaining strong bones. With less of it, your risk of osteoporosis rises."
+en.SECTION2_LIST_ITEM3 = "Your body shape may change. As estrogen levels shift, your body starts storing more fat around your abdomen instead of in your hips and thighs. This raises your risk for heart disease and diabetes."
+en.SECTION2_LIST_ITEM4 = "You can lose muscle. Dropping hormones also means your muscles break down more quickly and don’t rebuild as easily as they once did."
+en.SECTION2_PARAGRAPH1 = "Once menopause hits, your estrogen and progesterone levels drop significantly, and that can have wide-ranging impacts. You might notice your pants fit differently, your sleep has gone sideways, or your doctor has a lot more to say about your heart health. Many parts of your body and health can be affected."
+en.SECTION2_PARAGRAPH2 = "Knowing that these changes are happening means you can take steps to address them. Small shifts in how you eat, move, and take care of yourself can help you stay healthy after menopause."
+en.SECTION3_HEADER = "Stay on top of checkups and screenings"
+en.SECTION3_PARAGRAPH1 = "Routine doctor visits and screenings are a good way to catch things early and monitor how your body is changing. Regularly getting your blood pressure, cholesterol, blood sugar, and bone density checked can help ensure nothing is missed."
+en.SECTION3_PARAGRAPH2 = "Screenings for breast, cervical, and colon cancer are also important as risks change as you age. Your doctor can help set a schedule that’s best for you based on your unique health history and risk factors."
+en.SECTION4_HEADER = "Tap into the power of exercise"
+en.SECTION4_PARAGRAPH1 = "Exercise is one of your biggest allies after menopause. Moving your body regularly can help hold off weight gain, slow down bone loss, improve your sleep, and may even help ease hot flashes. Try to get a good mix of cardio exercise—the kind that gets your heart rate up—along with strength training to help counteract muscle loss."
+en.SECTION5_HEADER = "Take a look at what you’re eating"
+en.SECTION5_LIST_ITEM1 = "Calcium and vitamin D for bone health"
+en.SECTION5_LIST_ITEM2 = "Fiber to help manage your weight and gut health"
+en.SECTION5_LIST_ITEM3 = "Healthy unsaturated fats to support your heart and brain"
+en.SECTION5_PARAGRAPH1 = "A Mediterranean-style diet is a great framework to follow—full of veggies, fruits, whole grains, olive oil, nuts, and lean proteins, like fish and seafood, which can help support your muscles."
+en.SECTION5_PARAGRAPH2 = "As estrogen declines, these other nutrients become critical, too:"
+en.SECTION6_HEADER = "Keep prioritizing your sleep"
+en.SECTION6_LIST_ITEM1 = "Go to bed and wake up around the same time every day."
+en.SECTION6_LIST_ITEM2 = "Try to get at least 7 hours of sleep each night."
+en.SECTION6_LIST_ITEM3 = "Cut back on eating or drinking anything caffeinated, especially after lunch, and avoid alcohol late in the day."
+en.SECTION6_PARAGRAPH1 = "If you had trouble sleeping during perimenopause, you might find it’s even trickier now. To keep your sleep on track, try following some tried-and-true advice."
+en.SECTION6_PARAGRAPH2 = "If you’re still tossing and turning, ask your doctor about treatment options that may help you fall asleep more easily, stay asleep longer, and reduce night sweats."
+en.SECTION7_PARAGRAPH1 = "And don’t forget about your mental wellbeing, too. It’s normal for your emotions and mood to feel unpredictable or even confusing during this time. Exercise can help, as well as making time to see friends and doing hobbies you love. Talking to a counselor or therapist can make a big difference, too."
+en.SECTION7_PARAGRAPH2 = "Managing the health changes that come with menopause may feel like a lot, but you don’t have to do it alone. Just focus on a few first steps and lean on your doctor to help you find what’s right for you."
+en.VIEW_TITLE = "Optimize Your Health"
+```

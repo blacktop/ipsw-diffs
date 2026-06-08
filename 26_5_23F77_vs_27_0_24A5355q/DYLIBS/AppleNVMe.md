@@ -5,25 +5,25 @@
 ```diff
 
 -819.120.3.0.0
--  __TEXT.__text: 0x9dc
--  __TEXT.__auth_stubs: 0x180
+-  __TEXT.__text: 0x9dc sha256:0814e6001d3d9f397ba24c569372aba34e82efee95a58fa6005b74ac0d33a062
+-  __TEXT.__auth_stubs: 0x180 sha256:3e6cbb618cb8e18834161e7b72d3aa3528501e6dd36e466bebc10d87914fc9fa
 +876.0.0.0.0
-+  __TEXT.__text: 0x22d0
-   __TEXT.__const: 0x40
--  __TEXT.__cstring: 0x3a6
--  __TEXT.__unwind_info: 0x88
--  __DATA_CONST.__got: 0x40
--  __AUTH_CONST.__auth_got: 0xc0
--  __AUTH_CONST.__cfstring: 0x60
--  __DATA.__data: 0x80
-+  __TEXT.__cstring: 0xbaa
-+  __TEXT.__unwind_info: 0xc8
++  __TEXT.__text: 0x22d0 sha256:35448eb421dd58225dc3c58d389d714d977e5d61d7eb73f0bd8d68eb492f598d
+   __TEXT.__const: 0x40 sha256:42cccc03d09da1a6df0e5e73fa5b3feff041d993408c193356b9a8140b2e79b5
+-  __TEXT.__cstring: 0x3a6 sha256:9ade036b4049a9029469d640f8ef679c3c6bc7365a0eb8b0e196f930089e9eec
+-  __TEXT.__unwind_info: 0x88 sha256:dfb26a2b67bbb182ee5c91ac90a0cabbe56fcaafbf9e90f467dfe39047e6626c
+-  __DATA_CONST.__got: 0x40 sha256:f5a5fd42d16a20302798ef6ed309979b43003d2320d9f0e8ea9831a92759fb4b
+-  __AUTH_CONST.__auth_got: 0xc0 sha256:5d89f056865052bcb89c910d2d62872e029fb273c3db03f8968a52a41593c1b5
+-  __AUTH_CONST.__cfstring: 0x60 sha256:29803f323d8c51c0aaeb9f40c16239f2a0ca4ee316a445075b01f47bfa7aca8e
+-  __DATA.__data: 0x80 sha256:0740181dbac54eda60de84eda18a2c4fa1cdd8ba69edfc3b9c3b9a8dfa1490ae
++  __TEXT.__cstring: 0xbaa sha256:82b9783fff403c1891638f35b88591847b6f237c562d7d64a909c41f263b2850
++  __TEXT.__unwind_info: 0xc8 sha256:a79d16cccd74b746a8e391e41f30989cc1c8eac9833fa34e588133292e049893
 +  __TEXT.__auth_stubs: 0x0
-+  __DATA_CONST.__const: 0xd8
++  __DATA_CONST.__const: 0xd8 sha256:924dbf53359978e5bc3f9b6566bdafbe7a6d9a1622b74601d074f9a2f1108785
 +  __DATA_CONST.__got: 0x0
-+  __AUTH_CONST.__cfstring: 0x140
++  __AUTH_CONST.__cfstring: 0x140 sha256:d96d65853629fb25cea30a553662db461f414d84f70fdd9dc7bbe78472b59aa7
 +  __AUTH_CONST.__auth_got: 0x0
-+  __DATA.__data: 0x8
++  __DATA.__data: 0x8 sha256:38e3b02accbce65a83bc12f0922a0f2e8ea63e9436772b2b04874916d3fdb128
    - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
    - /System/Library/Frameworks/IOKit.framework/Versions/A/IOKit
    - /usr/lib/libSystem.B.dylib

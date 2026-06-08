@@ -1,0 +1,52 @@
+## DateAndTime
+
+> `FileSystem/System/Library/PreferenceBundles/DateAndTime.bundle/Localizable.loctable`
+
+```diff
+
+ en. = ""
++en.%@ = "%@"
+ en.24-Hour Time = "24-Hour Time"
+ en.Automatic time zone accuracy is improved when Location Services is turned on. = "Automatic time zone accuracy is improved when Location Services is turned on."
++en.Choose City = "Choose City"
+ en.Date & Time = "Date \u0026 Time"
+ en.General = "General"
++en.Recently Used = "Recently Used"
+ en.Set Automatically = "Set Automatically"
++en.Set By = "Set By"
++en.Set Time Automatically = "Set Time Automatically"
++en.Set Time Zone Automatically = "Set Time Zone Automatically"
+ en.Setting the time zone automatically requires turning on Location Services. = "Setting the time zone automatically requires turning on Location Services."
+ en.Setting the time zone automatically requires turning on WLAN and Location Services. = "Setting the time zone automatically requires turning on WLAN and Location Services."
+ en.Setting the time zone automatically requires turning on WLAN. = "Setting the time zone automatically requires turning on WLAN."
+
+ en.Setting the time zone automatically requires turning on Wi-Fi. = "Setting the time zone automatically requires turning on Wi-Fi."
+ en.Show AM/PM in Status Bar = "Show AM/PM in Status Bar"
+ en.Show Date in Status Bar = "Show Date in Status Bar"
++en.The time can not be set manually due to device restrictions. = "The time can not be set manually due to device restrictions."
++en.The time on your device is currently not accurate. This may cause issues with apps, websites, and security features..NSStringDeviceSpecificRuleType.applevision = "The time on your Vision Pro is currently not accurate. This may cause issues with apps, websites, and security features."
++en.The time on your device is currently not accurate. This may cause issues with apps, websites, and security features..NSStringDeviceSpecificRuleType.ipad = "The time on your iPad is currently not accurate. This may cause issues with apps, websites, and security features."
++en.The time on your device is currently not accurate. This may cause issues with apps, websites, and security features..NSStringDeviceSpecificRuleType.iphone = "The time on your iPhone is currently not accurate. This may cause issues with apps, websites, and security features."
++en.The time on your device is currently not accurate. This may cause issues with apps, websites, and security features..NSStringDeviceSpecificRuleType.other = "The time on your device is currently not accurate. This may cause issues with apps, websites, and security features."
+ en.The time zone can not be set manually due to device restrictions. = "The time zone can not be set manually due to device restrictions."
+ en.Time Zone = "Time Zone"
++en.Time Zone City = "Time Zone City"
++en.Time Zone Offset = "Time Zone Offset"
+ en.Updated time zone definitions are available and will be installed the next time your device restarts..NSStringDeviceSpecificRuleType.applevision = "Updated time zone definitions are available and will be installed the next time Apple Vision Pro restarts."
+ en.Updated time zone definitions are available and will be installed the next time your device restarts..NSStringDeviceSpecificRuleType.ipad = "Updated time zone definitions are available and will be installed the next time iPad restarts."
+ en.Updated time zone definitions are available and will be installed the next time your device restarts..NSStringDeviceSpecificRuleType.iphone = "Updated time zone definitions are available and will be installed the next time iPhone restarts."
++en.Your device can use local internet and cellular networks to keep the time and date accurate for you..NSStringDeviceSpecificRuleType.ipad = "Your iPad can use local internet and cellular networks to keep the time and date accurate for you."
++en.Your device can use local internet and cellular networks to keep the time and date accurate for you..NSStringDeviceSpecificRuleType.iphone = "Your iPhone can use local internet and cellular networks to keep the time and date accurate for you."
++en.Your device can use local internet and cellular networks to keep the time and date accurate for you..NSStringDeviceSpecificRuleType.other = "Your device can use local internet and cellular networks to keep the time and date accurate for you."
++en.Your device can use local internet to keep the time and date accurate for you..NSStringDeviceSpecificRuleType.applevision = "Your Vision Pro can use local internet to keep the time and date accurate for you."
++en.Your device can use local internet to keep the time and date accurate for you..NSStringDeviceSpecificRuleType.ipad = "Your iPad can use local internet to keep the time and date accurate for you."
++en.Your device can use local internet to keep the time and date accurate for you..NSStringDeviceSpecificRuleType.other = "Your device can use local internet to keep the time and date accurate for you."
++en.Your device can use location services and cellular networks to automatically update your time zone..NSStringDeviceSpecificRuleType.ipad = "Your iPad can use location services and cellular networks to automatically update your time zone."
++en.Your device can use location services and cellular networks to automatically update your time zone..NSStringDeviceSpecificRuleType.iphone = "Your iPhone can use location services and cellular networks to automatically update your time zone."
++en.Your device can use location services and cellular networks to automatically update your time zone..NSStringDeviceSpecificRuleType.other = "Your device can use location services and cellular networks to automatically update your time zone."
++en.Your device can use location services to automatically update your time zone..NSStringDeviceSpecificRuleType.applevision = "Your Vision Pro can use location services to automatically update your time zone."
++en.Your device can use location services to automatically update your time zone..NSStringDeviceSpecificRuleType.ipad = "Your iPad can use location services to automatically update your time zone."
++en.Your device can use location services to automatically update your time zone..NSStringDeviceSpecificRuleType.iphone = "Your iPhone can use location services to automatically update your time zone."
++en.Your device can use location services to automatically update your time zone..NSStringDeviceSpecificRuleType.other = "Your device can use location services to automatically update your time zone."
+
+```

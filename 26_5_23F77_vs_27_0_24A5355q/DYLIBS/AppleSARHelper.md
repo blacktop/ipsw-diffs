@@ -5,36 +5,37 @@
 ```diff
 
 -1418.1.0.0.0
--  __TEXT.__text: 0x1b34
--  __TEXT.__auth_stubs: 0x2a0
--  __TEXT.__const: 0xeb
--  __TEXT.__cstring: 0x51f
--  __TEXT.__gcc_except_tab: 0x138
--  __TEXT.__oslogstring: 0x1cc
--  __TEXT.__unwind_info: 0x150
--  __DATA_CONST.__got: 0x48
--  __DATA_CONST.__const: 0x2c0
--  __AUTH_CONST.__auth_got: 0x158
+-  __TEXT.__text: 0x1b34 sha256:499fb6e14850b6381ea972ec26c53845254276daae25c0a56d0c5c79cfe8f8d8
+-  __TEXT.__auth_stubs: 0x2a0 sha256:65a3f63037db431a4556c067fec88bba85cde8af1960f03f10d3ffde76d14543
+-  __TEXT.__const: 0xeb sha256:5cf0065250d5a4e2acec998416a17e09680797b81bf168fedeb368524533bcc8
+-  __TEXT.__cstring: 0x51f sha256:151ac4eb26c1def89e6f906736e1c789d25437f773c07f49ca5375ec335fb9c6
+-  __TEXT.__gcc_except_tab: 0x138 sha256:de63be412a32e9ef6e6fb38913654c0e82f0d8ba1319442233254465fb91afcf
+-  __TEXT.__oslogstring: 0x1cc sha256:ec6dfe6fbf9e70820ab56c2c7b289cdebe042a2c386270615e3a7b3efc2070af
+-  __TEXT.__unwind_info: 0x150 sha256:2ef3099feec10c668fc8ecd540278fbeb6fda276438a87ac478dd56a8afbe748
+-  __DATA_CONST.__got: 0x48 sha256:2c01e8330fc0bf1fb7a9d7227d8f40a41b7c550e32d80feb3dbfca5935c87cfd
+-  __DATA_CONST.__const: 0x2c0 sha256:9ee4799da7000eb0162ddc802400f8bffba7954820868e18891d0db805317322
+-  __AUTH_CONST.__auth_got: 0x158 sha256:80ea36d843f575b0e08aa2701f741b24adcd7eb3e03ba977ccf93e2d45a706a9
+-  __AUTH_CONST.__const: 0xc0 sha256:8fb5329d1a534991441e0dc4bdcb4d51bf152c466ec4951f43f5e260708452e1
 +1563.0.0.0.0
-+  __TEXT.__text: 0x4b84
-+  __TEXT.__init_offsets: 0x4
-+  __TEXT.__const: 0xf0
-+  __TEXT.__cstring: 0x6ee
-+  __TEXT.__gcc_except_tab: 0x25c
-+  __TEXT.__oslogstring: 0x2cb
-+  __TEXT.__unwind_info: 0x1e8
++  __TEXT.__text: 0x4b84 sha256:3bb7aa61d460b4843a22594bf7e4e73412e2678b44e7fb405110c2bdc4e4df13
++  __TEXT.__init_offsets: 0x4 sha256:ebe4200e2a997659ce669039930ecbb391d347f84fa0fbdfe3440d12d137cb1f
++  __TEXT.__const: 0xf0 sha256:fa4ba7998f7d71c54096b7024026d3285b360a759d31571bf35033d20ea5e2f1
++  __TEXT.__cstring: 0x6ee sha256:aa2a591e81b67190da04ef8e750909f7f6d7702df7ba1e3ba9ba76d743ff866b
++  __TEXT.__gcc_except_tab: 0x25c sha256:2376f4d3920b9e5027f345e2819880ea8f0db1542fb82c421bb4fa18446aab89
++  __TEXT.__oslogstring: 0x2cb sha256:69bf4c39f1dc73190309555e105ee1a01ba3c586c385b35674b280ca29fec628
++  __TEXT.__unwind_info: 0x1e8 sha256:030b6b0c5f89af0525e9d65c8d5b06ac135c43c39a0e6b00cccea85178f253d5
 +  __TEXT.__auth_stubs: 0x0
-+  __DATA_CONST.__const: 0xa70
-+  __DATA_CONST.__weak_got: 0x28
++  __DATA_CONST.__const: 0xa70 sha256:e63f0440704535e6d06eb20b45f0850b29b8a88cd0fab67e40fd9ff5bdc7a54c
++  __DATA_CONST.__weak_got: 0x28 sha256:88c7c63b737bfa670c98e4363b3f3c861dbcc4fb04896b96e5947dce9ca51560
 +  __DATA_CONST.__got: 0x0
-   __AUTH_CONST.__const: 0xc0
-+  __AUTH_CONST.__weak_auth_got: 0x10
++  __AUTH_CONST.__const: 0xc0 sha256:329009a175e35a787a49a49e7ba90e0540b63eee812319fef8ebb9e1fe00348d
++  __AUTH_CONST.__weak_auth_got: 0x10 sha256:290149e422ec40b0273600157a594a1152f2acf9916597016a24319850a9d2db
 +  __AUTH_CONST.__auth_got: 0x0
-+  __DATA.__data: 0x450
-   __DATA.__bss: 0x400
--  __DATA_DIRTY.__bss: 0x40
-+  __DATA_DIRTY.__data: 0x8
-+  __DATA_DIRTY.__bss: 0x448
++  __DATA.__data: 0x450 sha256:e668dee74b2d07a09cc1cbe3dee45e438e9ea5ed4f1453b48c910cf6f7d236c0
+   __DATA.__bss: 0x400 sha256:5f70bf18a086007016e948b04aed3b82103a36bea41755b6cddfaf10ace3c6ef
+-  __DATA_DIRTY.__bss: 0x40 sha256:f5a5fd42d16a20302798ef6ed309979b43003d2320d9f0e8ea9831a92759fb4b
++  __DATA_DIRTY.__data: 0x8 sha256:af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc
++  __DATA_DIRTY.__bss: 0x448 sha256:5eebf4d5a9061c19c2ff04fa54c5bab61039354420847de2548a93fea74c458c
    - /System/Library/Frameworks/IOKit.framework/Versions/A/IOKit
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libTelephonyUtilDynamic.dylib

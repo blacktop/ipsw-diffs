@@ -1,0 +1,15 @@
+## PodcastsSettingsPlugin
+
+> `FileSystem/System/Library/PreferenceBundles/PodcastsSettingsPlugin.bundle/Localizable.loctable`
+
+```diff
+
+ en.AUTOMATICALLY_DOWNLOAD = "AUTOMATICALLY_DOWNLOAD"
+ en.AUTO_DOWNLOAD_TIP = "AUTO_DOWNLOAD_TIP"
+-en.Back = "Backwards"
++en.Back = "Back"
+ en.CONTINUOUS_PLAYBACK_DISABLED_MAC = "CONTINUOUS_PLAYBACK_DISABLED_MAC"
+ en.CONTINUOUS_PLAYBACK_ENABLED_MAC = "CONTINUOUS_PLAYBACK_ENABLED_MAC"
+ en.CONTINUOUS_PLAYBACK_HEADER_MAC = "CONTINUOUS_PLAYBACK_HEADER_MAC"
+
+```

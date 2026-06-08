@@ -1,0 +1,56 @@
+## MobileCalSettings
+
+> `FileSystem/System/Library/PreferenceBundles/MobileCalSettings.bundle/MobileCalSettings.loctable`
+
+```diff
+
+ en.Accounts I can access group title = "Accounts I can access:"
+ en.Accounts with access to me explanatory note = "Manage who has access to your calendars."
+ en.Accounts with access to me group title = "Allow access to my calendar:"
+-en.Add or remove accounts, manage Siri & Search, and customize how your calendar appears. [Learn more…](%@) = "Add or remove accounts, manage Siri \u0026 Search, and customize how your calendar appears. [Learn more…](%@)"
++en.Add or remove accounts, manage Siri & Search, and customize how your calendar appears..NSStringDeviceSpecificRuleType.ipad = "Add or remove accounts, manage Siri \u0026 Search, and customize how your calendar appears. [Learn more…](helpkit://open?topic=ipad581be0bc)"
++en.Add or remove accounts, manage Siri & Search, and customize how your calendar appears..NSStringDeviceSpecificRuleType.iphone = "Add or remove accounts, manage Siri \u0026 Search, and customize how your calendar appears. [Learn more…](helpkit://open?topic=iphc37be2016)"
++en.Add or remove accounts, manage Siri & Search, and customize how your calendar appears..NSStringDeviceSpecificRuleType.other = "Add or remove accounts, manage Siri \u0026 Search, and customize how your calendar appears."
+ en.All-Day Events = "All-Day Events"
+ en.Alternate Calendar Off = "Off"
+ en.Alternate Calendars = "Alternate Calendars"
+
+ en.Calendar Time Zone (iPad) = "Time Zone"
+ en.Calendar Time Zone = "Time Zone"
+ en.CalendarSettingsPlacard_Calendar = "Calendar"
++en.Configured by device management = "Configured by device management"
+ en.Confirm delete delegate alert sheet cancel button = "Cancel"
+ en.Confirm delete delegate alert sheet delete button = "Remove Delegate"
+ en.Confirm delete delegate alert sheet description = "Removing this delegate will remove their read and write access to your account."
+
+ en.None Alert = "None"
+ en.Off = "Off"
+ en.On = "On"
++en.Open Siri Settings = "Open Siri Settings"
+ en.Receive system notifications for this account. Notifications will always appear in the inbox. = "Receive system notifications for this account. Notifications will always appear in the inbox."
+ en.Remove delegate name = "Remove Delegate"
+ en.Save = "Save"
+ en.Show Delegation Calendar = "Show Delegation Calendar"
+ en.Show Invitee Declines = "Show Invitee Declines"
+ en.Show Notifications = "Show Notifications"
++en.Smart Event Details = "Smart Event Details"
++en.Smart Event Details requires Siri. %@ = "Smart Event Details requires Siri. %@"
+ en.Start Week On = "Start Week On"
+ en.Sync Specifier Name = "Sync"
+ en.System Setting (%@) = "System Setting (%@)"
+ en.System setting week start = "%@ (System Setting)"
+ en.This setting will apply in Calendar only. Other apps will use the system setting. = "This setting will apply in Calendar only. Other apps will use the system setting."
+ en.Time Zone Override = "Time Zone Override"
+-en.Time Zone Override Cell Title (iPad) = "Time Zone Override"
+ en.Time Zone Override Cell Title = "Time Zone Override"
+ en.Time Zone Override Text = "The Time Zone Override always shows event dates and times in the selected time zone.\n\nWhen off, events will display according to the time zone of your current location."
+ en.Time Zone Region Off = "Off"
+ en.Time Zone Support Off = "Off"
+ en.Time to Leave = "Time to Leave"
+ en.Timed Event = "Events"
++en.Type events in your own words. Apple Intelligence fills in the title, time, location, and invitees as you go. = "Type events in your own words. Apple Intelligence fills in the title, time, location, and invitees as you go."
+ en.View & Edit = "View \u0026 Edit"
+ en.View Only = "View Only"
+ en.View Only delegates will not receive notifications in the inbox or receive system notifications. = "View Only delegates will not receive notifications in the inbox or receive system notifications."
+
+```

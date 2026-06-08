@@ -5,37 +5,39 @@
 ```diff
 
 -3102.120.13.0.0
--  __TEXT.__text: 0x5d98
--  __TEXT.__auth_stubs: 0xb30
--  __TEXT.__const: 0x80
--  __TEXT.__cstring: 0xd67
--  __TEXT.__oslogstring: 0x1692
+-  __TEXT.__text: 0x5d98 sha256:9934742c93e323b84c1c6b0e08358f08d25e0e7e3949059ab8891d88ce6f581b
+-  __TEXT.__auth_stubs: 0xb30 sha256:577a8f89cf70f4394f35a597dd3c796ffb91e3bab6e0ad5651756c027601b0c4
+-  __TEXT.__const: 0x80 sha256:ede4ecf3de3e7adf6e565f67be7fcf919637d2662a4a170c88efeff7c4086a8f
+-  __TEXT.__cstring: 0xd67 sha256:41b88d15236d12990427ba64dc8fe759f7b5e2f35241fba51bbda7b73ba575d2
+-  __TEXT.__oslogstring: 0x1692 sha256:4d0fa5f2956669300079d03818168d8677f61ee749e2f674a4da8ea1522aae02
 +3295.0.0.502.1
-+  __TEXT.__text: 0x98a8
-+  __TEXT.__auth_stubs: 0xb00
-+  __TEXT.__lazy_helpers: 0x150
-+  __TEXT.__const: 0x190
-   __TEXT.__xpcproxy: 0x1
-+  __TEXT.__oslogstring: 0x1696
-+  __TEXT.__cstring: 0x19da
-   __TEXT.__dof_launchd: 0x2e5
--  __TEXT.__unwind_info: 0x140
--  __DATA_CONST.__auth_got: 0x598
--  __DATA_CONST.__got: 0x90
--  __DATA_CONST.__const: 0x188
-+  __TEXT.__unwind_info: 0x178
-+  __DATA_CONST.__const: 0x248
-+  __DATA_CONST.__auth_got: 0x580
-+  __DATA_CONST.__got: 0x88
-+  __DATA.__lazy_load_got: 0x20
-   __DATA.__os_assumes_log: 0x8
--  __DATA.__data: 0x20
-+  __DATA.__data: 0x24
-   __DATA.__crash_info: 0x148
--  __DATA.__bss: 0x91
++  __TEXT.__text: 0x98a8 sha256:4858a5d333209d30cb191e089389ee37b262177c59be15bc40585ea32d07696c
++  __TEXT.__auth_stubs: 0xb00 sha256:b161e5e4cacddebb108562603e53f0d23525c437074a509d101af6849e404dd8
++  __TEXT.__lazy_helpers: 0x150 sha256:e5cafcd99a3c3f24ba9c3a8ad393158fab2f0bd1a406fca5118e1af001107c46
++  __TEXT.__const: 0x190 sha256:4bb854e623f68ae705eb2cbe6a4de6ce830ec75e908504d1f4a660ed0b92bedd
+   __TEXT.__xpcproxy: 0x1 sha256:4bf5122f344554c53bde2ebb8cd2b7e3d1600ad631c385a5d7cce23c7785459a
+-  __TEXT.__dof_launchd: 0x2e5 sha256:b906717f968eb8ba1d3772f6ed105ecbe9ec4d751326e5fc8818662df096ec75
+-  __TEXT.__unwind_info: 0x140 sha256:e2a91c9f699ea06bf555bf3bf23a19d0a2cbffb4818ffa806fa49fe2518bfe02
+-  __DATA_CONST.__auth_got: 0x598 sha256:64108c45cdabe7b34da3c788b212d522fa39c215950bcae8a8386a5b00ca425f
+-  __DATA_CONST.__got: 0x90 sha256:be408e32425fd4bc7e2f53e6a979479ed55de39b1256560918df4f8b319ecd79
+-  __DATA_CONST.__const: 0x188 sha256:fa65ef93e6caae8e7729a6c786bee8dffffffeb81364c8b630c711765caeb843
+-  __DATA.__os_assumes_log: 0x8 sha256:536b6a007b2ac6a8d64586cfb2b0a082b9b8100ad8480989e478f1c719a85932
+-  __DATA.__data: 0x20 sha256:b7ec72d1762fab289d51ddd50421800728e2a9b97fdde74b83c56a68c63cf47a
++  __TEXT.__oslogstring: 0x1696 sha256:807ffc965eb221d2e610fe6cecd04d7ea5e8fead1c1f49f408d9ce0fffeacdac
++  __TEXT.__cstring: 0x19da sha256:c6ab69c23b2552914108a4c0100185ef89ec2b8b8b6c82a05120144609729104
++  __TEXT.__dof_launchd: 0x2e5 sha256:5b73ed2424117db3a028b94693685615696f35534880c2b468d8e55519ff8a78
++  __TEXT.__unwind_info: 0x178 sha256:2187cc845f2a806bafaa29f88873c22f5d25dd2636953f57a64530c3d911f7df
++  __DATA_CONST.__const: 0x248 sha256:e90067eafce0fd5b995367ae0167d6e420e2d422556c0a23b3b4df47bc483f40
++  __DATA_CONST.__auth_got: 0x580 sha256:b06439eb98e9373b2e46de6237f1c238cc06cdd5145d483aa3fc78965f75e99c
++  __DATA_CONST.__got: 0x88 sha256:7f1f796a47ae8a09d56fa2b0c5e4bf9114e7b46a071d1d5ca0fcd996cdc99701
++  __DATA.__lazy_load_got: 0x20 sha256:67db376862b3c97a7891a07dbd40412d40fc492e6e3036284d228ba01a1a58ec
++  __DATA.__os_assumes_log: 0x8 sha256:6e5b8f37d49aaac9fb4753a4e642d4d428f238ed916f870235e0dcad7f7dc2fa
++  __DATA.__data: 0x24 sha256:eb81084f2823a0779393c4deee865a3a2b1fcfbacf92694fcca3896a33b0fb2a
+   __DATA.__crash_info: 0x148 sha256:6da6349e97370e8d430272961ce52dff296ff7c22208bd465045a16f557b12e4
+-  __DATA.__bss: 0x91 sha256:c38f1294a259a7e943728e76d1a9d2e0992d22f4cebf6de1fb42204e7126d19a
 -  - /usr/lib/libCoreEntitlements.dylib
-+  __DATA.__common: 0x1
-+  __DATA.__bss: 0x90
++  __DATA.__common: 0x1 sha256:6e340b9cffb37a989ca544e6bb780a2c78901d3fb33738768511a30617afa01d
++  __DATA.__bss: 0x90 sha256:81c611f35bff79491538b2f7cf201c7597a661a5c549633541c62bdc8af1613f
    - /usr/lib/libSystem.B.dylib
 -  - /usr/lib/libcryptex_trampoline.dylib
    - /usr/lib/libobjc.A.dylib

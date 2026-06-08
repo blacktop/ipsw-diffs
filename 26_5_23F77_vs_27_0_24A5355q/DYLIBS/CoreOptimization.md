@@ -5,22 +5,22 @@
 ```diff
 
  117.0.0.0.0
--  __TEXT.__text: 0x3c48
--  __TEXT.__auth_stubs: 0x230
-+  __TEXT.__text: 0x40e8
-   __TEXT.__const: 0x90
--  __TEXT.__gcc_except_tab: 0x4e8
-+  __TEXT.__gcc_except_tab: 0x4f8
-   __TEXT.__cstring: 0x2cf
--  __TEXT.__unwind_info: 0x180
--  __DATA_CONST.__got: 0x40
--  __AUTH_CONST.__auth_got: 0x120
-+  __TEXT.__unwind_info: 0x188
+-  __TEXT.__text: 0x3c48 sha256:f04c431c2e1c335511c60f1acefb89429bd93c0689deff08ad154e32733f9799
+-  __TEXT.__auth_stubs: 0x230 sha256:ad3ba055a0f6c43bb3b22e33e27bf2a26728feb4357112b38a852d381732651e
++  __TEXT.__text: 0x40e8 sha256:9bc6539450009de3a4aaac956bd59ed57f838d1f0d1e9160289a3cf93a56c4bc
+   __TEXT.__const: 0x90 sha256:3886ec238f608addb68af7c19b1190883dcba77a9d0dbf2541acc46bea8c2f35
+-  __TEXT.__gcc_except_tab: 0x4e8 sha256:4afb79f08fa5b0bc36030a3ba777bee7308b0d34114614ddaf21b3c7a13763d4
++  __TEXT.__gcc_except_tab: 0x4f8 sha256:704a1303009d1888328a20388fad73a843eeab5f6886ffabe0cec25442f25e57
+   __TEXT.__cstring: 0x2cf sha256:aa08f016ddf85c690ff37d029d093dc817c237a059d06c2f0e9b6982217e5859
+-  __TEXT.__unwind_info: 0x180 sha256:470464a2871ba9ada056a0f2f740a26983a828fe6e523828ecca7ebf6fbe5050
+-  __DATA_CONST.__got: 0x40 sha256:cb7e7d2f7ea01ab10f2e67c405c23487121be8c3267d14a3a28288032ec5372b
+-  __AUTH_CONST.__auth_got: 0x120 sha256:d10c77cada6df30fc7f82c521ada74e1b4ee8d9c2c547ccffc4065abcddf79e5
++  __TEXT.__unwind_info: 0x188 sha256:5edaaea890c7329bc13186dd547a90d2711aea0032f3c13eb7f2d6a10c625163
 +  __TEXT.__auth_stubs: 0x0
-+  __DATA_CONST.__weak_got: 0x8
++  __DATA_CONST.__weak_got: 0x8 sha256:8b01d53d4209f4d0e8d3b87f0c39dd167fa5cefec7a50c74265da1e12cf4a86c
 +  __DATA_CONST.__got: 0x0
-+  __AUTH_CONST.__weak_auth_got: 0x10
-+  __AUTH_CONST.__auth_got: 0x110
++  __AUTH_CONST.__weak_auth_got: 0x10 sha256:6b635af6d23ee392c047a6480980e1ba7550753db201ba917cccd17480827978
++  __AUTH_CONST.__auth_got: 0x110 sha256:e4d879a3407de578f579dfab4366fcea75a6649c683d9efe4f056f6505437574
    - /System/Library/Frameworks/Accelerate.framework/Accelerate
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib

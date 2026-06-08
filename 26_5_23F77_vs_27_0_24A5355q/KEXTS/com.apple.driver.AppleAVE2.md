@@ -5,37 +5,39 @@
 ```diff
 
 -905.36.1.0.0
--  __TEXT.__const: 0x42610
--  __TEXT.__cstring: 0x4064b
--  __TEXT.__os_log: 0x5254f
--  __TEXT_EXEC.__text: 0x19c58c
+-  __TEXT.__const: 0x42610 sha256:9e49b2572fea7a73348e27257a546bd6d0319c2208496a5287b42e7364580c22
+-  __TEXT.__cstring: 0x4064b sha256:76258d2d93cff3b2734b03802d6aa6880407c50190f68d3abd61f49652df473b
+-  __TEXT.__os_log: 0x5254f sha256:58b301ebedf5f925c4066bd54acba3aefbff86421e360b31662417a923722949
+-  __TEXT_EXEC.__text: 0x19c58c sha256:a092877bcc23387af82c66b88eb8166e22b4ec478ed8aa59c195f1c4091e7e74
 +912.89.1.0.0
-+  __TEXT.__const: 0x4b240
-+  __TEXT.__cstring: 0x46e4a
-+  __TEXT.__os_log: 0x5b67f
-+  __TEXT_EXEC.__text: 0x1c6a50
++  __TEXT.__const: 0x4b240 sha256:c7d130a86b55329925a26184d6d1bb102297fce0eead3dd4e04940554e662411
++  __TEXT.__cstring: 0x46e4a sha256:29fc07430589277d3a8229fd8949ba71fdf3aba37624eaec8f2a3fc4acaabe5e
++  __TEXT.__os_log: 0x5b67f sha256:5bb8202e38d9f5d8956ad2be36b6de50d4bc5a9ed4e4f29398a93967181ba9f2
++  __TEXT_EXEC.__text: 0x1c6a50 sha256:143df25b68ac5775336881c211c70b33725dccda876a1e916c24e7c3ca0bd74c
    __TEXT_EXEC.__auth_stubs: 0x0
--  __DATA.__data: 0x2b8
-+  __DATA.__data: 0x2c8
-   __DATA.__common: 0x130
--  __DATA.__bss: 0x3f0
--  __DATA_CONST.__auth_got: 0x3d0
--  __DATA_CONST.__got: 0xc8
--  __DATA_CONST.__auth_ptr: 0x8
-+  __DATA.__bss: 0x3c0
-   __DATA_CONST.__mod_init_func: 0x38
-   __DATA_CONST.__mod_term_func: 0x38
--  __DATA_CONST.__const: 0x8b60
--  __DATA_CONST.__kalloc_type: 0x4900
--  __DATA_CONST.__kalloc_var: 0x2030
+-  __DATA.__data: 0x2b8 sha256:f053d861133bd31d845cc00a18a63eaa657abd5122ac5619a5798596294ed28d
++  __DATA.__data: 0x2c8 sha256:2c8d7799bbb67b666859b7ef9d694246a861498bced706d561102f3e6df57208
+   __DATA.__common: 0x130 sha256:e2fc162ed9124452d23c85e81d60a0c228f414c3214a5de635737e25fbd29ac1
+-  __DATA.__bss: 0x3f0 sha256:a9e080790cc3b9e7a988324b4ec1cc1432a8f43cf897c78318943a0670f171f6
+-  __DATA_CONST.__auth_got: 0x3d0 sha256:3462c66890bb70b6cbba997f6dffd5afdb8af85a9a6d6748cd0c54dcfc5e4c35
+-  __DATA_CONST.__got: 0xc8 sha256:3013309ebb0e318699cdb48e33d42fd1548e40265b6de2edcb760aa1f38c8391
+-  __DATA_CONST.__auth_ptr: 0x8 sha256:8856082519efe08cd95d4cfff348f60f75713f9a336e968253ee27449e3b6072
+-  __DATA_CONST.__mod_init_func: 0x38 sha256:b2890d88b75965f0854406b1465a78a6152cdd2a25c68e5c2ae7404d72b29123
+-  __DATA_CONST.__mod_term_func: 0x38 sha256:e40436b1aeff89d20213ef693828a73191d807825b74d9db6b030a1d3ea1338e
+-  __DATA_CONST.__const: 0x8b60 sha256:50958c763ad14bdeb055c2af1ec00ac4eac5763f84e04bf54960e8137b24c180
+-  __DATA_CONST.__kalloc_type: 0x4900 sha256:d5e296c9f026078620f5bce24037b8fd1767a5523dca7284575ae6fa789d40c1
+-  __DATA_CONST.__kalloc_var: 0x2030 sha256:a938013bae65236b6519eeee208429985759ae3bdc90d64d95cc16a107bb3030
 -  UUID: EB022251-236E-37E5-A125-9D41B23031B2
 -  Functions: 2782
-+  __DATA_CONST.__const: 0xaff0
-+  __DATA_CONST.__kalloc_type: 0x5300
-+  __DATA_CONST.__kalloc_var: 0x1e00
-+  __DATA_CONST.__auth_got: 0x3d8
-+  __DATA_CONST.__got: 0xe8
-+  __DATA_CONST.__auth_ptr: 0x8
++  __DATA.__bss: 0x3c0 sha256:3dc463a76fc170607c07b104c3cb531362ce7d6e10c1a34e0c0f370aeae08ce8
++  __DATA_CONST.__mod_init_func: 0x38 sha256:6d8dbcd67a0a965053bd220abedde72f2e3aff35b69d1ab60a6a9bc872695177
++  __DATA_CONST.__mod_term_func: 0x38 sha256:e4fa3de23a632a7741f6f759b234955ef874d103d6092f317811b4c91bbe7034
++  __DATA_CONST.__const: 0xaff0 sha256:36045d7461046c1d8879896c66a7a83c7ba112317f9e317306442b1b417e2641
++  __DATA_CONST.__kalloc_type: 0x5300 sha256:3011391791ab79e4a2d990af0f47623bfd8dfc0c4d94ce3cbba8848c42792a79
++  __DATA_CONST.__kalloc_var: 0x1e00 sha256:7bcb70ff727c33ec6f27fb9b03b52c1c5fde1ce326f2857d564899579acd8470
++  __DATA_CONST.__auth_got: 0x3d8 sha256:78e715ef383f635faf3ae1f65df871816006bc573918f2d90794fa4a639f9060
++  __DATA_CONST.__got: 0xe8 sha256:a5c6b80588d40aae2a434e59752a7aed4bbdbf17e68fe03b7907e882c1e0ae2c
++  __DATA_CONST.__auth_ptr: 0x8 sha256:1649d5cf5a1076f338c67612cfcf5616ac951abee6cce719af2fcb7f366a5957
 +  UUID: E2BF715C-3842-3291-AA40-2075DABF2D95
 +  Functions: 2994
    Symbols:   0

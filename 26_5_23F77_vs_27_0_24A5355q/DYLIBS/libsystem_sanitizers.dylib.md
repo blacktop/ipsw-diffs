@@ -5,30 +5,32 @@
 ```diff
 
 -26.1.0.0.0
--  __TEXT.__text: 0x62e8
--  __TEXT.__auth_stubs: 0x1c0
+-  __TEXT.__text: 0x62e8 sha256:0df448e2c966fe8bc56ed08edb6992124650130899f358791bee3e8cff152fed
+-  __TEXT.__auth_stubs: 0x1c0 sha256:34ef1f3c3ec71606560dd196aac478d5f6a3b2b977d03407d62bf437fe9c1255
+-  __TEXT.__const: 0x160 sha256:3c4465f982c214b745ab2f637858e5853a390a6f20749ebe6ce3234f5485e1eb
+-  __TEXT.__cstring: 0xacc sha256:5ddf1109622ffe4a5a52f96cfa5e28bc4f9b6be4b4fa327ea96741bb0ea18951
+-  __DATA_CONST.__got: 0x30 sha256:17b0761f87b081d5cf10757ccc89f12be355c70e2e29df288b65b30710dcbcd1
+-  __DATA_CONST.__const: 0xb0 sha256:8e2f5f1ece467510d1010be6a44fdf113084ab211c9ea186c94188271cb2e396
+-  __AUTH_CONST.__auth_got: 0xe0 sha256:6eb69e26de2a26eda48af77d4cec893aa0cf4748a64cbefcfe11a22c1e680ad9
+-  __AUTH_CONST.__const: 0xd0 sha256:7693d6f9897dd3d527ea399e558168f44f9c158c571a2ae18d729ddc014ba75a
+-  __AUTH.__data: 0x30 sha256:96560db2c9a91b3f1cf3bd99d248d94f988aea7cfe80242440663e011db5ef48
+-  __DATA.__common: 0x18 sha256:9d908ecfb6b256def8b49a7c504e6c889c4b0e41fe6ce3e01863dd7b61a20aa0
+-  __DATA.__bss: 0x550 sha256:e5fa86d863f367b89108b44b23ea6b051f772ee32636442cc4dc9f5de35c44d7
 +32.0.0.0.0
-+  __TEXT.__text: 0x7d44
-   __TEXT.__const: 0x160
--  __TEXT.__cstring: 0xacc
--  __DATA_CONST.__got: 0x30
-+  __TEXT.__cstring: 0x101a
++  __TEXT.__text: 0x7d44 sha256:57d24ca6b57b47b8b0d332ff969ef58d1b207671ecf345c0c1236fa9e5d1a8a4
++  __TEXT.__const: 0x160 sha256:b9abecd36135fdd99edd239e76987fa60eaea1308d6b9d64d37f9b98d85544aa
++  __TEXT.__cstring: 0x101a sha256:78f484155a0684f418e51f5329a3f61da283f3a2bae0d8d68e3d329789e0113f
 +  __TEXT.__auth_stubs: 0x0
-   __DATA_CONST.__const: 0xb0
--  __AUTH_CONST.__auth_got: 0xe0
--  __AUTH_CONST.__const: 0xd0
--  __AUTH.__data: 0x30
--  __DATA.__common: 0x18
--  __DATA.__bss: 0x550
++  __DATA_CONST.__const: 0xb0 sha256:0fec813453d431fda12a8d2d7d7abcbab934edd8d49999b9e47d4349c5713e2a
 +  __DATA_CONST.__got: 0x0
-+  __AUTH_CONST.__const: 0x100
++  __AUTH_CONST.__const: 0x100 sha256:5bf33d5e0012fdef9f198ece8aa27050eed5d85baca01f3b176dc7ddb8613904
 +  __AUTH_CONST.__auth_got: 0x0
-+  __DATA.__bss: 0x521
-+  __DATA.__common: 0x8
-+  __DATA_DIRTY.__data: 0x38
-+  __DATA_DIRTY.__bss: 0x34
-+  __DATA_DIRTY.__common: 0x18
-+  __TPRO_CONST.__data: 0x8
++  __DATA.__bss: 0x521 sha256:af56868e3364e0ad676a0b6b9dcccd82d940d3dfc80ec0845ca007b00bac4394
++  __DATA.__common: 0x8 sha256:af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc
++  __DATA_DIRTY.__data: 0x38 sha256:b56c2d2d1366a338b8321ccf08e77fee665907c98f0656b24472ec3983213856
++  __DATA_DIRTY.__bss: 0x34 sha256:7955cb2de90dd9efc6df9fdbf5f5d10c114f4135a9a6b52db1003be749e32f7a
++  __DATA_DIRTY.__common: 0x18 sha256:9d908ecfb6b256def8b49a7c504e6c889c4b0e41fe6ce3e01863dd7b61a20aa0
++  __TPRO_CONST.__data: 0x8 sha256:af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc
    - /usr/lib/system/libdyld.dylib
    - /usr/lib/system/libmacho.dylib
    - /usr/lib/system/libsystem_c.dylib

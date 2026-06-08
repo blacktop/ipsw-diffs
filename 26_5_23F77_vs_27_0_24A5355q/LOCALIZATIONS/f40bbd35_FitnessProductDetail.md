@@ -1,0 +1,56 @@
+## FitnessProductDetail
+
+> `FileSystem/System/Library/PrivateFrameworks/FitnessProductDetail.framework/Localizable.loctable`
+
+```diff
+
+ en. = ""
+ en. MORE = " MORE"
+ en.%@ Music = "%@ Music"
++en.%lld Weeks.NSStringLocalizedFormatKey = "%#@value@"
++en.%lld Weeks.value.NSStringFormatSpecTypeKey = "NSStringPluralRuleType"
++en.%lld Weeks.value.NSStringFormatValueTypeKey = "lld"
++en.%lld Weeks.value.one = "%lld Week"
++en.%lld Weeks.value.other = "%lld Weeks"
++en.%lldx / Week = "%lldx / Week"
+ en.About = "About"
+ en.Accessibility = "Accessibility"
+ en.Add to Library = "Add to Library"
++en.Add to Schedule = "Add to Schedule"
+ en.Additional = "Additional"
+ en.Are you sure you want to delete this program from your library? = "Are you sure you want to delete this program from your library?"
+ en.Audio = "Audio"
+
+ en.Cancel = "Cancel"
+ en.Delete from Library = "Delete from Library"
+ en.Done = "Done"
+-en.Filter = "Filter"
+ en.Getting Started = "Getting Started"
+ en.In This Series = "In This Series"
+ en.Languages = "Languages"
++en.Length = "Length"
+ en.Listen in Music = "Listen in Music"
+ en.MORE = "MORE"
+ en.Preview = "Preview"
+ en.Primary = "Primary"
++en.Program Preview = "Program Preview"
+ en.Remove Program? = "Remove Program?"
+ en.Run = "Run"
++en.Schedule = "Schedule"
+ en.Scheduled for day.NSStringLocalizedFormatKey = "%#@value@"
+ en.Scheduled for day.value.NSStringFormatSpecTypeKey = "NSStringPluralRuleType"
+ en.Scheduled for day.value.NSStringFormatValueTypeKey = "d"
+
+ en.Scheduled for yesterday.value.other = "Scheduled for yesterday ^[(+ %d days)](highlight: true)"
+ en.Scheduled for yesterday.value.zero = "Scheduled for yesterday"
+ en.Subtitles = "Subtitles"
++en.Time / Day = "Time / Day"
+ en.Trainers = "Trainers"
+ en.Try this episode free, one time = "Try this episode free, one time"
+ en.Unavailable = "Unavailable"
+ en.Watch the Preview = "Watch the Preview"
++en.Week %lld = "Week %lld"
+ en.[Internal] %@:%lld: %@ = "[Internal] %1$@:%2$lld: %3$@"
+ en. Music = " Music"
+
+```

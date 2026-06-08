@@ -1,0 +1,38 @@
+## HeadphoneAssets
+
+> `FileSystem/System/Library/PrivateFrameworks/HeadphoneAssets.framework/GenericLocalizable.loctable`
+
+```text
+en.ACCESSIBILITY_GROUP = "Accessibility"
+en.ADAPTIVE = "Adaptive"
+en.ANNOUNCE = "Announce Calls \u0026 Notifications"
+en.ANNOUNCE_SUBTITLE = "Siri announces incoming updates."
+en.ANNOUNCE_SUBTITLE_LONG = "Siri announces incoming calls, messages, and more."
+en.AUDIO_ROUTING_GROUP = "Audio \u0026 Routing"
+en.AUDIO_ROUTING_GROUP_SUBTITLE = "Control when AirPods connect to your devices and how audio features are used."
+en.BATTERY_CHARGING_GROUP = "Battery"
+en.CA_SUBTITLE = "Lowers volume when speaking."
+en.CA_SUBTITLE_LONG = "Automatically lowers volume when you start speaking."
+en.CONTINUE_BUTTON = "Continue"
+en.CONTROLS_GESTURES_GROUP = "Controls \u0026 Gestures"
+en.CONTROLS_GESTURES_GROUP_SUBTITLE = "Choose how AirPods features are controlled using the touch controls and gestures."
+en.CONVERSATION_AWARENESS = "Conversation Awareness"
+en.CUSTOMIZE_BUTTON = "Customize"
+en.FINDMY_GROUP = "Find My"
+en.HEAD_GESTURE = "Head Gesture"
+en.HEAD_GESTURE_SUBTITLE = "Move your head to respond."
+en.HEAD_GESTURE_SUBTITLE_LONG = "Respond to calls and notifications by moving your head."
+en.LISTENING_MODE = "Listening Mode"
+en.LIVE_TRANSLATION_GROUP = "Live Translation"
+en.NOISE_CANCELLATION = "Noise Cancellation"
+en.OFF_MODE = "Off"
+en.PERSONALIZED_VOL = "Personalized Volume"
+en.PERSONALIZED_VOL_SUBTITLE = "Volume adapts to environment."
+en.PERSONALIZED_VOL_SUBTITLE_LONG = "Volume automatically adapts to your environment."
+en.PRIVACY_GROUP = "Privacy"
+en.SETTINGS_CONFIRM = "Confirm Settings"
+en.SETTINGS_CONFIRM_SUBTITLE = "Here’s everything your new AirPods Pro can do."
+en.TRANSPARENCY = "Transparency"
+en.YODEL_GROUP = "Hearing Health"
+en.YODEL_GROUP_SUBTITLE = "AirPods can help you protect your hearing, assess whether you have any hearing loss, and act as a hearing aid if you do."
+```
