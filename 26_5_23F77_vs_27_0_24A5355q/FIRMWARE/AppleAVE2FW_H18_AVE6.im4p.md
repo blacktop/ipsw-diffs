@@ -1,0 +1,30 @@
+## AppleAVE2FW_H18_AVE6.im4p
+
+> `Firmware/ave/AppleAVE2FW_H18_AVE6.im4p`
+
+```diff
+
+ 
+-  __TEXT.__text: 0x1100 sha256:66ea75f22652374b2d83e31c9fb925a45da242f0cbc92498f9caaa9523241613
+-  __TEXT.__const: 0x137 sha256:c706cfe4a912353dc8c26107cd45c074c70d720e911272ac92264c5de08f3c72
++  __TEXT.__text: 0x1100 sha256:930ca8397ebdb0855dc57f71d0183b116a76ab44598626073b0244e084a4df01
++  __TEXT.__const: 0x137 sha256:4d4bab777b79348984b6eb9428882d5ea9a473680666af456533d92dc81e7056
+   __TEXT._rtk_vtor: 0x180 sha256:a1a4f5721c1c4610af7f71078f3a68c330536d679803b0e0507ee8dc10c5dfca
+   __TEXT._rtk_patchbay: 0x49 sha256:469224b14f1f9faf077f2885c9b47d39af08651001aff303d0881e6237d9848a
+   __TEXT.__cstring: 0x12 sha256:0bceadcf5cdfdc687f8b06080c34f77c15d616e0a99ca6196f05cd460dc0fbec
+   __TEXT._rtk_mtab: 0x48 sha256:87349d1da8638d8c1b7becc7d579d18c2d5f8b68304de30f8522953e0bf3e81b
+   __TEXT.__constructor: 0x0
+-  __DATA.__shared: 0x4b4 sha256:3b17f8b83bec3e72acd0d014f58e7de206106a7644bf3293f93c7456ced47419
++  __DATA.__shared: 0xcc sha256:c0c74543cc9dcc7f0ddc24eaced85c278aa3e357d3cb319977a8140d26268d06
+   __DATA.__data: 0x68 sha256:5d8251904c1400275e9aea3a257a70e8458f9196beaacf356de0daf6a4122611
+   __DATA._rtk_power: 0x44 sha256:48204041c3a6af65b35f0367f95db80560cac832f7b71e3dd93e0631d02dd45c
+   __DATA.__mod_init_func: 0x0
+-  __DATA.__zerofill: 0x630 sha256:886ebd077a7a8d7ad25692803e4b384b4c4ffa29ef8409ba8e6a9a0cf984f2c2
+-  UUID: AB8924CE-EDE5-33A6-9890-F5C567D78B42
++  __DATA.__zerofill: 0x630 sha256:c86c6afd7d673a729522dfeba9337e0ae3f1ebeff3d7d94d867290355f6ff312
++  UUID: 98994D5C-54F6-3EC8-A73F-5A9F88707A6F
+   Functions: 0
+   Symbols:   66
+   CStrings:  2
+
+```
