@@ -1,0 +1,536 @@
+## AMSAccountAuthenticationPlugin
+
+> `/System/Library/Accounts/Authentication/AMSAccountAuthenticationPlugin.bundle/AMSAccountAuthenticationPlugin`
+
+```diff
+
+-9.5.8.2.2
+-  __TEXT.__text: 0xa224 sha256:9bae5b5f3b79b634d5f336108c91f437917a6b2ebd3e591a79880b9a6aa8e0af
+-  __TEXT.__auth_stubs: 0x420 sha256:f6bbc8deb055eb027feb195d6d223cf03e2bc7ccbe3362b61a3fc44cf6c5f70c
+-  __TEXT.__objc_methlist: 0x5d4 sha256:af2a0f5c0740cef777da955edad8faa80db09f0a8fb5015ff0b31092b814c8fc
+-  __TEXT.__const: 0xca sha256:ef29448bfe863b70238857435e32f9fe83f57277fab797170c98f1396442025a
+-  __TEXT.__cstring: 0x99a sha256:596f0ab1497a5c2d1e28b34fd29e9beb3c645ddf6be3f72bd4119ea6f544e4c1
+-  __TEXT.__oslogstring: 0x1800 sha256:84425104d2df14abbe222b96ff35ad7d00ed72f43b3a0a1eccce17b6792ab966
+-  __TEXT.__gcc_except_tab: 0xc0 sha256:f1a59fcdb6257af8ed613deca5415853d3857af49c1c443205f5089d6bb0e0bb
+-  __TEXT.__dlopen_cstrs: 0x58 sha256:18de3ada3ee6e2eb9353658fabecb7f0125b3f18e99630b06c5850f15a749dfd
+-  __TEXT.__unwind_info: 0x1b0 sha256:2a42caacd469203318dd3ff99e77a1a1e022d39e5976979430e66f02f3ca35b9
+-  __TEXT.__objc_classname: 0x9f sha256:6ec62da5b3e9e39b0eb934da12a342961f480c96cadc4f4e31c7ab2a913e9bbf
+-  __TEXT.__objc_methname: 0x20ef sha256:9b858d51cc0eaf9cfc6f8665c2137dca9004e4c57b1c6a547784ef3828ecc5d9
+-  __TEXT.__objc_methtype: 0x884 sha256:abb43e890d6ea60b3f6fd40e2a46ee426ef831d4c538095d89e9f3f2fe06801c
+-  __TEXT.__objc_stubs: 0x1fc0 sha256:c04dc5149246d30c7a673c1087d3066396e2cd43bc54595f244abaf0e8eb17c8
+-  __DATA_CONST.__got: 0x1a0 sha256:8b3107f9b34116b810761c42f04668cf32b5647212d97fc7bb1ad3e91d150ced
+-  __DATA_CONST.__const: 0x448 sha256:6f0cabf3ff32e6c85b45a3dda4681251905a581e5aa90c8b27eefc8d0676cc73
+-  __DATA_CONST.__objc_classlist: 0x10 sha256:f62698e89934b312620b9f21e559ecad722683ea3532a051730b850ee6a51b32
+-  __DATA_CONST.__objc_catlist: 0x28 sha256:3b9a8cebcec21320f9c45bb6345d388bb71e8d5658f39c39086d961dfc8d11af
+-  __DATA_CONST.__objc_protolist: 0x20 sha256:cc42e0295d363e974ccd7fac689a4506275514e4e8b5eb7da496aa973c2cdc8c
+-  __DATA_CONST.__objc_imageinfo: 0x8 sha256:8c2e86a3d61473a17440ee60441113a7d285704a3b70278f03e88b3c356a5493
+-  __DATA_CONST.__objc_selrefs: 0x9a8 sha256:caf91690768bf2e1776b39481f1cbf65a8ea97aa833634a49437fc3e6a03f6ba
+-  __DATA_CONST.__objc_superrefs: 0x10 sha256:0ef9eada35a297f9416d09bea37daedd8adf238b11b4f76b851dd7cc3c404bd6
+-  __AUTH_CONST.__auth_got: 0x220 sha256:44ddd2f478477ebd1c1cd5b99400af48cd46033c59173195f48870e608cec810
+-  __AUTH_CONST.__const: 0x80 sha256:8f80f5d796308fafb65ee02549fb03a145eed1f1e165ad18d071532519eddbd8
+-  __AUTH_CONST.__cfstring: 0x9e0 sha256:bc1d8b80d0353bfa143bde7ec06583ef0325243e9540410951825d500cd4393f
+-  __AUTH_CONST.__objc_const: 0x808 sha256:cad828c401af089a128a5ba19363475d809ce332448150b639f9efc7f81c24f8
+-  __AUTH.__objc_data: 0x50 sha256:ee81288e179db8da46e9d36e88c6031bc26c309e5edb931f639b5f6c36866ea7
++10.0.40.4.1
++  __TEXT.__text: 0x97c8 sha256:39f9a9c4cc18a2f1f27d7adc6beba181155a772dff7db341656632eecc18e92b
++  __TEXT.__objc_methlist: 0x5bc sha256:d5e9892420be6028e57d585eb4a420d0d1d584acdf364bd0ff0d3a8c6a89c1ae
++  __TEXT.__const: 0xc2 sha256:9a4b78b3934ec9c99227731e9678573900b073e32fef204f5c54f289b2085112
++  __TEXT.__cstring: 0x971 sha256:5394567afcf8bf0f7a643a7b6f1e3783e152aeba5fba78816bc2c4db2633a9e2
++  __TEXT.__oslogstring: 0x18bc sha256:338f8da90ed8fc8d3362ae5e3952632a8a12c5a09d7488cfa9420705260b9110
++  __TEXT.__gcc_except_tab: 0xd8 sha256:dd28c3a93e6ec684d92fe7188270fe76636531ed859c2dcfe0862d5c197a45d4
++  __TEXT.__unwind_info: 0x188 sha256:d58f9d08374c88ffb5cd84ccaaa56b85b25b296610ae0db1e79a4516317c27fe
++  __TEXT.__objc_stubs: 0x0
++  __TEXT.__auth_stubs: 0x0
++  __TEXT.__objc_classname: 0x0
++  __TEXT.__objc_methname: 0x0
++  __TEXT.__objc_methtype: 0x0
++  __DATA_CONST.__const: 0x468 sha256:e43b4d2990cf332060eea852bbdedf73ef7fac2b1f9689087174ac1c67ccdd02
++  __DATA_CONST.__objc_classlist: 0x10 sha256:fbb06b8184c487bc89aa39b011069f5ec5733e386f7d53534a49165573a38fbe
++  __DATA_CONST.__objc_catlist: 0x28 sha256:00e1b2dda98bf7043bbbf7c7241177f7158af858bb4ab4211962a1aad8d1b49c
++  __DATA_CONST.__objc_protolist: 0x20 sha256:3b026038b40b379fead99b9664e1cf89b2450c3ebaca015b668446e0cd0c9e3e
++  __DATA_CONST.__objc_imageinfo: 0x8 sha256:ce857dcadc2529f941104469975d60698ea3610a86c121e7b4aee224cd0c59ea
++  __DATA_CONST.__objc_selrefs: 0x948 sha256:f8ade04f70efa0c4e5a40d17ad37e90e6a0115b3faee71a8a459aa48297b6d59
++  __DATA_CONST.__objc_superrefs: 0x10 sha256:fbb06b8184c487bc89aa39b011069f5ec5733e386f7d53534a49165573a38fbe
++  __DATA_CONST.__got: 0x198 sha256:6fe0e56b9509ff601d4d540ba4ad392143b6cf0bf67d25ec0b22f72248664397
++  __AUTH_CONST.__const: 0x60 sha256:2eb6da2365d62a4ee9772a7623a09deb8439b268849a06b4ae7f6e393e37adb8
++  __AUTH_CONST.__cfstring: 0x9e0 sha256:c5c29d4c0b540efd86d8f0ec92083c1756c067358379a95487b9a7fa0b75d295
++  __AUTH_CONST.__objc_const: 0x7e8 sha256:57965cae7a3a117495e974f184a4392f8725d56d8a0425fc13fff7145ef638a9
++  __AUTH_CONST.__auth_got: 0x0
+   __DATA.__objc_ivar: 0x24 sha256:15434d65d350403384a8d970efbf345215bc056a68fd086f1a0a07687cc39cc1
+-  __DATA.__data: 0x180 sha256:7e044a35de3db52b5706042f38bae1597d0a62a9c151deabae77183ca871cea8
+-  __DATA.__bss: 0x10 sha256:374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb
+-  __DATA_DIRTY.__objc_data: 0x50 sha256:8738d5cf1accbab5d9f86ae2cde27993dfc99537ae1d920bcb418c1bcbad7558
++  __DATA.__data: 0x180 sha256:239962d62544e3b6233826c46f08bfc81145062a3b65d453c2ac59f37db2e2f3
++  __DATA_DIRTY.__objc_data: 0xa0 sha256:34d57905bae75b72de1ed7c98e3fecbeea48a66f380801c53ff7b90cdd18f8f7
+   - /System/Library/Frameworks/Accounts.framework/Accounts
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/PrivateFrameworks/AppleMediaServices.framework/AppleMediaServices
+   - /System/Library/PrivateFrameworks/AuthKit.framework/AuthKit
+-  - /System/Library/PrivateFrameworks/SoftLinking.framework/SoftLinking
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/swift/libswiftAccelerate.dylib
+
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 640DDCEA-BBEB-3106-8F2C-6DA96E982347
+-  Functions: 101
+-  Symbols:   147
+-  CStrings:  661
++  UUID: CFEC5F39-9EF3-3D3A-A8D6-676EFAD0BA0F
++  Functions: 97
++  Symbols:   151
++  CStrings:  253
+ 
+Symbols:
++ _AMSHashAndLogCacheMisses
++ _AMSHashIfNeededNonnull
++ _OBJC_CLASS_$_AMSBinaryPromise
++ _objc_autoreleasePoolPop
++ _objc_autoreleasePoolPush
++ _objc_claimAutoreleasedReturnValue
++ _objc_retain_x1
++ _objc_retain_x3
++ _objc_retain_x5
++ _objc_retain_x8
+- _AMSHTTPHeaderIgnoreAccountConversion
+- _OBJC_CLASS_$_AMSPromiseResult
+- __sl_dlopen
+- _abort_report_np
+- _free
+- _objc_getClass
+CStrings:
++ "%{public}@: [%{public}@] Using PET for auth request. PET = %{public}@ | source = %{public}@"
++ "%{public}@Authentication failed, skipping IDMS retention"
++ "%{public}@Calling completion block on global queue with result: %{public}@ | error: %{public}@."
++ "%{public}@Calling completion block with result: %{public}@ | error: %{public}@."
++ "%{public}@Credential verification promise complete with result: %{public}@ | error: %{public}@."
++ "%{public}@Enqueued request to verify credentials."
++ "%{public}@Finished calling _retainIDMS"
++ "%{public}@No completion block to call!"
++ "%{public}@Queuing a request to verify credentials for %{public}@. caller = %{public}@ | originalOptions = %{public}@"
++ "%{public}@Verifying credentials."
++ "%{public}@accountWasOriginallyActive = %{public}@, isActive = %{public}@, accountBecameActive = %{public}@ | authenticatedAccount = %{public}@"
++ "@\"AMSPromise\"20@?0B8@\"NSError\"12"
+- "#16@0:8"
+- "%s"
+- "%{public}@: [%{public}@] Posting follow-ups for the device offers."
+- "%{public}@: [%{public}@] Refusing to post device offer follow-ups because we're running in Buddy."
+- "%{public}@: [%{public}@] The authentication response had device offers."
+- "%{public}@: [%{public}@] Verifying credentials."
+- "%{public}@: [%{public}@] retainIDMS = %d | accountOnDevice = %{public}@"
+- "%{public}@: [%{public}@] retainIDMS = %d | authenticatedAccount = %{public}@"
+- "%{public}@: [%{public}@] retainIDMS = 0 | self.account = %{public}@"
+- ".cxx_destruct"
+- "@\"<AMSBagProtocol>\""
+- "@\"ACAccount\""
+- "@\"ACAccountCredential\"32@0:8@\"ACAccount\"16@\"ACDClient\"24"
+- "@\"ACAccountCredential\"40@0:8@\"ACAccount\"16@\"ACDClient\"24^@32"
+- "@\"ACAccountCredential\"48@0:8@\"ACAccount\"16@\"ACDClient\"24@\"ACDAccountStore\"32^@40"
+- "@\"ACDAccountStore\""
+- "@\"AMSAuthenticateMetrics\""
+- "@\"AMSAuthenticateOptions\""
+- "@\"AMSDialogRequest\""
+- "@\"AMSPromiseSerialQueue\""
+- "@\"NSArray\"40@0:8@\"ACAccount\"16@\"ACDAccountStore\"24@\"NSDictionary\"32"
+- "@\"NSObject<OS_nw_activity>\""
+- "@\"NSString\"16@0:8"
+- "@\"NSString\"24@0:8@\"ACAccount\"16"
+- "@16@0:8"
+- "@24@0:8:16"
+- "@24@0:8@16"
+- "@32@0:8:16@24"
+- "@32@0:8@16@24"
+- "@40@0:8:16@24@32"
+- "@40@0:8@16@24@32"
+- "@40@0:8@16@24^@32"
+- "@48@0:8@16@24@32@40"
+- "@48@0:8@16@24@32^@40"
+- "ACDAccountAuthenticationPlugin"
+- "AMSAccount"
+- "AMSAccountAuthenticationPlugin"
+- "AMSAccountAuthenticationPlugin: [%{public}@] Queuing a request to verify credentials for %{public}@. caller = %{public}@ | originalOptions = %{public}@"
+- "AMSURLProtocolDelegate"
+- "AMSURLSession:handleAuthenticateRequest:completion:"
+- "AMSURLSession:handleDialogRequest:completion:"
+- "AMSURLSession:shouldFailWithServerError:"
+- "AMSURLSession:shouldHandleAuthenticationForAccount:dialogDictionary:"
+- "AMSURLSession:shouldHandleDialogDictionary:"
+- "AMSURLSession:task:handleAuthenticateRequest:completion:"
+- "AMSURLSession:task:handleDialogRequest:completion:"
+- "AMSURLSession:task:handleEngagementRequest:completion:"
+- "AMSURLSession:task:shouldFailWithServerError:"
+- "AMSVerifyCredentialsTask"
+- "B"
+- "B16@0:8"
+- "B24@0:8#16"
+- "B24@0:8:16"
+- "B24@0:8@\"ACAccount\"16"
+- "B24@0:8@\"Protocol\"16"
+- "B24@0:8@16"
+- "B32@0:8@\"AMSURLSession\"16@\"NSDictionary\"24"
+- "B32@0:8@\"AMSURLSession\"16@\"NSError\"24"
+- "B32@0:8@16@24"
+- "B40@0:8@\"AMSURLSession\"16@\"ACAccount\"24@\"NSDictionary\"32"
+- "B40@0:8@\"AMSURLSession\"16@\"NSURLSessionTask\"24@\"NSError\"32"
+- "B40@0:8@16@24@32"
+- "HTTPHeaders"
+- "NSObject"
+- "NSURLSessionDelegate"
+- "OSLogObject"
+- "Q16@0:8"
+- "SSVSubscriptionStatusCoordinator"
+- "T#,R"
+- "T@\"<AMSBagProtocol>\",R,N,V_bag"
+- "T@\"ACAccount\",R,N,V_account"
+- "T@\"ACAccountStore\",R,N"
+- "T@\"ACDAccountStore\",R,N,V_accountStore"
+- "T@\"AMSAuthenticateMetrics\",&,N,V_metrics"
+- "T@\"AMSAuthenticateOptions\",R,N,V_options"
+- "T@\"AMSDialogRequest\",&,N,V_dialogRequest"
+- "T@\"AMSPromiseSerialQueue\",R,N,V_authenticationQueue"
+- "T@\"NSDate\",&,N,Sams_setLastAuthenticated:"
+- "T@\"NSDictionary\",R,N"
+- "T@\"NSNumber\",R,N"
+- "T@\"NSObject<OS_nw_activity>\",&,N,V_activity"
+- "T@\"NSString\",?,R,C"
+- "T@\"NSString\",R,C"
+- "T@\"NSString\",R,N"
+- "TB,R,N"
+- "TB,R,N,V_accountWasOriginallyActive"
+- "TQ,D,N,Sams_setLastAuthenticationCredentialSource:"
+- "TQ,R"
+- "Tq,R,N"
+- "URL"
+- "URLForKey:account:"
+- "URLSession:didBecomeInvalidWithError:"
+- "URLSession:didReceiveChallenge:completionHandler:"
+- "URLSessionDidFinishEventsForBackgroundURLSession:"
+- "Unable to find class %s"
+- "Vv16@0:8"
+- "^{_NSZone=}16@0:8"
+- "_account"
+- "_accountStore"
+- "_accountWasOriginallyActive"
+- "_activity"
+- "_authenticationQueue"
+- "_bag"
+- "_cookieDictionaryFromAccount:url:"
+- "_createAuthenticateRequestEncoder"
+- "_createAuthenticateRequestEncoderForAccount:"
+- "_createAuthenticateRequestForAccount:URL:requestEncoder:"
+- "_createAuthenticateRequestParametersForAccount:"
+- "_createUpdatedAccountWithAuthenticationResult:"
+- "_createUpdatedSimpleProfileAccountWithAuthenticationResult:"
+- "_dialogRequest"
+- "_expectedBiometricActionConstraint"
+- "_fetchSecondaryPasswordForAccount:"
+- "_generatePasswordIfNeeded"
+- "_handleBiometricsForAuthenticatedAccount:"
+- "_handleDeviceOffersForAuthenticatedAccount:"
+- "_handleIDMSRetentionForAuthenticatedAccount:"
+- "_metrics"
+- "_options"
+- "_postAuthenticationBeganNotification"
+- "_postAuthenticationFailedNotification"
+- "_postAuthenticationFinishedNotification"
+- "_postAuthenticationSubmittedNotification"
+- "_processAuthenticationFailureWithResult:"
+- "_processAuthenticationSuccessWithResult:authenticatedAccount:"
+- "_promiseOfAccountFromResult:orError:"
+- "_refreshSimpleProfilesOnAccount:"
+- "_removeInactiveDuplicatesForAuthenticatedAccount:"
+- "_removeRenewCredentialsFollowUp"
+- "_retainIDMS:forAccount:"
+- "_updateAccount:withLegacyOptions:"
+- "accessControlForAccount:forSignaturePurpose:"
+- "account"
+- "accountMediaType"
+- "accountStore"
+- "accountWasOriginallyActive"
+- "accountWithIdentifier:"
+- "accounts"
+- "activity"
+- "addErrorBlock:"
+- "addFinishBlock:"
+- "addSuccessBlock:"
+- "allHeaderFields"
+- "allowPasswordGeneration"
+- "allowServerDialogs"
+- "ams_DSID"
+- "ams_accountFlags"
+- "ams_accountID"
+- "ams_accountStore"
+- "ams_addCookiesForResult:"
+- "ams_addCookiesForResult:account:error:"
+- "ams_altDSID"
+- "ams_anyWithTest:"
+- "ams_bagForProcessInfo:"
+- "ams_cookies"
+- "ams_cookiesForURL:"
+- "ams_creditsString"
+- "ams_errorByAddingUserInfo:"
+- "ams_errorCode"
+- "ams_firstName"
+- "ams_freePasswordPromptSetting"
+- "ams_iTunesAccountWithAltDSID:DSID:username:"
+- "ams_isActiveForMediaType:"
+- "ams_isDuplicate:"
+- "ams_isLocalAccount"
+- "ams_isManagedAppleID"
+- "ams_isSandboxAccount"
+- "ams_isSimpleProfile"
+- "ams_lastAuthenticated"
+- "ams_lastAuthenticationCredentialSource"
+- "ams_lastName"
+- "ams_localiTunesAccountForAccountMediaType:"
+- "ams_mapWithTransform:"
+- "ams_mergePrivacyAcknowledgement:"
+- "ams_nonEmptyComponentsJoinedByString:"
+- "ams_objectForCaseInsensitiveKey:"
+- "ams_paidPasswordPromptSetting"
+- "ams_password"
+- "ams_privacyAcknowledgement"
+- "ams_sanitizedForSecureCoding"
+- "ams_secureToken"
+- "ams_setActive:forMediaType:"
+- "ams_setAltDSID:"
+- "ams_setCreditsString:"
+- "ams_setDSID:"
+- "ams_setFirstName:"
+- "ams_setInUse:"
+- "ams_setLastAuthenticated:"
+- "ams_setLastAuthenticationCredentialSource:"
+- "ams_setLastName:"
+- "ams_setManagedAppleID:"
+- "ams_setNullableObject:forKey:"
+- "ams_setSecureToken:forAccount:error:"
+- "ams_setServerResponse:"
+- "ams_setStorefront:forMediaType:"
+- "ams_sharedAccountStoreForMediaType:"
+- "ams_simpleProfileAccountsForiTunesAccount:"
+- "ams_storefront"
+- "ams_storefrontForMediaType:"
+- "ams_username"
+- "archivedDataWithRootObject:requiringSecureCoding:error:"
+- "arrayByAddingObjectsFromArray:"
+- "arrayWithObjects:count:"
+- "authenticationQueue"
+- "authenticationType"
+- "autorelease"
+- "bag"
+- "bagForProfile:profileVersion:processInfo:"
+- "beginSuspendingSubscriptionStatusChangeNotifications"
+- "boolValue"
+- "bundleID"
+- "catchWithBlock:"
+- "class"
+- "client"
+- "clientInfo"
+- "completeMetricsActivityWithPromise:"
+- "conformsToProtocol:"
+- "continueWithBlock:"
+- "copy"
+- "copyAccessControlRefWithAccount:options:error:"
+- "count"
+- "countByEnumeratingWithState:objects:count:"
+- "credentialForAccount:client:"
+- "credentialForAccount:client:error:"
+- "credentialForAccount:client:store:error:"
+- "creditDisplay"
+- "dataTaskPromiseWithRequestPromise:"
+- "dataTaskPromiseWithRequestPromise:activity:"
+- "dataWithJSONObject:options:error:"
+- "date"
+- "debugDescription"
+- "defaultCenter"
+- "defaultMediaTypeForCurrentProcess"
+- "defaultSession"
+- "description"
+- "deviceGUID"
+- "dialogRequest"
+- "dictionaryWithObjects:forKeys:count:"
+- "didRetrieveDeviceOffers"
+- "discoverPropertiesForAccount:accountStore:options:completion:"
+- "endSuspendingSubscriptionStatusChangeNotifications"
+- "enqueueWithEvent:context:"
+- "enumerateKeysAndObjectsUsingBlock:"
+- "errorWithDomain:code:userInfo:"
+- "flushEvents"
+- "getAgeAreaComplianceId"
+- "hasPrefix:"
+- "hash"
+- "hashedDescription"
+- "identifier"
+- "ignoreAccountConversion"
+- "init"
+- "initWithAccount:"
+- "initWithAccount:accountStore:bag:options:"
+- "initWithAccount:bag:"
+- "initWithAccount:options:"
+- "initWithBag:"
+- "initWithLegacyOptionsDictionary:"
+- "initWithOptions:account:"
+- "initWithOptionsDictionary:"
+- "initWithResult:error:"
+- "integerValue"
+- "isActionSupported:withAccessControl:"
+- "isActive"
+- "isAvailableForAccount:"
+- "isBuddyRunning"
+- "isEqual:"
+- "isEqualToNumber:"
+- "isEqualToString:"
+- "isIdentityMapValid"
+- "isKindOfClass:"
+- "isMemberOfClass:"
+- "isProxy"
+- "isPushSupportedForAccount:"
+- "isRunningUnitTests"
+- "length"
+- "logKey"
+- "longLongValue"
+- "metrics"
+- "metricsIdentifier"
+- "name"
+- "numberWithBool:"
+- "numberWithLongLong:"
+- "numberWithUnsignedInteger:"
+- "object"
+- "objectForKeyedSubscript:"
+- "offerIdentifier"
+- "parentAccount"
+- "perform"
+- "performAuthKitUpdate"
+- "performPostSignInTasksInDaemonForAccount:credentialSource:"
+- "performSelector:"
+- "performSelector:withObject:"
+- "performSelector:withObject:withObject:"
+- "performTask"
+- "performTaskWithPromiseBlock:"
+- "performUpdate"
+- "postAllDeviceOfferFollowUpsForAccount:priority:bag:logKey:"
+- "postNotificationName:object:userInfo:"
+- "preferredAttestationStyle"
+- "prepareMetricsActivity"
+- "presentingSceneBundleIdentifier"
+- "presentingSceneIdentifier"
+- "presentingWindow"
+- "privacyAcknowledgement"
+- "promiseWithError:"
+- "promiseWithPromiseResult:"
+- "promiseWithResult:"
+- "purpose"
+- "q16@0:8"
+- "release"
+- "removeAccount:withCompletionHandler:"
+- "renewCredentialsForAccount:accountStore:options:completion:"
+- "renewCredentialsForAccount:accountStore:reason:completion:"
+- "renewalIDForAccount:"
+- "renewalIDsForAccount:accountStore:options:"
+- "reportMetricsForContext:"
+- "requestWithMethod:bagURL:parameters:"
+- "respondsToSelector:"
+- "response"
+- "resultWithCompletion:"
+- "resultWithError:"
+- "retain"
+- "retainCount"
+- "runPromiseBlock:"
+- "saveDeviceOffersForAccount:response:logKey:"
+- "saveIdentityMap"
+- "self"
+- "serverValueForFreePasswordSetting:"
+- "serverValueForPaidPasswordSetting:"
+- "setAccount:"
+- "setAccountMediaType:"
+- "setAccountProperty:forKey:"
+- "setActivity:"
+- "setAllowSecondaryCredentialSource:"
+- "setAllowServerDialogs:"
+- "setAuthenticationStarted:"
+- "setAuthenticationType:"
+- "setCanMakeAccountActive:"
+- "setClientInfo:"
+- "setCreateAccountQueryParams:"
+- "setCredential:"
+- "setDefaultButtonString:"
+- "setDelegate:"
+- "setDeviceOffersCheckEncodingForRequestParameters:"
+- "setDialogOptions:"
+- "setDialogRequest:"
+- "setDidRetrieveDeviceOffers:"
+- "setError:"
+- "setFlushTimerEnabled:"
+- "setGsTokenIdentifier:"
+- "setHTTPBody:"
+- "setHTTPHeaders:"
+- "setIgnoreAccountConversion:"
+- "setIncludeClientVersions:"
+- "setLogKey:"
+- "setLogUUID:"
+- "setMescalType:"
+- "setMetrics:"
+- "setObject:forKeyedSubscript:"
+- "setPromptTitle:"
+- "setProxyAppBundleID:"
+- "setProxyAppName:"
+- "setPurpose:"
+- "setReason:"
+- "setRequestEncoding:"
+- "setShouldSetCookiesFromResponse:"
+- "setShouldSetStorefrontFromResponse:"
+- "setStyle:"
+- "setUserAgent:"
+- "setUserAgentSuffix:"
+- "setUsername:"
+- "setValue:forHTTPHeaderField:"
+- "sharedAccountsAuthenticationPluginConfig"
+- "sharedAccountsOversizeConfig"
+- "sharedConfig"
+- "sharedDeviceOffersConfig"
+- "shouldUseAccountSpecificCertificatesForAccount:"
+- "simpleProfileCreated"
+- "softlink:r:path:/System/Library/PrivateFrameworks/StoreServices.framework/StoreServices"
+- "stateForAccount:"
+- "stringWithFormat:"
+- "superclass"
+- "tearDownAllDeviceOfferFollowUpsForAccount:logKey:"
+- "thenWithBlock:"
+- "unsignedIntegerValue"
+- "updateWithResponseDictionary:accountIdentifier:"
+- "userAgent"
+- "userAgentSuffix"
+- "username"
+- "v16@0:8"
+- "v24@0:8@\"AMSMetricsLoadURLContext\"16"
+- "v24@0:8@\"NSURLSession\"16"
+- "v24@0:8@16"
+- "v28@0:8B16@20"
+- "v32@0:8@\"NSURLSession\"16@\"NSError\"24"
+- "v32@0:8@16@24"
+- "v40@0:8@\"ACAccount\"16@\"ACDAccountStore\"24@?<v@?@\"ACAccount\"@\"NSError\">32"
+- "v40@0:8@\"ACAccount\"16@\"ACDClient\"24@?<v@?@\"ACAccount\"@\"NSError\">32"
+- "v40@0:8@\"AMSURLSession\"16@\"AMSAuthenticateRequest\"24@?<v@?@\"AMSAuthenticateResult\"@\"NSError\">32"
+- "v40@0:8@\"AMSURLSession\"16@\"AMSDialogRequest\"24@?<v@?@\"AMSDialogResult\"@\"NSError\">32"
+- "v40@0:8@\"NSURLSession\"16@\"NSURLAuthenticationChallenge\"24@?<v@?q@\"NSURLCredential\">32"
+- "v40@0:8@16@24@?32"
+- "v48@0:8@\"ACAccount\"16@\"ACDAccountStore\"24@\"NSDictionary\"32@?<v@?@\"ACAccount\"@\"NSError\">40"
+- "v48@0:8@\"ACAccount\"16@\"ACDAccountStore\"24@\"NSDictionary\"32@?<v@?q@\"NSError\">40"
+- "v48@0:8@\"ACAccount\"16@\"ACDAccountStore\"24@\"NSString\"32@?<v@?q@\"NSError\">40"
+- "v48@0:8@\"AMSURLSession\"16@\"NSURLSessionTask\"24@\"AMSAuthenticateRequest\"32@?<v@?@\"AMSAuthenticateResult\"@\"NSError\">40"
+- "v48@0:8@\"AMSURLSession\"16@\"NSURLSessionTask\"24@\"AMSDialogRequest\"32@?<v@?@\"AMSDialogResult\"@\"NSError\">40"
+- "v48@0:8@\"AMSURLSession\"16@\"NSURLSessionTask\"24@\"AMSEngagementRequest\"32@?<v@?@\"AMSEngagementResult\"@\"NSError\">40"
+- "v48@0:8@16@24@32@?40"
+- "value"
+- "valueForHTTPHeaderField:"
+- "valueForKeyPath:"
+- "verifyCredentialsForAccount:accountStore:completion:"
+- "verifyCredentialsForAccount:accountStore:options:completion:"
+- "verifyCredentialsForAccount:client:withHandler:"
+- "waitUntilFinishedWithTimeout:"
+- "zone"
+
+```

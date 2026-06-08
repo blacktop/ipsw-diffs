@@ -1,0 +1,4899 @@
+## MacinTalk
+
+> `/System/Library/PrivateFrameworks/MacinTalk.framework/MacinTalk`
+
+```diff
+
+-90.3.0.0.0
+-  __TEXT.__text: 0x76720 sha256:9e473040ea6b04a8b2c531c8ef175d280c37bf3743c695a2cf29857843b9e3da
+-  __TEXT.__auth_stubs: 0x1ac0 sha256:32989ff7db9f0d7c74c8c7f40ef238b9c7f59bcc79a1d458e2ae03f3c82b7118
+-  __TEXT.__init_offsets: 0xc sha256:036e1d550fed1507af558462831a15daa84317c697a080adc8ca97404b261ef4
+-  __TEXT.__objc_methlist: 0x540 sha256:59233fc3fdaf5f179e3f6d7c1bd2f4d9ef5227d168be448eb8b01668691908c5
+-  __TEXT.__const: 0x10064 sha256:6fdf654ceaf22d59f00061a62db221b6fd39744f677fcea99d0b4d87029b8a30
+-  __TEXT.__cstring: 0x50c5 sha256:c37d97958ad6e8f6af682948da03343e92b7b45cb540574a94e95caf6826567b
+-  __TEXT.__gcc_except_tab: 0x2460 sha256:13a186ae0078b9b60e8b1830d118b90131cd3aa93b3cc62a19867a8902233d8f
+-  __TEXT.__oslogstring: 0x4f sha256:0c7e287fee7db10fb94ed1aa3bca962dfbf71a258ff164ba49b4131995fc07f8
+-  __TEXT.__swift5_typeref: 0x326 sha256:bd46cf887d8f0bbf89f7bd5c2923518a9fb1483da9c31ef324a288a316c53f83
+-  __TEXT.__swift5_capture: 0x50 sha256:303629a35f52307c4acefa460d947bcaebe29699cb7342f6116a9a17a71ba4ef
+-  __TEXT.__swift5_reflstr: 0x271 sha256:316054628343d1b4581765dd87f6fc23fd22e656ab5676bac2f8a5e12a4a3181
+-  __TEXT.__swift5_assocty: 0x90 sha256:85c450d5e03cdc121eaf6eef34c23f36fe25c96aa18da9afffb2c98f03acc1b4
+-  __TEXT.__constg_swiftt: 0x3a8 sha256:cfe749c78166f5381fdd9c86726766be16af82e0194c7c16ad8283d82b668ffa
+-  __TEXT.__swift5_fieldmd: 0x2c0 sha256:25a341d7fa66738bd386d42f8c13a5a73520f42242bdcf6d36ed377bea22b302
+-  __TEXT.__swift5_builtin: 0xc8 sha256:84567391d8e5a83fa67c29e509b17c561a22f225e56b9693e56d8bb160058c2e
+-  __TEXT.__swift5_proto: 0x28 sha256:d5c14da56804691d11291b2e2ec5d6acc08227d92463715673a43ef5302ca6a5
+-  __TEXT.__swift5_types: 0x34 sha256:8e1c6e5b291a880dd7b41eaa291db5136e9c95f842ab8887e9f7a81f759b7d8e
+-  __TEXT.__dof_MacinTalk: 0x40a sha256:4468100e8aa21a69fd8d7510dc2d1fcefc90b386399f36cfc4673d800aae0ec1
+-  __TEXT.__unwind_info: 0x1dc8 sha256:70df0d14c34c6f10310495d6dff7dfceac30c325662c77224dbca104e13211d0
+-  __TEXT.__eh_frame: 0x178 sha256:6f6c66276dc99ec45378a10ec55a1d01de57594b1b6f45a5c5e68e93a8dcbd54
+-  __TEXT.__objc_classname: 0x173 sha256:402bafcfcba5782736cd4bc00c0cef5b351140974df6789288fa2a325db2e76f
+-  __TEXT.__objc_methname: 0x10fc sha256:ab4de6dd9e505926fb971083223418ac2c80a4caa665e3ee150570a24b785437
+-  __TEXT.__objc_methtype: 0x1316 sha256:531f55f03bb1f761909b887f0fde96d75df1b537d04d5a0896e4787911c3b178
+-  __TEXT.__objc_stubs: 0xb80 sha256:7de695d55ee449f61d417e9f161d89257548153d68696111c65398e0e9c86170
+-  __DATA_CONST.__got: 0x358 sha256:893e3ed0461bfd21098ac3fcd984dce97119f6c181c9e3421fdb6fa10732c87b
+-  __DATA_CONST.__const: 0x2d0 sha256:ddffe1e452e24b18e6fa42dedea6568af6972a2803ad966b0bf4f27ccfe6e1dc
+-  __DATA_CONST.__objc_classlist: 0x68 sha256:f07767d11917a345a35e8946842f07cc1fc8d904f4f174f66056ef4200f58679
+-  __DATA_CONST.__objc_protolist: 0x20 sha256:d146ff1b08a873c02165a6164821e933567f7f11ca7b99ea85d2da74926546d9
+-  __DATA_CONST.__objc_imageinfo: 0x8 sha256:8c2e86a3d61473a17440ee60441113a7d285704a3b70278f03e88b3c356a5493
+-  __DATA_CONST.__objc_selrefs: 0x3b0 sha256:215ee916956fed0f85f6acca9cddbc159d70a37861ee3dd09935bc88366752f7
+-  __DATA_CONST.__objc_protorefs: 0x10 sha256:71978873cb7a60c25ac4b4526084fc30249aabe1507a663f9936f443a97612b5
+-  __DATA_CONST.__objc_superrefs: 0x20 sha256:05d1d60d869cb9019a0ef0581074f46315dfe8571f7484d7308f5cf6971cf9c1
+-  __AUTH_CONST.__auth_got: 0xd70 sha256:f91084340a120631d433073a51b93c25f23bdca2806eea4b781fa69297ab9042
+-  __AUTH_CONST.__const: 0x45d8 sha256:0835d3d1e855624089828b1dcfadd1e6473e404e82c9144395ae18bd5c2ac325
+-  __AUTH_CONST.__cfstring: 0x3680 sha256:f3de7d6b260657ed6e9084db252d40dcf3a318245fbac582aa3add8b28660d44
+-  __AUTH_CONST.__objc_const: 0x1008 sha256:a6d6f807925bc3de432f9fa632d7b45b377c389c1b73fa8737ac2902618e68f6
+-  __AUTH_CONST.__objc_doubleobj: 0x10 sha256:e645122e6cdb3bf216d7c3670b3c7b121035228c36eb63ae1d6f63368c1c796d
+-  __AUTH.__objc_data: 0x388 sha256:2757caad3c0b339ae8878f4c42493ccebe33e22e3e64e5d76935c17e59b89a6c
+-  __AUTH.__data: 0x28 sha256:b9c969431cbbef1475598ef50ad8ae9712fb3b7fe2853325e9a6e76b853f78f1
+-  __DATA.__objc_ivar: 0x60 sha256:7575c69df388fb4cbc57df29db673ef1b7e9ae399615e0418f2c6154021421e2
+-  __DATA.__data: 0x2828 sha256:c1b3f993116181c7b9ad68a1da5c889bb893a87b8603dd063204ca2a1fdc9bbb
+-  __DATA.__objc_stublist: 0x8 sha256:a2f5d956fe6cd6dea68ade80b538e45894e405d49dcf65f6e5cdee9ca98b7d66
+-  __DATA.__bss: 0x310 sha256:0c37ddc45244523ca3b841e3ea85e147a1d35c6ae1cd767e8c30dabf057516fd
+-  __DATA.__common: 0x40 sha256:f5a5fd42d16a20302798ef6ed309979b43003d2320d9f0e8ea9831a92759fb4b
+-  __DATA_DIRTY.__objc_data: 0x248 sha256:bd58bc22a5dddc5d850b82d45dd6cc0ef029b7715f989175816115fbe31616e8
+-  __DATA_DIRTY.__data: 0x128 sha256:c86e97712fd4346fc9afa68d180c5800f4442f3ea85748a7a656f56876a69a48
+-  __DATA_DIRTY.__common: 0x70 sha256:b5fdab78d8947eacc864bfeecb4d2100780e5afe1cd8efafb124887913ac49fa
+-  __DATA_DIRTY.__bss: 0x418 sha256:de2ca1d3d1c0862b06e5e5e33aefe44a2d0290e4ef6228128a1e797e35d3457c
+-  - /System/Library/Frameworks/AVFAudio.framework/AVFAudio
++103.0.0.0.0
++  __TEXT.__text: 0x4a7c sha256:b88aa3896472478e3a6254657b03f942dc94a76ebb2bd3f21b6ac16131b0feea
++  __TEXT.__const: 0x32a sha256:d0789e7f94693618245286ee833b44a4b31faa049b80ecd1cccd002b3f3ddb29
++  __TEXT.__cstring: 0x102 sha256:2548a02d3668f65ca66a5566155daa8cd8bdbc9c7ae7bde58d57228f934f7754
++  __TEXT.__swift5_typeref: 0xca sha256:862f70ff4551fef29b8d1ee6a0382b7b556e85ce64d4fcb8c4535fa60df539d5
++  __TEXT.__swift5_reflstr: 0xac sha256:1fdc1c89d3ae7cd29402b60931742eff9218606c40979182a393784c15627ad9
++  __TEXT.__swift5_assocty: 0x78 sha256:4b109628070ea5dec957a06c2a0209ca9fe06e515658536fb733d7624a69532c
++  __TEXT.__constg_swiftt: 0x130 sha256:91d79b74889e555c1ed4c6a054c25411a90e2d6ddc608c652bd537b90b7bd51d
++  __TEXT.__swift5_fieldmd: 0x84 sha256:6426fdfb5a97434d4a5ed5e493ba88e03d3fbb95281a877f8b2d2f08aff2a82b
++  __TEXT.__swift5_builtin: 0x14 sha256:6357f01f908c044298c0f43274349d532cce23d06a84e044da9df00951dec889
++  __TEXT.__swift5_proto: 0x20 sha256:fa27d13d04a40c4710403f1f97cca7bf2a5945dd7b02d1885f2b6641f79414c5
++  __TEXT.__swift5_types: 0xc sha256:f869f09f53e06636adee24c74e80332f70216b711227a8ce3cc457f82057605c
++  __TEXT.__swift_as_entry: 0x4 sha256:f06de4572bba6892a3a16f9ce2c6c8af0473dbe18e930757f11e41e48f61186c
++  __TEXT.__swift_as_ret: 0x4 sha256:ae42cb8afe72c826500a7613b28c972b99b42e4bed37ebb7112800f66d272297
++  __TEXT.__swift_as_cont: 0x8 sha256:d1b95450151c2a767c386dccd429875d47f7d9f9c3f2f9f728287e722ba2e13d
++  __TEXT.__unwind_info: 0x168 sha256:372b89d262e72769de0ebc12c321feb2eb7c4c4541e5974a9ae83a4475f4c401
++  __TEXT.__eh_frame: 0xb0 sha256:b128179638123e1e4495b8c5fb22de35ec9e54f29cdb80f8373d2678e58b8425
++  __TEXT.__objc_stubs: 0x0
++  __TEXT.__auth_stubs: 0x0
++  __TEXT.__objc_classname: 0x0
++  __TEXT.__objc_methname: 0x0
++  __TEXT.__objc_methtype: 0x0
++  __DATA_CONST.__const: 0xb0 sha256:451b7885fcd4fa7090ee16cc7974e6f7f5190f6d850b99fbcb61cc14388a54d1
++  __DATA_CONST.__objc_imageinfo: 0x8 sha256:ce857dcadc2529f941104469975d60698ea3610a86c121e7b4aee224cd0c59ea
++  __DATA_CONST.__objc_selrefs: 0x20 sha256:a3da37ce60ff3ef743a6906f1b5b8029322a7214d720d584fcc2796e05b6dc1b
++  __DATA_CONST.__got: 0x0
++  __AUTH_CONST.__const: 0xb8 sha256:b296276cba70008b2df71255165196e14d3f64174e70dac4cba58dcce4e6d83a
++  __AUTH_CONST.__objc_const: 0xb0 sha256:63632c814b77c6a4420411614416b3c2cd27978c1670d508419ccaca077ca833
++  __AUTH_CONST.__auth_got: 0x298 sha256:a9696dcbc2bef81a08d6b1a798091d2b1a49654218d3ebdb12f9b255cbb1476f
++  __AUTH.__data: 0x18 sha256:36eebe877afa163e2e6cd66888f94e3777fcda51581d034eb85149b54e77e0c3
++  __DATA.__data: 0x38 sha256:d4817aa5497628e7c77e6b606107042bbba3130888c5f47a375e6179be789fbb
++  __DATA.__objc_stublist: 0x8 sha256:d0fab7b9780168c0698d04de734e87008e689bd95c9f149fb4059d56e02482df
++  __DATA.__bss: 0x180 sha256:a1a4f5721c1c4610af7f71078f3a68c330536d679803b0e0507ee8dc10c5dfca
++  __DATA_DIRTY.__objc_data: 0x80 sha256:a213f06667f14b0427319cc52eeeda95a52e242f07c6ad0e9642582e926227ea
++  __DATA_DIRTY.__data: 0x78 sha256:9852aceccecbd92a059840d99270ef5bd810f7f545bfc916926699de055fca45
++  __DATA_DIRTY.__bss: 0x2b0 sha256:334e61fade598d87a35822d34aaa6adec70d9edb5a441ea134552eeb2afd813e
++  __DATA_DIRTY.__common: 0x10 sha256:374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb
+   - /System/Library/Frameworks/AVFoundation.framework/AVFoundation
+-  - /System/Library/Frameworks/Accelerate.framework/Accelerate
+-  - /System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+-  - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+-  - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+-  - /System/Library/PrivateFrameworks/AXCoreUtilities.framework/AXCoreUtilities
+   - /System/Library/PrivateFrameworks/AudioToolboxCore.framework/AudioToolboxCore
+-  - /System/Library/PrivateFrameworks/CoreEmoji.framework/CoreEmoji
+-  - /System/Library/PrivateFrameworks/SpeechDictionary.framework/SpeechDictionary
++  - /System/Library/PrivateFrameworks/MacinTalkCore.framework/MacinTalkCore
+   - /System/Library/PrivateFrameworks/TextToSpeech.framework/TextToSpeech
+   - /usr/lib/libSystem.B.dylib
+-  - /usr/lib/libc++.1.dylib
+-  - /usr/lib/libicucore.A.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/swift/libswiftAVFoundation.dylib
+   - /usr/lib/swift/libswiftAccelerate.dylib
+
+   - /usr/lib/swift/libswiftCoreAudio_Private.dylib
+   - /usr/lib/swift/libswiftCoreFoundation.dylib
+   - /usr/lib/swift/libswiftCoreImage.dylib
+-  - /usr/lib/swift/libswiftCoreLocation.dylib
+   - /usr/lib/swift/libswiftCoreMIDI.dylib
+-  - /usr/lib/swift/libswiftCoreMedia.dylib
+-  - /usr/lib/swift/libswiftDarwin.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
+   - /usr/lib/swift/libswiftMetal.dylib
+   - /usr/lib/swift/libswiftNaturalLanguage.dylib
++  - /usr/lib/swift/libswiftOSLog.dylib
+   - /usr/lib/swift/libswiftObjectiveC.dylib
+   - /usr/lib/swift/libswiftQuartzCore.dylib
+   - /usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
++  - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 0ABC3494-84C2-30E1-8917-E0878ED56180
+-  Functions: 2116
+-  Symbols:   4243
+-  CStrings:  1783
++  UUID: B73FA8EB-96BE-3270-AC27-C3CD87A2E4CD
++  Functions: 110
++  Symbols:   118
++  CStrings:  14
+ 
+Symbols:
++ ___swift_async_cont_functlets
++ ___swift_async_entry_functlets
++ ___swift_async_ret_functlets
++ __swift_FORCE_LOAD_$_swiftOSLog
++ __swift_FORCE_LOAD_$_swiftOSLog_$_MacinTalk
++ _swift_release_x8
++ _swift_task_alloc
++ _swift_task_dealloc
++ _swift_task_switch
++ _symbolic _____y_____G 12TextToSpeech28SynthesisEngineAudioUnitBaseC 13MacinTalkCore0ijE0C
+- +[MTFWrappedSpeechElement fromCPPElement:]
+- +[MTVoiceUtils loadVoiceBundle:]
+- -[MTFVoice .cxx_destruct]
+- -[MTFVoice _pcmData]
+- -[MTFVoice dealloc]
+- -[MTFVoice description]
+- -[MTFVoice pitchCoeff]
+- -[MTFVoice privateData]
+- -[MTFVoice setPitchCoeff:]
+- -[MTFVoice setVoiceData:]
+- -[MTFVoice setWrapped:]
+- -[MTFVoice set_pcmData:]
+- -[MTFVoice voiceData]
+- -[MTFVoice wrapped]
+- -[MTFWrappedCommand elem]
+- -[MTFWrappedHomograph elem]
+- -[MTFWrappedIntermediatePhrase elem]
+- -[MTFWrappedIntonationalPhrase elem]
+- -[MTFWrappedPhoneme elem]
+- -[MTFWrappedPhoneme name]
+- -[MTFWrappedSentence elem]
+- -[MTFWrappedSentence fBaseFloor]
+- -[MTFWrappedSentence fBaseRange]
+- -[MTFWrappedSentence fBaseRate]
+- -[MTFWrappedSentence fDuration]
+- -[MTFWrappedSentence fFinalRate]
+- -[MTFWrappedSentence fFlags]
+- -[MTFWrappedSentence fNumWords]
+- -[MTFWrappedSpeechElement FirstChild]
+- -[MTFWrappedSpeechElement LastChild]
+- -[MTFWrappedSpeechElement NextSibling]
+- -[MTFWrappedSpeechElement NumChildren]
+- -[MTFWrappedSpeechElement Parent]
+- -[MTFWrappedSpeechElement PrevSibling]
+- -[MTFWrappedSpeechElement dealloc]
+- -[MTFWrappedSpeechElement elem]
+- -[MTFWrappedSpeechElement initWithCppElement:]
+- -[MTFWrappedSpeechElement setUnOwned:]
+- -[MTFWrappedSpeechElement setWrapped:]
+- -[MTFWrappedSpeechElement unOwned]
+- -[MTFWrappedSpeechElement wrapped]
+- -[MTFWrappedSyllable elem]
+- -[MTFWrappedWord elem]
+- -[MTFWrappedWord fGroupPOS]
+- -[MTFWrappedWord fResolvedPOS]
+- -[MTFWrappedWord fText]
+- -[MTFrontendSimple builder]
+- -[MTFrontendSimple dealloc]
+- -[MTFrontendSimple fDictLookup]
+- -[MTFrontendSimple fLexer]
+- -[MTFrontendSimple fPronouncer]
+- -[MTFrontendSimple fTextSource]
+- -[MTFrontendSimple initWithString:]
+- -[MTFrontendSimple initWithStringAndLocale:locale:]
+- -[MTFrontendSimple nextObject]
+- -[MTFrontendSimple setBuilder:]
+- -[MTFrontendSimple setFDictLookup:]
+- -[MTFrontendSimple setFLexer:]
+- -[MTFrontendSimple setFPronouncer:]
+- -[MTFrontendSimple setFTextSource:]
+- -[MTWrappedPhraseProcessor .cxx_destruct]
+- -[MTWrappedPhraseProcessor currentSampleCount]
+- -[MTWrappedPhraseProcessor dealloc]
+- -[MTWrappedPhraseProcessor defaultModulation]
+- -[MTWrappedPhraseProcessor delegate]
+- -[MTWrappedPhraseProcessor fPParams]
+- -[MTWrappedPhraseProcessor finishedSampleGeneration]
+- -[MTWrappedPhraseProcessor format]
+- -[MTWrappedPhraseProcessor frontend]
+- -[MTWrappedPhraseProcessor generatedSampleForPhoneme:]
+- -[MTWrappedPhraseProcessor generatedSampleForSync:]
+- -[MTWrappedPhraseProcessor generatedSampleForWord:length:]
+- -[MTWrappedPhraseProcessor initWithVoice:frontend:]
+- -[MTWrappedPhraseProcessor nextBuffer]
+- -[MTWrappedPhraseProcessor notifier]
+- -[MTWrappedPhraseProcessor pitchModulation]
+- -[MTWrappedPhraseProcessor processNextPhrase]
+- -[MTWrappedPhraseProcessor processor]
+- -[MTWrappedPhraseProcessor resetState]
+- -[MTWrappedPhraseProcessor saveState]
+- -[MTWrappedPhraseProcessor setCurrentSampleCount:]
+- -[MTWrappedPhraseProcessor setDefaultModulation:]
+- -[MTWrappedPhraseProcessor setDelegate:]
+- -[MTWrappedPhraseProcessor setFPParams:]
+- -[MTWrappedPhraseProcessor setFormat:]
+- -[MTWrappedPhraseProcessor setFrontend:]
+- -[MTWrappedPhraseProcessor setNotifier:]
+- -[MTWrappedPhraseProcessor setPitchModulation:]
+- -[MTWrappedPhraseProcessor setProcessor:]
+- -[MTWrappedPhraseProcessor setResetState:]
+- -[MTWrappedPhraseProcessor setSaveState:]
+- -[MTWrappedPhraseProcessor setVoice:]
+- -[MTWrappedPhraseProcessor voice]
+- GCC_except_table0
+- GCC_except_table1
+- GCC_except_table10
+- GCC_except_table103
+- GCC_except_table11
+- GCC_except_table12
+- GCC_except_table13
+- GCC_except_table14
+- GCC_except_table15
+- GCC_except_table16
+- GCC_except_table17
+- GCC_except_table18
+- GCC_except_table19
+- GCC_except_table2
+- GCC_except_table20
+- GCC_except_table21
+- GCC_except_table22
+- GCC_except_table23
+- GCC_except_table24
+- GCC_except_table25
+- GCC_except_table26
+- GCC_except_table27
+- GCC_except_table28
+- GCC_except_table29
+- GCC_except_table3
+- GCC_except_table30
+- GCC_except_table31
+- GCC_except_table32
+- GCC_except_table33
+- GCC_except_table34
+- GCC_except_table35
+- GCC_except_table36
+- GCC_except_table37
+- GCC_except_table38
+- GCC_except_table39
+- GCC_except_table4
+- GCC_except_table40
+- GCC_except_table41
+- GCC_except_table42
+- GCC_except_table44
+- GCC_except_table45
+- GCC_except_table46
+- GCC_except_table47
+- GCC_except_table48
+- GCC_except_table49
+- GCC_except_table5
+- GCC_except_table50
+- GCC_except_table52
+- GCC_except_table54
+- GCC_except_table55
+- GCC_except_table56
+- GCC_except_table58
+- GCC_except_table59
+- GCC_except_table6
+- GCC_except_table60
+- GCC_except_table61
+- GCC_except_table62
+- GCC_except_table65
+- GCC_except_table67
+- GCC_except_table7
+- GCC_except_table72
+- GCC_except_table76
+- GCC_except_table79
+- GCC_except_table8
+- GCC_except_table9
+- GCC_except_table91
+- GCC_except_table93
+- _AXTTSLogCommon
+- _AudioComponentCount
+- _AudioComponentRegister
+- _AudioConverterDispose
+- _AudioConverterFillComplexBuffer
+- _AudioConverterNew
+- _AudioConverterReset
+- _AudioConverterSetProperty
+- _AudioFormatGetProperty
+- _CEMCreateEmojiLocaleData
+- _CEMEmojiTokenCopyName
+- _CEMEmojiTokenCreateWithString
+- _CEMEmojiTokenGetString
+- _CEMEnumerateEmojiTokensInStringWithLocaleAndBlock
+- _CEMStringContainsEmoji
+- _CFAbsoluteTimeGetCurrent
+- _CFArrayAppendValue
+- _CFArrayCreate
+- _CFArrayCreateMutable
+- _CFArrayGetCount
+- _CFArrayGetValueAtIndex
+- _CFBooleanGetTypeID
+- _CFBooleanGetValue
+- _CFBundleCopyResourceURL
+- _CFBundleCreate
+- _CFBundleGetIdentifier
+- _CFDataCreate
+- _CFDataGetBytePtr
+- _CFDataGetLength
+- _CFDictionaryCreate
+- _CFDictionaryCreateCopy
+- _CFDictionaryGetTypeID
+- _CFDictionaryGetValue
+- _CFDictionaryGetValueIfPresent
+- _CFErrorCreateWithUserInfoKeysAndValues
+- _CFGetTypeID
+- _CFLocaleCreate
+- _CFNumberCreate
+- _CFNumberGetTypeID
+- _CFNumberGetValue
+- _CFPreferencesCopyAppValue
+- _CFPropertyListCreateWithStream
+- _CFReadStreamCreateWithFile
+- _CFReadStreamOpen
+- _CFRelease
+- _CFRetain
+- _CFStringAppend
+- _CFStringCompare
+- _CFStringCreateCopy
+- _CFStringCreateExternalRepresentation
+- _CFStringCreateMutableCopy
+- _CFStringCreateWithCString
+- _CFStringCreateWithCStringNoCopy
+- _CFStringGetCString
+- _CFStringGetCStringPtr
+- _CFStringGetCharacterAtIndex
+- _CFStringGetCharacters
+- _CFStringGetCharactersPtr
+- _CFStringGetLength
+- _CFStringGetMaximumSizeForEncoding
+- _CFStringInsert
+- _CFStringReplace
+- _CFURLCopyFileSystemPath
+- _MEOWDistPrecompAddCandidates
+- _MEOWDistPrecompCompute
+- _MEOWDistPrecompEnd
+- _MEOWDistPrecompGetInfo
+- _MEOWDistPrecompGetNorm
+- _MEOWDistPrecompStart
+- _MTBEBufferWriteFun
+- _MTMBCrossfade
+- _OBJC_CLASS_$_AUAudioUnit
+- _OBJC_CLASS_$_AUAudioUnitBus
+- _OBJC_CLASS_$_AUAudioUnitBusArray
+- _OBJC_CLASS_$_AVAudioFormat
+- _OBJC_CLASS_$_AVAudioPCMBuffer
+- _OBJC_CLASS_$_AVSpeechSynthesisMarker
+- _OBJC_CLASS_$_AVSpeechSynthesisProviderRequest
+- _OBJC_CLASS_$_AVSpeechSynthesisProviderVoice
+- _OBJC_CLASS_$_MTFVoice
+- _OBJC_CLASS_$_MTFWrappedCommand
+- _OBJC_CLASS_$_MTFWrappedHomograph
+- _OBJC_CLASS_$_MTFWrappedIntermediatePhrase
+- _OBJC_CLASS_$_MTFWrappedIntonationalPhrase
+- _OBJC_CLASS_$_MTFWrappedPhoneme
+- _OBJC_CLASS_$_MTFWrappedSentence
+- _OBJC_CLASS_$_MTFWrappedSpeechElement
+- _OBJC_CLASS_$_MTFWrappedSyllable
+- _OBJC_CLASS_$_MTFWrappedWord
+- _OBJC_CLASS_$_MTFrontendSimple
+- _OBJC_CLASS_$_MTVoiceUtils
+- _OBJC_CLASS_$_MTWrappedPhraseProcessor
+- _OBJC_CLASS_$_NSConstantDoubleNumber
+- _OBJC_CLASS_$_NSEnumerator
+- _OBJC_CLASS_$_NSLocale
+- _OBJC_CLASS_$_NSNumber
+- _OBJC_CLASS_$_NSObject
+- _OBJC_CLASS_$_NSString
+- _OBJC_CLASS_$_TTSRulesetRunner
+- _OBJC_CLASS_$_TTSSpeechString
+- _OBJC_CLASS_$__TtC9MacinTalk24MTMacinTalkAUSPAudioUnit
+- _OBJC_IVAR_$_MTFVoice.__pcmData
+- _OBJC_IVAR_$_MTFVoice._pitchCoeff
+- _OBJC_IVAR_$_MTFVoice._voiceData
+- _OBJC_IVAR_$_MTFVoice._wrapped
+- _OBJC_IVAR_$_MTFWrappedSpeechElement._NumChildren
+- _OBJC_IVAR_$_MTFWrappedSpeechElement._unOwned
+- _OBJC_IVAR_$_MTFWrappedSpeechElement._wrapped
+- _OBJC_IVAR_$_MTFrontendSimple._builder
+- _OBJC_IVAR_$_MTFrontendSimple._fDictLookup
+- _OBJC_IVAR_$_MTFrontendSimple._fLexer
+- _OBJC_IVAR_$_MTFrontendSimple._fPronouncer
+- _OBJC_IVAR_$_MTFrontendSimple._fTextSource
+- _OBJC_IVAR_$_MTWrappedPhraseProcessor._currentSampleCount
+- _OBJC_IVAR_$_MTWrappedPhraseProcessor._defaultModulation
+- _OBJC_IVAR_$_MTWrappedPhraseProcessor._delegate
+- _OBJC_IVAR_$_MTWrappedPhraseProcessor._fPParams
+- _OBJC_IVAR_$_MTWrappedPhraseProcessor._format
+- _OBJC_IVAR_$_MTWrappedPhraseProcessor._frontend
+- _OBJC_IVAR_$_MTWrappedPhraseProcessor._notifier
+- _OBJC_IVAR_$_MTWrappedPhraseProcessor._pitchModulation
+- _OBJC_IVAR_$_MTWrappedPhraseProcessor._processor
+- _OBJC_IVAR_$_MTWrappedPhraseProcessor._resetState
+- _OBJC_IVAR_$_MTWrappedPhraseProcessor._saveState
+- _OBJC_IVAR_$_MTWrappedPhraseProcessor._voice
+- _OBJC_METACLASS_$_MTFVoice
+- _OBJC_METACLASS_$_MTFWrappedCommand
+- _OBJC_METACLASS_$_MTFWrappedHomograph
+- _OBJC_METACLASS_$_MTFWrappedIntermediatePhrase
+- _OBJC_METACLASS_$_MTFWrappedIntonationalPhrase
+- _OBJC_METACLASS_$_MTFWrappedPhoneme
+- _OBJC_METACLASS_$_MTFWrappedSentence
+- _OBJC_METACLASS_$_MTFWrappedSpeechElement
+- _OBJC_METACLASS_$_MTFWrappedSyllable
+- _OBJC_METACLASS_$_MTFWrappedWord
+- _OBJC_METACLASS_$_MTFrontendSimple
+- _OBJC_METACLASS_$_MTVoiceUtils
+- _OBJC_METACLASS_$_MTWrappedPhraseProcessor
+- _OBJC_METACLASS_$_NSEnumerator
+- _OBJC_METACLASS_$__TtC12TextToSpeech27TTSMagicFirstPartyAudioUnit
+- _OUTLINED_FUNCTION_0
+- _SLHomographCopyTune
+- _SLHomographGetPOS
+- _SLHomographGetPhonemes
+- _SLHomographGetTags
+- _SLTokenCountHomographs
+- _SLTokenCreateTemp
+- _SLTokenGetClass
+- _SLTokenGetHomograph
+- _SLTokenGetInfo
+- _SLTokenGetText
+- _SLTokenGetTupleGroup
+- _SLTokenRelease
+- _SpeechBusy
+- __Block_copy
+- __Block_object_dispose
+- __Block_release
+- __CLASS_METHODS__TtC9MacinTalk24MTMacinTalkAUSPAudioUnit
+- __DefaultRuneLocale
+- __GLOBAL__sub_I_MT3Processing.cp
+- __GLOBAL__sub_I_MT3SpeechChannelMgt.cp
+- __GLOBAL__sub_I_MTFEPhoneme.cp
+- __NSConcreteGlobalBlock
+- __NSConcreteStackBlock
+- __OBJC_$_CLASS_METHODS_MTFWrappedSpeechElement
+- __OBJC_$_CLASS_METHODS_MTVoiceUtils
+- __OBJC_$_INSTANCE_METHODS_MTFVoice
+- __OBJC_$_INSTANCE_METHODS_MTFWrappedCommand
+- __OBJC_$_INSTANCE_METHODS_MTFWrappedHomograph
+- __OBJC_$_INSTANCE_METHODS_MTFWrappedIntermediatePhrase
+- __OBJC_$_INSTANCE_METHODS_MTFWrappedIntonationalPhrase
+- __OBJC_$_INSTANCE_METHODS_MTFWrappedPhoneme
+- __OBJC_$_INSTANCE_METHODS_MTFWrappedSentence
+- __OBJC_$_INSTANCE_METHODS_MTFWrappedSpeechElement
+- __OBJC_$_INSTANCE_METHODS_MTFWrappedSyllable
+- __OBJC_$_INSTANCE_METHODS_MTFWrappedWord
+- __OBJC_$_INSTANCE_METHODS_MTFrontendSimple
+- __OBJC_$_INSTANCE_METHODS_MTWrappedPhraseProcessor
+- __OBJC_$_INSTANCE_VARIABLES_MTFVoice
+- __OBJC_$_INSTANCE_VARIABLES_MTFWrappedSpeechElement
+- __OBJC_$_INSTANCE_VARIABLES_MTFrontendSimple
+- __OBJC_$_INSTANCE_VARIABLES_MTWrappedPhraseProcessor
+- __OBJC_$_PROP_LIST_MTFVoice
+- __OBJC_$_PROP_LIST_MTFWrappedPhoneme
+- __OBJC_$_PROP_LIST_MTFWrappedSentence
+- __OBJC_$_PROP_LIST_MTFWrappedSpeechElement
+- __OBJC_$_PROP_LIST_MTFWrappedWord
+- __OBJC_$_PROP_LIST_MTFrontendSimple
+- __OBJC_$_PROP_LIST_MTWrappedPhraseProcessor
+- __OBJC_$_PROTOCOL_CLASS_METHODS_TTSFirstPartyAURegistrar
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_MacinTalkPhraseProcessorDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_MacinTalkPhraseProcessorDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_TTSFirstPartyAURegistrar
+- __OBJC_CLASS_RO_$_MTFVoice
+- __OBJC_CLASS_RO_$_MTFWrappedCommand
+- __OBJC_CLASS_RO_$_MTFWrappedHomograph
+- __OBJC_CLASS_RO_$_MTFWrappedIntermediatePhrase
+- __OBJC_CLASS_RO_$_MTFWrappedIntonationalPhrase
+- __OBJC_CLASS_RO_$_MTFWrappedPhoneme
+- __OBJC_CLASS_RO_$_MTFWrappedSentence
+- __OBJC_CLASS_RO_$_MTFWrappedSpeechElement
+- __OBJC_CLASS_RO_$_MTFWrappedSyllable
+- __OBJC_CLASS_RO_$_MTFWrappedWord
+- __OBJC_CLASS_RO_$_MTFrontendSimple
+- __OBJC_CLASS_RO_$_MTVoiceUtils
+- __OBJC_CLASS_RO_$_MTWrappedPhraseProcessor
+- __OBJC_LABEL_PROTOCOL_$_MacinTalkPhraseProcessorDelegate
+- __OBJC_LABEL_PROTOCOL_$_TTSFirstPartyAURegistrar
+- __OBJC_METACLASS_RO_$_MTFVoice
+- __OBJC_METACLASS_RO_$_MTFWrappedCommand
+- __OBJC_METACLASS_RO_$_MTFWrappedHomograph
+- __OBJC_METACLASS_RO_$_MTFWrappedIntermediatePhrase
+- __OBJC_METACLASS_RO_$_MTFWrappedIntonationalPhrase
+- __OBJC_METACLASS_RO_$_MTFWrappedPhoneme
+- __OBJC_METACLASS_RO_$_MTFWrappedSentence
+- __OBJC_METACLASS_RO_$_MTFWrappedSpeechElement
+- __OBJC_METACLASS_RO_$_MTFWrappedSyllable
+- __OBJC_METACLASS_RO_$_MTFWrappedWord
+- __OBJC_METACLASS_RO_$_MTFrontendSimple
+- __OBJC_METACLASS_RO_$_MTVoiceUtils
+- __OBJC_METACLASS_RO_$_MTWrappedPhraseProcessor
+- __OBJC_PROTOCOL_$_MacinTalkPhraseProcessorDelegate
+- __OBJC_PROTOCOL_$_TTSFirstPartyAURegistrar
+- __PROPERTIES__TtC9MacinTalk24MTMacinTalkAUSPAudioUnit
+- __PROTOCOLS__TtC9MacinTalk24MTMacinTalkAUSPAudioUnit
+- __PROTOCOLS__TtC9MacinTalk24MTMacinTalkAUSPAudioUnit.12
+- __Unwind_Resume
+- __Z10BitReversell
+- __Z10ComplexFFTPfS_lS_S_Ps
+- __Z11FrameToSampf
+- __Z11SetIntCoeffPK14__CFDictionaryPK10__CFStringPi
+- __Z11dot_productPKfS0_i
+- __Z12DoTextToPhonP20SpeechChannelManagerPK10__CFStringlP17MTBEWritePhonemes
+- __Z12IntersectionRK14LinearFunctionS1_
+- __Z12MEOWDistanceRK18MEOWDistanceCookieS1_
+- __Z12compute_normPKfi
+- __Z13GetCoeffValuePK14__CFDictionaryPK10__CFString
+- __Z13SetFloatCoeffPK14__CFDictionaryPK10__CFStringPf
+- __Z14BitRevFloatArrPflPs
+- __Z14BitRevShortArrPslS_
+- __Z14InitTrigTableslPfS_
+- __Z15InitBitRevTablelPs
+- __Z15MEOWTriphoneSumR10MEOWVectorI18MEOWDistanceCookieES2_PS0_S3_
+- __Z15MTFELastPhonemeP17MTFESpeechElement
+- __Z15SLFirstPOSInSetj
+- __Z16MTFEFirstPhonemeP17MTFESpeechElement
+- __Z16OpenResourceFileP10__CFBundlePK10__CFStringPl
+- __Z16dot_product_distPKfS0_i
+- __Z18MEOWRawSVDDistanceRK18MEOWDistanceCookieS1_
+- __Z19MEOWComputeUnitCostmmPKtmPKfS2_bPN4SLML6VectorIfEEPf
+- __Z20InitSpeechProcessingP20SpeechChannelManager
+- __Z20ReadResourceDataFileP10__CFBundlePK10__CFStringPPv
+- __Z20RealFFTPowerSpectrumPfS_lS_S_Ps
+- __Z20StopSpeechProcessingP20SpeechChannelManagerm
+- __Z21ClearSpeechProcessingP20SpeechChannelManager
+- __Z21MEOWComputeAccentCosthhPN4SLML6VectorIfEEPf
+- __Z21MEOWComputeBreathCostmmPN4SLML6VectorIfEEPf
+- __Z21PauseSpeechProcessingP20SpeechChannelManagerm
+- __Z21ResetSpeechProcessingP20SpeechChannelManager
+- __Z21SetLinearPitchTargetsNSt3__116__deque_iteratorI8MTMBDemiPS1_RS1_PS2_lLl36EEES5_S5_
+- __Z21StartSpeechProcessingP20SpeechChannelManagerb
+- __Z22MTBEWorkerExecuteTasksPv
+- __Z23MEOWComputeWordUnitCostmmPKtmPKfS2_PN4SLML6VectorIfEEPf
+- __Z23MEOWSVDDistanceExplicitRK18MEOWDistanceCookieS1_
+- __Z24ContinueSpeechProcessingP20SpeechChannelManager
+- __Z24RealFFTMagnitudeSpectrumPfS_lS_S_Ps
+- __Z24ShutdownSpeechProcessingP20SpeechChannelManager
+- __Z24TextToPhonemesProcessingP20SpeechChannelManagerPK10__CFStringlPS3_
+- __Z25SetCompromisePitchTargetsNSt3__116__deque_iteratorI8MTMBDemiPS1_RS1_PS2_lLl36EEES5_fff
+- __Z25SetCompromisePitchTargetsP8MTMBDemiS0_fff
+- __Z26SetLinearSlackPitchTargetsNSt3__116__deque_iteratorI8MTMBDemiPS1_RS1_PS2_lLl36EEES5_S5_
+- __Z27SLGetSpeechDictionaryBundlev
+- __Z28CreateMEOWSVDDistanceEncoderv
+- __Z31RealFFTPowerSpectrumNoiseCancelPfS_lS_S_PsS_
+- __Z4Log2l
+- __Z8GetParamPK10__CFString
+- __Z9MTBEAbortP17MTFESpeechElement
+- __Z9MTBEAbortP17MTFESpeechElement.cold.1
+- __Z9normalizePfi
+- __ZGVZN25MTMBSmartSegmentAssembler21CopyAssembledSegmentsEP8MTMBDemiE18kLinPowerThreshold
+- __ZL10TestOptionPK14__CFDictionaryPK10__CFString
+- __ZL10kDurWeight
+- __ZL10sBcoeffTbl
+- __ZL10sCcoeffTbl
+- __ZL10sLeftMatch
+- __ZL10sNoiseAmpF
+- __ZL10sNoiseAmpM
+- __ZL10savVolTblF
+- __ZL10savVolTblM
+- __ZL10scale_normiPfiPKf
+- __ZL11BlendingLogPKcRK11MTMBSegment
+- __ZL11DiphoneDicthhm
+- __ZL11PinPPTargetff
+- __ZL11kMapSamples
+- __ZL11kPitchPivot
+- __ZL11sAccentCost
+- __ZL11sEnvelopesF
+- __ZL11sEnvelopesM
+- __ZL11sRightMatch
+- __ZL11sb1FreqTblF
+- __ZL11sb1FreqTblM
+- __ZL11sb2FreqTblF
+- __ZL11sb2FreqTblM
+- __ZL11sb3FreqTblF
+- __ZL11sb3FreqTblM
+- __ZL11sf1FreqTblF
+- __ZL11sf1FreqTblM
+- __ZL11sf2FreqTblF
+- __ZL11sf2FreqTblM
+- __ZL11sf3FreqTblF
+- __ZL11sf3FreqTblM
+- __ZL12kRhotacizeAX
+- __ZL12kUsePitchRMS
+- __ZL12sHyphenAfter
+- __ZL12sTagMappings
+- __ZL13InitSchedulesv
+- __ZL13kBreathWeight
+- __ZL13kDumpOptCosts
+- __ZL13kMTFEDebugPOS
+- __ZL13kPowerClipMax
+- __ZL13kPreloadDemis
+- __ZL13kPreloadVoice
+- __ZL13kWordLeftBias
+- __ZL13sScheduleInit
+- __ZL14kDemiOptWeight
+- __ZL14kDemiThreshold
+- __ZL14kDurationPivot
+- __ZL14kMEOWNumSVDPPs
+- __ZL14kMTFEPitchDWIM
+- __ZL14kMTMBForceGlue
+- __ZL14kMTMBSkipWSOLA
+- __ZL14kMTXDebugParam
+- __ZL14kMissingWeight
+- __ZL14kModRateUseFFT
+- __ZL14kPitchExponent
+- __ZL14kWordOptWeight
+- __ZL14kWordThreshold
+- __ZL14sBegInsertName
+- __ZL14sDemiCacheLock
+- __ZL14sEndInsertName
+- __ZL15MEOWACFetchDataP20OpaqueAudioConverterPjP15AudioBufferListPP28AudioStreamPacketDescriptionPv
+- __ZL15kAmplitudeMinPP
+- __ZL15kMEOWDebugParam
+- __ZL15kMTMBFinalSlack
+- __ZL15kMTMBPitchSlack
+- __ZL15kWordPitchPivot
+- __ZL15sSampleSchedule
+- __ZL15sVoiceFormantsF
+- __ZL15sVoiceFormantsM
+- __ZL16kCostWindowSlope
+- __ZL16kDebugHomographs
+- __ZL16kMTMBBlendingLog
+- __ZL16kMTMBForceQXGlue
+- __ZL16kMTMBLinearSlack
+- __ZL16kMTMBPPThreshold
+- __ZL16kMTMBSilenceGlue
+- __ZL16kMaxBreathLength
+- __ZL16kUnvoicedPenalty
+- __ZL16sSampleCacheLock
+- __ZL17kAccentCostWeight
+- __ZL17kBreathProportion
+- __ZL17kCostWindowTrough
+- __ZL17kDiphoneOptWeight
+- __ZL17kDiphoneThreshold
+- __ZL17kDurationExponent
+- __ZL17kMTFELowFinalProm
+- __ZL17kMTFEPhrThreshold
+- __ZL17kMTFESilThreshold
+- __ZL17kMTMBEnforceTunes
+- __ZL17kUnvoicedWordCost
+- __ZL17kWordContextSubst
+- __ZL17kWordKeepWithNext
+- __ZL17kWordKeepWithPrev
+- __ZL17kWordLengthWeight
+- __ZL17kWordPhonMismatch
+- __ZL17sCallbackSchedule
+- __ZL18InitSearchSchedulev
+- __ZL18kAmplitudeMaxScale
+- __ZL18kAmplitudeMinScale
+- __ZL18kMTFEBoundaryModel
+- __ZL18kMTFEHighFinalProm
+- __ZL18kMTFELowPhraseProm
+- __ZL18kMTFESilencePhrase
+- __ZL18kMTMBBreathSpacing
+- __ZL18kMTMBDurationSlack
+- __ZL18kMTMBUsePostDurMod
+- __ZL18kMTMBWSOLAMaxScale
+- __ZL18kMTMBWSOLAMinScale
+- __ZL18kUnvoicedPitchCost
+- __ZL18kUseHeapBasedDemis
+- __ZL18kUseUnitCostWindow
+- __ZL18kVoicedPitchWeight
+- __ZL18kWordDurationPivot
+- __ZL18kWordInnerMismatch
+- __ZL18kWordOuterMismatch
+- __ZL18kWordPitchExponent
+- __ZL18sMEOWSpectralClass
+- __ZL19kDemiSpectralWeight
+- __ZL19kDemiUnitCostWeight
+- __ZL19kMTFEDowngradeVerbs
+- __ZL19kMTFEHighPhraseProm
+- __ZL19kMTMBForceGluePitch
+- __ZL19kMTMBPowerThreshold
+- __ZL19kMTMBSilenceConform
+- __ZL19kMTMBSmoothDuration
+- __ZL19kMTMBUseDiphoneGlue
+- __ZL19kMTMBUseLinearPitch
+- __ZL19kMTMBUseSlackWindow
+- __ZL19kPitchChangeUseHann
+- __ZL19kPitchPowerStrategy
+- __ZL19kTrackDecodingRatio
+- __ZL19kWordUnitCostWeight
+- __ZL19sMEOWDistPrecompute
+- __ZL19sUnitSearchSchedule
+- __ZL20kBlendUnvoicedWindow
+- __ZL20kExcessiveBreathCost
+- __ZL20kMTFEDebugBoundaries
+- __ZL20kMTFEExclamPromBoost
+- __ZL20kMTMBNumPPConsidered
+- __ZL20kMTMBPPRangeTheshold
+- __ZL20kMTMBUnvoicedBackoff
+- __ZL20kMTMBWSOLAMinSamples
+- __ZL20kMTMBWordLinearPitch
+- __ZL20kPitchDecreaseMinWin
+- __ZL20kPitchDecreaseWindow
+- __ZL20kPitchIncreaseWindow
+- __ZL20kUseOptimalWeighting
+- __ZL20sSoundOutputDoneTask
+- __ZL20sSynthesisDebugParam
+- __ZL21ComputeSectionLengthsRK14MEOWFileHeader
+- __ZL21kMTMBLogBoundaryPitch
+- __ZL21kWordDurationExponent
+- __ZL21kWordInstanceMismatch
+- __ZL21macinTalkOutputFormat
+- __ZL22kDiphoneSpectralWeight
+- __ZL22kDiphoneUnitCostWeight
+- __ZL22kDurationPowerStrategy
+- __ZL22kMTFEHighBoundaryWidth
+- __ZL22kMTMBBreathPhraseLimit
+- __ZL22kPitchDetectExcitation
+- __ZL23kMTMBAsynchronousSearch
+- __ZL23kMTMBBreathPhraseLength
+- __ZL23kMTMBConcurrencyTorture
+- __ZL23kMTMBDebugPitchAssembly
+- __ZL23kWordPitchPowerStrategy
+- __ZL23sSynthesisOverrideParam
+- __ZL24kAmplitudeScaleThreshold
+- __ZL24kMTFEVerbDowngradeFactor
+- __ZL24kMTMBBreathSentenceLimit
+- __ZL25kDoAmplitudeNormalization
+- __ZL25kMTFEDebugSingingDuration
+- __ZL25kMTMBBreathSentenceLength
+- __ZL25kMTMBLinearPitchBandwidth
+- __ZL25kMTMBLinearPitchUseMedian
+- __ZL26isCurrentlyProcessingEmoji
+- __ZL26kMTFEDeclFinalRaisingRatio
+- __ZL26kMTFEParagraphInitialBoost
+- __ZL26kMTMBBreathParagraphAdjust
+- __ZL26kPitchChangeHannProportion
+- __ZL26kWordDurationPowerStrategy
+- __ZL27kMTFEQuestFinalRaisingRatio
+- __ZL27sListOfActiveSpeechChannels
+- __ZL28kMTFEExclamFinalRaisingRatio
+- __ZL28sMacintalkSpeechChannelQueue
+- __ZL29kMTFEDeclFinalRaisingDuration
+- __ZL29kMTFEWHQuestFinalRaisingRatio
+- __ZL29kMTMBAllowHyphenatedWordUnits
+- __ZL30kMTFEQuestFinalRaisingDuration
+- __ZL30kMTMBPhonemeAmplitudeSmoothing
+- __ZL31kMTFEExclamFinalRaisingDuration
+- __ZL32kMTFEDownStepMonosyllabicPhrases
+- __ZL32kMTFEWHQuestFinalRaisingDuration
+- __ZL34kMTFEParagraphRangePhrasalDownStep
+- __ZL3addijRjS_
+- __ZL5sPrio
+- __ZL6sLociF
+- __ZL6sLociM
+- __ZL7longValPKv
+- __ZL7sCosTbl
+- __ZL8PrefetchPKhmm
+- __ZL8fixedValPKv
+- __ZL8sPosCost
+- __ZL9sDoneTask
+- __ZL9sMatchers
+- __ZN10MEOWReader10IsWordOnlyEPK8MEOWDemi
+- __ZN10MEOWReader10MappedSizeEim
+- __ZN10MEOWReader11GetAdjacentEPK8MEOWDemiRhS3_
+- __ZN10MEOWReader11GetAdjacentEhhbR10MEOWVectorIhES2_
+- __ZN10MEOWReader11GetUnitCostEhhmmmhhbPKfPfPN4SLML6VectorIfEES2_
+- __ZN10MEOWReader11GetWordDataERKNS_14WordDescriptorER10MEOWVectorI16MEOWWordInstanceERS3_IhE
+- __ZN10MEOWReader11GetWordDataERKNS_14WordDescriptorEmP16MEOWWordInstance
+- __ZN10MEOWReader11GetWordDataERKNS_14WordDescriptorEmPP16MEOWWordInstance
+- __ZN10MEOWReader11GetWordGlueERK16MEOWWordInstanceP12MEOWWordGlue
+- __ZN10MEOWReader11ReadSamplesEjjjPsPyS1_
+- __ZN10MEOWReader12DescribeDemiEhhmbPNS_14DemiDescriptorEPN8MEOWDist6PPDescER10MEOWVectorIsE
+- __ZN10MEOWReader12GetInclusionEhhmPNS_14DemiDescriptorE
+- __ZN10MEOWReader12GetUnitCostsEhhmmhhbbPKfRN4SLML6VectorIfEEPNS2_6MatrixIfEEPS4_P10MEOWVectorItE
+- __ZN10MEOWReader12GetVoicedPPsEPKNS_14DemiDescriptorEPN8MEOWDist6PPDescER10MEOWVectorIsE
+- __ZN10MEOWReader12GetWordEntryERK12MEOWWordDescPNS_14WordDescriptorE
+- __ZN10MEOWReader12PrefetchDemiEhhmb
+- __ZN10MEOWReader12TranslateTagEt
+- __ZN10MEOWReader13AdvisePreloadEiPvm
+- __ZN10MEOWReader13CountDiphonesEhh
+- __ZN10MEOWReader13GetDemiCookieEPK8MEOWDemibbP18MEOWDistanceCookie
+- __ZN10MEOWReader13GetDemiRecordEhhmb
+- __ZN10MEOWReader13TouchMetadataEv
+- __ZN10MEOWReader15GetGlobalParamsEh
+- __ZN10MEOWReader15GetSpectralCostEhhhhhmbPf
+- __ZN10MEOWReader15GetVoicelessPPsEPKNS_14DemiDescriptorEPN8MEOWDist6PPDescER10MEOWVectorIsE
+- __ZN10MEOWReader15InclusionLengthERK14MEOWDiphoneRef
+- __ZN10MEOWReader15MEOWAdvanceDemiERPK8MEOWDemihhj
+- __ZN10MEOWReader15PrefetchSamplesEjjj
+- __ZN10MEOWReader15SubstituteDemisERhS0_S0_S0_S0_
+- __ZN10MEOWReader15SubstituteFirstERhS0_
+- __ZN10MEOWReader16ComputeDemiCacheEhh
+- __ZN10MEOWReader16GetSpectralCostsEhhhhhbPf
+- __ZN10MEOWReader16SubstituteSecondERhS0_
+- __ZN10MEOWReader17GetDistanceCookieEhhmbP18MEOWDistanceCookie
+- __ZN10MEOWReader17GetWordDescriptorERK12MEOWWordDescPNS_14WordDescriptorE
+- __ZN10MEOWReader17ReadMetadataAsyncEv
+- __ZN10MEOWReader18GetDiphoneNeighborER14MEOWDiphoneRefb
+- __ZN10MEOWReader18GetDistanceCookiesEhhbR10MEOWVectorI18MEOWDistanceCookieEPS0_ItE
+- __ZN10MEOWReader18GetDistanceCookiesEhhbR10MEOWVectorI18MEOWDistanceCookieEPS0_ItE.cold.1
+- __ZN10MEOWReader19ComputeDemiListSizeEv
+- __ZN10MEOWReader20MakeMetadataResidentEi
+- __ZN10MEOWReader21HeapDemiForMappedDemiEPK8MEOWDemihhb
+- __ZN10MEOWReader24GetHomophoneClusterEntryEmPmS0_
+- __ZN10MEOWReader26PercentageResidentMetadataEv
+- __ZN10MEOWReader7GetDemiEPK8MEOWDemibPNS_14DemiDescriptorE
+- __ZN10MEOWReader7GetDemiERK14MEOWDiphoneRefbPNS_14DemiDescriptorE
+- __ZN10MEOWReader7GetWordERK16MEOWWordInstancePNS_14DemiDescriptorEbb
+- __ZN10MEOWReader7IsAliasEPK8MEOWDemiPt
+- __ZN10MEOWReader9NoSkipDupEhb
+- __ZN10MEOWReaderC1EiPKvc
+- __ZN10MEOWReaderC2EiPKvc
+- __ZN10MEOWReaderC2EiPKvc.cold.1
+- __ZN10MEOWReaderD1Ev
+- __ZN10MEOWReaderD2Ev
+- __ZN10MEOWVectorIfEC2EPKfS2_
+- __ZN10MEOWVectorIfEaSERKS0_
+- __ZN10MTBEWorker10PurgeTasksEPNS_4TaskE
+- __ZN10MTBEWorker10PurgeTasksEPv
+- __ZN10MTBEWorker12ExecuteTasksEv
+- __ZN10MTBEWorker12PendingTasksEPNS_4TaskE
+- __ZN10MTBEWorker14SleepTillReadyEv
+- __ZN10MTBEWorker4TaskD0Ev
+- __ZN10MTBEWorker4TaskD1Ev
+- __ZN10MTBEWorker4TaskD2Ev
+- __ZN10MTBEWorker5PurgeEv
+- __ZN10MTBEWorker7AddTaskEPNS_4TaskEPv
+- __ZN10MTBEWorker7AddTaskEPNS_4TaskEPvRK8MTBETime
+- __ZN10MTBEWorker8DebugLogEPKcz
+- __ZN10MTBEWorker8sBigBangE
+- __ZN10MTBEWorker9TimestampE8MTBETimePc
+- __ZN10MTBEWorkerC1EPKc
+- __ZN10MTBEWorkerC2EPKc
+- __ZN10MTBEWorkerC2EPKc.cold.1
+- __ZN10MTBEWorkerD1Ev
+- __ZN10MTBEWorkerD2Ev
+- __ZN10MTFEMelody12SetTransposeEi
+- __ZN10MTFEMelody14DurationFramesEmf
+- __ZN10MTFEMelody14SilenceSamplesEmf
+- __ZN10MTFEMelody15DurationSamplesEmf
+- __ZN10MTFEMelody5PitchEm
+- __ZN10MTFEMelody8AddNotesEPK8__CFData
+- __ZN10MTFEMelody8DurationEm
+- __ZN10MTFEMelody8SetSwingEj
+- __ZN10MTFEMelody9SplitNoteEmi
+- __ZN10MTFEMelodyC1Ev
+- __ZN10MTFEMelodyC2Ev
+- __ZN10PROWReader11ReadSamplesEjjPs
+- __ZN10PROWReader7GetDemiEhhbPNS_14DemiDescriptorE
+- __ZN10PROWReader9NoSkipDupEhb
+- __ZN10PROWReaderC1EPKvb
+- __ZN10PROWReaderC2EPKvb
+- __ZN10PROWReaderD1Ev
+- __ZN10PROWReaderD2Ev
+- __ZN10SLMMapHintD2Ev
+- __ZN11MEOWDecoder15CreateACDecoderERK16MEOWACCodecParam
+- __ZN11MEOWDecoder15CreateQTDecoderERK16MEOWQTCodecParam
+- __ZN11MEOWDecoder21CreateCodebookDecoderEthbbRPKv
+- __ZN11MEOWDecoder25CreateUncompressedDecoderEv
+- __ZN11MEOWDecoderD0Ev
+- __ZN11MEOWDecoderD1Ev
+- __ZN11MEOWDecoderD2Ev
+- __ZN11MTFEBuilder10MakePhraseEv
+- __ZN11MTFEBuilder11ProcessWordEP7SLTokenb
+- __ZN11MTFEBuilder12EndParagraphEb
+- __ZN11MTFEBuilder12MakeSentenceEv
+- __ZN11MTFEBuilder12ResetProductEb
+- __ZN11MTFEBuilder13ParseSentenceEv
+- __ZN11MTFEBuilder13ProcessInsertEP7SLTokenb
+- __ZN11MTFEBuilder13ProcessMelodyEP7SLToken
+- __ZN11MTFEBuilder14ProcessCommandEP7SLToken
+- __ZN11MTFEBuilder16ProcessHomographEP8MTFEWordP11SLHomograph
+- __ZN11MTFEBuilder17ProcessInsertWordEP7SLTokenb
+- __ZN11MTFEBuilder18ProcessPunctuationEP7SLToken
+- __ZN11MTFEBuilder21EndIntonationalPhraseEb
+- __ZN11MTFEBuilder22MakeIntonationalPhraseEv
+- __ZN11MTFEBuilder9PeekTokenEv
+- __ZN11MTFEBuilderC1EP7SLLexer
+- __ZN11MTFEBuilderC2EP7SLLexer
+- __ZN11MTFEBuilderD0Ev
+- __ZN11MTFEBuilderD1Ev
+- __ZN11MTFEBuilderD2Ev
+- __ZN11MTFECommand5VisitER17MTFESpeechVisitor
+- __ZN11MTFECommandD0Ev
+- __ZN11MTFECommandD1Ev
+- __ZN11MTFEPhoneme5VisitER17MTFESpeechVisitor
+- __ZN11MTFEPhonemeC1Eh
+- __ZN11MTFEPhonemeC2Eh
+- __ZN11MTFEPhonemeD0Ev
+- __ZN11MTFEPhonemeD1Ev
+- __ZN11MTFEPhonemeD2Ev
+- __ZN11MTMBModRate22CreateConcreteModifierEv
+- __ZN11MTMBModRateD0Ev
+- __ZN11MTMBModRateD1Ev
+- __ZN11MTMBModRateD2Ev
+- __ZN11MTMBSegment13SetPropertiesEPK18MTMBDemiProperties
+- __ZN11MTMBSegment4FreeEv
+- __ZN11MTMBSegment4GrowEi
+- __ZN11MTMBSegment6ModifyEv
+- __ZN11MTMBSegment8AbstractEPKfib
+- __ZN11MTMBSegment8AllocateEi
+- __ZN11PROWPhonEng4sP2ME
+- __ZN11PROWPhonEng5sNameE
+- __ZN11PROWPhonEng7sVoicedE
+- __ZN11SLMMapCache3MapEPK7__CFURLP10SLMMapHint
+- __ZN11SLMMapCache5UnmapEPv
+- __ZN12MEOWMMapHint10MappedSizeEv
+- __ZN12MEOWMMapHintD0Ev
+- __ZN12MEOWMMapHintD1Ev
+- __ZN12MEOWPPReader10SegmentEndEv
+- __ZN12MEOWPPReader11FindSegmentEPKv
+- __ZN12MEOWPPReaderC2EP10MEOWReaderjt
+- __ZN12MEOWPPReaderD0Ev
+- __ZN12MEOWPPReaderD1Ev
+- __ZN12MEOWPPReaderD2Ev
+- __ZN12MEOWTreeBase4SwapERS_
+- __ZN12MEOWTreeBase5clearEv
+- __ZN12MEOWTreeBase6InsertEPKvRK16MEOWTreeIterBase
+- __ZN12MEOWTreeBaseC2Em
+- __ZN12MEOWTreeBaseD0Ev
+- __ZN12MEOWTreeBaseD1Ev
+- __ZN12MEOWTreeBaseD2Ev
+- __ZN12MEOWTreePage11DoRebalanceEmmmb
+- __ZN12MEOWTreePage11SanityCheckEib
+- __ZN12MEOWTreePage4NextEiR16MEOWTreeIterBase
+- __ZN12MEOWTreePage5BeginEiR16MEOWTreeIterBase
+- __ZN12MEOWTreePage5SplitEm
+- __ZN12MEOWTreePage6InsertEiPKvRK16MEOWTreeIterBase
+- __ZN12MEOWTreePage7SetTreeEP12MEOWTreeBase
+- __ZN12MEOWTreePage9RebalanceEmb
+- __ZN12MEOWTreePageC1EP14MEOWTreeBranchP12MEOWTreeBase
+- __ZN12MEOWTreePageC2EP14MEOWTreeBranchP12MEOWTreeBase
+- __ZN12MEOWTreePageD0Ev
+- __ZN12MEOWTreePageD1Ev
+- __ZN12MEOWTreePageD2Ev
+- __ZN12MT3BNotifier10NotifySyncEji
+- __ZN12MT3BNotifier10NotifyWordEmti
+- __ZN12MT3BNotifier11NotifyErrorEsl
+- __ZN12MT3BNotifier11WantPhonemeEv
+- __ZN12MT3BNotifier13NotifyPhonemeEsii
+- __ZN12MT3BNotifier14NotifyTextDoneEPPKvPmPi
+- __ZN12MT3BNotifier14ResetFromVoiceEPvb
+- __ZN12MT3BNotifier14WantSpeechDoneEv
+- __ZN12MT3BNotifier8WantSyncEv
+- __ZN12MT3BNotifier8WantWordEv
+- __ZN12MT3BNotifierD0Ev
+- __ZN12MT3BNotifierD1Ev
+- __ZN12MTBEDoneTask7ExecuteEPv
+- __ZN12MTBEDoneTaskD0Ev
+- __ZN12MTBEDoneTaskD1Ev
+- __ZN12MTBENotifier10NotifySyncEji
+- __ZN12MTBENotifier10NotifyWordEmti
+- __ZN12MTBENotifier11NotifyErrorEsl
+- __ZN12MTBENotifier11WantPhonemeEv
+- __ZN12MTBENotifier13NotifyPhonemeEsii
+- __ZN12MTBENotifier14NotifyTextDoneEPPKvPmPi
+- __ZN12MTBENotifier14ResetFromVoiceEPvb
+- __ZN12MTBENotifier14WantSpeechDoneEv
+- __ZN12MTBENotifier16NotifySpeechDoneEi
+- __ZN12MTBENotifier8WantSyncEv
+- __ZN12MTBENotifier8WantWordEv
+- __ZN12MTBENotifierC1Ev
+- __ZN12MTBENotifierC2Ev
+- __ZN12MTBENotifierD0Ev
+- __ZN12MTBENotifierD1Ev
+- __ZN12MTBENotifierD2Ev
+- __ZN12MTFECommands5VisitER17MTFESpeechVisitor
+- __ZN12MTFECommandsD0Ev
+- __ZN12MTFECommandsD1Ev
+- __ZN12MTFEDuration11sPhonToPhonE
+- __ZN12MTFEDuration12ModelPhonemeEhbiiiibbPf
+- __ZN12MTFEDuration12VisitPhonemeEP11MTFEPhoneme
+- __ZN12MTFEDuration13VisitSyllableEP12MTFESyllable
+- __ZN12MTFEDuration13sPhonToDClassE
+- __ZN12MTFEDuration13sPhonToGClassE
+- __ZN12MTFEDuration13sPhonToPClassE
+- __ZN12MTFEDuration14sPhonToLCClassE
+- __ZN12MTFEDuration14sPhonToRCClassE
+- __ZN12MTFEDuration21AdjustDurationForFlapEP11MTFEPhoneme
+- __ZN12MTFEDuration23VisitIntermediatePhraseEP22MTFEIntermediatePhrase
+- __ZN12MTFEDuration23VisitIntonationalPhraseEP22MTFEIntonationalPhrase
+- __ZN12MTFEDuration27AdjustDurationForAspirationEP11MTFEPhoneme
+- __ZN12MTFEDuration7sCoeffsE
+- __ZN12MTFEDuration9TransformEif
+- __ZN12MTFEDuration9VisitWordEP8MTFEWord
+- __ZN12MTFEDurationC1EP9MTBEParamPK9MT3BVoice
+- __ZN12MTFEDurationC2EP9MTBEParamPK9MT3BVoice
+- __ZN12MTFEDurationD0Ev
+- __ZN12MTFEDurationD1Ev
+- __ZN12MTFEMelodize13VisitSyllableEP12MTFESyllable
+- __ZN12MTFEMelodize23VisitIntonationalPhraseEP22MTFEIntonationalPhrase
+- __ZN12MTFEMelodize9VisitWordEP8MTFEWord
+- __ZN12MTFEMelodizeD0Ev
+- __ZN12MTFEMelodizeD1Ev
+- __ZN12MTFEPhrasing23VisitIntonationalPhraseEP22MTFEIntonationalPhrase
+- __ZN12MTFEPhrasing9VisitWordEP8MTFEWord
+- __ZN12MTFEPhrasingD0Ev
+- __ZN12MTFEPhrasingD1Ev
+- __ZN12MTFESentence5VisitER17MTFESpeechVisitor
+- __ZN12MTFESentence8FlagNameEi
+- __ZN12MTFESentence9flagNamesE
+- __ZN12MTFESentenceC1Efff
+- __ZN12MTFESentenceC2Efff
+- __ZN12MTFESentenceD0Ev
+- __ZN12MTFESentenceD1Ev
+- __ZN12MTFESyllable5VisitER17MTFESpeechVisitor
+- __ZN12MTFESyllableC1Ev
+- __ZN12MTFESyllableC2Ev
+- __ZN12MTFESyllableD0Ev
+- __ZN12MTFESyllableD1Ev
+- __ZN12MTPBNotifier14ResetFromVoiceEPvb
+- __ZN12MTPBNotifierD0Ev
+- __ZN12MTPBNotifierD1Ev
+- __ZN12PPRingBuffer5clearEv
+- __ZN12PPRingBuffer9push_backEt
+- __ZN12SLDictLookup20CreatePhonemeSymbolsEPK10__CFLocale
+- __ZN12SLDictLookup6CreateEPK10__CFLocale
+- __ZN12SLDictionaryC2Ev
+- __ZN12SLDictionaryD2Ev
+- __ZN12SLPronouncer6CreateEPK10__CFLocalePK12SLDictLookup
+- __ZN12SLWordTagSet5eraseEt
+- __ZN13MEOWACDecoder6DecodeEjPKvjjjPs
+- __ZN13MEOWACDecoder8LoadOpusEv
+- __ZN13MEOWACDecoder8LoadOpusEv.cold.1
+- __ZN13MEOWACDecoderC1ERK16MEOWACCodecParam
+- __ZN13MEOWACDecoderC1ERK16MEOWQTCodecParam
+- __ZN13MEOWACDecoderC2ERK16MEOWACCodecParam
+- __ZN13MEOWACDecoderC2ERK16MEOWACCodecParam.cold.1
+- __ZN13MEOWACDecoderC2ERK16MEOWQTCodecParam
+- __ZN13MEOWACDecoderD0Ev
+- __ZN13MEOWACDecoderD1Ev
+- __ZN13MEOWACDecoderD2Ev
+- __ZN13MTBEWriteTune10WriteFloatEf
+- __ZN13MTBEWriteTune12VisitCommandEP11MTFECommand
+- __ZN13MTBEWriteTune12VisitPhonemeEP11MTFEPhoneme
+- __ZN13MTBEWriteTune16WriteVoiceParamsEfffbb
+- __ZN13MTBEWriteTune23VisitIntonationalPhraseEP22MTFEIntonationalPhrase
+- __ZN13MTBEWriteTune9VisitWordEP8MTFEWord
+- __ZN13MTBEWriteTuneD0Ev
+- __ZN13MTBEWriteTuneD1Ev
+- __ZN13MTFEHomograph5VisitER17MTFESpeechVisitor
+- __ZN13MTFEHomographD0Ev
+- __ZN13MTFEHomographD1Ev
+- __ZN13MTFEToBIPitch10BeginBoostEfc
+- __ZN13MTFEToBIPitch10LowForPromEiPKNS_5TokenEf
+- __ZN13MTFEToBIPitch10LowStarLegEiPKNS_5TokenE
+- __ZN13MTFEToBIPitch10PitchValueEiPKNS_5TokenE
+- __ZN13MTFEToBIPitch11HighForPromEiPKNS_5TokenEf
+- __ZN13MTFEToBIPitch11HighStarLegEiPKNS_5TokenE
+- __ZN13MTFEToBIPitch11SlopeFromToEPffS0_f
+- __ZN13MTFEToBIPitch12BoostedRangeEiPKNS_5TokenE
+- __ZN13MTFEToBIPitch12VisitCommandEP11MTFECommand
+- __ZN13MTFEToBIPitch12VisitPhonemeEP11MTFEPhoneme
+- __ZN13MTFEToBIPitch13DownStepBoostEv
+- __ZN13MTFEToBIPitch13FinalLoweringEi
+- __ZN13MTFEToBIPitch13GeneratePitchEv
+- __ZN13MTFEToBIPitch13VisitSentenceEP12MTFESentence
+- __ZN13MTFEToBIPitch13VisitSyllableEP12MTFESyllable
+- __ZN13MTFEToBIPitch14LowStarPlusLegEiPKNS_5TokenE
+- __ZN13MTFEToBIPitch14PlusLowStarLegEiPKNS_5TokenE
+- __ZN13MTFEToBIPitch15AdjustAlignmentEv
+- __ZN13MTFEToBIPitch15PlusHighStarLegEiPKNS_5TokenE
+- __ZN13MTFEToBIPitch16AddProsodicTokenEhfP11MTFEPhonemeiiPf
+- __ZN13MTFEToBIPitch16GenerateMonotoneEv
+- __ZN13MTFEToBIPitch16HighPlusDownstepEiPKNS_5TokenE
+- __ZN13MTFEToBIPitch18SetupFinalLoweringEP12MTFESentence
+- __ZN13MTFEToBIPitch19SetupInitialRaisingEP12MTFESentence
+- __ZN13MTFEToBIPitch22DownsteppedHighStarLegEiPKNS_5TokenE
+- __ZN13MTFEToBIPitch23VisitIntermediatePhraseEP22MTFEIntermediatePhrase
+- __ZN13MTFEToBIPitch23VisitIntonationalPhraseEP22MTFEIntonationalPhrase
+- __ZN13MTFEToBIPitch3LowEiPKNS_5TokenE
+- __ZN13MTFEToBIPitch3RefEiPKNS_5TokenE
+- __ZN13MTFEToBIPitch43PhraseAccentForOverlappingHighFinalBoundaryEPKNS_5TokenE
+- __ZN13MTFEToBIPitch43PhraseAccentForOverlappingHighFinalBoundaryEPKNS_5TokenE.cold.1
+- __ZN13MTFEToBIPitch4HighEiPKNS_5TokenE
+- __ZN13MTFEToBIPitch5SlopeEPff
+- __ZN13MTFEToBIPitch5TokenC1ERKS0_PS0_
+- __ZN13MTFEToBIPitch5TokenC2ERKS0_PS0_
+- __ZN13MTFEToBIPitch5TokenD1Ev
+- __ZN13MTFEToBIPitch5TokenD2Ev
+- __ZN13MTFEToBIPitch7LowPlusEiPKNS_5TokenE
+- __ZN13MTFEToBIPitch7PlateauEPff
+- __ZN13MTFEToBIPitch8EndBoostEv
+- __ZN13MTFEToBIPitch8HighPlusEiPKNS_5TokenE
+- __ZN13MTFEToBIPitch8PlusHighEiPKNS_5TokenE
+- __ZN13MTFEToBIPitch9VisitWordEP8MTFEWord
+- __ZN13MTFEToBIPitchC1EP9MTBEParamP19MTBEPersistentParamS1_PK15MTFEPitchCoeffsPK9MT3BVoiceb
+- __ZN13MTFEToBIPitchC2EP9MTBEParamP19MTBEPersistentParamS1_PK15MTFEPitchCoeffsPK9MT3BVoiceb
+- __ZN13MTFEToBIPitchD0Ev
+- __ZN13MTFEToBIPitchD1Ev
+- __ZN13MTFETunePitch12VisitCommandEP11MTFECommand
+- __ZN13MTFETunePitch12VisitPhonemeEP11MTFEPhoneme
+- __ZN13MTFETunePitch13VisitSentenceEP12MTFESentence
+- __ZN13MTFETunePitch13VisitSyllableEP12MTFESyllable
+- __ZN13MTFETunePitch23VisitIntonationalPhraseEP22MTFEIntonationalPhrase
+- __ZN13MTFETunePitch5BlendEPfS0_S0_i
+- __ZN13MTFETunePitch9VisitWordEP8MTFEWord
+- __ZN13MTFETunePitchD0Ev
+- __ZN13MTFETunePitchD1Ev
+- __ZN13MTMBUnitSlice8OverrideEi
+- __ZN13MTMBUnitSliceD0Ev
+- __ZN13MTMBUnitSliceD1Ev
+- __ZN13MTMBUnitSliceD2Ev
+- __ZN13MTMBWordSlice15SelectCandidateEP10MEOWReaderm
+- __ZN13MTMBWordSliceD0Ev
+- __ZN13MTMBWordSliceD1Ev
+- __ZN13SLWordBuilderC1Ev
+- __ZN13SLWordBuilderD1Ev
+- __ZN14CorrelationFFT17allocComplexSplitER15DSPSplitComplexi
+- __ZN14CorrelationFFT19deallocComplexSplitER15DSPSplitComplex
+- __ZN14CorrelationFFT20zeroFillComplexSplitER15DSPSplitComplexi
+- __ZN14CorrelationFFT24FindBestCorrelationIndexERK10MEOWVectorIfERS1_S4_ii
+- __ZN14CorrelationFFT36ShouldApplyAnalysisWindowToReferenceEv
+- __ZN14CorrelationFFTC1Ejj
+- __ZN14CorrelationFFTC2Ejj
+- __ZN14CorrelationFFTD0Ev
+- __ZN14CorrelationFFTD1Ev
+- __ZN14CorrelationFFTD2Ev
+- __ZN14LinearFunctionC2Effff
+- __ZN14LinearFunctionC2Effff.cold.1
+- __ZN14MEOWACIterator9FetchDataEPjP11AudioBufferPP28AudioStreamPacketDescription
+- __ZN14MEOWACIteratorC1EiiijPKvjj
+- __ZN14MEOWACIteratorC2EiiijPKvjj
+- __ZN14MEOWTreeBranch11DoRebalanceEmmmb
+- __ZN14MEOWTreeBranch11SanityCheckEib
+- __ZN14MEOWTreeBranch13SetupBranchesEv
+- __ZN14MEOWTreeBranch4NextEiR16MEOWTreeIterBase
+- __ZN14MEOWTreeBranch5BeginEiR16MEOWTreeIterBase
+- __ZN14MEOWTreeBranch5SplitEm
+- __ZN14MEOWTreeBranch6InsertEiPKvRK16MEOWTreeIterBase
+- __ZN14MEOWTreeBranch7SetTreeEP12MEOWTreeBase
+- __ZN14MEOWTreeBranchC1EPS_P12MEOWTreeBase
+- __ZN14MEOWTreeBranchC1EPS_P12MEOWTreePageP12MEOWTreeBase
+- __ZN14MEOWTreeBranchC2EPS_P12MEOWTreeBase
+- __ZN14MEOWTreeBranchC2EPS_P12MEOWTreePageP12MEOWTreeBase
+- __ZN14MEOWTreeBranchD0Ev
+- __ZN14MEOWTreeBranchD1Ev
+- __ZN14MEOWTreeBranchD2Ev
+- __ZN14MEOWVectorBase3MapEPvm
+- __ZN14MEOWVectorBase4SwapERS_
+- __ZN14MEOWVectorBase5clearEv
+- __ZN14MEOWVectorBase6AppendEPKvm
+- __ZN14MEOWVectorBase6AppendEv
+- __ZN14MEOWVectorBase8AllocateEmb
+- __ZN14MEOWVectorBaseC1ERKS_
+- __ZN14MEOWVectorBaseC1Et
+- __ZN14MEOWVectorBaseC1Etm
+- __ZN14MEOWVectorBaseC2ERKS_
+- __ZN14MEOWVectorBaseC2Et
+- __ZN14MEOWVectorBaseC2Etm
+- __ZN14MEOWVectorBaseD1Ev
+- __ZN14MEOWVectorBaseD2Ev
+- __ZN14MT3BEngineTask10CheckAudioEPv
+- __ZN14MT3BEngineTask12SoundIsAwakeEv
+- __ZN14MT3BEngineTask13AncillaryTask7ExecuteEPv
+- __ZN14MT3BEngineTask13AncillaryTaskC1EPS_MS_FvPvEPKc
+- __ZN14MT3BEngineTask13AncillaryTaskC2EPS_MS_FvPvEPKc
+- __ZN14MT3BEngineTask13AncillaryTaskD0Ev
+- __ZN14MT3BEngineTask13AncillaryTaskD1Ev
+- __ZN14MT3BEngineTask13ScheduleParseEv
+- __ZN14MT3BEngineTask13SchedulePauseEbc
+- __ZN14MT3BEngineTask14AdjustBaselineEv
+- __ZN14MT3BEngineTask14StopAtBoundaryEm
+- __ZN14MT3BEngineTask15ParseNextPhraseEPv
+- __ZN14MT3BEngineTask16ScheduleContinueEv
+- __ZN14MT3BEngineTask22WakeupSoundAndContinueEv
+- __ZN14MT3BEngineTask4PhonEPv
+- __ZN14MT3BEngineTask4PingEPv
+- __ZN14MT3BEngineTask4SyncEPv
+- __ZN14MT3BEngineTask4WordEPv
+- __ZN14MT3BEngineTask5PauseEPv
+- __ZN14MT3BEngineTask6ShutUpEb
+- __ZN14MT3BEngineTask7ExecuteEPv
+- __ZN14MT3BEngineTask7LatencyEv
+- __ZN14MT3BEngineTask7StoppedEPv
+- __ZN14MT3BEngineTask8BoundaryEPv
+- __ZN14MT3BEngineTaskC1EP20SpeechChannelManager
+- __ZN14MT3BEngineTaskC2EP20SpeechChannelManager
+- __ZN14MT3BEngineTaskD0Ev
+- __ZN14MT3BEngineTaskD1Ev
+- __ZN14MT3BEngineTaskD2Ev
+- __ZN14MT3BTextSource14CreateMoreTextEv
+- __ZN14MT3BTextSourceC1EP20SpeechChannelManager
+- __ZN14MT3BTextSourceC2EP20SpeechChannelManager
+- __ZN14MT3BTextSourceD0Ev
+- __ZN14MT3BTextSourceD1Ev
+- __ZN14MTBEDebugFlags10sMEOWDebugE
+- __ZN14MTBEDebugFlags6UpdateEv
+- __ZN14MTBEDebugFlags9sMTXDebugE
+- __ZN14MTBEPhraseMemo4ThawEP15MTBEPhraseParam
+- __ZN14MTBEPhraseMemoC1EPK15MTBEPhraseParam
+- __ZN14MTBEPhraseMemoC2EPK15MTBEPhraseParam
+- __ZN14MTBEPhraseMemoD1Ev
+- __ZN14MTBEPhraseMemoD2Ev
+- __ZN14MTFEMarkStress12VisitCommandEP11MTFECommand
+- __ZN14MTFEMarkStress12VisitPhonemeEP11MTFEPhoneme
+- __ZN14MTFEMarkStress13VisitSentenceEP12MTFESentence
+- __ZN14MTFEMarkStress16AdjustParametersEP11MTFEPhoneme
+- __ZN14MTFEMarkStress16CheckPitchChangeEP8MTFEWord
+- __ZN14MTFEMarkStress23VisitIntermediatePhraseEP22MTFEIntermediatePhrase
+- __ZN14MTFEMarkStress23VisitIntonationalPhraseEP22MTFEIntonationalPhrase
+- __ZN14MTFEMarkStress9VisitWordEP8MTFEWord
+- __ZN14MTFEMarkStressC1ERK9MT3BVoiceP9MTBEParamPKS3_P12MTBENotifier
+- __ZN14MTFEMarkStressC2ERK9MT3BVoiceP9MTBEParamPKS3_P12MTBENotifier
+- __ZN14MTFEMarkStressD0Ev
+- __ZN14MTFEMarkStressD1Ev
+- __ZN14MTFESkipToWord12VisitCommandEP11MTFECommand
+- __ZN14MTFESkipToWord13ShouldProcessEP12MTFESentence
+- __ZN14MTFESkipToWord9VisitWordEP8MTFEWord
+- __ZN14MTFESkipToWordD0Ev
+- __ZN14MTFESkipToWordD1Ev
+- __ZN14MTFESyllablify18CheckConsonantPairEhh
+- __ZN14MTFESyllablify23VisitIntonationalPhraseEP22MTFEIntonationalPhrase
+- __ZN14MTFESyllablify5Pass112MarkBoundaryEP11MTFEPhoneme
+- __ZN14MTFESyllablify5Pass112MarkSyllableEP11MTFEPhoneme
+- __ZN14MTFESyllablify5Pass112VisitPhonemeEP11MTFEPhoneme
+- __ZN14MTFESyllablify5Pass122PlaceStressInConsonantEP11MTFEPhoneme
+- __ZN14MTFESyllablify5Pass19VisitWordEP8MTFEWord
+- __ZN14MTFESyllablify5Pass1D0Ev
+- __ZN14MTFESyllablify5Pass1D1Ev
+- __ZN14MTFESyllablify5Pass212VisitPhonemeEP11MTFEPhoneme
+- __ZN14MTFESyllablify5Pass213VisitSyllableEP12MTFESyllable
+- __ZN14MTFESyllablify5Pass29VisitWordEP8MTFEWord
+- __ZN14MTFESyllablify5Pass2D0Ev
+- __ZN14MTFESyllablify5Pass2D1Ev
+- __ZN14MTFESyllablifyD0Ev
+- __ZN14MTFESyllablifyD1Ev
+- __ZN14MTFESyllablifyD2Ev
+- __ZN14MTMBCrossfader16CrossfadePartialEiiiPKfS1_Pf
+- __ZN14MTMBCrossfader6CreateEv
+- __ZN14MTMBCrossfaderD0Ev
+- __ZN14MTMBCrossfaderD1Ev
+- __ZN14MTMBCrossfaderD2Ev
+- __ZN14MTMBSelectGlue10FindBreathEP11MTFEPhonemeS1_14MEOWDiphoneRefb
+- __ZN14MTMBSelectGlue10NeedQXGlueE14MEOWDiphoneRefS0_
+- __ZN14MTMBSelectGlue12VisitCommandEP11MTFECommand
+- __ZN14MTMBSelectGlue12VisitPhonemeEP11MTFEPhoneme
+- __ZN14MTMBSelectGlue13VisitSentenceEP12MTFESentence
+- __ZN14MTMBSelectGlue14ForceGluePitchEv
+- __ZN14MTMBSelectGlue18HandleInstructionsEv
+- __ZN14MTMBSelectGlue23VisitIntermediatePhraseEP22MTFEIntermediatePhrase
+- __ZN14MTMBSelectGlue23VisitIntonationalPhraseEP22MTFEIntonationalPhrase
+- __ZN14MTMBSelectGlue4NextE14MEOWDiphoneRef
+- __ZN14MTMBSelectGlue4PrevE14MEOWDiphoneRef
+- __ZN14MTMBSelectGlue8FindGlueEP11MTFEPhonemeS1_14MEOWDiphoneRefS2_
+- __ZN14MTMBSelectGlue9VisitWordEP8MTFEWord
+- __ZN14MTMBSelectGlueC1EP10MEOWReaderP19MTBEPersistentParamb
+- __ZN14MTMBSelectGlueC2EP10MEOWReaderP19MTBEPersistentParamb
+- __ZN14MTMBSelectGlueD0Ev
+- __ZN14MTMBSelectGlueD1Ev
+- __ZN14MTMBSelectGlueD2Ev
+- __ZN14SLEncyclopedia6LookupEPKcmP13SLWordBuilderP12SLDictionary
+- __ZN14SLEncyclopedia6RemoveEP12SLDictionary
+- __ZN14SLEncyclopedia8PushBackEP12SLDictionary
+- __ZN14SLEncyclopediaD1Ev
+- __ZN14SyllPhnCounter12VisitPhonemeEP11MTFEPhoneme
+- __ZN14SyllPhnCounterC1Ev
+- __ZN14SyllPhnCounterC2Ev
+- __ZN14SyllPhnCounterD0Ev
+- __ZN14SyllPhnCounterD1Ev
+- __ZN14SyllPhnCounterD2Ev
+- __ZN15MEOWSampleCache10MapSamplesEv
+- __ZN15MEOWSampleCache7SamplesEtjjPKvjj
+- __ZN15MEOWSampleCacheC1ER10MEOWReaderm
+- __ZN15MEOWSampleCacheC2ER10MEOWReaderm
+- __ZN15MEOWSampleCacheD1Ev
+- __ZN15MEOWSampleCacheD2Ev
+- __ZN15MTBEDebugParams16OverrideDefaultsEPK14__CFDictionary
+- __ZN15MTBEDebugParams8GetParamEPK10__CFStringPbb
+- __ZN15MTBEDebugParams8GetParamEPK10__CFStringPff
+- __ZN15MTBEDebugParams8GetParamEPK10__CFStringPll
+- __ZN15MTBEDelayedSync7ForwardEP12MTBENotifier
+- __ZN15MTBEDelayedSyncD0Ev
+- __ZN15MTBEDelayedSyncD1Ev
+- __ZN15MTBEDelayedWord7ForwardEP12MTBENotifier
+- __ZN15MTBEDelayedWordD0Ev
+- __ZN15MTBEDelayedWordD1Ev
+- __ZN15MTBEPhraseParamC1E17MTBEVoiceContentsP17MTFESpeechElementP12MTBENotifierS4_S4_P19MTBEPersistentParam
+- __ZN15MTBEPhraseParamC2E17MTBEVoiceContentsP17MTFESpeechElementP12MTBENotifierS4_S4_P19MTBEPersistentParam
+- __ZN15MTFECleanupTune12SplitPhonemeEP11MTFEPhonemehhf
+- __ZN15MTFECleanupTune12VisitPhonemeEP11MTFEPhoneme
+- __ZN15MTFECleanupTuneD0Ev
+- __ZN15MTFECleanupTuneD1Ev
+- __ZN15MTFEFrameFiller10InitPhraseEP17MTFESpeechElement
+- __ZN15MTFEFrameFiller10sFrontLociE
+- __ZN15MTFEFrameFiller11InsertBurstEv
+- __ZN15MTFEFrameFiller11sNoiseIndexE
+- __ZN15MTFEFrameFiller12DoNoteScriptEv
+- __ZN15MTFEFrameFiller12InitControlsEv
+- __ZN15MTFEFrameFiller12VisitCommandEP11MTFECommand
+- __ZN15MTFEFrameFiller12sControlTypeE
+- __ZN15MTFEFrameFiller12sDefaultTargE
+- __ZN15MTFEFrameFiller13AtEndOfPhraseEv
+- __ZN15MTFEFrameFiller13FillNextFrameEP9MTBEFrame
+- __ZN15MTFEFrameFiller13GetDiphthongsEs
+- __ZN15MTFEFrameFiller13GetLastTargetEP11MTFEPhoneme
+- __ZN15MTFEFrameFiller13sEnvelopeListE
+- __ZN15MTFEFrameFiller13sPhonPitchTblE
+- __ZN15MTFEFrameFiller14GenderSpecific5sMaleE
+- __ZN15MTFEFrameFiller14GenderSpecific7sFemaleE
+- __ZN15MTFEFrameFiller14GetFirstTargetEP11MTFEPhoneme
+- __ZN15MTFEFrameFiller14NextClonedWordEv
+- __ZN15MTFEFrameFiller14ScaleToPhonDurEs
+- __ZN15MTFEFrameFiller15FillPhonTargetsEv
+- __ZN15MTFEFrameFiller16InterpolatePitchEv
+- __ZN15MTFEFrameFiller17InitControlBlocksEv
+- __ZN15MTFEFrameFiller17PhonBoundaryPitchEv
+- __ZN15MTFEFrameFiller18OldNonSingingPitchEv
+- __ZN15MTFEFrameFiller18ProcessPitchEventsEv
+- __ZN15MTFEFrameFiller18SyncWithUnitSearchEv
+- __ZN15MTFEFrameFiller19AdjustColoredTargetEP11MTFEPhonemes
+- __ZN15MTFEFrameFiller19InterpolateFormantsEv
+- __ZN15MTFEFrameFiller6DoNoteEv
+- __ZN15MTFEFrameFiller7PauseAtEc
+- __ZN15MTFEFrameFiller8GetLocusEP11MTFEPhonemeS1_i
+- __ZN15MTFEFrameFiller8LogToLinEs
+- __ZN15MTFEFrameFiller8SkipWordEv
+- __ZN15MTFEFrameFiller8sMidLociE
+- __ZN15MTFEFrameFiller8sRankFwdE
+- __ZN15MTFEFrameFiller8sVoiceAVE
+- __ZN15MTFEFrameFiller9GetTargetEP11MTFEPhoneme
+- __ZN15MTFEFrameFiller9HeadRulesEv
+- __ZN15MTFEFrameFiller9SaveFrameEP9MTBEFrame
+- __ZN15MTFEFrameFiller9TailRulesEv
+- __ZN15MTFEFrameFiller9sBackLociE
+- __ZN15MTFEFrameFiller9sBurstDurE
+- __ZN15MTFEFrameFiller9sLogToLinE
+- __ZN15MTFEFrameFiller9sRankBkwdE
+- __ZN15MTFEFrameFiller9sSineWaveE
+- __ZN15MTFEFrameFillerC1EP15MTFEPitchBufferP9MTBEParamP19MTBEPersistentParamS3_PK9MT3BVoiceP12MTBENotifierb
+- __ZN15MTFEFrameFillerC2EP15MTFEPitchBufferP9MTBEParamP19MTBEPersistentParamS3_PK9MT3BVoiceP12MTBENotifierb
+- __ZN15MTFEFrameFillerD0Ev
+- __ZN15MTFEFrameFillerD1Ev
+- __ZN15MTFEFrameFillerD2Ev
+- __ZN15MTFEModDuration12VisitCommandEP11MTFECommand
+- __ZN15MTFEModDuration12VisitPhonemeEP11MTFEPhoneme
+- __ZN15MTFEModDuration13VisitSentenceEP12MTFESentence
+- __ZN15MTFEModDuration13VisitSyllableEP12MTFESyllable
+- __ZN15MTFEModDuration16OldDurationModelEP11MTFEPhoneme
+- __ZN15MTFEModDuration23VisitIntonationalPhraseEP22MTFEIntonationalPhrase
+- __ZN15MTFEModDuration8SingNoteEP11MTFEPhoneme
+- __ZN15MTFEModDuration9VisitWordEP8MTFEWord
+- __ZN15MTFEModDurationC1EP9MTBEParamPK9MT3BVoicef
+- __ZN15MTFEModDurationC2EP9MTBEParamPK9MT3BVoicef
+- __ZN15MTFEModDurationD0Ev
+- __ZN15MTFEModDurationD1Ev
+- __ZN15MTFEPOSResolver12VisitCommandEP11MTFECommand
+- __ZN15MTFEPOSResolver13VisitSentenceEP12MTFESentence
+- __ZN15MTFEPOSResolver14VisitHomographEP13MTFEHomograph
+- __ZN15MTFEPOSResolver16RequireTagAndPOSEP8MTFEWordtj
+- __ZN15MTFEPOSResolver23VisitIntonationalPhraseEP22MTFEIntonationalPhrase
+- __ZN15MTFEPOSResolver9VisitWordEP8MTFEWord
+- __ZN15MTFEPOSResolverD0Ev
+- __ZN15MTFEPOSResolverD1Ev
+- __ZN15MTFEPOSResolverD2Ev
+- __ZN15MTFEPitchBuffer6ExpandEv
+- __ZN15MTFEPitchCoeffs10InitializeEv
+- __ZN15MTFEPitchCoeffsC1EPK14__CFDictionary
+- __ZN15MTFEPitchCoeffsC2EPK14__CFDictionary
+- __ZN15MTFERateRescale12VisitPhonemeEP11MTFEPhoneme
+- __ZN15MTFERateRescale9VisitWordEP8MTFEWord
+- __ZN15MTFERateRescaleD0Ev
+- __ZN15MTFERateRescaleD1Ev
+- __ZN15MTFESkipContext10DeleteWordEP8MTFEWord
+- __ZN15MTFESkipContext13VisitSentenceEP12MTFESentence
+- __ZN15MTFESkipContext23VisitIntermediatePhraseEP22MTFEIntermediatePhrase
+- __ZN15MTFESkipContext23VisitIntonationalPhraseEP22MTFEIntonationalPhrase
+- __ZN15MTFESkipContext8KeepWordEP8MTFEWord
+- __ZN15MTFESkipContext9VisitWordEP8MTFEWord
+- __ZN15MTFESkipContextD0Ev
+- __ZN15MTFESkipContextD1Ev
+- __ZN15MTFESmoothPitch23VisitIntonationalPhraseEP22MTFEIntonationalPhrase
+- __ZN15MTFESmoothPitchC1EPK15MTFEPitchCoeffs
+- __ZN15MTFESmoothPitchC2EPK15MTFEPitchCoeffs
+- __ZN15MTFESmoothPitchD0Ev
+- __ZN15MTFESmoothPitchD1Ev
+- __ZN15MTFESmoothPitchD2Ev
+- __ZN15MTFEStemTracker12SeenRecentlyEPKcmb
+- __ZN15MTFEStemTracker4SeenEPKcmb
+- __ZN15MTFEStemTracker5ResetEv
+- __ZN15MTFEStemTracker6LookupEPKcmP13SLWordBuilderP12SLDictionary
+- __ZN15MTFEStemTrackerC1EP12SLDictionarym
+- __ZN15MTFEStemTrackerC2EP12SLDictionarym
+- __ZN15MTFEStemTrackerD0Ev
+- __ZN15MTFEStemTrackerD1Ev
+- __ZN15MTFEStemTrackerD2Ev
+- __ZN15MTMBChangePitch11NextSegmentEP11MTMBSegment
+- __ZN15MTMBChangePitchC1EP21MTMBProducerComponentP19MTMBSignalProcessor
+- __ZN15MTMBChangePitchC2EP21MTMBProducerComponentP19MTMBSignalProcessor
+- __ZN15MTMBChangePitchD0Ev
+- __ZN15MTMBChangePitchD1Ev
+- __ZN15MTMBChangePitchD2Ev
+- __ZN15MTMBConstituent13FindHomographEP8MTFEWordRP11MTFEPhoneme
+- __ZN15MTMBConstituent5clearEv
+- __ZN15MTMBConstituent7SetWordEP8MTFEWord
+- __ZN15MTMBConstituent9SplitWordEP8MTFEWord
+- __ZN15MTMBLogDiphones12VisitPhonemeEP11MTFEPhoneme
+- __ZN15MTMBLogDiphones13VisitSentenceEP12MTFESentence
+- __ZN15MTMBLogDiphones13VisitSyllableEP12MTFESyllable
+- __ZN15MTMBLogDiphones23VisitIntermediatePhraseEP22MTFEIntermediatePhrase
+- __ZN15MTMBLogDiphones23VisitIntonationalPhraseEP22MTFEIntonationalPhrase
+- __ZN15MTMBLogDiphones9VisitWordEP8MTFEWord
+- __ZN15MTMBLogDiphonesC1EP9__CFArrayP21MTMBDiphoneStatistics
+- __ZN15MTMBLogDiphonesC2EP9__CFArrayP21MTMBDiphoneStatistics
+- __ZN15MTMBLogDiphonesD0Ev
+- __ZN15MTMBLogDiphonesD1Ev
+- __ZN15MTMBSelectUnits12AddMorphWordEP8MTFEWordPKcm
+- __ZN15MTMBSelectUnits12DeletePhraseEP17MTFESpeechElementP19MTBEPersistentParamb
+- __ZN15MTMBSelectUnits12EvaluatePathEb
+- __ZN15MTMBSelectUnits12VisitCommandEP11MTFECommand
+- __ZN15MTMBSelectUnits12VisitPhonemeEP11MTFEPhoneme
+- __ZN15MTMBSelectUnits13IsSafeToMorphEPKcmh
+- __ZN15MTMBSelectUnits13VisitSentenceEP12MTFESentence
+- __ZN15MTMBSelectUnits17AddFirstDemiSliceERK10MEOWVectorI16MEOWWordInstanceE
+- __ZN15MTMBSelectUnits18AbortUnitSelectionEv
+- __ZN15MTMBSelectUnits18FindWordCandidatesEP8MTFEWordR17MEOWWordSliceInfoRN10MEOWReader14WordDescriptorEbb
+- __ZN15MTMBSelectUnits23VisitIntermediatePhraseEP22MTFEIntermediatePhrase
+- __ZN15MTMBSelectUnits23VisitIntonationalPhraseEP22MTFEIntonationalPhrase
+- __ZN15MTMBSelectUnits26FindHyphenatedConstituentsEP8MTFEWord
+- __ZN15MTMBSelectUnits26ProcessIntermediatePhrasesEP17MTFESpeechElement
+- __ZN15MTMBSelectUnits7ExecuteEPv
+- __ZN15MTMBSelectUnits8AddSliceEP13MTMBUnitSlice
+- __ZN15MTMBSelectUnits9VisitWordEP8MTFEWord
+- __ZN15MTMBSelectUnitsC1EP10MEOWReaderP19MTBEPersistentParambb
+- __ZN15MTMBSelectUnitsC2EP10MEOWReaderP19MTBEPersistentParambb
+- __ZN15MTMBSelectUnitsD0Ev
+- __ZN15MTMBSelectUnitsD1Ev
+- __ZN15MTMBSelectUnitsD2Ev
+- __ZN16MEOWCutPointTreeD0Ev
+- __ZN16MEOWCutPointTreeD1Ev
+- __ZN16MEOWFlatPPReader15CopyLeftContextER10MEOWVectorItE
+- __ZN16MEOWFlatPPReader16CopyRightContextER10MEOWVectorItE
+- __ZN16MEOWFlatPPReader2PPEv
+- __ZN16MEOWFlatPPReader4CopyEiR10MEOWVectorItE
+- __ZN16MEOWFlatPPReader4SkipEi
+- __ZN16MEOWFlatPPReader7AdvanceEi
+- __ZN16MEOWFlatPPReader8CopyTillEPKhR10MEOWVectorItE
+- __ZN16MEOWFlatPPReaderC1EP10MEOWReaderjt
+- __ZN16MEOWFlatPPReaderC2EP10MEOWReaderjt
+- __ZN16MEOWFlatPPReaderD0Ev
+- __ZN16MEOWFlatPPReaderD1Ev
+- __ZN16MEOWSVDDistances10GetCookiesEhbR10MEOWVectorI18MEOWDistanceCookieE
+- __ZN16MEOWSVDDistances11ComputeNormEP12MEOWDistNormh
+- __ZN16MEOWSVDDistances9GetCookieEhbmR18MEOWDistanceCookie
+- __ZN16MEOWSVDDistances9GetCookieEmR18MEOWDistanceCookie
+- __ZN16MEOWSpectralCost17GetSpectralCookieEhhhbP18MEOWDistanceCookie
+- __ZN16MEOWSpectralCostC1EP10MEOWReader
+- __ZN16MEOWSpectralCostC2EP10MEOWReader
+- __ZN16MEOWSpectralCostD1Ev
+- __ZN16MEOWSpectralCostD2Ev
+- __ZN16MEOWTreeIterBase5DerefEv
+- __ZN16MEOWTreeIterBaseppEv
+- __ZN16MT3UnicodeString10AddMappingEllPK10__CFStringmb
+- __ZN16MT3UnicodeString13MapIndexToSrcEl
+- __ZN16MT3UnicodeString13MapRangeToSrcE7CFRange
+- __ZN16MT3UnicodeString20getTextWithEmojiDescEv
+- __ZN16MT3UnicodeString24shouldReturnWordCallbackE7CFRange
+- __ZN16MT3UnicodeStringC1EPK10__CFString
+- __ZN16MT3UnicodeStringC2EPK10__CFString
+- __ZN16MT3UnicodeStringC2EPK10__CFString.cold.1
+- __ZN16MT3UnicodeStringD0Ev
+- __ZN16MT3UnicodeStringD1Ev
+- __ZN16MT3UnicodeStringD2Ev
+- __ZN16MTBESampleBuffer10NextBufferEv
+- __ZN16MTBESampleBufferC2Ev
+- __ZN16MTBESampleBufferD0Ev
+- __ZN16MTBESampleBufferD1Ev
+- __ZN16MTBESampleBufferD2Ev
+- __ZN16MTFBlockNotifier10NotifySyncEji
+- __ZN16MTFBlockNotifier10NotifyWordEmti
+- __ZN16MTFBlockNotifier11WantPhonemeEv
+- __ZN16MTFBlockNotifier13NotifyPhonemeEsii
+- __ZN16MTFBlockNotifier14WantSpeechDoneEv
+- __ZN16MTFBlockNotifier16NotifySpeechDoneEi
+- __ZN16MTFBlockNotifier8WantSyncEv
+- __ZN16MTFBlockNotifier8WantWordEv
+- __ZN16MTFBlockNotifierC2EP24MTWrappedPhraseProcessor
+- __ZN16MTFBlockNotifierD0Ev
+- __ZN16MTFBlockNotifierD1Ev
+- __ZN16MTFEDebugVisitor10EndElementEv
+- __ZN16MTFEDebugVisitor12StartElementEPKcb
+- __ZN16MTFEDebugVisitor12VisitCommandEP11MTFECommand
+- __ZN16MTFEDebugVisitor12VisitPhonemeEP11MTFEPhoneme
+- __ZN16MTFEDebugVisitor13VisitSentenceEP12MTFESentence
+- __ZN16MTFEDebugVisitor13VisitSyllableEP12MTFESyllable
+- __ZN16MTFEDebugVisitor14VisitHomographEP13MTFEHomograph
+- __ZN16MTFEDebugVisitor23VisitIntermediatePhraseEP22MTFEIntermediatePhrase
+- __ZN16MTFEDebugVisitor23VisitIntonationalPhraseEP22MTFEIntonationalPhrase
+- __ZN16MTFEDebugVisitor4DumpEP17MTFESpeechElement
+- __ZN16MTFEDebugVisitor6IndentEv
+- __ZN16MTFEDebugVisitor9PrintTagsERK12SLWordTagSet
+- __ZN16MTFEDebugVisitor9VisitWordEP8MTFEWord
+- __ZN16MTFEDebugVisitorD0Ev
+- __ZN16MTFEDebugVisitorD1Ev
+- __ZN16MTFEPhonemeFlags12sBoundaryDurE
+- __ZN16MTFEPhonemeFlags4sSILE
+- __ZN16MTFEPitchTargets10DropTargetEv
+- __ZN16MTFEPitchTargets10FindTargetERK15MTFEPitchTarget
+- __ZN16MTFEPitchTargets18CombineWithTargetsEiRKS_i
+- __ZN16MTFEPitchTargets9AddTargetERK15MTFEPitchTarget
+- __ZN16MTFEPitchTargetsC1EbPKfi
+- __ZN16MTFEPitchTargetsC2EbPKfi
+- __ZN16MTMBDiphoneSlice15SelectCandidateEP10MEOWReaderm
+- __ZN16MTMBDiphoneSliceD0Ev
+- __ZN16MTMBDiphoneSliceD1Ev
+- __ZN16MTMBModRateWsola10ModifyRateER10MEOWVectorIfES2_RN11MTMBModRate6ResultEb
+- __ZN16MTMBModRateWsola11fSampleRateE
+- __ZN16MTMBModRateWsola11fWinOverlapE
+- __ZN16MTMBModRateWsola13HasEnoughDataEj
+- __ZN16MTMBModRateWsola13fWindowSizeMsE
+- __ZN16MTMBModRateWsola14SetScaleFactorEf
+- __ZN16MTMBModRateWsola14fSearchRangeMsE
+- __ZN16MTMBModRateWsola5ResetEf
+- __ZN16MTMBModRateWsolaC1Ev
+- __ZN16MTMBModRateWsolaC2Ev
+- __ZN16MTMBModRateWsolaD0Ev
+- __ZN16MTMBModRateWsolaD1Ev
+- __ZN16MTMBModRateWsolaD2Ev
+- __ZN16SLCFArrayBuilder11CreateArrayEv
+- __ZN16SLCFArrayBuilderD1Ev
+- __ZN16SLCFArrayBuilderD2Ev
+- __ZN17MEOWDemiSliceInfo10PhonemeSet11AddPhonemesE10MEOWStrideIhE
+- __ZN17MEOWDemiSliceInfoC1Eb
+- __ZN17MEOWDemiSliceInfoC2Eb
+- __ZN17MEOWPowerStrategyD0Ev
+- __ZN17MEOWPowerStrategyD1Ev
+- __ZN17MEOWSearchLattice12AddDemiSliceERK17MEOWDemiSliceInfo
+- __ZN17MEOWSearchLattice12AddWordSliceERK17MEOWWordSliceInfo
+- __ZN17MEOWSearchLattice14AddAnchorSliceERK19MEOWAnchorSliceInfo
+- __ZN17MEOWSearchLattice15AddDiphoneSliceERK20MEOWDiphoneSliceInfo
+- __ZN17MEOWSearchLattice15AddSilenceSliceEv
+- __ZN17MEOWSearchLattice18AddBreathDemiSliceERK17MEOWDemiSliceInfo
+- __ZN17MEOWSearchLattice21AddBreathDiphoneSliceERK20MEOWDiphoneSliceInfo
+- __ZN17MEOWSearchLattice6CreateEP10MEOWReaderb
+- __ZN17MEOWSearchLatticeD0Ev
+- __ZN17MEOWSearchLatticeD1Ev
+- __ZN17MEOWSearchLatticeD2Ev
+- __ZN17MEOWWordSliceInfoC1ERK12MEOWWordDesc
+- __ZN17MEOWWordSliceInfoC1Ev
+- __ZN17MEOWWordSliceInfoC2ERK12MEOWWordDesc
+- __ZN17MEOWWordSliceInfoC2Ev
+- __ZN17MTBEWritePhonemes10HandleWordEP8MTFEWord
+- __ZN17MTBEWritePhonemes10WriteFixedEli
+- __ZN17MTBEWritePhonemes12VisitCommandEP11MTFECommand
+- __ZN17MTBEWritePhonemes12VisitPhonemeEP11MTFEPhoneme
+- __ZN17MTBEWritePhonemes16WriteVoiceParamsEfffbb
+- __ZN17MTBEWritePhonemes23VisitIntonationalPhraseEP22MTFEIntonationalPhrase
+- __ZN17MTBEWritePhonemes5WriteEPKc
+- __ZN17MTBEWritePhonemes5WriteEPKcm
+- __ZN17MTBEWritePhonemes9VisitWordEP8MTFEWord
+- __ZN17MTBEWritePhonemes9WriteLongEl
+- __ZN17MTBEWritePhonemesC1Eb
+- __ZN17MTBEWritePhonemesC2Eb
+- __ZN17MTBEWritePhonemesD0Ev
+- __ZN17MTBEWritePhonemesD1Ev
+- __ZN17MTFECalcRampSteps12VisitPhonemeEP11MTFEPhoneme
+- __ZN17MTFECalcRampSteps13VisitSentenceEP12MTFESentence
+- __ZN17MTFECalcRampSteps23VisitIntonationalPhraseEP22MTFEIntonationalPhrase
+- __ZN17MTFECalcRampStepsD0Ev
+- __ZN17MTFECalcRampStepsD1Ev
+- __ZN17MTFESpeechElement11RemoveChildEPS_
+- __ZN17MTFESpeechElement11SelectChildEPS_
+- __ZN17MTFESpeechElement12CleanseCloneEv
+- __ZN17MTFESpeechElement13AddChildAfterEPS_S0_
+- __ZN17MTFESpeechElement13SetNextCousinEPS_
+- __ZN17MTFESpeechElement13SetPrevCousinEPS_
+- __ZN17MTFESpeechElement13SplitChildrenEPS_S0_
+- __ZN17MTFESpeechElement13VisitChildrenER17MTFESpeechVisitor
+- __ZN17MTFESpeechElement14AddChildBeforeEPS_S0_
+- __ZN17MTFESpeechElement16TransferChildrenEPS_
+- __ZN17MTFESpeechElement5clearEv
+- __ZN17MTFESpeechElement8AddLevelEPS_
+- __ZN17MTFESpeechElementC2Ev
+- __ZN17MTFESpeechElementD0Ev
+- __ZN17MTFESpeechElementD1Ev
+- __ZN17MTFESpeechElementD2Ev
+- __ZN17MTFESpeechVisitor12VisitCommandEP11MTFECommand
+- __ZN17MTFESpeechVisitor12VisitPhonemeEP11MTFEPhoneme
+- __ZN17MTFESpeechVisitor13VisitCommandsEP12MTFECommands
+- __ZN17MTFESpeechVisitor13VisitSentenceEP12MTFESentence
+- __ZN17MTFESpeechVisitor13VisitSyllableEP12MTFESyllable
+- __ZN17MTFESpeechVisitor14VisitHomographEP13MTFEHomograph
+- __ZN17MTFESpeechVisitor23VisitIntermediatePhraseEP22MTFEIntermediatePhrase
+- __ZN17MTFESpeechVisitor23VisitIntonationalPhraseEP22MTFEIntonationalPhrase
+- __ZN17MTFESpeechVisitor5VisitEP17MTFESpeechElement
+- __ZN17MTFESpeechVisitor9VisitWordEP8MTFEWord
+- __ZN17MTFESpeechVisitorD0Ev
+- __ZN17MTFESpeechVisitorD1Ev
+- __ZN17MTFESpeechVisitorD2Ev
+- __ZN17MTMBCFDictBuilder7AddPairEPKvS1_
+- __ZN17MTMBCFDictBuilder9BuildDictEv
+- __ZN17MTMBCFDictBuilderC1EPK10__CFString
+- __ZN17MTMBCFDictBuilderC1EPK10__CFStringR18MTMBCFArrayBuilder
+- __ZN17MTMBCFDictBuilderC2EPK10__CFString
+- __ZN17MTMBCFDictBuilderC2EPK10__CFStringR18MTMBCFArrayBuilder
+- __ZN17MTMBCFDictBuilderC2Ev
+- __ZN17MTMBCFDictBuilderD1Ev
+- __ZN17MTMBCFDictBuilderD2Ev
+- __ZN17MTMBPitchStrategy14ForceGluePitchEP8MTMBDemiS1_
+- __ZN17MTMBPitchStrategy15SetPitchTargetsENSt3__116__deque_iteratorI8MTMBDemiPS2_RS2_PS3_lLl36EEES6_S6_
+- __ZN17MTMBSmoothSegment11NextSegmentEP11MTMBSegment
+- __ZN17MTMBSmoothSegmentD0Ev
+- __ZN17MTMBSmoothSegmentD1Ev
+- __ZN17MTMBSmoothSegmentD2Ev
+- __ZN18MEOWDistPrecompute12CookieToInfoERK18MEOWDistanceCookieP12MEOWDistInfo
+- __ZN18MEOWDistPrecompute13AddCandidatesEhhibP10MEOWPPDescPKs
+- __ZN18MEOWDistPrecompute6EncodeEP22MEOWSVDDistanceEncoderRK10MEOWVectorINS_4DescEEhb
+- __ZN18MEOWDistPrecompute7ComputeEv
+- __ZN18MEOWDistPrecompute7GetInfoEhhiP12MEOWDistInfoS1_
+- __ZN18MEOWDistPrecompute7GetNormEP12MEOWDistNorm
+- __ZN18MEOWDistPrecomputeC1Ev
+- __ZN18MEOWDistPrecomputeC2Ev
+- __ZN18MEOWDistPrecomputeD1Ev
+- __ZN18MEOWDistPrecomputeD2Ev
+- __ZN18MEOWTrivialDecoder6DecodeEjPKvjjjPs
+- __ZN18MEOWTrivialDecoderD0Ev
+- __ZN18MEOWTrivialDecoderD1Ev
+- __ZN18MEOWUnitCostWindowC1Embf
+- __ZN18MEOWUnitCostWindowC2Embf
+- __ZN18MTBEDelayedPhoneme7ForwardEP12MTBENotifier
+- __ZN18MTBEDelayedPhonemeD0Ev
+- __ZN18MTBEDelayedPhonemeD1Ev
+- __ZN18MTFEAdjustPhrasing13VisitSentenceEP12MTFESentence
+- __ZN18MTFEAdjustPhrasing23VisitIntermediatePhraseEP22MTFEIntermediatePhrase
+- __ZN18MTFEAdjustPhrasing23VisitIntonationalPhraseEP22MTFEIntonationalPhrase
+- __ZN18MTFEAdjustPhrasing24DemoteIntermediatePhraseEP22MTFEIntermediatePhrase
+- __ZN18MTFEAdjustPhrasing24DemoteIntonationalPhraseEP22MTFEIntonationalPhrase
+- __ZN18MTFEAdjustPhrasing8GetPauseEv
+- __ZN18MTFEAdjustPhrasing8PeekIntoEP17MTFESpeechElement
+- __ZN18MTFEAdjustPhrasing8SetPauseEf
+- __ZN18MTFEAdjustPhrasingD0Ev
+- __ZN18MTFEAdjustPhrasingD1Ev
+- __ZN18MTFEPitchRaiseFall12VisitPhonemeEP11MTFEPhoneme
+- __ZN18MTFEPitchRaiseFall21AnyVowelsTillBoundaryEjbP11MTFEPhoneme
+- __ZN18MTFEPitchRaiseFall23VisitIntonationalPhraseEP22MTFEIntonationalPhrase
+- __ZN18MTFEPitchRaiseFall5Pass212VisitPhonemeEP11MTFEPhoneme
+- __ZN18MTFEPitchRaiseFall5Pass221AnyStressVowelsRemainEP11MTFEPhoneme
+- __ZN18MTFEPitchRaiseFall5Pass223VisitIntonationalPhraseEP22MTFEIntonationalPhrase
+- __ZN18MTFEPitchRaiseFall5Pass2D0Ev
+- __ZN18MTFEPitchRaiseFall5Pass2D1Ev
+- __ZN18MTFEPitchRaiseFallD0Ev
+- __ZN18MTFEPitchRaiseFallD1Ev
+- __ZN18MTFEPitchRaiseFallD2Ev
+- __ZN18MTFESpeechIterator10EndPhonemeEv
+- __ZN18MTFESpeechIterator11EndSentenceEv
+- __ZN18MTFESpeechIterator11EndSyllableEv
+- __ZN18MTFESpeechIterator12BeginPhonemeEv
+- __ZN18MTFESpeechIterator12EndHomographEv
+- __ZN18MTFESpeechIterator12VisitPhonemeEP11MTFEPhoneme
+- __ZN18MTFESpeechIterator13BeginSentenceEv
+- __ZN18MTFESpeechIterator13BeginSyllableEv
+- __ZN18MTFESpeechIterator13VisitSentenceEP12MTFESentence
+- __ZN18MTFESpeechIterator13VisitSyllableEP12MTFESyllable
+- __ZN18MTFESpeechIterator14BeginHomographEv
+- __ZN18MTFESpeechIterator14VisitHomographEP13MTFEHomograph
+- __ZN18MTFESpeechIterator21EndIntermediatePhraseEv
+- __ZN18MTFESpeechIterator21EndIntonationalPhraseEv
+- __ZN18MTFESpeechIterator23BeginIntermediatePhraseEv
+- __ZN18MTFESpeechIterator23BeginIntonationalPhraseEv
+- __ZN18MTFESpeechIterator23VisitIntermediatePhraseEP22MTFEIntermediatePhrase
+- __ZN18MTFESpeechIterator23VisitIntonationalPhraseEP22MTFEIntonationalPhrase
+- __ZN18MTFESpeechIterator7EndWordEv
+- __ZN18MTFESpeechIterator9BeginWordEv
+- __ZN18MTFESpeechIterator9VisitWordEP8MTFEWord
+- __ZN18MTFESpeechIteratorC1EP17MTFESpeechElement
+- __ZN18MTFESpeechIteratorC2EP17MTFESpeechElement
+- __ZN18MTFESpeechIteratorD0Ev
+- __ZN18MTFESpeechIteratorD1Ev
+- __ZN18MTFESpeechIteratoraSEP17MTFESpeechElement
+- __ZN18MTFESpeechIteratorppEv
+- __ZN18MTFESpeechPedigree12VisitPhonemeEP11MTFEPhoneme
+- __ZN18MTFESpeechPedigree13VisitSentenceEP12MTFESentence
+- __ZN18MTFESpeechPedigree13VisitSyllableEP12MTFESyllable
+- __ZN18MTFESpeechPedigree14VisitHomographEP13MTFEHomograph
+- __ZN18MTFESpeechPedigree23VisitIntermediatePhraseEP22MTFEIntermediatePhrase
+- __ZN18MTFESpeechPedigree23VisitIntonationalPhraseEP22MTFEIntonationalPhrase
+- __ZN18MTFESpeechPedigree9VisitWordEP8MTFEWord
+- __ZN18MTFESpeechPedigreeC1EP17MTFESpeechElement
+- __ZN18MTFESpeechPedigreeC2EP17MTFESpeechElement
+- __ZN18MTFESpeechPedigreeD0Ev
+- __ZN18MTFESpeechPedigreeD1Ev
+- __ZN18MTMBCFArrayBuilder10AddElementEPKv
+- __ZN18MTMBCFArrayBuilder10BuildArrayEv
+- __ZN18MTMBCFArrayBuilderD1Ev
+- __ZN18MTMBCFArrayBuilderD2Ev
+- __ZN18MTMBDemiPropertiesC1Ev
+- __ZN18MTMBDemiPropertiesC2Ev
+- __ZN18MTMBFirstDemiSlice15SelectCandidateEP10MEOWReaderm
+- __ZN18MTMBFirstDemiSliceD0Ev
+- __ZN18MTMBFirstDemiSliceD1Ev
+- __ZN19MEOWAnchorSliceInfoC1Ev
+- __ZN19MEOWAnchorSliceInfoC2Ev
+- __ZN19MEOWByteSwapDecoder6DecodeEjPKvjjjPs
+- __ZN19MEOWByteSwapDecoderD0Ev
+- __ZN19MEOWByteSwapDecoderD1Ev
+- __ZN19MEOWCodebookDecoder12Filter14to16EPsi
+- __ZN19MEOWCodebookDecoder6DecodeEjPKvjjjPs
+- __ZN19MEOWCodebookDecoder6ExpandEPKhiPsi
+- __ZN19MEOWCodebookDecoderC1EthbbRPKv
+- __ZN19MEOWCodebookDecoderC2EthbbRPKv
+- __ZN19MEOWCodebookDecoderD0Ev
+- __ZN19MEOWCodebookDecoderD1Ev
+- __ZN19MEOWEncodedPPReader15CopyLeftContextER10MEOWVectorItE
+- __ZN19MEOWEncodedPPReader16CopyRightContextER10MEOWVectorItE
+- __ZN19MEOWEncodedPPReader2PPEv
+- __ZN19MEOWEncodedPPReader4CopyEiR10MEOWVectorItE
+- __ZN19MEOWEncodedPPReader4SkipEi
+- __ZN19MEOWEncodedPPReader7AdvanceEi
+- __ZN19MEOWEncodedPPReader8CopyTillEPKhR10MEOWVectorItE
+- __ZN19MEOWEncodedPPReaderC1EP10MEOWReaderjt
+- __ZN19MEOWEncodedPPReaderC2EP10MEOWReaderjt
+- __ZN19MEOWEncodedPPReaderD0Ev
+- __ZN19MEOWEncodedPPReaderD1Ev
+- __ZN19MEOWPPReaderFactory6CreateEb
+- __ZN19MEOWPPReaderFactoryD0Ev
+- __ZN19MEOWPPReaderFactoryD1Ev
+- __ZN19MEOWPPReaderFactoryD2Ev
+- __ZN19MT3BPhraseProcessor21InsertPlosiveReleasesEP17MTFESpeechElement
+- __ZN19MT3BPhraseProcessorC1EPK9MT3BVoiceRK15MTBEPhraseParam
+- __ZN19MT3BPhraseProcessorC2EPK9MT3BVoiceRK15MTBEPhraseParam
+- __ZN19MT3BPhraseProcessorD0Ev
+- __ZN19MT3BPhraseProcessorD1Ev
+- __ZN19MT3BSegmentProducer10sBandNoiseE
+- __ZN19MT3BSegmentProducer10sNoiseWaveE
+- __ZN19MT3BSegmentProducer10sTopOctaveE
+- __ZN19MT3BSegmentProducer11NextSegmentEP11MTMBSegment
+- __ZN19MT3BSegmentProducer20CalcPoleCoefficientsEssPsS0_S0_
+- __ZN19MT3BSegmentProducer20CalcZeroCoefficientsEssPsS0_S0_
+- __ZN19MT3BSegmentProducer8sHPNoiseE
+- __ZN19MT3BSegmentProducerC1EP15MTFEFrameFillerP9MTBEParamPK9MT3BVoice
+- __ZN19MT3BSegmentProducerC2EP15MTFEFrameFillerP9MTBEParamPK9MT3BVoice
+- __ZN19MT3BSegmentProducerD0Ev
+- __ZN19MT3BSegmentProducerD1Ev
+- __ZN19MT3BSegmentProducerD2Ev
+- __ZN19MTBEDelayedNotifier10NotifySyncEji
+- __ZN19MTBEDelayedNotifier10NotifyWordEmti
+- __ZN19MTBEDelayedNotifier11ForwardUnitEv
+- __ZN19MTBEDelayedNotifier13NotifyPhonemeEsii
+- __ZN19MTBEDelayedNotifier9StartUnitEv
+- __ZN19MTBEDelayedNotifierC1EP12MTBENotifier
+- __ZN19MTBEDelayedNotifierC2EP12MTBENotifier
+- __ZN19MTBEDelayedNotifierD0Ev
+- __ZN19MTBEDelayedNotifierD1Ev
+- __ZN19MTBEDelayedNotifierD2Ev
+- __ZN19MTBEPersistentParamC1ERKS_
+- __ZN19MTBEPersistentParamC1Ev
+- __ZN19MTBEPersistentParamC2ERKS_
+- __ZN19MTBEPersistentParamC2Ev
+- __ZN19MTBEPersistentParamD1Ev
+- __ZN19MTBEPersistentParamD2Ev
+- __ZN19MTBEPersistentParamaSERKS_
+- __ZN19MTBEPhraseProcessor11SelectUnitsEP17MTFESpeechElement
+- __ZN19MTBEPhraseProcessor13ProcessPhraseEv
+- __ZN19MTBEPhraseProcessor18AbortUnitSelectionEv
+- __ZN19MTBEPhraseProcessor21ExpandCompoundsPreDurEP17MTFESpeechElement
+- __ZN19MTBEPhraseProcessor21InsertPlosiveReleasesEP17MTFESpeechElement
+- __ZN19MTBEPhraseProcessor22ExpandCompoundsPostDurEP17MTFESpeechElement
+- __ZN19MTBEPhraseProcessor24UpdateEngineFromNotifierEv
+- __ZN19MTBEPhraseProcessor24UpdateNotifierFromEngineEv
+- __ZN19MTBEPhraseProcessor6CreateERK16VoiceDescriptionPKvRK15MTBEPhraseParam
+- __ZN19MTBEPhraseProcessor6ReaderEv
+- __ZN19MTBEPhraseProcessorC1EPK9MT3BVoiceRK15MTBEPhraseParamb
+- __ZN19MTBEPhraseProcessorC2EPK9MT3BVoiceRK15MTBEPhraseParamb
+- __ZN19MTBEPhraseProcessorD0Ev
+- __ZN19MTBEPhraseProcessorD1Ev
+- __ZN19MTBEPhraseProcessorD2Ev
+- __ZN19MTCBSegmentProducer10LoadBreathEm
+- __ZN19MTCBSegmentProducer10LoadPseudoEm
+- __ZN19MTCBSegmentProducer11DiscardUnitEv
+- __ZN19MTCBSegmentProducer11GetNextUnitEv
+- __ZN19MTCBSegmentProducer11LoadSilenceEm
+- __ZN19MTCBSegmentProducer11NextSegmentEP11MTMBSegment
+- __ZN19MTCBSegmentProducer12AssembleUnitEm
+- __ZN19MTCBSegmentProducerC2EP15MTFEFrameFillerP9MTBEParam
+- __ZN19MTCBSegmentProducerD0Ev
+- __ZN19MTCBSegmentProducerD1Ev
+- __ZN19MTCBSegmentProducerD2Ev
+- __ZN19MTFEConnectedSpeech12VisitPhonemeEP11MTFEPhoneme
+- __ZN19MTFEConnectedSpeech13VisitSyllableEP12MTFESyllable
+- __ZN19MTFEConnectedSpeech14PrecedingQuoteEP11MTFEPhoneme
+- __ZN19MTFEConnectedSpeech23VisitIntermediatePhraseEP22MTFEIntermediatePhrase
+- __ZN19MTFEConnectedSpeech23VisitIntonationalPhraseEP22MTFEIntonationalPhrase
+- __ZN19MTFEConnectedSpeech6AddTagEt
+- __ZN19MTFEConnectedSpeech9VisitWordEP8MTFEWord
+- __ZN19MTFEConnectedSpeechD0Ev
+- __ZN19MTFEConnectedSpeechD1Ev
+- __ZN19MTFEFillPitchBuffer12VisitPhonemeEP11MTFEPhoneme
+- __ZN19MTFEFillPitchBuffer13VisitSentenceEP12MTFESentence
+- __ZN19MTFEFillPitchBuffer23VisitIntonationalPhraseEP22MTFEIntonationalPhrase
+- __ZN19MTFEFillPitchBuffer8AddPitchEsss
+- __ZN19MTFEFillPitchBufferD0Ev
+- __ZN19MTFEFillPitchBufferD1Ev
+- __ZN19MTFEPhonemeDuration7sMaxDurE
+- __ZN19MTFEPhonemeDuration7sMinDurE
+- __ZN19MTFEPlaceBoundaries10sPhrCoeffsE
+- __ZN19MTFEPlaceBoundaries10sPos2ClassE
+- __ZN19MTFEPlaceBoundaries10sSilCoeffsE
+- __ZN19MTFEPlaceBoundaries11InsertBreakEf
+- __ZN19MTFEPlaceBoundaries23VisitIntermediatePhraseEP22MTFEIntermediatePhrase
+- __ZN19MTFEPlaceBoundaries23VisitIntonationalPhraseEP22MTFEIntonationalPhrase
+- __ZN19MTFEPlaceBoundaries5sC2CCE
+- __ZN19MTFEPlaceBoundaries5sC2CDE
+- __ZN19MTFEPlaceBoundaries5sC2CPE
+- __ZN19MTFEPlaceBoundaries5sC2L2E
+- __ZN19MTFEPlaceBoundaries5sC2LRE
+- __ZN19MTFEPlaceBoundaries5sC2RDE
+- __ZN19MTFEPlaceBoundaries9VisitWordEP8MTFEWord
+- __ZN19MTFEPlaceBoundariesD0Ev
+- __ZN19MTFEPlaceBoundariesD1Ev
+- __ZN19MTFESkipTextContext12VisitCommandEP11MTFECommand
+- __ZN19MTFESkipTextContext12VisitPhonemeEP11MTFEPhoneme
+- __ZN19MTFESkipTextContext13ShouldProcessEP12MTFESentence
+- __ZN19MTFESkipTextContext23VisitIntonationalPhraseEP22MTFEIntonationalPhrase
+- __ZN19MTFESkipTextContext8KeepWordEP8MTFEWord
+- __ZN19MTFESkipTextContext9VisitWordEP8MTFEWord
+- __ZN19MTFESkipTextContextD0Ev
+- __ZN19MTFESkipTextContextD1Ev
+- __ZN19MTFESkipWordContext12VisitCommandEP11MTFECommand
+- __ZN19MTFESkipWordContext13ShouldProcessEP12MTFESentence
+- __ZN19MTFESkipWordContext8KeepWordEP8MTFEWord
+- __ZN19MTFESkipWordContextD0Ev
+- __ZN19MTFESkipWordContextD1Ev
+- __ZN19MTFETrackingVisitor10DelPhonemeEv
+- __ZN19MTFETrackingVisitor10PrePhonemeEP11MTFEPhoneme
+- __ZN19MTFETrackingVisitor11DelSyllableEv
+- __ZN19MTFETrackingVisitor11PostPhonemeEP11MTFEPhoneme
+- __ZN19MTFETrackingVisitor11PreSyllableEP12MTFESyllable
+- __ZN19MTFETrackingVisitor12PostSyllableEP12MTFESyllable
+- __ZN19MTFETrackingVisitor12VisitPhonemeEP11MTFEPhoneme
+- __ZN19MTFETrackingVisitor13VisitSyllableEP12MTFESyllable
+- __ZN19MTFETrackingVisitor21PreIntermediatePhraseEP22MTFEIntermediatePhrase
+- __ZN19MTFETrackingVisitor21PreIntonationalPhraseEP22MTFEIntonationalPhrase
+- __ZN19MTFETrackingVisitor22PostIntermediatePhraseEP22MTFEIntermediatePhrase
+- __ZN19MTFETrackingVisitor22PostIntonationalPhraseEP22MTFEIntonationalPhrase
+- __ZN19MTFETrackingVisitor23VisitIntermediatePhraseEP22MTFEIntermediatePhrase
+- __ZN19MTFETrackingVisitor23VisitIntonationalPhraseEP22MTFEIntonationalPhrase
+- __ZN19MTFETrackingVisitor7PreWordEP8MTFEWord
+- __ZN19MTFETrackingVisitor8PostWordEP8MTFEWord
+- __ZN19MTFETrackingVisitor9VisitWordEP8MTFEWord
+- __ZN19MTFETrackingVisitorD0Ev
+- __ZN19MTFETrackingVisitorD1Ev
+- __ZN19MTMBChangeAmplitude11NextSegmentEP11MTMBSegment
+- __ZN19MTMBChangeAmplitudeC1EP21MTMBProducerComponentP19MTMBSignalProcessorb
+- __ZN19MTMBChangeAmplitudeC2EP21MTMBProducerComponentP19MTMBSignalProcessorb
+- __ZN19MTMBChangeAmplitudeD0Ev
+- __ZN19MTMBChangeAmplitudeD1Ev
+- __ZN19MTMBDiphoneVariants10AddContextEP10MEOWReaderbRK10MEOWStrideI14MEOWDiphoneRefES2_I19MTMBPhonemeVariantsE
+- __ZN19MTMBDiphoneVariants10AddVariantEP10MEOWReaderhh
+- __ZN19MTMBDiphoneVariants11AddVariantsEP10MEOWReaderRK19MTMBPhonemeVariantsS4_
+- __ZN19MTMBDiphoneVariants14AddLeftContextEP10MEOWReaderRK10MEOWVectorI16MEOWWordInstanceE
+- __ZN19MTMBDiphoneVariants14AddPassThroughEv
+- __ZN19MTMBDiphoneVariants15AddRightContextEP10MEOWReaderRK10MEOWVectorI16MEOWWordInstanceE
+- __ZN19MTMBPhraseProcessor10DumpPhraseEP17MTFESpeechElement
+- __ZN19MTMBPhraseProcessor11SelectUnitsEP17MTFESpeechElement
+- __ZN19MTMBPhraseProcessor18AbortUnitSelectionEv
+- __ZN19MTMBPhraseProcessor21ExpandCompoundsPreDurEP17MTFESpeechElement
+- __ZN19MTMBPhraseProcessor22ExpandCompoundsPostDurEP17MTFESpeechElement
+- __ZN19MTMBPhraseProcessor6ReaderEv
+- __ZN19MTMBPhraseProcessorC1EPK13MTPBVoiceDataRK15MTBEPhraseParam
+- __ZN19MTMBPhraseProcessorC2EPK13MTPBVoiceDataRK15MTBEPhraseParam
+- __ZN19MTMBPhraseProcessorD0Ev
+- __ZN19MTMBPhraseProcessorD1Ev
+- __ZN19MTMBPhraseProcessorD2Ev
+- __ZN19MTMBSecondDemiSlice15SelectCandidateEP10MEOWReaderm
+- __ZN19MTMBSecondDemiSliceD0Ev
+- __ZN19MTMBSecondDemiSliceD1Ev
+- __ZN19MTMBSegmentProducer10LoadBreathEm
+- __ZN19MTMBSegmentProducer11LoadSilenceEm
+- __ZN19MTMBSegmentProducer13LoadInclusionEm
+- __ZN19MTMBSegmentProducer8LoadUnitEmRt
+- __ZN19MTMBSegmentProducerC1EP15MTFEFrameFillerP10MEOWReaderP9MTBEParam
+- __ZN19MTMBSegmentProducerC2EP15MTFEFrameFillerP10MEOWReaderP9MTBEParam
+- __ZN19MTMBSegmentProducerD0Ev
+- __ZN19MTMBSegmentProducerD1Ev
+- __ZN19MTMBSignalProcessor6CreateEv
+- __ZN19MTMBSignalProcessorD0Ev
+- __ZN19MTMBSignalProcessorD1Ev
+- __ZN19MTMBSignalProcessorD2Ev
+- __ZN19MTPBPhraseProcessor21ExpandCompoundsPreDurEP17MTFESpeechElement
+- __ZN19MTPBPhraseProcessor22ExpandCompoundsPostDurEP17MTFESpeechElement
+- __ZN19MTPBPhraseProcessorC1EPK13MTPBVoiceDataRK15MTBEPhraseParam
+- __ZN19MTPBPhraseProcessorC2EPK13MTPBVoiceDataRK15MTBEPhraseParam
+- __ZN19MTPBPhraseProcessorD0Ev
+- __ZN19MTPBPhraseProcessorD1Ev
+- __ZN19MTPBSegmentProducer11LoadSilenceEm
+- __ZN19MTPBSegmentProducer8LoadUnitEmRt
+- __ZN19MTPBSegmentProducerC1EP15MTFEFrameFillerP10PROWReaderP9MTBEParam
+- __ZN19MTPBSegmentProducerC2EP15MTFEFrameFillerP10PROWReaderP9MTBEParam
+- __ZN19MTPBSegmentProducerD0Ev
+- __ZN19MTPBSegmentProducerD1Ev
+- __ZN19MTPFExpandCompounds12VisitPhonemeEP11MTFEPhoneme
+- __ZN19MTPFExpandCompounds9VisitWordEP8MTFEWord
+- __ZN19MTPFExpandCompoundsD0Ev
+- __ZN19MTPFExpandCompoundsD1Ev
+- __ZN19MTWBSegmentProducer11NextSegmentEP11MTMBSegment
+- __ZN19MTWBSegmentProducerC1ERK8MTMBDemi
+- __ZN19MTWBSegmentProducerC2ERK8MTMBDemi
+- __ZN19MTWBSegmentProducerD0Ev
+- __ZN19MTWBSegmentProducerD1Ev
+- __ZN20MEOWDiphoneSliceInfoC1Ev
+- __ZN20MEOWDiphoneSliceInfoC2Ev
+- __ZN20MEOWLinearL1StrategyD0Ev
+- __ZN20MEOWLinearL1StrategyD1Ev
+- __ZN20MTFEQuestionPhrasing13VisitSentenceEP12MTFESentence
+- __ZN20MTFEQuestionPhrasing23VisitIntonationalPhraseEP22MTFEIntonationalPhrase
+- __ZN20MTFEQuestionPhrasing9VisitWordEP8MTFEWord
+- __ZN20MTFEQuestionPhrasingD0Ev
+- __ZN20MTFEQuestionPhrasingD1Ev
+- __ZN20MTMBAssemblerCreator6CreateE13AssemblerType
+- __ZN20MTMBAssemblerCreatorC1Ev
+- __ZN20MTMBAssemblerCreatorC2Ev
+- __ZN20MTMBAssemblerCreatorD0Ev
+- __ZN20MTMBAssemblerCreatorD1Ev
+- __ZN20MTMBAssemblerCreatorD2Ev
+- __ZN20MTMBLinearCrossfader4FadeEiiiiPKfS1_Pf
+- __ZN20MTMBLinearCrossfaderD0Ev
+- __ZN20MTMBLinearCrossfaderD1Ev
+- __ZN20MTMBSegmentAssembler15UnassembledUnitEv
+- __ZN20MTMBSegmentAssemblerC2Ev
+- __ZN20MTMBSegmentAssemblerD0Ev
+- __ZN20MTMBSegmentAssemblerD1Ev
+- __ZN20MTMBSegmentAssemblerD2Ev
+- __ZN20MTMBUnitInstructions10AddCommandEP11MTFECommand
+- __ZN20MTMBUnitInstructions10AddToQueueERPNS_5InstrEtt
+- __ZN20MTMBUnitInstructions11DeleteQueueEPNS_5InstrE
+- __ZN20MTMBUnitInstructions12AdvanceQueueERPNS_5InstrE
+- __ZN20MTMBUnitInstructions12ReadyInQueueERPNS_5InstrEPt
+- __ZN20MTMBUnitInstructions9NextSliceEv
+- __ZN20MTMBUnitInstructionsC1Ev
+- __ZN20MTMBUnitInstructionsC2Ev
+- __ZN20MTMBUnitInstructionsD1Ev
+- __ZN20MTMBUnitInstructionsD2Ev
+- __ZN20SLCFStringTextSource6RefillERPtS1_PKt
+- __ZN20SLCFStringTextSourceC1EPK10__CFString
+- __ZN20SLCFStringTextSourceC2EPK10__CFString
+- __ZN20SLCFStringTextSourceD1Ev
+- __ZN20SLCFStringTextSourceD2Ev
+- __ZN20SpeechChannelManager12StopSpeechAtEm
+- __ZN20SpeechChannelManager13GetSpeechInfoEjPv
+- __ZN20SpeechChannelManager13PauseSpeechAtEm
+- __ZN20SpeechChannelManager13SpeakCFStringEPK10__CFStringPK14__CFDictionary
+- __ZN20SpeechChannelManager14ContinueSpeechEv
+- __ZN20SpeechChannelManager16ReadPCMVoiceDataEP10__CFBundle9VoiceSpecP17MTBEVoiceContentsPmPPv
+- __ZN20SpeechChannelManager16ReadPCMVoiceDataEP10__CFBundle9VoiceSpecP17MTBEVoiceContentsPmPPv.cold.1
+- __ZN20SpeechChannelManager17SetSpeechPropertyEPK10__CFStringPKv
+- __ZN20SpeechChannelManager18CloseSpeechChannelEv
+- __ZN20SpeechChannelManager18CopySpeechPropertyEPK10__CFStringPPKv
+- __ZN20SpeechChannelManager18GetCurSpeechErrorsEv
+- __ZN20SpeechChannelManager18ValidSpeechChannelEl
+- __ZN20SpeechChannelManager19UseSpeechDictionaryEPK14__CFDictionary
+- __ZN20SpeechChannelManager20CallWordCallBackProcE7CFRange
+- __ZN20SpeechChannelManager20CopyPhonemesFromTextEPK10__CFStringPS2_
+- __ZN20SpeechChannelManager20ReadVoiceDescriptionEP10__CFBundlePPv
+- __ZN20SpeechChannelManager22RegisterCurSpeechErrorEll
+- __ZN20SpeechChannelManager22RegisterCurSpeechStateENS_11SpeechStateE
+- __ZN20SpeechChannelManager26ReadVoicePitchCoefficientsEP10__CFBundle
+- __ZN20SpeechChannelManager8UseVoiceEP9VoiceSpecP10__CFBundle
+- __ZN20SpeechChannelManagerC1Ev
+- __ZN20SpeechChannelManagerC2Ev
+- __ZN20SpeechChannelManagerC2Ev.cold.1
+- __ZN20SpeechChannelManagerD0Ev
+- __ZN20SpeechChannelManagerD1Ev
+- __ZN20SpeechChannelManagerD2Ev
+- __ZN21CorrelationTimeDomain24FindBestCorrelationIndexERK10MEOWVectorIfERS1_S4_ii
+- __ZN21CorrelationTimeDomain36ShouldApplyAnalysisWindowToReferenceEv
+- __ZN21CorrelationTimeDomainC1Ej
+- __ZN21CorrelationTimeDomainC2Ej
+- __ZN21CorrelationTimeDomainD0Ev
+- __ZN21CorrelationTimeDomainD1Ev
+- __ZN21MEOWLinearRMSStrategyD0Ev
+- __ZN21MEOWLinearRMSStrategyD1Ev
+- __ZN21MEOWSearchLatticeImpl11SetPhraseIDEPKv
+- __ZN21MEOWSearchLatticeImpl12AddDemiSliceERK17MEOWDemiSliceInfoRKNS0_10PhonemeSetE
+- __ZN21MEOWSearchLatticeImpl12AddWordSliceERK17MEOWWordSliceInfoRKN17MEOWDemiSliceInfo10PhonemeSetE
+- __ZN21MEOWSearchLatticeImpl12CookieStrideERK10MEOWVectorI18MEOWDistanceCookieE
+- __ZN21MEOWSearchLatticeImpl12Demi2DiphoneERK20MEOWDiphoneSliceInfoRKN17MEOWDemiSliceInfo10PhonemeSetE
+- __ZN21MEOWSearchLatticeImpl12Diphone2DemiERK17MEOWDemiSliceInfoRKNS0_10PhonemeSetE
+- __ZN21MEOWSearchLatticeImpl12Null2DiphoneERK20MEOWDiphoneSliceInfoRKN17MEOWDemiSliceInfo10PhonemeSetE
+- __ZN21MEOWSearchLatticeImpl12sNeedsHeaderE
+- __ZN21MEOWSearchLatticeImpl13Cookie2CookieERK10MEOWVectorItERKS0_I18MEOWDistanceCookieERKS4_fPfSA_Pm
+- __ZN21MEOWSearchLatticeImpl13Cookie2CookieERK10MEOWVectorItERKS0_I18MEOWDistanceCookieES7_fmPfS8_
+- __ZN21MEOWSearchLatticeImpl13Demi2WordCullERK17MEOWWordSliceInfoRK10MEOWVectorI16MEOWWordInstanceERKN17MEOWDemiSliceInfo10PhonemeSetE
+- __ZN21MEOWSearchLatticeImpl13MatchContextsE10MEOWStrideIhES1_b
+- __ZN21MEOWSearchLatticeImpl13MatchContextsE10MEOWStrideIhEhb
+- __ZN21MEOWSearchLatticeImpl13MatchContextsEhh10MEOWStrideIhEb
+- __ZN21MEOWSearchLatticeImpl13MatchContextsEhhhb
+- __ZN21MEOWSearchLatticeImpl13Null2WordCullERK17MEOWWordSliceInfoRK10MEOWVectorI16MEOWWordInstanceERKN17MEOWDemiSliceInfo10PhonemeSetE
+- __ZN21MEOWSearchLatticeImpl13VariantStrideEPN17MEOWDemiSliceInfo7VariantEm
+- __ZN21MEOWSearchLatticeImpl13Word2WordCullERK17MEOWWordSliceInfoRK10MEOWVectorI16MEOWWordInstanceERKN17MEOWDemiSliceInfo10PhonemeSetE
+- __ZN21MEOWSearchLatticeImpl14AddAnchorSliceERK19MEOWAnchorSliceInfoRKN17MEOWDemiSliceInfo10PhonemeSetE
+- __ZN21MEOWSearchLatticeImpl14Anchor2DiphoneERK20MEOWDiphoneSliceInfoRKN17MEOWDemiSliceInfo10PhonemeSetE
+- __ZN21MEOWSearchLatticeImpl14CullCandidatesEmPKcz
+- __ZN21MEOWSearchLatticeImpl14Diphone2AnchorERK19MEOWAnchorSliceInfoRKN17MEOWDemiSliceInfo10PhonemeSetE
+- __ZN21MEOWSearchLatticeImpl14WeedCandidatesE10MEOWStrideIhE
+- __ZN21MEOWSearchLatticeImpl14WeedCandidatesEhh
+- __ZN21MEOWSearchLatticeImpl15AddDiphoneSliceERK20MEOWDiphoneSliceInfoRKN17MEOWDemiSliceInfo10PhonemeSetE
+- __ZN21MEOWSearchLatticeImpl15AddSilenceSliceERKN17MEOWDemiSliceInfo10PhonemeSetE
+- __ZN21MEOWSearchLatticeImpl15Diphone2DiphoneERK20MEOWDiphoneSliceInfoRKN17MEOWDemiSliceInfo10PhonemeSetE
+- __ZN21MEOWSearchLatticeImpl16ResetMatchVectorEv
+- __ZN21MEOWSearchLatticeImpl17RecomputePathCostEv
+- __ZN21MEOWSearchLatticeImpl18AddBreathDemiSliceERK17MEOWDemiSliceInfoRKNS0_10PhonemeSetE
+- __ZN21MEOWSearchLatticeImpl18ApplyWeightedCostsEv
+- __ZN21MEOWSearchLatticeImpl18ProcessingSentenceEP12MTFESentence
+- __ZN21MEOWSearchLatticeImpl19AllocateCostVectorsEmi
+- __ZN21MEOWSearchLatticeImpl19MatchWordBoundariesEbb
+- __ZN21MEOWSearchLatticeImpl20ComputeWeightedCostsEf
+- __ZN21MEOWSearchLatticeImpl21AddBreathDiphoneSliceERK20MEOWDiphoneSliceInfoRKN17MEOWDemiSliceInfo10PhonemeSetE
+- __ZN21MEOWSearchLatticeImpl4VetoEm
+- __ZN21MEOWSearchLatticeImpl5ForceEm
+- __ZN21MEOWSearchLatticeImpl5clearEv
+- __ZN21MEOWSearchLatticeImpl8BestPathEv
+- __ZN21MEOWSearchLatticeImpl8OverrideEm
+- __ZN21MEOWSearchLatticeImpl9Demi2DemiERK17MEOWDemiSliceInfoRKNS0_10PhonemeSetE
+- __ZN21MEOWSearchLatticeImpl9Demi2WordERK17MEOWWordSliceInfoRK10MEOWVectorI16MEOWWordInstanceERKS3_IhE
+- __ZN21MEOWSearchLatticeImpl9Null2DemiERK17MEOWDemiSliceInfo
+- __ZN21MEOWSearchLatticeImpl9Null2WordERK17MEOWWordSliceInfoRK10MEOWVectorI16MEOWWordInstanceERKS3_IhEf
+- __ZN21MEOWSearchLatticeImpl9SetStrideERKN17MEOWDemiSliceInfo10PhonemeSetE
+- __ZN21MEOWSearchLatticeImpl9Word2DemiERK17MEOWDemiSliceInfoRKNS0_10PhonemeSetE
+- __ZN21MEOWSearchLatticeImpl9Word2NullERK17MEOWWordSliceInfoRK10MEOWVectorI16MEOWWordInstanceERKS3_IhEf
+- __ZN21MEOWSearchLatticeImpl9Word2WordERK17MEOWWordSliceInfoRK10MEOWVectorI16MEOWWordInstanceERKS3_IhEf
+- __ZN21MEOWSearchLatticeImplC1EP10MEOWReaderb
+- __ZN21MEOWSearchLatticeImplC2EP10MEOWReaderb
+- __ZN21MEOWSearchLatticeImplD0Ev
+- __ZN21MEOWSearchLatticeImplD1Ev
+- __ZN21MEOWSearchLatticeImplD2Ev
+- __ZN21MTMBConsumerComponentD0Ev
+- __ZN21MTMBConsumerComponentD1Ev
+- __ZN21MTMBConsumerComponentD2Ev
+- __ZN21MTMBDiphoneStatistics10LogDiphoneEhhm
+- __ZN21MTMBDiphoneStatistics11CreateArrayEv
+- __ZN21MTMBDiphoneStatisticsC2Ev
+- __ZN21MTMBPitchInterpolator10ForceFirstEv
+- __ZN21MTMBPitchInterpolator11ForceSecondEv
+- __ZN21MTMBPitchInterpolator22CreateDemiInterpolatorEP8MTMBDemi
+- __ZN21MTMBPitchInterpolator22CreateWordInterpolatorEP8MTMBDemi
+- __ZN21MTMBPitchInterpolator23SetEstimatedFirstLengthEf
+- __ZN21MTMBPitchInterpolator25CreatePhonemeInterpolatorEP8MTMBDemiS1_
+- __ZN21MTMBProducerComponentD0Ev
+- __ZN21MTMBProducerComponentD1Ev
+- __ZN21MTMBProducerComponentD2Ev
+- __ZN21SLCFDictionaryBuilder16CreateDictionaryEv
+- __ZN21SLCFDictionaryBuilder9push_backEPKvS1_
+- __ZN21SLCFDictionaryBuilderD1Ev
+- __ZN22MEOWSVDDistanceEncoder11AddCutPointEhbj
+- __ZN22MEOWSVDDistanceEncoder11EndEncodingEv
+- __ZN22MEOWSVDDistanceEncoder12UnpackCookieERK12MEOWDistInfoP18MEOWDistanceCookie
+- __ZN22MEOWSVDDistanceEncoder16ComputeDistancesEP7__sFILE
+- __ZN22MEOWSVDDistanceEncoder5AddPPEPf
+- __ZN22MEOWSVDDistanceEncoder6EncodeEhbPKN8MEOWDist6PPDescENS_7SamplesEj
+- __ZN22MEOWSVDDistanceEncoderC1Eit
+- __ZN22MEOWSVDDistanceEncoderC2Eit
+- __ZN22MEOWUnitWeightStrategy13PitchStrategyEv
+- __ZN22MEOWUnitWeightStrategy14sPitchStrategyE
+- __ZN22MEOWUnitWeightStrategy16DurationStrategyEv
+- __ZN22MEOWUnitWeightStrategy17WordPitchStrategyEv
+- __ZN22MEOWUnitWeightStrategy17sDurationStrategyE
+- __ZN22MEOWUnitWeightStrategy18sWordPitchStrategyE
+- __ZN22MEOWUnitWeightStrategy20WordDurationStrategyEv
+- __ZN22MEOWUnitWeightStrategy21sWordDurationStrategyE
+- __ZN22MTFEIntermediatePhrase5VisitER17MTFESpeechVisitor
+- __ZN22MTFEIntermediatePhraseC1Ev
+- __ZN22MTFEIntermediatePhraseC2Ev
+- __ZN22MTFEIntermediatePhraseD0Ev
+- __ZN22MTFEIntermediatePhraseD1Ev
+- __ZN22MTFEIntonationalPhrase5VisitER17MTFESpeechVisitor
+- __ZN22MTFEIntonationalPhraseC1Ev
+- __ZN22MTFEIntonationalPhraseC2Ev
+- __ZN22MTFEIntonationalPhraseD0Ev
+- __ZN22MTFEIntonationalPhraseD1Ev
+- __ZN22MTFEIntonationalPhraseD2Ev
+- __ZN22MTMBAltSignalProcessor11ChangePitchEP11MTMBSegmentS1_
+- __ZN22MTMBAltSignalProcessorD0Ev
+- __ZN22MTMBAltSignalProcessorD1Ev
+- __ZN22MTMBSpeechRateModifier11NextSegmentEP11MTMBSegment
+- __ZN22MTMBSpeechRateModifier11PushToQueueERK10MEOWVectorIfERNSt3__14listINS_9BoundMarkENS4_9allocatorIS6_EEEEm
+- __ZN22MTMBSpeechRateModifierC1EP21MTMBProducerComponent
+- __ZN22MTMBSpeechRateModifierC2EP21MTMBProducerComponent
+- __ZN22MTMBSpeechRateModifierD0Ev
+- __ZN22MTMBSpeechRateModifierD1Ev
+- __ZN22MTMBSpeechRateModifierD2Ev
+- __ZN22TheoreticalAccentShape5printEP7__sFILE
+- __ZN22TheoreticalAccentShape8addPointEifb
+- __ZN22TheoreticalAccentShapeC2EPKc
+- __ZN22TheoreticalAccentShapeD1Ev
+- __ZN23MEOWFlatPPReaderFactory12CreateReaderEP10MEOWReaderjt
+- __ZN23MEOWFlatPPReaderFactoryD0Ev
+- __ZN23MEOWFlatPPReaderFactoryD1Ev
+- __ZN23MTBEDelayedNotificationD0Ev
+- __ZN23MTBEDelayedNotificationD1Ev
+- __ZN23MTBEDelayedNotificationD2Ev
+- __ZN23MTBESoundOutputDoneTask7ExecuteEPv
+- __ZN23MTBESoundOutputDoneTaskD0Ev
+- __ZN23MTBESoundOutputDoneTaskD1Ev
+- __ZN24MT3BFloatSegmentProducer10sBandNoiseE
+- __ZN24MT3BFloatSegmentProducer10sNoiseWaveE
+- __ZN24MT3BFloatSegmentProducer10sTopOctaveE
+- __ZN24MT3BFloatSegmentProducer11NextSegmentEP11MTMBSegment
+- __ZN24MT3BFloatSegmentProducer20CalcPoleCoefficientsEffPfS0_S0_
+- __ZN24MT3BFloatSegmentProducer20CalcZeroCoefficientsEffPfS0_S0_
+- __ZN24MT3BFloatSegmentProducer8sHPNoiseE
+- __ZN24MT3BFloatSegmentProducerC1EP15MTFEFrameFillerP9MTBEParamPK9MT3BVoice
+- __ZN24MT3BFloatSegmentProducerC2EP15MTFEFrameFillerP9MTBEParamPK9MT3BVoice
+- __ZN24MT3BFloatSegmentProducerD0Ev
+- __ZN24MT3BFloatSegmentProducerD1Ev
+- __ZN24MT3FInsertPlosiveRelease12VisitPhonemeEP11MTFEPhoneme
+- __ZN24MT3FInsertPlosiveRelease13VisitSentenceEP12MTFESentence
+- __ZN24MT3FInsertPlosiveRelease9VisitWordEP8MTFEWord
+- __ZN24MT3FInsertPlosiveReleaseD0Ev
+- __ZN24MT3FInsertPlosiveReleaseD1Ev
+- __ZN24MTMBRaisedSineCrossfader4FadeEiiiiPKfS1_Pf
+- __ZN24MTMBRaisedSineCrossfader7sCoeffsE
+- __ZN24MTMBRaisedSineCrossfaderD0Ev
+- __ZN24MTMBRaisedSineCrossfaderD1Ev
+- __ZN25MTMBMetaPitchInterpolator10ForceFirstEv
+- __ZN25MTMBMetaPitchInterpolator11ForceSecondEv
+- __ZN25MTMBMetaPitchInterpolator17PeriodLenAtSampleEff
+- __ZN25MTMBMetaPitchInterpolator18SetEstimatedLengthEf
+- __ZN25MTMBMetaPitchInterpolator23SetEstimatedFirstLengthEf
+- __ZN25MTMBMetaPitchInterpolatorC1EiP21MTMBPitchInterpolatorS1_
+- __ZN25MTMBMetaPitchInterpolatorC2EiP21MTMBPitchInterpolatorS1_
+- __ZN25MTMBMetaPitchInterpolatorD0Ev
+- __ZN25MTMBMetaPitchInterpolatorD1Ev
+- __ZN25MTMBMetaPitchInterpolatorD2Ev
+- __ZN25MTMBPitchInterpolatorBase18SetEstimatedLengthEf
+- __ZN25MTMBPitchInterpolatorBaseD0Ev
+- __ZN25MTMBPitchInterpolatorBaseD1Ev
+- __ZN25MTMBSimpleSignalProcessor11ChangePitchEP11MTMBSegmentS1_
+- __ZN25MTMBSimpleSignalProcessor13BlendSegmentsEP11MTMBSegmentS1_
+- __ZN25MTMBSimpleSignalProcessor13SmoothSegmentEP11MTMBSegmentS1_
+- __ZN25MTMBSimpleSignalProcessor15AdjustAmplitudeEP11MTMBSegmentRffb
+- __ZN25MTMBSimpleSignalProcessor15ChangeAmplitudeEP11MTMBSegmentfffb
+- __ZN25MTMBSimpleSignalProcessor19BlendVoicedSegmentsEP11MTMBSegmentS1_
+- __ZN25MTMBSimpleSignalProcessor21BlendUnvoicedSegmentsEP11MTMBSegmentS1_
+- __ZN25MTMBSimpleSignalProcessor8BlendBegEP11MTMBSegment
+- __ZN25MTMBSimpleSignalProcessor8BlendEndEP11MTMBSegment
+- __ZN25MTMBSimpleSignalProcessorC1Ev
+- __ZN25MTMBSimpleSignalProcessorC2Ev
+- __ZN25MTMBSimpleSignalProcessorD0Ev
+- __ZN25MTMBSimpleSignalProcessorD1Ev
+- __ZN25MTMBSimpleSignalProcessorD2Ev
+- __ZN25MTMBSmartSegmentAssembler10ShrinkDemiEPK8MTMBDemiPKNS_8SizeInfoEit
+- __ZN25MTMBSmartSegmentAssembler11CopySegmentEPK11MTMBSegment
+- __ZN25MTMBSmartSegmentAssembler11StretchDemiEPK8MTMBDemiPKNS_8SizeInfoEit
+- __ZN25MTMBSmartSegmentAssembler14AdjustForWSOLAEP8MTMBDemiRiii
+- __ZN25MTMBSmartSegmentAssembler14AdjustForWSOLAEP8MTMBDemiS1_Riii
+- __ZN25MTMBSmartSegmentAssembler15SmoothAmplitudeEP8MTMBDemiS1_
+- __ZN25MTMBSmartSegmentAssembler15UnassembledUnitEv
+- __ZN25MTMBSmartSegmentAssembler17AdjustWantSamplesEii
+- __ZN25MTMBSmartSegmentAssembler17ShrinkVoicedRangeEPK11MTMBSegmentS2_ii
+- __ZN25MTMBSmartSegmentAssembler18StretchVoicedRangeEPK11MTMBSegmentS2_ii
+- __ZN25MTMBSmartSegmentAssembler19ShrinkUnvoicedRangeEPK11MTMBSegmentS2_ii
+- __ZN25MTMBSmartSegmentAssembler20StretchUnvoicedRangeEPK11MTMBSegmentS2_ii
+- __ZN25MTMBSmartSegmentAssembler21CopyAssembledSegmentsEP8MTMBDemi
+- __ZN25MTMBSmartSegmentAssembler8AssembleEP8MTMBDemi
+- __ZN25MTMBSmartSegmentAssembler8AssembleEP8MTMBDemiS1_
+- __ZN25MTMBSmartSegmentAssembler9CountDemiEP8MTMBDemiiPNS_8SizeInfoE
+- __ZN25MTMBSmartSegmentAssemblerD0Ev
+- __ZN25MTMBSmartSegmentAssemblerD1Ev
+- __ZN25MTMBSmartSegmentAssemblerD2Ev
+- __ZN25MTMBWsolaSegmentAssembler11ProcessDemiEP8MTMBDemi
+- __ZN25MTMBWsolaSegmentAssembler15SmoothAmplitudeEP8MTMBDemiS1_
+- __ZN25MTMBWsolaSegmentAssembler8AssembleEP8MTMBDemi
+- __ZN25MTMBWsolaSegmentAssembler8AssembleEP8MTMBDemiS1_
+- __ZN25MTMBWsolaSegmentAssemblerC1Ev
+- __ZN25MTMBWsolaSegmentAssemblerC2Ev
+- __ZN25MTMBWsolaSegmentAssemblerD0Ev
+- __ZN25MTMBWsolaSegmentAssemblerD1Ev
+- __ZN26MEOWEncodedPPReaderFactory12CreateReaderEP10MEOWReaderjt
+- __ZN26MEOWEncodedPPReaderFactoryD0Ev
+- __ZN26MEOWEncodedPPReaderFactoryD1Ev
+- __ZN26MEOWSearchLatticeLookahead12AddDemiSliceERK17MEOWDemiSliceInfo
+- __ZN26MEOWSearchLatticeLookahead12AddWordSliceERK17MEOWWordSliceInfo
+- __ZN26MEOWSearchLatticeLookahead14AddAnchorSliceERK19MEOWAnchorSliceInfo
+- __ZN26MEOWSearchLatticeLookahead15AddDiphoneSliceERK20MEOWDiphoneSliceInfo
+- __ZN26MEOWSearchLatticeLookahead15AddSilenceSliceEv
+- __ZN26MEOWSearchLatticeLookahead18AddBreathDemiSliceERK17MEOWDemiSliceInfo
+- __ZN26MEOWSearchLatticeLookahead20DispatchCurrentSliceERKN17MEOWDemiSliceInfo10PhonemeSetE
+- __ZN26MEOWSearchLatticeLookahead21AddBreathDiphoneSliceERK20MEOWDiphoneSliceInfo
+- __ZN26MEOWSearchLatticeLookahead4VetoEm
+- __ZN26MEOWSearchLatticeLookahead5ForceEm
+- __ZN26MEOWSearchLatticeLookahead5clearEv
+- __ZN26MEOWSearchLatticeLookahead8BestPathEv
+- __ZN26MEOWSearchLatticeLookahead8OverrideEm
+- __ZN26MEOWSearchLatticeLookaheadC1EP10MEOWReaderb
+- __ZN26MEOWSearchLatticeLookaheadC2EP10MEOWReaderb
+- __ZN26MEOWSearchLatticeLookaheadD0Ev
+- __ZN26MEOWSearchLatticeLookaheadD1Ev
+- __ZN26MTFESegmentalPerturbations5VisitEP17MTFESpeechElement
+- __ZN26MTFESegmentalPerturbations5Vowel12VisitPhonemeEP11MTFEPhoneme
+- __ZN26MTFESegmentalPerturbations5Vowel23VisitIntonationalPhraseEP22MTFEIntonationalPhrase
+- __ZN26MTFESegmentalPerturbations5VowelD0Ev
+- __ZN26MTFESegmentalPerturbations5VowelD1Ev
+- __ZN26MTFESegmentalPerturbations9Consonant12VisitPhonemeEP11MTFEPhoneme
+- __ZN26MTFESegmentalPerturbations9Consonant23VisitIntonationalPhraseEP22MTFEIntonationalPhrase
+- __ZN26MTFESegmentalPerturbations9Consonant7PerturbEP11MTFEPhoneme
+- __ZN26MTFESegmentalPerturbations9ConsonantD0Ev
+- __ZN26MTFESegmentalPerturbations9ConsonantD1Ev
+- __ZN26MTFESegmentalPerturbationsC1EPK15MTFEPitchCoeffsPK9MT3BVoicebbb
+- __ZN26MTFESegmentalPerturbationsC2EPK15MTFEPitchCoeffsPK9MT3BVoicebbb
+- __ZN26MTFESegmentalPerturbationsD0Ev
+- __ZN26MTFESegmentalPerturbationsD1Ev
+- __ZN26MTFESegmentalPerturbationsD2Ev
+- __ZN26MTMBModelPitchInterpolator17PeriodLenAtSampleEff
+- __ZN26MTMBModelPitchInterpolatorC1EPKfi
+- __ZN26MTMBModelPitchInterpolatorC2EPKfi
+- __ZN26MTMBModelPitchInterpolatorD0Ev
+- __ZN26MTMBModelPitchInterpolatorD1Ev
+- __ZN26MTMBSlackPitchInterpolator17PeriodLenAtSampleEff
+- __ZN26MTMBSlackPitchInterpolatorC1EPKfi
+- __ZN26MTMBSlackPitchInterpolatorC2EPKfi
+- __ZN26MTMBSlackPitchInterpolatorD0Ev
+- __ZN26MTMBSlackPitchInterpolatorD1Ev
+- __ZN27MTMBLinearPitchInterpolator17PeriodLenAtSampleEff
+- __ZN27MTMBLinearPitchInterpolatorC1Eiff
+- __ZN27MTMBLinearPitchInterpolatorC2Eiff
+- __ZN27MTMBLinearPitchInterpolatorD0Ev
+- __ZN27MTMBLinearPitchInterpolatorD1Ev
+- __ZN29MTMBSawtoothPitchInterpolator10ForceFirstEv
+- __ZN29MTMBSawtoothPitchInterpolator11ForceSecondEv
+- __ZN29MTMBSawtoothPitchInterpolator17PeriodLenAtSampleEff
+- __ZN29MTMBSawtoothPitchInterpolator23SetEstimatedFirstLengthEf
+- __ZN29MTMBSawtoothPitchInterpolatorC1Eiiffff
+- __ZN29MTMBSawtoothPitchInterpolatorC2Eiiffff
+- __ZN29MTMBSawtoothPitchInterpolatorD0Ev
+- __ZN29MTMBSawtoothPitchInterpolatorD1Ev
+- __ZN4SLML13MatrixColumnsIfEmLENS_6VectorIfEE
+- __ZN4SLML4copyERKNS_6VectorIfEES3_
+- __ZN4SLML5FatalEPKcz
+- __ZN4SLML6MatrixIfE13ResizeStorageEii
+- __ZN4SLML6MatrixIfEC2Eii
+- __ZN4SLML6MatrixIfEaSEf
+- __ZN4SLML6VectorIfE13ResizeStorageEi
+- __ZN4SLML6VectorIfE6insertINS1_8iteratorEEEvRKS3_T_RKS6_
+- __ZN4SLML6VectorIfE9push_backEf
+- __ZN4SLML6VectorIfEC2Ei
+- __ZN4SLML6VectorIfEpLERKS1_
+- __ZN4SLML6matmulERKNS_16MatrixTransProxyIfEERKNS_6MatrixIfEE
+- __ZN4SLML7StorageIfE15RemoveReferenceEv
+- __ZN4SLMLmiERKNS_6VectorIfE8iteratorES4_
+- __ZN5SLTag4NameEt
+- __ZN6SLEmph5sNameE
+- __ZN7SLLexer6CreateEP12SLTextSourceP12SLDictLookupP12SLPronouncerPK10__CFLocalej
+- __ZN8MEOWDist17MakeHammingWindowEv
+- __ZN8MEOWDistC1Ei
+- __ZN8MEOWDistC2Ei
+- __ZN8MEOWPath4VetoEi
+- __ZN8MEOWPath5ForceEi
+- __ZN8MEOWPath9SortNodesEv
+- __ZN8MEOWPathC1ERKN4SLML6VectorIfEE
+- __ZN8MEOWPathC1ERKS_RK10MEOWVectorI18MEOWDistanceCookieES6_RKN4SLML6VectorIfEEf
+- __ZN8MEOWPathC2ERKN4SLML6VectorIfEE
+- __ZN8MEOWPathC2ERKS_RK10MEOWVectorI18MEOWDistanceCookieES6_RKN4SLML6VectorIfEEf
+- __ZN8MEOWPhon4NameEh
+- __ZN8MEOWPhon4sDWtE
+- __ZN8MEOWPhon4sP2ME
+- __ZN8MEOWPhon5MatchEb
+- __ZN8MEOWPhon5sNameE
+- __ZN8MEOWPhon6sSubstE
+- __ZN8MEOWPhon7sVoicedE
+- __ZN8MTFEToBI13IsPitchAccentEh
+- __ZN8MTFEToBI14IsPhraseAccentEh
+- __ZN8MTFEToBI15IsFinalBoundaryEh
+- __ZN8MTFEToBI21IsRegularPhraseAccentEh
+- __ZN8MTFEToBI5sToneE
+- __ZN8MTFEWord10POSForNextEPhP12SLWordTagSetPPS_
+- __ZN8MTFEWord10POSForNextEPjP12SLWordTagSetPPS_
+- __ZN8MTFEWord10POSForPrevEPhP12SLWordTagSetPPS_
+- __ZN8MTFEWord5VisitER17MTFESpeechVisitor
+- __ZN8MTFEWord8NextWordEv
+- __ZN8MTFEWord8PrevWordEv
+- __ZN8MTFEWordC1Ehc
+- __ZN8MTFEWordC2Ehc
+- __ZN8MTFEWordD0Ev
+- __ZN8MTFEWordD1Ev
+- __ZN8MTMBDemi10FirstFrameEv
+- __ZN8MTMBDemi11LastModelPPEv
+- __ZN8MTMBDemi12FirstModelPPEv
+- __ZN8MTMBDemi12LoadSegmentsEmPKtt
+- __ZN8MTMBDemi13LastModelFreqEv
+- __ZN8MTMBDemi14FirstModelFreqEv
+- __ZN8MTMBDemi14SetNaturalSizeEm
+- __ZN8MTMBDemi15ProtectSegmentsERK13MTMBNoSkipDupb
+- __ZN8MTMBDemi15ScaleSpeechRateEf
+- __ZN8MTMBDemi15SetLastPPTargetEt
+- __ZN8MTMBDemi16SetBoundaryPitchEbb
+- __ZN8MTMBDemi16SetFirstPPTargetEt
+- __ZN8MTMBDemi4LoadEP10MEOWReaderP18MTMBDemiPropertiesPKNS0_14DemiDescriptorERK13MTMBNoSkipDupbb
+- __ZN8MTMBDemi4LoadEP10MEOWReaderPKNS0_14DemiDescriptorE
+- __ZN8MTMBDemi4LoadEP10PROWReaderP18MTMBDemiPropertiesPKNS0_14DemiDescriptorERK13MTMBNoSkipDup
+- __ZN8MTMBDemi4LoadEP18MTMBDemiPropertiesPKN10MEOWReader14DemiDescriptorEPKfjj
+- __ZN8MTMBDemi4swapERS_
+- __ZN8MTMBDemi5clearEv
+- __ZN8MTMBDemi6UnloadEv
+- __ZN8MTMBDemi8DumpSBXFEv
+- __ZN8MTMBDemi9LastFrameEv
+- __ZN8MTMBDemiC1Ev
+- __ZN8MTMBDemiC2Ev
+- __ZN8MTMBDemiD1Ev
+- __ZN8MTMBDemiD2Ev
+- __ZN8SLBndEng4NameEh
+- __ZN8SLPOSEng5sNameE
+- __ZN8SLTagEng4NameEt
+- __ZN9MTBEParam10ResetVoiceERK9MT3BVoice
+- __ZN9MTBEParam11MidiToPitchEl
+- __ZN9MTBEParam11sSineWave15E
+- __ZN9MTBEParam13SetModulationEl
+- __ZN9MTBEParam14InitRateParamsEv
+- __ZN9MTBEParam15InitPitchParamsERK9MT3BVoice
+- __ZN9MTBEParam15ResetRateParamsERK9MT3BVoice
+- __ZN9MTBEParam16InitSampleParamsEPvb
+- __ZN9MTBEParam16ResetPitchParamsERK9MT3BVoice
+- __ZN9MTBEParam16SetUsePostDurModEb
+- __ZN9MTBEParam17GetDurModFakeRateEv
+- __ZN9MTBEParam18GetPitchFloorRangeEPfS0_
+- __ZN9MTBEParam19StartNewPitchClauseERK15MTFEPitchBuffer
+- __ZN9MTBEParam6InvDFTERK9MT3BVoice
+- __ZN9MTBEParam7SetRateEs
+- __ZN9MTBEParam8SetPitchEs
+- __ZN9MTBEParam8SetTempoEs
+- __ZN9MTBEParam8SetVoiceERK9MT3BVoicePvS3_
+- __ZN9MTBEParam9HzToPitchEs
+- __ZN9MTBEParam9PitchToHzEs
+- __ZN9MTBEParam9SetVolumeEl
+- __ZN9MTBEParamC1EbRK9MT3BVoicePvS3_
+- __ZN9MTBEParamC2EbRK9MT3BVoicePvS3_
+- __ZN9MTFEClone12VisitCommandEP11MTFECommand
+- __ZN9MTFEClone12VisitPhonemeEP11MTFEPhoneme
+- __ZN9MTFEClone13VisitSentenceEP12MTFESentence
+- __ZN9MTFEClone13VisitSyllableEP12MTFESyllable
+- __ZN9MTFEClone14VisitHomographEP13MTFEHomograph
+- __ZN9MTFEClone23VisitIntermediatePhraseEP22MTFEIntermediatePhrase
+- __ZN9MTFEClone23VisitIntonationalPhraseEP22MTFEIntonationalPhrase
+- __ZN9MTFEClone5CloneEP17MTFESpeechElement
+- __ZN9MTFEClone8PushRootEP17MTFESpeechElement
+- __ZN9MTFEClone9VisitWordEP8MTFEWord
+- __ZN9MTFECloneD0Ev
+- __ZN9MTFECloneD1Ev
+- __ZN9MTFECount12VisitCommandEP11MTFECommand
+- __ZN9MTFECount12VisitPhonemeEP11MTFEPhoneme
+- __ZN9MTFECount13VisitSentenceEP12MTFESentence
+- __ZN9MTFECount13VisitSyllableEP12MTFESyllable
+- __ZN9MTFECount23VisitIntermediatePhraseEP22MTFEIntermediatePhrase
+- __ZN9MTFECount23VisitIntonationalPhraseEP22MTFEIntonationalPhrase
+- __ZN9MTFECount9VisitWordEP8MTFEWord
+- __ZN9MTFECountD0Ev
+- __ZN9MTFECountD1Ev
+- __ZN9MTMBBlend11NextSegmentEP11MTMBSegment
+- __ZN9MTMBBlendC1EP21MTMBProducerComponentP19MTMBSignalProcessor
+- __ZN9MTMBBlendC2EP21MTMBProducerComponentP19MTMBSignalProcessor
+- __ZN9MTMBBlendD0Ev
+- __ZN9MTMBBlendD1Ev
+- __ZN9MTMBBlendD2Ev
+- __ZN9MTPBVoiceC1ERK13MTPBVoiceData
+- __ZN9MTPBVoiceC2ERK13MTPBVoiceData
+- __ZN9SLPhonEng5sExt1E
+- __ZN9SLPhonEng5sExt2E
+- __ZN9SLPhonEng5sNameE
+- __ZN9SLPhonEng5sTextE
+- __ZN9SLPhonEng5sTypeE
+- __ZN9SLPhonEng6sFlagsE
+- __ZNK10MTBEWorker4Task4NameEv
+- __ZNK11MTMBSegment5CheckEv
+- __ZNK11MTMBSegment8AbstractEv
+- __ZNK11MTMBSegment8LinPowerEv
+- __ZNK11MTMBSegment8RawPowerEv
+- __ZNK12MEOWTreeBase10LowerBoundEPKvR16MEOWTreeIterBase
+- __ZNK12MEOWTreeBase4DumpEv
+- __ZNK12MEOWTreeBase5BeginER16MEOWTreeIterBase
+- __ZNK12MEOWTreePage10LowerBoundEiPKvR16MEOWTreeIterBase
+- __ZNK12MTBEDoneTask4NameEv
+- __ZNK12PPRingBuffer3maxEv
+- __ZNK12PPRingBuffer3minEv
+- __ZNK12PPRingBuffer6medianEv
+- __ZNK12SLDictLookup6LookupEP12SLDictionaryPKcmP7SLTokenb
+- __ZNK12SLWordTagSet4findEt
+- __ZNK14MEOWTreeBranch10LowerBoundEiPKvR16MEOWTreeIterBase
+- __ZNK14MT3BEngineTask13AncillaryTask4NameEv
+- __ZNK14MT3BEngineTask4NameEv
+- __ZNK15MTFEPitchTarget11InterpolateEPfiRKS_
+- __ZNK15MTMBSelectUnits4NameEv
+- __ZNK16MEOWCutPointTree10FindInPageEPKvS1_mPb
+- __ZNK16MEOWTreeIterBase5EqualERKS_
+- __ZNK16MTMBModRateWsola14GetScaleFactorEv
+- __ZNK17MEOWPowerStrategy5weighEff
+- __ZNK18MTMBDemiProperties12UseGluePitchEv
+- __ZNK18MTMBDemiProperties12UseWordPitchEv
+- __ZNK18MTMBDemiProperties4PhonEPc
+- __ZNK19MTMBDiphoneVariants13Index2VariantERm
+- __ZNK20MEOWLinearL1Strategy4normEf
+- __ZNK20MEOWLinearL1Strategy5weighEff
+- __ZNK20MEOWLinearL1Strategy6renormEf
+- __ZNK21MEOWLinearRMSStrategy4normEf
+- __ZNK21MEOWLinearRMSStrategy6renormEf
+- __ZNK21MEOWSearchLatticeImpl12BestPathCostEv
+- __ZNK21MEOWSearchLatticeImpl15BestPredecessorEmm
+- __ZNK21MEOWSearchLatticeImpl4sizeEv
+- __ZNK23MTBESoundOutputDoneTask4NameEv
+- __ZNK26MEOWSearchLatticeLookahead4sizeEv
+- __ZNK4SLML10MatrixRowsIfE3sumEv
+- __ZNK8MTMBDemi10LastFactorEv
+- __ZNK8MTMBDemi11FirstFactorEv
+- __ZNK8MTMBDemi4DumpEP7__sFILE
+- __ZNK9MTBEParam13GetModulationEv
+- __ZNK9MTBEParam16GetUsePostDurModEv
+- __ZNK9MTBEParam7GetRateEv
+- __ZNK9MTBEParam8GetPitchEv
+- __ZNK9MTBEParam9GetVolumeEv
+- __ZNKSt3__116__deque_iteratorItPtRtPS1_lLl2048EEplB9nqe210106El
+- __ZNSt11logic_errorC1EPKc
+- __ZNSt11logic_errorC2EPKc
+- __ZNSt11logic_errorD1Ev
+- __ZNSt12length_errorC1B9nqe210106EPKc
+- __ZNSt12length_errorD1Ev
+- __ZNSt12out_of_rangeC1B9nqe210106EPKc
+- __ZNSt12out_of_rangeD1Ev
+- __ZNSt20bad_array_new_lengthC1Ev
+- __ZNSt20bad_array_new_lengthD1Ev
+- __ZNSt3__110__list_impI11MTMBSegmentNS_9allocatorIS1_EEE5clearEv
+- __ZNSt3__110__list_impIN15MEOWSampleCache13ParcelPortionENS_9allocatorIS2_EEE5clearEv
+- __ZNSt3__110__list_impIN22MTMBSpeechRateModifier9BoundMarkENS_9allocatorIS2_EEE5clearEv
+- __ZNSt3__110__list_impIP20SpeechChannelManagerNS_9allocatorIS2_EEE5clearEv
+- __ZNSt3__110__list_impIlNS_9allocatorIlEEE5clearEv
+- __ZNSt3__111__introsortINS_17_ClassicAlgPolicyER18MEOWCompareIndexedPtLb0EEEvT1_S5_T0_NS_15iterator_traitsIS5_E15difference_typeEb
+- __ZNSt3__111__introsortINS_17_ClassicAlgPolicyER24MEOWSortCookieByCutPointP18MEOWDistanceCookieLb0EEEvT1_S6_T0_NS_15iterator_traitsIS6_E15difference_typeEb
+- __ZNSt3__111__introsortINS_17_ClassicAlgPolicyERNS_6__lessIvvEENS_16__deque_iteratorItPtRtPS6_lLl2048EEELb0EEEvT1_SA_T0_NS_15iterator_traitsISA_E15difference_typeEb
+- __ZNSt3__111__sift_downB9nqe210106INS_17_ClassicAlgPolicyER18MEOWCompareIndexedPtEEvT1_OT0_NS_15iterator_traitsIS5_E15difference_typeES5_
+- __ZNSt3__111__sift_downB9nqe210106INS_17_ClassicAlgPolicyER24MEOWSortCookieByCutPointP18MEOWDistanceCookieEEvT1_OT0_NS_15iterator_traitsIS6_E15difference_typeES6_
+- __ZNSt3__111__sift_downB9nqe210106INS_17_ClassicAlgPolicyERNS_6__lessIvvEENS_16__deque_iteratorItPtRtPS6_lLl2048EEEEEvT1_OT0_NS_15iterator_traitsISA_E15difference_typeESA_
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_length_errorB9nqe210106Ev
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6appendEPKcm
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE9push_backEc
+- __ZNSt3__113__nth_elementB9nqe210106INS_17_ClassicAlgPolicyERNS_6__lessIvvEEN4SLML6VectorIfE8iteratorEEEvT1_S9_S9_T0_
+- __ZNSt3__114__split_bufferIP8MTMBDemiNS_9allocatorIS2_EEE12emplace_backIJRS2_EEEvDpOT_
+- __ZNSt3__114__split_bufferIP8MTMBDemiNS_9allocatorIS2_EEE12emplace_backIJS2_EEEvDpOT_
+- __ZNSt3__114__split_bufferIP8MTMBDemiNS_9allocatorIS2_EEE13emplace_frontIJS2_EEEvDpOT_
+- __ZNSt3__114__split_bufferIP8MTMBDemiNS_9allocatorIS2_EEED2Ev
+- __ZNSt3__114__split_bufferIP8MTMBDemiRNS_9allocatorIS2_EEE12emplace_backIJRS2_EEEvDpOT_
+- __ZNSt3__114__split_bufferIP8MTMBDemiRNS_9allocatorIS2_EEE12emplace_backIJS2_EEEvDpOT_
+- __ZNSt3__114__split_bufferIP8MTMBDemiRNS_9allocatorIS2_EEE13emplace_frontIJRS2_EEEvDpOT_
+- __ZNSt3__114__split_bufferIPtNS_9allocatorIS1_EEE12emplace_backIJRS1_EEEvDpOT_
+- __ZNSt3__114__split_bufferIPtNS_9allocatorIS1_EEE12emplace_backIJS1_EEEvDpOT_
+- __ZNSt3__114__split_bufferIPtNS_9allocatorIS1_EEE13emplace_frontIJS1_EEEvDpOT_
+- __ZNSt3__114__split_bufferIPtNS_9allocatorIS1_EEED2Ev
+- __ZNSt3__114__split_bufferIPtRNS_9allocatorIS1_EEE12emplace_backIJRS1_EEEvDpOT_
+- __ZNSt3__114__split_bufferIPtRNS_9allocatorIS1_EEE12emplace_backIJS1_EEEvDpOT_
+- __ZNSt3__114__split_bufferIPtRNS_9allocatorIS1_EEE13emplace_frontIJRS1_EEEvDpOT_
+- __ZNSt3__115__sort_dispatchB9nqe210106INS_17_ClassicAlgPolicyENS_16__deque_iteratorItPtRtPS3_lLl2048EEENS_6__lessIvvEEEEvT0_S9_RT1_
+- __ZNSt3__116__deque_iteratorI8MTMBDemiPS1_RS1_PS2_lLl36EEpLB9nqe210106El
+- __ZNSt3__116__insertion_sortB9nqe210106INS_17_ClassicAlgPolicyER18MEOWCompareIndexedPtEEvT1_S5_T0_
+- __ZNSt3__116__insertion_sortB9nqe210106INS_17_ClassicAlgPolicyER24MEOWSortCookieByCutPointP18MEOWDistanceCookieEEvT1_S6_T0_
+- __ZNSt3__116__insertion_sortB9nqe210106INS_17_ClassicAlgPolicyERNS_6__lessIvvEENS_16__deque_iteratorItPtRtPS6_lLl2048EEEEEvT1_SA_T0_
+- __ZNSt3__116__selection_sortB9nqe210106INS_17_ClassicAlgPolicyERNS_6__lessIvvEEN4SLML6VectorIfE8iteratorEEEvT1_S9_T0_
+- __ZNSt3__117__floyd_sift_downB9nqe210106INS_17_ClassicAlgPolicyERNS_6__lessIvvEENS_16__deque_iteratorItPtRtPS6_lLl2048EEEEET1_SA_OT0_NS_15iterator_traitsISA_E15difference_typeE
+- __ZNSt3__119__allocate_at_leastB9nqe210106INS_9allocatorI7CFRangeEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS6_m
+- __ZNSt3__119__allocate_at_leastB9nqe210106INS_9allocatorIN10MTBEWorker7TaskRecEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
+- __ZNSt3__119__allocate_at_leastB9nqe210106INS_9allocatorIN22TheoreticalAccentShape8KeyPointEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
+- __ZNSt3__119__allocate_at_leastB9nqe210106INS_9allocatorIP8MTMBDemiEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
+- __ZNSt3__119__allocate_at_leastB9nqe210106INS_9allocatorIPKvEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
+- __ZNSt3__119__allocate_at_leastB9nqe210106INS_9allocatorIPtEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS6_m
+- __ZNSt3__119__allocate_at_leastB9nqe210106INS_9allocatorIlEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS5_m
+- __ZNSt3__119__allocate_at_leastB9nqe210106INS_9allocatorItEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS5_m
+- __ZNSt3__119__partial_sort_implB9nqe210106INS_17_ClassicAlgPolicyER18MEOWCompareIndexedPtS4_EET1_S5_S5_T2_OT0_
+- __ZNSt3__119__partial_sort_implB9nqe210106INS_17_ClassicAlgPolicyER24MEOWSortCookieByCutPointP18MEOWDistanceCookieS5_EET1_S6_S6_T2_OT0_
+- __ZNSt3__119__partial_sort_implB9nqe210106INS_17_ClassicAlgPolicyERNS_6__lessIvvEENS_16__deque_iteratorItPtRtPS6_lLl2048EEES9_EET1_SA_SA_T2_OT0_
+- __ZNSt3__120__throw_length_errorB9nqe210106EPKc
+- __ZNSt3__120__throw_out_of_rangeB9nqe210106EPKc
+- __ZNSt3__124__copy_move_unwrap_itersB9nqe210106INS_11__copy_implEPK16MEOWWordInstanceS4_NS_20back_insert_iteratorI10MEOWVectorIS2_EEELi0EEENS_4pairIT0_T2_EESA_T1_SB_
+- __ZNSt3__126__insertion_sort_unguardedB9nqe210106INS_17_ClassicAlgPolicyER18MEOWCompareIndexedPtEEvT1_S5_T0_
+- __ZNSt3__126__insertion_sort_unguardedB9nqe210106INS_17_ClassicAlgPolicyERNS_6__lessIvvEENS_16__deque_iteratorItPtRtPS6_lLl2048EEEEEvT1_SA_T0_
+- __ZNSt3__127__insertion_sort_incompleteB9nqe210106INS_17_ClassicAlgPolicyER18MEOWCompareIndexedPtEEbT1_S5_T0_
+- __ZNSt3__127__insertion_sort_incompleteB9nqe210106INS_17_ClassicAlgPolicyER24MEOWSortCookieByCutPointP18MEOWDistanceCookieEEbT1_S6_T0_
+- __ZNSt3__127__insertion_sort_incompleteB9nqe210106INS_17_ClassicAlgPolicyERNS_6__lessIvvEENS_16__deque_iteratorItPtRtPS6_lLl2048EEEEEbT1_SA_T0_
+- __ZNSt3__131__partition_with_equals_on_leftB9nqe210106INS_17_ClassicAlgPolicyENS_16__deque_iteratorItPtRtPS3_lLl2048EEERNS_6__lessIvvEEEET0_SA_SA_T1_
+- __ZNSt3__131__partition_with_equals_on_leftB9nqe210106INS_17_ClassicAlgPolicyEP18MEOWDistanceCookieR24MEOWSortCookieByCutPointEET0_S6_S6_T1_
+- __ZNSt3__131__partition_with_equals_on_leftB9nqe210106INS_17_ClassicAlgPolicyEPtR18MEOWCompareIndexedEET0_S5_S5_T1_
+- __ZNSt3__132__partition_with_equals_on_rightB9nqe210106INS_17_ClassicAlgPolicyENS_16__deque_iteratorItPtRtPS3_lLl2048EEERNS_6__lessIvvEEEENS_4pairIT0_bEESB_SB_T1_
+- __ZNSt3__132__partition_with_equals_on_rightB9nqe210106INS_17_ClassicAlgPolicyEP18MEOWDistanceCookieR24MEOWSortCookieByCutPointEENS_4pairIT0_bEES7_S7_T1_
+- __ZNSt3__132__partition_with_equals_on_rightB9nqe210106INS_17_ClassicAlgPolicyEPtR18MEOWCompareIndexedEENS_4pairIT0_bEES6_S6_T1_
+- __ZNSt3__14listIP20SpeechChannelManagerNS_9allocatorIS2_EEED1Ev
+- __ZNSt3__15dequeI8MTMBDemiNS_9allocatorIS1_EEE14__erase_to_endENS_16__deque_iteratorIS1_PKS1_RS6_PKS7_lLl36EEE
+- __ZNSt3__15dequeI8MTMBDemiNS_9allocatorIS1_EEE19__add_back_capacityEm
+- __ZNSt3__15dequeI8MTMBDemiNS_9allocatorIS1_EEE25__maybe_remove_back_spareB9nqe210106Eb
+- __ZNSt3__15dequeI8MTMBDemiNS_9allocatorIS1_EEE26__maybe_remove_front_spareB9nqe210106Eb
+- __ZNSt3__15dequeI8MTMBDemiNS_9allocatorIS1_EEE6resizeEm
+- __ZNSt3__15dequeI8MTMBDemiNS_9allocatorIS1_EEE8__appendEm
+- __ZNSt3__15dequeI8MTMBDemiNS_9allocatorIS1_EEE9pop_frontEv
+- __ZNSt3__15dequeI8MTMBDemiNS_9allocatorIS1_EEED2B9nqe210106Ev
+- __ZNSt3__15dequeIP7SLTokenNS_9allocatorIS2_EEE12__block_sizeE
+- __ZNSt3__15dequeItNS_9allocatorItEEE14__erase_to_endENS_16__deque_iteratorItPKtRS5_PKS6_lLl2048EEE
+- __ZNSt3__15dequeItNS_9allocatorItEEE18__append_with_sizeB9nqe210106INS_16__deque_iteratorItPKtRS6_PKS7_lLl2048EEEEEvT_m
+- __ZNSt3__15dequeItNS_9allocatorItEEE19__add_back_capacityEm
+- __ZNSt3__15dequeItNS_9allocatorItEEE19__add_back_capacityEv
+- __ZNSt3__15dequeItNS_9allocatorItEEE25__maybe_remove_back_spareB9nqe210106Eb
+- __ZNSt3__15dequeItNS_9allocatorItEEE26__maybe_remove_front_spareB9nqe210106Eb
+- __ZNSt3__15dequeItNS_9allocatorItEEE6resizeEm
+- __ZNSt3__15dequeItNS_9allocatorItEEE8__appendEm
+- __ZNSt3__15dequeItNS_9allocatorItEEE8__appendINS_16__deque_iteratorItPKtRS6_PKS7_lLl2048EEELi0EEEvT_SC_
+- __ZNSt3__15dequeItNS_9allocatorItEEE9push_backEOt
+- __ZNSt3__15dequeItNS_9allocatorItEEE9push_backERKt
+- __ZNSt3__15dequeItNS_9allocatorItEEEC2ERKS3_
+- __ZNSt3__15dequeItNS_9allocatorItEEED2B9nqe210106Ev
+- __ZNSt3__16__sortIRNS_6__lessIjjEEPjEEvT0_S5_T_
+- __ZNSt3__16vectorI7CFRangeNS_9allocatorIS1_EEE20__throw_length_errorB9nqe210106Ev
+- __ZNSt3__16vectorI7CFRangeNS_9allocatorIS1_EEE20__throw_out_of_rangeB9nqe210106Ev
+- __ZNSt3__16vectorIN10MTBEWorker7TaskRecENS_9allocatorIS2_EEE11__vallocateB9nqe210106Em
+- __ZNSt3__16vectorIN10MTBEWorker7TaskRecENS_9allocatorIS2_EEE18__assign_with_sizeB9nqe210106IPS2_S7_EEvT_T0_l
+- __ZNSt3__16vectorIN10MTBEWorker7TaskRecENS_9allocatorIS2_EEE20__throw_length_errorB9nqe210106Ev
+- __ZNSt3__16vectorIN22TheoreticalAccentShape8KeyPointENS_9allocatorIS2_EEE20__throw_length_errorB9nqe210106Ev
+- __ZNSt3__16vectorIPKvNS_9allocatorIS2_EEE20__throw_length_errorB9nqe210106Ev
+- __ZNSt3__16vectorIlNS_9allocatorIlEEE20__throw_length_errorB9nqe210106Ev
+- __ZNSt3__16vectorIlNS_9allocatorIlEEE6resizeEm
+- __ZNSt3__16vectorIlNS_9allocatorIlEEE8__appendEm
+- __ZNSt3__16vectorIlNS_9allocatorIlEEE9push_backB9nqe210106EOl
+- __ZNSt3__16vectorItNS_9allocatorItEEE20__throw_length_errorB9nqe210106Ev
+- __ZNSt3__16vectorItNS_9allocatorItEEE6resizeEm
+- __ZNSt3__16vectorItNS_9allocatorItEEE8__appendEm
+- __ZNSt3__17__sort5B9nqe210106INS_17_ClassicAlgPolicyER18MEOWCompareIndexedPtLi0EEEvT1_S5_S5_S5_S5_T0_
+- __ZNSt3__17__sort5B9nqe210106INS_17_ClassicAlgPolicyER24MEOWSortCookieByCutPointP18MEOWDistanceCookieLi0EEEvT1_S6_S6_S6_S6_T0_
+- __ZNSt3__19__sift_upB9nqe210106INS_17_ClassicAlgPolicyER18MEOWCompareIndexedPtEEvT1_S5_OT0_NS_15iterator_traitsIS5_E15difference_typeE
+- __ZNSt3__19__sift_upB9nqe210106INS_17_ClassicAlgPolicyER24MEOWSortCookieByCutPointP18MEOWDistanceCookieEEvT1_S6_OT0_NS_15iterator_traitsIS6_E15difference_typeE
+- __ZNSt3__19__sift_upB9nqe210106INS_17_ClassicAlgPolicyERN10MTBEWorker7TimeCmpENS_11__wrap_iterIPNS2_7TaskRecEEEEEvT1_S9_OT0_NS_15iterator_traitsIS9_E15difference_typeE
+- __ZNSt3__19__sift_upB9nqe210106INS_17_ClassicAlgPolicyERNS_6__lessIvvEENS_16__deque_iteratorItPtRtPS6_lLl2048EEEEEvT1_SA_OT0_NS_15iterator_traitsISA_E15difference_typeE
+- __ZSt28__throw_bad_array_new_lengthB9nqe210106v
+- __ZSt9terminatev
+- __ZTI10SLMMapHint
+- __ZTI11Correlation
+- __ZTI11MEOWDecoder
+- __ZTI11MTFEBuilder
+- __ZTI11MTFECommand
+- __ZTI11MTFEPhoneme
+- __ZTI11MTMBModRate
+- __ZTI11PROWPhonEng
+- __ZTI12MEOWMMapHint
+- __ZTI12MEOWPPReader
+- __ZTI12MEOWTreeBase
+- __ZTI12MEOWTreePage
+- __ZTI12MT3BNotifier
+- __ZTI12MTBEDoneTask
+- __ZTI12MTBENotifier
+- __ZTI12MTFECommands
+- __ZTI12MTFEDuration
+- __ZTI12MTFEMelodize
+- __ZTI12MTFEPhrasing
+- __ZTI12MTFESentence
+- __ZTI12MTFESyllable
+- __ZTI12MTPBNotifier
+- __ZTI12SLDictionary
+- __ZTI13MEOWACDecoder
+- __ZTI13MTBEWriteTune
+- __ZTI13MTFEHomograph
+- __ZTI13MTFEToBIPitch
+- __ZTI13MTFETunePitch
+- __ZTI13MTMBDemiSlice
+- __ZTI13MTMBUnitSlice
+- __ZTI13MTMBWordSlice
+- __ZTI14CorrelationFFT
+- __ZTI14MEOWTreeBranch
+- __ZTI14MT3BEngineTask
+- __ZTI14MT3BTextSource
+- __ZTI14MTFEMarkStress
+- __ZTI14MTFEPitchFlags
+- __ZTI14MTFESkipToWord
+- __ZTI14MTFESyllablify
+- __ZTI14MTMBCrossfader
+- __ZTI14MTMBSelectGlue
+- __ZTI14SyllPhnCounter
+- __ZTI15MTBEDelayedSync
+- __ZTI15MTBEDelayedWord
+- __ZTI15MTBEPhraseParam
+- __ZTI15MTFECleanupTune
+- __ZTI15MTFEFrameFiller
+- __ZTI15MTFEModDuration
+- __ZTI15MTFEPOSResolver
+- __ZTI15MTFERateRescale
+- __ZTI15MTFESkipContext
+- __ZTI15MTFESmoothPitch
+- __ZTI15MTFEStemTracker
+- __ZTI15MTMBChangePitch
+- __ZTI15MTMBLogDiphones
+- __ZTI15MTMBSelectUnits
+- __ZTI16MEOWCutPointTree
+- __ZTI16MEOWFlatPPReader
+- __ZTI16MT3UnicodeString
+- __ZTI16MTBESampleBuffer
+- __ZTI16MTFBlockNotifier
+- __ZTI16MTFEDebugVisitor
+- __ZTI16MTFEPhonemeFlags
+- __ZTI16MTMBDiphoneSlice
+- __ZTI16MTMBModRateWsola
+- __ZTI16MTMBVariantSlice
+- __ZTI17MEOWPowerStrategy
+- __ZTI17MEOWSearchLattice
+- __ZTI17MTBEWritePhonemes
+- __ZTI17MTFECalcRampSteps
+- __ZTI17MTFESpeechElement
+- __ZTI17MTFESpeechVisitor
+- __ZTI17MTMBSmoothSegment
+- __ZTI18MEOWTrivialDecoder
+- __ZTI18MTBEDelayedPhoneme
+- __ZTI18MTFEAdjustPhrasing
+- __ZTI18MTFEPitchRaiseFall
+- __ZTI18MTFESpeechIterator
+- __ZTI18MTFESpeechPedigree
+- __ZTI18MTMBFirstDemiSlice
+- __ZTI19MEOWByteSwapDecoder
+- __ZTI19MEOWCodebookDecoder
+- __ZTI19MEOWEncodedPPReader
+- __ZTI19MEOWPPReaderFactory
+- __ZTI19MT3BPhraseProcessor
+- __ZTI19MT3BSegmentProducer
+- __ZTI19MTBEDelayedNotifier
+- __ZTI19MTBEPhraseProcessor
+- __ZTI19MTCBSegmentProducer
+- __ZTI19MTFEConnectedSpeech
+- __ZTI19MTFEFillPitchBuffer
+- __ZTI19MTFEPhonemeDuration
+- __ZTI19MTFEPlaceBoundaries
+- __ZTI19MTFESkipTextContext
+- __ZTI19MTFESkipWordContext
+- __ZTI19MTFESpeechHierarchy
+- __ZTI19MTFETrackingVisitor
+- __ZTI19MTMBChangeAmplitude
+- __ZTI19MTMBDiphoneVariants
+- __ZTI19MTMBPhraseProcessor
+- __ZTI19MTMBSecondDemiSlice
+- __ZTI19MTMBSegmentProducer
+- __ZTI19MTMBSignalProcessor
+- __ZTI19MTPBPhraseProcessor
+- __ZTI19MTPBSegmentProducer
+- __ZTI19MTPFExpandCompounds
+- __ZTI19MTWBSegmentProducer
+- __ZTI20MEOWLinearL1Strategy
+- __ZTI20MTFEQuestionPhrasing
+- __ZTI20MTMBAssemblerCreator
+- __ZTI20MTMBLinearCrossfader
+- __ZTI20MTMBSegmentAssembler
+- __ZTI20SLCFStringTextSource
+- __ZTI20SpeechChannelManager
+- __ZTI21CorrelationTimeDomain
+- __ZTI21MEOWLinearRMSStrategy
+- __ZTI21MEOWSearchLatticeImpl
+- __ZTI21MTMBConsumerComponent
+- __ZTI21MTMBPitchInterpolator
+- __ZTI21MTMBProducerComponent
+- __ZTI22MEOWUnitWeightStrategy
+- __ZTI22MTFEIntermediatePhrase
+- __ZTI22MTFEIntonationalPhrase
+- __ZTI22MTMBAltSignalProcessor
+- __ZTI22MTMBSpeechRateModifier
+- __ZTI23MEOWFlatPPReaderFactory
+- __ZTI23MTBEDelayedNotification
+- __ZTI23MTBESoundOutputDoneTask
+- __ZTI23MTMBProcessingComponent
+- __ZTI24MT3BFloatSegmentProducer
+- __ZTI24MT3FInsertPlosiveRelease
+- __ZTI24MTMBRaisedSineCrossfader
+- __ZTI25MTMBMetaPitchInterpolator
+- __ZTI25MTMBPitchInterpolatorBase
+- __ZTI25MTMBSimpleSignalProcessor
+- __ZTI25MTMBSmartSegmentAssembler
+- __ZTI25MTMBWsolaSegmentAssembler
+- __ZTI26MEOWEncodedPPReaderFactory
+- __ZTI26MEOWSearchLatticeLookahead
+- __ZTI26MTFESegmentalPerturbations
+- __ZTI26MTMBModelPitchInterpolator
+- __ZTI26MTMBSlackPitchInterpolator
+- __ZTI27MTMBLinearPitchInterpolator
+- __ZTI29MTMBSawtoothPitchInterpolator
+- __ZTI29MTMBSignalProcessingComponent
+- __ZTI5SLBnd
+- __ZTI5SLPOS
+- __ZTI6SLPhon
+- __ZTI6SLToBI
+- __ZTI8MEOWPhon
+- __ZTI8MEOWTreeINSt3__14pairIjmEEjE
+- __ZTI8MTFEToBI
+- __ZTI8MTFEWord
+- __ZTI8SLBndEng
+- __ZTI8SLPOSEng
+- __ZTI9MT3BVoice
+- __ZTI9MTCommand
+- __ZTI9MTFEClone
+- __ZTI9MTFECount
+- __ZTI9MTMBBlend
+- __ZTI9MTPBVoice
+- __ZTI9SLPhonEng
+- __ZTIN10MTBEWorker4TaskE
+- __ZTIN14MT3BEngineTask13AncillaryTaskE
+- __ZTIN14MTFESyllablify5Pass1E
+- __ZTIN14MTFESyllablify5Pass2E
+- __ZTIN18MTFEPitchRaiseFall5Pass2E
+- __ZTIN26MTFESegmentalPerturbations5VowelE
+- __ZTIN26MTFESegmentalPerturbations9ConsonantE
+- __ZTISt11logic_error
+- __ZTISt12length_error
+- __ZTISt12out_of_range
+- __ZTISt20bad_array_new_length
+- __ZTS11Correlation
+- __ZTS11MEOWDecoder
+- __ZTS11MTFEBuilder
+- __ZTS11MTFECommand
+- __ZTS11MTFEPhoneme
+- __ZTS11MTMBModRate
+- __ZTS11PROWPhonEng
+- __ZTS12MEOWMMapHint
+- __ZTS12MEOWPPReader
+- __ZTS12MEOWTreeBase
+- __ZTS12MEOWTreePage
+- __ZTS12MT3BNotifier
+- __ZTS12MTBEDoneTask
+- __ZTS12MTBENotifier
+- __ZTS12MTFECommands
+- __ZTS12MTFEDuration
+- __ZTS12MTFEMelodize
+- __ZTS12MTFEPhrasing
+- __ZTS12MTFESentence
+- __ZTS12MTFESyllable
+- __ZTS12MTPBNotifier
+- __ZTS13MEOWACDecoder
+- __ZTS13MTBEWriteTune
+- __ZTS13MTFEHomograph
+- __ZTS13MTFEToBIPitch
+- __ZTS13MTFETunePitch
+- __ZTS13MTMBDemiSlice
+- __ZTS13MTMBUnitSlice
+- __ZTS13MTMBWordSlice
+- __ZTS14CorrelationFFT
+- __ZTS14MEOWTreeBranch
+- __ZTS14MT3BEngineTask
+- __ZTS14MT3BTextSource
+- __ZTS14MTFEMarkStress
+- __ZTS14MTFEPitchFlags
+- __ZTS14MTFESkipToWord
+- __ZTS14MTFESyllablify
+- __ZTS14MTMBCrossfader
+- __ZTS14MTMBSelectGlue
+- __ZTS14SyllPhnCounter
+- __ZTS15MTBEDelayedSync
+- __ZTS15MTBEDelayedWord
+- __ZTS15MTBEPhraseParam
+- __ZTS15MTFECleanupTune
+- __ZTS15MTFEFrameFiller
+- __ZTS15MTFEModDuration
+- __ZTS15MTFEPOSResolver
+- __ZTS15MTFERateRescale
+- __ZTS15MTFESkipContext
+- __ZTS15MTFESmoothPitch
+- __ZTS15MTFEStemTracker
+- __ZTS15MTMBChangePitch
+- __ZTS15MTMBLogDiphones
+- __ZTS15MTMBSelectUnits
+- __ZTS16MEOWCutPointTree
+- __ZTS16MEOWFlatPPReader
+- __ZTS16MT3UnicodeString
+- __ZTS16MTBESampleBuffer
+- __ZTS16MTFBlockNotifier
+- __ZTS16MTFEDebugVisitor
+- __ZTS16MTFEPhonemeFlags
+- __ZTS16MTMBDiphoneSlice
+- __ZTS16MTMBModRateWsola
+- __ZTS16MTMBVariantSlice
+- __ZTS17MEOWPowerStrategy
+- __ZTS17MEOWSearchLattice
+- __ZTS17MTBEWritePhonemes
+- __ZTS17MTFECalcRampSteps
+- __ZTS17MTFESpeechElement
+- __ZTS17MTFESpeechVisitor
+- __ZTS17MTMBSmoothSegment
+- __ZTS18MEOWTrivialDecoder
+- __ZTS18MTBEDelayedPhoneme
+- __ZTS18MTFEAdjustPhrasing
+- __ZTS18MTFEPitchRaiseFall
+- __ZTS18MTFESpeechIterator
+- __ZTS18MTFESpeechPedigree
+- __ZTS18MTMBFirstDemiSlice
+- __ZTS19MEOWByteSwapDecoder
+- __ZTS19MEOWCodebookDecoder
+- __ZTS19MEOWEncodedPPReader
+- __ZTS19MEOWPPReaderFactory
+- __ZTS19MT3BPhraseProcessor
+- __ZTS19MT3BSegmentProducer
+- __ZTS19MTBEDelayedNotifier
+- __ZTS19MTBEPhraseProcessor
+- __ZTS19MTCBSegmentProducer
+- __ZTS19MTFEConnectedSpeech
+- __ZTS19MTFEFillPitchBuffer
+- __ZTS19MTFEPhonemeDuration
+- __ZTS19MTFEPlaceBoundaries
+- __ZTS19MTFESkipTextContext
+- __ZTS19MTFESkipWordContext
+- __ZTS19MTFESpeechHierarchy
+- __ZTS19MTFETrackingVisitor
+- __ZTS19MTMBChangeAmplitude
+- __ZTS19MTMBDiphoneVariants
+- __ZTS19MTMBPhraseProcessor
+- __ZTS19MTMBSecondDemiSlice
+- __ZTS19MTMBSegmentProducer
+- __ZTS19MTMBSignalProcessor
+- __ZTS19MTPBPhraseProcessor
+- __ZTS19MTPBSegmentProducer
+- __ZTS19MTPFExpandCompounds
+- __ZTS19MTWBSegmentProducer
+- __ZTS20MEOWLinearL1Strategy
+- __ZTS20MTFEQuestionPhrasing
+- __ZTS20MTMBAssemblerCreator
+- __ZTS20MTMBLinearCrossfader
+- __ZTS20MTMBSegmentAssembler
+- __ZTS20SpeechChannelManager
+- __ZTS21CorrelationTimeDomain
+- __ZTS21MEOWLinearRMSStrategy
+- __ZTS21MEOWSearchLatticeImpl
+- __ZTS21MTMBConsumerComponent
+- __ZTS21MTMBPitchInterpolator
+- __ZTS21MTMBProducerComponent
+- __ZTS22MEOWUnitWeightStrategy
+- __ZTS22MTFEIntermediatePhrase
+- __ZTS22MTFEIntonationalPhrase
+- __ZTS22MTMBAltSignalProcessor
+- __ZTS22MTMBSpeechRateModifier
+- __ZTS23MEOWFlatPPReaderFactory
+- __ZTS23MTBEDelayedNotification
+- __ZTS23MTBESoundOutputDoneTask
+- __ZTS23MTMBProcessingComponent
+- __ZTS24MT3BFloatSegmentProducer
+- __ZTS24MT3FInsertPlosiveRelease
+- __ZTS24MTMBRaisedSineCrossfader
+- __ZTS25MTMBMetaPitchInterpolator
+- __ZTS25MTMBPitchInterpolatorBase
+- __ZTS25MTMBSimpleSignalProcessor
+- __ZTS25MTMBSmartSegmentAssembler
+- __ZTS25MTMBWsolaSegmentAssembler
+- __ZTS26MEOWEncodedPPReaderFactory
+- __ZTS26MEOWSearchLatticeLookahead
+- __ZTS26MTFESegmentalPerturbations
+- __ZTS26MTMBModelPitchInterpolator
+- __ZTS26MTMBSlackPitchInterpolator
+- __ZTS27MTMBLinearPitchInterpolator
+- __ZTS29MTMBSawtoothPitchInterpolator
+- __ZTS29MTMBSignalProcessingComponent
+- __ZTS5SLBnd
+- __ZTS5SLPOS
+- __ZTS6SLPhon
+- __ZTS6SLToBI
+- __ZTS8MEOWPhon
+- __ZTS8MEOWTreeINSt3__14pairIjmEEjE
+- __ZTS8MTFEToBI
+- __ZTS8MTFEWord
+- __ZTS8SLBndEng
+- __ZTS8SLPOSEng
+- __ZTS9MT3BVoice
+- __ZTS9MTCommand
+- __ZTS9MTFEClone
+- __ZTS9MTFECount
+- __ZTS9MTMBBlend
+- __ZTS9MTPBVoice
+- __ZTS9SLPhonEng
+- __ZTSN10MTBEWorker4TaskE
+- __ZTSN14MT3BEngineTask13AncillaryTaskE
+- __ZTSN14MTFESyllablify5Pass1E
+- __ZTSN14MTFESyllablify5Pass2E
+- __ZTSN18MTFEPitchRaiseFall5Pass2E
+- __ZTSN26MTFESegmentalPerturbations5VowelE
+- __ZTSN26MTFESegmentalPerturbations9ConsonantE
+- __ZTV11MEOWDecoder
+- __ZTV11MTFEBuilder
+- __ZTV11MTFECommand
+- __ZTV11MTFEPhoneme
+- __ZTV11MTMBModRate
+- __ZTV12MEOWMMapHint
+- __ZTV12MEOWPPReader
+- __ZTV12MEOWTreeBase
+- __ZTV12MEOWTreePage
+- __ZTV12MT3BNotifier
+- __ZTV12MTBEDoneTask
+- __ZTV12MTBENotifier
+- __ZTV12MTFECommands
+- __ZTV12MTFEDuration
+- __ZTV12MTFEMelodize
+- __ZTV12MTFEPhrasing
+- __ZTV12MTFESentence
+- __ZTV12MTFESyllable
+- __ZTV12MTPBNotifier
+- __ZTV13MEOWACDecoder
+- __ZTV13MTBEWriteTune
+- __ZTV13MTFEHomograph
+- __ZTV13MTFEToBIPitch
+- __ZTV13MTFETunePitch
+- __ZTV13MTMBUnitSlice
+- __ZTV13MTMBWordSlice
+- __ZTV14CorrelationFFT
+- __ZTV14MEOWTreeBranch
+- __ZTV14MT3BEngineTask
+- __ZTV14MT3BTextSource
+- __ZTV14MTFEMarkStress
+- __ZTV14MTFESkipToWord
+- __ZTV14MTFESyllablify
+- __ZTV14MTMBCrossfader
+- __ZTV14MTMBSelectGlue
+- __ZTV14SLEncyclopedia
+- __ZTV14SyllPhnCounter
+- __ZTV15MTBEDelayedSync
+- __ZTV15MTBEDelayedWord
+- __ZTV15MTFECleanupTune
+- __ZTV15MTFEFrameFiller
+- __ZTV15MTFEModDuration
+- __ZTV15MTFEPOSResolver
+- __ZTV15MTFERateRescale
+- __ZTV15MTFESkipContext
+- __ZTV15MTFESmoothPitch
+- __ZTV15MTFEStemTracker
+- __ZTV15MTMBChangePitch
+- __ZTV15MTMBLogDiphones
+- __ZTV15MTMBSelectUnits
+- __ZTV16MEOWCutPointTree
+- __ZTV16MEOWFlatPPReader
+- __ZTV16MT3UnicodeString
+- __ZTV16MTBESampleBuffer
+- __ZTV16MTFBlockNotifier
+- __ZTV16MTFEDebugVisitor
+- __ZTV16MTMBDiphoneSlice
+- __ZTV16MTMBModRateWsola
+- __ZTV17MEOWPowerStrategy
+- __ZTV17MTBEWritePhonemes
+- __ZTV17MTFECalcRampSteps
+- __ZTV17MTFESpeechElement
+- __ZTV17MTFESpeechVisitor
+- __ZTV17MTMBSmoothSegment
+- __ZTV18MEOWTrivialDecoder
+- __ZTV18MTBEDelayedPhoneme
+- __ZTV18MTFEAdjustPhrasing
+- __ZTV18MTFEPitchRaiseFall
+- __ZTV18MTFESpeechIterator
+- __ZTV18MTFESpeechPedigree
+- __ZTV18MTMBFirstDemiSlice
+- __ZTV19MEOWByteSwapDecoder
+- __ZTV19MEOWCodebookDecoder
+- __ZTV19MEOWEncodedPPReader
+- __ZTV19MEOWPPReaderFactory
+- __ZTV19MT3BPhraseProcessor
+- __ZTV19MT3BSegmentProducer
+- __ZTV19MTBEDelayedNotifier
+- __ZTV19MTBEPhraseProcessor
+- __ZTV19MTCBSegmentProducer
+- __ZTV19MTFEConnectedSpeech
+- __ZTV19MTFEFillPitchBuffer
+- __ZTV19MTFEPlaceBoundaries
+- __ZTV19MTFESkipTextContext
+- __ZTV19MTFESkipWordContext
+- __ZTV19MTFETrackingVisitor
+- __ZTV19MTMBChangeAmplitude
+- __ZTV19MTMBPhraseProcessor
+- __ZTV19MTMBSecondDemiSlice
+- __ZTV19MTMBSegmentProducer
+- __ZTV19MTMBSignalProcessor
+- __ZTV19MTPBPhraseProcessor
+- __ZTV19MTPBSegmentProducer
+- __ZTV19MTPFExpandCompounds
+- __ZTV19MTWBSegmentProducer
+- __ZTV20MEOWLinearL1Strategy
+- __ZTV20MTFEQuestionPhrasing
+- __ZTV20MTMBAssemblerCreator
+- __ZTV20MTMBLinearCrossfader
+- __ZTV20MTMBSegmentAssembler
+- __ZTV20SpeechChannelManager
+- __ZTV21CorrelationTimeDomain
+- __ZTV21MEOWLinearRMSStrategy
+- __ZTV21MEOWSearchLatticeImpl
+- __ZTV21MTMBConsumerComponent
+- __ZTV21MTMBProducerComponent
+- __ZTV22MTFEIntermediatePhrase
+- __ZTV22MTFEIntonationalPhrase
+- __ZTV22MTMBAltSignalProcessor
+- __ZTV22MTMBSpeechRateModifier
+- __ZTV23MEOWFlatPPReaderFactory
+- __ZTV23MTBEDelayedNotification
+- __ZTV23MTBESoundOutputDoneTask
+- __ZTV24MT3BFloatSegmentProducer
+- __ZTV24MT3FInsertPlosiveRelease
+- __ZTV24MTMBRaisedSineCrossfader
+- __ZTV25MTMBMetaPitchInterpolator
+- __ZTV25MTMBPitchInterpolatorBase
+- __ZTV25MTMBSimpleSignalProcessor
+- __ZTV25MTMBSmartSegmentAssembler
+- __ZTV25MTMBWsolaSegmentAssembler
+- __ZTV26MEOWEncodedPPReaderFactory
+- __ZTV26MEOWSearchLatticeLookahead
+- __ZTV26MTFESegmentalPerturbations
+- __ZTV26MTMBModelPitchInterpolator
+- __ZTV26MTMBSlackPitchInterpolator
+- __ZTV27MTMBLinearPitchInterpolator
+- __ZTV29MTMBSawtoothPitchInterpolator
+- __ZTV8MTFEWord
+- __ZTV9MTFEClone
+- __ZTV9MTFECount
+- __ZTV9MTMBBlend
+- __ZTVN10MTBEWorker4TaskE
+- __ZTVN10__cxxabiv117__class_type_infoE
+- __ZTVN10__cxxabiv120__si_class_type_infoE
+- __ZTVN10__cxxabiv121__vmi_class_type_infoE
+- __ZTVN14MT3BEngineTask13AncillaryTaskE
+- __ZTVN14MTFESyllablify5Pass1E
+- __ZTVN14MTFESyllablify5Pass2E
+- __ZTVN18MTFEPitchRaiseFall5Pass2E
+- __ZTVN26MTFESegmentalPerturbations5VowelE
+- __ZTVN26MTFESegmentalPerturbations9ConsonantE
+- __ZTVSt12length_error
+- __ZTVSt12out_of_range
+- __ZThn16_N15MTMBChangePitch11NextSegmentEP11MTMBSegment
+- __ZThn16_N15MTMBChangePitchD0Ev
+- __ZThn16_N15MTMBChangePitchD1Ev
+- __ZThn16_N17MTMBSmoothSegment11NextSegmentEP11MTMBSegment
+- __ZThn16_N17MTMBSmoothSegmentD0Ev
+- __ZThn16_N17MTMBSmoothSegmentD1Ev
+- __ZThn16_N19MTMBChangeAmplitude11NextSegmentEP11MTMBSegment
+- __ZThn16_N19MTMBChangeAmplitudeD0Ev
+- __ZThn16_N19MTMBChangeAmplitudeD1Ev
+- __ZThn16_N22MTMBSpeechRateModifier11NextSegmentEP11MTMBSegment
+- __ZThn16_N22MTMBSpeechRateModifierD0Ev
+- __ZThn16_N22MTMBSpeechRateModifierD1Ev
+- __ZThn16_N9MTMBBlend11NextSegmentEP11MTMBSegment
+- __ZThn16_N9MTMBBlendD0Ev
+- __ZThn16_N9MTMBBlendD1Ev
+- __ZThn8_N15MTMBSelectUnits7ExecuteEPv
+- __ZThn8_N15MTMBSelectUnitsD0Ev
+- __ZThn8_N15MTMBSelectUnitsD1Ev
+- __ZThn8_NK15MTMBSelectUnits4NameEv
+- __ZZ13MTMBCrossfadeE3sXF
+- __ZZ9MTBEAbortP17MTFESpeechElementE9sAborting
+- __ZZL15EmojiLocaleDatavE16sEmojiLocaleData
+- __ZZL15EmojiLocaleDatavE5token
+- __ZZN10MTBEWorkerC1EPKcE12sOnceBigBang
+- __ZZN10MTBEWorkerC1EPKcE15sRecursiveMutex
+- __ZZN11MTMBSegment8AbstractEPKfibE4sBuf
+- __ZZN13MEOWACDecoder8LoadOpusEvE21sOpusDecoderComponent
+- __ZZN13MEOWACDecoder8LoadOpusEvE8sHasOpus
+- __ZZN13MEOWACDecoderC1ERK16MEOWACCodecParamE15sACUncompressed
+- __ZZN13MEOWACDecoderC1ERK16MEOWQTCodecParamE15sACUncompressed
+- __ZZN15MEOWSampleCache7SamplesEtjjPKvjjE13totalReadTime
+- __ZZN15MEOWSampleCache7SamplesEtjjPKvjjE15totalDecodeTime
+- __ZZN20SpeechChannelManagerC1EvE23sInitInactiveChannelSet
+- __ZZN25MTMBSimpleSignalProcessor8BlendBegEP11MTMBSegmentE5sZero
+- __ZZN25MTMBSmartSegmentAssembler21CopyAssembledSegmentsEP8MTMBDemiE18kLinPowerThreshold
+- __ZZN8MEOWPhon4NameEhE4sBuf
+- __ZZN8MTMBDemi8DumpSBXFEvE10sHasHeader
+- __ZdaPvSt19__type_descriptor_t
+- __ZdlPv
+- __ZdlPvSt19__type_descriptor_t
+- __ZnamSt19__type_descriptor_t
+- __ZnwmSt19__type_descriptor_t
+- __ZpLR12SLWordTagSetRKS_
+- ___38-[MTWrappedPhraseProcessor nextBuffer]_block_invoke
+- ___Block_byref_object_copy_
+- ___Block_byref_object_dispose_
+- ___CFConstantStringClassReference
+- ____Z12DoTextToPhonP20SpeechChannelManagerPK10__CFStringlP17MTBEWritePhonemes_block_invoke
+- ____ZL15EmojiLocaleDatav_block_invoke
+- ____ZN10MTBEWorkerC2EPKc_block_invoke
+- ____ZN13MEOWACDecoder8LoadOpusEv_block_invoke
+- ____ZN14MT3BEngineTaskC2EP20SpeechChannelManager_block_invoke
+- ____ZN16MT3UnicodeStringC2EPK10__CFString_block_invoke
+- ____ZN20SpeechChannelManager18CloseSpeechChannelEv_block_invoke
+- ____ZN20SpeechChannelManagerC2Ev_block_invoke
+- ___assert_rtn
+- ___block_descriptor_40_e49_v16?0r^{AudioBufferList=I[1{AudioBuffer=II^v}]}8l
+- ___block_descriptor_tmp
+- ___block_descriptor_tmp.48
+- ___block_descriptor_tmp.6
+- ___block_literal_global
+- ___clang_call_terminate
+- ___cxa_allocate_exception
+- ___cxa_atexit
+- ___cxa_begin_catch
+- ___cxa_end_catch
+- ___cxa_free_exception
+- ___cxa_guard_abort
+- ___cxa_guard_acquire
+- ___cxa_guard_release
+- ___cxa_pure_virtual
+- ___cxa_rethrow
+- ___cxa_throw
+- ___dynamic_cast
+- ___error
+- ___exp10
+- ___gxx_personality_v0
+- ___maskrune
+- ___sincosf_stret
+- ___stderrp
+- ___stdoutp
+- ___swift_allocate_boxed_opaque_existential_1
+- ___swift_destroy_boxed_opaque_existential_1
+- ___swift_memcpy16_8
+- ___swift_memcpy24_4
+- ___swift_memcpy24_8
+- ___swift_memcpy64_8
+- __dispatch_source_type_timer
+- __os_log_default
+- __os_log_error_impl
+- __swiftEmptyArrayStorage
+- __swift_FORCE_LOAD_$_swiftCoreLocation
+- __swift_FORCE_LOAD_$_swiftCoreLocation_$_MacinTalk
+- __swift_FORCE_LOAD_$_swiftCoreMedia
+- __swift_FORCE_LOAD_$_swiftCoreMedia_$_MacinTalk
+- _abort
+- _asl_log
+- _atof
+- _atoi
+- _atol
+- _block_copy_helper
+- _block_copy_helper.19
+- _block_descriptor
+- _block_descriptor.21
+- _block_destroy_helper
+- _block_destroy_helper.20
+- _bzero
+- _catlas_sset$NEWLAPACK
+- _cblas_isamax$NEWLAPACK
+- _cblas_saxpy$NEWLAPACK
+- _cblas_scopy$NEWLAPACK
+- _cblas_sdot$NEWLAPACK
+- _cblas_sgemm$NEWLAPACK
+- _cblas_sgemv$NEWLAPACK
+- _cblas_sscal
+- _cblas_sscal$NEWLAPACK
+- _clock
+- _close
+- _cosf
+- _dispatch_activate
+- _dispatch_async
+- _dispatch_async_f
+- _dispatch_get_global_queue
+- _dispatch_once
+- _dispatch_queue_create
+- _dispatch_release
+- _dispatch_resume
+- _dispatch_set_context
+- _dispatch_set_qos_class_fallback
+- _dispatch_source_create
+- _dispatch_source_set_event_handler_f
+- _dispatch_source_set_timer
+- _dispatch_walltime
+- _dispatch_workloop_create_inactive
+- _dispatch_workloop_set_scheduler_priority
+- _dlclose
+- _dlopen
+- _dlsym
+- _exit
+- _exp2
+- _exp2f
+- _expf
+- _fclose
+- _fcntl
+- _fflush
+- _fprintf
+- _fputc
+- _fputs
+- _fstat
+- _funopen
+- _fwrite
+- _getenv
+- _getpagesize
+- _gettimeofday
+- _kCFAllocatorDefault
+- _kCFAllocatorNull
+- _kCFBooleanFalse
+- _kCFBooleanTrue
+- _kCFErrorDomainOSStatus
+- _kCFTuneDurationKey
+- _kCFTuneLocationKey
+- _kCFTunePitchKey
+- _kCFTunePitchTargetsKey
+- _kCFTypeArrayCallBacks
+- _kCFTypeDictionaryKeyCallBacks
+- _kCFTypeDictionaryValueCallBacks
+- _kEWOCDumpVersion
+- _kSpeechAudioDuckingEndPadding
+- _kSpeechAudioDuckingFadeIn
+- _kSpeechAudioDuckingFadeOut
+- _kSpeechAudioDuckingProperty
+- _kSpeechAudioDuckingValue
+- _kSpeechAudioGraphProperty
+- _kSpeechAudioOutputFormatProperty
+- _kSpeechAudioUnitProperty
+- _kSpeechBlockTemporarilyProperty
+- _kSpeechChannelAudioSessionID
+- _kSpeechChannelStatusChangeBlock
+- _kSpeechCharacterModeProperty
+- _kSpeechCommandDelimiterProperty
+- _kSpeechCommandPrefix
+- _kSpeechCommandSuffix
+- _kSpeechCurrentVoiceProperty
+- _kSpeechCustomVoiceProperty
+- _kSpeechDictionaryAbbreviations
+- _kSpeechDictionaryEntryPhonemes
+- _kSpeechDictionaryEntrySpelling
+- _kSpeechDictionaryLocaleIdentifier
+- _kSpeechDictionaryModificationDate
+- _kSpeechDictionaryPronunciations
+- _kSpeechDiphoneLogProperty
+- _kSpeechDiphoneOptionsProperty
+- _kSpeechDiphoneStatisticsProperty
+- _kSpeechErrorCFCallBack
+- _kSpeechErrorCallBack
+- _kSpeechErrorCallbackCharacterOffset
+- _kSpeechErrorCallbackSpokenString
+- _kSpeechErrorCount
+- _kSpeechErrorNewest
+- _kSpeechErrorNewestCharacterOffset
+- _kSpeechErrorOldest
+- _kSpeechErrorOldestCharacterOffset
+- _kSpeechErrorsProperty
+- _kSpeechInputModeProperty
+- _kSpeechLatencyCallBack
+- _kSpeechModeLiteral
+- _kSpeechModeNormal
+- _kSpeechModePhoneme
+- _kSpeechModeText
+- _kSpeechModeTune
+- _kSpeechNoEndingProsody
+- _kSpeechNoSpeechInterrupt
+- _kSpeechNumberModeProperty
+- _kSpeechOfflineModeProperty
+- _kSpeechOutputChannelMapProperty
+- _kSpeechOutputToAudioDeviceProperty
+- _kSpeechOutputToExtAudioFileProperty
+- _kSpeechOutputToFileDescriptorProperty
+- _kSpeechOutputToFileURLProperty
+- _kSpeechPhonemeCallBack
+- _kSpeechPhonemeInfoExample
+- _kSpeechPhonemeInfoHiliteEnd
+- _kSpeechPhonemeInfoHiliteStart
+- _kSpeechPhonemeInfoOpcode
+- _kSpeechPhonemeInfoSymbol
+- _kSpeechPhonemeOptionsProperty
+- _kSpeechPhonemeSymbolsProperty
+- _kSpeechPitchBaseProperty
+- _kSpeechPitchCoeffProperty
+- _kSpeechPitchModProperty
+- _kSpeechPreflightThenPause
+- _kSpeechPreloadVoiceMetadataProperty
+- _kSpeechRateProperty
+- _kSpeechRecentSyncProperty
+- _kSpeechRefConProperty
+- _kSpeechResetProperty
+- _kSpeechSourceProperty
+- _kSpeechSpeechDoneCallBack
+- _kSpeechStatusNumberOfCharactersLeft
+- _kSpeechStatusOutputBusy
+- _kSpeechStatusOutputPaused
+- _kSpeechStatusPhonemeCode
+- _kSpeechStatusProperty
+- _kSpeechSyncCallBack
+- _kSpeechSynthExtensionProperty
+- _kSpeechSynthesizerInfoIdentifier
+- _kSpeechSynthesizerInfoManufacturer
+- _kSpeechSynthesizerInfoProperty
+- _kSpeechSynthesizerInfoVersion
+- _kSpeechTextDoneCallBack
+- _kSpeechVoiceAge
+- _kSpeechVoiceCreator
+- _kSpeechVoiceDemoText
+- _kSpeechVoiceGender
+- _kSpeechVoiceGenderFemale
+- _kSpeechVoiceGenderMale
+- _kSpeechVoiceGenderNeuter
+- _kSpeechVoiceGenderNeutral
+- _kSpeechVoiceGroup
+- _kSpeechVoiceGroupCompact
+- _kSpeechVoiceGroupCustom
+- _kSpeechVoiceGroupCustomCompact
+- _kSpeechVoiceGroupDefault
+- _kSpeechVoiceID
+- _kSpeechVoiceIdentifier
+- _kSpeechVoiceIndividuallySpokenCharacters
+- _kSpeechVoiceLanguage
+- _kSpeechVoiceLocaleIdentifier
+- _kSpeechVoiceLocalizedNames
+- _kSpeechVoiceName
+- _kSpeechVoiceNameRoot
+- _kSpeechVoiceNumericID
+- _kSpeechVoiceRelativeDesirability
+- _kSpeechVoiceSupportedCharacters
+- _kSpeechVoiceSynthesizerNumericID
+- _kSpeechVoiceUnicodeCharBegin
+- _kSpeechVoiceUnicodeCharEnd
+- _kSpeechVoiceVersion
+- _kSpeechVolumeProperty
+- _kSpeechWordCFCallBack
+- _kSpeechWordCallBack
+- _kVoiceConstantRateOnly
+- _kVoiceIndividuallySpokenCharacters
+- _kVoiceShowInFullListOnly
+- _kVoiceSupportedCharacters
+- _log
+- _log2f
+- _logf
+- _macinTalkOutputFormat
+- _malloc_type_calloc
+- _malloc_type_malloc
+- _malloc_type_realloc
+- _memchr
+- _memcmp
+- _memcpy
+- _memmove
+- _mincore
+- _mlock
+- _munlock
+- _objc_alloc
+- _objc_alloc_init
+- _objc_autoreleaseReturnValue
+- _objc_destroyWeak
+- _objc_initWeak
+- _objc_loadWeakRetained
+- _objc_msgSend$_pcmData
+- _objc_msgSend$builder
+- _objc_msgSend$cancelProcessing
+- _objc_msgSend$cancelSpeechRequest
+- _objc_msgSend$currentSampleCount
+- _objc_msgSend$defaultModulation
+- _objc_msgSend$delegate
+- _objc_msgSend$description
+- _objc_msgSend$didFinishGeneratingSamples
+- _objc_msgSend$didGenerateSamplesForPhoneme:phonemeOpcode:
+- _objc_msgSend$didGenerateSamplesForSync:message:
+- _objc_msgSend$didGenerateSamplesForWord:stringPosition:length:
+- _objc_msgSend$elem
+- _objc_msgSend$fDictLookup
+- _objc_msgSend$fLexer
+- _objc_msgSend$fPParams
+- _objc_msgSend$fPronouncer
+- _objc_msgSend$fTextSource
+- _objc_msgSend$finishedSampleGeneration
+- _objc_msgSend$floatValue
+- _objc_msgSend$format
+- _objc_msgSend$frameLength
+- _objc_msgSend$fromCPPElement:
+- _objc_msgSend$frontend
+- _objc_msgSend$generatedSampleForPhoneme:
+- _objc_msgSend$generatedSampleForSync:
+- _objc_msgSend$generatedSampleForWord:length:
+- _objc_msgSend$identifier
+- _objc_msgSend$init
+- _objc_msgSend$initWithAudioUnit:busType:busses:
+- _objc_msgSend$initWithBookmarkName:atByteSampleOffset:
+- _objc_msgSend$initWithCMAudioFormatDescription:
+- _objc_msgSend$initWithCppElement:
+- _objc_msgSend$initWithFloat:
+- _objc_msgSend$initWithFormat:error:
+- _objc_msgSend$initWithMarkerType:forTextRange:atByteSampleOffset:
+- _objc_msgSend$initWithOriginalString:
+- _objc_msgSend$initWithPCMFormat:bufferListNoCopy:deallocator:
+- _objc_msgSend$initWithStreamDescription:
+- _objc_msgSend$initWithString:
+- _objc_msgSend$initWithStringAndLocale:locale:
+- _objc_msgSend$initWithVoice:frontend:
+- _objc_msgSend$jobIdentifier
+- _objc_msgSend$loadRuleSet:
+- _objc_msgSend$loadVoiceBundle:
+- _objc_msgSend$localeWithLocaleIdentifier:
+- _objc_msgSend$mutableAudioBufferList
+- _objc_msgSend$nextBuffer
+- _objc_msgSend$nextObject
+- _objc_msgSend$notifier
+- _objc_msgSend$numberWithFloat:
+- _objc_msgSend$originalString
+- _objc_msgSend$pitchCoeff
+- _objc_msgSend$privateData
+- _objc_msgSend$processNextPhrase
+- _objc_msgSend$processText:
+- _objc_msgSend$processor
+- _objc_msgSend$registerSubclass:asComponentDescription:name:version:
+- _objc_msgSend$reset
+- _objc_msgSend$resetState
+- _objc_msgSend$saveState
+- _objc_msgSend$setBuilder:
+- _objc_msgSend$setCurrentSampleCount:
+- _objc_msgSend$setDefaultModulation:
+- _objc_msgSend$setDelegate:
+- _objc_msgSend$setFDictLookup:
+- _objc_msgSend$setFLexer:
+- _objc_msgSend$setFPronouncer:
+- _objc_msgSend$setFTextSource:
+- _objc_msgSend$setMatchLogger:
+- _objc_msgSend$setNotifier:
+- _objc_msgSend$setPitchCoeff:
+- _objc_msgSend$setPitchModulation:
+- _objc_msgSend$setProcessor:
+- _objc_msgSend$setResetState:
+- _objc_msgSend$setSaveState:
+- _objc_msgSend$setUnOwned:
+- _objc_msgSend$setVoiceData:
+- _objc_msgSend$setWrapped:
+- _objc_msgSend$set_pcmData:
+- _objc_msgSend$speechSynthesisOutputMetadataBlock
+- _objc_msgSend$ssmlRepresentation
+- _objc_msgSend$stringWithCString:encoding:
+- _objc_msgSend$transformedString
+- _objc_msgSend$translateRangeInTransformedString:
+- _objc_msgSend$unOwned
+- _objc_msgSend$voice
+- _objc_msgSend$voiceData
+- _objc_msgSend$wrapped
+- _objc_release_x19
+- _objc_release_x20
+- _objc_release_x21
+- _objc_release_x22
+- _objc_release_x23
+- _objc_release_x24
+- _objc_release_x8
+- _objc_retain_x19
+- _objc_retain_x2
+- _objc_retain_x20
+- _objc_retain_x8
+- _objc_storeStrong
+- _objc_storeWeak
+- _open
+- _os_log_type_enabled
+- _posix_madvise
+- _pow
+- _powf
+- _pread
+- _printf
+- _pthread_cond_broadcast
+- _pthread_cond_destroy
+- _pthread_cond_init
+- _pthread_cond_wait
+- _pthread_mutex_destroy
+- _pthread_mutex_init
+- _pthread_mutex_lock
+- _pthread_mutex_unlock
+- _pthread_mutexattr_init
+- _pthread_mutexattr_settype
+- _pthread_once
+- _putchar
+- _puts
+- _random
+- _read
+- _sgesvd$NEWLAPACK
+- _sinhf
+- _sleep
+- _sprintf
+- _srandom
+- _ssyevr$NEWLAPACK
+- _strchr
+- _strcmp
+- _strcpy
+- _strlen
+- _strtok_r
+- _swift_allocBox
+- _swift_allocObject
+- _swift_bridgeObjectRetain
+- _swift_cvw_initializeBufferWithCopyOfBuffer
+- _swift_deallocObject
+- _swift_deallocPartialClassInstance
+- _swift_getErrorValue
+- _swift_isaMask
+- _swift_unexpectedError
+- _swift_unknownObjectRelease
+- _swift_unknownObjectWeakDestroy
+- _swift_unknownObjectWeakInit
+- _swift_unknownObjectWeakLoadStrong
+- _symbolic SAySo7NSErrorCSgG
+- _symbolic SaySo10TTSRulesetCG
+- _symbolic SaySo32AVSpeechSynthesisProviderRequestCG
+- _symbolic Sd
+- _symbolic Si
+- _symbolic Sny_____G s6UInt32V
+- _symbolic So14AUAudioUnitBusC
+- _symbolic So15TTSSpeechStringC
+- _symbolic So16AVAudioPCMBufferCSg
+- _symbolic So16TTSRulesetRunnerC
+- _symbolic So19AUAudioUnitBusArrayCSg
+- _symbolic So24MTWrappedPhraseProcessorCSg
+- _symbolic So30AVSpeechSynthesisProviderVoiceCSg
+- _symbolic So32AVSpeechSynthesisProviderRequestC
+- _symbolic So7NSArrayCSo32AVSpeechSynthesisProviderRequestCIeyByy_
+- _symbolic So8MTFVoiceCSg
+- _symbolic Spy_____GSPy_____G_____SiSpy_____G_____IeyByyyyyd_ So26AudioUnitRenderActionFlagsV So0A9TimeStampV s6UInt32V So0A10BufferListV s5Int32V
+- _symbolic SvSg
+- _symbolic _____ 12TextToSpeech27TTSMagicFirstPartyAudioUnitC
+- _symbolic _____ So11AudioBufferV
+- _symbolic _____ So13SMPTETimeTypeV
+- _symbolic _____ So14AudioTimeStampV
+- _symbolic _____ So14SMPTETimeFlagsV
+- _symbolic _____ So15AudioBufferListV
+- _symbolic _____ So15TTSSpeechGenderV
+- _symbolic _____ So19AudioTimeStampFlagsV
+- _symbolic _____ So26AudioUnitRenderActionFlagsV
+- _symbolic _____ So9SMPTETimeV
+- _symbolic _____ s5Int16V
+- _symbolic _____Sg 10Foundation3URLV
+- _symbolic _____Sg 10Foundation6LocaleV
+- _symbolic _____Sg 12TextToSpeech13VoiceDatabaseC
+- _symbolic _____Sg 12TextToSpeech15CoreSynthesizerC5VoiceV
+- _symbolic _____Sg 12TextToSpeech22ImperativeMarkupWriterV07WrittenE0V
+- _symbolic _____Sg 9CoreAudio07ManagedB13ChannelLayoutV
+- _symbolic _____Sg So22CMFormatDescriptionRefa9CoreMediaE10ExtensionsV
+- _symbolic _____SgXw 9MacinTalk07MTMacinB13AUSPAudioUnitC
+- _symbolic ______p 12TextToSpeech11VoiceLoaderP
+- _symbolic ______p s7CVarArgP
+- _symbolic _____ySny_____GG s16IndexingIteratorV s6UInt32V
+- _type_layout_string So11AudioBufferV
+- _type_layout_string So14AudioTimeStampV
+- _type_layout_string So15AudioBufferListV
+- _type_layout_string So15TTSSpeechGenderV
+- _type_layout_string So9SMPTETimeV
+- _uiter_setString
+- _unorm_next
+- _usleep
+- _vDSP_create_fftsetup
+- _vDSP_ctoz
+- _vDSP_destroy_fftsetup
+- _vDSP_fft_zrip
+- _vDSP_hann_window
+- _vDSP_maxvi
+- _vDSP_sve
+- _vDSP_svemg
+- _vDSP_vclip
+- _vDSP_vma
+- _vDSP_vmma
+- _vDSP_vmsb
+- _vDSP_vmul
+- _vDSP_vramp
+- _vDSP_ztoc
+- _vDSP_zvcmul
+- _vfprintf
+- _vsprintf
+CStrings:
++ "MacinTalkAUSP"
+- ""
+- "\n"
+- "\n -> %d\\%d %d\\%d\n"
+- "\nBnd after %s\n"
+- "\nDur "
+- "\nDuration = %5.2fms, %3.0f frames\n"
+- "\nInsert break of %5.2fms before `%s'\n"
+- "\nNo suitable location found for break.\n"
+- "\nPhoneme: %.2f --> %.2f"
+- "\nStartSpeakingLatency %.8f\n"
+- "\nTransform: phone = %d, duration = %5.3f, center = %5.3f, gain = %5.3f, valA = %5.3f, valB = %5.3f"
+- " "
+- " \t"
+- "  "
+- "   "
+- "               "
+- "      requested: %lu used: %lu ratio: %5.2f%%\n"
+- "    Note %4.2f beats, %d ms. Natural duration %d ms\n"
+- "   0 %3d   %6g  %6g\n"
+- "  -> %lu@%lu\n"
+- "  -> %lu@%lu, %lu@%lu\n"
+- "  -> No matching instances.\n"
+- "  Duration %d ms, stretch %f, min dur %f\n"
+- "  First PP %u->%u\\%u [%4.2f] Last PP %u->%u\\%u [%4.2f]"
+- "  S = %f %f %f %f %f\n"
+- "  {"
+- " %.0f"
+- " %04x"
+- " %3lu  -1   %6g  %6g  %6g  %6g  %d\n"
+- " %3lu %3d   %6g  %6g  %6g  %6g   %d [%s-%s#%d - %s-%s#%d]\n"
+- " %3lu %3d   %6g  %6g  %6g  %6g  %d\n"
+- " %4.2f"
+- " %5.1f"
+- " %5.1f:%d"
+- " %5.2f"
+- " %5.2f(%5.2f)"
+- " %d"
+- " %f"
+- " %s"
+- " %s%c"
+- " %s%s%s (%d:%d %d:%d)"
+- " %s=%d"
+- " '!'"
+- " ','"
+- " '.'"
+- " ':'"
+- " '?'"
+- " (%d)"
+- " (%d,%f)"
+- " ()"
+- " )"
+- " - %s-%s<%s#(%d,%d)\n"
+- " - %s<%s#%d\n"
+- " -> %d"
+- " -> %f"
+- " -> %s "
+- " ..."
+- " :%d"
+- " <%d>"
+- " @%u"
+- " C:%d/%d N<%d:%d>"
+- " F %d"
+- " Power* %f"
+- " R %f"
+- " Rate %d/%d"
+- " Threshold %5.3f"
+- " V %f %f"
+- " [%4u]"
+- " [%f (%f) %f] %f"
+- " [%s-%s#%d - %s-%s#%d]"
+- " all %d"
+- " run %d len %d"
+- " {D "
+- " {W \""
+- "!"
+- "!!!"
+- "!!! "
+- "!-"
+- "!H*  %d %f %f\n"
+- "!sibling || sibling->fParent == this"
+- "\""
+- "\" "
+- "# EWOC %s\n#\n# Formats:\n#  Word:     ID  Prev  Path  Concat  Unit  Pos   Match  Desc\n#  Diphone:  ID  Prev  Path  Concat  Unit  Spec  Match\n#  Demi:     ID  Prev  Path  Concat  Unit  Spec  Match\n#\n\n"
+- "$__lazy_storage_$_voiceDatabase"
+- "%*s"
+- "%.*s%8p %3u %08X %08X\n"
+- "%2d %2d %4d %4d %4d %4d %2d %2d %2d %2d %2d %4d %2d %4d %4d %4d %2d %2ld\n"
+- "%3s %08x %3d %5.1f(%5.1f/%5.1f) %c%c %d"
+- "%4d\n"
+- "%c%c%c%c %08X"
+- "%c%c%c%c %c%c%c%c"
+- "%d\n"
+- "%d %d [%f,%f]\n"
+- "%d:%d - %d:%d "
+- "%d:%d - %d:%d N<%d:%d> [%s] %p"
+- "%d:%d-%d"
+- "%f"
+- "%f %f %f %f %f\n"
+- "%g"
+- "%lu Elements %lu Pages (%4.1f%%) %lu Rebalances\n"
+- "%lu homographs for `%s', want: %s%s "
+- "%p %5d %3d->%-3d ["
+- "%s\n"
+- "%s "
+- "%s %d != %d"
+- "%s %f\n"
+- "%s %s %c %u"
+- "%s = %g\n"
+- "%s {%c"
+- "%s\"%s\"%s "
+- "%s%3.0f:%4.2f"
+- "%s%c%s\n"
+- "%s%lu"
+- "%s%s"
+- "%s%s<%s#%d"
+- "%s(?%d?)"
+- "%s*.%d\n"
+- "%s:%u: failed assertion `%s'\n"
+- "%s<"
+- "%s<%p>"
+- "%s>%s#%d"
+- "%s>%s#%d%s"
+- "%s>%s-%s#(%d,%d)"
+- "%s>{"
+- "%sBlend"
+- "%sBlendBeg"
+- "%sBlendEnd"
+- "%sCopy%s"
+- "%sEndOfPhon"
+- "%sEndOfSentence"
+- "%sEndOfWord"
+- "%sFollows Gap"
+- "%sIs Copy"
+- "%sSilence"
+- "%sSkip%s"
+- "%sVoiced"
+- "%u"
+- "%u\n"
+- "( "
+- "(`<"
+- "(float)fGeminationToTheLeft"
+- "(float)fGeminationToTheRight"
+- "*%s.%d\n"
+- "+ <"
+- "+ ="
+- "+ >"
+- "+H*  %d %f %f\n"
+- ","
+- ", "
+- "-"
+- "- <"
+- "- ="
+- "- >"
+- "-%f"
+- "->"
+- "-> Stem %.*s %s"
+- "..."
+- "... "
+- ".H*  %d %f %f\n"
+- ".L*  %d %f %f\n"
+- ".L*+  %d %f %f\n"
+- ".cxx_destruct"
+- "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/MacinTalk/Synthesizers/MacinTalk/Sources/MTFEFrame.cp"
+- "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/MacinTalk/Synthesizers/MacinTalk/Sources/MTFEPOSResolver.cp"
+- "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/MacinTalk/Synthesizers/MacinTalk/Sources/MTFEToBIPitch.cp"
+- "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/MacinTalk/Synthesizers/MacinTalk/Sources/MTFrontend.cp"
+- "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/MacinTalk/Synthesizers/MacinTalk/Sources/MTMBComponents.cp"
+- "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/MacinTalk/Synthesizers/MacinTalk/Sources/MTMBDemi.cp"
+- "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/MacinTalk/Synthesizers/MacinTalk/Sources/MTMBModRate.cp"
+- "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/MacinTalk/Synthesizers/MacinTalk/Sources/MTMBSelectUnits.cp"
+- "/System/Library/Frameworks/AudioToolbox.framework/AudioCodecs"
+- "1.4"
+- "; "
+- "; P"
+- "<%s> Add Task %p[%s]@%s\n"
+- "<%s> ExecuteTasks\n"
+- "<%s> Executing [%s]\n"
+- "<%s> Executing [%s] with slippage %.2fms\n"
+- "<%s> PendingTasks %s? -> %s\n"
+- "<%s> Purge\n"
+- "<%s> PurgeTasks %p\n"
+- "<%s> PurgeTasks %s\n"
+- "<%s> Sleep till %s\n"
+- "<Unknown>"
+- "== border vectors ==\n"
+- "== left singular vectors ==\n"
+- "== singular values ==\n"
+- ">%s"
+- "?"
+- "@\"<MacinTalkPhraseProcessorDelegate>\""
+- "@\"AVAudioFormat\""
+- "@\"MTFVoice\""
+- "@\"MTFrontendSimple\""
+- "@\"NSDictionary\""
+- "@\"NSNumber\""
+- "@16@0:8"
+- "@24@0:8@16"
+- "@24@0:8^v16"
+- "@24@0:8^{__CFBundle=}16"
+- "@32@0:8@16@24"
+- "@48@0:8{AudioComponentDescription=IIIII}16I36^@40"
+- "@?16@0:8"
+- "AA"
+- "ACOpusDecoderFactory"
+- "AE"
+- "AO"
+- "AR"
+- "AW"
+- "AX"
+- "AY"
+- "Abbreviations"
+- "Aborting unit search.\n"
+- "Accent"
+- "AdjustAlignment\t%s\t%d\t%d\n"
+- "AmplitudeNormalization"
+- "AmplitudeNormalization.MaxScale"
+- "AmplitudeNormalization.MinPP"
+- "AmplitudeNormalization.MinScale"
+- "AmplitudeNormalization.ScaleThreshold"
+- "Anchor %s-%s#%u\n"
+- "Any"
+- "Any "
+- "Assemble"
+- "At end of phrase %p\n"
+- "Audio?"
+- "Av Af   f0   f1   f2   f3 a2 a3 a4 a5 a6  fnz AB  BW1  BW2  BW3 ED MK"
+- "B"
+- "B16@0:8"
+- "B24@0:8^@16"
+- "BOGUS[%02x]"
+- "BR"
+- "BackupHighPhraseProm"
+- "BackupLowPhraseProm"
+- "Best %d\n"
+- "Blend       %s "
+- "BlendBeg    %s -> "
+- "BlendEnd    %s -> "
+- "Blending.Log"
+- "Blending.Unvoiced.Window"
+- "Bnd"
+- "Bnd %7.3f [%s]\n"
+- "Bnd=%7.3f\n"
+- "BoostRange %5.3f %5.3f %5.3f %5.3f\n"
+- "Boundaries.Debug"
+- "Boundaries.PhrThreshold"
+- "Boundaries.SilThreshold"
+- "Boundary"
+- "BreathIntake.ParagraphAdjustment"
+- "BreathIntake.PhraseLength"
+- "BreathIntake.PhraseLimit"
+- "BreathIntake.PhraseSpacing"
+- "BreathIntake.SentenceLength"
+- "BreathIntake.SentenceLimit"
+- "CLOSE"
+- "Call"
+- "Can't not describe function x=c, where c is a constant."
+- "Cannot read integer %s from plist.\n"
+- "Cannot read real number %s from plist.\n"
+- "Capitalized "
+- "CapitalizedButIgnored "
+- "ChangeAmp   %s -> "
+- "ChangePitch %s -> "
+- "ChannelStatusChangeBlock"
+- "CharacterOffset"
+- "Children"
+- "Clear %p\n"
+- "ClosestPhraseAccentHigh"
+- "ClosestPhraseAccentLow"
+- "CommaBoundary"
+- "Command"
+- "Compound"
+- "Compromise %s-%s %5.1f %5.1f -> %5.1f %5.1f [%5.2f] (%f\\%f->%f)\n"
+- "ComputeDistances %d x %d\n"
+- "Continue requested\n"
+- "Cost.UseOptimalWeighting"
+- "Could not retrieve bundle "
+- "Could not retrieve voice "
+- "Count"
+- "Create Engine %p\n"
+- "Created phrase %p\n"
+- "Creator"
+- "D %ld\n"
+- "DH"
+- "DOCTOR"
+- "DRIVE"
+- "DX"
+- "Decode %d samples\n"
+- "Decoded\n"
+- "Default"
+- "Deferred"
+- "Delete Engine %p\n"
+- "Demi.Threshold"
+- "DemiCost.OptimalWeight"
+- "DemiCost.SpectralWeight"
+- "DemiCost.UnitWeight"
+- "Didn't find %s-%s %d\n"
+- "Dimension"
+- "Diphone"
+- "Diphone.Threshold"
+- "DiphoneCost.OptimalWeight"
+- "DiphoneCost.SpectralWeight"
+- "DiphoneCost.UnitWeight"
+- "DiphoneGlue.ForceAtBoundary"
+- "DiphoneGlue.ForceAtQX"
+- "DiphoneGlue.ForcePitch"
+- "Done"
+- "Done %p\n"
+- "DownsteppedHighStarLegIntercept"
+- "DownsteppedHighStarLegSlope"
+- "DuckingEndPadding"
+- "DuckingFadeIn"
+- "DuckingFadeOut"
+- "DuckingValue"
+- "DumpOptCosts"
+- "Duplicate cutpoint, omitted\n"
+- "Dur[%s]    xph %d, acc %d, pho %d, pcl %d, gencl %d, dcl %d, lcl %d rcl %d lc2 %d rc2 %d"
+- "E\n"
+- "EH"
+- "ER"
+- "ES"
+- "EXPY"
+- "EY"
+- "Empty demi %d%c%d#%lu\n"
+- "End"
+- "End of Text\n"
+- "End of sentence.\n"
+- "ExactPitch "
+- "Example"
+- "ExclamBoundary"
+- "ExclamLastAccentProm"
+- "ExplicitAccentProm"
+- "FEET"
+- "FL %5.3f %d %d\n"
+- "FORT"
+- "FROM"
+- "Fetch \"%s\" "
+- "Fetch %s>%s#%lu|%s<%s#%lu SkipDup %04x%04x\n"
+- "Fetch %s>%s<%s SkipDup %04x%04x\n"
+- "Fetch %s>BR#%d BR<%s#%lu\n"
+- "Fetch BR<%s#%lu\n"
+- "Fetch Inclusion %s[]%s#%d\n"
+- "Fetch SIL %5.1fms\n"
+- "FinalBoundary"
+- "FinalLowering %5.3f %d %d = %5.3f\n"
+- "FinalLoweringDuration"
+- "FinalLoweringRatio"
+- "First Demi was Aliased\n"
+- "FirstAccentProm"
+- "FirstAccentPromForTwoAccentsPhrase"
+- "FirstChild"
+- "FirstPhoneme"
+- "Flex "
+- "Force %lu\n"
+- "Frontend.BoundaryModel"
+- "Frontend.DebugPOS"
+- "Frontend.PitchDWIM"
+- "Frontend.RhotacizeAX"
+- "Frontend.SILPhrase"
+- "Frontend.Singing.DebugDuration"
+- "Glue"
+- "H%"
+- "H*"
+- "H*   %d %f %f\n"
+- "H+!  %d %f %f\n"
+- "H+!H*"
+- "H+L*"
+- "H-"
+- "HELP"
+- "HELP, couldn't read demi directly from voice table file. Falling back to using mapped access.\n"
+- "HELPED"
+- "HELPS"
+- "HasTextSkip"
+- "HasWordSkip"
+- "Help, attempting to read 0 bytes for a demi."
+- "High"
+- "HighAlternatingProm"
+- "HighFinalBoundaryProm"
+- "HighFinalBoundaryWidth"
+- "HighPlusDownstepIntercept"
+- "HighPlusDownstepSlope"
+- "HighPlusDownsteppedHighStarWidth"
+- "HighPlusIntercept"
+- "HighPlusLowStarWidth"
+- "HighPlusSlope"
+- "HighStarLegIntercept"
+- "HighStarLegSlope"
+- "HighStarWidth"
+- "HiliteEnd"
+- "HiliteStart"
+- "History %p\n"
+- "Homograph"
+- "HomophonesEng"
+- "ID"
+- "IH"
+- "IR"
+- "IR %5.3f\n"
+- "IX"
+- "IY"
+- "Identifier"
+- "Illegal concatenation for -demi slice.\n"
+- "Illegal concatenation for anchor slice.\n"
+- "Illegal concatenation for breath diphone slice.\n"
+- "Illegal concatenation for demi- slice.\n"
+- "Illegal concatenation for diphone slice.\n"
+- "Illegal concatenation for word slice.\n"
+- "Immediate"
+- "Index"
+- "Init %p\n"
+- "Instance"
+- "Intermediate Phrase [%08x].\n"
+- "IntermediateNuclearTail"
+- "IntermediatePhrase"
+- "IntonationalNuclearTail"
+- "IntonationalPhrase"
+- "IsA"
+- "KX"
+- "L    %d %f %f\n"
+- "L%"
+- "L*"
+- "L*+H"
+- "L+   %d %f %f\n"
+- "L+H*"
+- "L-"
+- "L-%"
+- "LTRL"
+- "LX"
+- "LastAccentProm"
+- "LastChild"
+- "LastInParagraph"
+- "LastInText"
+- "Latency\n"
+- "Left"
+- "LocaleIdentifier"
+- "Location %p %p\n%s %s-%s\n"
+- "Location %p %p\nDemi "
+- "Location %p %p\nGlue "
+- "Location %p %p\nWord \"%s\" %s\n"
+- "LongURLBoost"
+- "Low"
+- "LowAlternatingProm"
+- "LowPhraseAccentRecoverSlopeWidth"
+- "LowPlusHighStarWidth"
+- "LowPlusIntercept"
+- "LowPlusSlope"
+- "LowPlusWidth"
+- "LowStarLegIntercept"
+- "LowStarLegSlope"
+- "LowStarPlusHighWidth"
+- "LowStarPlusLegDelay"
+- "LowStarPlusLegIntercept"
+- "LowStarPlusLegSlope"
+- "LowStarWidth"
+- "MEOW Substitution %s-%s -> %s(-%s)-(%s-)%s\n"
+- "MEOW Substitution %s-%s -> %s-%s\n"
+- "MEOW: Bad Demi Format %d @ %08x\n"
+- "MEOW_DEBUG"
+- "MFCC distance metric no longer supported\n"
+- "MTFEDuration::VisitIntermediatePhrase()"
+- "MTFEDuration::VisitIntonationalPhrase()"
+- "MTFEDuration::VisitPhoneme()"
+- "MTFEDuration::VisitSyllable()"
+- "MTFEDuration::VisitWord()"
+- "MTFEToBI::IsPhraseAccent(prevPhraseAccent->fType)"
+- "MTFEToBIPitch.cp"
+- "MTFVoice"
+- "MTFWrappedCommand"
+- "MTFWrappedHomograph"
+- "MTFWrappedIntermediatePhrase"
+- "MTFWrappedIntonationalPhrase"
+- "MTFWrappedPhoneme"
+- "MTFWrappedSentence"
+- "MTFWrappedSpeechElement"
+- "MTFWrappedSyllable"
+- "MTFWrappedWord"
+- "MTFrontendSimple"
+- "MTVoiceUtils"
+- "MTWrappedPhraseProcessor"
+- "MTX %s: %s"
+- "MTX: Reset vol %x -> %x behavior %x -> %x\n"
+- "MTX: UpdateEngineFromNotifier rate %x -> %x pb %x -> %x pm %x -> %x vol %x -> %x behavior %x -> %x\n"
+- "MTX: UpdateNotifierFromEngine rate %x -> %x pb %x -> %x pm %x -> %x vol %x -> %x behavior %x -> %x\n"
+- "MTX_DEBUG"
+- "MTX_DEBUG_PARAM"
+- "MTX_DEBUG_PARAM_VALUES"
+- "MacinTalk Fatal Error: This voice is broken beyond repair.\n  There are no units for %s-%s-%s, and no even remotely\n  conceivable substitutions.\n"
+- "MacinTalk/MacinTalkAUSPAudioUnit.swift"
+- "MacinTalk: No unit callbacks to forward!\n"
+- "MacinTalk: Voice has no distance information!\n"
+- "MacinTalkAUSP failed to start speaking with error %@"
+- "MacinTalkPhraseProcessorDelegate"
+- "MacintalkAUSP"
+- "MacintalkSpeechQueue"
+- "Manufacturer"
+- "Med"
+- "Melody"
+- "ModificationDate"
+- "Morph "
+- "MorphEnding"
+- "NG"
+- "NO"
+- "NORM"
+- "Name"
+- "Negative tag match"
+- "Negative value is not representable"
+- "New Duration for DX = %5.2fms, %3.0f frames\n"
+- "New Duration for aspirated %s = %5.2fms, %3.0f frames\n"
+- "NewPitchAlignment\t%s\t%d\t%d\t%f\t%d\t%d\n"
+- "NewestCharacterOffset"
+- "NewestCode"
+- "NextSibling"
+- "NoEndingProsody"
+- "NoSpeechInterrupt"
+- "NonQuestPhraseProm"
+- "None"
+- "Normalized costs:\n"
+- "Noun"
+- "Now: %d Lead %d\n"
+- "NumChildren"
+- "NumberOfCharactersLeft"
+- "O"
+- "ONE"
+- "ONES"
+- "OR"
+- "OW"
+- "OY"
+- "OldestCharacterOffset"
+- "OldestCode"
+- "Only inserts at end() are implemented!"
+- "Opcode"
+- "OrigFrames"
+- "OutputBusy"
+- "OutputPaused"
+- "Override %lu\n"
+- "P %6g %6g %6g  %6g %6g %6g  %6g %6g %6g  %6g %6g %6g  %6g %6g %6g\n"
+- "P %8d%7d%7d %8d%7d%7d %8d%7d%7d %8d%7d%7d %8d%7d%7d\n"
+- "PART"
+- "PARTS"
+- "PCMWave"
+- "PHON"
+- "POINT"
+- "POINTS"
+- "POS \"%s\" %s%s%s %s [%d] %08x %08x\n"
+- "POS %s\n"
+- "POS match"
+- "POS match / no tag mismatch"
+- "POS match / tag mismatch"
+- "PRES."
+- "PRESENTS"
+- "PRESIDENT"
+- "PX"
+- "ParagraphInitialBoost"
+- "ParagraphRangePhrasalDownStep"
+- "Param %.*s default %g now %g\n"
+- "Param %.*s default %ld now %ld\n"
+- "Param %.*s default %s now %s\n"
+- "ParenBoost"
+- "Parent"
+- "Parse"
+- "Parse\n"
+- "PartOfSpeech"
+- "Pause"
+- "Pause %04x %s\n"
+- "Pause %p\n"
+- "Paused\n"
+- "PeriodBoundary"
+- "PerturbConsNoStress"
+- "PerturbConsPrimaryStress"
+- "PerturbConsSecondaryStress"
+- "PerturbHClosureIntercept"
+- "PerturbHClosureSlope"
+- "PerturbHReleaseIntercept"
+- "PerturbHReleaseSlope"
+- "PerturbPostConsFrames"
+- "PerturbPreConsFrames"
+- "PerturbSonorClosureIntercept"
+- "PerturbSonorClosureSlope"
+- "PerturbSonorReleaseIntercept"
+- "PerturbSonorReleaseSlope"
+- "PerturbUObstClosureIntercept"
+- "PerturbUObstClosureSlope"
+- "PerturbUObstReleaseIntercept"
+- "PerturbUObstReleaseSlope"
+- "PerturbVObstClosureIntercept"
+- "PerturbVObstClosureSlope"
+- "PerturbVObstReleaseIntercept"
+- "PerturbVObstReleaseSlope"
+- "PerturbVowelNoStress"
+- "PerturbVowelPrimaryStress"
+- "PerturbVowelSecondaryStress"
+- "Perturb_AA"
+- "Perturb_AE"
+- "Perturb_AH"
+- "Perturb_AO"
+- "Perturb_AR"
+- "Perturb_AW"
+- "Perturb_AX"
+- "Perturb_AY"
+- "Perturb_EH"
+- "Perturb_EL"
+- "Perturb_EN"
+- "Perturb_ER"
+- "Perturb_EY"
+- "Perturb_IH"
+- "Perturb_IR"
+- "Perturb_IX"
+- "Perturb_IY"
+- "Perturb_LX"
+- "Perturb_OR"
+- "Perturb_OW"
+- "Perturb_OY"
+- "Perturb_RX"
+- "Perturb_UH"
+- "Perturb_UR"
+- "Perturb_UW"
+- "Perturb_XR"
+- "Perturb_YU"
+- "Phon"
+- "Phoneme"
+- "Phoneme %d\n"
+- "Phoneme smoothing skipped due to insufficient material\n"
+- "PhonemeCode"
+- "Phonemes"
+- "PhraseAccent"
+- "PhraseAccentForOverlappingHighFinalBoundary"
+- "PhraseAccentRangeHigh"
+- "PhraseAccentRangeLow"
+- "Ping"
+- "Pitch"
+- "Pitch \"%s\" (%d:%d) (%d:%d) [%d]\n"
+- "PitchAssembly.Bandwidth"
+- "PitchAssembly.Debug"
+- "PitchAssembly.EnforceTunes"
+- "PitchAssembly.FinalSlack"
+- "PitchAssembly.LinearPitchUseMedian"
+- "PitchAssembly.LinearSlack"
+- "PitchAssembly.LogBoundaryPitch"
+- "PitchAssembly.NumPPConsidered"
+- "PitchAssembly.PPRangeThreshold"
+- "PitchAssembly.PPThreshold"
+- "PitchAssembly.PowerThreshold"
+- "PitchAssembly.SilenceConform"
+- "PitchAssembly.SilenceGlue"
+- "PitchAssembly.SmoothPhonemeAmplitude"
+- "PitchAssembly.UnvoicedBackoff"
+- "PitchChange.DetectExcitation"
+- "PitchChange.HannProportion"
+- "PitchChange.UseHann"
+- "PitchCoeffs.plist"
+- "PitchDecrease.MinWin"
+- "PitchDecrease.Window"
+- "PitchIncrease.Window"
+- "PitchSmoothWindow"
+- "Plateau [%d - %d] %f\n"
+- "PlusDownsteppedHighStarLegDelay"
+- "PlusHighIntercept"
+- "PlusHighSlope"
+- "PlusHighStarIntercept"
+- "PlusHighStarSlope"
+- "PlusHighStarWidth"
+- "PlusLowStarLegDelay"
+- "PlusLowStarLegIntercept"
+- "PlusLowStarLegSlope"
+- "Positive tag match"
+- "PostProcessDurationModification.Skip"
+- "Prefetch %lu@%08lx\n"
+- "Prefix"
+- "PreflightThenPause"
+- "PrevSibling"
+- "Pronunciations"
+- "Pros %d %d(%s) %5.3f %5.3f\n"
+- "Q:\n"
+- "QuestBoundary"
+- "QuestPhraseProm"
+- "QuoteBoost"
+- "R "
+- "R    %d %f %f\n"
+- "R 1.0\n"
+- "RateChange.UseFFT"
+- "Raw costs:\n"
+- "RefProportion"
+- "Report unit selection progress [%08x].\n"
+- "Reset %p\n"
+- "Restart at phrase %p\n"
+- "Restart phrase %p\n"
+- "Right"
+- "Running late!\n"
+- "S"
+- "S\t%d\t%d\t%d\t%d\t%d\t%d\t%d\t%d\n"
+- "S\t%f\t%f\t%f\t%f\t%f\t%f\t%f\t%f\n"
+- "SAINT"
+- "SEGVALID()"
+- "SH"
+- "SIL"
+- "STREET"
+- "SVDDistance.NumPitchPeriodsForSVDDistance"
+- "Samp"
+- "Samples decoded: %lu used: %lu ratio: %5.2f%%\n"
+- "Samples<%p>"
+- "Search.AllowHyphenatedWordUnits"
+- "Search.Asynchronous"
+- "Search.ConcurrencyTorture"
+- "Search.UseDiphoneGlue"
+- "Second Demi was Aliased\n"
+- "SecondPhoneme"
+- "Segment assembly\n"
+- "SegmentAssembly.DurationSlack"
+- "SegmentAssembly.LinearPitch"
+- "SegmentAssembly.PitchSlack"
+- "SegmentAssembly.PostProcessDurationModification"
+- "SegmentAssembly.SlackWindow"
+- "SegmentAssembly.SmoothDuration"
+- "SegmentAssembly.WSOLAMaxScale"
+- "SegmentAssembly.WSOLAMinSamples"
+- "SegmentAssembly.WSOLAMinScale"
+- "SegmentAssembly.WordLinearPitch"
+- "Select<%p>"
+- "Sentence"
+- "Sep1Prom"
+- "Sep2Prom"
+- "Sep3Prom"
+- "Sep4Prom"
+- "Sep5Prom"
+- "Sep6Prom"
+- "Sep7Prom"
+- "SetBoundaryPitch \"%s\" %d %d\n"
+- "ShortURLBoost"
+- "Shutdown %p\n"
+- "Silence "
+- "Single homograph for `%s'\n  -> %lu@%lu\n"
+- "Size"
+- "Slope [%d - %d] %f\n"
+- "SlopeDelayRange"
+- "SlopeEarly"
+- "SlopeEarlyDelay"
+- "SlopeFromTo [%d - %d] %f -> %f\n"
+- "SlopeInterAccentDistance"
+- "SlopeNonIntonationalPhraseFinal"
+- "SlopeNonNuclear"
+- "SlopeRange"
+- "SlopeWordEnd"
+- "Smooth      %s -> "
+- "Smooth Amplitude %f"
+- "Sound Output Done"
+- "Sound is awake\n"
+- "Sound is awake, but Speech already stopped\n"
+- "Speech Synthesis can't map voice file (%d)\n"
+- "SpeechChannelManager::ReadPCMVoiceData - %s PCMWave file not found"
+- "SpeechChannelManager::ReadVoiceDescription -  Read failed with code %d"
+- "SpeechChannelManager::ReadVoiceDescription VoiceDescription file -  Open %s failed with code %ld"
+- "SpeechChannelManager::UseVoice - %s voiceDescription file reading failed"
+- "SpeechChannelManager::UseVoice failed to load meow voice due to missing codec."
+- "SpeechMatrix: "
+- "Spelling"
+- "SpokenString"
+- "Start"
+- "Start %p\n"
+- "Start Parcel %016llx  End Parcel %016llx"
+- "Stop %p\n"
+- "Stopped"
+- "Stress1"
+- "Stride"
+- "Suffix"
+- "Syllable"
+- "Symbol"
+- "Sync"
+- "Sync %08X\n"
+- "T@\"<MacinTalkPhraseProcessorDelegate>\",W,N,V_delegate"
+- "T@\"AUAudioUnitBusArray\",N,R"
+- "T@\"AVAudioFormat\",&,N,V_format"
+- "T@\"MTFVoice\",W,N,V_voice"
+- "T@\"MTFWrappedSpeechElement\",R,N"
+- "T@\"MTFrontendSimple\",&,N,V_frontend"
+- "T@\"NSArray\",N,C"
+- "T@\"NSDictionary\",&,N,V_pitchCoeff"
+- "T@\"NSNumber\",&,N,V_defaultModulation"
+- "T@\"NSNumber\",&,N,V_pitchModulation"
+- "T@\"NSString\",R,N"
+- "T@?,N,R"
+- "TB,V_unOwned"
+- "TEXT"
+- "TH"
+- "THAT"
+- "THE"
+- "TTS: Tuple forced illegal POS %s for \"%s\"\n"
+- "TTSFirstPartyAURegistrar"
+- "TUNE"
+- "TUNE "
+- "TX"
+- "T^v,N,V__pcmData"
+- "T^v,N,V_voiceData"
+- "T^v,R,N"
+- "T^v,V_processor"
+- "T^v,V_wrapped"
+- "T^{MTBENotifier=^^?iiii{SpeechErrorInfo=ssqsq}sI[4S]},V_notifier"
+- "T^{MTBENotifier=^^?iiii{SpeechErrorInfo=ssqsq}sI[4S]},V_resetState"
+- "T^{MTBENotifier=^^?iiii{SpeechErrorInfo=ssqsq}sI[4S]},V_saveState"
+- "T^{MTBEPersistentParam=ff[4f][4c]if^{__CFDictionary}ss^{SLLexer}^{__CFArray}^{MTMBDiphoneStatistics}^{__CFDictionary}^{SLDictLookup}{_opaque_pthread_mutex_t=q[56c]}{_opaque_pthread_cond_t=q[40c]}^{MTMBSelectUnits}},V_fPParams"
+- "T^{MTFEBuilder=^^?^{SLLexer}^{MTFESentence}^{MTFEIntonationalPhrase}^{MTFEIntermediatePhrase}^{MTFEWord}^{MTFEHomograph}^{MTFEPhoneme}BBBBBBBfffI^{SLToken}s},V_builder"
+- "T^{SLCFStringTextSource=^^?Bq^{__CFString}[129S]},V_fTextSource"
+- "T^{SLDictLookup=^^?^{SLDictionary}^{SLDictionary}^{SLDictionary}^{SLAgglomerate}},V_fDictLookup"
+- "T^{SLLexer=^^?},V_fLexer"
+- "T^{SLPronouncer=^^?},V_fPronouncer"
+- "T^{VoiceDescription=i{VoiceSpec=II}i[64C][256C]sssss[4i]},R,N"
+- "T^{WrappedMTVoice=(MTBEVoiceContents=^v^{MEOWReader}^{PROWReader})},N,V_wrapped"
+- "Tags"
+- "Text"
+- "TextToPhon %p\n"
+- "Tf,R,N"
+- "TheoreticalAccentShape\t%s"
+- "Ti,R,N,V_NumChildren"
+- "ToBIPitch.DeclFinalRaisingDuration"
+- "ToBIPitch.DeclFinalRaisingRatio"
+- "ToBIPitch.DownStepMonosyllabicPhrases"
+- "ToBIPitch.DowngradeVerbs"
+- "ToBIPitch.ExclamFinalRaisingDuration"
+- "ToBIPitch.ExclamFinalRaisingRatio"
+- "ToBIPitch.ExclamPromBoost"
+- "ToBIPitch.HighBoundaryWidth"
+- "ToBIPitch.HighFinalProm"
+- "ToBIPitch.HighPhraseProm"
+- "ToBIPitch.LowFinalProm"
+- "ToBIPitch.LowPhraseProm"
+- "ToBIPitch.ParagraphInitialBoost"
+- "ToBIPitch.ParagraphRangePhrasalDownStep"
+- "ToBIPitch.QuestFinalRaisingDuration"
+- "ToBIPitch.QuestFinalRaisingRatio"
+- "ToBIPitch.VerbDowngradeFactor"
+- "ToBIPitch.WHQuestFinalRaisingDuration"
+- "ToBIPitch.WHQuestFinalRaisingRatio"
+- "TotalPitchFrames\t%d\n"
+- "Tq,V_currentSampleCount"
+- "Ts,R,N"
+- "UH"
+- "UR"
+- "URLDownStep"
+- "USED"
+- "UW"
+- "UX"
+- "Undef"
+- "Unexpectedly found nil while implicitly unwrapping an Optional value"
+- "Unexpectedly found nil while unwrapping an Optional value"
+- "UnicodeCharBegin"
+- "UnicodeCharEnd"
+- "Unit"
+- "Unit %s  Samples %lu->%lu[%lu]  %sFrames"
+- "Unit %s Target %u Actual %u Diff %d [%5.2fs] Frame %d\n"
+- "Unit %s Target %u Actual %u Diff %d [%5.2fs] Tweak %5.2f\n"
+- "UnitCost.AccentCostWeight"
+- "UnitCost.BreathProportion"
+- "UnitCost.BreathWeight"
+- "UnitCost.Duration.Exponent"
+- "UnitCost.Duration.Pivot"
+- "UnitCost.Duration.PowerStrategy"
+- "UnitCost.DurationWeight"
+- "UnitCost.ExcessiveBreath"
+- "UnitCost.MaxBreathLength"
+- "UnitCost.MissingWeight"
+- "UnitCost.Pitch.Exponent"
+- "UnitCost.Pitch.Pivot"
+- "UnitCost.Pitch.PowerStrategy"
+- "UnitCost.PowerClipMax"
+- "UnitCost.UnvoicedPenalty"
+- "UnitCost.UnvoicedPitchCost"
+- "UnitCost.UnvoicedWordCost"
+- "UnitCost.UseRMS"
+- "UnitCost.UseWindow"
+- "UnitCost.VoicedPitchWeight"
+- "UnitCost.WindowSlope"
+- "UnitCost.WindowTrough"
+- "UnitCost.WordDuration.Exponent"
+- "UnitCost.WordDuration.Pivot"
+- "UnitCost.WordDuration.PowerStrategy"
+- "UnitCost.WordPitch.Exponent"
+- "UnitCost.WordPitch.Pivot"
+- "UnitCost.WordPitch.PowerStrategy"
+- "Unknown voice creator in SpeechChannelManager::ReadVoiceDescription\n"
+- "V "
+- "Value"
+- "Version"
+- "Veto %lu\n"
+- "Voice.DebugHomographs"
+- "Voice.MapSamples"
+- "Voice.Preload"
+- "Voice.PreloadDemis"
+- "Voice.TrackDecodingRatio"
+- "Voice.UseHeapBasedDemis"
+- "VoiceAge"
+- "VoiceConstantRateOnly"
+- "VoiceDemoText"
+- "VoiceDescription"
+- "VoiceGender"
+- "VoiceGenderFemale"
+- "VoiceGenderMale"
+- "VoiceGenderNeuter"
+- "VoiceGenderNeutral"
+- "VoiceGroup"
+- "VoiceGroupCompact"
+- "VoiceGroupCustom"
+- "VoiceGroupCustomCompact"
+- "VoiceGroupDefault"
+- "VoiceIdentifier"
+- "VoiceIndividuallySpokenCharacters"
+- "VoiceLanguage"
+- "VoiceLocaleIdentifier"
+- "VoiceLocalizedNames"
+- "VoiceName"
+- "VoiceNameRoot"
+- "VoiceNumericID"
+- "VoicePitchFloor"
+- "VoicePitchRange"
+- "VoiceRelativeDesirability"
+- "VoiceShowInFullListOnly"
+- "VoiceSupportedCharacters"
+- "VoiceSynthesizerNumericID"
+- "VoiceVersion"
+- "W \"%s\" %4.2f 0x%16llx 0x%16llx\n"
+- "WHQuestBoundary"
+- "WIND"
+- "WSOLA found %s %d %d %d %d\n"
+- "WSOLA no data %d %d\n"
+- "WSOLA overlap-add %d %d\n"
+- "Waiting for unit selection to proceed [%08x].\n"
+- "Waking up Sound\n"
+- "We're not supposed to be using GetDiphoneNeighbor() anymore!\n"
+- "Weighted costs:\n"
+- "What am I doing here?\n"
+- "While processing:\n"
+- "Will stall on search [%08x].\n"
+- "Word"
+- "Word %.*s "
+- "Word %d %d\n"
+- "Word %s tempo %d\n"
+- "Word Up\n"
+- "Word.Threshold"
+- "WordCost.ContextSubst"
+- "WordCost.InnerMismatch"
+- "WordCost.InstanceMismatch"
+- "WordCost.KeepWithNext"
+- "WordCost.KeepWithPrev"
+- "WordCost.LeftBias"
+- "WordCost.LengthWeight"
+- "WordCost.OptimalWeight"
+- "WordCost.OuterMismatch"
+- "WordCost.PhonMismatch"
+- "WordCost.UnitWeight"
+- "X %02x%02x %2d %2d %3d %4d %4d -> %4d %3d | "
+- "YES"
+- "ZH"
+- "[%d] "
+- "[%s] "
+- "[%u]"
+- "[AllCaps] "
+- "[QX]"
+- "[["
+- "[]"
+- "]\n"
+- "] %5.3f %s\n"
+- "]]"
+- "^v"
+- "^v16@0:8"
+- "^{MTBENotifier=^^?iiii{SpeechErrorInfo=ssqsq}sI[4S]}"
+- "^{MTBENotifier=^^?iiii{SpeechErrorInfo=ssqsq}sI[4S]}16@0:8"
+- "^{MTBEPersistentParam=ff[4f][4c]if^{__CFDictionary}ss^{SLLexer}^{__CFArray}^{MTMBDiphoneStatistics}^{__CFDictionary}^{SLDictLookup}{_opaque_pthread_mutex_t=q[56c]}{_opaque_pthread_cond_t=q[40c]}^{MTMBSelectUnits}}"
+- "^{MTBEPersistentParam=ff[4f][4c]if^{__CFDictionary}ss^{SLLexer}^{__CFArray}^{MTMBDiphoneStatistics}^{__CFDictionary}^{SLDictLookup}{_opaque_pthread_mutex_t=q[56c]}{_opaque_pthread_cond_t=q[40c]}^{MTMBSelectUnits}}16@0:8"
+- "^{MTFEBuilder=^^?^{SLLexer}^{MTFESentence}^{MTFEIntonationalPhrase}^{MTFEIntermediatePhrase}^{MTFEWord}^{MTFEHomograph}^{MTFEPhoneme}BBBBBBBfffI^{SLToken}s}"
+- "^{MTFEBuilder=^^?^{SLLexer}^{MTFESentence}^{MTFEIntonationalPhrase}^{MTFEIntermediatePhrase}^{MTFEWord}^{MTFEHomograph}^{MTFEPhoneme}BBBBBBBfffI^{SLToken}s}16@0:8"
+- "^{MTFECommand=^^?sc^{MTFESpeechElement}^{MTFESpeechElement}^{MTFESpeechElement}^{MTFESpeechElement}^{MTFESpeechElement}Qq}16@0:8"
+- "^{MTFEHomograph=^^?sc^{MTFESpeechElement}^{MTFESpeechElement}^{MTFESpeechElement}^{MTFESpeechElement}^{MTFESpeechElement}I{SLWordTagSet=[8S]}}16@0:8"
+- "^{MTFEIntermediatePhrase=^^?sc^{MTFESpeechElement}^{MTFESpeechElement}^{MTFESpeechElement}^{MTFESpeechElement}^{MTFESpeechElement}{MTFEPosition=ss}{MTFEPosition=ss}{MTFEPosition=ss}iiiCcsf}16@0:8"
+- "^{MTFEIntonationalPhrase=^^?sc^{MTFESpeechElement}^{MTFESpeechElement}^{MTFESpeechElement}^{MTFESpeechElement}^{MTFESpeechElement}Q{MTFECommands=^^?sc^{MTFESpeechElement}^{MTFESpeechElement}^{MTFESpeechElement}^{MTFESpeechElement}^{MTFESpeechElement}}{MTFEPosition=ss}{MTFEPosition=ss}^f^fiiiccCss^vssQQf^{MTFEMelody}}16@0:8"
+- "^{MTFEPhoneme=^^?sc^{MTFESpeechElement}^{MTFESpeechElement}^{MTFESpeechElement}^{MTFESpeechElement}^{MTFESpeechElement}sCcssffII^{MTFEPitchTargets}SSCCC}16@0:8"
+- "^{MTFESentence=^^?sc^{MTFESpeechElement}^{MTFESpeechElement}^{MTFESpeechElement}^{MTFESpeechElement}^{MTFESpeechElement}sfssfff^{MTFESpeechElement}}16@0:8"
+- "^{MTFESpeechElement=^^?sc^{MTFESpeechElement}^{MTFESpeechElement}^{MTFESpeechElement}^{MTFESpeechElement}^{MTFESpeechElement}}16@0:8"
+- "^{MTFESyllable=^^?sc^{MTFESpeechElement}^{MTFESpeechElement}^{MTFESpeechElement}^{MTFESpeechElement}^{MTFESpeechElement}ssssf}16@0:8"
+- "^{MTFEWord=^^?sc^{MTFESpeechElement}^{MTFESpeechElement}^{MTFESpeechElement}^{MTFESpeechElement}^{MTFESpeechElement}IscCiC{SLWordTagSet=[8S]}CI{SLWordTagSet=[8S]}{MTFECommands=^^?sc^{MTFESpeechElement}^{MTFESpeechElement}^{MTFESpeechElement}^{MTFESpeechElement}^{MTFESpeechElement}}{MTFEPosition=ss}{MTFEPosition=ss}sssSS^{MTFEWord}[64c]^{MEOWWordInstance}}16@0:8"
+- "^{SLCFStringTextSource=^^?Bq^{__CFString}[129S]}"
+- "^{SLCFStringTextSource=^^?Bq^{__CFString}[129S]}16@0:8"
+- "^{SLDictLookup=^^?^{SLDictionary}^{SLDictionary}^{SLDictionary}^{SLAgglomerate}}"
+- "^{SLDictLookup=^^?^{SLDictionary}^{SLDictionary}^{SLDictionary}^{SLAgglomerate}}16@0:8"
+- "^{SLLexer=^^?}"
+- "^{SLLexer=^^?}16@0:8"
+- "^{SLPronouncer=^^?}"
+- "^{SLPronouncer=^^?}16@0:8"
+- "^{VoiceDescription=i{VoiceSpec=II}i[64C][256C]sssss[4i]}16@0:8"
+- "^{WrappedMTVoice=(MTBEVoiceContents=^v^{MEOWReader}^{PROWReader})}"
+- "^{WrappedMTVoice=(MTBEVoiceContents=^v^{MEOWReader}^{PROWReader})}16@0:8"
+- "_NumChildren"
+- "_TtC9MacinTalk24MTMacinTalkAUSPAudioUnit"
+- "__pcmData"
+- "_builder"
+- "_currentSampleCount"
+- "_defaultModulation"
+- "_delegate"
+- "_fDictLookup"
+- "_fLexer"
+- "_fPParams"
+- "_fPronouncer"
+- "_fTextSource"
+- "_format"
+- "_frontend"
+- "_maxSpeakingRate"
+- "_minSpeakingRate"
+- "_notifier"
+- "_outputBusses"
+- "_pcmData"
+- "_pitchCoeff"
+- "_pitchModulation"
+- "_processor"
+- "_resetState"
+- "_saveState"
+- "_unOwned"
+- "_voice"
+- "_voiceData"
+- "_wrapped"
+- "allocateRenderResourcesAndReturnError:"
+- "asbd"
+- "augr"
+- "aunt"
+- "b"
+- "basic_string"
+- "builder"
+- "bundleForClass:"
+- "cancelProcessing"
+- "cancelSpeechRequest"
+- "cb->fControlData >= 0"
+- "cc"
+- "cd"
+- "char"
+- "child->fParent == this"
+- "chnm"
+- "com.apple.macintalk.synthesis"
+- "com.apple.speech.synthesis.debugparam"
+- "cp"
+- "cpside = %u, sequenceNum = %u, offset=%lu\n"
+- "createParameterWithIdentifier:name:address:min:max:unit:unitName:flags:valueStrings:dependentParameters:"
+- "creator"
+- "currentBuffer"
+- "currentMarkup"
+- "currentPhraseProcessor"
+- "currentPlainTalkString"
+- "currentSampleCount"
+- "currentSegmentOffset"
+- "cust"
+- "cvox"
+- "d"
+- "d1=<uS,wS>= %f\n"
+- "d2=<wS,vS>= %f\n"
+- "data"
+- "data.size() > 0"
+- "dealloc"
+- "defaultModulation"
+- "delegate"
+- "description"
+- "destination==fNextSibling"
+- "didFinishGeneratingSamples"
+- "didGenerateSamplesForPhoneme:phonemeOpcode:"
+- "didGenerateSamplesForSync:message:"
+- "didGenerateSamplesForWord:stringPosition:length:"
+- "dist = %f\n"
+- "dlim"
+- "dlog"
+- "dopt"
+- "dsta"
+- "duck"
+- "eccb"
+- "elem"
+- "en"
+- "en-US"
+- "en_US"
+- "ercb"
+- "erro"
+- "f"
+- "f16@0:8"
+- "fBaseFloor"
+- "fBaseRange"
+- "fBaseRate"
+- "fDictLookup"
+- "fDuration"
+- "fFinalRate"
+- "fFlags"
+- "fFromLastBnd"
+- "fFromLastSIL"
+- "fFromStart"
+- "fGroupPOS"
+- "fLexer"
+- "fNumPhnsInCoda"
+- "fNumPhnsInOnset"
+- "fNumWords"
+- "fNumWrdsInInterPhrase"
+- "fNumWrdsInIntonPhrase"
+- "fPParams"
+- "fPronouncer"
+- "fResolvedPOS"
+- "fText"
+- "fTextSource"
+- "fToNextPunct"
+- "fToNextSIL"
+- "fValidElement"
+- "false"
+- "finishedSampleGeneration"
+- "floatValue"
+- "format"
+- "frameLength"
+- "fromCPPElement:"
+- "fromPhEndSyls"
+- "fromWdEndSyls"
+- "fromWdStartSyls"
+- "frontend"
+- "g"
+- "generatedSampleForPhoneme:"
+- "generatedSampleForSync:"
+- "generatedSampleForWord:length:"
+- "genitiveContext"
+- "h"
+- "highFinalBoundary->fType == kHighFinalBoundary"
+- "highest correlation"
+- "i"
+- "i->ValidElement()"
+- "i->fValidElement"
+- "i16@0:8"
+- "i60@?0^I8r^{AudioTimeStamp=dQdQ{SMPTETime=ssIIIssss}II}16I24q28^{AudioBufferList=I[1{AudioBuffer=II^v}]}36r^(AURenderEvent={AURenderEventHeader=^(AURenderEvent)qCC}{AUParameterEvent=^(AURenderEvent)qC[3C]IQf}{AUMIDIEvent=^(AURenderEvent)qCCSC[3C]}{AUMIDIEventList=^(AURenderEvent)qCCC{MIDIEventList=iI[1{MIDIEventPacket=QI[64I]}]}})44@?<i@?^I^{AudioTimeStamp=dQdQ{SMPTETime=ssIIIssss}II}Iq^{AudioBufferList=I[1{AudioBuffer=II^v}]}>52"
+- "identifier"
+- "infinitiveContext"
+- "init"
+- "initWithAudioUnit:busType:busses:"
+- "initWithBookmarkName:atByteSampleOffset:"
+- "initWithCMAudioFormatDescription:"
+- "initWithComponentDescription:options:error:"
+- "initWithCppElement:"
+- "initWithFloat:"
+- "initWithFormat:error:"
+- "initWithMarkerType:forTextRange:atByteSampleOffset:"
+- "initWithOriginalString:"
+- "initWithPCMFormat:bufferListNoCopy:deallocator:"
+- "initWithStreamDescription:"
+- "initWithString:"
+- "initWithStringAndLocale:locale:"
+- "initWithVoice:frontend:"
+- "inpt"
+- "internalRenderBlock"
+- "is new\n"
+- "isfinite(scaleFactor)"
+- "jobIdentifier"
+- "k"
+- "kSpeechChannelAudioSessionID"
+- "l"
+- "l2"
+- "last segment [%f,%f]\n"
+- "lastVoice"
+- "late"
+- "loadRuleSet:"
+- "loadVoiceBundle:"
+- "localeWithLocaleIdentifier:"
+- "lp"
+- "m"
+- "mutableAudioBufferList"
+- "n"
+- "name"
+- "nextBuffer"
+- "nextObject"
+- "nmbr"
+- "notifier"
+- "numberWithFloat:"
+- "offl"
+- "opad"
+- "opaf"
+- "opax"
+- "opfd"
+- "optimal"
+- "originalString"
+- "outputBus"
+- "outputBusses"
+- "p"
+- "p_max:\n"
+- "pbas"
+- "phcb"
+- "phrase && phrase->ValidElement()"
+- "phraseAccent && MTFEToBI::IsPhraseAccent(phraseAccent->fType)"
+- "phsy"
+- "pico"
+- "pitchCoeff"
+- "pitchModulation"
+- "pmod"
+- "popt"
+- "privateData"
+- "prld"
+- "processNextPhrase"
+- "processText:"
+- "processor"
+- "q"
+- "q16@0:8"
+- "r"
+- "r2"
+- "r3"
+- "rate"
+- "rd"
+- "refc"
+- "registerAudioUnit"
+- "registerSubclass:asComponentDescription:name:version:"
+- "requests"
+- "reset"
+- "resetState"
+- "rp"
+- "rset"
+- "rulesetRunner"
+- "s"
+- "s16@0:8"
+- "sPhrCoeffs.fCurCrs_RightDet[cc][rd]"
+- "sPhrCoeffs.fCurCrs_RightPos_Right2Pos_Right3Pos[cc][rp][r2][r3]"
+- "sPhrCoeffs.fCurDet_RightPos[cd][rp]"
+- "sPhrCoeffs.fFromEndSilWrds*XFormWordCount(fToNextSIL)"
+- "sPhrCoeffs.fFromLastBndWrds*XFormWordCount(fromLastBnd)"
+- "sPhrCoeffs.fGenitiveContextBit*genitiveContext"
+- "sPhrCoeffs.fInfinitiveContextBit*infinitiveContext"
+- "sPhrCoeffs.fIntercept"
+- "sPhrCoeffs.fLeft2Pos_LeftPos_CurPos[l2][lp][cp]"
+- "sPhrCoeffs.fLeftPos_CurPos_RightPos[lp][cp][rp]"
+- "sSilCoeffs.fCurCrs_RightDet[cc][rd]"
+- "sSilCoeffs.fCurCrs_RightPos_Right2Pos_Right3Pos[cc][rp][r2][r3]"
+- "sSilCoeffs.fCurDet_RightPos[cd][rp]"
+- "sSilCoeffs.fFromEndPunctWrds*XFormWordCount(fToNextPunct)"
+- "sSilCoeffs.fFromLastSilWrds*XFormWordCount(fromLastSIL)"
+- "sSilCoeffs.fGenitiveContextBit*genitiveContext"
+- "sSilCoeffs.fInfinitiveContextBit*infinitiveContext"
+- "sSilCoeffs.fIntercept"
+- "sSilCoeffs.fLeft2Pos_LeftPos_CurPos[l2][lp][cp]"
+- "sSilCoeffs.fLeftPos_CurPos_RightPos[lp][cp][rp]"
+- "saveState"
+- "sdcb"
+- "selectedHomograph"
+- "selector"
+- "setBuilder:"
+- "setCurrentSampleCount:"
+- "setDefaultModulation:"
+- "setDelegate:"
+- "setFDictLookup:"
+- "setFLexer:"
+- "setFPParams:"
+- "setFPronouncer:"
+- "setFTextSource:"
+- "setFormat:"
+- "setFrontend:"
+- "setMatchLogger:"
+- "setNotifier:"
+- "setPitchCoeff:"
+- "setPitchModulation:"
+- "setProcessor:"
+- "setResetState:"
+- "setSaveState:"
+- "setSpeechVoices:"
+- "setUnOwned:"
+- "setVoice:"
+- "setVoiceData:"
+- "setWrapped:"
+- "set_pcmData:"
+- "size = %u\n"
+- "speechSynthesisOutputMetadataBlock"
+- "speechVoices"
+- "spso"
+- "ssmlRepresentation"
+- "stat"
+- "stringWithCString:encoding:"
+- "sxtb"
+- "sycb"
+- "sync"
+- "synthesizeSpeechRequest:"
+- "t"
+- "tdcb"
+- "transformedString"
+- "translateRangeInTransformedString:"
+- "true"
+- "uS (normalized) ="
+- "unOwned"
+- "v"
+- "v16@0:8"
+- "v16@?0q8"
+- "v16@?0r^{AudioBufferList=I[1{AudioBuffer=II^v}]}8"
+- "v20@0:8B16"
+- "v20@0:8I16"
+- "v20@0:8s16"
+- "v24@0:8@16"
+- "v24@0:8^v16"
+- "v24@0:8^{MTBENotifier=^^?iiii{SpeechErrorInfo=ssqsq}sI[4S]}16"
+- "v24@0:8^{MTBEPersistentParam=ff[4f][4c]if^{__CFDictionary}ss^{SLLexer}^{__CFArray}^{MTMBDiphoneStatistics}^{__CFDictionary}^{SLDictLookup}{_opaque_pthread_mutex_t=q[56c]}{_opaque_pthread_cond_t=q[40c]}^{MTMBSelectUnits}}16"
+- "v24@0:8^{MTFEBuilder=^^?^{SLLexer}^{MTFESentence}^{MTFEIntonationalPhrase}^{MTFEIntermediatePhrase}^{MTFEWord}^{MTFEHomograph}^{MTFEPhoneme}BBBBBBBfffI^{SLToken}s}16"
+- "v24@0:8^{SLCFStringTextSource=^^?Bq^{__CFString}[129S]}16"
+- "v24@0:8^{SLDictLookup=^^?^{SLDictionary}^{SLDictionary}^{SLDictionary}^{SLAgglomerate}}16"
+- "v24@0:8^{SLLexer=^^?}16"
+- "v24@0:8^{SLPronouncer=^^?}16"
+- "v24@0:8^{WrappedMTVoice=(MTBEVoiceContents=^v^{MEOWReader}^{PROWReader})}16"
+- "v24@0:8q16"
+- "v28@0:8Q16S24"
+- "v28@0:8q16I24"
+- "v28@0:8q16s24"
+- "v36@0:8q16Q24S32"
+- "v40@?0^{__EmojiTokenWrapper=}8{?=qq}16^B32"
+- "v48@?0@\"NSString\"8{_NSRange=QQ}16@\"NSString\"32@\"TTSRuleReplacement\"40"
+- "v8@?0"
+- "vS (normalized) ="
+- "vector"
+- "vers"
+- "voice"
+- "voiceData"
+- "volm"
+- "w"
+- "wS (normalized) ="
+- "wS="
+- "was last seen %lu stems ago\n"
+- "wccb"
+- "wdcb"
+- "weights:\n"
+- "wrapped"
+- "xtnd"
+- "y"
+- "z"
+- "{"
+- "{%.0f %.0f %.0f %.0f %.0f %.0f}"
+- "{%.0f %.0f %.0f %.0f %.0f}"
+- "{%.0f %.0f %.0f %.0f}"
+- "{%.0f %.0f %.0f ... %.0f %.0f %.0f}"
+- "{%.0f %.0f %.0f}"
+- "{%.0f %.0f}"
+- "{%.0f}"
+- "{%.5f %.5f %.5f %.5f %.5f %.5f}"
+- "{%.5f %.5f %.5f %.5f %.5f}"
+- "{%.5f %.5f %.5f %.5f}"
+- "{%.5f %.5f %.5f ... %.5f %.5f %.5f}"
+- "{%.5f %.5f %.5f}"
+- "{%.5f %.5f}"
+- "{%.5f}"
+- "{}"
+- "}\n"
+- "} "
+- "} ["
+- "}>%s ["
+
+```

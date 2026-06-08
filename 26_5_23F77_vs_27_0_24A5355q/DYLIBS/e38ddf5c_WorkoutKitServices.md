@@ -1,0 +1,207 @@
+## WorkoutKitServices
+
+> `/System/Library/PrivateFrameworks/WorkoutKitServices.framework/WorkoutKitServices`
+
+```diff
+
+-2026.5.10.0.0
+-  __TEXT.__text: 0x5c48 sha256:246e37767a5efc0e84f0e39d3ef1e73fe6b1f77b20295a00e8e11a0603abc0de
+-  __TEXT.__auth_stubs: 0xd0 sha256:24718ddf3ebb64b45985b1b6f5d5528973538284deeae5a63bf965aad0759721
+-  __TEXT.__objc_methlist: 0x22c sha256:9af30f3fe752ae3f2d025788784e73e2d1d2b12c71f6fc49a18bed03bbfcd2c8
++2027.0.113.1.1
++  __TEXT.__text: 0x5c48 sha256:a7fc3d2fa9a4c84af125ee2dac3227395ad664e5a4f5c3e9765cf8063d6a01be
++  __TEXT.__objc_methlist: 0x22c sha256:58856450c4e65444023dcfd76f91d6b8e4a2540ce71768210feb9d41dc71be0a
+   __TEXT.__const: 0x48 sha256:0bd50b34545302de794ae14c2a710d7818ea6cdc4e07ace0cbc7aeb9fa7568a2
+   __TEXT.__gcc_except_tab: 0x34 sha256:013777ca9a1efb0ff22454bb2b908d00e188ba13e05c789490f6ee65f3bd3fd0
+   __TEXT.__cstring: 0x212 sha256:85eb4ca6ff8d925d6a1f0ba35dda7b94c38f84431bfe095c6724d5307d3e70e1
+-  __TEXT.__unwind_info: 0x100 sha256:108dd22d21430bacb340f587d42063c3a2af47e470696af03a9e419acbb9c7a2
+-  __TEXT.__objc_classname: 0x38 sha256:b0625d51f7da87c7211ac9af7ea6745786992d9ea57cfe168be1b39f18cb45b9
+-  __TEXT.__objc_methname: 0x526 sha256:19e060e7617bc9a9dd16db2a94daa236973bfb95012537ffbb37057e750373c0
+-  __TEXT.__objc_methtype: 0x29f sha256:50a522ac837d8fccf697f54ef76daae22ec6ccce6a7af384b05902126c5d7c54
+-  __TEXT.__objc_stubs: 0x400 sha256:9beb548baeb0d7299ab943826e1f6bdedda94de9d4c7f7d64668d3d61e282510
+-  __DATA_CONST.__got: 0x60 sha256:b1919f0374208fa0591021e495cda45e3aaf0f3b4b1d5591cd066d0eccd224eb
+-  __DATA_CONST.__const: 0x218 sha256:92fc719b899ed8269033ad222ec3cafe57678400b3c88c633dea8f8ed8bd6992
+-  __DATA_CONST.__objc_classlist: 0x8 sha256:daced99c7dd86cd3b2f5cb2f188af3764404224d8403859480873cf8bb489719
+-  __DATA_CONST.__objc_protolist: 0x8 sha256:a2ee8b13948be211329861fb4130a199e700017f2012d5149e045166c4aa2abd
++  __TEXT.__unwind_info: 0x100 sha256:fb1524f0d203cfa54dec580e637e90b4476017028363122e0729c49352da6f67
++  __TEXT.__objc_stubs: 0x0
++  __TEXT.__auth_stubs: 0x0
++  __TEXT.__objc_classname: 0x0
++  __TEXT.__objc_methname: 0x0
++  __TEXT.__objc_methtype: 0x0
++  __DATA_CONST.__const: 0x218 sha256:111723cd124bdaf91bb6b697fc61ae138425636d194b2f4b2db5e8e43644a986
++  __DATA_CONST.__objc_classlist: 0x8 sha256:1419f2f30fd47fa20a0a8b3402580f02c96f8e87a643f37a368c87e41dcef584
++  __DATA_CONST.__objc_protolist: 0x8 sha256:4596addc4fc4483b70b5fb444fb3418c71c13f60e1c74a305a0ff20d0957b2a2
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x120 sha256:da8e8666e0ba9cbfe348aff2aeebf259ef279e0717663a21b33e7a7a3893f635
+-  __DATA_CONST.__objc_protorefs: 0x8 sha256:377b7fc24b9f4d2d66e5b3c8208b28397cc688f9fe5bdf47ee9ee9dd10addfae
+-  __DATA_CONST.__objc_superrefs: 0x8 sha256:d2a72e8d5fe9214b8ce63b2222025a7a1dcf653642cf2de6a42d563f59e3e461
+-  __AUTH_CONST.__auth_got: 0x78 sha256:6edd9f6f9cc92cded36e6c4a580933f9c9f1b90562b46903b806f21902a1a54f
+-  __AUTH_CONST.__cfstring: 0x100 sha256:d3428cd53aa5fdfac5589a1cc3d9bf5526841c5234d2b202051208850c6abbee
+-  __AUTH_CONST.__objc_const: 0x150 sha256:b5a53ec5c3beb520c8e6d4a93747e079f33ebc3588f44a3d0c109fe9854a014c
+-  __DATA.__data: 0x60 sha256:749648f6db2aefb7d2c0f379981ca3f92d9809500061e9eb2d7bbf612342e67b
+-  __DATA_DIRTY.__objc_data: 0x50 sha256:438bbb466b8f45b5710648f217ada6f428a9b3dc73163ff160ab966980b3ae43
++  __DATA_CONST.__objc_selrefs: 0x120 sha256:aa81b8b71977c0d24081d0b6e85d7ff5979eeacceba0a4572858042ac18a3a35
++  __DATA_CONST.__objc_protorefs: 0x8 sha256:2e6fee04b4aa4edbb33ab1eb0e9d15a883ffb95f2d75bc7680847d62acc62d20
++  __DATA_CONST.__objc_superrefs: 0x8 sha256:1419f2f30fd47fa20a0a8b3402580f02c96f8e87a643f37a368c87e41dcef584
++  __DATA_CONST.__got: 0x60 sha256:fe95944d457db25279f114f18e24643423b4ce3f6b7af6d0ef65244ac3245271
++  __AUTH_CONST.__cfstring: 0x100 sha256:66059f03be5d2b73af9227cdce51d895653efd9474c661acd25da82c80f81072
++  __AUTH_CONST.__objc_const: 0x150 sha256:67e94d2c31f9e4781a9903d3351b736deaa459a5b79ff8d454ffd1ef79cd3f96
++  __AUTH_CONST.__auth_got: 0x0
++  __DATA.__data: 0x60 sha256:dae34acb219ba59065e217b258a548711378ce0f35505088beed04d9706d6878
++  __DATA_DIRTY.__objc_data: 0x50 sha256:ab8584950f94380c33b5fc6b85d5f6423d74730d8f3dcd37f1fc0922930e9250
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 6A31AD3C-27E2-3271-80B2-16F7C4789469
++  UUID: FD0452F3-A5EF-316E-BE11-7CC30948BF72
+   Functions: 84
+   Symbols:   264
+-  CStrings:  81
++  CStrings:  25
+ 
+Functions:
+~ +[WorkoutKitXPCServiceHelper sharedInstance] : sha256 41c339889a51c60cf3e36e01c8063e56876bf4c4a3f6c5436c349a2bec3cf431 -> cdc67f8b5223e2eb534de7aac733b6f78e67c1bf8e38406f80bd7d658d064597
+~ -[WorkoutKitXPCServiceHelper _init] : sha256 51e099a7b7634fceab7084580bb7d6be9725e417d5b316ba43a7d08f857fabd6 -> c4c5ef5be187fe46eee2b6a4e6f4dacbca695eff62020cde8a1b04d3fca2c377
+~ -[WorkoutKitXPCServiceHelper presentWorkoutCompositionData:completion:] : sha256 0d6433a3cfc5062352ac644c07a665bbd407a2fb73bf3da37fdb301028d40830 -> 21025189dccae0f2014c31a8e22093bddfa1201f2dfbf1eb894628c8d0609ec7
+~ ___71-[WorkoutKitXPCServiceHelper presentWorkoutCompositionData:completion:]_block_invoke : sha256 d61869ae563788716253c6cd9d79593b62c5d103f68a71c5a66a6a83a8438527 -> 7d4e198827ce816226cb35f46de5571811e34b2c3015fde205a3cdea9a0c3a22
+~ ___71-[WorkoutKitXPCServiceHelper presentWorkoutCompositionData:completion:]_block_invoke_2 : sha256 0cf46d93b4ec9390411eb27f9c40223af02e1a5942e80c22c449d9e8622330f7 -> 44085f1d8fca2a7dc2fd44e662fc0dd9f45be08838a11ca725a048527f1ab581
+~ ___71-[WorkoutKitXPCServiceHelper presentWorkoutCompositionData:completion:]_block_invoke_3 : sha256 97d89f941acd36bc52fc3da27046e145ed44a2b1801ba7b9062e26cae3fe2925 -> 978ecbcb29aed3f6d43f21221d2eee0be96c0a3aa058a6134e30eaf91b9bbb99
+~ __WorkoutKitConnectWithBlock : sha256 7947de329a4ef98896253767231b0d7d2c98f30156dfe9c3dd758d1145582036 -> 42549641bf4da14948e8fbce14e587c78d1cbd74ff49437ab12bc88d15b93e62
+~ -[WorkoutKitXPCServiceHelper presentWorkoutConfigurationData:completion:] : sha256 67171ddaee25208f1ef802334ef26acd2bc92ab0f55bec8b901c63e74ba4e951 -> c3541e1f14c6a192700b12881bac5b510fa99ac2e149c00b9f54b78da0330c4b
+~ -[WorkoutKitXPCServiceHelper openWorkoutAppWithWorkoutPlanData:completion:] : sha256 b84fd58b66bde4bb8541ede929658f8cae78391526bcc964bbbd853c3f0d254b -> c7fa118a938ae1693944ef1ce4a3a6096d3346f10c24e926e8a6b98f3e1c7038
+~ -[WorkoutKitXPCServiceHelper openWorkoutAppWithWorkoutPlanData:autostartWorkoutPlan:completion:] : sha256 4b6f7127b148c51a6dd741a75a19a828bac1d2584dc0f76d8dec6b58dde558b3 -> b358f05ed697a79c4b414546f0321a48b7d1ed819925cef6f69e9c6255b5b5bc
+~ ___96-[WorkoutKitXPCServiceHelper openWorkoutAppWithWorkoutPlanData:autostartWorkoutPlan:completion:]_block_invoke : sha256 b1a6d50a42766a3c8ab04c040aa0b659e15e2f26731e91fa494d885c6f8f6d5d -> 802c715d0f020d1b96591b900ccd69321d848ba76f4924ae13e9940b5aadd8c0
+~ ___96-[WorkoutKitXPCServiceHelper openWorkoutAppWithWorkoutPlanData:autostartWorkoutPlan:completion:]_block_invoke_2 : sha256 fbebd31f186700c9a992c3103a83664639c2483e11dd0f6bfb5e8c1f53422f08 -> 2c6f9b531bdffa217236f2c530c5f54425e2dc57e94808c03dc906c0e1e867c8
+~ ___96-[WorkoutKitXPCServiceHelper openWorkoutAppWithWorkoutPlanData:autostartWorkoutPlan:completion:]_block_invoke_3 : sha256 e27374b4f4fd450c843401102546abedba7b7b84c326873b428a0d44e4039512 -> 960b01b50a54c1af984a3a0f52b73617f782db01eeedcf2292626eab30e196b4
+~ -[WorkoutKitXPCServiceHelper openWorkoutAppWithWorkoutCompositionData:completion:] : sha256 73d1f0a7210e0d79e3178912bbf9cd4bff0558450085196c7a79f776383fb1ea -> 55d27f6114e6eb136762a6a29de63c76f5a6566277267eeb6c2e514aefab0ec3
+~ ___82-[WorkoutKitXPCServiceHelper openWorkoutAppWithWorkoutCompositionData:completion:]_block_invoke : sha256 3dcff3ebb91476f165f7dba1be88a2e9ac39383344bfbcf77daba7c70044d928 -> 1f481a8c033823651c09d4ab69b1e610d5881c034cbf2c4efc031a5626e4fca6
+~ ___82-[WorkoutKitXPCServiceHelper openWorkoutAppWithWorkoutCompositionData:completion:]_block_invoke_2 : sha256 2fd9f70bb5e2f2a078fb2849ea3ac5e8977d4f3482184b01e00811bbed2ac3f8 -> a280e5f2f8131ddac81c73b1029ef26dd38a51f4b7680fcfe5245319729e5a0d
+~ ___82-[WorkoutKitXPCServiceHelper openWorkoutAppWithWorkoutCompositionData:completion:]_block_invoke_3 : sha256 52d30352805230d4b323a9c20f93d2539511435265df49a5628ed24bbc539691 -> bbac0b31b55b94f435f496030957964c15bcda623a7b43ac09d3c4504ce6dc01
+~ -[WorkoutKitXPCServiceHelper openWorkoutAppWithMirroredStartData:completion:] : sha256 90cdfc209e16767d1332e78b821b76bafa41226de1bacc3c0f7b214518722df3 -> 0a488e6e06ef8ac349cedb56a4a3a082f4c13e4dcefa2560b1242eb87edb6222
+~ ___77-[WorkoutKitXPCServiceHelper openWorkoutAppWithMirroredStartData:completion:]_block_invoke : sha256 c697cb9252342869ab3dd25920d03a53822eb6ce05d81611848eeb4aa8ff9ae9 -> 3b439ddbf98486f1d1d6324131b904d4646d2e22da9d68bb5ca543626be421f0
+~ ___77-[WorkoutKitXPCServiceHelper openWorkoutAppWithMirroredStartData:completion:]_block_invoke_2 : sha256 6503cfe2907d4c5321100da133a2f8ea3f5574b7ed3814ac09c66c430ea18ff0 -> addbff550f581d914d45e556a32a548d5324a85cf5217358d54483f41eacf4db
+~ ___77-[WorkoutKitXPCServiceHelper openWorkoutAppWithMirroredStartData:completion:]_block_invoke_3 : sha256 41165a0396f1ccbe3778f7407da3361377340961e90bf74efea89729b553ef0e -> 4814233ff242144f82fc8308d74150569a636b9cf1f77641ea02220693e461c1
+~ -[WorkoutKitXPCServiceHelper openWorkoutAppWithActivityType:autostart:completion:] : sha256 38829efcc806cf3484ad54b9110add67541895e744fe2124aea86f9c4bb7a151 -> 5260053cacf304e234150a61fa9c16bd9162e1f53989085d7644f1f2a84e6af0
+~ ___82-[WorkoutKitXPCServiceHelper openWorkoutAppWithActivityType:autostart:completion:]_block_invoke : sha256 b3ac116a4fb25fa642b58327f17a85542e18bd9c90dac61b02ba64b0fb22df17 -> a76f37ef7f6769e2ea2519baa7450022d7982a1ae49086fd3aa0944beec591d6
+~ ___82-[WorkoutKitXPCServiceHelper openWorkoutAppWithActivityType:autostart:completion:]_block_invoke_2 : sha256 9eccb1c0123018b05d5f16c828e2083610cbc0830d976b2a327d949863c2ffaf -> 0d1002565e504e0cbf7adf593633f4fb3227cd38d9103cab513379df9d798937
+~ ___82-[WorkoutKitXPCServiceHelper openWorkoutAppWithActivityType:autostart:completion:]_block_invoke_3 : sha256 5187f3ad8fe9f9e15d42b1571aaf81c8226fd3f61ffc310f6d4f36eec0a324fb -> 0da38e7ec0cb9c3328e2d461ab88f012e305cb636dad88f1f55105d01599c830
+~ -[WorkoutKitXPCServiceHelper endActiveWorkoutPlanWithIdentifier:completion:] : sha256 da25ceed5ff8c4b505fa7d86fc7697817857e03b17fabb1b16688d08491d3e7b -> c4bda4c642b74254922b7903bbfd940a83e29c9a8d6f46dbee5234103afcf5c8
+~ ___76-[WorkoutKitXPCServiceHelper endActiveWorkoutPlanWithIdentifier:completion:]_block_invoke : sha256 ce21f6583002a373ee71550c412fc0449fd288bbeeb8527208236595336e780b -> a83a19b87c44c85ac9d60cbe2a099db22d043d5d0a1cc2ae675e8ddf64814adb
+~ ___76-[WorkoutKitXPCServiceHelper endActiveWorkoutPlanWithIdentifier:completion:]_block_invoke_2 : sha256 9694c2c1c84585edb970be5c90640bbba75b427d0dc2d3a85a8aef15664b3667 -> cd1fabd0e6eacaf0108efb12d1d09889f868947fa3cc7f5434f3f9ec7f556743
+~ ___76-[WorkoutKitXPCServiceHelper endActiveWorkoutPlanWithIdentifier:completion:]_block_invoke_3 : sha256 e22281e8f80b21ac51423a6583faa7e0b3323f2140a736c0fa94d32b2a9c99f4 -> ec12a53c715bdce513dc461b0681d6ff255da829836d7fb4631677109d83da3c
+~ -[WorkoutKitXPCServiceHelper saveWorkoutCompositionData:completion:] : sha256 410bb49e66a36b2b6019a91476a62502ee9cf6a70d4b79df05c28b4f0474811e -> 61415ae37466e2e0f3f7581f7fa4e9cea2c93f78c9ceb2f285bed1324ce33c01
+~ ___68-[WorkoutKitXPCServiceHelper saveWorkoutCompositionData:completion:]_block_invoke : sha256 dd3ddf7ba35647d694774d9c13ef43ff6138e6a58ee044fd3264696e3c4b5731 -> f1738d3e1c502536373b354ef40edd64db5eb9b197514e21cb4ac90f020d1a2b
+~ ___68-[WorkoutKitXPCServiceHelper saveWorkoutCompositionData:completion:]_block_invoke_2 : sha256 1a50849d8bafbf6b00b2b95ab28619602c339a0f3f559fa501022f49d611fd60 -> ff3aaf66939b56792f32fe5e7e426cb3f5411274af04573c7e9c18e41f1c98df
+~ ___68-[WorkoutKitXPCServiceHelper saveWorkoutCompositionData:completion:]_block_invoke_3 : sha256 30f0ca6b165f7b91b0d3db7db2c6e6b4f8c1f1332ec10f7411775469c5f48bef -> 731ede2c5c876012b2bb2b84cafb8b626f3eea6002fedb289ab7cc8936efc862
+~ -[WorkoutKitXPCServiceHelper addScheduledWorkouts:sourceBundleId:completion:] : sha256 ec4e0a6c5c55f7731c72e76ec3325149045325a94033b22cd6d2f519c642e972 -> ef5926748d5eb9c004a280e43ee8cdde704e5f643b88af1fb882814f0e12646a
+~ ___77-[WorkoutKitXPCServiceHelper addScheduledWorkouts:sourceBundleId:completion:]_block_invoke : sha256 cb0bb0181d9e2e90dbb313ffc094b1202fc1ceb79507b45a8d44ed9de19a1dfc -> a46888c494d953eacfb6eddad5bbbd462713a8394904fa8d8637774282085f2c
+~ ___77-[WorkoutKitXPCServiceHelper addScheduledWorkouts:sourceBundleId:completion:]_block_invoke_2 : sha256 4f3449678ed46248eee40c8feb63e7833de12cbf630ad81fbcafed6044e66552 -> 14b8e5d74ea6f816e637d224502c6952cabdbff2e7c76367dcc5db763bd69799
+~ ___77-[WorkoutKitXPCServiceHelper addScheduledWorkouts:sourceBundleId:completion:]_block_invoke_3 : sha256 12949792e756c2df5d923b62bfea119c685e553f6efa8140748cac69155eb3bd -> d82f303b6a0ecc7e87d7ac0309c75c7dd60820c66cad262c5ea9170117454cfc
+~ -[WorkoutKitXPCServiceHelper removeScheduledWorkouts:sourceBundleId:completion:] : sha256 a0669cb808978cd935e2ff9e0b35747f1a2c2f1a77c9171c7d21943d392fc29e -> addc2ebcfc5ae494376a37859f717a676a42daff5fdbaf4bb8ceca42f5b852c7
+~ ___80-[WorkoutKitXPCServiceHelper removeScheduledWorkouts:sourceBundleId:completion:]_block_invoke : sha256 4198643648df4e670683d3f4a4114339789dec15a16abd504abecd61e908bf15 -> 720d6a59e858c8f36e47365ba8dbff4b50375c47930a8175b10566b39102eaf0
+~ ___80-[WorkoutKitXPCServiceHelper removeScheduledWorkouts:sourceBundleId:completion:]_block_invoke_2 : sha256 b760c0fa66c61f6712e2e6eabc188a3945bfed2ed9b58a1386d0eebdfbeb0c85 -> fabf6e692d3ed63925e25df254075b0f9119940080c550e43e36f46a205efefb
+~ ___80-[WorkoutKitXPCServiceHelper removeScheduledWorkouts:sourceBundleId:completion:]_block_invoke_3 : sha256 a61cbad3d3d448a6dbdbfefcab345aae6f328f18be7cfb691504358ad80c1572 -> 161073bc6e5443b2102e9a151fbceefa982cf4d30994aead05677779d26e45cf
+~ -[WorkoutKitXPCServiceHelper storeScheduledWorkoutCompositions:sourceBundleId:completion:] : sha256 8816e785ebfddb10e0d317af11f7796ab59131d9ef89dd06ec2cd0c2a9838d77 -> 5624ca6df091f9134feef79c9a5ffbfe99b757bafd2ea0b4608994c14de9cb6f
+~ ___90-[WorkoutKitXPCServiceHelper storeScheduledWorkoutCompositions:sourceBundleId:completion:]_block_invoke : sha256 5b96109f9752fe65dc6bdfc3c908077d5132cfaed429db80cfe856202358ae1d -> b80cd5e1f28ba8c2b2148ca91f8c9d5d27fd8ab733a7186782a5c25e356aef89
+~ ___90-[WorkoutKitXPCServiceHelper storeScheduledWorkoutCompositions:sourceBundleId:completion:]_block_invoke_2 : sha256 0abcfb030aadd9fe62642bdf3937d1fa25060db38bb71bd9207da2c6cf31c74d -> 23c9aa55ca76f287e8a3a9823f952b537c6d6008f3b5ddf43246262a19c22b7b
+~ ___90-[WorkoutKitXPCServiceHelper storeScheduledWorkoutCompositions:sourceBundleId:completion:]_block_invoke_3 : sha256 04d2a16f47a7828509c8f1af3e57c9539c5aab60eb74e17aa4d0ba721e0db35a -> f9cf1abc1b4ef67450536e05d93c17b85aaa747a7d3d7045db22aa4b02f4fafa
+~ -[WorkoutKitXPCServiceHelper retrieveScheduledWorkoutCompositionsForSourceBundleId:completion:] : sha256 a6b83029c74fe275c02d6224f7f1afa687c6d8b8b7a8b3af5b952aedb41af855 -> 1989f8028137983a1ba6091e7866199b451adfd78cf1e605e8a244705a80b3ae
+~ ___95-[WorkoutKitXPCServiceHelper retrieveScheduledWorkoutCompositionsForSourceBundleId:completion:]_block_invoke : sha256 202fd28f7bc184b2d228cc86f4d165b32a0b61b459142768977387e1bd26b667 -> 7e8256a3d2fb78c91f3bc9c20511ea61c9f23a5f7047536f3dd75915907fef7e
+~ ___95-[WorkoutKitXPCServiceHelper retrieveScheduledWorkoutCompositionsForSourceBundleId:completion:]_block_invoke_2 : sha256 0d4ad800e8ec8ddc0b9ed6710a83903cf6f3ee0bcbb69393f8936028d45a2ef4 -> f6c784b932cd49c6b6137cdf35c645a6adf6c5be7317051b509ab56c60dd46e3
+~ ___95-[WorkoutKitXPCServiceHelper retrieveScheduledWorkoutCompositionsForSourceBundleId:completion:]_block_invoke_3 : sha256 05f1b9404844bb334d8ae83290bbf68e8911e231abf545925b608bbf66e407e0 -> 4c8d8e84bb442e05af274acdb80e1cecccd4879cbce4e678e1318d76f7f71f85
+~ -[WorkoutKitXPCServiceHelper deleteScheduledWorkoutCompositionsForSourceBundleId:completion:] : sha256 42cce98ff4310e7482b5b29cc540bd3b28129df13a2b208aba9f23fe1e7f190a -> ca9dea2806c68c049104e84e0a6132d64496f825b91261b3d64e1a7551a931ba
+~ ___93-[WorkoutKitXPCServiceHelper deleteScheduledWorkoutCompositionsForSourceBundleId:completion:]_block_invoke : sha256 e03dd1905b4c11caf7702b8e67b5a451855503094b6913e19282f5745cf09baf -> 79ed6179b977e8bf5ed873fe4c35667f58ee668aa55d4d580d7b70e752b1057f
+~ ___93-[WorkoutKitXPCServiceHelper deleteScheduledWorkoutCompositionsForSourceBundleId:completion:]_block_invoke_2 : sha256 63e279cb0c7c2d175d337f2f26ff8c2e4f9987f1044f16c8a642b432cc291279 -> 72c4e8b8a66842409cefbbfa9c7ad23842abee854695f6791c7f297f1fcff670
+~ ___93-[WorkoutKitXPCServiceHelper deleteScheduledWorkoutCompositionsForSourceBundleId:completion:]_block_invoke_3 : sha256 08f08cdd6af2ce9100100b69a0bae725e076edbf779db2e4fb5d7e34c41720f6 -> d02f328f1360f14e29c2961f702c8aa5900c27819bd21b7157fe40461964753f
+~ -[WorkoutKitXPCServiceHelper iconForBundleId:completion:] : sha256 58e9868468843c4c2694e74e1cd872e297ce922ebd8d267cdf77e8f6bb5146b0 -> 8cb3ac076a4f68541f88617eedbfced4067b6fb009d0792bf0401fb16beb5b41
+~ ___57-[WorkoutKitXPCServiceHelper iconForBundleId:completion:]_block_invoke : sha256 e6972f6f534a5e468da32a505b0d77f4a505244235705e1cb446e70155d7d8a0 -> ca3ca273a7ff202153fea70314afa678fd73647126fe9f34c59505f3473e0bc0
+~ ___57-[WorkoutKitXPCServiceHelper iconForBundleId:completion:]_block_invoke_2 : sha256 7a02c46bdc14f3731e15a1aef1190b73698b5516a99bb851cbd9265fdad5f99a -> 1d63e4272c18e246e2b916e54658b98ece7f436e69715f08786e8344b1955d61
+~ ___57-[WorkoutKitXPCServiceHelper iconForBundleId:completion:]_block_invoke_3 : sha256 368f9a47ef908bf28524767e0e3a2225e65f3c048437c264dacc74d16842daa3 -> 10319d5c531806001c1155b3f9476d066b815654afd5441046af821c12cc7fcc
+~ -[WorkoutKitXPCServiceHelper retrieveWorkoutCompositionFromWorkout:completion:] : sha256 f5166131224c54cfe2fd4a02d4fdd8e37b783e1f457e6b15bae87cf6469fb310 -> a67bf2b958ca782183b2accb73c60cbba83143b41b824ce2544498c62cfc55c9
+~ ___79-[WorkoutKitXPCServiceHelper retrieveWorkoutCompositionFromWorkout:completion:]_block_invoke : sha256 9f2f1f17dfb775eb576939d101943c483f6922c9869a7dd2f1e090b286ca2679 -> fc616bb959c16ea88480085042a14dc3b10a3b3b56c82bc312d3545dc7154e5c
+~ ___79-[WorkoutKitXPCServiceHelper retrieveWorkoutCompositionFromWorkout:completion:]_block_invoke_2 : sha256 d6d51ec245275735a4419632fa04613a38bbe70206c0a3f50fcaf4f41f056b00 -> ea277f081a145824555cdd52bde5f706fe8c11421da0673a745e567a9c7329a2
+~ ___79-[WorkoutKitXPCServiceHelper retrieveWorkoutCompositionFromWorkout:completion:]_block_invoke_3 : sha256 146418b0511c5bef21f23d11cf847ebb4f48ab14fb8920803cdb75d6547cf434 -> cf7cef14344fe6c453d29441d24777b98bbf0decd5352b000005dd6328bf88bd
+~ -[WorkoutKitXPCServiceHelper retrieveWorkoutCompositionFromWorkoutUUID:completion:] : sha256 520cafa6f5863a2cb875a0ecf6db760dceda096101e282614dbb18281c62fd8e -> f9d854fec44cd48b04a29ca821652d62a6cf252439cfed448d695e553797c9d1
+~ ___83-[WorkoutKitXPCServiceHelper retrieveWorkoutCompositionFromWorkoutUUID:completion:]_block_invoke : sha256 9381989ed0244a1e397ae37f329cf0eac69177482b527625628a7bd81dcbf305 -> b8aad893fcf724d9ee29b798ec2a3e67af8097a8ddefb1c33ee55c1a19bff832
+~ ___83-[WorkoutKitXPCServiceHelper retrieveWorkoutCompositionFromWorkoutUUID:completion:]_block_invoke_2 : sha256 bb8eb6690c5f3f1aa352e66564d65b5c15b172debdb9d27d6a5c5d1bc4506fef -> d751e18ecb4fb927208ada5487926646c4cfecd00e12d1a2000b0caa31ae682e
+~ ___83-[WorkoutKitXPCServiceHelper retrieveWorkoutCompositionFromWorkoutUUID:completion:]_block_invoke_3 : sha256 0e2aa2b80a51e981df72ed9eef25ca8654a2a48e8a03b1cbfba4108510f88347 -> ee67737eb0f16ab810e8f4055913145dbf6b47d5ba7e3212421445e09bdce1ce
+~ -[WorkoutKitXPCServiceHelper retrieveAuthorizationStateForBundleId:completion:] : sha256 ab40bff085eade04b7a0a8eb12b9b366d289c4127ec74b948b909e4582d605f8 -> dbc49471bc2c5eb28c12de2c55cf438eec3098428a5a2a7e686daa22859ea179
+~ ___79-[WorkoutKitXPCServiceHelper retrieveAuthorizationStateForBundleId:completion:]_block_invoke : sha256 14ed4b885695373976288ebc8fc6060f82aff45ac5ed4adb829c77bb5666736a -> 42dead8efb4248ca22018b09f3d30a7ceff5ecc87f160613b8a85f30a682b012
+~ ___79-[WorkoutKitXPCServiceHelper retrieveAuthorizationStateForBundleId:completion:]_block_invoke_2 : sha256 8d14d94784d66557b165f527b34c75f77f5c8df6cf0bd72573ea820d3a1fe325 -> a1f9c9e30d339bd3c203046124cac69c878f4f77bf005c7c34716d9d635ec073
+~ ___79-[WorkoutKitXPCServiceHelper retrieveAuthorizationStateForBundleId:completion:]_block_invoke_3 : sha256 236f74f736042e16cad6e3ba586c02788ee557a1fdb01bc68af8220d76286f43 -> 8d7398c7c36e78a24c653cc7d0942ae691e3ad86808ea48822fa877b9caf2a04
+~ -[WorkoutKitXPCServiceHelper requestAuthorizationForBundleId:completion:] : sha256 cdfdf0a475d33a4394a61e2949ed9379c833643c24a0d01bb549a2b6b570ad99 -> 409e2c3336a8a7ad095e652fa81c2e34c4d03c89ade88644123a289f7896c5ad
+~ ___73-[WorkoutKitXPCServiceHelper requestAuthorizationForBundleId:completion:]_block_invoke : sha256 5b21f1c4726de1ca14a7bc886a891a6aadc962e1695bde696efd3c517a21fac2 -> 9c1067bedfc2331c786c96c9949bceed6c48a3d900d75fc696b81dd98bd763fe
+~ ___73-[WorkoutKitXPCServiceHelper requestAuthorizationForBundleId:completion:]_block_invoke_2 : sha256 509a41ae3a060a2fd0592f0bac31b31fde1a3f3f13aed66c19c23cd03c8421bc -> 6f1556f96b00f48363f05ab0950ef4dff7473e1df85b0167dc2ebed59b1eb3b9
+~ ___73-[WorkoutKitXPCServiceHelper requestAuthorizationForBundleId:completion:]_block_invoke_3 : sha256 5b9d68131a13a1c356a9dec334540941e418f711c4bc9780bcdbf02180a5c111 -> bed201e32c61c767120815241def1a7f09e67e483ea0f056634eb41e461291ac
+~ -[WorkoutKitXPCServiceHelper setAuthorizationState:forBundleId:completion:] : sha256 7e19f580dda69630d88f9d92222422f91846da5593f8c1f11f935d8a54d96e11 -> 1f420bcbbb48b31704b0c60e12aa6b323a0329c20f3e16d7e9c3bffb93b67a1f
+~ ___75-[WorkoutKitXPCServiceHelper setAuthorizationState:forBundleId:completion:]_block_invoke : sha256 21f3488026e26e907b0909695d7ccdd98e3569be3d0d2c11d73b9f2834a5055c -> 9f05eba0a5c4e54f0f0cb851b3a69e746e53b99ce09997ee70db64aadec8fc96
+~ ___75-[WorkoutKitXPCServiceHelper setAuthorizationState:forBundleId:completion:]_block_invoke_2 : sha256 e6ca6c44f9ec0dea54e6a0280f3ff2ad4400a04df2663ae8c65c611152b5615c -> 6fe4e25a81c106bdab1196a37e3f3a1fcda8d88e0d92149df0d1d2b8b79e3ea0
+~ ___75-[WorkoutKitXPCServiceHelper setAuthorizationState:forBundleId:completion:]_block_invoke_3 : sha256 d9a2feafee87d4408689143c404625a3f9b701d781ee433229a613022a6104a9 -> a04e81dfc360ad3befe0dea8807e0043c11d9e8d91f87d32cd26dc7c4b4f0a99
+~ -[WorkoutKitXPCServiceHelper handleUninstalledAppIds:completion:] : sha256 5224b58396e9cf5fa38f63ab9398d52b0709cf55d15cedbfe453859900a7d9a0 -> a8c90e851fd3721457ff2bc023864294593a9cee118c12b71ced5bb152e55617
+~ ___65-[WorkoutKitXPCServiceHelper handleUninstalledAppIds:completion:]_block_invoke : sha256 f426e15cfe6026e7d5f70ac4d6f1e2bfbfc4c6dcf61870aeda9869760d3b3665 -> e13c2661038f049092f84990383cdf199fb68c20d89b2cedc22230871966e437
+~ ___65-[WorkoutKitXPCServiceHelper handleUninstalledAppIds:completion:]_block_invoke_2 : sha256 6e55061aac8f0eea6eb57c647718a89134066e23e32ae76e6b42f26879434066 -> ffc8fa9f8c0c31f5e2c57033b30a6435c133301c37f86c8065f9087d6b309f71
+~ ___65-[WorkoutKitXPCServiceHelper handleUninstalledAppIds:completion:]_block_invoke_3 : sha256 b89a52d0b8db5bf54ff66a3d5cee520ae44f58fa695b1d8a6091d00326b30f84 -> 48e1588b5ad534e367369b2dff8562c8baaee8a0385f898a7c1b08065ead5a31
+~ ____WorkoutKitConnectWithBlock_block_invoke : sha256 a0a9fecf17eb781e354c4df4a18fc98f7e9314353eb4a76318aec8f0e09bf3f4 -> 58729909966174898995f1fe939e0a01d1ed180521276062037603a2bd514c35
+~ ____WorkoutKitConnectWithBlock_block_invoke_2 : sha256 d35586b7b8437f9aa222a1d18361ac0c806e9e0ddead59ed841896db6ba2fd30 -> 6917d18296039fec477f6eee7fe6ab177d8f295dd0535c8efa85d1a0a0463155
+~ __WorkoutKitErrorForXPCConnection : sha256 8c625d85c05d27c2dc3e23e0b5ea180219df418ca65cad77d5c05ccaec202774 -> 5a3b2b773404797a436b3fe45a4f22e7eb3cafa20810590f52381e0fce489521
+CStrings:
+- "@16@0:8"
+- "WorkoutKitXPCServiceHelper"
+- "WorkoutKitXPCServiceProtocol"
+- "_init"
+- "_xpcConnection"
+- "activate"
+- "addScheduledWorkouts:sourceBundleId:completion:"
+- "deleteScheduledWorkoutCompositionsForSourceBundleId:completion:"
+- "dictionaryWithObjects:forKeys:count:"
+- "endActiveWorkoutPlanWithIdentifier:completion:"
+- "errorWithDomain:code:userInfo:"
+- "handleUninstalledAppIds:completion:"
+- "iconForBundleId:completion:"
+- "init"
+- "initWithFormat:"
+- "initWithServiceName:"
+- "interfaceWithProtocol:"
+- "invalidate"
+- "openWorkoutAppWithActivityType:autostart:completion:"
+- "openWorkoutAppWithMirroredStartData:completion:"
+- "openWorkoutAppWithWorkoutCompositionData:completion:"
+- "openWorkoutAppWithWorkoutPlanData:autostartWorkoutPlan:completion:"
+- "openWorkoutAppWithWorkoutPlanData:completion:"
+- "presentWorkoutCompositionData:completion:"
+- "presentWorkoutConfigurationData:completion:"
+- "remoteObjectProxy"
+- "removeScheduledWorkouts:sourceBundleId:completion:"
+- "requestAuthorizationForBundleId:completion:"
+- "retrieveAuthorizationStateForBundleId:completion:"
+- "retrieveScheduledWorkoutCompositionsForSourceBundleId:completion:"
+- "retrieveWorkoutCompositionFromWorkout:completion:"
+- "retrieveWorkoutCompositionFromWorkoutUUID:completion:"
+- "saveWorkoutCompositionData:completion:"
+- "setAuthorizationState:forBundleId:completion:"
+- "setInterruptionHandler:"
+- "setInvalidationHandler:"
+- "setRemoteObjectInterface:"
+- "sharedInstance"
+- "storeScheduledWorkoutCompositions:sourceBundleId:completion:"
+- "v32@0:8@\"NSArray\"16@?<v@?B@\"NSError\">24"
+- "v32@0:8@\"NSData\"16@?<v@?@\"NSData\"@\"NSError\">24"
+- "v32@0:8@\"NSData\"16@?<v@?B@\"NSError\">24"
+- "v32@0:8@\"NSString\"16@?<v@?@\"NSArray\"@\"NSError\">24"
+- "v32@0:8@\"NSString\"16@?<v@?@\"NSData\"@\"NSError\">24"
+- "v32@0:8@\"NSString\"16@?<v@?@\"NSNumber\"@\"NSError\">24"
+- "v32@0:8@\"NSString\"16@?<v@?B@\"NSError\">24"
+- "v32@0:8@\"NSUUID\"16@?<v@?@\"NSData\"@\"NSError\">24"
+- "v32@0:8@\"NSUUID\"16@?<v@?B@\"NSError\">24"
+- "v32@0:8@16@?24"
+- "v36@0:8@\"NSData\"16B24@?<v@?B@\"NSError\">28"
+- "v36@0:8@16B24@?28"
+- "v36@0:8q16B24@?28"
+- "v36@0:8q16B24@?<v@?@\"NSUUID\"@\"NSError\">28"
+- "v40@0:8@\"NSArray\"16@\"NSString\"24@?<v@?B@\"NSError\">32"
+- "v40@0:8@\"NSNumber\"16@\"NSString\"24@?<v@?B@\"NSError\">32"
+- "v40@0:8@16@24@?32"
+
+```

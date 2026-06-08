@@ -1,0 +1,7013 @@
+## PhotosIntelligence
+
+> `/System/Library/PrivateFrameworks/PhotosIntelligence.framework/PhotosIntelligence`
+
+```diff
+
+-852.0.102.0.0
+-  __TEXT.__text: 0x5df8c8 sha256:e89186fecf238319e230b55cc428c64dd6f34be10aa715475f4d67c370716628
+-  __TEXT.__auth_stubs: 0x5ef0 sha256:4e21eca99d9ecebe6e29d00fdc3c0c6544005c31f12cd48994ee0a28bc5bcfc9
+-  __TEXT.__objc_methlist: 0x58ac sha256:81a6d3ca7a1d641d719d9443b0ad2e170fd9f8b63cad774d4ffcbf9ddb7acc0d
+-  __TEXT.__const: 0x3a4b8 sha256:2ea5115fbdd2c9a45867d846e8e9140d87633c1ac14a530e25c88793a76b13b3
+-  __TEXT.__dlopen_cstrs: 0x18a sha256:4de86404d7a6c20779af8c70a4f3e51e12b841fbd8815fa3fde8d6cf7730911a
+-  __TEXT.__cstring: 0x234af sha256:f5c26928f48a61581a2cf707bdd9ca716c569b99404e0b6ecb9920cea258602a
+-  __TEXT.__swift5_typeref: 0xdd5c sha256:f5d4f1f984e9bf0e2d7d710b8aba28e83ae9c4c7198f1baf5595ba6ae3246a57
+-  __TEXT.__swift5_reflstr: 0x100e1 sha256:0415ef03b223652b7fd68603176b676cf0466e6a5d1d4f4d451d1f86ef9fccf7
+-  __TEXT.__swift5_assocty: 0x1780 sha256:b8307c9d6dd99b2947b0b88e9c18fd1ceddc5afdfdc042262adb7540e20438a2
+-  __TEXT.__swift5_fieldmd: 0x10414 sha256:5551f5c66939469bf77a5706fc598888fb3c692bc5664d854823ebfd821969b1
+-  __TEXT.__constg_swiftt: 0xcee8 sha256:1f56c7d11be1f31a0cabbea2fd0ac4cb6ed197dc76e572fab2bdad96d2116baa
+-  __TEXT.__swift5_builtin: 0x744 sha256:7c1ac8d14d8b836bceb8eb0f0976875236423c3283a6adf8fc0270e2689dd431
+-  __TEXT.__swift5_protos: 0xc4 sha256:d7d9ae58b9aaf443364fde6411634123a696d7097da772ff156f01a0844f703b
+-  __TEXT.__swift5_proto: 0x2ca4 sha256:cd0c95053c03bf94b18bdc2ed2f8756777e32cb40cbe0b81e0b9aea9f4580b97
+-  __TEXT.__swift5_types: 0x1210 sha256:1a0ab811f8a6db47c41dc24a9efc6aea17b4ce5103a35778deda9d6a8bcd2f77
+-  __TEXT.__oslogstring: 0x24a8f sha256:55509a409881eb8f896386e8e6744efec62f87d5dbf3145a385b21a9c75bced1
+-  __TEXT.__swift_as_entry: 0xa9c sha256:44978c0718a9b56e9e540dc9bf2b1877a13cc7cc001388faf5873186bb858af9
+-  __TEXT.__swift_as_ret: 0xd50 sha256:21b0f746fdfe4cbfaba800699ebddc7fee673272e8bd7e9e7f492affb5211a58
+-  __TEXT.__swift5_mpenum: 0x2d4 sha256:34382b526173eb18bef11b87d79902fa24c07307f8ab8d21f8077b045ce48ec4
+-  __TEXT.__swift5_capture: 0x20e8 sha256:b485330feae68f8391273c655979f216ddc3876f9a3049ae54dc41f6cdd164de
+-  __TEXT.__gcc_except_tab: 0x824 sha256:5cd75fc6cae2b1aeeabcbbe46804055734a7de3342da1b14d4cf107fe3e19411
++910.14.107.0.0
++  __TEXT.__text: 0x650e48 sha256:420a870ece2b2cffb5d504cf69b55283d851e454e61eaf67e492bedf88301460
++  __TEXT.__objc_methlist: 0x5a9c sha256:69bfd375a30222492a71154598d574139bf763eb99328ce29a62062a2232d346
++  __TEXT.__const: 0x3b9f8 sha256:4bf945ebd74ecc54f715c3d43e562e3fe0c424597bd12801ed9b92ad323e6230
++  __TEXT.__dlopen_cstrs: 0x122 sha256:e827815bfa93f946f224e343f5ef4c843643e049d79dbc72fdda0663d3653a38
++  __TEXT.__cstring: 0x247ac sha256:7380e64678ff51c583f0e2c4d482dcc3990788c892f76b8bb29dafd7142e9431
++  __TEXT.__swift5_typeref: 0xe49e sha256:f5063b608126ed692bd00ce726de58ff1ca735ac8e59bd063f07ef38e80da42a
++  __TEXT.__swift5_reflstr: 0x10fc3 sha256:f9f6120da12c36c14b2aa37a91a7e662ba82d0054878c1e2ad4f51527f8ffec7
++  __TEXT.__swift5_assocty: 0x1870 sha256:07c6089b7bb282583d14cee1a6683e5e077ae3a2fe9aec39a9df4fb579e2dc0a
++  __TEXT.__swift5_fieldmd: 0x11128 sha256:b019982e500f9e4d71be94d48c24ca48dba9cc01bfc1aef79319aba0a3a4479d
++  __TEXT.__constg_swiftt: 0xd608 sha256:77bd43b65870fbc963cadce35802e410e39b267afe0be3bba54c2247118f5595
++  __TEXT.__swift5_builtin: 0x7d0 sha256:03557ef5c2e98cae43e9730dd70a94435666c78eec013d414943b4bd666f3ede
++  __TEXT.__swift5_protos: 0xd4 sha256:54431693f9c9cc2620e57858259d9a4011095a86c5ffd14229cf90b9ca390445
++  __TEXT.__swift5_proto: 0x2d68 sha256:1376dbce4b1791a0d4bc71ce5b18d8dc1d4d0acfa0bec5422ca78fcea4eed260
++  __TEXT.__swift5_types: 0x12b4 sha256:f5c886a8982372569b8b935de71320d54da964e5e6863c855d6a9f57163fed3f
++  __TEXT.__swift5_capture: 0x11768 sha256:4e3b926cf423b09022342fe9a9488da2120fb56f1aa51d96fea41298135df9ac
++  __TEXT.__oslogstring: 0x255f5 sha256:202a8388073c848918585838b629fbb6389796fa53271884901fa7266432bdd5
++  __TEXT.__swift_as_entry: 0xa7c sha256:be205c7781373389f662847ff64ad6b67b91a1b27d993d6437042e6294624ee3
++  __TEXT.__swift_as_ret: 0xd28 sha256:c90a33377dd6286a1b2edda2359e22b6603c7c6c1cb9b12f322786e2a77a2e4f
++  __TEXT.__swift_as_cont: 0x20dc sha256:8f5113babbd6c234a013e094a5ddbae841cf1985a259b293980d24fc59301399
++  __TEXT.__swift5_mpenum: 0x2e4 sha256:a1a33584456d631c1d09afbd1b87260ad65b4717787cf2fd1d0629cb43877136
++  __TEXT.__gcc_except_tab: 0x848 sha256:52a78261697f8b4bde01c5906a5267eaaa28e85b9e6bf80ea381fc92bd77ba11
+   __TEXT.__ustring: 0x4 sha256:709eddfc631541f3ecea46e733bbf3043279bddfb51fdfd7be60efbc2714537e
+-  __TEXT.__unwind_info: 0x16700 sha256:b6916e85586d82c2791a69953ac9f198c0a7c85e53e16278a2e598ddda5bab8f
+-  __TEXT.__eh_frame: 0x36ab0 sha256:d67086f536838a06fe7643544b8c6e3bbcd6ee66401eb33d777b512642ff441b
+-  __TEXT.__objc_classname: 0x33ec sha256:8e1a6d5f2612a7859875144a5301e485fd31ac72d0f4af264e5f4275891e255f
+-  __TEXT.__objc_methname: 0x184f1 sha256:86c87292bdcedfd34cdd7f38032055d3df236f4b39e835940a4fd39abc3d1a27
+-  __TEXT.__objc_methtype: 0x2757 sha256:57fd26eacfa2c3bc748607d7f3eac21d69ed396a8660cb6c0f9951106283be5a
+-  __TEXT.__objc_stubs: 0xeba0 sha256:b28abe75b916d2eacfc07278e3b62e1abd4b7a1757e65b415c691acdd84f6193
+-  __DATA_CONST.__got: 0x1ee0 sha256:685b0fa0d9c873464c5027444dafd5dbfee547bdea1f39762373bfde87561f62
+-  __DATA_CONST.__const: 0x1750 sha256:df81333b48740834813e7f18319672d6854239789a77612e46f74675b4489e7b
+-  __DATA_CONST.__objc_classlist: 0x7b0 sha256:5fde8d2986a25bd112376f57e86a53e877f39924623ad49f2f24d1b7701a4d36
+-  __DATA_CONST.__objc_catlist: 0x30 sha256:bd8b9a65262a9f63e65d5690a95d93f0236b15652d1e400cbf4a92de840f6e1d
+-  __DATA_CONST.__objc_protolist: 0x1f8 sha256:cd17792d5eb9de5cf046fa6fc9fde212829f755232d6b0f7188b7716e5d84cb5
+-  __DATA_CONST.__objc_imageinfo: 0x8 sha256:8c2e86a3d61473a17440ee60441113a7d285704a3b70278f03e88b3c356a5493
+-  __DATA_CONST.__objc_selrefs: 0x46b0 sha256:e232c47ea2138e6965dfd08eaa174578202c0b5eed6779dce9c4c54d0fa69156
+-  __DATA_CONST.__objc_protorefs: 0xd8 sha256:ce0d37c028cad0b7643adc10135de66f69be7e2cf07fcba8264eaef3e902a0e6
+-  __DATA_CONST.__objc_superrefs: 0x180 sha256:f5941d9a1c46cca25c0cb67300930456525ea5886200cfd27cb5d94eebfbdbc0
+-  __DATA_CONST.__objc_arraydata: 0x200 sha256:8d745625542bb03a16704113a160d8036cf1681369842b2d3e4685756e88f036
+-  __AUTH_CONST.__auth_got: 0x2f88 sha256:07cef2fe56649b4399f3ed4cfa3ab7625d9daf3117b1154938b6dbd6e96ea76c
+-  __AUTH_CONST.__const: 0x30468 sha256:16da38c7acdf71145bfe4353f2ea0eae5ca95a09fdfff904bea2c55bd3f6970d
+-  __AUTH_CONST.__cfstring: 0x6280 sha256:90324944c87ff4c9a23071b76b898647cc7b8d9f92d0dacb54f5c67c1e87e831
+-  __AUTH_CONST.__objc_const: 0x121f8 sha256:b5cb0222cc8254bf4afa191e987b7130715d73e2e522dc78177772748177c3eb
+-  __AUTH_CONST.__objc_intobj: 0x4c8 sha256:eb25da6faa9c568287c0bc21efc6cbbad49fa64bf59dd5cfd8d2988aee55fc65
+-  __AUTH_CONST.__objc_arrayobj: 0x1c8 sha256:a44d5ce42e53aa05bf80a538f7fdb3eec2a8a72990c0089d9778681309806d7a
+-  __AUTH_CONST.__objc_doubleobj: 0x170 sha256:effb08bc44c410047f76bd32ae7edfeb52259fc5900e0a4adff005c66e8c8dbe
+-  __AUTH_CONST.__objc_dictobj: 0x50 sha256:6a8555f43ba30c3de3ae0db9bf0da976b1c2cc3acac3cdbd20f8869c0680959a
+-  __AUTH.__objc_data: 0x13f8 sha256:4a2026f8763247fd3660534f0b94f82af7682a2a24f148dc5977c032d9a6c402
+-  __AUTH.__data: 0x45c8 sha256:1ae163f724c6cbbe105ed4ed44e4230ea912aa0b89d1c16886e26d15fd5ffdfd
+-  __DATA.__objc_ivar: 0x3e4 sha256:c742b75c58275c0a06d200d17e37a6c90c7db31f899ae2393610dbee26f36714
+-  __DATA.__data: 0x9108 sha256:369144c1dc9e32a6c512e418b71b0d029b2a7ddb9e8d7e21ad2eec3fa152347f
+-  __DATA.__objc_stublist: 0x38 sha256:7c75e773a897b479e51d212ea4fc556307bcbe4deb9fdca6effa305834a91603
+-  __DATA.__bss: 0x3e6e8 sha256:e96bb68ea64dba13395b86213b64ffea56c309bd4f6c175cf9da8f87b17f6a03
+-  __DATA.__common: 0x400 sha256:5f70bf18a086007016e948b04aed3b82103a36bea41755b6cddfaf10ace3c6ef
+-  __DATA_DIRTY.__objc_data: 0x3310 sha256:652545234eee94dd35c1b55ed9500519c7aa90f111ade76910cb3cc08e1341a9
+-  __DATA_DIRTY.__data: 0xa5a8 sha256:bd7dd76aa1b28c74b6e92339c4c663bf0a15f635799b072a3b9f6c6f79f076a2
+-  __DATA_DIRTY.__bss: 0x180c0 sha256:595898a6d45554dec9b9c407e35d9595ddaaa99ef70170ae00ac5aa1cc7486fb
+-  __DATA_DIRTY.__common: 0x500 sha256:bfe492baf731a0dbf6e1e050f5bc3fe8c1b049383194dcdf82f023bfa409f462
++  __TEXT.__unwind_info: 0x18690 sha256:fd294dad4e40db30900f315bc1fea4e819450d6dd01434620d4a87aa0656da00
++  __TEXT.__eh_frame: 0x3761c sha256:269dba21ef637d85d99356d57aaa1d7697df228190ae0a0ace67f2a87bde00fc
++  __TEXT.__objc_stubs: 0x0
++  __TEXT.__auth_stubs: 0x0
++  __TEXT.__objc_classname: 0x0
++  __TEXT.__objc_methname: 0x0
++  __TEXT.__objc_methtype: 0x0
++  __DATA_CONST.__const: 0x1860 sha256:b211ef348f7e48f75193b1dcc888fbfb1baf294b4471d2fc88057bc8ad451492
++  __DATA_CONST.__objc_classlist: 0x7c8 sha256:3b25cf095a9f5d66cd12599f933e6e0fec1f622947b210ad8773d2b9c6d106a0
++  __DATA_CONST.__objc_catlist: 0x30 sha256:ed73b84dadfb4c327da83f3212c61a769291bbd2a514dda8e64c59ede878b3ee
++  __DATA_CONST.__objc_protolist: 0x1f8 sha256:d3f0609ec28bb2e8b98a8607522eca9e38966fd82766150adf3556b636402fda
++  __DATA_CONST.__objc_imageinfo: 0x8 sha256:ce857dcadc2529f941104469975d60698ea3610a86c121e7b4aee224cd0c59ea
++  __DATA_CONST.__objc_selrefs: 0x48e0 sha256:d9b9488988b140abafc84d4050ab5a4d88ef53613bdb1f1585c74131a34780cf
++  __DATA_CONST.__objc_protorefs: 0xd8 sha256:cb4dfe20259040b04c585a6542efc0a72215f557d2718f04d031273016f1283e
++  __DATA_CONST.__objc_superrefs: 0x180 sha256:da21ff74c601e61f8b1c46b3a91a256f03cbc6192a379d17195ad549cee8bb37
++  __DATA_CONST.__objc_arraydata: 0x208 sha256:08c61cc4eef3a401c2285402747ccb9cf4785c26aa5b91f08b14ea4d0c3f4cbc
++  __DATA_CONST.__got: 0x1f18 sha256:e39ce935b22bdd9cb19645fcb859e7e32df6126cd0f2f1a0100b5d1c963c03c1
++  __AUTH_CONST.__const: 0x57e58 sha256:16d2657da4d4eaf90540d0c5ce514304c9bd253c9b9ab4a2884d0514c3b00fe8
++  __AUTH_CONST.__cfstring: 0x6200 sha256:4269dadd6273e013d9da35ef724f144f4c539d9a8b03d16520a088747c586de9
++  __AUTH_CONST.__objc_const: 0x12660 sha256:17c66ff2d7abb9d3216cc47016a0ecd435436014ebaef26b03f7a0defad5a608
++  __AUTH_CONST.__objc_intobj: 0x4b0 sha256:a7bf87d41d19c810a9987f8f8778e02440929ea087e91dbc24bc190cddd62054
++  __AUTH_CONST.__objc_arrayobj: 0x1e0 sha256:a43368e09cb96d9a18569aa2043e6b69c7db9f99a8e9981b667bea1f2ab3ed1f
++  __AUTH_CONST.__objc_doubleobj: 0x160 sha256:4a4f684222bd1285b3ac63c5f4c4b2d37eb18d002cdd5cf7b03b93aa11a1f5ce
++  __AUTH_CONST.__objc_dictobj: 0x50 sha256:2c950c99002c84fcca69a4ade8c3061afdf05acf64586d3cc939d8cf7e9cfd99
++  __AUTH_CONST.__auth_got: 0x31c8 sha256:04b58af4b457636a527281e79c6cec509bb2f7d204b7274060273efa29b213fa
++  __AUTH.__objc_data: 0x1598 sha256:a3b9ac1c499c414e2bbe9cfbffc8672b02f1c07112f0d0483717e7ef44aceb9a
++  __AUTH.__data: 0x42b8 sha256:7ce1c937fa1093eefbe499ab404b468b2f33a00688e3f1bef299b2850694dfb9
++  __DATA.__objc_ivar: 0x3d8 sha256:1e99a3d98cc5028e053aec1216c4bbd617f60d66422144a484ba55c98de869bd
++  __DATA.__data: 0x8f30 sha256:4ffe3dfa2d327de75950a2e1f1c289d37143583dfb7a3b63f5d464761edd737f
++  __DATA.__objc_stublist: 0x38 sha256:d7e8ca2ed75783ca5a584febbff590dc215b7843e3f0de2c3b9d5a7d5a1fb10f
++  __DATA.__bss: 0x3f560 sha256:2f4d250fb9f5d867a35b15d9765521278ac26e5b4fa795f35ffcacf35167b6aa
++  __DATA.__common: 0x450 sha256:9688ec46af8fa56e8423a06a9e420db47500eb701e44ba3855faf7984ed1a0a6
++  __DATA_DIRTY.__objc_data: 0x3488 sha256:f1835ffeb722241c89ed36a8c2001e7059b3897161be61421cd1bdcb20197ded
++  __DATA_DIRTY.__data: 0xb4b0 sha256:f5952ae9e9113e3c2ae921927f737c8034d5108047df90e3620fa90d91209bf4
++  __DATA_DIRTY.__bss: 0x185b0 sha256:44605d63b88330818a39f064ffac8a471154b8a3bef5ee115049fff44d629015
++  __DATA_DIRTY.__common: 0x528 sha256:8544996d681dfec3d4f0be0a93c38bcdf4e2a69bcc5d36e1d01a0f3106d2dbb2
+   - /System/Library/Frameworks/Accelerate.framework/Accelerate
+   - /System/Library/Frameworks/Contacts.framework/Contacts
+   - /System/Library/Frameworks/CoreData.framework/CoreData
+
+   - /System/Library/Frameworks/CoreImage.framework/CoreImage
+   - /System/Library/Frameworks/CoreLocation.framework/CoreLocation
+   - /System/Library/Frameworks/CoreMedia.framework/CoreMedia
++  - /System/Library/Frameworks/CoreSpotlight.framework/CoreSpotlight
+   - /System/Library/Frameworks/CoreVideo.framework/CoreVideo
+   - /System/Library/Frameworks/CryptoKit.framework/CryptoKit
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+
+   - /System/Library/PrivateFrameworks/AppleMediaServices.framework/AppleMediaServices
+   - /System/Library/PrivateFrameworks/CPAnalytics.framework/CPAnalytics
+   - /System/Library/PrivateFrameworks/CoreEmoji.framework/CoreEmoji
+-  - /System/Library/PrivateFrameworks/CoreSceneUnderstanding.framework/CoreSceneUnderstanding
+-  - /System/Library/PrivateFrameworks/FeatureFlags.framework/FeatureFlags
+   - /System/Library/PrivateFrameworks/FlexMusicKit.framework/FlexMusicKit
+   - /System/Library/PrivateFrameworks/GenerativeFunctions.framework/GenerativeFunctions
+   - /System/Library/PrivateFrameworks/GenerativeFunctionsFoundation.framework/GenerativeFunctionsFoundation
+
+   - /usr/lib/swift/libswiftCoreImage.dylib
+   - /usr/lib/swift/libswiftCoreLocation.dylib
+   - /usr/lib/swift/libswiftCoreMIDI.dylib
+-  - /usr/lib/swift/libswiftCoreMedia.dylib
+   - /usr/lib/swift/libswiftDarwin.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
+   - /usr/lib/swift/libswiftIntents.dylib
+
+   - /usr/lib/swift/libswift_StringProcessing.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: EDCE0836-BB0A-33AC-8BC2-6207BA7888A6
+-  Functions: 36281
+-  Symbols:   40179
+-  CStrings:  10589
++  UUID: 53D434CF-2683-3619-8635-08452AD66ADD
++  Functions: 42574
++  Symbols:   51657
++  CStrings:  6929
+ 
+Symbols:
++ +[CLSCurationModel_v6 baseSpecificationWithSpecification:]
++ +[CLSCurationUtilities isRiskyFileFormatForSyndicationWithAsset:]
++ +[PNAssetCurationUtilities _safeAssetsForWidgetDisplay:requireAnalysis:]
++ +[PNAssetCurationUtilities safeAssetsForWidgetDisplayRequiringAnalysis:]
++ +[PNDateGroundingProcessor _queryParserManager]
++ +[PNDateGroundingProcessor cooldown]
++ +[PNFaceCropUtilities loadImageForFace:inAsset:]
++ +[PNImagePlaygroundCurationFetchHelper candidateSortDescriptorsForAssetDeduping]
++ +[PNSuggestionWallpaperUtilities ambientAssetInternalSortDescriptors]
++ +[PNUserDefaults personalEnvironmentSpatial3DResourceGenerationLimit]
++ +[PNUserDefaults useLEOForImagePlaygroundCuration]
++ +[PNUserDefaults useRaveModels]
++ -[CLSCurationModelSpecification contentClassificationVersion]
++ -[CLSCurationModelSpecification initWithSceneAnalysisVersion:mediaAnalysisVersion:faceAnalysisVersion:contentClassificationVersion:]
++ -[CLSCurationModel_v6 .cxx_destruct]
++ -[CLSCurationModel_v6 confidenceThresholdBySceneIdentifierForScreenshotScenes]
++ -[CLSCurationModel_v6 contentClassificationModel]
++ -[CLSCurationModel_v6 initWithCurationModelSpecification:]
++ -[CLSCurationModel_v6 isScreenshotWithSceneClassifications:]
++ -[CLSCurationModel_v6 isUtilityForSyndicationWithAsset:]
++ -[PHAsset(Curation) clsIsVideo]
++ GCC_except_table1067
++ GCC_except_table1079
++ GCC_except_table1181
++ GCC_except_table1183
++ GCC_except_table1220
++ GCC_except_table1222
++ GCC_except_table1280
++ GCC_except_table1285
++ GCC_except_table1287
++ GCC_except_table1290
++ GCC_except_table1298
++ GCC_except_table1300
++ GCC_except_table1378
++ GCC_except_table1394
++ GCC_except_table1397
++ GCC_except_table149
++ GCC_except_table165
++ GCC_except_table411
++ GCC_except_table418
++ GCC_except_table444
++ GCC_except_table521
++ GCC_except_table522
++ GCC_except_table528
++ GCC_except_table686
++ GCC_except_table695
++ GCC_except_table709
++ GCC_except_table870
++ GCC_except_table976
++ GCC_except_table977
++ GCC_except_table978
++ GCC_except_table979
++ _CGBitmapContextCreate
++ _CGBitmapContextGetBytesPerRow
++ _CGBitmapContextGetData
++ _CGColorSpaceRelease
++ _CGContextClearRect
++ _CGContextDrawImage
++ _CGContextRelease
++ _CGImageCreateWithImageInRect
++ _CGImageGetHeight
++ _CGImageGetWidth
++ _CGImageRelease
++ _NSLog
++ _OBJC_CLASS_$_CLSAssetProcessedSignals_v6
++ _OBJC_CLASS_$_CLSContentClassificationModel
++ _OBJC_CLASS_$_CLSCurationModel_v6
++ _OBJC_CLASS_$_PHFindLexeme
++ _OBJC_CLASS_$_PHFindQueryExecutor
++ _OBJC_CLASS_$_PHFindQueryOperand
++ _OBJC_CLASS_$_PHFindQueryOptions
++ _OBJC_CLASS_$_PHFindQueryPredicate
++ _OBJC_CLASS_$_PLTextEmbeddingResultWithBiasScale
++ _OBJC_CLASS_$_PLTextEmbeddingService
++ _OBJC_CLASS_$_PNFaceCropUtilities
++ _OBJC_CLASS_$_PNImagePlaygroundCurationFetchHelper
++ _OBJC_CLASS_$__CSEmbedding
++ _OBJC_CLASS_$__TtCVO18PhotosIntelligence27PersonalEnvironmentCuration28PersonalEnvironmentSuggester19SuggestionCandidate
++ _OBJC_IVAR_$_CLSCurationModelSpecification._contentClassificationVersion
++ _OBJC_IVAR_$_CLSCurationModel_v6._confidenceThresholdBySceneIdentifierForScreenshotScenes
++ _OBJC_IVAR_$_CLSCurationModel_v6._contentClassificationModel
++ _OBJC_METACLASS_$_CLSAssetProcessedSignals_v6
++ _OBJC_METACLASS_$_CLSCurationModel_v6
++ _OBJC_METACLASS_$_PNFaceCropUtilities
++ _OBJC_METACLASS_$_PNImagePlaygroundCurationFetchHelper
++ _OBJC_METACLASS_$__TtCVO18PhotosIntelligence27PersonalEnvironmentCuration28PersonalEnvironmentSuggester19SuggestionCandidate
++ _OUTLINED_FUNCTION_606
++ _OUTLINED_FUNCTION_607
++ _OUTLINED_FUNCTION_608
++ _OUTLINED_FUNCTION_609
++ _OUTLINED_FUNCTION_610
++ _OUTLINED_FUNCTION_611
++ _OUTLINED_FUNCTION_612
++ _OUTLINED_FUNCTION_613
++ _OUTLINED_FUNCTION_614
++ _OUTLINED_FUNCTION_615
++ _OUTLINED_FUNCTION_616
++ _OUTLINED_FUNCTION_617
++ _OUTLINED_FUNCTION_618
++ _OUTLINED_FUNCTION_619
++ _OUTLINED_FUNCTION_620
++ _OUTLINED_FUNCTION_621
++ _OUTLINED_FUNCTION_622
++ _OUTLINED_FUNCTION_623
++ _OUTLINED_FUNCTION_624
++ _OUTLINED_FUNCTION_625
++ _OUTLINED_FUNCTION_626
++ _OUTLINED_FUNCTION_627
++ _OUTLINED_FUNCTION_628
++ _OUTLINED_FUNCTION_629
++ _OUTLINED_FUNCTION_630
++ _OUTLINED_FUNCTION_631
++ _OUTLINED_FUNCTION_632
++ _OUTLINED_FUNCTION_633
++ _PHAssetPropertySetPersonalEnvironment
++ _PHAssetPropertySetPhotosInfoPanelExtended
++ _PHFindQueryCategoriesForPHFindQueryCategoryGroup
++ _PNSpatialAnalyticsClientNameEnvironmentPano
++ _PNSpatialAnalyticsClientNamePhotosPano
++ __DATA__TtC18PhotosIntelligence10Connection
++ __DATA__TtCVO18PhotosIntelligence27PersonalEnvironmentCuration28PersonalEnvironmentSuggester19SuggestionCandidate
++ __INSTANCE_METHODS__TtCVO18PhotosIntelligence27PersonalEnvironmentCuration28PersonalEnvironmentSuggester19SuggestionCandidate
++ __IVARS__TtC18PhotosIntelligence10Connection
++ __IVARS__TtCVO18PhotosIntelligence27PersonalEnvironmentCuration28PersonalEnvironmentSuggester19SuggestionCandidate
++ __METACLASS_DATA__TtC18PhotosIntelligence10Connection
++ __METACLASS_DATA__TtCVO18PhotosIntelligence27PersonalEnvironmentCuration28PersonalEnvironmentSuggester19SuggestionCandidate
++ __OBJC_$_CLASS_METHODS_CLSCurationModel_v6
++ __OBJC_$_CLASS_METHODS_PNFaceCropUtilities
++ __OBJC_$_CLASS_METHODS_PNImagePlaygroundCurationFetchHelper
++ __OBJC_$_CLASS_METHODS_PNSuggestionWallpaperUtilities(GyroPoster|Utilities|PhotosPosterBackdrop)
++ __OBJC_$_INSTANCE_METHODS_CLSCurationModel_v6
++ __OBJC_$_INSTANCE_VARIABLES_CLSCurationModel_v6
++ __OBJC_$_PROP_LIST_CLSCurationModel_v6
++ __OBJC_$_PROP_LIST_PLTextEmbeddingResult
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_PLTextEmbeddingResult
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_PLTextEmbeddingResult
++ __OBJC_$_PROTOCOL_METHOD_TYPES_PLTextEmbeddingResult
++ __OBJC_$_PROTOCOL_REFS_PLTextEmbeddingResult
++ __OBJC_CLASS_RO_$_CLSAssetProcessedSignals_v6
++ __OBJC_CLASS_RO_$_CLSCurationModel_v6
++ __OBJC_CLASS_RO_$_PNFaceCropUtilities
++ __OBJC_CLASS_RO_$_PNImagePlaygroundCurationFetchHelper
++ __OBJC_LABEL_PROTOCOL_$_PLTextEmbeddingResult
++ __OBJC_METACLASS_RO_$_CLSAssetProcessedSignals_v6
++ __OBJC_METACLASS_RO_$_CLSCurationModel_v6
++ __OBJC_METACLASS_RO_$_PNFaceCropUtilities
++ __OBJC_METACLASS_RO_$_PNImagePlaygroundCurationFetchHelper
++ __OBJC_PROTOCOL_$_PLTextEmbeddingResult
++ __PROPERTIES__TtCVO18PhotosIntelligence27PersonalEnvironmentCuration28PersonalEnvironmentSuggester19SuggestionCandidate
++ __PROTOCOLS_PNParallaxSpatialPhotoProducer.22
++ __PROTOCOLS__TtC18PhotosIntelligence27PXParallaxSpatialPhotoScene.47
++ __PROTOCOLS__TtC18PhotosIntelligence37PromptSuggestionValidationObservation.144
++ __PROTOCOLS__TtC18PhotosIntelligence43MemoryCreationAvailabilityMonitorObservable.229
++ __PROTOCOLS__TtC18PhotosIntelligenceP33_A5661BF87DDC32E782519B9444AF90AD12DownloadTask.34
++ __PROTOCOLS__TtC18PhotosIntelligenceP33_A5661BF87DDC32E782519B9444AF90AD35PXParallaxSpatialPhotoSceneAnalyzer.27
++ __PROTOCOLS__TtCVO18PhotosIntelligence17Spatial3DCuration18WallpaperSuggester19SuggestionCandidate.113
++ ___48+[PNFaceCropUtilities loadImageForFace:inAsset:]_block_invoke
++ ___59-[PNPersonPromoter _promoteInterestingPersons:updateBlock:]_block_invoke.461
++ ___59-[PNPersonPromoter _promoteInterestingPersons:updateBlock:]_block_invoke.462
++ ___72+[PNAssetCurationUtilities _safeAssetsForWidgetDisplay:requireAnalysis:]_block_invoke
++ ___76-[PNPersonPromoter interestingPersonsFromPersons:detectionType:updateBlock:]_block_invoke.432
++ ___76-[PNPersonPromoter interestingPersonsFromPersons:detectionType:updateBlock:]_block_invoke.433
++ ___76-[PNPersonPromoter interestingPersonsFromPersons:detectionType:updateBlock:]_block_invoke.434
++ ___78-[PNPersonClusterManager animalprintBasedDistanceBetweenPetFaces:andPetFaces:]_block_invoke.394
++ ___78-[PNPersonClusterManager animalprintBasedDistanceBetweenPetFaces:andPetFaces:]_block_invoke.395
++ ___89-[PNPersonPromoter _interestingPersonsFromVerifiedPersons:unverifiedPersons:updateBlock:]_block_invoke.452
++ ___95+[PNPersonPromoterEvaluation peopleClusteringWithParameter:photoLibrary:directoryURL:delegate:]_block_invoke.264
++ ___Block_byref_object_copy_.1776
++ ___Block_byref_object_copy_.2315
++ ___Block_byref_object_copy_.3124
++ ___Block_byref_object_copy_.3935
++ ___Block_byref_object_copy_.4459
++ ___Block_byref_object_copy_.627
++ ___Block_byref_object_dispose_.1777
++ ___Block_byref_object_dispose_.2316
++ ___Block_byref_object_dispose_.3125
++ ___Block_byref_object_dispose_.3936
++ ___Block_byref_object_dispose_.4460
++ ___Block_byref_object_dispose_.628
++ ___block_descriptor_57_e8_32s40s_e24_v32?0"PHAsset"8Q16^B24ls32l8s40l8
++ ___block_descriptor_72_e8_32s40r48r_e35_v24?0^{CGImage=}8"NSDictionary"16lr40l8s32l8r48l8
++ ___block_literal_global.105
++ ___block_literal_global.1227
++ ___block_literal_global.1395
++ ___block_literal_global.1430
++ ___block_literal_global.1547
++ ___block_literal_global.1826
++ ___block_literal_global.2045
++ ___block_literal_global.2518
++ ___block_literal_global.266
++ ___block_literal_global.268
++ ___block_literal_global.273
++ ___block_literal_global.284
++ ___block_literal_global.290
++ ___block_literal_global.3127
++ ___block_literal_global.321
++ ___block_literal_global.323
++ ___block_literal_global.325
++ ___block_literal_global.330
++ ___block_literal_global.3624
++ ___block_literal_global.377
++ ___block_literal_global.3777
++ ___block_literal_global.392
++ ___block_literal_global.398
++ ___block_literal_global.4056
++ ___block_literal_global.421
++ ___block_literal_global.445
++ ___block_literal_global.451
++ ___block_literal_global.454
++ ___block_literal_global.493
++ ___block_literal_global.496
++ ___block_literal_global.669
++ ___exp10
++ ___swift__destructor
++ ___swift__destructor.122
++ ___swift__destructor.125
++ ___swift__destructor.141
++ ___swift__destructor.146
++ ___swift__destructor.151
++ ___swift__destructor.169
++ ___swift__destructor.175
++ ___swift__destructor.176
++ ___swift__destructor.184
++ ___swift__destructor.19
++ ___swift__destructor.191
++ ___swift__destructor.199
++ ___swift__destructor.199Tm
++ ___swift__destructor.2
++ ___swift__destructor.20
++ ___swift__destructor.21
++ ___swift__destructor.23
++ ___swift__destructor.233
++ ___swift__destructor.236
++ ___swift__destructor.24
++ ___swift__destructor.251
++ ___swift__destructor.260
++ ___swift__destructor.280
++ ___swift__destructor.282
++ ___swift__destructor.283
++ ___swift__destructor.288
++ ___swift__destructor.32
++ ___swift__destructor.370
++ ___swift__destructor.38
++ ___swift__destructor.380
++ ___swift__destructor.39
++ ___swift__destructor.4
++ ___swift__destructor.48
++ ___swift__destructor.49
++ ___swift__destructor.5
++ ___swift__destructor.51
++ ___swift__destructor.525
++ ___swift__destructor.6
++ ___swift__destructor.66
++ ___swift__destructor.67
++ ___swift__destructor.8
++ ___swift__destructor.82
++ ___swift__destructor.85
++ ___swift__destructor.86
++ ___swift__destructor.89
++ ___swift__destructor.97
++ ___swift_assign_boxed_opaque_existential_0
++ ___swift_async_cont_functlets
++ ___swift_closure_destructor
++ ___swift_closure_destructor.10
++ ___swift_closure_destructor.100
++ ___swift_closure_destructor.1001
++ ___swift_closure_destructor.1005
++ ___swift_closure_destructor.1009
++ ___swift_closure_destructor.101
++ ___swift_closure_destructor.1013
++ ___swift_closure_destructor.1017
++ ___swift_closure_destructor.102
++ ___swift_closure_destructor.1021
++ ___swift_closure_destructor.1025
++ ___swift_closure_destructor.1029
++ ___swift_closure_destructor.102Tm
++ ___swift_closure_destructor.103
++ ___swift_closure_destructor.1033
++ ___swift_closure_destructor.1037
++ ___swift_closure_destructor.104
++ ___swift_closure_destructor.1041
++ ___swift_closure_destructor.1045
++ ___swift_closure_destructor.105
++ ___swift_closure_destructor.1050
++ ___swift_closure_destructor.1054
++ ___swift_closure_destructor.1058
++ ___swift_closure_destructor.106
++ ___swift_closure_destructor.1062
++ ___swift_closure_destructor.1066
++ ___swift_closure_destructor.107
++ ___swift_closure_destructor.1070
++ ___swift_closure_destructor.1074
++ ___swift_closure_destructor.1078
++ ___swift_closure_destructor.108
++ ___swift_closure_destructor.1082
++ ___swift_closure_destructor.109
++ ___swift_closure_destructor.1094
++ ___swift_closure_destructor.1098
++ ___swift_closure_destructor.109Tm
++ ___swift_closure_destructor.10Tm
++ ___swift_closure_destructor.11
++ ___swift_closure_destructor.110
++ ___swift_closure_destructor.1102
++ ___swift_closure_destructor.1106
++ ___swift_closure_destructor.111
++ ___swift_closure_destructor.1110
++ ___swift_closure_destructor.1114
++ ___swift_closure_destructor.112
++ ___swift_closure_destructor.1121
++ ___swift_closure_destructor.1125
++ ___swift_closure_destructor.1129
++ ___swift_closure_destructor.113
++ ___swift_closure_destructor.1133
++ ___swift_closure_destructor.1137
++ ___swift_closure_destructor.114
++ ___swift_closure_destructor.1141
++ ___swift_closure_destructor.1145
++ ___swift_closure_destructor.1149
++ ___swift_closure_destructor.115
++ ___swift_closure_destructor.1153
++ ___swift_closure_destructor.1157
++ ___swift_closure_destructor.116
++ ___swift_closure_destructor.1161
++ ___swift_closure_destructor.1165
++ ___swift_closure_destructor.1169
++ ___swift_closure_destructor.117
++ ___swift_closure_destructor.1173
++ ___swift_closure_destructor.1177
++ ___swift_closure_destructor.118
++ ___swift_closure_destructor.1181
++ ___swift_closure_destructor.1185
++ ___swift_closure_destructor.1189
++ ___swift_closure_destructor.119
++ ___swift_closure_destructor.1194
++ ___swift_closure_destructor.1198
++ ___swift_closure_destructor.11Tm
++ ___swift_closure_destructor.12
++ ___swift_closure_destructor.120
++ ___swift_closure_destructor.1202
++ ___swift_closure_destructor.1205
++ ___swift_closure_destructor.1209
++ ___swift_closure_destructor.121
++ ___swift_closure_destructor.1213
++ ___swift_closure_destructor.1217
++ ___swift_closure_destructor.122
++ ___swift_closure_destructor.1221
++ ___swift_closure_destructor.1225
++ ___swift_closure_destructor.1229
++ ___swift_closure_destructor.123
++ ___swift_closure_destructor.1236
++ ___swift_closure_destructor.124
++ ___swift_closure_destructor.1240
++ ___swift_closure_destructor.1244
++ ___swift_closure_destructor.1248
++ ___swift_closure_destructor.125
++ ___swift_closure_destructor.1252
++ ___swift_closure_destructor.1256
++ ___swift_closure_destructor.126
++ ___swift_closure_destructor.1264
++ ___swift_closure_destructor.1268
++ ___swift_closure_destructor.126Tm
++ ___swift_closure_destructor.127
++ ___swift_closure_destructor.1272
++ ___swift_closure_destructor.1276
++ ___swift_closure_destructor.128
++ ___swift_closure_destructor.1280
++ ___swift_closure_destructor.1284
++ ___swift_closure_destructor.1288
++ ___swift_closure_destructor.129
++ ___swift_closure_destructor.1292
++ ___swift_closure_destructor.1296
++ ___swift_closure_destructor.12Tm
++ ___swift_closure_destructor.13
++ ___swift_closure_destructor.130
++ ___swift_closure_destructor.1300
++ ___swift_closure_destructor.1304
++ ___swift_closure_destructor.1308
++ ___swift_closure_destructor.131
++ ___swift_closure_destructor.1312
++ ___swift_closure_destructor.1316
++ ___swift_closure_destructor.132
++ ___swift_closure_destructor.1320
++ ___swift_closure_destructor.1324
++ ___swift_closure_destructor.1328
++ ___swift_closure_destructor.133
++ ___swift_closure_destructor.1332
++ ___swift_closure_destructor.1337
++ ___swift_closure_destructor.134
++ ___swift_closure_destructor.1341
++ ___swift_closure_destructor.1345
++ ___swift_closure_destructor.1349
++ ___swift_closure_destructor.135
++ ___swift_closure_destructor.1353
++ ___swift_closure_destructor.1357
++ ___swift_closure_destructor.135Tm
++ ___swift_closure_destructor.136
++ ___swift_closure_destructor.1361
++ ___swift_closure_destructor.1365
++ ___swift_closure_destructor.1369
++ ___swift_closure_destructor.136Tm
++ ___swift_closure_destructor.137
++ ___swift_closure_destructor.1373
++ ___swift_closure_destructor.1377
++ ___swift_closure_destructor.138
++ ___swift_closure_destructor.1381
++ ___swift_closure_destructor.1385
++ ___swift_closure_destructor.1389
++ ___swift_closure_destructor.139
++ ___swift_closure_destructor.1393
++ ___swift_closure_destructor.139Tm
++ ___swift_closure_destructor.13Tm
++ ___swift_closure_destructor.14
++ ___swift_closure_destructor.140
++ ___swift_closure_destructor.1401
++ ___swift_closure_destructor.1405
++ ___swift_closure_destructor.1409
++ ___swift_closure_destructor.141
++ ___swift_closure_destructor.1413
++ ___swift_closure_destructor.1417
++ ___swift_closure_destructor.142
++ ___swift_closure_destructor.1421
++ ___swift_closure_destructor.1425
++ ___swift_closure_destructor.1429
++ ___swift_closure_destructor.143
++ ___swift_closure_destructor.1433
++ ___swift_closure_destructor.1437
++ ___swift_closure_destructor.144
++ ___swift_closure_destructor.1441
++ ___swift_closure_destructor.1445
++ ___swift_closure_destructor.1449
++ ___swift_closure_destructor.145
++ ___swift_closure_destructor.1453
++ ___swift_closure_destructor.1457
++ ___swift_closure_destructor.146
++ ___swift_closure_destructor.1461
++ ___swift_closure_destructor.1465
++ ___swift_closure_destructor.1469
++ ___swift_closure_destructor.1474
++ ___swift_closure_destructor.1478
++ ___swift_closure_destructor.148
++ ___swift_closure_destructor.1482
++ ___swift_closure_destructor.1486
++ ___swift_closure_destructor.149
++ ___swift_closure_destructor.1490
++ ___swift_closure_destructor.1494
++ ___swift_closure_destructor.1498
++ ___swift_closure_destructor.14Tm
++ ___swift_closure_destructor.15
++ ___swift_closure_destructor.150
++ ___swift_closure_destructor.1502
++ ___swift_closure_destructor.1506
++ ___swift_closure_destructor.151
++ ___swift_closure_destructor.1510
++ ___swift_closure_destructor.1514
++ ___swift_closure_destructor.1518
++ ___swift_closure_destructor.152
++ ___swift_closure_destructor.1522
++ ___swift_closure_destructor.1526
++ ___swift_closure_destructor.153
++ ___swift_closure_destructor.1530
++ ___swift_closure_destructor.1537
++ ___swift_closure_destructor.154
++ ___swift_closure_destructor.1541
++ ___swift_closure_destructor.1545
++ ___swift_closure_destructor.1549
++ ___swift_closure_destructor.155
++ ___swift_closure_destructor.1553
++ ___swift_closure_destructor.1557
++ ___swift_closure_destructor.156
++ ___swift_closure_destructor.1561
++ ___swift_closure_destructor.1565
++ ___swift_closure_destructor.1569
++ ___swift_closure_destructor.157
++ ___swift_closure_destructor.1573
++ ___swift_closure_destructor.1577
++ ___swift_closure_destructor.158
++ ___swift_closure_destructor.1581
++ ___swift_closure_destructor.1585
++ ___swift_closure_destructor.1589
++ ___swift_closure_destructor.159
++ ___swift_closure_destructor.1593
++ ___swift_closure_destructor.1597
++ ___swift_closure_destructor.16
++ ___swift_closure_destructor.160
++ ___swift_closure_destructor.1601
++ ___swift_closure_destructor.1605
++ ___swift_closure_destructor.161
++ ___swift_closure_destructor.1610
++ ___swift_closure_destructor.1614
++ ___swift_closure_destructor.1618
++ ___swift_closure_destructor.162
++ ___swift_closure_destructor.1621
++ ___swift_closure_destructor.1625
++ ___swift_closure_destructor.1629
++ ___swift_closure_destructor.163
++ ___swift_closure_destructor.1633
++ ___swift_closure_destructor.1637
++ ___swift_closure_destructor.163Tm
++ ___swift_closure_destructor.164
++ ___swift_closure_destructor.1641
++ ___swift_closure_destructor.1645
++ ___swift_closure_destructor.165
++ ___swift_closure_destructor.1652
++ ___swift_closure_destructor.1656
++ ___swift_closure_destructor.166
++ ___swift_closure_destructor.1660
++ ___swift_closure_destructor.1664
++ ___swift_closure_destructor.1668
++ ___swift_closure_destructor.167
++ ___swift_closure_destructor.1672
++ ___swift_closure_destructor.168
++ ___swift_closure_destructor.1680
++ ___swift_closure_destructor.1684
++ ___swift_closure_destructor.1688
++ ___swift_closure_destructor.169
++ ___swift_closure_destructor.1692
++ ___swift_closure_destructor.1696
++ ___swift_closure_destructor.17
++ ___swift_closure_destructor.170
++ ___swift_closure_destructor.1700
++ ___swift_closure_destructor.1704
++ ___swift_closure_destructor.1708
++ ___swift_closure_destructor.171
++ ___swift_closure_destructor.1712
++ ___swift_closure_destructor.1716
++ ___swift_closure_destructor.172
++ ___swift_closure_destructor.1720
++ ___swift_closure_destructor.1724
++ ___swift_closure_destructor.1728
++ ___swift_closure_destructor.173
++ ___swift_closure_destructor.1732
++ ___swift_closure_destructor.1736
++ ___swift_closure_destructor.174
++ ___swift_closure_destructor.1740
++ ___swift_closure_destructor.1744
++ ___swift_closure_destructor.1748
++ ___swift_closure_destructor.175
++ ___swift_closure_destructor.1753
++ ___swift_closure_destructor.1757
++ ___swift_closure_destructor.176
++ ___swift_closure_destructor.1761
++ ___swift_closure_destructor.1765
++ ___swift_closure_destructor.1769
++ ___swift_closure_destructor.177
++ ___swift_closure_destructor.1773
++ ___swift_closure_destructor.1777
++ ___swift_closure_destructor.178
++ ___swift_closure_destructor.1781
++ ___swift_closure_destructor.1785
++ ___swift_closure_destructor.179
++ ___swift_closure_destructor.1797
++ ___swift_closure_destructor.179Tm
++ ___swift_closure_destructor.17Tm
++ ___swift_closure_destructor.18
++ ___swift_closure_destructor.180
++ ___swift_closure_destructor.1801
++ ___swift_closure_destructor.1805
++ ___swift_closure_destructor.1809
++ ___swift_closure_destructor.181
++ ___swift_closure_destructor.1813
++ ___swift_closure_destructor.1817
++ ___swift_closure_destructor.182
++ ___swift_closure_destructor.1822
++ ___swift_closure_destructor.1826
++ ___swift_closure_destructor.183
++ ___swift_closure_destructor.1830
++ ___swift_closure_destructor.1834
++ ___swift_closure_destructor.1838
++ ___swift_closure_destructor.184
++ ___swift_closure_destructor.1842
++ ___swift_closure_destructor.1846
++ ___swift_closure_destructor.185
++ ___swift_closure_destructor.1850
++ ___swift_closure_destructor.1854
++ ___swift_closure_destructor.1858
++ ___swift_closure_destructor.186
++ ___swift_closure_destructor.1862
++ ___swift_closure_destructor.1866
++ ___swift_closure_destructor.187
++ ___swift_closure_destructor.1870
++ ___swift_closure_destructor.1874
++ ___swift_closure_destructor.1878
++ ___swift_closure_destructor.188
++ ___swift_closure_destructor.1882
++ ___swift_closure_destructor.1886
++ ___swift_closure_destructor.189
++ ___swift_closure_destructor.1890
++ ___swift_closure_destructor.1895
++ ___swift_closure_destructor.1899
++ ___swift_closure_destructor.19
++ ___swift_closure_destructor.190
++ ___swift_closure_destructor.1903
++ ___swift_closure_destructor.1907
++ ___swift_closure_destructor.191
++ ___swift_closure_destructor.1911
++ ___swift_closure_destructor.1915
++ ___swift_closure_destructor.1919
++ ___swift_closure_destructor.192
++ ___swift_closure_destructor.1923
++ ___swift_closure_destructor.1927
++ ___swift_closure_destructor.193
++ ___swift_closure_destructor.1931
++ ___swift_closure_destructor.1935
++ ___swift_closure_destructor.1939
++ ___swift_closure_destructor.194
++ ___swift_closure_destructor.1943
++ ___swift_closure_destructor.1947
++ ___swift_closure_destructor.195
++ ___swift_closure_destructor.1951
++ ___swift_closure_destructor.1956
++ ___swift_closure_destructor.196
++ ___swift_closure_destructor.1960
++ ___swift_closure_destructor.1964
++ ___swift_closure_destructor.1968
++ ___swift_closure_destructor.197
++ ___swift_closure_destructor.1972
++ ___swift_closure_destructor.1976
++ ___swift_closure_destructor.198
++ ___swift_closure_destructor.1980
++ ___swift_closure_destructor.1984
++ ___swift_closure_destructor.1988
++ ___swift_closure_destructor.199
++ ___swift_closure_destructor.1992
++ ___swift_closure_destructor.1996
++ ___swift_closure_destructor.2
++ ___swift_closure_destructor.20
++ ___swift_closure_destructor.200
++ ___swift_closure_destructor.2000
++ ___swift_closure_destructor.2004
++ ___swift_closure_destructor.2008
++ ___swift_closure_destructor.201
++ ___swift_closure_destructor.2012
++ ___swift_closure_destructor.2016
++ ___swift_closure_destructor.202
++ ___swift_closure_destructor.2020
++ ___swift_closure_destructor.2024
++ ___swift_closure_destructor.2029
++ ___swift_closure_destructor.203
++ ___swift_closure_destructor.2033
++ ___swift_closure_destructor.2037
++ ___swift_closure_destructor.204
++ ___swift_closure_destructor.2041
++ ___swift_closure_destructor.2045
++ ___swift_closure_destructor.2049
++ ___swift_closure_destructor.205
++ ___swift_closure_destructor.2053
++ ___swift_closure_destructor.2057
++ ___swift_closure_destructor.206
++ ___swift_closure_destructor.2061
++ ___swift_closure_destructor.2065
++ ___swift_closure_destructor.2069
++ ___swift_closure_destructor.207
++ ___swift_closure_destructor.2073
++ ___swift_closure_destructor.2077
++ ___swift_closure_destructor.208
++ ___swift_closure_destructor.2081
++ ___swift_closure_destructor.2085
++ ___swift_closure_destructor.209
++ ___swift_closure_destructor.2090
++ ___swift_closure_destructor.2094
++ ___swift_closure_destructor.2098
++ ___swift_closure_destructor.21
++ ___swift_closure_destructor.210
++ ___swift_closure_destructor.2102
++ ___swift_closure_destructor.2106
++ ___swift_closure_destructor.211
++ ___swift_closure_destructor.2110
++ ___swift_closure_destructor.2114
++ ___swift_closure_destructor.2118
++ ___swift_closure_destructor.212
++ ___swift_closure_destructor.2122
++ ___swift_closure_destructor.2126
++ ___swift_closure_destructor.213
++ ___swift_closure_destructor.2130
++ ___swift_closure_destructor.2134
++ ___swift_closure_destructor.2138
++ ___swift_closure_destructor.214
++ ___swift_closure_destructor.2142
++ ___swift_closure_destructor.2146
++ ___swift_closure_destructor.215
++ ___swift_closure_destructor.2150
++ ___swift_closure_destructor.2154
++ ___swift_closure_destructor.2158
++ ___swift_closure_destructor.216
++ ___swift_closure_destructor.2163
++ ___swift_closure_destructor.2167
++ ___swift_closure_destructor.217
++ ___swift_closure_destructor.2171
++ ___swift_closure_destructor.2175
++ ___swift_closure_destructor.2179
++ ___swift_closure_destructor.218
++ ___swift_closure_destructor.2183
++ ___swift_closure_destructor.2187
++ ___swift_closure_destructor.219
++ ___swift_closure_destructor.2191
++ ___swift_closure_destructor.2195
++ ___swift_closure_destructor.2199
++ ___swift_closure_destructor.21Tm
++ ___swift_closure_destructor.22
++ ___swift_closure_destructor.220
++ ___swift_closure_destructor.2203
++ ___swift_closure_destructor.2207
++ ___swift_closure_destructor.221
++ ___swift_closure_destructor.2211
++ ___swift_closure_destructor.2215
++ ___swift_closure_destructor.2219
++ ___swift_closure_destructor.222
++ ___swift_closure_destructor.2224
++ ___swift_closure_destructor.2228
++ ___swift_closure_destructor.223
++ ___swift_closure_destructor.2232
++ ___swift_closure_destructor.2236
++ ___swift_closure_destructor.224
++ ___swift_closure_destructor.2240
++ ___swift_closure_destructor.2244
++ ___swift_closure_destructor.2248
++ ___swift_closure_destructor.225
++ ___swift_closure_destructor.2252
++ ___swift_closure_destructor.2256
++ ___swift_closure_destructor.226
++ ___swift_closure_destructor.2260
++ ___swift_closure_destructor.2264
++ ___swift_closure_destructor.2268
++ ___swift_closure_destructor.227
++ ___swift_closure_destructor.2273
++ ___swift_closure_destructor.2277
++ ___swift_closure_destructor.228
++ ___swift_closure_destructor.2281
++ ___swift_closure_destructor.2285
++ ___swift_closure_destructor.2289
++ ___swift_closure_destructor.229
++ ___swift_closure_destructor.2293
++ ___swift_closure_destructor.2298
++ ___swift_closure_destructor.23
++ ___swift_closure_destructor.230
++ ___swift_closure_destructor.2302
++ ___swift_closure_destructor.2306
++ ___swift_closure_destructor.231
++ ___swift_closure_destructor.2310
++ ___swift_closure_destructor.2314
++ ___swift_closure_destructor.2318
++ ___swift_closure_destructor.232
++ ___swift_closure_destructor.2322
++ ___swift_closure_destructor.2326
++ ___swift_closure_destructor.233
++ ___swift_closure_destructor.2330
++ ___swift_closure_destructor.234
++ ___swift_closure_destructor.2340
++ ___swift_closure_destructor.2344
++ ___swift_closure_destructor.2348
++ ___swift_closure_destructor.234Tm
++ ___swift_closure_destructor.235
++ ___swift_closure_destructor.2352
++ ___swift_closure_destructor.2356
++ ___swift_closure_destructor.236
++ ___swift_closure_destructor.2360
++ ___swift_closure_destructor.2365
++ ___swift_closure_destructor.2369
++ ___swift_closure_destructor.2373
++ ___swift_closure_destructor.2377
++ ___swift_closure_destructor.238
++ ___swift_closure_destructor.2381
++ ___swift_closure_destructor.2385
++ ___swift_closure_destructor.2389
++ ___swift_closure_destructor.239
++ ___swift_closure_destructor.2393
++ ___swift_closure_destructor.2397
++ ___swift_closure_destructor.24
++ ___swift_closure_destructor.240
++ ___swift_closure_destructor.2401
++ ___swift_closure_destructor.2405
++ ___swift_closure_destructor.2409
++ ___swift_closure_destructor.241
++ ___swift_closure_destructor.2414
++ ___swift_closure_destructor.2418
++ ___swift_closure_destructor.242
++ ___swift_closure_destructor.2422
++ ___swift_closure_destructor.2426
++ ___swift_closure_destructor.243
++ ___swift_closure_destructor.2430
++ ___swift_closure_destructor.2434
++ ___swift_closure_destructor.2439
++ ___swift_closure_destructor.244
++ ___swift_closure_destructor.2443
++ ___swift_closure_destructor.2447
++ ___swift_closure_destructor.245
++ ___swift_closure_destructor.2451
++ ___swift_closure_destructor.2455
++ ___swift_closure_destructor.2459
++ ___swift_closure_destructor.246
++ ___swift_closure_destructor.2463
++ ___swift_closure_destructor.2467
++ ___swift_closure_destructor.247
++ ___swift_closure_destructor.2471
++ ___swift_closure_destructor.2479
++ ___swift_closure_destructor.248
++ ___swift_closure_destructor.2483
++ ___swift_closure_destructor.2487
++ ___swift_closure_destructor.249
++ ___swift_closure_destructor.2491
++ ___swift_closure_destructor.2495
++ ___swift_closure_destructor.2499
++ ___swift_closure_destructor.24Tm
++ ___swift_closure_destructor.25
++ ___swift_closure_destructor.250
++ ___swift_closure_destructor.2504
++ ___swift_closure_destructor.2508
++ ___swift_closure_destructor.251
++ ___swift_closure_destructor.2512
++ ___swift_closure_destructor.2516
++ ___swift_closure_destructor.252
++ ___swift_closure_destructor.2520
++ ___swift_closure_destructor.2524
++ ___swift_closure_destructor.2528
++ ___swift_closure_destructor.253
++ ___swift_closure_destructor.2532
++ ___swift_closure_destructor.2536
++ ___swift_closure_destructor.254
++ ___swift_closure_destructor.2540
++ ___swift_closure_destructor.2544
++ ___swift_closure_destructor.2548
++ ___swift_closure_destructor.255
++ ___swift_closure_destructor.2553
++ ___swift_closure_destructor.2557
++ ___swift_closure_destructor.256
++ ___swift_closure_destructor.2561
++ ___swift_closure_destructor.2565
++ ___swift_closure_destructor.2569
++ ___swift_closure_destructor.257
++ ___swift_closure_destructor.2573
++ ___swift_closure_destructor.2578
++ ___swift_closure_destructor.258
++ ___swift_closure_destructor.2582
++ ___swift_closure_destructor.2586
++ ___swift_closure_destructor.259
++ ___swift_closure_destructor.2590
++ ___swift_closure_destructor.2594
++ ___swift_closure_destructor.2598
++ ___swift_closure_destructor.26
++ ___swift_closure_destructor.260
++ ___swift_closure_destructor.2602
++ ___swift_closure_destructor.2606
++ ___swift_closure_destructor.261
++ ___swift_closure_destructor.2610
++ ___swift_closure_destructor.2618
++ ___swift_closure_destructor.262
++ ___swift_closure_destructor.2622
++ ___swift_closure_destructor.2626
++ ___swift_closure_destructor.263
++ ___swift_closure_destructor.2630
++ ___swift_closure_destructor.2634
++ ___swift_closure_destructor.2638
++ ___swift_closure_destructor.263Tm
++ ___swift_closure_destructor.264
++ ___swift_closure_destructor.2643
++ ___swift_closure_destructor.2647
++ ___swift_closure_destructor.265
++ ___swift_closure_destructor.2651
++ ___swift_closure_destructor.2655
++ ___swift_closure_destructor.2659
++ ___swift_closure_destructor.266
++ ___swift_closure_destructor.2663
++ ___swift_closure_destructor.2667
++ ___swift_closure_destructor.267
++ ___swift_closure_destructor.2671
++ ___swift_closure_destructor.2675
++ ___swift_closure_destructor.2679
++ ___swift_closure_destructor.268
++ ___swift_closure_destructor.2683
++ ___swift_closure_destructor.2687
++ ___swift_closure_destructor.269
++ ___swift_closure_destructor.2692
++ ___swift_closure_destructor.2696
++ ___swift_closure_destructor.27
++ ___swift_closure_destructor.270
++ ___swift_closure_destructor.2700
++ ___swift_closure_destructor.2704
++ ___swift_closure_destructor.2708
++ ___swift_closure_destructor.271
++ ___swift_closure_destructor.2712
++ ___swift_closure_destructor.2717
++ ___swift_closure_destructor.272
++ ___swift_closure_destructor.2721
++ ___swift_closure_destructor.2725
++ ___swift_closure_destructor.2729
++ ___swift_closure_destructor.273
++ ___swift_closure_destructor.2733
++ ___swift_closure_destructor.2737
++ ___swift_closure_destructor.274
++ ___swift_closure_destructor.2741
++ ___swift_closure_destructor.2745
++ ___swift_closure_destructor.2749
++ ___swift_closure_destructor.275
++ ___swift_closure_destructor.2757
++ ___swift_closure_destructor.276
++ ___swift_closure_destructor.2761
++ ___swift_closure_destructor.2765
++ ___swift_closure_destructor.2769
++ ___swift_closure_destructor.277
++ ___swift_closure_destructor.2773
++ ___swift_closure_destructor.2777
++ ___swift_closure_destructor.278
++ ___swift_closure_destructor.2782
++ ___swift_closure_destructor.2786
++ ___swift_closure_destructor.279
++ ___swift_closure_destructor.2790
++ ___swift_closure_destructor.2794
++ ___swift_closure_destructor.2798
++ ___swift_closure_destructor.27Tm
++ ___swift_closure_destructor.28
++ ___swift_closure_destructor.280
++ ___swift_closure_destructor.2802
++ ___swift_closure_destructor.2806
++ ___swift_closure_destructor.281
++ ___swift_closure_destructor.2810
++ ___swift_closure_destructor.2814
++ ___swift_closure_destructor.2818
++ ___swift_closure_destructor.282
++ ___swift_closure_destructor.2822
++ ___swift_closure_destructor.2826
++ ___swift_closure_destructor.283
++ ___swift_closure_destructor.2831
++ ___swift_closure_destructor.2835
++ ___swift_closure_destructor.2839
++ ___swift_closure_destructor.284
++ ___swift_closure_destructor.2843
++ ___swift_closure_destructor.2847
++ ___swift_closure_destructor.285
++ ___swift_closure_destructor.2851
++ ___swift_closure_destructor.2856
++ ___swift_closure_destructor.286
++ ___swift_closure_destructor.2860
++ ___swift_closure_destructor.2864
++ ___swift_closure_destructor.2868
++ ___swift_closure_destructor.287
++ ___swift_closure_destructor.2872
++ ___swift_closure_destructor.2876
++ ___swift_closure_destructor.288
++ ___swift_closure_destructor.2880
++ ___swift_closure_destructor.2884
++ ___swift_closure_destructor.2888
++ ___swift_closure_destructor.2896
++ ___swift_closure_destructor.29
++ ___swift_closure_destructor.290
++ ___swift_closure_destructor.2900
++ ___swift_closure_destructor.2904
++ ___swift_closure_destructor.2908
++ ___swift_closure_destructor.291
++ ___swift_closure_destructor.2912
++ ___swift_closure_destructor.2916
++ ___swift_closure_destructor.292
++ ___swift_closure_destructor.2923
++ ___swift_closure_destructor.2927
++ ___swift_closure_destructor.293
++ ___swift_closure_destructor.2931
++ ___swift_closure_destructor.2935
++ ___swift_closure_destructor.2939
++ ___swift_closure_destructor.294
++ ___swift_closure_destructor.2943
++ ___swift_closure_destructor.2947
++ ___swift_closure_destructor.295
++ ___swift_closure_destructor.2951
++ ___swift_closure_destructor.2955
++ ___swift_closure_destructor.2959
++ ___swift_closure_destructor.296
++ ___swift_closure_destructor.2963
++ ___swift_closure_destructor.2967
++ ___swift_closure_destructor.2971
++ ___swift_closure_destructor.2975
++ ___swift_closure_destructor.2979
++ ___swift_closure_destructor.298
++ ___swift_closure_destructor.2983
++ ___swift_closure_destructor.2987
++ ___swift_closure_destructor.299
++ ___swift_closure_destructor.2991
++ ___swift_closure_destructor.2996
++ ___swift_closure_destructor.29Tm
++ ___swift_closure_destructor.3
++ ___swift_closure_destructor.30
++ ___swift_closure_destructor.300
++ ___swift_closure_destructor.3000
++ ___swift_closure_destructor.3004
++ ___swift_closure_destructor.3007
++ ___swift_closure_destructor.301
++ ___swift_closure_destructor.3011
++ ___swift_closure_destructor.3015
++ ___swift_closure_destructor.3019
++ ___swift_closure_destructor.302
++ ___swift_closure_destructor.3023
++ ___swift_closure_destructor.3027
++ ___swift_closure_destructor.303
++ ___swift_closure_destructor.3031
++ ___swift_closure_destructor.3038
++ ___swift_closure_destructor.304
++ ___swift_closure_destructor.3042
++ ___swift_closure_destructor.3046
++ ___swift_closure_destructor.305
++ ___swift_closure_destructor.3050
++ ___swift_closure_destructor.3054
++ ___swift_closure_destructor.3058
++ ___swift_closure_destructor.306
++ ___swift_closure_destructor.3065
++ ___swift_closure_destructor.3069
++ ___swift_closure_destructor.307
++ ___swift_closure_destructor.3073
++ ___swift_closure_destructor.3077
++ ___swift_closure_destructor.308
++ ___swift_closure_destructor.3081
++ ___swift_closure_destructor.3085
++ ___swift_closure_destructor.3089
++ ___swift_closure_destructor.3093
++ ___swift_closure_destructor.3097
++ ___swift_closure_destructor.31
++ ___swift_closure_destructor.310
++ ___swift_closure_destructor.3101
++ ___swift_closure_destructor.3105
++ ___swift_closure_destructor.3109
++ ___swift_closure_destructor.311
++ ___swift_closure_destructor.3113
++ ___swift_closure_destructor.3117
++ ___swift_closure_destructor.312
++ ___swift_closure_destructor.3121
++ ___swift_closure_destructor.3125
++ ___swift_closure_destructor.3129
++ ___swift_closure_destructor.313
++ ___swift_closure_destructor.3133
++ ___swift_closure_destructor.3138
++ ___swift_closure_destructor.314
++ ___swift_closure_destructor.3142
++ ___swift_closure_destructor.3146
++ ___swift_closure_destructor.3149
++ ___swift_closure_destructor.315
++ ___swift_closure_destructor.3153
++ ___swift_closure_destructor.3157
++ ___swift_closure_destructor.316
++ ___swift_closure_destructor.3161
++ ___swift_closure_destructor.3165
++ ___swift_closure_destructor.3169
++ ___swift_closure_destructor.317
++ ___swift_closure_destructor.3173
++ ___swift_closure_destructor.318
++ ___swift_closure_destructor.3180
++ ___swift_closure_destructor.3184
++ ___swift_closure_destructor.3188
++ ___swift_closure_destructor.319
++ ___swift_closure_destructor.3192
++ ___swift_closure_destructor.3196
++ ___swift_closure_destructor.32
++ ___swift_closure_destructor.320
++ ___swift_closure_destructor.3200
++ ___swift_closure_destructor.3208
++ ___swift_closure_destructor.321
++ ___swift_closure_destructor.3212
++ ___swift_closure_destructor.3216
++ ___swift_closure_destructor.322
++ ___swift_closure_destructor.3220
++ ___swift_closure_destructor.3224
++ ___swift_closure_destructor.3228
++ ___swift_closure_destructor.323
++ ___swift_closure_destructor.3232
++ ___swift_closure_destructor.3236
++ ___swift_closure_destructor.324
++ ___swift_closure_destructor.3240
++ ___swift_closure_destructor.3244
++ ___swift_closure_destructor.3248
++ ___swift_closure_destructor.325
++ ___swift_closure_destructor.3252
++ ___swift_closure_destructor.3256
++ ___swift_closure_destructor.326
++ ___swift_closure_destructor.3260
++ ___swift_closure_destructor.3264
++ ___swift_closure_destructor.3268
++ ___swift_closure_destructor.327
++ ___swift_closure_destructor.3272
++ ___swift_closure_destructor.3276
++ ___swift_closure_destructor.328
++ ___swift_closure_destructor.3281
++ ___swift_closure_destructor.3285
++ ___swift_closure_destructor.3289
++ ___swift_closure_destructor.329
++ ___swift_closure_destructor.3293
++ ___swift_closure_destructor.3297
++ ___swift_closure_destructor.33
++ ___swift_closure_destructor.330
++ ___swift_closure_destructor.3301
++ ___swift_closure_destructor.3305
++ ___swift_closure_destructor.3309
++ ___swift_closure_destructor.331
++ ___swift_closure_destructor.3313
++ ___swift_closure_destructor.3317
++ ___swift_closure_destructor.332
++ ___swift_closure_destructor.3321
++ ___swift_closure_destructor.3325
++ ___swift_closure_destructor.3329
++ ___swift_closure_destructor.333
++ ___swift_closure_destructor.3333
++ ___swift_closure_destructor.3337
++ ___swift_closure_destructor.334
++ ___swift_closure_destructor.3345
++ ___swift_closure_destructor.3349
++ ___swift_closure_destructor.3353
++ ___swift_closure_destructor.3357
++ ___swift_closure_destructor.336
++ ___swift_closure_destructor.3361
++ ___swift_closure_destructor.3365
++ ___swift_closure_destructor.3369
++ ___swift_closure_destructor.337
++ ___swift_closure_destructor.3373
++ ___swift_closure_destructor.3377
++ ___swift_closure_destructor.338
++ ___swift_closure_destructor.3381
++ ___swift_closure_destructor.3385
++ ___swift_closure_destructor.3389
++ ___swift_closure_destructor.3393
++ ___swift_closure_destructor.3397
++ ___swift_closure_destructor.34
++ ___swift_closure_destructor.340
++ ___swift_closure_destructor.3401
++ ___swift_closure_destructor.3405
++ ___swift_closure_destructor.3409
++ ___swift_closure_destructor.341
++ ___swift_closure_destructor.3413
++ ___swift_closure_destructor.3418
++ ___swift_closure_destructor.342
++ ___swift_closure_destructor.3422
++ ___swift_closure_destructor.3426
++ ___swift_closure_destructor.3430
++ ___swift_closure_destructor.3434
++ ___swift_closure_destructor.3438
++ ___swift_closure_destructor.344
++ ___swift_closure_destructor.3442
++ ___swift_closure_destructor.3446
++ ___swift_closure_destructor.344Tm
++ ___swift_closure_destructor.345
++ ___swift_closure_destructor.3450
++ ___swift_closure_destructor.346
++ ___swift_closure_destructor.3465
++ ___swift_closure_destructor.3479
++ ___swift_closure_destructor.348
++ ___swift_closure_destructor.3486
++ ___swift_closure_destructor.349
++ ___swift_closure_destructor.3490
++ ___swift_closure_destructor.3494
++ ___swift_closure_destructor.3498
++ ___swift_closure_destructor.35
++ ___swift_closure_destructor.350
++ ___swift_closure_destructor.3502
++ ___swift_closure_destructor.3506
++ ___swift_closure_destructor.3514
++ ___swift_closure_destructor.3518
++ ___swift_closure_destructor.352
++ ___swift_closure_destructor.3522
++ ___swift_closure_destructor.3526
++ ___swift_closure_destructor.353
++ ___swift_closure_destructor.3530
++ ___swift_closure_destructor.3534
++ ___swift_closure_destructor.3538
++ ___swift_closure_destructor.354
++ ___swift_closure_destructor.3542
++ ___swift_closure_destructor.3546
++ ___swift_closure_destructor.355
++ ___swift_closure_destructor.3550
++ ___swift_closure_destructor.3554
++ ___swift_closure_destructor.3558
++ ___swift_closure_destructor.356
++ ___swift_closure_destructor.3562
++ ___swift_closure_destructor.3566
++ ___swift_closure_destructor.357
++ ___swift_closure_destructor.3570
++ ___swift_closure_destructor.3574
++ ___swift_closure_destructor.3578
++ ___swift_closure_destructor.358
++ ___swift_closure_destructor.3582
++ ___swift_closure_destructor.3587
++ ___swift_closure_destructor.3591
++ ___swift_closure_destructor.3595
++ ___swift_closure_destructor.3599
++ ___swift_closure_destructor.36
++ ___swift_closure_destructor.360
++ ___swift_closure_destructor.3603
++ ___swift_closure_destructor.3607
++ ___swift_closure_destructor.361
++ ___swift_closure_destructor.3611
++ ___swift_closure_destructor.3615
++ ___swift_closure_destructor.3619
++ ___swift_closure_destructor.362
++ ___swift_closure_destructor.3623
++ ___swift_closure_destructor.3627
++ ___swift_closure_destructor.363
++ ___swift_closure_destructor.3631
++ ___swift_closure_destructor.3635
++ ___swift_closure_destructor.3639
++ ___swift_closure_destructor.364
++ ___swift_closure_destructor.3643
++ ___swift_closure_destructor.3648
++ ___swift_closure_destructor.365
++ ___swift_closure_destructor.3652
++ ___swift_closure_destructor.3656
++ ___swift_closure_destructor.366
++ ___swift_closure_destructor.3660
++ ___swift_closure_destructor.3664
++ ___swift_closure_destructor.3668
++ ___swift_closure_destructor.367
++ ___swift_closure_destructor.3672
++ ___swift_closure_destructor.3676
++ ___swift_closure_destructor.368
++ ___swift_closure_destructor.3680
++ ___swift_closure_destructor.3684
++ ___swift_closure_destructor.3688
++ ___swift_closure_destructor.369
++ ___swift_closure_destructor.3692
++ ___swift_closure_destructor.3697
++ ___swift_closure_destructor.37
++ ___swift_closure_destructor.370
++ ___swift_closure_destructor.3701
++ ___swift_closure_destructor.3705
++ ___swift_closure_destructor.3709
++ ___swift_closure_destructor.371
++ ___swift_closure_destructor.3713
++ ___swift_closure_destructor.3717
++ ___swift_closure_destructor.372
++ ___swift_closure_destructor.3722
++ ___swift_closure_destructor.3726
++ ___swift_closure_destructor.373
++ ___swift_closure_destructor.3730
++ ___swift_closure_destructor.3734
++ ___swift_closure_destructor.3738
++ ___swift_closure_destructor.374
++ ___swift_closure_destructor.3742
++ ___swift_closure_destructor.3746
++ ___swift_closure_destructor.375
++ ___swift_closure_destructor.3750
++ ___swift_closure_destructor.3754
++ ___swift_closure_destructor.3759
++ ___swift_closure_destructor.376
++ ___swift_closure_destructor.3763
++ ___swift_closure_destructor.3767
++ ___swift_closure_destructor.3771
++ ___swift_closure_destructor.3775
++ ___swift_closure_destructor.3779
++ ___swift_closure_destructor.378
++ ___swift_closure_destructor.3784
++ ___swift_closure_destructor.3788
++ ___swift_closure_destructor.379
++ ___swift_closure_destructor.3792
++ ___swift_closure_destructor.3796
++ ___swift_closure_destructor.38
++ ___swift_closure_destructor.380
++ ___swift_closure_destructor.3800
++ ___swift_closure_destructor.3804
++ ___swift_closure_destructor.3808
++ ___swift_closure_destructor.3812
++ ___swift_closure_destructor.3816
++ ___swift_closure_destructor.382
++ ___swift_closure_destructor.3820
++ ___swift_closure_destructor.3824
++ ___swift_closure_destructor.3828
++ ___swift_closure_destructor.383
++ ___swift_closure_destructor.3833
++ ___swift_closure_destructor.3837
++ ___swift_closure_destructor.384
++ ___swift_closure_destructor.3841
++ ___swift_closure_destructor.3845
++ ___swift_closure_destructor.3849
++ ___swift_closure_destructor.385
++ ___swift_closure_destructor.3853
++ ___swift_closure_destructor.3858
++ ___swift_closure_destructor.386
++ ___swift_closure_destructor.3862
++ ___swift_closure_destructor.3866
++ ___swift_closure_destructor.3869
++ ___swift_closure_destructor.387
++ ___swift_closure_destructor.3873
++ ___swift_closure_destructor.3877
++ ___swift_closure_destructor.388
++ ___swift_closure_destructor.3881
++ ___swift_closure_destructor.3885
++ ___swift_closure_destructor.3889
++ ___swift_closure_destructor.3897
++ ___swift_closure_destructor.39
++ ___swift_closure_destructor.390
++ ___swift_closure_destructor.3901
++ ___swift_closure_destructor.3905
++ ___swift_closure_destructor.3909
++ ___swift_closure_destructor.391
++ ___swift_closure_destructor.3913
++ ___swift_closure_destructor.3917
++ ___swift_closure_destructor.392
++ ___swift_closure_destructor.3925
++ ___swift_closure_destructor.3929
++ ___swift_closure_destructor.3933
++ ___swift_closure_destructor.3937
++ ___swift_closure_destructor.394
++ ___swift_closure_destructor.3941
++ ___swift_closure_destructor.3945
++ ___swift_closure_destructor.3949
++ ___swift_closure_destructor.395
++ ___swift_closure_destructor.3953
++ ___swift_closure_destructor.3957
++ ___swift_closure_destructor.396
++ ___swift_closure_destructor.3961
++ ___swift_closure_destructor.3965
++ ___swift_closure_destructor.3969
++ ___swift_closure_destructor.3973
++ ___swift_closure_destructor.3977
++ ___swift_closure_destructor.398
++ ___swift_closure_destructor.3981
++ ___swift_closure_destructor.3985
++ ___swift_closure_destructor.3989
++ ___swift_closure_destructor.399
++ ___swift_closure_destructor.3993
++ ___swift_closure_destructor.3998
++ ___swift_closure_destructor.4
++ ___swift_closure_destructor.40
++ ___swift_closure_destructor.400
++ ___swift_closure_destructor.4002
++ ___swift_closure_destructor.4006
++ ___swift_closure_destructor.4010
++ ___swift_closure_destructor.4014
++ ___swift_closure_destructor.4018
++ ___swift_closure_destructor.402
++ ___swift_closure_destructor.4022
++ ___swift_closure_destructor.4026
++ ___swift_closure_destructor.403
++ ___swift_closure_destructor.4030
++ ___swift_closure_destructor.4034
++ ___swift_closure_destructor.4038
++ ___swift_closure_destructor.404
++ ___swift_closure_destructor.4042
++ ___swift_closure_destructor.4046
++ ___swift_closure_destructor.4050
++ ___swift_closure_destructor.4054
++ ___swift_closure_destructor.406
++ ___swift_closure_destructor.4062
++ ___swift_closure_destructor.4066
++ ___swift_closure_destructor.407
++ ___swift_closure_destructor.4070
++ ___swift_closure_destructor.4074
++ ___swift_closure_destructor.4078
++ ___swift_closure_destructor.408
++ ___swift_closure_destructor.4082
++ ___swift_closure_destructor.4086
++ ___swift_closure_destructor.4090
++ ___swift_closure_destructor.4094
++ ___swift_closure_destructor.4098
++ ___swift_closure_destructor.41
++ ___swift_closure_destructor.410
++ ___swift_closure_destructor.4102
++ ___swift_closure_destructor.4106
++ ___swift_closure_destructor.411
++ ___swift_closure_destructor.4110
++ ___swift_closure_destructor.4114
++ ___swift_closure_destructor.4118
++ ___swift_closure_destructor.412
++ ___swift_closure_destructor.4122
++ ___swift_closure_destructor.4126
++ ___swift_closure_destructor.413
++ ___swift_closure_destructor.4130
++ ___swift_closure_destructor.4135
++ ___swift_closure_destructor.4139
++ ___swift_closure_destructor.414
++ ___swift_closure_destructor.4143
++ ___swift_closure_destructor.4147
++ ___swift_closure_destructor.4151
++ ___swift_closure_destructor.4155
++ ___swift_closure_destructor.4159
++ ___swift_closure_destructor.416
++ ___swift_closure_destructor.4163
++ ___swift_closure_destructor.4167
++ ___swift_closure_destructor.417
++ ___swift_closure_destructor.4178
++ ___swift_closure_destructor.418
++ ___swift_closure_destructor.4185
++ ___swift_closure_destructor.4189
++ ___swift_closure_destructor.419
++ ___swift_closure_destructor.4193
++ ___swift_closure_destructor.4197
++ ___swift_closure_destructor.42
++ ___swift_closure_destructor.420
++ ___swift_closure_destructor.4201
++ ___swift_closure_destructor.4205
++ ___swift_closure_destructor.421
++ ___swift_closure_destructor.4212
++ ___swift_closure_destructor.4216
++ ___swift_closure_destructor.422
++ ___swift_closure_destructor.4220
++ ___swift_closure_destructor.4224
++ ___swift_closure_destructor.4228
++ ___swift_closure_destructor.423
++ ___swift_closure_destructor.4232
++ ___swift_closure_destructor.4236
++ ___swift_closure_destructor.424
++ ___swift_closure_destructor.4240
++ ___swift_closure_destructor.4244
++ ___swift_closure_destructor.4248
++ ___swift_closure_destructor.425
++ ___swift_closure_destructor.4252
++ ___swift_closure_destructor.4256
++ ___swift_closure_destructor.426
++ ___swift_closure_destructor.4260
++ ___swift_closure_destructor.4264
++ ___swift_closure_destructor.4268
++ ___swift_closure_destructor.427
++ ___swift_closure_destructor.4272
++ ___swift_closure_destructor.4276
++ ___swift_closure_destructor.428
++ ___swift_closure_destructor.4280
++ ___swift_closure_destructor.4285
++ ___swift_closure_destructor.4289
++ ___swift_closure_destructor.429
++ ___swift_closure_destructor.4293
++ ___swift_closure_destructor.4296
++ ___swift_closure_destructor.43
++ ___swift_closure_destructor.430
++ ___swift_closure_destructor.4300
++ ___swift_closure_destructor.4304
++ ___swift_closure_destructor.4308
++ ___swift_closure_destructor.431
++ ___swift_closure_destructor.4312
++ ___swift_closure_destructor.4316
++ ___swift_closure_destructor.432
++ ___swift_closure_destructor.4320
++ ___swift_closure_destructor.4327
++ ___swift_closure_destructor.433
++ ___swift_closure_destructor.4331
++ ___swift_closure_destructor.4335
++ ___swift_closure_destructor.4339
++ ___swift_closure_destructor.434
++ ___swift_closure_destructor.4343
++ ___swift_closure_destructor.4347
++ ___swift_closure_destructor.435
++ ___swift_closure_destructor.4355
++ ___swift_closure_destructor.4359
++ ___swift_closure_destructor.436
++ ___swift_closure_destructor.4363
++ ___swift_closure_destructor.4367
++ ___swift_closure_destructor.437
++ ___swift_closure_destructor.4371
++ ___swift_closure_destructor.4375
++ ___swift_closure_destructor.4379
++ ___swift_closure_destructor.438
++ ___swift_closure_destructor.4383
++ ___swift_closure_destructor.4387
++ ___swift_closure_destructor.439
++ ___swift_closure_destructor.4391
++ ___swift_closure_destructor.4395
++ ___swift_closure_destructor.4399
++ ___swift_closure_destructor.44
++ ___swift_closure_destructor.440
++ ___swift_closure_destructor.4403
++ ___swift_closure_destructor.4407
++ ___swift_closure_destructor.441
++ ___swift_closure_destructor.4411
++ ___swift_closure_destructor.4415
++ ___swift_closure_destructor.4419
++ ___swift_closure_destructor.442
++ ___swift_closure_destructor.4423
++ ___swift_closure_destructor.4428
++ ___swift_closure_destructor.443
++ ___swift_closure_destructor.4432
++ ___swift_closure_destructor.4436
++ ___swift_closure_destructor.444
++ ___swift_closure_destructor.4440
++ ___swift_closure_destructor.4444
++ ___swift_closure_destructor.4448
++ ___swift_closure_destructor.4452
++ ___swift_closure_destructor.4456
++ ___swift_closure_destructor.446
++ ___swift_closure_destructor.4460
++ ___swift_closure_destructor.4464
++ ___swift_closure_destructor.4468
++ ___swift_closure_destructor.447
++ ___swift_closure_destructor.4472
++ ___swift_closure_destructor.4476
++ ___swift_closure_destructor.448
++ ___swift_closure_destructor.4480
++ ___swift_closure_destructor.4484
++ ___swift_closure_destructor.449
++ ___swift_closure_destructor.4492
++ ___swift_closure_destructor.4496
++ ___swift_closure_destructor.45
++ ___swift_closure_destructor.450
++ ___swift_closure_destructor.4500
++ ___swift_closure_destructor.4504
++ ___swift_closure_destructor.4508
++ ___swift_closure_destructor.451
++ ___swift_closure_destructor.4512
++ ___swift_closure_destructor.4516
++ ___swift_closure_destructor.452
++ ___swift_closure_destructor.4520
++ ___swift_closure_destructor.4524
++ ___swift_closure_destructor.4528
++ ___swift_closure_destructor.453
++ ___swift_closure_destructor.4532
++ ___swift_closure_destructor.4536
++ ___swift_closure_destructor.4540
++ ___swift_closure_destructor.4544
++ ___swift_closure_destructor.4548
++ ___swift_closure_destructor.455
++ ___swift_closure_destructor.4552
++ ___swift_closure_destructor.4556
++ ___swift_closure_destructor.456
++ ___swift_closure_destructor.4560
++ ___swift_closure_destructor.4565
++ ___swift_closure_destructor.4569
++ ___swift_closure_destructor.457
++ ___swift_closure_destructor.4573
++ ___swift_closure_destructor.4577
++ ___swift_closure_destructor.458
++ ___swift_closure_destructor.4581
++ ___swift_closure_destructor.4585
++ ___swift_closure_destructor.4589
++ ___swift_closure_destructor.4593
++ ___swift_closure_destructor.4597
++ ___swift_closure_destructor.46
++ ___swift_closure_destructor.461
++ ___swift_closure_destructor.464
++ ___swift_closure_destructor.465
++ ___swift_closure_destructor.468
++ ___swift_closure_destructor.469
++ ___swift_closure_destructor.47
++ ___swift_closure_destructor.472
++ ___swift_closure_destructor.473
++ ___swift_closure_destructor.475
++ ___swift_closure_destructor.477
++ ___swift_closure_destructor.478
++ ___swift_closure_destructor.479
++ ___swift_closure_destructor.48
++ ___swift_closure_destructor.481
++ ___swift_closure_destructor.482
++ ___swift_closure_destructor.483
++ ___swift_closure_destructor.485
++ ___swift_closure_destructor.486
++ ___swift_closure_destructor.487
++ ___swift_closure_destructor.488
++ ___swift_closure_destructor.489
++ ___swift_closure_destructor.49
++ ___swift_closure_destructor.490
++ ___swift_closure_destructor.490Tm
++ ___swift_closure_destructor.491
++ ___swift_closure_destructor.493
++ ___swift_closure_destructor.494
++ ___swift_closure_destructor.495
++ ___swift_closure_destructor.497
++ ___swift_closure_destructor.498
++ ___swift_closure_destructor.5
++ ___swift_closure_destructor.50
++ ___swift_closure_destructor.501
++ ___swift_closure_destructor.502
++ ___swift_closure_destructor.505
++ ___swift_closure_destructor.506
++ ___swift_closure_destructor.509
++ ___swift_closure_destructor.51
++ ___swift_closure_destructor.513
++ ___swift_closure_destructor.517
++ ___swift_closure_destructor.52
++ ___swift_closure_destructor.521
++ ___swift_closure_destructor.525
++ ___swift_closure_destructor.528
++ ___swift_closure_destructor.529
++ ___swift_closure_destructor.53
++ ___swift_closure_destructor.532
++ ___swift_closure_destructor.536
++ ___swift_closure_destructor.53Tm
++ ___swift_closure_destructor.54
++ ___swift_closure_destructor.540
++ ___swift_closure_destructor.543
++ ___swift_closure_destructor.544
++ ___swift_closure_destructor.546
++ ___swift_closure_destructor.548
++ ___swift_closure_destructor.549
++ ___swift_closure_destructor.54Tm
++ ___swift_closure_destructor.55
++ ___swift_closure_destructor.552
++ ___swift_closure_destructor.555
++ ___swift_closure_destructor.556
++ ___swift_closure_destructor.558
++ ___swift_closure_destructor.559
++ ___swift_closure_destructor.56
++ ___swift_closure_destructor.560
++ ___swift_closure_destructor.561
++ ___swift_closure_destructor.563
++ ___swift_closure_destructor.564
++ ___swift_closure_destructor.565
++ ___swift_closure_destructor.567
++ ___swift_closure_destructor.568
++ ___swift_closure_destructor.569
++ ___swift_closure_destructor.57
++ ___swift_closure_destructor.571
++ ___swift_closure_destructor.572
++ ___swift_closure_destructor.573
++ ___swift_closure_destructor.575
++ ___swift_closure_destructor.576
++ ___swift_closure_destructor.577
++ ___swift_closure_destructor.579
++ ___swift_closure_destructor.57Tm
++ ___swift_closure_destructor.58
++ ___swift_closure_destructor.580
++ ___swift_closure_destructor.581
++ ___swift_closure_destructor.583
++ ___swift_closure_destructor.584
++ ___swift_closure_destructor.585
++ ___swift_closure_destructor.587
++ ___swift_closure_destructor.588
++ ___swift_closure_destructor.589
++ ___swift_closure_destructor.59
++ ___swift_closure_destructor.591
++ ___swift_closure_destructor.592
++ ___swift_closure_destructor.593
++ ___swift_closure_destructor.595
++ ___swift_closure_destructor.596
++ ___swift_closure_destructor.597
++ ___swift_closure_destructor.599
++ ___swift_closure_destructor.5Tm
++ ___swift_closure_destructor.6
++ ___swift_closure_destructor.60
++ ___swift_closure_destructor.600
++ ___swift_closure_destructor.601
++ ___swift_closure_destructor.603
++ ___swift_closure_destructor.604
++ ___swift_closure_destructor.605
++ ___swift_closure_destructor.607
++ ___swift_closure_destructor.608
++ ___swift_closure_destructor.60Tm
++ ___swift_closure_destructor.61
++ ___swift_closure_destructor.611
++ ___swift_closure_destructor.612
++ ___swift_closure_destructor.614
++ ___swift_closure_destructor.615
++ ___swift_closure_destructor.617
++ ___swift_closure_destructor.618
++ ___swift_closure_destructor.619
++ ___swift_closure_destructor.62
++ ___swift_closure_destructor.621
++ ___swift_closure_destructor.622
++ ___swift_closure_destructor.623
++ ___swift_closure_destructor.625
++ ___swift_closure_destructor.626
++ ___swift_closure_destructor.628
++ ___swift_closure_destructor.629
++ ___swift_closure_destructor.63
++ ___swift_closure_destructor.632
++ ___swift_closure_destructor.633
++ ___swift_closure_destructor.636
++ ___swift_closure_destructor.636Tm
++ ___swift_closure_destructor.637
++ ___swift_closure_destructor.639
++ ___swift_closure_destructor.64
++ ___swift_closure_destructor.641
++ ___swift_closure_destructor.643
++ ___swift_closure_destructor.645
++ ___swift_closure_destructor.647
++ ___swift_closure_destructor.649
++ ___swift_closure_destructor.65
++ ___swift_closure_destructor.651
++ ___swift_closure_destructor.653
++ ___swift_closure_destructor.655
++ ___swift_closure_destructor.657
++ ___swift_closure_destructor.659
++ ___swift_closure_destructor.66
++ ___swift_closure_destructor.661
++ ___swift_closure_destructor.663
++ ___swift_closure_destructor.665
++ ___swift_closure_destructor.669
++ ___swift_closure_destructor.67
++ ___swift_closure_destructor.670
++ ___swift_closure_destructor.673
++ ___swift_closure_destructor.674
++ ___swift_closure_destructor.677
++ ___swift_closure_destructor.678
++ ___swift_closure_destructor.68
++ ___swift_closure_destructor.681
++ ___swift_closure_destructor.682
++ ___swift_closure_destructor.685
++ ___swift_closure_destructor.686
++ ___swift_closure_destructor.689
++ ___swift_closure_destructor.69
++ ___swift_closure_destructor.690
++ ___swift_closure_destructor.693
++ ___swift_closure_destructor.697
++ ___swift_closure_destructor.7
++ ___swift_closure_destructor.70
++ ___swift_closure_destructor.701
++ ___swift_closure_destructor.705
++ ___swift_closure_destructor.709
++ ___swift_closure_destructor.71
++ ___swift_closure_destructor.713
++ ___swift_closure_destructor.717
++ ___swift_closure_destructor.72
++ ___swift_closure_destructor.721
++ ___swift_closure_destructor.725
++ ___swift_closure_destructor.729
++ ___swift_closure_destructor.73
++ ___swift_closure_destructor.733
++ ___swift_closure_destructor.737
++ ___swift_closure_destructor.74
++ ___swift_closure_destructor.741
++ ___swift_closure_destructor.745
++ ___swift_closure_destructor.749
++ ___swift_closure_destructor.75
++ ___swift_closure_destructor.753
++ ___swift_closure_destructor.757
++ ___swift_closure_destructor.76
++ ___swift_closure_destructor.761
++ ___swift_closure_destructor.765
++ ___swift_closure_destructor.769
++ ___swift_closure_destructor.76Tm
++ ___swift_closure_destructor.77
++ ___swift_closure_destructor.770
++ ___swift_closure_destructor.773
++ ___swift_closure_destructor.774
++ ___swift_closure_destructor.777
++ ___swift_closure_destructor.778
++ ___swift_closure_destructor.778Tm
++ ___swift_closure_destructor.78
++ ___swift_closure_destructor.781
++ ___swift_closure_destructor.785
++ ___swift_closure_destructor.789
++ ___swift_closure_destructor.79
++ ___swift_closure_destructor.793
++ ___swift_closure_destructor.797
++ ___swift_closure_destructor.8
++ ___swift_closure_destructor.80
++ ___swift_closure_destructor.801
++ ___swift_closure_destructor.805
++ ___swift_closure_destructor.809
++ ___swift_closure_destructor.81
++ ___swift_closure_destructor.812
++ ___swift_closure_destructor.813
++ ___swift_closure_destructor.816
++ ___swift_closure_destructor.817
++ ___swift_closure_destructor.82
++ ___swift_closure_destructor.820
++ ___swift_closure_destructor.821
++ ___swift_closure_destructor.824
++ ___swift_closure_destructor.828
++ ___swift_closure_destructor.829
++ ___swift_closure_destructor.83
++ ___swift_closure_destructor.832
++ ___swift_closure_destructor.835
++ ___swift_closure_destructor.839
++ ___swift_closure_destructor.84
++ ___swift_closure_destructor.840
++ ___swift_closure_destructor.843
++ ___swift_closure_destructor.844
++ ___swift_closure_destructor.847
++ ___swift_closure_destructor.848
++ ___swift_closure_destructor.85
++ ___swift_closure_destructor.851
++ ___swift_closure_destructor.852
++ ___swift_closure_destructor.855
++ ___swift_closure_destructor.856
++ ___swift_closure_destructor.859
++ ___swift_closure_destructor.85Tm
++ ___swift_closure_destructor.86
++ ___swift_closure_destructor.860
++ ___swift_closure_destructor.863
++ ___swift_closure_destructor.864
++ ___swift_closure_destructor.867
++ ___swift_closure_destructor.868
++ ___swift_closure_destructor.87
++ ___swift_closure_destructor.871
++ ___swift_closure_destructor.872
++ ___swift_closure_destructor.876
++ ___swift_closure_destructor.878
++ ___swift_closure_destructor.88
++ ___swift_closure_destructor.880
++ ___swift_closure_destructor.882
++ ___swift_closure_destructor.884
++ ___swift_closure_destructor.886
++ ___swift_closure_destructor.888
++ ___swift_closure_destructor.89
++ ___swift_closure_destructor.890
++ ___swift_closure_destructor.892
++ ___swift_closure_destructor.894
++ ___swift_closure_destructor.896
++ ___swift_closure_destructor.898
++ ___swift_closure_destructor.8Tm
++ ___swift_closure_destructor.9
++ ___swift_closure_destructor.90
++ ___swift_closure_destructor.900
++ ___swift_closure_destructor.902
++ ___swift_closure_destructor.904
++ ___swift_closure_destructor.906
++ ___swift_closure_destructor.908
++ ___swift_closure_destructor.91
++ ___swift_closure_destructor.910
++ ___swift_closure_destructor.913
++ ___swift_closure_destructor.914
++ ___swift_closure_destructor.917
++ ___swift_closure_destructor.92
++ ___swift_closure_destructor.921
++ ___swift_closure_destructor.925
++ ___swift_closure_destructor.929
++ ___swift_closure_destructor.93
++ ___swift_closure_destructor.933
++ ___swift_closure_destructor.937
++ ___swift_closure_destructor.94
++ ___swift_closure_destructor.941
++ ___swift_closure_destructor.945
++ ___swift_closure_destructor.949
++ ___swift_closure_destructor.95
++ ___swift_closure_destructor.953
++ ___swift_closure_destructor.957
++ ___swift_closure_destructor.96
++ ___swift_closure_destructor.961
++ ___swift_closure_destructor.965
++ ___swift_closure_destructor.969
++ ___swift_closure_destructor.97
++ ___swift_closure_destructor.977
++ ___swift_closure_destructor.98
++ ___swift_closure_destructor.981
++ ___swift_closure_destructor.985
++ ___swift_closure_destructor.989
++ ___swift_closure_destructor.99
++ ___swift_closure_destructor.993
++ ___swift_closure_destructor.997
++ ___swift_closure_destructor.99Tm
++ ___swift_closure_destructorTm
++ ___swift_exist.box.addr_destructor
++ ___swift_exist.box.addr_destructor.13
++ ___swift_exist.box.addr_destructor.150
++ ___swift_exist.box.addr_destructor.150Tm
++ ___swift_exist.box.addr_destructor.153
++ ___swift_exist.box.addr_destructor.156
++ ___swift_exist.box.addr_destructor.159
++ ___swift_exist.box.addr_destructor.16
++ ___swift_exist.box.addr_destructor.162
++ ___swift_exist.box.addr_destructor.165
++ ___swift_exist.box.addr_destructor.19
++ ___swift_exist.box.addr_destructor.190
++ ___swift_exist.box.addr_destructor.3
++ ___swift_exist.box.addr_destructor.31
++ ___swift_exist.box.addr_destructor.450
++ ___swift_exist.box.addr_destructor.46
++ ___swift_exist.box.addr_destructor.5
++ ___swift_exist.box.addr_destructor.533
++ ___swift_exist.box.addr_destructor.6
++ ___swift_exist.box.addr_destructor.875
++ ___swift_exist.box.addr_destructor.9
++ ___swift_exist.box.addr_destructor.9Tm
++ ___swift_exist.box.addr_destructorTm
++ ___swift_memcpy232_8
++ ___swift_memcpy84_4
++ ___swift_memcpy928_8
++ ___swift_memcpy97_8
++ ___swift_memcpy984_8
++ ___unnamed_18
++ ___unnamed_24
++ ___unnamed_7
++ __logger._log.4057
++ __logger.onceToken.4055
++ __swift_implicitisolationactor_to_executor_cast
++ __swift_isClassOrObjCExistentialType
++ _associated conformance 18PhotosIntelligence10ConnectionCSHAASQ
++ _associated conformance 18PhotosIntelligence14ConnectionKindOSHAASQ
++ _associated conformance 18PhotosIntelligence14SafeForDisplay33_B10D745E0E1555F061FE8085F3C2300FLLVAA11AssetGatingO8RuleableAA15FailureCodeTypeAfGP_AF03AnyqR0
++ _associated conformance 18PhotosIntelligence16ImageEligibility33_B10D745E0E1555F061FE8085F3C2300FLLVAA11AssetGatingO8RuleableAA15FailureCodeTypeAfGP_AF03AnypQ0
++ _associated conformance 18PhotosIntelligence16PersonEnrollmentV13ConfigurationV10CodingKeys33_9AB82E3340EC3E46CA3EC38B01261ECCLLOSHAASQ
++ _associated conformance 18PhotosIntelligence16PersonEnrollmentV13ConfigurationV10CodingKeys33_9AB82E3340EC3E46CA3EC38B01261ECCLLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 18PhotosIntelligence16PersonEnrollmentV13ConfigurationV10CodingKeys33_9AB82E3340EC3E46CA3EC38B01261ECCLLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 18PhotosIntelligence19StoryTransitionKindOSHAASQ
++ _associated conformance 18PhotosIntelligence23ImagePlaygroundCurationV0E5LevelOSHAASQ
++ _associated conformance 18PhotosIntelligence23ImagePlaygroundCurationV0E5StageOSHAASQ
++ _associated conformance 18PhotosIntelligence23ImagePlaygroundCurationV0E8PropertyOSHAASQ
++ _associated conformance 18PhotosIntelligence23ImagePlaygroundCurationV0E8PropertyOs12CaseIterableAA8AllCasessAFP_Sl
++ _associated conformance 18PhotosIntelligence23Spatial3DCameraMovementO4KindOSHAASQ
++ _associated conformance 18PhotosIntelligence23Spatial3DCameraMovementO9DirectionOSHAASQ
++ _associated conformance 18PhotosIntelligence27PersonalEnvironmentCurationO0cD9SuggesterV19SuggestionCandidateC6SourceOSHAASQ
++ _associated conformance 18PhotosIntelligence27PersonalEnvironmentCurationO16PanoramaCategoryOSHAASQ
++ _associated conformance 18PhotosIntelligence27PersonalEnvironmentCurationO18PresentationTargetOSHAASQ
++ _associated conformance 18PhotosIntelligence27PersonalEnvironmentCurationO9PregatingO11FailureCodeOSHAASQ
++ _associated conformance So34PLTextEmbeddingResultWithBiasScaleC18PhotosIntelligenceE5Error33_B3EE3166FFC045985C797B8A0B52A2CCLLOSHACSQ
++ _atanf
++ _block_copy_helper.1089
++ _block_copy_helper.11
++ _block_copy_helper.110
++ _block_copy_helper.1117
++ _block_copy_helper.116
++ _block_copy_helper.1232
++ _block_copy_helper.1260
++ _block_copy_helper.131
++ _block_copy_helper.132
++ _block_copy_helper.1397
++ _block_copy_helper.14
++ _block_copy_helper.15
++ _block_copy_helper.1533
++ _block_copy_helper.1648
++ _block_copy_helper.1676
++ _block_copy_helper.174
++ _block_copy_helper.179
++ _block_copy_helper.1792
++ _block_copy_helper.20
++ _block_copy_helper.207
++ _block_copy_helper.226
++ _block_copy_helper.236
++ _block_copy_helper.238
++ _block_copy_helper.241
++ _block_copy_helper.2474
++ _block_copy_helper.2613
++ _block_copy_helper.262
++ _block_copy_helper.263
++ _block_copy_helper.266
++ _block_copy_helper.272
++ _block_copy_helper.2752
++ _block_copy_helper.278
++ _block_copy_helper.2891
++ _block_copy_helper.2919
++ _block_copy_helper.297
++ _block_copy_helper.3034
++ _block_copy_helper.3061
++ _block_copy_helper.317
++ _block_copy_helper.3176
++ _block_copy_helper.3204
++ _block_copy_helper.3341
++ _block_copy_helper.336
++ _block_copy_helper.3456
++ _block_copy_helper.3461
++ _block_copy_helper.3468
++ _block_copy_helper.3474
++ _block_copy_helper.3482
++ _block_copy_helper.3510
++ _block_copy_helper.376
++ _block_copy_helper.379
++ _block_copy_helper.38
++ _block_copy_helper.3892
++ _block_copy_helper.3921
++ _block_copy_helper.40
++ _block_copy_helper.4058
++ _block_copy_helper.4173
++ _block_copy_helper.4181
++ _block_copy_helper.4208
++ _block_copy_helper.43
++ _block_copy_helper.4323
++ _block_copy_helper.4351
++ _block_copy_helper.4488
++ _block_copy_helper.520
++ _block_copy_helper.523
++ _block_copy_helper.551
++ _block_copy_helper.56
++ _block_copy_helper.57
++ _block_copy_helper.6
++ _block_copy_helper.62
++ _block_copy_helper.63
++ _block_copy_helper.64
++ _block_copy_helper.666
++ _block_copy_helper.68
++ _block_copy_helper.693
++ _block_copy_helper.808
++ _block_copy_helper.82
++ _block_copy_helper.823
++ _block_copy_helper.831
++ _block_copy_helper.836
++ _block_copy_helper.973
++ _block_descriptor.1091
++ _block_descriptor.1119
++ _block_descriptor.112
++ _block_descriptor.118
++ _block_descriptor.1234
++ _block_descriptor.1262
++ _block_descriptor.13
++ _block_descriptor.133
++ _block_descriptor.134
++ _block_descriptor.1399
++ _block_descriptor.1535
++ _block_descriptor.16
++ _block_descriptor.1650
++ _block_descriptor.1678
++ _block_descriptor.17
++ _block_descriptor.176
++ _block_descriptor.1794
++ _block_descriptor.181
++ _block_descriptor.209
++ _block_descriptor.22
++ _block_descriptor.228
++ _block_descriptor.238
++ _block_descriptor.240
++ _block_descriptor.243
++ _block_descriptor.2476
++ _block_descriptor.2615
++ _block_descriptor.264
++ _block_descriptor.265
++ _block_descriptor.268
++ _block_descriptor.274
++ _block_descriptor.2754
++ _block_descriptor.280
++ _block_descriptor.2893
++ _block_descriptor.2921
++ _block_descriptor.299
++ _block_descriptor.3036
++ _block_descriptor.3063
++ _block_descriptor.3178
++ _block_descriptor.319
++ _block_descriptor.3206
++ _block_descriptor.3343
++ _block_descriptor.338
++ _block_descriptor.3458
++ _block_descriptor.3463
++ _block_descriptor.3470
++ _block_descriptor.3476
++ _block_descriptor.3484
++ _block_descriptor.3512
++ _block_descriptor.378
++ _block_descriptor.381
++ _block_descriptor.3894
++ _block_descriptor.3923
++ _block_descriptor.40
++ _block_descriptor.4060
++ _block_descriptor.4175
++ _block_descriptor.4183
++ _block_descriptor.42
++ _block_descriptor.4210
++ _block_descriptor.4325
++ _block_descriptor.4353
++ _block_descriptor.4490
++ _block_descriptor.45
++ _block_descriptor.522
++ _block_descriptor.525
++ _block_descriptor.553
++ _block_descriptor.58
++ _block_descriptor.59
++ _block_descriptor.64
++ _block_descriptor.65
++ _block_descriptor.66
++ _block_descriptor.668
++ _block_descriptor.695
++ _block_descriptor.70
++ _block_descriptor.8
++ _block_descriptor.810
++ _block_descriptor.825
++ _block_descriptor.833
++ _block_descriptor.838
++ _block_descriptor.84
++ _block_descriptor.975
++ _block_destroy_helper.1090
++ _block_destroy_helper.111
++ _block_destroy_helper.1118
++ _block_destroy_helper.117
++ _block_destroy_helper.12
++ _block_destroy_helper.1233
++ _block_destroy_helper.1261
++ _block_destroy_helper.132
++ _block_destroy_helper.133
++ _block_destroy_helper.1398
++ _block_destroy_helper.15
++ _block_destroy_helper.1534
++ _block_destroy_helper.16
++ _block_destroy_helper.1649
++ _block_destroy_helper.1677
++ _block_destroy_helper.175
++ _block_destroy_helper.1793
++ _block_destroy_helper.180
++ _block_destroy_helper.208
++ _block_destroy_helper.21
++ _block_destroy_helper.227
++ _block_destroy_helper.237
++ _block_destroy_helper.239
++ _block_destroy_helper.242
++ _block_destroy_helper.2475
++ _block_destroy_helper.2614
++ _block_destroy_helper.263
++ _block_destroy_helper.264
++ _block_destroy_helper.267
++ _block_destroy_helper.273
++ _block_destroy_helper.2753
++ _block_destroy_helper.279
++ _block_destroy_helper.2892
++ _block_destroy_helper.2920
++ _block_destroy_helper.298
++ _block_destroy_helper.3035
++ _block_destroy_helper.3062
++ _block_destroy_helper.3177
++ _block_destroy_helper.318
++ _block_destroy_helper.3205
++ _block_destroy_helper.3342
++ _block_destroy_helper.337
++ _block_destroy_helper.3457
++ _block_destroy_helper.3462
++ _block_destroy_helper.3469
++ _block_destroy_helper.3475
++ _block_destroy_helper.3483
++ _block_destroy_helper.3511
++ _block_destroy_helper.377
++ _block_destroy_helper.380
++ _block_destroy_helper.3893
++ _block_destroy_helper.39
++ _block_destroy_helper.3922
++ _block_destroy_helper.4059
++ _block_destroy_helper.41
++ _block_destroy_helper.4174
++ _block_destroy_helper.4182
++ _block_destroy_helper.4209
++ _block_destroy_helper.4324
++ _block_destroy_helper.4352
++ _block_destroy_helper.44
++ _block_destroy_helper.4489
++ _block_destroy_helper.521
++ _block_destroy_helper.524
++ _block_destroy_helper.552
++ _block_destroy_helper.57
++ _block_destroy_helper.58
++ _block_destroy_helper.63
++ _block_destroy_helper.64
++ _block_destroy_helper.65
++ _block_destroy_helper.667
++ _block_destroy_helper.69
++ _block_destroy_helper.694
++ _block_destroy_helper.7
++ _block_destroy_helper.809
++ _block_destroy_helper.824
++ _block_destroy_helper.83
++ _block_destroy_helper.832
++ _block_destroy_helper.837
++ _block_destroy_helper.974
++ _flat unique So21PLTextEmbeddingResult_p
++ _get_enum_tag_for_layout_string 18PhotosIntelligence16PersonEnrollmentV5GroupO
++ _get_enum_tag_for_layout_string 18PhotosIntelligence26Spatial3DModelAvailabilityO13DownloadErrorO
++ _get_enum_tag_for_layout_string 18PhotosIntelligence27PersonalEnvironmentCurationO0cD9SuggesterV19SuggestionCandidateC6SourceO
++ _get_type_metadata 15Synchronization5MutexVy10Foundation4DateVSgG noncopyable.142
++ _get_type_metadata 15Synchronization5MutexVy18PhotosIntelligence13ExtendedToken_pSgAD0eF10CollectionV_SaySayAdE_pGGtYbcG noncopyable.69
++ _get_type_metadata 15Synchronization5MutexVy18PhotosIntelligence17SafeTokenAnalyzerC20LazyInitializerStateOG noncopyable.8
++ _get_type_metadata 15Synchronization5MutexVy18PhotosIntelligence17StoryOrchestratorC18CancellationReasonO6reason_10Foundation4DateV06issuedK0tSgG noncopyable.288
++ _get_type_metadata 15Synchronization5MutexVy18PhotosIntelligence23ExtendedTokenCollectionVAF_ShySSGtYbcG noncopyable.68
++ _get_type_metadata 15Synchronization5MutexVySdSgG noncopyable.289
++ _get_witness_table 18PhotosIntelligence27FreeformStoryCompletionSyncVAA0cdE0HPyHC.59
++ _get_witness_table SHRzr0_lSSSHHPyHC.147
++ _kCGColorSpaceSRGB
++ _kCIFormatRGBA8
++ _objc_claimAutoreleasedReturnValue
++ _objc_msgSend$_queryParserManager
++ _objc_msgSend$_safeAssetsForWidgetDisplay:requireAnalysis:
++ _objc_msgSend$addedDate
++ _objc_msgSend$ambientAssetInternalSortDescriptors
++ _objc_msgSend$andWithPredicates:
++ _objc_msgSend$clsIsVideo
++ _objc_msgSend$contentClassificationVersion
++ _objc_msgSend$cooldown
++ _objc_msgSend$dictionaryWithDictionary:
++ _objc_msgSend$enumerateSpotlightResultsForString:options:withBlock:
++ _objc_msgSend$executeQueryPredicate:withOptions:
++ _objc_msgSend$fetchAssetsGroupedByFaceUUIDForFaces:fetchPropertySets:
++ _objc_msgSend$fetchSuggestedPersonsForClient:options:
++ _objc_msgSend$fetchWallpaperGallerySuggestionsInPhotoLibrary:
++ _objc_msgSend$findLexemesMatchingText:textMatchMode:textMatchOptions:identifier:categories:withOptions:
++ _objc_msgSend$harmoniousColorScore
++ _objc_msgSend$immersivenessScore
++ _objc_msgSend$initWithBitmapData:bytesPerRow:size:format:colorSpace:
++ _objc_msgSend$initWithContentClassificationVersion:
++ _objc_msgSend$initWithPhotoLibrary:resultTypes:
++ _objc_msgSend$initWithSceneAnalysisVersion:mediaAnalysisVersion:faceAnalysisVersion:contentClassificationVersion:
++ _objc_msgSend$interestingSubjectScore
++ _objc_msgSend$intrusiveObjectPresenceScore
++ _objc_msgSend$isPartOfBurst
++ _objc_msgSend$isRiskyFileFormatForSyndicationWithAsset:
++ _objc_msgSend$isScreenshotWithSceneClassifications:
++ _objc_msgSend$lexemeID
++ _objc_msgSend$lexemes
++ _objc_msgSend$livelyColorScore
++ _objc_msgSend$loadImageForFace:inAsset:
++ _objc_msgSend$lowLight
++ _objc_msgSend$memoryCreationManager
++ _objc_msgSend$noiseScore
++ _objc_msgSend$operandWithCategories:
++ _objc_msgSend$operandWithExclusiveOperands:associatedOperandsOperator:
++ _objc_msgSend$operandWithIdentifier:categories:
++ _objc_msgSend$operandWithLexemeIDs:
++ _objc_msgSend$personalEnvironmentSpatial3DResourceGenerationLimit
++ _objc_msgSend$pleasantCameraTiltScore
++ _objc_msgSend$pleasantCompositionScore
++ _objc_msgSend$pleasantPatternScore
++ _objc_msgSend$pleasantPerspectiveScore
++ _objc_msgSend$pleasantPostProcessingScore
++ _objc_msgSend$pleasantReflectionsScore
++ _objc_msgSend$pleasantSymmetryScore
++ _objc_msgSend$predicateForAllTopWallpaperSuggestions
++ _objc_msgSend$predicateWithOperand:
++ _objc_msgSend$preheat
++ _objc_msgSend$queryEmbeddings
++ _objc_msgSend$setClientIdentifier:
++ _objc_msgSend$setCustomObjectIDSortOrder:
++ _objc_msgSend$setSkipKeyAssetInsertion:
++ _objc_msgSend$sharplyFocusedSubjectScore
++ _objc_msgSend$skipKeyAssetInsertion
++ _objc_msgSend$sortByAddedDateDescending
++ _objc_msgSend$sourceHeight
++ _objc_msgSend$sourceWidth
++ _objc_msgSend$useLEOForImagePlaygroundCuration
++ _objc_msgSend$useRaveModels
++ _objc_msgSend$uuidsForResultItemSubtype:
++ _objc_msgSend$wellChosenSubjectScore
++ _objc_msgSend$wellFramedSubjectScore
++ _objc_msgSend$wellTimedShotScore
++ _objc_retainAutoreleaseReturnValue
++ _objc_retain_x4
++ _objc_retain_x5
++ _objc_retain_x6
++ _prewarm_count
++ _swift_deallocUninitializedObject
++ _swift_release_x1
++ _swift_release_x10
++ _swift_release_x11
++ _swift_release_x12
++ _swift_release_x19
++ _swift_release_x20
++ _swift_release_x21
++ _swift_release_x22
++ _swift_release_x23
++ _swift_release_x24
++ _swift_release_x25
++ _swift_release_x26
++ _swift_release_x27
++ _swift_release_x28
++ _swift_release_x8
++ _swift_release_x9
++ _swift_retain_x1
++ _swift_retain_x10
++ _swift_retain_x12
++ _swift_retain_x19
++ _swift_retain_x2
++ _swift_retain_x20
++ _swift_retain_x21
++ _swift_retain_x22
++ _swift_retain_x23
++ _swift_retain_x24
++ _swift_retain_x25
++ _swift_retain_x26
++ _swift_retain_x27
++ _swift_retain_x28
++ _swift_retain_x8
++ _swift_retain_x9
++ _swift_task_addCancellationHandler
++ _swift_task_future_wait_throwing
++ _swift_task_isCancelledWithFlags
++ _swift_task_removeCancellationHandler
++ _symbolic $s18PhotosIntelligence20ConnectionIdentifierP
++ _symbolic $s18PhotosIntelligence27PersonalEnvironmentCurationO0E7ContextP
++ _symbolic $s18PhotosIntelligence27PersonalEnvironmentCurationO16FilteringContextP
++ _symbolic $s18PhotosIntelligence27PersonalEnvironmentCurationO17SuggestionContextP
++ _symbolic $s18PhotosIntelligence27PersonalEnvironmentCurationO19CompositeScoreInputP
++ _symbolic S2SIegno_
++ _symbolic SDyS2SGIegr_
++ _symbolic SDySSSaySSGGSSIegno_
++ _symbolic SDySSSaySo7PHAssetCGG
++ _symbolic SDySSSay_____GG 10Foundation4DateV
++ _symbolic SDySSSay_____GGSSIegno_ 10Foundation4DateV
++ _symbolic SDySSSo8NSObjectCG
++ _symbolic SDySSSo8NSObjectCGIegr_
++ _symbolic SDySS_____G 18PhotosIntelligence18PromptLLMQUBuilderO10LLMQUParseV
++ _symbolic SDySSypGIegr_
++ _symbolic SDy_____SdG 18PhotosIntelligence16PromptSuggestionV11ContentTypeV
++ _symbolic SDy_____SiG 18PhotosIntelligence17Spatial3DCurationO9PregatingO11FailureCodeO
++ _symbolic SDy_____SiG 18PhotosIntelligence27PersonalEnvironmentCurationO9PregatingO11FailureCodeO
++ _symbolic SDy_____SiGIegr_ 18PhotosIntelligence17Spatial3DCurationO9PregatingO11FailureCodeO
++ _symbolic SDy_____SiGIegr_ 18PhotosIntelligence27PersonalEnvironmentCurationO9PregatingO11FailureCodeO
++ _symbolic SDy__________G 18PhotosIntelligence10QueryTokenV AA34PersonalEventMomentsAndAssetsTupleV
++ _symbolic SaySDySSSdGGIegr_
++ _symbolic SaySDySSypGGSSIegno_
++ _symbolic SaySSGIegr_
++ _symbolic SaySSGSSIegno_
++ _symbolic SaySSSgGIegr_
++ _symbolic SaySaySSGGIegr_
++ _symbolic SaySaySo18NSAttributedStringCGG
++ _symbolic SaySo6PHFaceCG
++ _symbolic SaySo6PHFaceCGIegr_
++ _symbolic Say_____G 18PhotosIntelligence05DailyA12FaceCurationV0caD0V
++ _symbolic Say_____G 18PhotosIntelligence18PromptLLMQUBuilderO10LLMQUParseV
++ _symbolic Say_____G 18PhotosIntelligence22PersonalTraitGeneratorC23AssetClusterWithSamplesV
++ _symbolic Say_____G 18PhotosIntelligence23ImagePlaygroundCurationV0E8PropertyO
++ _symbolic Say_____G 18PhotosIntelligence23PromptSuggestionContextV
++ _symbolic Say_____G 18PhotosIntelligence25FreeformStoryAssetElectorC21roundRobinElectAssets2in014targetNumberOfJ019assetUUIDsByFeature08requiredJ009forbiddenJ0SaySSGSDySSAJG_SiSDySSShySSGGA2JtF09CandidateE0L_V
++ _symbolic Say_____G 18PhotosIntelligence27PersonalEnvironmentCurationO0cD9SuggesterV19SuggestionCandidateC
++ _symbolic Say_____G So13PHFaceAgeTypeV
++ _symbolic Say_____G So14PHFacePoseTypeV
++ _symbolic Say_____G So15PHFaceEyesStateV
++ _symbolic Say_____G So17PHFaceGlassesTypeV
++ _symbolic Say_____G So18PHFaceHeadGearTypeV
++ _symbolic Say_____G So24PLSearchCurationPropertyV
++ _symbolic Say_____G4keep_AB7discardt 18PhotosIntelligence27PersonalEnvironmentCurationO0cD9SuggesterV19SuggestionCandidateC
++ _symbolic Say_____GIegr_ 18PhotosIntelligence10QueryTokenV
++ _symbolic Say_____GIegr_ 18PhotosIntelligence11GlobalTraitV
++ _symbolic Say_____GIegr_ 18PhotosIntelligence16PromptSuggestionV6SourceO
++ _symbolic Say_____GIegr_ 18PhotosIntelligence22MusicKeywordCompletionC
++ _symbolic Say_____GIegr_ 18PhotosIntelligence28MusicKeywordCurationApproachO
++ _symbolic Say_____GIegr_ 18PhotosIntelligence30PromptLocalizableStringBuilderC21TemplateParameterTypeO
++ _symbolic Say_____GSSIegno_ 18PhotosIntelligence24ECRPersonGroundingResultV
++ _symbolic Say______pGIegr_ 18PhotosIntelligence13ExtendedTokenP
++ _symbolic Say______pG_SaySaySfGGt So21PLTextEmbeddingResultP
++ _symbolic SayypGIegr_
++ _symbolic Sb9isBoosted_Say_____G14outputKeywordst 18PhotosIntelligence22MusicKeywordCompletionC
++ _symbolic SbSSIegno_
++ _symbolic SccySay______pG______pG So21PLTextEmbeddingResultP s5ErrorP
++ _symbolic SdIegd_
++ _symbolic SfIegd_
++ _symbolic Shy_____G 16GenerativeModels0aB12AvailabilityV0C0O14RestrictedInfoV0D6ReasonO
++ _symbolic Shy_____G 16GenerativeModels0aB12AvailabilityV0C0O15UnavailableInfoV0D6ReasonO
++ _symbolic Shy_____G 18PhotosIntelligence16PromptSuggestionV6SourceO
++ _symbolic Shy_____G 18PhotosIntelligence22FreeformStoryGeneratorC20RemainingMomentInfosV
++ _symbolic Shy_____G 18PhotosIntelligence39LibraryUnderstandingAvailabilityMonitorC21UnavailabilityReasonsO
++ _symbolic Shy_____GIegr_ 16GenerativeModels0aB12AvailabilityV0C0O14RestrictedInfoV0D6ReasonO
++ _symbolic Shy_____GIegr_ 16GenerativeModels0aB12AvailabilityV0C0O15UnavailableInfoV0D6ReasonO
++ _symbolic Shy_____GIegr_ 18PhotosIntelligence16PromptSuggestionV6SourceO
++ _symbolic Shy_____GIegr_ 18PhotosIntelligence39LibraryUnderstandingAvailabilityMonitorC21UnavailabilityReasonsO
++ _symbolic Shy_____y______GG 18PhotosIntelligence11AssetGatingO20GenericFailureReasonV AA17Spatial3DCurationO9PregatingO0F4CodeO
++ _symbolic Shy_____y______GGIegr_ 18PhotosIntelligence11AssetGatingO20GenericFailureReasonV AA17Spatial3DCurationO9PregatingO0F4CodeO
++ _symbolic Si16algorithmVersion_SaySSG10assetUUIDst
++ _symbolic Si6offset_Sd7elementt
++ _symbolic Si6offset______7elementt 18PhotosIntelligence29FreeformStoryUncuratedChapterV
++ _symbolic Si6offset_______p7elementt 18PhotosIntelligence21GeneratedCuratedStoryP
++ _symbolic SiIegd_
++ _symbolic SiIegr_
++ _symbolic So12NSMutableSetC
++ _symbolic So13PHFetchResultCySo8PHPersonCG
++ _symbolic So13PLDataClusterC
++ _symbolic So19NSMutableOrderedSetC
++ _symbolic So22PLTextEmbeddingServiceC
++ _symbolic So34PLTextEmbeddingResultWithBiasScaleC
++ _symbolic So6NSDataC
++ _symbolic So7CIImageC
++ _symbolic So8NSObjectCIego_
++ _symbolic So8NSObjectCSgIego_
++ _symbolic SsIegr_
++ _symbolic SuIegd_
++ _symbolic SuIegr_
++ _symbolic _____ 16GenerativeModels0aB12AvailabilityV0C0O14RestrictedInfoV0D6ReasonO
++ _symbolic _____ 16GenerativeModels0aB12AvailabilityV0C0O15UnavailableInfoV0D6ReasonO
++ _symbolic _____ 18PhotosIntelligence10ConnectionC
++ _symbolic _____ 18PhotosIntelligence14ConnectionKindO
++ _symbolic _____ 18PhotosIntelligence14SafeForDisplay33_B10D745E0E1555F061FE8085F3C2300FLLV
++ _symbolic _____ 18PhotosIntelligence16ImageEligibility33_B10D745E0E1555F061FE8085F3C2300FLLV
++ _symbolic _____ 18PhotosIntelligence16LLMConfigurationV12InstructionsV
++ _symbolic _____ 18PhotosIntelligence16PersonEnrollmentV
++ _symbolic _____ 18PhotosIntelligence16PersonEnrollmentV13ConfigurationV
++ _symbolic _____ 18PhotosIntelligence16PersonEnrollmentV13ConfigurationV10CodingKeys33_9AB82E3340EC3E46CA3EC38B01261ECCLLO
++ _symbolic _____ 18PhotosIntelligence16PersonEnrollmentV13ConfigurationV8DefaultsO
++ _symbolic _____ 18PhotosIntelligence16PersonEnrollmentV13TrainingImageV
++ _symbolic _____ 18PhotosIntelligence16PersonEnrollmentV5GroupO
++ _symbolic _____ 18PhotosIntelligence17HastingsUtilitiesV
++ _symbolic _____ 18PhotosIntelligence17Spatial3DCurationO8PlaybackO
++ _symbolic _____ 18PhotosIntelligence17Spatial3DCurationO8PlaybackO5ErrorO
++ _symbolic _____ 18PhotosIntelligence19StoryTransitionKindO
++ _symbolic _____ 18PhotosIntelligence23FreeformStoryGenerationV13ChronologicalV7CuratedV9GeneratorV20ShotlistMatchingMode33_9E52737EBA026ED82B00E9968808B759LLO
++ _symbolic _____ 18PhotosIntelligence23ImagePlaygroundCurationV
++ _symbolic _____ 18PhotosIntelligence23ImagePlaygroundCurationV0E5LevelO
++ _symbolic _____ 18PhotosIntelligence23ImagePlaygroundCurationV0E5StageO
++ _symbolic _____ 18PhotosIntelligence23ImagePlaygroundCurationV0E8PropertyO
++ _symbolic _____ 18PhotosIntelligence23Spatial3DCameraMovementO
++ _symbolic _____ 18PhotosIntelligence23Spatial3DCameraMovementO4KindO
++ _symbolic _____ 18PhotosIntelligence23Spatial3DCameraMovementO5RangeV
++ _symbolic _____ 18PhotosIntelligence23Spatial3DCameraMovementO9DirectionO
++ _symbolic _____ 18PhotosIntelligence27PersonalEnvironmentCurationO
++ _symbolic _____ 18PhotosIntelligence27PersonalEnvironmentCurationO012UnclassifiedE7ContextV
++ _symbolic _____ 18PhotosIntelligence27PersonalEnvironmentCurationO06NatureE7ContextV
++ _symbolic _____ 18PhotosIntelligence27PersonalEnvironmentCurationO07IndoorsE7ContextV
++ _symbolic _____ 18PhotosIntelligence27PersonalEnvironmentCurationO09CityscapeE7ContextV
++ _symbolic _____ 18PhotosIntelligence27PersonalEnvironmentCurationO0E15ContextRegistryV
++ _symbolic _____ 18PhotosIntelligence27PersonalEnvironmentCurationO0cD9SuggesterV
++ _symbolic _____ 18PhotosIntelligence27PersonalEnvironmentCurationO0cD9SuggesterV19SuggestionCandidateC
++ _symbolic _____ 18PhotosIntelligence27PersonalEnvironmentCurationO0cD9SuggesterV19SuggestionCandidateC6SourceO
++ _symbolic _____ 18PhotosIntelligence27PersonalEnvironmentCurationO11CategorizerV
++ _symbolic _____ 18PhotosIntelligence27PersonalEnvironmentCurationO14PenaltyWeightsV
++ _symbolic _____ 18PhotosIntelligence27PersonalEnvironmentCurationO16CompositeWeightsV
++ _symbolic _____ 18PhotosIntelligence27PersonalEnvironmentCurationO16PanoramaCategoryO
++ _symbolic _____ 18PhotosIntelligence27PersonalEnvironmentCurationO18PresentationTargetO
++ _symbolic _____ 18PhotosIntelligence27PersonalEnvironmentCurationO22NatureFilteringContextV
++ _symbolic _____ 18PhotosIntelligence27PersonalEnvironmentCurationO23AestheticScoreBreakdownV
++ _symbolic _____ 18PhotosIntelligence27PersonalEnvironmentCurationO23IndoorsFilteringContextV
++ _symbolic _____ 18PhotosIntelligence27PersonalEnvironmentCurationO24CategorizationThresholdsV
++ _symbolic _____ 18PhotosIntelligence27PersonalEnvironmentCurationO25CityscapeFilteringContextV
++ _symbolic _____ 18PhotosIntelligence27PersonalEnvironmentCurationO28UnclassifiedFilteringContextV
++ _symbolic _____ 18PhotosIntelligence27PersonalEnvironmentCurationO9PregatingO
++ _symbolic _____ 18PhotosIntelligence27PersonalEnvironmentCurationO9PregatingO11FailureCodeO
++ _symbolic _____ 18PhotosIntelligence27PhotoAnalysisServiceWrapperV
++ _symbolic _____ 18PhotosIntelligence33EmbeddingSearchThresholdingModelsO0cdE11Model_MD8V133_17D3FA27956731A82ABD709528A304A5LLV
++ _symbolic _____ 18PhotosIntelligence46PersonalEnvironmentSpatial3DResourceGenerationV
++ _symbolic _____ 22PhotosIntelligenceCore9PartOfDayO
++ _symbolic _____ So14PHFacePoseTypeV
++ _symbolic _____ So15PHFaceEyesStateV
++ _symbolic _____ So17PHFaceGlassesTypeV
++ _symbolic _____ So18PHFaceHeadGearTypeV
++ _symbolic _____ So24PLSearchCurationPropertyV
++ _symbolic _____ So34PLTextEmbeddingResultWithBiasScaleC18PhotosIntelligenceE5Error33_B3EE3166FFC045985C797B8A0B52A2CCLLO
++ _symbolic _____3key_yp5valuet s11AnyHashableV
++ _symbolic _____Iegd_ s5Int32V
++ _symbolic _____Iegd_ s6UInt16V
++ _symbolic _____Iegr_ 10Foundation3URLV
++ _symbolic _____Iegr_ 10Foundation6LocaleV
++ _symbolic _____Iegr_ 16GenerativeModels0aB12AvailabilityV0C0O14RestrictedInfoV0D6ReasonO
++ _symbolic _____Iegr_ 16GenerativeModels0aB12AvailabilityV0C0O15UnavailableInfoV0D6ReasonO
++ _symbolic _____Iegr_ 18PhotosIntelligence10QueryTokenV
++ _symbolic _____Iegr_ 18PhotosIntelligence10StoryStateC12PromptOriginO
++ _symbolic _____Iegr_ 18PhotosIntelligence12LLMModelTypeO
++ _symbolic _____Iegr_ 18PhotosIntelligence14QueryAttributeV
++ _symbolic _____Iegr_ 18PhotosIntelligence16PetExtendedTokenV
++ _symbolic _____Iegr_ 18PhotosIntelligence19PersonExtendedTokenV
++ _symbolic _____Iegr_ 18PhotosIntelligence21GlobalTraitCompletionV
++ _symbolic _____Iegr_ 18PhotosIntelligence22MusicKeywordCompletionC
++ _symbolic _____Iegr_ 18PhotosIntelligence22PromptSuggestionReaderO11ContentModeO
++ _symbolic _____Iegr_ 18PhotosIntelligence23ExtendedTokenCollectionV
++ _symbolic _____Iegr_ 18PhotosIntelligence23FreeformStoryGenerationV13ChronologicalV7CuratedV9GeneratorV20ShotlistMatchingMode33_9E52737EBA026ED82B00E9968808B759LLO
++ _symbolic _____Iegr_ 18PhotosIntelligence24QueryUnderstandingResultV
++ _symbolic _____Iegr_ 18PhotosIntelligence25FreeformStoryAssetElectorC21roundRobinElectAssets2in014targetNumberOfJ019assetUUIDsByFeature08requiredJ009forbiddenJ0SaySSGSDySSAJG_SiSDySSShySSGGA2JtF09CandidateE0L_V
++ _symbolic _____Iegr_ 18PhotosIntelligence28FreeformStoryKeyAssetElectorC14AssessedResultV10AssessmentO
++ _symbolic _____Iegr_ 18PhotosIntelligence31MemoryCreationAvailabilityStateO
++ _symbolic _____Iegr_ 18PhotosIntelligence8HastingsV19ClusterAssetElectorC011StochatizedE0V
++ _symbolic _____Iegr_ 18PhotosIntelligence8HastingsV19ClusterAssetElectorC07ElectedE8IteratorV09CandidateE0V
++ _symbolic _____Iegr_ So8_NSRangeV
++ _symbolic _____Iegr_ s5Int32V
++ _symbolic _____Iegr_ s6UInt16V
++ _symbolic _____SSIegno_ 10Foundation4DataV
++ _symbolic _____Sg 18PhotosIntelligence16LLMConfigurationV12InstructionsV
++ _symbolic _____Sg 18PhotosIntelligence27PersonalEnvironmentCurationO23AestheticScoreBreakdownV
++ _symbolic __________Xj l18PhotosIntelligence11AssetGatingO8Ruleable_px15FailureCodeTypeRts_XPXGMq AA27PersonalEnvironmentCurationO9PregatingO0fG0O
++ _symbolic ___________t 18PhotosIntelligence23Spatial3DCameraMovementO4KindO AC9DirectionO
++ _symbolic ______p 18PhotosIntelligence20ConnectionIdentifierP
++ _symbolic ______p 18PhotosIntelligence27PersonalEnvironmentCurationO17SuggestionContextP
++ _symbolic ______p So21PLTextEmbeddingResultP
++ _symbolic ______pIego_ s5ErrorP
++ _symbolic ______pSg 18PhotosIntelligence23GeneratedUncuratedStoryP
++ _symbolic ______pSg So21PLTextEmbeddingResultP
++ _symbolic _____m 18PhotosIntelligence14SafeForDisplay33_B10D745E0E1555F061FE8085F3C2300FLLV
++ _symbolic _____m 18PhotosIntelligence16ImageEligibility33_B10D745E0E1555F061FE8085F3C2300FLLV
++ _symbolic _____ySSSay_____GG s17_NativeDictionaryV 18PhotosIntelligence16PersonEnrollmentV13TrainingImageV
++ _symbolic _____ySay_____GG s23_ContiguousArrayStorageC 18PhotosIntelligence27PersonalEnvironmentCurationO0fG9SuggesterV19SuggestionCandidateC
++ _symbolic _____ySay_____GG s23_ContiguousArrayStorageC So24PLSearchCurationPropertyV
++ _symbolic _____yShySo17NSManagedObjectIDCGG s5SliceV
++ _symbolic _____ySi6offset_Sd7elementtG s23_ContiguousArrayStorageC
++ _symbolic _____ySo31PLPhotoAnalysisExecutiveServiceCG 18PhotosIntelligence27PhotoAnalysisServiceWrapperV
++ _symbolic _____ySo33PLPhotoAnalysisMomentGraphServiceCG 18PhotosIntelligence27PhotoAnalysisServiceWrapperV
++ _symbolic _____ySo34PLPhotoAnalysisPhotoLibraryServiceCG 18PhotosIntelligence27PhotoAnalysisServiceWrapperV
++ _symbolic _____ySo7PHAssetCSSG s17_NativeDictionaryV
++ _symbolic _____y_____G s11_SetStorageC 18PhotosIntelligence27PersonalEnvironmentCurationO0eF9SuggesterV19SuggestionCandidateC
++ _symbolic _____y_____G s22KeyedDecodingContainerV 18PhotosIntelligence16PersonEnrollmentV13ConfigurationV10CodingKeys33_9AB82E3340EC3E46CA3EC38B01261ECCLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 18PhotosIntelligence16PersonEnrollmentV13ConfigurationV10CodingKeys33_9AB82E3340EC3E46CA3EC38B01261ECCLLO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 18PhotosIntelligence16PersonEnrollmentV13TrainingImageV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC So24PLSearchCurationPropertyV
++ _symbolic _____y_____SiG s17_NativeDictionaryV 18PhotosIntelligence27PersonalEnvironmentCurationO9PregatingO11FailureCodeO
++ _symbolic _____y______G 18PhotosIntelligence11AssetGatingO20GenericFailureReasonV AA27PersonalEnvironmentCurationO9PregatingO0F4CodeO
++ _symbolic _____y__________XjG s23_ContiguousArrayStorageC l18PhotosIntelligence11AssetGatingO8Ruleable_px15FailureCodeTypeRts_XPXGMq AC27PersonalEnvironmentCurationO9PregatingO0iJ0O
++ _symbolic _____y___________G 18PhotosIntelligence11AssetGatingO18EligibilityCheckerV AA27PersonalEnvironmentCurationO18PresentationTargetO AG9PregatingO11FailureCodeO
++ _symbolic _____y_____y______GG s11_SetStorageC 18PhotosIntelligence11AssetGatingO20GenericFailureReasonV AC27PersonalEnvironmentCurationO9PregatingO0H4CodeO
++ _symbolic yt
++ _symbolic ytSSIegno_
++ _type_layout_string 18PhotosIntelligence16ImageEligibility33_B10D745E0E1555F061FE8085F3C2300FLLV
++ _type_layout_string 18PhotosIntelligence16PersonEnrollmentV13ConfigurationV
++ _type_layout_string 18PhotosIntelligence16PersonEnrollmentV13TrainingImageV
++ _type_layout_string 18PhotosIntelligence16PersonEnrollmentV5GroupO
++ _type_layout_string 18PhotosIntelligence23Spatial3DCameraMovementO5RangeV
++ _type_layout_string 18PhotosIntelligence27PersonalEnvironmentCurationO06NatureE7ContextV
++ _type_layout_string 18PhotosIntelligence27PersonalEnvironmentCurationO0E15ContextRegistryV
++ _type_layout_string 18PhotosIntelligence27PersonalEnvironmentCurationO0cD9SuggesterV
++ _type_layout_string 18PhotosIntelligence27PersonalEnvironmentCurationO0cD9SuggesterV19SuggestionCandidateC6SourceO
++ _type_layout_string 18PhotosIntelligence27PersonalEnvironmentCurationO14PenaltyWeightsV
++ _type_layout_string 18PhotosIntelligence27PersonalEnvironmentCurationO16CompositeWeightsV
++ _type_layout_string 18PhotosIntelligence27PersonalEnvironmentCurationO22NatureFilteringContextV
++ _type_layout_string 18PhotosIntelligence27PersonalEnvironmentCurationO23AestheticScoreBreakdownV
++ _type_layout_string 18PhotosIntelligence27PersonalEnvironmentCurationO24CategorizationThresholdsV
++ _type_layout_string 18PhotosIntelligence46PersonalEnvironmentSpatial3DResourceGenerationV
++ _type_layout_string So7CGPointV
+- +[PNDateGroundingProcessor queryParserManagerClass]
+- +[PNTextEmbeddingService modelVersion]
+- +[PNTextEmbeddingService textEmbeddingSPIVersion]
+- +[PNUserDefaults enableQueryAnnotationPipelineInPhotos]
+- -[PNTextEmbeddingResultWithBiasScale .cxx_destruct]
+- -[PNTextEmbeddingResultWithBiasScale calibratedScoreForImageSearchWithBaseScore:]
+- -[PNTextEmbeddingResultWithBiasScale calibrationVersion]
+- -[PNTextEmbeddingResultWithBiasScale defaultThresholdForImageSearch]
+- -[PNTextEmbeddingResultWithBiasScale embedding]
+- -[PNTextEmbeddingResultWithBiasScale initWithEmbedding:calibrationVersion:bias:scale:]
+- -[PNTextEmbeddingService .cxx_destruct]
+- -[PNTextEmbeddingService init]
+- -[PNTextEmbeddingService prewarmWithCompletionHandler:]
+- -[PNTextEmbeddingService requestTextEmbeddings:completionHandler:]
+- GCC_except_table10
+- GCC_except_table1073
+- GCC_except_table1085
+- GCC_except_table1187
+- GCC_except_table1189
+- GCC_except_table1226
+- GCC_except_table1228
+- GCC_except_table1240
+- GCC_except_table1306
+- GCC_except_table1311
+- GCC_except_table1313
+- GCC_except_table1316
+- GCC_except_table1324
+- GCC_except_table1326
+- GCC_except_table1404
+- GCC_except_table156
+- GCC_except_table170
+- GCC_except_table416
+- GCC_except_table423
+- GCC_except_table449
+- GCC_except_table526
+- GCC_except_table527
+- GCC_except_table533
+- GCC_except_table653
+- GCC_except_table654
+- GCC_except_table710
+- GCC_except_table719
+- GCC_except_table733
+- GCC_except_table982
+- GCC_except_table983
+- GCC_except_table984
+- GCC_except_table985
+- _MediaAnalysisServicesLibrary
+- _MediaAnalysisServicesLibraryCore.frameworkLibrary
+- _OBJC_CLASS_$_PNTextEmbeddingResultWithBiasScale
+- _OBJC_CLASS_$_PNTextEmbeddingService
+- _OBJC_IVAR_$_PNTextEmbeddingResultWithBiasScale._bias
+- _OBJC_IVAR_$_PNTextEmbeddingResultWithBiasScale._calibrationVersion
+- _OBJC_IVAR_$_PNTextEmbeddingResultWithBiasScale._embedding
+- _OBJC_IVAR_$_PNTextEmbeddingResultWithBiasScale._scale
+- _OBJC_IVAR_$_PNTextEmbeddingService._madService
+- _OBJC_IVAR_$_PNTextEmbeddingService._madServiceLock
+- _OBJC_METACLASS_$_PNTextEmbeddingResultWithBiasScale
+- _OBJC_METACLASS_$_PNTextEmbeddingService
+- _PHFetchTypeCollection
+- __DATA__TtC18PhotosIntelligenceP33_C735A4D88F1832ADAAC3DFA088149CA526UtilitiesCollectionFetcher
+- __IVARS__TtC18PhotosIntelligenceP33_C735A4D88F1832ADAAC3DFA088149CA526UtilitiesCollectionFetcher
+- __METACLASS_DATA__TtC18PhotosIntelligenceP33_C735A4D88F1832ADAAC3DFA088149CA526UtilitiesCollectionFetcher
+- __OBJC_$_CLASS_METHODS_PNSuggestionWallpaperUtilities(Utilities|GyroPoster|PhotosPosterBackdrop)
+- __OBJC_$_CLASS_METHODS_PNTextEmbeddingService
+- __OBJC_$_INSTANCE_METHODS_PNTextEmbeddingResultWithBiasScale
+- __OBJC_$_INSTANCE_METHODS_PNTextEmbeddingService
+- __OBJC_$_INSTANCE_VARIABLES_PNTextEmbeddingResultWithBiasScale
+- __OBJC_$_INSTANCE_VARIABLES_PNTextEmbeddingService
+- __OBJC_$_PROP_LIST_PNTextEmbeddingResult
+- __OBJC_$_PROP_LIST_PNTextEmbeddingResultWithBiasScale
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_PNTextEmbeddingResult
+- __OBJC_$_PROTOCOL_METHOD_TYPES_PNTextEmbeddingResult
+- __OBJC_$_PROTOCOL_REFS_PNTextEmbeddingResult
+- __OBJC_CLASS_PROTOCOLS_$_PNTextEmbeddingResultWithBiasScale
+- __OBJC_CLASS_RO_$_PNTextEmbeddingResultWithBiasScale
+- __OBJC_CLASS_RO_$_PNTextEmbeddingService
+- __OBJC_LABEL_PROTOCOL_$_PNTextEmbeddingResult
+- __OBJC_METACLASS_RO_$_PNTextEmbeddingResultWithBiasScale
+- __OBJC_METACLASS_RO_$_PNTextEmbeddingService
+- __OBJC_PROTOCOL_$_PNTextEmbeddingResult
+- __PROTOCOLS_PNParallaxSpatialPhotoProducer.13
+- __PROTOCOLS__TtC18PhotosIntelligence27PXParallaxSpatialPhotoScene.38
+- __PROTOCOLS__TtC18PhotosIntelligence37PromptSuggestionValidationObservation.29
+- __PROTOCOLS__TtC18PhotosIntelligence43MemoryCreationAvailabilityMonitorObservable.58
+- __PROTOCOLS__TtC18PhotosIntelligenceP33_A5661BF87DDC32E782519B9444AF90AD12DownloadTask.25
+- __PROTOCOLS__TtC18PhotosIntelligenceP33_A5661BF87DDC32E782519B9444AF90AD35PXParallaxSpatialPhotoSceneAnalyzer.18
+- __PROTOCOLS__TtCVO18PhotosIntelligence17Spatial3DCuration18WallpaperSuggester19SuggestionCandidate.6
+- ___55+[PNAssetCurationUtilities safeAssetsForWidgetDisplay:]_block_invoke
+- ___55-[PNTextEmbeddingService prewarmWithCompletionHandler:]_block_invoke
+- ___59-[PNPersonPromoter _promoteInterestingPersons:updateBlock:]_block_invoke.440
+- ___59-[PNPersonPromoter _promoteInterestingPersons:updateBlock:]_block_invoke.441
+- ___66-[PNTextEmbeddingService requestTextEmbeddings:completionHandler:]_block_invoke
+- ___76-[PNPersonPromoter interestingPersonsFromPersons:detectionType:updateBlock:]_block_invoke.411
+- ___76-[PNPersonPromoter interestingPersonsFromPersons:detectionType:updateBlock:]_block_invoke.412
+- ___76-[PNPersonPromoter interestingPersonsFromPersons:detectionType:updateBlock:]_block_invoke.413
+- ___78-[PNPersonClusterManager animalprintBasedDistanceBetweenPetFaces:andPetFaces:]_block_invoke.379
+- ___78-[PNPersonClusterManager animalprintBasedDistanceBetweenPetFaces:andPetFaces:]_block_invoke.380
+- ___89-[PNPersonPromoter _interestingPersonsFromVerifiedPersons:unverifiedPersons:updateBlock:]_block_invoke.431
+- ___95+[PNPersonPromoterEvaluation peopleClusteringWithParameter:photoLibrary:directoryURL:delegate:]_block_invoke.244
+- ___Block_byref_object_copy_.1797
+- ___Block_byref_object_copy_.3139
+- ___Block_byref_object_copy_.362
+- ___Block_byref_object_copy_.4023
+- ___Block_byref_object_copy_.688
+- ___Block_byref_object_dispose_.1798
+- ___Block_byref_object_dispose_.3140
+- ___Block_byref_object_dispose_.363
+- ___Block_byref_object_dispose_.4024
+- ___Block_byref_object_dispose_.689
+- ___MediaAnalysisServicesLibraryCore_block_invoke
+- ___block_descriptor_40_e8_32bs_e17_v16?0"NSError"8ls32l8
+- ___block_descriptor_56_e8_32s40s48bs_e20_v20?0i8"NSError"12ls32l8s40l8s48l8
+- ___block_descriptor_56_e8_32s40s_e24_v32?0"PHAsset"8Q16^B24ls32l8s40l8
+- ___block_literal_global.102
+- ___block_literal_global.1196
+- ___block_literal_global.1331
+- ___block_literal_global.1365
+- ___block_literal_global.1493
+- ___block_literal_global.1853
+- ___block_literal_global.2079
+- ___block_literal_global.246
+- ___block_literal_global.247
+- ___block_literal_global.2513
+- ___block_literal_global.252
+- ___block_literal_global.263
+- ___block_literal_global.269
+- ___block_literal_global.300
+- ___block_literal_global.302
+- ___block_literal_global.304
+- ___block_literal_global.309
+- ___block_literal_global.3142
+- ___block_literal_global.356
+- ___block_literal_global.3664
+- ___block_literal_global.371
+- ___block_literal_global.3816
+- ___block_literal_global.383
+- ___block_literal_global.400
+- ___block_literal_global.4152
+- ___block_literal_global.424
+- ___block_literal_global.430
+- ___block_literal_global.433
+- ___block_literal_global.472
+- ___block_literal_global.475
+- ___block_literal_global.732
+- ___getMADServiceClass_block_invoke
+- ___getMADTextEmbeddingRequestClass_block_invoke
+- ___swift_allocate_boxed_opaque_existential_1Tm
+- ___unnamed_1
+- ___unnamed_19
+- ___unnamed_25
+- __logger._log.4153
+- __logger.onceToken.4151
+- __swift_FORCE_LOAD_$_swiftCoreMedia
+- __swift_FORCE_LOAD_$_swiftCoreMedia_$_PhotosIntelligence
+- _associated conformance 18PhotosIntelligence23PNUtilityCollectionKindO10CodingKeys33_C735A4D88F1832ADAAC3DFA088149CA5LLOSHAASQ
+- _associated conformance 18PhotosIntelligence23PNUtilityCollectionKindO10CodingKeys33_C735A4D88F1832ADAAC3DFA088149CA5LLOs0F3KeyAAs23CustomStringConvertible
+- _associated conformance 18PhotosIntelligence23PNUtilityCollectionKindO10CodingKeys33_C735A4D88F1832ADAAC3DFA088149CA5LLOs0F3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 18PhotosIntelligence23PNUtilityCollectionKindO16HiddenCodingKeys33_C735A4D88F1832ADAAC3DFA088149CA5LLOs0G3KeyAAs23CustomStringConvertible
+- _associated conformance 18PhotosIntelligence23PNUtilityCollectionKindO16HiddenCodingKeys33_C735A4D88F1832ADAAC3DFA088149CA5LLOs0G3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 18PhotosIntelligence23PNUtilityCollectionKindO17ImportsCodingKeys33_C735A4D88F1832ADAAC3DFA088149CA5LLOs0G3KeyAAs23CustomStringConvertible
+- _associated conformance 18PhotosIntelligence23PNUtilityCollectionKindO17ImportsCodingKeys33_C735A4D88F1832ADAAC3DFA088149CA5LLOs0G3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 18PhotosIntelligence23PNUtilityCollectionKindO19DocumentsCodingKeys33_C735A4D88F1832ADAAC3DFA088149CA5LLOSHAASQ
+- _associated conformance 18PhotosIntelligence23PNUtilityCollectionKindO19DocumentsCodingKeys33_C735A4D88F1832ADAAC3DFA088149CA5LLOs0G3KeyAAs23CustomStringConvertible
+- _associated conformance 18PhotosIntelligence23PNUtilityCollectionKindO19DocumentsCodingKeys33_C735A4D88F1832ADAAC3DFA088149CA5LLOs0G3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 18PhotosIntelligence23PNUtilityCollectionKindO20DuplicatesCodingKeys33_C735A4D88F1832ADAAC3DFA088149CA5LLOs0G3KeyAAs23CustomStringConvertible
+- _associated conformance 18PhotosIntelligence23PNUtilityCollectionKindO20DuplicatesCodingKeys33_C735A4D88F1832ADAAC3DFA088149CA5LLOs0G3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 18PhotosIntelligence23PNUtilityCollectionKindO25RecentlyDeletedCodingKeys33_C735A4D88F1832ADAAC3DFA088149CA5LLOs0H3KeyAAs23CustomStringConvertible
+- _associated conformance 18PhotosIntelligence23PNUtilityCollectionKindO25RecentlyDeletedCodingKeys33_C735A4D88F1832ADAAC3DFA088149CA5LLOs0H3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 18PhotosIntelligence23PNUtilityCollectionKindOSHAASQ
+- _associated conformance 18PhotosIntelligence27PNDocumentSubCollectionKindOSHAASQ
+- _associated conformance 18PhotosIntelligence27PNDocumentSubCollectionKindOs12CaseIterableAA8AllCasessADP_Sl
+- _associated conformance 18PhotosIntelligence28OptionalizedTokensDataSourceC5ErrorOSHAASQ
+- _associated conformance So34PNTextEmbeddingResultWithBiasScaleC18PhotosIntelligenceE5Error33_B3EE3166FFC045985C797B8A0B52A2CCLLOSHACSQ
+- _audit_stringMediaAnalysisServices
+- _block_copy_helper.101
+- _block_copy_helper.107
+- _block_copy_helper.125
+- _block_copy_helper.126
+- _block_copy_helper.13
+- _block_copy_helper.146
+- _block_copy_helper.161
+- _block_copy_helper.165
+- _block_copy_helper.169
+- _block_copy_helper.180
+- _block_copy_helper.186
+- _block_copy_helper.190
+- _block_copy_helper.194
+- _block_copy_helper.198
+- _block_copy_helper.202
+- _block_copy_helper.206
+- _block_copy_helper.210
+- _block_copy_helper.22
+- _block_copy_helper.221
+- _block_copy_helper.227
+- _block_copy_helper.231
+- _block_copy_helper.24
+- _block_copy_helper.242
+- _block_copy_helper.248
+- _block_copy_helper.252
+- _block_copy_helper.256
+- _block_copy_helper.269
+- _block_copy_helper.273
+- _block_copy_helper.29
+- _block_copy_helper.290
+- _block_copy_helper.294
+- _block_copy_helper.30
+- _block_copy_helper.305
+- _block_copy_helper.311
+- _block_copy_helper.315
+- _block_copy_helper.319
+- _block_copy_helper.323
+- _block_copy_helper.340
+- _block_copy_helper.344
+- _block_copy_helper.348
+- _block_copy_helper.35
+- _block_copy_helper.352
+- _block_copy_helper.36
+- _block_copy_helper.363
+- _block_copy_helper.37
+- _block_copy_helper.377
+- _block_copy_helper.383
+- _block_copy_helper.387
+- _block_copy_helper.39
+- _block_copy_helper.391
+- _block_copy_helper.402
+- _block_copy_helper.408
+- _block_copy_helper.41
+- _block_copy_helper.412
+- _block_copy_helper.423
+- _block_copy_helper.427
+- _block_copy_helper.438
+- _block_copy_helper.444
+- _block_copy_helper.455
+- _block_copy_helper.461
+- _block_copy_helper.47
+- _block_copy_helper.48
+- _block_copy_helper.5
+- _block_copy_helper.50
+- _block_copy_helper.54
+- _block_copy_helper.58
+- _block_copy_helper.59
+- _block_copy_helper.7
+- _block_copy_helper.70
+- _block_copy_helper.86
+- _block_copy_helper.91
+- _block_descriptor.103
+- _block_descriptor.109
+- _block_descriptor.127
+- _block_descriptor.128
+- _block_descriptor.148
+- _block_descriptor.15
+- _block_descriptor.163
+- _block_descriptor.167
+- _block_descriptor.171
+- _block_descriptor.182
+- _block_descriptor.188
+- _block_descriptor.192
+- _block_descriptor.196
+- _block_descriptor.200
+- _block_descriptor.204
+- _block_descriptor.208
+- _block_descriptor.212
+- _block_descriptor.223
+- _block_descriptor.229
+- _block_descriptor.233
+- _block_descriptor.24
+- _block_descriptor.244
+- _block_descriptor.250
+- _block_descriptor.254
+- _block_descriptor.258
+- _block_descriptor.26
+- _block_descriptor.271
+- _block_descriptor.275
+- _block_descriptor.292
+- _block_descriptor.296
+- _block_descriptor.307
+- _block_descriptor.31
+- _block_descriptor.313
+- _block_descriptor.317
+- _block_descriptor.32
+- _block_descriptor.321
+- _block_descriptor.325
+- _block_descriptor.342
+- _block_descriptor.346
+- _block_descriptor.350
+- _block_descriptor.354
+- _block_descriptor.365
+- _block_descriptor.37
+- _block_descriptor.379
+- _block_descriptor.38
+- _block_descriptor.385
+- _block_descriptor.389
+- _block_descriptor.39
+- _block_descriptor.393
+- _block_descriptor.404
+- _block_descriptor.41
+- _block_descriptor.410
+- _block_descriptor.414
+- _block_descriptor.425
+- _block_descriptor.429
+- _block_descriptor.43
+- _block_descriptor.440
+- _block_descriptor.446
+- _block_descriptor.457
+- _block_descriptor.463
+- _block_descriptor.49
+- _block_descriptor.50
+- _block_descriptor.52
+- _block_descriptor.56
+- _block_descriptor.60
+- _block_descriptor.61
+- _block_descriptor.7
+- _block_descriptor.72
+- _block_descriptor.88
+- _block_descriptor.9
+- _block_descriptor.93
+- _block_destroy_helper.102
+- _block_destroy_helper.108
+- _block_destroy_helper.126
+- _block_destroy_helper.127
+- _block_destroy_helper.14
+- _block_destroy_helper.147
+- _block_destroy_helper.162
+- _block_destroy_helper.166
+- _block_destroy_helper.170
+- _block_destroy_helper.181
+- _block_destroy_helper.187
+- _block_destroy_helper.191
+- _block_destroy_helper.195
+- _block_destroy_helper.199
+- _block_destroy_helper.203
+- _block_destroy_helper.207
+- _block_destroy_helper.211
+- _block_destroy_helper.222
+- _block_destroy_helper.228
+- _block_destroy_helper.23
+- _block_destroy_helper.232
+- _block_destroy_helper.243
+- _block_destroy_helper.249
+- _block_destroy_helper.25
+- _block_destroy_helper.253
+- _block_destroy_helper.257
+- _block_destroy_helper.270
+- _block_destroy_helper.274
+- _block_destroy_helper.291
+- _block_destroy_helper.295
+- _block_destroy_helper.30
+- _block_destroy_helper.306
+- _block_destroy_helper.31
+- _block_destroy_helper.312
+- _block_destroy_helper.316
+- _block_destroy_helper.320
+- _block_destroy_helper.324
+- _block_destroy_helper.341
+- _block_destroy_helper.345
+- _block_destroy_helper.349
+- _block_destroy_helper.353
+- _block_destroy_helper.36
+- _block_destroy_helper.364
+- _block_destroy_helper.37
+- _block_destroy_helper.378
+- _block_destroy_helper.38
+- _block_destroy_helper.384
+- _block_destroy_helper.388
+- _block_destroy_helper.392
+- _block_destroy_helper.40
+- _block_destroy_helper.403
+- _block_destroy_helper.409
+- _block_destroy_helper.413
+- _block_destroy_helper.42
+- _block_destroy_helper.424
+- _block_destroy_helper.428
+- _block_destroy_helper.439
+- _block_destroy_helper.445
+- _block_destroy_helper.456
+- _block_destroy_helper.462
+- _block_destroy_helper.48
+- _block_destroy_helper.49
+- _block_destroy_helper.51
+- _block_destroy_helper.55
+- _block_destroy_helper.59
+- _block_destroy_helper.6
+- _block_destroy_helper.60
+- _block_destroy_helper.71
+- _block_destroy_helper.8
+- _block_destroy_helper.87
+- _block_destroy_helper.92
+- _flat unique So21PNTextEmbeddingResult_p
+- _getMADServiceClass
+- _getMADServiceClass.softClass
+- _getMADTextEmbeddingRequestClass
+- _getMADTextEmbeddingRequestClass.softClass
+- _get_type_metadata 15Synchronization5MutexVy10Foundation4DateVSgG noncopyable.27
+- _get_type_metadata 15Synchronization5MutexVy18PhotosIntelligence13ExtendedToken_pSgAD0eF10CollectionV_SaySayAdE_pGGtYbcG noncopyable.16
+- _get_type_metadata 15Synchronization5MutexVy18PhotosIntelligence17SafeTokenAnalyzerC20LazyInitializerStateOG noncopyable.4
+- _get_type_metadata 15Synchronization5MutexVy18PhotosIntelligence17StoryOrchestratorC18CancellationReasonO6reason_10Foundation4DateV06issuedK0tSgG noncopyable.98
+- _get_type_metadata 15Synchronization5MutexVy18PhotosIntelligence23ExtendedTokenCollectionVAF_ShySSGtYbcG noncopyable.15
+- _get_type_metadata 15Synchronization5MutexVySdSgG noncopyable.99
+- _get_witness_table 18PhotosIntelligence27FreeformStoryCompletionSyncVAA0cdE0HPyHC.24
+- _get_witness_table SHRzr0_lSSSHHPyHC.4
+- _objc_msgSend$PHSearchEntityCategoryTypeFromCSAttributedEntityType:
+- _objc_msgSend$URLForResource:withExtension:
+- _objc_msgSend$bias
+- _objc_msgSend$data
+- _objc_msgSend$embeddingResults
+- _objc_msgSend$enableQueryAnnotationPipelineInPhotos
+- _objc_msgSend$hastingsCurationFromAssetUUIDs:options:operationID:reply:
+- _objc_msgSend$performDisambiguationForPersonName:expansionStringValuesByCSAttributedEntityType:photoLibrary:
+- _objc_msgSend$performRequests:text:identifier:completionHandler:
+- _objc_msgSend$pn_genericErrorWithUnderlyingError:localizedDescription:
+- _objc_msgSend$prewarmTextRequests:completionHandler:
+- _objc_msgSend$queryEmbedding
+- _objc_msgSend$queryParserManagerClass
+- _objc_msgSend$requestPrewarmQueryAnnotatorForOriginatorPID:operationID:reply:
+- _objc_msgSend$requestQueryAnnotationForQuery:originatorPID:operationID:reply:
+- _objc_msgSend$scale
+- _objc_msgSend$setComputeThreshold:
+- _objc_msgSend$setIncludeDuplicatesAlbums:
+- _objc_msgSend$setIncludeTrashBinAlbum:
+- _objectdestroy.10Tm
+- _objectdestroy.12Tm
+- _objectdestroy.156Tm
+- _objectdestroy.15Tm
+- _objectdestroy.16Tm
+- _objectdestroy.22Tm
+- _objectdestroy.24Tm
+- _objectdestroy.26Tm
+- _objectdestroy.37Tm
+- _objectdestroy.4Tm
+- _objectdestroy.51Tm
+- _objectdestroy.54Tm
+- _objectdestroy.55Tm
+- _objectdestroy.57Tm
+- _objectdestroy.66Tm
+- _objectdestroy.69Tm
+- _objectdestroy.6Tm
+- _objectdestroy.7Tm
+- _objectdestroy.9Tm
+- _objectdestroyTm
+- _swift_stdlib_isStackAllocationSafe
+- _swift_task_isCancelled
+- _swift_unexpectedError
+- _symbolic $s18PhotosIntelligence28PNUtilitiesCollectionFetcherP
+- _symbolic SS3key______5valuetSg 10Foundation4DateV
+- _symbolic Say_____G 18PhotosIntelligence27PNDocumentSubCollectionKindO
+- _symbolic Say______pG_SaySaySfGGt So21PNTextEmbeddingResultP
+- _symbolic ScESg
+- _symbolic SccySay______pG______pG So21PNTextEmbeddingResultP s5ErrorP
+- _symbolic Si6offset______7elementtSg 18PhotosIntelligence13PersonalTraitV
+- _symbolic So22PNTextEmbeddingServiceC
+- _symbolic So28PLPhotoAnalysisServiceClientC
+- _symbolic So34PNTextEmbeddingResultWithBiasScaleC
+- _symbolic _____ 18PhotosIntelligence23PNUtilityCollectionKindO
+- _symbolic _____ 18PhotosIntelligence23PNUtilityCollectionKindO10CodingKeys33_C735A4D88F1832ADAAC3DFA088149CA5LLO
+- _symbolic _____ 18PhotosIntelligence23PNUtilityCollectionKindO16HiddenCodingKeys33_C735A4D88F1832ADAAC3DFA088149CA5LLO
+- _symbolic _____ 18PhotosIntelligence23PNUtilityCollectionKindO17ImportsCodingKeys33_C735A4D88F1832ADAAC3DFA088149CA5LLO
+- _symbolic _____ 18PhotosIntelligence23PNUtilityCollectionKindO19DocumentsCodingKeys33_C735A4D88F1832ADAAC3DFA088149CA5LLO
+- _symbolic _____ 18PhotosIntelligence23PNUtilityCollectionKindO20DuplicatesCodingKeys33_C735A4D88F1832ADAAC3DFA088149CA5LLO
+- _symbolic _____ 18PhotosIntelligence23PNUtilityCollectionKindO25RecentlyDeletedCodingKeys33_C735A4D88F1832ADAAC3DFA088149CA5LLO
+- _symbolic _____ 18PhotosIntelligence26UtilitiesCollectionFetcher33_C735A4D88F1832ADAAC3DFA088149CA5LLC
+- _symbolic _____ 18PhotosIntelligence27PNDocumentSubCollectionKindO
+- _symbolic _____ 18PhotosIntelligence27PhotoAnalysisServiceWrapper33_30304235A5A663BA7738DBF93C1C685ELLV
+- _symbolic _____ 18PhotosIntelligence28OptionalizedTokensDataSourceC5ErrorO
+- _symbolic _____ 18PhotosIntelligence35PNUtilitiesCollectionFetcherOptionsV
+- _symbolic _____ So34PNTextEmbeddingResultWithBiasScaleC18PhotosIntelligenceE5Error33_B3EE3166FFC045985C797B8A0B52A2CCLLO
+- _symbolic _____Sg 18PhotosIntelligence16AssetSummaryInfoV
+- _symbolic _____Sg 18PhotosIntelligence16GroundedLocationV
+- _symbolic _____Sg 18PhotosIntelligence20GlobalTraitGeneratorC5ErrorO
+- _symbolic _____Sg 18PhotosIntelligence29PhotoAnalysisExecutiveServiceV
+- _symbolic _____Sg 18PhotosIntelligence8HastingsV19ClusterAssetElectorC011StochatizedE0V
+- _symbolic _____Sg 20ModelManagerServices0aB5ErrorO
+- _symbolic _____Sg 20ModelManagerServices14InferenceErrorO
+- _symbolic _____Sg 29GenerativeFunctionsFoundation0A5ErrorV
+- _symbolic _____SgSg 22PhotosIntelligenceCore11PublicEventO
+- _symbolic _____SgSg 22PhotosIntelligenceCore13PersonalEventO
+- _symbolic _____Sg_ABt 18PhotosIntelligence22FreeformStoryGeneratorC7ChapterV
+- _symbolic ______AAt 18PhotosIntelligence31NonInternalDiagnosticsGeneratorO0cdE16LLMCommunicationO
+- _symbolic ______p So21PNTextEmbeddingResultP
+- _symbolic ______pSg 10Foundation15ContiguousBytesP
+- _symbolic ______pSg 18PhotosIntelligence21GeneratedCuratedStoryP
+- _symbolic ______pSg So21PNTextEmbeddingResultP
+- _symbolic _____yAAySo13PHFetchResultC_____G______t______pG s6ResultOsRi_zRi0_zrlE 18PhotosIntelligence27FreeformStoryChapterCuratorC5ErrorO AC06SingleF10StatisticsV sAFP
+- _symbolic _____ySDySSSaySSGG______pG s6ResultOsRi_zRi0_zrlE s5ErrorP
+- _symbolic _____ySDySSSay_____GG______pG s6ResultOsRi_zRi0_zrlE 10Foundation4DateV s5ErrorP
+- _symbolic _____ySS______pG s6ResultOsRi_zRi0_zrlE s5ErrorP
+- _symbolic _____ySaySDySSypGG______pG s6ResultOsRi_zRi0_zrlE s5ErrorP
+- _symbolic _____ySay_____G______pG s6ResultOsRi_zRi0_zrlE 18PhotosIntelligence018ECRPersonGroundingA0V s5ErrorP
+- _symbolic _____ySb______pG s6ResultOsRi_zRi0_zrlE s5ErrorP
+- _symbolic _____ySo17NSManagedObjectIDC__G Sh5IndexV8_VariantO
+- _symbolic _____ySo31PLPhotoAnalysisExecutiveServiceCG 18PhotosIntelligence27PhotoAnalysisServiceWrapper33_30304235A5A663BA7738DBF93C1C685ELLV
+- _symbolic _____ySo33PLPhotoAnalysisMomentGraphServiceCG 18PhotosIntelligence27PhotoAnalysisServiceWrapper33_30304235A5A663BA7738DBF93C1C685ELLV
+- _symbolic _____ySo34PLPhotoAnalysisPhotoLibraryServiceCG 18PhotosIntelligence27PhotoAnalysisServiceWrapper33_30304235A5A663BA7738DBF93C1C685ELLV
+- _symbolic _____y_____G s22KeyedDecodingContainerV 18PhotosIntelligence23PNUtilityCollectionKindO10CodingKeys33_C735A4D88F1832ADAAC3DFA088149CA5LLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 18PhotosIntelligence23PNUtilityCollectionKindO16HiddenCodingKeys33_C735A4D88F1832ADAAC3DFA088149CA5LLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 18PhotosIntelligence23PNUtilityCollectionKindO17ImportsCodingKeys33_C735A4D88F1832ADAAC3DFA088149CA5LLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 18PhotosIntelligence23PNUtilityCollectionKindO19DocumentsCodingKeys33_C735A4D88F1832ADAAC3DFA088149CA5LLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 18PhotosIntelligence23PNUtilityCollectionKindO20DuplicatesCodingKeys33_C735A4D88F1832ADAAC3DFA088149CA5LLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 18PhotosIntelligence23PNUtilityCollectionKindO25RecentlyDeletedCodingKeys33_C735A4D88F1832ADAAC3DFA088149CA5LLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 18PhotosIntelligence23PNUtilityCollectionKindO10CodingKeys33_C735A4D88F1832ADAAC3DFA088149CA5LLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 18PhotosIntelligence23PNUtilityCollectionKindO16HiddenCodingKeys33_C735A4D88F1832ADAAC3DFA088149CA5LLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 18PhotosIntelligence23PNUtilityCollectionKindO17ImportsCodingKeys33_C735A4D88F1832ADAAC3DFA088149CA5LLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 18PhotosIntelligence23PNUtilityCollectionKindO19DocumentsCodingKeys33_C735A4D88F1832ADAAC3DFA088149CA5LLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 18PhotosIntelligence23PNUtilityCollectionKindO20DuplicatesCodingKeys33_C735A4D88F1832ADAAC3DFA088149CA5LLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 18PhotosIntelligence23PNUtilityCollectionKindO25RecentlyDeletedCodingKeys33_C735A4D88F1832ADAAC3DFA088149CA5LLO
+- _symbolic _____y___________pG s6ResultOsRi_zRi0_zrlE 10Foundation4DataV s5ErrorP
+- _symbolic _____y_____yShySSGGG s16IndexingIteratorV s5SliceV
+- _symbolic _____y_____yShySo17NSManagedObjectIDCGGG s16IndexingIteratorV s5SliceV
+- _symbolic _____yyt______pG s6ResultOsRi_zRi0_zrlE s5ErrorP
+- _type_layout_string 18PhotosIntelligence35PNUtilitiesCollectionFetcherOptionsV
+- _type_layout_string So6CGSizeV
+CStrings:
++ "\n\tBlur score threshold: "
++ "\n\tExclude face masks: "
++ "\n\tExcluded eyes states: "
++ "\n\tExcluded glasses types: "
++ "\n\tExcluded headgear types: "
++ "\n\tExcluded pose types: "
++ "\n\tFace quality threshold: "
++ "\n\tLow limit multiplier: "
++ "\n\tMax training faces per person: "
++ "\n\tMinimum face size: "
++ "\n\tRoll threshold: "
++ "\n\tYaw threshold: "
++ "\n\ntgtool --model configuration failed to load "
++ "\n\ntgtool complete "
++ "\n    instructionsID: "
++ " with identifier: "
++ " }}\nChildren are in my photos: {{ "
++ " }}\nCreate a title for this Memory following the examples provided."
++ " }}\nCurrent Date: {{ "
++ " }}\nI want the story structure to be: {{ "
++ " }}\nInclude at least this many photo captions in each chapter: {{ "
++ " }}\nMy home location: {{ "
++ " }}\nNote: The current date is used as reference for interpreting relative time expressions like \"last month\", \"yesterday\", \"this year\", etc.\nThe photo library contains a list of person and pet names for reference: [{{ "
++ " }}\nPeople with these relationships to me are in my photos {{ "
++ " }}\nPeople with these relationships to me are in my photos: {{ "
++ " }}\nPets are in my photos: {{ "
++ " }}\nPets in my photos: {{ "
++ " }}\nPhoto captions in my library: {{ "
++ " }}\nPick this number of visual themes to write the story on: {{ "
++ " }}\nRespond with raw JSON only. No markdown, no backticks, no code blocks. Start with { and end with }."
++ " }}\nSome of the top locations present in my photos: {{ "
++ " }}\nWrite up to this many chapters in the story, avoiding unnecessary chapters: {{ "
++ " }} Return the result as an array of the asset IDs in JSON format. Your result can be an empty array in JSON format [] if no outliers or irrelevant assets are found. Do not return duplicated or non-existent asset IDs."
++ " }} Return the result as an array of the selected asset IDs in JSON format. Do not return asset IDs if no good matches are found. Do not return duplicated or non-existent asset IDs."
++ " }} The audience of your movie is from {{ "
++ " }} diverse assets to best make the movie for chapter \"{{ "
++ " }}\"\nBackground context (do not reference directly):{{ "
++ " }}\"\nProvide the following number of visual themes: {{ "
++ " }}\"\nVisual themes in my photos: {{ "
++ " }}\" but with a special focus on {{ "
++ " }}\" has been written, and your job is to curate up to {{ "
++ " }}\" has been written, and your job is to identify up to 5 assets that are not relevant to the story line or context in the movie. Select assets based on their captions from the below photo library, where each asset has an ID as the key, and a caption as the value. {{ "
++ " }}\" in this story. Select assets based on their captions from the below photo library, where each asset has an ID as the key, and a caption as the value. {{ "
++ " }}, and they are excited to see their partner act in it. Based on this movie idea, a story titled \"{{ "
++ " }}. Based on this movie idea, a story titled \"{{ "
++ " }}]. The query may include locations not in this list. Locations in this list may be eligible for expansion."
++ " }}]. The query may include names not in this list.\nThe photo library contains a list of location names for reference: [{{ "
++ "--nucleus-sampling-threshold "
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/Photos_Intelligence/Projects/PhotosIntelligence/Framework/Cropping/PNCropUtilitiesWrapper.m"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/Photos_Intelligence/Projects/PhotosIntelligence/Framework/Stories/Diagnostics/AssetCurationDiagnosticsGenerator.swift"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/Photos_Intelligence/Projects/PhotosIntelligence/Framework/Stories/Diagnostics/AssetStateDiagnosticsGenerator.swift"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/Photos_Intelligence/Projects/PhotosIntelligence/Framework/Stories/Diagnostics/ExtendedTokenDiagnosticsGenerator.swift"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/Photos_Intelligence/Projects/PhotosIntelligence/Framework/Stories/Diagnostics/FreeformStoryDiagnosticsGenerator.swift"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/Photos_Intelligence/Projects/PhotosIntelligence/Framework/Stories/Diagnostics/GlobalTraitDiagnosticsGenerator.swift"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/Photos_Intelligence/Projects/PhotosIntelligence/Framework/Stories/Diagnostics/MusicCurationDiagnosticsGenerator.swift"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/Photos_Intelligence/Projects/PhotosIntelligence/Framework/Stories/Diagnostics/NonInternalDiagnosticsGenerator+LLMCalls.swift"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/Photos_Intelligence/Projects/PhotosIntelligence/Framework/Stories/Diagnostics/NonInternalDiagnosticsGenerator.swift"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/Photos_Intelligence/Projects/PhotosIntelligence/Framework/Stories/Diagnostics/PersonalTraitDiagnosticsGenerator.swift"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/Photos_Intelligence/Projects/PhotosIntelligence/Framework/Stories/Diagnostics/QueryUnderstandingDiagnosticsGenerator.swift"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/Photos_Intelligence/Projects/PhotosIntelligence/Framework/Stories/Freeform/FreeformStoryChapterValidator.swift"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/Photos_Intelligence/Projects/PhotosIntelligence/Framework/Stories/Safety/SafetyControllerDiagnosticsGenerator.swift"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/Photos_Intelligence/Projects/PhotosIntelligence/Framework/Stories/StoryOrchestrator.swift"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/Photos_Intelligence/Projects/PhotosIntelligence/Framework/Stories/Suggestions/PromptSuggestionDiagnosticsGenerator.swift"
++ "7VAIdJbzOSsix2jFvXkRtAXJYxE."
++ "<count of transition kinds>"
++ "Aspect ratio too low."
++ "Asset curation: using %s"
++ "Asset not safe for display"
++ "Attempted %ld/%ld. Successfully generated %ld"
++ "Content classification model not created for version %lu"
++ "Cooled down Memory Creation Grounding Components"
++ "Deleted %ld retired suggestions"
++ "E3TiuxlcDq3gm7OfsQI_xXOwk4s."
++ "EmgSddi9QoaBg68T0vWLNF0Mt10."
++ "Error loading image for asset %@: %@"
++ "Failed to convert local identifier to UUID: %s"
++ "Failed to fetch faces for person %s"
++ "Failed to find centered faces for person %s"
++ "Failed to find fetch assets for person %s"
++ "Feature of kind "
++ "Fetched %ld PersonalEnvironmentSuggestion key assets for Spatial3D Resource generation."
++ "Fetched %ld suggestions for mode %s"
++ "Fetched training images for %ld people"
++ "Found %ld panorama assets"
++ "GMS instructions API"
++ "GMS prompt template API"
++ "Generating Spatial3D resource for %{public}s at target size %{public}s"
++ "Global traits v2: using %s"
++ "Global traits v3: using %s"
++ "I want to experience a story about: \"{{ "
++ "M4qvBMsoe46J-CJMg81A-HCk3ZA."
++ "MusicCuration.MusicCuration.CurateMusic."
++ "No assets found for existing suggestions"
++ "No assets with curation property lexeme exist, returning no assets"
++ "No focal length metadata available."
++ "PLTextEmbeddingService modelVersion: %ld"
++ "PLTextEmbeddingService.modelVersion() is nil. Using fallback model version: %s"
++ "PNPersonalEnvironmentSpatial3DResourceGenerationLimit"
++ "PNSpatial3DFeaturesPropertiesModeEnvironmentPano"
++ "PNSpatial3DFeaturesPropertiesModePano"
++ "PNSpatial3DFeaturesPropertiesModeWidget6x4"
++ "PNUseLEOForImagePlaygroundCuration"
++ "PNUseRaveModels"
++ "Person %s: Before deduping: %ld, after deduping: %ld"
++ "Person %s: Final backfill: Total %ld < %ld, backfilling with no glasses/hat filter"
++ "Person %s: Found no assets with High Recall strategy, returning no assets"
++ "Person %s: Index %ld: Found %ld assets, total %ld < %ld, backfilling with next strategy"
++ "Person %s: Index %ld: Found %ld assets, total %ld >= %ld, exiting"
++ "Person %s: Limited assets to top %ld. Now total %ld"
++ "Person Enrollment Parameters:\n\tAll faces limit: "
++ "PersonalEnvironmentCuration.SuggestionGeneration"
++ "PersonalEnvironmentCuration.SuggestionGeneration.process"
++ "PersonalEnvironmentSpatial3DResourceGeneration – No key assets found for top %ld suggestions: %@"
++ "PersonalEnvironmentSuggester.FindCandidateSuggestions"
++ "PhotosAlchemistModifySpatialPanoFocalLength"
++ "Pixel density too low. "
++ "Query understanding: using %s"
++ "Removed %ld resources for %ld retired suggestions. Kept %ld active resources."
++ "Saved resized image to disk for processing"
++ "Skipping resource removal for %s"
++ "Spatial3D %s resource already exists. Skipping generation for %s."
++ "Spatial3D.PersonalEnvironmentSpatial3DResourceGeneration"
++ "Storyteller one-shot: using %s"
++ "Storyteller streaming: using %s"
++ "Unexpected issue with the operand contruction"
++ "Unparseable curation properties identifier: %s"
++ "Vertical field of view too narrow. "
++ "WaSAcMpNLXEbL6B0Yn71PyZClhM."
++ "Write me a story about: \"{{ "
++ "You are a director on a movie set! Here is a movie idea of \"{{ "
++ "[PNDateGroundingProcessor] Memory Creation Manager (Query Parser) is not available for cooldown"
++ "[PNDateGroundingProcessor] Spotlight Query Parser for Memory Creation already prewarmed (%d)"
++ "[PNDateGroundingProcessor] Spotlight Query Parser for Memory Creation still in use (%d), not cooling down yet"
++ "[PNDateGroundingProcessor] cooldown Spotlight Query Parser for Memory Creation"
++ "[execute] Before deduping: %ld, after deduping: %ld"
++ "[execute] Computed scores for %ld candidates"
++ "[execute] Filtered to %ld/%ld candidates"
++ "[execute] Finding candidates from panoramas..."
++ "[execute] Found %ld unsorted candidates from panoramas..."
++ "[fetchCandidates] Created %ld candidates out of %ld assets fetched"
++ "[fetchCandidates] Creating candidates for %ld assets"
++ "[fetchCandidates] Returning %ld candidates\u00a0passing eligibilty gating"
++ "[fetchCandidates] Unsupported OS for fetching PersonalEnvironment scores from MediaAnalysis"
++ "[getExistingSuggestions] Created %ld candidates from existing personal environment suggestions"
++ "[getExistingSuggestions] Found %ld existing personal environment suggestions"
++ "[populateScores] Category distribution: %ld nature, %ld cityscape, %ld indoors, %ld unclassified"
++ "[populateScores] Detecting categories for %ld candidates..."
++ "[shotlistDrivenClusters] no clusters sent for shotlistDrivenCuration"
++ "[sortedDedupedCandidates] Could not cast sorted deduped SuggestionCandidate [NSArray] as [SuggestionCandidates]"
++ "[sortedDedupedCandidates] Final count of ranked and deduped candidates: %ld. timeIntervalForCandidateDeduping: %f sec. Number of iterations: %ld."
++ "[sortedDedupedCandidates] Target number of suggestions: %ld. Number of candidates: %ld. Number of clusters: %ld timeIntervalForCandidateDeduping: %f sec. timeIntervalReductionFactor: %ld. Number of clusters is less than the target. Try again."
++ "aestheticScoreTooLow"
++ "aspectRatioTooLow"
++ "blurScoreThreshold"
++ "cityscape"
++ "com.apple.photos.agent"
++ "com.apple.photos.memoryCreation.Title"
++ "contentClassificationVersion"
++ "curationScoreTooLow"
++ "environmentComfortUnacceptable"
++ "environmentPano"
++ "excludeFaceMasks"
++ "excludedEyesStates"
++ "excludedGlassesTypes"
++ "excludedHeadgearTypes"
++ "excludedPoseTypes"
++ "faceQualityAestheticallyGood"
++ "faceQualityHighPrecision"
++ "faceQualityHighRecall"
++ "faceQualityProminentFace"
++ "faceQualityThreshold"
++ "faceQualityUnobstructed"
++ "fieldOfViewTooNarrow"
++ "fieldOfViewUnavailable"
++ "h8gA3rayP5fZ_adVkSnxGEw4Ujc."
++ "hasFaceMask = FALSE"
++ "headgearType != "
++ "imageQualityAestheticallyGood"
++ "imageQualityHighPrecision"
++ "imageQualityHighRecall"
++ "indoors"
++ "lowLimitMultiplier"
++ "maximumNumberOfTrainingFacesPerPerson"
++ "nature"
++ "pano"
++ "photosPano"
++ "pixelDensityTooLow"
++ "pqz5YGOvR-cb5oyedDdD7w4aboY."
++ "relaxed"
++ "resizedSource.jpeg"
++ "screenshot"
++ "strictAll"
++ "strictCurrentlyFeatured"
++ "totalWeightedPenalty"
++ "unclassified"
++ "vNrp7LpRnbQv1Z8DHQx8ofOrE1M."
++ "widget6x4"
+- "\n\nSampling Parameters arguments: tgtool complete "
+- "#16@0:8"
+- "$__lazy_storage_$_curationContext"
+- "$__lazy_storage_$_decoder"
+- "$__lazy_storage_$_encoder"
+- "$__lazy_storage_$_storyTitleCategory"
+- "$defaultActor"
+- "--model configuration failed to load "
+- ".cxx_destruct"
+- "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/Photos/Projects/PhotosIntelligence/Framework/Cropping/PNCropUtilitiesWrapper.m"
+- "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/Photos/Projects/PhotosIntelligence/Framework/Stories/Diagnostics/AssetCurationDiagnosticsGenerator.swift"
+- "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/Photos/Projects/PhotosIntelligence/Framework/Stories/Diagnostics/AssetStateDiagnosticsGenerator.swift"
+- "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/Photos/Projects/PhotosIntelligence/Framework/Stories/Diagnostics/ExtendedTokenDiagnosticsGenerator.swift"
+- "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/Photos/Projects/PhotosIntelligence/Framework/Stories/Diagnostics/FreeformStoryDiagnosticsGenerator.swift"
+- "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/Photos/Projects/PhotosIntelligence/Framework/Stories/Diagnostics/GlobalTraitDiagnosticsGenerator.swift"
+- "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/Photos/Projects/PhotosIntelligence/Framework/Stories/Diagnostics/MusicCurationDiagnosticsGenerator.swift"
+- "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/Photos/Projects/PhotosIntelligence/Framework/Stories/Diagnostics/NonInternalDiagnosticsGenerator+LLMCalls.swift"
+- "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/Photos/Projects/PhotosIntelligence/Framework/Stories/Diagnostics/NonInternalDiagnosticsGenerator.swift"
+- "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/Photos/Projects/PhotosIntelligence/Framework/Stories/Diagnostics/PersonalTraitDiagnosticsGenerator.swift"
+- "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/Photos/Projects/PhotosIntelligence/Framework/Stories/Diagnostics/QueryUnderstandingDiagnosticsGenerator.swift"
+- "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/Photos/Projects/PhotosIntelligence/Framework/Stories/Freeform/FreeformStoryChapterValidator.swift"
+- "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/Photos/Projects/PhotosIntelligence/Framework/Stories/Safety/SafetyControllerDiagnosticsGenerator.swift"
+- "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/Photos/Projects/PhotosIntelligence/Framework/Stories/StoryOrchestrator.swift"
+- "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/Photos/Projects/PhotosIntelligence/Framework/Stories/Suggestions/PromptSuggestionDiagnosticsGenerator.swift"
+- "?"
+- "@\"<PFParallaxSpatialPhotoScene>\"132@0:8^{__CVBuffer=}16@\"NSString\"24d32{CGRect={CGPoint=dd}{CGSize=dd}}40{CGRect={CGPoint=dd}{CGSize=dd}}72B104@?<v@?d>108@?<B@?>116^@124"
+- "@\"<PFParallaxSpatialPhotoSceneAnalyzer>\"16@0:8"
+- "@\"<PFStoryRecipeAsset>\"24@0:8q16"
+- "@\"<PFStoryRecipeAsset>\"32@0:8q16@\"NSString\"24"
+- "@\"<PFStoryRecipeLibrary>\"24@0:8q16"
+- "@\"<PFStoryRecipePresentation>\"24@0:8q16"
+- "@\"<PFStoryRecipeSongAsset>\"16@0:8"
+- "@\"<PFStoryRecipeSongAsset>\"24@0:8@\"NSString\"16"
+- "@\"<PFStoryRecipeStyle>\"16@0:8"
+- "@\"<PNFaceGroupProtocol>\""
+- "@\"<PNFaceProtocol>\"16@0:8"
+- "@\"<PNFaceProtocol>\"40@0:8@\"<PNPersonProtocol>\"16@\"NSMapTable\"24@?<v@?f^B>32"
+- "@\"<PNFetchResultProtocol>\"16@0:8"
+- "@\"<PNFetchResultProtocol>\"24@0:8@\"<NSFastEnumeration>\"16"
+- "@\"<PNFetchResultProtocol>\"24@0:8@\"<PNFaceGroupProtocol>\"16"
+- "@\"<PNFetchResultProtocol>\"24@0:8@\"<PNMomentProtocol>\"16"
+- "@\"<PNFetchResultProtocol>\"24@0:8@\"<PNPersonProtocol>\"16"
+- "@\"<PNFetchResultProtocol>\"24@0:8@\"NSArray\"16"
+- "@\"<PNFetchResultProtocol>\"24@0:8Q16"
+- "@\"<PNFetchResultProtocol>\"32@0:8@\"<PNPersonProtocol>\"16@\"<PNMomentProtocol>\"24"
+- "@\"<PNFetchResultProtocol>\"32@0:8@\"NSArray\"16@\"<PNMomentProtocol>\"24"
+- "@\"<PNPersonPromoterDelegate>\""
+- "@\"<PNPersonProtocol>\""
+- "@\"<PNPhotoLibraryProtocol>\""
+- "@\"CLLocation\"16@0:8"
+- "@\"CLSAestheticsModel\""
+- "@\"CLSAssetFaceInformationSummary\"16@0:8"
+- "@\"CLSAssetProcessedSignals\"16@0:8"
+- "@\"CLSCLIPprintModel\""
+- "@\"CLSCityNatureModel\""
+- "@\"CLSCurationModel\"16@0:8"
+- "@\"CLSCurationSession\""
+- "@\"CLSEntityNetModel\""
+- "@\"CLSFaceModel\""
+- "@\"CLSIVSNSFWModel\""
+- "@\"CLSIconicScoreModel\""
+- "@\"CLSJunkClassificationModel\""
+- "@\"CLSMediaAnalysisModel\""
+- "@\"CLSMediaPreAnalysisModel\""
+- "@\"CLSMemeModel\""
+- "@\"CLSNSFWModel\""
+- "@\"CLSPotentialLandmarkModel\""
+- "@\"CLSSDModel\""
+- "@\"CLSSceneModel\""
+- "@\"CLSTabooEventModel\""
+- "@\"CLSTrendsSceneModel\""
+- "@\"CLSWallpaperScoreModel\""
+- "@\"MADGenerationService\""
+- "@\"MADService\""
+- "@\"NSArray\""
+- "@\"NSArray\"16@0:8"
+- "@\"NSArray\"24@0:8@\"PHFetchResult\"16"
+- "@\"NSArray\"44@0:8@\"PNPersonClusterManager\"16@\"NSSet\"24B32@?<v@?f^B>36"
+- "@\"NSArray\"48@0:8@\"NSArray\"16d24Q32@?<d@?@@>40"
+- "@\"NSData\"16@0:8"
+- "@\"NSDate\""
+- "@\"NSDate\"16@0:8"
+- "@\"NSDictionary\""
+- "@\"NSDictionary\"16@0:8"
+- "@\"NSDictionary\"24@0:8@\"<PNFetchResultProtocol>\"16"
+- "@\"NSManagedObjectID\"16@0:8"
+- "@\"NSMapTable\""
+- "@\"NSMutableArray\""
+- "@\"NSMutableDictionary\""
+- "@\"NSMutableSet\""
+- "@\"NSNumber\""
+- "@\"NSNumber\"16@0:8"
+- "@\"NSNumber\"24@0:8@\"NSNumber\"16"
+- "@\"NSPersonNameComponents\""
+- "@\"NSSet\""
+- "@\"NSSet\"16@0:8"
+- "@\"NSString\""
+- "@\"NSString\"16@0:8"
+- "@\"NSURL\""
+- "@\"NSURL\"16@0:8"
+- "@\"PFSceneTaxonomy\""
+- "@\"PHAssetAestheticProperties\"16@0:8"
+- "@\"PHAssetCollection\""
+- "@\"PHAssetCurationProperties\"16@0:8"
+- "@\"PHAssetMediaAnalysisProperties\"16@0:8"
+- "@\"PHFetchOptions\""
+- "@\"PHFetchResult\""
+- "@\"PHPhotoLibrary\""
+- "@\"PHPhotoLibrary\"16@0:8"
+- "@\"PHUserFeedbackCalculator\""
+- "@\"PNPersonClusterManager\""
+- "@\"PNPersonDeduperProfile\""
+- "@\"PNPersonPromoter\""
+- "@\"PNPersonPromoterProfile\""
+- "@\"PNPetPromoter\""
+- "@\"PNTimelineCrop\""
+- "@\"PNTimelineDataSourceOptions\""
+- "@\"PNVisionHelper\""
+- "@\"PNWallpaperCrop\""
+- "@\"VNSceneprint\"16@0:8"
+- "@\"_PNSafeAssetAnalyzer\""
+- "@104@0:8@16@24@32@40@48Q56@64d72@80@88Q96"
+- "@120@0:8Q16Q24Q32Q40Q48Q56Q64d72d80d88d96@104@112"
+- "@132@0:8^{__CVBuffer=}16@24d32{CGRect={CGPoint=dd}{CGSize=dd}}40{CGRect={CGPoint=dd}{CGSize=dd}}72B104@?108@?116^@124"
+- "@132@0:8^{__CVBuffer=}16@24d32{CGRect={CGPoint=dd}{CGSize=dd}}40{CGRect={CGPoint=dd}{CGSize=dd}}72B104^@108@?116@?124"
+- "@16@0:8"
+- "@176@0:8B16d20i28i32{CGRect={CGPoint=dd}{CGSize=dd}}36{CGRect={CGPoint=dd}{CGSize=dd}}68{CGRect={CGPoint=dd}{CGSize=dd}}100@132{CGRect={CGPoint=dd}{CGSize=dd}}140B172"
+- "@180@0:8@16d24i32i36{CGRect={CGPoint=dd}{CGSize=dd}}40{CGRect={CGPoint=dd}{CGSize=dd}}72{CGRect={CGPoint=dd}{CGSize=dd}}104@136{CGRect={CGPoint=dd}{CGSize=dd}}144B176"
+- "@188@0:8@16d24q32q40{CGRect={CGPoint=dd}{CGSize=dd}}48{CGRect={CGPoint=dd}{CGSize=dd}}80{CGRect={CGPoint=dd}{CGSize=dd}}112@144{CGRect={CGPoint=dd}{CGSize=dd}}152B184"
+- "@20@0:8B16"
+- "@20@0:8S16"
+- "@20@0:8s16"
+- "@24@0:8:16"
+- "@24@0:8@16"
+- "@24@0:8@?16"
+- "@24@0:8Q16"
+- "@24@0:8^@16"
+- "@24@0:8^{_NSZone=}16"
+- "@24@0:8d16"
+- "@24@0:8q16"
+- "@24@0:8r^{?=II{?=IIIII}IIIIIIIIII{?=I}{?=IIIIII}}16"
+- "@28@0:8@16B24"
+- "@28@0:8S16@20"
+- "@28@0:8S16Q20"
+- "@32@0:8:16@24"
+- "@32@0:8@16@24"
+- "@32@0:8@16@?24"
+- "@32@0:8@16B24B28"
+- "@32@0:8@16Q24"
+- "@32@0:8@16^@24"
+- "@32@0:8@16^S24"
+- "@32@0:8@16d24"
+- "@32@0:8@16q24"
+- "@32@0:8Q16@24"
+- "@32@0:8q16@24"
+- "@32@0:8q16Q24"
+- "@32@0:8q16q24"
+- "@32@0:8{CGSize=dd}16"
+- "@36@0:8@16@24B32"
+- "@36@0:8@16B24^@28"
+- "@36@0:8@16B24^{?=iiiiii}28"
+- "@36@0:8@16Q24B32"
+- "@36@0:8@16s24@28"
+- "@36@0:8@16s24@?28"
+- "@36@0:8^v16@24B32"
+- "@40@0:8:16@24@32"
+- "@40@0:8@\"NSManagedObjectID\"16@\"NSKnownKeysDictionary\"24@\"PHPhotoLibrary\"32"
+- "@40@0:8@16@24@32"
+- "@40@0:8@16@24@?32"
+- "@40@0:8@16@24B32B36"
+- "@40@0:8@16@24Q32"
+- "@40@0:8@16@24d32"
+- "@40@0:8@16@24q32"
+- "@40@0:8@16@?24Q32"
+- "@40@0:8@16Q24@32"
+- "@40@0:8@16Q24@?32"
+- "@40@0:8@16Q24B32B36"
+- "@40@0:8@16Q24Q32"
+- "@40@0:8@16^S24@32"
+- "@40@0:8@16q24Q32"
+- "@40@0:8@16q24q32"
+- "@40@0:8@16{CGSize=dd}24"
+- "@40@0:8Q16Q24Q32"
+- "@40@0:8d16d24@32"
+- "@40@0:8q16@24@32"
+- "@44@0:8@16@24B32@?36"
+- "@44@0:8@16q24Q32B40"
+- "@48@0:8@16@24@32@40"
+- "@48@0:8@16Q24@32B40B44"
+- "@48@0:8@16d24Q32@?40"
+- "@48@0:8@16q24Q32B40B44"
+- "@48@0:8@16{CGSize=dd}24@40"
+- "@52@0:8d16d24B32B36B40@44"
+- "@56@0:8@16@24@32Q40@48"
+- "@56@0:8@16@24@?32Q40Q48"
+- "@56@0:8@16@24d32Q40Q48"
+- "@56@0:8@16@24{CGSize=dd}32@48"
+- "@56@0:8{CGRect={CGPoint=dd}{CGSize=dd}}16d48"
+- "@60@0:8d16d24B32B36B40B44B48@52"
+- "@72@0:8@16@24@32@40@48@56@64"
+- "@80@0:8d16d24d32q40{CGRect={CGPoint=dd}{CGSize=dd}}48"
+- "@?16@0:8"
+- "B"
+- "B100@0:8@16{CGRect={CGPoint=dd}{CGSize=dd}}24{CGRect={CGPoint=dd}{CGSize=dd}}56B88^@92"
+- "B16@0:8"
+- "B16@?0Q8"
+- "B24@0:8#16"
+- "B24@0:8:16"
+- "B24@0:8@\"<PFStoryRecipe>\"16"
+- "B24@0:8@\"Protocol\"16"
+- "B24@0:8@16"
+- "B24@0:8@?16"
+- "B24@0:8B16B20"
+- "B24@0:8Q16"
+- "B28@0:8I16@20"
+- "B32@0:8@16@24"
+- "B32@0:8@16@?24"
+- "B32@0:8@16B24B28"
+- "B32@0:8@16Q24"
+- "B32@0:8@16^B24"
+- "B32@0:8@16^{?=IIIIII}24"
+- "B32@0:8@16^{?=IIIII}24"
+- "B32@0:8@16^{?=II{?=IIIII}IIIIIIIIII{?=I}{?=IIIIII}}24"
+- "B32@0:8@16^{?=I}24"
+- "B32@0:8@?16^@24"
+- "B32@0:8@?<v@?>16^@24"
+- "B32@0:8B16B20^@24"
+- "B32@0:8Q16@24"
+- "B32@0:8d16d24"
+- "B32@0:8{CGSize=dd}16"
+- "B36@0:8@16@24B32"
+- "B36@0:8Q16@24B32"
+- "B40@0:8@16@24@32"
+- "B40@0:8@16@24@?32"
+- "B40@0:8@16@24^@32"
+- "B40@0:8@16@24f32S36"
+- "B40@0:8@16@24q32"
+- "B40@0:8B16@20@28B36"
+- "B48@0:8@16@24@32^@40"
+- "B48@0:8@16@24Q32^@40"
+- "B52@0:8@16@24@32@40B48"
+- "B8@?0"
+- "CLIPprintModel"
+- "CLSAssetFaceInformationSummary"
+- "CLSAssetProcessedSignals"
+- "CLSAssetProcessedSignals_v1"
+- "CLSAssetProcessedSignals_v3"
+- "CLSAssetProcessedSignals_v4"
+- "CLSAssetProcessedSignals_v5"
+- "CLSAssetScoringContext"
+- "CLSCurationContext"
+- "CLSCurationItem"
+- "CLSCurationModel"
+- "CLSCurationModelSpecification"
+- "CLSCurationModel_v1"
+- "CLSCurationModel_v3"
+- "CLSCurationModel_v4"
+- "CLSCurationModel_v5"
+- "CLSCurationSession"
+- "CLSCurationUtilities"
+- "CLSFaceInformation"
+- "CLSIVSNSFWProcessedSignals"
+- "CLSNSFWProcessedSignals"
+- "CLSPHAssetSupportProtocol"
+- "CLSSDProcessedSignals"
+- "CLSSceneConfidenceThresholdHelper"
+- "CLSSceneTaxonomyHierarchy"
+- "CLSSceneTaxonomyHierarchyNode"
+- "CLSSimilarlyStackableItem"
+- "Class getMADServiceClass(void)_block_invoke"
+- "Class getMADTextEmbeddingRequestClass(void)_block_invoke"
+- "Curation"
+- "Generating asset curation outlier with prompt bindings: %{sensitive}s"
+- "Generating title with prompt bindings: %{sensitive}s"
+- "GenerativeMemoryPhotosGraphDataWrapper"
+- "GyroPoster"
+- "JSONObjectWithData:options:error:"
+- "MADService"
+- "MADTextEmbeddingRequest"
+- "Memory Creation Query Understanding adapter prewarm signal sent with originatorPID=%ld"
+- "MemoryCreationAvailabilityMonitorWrapper"
+- "Metrics"
+- "Model not available after download completed"
+- "NSCopying"
+- "NSFastEnumeration"
+- "NSMutableCopying"
+- "NSObject"
+- "Network not available"
+- "No photoAnalysis client is available"
+- "OS_dispatch_source"
+- "OS_dispatch_source_timer"
+- "OptionalizedTokens"
+- "PFParallaxSpatialPhotoProducer"
+- "PFParallaxSpatialPhotoProducerModelDownloadHandler"
+- "PFParallaxSpatialPhotoProducerModelDownloadTask"
+- "PFParallaxSpatialPhotoScene"
+- "PFParallaxSpatialPhotoSceneAnalyzer"
+- "PFStoryMutableRecipe"
+- "PFStoryRecipe"
+- "PHBatchFetchedObject"
+- "PHBatchFetchedPropertySet"
+- "PHPhotoLibraryChangeObserver"
+- "PHSearchEntityCategoryTypeFromCSAttributedEntityType:"
+- "PHSearchEntityCategoryTypeFromPHSearchSuggestionCategoriesType:"
+- "PLPhotoAnalysisCancellableService"
+- "PLRegionsClusteringItem"
+- "PNAmbientSuggestionUtilities"
+- "PNAssetCaptionGenerator"
+- "PNAssetCurationUtilities"
+- "PNAssetElectionOptions"
+- "PNAssetFetcher"
+- "PNAssetFetcherLimiter"
+- "PNAssetFetcherLimiterWrapper"
+- "PNAssetFetcherOptions"
+- "PNAssetFetcherOptionsWrapper"
+- "PNAssetFetcherWrapper"
+- "PNAssetSafeForDisplayModelSet"
+- "PNBackgroundMemoriesEmbeddingSearcher"
+- "PNCropUtilities"
+- "PNCropUtilitiesWrapper"
+- "PNCropVariant"
+- "PNDateGroundingProcessor"
+- "PNDetailsViewAssetFetcher"
+- "PNDetailsViewAssetFetcherOptions"
+- "PNDetailsViewSampler"
+- "PNEnableQueryAnnotationPipelineInPhotos"
+- "PNExternalAssetRelevanceUtilities"
+- "PNFaceGroupProtocol"
+- "PNFaceProtocol"
+- "PNFetchResultProtocol"
+- "PNFreeformStoryDiagnosticsProvider"
+- "PNFreeformStoryDiagnosticsUtils"
+- "PNLibraryProcessingProgressProvider"
+- "PNLocationCuratable"
+- "PNLocationCuration"
+- "PNLocationCurationWrapper"
+- "PNMADGenerationServiceWrapper"
+- "PNParallaxSpatialPhotoProducer"
+- "PNPersonCluster"
+- "PNPersonClusterManager"
+- "PNPersonCurationWrapper"
+- "PNPersonDeduper"
+- "PNPersonDeduperLocationStep"
+- "PNPersonDeduperProfile"
+- "PNPersonDeduperSocialGroupComplementStep"
+- "PNPersonDeduperSocialGroupOverlaps"
+- "PNPersonDeduperSocialGroupTimeWarpingStep"
+- "PNPersonDeduperStep"
+- "PNPersonDeduperTimeStep"
+- "PNPersonParameter"
+- "PNPersonPromoter"
+- "PNPersonPromoterDelegate"
+- "PNPersonPromoterEvaluation"
+- "PNPersonPromoterProfile"
+- "PNPersonProtocol"
+- "PNPersonSuggester"
+- "PNPersonSuggestion"
+- "PNPetPromoter"
+- "PNPetPromoterWrapper"
+- "PNPhotoLibraryProtocol"
+- "PNPhotosChallengeUtils"
+- "PNPromoterFaceGroup"
+- "PNPromoterFaceGroupFetchResult"
+- "PNPromoterPhotoLibrary"
+- "PNSafeAssetAnalyzer"
+- "PNSceneClassification"
+- "PNScoreConfiguration"
+- "PNSpatial3DGeneratorUtils"
+- "PNSpatialAnalyticsUtils"
+- "PNStoryPersonalTraitsGraphEntityNames"
+- "PNStoryRemoteConfiguration"
+- "PNSuggestionWallpaperShuffleUtilities"
+- "PNSuggestionWallpaperUtilities"
+- "PNTCCCollectionFetcherWrapper"
+- "PNTextEmbeddingResult"
+- "PNTextEmbeddingResultWithBiasScale"
+- "PNTextEmbeddingService"
+- "PNTextEmbeddingService modelVersion: %ld"
+- "PNTextEmbeddingService.m"
+- "PNTextEmbeddingService.modelVersion() is nil. Using fallback model version: %s"
+- "PNTimelineCrop"
+- "PNTimelineDataItem"
+- "PNTimelineDataSource"
+- "PNTimelineDataSourceOptions"
+- "PNTimelineEntry"
+- "PNTripFetcher"
+- "PNTripFetcherWrapper"
+- "PNUserDefaults"
+- "PNUserUtilities"
+- "PNVisionHelper"
+- "PNVisualOutliers"
+- "PNVisualOutliersWrapper"
+- "PNWallpaperAlbumSuggestionGenerator"
+- "PNWallpaperCrop"
+- "PNWallpaperCropResult"
+- "PNWallpaperSuggestionCandidate"
+- "PNWidgetAlbumSuggester"
+- "PNWidgetAssetsSuggester"
+- "PhotosIntelligence"
+- "PhotosIntelligence1"
+- "PhotosPosterBackdrop"
+- "Q16@0:8"
+- "Q20@0:8S16"
+- "Q24@0:8@16"
+- "Q24@0:8Q16"
+- "Q32@0:8@16@24"
+- "Q32@0:8@16q24"
+- "Q32@0:8Q16Q24"
+- "Q40@0:8^{?=Q^@^Q[5Q]}16^@24Q32"
+- "QUToken"
+- "S16@0:8"
+- "S24@0:8S16S20"
+- "S24@0:8q16"
+- "Sending a request for query annotation from pid(%ld)"
+- "Successfully prewarmed Memory Creation Query Understanding"
+- "Swift/Dictionary.swift"
+- "T#,R"
+- "T@\"<PFParallaxSpatialPhotoProducerModelDownloadHandler>\",N,R"
+- "T@\"<PFStoryRecipeSongAsset>\",R,C,N"
+- "T@\"<PFStoryRecipeStyle>\",C,N"
+- "T@\"<PFStoryRecipeStyle>\",R,C,N"
+- "T@\"<PNFaceGroupProtocol>\",&,N,V_sourceFaceGroup"
+- "T@\"<PNFaceProtocol>\",&,N"
+- "T@\"<PNPersonPromoterDelegate>\",N,R,Vdelegate"
+- "T@\"<PNPersonPromoterDelegate>\",W,N,V_delegate"
+- "T@\"<PNPersonProtocol>\",&,N,V_sourcePerson"
+- "T@\"<PNPhotoLibraryProtocol>\",&,N,V_photoLibrary"
+- "T@\"<PNPhotoLibraryProtocol>\",W,N,V_photoLibrary"
+- "T@\"CLLocation\",R,N"
+- "T@\"CLSAestheticsModel\",R,V_aestheticsModel"
+- "T@\"CLSAssetFaceInformationSummary\",R,N"
+- "T@\"CLSAssetProcessedSignals\",R,N"
+- "T@\"CLSCLIPprintModel\",R,V_CLIPprintModel"
+- "T@\"CLSCityNatureModel\",R,V_cityNatureModel"
+- "T@\"CLSCurationContext\",N,&"
+- "T@\"CLSCurationModel\",&"
+- "T@\"CLSCurationModel\",R"
+- "T@\"CLSCurationSession\",R,N,V_curationSession"
+- "T@\"CLSEntityNetModel\",R,V_entityNetModel"
+- "T@\"CLSFaceModel\",R,V_faceModel"
+- "T@\"CLSIVSNSFWModel\",R,N,V_ivsNSFWModel"
+- "T@\"CLSIVSNSFWModel\",R,V_ivsNSFWModel"
+- "T@\"CLSIconicScoreModel\",R,V_iconicScoreModel"
+- "T@\"CLSJunkClassificationModel\",R,V_junkClassificationModel"
+- "T@\"CLSMediaAnalysisModel\",R,V_mediaAnalysisModel"
+- "T@\"CLSMediaPreAnalysisModel\",R,V_mediaPreAnalysisModel"
+- "T@\"CLSMemeModel\",R,V_memeModel"
+- "T@\"CLSNSFWModel\",R,D"
+- "T@\"CLSNSFWModel\",R,N,V_nsfwModel"
+- "T@\"CLSNSFWModel\",R,V_nsfwModel"
+- "T@\"CLSPotentialLandmarkModel\",R,V_potentialLandmarkModel"
+- "T@\"CLSSDModel\",R,V_sdModel"
+- "T@\"CLSSceneModel\",R,V_sceneModel"
+- "T@\"CLSTabooEventModel\",R,N,V_tabooEventModel"
+- "T@\"CLSTabooEventModel\",R,V_tabooEventModel"
+- "T@\"CLSTrendsSceneModel\",R,V_trendsSceneModel"
+- "T@\"CLSWallpaperScoreModel\",R,V_wallpaperScoreModel"
+- "T@\"MADGenerationService\",R,N,V_generationService"
+- "T@\"NSArray\",C,N"
+- "T@\"NSArray\",N,C"
+- "T@\"NSArray\",R"
+- "T@\"NSArray\",R,N"
+- "T@\"NSArray\",R,N,V_assets"
+- "T@\"NSArray\",R,N,V_embedding"
+- "T@\"NSArray\",R,V_traits"
+- "T@\"NSData\",R,N"
+- "T@\"NSDate\",&,N,V_endTime"
+- "T@\"NSDate\",&,N,V_firstSeenDate"
+- "T@\"NSDate\",&,N,V_lastSeenDate"
+- "T@\"NSDate\",&,N,V_startTime"
+- "T@\"NSDate\",N,R"
+- "T@\"NSDate\",R"
+- "T@\"NSDate\",R,N"
+- "T@\"NSDictionary\",&,N"
+- "T@\"NSDictionary\",&,N,V_rawClusters"
+- "T@\"NSDictionary\",C,N"
+- "T@\"NSDictionary\",N,C"
+- "T@\"NSDictionary\",R"
+- "T@\"NSDictionary\",R,C,N"
+- "T@\"NSDictionary\",R,N"
+- "T@\"NSDictionary\",R,N,V_invalidCandidatesMapping"
+- "T@\"NSDictionary\",R,N,V_keyAssetByFeaturedPhotoLocalIdentifier"
+- "T@\"NSDictionary\",R,N,V_keyAssetByMemoryLocalIdentifier"
+- "T@\"NSDictionary\",R,N,V_suggestedCropByFeaturedPhotoLocalIdentifier"
+- "T@\"NSDictionary\",R,V_confidenceThresholdBySceneIdentifierForBabyChildTeenAdultAndPetScenes"
+- "T@\"NSDictionary\",R,V_confidenceThresholdBySceneIdentifierForBabyScenes"
+- "T@\"NSDictionary\",R,V_confidenceThresholdBySceneIdentifierForInterestingScenes"
+- "T@\"NSDictionary\",R,V_confidenceThresholdBySceneIdentifierForUtilityScenes"
+- "T@\"NSDictionary\",R,V_confidenceThresholdBySceneIdentifierForWhiteboardScenes"
+- "T@\"NSDictionary\",R,V_faceInformationByConsolidatedPersonLocalIdentifier"
+- "T@\"NSDictionary\",R,V_faceInformationByPersonLocalIdentifier"
+- "T@\"NSManagedObjectID\",R,N"
+- "T@\"NSMapTable\",R,N,V_mergeRelations"
+- "T@\"NSMutableArray\",&,N,V_featuredPhotoCandidates"
+- "T@\"NSMutableArray\",&,N,V_filteredContent"
+- "T@\"NSMutableArray\",&,N,V_memoryCandidates"
+- "T@\"NSMutableDictionary\",&,N,V_backingFaceIdentifiersByMomentIdentifiers"
+- "T@\"NSMutableDictionary\",&,N,V_personClusters"
+- "T@\"NSMutableDictionary\",&,N,V_representativeFaceByFaceIdentifiers"
+- "T@\"NSMutableDictionary\",R,N,V_metricsReport"
+- "T@\"NSMutableSet\",&,N,V_backingAssetIdentifiers"
+- "T@\"NSMutableSet\",&,N,V_backingFaceIdentifiers"
+- "T@\"NSMutableSet\",&,N,V_backingMomentIdentifiers"
+- "T@\"NSMutableSet\",&,N,V_mergedPersonIdentifiers"
+- "T@\"NSNumber\",&,N,V_quiescentState"
+- "T@\"NSNumber\",R"
+- "T@\"NSNumber\",R,N"
+- "T@\"NSNumber\",R,N,V_calibrationVersion"
+- "T@\"NSPersonNameComponents\",C,N,V_nameComponents"
+- "T@\"NSPredicate\",R"
+- "T@\"NSSet\",&,N,V_assetsToIgnore"
+- "T@\"NSSet\",&,N,V_sourcePersonBackingAssetIdentifiers"
+- "T@\"NSSet\",R"
+- "T@\"NSSet\",R,C,N"
+- "T@\"NSString\",&,N,V_name"
+- "T@\"NSString\",&,N,V_proactiveCriterion"
+- "T@\"NSString\",?,R,C"
+- "T@\"NSString\",C,N"
+- "T@\"NSString\",C,N,V_contactIdentifier"
+- "T@\"NSString\",C,N,V_nameString"
+- "T@\"NSString\",C,N,V_personLocalIdentifier"
+- "T@\"NSString\",N,R"
+- "T@\"NSString\",R"
+- "T@\"NSString\",R,C"
+- "T@\"NSString\",R,C,N"
+- "T@\"NSString\",R,N"
+- "T@\"NSString\",R,N,V_assetLocalIdentifier"
+- "T@\"NSString\",R,N,V_localIdentifier"
+- "T@\"NSString\",R,N,V_name"
+- "T@\"NSString\",R,N,V_sourceIdentifier"
+- "T@\"NSString\",R,N,V_subtitle"
+- "T@\"NSString\",R,N,V_suggestionContext"
+- "T@\"NSString\",R,N,V_title"
+- "T@\"NSString\",R,N,V_widgetIdentifier"
+- "T@\"NSURL\",R,N,V_deeplink"
+- "T@\"PFPseudoRandomNumberGenerator\",N,R"
+- "T@\"PHAssetCollection\",&,N,V_assetCollection"
+- "T@\"PHAssetCollection\",R,N,V_assetCollection"
+- "T@\"PHFetchOptions\",N,&,VfetchOptions"
+- "T@\"PHFetchOptions\",N,R,VfetchOptions"
+- "T@\"PHFetchResult\",R,N"
+- "T@\"PHFetchResult\",R,N,V_assets"
+- "T@\"PHFetchResult\",R,N,V_featuredMemories"
+- "T@\"PHPhotoLibrary\",&,N,V_photoLibrary"
+- "T@\"PHPhotoLibrary\",N,R,VphotoLibrary"
+- "T@\"PHPhotoLibrary\",R,N"
+- "T@\"PHPhotoLibrary\",R,N,V_photoLibrary"
+- "T@\"PHPhotoLibrary\",R,W,N,V_photoLibrary"
+- "T@\"PHUserFeedbackCalculator\",&,N,V_userFeedbackCalculator"
+- "T@\"PHUserFeedbackCalculator\",R,N,V_userFeedbackCalculator"
+- "T@\"PNPersonClusterManager\",&,N,V_personClusterManager"
+- "T@\"PNPersonClusterManager\",R,N,V_personClusterManager"
+- "T@\"PNPersonDeduperProfile\",&,N,V_deduperProfile"
+- "T@\"PNPersonDeduperProfile\",R,N,V_profile"
+- "T@\"PNPersonPromoter\",W,N,V_personPromoter"
+- "T@\"PNPersonPromoterProfile\",&,N,V_promoterProfile"
+- "T@\"PNPetPromoter\",W,N,V_petPromoter"
+- "T@\"PNTimelineCrop\",&,N,V_suggestedCrop"
+- "T@\"PNTimelineDataSourceOptions\",&,N,V_options"
+- "T@\"PNVisionHelper\",&,N,V_visionHelper"
+- "T@\"PNWallpaperCrop\",R,N,V_landscapeCrop"
+- "T@\"PNWallpaperCrop\",R,N,V_portraitCrop"
+- "T@\"VNSceneprint\",R"
+- "T@\"VNSceneprint\",R,N"
+- "T@,N,R"
+- "T@,R,N"
+- "TB,D,N"
+- "TB,N"
+- "TB,N,V_highlyInteresting"
+- "TB,N,V_includeAssets"
+- "TB,N,V_includeSuggestions"
+- "TB,N,V_isMe"
+- "TB,N,V_isNSFWExplicit"
+- "TB,N,V_isPreciselyNSFWExplicit"
+- "TB,N,V_isRecallinglyNSFWExplicit"
+- "TB,N,V_isShowcasingFood"
+- "TB,N,V_isVeryPreciselyIVSNSFWExplicit"
+- "TB,N,V_quarantined"
+- "TB,N,V_shouldEmphasizeAdjusted"
+- "TB,N,V_shouldEmphasizeBurst"
+- "TB,N,V_shouldEmphasizeLive"
+- "TB,N,V_shouldEmphasizePanorama"
+- "TB,N,V_shouldEmphasizeSDOF"
+- "TB,N,V_shouldEmphasizeShared"
+- "TB,N,V_shouldRelaxThreshold"
+- "TB,N,V_shouldStop"
+- "TB,N,VallowBackgroundDownload"
+- "TB,N,VincludeOthersInSocialGroupAssets"
+- "TB,R"
+- "TB,R,N"
+- "TB,R,N,V_includesPets"
+- "TB,R,V_faceIsGood"
+- "TB,R,V_faceIsOk"
+- "TB,R,V_faceSizeIsGood"
+- "TB,R,V_headroomEngaged"
+- "TB,R,V_isHiddenPerson"
+- "TB,R,V_isKnownPerson"
+- "TB,R,V_passesClockOverlap"
+- "TCCCollectionFetcher"
+- "TQ,N,V_faceProcessingVersion"
+- "TQ,N,V_highlyInterestingPersonNormalDistributionsToMatch"
+- "TQ,N,V_interestingPersonNormalDistributionsToMatch"
+- "TQ,N,V_rejectReason"
+- "TQ,N,Vseed"
+- "TQ,R"
+- "TQ,R,N"
+- "TQ,R,N,V_contentType"
+- "TQ,R,N,V_sourceType"
+- "TQ,R,V_faceAnalysisVersion"
+- "TQ,R,V_layoutVariant"
+- "TQ,R,V_mediaAnalysisVersion"
+- "TQ,R,V_sceneAnalysisVersion"
+- "TQ,R,V_similarityModelVersion"
+- "TS,R,N"
+- "TS,R,N,V_suggestionSubtype"
+- "TS,R,V_numberOfFaces"
+- "TS,R,V_numberOfFacesIncludingPets"
+- "TS,R,V_numberOfFacesOfHiddenPersons"
+- "TS,R,V_numberOfFacesOfVerifiedPersons"
+- "TS,R,V_numberOfGoodFaces"
+- "TS,R,V_numberOfGoodFacesIncludingPets"
+- "TS,R,V_numberOfGoodFacesOfVerifiedPersons"
+- "TTRNegativeTemplate"
+- "TTRPositiveTemplate"
+- "Td,N,R"
+- "Td,N,R,Vscore"
+- "Td,N,V_aestheticScoreThresholdToBeAwesome"
+- "Td,N,V_endValue"
+- "Td,N,V_fuzzyMaximumDistance"
+- "Td,N,V_highlyInterestingPersonFacesCumulativeNormalDistributionUpperTail"
+- "Td,N,V_highlyInterestingPersonLastSeenCumulativeNormalDistributionLowerTail"
+- "Td,N,V_highlyInterestingPersonLastSeenCumulativeNormalDistributionUpperTail"
+- "Td,N,V_highlyInterestingPersonMomentsCumulativeNormalDistributionUpperTail"
+- "Td,N,V_highlyInterestingPersonTimeCumulativeNormalDistributionUpperTail"
+- "Td,N,V_incrementValue"
+- "Td,N,V_interestingPersonFacesCumulativeNormalDistributionUpperTail"
+- "Td,N,V_interestingPersonFacesNormalDistributionSigmaFactor"
+- "Td,N,V_interestingPersonLastSeenCumulativeNormalDistributionLowerTail"
+- "Td,N,V_interestingPersonLastSeenCumulativeNormalDistributionUpperTail"
+- "Td,N,V_interestingPersonLastSeenNormalDistributionSigmaFactor"
+- "Td,N,V_interestingPersonMomentsCumulativeNormalDistributionUpperTail"
+- "Td,N,V_interestingPersonMomentsNormalDistributionSigmaFactor"
+- "Td,N,V_interestingPersonTimeCumulativeNormalDistributionUpperTail"
+- "Td,N,V_interestingPersonTimeNormalDistributionSigmaFactor"
+- "Td,N,V_interestingScore"
+- "Td,N,V_normalMaximumDistance"
+- "Td,N,V_playCountThreshold"
+- "Td,N,V_startValue"
+- "Td,N,V_strictMaximumDistance"
+- "Td,N,V_viewCountThreshold"
+- "Td,R"
+- "Td,R,N"
+- "Td,R,N,V_aspectRatio"
+- "Td,R,N,V_cropScore"
+- "Td,R,N,V_maxClockShift"
+- "Td,R,N,V_notificationRoom"
+- "Td,R,N,V_relevanceScore"
+- "Td,R,N,V_scaleFactor"
+- "Td,R,V_adaptiveHeadroom"
+- "Td,R,V_averageFaceQuality"
+- "Td,R,V_averageFaceQualityIncludingPets"
+- "Td,R,V_averageFaceQualityOfVerifiedPersons"
+- "Td,R,V_cropScore"
+- "Td,R,V_cropZoomRatio"
+- "Td,R,V_faceQuality"
+- "Td,R,V_faceSize"
+- "Td,R,V_faceSizeLowerLimit"
+- "Td,R,V_faceSizeUpperLimit"
+- "Td,R,V_userFeedbackScore"
+- "Tf,N,V_faceProcessingProgress"
+- "Tf,N,V_progress"
+- "The feature flag (MemoryCreationPersonalEventsBeyondMeanings) is not enabled and the current personalEvent is .unnamed, do not need to rewrite the what query annotation"
+- "Tq,D,N"
+- "Tq,N"
+- "Tq,N,R"
+- "Tq,N,R,Vlimit"
+- "Tq,N,R,VsampleBatchSize"
+- "Tq,N,R,Vtype"
+- "Tq,N,V_attribution"
+- "Tq,N,V_suggestionSource"
+- "Tq,N,VcurationLength"
+- "Tq,R"
+- "Tq,R,N"
+- "Tq,R,N,V_cropType"
+- "Tq,R,N,V_dataType"
+- "Tq,R,N,V_themeType"
+- "Ts,N,V_audioClassificationsToEmphasize"
+- "Ts,N,V_detectionType"
+- "Ts,R,N"
+- "Ts,R,N,V_detectionType"
+- "Ts,R,N,V_sceneAnalysisVersion"
+- "T{?=q{?={?=qiIq}{?=qiIq}{?=qiIq}}},N"
+- "T{?=q{?={?=qiIq}{?=qiIq}{?=qiIq}}},R,N"
+- "T{CGRect={CGPoint=dd}{CGSize=dd}},R,N"
+- "T{CGRect={CGPoint=dd}{CGSize=dd}},R,N,V_cropRect"
+- "T{CGRect={CGPoint=dd}{CGSize=dd}},R,V_adaptiveCropRect"
+- "T{CGSize=dd},N,V_widgetSize"
+- "T{CLLocationCoordinate2D=dd},R,N"
+- "URLByAppendingPathComponent:"
+- "URLByDeletingLastPathComponent"
+- "URLForDirectory:inDomain:appropriateForURL:create:error:"
+- "URLForResource:withExtension:"
+- "URLWithString:"
+- "UUIDString"
+- "Unable to get the optionalizedTokensByCategoryType, error=%@"
+- "Unable to prewarm Memory Creation Query Understanding with error=%@"
+- "Using the new Query Annotation V2"
+- "Utilities"
+- "Vv16@0:8"
+- "[PNDateGroundingProcessor] No \"enumerateSpotlightResultsForString:options:withBlock:\" is found to ground the date string \"%@\""
+- "[PNDateGroundingProcessor] No \"preheat\" is found for prewarming"
+- "[PNTextEmbeddingService] Failed to create MADTextEmbeddingRequest for prewarming."
+- "[PNTextEmbeddingService] Failed to create MADTextEmbeddingRequest."
+- "[PNTextEmbeddingService] Failed to prewarm embedding model."
+- "[PNTextEmbeddingService] Found empty text embedding generation result."
+- "[PNTextEmbeddingService] Found unknown element type in generation result: (%lu)."
+- "[PNTextEmbeddingService] Text embedding generation failed with no explicit underlying error with %@ embeddingResults"
+- "[PNTextEmbeddingService] Text embedding generation failed: %@"
+- "[PNTextEmbeddingService] Text embedding generation service request failed."
+- "^v"
+- "^{_NSZone=}16@0:8"
+- "_$observationRegistrar"
+- "_CLIPprintModel"
+- "_PNSafeAssetAnalyzer"
+- "_TtC18PhotosIntelligence10DayFetcher"
+- "_TtC18PhotosIntelligence10Dendrogram"
+- "_TtC18PhotosIntelligence10StoryState"
+- "_TtC18PhotosIntelligence11LLMDefaults"
+- "_TtC18PhotosIntelligence11TripFetcher"
+- "_TtC18PhotosIntelligence11YearFetcher"
+- "_TtC18PhotosIntelligence12EventFetcher"
+- "_TtC18PhotosIntelligence12MonthFetcher"
+- "_TtC18PhotosIntelligence13LLMAssetCache"
+- "_TtC18PhotosIntelligence13PersonFetcher"
+- "_TtC18PhotosIntelligence14MusicLocalizer"
+- "_TtC18PhotosIntelligence14PersonCuration"
+- "_TtC18PhotosIntelligence14TraitGenerator"
+- "_TtC18PhotosIntelligence15ErrorStatistics"
+- "_TtC18PhotosIntelligence15LLMWrapperUtils"
+- "_TtC18PhotosIntelligence15MusicMoodRanker"
+- "_TtC18PhotosIntelligence15MusicStatistics"
+- "_TtC18PhotosIntelligence15PromptSanitizer"
+- "_TtC18PhotosIntelligence15StoryMusicCache"
+- "_TtC18PhotosIntelligence15StoryStatistics"
+- "_TtC18PhotosIntelligence16CollectionScorer"
+- "_TtC18PhotosIntelligence16CompletionParser"
+- "_TtC18PhotosIntelligence16DayEventsFetcher"
+- "_TtC18PhotosIntelligence16MemoryStatistics"
+- "_TtC18PhotosIntelligence16SafetyController"
+- "_TtC18PhotosIntelligence16TraitsStatistics"
+- "_TtC18PhotosIntelligence16TripAssetElector"
+- "_TtC18PhotosIntelligence17AlbumAssetElector"
+- "_TtC18PhotosIntelligence17AsyncStreamWorker"
+- "_TtC18PhotosIntelligence17ChapterStatistics"
+- "_TtC18PhotosIntelligence17EventAssetElector"
+- "_TtC18PhotosIntelligence17SafeTokenAnalyzer"
+- "_TtC18PhotosIntelligence17StoryMusicCurator"
+- "_TtC18PhotosIntelligence17StoryOrchestrator"
+- "_TtC18PhotosIntelligence18AssetMediaAnalyzer"
+- "_TtC18PhotosIntelligence18DailyMemoryFetcher"
+- "_TtC18PhotosIntelligence18MemoryAssetElector"
+- "_TtC18PhotosIntelligence18PerformanceMeasure"
+- "_TtC18PhotosIntelligence18PersonAssetElector"
+- "_TtC18PhotosIntelligence18SocialGroupFetcher"
+- "_TtC18PhotosIntelligence19AgglomerativeKMeans"
+- "_TtC18PhotosIntelligence19AssetElectionResult"
+- "_TtC18PhotosIntelligence19FinalTokenGenerator"
+- "_TtC18PhotosIntelligence19SuggestionPersister"
+- "_TtC18PhotosIntelligence20FeatureSurveySection"
+- "_TtC18PhotosIntelligence20FeaturedPhotoFetcher"
+- "_TtC18PhotosIntelligence20FreeformStoryCurator"
+- "_TtC18PhotosIntelligence20GlobalTraitGenerator"
+- "_TtC18PhotosIntelligence20StoryAnalyticsSender"
+- "_TtC18PhotosIntelligence20StoryGenerationCache"
+- "_TtC18PhotosIntelligence20TripHighlightFetcher"
+- "_TtC18PhotosIntelligence21AppleMusicSmartSearch"
+- "_TtC18PhotosIntelligence21FeatureSurveyQuestion"
+- "_TtC18PhotosIntelligence21HighlightAssetElector"
+- "_TtC18PhotosIntelligence21PersonalTraitSelector"
+- "_TtC18PhotosIntelligence21PromptSuggestionCache"
+- "_TtC18PhotosIntelligence21SpatialAnalyticsUtils"
+- "_TtC18PhotosIntelligence21StoryDiagnosticsUtils"
+- "_TtC18PhotosIntelligence22AssetCurationUtilities"
+- "_TtC18PhotosIntelligence22ExtendedTokenGenerator"
+- "_TtC18PhotosIntelligence22FreeformStoryGenerator"
+- "_TtC18PhotosIntelligence22MaestroKeywordResolver"
+- "_TtC18PhotosIntelligence22MusicKeywordCompletion"
+- "_TtC18PhotosIntelligence22PersonalTraitGenerator"
+- "_TtC18PhotosIntelligence22PromptSuggestionRanker"
+- "_TtC18PhotosIntelligence22TripHighlightUtilities"
+- "_TtC18PhotosIntelligence23FeatureSurveyDataSource"
+- "_TtC18PhotosIntelligence23SocialGroupAssetElector"
+- "_TtC18PhotosIntelligence24CLIPBasedAssetSummarizer"
+- "_TtC18PhotosIntelligence24CollectionFetcherOptions"
+- "_TtC18PhotosIntelligence24LLMConfigurationProvider"
+- "_TtC18PhotosIntelligence24MomentExpansionProcessor"
+- "_TtC18PhotosIntelligence24MomentGroundingProcessor"
+- "_TtC18PhotosIntelligence24PromptSuggestionProvider"
+- "_TtC18PhotosIntelligence24StoryCompletionProcessor"
+- "_TtC18PhotosIntelligence24StoryDiversityController"
+- "_TtC18PhotosIntelligence24TraitCompletionProcessor"
+- "_TtC18PhotosIntelligence25FreeformStoryAssetElector"
+- "_TtC18PhotosIntelligence25ParallaxSpatialPhotoCache"
+- "_TtC18PhotosIntelligence25PromptSuggestionPersister"
+- "_TtC18PhotosIntelligence25TitleCompletionGeneration"
+- "_TtC18PhotosIntelligence26FeatureSurveyYesNoQuestion"
+- "_TtC18PhotosIntelligence26GlobalTraitPromptGenerator"
+- "_TtC18PhotosIntelligence26PromptSuggestionStatistics"
+- "_TtC18PhotosIntelligence26SummarizationCLIPClusterer"
+- "_TtC18PhotosIntelligence27DynamicLifeContextGenerator"
+- "_TtC18PhotosIntelligence27FeatureSurveySmileyQuestion"
+- "_TtC18PhotosIntelligence27FeatureSurveyStringQuestion"
+- "_TtC18PhotosIntelligence27FreeformStoryChapterCurator"
+- "_TtC18PhotosIntelligence27PXParallaxSpatialPhotoScene"
+- "_TtC18PhotosIntelligence27Spatial3DAssetResourceUtils"
+- "_TtC18PhotosIntelligence28AssetCurationPromptGenerator"
+- "_TtC18PhotosIntelligence28FreeformStoryKeyAssetElector"
+- "_TtC18PhotosIntelligence28MusicKeywordsPromptGenerator"
+- "_TtC18PhotosIntelligence28OptionalizedTokensDataSource"
+- "_TtC18PhotosIntelligence28QueryUnderstandingStatistics"
+- "_TtC18PhotosIntelligence28StoryGenerationEventRecorder"
+- "_TtC18PhotosIntelligence29FreeformStoryChapterGenerator"
+- "_TtC18PhotosIntelligence29FreeformStoryChapterValidator"
+- "_TtC18PhotosIntelligence29FreeformStoryRequestGenerator"
+- "_TtC18PhotosIntelligence29FreeformStorySurveyDataSource"
+- "_TtC18PhotosIntelligence29PersonalizationProfileBuilder"
+- "_TtC18PhotosIntelligence29PhotosSearchQueryManagerProxy"
+- "_TtC18PhotosIntelligence29TitlingAdapterPromptGenerator"
+- "_TtC18PhotosIntelligence30MusicKeywordsGeneratorEmbedded"
+- "_TtC18PhotosIntelligence30PromptLocalizableStringBuilder"
+- "_TtC18PhotosIntelligence30StorylineAndImageSurveyUtility"
+- "_TtC18PhotosIntelligence31GenerativeMemoryPhotosGraphData"
+- "_TtC18PhotosIntelligence31GlobalTraitCompletionGeneration"
+- "_TtC18PhotosIntelligence31PromptSuggestionSafetyValidator"
+- "_TtC18PhotosIntelligence32PersonalTraitEntityNetDataSource"
+- "_TtC18PhotosIntelligence32PromptSuggestionSearchDataSource"
+- "_TtC18PhotosIntelligence32StoryGenerationDiagnosticContext"
+- "_TtC18PhotosIntelligence33FreeformStoryDiagnosticsGenerator"
+- "_TtC18PhotosIntelligence33MemoryCreationAvailabilityMonitor"
+- "_TtC18PhotosIntelligence33MusicCurationDiagnosticsGenerator"
+- "_TtC18PhotosIntelligence34UIPromptSuggestionSourceStatistics"
+- "_TtC18PhotosIntelligence35PromptSuggestionEmbeddingCalculator"
+- "_TtC18PhotosIntelligence35StoryAppleIntelligenceEventReporter"
+- "_TtC18PhotosIntelligence37PromptSuggestionValidationObservation"
+- "_TtC18PhotosIntelligence39LibraryUnderstandingAvailabilityMonitor"
+- "_TtC18PhotosIntelligence41AssetCurationPromptGeneratorConfiguration"
+- "_TtC18PhotosIntelligence43MemoryCreationAvailabilityMonitorObservable"
+- "_TtC18PhotosIntelligence43PersonalTraitLibraryUnderstandingDataSource"
+- "_TtC18PhotosIntelligence5Story"
+- "_TtC18PhotosIntelligence6KMeans"
+- "_TtC18PhotosIntelligence6Random"
+- "_TtC18PhotosIntelligence7AjaxLLM"
+- "_TtC18PhotosIntelligence8FileLock"
+- "_TtC18PhotosIntelligenceP33_A5661BF87DDC32E782519B9444AF90AD12DownloadTask"
+- "_TtC18PhotosIntelligenceP33_A5661BF87DDC32E782519B9444AF90AD35PXParallaxSpatialPhotoSceneAnalyzer"
+- "_TtC18PhotosIntelligenceP33_C735A4D88F1832ADAAC3DFA088149CA526UtilitiesCollectionFetcher"
+- "_TtCC18PhotosIntelligence10Dendrogram11LinkageNode"
+- "_TtCC18PhotosIntelligence17StoryOrchestrator15DelegateChannel"
+- "_TtCC18PhotosIntelligence22PersonalTraitGenerator13MomentSampler"
+- "_TtCC18PhotosIntelligence22PersonalTraitGenerator14VUAssetSampler"
+- "_TtCC18PhotosIntelligence28FreeformStoryKeyAssetElector7Context"
+- "_TtCC18PhotosIntelligence7AjaxLLMP33_72909E56B06CA988A9E0242EA665377221DawTokenAuthenticator"
+- "_TtCCV18PhotosIntelligence8Hastings10Summarizer18DiagnosticReporter"
+- "_TtCCV18PhotosIntelligence8Hastings19ClusterAssetElector18DiagnosticReporter"
+- "_TtCCV18PhotosIntelligence8Hastings24RoundRobinElectionHelper18DiagnosticReporter"
+- "_TtCO18PhotosIntelligence16MessagesBackdrop19SuggestionProcessor"
+- "_TtCV18PhotosIntelligence10StoryAsset7Manager"
+- "_TtCV18PhotosIntelligence26Spatial3DResourceGeneratorP33_DB40652AF95023C545E196DA7FCE215C36PendingMXIScenePersistenceDictionary"
+- "_TtCV18PhotosIntelligence32FreeformStoryCompletionGenerator11Diagnostics"
+- "_TtCV18PhotosIntelligence8Hastings10Summarizer"
+- "_TtCV18PhotosIntelligence8Hastings15FeatureProvider"
+- "_TtCV18PhotosIntelligence8Hastings18DiagnosticReporter"
+- "_TtCV18PhotosIntelligence8Hastings19ClusterAssetElector"
+- "_TtCV18PhotosIntelligence8Hastings20ClusterElectionState"
+- "_TtCV18PhotosIntelligence8Hastings24RoundRobinElectionHelper"
+- "_TtCVCV18PhotosIntelligence8Hastings19ClusterAssetElector20ElectedAssetIterator18DiagnosticReporter"
+- "_TtCVO18PhotosIntelligence17Spatial3DCuration18WallpaperSuggester19SuggestionCandidate"
+- "_TtCVV18PhotosIntelligence8Hastings17ClusterComparator18DiagnosticReporter"
+- "_TtCVV18PhotosIntelligence8Hastings18TimeBasedClusterer18DiagnosticReporter"
+- "_TtCVV18PhotosIntelligence8Hastings7Elector18DiagnosticReporter"
+- "_TtP18PhotosIntelligence34PromptSuggestionValidationObserver_"
+- "_TtP18PhotosIntelligence41MemoryCreationAvailabilityMonitorListener_"
+- "_adaptiveCropRect"
+- "_adaptiveHeadroom"
+- "_adjustDistanceFactorForPerson:andPerson:forAgeType:andAgeType:"
+- "_aestheticScoreThresholdToBeAwesome"
+- "_aestheticsModel"
+- "_anyArrayNonEmpty:"
+- "_aspectRatio"
+- "_assetCollection"
+- "_assetFetchOptions"
+- "_assetIndexesForDate:count:from:"
+- "_assetIsSafeForWidgetDisplay:sceneClassifications:modelSet:"
+- "_assetLocalIdentifier"
+- "_assetObjectIDsFromClusters:facesByAssetIdentifiers:includeExtraAssets:"
+- "_assetPassesFRCInstantPlayback:"
+- "_assetScopingTokenElectionClosure"
+- "_assetSortComparatorForPortraitWallpaper"
+- "_assets"
+- "_assetsToIgnore"
+- "_attribution"
+- "_audioClassificationsToEmphasize"
+- "_averageFaceQuality"
+- "_averageFaceQualityIncludingPets"
+- "_averageFaceQualityOfVerifiedPersons"
+- "_backingAssetIdentifiers"
+- "_backingFaceIdentifiers"
+- "_backingFaceIdentifiersByMomentIdentifiers"
+- "_backingMomentIdentifiers"
+- "_bias"
+- "_bucketizeAssetByLayoutVariant:classification:"
+- "_cacheDates"
+- "_cacheDatesWithoutOutliersWithMaximumDistanceBetweenMoments:"
+- "_cacheExistsForAsset:"
+- "_calibrationVersion"
+- "_cityNatureModel"
+- "_coldStartPortraitWallpaperInPhotoLibrary:candidatePersons:passingFilterBlock:maximumNumberOfTries:targetCount:"
+- "_commonInitWithSceneNames:thresholdType:"
+- "_confidenceThresholdBySceneIdentifierBySceneModelIdentifier"
+- "_confidenceThresholdBySceneIdentifierBySceneModelIdentifierLock"
+- "_confidenceThresholdBySceneIdentifierForBabyChildTeenAdultAndPetScenes"
+- "_confidenceThresholdBySceneIdentifierForBabyScenes"
+- "_confidenceThresholdBySceneIdentifierForInterestingScenes"
+- "_confidenceThresholdBySceneIdentifierForUtilityScenes"
+- "_confidenceThresholdBySceneIdentifierForWhiteboardScenes"
+- "_confidencesForMergedPersonLocalIdentifier"
+- "_contactIdentifier"
+- "_contentType"
+- "_cropRect"
+- "_cropScore"
+- "_cropScoreWithAsset:"
+- "_cropType"
+- "_cropZoomRatio"
+- "_crossPlatformUnifiedMeContactWithKeysToFetch:error:"
+- "_curationModelBySpecification"
+- "_curationModelBySpecificationLock"
+- "_curationModelWithSpecification:"
+- "_curationSession"
+- "_dataType"
+- "_debugAlbumInfo"
+- "_deduperProfile"
+- "_deeplink"
+- "_defaultAssetFetchOptions"
+- "_defaultAssetPropertySets"
+- "_defaultFacePropertySets"
+- "_defaultFetchOptions"
+- "_defaultSortDescriptorsForMemories"
+- "_defaultSortDescriptorsForSuggestions"
+- "_delegate"
+- "_detectionType"
+- "_deviceScreenSize"
+- "_dictionaryRepresentationForFaceInformationByPersonLocalIdentifier:"
+- "_distancesForPersonLocalIdentifier"
+- "_distancesInCommonMomentsForPersonLocalIdentifier"
+- "_embedding"
+- "_endTime"
+- "_endValue"
+- "_entityNetModel"
+- "_executeStepsInSequences:forPersons:andOtherPersons:updateBlock:resultBlock:"
+- "_faceAnalysisVersion"
+- "_faceGroups"
+- "_faceIdentifiers"
+- "_faceInformationByConsolidatedPersonLocalIdentifier"
+- "_faceInformationByPersonLocalIdentifier"
+- "_faceInformationByPersonLocalIdentifierFromDictionaryRepresentation:"
+- "_faceIsGood"
+- "_faceIsOk"
+- "_faceModel"
+- "_facePredicateForPortraitWallpaperCandidatesWithPersonLocalIdentifiers:deviceAspectRatio:"
+- "_faceProcessingProgress"
+- "_faceProcessingVersion"
+- "_faceQuality"
+- "_faceSize"
+- "_faceSizeIsGood"
+- "_faceSizeLowerLimit"
+- "_faceSizeUpperLimit"
+- "_fd"
+- "_featuredMemories"
+- "_featuredPhotoCandidates"
+- "_fetchAssetsWithLocalIdentifiers:"
+- "_fetchFallbackMemoriesAndSetFeatured"
+- "_fetchFallbackSuggestionsAndSetFeatured"
+- "_fetchMeContactIdentifier"
+- "_fetchMemoriesWithFeaturedState:"
+- "_fetchMemoriesWithFeaturedState:fetchLimit:"
+- "_fetchMomentByAssetUUIDForAssets:"
+- "_fetchSettlingEffectSuggestionKeyAssetsWithOptions:"
+- "_fetchSuggestedMePersonLocalIdentifierInPhotoLibrary:"
+- "_fetchSuggestionsWithFeaturedState:"
+- "_fetchSuggestionsWithFeaturedState:fetchLimit:"
+- "_fileURL"
+- "_filterPersonUUIDs:fromPersonUUIDsByAssetUUID:personUUIDByMergeCandidateUUID:"
+- "_filterSuggestions:withSingleFeature:included:"
+- "_filteredContent"
+- "_filters"
+- "_firstSeenDate"
+- "_firstSeenDateWithoutOutliers"
+- "_forSceneNetOnly"
+- "_fuzzyMaximumDistance"
+- "_gatedCropSpecBySuggestionLocalIdentiferFromSuggestions:"
+- "_gatedKeyAssetByMemoryLocalIdentifierWithMemories:"
+- "_gatedKeyAssetBySuggestionLocalIdentifierWithSuggestions:"
+- "_generationService"
+- "_generationStage"
+- "_gmsAvailabilityNotifications"
+- "_graphOrderedPersonsWithPersons:withAllPersons:updateBlock:"
+- "_groupIdentifier"
+- "_hasAcceptableCropScoreWithAsset:"
+- "_hash"
+- "_headroomEngaged"
+- "_hiddenOrBlockedPersonUUIDs"
+- "_hiddenPeopleUUIDs"
+- "_highlyInteresting"
+- "_highlyInterestingPersonFacesCumulativeNormalDistributionUpperTail"
+- "_highlyInterestingPersonLastSeenCumulativeNormalDistributionLowerTail"
+- "_highlyInterestingPersonLastSeenCumulativeNormalDistributionUpperTail"
+- "_highlyInterestingPersonMomentsCumulativeNormalDistributionUpperTail"
+- "_highlyInterestingPersonNormalDistributionsToMatch"
+- "_highlyInterestingPersonTimeCumulativeNormalDistributionUpperTail"
+- "_iconicScoreModel"
+- "_includeAssets"
+- "_includeSuggestions"
+- "_includesPets"
+- "_incrementValue"
+- "_initWithFaceSize:faceQuality:isKnownPerson:isHiddenPerson:faceSizeIsGood:faceIsGood:faceIsOk:traits:"
+- "_initWithTimelineEntry:"
+- "_initializeAssets:"
+- "_initializeFeaturedCandidatesWithMemoryResult:suggestionResult:"
+- "_initializeWithForceEntryUUID:"
+- "_interestingPersonFacesCumulativeNormalDistributionUpperTail"
+- "_interestingPersonFacesNormalDistributionSigmaFactor"
+- "_interestingPersonLastSeenCumulativeNormalDistributionLowerTail"
+- "_interestingPersonLastSeenCumulativeNormalDistributionUpperTail"
+- "_interestingPersonLastSeenNormalDistributionSigmaFactor"
+- "_interestingPersonMomentsCumulativeNormalDistributionUpperTail"
+- "_interestingPersonMomentsNormalDistributionSigmaFactor"
+- "_interestingPersonNormalDistributionsToMatch"
+- "_interestingPersonTimeCumulativeNormalDistributionUpperTail"
+- "_interestingPersonTimeNormalDistributionSigmaFactor"
+- "_interestingPersonsFromVerifiedPersons:unverifiedPersons:updateBlock:"
+- "_interestingScore"
+- "_interestingTokenFilteringClosure"
+- "_internalPredicateToFilterSyndicatedAssetsEligibleWithCurationScore:"
+- "_invalidCandidatesMapping"
+- "_isAcceptableUserFeedbackForAssetCollection:personUUIDs:asset:"
+- "_isCanceled"
+- "_isHiddenPerson"
+- "_isKnownPerson"
+- "_isMe"
+- "_isMePersonWithLocalIdentifier:inPhotoLibrary:error:"
+- "_isNSFWExplicit"
+- "_isPreciselyNSFWExplicit"
+- "_isRecallinglyNSFWExplicit"
+- "_isShowcasingFood"
+- "_isSupportedTabooEventIdentifier:"
+- "_isVeryPreciselyIVSNSFWExplicit"
+- "_ivsNSFWModel"
+- "_junkClassificationModel"
+- "_keyAssetByFeaturedPhotoLocalIdentifier"
+- "_keyAssetByMemoryLocalIdentifier"
+- "_landscapeCrop"
+- "_largestBucketExcluding:fromBuckets:"
+- "_lastSeenDate"
+- "_layoutVariant"
+- "_leftChildNode"
+- "_listeners"
+- "_loadNonPetFacedPersonLocalIdentifiers"
+- "_loadPersonAndMergeCandidateUUIDs"
+- "_loadPersonalTraitEntityConfiguration"
+- "_localIdentifier"
+- "_localTimeFormatter"
+- "_logIntelligencePlatformUserFeedback:forSuggestion:"
+- "_logger"
+- "_madService"
+- "_madServiceLock"
+- "_makeSuggestionsFromAssets:numberOfSuggestions:date:"
+- "_mapPersonClustersToFaceGroups:"
+- "_mapPersonClustersToPersons:"
+- "_maxClockShift"
+- "_maximumNumberOfClustersForCuratedAssetCount:fetchLimit:"
+- "_meContactIdentifierWithError:"
+- "_mePersonUUIDInPhotoLibrary:"
+- "_mediaAnalysisModel"
+- "_mediaAnalysisVersion"
+- "_mediaPreAnalysisModel"
+- "_memeModel"
+- "_memoryCandidates"
+- "_mergeCandidateUUIDsForPerson:"
+- "_mergeRelations"
+- "_mergedPersonIdentifiers"
+- "_metricsReport"
+- "_minimiumDistanceRequiredForCommonAssetDistanceForAgeType:"
+- "_momentIsLocationTypeAtWork:"
+- "_mostRecentAssetDateInPhotoLibrary:"
+- "_mutableAssetIndexesForAssetCount:"
+- "_name"
+- "_nameComponents"
+- "_nameString"
+- "_newPersonDeduperWithVerifiedPersons:"
+- "_nonPetFacedPersonLocalIdentifiers"
+- "_normalMaximumDistance"
+- "_notificationRoom"
+- "_nsfwModel"
+- "_numberOfFaces"
+- "_numberOfFacesIncludingPets"
+- "_numberOfFacesOfHiddenPersons"
+- "_numberOfFacesOfVerifiedPersons"
+- "_numberOfGoodFaces"
+- "_numberOfGoodFacesIncludingPets"
+- "_numberOfGoodFacesOfVerifiedPersons"
+- "_options"
+- "_passesClockOverlap"
+- "_peopleClustersDictionaryForPeople:withPhotoLibrary:"
+- "_personClusterManager"
+- "_personClusterShouldBeVerified:"
+- "_personClusters"
+- "_personFetchOptionsWithPhotoLibrary:"
+- "_personLocalIdentifier"
+- "_personNameForGalleryTitleFromSuggestion:"
+- "_personOrPetUUIDsWithAvoidFeedback"
+- "_personOrPetUUIDsWithNegativeFeedback"
+- "_personPromoter"
+- "_personPromoterInformationAtURL:"
+- "_personTimespan:"
+- "_personUUIDByMergeCandidateUUID"
+- "_personUUIDsByAssetUUIDWithAssetUUIDs:personUUIDs:photoLibrary:"
+- "_personUUIDsByAssetUUIDWithAssets:personUUIDs:"
+- "_personalTraitEntityConfiguration"
+- "_petPromoter"
+- "_petUUIDsByAssetUUIDWithAssetUUIDs:photoLibrary:"
+- "_phFaceSortDescriptors"
+- "_phPeopleSortDescriptors"
+- "_photoLibrary"
+- "_pl_map:"
+- "_playCountThreshold"
+- "_polling"
+- "_populateAsset:withPersonUUIDs:consolidatedPersonUUIDs:petUUIDs:"
+- "_portraitCrop"
+- "_potentialLandmarkModel"
+- "_predicateForFeaturedSuggestions"
+- "_proactiveCriterion"
+- "_processingAvailability"
+- "_profile"
+- "_progress"
+- "_progressFromWorkerStatesDictionary:"
+- "_promoteInterestingPersons:updateBlock:"
+- "_promoteUnverifiedPersons:withVerifiedPersons:updateBlock:"
+- "_promoterDelegate"
+- "_promoterProfile"
+- "_propertyListRepresentationOfTraits"
+- "_quarantined"
+- "_quiescentState"
+- "_r14j9IsAvailable"
+- "_rawClusters"
+- "_registerDefaults"
+- "_rejectReason"
+- "_relevanceScore"
+- "_representativeFaceByFaceIdentifiers"
+- "_representativeFaceObservationForPerson:ageType:inAssetCollections:"
+- "_representativeFaceObservationForPersonIdentifier"
+- "_resolveMergeCandidate:forPerson:"
+- "_rightChildNode"
+- "_safeAssetAnalyzer"
+- "_scale"
+- "_scaleFactor"
+- "_sceneAnalysisVersion"
+- "_sceneModel"
+- "_sceneNames"
+- "_sceneTaxonomy"
+- "_sdModel"
+- "_settlingEffectAssetFetchPropertySets"
+- "_settlingEffectVideoDecisionForAsset:"
+- "_shouldEmphasizeAdjusted"
+- "_shouldEmphasizeBurst"
+- "_shouldEmphasizeLive"
+- "_shouldEmphasizePanorama"
+- "_shouldEmphasizeSDOF"
+- "_shouldEmphasizeShared"
+- "_shouldRelaxThreshold"
+- "_shouldStop"
+- "_shuffleAssetIndexes:"
+- "_similarityModelVersion"
+- "_sortedSocialGroups:withPersonsByLocalIdentifier:"
+- "_sortedUnverifiedPersonsToDedupForVerifiedPersons:type:updateBlock:"
+- "_sourceFaceGroup"
+- "_sourceIdentifier"
+- "_sourcePerson"
+- "_sourcePersonBackingAssetIdentifiers"
+- "_sourceType"
+- "_sources"
+- "_spatialPhotoSceneFor:cacheKey:focalLengthPx:portraitNormalizedTimeRect:landscapeNormalizedTimeRect:isInteractive:error:progressHandler:isCanceledHandler:"
+- "_startTime"
+- "_startValue"
+- "_state"
+- "_strictMaximumDistance"
+- "_subtitle"
+- "_suggestedCrop"
+- "_suggestedCropByFeaturedPhotoLocalIdentifier"
+- "_suggestionContext"
+- "_suggestionSource"
+- "_suggestionSubtype"
+- "_tabooEventModel"
+- "_taxonomyNodeRef"
+- "_themeType"
+- "_thresholdType"
+- "_timeBasedAssetClustersForAssets:maximumClusterCount:photoLibrary:"
+- "_title"
+- "_traits"
+- "_traitsFromTraitsPropertyListRepresentation:"
+- "_trendsSceneModel"
+- "_updateAvailableFeatures:forSuggestions:toClear:"
+- "_useEntityNet"
+- "_userFeedbackCalculator"
+- "_userFeedbackScore"
+- "_utcTimeFormatter"
+- "_verifiedPersonUUIDs"
+- "_verifiedPersonsToProcess"
+- "_viewCountThreshold"
+- "_visionHelper"
+- "_vuDistanceSPIEnabled"
+- "_wallpaperScoreModel"
+- "_widgetIdentifier"
+- "_widgetSize"
+- "_writePersonPromoterInformation:atURL:"
+- "absolutePopularityOfPOI:assetLongitude:sceneGeography:"
+- "absoluteString"
+- "acceptableCropRect"
+- "activityScore"
+- "adapterVersion"
+- "adaptiveCropRect"
+- "adaptiveHeadroom"
+- "addAsset:"
+- "addAssetResourceWithType:fromFileAtURL:"
+- "addAssets:"
+- "addAttribute:value:range:"
+- "addAudioClassifications:toAudioClassificationCounts:"
+- "addChildCollections:"
+- "addEntriesFromDictionary:"
+- "addFetchPropertySets:"
+- "addLibrary:"
+- "addMergeCandidatePersons:"
+- "addMergeCandidateWithConfidencePersons:"
+- "addObject:"
+- "addObjectsFromArray:"
+- "addPotentialMergeCandidateForPerson:withOtherPerson:updateBlock:"
+- "addPresentation:"
+- "addingKeyAssetForObject:toAssets:options:"
+- "adjustedThreshold:forMinAgeType:"
+- "advancedStatus"
+- "aestheticProperties"
+- "aestheticScoreThresholdToBeAestheticallyPrettyGood"
+- "aestheticScoreThresholdToBeAwesome"
+- "aestheticsModel"
+- "ageType"
+- "aggregatedFailureReasons"
+- "aggregatedProcessingResults"
+- "aiEventReporter"
+- "aiEventReporting"
+- "ajaxDawToken"
+- "albumCloudIdentifiers"
+- "albumLocalIdentifier"
+- "allFeaturedStateEnabledSuggestionTypesForWidget"
+- "allKeys"
+- "allObjects"
+- "allPotentialSuggestionLocalIdentifierGroupsForPosterConfiguration:fromSuggestionLocalIdentifiersByFeature:withRejectedPersonLocalIdentifiers:"
+- "allPotentialSuggestionLocalIdentifiersForPosterConfiguration:fromSuggestionLocalIdentifiersByFeature:withRejectedPersonLocalIdentifiers:"
+- "allQueryCharactersAssetUUIDs"
+- "allRequiredCharactersAssetUUIDs"
+- "allValues"
+- "allocWithZone:"
+- "allowBackgroundDownload"
+- "allowedSearchIndexCategoriesForMemoriesLocationPromptBinding"
+- "alwaysShowCreativePrompts"
+- "analyticsEventName"
+- "analyticsFieldName"
+- "analyticsFileURL"
+- "analyzeTimeOcclusionForSpatialPhotoScene:portraitNormalizedTimeRect:landscapeNormalizedTimeRect:isInteractive:error:"
+- "andPredicateWithSubpredicates:"
+- "animalprintBasedDistanceBetweenPetFaces:andPetFaces:"
+- "annotatedQueryString"
+- "anonymizedName"
+- "answer"
+- "anyNode"
+- "appendAttributedString:"
+- "appendFormat:"
+- "appleMusicMCPrivacyDisclosureState"
+- "appleMusicSubscriptionState"
+- "approximateCoordinate"
+- "archivedDataWithRecipe:"
+- "archivedDataWithRootObject:requiringSecureCoding:error:"
+- "array"
+- "arrayByAddingObject:"
+- "arrayByAddingObjectsFromArray:"
+- "arrayWithArray:"
+- "arrayWithCapacity:"
+- "arrayWithObjects:"
+- "arrayWithObjects:count:"
+- "artistName"
+- "aspectRatio"
+- "asset:isAestheticallyAwesomeWithContext:"
+- "assetAtIndex:"
+- "assetCache"
+- "assetCollection"
+- "assetCollectionSubtype"
+- "assetCurationDiagnosticsGenerator"
+- "assetCurationLocale"
+- "assetCurationModelVersion"
+- "assetCurationPegasusParameters"
+- "assetCurationPromptGenerator"
+- "assetCurationPromptMaximumTokenCount"
+- "assetCurationThimbleParameters"
+- "assetElector"
+- "assetIconicScoreForSceneClassificationIdentifiers:POIGeoHash:sceneGeography:"
+- "assetIconicScoreForSceneClassificationIdentifiers:POIGeoHash:sceneGeography:maxScenesCount:"
+- "assetIconicScoreForSceneClassificationIdentifiers:POIGeoHash:sceneGeography:maxScenesCount:popularityWeight:"
+- "assetIconicScoreForSceneClassificationIdentifiers:assetLatitude:assetLongitude:"
+- "assetIconicScoreForSceneClassificationIdentifiers:assetLatitude:assetLongitude:sceneGeography:"
+- "assetIconicScoreForSceneClassificationIdentifiers:assetLatitude:assetLongitude:sceneGeography:maxScenesCount:"
+- "assetIconicScoreForSceneClassificationIdentifiers:assetLatitude:assetLongitude:sceneGeography:maxScenesCount:popularityWeight:"
+- "assetIconicScoreForSceneClassifications:assetLatitude:assetLongitude:sceneGeography:sceneTaxonomy:"
+- "assetIsEligibleForDisplay:modelSet:"
+- "assetIsEligibleForSettlingEffect:"
+- "assetIsJunkWithSceneClassifications:confidenceThresholdBySceneIdentifierForScenesPreventingJunking:confidenceThresholdBySceneIdentifierForJunkingScenes:confidenceThresholdBySceneIdentifierForScenesPreventingSceneBasedJunking:forMemories:"
+- "assetIsSafeForDisplay:modelSet:"
+- "assetIsSafeForWidgetDisplay:"
+- "assetIsSafeForWidgetDisplay:sceneClassifications:"
+- "assetLocalIdentifier"
+- "assetNumberByStage"
+- "assetObjectIDByAssetUUIDCache"
+- "assetPertinenceFilter"
+- "assetResourcesForAsset:includeDerivatives:"
+- "assetRichDescriptionsGenerator"
+- "assetScopingTokenPromotionLikeliness"
+- "assetServerUrl"
+- "assetSortDescriptors"
+- "assetState"
+- "assetSummaryInfoByAssetUUIDCache"
+- "assetUUID"
+- "assetUUIDByCacheID"
+- "assetUUIDsByFilter"
+- "assetUUIDsToAvoid"
+- "assetUserActivityProperties"
+- "assetWithKind:identifier:"
+- "assetsDistancesSummary:inAssets:withinThresholdType:"
+- "assetsForDate:numberOfAssets:"
+- "assetsOverlapBetweenPerson:andPerson:"
+- "assetsOverlapBetweenPersonAssetIdentifiers:andPersonAssetIdentifiers:"
+- "assetsSelectionUsingOverlappingMomentsThreshold"
+- "assetsShowcasingFoodWithoutFacesInAssets:"
+- "assetsToIgnore"
+- "attribute:"
+- "attributesOfItemAtPath:error:"
+- "attributesState"
+- "attribution"
+- "audioClassification"
+- "audioClassificationsToEmphasize"
+- "audioClassificationsToEmphasizeWithAudioClassificationCounts:threshold:"
+- "autoEditDecisionLists"
+- "autonamingFeedbackStandardNameRepresentation"
+- "autonamingFeedbackStandardizedRepresentation"
+- "autonamingSuggestionReason"
+- "autonamingViewWithViewName:error:"
+- "autoplaySuggestionScore"
+- "autoplaySuggestionScoreExclusiveThresholdForVideoKeyAsset"
+- "autoplaySuggestionScoreThresholdToBeInteresting"
+- "autorelease"
+- "availabilityForFeature:completionHandler:"
+- "avoidIfPossibleForKeyAssetWithAsset:statistics:"
+- "avoidIfPossibleForKeyAssetWithProcessedSignals:statistics:"
+- "avoidIfPossibleForKeyAssetWithSignals:statistics:"
+- "avoidIfPossibleForMemoryKeyAssetWithAsset:"
+- "b1"
+- "backingAssetIdentifiers"
+- "backingFaceIdentifiers"
+- "backingFaceIdentifiersByMomentIdentifiers"
+- "backingMomentIdentifiers"
+- "bagForProfile:profileVersion:"
+- "base64EncodedStringWithOptions:"
+- "baseFaceAnalysisVersionWithFaceAnalysisVersion:"
+- "baseMediaAnalysisVersionWithMediaAnalysisVersion:"
+- "baseSceneAnalysisVersionWithSceneAnalysisVersion:"
+- "baseSpecificationWithSpecification:"
+- "baseVideoHighlightVersion"
+- "basicSequence"
+- "batchSize"
+- "bestAdaptiveCropRectForPosterClassification:layoutConfiguration:sourcePixelWidth:sourcePixelHeight:sourcePreferredCropRectNormalized:sourceAcceptableCropRectNormalized:sourceFaceAreaRectNormalized:headroomFeasible:"
+- "bestCropRectV2ForAspectRatio:withFocusRegion:sourcePixelWidth:sourcePixelHeight:sourcePreferredCropRectNormalized:sourceAcceptableCropRectNormalized:sourceFaceAreaRectNormalized:outputCropScore:"
+- "bestCropRectV2ForAspectRatio:zoom:sourcePixelWidth:sourcePixelHeight:sourceEssentialAreaRect:sourceSecondaryEssentialAreaRect:outputCropScore:"
+- "bestCropRectV2ForPosterClassification:layoutConfiguration:sourcePixelWidth:sourcePixelHeight:sourcePreferredCropRectNormalized:sourceAcceptableCropRectNormalized:sourceFaceAreaRectNormalized:outputCropScore:outputLayoutScore:outputClockOverlapAcceptable:"
+- "bestFaceRectWithImageSize:deviceSize:faceRegions:"
+- "bestWallpaperCropForAsset:classification:layoutConfiguration:headroomFeasible:withFaceRegions:"
+- "bestWallpaperCropForAsset:classification:outputCropScore:outputLayoutAcceptable:"
+- "bestWallpaperCropForAsset:classification:outputCropScore:outputLayoutAcceptable:layoutConfiguration:"
+- "bestWallpaperCropForSuggestion:outputCropScore:outputLayoutAcceptable:"
+- "bias"
+- "blockableFeatures"
+- "blockedExternalAppBundleIdentifiers"
+- "blockedSocialMediaAppBundleIdentifiers"
+- "bloodNode"
+- "blurrinessScore"
+- "boolForKey:"
+- "boolValue"
+- "boundingBox"
+- "bucketForIconicScore:"
+- "bundleForClass:"
+- "bundleIdentifier"
+- "bytes"
+- "cache"
+- "cacheCurationScore:"
+- "cacheDirectoryURL"
+- "cacheFileURL"
+- "cacheIDByAssetUUID"
+- "cacheReadError"
+- "cacheSize"
+- "cachedMaestroKeywords"
+- "calibratedScoreForImageSearchWithBaseScore:"
+- "calibrationVersion"
+- "callStackSymbols"
+- "cameraCaptureDeviceProperties"
+- "canUseLocationCoordinateForLocation"
+- "cancel"
+- "cancelOperationsWithIdentifiers:reply:"
+- "cancelRequest:"
+- "cancellationReasonAndIssuedDate"
+- "categoriesType"
+- "centroids"
+- "changeRequestForAsset:"
+- "changeRequestForCollectionList:"
+- "changeRequestForFace:"
+- "changeRequestForMemory:"
+- "changeRequestForPerson:"
+- "changeRequestForSuggestion:"
+- "changedObjects"
+- "chapterCurationRandomizerSeed"
+- "chapterCuratorFeatureTypesForDistribution"
+- "chapterStatistics"
+- "chapterValidatorMatchingRatioThresholdPerShotForFocusedChapters"
+- "chapterValidatorMinimumCoverageOfStoryAssetsInFinalChapters"
+- "chapterValidatorMinimumNumberOfMatchingShotsForFocusedChapters"
+- "chapterValidatorMinimumNumberOfRetrievedFilteredAssetPerChapter"
+- "chapterValidatorMinimumRatioOfMatchingShotsForFocusedChapters"
+- "chapterValidatorMinimumRatioOfNonoverlappingAssetsForDistinctShot"
+- "chapters"
+- "characterAtIndex:"
+- "characterRecognitionData"
+- "characterRecognitionProperties"
+- "checkResourceIsReachableAndReturnError:"
+- "chosenSuggestionLocalIdentifiersForPosterConfiguration:fromSuggestionLocalIdentifiersByFeature:atDate:usingStrategy:withRejectedPersonLocalIdentifiers:"
+- "chosenSuggestionLocalIdentifiersFromGroups:atDate:"
+- "chosenSuggestionLocalIdentifiersIn:atDate:"
+- "chosenSuggestionsForPosterConfiguration:atDate:inPhotoLibrary:"
+- "cityNatureModel"
+- "class"
+- "classificationType"
+- "clearAvailableFeatures:forSuggestions:"
+- "clearCaches"
+- "client"
+- "clientService"
+- "clockOverlapAcceptable"
+- "close"
+- "cloudIdentifier"
+- "cloudIdentifierForShuffleUserAlbumWithAssetCollection:photoLibrary:"
+- "clsActivityScore"
+- "clsAestheticScore"
+- "clsAllAssetsFromFetchResult:prefetchOptions:curationContext:"
+- "clsAutoplaySuggestionScore"
+- "clsAvoidIfPossibleAsKeyItemForMemories:allowGuestAsset:"
+- "clsAvoidIfPossibleAsKeyItemForMemories:allowGuestAsset:reason:"
+- "clsCacheIconicSceneScore:"
+- "clsCacheIsUtility:"
+- "clsContentScore"
+- "clsContentScoreRecomputingIfNeeded:"
+- "clsDuration"
+- "clsExposureScore"
+- "clsFaceInformationArePrefetched"
+- "clsFaceInformationSummary"
+- "clsFaceScore"
+- "clsHasCustomPlaybackVariation"
+- "clsHasInterestingAudioClassification"
+- "clsHasInterestingScenes"
+- "clsHasPoorResolution"
+- "clsHighlightVisibilityScore"
+- "clsIconicSceneScoreWithSceneGeography:"
+- "clsIconicScore"
+- "clsIdentifier"
+- "clsInterestingAudioClassifications"
+- "clsIsAestheticallyPrettyGood"
+- "clsIsBlurry"
+- "clsIsFaceProcessed"
+- "clsIsGuestAsset"
+- "clsIsInSharedLibrary"
+- "clsIsInterestingHDR"
+- "clsIsInterestingLivePhoto"
+- "clsIsInterestingPanorama"
+- "clsIsInterestingSDOF"
+- "clsIsInterestingVideo"
+- "clsIsLongExposure"
+- "clsIsLoopOrBounce"
+- "clsIsNonMemorable"
+- "clsIsSceneProcessed"
+- "clsIsScreenshotOrScreenRecording"
+- "clsIsTragicFailure"
+- "clsLocation"
+- "clsPeopleCountIsPrefetched"
+- "clsPersonAndPetLocalIdentifiers"
+- "clsPersonLocalIdentifiersArePrefetched"
+- "clsPlayCount"
+- "clsPrefetchOptionsForKeyAsset"
+- "clsProcessedSignals"
+- "clsSceneClassificationsArePrefetched"
+- "clsSetConsolidatedPersonLocalIdentifiers:"
+- "clsSetFaceInformationSummary:"
+- "clsSetPeopleCount:"
+- "clsSetPersonLocalIdentifiers:"
+- "clsSetPetLocalIdentifiers:"
+- "clsSetProcessedSignals:"
+- "clsSetSceneClassifications:"
+- "clsShareCount"
+- "clsSharpnessScore"
+- "clsSimilarityModelVersion"
+- "clsSquareCropScore"
+- "clsUnprefetchedPersonLocalIdentifiers"
+- "clsVideoFaceCount"
+- "clsVideoScore"
+- "clsViewCount"
+- "clsWallpaperScore"
+- "cls_localDate"
+- "cls_universalDate"
+- "clusterCreationBlock"
+- "clusterSequenceNumber"
+- "coarseLocationProperties"
+- "code"
+- "coldStartDeviceOwnerWallpaperInPhotoLibrary:"
+- "coldStartPortraitWallpaperInPhotoLibrary:"
+- "coldStartPortraitWallpaperInPhotoLibrary:passingFilterBlock:maximumNumberOfTries:"
+- "collectionType"
+- "compare:"
+- "componentsJoinedByString:"
+- "componentsSeparatedByString:"
+- "compressScene:withOptions:error:"
+- "computeCacheDidLoad:"
+- "computeDistance:withDistanceFunction:error:"
+- "computeIsUtilityForMemories"
+- "confidenceThresholdBySceneIdentifierBySceneModelVersion"
+- "confidenceThresholdBySceneIdentifierForBabyChildTeenAdultAndPetScenes"
+- "confidenceThresholdBySceneIdentifierForBabyScenes"
+- "confidenceThresholdBySceneIdentifierForInterestingScenes"
+- "confidenceThresholdBySceneIdentifierForSceneNames:withThresholdType:"
+- "confidenceThresholdBySceneIdentifierForUtilityScenes"
+- "confidenceThresholdBySceneIdentifierForWhiteboardScenes"
+- "confidenceThresholdBySceneIdentifierWithCurationModel:"
+- "configuration"
+- "configurationVersion"
+- "confirmWithIdentifier:person:confirmationType:"
+- "conformsToProtocol:"
+- "contactIdentifier"
+- "contactMatchingDictionary"
+- "containsObject:"
+- "containsString:"
+- "contentIdentifier"
+- "contentType"
+- "contentsOfDirectoryAtURL:includingPropertiesForKeys:options:error:"
+- "conversationID"
+- "conversations"
+- "coordinate"
+- "copy"
+- "copyItemAtURL:toURL:error:"
+- "copyWithZone:"
+- "count"
+- "countByEnumeratingWithState:objects:count:"
+- "countForObject:"
+- "createAssetWithCategory:subcategory:catalog:songID:title:subtitle:colorGradeCategory:"
+- "createDirectoryAtPath:withIntermediateDirectories:attributes:error:"
+- "createDirectoryAtURL:withIntermediateDirectories:attributes:error:"
+- "createDirectoryIfNotExitAtURL:"
+- "createRecipe"
+- "createSpatialPhotoSceneAnalyzer"
+- "createSuggestions"
+- "creationRequestForAssetCollectionWithTitle:"
+- "creationRequestForCollectionListWithTitle:"
+- "creationRequestForMemoryWithTitle:subtitle:creationDate:category:subcategory:representativeAssets:curatedAssets:extendedCuratedAssets:keyAsset:"
+- "creationRequestForSuggestionWithType:subtype:keyAssets:representativeAssets:creationDate:relevantUntilDate:version:"
+- "cropForAsset:withTargetSize:"
+- "cropForOrientation:"
+- "cropRect"
+- "cropScore"
+- "cropScoreForTargetAspectRatio:forFaces:"
+- "cropScoreSortDescriptorForOrientation:"
+- "cropScoreWithAsset:classification:passesClockOverlap:cropZoomRatio:orientation:"
+- "cropScoreWithAsset:classification:passesClockOverlap:headroomEngaged:cropZoomRatio:adaptiveHeadroom:maxClockShift:notificationRoom:layoutVariant:orientation:adaptiveCropRect:headroomFeasible:withFaceRegions:"
+- "cropType"
+- "cropVariantsForAsset:faces:"
+- "cropVariantsForAsset:targetSize:faces:"
+- "cropVariantsFromSignalsPrefersFaceCrops:aspectRatio:sourcePixelWidth:sourcePixelHeight:acceptableCropRect:preferredCropRect:faceAreaRect:objectSaliencyRects:gazeAreaRect:isDenormalized:"
+- "cropVariantsFromSignalsWithCropTypes:aspectRatio:sourcePixelWidth:sourcePixelHeight:acceptableCropRect:preferredCropRect:faceAreaRect:objectSaliencyRects:gazeAreaRect:isDenormalized:"
+- "cropZoomRatio"
+- "cumulativeNormalDistributionWithData:sigmaFactor:usingBlock:"
+- "curatedAssetsFromAssetUUIDs:options:operationID:reply:"
+- "curationContext"
+- "curationModel"
+- "curationModelForAsset:"
+- "curationModelForItemInfo:options:"
+- "curationModelWithSpecification:"
+- "curationOptions"
+- "curationPoolAssetCount"
+- "curationPredicate"
+- "curationProperties"
+- "curationSession"
+- "curatorId"
+- "currentAssetCaptionRequestID"
+- "currentCalendar"
+- "currentDownloadTask"
+- "currentHandler"
+- "currentHighlightInformationRequestID"
+- "currentPosition"
+- "currentSceneVersion"
+- "currentStyle"
+- "currentStyleSongAsset"
+- "currentUnifiedEmbeddingVersion"
+- "currentVideoCaptionPreferenceRequestID"
+- "customSeed"
+- "customTitle"
+- "d"
+- "d112@0:8@16Q24^B32^B40^d48^d56^d64^d72^Q80q88^{CGRect={CGPoint=dd}{CGSize=dd}}96B104B108"
+- "d16@0:8"
+- "d20@0:8B16"
+- "d24@0:8@\"CLSAssetScoringContext\"16"
+- "d24@0:8@16"
+- "d28@0:8d16B24"
+- "d32@0:8@16@24"
+- "d40@0:8@16@24@32"
+- "d40@0:8@16d24d32"
+- "d40@0:8d16d24@32"
+- "d40@0:8d16{CGSize=dd}24"
+- "d48@0:8@16@24@32q40"
+- "d48@0:8@16d24d32@40"
+- "d56@0:8@16@24@32q40d48"
+- "d56@0:8@16Q24^B32^d40q48"
+- "d56@0:8@16d24d32@40@48"
+- "d56@0:8@16d24d32@40q48"
+- "d64@0:8@16d24d32@40q48d56"
+- "data"
+- "dataRepresentation"
+- "dataType"
+- "dataUsingEncoding:allowLossyConversion:"
+- "dataWithBytes:length:"
+- "dataWithJSONObject:options:error:"
+- "dateByAddingTimeInterval:"
+- "dateFormatFromTemplate:options:locale:"
+- "dateFromComponents:"
+- "dateFromString:"
+- "dayGroupAssetsCountMixed"
+- "dealloc"
+- "debugContextualPromptSuggestionsFromAllMemories"
+- "debugDescription"
+- "debugFolder"
+- "debugString"
+- "debugValidationFromQueryTemplate:person:city:place:time:reply:"
+- "dedupeNewVerifiedPersons:withExistingVerifiedPersons:updateBlock:"
+- "dedupePersons:withOtherPersons:updateBlock:resultBlock:"
+- "dedupeUnverifiedPersons:updateBlock:"
+- "dedupeUnverifiedPersons:withVerifiedPersons:updateBlock:"
+- "dedupedSuggestions"
+- "deduperProfile"
+- "deeplink"
+- "defaultManager"
+- "defaultSessionConfiguration"
+- "defaultThresholdForImageSearch"
+- "delegate"
+- "delegateChannel"
+- "deleteAssetResourceWithType:"
+- "deleteSuggestions:"
+- "densityClusteringForObjects:maximumDistance:minimumNumberOfObjects:withDistanceBlock:"
+- "description"
+- "descriptionForMediaSubtypes:"
+- "descriptionForMediaType:"
+- "descriptionForRejectReason:"
+- "descriptionForSubtype:"
+- "descriptionForTimelineContentType:"
+- "descriptionText"
+- "descriptorData"
+- "descriptorIdentifierForDescriptorType:uuids:"
+- "descriptorType"
+- "detectLanguagesInString:error:"
+- "detectionTraitsByFaceLocalIdentifierForFaceUUIDs:photoLibrary:"
+- "detectionType"
+- "deviceConfigurationForOrientation:"
+- "diagnosticContext"
+- "diagnosticDescription"
+- "diagnosticDirectoryURL"
+- "diagnosticFileByFilename"
+- "diagnosticFilesFor:error:"
+- "diagnosticReporter"
+- "diagnostics"
+- "diagnosticsString"
+- "dictionary"
+- "dictionaryForKey:"
+- "dictionaryRepresentation"
+- "dictionaryWithCapacity:"
+- "dictionaryWithObject:forKey:"
+- "dictionaryWithObjects:forKeys:count:"
+- "didMusicCurationFinish"
+- "didMusicCurationStart"
+- "directoryExistsAtPath:"
+- "disableLLMAssetCuration"
+- "dispatchQueue"
+- "displayName"
+- "distanceBetweenFaceObservation:andFaceObservation:error:"
+- "distanceBetweenHuman:andHuman:useCommonMoments:minAgeType:updateBlock:error:"
+- "distanceBetweenPerson:andPerson:useCommonMoments:minAgeType:updateBlock:error:"
+- "distanceBetweenPet:andPet:useCommonMoments:"
+- "distanceBetweenPetFaces:andPetFaces:"
+- "distanceBlock"
+- "distanceWithOverlapCheckBetweenPerson:andPerson:useCommonMoments:minAgeType:updateBlock:error:"
+- "distantFuture"
+- "distantPast"
+- "domain"
+- "dominantRequiredSceneNames"
+- "dontSplitMomentsAcrossChaptersForImplicitMontage"
+- "doubleForKey:"
+- "doubleValue"
+- "downloadModelIfNeededWithCompletionHandler:"
+- "earlierDate:"
+- "earlyStoppingDistance"
+- "effectiveBoolValueForSetting:"
+- "electedAssetIterator"
+- "electedAssets"
+- "eligibilityChecker"
+- "eligibilityStateWithAsset:curationContext:"
+- "embeddingByKeyword"
+- "embeddingByMoodName"
+- "embeddingDistances"
+- "embeddingResults"
+- "embeddingSearchLimit"
+- "embeddingService"
+- "embeddingType"
+- "emptyWidgetURLForContentType:sourceIdentifier:"
+- "enableAssetScopingTokenPromotion"
+- "enableBackgroundDownload"
+- "enableChapterValidator"
+- "enableClusterByClusterForLibraryUnderstandingPersonalTraits"
+- "enableFinalTraitLimit"
+- "enableInMemoryCache"
+- "enableLocationPromptBinding"
+- "enableMediaAnalysisEmbeddingSearch"
+- "enableMockCocoaDomainError"
+- "enableMockGeneralMCError"
+- "enableMockNetworkError"
+- "enableMockNotEnoughAssetsError"
+- "enableMockRateLimitingError"
+- "enableMockServerRequestTimeout"
+- "enableMultiLibraryMode"
+- "enableOnDemandCaptionGeneration"
+- "enablePromptSuggestionPlistCache"
+- "enableQueryAnnotationPipelineInPhotos"
+- "enableSpatial3DBackgroundPersistence"
+- "enableStorytellingMomentFiltering"
+- "enableTraitDeduping"
+- "endSignpost:forEventName:withPayload:"
+- "endTime"
+- "endToEnd3DSignpost"
+- "endToEndStereoSignpost"
+- "endValue"
+- "enrichmentState"
+- "entityCategoryTypeKeyForEntityTypeCategory:"
+- "entityCategoryTypes"
+- "entityName"
+- "entityNetModel"
+- "enumerateAssetsWithKind:usingBlock:"
+- "enumerateAttribute:inRange:options:usingBlock:"
+- "enumerateAttributesInRange:options:usingBlock:"
+- "enumerateClassificationBasedSignalModelsUsingBlock:"
+- "enumerateFeaturesOfPosterConfiguration:withRejectedPersonLocalIdentifiers:usingBlock:"
+- "enumerateKeysAndObjectsUsingBlock:"
+- "enumerateObjectsUsingBlock:"
+- "enumerateSignalModelsUsingBlock:"
+- "enumerateSignalsFromAsset:fullHierarchyName:usingBlock:"
+- "enumerateSpotlightResultsForString:options:withBlock:"
+- "enumerateTagsInRange:unit:scheme:options:usingBlock:"
+- "error"
+- "errorStatistics"
+- "errors"
+- "estimatedAssetCount"
+- "evaluatePersonPromoterWithUpdateBlock:"
+- "evaluateWithObject:"
+- "eventElectionMode"
+- "eventRecorder"
+- "events"
+- "executeQuery"
+- "existingSuggestionsByConversationID"
+- "exportMomentContextDataWithReply:"
+- "exportPhotoLibrary:toURL:forPeople:error:"
+- "exportPhotoLibrary:toURL:forPeopleType:error:"
+- "exposureScore"
+- "expressionForConstantValue:"
+- "expressionForFunction:arguments:"
+- "expressionForKeyPath:"
+- "expressionForSubquery:usingIteratorVariable:predicate:"
+- "expressionValueWithObject:context:"
+- "expressionWithFormat:"
+- "extendedCuratedAssetsFromAssetUUIDs:options:operationID:reply:"
+- "extendedSceneClassId"
+- "extendedSceneIdentifier"
+- "extendedTokenGenerator"
+- "extendedTokens"
+- "extent"
+- "externalAssetEligibilityForAsset:"
+- "f"
+- "f16@0:8"
+- "f20@0:8S16"
+- "f24@0:8f16S20"
+- "f32@0:8@\"NSArray\"16@\"NSArray\"24"
+- "f32@0:8@16@24"
+- "f36@0:8@16@24B32"
+- "f40@0:8@16@24S32S36"
+- "f40@0:8@16@24^@32"
+- "f60@0:8@16@24B32^S36@?44^@52"
+- "faceAnalysisVersionWasFetched"
+- "faceAreaMaxX"
+- "faceAreaMaxY"
+- "faceAreaMinX"
+- "faceAreaMinY"
+- "faceClusteringProperties"
+- "faceCountInFaceGroup"
+- "faceGroupSortDescriptors"
+- "faceId"
+- "faceInformationSummaryWithFaces:detectionTraitsByFaceLocalIdentifier:verifiedPersonUUIDs:hiddenPersonUUIDs:personUUIDByMergeCandidateUUID:userFeedbackCalculator:assetUUID:"
+- "faceModel"
+- "faceObservationFromFace:"
+- "facePositionLimits"
+- "faceProcessingProgress"
+- "faceProcessingProgressForLibrary:"
+- "faceProcessingVersion"
+- "faceRegions"
+- "faceSizeLowerLimit"
+- "faceSizeUpperLimit"
+- "faceSortDescriptors"
+- "faceprint"
+- "faceprintData"
+- "faceprintFromFaceprintArchive:error:"
+- "failsHighPrecisionWithConfidence:"
+- "failsHighRecallWithConfidence:"
+- "failureScore"
+- "failureScoreNode"
+- "fallbackAssetCuration30bModelName"
+- "fallbackBase30bModelName"
+- "fallbackGlobalTraits30bModelName"
+- "fallbackQueryUnderstanding30bModelName"
+- "fallbackStorytelling30bModelName"
+- "fallbackSuggestions"
+- "featuredMemories"
+- "featuredPhotoCandidates"
+- "featuresByAsset"
+- "featuresProperties"
+- "fetchAllAssetsForCollection:options:"
+- "fetchAllFeaturedStateEnabledSuggestionsWithOptions:"
+- "fetchAssetCollectionsContainingAsset:withType:options:"
+- "fetchAssetCollectionsWithLocalIdentifiers:options:"
+- "fetchAssetCollectionsWithType:localIdentifiers:options:"
+- "fetchAssetCollectionsWithType:subtype:options:"
+- "fetchAssetUUIDsForIndexEntities:photoLibrary:error:"
+- "fetchAssets"
+- "fetchAssetsAssociatedWithMomentsOfMemory:options:"
+- "fetchAssetsForFaceGroups:options:"
+- "fetchAssetsForPerson:faceCount:options:"
+- "fetchAssetsForPerson:options:"
+- "fetchAssetsForPersons:options:"
+- "fetchAssetsForTCCWithLimit:seed:"
+- "fetchAssetsInAssetCollection:options:"
+- "fetchAssetsInAssetCollections:options:"
+- "fetchAssetsThroughAssetPersonEdgesForPerson:options:"
+- "fetchAssetsWithCurationOfLength:options:error:"
+- "fetchAssetsWithLocalIdentifiers:options:"
+- "fetchAssetsWithMediaType:options:"
+- "fetchAssetsWithObjectIDs:options:"
+- "fetchAssetsWithOptions:"
+- "fetchAssetsWithUUIDs:options:"
+- "fetchAutonamingSuggestionForPerson:checkIsMe:withError:"
+- "fetchChildHighlightsForHighlight:options:"
+- "fetchCollectionListsWithLocalIdentifiers:options:"
+- "fetchCollectionListsWithType:subtype:options:"
+- "fetchContext"
+- "fetchConversationsWithOptions:"
+- "fetchCountOfAssetsWithAllowedForAnalysis"
+- "fetchCountOfAssetsWithFacesProcessedToAnyVersion"
+- "fetchCountOfAssetsWithFacesProcessedToLatestVersion"
+- "fetchCountOfAssetsWithMediaAnalysisImageProcessed"
+- "fetchCountOfAssetsWithMediaAnalysisVideoProcessed"
+- "fetchCountOfAssetsWithScenesProcessed"
+- "fetchCountOfVideosWithAllowedForAnalysis"
+- "fetchCuratedAssetsForPerson:options:"
+- "fetchCuratedAssetsForPerson:options:useSummary:"
+- "fetchCuratedAssetsForSocialGroup:options:includeOthersInSocialGroupAssets:"
+- "fetchCuratedAssetsForSocialGroup:options:useSummary:includeOthersInSocialGroupAssets:"
+- "fetchCuratedAssetsForTCCWithLimit:seed:library:"
+- "fetchCuratedAssetsInAssetCollection:"
+- "fetchCuratedAssetsInAssetCollection:options:"
+- "fetchCustomUserAssetsInMemory:options:"
+- "fetchEditorialAssetsForCollection:options:"
+- "fetchExclusiveAssetsForSocialGroup:options:"
+- "fetchExtendedCuratedAssetsInAssetCollection:options:"
+- "fetchFaceGroupsForPerson:options:"
+- "fetchFaceGroupsWithOptions:"
+- "fetchFaces"
+- "fetchFacesForMediaProcessingWithPersonLocalIdentifiers:inMoment:"
+- "fetchFacesForPerson:options:"
+- "fetchFacesGroupedByAssetLocalIdentifierForAssets:options:"
+- "fetchFacesInFaceGroup:options:"
+- "fetchFacesWithLocalIdentifiers:options:"
+- "fetchFacesWithOptions:"
+- "fetchFacesWithVuObservationIDs:options:"
+- "fetchFallbackMessagesBackdropSuggestionsInPhotoLibrary:"
+- "fetchFeaturedGyroPosterSuggestionsFetchResultInPhotoLibrary:avoiding:limit:"
+- "fetchFeaturedGyroPosterSuggestionsInPhotoLibrary:avoiding:limit:"
+- "fetchFilters"
+- "fetchFinalMergeTargetPersonsForPersonWithUUID:options:"
+- "fetchGeneratedAssetDescriptionsGroupedByAssetLocalIdentifierWithType:forAssets:"
+- "fetchGuestAssetsWithOptions:"
+- "fetchGyroPosterSuggestionsInPhotoLibrary:limit:"
+- "fetchHighlightAssetsInPhotoLibrary:limit:randomSeed:"
+- "fetchHighlightsWithOptions:"
+- "fetchInclusiveAssetsForSocialGroup:options:"
+- "fetchInvalidMergeCandidatePersonsForPerson:options:"
+- "fetchKeyAssetByHighlightUUIDForHighlights:options:"
+- "fetchKeyAssetByMemoryUUIDForMemories:options:"
+- "fetchKeyAssetBySuggestionUUIDForSuggestions:options:"
+- "fetchKeyAssetForEachSuggestion:options:"
+- "fetchKeyAssetForPerson:options:"
+- "fetchKeyAssetForSocialGroup:options:"
+- "fetchKeyAssetsInAssetCollection:options:"
+- "fetchKeyCuratedAssetInAssetCollection:referenceAsset:"
+- "fetchKeyCuratedAssetInAssetCollection:referenceAsset:options:"
+- "fetchKeyFaceForPerson:options:"
+- "fetchKnownPersonLocalIdentifiersInPhotoLibrary:fetchLimit:"
+- "fetchLimit"
+- "fetchLimiterWithType:limit:"
+- "fetchLimiters"
+- "fetchLivePhotoTabAssetsWithOptions:"
+- "fetchLivePhotoTabHighlightCandidateAssetsWithOptions:excludeExistingWallpapers:statistics:"
+- "fetchLivePhotoTabHighlightSettlingEffectAssetsWithOptions:excludeExistingWallpapers:"
+- "fetchMePersonWithOptions:"
+- "fetchMemoriesWithOptions:"
+- "fetchMemoryKeyAssetsInPhotoLibrary:limit:randomSeed:"
+- "fetchMergeCandidatePersonsForPerson:options:"
+- "fetchMergeCandidateWithConfidencePersonsForPerson:options:"
+- "fetchMomentUUIDByAssetUUIDForAssetUUIDs:options:"
+- "fetchMomentUUIDByAssetUUIDForAssets:options:"
+- "fetchMoments"
+- "fetchMomentsForAssetsWithLocalIdentifiers:options:"
+- "fetchMomentsWithOptions:"
+- "fetchMovieAssetsForCollection:options:"
+- "fetchMovieAssetsForPerson:options:"
+- "fetchMovieAssetsForSocialGroup:options:"
+- "fetchOptions"
+- "fetchOptionsWithPhotoLibrary:limit:fetchBatchSize:"
+- "fetchOptionsWithPhotoLibrary:orObject:"
+- "fetchPersonLocalIdentifiersForSuggestionSubtype:photoLibrary:"
+- "fetchPersonLocalIdentifiersForSuggestionSubtypes:photoLibrary:"
+- "fetchPersonUUIDsGroupedByAssetUUIDForAssetUUIDs:options:"
+- "fetchPersonsForAssetCollection:options:"
+- "fetchPersonsForContactIdentifiers:options:"
+- "fetchPersonsGroupedByAssetLocalIdentifierForAssets:options:"
+- "fetchPersonsInAsset:options:"
+- "fetchPersonsInAssetsFetchResult:options:"
+- "fetchPersonsInSocialGroup:option:"
+- "fetchPersonsWithFaces:options:"
+- "fetchPersonsWithLocalIdentifiers:options:"
+- "fetchPersonsWithOptions:"
+- "fetchPhotosHighlightUUIDByMomentUUIDForMomentUUIDs:options:"
+- "fetchPortraitAssetsWithOptions:"
+- "fetchPreviewAssetsForCollection:options:"
+- "fetchPropertiesForPropertySetClass:forObjectsAtIndexes:"
+- "fetchPropertySets"
+- "fetchPropertySetsIfNeeded"
+- "fetchRankedGyroPosterSuggestionsInPhotoLibrary:avoiding:limit:"
+- "fetchRejectedFacesForPerson:options:"
+- "fetchResult"
+- "fetchSceneClassificationsGroupedByAssetLocalIdentifierForAssets:"
+- "fetchSceneClassificationsGroupedByAssetLocalIdentifierForAssets:sceneClassificationType:includeTemporalClassifications:"
+- "fetchSettlingEffectSuggestionsInPhotoLibrary:"
+- "fetchSettlingEffectSuggestionsWithOptions:"
+- "fetchSharedWithYouMessagesBackdropSuggestionsInPhotoLibrary:"
+- "fetchSocialGroupsWithLocalIdentifiers:options:"
+- "fetchSocialGroupsWithOptions:"
+- "fetchSongsWithOptions:"
+- "fetchSources"
+- "fetchSuggestionsWithOptions:"
+- "fetchTripHighlightUUIDByAssetUUIDForAssetUUIDs:options:"
+- "fetchType"
+- "fetchUnvalidatedPromptSuggestionsWithFetchLimit:reply:"
+- "fetchVerifiedPersonUUIDsGroupedByAssetUUIDForAssetUUIDs:options:"
+- "fetchVisibleAssetsWithObjectIDs:options:"
+- "fetchWallpaperGallerySuggestionsInPhotoLibrary:"
+- "fetchWallpaperSuggestionsWithFeaturedState:withOptions:"
+- "fetchWidgetSuggestionsWithFeaturedState:withOptions:"
+- "fetchedObjectIDs"
+- "fetchedObjectIDsSet"
+- "fetchedObjects"
+- "fetcher"
+- "fileExistsAtPath:"
+- "fileExistsAtPath:isDirectory:"
+- "fileSystemRepresentation"
+- "fileURLForFactorKey:error:"
+- "fileURLWithPath:"
+- "fileValue"
+- "filterForFoodieWithClassification:"
+- "filterMessagesBackdropSuggestions:fallback:"
+- "filterPredicateToIncludeOnlyReceivedSyndicatedAssets"
+- "filterSuggestions:excludingSingleFeature:"
+- "filterSuggestions:includingSingleFeature:"
+- "filterUsingPredicate:"
+- "filteredArrayUsingPredicate:"
+- "filteredContent"
+- "filteredSetUsingPredicate:"
+- "finalTokenGenerator"
+- "firstMatchInString:options:range:"
+- "firstObject"
+- "firstReasonForAvoidForKeyAssetFromStatistics:"
+- "firstSeenDate"
+- "firstSeenDateWithoutOutliersForAgeType:"
+- "floatValue"
+- "focalLengthIn35mm"
+- "focalLengthPxForFocalLengthIn35mm:pixelSize:"
+- "foodDrinkFoodieNode"
+- "foodDrinkNode"
+- "foodOrDrinkNode"
+- "forceMCMontagePath"
+- "forceSequentialAssetCurationCalls"
+- "format"
+- "freeformStoryOnDeviceParameters"
+- "freeformStoryPegasusParameters"
+- "freeformStoryThimbleParameters"
+- "freeformTitlePegasusParameters"
+- "freeformTitleThimbleParameters"
+- "fullPrompt"
+- "funeralNode"
+- "fuzzyMaximumDistance"
+- "gazeRect"
+- "generalNode"
+- "generateContextualPromptSuggestionsWithReply:"
+- "generateMagicSlotSuggestionsWithOptions:reply:"
+- "generateNextStoryTitleStyleIndex"
+- "generateOnDeviceTitle"
+- "generateSpatialPhotoSceneForPixelBuffer:cacheKey:focalLengthPx:portraitNormalizedTimeRect:landscapeNormalizedTimeRect:isInteractive:progressHandler:isCanceledHandler:error:"
+- "generateTripAnnotationWithTripUUIDs:"
+- "generateWhimsicalPromptSuggestionsWithReply:"
+- "generation3DSignpost"
+- "generationDate"
+- "generationEntryPoint"
+- "generationService"
+- "generationStereoSignpost"
+- "generationSummaryLock"
+- "generativeAIType"
+- "getCuratedAssetPlaybackTimeRangesFor:"
+- "getCuratedAssetPlaybackTimeRangesForMemory:"
+- "globalAndPersonalTraitsSeed"
+- "globalTraits"
+- "globalTraitsLocale"
+- "globalTraitsMatchingEmbeddingSearchRetrievalLimit"
+- "globalTraitsMaximumTextSimilarityScore"
+- "globalTraitsModelVersion"
+- "globalTraitsNumberOfTraitsForMomentOverlap"
+- "globalTraitsOnDeviceParameters"
+- "globalTraitsPegasusParameters"
+- "globalTraitsRetrievalThreshold"
+- "globalTraitsScopedAssetsRetrievalThreshold"
+- "globalTraitsScopingEmbeddingSearchRetrievalLimit"
+- "globalTraitsThimbleParameters"
+- "globalTraitsUseAPhotoOfBeforeTrait"
+- "globalTraitsUseMomentValidation"
+- "globalTraitsUseSemanticSimilarity"
+- "gpsHorizontalAccuracy"
+- "groundDatesFromDateString:"
+- "handleFailureInFunction:file:lineNumber:description:"
+- "handleFailureInMethod:object:file:lineNumber:description:"
+- "handwriting"
+- "hasAdjustments"
+- "hasAnyKnownPersonLocalIdentifierInPhotoLibrary:"
+- "hasCurationModel"
+- "hasInterestingAudioClassificationWithAsset:"
+- "hasInterestingScenesWithAsset:"
+- "hasNoThemesPlaceholder"
+- "hasOCRTextMatch"
+- "hasPersonLocalIdentifierInContextForSuggestionSubype:"
+- "hasPoorResolutionWithAsset:"
+- "hasProcessedForLibrary:"
+- "hasSpatial3DWidgetResourceForAsset:"
+- "hash"
+- "hastingsCuration"
+- "hastingsCurationFromAssetUUIDs:options:operationID:reply:"
+- "headroomEngaged"
+- "hidden"
+- "hiddenOrBlockedPersonUUIDs"
+- "highPrecisionOperatingPoint"
+- "highRecallOperatingPoint"
+- "highlightInformationCache"
+- "highlightVisibilityScore"
+- "highlyInterestingPersonFacesCumulativeNormalDistributionUpperTail"
+- "highlyInterestingPersonLastSeenCumulativeNormalDistributionLowerTail"
+- "highlyInterestingPersonLastSeenCumulativeNormalDistributionUpperTail"
+- "highlyInterestingPersonMomentsCumulativeNormalDistributionUpperTail"
+- "highlyInterestingPersonNormalDistributionsToMatch"
+- "highlyInterestingPersonTimeCumulativeNormalDistributionUpperTail"
+- "hospitalNode"
+- "iconicScore"
+- "iconicScoreModel"
+- "iconicScoreProperties"
+- "illustrations"
+- "imageAssetIsJunkForMemoriesFromSceneAndJunkClassifications:forKeyAsset:forMemories:"
+- "imageAssetIsJunkFromSceneAndJunkClassifications:"
+- "importedAssetInferredRelevant:"
+- "importedByBundleIdentifier"
+- "importedByBundleIdentifiersAllowListForMomentGeneration"
+- "importedByBundleIdentifiersToIncludeIfNotProcessed"
+- "includeAssets"
+- "includeOthersInSocialGroupAssets"
+- "includeRelatedMessagesBackdropSuggestions"
+- "includeSuggestions"
+- "includesPets"
+- "incrementMetricForKey:withValue:"
+- "incrementValue"
+- "inferredTimeZoneOffset"
+- "init"
+- "init:"
+- "initFetchOptionsWithExcludeUUIDs:minimumSceneVersion:predicate:"
+- "initForDateFilterWithStartDate:endDate:"
+- "initForDateFilterWithStartDateComponents:endDateComponents:"
+- "initForDetectionType:"
+- "initForEntityNetWithSceneNames:thresholdType:"
+- "initForGenericLocationFilterWithText:genericLocationTuples:allowedIndexCategories:"
+- "initForHiddenPersonWithFaceSize:faceQuality:faceSizeIsGood:faceIsGood:faceIsOk:traits:"
+- "initForKnownPersonWithFaceSize:faceQuality:faceSizeIsGood:faceIsGood:faceIsOk:traits:"
+- "initForLocationFilterWithAssetUUIDs:locationText:"
+- "initForMeaningFilterWithMeaningfulEvent:"
+- "initForPartOfDayFilterWithPartOfDayLocalizedText:"
+- "initForPartOfWeekFilterWithPartOfWeekLocalizedText:"
+- "initForPersonFilterWithPersonUUIDs:"
+- "initForPersonalEventFilterWithMomentUUIDs:"
+- "initForSceneNetOnly:"
+- "initForSeasonFilterWithSeasonLocalizedText:"
+- "initForTesting"
+- "initForTestingWithPhotoLibrary:"
+- "initForUnknownPersonWithFaceSize:faceQuality:faceSizeIsGood:faceIsGood:faceIsOk:traits:"
+- "initForWatchShuffle"
+- "initForWidgetWithSize:"
+- "initWithAlbumFeaturedPhoto:localAlbumIdentifier:andFeaturedPhotoKeyAsset:suggestedCrop:"
+- "initWithAlbumLocalIdentifier:widgetIdentifier:photoLibrary:"
+- "initWithAlbumLocalIdentifier:widgetIdentifier:widgetSize:photoLibrary:"
+- "initWithArray:"
+- "initWithArray:copyItems:"
+- "initWithAspectRatio:scaleFactor:cropScore:cropType:cropRect:"
+- "initWithAsset:"
+- "initWithAsset:classification:"
+- "initWithAsset:classification:headroomFeasible:"
+- "initWithAsset:classification:headroomFeasible:withFaceRegions:"
+- "initWithAsset:orientation:classification:"
+- "initWithAsset:orientation:classification:headroomFeasible:"
+- "initWithAsset:orientation:classification:headroomFeasible:withFaceRegions:"
+- "initWithAssetCollection:photoLibrary:"
+- "initWithAssetCollection:suggestedCrop:"
+- "initWithAssetIdentifiers:widgetIdentifier:widgetSize:photoLibrary:"
+- "initWithAssetUUID:suggestionUUID:suggestionSubtype:"
+- "initWithAssets:photoLibrary:widgetIdentifier:"
+- "initWithAttributedString:"
+- "initWithBool:"
+- "initWithCGImageSource:index:options:"
+- "initWithCVPixelBuffer:options:"
+- "initWithCapacity:"
+- "initWithContentsOfFile:"
+- "initWithContentsOfURL:"
+- "initWithContentsOfURL:error:"
+- "initWithCrop:score:"
+- "initWithCurationModelSpecification:"
+- "initWithDescriptorType:media:photoLibraryPath:"
+- "initWithDictionary:"
+- "initWithDictionaryRepresentation:"
+- "initWithDistanceBlock:"
+- "initWithDomain:code:userInfo:"
+- "initWithDouble:"
+- "initWithEmbedding:calibrationVersion:bias:scale:"
+- "initWithFaceAnalysisVersion:"
+- "initWithFaceGroup:inPhotoLibrary:"
+- "initWithFaceGroups:"
+- "initWithFeaturedPhoto:andFeaturedPhotoKeyAsset:"
+- "initWithFeaturedPhoto:andFeaturedPhotoKeyAsset:suggestedCrop:"
+- "initWithFetchOptions:"
+- "initWithFetchOptions:limit:sampleBatchSize:"
+- "initWithFloat:"
+- "initWithFormat:"
+- "initWithGroupIdentifier:andFaceIdentifiers:"
+- "initWithInt:"
+- "initWithInteger:"
+- "initWithItemInfo:options:"
+- "initWithKey:ascending:"
+- "initWithKeyOptions:valueOptions:capacity:"
+- "initWithLatestTaxonomy"
+- "initWithLeftExpression:rightExpression:modifier:type:options:"
+- "initWithLibrary:andDelegate:"
+- "initWithMeaningLabel:momentUUIDs:"
+- "initWithMediaAnalysisVersion:"
+- "initWithMemoriesOnly"
+- "initWithMemory:andMemoryKeyAsset:"
+- "initWithNumberOfFaces:numberOfFacesIncludingPets:numberOfFacesOfVerifiedPersons:numberOfFacesOfHiddenPersons:numberOfGoodFaces:numberOfGoodFacesIncludingPets:numberOfGoodFacesOfVerifiedPersons:averageFaceQuality:averageFaceQualityIncludingPets:averageFaceQualityOfVerifiedPersons:userFeedbackScore:faceInformationByPersonLocalIdentifier:faceInformationByConsolidatedPersonLocalIdentifier:"
+- "initWithObjectID:knownKeysDictionary:photoLibrary:"
+- "initWithObjects:"
+- "initWithObjects:photoLibrary:fetchType:fetchPropertySets:identifier:registerIfNeeded:"
+- "initWithOids:photoLibrary:fetchType:fetchPropertySets:identifier:registerIfNeeded:"
+- "initWithOptions:"
+- "initWithPattern:options:error:"
+- "initWithPerson:inPhotoLibrary:"
+- "initWithPersonClusterManager:andInvalidCandidatesMapping:profile:"
+- "initWithPersonClusterManager:invalidCandidatesMapping:profile:"
+- "initWithPhotoAsset:"
+- "initWithPhotoLibrary:"
+- "initWithPhotoLibrary:andDelegate:"
+- "initWithPhotoLibrary:computeIsUtilityForMemories:"
+- "initWithPhotoLibrary:curationSession:"
+- "initWithPhotoLibrary:detectionType:promoterDelegate:"
+- "initWithPhotoLibrary:forWidgetSize:"
+- "initWithPhotoLibrary:limit:sampleBatchSize:"
+- "initWithPhotoLibrary:options:"
+- "initWithPhotoLibrary:rawClusters:includesPets:"
+- "initWithPhotoLibraryURL:"
+- "initWithPropertyListRepresentation:"
+- "initWithQueryToken:"
+- "initWithResultLimit:"
+- "initWithSceneAnalysisVersion:"
+- "initWithSceneAnalysisVersion:mediaAnalysisVersion:faceAnalysisVersion:"
+- "initWithSceneNames:thresholdType:"
+- "initWithSceneTaxonomyNodeRef:inSceneTaxonomy:forSceneNetOnly:"
+- "initWithScoreConfigurationDataType:scoreConfigurationThemeType:"
+- "initWithSeed:"
+- "initWithServiceProvider:"
+- "initWithSet:"
+- "initWithShort:"
+- "initWithStartDate:duration:"
+- "initWithStartDate:endDate:"
+- "initWithState:error:"
+- "initWithString:"
+- "initWithStringValue:"
+- "initWithSuggestion:queryToken:"
+- "initWithSuiteName:"
+- "initWithTagSchemes:"
+- "initWithTagSchemes:options:"
+- "initWithText:entityCategoryTypes:metadata:"
+- "initWithText:lookupIdentifier:indexCategory:"
+- "initWithTitle:subtitle:localIdentifier:assetLocalIdentifier:deeplink:contentType:sourceIdentifier:relevanceScore:proactiveCriterion:suggestedCrop:rejectReason:"
+- "initWithType:"
+- "initWithType:limit:"
+- "initWithType:subpredicates:"
+- "initWithURL:append:"
+- "initWithURL:forDevice:error:"
+- "initWithUUIDBytes:"
+- "initWithUnit:"
+- "initWithUnsignedInteger:"
+- "initWithUnsignedLongLong:"
+- "initWithUserFeedbackCalculator:curationSession:"
+- "initialSearchQuerySuggestionsForPhotoLibrary:suggestionLimit:minimumResultCountPerSuggestion:suggestionsHandler:"
+- "initialize"
+- "insertObject:atIndex:"
+- "intValue"
+- "integerForKey:"
+- "integerValue"
+- "interestingAudioClassificationsWithAsset:"
+- "interestingPersonFacesCumulativeNormalDistributionUpperTail"
+- "interestingPersonFacesNormalDistributionSigmaFactor"
+- "interestingPersonLastSeenCumulativeNormalDistributionLowerTail"
+- "interestingPersonLastSeenCumulativeNormalDistributionUpperTail"
+- "interestingPersonLastSeenNormalDistributionSigmaFactor"
+- "interestingPersonMomentsCumulativeNormalDistributionUpperTail"
+- "interestingPersonMomentsNormalDistributionSigmaFactor"
+- "interestingPersonNormalDistributionsToMatch"
+- "interestingPersonTimeCumulativeNormalDistributionUpperTail"
+- "interestingPersonTimeNormalDistributionSigmaFactor"
+- "interestingPersonsFromPersons:detectionType:updateBlock:"
+- "interestingPersonsFromPersons:updateBlock:"
+- "interleaveOrderingOfSuggestionsByBucket:"
+- "internalPredicate"
+- "internalPredicateForSuggestionFetchExcludingAvailableFeatures:"
+- "internalPredicateForSuggestionFetchIncludingAvailableFeatures:"
+- "internalPredicateToFilterAssetsEligibleForSyndication"
+- "internalPredicateToFilterGuestSyndicatedAssetsEligibleForQuestion"
+- "internalPredicateToFilterSyndicatedAssetsEligibleForCurationProcessing"
+- "internalPredicateToFilterSyndicatedAssetsEligibleForGuestInferenceProcessing"
+- "internalPredicateToFilterSyndicatedAssetsEligibleForQuestion"
+- "internalPredicateToIncludeExternalAssetsEligibleForProcessing"
+- "internalPredicateToIncludeExternalAssetsNeedingProcessing"
+- "internalPredicateToIncludeOnlyReceivedSyndicatedAssets"
+- "internalPredicateToIncludeOnlySentSyndicatedAssets"
+- "internalPredicateToIncludeProcessedExternalAssets"
+- "internalPredicateToIncludeReceivedNotAnalyzedSyndicatedAssets"
+- "internalPredicateToIncludeReceivedNotEligibleSyndicatedAssets"
+- "internalSortDescriptors"
+- "internalSortDescriptorsWithCreationDateAscending:"
+- "intersectOrderedSet:"
+- "intersectSet:"
+- "intersectsSet:"
+- "invalidCandidatesMapping"
+- "invalidSuggestions"
+- "invalidateCaches"
+- "invalidateCachesForPerson:"
+- "invocationID"
+- "isAestheticallyAwesomeWithAsset:"
+- "isAestheticallyPrettyGoodWithAsset:"
+- "isAnimatedGIF"
+- "isAsset:similarToAnyAssets:withinThresholdType:"
+- "isAudio"
+- "isAvailable"
+- "isBadQualityForImageKeyAssetWithAsset:statistics:"
+- "isBlocklistedImportedByBundleIdentifier:withExternalAppBlocklistType:"
+- "isBlurryWithAsset:"
+- "isCoarse"
+- "isDirty"
+- "isDone"
+- "isEligibleForSpatialGenerationWithPixelSize:"
+- "isEnabled"
+- "isEqual:"
+- "isEqualToRecipe:"
+- "isEqualToString:"
+- "isGenerative"
+- "isHEICSequence"
+- "isHidden"
+- "isInMemoryCacheEnabled"
+- "isInQuiescentState"
+- "isIncludedInCloudFeeds"
+- "isIndexed"
+- "isInhabitedWithAsset:"
+- "isInterestingHDRWithAsset:"
+- "isInterestingLivePhotoWithAsset:"
+- "isInterestingPanoramaWithAsset:"
+- "isInterestingSDOFWithAsset:"
+- "isInterestingVideoWithAsset:"
+- "isJunkWithJunkClassification:"
+- "isJunkWithSignal:isReliable:"
+- "isKindOfClass:"
+- "isLLMQU"
+- "isLocallyAvailable"
+- "isMandatory"
+- "isMe"
+- "isMediaSubtype:"
+- "isMemberOfClass:"
+- "isMemeExclusiveFromSceneClassifications:"
+- "isMemeExclusiveWithAsset:"
+- "isMemeFromSceneClassifications:"
+- "isMemeWithAsset:"
+- "isMemoryGenerated"
+- "isModifiedByUser"
+- "isNSFWExplicit"
+- "isNonMemorableWithAsset:"
+- "isPDF"
+- "isPNG"
+- "isPSD"
+- "isPersonSimilar:withOtherPerson:withDistance:minAgeType:"
+- "isPhoto"
+- "isPhotoIris"
+- "isPreciselyNSFWExplicit"
+- "isProxy"
+- "isQueryAmbiguous"
+- "isRecallinglyNSFWExplicit"
+- "isResponsibleForSignalIdentifier:"
+- "isRiskyFileFormatWithAsset:"
+- "isScore:closeToValue:"
+- "isScreenRecording"
+- "isSelfie"
+- "isSemDevSceneDetectedForIdentifier:withSceneClassification:"
+- "isSharingSuggestion"
+- "isShowcasingFood"
+- "isShowcasingFoodWithAsset:"
+- "isShowcasingFoodWithSceneClassification:"
+- "isSpatialMedia"
+- "isSubsetOfSet:"
+- "isSubtype:"
+- "isSystemPhotoLibrary"
+- "isTragicFailureWithImageAsset:"
+- "isTrashed"
+- "isUserFCS"
+- "isUserSeed"
+- "isUtilityForImageAsset:"
+- "isUtilityForMemoriesForImageAsset:"
+- "isUtilityForMemoriesWithAsset:userFeedbackCalculator:"
+- "isUtilityForMemoriesWithAsset:userFeedbackCalculator:blockSocialMediaImportedAssets:"
+- "isUtilityForMemoriesWithProcessedSignals:"
+- "isUtilityForMemoriesWithVideoAsset:"
+- "isUtilityForSyndicationWithAsset:"
+- "isUtilityForVideoAsset:"
+- "isUtilityWithAsset:"
+- "isValid"
+- "isVerified"
+- "isVeryPreciselyIVSNSFWExplicit"
+- "isVeryPreciselyIVSNSFWExplicitWithAsset:"
+- "isVideo"
+- "isWronglyRotatedForDirection:confidence:"
+- "ivsNSFWModel"
+- "junkClassificationModel"
+- "kPNPetPromoterMaximumNumberOfPetsInPeopleHome"
+- "kPNPetPromoterVerifiedPetMinimumNumberOfAssetsAlone"
+- "kPNPetPromoterVerifiedPetMinimumNumberOfFaces"
+- "kPNPetPromoterVerifiedPetMinimumNumberOfMoments"
+- "keepPADActiveWithOperationID:reply:"
+- "keyAssetByFeaturedPhotoLocalIdentifier"
+- "keyAssetByMemoryLocalIdentifier"
+- "keyAssetBySuggestionUUID"
+- "keyAssetEmbeddingSearchRetrievalLimit"
+- "keyAssetFetchOptions"
+- "keyAssetFromAssetUUIDs:inAllAssets:operationID:reply:"
+- "keyAssetUUIDOfSocialGroupWithPersonUUIDs:candidateAssetUUIDs:operationID:error:"
+- "keyEnumerator"
+- "keyFace"
+- "keyFaceForPerson:qualityMeasureByFace:updateBlock:"
+- "keyword"
+- "keywords"
+- "knownPersonLocalIdentifiersInPhotoLibrary:"
+- "knownUtilityOIDs"
+- "labels"
+- "landscapeAspectRatio"
+- "lastContextRefreshDate"
+- "lastFetchDate"
+- "lastObject"
+- "lastRefreshDate"
+- "lastResortType"
+- "lastSeenDate"
+- "laterDate:"
+- "latestUpdatedDate"
+- "latestVersion"
+- "layoutVariant"
+- "leafNodes"
+- "legacyNode"
+- "length"
+- "levelForFactor:withNamespaceName:"
+- "lexiconLanguageIdentifier"
+- "libraryHasEnoughCuratedAssets"
+- "librarySpecificFetchOptions"
+- "libraryTimespan"
+- "libraryUnderstandingGenerator"
+- "libraryWithKind:"
+- "lifeContext"
+- "lifeContextMaximumTokenCount"
+- "limit"
+- "limitType"
+- "limiters"
+- "linkage"
+- "linkageMethod"
+- "llmQULatency"
+- "loadSegmentationDataForAsset:options:completion:"
+- "localCreationDate"
+- "localDateProperties"
+- "localIdentifierWithUUID:"
+- "localIdentifiersWithUUIDs:"
+- "localStartDate"
+- "localizedDescription"
+- "localizedGeoDescriptionIsHome:"
+- "localizedLabel"
+- "localizedName"
+- "localizedStringForKey:value:table:"
+- "localizedStringFromDate:dateStyle:timeStyle:"
+- "localizedSubtitle"
+- "localizedSynonyms"
+- "localizedTitle"
+- "locationCoordinate"
+- "locationCurationAvoidPeople"
+- "lockedState"
+- "log"
+- "logInfo:prefix:avoidForKeyAssetStatistics:"
+- "logInfoInIndividualLine:prefix:avoidForKeyAssetStatistics:"
+- "logUserFeedback:forSuggestion:"
+- "logger"
+- "lowercaseString"
+- "machTimeStart"
+- "mainBundle"
+- "majorVersion"
+- "mapTableWithKeyOptions:valueOptions:"
+- "maps"
+- "markAccepted"
+- "markActive"
+- "markDeclined"
+- "markRetired"
+- "maskForGuestAsset"
+- "matchType"
+- "matchesInString:options:range:"
+- "matchingSuggestionInternalPredicateForPosterConfiguration:"
+- "maxClockShift"
+- "maxNumGlobalTraitsForFedstatsDonation"
+- "maxNumberOfKeywords"
+- "maxRankedAssetSearchResults"
+- "maxSearchResults"
+- "maximumNumberOfAssetsPerMomentBatchForLibraryUnderstandingPersonalTraits"
+- "maximumNumberOfAssetsToCurateOnForHastingsCuration"
+- "maximumNumberOfConsolidatedTraits"
+- "maximumNumberOfMomentsForStoryGeneration"
+- "meaningNames"
+- "mediaAnalysisCollectionThemeResultsKey"
+- "mediaAnalysisFaceResultsKey"
+- "mediaAnalysisMiCaImageCaptionResultsKey"
+- "mediaAnalysisMiCaVideoCaptionResultsKey"
+- "mediaAnalysisModel"
+- "mediaAnalysisMovieHighlightResultsKey"
+- "mediaAnalysisProperties"
+- "mediaAnalysisQualityKey"
+- "mediaAnalysisResultAttributesKey"
+- "mediaAnalysisResultCollectionThemeAttributeKey"
+- "mediaAnalysisResultCollectionThemeVersionAttributeKey"
+- "mediaAnalysisResultDurationKey"
+- "mediaAnalysisResultImageCaptionConfidenceAttributeKey"
+- "mediaAnalysisResultImageCaptionTextAttributeKey"
+- "mediaAnalysisResultPersonIDAttributeKey"
+- "mediaAnalysisResultStartKey"
+- "mediaAnalysisResultVideoCaptionPreferenceAttributeKey"
+- "mediaAnalysisResultVideoCaptionTextAttributeKey"
+- "mediaAnalysisResultsKey"
+- "mediaAnalysisTimeStamp"
+- "mediaAnalysisTypeForPosterClassification:"
+- "mediaAnalysisVideoCaptionPreferenceResultsKey"
+- "mediaAnalyzerOptionCaptionWithHighlight"
+- "mediaAnalyzerOptionHighlightContexts"
+- "mediaAnalyzerOptionPersonIDWithHighlight"
+- "mediaAnalyzerOptionQueryTypePersonID"
+- "mediaAnalyzerOptionSearchQueryString"
+- "mediaFromSuggestions:assetBySuggestionUUID:"
+- "mediaPreAnalysisModel"
+- "mediaSubtypes"
+- "medicalReferenceNode"
+- "memeModel"
+- "memories"
+- "memoryAssetCount"
+- "memoryCandidates"
+- "memoryCreationAvailabilityState"
+- "memoryCreationDiagnosticFilesForMemory:error:"
+- "memoryCreationManager"
+- "memoryStatistics"
+- "mergeCandidateConfidenceThreshold"
+- "mergeCandidatePersonsWithUpdateBlock:"
+- "mergeConfidenceBetweenPersonLocalIdentifier:andCandidateLocalIdentifiers:"
+- "mergePersons:otherPersonLocalIdentifiers:personsFetchResult:mergeSocialGroupPersonIdentifiers:"
+- "mergePersons:withPerson:"
+- "mergeRelations"
+- "mergedPersonIdentifiers"
+- "metadataForCategoryType:"
+- "metrics"
+- "metricsForFamily:"
+- "metricsKey"
+- "metricsReport"
+- "minAgeTypeForFaceAgeType:andFaceAgeType:"
+- "minDistance"
+- "minimumAssetOverlapForThresholdTitler"
+- "minimumCropScore"
+- "minimumCurationQuality"
+- "minimumDurationForHighFramerateVideoToNotBeJunk"
+- "minimumDurationForTimelapseVideoToNotBeJunk"
+- "minimumDurationForVideoToNotBeJunk"
+- "minimumMeaningfulIconicScore"
+- "minimumMomentSizeForSampling"
+- "minimumNumberOfFacesNeededForPromotion"
+- "minimumNumberOfLongTrips"
+- "minimumWallpaperScoreNode"
+- "minorVersion"
+- "minusSet:"
+- "mockMomentDataFromFile"
+- "modelDownloadHandler"
+- "modelType"
+- "modelVersion"
+- "momentBasedDistanceBetweenPet:andPet:"
+- "momentCountsByPersonUUIDForPersonsWithUUIDs:afterDate:photoLibrary:"
+- "momentExpansionProcessor"
+- "momentGroundingProcessor"
+- "momentInformationByMomentUUIDCache"
+- "momentSortDescriptors"
+- "momentUUIDByAssetUUIDCache"
+- "momentUUIDs"
+- "momentWithBestLocationForPersons:andOtherPersons:personsByMomentLocalIdentifiersCache:"
+- "monitor"
+- "musicCurationDuration"
+- "musicKeywordsPegasusParameters"
+- "musicKeywordsThimbleParameters"
+- "musicStatistics"
+- "mutableCopy"
+- "mutableCopyWithZone:"
+- "name"
+- "nameComponents"
+- "nameString"
+- "negativeNode"
+- "nextObject"
+- "nextTokenSuggestions"
+- "nextUnsignedIntegerLessThan:"
+- "nil"
+- "nodeExistsForName:"
+- "nodeForExtendedSceneClassId:"
+- "nodeForIdentifier:"
+- "nodeForName:"
+- "nodeForSignalIdentifier:"
+- "nodeRefForExtendedSceneClassId:"
+- "nodeRefForName:"
+- "nodeSortDescriptors"
+- "nonMemorableNode"
+- "nonPetFacedPersonLocalIdentifiers"
+- "normalMaximumDistance"
+- "normalizedFaceAreaRect"
+- "normalizedText"
+- "notPredicateWithSubpredicate:"
+- "notificationRoom"
+- "now"
+- "nsfwModel"
+- "null"
+- "numCentroids"
+- "numberOfAssets"
+- "numberOfAssetsInCommonBetweenPerson:andPerson:"
+- "numberOfAssetsInCommonBetweenPersonAssetIdentifiers:andPersonAssetIdentifiers:"
+- "numberOfChaptersPerStory"
+- "numberOfChronologicalStorySelectedTraits"
+- "numberOfClusters"
+- "numberOfFacesProcessedOnLastRunAtURL:"
+- "numberOfGlobalTraits"
+- "numberOfMatchesInString:options:range:"
+- "numberOfMomentsInCommonBetweenPerson:andPerson:"
+- "numberOfPresentations"
+- "numberOfQueryCharacters"
+- "numberOfRanges"
+- "numberOfRequiredCharacters"
+- "numberOfShotsPerChapter"
+- "numberOfTraitsToSelect"
+- "numberWithBool:"
+- "numberWithDouble:"
+- "numberWithFloat:"
+- "numberWithInt:"
+- "numberWithInteger:"
+- "numberWithShort:"
+- "numberWithUnsignedInteger:"
+- "numberWithUnsignedLongLong:"
+- "numberWithUnsignedShort:"
+- "objectAtIndex:"
+- "objectAtIndexedSubscript:"
+- "objectEnumerator"
+- "objectForKey:"
+- "objectForKeyedSubscript:"
+- "objectSaliencyRects"
+- "objects"
+- "objectsAtIndexes:"
+- "observedAssetFetchRequest"
+- "observedPeopleFetchRequest"
+- "observers"
+- "ongoingStageDuringCancellationOrError"
+- "open"
+- "openAndWaitWithUpgrade:error:"
+- "openPhotoLibraryAtURL:"
+- "openPhotoLibraryWithWellKnownIdentifier:error:"
+- "operatingPoint"
+- "operatingSystemVersionString"
+- "options"
+- "orPredicateWithSubpredicates:"
+- "orderSuggestionsBasedOnLayoutVariant:"
+- "originalMetadataProperties"
+- "outlierScoresForAssets:"
+- "overallAestheticScoreNode"
+- "overallDurationInfo"
+- "overnightSuggestionStatistics"
+- "parentNode"
+- "parents"
+- "parsePromptInformationAsDictionaryWithMemory:error:"
+- "partialUserPromptTokenThreshold"
+- "participatesInLibraryScope"
+- "passesClockOverlap"
+- "passesHighPrecisionWithConfidence:"
+- "passesHighPrecisionWithSignal:"
+- "passesHighRecallWithConfidence:"
+- "passesHighRecallWithSignal:"
+- "passesWithConfidence:"
+- "passesWithSignal:"
+- "path"
+- "peopleClusteringWithParameter:photoLibrary:directoryURL:delegate:"
+- "peopleSortDescriptors"
+- "performBatchSearch:searchOptions:resultsHandler:"
+- "performChanges:completionHandler:"
+- "performChangesAndWait:error:"
+- "performDeduping"
+- "performDisambiguationForGenericLocationName:allowedSearchIndexCategories:photoLibrary:"
+- "performDisambiguationForLocationName:expansionStringValues:allowedSearchIndexCategories:photoLibrary:"
+- "performDisambiguationForPerson:usingGroundedNames:photoLibrary:"
+- "performDisambiguationForPersonName:expansionStringValuesByCSAttributedEntityType:photoLibrary:"
+- "performGraphIncrementalUpdateWithOptions:operationID:reply:"
+- "performGraphRebuildWithOptions:operationID:reply:"
+- "performGraphSearchEntityRankingDonationWithOperationID:reply:"
+- "performLocalMemoryEventElectionWithElectionMode:operationID:reply:"
+- "performLocationDisambiguationForFullQueryString:allowedSearchIndexCategories:maxNumberOfResults:photoLibrary:"
+- "performMemoryNodesRebuildForCategory:operationID:reply:"
+- "performPromptSuggestionCachingWithOperationID:reply:"
+- "performRequests:text:identifier:completionHandler:"
+- "performSearch:searchOptions:resultsHandler:"
+- "performSearchWithQueries:retrievalThreshold:completionHandler:"
+- "performSelector:"
+- "performSelector:withObject:"
+- "performSelector:withObject:withObject:"
+- "performSocialGroupsIdentifiersWithPersonClusterManager:forPersons:overTheYearsComputation:updateBlock:"
+- "performWithDataset:progressBlock:"
+- "persistenceRecipes"
+- "persistentDomainForName:"
+- "personClusterManager"
+- "personClusters"
+- "personContext"
+- "personEntitiesByLookupIdentifierForPersonNames:photoLibrary:"
+- "personForIdentifier:"
+- "personLocalIdentifier"
+- "personLocalIdentifiersFromSuggestionContext:"
+- "personProcessingSortDescriptors"
+- "personPromoter"
+- "personSummaries"
+- "personUUIDByMergeCandidateUUID"
+- "personUUIDsWithNegativeFeedback"
+- "personUUIDsWithUserFeedbackFilterBlock:"
+- "personalTraitGaussianFilteringCDFThreshold"
+- "personalTraitMinRatioOfAssets"
+- "personalTraitMosaicGaussianFilteringCDFThreshold"
+- "personalTraitMosaicMinRatioOfAssets"
+- "personalTraitWeightedRandomSamplingSeed"
+- "personalTraitWeightedRandomSamplingTemperature"
+- "personalTraits"
+- "personalTraitsEntityConfiguration"
+- "petPromoter"
+- "petSummaries"
+- "photoAnalysisClient"
+- "photoAnalysisWallpaperProperties"
+- "photoIrisProperties"
+- "photoIrisVideoDuration"
+- "photoLibrary"
+- "photoLibraryDidChange:"
+- "photoLibraryURL"
+- "photosGraphProperties"
+- "photosGraphVersion"
+- "photosInfoPanelExtendedProperties"
+- "photosOneUpProperties"
+- "pl_coordinate"
+- "pl_date"
+- "pl_gpsHorizontalAccuracy"
+- "pl_uuid"
+- "placeNamesForLocalizedDetailedDescriptionIsHome:"
+- "placeholderAssetFetchMultiplier"
+- "placeholderEntryForContentType:"
+- "placeholderForCreatedAssetCollection"
+- "placeholderForCreatedCollectionList"
+- "placeholderForCreatedMemory"
+- "placeholderForCreatedSuggestion"
+- "playCount"
+- "playCountThreshold"
+- "playbackVariation"
+- "pleasantLightingScore"
+- "pleasantLightingScoreNode"
+- "plistPathForPhotoLibrary:dataType:"
+- "pn_addMergeCandidatePersons:"
+- "pn_errorWithCode:localizedDescription:"
+- "pn_faceProcessingProgress"
+- "pn_fetchAssetsForFaceGroup:"
+- "pn_fetchAssetsForFaceLocalIdentifiers:"
+- "pn_fetchAssetsForPerson:"
+- "pn_fetchAssetsInMoment:"
+- "pn_fetchAssetsWithLocalIdentifiers:"
+- "pn_fetchCandidatePersonsForPerson:"
+- "pn_fetchFaceGroups"
+- "pn_fetchFaceGroupsForPerson:"
+- "pn_fetchFacesForFaceGroup:"
+- "pn_fetchFacesForPerson:"
+- "pn_fetchFacesForPerson:inMoment:"
+- "pn_fetchFacesForPersonLocalIdentifiers:inMoment:"
+- "pn_fetchFacesGroupedByAssetLocalIdentifierForAssets:"
+- "pn_fetchFacesWithLocalIdentifiers:"
+- "pn_fetchInvalidAssetIdentifiersForCommonComparison"
+- "pn_fetchInvalidCandidatePersonsForPerson:"
+- "pn_fetchMoments"
+- "pn_fetchMomentsForAssetsWithLocalIdentifiers:"
+- "pn_fetchMomentsForPerson:"
+- "pn_fetchMomentsWithLocalIdentifiers:"
+- "pn_fetchPersonsGroupedByAssetLocalIdentifierForAssets:"
+- "pn_fetchPersonsInMoment:"
+- "pn_fetchPersonsWithLocalIdentifiers:"
+- "pn_fetchPersonsWithType:"
+- "pn_genericErrorWithLocalizedDescription:"
+- "pn_genericErrorWithMultipleUnderlyingErrors:localizedDescription:"
+- "pn_genericErrorWithUnderlyingError:localizedDescription:"
+- "pn_lastAssetDate"
+- "pn_numberOfFacesWithFaceprints"
+- "pn_performChangesAndWait:error:"
+- "pn_persistentStorageDirectoryURL"
+- "poiGeoHashWithGeoHashSize:latitude:longitude:"
+- "pointIndices"
+- "poorQualityNode"
+- "popularityForPOI:popularity:"
+- "portraitAspectRatio"
+- "poseYaw"
+- "postedDate"
+- "posterClassificationForMedia:descriptorType:"
+- "posterClassificationForSuggestionMedia:"
+- "posterClassificationForSuggestionSubtype:"
+- "potentialLandmarkModel"
+- "precomputedClusters"
+- "predicate"
+- "predicateForAllAmbientSuggestions"
+- "predicateForAllFeaturedStateEnabledSuggestionTypesForWallpaper"
+- "predicateForAllFeaturedStateEnabledSuggestionTypesForWidget"
+- "predicateForAllTripHighlights"
+- "predicateForExcludeMask:useIndex:"
+- "predicateForIncludeMask:useIndex:"
+- "predicateForPortraitWallpaperCandidatesWithPersonLocalIdentifiers:"
+- "predicateForPortraitWallpaperCandidatesWithPersonLocalIdentifiers:deviceAspectRatio:"
+- "predicateForSourcingAssetsFromHighlightExtendedCuration"
+- "predicateForSourcingAssetsFromHighlightSummaryCuration"
+- "predicateFormat"
+- "predicateToIncludeOnlyAllowedForAnalysisAndProcessedAssetsToLatestFaceVersion"
+- "predicateToIncludeOnlyAllowedForAnalysisAndProcessedAssetsToLatestSceneVersion"
+- "predicateWithBlock:"
+- "predicateWithFormat:"
+- "predicateWithLeftExpression:rightExpression:modifier:type:options:"
+- "predicateWithValue:"
+- "preferredCropRect"
+- "prefetchOnAssets:options:curationContext:"
+- "prefetchScenesOnAssets:"
+- "preheat"
+- "preheatSearchWithCompletionBlock:"
+- "prepareAssets:"
+- "prepareWithAlternateJunkingHeuristics:withContext:curationContext:blockSocialMediaImportedAssets:"
+- "presentationAtIndex:"
+- "previewMetricsSpecificationForBundleIdentifier:"
+- "prewarm"
+- "prewarmGeneration"
+- "prewarmTextRequests:completionHandler:"
+- "prewarmWithCompletionHandler:"
+- "primaryOrientation"
+- "printStateChanges"
+- "privateFileURL"
+- "proactiveCriterion"
+- "probabilityDensityNormalDistributionWithData:sigmaFactor:usingBlock:"
+- "probableRotationDirection"
+- "probableRotationDirectionConfidence"
+- "processIdentifier"
+- "processInfo"
+- "processName"
+- "processSignals:intoProcessedSignals:"
+- "processedLocation"
+- "processedMomentsThreshold"
+- "processedSignalsFromSignals:"
+- "processingAvailabilityReporter"
+- "profile"
+- "progress"
+- "promoteAssetsWithLocation"
+- "promotePlayableAssetsInStories"
+- "promoteUnverifiedPersonsWithUpdateBlock:"
+- "promoteUnverifiedPetsInPhotoLibrary:withUpdateBlock:"
+- "promoteUnverifiedPetsWithUpdateBlock:"
+- "promoterProfile"
+- "promoterStatusMergeCandidateLimit"
+- "promoterStatusVerifiedPersonLimit"
+- "promptGenerator"
+- "promptOrigin"
+- "promptRankingParameters"
+- "promptSanitizer"
+- "promptState"
+- "promptValidationAssetCountThreshold"
+- "promptValidationBatchSize"
+- "properties"
+- "propertiesToFetch"
+- "propertiesToSortBy"
+- "propertyListRepresentation"
+- "propertyListWithData:options:format:error:"
+- "protectedTemporaryItemsSubdirectoryName"
+- "q16@0:8"
+- "q24@0:8@16"
+- "q32@0:8@16@24"
+- "q40@0:8@16@24@32"
+- "qrCodes"
+- "qualityMeasure"
+- "qualityNode"
+- "quarantined"
+- "queryActivityEntities"
+- "queryAnnotationPromptBindingNumberOfLocationNames"
+- "queryAnnotationPromptBindingNumberOfPersonAndPetNames"
+- "queryCharacterUUIDs"
+- "queryContainsActivityEntity"
+- "queryContainsAllTime"
+- "queryContainsGenericLocationEntity"
+- "queryContainsLocationEntity"
+- "queryContainsMusicArtist"
+- "queryContainsMusicGenre"
+- "queryContainsMusicMood"
+- "queryContainsMusicSong"
+- "queryContainsPartOfDay"
+- "queryContainsPartOfWeek"
+- "queryContainsPersonAgeType"
+- "queryContainsPersonEntity"
+- "queryContainsPersonalEvent"
+- "queryContainsPublicEvent"
+- "queryContainsSortOrder"
+- "queryContainsTimeEntity"
+- "queryContainsTripEntity"
+- "queryEmbedding"
+- "queryForAssetsInUtilityCollectionWithType:options:"
+- "queryMatchDetails"
+- "queryMetaDataSync"
+- "queryParserManagerClass"
+- "queryPeopleRequiredInRetrievalMomentLimit"
+- "queryPeopleRequiredInRetrievalTripLimit"
+- "queryText"
+- "queryUnderstandingLocale"
+- "queryUnderstandingStatistics"
+- "queryWordCount"
+- "question"
+- "questions"
+- "queue"
+- "queue_lastSceneAnalysis"
+- "quiescentState"
+- "random"
+- "randomGenerator"
+- "randomIndexes"
+- "randomNumberGenerator"
+- "randomNumberGeneratorForWallpaperDonation"
+- "randomNumberGeneratorForWallpaperDonationWithDate:"
+- "randomSamplerKind"
+- "randomizedSuggestionsFromSuggestions:limit:"
+- "rangeAtIndex:"
+- "rankedAssetSearchResults"
+- "ratioOfAssetsWithFacesProcessed"
+- "rawClusters"
+- "receiptOrDocumentNode"
+- "receipts"
+- "regions"
+- "registerChangeObserver:"
+- "registerDefaults:"
+- "rejectReason"
+- "rejectWallpaperSuggestions:completionHandler:"
+- "rejectWallpaperSuggestionsUsingAsset:completionHandler:"
+- "rejectWallpaperSuggestionsUsingAssetOfSuggestion:completionHandler:"
+- "rejectWithIdentifier:person:confirmationType:"
+- "relatedCollectionUUID"
+- "relativePopularityOfPOI:assetLongitude:sceneGeography:"
+- "release"
+- "relevanceScore"
+- "relevanceScoreForMemory:atDate:"
+- "remixQueryIsTheSame"
+- "removeAllObjects"
+- "removeAssetWithIdentifier:"
+- "removeItemAtPath:error:"
+- "removeItemAtURL:error:"
+- "removeLibraryWithKind:"
+- "removeMergeCandidateWithConfidencePersons:"
+- "removeObject:"
+- "removeObjectAtIndex:"
+- "removeObjectForKey:"
+- "removeObjectForKey:inDomain:"
+- "removeObjectsForKeys:"
+- "removeObjectsInArray:"
+- "removeObjectsInRange:"
+- "removePresentationWithIdentifier:"
+- "removePreviousSuggestions"
+- "removeSuggestionsNotRelevantForDate:"
+- "removedObjects"
+- "render:toCVPixelBuffer:"
+- "replaceCharactersInRange:withString:"
+- "reportDownloadDidEnd:success:error:"
+- "reportDownloadDidStart"
+- "reportDownloadProgress::"
+- "reportMetrics"
+- "reporter"
+- "representativeAssetsForMapDisplayFromAssets:"
+- "representativeFaceByFaceIdentifiers"
+- "representativeFaceObservationForFaces:ageType:inPerson:"
+- "representativeFaceObservationForPerson:ageType:"
+- "representativenessForFaces:error:"
+- "representativenessFromFaceObservations:error:"
+- "representsBurst"
+- "requestAccessForEntityType:completionHandler:"
+- "requestAlchemistProcessingForPixelBuffer:options:progressHandler:completionHandler:"
+- "requestAlchemistProcessingForURL:options:progressHandler:completionHandler:"
+- "requestAssetCaptionsOfTypes:forAssets:withOptions:progressHandler:completionHandler:"
+- "requestAssetHighlightCaptionsForAssets:withOptions:progressHandler:completionHandler:"
+- "requestAssetSearchKeywordsForAssetCollectionUUIDs:ofType:operationID:error:"
+- "requestCharacterCurationInfoForCharacterUUIDs:operationID:reply:"
+- "requestCollectionThemeForAssetLocalIdentifiers:fromPhotoLibraryWithURL:withOptions:progressHandler:andCompletionHandler:"
+- "requestExtendedTokenCollectionFromQueryTokensAsData:representativeMomentUUIDByAssetUUID:personOrPetUUIDsWithNegativeFeedback:sharingFilter:operationID:reply:"
+- "requestFileURLForAssetResource:options:urlReceivedHandler:completionHandler:"
+- "requestFilterLocationsByMomentLocationHierarchyForRecipeAsData:operationID:reply:"
+- "requestFlexMusicCurationWithOptions:operationID:reply:"
+- "requestGraphSearchMetadataWithOptions:operationID:error:"
+- "requestHighlightEnrichmentProgressForLibrary:result:"
+- "requestImageForAsset:targetSize:contentMode:options:resultHandler:"
+- "requestMaestroSongsWithOptions:reply:"
+- "requestMeaningsForMomentUUIDs:operationID:reply:"
+- "requestMusicCurationWithOptions:operationID:reply:"
+- "requestNewCGImageForAsset:targetSize:contentMode:options:resultHandler:"
+- "requestPeopleForWallpaperSuggestionsWithOptions:reply:"
+- "requestPersonGroundingForPersonQuery:operationID:reply:"
+- "requestPersonalEventMomentsForQueryTokenAsData:associatedPersonUUID:scopedMomentUUIDs:momentUUIDByAssetUUID:operationID:reply:"
+- "requestPersonalTraitsForAssetUUIDs:momentUUIDByAssetUUID:extendedTokenCollectionAsData:configurationAsData:sharingFilter:operationID:reply:"
+- "requestPersonalTraitsForAssetUUIDs:operationID:reply:"
+- "requestPersonalTraitsForHighlightUUIDs:operationID:reply:"
+- "requestPersonalizedSensingRefreshWithReply:"
+- "requestPrewarmQueryAnnotator"
+- "requestPrewarmQueryAnnotatorForOriginatorPID:operationID:reply:"
+- "requestProcessingProgressForLibrary:result:"
+- "requestQueryAnnotation"
+- "requestQueryAnnotationForQuery:originatorPID:operationID:reply:"
+- "requestRecentlyUsedSongsWithOptions:operationID:reply:"
+- "requestSearchIndexKeywordsForAssetCollectionUUIDs:ofType:operationID:error:"
+- "requestSearchableAssetUUIDsBySocialGroupForAssetCollectionUUIDs:ofType:isFullAnalysis:operationID:error:"
+- "requestSongsForAdamIDs:options:operationID:reply:"
+- "requestSongsForAdamIDs:options:reply:"
+- "requestSuggestedMePersonIdentifierAtURL:withError:"
+- "requestSyndicationProgressForLibrary:result:"
+- "requestSynonymsDictionariesWithOperationID:error:"
+- "requestTextEmbeddings:completionHandler:"
+- "requestVUIndexURLForPhotoLibraryURL:error:"
+- "requestVideoCaptionPreferenceForAssets:withOptions:progressHandler:completionHandler:"
+- "requiredAssets"
+- "requiredFetchPropertySets"
+- "respondsToSelector:"
+- "resultLimit"
+- "results"
+- "retain"
+- "retainCount"
+- "retrievedAssetCount"
+- "returnTypes:"
+- "reverseObjectEnumerator"
+- "rng"
+- "rootEventRecorder"
+- "rootNode"
+- "rootNodeRef"
+- "rootNodes"
+- "s16@0:8"
+- "s24@0:8@16"
+- "s32@0:8@16@24"
+- "s32@0:8@16d24"
+- "safeAssetsForWidgetDisplay:"
+- "safeTokenAnalyzer"
+- "safetyController"
+- "sampleBatchSize"
+- "sampledGlobalTraitsForFedStats"
+- "sanitizedPrompt"
+- "saveVisualClustersToDebugAlbums"
+- "scale"
+- "scaleFactor"
+- "scene"
+- "sceneAnalysisProperties"
+- "sceneByCacheKey"
+- "sceneClassifications"
+- "sceneDataByCacheKey"
+- "sceneIdentifiersByScoreForPOI:assetLongitude:sceneGeography:"
+- "sceneIdentifiersForSceneNames:includingChildScenes:"
+- "sceneIdentifiersFromSceneClassifications:passingThresholdOfType:"
+- "sceneIdentifiersOfInterestingScenes"
+- "sceneModel"
+- "sceneNames"
+- "sceneTaxonomy"
+- "sceneTaxonomyCache"
+- "sceneprint"
+- "sceneprintProperties"
+- "scenesByScoreForPOIHash:"
+- "scopedIdentifiers"
+- "score:meetsScoreThreshold:"
+- "scoreConfigurationNameForDataType:withThemeType:"
+- "scoreConfigurationNamePrefixForDataType:"
+- "scoreConfigurationNameSuffixForThemeType:"
+- "scoreForAssetUUIDs:keyAssetUUID:personsUUIDsByAssetUUIDs:memoryFeatures:"
+- "scoreForAssetUUIDs:personsUUIDsByAssetUUIDs:"
+- "scoreForPOI:scenes:maxScenesCount:popularityWeight:"
+- "scoreInContext:"
+- "scoreWithAsset:inContext:"
+- "scoringContextWithAssets:aestheticScoreThresholdToBeAwesome:"
+- "screenSize"
+- "screenshotNode"
+- "screenshots"
+- "sdModel"
+- "searchQueryManager"
+- "searchResults"
+- "searchSuggestionsDataSource"
+- "searchThreshold"
+- "searchWithEmbeddings:photoLibraryURL:searchOptions:error:"
+- "sections"
+- "seed"
+- "seedSongAssetForCatalog:"
+- "seedSongIdentifiersByCatalog"
+- "segmentationResourceURL"
+- "self"
+- "sendEvent:withPayload:"
+- "sendToggleEventEnabled:asset:"
+- "sendToggleEventEnabled:asset:isNavigationSourceWidget:"
+- "sensitiveFlags"
+- "sentenceEmbeddingForLanguage:"
+- "serialQueue"
+- "service"
+- "session"
+- "sessionUseCase"
+- "sessionWithConfiguration:"
+- "set"
+- "setAestheticScoreThresholdToBeAwesome:"
+- "setAllowBackgroundDownload:"
+- "setAssetCollection:"
+- "setAssetUUIDsForPrefilter:"
+- "setAssetsToIgnore:"
+- "setAttribution:"
+- "setAudioClassificationsToEmphasize:"
+- "setAutoEditDecisionLists:"
+- "setAvailableFeatures:"
+- "setAvailableFeatures:forSuggestions:"
+- "setBackingAssetIdentifiers:"
+- "setBackingFaceIdentifiers:"
+- "setBackingFaceIdentifiersByMomentIdentifiers:"
+- "setBackingMomentIdentifiers:"
+- "setByAddingObject:"
+- "setByAddingObjectsFromSet:"
+- "setCacheSizeForFetch:"
+- "setCanUseLocationCoordinateForLocation:"
+- "setChunkSizeForFetch:"
+- "setCollectionThreshold:"
+- "setComputeThreshold:"
+- "setContactIdentifier:"
+- "setContentIdentifier:"
+- "setContext:"
+- "setCountLimit:"
+- "setCreationType:"
+- "setCurationContext:"
+- "setCurationLength:"
+- "setCurationModel:"
+- "setCurrentStyle:"
+- "setCustomUserAssets:"
+- "setDateCreated:"
+- "setDateFormat:"
+- "setDay:"
+- "setDeduperProfile:"
+- "setDelegate:"
+- "setDeliveryMode:"
+- "setDetectionType:"
+- "setDisableMetadataSearch:"
+- "setDisableSafetyCheck:"
+- "setDisableSemanticSearch:"
+- "setDoNotBlockBeforeFirstUnlock:"
+- "setDownloadPriority:"
+- "setEmbeddingGenerationTimeout:"
+- "setEmbeddingRelevanceThreshold:"
+- "setEnableQueryMatchDetails:"
+- "setEndTime:"
+- "setEndValue:"
+- "setFaceId:"
+- "setFaceProcessingProgress:"
+- "setFaceProcessingVersion:"
+- "setFaceTorsoprint:"
+- "setFaceprint:"
+- "setFeaturedPhotoCandidates:"
+- "setFeaturedState:"
+- "setFeaturedStateOfSuggestions:"
+- "setFeaturesProperties:"
+- "setFetchFilters:"
+- "setFetchLimit:"
+- "setFetchLimiters:"
+- "setFetchOptions:"
+- "setFetchPropertySets:"
+- "setFetchSources:"
+- "setFilteredContent:"
+- "setFirstSeenDate:"
+- "setFormatOptions:"
+- "setFullScan:"
+- "setFuzzyMaximumDistance:"
+- "setHighlightCurationType:"
+- "setHighlyInteresting:"
+- "setHighlyInterestingPersonFacesCumulativeNormalDistributionUpperTail:"
+- "setHighlyInterestingPersonLastSeenCumulativeNormalDistributionLowerTail:"
+- "setHighlyInterestingPersonLastSeenCumulativeNormalDistributionUpperTail:"
+- "setHighlyInterestingPersonMomentsCumulativeNormalDistributionUpperTail:"
+- "setHighlyInterestingPersonNormalDistributionsToMatch:"
+- "setHighlyInterestingPersonTimeCumulativeNormalDistributionUpperTail:"
+- "setIdentifier:"
+- "setIncludeAssetSourceTypes:"
+- "setIncludeAssets:"
+- "setIncludeDuplicatesAlbums:"
+- "setIncludeGuestAssets:"
+- "setIncludeHiddenAssets:"
+- "setIncludeLocalMemories:"
+- "setIncludeMediaAnalysisProcessingRangeTypes:"
+- "setIncludeOnlyFacesWithFaceprints:"
+- "setIncludeOnlyPersonsWithVisibleKeyFaces:"
+- "setIncludeOthersInSocialGroupAssets:"
+- "setIncludePendingMemories:"
+- "setIncludeProResSmartAlbum:"
+- "setIncludeScreenRecordingsSmartAlbum:"
+- "setIncludeStoryMemories:"
+- "setIncludeSuggestions:"
+- "setIncludeTorsoAndFaceDetectionData:"
+- "setIncludeTorsoOnlyPerson:"
+- "setIncludeTrashBinAlbum:"
+- "setIncludedDetectionTypes:"
+- "setIncrementValue:"
+- "setInteger:forKey:"
+- "setInterestingPersonFacesCumulativeNormalDistributionUpperTail:"
+- "setInterestingPersonFacesNormalDistributionSigmaFactor:"
+- "setInterestingPersonLastSeenCumulativeNormalDistributionLowerTail:"
+- "setInterestingPersonLastSeenCumulativeNormalDistributionUpperTail:"
+- "setInterestingPersonLastSeenNormalDistributionSigmaFactor:"
+- "setInterestingPersonMomentsCumulativeNormalDistributionUpperTail:"
+- "setInterestingPersonMomentsNormalDistributionSigmaFactor:"
+- "setInterestingPersonNormalDistributionsToMatch:"
+- "setInterestingPersonTimeCumulativeNormalDistributionUpperTail:"
+- "setInterestingPersonTimeNormalDistributionSigmaFactor:"
+- "setInterestingScore:"
+- "setInternalPredicate:"
+- "setInternalSortDescriptors:"
+- "setIsExclusivePredicate:"
+- "setIsMe:"
+- "setIsNSFWExplicit:"
+- "setIsPreciselyNSFWExplicit:"
+- "setIsRecallinglyNSFWExplicit:"
+- "setIsShowcasingFood:"
+- "setIsVerified:"
+- "setIsVeryPreciselyIVSNSFWExplicit:"
+- "setKeyFace:"
+- "setKeyFace:forCluster:"
+- "setLanguage:"
+- "setLastEnrichmentDate:"
+- "setLastSeenDate:"
+- "setLimiters:"
+- "setLocale:"
+- "setMajorVersion:"
+- "setManualOrder:"
+- "setMaxRankedAssetSearchResults:"
+- "setMaxSearchResults:"
+- "setMaximumDistance:"
+- "setMemoryCandidates:"
+- "setMergeCandidateConfidence:"
+- "setMergedPersonIdentifiers:"
+- "setMetrics:"
+- "setMinNumberOfResultsForNextTokenGeneration:"
+- "setMinimumNumberOfObjects:"
+- "setMinimumUnverifiedFaceCount:"
+- "setMinimumVerifiedFaceCount:"
+- "setMinorVersion:"
+- "setMonth:"
+- "setName:"
+- "setNameComponents:"
+- "setNameString:"
+- "setNetworkAccessAllowed:"
+- "setNormalMaximumDistance:"
+- "setNormalizedCropRect:"
+- "setObject:atIndexedSubscript:"
+- "setObject:forKey:"
+- "setObject:forKey:inDomain:"
+- "setObject:forKeyedSubscript:"
+- "setOptions:"
+- "setOverallDurationInfo:"
+- "setPendingState:"
+- "setPersonClusterManager:"
+- "setPersonClusters:"
+- "setPersonContext:"
+- "setPersonLocalIdentifier:"
+- "setPersonPromoter:"
+- "setPetPromoter:"
+- "setPhotoLibrary:"
+- "setPhotosGraphData:"
+- "setPhotosGraphVersion:"
+- "setPlayCountThreshold:"
+- "setPredicate:"
+- "setProactiveCriterion:"
+- "setProcessed:forLibrary:"
+- "setProgress:"
+- "setProgressHandler:"
+- "setPromoterProfile:"
+- "setQualityMeasure:"
+- "setQuarantined:"
+- "setQuiescentState:"
+- "setRawClusters:"
+- "setRejectReason:"
+- "setRelatedCollectionUUID:"
+- "setRepresentativeFaceByFaceIdentifiers:"
+- "setResizeMode:"
+- "setScopedIdentifiers:"
+- "setSearchQueryResultTypes:"
+- "setSeed:"
+- "setSeedSongIdentifiersByCatalog:"
+- "setSharingFilter:"
+- "setShouldEmphasizeAdjusted:"
+- "setShouldEmphasizeBurst:"
+- "setShouldEmphasizeLive:"
+- "setShouldEmphasizePanorama:"
+- "setShouldEmphasizeSDOF:"
+- "setShouldEmphasizeShared:"
+- "setShouldPrefetchCount:"
+- "setShouldRelaxThreshold:"
+- "setShouldStop:"
+- "setSortDescriptors:"
+- "setSourceFaceGroup:"
+- "setSourcePerson:"
+- "setSourcePersonBackingAssetIdentifiers:"
+- "setSpotlightQUTypes:"
+- "setStartTime:"
+- "setStartValue:"
+- "setStrictMaximumDistance:"
+- "setString:"
+- "setSubtitle:"
+- "setSuggestedCrop:"
+- "setSuggestionSource:"
+- "setSuppressSlowFetchReports:"
+- "setSynchronous:"
+- "setTimeZone:"
+- "setTimeoutIntervalForRequest:"
+- "setTitle:"
+- "setUserFeedbackCalculator:"
+- "setValue:forKey:"
+- "setVerifiedType:"
+- "setVersion:"
+- "setViewCountThreshold:"
+- "setVisionHelper:"
+- "setWantsIncrementalChangeDetails:"
+- "setWidgetSize:"
+- "setWithArray:"
+- "setWithObject:"
+- "setWithObjects:"
+- "setYear:"
+- "settlingEffectAssetInternalSortDescriptors"
+- "settlingEffectLivePhotoPredicate"
+- "settlingEffectScoreNode"
+- "setupDefaultBackendWithRemoveUserOverwrite:enableLogging:"
+- "shareCount"
+- "sharedConnection"
+- "sharedContactStore"
+- "sharingFilter"
+- "sharpnessNode"
+- "shotlistMatchingEmbeddingSearchRetrievalLimit"
+- "shotlistMatchingRetrievalThreshold"
+- "shouldAdjustThresholdOnAgeType"
+- "shouldEmphasizeAdjusted"
+- "shouldEmphasizeBurst"
+- "shouldEmphasizeLive"
+- "shouldEmphasizePanorama"
+- "shouldEmphasizeSDOF"
+- "shouldEmphasizeShared"
+- "shouldExecuteAlchemistInBackground"
+- "shouldForceDiagnosticAsSeedOrFCS"
+- "shouldRelaxThreshold"
+- "shouldShowMemoryCreationInWhatsNew"
+- "shouldStop"
+- "shouldStopWithUpdateBlock:"
+- "shouldTriggerTTR"
+- "shufflePreference"
+- "shufflePromptParameters"
+- "shufflePromptParametersSeed"
+- "shuffleSmartAlbums"
+- "shuffleUserAlbumForCloudIdentifier:photoLibrary:"
+- "sideFaceRatio"
+- "significantEvents"
+- "signpostID"
+- "similarity"
+- "similarityBetweenFacesWithVUIdentifiers:andOtherFacesWithVUIdentifiers:"
+- "similarityModelVersion"
+- "singleChapterStatistics"
+- "softlink:r:path:/System/Library/PrivateFrameworks/MediaAnalysisServices.framework/MediaAnalysisServices"
+- "songID"
+- "songName"
+- "sortAscending"
+- "sortDescriptorWithKey:ascending:"
+- "sortDescriptors"
+- "sortDescriptorsForMessagesBackdropSuggestionDeduping"
+- "sortUsingComparator:"
+- "sortUsingDescriptors:"
+- "sortUsingSelector:"
+- "sortedArrayUsingComparator:"
+- "sortedArrayUsingDescriptors:"
+- "sortedArrayUsingSelector:"
+- "sortedClusters"
+- "sortedDedupedCandidatesFromCandidates:sortDescriptors:timeIntervalForCandidateDeduping:"
+- "sortedDedupedCandidatesFromCandidates:sortDescriptors:timeIntervalForCandidateDeduping:targetNumberOfSuggestions:maximumTimeIntervalReductionFactor:"
+- "sourceFaceGroup"
+- "sourceIdentifier"
+- "sourcePerson"
+- "sourcePersonBackingAssetIdentifiers"
+- "sourceType"
+- "spatial3DImageCompressionCodec"
+- "spatial3DImageCompressionQuality"
+- "spatial3DMinimumGenerationTime"
+- "spatial3DTextureCompressionPhase"
+- "spatialMediaProperties"
+- "spatialMediaType"
+- "spatialPhotoProducer:downloadTask:didUpdateProgress:"
+- "spatialPhotoProducer:downloadTaskDidEnd:success:error:"
+- "spatialPhotoProducer:downloadTaskDidStart:"
+- "spatialPhotoScene"
+- "standardUserDefaults"
+- "startSignpost"
+- "startTime"
+- "startValue"
+- "stateDidChangeWithMonitor:"
+- "statistics"
+- "statusCode"
+- "statusWithLibrary:delegate:"
+- "statusWithPhotoLibrary:delegate:"
+- "storyAssetManager"
+- "storyAssetsFetcher"
+- "storyAssetsFetcherSimilarityThreshold"
+- "storyChapters"
+- "storyCompletion"
+- "storyElements"
+- "storyGenerationDiagnosticContext"
+- "storyGenerationPipeline"
+- "storyGenerator"
+- "storyInputTraits"
+- "storyMusicCache"
+- "storyMusicCurationTimeoutSeconds"
+- "storyMusicMaestroEmbeddingApproach"
+- "storyPhotoLibraryContext"
+- "storyPlaceholderAssetsGenerator"
+- "storyRequestGenerator"
+- "storySelectedTraits"
+- "storySession"
+- "storyType"
+- "storytellerLocale"
+- "storytellerModelVersion"
+- "storytellerSelectedTraitsCount"
+- "strictMaximumDistance"
+- "string"
+- "stringByAppendingString:"
+- "stringByReplacingCharactersInRange:withString:"
+- "stringByReplacingMatchesInString:options:range:withTemplate:"
+- "stringByReplacingOccurrencesOfString:withString:"
+- "stringForCategory:"
+- "stringForCropVariantType:"
+- "stringForKey:"
+- "stringFromDate:"
+- "stringFromStartDate:endDate:type:"
+- "stringValue"
+- "stringWithFormat:"
+- "stringWithUTF8String:"
+- "strongToStrongObjectsMapTable"
+- "strongToWeakObjectsMapTable"
+- "subarrayWithRange:"
+- "substringWithRange:"
+- "suggestedCrop"
+- "suggestedCropByFeaturedPhotoLocalIdentifier"
+- "suggestedCropForAspectRatio:withFocusRegion:andOutputCropScore:"
+- "suggestedCropForTargetSize:"
+- "suggestedCropForTargetSize:withFocusRegion:andOutputCropScore:"
+- "suggestedMePersonIdentifierWithError:"
+- "suggestedNameComponents"
+- "suggestedNameString"
+- "suggestion"
+- "suggestionContextFromPersonLocalIdentifiers:"
+- "suggestionIsEligibleForDisplay:asset:modelSet:"
+- "suggestionLastUpdateTime"
+- "suggestionLibraryObservation"
+- "suggestionLocalIdentifiersByFeatureForPosterConfiguration:atDate:inPhotoLibrary:"
+- "suggestionPoolSize"
+- "suggestionSource"
+- "suggestionSources"
+- "suggestionSubtype"
+- "suggestionWithPersonLocalIdentifier:meContactIdentifier:"
+- "suggestionWithPersonLocalIdentifier:personView:"
+- "suggestions"
+- "suggestionsAfterRanking"
+- "suggestionsAssetPeopleUUIDMap"
+- "suggestionsCount"
+- "suggestionsDidGetInvalidated"
+- "suggestionsForRanking"
+- "suggestionsInCache"
+- "suggestionsReturned"
+- "suggestionsToRetire"
+- "suggestionsWithValidAssets"
+- "suggestionsWithValidatedPeople"
+- "superclass"
+- "supportsCollection:"
+- "syndicationEligibility"
+- "syndicationEligibilityForAssets:"
+- "syndicationProcessingValue"
+- "syndicationProcessingVersion"
+- "systemPhotoLibraryURL"
+- "systemTimeZone"
+- "tabooEventModel"
+- "tagIDs"
+- "targetNumberOfEventSuggestions"
+- "taskId"
+- "taskStreamContinuation"
+- "taskStreamMonitor"
+- "tastefullyBlurredScore"
+- "tastefullyBlurredScoreNode"
+- "taxonomyNodeRefForSceneIdentifier:"
+- "text"
+- "textDocumentNode"
+- "textEmbeddingSPIVersion"
+- "themeAssignments"
+- "themeName"
+- "themeType"
+- "timeIntervalSinceDate:"
+- "timeIntervalSinceReferenceDate"
+- "timeZone"
+- "timeZoneWithName:"
+- "titleLocale"
+- "titleWithoutFormattingForTitle:"
+- "token"
+- "tokenState"
+- "totalNumberOfAssets"
+- "tragicFailureNode"
+- "traitCompletionProcessor"
+- "traitGenerator"
+- "traitState"
+- "traitsStatistics"
+- "traverseChildrenUsingNameBlock:"
+- "trendsSceneModel"
+- "trialClient"
+- "tripHighlightRepresentativeAssetsMinimumThreshold"
+- "uiSuggestionStatistics"
+- "uid"
+- "unarchivedObjectOfClass:fromData:error:"
+- "underlyingErrors"
+- "uninterestingAudioClassifications"
+- "unionSet:"
+- "universalEndDate"
+- "universalStartDate"
+- "unsafeTitleOutputForChina"
+- "unsignedIntegerValue"
+- "unsignedLongLongValue"
+- "unsignedShortValue"
+- "updateConfidenceCacheBetweenPersonLocalIdentifier:andOtherPersonLocalIdentifier:withDistance:"
+- "updateKeyAssetOfSocialGroupsWithUUIDs:operationID:reply:"
+- "updateQueryString:withSelectedSuggestion:inRange:additionalAttributes:"
+- "updateSuggestionsForDate:numberOfSuggestions:"
+- "updateTimer"
+- "updatedSuggestionLocalIdentifiersForDate:numberOfSuggestions:"
+- "urlForApplicationDataFolderIdentifier:error:"
+- "useAllTraitsAboveThresholdInTitler"
+- "useCachedQueryTokensForSuggestions"
+- "useFallbackTitleForMiniMC"
+- "useGMSStreaming"
+- "useGlobalTraitsV3"
+- "useGlobalTraitsV3Captions"
+- "useGlobalTraitsV3EmbeddingOnlySearch"
+- "useGlobalTraitsV3MetadataOnlySearch"
+- "useGlobalTraitsV3TitleAndQuery"
+- "useNoIndexSelf"
+- "useObjectFetchingContext"
+- "useOnDeviceAssetCurationOutlier"
+- "useOtherQueryTokenAssetsForEventDisambiguation"
+- "usePersonAndPetExtendedTokensInAssetCuration"
+- "usePersonPromptAnnotations"
+- "usePhotoKitBatchSPIForRetrieval"
+- "useQueryAnnotationPromptBindingPersonAndPetNames"
+- "useShadowNamesInAssetCuration"
+- "useStillAssetsOnlyInBackground"
+- "useStorytellerSelectedTraitsForTitler"
+- "usedSuggestions"
+- "userFeedbackCalculator"
+- "userInfo"
+- "userProfile"
+- "userQueryEmbeddingSearchRetrievalLimit"
+- "userSuggestionByRange"
+- "uuidFromLocalIdentifier:"
+- "uuidsFromLocalIdentifiers:"
+- "v16@0:8"
+- "v16@?0@\"NSArray\"8"
+- "v16@?0@\"NSDictionary\"8"
+- "v16@?0@\"NSError\"8"
+- "v16@?0@\"NSURL\"8"
+- "v16@?0d8"
+- "v20@0:8B16"
+- "v20@0:8f16"
+- "v20@0:8s16"
+- "v20@?0i8@\"NSError\"12"
+- "v24@0:8@\"<PFStoryRecipeAsset>\"16"
+- "v24@0:8@\"<PFStoryRecipeLibrary>\"16"
+- "v24@0:8@\"<PFStoryRecipePresentation>\"16"
+- "v24@0:8@\"<PFStoryRecipeStyle>\"16"
+- "v24@0:8@\"<PNFaceProtocol>\"16"
+- "v24@0:8@\"<PNFetchResultProtocol>\"16"
+- "v24@0:8@\"NSArray\"16"
+- "v24@0:8@\"NSDictionary\"16"
+- "v24@0:8@\"NSString\"16"
+- "v24@0:8@\"PHChange\"16"
+- "v24@0:8@\"_TtC18PhotosIntelligence33MemoryCreationAvailabilityMonitor\"16"
+- "v24@0:8@16"
+- "v24@0:8@?16"
+- "v24@0:8@?<v@?@\"NSError\">16"
+- "v24@0:8B16B20"
+- "v24@0:8Q16"
+- "v24@0:8d16"
+- "v24@0:8q16"
+- "v24@?0@\"NSArray\"8@\"NSError\"16"
+- "v24@?0@\"NSData\"8@\"NSError\"16"
+- "v24@?0@\"NSString\"8@\"NSError\"16"
+- "v24@?0@\"PHFeatureAvailability\"8@\"NSError\"16"
+- "v24@?0Q8d16"
+- "v24@?0^{CGImage=}8@\"NSError\"16"
+- "v28@0:8B16@20"
+- "v28@0:8s16@20"
+- "v28@?0@\"NSString\"8B16@\"NSError\"20"
+- "v32@0:8@\"<PFParallaxSpatialPhotoProducer>\"16@\"<PFParallaxSpatialPhotoProducerModelDownloadTask>\"24"
+- "v32@0:8@\"NSArray\"16@?<v@?@\"NSDictionary\">24"
+- "v32@0:8@16@24"
+- "v32@0:8@16@?24"
+- "v32@0:8@16Q24"
+- "v32@0:8@16d24"
+- "v32@0:8B16@20B28"
+- "v32@0:8q16@24"
+- "v32@0:8q16@?24"
+- "v32@0:8q16@?<v@?@\"<PFStoryRecipeAsset>\"^B>24"
+- "v32@0:8{CGSize=dd}16"
+- "v32@?0@\"PHAsset\"8q16^B24"
+- "v32@?0@\"PHFace\"8q16^B24"
+- "v32@?0@\"PHMemory\"8q16^B24"
+- "v32@?0@\"PHPerson\"8q16^B24"
+- "v32@?0@\"PHPhotosHighlight\"8q16^B24"
+- "v32@?0@\"PHSearchQueryResult\"8Q16@\"NSError\"24"
+- "v32@?0@\"PHSocialGroup\"8q16^B24"
+- "v32@?0@\"PHSuggestion\"8q16^B24"
+- "v36@0:8@16B24@28"
+- "v36@0:8@16B24@?28"
+- "v36@?0@\"PHSearchQueryResult\"8Q16B24@\"NSError\"28"
+- "v40@0:8@\"<PFParallaxSpatialPhotoProducer>\"16@\"<PFParallaxSpatialPhotoProducerModelDownloadTask>\"24d32"
+- "v40@0:8@\"NSArray\"16q24@?<v@?@\"NSDictionary\"@\"NSError\">32"
+- "v40@0:8@16@24@?32"
+- "v40@0:8@16@24d32"
+- "v40@0:8@16@24r^{?=II{?=IIIII}IIIIIIIIII{?=I}{?=IIIIII}}32"
+- "v40@0:8@16Q24@32"
+- "v40@0:8@16d24@?32"
+- "v40@?0@\"NSString\"8{_NSRange=QQ}16^B32"
+- "v40@?0@8{_NSRange=QQ}16^B32"
+- "v44@0:8@\"<PFParallaxSpatialPhotoProducer>\"16@\"<PFParallaxSpatialPhotoProducerModelDownloadTask>\"24B32@\"NSError\"36"
+- "v44@0:8@16@24B32@36"
+- "v48@0:8@16@24@32@40"
+- "v48@0:8@16@24@?32@?40"
+- "v48@0:8^{__CVBuffer=}16@24@?32@?40"
+- "v56@0:8@16@24@32@?40@?48"
+- "v64@0:8@16{CGSize=dd}24q40@48@?56"
+- "v96@0:8{?=q{?={?=qiIq}{?=qiIq}{?=qiIq}}}16"
+- "validAndUnusedSuggestions"
+- "validPeriod"
+- "validSuggestions"
+- "validatePromptSuggestionsWithSuggestionUUIDs:operationID:reply:"
+- "validator"
+- "valueWithCompletion:"
+- "vectorFetchingBlock"
+- "vectors"
+- "vehicleCrashNode"
+- "verifiedPersonLocalIdentifiersByAssetUUIDWithAssets:"
+- "verifiedPersonUUIDs"
+- "videoScore"
+- "videoScoreThresholdToBeInteresting"
+- "videoScoreThresholdToNotBeJunk"
+- "viewCount"
+- "viewCountThreshold"
+- "viewType"
+- "visibleRect"
+- "visionHelper"
+- "visitChildrenUsingNameBlock:"
+- "visitParentsUsingNameBlock:"
+- "void *MediaAnalysisServicesLibrary(void)"
+- "vuObservationID"
+- "wallpaperCroppingDebugKeyValuePairs"
+- "wallpaperCroppingDebugKeyValuePairsForAsset:"
+- "wallpaperCroppingDebugKeyValuePairsForAsset:withFaceRegions:headroomFeasible:"
+- "wallpaperDemoModeEnabled"
+- "wallpaperGalleryFeaturedPhotoSortedSuggestionsFromSuggestions:"
+- "wallpaperGalleryPosterTitleForSuggestion:withAsset:"
+- "wallpaperGalleryPosterTitleFromPlaceNames:personName:isLocatedAtHome:"
+- "wallpaperGallerySmartAlbumSuggestionsFromSuggestions:"
+- "wallpaperPeopleLocalIdentifiersInPhotoLibrary:vipOnly:"
+- "wallpaperPropertiesData"
+- "wallpaperScoreModel"
+- "warNode"
+- "wasComputed"
+- "weakObjectsHashTable"
+- "weakSceneByCacheKey"
+- "whimsicalIncludeProbability"
+- "widgetSize"
+- "widgetSizeForFamily:"
+- "widgetSuggestionSubtypeForAssetCollectionType:"
+- "workQueue"
+- "writePropertyList:toStream:format:options:error:"
+- "writeToURL:atomically:"
+- "writeToURL:withOptions:error:"
+- "xmlEncoder"
+- "zone"
+- "zoomInPercentage"
+- "{?=qqqdd}24@0:8@16"
+- "{?=q{?={?=qiIq}{?=qiIq}{?=qiIq}}}16@0:8"
+- "{CGRect=\"origin\"{CGPoint=\"x\"d\"y\"d}\"size\"{CGSize=\"width\"d\"height\"d}}"
+- "{CGRect={CGPoint=dd}{CGSize=dd}}16@0:8"
+- "{CGRect={CGPoint=dd}{CGSize=dd}}40@0:8@16^d24^B32"
+- "{CGRect={CGPoint=dd}{CGSize=dd}}48@0:8@16Q24^d32^B40"
+- "{CGRect={CGPoint=dd}{CGSize=dd}}56@0:8@16Q24^d32^B40@48"
+- "{CGSize=\"width\"d\"height\"d}"
+- "{CGSize=dd}16@0:8"
+- "{CGSize=dd}24@0:8q16"
+- "{CLLocationCoordinate2D=dd}16@0:8"
+- "{os_unfair_lock_s=\"_os_unfair_lock_opaque\"I}"
+
+```

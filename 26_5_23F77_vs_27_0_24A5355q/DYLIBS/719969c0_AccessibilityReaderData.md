@@ -1,0 +1,2051 @@
+## AccessibilityReaderData
+
+> `/System/Library/PrivateFrameworks/AccessibilityReaderData.framework/AccessibilityReaderData`
+
+```diff
+
+-3191.35.0.0.0
+-  __TEXT.__text: 0x7d57c sha256:3e540a8f50397b57f97dc9ead7526ba6e87595e8ec6b2d18f3ef94d65fe1a653
+-  __TEXT.__auth_stubs: 0x1c00 sha256:b31002b77be28cb33ad6c5c00dc187a81c39dade4777d1ca451e3d8f917756e4
+-  __TEXT.__objc_methlist: 0x1f4 sha256:5d7578087f487e68100a20f7cf75de49cfd180ff651be80347bb18061e9f449d
+-  __TEXT.__const: 0x62c4 sha256:c9b85a9adeff8480a0486a2963495db9b263db585869c28575d94f47d799563b
+-  __TEXT.__cstring: 0x1441 sha256:79914eb80b2fb5d107b1513617bce5f4e5f0942ba6381337552b1ec3bf3f201c
+-  __TEXT.__oslogstring: 0x1459 sha256:2b62c3a031b3167f93eff4dae8bb915b68f479c93e7b5ec773ed0bf7e1ed6be5
+-  __TEXT.__swift5_typeref: 0x117a sha256:1959a963241c200c3ced4a7219d55154152e388641c33c5965efe5459e5410ca
+-  __TEXT.__swift5_fieldmd: 0x1024 sha256:815b35da8500fd756e3637ec71f2037191177dcbce934adb67cbf0ae6b380601
+-  __TEXT.__constg_swiftt: 0x1668 sha256:3a9787e5e96c910f255869cca6a5de83f15109fe8b4c21b79dc5838a3e2772c1
+-  __TEXT.__swift5_builtin: 0x8c sha256:a683c1979a199012779b586f7aae722bbece726039bd97ac349bc75b3d22395c
+-  __TEXT.__swift5_reflstr: 0x107b sha256:2c32da0185680c7112d4e252b129a81197432256804be1411e0bda4b55e40296
+-  __TEXT.__swift5_assocty: 0x450 sha256:75afbe10d5dc80d6e0b60afd69ad901315feb848f7a2c991b90ff485c42a8d5a
+-  __TEXT.__swift5_protos: 0x4 sha256:839876cfb96798e1a48e7eab943d1a424e91bb7336419485ab7af0472bfde166
+-  __TEXT.__swift5_proto: 0x368 sha256:b20d8abdfea1ee98759cb3c6c2b65e570a355b35a93390688dbca328d5fe9b8e
+-  __TEXT.__swift5_types: 0xf0 sha256:3f548fbc2153e6eb401bf83a9638b2c6d1a141b433a04a8a82e5fb7bba753bc4
+-  __TEXT.__swift5_capture: 0x3d4 sha256:8c6dfb042186b090e83e0bbe1c711f1c1b4cd7591455f9b87d26d02927edc2b5
+-  __TEXT.__swift_as_entry: 0x3c sha256:d8520d44905023bafaeddc2a01be2e479f9db8590668e70fa94c83dd67d27ba8
+-  __TEXT.__swift_as_ret: 0x30 sha256:8512aa9d8d4fae51887b709350743e21968b98b1c5e5d462678cdb5e4cc89bf5
+-  __TEXT.__unwind_info: 0x1b50 sha256:f5e468b0657ecf56f394bdf2551579732d2705c20c691035c4dd7195a47b4e14
+-  __TEXT.__eh_frame: 0x173c sha256:54f441432107d756255392eb7843afdd64812030151930d5643bf2f9316e57bf
+-  __TEXT.__objc_classname: 0x294 sha256:4c5fefe8f238f5ecb79a0499b6c2d4a29463acc7e0e5e630027bdf8af9cd62fd
+-  __TEXT.__objc_methname: 0x15d3 sha256:cc2157059020228e9126af0b05958374469d16eee4e8f0f8ca41d608f36a4a05
+-  __TEXT.__objc_methtype: 0x15f sha256:0a022054b93c26a5c9ccf095cea037bcca36b6a1f149564c4151368c20e2c50e
+-  __TEXT.__objc_stubs: 0x1360 sha256:64bae1e2da1ce0872ab622453e7095f85951fc3b6961184956bba1b47ade366a
+-  __DATA_CONST.__got: 0x758 sha256:d757269a0b65a3bb592d5e4a013d42df4a4fcd5c8b8d3ff2aa595d0fc7d091dc
+-  __DATA_CONST.__const: 0x850 sha256:2b48726706a2b6417a6e6eeeb5e356d8f0f58bb811d1d65327f5fcdc8148a921
+-  __DATA_CONST.__objc_classlist: 0x68 sha256:b0b8e72d90f0c793b8e432ff51604069f5f59ab4901fef40039ffdf398bdf922
+-  __DATA_CONST.__objc_imageinfo: 0x8 sha256:8c2e86a3d61473a17440ee60441113a7d285704a3b70278f03e88b3c356a5493
+-  __DATA_CONST.__objc_selrefs: 0x510 sha256:0a02277d4a29c79d1fc8674ac609f479da983198695f1b55f3ea6a3c8c9848bd
+-  __DATA_CONST.__objc_superrefs: 0x10 sha256:37f00d140f74e56586128a4ea7dd0b0e6cb64d3fbfebe1d121fbd6b620edb08d
+-  __AUTH_CONST.__auth_got: 0xe08 sha256:2d4a4691da95f22b8ae8f1671f6185252e8f47d0c5dc35bbac90f3dd618ec95b
+-  __AUTH_CONST.__const: 0x2b48 sha256:d71d7c5a21c33b4a253461d7370e9cf0c8a17661648cc47733273f2700223e61
+-  __AUTH_CONST.__cfstring: 0x40 sha256:fdd76d580c42092ee29bb51752e18d0a83d702d91bfa4ad272c303682765f54f
+-  __AUTH_CONST.__objc_const: 0x1268 sha256:c280ce156dc71a86cab0e71a2d8174267b286ddab3cd308dd9d45ab3b9c06ac2
+-  __AUTH.__objc_data: 0x758 sha256:fdbda805464f50e0c61f376fa1d3ab5350017bbb37d91576e57086b22b8b4061
+-  __AUTH.__data: 0x13b8 sha256:1fb1fbf7697746725ad6b004c7f3abd54a4ed412750cbbbcb91504ef09d17abc
+-  __DATA.__objc_ivar: 0x18 sha256:1fbc7ebcafcc02dc4f0829b1415c60ec9c28016e70b25aaee06e3605278c24ec
+-  __DATA.__data: 0x1190 sha256:7b075d4bc95f58c9cb0c3a73adf118a2d8d0879f3b8723855cd9bf7025ff1a5c
+-  __DATA.__bss: 0x73a0 sha256:db3e9a7e519916aa198de876d87d6c6d1bb578689880f573f3eda0f605bc5a61
+-  __DATA.__common: 0x38 sha256:95ea34e6eb32cc520cceea1f743de5e5412103eddcea518e777e6188b568b329
++3229.1.6.0.0
++  __TEXT.__text: 0x137b5c sha256:3e7999343aa07e1efaf9d4e48bfb8a144110ee0a0bfc523f470b796b09ea0af1
++  __TEXT.__objc_methlist: 0x3f4 sha256:a26590c3e2e7cb8d43919afecfdaf897daa552b8b4551e30131c7fc682907916
++  __TEXT.__const: 0xbd28 sha256:24dd9644b9392fb113f042ffe31cfc1b052e40abd364816f2c73832e90d78c24
++  __TEXT.__swift5_typeref: 0x58b8 sha256:cd8ab9ecc3732a8613e74228261e315621c9b47b1da2b1aa6e0b04ac8d938b89
++  __TEXT.__swift5_fieldmd: 0x2428 sha256:7c24b81010c635e994463ef4e3cf52e61a176deca24637cfdd34e975dd430d25
++  __TEXT.__constg_swiftt: 0x2de0 sha256:d101fcc5ef840d3fb506069deb61c4034cc1e4854be6ab0a35fe7c3000347548
++  __TEXT.__swift5_builtin: 0x168 sha256:74ad3a9d52393bc42490d06f8ed6fc1dcbb71b551051cf057c7916363f877070
++  __TEXT.__swift5_reflstr: 0x250b sha256:2f4e5689d916ad75b0ce7f52de76b1c1ff7baab9b6c00b1c46336a16fa7d05d2
++  __TEXT.__swift5_assocty: 0x870 sha256:9bb8dae83e22cf018fb37ec9bfcc44029befcb3704edc4159bd941318b6a448b
++  __TEXT.__swift5_protos: 0x14 sha256:328383b9d925c39d6c770995fb0aebce5fac7e9c7a7dceaab70e99c7f82ad6dc
++  __TEXT.__swift5_proto: 0x520 sha256:126e9d0441c60ec40ce3fb71fa631394687251dfa9ad8d02934a89daebc65d59
++  __TEXT.__swift5_types: 0x244 sha256:d7e3a93f8a12b2c35ec6edd84f8e5061a295b1fa37204ce959111a42016bfa9a
++  __TEXT.__cstring: 0x3726 sha256:2b5140878342521234b9c8a30b66be383e5bc1a4821e4bab599dc84f3906077a
++  __TEXT.__swift5_capture: 0x149c sha256:d9fb58697ecf0b894a1a41ebb23793f3ba445e0ce337b11fd9cd8b22c24c6a93
++  __TEXT.__oslogstring: 0x348f sha256:a99c64aa79a39c06f9ffac8ab49dbbe006049dc05a0e5baffad25e729d742bdd
++  __TEXT.__swift_as_entry: 0xf0 sha256:56ccb53f61ee21e9c137c9e65127cdcbb169fd54888497bccf47f985e8392782
++  __TEXT.__swift_as_ret: 0x128 sha256:184ddcd602bec1bf06039eec872b8ce25ebd0d188a6b3c8bddfb3eb2ff6e476a
++  __TEXT.__swift_as_cont: 0x374 sha256:56e9c188283d304c9a390b5102453e7e9da20656fab7b9d1a961e048e790a81c
++  __TEXT.__swift5_mpenum: 0x8 sha256:bb488447e5ecfec19d796fcfb9aeb9c655de70fa3e49109263cda0fd90f0922c
++  __TEXT.__unwind_info: 0x39b8 sha256:99745c950d1169e9179c108dd5d8401ecc0032e31d71e8c74e77bc31ecbf2509
++  __TEXT.__eh_frame: 0x4ef0 sha256:f12619ad30b8b8afa7dd2e91e69dbb36107268cc90919eb5803bf86a329409bb
++  __TEXT.__objc_stubs: 0x0
++  __TEXT.__auth_stubs: 0x0
++  __TEXT.__objc_classname: 0x0
++  __TEXT.__objc_methname: 0x0
++  __TEXT.__objc_methtype: 0x0
++  __DATA_CONST.__const: 0xd08 sha256:9ad1ff0617628001ad9bdf0a51de43c034ea6157ba10f050e512ddd313cd18e5
++  __DATA_CONST.__objc_classlist: 0x100 sha256:3702f252f299c640c6ec6c40a752289521323985f7b091ce36b519cd6d61a284
++  __DATA_CONST.__objc_protolist: 0x20 sha256:45ab71960fc382ac303b842af652ccb1e56db4decf1cea4e0d5041f8541812ec
++  __DATA_CONST.__objc_imageinfo: 0x8 sha256:ce857dcadc2529f941104469975d60698ea3610a86c121e7b4aee224cd0c59ea
++  __DATA_CONST.__objc_selrefs: 0xaa8 sha256:199a8f2788bb9a9ae2bba39dbf59963ad1c178032bafc024e9098dc0d38df952
++  __DATA_CONST.__objc_protorefs: 0x10 sha256:008a187bdb352c2ec225dca3b67383f3bdcbdf742e0e2642374b1c8cb1e1cc37
++  __DATA_CONST.__objc_superrefs: 0x8 sha256:332cfc1af8300ced0386ed5050a35b8fffbc77ba1ee9a597dce44fb82c282097
++  __DATA_CONST.__got: 0xd50 sha256:3508c79b12b81daa3f7d010c21488ce6086bafee5c96db51f361a1b4ca9c2a65
++  __AUTH_CONST.__const: 0x7a10 sha256:d95fd98a761ed5ceff557ff7460eccada1eda0a8120dce99bf98f6a9e929e4bf
++  __AUTH_CONST.__cfstring: 0x40 sha256:a86a5536f015a1e6cdfc81d5956dc9dd92bf2440767facda94d1fd2ae86eaf17
++  __AUTH_CONST.__objc_const: 0x2c50 sha256:06cb79e39e070cadce49825020ec0621d95e49211fbbfaed26577e8cfbaf0bcb
++  __AUTH_CONST.__auth_got: 0x1920 sha256:9f12fb98ebbf4e5deef4cf51ade63094a795b891880217958b226707c95f43f2
++  __AUTH.__objc_data: 0xda8 sha256:7e253ef9c187dce73194a6ab2d5b4d170e5abffec6119cb1aa9ab90a048da4ac
++  __AUTH.__data: 0x2c78 sha256:4a0c43bdfb2cfcd6a82d5ce568cfaafd88e12544319abbd0486d2e08bec22c0b
++  __DATA.__objc_ivar: 0x14 sha256:bf6763836f38048ba662546fb0e0aa6a2339d540b19338568f6df3047141b3e5
++  __DATA.__data: 0x2230 sha256:c74d29f9e3ce8ba78a63f866434bad37de0954dd60b9c99b62fabd73cf5f2b2a
++  __DATA.__bss: 0xafa0 sha256:10616f55202bfce518f6d312005842db61483b2f90247eae09d7c33f57ab8bd8
++  __DATA.__common: 0x1a8 sha256:2c9eb7b8d54d0117a33e4111bcaac76854f4b7ad6b8d440c3c4da499eda38aea
+   - /System/Library/Frameworks/AVFAudio.framework/AVFAudio
++  - /System/Library/Frameworks/Accelerate.framework/Accelerate
+   - /System/Library/Frameworks/Combine.framework/Combine
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+
+   - /System/Library/Frameworks/CoreText.framework/CoreText
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/Frameworks/MediaPlayer.framework/MediaPlayer
++  - /System/Library/Frameworks/NaturalLanguage.framework/NaturalLanguage
+   - /System/Library/Frameworks/SwiftUI.framework/SwiftUI
++  - /System/Library/Frameworks/Translation.framework/Translation
+   - /System/Library/Frameworks/UIKit.framework/UIKit
+   - /System/Library/Frameworks/Vision.framework/Vision
+   - /System/Library/PrivateFrameworks/AXCoreUtilities.framework/AXCoreUtilities
+   - /System/Library/PrivateFrameworks/AXRuntime.framework/AXRuntime
+   - /System/Library/PrivateFrameworks/AccessibilityFocusEngine.framework/AccessibilityFocusEngine
++  - /System/Library/PrivateFrameworks/AccessibilityReaderServices.framework/AccessibilityReaderServices
++  - /System/Library/PrivateFrameworks/AccessibilitySharedSupport.framework/AccessibilitySharedSupport
+   - /System/Library/PrivateFrameworks/AccessibilityUtilities.framework/AccessibilityUtilities
++  - /System/Library/PrivateFrameworks/GenerativeModels.framework/GenerativeModels
++  - /System/Library/PrivateFrameworks/PromptKit.framework/PromptKit
+   - /System/Library/PrivateFrameworks/RunningBoardServices.framework/RunningBoardServices
++  - /System/Library/PrivateFrameworks/Sage.framework/Sage
+   - /System/Library/PrivateFrameworks/SpringBoardServices.framework/SpringBoardServices
+   - /System/Library/PrivateFrameworks/TextToSpeech.framework/TextToSpeech
+   - /System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
+
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/swift/libswiftAVFoundation.dylib
+   - /usr/lib/swift/libswiftAccelerate.dylib
++  - /usr/lib/swift/libswiftCompression.dylib
+   - /usr/lib/swift/libswiftCore.dylib
+   - /usr/lib/swift/libswiftCoreAudio.dylib
+   - /usr/lib/swift/libswiftCoreAudio_Private.dylib
+
+   - /usr/lib/swift/libswiftCoreImage.dylib
+   - /usr/lib/swift/libswiftCoreLocation.dylib
+   - /usr/lib/swift/libswiftCoreMIDI.dylib
+-  - /usr/lib/swift/libswiftCoreMedia.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
+   - /usr/lib/swift/libswiftIntents.dylib
+   - /usr/lib/swift/libswiftMLCompute.dylib
+
+   - /usr/lib/swift/libswiftQuartzCore.dylib
+   - /usr/lib/swift/libswiftSpatial.dylib
+   - /usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
+-  - /usr/lib/swift/libswiftVideoToolbox.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswift_Concurrency.dylib
++  - /usr/lib/swift/libswift_DarwinFoundation1.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: B042F848-357D-3CF5-81A8-5F57A9BD29A3
+-  Functions: 2937
+-  Symbols:   1129
+-  CStrings:  581
++  UUID: 05DB338B-E955-35DC-A5A3-A32EFEB0457A
++  Functions: 6025
++  Symbols:   2885
++  CStrings:  521
+ 
+Symbols:
++ _AXDeviceSupportsAccessibilityReaderFormat
++ _AXDeviceSupportsAppleIntelligence
++ _AXLogReader
++ _AXReaderShouldLaunchForBundleIdentifier
++ _AXUIAccessibilityTextAttributeHeadingLevel
++ _AXUIElementGetPid
++ _AXValueGetTypeID
++ _AXValueGetValue
++ _CGDataProviderCreateWithCFData
++ _CGImageCreate
++ _CGRectGetHeight
++ _CGRectGetMidY
++ _CGRectGetMinX
++ _CGRectGetWidth
++ _GESummarizationClientErrorDomain
++ _NLLanguageEnglish
++ _NSAttachmentAttributeName
++ _NSClassFromString
++ _NSIntersectionRange
++ _NSLinkAttributeName
++ _NSSelectorFromString
++ _NSStrikethroughStyleAttributeName
++ _NSStringFromClass
++ _NSTextListMarkerDisc
++ _OBJC_CLASS_$_AXAttributedString
++ _OBJC_CLASS_$_AXSettings
++ _OBJC_CLASS_$_AXUIElement
++ _OBJC_CLASS_$_NLEmbedding
++ _OBJC_CLASS_$_NLLanguageRecognizer
++ _OBJC_CLASS_$_NLTokenizer
++ _OBJC_CLASS_$_NSArray
++ _OBJC_CLASS_$_NSLock
++ _OBJC_CLASS_$_NSNotificationCenter
++ _OBJC_CLASS_$_NSOperationQueue
++ _OBJC_CLASS_$_NSParagraphStyle
++ _OBJC_CLASS_$_NSRegularExpression
++ _OBJC_CLASS_$_NSRunLoop
++ _OBJC_CLASS_$_NSString
++ _OBJC_CLASS_$_NSTextAttachment
++ _OBJC_CLASS_$_NSTextAttachmentViewProvider
++ _OBJC_CLASS_$_NSTextCheckingResult
++ _OBJC_CLASS_$_NSTextList
++ _OBJC_CLASS_$_NSTextTab
++ _OBJC_CLASS_$_NSURL
++ _OBJC_CLASS_$_NSValue
++ _OBJC_CLASS_$_UIBezierPath
++ _OBJC_CLASS_$_UIDevice
++ _OBJC_CLASS_$_UIGraphicsImageRenderer
++ _OBJC_CLASS_$_UIImage
++ _OBJC_CLASS_$_UIImageSymbolConfiguration
++ _OBJC_CLASS_$_UIPasteboard
++ _OBJC_CLASS_$_UITextView
++ _OBJC_CLASS_$__LTCombinedTranslationResult
++ _OBJC_CLASS_$__LTLanguageAvailability
++ _OBJC_CLASS_$__LTTextTranslationRequest
++ _OBJC_CLASS_$__LTTranslationCandidate
++ _OBJC_CLASS_$__LTTranslator
++ _OBJC_CLASS_$__TtC23AccessibilityReaderData20AXRBlockQuoteDivider
++ _OBJC_CLASS_$__TtC23AccessibilityReaderData22AXRImageTextAttachment
++ _OBJC_CLASS_$__TtC23AccessibilityReaderData24AXROnDeviceSummarization
++ _OBJC_CLASS_$__TtC23AccessibilityReaderData30AXRTableAttachmentViewProvider
++ _OBJC_METACLASS_$_NSTextAttachment
++ _OBJC_METACLASS_$_NSTextAttachmentViewProvider
++ _OBJC_METACLASS_$__TtC23AccessibilityReaderData20AXRBlockQuoteDivider
++ _OBJC_METACLASS_$__TtC23AccessibilityReaderData22AXRImageTextAttachment
++ _OBJC_METACLASS_$__TtC23AccessibilityReaderData24AXROnDeviceSummarization
++ _OBJC_METACLASS_$__TtC23AccessibilityReaderData30AXRTableAttachmentViewProvider
++ _UIAccessibilityTokenBold
++ _UIAccessibilityTokenItalic
++ _UIAccessibilityTokenLink
++ _UIAccessibilityTokenListItemIdentifier
++ _UIAccessibilityTokenListItemLabel
++ _UIAccessibilityTokenListItemLevel
++ _UIAccessibilityTokenStrikethrough
++ _UIAccessibilityTokenUnderline
++ _UIContentSizeCategoryDidChangeNotification
++ _UIDeviceOrientationIsLandscape
++ _UIFontDescriptorFamilyAttribute
++ _UIFontWeightSemibold
++ _UIImagePNGRepresentation
++ _UITextViewTextDidChangeNotification
++ __CLASS_METHODS__TtC23AccessibilityReaderData22AXRImageTextAttachment
++ __CLASS_PROPERTIES__TtC23AccessibilityReaderData22AXRImageTextAttachment
++ __DATA__TtC23AccessibilityReaderData14AXRImageFilter
++ __DATA__TtC23AccessibilityReaderData16AXRListFormatter
++ __DATA__TtC23AccessibilityReaderData17AXRImageFormatter
++ __DATA__TtC23AccessibilityReaderData17AXRMapbackService
++ __DATA__TtC23AccessibilityReaderData19AXRTranslationCache
++ __DATA__TtC23AccessibilityReaderData20AXRBlockQuoteDivider
++ __DATA__TtC23AccessibilityReaderData20AXRMarkdownConverter
++ __DATA__TtC23AccessibilityReaderData21AXRSummarizationModel
++ __DATA__TtC23AccessibilityReaderData21AXRTranslationManager
++ __DATA__TtC23AccessibilityReaderData22AXRBlockMatcherService
++ __DATA__TtC23AccessibilityReaderData22AXRBlockQuoteFormatter
++ __DATA__TtC23AccessibilityReaderData22AXRContentCleanUpCache
++ __DATA__TtC23AccessibilityReaderData22AXRImageTextAttachment
++ __DATA__TtC23AccessibilityReaderData22AXRTableSelectionState
++ __DATA__TtC23AccessibilityReaderData24AXRContentCleanupService
++ __DATA__TtC23AccessibilityReaderData24AXROnDeviceSummarization
++ __DATA__TtC23AccessibilityReaderData25AXRSampleArticleGenerator
++ __DATA__TtC23AccessibilityReaderData29AXRBlockMarkupTransferService
++ __DATA__TtC23AccessibilityReaderData30AXRTableAttachmentViewProvider
++ __DATA__TtC23AccessibilityReaderData31AXRSemanticSimilarityCalculator
++ __INSTANCE_METHODS__TtC23AccessibilityReaderData20AXRBlockQuoteDivider
++ __INSTANCE_METHODS__TtC23AccessibilityReaderData22AXRImageTextAttachment
++ __INSTANCE_METHODS__TtC23AccessibilityReaderData24AXROnDeviceSummarization
++ __INSTANCE_METHODS__TtC23AccessibilityReaderData30AXRTableAttachmentViewProvider
++ __IVARS__TtC23AccessibilityReaderData14AXRImageFilter
++ __IVARS__TtC23AccessibilityReaderData16AXRListFormatter
++ __IVARS__TtC23AccessibilityReaderData17AXRImageFormatter
++ __IVARS__TtC23AccessibilityReaderData17AXRMapbackService
++ __IVARS__TtC23AccessibilityReaderData19AXRTranslationCache
++ __IVARS__TtC23AccessibilityReaderData20AXRBlockQuoteDivider
++ __IVARS__TtC23AccessibilityReaderData21AXRSummarizationModel
++ __IVARS__TtC23AccessibilityReaderData21AXRTranslationManager
++ __IVARS__TtC23AccessibilityReaderData22AXRBlockMatcherService
++ __IVARS__TtC23AccessibilityReaderData22AXRBlockQuoteFormatter
++ __IVARS__TtC23AccessibilityReaderData22AXRContentCleanUpCache
++ __IVARS__TtC23AccessibilityReaderData22AXRImageTextAttachment
++ __IVARS__TtC23AccessibilityReaderData22AXRTableSelectionState
++ __IVARS__TtC23AccessibilityReaderData24AXRContentCleanupService
++ __IVARS__TtC23AccessibilityReaderData24AXROnDeviceSummarization
++ __IVARS__TtC23AccessibilityReaderData29AXRBlockMarkupTransferService
++ __IVARS__TtC23AccessibilityReaderData30AXRTableAttachmentViewProvider
++ __IVARS__TtC23AccessibilityReaderData31AXRSemanticSimilarityCalculator
++ __METACLASS_DATA__TtC23AccessibilityReaderData14AXRImageFilter
++ __METACLASS_DATA__TtC23AccessibilityReaderData16AXRListFormatter
++ __METACLASS_DATA__TtC23AccessibilityReaderData17AXRImageFormatter
++ __METACLASS_DATA__TtC23AccessibilityReaderData17AXRMapbackService
++ __METACLASS_DATA__TtC23AccessibilityReaderData19AXRTranslationCache
++ __METACLASS_DATA__TtC23AccessibilityReaderData20AXRBlockQuoteDivider
++ __METACLASS_DATA__TtC23AccessibilityReaderData20AXRMarkdownConverter
++ __METACLASS_DATA__TtC23AccessibilityReaderData21AXRSummarizationModel
++ __METACLASS_DATA__TtC23AccessibilityReaderData21AXRTranslationManager
++ __METACLASS_DATA__TtC23AccessibilityReaderData22AXRBlockMatcherService
++ __METACLASS_DATA__TtC23AccessibilityReaderData22AXRBlockQuoteFormatter
++ __METACLASS_DATA__TtC23AccessibilityReaderData22AXRContentCleanUpCache
++ __METACLASS_DATA__TtC23AccessibilityReaderData22AXRImageTextAttachment
++ __METACLASS_DATA__TtC23AccessibilityReaderData22AXRTableSelectionState
++ __METACLASS_DATA__TtC23AccessibilityReaderData24AXRContentCleanupService
++ __METACLASS_DATA__TtC23AccessibilityReaderData24AXROnDeviceSummarization
++ __METACLASS_DATA__TtC23AccessibilityReaderData25AXRSampleArticleGenerator
++ __METACLASS_DATA__TtC23AccessibilityReaderData29AXRBlockMarkupTransferService
++ __METACLASS_DATA__TtC23AccessibilityReaderData30AXRTableAttachmentViewProvider
++ __METACLASS_DATA__TtC23AccessibilityReaderData31AXRSemanticSimilarityCalculator
++ __OBJC_$_PROP_LIST_NSObject
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSCopying
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject
++ __OBJC_$_PROTOCOL_METHOD_TYPES_NSCopying
++ __OBJC_$_PROTOCOL_METHOD_TYPES_NSObject
++ __OBJC_LABEL_PROTOCOL_$_NSCopying
++ __OBJC_LABEL_PROTOCOL_$_NSObject
++ __OBJC_PROTOCOL_$_NSCopying
++ __OBJC_PROTOCOL_$_NSObject
++ __PROPERTIES__TtC23AccessibilityReaderData22AXRImageTextAttachment
++ __PROTOCOLS__TtC23AccessibilityReaderData22AXRImageTextAttachment
++ __PROTOCOLS__TtC23AccessibilityReaderData22AXRImageTextAttachment.1
++ ___swift__destructor
++ ___swift__destructor.125
++ ___swift__destructor.183
++ ___swift__destructor.45
++ ___swift__destructor.48
++ ___swift__destructor.51
++ ___swift__destructor.80
++ ___swift__destructor.82
++ ___swift_allocate_boxed_opaque_existential_0
++ ___swift_async_cont_functlets
++ ___swift_closure_destructor
++ ___swift_closure_destructor.100
++ ___swift_closure_destructor.102
++ ___swift_closure_destructor.103
++ ___swift_closure_destructor.105
++ ___swift_closure_destructor.106
++ ___swift_closure_destructor.107
++ ___swift_closure_destructor.108
++ ___swift_closure_destructor.11
++ ___swift_closure_destructor.110
++ ___swift_closure_destructor.114
++ ___swift_closure_destructor.118
++ ___swift_closure_destructor.122
++ ___swift_closure_destructor.123
++ ___swift_closure_destructor.125
++ ___swift_closure_destructor.126
++ ___swift_closure_destructor.127
++ ___swift_closure_destructor.128
++ ___swift_closure_destructor.129
++ ___swift_closure_destructor.13
++ ___swift_closure_destructor.131
++ ___swift_closure_destructor.132
++ ___swift_closure_destructor.134
++ ___swift_closure_destructor.135
++ ___swift_closure_destructor.138
++ ___swift_closure_destructor.142
++ ___swift_closure_destructor.143
++ ___swift_closure_destructor.145
++ ___swift_closure_destructor.146
++ ___swift_closure_destructor.149
++ ___swift_closure_destructor.150
++ ___swift_closure_destructor.150Tm
++ ___swift_closure_destructor.151
++ ___swift_closure_destructor.152
++ ___swift_closure_destructor.153
++ ___swift_closure_destructor.155
++ ___swift_closure_destructor.156
++ ___swift_closure_destructor.157
++ ___swift_closure_destructor.159
++ ___swift_closure_destructor.16
++ ___swift_closure_destructor.160
++ ___swift_closure_destructor.161
++ ___swift_closure_destructor.162
++ ___swift_closure_destructor.163
++ ___swift_closure_destructor.164
++ ___swift_closure_destructor.167
++ ___swift_closure_destructor.169
++ ___swift_closure_destructor.17
++ ___swift_closure_destructor.171
++ ___swift_closure_destructor.172
++ ___swift_closure_destructor.173
++ ___swift_closure_destructor.175
++ ___swift_closure_destructor.178
++ ___swift_closure_destructor.179
++ ___swift_closure_destructor.18
++ ___swift_closure_destructor.183
++ ___swift_closure_destructor.186
++ ___swift_closure_destructor.189
++ ___swift_closure_destructor.19
++ ___swift_closure_destructor.191
++ ___swift_closure_destructor.193
++ ___swift_closure_destructor.194
++ ___swift_closure_destructor.197
++ ___swift_closure_destructor.2
++ ___swift_closure_destructor.20
++ ___swift_closure_destructor.200
++ ___swift_closure_destructor.204
++ ___swift_closure_destructor.208
++ ___swift_closure_destructor.21
++ ___swift_closure_destructor.211
++ ___swift_closure_destructor.215
++ ___swift_closure_destructor.219
++ ___swift_closure_destructor.21Tm
++ ___swift_closure_destructor.22
++ ___swift_closure_destructor.220
++ ___swift_closure_destructor.222
++ ___swift_closure_destructor.224
++ ___swift_closure_destructor.226
++ ___swift_closure_destructor.230
++ ___swift_closure_destructor.234
++ ___swift_closure_destructor.238
++ ___swift_closure_destructor.241
++ ___swift_closure_destructor.245
++ ___swift_closure_destructor.249
++ ___swift_closure_destructor.25
++ ___swift_closure_destructor.252
++ ___swift_closure_destructor.256
++ ___swift_closure_destructor.258
++ ___swift_closure_destructor.260
++ ___swift_closure_destructor.263
++ ___swift_closure_destructor.267
++ ___swift_closure_destructor.27
++ ___swift_closure_destructor.274
++ ___swift_closure_destructor.28
++ ___swift_closure_destructor.281
++ ___swift_closure_destructor.289
++ ___swift_closure_destructor.292
++ ___swift_closure_destructor.294
++ ___swift_closure_destructor.299
++ ___swift_closure_destructor.3
++ ___swift_closure_destructor.300
++ ___swift_closure_destructor.302
++ ___swift_closure_destructor.305
++ ___swift_closure_destructor.31
++ ___swift_closure_destructor.310
++ ___swift_closure_destructor.315
++ ___swift_closure_destructor.327
++ ___swift_closure_destructor.330
++ ___swift_closure_destructor.34
++ ___swift_closure_destructor.35
++ ___swift_closure_destructor.352
++ ___swift_closure_destructor.355
++ ___swift_closure_destructor.358
++ ___swift_closure_destructor.361
++ ___swift_closure_destructor.364
++ ___swift_closure_destructor.367
++ ___swift_closure_destructor.37
++ ___swift_closure_destructor.370
++ ___swift_closure_destructor.371
++ ___swift_closure_destructor.373
++ ___swift_closure_destructor.374
++ ___swift_closure_destructor.376
++ ___swift_closure_destructor.379
++ ___swift_closure_destructor.38
++ ___swift_closure_destructor.382
++ ___swift_closure_destructor.384
++ ___swift_closure_destructor.385
++ ___swift_closure_destructor.387
++ ___swift_closure_destructor.396
++ ___swift_closure_destructor.4
++ ___swift_closure_destructor.40
++ ___swift_closure_destructor.41
++ ___swift_closure_destructor.42
++ ___swift_closure_destructor.44
++ ___swift_closure_destructor.45
++ ___swift_closure_destructor.46
++ ___swift_closure_destructor.49
++ ___swift_closure_destructor.5
++ ___swift_closure_destructor.51
++ ___swift_closure_destructor.52
++ ___swift_closure_destructor.53
++ ___swift_closure_destructor.54
++ ___swift_closure_destructor.56
++ ___swift_closure_destructor.57
++ ___swift_closure_destructor.59
++ ___swift_closure_destructor.6
++ ___swift_closure_destructor.60
++ ___swift_closure_destructor.61
++ ___swift_closure_destructor.63
++ ___swift_closure_destructor.65
++ ___swift_closure_destructor.66
++ ___swift_closure_destructor.7
++ ___swift_closure_destructor.70
++ ___swift_closure_destructor.74
++ ___swift_closure_destructor.76
++ ___swift_closure_destructor.78
++ ___swift_closure_destructor.78Tm
++ ___swift_closure_destructor.79
++ ___swift_closure_destructor.8
++ ___swift_closure_destructor.80
++ ___swift_closure_destructor.81
++ ___swift_closure_destructor.82
++ ___swift_closure_destructor.83
++ ___swift_closure_destructor.84
++ ___swift_closure_destructor.84Tm
++ ___swift_closure_destructor.85
++ ___swift_closure_destructor.87
++ ___swift_closure_destructor.88
++ ___swift_closure_destructor.89
++ ___swift_closure_destructor.9
++ ___swift_closure_destructor.90
++ ___swift_closure_destructor.91
++ ___swift_closure_destructor.94
++ ___swift_closure_destructor.95
++ ___swift_closure_destructor.96
++ ___swift_closure_destructor.97
++ ___swift_closure_destructor.98
++ ___swift_closure_destructor.99
++ ___swift_closure_destructorTm
++ ___swift_exist.box.addr_destructor
++ ___swift_memcpy112_8
++ ___swift_memcpy17_8
++ ___swift_memcpy24_8
++ ___swift_memcpy25_8
++ ___swift_memcpy28_8
++ ___swift_memcpy33_8
++ ___swift_memcpy34_8
++ ___swift_memcpy41_8
++ ___swift_memcpy49_8
++ ___swift_memcpy6_1
++ ___swift_memcpy72_8
++ ___swift_memcpy8_8
++ ___swift_mutable_project_boxed_opaque_existential_1
++ ___swift_project_boxed_opaque_existential_0Tm
++ __swift_FORCE_LOAD_$_swiftCompression
++ __swift_FORCE_LOAD_$_swiftCompression_$_AccessibilityReaderData
++ __swift_implicitisolationactor_to_executor_cast
++ _associated conformance 23AccessibilityReaderData018AXRTableAttachmentC0V10CodingKeys33_0C7B542B6BE17E26EE41C87E734F579ELLOSHAASQ
++ _associated conformance 23AccessibilityReaderData018AXRTableAttachmentC0V10CodingKeys33_0C7B542B6BE17E26EE41C87E734F579ELLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 23AccessibilityReaderData018AXRTableAttachmentC0V10CodingKeys33_0C7B542B6BE17E26EE41C87E734F579ELLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 23AccessibilityReaderData15AXBoldAttributeV10Foundation19AttributedStringKeyAA5ValueAdEP_SH
++ _associated conformance 23AccessibilityReaderData15AXBoldAttributeV10Foundation40ObjectiveCConvertibleAttributedStringKeyAaD0ijK0
++ _associated conformance 23AccessibilityReaderData15AXLinkAttributeV10Foundation19AttributedStringKeyAA5ValueAdEP_SH
++ _associated conformance 23AccessibilityReaderData15AXLinkAttributeV10Foundation40ObjectiveCConvertibleAttributedStringKeyAaD0ijK0
++ _associated conformance 23AccessibilityReaderData15AXRFetchOutcomeOSHAASQ
++ _associated conformance 23AccessibilityReaderData15AXRTablePayloadV10CodingKeys33_0C7B542B6BE17E26EE41C87E734F579ELLOSHAASQ
++ _associated conformance 23AccessibilityReaderData15AXRTablePayloadV10CodingKeys33_0C7B542B6BE17E26EE41C87E734F579ELLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 23AccessibilityReaderData15AXRTablePayloadV10CodingKeys33_0C7B542B6BE17E26EE41C87E734F579ELLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 23AccessibilityReaderData16AXRPlaybackSpeedO16TripleCodingKeys33_DEB1C5EEAA568B11F946EC40D33150CELLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 23AccessibilityReaderData16AXRPlaybackSpeedO16TripleCodingKeys33_DEB1C5EEAA568B11F946EC40D33150CELLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 23AccessibilityReaderData16AXRPlaybackSpeedO19QuadrupleCodingKeys33_DEB1C5EEAA568B11F946EC40D33150CELLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 23AccessibilityReaderData16AXRPlaybackSpeedO19QuadrupleCodingKeys33_DEB1C5EEAA568B11F946EC40D33150CELLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 23AccessibilityReaderData17AXItalicAttributeV10Foundation19AttributedStringKeyAA5ValueAdEP_SH
++ _associated conformance 23AccessibilityReaderData17AXItalicAttributeV10Foundation40ObjectiveCConvertibleAttributedStringKeyAaD0ijK0
++ _associated conformance 23AccessibilityReaderData19AXRTranslationError33_04CBD0BE3E4B5DFE18F91082EF2A52DELLOSHAASQ
++ _associated conformance 23AccessibilityReaderData20AXRMarkdownConverterC11AXRListTypeOSHAASQ
++ _associated conformance 23AccessibilityReaderData20AXUnderlineAttributeV10Foundation19AttributedStringKeyAA5ValueAdEP_SH
++ _associated conformance 23AccessibilityReaderData20AXUnderlineAttributeV10Foundation40ObjectiveCConvertibleAttributedStringKeyAaD0ijK0
++ _associated conformance 23AccessibilityReaderData20BlockDividerPositionOSHAASQ
++ _associated conformance 23AccessibilityReaderData21AXRFormatterConstantsV9SizeClassOSHAASQ
++ _associated conformance 23AccessibilityReaderData21AXRFormatterConstantsV9SizeClassOs12CaseIterableAA8AllCasessAFP_Sl
++ _associated conformance 23AccessibilityReaderData21AXRSummarizationModelC18SummarizationErrorO10Foundation09LocalizedG0AAs0G0
++ _associated conformance 23AccessibilityReaderData21AXRSummarizationModelC26SummarizationErrorCategoryOSHAASQ
++ _associated conformance 23AccessibilityReaderData21AXRTranslationManagerC7Combine16ObservableObjectAA0H19WillChangePublisherAdEP_AD0K0
++ _associated conformance 23AccessibilityReaderData22AXRTableAttachmentViewV7SwiftUI0F0AA4BodyAdEP_AdE
++ _associated conformance 23AccessibilityReaderData22AXRTableSelectionStateC7Combine16ObservableObjectAA0I19WillChangePublisherAdEP_AD0L0
++ _associated conformance 23AccessibilityReaderData23AXHeadingLevelAttributeV10Foundation19AttributedStringKeyAA5ValueAdEP_SH
++ _associated conformance 23AccessibilityReaderData23AXHeadingLevelAttributeV10Foundation40ObjectiveCConvertibleAttributedStringKeyAaD0jkL0
++ _associated conformance 23AccessibilityReaderData23AXRTextStylingFormatterC7Combine16ObservableObjectAA0I19WillChangePublisherAdEP_AD0L0
++ _associated conformance 23AccessibilityReaderData24AXListItemIndexAttributeV10Foundation19AttributedStringKeyAA5ValueAdEP_SH
++ _associated conformance 23AccessibilityReaderData24AXListItemIndexAttributeV10Foundation40ObjectiveCConvertibleAttributedStringKeyAaD0klM0
++ _associated conformance 23AccessibilityReaderData24AXListItemLevelAttributeV10Foundation19AttributedStringKeyAA5ValueAdEP_SH
++ _associated conformance 23AccessibilityReaderData24AXListItemLevelAttributeV10Foundation40ObjectiveCConvertibleAttributedStringKeyAaD0klM0
++ _associated conformance 23AccessibilityReaderData24AXRContentCleanupServiceC14CleanUpOptionsVs10SetAlgebraAASQ
++ _associated conformance 23AccessibilityReaderData24AXRContentCleanupServiceC14CleanUpOptionsVs10SetAlgebraAAs25ExpressibleByArrayLiteral
++ _associated conformance 23AccessibilityReaderData24AXRContentCleanupServiceC14CleanUpOptionsVs9OptionSetAASY
++ _associated conformance 23AccessibilityReaderData24AXRContentCleanupServiceC14CleanUpOptionsVs9OptionSetAAs0K7Algebra
++ _associated conformance 23AccessibilityReaderData24AXROnDeviceSummarizationC7Combine16ObservableObjectAA0I19WillChangePublisherAdEP_AD0L0
++ _associated conformance 23AccessibilityReaderData24AXStrikethroughAttributeV10Foundation19AttributedStringKeyAA5ValueAdEP_SH
++ _associated conformance 23AccessibilityReaderData24AXStrikethroughAttributeV10Foundation40ObjectiveCConvertibleAttributedStringKeyAaD0ijK0
++ _associated conformance 23AccessibilityReaderData25AXListItemPrefixAttributeV10Foundation19AttributedStringKeyAA5ValueAdEP_SH
++ _associated conformance 23AccessibilityReaderData25AXListItemPrefixAttributeV10Foundation40ObjectiveCConvertibleAttributedStringKeyAaD0klM0
++ _associated conformance 23AccessibilityReaderData26AXBlockQuoteLevelAttributeV10Foundation19AttributedStringKeyAA5ValueAdEP_SH
++ _associated conformance 23AccessibilityReaderData26AXBlockQuoteLevelAttributeV10Foundation40ObjectiveCConvertibleAttributedStringKeyAaD0klM0
++ _associated conformance 23AccessibilityReaderData31TextManipulationTokenIdentifier33_04CBD0BE3E4B5DFE18F91082EF2A52DELLVSHAASQ
++ _associated conformance 23AccessibilityReaderData32AXBlockQuoteAttributionAttributeV10Foundation19AttributedStringKeyAA5ValueAdEP_SH
++ _associated conformance 23AccessibilityReaderData32AXBlockQuoteAttributionAttributeV10Foundation40ObjectiveCConvertibleAttributedStringKeyAaD0klM0
++ _associated conformance 23AccessibilityReaderData7AXRPageVSHAASQ
++ _associated conformance 23AccessibilityReaderData7AXRPageVs12IdentifiableAA2IDsADP_SH
++ _associated conformance SC24SummarizationClientErrorLeV10Foundation021_ObjectiveCBridgeableC0SCs0C0
++ _associated conformance SC24SummarizationClientErrorLeV10Foundation13CustomNSErrorSCs0C0
++ _associated conformance SC24SummarizationClientErrorLeV10Foundation21_BridgedStoredNSErrorSC4CodeAcDP_8RawValueSYs17FixedWidthInteger
++ _associated conformance SC24SummarizationClientErrorLeV10Foundation21_BridgedStoredNSErrorSC4CodeAcDP_AC01_cH8Protocol
++ _associated conformance SC24SummarizationClientErrorLeV10Foundation21_BridgedStoredNSErrorSC4CodeAcDP_SY
++ _associated conformance SC24SummarizationClientErrorLeV10Foundation21_BridgedStoredNSErrorSCAC021_ObjectiveCBridgeableC0
++ _associated conformance SC24SummarizationClientErrorLeV10Foundation21_BridgedStoredNSErrorSCAC06CustomG0
++ _associated conformance SC24SummarizationClientErrorLeV10Foundation21_BridgedStoredNSErrorSCSH
++ _associated conformance SC24SummarizationClientErrorLeVSHSCSQ
++ _associated conformance So10NLLanguageaSHSCSQ
++ _associated conformance So10NLLanguageas20_SwiftNewtypeWrapperSCSY
++ _associated conformance So10NLLanguageas20_SwiftNewtypeWrapperSCs35_HasCustomAnyHashableRepresentation
++ _associated conformance So11AXDirectionVSHSCSQ
++ _associated conformance So18NSTextTabOptionKeyaSHSCSQ
++ _associated conformance So18NSTextTabOptionKeyas20_SwiftNewtypeWrapperSCSY
++ _associated conformance So18NSTextTabOptionKeyas20_SwiftNewtypeWrapperSCs35_HasCustomAnyHashableRepresentation
++ _associated conformance So24SummarizationClientErrorV10Foundation01_C12CodeProtocolSC01_C4TypeAcDP_AC21_BridgedStoredNSError
++ _associated conformance So24SummarizationClientErrorV10Foundation01_C12CodeProtocolSCSQ
++ _block_copy_helper.102
++ _block_copy_helper.112
++ _block_copy_helper.113
++ _block_copy_helper.12
++ _block_copy_helper.130
++ _block_copy_helper.131
++ _block_copy_helper.141
++ _block_copy_helper.149
++ _block_copy_helper.152
++ _block_copy_helper.155
++ _block_copy_helper.158
++ _block_copy_helper.165
++ _block_copy_helper.175
++ _block_copy_helper.177
++ _block_copy_helper.18
++ _block_copy_helper.193
++ _block_copy_helper.21
++ _block_copy_helper.22
++ _block_copy_helper.276
++ _block_copy_helper.283
++ _block_copy_helper.287
++ _block_copy_helper.29
++ _block_copy_helper.295
++ _block_copy_helper.305
++ _block_copy_helper.333
++ _block_copy_helper.36
++ _block_copy_helper.376
++ _block_copy_helper.390
++ _block_copy_helper.400
++ _block_copy_helper.45
++ _block_copy_helper.54
++ _block_copy_helper.56
++ _block_copy_helper.57
++ _block_copy_helper.60
++ _block_copy_helper.64
++ _block_copy_helper.68
++ _block_copy_helper.72
++ _block_copy_helper.76
++ _block_copy_helper.8
++ _block_copy_helper.82
++ _block_copy_helper.9
++ _block_copy_helper.94
++ _block_copy_helper.98
++ _block_descriptor.10
++ _block_descriptor.100
++ _block_descriptor.104
++ _block_descriptor.11
++ _block_descriptor.114
++ _block_descriptor.115
++ _block_descriptor.132
++ _block_descriptor.133
++ _block_descriptor.14
++ _block_descriptor.143
++ _block_descriptor.151
++ _block_descriptor.154
++ _block_descriptor.157
++ _block_descriptor.160
++ _block_descriptor.167
++ _block_descriptor.177
++ _block_descriptor.179
++ _block_descriptor.195
++ _block_descriptor.20
++ _block_descriptor.23
++ _block_descriptor.24
++ _block_descriptor.278
++ _block_descriptor.285
++ _block_descriptor.289
++ _block_descriptor.297
++ _block_descriptor.307
++ _block_descriptor.31
++ _block_descriptor.335
++ _block_descriptor.378
++ _block_descriptor.38
++ _block_descriptor.392
++ _block_descriptor.402
++ _block_descriptor.47
++ _block_descriptor.56
++ _block_descriptor.58
++ _block_descriptor.59
++ _block_descriptor.62
++ _block_descriptor.66
++ _block_descriptor.70
++ _block_descriptor.74
++ _block_descriptor.78
++ _block_descriptor.84
++ _block_descriptor.96
++ _block_destroy_helper.10
++ _block_destroy_helper.103
++ _block_destroy_helper.113
++ _block_destroy_helper.114
++ _block_destroy_helper.13
++ _block_destroy_helper.131
++ _block_destroy_helper.132
++ _block_destroy_helper.142
++ _block_destroy_helper.150
++ _block_destroy_helper.153
++ _block_destroy_helper.156
++ _block_destroy_helper.159
++ _block_destroy_helper.166
++ _block_destroy_helper.176
++ _block_destroy_helper.178
++ _block_destroy_helper.19
++ _block_destroy_helper.194
++ _block_destroy_helper.22
++ _block_destroy_helper.23
++ _block_destroy_helper.277
++ _block_destroy_helper.284
++ _block_destroy_helper.288
++ _block_destroy_helper.296
++ _block_destroy_helper.30
++ _block_destroy_helper.306
++ _block_destroy_helper.334
++ _block_destroy_helper.37
++ _block_destroy_helper.377
++ _block_destroy_helper.391
++ _block_destroy_helper.401
++ _block_destroy_helper.46
++ _block_destroy_helper.55
++ _block_destroy_helper.57
++ _block_destroy_helper.58
++ _block_destroy_helper.61
++ _block_destroy_helper.65
++ _block_destroy_helper.69
++ _block_destroy_helper.73
++ _block_destroy_helper.77
++ _block_destroy_helper.83
++ _block_destroy_helper.9
++ _block_destroy_helper.95
++ _block_destroy_helper.99
++ _flat unique So8NSObject_p
++ _get_enum_tag_for_layout_string 10Foundation4DataV15_RepresentationO
++ _get_enum_tag_for_layout_string 10Foundation4DataVSg
++ _get_enum_tag_for_layout_string 23AccessibilityReaderData20AXRuntimeClientErrorO
++ _get_enum_tag_for_layout_string 23AccessibilityReaderData21AXRSummarizationModelC18SummarizationErrorO
++ _get_enum_tag_for_layout_string 23AccessibilityReaderData21AXRSummarizationModelC18SummarizationStateO
++ _get_witness_table 7SwiftUI15ModifiedContentVyACyAA4ViewPAAE16scrollIndicators_4axesQrAA25ScrollIndicatorVisibilityV_AA4AxisO3SetVtFQOyAA0iE0VyAA012_ConditionalD0VyACyACyACyAA6VStackVyAA05TupleD0VyAUyACyACyACyASyAA7ForEachVySaySi6offset_SaySSG7elementtGSiAUyACyAA06_ShapeE0VyAA9RectangleVAA5ColorVGAA12_FrameLayoutVGSg_AA6HStackVyAWySaySiAX_SSAZtGSiAUyA10__AeAE11contextMenu9menuItemsQrqd__yXE_tAaDRd__lFQOyACyACyACyACyACyACyACyACyACyAA4TextVA8_GAA05_FlexxY0VGAA08_PaddingY0VGA23_GA23_GAA30_EnvironmentKeyWritingModifierVyAA13TextAlignmentOGGA28_ySiSgGGAA010_FixedSizeY0VGAA01_dU8ModifierVyA3_GG_AA5GroupVyAUyAA4MenuVyA17_AUyAA6ButtonVyA17_G_A49_A49_A49_QPGG_A51_QPGGQo_QPGGGQPGGGA20_GAA19_BackgroundModifierVyA1_yAA07RoundedV0VA5_GGGA23_G_ACyA9_A23_GQPGSg_AWyA_SiACyACyACyACyA12_yAWyA13_SiAUyA10__AeAEA14_A15_Qrqd__yXE_tAaDRd__lFQOyACyACyACyA35_A28_y12CoreGraphics7CGFloatVGGA37_GA41_G_A53_Qo_QPGGGA20_GA23_GA63_yA44_yAQyA66_A66_GGGGA23_GGQPGGA20_GA8_GA8_GA94_GG_Qo_A8_GA63_yAA6ZStackVyA5_SgGGGAaDHPA100_AaDHPqd__AaDHD2_A99_HO_A8_AA0E8ModifierHPyHCHC_A105_AAA107_HPyHCHC.182
++ _getpid
++ _kAXCausesPageTurnTrait
++ _kAXImageTrait
++ _keypath_get_selector_bounds
++ _keypath_set.73Tm
++ _keypath_setTm
++ _kill
++ _objc_claimAutoreleasedReturnValue
++ _objc_msgSend$CGSizeValue
++ _objc_msgSend$addClip
++ _objc_msgSend$addObserverForName:object:queue:usingBlock:
++ _objc_msgSend$alignment
++ _objc_msgSend$attribute:atIndex:effectiveRange:
++ _objc_msgSend$attribute:atIndex:longestEffectiveRange:inRange:
++ _objc_msgSend$attributedStringWithAttachment:
++ _objc_msgSend$attributedText
++ _objc_msgSend$attributesAtIndex:effectiveRange:
++ _objc_msgSend$bezierPathWithRoundedRect:cornerRadius:
++ _objc_msgSend$boldSystemFontOfSize:
++ _objc_msgSend$boolValue
++ _objc_msgSend$boolWithAXAttribute:
++ _objc_msgSend$boundingRectWithSize:options:context:
++ _objc_msgSend$bounds
++ _objc_msgSend$bundleForClass:
++ _objc_msgSend$cleanup
++ _objc_msgSend$clearColor
++ _objc_msgSend$code
++ _objc_msgSend$configurationType
++ _objc_msgSend$configurationWithPointSize:weight:
++ _objc_msgSend$contents
++ _objc_msgSend$currentDevice
++ _objc_msgSend$currentLocale
++ _objc_msgSend$defaultSystemShellCurrentApplications
++ _objc_msgSend$defaultSystemShellFocusedApplicationWithOptions:
++ _objc_msgSend$deleteCharactersInRange:
++ _objc_msgSend$description
++ _objc_msgSend$domain
++ _objc_msgSend$dominantLanguage
++ _objc_msgSend$drawInRect:blendMode:alpha:
++ _objc_msgSend$elementsForAttribute:parameter:
++ _objc_msgSend$encodeObject:forKey:
++ _objc_msgSend$enumerateAttribute:inRange:options:usingBlock:
++ _objc_msgSend$enumerateAttributesInRange:options:usingBlock:
++ _objc_msgSend$enumerateAttributesInRange:usingBlock:
++ _objc_msgSend$enumerateAttributesUsingBlock:
++ _objc_msgSend$enumerateSubstringsInRange:options:usingBlock:
++ _objc_msgSend$familyName
++ _objc_msgSend$fileType
++ _objc_msgSend$fileWrapper
++ _objc_msgSend$fillRect:
++ _objc_msgSend$firstLineHeadIndent
++ _objc_msgSend$firstObject
++ _objc_msgSend$fontDescriptorWithFamily:
++ _objc_msgSend$fontWithSize:
++ _objc_msgSend$formattedString
++ _objc_msgSend$generalPasteboard
++ _objc_msgSend$getParagraphStart:end:contentsEnd:forRange:
++ _objc_msgSend$headIndent
++ _objc_msgSend$image
++ _objc_msgSend$imageNamed:
++ _objc_msgSend$imageNamed:inBundle:compatibleWithTraitCollection:
++ _objc_msgSend$imageWithActions:
++ _objc_msgSend$imageWithTintColor:renderingMode:
++ _objc_msgSend$initWithBool:
++ _objc_msgSend$initWithCGImage:
++ _objc_msgSend$initWithContentsOfFile:
++ _objc_msgSend$initWithData:
++ _objc_msgSend$initWithData:ofType:
++ _objc_msgSend$initWithInteger:
++ _objc_msgSend$initWithMarkerFormat:options:
++ _objc_msgSend$initWithPattern:options:error:
++ _objc_msgSend$initWithSize:
++ _objc_msgSend$initWithSourceLocale:targetLocale:
++ _objc_msgSend$initWithString:attributes:
++ _objc_msgSend$initWithTextAlignment:location:options:
++ _objc_msgSend$initWithUnit:
++ _objc_msgSend$insertAttributedString:atIndex:
++ _objc_msgSend$integerValue
++ _objc_msgSend$isEqual:
++ _objc_msgSend$isKindOfClass:
++ _objc_msgSend$italicSystemFontOfSize:
++ _objc_msgSend$label
++ _objc_msgSend$layoutIfNeeded
++ _objc_msgSend$lineFragmentPadding
++ _objc_msgSend$location
++ _objc_msgSend$lock
++ _objc_msgSend$mainQueue
++ _objc_msgSend$mainRunLoop
++ _objc_msgSend$matchesInString:options:range:
++ _objc_msgSend$objectForKey:
++ _objc_msgSend$objectWithAXAttribute:parameter:
++ _objc_msgSend$options
++ _objc_msgSend$orientation
++ _objc_msgSend$paragraphRangeForRange:
++ _objc_msgSend$paragraphSpacing
++ _objc_msgSend$paragraphSpacingBefore
++ _objc_msgSend$pathForResource:ofType:
++ _objc_msgSend$performSelector:withObject:
++ _objc_msgSend$pointWithAXAttribute:
++ _objc_msgSend$processString:
++ _objc_msgSend$rangeAtIndex:
++ _objc_msgSend$rangeWithAXAttribute:
++ _objc_msgSend$registerTextAttachmentViewProviderClass:forFileType:
++ _objc_msgSend$removeAttribute:range:
++ _objc_msgSend$removeObserver:
++ _objc_msgSend$replaceCharactersInRange:withString:
++ _objc_msgSend$respondsToSelector:
++ _objc_msgSend$secondaryLabelColor
++ _objc_msgSend$selectedRange
++ _objc_msgSend$sentenceEmbeddingForLanguage:
++ _objc_msgSend$setAttributedString:
++ _objc_msgSend$setBackgroundColor:
++ _objc_msgSend$setBounds:
++ _objc_msgSend$setClipsToBounds:
++ _objc_msgSend$setCompletionHandler:
++ _objc_msgSend$setContents:
++ _objc_msgSend$setFileType:
++ _objc_msgSend$setFileWrapper:
++ _objc_msgSend$setFill
++ _objc_msgSend$setFrame:
++ _objc_msgSend$setImage:
++ _objc_msgSend$setIsFinal:
++ _objc_msgSend$setItems:
++ _objc_msgSend$setLanguage:
++ _objc_msgSend$setMaximumLineHeight:
++ _objc_msgSend$setMinimumLineHeight:
++ _objc_msgSend$setNeedsLayout
++ _objc_msgSend$setSessionID:
++ _objc_msgSend$setString:
++ _objc_msgSend$setTabStops:
++ _objc_msgSend$setTailIndent:
++ _objc_msgSend$setTaskHint:
++ _objc_msgSend$setText:
++ _objc_msgSend$setTextLists:
++ _objc_msgSend$setTextTranslationHandler:
++ _objc_msgSend$setTracksTextAttachmentViewBounds:
++ _objc_msgSend$setUniqueID:
++ _objc_msgSend$setView:
++ _objc_msgSend$set_forcedOnlineTranslation:
++ _objc_msgSend$size
++ _objc_msgSend$statusFromLanguage:toLanguage:completion:
++ _objc_msgSend$superview
++ _objc_msgSend$supportedLanguagesWithCompletion:
++ _objc_msgSend$symbolicTraits
++ _objc_msgSend$systemBackgroundColor
++ _objc_msgSend$systemFontOfSize:
++ _objc_msgSend$systemFontSize
++ _objc_msgSend$systemGreenColor
++ _objc_msgSend$systemImageNamed:withConfiguration:
++ _objc_msgSend$systemOrangeColor
++ _objc_msgSend$systemYellowColor
++ _objc_msgSend$tabStops
++ _objc_msgSend$tailIndent
++ _objc_msgSend$textAttachment
++ _objc_msgSend$textContainer
++ _objc_msgSend$textContainerInset
++ _objc_msgSend$textLists
++ _objc_msgSend$translate:
++ _objc_msgSend$translatedText
++ _objc_msgSend$translations
++ _objc_msgSend$uiElementWithAXElement:
++ _objc_msgSend$unlock
++ _objc_msgSend$updateCache:
++ _objc_msgSend$userInfo
++ _objc_msgSend$userInterfaceIdiom
++ _objc_msgSend$valueForKey:
++ _objc_msgSend$valueWithRange:
++ _objc_msgSend$view
++ _objc_retainAutorelease
++ _objc_retainAutoreleaseReturnValue
++ _objc_retain_x1
++ _objc_retain_x2
++ _objc_retain_x9
++ _swift_continuation_await
++ _swift_continuation_init
++ _swift_continuation_resume
++ _swift_cvw_enumFn_getEnumTag
++ _swift_dynamicCastClass
++ _swift_getObjCClassFromMetadata
++ _swift_getOpaqueTypeConformance2
++ _swift_isEscapingClosureAtFileLocation
++ _swift_makeBoxUnique
++ _swift_release_x1
++ _swift_release_x10
++ _swift_release_x12
++ _swift_release_x19
++ _swift_release_x20
++ _swift_release_x21
++ _swift_release_x22
++ _swift_release_x23
++ _swift_release_x24
++ _swift_release_x25
++ _swift_release_x26
++ _swift_release_x27
++ _swift_release_x28
++ _swift_release_x3
++ _swift_release_x8
++ _swift_release_x9
++ _swift_retain_x1
++ _swift_retain_x10
++ _swift_retain_x19
++ _swift_retain_x2
++ _swift_retain_x20
++ _swift_retain_x21
++ _swift_retain_x22
++ _swift_retain_x23
++ _swift_retain_x24
++ _swift_retain_x25
++ _swift_retain_x26
++ _swift_retain_x27
++ _swift_retain_x28
++ _swift_retain_x8
++ _swift_retain_x9
++ _swift_stdlib_random
++ _swift_task_deinitOnExecutor
++ _swift_task_getMainExecutor
++ _swift_task_isCurrentExecutor
++ _swift_task_reportUnexpectedExecutor
++ _swift_weakDestroy
++ _swift_weakInit
++ _swift_weakLoadStrong
++ _swift_willThrowTypedImpl
++ _symbolic $s10Foundation18_ErrorCodeProtocolP
++ _symbolic $s10Foundation19AttributedStringKeyP
++ _symbolic $s10Foundation21_BridgedStoredNSErrorP
++ _symbolic $s10Foundation40ObjectiveCConvertibleAttributedStringKeyP
++ _symbolic $s23AccessibilityReaderData14MapbackServiceP
++ _symbolic $s23AccessibilityReaderData18AXRContentProtocolP
++ _symbolic $s23AccessibilityReaderData19BlockMatcherServiceP
++ _symbolic $s23AccessibilityReaderData26BlockMarkupTransferServiceP
++ _symbolic $s7SwiftUI4ViewP
++ _symbolic $ss10SetAlgebraP
++ _symbolic $ss25ExpressibleByArrayLiteralP
++ _symbolic $ss9OptionSetP
++ _symbolic Ieg_Sg
++ _symbolic SDySS_____G 10Foundation6LocaleV
++ _symbolic SDySS_____G s5Int32V
++ _symbolic SDySiSay_____GG 23AccessibilityReaderData12AXRTextBlockC
++ _symbolic SDy_____SiG So11AXDirectionV
++ _symbolic SDy_____ypG_____Spy_____GIggyy_ So21NSAttributedStringKeya So8_NSRangeV 10ObjectiveC8ObjCBoolV
++ _symbolic SNy_____G SS5IndexV
++ _symbolic SS4hash_Sb9isOverlapShySSG8newTextst
++ _symbolic SS4hash_Sb9isOverlapShySSG8newTextstIeAgHr_
++ _symbolic SSIego_
++ _symbolic SS_SSt
++ _symbolic SS______t 10Foundation6LocaleV
++ _symbolic SaySJG
++ _symbolic SaySSG
++ _symbolic SaySaySSGG
++ _symbolic SaySay_____GG 23AccessibilityReaderData14AXRTextContentV
++ _symbolic SaySay_____GG 23AccessibilityReaderData19AXRTextBlockContentV
++ _symbolic SaySi6offset_SS7elementtG
++ _symbolic SaySi6offset_SaySSG7elementtG
++ _symbolic SaySiG
++ _symbolic SaySo9AXElementCG
++ _symbolic Say_____G 10Foundation6LocaleV
++ _symbolic Say_____G 10Foundation6LocaleV8LanguageV
++ _symbolic Say_____G 12CoreGraphics7CGFloatV
++ _symbolic Say_____G 23AccessibilityReaderData19AXRTextBlockContentV
++ _symbolic Say_____G 23AccessibilityReaderData21AXRFormatterConstantsV9SizeClassO
++ _symbolic Say_____G 23AccessibilityReaderData21TextManipulationToken33_04CBD0BE3E4B5DFE18F91082EF2A52DELLV
++ _symbolic Say_____G 23AccessibilityReaderData7AXRPageV
++ _symbolic Say_____G So17OS_dispatch_queueC8DispatchE10AttributesV
++ _symbolic Say_____G So21NSAttributedStringKeya
++ _symbolic Say_____G______SSSg_____t 23AccessibilityReaderData12AXRTextBlockC AA16AXRPlaybackSpeedO AA10AXRArticleV
++ _symbolic SayypG
++ _symbolic SbSg
++ _symbolic Sbz_Xx
++ _symbolic ScCySS______pG s5ErrorP
++ _symbolic ScCySay_____G______pG 23AccessibilityReaderData14AXRTextContentV s5ErrorP
++ _symbolic ScCySo28_LTCombinedTranslationResultC______pG s5ErrorP
++ _symbolic ScTyyt_____G s5NeverO
++ _symbolic ScTyyt_____GSg s5NeverO
++ _symbolic SccySay_____G_____G 10Foundation6LocaleV s5NeverO
++ _symbolic Sccy__________G So29_LTLanguageAvailabilityStatusV s5NeverO
++ _symbolic SdIegd_
++ _symbolic ShySSG
++ _symbolic ShySiG
++ _symbolic Shy_____G 7Combine14AnyCancellableC
++ _symbolic Si6offset_SS7elementt
++ _symbolic Si6offset_SaySSG7elementt
++ _symbolic Si6offset______7elementt 23AccessibilityReaderData14AXRTextContentV
++ _symbolic Si6offset______7elementt 23AccessibilityReaderData19AXRTextBlockContentV
++ _symbolic Si6offset______7elementt 23AccessibilityReaderData21TextManipulationToken33_04CBD0BE3E4B5DFE18F91082EF2A52DELLV
++ _symbolic Si6offset______7elementt 23AccessibilityReaderData7AXRPageV
++ _symbolic SiIegd_
++ _symbolic SiIegr_
++ _symbolic SiSS_____y_____y_____y__________G_____GSg______yAByAByAByAByAByAByAByAByAByABy_____AGG_____G_____GANGANG_____y_____GGARySiSgGGARy_____GG_____G_____yADGG______yAAy_____yAjAy_____yAJG_A8_A8_A8_QPGG_A10_QPGGQo_QPGIegygr_ 7SwiftUI12TupleContentV AA08ModifiedD0V AA10_ShapeViewV AA9RectangleV AA5ColorV AA12_FrameLayoutV AA0G0PAAE11contextMenu9menuItemsQrqd__yXE_tAaNRd__lFQO AA4TextV AA05_FlexjK0V AA08_PaddingK0V AA30_EnvironmentKeyWritingModifierV AA0P9AlignmentO 12CoreGraphics7CGFloatV AA010_FixedSizeK0V AA01_dfV0V AA5GroupV AA0M0V AA6ButtonV
++ _symbolic SiSS_____y_____y_____y__________G_____GSg______yAByAByAByAByAByAByAByAByABy_____AGG_____G_____GANGANG_____y_____GGARySiSgGG_____G_____yADGG______yAAy_____yAjAy_____yAJG_A5_A5_A5_QPGG_A7_QPGGQo_QPGIegygr_ 7SwiftUI12TupleContentV AA08ModifiedD0V AA10_ShapeViewV AA9RectangleV AA5ColorV AA12_FrameLayoutV AA0G0PAAE11contextMenu9menuItemsQrqd__yXE_tAaNRd__lFQO AA4TextV AA05_FlexjK0V AA08_PaddingK0V AA30_EnvironmentKeyWritingModifierV AA0P9AlignmentO AA010_FixedSizeK0V AA01_dfV0V AA5GroupV AA0M0V AA6ButtonV
++ _symbolic SiSaySSG_____yAByAByABy_____y_____ySaySi6offset_SS7elementtGSi_____yABy_____y__________G_____GSg______yAByAByAByAByAByAByAByAByAByABy_____AMG_____G_____GATGATG_____y_____GGAXySiSgGGAXy_____GG_____G_____yAJGG______yAHy_____yApHy_____yAPG_A14_A14_A14_QPGG_A16_QPGGQo_QPGGGARGATG_____yA11_y_____yAIy_____AKGA28_GGGGATGIegygr_ 7SwiftUI15ModifiedContentV AA6HStackV AA7ForEachV AA05TupleD0V AA10_ShapeViewV AA9RectangleV AA5ColorV AA12_FrameLayoutV AA0J0PAAE11contextMenu9menuItemsQrqd__yXE_tAaRRd__lFQO AA4TextV AA05_FlexmN0V AA08_PaddingN0V AA30_EnvironmentKeyWritingModifierV AA0S9AlignmentO 12CoreGraphics7CGFloatV AA010_FixedSizeN0V AA01_diY0V AA5GroupV AA0P0V AA6ButtonV AA011_BackgroundY0V AA012_ConditionalD0V AA07RoundedK0V
++ _symbolic SiSaySSG_____y_____y_____y__________G_____GSg______y_____ySaySi6offset_SS7elementtGSiAByAJ______yACyACyACyACyACyACyACyACyACy_____AHG_____G_____GATGATG_____y_____GGAXySiSgGG_____G_____yAEGG______yABy_____yApBy_____yAPG_A11_A11_A11_QPGG_A13_QPGGQo_QPGGGQPGIegygr_ 7SwiftUI12TupleContentV AA08ModifiedD0V AA10_ShapeViewV AA9RectangleV AA5ColorV AA12_FrameLayoutV AA6HStackV AA7ForEachV AA0G0PAAE11contextMenu9menuItemsQrqd__yXE_tAaRRd__lFQO AA4TextV AA05_FlexjK0V AA08_PaddingK0V AA30_EnvironmentKeyWritingModifierV AA0S9AlignmentO AA010_FixedSizeK0V AA01_dfY0V AA5GroupV AA0P0V AA6ButtonV
++ _symbolic Sny_____G 10Foundation16AttributedStringV5IndexV
++ _symbolic Sny_____GSg 10Foundation16AttributedStringV5IndexV
++ _symbolic So10UITextViewC
++ _symbolic So10UITextViewCSgXw
++ _symbolic So11AXUIElementC
++ _symbolic So11AXUIElementCSg
++ _symbolic So11NLEmbeddingCSg
++ _symbolic So13_LTTranslatorC
++ _symbolic So16NSTextAttachmentC
++ _symbolic So17OS_dispatch_queueC
++ _symbolic So18NSAttributedStringC
++ _symbolic So18NSAttributedStringCSg
++ _symbolic So23NSMutableParagraphStyleC
++ _symbolic So23_LTLanguageAvailabilityC
++ _symbolic So25NSMutableAttributedStringC
++ _symbolic So28NSTextAttachmentViewProviderC
++ _symbolic So30UIGraphicsImageRendererContextCIgg_
++ _symbolic So6NSLockC
++ _symbolic So6UIFontC
++ _symbolic So6UIViewCSg
++ _symbolic So7NSErrorC
++ _symbolic So7UIColorC
++ _symbolic So7UIImageC
++ _symbolic So7UIImageCSg
++ _symbolic So8NSObjectCIego_
++ _symbolic So8NSObjectCSgIego_
++ _symbolic Su
++ _symbolic _____ 10Foundation15AttributeScopesO
++ _symbolic _____ 10Foundation16AttributedStringV
++ _symbolic _____ 12TextToSpeech15CoreSynthesizerC
++ _symbolic _____ 12TextToSpeech15CoreSynthesizerC9UtteranceV
++ _symbolic _____ 16GenerativeModels0aB12AvailabilityV0C0O
++ _symbolic _____ 23AccessibilityReaderData018AXRTableAttachmentC0V
++ _symbolic _____ 23AccessibilityReaderData018AXRTableAttachmentC0V10CodingKeys33_0C7B542B6BE17E26EE41C87E734F579ELLO
++ _symbolic _____ 23AccessibilityReaderData09UseSampleC3Key33_CC5D090C96219AD4310EBB090A8B5961LLV
++ _symbolic _____ 23AccessibilityReaderData12ImageStyling33_1C518B187BE3089FF687A03DFB54E32DLLV
++ _symbolic _____ 23AccessibilityReaderData13TokenMetadata33_04CBD0BE3E4B5DFE18F91082EF2A52DELLV
++ _symbolic _____ 23AccessibilityReaderData14AXRImageFilterC
++ _symbolic _____ 23AccessibilityReaderData15AXBoldAttributeV
++ _symbolic _____ 23AccessibilityReaderData15AXLinkAttributeV
++ _symbolic _____ 23AccessibilityReaderData15AXRFetchOutcomeO
++ _symbolic _____ 23AccessibilityReaderData15AXRImageContentV
++ _symbolic _____ 23AccessibilityReaderData15AXRTableContentV
++ _symbolic _____ 23AccessibilityReaderData15AXRTablePayloadV
++ _symbolic _____ 23AccessibilityReaderData15AXRTablePayloadV10CodingKeys33_0C7B542B6BE17E26EE41C87E734F579ELLO
++ _symbolic _____ 23AccessibilityReaderData15AXRuntimeClientC16SentenceAnalysisV
++ _symbolic _____ 23AccessibilityReaderData16AXRListFormatterC
++ _symbolic _____ 23AccessibilityReaderData16AXRPlaybackSpeedO16TripleCodingKeys33_DEB1C5EEAA568B11F946EC40D33150CELLO
++ _symbolic _____ 23AccessibilityReaderData16AXRPlaybackSpeedO19QuadrupleCodingKeys33_DEB1C5EEAA568B11F946EC40D33150CELLO
++ _symbolic _____ 23AccessibilityReaderData17AXItalicAttributeV
++ _symbolic _____ 23AccessibilityReaderData17AXRImageFormatterC
++ _symbolic _____ 23AccessibilityReaderData17AXRMapbackServiceC
++ _symbolic _____ 23AccessibilityReaderData18AXRReaderURLSchemeO
++ _symbolic _____ 23AccessibilityReaderData18AXRReaderURLSchemeO7PayloadV
++ _symbolic _____ 23AccessibilityReaderData18AXRReaderURLSchemeO8QueryKeyO
++ _symbolic _____ 23AccessibilityReaderData18ListElementGrouperV
++ _symbolic _____ 23AccessibilityReaderData19AXRTextBlockContentV
++ _symbolic _____ 23AccessibilityReaderData19AXRTextBlockElementV
++ _symbolic _____ 23AccessibilityReaderData19AXRTranslationCacheC
++ _symbolic _____ 23AccessibilityReaderData19AXRTranslationError33_04CBD0BE3E4B5DFE18F91082EF2A52DELLO
++ _symbolic _____ 23AccessibilityReaderData19ListMarkerProcessorV
++ _symbolic _____ 23AccessibilityReaderData20AXRBlockQuoteDividerC
++ _symbolic _____ 23AccessibilityReaderData20AXRImageFilterConfigV
++ _symbolic _____ 23AccessibilityReaderData20AXRMarkdownConverterC
++ _symbolic _____ 23AccessibilityReaderData20AXRMarkdownConverterC11AXRListItemV
++ _symbolic _____ 23AccessibilityReaderData20AXRMarkdownConverterC11AXRListTypeO
++ _symbolic _____ 23AccessibilityReaderData20AXRMarkdownConverterC14AXRListContextV
++ _symbolic _____ 23AccessibilityReaderData20AXUnderlineAttributeV
++ _symbolic _____ 23AccessibilityReaderData20BlockDividerPositionO
++ _symbolic _____ 23AccessibilityReaderData21AXRFormatterConstantsV
++ _symbolic _____ 23AccessibilityReaderData21AXRFormatterConstantsV11IndentationV
++ _symbolic _____ 23AccessibilityReaderData21AXRFormatterConstantsV13DeviceContextV
++ _symbolic _____ 23AccessibilityReaderData21AXRFormatterConstantsV17IndentationValuesV
++ _symbolic _____ 23AccessibilityReaderData21AXRFormatterConstantsV9SizeClassO
++ _symbolic _____ 23AccessibilityReaderData21AXRSummarizationModelC
++ _symbolic _____ 23AccessibilityReaderData21AXRSummarizationModelC18SummarizationErrorO
++ _symbolic _____ 23AccessibilityReaderData21AXRSummarizationModelC18SummarizationStateO
++ _symbolic _____ 23AccessibilityReaderData21AXRSummarizationModelC26SummarizationErrorCategoryO
++ _symbolic _____ 23AccessibilityReaderData21AXRTextBlockSelectionV
++ _symbolic _____ 23AccessibilityReaderData21AXRTranslationManagerC
++ _symbolic _____ 23AccessibilityReaderData21TextManipulationToken33_04CBD0BE3E4B5DFE18F91082EF2A52DELLV
++ _symbolic _____ 23AccessibilityReaderData22AXRBlockMatcherServiceC
++ _symbolic _____ 23AccessibilityReaderData22AXRBlockQuoteFormatterC
++ _symbolic _____ 23AccessibilityReaderData22AXRContentCleanUpCacheC
++ _symbolic _____ 23AccessibilityReaderData22AXRImageTextAttachmentC
++ _symbolic _____ 23AccessibilityReaderData22AXRTableAttachmentViewV
++ _symbolic _____ 23AccessibilityReaderData22AXRTableSelectionStateC
++ _symbolic _____ 23AccessibilityReaderData22AXRTextBlockPropertiesV
++ _symbolic _____ 23AccessibilityReaderData23AXHeadingLevelAttributeV
++ _symbolic _____ 23AccessibilityReaderData23AXRTextStylingFormatterC13BlockPosition33_3439F832EA04D935D5C27E32BF8697E7LLO
++ _symbolic _____ 23AccessibilityReaderData24AXListItemIndexAttributeV
++ _symbolic _____ 23AccessibilityReaderData24AXListItemLevelAttributeV
++ _symbolic _____ 23AccessibilityReaderData24AXRContentCleanupServiceC
++ _symbolic _____ 23AccessibilityReaderData24AXRContentCleanupServiceC10SourceInfoV
++ _symbolic _____ 23AccessibilityReaderData24AXRContentCleanupServiceC14CleanUpOptionsV
++ _symbolic _____ 23AccessibilityReaderData24AXROnDeviceSummarizationC
++ _symbolic _____ 23AccessibilityReaderData24AXStrikethroughAttributeV
++ _symbolic _____ 23AccessibilityReaderData25AXListItemPrefixAttributeV
++ _symbolic _____ 23AccessibilityReaderData25AXRSampleArticleGeneratorC
++ _symbolic _____ 23AccessibilityReaderData26AXBlockQuoteLevelAttributeV
++ _symbolic _____ 23AccessibilityReaderData27UseSampleImagesAndTablesKey33_CC5D090C96219AD4310EBB090A8B5961LLV
++ _symbolic _____ 23AccessibilityReaderData29AXRBlockMarkupTransferServiceC
++ _symbolic _____ 23AccessibilityReaderData30AXRTableAttachmentViewProviderC
++ _symbolic _____ 23AccessibilityReaderData31AXRSemanticSimilarityCalculatorC
++ _symbolic _____ 23AccessibilityReaderData31TextManipulationTokenIdentifier33_04CBD0BE3E4B5DFE18F91082EF2A52DELLV
++ _symbolic _____ 23AccessibilityReaderData32AXBlockQuoteAttributionAttributeV
++ _symbolic _____ 23AccessibilityReaderData7AXRPageV
++ _symbolic _____ 26AccessibilitySharedSupport14AXChatProviderC
++ _symbolic _____ 7SwiftUI13TextAlignmentO
++ _symbolic _____ SC24SummarizationClientErrorLeV
++ _symbolic _____ So10NLLanguagea
++ _symbolic _____ So15NSTextAlignmentV
++ _symbolic _____ So16NSUnderlineStyleV
++ _symbolic _____ So18NSTextTabOptionKeya
++ _symbolic _____ So24SummarizationClientErrorV
++ _symbolic _____ So29_LTLanguageAvailabilityStatusV
++ _symbolic _____ So6CGRectV
++ _symbolic _____ So6CGSizeV
++ _symbolic _____ So7CGPointV
++ _symbolic _____ So8_NSRangeV
++ _symbolic _____3key_yp5valuet s11AnyHashableV
++ _symbolic _____3pid_SSSg8bundleIDt s5Int32V
++ _symbolic _____5lower_AA5uppert 10Foundation16AttributedStringV5IndexV
++ _symbolic _____Iegd_ s5Int32V
++ _symbolic _____IeghHg_ 23AccessibilityReaderData15AXRBlockManagerC
++ _symbolic _____Iegr_ s5Int32V
++ _symbolic _____Sg 10Foundation13URLComponentsV
++ _symbolic _____Sg 10Foundation16AttributedStringV4RunsV3RunV
++ _symbolic _____Sg 10Foundation21NSKeyValueObservationC
++ _symbolic _____Sg 10Foundation4DataV
++ _symbolic _____Sg 10Foundation6LocaleV
++ _symbolic _____Sg 10Foundation6LocaleV12LanguageCodeV
++ _symbolic _____Sg 10Foundation6LocaleV6RegionV
++ _symbolic _____Sg 10Foundation6LocaleV6ScriptV
++ _symbolic _____Sg 10Foundation6LocaleV8LanguageV
++ _symbolic _____Sg 16GenerativeModels0aB12AvailabilityV13NotificationsC
++ _symbolic _____Sg 23AccessibilityReaderData15AXRImageContentV
++ _symbolic _____Sg 23AccessibilityReaderData15AXRTableContentV
++ _symbolic _____Sg 23AccessibilityReaderData16AXRPlaybackSpeedO
++ _symbolic _____Sg 23AccessibilityReaderData20AXRMarkdownConverterC11AXRListItemV
++ _symbolic _____Sg 23AccessibilityReaderData21AXRTextFormatterModelC
++ _symbolic _____Sg 23AccessibilityReaderData7AXRPageV
++ _symbolic _____Sg 4Sage17ClientProcessInfoV
++ _symbolic _____Sg 4Sage27SummarySafetyClassificationV
++ _symbolic _____Sg So10AXSettingsC22AccessibilityUtilitiesE0B6ReaderC22ContentCleanUpBehaviorO
++ _symbolic _____Sg So16NSUnderlineStyleV
++ _symbolic _____Sg So17OS_dispatch_queueC8DispatchE16SchedulerOptionsV
++ _symbolic _____Sg So6CGSizeV
++ _symbolic _____Sg So8_NSRangeV
++ _symbolic _____Sg So9NSRunLoopC10FoundationE16SchedulerOptionsV
++ _symbolic _____SgXw 23AccessibilityReaderData21AXRSummarizationModelC
++ _symbolic _____SgXw 23AccessibilityReaderData21AXRTextFormatterModelC
++ _symbolic _____SgXw 23AccessibilityReaderData21AXRTranslationManagerC
++ _symbolic _____SgXw 23AccessibilityReaderData23AXRTextStylingFormatterC
++ _symbolic _____SgXw 23AccessibilityReaderData24AXRContentCleanupServiceC
++ _symbolic _____SgXw 23AccessibilityReaderData30AXRTableAttachmentViewProviderC
++ _symbolic _____SgXw 23AccessibilityReaderData30AXRTextFormatterPresetsManagerC
++ _symbolic _____SgXwz_Xx 23AccessibilityReaderData15AXRBlockManagerC
++ _symbolic _____SgXwz_Xx 23AccessibilityReaderData21AXRTranslationManagerC
++ _symbolic _____SgXwz_Xx 23AccessibilityReaderData23AXRTextStylingFormatterC
++ _symbolic _____SgXwz_Xx 23AccessibilityReaderData24AXRContentCleanupServiceC
++ _symbolic _____SgXwz_Xx 23AccessibilityReaderData30AXRTableAttachmentViewProviderC
++ _symbolic _____Sg_ABt 10Foundation3URLV
++ _symbolic _____Sg_ABt 10Foundation6LocaleV12LanguageCodeV
++ _symbolic _____Sg_ABt 10Foundation6LocaleV6RegionV
++ _symbolic _____Sg_ABt 10Foundation6LocaleV6ScriptV
++ _symbolic _____Sg_ABt 10Foundation6LocaleV8LanguageV
++ _symbolic _____XDXMT 23AccessibilityReaderData15AXRBlockManagerC
++ _symbolic _____XDXMT 23AccessibilityReaderData23AXRTextStylingFormatterC
++ _symbolic _____XDXMT 23AccessibilityReaderData24AXRContentCleanupServiceC
++ _symbolic ______p 23AccessibilityReaderData18AXRContentProtocolP
++ _symbolic ______p 23AccessibilityReaderData19BlockMatcherServiceP
++ _symbolic ______p 23AccessibilityReaderData26BlockMarkupTransferServiceP
++ _symbolic ______pIego_ s5ErrorP
++ _symbolic ______pSg So8NSObjectP
++ _symbolic _____m 10Foundation15AttributeScopesO0A10AttributesV
++ _symbolic _____yAAyAAyAAyAAyAAyAAyAAyAAyAAy__________G_____G_____GAGGAGG_____y_____GGAKySiSgGGAKy_____GG_____G_____y_____GG 7SwiftUI15ModifiedContentV AA4TextV AA12_FrameLayoutV AA05_FlexfG0V AA08_PaddingG0V AA30_EnvironmentKeyWritingModifierV AA0E9AlignmentO 12CoreGraphics7CGFloatV AA010_FixedSizeG0V AA01_d5ShapeM0V AA9RectangleV
++ _symbolic _____yAAyAAyAAyAAyAAyAAyAAyAAy__________G_____G_____GAGGAGG_____y_____GGAKySiSgGGAKy_____GG_____G 7SwiftUI15ModifiedContentV AA4TextV AA12_FrameLayoutV AA05_FlexfG0V AA08_PaddingG0V AA30_EnvironmentKeyWritingModifierV AA0E9AlignmentO 12CoreGraphics7CGFloatV AA010_FixedSizeG0V
++ _symbolic _____yAAyAAyAAyAAyAAyAAyAAyAAy__________G_____G_____GAGGAGG_____y_____GGAKySiSgGG_____G_____y_____GG 7SwiftUI15ModifiedContentV AA4TextV AA12_FrameLayoutV AA05_FlexfG0V AA08_PaddingG0V AA30_EnvironmentKeyWritingModifierV AA0E9AlignmentO AA010_FixedSizeG0V AA01_d5ShapeM0V AA9RectangleV
++ _symbolic _____yAAyAAyAAyAAyAAyAAyAAy__________G_____G_____GAGGAGG_____y_____GGAKySiSgGGAKy_____GG 7SwiftUI15ModifiedContentV AA4TextV AA12_FrameLayoutV AA05_FlexfG0V AA08_PaddingG0V AA30_EnvironmentKeyWritingModifierV AA0E9AlignmentO 12CoreGraphics7CGFloatV
++ _symbolic _____yAAyAAyAAyAAyAAyAAyAAy__________G_____G_____GAGGAGG_____y_____GGAKySiSgGG_____G 7SwiftUI15ModifiedContentV AA4TextV AA12_FrameLayoutV AA05_FlexfG0V AA08_PaddingG0V AA30_EnvironmentKeyWritingModifierV AA0E9AlignmentO AA010_FixedSizeG0V
++ _symbolic _____yAAyAAyAAyAAyAAyAAy__________G_____G_____GAGGAGG_____y_____GGAKySiSgGG 7SwiftUI15ModifiedContentV AA4TextV AA12_FrameLayoutV AA05_FlexfG0V AA08_PaddingG0V AA30_EnvironmentKeyWritingModifierV AA0E9AlignmentO
++ _symbolic _____yAAyAAyAAyAAyAAy__________G_____G_____GAGGAGG_____y_____GG 7SwiftUI15ModifiedContentV AA4TextV AA12_FrameLayoutV AA05_FlexfG0V AA08_PaddingG0V AA30_EnvironmentKeyWritingModifierV AA0E9AlignmentO
++ _symbolic _____yAAyAAyAAyAAy__________G_____G_____GAGGAGG 7SwiftUI15ModifiedContentV AA4TextV AA12_FrameLayoutV AA05_FlexfG0V AA08_PaddingG0V
++ _symbolic _____yAAyAAyAAy__________G_____G_____GAGG 7SwiftUI15ModifiedContentV AA4TextV AA12_FrameLayoutV AA05_FlexfG0V AA08_PaddingG0V
++ _symbolic _____yAAyAAyAAy_____y_____ySaySi6offset_SS7elementtGSi_____yAAy_____y__________G_____GSg______yAAyAAyAAyAAyAAyAAyAAyAAyAAyAAy_____ALG_____G_____GASGASG_____y_____GGAWySiSgGGAWy_____GG_____G_____yAIGG______yAGy_____yAoGy_____yAOG_A13_A13_A13_QPGG_A15_QPGGQo_QPGGGAQGASG_____yA10_y_____yAHy_____AJGA27_GGGGASG 7SwiftUI15ModifiedContentV AA6HStackV AA7ForEachV AA05TupleD0V AA10_ShapeViewV AA9RectangleV AA5ColorV AA12_FrameLayoutV AA0J0PAAE11contextMenu9menuItemsQrqd__yXE_tAaRRd__lFQO AA4TextV AA05_FlexmN0V AA08_PaddingN0V AA30_EnvironmentKeyWritingModifierV AA0S9AlignmentO 12CoreGraphics7CGFloatV AA010_FixedSizeN0V AA01_diY0V AA5GroupV AA0P0V AA6ButtonV AA011_BackgroundY0V AA012_ConditionalD0V AA07RoundedK0V
++ _symbolic _____yAAyAAy__________G_____G_____G 7SwiftUI15ModifiedContentV AA4TextV AA12_FrameLayoutV AA05_FlexfG0V AA08_PaddingG0V
++ _symbolic _____yAAyAAy_____y_____yACyAAyAAyAAyABy_____ySaySi6offset_SaySSG7elementtGSiACyAAy_____y__________G_____GSg______yADySaySiAE_SSAGtGSiACyAO______yAAyAAyAAyAAyAAyAAyAAyAAyAAy_____AMG_____G_____GAVGAVG_____y_____GGAZySiSgGG_____G_____yAJGG______yACy_____yArCy_____yARG_A13_A13_A13_QPGG_A15_QPGGQo_QPGGGQPGGGATG_____yAIy_____AKGGGAVG_AAyAnVGQPGSg_ADyAHSiAAyAAyAAyAAyAPyADyAQSiACyAO______yAAyAAyAAyA4_AZy_____GGA5_GA8_G_A17_Qo_QPGGGATGAVGA26_yA10_y_____yA28_A28_GGGGAVGGQPGGATGAMGAMG 7SwiftUI15ModifiedContentV AA6VStackV AA05TupleD0V AA7ForEachV AA10_ShapeViewV AA9RectangleV AA5ColorV AA12_FrameLayoutV AA6HStackV AA0J0PAAE11contextMenu9menuItemsQrqd__yXE_tAaTRd__lFQO AA4TextV AA05_FlexmN0V AA08_PaddingN0V AA30_EnvironmentKeyWritingModifierV AA0T9AlignmentO AA010_FixedSizeN0V AA01_diZ0V AA5GroupV AA0Q0V AA6ButtonV AA011_BackgroundZ0V AA07RoundedK0V AuAEAvWQrqd__yXE_tAaTRd__lFQO 12CoreGraphics7CGFloatV AA012_ConditionalD0V
++ _symbolic _____yAAyAAy_____y_____ySaySi6offset_SS7elementtGSi_____yAAy_____y__________G_____GSg______yAAyAAyAAyAAyAAyAAyAAyAAyAAyAAy_____ALG_____G_____GASGASG_____y_____GGAWySiSgGGAWy_____GG_____G_____yAIGG______yAGy_____yAoGy_____yAOG_A13_A13_A13_QPGG_A15_QPGGQo_QPGGGAQGASG_____yA10_y_____yAHy_____AJGA27_GGGG 7SwiftUI15ModifiedContentV AA6HStackV AA7ForEachV AA05TupleD0V AA10_ShapeViewV AA9RectangleV AA5ColorV AA12_FrameLayoutV AA0J0PAAE11contextMenu9menuItemsQrqd__yXE_tAaRRd__lFQO AA4TextV AA05_FlexmN0V AA08_PaddingN0V AA30_EnvironmentKeyWritingModifierV AA0S9AlignmentO 12CoreGraphics7CGFloatV AA010_FixedSizeN0V AA01_diY0V AA5GroupV AA0P0V AA6ButtonV AA011_BackgroundY0V AA012_ConditionalD0V AA07RoundedK0V
++ _symbolic _____yAAyAAy_____y_____ySaySi6offset_SaySSG7elementtGSi_____yAAy_____y__________G_____GSg______yACySaySiAD_SSAFtGSiAHyAO______yAAyAAyAAyAAyAAyAAyAAyAAyAAy_____AMG_____G_____GAVGAVG_____y_____GGAZySiSgGG_____G_____yAJGG______yAHy_____yArHy_____yARG_A13_A13_A13_QPGG_A15_QPGGQo_QPGGGQPGGGATG_____yAIy_____AKGGGAVG 7SwiftUI15ModifiedContentV AA6VStackV AA7ForEachV AA05TupleD0V AA10_ShapeViewV AA9RectangleV AA5ColorV AA12_FrameLayoutV AA6HStackV AA0J0PAAE11contextMenu9menuItemsQrqd__yXE_tAaTRd__lFQO AA4TextV AA05_FlexmN0V AA08_PaddingN0V AA30_EnvironmentKeyWritingModifierV AA0T9AlignmentO AA010_FixedSizeN0V AA01_diZ0V AA5GroupV AA0Q0V AA6ButtonV AA011_BackgroundZ0V AA07RoundedK0V
++ _symbolic _____yAAyAAy_____y_____ySaySi6offset_SaySSG7elementtGSi_____yAAy_____y__________G_____GSg______yACySaySiAD_SSAFtGSiAHyAO______yAAyAAyAAyAAyAAyAAyAAyAAyAAy_____AMG_____G_____GAVGAVG_____y_____GGAZySiSgGG_____G_____yAJGG______yAHy_____yArHy_____yARG_A13_A13_A13_QPGG_A15_QPGGQo_QPGGGQPGGGATG_____yAIy_____AKGGGAVG_AAyAnVGt 7SwiftUI15ModifiedContentV AA6VStackV AA7ForEachV AA05TupleD0V AA10_ShapeViewV AA9RectangleV AA5ColorV AA12_FrameLayoutV AA6HStackV AA0J0PAAE11contextMenu9menuItemsQrqd__yXE_tAaTRd__lFQO AA4TextV AA05_FlexmN0V AA08_PaddingN0V AA30_EnvironmentKeyWritingModifierV AA0T9AlignmentO AA010_FixedSizeN0V AA01_diZ0V AA5GroupV AA0Q0V AA6ButtonV AA011_BackgroundZ0V AA07RoundedK0V
++ _symbolic _____yAAy__________G_____G 7SwiftUI15ModifiedContentV AA4TextV AA12_FrameLayoutV AA05_FlexfG0V
++ _symbolic _____yAAy_____y__________G_____G_____G 7SwiftUI15ModifiedContentV AA10_ShapeViewV AA9RectangleV AA5ColorV AA12_FrameLayoutV AA08_PaddingJ0V
++ _symbolic _____yAAy_____y_____yACyAAyAAyAAyABy_____ySaySi6offset_SaySSG7elementtGSiACyAAy_____y__________G_____GSg______yADySaySiAE_SSAGtGSiACyAO______yAAyAAyAAyAAyAAyAAyAAyAAyAAy_____AMG_____G_____GAVGAVG_____y_____GGAZySiSgGG_____G_____yAJGG______yACy_____yArCy_____yARG_A13_A13_A13_QPGG_A15_QPGGQo_QPGGGQPGGGATG_____yAIy_____AKGGGAVG_AAyAnVGQPGSg_ADyAHSiAAyAAyAAyAAyAPyADyAQSiACyAO______yAAyAAyAAyA4_AZy_____GGA5_GA8_G_A17_Qo_QPGGGATGAVGA26_yA10_y_____yA28_A28_GGGGAVGGQPGGATGAMG 7SwiftUI15ModifiedContentV AA6VStackV AA05TupleD0V AA7ForEachV AA10_ShapeViewV AA9RectangleV AA5ColorV AA12_FrameLayoutV AA6HStackV AA0J0PAAE11contextMenu9menuItemsQrqd__yXE_tAaTRd__lFQO AA4TextV AA05_FlexmN0V AA08_PaddingN0V AA30_EnvironmentKeyWritingModifierV AA0T9AlignmentO AA010_FixedSizeN0V AA01_diZ0V AA5GroupV AA0Q0V AA6ButtonV AA011_BackgroundZ0V AA07RoundedK0V AuAEAvWQrqd__yXE_tAaTRd__lFQO 12CoreGraphics7CGFloatV AA012_ConditionalD0V
++ _symbolic _____yAAy_____y_____ySaySi6offset_SS7elementtGSi_____yAAy_____y__________G_____GSg______yAAyAAyAAyAAyAAyAAyAAyAAyAAyAAy_____ALG_____G_____GASGASG_____y_____GGAWySiSgGGAWy_____GG_____G_____yAIGG______yAGy_____yAoGy_____yAOG_A13_A13_A13_QPGG_A15_QPGGQo_QPGGGAQGASG 7SwiftUI15ModifiedContentV AA6HStackV AA7ForEachV AA05TupleD0V AA10_ShapeViewV AA9RectangleV AA5ColorV AA12_FrameLayoutV AA0J0PAAE11contextMenu9menuItemsQrqd__yXE_tAaRRd__lFQO AA4TextV AA05_FlexmN0V AA08_PaddingN0V AA30_EnvironmentKeyWritingModifierV AA0S9AlignmentO 12CoreGraphics7CGFloatV AA010_FixedSizeN0V AA01_diY0V AA5GroupV AA0P0V AA6ButtonV
++ _symbolic _____yAAy_____y_____ySaySi6offset_SaySSG7elementtGSi_____yAAy_____y__________G_____GSg______yACySaySiAD_SSAFtGSiAHyAO______yAAyAAyAAyAAyAAyAAyAAyAAyAAy_____AMG_____G_____GAVGAVG_____y_____GGAZySiSgGG_____G_____yAJGG______yAHy_____yArHy_____yARG_A13_A13_A13_QPGG_A15_QPGGQo_QPGGGQPGGGATG_____yAIy_____AKGGG 7SwiftUI15ModifiedContentV AA6VStackV AA7ForEachV AA05TupleD0V AA10_ShapeViewV AA9RectangleV AA5ColorV AA12_FrameLayoutV AA6HStackV AA0J0PAAE11contextMenu9menuItemsQrqd__yXE_tAaTRd__lFQO AA4TextV AA05_FlexmN0V AA08_PaddingN0V AA30_EnvironmentKeyWritingModifierV AA0T9AlignmentO AA010_FixedSizeN0V AA01_diZ0V AA5GroupV AA0Q0V AA6ButtonV AA011_BackgroundZ0V AA07RoundedK0V
++ _symbolic _____yAAy_____y_____y_____yAAyAAyAAy_____y_____yAEyAAyAAyAAyADy_____ySaySi6offset_SaySSG7elementtGSiAEyAAy_____y__________G_____GSg______yAFySaySiAG_SSAItGSiAEyAQ______yAAyAAyAAyAAyAAyAAyAAyAAyAAy_____AOG_____G_____GAXGAXG_____y_____GGA0_ySiSgGG_____G_____yALGG______yAEy_____yAtEy_____yATG_A15_A15_A15_QPGG_A17_QPGGQo_QPGGGQPGGGAVG_____yAKy_____AMGGGAXG_AAyApXGQPGSg_AFyAJSiAAyAAyAAyAAyARyAFyASSiAEyAQ______yAAyAAyAAyA6_A0_y_____GGA7_GA10_G_A19_Qo_QPGGGAVGAXGA28_yA12_yACyA30_A30_GGGGAXGGQPGGAVGAOGAOGA56_GG_Qo_AOGA28_y_____yAMSgGGG 7SwiftUI15ModifiedContentV AA4ViewPAAE16scrollIndicators_4axesQrAA25ScrollIndicatorVisibilityV_AA4AxisO3SetVtFQO AA0iE0V AA012_ConditionalD0V AA6VStackV AA05TupleD0V AA7ForEachV AA06_ShapeE0V AA9RectangleV AA5ColorV AA12_FrameLayoutV AA6HStackV AeAE11contextMenu9menuItemsQrqd__yXE_tAaDRd__lFQO AA4TextV AA05_FlexvW0V AA08_PaddingW0V AA30_EnvironmentKeyWritingModifierV AA13TextAlignmentO AA010_FixedSizeW0V AA01_dS8ModifierV AA5GroupV AA0Z0V AA6ButtonV AA19_BackgroundModifierV AA07RoundedT0V AeAEA6_A7_Qrqd__yXE_tAaDRd__lFQO 12CoreGraphics7CGFloatV AA6ZStackV
++ _symbolic _____yS2SG s18_DictionaryStorageC
++ _symbolic _____ySDySSypGG s23_ContiguousArrayStorageC
++ _symbolic _____ySJG s11_SetStorageC
++ _symbolic _____ySJG s23_ContiguousArrayStorageC
++ _symbolic _____ySOSiG s18_DictionaryStorageC
++ _symbolic _____ySSG s11_SetStorageC
++ _symbolic _____ySSSay_____GG s18_DictionaryStorageC 10Foundation6LocaleV
++ _symbolic _____ySSSgG 7Combine9PublishedV
++ _symbolic _____ySSSg_G 7Combine9PublishedV9PublisherV
++ _symbolic _____ySS_SStG s23_ContiguousArrayStorageC
++ _symbolic _____ySS_____G s18_DictionaryStorageC 10Foundation6LocaleV
++ _symbolic _____ySS_____G s18_DictionaryStorageC s5Int32V
++ _symbolic _____ySaySSGG s23_ContiguousArrayStorageC
++ _symbolic _____ySaySay_____GGG s23_ContiguousArrayStorageC 23AccessibilityReaderData14AXRTextContentV
++ _symbolic _____ySaySi6offset_SaySSG7elementtGSi_____yAFyAFyAFy_____yAAySaySiAB_SSADtGSi_____yAFy_____y__________G_____GSg______yAFyAFyAFyAFyAFyAFyAFyAFyAFyAFy_____ANG_____G_____GAUGAUG_____y_____GGAYySiSgGGAYy_____GG_____G_____yAKGG______yAIy_____yAqIy_____yAQG_A15_A15_A15_QPGG_A17_QPGGQo_QPGGGASGAUG_____yA12_y_____yAJy_____ALGA29_GGGGAUGG 7SwiftUI7ForEachV AA15ModifiedContentV AA6HStackV AA05TupleF0V AA10_ShapeViewV AA9RectangleV AA5ColorV AA12_FrameLayoutV AA0J0PAAE11contextMenu9menuItemsQrqd__yXE_tAaRRd__lFQO AA4TextV AA05_FlexmN0V AA08_PaddingN0V AA30_EnvironmentKeyWritingModifierV AA0S9AlignmentO 12CoreGraphics7CGFloatV AA010_FixedSizeN0V AA01_fiY0V AA5GroupV AA0P0V AA6ButtonV AA011_BackgroundY0V AA012_ConditionalF0V AA07RoundedK0V
++ _symbolic _____ySaySiGG 7Combine9PublishedV
++ _symbolic _____ySaySiG_G 7Combine9PublishedV9PublisherV
++ _symbolic _____ySaySo9AXElementCGG s23_ContiguousArrayStorageC
++ _symbolic _____ySay_____GG 7Combine9PublishedV 10Foundation6LocaleV8LanguageV
++ _symbolic _____ySay_____GG 7Combine9PublishedV 23AccessibilityReaderData7AXRPageV
++ _symbolic _____ySay_____GG s23_ContiguousArrayStorageC 23AccessibilityReaderData14AXRTextContentV
++ _symbolic _____ySay_____GG s23_ContiguousArrayStorageC 23AccessibilityReaderData19AXRTextBlockContentV
++ _symbolic _____ySay_____G_G 7Combine9PublishedV9PublisherV 10Foundation6LocaleV8LanguageV
++ _symbolic _____ySay_____G_G 7Combine9PublishedV9PublisherV 23AccessibilityReaderData7AXRPageV
++ _symbolic _____ySbG 7SwiftUI7BindingV
++ _symbolic _____ySi6offset_SS7elementtG s23_ContiguousArrayStorageC
++ _symbolic _____ySi6offset_SaySSG7elementtG s23_ContiguousArrayStorageC
++ _symbolic _____ySiG s11_SetStorageC
++ _symbolic _____ySiSay_____GG s18_DictionaryStorageC 23AccessibilityReaderData12AXRTextBlockC
++ _symbolic _____ySiSgG 7Combine9PublishedV
++ _symbolic _____ySiSgG 7SwiftUI30_EnvironmentKeyWritingModifierV
++ _symbolic _____ySiSg_G 7Combine9PublishedV9PublisherV
++ _symbolic _____ySiSo10NSTextListCG s18_DictionaryStorageC
++ _symbolic _____ySny_____GG s23_ContiguousArrayStorageC SS5IndexV
++ _symbolic _____ySsG s23_ContiguousArrayStorageC
++ _symbolic _____y_SSG 4Sage19SummarizationClientC20TextAssistantSummaryV
++ _symbolic _____y_____G 7SwiftUI14ObservedObjectV 23AccessibilityReaderData22AXRTableSelectionStateC
++ _symbolic _____y_____G 7SwiftUI19UIHostingControllerC 23AccessibilityReaderData22AXRTableAttachmentViewV
++ _symbolic _____y_____G 7SwiftUI21_ContentShapeModifierV AA9RectangleV
++ _symbolic _____y_____G 7SwiftUI30_EnvironmentKeyWritingModifierV 12CoreGraphics7CGFloatV
++ _symbolic _____y_____G 7SwiftUI30_EnvironmentKeyWritingModifierV AA13TextAlignmentO
++ _symbolic _____y_____G 7SwiftUI6ButtonV AA4TextV
++ _symbolic _____y_____G s11_SetStorageC 10Foundation4UUIDV
++ _symbolic _____y_____G s15CollectionOfOneV 23AccessibilityReaderData7AXRPageV
++ _symbolic _____y_____G s16IndexingIteratorV 10Foundation16AttributedStringV4RunsV
++ _symbolic _____y_____G s22KeyedDecodingContainerV 23AccessibilityReaderData018AXRTableAttachmentF0V10CodingKeys33_0C7B542B6BE17E26EE41C87E734F579ELLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 23AccessibilityReaderData15AXRTablePayloadV10CodingKeys33_0C7B542B6BE17E26EE41C87E734F579ELLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 23AccessibilityReaderData16AXRPlaybackSpeedO16TripleCodingKeys33_DEB1C5EEAA568B11F946EC40D33150CELLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 23AccessibilityReaderData16AXRPlaybackSpeedO19QuadrupleCodingKeys33_DEB1C5EEAA568B11F946EC40D33150CELLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 23AccessibilityReaderData018AXRTableAttachmentF0V10CodingKeys33_0C7B542B6BE17E26EE41C87E734F579ELLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 23AccessibilityReaderData15AXRTablePayloadV10CodingKeys33_0C7B542B6BE17E26EE41C87E734F579ELLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 23AccessibilityReaderData16AXRPlaybackSpeedO16TripleCodingKeys33_DEB1C5EEAA568B11F946EC40D33150CELLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 23AccessibilityReaderData16AXRPlaybackSpeedO19QuadrupleCodingKeys33_DEB1C5EEAA568B11F946EC40D33150CELLO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 10Foundation16AttributedStringV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 10Foundation4UUIDV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 10Foundation6LocaleV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 10Foundation6LocaleV8LanguageV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 12CoreGraphics7CGFloatV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 23AccessibilityReaderData19AXRTextBlockContentV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 23AccessibilityReaderData20AXRMarkdownConverterC14AXRListContextV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 23AccessibilityReaderData21TextManipulationToken33_04CBD0BE3E4B5DFE18F91082EF2A52DELLV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 23AccessibilityReaderData7AXRPageV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 9PromptKit012ChatMessagesD0V
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 9PromptKit0D0V
++ _symbolic _____y_____G s23_ContiguousArrayStorageC So21NSAttributedStringKeya
++ _symbolic _____y_____G s23_ContiguousArrayStorageC So8_NSRangeV
++ _symbolic _____y_____GSg 7SwiftUI19UIHostingControllerC 23AccessibilityReaderData22AXRTableAttachmentViewV
++ _symbolic _____y_____G_A3Ct 7SwiftUI6ButtonV AA4TextV
++ _symbolic _____y_____SgG 7Combine9PublishedV 10Foundation6LocaleV8LanguageV
++ _symbolic _____y_____Sg_G 7Combine9PublishedV9PublisherV 10Foundation6LocaleV8LanguageV
++ _symbolic _____y_____SiG s18_DictionaryStorageC So11AXDirectionV
++ _symbolic _____y______So17OS_dispatch_queueCG 7Combine10PublishersO9ReceiveOnV AA25ObservableObjectPublisherC
++ _symbolic _____y______So9NSRunLoopCG 7Combine10PublishersO9ReceiveOnV AA25ObservableObjectPublisherC
++ _symbolic _____y__________G 7SwiftUI10_ShapeViewV AA16RoundedRectangleV AA5ColorV
++ _symbolic _____y__________G 7SwiftUI15ModifiedContentV AA4TextV AA12_FrameLayoutV
++ _symbolic _____y___________yACy_____yADyADy_____y_____ySaySi6offset_SaySSG7elementtGSiACyADy_____y__________G_____GSg______yAFySaySiAG_SSAItGSiACyAQ______yADyADyADyADyADyADyADyADyADy_____AOG_____G_____GAXGAXG_____y_____GGA0_ySiSgGG_____G_____yALGG______yACy_____yAtCy_____yATG_A15_A15_A15_QPGG_A17_QPGGQo_QPGGGQPGGGAVG_____yAKy_____AMGGGAXG_ADyApXGQPGSg_AFyAJSiADyADyADyADyARyAFyASSiACyAQ______yADyADyADyA6_A0_y_____GGA7_GA10_G_A19_Qo_QPGGGAVGAXGA28_yA12_y_____yA30_A30_GGGGAXGGQPGG 7SwiftUI13_VariadicViewO4TreeV AA13_VStackLayoutV AA12TupleContentV AA08ModifiedI0V AA0F0V AA7ForEachV AA06_ShapeD0V AA9RectangleV AA5ColorV AA06_FrameG0V AA6HStackV AA0D0PAAE11contextMenu9menuItemsQrqd__yXE_tAaZRd__lFQO AA4TextV AA05_FlexpG0V AA08_PaddingG0V AA30_EnvironmentKeyWritingModifierV AA0V9AlignmentO AA010_FixedSizeG0V AA01_iM8ModifierV AA5GroupV AA0S0V AA6ButtonV AA19_BackgroundModifierV AA07RoundedN0V A_AAEA0_A1_Qrqd__yXE_tAaZRd__lFQO 12CoreGraphics7CGFloatV AA012_ConditionalI0V
++ _symbolic _____y___________ySaySi6offset_SS7elementtGSi_____y_____y_____y__________G_____GSg______yAHyAHyAHyAHyAHyAHyAHyAHyAHyAHy_____AMG_____G_____GATGATG_____y_____GGAXySiSgGGAXy_____GG_____G_____yAJGG______yAGy_____yApGy_____yAPG_A14_A14_A14_QPGG_A16_QPGGQo_QPGGG 7SwiftUI13_VariadicViewO4TreeV AA13_HStackLayoutV AA7ForEachV AA12TupleContentV AA08ModifiedK0V AA06_ShapeD0V AA9RectangleV AA5ColorV AA06_FrameG0V AA0D0PAAE11contextMenu9menuItemsQrqd__yXE_tAaVRd__lFQO AA4TextV AA05_FlexpG0V AA08_PaddingG0V AA30_EnvironmentKeyWritingModifierV AA0U9AlignmentO 12CoreGraphics7CGFloatV AA010_FixedSizeG0V AA01_kM8ModifierV AA5GroupV AA0R0V AA6ButtonV
++ _symbolic _____y___________ySaySi6offset_SS7elementtGSi_____y_____y_____y__________G_____GSg______yAHyAHyAHyAHyAHyAHyAHyAHyAHy_____AMG_____G_____GATGATG_____y_____GGAXySiSgGG_____G_____yAJGG______yAGy_____yApGy_____yAPG_A11_A11_A11_QPGG_A13_QPGGQo_QPGGG 7SwiftUI13_VariadicViewO4TreeV AA13_HStackLayoutV AA7ForEachV AA12TupleContentV AA08ModifiedK0V AA06_ShapeD0V AA9RectangleV AA5ColorV AA06_FrameG0V AA0D0PAAE11contextMenu9menuItemsQrqd__yXE_tAaVRd__lFQO AA4TextV AA05_FlexpG0V AA08_PaddingG0V AA30_EnvironmentKeyWritingModifierV AA0U9AlignmentO AA010_FixedSizeG0V AA01_kM8ModifierV AA5GroupV AA0R0V AA6ButtonV
++ _symbolic _____y___________ySaySi6offset_SaySSG7elementtGSi_____y_____y_____y__________G_____GSg______yACySaySiAD_SSAFtGSiAHyAP______yAIyAIyAIyAIyAIyAIyAIyAIyAIy_____ANG_____G_____GAWGAWG_____y_____GGA_ySiSgGG_____G_____yAKGG______yAHy_____yAsHy_____yASG_A14_A14_A14_QPGG_A16_QPGGQo_QPGGGQPGGG 7SwiftUI13_VariadicViewO4TreeV AA13_VStackLayoutV AA7ForEachV AA12TupleContentV AA08ModifiedK0V AA06_ShapeD0V AA9RectangleV AA5ColorV AA06_FrameG0V AA6HStackV AA0D0PAAE11contextMenu9menuItemsQrqd__yXE_tAaXRd__lFQO AA4TextV AA05_FlexpG0V AA08_PaddingG0V AA30_EnvironmentKeyWritingModifierV AA0V9AlignmentO AA010_FixedSizeG0V AA01_kM8ModifierV AA5GroupV AA0S0V AA6ButtonV
++ _symbolic _____y__________y_____yABG_A3EQPGG 7SwiftUI4MenuV AA4TextV AA12TupleContentV AA6ButtonV
++ _symbolic _____y__________y_____yABG_A3EQPGG_AGt 7SwiftUI4MenuV AA4TextV AA12TupleContentV AA6ButtonV
++ _symbolic _____y______pG s23_ContiguousArrayStorageC 23AccessibilityReaderData18AXRContentProtocolP
++ _symbolic _____y______pG s23_ContiguousArrayStorageC s7CVarArgP
++ _symbolic _____y_____yAAyAAyAAyAAyAAyAAyAAyAAyAAy__________G_____G_____GAGGAGG_____y_____GGAKySiSgGGAKy_____GG_____G_____y_____GG______y_____y_____yABA0_y_____yABG_A3_A3_A3_QPGG_A5_QPGGQo_ 7SwiftUI4ViewPAAE11contextMenu9menuItemsQrqd__yXE_tAaBRd__lFQO AA15ModifiedContentV AA4TextV AA12_FrameLayoutV AA05_FlexkL0V AA08_PaddingL0V AA30_EnvironmentKeyWritingModifierV AA0J9AlignmentO 12CoreGraphics7CGFloatV AA010_FixedSizeL0V AA01_i5ShapeR0V AA9RectangleV AA5GroupV AA05TupleI0V AA0E0V AA6ButtonV
++ _symbolic _____y_____yAAyAAyAAyAAyAAyAAyAAyAAy__________G_____G_____GAGGAGG_____y_____GGAKySiSgGG_____G_____y_____GG______y_____y_____yAbYy_____yABG_A0_A0_A0_QPGG_A2_QPGGQo_ 7SwiftUI4ViewPAAE11contextMenu9menuItemsQrqd__yXE_tAaBRd__lFQO AA15ModifiedContentV AA4TextV AA12_FrameLayoutV AA05_FlexkL0V AA08_PaddingL0V AA30_EnvironmentKeyWritingModifierV AA0J9AlignmentO AA010_FixedSizeL0V AA01_i5ShapeR0V AA9RectangleV AA5GroupV AA05TupleI0V AA0E0V AA6ButtonV
++ _symbolic _____y_____yAByABy_____y_____yADyAByAByAByACy_____ySaySi6offset_SaySSG7elementtGSiADyABy_____y__________G_____GSg______yAEySaySiAF_SSAHtGSiADyAP______yAByAByAByAByAByAByAByAByABy_____ANG_____G_____GAWGAWG_____y_____GGA_ySiSgGG_____G_____yAKGG______yADy_____yAsDy_____yASG_A14_A14_A14_QPGG_A16_QPGGQo_QPGGGQPGGGAUG_____yAJy_____ALGGGAWG_AByAoWGQPGSg_AEyAISiAByAByAByAByAQyAEyARSiADyAP______yAByAByAByA5_A_y_____GGA6_GA9_G_A18_Qo_QPGGGAUGAWGA27_yA11_yAAyA29_A29_GGGGAWGGQPGGAUGANGANGA55_G 7SwiftUI19_ConditionalContentV AA08ModifiedD0V AA6VStackV AA05TupleD0V AA7ForEachV AA10_ShapeViewV AA9RectangleV AA5ColorV AA12_FrameLayoutV AA6HStackV AA0K0PAAE11contextMenu9menuItemsQrqd__yXE_tAaVRd__lFQO AA4TextV AA05_FlexnO0V AA08_PaddingO0V AA30_EnvironmentKeyWritingModifierV AA0U9AlignmentO AA010_FixedSizeO0V AA01_dJ8ModifierV AA5GroupV AA0R0V AA6ButtonV AA19_BackgroundModifierV AA07RoundedL0V AwAEAxYQrqd__yXE_tAaVRd__lFQO 12CoreGraphics7CGFloatV
++ _symbolic _____y_____yAByABy_____y_____yADyAByAByAByACy_____ySaySi6offset_SaySSG7elementtGSiADyABy_____y__________G_____GSg______yAEySaySiAF_SSAHtGSiADyAP______yAByAByAByAByAByAByAByAByABy_____ANG_____G_____GAWGAWG_____y_____GGA_ySiSgGG_____G_____yAKGG______yADy_____yAsDy_____yASG_A14_A14_A14_QPGG_A16_QPGGQo_QPGGGQPGGGAUG_____yAJy_____ALGGGAWG_AByAoWGQPGSg_AEyAISiAByAByAByAByAQyAEyARSiADyAP______yAByAByAByA5_A_y_____GGA6_GA9_G_A18_Qo_QPGGGAUGAWGA27_yA11_y_____yA29_A29_GGGGAWGGQPGGAUGANGANGA56__G 7SwiftUI19_ConditionalContentV7StorageO AA08ModifiedD0V AA6VStackV AA05TupleD0V AA7ForEachV AA10_ShapeViewV AA9RectangleV AA5ColorV AA12_FrameLayoutV AA6HStackV AA0L0PAAE11contextMenu9menuItemsQrqd__yXE_tAaXRd__lFQO AA4TextV AA05_FlexoP0V AA08_PaddingP0V AA30_EnvironmentKeyWritingModifierV AA0V9AlignmentO AA010_FixedSizeP0V AA01_dK8ModifierV AA5GroupV AA0S0V AA6ButtonV AA19_BackgroundModifierV AA07RoundedM0V AyAEAZA_Qrqd__yXE_tAaXRd__lFQO 12CoreGraphics7CGFloatV AC
++ _symbolic _____y_____yAByABy_____y_____ySaySi6offset_SaySSG7elementtGSiAAyABy_____y__________G_____GSg______yADySaySiAE_SSAGtGSiAAyAO______yAByAByAByAByAByAByAByAByABy_____AMG_____G_____GAVGAVG_____y_____GGAZySiSgGG_____G_____yAJGG______yAAy_____yArAy_____yARG_A13_A13_A13_QPGG_A15_QPGGQo_QPGGGQPGGGATG_____yAIy_____AKGGGAVG_AByAnVGQPG 7SwiftUI12TupleContentV AA08ModifiedD0V AA6VStackV AA7ForEachV AA10_ShapeViewV AA9RectangleV AA5ColorV AA12_FrameLayoutV AA6HStackV AA0J0PAAE11contextMenu9menuItemsQrqd__yXE_tAaTRd__lFQO AA4TextV AA05_FlexmN0V AA08_PaddingN0V AA30_EnvironmentKeyWritingModifierV AA0T9AlignmentO AA010_FixedSizeN0V AA01_diZ0V AA5GroupV AA0Q0V AA6ButtonV AA011_BackgroundZ0V AA07RoundedK0V
++ _symbolic _____y_____yAByABy_____y_____ySaySi6offset_SaySSG7elementtGSiAAyABy_____y__________G_____GSg______yADySaySiAE_SSAGtGSiAAyAO______yAByAByAByAByAByAByAByAByABy_____AMG_____G_____GAVGAVG_____y_____GGAZySiSgGG_____G_____yAJGG______yAAy_____yArAy_____yARG_A13_A13_A13_QPGG_A15_QPGGQo_QPGGGQPGGGATG_____yAIy_____AKGGGAVG_AByAnVGQPGSg 7SwiftUI12TupleContentV AA08ModifiedD0V AA6VStackV AA7ForEachV AA10_ShapeViewV AA9RectangleV AA5ColorV AA12_FrameLayoutV AA6HStackV AA0J0PAAE11contextMenu9menuItemsQrqd__yXE_tAaTRd__lFQO AA4TextV AA05_FlexmN0V AA08_PaddingN0V AA30_EnvironmentKeyWritingModifierV AA0T9AlignmentO AA010_FixedSizeN0V AA01_diZ0V AA5GroupV AA0Q0V AA6ButtonV AA011_BackgroundZ0V AA07RoundedK0V
++ _symbolic _____y_____yAByABy_____y_____ySaySi6offset_SaySSG7elementtGSiAAyABy_____y__________G_____GSg______yADySaySiAE_SSAGtGSiAAyAO______yAByAByAByAByAByAByAByAByABy_____AMG_____G_____GAVGAVG_____y_____GGAZySiSgGG_____G_____yAJGG______yAAy_____yArAy_____yARG_A13_A13_A13_QPGG_A15_QPGGQo_QPGGGQPGGGATG_____yAIy_____AKGGGAVG_AByAnVGQPGSg_ADyAHSiAByAByAByAByAPyADyAQSiAAyAO______yAByAByAByA4_AZy_____GGA5_GA8_G_A17_Qo_QPGGGATGAVGA26_yA10_y_____yA28_A28_GGGGAVGGt 7SwiftUI12TupleContentV AA08ModifiedD0V AA6VStackV AA7ForEachV AA10_ShapeViewV AA9RectangleV AA5ColorV AA12_FrameLayoutV AA6HStackV AA0J0PAAE11contextMenu9menuItemsQrqd__yXE_tAaTRd__lFQO AA4TextV AA05_FlexmN0V AA08_PaddingN0V AA30_EnvironmentKeyWritingModifierV AA0T9AlignmentO AA010_FixedSizeN0V AA01_diZ0V AA5GroupV AA0Q0V AA6ButtonV AA011_BackgroundZ0V AA07RoundedK0V AuAEAvWQrqd__yXE_tAaTRd__lFQO 12CoreGraphics7CGFloatV AA012_ConditionalD0V
++ _symbolic _____y_____yABy_____yACyACyAAy_____ySaySi6offset_SaySSG7elementtGSiAByACy_____y__________G_____GSg______yADySaySiAE_SSAGtGSiAByAO______yACyACyACyACyACyACyACyACyACy_____AMG_____G_____GAVGAVG_____y_____GGAZySiSgGG_____G_____yAJGG______yABy_____yArBy_____yARG_A13_A13_A13_QPGG_A15_QPGGQo_QPGGGQPGGGATG_____yAIy_____AKGGGAVG_ACyAnVGQPGSg_ADyAHSiACyACyACyACyAPyADyAQSiAByAO______yACyACyACyA4_AZy_____GGA5_GA8_G_A17_Qo_QPGGGATGAVGA26_yA10_y_____yA28_A28_GGGGAVGGQPGG 7SwiftUI6VStackV AA12TupleContentV AA08ModifiedE0V AA7ForEachV AA10_ShapeViewV AA9RectangleV AA5ColorV AA12_FrameLayoutV AA6HStackV AA0J0PAAE11contextMenu9menuItemsQrqd__yXE_tAaTRd__lFQO AA4TextV AA05_FlexmN0V AA08_PaddingN0V AA30_EnvironmentKeyWritingModifierV AA0T9AlignmentO AA010_FixedSizeN0V AA01_eiZ0V AA5GroupV AA0Q0V AA6ButtonV AA011_BackgroundZ0V AA07RoundedK0V AuAEAvWQrqd__yXE_tAaTRd__lFQO 12CoreGraphics7CGFloatV AA012_ConditionalE0V
++ _symbolic _____y_____ySaySi6offset_SS7elementtGSi_____y_____y_____y__________G_____GSg______yAGyAGyAGyAGyAGyAGyAGyAGyAGy_____ALG_____G_____GASGASG_____y_____GGAWySiSgGG_____G_____yAIGG______yAFy_____yAoFy_____yAOG_A10_A10_A10_QPGG_A12_QPGGQo_QPGGG 7SwiftUI6HStackV AA7ForEachV AA12TupleContentV AA08ModifiedG0V AA10_ShapeViewV AA9RectangleV AA5ColorV AA12_FrameLayoutV AA0J0PAAE11contextMenu9menuItemsQrqd__yXE_tAaRRd__lFQO AA4TextV AA05_FlexmN0V AA08_PaddingN0V AA30_EnvironmentKeyWritingModifierV AA0S9AlignmentO AA010_FixedSizeN0V AA01_giY0V AA5GroupV AA0P0V AA6ButtonV
++ _symbolic _____y_____y_____AAy_____yACG_A3EQPGG_AGQPG 7SwiftUI12TupleContentV AA4MenuV AA4TextV AA6ButtonV
++ _symbolic _____y_____y_____G_A3DQPG 7SwiftUI12TupleContentV AA6ButtonV AA4TextV
++ _symbolic _____y_____y_____SgGG 7SwiftUI19_BackgroundModifierV AA6ZStackV AA5ColorV
++ _symbolic _____y_____y__________GAE_G 7SwiftUI19_ConditionalContentV7StorageO AA10_ShapeViewV AA16RoundedRectangleV AA5ColorV
++ _symbolic _____y_____y__________GG 7SwiftUI19_BackgroundModifierV AA10_ShapeViewV AA16RoundedRectangleV AA5ColorV
++ _symbolic _____y_____y__________G_____G 7SwiftUI15ModifiedContentV AA10_ShapeViewV AA9RectangleV AA5ColorV AA12_FrameLayoutV
++ _symbolic _____y_____y__________G_____GSg 7SwiftUI15ModifiedContentV AA10_ShapeViewV AA9RectangleV AA5ColorV AA12_FrameLayoutV
++ _symbolic _____y_____y__________G_____GSg______yAAyAAyAAyAAyAAyAAyAAyAAyAAyAAy_____AFG_____G_____GAMGAMG_____y_____GGAQySiSgGGAQy_____GG_____G_____yACGG______y_____y_____yAIA5_y_____yAIG_A8_A8_A8_QPGG_A10_QPGGQo_t 7SwiftUI15ModifiedContentV AA10_ShapeViewV AA9RectangleV AA5ColorV AA12_FrameLayoutV AA0F0PAAE11contextMenu9menuItemsQrqd__yXE_tAaLRd__lFQO AA4TextV AA05_FlexiJ0V AA08_PaddingJ0V AA30_EnvironmentKeyWritingModifierV AA0O9AlignmentO 12CoreGraphics7CGFloatV AA010_FixedSizeJ0V AA01_deU0V AA5GroupV AA05TupleD0V AA0L0V AA6ButtonV
++ _symbolic _____y_____y__________G_____GSg______yAAyAAyAAyAAyAAyAAyAAyAAyAAy_____AFG_____G_____GAMGAMG_____y_____GGAQySiSgGG_____G_____yACGG______y_____y_____yAIA2_y_____yAIG_A5_A5_A5_QPGG_A7_QPGGQo_t 7SwiftUI15ModifiedContentV AA10_ShapeViewV AA9RectangleV AA5ColorV AA12_FrameLayoutV AA0F0PAAE11contextMenu9menuItemsQrqd__yXE_tAaLRd__lFQO AA4TextV AA05_FlexiJ0V AA08_PaddingJ0V AA30_EnvironmentKeyWritingModifierV AA0O9AlignmentO AA010_FixedSizeJ0V AA01_deU0V AA5GroupV AA05TupleD0V AA0L0V AA6ButtonV
++ _symbolic _____y_____y__________G_____GSg______y_____ySaySi6offset_SS7elementtGSi_____yAH______yAAyAAyAAyAAyAAyAAyAAyAAyAAy_____AFG_____G_____GASGASG_____y_____GGAWySiSgGG_____G_____yACGG______yANy_____yAoNy_____yAOG_A10_A10_A10_QPGG_A12_QPGGQo_QPGGGt 7SwiftUI15ModifiedContentV AA10_ShapeViewV AA9RectangleV AA5ColorV AA12_FrameLayoutV AA6HStackV AA7ForEachV AA05TupleD0V AA0F0PAAE11contextMenu9menuItemsQrqd__yXE_tAaRRd__lFQO AA4TextV AA05_FlexiJ0V AA08_PaddingJ0V AA30_EnvironmentKeyWritingModifierV AA0S9AlignmentO AA010_FixedSizeJ0V AA01_deY0V AA5GroupV AA0P0V AA6ButtonV
++ _symbolic _____y_____y_____yACyAAyAAyAAyABy_____ySaySi6offset_SaySSG7elementtGSiACyAAy_____y__________G_____GSg______yADySaySiAE_SSAGtGSiACyAO______yAAyAAyAAyAAyAAyAAyAAyAAyAAy_____AMG_____G_____GAVGAVG_____y_____GGAZySiSgGG_____G_____yAJGG______yACy_____yArCy_____yARG_A13_A13_A13_QPGG_A15_QPGGQo_QPGGGQPGGGATG_____yAIy_____AKGGGAVG_AAyAnVGQPGSg_ADyAHSiAAyAAyAAyAAyAPyADyAQSiACyAO______yAAyAAyAAyA4_AZy_____GGA5_GA8_G_A17_Qo_QPGGGATGAVGA26_yA10_y_____yA28_A28_GGGGAVGGQPGGATG 7SwiftUI15ModifiedContentV AA6VStackV AA05TupleD0V AA7ForEachV AA10_ShapeViewV AA9RectangleV AA5ColorV AA12_FrameLayoutV AA6HStackV AA0J0PAAE11contextMenu9menuItemsQrqd__yXE_tAaTRd__lFQO AA4TextV AA05_FlexmN0V AA08_PaddingN0V AA30_EnvironmentKeyWritingModifierV AA0T9AlignmentO AA010_FixedSizeN0V AA01_diZ0V AA5GroupV AA0Q0V AA6ButtonV AA011_BackgroundZ0V AA07RoundedK0V AuAEAvWQrqd__yXE_tAaTRd__lFQO 12CoreGraphics7CGFloatV AA012_ConditionalD0V
++ _symbolic _____y_____y_____yACyACy_____y_____yAEyACyACyACyADy_____ySaySi6offset_SaySSG7elementtGSiAEyACy_____y__________G_____GSg______yAFySaySiAG_SSAItGSiAEyAQ______yACyACyACyACyACyACyACyACyACy_____AOG_____G_____GAXGAXG_____y_____GGA0_ySiSgGG_____G_____yALGG______yAEy_____yAtEy_____yATG_A15_A15_A15_QPGG_A17_QPGGQo_QPGGGQPGGGAVG_____yAKy_____AMGGGAXG_ACyApXGQPGSg_AFyAJSiACyACyACyACyARyAFyASSiAEyAQ______yACyACyACyA6_A0_y_____GGA7_GA10_G_A19_Qo_QPGGGAVGAXGA28_yA12_yAByA30_A30_GGGGAXGGQPGGAVGAOGAOGA56_GG 7SwiftUI10ScrollViewV AA19_ConditionalContentV AA08ModifiedF0V AA6VStackV AA05TupleF0V AA7ForEachV AA06_ShapeD0V AA9RectangleV AA5ColorV AA12_FrameLayoutV AA6HStackV AA0D0PAAE11contextMenu9menuItemsQrqd__yXE_tAaXRd__lFQO AA4TextV AA05_FlexoP0V AA08_PaddingP0V AA30_EnvironmentKeyWritingModifierV AA0V9AlignmentO AA010_FixedSizeP0V AA01_fL8ModifierV AA5GroupV AA0S0V AA6ButtonV AA19_BackgroundModifierV AA07RoundedM0V AyAEAZA_Qrqd__yXE_tAaXRd__lFQO 12CoreGraphics7CGFloatV
++ _symbolic _____y_____y_____ySaySi6offset_SS7elementtGSi_____yAAy_____y__________G_____GSg______yAAyAAyAAyAAyAAyAAyAAyAAyAAyAAy_____ALG_____G_____GASGASG_____y_____GGAWySiSgGGAWy_____GG_____G_____yAIGG______yAGy_____yAoGy_____yAOG_A13_A13_A13_QPGG_A15_QPGGQo_QPGGGAQG 7SwiftUI15ModifiedContentV AA6HStackV AA7ForEachV AA05TupleD0V AA10_ShapeViewV AA9RectangleV AA5ColorV AA12_FrameLayoutV AA0J0PAAE11contextMenu9menuItemsQrqd__yXE_tAaRRd__lFQO AA4TextV AA05_FlexmN0V AA08_PaddingN0V AA30_EnvironmentKeyWritingModifierV AA0S9AlignmentO 12CoreGraphics7CGFloatV AA010_FixedSizeN0V AA01_diY0V AA5GroupV AA0P0V AA6ButtonV
++ _symbolic _____y_____y_____ySaySi6offset_SaySSG7elementtGSi_____yAAy_____y__________G_____GSg______yACySaySiAD_SSAFtGSiAHyAO______yAAyAAyAAyAAyAAyAAyAAyAAyAAy_____AMG_____G_____GAVGAVG_____y_____GGAZySiSgGG_____G_____yAJGG______yAHy_____yArHy_____yARG_A13_A13_A13_QPGG_A15_QPGGQo_QPGGGQPGGGATG 7SwiftUI15ModifiedContentV AA6VStackV AA7ForEachV AA05TupleD0V AA10_ShapeViewV AA9RectangleV AA5ColorV AA12_FrameLayoutV AA6HStackV AA0J0PAAE11contextMenu9menuItemsQrqd__yXE_tAaTRd__lFQO AA4TextV AA05_FlexmN0V AA08_PaddingN0V AA30_EnvironmentKeyWritingModifierV AA0T9AlignmentO AA010_FixedSizeN0V AA01_diZ0V AA5GroupV AA0Q0V AA6ButtonV
++ _symbolic _____y_____y_____y_____ABy_____yADG_A3FQPGG_AHQPGG 7SwiftUI5GroupV AA12TupleContentV AA4MenuV AA4TextV AA6ButtonV
++ _symbolic _____y_____y_____y__________G_____GSg______yAByAByAByAByAByAByAByAByAByABy_____AGG_____G_____GANGANG_____y_____GGARySiSgGGARy_____GG_____G_____yADGG______yAAy_____yAjAy_____yAJG_A8_A8_A8_QPGG_A10_QPGGQo_QPG 7SwiftUI12TupleContentV AA08ModifiedD0V AA10_ShapeViewV AA9RectangleV AA5ColorV AA12_FrameLayoutV AA0G0PAAE11contextMenu9menuItemsQrqd__yXE_tAaNRd__lFQO AA4TextV AA05_FlexjK0V AA08_PaddingK0V AA30_EnvironmentKeyWritingModifierV AA0P9AlignmentO 12CoreGraphics7CGFloatV AA010_FixedSizeK0V AA01_dfV0V AA5GroupV AA0M0V AA6ButtonV
++ _symbolic _____y_____y_____y__________G_____GSg______yAByAByAByAByAByAByAByAByABy_____AGG_____G_____GANGANG_____y_____GGARySiSgGG_____G_____yADGG______yAAy_____yAjAy_____yAJG_A5_A5_A5_QPGG_A7_QPGGQo_QPG 7SwiftUI12TupleContentV AA08ModifiedD0V AA10_ShapeViewV AA9RectangleV AA5ColorV AA12_FrameLayoutV AA0G0PAAE11contextMenu9menuItemsQrqd__yXE_tAaNRd__lFQO AA4TextV AA05_FlexjK0V AA08_PaddingK0V AA30_EnvironmentKeyWritingModifierV AA0P9AlignmentO AA010_FixedSizeK0V AA01_dfV0V AA5GroupV AA0M0V AA6ButtonV
++ _symbolic _____y_____y_____y__________G_____GSg______y_____ySaySi6offset_SS7elementtGSiAAyAI______yAByAByAByAByAByAByAByAByABy_____AGG_____G_____GASGASG_____y_____GGAWySiSgGG_____G_____yADGG______yAAy_____yAoAy_____yAOG_A10_A10_A10_QPGG_A12_QPGGQo_QPGGGQPG 7SwiftUI12TupleContentV AA08ModifiedD0V AA10_ShapeViewV AA9RectangleV AA5ColorV AA12_FrameLayoutV AA6HStackV AA7ForEachV AA0G0PAAE11contextMenu9menuItemsQrqd__yXE_tAaRRd__lFQO AA4TextV AA05_FlexjK0V AA08_PaddingK0V AA30_EnvironmentKeyWritingModifierV AA0S9AlignmentO AA010_FixedSizeK0V AA01_dfY0V AA5GroupV AA0P0V AA6ButtonV
++ _symbolic _____y_____y_____y_____yAAyAAyAAy_____y_____yAEyAAyAAyAAyADy_____ySaySi6offset_SaySSG7elementtGSiAEyAAy_____y__________G_____GSg______yAFySaySiAG_SSAItGSiAEyAQ______yAAyAAyAAyAAyAAyAAyAAyAAyAAy_____AOG_____G_____GAXGAXG_____y_____GGA0_ySiSgGG_____G_____yALGG______yAEy_____yAtEy_____yATG_A15_A15_A15_QPGG_A17_QPGGQo_QPGGGQPGGGAVG_____yAKy_____AMGGGAXG_AAyApXGQPGSg_AFyAJSiAAyAAyAAyAAyARyAFyASSiAEyAQ______yAAyAAyAAyA6_A0_y_____GGA7_GA10_G_A19_Qo_QPGGGAVGAXGA28_yA12_yACyA30_A30_GGGGAXGGQPGGAVGAOGAOGA56_GG_Qo_AOG 7SwiftUI15ModifiedContentV AA4ViewPAAE16scrollIndicators_4axesQrAA25ScrollIndicatorVisibilityV_AA4AxisO3SetVtFQO AA0iE0V AA012_ConditionalD0V AA6VStackV AA05TupleD0V AA7ForEachV AA06_ShapeE0V AA9RectangleV AA5ColorV AA12_FrameLayoutV AA6HStackV AeAE11contextMenu9menuItemsQrqd__yXE_tAaDRd__lFQO AA4TextV AA05_FlexvW0V AA08_PaddingW0V AA30_EnvironmentKeyWritingModifierV AA13TextAlignmentO AA010_FixedSizeW0V AA01_dS8ModifierV AA5GroupV AA0Z0V AA6ButtonV AA19_BackgroundModifierV AA07RoundedT0V AeAEA6_A7_Qrqd__yXE_tAaDRd__lFQO 12CoreGraphics7CGFloatV
++ _symbolic _____y_____y_____y_____y__________GAGGGG 7SwiftUI19_BackgroundModifierV AA5GroupV AA19_ConditionalContentV AA10_ShapeViewV AA16RoundedRectangleV AA5ColorV
++ _symbolic _____y_____ypG s18_DictionaryStorageC So18NSTextTabOptionKeya
++ _symbolic _____yySpy_____Gz_SpySo8NSObjectCSgGSgzSpyypGSgztcG s23_ContiguousArrayStorageC s5UInt8V
++ _symbolic _____yypG s23_ContiguousArrayStorageC
++ _symbolic _____yyp_yptG s23_ContiguousArrayStorageC
++ _symbolic x
++ _symbolic ypSg_____Spy_____GIgnyy_ So8_NSRangeV 10ObjectiveC8ObjCBoolV
++ _symbolic ytSg
++ _symbolic ytSgIeAgHr_
++ _symbolic yt______pIgrzo_ s5ErrorP
++ _type_layout_string 23AccessibilityReaderData018AXRTableAttachmentC0V
++ _type_layout_string 23AccessibilityReaderData12ImageStyling33_1C518B187BE3089FF687A03DFB54E32DLLV
++ _type_layout_string 23AccessibilityReaderData15AXRImageContentV
++ _type_layout_string 23AccessibilityReaderData15AXRTableContentV
++ _type_layout_string 23AccessibilityReaderData15AXRTablePayloadV
++ _type_layout_string 23AccessibilityReaderData15AXRuntimeClientC16SentenceAnalysisV
++ _type_layout_string 23AccessibilityReaderData18AXRReaderURLSchemeO7PayloadV
++ _type_layout_string 23AccessibilityReaderData19AXRTextBlockElementV
++ _type_layout_string 23AccessibilityReaderData20AXRImageFilterConfigV
++ _type_layout_string 23AccessibilityReaderData20AXRMarkdownConverterC11AXRListItemV
++ _type_layout_string 23AccessibilityReaderData20AXRMarkdownConverterC14AXRListContextV
++ _type_layout_string 23AccessibilityReaderData20AXRuntimeClientErrorO
++ _type_layout_string 23AccessibilityReaderData21AXRFormatterConstantsV13DeviceContextV
++ _type_layout_string 23AccessibilityReaderData21AXRFormatterConstantsV17IndentationValuesV
++ _type_layout_string 23AccessibilityReaderData21AXRSummarizationModelC18SummarizationErrorO
++ _type_layout_string 23AccessibilityReaderData21AXRSummarizationModelC18SummarizationStateO
++ _type_layout_string 23AccessibilityReaderData21AXRTextBlockSelectionV
++ _type_layout_string 23AccessibilityReaderData22AXRTableAttachmentViewV
++ _type_layout_string 23AccessibilityReaderData22AXRTextBlockPropertiesV
++ _type_layout_string 23AccessibilityReaderData24AXRContentCleanupServiceC10SourceInfoV
++ _type_layout_string 23AccessibilityReaderData24AXRContentCleanupServiceC14CleanUpOptionsV
++ _type_layout_string SC24SummarizationClientErrorLeV
++ _type_layout_string So10NLLanguagea
++ _type_layout_string So16NSUnderlineStyleV
++ _type_layout_string So6CGRectV
++ _type_layout_string So6CGSizeV
++ _type_layout_string So8_NSRangeV
++ _vDSP_dotprD
++ _vDSP_svesqD
+- +[AXRImageDescriptorAppearance homeScreenService].cold.1
+- -[AXFocusManagerObjCBridge .cxx_destruct]
+- -[AXFocusManagerObjCBridge currentApplication]
+- -[AXFocusManagerObjCBridge focusManager]
+- -[AXFocusManagerObjCBridge init]
+- -[AXFocusManagerObjCBridge setFocusManager:]
+- _AXLogCommon
+- _OBJC_CLASS_$_AXFocusManager
+- _OBJC_CLASS_$_AXFocusManagerObjCBridge
+- _OBJC_IVAR_$_AXFocusManagerObjCBridge._focusManager
+- _OBJC_METACLASS_$_AXFocusManagerObjCBridge
+- __OBJC_$_INSTANCE_METHODS_AXFocusManagerObjCBridge
+- __OBJC_$_INSTANCE_VARIABLES_AXFocusManagerObjCBridge
+- __OBJC_$_PROP_LIST_AXFocusManagerObjCBridge
+- __OBJC_CLASS_RO_$_AXFocusManagerObjCBridge
+- __OBJC_METACLASS_RO_$_AXFocusManagerObjCBridge
+- __axEventHandler.cold.1
+- __swift_FORCE_LOAD_$_swiftCoreMedia
+- __swift_FORCE_LOAD_$_swiftCoreMedia_$_AccessibilityReaderData
+- __swift_FORCE_LOAD_$_swiftVideoToolbox
+- __swift_FORCE_LOAD_$_swiftVideoToolbox_$_AccessibilityReaderData
+- _associated conformance 23AccessibilityReaderData20AXRuntimeClientErrorOSHAASQ
+- _block_copy_helper.28
+- _block_copy_helper.35
+- _block_copy_helper.39
+- _block_copy_helper.43
+- _block_copy_helper.51
+- _block_copy_helper.55
+- _block_copy_helper.59
+- _block_copy_helper.63
+- _block_descriptor.30
+- _block_descriptor.37
+- _block_descriptor.41
+- _block_descriptor.45
+- _block_descriptor.53
+- _block_descriptor.57
+- _block_descriptor.61
+- _block_descriptor.65
+- _block_destroy_helper.29
+- _block_destroy_helper.36
+- _block_destroy_helper.40
+- _block_destroy_helper.44
+- _block_destroy_helper.52
+- _block_destroy_helper.56
+- _block_destroy_helper.60
+- _block_destroy_helper.64
+- _dispatch_semaphore_create
+- _objc_msgSend$currentApplication
+- _objc_msgSend$focusManager
+- _objc_msgSend$isMainThread
+- _objc_msgSend$setActive:error:
+- _objc_msgSend$updatedConfigurationType
+- _objc_release_x10
+- _objectdestroy.21Tm
+- _objectdestroyTm
+- _swift_projectBox
+- _symbolic SaySay_____GG 23AccessibilityReaderData12AXRTextBlockC
+- _symbolic SnySiG
+- _symbolic So21OS_dispatch_semaphoreC
+- _symbolic So24AXFocusManagerObjCBridgeC
+- _symbolic _____Sg 23AccessibilityReaderData020AXRTextCustomizationC0V
+- _symbolic _____Sgz_Xx 23AccessibilityReaderData14AXRTextContentV
+- _symbolic ______ypt s11AnyHashableV
+- _symbolic _____ySaySay_____GGG 7Combine9PublishedV 23AccessibilityReaderData12AXRTextBlockC
+- _symbolic _____ySaySay_____GG_G 7Combine9PublishedV9PublisherV 23AccessibilityReaderData12AXRTextBlockC
+- _symbolic _____ySi_G 7Combine9PublishedV9PublisherV
+- _symbolic _____ySnySiGG 7Combine9PublishedV
+- _symbolic _____ySnySiG_G 7Combine9PublishedV9PublisherV
+- _symbolic _____y_____G s15CollectionOfOneV 10Foundation12URLQueryItemV
+- _type_layout_string So21NSAttributedStringKeya
+CStrings:
++ "\nPath (if available): "
++ "      <td style=\"padding: 8px;\">"
++ "      <th style=\"padding: 8px; text-align: left; background-color: #f2f2f2;\">"
++ "      <th style=\"padding: 8px; text-align: left; font-weight: bold;\">"
++ "    </tr>\n  </tbody>\n"
++ "# A Traveler's Guide to the Amalfi Coast\n\n## Enhanced Tagged-Style PDF with Links Removed from Lists\n\nThe **Amalfi Coast**, located in *southern Italy*, is one of the most breathtaking coastal regions in the world. With steep cliffs, colorful villages, and sparkling blue waters, it offers travelers a ~~perfect~~ *awesome* blend of __relaxation__ and __adventure__.\n\n> You've gotta dance like there's nobody watching. Love like you'll never be hurt. Sing like there's nobody listening. And live like it's heaven on earth.\n> --  William W. Purkey\n\nThis article provides a structured and accessible breakdown of highlights, tips, and recommended experience. It includes paragraphs, lists, quotes, and tables—all fully tagged for clarity.\n\nWhether you're exploring the vibrant streets of [Positano](https://en.wikipedia.org/wiki/Positano) or the peaceful trails of [Ravello](https://en.wikipedia.org/wiki/Ravello), every corner of the coast promises something memorable.\n\n## Traveler Reflections\n\n> Traveling -- it leaves you speechless, then turns you into a storyteller.\n> -- Ibn Battuta\n\nWhether you're exploring the vibrant streets of [Positano](https://en.wikipedia.org/wiki/Positano) or the peaceful trails of [Ravello](https://en.wikipedia.org/wiki/Ravello), every corner of the coast promises something memorable.\n\n## Top Highlights of the Amalfi Coast\n\n-   Pastel-colored cliffsides of Positano.\n-   Fresh lemon groves and local limoncello.\n-   Boat rides on turquoise waters.\n-   Ancient cliff-side walking paths.\n\n## Travel Tips for First-Time Visitors\n\n1.  Visit during spring or early fall for ideal weather. Check local weather forecasts before you travel.\n2.  Wear supportive walking shoes---many steep steps.\n3.  Book your hotel **early**; rooms fill up fast and prices can rise during peak season and just checking here if it would work for multiple lines too. Do you think this has been fixed?\n4.  Use ferry boats or public transport to avoid [busy](https://en.wikipedia.org/wiki/Ravello) coastal road traffic.\n    \n## Nested Lists for Accessible PDF Export\n\n1. Plan your transportation to the coast\n2. Choose your accommodation style\n    1. Luxury hotels with sea views\n    2. Charming family-run bed & breakfasts\n        - Traditional Italian breakfast included\n        - Local recommendations from hosts\n3. Pack appropriately for the season\n    - Comfortable walking shoes for cobblestone streets\n\n### A few blockquotes to playwith\n#### Some Fun Heading Level Experiments\n##### So deep!\n\n> Pre-Trip Research & Booking\n>\n> Transportation Arrangements\n> > Book flights or train tickets\n> >\n> > Airport/station logistics\n>\n> Accommodation & Local Transport\n> > Reserve hotels or Airbnb\n> >\n> > Local transportation planning\n> >\n> > > Check-in online 24 hours before\n> > >\n> > > Download city transit apps\n> > >\n> > > Consider car rental needs\n>\n> Documentation & Health\n>\n> > Verify passport validity\n> >\n> > Travel insurance\n> >\n> > Health preparations\n> >\n\n###### Are you sure you can hear us!"
++ "%s: AXElement has nil uiElement for bundle ID: %s"
++ "%s: App AX not enabled. Will try enabling now"
++ "%s: Cannot setup application accessibility before getting system application. Error: %s"
++ "%s: Could not get system app after max attempts"
++ "%s: Got application PID: %d for bundle ID: %s"
++ "%s: Invalid PID (%d) for application with bundle ID: %s"
++ "%s: Not a valid pid for application with bundle id %s"
++ "%s: Retry %ld to get system application"
++ "%s: app AXElement has nil uiElement for bundle ID: %s"
++ "%s: bundleID=%s systemApp=%@"
++ "%s: host bundleID=%s was marked terminated (lastPid=%d) — throwing hostTerminated to break fetch loop"
++ "%s: host pid=%d ESRCH before fetch — terminating fetch loop. Dropping cached assertions and propagating hostTerminated."
++ "%s: kAXScrollToVisibleAction failed and host pid=%d is gone (ESRCH) — host terminated"
++ "%s: kAXScrollToVisibleAction failed for pid=%d; host appears alive"
++ "%s: kAXScrollToVisibleAction succeeded for pid=%d"
++ "%s: liveness probe ESRCH for pid=%d bundleID=%s — host process is gone"
++ "%s: liveness probe non-zero (errno=%d) for pid=%d bundleID=%s; treating as alive"
++ "%s: non-positive pid (%d) for bundleID=%s; rejecting (host appears terminated)"
++ "%s: pid (%d) matches Reader's own pid for bundleID=%s; rejecting (self-query)"
++ "%s: resolved bundleID=%s -> pid=%d"
++ "%s: uiElement is nil — skipping scroll"
++ "(?<!\\*)\\*([^*]+)\\*(?!\\*)"
++ "(?<!_)_([^_]+)_(?!_)"
++ ", Heading Level: "
++ ", List Element: "
++ "<table border=\"1\" style=\"border-collapse: collapse;\">\n"
++ "<table border=\"1\" style=\"border-collapse: collapse;\">\n  <tbody>\n"
++ "<table border=\"1\" style=\"border-collapse: collapse;\">\n  <tbody>\n    <tr>\n"
++ "A bright rainbow arches over thundering waterfalls, glowing through mist beneath a clear blue sky."
++ "AI availability changed: %{bool}d -> %{bool}d"
++ "AX Reader rejected URL: bundleID failed format validation"
++ "AX Reader rejected URL: text exceeds maximum size"
++ "AXAttributedString %@"
++ "AXBlockQuoteAttribution"
++ "AXBlockQuoteDividerPosition"
++ "AXBlockQuoteLevel"
++ "AXImageDataFormat"
++ "AXImageDataResizeHeight"
++ "AXImageDataResizeWidth"
++ "AXListItemPrefix"
++ "AXObserverAddNotification failed for notification %d with error: %ld"
++ "AXRTriggerToTextShown"
++ "AXReaderLaunchHelper: launch rejected for excluded bundleIdentifier: %s"
++ "AccessibilityReaderData/AXRContentCleanupService.swift"
++ "AccessibilityReadingUI.AXRUITextView"
++ "Accessing Environment<%s>'s value outside of being installed on a View. This will always read the default value and will not update."
++ "Acquiring new Fetching Content Assertion for PID: %d"
++ "Acquiring new Staying Alive Assertion for PID: %d"
++ "An iPhone camera interface in Photo mode capturing a close-up of a MacBook keyboard and screen on a desk."
++ "App PID (%d) matches Reader's own PID — refusing to self-query"
++ "AppleInterfaceStyle"
++ "Articles often include supporting imagery to illustrate key points. Medium-sized images work well for this purpose."
++ "Attempted to clean page %ld but only have %ld pages"
++ "Attempting recovery via remote parent"
++ "Camera icon for photography content"
++ "Cancelling summarization request"
++ "Cleared fetching content assertion for PID %d"
++ "Cleared staying alive assertion for PID %d"
++ "Comparisons, specifications"
++ "Completed automatic cleanup for %ld newly fetched pages: %s"
++ "Content Types Overview"
++ "Content marked as unsafe by safety classification"
++ "Content types overview table"
++ "ContentCleanup: %s skipped — AI model not available"
++ "ContentCleanup: %s skipped — using sample data"
++ "ContentCleanup: %s — deferred %ld page indices (pending=%ld)"
++ "ContentCleanup: PCC END   call=%s t=%fs"
++ "ContentCleanup: PCC START call=%s chars=%ld"
++ "ContentCleanup: executeCleanupWorkflow starting"
++ "ContentCleanup: finalizeCleanup — completed successfully, cleanedPageCount=%ld, useCleanedContent=%{bool}d"
++ "ContentCleanup: finalizeCleanup — task was cancelled"
++ "ContentCleanup: handleCancellation — clearing cache and resetting state"
++ "ContentCleanup: page[%ld] AI returned %ld chars (input was %ld)"
++ "ContentCleanup: page[%ld] PCC requestCancelled on attempt %ld/%ld — retrying after %ldms"
++ "ContentCleanup: page[%ld] PCC succeeded on attempt %ld/%ld"
++ "ContentCleanup: page[%ld] cleanup FAILED — returning original blocks. Error: %@"
++ "ContentCleanup: page[%ld] mapback produced %ld blocks (from %ld cleaned, %ld original)"
++ "ContentCleanup: page[%ld] pre-gate PASSED — proceeding with cleanup (length=%ld)"
++ "ContentCleanup: page[%ld] pre-gate SKIPPED cleanup — content does not qualify (length=%ld)"
++ "ContentCleanup: page[%ld] sending %ld chars to AI cleanup"
++ "ContentCleanup: page[%ld] using %s prompt (isAtDocumentStart=%{bool}d)"
++ "ContentCleanup: prefetch finished — draining %ld deferred page indices"
++ "ContentCleanup: shouldStartCleanup=false — behavior is .never"
++ "ContentCleanup: shouldStartCleanup=false — cleanup task already running"
++ "ContentCleanup: shouldStartCleanup=false — translation active"
++ "ContentCleanup: startContentCleaning skipped — shouldStartCleanup() returned false"
++ "ContentCleanup: startContentCleaning skipped — translation active (language=%s)"
++ "ContentCleanup: starting cleanup for %ld pages"
++ "ContentCleanup: storing %ld cleaned blocks for page %ld in cache (cacheCount will be %ld)"
++ "ContentCleanupService: %s prompt override is active. Swapping systemInstructionsID to .accessibilityDefault"
++ "ContentCleanupService: calling chat with instructionID=%s, inputLength=%ld"
++ "ContentCleanupService: chat returned %ld chars (input was %ld, delta=%ld)"
++ "ContentCleanupService: override prompt=%{sensitive}s"
++ "Contradictory frame constraints specified."
++ "Created text content for image element - isImage: %{bool}d, hasElement: %{bool}d, label: '%s'"
++ "Cross-process element detected: remote PID %d, saving opaque parent"
++ "Data organization"
++ "Did finish content mapback for page %ld. t=%fs"
++ "Dropping a hallucinated block: %s"
++ "Dropping intra-batch duplicate text content (len=%ld) — extraction artifact"
++ "Duplicate values for key: '"
++ "Failed to create text content from grouped elements: %@"
++ "Failed to speak text using CoreSynthesizer: %@"
++ "Fatal error"
++ "Fetch Content Assertion doesn't exist for PID: %d"
++ "Fetch content completed in %fs with %ld elements"
++ "Fetching Content assertion invalidated for PID %d: domain=%s code=%ld desc=%s userInfo=%s — removing from cache so next fetch can re-acquire"
++ "Found %ld elements and %ld strings to process for %s content"
++ "Found opaque provider at index %ld, breaking to fetch from it"
++ "Heart icon for likes"
++ "Here's a quick reference for choosing the right image size:"
++ "Hero content, featured"
++ "Host application terminated (PID "
++ "Icons, indicators"
++ "Image Size Guidelines"
++ "Image size guidelines table"
++ "Incorrect actor executor assumption; Expected same executor as "
++ "Large images are perfect for hero content and featured photos. They grab attention and set the visual tone for your article."
++ "Large photo icon representing image galleries"
++ "Main narrative content"
++ "Medium-sized images work well for supporting content and illustrations. They provide visual interest without overwhelming the text."
++ "Mixed Content Article"
++ "Next page returned no elements after turn %ld (%ld retries)"
++ "Opaque provider at index %ld is also a page turn element"
++ "Opaque provider batch: %ld elements (total: %ld)"
++ "Opaque provider detected, fetching all elements from it"
++ "Opaque provider exhausted after %ld elements"
++ "Optional<LegibilityWeight>"
++ "Page turn %ld: got %ld elements (total: %ld)"
++ "Page turn %ld: got elements on retry %ld"
++ "Page turn failed, no more pages (turned %ld pages)"
++ "Page turn returned same content, stopping (turned %ld pages)"
++ "Page turn succeeded, refreshing cache and re-fetching content"
++ "Page turn succeeded, waiting %fs for new page to render"
++ "Page turn: new page has opaque provider, fetching through it"
++ "Paragraphs, descriptions"
++ "Photos, icons, graphics"
++ "Reader did receive error for summary: %@"
++ "Reader did receive summary"
++ "Reader did request summary- w entitlement + nil"
++ "Reader summarization available"
++ "Reader summarization restricted"
++ "Reader summarization unavailable"
++ "Remote first-elements returned %ld elements"
++ "Remote next-elements returned %ld elements"
++ "SOURCE INFO\nBundle ID: "
++ "Sample Article for Testing Formatting"
++ "Section titles, subheadings"
++ "Skipping element at index %ld - AXUIElementGetPid failed (error: %d, pid: %d)"
++ "Skipping element at index %ld - could not create AXUIElement"
++ "Skipping element at index %ld - element belongs to Reader's own process (pid %d)"
++ "Skipping element group due to accessibility error: %@"
++ "Skipping markdown table content: %s"
++ "Skipping opaque element at index %ld"
++ "Skipping scroll-to-visible: opaque provider exhausted"
++ "Small icons are great for inline decorations and visual indicators. They add personality without distracting from the main content."
++ "Small icons can serve as visual indicators throughout your content:"
++ "Stall recovery: all %ld alternatives stuck; declaring fetch result empty"
++ "Stall recovery: candidate #%ld advanced cursor"
++ "Stall recovery: candidate #%ld parent advanced cursor"
++ "Stall recovery: candidate #%ld threw: %@"
++ "Stall recovery: no alternative candidates available on trailing page (blocks=%ld, refsKept=%ld)"
++ "Stall recovery: trying %ld alternative cursor candidate(s) for direction %s (trailingPage blocks=%ld, refsKept=%ld)"
++ "Starting summarization request - external intelligence: %{bool}d"
++ "Staying Alive Assertion doesn't exist for PID: %d"
++ "Staying Alive assertion invalidated for PID %d: domain=%s code=%ld desc=%s userInfo=%s — removing from cache so next fetch can re-acquire"
++ "Structure and organization"
++ "Summarization completed successfully"
++ "Summarization failed"
++ "Summarization failed with error: %s"
++ "Summarization failed: %s"
++ "SummarizationClientError code: %ld"
++ "Supporting Content"
++ "Supporting images"
++ "Swift/NativeDictionary.swift"
++ "Switched to remote element (PID %d), using kAXNextElementsForSpeakThisAttribute"
++ "Tables are a great way to organize comparative information and make it easy to scan."
++ "The Accessibility Reader handles all these content types automatically, ensuring proper formatting, spacing, and accessibility support."
++ "The article describes Apple's new design language, Liquid Glass, which aims to create a unified visual theme across Apple's operating systems. Liquid Glass features a fluid, dynamic glass-like interface that reflects and refracts the background, creating a sense of depth and hierarchy. The design incorporates elements that adapt to their environment, such as automatically adjusting transparency based on the device's movement."
++ "This sample article demonstrates how text, headers, images, and tables can be mixed together to create engaging, accessible content."
++ "This sample article demonstrates text, headers, and images all mixed together. It showcases how the Accessibility Reader handles various content types seamlessly."
++ "UIAccessibilitySpeakThisIdentifier"
++ "Unknown direction, defaulting to append"
++ "Visual Indicators"
++ "Visual illustration"
++ "WebImage: CGImage conversion succeeded, image=%fx%f"
++ "WebImage: detected image element, pid=%d, label='%s'"
++ "WebImage: fallback kAXImageDataAttribute returned %ld bytes"
++ "WebImage: fullSize=%fx%f"
++ "WebImage: kAXImageDataSizeAttribute result isNil=%{bool}d, label='%s'"
++ "WebImage: no image data available"
++ "\\[([^\\]]+)\\]\\(([^\\)]+)\\)"
++ "^(#{1,6})\\s+(.+)$"
++ "^(?i)[ivxlcdm]+\\.\\s*"
++ "^(?i)[ivxlcdm]+\\s+"
++ "^(\\d+)\\.\\s+(.+)$"
++ "^[a-zA-Z0-9.-]+$"
++ "accessibility-reader-fetch-queue"
++ "accessibility.readerAI"
++ "addAssertionsFor(app:bundleID:)"
++ "attr : %s"
++ "axAccessibilityLabel"
++ "axr.summary.error.privacy"
++ "axr.summary.error.server"
++ "axr.summary.error.tooLong"
++ "axr.summary.error.tooShort"
++ "axr.table.attachment.copy"
++ "axr.table.attachment.speak"
++ "axr.table.cell.announcement"
++ "axr.table.cell.column"
++ "axr.table.cell.empty"
++ "axr.table.cell.empty.content"
++ "axr.table.cell.header"
++ "axr.table.cell.row"
++ "axr.table.column"
++ "axr.table.headers"
++ "axr.table.row.number"
++ "bundleID: %s"
++ "cleanAllPages page 0"
++ "clearHostTerminated: bundleID=%s (was lastPid=%d) — host has returned, resuming normal classification"
++ "columnCount"
++ "columnLocation"
++ "compact"
++ "currentAppArticle: bundleID=%s, isAtDocumentStart=%{bool}d, isAtDocumentEnd=%{bool}d"
++ "currentAppTextContent failed: %@. Returning empty text content array"
++ "currentFocusedApplication: resolved %s via defaultSystemShellFocusedApplicationWithOptions"
++ "defaultSystemShellFocusedApplicationWithOptions returned nil, falling back to defaultSystemShellCurrentApplications"
++ "drainPendingCleanupAfterPrefetch"
++ "fetchContentFrom(app:in:using:isInitialFetch:)"
++ "fetchContentIn(direction:bundleID:currentElement:isInitialFetch:)"
++ "fetchContentInOnQueue(direction:bundleID:currentElement:isInitialFetch:)"
++ "fetchContentOutcomeIn: host terminated (pid=%d, bundleID=%s) — returning .hostTerminated to stop prefetch loop"
++ "fetchContentSync(app:in:using:isInitialFetch:)"
++ "forceNoContentCleanup"
++ "getApplicationUsingBundleIdentifier(_:)"
++ "hasCellColumnHeaders"
++ "hasCellRowHeaders"
++ "isAppAtDocumentEnd: no element with valid scroll area found, assuming not at end"
++ "isAppAtDocumentEnd: visibleVerticalScrollArea start=%f, visible=%f"
++ "isAppAtDocumentStart: no element with valid scroll area found, assuming start"
++ "isAppAtDocumentStart: visibleVerticalScrollArea start=%f, visible=%f"
++ "isAtDocumentStart"
++ "isImage"
++ "isTableElement"
++ "large"
++ "markHostTerminated: bundleID=%s lastPid=%d — fetches for this bundle will now throw hostTerminated"
++ "medium"
++ "mini"
++ "placeholder://link"
++ "public.tab-separated-values-text"
++ "public.utf8-plain-text"
++ "range : %s"
++ "registerTableAttachmentViewProvider:"
++ "requestCancelled"
++ "requireSystemApp"
++ "rowCount"
++ "rowLocation"
++ "scrollElementToVisible(_:)"
++ "serverOrConnectivity"
++ "shouldStartCleanup"
++ "speak: paragraphIndex %ld out of range for page %ld with %ld blocks"
++ "summarization.accessibilityReader"
++ "translateAttributedString(_:sourceLocale:targetLocale:sessionID:blockIndex:)"
++ "translateSingleToken(_:sourceLocale:targetLocale:sessionID:uniqueID:isFinal:)"
++ "triggerCleanupForNewlyFetchedContent"
++ "validateAndTrackHost(app:bundleID:)"
++ "⚠️ Could not find UITextView in view hierarchy. Parent view: %s"
++ "⚠️ Could not register with text view. Found class: %{bool}d, text view class: %s"
++ "⚠️ Text view doesn't respond to registerTableAttachmentViewProvider:"
++ "❌ Failed to load image '%s' from any bundle"
++ "📋 attachmentBounds called with nil textContainer"
+- " isListElement : "
+- "$__lazy_storage_$_totalCharacterCount"
+- ", Heading Level : "
+- ".cxx_destruct"
+- "@\"AXElement\""
+- "@\"AXFocusManager\""
+- "@\"NSArray\""
+- "@\"NSRunLoop\""
+- "@16@0:8"
+- "@56@0:8@16@24@32@?40^@48"
+- "@?"
+- "@?16@0:8"
+- "AXAppNameForBundleId : %s"
+- "AXElement has nil uiElement for bundle ID: %s"
+- "AXFocusManagerObjCBridge"
+- "AXObserverWrapper"
+- "AXRImageDescriptorAppearance"
+- "About to acquire RunningBoard assertion for PID %d"
+- "About to acquire fetching content assertion for PID %d"
+- "Accessing Environment's value outside of being installed on a View. This will always read the default value and will not update."
+- "Added %ld %s content blocks"
+- "Added %s content: %s"
+- "Cannot setup application accessibility before getting system application. Error: %s"
+- "Failed to acquire RunningBoard assertion: %s"
+- "Failed to acquire fetching content assertion: %s"
+- "Fetching Content Assertion already exists for PID: %d"
+- "Found %ld elements to fetch for %s content"
+- "Got application PID: %d for bundle ID: %s"
+- "Got bundleID %s"
+- "Got system application : %@"
+- "Invalid PID (%d) for application with bundle ID: %s"
+- "Marked next element as first since current first element had empty text"
+- "Marked previous element as last since current last element had empty text"
+- "No %s content available - may have reached end of content"
+- "No initial accessible elements found - app may not support accessibility or content may not be ready"
+- "No initial text content found - app may not have accessible text or content may not be loaded"
+- "Not a valid pid for application with bundle id %s"
+- "Retry %ld to get system application"
+- "ScrollToVisible action failed"
+- "ScrollToVisible action succeeded"
+- "ScrollToVisible failed: uiElement is nil"
+- "Skipping element at index %ld - AXElement has nil uiElement"
+- "Skipping element due to accessibility error: %@"
+- "Staying Alive Assertion already exists for PID: %d"
+- "System application is nil, try to turn on application accessibility."
+- "System application is still nil after enabling accessibility and retrying"
+- "T@\"AXElement\",&,N,V_systemElement"
+- "T@\"AXElement\",R,N"
+- "T@\"AXFocusManager\",&,N,V_focusManager"
+- "T@\"NSArray\",&,N,V_notifications"
+- "T@\"NSRunLoop\",&,N,V_runloop"
+- "T@?,C,N,V_handler"
+- "T^{__AXObserver=},&,N,V_observer"
+- "Text Content : %s"
+- "UIColor"
+- "^{__AXObserver=}"
+- "^{__AXObserver=}16@0:8"
+- "_$observationRegistrar"
+- "_TtC23AccessibilityReaderData12AXRTextBlock"
+- "_TtC23AccessibilityReaderData15AXRBlockManager"
+- "_TtC23AccessibilityReaderData15AXRuntimeClient"
+- "_TtC23AccessibilityReaderData20AXRNowPlayingManager"
+- "_TtC23AccessibilityReaderData20AXReaderLaunchHelper"
+- "_TtC23AccessibilityReaderData21AXRTextFormatterModel"
+- "_TtC23AccessibilityReaderData22AXRViewInReaderService"
+- "_TtC23AccessibilityReaderData22IRSpeechFormatterModel"
+- "_TtC23AccessibilityReaderData23AXRTextStylingFormatter"
+- "_TtC23AccessibilityReaderData30AXRTextFormatterPresetsManager"
+- "__swift_objectForKeyedSubscript:"
+- "__userPrefFontPointSize"
+- "_attributedBlockText"
+- "_blockIndex"
+- "_blockManager"
+- "_blockText"
+- "_charSpacing"
+- "_charSpacingOption"
+- "_characterCount"
+- "_containsSelection"
+- "_contentWidthRegular"
+- "_customLinkColor"
+- "_customReaderBackgroundColor"
+- "_customSelectedTextColor"
+- "_defaultFontPointSize"
+- "_dynamicTypeSize"
+- "_estimatedWPM"
+- "_focusManager"
+- "_fontName"
+- "_fontVariantName"
+- "_handler"
+- "_hasBeenSpokenBefore"
+- "_headingLevel"
+- "_highLegibility"
+- "_highlightColor"
+- "_highlightEnabled"
+- "_highlightFollowsTextColor"
+- "_highlightStyle"
+- "_id"
+- "_indexPath"
+- "_isEnabled"
+- "_isHeader"
+- "_isLink"
+- "_isListElement"
+- "_isRTL"
+- "_languageRanges"
+- "_lastNonCustomTheme"
+- "_legibilityWeight"
+- "_lineSpacing"
+- "_lineSpacingOption"
+- "_marginSpacingOption"
+- "_modelName"
+- "_needsRefresh"
+- "_notifications"
+- "_nowPlayingRequestScrollPositionUpdate"
+- "_observer"
+- "_pages"
+- "_playbackSpeed"
+- "_preferredSpeakingLanguage"
+- "_presets"
+- "_presetsManager"
+- "_runloop"
+- "_selectedLocalTextRange"
+- "_selectedTheme"
+- "_showLinks"
+- "_showPlayer"
+- "_speechInProgress"
+- "_speechState"
+- "_systemDynamicTypeSize"
+- "_systemElement"
+- "_textBold"
+- "_theme"
+- "_themeReaderBackgroundColor"
+- "_themeSelectedTextColor"
+- "_visibleChunkCharacterOffset"
+- "_visibleChunkRange"
+- "_visiblePages"
+- "_wordSpacing"
+- "_wordSpacingOption"
+- "acquireWithInvalidationHandler:"
+- "addAttribute:value:range:"
+- "addAttributes:range:"
+- "addTargetWithHandler:"
+- "allowNotification"
+- "appearance"
+- "appearanceVariant"
+- "appendAttributedString:"
+- "arrayWithAXAttribute:"
+- "article"
+- "articles"
+- "attributeWithDomain:name:"
+- "attributedSubstringFromRange:"
+- "axElement"
+- "axObserver"
+- "ax_errorWithDomain:description:"
+- "blackColor"
+- "blockManager"
+- "blocksWithTypes:inRegion:"
+- "bundleID : %s"
+- "bundleId"
+- "bundleWithIdentifier:"
+- "changePlaybackPositionCommand"
+- "characterDirectionForLanguage:"
+- "colorWithAlphaComponent:"
+- "commandCenter"
+- "configuration"
+- "countByEnumeratingWithState:objects:count:"
+- "currentApplication"
+- "currentApplications"
+- "currentElement has nil uiElement in fetchContentFrom"
+- "currentElement is %@"
+- "currentElement is nil, getting initial elements from the current App instead."
+- "currentLanguageCode"
+- "currentTraitCollection"
+- "darkGrayColor"
+- "dataForKey:"
+- "dealloc"
+- "defaultCenter"
+- "defaultPresets"
+- "defaultWPM"
+- "defaultWorkspace"
+- "dialect"
+- "elementForAttribute:parameter:"
+- "explanation"
+- "extent"
+- "familyNames"
+- "fetchingContentAssertions"
+- "filterWithName:withInputParameters:"
+- "firstMatchInString:options:range:"
+- "focusManager"
+- "fontDescriptor"
+- "fontDescriptorByAddingAttributes:"
+- "fontDescriptorWithDesign:"
+- "fontDescriptorWithSymbolicTraits:"
+- "fontWithDescriptor:size:"
+- "fontWithName:size:"
+- "getCFRunLoop"
+- "getRed:green:blue:alpha:"
+- "getTranscript"
+- "getWhite:alpha:"
+- "handler"
+- "hasAnyTraits:"
+- "homeScreenIconStyleConfiguration"
+- "homeScreenService"
+- "imageAppearanceForColor"
+- "init"
+- "initForTextStyle:"
+- "initWithAXUIElement:"
+- "initWithAttributedString:"
+- "initWithCGColor:"
+- "initWithCGRect:"
+- "initWithContent:"
+- "initWithExplanation:target:attributes:"
+- "initWithImage:"
+- "initWithRed:green:blue:alpha:"
+- "initWithString:"
+- "initWithSuiteName:"
+- "initWithSystemElement:runloop:notifications:handler:error:"
+- "initWithTypes:error:"
+- "initWithUnsignedInteger:"
+- "intValue"
+- "invalidate"
+- "isInitializing"
+- "isMainThread"
+- "isPaused"
+- "isScreenLockedWithPasscode:"
+- "isSpeaking"
+- "isVisible"
+- "labelColor"
+- "length"
+- "lineHeight"
+- "localizedStringForKey:value:table:"
+- "logger"
+- "mutableCopy"
+- "notificationHandlers"
+- "notifications"
+- "nowPlayingInfo"
+- "numberWithAXAttribute:"
+- "objectWithAXAttribute:"
+- "observer"
+- "openSensitiveURL:withOptions:"
+- "outputImage"
+- "pauseCommand"
+- "performAXAction:withValue:"
+- "pid"
+- "playCommand"
+- "playbackSpeed"
+- "playbackState"
+- "pointSize"
+- "positionTime"
+- "preferredContentSizeCategory"
+- "preferredFontDescriptorWithTextStyle:"
+- "preferredFontForTextStyle:"
+- "preferredLanguage"
+- "presetsKey"
+- "previousAppName"
+- "q16@0:8"
+- "q16@?0@\"MPRemoteCommandEvent\"8"
+- "range"
+- "rangeOfString:options:range:"
+- "rectWithAXAttribute:"
+- "render:toBitmap:rowBytes:bounds:format:colorSpace:"
+- "runloop"
+- "scaledFontForFont:"
+- "scaledValueForValue:"
+- "scanHexLongLong:"
+- "selectedDarkAppearanceThemeKey"
+- "selectedLightAppearanceThemeKey"
+- "selectedThemeKey"
+- "server"
+- "setActive:error:"
+- "setActive:withOptions:error:"
+- "setAlignment:"
+- "setBaseWritingDirection:"
+- "setCategory:error:"
+- "setEnabled:"
+- "setFirstLineHeadIndent:"
+- "setFocusManager:"
+- "setHandler:"
+- "setHeadIndent:"
+- "setLineHeightMultiple:"
+- "setNotifications:"
+- "setNowPlayingInfo:"
+- "setObject:forKey:"
+- "setObserver:"
+- "setParagraphSpacing:"
+- "setParagraphSpacingBefore:"
+- "setPlaybackState:"
+- "setPreferredIntervals:"
+- "setRunloop:"
+- "setSystemElement:"
+- "sharedApplication"
+- "sharedCommandCenter"
+- "shouldShowNowPlayingControls"
+- "shouldUseDarkModeTheme"
+- "sizeWithAttributes:"
+- "skipBackwardCommand"
+- "skipForwardCommand"
+- "sleepForTimeInterval:"
+- "speakThisString"
+- "specificLanguageID"
+- "speechSkippingInProgress"
+- "standardUserDefaults"
+- "stayingAliveAssertions"
+- "store"
+- "string"
+- "stringForKey:"
+- "synth"
+- "systemApplication"
+- "systemBlueColor"
+- "systemElement"
+- "systemFontOfSize:weight:"
+- "systemGray5Color"
+- "systemGray6Color"
+- "systemWideElement"
+- "tagContent"
+- "tags"
+- "target"
+- "targetWithPid:"
+- "timeIntervalSinceReferenceDate"
+- "tintColor"
+- "togglePlayPauseCommand"
+- "uiElement"
+- "unsignedLongLongValue"
+- "updatedConfigurationType"
+- "useAXRuntimeFetch"
+- "userInterfaceStyle"
+- "v16@0:8"
+- "v20@?0i8@12"
+- "v24@0:8@16"
+- "v24@0:8@?16"
+- "v24@0:8^{__AXObserver=}16"
+- "v24@?0@\"RBSAssertion\"8@\"NSError\"16"
+- "v48@0:8@16@24@32@40"
+- "variant"
+- "viewInReader:"
+- "viewInReaderWithAppName:bundleID:content:title:"
+- "visibleElements"
+
+```

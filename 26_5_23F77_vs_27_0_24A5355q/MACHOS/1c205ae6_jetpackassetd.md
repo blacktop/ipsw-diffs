@@ -1,0 +1,332 @@
+## jetpackassetd
+
+> `/System/Library/PrivateFrameworks/JetCore.framework/Support/jetpackassetd`
+
+```diff
+
+-9.5.5.0.0
+-  __TEXT.__text: 0xaa948 sha256:7a84d2b89dcbcb97cef28df04af23030e281b970936df36b3997d91e8517723a
+-  __TEXT.__auth_stubs: 0x2a30 sha256:86cdd9e44f3c84581b56b9c2ebe2152ef093de214d34c800d9fcd9085ecaa558
+-  __TEXT.__objc_stubs: 0xa60 sha256:763bb0712942bc954f8c56feb051ac5fe6529ba6382f9fc850f859055c0d4b50
+-  __TEXT.__objc_methlist: 0x1fc sha256:82d4261b400af8009d4bac6d061a850a580f5a76ac127b57e25467db3861f83e
+-  __TEXT.__const: 0x3c58 sha256:d0846cb5454a24fb6e18ba3de589a39f2428f7cfaef23536546c80e7196f9b54
+-  __TEXT.__swift5_typeref: 0x1133 sha256:e47fda532c13d26c5930336d30aa4723ca8fa2fac97a805a2ba4f98912ce549c
+-  __TEXT.__cstring: 0x5994 sha256:3061980756a43d11e4716f5e6effab51a4ae65522edb651f903225793ecc6aa0
+-  __TEXT.__swift5_entry: 0x8 sha256:5e8d438cfa56db83ebf9aad2b6477469bac161b3f511d6fea76291068c43221a
+-  __TEXT.__constg_swiftt: 0x10a4 sha256:67de52070f2f01ea1b6d2e3e8082b098ada857ffa4c79b09366a39972538381b
+-  __TEXT.__swift5_builtin: 0x50 sha256:57fd734ef94f857d5020fdecbfb24492bfbb752b4603bcf179ae57924a92b671
+-  __TEXT.__swift5_reflstr: 0xedc sha256:01b436cfafef1a82e65cf6ab8abdd400b3f41337f479f865f5621898a564be07
+-  __TEXT.__swift5_fieldmd: 0x124c sha256:12a6870cd84d127e9a46a0e48d23da7d3d37d974812e3d84fd441e82c0d37216
+-  __TEXT.__swift5_types: 0x16c sha256:0afdb9c09e1a2fe9c5d09a3fcfc84dd58914467a51e4db8e7d46f6dde97b8620
++10.0.33.0.0
++  __TEXT.__text: 0xb0da4 sha256:e019f682a389f7cbe7d26535667f5caa34ca3d63f073d3c32fe79d3000d61133
++  __TEXT.__auth_stubs: 0x2e70 sha256:2fa971e8f2624edce18f008e47b886040718367f6449e749c437ce8f10fe6095
++  __TEXT.__objc_stubs: 0xac0 sha256:9770f8b8e278c782167206e7b069292eee0bc5b7eb15e38c7b7730a932d3962e
++  __TEXT.__objc_methlist: 0x1fc sha256:59b977c5a84d27a88bea98aac9dd7d3dd5021bbc491f25df0b3fd4def03725e3
++  __TEXT.__const: 0x3d30 sha256:f9b0de25e7f20c0238f5c76f97313df658025984f512c74e00ad0caaf73df782
++  __TEXT.__swift5_typeref: 0x11db sha256:4ff41898b257a6a110665ceddb08910446e2b87d496e056acd45b3d093039aba
++  __TEXT.__cstring: 0x5dd4 sha256:6a6c121db40d5fe0f4b2d27ff97c0ed2fb980d292e810c675cacfcfd12b5f657
++  __TEXT.__swift5_entry: 0x8 sha256:b75598b9aad0e63178b4dc68f976c8475d658545a9bcbd1bc88c66a3a099e6e2
++  __TEXT.__constg_swiftt: 0x10cc sha256:b8ae1b1b4ddbb64e7e760e29e01ac8a5724e61d493c6c3d388c4d53f7a340ee0
++  __TEXT.__swift5_builtin: 0x50 sha256:06e660179d5ece1d23b4688b9bc4b8841f1beb5cad3db721827f5b81edfb1847
++  __TEXT.__swift5_reflstr: 0xf18 sha256:a516415c3d5f435315b61e152ee4e38e283f00636e8f03a1070ab5b682d65f61
++  __TEXT.__swift5_fieldmd: 0x1274 sha256:90009adda2b95cbca8e7ef46a5b6971f1f2aeb15a3842dd4c777c14d9355d830
++  __TEXT.__swift5_types: 0x170 sha256:9e32be0342d08c4d624db1f0af5fc9ed1effcda9bde265861ca738bebca4c255
+   __TEXT.__objc_classname: 0x1bb sha256:48e01b172947240d878a7eb6eba176e290fe66e0acff758183e7c7902a58ef76
+-  __TEXT.__objc_methname: 0xe3e sha256:cec68f1090fe4e779c808c0b643645be0488c07d57d341175e0b25eb9ae1783e
+-  __TEXT.__swift_as_entry: 0x228 sha256:fe4f9e4e7c5eebd2f302b4a0f5e0890dc844e508460c5daaa28c663eca80e4ee
+-  __TEXT.__swift_as_ret: 0x500 sha256:6aa32ebd968e72788325d4620ac76650a4fa454c2550e0defc80133a57908868
+-  __TEXT.__swift5_capture: 0x348 sha256:fe34eeb8321254d351ef34ac2483361d8463b227a784ee62db1f522fc7ea6ed0
+-  __TEXT.__swift5_protos: 0x54 sha256:871d295ea16201b47392a4a0cf4335fa4aa3284e1ff4b8dbeed6e6b52a46cf10
+-  __TEXT.__swift5_proto: 0x26c sha256:aa94b235b0a5be411badfd010cfe225c1a47b04d84a3946bb56475a14affb2ad
+-  __TEXT.__swift5_assocty: 0x320 sha256:7f5f2903c8a89caf101b720b97e44a1aad10de0f8d31850c94013d5a5a8067be
+-  __TEXT.__swift5_mpenum: 0x10 sha256:ef303f9d29f107409d90a15c7184cd776eb4566838baf74eae86c822d22e5136
++  __TEXT.__objc_methname: 0xe6e sha256:d716e8d531479699253a9e8dc36d7617f8cbc0acee1bd4ea7b39a6d3b07b11be
++  __TEXT.__swift_as_entry: 0x234 sha256:421525d50f0cf7ffe85456b3e754f89bfade5efca1321db7b12c83b69e359e55
++  __TEXT.__swift_as_ret: 0x518 sha256:738c62ef8d03129c36a000bd0259225c8f6fc0e6060af581a38e7a70f7e28c56
++  __TEXT.__swift_as_cont: 0x8d4 sha256:aa1c40e5af3e1a4137c9241e682ecd3b9ddd8f60dc459239bd142b3459033fe3
++  __TEXT.__swift5_capture: 0x414 sha256:5f633f316e6516c4b8ad9660d131b31ed07dc3e1bd8663d70ae3341c8c247416
++  __TEXT.__swift5_protos: 0x54 sha256:0d0ff226e932f6f145eaac273f0d651b4ec45f9e883f360a1bc105a4dc2a0167
++  __TEXT.__swift5_proto: 0x270 sha256:d9bb14437aea1078335c53420da64e32f6619edb32b07b72d4612997817800a0
++  __TEXT.__swift5_assocty: 0x338 sha256:1ae5c58e42ef69c171f434982f2bda6e1fe06e533a547cc8d45c4b047cb75580
++  __TEXT.__swift5_mpenum: 0x10 sha256:14edf291b9c6c4f5809a0c3ebd2b45a61ddda8d8dfa6440b53821589c1840de1
+   __TEXT.__objc_methtype: 0x3e8 sha256:da71a05ba6b63bbd5ed8e9070eca8b3274d628ea0a13485ffd9e333aeca2b5cf
+-  __TEXT.__unwind_info: 0x2918 sha256:077eddb37cdf5b66a4420c3b332a450afe15103ed178847668f71c2a9a61d64f
+-  __TEXT.__eh_frame: 0x86e0 sha256:7b062825542c18be230b50556ad812b3e50cea6971315d14d239f4cde32bea62
+-  __DATA_CONST.__auth_got: 0x1520 sha256:3952931eb2e408c5e829139def38125f6b67b3430d870958a3d2eca569ca9c95
+-  __DATA_CONST.__got: 0x718 sha256:747d5549fb7e90e8caf2be6506ae9e40d01cb5058dda22ee3f8225d43dde1dad
+-  __DATA_CONST.__auth_ptr: 0x718 sha256:aaa59b4a345032834812f487af7181d85bf26c36ed76fbe35471866e36b1112a
+-  __DATA_CONST.__const: 0x2ce0 sha256:fac39aeac6f6f846a46373aad03588b0cae048ed4f76e405aaba2f806a9552b2
+-  __DATA_CONST.__objc_classlist: 0x48 sha256:2f442e2f9a9766f10b8797996f14254d3cb3b6b58b6df79fe097c337bac5b16c
+-  __DATA_CONST.__objc_protolist: 0x20 sha256:15a5882862153174171afa3e4b4c693ef9c241e956c02350c22942d390e3e9d4
+-  __DATA_CONST.__objc_imageinfo: 0x8 sha256:234cedc7009d98da03ca2a7ff525d0db26b82bff0e6046456f4eda918f734526
+-  __DATA_CONST.__objc_protorefs: 0x10 sha256:b9cad64817e3d609ee6bbd2e0f8228635f575f731d847dc155c6de96e5b7dbd6
+-  __DATA.__objc_const: 0xae8 sha256:50c4bc7f56ab936ef2c7ae4828218d2c1525c82c63a506013f5401de4d6f48e7
+-  __DATA.__objc_selrefs: 0x3a0 sha256:156e977c1b61437be55f63a51ebff56aba752aa357ce9a919344be79b9399206
+-  __DATA.__objc_data: 0x298 sha256:357888dd1cd5cb83bd8d34f8f9bdce7ff097c20e52e3044a12f607e4d5a1eb26
+-  __DATA.__data: 0x1b38 sha256:f409b79be0010c0580885f4a67099b80050b443ca01c99e8619f6474f24d1900
+-  __DATA.__common: 0x168 sha256:d3df611a0ed2e328b050d285287637c60643ba96ec09e4aaefaad7f2cd114b77
+-  __DATA.__bss: 0x4000 sha256:ff8877415504390690db10d0da500dd256a4b95285f7755e64ff1505b65c9fa6
++  __TEXT.__unwind_info: 0x28f8 sha256:4d867cbe975351121371e233ce3cf6656d313f06f8cc033417ef2fbaf5ea86e0
++  __TEXT.__eh_frame: 0x8470 sha256:aac76f088e854f81b0b3199c85728b7c23718d0e504294f0c4a9ccf96d15f3bf
++  __DATA_CONST.__const: 0x2e78 sha256:506082ce228c7a6e3175c5af540cced2bf568c32ca12f0e02f76a3a51dd2c8e4
++  __DATA_CONST.__objc_classlist: 0x48 sha256:793ab9f66e0a3231dc62402c1584c0938756e3c80766dd968cb164b6563c6cd0
++  __DATA_CONST.__objc_protolist: 0x20 sha256:5139d40f433418139e63ca705347cd8f68e07260ea443f50a3cb5ac9d8438fc3
++  __DATA_CONST.__objc_imageinfo: 0x8 sha256:885ce8037a15de89b0ceb0054c31fc3de725513307f685be388961916dadcdb0
++  __DATA_CONST.__objc_protorefs: 0x10 sha256:c356554413045adb3c21e6ac2df3d7871b9ebd7e3dba70c06ff85ad9ed2fd4ee
++  __DATA_CONST.__auth_got: 0x1740 sha256:b9a6d717b3d5801ba99fd150cf1bd31e34ec6f7f1ca657c2abaa8a4f75191880
++  __DATA_CONST.__got: 0x780 sha256:1ae72af0523dafb64ce096e4959d33fb8cbe47e949086f5f2395d23c2a4cc103
++  __DATA_CONST.__auth_ptr: 0x730 sha256:2659147378695aa8519c9fd980da6e7552f5264da9309368818c3c717207ac40
++  __DATA.__objc_const: 0xae8 sha256:3aff66b99164b0114477b610eddf062e3f2d6ade58af7b626b23ca0aad47dab1
++  __DATA.__objc_selrefs: 0x3b8 sha256:e9c5abef8be74fe982f0b10d337d745c7cb9fb863f3c44bcc845b288cea3ee3e
++  __DATA.__objc_data: 0x298 sha256:704c2b017263deb55c2c7d8386e323f7b5ef45909136468ff1b06394140622a4
++  __DATA.__data: 0x1c70 sha256:4bbc4406620d5254c08868f104f6a74bf8819ee95c792863e9b6faf783fa11b7
++  __DATA.__common: 0x170 sha256:71818ecc26433c32172dd9a3544657971c7078daa2257da7c3c303e08693cb23
++  __DATA.__bss: 0x4080 sha256:8a267e2cea1bcd1d06b0b63d9193900159ca8734958bcc4c74d0eeaa14de3d09
+   - /AppleInternal/Library/Frameworks/TapToRadarKit.framework/TapToRadarKit
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreServices.framework/CoreServices
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 0E234C9A-4961-3054-8DE9-EF3F37811D19
+-  Functions: 2108
+-  Symbols:   1070
+-  CStrings:  690
++  UUID: 36592B0A-D0BE-3D5D-8A66-84C6D84DF6F4
++  Functions: 2127
++  Symbols:   1149
++  CStrings:  718
+ 
+Symbols:
++ _$s10Foundation4DateV18addingTimeIntervalyACSdF
++ _$s10Foundation6LocaleV10identifierACSS_tcfC
++ _$s10Foundation6LocaleV19_bridgeToObjectiveCSo8NSLocaleCyF
++ _$s10Foundation6LocaleVMa
++ _$s10Foundation8TimeZoneV19_bridgeToObjectiveCSo06NSTimeC0CyF
++ _$s10Foundation8TimeZoneV7currentACvgZ
++ _$s10Foundation8TimeZoneVMa
++ _$s2os0A4_log_3dso0B0__ySo0a1_B7_type_ta_SVSo03OS_a1_B0Cs12StaticStringVs7CVarArg_pdtF
++ _$s7JetCore0A14PackAssetCacheMp
++ _$s7JetCore0A16PackAssetSessionC23isNetworkLikelyRequired3for2at18cacheConfigurationSbAA06URLJetcD7RequestV_10Foundation4DateVAA0acD5Cache_p0L0_AA0acdR6Policy_p6policyttYaF
++ _$s7JetCore0A16PackAssetSessionC23isNetworkLikelyRequired3for2at18cacheConfigurationSbAA06URLJetcD7RequestV_10Foundation4DateVAA0acD5Cache_p0L0_AA0acdR6Policy_p6policyttYaFTu
++ _$s7JetCore0A18PackAssetDiskCacheC22_removeAllCachedAssets13withURLPrefixySS_tYaKF
++ _$s7JetCore0A18PackAssetDiskCacheC22_removeAllCachedAssets13withURLPrefixySS_tYaKFTu
++ _$s7JetCore0A20PackAssetCachePolicyMp
++ _$s7JetCore0A21PackAssetSQLiteRecordV2ids5Int32Vvg
++ _$s7JetCore0A21PackAssetSQLiteRecordV7usageIDSSvg
++ _$s7JetCore0A21PackAssetSQLiteRecordV8assetURLSSvg
++ _$s7JetCore0A21PackAssetSQLiteRecordV8cacheKeySSvg
++ _$s7JetCore0A21PackAssetSQLiteRecordV8fileNameSSvg
++ _$s7JetCore0A21PackAssetSQLiteRecordV8metadata10Foundation4DataVSgvg
++ _$s7JetCore0A22PackAssetDaemonMessageO23isNetworkLikelyRequiredyAcA0e2IshiJ7RequestVcACmFWC
++ _$s7JetCore0A28PackAssetStandardCachePolicyV9rawStatus3for2atAA0acdfI0OAA0acD0V_10Foundation4DateVtF
++ _$s7JetCore0A28PackAssetStandardCachePolicyVAA0acdfG0AAWP
++ _$s7JetCore0A37PackAssetDiskCacheSQLiteMetadataStoreC11findRecords9olderThan12dateProviderSayAA0acdG6RecordVGSd_AA04DateO0_ptKF
++ _$s7JetCore0A37PackAssetDiskCacheSQLiteMetadataStoreC7findAllSayAA0acdG6RecordVGyKF
++ _$s7JetCore0A9PackAssetV12HTTPResponseVMa
++ _$s7JetCore0A9PackAssetV12HTTPResponseVMn
++ _$s7JetCore0A9PackAssetV12makeCacheKey9urlString7usageIDS2S_SSSgtFZ
++ _$s7JetCore0A9PackAssetV12streamSource8metadata7cacheID14assetURLString05usageI016wasReadFromCache0M11Revalidated06willBeQ007channelI013reloadFetcherAcA0ac6StreamF0_p_AC8MetadataVs5Int32VSgS2SS3bSSSgACyYaYbKcSgtcfC
++ _$s7JetCore0A9PackAssetV12streamSource8metadata7cacheID14assetURLString05usageI016wasReadFromCache0M11Revalidated06willBeQ007channelI013reloadFetcherAcA0ac6StreamF0_p_AC8MetadataVs5Int32VSgS2SS3bSSSgACyYaYbKcSgtcfcfA4_
++ _$s7JetCore0A9PackAssetV12streamSource8metadata7cacheID14assetURLString05usageI016wasReadFromCache0M11Revalidated06willBeQ007channelI013reloadFetcherAcA0ac6StreamF0_p_AC8MetadataVs5Int32VSgS2SS3bSSSgACyYaYbKcSgtcfcfA5_
++ _$s7JetCore0A9PackAssetV12streamSource8metadata7cacheID14assetURLString05usageI016wasReadFromCache0M11Revalidated06willBeQ007channelI013reloadFetcherAcA0ac6StreamF0_p_AC8MetadataVs5Int32VSgS2SS3bSSSgACyYaYbKcSgtcfcfA6_
++ _$s7JetCore0A9PackAssetV6PolicyV14OSInvalidationO4noneyA2GmFWC
++ _$s7JetCore0A9PackAssetV6PolicyV14OSInvalidationOSQAAMc
++ _$s7JetCore0A9PackAssetV6PolicyV14osInvalidationAE14OSInvalidationOvg
++ _$s7JetCore0A9PackAssetV8MetadataV15serverExpiredAt10Foundation4DateVSgvs
++ _$s7JetCore0A9PackAssetV8MetadataV4etag12lastModified13revalidatedAt9osVersion11buildNumber05assetL013serverExpired0pqJ06policy12httpResponseAESSSg_AP10Foundation4DateVAC9OSVersionVSgA2PSbSgASSgAC6PolicyVAC12HTTPResponseVSgtcfC
++ _$s7JetCore0A9PackAssetV8MetadataV4etag12lastModified13revalidatedAt9osVersion11buildNumber05assetL013serverExpired0pqJ06policy12httpResponseAESSSg_AP10Foundation4DateVAC9OSVersionVSgA2PSbSgASSgAC6PolicyVAC12HTTPResponseVSgtcfcfA2_
++ _$s7JetCore0A9PackAssetV8MetadataV6policyAC6PolicyVvg
++ _$s7JetCore0A9PackAssetV8MetadataV9osVersionAC9OSVersionVSgvg
++ _$s7JetCore0A9PackAssetV8MetadataVSeAAMc
++ _$s7JetCore0A9PackAssetV9OSVersionV12majorVersionSivg
++ _$s7JetCore0A9PackAssetV9OSVersionV7currentAEvgZ
++ _$s7JetCore0A9PackAssetV9OSVersionVMa
++ _$s7JetCore14DaemonResponseO17directFetchReasonACyxGAA0cD12CodableErrorV06DirectfG0O_tcfC
++ _$s7JetCore15SendableWrapperCMa
++ _$s7JetCore19AssetSQLiteDatabaseC8location4modeAcA0a4PackC9DiskCacheC15DefaultLocationV_AC4ModeOtKcfC
++ _$s7JetCore20PushSubscriptionInfoV2id14assetURLString9channelID06bundleJ005usageJ09isPending0M12SystemClient16scheduleFromDate0q2ToS006serverS0010modifiedAtS08priority16downloadAttempts14requestHeadersACs5Int32VSg_SSSgA3US2b10Foundation0S0VSgA3y2TSDyS2SGtcfC
++ _$s7JetCore20PushSubscriptionInfoVMa
++ _$s7JetCore20PushSubscriptionInfoVMn
++ _$s7JetCore22DaemonPushInfoResponseV11environment7records20subscribedChannelIDs25apsLastKnownConnectedDate07controlJ2IDACSS_SayAA0d12SubscriptionE0VGShySSG10Foundation0P0VSgSSSgtcfC
++ _$s7JetCore22MetricsSamplingLotteryV9eventName10percentage8duration11preferencesACSS_S2dAA16LocalPreferencesCtcfC
++ _$s7JetCore22MetricsSamplingLotteryV9eventName10percentage8duration11preferencesACSS_S2dAA16LocalPreferencesCtcfcfA2_
++ _$s7JetCore22URLJetPackAssetRequestV3url12sourcePolicy7usageID7headersAC10Foundation3URLV_AA0adef6SourceI0OSSSgSDyS2SGSgtcfC
++ _$s7JetCore22URLJetPackAssetRequestV6MethodO4headyA2EmFWC
++ _$s7JetCore22URLJetPackAssetRequestV6MethodOMa
++ _$s7JetCore22URLJetPackAssetRequestV6MethodOSQAAMc
++ _$s7JetCore22URLJetPackAssetRequestV6methodAC6MethodOvg
++ _$s7JetCore22URLJetPackAssetRequestV7headersSDyS2SGvg
++ _$s7JetCore22URLJetPackAssetRequestV7usageIDSSSgvg
++ _$s7JetCore22URLJetPackAssetRequestV9urlStringSSvg
++ _$s7JetCore26AssetPushSubscriptionStoreP20updateRequestHeaders2id7headersys5Int32V_SDyS2SGSgtKFTj
++ _$s7JetCore26AssetPushSubscriptionStoreP4find11identifiersSayAA0cdE6RecordVGSaySS14assetURLString_SS7usageIDtG_tKFTj
++ _$s7JetCore26AssetPushSubscriptionStoreP4find8matchingAA0cdE6RecordVSgAG_tKFTj
++ _$s7JetCore26DaemonResponseCodableErrorV17DirectFetchReasonO020diskCachePreparationF0yA2EmFWC
++ _$s7JetCore26DaemonResponseCodableErrorV17DirectFetchReasonO08databaseF0yA2EmFWC
++ _$s7JetCore26DaemonResponseCodableErrorV17DirectFetchReasonO09containerF0yA2EmFWC
++ _$s7JetCore26DaemonResponseCodableErrorV17DirectFetchReasonO10killSwitchyA2EmFWC
++ _$s7JetCore26DaemonResponseCodableErrorV17DirectFetchReasonOMa
++ _$s7JetCore26MetricsDiagnosticsAndUsageV19forcedEnableFromBag11preferencesACSbSg_AA16LocalPreferencesCtcfC
++ _$s7JetCore26MetricsDiagnosticsAndUsageV19forcedEnableFromBag11preferencesACSbSg_AA16LocalPreferencesCtcfcfA0_
++ _$s7JetCore26MetricsDiagnosticsAndUsageV28diagnosticsSubmissionAllowedSbvg
++ _$s7JetCore26MetricsDiagnosticsAndUsageVMa
++ _$s7JetCore27AssetPushSubscriptionRecordV14assetURLString9channelID06bundleJ005usageJ014isSystemClient14requestHeadersACSS_S3SSbSDyS2SGSgtcfC
++ _$s7JetCore27AssetPushSubscriptionRecordV14assetURLStringSSvg
++ _$s7JetCore27AssetPushSubscriptionRecordV14modifiedAtDate10Foundation0I0VSgvg
++ _$s7JetCore27AssetPushSubscriptionRecordV14requestHeadersSDyS2SGvg
++ _$s7JetCore27AssetPushSubscriptionRecordV16scheduleFromDate10Foundation0I0VSgvg
++ _$s7JetCore27AssetPushSubscriptionRecordV2ids5Int32Vvg
++ _$s7JetCore27AssetPushSubscriptionRecordV7usageIDSSvg
++ _$s7JetCore27AssetPushSubscriptionRecordV8bundleIDSSvg
++ _$s7JetCore27AssetPushSubscriptionRecordV8cacheKeySSvg
++ _$s7JetCore27AssetPushSubscriptionRecordV9channelIDSSvg
++ _$s7JetCore27AssetPushSubscriptionRecordV9isPendingSbvg
++ _$s7JetCore36DaemonIsNetworkLikelyRequiredRequestV08urlAssetH0AA010URLJetPackjH0Vvg
++ _$s7JetCore36DaemonIsNetworkLikelyRequiredRequestV4date10Foundation4DateVvg
++ _$s7JetCore36DaemonIsNetworkLikelyRequiredRequestVAA0cH4TypeAAMc
++ _$s7JetCore36DaemonIsNetworkLikelyRequiredRequestVMa
++ _$s7JetCore36DaemonIsNetworkLikelyRequiredRequestVMn
++ _$s7JetCore37DaemonIsNetworkLikelyRequiredResponseV02isefG0ACSb_tcfC
++ _$s7JetCore37DaemonIsNetworkLikelyRequiredResponseVMa
++ _$s7JetCore37DaemonIsNetworkLikelyRequiredResponseVMn
++ _$s7JetCore37DaemonIsNetworkLikelyRequiredResponseVSEAAMc
++ _$s7JetCore37DaemonIsNetworkLikelyRequiredResponseVSeAAMc
++ _$s7JetCore8OSLoggerV6_osLogSo03OS_D4_logCvg
++ _$sSSs7CVarArg10FoundationMc
++ _$sScC12continuation8functionScCyxq_GSccyxq_G_SStcfC
++ _$sSo13os_log_type_ta0A0E5faultABvgZ
++ _$ss7CVarArgMp
++ _OBJC_CLASS_$_NSDateFormatter
++ _swift_continuation_await
++ _swift_continuation_init
++ _swift_dynamicCastObjCClass
++ _swift_release_x19
++ _swift_release_x20
++ _swift_release_x21
++ _swift_release_x22
++ _swift_release_x23
++ _swift_release_x24
++ _swift_release_x25
++ _swift_release_x26
++ _swift_release_x27
++ _swift_release_x28
++ _swift_release_x8
++ _swift_retain_x1
++ _swift_retain_x19
++ _swift_retain_x2
++ _swift_retain_x20
++ _swift_retain_x21
++ _swift_retain_x22
++ _swift_retain_x23
++ _swift_retain_x24
++ _swift_retain_x25
++ _swift_retain_x26
++ _swift_retain_x28
++ _swift_retain_x8
++ _swift_retain_x9
++ _swift_task_localValueGet
+- _$s7JetCore0A18PackAssetDiskCacheC15DefaultLocationV11databaseURL10Foundation0J0Vvg
+- _$s7JetCore0A18PackAssetDiskCacheC22_removeAllCachedAssets13withKeyPrefixySS_tYaKF
+- _$s7JetCore0A18PackAssetDiskCacheC22_removeAllCachedAssets13withKeyPrefixySS_tYaKFTu
+- _$s7JetCore0A20PackFileStreamSourceVMn
+- _$s7JetCore0A21PackAssetSQLiteRecordV2ids5Int32VSgvg
+- _$s7JetCore0A21PackAssetSQLiteRecordV8fileNameSSSgvg
+- _$s7JetCore0A23PackAssetDiskCacheErrorOMn
+- _$s7JetCore0A23PackAssetDiskCacheErrorOs0G0AAMc
+- _$s7JetCore0A28PackAssetStandardCachePolicyV6status3for12dateProviderAA0acdF6StatusOAA0acD0V_AA04DateK0_ptF
+- _$s7JetCore0A28PackAssetStandardCachePolicyV6status3forAA0acdF6StatusOAA0acD0V_tF
+- _$s7JetCore0A37PackAssetDiskCacheSQLiteMetadataStoreC04findF4Keys9olderThan12dateProviderSaySSGSd_AA04DateO0_ptKF
+- _$s7JetCore0A9PackAssetV12streamSource8metadata7cacheID0H3Key16wasReadFromCache0K11Revalidated06willBeO007channelI0AcA0ac6StreamF0_p_AC8MetadataVs5Int32VSgSSS3bSSSgtcfC
+- _$s7JetCore0A9PackAssetV12streamSource8metadata7cacheID0H3Key16wasReadFromCache0K11Revalidated06willBeO007channelI0AcA0ac6StreamF0_p_AC8MetadataVs5Int32VSgSSS3bSSSgtcfcfA3_
+- _$s7JetCore0A9PackAssetV12streamSource8metadata7cacheID0H3Key16wasReadFromCache0K11Revalidated06willBeO007channelI0AcA0ac6StreamF0_p_AC8MetadataVs5Int32VSgSSS3bSSSgtcfcfA4_
+- _$s7JetCore0A9PackAssetV12streamSource8metadata7cacheID0H3Key16wasReadFromCache0K11Revalidated06willBeO007channelI0AcA0ac6StreamF0_p_AC8MetadataVs5Int32VSgSSS3bSSSgtcfcfA5_
+- _$s7JetCore0A9PackAssetV8MetadataV4etag12lastModified13revalidatedAt9osVersion11buildNumber05assetL013serverExpired6policyAESSSg_AN10Foundation4DateVAC9OSVersionVSgA2NSbSgAC6PolicyVtcfC
+- _$s7JetCore0A9PackAssetV8MetadataV4etag12lastModified13revalidatedAt9osVersion11buildNumber05assetL013serverExpired6policyAESSSg_AN10Foundation4DateVAC9OSVersionVSgA2NSbSgAC6PolicyVtcfcfA2_
+- _$s7JetCore0A9PackErrorO16daemonKillSwitchyA2CmFWC
+- _$s7JetCore11SQLiteErrorOMn
+- _$s7JetCore11SQLiteErrorOs0D0AAMc
+- _$s7JetCore17ContainerLocationC0C5ErrorOMn
+- _$s7JetCore17ContainerLocationC0C5ErrorOs0E0AAMc
+- _$s7JetCore19AssetSQLiteDatabaseC3url4modeAC10Foundation3URLV_AC4ModeOtKcfC
+- _$s7JetCore22DaemonPushInfoResponseV11environment7records20subscribedChannelIDs25apsLastKnownConnectedDate07controlJ2IDACSS_SayAA05AssetD18SubscriptionRecordVGShySSG10Foundation0P0VSgSSSgtcfC
+- _$s7JetCore22MetricsSamplingLotteryV9eventName10percentage8durationACSS_S2dtcfC
+- _$s7JetCore22URLJetPackAssetRequestV9_cacheKeySSvg
+- _$s7JetCore26AssetPushSubscriptionStoreP33findOldAssetsWithoutPendingPushes9cacheKeysSayAA0cdE6RecordVGSaySSG_tKFTj
+- _$s7JetCore26AssetPushSubscriptionStoreP3has8matchingSbAA0cdE6RecordV_tKFTj
+- _$s7JetCore26MetricsDiagnosticsAndUsageV28diagnosticsSubmissionAllowedSbvgZ
+- _$s7JetCore27AssetPushSubscriptionRecordV14assetURLString9channelID06bundleJ005usageJ014isSystemClientACSS_S3SSbtcfC
+- _$s7JetCore27AssetPushSubscriptionRecordV14assetURLStringSSSgvg
+- _$s7JetCore27AssetPushSubscriptionRecordV2ids5Int32VSgvg
+- _$s7JetCore27AssetPushSubscriptionRecordV7usageIDSSSgvg
+- _$s7JetCore27AssetPushSubscriptionRecordV8bundleIDSSSgvg
+- _$s7JetCore27AssetPushSubscriptionRecordV9channelIDSSSgvg
+- _$ss10_HashTableV12previousHole6beforeAB6BucketVAF_tF
+- _$ss11_MergeErrorON
+- _$ss11_MergeErrorOs0B0sWP
+- _$ss23withCheckedContinuation9isolation8function_xScA_pSgYi_SSyScCyxs5NeverOGXEtYalF
+- _$ss23withCheckedContinuation9isolation8function_xScA_pSgYi_SSyScCyxs5NeverOGXEtYalFTu
+- _$ss31withCheckedThrowingContinuation9isolation8function_xScA_pSgYi_SSyScCyxs5Error_pGXEtYaKlF
+- _$ss31withCheckedThrowingContinuation9isolation8function_xScA_pSgYi_SSyScCyxs5Error_pGXEtYaKlFTu
+- _$sxSgSHsSHRzlMc
+- _objc_retain_x10
+- _objc_retain_x9
+- _swift_bridgeObjectRelease_n
+- _swift_errorInMain
+- _swift_stdlib_isStackAllocationSafe
+- _swift_unexpectedError
+CStrings:
++ " are already pending with priority "
++ " has sooner deadline ("
++ " push subscription records for stale assets"
++ " stale assets after OS update"
++ " was not a BGNonRepeatingSystemTaskRequest"
++ ") than existing task ("
++ ") than new schedule ("
++ "), keeping existing task"
++ "), replacing task"
++ ", cannot compute existing deadline"
++ ", skipping redundant update and reschedule"
++ ", skipping update"
++ "All records for channel "
++ "Existing task for "
++ "Failed to delete push subscription record "
++ "Failed to evict stale asset "
++ "Failed to initialize container location: "
++ "Failed to initialize container location: %{public}@"
++ "Failed to initialize daemon instance: %{public}@"
++ "Fatal error running daemon: "
++ "Fatal error running daemon: %{public}@"
++ "HEAD request completed, returning response without caching"
++ "Invalid URL encountered while trying to check for stale assets: "
++ "Invalid URL encountered while trying to refresh assets: "
++ "New schedule has sooner deadline ("
++ "No persisted submission time found for "
++ "No stale assets to clean up after OS update"
++ "No subscription records found for channel "
++ "ScheduleTime(after: "
++ "Subscription record was found, updated request headers."
++ "The schedule from the database is overdue, using catch-up schedule."
++ "Unexpected! Default task "
++ "Unexpected: Duplicate channelID found in persisted push channel states"
++ "`IsNetworkLikelyRequiredRequestHandler` Failed: "
++ "defaultTaskSubmittedAt"
++ "setDateFormat:"
++ "setLocale:"
++ "setTimeZone:"
++ "yyyy-MM-dd HH:mm:ssxx"
+- "4U8WZQqBEfAAAFr21ab4zA=="
+- "Cleaning up test asset data from previous builds"
+- "Could not process push subscription record id: "
+- "Duplicate values for key: '"
+- "Error while trying to delete push record, Error: "
+- "Error while trying to evict asset, Error: "
+- "Swift/Dictionary.swift"
+- "Swift/NativeDictionary.swift"
+- "Test asset cleanup completed"
+- "The schedule from the database is earlier than the minimum rollout window, creating a new schedule."
+- "https://apps.mzstatic.com/content/3d2366c916f647dfaeec9f62954bddad/ios-appstore.jetpack"
+
+```

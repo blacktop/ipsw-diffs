@@ -1,0 +1,1198 @@
+## AppProtectionUI
+
+> `/System/Library/PrivateFrameworks/AppProtectionUI.framework/AppProtectionUI`
+
+```diff
+
+-46.4.3.0.0
+-  __TEXT.__text: 0x191b4 sha256:bfcf5eff83731fd31ab790ab4dc460dcee21b7c1f3c2f7b74038c844ac5b021f
+-  __TEXT.__auth_stubs: 0xb70 sha256:fbbc5d75c62a0cfb3d50efd56f38d535e7586d2328a5b1275efd73099cd2a35d
+-  __TEXT.__objc_methlist: 0xf60 sha256:82fc23e0377efb35dd19f012afdf496670e682a334b92d14af882f6021ce0844
+-  __TEXT.__const: 0x538 sha256:f02e150e9d35c371a95afbe2ce4295ee803867e7bb504f4b630b696a8a7ad19b
+-  __TEXT.__gcc_except_tab: 0x90 sha256:98fbc04d954e8af1060dba49dbad7c862537d7e5db114235ecfa663bcd77ea41
++54.0.0.0.0
++  __TEXT.__text: 0x18a0c sha256:ea520652442252ea384d1c37ac4427d59b711464fe8c0ecf6c599733f07a0b55
++  __TEXT.__objc_methlist: 0xf60 sha256:6bb714a4d42fea2af5f40ea52fd76fb19a17b29944a3537d226bd9b625cb2c38
++  __TEXT.__const: 0x538 sha256:d01dc2ff746cabd6aed4da7da6a50fed8c83638448d7d070d8e7ed9d2d45f290
++  __TEXT.__gcc_except_tab: 0x78 sha256:0c6e4d3c54ad5b29a94a9827b7f2855376b268ec869d398c97acf3983e383698
+   __TEXT.__oslogstring: 0x5c8 sha256:7494451cceff21804bad04b05070bff85d910b3dd792b61f1d91b87bc3ce8349
+-  __TEXT.__cstring: 0x1214 sha256:346974133470b6d42ca92f80e40bcd7c5501be44bf22b3540887350253299351
+-  __TEXT.__constg_swiftt: 0x408 sha256:4356a3523431da76d988203fa2db359416783cf7dbc400ed3893f12cf68bd02a
+-  __TEXT.__swift5_typeref: 0x52e sha256:3a6e1402b4b1ade3eead7e22b9b968c7beb1883424dcc2b8f89dcb701faa332a
++  __TEXT.__cstring: 0x1224 sha256:7d4070194ade43048905d39073c3e7f3c4d0c1ec71a4bcc43b50e13f50643991
++  __TEXT.__constg_swiftt: 0x408 sha256:7f8062f855d1db9bfe1cd7652045c613b152b54fe9a5d66ba9dff56516e009c2
++  __TEXT.__swift5_typeref: 0x52e sha256:541736c90364f17c9f48e03aef23517846232bae0ec1d0a11e547a1557bceb99
+   __TEXT.__swift5_builtin: 0x78 sha256:7fb41e775dad3994c6703b17346937984ca8b4f2c52edfe1b35005f78d9fca1e
+   __TEXT.__swift5_reflstr: 0x154 sha256:5c2879e0c25b86ab51cbff80b6903225f91357c5cf0b53a3fd7f569354ab1153
+   __TEXT.__swift5_fieldmd: 0x234 sha256:02a6b581db22762721481e4306f223258168afaf42aa655879759a9e75d82937
+   __TEXT.__swift5_assocty: 0x18 sha256:993c07f49e38c6e3de46e2791bb8a6b20087abd5edc95b571b0ec57d4b7cb441
+-  __TEXT.__swift5_proto: 0x1c sha256:bdebae7e0d9db1cbc6a50b64ffe311df5df9a063854c14b8899bcccb5b497dfa
++  __TEXT.__swift5_proto: 0x1c sha256:b5fe2da9fd315cddd3d15af7c2ac2537166bba90d8a13297b698bc2034faf55e
+   __TEXT.__swift5_types: 0x34 sha256:a29a5b5e4402afc11c566f04f1e8a6374c717909d63ae48755ef9eba8b6c9539
+   __TEXT.__swift5_capture: 0x660 sha256:a6daaf06575ab5f9ca3380a35048d7205569412a953ddf84899bee7fb42c952e
+   __TEXT.__swift5_protos: 0x14 sha256:f1762e04f50256cc57708725208277d111508ff4735ffe5c166f45a2d46f2a30
+-  __TEXT.__unwind_info: 0x688 sha256:fcaf95c5f3229745eaad0ad75ed2be36f2eeb9ffa25fddd3d228b2e7d961aace
+-  __TEXT.__eh_frame: 0xb0 sha256:67bae58c0e5bf03b1247bf41c884f130ad8c44a9181a5cc25bbfd0e851438e8d
+-  __TEXT.__objc_classname: 0x533 sha256:04c1efaa6a414a028d24478b3ab1cada606a41e8fb7d2211c3ec38131c1f7582
+-  __TEXT.__objc_methname: 0x378d sha256:3f3f769cc7b44932a6b718184f7a09dc669d40e03dbb939a036c89c7235b3946
+-  __TEXT.__objc_methtype: 0x1297 sha256:b59f8ed5233ac301beecd441aff748465c5692f0df7f3284a24a6ff132d244c8
+-  __TEXT.__objc_stubs: 0x2620 sha256:fbcb93a4f8d24c4b79322ea5ca077dd95b645e78c641cfaaff6a680d27e218d3
+-  __DATA_CONST.__got: 0x340 sha256:d912702ca614f7a8e115dabefde27f46852920895158a135f4ab605a28583050
+-  __DATA_CONST.__const: 0x370 sha256:edc6e2d027f83c9e2962157b5f7330a31e218e99a32da933dc615b6dc2c5bdf0
+-  __DATA_CONST.__objc_classlist: 0xc0 sha256:c7ddd8aded6fabb4543cf1b881ee35a4368d4191d1a25077c4c22c48cd2104b9
+-  __DATA_CONST.__objc_catlist: 0x8 sha256:737a6153e214a70a9da4b2a5c1e54813e49a7d39956ecf1d0d89a711ac71fddc
+-  __DATA_CONST.__objc_protolist: 0x80 sha256:b0dad3a4e71760359e5d16858de7ad18cd24adb48ef62fcb291df51dabc46692
+-  __DATA_CONST.__objc_imageinfo: 0x8 sha256:8c2e86a3d61473a17440ee60441113a7d285704a3b70278f03e88b3c356a5493
+-  __DATA_CONST.__objc_selrefs: 0xdf0 sha256:cd98c8fd5ccca1590473565029b7fe4a5b240aff6edab0c4261be95a43aed1c0
+-  __DATA_CONST.__objc_protorefs: 0x20 sha256:365c9a817d03852010bfba253562fb10e9ba93eb491684b915e243951887e112
+-  __DATA_CONST.__objc_superrefs: 0x48 sha256:cf9adc8fd23e2bb841a2dec0431c9c8a363afe062dab5d3456ea52a0b4062399
+-  __DATA_CONST.__objc_arraydata: 0x80 sha256:1222bf3319d52a55aaaf267ce2e6e782b70e16b6ed472cef724c95f0952e8090
+-  __AUTH_CONST.__auth_got: 0x5c8 sha256:8ee724d497565f18f1f5e526f9634479ba2886cdbeb942faf194b1f73686e8dc
+-  __AUTH_CONST.__const: 0x16c8 sha256:84de8f6531f9fdb56bcdffdc3ec0324d68a0e96c279e1128d0e5c46e70eaec56
+-  __AUTH_CONST.__cfstring: 0xa20 sha256:682b29e5266520d6553957c2e31d34f4f8806ca7a763184e68508822b324c7d9
+-  __AUTH_CONST.__objc_const: 0x1e80 sha256:3713022f980bd762d5014354e163ddd21c3fa8b742d6786cd36a5615dcd8525c
+-  __AUTH_CONST.__objc_dictobj: 0x28 sha256:5710a0befd08cc4849999181dbcf6bce4222503df4280a493c1054656f695f4d
+-  __AUTH.__objc_data: 0xad0 sha256:261eaa4b7b4f6ef125c462c9762d405ee1815f45e40827e31d0f1f48bdd7cb0f
+-  __AUTH.__data: 0x180 sha256:09367f193242cd3c0f159eea6985e0364df1237dcac8203f96d46e1ae119b779
+-  __DATA.__objc_ivar: 0xcc sha256:aa0f57ad597d2aa7fac1c2bc4a9c93f06e3f8d68762f26ae472cacf5bd843660
+-  __DATA.__data: 0x688 sha256:86dd9dd654b105f4b96cbdc5c88bf1f6619a7b121454495e7c2d51a97408e488
++  __TEXT.__unwind_info: 0x688 sha256:af55606e7a73608573ef6b70d82436f163d09c1d0f92db99afee4f496e1c961e
++  __TEXT.__eh_frame: 0xb0 sha256:6abbadfeab0690d39b4ba2b2db557675f6865a69144bdbc60aafa962dc08876a
++  __TEXT.__objc_stubs: 0x0
++  __TEXT.__auth_stubs: 0x0
++  __TEXT.__objc_classname: 0x0
++  __TEXT.__objc_methname: 0x0
++  __TEXT.__objc_methtype: 0x0
++  __DATA_CONST.__const: 0x378 sha256:50739b01aa86428f8f802ff1bd3955930ff29c97dacbe7e2dad0623c15782fde
++  __DATA_CONST.__objc_classlist: 0xc0 sha256:4475e230f2828b45a68b6dd8edf6846856b6638c328d9072fc24682d1cd6b42b
++  __DATA_CONST.__objc_catlist: 0x8 sha256:489df5855d47b4a28e389c242f17f9f5d9c80a25ed2c42f462edc4f7dcbbcb9e
++  __DATA_CONST.__objc_protolist: 0x80 sha256:cb0a51cf6ea57badb0cefe6f495c1061aa5086f3945c006a85c6983f6db08227
++  __DATA_CONST.__objc_imageinfo: 0x8 sha256:ce857dcadc2529f941104469975d60698ea3610a86c121e7b4aee224cd0c59ea
++  __DATA_CONST.__objc_selrefs: 0xe10 sha256:8e414c8240e5a8163f3b023287f0dde00e6536f2d508f449ef71ed617c12ad44
++  __DATA_CONST.__objc_protorefs: 0x20 sha256:cef68425c10b606639a954a1f80253125c522872d95f8ec989fc34a0255150d6
++  __DATA_CONST.__objc_superrefs: 0x48 sha256:03a1e15597cf8dfcdf45e84664934ba102a9329e03aaa2dfb612cbb1278689dc
++  __DATA_CONST.__objc_arraydata: 0x80 sha256:8a7eef95537edd041b45b511a38ce5f81301b091703b299b76cb4694970b2461
++  __DATA_CONST.__got: 0x348 sha256:5f064ed67525f147acad8b1b666334b6c5d51fa20da45f7f0d73399a3b471d8a
++  __AUTH_CONST.__const: 0x16e8 sha256:74281014460280b5f076fa7287d7f305f520f0bd34ae7e4c8c2ad64f422b7c44
++  __AUTH_CONST.__cfstring: 0xa20 sha256:ccc977c162a784486ccda090020df0cb679ec8f3eac65d5e615e23b34bd2f729
++  __AUTH_CONST.__objc_const: 0x1e80 sha256:b2c73206eb26c1cec55e184fa60e4fa99300af538897232f84cff56ab02d6237
++  __AUTH_CONST.__objc_dictobj: 0x28 sha256:65eb5a0e63f9cd7a69a8f641cc734f8d8823ec329a5bc017a5e412fc56d10ba3
++  __AUTH_CONST.__auth_got: 0x678 sha256:f8ae869707f0b5b28616c2bd13782d5d89ee022dbc737f19ca0cd46f6cd9af64
++  __AUTH.__objc_data: 0xad0 sha256:7fced2c2f9a336f719522cc8eadf38ea1042ae35eb8a7defdc7c8be5f171cef3
++  __AUTH.__data: 0x180 sha256:c15c76d82345d45b50a6e9cdfeb37d41e155ff5ee86115fad7e634d16b5eb3cd
++  __DATA.__objc_ivar: 0xcc sha256:de536a26f4cbe3b45d9cf15f68de48ad26e62bad61a30d084f6eed17f89bd962
++  __DATA.__data: 0x688 sha256:747f6dc34ccfebe1d5830e306e470121d4e61e4a24e2f29eec5962eee780ab37
+   __DATA.__bss: 0x130 sha256:e2fc162ed9124452d23c85e81d60a0c228f414c3214a5de635737e25fbd29ac1
+   __DATA.__common: 0x20 sha256:66687aadf862bd776c8fc18b8e9f8e20089714856ee233b3902a591d0d5f2925
+-  __DATA_DIRTY.__objc_data: 0x118 sha256:91917dd0dfa52bd4142c086344d41d76aef67f16234d866396939b7a62feea93
+-  __DATA_DIRTY.__data: 0xc0 sha256:7c5b1548c283bf7df19bea24153da399051aabd5aa5cde7a173bdf3c404bc2fb
++  __DATA_DIRTY.__objc_data: 0x118 sha256:64a2cc4c07f4e903ad246bcb67512dd7c61d9388c98c3e24dbfef5f4c38e5cfa
++  __DATA_DIRTY.__data: 0xc0 sha256:4caaee51b29ef9204b1a8f218565f0d71f8486ad60741614839a0d37cf655537
+   __DATA_DIRTY.__bss: 0x20 sha256:66687aadf862bd776c8fc18b8e9f8e20089714856ee233b3902a591d0d5f2925
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+
+   - /usr/lib/swift/libswiftAccelerate.dylib
+   - /usr/lib/swift/libswiftCompression.dylib
+   - /usr/lib/swift/libswiftCore.dylib
++  - /usr/lib/swift/libswiftCoreAudio.dylib
+   - /usr/lib/swift/libswiftCoreFoundation.dylib
+   - /usr/lib/swift/libswiftCoreImage.dylib
+   - /usr/lib/swift/libswiftCoreLocation.dylib
+
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: AC3BAB5E-6F11-3EE8-B804-33689F726993
+-  Functions: 706
+-  Symbols:   1671
+-  CStrings:  991
++  UUID: 5FE230E2-3889-39BF-AFCF-1099B6A77561
++  Functions: 702
++  Symbols:   1806
++  CStrings:  272
+ 
+Symbols:
++ GCC_except_table22
++ _OBJC_CLASS_$_UIColorEffect
++ __PROTOCOLS_APEducationFlowViewController.47
++ ___36-[APBaseShieldView emergencyTapped:]_block_invoke.91
++ ___36-[APBaseShieldView emergencyTapped:]_block_invoke.91.cold.1
++ ___36-[APBaseShieldView emergencyTapped:]_block_invoke.91.cold.2
++ ___92-[APBaseShieldView initWithLocalizedApplicationName:useHiddenStyle:needEmergencyCallButton:]_block_invoke.41
++ ___92-[APBaseShieldView initWithLocalizedApplicationName:useHiddenStyle:needEmergencyCallButton:]_block_invoke.65
++ ___92-[APBaseShieldView initWithLocalizedApplicationName:useHiddenStyle:needEmergencyCallButton:]_block_invoke_2.81
++ ___block_literal_global.154
++ ___block_literal_global.43
++ ___block_literal_global.45
++ ___block_literal_global.67
++ ___block_literal_global.83
++ ___block_literal_global.89
++ ___swift__destructor
++ ___swift__destructor.107
++ ___swift__destructor.185
++ ___swift__destructor.188
++ ___swift__destructor.211
++ ___swift__destructor.214
++ ___swift__destructor.71
++ ___swift_closure_destructor
++ ___swift_closure_destructor.101
++ ___swift_closure_destructor.113
++ ___swift_closure_destructor.119
++ ___swift_closure_destructor.12
++ ___swift_closure_destructor.126
++ ___swift_closure_destructor.13
++ ___swift_closure_destructor.13Tm
++ ___swift_closure_destructor.145
++ ___swift_closure_destructor.145Tm
++ ___swift_closure_destructor.164
++ ___swift_closure_destructor.18
++ ___swift_closure_destructor.182
++ ___swift_closure_destructor.19
++ ___swift_closure_destructor.195
++ ___swift_closure_destructor.2
++ ___swift_closure_destructor.201
++ ___swift_closure_destructor.208
++ ___swift_closure_destructor.21
++ ___swift_closure_destructor.218
++ ___swift_closure_destructor.222
++ ___swift_closure_destructor.229
++ ___swift_closure_destructor.23
++ ___swift_closure_destructor.236
++ ___swift_closure_destructor.243
++ ___swift_closure_destructor.250
++ ___swift_closure_destructor.257
++ ___swift_closure_destructor.26
++ ___swift_closure_destructor.264
++ ___swift_closure_destructor.271
++ ___swift_closure_destructor.28
++ ___swift_closure_destructor.29
++ ___swift_closure_destructor.32
++ ___swift_closure_destructor.34
++ ___swift_closure_destructor.35
++ ___swift_closure_destructor.37
++ ___swift_closure_destructor.39
++ ___swift_closure_destructor.4
++ ___swift_closure_destructor.41
++ ___swift_closure_destructor.45
++ ___swift_closure_destructor.49
++ ___swift_closure_destructor.5
++ ___swift_closure_destructor.55
++ ___swift_closure_destructor.5Tm
++ ___swift_closure_destructor.61
++ ___swift_closure_destructor.64
++ ___swift_closure_destructor.7
++ __swift_FORCE_LOAD_$_swiftCoreAudio
++ __swift_FORCE_LOAD_$_swiftCoreAudio_$_AppProtectionUI
++ _block_copy_helper.103
++ _block_copy_helper.109
++ _block_copy_helper.115
++ _block_copy_helper.121
++ _block_copy_helper.128
++ _block_copy_helper.132
++ _block_copy_helper.136
++ _block_copy_helper.140
++ _block_copy_helper.147
++ _block_copy_helper.151
++ _block_copy_helper.155
++ _block_copy_helper.159
++ _block_copy_helper.166
++ _block_copy_helper.170
++ _block_copy_helper.174
++ _block_copy_helper.178
++ _block_copy_helper.191
++ _block_copy_helper.197
++ _block_copy_helper.204
++ _block_copy_helper.21
++ _block_copy_helper.224
++ _block_copy_helper.231
++ _block_copy_helper.238
++ _block_copy_helper.245
++ _block_copy_helper.252
++ _block_copy_helper.259
++ _block_copy_helper.266
++ _block_copy_helper.273
++ _block_copy_helper.28
++ _block_copy_helper.37
++ _block_copy_helper.43
++ _block_copy_helper.51
++ _block_copy_helper.57
++ _block_copy_helper.66
++ _block_copy_helper.73
++ _block_copy_helper.77
++ _block_copy_helper.81
++ _block_copy_helper.85
++ _block_copy_helper.89
++ _block_copy_helper.93
++ _block_copy_helper.97
++ _block_descriptor.105
++ _block_descriptor.111
++ _block_descriptor.117
++ _block_descriptor.123
++ _block_descriptor.130
++ _block_descriptor.134
++ _block_descriptor.138
++ _block_descriptor.142
++ _block_descriptor.149
++ _block_descriptor.153
++ _block_descriptor.157
++ _block_descriptor.161
++ _block_descriptor.168
++ _block_descriptor.172
++ _block_descriptor.176
++ _block_descriptor.180
++ _block_descriptor.193
++ _block_descriptor.199
++ _block_descriptor.206
++ _block_descriptor.226
++ _block_descriptor.23
++ _block_descriptor.233
++ _block_descriptor.240
++ _block_descriptor.247
++ _block_descriptor.254
++ _block_descriptor.261
++ _block_descriptor.268
++ _block_descriptor.275
++ _block_descriptor.30
++ _block_descriptor.39
++ _block_descriptor.45
++ _block_descriptor.53
++ _block_descriptor.59
++ _block_descriptor.68
++ _block_descriptor.75
++ _block_descriptor.79
++ _block_descriptor.83
++ _block_descriptor.87
++ _block_descriptor.91
++ _block_descriptor.95
++ _block_descriptor.99
++ _block_destroy_helper.104
++ _block_destroy_helper.110
++ _block_destroy_helper.116
++ _block_destroy_helper.122
++ _block_destroy_helper.129
++ _block_destroy_helper.133
++ _block_destroy_helper.137
++ _block_destroy_helper.141
++ _block_destroy_helper.148
++ _block_destroy_helper.152
++ _block_destroy_helper.156
++ _block_destroy_helper.160
++ _block_destroy_helper.167
++ _block_destroy_helper.171
++ _block_destroy_helper.175
++ _block_destroy_helper.179
++ _block_destroy_helper.192
++ _block_destroy_helper.198
++ _block_destroy_helper.205
++ _block_destroy_helper.22
++ _block_destroy_helper.225
++ _block_destroy_helper.232
++ _block_destroy_helper.239
++ _block_destroy_helper.246
++ _block_destroy_helper.253
++ _block_destroy_helper.260
++ _block_destroy_helper.267
++ _block_destroy_helper.274
++ _block_destroy_helper.29
++ _block_destroy_helper.38
++ _block_destroy_helper.44
++ _block_destroy_helper.52
++ _block_destroy_helper.58
++ _block_destroy_helper.67
++ _block_destroy_helper.74
++ _block_destroy_helper.78
++ _block_destroy_helper.82
++ _block_destroy_helper.86
++ _block_destroy_helper.90
++ _block_destroy_helper.94
++ _block_destroy_helper.98
++ _objc_claimAutoreleasedReturnValue
++ _objc_msgSend$colorWithAlphaComponent:
++ _objc_msgSend$effectCombiningEffects:
++ _objc_msgSend$effectWithColor:
++ _objc_msgSend$systemBlackColor
++ _objc_retain_x1
++ _objc_retain_x5
++ _swift_release_x19
++ _swift_release_x20
++ _swift_release_x21
++ _swift_release_x22
++ _swift_release_x23
++ _swift_release_x24
++ _swift_release_x25
++ _swift_release_x26
++ _swift_release_x27
++ _swift_release_x8
++ _swift_retain_x19
++ _swift_retain_x2
++ _swift_retain_x20
++ _swift_retain_x21
++ _swift_retain_x22
++ _swift_retain_x23
++ _swift_retain_x24
++ _swift_retain_x25
++ _swift_retain_x26
++ _swift_retain_x27
+- GCC_except_table21
+- _OUTLINED_FUNCTION_6
+- _OUTLINED_FUNCTION_7
+- __PROTOCOLS_APEducationFlowViewController.48
+- ___36-[APBaseShieldView emergencyTapped:]_block_invoke.88
+- ___36-[APBaseShieldView emergencyTapped:]_block_invoke.88.cold.1
+- ___36-[APBaseShieldView emergencyTapped:]_block_invoke.88.cold.2
+- ___92-[APBaseShieldView initWithLocalizedApplicationName:useHiddenStyle:needEmergencyCallButton:]_block_invoke.61
+- ___92-[APBaseShieldView initWithLocalizedApplicationName:useHiddenStyle:needEmergencyCallButton:]_block_invoke_2.78
+- ___block_literal_global.155
+- ___block_literal_global.41
+- ___block_literal_global.63
+- ___block_literal_global.80
+- ___block_literal_global.86
+- _block_copy_helper.104
+- _block_copy_helper.110
+- _block_copy_helper.116
+- _block_copy_helper.122
+- _block_copy_helper.129
+- _block_copy_helper.133
+- _block_copy_helper.137
+- _block_copy_helper.141
+- _block_copy_helper.148
+- _block_copy_helper.152
+- _block_copy_helper.156
+- _block_copy_helper.160
+- _block_copy_helper.167
+- _block_copy_helper.171
+- _block_copy_helper.175
+- _block_copy_helper.179
+- _block_copy_helper.192
+- _block_copy_helper.198
+- _block_copy_helper.205
+- _block_copy_helper.22
+- _block_copy_helper.225
+- _block_copy_helper.232
+- _block_copy_helper.239
+- _block_copy_helper.246
+- _block_copy_helper.253
+- _block_copy_helper.260
+- _block_copy_helper.267
+- _block_copy_helper.274
+- _block_copy_helper.29
+- _block_copy_helper.38
+- _block_copy_helper.44
+- _block_copy_helper.52
+- _block_copy_helper.58
+- _block_copy_helper.67
+- _block_copy_helper.74
+- _block_copy_helper.78
+- _block_copy_helper.8
+- _block_copy_helper.82
+- _block_copy_helper.86
+- _block_copy_helper.90
+- _block_copy_helper.94
+- _block_copy_helper.98
+- _block_descriptor.10
+- _block_descriptor.100
+- _block_descriptor.106
+- _block_descriptor.112
+- _block_descriptor.118
+- _block_descriptor.124
+- _block_descriptor.131
+- _block_descriptor.135
+- _block_descriptor.139
+- _block_descriptor.143
+- _block_descriptor.150
+- _block_descriptor.154
+- _block_descriptor.158
+- _block_descriptor.162
+- _block_descriptor.169
+- _block_descriptor.173
+- _block_descriptor.177
+- _block_descriptor.181
+- _block_descriptor.194
+- _block_descriptor.200
+- _block_descriptor.207
+- _block_descriptor.227
+- _block_descriptor.234
+- _block_descriptor.24
+- _block_descriptor.241
+- _block_descriptor.248
+- _block_descriptor.255
+- _block_descriptor.262
+- _block_descriptor.269
+- _block_descriptor.276
+- _block_descriptor.31
+- _block_descriptor.40
+- _block_descriptor.46
+- _block_descriptor.54
+- _block_descriptor.60
+- _block_descriptor.69
+- _block_descriptor.76
+- _block_descriptor.80
+- _block_descriptor.84
+- _block_descriptor.88
+- _block_descriptor.92
+- _block_descriptor.96
+- _block_destroy_helper.105
+- _block_destroy_helper.111
+- _block_destroy_helper.117
+- _block_destroy_helper.123
+- _block_destroy_helper.130
+- _block_destroy_helper.134
+- _block_destroy_helper.138
+- _block_destroy_helper.142
+- _block_destroy_helper.149
+- _block_destroy_helper.153
+- _block_destroy_helper.157
+- _block_destroy_helper.161
+- _block_destroy_helper.168
+- _block_destroy_helper.172
+- _block_destroy_helper.176
+- _block_destroy_helper.180
+- _block_destroy_helper.193
+- _block_destroy_helper.199
+- _block_destroy_helper.206
+- _block_destroy_helper.226
+- _block_destroy_helper.23
+- _block_destroy_helper.233
+- _block_destroy_helper.240
+- _block_destroy_helper.247
+- _block_destroy_helper.254
+- _block_destroy_helper.261
+- _block_destroy_helper.268
+- _block_destroy_helper.275
+- _block_destroy_helper.30
+- _block_destroy_helper.39
+- _block_destroy_helper.45
+- _block_destroy_helper.53
+- _block_destroy_helper.59
+- _block_destroy_helper.68
+- _block_destroy_helper.75
+- _block_destroy_helper.79
+- _block_destroy_helper.83
+- _block_destroy_helper.87
+- _block_destroy_helper.9
+- _block_destroy_helper.91
+- _block_destroy_helper.95
+- _block_destroy_helper.99
+- _objc_release_x10
+- _objc_retain_x27
+- _objectdestroy.13Tm
+- _objectdestroy.146Tm
+- _objectdestroy.6Tm
+CStrings:
+- "#16@0:8"
+- ".cxx_destruct"
+- "?"
+- "@\"<APBaseExtensionShieldViewDelegate>\""
+- "@\"<APBaseShieldViewDelegate>\""
+- "@\"<APButtonTrayScrollViewAssistantDelegate>\""
+- "@\"<APEducationViewControllerDelegate>\""
+- "@\"<APEducationViewControllerDelegate>\"16@0:8"
+- "@\"<APEmergencyCallHostViewControllerDelegate>\""
+- "@\"APApplication\""
+- "@\"APApplication\"16@0:8"
+- "@\"APButtonTrayScrollViewAssistant\""
+- "@\"APEmergencyCallHostViewController\""
+- "@\"APEnablementController\""
+- "@\"APSubject\""
+- "@\"APSystemAppOutlet\""
+- "@\"APWrappingView\""
+- "@\"NSArray\""
+- "@\"NSArray\"24@0:8@\"UITableView\"16"
+- "@\"NSArray\"32@0:8@\"UITableView\"16@\"NSIndexPath\"24"
+- "@\"NSHashTable\""
+- "@\"NSIndexPath\"24@0:8@\"UITableView\"16"
+- "@\"NSIndexPath\"32@0:8@\"UITableView\"16@\"NSIndexPath\"24"
+- "@\"NSIndexPath\"40@0:8@\"UITableView\"16@\"NSIndexPath\"24@\"NSIndexPath\"32"
+- "@\"NSObject<OS_dispatch_queue>\""
+- "@\"NSObject<OS_xpc_object>\""
+- "@\"NSString\""
+- "@\"NSString\"16@0:8"
+- "@\"NSString\"32@0:8@\"UITableView\"16@\"NSIndexPath\"24"
+- "@\"NSString\"32@0:8@\"UITableView\"16q24"
+- "@\"OBBoldTrayButton\""
+- "@\"OBNavigationController\""
+- "@\"OBWelcomeController\""
+- "@\"SBSRemoteAlertHandle\""
+- "@\"UIAccessibilityElement\""
+- "@\"UIButton\""
+- "@\"UIContextMenuConfiguration\"48@0:8@\"UITableView\"16@\"NSIndexPath\"24{CGPoint=dd}32"
+- "@\"UIImage\""
+- "@\"UIImageView\""
+- "@\"UILabel\""
+- "@\"UISwipeActionsConfiguration\"32@0:8@\"UITableView\"16@\"NSIndexPath\"24"
+- "@\"UITableViewCell\"32@0:8@\"UITableView\"16@\"NSIndexPath\"24"
+- "@\"UITargetedPreview\"32@0:8@\"UITableView\"16@\"UIContextMenuConfiguration\"24"
+- "@\"UIView\""
+- "@\"UIView\"24@0:8@\"APButtonTrayScrollViewAssistant\"16"
+- "@\"UIView\"24@0:8@\"UIScrollView\"16"
+- "@\"UIView\"32@0:8@\"UITableView\"16q24"
+- "@\"UIViewController\""
+- "@\"UIVisualEffectView\""
+- "@16@0:8"
+- "@24@0:8:16"
+- "@24@0:8@16"
+- "@24@0:8^@16"
+- "@28@0:8@16B24"
+- "@32@0:8:16@24"
+- "@32@0:8@16@24"
+- "@32@0:8@16@?24"
+- "@32@0:8@16B24B28"
+- "@32@0:8@16q24"
+- "@32@0:8Q16Q24"
+- "@32@0:8q16@24"
+- "@36@0:8@16@24B32"
+- "@40@0:8:16@24@32"
+- "@40@0:8@16@24@32"
+- "@40@0:8@16Q24Q32"
+- "@44@0:8@16@24B32@36"
+- "@48@0:8@16@24@32q40"
+- "@48@0:8@16@24{CGPoint=dd}32"
+- "@48@0:8{CGRect={CGPoint=dd}{CGSize=dd}}16"
+- "@52@0:8@16@24B32@36@44"
+- "@72@0:8@16@24{APSymbolBadgedAppIconViewMetrics=dd{CGPoint=dd}d}32"
+- "@?"
+- "APBaseExtensionShieldView"
+- "APBaseShieldView"
+- "APBaseShieldViewConfig"
+- "APButtonTrayScrollViewAssistant"
+- "APButtonTrayScrollViewAssistantDelegate"
+- "APEducationFlowViewController"
+- "APEducationVCPresentingViewController"
+- "APEducationViewController"
+- "APEducationViewControllerDelegate"
+- "APEducationViewControllerSystemActionDelegate"
+- "APEmergencyCallHostViewController"
+- "APEmergencyCallHostViewControllerDelegate"
+- "APEnablementController"
+- "APEnablementControllerObserver"
+- "APEnablementOracle"
+- "APFeatureSemioticsManager"
+- "APHideEducationViewController"
+- "APLockEducationViewController"
+- "APOneshotObserverAdapter"
+- "APShield"
+- "APSymbolBadgedAppIconView"
+- "APSystemAppOutletShield"
+- "APTCCDisclosureController"
+- "APWrappingView"
+- "AppProtectionUI"
+- "B"
+- "B16@0:8"
+- "B24@0:8#16"
+- "B24@0:8:16"
+- "B24@0:8@\"<APSystemAppOutletShield>\"16"
+- "B24@0:8@\"Protocol\"16"
+- "B24@0:8@\"UIScrollView\"16"
+- "B24@0:8@16"
+- "B32@0:8@\"UITableView\"16@\"NSIndexPath\"24"
+- "B32@0:8@\"UITableView\"16@\"UITableViewFocusUpdateContext\"24"
+- "B32@0:8@16@24"
+- "B40@0:8@\"UITableView\"16@\"NSIndexPath\"24@\"<UISpringLoadedInteractionContext>\"32"
+- "B40@0:8@16@24@32"
+- "B40@0:8Q16Q24@32"
+- "B48@0:8@\"UITableView\"16:24@\"NSIndexPath\"32@40"
+- "B48@0:8@16:24@32@40"
+- "B48@0:8^Q16^Q24@32^@40"
+- "CGColor"
+- "CGImage"
+- "LSUtilities"
+- "NSObject"
+- "Q16@0:8"
+- "SBSRemoteAlertHandleObserver"
+- "T#,R"
+- "T@\"<APBaseExtensionShieldViewDelegate>\",W,N,V_delegate"
+- "T@\"<APBaseShieldViewDelegate>\",W,N,V_delegate"
+- "T@\"<APButtonTrayScrollViewAssistantDelegate>\",W,N,V_delegate"
+- "T@\"<APEducationViewControllerDelegate>\",N,W,Vdelegate"
+- "T@\"<APEducationViewControllerDelegate>\",W,N"
+- "T@\"<APEducationViewControllerDelegate>\",W,N,Vdelegate"
+- "T@\"<APEducationViewControllerSystemActionDelegateDismissalDelegate>\",N,W,Vdelegate"
+- "T@\"<APEmergencyCallHostViewControllerDelegate>\",W,N,V_delegate"
+- "T@\"APApplication\",&,N,V_application"
+- "T@\"APApplication\",R,N"
+- "T@\"APApplication\",R,N,V_shieldedApplication"
+- "T@\"APFeatureSemioticsManager\",N,R"
+- "T@\"APSystemAppOutlet\",&,N,V_outlet"
+- "T@\"NSString\",?,R,C"
+- "T@\"NSString\",C,N,V_localizedName"
+- "T@\"NSString\",R,C"
+- "T@\"UIViewController\",N,&,VinitialAlertController"
+- "TB,N,R"
+- "TB,R,N"
+- "TQ,R"
+- "T{CGSize=dd},N,R"
+- "UIScrollViewDelegate"
+- "UITableViewDataSource"
+- "UITableViewDelegate"
+- "Vv16@0:8"
+- "^{_NSZone=}16@0:8"
+- "_TCCDisclosureController"
+- "_TtC15AppProtectionUI25CustomScrollViewAssistant"
+- "_TtC15AppProtectionUI29APOnBoardingWelcomeController"
+- "_TtC15AppProtectionUI35APLockedAppDisclosureViewController"
+- "_TtC15AppProtectionUI37APHiddenAppConfirmationViewController"
+- "_TtC15AppProtectionUI42APWelcomeControllerWithBraveButtonTrayView"
+- "_TtC15AppProtectionUI45APBraveAndIconoclasticSafeAreaUsingButtonTray"
+- "__systemImageNamedSwift:"
+- "_action"
+- "_alertHandle"
+- "_app"
+- "_appName"
+- "_application"
+- "_bundleID"
+- "_bundleIdentifiersWithAccess"
+- "_completion"
+- "_containerView"
+- "_controller"
+- "_delegate"
+- "_didCompleteWithError:"
+- "_doneButton"
+- "_emergencyCallButton"
+- "_emergencyVC"
+- "_feature"
+- "_handleServiceConnectionEvent:"
+- "_iconView"
+- "_label"
+- "_labelsElement"
+- "_listenerConnection"
+- "_localizedName"
+- "_lock"
+- "_navController"
+- "_observers"
+- "_outlet"
+- "_placeholderImage"
+- "_queue"
+- "_scrollViewAssistant"
+- "_serviceConnection"
+- "_setNoLongerWaitingForService"
+- "_shieldStyle"
+- "_shieldedApplication"
+- "_subject"
+- "_unlockButton"
+- "_users"
+- "_viewControllerForFullScreenPresentationFromView:"
+- "_visualEffectView"
+- "_waitingForService"
+- "_welcomeController"
+- "abortOngoingAuthWithCompletion:"
+- "accessibilityElements"
+- "accessibilityLabel"
+- "accessibilityViewIsModal"
+- "actionWithTitle:style:handler:"
+- "activateConstraints:"
+- "activateWithContext:"
+- "addAction:"
+- "addAction:forControlEvents:"
+- "addArrangedSubview:"
+- "addAttribute:value:range:"
+- "addBulletedListItemWithTitle:description:symbolName:"
+- "addButton:"
+- "addChildViewController:"
+- "addDoneButtonTarget:action:"
+- "addLayoutGuide:"
+- "addObject:"
+- "addShield:"
+- "addSubview:"
+- "addTarget:action:forControlEvents:"
+- "alertControllerWithTitle:message:preferredStyle:"
+- "allObjects"
+- "app"
+- "appIconImageView"
+- "appName"
+- "application"
+- "arrayByAddingObject:"
+- "arrayWithObjects:count:"
+- "assistant"
+- "authenticateUnconditionallyWithCompletion:"
+- "authenticateUnconditionallyWithReason:completion:"
+- "authorizationStatusForBundleIdentifier:"
+- "autorelease"
+- "background"
+- "badgeImageView"
+- "beginFlow"
+- "biometry"
+- "blackColor"
+- "boldButton"
+- "boolValue"
+- "bottomAnchor"
+- "bounds"
+- "bundleForClass:"
+- "bundleIdentifier"
+- "button"
+- "buttonTray"
+- "buttonTrayForAssistant:"
+- "buttonWithType:"
+- "canChangeHiddenStatusOfSubject:"
+- "canChangeLockedStatusOfSubject:"
+- "canEnablementAction:bePerformedForFeature:ofSubject:"
+- "cellConfiguration"
+- "centerXAnchor"
+- "centerYAnchor"
+- "checkedHidable"
+- "class"
+- "clearColor"
+- "clearConfiguration"
+- "colorWithDynamicProvider:"
+- "configureForRecord:"
+- "conformsToProtocol:"
+- "constraintEqualToAnchor:"
+- "constraintEqualToAnchor:constant:"
+- "constraintEqualToAnchor:multiplier:"
+- "constraintEqualToAnchor:multiplier:constant:"
+- "constraintEqualToConstant:"
+- "constraintEqualToSystemSpacingBelowAnchor:multiplier:"
+- "constraintLessThanOrEqualToAnchor:"
+- "containerView"
+- "contentInset"
+- "contentOffset"
+- "contentScrollViewForEdge:"
+- "continueFlowAfterPhase1"
+- "convertRect:toView:"
+- "copy"
+- "count"
+- "countByEnumeratingWithState:objects:count:"
+- "createTCCAccessDisclosureController"
+- "criticalAlertSetting"
+- "currentDevice"
+- "currentNotificationSettingsCenter"
+- "currentUser"
+- "customIconContainerView"
+- "d32@0:8@\"UITableView\"16@\"NSIndexPath\"24"
+- "d32@0:8@\"UITableView\"16q24"
+- "d32@0:8@16@24"
+- "d32@0:8@16q24"
+- "darkGrayColor"
+- "dealloc"
+- "debugDescription"
+- "defaultMetrics"
+- "defaultWorkspace"
+- "delegate"
+- "dequeueReusableCellWithIdentifier:"
+- "description"
+- "detach"
+- "dictionaryWithObjects:forKeys:count:"
+- "didMoveToParentViewController:"
+- "dismiss"
+- "dismissViewControllerAnimated:completion:"
+- "dispatchGroup"
+- "educationViewController:requestAuthenticationWithCompletion:"
+- "educationViewController:requestHideOfApplication:completion:"
+- "educationViewController:requestLockOfApplication:completion:"
+- "educationViewControllerRequestsDismissal:withResult:"
+- "effectWithStyle:"
+- "effectiveContainer"
+- "effectiveContainerLocalizedName"
+- "emergencyCallHostViewControllerDidDismiss:"
+- "emergencyTapped:"
+- "enablementController:didCompleteWithError:"
+- "entitlements"
+- "environment"
+- "errorWithDomain:code:userInfo:"
+- "extraTopInset"
+- "fetchUsersForRecord:completion:"
+- "filledButtonConfiguration"
+- "findApplicationRecordWithError:"
+- "firstBaselineAnchor"
+- "frame"
+- "frameInView:"
+- "getDefaultApplicationCategories:withCurrentDefaultApplication:error:"
+- "getPreferredEnablementAction:preferredEnableableFeature:forSubject:error:"
+- "glassButtonConfiguration"
+- "grayColor"
+- "hasAppeared"
+- "hash"
+- "headerView"
+- "heightAnchor"
+- "identityForApplicationJobLabel:"
+- "imageDescriptorNamed:"
+- "imageForDescriptor:"
+- "imageForIcon:"
+- "imageWithCGImage:scale:orientation:"
+- "indexPathForPreferredFocusedViewInTableView:"
+- "infoDictionary"
+- "init"
+- "initForApplication:"
+- "initWithAPViewSubject:unlockButtonHidden:"
+- "initWithAccessibilityContainer:"
+- "initWithApplication:"
+- "initWithApplication:badgeImage:metrics:"
+- "initWithApplication:symbolType:metrics:"
+- "initWithApplication:users:includeDoneButton:scrollViewAssistant:"
+- "initWithApplicationIconImage:badgeImage:metrics:"
+- "initWithApplicationIconImage:symbolType:metrics:"
+- "initWithBundleIdentifier:"
+- "initWithBundleIdentifier:allowPlaceholder:error:"
+- "initWithCGImage:scale:orientation:"
+- "initWithCoder:"
+- "initWithConfig:"
+- "initWithController:completionHandler:"
+- "initWithDelegate:"
+- "initWithDomain:code:userInfo:"
+- "initWithEffect:"
+- "initWithFrame:"
+- "initWithFrame:style:"
+- "initWithImage:"
+- "initWithLocalizedApplicationName:"
+- "initWithLocalizedApplicationName:hidden:"
+- "initWithLocalizedApplicationName:iconImage:"
+- "initWithLocalizedApplicationName:iconImage:apExtension:"
+- "initWithLocalizedApplicationName:iconImage:unlockButtonHidden:"
+- "initWithLocalizedApplicationName:iconImage:unlockButtonHidden:apExtension:"
+- "initWithLocalizedApplicationName:iconImage:unlockButtonHidden:apExtension:apViewSubject:"
+- "initWithLocalizedApplicationName:useHiddenStyle:needEmergencyCallButton:"
+- "initWithNibName:bundle:"
+- "initWithRootViewController:"
+- "initWithSceneProvidingProcess:configurationIdentifier:"
+- "initWithSize:scale:"
+- "initWithString:"
+- "initWithString:attributes:"
+- "initWithStyle:reuseIdentifier:"
+- "initWithSubject:forEnablement:ofFeature:"
+- "initWithTitle:detailText:icon:"
+- "initWithTitle:detailText:icon:adoptTableViewScrollView:"
+- "initWithTitle:detailText:icon:contentLayout:"
+- "initWithTitle:detailText:symbolName:contentLayout:"
+- "initWithType:"
+- "initialAlertController"
+- "insertSubview:aboveSubview:"
+- "intrinsicContentSize"
+- "invalidate"
+- "isEqual:"
+- "isEqualTo:"
+- "isEqualToString:"
+- "isFirstParty"
+- "isHidden"
+- "isKindOfClass:"
+- "isLocked"
+- "isLockedOut"
+- "isMainThread"
+- "isMemberOfClass:"
+- "isProxy"
+- "isUsable"
+- "kickoff"
+- "labelColor"
+- "lastBaselineAnchor"
+- "layer"
+- "layoutIfNeeded"
+- "layoutMargins"
+- "layoutSubviews"
+- "lazyRecordApp"
+- "leadingAnchor"
+- "length"
+- "linkButton"
+- "loadRecordWithError:"
+- "loadView"
+- "localizedDescriptionForCurrentBestAuthenticationMechanism"
+- "localizedName"
+- "localizedStringForKey:value:table:"
+- "mainScreen"
+- "metrics"
+- "metricsForEducation"
+- "metricsForExtensionShield"
+- "navController"
+- "navigationItem"
+- "newHandleWithDefinition:configurationContext:"
+- "notificationSettings"
+- "numberOfSectionsInTableView:"
+- "numberWithUnsignedInteger:"
+- "objectAtIndex:"
+- "objectForKey:ofClass:"
+- "oneshotBeginFlowToSetEnablement:ofFeature:forSubject:completion:"
+- "openURL:configuration:completionHandler:"
+- "outlet"
+- "performAdjustmentsForScrollView:"
+- "performSelector:"
+- "performSelector:withObject:"
+- "performSelector:withObject:withObject:"
+- "phase1ViewCancelButtonPressed:"
+- "phase1ViewContinueButtonPressed:"
+- "phase3ViewCancelButtonPressed:"
+- "phase3ViewContinueButtonPressed:"
+- "placeholder"
+- "preferredFontForTextStyle:"
+- "prepareForReuse"
+- "prepareImageForDescriptor:"
+- "presentEducationViewController:"
+- "presentViewController:animated:completion:"
+- "presentedViewController"
+- "processInfo"
+- "pushViewController:animated:"
+- "q24@0:8@\"UITableView\"16"
+- "q24@0:8@16"
+- "q32@0:8@\"UITableView\"16@\"NSIndexPath\"24"
+- "q32@0:8@\"UITableView\"16q24"
+- "q32@0:8@16@24"
+- "q32@0:8@16q24"
+- "q40@0:8@\"UITableView\"16@\"NSString\"24q32"
+- "q40@0:8@16@24q32"
+- "rangeOfString:"
+- "registerClass:forCellReuseIdentifier:"
+- "registerObserver:"
+- "release"
+- "reloadData"
+- "remoteAlertHandle:didInvalidateWithError:"
+- "remoteAlertHandleDidActivate:"
+- "remoteAlertHandleDidDeactivate:"
+- "removeObject:"
+- "removeShield:"
+- "requestEmergencyCallControllerWithCompletion:"
+- "resetShield"
+- "respondsToSelector:"
+- "retain"
+- "retainCount"
+- "row"
+- "safeAreaLayoutGuide"
+- "scale"
+- "scaledFontForFont:"
+- "scrollView"
+- "scrollViewAssistant"
+- "scrollViewDidChangeAdjustedContentInset:"
+- "scrollViewDidEndDecelerating:"
+- "scrollViewDidEndDragging:willDecelerate:"
+- "scrollViewDidEndScrollingAnimation:"
+- "scrollViewDidEndZooming:withView:atScale:"
+- "scrollViewDidScroll:"
+- "scrollViewDidScrollToTop:"
+- "scrollViewDidZoom:"
+- "scrollViewShouldScrollToTop:"
+- "scrollViewWillBeginDecelerating:"
+- "scrollViewWillBeginDragging:"
+- "scrollViewWillBeginZooming:withView:"
+- "scrollViewWillEndDragging:withVelocity:targetContentOffset:"
+- "sectionIndexTitlesForTableView:"
+- "self"
+- "setAccessibilityFrameInContainerSpace:"
+- "setAccessibilityHint:"
+- "setAccessibilityIdentifier:"
+- "setAccessibilityLabel:"
+- "setAlignment:"
+- "setApplication:"
+- "setAttributedText:"
+- "setAttributedTitle:"
+- "setAttributedTitle:forState:"
+- "setAxis:"
+- "setBackground:"
+- "setBackgroundColor:"
+- "setBackgroundView:"
+- "setBaseBackgroundColor:"
+- "setBaseForegroundColor:"
+- "setButtonSize:"
+- "setClipsToBounds:"
+- "setConfiguration:"
+- "setContentConfiguration:"
+- "setContentInset:"
+- "setContentMode:"
+- "setContentOffset:animated:"
+- "setCornerRadius:"
+- "setCustomView:"
+- "setDataSource:"
+- "setDelegate:"
+- "setDetents:"
+- "setDistribution:"
+- "setDrawBorder:"
+- "setEnabled:"
+- "setFont:"
+- "setFrame:"
+- "setHidden:"
+- "setImage:"
+- "setInitialAlertController:"
+- "setInsetsLayoutMarginsFromSafeArea:"
+- "setLayoutMargins:"
+- "setLayoutMarginsFollowReadableWidth:"
+- "setLocalizedName:"
+- "setModalInPresentation:"
+- "setModalPresentationStyle:"
+- "setNumberOfLines:"
+- "setOutlet:"
+- "setPreferredAction:"
+- "setPriority:"
+- "setRightBarButtonItem:"
+- "setScrollContentInsets"
+- "setScrollIndicatorInsets:"
+- "setSensitive:"
+- "setSeverity:"
+- "setShadowColor:"
+- "setShadowOffset:"
+- "setShadowOpacity:"
+- "setShadowRadius:"
+- "setShieldStyle:"
+- "setSize:"
+- "setSubject:isHidden:completion:"
+- "setSubject:isLocked:completion:"
+- "setTableView:"
+- "setText:"
+- "setTextAlignment:"
+- "setTextColor:"
+- "setTitle:forState:"
+- "setTitleColor:forState:"
+- "setTranslatesAutoresizingMaskIntoConstraints:"
+- "setUserInfo:"
+- "setView:"
+- "setViewControllers:"
+- "setXpcEndpoint:"
+- "shadowRadius"
+- "sharedGuard"
+- "sharedInstance"
+- "sharedManager"
+- "sheetPresentationController"
+- "shieldViewUnlockButtonPressed:"
+- "shieldedApplication"
+- "size"
+- "sizeThatFits:"
+- "sourceSettings"
+- "sourceWithIdentifier:"
+- "stack"
+- "state"
+- "stringByAppendingString:"
+- "stringWithFormat:"
+- "subviews"
+- "superclass"
+- "systemActionDelegate:requestsDismissalOfEducationController:"
+- "systemBackgroundColor"
+- "systemFontOfSize:weight:"
+- "systemGroupedBackgroundColor"
+- "systemImageNameForCurrentBestAuthenticationMechanism"
+- "systemImageNameForEnablementAction:ofFeature:"
+- "systemLayoutSizeFittingSize:"
+- "systemLayoutSizeFittingSize:withHorizontalFittingPriority:verticalFittingPriority:"
+- "systemWhiteColor"
+- "tableCellGroupedBackgroundColor"
+- "tableView"
+- "tableView:accessoryButtonTappedForRowWithIndexPath:"
+- "tableView:accessoryTypeForRowWithIndexPath:"
+- "tableView:canEditRowAtIndexPath:"
+- "tableView:canFocusRowAtIndexPath:"
+- "tableView:canMoveRowAtIndexPath:"
+- "tableView:canPerformAction:forRowAtIndexPath:withSender:"
+- "tableView:canPerformPrimaryActionForRowAtIndexPath:"
+- "tableView:cellForRowAtIndexPath:"
+- "tableView:commitEditingStyle:forRowAtIndexPath:"
+- "tableView:contextMenuConfigurationForRowAtIndexPath:point:"
+- "tableView:didBeginMultipleSelectionInteractionAtIndexPath:"
+- "tableView:didDeselectRowAtIndexPath:"
+- "tableView:didEndDisplayingCell:forRowAtIndexPath:"
+- "tableView:didEndDisplayingFooterView:forSection:"
+- "tableView:didEndDisplayingHeaderView:forSection:"
+- "tableView:didEndEditingRowAtIndexPath:"
+- "tableView:didHighlightRowAtIndexPath:"
+- "tableView:didSelectRowAtIndexPath:"
+- "tableView:didUnhighlightRowAtIndexPath:"
+- "tableView:didUpdateFocusInContext:withAnimationCoordinator:"
+- "tableView:editActionsForRowAtIndexPath:"
+- "tableView:editingStyleForRowAtIndexPath:"
+- "tableView:estimatedHeightForFooterInSection:"
+- "tableView:estimatedHeightForHeaderInSection:"
+- "tableView:estimatedHeightForRowAtIndexPath:"
+- "tableView:heightForFooterInSection:"
+- "tableView:heightForHeaderInSection:"
+- "tableView:heightForRowAtIndexPath:"
+- "tableView:indentationLevelForRowAtIndexPath:"
+- "tableView:leadingSwipeActionsConfigurationForRowAtIndexPath:"
+- "tableView:moveRowAtIndexPath:toIndexPath:"
+- "tableView:numberOfRowsInSection:"
+- "tableView:performAction:forRowAtIndexPath:withSender:"
+- "tableView:performPrimaryActionForRowAtIndexPath:"
+- "tableView:previewForDismissingContextMenuWithConfiguration:"
+- "tableView:previewForHighlightingContextMenuWithConfiguration:"
+- "tableView:sectionForSectionIndexTitle:atIndex:"
+- "tableView:selectionFollowsFocusForRowAtIndexPath:"
+- "tableView:shouldBeginMultipleSelectionInteractionAtIndexPath:"
+- "tableView:shouldHighlightRowAtIndexPath:"
+- "tableView:shouldIndentWhileEditingRowAtIndexPath:"
+- "tableView:shouldShowMenuForRowAtIndexPath:"
+- "tableView:shouldSpringLoadRowAtIndexPath:withContext:"
+- "tableView:shouldUpdateFocusInContext:"
+- "tableView:targetIndexPathForMoveFromRowAtIndexPath:toProposedIndexPath:"
+- "tableView:titleForDeleteConfirmationButtonForRowAtIndexPath:"
+- "tableView:titleForFooterInSection:"
+- "tableView:titleForHeaderInSection:"
+- "tableView:trailingSwipeActionsConfigurationForRowAtIndexPath:"
+- "tableView:viewForFooterInSection:"
+- "tableView:viewForHeaderInSection:"
+- "tableView:willBeginEditingRowAtIndexPath:"
+- "tableView:willDeselectRowAtIndexPath:"
+- "tableView:willDisplayCell:forRowAtIndexPath:"
+- "tableView:willDisplayContextMenuWithConfiguration:animator:"
+- "tableView:willDisplayFooterView:forSection:"
+- "tableView:willDisplayHeaderView:forSection:"
+- "tableView:willEndContextMenuInteractionWithConfiguration:animator:"
+- "tableView:willPerformPreviewActionForMenuWithConfiguration:animator:"
+- "tableView:willSelectRowAtIndexPath:"
+- "tableViewDidEndMultipleSelectionInteraction:"
+- "tccController"
+- "tccUsers"
+- "titleForEnablementAction:ofFeature:"
+- "topAnchor"
+- "trailingAnchor"
+- "transitionWithView:duration:options:animations:completion:"
+- "unlockTapped:"
+- "unregisterObserver:"
+- "updateConfigurationWithPreparedIconImage:"
+- "userInterfaceIdiom"
+- "userInterfaceStyle"
+- "v16@0:8"
+- "v16@?0@\"NSError\"8"
+- "v16@?0@\"UIAlertAction\"8"
+- "v20@0:8B16"
+- "v24@0:8@\"<APEducationViewControllerDelegate>\"16"
+- "v24@0:8@\"APEmergencyCallHostViewController\"16"
+- "v24@0:8@\"SBSRemoteAlertHandle\"16"
+- "v24@0:8@\"UIScrollView\"16"
+- "v24@0:8@\"UITableView\"16"
+- "v24@0:8@16"
+- "v24@0:8Q16"
+- "v24@?0@\"NSDictionary\"8@\"NSError\"16"
+- "v28@0:8@\"UIScrollView\"16B24"
+- "v28@0:8@16B24"
+- "v32@0:8@\"APEnablementController\"16@\"NSError\"24"
+- "v32@0:8@\"SBSRemoteAlertHandle\"16@\"NSError\"24"
+- "v32@0:8@\"UIScrollView\"16@\"UIView\"24"
+- "v32@0:8@\"UITableView\"16@\"NSIndexPath\"24"
+- "v32@0:8@\"UIViewController<APEducationViewController>\"16@?<v@?B@\"NSError\">24"
+- "v32@0:8@\"UIViewController<APEducationViewController>\"16q24"
+- "v32@0:8@16:24"
+- "v32@0:8@16@24"
+- "v32@0:8@16@?24"
+- "v32@0:8@16q24"
+- "v40@0:8@\"UIScrollView\"16@\"UIView\"24d32"
+- "v40@0:8@\"UITableView\"16@\"NSIndexPath\"24@\"NSIndexPath\"32"
+- "v40@0:8@\"UITableView\"16@\"UIContextMenuConfiguration\"24@\"<UIContextMenuInteractionAnimating>\"32"
+- "v40@0:8@\"UITableView\"16@\"UIContextMenuConfiguration\"24@\"<UIContextMenuInteractionCommitAnimating>\"32"
+- "v40@0:8@\"UITableView\"16@\"UITableViewCell\"24@\"NSIndexPath\"32"
+- "v40@0:8@\"UITableView\"16@\"UITableViewFocusUpdateContext\"24@\"UIFocusAnimationCoordinator\"32"
+- "v40@0:8@\"UITableView\"16@\"UIView\"24q32"
+- "v40@0:8@\"UITableView\"16q24@\"NSIndexPath\"32"
+- "v40@0:8@\"UIViewController<APEducationViewController>\"16@\"APApplication\"24@?<v@?B@\"NSError\">32"
+- "v40@0:8@16@24@32"
+- "v40@0:8@16@24@?32"
+- "v40@0:8@16@24d32"
+- "v40@0:8@16@24q32"
+- "v40@0:8@16q24@32"
+- "v48@0:8@\"UIScrollView\"16{CGPoint=dd}24N^{CGPoint=dd}40"
+- "v48@0:8@\"UITableView\"16:24@\"NSIndexPath\"32@40"
+- "v48@0:8@16:24@32@40"
+- "v48@0:8@16{CGPoint=dd}24N^{CGPoint=dd}40"
+- "v48@0:8Q16Q24@32@?40"
+- "view"
+- "viewDidAppear:"
+- "viewDidLayoutSubviews"
+- "viewDidLoad"
+- "viewForZoomingInScrollView:"
+- "waitForManagedProtectability:"
+- "wantsAnimatedPresentation"
+- "weakObjectsHashTable"
+- "welcomeController"
+- "welcomeScrollView"
+- "welcomeView"
+- "whiteColor"
+- "widthAnchor"
+- "window"
+- "zone"
+- "{APSymbolBadgedAppIconViewMetrics=dd{CGPoint=dd}d}16@0:8"
+- "{CGSize=dd}16@0:8"
+- "{CGSize=dd}32@0:8{CGSize=dd}16"
+- "{CGSize=dd}40@0:8{CGSize=dd}16f32f36"
+- "{os_unfair_lock_s=\"_os_unfair_lock_opaque\"I}"
+
+```

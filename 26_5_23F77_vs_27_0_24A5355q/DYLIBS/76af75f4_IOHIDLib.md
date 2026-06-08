@@ -1,0 +1,698 @@
+## IOHIDLib
+
+> `/System/Library/Extensions/IOHIDFamily.kext/PlugIns/IOHIDLib.plugin/IOHIDLib`
+
+```diff
+
+-2238.120.5.0.0
+-  __TEXT.__text: 0xe438 sha256:42e016b9c4a9f4b8d5bd5aac808ee1af07c69fedcada7b038fdf57e792c1e5da
+-  __TEXT.__auth_stubs: 0x950 sha256:79bfe4dc1a3312c9ac250a54db3b03cb3c6a0bc59e1a628eed033f4837877e86
+-  __TEXT.__objc_methlist: 0x7d8 sha256:87c4137f897745ff64d4fd0ce70f16d1031a853ec9bc57152287a22343d85e96
+-  __TEXT.__const: 0xa8 sha256:5c88cd56abb2454329bf63ab6e9243dcd1f9bd684310cf96cd17493f10c30fc9
+-  __TEXT.__oslogstring: 0xa0f sha256:1aee9cf10b0bb113aed060bd50c563e42c38aea7fbec6f5c5cff9b9d47f2ec4e
+-  __TEXT.__cstring: 0xb25 sha256:d1def5dd663a8f49bf4222871a782c9edcd2239bc186577fdc29762a247dd5a2
+-  __TEXT.__gcc_except_tab: 0x314 sha256:d7b75c30b24b50e62a521a7303106736afb2e53390592bb4bc5225d052e57d1e
+-  __TEXT.__dof_iohidfami: 0x28d sha256:fcb4d2f48bc2c99f8669d2adecf6c3d5c1fda379978bb743402be5232fd348bc
+-  __TEXT.__unwind_info: 0x450 sha256:4dec445c61f52640c2d6783f05c2435ce9c1d1fc57d8760dcf94e998aa076892
+-  __TEXT.__objc_classname: 0xca sha256:577ccc61dff0271f402e2bc9b7208622505b546d1d3cbdbfabd79b44ca6473d9
+-  __TEXT.__objc_methname: 0x1204 sha256:21fc2b08677ddbd809b54d168767fe6c6b1faa94034c40728fd6bcdb4041f799
+-  __TEXT.__objc_methtype: 0xbdd sha256:832289dba2cf42eaa81f6bad9c18f5d0bb1cfb947d850a9b2b373369004e6c16
+-  __TEXT.__objc_stubs: 0x13c0 sha256:32e12df062f7c84e119682b3a90e8a201f332457296f46b795c086ca8c9f745a
+-  __DATA_CONST.__got: 0x108 sha256:fbd596005dff4237793b24a9eee4c4b0dcaaa960b7e1bba436b72d02a629071b
+-  __DATA_CONST.__const: 0xe0 sha256:f0eda95380de4018f9a8d3a6f644c203ad70b605b37d949792cdce176290940b
+-  __DATA_CONST.__objc_classlist: 0x50 sha256:1f03083828605abc6bf8a36e2ce3c68165fa551f1cfed6fafa83b3d4aaaeae22
++2353.0.0.0.1
++  __TEXT.__text: 0x5184 sha256:7ee04f7360115d367513fb0881d906333417efea305ea339bb49385429704406
++  __TEXT.__objc_methlist: 0x110 sha256:23f2a77ab001cd7e2fc3b7f49e13e401f287233e86d3588802ffa01e26476beb
++  __TEXT.__gcc_except_tab: 0x60 sha256:efe9611b0d4fa9e0aec7e9a3e3fa753802425ec0dcd8fb38713c68d61ca363a3
++  __TEXT.__oslogstring: 0x6c4 sha256:efdea37130454b28fb84a935c8ff73be3c298c2575d3e9176ca167f507be8dd6
++  __TEXT.__const: 0x98 sha256:58d7a197da85aa14f696e11dd39efea3ce6b67a1533af87823ed0fee2dc9934c
++  __TEXT.__cstring: 0x788 sha256:2e2c57c73d1161ab8c66db1ab6ff40d867c673a0f1577d53e81d77c13c32d521
++  __TEXT.__unwind_info: 0x180 sha256:e23875f0f4cd77c8a368ee35b6763af662abbd806a4f2ff362ffd5a0f1fcafb1
++  __TEXT.__objc_stubs: 0x0
++  __TEXT.__auth_stubs: 0x0
++  __TEXT.__objc_classname: 0x0
++  __TEXT.__objc_methname: 0x0
++  __TEXT.__objc_methtype: 0x0
++  __DATA_CONST.__const: 0x50 sha256:5e86f40c2daa94533a5a1296d3291963e15286aa8120561c64792b0bdd96234f
++  __DATA_CONST.__objc_classlist: 0x8 sha256:e50b1efcb006b7d4ea4079ee9a75a72ce5c329b93768d4d3162777959727a1cf
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x548 sha256:1408d6a77824b5a57a0dceb5635a28c13ede4ffe80e359c5c144294003656a0d
+-  __DATA_CONST.__objc_superrefs: 0x50 sha256:8e4519c8244cd346709299c83ebfc06c07ae83cd0284c3f9e8143edd4dfeff8b
+-  __AUTH_CONST.__auth_got: 0x4c0 sha256:d32be7290cf3eae05c3cbf84419bea896c8347f56627b9cedb170307d6cdabae
+-  __AUTH_CONST.__const: 0xb8 sha256:3133bfbe4e1d55f45cb261d34610ec861a390534ff7942c379aca09e704a9b2f
+-  __AUTH_CONST.__cfstring: 0x1160 sha256:8f5d5f30916b342f7ff36e9fb5708951ad0ded9c0ac055a6bd4a46fe7ccf4b52
+-  __AUTH_CONST.__objc_const: 0x1240 sha256:5a35af3d9dadbc80eaa13a12997e441aa7d2719a39692929f3ab0e7bf7644c53
+-  __AUTH_CONST.__objc_intobj: 0x30 sha256:2ca1c394c68b60b5863c8b6126d3d1c77585452a242de02112536a29a1ee974a
+-  __AUTH.__objc_data: 0x190 sha256:e85043358471e8ab7005e13d4264c98e9638cb6a2c440c19107b8fbb72ef9043
+-  __AUTH.__data: 0x98 sha256:7478a1e248c8e4ac493a6e9d869e91905e2a55fc809013276613fb46adc4a2b7
+-  __DATA.__objc_ivar: 0x154 sha256:78a13e6f751f1588cea2fb5578216c24bdf49c99de3a972baa1a121ed2ff56aa
++  __DATA_CONST.__objc_selrefs: 0x208 sha256:f2c37d6e62bbc90b1c305cce1e537b23131e147a735eda8f9de6eeadaa4c06fd
++  __DATA_CONST.__objc_superrefs: 0x8 sha256:e825065ddb1a2cb69a2fcd300ae6b4d03d48ad672e1511a3a3274951f8e7ab19
++  __DATA_CONST.__got: 0xa8 sha256:e508fc84919ab4c4ed46cfa141128d6d5880d403e7dab6461946eec337eb34ba
++  __AUTH_CONST.__const: 0x98 sha256:a098c57e76dfb3761d5604c3ec2c84646837c902a6f18e974d6f6d0868178eb3
++  __AUTH_CONST.__cfstring: 0xbe0 sha256:71d8eb996706cac3f74f0333d3f471563c0d20041e93a399b8497b2949fbf2ad
++  __AUTH_CONST.__objc_const: 0x2d8 sha256:1cf74d112dc7d49677f50488e9568c3fdee203fcbf47444122afa62addf50c0f
++  __AUTH_CONST.__weak_auth_got: 0x10 sha256:33a79679efb69e90269fe6dc2dc9b793280fd830eba1f9e6fe9f83b921b11a18
++  __AUTH_CONST.__objc_intobj: 0x30 sha256:391694d7a565ca9ecf06d4d78bdd168fddbc9e6041c9d362b1877d096ee89531
++  __AUTH_CONST.__auth_got: 0x0
++  __AUTH.__objc_data: 0x50 sha256:2a9b72dfc05e6fe5ba474383b1ce259ad6e2938ea5d1286e39e721fe4dcca7b3
++  __AUTH.__data: 0x88 sha256:eb4e64f034d2b8d8d25cfe11c27653755d50d3ab2d0e2718e1af7241d2c1d826
++  __DATA.__objc_ivar: 0x48 sha256:126a64df1f5584febca17281cd0f54846897c60f153ef6a6de1a62fbfe1da543
+   __DATA.__common: 0x4 sha256:df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119
+-  __DATA.__bss: 0x18 sha256:9d908ecfb6b256def8b49a7c504e6c889c4b0e41fe6ce3e01863dd7b61a20aa0
+-  __DATA_DIRTY.__objc_data: 0x190 sha256:679abca5e82731ee83e92fdb0057d055ef129e816d50b54b90c86f83f8b92fd8
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/Frameworks/IOKit.framework/Versions/A/IOKit
+   - /System/Library/PrivateFrameworks/CoreAnalytics.framework/CoreAnalytics
++  - /System/Library/PrivateFrameworks/HID.framework/HID
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 1EBC4D8A-43DB-37DC-9A3A-EF5FE7C03FE0
+-  Functions: 370
+-  Symbols:   337
+-  CStrings:  722
++  UUID: 3F0386E5-BD32-3A21-B3BD-EF87CA449806
++  Functions: 97
++  Symbols:   172
++  CStrings:  239
+ 
+Symbols:
++ _objc_claimAutoreleasedReturnValue
++ _objc_retain_x1
++ _objc_retain_x2
++ _objc_retain_x23
++ _objc_retain_x8
+- OBJC_IVAR_$_HIDLibElement._defaultValue
+- OBJC_IVAR_$_HIDLibElement._element
+- OBJC_IVAR_$_HIDLibElement._elementStruct
+- OBJC_IVAR_$_HIDLibElement._isConstant
+- OBJC_IVAR_$_HIDLibElement._isUpdated
+- OBJC_IVAR_$_HIDLibElement._psKey
+- OBJC_IVAR_$_IOHIDDeviceClass._callbackLock
+- OBJC_IVAR_$_IOHIDDeviceClass._connect
+- OBJC_IVAR_$_IOHIDDeviceClass._device
+- OBJC_IVAR_$_IOHIDDeviceClass._deviceLock
+- OBJC_IVAR_$_IOHIDDeviceClass._elements
+- OBJC_IVAR_$_IOHIDDeviceClass._inputReportBuffer
+- OBJC_IVAR_$_IOHIDDeviceClass._inputReportBufferLength
+- OBJC_IVAR_$_IOHIDDeviceClass._inputReportCallback
+- OBJC_IVAR_$_IOHIDDeviceClass._inputReportContext
+- OBJC_IVAR_$_IOHIDDeviceClass._inputReportTimestampCallback
+- OBJC_IVAR_$_IOHIDDeviceClass._machPort
+- OBJC_IVAR_$_IOHIDDeviceClass._opened
+- OBJC_IVAR_$_IOHIDDeviceClass._pendingCallbacks
+- OBJC_IVAR_$_IOHIDDeviceClass._port
+- OBJC_IVAR_$_IOHIDDeviceClass._properties
+- OBJC_IVAR_$_IOHIDDeviceClass._protectedEvent
+- OBJC_IVAR_$_IOHIDDeviceClass._queue
+- OBJC_IVAR_$_IOHIDDeviceClass._reportElements
+- OBJC_IVAR_$_IOHIDDeviceClass._runLoopSource
+- OBJC_IVAR_$_IOHIDDeviceClass._service
+- OBJC_IVAR_$_IOHIDDeviceClass._sortedElements
+- OBJC_IVAR_$_IOHIDDeviceClass._tccGranted
+- OBJC_IVAR_$_IOHIDDeviceClass._tccRequested
+- OBJC_IVAR_$_IOHIDObsoleteDeviceClass._interface
+- OBJC_IVAR_$_IOHIDObsoleteDeviceClass._notification
+- OBJC_IVAR_$_IOHIDObsoleteDeviceClass._notifyPort
+- OBJC_IVAR_$_IOHIDObsoleteDeviceClass._removalCallback
+- OBJC_IVAR_$_IOHIDObsoleteDeviceClass._removalRefcon
+- OBJC_IVAR_$_IOHIDObsoleteDeviceClass._removalTarget
+- OBJC_IVAR_$_IOHIDObsoleteDeviceClass._reportCallback
+- OBJC_IVAR_$_IOHIDObsoleteDeviceClass._reportCallbackRefcon
+- OBJC_IVAR_$_IOHIDObsoleteDeviceClass._reportCallbackTarget
+- OBJC_IVAR_$_IOHIDObsoleteQueueClass._eventCallback
+- OBJC_IVAR_$_IOHIDObsoleteQueueClass._eventCallbackRefcon
+- OBJC_IVAR_$_IOHIDObsoleteQueueClass._eventCallbackTarget
+- OBJC_IVAR_$_IOHIDObsoleteQueueClass._interface
+- OBJC_IVAR_$_IOHIDOutputTransactionClass._outputInterface
+- OBJC_IVAR_$_IOHIDQueueClass._depth
+- OBJC_IVAR_$_IOHIDQueueClass._device
+- OBJC_IVAR_$_IOHIDQueueClass._lastTail
+- OBJC_IVAR_$_IOHIDQueueClass._machPort
+- OBJC_IVAR_$_IOHIDQueueClass._port
+- OBJC_IVAR_$_IOHIDQueueClass._queue
+- OBJC_IVAR_$_IOHIDQueueClass._queueHeader
+- OBJC_IVAR_$_IOHIDQueueClass._queueLock
+- OBJC_IVAR_$_IOHIDQueueClass._queueMemory
+- OBJC_IVAR_$_IOHIDQueueClass._queueMemorySize
+- OBJC_IVAR_$_IOHIDQueueClass._queueSizeChanged
+- OBJC_IVAR_$_IOHIDQueueClass._queueToken
+- OBJC_IVAR_$_IOHIDQueueClass._runLoopSource
+- OBJC_IVAR_$_IOHIDQueueClass._usageAnalytics
+- OBJC_IVAR_$_IOHIDQueueClass._valueAvailableCallback
+- OBJC_IVAR_$_IOHIDQueueClass._valueAvailableContext
+- OBJC_IVAR_$_IOHIDTransactionClass._callbackLock
+- OBJC_IVAR_$_IOHIDTransactionClass._device
+- OBJC_IVAR_$_IOHIDTransactionClass._direction
+- OBJC_IVAR_$_IOHIDTransactionClass._elements
+- OBJC_IVAR_$_IOHIDTransactionClass._interface
+- OBJC_IVAR_$_IOHIDTransactionClass._pendingCallbacks
+- _CFDataCreateMutable
+- _CFGetRetainCount
+- _CFMachPortCreateRunLoopSource
+- _CFMachPortCreateWithPort
+- _CFMachPortInvalidate
+- _CFNumberCreate
+- _CFPropertyListCreateDeepCopy
+- _CFStringCreateWithCString
+- _GP_SIGNAL_WAIT_TIME_S
+- _IOConnectCallAsyncMethod
+- _IOConnectCallAsyncScalarMethod
+- _IODataQueueAllocateNotificationPort
+- _IODataQueueDequeue
+- _IODataQueuePeek
+- _IODispatchCalloutFromMessage
+- _IOHIDAnalyticsEventActivate
+- _IOHIDAnalyticsEventCancel
+- _IOHIDAnalyticsGetConsoleModeStatus
+- _IOHIDAnalyticsHistogramEventCreate
+- _IOHIDAnalyticsHistogramEventSetIntegerValue
+- _IOHIDElementGetCollectionType
+- _IOHIDElementGetCookie
+- _IOHIDElementGetReportID
+- _IOHIDElementGetType
+- _IOHIDElementGetUnit
+- _IOHIDElementGetUnitExponent
+- _IOHIDElementGetUsage
+- _IOHIDElementGetUsagePage
+- _IOHIDValueCreateWithBytes
+- _IOHIDValueCreateWithIntegerValue
+- _IOHIDValueGetBytePtr
+- _IOHIDValueGetIntegerValue
+- _IOHIDValueGetLength
+- _IOHIDValueGetTimeStamp
+- _IONotificationPortCreate
+- _IONotificationPortDestroy
+- _IONotificationPortSetDispatchQueue
+- _IOObjectGetClass
+- _IORegistryEntryGetRegistryEntryID
+- _IORegistryEntrySearchCFProperty
+- _IOServiceAddInterestNotification
+- _NSClassFromString
+- _OBJC_CLASS_$_IOHIDIUnknown2
+- _OBJC_CLASS_$_IOHIDObsoleteQueueClass
+- _OBJC_CLASS_$_IOHIDOutputTransactionClass
+- _OBJC_CLASS_$_IOHIDQueueClass
+- _OBJC_CLASS_$_IOHIDTransactionClass
+- _OBJC_CLASS_$_NSArray
+- _OBJC_CLASS_$_NSComparisonPredicate
+- _OBJC_CLASS_$_NSDictionary
+- _OBJC_CLASS_$_NSExpression
+- _OBJC_CLASS_$_NSMutableData
+- _OBJC_CLASS_$_NSObject
+- _OBJC_CLASS_$_NSString
+- _OBJC_CLASS_$_NSValue
+- _OBJC_EHTYPE_$_NSException
+- _OBJC_METACLASS_$_HIDLibElement
+- _OBJC_METACLASS_$_IOHIDDeviceClass
+- _OBJC_METACLASS_$_IOHIDIUnknown2
+- _OBJC_METACLASS_$_IOHIDObsoleteDeviceClass
+- _OBJC_METACLASS_$_IOHIDObsoleteQueueClass
+- _OBJC_METACLASS_$_IOHIDOutputTransactionClass
+- _OBJC_METACLASS_$_IOHIDQueueClass
+- _OBJC_METACLASS_$_IOHIDTransactionClass
+- __IOHIDElementCreateWithParentAndData
+- __IOHIDElementGetLength
+- __IOHIDElementGetValue
+- __IOHIDElementSetDeviceInterface
+- __IOHIDElementSetValue
+- __IOHIDValueCopyToElementValueHeader
+- __IOHIDValueCreateWithElementValuePtr
+- __IOHIDValueCreateWithStruct
+- __IOHIDValueGetFlags
+- __NSConcreteGlobalBlock
+- ___objc_personality_v0
+- __dispatch_main_q
+- _dispatch_once
+- _dlopen
+- _dlsym
+- _kIOMainPortDefault
+- _mach_absolute_time
+- _mach_port_mod_refs
+- _malloc_type_calloc
+- _memmove
+- _objc_autoreleasePoolPop
+- _objc_autoreleasePoolPush
+- _objc_begin_catch
+- _objc_copyStruct
+- _objc_destroyWeak
+- _objc_end_catch
+- _objc_getProperty
+- _objc_loadWeakRetained
+- _objc_release_x1
+- _objc_retainAutorelease
+- _objc_retainAutoreleasedReturnValue
+- _objc_retain_x22
+- _objc_retain_x26
+- _objc_retain_x28
+- _objc_setProperty_atomic_copy
+- _objc_storeWeak
+- _os_unfair_lock_lock
+- _os_unfair_lock_unlock
+- _os_unfair_recursive_lock_lock_with_options
+- _os_unfair_recursive_lock_unlock
+- _sel_getUid
+CStrings:
+- "!"
+- "*"
+- ".cxx_destruct"
+- "/System/Library/PrivateFrameworks/GamePolicy.framework/GamePolicy"
+- "/usr/lib/libRosetta.dylib"
+- "@\"IOHIDDeviceClass\""
+- "@\"IOHIDQueueClass\""
+- "@\"NSDictionary\""
+- "@\"NSMutableArray\""
+- "@\"NSMutableDictionary\""
+- "@\"NSMutableSet\""
+- "@\"NSString\""
+- "@\"NSTimer\""
+- "@16@0:8"
+- "@24@0:8@16"
+- "@24@0:8^{__IOHIDElement=}16"
+- "@32@0:8@16@24"
+- "@36@0:8@16I24^{__CFRunLoopSource=}28"
+- "@36@0:8^{IOHIDElementStruct=IIIIIIIIIiiiiIIIIIIIIIII}16^{__IOHIDElement=}24I32"
+- "B"
+- "B16@0:8"
+- "B24@0:8@16"
+- "Built-In"
+- "C16@0:8"
+- "CollectionCookie"
+- "Device is seized, reports will be dropped until the seizing client closes\n"
+- "DeviceUsagePairs"
+- "DuplicateIndex"
+- "ElementCookie"
+- "ElementCookieMax"
+- "ElementCookieMin"
+- "Failed to create IOHIDQueue plugin result: 0x%x\n"
+- "Failed to create queue\n"
+- "GPProcessMonitor"
+- "HIDLibElement"
+- "HasNullState"
+- "HasPreferredState"
+- "I"
+- "I16@0:8"
+- "IOClass"
+- "IOConnectCallMethod(kIOHIDLibUserClientGetElements):%x\n"
+- "IOConnectCallMethod(kIOHIDLibUserClientOpen):%x\n"
+- "IOConnectCallScalarMethod(kIOHIDLibUserClientGetElementCount):%x\n"
+- "IOGeneralInterest"
+- "IOHIDDeviceClass"
+- "IOHIDDeviceClass failed to retain service object with err %x\n"
+- "IOHIDDeviceForceInterfaceRematch"
+- "IOHIDDeviceSuspend"
+- "IOHIDIUnknown2"
+- "IOHIDObsoleteDeviceClass"
+- "IOHIDObsoleteQueueClass"
+- "IOHIDOutputTransactionClass"
+- "IOHIDPlugin"
+- "IOHIDQueueClass"
+- "IOHIDTransactionClass"
+- "IOHIDUPSClass"
+- "IOService"
+- "IOServiceOpen failed: 0x%x\n"
+- "IsArray"
+- "IsNonLinear"
+- "IsRelative"
+- "IsWrapping"
+- "Max"
+- "MaxReportBufferCount"
+- "Min"
+- "Q"
+- "Q16@0:8"
+- "ReportBufferEntrySize"
+- "ReportCount"
+- "ReportID"
+- "ReportSize"
+- "ScaledMax"
+- "ScaledMin"
+- "Size"
+- "T@\"NSData\",&"
+- "T@\"NSString\",C,V_psKey"
+- "TB,V_isConstant"
+- "TB,V_isUpdated"
+- "TC,R"
+- "TI,R"
+- "TI,R,V_connect"
+- "TI,R,V_port"
+- "TI,R,V_service"
+- "TQ,R"
+- "T^{__CFRunLoopSource=},R,V_runLoopSource"
+- "T^{__IOHIDElement=},V_element"
+- "T^{__IOHIDValue=}"
+- "T^{__IOHIDValue=},V_defaultValue"
+- "Ti,R"
+- "TimeSyncEnabled"
+- "Tq"
+- "Tq,R"
+- "Type"
+- "T{IOHIDElementStruct=IIIIIIIIIiiiiIIIIIIIIIII},R,V_elementStruct"
+- "Unable to copy back value for element, unexpected cookie(%ld) expected:%d\n"
+- "Unable to copy back value for element, unexpected size(%d)\n"
+- "Unable to create queue analytics\n"
+- "UniqueID"
+- "Unit"
+- "UnitExponent"
+- "Unsupported matching criteria: %@ %@\n"
+- "Usage"
+- "UsageMax"
+- "UsageMin"
+- "UsagePage"
+- "UsagePercent"
+- "^?"
+- "^^{IOHIDDeviceQueueInterface}"
+- "^^{IOHIDDeviceTimeStampedDeviceInterface}"
+- "^^{IOHIDDeviceTransactionInterface}"
+- "^^{IOHIDOutputTransactionInterface}16@0:8"
+- "^^{IOHIDQueueInterface}16@0:8"
+- "^v"
+- "^{IOCFPlugInInterfaceStruct=^v^?^?^?SS^?^?^?}"
+- "^{IOHIDDeviceInterface122=^v^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?}"
+- "^{IOHIDDeviceQueueInterface=^v^?^?^?^?^?^?^?^?^?^?^?^?^?}"
+- "^{IOHIDDeviceTimeStampedDeviceInterface=^v^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?}"
+- "^{IOHIDDeviceTransactionInterface=^v^?^?^?^?^?^?^?^?^?^?^?^?^?}"
+- "^{IOHIDOutputTransactionInterface=^v^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?}"
+- "^{IOHIDQueueInterface=^v^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?}"
+- "^{IONotificationPort=}"
+- "^{IOUPSPlugInInterface_v140=^v^?^?^?^?^?^?^?^?^?}"
+- "^{IUnknownVTbl=^v^?^?^?}"
+- "^{_IODataQueueMemory=III[1{_IODataQueueEntry=I[4C]}]}"
+- "^{_IOHIDQueueHeader=AQ}"
+- "^{__CFMachPort=}"
+- "^{__CFRunLoopSource=}"
+- "^{__CFRunLoopSource=}16@0:8"
+- "^{__IOHIDElement=}"
+- "^{__IOHIDElement=}16@0:8"
+- "^{__IOHIDElement=}20@0:8I16"
+- "^{__IOHIDValue=}"
+- "^{__IOHIDValue=}16@0:8"
+- "_callbackLock"
+- "_capabilities"
+- "_commandElements"
+- "_connect"
+- "_debugInformation"
+- "_defaultValue"
+- "_depth"
+- "_device"
+- "_deviceLock"
+- "_direction"
+- "_element"
+- "_elementStruct"
+- "_elements"
+- "_eventCallback"
+- "_eventCallbackRefcon"
+- "_eventCallbackTarget"
+- "_eventElements"
+- "_eventRefcon"
+- "_eventTarget"
+- "_inputReportBuffer"
+- "_inputReportBufferLength"
+- "_inputReportCallback"
+- "_inputReportContext"
+- "_inputReportTimestampCallback"
+- "_interface"
+- "_isConstant"
+- "_isUpdated"
+- "_lastTail"
+- "_machPort"
+- "_notification"
+- "_notifyPort"
+- "_opened"
+- "_outputInterface"
+- "_pendingCallbacks"
+- "_plugin"
+- "_port"
+- "_powerFeaturePollInterval"
+- "_properties"
+- "_protectedEvent"
+- "_psKey"
+- "_queue"
+- "_queueHeader"
+- "_queueLock"
+- "_queueMemory"
+- "_queueMemorySize"
+- "_queueSizeChanged"
+- "_queueToken"
+- "_removalCallback"
+- "_removalRefcon"
+- "_removalTarget"
+- "_reportCallback"
+- "_reportCallbackRefcon"
+- "_reportCallbackTarget"
+- "_reportElements"
+- "_runLoopSource"
+- "_service"
+- "_sortedElements"
+- "_tccGranted"
+- "_tccRequested"
+- "_timer"
+- "_transaction"
+- "_ups"
+- "_upsEvent"
+- "_upsUpdatedEvent"
+- "_usageAnalytics"
+- "_valueAvailableCallback"
+- "_valueAvailableContext"
+- "_vtbl"
+- "addElement:"
+- "addEntriesFromDictionary:"
+- "addObject:"
+- "addObjectsFromArray:"
+- "allocOutputTransaction"
+- "allocQueue"
+- "arrayWithArray:"
+- "boolValue"
+- "bytes"
+- "clear"
+- "close:"
+- "collectionCookie"
+- "collectionType"
+- "com.apple.hid.queueUsage"
+- "commit:timeout:callback:options:"
+- "connect"
+- "containsElement:pValue:"
+- "containsElement:value:"
+- "containsObject:"
+- "copy"
+- "copyElements:psKey:"
+- "copyMatchingElements:element:"
+- "copyMatchingElements:elements:options:"
+- "copyNextValue:"
+- "copyObsoleteDictionary:"
+- "count"
+- "countByEnumeratingWithState:objects:count:"
+- "createAsyncEventSource:"
+- "d"
+- "dataValue"
+- "dataWithBytes:length:"
+- "date"
+- "dealloc"
+- "defaultValueRef"
+- "description"
+- "device"
+- "deviceQueue"
+- "dictionaryWithObjects:forKeys:count:"
+- "doubleValue"
+- "element: %p type: %d uP: 0x%02x u: 0x%02x cookie: %d val: %ld"
+- "elementCookie"
+- "elementRef"
+- "elementStruct"
+- "enumerateKeysAndObjectsUsingBlock:"
+- "expressionForConstantValue:"
+- "expressionForKeyPath:"
+- "filterUsingPredicate:"
+- "getAsyncEventSource:"
+- "getCapabilities:"
+- "getDepth:"
+- "getDirection:"
+- "getElement:"
+- "getElementValue:value:options:"
+- "getEvent:"
+- "getNextEvent:"
+- "getPort"
+- "getProperties:"
+- "getProperty:property:"
+- "getReport:reportID:report:reportLength:timeout:callback:context:options:"
+- "getValue(%#llx):%#x\n"
+- "getValue:value:options:"
+- "getValue:value:timeout:callback:context:options:"
+- "i16@0:8"
+- "i20@0:8I16"
+- "i24@0:8@16"
+- "i24@0:8^I16"
+- "i24@0:8^^{__IOHIDValue}16"
+- "i24@0:8^{IOHIDEventStruct=iIi{UnsignedWide=II}I^v}16"
+- "i24@0:8^{__IOHIDElement=}16"
+- "i24@0:8r^^v16"
+- "i24@0:8r^^{__CFDictionary}16"
+- "i24@0:8r^^{__CFSet}16"
+- "i28@0:8@16I24"
+- "i28@0:8I16^{IOHIDEventStruct=iIi{UnsignedWide=II}I^v}20"
+- "i32@0:8@16@24"
+- "i32@0:8@16r^^v24"
+- "i32@0:8I16^{IOHIDEventStruct=iIi{UnsignedWide=II}I^v}20I28"
+- "i32@0:8^?16^v24"
+- "i32@0:8^{__CFDictionary=}16r^^{__CFArray}24"
+- "i32@0:8^{__IOHIDElement=}16*24"
+- "i36@0:8@16I24^i28"
+- "i36@0:8@16r^^{__CFArray}24I32"
+- "i36@0:8^{__IOHIDElement=}16^^{__IOHIDValue}24I32"
+- "i36@0:8^{__IOHIDElement=}16^{__IOHIDValue=}24I32"
+- "i40@0:8^?16^v24^v32"
+- "i40@0:8^v16I24^?28I36"
+- "i40@0:8{?=CCCCCCCCCCCCCCCC}16^^v32"
+- "i52@0:8*16q24^?32^v40I48"
+- "i52@0:8^v16I24^?28^v36^v44"
+- "i56@0:8^{__IOHIDElement=}16^^{__IOHIDValue}24I32^?36^v44I52"
+- "i56@0:8^{__IOHIDElement=}16^{__IOHIDValue=}24I32^?36^v44I52"
+- "i64@0:8i16I20*24^q32I40^?44^v52I60"
+- "i64@0:8i16I20r*24q32I40^?44^v52I60"
+- "indexOfObject:"
+- "init"
+- "initConnect"
+- "initElements"
+- "initPort"
+- "initQueue"
+- "initWithArray:"
+- "initWithCapacity:"
+- "initWithDevice:"
+- "initWithDevice:port:source:"
+- "initWithElementRef:"
+- "initWithElementStruct:parent:index:"
+- "initWithFireDate:interval:repeats:block:"
+- "initWithLength:"
+- "initialEventUpdate"
+- "intValue"
+- "integerValue"
+- "invalidate"
+- "isConstant"
+- "isEqual:"
+- "isEqualToHIDLibElement:"
+- "isEqualToString:"
+- "isIdentifiedGame"
+- "isUpdated"
+- "kIOHIDLibUserClientPostElementValues(%#llx):%#x\n"
+- "kIOHIDLibUserClientPostElementValues(%llx):%x\n"
+- "kIOHIDLibUserClientResumeReports:%#x\n"
+- "kIOHIDLibUserClientUpdateElementValues(%#llx):%#x\n"
+- "latestElement:psKey:"
+- "length"
+- "lowercaseString"
+- "mapMemory"
+- "monitorForCurrentProcess"
+- "mutableBytes"
+- "mutableCopy"
+- "numberWithBool:"
+- "numberWithInt:"
+- "numberWithInteger:"
+- "numberWithUnsignedChar:"
+- "numberWithUnsignedInt:"
+- "numberWithUnsignedLong:"
+- "objectAtIndex:"
+- "objectForKey:"
+- "objectForKeyedSubscript:"
+- "open:"
+- "parseElements:"
+- "parseProperties:"
+- "performSelector:"
+- "pointerValue"
+- "pollEventUpdate"
+- "port"
+- "predicateWithLeftExpression:rightExpression:modifier:type:options:"
+- "probe:service:outScore:"
+- "propertyForElementKey:"
+- "psKey"
+- "q"
+- "q16@0:8"
+- "queryInterface:outInterface:"
+- "queueCallback:msg:size:info:"
+- "queueType"
+- "releaseReport:"
+- "removeAllObjects"
+- "removeElement:"
+- "removeObject:"
+- "removeObjectForKey:"
+- "replaceObjectAtIndex:withObject:"
+- "reportID"
+- "rosetta_convert_to_rosetta_absolute_time"
+- "rosetta_is_current_process_translated"
+- "runLoopSource"
+- "sendCommand:"
+- "service"
+- "setDataValue:"
+- "setDefaultValueRef:"
+- "setDepth:"
+- "setDevice:"
+- "setDirection:"
+- "setElementRef:"
+- "setElementValue:value:"
+- "setElementValue:value:options:"
+- "setEventCallback:target:refcon:"
+- "setEventCallout:callbackTarget:callbackRefcon:"
+- "setInputReportCallback:reportLength:callback:context:options:"
+- "setInputReportWithTimeStampCallback:reportLength:callback:context:options:"
+- "setIntegerValue:"
+- "setInterruptReportHandlerCallback:reportBufferSize:callback:callbackTarget:callbackRefcon:"
+- "setIsConstant:"
+- "setIsUpdated:"
+- "setObject:atIndexedSubscript:"
+- "setObject:forKeyedSubscript:"
+- "setProperty:property:"
+- "setPsKey:"
+- "setRemovalCallback:removalTarget:removalRefcon:"
+- "setReport:reportID:report:reportLength:timeout:callback:context:options:"
+- "setUpdateHandler:"
+- "setValue(%#llx):%#x\n"
+- "setValue:value:options:"
+- "setValue:value:timeout:callback:context:options:"
+- "setValueAvailableCallback:context:"
+- "setValueRef:"
+- "setupAnalytics"
+- "signalQueueEmpty"
+- "start"
+- "start:service:"
+- "staticSize"
+- "stop"
+- "stringByReplacingCharactersInRange:withString:"
+- "stringWithFormat:"
+- "substringToIndex:"
+- "timestamp"
+- "transport"
+- "type"
+- "ub"
+- "unit"
+- "unitExponent"
+- "unmapMemory"
+- "updateElements:"
+- "updateEvent"
+- "updateUsageAnalytics"
+- "usage"
+- "usageMax"
+- "usageMin"
+- "usagePage"
+- "usagePairs"
+- "v16@0:8"
+- "v20@0:8B16"
+- "v20@0:8i16"
+- "v24@0:8@16"
+- "v24@0:8Q16"
+- "v24@0:8^{__IOHIDElement=}16"
+- "v24@0:8^{__IOHIDValue=}16"
+- "v24@0:8q16"
+- "v24@?0@\"GPProcessMonitor\"8@\"GPProcessInfo\"16"
+- "v32@?0@\"NSString\"8@\"NSNumber\"16^B24"
+- "v48@0:8^{__CFMachPort=}16^{?=IIIIIi}24q32^v40"
+- "v8@?0"
+- "valueAvailableCallback:"
+- "valueRef"
+- "valueWithPointer:"
+- "{?=\"input\"@\"NSMutableArray\"\"output\"@\"NSMutableArray\"\"feature\"@\"NSMutableArray\"}"
+- "{IOHIDElementStruct=\"cookieMin\"I\"cookieMax\"I\"parentCookie\"I\"type\"I\"collectionType\"I\"flags\"I\"usagePage\"I\"usageMin\"I\"usageMax\"I\"min\"i\"max\"i\"scaledMin\"i\"scaledMax\"i\"size\"I\"reportSize\"I\"reportCount\"I\"reportID\"I\"unit\"I\"unitExponent\"I\"duplicateValueSize\"I\"duplicateIndex\"I\"bytes\"I\"valueSize\"I\"rawReportCount\"I}"
+- "{IOHIDElementStruct=IIIIIIIIIiiiiIIIIIIIIIII}16@0:8"
+- "{os_unfair_lock_s=\"_os_unfair_lock_opaque\"I}"
+- "{os_unfair_recursive_lock_s=\"ourl_lock\"{os_unfair_lock_s=\"_os_unfair_lock_opaque\"I}\"ourl_count\"I}"
+
+```

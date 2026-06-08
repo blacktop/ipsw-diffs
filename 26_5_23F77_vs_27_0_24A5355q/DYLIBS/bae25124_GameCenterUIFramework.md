@@ -1,0 +1,452 @@
+## GameCenterUIFramework
+
+> `/System/Library/AccessibilityBundles/GameCenterUIFramework.axbundle/GameCenterUIFramework`
+
+```diff
+
+-3005.28.0.0.0
+-  __TEXT.__text: 0x4560 sha256:7ca399808634732af9da6233453de5d3de72bc9106b32a8d34afdd3a7e1ce484
+-  __TEXT.__auth_stubs: 0x300 sha256:dc27a87e286fa4700b2339d887998775df7bdb3145c25df5dc66f134bbb8ca9a
+-  __TEXT.__objc_methlist: 0xb8c sha256:117aa9be15931f2b2e269c1bbfc34115d6b3d69910c6f8d67c468aaaaeb2da21
+-  __TEXT.__cstring: 0x114d sha256:f6bb8a3b0e3d16bfd26a3135bb82731049f07622a7bd5ded1fd01f5123532802
++3036.2.0.0.0
++  __TEXT.__text: 0x4bf8 sha256:de481db5f5d511f692f5f1dce4d555efa34a014f27b0711c0ea5a93917d02603
++  __TEXT.__objc_methlist: 0xb8c sha256:71bfbd5f744f9ba2b3fc433c4ef352549fa4533526461e566563dc1706bb991f
+   __TEXT.__const: 0x10 sha256:c1cbe048bd9d3073e48c6714abc2af5b957bd245128f779ec593a3a1ed286853
+-  __TEXT.__gcc_except_tab: 0x40 sha256:0b7f0cc2e1d558cc88b6a7d4f935fc443fa5183402b6e3dcd02e9cc333925510
+-  __TEXT.__unwind_info: 0x2b8 sha256:92e23d46b72e0d5ba09e239ce8386434f100941ba43940d918659038b13bcb10
+-  __TEXT.__objc_classname: 0x9e6 sha256:a156fe5515502082f193e0856e24ca8723c8680d7366ff67b1d395194fada1a4
+-  __TEXT.__objc_methname: 0xb00 sha256:80d897873d73cb0109b1194558dee2d4f1a1c03a0ea91eb9ab76a6ca30e5d165
+-  __TEXT.__objc_methtype: 0xe6 sha256:19e0e9247e0a3a968fc6cb1d0aa058d8d4158738c5ef4db7cc1b3145240eb8f5
+-  __TEXT.__objc_stubs: 0x9a0 sha256:f4d998051941a0658ab767234dff7654ca2335ed951bc14a1f007c681fec454e
+-  __DATA_CONST.__got: 0xd0 sha256:46f531b7ea0428fbf2c3ca2b60e8dc33d6bbfa000e0fd1b489c5e39140a47006
+-  __DATA_CONST.__const: 0x228 sha256:b07fa9547e7f89f261675daac9675ac4a07cc53c940b7825ef8296e942afff4b
+-  __DATA_CONST.__objc_classlist: 0x1e8 sha256:6aecbe61e563081f08f23e9c51daa3b7863f0596d27405a36b68e3b930dab8a3
+-  __DATA_CONST.__objc_catlist: 0x8 sha256:36b2931ea09b06f75abd4287c13109930986d6c69d9713436eb8d3f49c1d0e8a
++  __TEXT.__gcc_except_tab: 0x40 sha256:e1babf745355cff7424b654cb855749adf219f500ff9d30750284946ad97e5c3
++  __TEXT.__cstring: 0x114d sha256:0a596c4f1fbdbcc0993da0652e15883d38bc40264c37bb8ab9f19ed9b0e376b1
++  __TEXT.__unwind_info: 0x2c8 sha256:e4c3b5a51fb0d3b229118a0f07ccf8ca9e04bdbc493f57d8b6e2bd0cb490b91e
++  __TEXT.__objc_stubs: 0x0
++  __TEXT.__auth_stubs: 0x0
++  __TEXT.__objc_classname: 0x0
++  __TEXT.__objc_methname: 0x0
++  __TEXT.__objc_methtype: 0x0
++  __DATA_CONST.__const: 0x228 sha256:ef8d8d18c44c733687cb22dfe5d28061df66ca4c38c143e754929cee7d106d6f
++  __DATA_CONST.__objc_classlist: 0x1e8 sha256:7e0de96ae72024697c1301983de67a2dc3878249b632a43221698a61eb34616e
++  __DATA_CONST.__objc_catlist: 0x8 sha256:d666055d49882eafee0d208119f69981fbb33c0a01ff300016a8feec8ccd9c61
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x338 sha256:57d18c6e2c3700dcd50e8338abee2d25b250189d9571f4c469683a4aa06fb182
+-  __DATA_CONST.__objc_superrefs: 0xb8 sha256:a60d27741cb107bc9a6dd6c66454d65037180c13d1792f780acd8391a9a8fcd4
+-  __AUTH_CONST.__auth_got: 0x190 sha256:7a12e561363385e9dfeeab326368731c030ed4b374e7f5897ac819159d2884c5
+-  __AUTH_CONST.__const: 0x2c0 sha256:acf24852c41673c914f4996d507f03e8565b4d75aad78d372d41e8354ce46c29
+-  __AUTH_CONST.__cfstring: 0x1400 sha256:e07f3caeb3c61d2e9f011a40a92236f05630af6ad989746c30b05671c2a336d9
+-  __AUTH_CONST.__objc_const: 0x2290 sha256:2ab95f3462fd2ae68bede24d11a5feb76200b8d12269a8b8dedd5187080cf098
++  __DATA_CONST.__objc_selrefs: 0x338 sha256:dedba034cc9dc96f6108007877ebb0d797356d36e4d438f986986e150ee97d49
++  __DATA_CONST.__objc_superrefs: 0xb8 sha256:a5ee5ab6afe6c59a499cb8c404d21dbea10a7c24cc8f35aa7b850acef61fbd7f
++  __DATA_CONST.__got: 0x0
++  __AUTH_CONST.__const: 0x2c0 sha256:54deda96cf845a9c4ddd3cbcd113af3aaad01397b553d2ec0bd3685e68e729d0
++  __AUTH_CONST.__cfstring: 0x1400 sha256:826f010da4da4d0eabb81306c61223c9cef50a633b1ae4f1c8af4b658571d6fd
++  __AUTH_CONST.__objc_const: 0x2290 sha256:1f1d20a07fb5df17768c1ba0cb25437ab122a97931fae03be26107ca746318d5
++  __AUTH_CONST.__auth_got: 0x0
+   __DATA.__bss: 0x19 sha256:61126de1b795b976f3ac878f48e88fa77a87d7308ba57c7642b9e1068403a496
+-  __DATA_DIRTY.__objc_data: 0x1310 sha256:29a5dde9c52e9be7bc54a9a815fe542a016dc04c33799584e7d6936e4deaeae2
++  __DATA_DIRTY.__objc_data: 0x1310 sha256:01204e88f462bc4325872f48652df2089210752c8d9ba3962b982089ea5362cd
+   __DATA_DIRTY.__bss: 0x8 sha256:af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+
+   - /usr/lib/libAXSafeCategoryBundle.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 0EC12D72-1AF5-3036-9591-A29A7F8612BA
+-  Functions: 227
++  UUID: BCB16EB1-9270-3D47-8B8B-DD39735CE6E2
++  Functions: 225
+   Symbols:   963
+-  CStrings:  517
++  CStrings:  336
+ 
+Symbols:
++ GCC_except_table145
++ ___block_literal_global.115
++ ___block_literal_global.175
++ ___block_literal_global.352
++ ___block_literal_global.361
++ ___block_literal_global.370
++ ___block_literal_global.378
++ ___block_literal_global.395
++ ___block_literal_global.401
++ ___block_literal_global.403
++ ___block_literal_global.405
++ ___block_literal_global.407
++ ___block_literal_global.431
++ ___block_literal_global.433
++ ___block_literal_global.585
++ ___block_literal_global.742
++ ___block_literal_global.818
++ ___block_literal_global.903
++ ___block_literal_global.946
++ ___block_literal_global.981
++ _objc_claimAutoreleasedReturnValue
++ _objc_retainAutoreleaseReturnValue
++ _objc_retain_x1
++ _objc_retain_x2
++ _objc_retain_x26
++ _objc_retain_x8
+- +[AXGameCenterUIFrameworkGlue accessibilityInitializeBundle].cold.1
+- GCC_except_table5
+- _AXGameCenterUIFrameworkLocString.cold.1
+- ___block_literal_global.331
+- ___block_literal_global.340
+- ___block_literal_global.349
+- ___block_literal_global.357
+- ___block_literal_global.363
+- ___block_literal_global.365
+- ___block_literal_global.374
+- ___block_literal_global.380
+- ___block_literal_global.382
+- ___block_literal_global.410
+- ___block_literal_global.412
+- _objc_retain_x25
+- _objc_retain_x28
+Functions:
+~ +[AchievementHighlightCollectionViewCellAccessibility(SafeCategory) safeCategoryTargetClassName] : sha256 87767009a3cc7e5ac38cb993dc4dfda1223fa40f95342214521e962d3b1a0cf4 -> 6c0a922e48640b3f59a88db2a11080b0bd46c979806b08abe685d89598ac085c
+~ +[AchievementHighlightCollectionViewCellAccessibility(SafeCategory) safeCategoryBaseClass] : sha256 07d5e1e2ec3ee8ff00d06a503ee436dc2d4aa79764ead1e7be13be26792dcc41 -> 4855012e00b98bc68000253c3203666374c0abada3aaa8b3aeb3e82a8dbfea52
+~ +[AchievementHighlightCollectionViewCellAccessibility _accessibilityPerformValidations:] : 140 -> 128
+~ -[AchievementHighlightCollectionViewCellAccessibility accessibilityLabel] : sha256 1196aa6e9d47407507c9988b0089f1c052841d9aa9b4fb446821db2273ea8897 -> 94686b9765f51e8c22489864e49ffca307133eb5440d2451689a497c251e2f8f
+~ +[PlayerProfileInfoBarViewAccessibility(SafeCategory) safeCategoryTargetClassName] : sha256 1142f9fac58a7f7f8f8a32afdede32e1607bf31eaa17321a0a5e3d1ec501650c -> 833668fcfcd4b82648f38989bc8a19282b19f68a5847cb4ac77405d27b60acf6
+~ +[PlayerProfileInfoBarViewAccessibility(SafeCategory) safeCategoryBaseClass] : sha256 ae2e7bde5e6b2e50f74b1258001379a7ccba18a2e14124b95992ccce177c6f11 -> 7d6f69ecd62c824aab5c77aca332d8d3bf5a7c1ae792c8900ade44c75a8de03c
+~ -[PlayerProfileInfoBarViewAccessibility _accessibilityInfoViewElements] : sha256 7af9b76cc9190bbefe8c7703ecba382b4392c144d71acadd8409ef1c60767338 -> be6f46e42a6946d87a9955f96412df6f16f6e00e272f3cd2aeaf174d481cba3b
+~ -[PlayerProfileInfoBarViewAccessibility _setAccessibilityInfoViewElements:] : sha256 3e24979a876c338ac04b7cccfe9e3ecf2c3d927e8afadd970398dde8527817fb -> 4782d40d0f5f14c98787b94d5af5da691150df408ad2ce826796319da53a7c04
+~ +[PlayerProfileInfoBarViewAccessibility _accessibilityPerformValidations:] : 140 -> 128
+~ -[PlayerProfileInfoBarViewAccessibility accessibilityElements] : 384 -> 368
+~ ___Block_byref_object_dispose_ : sha256 00beb9cef62492af99c14f4e380e696dc6475f9adea0d311e3773ed1c58d8ae7 -> 97bb73465923e14afeabc358ee96b123efb2a03a5180e7340db866237715ac77
+~ ___62-[PlayerProfileInfoBarViewAccessibility accessibilityElements]_block_invoke : 364 -> 356
+~ ___62-[PlayerProfileInfoBarViewAccessibility accessibilityElements]_block_invoke_2 : 148 -> 136
+~ -[PlayerProfileInfoBarViewAccessibility layoutSubviews] : sha256 ab0e869c2dc152013ba072b4c350a9686cc3264e81baa5ee76a2ddc00e96a28f -> d9f73d999c80546562fdd5f219e920f7c9c1171a139f25a208db87fcea7e97fa
+~ +[GKMultiplayerStatusViewAccessibility(SafeCategory) safeCategoryTargetClassName] : sha256 7c6f958dd402b8d391b8cd0c68138a99233a540682fb2eb45c7460e7850e18f2 -> 91f56bf70c86d1fde0983181ee29a9a856fe212558ee14d42984a71d539b8353
+~ +[GKMultiplayerStatusViewAccessibility(SafeCategory) safeCategoryBaseClass] : sha256 191c111e41d14897cb701c3bedbf7f27ce48ea018c9b5c6e4d8e6a85b1125fe6 -> 02822a3da9f199bbcc5206b277e15dfd89e33e4fcc0865f64709254fb786b3b5
+~ +[GKMultiplayerStatusViewAccessibility _accessibilityPerformValidations:] : sha256 ca116f571830cb2f6d7ffe98bd699e33437a498cf4ac88919a5ac414026304de -> ee6197f85e4a53bafdbff8a21948e9c058d97d6bec476f543bab456d2a4312f2
+~ -[GKMultiplayerStatusViewAccessibility accessibilityLabel] : sha256 811292bd07d2d50be7ba43477f856e5d3cd3ede22deaaebabdb3bb0769dfb0f3 -> c14196a758720d97f52766c7c96196088f9c876c12d726fd5066d45ce368feb2
+~ +[BaseSmallFriendLockupViewAccessibility(SafeCategory) safeCategoryTargetClassName] : sha256 90d369b6e881f3e83207a805d01764edab121b090ef23e795aeb1270e1b29fc3 -> 6283aadd57dc4869d4f1157ec591901bdc5a4899dcb8ae220adc436d0309c68a
+~ +[BaseSmallFriendLockupViewAccessibility(SafeCategory) safeCategoryBaseClass] : sha256 7b0bc72691c0d7257a938813bf1a65408c16b6c75c74e8b72cd5d5732a88542f -> cd2af791558242bcbdab6e2be69314020646001f3d051c93f61aabe5432b53bd
+~ +[BaseSmallFriendLockupViewAccessibility _accessibilityPerformValidations:] : 140 -> 128
+~ -[BaseSmallFriendLockupViewAccessibility accessibilityLabel] : sha256 4fa14eba0751f1635701e6b56427b77c0f307fc1546f07ed4dc702fd4fd8ce95 -> 5f8e738c3ded7fc66397af3626020c8ea86b91ecaf8f54a1893cc92249c4d6aa
+~ -[BaseSmallFriendLockupViewAccessibility accessibilityTraits] : sha256 6d0ad20e9b4a914da25d96e5f818ad1a01890dbd8d760ac85dffc7abd2c4dc43 -> 5562b3fff64579dce8bee735ed61eec2c5b6d98dccab699c187e8be211cebba8
+~ +[GKLeaderboardScoreCellAccessibility(SafeCategory) safeCategoryTargetClassName] : sha256 594fcdd37fdc691a138f36e2dc6f2b71942e1af20739e9e0611c68df3a69d965 -> a93de0ede4ce1a3d8d2c35680ed497738766cfcff83a68e97519c5fa150ae9f5
+~ +[GKLeaderboardScoreCellAccessibility(SafeCategory) safeCategoryBaseClass] : sha256 83333fd8a10079e48928cd32b20cf2e3540c2d79b37bc4283a440f72be508c46 -> 425063172a31b43c08e1002b2cd51afe7bd6861cfb8e678b132cb4216869ec88
+~ +[GKLeaderboardScoreCellAccessibility _accessibilityPerformValidations:] : 168 -> 156
+~ -[GKLeaderboardScoreCellAccessibility accessibilityLabel] : sha256 aebeae1840450f85d85f96cac7fdf4408ea7099d5d54a26e16401533e9eeccd1 -> 625a54412d99684cb2dd4df8028349465ccc616651d3dcba9d026c1a25d6f855
+~ -[GKLeaderboardScoreCellAccessibility accessibilityTraits] : sha256 341a5cacc55d7f7faedf228bb045cf6118bb7982cddfe50648805af598191cf3 -> 84ef278a873d624b4de939f1492e0bb52aa572cfd2d3e87cd6fc7ee63a51b44d
+~ +[GKDashboardMultiplayerPickerViewControllerAccessibility(SafeCategory) safeCategoryTargetClassName] : sha256 dccafc1bba3ac73f13c0735920d74cd917e5efb898704491029ee514960202b1 -> 6d2aa2d4e435399600ada8fae91eeb732843ddec9224f526a73442278cf1879e
+~ +[GKDashboardMultiplayerPickerViewControllerAccessibility(SafeCategory) safeCategoryBaseClass] : sha256 66cf24d510752c9a042d7d5594a778c78807455a325ff0305be01d0ac7847f78 -> 6e21a7675fba68f027643a16c835b645d27d16900aa31cc49e262d4779cac691
+~ +[GKDashboardMultiplayerPickerViewControllerAccessibility _accessibilityPerformValidations:] : 128 -> 116
+~ -[GKDashboardMultiplayerPickerViewControllerAccessibility _accessibilityLoadAccessibilityInformation] : 112 -> 108
+~ ___101-[GKDashboardMultiplayerPickerViewControllerAccessibility _accessibilityLoadAccessibilityInformation]_block_invoke : 12 -> 168
+~ -[GKDashboardMultiplayerPickerViewControllerAccessibility viewDidLoad] : sha256 09d8c73c61246bee4f0a5973772ae3619d757a948f9764ade413cf8e84cb7ebf -> dd2d290bf012c799c80ae9ed755e6ab2916f24f3262ae04d25c64601fe6d6342
+~ +[UILabelAccessibility__GameCenterUI__UIKit(SafeCategory) safeCategoryTargetClassName] : sha256 af391776923c839a2e58f7f17b5d3a247faac556a435c77b3fd6d7da8be8e6ed -> ee780613b53c10d059a9e7b16e1c102a8ce2c520d6d60c9a36928707326d235e
+~ +[UILabelAccessibility__GameCenterUI__UIKit(SafeCategory) safeCategoryBaseClass] : sha256 abf67642ae5c0b286294a0919c99267b1daed56a6b5bd2d39d29b29813a1bb2d -> 0258067cce2096653faec495a08445f4d282e916953f9f8a6ebbf50927c22db9
+~ +[UILabelAccessibility__GameCenterUI__UIKit _accessibilityPerformValidations:] : 132 -> 120
+~ -[UILabelAccessibility__GameCenterUI__UIKit isAccessibilityElement] : 128 -> 124
+~ _AXGameCenterUIFrameworkLocString : 140 -> 152
+~ ___AXGameCenterUIFrameworkLocString_block_invoke : 144 -> 132
+~ +[AchievementCardAccessibility(SafeCategory) safeCategoryTargetClassName] : sha256 f8a511a05a4658efa2ce7552f7a5f502b5a3cd07747da04c60c522b37e0469ad -> 6ec425675278e83b0a823e37803d48049f95fbc9ee55d1bc03ba7f1a0c430c0e
+~ +[AchievementCardAccessibility(SafeCategory) safeCategoryBaseClass] : sha256 b79cfa75969e489864f587ac3f2f529f8b5fa52844decb26edeb66d5149243fb -> 8404afed0e865e53dc9f116b981b347c658150941c6562044e4dd36885050b03
+~ +[AchievementCardAccessibility _accessibilityPerformValidations:] : 336 -> 324
+~ -[AchievementCardAccessibility accessibilityLabel] : 768 -> 992
+~ +[CloseButtonAccessibility(SafeCategory) safeCategoryTargetClassName] : sha256 44cf3a54153812003a13b55f17a3e3e539b530b843bf33645717e6651fa9873d -> b44daba61867ea29d2884b29ec327aacda5fb7f83deb6d65e96788db28e20b00
+~ +[CloseButtonAccessibility(SafeCategory) safeCategoryBaseClass] : sha256 c5889b43efb75e0e3352b916a5c6c8720e23c413ffea45ab6c7bdfe63dde9112 -> d455a03942d3dcfa542810a1cabaecfacec47098e234b0bf6a9f0e6d36b8a6b5
+~ -[CloseButtonAccessibility accessibilityLabel] : 12 -> 168
+~ +[GKChallengeListViewSectionHeaderAccessibility(SafeCategory) safeCategoryTargetClassName] : sha256 e10072aedc0a1a87aa57a6749f8d0033729f8834d27ef60bb277eea6f7fad594 -> 91ab20abfb3b628a5511607d70cd8fe99e39877d041942f4c12affeb8b55bc3e
+~ +[GKChallengeListViewSectionHeaderAccessibility(SafeCategory) safeCategoryBaseClass] : sha256 da97afc6d9e63a7f3715175a5ec4c868820c10e17ace532e7dfa8490fb0c010d -> 943a2add26218b4877a528576015ba21b0928bd42de329a5f849b835284434e7
+~ +[GKChallengeListViewSectionHeaderAccessibility _accessibilityPerformValidations:] : sha256 f89d5417dad57f1651c235d82861d26cad93b2d82004a010f142a6ded08ba8cd -> 24b200a722ecd736a9bf0e1e93e884880f7346713a9e7bc0832d10dd92d63061
+~ -[GKChallengeListViewSectionHeaderAccessibility accessibilityLabel] : sha256 c89319896602191604e685bfb9eca894050aec86f4826853d804cd1dd13e5202 -> 3a65c987913c454fdb4959421053541454f994101d0513ce0c2b686b3138ee1d
+~ -[GKChallengeListViewSectionHeaderAccessibility accessibilityTraits] : sha256 2209da98d298a21c14a02a7d2d2d79dbbfb3659925478393e041f6edd9f88d9b -> bfd3e15d9c0d20885453dbc06f38643868f2a66ab3a4dd115c9bfa4ecc8276f9
+~ +[GKLeaderboardMetadataViewAccessibility(SafeCategory) safeCategoryTargetClassName] : sha256 de0af2f7a6ed4b2187031e170fef72232671105fc04ac7eee13facf97153ecdd -> 967c0661ad50bc539d298489f608361e838851e72aa0aaf9cd531a06b83a14e9
+~ +[GKLeaderboardMetadataViewAccessibility(SafeCategory) safeCategoryBaseClass] : sha256 f2ed78adff5179deea2c49f0f6a8cc6cb4d0b30c94185a087b70a9e2fb2558a2 -> b683438da37395695eed944c81bf3a0bc822ce9423c3c6588ceb6fe0eb28a131
+~ +[GKLeaderboardMetadataViewAccessibility _accessibilityPerformValidations:] : 168 -> 156
+~ -[GKLeaderboardMetadataViewAccessibility accessibilityLabel] : 224 -> 212
+~ +[GKDashboardPlayerPhotoViewAccessibility(SafeCategory) safeCategoryTargetClassName] : sha256 8d60dfd9cb2321c452862f8c8ad0b766a541d5ddefbb79bd8c52109ac7f85d6f -> cb4ffb7312a2545d282128e834796546e9e31727aa7034badf2e4b0602cf98a1
+~ +[GKDashboardPlayerPhotoViewAccessibility(SafeCategory) safeCategoryBaseClass] : sha256 87db13e7f190e369321411de2fc50737d72fefa8f56d305c856b367de0095c09 -> 8dec4d4332329fdbdd1d4b54c255bacc7f646aa02239458bf9d211808d59e946
+~ -[GKDashboardPlayerPhotoViewAccessibility accessibilityLabel] : 12 -> 168
+~ -[GKDashboardPlayerPhotoViewAccessibility accessibilityPath] : sha256 300f5e8917c47f7692bd9b4a5a74b18b04a23bfb575f7bd360fd8c2a2999da27 -> 88fa647e98f57a52ceac34a912b3131aa6a3daa8c5192618b67cfb0248139290
+~ +[GKButtonAccessibility(SafeCategory) safeCategoryTargetClassName] : sha256 f35d1c87b651f27afc6c95b210c184ae258c4c30fcfd2dbd88b90f3d4bdad208 -> 650b41fc40ad43419d470a49394af639c755b4b4e093c4cc231dbf64bdd9b4b7
+~ +[GKButtonAccessibility(SafeCategory) safeCategoryBaseClass] : sha256 280fc8988e521f8efa4f674a505f15a618e442fa388753dcea30e3304d4837b4 -> 1747d3c0649f5d4a1fa6664aa45c94ba8e555f779646ab7bcd2478ff5fdd08e1
+~ +[SmallLockupViewAccessibility(SafeCategory) safeCategoryTargetClassName] : sha256 b179605c061b9963195390d2731d88db09f714919949a5de321cf30eb4eabfb0 -> 254090539807c71bc828d99c4c54027997a85d96a22e6fd0fcc614de91011e65
+~ +[SmallLockupViewAccessibility(SafeCategory) safeCategoryBaseClass] : sha256 00990f66175d8117b319c93318dd383ec71c25e8a8cc503b5f0bb1f0a19f48bd -> 2aa8716db0aa9e7729f2bdc07e41cee2d3db4339a452c53c2594ee3673d74f84
+~ +[SmallLockupViewAccessibility _accessibilityPerformValidations:] : 140 -> 128
+~ -[SmallLockupViewAccessibility accessibilityLabel] : sha256 d8f4d37f81c77d78941c6674d551683cbafc4cd4184ae5da746c56b5765c15d9 -> f763ff8aea33271c4ab29ba9d793254477a40d85ac911e3d7fc09cefb5fc98eb
+~ -[SmallLockupViewAccessibility accessibilityTraits] : sha256 4b69251cf4c0677474ce35bb3b472d228b419aa3dcf2a1d4df2ccd0730fe3731 -> bebc60b0b746ee96fd9099085072178e134c46c5825b74bf28868cbee9d8af43
+~ +[GKLeaderboardCellAccessibility(SafeCategory) safeCategoryTargetClassName] : sha256 09b575e9e8be288b6399e7250ab283d1e82b606e0c088644715e231af3e6eab6 -> d68bd2cae878dfbdaafd003f25fd8d92eae9f8036fab135bc9329bff87bfa894
+~ +[GKLeaderboardCellAccessibility(SafeCategory) safeCategoryBaseClass] : sha256 50c7754b6af85388b6b64857b0cf9a486cd6b9c3a4c31cee4125b022c97cbe73 -> a38482b9f16df519c3a7b57b3e7e46c52afa238b8554228abc162de982590ba3
+~ +[GKLeaderboardCellAccessibility _accessibilityPerformValidations:] : 140 -> 128
+~ -[GKLeaderboardCellAccessibility accessibilityLabel] : sha256 8f897123f91d85f9504cd76dd10bfe7d3f2fd5b25ccb8a2eafc4ef5f81d13a0b -> e74d2667608f9d4dfb8f49f38b5a08bfd687f232797dfee0ccdd36400fab6ac6
+~ -[GKLeaderboardCellAccessibility accessibilityTraits] : sha256 36f91d283336e2db186a4d2782761c83e174589406488aaab1ce506cd1de9798 -> b8927421ed7821d4cb9c0551d6366cbe12f3abc50be1eda5e1f10db781214653
+~ +[SmallPlayerCardViewAccessibility(SafeCategory) safeCategoryTargetClassName] : sha256 1520f4b525b6e9e5f01f88ca3665463942edce7524006b1879f0c65e6c6b9061 -> dfddbd10919dbaa6112d77b61f536e00a038749f971964730b8cafd30fdc1fa3
+~ +[SmallPlayerCardViewAccessibility(SafeCategory) safeCategoryBaseClass] : sha256 0380de60a239ac3f5179126a89c3503a05dda49c5fc162377786c15497247377 -> 9d188cc70c4bae0ec71a0f5ed4c96792996dc30a8bca165e8bf5da1b1bc9652b
+~ +[SmallPlayerCardViewAccessibility _accessibilityPerformValidations:] : 196 -> 184
+~ -[SmallPlayerCardViewAccessibility accessibilityLabel] : sha256 a397514cb179d3f13704dc991a9f455b976da5c4100d88622277634bdd23ffca -> f31160c7d8f48d9625fd57b62ea6db64eaaeb18d2be047b59736f644390fec0e
+~ -[SmallPlayerCardViewAccessibility accessibilityTraits] : sha256 a43591c68323ad54e4968fa69953098aec8a21b50491518ea5e98a7d293edcaf -> 0b3145c2a2f4213a007235087129a1193e50d3b3e264530b69cd3181029e0068
+~ -[SmallPlayerCardViewAccessibility _accessibilitySupplementaryFooterViews] : 320 -> 392
+~ +[GKGameCenterViewControllerAccessibility(SafeCategory) safeCategoryTargetClassName] : sha256 3b0a80f211c9748d0639d580d6797214faae77bf50db9793eed3b8ff4a22726e -> f5e881e547f32aedb08ab115ec8a460ef4e69c2e3a7a098511b3ec7c2e6c1103
+~ +[GKGameCenterViewControllerAccessibility(SafeCategory) safeCategoryBaseClass] : sha256 858456fe7c2b4ec13b67e0f0d4ec77cfd8d92f918cc4ad11a0748a280eebdb50 -> 51c37fb88e4bf7211f92bcba639a484b5e9f3b3ea506cfd0fe0c1e0506143b9a
+~ -[GKGameCenterViewController(AXGameCenter) __axValueForKey:] : 80 -> 76
+~ +[GKDashboardPlayerCellAccessibility(SafeCategory) safeCategoryTargetClassName] : sha256 d3fc635994ede72c089753fb1c7502ae940d66ef1d86aebd8689f28577330d04 -> eadf2e91b72a43e9f36ccaf2e0aa9192fa5ad75f97667f766026b976a4493dfd
+~ +[GKDashboardPlayerCellAccessibility(SafeCategory) safeCategoryBaseClass] : sha256 147d65563d9fa72f53f3df6d04b9ff0570e2e700d918027c8b9aa807d45b7be2 -> ad6b6c67461810c98af0ed2683928e40be4e5339516890ec9425aa6b8ca75836
+~ +[GKDashboardPlayerCellAccessibility _accessibilityPerformValidations:] : 248 -> 236
+~ -[GKDashboardPlayerCellAccessibility accessibilityLabel] : 152 -> 148
+~ -[GKDashboardPlayerCellAccessibility accessibilityTraits] : sha256 665ff0c6a37e482b8a6d451cf5b38dfa48ca80112791a4773886272760d54f73 -> 4ce7733c0cfac87e6879a2ce1488a54966267829e81e941a1640e1c0683d5057
+~ +[GKUILabelAccessibility(SafeCategory) safeCategoryTargetClassName] : sha256 b25b26fedb429f4fd3dabcc7c7e37049c56d9d507e74be0f603944ce9bc90ebd -> 9d09156eb6bd4dfbc44920d434f175a81fc538053adc6c045d8454fc41f539a7
+~ +[GKUILabelAccessibility(SafeCategory) safeCategoryBaseClass] : sha256 3edd0903d79319d0da118d93f33e4999415d278bcc62b6128bc3ee6241589d76 -> 42109c9192d905ddad168f85dace0492c1745e2cc1b19d0a82bee5fbdd928162
+~ -[GKUILabelAccessibility isAccessibilityElement] : 224 -> 208
+~ +[DetailCollectionViewCellAccessibility(SafeCategory) safeCategoryTargetClassName] : sha256 c465139b7774ba18db32d17632d78a5af820d0fa267a8badd85ac12cd78f00fd -> 6b90a8fe7a73f00f4a15b3cf0e967e9d35b7c2724bbed4a43c9d280ca8dbb77e
+~ +[DetailCollectionViewCellAccessibility(SafeCategory) safeCategoryBaseClass] : sha256 f6c0c3d083009b0640c2cb8f59c92ef357d48896f8ada96ec1e7338151f26baf -> 725dab662ba78b3f38ac79f062560412813e3c5e97da589ac32f229d7a266c8d
+~ +[DetailCollectionViewCellAccessibility _accessibilityPerformValidations:] : 168 -> 156
+~ -[DetailCollectionViewCellAccessibility accessibilityLabel] : sha256 dad75a686f8913f4c13602b810615c660cbf0ed33733841b09c42ea845944721 -> 7897170393f3ea98cd3dbc670f86d9ca08cb819343989c754482903bd8039fb6
+~ -[DetailCollectionViewCellAccessibility _axSwitch] : 104 -> 88
+~ -[DetailCollectionViewCellAccessibility _axAccessoryView] : sha256 9253b8fcae09a92b055f3b672dc632c75f869a61f2c0b232e4395b99f235ff3e -> 805b7287abb26e016e57724c3938eb1cc1e23ba54fb08c2004cc48c7114c32e3
+~ -[DetailCollectionViewCellAccessibility accessibilityValue] : 148 -> 132
+~ -[DetailCollectionViewCellAccessibility accessibilityActivationPoint] : 156 -> 148
+~ -[DetailCollectionViewCellAccessibility accessibilityTraits] : 156 -> 148
+~ +[AXGameCenterUIFrameworkGlue accessibilityInitializeBundle] : 44 -> 40
+~ ___60+[AXGameCenterUIFrameworkGlue accessibilityInitializeBundle]_block_invoke : 104 -> 100
+~ ___60+[AXGameCenterUIFrameworkGlue accessibilityInitializeBundle]_block_invoke_2 : sha256 0f3bab53c2a470c3ba4caa23674eedcf04ee9ddc72b19a7680822cead9fa89f8 -> 7f6a3fb08150247b1273368a96c5a8cc9d2fcb20cf40907425dcf58614c04094
+~ ___60+[AXGameCenterUIFrameworkGlue accessibilityInitializeBundle]_block_invoke_3 : 100 -> 96
+~ ___60+[AXGameCenterUIFrameworkGlue accessibilityInitializeBundle]_block_invoke_4 : 660 -> 652
+~ +[SectionFooterViewAccessibility(SafeCategory) safeCategoryTargetClassName] : sha256 608fdce84621bddee90e05264f45155e53e5f8d95e955a67b3f0ba48726b957d -> 79ad5680715719254023a43d5be587520b69effb7cf30a4d30204457de94edf6
+~ +[SectionFooterViewAccessibility(SafeCategory) safeCategoryBaseClass] : sha256 617748fd0b3119833698cd9219509370a9d82cc8473758350d39186e060dc7e5 -> 5c521764257e878ae47a482d0773843afd605fb76c3c82abbc2e89f354738ced
+~ +[SectionFooterViewAccessibility _accessibilityPerformValidations:] : 208 -> 196
+~ -[SectionFooterViewAccessibility accessibilityLabel] : 84 -> 76
+~ -[SectionFooterViewAccessibility _axFooterLabel] : sha256 2a58e7e038c3b654f14eeee08fa38a435c1f23a3f60a506d9408f52d98485768 -> 41c97d05a49712689c7ce239109ceab14ffcd3aecfa31b29b57825627ff18d28
+~ -[SectionFooterViewAccessibility accessibilityCustomRotors] : sha256 77deb8e43fd9f9c883fb336e4a2e1a2420d9d9cb54dcc0c9f86755256a20f32f -> 48e6ba68b42c97d9d5dd42c25b62adc5154a2b995ba8bdd666b97e005c9c727f
+~ -[SectionFooterViewAccessibility _accessibilityInternalTextLinks] : 464 -> 456
+~ ___65-[SectionFooterViewAccessibility _accessibilityInternalTextLinks]_block_invoke : 220 -> 212
+~ -[SectionFooterViewAccessibility accessibilityRespondsToUserInteraction] : sha256 9f90d2155c5cd504b07a564f858be7dce03b394133ff6c8e2a7b7b1a1c6fb25a -> 0237c0c2cd09a3cf79c8d56333a3ab5b576daa9d8f2e4128362b53d4d506c15d
+~ +[GKMultiplayerParticipantCollectionViewCellAccessibility(SafeCategory) safeCategoryTargetClassName] : sha256 caf4db1c0a1b113d1f5d59bd4db18ee996b727724362d95eda8a7e2cd4d47f36 -> d39d0247d655c4db1bae0e693a68eec029c3ab9ba3c47d9474f8c5729bd4247c
+~ +[GKMultiplayerParticipantCollectionViewCellAccessibility(SafeCategory) safeCategoryBaseClass] : sha256 a37b950b734a45a4923d1b6b006f3b83c5db9ab98e352b161a3d93487a6b1660 -> b511e6f5ae638f396659e8bce8885c538a3eeb618d7a0af3052868d2518e9610
+~ +[GKMultiplayerParticipantCollectionViewCellAccessibility _accessibilityPerformValidations:] : 184 -> 172
+~ -[GKMultiplayerParticipantCollectionViewCellAccessibility accessibilityLabel] : sha256 f8b746cbdd1ae65d3b260ca3a260cac575de98231ae73ff568e6084947dc93d0 -> e705a7230653cf25d1ba84ee6e8021ed8cf66e9f216c73ca1939416869e7e1a0
+~ -[GKMultiplayerParticipantCollectionViewCellAccessibility accessibilityCustomActions] : 428 -> 508
+~ ___85-[GKMultiplayerParticipantCollectionViewCellAccessibility accessibilityCustomActions]_block_invoke : sha256 a4e6b1fde8b8e1b98e7ea6de3667aef1c702b51cde64fb8ec57952d703150692 -> 52a1b52284b3e792d60834cb59d88d7bf81540314453feecc4cd3ba53057bd6c
+~ +[GKChallengeDetailViewControllerAccessibility(SafeCategory) safeCategoryTargetClassName] : sha256 d87bb43344e1445112e7d85f4a9e7f2737177619188e52c673b2d84304d8a81a -> f6b4a3ee7a07c75d14d512fe2d0c340d46d4ff1cadd1715513f3d5cdeba6385d
+~ +[GKChallengeDetailViewControllerAccessibility(SafeCategory) safeCategoryBaseClass] : sha256 e179c637c54cd8c27bd792baa05b1f0ab9288758c9e2a600dfe460fa3836818c -> 49832e6b6f3e819d97ceeb3d47f8b195c650bf61d40d0bb3ad8ea7c57e7afca6
+~ -[GKChallengeDetailViewControllerAccessibility _accessibilityChallengeDetailElements] : sha256 7f4dddfa22d3b54203b0be161a8acc36d38af1fcda04e4a981c886d11b6ba3e6 -> 4101a49adba2c647ae266b5ef17f8d595222656e1a417d2d30811467cb0b1f25
+~ -[GKChallengeDetailViewControllerAccessibility _setAccessibilityChallengeDetailElements:] : sha256 3e47801fd683b00241ea96ca0daf5b2e02dbb5f826979ce80651c9ecb5156544 -> 44ff3b412c93919cb41259962a1a44fa6f29a213a2b46ae65ec6fdbc9e783bf2
+~ +[GKChallengeDetailViewControllerAccessibility _accessibilityPerformValidations:] : 540 -> 532
+~ -[GKChallengeDetailViewControllerAccessibility _accessibilityLoadAccessibilityInformation] : 816 -> 1104
+~ ___90-[GKChallengeDetailViewControllerAccessibility _accessibilityLoadAccessibilityInformation]_block_invoke_2 : 56 -> 8
+~ ___90-[GKChallengeDetailViewControllerAccessibility _accessibilityLoadAccessibilityInformation]_block_invoke_3 : sha256 95ada322d4761a03ab226cf4d5c2fda142f7f4d51de1458ef03186e7fe465d18 -> 3ead8d3a50c3e5677573b1d63e6381bace881cb74149420f7aaf649e778bac90
+~ ___90-[GKChallengeDetailViewControllerAccessibility _accessibilityLoadAccessibilityInformation]_block_invoke_4 : 80 -> 76
+~ -[GKChallengeDetailViewControllerAccessibility _axElementsOfView] : 892 -> 856
+~ ___65-[GKChallengeDetailViewControllerAccessibility _axElementsOfView]_block_invoke : 176 -> 160
+~ ___65-[GKChallengeDetailViewControllerAccessibility _axElementsOfView]_block_invoke_3 : 108 -> 100
+~ -[GKChallengeDetailViewControllerAccessibility updateIconViewWithSubView:] : sha256 4bf8cfbae050421e3989ade8700c7a0d9410f1386c236e20dd2996c2e645db91 -> 860304edabeebecb7b26373b19f601bc79ddaa28d79cbc4a3805e413eabc9212
+~ +[NicknameFieldCollectionViewCellAccessibility(SafeCategory) safeCategoryTargetClassName] : sha256 408be4c1f03f824c021a9c434032f2724538e823bd27dc3cdad82fd22bede2de -> 8c6d9567bee09a796497458bf67773f7f02b36afd34fa170d48263bc5ed9ae5a
+~ +[NicknameFieldCollectionViewCellAccessibility(SafeCategory) safeCategoryBaseClass] : sha256 af2eee2c4223f1634457322648db6e383f5cdd95ab4e579d08310dd36025eaf4 -> 01644d5a109f813fc48561279f9c81a7ac14641b5fcd14ec0136447103cf4e7a
+~ +[NicknameFieldCollectionViewCellAccessibility _accessibilityPerformValidations:] : 176 -> 164
+~ -[NicknameFieldCollectionViewCellAccessibility _accessibilityTextViewTextOperationResponder] : sha256 57fca08cfdacf9eb7ece60e6875544795c4d6f681f26598c2d8a44297b98cea0 -> 46ab04ce8c6f635bcbed47467b5e018f05547e6e329ea691b065c5a08ca92ecf
+~ -[NicknameFieldCollectionViewCellAccessibility accessibilityLabel] : 84 -> 76
+~ -[NicknameFieldCollectionViewCellAccessibility accessibilityValue] : 84 -> 76
+~ -[NicknameFieldCollectionViewCellAccessibility _accessibilityLineNumberAndColumnForPoint:] : 108 -> 100
+~ -[NicknameFieldCollectionViewCellAccessibility _accessibilityRangeForLineNumberAndColumn:] : 100 -> 96
+~ -[NicknameFieldCollectionViewCellAccessibility _accessibilitySetSelectedTextRange:] : 92 -> 88
+~ -[NicknameFieldCollectionViewCellAccessibility accessibilityTraits] : 124 -> 120
+~ -[NicknameFieldCollectionViewCellAccessibility _accessibilitySupportsHandwriting] : sha256 3279af32308555fb2aa048d6b5ccfb44198afa027fe1ed64dc25a3d070256ff3 -> ff81053c2d94535687b094d01351c2e04079fccba039c45f075db02775384f1d
+~ -[NicknameFieldCollectionViewCellAccessibility accessibilityIdentifier] : sha256 139d3e6070e4bff9253ff9d05c74f3d125adac6913f2a779288ac262a91371a3 -> dbdb47f3c0aaaa26205b529b8ff55ff1141c96e0a1b1136821e68f11fe300080
+~ -[NicknameFieldCollectionViewCellAccessibility _accessibilitySupplementaryFooterViews] : 260 -> 244
+~ +[ProfileAvatarViewAccessibility(SafeCategory) safeCategoryTargetClassName] : sha256 3f4c41e41956273ec9fd7ca68a204217a08a0fd0b36f8361b7c6267a934adb3b -> b57a85d2073af8689e701d8485a2e4546bb3fc03c0d56a0abdb43ee7f5b30d98
+~ +[ProfileAvatarViewAccessibility(SafeCategory) safeCategoryBaseClass] : sha256 34022b6fbce3c93351cfe79cb6428ce32eedbb53ef1dd075cb2ab213dac7f17a -> 494dae7abc6719d69497c34376844364c5644e8376d965c3def68a569aef3ca2
+~ +[ProfileAvatarViewAccessibility _accessibilityPerformValidations:] : 292 -> 284
+~ -[ProfileAvatarViewAccessibility _axIsEditable] : sha256 74209fe960a4ed24165514d13b24c1f7584f17594586f019ab0b8e1295f664b8 -> 0ec1ffca138e56e32509b35deae1409777b7743f970b87837c956d3c2c475962
+~ -[ProfileAvatarViewAccessibility accessibilityTraits] : sha256 3a8dd6c60d8036c79a18dde09cc2c888e18929d9e7dc6672a8f4feb74663039c -> 2e25b95017bbda8e021e5f2842328aca93ccda89ae1738fadf4104c57eaa46ab
+~ -[ProfileAvatarViewAccessibility accessibilityLabel] : 232 -> 312
+~ -[ProfileAvatarViewAccessibility accessibilityHint] : 124 -> 224
+~ -[ProfileAvatarViewAccessibility accessibilityPath] : sha256 9e6840fd9f36b0f8c01ba6b995ac43c924a0e1d0a6a1d519d49de3c61dafa7a9 -> 7c4a4629cd3089174f438a5e5d4e393aeea89b41058d211148d327bde66bbdff
+~ -[ProfileAvatarViewAccessibility automationElements] : 392 -> 368
+~ ___52-[ProfileAvatarViewAccessibility automationElements]_block_invoke_2 : 12 -> 168
+~ ___52-[ProfileAvatarViewAccessibility automationElements]_block_invoke_3 : sha256 047d43a17ff5641b083ed779fc3dbbb07d1faf98b395fe36b618db5296776358 -> 1e53d022ed554d1b8dbf228867991bb8a725b6664e8caed2d6e5cd3522d482e4
+~ ___52-[ProfileAvatarViewAccessibility automationElements]_block_invoke_5 : 12 -> 168
+~ ___52-[ProfileAvatarViewAccessibility automationElements]_block_invoke_6 : sha256 047d43a17ff5641b083ed779fc3dbbb07d1faf98b395fe36b618db5296776358 -> 34296bd73f492f5ab72a4a6c2b124e7efe0e4cf2810f31261f47a32d91123126
+~ +[SectionHeaderViewAccessibility(SafeCategory) safeCategoryTargetClassName] : sha256 0a41c7e894ad9df894537ac537283f862993a78588ca5f03b94c276c2e673952 -> 6d7e3f2d6ac33106d0035b6aa9b08b48520da356863208e6a32c40d870bfd240
+~ +[SectionHeaderViewAccessibility(SafeCategory) safeCategoryBaseClass] : sha256 9968344bc87edfd6e2ca1d8bb417a95c158861e44dd9e6ff4017b6e8d8148303 -> d9e49f8bf1a34132e920f8a07afbea28f612b28320345e81ccfd03c75fde257e
+~ +[SectionHeaderViewAccessibility _accessibilityPerformValidations:] : sha256 2f0d0fc1a77201ff6f9ad27b7ec8a50534ccdcf8c95c204bf4f538a20f286c54 -> 199078a8b7141f9274fef0eff0147e05699d2d0542c7c27b42236e8aa47b539f
+~ -[SectionHeaderViewAccessibility accessibilityLabel] : sha256 efc4bd0561ffdbc152f84f7930af219c0898ea93251d2972cbdc3abea6937569 -> ec18b9e7c060de48ec43cf0b4054e4833cb4017a8d9d9eb5ced3d2e973f5fe8a
+~ -[SectionHeaderViewAccessibility accessibilityTraits] : sha256 072f59365e85eb19b41d5d67bcd28b4146982a5adb47240083edbfa4f4b9e0b6 -> 365a08babbf34ec255a5b8375e17a5e91e0589b057a50755ccc921bc679174ad
+~ +[GKMultiplayerStepperViewAccessibility(SafeCategory) safeCategoryTargetClassName] : sha256 aec9b91e92fef0051727248e2a293ead66f505df6eb36878714d868a3d58e610 -> 09959d4bcaed8bab511d0f36f8e8aec7b44bded264e09dc303f33f79769e4081
+~ +[GKMultiplayerStepperViewAccessibility(SafeCategory) safeCategoryBaseClass] : sha256 808893601648547b3f041ab6243bd720026eb85cbccbb1ecf8aee224149fb73b -> 28b40f5c4a971807a0c83383b585bff1cb525dc574d750ba24e30d9180b820fc
+~ +[GKMultiplayerStepperViewAccessibility _accessibilityPerformValidations:] : 212 -> 204
+~ -[GKMultiplayerStepperViewAccessibility layoutSubviews] : sha256 4fb63619f9a9f9f621b193f2c10b3e3b50ec52fb8e7a98b4a0ae70a4eaf82d75 -> e2c62ea216b818ec31ce8c760f35728c8edd7fa4816671595683b013ba844b02
+~ -[GKMultiplayerStepperViewAccessibility _accessibilityLoadAccessibilityInformation] : 188 -> 180
+~ ___83-[GKMultiplayerStepperViewAccessibility _accessibilityLoadAccessibilityInformation]_block_invoke : 12 -> 168
+~ ___83-[GKMultiplayerStepperViewAccessibility _accessibilityLoadAccessibilityInformation]_block_invoke_2 : 12 -> 168
+~ ___83-[GKMultiplayerStepperViewAccessibility _accessibilityLoadAccessibilityInformation]_block_invoke_3 : sha256 3bbe965e4c341639655df6e3128f03882ae0265c3f7b2417db9eba682cfd438e -> 8c5fe31fc7e78e8460e05aab07977221bd7510e12e03729be55fe0f3fcf3182c
+~ ___83-[GKMultiplayerStepperViewAccessibility _accessibilityLoadAccessibilityInformation]_block_invoke_4 : sha256 3bbe965e4c341639655df6e3128f03882ae0265c3f7b2417db9eba682cfd438e -> 8c5fe31fc7e78e8460e05aab07977221bd7510e12e03729be55fe0f3fcf3182c
+~ -[GKMultiplayerStepperViewAccessibility accessibilityUpdateStepperWithValue:] : 276 -> 368
+~ ___77-[GKMultiplayerStepperViewAccessibility accessibilityUpdateStepperWithValue:]_block_invoke : sha256 ed5947d5793fcc3cedef595961c000a31b98d71e9a3620c235ad7d53ead26b4b -> 10a52d0eee8906939c64e4ed8f807f8e960585b2b6d53869cae8866b7048d13f
+~ -[GKMultiplayerStepperViewAccessibility accessibilityLabel] : 12 -> 168
+~ +[GKDashboardSectionHeaderViewAccessibility(SafeCategory) safeCategoryTargetClassName] : sha256 360d37899028cb8f24acf79dfed73953f4ec8dec5645bf553bc0f1062f3ee0bd -> db93a73d03630ceaad11a38f3b12963f3df26d70666ffd63e282995be324588c
+~ +[GKDashboardSectionHeaderViewAccessibility(SafeCategory) safeCategoryBaseClass] : sha256 8c128f6de3ef32f19317b2f263235e38780dd9a1ce041e0a3a8e5bf9f90524f9 -> 9060635bb90dab68e3930013857d032d7f3da75bf082e0a462c8dc820335e9fb
+~ +[GKDashboardSectionHeaderViewAccessibility _accessibilityPerformValidations:] : 140 -> 128
+~ -[GKDashboardSectionHeaderViewAccessibility _accessibilityLoadAccessibilityInformation] : 112 -> 108
+~ ___87-[GKDashboardSectionHeaderViewAccessibility _accessibilityLoadAccessibilityInformation]_block_invoke : sha256 ae269c8cb0ad4eb4f7a0fc2b252fd3a342a1f9b861b46c28bbe4ff643c4d181b -> 7231db08eeee46b16ff9efce9a44960cc1a69f2f376afb7399abe279fb18cd52
+~ -[GKDashboardSectionHeaderViewAccessibility awakeFromNib] : sha256 fb8ea1504562573aa7165a4e69528da3639df60943a3fc9cd2787400d1db5c5c -> 6f030a2dafc51d1c31916c6c9d6368ab1f7b9b8fe957fd8b374c45360606bf91
+~ +[PlayerProfileHeaderViewAccessibility(SafeCategory) safeCategoryTargetClassName] : sha256 e8f55cd8e4848702d60e309d57f9625c0990aa664185898cf837f52926661064 -> 90515a4b26f5d316612a58ac4a874ea328426e61e683ddf560027deb17c8793c
+~ +[PlayerProfileHeaderViewAccessibility(SafeCategory) safeCategoryBaseClass] : sha256 80e21f5ec78e50d39b8ca81d3ee170d8d286a0f8cef2d32f1a0a46056138ca60 -> a26c327291cfbd2d85c474516061f6b61d9d5be445df340cb8be49f4f42a184d
+~ +[PlayerProfileHeaderViewAccessibility _accessibilityPerformValidations:] : 148 -> 140
+~ -[PlayerProfileHeaderViewAccessibility _accessibilityLoadAccessibilityInformation] : 112 -> 108
+~ ___82-[PlayerProfileHeaderViewAccessibility _accessibilityLoadAccessibilityInformation]_block_invoke : 12 -> 168
+~ -[PlayerProfileHeaderViewAccessibility initWithFrame:] : sha256 d9e3e313009339648beb2a4f7e586bbd11dcfafdba2942da5c0df2cacae06f86 -> 8243c6dbe25fe5a74de27b9667eaf8ca06125cc79ab50376b48dfdd3c4824a5f
+~ +[AchievementsLinkViewAccessibility(SafeCategory) safeCategoryTargetClassName] : sha256 a44df323f2ecd93c6fbfbb869ae7b83103e2e2dd1b93548a948294c432404131 -> f6b4e6da48643ee304c9d4eee8c9a800c5b1c61944adc8aaf6360a3084396c02
+~ +[AchievementsLinkViewAccessibility(SafeCategory) safeCategoryBaseClass] : sha256 7cea441ccd7ac60e40f407c935111ab24a3350f7f6ad208f5e8f62b677444eab -> 19e634ec2356df7e869895b9d7a7cd93e3706b99288e3371493405d2688af729
+~ +[AchievementsLinkViewAccessibility _accessibilityPerformValidations:] : sha256 1024686db7d45bd3bb5163d37a22513e49bd60479a16efc64c86a65ecd0966ea -> ea835e4c3cea7d11adf6fc5e69cc22e2e24cb6910c693af1f438d5bc5d20d09d
+~ -[AchievementsLinkViewAccessibility accessibilityLabel] : sha256 433c785cca5f19f34fbaf130949158b94f740ba6c4f09f5dbb59041119f3fdfa -> 766aa3a545b8192ac2d28a9fb56d148ff6bde84a6de5dc3c4ffa9f3aa26fb5d9
+~ -[AchievementsLinkViewAccessibility accessibilityTraits] : sha256 fca833772241d0d8fce79f5da7598b88991136eb844261fadd2485add88665b8 -> 659c4a6efabbcc8acf4ee37038e11a49b00c639c837efed14f9ff0d86e2ad5b8
+CStrings:
+- "#16@0:8"
+- "@16@0:8"
+- "@24@0:8@16"
+- "@32@0:8{CGPoint=dd}16"
+- "@48@0:8{CGRect={CGPoint=dd}{CGSize=dd}}16"
+- "AXGameCenter"
+- "AXGameCenterUIFrameworkGlue"
+- "B16@0:8"
+- "Q16@0:8"
+- "SafeCategory"
+- "__AchievementCardAccessibility_super"
+- "__AchievementHighlightCollectionViewCellAccessibility_super"
+- "__AchievementsLinkViewAccessibility_super"
+- "__BaseSmallFriendLockupViewAccessibility_super"
+- "__CloseButtonAccessibility_super"
+- "__DetailCollectionViewCellAccessibility_super"
+- "__GKButtonAccessibility_super"
+- "__GKChallengeDetailViewControllerAccessibility_super"
+- "__GKChallengeListViewSectionHeaderAccessibility_super"
+- "__GKDashboardMultiplayerPickerViewControllerAccessibility_super"
+- "__GKDashboardPlayerCellAccessibility_super"
+- "__GKDashboardPlayerPhotoViewAccessibility_super"
+- "__GKDashboardSectionHeaderViewAccessibility_super"
+- "__GKGameCenterViewControllerAccessibility_super"
+- "__GKLeaderboardCellAccessibility_super"
+- "__GKLeaderboardMetadataViewAccessibility_super"
+- "__GKLeaderboardScoreCellAccessibility_super"
+- "__GKMultiplayerParticipantCollectionViewCellAccessibility_super"
+- "__GKMultiplayerStatusViewAccessibility_super"
+- "__GKMultiplayerStepperViewAccessibility_super"
+- "__GKUILabelAccessibility_super"
+- "__NicknameFieldCollectionViewCellAccessibility_super"
+- "__PlayerProfileHeaderViewAccessibility_super"
+- "__PlayerProfileInfoBarViewAccessibility_super"
+- "__ProfileAvatarViewAccessibility_super"
+- "__SectionFooterViewAccessibility_super"
+- "__SectionHeaderViewAccessibility_super"
+- "__SmallLockupViewAccessibility_super"
+- "__SmallPlayerCardViewAccessibility_super"
+- "__UILabelAccessibility__GameCenterUI__UIKit_super"
+- "__axValueForKey:"
+- "_accessibilityAncestorIsKindOf:"
+- "_accessibilityAutomationType"
+- "_accessibilityChallengeDetailElements"
+- "_accessibilityCirclePathBasedOnBoundsWidth"
+- "_accessibilityDescendantOfType:"
+- "_accessibilityInfoViewElements"
+- "_accessibilityInternalTextLinkCustomRotors"
+- "_accessibilityInternalTextLinks"
+- "_accessibilityLineNumberAndColumnForPoint:"
+- "_accessibilityLoadAccessibilityInformation"
+- "_accessibilityPerformValidations:"
+- "_accessibilityRangeForLineNumberAndColumn:"
+- "_accessibilitySetRetainedValue:forKey:"
+- "_accessibilitySetSelectedTextRange:"
+- "_accessibilityStringForLabelKeyValues:"
+- "_accessibilitySupplementaryFooterViews"
+- "_accessibilitySupportsHandwriting"
+- "_accessibilityTextViewTextOperationResponder"
+- "_accessibilityValueForKey:"
+- "_accessibilityViewIsVisible"
+- "_axAccessoryView"
+- "_axElementsOfView"
+- "_axFooterLabel"
+- "_axIsEditable"
+- "_axSwitch"
+- "_setAccessibilityAdditionalTraitsBlock:"
+- "_setAccessibilityChallengeDetailElements:"
+- "_setAccessibilityElementsBlock:"
+- "_setAccessibilityInfoViewElements:"
+- "_setAccessibilityLabelBlock:"
+- "_setAccessibilityPathBlock:"
+- "_setAccessibilityTraitsBlock:"
+- "_setIsAccessibilityElementBlock:"
+- "accessibilityActivationPoint"
+- "accessibilityContainerType"
+- "accessibilityCustomActions"
+- "accessibilityCustomRotors"
+- "accessibilityElements"
+- "accessibilityHint"
+- "accessibilityIdentifier"
+- "accessibilityInitializeBundle"
+- "accessibilityLabel"
+- "accessibilityPath"
+- "accessibilityRespondsToUserInteraction"
+- "accessibilityRowRange"
+- "accessibilityTraits"
+- "accessibilityValue"
+- "array"
+- "arrayWithObjects:count:"
+- "automationElements"
+- "axArrayByIgnoringNilElementsWithCount:"
+- "axAttributedStringWithString:"
+- "axSafelyAddObject:"
+- "axSafelyAddObjectsFromArray:"
+- "bundleWithPath:"
+- "count"
+- "enumerateAttributesInRange:options:usingBlock:"
+- "enumerateObjectsUsingBlock:"
+- "initWithAccessibilityContainer:"
+- "initWithAccessibilityContainer:representedElements:"
+- "initWithName:actionHandler:"
+- "installSafeCategory:canInteractWithTargetClass:"
+- "isAccessibilityElement"
+- "isEqualToString:"
+- "length"
+- "localizedStringForKey:value:table:"
+- "localizedStringWithFormat:"
+- "mutableCopy"
+- "objectAtIndexedSubscript:"
+- "performValidations:withPreValidationHandler:postValidationHandler:safeCategoryInstallationHandler:"
+- "q16@0:8"
+- "safeArrayForKey:"
+- "safeBoolForKey:"
+- "safeCGFloatForKey:"
+- "safeCategoryBaseClass"
+- "safeCategoryTargetClassName"
+- "safeValueForKey:"
+- "sendActionsForControlEvents:"
+- "setAccessibilityLabel:"
+- "setAccessibilityRespondsToUserInteraction:"
+- "setAccessibilityValue:"
+- "setAttribute:forKey:"
+- "setDebugBuild:"
+- "setOverrideProcessName:"
+- "setRange:"
+- "setValidationTargetName:"
+- "sharedInstance"
+- "string"
+- "stringByAppendingPathComponent:"
+- "stringByTrimmingCharactersInSet:"
+- "stringWithFormat:"
+- "substringWithRange:"
+- "v16@0:8"
+- "v24@0:8@16"
+- "v24@0:8q16"
+- "v32@0:8{_NSRange=QQ}16"
+- "validateClass:"
+- "validateClass:hasInstanceMethod:withFullSignature:"
+- "validateClass:isKindOfClass:"
+- "valueForKey:"
+- "viewDidLoad"
+- "whitespaceAndNewlineCharacterSet"
+- "{CGPoint=dd}16@0:8"
+- "{_NSRange=QQ}16@0:8"
+- "{_NSRange=QQ}24@0:8@16"
+
+```

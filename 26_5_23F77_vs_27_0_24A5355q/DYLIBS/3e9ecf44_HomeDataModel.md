@@ -1,0 +1,5372 @@
+## HomeDataModel
+
+> `/System/Library/PrivateFrameworks/HomeDataModel.framework/HomeDataModel`
+
+```diff
+
+-1166.6.7.1.1
+-  __TEXT.__text: 0x860a38 sha256:e77821132082263f917f16c5a6c65eddd1378f2f7fc2174ecfd05c1cfba04668
+-  __TEXT.__auth_stubs: 0x4ad0 sha256:f5cb3d1dd2ade6fcd69bb8b1567ea1b77a1de05d667afbf75e68d766a40dab43
+-  __TEXT.__objc_methlist: 0x2524 sha256:b2de63e322416d0796ef509cbb002a9ac2894a63caa296b62f3ee54f0119494f
+-  __TEXT.__const: 0x4d438 sha256:4a6c4710cc1012957a3290fa13d5b912afcf6164601610b1d51d29a698b74aca
+-  __TEXT.__constg_swiftt: 0x1048c sha256:5800433dfcd05f74653d71e247e8235d5474e930f66ce27bb0ad842deb9c3c93
+-  __TEXT.__swift5_typeref: 0x165a2 sha256:c46e17a939e2fe85d683b202c0b143237e8811acf86a78c8fea879dbdce59ec2
+-  __TEXT.__swift5_builtin: 0x690 sha256:8b496e3d088207db63918ef017ce09f31c3330b55b2d0d815d87acdb5cd6a8da
+-  __TEXT.__swift5_reflstr: 0xe2a1 sha256:991a6fb1c5ff10bbf50a3bd9a2460ea9eedd2b3263c47b316a54f4b6b7d6d8d3
+-  __TEXT.__swift5_fieldmd: 0x12544 sha256:774a2169cf06d84647fcd6b57a1d36134b3a7c4e84bb32cb54909989ca1b2815
+-  __TEXT.__swift5_assocty: 0x2a78 sha256:af40b999e7461613e8c14a4911fb69c33d358e33f6ec2da811be244432345837
+-  __TEXT.__cstring: 0x15a5f sha256:158c9953c43321bc0009c504a0945401f769acb9a7fb7d072c0a7aaffd6690d9
+-  __TEXT.__swift5_proto: 0x3ef4 sha256:c37971ca39a10f86df4e7c7e8814c8129a9b49ed65d367a77f4b4c29415578a0
+-  __TEXT.__swift5_types: 0x11b4 sha256:938e314b16ce6ecab4f14f9cbdcd27282e6e440c6fbac81b8edaa3f61ef874e7
+-  __TEXT.__oslogstring: 0x1173d sha256:f459b52a82a7d1200f55e93f5a7121d553908a873edbd23f5c5fe3ccfe8b608b
+-  __TEXT.__swift_as_entry: 0x1180 sha256:715b2a69a1da096c7ebc967259804ac2fe333bf5ac57068c782d129a3b702754
+-  __TEXT.__swift_as_ret: 0x1524 sha256:763f8b8d1e1c449b12eceeb04e96469aff492c5afc6a5cc4b533f932ebbb19f8
+-  __TEXT.__swift5_capture: 0x4078 sha256:048cad61d324949c1fb93e49cf6cd4e7f6d1cee21254f7015670dac497ae101a
+-  __TEXT.__swift5_protos: 0x1c0 sha256:f1279bebd6a2d9c484e3ba3853ec2c7f394b0e8c73890bd4291e9a298e07d8bb
+-  __TEXT.__swift5_mpenum: 0x1b4 sha256:f31f3b99fc1d5e10ea5b3ad340a6c4900f80b157fed115bf54f3980d0669aad4
++1216.4.0.1.11
++  __TEXT.__text: 0xac2ce8 sha256:b67fde7130f2f7924abe73de6949b1ac0431e082adbef4fb3caea712069ffcf3
++  __TEXT.__lazy_helpers: 0x54 sha256:ac19894cde6823057872365b06b2cea9093ba12fe2c427395d612a32a6a46f11
++  __TEXT.__objc_methlist: 0x2614 sha256:608103c9e93e68231713fab9783616dc817625b0307973ee34b4f45bcb5f64d3
++  __TEXT.__const: 0x5bbf0 sha256:6702c3a0c15a9503e3315dc073d902771d38764d0a0bc3decfb41b8d05bfc305
++  __TEXT.__cstring: 0x18150 sha256:fe5c2db391bf91ddcaed33161e2681e4c57c09794d811a9a8c5b7b87725ef60f
++  __TEXT.__swift5_typeref: 0x1b4e4 sha256:01eb0f2730fc6a8a4700c8288737146b9587501eae23d2a602489a52dfd3d1e2
++  __TEXT.__constg_swiftt: 0x13218 sha256:ed59662c69965eba786ce69b55167df5c2830ae6d04f04f6ab518ecda08edd88
++  __TEXT.__swift5_builtin: 0x76c sha256:ba949adbfca2c0ab2b330d273c148b1ef9cbc1fafe4540c27ff97e032c80a16b
++  __TEXT.__swift5_reflstr: 0x10fe1 sha256:361c2ee3c4a0b6b4b01a3152f45cfc6187ba190667dd948bd5f28131be6d5a84
++  __TEXT.__swift5_fieldmd: 0x15800 sha256:06404822b11f70b4529d2e9a597ad7e4b015aecd705b0aab568baacf1b660a72
++  __TEXT.__swift5_assocty: 0x3228 sha256:8fd0110e596089f2021475e7391400a68224073a6b8780db3d0d806427605f72
++  __TEXT.__swift5_proto: 0x463c sha256:28d2ccaf2766dd5d0c3c3a966f6d1b327b255f95477654adc4595bdd1f4dd761
++  __TEXT.__swift5_types: 0x146c sha256:ac5404a3f3804ce14a137924b3e7080664756f059366c9be4b321cc5740eff54
++  __TEXT.__swift5_capture: 0x6214 sha256:defed2f406fd66f0e1cdb6847afc1be935b5b0c4939ef4043a669155b2c86029
++  __TEXT.__oslogstring: 0x17a8d sha256:bb21d3cbcb253bbb8afc68aedc3f2b69801444aa698f08eddc514850d38724ca
++  __TEXT.__swift_as_entry: 0x19c0 sha256:bec5b77267202677533019f3bcdd486305d7b455ece87b1bb283574c557507d1
++  __TEXT.__swift_as_ret: 0x1f40 sha256:2d58583d6beacb77f0e7b54610e024f3a89b087e7b49e768dbc051e24861294e
++  __TEXT.__swift_as_cont: 0x4460 sha256:997be274c1bced9e0cfaaf1d969e2c5ca26b316ea61afbbbee765daec288ae8f
++  __TEXT.__swift5_protos: 0x214 sha256:d79339811ae2c39f5a315d1b6ce41abd238afd503cbc907fa5eb7f8ec13e7c1f
++  __TEXT.__swift5_mpenum: 0x1bc sha256:4ab293584703abb810f2effe4e07bafa1294201e96e57984f02cfbf493540b19
++  __TEXT.__swift5_types2: 0x3c sha256:5944591a3bf8557ec17da449db1af7608701fcb7fffc3f1c966baa4f7a2fd519
+   __TEXT.__lldbsummaries: 0x45 sha256:baba2e5df9946a30fc75247faa916461ea3ee688fce8ae1d7e749f12921f761a
+-  __TEXT.__swift5_types2: 0x28 sha256:b134c4102279e3db55955dd0f4bbace094de22ffd2b69fe5aac38358f675548e
+-  __TEXT.__unwind_info: 0x19cb0 sha256:3bda4b967ada1817fbef720c90858a6a39abaf167be3e987d814127d96b24985
+-  __TEXT.__eh_frame: 0x3bcc4 sha256:e9666cc5f8e8ed250ce5f974cdd5c88130314626690188c55fb02f10a4d4015e
+-  __TEXT.__objc_classname: 0x196c sha256:931f51574e0dbebac2a95b32efddb68e29b1d8d500696a090a6e053b5480c720
+-  __TEXT.__objc_methname: 0x8cc6 sha256:65f160e5874497174d2fa9d4ec4aa29ae7082fc2461cb532c25b74d857d4df84
+-  __TEXT.__objc_methtype: 0x1ec3 sha256:d3d2a178693eafe48027e30b8170521e56852045ebee923b4ca9ae7e35cebb69
+-  __TEXT.__objc_stubs: 0x5c20 sha256:6f0bb5279889054279f501991b0a3cf6f323af4c1f453f95199c89eff2ed60fb
+-  __DATA_CONST.__got: 0x1540 sha256:0d4419dc9b7fd5c095c3b1264a9652d5ea673a80ad2827bb6dd7e6d27f4d3a8f
+-  __DATA_CONST.__const: 0x1258 sha256:c20c6c3de6b31a8c70b4c1c763ca54d3de52012cbab8835d29baaa8a85d04499
+-  __DATA_CONST.__objc_classlist: 0x2d8 sha256:44d604820ff7a57f64c839c9f97e480952e1d2acefdc292e1bfeb67ac0f8f864
+-  __DATA_CONST.__objc_catlist: 0x40 sha256:a30579f974d45246b2e3ef34d51c3b0965f6d702624109ecafd4d0f21071ccb4
+-  __DATA_CONST.__objc_protolist: 0x200 sha256:42b509e49eae29c6f7d3808a07a986b6e98ae4d12aa01ac8f68161c138d84815
+-  __DATA_CONST.__objc_imageinfo: 0x8 sha256:8c2e86a3d61473a17440ee60441113a7d285704a3b70278f03e88b3c356a5493
+-  __DATA_CONST.__objc_selrefs: 0x1fd0 sha256:243bc8fdd5f9ed790cc62a689c091db98bb3a61c0e05af8e6d4e1d7773569424
+-  __DATA_CONST.__objc_protorefs: 0x100 sha256:a5deba9ae3ee4045b638dffde563c705664fa8585658e55bb87ac4780aa9805e
+-  __DATA_CONST.__objc_superrefs: 0x8 sha256:4673ba8eeccdf9fd8b04276ff5ca37bc1d0ec3171116b7aa4d253e9a950293fb
+-  __AUTH_CONST.__auth_got: 0x2570 sha256:127a6a2e9952761f3d4f8a27556ccc37363d7fcb536294dde08718e08dfc42f2
+-  __AUTH_CONST.__const: 0x2c650 sha256:5a0286e63af0f3af299c4da2f04e6a65bf06d735c6dddcd225af90ad0df41c25
+-  __AUTH_CONST.__objc_const: 0x7630 sha256:10661c54e632bded73c5b35b68848af0b47c636036a07cd271350ea5d5b28b08
+-  __AUTH.__objc_data: 0x36b8 sha256:cf05e3b80fbc446f74f1cec26d0ca24af63f1b7a3adb074586bb051a30560b91
+-  __AUTH.__data: 0x7648 sha256:f4b34efd06ed495bfb029dcafd5b1793275d40ff64d2bb0b8e8c29a258dce8a6
+-  __DATA.__data: 0xf5f8 sha256:1082b466c5b021aef96dc2c767e072bb32e1e9f0e0868a7e86311311be148520
+-  __DATA.__bss: 0x76c10 sha256:6ed79223886207db364a1e9cd76dbc2284300eb210f539ef9e63fcb7b55cec92
+-  __DATA.__common: 0x3a8 sha256:25542246a145dc844d5309a126b0366549659211862b944d75f302f24f8885a8
+-  __DATA_DIRTY.__objc_data: 0x5d8 sha256:998681e024ed65d6cb8214b0a13466b5b6d9eaa25a84225ef3e62b650599d9e5
+-  __DATA_DIRTY.__data: 0x5570 sha256:e902bf0ba0ba6f6b55ab542b4e9a60d69aae774af8952166921a63fc0366644a
+-  __DATA_DIRTY.__common: 0x180 sha256:7e876d3b323c30cb1375dc5e7a46ef47aae5fe0c780f7a9005c61196b5170572
+-  __DATA_DIRTY.__bss: 0x3600 sha256:299407adb3f1bd645191cfecb3c33a47510b1dfba3c0a936d741bdd8513526c0
++  __TEXT.__unwind_info: 0x21ca0 sha256:82960fa9d96fbc7f1f5e09b057f78e4f59c8955c6d16189ab3a572f857c45610
++  __TEXT.__eh_frame: 0x50920 sha256:b3c289f1d7a1657b902340d125e528e9e4d5d48371f0dbe0775f3008d27bf71c
++  __TEXT.__objc_stubs: 0x0
++  __TEXT.__auth_stubs: 0x0
++  __TEXT.__objc_classname: 0x0
++  __TEXT.__objc_methname: 0x0
++  __TEXT.__objc_methtype: 0x0
++  __DATA_CONST.__const: 0x1460 sha256:96e1b6f1fb919a8a0faddd156f13e4038c89b2833f163cfc4bb9ff34b1921776
++  __DATA_CONST.__objc_classlist: 0x368 sha256:5f75c229f00e966f3f2a5be955db0c082dcf9bda50f254f677db5f245ae5c476
++  __DATA_CONST.__objc_catlist: 0x40 sha256:7d3538d8ff6114bb22e1113d4cd865d901c6180a2d37f1a969deca56d07a1934
++  __DATA_CONST.__objc_protolist: 0x230 sha256:b6ab7f91ca31374931b9d76240247339a45b531fce222ef8391e1edcf87a929d
++  __DATA_CONST.__objc_imageinfo: 0x8 sha256:ce857dcadc2529f941104469975d60698ea3610a86c121e7b4aee224cd0c59ea
++  __DATA_CONST.__objc_selrefs: 0x2400 sha256:957ebb992621ec2a2a75b6688b9c6f1a7d2843ec83c3c3b021419569f9acb7da
++  __DATA_CONST.__objc_protorefs: 0x118 sha256:50ec0c9ca54c445feef3d20809adc05332741598353bd9eff2284a2747ac70c8
++  __DATA_CONST.__objc_superrefs: 0x8 sha256:05e63eec11dcbd840cffc4722dd6c6c847c05a399623b106ddca14fdc97528b2
++  __DATA_CONST.__got: 0x1db8 sha256:a34f3a6ce7e862b2569dc04c02d7af06f707ad8768a3d26c852d16a270290ca7
++  __AUTH_CONST.__const: 0x362a0 sha256:3a7a7f90574eb86291f8fdd549bfb10ba6feea50ca11eecf290ea63144e16ee9
++  __AUTH_CONST.__objc_const: 0x9598 sha256:d0573797562ad625e4369e53a674047c379e8c5c2f6881a5c3471f9ff8d26532
++  __AUTH_CONST.__lazy_load_got: 0x8 sha256:d0ad77014968418e49107a93b199c51227607fa260076fe12d828d6294df76b7
++  __AUTH_CONST.__auth_got: 0x3220 sha256:2046dea563fa98d0e2da863603dbf823e0e05e49007fc2c8dd10b9a35472a397
++  __AUTH.__objc_data: 0x3c40 sha256:4bc5f3bc02df012bd71b0b8cea8ec0784d678aed1c0ad3f35b4a50ebc367cf42
++  __AUTH.__data: 0x9490 sha256:c124cc4bee4203e104972d22537cd7a8a87129d1d7a57be4a328ed7e6bfbbe4b
++  __DATA.__data: 0x12d7c sha256:7d73ae92343d3fa5842000940b6f61fcd8b39d6bdb750ad7886d607f0f9961d2
++  __DATA.__bss: 0x84130 sha256:6dbdea0efd430f2b4271892a49b4b212ce4e5f7dd1c620b3ddeca4e384d7b3c8
++  __DATA.__common: 0x4d8 sha256:8843cdefa9459af91c9ce41563358d5ddbdc037d0f29224fcff27d4580d7b120
++  __DATA_DIRTY.__objc_data: 0x6f0 sha256:60c9e859240126cfe98817f3ed5db7c64c930fb2402a55a00b93f129247d4c4d
++  __DATA_DIRTY.__data: 0x6530 sha256:a4d4f6c1fde3991b255098fd16fa2c8a1c43c41d3fa110f05a1e3766c37cad5e
++  __DATA_DIRTY.__common: 0x198 sha256:9bbaae61891465e780e24c680a4db80686f7788b18b7f101c08c100dab3bf8b6
++  __DATA_DIRTY.__bss: 0x4080 sha256:cba9bbe8af2edc223f41e862382e349efb07a6a001c8cd40e38a6e87431b9b5a
+   - /System/Library/Frameworks/AVFoundation.framework/AVFoundation
+   - /System/Library/Frameworks/AppIntents.framework/AppIntents
++  - /System/Library/Frameworks/BackgroundTasks.framework/BackgroundTasks
+   - /System/Library/Frameworks/CloudKit.framework/CloudKit
+   - /System/Library/Frameworks/Combine.framework/Combine
+   - /System/Library/Frameworks/CoreData.framework/CoreData
+
+   - /System/Library/Frameworks/MapKit.framework/MapKit
+   - /System/Library/Frameworks/Matter.framework/Matter
+   - /System/Library/Frameworks/MediaPlayer.framework/MediaPlayer
++  - /System/Library/Frameworks/SwiftData.framework/SwiftData
+   - /System/Library/Frameworks/SwiftUI.framework/SwiftUI
+   - /System/Library/Frameworks/UIKit.framework/UIKit
+   - /System/Library/PrivateFrameworks/APFS.framework/APFS
+   - /System/Library/PrivateFrameworks/AVConference.framework/AVConference
++  - /System/Library/PrivateFrameworks/AlgorithmsInternal.framework/AlgorithmsInternal
+   - /System/Library/PrivateFrameworks/AsyncAlgorithmsInternal.framework/AsyncAlgorithmsInternal
+   - /System/Library/PrivateFrameworks/CollectionsInternal.framework/CollectionsInternal
+   - /System/Library/PrivateFrameworks/Coordination.framework/Coordination
+
+   - /System/Library/PrivateFrameworks/DropIn.framework/DropIn
+   - /System/Library/PrivateFrameworks/EnergyKitInternal.framework/EnergyKitInternal
+   - /System/Library/PrivateFrameworks/FeatureFlags.framework/FeatureFlags
++  - /System/Library/PrivateFrameworks/GenerativeFunctionsFoundation.framework/GenerativeFunctionsFoundation
++  - /System/Library/PrivateFrameworks/GenerativeModels.framework/GenerativeModels
+   - /System/Library/PrivateFrameworks/HMFoundation.framework/HMFoundation
+   - /System/Library/PrivateFrameworks/HomeEnergyUI.framework/HomeEnergyUI
+   - /System/Library/PrivateFrameworks/HomeKitClips.framework/HomeKitClips
+
+   - /System/Library/PrivateFrameworks/LinkServices.framework/LinkServices
+   - /System/Library/PrivateFrameworks/MobileTimer.framework/MobileTimer
+   - /System/Library/PrivateFrameworks/MobileTimerSupport.framework/MobileTimerSupport
++  - /System/Library/PrivateFrameworks/NanoPreferencesSync.framework/NanoPreferencesSync
+   - /System/Library/PrivateFrameworks/NetAppsUtilities.framework/NetAppsUtilities
++  - /System/Library/PrivateFrameworks/ProductKitCore.framework/ProductKitCore
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+
+   - /usr/lib/swift/libswiftCoreImage.dylib
+   - /usr/lib/swift/libswiftCoreLocation.dylib
+   - /usr/lib/swift/libswiftCoreMIDI.dylib
+-  - /usr/lib/swift/libswiftCoreMedia.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
+   - /usr/lib/swift/libswiftIntents.dylib
+-  - /usr/lib/swift/libswiftMapKit.dylib
+   - /usr/lib/swift/libswiftMetal.dylib
+   - /usr/lib/swift/libswiftOSLog.dylib
+   - /usr/lib/swift/libswiftObjectiveC.dylib
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 431FD69D-5981-3D17-8125-E7C91BD77F52
+-  Functions: 32843
+-  Symbols:   10688
+-  CStrings:  4878
++  UUID: 2AA2577A-27CF-3633-A269-D61AE701C14B
++  Functions: 40676
++  Symbols:   15057
++  CStrings:  3920
+ 
+Symbols:
++ _CGContextDrawLinearGradient
++ _CGGradientCreateWithColors
++ _CGImageDestinationAddImageAndMetadata
++ _CGImageMetadataCopyTagWithPath
++ _CGImageMetadataCreateMutable
++ _CGImageMetadataRegisterNamespaceForPrefix
++ _CGImageMetadataSetTagWithPath
++ _CGImageMetadataTagCopyValue
++ _CGImageMetadataTagCreate
++ _CGImageSourceCopyMetadataAtIndex
++ _CGImageSourceCreateImageAtIndex
++ _CGImageSourceCreateWithData
++ _CGImageSourceCreateWithURL
++ _CGRectEqualToRect
++ _CGRectStandardize
++ _CSSuggestionHighlightAttributeName
++ _HMServiceTypeAirQualitySensor
++ _HMServiceTypeCameraBufferManagement
++ _HMServiceTypeCarbonDioxideSensor
++ _HMServiceTypeCarbonMonoxideSensor
++ _HMServiceTypeContactSensor
++ _HMServiceTypeHumiditySensor
++ _HMServiceTypeLeakSensor
++ _HMServiceTypeLightSensor
++ _HMServiceTypeMotionSensor
++ _HMServiceTypeSmokeSensor
++ _HMServiceTypeTemperatureSensor
++ _MTRNullValueType
++ _NSLocalizedDescriptionKey
++ _NSURLContentAccessDateKey
++ _NSURLCreationDateKey
++ _NSURLFileSizeKey
++ _OBJC_CLASS_$_AVAsset
++ _OBJC_CLASS_$_BGProcessingTask
++ _OBJC_CLASS_$_BGProcessingTaskRequest
++ _OBJC_CLASS_$_BGTaskScheduler
++ _OBJC_CLASS_$_CSCustomAttributeKey
++ _OBJC_CLASS_$_CSSearchQuery
++ _OBJC_CLASS_$_CSSearchQueryContext
++ _OBJC_CLASS_$_CSSearchableIndex
++ _OBJC_CLASS_$_CSUserQuery
++ _OBJC_CLASS_$_CSUserQueryContext
++ _OBJC_CLASS_$_MTRClusterElectricalEnergyMeasurement
++ _OBJC_CLASS_$_MTRClusterElectricalPowerMeasurement
++ _OBJC_CLASS_$_MTRClusterFanControl
++ _OBJC_CLASS_$_MTRClusterThermostatUserInterfaceConfiguration
++ _OBJC_CLASS_$_MTRElectricalEnergyMeasurementClusterCumulativeEnergyResetStruct
++ _OBJC_CLASS_$_MTRElectricalEnergyMeasurementClusterEnergyMeasurementStruct
++ _OBJC_CLASS_$_MTRElectricalEnergyMeasurementClusterMeasurementAccuracyRangeStruct
++ _OBJC_CLASS_$_MTRElectricalEnergyMeasurementClusterMeasurementAccuracyStruct
++ _OBJC_CLASS_$_MTRElectricalPowerMeasurementClusterMeasurementAccuracyRangeStruct
++ _OBJC_CLASS_$_MTRFanControlClusterStepParams
++ _OBJC_CLASS_$_MTROperationalStateClusterErrorStateStruct
++ _OBJC_CLASS_$_MTROperationalStateClusterOperationalStateStruct
++ _OBJC_CLASS_$_NPSManager
++ _OBJC_CLASS_$_NSISO8601DateFormatter
++ _OBJC_CLASS_$_NSListFormatter
++ _OBJC_CLASS_$_NSMutableData
++ _OBJC_CLASS_$_NSNotificationCenter
++ _OBJC_CLASS_$_NSURLSessionConfiguration
++ _OBJC_CLASS_$_UIGraphicsImageRenderer
++ _OBJC_CLASS_$__TtC13HomeDataModel12ClimateModel
++ _OBJC_CLASS_$__TtC13HomeDataModel37MockElectricalPowerMeasurementCluster
++ _OBJC_CLASS_$__TtC13HomeDataModel38MockElectricalEnergyMeasurementCluster
++ _OBJC_METACLASS_$_MTRClusterElectricalEnergyMeasurement
++ _OBJC_METACLASS_$_MTRClusterElectricalPowerMeasurement
++ _OBJC_METACLASS_$__TtC13HomeDataModel12ClimateModel
++ _OBJC_METACLASS_$__TtC13HomeDataModel37MockElectricalPowerMeasurementCluster
++ _OBJC_METACLASS_$__TtC13HomeDataModel38MockElectricalEnergyMeasurementCluster
++ _UIImagePNGRepresentation
++ __DATA__TtC13HomeDataModel12ClimateModel
++ __DATA__TtC13HomeDataModel15EmbeddingRecord
++ __DATA__TtC13HomeDataModel15EnergyViewModel
++ __DATA__TtC13HomeDataModel16CameraEventActor
++ __DATA__TtC13HomeDataModel17CameraEventRecord
++ __DATA__TtC13HomeDataModel17DataStoreProvider
++ __DATA__TtC13HomeDataModel18MockSearchProvider
++ __DATA__TtC13HomeDataModel21MatterAttributePoller
++ __DATA__TtC13HomeDataModel22CameraFetchStateRecord
++ __DATA__TtC13HomeDataModel22SignificantEventRecord
++ __DATA__TtC13HomeDataModel25CompoundCameraEventRecord
++ __DATA__TtC13HomeDataModel27CameraEventFetchCoordinator
++ __DATA__TtC13HomeDataModel27CoreSpotlightSearchProvider
++ __DATA__TtC13HomeDataModel29SpotlightIndexBatchSerializer
++ __DATA__TtC13HomeDataModel37MockElectricalPowerMeasurementCluster
++ __DATA__TtC13HomeDataModel38MockElectricalEnergyMeasurementCluster
++ __DATA__TtCC13HomeDataModel12ClimateModel10Thermostat
++ __DATA__TtCC13HomeDataModel12ClimateModel4Home
++ __DATA__TtCC13HomeDataModel15EnergyViewModel5State
++ __DATA__TtCCC13HomeDataModel12ClimateModel10Thermostat5State
++ __DATA__TtCOO13HomeDataModel6Camera5Event20InitialFetchComplete
++ __DATA__TtCOO13HomeDataModel6Camera5Event25FetchAndIndexDebugMetrics
++ __INSTANCE_METHODS__TtC13HomeDataModel37MockElectricalPowerMeasurementCluster
++ __INSTANCE_METHODS__TtC13HomeDataModel38MockElectricalEnergyMeasurementCluster
++ __IVARS__TtC13HomeDataModel12ClimateModel
++ __IVARS__TtC13HomeDataModel15EmbeddingRecord
++ __IVARS__TtC13HomeDataModel15EnergyViewModel
++ __IVARS__TtC13HomeDataModel16CameraEventActor
++ __IVARS__TtC13HomeDataModel17CameraEventRecord
++ __IVARS__TtC13HomeDataModel17DataStoreProvider
++ __IVARS__TtC13HomeDataModel18MockSearchProvider
++ __IVARS__TtC13HomeDataModel21ClipSearchCoordinator
++ __IVARS__TtC13HomeDataModel21MatterAttributePoller
++ __IVARS__TtC13HomeDataModel22CameraFetchStateRecord
++ __IVARS__TtC13HomeDataModel22SignificantEventRecord
++ __IVARS__TtC13HomeDataModel25CompoundCameraEventRecord
++ __IVARS__TtC13HomeDataModel27CameraEventFetchCoordinator
++ __IVARS__TtC13HomeDataModel27CoreSpotlightSearchProvider
++ __IVARS__TtC13HomeDataModel27HomeFaceClassificationStore
++ __IVARS__TtC13HomeDataModel29SpotlightIndexBatchSerializer
++ __IVARS__TtC13HomeDataModel37MockElectricalPowerMeasurementCluster
++ __IVARS__TtC13HomeDataModel38MockElectricalEnergyMeasurementCluster
++ __IVARS__TtCC13HomeDataModel12ClimateModel10Thermostat
++ __IVARS__TtCC13HomeDataModel12ClimateModel4Home
++ __IVARS__TtCC13HomeDataModel15EnergyViewModel5State
++ __IVARS__TtCCC13HomeDataModel12ClimateModel10Thermostat5State
++ __IVARS__TtCCOO13HomeDataModel6Camera5Event5Store14HistoryTracker
++ __IVARS__TtCCOO13HomeDataModel6Camera5Event5Store24FetchAndIndexCoordinator
++ __IVARS__TtCCOO13HomeDataModel6Camera5Event5Store6Intake
++ __IVARS__TtCCOO13HomeDataModel6Camera5Event5Store7Indexer
++ __IVARS__TtCCOO13HomeDataModel6Camera5Event5StoreP33_3712C6B02E1FE98B955A294A89495E6015ProgressMatcher
++ __IVARS__TtCOO13HomeDataModel6Camera5Event16FetchCoordinator
++ __IVARS__TtCOO13HomeDataModel6Camera5Event20InitialFetchComplete
++ __IVARS__TtCOO13HomeDataModel6Camera5Event25FetchAndIndexDebugMetrics
++ __IVARS__TtCOO13HomeDataModel6Camera5Event25SingleCameraFetchExecutor
++ __IVARS__TtCOO13HomeDataModel6Camera5Event5Store
++ __METACLASS_DATA__TtC13HomeDataModel12ClimateModel
++ __METACLASS_DATA__TtC13HomeDataModel15EmbeddingRecord
++ __METACLASS_DATA__TtC13HomeDataModel15EnergyViewModel
++ __METACLASS_DATA__TtC13HomeDataModel16CameraEventActor
++ __METACLASS_DATA__TtC13HomeDataModel17CameraEventRecord
++ __METACLASS_DATA__TtC13HomeDataModel17DataStoreProvider
++ __METACLASS_DATA__TtC13HomeDataModel18MockSearchProvider
++ __METACLASS_DATA__TtC13HomeDataModel21MatterAttributePoller
++ __METACLASS_DATA__TtC13HomeDataModel22CameraFetchStateRecord
++ __METACLASS_DATA__TtC13HomeDataModel22SignificantEventRecord
++ __METACLASS_DATA__TtC13HomeDataModel25CompoundCameraEventRecord
++ __METACLASS_DATA__TtC13HomeDataModel27CameraEventFetchCoordinator
++ __METACLASS_DATA__TtC13HomeDataModel27CoreSpotlightSearchProvider
++ __METACLASS_DATA__TtC13HomeDataModel29SpotlightIndexBatchSerializer
++ __METACLASS_DATA__TtC13HomeDataModel37MockElectricalPowerMeasurementCluster
++ __METACLASS_DATA__TtC13HomeDataModel38MockElectricalEnergyMeasurementCluster
++ __METACLASS_DATA__TtCC13HomeDataModel12ClimateModel10Thermostat
++ __METACLASS_DATA__TtCC13HomeDataModel12ClimateModel4Home
++ __METACLASS_DATA__TtCC13HomeDataModel15EnergyViewModel5State
++ __METACLASS_DATA__TtCCC13HomeDataModel12ClimateModel10Thermostat5State
++ __METACLASS_DATA__TtCOO13HomeDataModel6Camera5Event20InitialFetchComplete
++ __METACLASS_DATA__TtCOO13HomeDataModel6Camera5Event25FetchAndIndexDebugMetrics
++ __OBJC_$_CLASS_PROP_LIST_NSSecureCoding
++ __OBJC_$_INSTANCE_METHODS__TtC13HomeDataModel12ClimateModel(HomeDataModel)
++ __OBJC_$_PROTOCOL_CLASS_METHODS_NSSecureCoding
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSCoding
++ __OBJC_$_PROTOCOL_METHOD_TYPES_NSCoding
++ __OBJC_$_PROTOCOL_METHOD_TYPES_NSSecureCoding
++ __OBJC_$_PROTOCOL_REFS_HMApplicationDataContainer
++ __OBJC_$_PROTOCOL_REFS_NSSecureCoding
++ __OBJC_CLASS_PROTOCOLS_$__TtC13HomeDataModel12ClimateModel(HomeDataModel)
++ __OBJC_LABEL_PROTOCOL_$_HMApplicationDataContainer
++ __OBJC_LABEL_PROTOCOL_$_NSCoding
++ __OBJC_LABEL_PROTOCOL_$_NSSecureCoding
++ __OBJC_PROTOCOL_$_HMApplicationDataContainer
++ __OBJC_PROTOCOL_$_NSCoding
++ __OBJC_PROTOCOL_$_NSSecureCoding
++ __PROTOCOLS__TtC13HomeDataModel15CameraClipAsset.2
++ ___swift__destructor
++ ___swift__destructor.10
++ ___swift__destructor.108
++ ___swift__destructor.116
++ ___swift__destructor.117
++ ___swift__destructor.126
++ ___swift__destructor.13
++ ___swift__destructor.130
++ ___swift__destructor.135
++ ___swift__destructor.18
++ ___swift__destructor.19
++ ___swift__destructor.195
++ ___swift__destructor.2
++ ___swift__destructor.20
++ ___swift__destructor.203
++ ___swift__destructor.24
++ ___swift__destructor.27
++ ___swift__destructor.29
++ ___swift__destructor.32
++ ___swift__destructor.42
++ ___swift__destructor.43
++ ___swift__destructor.47
++ ___swift__destructor.56
++ ___swift__destructor.67
++ ___swift__destructor.68
++ ___swift__destructor.82
++ ___swift__destructor.90
++ ___swift__destructor.93
++ ___swift__destructor.96
++ ___swift__destructor.99
++ ___swift_assign_boxed_opaque_existential_0
++ ___swift_assign_boxed_opaque_existential_1
++ ___swift_async_cont_functlets
++ ___swift_closure_destructor
++ ___swift_closure_destructor.10
++ ___swift_closure_destructor.100
++ ___swift_closure_destructor.101
++ ___swift_closure_destructor.101Tm
++ ___swift_closure_destructor.102
++ ___swift_closure_destructor.102Tm
++ ___swift_closure_destructor.103
++ ___swift_closure_destructor.104
++ ___swift_closure_destructor.105
++ ___swift_closure_destructor.105Tm
++ ___swift_closure_destructor.106
++ ___swift_closure_destructor.107
++ ___swift_closure_destructor.108
++ ___swift_closure_destructor.109
++ ___swift_closure_destructor.10Tm
++ ___swift_closure_destructor.11
++ ___swift_closure_destructor.110
++ ___swift_closure_destructor.110Tm
++ ___swift_closure_destructor.111
++ ___swift_closure_destructor.111Tm
++ ___swift_closure_destructor.112
++ ___swift_closure_destructor.113
++ ___swift_closure_destructor.114
++ ___swift_closure_destructor.115
++ ___swift_closure_destructor.116
++ ___swift_closure_destructor.117
++ ___swift_closure_destructor.117Tm
++ ___swift_closure_destructor.118
++ ___swift_closure_destructor.119
++ ___swift_closure_destructor.12
++ ___swift_closure_destructor.120
++ ___swift_closure_destructor.121
++ ___swift_closure_destructor.121Tm
++ ___swift_closure_destructor.122
++ ___swift_closure_destructor.123
++ ___swift_closure_destructor.124
++ ___swift_closure_destructor.125
++ ___swift_closure_destructor.127
++ ___swift_closure_destructor.128
++ ___swift_closure_destructor.129
++ ___swift_closure_destructor.12Tm
++ ___swift_closure_destructor.13
++ ___swift_closure_destructor.130
++ ___swift_closure_destructor.131
++ ___swift_closure_destructor.132
++ ___swift_closure_destructor.133
++ ___swift_closure_destructor.134
++ ___swift_closure_destructor.134Tm
++ ___swift_closure_destructor.135
++ ___swift_closure_destructor.136
++ ___swift_closure_destructor.137
++ ___swift_closure_destructor.138
++ ___swift_closure_destructor.139
++ ___swift_closure_destructor.14
++ ___swift_closure_destructor.140
++ ___swift_closure_destructor.141
++ ___swift_closure_destructor.142
++ ___swift_closure_destructor.143
++ ___swift_closure_destructor.144
++ ___swift_closure_destructor.146
++ ___swift_closure_destructor.147
++ ___swift_closure_destructor.148
++ ___swift_closure_destructor.149
++ ___swift_closure_destructor.15
++ ___swift_closure_destructor.151
++ ___swift_closure_destructor.152
++ ___swift_closure_destructor.153
++ ___swift_closure_destructor.153Tm
++ ___swift_closure_destructor.154
++ ___swift_closure_destructor.156
++ ___swift_closure_destructor.157
++ ___swift_closure_destructor.158
++ ___swift_closure_destructor.159
++ ___swift_closure_destructor.15Tm
++ ___swift_closure_destructor.16
++ ___swift_closure_destructor.162
++ ___swift_closure_destructor.163
++ ___swift_closure_destructor.165
++ ___swift_closure_destructor.168
++ ___swift_closure_destructor.17
++ ___swift_closure_destructor.170
++ ___swift_closure_destructor.171
++ ___swift_closure_destructor.172
++ ___swift_closure_destructor.173
++ ___swift_closure_destructor.175
++ ___swift_closure_destructor.176
++ ___swift_closure_destructor.178
++ ___swift_closure_destructor.179
++ ___swift_closure_destructor.18
++ ___swift_closure_destructor.180
++ ___swift_closure_destructor.181
++ ___swift_closure_destructor.182
++ ___swift_closure_destructor.183
++ ___swift_closure_destructor.184
++ ___swift_closure_destructor.185
++ ___swift_closure_destructor.185Tm
++ ___swift_closure_destructor.187
++ ___swift_closure_destructor.188
++ ___swift_closure_destructor.189
++ ___swift_closure_destructor.18Tm
++ ___swift_closure_destructor.19
++ ___swift_closure_destructor.190
++ ___swift_closure_destructor.193
++ ___swift_closure_destructor.194
++ ___swift_closure_destructor.195
++ ___swift_closure_destructor.196
++ ___swift_closure_destructor.197
++ ___swift_closure_destructor.198
++ ___swift_closure_destructor.199
++ ___swift_closure_destructor.2
++ ___swift_closure_destructor.20
++ ___swift_closure_destructor.200
++ ___swift_closure_destructor.201
++ ___swift_closure_destructor.203
++ ___swift_closure_destructor.207
++ ___swift_closure_destructor.208
++ ___swift_closure_destructor.20Tm
++ ___swift_closure_destructor.21
++ ___swift_closure_destructor.211
++ ___swift_closure_destructor.211Tm
++ ___swift_closure_destructor.213
++ ___swift_closure_destructor.215
++ ___swift_closure_destructor.216
++ ___swift_closure_destructor.217
++ ___swift_closure_destructor.217Tm
++ ___swift_closure_destructor.218
++ ___swift_closure_destructor.219
++ ___swift_closure_destructor.21Tm
++ ___swift_closure_destructor.22
++ ___swift_closure_destructor.220
++ ___swift_closure_destructor.221
++ ___swift_closure_destructor.223
++ ___swift_closure_destructor.227
++ ___swift_closure_destructor.228
++ ___swift_closure_destructor.22Tm
++ ___swift_closure_destructor.23
++ ___swift_closure_destructor.233
++ ___swift_closure_destructor.233Tm
++ ___swift_closure_destructor.236
++ ___swift_closure_destructor.237
++ ___swift_closure_destructor.238
++ ___swift_closure_destructor.24
++ ___swift_closure_destructor.240
++ ___swift_closure_destructor.242
++ ___swift_closure_destructor.244
++ ___swift_closure_destructor.247
++ ___swift_closure_destructor.247Tm
++ ___swift_closure_destructor.248
++ ___swift_closure_destructor.25
++ ___swift_closure_destructor.250
++ ___swift_closure_destructor.257
++ ___swift_closure_destructor.259
++ ___swift_closure_destructor.25Tm
++ ___swift_closure_destructor.26
++ ___swift_closure_destructor.261
++ ___swift_closure_destructor.263
++ ___swift_closure_destructor.268
++ ___swift_closure_destructor.27
++ ___swift_closure_destructor.270
++ ___swift_closure_destructor.272
++ ___swift_closure_destructor.27Tm
++ ___swift_closure_destructor.28
++ ___swift_closure_destructor.285
++ ___swift_closure_destructor.28Tm
++ ___swift_closure_destructor.29
++ ___swift_closure_destructor.29Tm
++ ___swift_closure_destructor.2Tm
++ ___swift_closure_destructor.3
++ ___swift_closure_destructor.30
++ ___swift_closure_destructor.30Tm
++ ___swift_closure_destructor.31
++ ___swift_closure_destructor.32
++ ___swift_closure_destructor.33
++ ___swift_closure_destructor.335
++ ___swift_closure_destructor.33Tm
++ ___swift_closure_destructor.34
++ ___swift_closure_destructor.341
++ ___swift_closure_destructor.344
++ ___swift_closure_destructor.347
++ ___swift_closure_destructor.34Tm
++ ___swift_closure_destructor.35
++ ___swift_closure_destructor.351
++ ___swift_closure_destructor.354
++ ___swift_closure_destructor.358
++ ___swift_closure_destructor.35Tm
++ ___swift_closure_destructor.36
++ ___swift_closure_destructor.362
++ ___swift_closure_destructor.368
++ ___swift_closure_destructor.36Tm
++ ___swift_closure_destructor.37
++ ___swift_closure_destructor.374
++ ___swift_closure_destructor.378
++ ___swift_closure_destructor.37Tm
++ ___swift_closure_destructor.38
++ ___swift_closure_destructor.381
++ ___swift_closure_destructor.385
++ ___swift_closure_destructor.39
++ ___swift_closure_destructor.390
++ ___swift_closure_destructor.3Tm
++ ___swift_closure_destructor.4
++ ___swift_closure_destructor.40
++ ___swift_closure_destructor.40Tm
++ ___swift_closure_destructor.41
++ ___swift_closure_destructor.42
++ ___swift_closure_destructor.43
++ ___swift_closure_destructor.44
++ ___swift_closure_destructor.45
++ ___swift_closure_destructor.46
++ ___swift_closure_destructor.47
++ ___swift_closure_destructor.48
++ ___swift_closure_destructor.49
++ ___swift_closure_destructor.5
++ ___swift_closure_destructor.50
++ ___swift_closure_destructor.50Tm
++ ___swift_closure_destructor.51
++ ___swift_closure_destructor.52
++ ___swift_closure_destructor.52Tm
++ ___swift_closure_destructor.53
++ ___swift_closure_destructor.54
++ ___swift_closure_destructor.55
++ ___swift_closure_destructor.55Tm
++ ___swift_closure_destructor.56
++ ___swift_closure_destructor.57
++ ___swift_closure_destructor.58
++ ___swift_closure_destructor.59
++ ___swift_closure_destructor.59Tm
++ ___swift_closure_destructor.6
++ ___swift_closure_destructor.60
++ ___swift_closure_destructor.61
++ ___swift_closure_destructor.61Tm
++ ___swift_closure_destructor.62
++ ___swift_closure_destructor.63
++ ___swift_closure_destructor.63Tm
++ ___swift_closure_destructor.64
++ ___swift_closure_destructor.65
++ ___swift_closure_destructor.66
++ ___swift_closure_destructor.66Tm
++ ___swift_closure_destructor.67
++ ___swift_closure_destructor.68
++ ___swift_closure_destructor.69
++ ___swift_closure_destructor.6Tm
++ ___swift_closure_destructor.7
++ ___swift_closure_destructor.70
++ ___swift_closure_destructor.70Tm
++ ___swift_closure_destructor.72
++ ___swift_closure_destructor.73
++ ___swift_closure_destructor.73Tm
++ ___swift_closure_destructor.74
++ ___swift_closure_destructor.75
++ ___swift_closure_destructor.75Tm
++ ___swift_closure_destructor.76
++ ___swift_closure_destructor.77
++ ___swift_closure_destructor.78
++ ___swift_closure_destructor.78Tm
++ ___swift_closure_destructor.79
++ ___swift_closure_destructor.79Tm
++ ___swift_closure_destructor.8
++ ___swift_closure_destructor.80
++ ___swift_closure_destructor.80Tm
++ ___swift_closure_destructor.81
++ ___swift_closure_destructor.81Tm
++ ___swift_closure_destructor.82
++ ___swift_closure_destructor.83
++ ___swift_closure_destructor.83Tm
++ ___swift_closure_destructor.84
++ ___swift_closure_destructor.85
++ ___swift_closure_destructor.86
++ ___swift_closure_destructor.87
++ ___swift_closure_destructor.88
++ ___swift_closure_destructor.88Tm
++ ___swift_closure_destructor.89
++ ___swift_closure_destructor.9
++ ___swift_closure_destructor.90
++ ___swift_closure_destructor.91
++ ___swift_closure_destructor.92
++ ___swift_closure_destructor.92Tm
++ ___swift_closure_destructor.93
++ ___swift_closure_destructor.93Tm
++ ___swift_closure_destructor.94
++ ___swift_closure_destructor.95
++ ___swift_closure_destructor.96
++ ___swift_closure_destructor.97
++ ___swift_closure_destructor.98
++ ___swift_closure_destructor.98Tm
++ ___swift_closure_destructor.99
++ ___swift_closure_destructor.9Tm
++ ___swift_closure_destructorTm
++ ___swift_deallocate_boxed_opaque_existential_1
++ ___swift_exist.box.addr_destructor
++ ___swift_exist.box.addr_destructor.14
++ ___swift_get_extra_inhabitant_index.35Tm
++ ___swift_memcpy113_8
++ ___swift_memcpy48_8
++ ___swift_memcpy4_1
++ ___swift_memcpy65_8
++ ___swift_memcpy81_8
++ ___swift_store_extra_inhabitant_index.36Tm
++ ___unnamed_12
++ __dyld_lazy_load
++ __swift_isClassOrObjCExistentialType
++ _associated conformance 12HomeKitClips15CameraDataStoreC0aE5Model0deF8ProtocolAD12ClipCaptionsAdEP_Sci
++ _associated conformance 12HomeKitClips15CameraDataStoreC0aE5Model0deF8ProtocolAD21SignificantEventsByIDAdEP_Sci
++ _associated conformance 12HomeKitClips15CameraDataStoreC0aE5Model0deF8ProtocolAD7ChangesAdEP_Sci
++ _associated conformance 13HomeDataModel015MatterAttributeB7BuilderO14NullCodingKeys33_83ADBD2535462EE3DCACA5EF8445F958LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 13HomeDataModel015MatterAttributeB7BuilderO14NullCodingKeys33_83ADBD2535462EE3DCACA5EF8445F958LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 13HomeDataModel07ClimateC0C10ThermostatC15WeekdayScheduleV10CodingKeys33_A3C4427BE4B25BC593FA0FB40F4CFD42LLOSHAASQ
++ _associated conformance 13HomeDataModel07ClimateC0C10ThermostatC15WeekdayScheduleV10CodingKeys33_A3C4427BE4B25BC593FA0FB40F4CFD42LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 13HomeDataModel07ClimateC0C10ThermostatC15WeekdayScheduleV10CodingKeys33_A3C4427BE4B25BC593FA0FB40F4CFD42LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 13HomeDataModel07ClimateC0C10ThermostatC15WeekdayScheduleVSHAASQ
++ _associated conformance 13HomeDataModel07ClimateC0C10ThermostatC19WeekdayScheduleRuleV10CodingKeys33_A3C4427BE4B25BC593FA0FB40F4CFD42LLOSHAASQ
++ _associated conformance 13HomeDataModel07ClimateC0C10ThermostatC19WeekdayScheduleRuleV10CodingKeys33_A3C4427BE4B25BC593FA0FB40F4CFD42LLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 13HomeDataModel07ClimateC0C10ThermostatC19WeekdayScheduleRuleV10CodingKeys33_A3C4427BE4B25BC593FA0FB40F4CFD42LLOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 13HomeDataModel07ClimateC0C10ThermostatC19WeekdayScheduleRuleV3DayOSHAASQ
++ _associated conformance 13HomeDataModel07ClimateC0C10ThermostatC19WeekdayScheduleRuleV3DayOs12CaseIterableAA8AllCasessAJP_Sl
++ _associated conformance 13HomeDataModel07ClimateC0C10ThermostatC19WeekdayScheduleRuleVSHAASQ
++ _associated conformance 13HomeDataModel07ClimateC0C10ThermostatC24CleanEnergySettingConfigV0g10PeakSymbolI0V10CodingKeys33_A3C4427BE4B25BC593FA0FB40F4CFD42LLOSHAASQ
++ _associated conformance 13HomeDataModel07ClimateC0C10ThermostatC24CleanEnergySettingConfigV0g10PeakSymbolI0V10CodingKeys33_A3C4427BE4B25BC593FA0FB40F4CFD42LLOs0L3KeyAAs23CustomStringConvertible
++ _associated conformance 13HomeDataModel07ClimateC0C10ThermostatC24CleanEnergySettingConfigV0g10PeakSymbolI0V10CodingKeys33_A3C4427BE4B25BC593FA0FB40F4CFD42LLOs0L3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 13HomeDataModel07ClimateC0C10ThermostatC24CleanEnergySettingConfigV0g10PeakSymbolI0VSHAASQ
++ _associated conformance 13HomeDataModel07ClimateC0C10ThermostatC24CleanEnergySettingConfigV10CodingKeys33_A3C4427BE4B25BC593FA0FB40F4CFD42LLOSHAASQ
++ _associated conformance 13HomeDataModel07ClimateC0C10ThermostatC24CleanEnergySettingConfigV10CodingKeys33_A3C4427BE4B25BC593FA0FB40F4CFD42LLOs0J3KeyAAs23CustomStringConvertible
++ _associated conformance 13HomeDataModel07ClimateC0C10ThermostatC24CleanEnergySettingConfigV10CodingKeys33_A3C4427BE4B25BC593FA0FB40F4CFD42LLOs0J3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 13HomeDataModel07ClimateC0C10ThermostatC24CleanEnergySettingConfigVSHAASQ
++ _associated conformance 13HomeDataModel07ClimateC0C10ThermostatC25AdaptiveTemperatureConfigV04RoomH0V10CodingKeys33_A3C4427BE4B25BC593FA0FB40F4CFD42LLOSHAASQ
++ _associated conformance 13HomeDataModel07ClimateC0C10ThermostatC25AdaptiveTemperatureConfigV04RoomH0V10CodingKeys33_A3C4427BE4B25BC593FA0FB40F4CFD42LLOs0J3KeyAAs23CustomStringConvertible
++ _associated conformance 13HomeDataModel07ClimateC0C10ThermostatC25AdaptiveTemperatureConfigV04RoomH0V10CodingKeys33_A3C4427BE4B25BC593FA0FB40F4CFD42LLOs0J3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 13HomeDataModel07ClimateC0C10ThermostatC25AdaptiveTemperatureConfigV04RoomH0VSHAASQ
++ _associated conformance 13HomeDataModel07ClimateC0C10ThermostatC25AdaptiveTemperatureConfigV04RoomH0VSLAASQ
++ _associated conformance 13HomeDataModel07ClimateC0C10ThermostatC25AdaptiveTemperatureConfigV10CodingKeys33_A3C4427BE4B25BC593FA0FB40F4CFD42LLOSHAASQ
++ _associated conformance 13HomeDataModel07ClimateC0C10ThermostatC25AdaptiveTemperatureConfigV10CodingKeys33_A3C4427BE4B25BC593FA0FB40F4CFD42LLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 13HomeDataModel07ClimateC0C10ThermostatC25AdaptiveTemperatureConfigV10CodingKeys33_A3C4427BE4B25BC593FA0FB40F4CFD42LLOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 13HomeDataModel07ClimateC0C10ThermostatC25AdaptiveTemperatureConfigV7SettingV10CodingKeys33_A3C4427BE4B25BC593FA0FB40F4CFD42LLOSHAASQ
++ _associated conformance 13HomeDataModel07ClimateC0C10ThermostatC25AdaptiveTemperatureConfigV7SettingV10CodingKeys33_A3C4427BE4B25BC593FA0FB40F4CFD42LLOs0J3KeyAAs23CustomStringConvertible
++ _associated conformance 13HomeDataModel07ClimateC0C10ThermostatC25AdaptiveTemperatureConfigV7SettingV10CodingKeys33_A3C4427BE4B25BC593FA0FB40F4CFD42LLOs0J3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 13HomeDataModel07ClimateC0C10ThermostatC25AdaptiveTemperatureConfigV7SettingVSHAASQ
++ _associated conformance 13HomeDataModel07ClimateC0C10ThermostatC25AdaptiveTemperatureConfigVSHAASQ
++ _associated conformance 13HomeDataModel07ClimateC0C10ThermostatC5StateC11UpdateErrorO0G4TypeOSHAASQ
++ _associated conformance 13HomeDataModel07ClimateC0C10ThermostatC5StateC11UpdateErrorOSHAASQ
++ _associated conformance 13HomeDataModel08WaveformB0V10ResolutionOSHAASQ
++ _associated conformance 13HomeDataModel10CameraClipV12CaptionStateOSHAASQ
++ _associated conformance 13HomeDataModel10StatusIconV0dE7Payload33_0BFD660224EF62AB138A8C6137AD949FLLO27AccessoryCategoryCodingKeysOSHAASQ
++ _associated conformance 13HomeDataModel10StatusIconV0dE7Payload33_0BFD660224EF62AB138A8C6137AD949FLLO27AccessoryCategoryCodingKeysOs0O3KeyAAs23CustomStringConvertible
++ _associated conformance 13HomeDataModel10StatusIconV0dE7Payload33_0BFD660224EF62AB138A8C6137AD949FLLO27AccessoryCategoryCodingKeysOs0O3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 13HomeDataModel12CameraClipIDOSHAASQ
++ _associated conformance 13HomeDataModel12SearchResultV4TypeOSHAASQ
++ _associated conformance 13HomeDataModel12SearchResultV6AnchorVSHAASQ
++ _associated conformance 13HomeDataModel12SearchResultVSHAASQ
++ _associated conformance 13HomeDataModel12SearchResultVs12IdentifiableAA2IDsADP_SH
++ _associated conformance 13HomeDataModel13StaticClusterO20FanControlCodingKeys33_33FA28C341BB11C4E0C1667B9E3CF4F0LLOSHAASQ
++ _associated conformance 13HomeDataModel13StaticClusterO20FanControlCodingKeys33_33FA28C341BB11C4E0C1667B9E3CF4F0LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 13HomeDataModel13StaticClusterO20FanControlCodingKeys33_33FA28C341BB11C4E0C1667B9E3CF4F0LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 13HomeDataModel13StaticClusterO28ThermostatUIConfigCodingKeys33_33FA28C341BB11C4E0C1667B9E3CF4F0LLOSHAASQ
++ _associated conformance 13HomeDataModel13StaticClusterO28ThermostatUIConfigCodingKeys33_33FA28C341BB11C4E0C1667B9E3CF4F0LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 13HomeDataModel13StaticClusterO28ThermostatUIConfigCodingKeys33_33FA28C341BB11C4E0C1667B9E3CF4F0LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 13HomeDataModel13StaticClusterO36ElectricalPowerMeasurementCodingKeys33_33FA28C341BB11C4E0C1667B9E3CF4F0LLOSHAASQ
++ _associated conformance 13HomeDataModel13StaticClusterO36ElectricalPowerMeasurementCodingKeys33_33FA28C341BB11C4E0C1667B9E3CF4F0LLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 13HomeDataModel13StaticClusterO36ElectricalPowerMeasurementCodingKeys33_33FA28C341BB11C4E0C1667B9E3CF4F0LLOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 13HomeDataModel13StaticClusterO37ElectricalEnergyMeasurementCodingKeys33_33FA28C341BB11C4E0C1667B9E3CF4F0LLOSHAASQ
++ _associated conformance 13HomeDataModel13StaticClusterO37ElectricalEnergyMeasurementCodingKeys33_33FA28C341BB11C4E0C1667B9E3CF4F0LLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 13HomeDataModel13StaticClusterO37ElectricalEnergyMeasurementCodingKeys33_33FA28C341BB11C4E0C1667B9E3CF4F0LLOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 13HomeDataModel15AnyEndpointLikeV0E4Type33_E7F282E39A3517447FD3F2F63DCD5E2ALLOSHAASQ
++ _associated conformance 13HomeDataModel15AnyEndpointLikeV10CodingKeys33_E7F282E39A3517447FD3F2F63DCD5E2ALLOSHAASQ
++ _associated conformance 13HomeDataModel15AnyEndpointLikeV10CodingKeys33_E7F282E39A3517447FD3F2F63DCD5E2ALLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 13HomeDataModel15AnyEndpointLikeV10CodingKeys33_E7F282E39A3517447FD3F2F63DCD5E2ALLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 13HomeDataModel15AnyEndpointLikeVSHAASQ
++ _associated conformance 13HomeDataModel15AnyEndpointLikeVs12IdentifiableAA2IDsADP_SH
++ _associated conformance 13HomeDataModel15CameraClipErrorOSHAASQ
++ _associated conformance 13HomeDataModel15ClipSearchQueryO05QuickE10CodingKeys33_9BE605DB1D1CC00AD67F692EB48013FCLLOSHAASQ
++ _associated conformance 13HomeDataModel15ClipSearchQueryO05QuickE10CodingKeys33_9BE605DB1D1CC00AD67F692EB48013FCLLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 13HomeDataModel15ClipSearchQueryO05QuickE10CodingKeys33_9BE605DB1D1CC00AD67F692EB48013FCLLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 13HomeDataModel15ClipSearchQueryO05QuickE8CategoryVSHAASQ
++ _associated conformance 13HomeDataModel15ClipSearchQueryO05QuickE8CategoryVs10SetAlgebraAASQ
++ _associated conformance 13HomeDataModel15ClipSearchQueryO05QuickE8CategoryVs10SetAlgebraAAs25ExpressibleByArrayLiteral
++ _associated conformance 13HomeDataModel15ClipSearchQueryO05QuickE8CategoryVs9OptionSetAASY
++ _associated conformance 13HomeDataModel15ClipSearchQueryO05QuickE8CategoryVs9OptionSetAAs0J7Algebra
++ _associated conformance 13HomeDataModel15ClipSearchQueryO10CodingKeys33_9BE605DB1D1CC00AD67F692EB48013FCLLOSHAASQ
++ _associated conformance 13HomeDataModel15ClipSearchQueryO10CodingKeys33_9BE605DB1D1CC00AD67F692EB48013FCLLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 13HomeDataModel15ClipSearchQueryO10CodingKeys33_9BE605DB1D1CC00AD67F692EB48013FCLLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 13HomeDataModel15ClipSearchQueryO18SemanticCodingKeys33_9BE605DB1D1CC00AD67F692EB48013FCLLOSHAASQ
++ _associated conformance 13HomeDataModel15ClipSearchQueryO18SemanticCodingKeys33_9BE605DB1D1CC00AD67F692EB48013FCLLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 13HomeDataModel15ClipSearchQueryO18SemanticCodingKeys33_9BE605DB1D1CC00AD67F692EB48013FCLLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 13HomeDataModel15ClipSearchQueryOSHAASQ
++ _associated conformance 13HomeDataModel15EmbeddingRecordC05SwiftB0010PersistentC0AA11Observation10Observable
++ _associated conformance 13HomeDataModel15EmbeddingRecordC05SwiftB0010PersistentC0AA4RootAdEP_AdE
++ _associated conformance 13HomeDataModel15EmbeddingRecordC05SwiftB0010PersistentC0AASH
++ _associated conformance 13HomeDataModel15EmbeddingRecordC05SwiftB0010PersistentC0AAs12Identifiable
++ _associated conformance 13HomeDataModel15EmbeddingRecordC7SegmentV10CodingKeys33_4284C791DF2076C8F7BCCB26564ABEABLLOSHAASQ
++ _associated conformance 13HomeDataModel15EmbeddingRecordC7SegmentV10CodingKeys33_4284C791DF2076C8F7BCCB26564ABEABLLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 13HomeDataModel15EmbeddingRecordC7SegmentV10CodingKeys33_4284C791DF2076C8F7BCCB26564ABEABLLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 13HomeDataModel15EmbeddingRecordCSHAASQ
++ _associated conformance 13HomeDataModel15EmbeddingRecordCs12IdentifiableAA2IDsADP_SH
++ _associated conformance 13HomeDataModel15MockSearchQueryVAA0eF0AA9ResponsesAaDP_Sci
++ _associated conformance 13HomeDataModel16CameraEventActorCs06GlobalF0AA0F4TypesADP_ScA
++ _associated conformance 13HomeDataModel16SearchSuggestionVs12IdentifiableAA2IDsADP_SH
++ _associated conformance 13HomeDataModel16SignificantEventVAA08PlaybackE6AnchorAA10IdentifierAaDP_SH
++ _associated conformance 13HomeDataModel16SignificantEventVAA08PlaybackE6AnchorAA10IdentifierAaDP_s23CustomStringConvertible
++ _associated conformance 13HomeDataModel16SignificantEventVAA08PlaybackE6AnchorAA8CategoryAaDP_SH
++ _associated conformance 13HomeDataModel17CameraEventRecordC05SwiftB0010PersistentC0AA11Observation10Observable
++ _associated conformance 13HomeDataModel17CameraEventRecordC05SwiftB0010PersistentC0AA4RootAdEP_AdE
++ _associated conformance 13HomeDataModel17CameraEventRecordC05SwiftB0010PersistentC0AASH
++ _associated conformance 13HomeDataModel17CameraEventRecordC05SwiftB0010PersistentC0AAs12Identifiable
++ _associated conformance 13HomeDataModel17CameraEventRecordCSHAASQ
++ _associated conformance 13HomeDataModel17CameraEventRecordCs12IdentifiableAA2IDsADP_SH
++ _associated conformance 13HomeDataModel17CaptionSummarizerV12InstructionsOSHAASQ
++ _associated conformance 13HomeDataModel17CaptionSummarizerV18SummarizationErrorOSHAASQ
++ _associated conformance 13HomeDataModel18MockSearchProviderCAA0eF0AA5QueryAaDP_AA0eG0
++ _associated conformance 13HomeDataModel19MeasurementTypeEnumOSHAASQ
++ _associated conformance 13HomeDataModel20StaticEndpointGroupsV10CodingKeys33_5A65C71D1FA311484F5E7C4AD9485CC0LLOSHAASQ
++ _associated conformance 13HomeDataModel20StaticEndpointGroupsV10CodingKeys33_5A65C71D1FA311484F5E7C4AD9485CC0LLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 13HomeDataModel20StaticEndpointGroupsV10CodingKeys33_5A65C71D1FA311484F5E7C4AD9485CC0LLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 13HomeDataModel20StaticEndpointGroupsVSHAASQ
++ _associated conformance 13HomeDataModel20TVRemoteCoreFeaturesOSHAASQ
++ _associated conformance 13HomeDataModel21ReasonReplacementPairVSHAASQ
++ _associated conformance 13HomeDataModel22CameraFetchStateRecordC05SwiftB0010PersistentC0AA11Observation10Observable
++ _associated conformance 13HomeDataModel22CameraFetchStateRecordC05SwiftB0010PersistentC0AA4RootAdEP_AdE
++ _associated conformance 13HomeDataModel22CameraFetchStateRecordC05SwiftB0010PersistentC0AASH
++ _associated conformance 13HomeDataModel22CameraFetchStateRecordC05SwiftB0010PersistentC0AAs12Identifiable
++ _associated conformance 13HomeDataModel22CameraFetchStateRecordC12TimeIntervalV10CodingKeys33_C1B675806D8374A850FD5C24B1DF87D1LLOSHAASQ
++ _associated conformance 13HomeDataModel22CameraFetchStateRecordC12TimeIntervalV10CodingKeys33_C1B675806D8374A850FD5C24B1DF87D1LLOs0J3KeyAAs23CustomStringConvertible
++ _associated conformance 13HomeDataModel22CameraFetchStateRecordC12TimeIntervalV10CodingKeys33_C1B675806D8374A850FD5C24B1DF87D1LLOs0J3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 13HomeDataModel22CameraFetchStateRecordC12TimeIntervalVSHAASQ
++ _associated conformance 13HomeDataModel22CameraFetchStateRecordCSHAASQ
++ _associated conformance 13HomeDataModel22CameraFetchStateRecordCs12IdentifiableAA2IDsADP_SH
++ _associated conformance 13HomeDataModel22ClipSearchResultFilterV8IteratorVyxq__GScIAA7FailureScI_s5Error
++ _associated conformance 13HomeDataModel22ClipSearchResultFilterVyxq_GSciAA13AsyncIteratorSci_ScI
++ _associated conformance 13HomeDataModel22MeasurementRangeStructV10CodingKeys33_2DA2D6452F74277896C9CEB55CE4DAF0LLOSHAASQ
++ _associated conformance 13HomeDataModel22MeasurementRangeStructV10CodingKeys33_2DA2D6452F74277896C9CEB55CE4DAF0LLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 13HomeDataModel22MeasurementRangeStructV10CodingKeys33_2DA2D6452F74277896C9CEB55CE4DAF0LLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 13HomeDataModel22MeasurementRangeStructVSHAASQ
++ _associated conformance 13HomeDataModel22ModeClusterSemanticTagO29ManufacturerDefinedCodingKeys33_5C3D8CE2C0B000791F2603DA87B01CD0LLOSHAASQ
++ _associated conformance 13HomeDataModel22ModeClusterSemanticTagO29ManufacturerDefinedCodingKeys33_5C3D8CE2C0B000791F2603DA87B01CD0LLOs0J3KeyAAs23CustomStringConvertible
++ _associated conformance 13HomeDataModel22ModeClusterSemanticTagO29ManufacturerDefinedCodingKeys33_5C3D8CE2C0B000791F2603DA87B01CD0LLOs0J3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 13HomeDataModel22SignificantEventRecordC05SwiftB0010PersistentC0AA11Observation10Observable
++ _associated conformance 13HomeDataModel22SignificantEventRecordC05SwiftB0010PersistentC0AA4RootAdEP_AdE
++ _associated conformance 13HomeDataModel22SignificantEventRecordC05SwiftB0010PersistentC0AASH
++ _associated conformance 13HomeDataModel22SignificantEventRecordC05SwiftB0010PersistentC0AAs12Identifiable
++ _associated conformance 13HomeDataModel22SignificantEventRecordCSHAASQ
++ _associated conformance 13HomeDataModel22SignificantEventRecordCs12IdentifiableAA2IDsADP_SH
++ _associated conformance 13HomeDataModel23CameraClipsLibraryErrorOSHAASQ
++ _associated conformance 13HomeDataModel23EnergyMeasurementStructV10CodingKeys33_2DA2D6452F74277896C9CEB55CE4DAF0LLOSHAASQ
++ _associated conformance 13HomeDataModel23EnergyMeasurementStructV10CodingKeys33_2DA2D6452F74277896C9CEB55CE4DAF0LLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 13HomeDataModel23EnergyMeasurementStructV10CodingKeys33_2DA2D6452F74277896C9CEB55CE4DAF0LLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 13HomeDataModel23EnergyMeasurementStructVSHAASQ
++ _associated conformance 13HomeDataModel23StaticFanControlClusterV0E12ModeSequenceOSHAASQ
++ _associated conformance 13HomeDataModel23StaticFanControlClusterV0E4ModeOSHAASQ
++ _associated conformance 13HomeDataModel23StaticFanControlClusterV10CodingKeys33_22548FF3F039657D169671B9957D212BLLOSHAASQ
++ _associated conformance 13HomeDataModel23StaticFanControlClusterV10CodingKeys33_22548FF3F039657D169671B9957D212BLLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 13HomeDataModel23StaticFanControlClusterV10CodingKeys33_22548FF3F039657D169671B9957D212BLLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 13HomeDataModel23StaticFanControlClusterV13StepDirectionOSHAASQ
++ _associated conformance 13HomeDataModel23StaticFanControlClusterV16AirflowDirectionOSHAASQ
++ _associated conformance 13HomeDataModel23StaticFanControlClusterV7CommandOSHAASQ
++ _associated conformance 13HomeDataModel23StaticFanControlClusterV8RockModeVSHAASQ
++ _associated conformance 13HomeDataModel23StaticFanControlClusterV8RockModeVs10SetAlgebraAASQ
++ _associated conformance 13HomeDataModel23StaticFanControlClusterV8RockModeVs10SetAlgebraAAs25ExpressibleByArrayLiteral
++ _associated conformance 13HomeDataModel23StaticFanControlClusterV8RockModeVs9OptionSetAASY
++ _associated conformance 13HomeDataModel23StaticFanControlClusterV8RockModeVs9OptionSetAAs0K7Algebra
++ _associated conformance 13HomeDataModel23StaticFanControlClusterVSHAASQ
++ _associated conformance 13HomeDataModel23StaticFanControlClusterVs12IdentifiableAA2IDsADP_SH
++ _associated conformance 13HomeDataModel24CoreSpotlightSearchQueryVAA0fG0AA9ResponsesAaDP_Sci
++ _associated conformance 13HomeDataModel25CameraEventStoreDebugInfoV10FetchStateVs12IdentifiableAA2IDsAFP_SH
++ _associated conformance 13HomeDataModel25CompoundCameraEventRecordC05SwiftB0010PersistentC0AA11Observation10Observable
++ _associated conformance 13HomeDataModel25CompoundCameraEventRecordC05SwiftB0010PersistentC0AA4RootAdEP_AdE
++ _associated conformance 13HomeDataModel25CompoundCameraEventRecordC05SwiftB0010PersistentC0AASH
++ _associated conformance 13HomeDataModel25CompoundCameraEventRecordC05SwiftB0010PersistentC0AAs12Identifiable
++ _associated conformance 13HomeDataModel25CompoundCameraEventRecordCSHAASQ
++ _associated conformance 13HomeDataModel25CompoundCameraEventRecordCs12IdentifiableAA2IDsADP_SH
++ _associated conformance 13HomeDataModel25HarmonicMeasurementStructV10CodingKeys33_2DA2D6452F74277896C9CEB55CE4DAF0LLOSHAASQ
++ _associated conformance 13HomeDataModel25HarmonicMeasurementStructV10CodingKeys33_2DA2D6452F74277896C9CEB55CE4DAF0LLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 13HomeDataModel25HarmonicMeasurementStructV10CodingKeys33_2DA2D6452F74277896C9CEB55CE4DAF0LLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 13HomeDataModel25HarmonicMeasurementStructVSHAASQ
++ _associated conformance 13HomeDataModel25HeroFrameImageBoundingBoxV10CodingKeys33_119A47AB499A1BE45D82A6EFEE09DBBCLLOSHAASQ
++ _associated conformance 13HomeDataModel25HeroFrameImageBoundingBoxV10CodingKeys33_119A47AB499A1BE45D82A6EFEE09DBBCLLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 13HomeDataModel25HeroFrameImageBoundingBoxV10CodingKeys33_119A47AB499A1BE45D82A6EFEE09DBBCLLOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 13HomeDataModel25MeasurementAccuracyStructV10CodingKeys33_2DA2D6452F74277896C9CEB55CE4DAF0LLOSHAASQ
++ _associated conformance 13HomeDataModel25MeasurementAccuracyStructV10CodingKeys33_2DA2D6452F74277896C9CEB55CE4DAF0LLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 13HomeDataModel25MeasurementAccuracyStructV10CodingKeys33_2DA2D6452F74277896C9CEB55CE4DAF0LLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 13HomeDataModel25MeasurementAccuracyStructVSHAASQ
++ _associated conformance 13HomeDataModel26PowerMeasurementStatusItemVs12IdentifiableAA2IDsADP_SH
++ _associated conformance 13HomeDataModel27CameraEventIndexingBehaviorOSHAASQ
++ _associated conformance 13HomeDataModel27CameraEventStoreObservationV8IteratorVy_xGScIAA7FailureScI_s5Error
++ _associated conformance 13HomeDataModel27CameraEventStoreObservationVSciAA13AsyncIteratorSci_ScI
++ _associated conformance 13HomeDataModel27CoreSpotlightSearchProviderCAA0fG0AA5QueryAaDP_AA0fH0
++ _associated conformance 13HomeDataModel27CumulativeEnergyResetStructV10CodingKeys33_2DA2D6452F74277896C9CEB55CE4DAF0LLOSHAASQ
++ _associated conformance 13HomeDataModel27CumulativeEnergyResetStructV10CodingKeys33_2DA2D6452F74277896C9CEB55CE4DAF0LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 13HomeDataModel27CumulativeEnergyResetStructV10CodingKeys33_2DA2D6452F74277896C9CEB55CE4DAF0LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 13HomeDataModel27CumulativeEnergyResetStructVSHAASQ
++ _associated conformance 13HomeDataModel28SearchAutocompleteSuggestionVs12IdentifiableAA2IDsADP_SH
++ _associated conformance 13HomeDataModel30DefaultClipFetchingEnvironmentVAA0efG0AA05IndexB5StoreAaDP_AA07IndexedB7Storage
++ _associated conformance 13HomeDataModel30DefaultClipFetchingEnvironmentVAA0efG0AA18HeroFrameGeneratorAaDP_AA0hI10Generating
++ _associated conformance 13HomeDataModel30HeroFrameImageHEICEncoderErrorOSHAASQ
++ _associated conformance 13HomeDataModel30MeasurementAccuracyRangeStructV10CodingKeys33_2DA2D6452F74277896C9CEB55CE4DAF0LLOSHAASQ
++ _associated conformance 13HomeDataModel30MeasurementAccuracyRangeStructV10CodingKeys33_2DA2D6452F74277896C9CEB55CE4DAF0LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 13HomeDataModel30MeasurementAccuracyRangeStructV10CodingKeys33_2DA2D6452F74277896C9CEB55CE4DAF0LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 13HomeDataModel30MeasurementAccuracyRangeStructVSHAASQ
++ _associated conformance 13HomeDataModel31StaticThermostatUIConfigClusterV10CodingKeys33_6DA1AA96709E24270C96F666100294D4LLOSHAASQ
++ _associated conformance 13HomeDataModel31StaticThermostatUIConfigClusterV10CodingKeys33_6DA1AA96709E24270C96F666100294D4LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 13HomeDataModel31StaticThermostatUIConfigClusterV10CodingKeys33_6DA1AA96709E24270C96F666100294D4LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 13HomeDataModel31StaticThermostatUIConfigClusterV13KeypadLockoutOSHAASQ
++ _associated conformance 13HomeDataModel31StaticThermostatUIConfigClusterV22TemperatureDisplayModeOSHAASQ
++ _associated conformance 13HomeDataModel31StaticThermostatUIConfigClusterV29ScheduleProgrammingVisibilityOSHAASQ
++ _associated conformance 13HomeDataModel31StaticThermostatUIConfigClusterVSHAASQ
++ _associated conformance 13HomeDataModel34StaticElectricalMeterEndpointGroupV10CodingKeys33_A5A2CA519DF3F25FCACD95C50FE0717DLLOSHAASQ
++ _associated conformance 13HomeDataModel34StaticElectricalMeterEndpointGroupV10CodingKeys33_A5A2CA519DF3F25FCACD95C50FE0717DLLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 13HomeDataModel34StaticElectricalMeterEndpointGroupV10CodingKeys33_A5A2CA519DF3F25FCACD95C50FE0717DLLOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 13HomeDataModel34StaticElectricalMeterEndpointGroupVSHAASQ
++ _associated conformance 13HomeDataModel34StaticElectricalMeterEndpointGroupVs12IdentifiableAA2IDsADP_SH
++ _associated conformance 13HomeDataModel38StaticMeterReferencePointEndpointGroupV10CodingKeys33_9BCC8D9C627BECE702826BB8B1934155LLOSHAASQ
++ _associated conformance 13HomeDataModel38StaticMeterReferencePointEndpointGroupV10CodingKeys33_9BCC8D9C627BECE702826BB8B1934155LLOs0J3KeyAAs23CustomStringConvertible
++ _associated conformance 13HomeDataModel38StaticMeterReferencePointEndpointGroupV10CodingKeys33_9BCC8D9C627BECE702826BB8B1934155LLOs0J3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 13HomeDataModel38StaticMeterReferencePointEndpointGroupVSHAASQ
++ _associated conformance 13HomeDataModel38StaticMeterReferencePointEndpointGroupVs12IdentifiableAA2IDsADP_SH
++ _associated conformance 13HomeDataModel39StaticElectricalPowerMeasurementClusterV10CodingKeys33_3490C75CA4BCA8C2FFC8BA433EC02536LLOSHAASQ
++ _associated conformance 13HomeDataModel39StaticElectricalPowerMeasurementClusterV10CodingKeys33_3490C75CA4BCA8C2FFC8BA433EC02536LLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 13HomeDataModel39StaticElectricalPowerMeasurementClusterV10CodingKeys33_3490C75CA4BCA8C2FFC8BA433EC02536LLOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 13HomeDataModel39StaticElectricalPowerMeasurementClusterVSHAASQ
++ _associated conformance 13HomeDataModel40StaticElectricalEnergyMeasurementClusterV10CodingKeys33_0D504CD4E45FC7E1DF34EAE1D32794ADLLOSHAASQ
++ _associated conformance 13HomeDataModel40StaticElectricalEnergyMeasurementClusterV10CodingKeys33_0D504CD4E45FC7E1DF34EAE1D32794ADLLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 13HomeDataModel40StaticElectricalEnergyMeasurementClusterV10CodingKeys33_0D504CD4E45FC7E1DF34EAE1D32794ADLLOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 13HomeDataModel40StaticElectricalEnergyMeasurementClusterVSHAASQ
++ _associated conformance 13HomeDataModel6CameraO11EnvironmentO5StateC10ControllerC5RulesVy_x___GSHAASQ
++ _associated conformance 13HomeDataModel6CameraO11EnvironmentO5StateC10ControllerC5RulesVy_x___Gs10SetAlgebraAASQ
++ _associated conformance 13HomeDataModel6CameraO11EnvironmentO5StateC10ControllerC5RulesVy_x___Gs10SetAlgebraAAs25ExpressibleByArrayLiteral
++ _associated conformance 13HomeDataModel6CameraO11EnvironmentO5StateC10ControllerC5RulesVy_x___Gs9OptionSetAASY
++ _associated conformance 13HomeDataModel6CameraO11EnvironmentO5StateC10ControllerC5RulesVy_x___Gs9OptionSetAAs0J7Algebra
++ _associated conformance 13HomeDataModel6CameraO5EventO06SingleD13FetchExecutorCy__xGAE0gH0AA11EnvironmentAeIP_AE0gI0
++ _associated conformance 13HomeDataModel6CameraO5EventO13DeletionErrorO10Foundation09LocalizedG0AAs0G0
++ _associated conformance 13HomeDataModel6CameraO5EventO13DeletionErrorOSHAASQ
++ _associated conformance 13HomeDataModel6CameraO5EventO17ClipDownloadErrorOSHAASQ
++ _associated conformance 13HomeDataModel6CameraO5EventO25FetchAndIndexDebugMetricsC6StatusOSHAASQ
++ _associated conformance 13HomeDataModel6CameraO5EventO26PlaygroundFetchEnvironmentVAE0gH0AA0B5StoreAeHP_AA0dbI8Protocol
++ _associated conformance 13HomeDataModel6CameraO5EventO26PlaygroundStoreEnvironmentVAE0gH0AA014ClassificationG0AeHP_AA04FaceiG0
++ _associated conformance 13HomeDataModel6CameraO5EventO26PlaygroundStoreEnvironmentVAE0gH0AA05IndexG0AeHP_AA07IndexedB7Storage
++ _associated conformance 13HomeDataModel6CameraO5EventO26PlaygroundStoreEnvironmentVAE0gH0AA8ExecutorAeHP_AE05FetchI0
++ _associated conformance 13HomeDataModel6CameraO5EventO5FetchV7OptionsVSHAASQ
++ _associated conformance 13HomeDataModel6CameraO5EventO5FetchV7OptionsVs10SetAlgebraAASQ
++ _associated conformance 13HomeDataModel6CameraO5EventO5FetchV7OptionsVs10SetAlgebraAAs25ExpressibleByArrayLiteral
++ _associated conformance 13HomeDataModel6CameraO5EventO5FetchV7OptionsVs9OptionSetAASY
++ _associated conformance 13HomeDataModel6CameraO5EventO5FetchV7OptionsVs9OptionSetAAs0I7Algebra
++ _associated conformance 13HomeDataModel6CameraO5EventO5StoreC14HistoryTrackerCy__x_G05SwiftB00C5ActorAAScA
++ _associated conformance 13HomeDataModel6CameraO5EventO5StoreC24FetchAndIndexCoordinatorC9QueryInfoV0G4KindOy__x___GSHAASQ
++ _associated conformance 13HomeDataModel6CameraO5EventO5StoreC24FetchAndIndexCoordinatorC9QueryInfoVy__x__GSHAASQ
++ _associated conformance 13HomeDataModel6CameraO5EventO5StoreC24FetchAndIndexCoordinatorCy__x_G05SwiftB00C5ActorAAScA
++ _associated conformance 13HomeDataModel6CameraO5EventO5StoreC6IntakeCy__x_G05SwiftB00C5ActorAAScA
++ _associated conformance 13HomeDataModel6CameraO5EventO5StoreC7IndexerCy__x_G05SwiftB00C5ActorAAScA
++ _associated conformance 13HomeDataModel6CameraO5EventO5StoreCy__xG05SwiftB00C5ActorAAScA
++ _associated conformance 13HomeDataModel6CameraO5EventO8CoverageV21IntervalExecutionModeOSHAASQ
++ _associated conformance 13HomeDataModel6CameraO5EventO8CoverageV7OptionsVs10SetAlgebraAASQ
++ _associated conformance 13HomeDataModel6CameraO5EventO8CoverageV7OptionsVs10SetAlgebraAAs25ExpressibleByArrayLiteral
++ _associated conformance 13HomeDataModel6CameraO5EventO8CoverageV7OptionsVs9OptionSetAASY
++ _associated conformance 13HomeDataModel6CameraO5EventO8CoverageV7OptionsVs9OptionSetAAs0I7Algebra
++ _associated conformance 13HomeDataModel6CameraO5EventO8CoverageV8ResourceOSHAASQ
++ _associated conformance 13HomeDataModel6CameraO5EventO8CoverageV9DirectionOSHAASQ
++ _associated conformance 13HomeDataModel6CameraO6SourceOSHAASQ
++ _associated conformance So018MTRDishwasherAlarmB6BitmapVSH13HomeDataModelSQ
++ _associated conformance So020MTRRefrigeratorAlarmB6BitmapVSH13HomeDataModelSQ
++ _associated conformance So11HMAccessoryC13HomeDataModel011ApplicationC17ContainerProtocolAC0eC0AcDP_AC0ecG0
++ _associated conformance So11HMActionSetC13HomeDataModel011ApplicationD17ContainerProtocolAC0fD0AcDP_AC0fdH0
++ _associated conformance So13HMHomeManagerC13HomeDataModel0cB8ProtocolAC9AccessoryAcDP_AC0gF0
++ _associated conformance So13HMMediaSystemC13HomeDataModel011ApplicationD17ContainerProtocolAC0fD0AcDP_AC0fdH0
++ _associated conformance So14HMServiceGroupC13HomeDataModel011ApplicationD17ContainerProtocolAC0fD0AcDP_AC0fdH0
++ _associated conformance So16HMResidentDeviceC13HomeDataModel08ResidentB8ProtocolAC0B0AcDP_AC0bG0
++ _associated conformance So26HMHomeWalletKeyDeviceStateC13HomeDataModel0bcdE8ProtocolAC0bC0AcDP_AC0bcI0
++ _associated conformance So6HMHomeC13HomeDataModel05BasicB8ProtocolAC14ResidentDeviceAcDP_AC0ghF0
++ _associated conformance So6HMRoomC13HomeDataModel011ApplicationC17ContainerProtocolAC0eC0AcDP_AC0ecG0
++ _associated conformance So9HMServiceC13HomeDataModel011ApplicationC17ContainerProtocolAC0eC0AcDP_AC0ecG0
++ _block_copy_helper.104
++ _block_copy_helper.107
++ _block_copy_helper.109
++ _block_copy_helper.113
++ _block_copy_helper.12
++ _block_copy_helper.126
++ _block_copy_helper.13
++ _block_copy_helper.131
++ _block_copy_helper.132
++ _block_copy_helper.134
++ _block_copy_helper.140
++ _block_copy_helper.154
++ _block_copy_helper.171
++ _block_copy_helper.173
++ _block_copy_helper.19
++ _block_copy_helper.190
++ _block_copy_helper.3
++ _block_copy_helper.337
++ _block_copy_helper.364
++ _block_copy_helper.37
++ _block_copy_helper.370
++ _block_copy_helper.392
++ _block_copy_helper.44
++ _block_copy_helper.5
++ _block_copy_helper.51
++ _block_copy_helper.55
++ _block_copy_helper.59
++ _block_copy_helper.72
++ _block_copy_helper.75
++ _block_copy_helper.76
++ _block_copy_helper.84
++ _block_copy_helper.86
++ _block_copy_helper.90
++ _block_copy_helper.95
++ _block_descriptor.106
++ _block_descriptor.109
++ _block_descriptor.111
++ _block_descriptor.115
++ _block_descriptor.128
++ _block_descriptor.133
++ _block_descriptor.134
++ _block_descriptor.136
++ _block_descriptor.14
++ _block_descriptor.142
++ _block_descriptor.15
++ _block_descriptor.156
++ _block_descriptor.173
++ _block_descriptor.175
++ _block_descriptor.192
++ _block_descriptor.21
++ _block_descriptor.339
++ _block_descriptor.366
++ _block_descriptor.372
++ _block_descriptor.39
++ _block_descriptor.394
++ _block_descriptor.46
++ _block_descriptor.5
++ _block_descriptor.53
++ _block_descriptor.57
++ _block_descriptor.61
++ _block_descriptor.7
++ _block_descriptor.74
++ _block_descriptor.77
++ _block_descriptor.78
++ _block_descriptor.86
++ _block_descriptor.88
++ _block_descriptor.92
++ _block_descriptor.97
++ _block_destroy_helper.105
++ _block_destroy_helper.108
++ _block_destroy_helper.110
++ _block_destroy_helper.114
++ _block_destroy_helper.127
++ _block_destroy_helper.13
++ _block_destroy_helper.132
++ _block_destroy_helper.133
++ _block_destroy_helper.135
++ _block_destroy_helper.14
++ _block_destroy_helper.141
++ _block_destroy_helper.155
++ _block_destroy_helper.172
++ _block_destroy_helper.174
++ _block_destroy_helper.191
++ _block_destroy_helper.20
++ _block_destroy_helper.338
++ _block_destroy_helper.365
++ _block_destroy_helper.371
++ _block_destroy_helper.38
++ _block_destroy_helper.393
++ _block_destroy_helper.4
++ _block_destroy_helper.45
++ _block_destroy_helper.52
++ _block_destroy_helper.56
++ _block_destroy_helper.6
++ _block_destroy_helper.60
++ _block_destroy_helper.73
++ _block_destroy_helper.76
++ _block_destroy_helper.77
++ _block_destroy_helper.85
++ _block_destroy_helper.87
++ _block_destroy_helper.91
++ _block_destroy_helper.96
++ _flat unique 9SwiftData07BackingB0_px5ModelAaBPRts_XP
++ _flat unique So14NSSecureCoding_p
++ _generic environment 13HomeDataModel17AccessoryProtocolRzl
++ _generic environment 13HomeDataModel6CameraO5EventO16FetchEnvironmentRzl
++ _get_enum_tag_for_layout_string 13HomeDataModel15ClipSearchQueryO
++ _get_enum_tag_for_layout_string 13HomeDataModel6CameraO5EventO14HistoryMessageO
++ _get_enum_tag_for_layout_string 13HomeDataModel6CameraO5EventO8CoverageV9PredicateVSg
++ _get_type_metadata 13HomeDataModel0A18WidgetIdentifiableRzlAA0D12DetailUpdateVyxG noncopyable.60
++ _get_type_metadata 13HomeDataModel0A18WidgetIdentifiableRzlAA0D13WriteRequestsVyxG noncopyable.61
++ _get_type_metadata 13HomeDataModel0A18WidgetIdentifiableRzlAA0D7RefreshVyxG noncopyable.59
++ _get_type_metadata 13HomeDataModel13WidgetManagerV noncopyable.49
++ _get_type_metadata 13HomeDataModel25CameraEnvironmentProviderRzl15Synchronization5MutexVyAA0D0O0E0O5StateC10ControllerC5RulesVy_x___GG noncopyable.1
++ _get_type_metadata 13HomeDataModel6CameraO5EventO16StoreEnvironmentRzl15Synchronization5MutexVyAE0F0C5StateVy__x_GG noncopyable.1
++ _get_type_metadata 13HomeDataModel6CameraO5EventO16StoreEnvironmentRzl15Synchronization5MutexVySayAA011SignificantE0VGG noncopyable.6
++ _get_type_metadata 13HomeDataModel6CameraO5EventO16StoreEnvironmentRzl15Synchronization5MutexVySayAA15ScrubberElementOGG noncopyable.5
++ _get_type_metadata 13HomeDataModel6CameraO5EventO16StoreEnvironmentRzlAE0F0C13MetadataStateVy__x_G noncopyable.5
++ _get_type_metadata 13HomeDataModel6CameraO5EventO16StoreEnvironmentRzlAE0F0C20WantedHeroFrameStateVy__x_G noncopyable.4
++ _get_type_metadata 15Synchronization5MutexVy13HomeDataModel21MatterAttributePollerC5State33_9BDDA65ADEAF8DC0D353A26D172FE094LLVG noncopyable.18
++ _get_type_metadata 15Synchronization5MutexVySbG noncopyable.3
++ _get_type_metadata s5ErrorR_r0_l15Synchronization6AtomicVySbG noncopyable.10
++ _get_witness_table 13HomeDataModel10PackStatusVyAA06SingleE0VyAA011TemperatureE4ItemVG_AEyAA08HumidityeH0VGAEyAA010AirQualityeH0VGAA011ConditionalE0VyACyAEyAA06BlindseH0VG_QPGACyAEyAA06ClosedmeH0VG_QPGGAEyAA03FaneH0VGAEyAA0j8PurifiereH0VGAEyAA06VacuumeH0VGAA08OptionalE0VyACyAEyAA016PowerMeasurementeH0VG_QPGGAEyAA06LightseH0VGAEyAA06OutleteH0VGAEyAA011LightSensoreH0VGAEyAA08DoorLockeH0VGAPyACyAEyAA06GarageyeH0VG_QPGACyAEyAA0n6GarageyeH0VG_QPGGAPyACyAEyAA0yeH0VG_QPGACyAEyAA0nyeH0VG_QPGGAPyACyAEyAA06WindoweH0VG_QPGACyAEyAA0n6WindoweH0VG_QPGGAEyAA010SmokeAlarmeH0VGAEyAA018CarbonDioxideAlarmeH0VGAEyAA019CarbonMonoxideAlarmeH0VGAEyAA014SecuritySystemeH0VGAPyACyAEyAA07ContactxeH0VG_QPGACyAEyAA011IdleContactxeH0VG_QPGGAPyACyAEyAA06MotionxeH0VG_QPGACyAEyAA010IdleMotionxeH0VG_QPGGAPyACyAEyAA09OccupancyxeH0VG_QPGACyAEyAA013IdleOccupancyxeH0VG_QPGGAEyAA07SpeakereH0VGAEyAA010TelevisioneH0VGAEyAA09LeakAlarmeH0VGAEyAA010IrrigationeH0VGAEyAA06FauceteH0VGAEyAA09IdleAlarmeH0VGQPGAA0E0HPyHC.12
++ _get_witness_table 13HomeDataModel23ClipFetchingEnvironmentRzlScsyAA0D14DownloadResultVs5Error_pGSciHPyHC.54
++ _get_witness_table 13HomeDataModel23FaceClassificationStoreRzls23AsyncCompactMapSequenceVyScSySDy0A8KitClips22CameraSignificantEventV2IDVSayAE0mnodE0VGGGSDy10Foundation4UUIDVSSGGSciHPyHC.6
++ _get_witness_table 13HomeDataModel25CameraEnvironmentProviderRzlScSyAA08WaveformB0VSgGSciHPyHC.45
++ _get_witness_table 13HomeDataModel27CameraEventStoreObservationV8IteratorVy_So20NSNotificationCenterC10FoundationE8messages2of3for10bufferSizeQr7SubjectQzSg_xmSitAgHE12AsyncMessageRzANRLClFQOy_AA0C14ContextDidSaveVQo_0rH0SciQxGScIHPyHC.25
++ _get_witness_table SHRzr0_l10Foundation4UUIDVSHHPyHC.28
++ _get_witness_table ScSy13HomeDataModel13StateSnapshotVGSciHPyHC.30
++ _get_witness_table Scsy13HomeDataModel14SearchResponseOs5Error_pGSciHPyHC.14
++ _get_witness_table s8SendableRzs5ErrorR_r0_l11Observation12ObservationsVyxq_GSciHPyHC.3
++ _keypath_get.164Tm
++ _keypath_get.8Tm
++ _keypath_set.165Tm
++ _keypath_set.9Tm
++ _lazyLoadFlag$ModelCatalog
++ _objc_claimAutoreleasedReturnValue
++ _objc_msgSend$CGColor
++ _objc_msgSend$CGContext
++ _objc_msgSend$HTTPMaximumConnectionsPerHost
++ _objc_msgSend$accuracyRanges
++ _objc_msgSend$apparentEnergy
++ _objc_msgSend$attributeSet
++ _objc_msgSend$beginIndexBatch
++ _objc_msgSend$bridgedAccessories
++ _objc_msgSend$bundleID
++ _objc_msgSend$camera
++ _objc_msgSend$configurationState
++ _objc_msgSend$contentCreationDate
++ _objc_msgSend$currentAccessory
++ _objc_msgSend$defaultCenter
++ _objc_msgSend$defaultSessionConfiguration
++ _objc_msgSend$deleteAllSearchableItemsWithCompletionHandler:
++ _objc_msgSend$deleteSearchableItemsWithIdentifiers:completionHandler:
++ _objc_msgSend$domainIdentifier
++ _objc_msgSend$endIndexBatchWithClientState:critical:completionHandler:
++ _objc_msgSend$endSystime
++ _objc_msgSend$endTimestamp
++ _objc_msgSend$energy
++ _objc_msgSend$enumerateAttribute:inRange:options:usingBlock:
++ _objc_msgSend$exportedResetSystime
++ _objc_msgSend$exportedResetTimestamp
++ _objc_msgSend$fetchWalletKeyDeviceStateWithCompletion:
++ _objc_msgSend$fileURL
++ _objc_msgSend$fixedMax
++ _objc_msgSend$fixedMin
++ _objc_msgSend$fixedTypical
++ _objc_msgSend$hasOnboardedForAdaptiveTemperatureAutomations
++ _objc_msgSend$hasOnboardedForCleanEnergyAutomation
++ _objc_msgSend$imageWithActions:
++ _objc_msgSend$importedResetSystime
++ _objc_msgSend$importedResetTimestamp
++ _objc_msgSend$initWithHue:saturation:brightness:alpha:
++ _objc_msgSend$initWithIdentifier:
++ _objc_msgSend$initWithKeyName:searchable:searchableByDefault:unique:multiValued:
++ _objc_msgSend$initWithName:bundleIdentifier:
++ _objc_msgSend$initWithQueryString:queryContext:
++ _objc_msgSend$initWithSize:
++ _objc_msgSend$initWithUnsignedChar:
++ _objc_msgSend$initWithUserQueryString:userQueryContext:
++ _objc_msgSend$integerForKey:
++ _objc_msgSend$isClipCaptioningEnabled
++ _objc_msgSend$isCommissionedOverNFCWithoutPower
++ _objc_msgSend$isCurrentDevice
++ _objc_msgSend$isExpressEnabled
++ _objc_msgSend$isNameModifiable
++ _objc_msgSend$isUWBUnlockEnabled
++ _objc_msgSend$keyName
++ _objc_msgSend$length
++ _objc_msgSend$localizedAttributedSuggestion
++ _objc_msgSend$localizedStringByJoiningStrings:
++ _objc_msgSend$longLongValue
++ _objc_msgSend$max
++ _objc_msgSend$maxMeasuredValue
++ _objc_msgSend$maxSystime
++ _objc_msgSend$maxTimestamp
++ _objc_msgSend$measured
++ _objc_msgSend$measurement
++ _objc_msgSend$measurementType
++ _objc_msgSend$min
++ _objc_msgSend$minMeasuredValue
++ _objc_msgSend$minSystime
++ _objc_msgSend$minTimestamp
++ _objc_msgSend$order
++ _objc_msgSend$percentMax
++ _objc_msgSend$percentMin
++ _objc_msgSend$percentTypical
++ _objc_msgSend$prepare
++ _objc_msgSend$processIdentifier
++ _objc_msgSend$productGroup
++ _objc_msgSend$productNumber
++ _objc_msgSend$rangeMax
++ _objc_msgSend$rangeMin
++ _objc_msgSend$reactiveEnergy
++ _objc_msgSend$registerForTaskWithIdentifier:usingQueue:launchHandler:
++ _objc_msgSend$registerPowerSpectrumForStreamToken:
++ _objc_msgSend$setAppliesPreferredTrackTransform:
++ _objc_msgSend$setBundleIDs:
++ _objc_msgSend$setDirection:
++ _objc_msgSend$setDisableBlockingOnIndex:
++ _objc_msgSend$setEarliestBeginDate:
++ _objc_msgSend$setExpirationHandler:
++ _objc_msgSend$setExpressSettingsAuthData:enableUWB:enableNFCExpress:completion:
++ _objc_msgSend$setFetchAttributes:
++ _objc_msgSend$setFilterQueries:
++ _objc_msgSend$setHasOnboardedForAccessCodeWithCompletion:
++ _objc_msgSend$setHasOnboardedForWalletKeyWithCompletion:
++ _objc_msgSend$setInteger:forKey:
++ _objc_msgSend$setLowestOff:
++ _objc_msgSend$setMaxRankedResultCount:
++ _objc_msgSend$setMaxResultCount:
++ _objc_msgSend$setMaxSuggestionCount:
++ _objc_msgSend$setMaximumQuality:
++ _objc_msgSend$setRequestedTimeToleranceAfter:
++ _objc_msgSend$setRequiresExternalPower:
++ _objc_msgSend$setRequiresNetworkConnectivity:
++ _objc_msgSend$setTaskCompletedWithSuccess:
++ _objc_msgSend$setWrap:
++ _objc_msgSend$sharedScheduler
++ _objc_msgSend$startSystime
++ _objc_msgSend$startTimestamp
++ _objc_msgSend$stepWithParams:expectedValues:expectedValueInterval:completion:
++ _objc_msgSend$storeID
++ _objc_msgSend$string
++ _objc_msgSend$stringArrayForKey:
++ _objc_msgSend$stringFromDate:timeZone:formatOptions:
++ _objc_msgSend$submitTaskRequest:completionHandler:
++ _objc_msgSend$synchronizeUserDefaultsDomain:keys:
++ _objc_msgSend$thumbnailData
++ _objc_msgSend$thumbnailURL
++ _objc_msgSend$updateConfigurationState:completionHandler:
++ _objc_msgSend$updatePendingConfigurationIdentifier:completionHandler:
++ _objc_msgSend$userConfigurationReady
++ _objc_msgSend$valueForCustomKey:
++ _objc_msgSend$valueForKey:
++ _objc_msgSend$walletKey
++ _objc_msgSend$writeAttributeAirflowDirectionWithValue:expectedValueInterval:
++ _objc_msgSend$writeAttributeFanModeWithValue:expectedValueInterval:
++ _objc_msgSend$writeAttributeLocalConfigDisabledWithValue:expectedValueInterval:
++ _objc_msgSend$writeAttributePercentSettingWithValue:expectedValueInterval:
++ _objc_msgSend$writeAttributeRockSettingWithValue:expectedValueInterval:
++ _objc_msgSend$writeAttributeSpeedSettingWithValue:expectedValueInterval:
++ _objc_msgSend$writeAttributeTemperatureDisplayModeWithValue:expectedValueInterval:
++ _objc_retain_x3
++ _object_getClass
++ _swift_asyncLet_begin
++ _swift_asyncLet_finish
++ _swift_asyncLet_get
++ _swift_asyncLet_get_throwing
++ _swift_deallocBox
++ _swift_getMetatypeMetadata
++ _swift_getTupleTypeMetadata3
++ _swift_release_x1
++ _swift_release_x10
++ _swift_release_x11
++ _swift_release_x12
++ _swift_release_x13
++ _swift_release_x19
++ _swift_release_x20
++ _swift_release_x21
++ _swift_release_x22
++ _swift_release_x23
++ _swift_release_x24
++ _swift_release_x25
++ _swift_release_x26
++ _swift_release_x27
++ _swift_release_x28
++ _swift_release_x3
++ _swift_release_x8
++ _swift_release_x9
++ _swift_retain_x1
++ _swift_retain_x10
++ _swift_retain_x13
++ _swift_retain_x19
++ _swift_retain_x2
++ _swift_retain_x20
++ _swift_retain_x21
++ _swift_retain_x22
++ _swift_retain_x23
++ _swift_retain_x24
++ _swift_retain_x25
++ _swift_retain_x26
++ _swift_retain_x27
++ _swift_retain_x28
++ _swift_retain_x8
++ _swift_retain_x9
++ _swift_stdlib_random
++ _swift_taskGroup_addPending
++ _swift_task_addCancellationHandler
++ _swift_task_addPriorityEscalationHandler
++ _swift_task_future_wait_throwing
++ _swift_task_isCancelledWithFlags
++ _swift_task_localValueGet
++ _swift_task_removeCancellationHandler
++ _swift_task_removePriorityEscalationHandler
++ _symbolic $s13HomeDataModel011ApplicationB17ContainerProtocolP
++ _symbolic $s13HomeDataModel011ApplicationB8ProtocolP
++ _symbolic $s13HomeDataModel07ClimateC8ProtocolP
++ _symbolic $s13HomeDataModel07ClimatecA8ProtocolP
++ _symbolic $s13HomeDataModel07IndexedB7StorageP
++ _symbolic $s13HomeDataModel08PlaybackB8ProviderP
++ _symbolic $s13HomeDataModel11SearchQueryP
++ _symbolic $s13HomeDataModel14SearchProviderP
++ _symbolic $s13HomeDataModel16CameraEventStoreP
++ _symbolic $s13HomeDataModel16UserQueryAdapterP
++ _symbolic $s13HomeDataModel17WalletKeyProtocolP
++ _symbolic $s13HomeDataModel18SearchQueryAdapterP
++ _symbolic $s13HomeDataModel19HeroFrameGeneratingP
++ _symbolic $s13HomeDataModel19PlaybackEventAnchorP
++ _symbolic $s13HomeDataModel21AttributeQueryAdapterP
++ _symbolic $s13HomeDataModel21CameraEventSearchableP
++ _symbolic $s13HomeDataModel22ResidentDeviceProtocolP
++ _symbolic $s13HomeDataModel28CameraClipAssetFetchExecutorP
++ _symbolic $s13HomeDataModel28WalletKeyDeviceStateProtocolP
++ _symbolic $s13HomeDataModel6CameraO5EventO13FetchExecutorP
++ _symbolic $s13HomeDataModel6CameraO5EventO15HistoryConsumerP
++ _symbolic $s13HomeDataModel6CameraO5EventO16FetchEnvironmentP
++ _symbolic $s13HomeDataModel6CameraO5EventO16StoreEnvironmentP
++ _symbolic $s9SwiftData15PersistentModelP
++ _symbolic $sSo20NSNotificationCenterC10FoundationE12AsyncMessageP
++ _symbolic 10Identifier_____Qz 13HomeDataModel19PlaybackEventAnchorP
++ _symbolic 10IndexStore_____Qz 13HomeDataModel6CameraO5EventO16StoreEnvironmentP
++ _symbolic 11Environment_____Qz 13HomeDataModel6CameraO5EventO13FetchExecutorP
++ _symbolic 12ClipCaptions_____Qz 13HomeDataModel06CameraB13StoreProtocolP
++ _symbolic 12ClipCaptions______7ElementSciQZ 13HomeDataModel06CameraB13StoreProtocolP
++ _symbolic 12ClipCaptions______7FailureSciQZ 13HomeDataModel06CameraB13StoreProtocolP
++ _symbolic 13AsyncIteratorSciQzz______yScGySDy__________y________GGSgGAHG_SciRzlXX s23AsyncCompactMapSequenceV 10Foundation4UUIDV 13HomeDataModel6CameraO11EnvironmentO5StateC10ControllerC AF04LivejK0V
++ _symbolic 14IndexDataStore_____Qz 13HomeDataModel23ClipFetchingEnvironmentP
++ _symbolic 14ResidentDevice_____Qz 13HomeDataModel05BasicA8ProtocolP
++ _symbolic 15ApplicationData_____Qz 13HomeDataModel011ApplicationB17ContainerProtocolP
++ _symbolic 18HeroFrameGenerator_____Qz 13HomeDataModel23ClipFetchingEnvironmentP
++ _symbolic 19ClassificationStore_____Qz 13HomeDataModel6CameraO5EventO16StoreEnvironmentP
++ _symbolic 21SignificantEventsByID_____Qz 13HomeDataModel06CameraB13StoreProtocolP
++ _symbolic 21SignificantEventsByID______7ElementSciQZ 13HomeDataModel06CameraB13StoreProtocolP
++ _symbolic 21SignificantEventsByID______7FailureSciQZ 13HomeDataModel06CameraB13StoreProtocolP
++ _symbolic 5Model_____Qyd__ 9SwiftData07BackingB0P
++ _symbolic 5Query_____Qz 13HomeDataModel14SearchProviderP
++ _symbolic 6Device_____Qz 13HomeDataModel22ResidentDeviceProtocolP
++ _symbolic 7Changes_____Qz 13HomeDataModel06CameraB13StoreProtocolP
++ _symbolic 7Changes______7ElementSciQZ 13HomeDataModel06CameraB13StoreProtocolP
++ _symbolic 7Changes______7FailureSciQZ 13HomeDataModel06CameraB13StoreProtocolP
++ _symbolic 7ElementScIQz
++ _symbolic 7ElementSciQy_
++ _symbolic 7FailureScIQz
++ _symbolic 7FailureSciQy_
++ _symbolic 8Category_____Qz 13HomeDataModel19PlaybackEventAnchorP
++ _symbolic 8Executor_____Qz 13HomeDataModel6CameraO5EventO16StoreEnvironmentP
++ _symbolic 9Accessory_____Qz 13HomeDataModel0A15ManagerProtocolP
++ _symbolic 9DataStore_____Qz 13HomeDataModel6CameraO5EventO16FetchEnvironmentP
++ _symbolic 9DataStore_____QzSg 13HomeDataModel6CameraO5EventO16FetchEnvironmentP
++ _symbolic 9Responses_____Qz 13HomeDataModel11SearchQueryP
++ _symbolic 9Responses______7ElementSciQZ 13HomeDataModel11SearchQueryP
++ _symbolic 9WalletKey_____Qz 13HomeDataModel28WalletKeyDeviceStateProtocolP
++ _symbolic B2
++ _symbolic G0R2_
++ _symbolic G0R4_
++ _symbolic SDySSSay_____GG 12HomeKitClips9DataStoreC
++ _symbolic SDySSSay_____GGSg 12HomeKitClips9DataStoreC
++ _symbolic SDy_____7Profile______13StreamControl_____0B0_____QZG 13HomeDataModel6CameraO6SourceO AA0D19EnvironmentProviderP AA0D7ProfileP AA0D13StreamControlP
++ _symbolic SDy_____7Profile______15SnapshotControl_____0B0_____QZG 13HomeDataModel6CameraO6SourceO AA0D19EnvironmentProviderP AA0D7ProfileP AA0D15SnapshotControlP
++ _symbolic SDy_____AAG 10Foundation4UUIDV
++ _symbolic SDy_____SDy_____y__x__GSiGG 10Foundation4UUIDV 13HomeDataModel6CameraO5EventO5StoreC24FetchAndIndexCoordinatorC9QueryInfoV
++ _symbolic SDy_____SSG 10Foundation4UUIDV
++ _symbolic SDy_____Say_____GG 10Foundation4UUIDV 12HomeKitClips10CameraClipV5MediaV5AssetV7SegmentV
++ _symbolic SDy_____Say_____GG 10Foundation4UUIDV 13HomeDataModel22CameraFetchStateRecordC12TimeIntervalV
++ _symbolic SDy_____Say_____GG s6UInt64V 13HomeDataModel26MatterAttributeRequestPathV
++ _symbolic SDy_____So21HMCameraStreamControlCG 13HomeDataModel6CameraO6SourceO
++ _symbolic SDy_____So23HMCameraSnapshotControlCG 13HomeDataModel6CameraO6SourceO
++ _symbolic SDy__________6homeID_Shy_____G5pathstG s6UInt64V 10Foundation4UUIDV 13HomeDataModel26MatterAttributeRequestPathV
++ _symbolic SDy__________G 10Foundation4UUIDV 12HomeKitClips15CameraDataStoreC11ChangeTokenV
++ _symbolic SDy__________G 10Foundation4UUIDV 13HomeDataModel07ClimateE0C0C0C
++ _symbolic SDy__________G 10Foundation4UUIDV 13HomeDataModel12SearchResultV
++ _symbolic SDy__________G 10Foundation4UUIDV 13HomeDataModel21MatterAttributePollerC18SubscriptionRecordV
++ _symbolic SDy__________G 10Foundation4UUIDV 13HomeDataModel6CameraO5EventO20InitialFetchCompleteC
++ _symbolic SDy__________G 10Foundation4UUIDV 13HomeDataModel6CameraO5EventO25FetchAndIndexDebugMetricsC0F6StatusV
++ _symbolic SDy__________G 10Foundation4UUIDV AA4DataV
++ _symbolic SDy__________G 12HomeKitClips10CameraClipV2IDV AA0dE9EmbeddingV
++ _symbolic SDy__________G 12HomeKitClips5HKSV3V22CameraRecordingSessionV2IDV AC0eF0V
++ _symbolic SDy__________G 13HomeDataModel15ScrubberElementO2IDV AC
++ _symbolic SDy__________G 13HomeDataModel6CameraO6SourceO AC11StreamStateO
++ _symbolic SDy__________G s6UInt16V 13HomeDataModel34StaticElectricalMeterEndpointGroupV
++ _symbolic SDy__________G s6UInt16V 13HomeDataModel38StaticMeterReferencePointEndpointGroupV
++ _symbolic SDy__________G s6UInt64V 13HomeDataModel07ClimateD0C10ThermostatC
++ _symbolic SDy__________GIeAgHr_ 10Foundation4UUIDV AA4DataV
++ _symbolic SDy__________y________GG 10Foundation4UUIDV 13HomeDataModel6CameraO11EnvironmentO5StateC10ControllerC AD04LivefG0V
++ _symbolic SDy__________y________GGSg 10Foundation4UUIDV 13HomeDataModel6CameraO11EnvironmentO5StateC10ControllerC AD04LivefG0V
++ _symbolic SDy__________y________GGSgIeAgHr_ 10Foundation4UUIDV 13HomeDataModel6CameraO11EnvironmentO5StateC10ControllerC AD04LivefG0V
++ _symbolic SDy__________y__x_GG 10Foundation4UUIDV 13HomeDataModel6CameraO5EventO5StoreC7RequestV
++ _symbolic SDy__________y__x__GG 10Foundation4UUIDV 13HomeDataModel6CameraO5EventO5StoreC13MetadataStateV6WaiterV
++ _symbolic SDy__________y_x__GGz____________RzlXX 10Foundation4UUIDV 13HomeDataModel6CameraO11EnvironmentO5StateC10ControllerC AD04LivefG0V AD0fG8ProviderP
++ _symbolic SDy_____xG 10Foundation4UUIDV
++ _symbolic SDy_____y__x__GSiGIgo_ 13HomeDataModel6CameraO5EventO5StoreC24FetchAndIndexCoordinatorC9QueryInfoV
++ _symbolic SS8zoneName_SS4typet
++ _symbolic SSSg11energyUsage_AA12statusStringt
++ _symbolic SSSg5label_yp5valuetSg
++ _symbolic SS_SDy__________GSgt 10Foundation4UUIDV 13HomeDataModel12SearchResultV
++ _symbolic SS_SDy__________GSgtIeAgHr_ 10Foundation4UUIDV 13HomeDataModel12SearchResultV
++ _symbolic SS_SaySSGt
++ _symbolic Say7Profile_____QzGz____________RzlXX 13HomeDataModel25CameraEnvironmentProviderP AA04LivedE0V AC
++ _symbolic SaySSG11identifiers_t
++ _symbolic SaySay_____GG 13HomeDataModel15ScrubberElementO
++ _symbolic SaySay_____GG_____ACIeghHgno_ 13HomeDataModel15ScrubberElementO AA15ClipSearchStateO
++ _symbolic SayScCyyt_____GG s5NeverO
++ _symbolic SaySo036MTRElectricalPowerMeasurementClusterC11RangeStructCG
++ _symbolic SaySo036MTRElectricalPowerMeasurementClusterC14AccuracyStructCG
++ _symbolic SaySo037MTROperationalStateClusterOperationalB6StructCG
++ _symbolic SaySo037MTROperationalStateClusterOperationalB6StructCGSg
++ _symbolic SaySo044MTRElectricalPowerMeasurementClusterHarmonicC6StructCG
++ _symbolic Say_____2id_ScCyyt______pG12continuationtG 10Foundation4UUIDV s5ErrorP
++ _symbolic Say_____G 12HomeKitClips10CameraClipV2IDV
++ _symbolic Say_____G 12HomeKitClips10CameraClipV5MediaV5AssetV7SegmentV
++ _symbolic Say_____G 12HomeKitClips11IndexedClipV
++ _symbolic Say_____G 12HomeKitClips15CameraDataStoreC10ChangeKindV
++ _symbolic Say_____G 12HomeKitClips17CameraClipCaptionV
++ _symbolic Say_____G 12HomeKitClips19CameraClipEmbeddingV
++ _symbolic Say_____G 12HomeKitClips22CameraSignificantEventV2IDV
++ _symbolic Say_____G 13HomeDataModel07ClimateC0C10ThermostatC19WeekdayScheduleRuleV
++ _symbolic Say_____G 13HomeDataModel07ClimateC0C10ThermostatC19WeekdayScheduleRuleV3DayO
++ _symbolic Say_____G 13HomeDataModel07ClimateC0C10ThermostatC25AdaptiveTemperatureConfigV04RoomH0V
++ _symbolic Say_____G 13HomeDataModel12CameraClipIDO
++ _symbolic Say_____G 13HomeDataModel12SearchResultV
++ _symbolic Say_____G 13HomeDataModel12SearchResultV6AnchorV
++ _symbolic Say_____G 13HomeDataModel15EmbeddingRecordC7SegmentV
++ _symbolic Say_____G 13HomeDataModel15ScrubberElementO2IDV
++ _symbolic Say_____G 13HomeDataModel17CameraEventRecordC
++ _symbolic Say_____G 13HomeDataModel19StaticCameraProfileV
++ _symbolic Say_____G 13HomeDataModel22CameraFetchStateRecordC12TimeIntervalV
++ _symbolic Say_____G 13HomeDataModel22MeasurementRangeStructV
++ _symbolic Say_____G 13HomeDataModel22SignificantEventRecordC
++ _symbolic Say_____G 13HomeDataModel25CameraEventStoreDebugInfoV10FetchStateV
++ _symbolic Say_____G 13HomeDataModel25HarmonicMeasurementStructV
++ _symbolic Say_____G 13HomeDataModel25MeasurementAccuracyStructV
++ _symbolic Say_____G 13HomeDataModel26MatterAttributeRequestPathV
++ _symbolic Say_____G 13HomeDataModel28SearchAutocompleteSuggestionV
++ _symbolic Say_____G 13HomeDataModel30MeasurementAccuracyRangeStructV
++ _symbolic Say_____G 13HomeDataModel6CameraO5EventO5FetchV21HKSV3ThumbnailRequestV
++ _symbolic Say_____G 13HomeDataModel6CameraO5EventO5FetchV6OutputV
++ _symbolic Say_____G 13HomeDataModel6CameraO5EventO5FetchV6OutputV11AssetResultV
++ _symbolic Say_____G 13HomeDataModel6CameraO5EventO5FetchV6OutputV20HKSV3ThumbnailResultV
++ _symbolic Say_____G 13HomeDataModel6CameraO5EventO8CoverageV8IntervalV
++ _symbolic Say_____G 13HomeDataModel6CameraO6SourceO
++ _symbolic Say_____G 9SwiftData20PersistentIdentifierV
++ _symbolic Say_____G22forSignificantEventIDs_t 12HomeKitClips22CameraSignificantEventV2IDV
++ _symbolic Say_____G7clipIDs_t 10Foundation4UUIDV
++ _symbolic Say_____G7clipIDs_t 12HomeKitClips10CameraClipV2IDV
++ _symbolic Say_____G8elements______14honestIntervalt 13HomeDataModel15ScrubberElementO 10Foundation12DateIntervalV
++ _symbolic Say_____G8elements______14honestIntervaltSg 13HomeDataModel15ScrubberElementO 10Foundation12DateIntervalV
++ _symbolic Say_____GSbYaYbKc 12HomeKitClips9DataStoreC
++ _symbolic Say_____GSg 12HomeKitClips10CameraClipV5MediaV5AssetV7SegmentV
++ _symbolic Say_____GSg 13HomeDataModel07ClimateC0C10ThermostatC25AdaptiveTemperatureConfigV04RoomH0V
++ _symbolic Say_____GSg 13HomeDataModel22MeasurementRangeStructV
++ _symbolic Say_____GSg 13HomeDataModel25HarmonicMeasurementStructV
++ _symbolic Say_____G_SDy_____Say_____GG19faceClassificationsSi13rawEventCount_____Sg08receivedD12DateIntervalt 13HomeDataModel15ScrubberElementO 0A8KitClips22CameraSignificantEventV2IDV AD0hiJ18FaceClassificationV 10Foundation12DateIntervalV
++ _symbolic Say_____G_Si_____Sgt 13HomeDataModel15ScrubberElementO 10Foundation12DateIntervalV
++ _symbolic Say_____Gz_Xx 10Foundation4UUIDV
++ _symbolic Say_____y_____GG 10Foundation14SortDescriptorV 13HomeDataModel17CameraEventRecordC
++ _symbolic Say_____y________GG 13HomeDataModel6CameraO5EventO06SingleD13FetchExecutorC25HKSV3ThumbnailTaskOutcome33_743BAA55C410B8194B06414662F035CCLLV AE010PlaygroundG11EnvironmentV
++ _symbolic Say_____y_________GG 13HomeDataModel6CameraO5EventO5StoreC24FetchAndIndexCoordinatorC0I6UpdateO AE010PlaygroundF11EnvironmentV
++ _symbolic Say_____y_________GGSay_____y_AB___GG_____SgIeghHgor_ 13HomeDataModel6CameraO11EnvironmentO5StateC10ControllerC10UpdateTypeO AA04LivedE0V AI7ContentO AC4ModeO
++ _symbolic Say_____y_________GG______Sgt 13HomeDataModel6CameraO11EnvironmentO5StateC10ControllerC7ContentO AA04LivedE0V AC4ModeO
++ _symbolic Sb_____Ybc 13HomeDataModel15ScrubberElementO
++ _symbolic ScGySDy__________y________GGSgG 10Foundation4UUIDV 13HomeDataModel6CameraO11EnvironmentO5StateC10ControllerC AD04LivefG0V
++ _symbolic ScGy_____SgG 13HomeDataModel6CameraO5EventO5FetchV6OutputV
++ _symbolic ScGy___________tG 13HomeDataModel15ScrubberElementO2IDV AC
++ _symbolic ScGy_____y________GG 13HomeDataModel6CameraO5EventO06SingleD13FetchExecutorC25HKSV3ThumbnailTaskOutcome33_743BAA55C410B8194B06414662F035CCLLV AE010PlaygroundG11EnvironmentV
++ _symbolic ScP
++ _symbolic ScSySDy_____So21HMCameraStreamControlCGG 13HomeDataModel6CameraO6SourceO
++ _symbolic ScSySDy_____So23HMCameraSnapshotControlCGG 13HomeDataModel6CameraO6SourceO
++ _symbolic ScSyShy_____GG 10Foundation4UUIDV
++ _symbolic ScSy_____G 10Foundation4UUIDV
++ _symbolic ScSy_____G 12HomeKitClips5HKSV3V23CameraRecordingExporterC6ExportV8ProgressV
++ _symbolic ScSy_____G 13HomeDataModel15ClipSearchStateO
++ _symbolic ScSy_____G 13HomeDataModel15ScrubberElementO
++ _symbolic ScSy_____G 13HomeDataModel16SignificantEventV
++ _symbolic ScSy_____G 13HomeDataModel6CameraO5EventO5FetchV6OutputV
++ _symbolic ScSy_____SgG___________tYac 13HomeDataModel08WaveformB0V AC6SourceO AC10ResolutionO
++ _symbolic ScSy_____y_________GG 13HomeDataModel6CameraO11EnvironmentO5StateC10ControllerC10UpdateTypeO AA04LivedE0V
++ _symbolic ScSy_____y_________GG 13HomeDataModel6CameraO5EventO5StoreC24FetchAndIndexCoordinatorC0I6UpdateO AE010PlaygroundF11EnvironmentV
++ _symbolic ScSy_____y_________GG 13HomeDataModel6CameraO5EventO5StoreC24FetchAndIndexCoordinatorC0ghI6UpdateO AE010PlaygroundF11EnvironmentV
++ _symbolic ScSy_____y_________GG6stream______yAC_G12continuationt 13HomeDataModel6CameraO5EventO5StoreC24FetchAndIndexCoordinatorC0I6UpdateO AE010PlaygroundF11EnvironmentV ScS12ContinuationV
++ _symbolic ScSy_____y__x__GG 13HomeDataModel6CameraO5EventO5StoreC24FetchAndIndexCoordinatorC0ghI6UpdateO
++ _symbolic ScSy_____y__x__GG 13HomeDataModel6CameraO5EventO5StoreC6IntakeC5InputO
++ _symbolic ScSy_____y__x__GG6stream______yAB_G12continuationt 13HomeDataModel6CameraO5EventO5StoreC24FetchAndIndexCoordinatorC0I6UpdateO ScS12ContinuationV
++ _symbolic ScSyytG
++ _symbolic ScTySDySSSay_____GG______pGSg 12HomeKitClips9DataStoreC s5ErrorP
++ _symbolic ScgySDy__________y________GGSg______pG 10Foundation4UUIDV 13HomeDataModel6CameraO11EnvironmentO5StateC10ControllerC AD04LivefG0V s5ErrorP
++ _symbolic Scgy___________pG 10Foundation4DataV s5ErrorP
++ _symbolic Scsy___________pG 13HomeDataModel14SearchResponseO s5ErrorP
++ _symbolic Scsy___________pG 13HomeDataModel18ClipDownloadResultV s5ErrorP
++ _symbolic SdIeghy_
++ _symbolic Shy_____G 12HomeKitClips10CameraClipV2IDV
++ _symbolic Shy_____G 13HomeDataModel12CameraClipIDO
++ _symbolic Shy_____G 13HomeDataModel15ScrubberElementO2IDV
++ _symbolic Shy_____G 13HomeDataModel19StaticCameraProfileV
++ _symbolic Shy_____G 13HomeDataModel6CameraO5EventO8CoverageV8ResourceO
++ _symbolic Shy_____G 9SwiftData20PersistentIdentifierV
++ _symbolic Shy_____G7clipIDs_t 10Foundation4UUIDV
++ _symbolic Si______Sgt s8DurationV
++ _symbolic Si______y_____Sg_Gt ScS12ContinuationV 13HomeDataModel08WaveformC0V
++ _symbolic Sny_____G 10Foundation16AttributedStringV5IndexV
++ _symbolic Sny_____GSg 10Foundation16AttributedStringV5IndexV
++ _symbolic So11CSUserQueryC
++ _symbolic So11HMAccessoryC9accessory______7settingt 13HomeDataModel07ClimateC0C10ThermostatC15WeekdayScheduleV
++ _symbolic So11HMAccessoryC9accessory______7settingt 13HomeDataModel07ClimateC0C10ThermostatC24CleanEnergySettingConfigV
++ _symbolic So11HMAccessoryC9accessory______7settingt 13HomeDataModel07ClimateC0C10ThermostatC25AdaptiveTemperatureConfigV7SettingV
++ _symbolic So13CSSearchQueryC
++ _symbolic So14HMCameraStreamCSg
++ _symbolic So15HMHomeWalletKeyC
++ _symbolic So16BGProcessingTaskC
++ _symbolic So16HMCameraSnapshotCSg
++ _symbolic So17HMApplicationDataC
++ _symbolic So20MTRClusterFanControlC
++ _symbolic So20MTRClusterFanControlCSaySDySSypGGSgSo8NSNumberCSgypSg______pIeghHgggrzo_ s5ErrorP
++ _symbolic So20MTRClusterFanControlCXMT
++ _symbolic So26HMHomeWalletKeyDeviceStateC
++ _symbolic So30UIGraphicsImageRendererContextCIgg_
++ _symbolic So36MTRClusterElectricalPowerMeasurementC
++ _symbolic So37MTRClusterElectricalEnergyMeasurementC
++ _symbolic So6HMUserCSg4user_Sb7isOwnert
++ _symbolic So7AVAssetC5asset_t
++ _symbolic _____ 10Foundation12DateIntervalV
++ _symbolic _____ 12HomeKitClips10CameraClipV
++ _symbolic _____ 12HomeKitClips10CameraClipV5MediaV5AssetV
++ _symbolic _____ 12HomeKitClips15CameraDataStoreC6ChangeO
++ _symbolic _____ 12HomeKitClips16IndexedDataStoreC
++ _symbolic _____ 12HomeKitClips17CameraClipCaptionV
++ _symbolic _____ 12HomeKitClips5HKSV3V22CameraDataStoreContextC
++ _symbolic _____ 12HomeKitClips5HKSV3V22CameraRecordingSessionV2IDV
++ _symbolic _____ 12HomeKitClips5HKSV3V23CameraRecordingExporterC6ExportV
++ _symbolic _____ 13HomeDataModel010EnergyViewC0C
++ _symbolic _____ 13HomeDataModel010EnergyViewC0C5StateC
++ _symbolic _____ 13HomeDataModel014DirectPlaybackB8ProviderV
++ _symbolic _____ 13HomeDataModel015MatterAttributeB7BuilderO14NullCodingKeys33_83ADBD2535462EE3DCACA5EF8445F958LLO
++ _symbolic _____ 13HomeDataModel07ClimateC0C
++ _symbolic _____ 13HomeDataModel07ClimateC0C0A0C
++ _symbolic _____ 13HomeDataModel07ClimateC0C10ThermostatC
++ _symbolic _____ 13HomeDataModel07ClimateC0C10ThermostatC13ServiceConfigV
++ _symbolic _____ 13HomeDataModel07ClimateC0C10ThermostatC15WeekdayScheduleV
++ _symbolic _____ 13HomeDataModel07ClimateC0C10ThermostatC15WeekdayScheduleV10CodingKeys33_A3C4427BE4B25BC593FA0FB40F4CFD42LLO
++ _symbolic _____ 13HomeDataModel07ClimateC0C10ThermostatC19WeekdayScheduleRuleV
++ _symbolic _____ 13HomeDataModel07ClimateC0C10ThermostatC19WeekdayScheduleRuleV10CodingKeys33_A3C4427BE4B25BC593FA0FB40F4CFD42LLO
++ _symbolic _____ 13HomeDataModel07ClimateC0C10ThermostatC19WeekdayScheduleRuleV3DayO
++ _symbolic _____ 13HomeDataModel07ClimateC0C10ThermostatC24CleanEnergySettingConfigV
++ _symbolic _____ 13HomeDataModel07ClimateC0C10ThermostatC24CleanEnergySettingConfigV0g10PeakSymbolI0V
++ _symbolic _____ 13HomeDataModel07ClimateC0C10ThermostatC24CleanEnergySettingConfigV0g10PeakSymbolI0V10CodingKeys33_A3C4427BE4B25BC593FA0FB40F4CFD42LLO
++ _symbolic _____ 13HomeDataModel07ClimateC0C10ThermostatC24CleanEnergySettingConfigV10CodingKeys33_A3C4427BE4B25BC593FA0FB40F4CFD42LLO
++ _symbolic _____ 13HomeDataModel07ClimateC0C10ThermostatC25AdaptiveTemperatureConfigV
++ _symbolic _____ 13HomeDataModel07ClimateC0C10ThermostatC25AdaptiveTemperatureConfigV04RoomH0V
++ _symbolic _____ 13HomeDataModel07ClimateC0C10ThermostatC25AdaptiveTemperatureConfigV04RoomH0V10CodingKeys33_A3C4427BE4B25BC593FA0FB40F4CFD42LLO
++ _symbolic _____ 13HomeDataModel07ClimateC0C10ThermostatC25AdaptiveTemperatureConfigV10CodingKeys33_A3C4427BE4B25BC593FA0FB40F4CFD42LLO
++ _symbolic _____ 13HomeDataModel07ClimateC0C10ThermostatC25AdaptiveTemperatureConfigV7SettingV
++ _symbolic _____ 13HomeDataModel07ClimateC0C10ThermostatC25AdaptiveTemperatureConfigV7SettingV10CodingKeys33_A3C4427BE4B25BC593FA0FB40F4CFD42LLO
++ _symbolic _____ 13HomeDataModel07ClimateC0C10ThermostatC5StateC
++ _symbolic _____ 13HomeDataModel07ClimateC0C10ThermostatC5StateC11UpdateErrorO
++ _symbolic _____ 13HomeDataModel07ClimateC0C10ThermostatC5StateC11UpdateErrorO0G4TypeO
++ _symbolic _____ 13HomeDataModel08WaveformB0V10ResolutionO
++ _symbolic _____ 13HomeDataModel0B13StoreProviderC
++ _symbolic _____ 13HomeDataModel0B13StoreProviderC0bdE5ErrorO
++ _symbolic _____ 13HomeDataModel0C14ContextDidSaveV
++ _symbolic _____ 13HomeDataModel10CameraClipV12CaptionStateO
++ _symbolic _____ 13HomeDataModel10StatusIconV0dE7Payload33_0BFD660224EF62AB138A8C6137AD949FLLO27AccessoryCategoryCodingKeysO
++ _symbolic _____ 13HomeDataModel12CameraClipIDO
++ _symbolic _____ 13HomeDataModel12SearchResultV
++ _symbolic _____ 13HomeDataModel12SearchResultV4TypeO
++ _symbolic _____ 13HomeDataModel12SearchResultV6AnchorV
++ _symbolic _____ 13HomeDataModel13StaticClusterO20FanControlCodingKeys33_33FA28C341BB11C4E0C1667B9E3CF4F0LLO
++ _symbolic _____ 13HomeDataModel13StaticClusterO28ThermostatUIConfigCodingKeys33_33FA28C341BB11C4E0C1667B9E3CF4F0LLO
++ _symbolic _____ 13HomeDataModel13StaticClusterO36ElectricalPowerMeasurementCodingKeys33_33FA28C341BB11C4E0C1667B9E3CF4F0LLO
++ _symbolic _____ 13HomeDataModel13StaticClusterO37ElectricalEnergyMeasurementCodingKeys33_33FA28C341BB11C4E0C1667B9E3CF4F0LLO
++ _symbolic _____ 13HomeDataModel14SearchResponseO
++ _symbolic _____ 13HomeDataModel15AnyEndpointLikeV
++ _symbolic _____ 13HomeDataModel15AnyEndpointLikeV0E4Type33_E7F282E39A3517447FD3F2F63DCD5E2ALLO
++ _symbolic _____ 13HomeDataModel15AnyEndpointLikeV10CodingKeys33_E7F282E39A3517447FD3F2F63DCD5E2ALLO
++ _symbolic _____ 13HomeDataModel15CameraClipErrorO
++ _symbolic _____ 13HomeDataModel15ClipSearchQueryO
++ _symbolic _____ 13HomeDataModel15ClipSearchQueryO05QuickE10CodingKeys33_9BE605DB1D1CC00AD67F692EB48013FCLLO
++ _symbolic _____ 13HomeDataModel15ClipSearchQueryO05QuickE8CategoryV
++ _symbolic _____ 13HomeDataModel15ClipSearchQueryO10CodingKeys33_9BE605DB1D1CC00AD67F692EB48013FCLLO
++ _symbolic _____ 13HomeDataModel15ClipSearchQueryO18SemanticCodingKeys33_9BE605DB1D1CC00AD67F692EB48013FCLLO
++ _symbolic _____ 13HomeDataModel15ClipSearchStateO
++ _symbolic _____ 13HomeDataModel15EmbeddingRecordC
++ _symbolic _____ 13HomeDataModel15EmbeddingRecordC06_SwiftB6NoTypeV
++ _symbolic _____ 13HomeDataModel15EmbeddingRecordC7SegmentV
++ _symbolic _____ 13HomeDataModel15EmbeddingRecordC7SegmentV10CodingKeys33_4284C791DF2076C8F7BCCB26564ABEABLLO
++ _symbolic _____ 13HomeDataModel15MockSearchQueryV
++ _symbolic _____ 13HomeDataModel16CameraEventActorC
++ _symbolic _____ 13HomeDataModel16SearchSuggestionV
++ _symbolic _____ 13HomeDataModel17CameraEventRecordC
++ _symbolic _____ 13HomeDataModel17CameraEventRecordC06_SwiftB6NoTypeV
++ _symbolic _____ 13HomeDataModel17CaptionSummarizerV
++ _symbolic _____ 13HomeDataModel17CaptionSummarizerV12InstructionsO
++ _symbolic _____ 13HomeDataModel17CaptionSummarizerV18SummarizationErrorO
++ _symbolic _____ 13HomeDataModel17ProductKitHelpersO
++ _symbolic _____ 13HomeDataModel18CameraClipsLibraryC25CaptionResolverComponentsV
++ _symbolic _____ 13HomeDataModel18ClipDownloadResultV
++ _symbolic _____ 13HomeDataModel18EventFetchProgressV
++ _symbolic _____ 13HomeDataModel18MockSearchProviderC
++ _symbolic _____ 13HomeDataModel19CameraStoreSchemaV1O
++ _symbolic _____ 13HomeDataModel19MeasurementTypeEnumO
++ _symbolic _____ 13HomeDataModel19SearchConfigurationV
++ _symbolic _____ 13HomeDataModel20StaticEndpointGroupsV
++ _symbolic _____ 13HomeDataModel20StaticEndpointGroupsV10CodingKeys33_5A65C71D1FA311484F5E7C4AD9485CC0LLO
++ _symbolic _____ 13HomeDataModel20TVRemoteCoreFeaturesO
++ _symbolic _____ 13HomeDataModel21ClipSearchCoordinatorC
++ _symbolic _____ 13HomeDataModel21MatterAttributePollerC
++ _symbolic _____ 13HomeDataModel21MatterAttributePollerC18SubscriptionRecordV
++ _symbolic _____ 13HomeDataModel21MatterAttributePollerC5State33_9BDDA65ADEAF8DC0D353A26D172FE094LLV
++ _symbolic _____ 13HomeDataModel21ReasonReplacementPairV
++ _symbolic _____ 13HomeDataModel22CameraFetchStateRecordC
++ _symbolic _____ 13HomeDataModel22CameraFetchStateRecordC06_SwiftB6NoTypeV
++ _symbolic _____ 13HomeDataModel22CameraFetchStateRecordC12TimeIntervalV
++ _symbolic _____ 13HomeDataModel22CameraFetchStateRecordC12TimeIntervalV10CodingKeys33_C1B675806D8374A850FD5C24B1DF87D1LLO
++ _symbolic _____ 13HomeDataModel22ClipSearchResultFilterV
++ _symbolic _____ 13HomeDataModel22ClipSearchResultFilterV8IteratorV
++ _symbolic _____ 13HomeDataModel22FeedbackClipDownloaderO
++ _symbolic _____ 13HomeDataModel22MeasurementRangeStructV
++ _symbolic _____ 13HomeDataModel22MeasurementRangeStructV10CodingKeys33_2DA2D6452F74277896C9CEB55CE4DAF0LLO
++ _symbolic _____ 13HomeDataModel22ModeClusterSemanticTagO29ManufacturerDefinedCodingKeys33_5C3D8CE2C0B000791F2603DA87B01CD0LLO
++ _symbolic _____ 13HomeDataModel22PlaybackAssetRefetcher33_3C85B67A3C6360AB09362683BE686830LLV
++ _symbolic _____ 13HomeDataModel22SignificantEventRecordC
++ _symbolic _____ 13HomeDataModel22SignificantEventRecordC06_SwiftB6NoTypeV
++ _symbolic _____ 13HomeDataModel23EnergyMeasurementStructV
++ _symbolic _____ 13HomeDataModel23EnergyMeasurementStructV10CodingKeys33_2DA2D6452F74277896C9CEB55CE4DAF0LLO
++ _symbolic _____ 13HomeDataModel23SpotlightBatchOperationO
++ _symbolic _____ 13HomeDataModel23StaticFanControlClusterV
++ _symbolic _____ 13HomeDataModel23StaticFanControlClusterV0E12ModeSequenceO
++ _symbolic _____ 13HomeDataModel23StaticFanControlClusterV0E4ModeO
++ _symbolic _____ 13HomeDataModel23StaticFanControlClusterV10CodingKeys33_22548FF3F039657D169671B9957D212BLLO
++ _symbolic _____ 13HomeDataModel23StaticFanControlClusterV13StepDirectionO
++ _symbolic _____ 13HomeDataModel23StaticFanControlClusterV16AirflowDirectionO
++ _symbolic _____ 13HomeDataModel23StaticFanControlClusterV7CommandO
++ _symbolic _____ 13HomeDataModel23StaticFanControlClusterV8RockModeV
++ _symbolic _____ 13HomeDataModel24CameraStoreMigrationPlanO
++ _symbolic _____ 13HomeDataModel24CoreSpotlightSearchQueryV
++ _symbolic _____ 13HomeDataModel25CameraEventStoreDebugInfoV
++ _symbolic _____ 13HomeDataModel25CameraEventStoreDebugInfoV10FetchStateV
++ _symbolic _____ 13HomeDataModel25CompoundCameraEventRecordC
++ _symbolic _____ 13HomeDataModel25CompoundCameraEventRecordC06_SwiftB6NoTypeV
++ _symbolic _____ 13HomeDataModel25HarmonicMeasurementStructV
++ _symbolic _____ 13HomeDataModel25HarmonicMeasurementStructV10CodingKeys33_2DA2D6452F74277896C9CEB55CE4DAF0LLO
++ _symbolic _____ 13HomeDataModel25HeroFrameImageBoundingBoxV
++ _symbolic _____ 13HomeDataModel25HeroFrameImageBoundingBoxV10CodingKeys33_119A47AB499A1BE45D82A6EFEE09DBBCLLO
++ _symbolic _____ 13HomeDataModel25HeroFrameImageHEICDecoderO
++ _symbolic _____ 13HomeDataModel25HeroFrameImageHEICEncoderO
++ _symbolic _____ 13HomeDataModel25MeasurementAccuracyStructV
++ _symbolic _____ 13HomeDataModel25MeasurementAccuracyStructV10CodingKeys33_2DA2D6452F74277896C9CEB55CE4DAF0LLO
++ _symbolic _____ 13HomeDataModel26PowerMeasurementStatusItemV
++ _symbolic _____ 13HomeDataModel27CameraEventFetchCoordinatorC
++ _symbolic _____ 13HomeDataModel27CameraEventIndexingBehaviorO
++ _symbolic _____ 13HomeDataModel27CameraEventStoreObservationV
++ _symbolic _____ 13HomeDataModel27CameraEventStoreObservationV8IteratorV
++ _symbolic _____ 13HomeDataModel27CoreSpotlightSearchProviderC
++ _symbolic _____ 13HomeDataModel27CumulativeEnergyResetStructV
++ _symbolic _____ 13HomeDataModel27CumulativeEnergyResetStructV10CodingKeys33_2DA2D6452F74277896C9CEB55CE4DAF0LLO
++ _symbolic _____ 13HomeDataModel28SearchAutocompleteSuggestionV
++ _symbolic _____ 13HomeDataModel29CameraEventStoreConfigurationO
++ _symbolic _____ 13HomeDataModel29CoreSpotlightUserQueryAdapterV
++ _symbolic _____ 13HomeDataModel29SpotlightIndexBatchSerializerC
++ _symbolic _____ 13HomeDataModel30HeroFrameImageHEICEncoderErrorO
++ _symbolic _____ 13HomeDataModel30MeasurementAccuracyRangeStructV
++ _symbolic _____ 13HomeDataModel30MeasurementAccuracyRangeStructV10CodingKeys33_2DA2D6452F74277896C9CEB55CE4DAF0LLO
++ _symbolic _____ 13HomeDataModel31StaticThermostatUIConfigClusterV
++ _symbolic _____ 13HomeDataModel31StaticThermostatUIConfigClusterV10CodingKeys33_6DA1AA96709E24270C96F666100294D4LLO
++ _symbolic _____ 13HomeDataModel31StaticThermostatUIConfigClusterV13KeypadLockoutO
++ _symbolic _____ 13HomeDataModel31StaticThermostatUIConfigClusterV22TemperatureDisplayModeO
++ _symbolic _____ 13HomeDataModel31StaticThermostatUIConfigClusterV29ScheduleProgrammingVisibilityO
++ _symbolic _____ 13HomeDataModel34CoreSpotlightAttributeQueryAdapterV
++ _symbolic _____ 13HomeDataModel34StaticElectricalMeterEndpointGroupV
++ _symbolic _____ 13HomeDataModel34StaticElectricalMeterEndpointGroupV10CodingKeys33_A5A2CA519DF3F25FCACD95C50FE0717DLLO
++ _symbolic _____ 13HomeDataModel37MockElectricalPowerMeasurementClusterC
++ _symbolic _____ 13HomeDataModel38MockElectricalEnergyMeasurementClusterC
++ _symbolic _____ 13HomeDataModel38StaticMeterReferencePointEndpointGroupV
++ _symbolic _____ 13HomeDataModel38StaticMeterReferencePointEndpointGroupV10CodingKeys33_9BCC8D9C627BECE702826BB8B1934155LLO
++ _symbolic _____ 13HomeDataModel39StaticElectricalPowerMeasurementClusterV
++ _symbolic _____ 13HomeDataModel39StaticElectricalPowerMeasurementClusterV10CodingKeys33_3490C75CA4BCA8C2FFC8BA433EC02536LLO
++ _symbolic _____ 13HomeDataModel40StaticElectricalEnergyMeasurementClusterV
++ _symbolic _____ 13HomeDataModel40StaticElectricalEnergyMeasurementClusterV10CodingKeys33_0D504CD4E45FC7E1DF34EAE1D32794ADLLO
++ _symbolic _____ 13HomeDataModel6CameraO11EnvironmentO5StateC10ControllerC5RulesV
++ _symbolic _____ 13HomeDataModel6CameraO16SourceIdentifierV
++ _symbolic _____ 13HomeDataModel6CameraO5EventO
++ _symbolic _____ 13HomeDataModel6CameraO5EventO06SingleD13FetchExecutorC
++ _symbolic _____ 13HomeDataModel6CameraO5EventO06SingleD13FetchExecutorC017SignificantEventsG8Progress33_BC25E663BE6D3FBC7BC1DF5E6FEEE9DALLV
++ _symbolic _____ 13HomeDataModel6CameraO5EventO06SingleD13FetchExecutorC08MetadataG8Progress33_3FAEEAE9A5C03D25DCAFBB4B2A8909F4LLV
++ _symbolic _____ 13HomeDataModel6CameraO5EventO06SingleD13FetchExecutorC25HKSV3ThumbnailTaskOutcome33_743BAA55C410B8194B06414662F035CCLLV
++ _symbolic _____ 13HomeDataModel6CameraO5EventO13DeletionErrorO
++ _symbolic _____ 13HomeDataModel6CameraO5EventO14HistoryMessageO
++ _symbolic _____ 13HomeDataModel6CameraO5EventO16FetchCoordinatorC
++ _symbolic _____ 13HomeDataModel6CameraO5EventO17ClipDownloadErrorO
++ _symbolic _____ 13HomeDataModel6CameraO5EventO19PlaybackAssetResultO
++ _symbolic _____ 13HomeDataModel6CameraO5EventO20InitialFetchCompleteC
++ _symbolic _____ 13HomeDataModel6CameraO5EventO25FetchAndIndexDebugMetricsC
++ _symbolic _____ 13HomeDataModel6CameraO5EventO25FetchAndIndexDebugMetricsC0D6StatusV
++ _symbolic _____ 13HomeDataModel6CameraO5EventO25FetchAndIndexDebugMetricsC6StatusO
++ _symbolic _____ 13HomeDataModel6CameraO5EventO26PlaygroundFetchEnvironmentV
++ _symbolic _____ 13HomeDataModel6CameraO5EventO26PlaygroundStoreEnvironmentV
++ _symbolic _____ 13HomeDataModel6CameraO5EventO5FetchV
++ _symbolic _____ 13HomeDataModel6CameraO5EventO5FetchV21HKSV3ThumbnailRequestV
++ _symbolic _____ 13HomeDataModel6CameraO5EventO5FetchV4KindO
++ _symbolic _____ 13HomeDataModel6CameraO5EventO5FetchV6OutputV
++ _symbolic _____ 13HomeDataModel6CameraO5EventO5FetchV6OutputV11AssetResultV
++ _symbolic _____ 13HomeDataModel6CameraO5EventO5FetchV6OutputV11ChangeBatchV
++ _symbolic _____ 13HomeDataModel6CameraO5EventO5FetchV6OutputV20HKSV3ThumbnailResultV
++ _symbolic _____ 13HomeDataModel6CameraO5EventO5FetchV6OutputV4KindO
++ _symbolic _____ 13HomeDataModel6CameraO5EventO5FetchV7OptionsV
++ _symbolic _____ 13HomeDataModel6CameraO5EventO5StoreC
++ _symbolic _____ 13HomeDataModel6CameraO5EventO5StoreC11PageTrackerV
++ _symbolic _____ 13HomeDataModel6CameraO5EventO5StoreC13CoverageStateV
++ _symbolic _____ 13HomeDataModel6CameraO5EventO5StoreC13MetadataStateV
++ _symbolic _____ 13HomeDataModel6CameraO5EventO5StoreC13MetadataStateV6WaiterV
++ _symbolic _____ 13HomeDataModel6CameraO5EventO5StoreC14HistoryTrackerC
++ _symbolic _____ 13HomeDataModel6CameraO5EventO5StoreC15ProgressMatcher33_3712C6B02E1FE98B955A294A89495E60LLC
++ _symbolic _____ 13HomeDataModel6CameraO5EventO5StoreC15ThumbnailLookup33_8B5F05DF209A2EC649650B600304AA7DLLO
++ _symbolic _____ 13HomeDataModel6CameraO5EventO5StoreC20WantedHeroFrameStateV
++ _symbolic _____ 13HomeDataModel6CameraO5EventO5StoreC24FetchAndIndexCoordinatorC
++ _symbolic _____ 13HomeDataModel6CameraO5EventO5StoreC24FetchAndIndexCoordinatorC08MetadataG6ResultV
++ _symbolic _____ 13HomeDataModel6CameraO5EventO5StoreC24FetchAndIndexCoordinatorC0I6UpdateO
++ _symbolic _____ 13HomeDataModel6CameraO5EventO5StoreC24FetchAndIndexCoordinatorC0ghI6UpdateO
++ _symbolic _____ 13HomeDataModel6CameraO5EventO5StoreC24FetchAndIndexCoordinatorC9QueryInfoV
++ _symbolic _____ 13HomeDataModel6CameraO5EventO5StoreC24FetchAndIndexCoordinatorC9QueryInfoV0G4KindO
++ _symbolic _____ 13HomeDataModel6CameraO5EventO5StoreC5StateV
++ _symbolic _____ 13HomeDataModel6CameraO5EventO5StoreC6IntakeC
++ _symbolic _____ 13HomeDataModel6CameraO5EventO5StoreC6IntakeC5InputO
++ _symbolic _____ 13HomeDataModel6CameraO5EventO5StoreC7IndexerC
++ _symbolic _____ 13HomeDataModel6CameraO5EventO5StoreC7RequestV
++ _symbolic _____ 13HomeDataModel6CameraO5EventO8CoverageV
++ _symbolic _____ 13HomeDataModel6CameraO5EventO8CoverageV21IntervalExecutionModeO
++ _symbolic _____ 13HomeDataModel6CameraO5EventO8CoverageV7OptionsV
++ _symbolic _____ 13HomeDataModel6CameraO5EventO8CoverageV8IntervalV
++ _symbolic _____ 13HomeDataModel6CameraO5EventO8CoverageV8ResourceO
++ _symbolic _____ 13HomeDataModel6CameraO5EventO8CoverageV9DirectionO
++ _symbolic _____ 13HomeDataModel6CameraO5EventO8CoverageV9PredicateV
++ _symbolic _____ 13HomeDataModel6CameraO5EventO9ConstantsO
++ _symbolic _____ 13HomeDataModel6CameraO6SourceO
++ _symbolic _____ 9SwiftData12ModelContextC
++ _symbolic _____ 9SwiftData14ModelContainerC
++ _symbolic _____ 9SwiftData19DefaultHistoryTokenV
++ _symbolic _____ 9SwiftData20PersistentIdentifierV
++ _symbolic _____ 9SwiftData25DefaultHistoryTransactionV
++ _symbolic _____ 9SwiftData6SchemaC
++ _symbolic _____ 9SwiftData6SchemaC7VersionV
++ _symbolic _____ So018MTRDishwasherAlarmB6BitmapV
++ _symbolic _____ So020MTRRefrigeratorAlarmB6BitmapV
++ _symbolic _____ So23MTRFanControlRockBitmapV
++ _symbolic _____ So35MTRLaundryDryerControlsDrynessLevelV
++ _symbolic _____ So38MTRLaundryWasherControlsNumberOfRinsesV
++ _symbolic _____ So6CGRectV
++ _symbolic _____ So6CGSizeV
++ _symbolic _____ So7CGPointV
++ _symbolic _____ So8_NSRangeV
++ _symbolic _____ s15SuspendingClockV
++ _symbolic _____11accessoryID_SSSg10identifierAA04homeB0t 10Foundation4UUIDV
++ _symbolic _____12dateInterval_Si5limitSb9ascendingSb16includeHeroFramet 10Foundation12DateIntervalV
++ _symbolic _____15cameraProfileID______9startDateAC06latestE0t 10Foundation4UUIDV AA4DateV
++ _symbolic _____2id_ScCyyt______pG12continuationt 10Foundation4UUIDV s5ErrorP
++ _symbolic _____2id______7element_____5startAE3endt 13HomeDataModel15ScrubberElementO2IDV AC 10Foundation4DateV
++ _symbolic _____3key_AA5valuet 10Foundation4UUIDV
++ _symbolic _____3key_SS5valuet 10Foundation4UUIDV
++ _symbolic _____3key_SS5valuetSg 10Foundation4UUIDV
++ _symbolic _____3key_Say_____G5valuet 10Foundation4UUIDV 13HomeDataModel17CameraEventRecordC
++ _symbolic _____3key_So15HMCameraProfileC5valuet 10Foundation4UUIDV
++ _symbolic _____3key_So15HMCameraProfileC5valuetSg 10Foundation4UUIDV
++ _symbolic _____3key______5valuet 10Foundation4UUIDV 13HomeDataModel12SearchResultV
++ _symbolic _____3key______5valuet 10Foundation4UUIDV 13HomeDataModel21MatterAttributePollerC18SubscriptionRecordV
++ _symbolic _____3key______5valuet 10Foundation4UUIDV AA4DataV
++ _symbolic _____3key______5valuet 10Foundation4UUIDV AA4DateV
++ _symbolic _____3key______5valuet 12HomeKitClips10CameraClipV2IDV AC
++ _symbolic _____3key______5valuet 13HomeDataModel15ScrubberElementO2IDV AC
++ _symbolic _____3key______5valuet 13HomeDataModel24MatterClusterAttributeIDV AA04MockdF5ValueO
++ _symbolic _____3key______5valuet s6UInt16V 13HomeDataModel34StaticElectricalMeterEndpointGroupV
++ _symbolic _____3key______5valuet s6UInt16V 13HomeDataModel38StaticMeterReferencePointEndpointGroupV
++ _symbolic _____3key______5valuetSg 10Foundation4UUIDV 13HomeDataModel12SearchResultV
++ _symbolic _____3key______5valuetSg 10Foundation4UUIDV AA4DataV
++ _symbolic _____3key______5valuetSg 12HomeKitClips10CameraClipV2IDV AC
++ _symbolic _____3key______6homeID_Shy_____G5pathst5valuet s6UInt64V 10Foundation4UUIDV 13HomeDataModel26MatterAttributeRequestPathV
++ _symbolic _____3key______y________G5valuet 10Foundation4UUIDV 13HomeDataModel6CameraO11EnvironmentO5StateC10ControllerC AD04LivefG0V
++ _symbolic _____3key______y________G5valuetSg 10Foundation4UUIDV 13HomeDataModel6CameraO11EnvironmentO5StateC10ControllerC AD04LivefG0V
++ _symbolic _____3key_yp5valuetSg 13HomeDataModel18CharacteristicKindO
++ _symbolic _____6clipID______10eventAssett 12HomeKitClips10CameraClipV2IDV AA0dE10EventAssetV
++ _symbolic _____6clipID______4datet 13HomeDataModel12CameraClipIDO 10Foundation4DateV
++ _symbolic _____6clipID_t 10Foundation4UUIDV
++ _symbolic _____6clipID_t 12HomeKitClips10CameraClipV2IDV
++ _symbolic _____6homeID_Shy_____G5pathst 10Foundation4UUIDV 13HomeDataModel26MatterAttributeRequestPathV
++ _symbolic _____6homeID______04nodeB0_____08endpointB0t 10Foundation4UUIDV s6UInt64V s6UInt16V
++ _symbolic _____6homeID______04nodeB0_____08endpointB0tSg 10Foundation4UUIDV s6UInt64V s6UInt16V
++ _symbolic _____6source_7Profile______15SnapshotControl_____0C0_____QZSg8snapshot______pSg5errort 13HomeDataModel6CameraO6SourceO AA0D19EnvironmentProviderP AA0D7ProfileP AA0D15SnapshotControlP s5ErrorP
++ _symbolic _____6source______5state7Profile______13StreamControl_____0D0_____QZSg6stream______pSg5errort 13HomeDataModel6CameraO6SourceO AC11StreamStateO AA0D19EnvironmentProviderP AA0D7ProfileP AA0dF7ControlP s5ErrorP
++ _symbolic _____7mfgCode_AA5valuet s6UInt16V
++ _symbolic _____8clipUUID______8heicDatat 10Foundation4UUIDV AA4DataV
++ _symbolic _____8sigEvent______8originalt 13HomeDataModel16SignificantEventV 0A8KitClips06CameradE0V
++ _symbolic _____9direction_SbSg4wrapAC9lowestOfft 13HomeDataModel23StaticFanControlClusterV13StepDirectionO
++ _symbolic _____Ieghn_Sg 13HomeDataModel6CameraO5EventO5FetchV6OutputV
++ _symbolic _____Sg 10Foundation16AttributedStringV
++ _symbolic _____Sg 10Foundation6LocaleV
++ _symbolic _____Sg 12HomeEnergyUI27UtilityRatesSnapshotManagerC
++ _symbolic _____Sg 12HomeKitClips10ImageAssetV11CropOptionsV
++ _symbolic _____Sg 12HomeKitClips11IndexedClipV
++ _symbolic _____Sg 12HomeKitClips15CameraDataStoreC11ChangeTokenV
++ _symbolic _____Sg 12HomeKitClips15CameraDataStoreC6ChangeO
++ _symbolic _____Sg 12HomeKitClips15PersonDataStoreC
++ _symbolic _____Sg 12HomeKitClips19CameraClipEmbeddingV
++ _symbolic _____Sg 12HomeKitClips5HKSV3V15CameraDataStoreC
++ _symbolic _____Sg 12HomeKitClips5HKSV3V15CameraRecordingV
++ _symbolic _____Sg 12HomeKitClips5HKSV3V15CameraRecordingV2IDV
++ _symbolic _____Sg 12HomeKitClips5HKSV3V22CameraDataStoreContextC
++ _symbolic _____Sg 12HomeKitClips5HKSV3V23CameraRecordingExporterC6ExportV8ProgressV
++ _symbolic _____Sg 13HomeDataModel07ClimateC0C10ThermostatC13ServiceConfigV
++ _symbolic _____Sg 13HomeDataModel07ClimateC0C10ThermostatC15WeekdayScheduleV
++ _symbolic _____Sg 13HomeDataModel07ClimateC0C10ThermostatC24CleanEnergySettingConfigV
++ _symbolic _____Sg 13HomeDataModel07ClimateC0C10ThermostatC24CleanEnergySettingConfigV0g10PeakSymbolI0V
++ _symbolic _____Sg 13HomeDataModel07ClimateC0C10ThermostatC25AdaptiveTemperatureConfigV
++ _symbolic _____Sg 13HomeDataModel07ClimateC0C10ThermostatC25AdaptiveTemperatureConfigV04RoomH0V
++ _symbolic _____Sg 13HomeDataModel07ClimateC0C10ThermostatC25AdaptiveTemperatureConfigV7SettingV
++ _symbolic _____Sg 13HomeDataModel0A11AppFeaturesO
++ _symbolic _____Sg 13HomeDataModel10CameraClipV
++ _symbolic _____Sg 13HomeDataModel12CameraClipIDO
++ _symbolic _____Sg 13HomeDataModel12SearchResultV
++ _symbolic _____Sg 13HomeDataModel14SearchResponseO
++ _symbolic _____Sg 13HomeDataModel15ClipSearchQueryO
++ _symbolic _____Sg 13HomeDataModel15EmbeddingRecordC
++ _symbolic _____Sg 13HomeDataModel15EmbeddingRecordC06_SwiftB6NoTypeV
++ _symbolic _____Sg 13HomeDataModel15ScrubberElementO2IDV
++ _symbolic _____Sg 13HomeDataModel17CameraEventRecordC
++ _symbolic _____Sg 13HomeDataModel17CameraEventRecordC06_SwiftB6NoTypeV
++ _symbolic _____Sg 13HomeDataModel18ClipDownloadResultV
++ _symbolic _____Sg 13HomeDataModel18MatterTileMetadataV
++ _symbolic _____Sg 13HomeDataModel21MatterAttributePollerC18SubscriptionRecordV
++ _symbolic _____Sg 13HomeDataModel22CameraFetchStateRecordC06_SwiftB6NoTypeV
++ _symbolic _____Sg 13HomeDataModel22SignificantEventRecordC06_SwiftB6NoTypeV
++ _symbolic _____Sg 13HomeDataModel23EnergyMeasurementStructV
++ _symbolic _____Sg 13HomeDataModel23StaticFanControlClusterV
++ _symbolic _____Sg 13HomeDataModel23StaticFanControlClusterV16AirflowDirectionO
++ _symbolic _____Sg 13HomeDataModel23StaticFanControlClusterV8RockModeV
++ _symbolic _____Sg 13HomeDataModel25CompoundCameraEventRecordC
++ _symbolic _____Sg 13HomeDataModel27CameraClipAssetLibraryCacheC
++ _symbolic _____Sg 13HomeDataModel27CameraEventFetchCoordinatorC
++ _symbolic _____Sg 13HomeDataModel27CumulativeEnergyResetStructV
++ _symbolic _____Sg 13HomeDataModel31StaticThermostatUIConfigClusterV
++ _symbolic _____Sg 13HomeDataModel31StaticThermostatUIConfigClusterV29ScheduleProgrammingVisibilityO
++ _symbolic _____Sg 13HomeDataModel34StaticElectricalMeterEndpointGroupV
++ _symbolic _____Sg 13HomeDataModel38StaticMeterReferencePointEndpointGroupV
++ _symbolic _____Sg 13HomeDataModel39StaticElectricalPowerMeasurementClusterV
++ _symbolic _____Sg 13HomeDataModel40StaticElectricalEnergyMeasurementClusterV
++ _symbolic _____Sg 13HomeDataModel6CameraO5EventO19PlaybackAssetResultO
++ _symbolic _____Sg 13HomeDataModel6CameraO5EventO20InitialFetchCompleteC
++ _symbolic _____Sg 13HomeDataModel6CameraO5EventO25FetchAndIndexDebugMetricsC
++ _symbolic _____Sg 13HomeDataModel6CameraO5EventO5FetchV6OutputV
++ _symbolic _____Sg 13HomeDataModel6CameraO5EventO8CoverageV9PredicateV
++ _symbolic _____Sg 16GenerativeModels29StringRenderedPromptSanitizerV10GuardrailsV
++ _symbolic _____Sg 9SwiftData19DefaultHistoryTokenV
++ _symbolic _____Sg So11CSUserQueryC13CoreSpotlightE9ResponsesV8ResponseO
++ _symbolic _____Sg So13CSSearchQueryC13CoreSpotlightE7ResultsV4ItemV
++ _symbolic _____Sg s15ContinuousClockV7InstantV
++ _symbolic _____Sg11latestToken_t 12HomeKitClips15CameraDataStoreC11ChangeTokenV
++ _symbolic _____Sg3key_SayAAG5valuet 10Foundation4UUIDV
++ _symbolic _____Sg5since_SiSg12resultsLimitSb15fetchAllChangest 12HomeKitClips15CameraDataStoreC11ChangeTokenV
++ _symbolic _____Sg8interval_Si5limitSb9ascendingt 10Foundation12DateIntervalV
++ _symbolic _____SgIeAgHr_ 13HomeDataModel6CameraO5EventO5FetchV6OutputV
++ _symbolic _____SgSg 13HomeDataModel6CameraO5EventO5FetchV6OutputV
++ _symbolic _____SgXw 13HomeDataModel010EnergyViewC0C
++ _symbolic _____SgXw 13HomeDataModel07ClimateC0C
++ _symbolic _____SgXw 13HomeDataModel07ClimateC0C10ThermostatC
++ _symbolic _____SgXw 13HomeDataModel21MatterAttributePollerC
++ _symbolic _____SgXwz_Xx 13HomeDataModel010EnergyViewC0C
++ _symbolic _____SgXwz_Xx 13HomeDataModel07ClimateC0C
++ _symbolic _____SgXwz_Xx 13HomeDataModel07ClimateC0C10ThermostatC
++ _symbolic _____SgXwz_Xx 13HomeDataModel21MatterAttributePollerC
++ _symbolic _____Sg_ABt 10Foundation16AttributedStringV
++ _symbolic _____Sg_ABt 12HomeKitClips15CameraDataStoreC11ChangeTokenV
++ _symbolic _____Sg_ABt 12HomeKitClips26FaceClassificationResolverC19PhotosPersonDataSetV
++ _symbolic _____Sg_ABt 12HomeKitClips5HKSV3V15CameraRecordingV
++ _symbolic _____Sg_ABt 13HomeDataModel07ClimateC0C10ThermostatC25AdaptiveTemperatureConfigV
++ _symbolic _____Sg_ABt 13HomeDataModel07ClimateC0C10ThermostatC25AdaptiveTemperatureConfigV04RoomH0V
++ _symbolic _____Sg_ABt 13HomeDataModel07ClimateC0C10ThermostatC25AdaptiveTemperatureConfigV7SettingV
++ _symbolic _____Sg_ABt 13HomeDataModel10CameraClipV
++ _symbolic _____Sg_ABt 13HomeDataModel12CameraClipIDO
++ _symbolic _____Sg_ABt 13HomeDataModel15ScrubberElementO2IDV
++ _symbolic _____Sg_ABt 13HomeDataModel22StaticBasicInfoClusterV
++ _symbolic _____Sg_ABt 13HomeDataModel23StaticFanControlClusterV
++ _symbolic _____Sg_ABt 13HomeDataModel31StaticThermostatUIConfigClusterV
++ _symbolic _____Sg_ABt 13HomeDataModel39StaticElectricalPowerMeasurementClusterV
++ _symbolic _____Sg_ABt 13HomeDataModel6CameraO5EventO19PlaybackAssetResultO
++ _symbolic _____Sg_ABt 13HomeDataModel6CameraO5EventO5FetchV6OutputV
++ _symbolic _____Sg_ABt s15ContinuousClockV7InstantV
++ _symbolic _____XDXMT 13HomeDataModel21MatterAttributePollerC
++ _symbolic _____XDXMT 13HomeDataModel27CameraClipAssetLibraryCacheC
++ _symbolic ______AAt 10Foundation4UUIDV
++ _symbolic ______AAt 13HomeDataModel12CameraClipIDO
++ _symbolic ______AAt 13HomeDataModel6CameraO5EventO19PlaybackAssetResultO
++ _symbolic ______AAt 13HomeDataModel6CameraO5EventO5FetchV4KindO
++ _symbolic ______AAt 13HomeDataModel6CameraO5EventO5FetchV6OutputV4KindO
++ _symbolic ______SDy_____y_________GSiGt 10Foundation4UUIDV 13HomeDataModel6CameraO5EventO5StoreC24FetchAndIndexCoordinatorC9QueryInfoV AH010PlaygroundH11EnvironmentV
++ _symbolic ______SSt 10Foundation4UUIDV
++ _symbolic ______SStSg 10Foundation4UUIDV
++ _symbolic ______Say_____Gt 10Foundation4UUIDV 12HomeKitClips10CameraClipV5MediaV5AssetV7SegmentV
++ _symbolic ______Say_____Gt 10Foundation4UUIDV 13HomeDataModel22CameraFetchStateRecordC12TimeIntervalV
++ _symbolic ______Say_____Gt s6UInt64V 13HomeDataModel26MatterAttributeRequestPathV
++ _symbolic ______So15HMCameraProfileCtSg 10Foundation4UUIDV
++ _symbolic __________IeghHrr_ 13HomeDataModel15ScrubberElementO2IDV AC
++ _symbolic __________Xj l9SwiftData07BackingB0_px5ModelRts_XPXGMq 04HomebD015EmbeddingRecordC
++ _symbolic __________Xj l9SwiftData07BackingB0_px5ModelRts_XPXGMq 04HomebD017CameraEventRecordC
++ _symbolic __________Xj l9SwiftData07BackingB0_px5ModelRts_XPXGMq 04HomebD022CameraFetchStateRecordC
++ _symbolic __________Xj l9SwiftData07BackingB0_px5ModelRts_XPXGMq 04HomebD022SignificantEventRecordC
++ _symbolic __________Xj l9SwiftData07BackingB0_px5ModelRts_XPXGMq 04HomebD025CompoundCameraEventRecordC
++ _symbolic ___________6homeID_Shy_____G5pathstt s6UInt64V 10Foundation4UUIDV 13HomeDataModel26MatterAttributeRequestPathV
++ _symbolic ________________pSgIegHnnr_ s6UInt64V 10Foundation4UUIDV 13HomeDataModel12MatterDeviceP
++ _symbolic ________________pSgIegHyno_ s6UInt64V 10Foundation4UUIDV 13HomeDataModel12MatterDeviceP
++ _symbolic ___________t 10Foundation4UUIDV 12HomeKitClips15CameraDataStoreC11ChangeTokenV
++ _symbolic ___________t 10Foundation4UUIDV 12HomeKitClips17CameraClipCaptionV
++ _symbolic ___________t 10Foundation4UUIDV 13HomeDataModel07ClimateE0C0C0C
++ _symbolic ___________t 10Foundation4UUIDV 13HomeDataModel12SearchResultV
++ _symbolic ___________t 10Foundation4UUIDV 13HomeDataModel17CameraEventRecordC
++ _symbolic ___________t 10Foundation4UUIDV 13HomeDataModel21MatterAttributePollerC18SubscriptionRecordV
++ _symbolic ___________t 10Foundation4UUIDV 13HomeDataModel6CameraO5EventO20InitialFetchCompleteC
++ _symbolic ___________t 10Foundation4UUIDV 13HomeDataModel6CameraO5EventO25FetchAndIndexDebugMetricsC0F6StatusV
++ _symbolic ___________t 10Foundation4UUIDV AA4DataV
++ _symbolic ___________t 12HomeKitClips10CameraClipV2IDV AA0dE9EmbeddingV
++ _symbolic ___________t 12HomeKitClips22CameraSignificantEventV2IDV 10Foundation4UUIDV
++ _symbolic ___________t 12HomeKitClips5HKSV3V22CameraRecordingSessionV2IDV AC0eF0V
++ _symbolic ___________t 13HomeDataModel15ScrubberElementO2IDV AA010CameraClipF0O
++ _symbolic ___________t 13HomeDataModel15ScrubberElementO2IDV AC
++ _symbolic ___________t s6UInt16V 13HomeDataModel18MatterTileMetadataV
++ _symbolic ___________t s6UInt16V 13HomeDataModel20StaticDeviceMetadataV
++ _symbolic ___________t s6UInt16V 13HomeDataModel34StaticElectricalMeterEndpointGroupV
++ _symbolic ___________t s6UInt16V 13HomeDataModel38StaticMeterReferencePointEndpointGroupV
++ _symbolic ___________tIeAgHr_ 13HomeDataModel15ScrubberElementO2IDV AC
++ _symbolic ___________tIeghHr_ 13HomeDataModel15ScrubberElementO2IDV AC
++ _symbolic ___________tSg 10Foundation4UUIDV 13HomeDataModel12SearchResultV
++ _symbolic ___________tSg 10Foundation4UUIDV AA4DataV
++ _symbolic ___________tSg 12HomeKitClips10CameraClipV AA0dE10EventAssetV
++ _symbolic ___________tSg 12HomeKitClips10CameraClipV2IDV AC
++ _symbolic ___________tSg 13HomeDataModel15ScrubberElementO2IDV AC
++ _symbolic ___________tSgIeAgHr_ 10Foundation4UUIDV AA4DataV
++ _symbolic ___________tSgSg 10Foundation4UUIDV AA4DataV
++ _symbolic ___________y________Gt 10Foundation4UUIDV 13HomeDataModel6CameraO11EnvironmentO5StateC10ControllerC AD04LivefG0V
++ _symbolic ___________y________Gt 10Foundation4UUIDV 13HomeDataModel6CameraO5EventO5StoreC7RequestV AH010PlaygroundH11EnvironmentV
++ _symbolic ___________y________GtSg 10Foundation4UUIDV 13HomeDataModel6CameraO11EnvironmentO5StateC10ControllerC AD04LivefG0V
++ _symbolic ___________y_________Gt 10Foundation4UUIDV 13HomeDataModel6CameraO5EventO5StoreC13MetadataStateV6WaiterV AH010PlaygroundH11EnvironmentV
++ _symbolic ______p 13HomeDataModel18SearchQueryAdapterP
++ _symbolic ______p 13HomeDataModel21CameraEventSearchableP
++ _symbolic ______p 13HomeDataModel28CameraClipAssetFetchExecutorP
++ _symbolic ______p 13HomeDataModel6CameraO5EventO15HistoryConsumerP
++ _symbolic ______p 9SwiftData13HistoryDeleteP
++ _symbolic ______p 9SwiftData13HistoryInsertP
++ _symbolic ______p 9SwiftData13HistoryUpdateP
++ _symbolic ______p 9SwiftData13ModelExecutorP
++ _symbolic ______p So14NSSecureCodingP
++ _symbolic ______pSg 10AppIntents27EntityIdentifierConvertibleP
++ _symbolic ______pSg 13HomeDataModel21CameraEventSearchableP
++ _symbolic ______pSgIeghg_Sg s5ErrorP
++ _symbolic ______pSg___________tYaYbc 13HomeDataModel12MatterDeviceP s6UInt64V 10Foundation4UUIDV
++ _symbolic ______pXp 13HomeDataModel14TileInfoBearerP
++ _symbolic ______p_AA_pt 13HomeDataModel20EndpointLikeProtocolP
++ _symbolic ______yptSg 13HomeDataModel18CharacteristicKindO
++ _symbolic _____m 12HomeKitClips15CameraDataStoreC
++ _symbolic _____m 12HomeKitClips15PersonDataStoreC
++ _symbolic _____m 12HomeKitClips5HKSV3V15CameraDataStoreC
++ _symbolic _____ySDy_____So21HMCameraStreamControlCG_G ScS12ContinuationV 13HomeDataModel6CameraO6SourceO
++ _symbolic _____ySDy_____So21HMCameraStreamControlCG_G ScS8IteratorV 13HomeDataModel6CameraO6SourceO
++ _symbolic _____ySDy_____So21HMCameraStreamControlCG__G ScS12ContinuationV11YieldResultO 13HomeDataModel6CameraO6SourceO
++ _symbolic _____ySDy_____So21HMCameraStreamControlCG__G ScS12ContinuationV15BufferingPolicyO 13HomeDataModel6CameraO6SourceO
++ _symbolic _____ySDy_____So23HMCameraSnapshotControlCG_G ScS12ContinuationV 13HomeDataModel6CameraO6SourceO
++ _symbolic _____ySDy_____So23HMCameraSnapshotControlCG_G ScS8IteratorV 13HomeDataModel6CameraO6SourceO
++ _symbolic _____ySDy_____So23HMCameraSnapshotControlCG__G ScS12ContinuationV11YieldResultO 13HomeDataModel6CameraO6SourceO
++ _symbolic _____ySDy_____So23HMCameraSnapshotControlCG__G ScS12ContinuationV15BufferingPolicyO 13HomeDataModel6CameraO6SourceO
++ _symbolic _____ySDy__________G_G ScG8IteratorV 10Foundation4UUIDV AC4DataV
++ _symbolic _____ySSSay_____GG s18_DictionaryStorageC 12HomeKitClips9DataStoreC
++ _symbolic _____ySSSg11energyUsage_AB12statusStringt_____G 11Observation12ObservationsV s5NeverO
++ _symbolic _____ySSSg11energyUsage_AB12statusStringt______G 11Observation12ObservationsV8IteratorV s5NeverO
++ _symbolic _____ySS_SDy__________GSgt_G ScG8IteratorV 10Foundation4UUIDV 13HomeDataModel12SearchResultV
++ _symbolic _____ySS______ySS______GtG s23_ContiguousArrayStorageC 13HomeDataModel20CameraClipAssetCacheC5EntryV 10Foundation3URLV
++ _symbolic _____ySay_____GG 15Synchronization5MutexVAARi_zrlE 13HomeDataModel15ScrubberElementO
++ _symbolic _____ySay_____GG 15Synchronization5MutexVAARi_zrlE 13HomeDataModel16SignificantEventV
++ _symbolic _____ySay_____GG s23_ContiguousArrayStorageC 12HomeKitClips10CameraClipV2IDV
++ _symbolic _____ySay_____GG s23_ContiguousArrayStorageC 13HomeDataModel15ScrubberElementO
++ _symbolic _____ySay_____GSSG s15LazyMapSequenceV 13HomeDataModel6CameraO5EventO8CoverageV8IntervalV
++ _symbolic _____ySay_____y_____GGG s23_ContiguousArrayStorageC s14PartialKeyPathC 13HomeDataModel15EmbeddingRecordC
++ _symbolic _____ySay_____y_____GGG s23_ContiguousArrayStorageC s14PartialKeyPathC 13HomeDataModel17CameraEventRecordC
++ _symbolic _____ySay_____y_____GGG s23_ContiguousArrayStorageC s14PartialKeyPathC 13HomeDataModel22CameraFetchStateRecordC
++ _symbolic _____ySay_____y_____GGG s23_ContiguousArrayStorageC s14PartialKeyPathC 13HomeDataModel25CompoundCameraEventRecordC
++ _symbolic _____ySbG 15Synchronization5MutexVAARi_zrlE
++ _symbolic _____ySbG 15Synchronization5_CellVAARi_zrlE
++ _symbolic _____ySbG_Xx 15Synchronization5MutexVAARi_zrlE
++ _symbolic _____yScCyyt_____GG s23_ContiguousArrayStorageC s5NeverO
++ _symbolic _____yScGySDy__________y________GGSgGAFG s23AsyncCompactMapSequenceV 10Foundation4UUIDV 13HomeDataModel6CameraO11EnvironmentO5StateC10ControllerC AF04LivejK0V
++ _symbolic _____yScGySDy__________y________GGSgGAF_G s23AsyncCompactMapSequenceV8IteratorV 10Foundation4UUIDV 13HomeDataModel6CameraO11EnvironmentO5StateC10ControllerC AH04LivekL0V
++ _symbolic _____yScSySDy_____Say_____GGGSDy_____SSGG s23AsyncCompactMapSequenceV 12HomeKitClips22CameraSignificantEventV2IDV AC0hiJ18FaceClassificationV 10Foundation4UUIDV
++ _symbolic _____yScSy_____GG 23AsyncAlgorithmsInternal0A24RemoveDuplicatesSequenceV 10Foundation4UUIDV
++ _symbolic _____yScSy_____y_________GGG 13HomeDataModel20AsyncBatchedSequenceV AA6CameraO11EnvironmentO5StateC10ControllerC10UpdateTypeO AA04LivegH0V
++ _symbolic _____yScSy_____y_________GGSayADG_____y_____GG 23AsyncAlgorithmsInternal0A29ChunksOfCountOrSignalSequenceV 13HomeDataModel6CameraO5EventO5StoreC24FetchAndIndexCoordinatorC0R6UpdateO AH010PlaygroundO11EnvironmentV AA0a5TimerI0V s15ContinuousClockV
++ _symbolic _____yScSy_____y_________GGSayADG_____y_____G_G 23AsyncAlgorithmsInternal0A29ChunksOfCountOrSignalSequenceV8IteratorV 13HomeDataModel6CameraO5EventO5StoreC24FetchAndIndexCoordinatorC0S6UpdateO AJ010PlaygroundP11EnvironmentV AA0a5TimerI0V s15ContinuousClockV
++ _symbolic _____yScSyytG_____G 23AsyncAlgorithmsInternal0A16DebounceSequenceV s15ContinuousClockV
++ _symbolic _____yScSyytG______G 23AsyncAlgorithmsInternal0A16DebounceSequenceV8IteratorV s15ContinuousClockV
++ _symbolic _____yShy_____GSSG s15LazyMapSequenceV 13HomeDataModel6CameraO5EventO8CoverageV8ResourceO
++ _symbolic _____yShy_____G_G ScS12ContinuationV 10Foundation4UUIDV
++ _symbolic _____yShy_____G_G ScS8IteratorV 10Foundation4UUIDV
++ _symbolic _____yShy_____G__G ScS12ContinuationV11YieldResultO 10Foundation4UUIDV
++ _symbolic _____yShy_____G__G ScS12ContinuationV15BufferingPolicyO 10Foundation4UUIDV
++ _symbolic _____ySi5token_SaySfG13decibelValuest__G ScS12ContinuationV15BufferingPolicyO
++ _symbolic _____ySi_____y_____Sg_GG s18_DictionaryStorageC ScS12ContinuationV 13HomeDataModel08WaveformE0V
++ _symbolic _____ySo10AVURLAssetCSaySo14AVAssetVariantCGG 12AVFoundation15AVAsyncPropertyC
++ _symbolic _____y_AAy______y_SbG_____y______y______y______y______GSdSgGABy_SdGGALGGADy_AFy_AI_____GABy_APGGG 10Foundation20PredicateExpressionsO11ConjunctionV AC5ValueV AC10ComparisonV AC11NilCoalesceV AC7KeyPathV AC8VariableV 13HomeDataModel17CameraEventRecordC AA4DateV
++ _symbolic _____y_AAy______y______y_Say_____GG_____y______y______GADGG_____y_AGy_AJ_____GACy_ANGGGAQG 10Foundation20PredicateExpressionsO11ConjunctionV AC16SequenceContainsV AC5ValueV AA4UUIDV AC7KeyPathV AC8VariableV 13HomeDataModel17CameraEventRecordC AC10ComparisonV AA4DateV
++ _symbolic _____y_AAy______y______y______y______GSiG_____y_SiGGABy_ACy_AF_____GAHy_AKGGG_____y_AAy_AAy_AHy_SbG_____y______y_ACy_AFSdSgGAHy_SdGGAVGGARy_ACy_AF_____GAHy_AZGGG_____y_ACy_AFSay_____GG_____y_AHy_SaySiGGACy_ADy_A4_GSiGGGGG 10Foundation20PredicateExpressionsO11ConjunctionV AC5EqualV AC7KeyPathV AC8VariableV 13HomeDataModel17CameraEventRecordC AC5ValueV AA4UUIDV AC11DisjunctionV AC10ComparisonV AC11NilCoalesceV AA4DateV AC21SequenceContainsWhereV AL011SignificantmN0C AC0vW0V
++ _symbolic _____y_AAy______y______y______y______GSiG_____y_SiGG_____y_ACy_AF_____GAHy_ALGGGAOG 10Foundation20PredicateExpressionsO11ConjunctionV AC5EqualV AC7KeyPathV AC8VariableV 13HomeDataModel17CameraEventRecordC AC5ValueV AC10ComparisonV AA4DateV
++ _symbolic _____y_Qo_ 12HomeKitClips15CameraDataStoreC12fetchChanges5since9including0g6NewestH5First12resultsLimit0g3AllH0QrAC11ChangeTokenVSg_AC0P4KindVSbSiSgSbtFQO
++ _symbolic _____y_Qo_ 12HomeKitClips15CameraDataStoreC16fetchClipCaption12dateInterval5limit9ascendingQr10Foundation04DateK0VSg_SiSbtFQO
++ _symbolic _____y_Qo_ 12HomeKitClips15CameraDataStoreC28fetchSignificantEventsStream4with16includeHeroFrame0L8FaceCropQrSayAA0dH5EventV2IDVG_S2btFQO
++ _symbolic _____y_Qo_13AsyncIteratorSciQx 12HomeKitClips15CameraDataStoreC11fetchAssets03forC7WithIDsQrSayAA0D4ClipV2IDVG_tFQO
++ _symbolic _____y_Qo_13AsyncIteratorSciQx 12HomeKitClips15CameraDataStoreC11fetchEvents12dateInterval5limit9ascendingQr10Foundation04DateJ0VSg_SiSbtFQO
++ _symbolic _____y_Qo_13AsyncIteratorSciQx 12HomeKitClips15CameraDataStoreC12fetchChanges5since9including0g6NewestH5First12resultsLimit0g3AllH0QrAC11ChangeTokenVSg_AC0P4KindVSbSiSgSbtFQO
++ _symbolic _____y_Qo_13AsyncIteratorSciQx 12HomeKitClips15CameraDataStoreC22fetchSignificantEvents12dateInterval5limit9ascending16includeHeroFrame0N8FaceCropQr10Foundation04DateK0VSg_SiS3btFQO
++ _symbolic _____y_Qo_13AsyncIteratorSciQx 12HomeKitClips15CameraDataStoreC28fetchSignificantEventsStream4with16includeHeroFrame0L8FaceCropQrSayAA0dH5EventV2IDVG_S2btFQO
++ _symbolic _____y_SSG 10Foundation20PredicateExpressionsO10NilLiteralV
++ _symbolic _____y_SaySiGG 10Foundation20PredicateExpressionsO5ValueV
++ _symbolic _____y_Say_____GG 10Foundation20PredicateExpressionsO5ValueV AA4UUIDV
++ _symbolic _____y_SdG 10Foundation20PredicateExpressionsO5ValueV
++ _symbolic _____y_SiG 10Foundation20PredicateExpressionsO5ValueV
++ _symbolic _____y___Qo_ 12HomeKitClips10CameraClipV5MediaV10DownloaderC14downloadImagesQryFQO
++ _symbolic _____y___Qo_13AsyncIteratorSciQx 12HomeKitClips10CameraClipV5MediaV10DownloaderC14downloadImagesQryFQO
++ _symbolic _____y_____2id_ScCyyt______pG12continuationtG s23_ContiguousArrayStorageC 10Foundation4UUIDV s5ErrorP
++ _symbolic _____y_____2id______7element_____5startAF3endtG s23_ContiguousArrayStorageC 13HomeDataModel15ScrubberElementO2IDV AE 10Foundation4DateV
++ _symbolic _____y_____3key______5valuetG s23_ContiguousArrayStorageC 13HomeDataModel15ScrubberElementO2IDV AE
++ _symbolic _____y_____8sigEvent______8originaltG s23_ContiguousArrayStorageC 13HomeDataModel16SignificantEventV 0D8KitClips06CameragH0V
++ _symbolic _____y_____ABG s18_DictionaryStorageC 10Foundation4UUIDV
++ _symbolic _____y_____G 10Foundation14SortDescriptorV 13HomeDataModel17CameraEventRecordC
++ _symbolic _____y_____G 13HomeDataModel12SingleStatusV AA016PowerMeasurementE4ItemV
++ _symbolic _____y_____G 13HomeDataModel21ClipSearchCoordinatorC AA013CoreSpotlightE8ProviderC
++ _symbolic _____y_____G 15Synchronization5MutexVAARi_zrlE 13HomeDataModel21MatterAttributePollerC5State33_9BDDA65ADEAF8DC0D353A26D172FE094LLV
++ _symbolic _____y_____G 19CollectionsInternal12_DequeBufferC 13HomeDataModel6CameraO5EventO5FetchV
++ _symbolic _____y_____G 23AsyncAlgorithmsInternal0A13TimerSequenceV s15ContinuousClockV
++ _symbolic _____y_____G 9SwiftData15FetchDescriptorV 04HomeB5Model06CameraC11StateRecordC
++ _symbolic _____y_____G 9SwiftData15FetchDescriptorV 04HomeB5Model17CameraEventRecordC
++ _symbolic _____y_____G 9SwiftData15FetchDescriptorV 04HomeB5Model22SignificantEventRecordC
++ _symbolic _____y_____G 9SwiftData16HistoryTombstoneV 04HomeB5Model17CameraEventRecordC
++ _symbolic _____y_____G 9SwiftData17HistoryDescriptorV AA07DefaultC11TransactionV
++ _symbolic _____y_____G 9SwiftData20DefaultHistoryDeleteV 04HomeB5Model17CameraEventRecordC
++ _symbolic _____y_____G 9SwiftData20DefaultHistoryInsertV 04HomeB5Model17CameraEventRecordC
++ _symbolic _____y_____G 9SwiftData20DefaultHistoryUpdateV 04HomeB5Model17CameraEventRecordC
++ _symbolic _____y_____G s11_SetStorageC 12HomeKitClips10CameraClipV2IDV
++ _symbolic _____y_____G s11_SetStorageC 13HomeDataModel12CameraClipIDO
++ _symbolic _____y_____G s11_SetStorageC 13HomeDataModel15ScrubberElementO2IDV
++ _symbolic _____y_____G s11_SetStorageC 13HomeDataModel16SignificantEventV6ReasonO
++ _symbolic _____y_____G s11_SetStorageC 13HomeDataModel21ReasonReplacementPairV
++ _symbolic _____y_____G s11_SetStorageC 13HomeDataModel26MatterAttributeRequestPathV
++ _symbolic _____y_____G s11_SetStorageC 9SwiftData20PersistentIdentifierV
++ _symbolic _____y_____G s11_SetStorageC So16NSURLResourceKeya
++ _symbolic _____y_____G s15CollectionOfOneV 13HomeDataModel07ClimateF0C10ThermostatC19WeekdayScheduleRuleV
++ _symbolic _____y_____G s15CollectionOfOneV 13HomeDataModel16SignificantEventV
++ _symbolic _____y_____G s15CollectionOfOneV 13HomeDataModel22CameraFetchStateRecordC12TimeIntervalV
++ _symbolic _____y_____G s22KeyedDecodingContainerV 13HomeDataModel015MatterAttributeE7BuilderO14NullCodingKeys33_83ADBD2535462EE3DCACA5EF8445F958LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 13HomeDataModel07ClimateF0C10ThermostatC15WeekdayScheduleV10CodingKeys33_A3C4427BE4B25BC593FA0FB40F4CFD42LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 13HomeDataModel07ClimateF0C10ThermostatC19WeekdayScheduleRuleV10CodingKeys33_A3C4427BE4B25BC593FA0FB40F4CFD42LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 13HomeDataModel07ClimateF0C10ThermostatC24CleanEnergySettingConfigV0j10PeakSymbolL0V10CodingKeys33_A3C4427BE4B25BC593FA0FB40F4CFD42LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 13HomeDataModel07ClimateF0C10ThermostatC24CleanEnergySettingConfigV10CodingKeys33_A3C4427BE4B25BC593FA0FB40F4CFD42LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 13HomeDataModel07ClimateF0C10ThermostatC25AdaptiveTemperatureConfigV04RoomK0V10CodingKeys33_A3C4427BE4B25BC593FA0FB40F4CFD42LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 13HomeDataModel07ClimateF0C10ThermostatC25AdaptiveTemperatureConfigV10CodingKeys33_A3C4427BE4B25BC593FA0FB40F4CFD42LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 13HomeDataModel07ClimateF0C10ThermostatC25AdaptiveTemperatureConfigV7SettingV10CodingKeys33_A3C4427BE4B25BC593FA0FB40F4CFD42LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 13HomeDataModel10StatusIconV0gH7Payload33_0BFD660224EF62AB138A8C6137AD949FLLO27AccessoryCategoryCodingKeysO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 13HomeDataModel13StaticClusterO20FanControlCodingKeys33_33FA28C341BB11C4E0C1667B9E3CF4F0LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 13HomeDataModel13StaticClusterO28ThermostatUIConfigCodingKeys33_33FA28C341BB11C4E0C1667B9E3CF4F0LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 13HomeDataModel13StaticClusterO36ElectricalPowerMeasurementCodingKeys33_33FA28C341BB11C4E0C1667B9E3CF4F0LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 13HomeDataModel13StaticClusterO37ElectricalEnergyMeasurementCodingKeys33_33FA28C341BB11C4E0C1667B9E3CF4F0LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 13HomeDataModel15AnyEndpointLikeV10CodingKeys33_E7F282E39A3517447FD3F2F63DCD5E2ALLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 13HomeDataModel15ClipSearchQueryO05QuickH10CodingKeys33_9BE605DB1D1CC00AD67F692EB48013FCLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 13HomeDataModel15ClipSearchQueryO10CodingKeys33_9BE605DB1D1CC00AD67F692EB48013FCLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 13HomeDataModel15ClipSearchQueryO18SemanticCodingKeys33_9BE605DB1D1CC00AD67F692EB48013FCLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 13HomeDataModel15EmbeddingRecordC7SegmentV10CodingKeys33_4284C791DF2076C8F7BCCB26564ABEABLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 13HomeDataModel20StaticEndpointGroupsV10CodingKeys33_5A65C71D1FA311484F5E7C4AD9485CC0LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 13HomeDataModel22CameraFetchStateRecordC12TimeIntervalV10CodingKeys33_C1B675806D8374A850FD5C24B1DF87D1LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 13HomeDataModel22MeasurementRangeStructV10CodingKeys33_2DA2D6452F74277896C9CEB55CE4DAF0LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 13HomeDataModel22ModeClusterSemanticTagO29ManufacturerDefinedCodingKeys33_5C3D8CE2C0B000791F2603DA87B01CD0LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 13HomeDataModel23EnergyMeasurementStructV10CodingKeys33_2DA2D6452F74277896C9CEB55CE4DAF0LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 13HomeDataModel23StaticFanControlClusterV10CodingKeys33_22548FF3F039657D169671B9957D212BLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 13HomeDataModel25HarmonicMeasurementStructV10CodingKeys33_2DA2D6452F74277896C9CEB55CE4DAF0LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 13HomeDataModel25HeroFrameImageBoundingBoxV10CodingKeys33_119A47AB499A1BE45D82A6EFEE09DBBCLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 13HomeDataModel25MeasurementAccuracyStructV10CodingKeys33_2DA2D6452F74277896C9CEB55CE4DAF0LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 13HomeDataModel27CumulativeEnergyResetStructV10CodingKeys33_2DA2D6452F74277896C9CEB55CE4DAF0LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 13HomeDataModel30MeasurementAccuracyRangeStructV10CodingKeys33_2DA2D6452F74277896C9CEB55CE4DAF0LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 13HomeDataModel31StaticThermostatUIConfigClusterV10CodingKeys33_6DA1AA96709E24270C96F666100294D4LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 13HomeDataModel34StaticElectricalMeterEndpointGroupV10CodingKeys33_A5A2CA519DF3F25FCACD95C50FE0717DLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 13HomeDataModel38StaticMeterReferencePointEndpointGroupV10CodingKeys33_9BCC8D9C627BECE702826BB8B1934155LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 13HomeDataModel39StaticElectricalPowerMeasurementClusterV10CodingKeys33_3490C75CA4BCA8C2FFC8BA433EC02536LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 13HomeDataModel40StaticElectricalEnergyMeasurementClusterV10CodingKeys33_0D504CD4E45FC7E1DF34EAE1D32794ADLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 13HomeDataModel015MatterAttributeE7BuilderO14NullCodingKeys33_83ADBD2535462EE3DCACA5EF8445F958LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 13HomeDataModel07ClimateF0C10ThermostatC15WeekdayScheduleV10CodingKeys33_A3C4427BE4B25BC593FA0FB40F4CFD42LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 13HomeDataModel07ClimateF0C10ThermostatC19WeekdayScheduleRuleV10CodingKeys33_A3C4427BE4B25BC593FA0FB40F4CFD42LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 13HomeDataModel07ClimateF0C10ThermostatC24CleanEnergySettingConfigV0j10PeakSymbolL0V10CodingKeys33_A3C4427BE4B25BC593FA0FB40F4CFD42LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 13HomeDataModel07ClimateF0C10ThermostatC24CleanEnergySettingConfigV10CodingKeys33_A3C4427BE4B25BC593FA0FB40F4CFD42LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 13HomeDataModel07ClimateF0C10ThermostatC25AdaptiveTemperatureConfigV04RoomK0V10CodingKeys33_A3C4427BE4B25BC593FA0FB40F4CFD42LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 13HomeDataModel07ClimateF0C10ThermostatC25AdaptiveTemperatureConfigV10CodingKeys33_A3C4427BE4B25BC593FA0FB40F4CFD42LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 13HomeDataModel07ClimateF0C10ThermostatC25AdaptiveTemperatureConfigV7SettingV10CodingKeys33_A3C4427BE4B25BC593FA0FB40F4CFD42LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 13HomeDataModel10StatusIconV0gH7Payload33_0BFD660224EF62AB138A8C6137AD949FLLO27AccessoryCategoryCodingKeysO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 13HomeDataModel13StaticClusterO20FanControlCodingKeys33_33FA28C341BB11C4E0C1667B9E3CF4F0LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 13HomeDataModel13StaticClusterO28ThermostatUIConfigCodingKeys33_33FA28C341BB11C4E0C1667B9E3CF4F0LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 13HomeDataModel13StaticClusterO36ElectricalPowerMeasurementCodingKeys33_33FA28C341BB11C4E0C1667B9E3CF4F0LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 13HomeDataModel13StaticClusterO37ElectricalEnergyMeasurementCodingKeys33_33FA28C341BB11C4E0C1667B9E3CF4F0LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 13HomeDataModel15AnyEndpointLikeV10CodingKeys33_E7F282E39A3517447FD3F2F63DCD5E2ALLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 13HomeDataModel15ClipSearchQueryO05QuickH10CodingKeys33_9BE605DB1D1CC00AD67F692EB48013FCLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 13HomeDataModel15ClipSearchQueryO10CodingKeys33_9BE605DB1D1CC00AD67F692EB48013FCLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 13HomeDataModel15ClipSearchQueryO18SemanticCodingKeys33_9BE605DB1D1CC00AD67F692EB48013FCLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 13HomeDataModel15EmbeddingRecordC7SegmentV10CodingKeys33_4284C791DF2076C8F7BCCB26564ABEABLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 13HomeDataModel20StaticEndpointGroupsV10CodingKeys33_5A65C71D1FA311484F5E7C4AD9485CC0LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 13HomeDataModel22CameraFetchStateRecordC12TimeIntervalV10CodingKeys33_C1B675806D8374A850FD5C24B1DF87D1LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 13HomeDataModel22MeasurementRangeStructV10CodingKeys33_2DA2D6452F74277896C9CEB55CE4DAF0LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 13HomeDataModel22ModeClusterSemanticTagO29ManufacturerDefinedCodingKeys33_5C3D8CE2C0B000791F2603DA87B01CD0LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 13HomeDataModel23EnergyMeasurementStructV10CodingKeys33_2DA2D6452F74277896C9CEB55CE4DAF0LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 13HomeDataModel23StaticFanControlClusterV10CodingKeys33_22548FF3F039657D169671B9957D212BLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 13HomeDataModel25HarmonicMeasurementStructV10CodingKeys33_2DA2D6452F74277896C9CEB55CE4DAF0LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 13HomeDataModel25HeroFrameImageBoundingBoxV10CodingKeys33_119A47AB499A1BE45D82A6EFEE09DBBCLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 13HomeDataModel25MeasurementAccuracyStructV10CodingKeys33_2DA2D6452F74277896C9CEB55CE4DAF0LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 13HomeDataModel27CumulativeEnergyResetStructV10CodingKeys33_2DA2D6452F74277896C9CEB55CE4DAF0LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 13HomeDataModel30MeasurementAccuracyRangeStructV10CodingKeys33_2DA2D6452F74277896C9CEB55CE4DAF0LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 13HomeDataModel31StaticThermostatUIConfigClusterV10CodingKeys33_6DA1AA96709E24270C96F666100294D4LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 13HomeDataModel34StaticElectricalMeterEndpointGroupV10CodingKeys33_A5A2CA519DF3F25FCACD95C50FE0717DLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 13HomeDataModel38StaticMeterReferencePointEndpointGroupV10CodingKeys33_9BCC8D9C627BECE702826BB8B1934155LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 13HomeDataModel39StaticElectricalPowerMeasurementClusterV10CodingKeys33_3490C75CA4BCA8C2FFC8BA433EC02536LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 13HomeDataModel40StaticElectricalEnergyMeasurementClusterV10CodingKeys33_0D504CD4E45FC7E1DF34EAE1D32794ADLLO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 10Foundation12DateIntervalV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 10Foundation4DataV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 12HomeKitClips11IndexedClipV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 12HomeKitClips15CameraDataStoreC10ChangeKindV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 12HomeKitClips17CameraClipCaptionV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 12HomeKitClips19CameraClipEmbeddingV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 12HomeKitClips22CameraSignificantEventV2IDV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 12HomeKitClips22CameraSignificantEventV6ReasonO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 12HomeKitClips5HKSV3V15CameraRecordingV2IDV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 12HomeKitClips5HKSV3V22CameraRecordingSessionV2IDV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 13HomeDataModel07ClimateF0C10ThermostatC19WeekdayScheduleRuleV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 13HomeDataModel07ClimateF0C10ThermostatC19WeekdayScheduleRuleV3DayO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 13HomeDataModel07ClimateF0C10ThermostatC25AdaptiveTemperatureConfigV04RoomK0V
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 13HomeDataModel12CameraClipIDO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 13HomeDataModel12SearchResultV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 13HomeDataModel12SearchResultV6AnchorV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 13HomeDataModel15EmbeddingRecordC7SegmentV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 13HomeDataModel15ScrubberElementO2IDV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 13HomeDataModel16SearchSuggestionV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 13HomeDataModel16SignificantEventV6ReasonO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 13HomeDataModel18ClipDownloadResultV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 13HomeDataModel21ReasonReplacementPairV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 13HomeDataModel22CameraFetchStateRecordC12TimeIntervalV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 13HomeDataModel22MeasurementRangeStructV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 13HomeDataModel25CameraEventStoreDebugInfoV10FetchStateV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 13HomeDataModel25HarmonicMeasurementStructV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 13HomeDataModel25MeasurementAccuracyStructV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 13HomeDataModel28SearchAutocompleteSuggestionV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 13HomeDataModel30MeasurementAccuracyRangeStructV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 13HomeDataModel34StaticElectricalMeterEndpointGroupV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 13HomeDataModel38StaticMeterReferencePointEndpointGroupV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 13HomeDataModel6CameraO5EventO14HistoryMessageO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 13HomeDataModel6CameraO5EventO5FetchV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 13HomeDataModel6CameraO5EventO5FetchV21HKSV3ThumbnailRequestV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 13HomeDataModel6CameraO5EventO5FetchV6OutputV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 13HomeDataModel6CameraO5EventO5FetchV6OutputV11AssetResultV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 13HomeDataModel6CameraO5EventO5FetchV6OutputV20HKSV3ThumbnailResultV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 13HomeDataModel6CameraO5EventO8CoverageV8IntervalV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 16GenerativeModels24SensitiveContentSettingsV9SanitizerV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 9SwiftData13HistoryChangeO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 9SwiftData18ModelConfigurationV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 9SwiftData6SchemaC16PropertyMetadataV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 9SwiftData6SchemaC9AttributeC6OptionV
++ _symbolic _____y_____GSgXw 13HomeDataModel08WaveformB8ProviderC AA18PowerSpectrumMeterC
++ _symbolic _____y_____GSgXw 13HomeDataModel16CameraEventCacheC AA30DefaultClipFetchingEnvironmentV
++ _symbolic _____y_____G_AAy_____GAAy_____G_____y_____yAAy_____G_QPGAIyAAy_____G_QPGGAAy_____GAAy_____GAAy_____G_____yAIyAAy_____G_QPGGAAy_____GAAy_____GAAy_____GAAy_____GAHyAIyAAy_____G_QPGAIyAAy_____G_QPGGAHyAIyAAy_____G_QPGAIyAAy_____G_QPGGAHyAIyAAy_____G_QPGAIyAAy_____G_QPGGAAy_____GAAy_____GAAy_____GAAy_____GAHyAIyAAy_____G_QPGAIyAAy_____G_QPGGAHyAIyAAy_____G_QPGAIyAAy_____G_QPGGAHyAIyAAy_____G_QPGAIyAAy_____G_QPGGAAy_____GAAy_____GAAy_____GAAy_____GAAy_____GAAy_____Gt 13HomeDataModel12SingleStatusV AA011TemperatureE4ItemV AA08HumidityeG0V AA010AirQualityeG0V AA011ConditionalE0V AA04PackE0V AA06BlindseG0V AA06ClosedmeG0V AA03FaneG0V AA0i8PurifiereG0V AA06VacuumeG0V AA08OptionalE0V AA016PowerMeasurementeG0V AA06LightseG0V AA06OutleteG0V AA011LightSensoreG0V AA08DoorLockeG0V AA06GarageyeG0V AA0n6GarageyeG0V AA0yeG0V AA0nyeG0V AA06WindoweG0V AA0n6WindoweG0V AA010SmokeAlarmeG0V AA018CarbonDioxideAlarmeG0V AA019CarbonMonoxideAlarmeG0V AA014SecuritySystemeG0V AA07ContactxeG0V AA011IdleContactxeG0V AA06MotionxeG0V AA010IdleMotionxeG0V AA09OccupancyxeG0V AA013IdleOccupancyxeG0V AA07SpeakereG0V AA010TelevisioneG0V AA09LeakAlarmeG0V AA010IrrigationeG0V AA06FauceteG0V AA09IdleAlarmeG0V
++ _symbolic _____y_____SDy_____y_________GSiGG s18_DictionaryStorageC 10Foundation4UUIDV 13HomeDataModel6CameraO5EventO5StoreC24FetchAndIndexCoordinatorC9QueryInfoV AJ010PlaygroundJ11EnvironmentV
++ _symbolic _____y_____SSG s18_DictionaryStorageC 10Foundation4UUIDV
++ _symbolic _____y_____SaySSGG 10Foundation15ListFormatStyleV AA06StringD0V
++ _symbolic _____y_____SaySSG_G 10Foundation15ListFormatStyleV0B4TypeO AA06StringD0V
++ _symbolic _____y_____SaySSG_G 10Foundation15ListFormatStyleV5WidthO AA06StringD0V
++ _symbolic _____y_____Say_____GG s18_DictionaryStorageC 10Foundation4UUIDV 12HomeKitClips10CameraClipV5MediaV5AssetV7SegmentV
++ _symbolic _____y_____Say_____GG s18_DictionaryStorageC 10Foundation4UUIDV 13HomeDataModel15ScrubberElementO2IDV
++ _symbolic _____y_____Say_____GG s18_DictionaryStorageC 10Foundation4UUIDV 13HomeDataModel17CameraEventRecordC
++ _symbolic _____y_____Say_____GG s18_DictionaryStorageC 10Foundation4UUIDV 13HomeDataModel22CameraFetchStateRecordC12TimeIntervalV
++ _symbolic _____y_____Say_____GG s18_DictionaryStorageC s6UInt64V 13HomeDataModel26MatterAttributeRequestPathV
++ _symbolic _____y_____Say_____G_G SD4KeysV 12HomeKitClips22CameraSignificantEventV2IDV AC0efG18FaceClassificationV
++ _symbolic _____y_____Say_____G_G SD5IndexV 12HomeKitClips22CameraSignificantEventV2IDV AC0efG18FaceClassificationV
++ _symbolic _____y_____SgG 15Synchronization5MutexVAARi_zrlE 12HomeKitClips15CameraDataStoreC11ChangeTokenV
++ _symbolic _____y_____SgG_Xx 15Synchronization5MutexVAARi_zrlE 12HomeKitClips15CameraDataStoreC11ChangeTokenV
++ _symbolic _____y_____SgSayABGG s18_DictionaryStorageC 10Foundation4UUIDV
++ _symbolic _____y_____Sg_G ScS8IteratorV 13HomeDataModel08WaveformC0V
++ _symbolic _____y_____Sg_GSg ScS12ContinuationV 13HomeDataModel08WaveformC0V
++ _symbolic _____y_____Sg__G ScS12ContinuationV11YieldResultO 13HomeDataModel08WaveformE0V
++ _symbolic _____y_____Sg__G ScS12ContinuationV15BufferingPolicyO 13HomeDataModel08WaveformE0V
++ _symbolic _____y_____So14HMCameraStreamCG s18_DictionaryStorageC 13HomeDataModel6CameraO6SourceO
++ _symbolic _____y_____So16HMCameraSnapshotCG s18_DictionaryStorageC 13HomeDataModel6CameraO6SourceO
++ _symbolic _____y_____So21HMCameraStreamControlCG s18_DictionaryStorageC 13HomeDataModel6CameraO6SourceO
++ _symbolic _____y_____So23HMCameraSnapshotControlCG s18_DictionaryStorageC 13HomeDataModel6CameraO6SourceO
++ _symbolic _____y______AAQo_ 9SwiftData15PersistentModelPAAE013createBackingB0QryAaBRd__lFZQO 04HomebD015EmbeddingRecordC
++ _symbolic _____y______AAQo_ 9SwiftData15PersistentModelPAAE013createBackingB0QryAaBRd__lFZQO 04HomebD017CameraEventRecordC
++ _symbolic _____y______AAQo_ 9SwiftData15PersistentModelPAAE013createBackingB0QryAaBRd__lFZQO 04HomebD022CameraFetchStateRecordC
++ _symbolic _____y______AAQo_ 9SwiftData15PersistentModelPAAE013createBackingB0QryAaBRd__lFZQO 04HomebD022SignificantEventRecordC
++ _symbolic _____y______AAQo_ 9SwiftData15PersistentModelPAAE013createBackingB0QryAaBRd__lFZQO 04HomebD025CompoundCameraEventRecordC
++ _symbolic _____y______G 10Foundation20PredicateExpressionsO5ValueV 9SwiftData19DefaultHistoryTokenV
++ _symbolic _____y______G 10Foundation20PredicateExpressionsO5ValueV AA4DateV
++ _symbolic _____y______G 10Foundation20PredicateExpressionsO5ValueV AA4UUIDV
++ _symbolic _____y______G 10Foundation20PredicateExpressionsO8VariableV 13HomeDataModel17CameraEventRecordC
++ _symbolic _____y______G 10Foundation20PredicateExpressionsO8VariableV 13HomeDataModel22CameraFetchStateRecordC
++ _symbolic _____y______G 10Foundation20PredicateExpressionsO8VariableV 13HomeDataModel22SignificantEventRecordC
++ _symbolic _____y______G 10Foundation20PredicateExpressionsO8VariableV 9SwiftData25DefaultHistoryTransactionV
++ _symbolic _____y______G 9SwiftData6SchemaC5IndexC 04HomeB5Model15EmbeddingRecordC
++ _symbolic _____y______G 9SwiftData6SchemaC5IndexC 04HomeB5Model17CameraEventRecordC
++ _symbolic _____y______G 9SwiftData6SchemaC5IndexC 04HomeB5Model22CameraFetchStateRecordC
++ _symbolic _____y______G 9SwiftData6SchemaC5IndexC 04HomeB5Model25CompoundCameraEventRecordC
++ _symbolic _____y______G 9SwiftData6SchemaC6UniqueC 04HomeB5Model15EmbeddingRecordC
++ _symbolic _____y______G 9SwiftData6SchemaC6UniqueC 04HomeB5Model17CameraEventRecordC
++ _symbolic _____y______G 9SwiftData6SchemaC6UniqueC 04HomeB5Model22CameraFetchStateRecordC
++ _symbolic _____y______G 9SwiftData6SchemaC6UniqueC 04HomeB5Model25CompoundCameraEventRecordC
++ _symbolic _____y______G ScS12ContinuationV 10Foundation4UUIDV
++ _symbolic _____y______G ScS12ContinuationV 13HomeDataModel15ClipSearchStateO
++ _symbolic _____y______G ScS12ContinuationV 13HomeDataModel16SignificantEventV
++ _symbolic _____y______G ScS12ContinuationV 13HomeDataModel6CameraO5EventO5FetchV6OutputV
++ _symbolic _____y______G ScS8IteratorV 12HomeKitClips5HKSV3V23CameraRecordingExporterC6ExportV8ProgressV
++ _symbolic _____y______G ScS8IteratorV 13HomeDataModel15ScrubberElementO
++ _symbolic _____y______G ScS8IteratorV 13HomeDataModel16SignificantEventV
++ _symbolic _____y______G ScS8IteratorV 13HomeDataModel6CameraO5EventO5FetchV6OutputV
++ _symbolic _____y______GSg ScS12ContinuationV 10Foundation4UUIDV
++ _symbolic _____y______GSg ScS12ContinuationV 13HomeDataModel15ScrubberElementO
++ _symbolic _____y______GSg_ADt ScS12ContinuationV 13HomeDataModel15ScrubberElementO
++ _symbolic _____y______QPG 10Foundation9PredicateV 13HomeDataModel17CameraEventRecordC
++ _symbolic _____y______QPG 10Foundation9PredicateV 13HomeDataModel22CameraFetchStateRecordC
++ _symbolic _____y______QPG 10Foundation9PredicateV 13HomeDataModel22SignificantEventRecordC
++ _symbolic _____y______QPG 10Foundation9PredicateV 13HomeDataModel25CompoundCameraEventRecordC
++ _symbolic _____y______QPG 10Foundation9PredicateV 9SwiftData25DefaultHistoryTransactionV
++ _symbolic _____y______QPGSg 10Foundation9PredicateV 13HomeDataModel17CameraEventRecordC
++ _symbolic _____y______QPGSg 10Foundation9PredicateV 13HomeDataModel22CameraFetchStateRecordC
++ _symbolic _____y______QPGSg 10Foundation9PredicateV 13HomeDataModel22SignificantEventRecordC
++ _symbolic _____y______QPGSg 10Foundation9PredicateV 13HomeDataModel25CompoundCameraEventRecordC
++ _symbolic _____y______QPGSg 10Foundation9PredicateV 9SwiftData25DefaultHistoryTransactionV
++ _symbolic _____y______Qo_ So20NSNotificationCenterC10FoundationE8messages2of3for10bufferSizeQr7SubjectQzSg_xmSitAbCE12AsyncMessageRzAIRLClFQO 13HomeDataModel0N14ContextDidSaveV
++ _symbolic _____y______Qo_13AsyncIteratorSciQx So20NSNotificationCenterC10FoundationE8messages2of3for10bufferSizeQr7SubjectQzSg_xmSitAbCE12AsyncMessageRzAIRLClFQO 13HomeDataModel0N14ContextDidSaveV
++ _symbolic _____y______SStG s23_ContiguousArrayStorageC 10Foundation4UUIDV
++ _symbolic _____y______Say_____GtG s23_ContiguousArrayStorageC s6UInt64V 13HomeDataModel26MatterAttributeRequestPathV
++ _symbolic _____y_______G 13HomeDataModel6CameraO5EventO06SingleD13FetchExecutorC AE010PlaygroundG11EnvironmentV
++ _symbolic _____y_______G 13HomeDataModel6CameraO5EventO5StoreC AE010PlaygroundF11EnvironmentV
++ _symbolic _____y_______G ScS12ContinuationV11TerminationO 10Foundation4UUIDV
++ _symbolic _____y_______G ScS12ContinuationV11YieldResultO 10Foundation4UUIDV
++ _symbolic _____y_______G ScS12ContinuationV11YieldResultO 13HomeDataModel15ClipSearchStateO
++ _symbolic _____y_______G ScS12ContinuationV11YieldResultO 13HomeDataModel16SignificantEventV
++ _symbolic _____y_______G ScS12ContinuationV11YieldResultO 13HomeDataModel6CameraO5EventO5FetchV6OutputV
++ _symbolic _____y_______G ScS12ContinuationV15BufferingPolicyO 10Foundation4UUIDV
++ _symbolic _____y_______G ScS12ContinuationV15BufferingPolicyO 13HomeDataModel15ClipSearchStateO
++ _symbolic _____y_______G ScS12ContinuationV15BufferingPolicyO 13HomeDataModel16SignificantEventV
++ _symbolic _____y_______G ScS12ContinuationV15BufferingPolicyO 13HomeDataModel6CameraO5EventO5FetchV6OutputV
++ _symbolic _____y_______GSg ScS12ContinuationV11YieldResultO 10Foundation4UUIDV
++ _symbolic _____y_______GSg ScS12ContinuationV11YieldResultO 13HomeDataModel15ScrubberElementO
++ _symbolic _____y_______GSgXw 13HomeDataModel6CameraO11EnvironmentO5StoreC AA04LivedE0V
++ _symbolic _____y_______GXDXMT 13HomeDataModel6CameraO5EventO06SingleD13FetchExecutorC AE010PlaygroundG11EnvironmentV
++ _symbolic _____y________G 13HomeDataModel6CameraO11EnvironmentO5StateC10ControllerC AA04LivedE0V
++ _symbolic _____y________G 13HomeDataModel6CameraO5EventO06SingleD13FetchExecutorC08MetadataG8Progress33_3FAEEAE9A5C03D25DCAFBB4B2A8909F4LLV AE010PlaygroundG11EnvironmentV
++ _symbolic _____y________G 13HomeDataModel6CameraO5EventO06SingleD13FetchExecutorC25HKSV3ThumbnailTaskOutcome33_743BAA55C410B8194B06414662F035CCLLV AE010PlaygroundG11EnvironmentV
++ _symbolic _____y________G 13HomeDataModel6CameraO5EventO5StoreC13CoverageStateV AE010PlaygroundF11EnvironmentV
++ _symbolic _____y________G 13HomeDataModel6CameraO5EventO5StoreC20WantedHeroFrameStateV AE010PlaygroundF11EnvironmentV
++ _symbolic _____y________G 13HomeDataModel6CameraO5EventO5StoreC24FetchAndIndexCoordinatorC AE010PlaygroundF11EnvironmentV
++ _symbolic _____y________G 13HomeDataModel6CameraO5EventO5StoreC5StateV AE010PlaygroundF11EnvironmentV
++ _symbolic _____y________G 13HomeDataModel6CameraO5EventO5StoreC6IntakeC AE010PlaygroundF11EnvironmentV
++ _symbolic _____y________G 13HomeDataModel6CameraO5EventO5StoreC7IndexerC AE010PlaygroundF11EnvironmentV
++ _symbolic _____y________G 13HomeDataModel6CameraO5EventO5StoreC7RequestV AE010PlaygroundF11EnvironmentV
++ _symbolic _____y________GIeAgHr_ 13HomeDataModel6CameraO11EnvironmentO5StateC10ControllerC AA04LivedE0V
++ _symbolic _____y________GIeAgHr_ 13HomeDataModel6CameraO5EventO06SingleD13FetchExecutorC25HKSV3ThumbnailTaskOutcome33_743BAA55C410B8194B06414662F035CCLLV AE010PlaygroundG11EnvironmentV
++ _symbolic _____y________GSg 13HomeDataModel6CameraO5EventO06SingleD13FetchExecutorC25HKSV3ThumbnailTaskOutcome33_743BAA55C410B8194B06414662F035CCLLV AE010PlaygroundG11EnvironmentV
++ _symbolic _____y________GSgXw 13HomeDataModel6CameraO11EnvironmentO5StateC10ControllerC AA04LivedE0V
++ _symbolic _____y________GXDXMT 13HomeDataModel6CameraO11EnvironmentO5StateC10ControllerC AA04LivedE0V
++ _symbolic _____y_________G 13HomeDataModel6CameraO11EnvironmentO5StateC10ControllerC10UpdateTypeO AA04LivedE0V
++ _symbolic _____y_________G 13HomeDataModel6CameraO11EnvironmentO5StateC10ControllerC7ContentO AA04LivedE0V
++ _symbolic _____y_________G 13HomeDataModel6CameraO5EventO5StoreC13MetadataStateV6WaiterV AE010PlaygroundF11EnvironmentV
++ _symbolic _____y_________G 13HomeDataModel6CameraO5EventO5StoreC24FetchAndIndexCoordinatorC08MetadataG6ResultV AE010PlaygroundF11EnvironmentV
++ _symbolic _____y_________G 13HomeDataModel6CameraO5EventO5StoreC24FetchAndIndexCoordinatorC0I6UpdateO AE010PlaygroundF11EnvironmentV
++ _symbolic _____y_________G 13HomeDataModel6CameraO5EventO5StoreC24FetchAndIndexCoordinatorC0ghI6UpdateO AE010PlaygroundF11EnvironmentV
++ _symbolic _____y_________G 13HomeDataModel6CameraO5EventO5StoreC24FetchAndIndexCoordinatorC9QueryInfoV AE010PlaygroundF11EnvironmentV
++ _symbolic _____y_________G 13HomeDataModel6CameraO5EventO5StoreC6IntakeC5InputO AE010PlaygroundF11EnvironmentV
++ _symbolic _____y_________GSg 13HomeDataModel6CameraO5EventO5StoreC24FetchAndIndexCoordinatorC08MetadataG6ResultV AE010PlaygroundF11EnvironmentV
++ _symbolic _____y_________GSg 13HomeDataModel6CameraO5EventO5StoreC24FetchAndIndexCoordinatorC0ghI6UpdateO AE010PlaygroundF11EnvironmentV
++ _symbolic _____y_________G_Sit 13HomeDataModel6CameraO5EventO5StoreC24FetchAndIndexCoordinatorC9QueryInfoV AE010PlaygroundF11EnvironmentV
++ _symbolic _____y__________6homeID_Shy_____G5pathstG s18_DictionaryStorageC s6UInt64V 10Foundation4UUIDV 13HomeDataModel26MatterAttributeRequestPathV
++ _symbolic _____y__________G 13HomeDataModel6CameraO5EventO5StoreC24FetchAndIndexCoordinatorC9QueryInfoV0G4KindO AE010PlaygroundF11EnvironmentV
++ _symbolic _____y__________G s18_DictionaryStorageC 10Foundation4UUIDV 12HomeKitClips15CameraDataStoreC11ChangeTokenV
++ _symbolic _____y__________G s18_DictionaryStorageC 10Foundation4UUIDV 12HomeKitClips17CameraClipCaptionV
++ _symbolic _____y__________G s18_DictionaryStorageC 10Foundation4UUIDV 13HomeDataModel07ClimateG0C0E0C
++ _symbolic _____y__________G s18_DictionaryStorageC 10Foundation4UUIDV 13HomeDataModel12SearchResultV
++ _symbolic _____y__________G s18_DictionaryStorageC 10Foundation4UUIDV 13HomeDataModel17CameraEventRecordC
++ _symbolic _____y__________G s18_DictionaryStorageC 10Foundation4UUIDV 13HomeDataModel21MatterAttributePollerC18SubscriptionRecordV
++ _symbolic _____y__________G s18_DictionaryStorageC 10Foundation4UUIDV 13HomeDataModel6CameraO5EventO20InitialFetchCompleteC
++ _symbolic _____y__________G s18_DictionaryStorageC 10Foundation4UUIDV 13HomeDataModel6CameraO5EventO25FetchAndIndexDebugMetricsC0H6StatusV
++ _symbolic _____y__________G s18_DictionaryStorageC 10Foundation4UUIDV AC4DataV
++ _symbolic _____y__________G s18_DictionaryStorageC 12HomeKitClips10CameraClipV2IDV AC0fG9EmbeddingV
++ _symbolic _____y__________G s18_DictionaryStorageC 12HomeKitClips10CameraClipV2IDV AE5MediaV5AssetV
++ _symbolic _____y__________G s18_DictionaryStorageC 12HomeKitClips22CameraSignificantEventV2IDV 10Foundation4UUIDV
++ _symbolic _____y__________G s18_DictionaryStorageC 12HomeKitClips5HKSV3V22CameraRecordingSessionV2IDV AE0gH0V
++ _symbolic _____y__________G s18_DictionaryStorageC 13HomeDataModel15ScrubberElementO2IDV AE
++ _symbolic _____y__________G s18_DictionaryStorageC 13HomeDataModel6CameraO6SourceO AE11StreamStateO
++ _symbolic _____y__________G s18_DictionaryStorageC s6UInt16V 13HomeDataModel18MatterTileMetadataV
++ _symbolic _____y__________G s18_DictionaryStorageC s6UInt16V 13HomeDataModel20StaticDeviceMetadataV
++ _symbolic _____y__________G s18_DictionaryStorageC s6UInt16V 13HomeDataModel34StaticElectricalMeterEndpointGroupV
++ _symbolic _____y__________G s18_DictionaryStorageC s6UInt16V 13HomeDataModel38StaticMeterReferencePointEndpointGroupV
++ _symbolic _____y__________G s18_DictionaryStorageC s6UInt64V 13HomeDataModel07ClimateF0C10ThermostatC
++ _symbolic _____y___________G SD6ValuesV s6UInt64V 13HomeDataModel18StaticMatterDeviceV
++ _symbolic _____y___________p_G Scs12ContinuationV 13HomeDataModel14SearchResponseO s5ErrorP
++ _symbolic _____y___________p_G Scs12ContinuationV 13HomeDataModel18ClipDownloadResultV s5ErrorP
++ _symbolic _____y___________p_G Scs8IteratorV 13HomeDataModel18ClipDownloadResultV s5ErrorP
++ _symbolic _____y___________p__G Scs12ContinuationV11TerminationO 13HomeDataModel18ClipDownloadResultV s5ErrorP
++ _symbolic _____y___________p__G Scs12ContinuationV11YieldResultO 13HomeDataModel012ClipDownloadC0V s5ErrorP
++ _symbolic _____y___________p__G Scs12ContinuationV11YieldResultO 13HomeDataModel14SearchResponseO s5ErrorP
++ _symbolic _____y___________p__G Scs12ContinuationV15BufferingPolicyO 13HomeDataModel14SearchResponseO s5ErrorP
++ _symbolic _____y___________p__G Scs12ContinuationV15BufferingPolicyO 13HomeDataModel18ClipDownloadResultV s5ErrorP
++ _symbolic _____y___________tG s23_ContiguousArrayStorageC 10Foundation4UUIDV 13HomeDataModel17CameraEventRecordC
++ _symbolic _____y___________tG s23_ContiguousArrayStorageC 10Foundation4UUIDV AC4DateV
++ _symbolic _____y___________tG s23_ContiguousArrayStorageC 12HomeKitClips10CameraClipV2IDV AC0gH9EmbeddingV
++ _symbolic _____y___________tG s23_ContiguousArrayStorageC 12HomeKitClips10CameraClipV2IDV AE
++ _symbolic _____y___________tG s23_ContiguousArrayStorageC 13HomeDataModel11ClusterKindO AC06StaticG0O
++ _symbolic _____y___________tG s23_ContiguousArrayStorageC 13HomeDataModel15ScrubberElementO2IDV AC010CameraClipI0O
++ _symbolic _____y___________tG s23_ContiguousArrayStorageC 13HomeDataModel15ScrubberElementO2IDV AE
++ _symbolic _____y___________tSg_G ScG8IteratorV 10Foundation4UUIDV AC4DataV
++ _symbolic _____y___________tyYaYbcG s23_ContiguousArrayStorageC 13HomeDataModel15ScrubberElementO2IDV AE
++ _symbolic _____y__________y_______GG s18_DictionaryStorageC 10Foundation4UUIDV 13HomeDataModel6CameraO5EventO06SingleH13FetchExecutorC AJ010PlaygroundK11EnvironmentV
++ _symbolic _____y__________y________GG s18_DictionaryStorageC 10Foundation4UUIDV 13HomeDataModel6CameraO11EnvironmentO5StateC10ControllerC AF04LivehI0V
++ _symbolic _____y__________y________GG s18_DictionaryStorageC 10Foundation4UUIDV 13HomeDataModel6CameraO5EventO5StoreC7RequestV AJ010PlaygroundJ11EnvironmentV
++ _symbolic _____y__________y_________GG s18_DictionaryStorageC 10Foundation4UUIDV 13HomeDataModel6CameraO5EventO5StoreC13MetadataStateV6WaiterV AJ010PlaygroundJ11EnvironmentV
++ _symbolic _____y_______y_______GACG 13HomeDataModel6CameraO5EventO16FetchCoordinatorC AE06SingledF8ExecutorC AE010PlaygroundF11EnvironmentV
++ _symbolic _____y______pG s23_ContiguousArrayStorageC 13HomeDataModel20EndpointLikeProtocolP
++ _symbolic _____y______pXpG s23_ContiguousArrayStorageC 9SwiftData15PersistentModelP
++ _symbolic _____y______pXpG s23_ContiguousArrayStorageC 9SwiftData15VersionedSchemaP
++ _symbolic _____y______y_ABy______y_SbG_____y______y______y______y______GSdSgGACy_SdGGAMGGAEy_AGy_AJ_____GACy_AQGGG_____y_AGy_AJSay_____GG_____y_ACy_SaySiGGAGy_AHy_AWGSiGGGG 10Foundation20PredicateExpressionsO11DisjunctionV AC11ConjunctionV AC5ValueV AC10ComparisonV AC11NilCoalesceV AC7KeyPathV AC8VariableV 13HomeDataModel17CameraEventRecordC AA4DateV AC21SequenceContainsWhereV AR011SignificantqR0C AC0tU0V
++ _symbolic _____y______y_SaySiGG_____y______y______GSiGG 10Foundation20PredicateExpressionsO16SequenceContainsV AC5ValueV AC7KeyPathV AC8VariableV 13HomeDataModel22SignificantEventRecordC
++ _symbolic _____y______y_Say_____GG_____y______y______GACGG 10Foundation20PredicateExpressionsO16SequenceContainsV AC5ValueV AA4UUIDV AC7KeyPathV AC8VariableV 13HomeDataModel17CameraEventRecordC
++ _symbolic _____y______y_Say_____GG_____y______y______GACGG 10Foundation20PredicateExpressionsO16SequenceContainsV AC5ValueV AA4UUIDV AC7KeyPathV AC8VariableV 13HomeDataModel22SignificantEventRecordC
++ _symbolic _____y______y_SbG_____y______y______y______y______GSdSgGABy_SdGGALGG 10Foundation20PredicateExpressionsO11ConjunctionV AC5ValueV AC10ComparisonV AC11NilCoalesceV AC7KeyPathV AC8VariableV 13HomeDataModel17CameraEventRecordC
++ _symbolic _____y______y_Shy_____GG_____y______y______GACGG 10Foundation20PredicateExpressionsO16SequenceContainsV AC5ValueV AA4UUIDV AC7KeyPathV AC8VariableV 13HomeDataModel17CameraEventRecordC
++ _symbolic _____y______y_Shy_____GG_____y______y______GACGG 10Foundation20PredicateExpressionsO16SequenceContainsV AC5ValueV AA4UUIDV AC7KeyPathV AC8VariableV 13HomeDataModel22CameraFetchStateRecordC
++ _symbolic _____y______y______GSSSgG 10Foundation20PredicateExpressionsO7KeyPathV AC8VariableV 13HomeDataModel17CameraEventRecordC
++ _symbolic _____y______y______GSay_____GG 10Foundation20PredicateExpressionsO7KeyPathV AC8VariableV 13HomeDataModel17CameraEventRecordC AH011SignificantkL0C
++ _symbolic _____y______y______GSbG 10Foundation20PredicateExpressionsO7KeyPathV AC8VariableV 13HomeDataModel17CameraEventRecordC
++ _symbolic _____y______y______GSdSgG 10Foundation20PredicateExpressionsO7KeyPathV AC8VariableV 13HomeDataModel17CameraEventRecordC
++ _symbolic _____y______y______GSiG 10Foundation20PredicateExpressionsO7KeyPathV AC8VariableV 13HomeDataModel17CameraEventRecordC
++ _symbolic _____y______y______GSiG 10Foundation20PredicateExpressionsO7KeyPathV AC8VariableV 13HomeDataModel22SignificantEventRecordC
++ _symbolic _____y______y______G_____G 10Foundation20PredicateExpressionsO7KeyPathV AC8VariableV 13HomeDataModel17CameraEventRecordC AA4DateV
++ _symbolic _____y______y______G_____G 10Foundation20PredicateExpressionsO7KeyPathV AC8VariableV 13HomeDataModel17CameraEventRecordC AA4UUIDV
++ _symbolic _____y______y______G_____G 10Foundation20PredicateExpressionsO7KeyPathV AC8VariableV 13HomeDataModel22CameraFetchStateRecordC AA4UUIDV
++ _symbolic _____y______y______G_____G 10Foundation20PredicateExpressionsO7KeyPathV AC8VariableV 13HomeDataModel22SignificantEventRecordC AA4UUIDV
++ _symbolic _____y______y______G_____G 10Foundation20PredicateExpressionsO7KeyPathV AC8VariableV 9SwiftData25DefaultHistoryTransactionV AH0iJ5TokenV
++ _symbolic _____y______y______Qo_13AsyncIteratorSciQxG 13HomeDataModel27CameraEventStoreObservationV8IteratorV So20NSNotificationCenterC10FoundationE8messages2of3for10bufferSizeQr7SubjectQzSg_xmSitAgHE12AsyncMessageRzANRLClFQO AA0C14ContextDidSaveV
++ _symbolic _____y______y______y_Say_____GG_____y______y______GADGG_____y_AGy_AJSSSgG_____y_SSGGG 10Foundation20PredicateExpressionsO11ConjunctionV AC16SequenceContainsV AC5ValueV AA4UUIDV AC7KeyPathV AC8VariableV 13HomeDataModel17CameraEventRecordC AC5EqualV AC10NilLiteralV
++ _symbolic _____y______y______y_Say_____GG_____y______y______GADGG_____y_AGy_AJ_____GACy_ANGGG 10Foundation20PredicateExpressionsO11ConjunctionV AC16SequenceContainsV AC5ValueV AA4UUIDV AC7KeyPathV AC8VariableV 13HomeDataModel17CameraEventRecordC AC10ComparisonV AA4DateV
++ _symbolic _____y______y______y______GSSSgG_____y_SSGG 10Foundation20PredicateExpressionsO5EqualV AC7KeyPathV AC8VariableV 13HomeDataModel17CameraEventRecordC AC10NilLiteralV
++ _symbolic _____y______y______y______GSay_____GG_____y______y_SaySiGGABy_ACy_AFGSiGGG 10Foundation20PredicateExpressionsO21SequenceContainsWhereV AC7KeyPathV AC8VariableV 13HomeDataModel17CameraEventRecordC AJ011SignificantnO0C AC0dE0V AC5ValueV
++ _symbolic _____y______y______y______GSbGAFG 10Foundation20PredicateExpressionsO11ConjunctionV AC7KeyPathV AC8VariableV 13HomeDataModel17CameraEventRecordC
++ _symbolic _____y______y______y______GSbGG 10Foundation20PredicateExpressionsO8NegationV AC7KeyPathV AC8VariableV 13HomeDataModel17CameraEventRecordC
++ _symbolic _____y______y______y______GSdSgG_____y_SdGG 10Foundation20PredicateExpressionsO11NilCoalesceV AC7KeyPathV AC8VariableV 13HomeDataModel17CameraEventRecordC AC5ValueV
++ _symbolic _____y______y______y______GSiG_____y_SiGG 10Foundation20PredicateExpressionsO5EqualV AC7KeyPathV AC8VariableV 13HomeDataModel17CameraEventRecordC AC5ValueV
++ _symbolic _____y______y______y______G_____G_____y_AFGG 10Foundation20PredicateExpressionsO10ComparisonV AC7KeyPathV AC8VariableV 13HomeDataModel17CameraEventRecordC AA4DateV AC5ValueV
++ _symbolic _____y______y______y______G_____G_____y_AFGG 10Foundation20PredicateExpressionsO10ComparisonV AC7KeyPathV AC8VariableV 9SwiftData25DefaultHistoryTransactionV AJ0jK5TokenV AC5ValueV
++ _symbolic _____y______y______y______G_____G_____y_AFGG 10Foundation20PredicateExpressionsO5EqualV AC7KeyPathV AC8VariableV 13HomeDataModel17CameraEventRecordC AA4UUIDV AC5ValueV
++ _symbolic _____y______y______y______G_____G_____y_AFGG 10Foundation20PredicateExpressionsO5EqualV AC7KeyPathV AC8VariableV 13HomeDataModel22CameraFetchStateRecordC AA4UUIDV AC5ValueV
++ _symbolic _____y______y______y______y______GSdSgG_____y_SdGGAJG 10Foundation20PredicateExpressionsO10ComparisonV AC11NilCoalesceV AC7KeyPathV AC8VariableV 13HomeDataModel17CameraEventRecordC AC5ValueV
++ _symbolic _____y______y______y______y______GSiG_____y_SiGGABy_ACy_AF_____GAHy_AKGGG 10Foundation20PredicateExpressionsO11ConjunctionV AC5EqualV AC7KeyPathV AC8VariableV 13HomeDataModel17CameraEventRecordC AC5ValueV AA4UUIDV
++ _symbolic _____y______y______y______y______GSiG_____y_SiGG_____y_AAy_AAy_AHy_SbG_____y______y_ACy_AFSdSgGAHy_SdGGAQGGAMy_ACy_AF_____GAHy_AUGGG_____y_ACy_AFSay_____GG_____y_AHy_SaySiGGACy_ADy_A_GSiGGGGG 10Foundation20PredicateExpressionsO11ConjunctionV AC5EqualV AC7KeyPathV AC8VariableV 13HomeDataModel17CameraEventRecordC AC5ValueV AC11DisjunctionV AC10ComparisonV AC11NilCoalesceV AA4DateV AC21SequenceContainsWhereV AL011SignificantmN0C AC0uV0V
++ _symbolic _____y______y______y______y______GSiG_____y_SiGG_____y_ACy_AF_____GAHy_ALGGG 10Foundation20PredicateExpressionsO11ConjunctionV AC5EqualV AC7KeyPathV AC8VariableV 13HomeDataModel17CameraEventRecordC AC5ValueV AC10ComparisonV AA4DateV
++ _symbolic _____y______y______y______y______G_____G_____y_AGGGABy_ACy_AFSSSgG_____y_SSGGG 10Foundation20PredicateExpressionsO11ConjunctionV AC5EqualV AC7KeyPathV AC8VariableV 13HomeDataModel17CameraEventRecordC AA4UUIDV AC5ValueV AC10NilLiteralV
++ _symbolic _____y______y______y______y______G_____G_____y_AGGG_____y_ACy_AFSbGGG 10Foundation20PredicateExpressionsO11ConjunctionV AC5EqualV AC7KeyPathV AC8VariableV 13HomeDataModel17CameraEventRecordC AA4UUIDV AC5ValueV AC8NegationV
++ _symbolic _____y_____yScSy_____y_________GGGSay_____y_AD___GG______SgtG s16AsyncMapSequenceV 13HomeDataModel0a7BatchedC0V AC6CameraO11EnvironmentO5StateC10ControllerC10UpdateTypeO AC04LivehI0V AM7ContentO AG4ModeO
++ _symbolic _____y_____yScSy_____y_________GGGSay_____y_AD___GG______Sgt_G s16AsyncMapSequenceV8IteratorV 13HomeDataModel0a7BatchedC0V AE6CameraO11EnvironmentO5StateC10ControllerC10UpdateTypeO AE04LiveiJ0V AO7ContentO AI4ModeO
++ _symbolic _____y_____y_____GG s23_ContiguousArrayStorageC 10Foundation14SortDescriptorV 13HomeDataModel17CameraEventRecordC
++ _symbolic _____y_____y_____G_ABy_____GABy_____G_____yAAyABy_____G_QPGAAyABy_____G_QPGGABy_____GABy_____GABy_____G_____yAAyABy_____G_QPGGABy_____GABy_____GABy_____GABy_____GAIyAAyABy_____G_QPGAAyABy_____G_QPGGAIyAAyABy_____G_QPGAAyABy_____G_QPGGAIyAAyABy_____G_QPGAAyABy_____G_QPGGABy_____GABy_____GABy_____GABy_____GAIyAAyABy_____G_QPGAAyABy_____G_QPGGAIyAAyABy_____G_QPGAAyABy_____G_QPGGAIyAAyABy_____G_QPGAAyABy_____G_QPGGABy_____GABy_____GABy_____GABy_____GABy_____GABy_____GQPG 13HomeDataModel10PackStatusV AA06SingleE0V AA011TemperatureE4ItemV AA08HumidityeH0V AA010AirQualityeH0V AA011ConditionalE0V AA06BlindseH0V AA06ClosedmeH0V AA03FaneH0V AA0j8PurifiereH0V AA06VacuumeH0V AA08OptionalE0V AA016PowerMeasurementeH0V AA06LightseH0V AA06OutleteH0V AA011LightSensoreH0V AA08DoorLockeH0V AA06GarageyeH0V AA0n6GarageyeH0V AA0yeH0V AA0nyeH0V AA06WindoweH0V AA0n6WindoweH0V AA010SmokeAlarmeH0V AA018CarbonDioxideAlarmeH0V AA019CarbonMonoxideAlarmeH0V AA014SecuritySystemeH0V AA07ContactxeH0V AA011IdleContactxeH0V AA06MotionxeH0V AA010IdleMotionxeH0V AA09OccupancyxeH0V AA013IdleOccupancyxeH0V AA07SpeakereH0V AA010TelevisioneH0V AA09LeakAlarmeH0V AA010IrrigationeH0V AA06FauceteH0V AA09IdleAlarmeH0V
++ _symbolic _____y_____y_____G_QPG 13HomeDataModel10PackStatusV AA06SingleE0V AA016PowerMeasurementE4ItemV
++ _symbolic _____y_____y_____Sg_GG 2os21OSAllocatedUnfairLockV 13HomeDataModel8StreamedV5StateV AD08WaveformF0V
++ _symbolic _____y_____y_____Sg_G_____G s13ManagedBufferCsRi__rlE 13HomeDataModel8StreamedV5StateV AC08WaveformD0V So16os_unfair_lock_sV
++ _symbolic _____y_____y_____Sg_____GSDy_____So15HMCameraProfileCG_G s16AsyncMapSequenceV8IteratorV 11Observation12ObservationsV 13HomeDataModel06CameraH6Update33_71B0E2ED001530F092AC720882FE6BFCLLV s5NeverO 10Foundation4UUIDV
++ _symbolic _____y_____y________GG 15Synchronization5MutexVAARi_zrlE 13HomeDataModel6CameraO5EventO06SingleF13FetchExecutorC08MetadataI8Progress33_3FAEEAE9A5C03D25DCAFBB4B2A8909F4LLV AH010PlaygroundI11EnvironmentV
++ _symbolic _____y_____y________GG 15Synchronization5MutexVAARi_zrlE 13HomeDataModel6CameraO5EventO5StoreC5StateV AH010PlaygroundH11EnvironmentV
++ _symbolic _____y_____y________GG s23_ContiguousArrayStorageC 13HomeDataModel6CameraO5EventO06SingleG13FetchExecutorC25HKSV3ThumbnailTaskOutcome33_743BAA55C410B8194B06414662F035CCLLV AG010PlaygroundJ11EnvironmentV
++ _symbolic _____y_____y________G_G ScG8IteratorV 13HomeDataModel6CameraO11EnvironmentO5StateC10ControllerC AC04LiveeF0V
++ _symbolic _____y_____y_________GG s23_ContiguousArrayStorageC 13HomeDataModel6CameraO11EnvironmentO5StateC10ControllerC7ContentO AC04LivegH0V
++ _symbolic _____y_____y_________GG s23_ContiguousArrayStorageC 13HomeDataModel6CameraO5EventO5StoreC24FetchAndIndexCoordinatorC9QueryInfoV AG010PlaygroundI11EnvironmentV
++ _symbolic _____y_____y_________GSiG s18_DictionaryStorageC 13HomeDataModel6CameraO5EventO5StoreC24FetchAndIndexCoordinatorC9QueryInfoV AG010PlaygroundH11EnvironmentV
++ _symbolic _____y_____y_________G_G ScS12ContinuationV 13HomeDataModel6CameraO11EnvironmentO5StateC10ControllerC10UpdateTypeO AC04LiveeF0V
++ _symbolic _____y_____y_________G_G ScS12ContinuationV 13HomeDataModel6CameraO5EventO5StoreC24FetchAndIndexCoordinatorC0J6UpdateO AG010PlaygroundG11EnvironmentV
++ _symbolic _____y_____y_________G_G ScS12ContinuationV 13HomeDataModel6CameraO5EventO5StoreC24FetchAndIndexCoordinatorC0hiJ6UpdateO AG010PlaygroundG11EnvironmentV
++ _symbolic _____y_____y_________G_G ScS12ContinuationV 13HomeDataModel6CameraO5EventO5StoreC6IntakeC5InputO AG010PlaygroundG11EnvironmentV
++ _symbolic _____y_____y_________G_G ScS8IteratorV 13HomeDataModel6CameraO5EventO5StoreC24FetchAndIndexCoordinatorC0hiJ6UpdateO AG010PlaygroundG11EnvironmentV
++ _symbolic _____y_____y_________G_GIeghHn_ ScS12ContinuationV 13HomeDataModel6CameraO5EventO5StoreC24FetchAndIndexCoordinatorC0hiJ6UpdateO AG010PlaygroundG11EnvironmentV
++ _symbolic _____y_____y_________G__G ScS12ContinuationV11TerminationO 13HomeDataModel6CameraO5EventO5StoreC24FetchAndIndexCoordinatorC0ijK6UpdateO AI010PlaygroundH11EnvironmentV
++ _symbolic _____y_____y_________G__G ScS12ContinuationV11YieldResultO 13HomeDataModel6CameraO11EnvironmentO5StateC10ControllerC10UpdateTypeO AE04LivegH0V
++ _symbolic _____y_____y_________G__G ScS12ContinuationV11YieldResultO 13HomeDataModel6CameraO5EventO5StoreC24FetchAndIndexCoordinatorC0L6UpdateO AI010PlaygroundI11EnvironmentV
++ _symbolic _____y_____y_________G__G ScS12ContinuationV11YieldResultO 13HomeDataModel6CameraO5EventO5StoreC24FetchAndIndexCoordinatorC0jkL6UpdateO AI010PlaygroundI11EnvironmentV
++ _symbolic _____y_____y_________G__G ScS12ContinuationV15BufferingPolicyO 13HomeDataModel6CameraO11EnvironmentO5StateC10ControllerC10UpdateTypeO AE04LivegH0V
++ _symbolic _____y_____y_________G__G ScS12ContinuationV15BufferingPolicyO 13HomeDataModel6CameraO5EventO5StoreC24FetchAndIndexCoordinatorC0L6UpdateO AI010PlaygroundI11EnvironmentV
++ _symbolic _____y_____y_________G__G ScS12ContinuationV15BufferingPolicyO 13HomeDataModel6CameraO5EventO5StoreC24FetchAndIndexCoordinatorC0jkL6UpdateO AI010PlaygroundI11EnvironmentV
++ _symbolic _____y_____y___________GG s18LazyFilterSequenceV SD6ValuesV s6UInt64V 13HomeDataModel18StaticMatterDeviceV
++ _symbolic _____y_____y_____y_____G_QPGG 13HomeDataModel14OptionalStatusV AA04PackE0V AA06SingleE0V AA016PowerMeasurementE4ItemV
++ _symbolic _____y_____y__x_GG____________RzlXX 15Synchronization5MutexVAARi_zrlE 13HomeDataModel6CameraO5EventO06SingleF13FetchExecutorC08MetadataI8Progress33_3FAEEAE9A5C03D25DCAFBB4B2A8909F4LLV AH010PlaygroundI11EnvironmentV AH0iV0P
++ _symbolic _____y_____y__x_GG_x______RzlXX 15Synchronization5MutexVAARi_zrlE 13HomeDataModel6CameraO5EventO06SingleF13FetchExecutorC08MetadataI8Progress33_3FAEEAE9A5C03D25DCAFBB4B2A8909F4LLV AH0I11EnvironmentP
++ _symbolic _____y_____y__x__G_G ScS12ContinuationV 13HomeDataModel6CameraO5EventO5StoreC24FetchAndIndexCoordinatorC0J6UpdateO
++ _symbolic _____y_____y__x__G_G ScS12ContinuationV 13HomeDataModel6CameraO5EventO5StoreC24FetchAndIndexCoordinatorC0hiJ6UpdateO
++ _symbolic _____y_____y__x__G_G ScS12ContinuationV 13HomeDataModel6CameraO5EventO5StoreC6IntakeC5InputO
++ _symbolic _____y_____y__x__G_GIeghHn_ ScS12ContinuationV 13HomeDataModel6CameraO5EventO5StoreC24FetchAndIndexCoordinatorC0hiJ6UpdateO
++ _symbolic _____y_____y__x__G_GSg ScS12ContinuationV 13HomeDataModel6CameraO5EventO5StoreC6IntakeC5InputO
++ _symbolic _____y_____yx_____yq_GGSaySay_____GG_G s16AsyncMapSequenceV8IteratorV 0A18AlgorithmsInternal0a14CombineLatest2C0V 13HomeDataModel0a7PrependC0V AH15ScrubberElementO
++ _symbolic _____y__xG 13HomeDataModel6CameraO5EventO06SingleD13FetchExecutorC
++ _symbolic _____y__xG 13HomeDataModel6CameraO5EventO5StoreC
++ _symbolic _____y__xGSgXw 13HomeDataModel6CameraO5EventO5StoreC
++ _symbolic _____y__xGSgXwz_x______RzlXX 13HomeDataModel6CameraO5EventO5StoreC AE0F11EnvironmentP
++ _symbolic _____y__xGXDXMT 13HomeDataModel6CameraO5EventO06SingleD13FetchExecutorC
++ _symbolic _____y__x_G 13HomeDataModel6CameraO5EventO06SingleD13FetchExecutorC25HKSV3ThumbnailTaskOutcome33_743BAA55C410B8194B06414662F035CCLLV
++ _symbolic _____y__x_G 13HomeDataModel6CameraO5EventO5StoreC13CoverageStateV
++ _symbolic _____y__x_G 13HomeDataModel6CameraO5EventO5StoreC24FetchAndIndexCoordinatorC
++ _symbolic _____y__x_G 13HomeDataModel6CameraO5EventO5StoreC6IntakeC
++ _symbolic _____y__x_G 13HomeDataModel6CameraO5EventO5StoreC7IndexerC
++ _symbolic _____y__x_G 13HomeDataModel6CameraO5EventO5StoreC7RequestV
++ _symbolic _____y__x_GSg 13HomeDataModel6CameraO5EventO5StoreC6IntakeC
++ _symbolic _____y__x_GSg 13HomeDataModel6CameraO5EventO5StoreC7IndexerC
++ _symbolic _____y__x__G 13HomeDataModel6CameraO5EventO5StoreC6IntakeC5InputO
++ _symbolic _____y__x___G 13HomeDataModel6CameraO5EventO5StoreC24FetchAndIndexCoordinatorC9QueryInfoV0G4KindO
++ _symbolic _____y_x_GSgXwz____________RzlXX 13HomeDataModel6CameraO11EnvironmentO5StoreC AA04LivedE0V AA0dE8ProviderP
++ _symbolic _____y_x__GSgXwz____________RzlXX 13HomeDataModel6CameraO11EnvironmentO5StateC10ControllerC AA04LivedE0V AA0dE8ProviderP
++ _symbolic _____y_x__GSgXwz____________y_____yScSy_____y_AD___GGGSay_____y_AD___GG______SgtG_____RzSciRd__SayAKy_x___GG_AOt7ElementSciRtd_______7FailureSciRtd__r__lXX 13HomeDataModel6CameraO11EnvironmentO5StateC10ControllerC AA04LivedE0V s16AsyncMapSequenceV AA0i7BatchedK0V AI10UpdateTypeO AI7ContentO AC4ModeO AA0dE8ProviderP s5NeverO
++ _symbolic _____y_x___G 13HomeDataModel6CameraO11EnvironmentO5StateC10ControllerC5RulesV
++ _symbolic _____yxG 13HomeDataModel21ClipSearchCoordinatorC
++ _symbolic _____yxGSgXw 13HomeDataModel21ClipSearchCoordinatorC
++ _symbolic _____yxGSgXwz____________RzlXX 13HomeDataModel08WaveformB8ProviderC AA18PowerSpectrumMeterC AA0fH0P
++ _symbolic _____yxGSgXwz____________RzlXX 13HomeDataModel16CameraEventCacheC AA30DefaultClipFetchingEnvironmentV AA0hiJ0P
++ _symbolic _____yxGSgXwz_x______RzlXX 13HomeDataModel21ClipSearchCoordinatorC AA0E8ProviderP
++ _symbolic _____yxq__G 13HomeDataModel22ClipSearchResultFilterV8IteratorV
++ _symbolic _____yyt_G ScS12ContinuationV
++ _symbolic _____yyt_G ScS8IteratorV
++ _symbolic _____yyt_GSg ScS12ContinuationV
++ _symbolic _____yyt__G ScS12ContinuationV11YieldResultO
++ _symbolic _____yyt__G ScS12ContinuationV15BufferingPolicyO
++ _symbolic _____z_Xx 10Foundation4DateV
++ _symbolic xq_xq_Iegnnrr_
++ _symbolic yShyxGYbcSg
++ _symbolic ypSg_____Spy_____GIgnyy_ So8_NSRangeV 10ObjectiveC8ObjCBoolV
++ _symbolic yyYaYbc
++ _type_layout_string 13HomeDataModel014DirectPlaybackB8ProviderV
++ _type_layout_string 13HomeDataModel06CameraB6Update33_71B0E2ED001530F092AC720882FE6BFCLLV
++ _type_layout_string 13HomeDataModel07ClimateC0C10ThermostatC15WeekdayScheduleV
++ _type_layout_string 13HomeDataModel07ClimateC0C10ThermostatC24CleanEnergySettingConfigV
++ _type_layout_string 13HomeDataModel07ClimateC0C10ThermostatC24CleanEnergySettingConfigV0g10PeakSymbolI0V
++ _type_layout_string 13HomeDataModel0B13StoreProviderC0bdE5ErrorO
++ _type_layout_string 13HomeDataModel0C14ContextDidSaveV
++ _type_layout_string 13HomeDataModel15AnyEndpointLikeV
++ _type_layout_string 13HomeDataModel15ClipSearchQueryO
++ _type_layout_string 13HomeDataModel15ClipSearchQueryO05QuickE8CategoryV
++ _type_layout_string 13HomeDataModel15ClipSearchStateO
++ _type_layout_string 13HomeDataModel15EmbeddingRecordC7SegmentV
++ _type_layout_string 13HomeDataModel19SearchConfigurationV
++ _type_layout_string 13HomeDataModel20StaticEndpointGroupsV
++ _type_layout_string 13HomeDataModel21MatterAttributePollerC5State33_9BDDA65ADEAF8DC0D353A26D172FE094LLV
++ _type_layout_string 13HomeDataModel21ReasonReplacementPairV
++ _type_layout_string 13HomeDataModel22MeasurementRangeStructV
++ _type_layout_string 13HomeDataModel23ClipFetchingEnvironmentRzlAA18CameraClipsLibraryC25CaptionResolverComponentsVyx_G
++ _type_layout_string 13HomeDataModel23EnergyMeasurementStructV
++ _type_layout_string 13HomeDataModel23StaticFanControlClusterV8RockModeV
++ _type_layout_string 13HomeDataModel24CoreSpotlightSearchQueryV
++ _type_layout_string 13HomeDataModel25CameraEnvironmentProviderRzlAA0D0O0E0O5StateC10ControllerC5RulesVy_x___G
++ _type_layout_string 13HomeDataModel25CameraEventStoreDebugInfoV
++ _type_layout_string 13HomeDataModel25HarmonicMeasurementStructV
++ _type_layout_string 13HomeDataModel25HeroFrameImageBoundingBoxV
++ _type_layout_string 13HomeDataModel25MeasurementAccuracyStructV
++ _type_layout_string 13HomeDataModel27CumulativeEnergyResetStructV
++ _type_layout_string 13HomeDataModel29CoreSpotlightUserQueryAdapterV
++ _type_layout_string 13HomeDataModel30MeasurementAccuracyRangeStructV
++ _type_layout_string 13HomeDataModel34CoreSpotlightAttributeQueryAdapterV
++ _type_layout_string 13HomeDataModel6CameraO5EventO14HistoryMessageO
++ _type_layout_string 13HomeDataModel6CameraO5EventO16StoreEnvironmentRzlAE0F0C24FetchAndIndexCoordinatorC9QueryInfoV0H4KindOy__x___G
++ _type_layout_string 13HomeDataModel6CameraO5EventO25FetchAndIndexDebugMetricsC0D6StatusV
++ _type_layout_string 13HomeDataModel6CameraO5EventO26PlaygroundStoreEnvironmentV
++ _type_layout_string 13HomeDataModel6CameraO5EventO5FetchV6OutputV11ChangeBatchV
++ _type_layout_string 13HomeDataModel6CameraO5EventO5FetchV7OptionsV
++ _type_layout_string 13HomeDataModel6CameraO5EventO8CoverageV
++ _type_layout_string 13HomeDataModel6CameraO5EventO8CoverageV7OptionsV
++ _type_layout_string 13HomeDataModel6CameraO5EventO8CoverageV9PredicateV
++ _type_layout_string SC12MTRErrorCodeLeV
++ _type_layout_string So23MTRFanControlRockBitmapV
++ _type_layout_string So6CGRectV
++ _type_layout_string So7CGPointV
++ _type_layout_string So8_NSRangeV
+- _OBJC_CLASS_$_HMCameraVideoResolution
+- _OBJC_CLASS_$__TtC13HomeDataModel16AutoClimateModel
+- _OBJC_METACLASS_$__TtC13HomeDataModel16AutoClimateModel
+- __DATA__TtC13HomeDataModel16AutoClimateModel
+- __DATA__TtCC13HomeDataModel16AutoClimateModel10Thermostat
+- __DATA__TtCC13HomeDataModel16AutoClimateModel4Home
+- __DATA__TtCCC13HomeDataModel16AutoClimateModel10Thermostat5State
+- __IVARS__TtC13HomeDataModel16AutoClimateModel
+- __IVARS__TtCC13HomeDataModel16AutoClimateModel10Thermostat
+- __IVARS__TtCC13HomeDataModel16AutoClimateModel4Home
+- __IVARS__TtCCC13HomeDataModel16AutoClimateModel10Thermostat5State
+- __METACLASS_DATA__TtC13HomeDataModel16AutoClimateModel
+- __METACLASS_DATA__TtCC13HomeDataModel16AutoClimateModel10Thermostat
+- __METACLASS_DATA__TtCC13HomeDataModel16AutoClimateModel4Home
+- __METACLASS_DATA__TtCCC13HomeDataModel16AutoClimateModel10Thermostat5State
+- __OBJC_$_INSTANCE_METHODS__TtC13HomeDataModel16AutoClimateModel(HomeDataModel)
+- __OBJC_CLASS_PROTOCOLS_$__TtC13HomeDataModel16AutoClimateModel(HomeDataModel)
+- __PROTOCOLS__TtC13HomeDataModel15CameraClipAsset.1
+- ___swift_assignWithCopy_strong
+- ___swift_assignWithTake_strong
+- ___swift_destroy_strong
+- ___swift_get_extra_inhabitant_index.8Tm
+- ___swift_initWithCopy_strong
+- ___swift_store_extra_inhabitant_index.9Tm
+- __swift_FORCE_LOAD_$_swiftCoreMedia
+- __swift_FORCE_LOAD_$_swiftCoreMedia_$_HomeDataModel
+- __swift_FORCE_LOAD_$_swiftMapKit
+- __swift_FORCE_LOAD_$_swiftMapKit_$_HomeDataModel
+- _associated conformance 13HomeDataModel011AutoClimateC0C10ThermostatC15WeekdayScheduleV10CodingKeys33_8696A8F9DD1297347A3DFB9A40FA2E61LLOSHAASQ
+- _associated conformance 13HomeDataModel011AutoClimateC0C10ThermostatC15WeekdayScheduleV10CodingKeys33_8696A8F9DD1297347A3DFB9A40FA2E61LLOs0I3KeyAAs23CustomStringConvertible
+- _associated conformance 13HomeDataModel011AutoClimateC0C10ThermostatC15WeekdayScheduleV10CodingKeys33_8696A8F9DD1297347A3DFB9A40FA2E61LLOs0I3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 13HomeDataModel011AutoClimateC0C10ThermostatC15WeekdayScheduleVSHAASQ
+- _associated conformance 13HomeDataModel011AutoClimateC0C10ThermostatC19WeekdayScheduleRuleV10CodingKeys33_8696A8F9DD1297347A3DFB9A40FA2E61LLOSHAASQ
+- _associated conformance 13HomeDataModel011AutoClimateC0C10ThermostatC19WeekdayScheduleRuleV10CodingKeys33_8696A8F9DD1297347A3DFB9A40FA2E61LLOs0J3KeyAAs23CustomStringConvertible
+- _associated conformance 13HomeDataModel011AutoClimateC0C10ThermostatC19WeekdayScheduleRuleV10CodingKeys33_8696A8F9DD1297347A3DFB9A40FA2E61LLOs0J3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 13HomeDataModel011AutoClimateC0C10ThermostatC19WeekdayScheduleRuleV3DayOSHAASQ
+- _associated conformance 13HomeDataModel011AutoClimateC0C10ThermostatC19WeekdayScheduleRuleV3DayOs12CaseIterableAA8AllCasessAJP_Sl
+- _associated conformance 13HomeDataModel011AutoClimateC0C10ThermostatC19WeekdayScheduleRuleVSHAASQ
+- _associated conformance 13HomeDataModel011AutoClimateC0C10ThermostatC24CleanEnergySettingConfigV0h10PeakSymbolJ0V10CodingKeys33_8696A8F9DD1297347A3DFB9A40FA2E61LLOSHAASQ
+- _associated conformance 13HomeDataModel011AutoClimateC0C10ThermostatC24CleanEnergySettingConfigV0h10PeakSymbolJ0V10CodingKeys33_8696A8F9DD1297347A3DFB9A40FA2E61LLOs0M3KeyAAs23CustomStringConvertible
+- _associated conformance 13HomeDataModel011AutoClimateC0C10ThermostatC24CleanEnergySettingConfigV0h10PeakSymbolJ0V10CodingKeys33_8696A8F9DD1297347A3DFB9A40FA2E61LLOs0M3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 13HomeDataModel011AutoClimateC0C10ThermostatC24CleanEnergySettingConfigV0h10PeakSymbolJ0VSHAASQ
+- _associated conformance 13HomeDataModel011AutoClimateC0C10ThermostatC24CleanEnergySettingConfigV10CodingKeys33_8696A8F9DD1297347A3DFB9A40FA2E61LLOSHAASQ
+- _associated conformance 13HomeDataModel011AutoClimateC0C10ThermostatC24CleanEnergySettingConfigV10CodingKeys33_8696A8F9DD1297347A3DFB9A40FA2E61LLOs0K3KeyAAs23CustomStringConvertible
+- _associated conformance 13HomeDataModel011AutoClimateC0C10ThermostatC24CleanEnergySettingConfigV10CodingKeys33_8696A8F9DD1297347A3DFB9A40FA2E61LLOs0K3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 13HomeDataModel011AutoClimateC0C10ThermostatC24CleanEnergySettingConfigVSHAASQ
+- _associated conformance 13HomeDataModel011AutoClimateC0C10ThermostatC25AdaptiveTemperatureConfigV04RoomI0V10CodingKeys33_8696A8F9DD1297347A3DFB9A40FA2E61LLOSHAASQ
+- _associated conformance 13HomeDataModel011AutoClimateC0C10ThermostatC25AdaptiveTemperatureConfigV04RoomI0V10CodingKeys33_8696A8F9DD1297347A3DFB9A40FA2E61LLOs0K3KeyAAs23CustomStringConvertible
+- _associated conformance 13HomeDataModel011AutoClimateC0C10ThermostatC25AdaptiveTemperatureConfigV04RoomI0V10CodingKeys33_8696A8F9DD1297347A3DFB9A40FA2E61LLOs0K3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 13HomeDataModel011AutoClimateC0C10ThermostatC25AdaptiveTemperatureConfigV04RoomI0VSHAASQ
+- _associated conformance 13HomeDataModel011AutoClimateC0C10ThermostatC25AdaptiveTemperatureConfigV04RoomI0VSLAASQ
+- _associated conformance 13HomeDataModel011AutoClimateC0C10ThermostatC25AdaptiveTemperatureConfigV10CodingKeys33_8696A8F9DD1297347A3DFB9A40FA2E61LLOSHAASQ
+- _associated conformance 13HomeDataModel011AutoClimateC0C10ThermostatC25AdaptiveTemperatureConfigV10CodingKeys33_8696A8F9DD1297347A3DFB9A40FA2E61LLOs0J3KeyAAs23CustomStringConvertible
+- _associated conformance 13HomeDataModel011AutoClimateC0C10ThermostatC25AdaptiveTemperatureConfigV10CodingKeys33_8696A8F9DD1297347A3DFB9A40FA2E61LLOs0J3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 13HomeDataModel011AutoClimateC0C10ThermostatC25AdaptiveTemperatureConfigV7SettingV10CodingKeys33_8696A8F9DD1297347A3DFB9A40FA2E61LLOSHAASQ
+- _associated conformance 13HomeDataModel011AutoClimateC0C10ThermostatC25AdaptiveTemperatureConfigV7SettingV10CodingKeys33_8696A8F9DD1297347A3DFB9A40FA2E61LLOs0K3KeyAAs23CustomStringConvertible
+- _associated conformance 13HomeDataModel011AutoClimateC0C10ThermostatC25AdaptiveTemperatureConfigV7SettingV10CodingKeys33_8696A8F9DD1297347A3DFB9A40FA2E61LLOs0K3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 13HomeDataModel011AutoClimateC0C10ThermostatC25AdaptiveTemperatureConfigV7SettingVSHAASQ
+- _associated conformance 13HomeDataModel011AutoClimateC0C10ThermostatC25AdaptiveTemperatureConfigVSHAASQ
+- _associated conformance 13HomeDataModel011AutoClimateC0C10ThermostatC5StateC11UpdateErrorO0H4TypeOSHAASQ
+- _associated conformance 13HomeDataModel011AutoClimateC0C10ThermostatC5StateC11UpdateErrorOSHAASQ
+- _associated conformance 13HomeDataModel13StaticClusterO19BasicInfoCodingKeys33_33FA28C341BB11C4E0C1667B9E3CF4F0LLOSHAASQ
+- _associated conformance 13HomeDataModel13StaticClusterO19BasicInfoCodingKeys33_33FA28C341BB11C4E0C1667B9E3CF4F0LLOs0H3KeyAAs23CustomStringConvertible
+- _associated conformance 13HomeDataModel13StaticClusterO19BasicInfoCodingKeys33_33FA28C341BB11C4E0C1667B9E3CF4F0LLOs0H3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 13HomeDataModel16AccessoryDetailsV10CodingKeys33_9F4DDDC88E24F7CB8F451292EA3E0516LLOSHAASQ
+- _associated conformance 13HomeDataModel16AccessoryDetailsV10CodingKeys33_9F4DDDC88E24F7CB8F451292EA3E0516LLOs0F3KeyAAs23CustomStringConvertible
+- _associated conformance 13HomeDataModel16AccessoryDetailsV10CodingKeys33_9F4DDDC88E24F7CB8F451292EA3E0516LLOs0F3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 13HomeDataModel16AccessoryDetailsV7PayloadO06StaticD10CodingKeys33_9F4DDDC88E24F7CB8F451292EA3E0516LLOSHAASQ
+- _associated conformance 13HomeDataModel16AccessoryDetailsV7PayloadO06StaticD10CodingKeys33_9F4DDDC88E24F7CB8F451292EA3E0516LLOs0H3KeyAAs23CustomStringConvertible
+- _associated conformance 13HomeDataModel16AccessoryDetailsV7PayloadO06StaticD10CodingKeys33_9F4DDDC88E24F7CB8F451292EA3E0516LLOs0H3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 13HomeDataModel16AccessoryDetailsV7PayloadO10CodingKeys33_9F4DDDC88E24F7CB8F451292EA3E0516LLOSHAASQ
+- _associated conformance 13HomeDataModel16AccessoryDetailsV7PayloadO10CodingKeys33_9F4DDDC88E24F7CB8F451292EA3E0516LLOs0G3KeyAAs23CustomStringConvertible
+- _associated conformance 13HomeDataModel16AccessoryDetailsV7PayloadO10CodingKeys33_9F4DDDC88E24F7CB8F451292EA3E0516LLOs0G3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 13HomeDataModel16AccessoryDetailsV7PayloadO23StaticServiceCodingKeys33_9F4DDDC88E24F7CB8F451292EA3E0516LLOSHAASQ
+- _associated conformance 13HomeDataModel16AccessoryDetailsV7PayloadO23StaticServiceCodingKeys33_9F4DDDC88E24F7CB8F451292EA3E0516LLOs0I3KeyAAs23CustomStringConvertible
+- _associated conformance 13HomeDataModel16AccessoryDetailsV7PayloadO23StaticServiceCodingKeys33_9F4DDDC88E24F7CB8F451292EA3E0516LLOs0I3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 13HomeDataModel16AccessoryDetailsV7PayloadO24StaticEndpointCodingKeys33_9F4DDDC88E24F7CB8F451292EA3E0516LLOSHAASQ
+- _associated conformance 13HomeDataModel16AccessoryDetailsV7PayloadO24StaticEndpointCodingKeys33_9F4DDDC88E24F7CB8F451292EA3E0516LLOs0I3KeyAAs23CustomStringConvertible
+- _associated conformance 13HomeDataModel16AccessoryDetailsV7PayloadO24StaticEndpointCodingKeys33_9F4DDDC88E24F7CB8F451292EA3E0516LLOs0I3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 13HomeDataModel16AccessoryDetailsV7PayloadO28StaticServiceGroupCodingKeys33_9F4DDDC88E24F7CB8F451292EA3E0516LLOSHAASQ
+- _associated conformance 13HomeDataModel16AccessoryDetailsV7PayloadO28StaticServiceGroupCodingKeys33_9F4DDDC88E24F7CB8F451292EA3E0516LLOs0J3KeyAAs23CustomStringConvertible
+- _associated conformance 13HomeDataModel16AccessoryDetailsV7PayloadO28StaticServiceGroupCodingKeys33_9F4DDDC88E24F7CB8F451292EA3E0516LLOs0J3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 13HomeDataModel19ResultErrorCategoryOSHAASQ
+- _associated conformance 13HomeDataModel25AccessoryDetailsBasicInfoV10CodingKeys026_C1D0E4EBC99CE654B3D789653O5B8C7CLLOSHAASQ
+- _associated conformance 13HomeDataModel25AccessoryDetailsBasicInfoV10CodingKeys026_C1D0E4EBC99CE654B3D789653O5B8C7CLLOs0H3KeyAAs23CustomStringConvertible
+- _associated conformance 13HomeDataModel25AccessoryDetailsBasicInfoV10CodingKeys026_C1D0E4EBC99CE654B3D789653O5B8C7CLLOs0H3KeyAAs28CustomDebugStringConvertible
+- _block_copy_helper.105
+- _block_copy_helper.106
+- _block_copy_helper.108
+- _block_copy_helper.114
+- _block_copy_helper.116
+- _block_copy_helper.118
+- _block_copy_helper.128
+- _block_copy_helper.138
+- _block_copy_helper.142
+- _block_copy_helper.155
+- _block_copy_helper.157
+- _block_copy_helper.183
+- _block_copy_helper.288
+- _block_copy_helper.316
+- _block_copy_helper.322
+- _block_copy_helper.345
+- _block_copy_helper.40
+- _block_copy_helper.42
+- _block_copy_helper.46
+- _block_copy_helper.48
+- _block_copy_helper.52
+- _block_copy_helper.67
+- _block_copy_helper.74
+- _block_copy_helper.88
+- _block_copy_helper.98
+- _block_descriptor.100
+- _block_descriptor.107
+- _block_descriptor.108
+- _block_descriptor.110
+- _block_descriptor.116
+- _block_descriptor.118
+- _block_descriptor.120
+- _block_descriptor.130
+- _block_descriptor.140
+- _block_descriptor.144
+- _block_descriptor.157
+- _block_descriptor.159
+- _block_descriptor.185
+- _block_descriptor.290
+- _block_descriptor.318
+- _block_descriptor.324
+- _block_descriptor.347
+- _block_descriptor.42
+- _block_descriptor.44
+- _block_descriptor.48
+- _block_descriptor.50
+- _block_descriptor.54
+- _block_descriptor.69
+- _block_descriptor.76
+- _block_descriptor.90
+- _block_destroy_helper.106
+- _block_destroy_helper.107
+- _block_destroy_helper.109
+- _block_destroy_helper.115
+- _block_destroy_helper.117
+- _block_destroy_helper.119
+- _block_destroy_helper.129
+- _block_destroy_helper.139
+- _block_destroy_helper.143
+- _block_destroy_helper.156
+- _block_destroy_helper.158
+- _block_destroy_helper.184
+- _block_destroy_helper.289
+- _block_destroy_helper.317
+- _block_destroy_helper.323
+- _block_destroy_helper.346
+- _block_destroy_helper.41
+- _block_destroy_helper.43
+- _block_destroy_helper.47
+- _block_destroy_helper.49
+- _block_destroy_helper.53
+- _block_destroy_helper.68
+- _block_destroy_helper.75
+- _block_destroy_helper.89
+- _block_destroy_helper.99
+- _get_enum_tag_for_layout_string 13HomeDataModel23CameraClipsLibraryErrorO
+- _get_enum_tag_for_layout_string 13HomeDataModel6ActionO013MediaPlaybackD0V5ErrorO
+- _get_type_metadata 13HomeDataModel0A18WidgetIdentifiableRzlAA0D12DetailUpdateVyxG noncopyable.61
+- _get_type_metadata 13HomeDataModel0A18WidgetIdentifiableRzlAA0D13WriteRequestsVyxG noncopyable.62
+- _get_type_metadata 13HomeDataModel0A18WidgetIdentifiableRzlAA0D7RefreshVyxG noncopyable.60
+- _get_type_metadata 13HomeDataModel13WidgetManagerV noncopyable.50
+- _get_type_metadata s5ErrorR_r0_l15Synchronization6AtomicVySbG noncopyable.9
+- _get_witness_table 13HomeDataModel10PackStatusVyAA06SingleE0VyAA011TemperatureE4ItemVG_AEyAA08HumidityeH0VGAEyAA010AirQualityeH0VGAA011ConditionalE0VyACyAEyAA06BlindseH0VG_QPGACyAEyAA06ClosedmeH0VG_QPGGAEyAA03FaneH0VGAEyAA0j8PurifiereH0VGAEyAA06VacuumeH0VGAEyAA06LightseH0VGAEyAA06OutleteH0VGAEyAA011LightSensoreH0VGAEyAA08DoorLockeH0VGAPyACyAEyAA06GarageveH0VG_QPGACyAEyAA0nxveH0VG_QPGGAPyACyAEyAA0veH0VG_QPGACyAEyAA0nveH0VG_QPGGAPyACyAEyAA06WindoweH0VG_QPGACyAEyAA0nyeH0VG_QPGGAEyAA010SmokeAlarmeH0VGAEyAA018CarbonDioxideAlarmeH0VGAEyAA019CarbonMonoxideAlarmeH0VGAEyAA014SecuritySystemeH0VGAPyACyAEyAA07ContactueH0VG_QPGACyAEyAA011IdleContactueH0VG_QPGGAPyACyAEyAA06MotionueH0VG_QPGACyAEyAA010IdleMotionueH0VG_QPGGAPyACyAEyAA09OccupancyueH0VG_QPGACyAEyAA013IdleOccupancyueH0VG_QPGGAEyAA07SpeakereH0VGAEyAA010TelevisioneH0VGAEyAA09LeakAlarmeH0VGAEyAA010IrrigationeH0VGAEyAA06FauceteH0VGAEyAA09IdleAlarmeH0VGQPGAA0E0HPyHC.11
+- _get_witness_table 13HomeDataModel23ClipFetchingEnvironmentRzlScsyAA15ScrubberElementOs5Error_pGSciHPyHC.23
+- _get_witness_table 13HomeDataModel23FaceClassificationStoreRzls23AsyncCompactMapSequenceVyScSySDy0A8KitClips22CameraSignificantEventV2IDVSayAE0mnodE0VGGGSDyAISSGGSciHPyHC.6
+- _get_witness_table 13HomeDataModel25CameraEnvironmentProviderRzlScSyAA08WaveformB0VSgGSciHPyHC.37
+- _get_witness_table SHRzr0_l10Foundation4UUIDVSHHPyHC.25
+- _get_witness_table ScSy13HomeDataModel13StateSnapshotVGSciHPyHC.21
+- _keypath_set.33Tm
+- _objc_msgSend$initWithVideoResolutionType:
+- _objc_msgSend$photosPersonManagerWithUUID:
+- _objc_msgSend$setResolutions:
+- _objectdestroy.100Tm
+- _objectdestroy.101Tm
+- _objectdestroy.111Tm
+- _objectdestroy.11Tm
+- _objectdestroy.122Tm
+- _objectdestroy.13Tm
+- _objectdestroy.162Tm
+- _objectdestroy.17Tm
+- _objectdestroy.18Tm
+- _objectdestroy.19Tm
+- _objectdestroy.21Tm
+- _objectdestroy.22Tm
+- _objectdestroy.23Tm
+- _objectdestroy.24Tm
+- _objectdestroy.25Tm
+- _objectdestroy.26Tm
+- _objectdestroy.27Tm
+- _objectdestroy.28Tm
+- _objectdestroy.2Tm
+- _objectdestroy.30Tm
+- _objectdestroy.31Tm
+- _objectdestroy.34Tm
+- _objectdestroy.36Tm
+- _objectdestroy.37Tm
+- _objectdestroy.39Tm
+- _objectdestroy.3Tm
+- _objectdestroy.45Tm
+- _objectdestroy.47Tm
+- _objectdestroy.48Tm
+- _objectdestroy.49Tm
+- _objectdestroy.53Tm
+- _objectdestroy.54Tm
+- _objectdestroy.56Tm
+- _objectdestroy.59Tm
+- _objectdestroy.5Tm
+- _objectdestroy.62Tm
+- _objectdestroy.65Tm
+- _objectdestroy.67Tm
+- _objectdestroy.6Tm
+- _objectdestroy.71Tm
+- _objectdestroy.72Tm
+- _objectdestroy.75Tm
+- _objectdestroy.76Tm
+- _objectdestroy.79Tm
+- _objectdestroy.7Tm
+- _objectdestroy.98Tm
+- _objectdestroy.9Tm
+- _objectdestroyTm
+- _swift_stdlib_isStackAllocationSafe
+- _swift_unexpectedError
+- _symbolic $s13HomeDataModel011AutoClimateC8ProtocolP
+- _symbolic $s13HomeDataModel011AutoClimatecA8ProtocolP
+- _symbolic 7Profile______13StreamControl_____0B0_____QZSg 13HomeDataModel25CameraEnvironmentProviderP AA0D7ProfileP AA0D13StreamControlP
+- _symbolic 7Profile______15SnapshotControl_____0B0_____QZSg 13HomeDataModel25CameraEnvironmentProviderP AA0D7ProfileP AA0D15SnapshotControlP
+- _symbolic 7Profile______15SnapshotControl_____0B0_____QZSg8snapshot_______pSg5errort 13HomeDataModel25CameraEnvironmentProviderP AA0D7ProfileP AA0D15SnapshotControlP s5ErrorP
+- _symbolic SDy_____SSG 12HomeKitClips22CameraSignificantEventV2IDV
+- _symbolic SDy__________G 10Foundation4UUIDV 13HomeDataModel011AutoClimateE0C0C0C
+- _symbolic SDy__________G 10Foundation4UUIDV 13HomeDataModel15ScrubberElementO
+- _symbolic SDy__________G s6UInt64V 13HomeDataModel011AutoClimateD0C10ThermostatC
+- _symbolic SaySo23HMCameraVideoResolutionCG
+- _symbolic Say_____G 13HomeDataModel011AutoClimateC0C10ThermostatC19WeekdayScheduleRuleV
+- _symbolic Say_____G 13HomeDataModel011AutoClimateC0C10ThermostatC19WeekdayScheduleRuleV3DayO
+- _symbolic Say_____G 13HomeDataModel011AutoClimateC0C10ThermostatC25AdaptiveTemperatureConfigV04RoomI0V
+- _symbolic Say_____G s5UInt8V
+- _symbolic Say_____GSg 13HomeDataModel011AutoClimateC0C10ThermostatC25AdaptiveTemperatureConfigV04RoomI0V
+- _symbolic ScCySDy__________G_____GSg 10Foundation4UUIDV 13HomeDataModel13StateSnapshotV s5NeverO
+- _symbolic ScCySDy__________G_____GSg 10Foundation4UUIDV 13HomeDataModel19MatterStateSnapshotV s5NeverO
+- _symbolic ScSy_____SgG_____Yac 13HomeDataModel08WaveformB0V AC6SourceO
+- _symbolic Scsy___________pG 13HomeDataModel15ScrubberElementO s5ErrorP
+- _symbolic Shy_____G 12HomeKitClips14PersonFaceCropV
+- _symbolic Shy_____G13mediaProfiles_t 10Foundation4UUIDV
+- _symbolic Shy_____GIeAgHr_ 12HomeKitClips14PersonFaceCropV
+- _symbolic So11HMAccessoryC9accessory______7settingt 13HomeDataModel011AutoClimateC0C10ThermostatC15WeekdayScheduleV
+- _symbolic So11HMAccessoryC9accessory______7settingt 13HomeDataModel011AutoClimateC0C10ThermostatC24CleanEnergySettingConfigV
+- _symbolic So11HMAccessoryC9accessory______7settingt 13HomeDataModel011AutoClimateC0C10ThermostatC25AdaptiveTemperatureConfigV7SettingV
+- _symbolic So16HMCharacteristicC_ypt
+- _symbolic _____ 13HomeDataModel011AutoClimateC0C
+- _symbolic _____ 13HomeDataModel011AutoClimateC0C0A0C
+- _symbolic _____ 13HomeDataModel011AutoClimateC0C10ThermostatC
+- _symbolic _____ 13HomeDataModel011AutoClimateC0C10ThermostatC0F13ServiceConfigV
+- _symbolic _____ 13HomeDataModel011AutoClimateC0C10ThermostatC15WeekdayScheduleV
+- _symbolic _____ 13HomeDataModel011AutoClimateC0C10ThermostatC15WeekdayScheduleV10CodingKeys33_8696A8F9DD1297347A3DFB9A40FA2E61LLO
+- _symbolic _____ 13HomeDataModel011AutoClimateC0C10ThermostatC19WeekdayScheduleRuleV
+- _symbolic _____ 13HomeDataModel011AutoClimateC0C10ThermostatC19WeekdayScheduleRuleV10CodingKeys33_8696A8F9DD1297347A3DFB9A40FA2E61LLO
+- _symbolic _____ 13HomeDataModel011AutoClimateC0C10ThermostatC19WeekdayScheduleRuleV3DayO
+- _symbolic _____ 13HomeDataModel011AutoClimateC0C10ThermostatC24CleanEnergySettingConfigV
+- _symbolic _____ 13HomeDataModel011AutoClimateC0C10ThermostatC24CleanEnergySettingConfigV0h10PeakSymbolJ0V
+- _symbolic _____ 13HomeDataModel011AutoClimateC0C10ThermostatC24CleanEnergySettingConfigV0h10PeakSymbolJ0V10CodingKeys33_8696A8F9DD1297347A3DFB9A40FA2E61LLO
+- _symbolic _____ 13HomeDataModel011AutoClimateC0C10ThermostatC24CleanEnergySettingConfigV10CodingKeys33_8696A8F9DD1297347A3DFB9A40FA2E61LLO
+- _symbolic _____ 13HomeDataModel011AutoClimateC0C10ThermostatC25AdaptiveTemperatureConfigV
+- _symbolic _____ 13HomeDataModel011AutoClimateC0C10ThermostatC25AdaptiveTemperatureConfigV04RoomI0V
+- _symbolic _____ 13HomeDataModel011AutoClimateC0C10ThermostatC25AdaptiveTemperatureConfigV04RoomI0V10CodingKeys33_8696A8F9DD1297347A3DFB9A40FA2E61LLO
+- _symbolic _____ 13HomeDataModel011AutoClimateC0C10ThermostatC25AdaptiveTemperatureConfigV10CodingKeys33_8696A8F9DD1297347A3DFB9A40FA2E61LLO
+- _symbolic _____ 13HomeDataModel011AutoClimateC0C10ThermostatC25AdaptiveTemperatureConfigV7SettingV
+- _symbolic _____ 13HomeDataModel011AutoClimateC0C10ThermostatC25AdaptiveTemperatureConfigV7SettingV10CodingKeys33_8696A8F9DD1297347A3DFB9A40FA2E61LLO
+- _symbolic _____ 13HomeDataModel011AutoClimateC0C10ThermostatC5StateC
+- _symbolic _____ 13HomeDataModel011AutoClimateC0C10ThermostatC5StateC11UpdateErrorO
+- _symbolic _____ 13HomeDataModel011AutoClimateC0C10ThermostatC5StateC11UpdateErrorO0H4TypeO
+- _symbolic _____ 13HomeDataModel13StaticClusterO19BasicInfoCodingKeys33_33FA28C341BB11C4E0C1667B9E3CF4F0LLO
+- _symbolic _____ 13HomeDataModel16AccessoryDetailsV10CodingKeys33_9F4DDDC88E24F7CB8F451292EA3E0516LLO
+- _symbolic _____ 13HomeDataModel16AccessoryDetailsV7PayloadO06StaticD10CodingKeys33_9F4DDDC88E24F7CB8F451292EA3E0516LLO
+- _symbolic _____ 13HomeDataModel16AccessoryDetailsV7PayloadO10CodingKeys33_9F4DDDC88E24F7CB8F451292EA3E0516LLO
+- _symbolic _____ 13HomeDataModel16AccessoryDetailsV7PayloadO23StaticServiceCodingKeys33_9F4DDDC88E24F7CB8F451292EA3E0516LLO
+- _symbolic _____ 13HomeDataModel16AccessoryDetailsV7PayloadO24StaticEndpointCodingKeys33_9F4DDDC88E24F7CB8F451292EA3E0516LLO
+- _symbolic _____ 13HomeDataModel16AccessoryDetailsV7PayloadO28StaticServiceGroupCodingKeys33_9F4DDDC88E24F7CB8F451292EA3E0516LLO
+- _symbolic _____ 13HomeDataModel19ResultErrorCategoryO
+- _symbolic _____ 13HomeDataModel24MockThermostatSPIAdapterV
+- _symbolic _____ 13HomeDataModel25AccessoryDetailsBasicInfoV10CodingKeys026_C1D0E4EBC99CE654B3D789653O5B8C7CLLO
+- _symbolic _____ 13HomeDataModel6ActionO013MediaPlaybackD0V5ErrorO
+- _symbolic _____ So20HMMediaPlaybackStateV
+- _symbolic _____3key_Say_____G5valuetSg 12HomeKitClips22CameraSignificantEventV2IDV AA0deF18FaceClassificationV
+- _symbolic _____3key_Say_____G5valuetSg 13HomeDataModel24PhoenixMetricsAggregatorC11IntervalKeyV AC0G0V
+- _symbolic _____3key_Sb5valuetSg 10Foundation4UUIDV
+- _symbolic _____3key_ShyAAG5valuetSg 10Foundation4UUIDV
+- _symbolic _____3key_Shy_____G5valuetSg 10Foundation4UUIDV s6UInt64V
+- _symbolic _____3key_Shy_____G5valuetSg 13HomeDataModel13StaticServiceV AA18CharacteristicKindO
+- _symbolic _____3key______5valuetSg 10Foundation4UUIDV 13HomeDataModel018StaticCoordinationD0V
+- _symbolic _____3key______5valuetSg 10Foundation4UUIDV 13HomeDataModel06StaticC0V
+- _symbolic _____3key______5valuetSg 10Foundation4UUIDV 13HomeDataModel10StaticRoomV
+- _symbolic _____3key______5valuetSg 10Foundation4UUIDV 13HomeDataModel10StaticUserV
+- _symbolic _____3key______5valuetSg 10Foundation4UUIDV 13HomeDataModel10StaticZoneV
+- _symbolic _____3key______5valuetSg 10Foundation4UUIDV 13HomeDataModel12EndpointPathV
+- _symbolic _____3key______5valuetSg 10Foundation4UUIDV 13HomeDataModel13ActionServiceV
+- _symbolic _____3key______5valuetSg 10Foundation4UUIDV 13HomeDataModel13StateSnapshotV
+- _symbolic _____3key______5valuetSg 10Foundation4UUIDV 13HomeDataModel14StaticResidentV
+- _symbolic _____3key______5valuetSg 10Foundation4UUIDV 13HomeDataModel15StaticAccessoryV
+- _symbolic _____3key______5valuetSg 10Foundation4UUIDV 13HomeDataModel15StaticActionSetV
+- _symbolic _____3key______5valuetSg 10Foundation4UUIDV 13HomeDataModel15StaticHH2UpdateV
+- _symbolic _____3key______5valuetSg 10Foundation4UUIDV 13HomeDataModel16StaticProfileBagV11ValueUpdateO
+- _symbolic _____3key______5valuetSg 10Foundation4UUIDV 13HomeDataModel17ResizableTileSizeO
+- _symbolic _____3key______5valuetSg 10Foundation4UUIDV 13HomeDataModel17StaticMediaSystemV
+- _symbolic _____3key______5valuetSg 10Foundation4UUIDV 13HomeDataModel18StaticLightProfileV
+- _symbolic _____3key______5valuetSg 10Foundation4UUIDV 13HomeDataModel18StaticMediaProfileV
+- _symbolic _____3key______5valuetSg 10Foundation4UUIDV 13HomeDataModel18StaticServiceGroupV
+- _symbolic _____3key______5valuetSg 10Foundation4UUIDV 13HomeDataModel19StaticCameraProfileV
+- _symbolic _____3key______5valuetSg 10Foundation4UUIDV 13HomeDataModel23StaticTelevisionProfileV
+- _symbolic _____3key______5valuetSg 10Foundation4UUIDV 13HomeDataModel24StaticAudioAnalysisEventV
+- _symbolic _____3key______5valuetSg 10Foundation4UUIDV 13HomeDataModel26StaticMediaSystemComponentV
+- _symbolic _____3key______5valuetSg 13HomeDataModel11ClusterKindO AA06StaticD0O
+- _symbolic _____3key______5valuetSg s6UInt16V 13HomeDataModel14ActionEndpointV
+- _symbolic _____3key______8snapshot_Si9iterationt5valuetSg 10Foundation4UUIDV 13HomeDataModel13StateSnapshotV
+- _symbolic _____3key______Sg13timelapseClip_Sd6offsett5valuet 10Foundation4UUIDV 12HomeKitClips10CameraClipV
+- _symbolic _____3key______Sg13timelapseClip_Sd6offsett5valuetSg 10Foundation4UUIDV 12HomeKitClips10CameraClipV
+- _symbolic _____3key______y______pG5alarm_ACy______pG5timer_____0B5ErrorAJ0cD0t5valuetSg 10Foundation4UUIDV 13HomeDataModel25CoordinationManagerObjectV AD0c5AlarmG0P AD0c5TimerG0P AD0fdE0C6ErrorsO
+- _symbolic _____5state_7Profile______13StreamControl_____0C0_____QZSg6stream______pSg5errort 13HomeDataModel6CameraO11StreamStateO AA0D19EnvironmentProviderP AA0D7ProfileP AA0dE7ControlP s5ErrorP
+- _symbolic _____Sg 12HomeKitClips10CameraClipV
+- _symbolic _____Sg 12HomeKitClips10CameraClipV5MediaV
+- _symbolic _____Sg 12HomeKitClips14PersonFaceCropV
+- _symbolic _____Sg 13HomeDataModel011AutoClimateC0C10ThermostatC0F13ServiceConfigV
+- _symbolic _____Sg 13HomeDataModel011AutoClimateC0C10ThermostatC15WeekdayScheduleV
+- _symbolic _____Sg 13HomeDataModel011AutoClimateC0C10ThermostatC24CleanEnergySettingConfigV
+- _symbolic _____Sg 13HomeDataModel011AutoClimateC0C10ThermostatC24CleanEnergySettingConfigV0h10PeakSymbolJ0V
+- _symbolic _____Sg 13HomeDataModel011AutoClimateC0C10ThermostatC25AdaptiveTemperatureConfigV
+- _symbolic _____Sg 13HomeDataModel011AutoClimateC0C10ThermostatC25AdaptiveTemperatureConfigV04RoomI0V
+- _symbolic _____Sg 13HomeDataModel011AutoClimateC0C10ThermostatC25AdaptiveTemperatureConfigV7SettingV
+- _symbolic _____Sg 13HomeDataModel10StaticUserV
+- _symbolic _____Sg 13HomeDataModel11StaticAlarmV
+- _symbolic _____Sg 13HomeDataModel11TilesFilterO
+- _symbolic _____Sg 13HomeDataModel23StaticTelevisionProfileV
+- _symbolic _____Sg 13HomeDataModel24StaticAudioAnalysisEventV
+- _symbolic _____Sg 13HomeDataModel37CameraClipScrubberDemoContentProviderC0E8MetadataV
+- _symbolic _____Sg13timelapseClip_Sd6offsett 12HomeKitClips10CameraClipV
+- _symbolic _____SgSg 10Foundation3URLV
+- _symbolic _____SgSg 12HomeKitClips10CameraClipV2IDV
+- _symbolic _____SgXw 13HomeDataModel011AutoClimateC0C
+- _symbolic _____SgXw 13HomeDataModel011AutoClimateC0C10ThermostatC
+- _symbolic _____SgXwz_Xx 13HomeDataModel011AutoClimateC0C
+- _symbolic _____SgXwz_Xx 13HomeDataModel011AutoClimateC0C10ThermostatC
+- _symbolic _____Sg_ABt 12HomeKitClips10CameraClipV2IDV
+- _symbolic _____Sg_ABt 13HomeDataModel011AutoClimateC0C10ThermostatC25AdaptiveTemperatureConfigV
+- _symbolic _____Sg_ABt 13HomeDataModel011AutoClimateC0C10ThermostatC25AdaptiveTemperatureConfigV04RoomI0V
+- _symbolic _____Sg_ABt 13HomeDataModel011AutoClimateC0C10ThermostatC25AdaptiveTemperatureConfigV7SettingV
+- _symbolic _____Sg_ABt 13HomeDataModel20StaticCharacteristicV12LoadingStateO
+- _symbolic ______SSt 12HomeKitClips22CameraSignificantEventV2IDV
+- _symbolic ______SaySo23HMCameraVideoResolutionCGt 13HomeDataModel6CameraO10ResolutionO
+- _symbolic ___________t 10Foundation4UUIDV 13HomeDataModel011AutoClimateE0C0C0C
+- _symbolic ___________t 10Foundation4UUIDV 13HomeDataModel15ScrubberElementO
+- _symbolic ___________t 13HomeDataModel24MatterClusterAttributeIDV AA04MockdF5ValueO
+- _symbolic ______p 10AppIntents27EntityIdentifierConvertibleP
+- _symbolic ______p 13HomeDataModel26CameraClipsLibraryProtocolP
+- _symbolic ______pSg 10Foundation15ContiguousBytesP
+- _symbolic ______pSg 13HomeDataModel13HMHomeRefreshP
+- _symbolic ______pSg 13HomeDataModel18HMAccessoryRefreshP
+- _symbolic ______pSg 13HomeDataModel39HMCharacteristicValueLoadingStateHelperP
+- _symbolic ______p_______ptSg 13HomeDataModel0A12AlarmManagerP AA0a5TimerE0P
+- _symbolic ______ypt 13HomeDataModel32MatterThermostatPresetContextTagO
+- _symbolic ______ypt So18MTRAttributeIDTypeV
+- _symbolic ______ypt s11AnyHashableV
+- _symbolic _____yScSySDy_____Say_____GGGSDyABSSGG s23AsyncCompactMapSequenceV 12HomeKitClips22CameraSignificantEventV2IDV AC0hiJ18FaceClassificationV
+- _symbolic _____yShy_____G_G ScG8IteratorV 12HomeKitClips14PersonFaceCropV
+- _symbolic _____ySo23HMCameraVideoResolutionCG s11_SetStorageC
+- _symbolic _____y_Qo_ 12HomeKitClips15PersonDataStoreC05fetchD9FaceCropsQryFQO
+- _symbolic _____y_Qo_13AsyncIteratorSciQx 12HomeKitClips15PersonDataStoreC05fetchD9FaceCropsQryFQO
+- _symbolic _____y_____G s11_SetStorageC 12HomeKitClips10CameraClipV
+- _symbolic _____y_____G s11_SetStorageC 12HomeKitClips14PersonFaceCropV
+- _symbolic _____y_____G s15CollectionOfOneV 13HomeDataModel011AutoClimateF0C10ThermostatC19WeekdayScheduleRuleV
+- _symbolic _____y_____G s22KeyedDecodingContainerV 13HomeDataModel011AutoClimateF0C10ThermostatC15WeekdayScheduleV10CodingKeys33_8696A8F9DD1297347A3DFB9A40FA2E61LLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 13HomeDataModel011AutoClimateF0C10ThermostatC19WeekdayScheduleRuleV10CodingKeys33_8696A8F9DD1297347A3DFB9A40FA2E61LLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 13HomeDataModel011AutoClimateF0C10ThermostatC24CleanEnergySettingConfigV0k10PeakSymbolM0V10CodingKeys33_8696A8F9DD1297347A3DFB9A40FA2E61LLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 13HomeDataModel011AutoClimateF0C10ThermostatC24CleanEnergySettingConfigV10CodingKeys33_8696A8F9DD1297347A3DFB9A40FA2E61LLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 13HomeDataModel011AutoClimateF0C10ThermostatC25AdaptiveTemperatureConfigV04RoomL0V10CodingKeys33_8696A8F9DD1297347A3DFB9A40FA2E61LLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 13HomeDataModel011AutoClimateF0C10ThermostatC25AdaptiveTemperatureConfigV10CodingKeys33_8696A8F9DD1297347A3DFB9A40FA2E61LLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 13HomeDataModel011AutoClimateF0C10ThermostatC25AdaptiveTemperatureConfigV7SettingV10CodingKeys33_8696A8F9DD1297347A3DFB9A40FA2E61LLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 13HomeDataModel13StaticClusterO19BasicInfoCodingKeys33_33FA28C341BB11C4E0C1667B9E3CF4F0LLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 13HomeDataModel16AccessoryDetailsV10CodingKeys33_9F4DDDC88E24F7CB8F451292EA3E0516LLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 13HomeDataModel16AccessoryDetailsV7PayloadO06StaticG10CodingKeys33_9F4DDDC88E24F7CB8F451292EA3E0516LLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 13HomeDataModel16AccessoryDetailsV7PayloadO10CodingKeys33_9F4DDDC88E24F7CB8F451292EA3E0516LLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 13HomeDataModel16AccessoryDetailsV7PayloadO23StaticServiceCodingKeys33_9F4DDDC88E24F7CB8F451292EA3E0516LLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 13HomeDataModel16AccessoryDetailsV7PayloadO24StaticEndpointCodingKeys33_9F4DDDC88E24F7CB8F451292EA3E0516LLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 13HomeDataModel16AccessoryDetailsV7PayloadO28StaticServiceGroupCodingKeys33_9F4DDDC88E24F7CB8F451292EA3E0516LLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 13HomeDataModel25AccessoryDetailsBasicInfoV10CodingKeys026_C1D0E4EBC99CE654B3D789653R5B8C7CLLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 13HomeDataModel011AutoClimateF0C10ThermostatC15WeekdayScheduleV10CodingKeys33_8696A8F9DD1297347A3DFB9A40FA2E61LLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 13HomeDataModel011AutoClimateF0C10ThermostatC19WeekdayScheduleRuleV10CodingKeys33_8696A8F9DD1297347A3DFB9A40FA2E61LLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 13HomeDataModel011AutoClimateF0C10ThermostatC24CleanEnergySettingConfigV0k10PeakSymbolM0V10CodingKeys33_8696A8F9DD1297347A3DFB9A40FA2E61LLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 13HomeDataModel011AutoClimateF0C10ThermostatC24CleanEnergySettingConfigV10CodingKeys33_8696A8F9DD1297347A3DFB9A40FA2E61LLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 13HomeDataModel011AutoClimateF0C10ThermostatC25AdaptiveTemperatureConfigV04RoomL0V10CodingKeys33_8696A8F9DD1297347A3DFB9A40FA2E61LLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 13HomeDataModel011AutoClimateF0C10ThermostatC25AdaptiveTemperatureConfigV10CodingKeys33_8696A8F9DD1297347A3DFB9A40FA2E61LLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 13HomeDataModel011AutoClimateF0C10ThermostatC25AdaptiveTemperatureConfigV7SettingV10CodingKeys33_8696A8F9DD1297347A3DFB9A40FA2E61LLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 13HomeDataModel13StaticClusterO19BasicInfoCodingKeys33_33FA28C341BB11C4E0C1667B9E3CF4F0LLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 13HomeDataModel16AccessoryDetailsV10CodingKeys33_9F4DDDC88E24F7CB8F451292EA3E0516LLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 13HomeDataModel16AccessoryDetailsV7PayloadO06StaticG10CodingKeys33_9F4DDDC88E24F7CB8F451292EA3E0516LLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 13HomeDataModel16AccessoryDetailsV7PayloadO10CodingKeys33_9F4DDDC88E24F7CB8F451292EA3E0516LLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 13HomeDataModel16AccessoryDetailsV7PayloadO23StaticServiceCodingKeys33_9F4DDDC88E24F7CB8F451292EA3E0516LLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 13HomeDataModel16AccessoryDetailsV7PayloadO24StaticEndpointCodingKeys33_9F4DDDC88E24F7CB8F451292EA3E0516LLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 13HomeDataModel16AccessoryDetailsV7PayloadO28StaticServiceGroupCodingKeys33_9F4DDDC88E24F7CB8F451292EA3E0516LLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 13HomeDataModel25AccessoryDetailsBasicInfoV10CodingKeys026_C1D0E4EBC99CE654B3D789653R5B8C7CLLO
+- _symbolic _____y_____G s23_ContiguousArrayStorageC 12HomeKitClips10CameraClipV
+- _symbolic _____y_____G s23_ContiguousArrayStorageC 13HomeDataModel011AutoClimateF0C10ThermostatC19WeekdayScheduleRuleV
+- _symbolic _____y_____G s23_ContiguousArrayStorageC 13HomeDataModel011AutoClimateF0C10ThermostatC19WeekdayScheduleRuleV3DayO
+- _symbolic _____y_____G s23_ContiguousArrayStorageC 13HomeDataModel011AutoClimateF0C10ThermostatC25AdaptiveTemperatureConfigV04RoomL0V
+- _symbolic _____y_____G s23_ContiguousArrayStorageC 13HomeDataModel10IconSymbolO
+- _symbolic _____y_____G_AAy_____GAAy_____G_____y_____yAAy_____G_QPGAIyAAy_____G_QPGGAAy_____GAAy_____GAAy_____GAAy_____GAAy_____GAAy_____GAAy_____GAHyAIyAAy_____G_QPGAIyAAy_____G_QPGGAHyAIyAAy_____G_QPGAIyAAy_____G_QPGGAHyAIyAAy_____G_QPGAIyAAy_____G_QPGGAAy_____GAAy_____GAAy_____GAAy_____GAHyAIyAAy_____G_QPGAIyAAy_____G_QPGGAHyAIyAAy_____G_QPGAIyAAy_____G_QPGGAHyAIyAAy_____G_QPGAIyAAy_____G_QPGGAAy_____GAAy_____GAAy_____GAAy_____GAAy_____GAAy_____Gt 13HomeDataModel12SingleStatusV AA011TemperatureE4ItemV AA08HumidityeG0V AA010AirQualityeG0V AA011ConditionalE0V AA04PackE0V AA06BlindseG0V AA06ClosedmeG0V AA03FaneG0V AA0i8PurifiereG0V AA06VacuumeG0V AA06LightseG0V AA06OutleteG0V AA011LightSensoreG0V AA08DoorLockeG0V AA06GarageveG0V AA0nxveG0V AA0veG0V AA0nveG0V AA06WindoweG0V AA0nyeG0V AA010SmokeAlarmeG0V AA018CarbonDioxideAlarmeG0V AA019CarbonMonoxideAlarmeG0V AA014SecuritySystemeG0V AA07ContactueG0V AA011IdleContactueG0V AA06MotionueG0V AA010IdleMotionueG0V AA09OccupancyueG0V AA013IdleOccupancyueG0V AA07SpeakereG0V AA010TelevisioneG0V AA09LeakAlarmeG0V AA010IrrigationeG0V AA06FauceteG0V AA09IdleAlarmeG0V
+- _symbolic _____y_____SSG s18_DictionaryStorageC 12HomeKitClips22CameraSignificantEventV2IDV
+- _symbolic _____y_____SaySo23HMCameraVideoResolutionCGG s18_DictionaryStorageC 13HomeDataModel6CameraO10ResolutionO
+- _symbolic _____y______SaySo23HMCameraVideoResolutionCGtG s23_ContiguousArrayStorageC 13HomeDataModel6CameraO10ResolutionO
+- _symbolic _____y__________G s18_DictionaryStorageC 10Foundation4UUIDV 13HomeDataModel011AutoClimateG0C0E0C
+- _symbolic _____y__________G s18_DictionaryStorageC 10Foundation4UUIDV 13HomeDataModel15ScrubberElementO
+- _symbolic _____y__________G s18_DictionaryStorageC s6UInt64V 13HomeDataModel011AutoClimateF0C10ThermostatC
+- _symbolic _____y__________Sg13timelapseClip_Sd6offsettG s18_DictionaryStorageC 10Foundation4UUIDV 12HomeKitClips10CameraClipV
+- _symbolic _____y___________p_G Scs12ContinuationV 13HomeDataModel15ScrubberElementO s5ErrorP
+- _symbolic _____y___________p_G Scs8IteratorV 13HomeDataModel15ScrubberElementO s5ErrorP
+- _symbolic _____y___________p__G Scs12ContinuationV11TerminationO 13HomeDataModel15ScrubberElementO s5ErrorP
+- _symbolic _____y___________p__G Scs12ContinuationV11YieldResultO 13HomeDataModel15ScrubberElementO s5ErrorP
+- _symbolic _____y___________p__G Scs12ContinuationV15BufferingPolicyO 13HomeDataModel15ScrubberElementO s5ErrorP
+- _symbolic _____y_____y_____G_ABy_____GABy_____G_____yAAyABy_____G_QPGAAyABy_____G_QPGGABy_____GABy_____GABy_____GABy_____GABy_____GABy_____GABy_____GAIyAAyABy_____G_QPGAAyABy_____G_QPGGAIyAAyABy_____G_QPGAAyABy_____G_QPGGAIyAAyABy_____G_QPGAAyABy_____G_QPGGABy_____GABy_____GABy_____GABy_____GAIyAAyABy_____G_QPGAAyABy_____G_QPGGAIyAAyABy_____G_QPGAAyABy_____G_QPGGAIyAAyABy_____G_QPGAAyABy_____G_QPGGABy_____GABy_____GABy_____GABy_____GABy_____GABy_____GQPG 13HomeDataModel10PackStatusV AA06SingleE0V AA011TemperatureE4ItemV AA08HumidityeH0V AA010AirQualityeH0V AA011ConditionalE0V AA06BlindseH0V AA06ClosedmeH0V AA03FaneH0V AA0j8PurifiereH0V AA06VacuumeH0V AA06LightseH0V AA06OutleteH0V AA011LightSensoreH0V AA08DoorLockeH0V AA06GarageveH0V AA0nxveH0V AA0veH0V AA0nveH0V AA06WindoweH0V AA0nyeH0V AA010SmokeAlarmeH0V AA018CarbonDioxideAlarmeH0V AA019CarbonMonoxideAlarmeH0V AA014SecuritySystemeH0V AA07ContactueH0V AA011IdleContactueH0V AA06MotionueH0V AA010IdleMotionueH0V AA09OccupancyueH0V AA013IdleOccupancyueH0V AA07SpeakereH0V AA010TelevisioneH0V AA09LeakAlarmeH0V AA010IrrigationeH0V AA06FauceteH0V AA09IdleAlarmeH0V
+- _symbolic _____y_____y_____ySDy__________GGSay_____GG_G s15FlattenSequenceV8IteratorV s07LazyMapB0V s0d6FilterB0V 10Foundation4UUIDV 13HomeDataModel13StaticServiceV AL0lM21CharacteristicDoubletV
+- _symbolic ypSgSg
+- _type_layout_string 13HomeDataModel011AutoClimateC0C10ThermostatC15WeekdayScheduleV
+- _type_layout_string 13HomeDataModel011AutoClimateC0C10ThermostatC24CleanEnergySettingConfigV
+- _type_layout_string 13HomeDataModel011AutoClimateC0C10ThermostatC24CleanEnergySettingConfigV0h10PeakSymbolJ0V
+- _type_layout_string 13HomeDataModel23CameraClipsLibraryErrorO
+- _type_layout_string 13HomeDataModel6ActionO013MediaPlaybackD0V5ErrorO
+- _type_layout_string SC11HMErrorCodeLeV
+CStrings:
++ " detected at Front Door"
++ " faceClassifications rawEventCount receivedEventDateInterval "
++ " for accessory: "
++ " found for zone: "
++ " primaryDeviceType:("
++ "%ld asset fallback hero frame(s) for camera %s"
++ "%ld clips"
++ "%ld elements"
++ "%ld elements, camera=%s"
++ "%ld events"
++ "%ld significant event hero frame(s) for camera %s"
++ "%s %@ reachable=%{bool}d supportsNativeMatter=%{bool}d matterNodeID=%s home=%s"
++ "%s %s %s snapshot: %s, error: %s"
++ "%s %s %s streamState: %s, stream: %s, error: %s"
++ "%s %s [%ld] content updates, mode: %s"
++ "%s %s accessMode: %s, isDisabled: %{bool}d"
++ "%s %s content: %s, processModeAgain: %{bool}d"
++ "%s %s enable: %{bool}d, resolution: %s"
++ "%s %s enableIncoming: %{bool}d, enableOutgoing: %{bool}d"
++ "%s %s failed to get settings updates sequence"
++ "%s %s failed to update %s"
++ "%s %s failed to update %s: %@"
++ "%s %s mode: %s"
++ "%s %s mode: %s, derived: %s"
++ "%s %s no-op,\nstreamState: %s,\ncurrentStreamingResolution: %s"
++ "%s %s reconfiguring %s to %s"
++ "%s %s returning due to busy availability, options: %s"
++ "%s %s returning due to in progress stream update"
++ "%s %s returning due to unavailability: %s"
++ "%s %s returning early after ignoring mode: %s"
++ "%s %s returning early because enough time hasn't elapsed"
++ "%s %s returning early because snapshots are being taken"
++ "%s %s rules: %s"
++ "%s %s setting: %s"
++ "%s %s starting stream for %s, resolution: %s"
++ "%s %s state: %s"
++ "%s %s stopping stream for %s"
++ "%s %s taking snapshot"
++ "%s %s unhandled error: %@"
++ "%s %s writing mute: %s, volume: %s"
++ "%s - %s: Failed to set percent setting: %@"
++ "%s - %s: Failed to set rock setting: %@"
++ "%s - %s: Setting temperatureDisplayMode to %{public}hhu."
++ "%s - %s: Unable to create ThermostatUIConfig cluster with %{public}s"
++ "%s - pendingConfigurationIdentifier changed for accessory %{public}s — pendingConfigurationIdentifier: %{public}s"
++ "%s - userConfigurationReady changed for %s — Ready: %{bool}d"
++ "%s Deleted everything"
++ "%s Failed to find static endpoint for path %{public}s"
++ "%s Paging within %s"
++ "%s adding %ld cameras"
++ "%s all clips already have thumbnails, skipping first pass"
++ "%s cameraAvailability: %s, profileAvailability: %s"
++ "%s cancelled after metadata wait"
++ "%s caption polling already running"
++ "%s currently have %ld cameras"
++ "%s deinit called"
++ "%s elementsToDownload: total=%ld afterLimit=%ld"
++ "%s enqueing %s for download"
++ "%s executing %ld first-pass fetch(es)"
++ "%s executing %ld second-pass fallback fetch(es) for %ld clip(s)"
++ "%s failed to encode hero frame as HEIC for %s, skipping cache"
++ "%s failed to fetch captions: %@"
++ "%s failed to fetch embeddings: %@"
++ "%s failed to get person data store: %@"
++ "%s failed to index clips: %@"
++ "%s failed to persist hero frame for %s: %@"
++ "%s fetched %ld captions for polling"
++ "%s for camera %s; sleeping %fs"
++ "%s found gap %s in window %s, direction: %s"
++ "%s found no gap in window %s"
++ "%s indexed %ld clips for camera %s"
++ "%s initial response delay timeout"
++ "%s interval limit %ld reached %{bool}d"
++ "%s is allowed to start"
++ "%s is waiting for more critical fetches to complete"
++ "%s received nil result when processing gap %s"
++ "%s requestID=%s: starting interval %s"
++ "%s starting caption polling"
++ "%s starting periodic snapshots, interval: %s"
++ "%s triggering matter snapshot for native matter accessory %@"
++ "%s-%s source: %s, token: %ld"
++ "%s: HKSV3 fetch failed: %@"
++ "%s: HKSV3 playback asset fetch failed: %@"
++ "%s: HKSV3 thumbnail batch complete: %ld/%ld succeeded"
++ "%s: HKSV3 thumbnail batch — store setup failed: %@"
++ "%s: HKSV3 thumbnail extraction failed for %s: %@"
++ "%s: HKSV3 thumbnail recording fetch failed for %s: %@"
++ "%s: HKSV3 thumbnail skipped — recording %s has zero duration"
++ "%s: HKSV3 thumbnail — no recording for %s"
++ "%s: allowRVC:%{bool,public}d isLock:%{bool,public}d isLight:%{bool,public}d allowHomeActivityState:%{bool,public}d allowEnergy: %{bool,public}d allowedClimate:%{bool,public}d accessory category:%{public}@ accessory:%@"
++ "%s: asset fetch failed: %@"
++ "%s: caption fetch failed for %ld clip(s): %@; ids: %{public}s"
++ "%s: caption fetch interrupted for %ld clip(s): %{public}s"
++ "%s: element stream failed: %@"
++ "%s: embedding fetch failed: %@"
++ "%s: fetched %ld caption(s) for %ld clip(s) (%ld with summary, %ld marked complete)"
++ "%s: fetched %ld embedding(s) for %ld clip(s)"
++ "%s: fetched %ld media asset(s)"
++ "%s: fetched %ld segment(s) for %s"
++ "%s: fetched %ld significant event(s) for %ld id(s)"
++ "%s: fetched %ld significant event(s) for interval %s"
++ "%s: fetched HKSV3 playback asset for %s"
++ "%s: fetched HKSV3 playback asset for %s (cache hit)"
++ "%s: fetched playback asset for %s"
++ "%s: metadata fetch encountered error, returning nil"
++ "%s: no caption record returned for %ld clip(s): %{public}s"
++ "%s: playback asset fetch failed: %@"
++ "%s: roomIds is empty for endpoint %{public}s. Returning random UUID."
++ "%s: segment fetch failed: %@"
++ "%s: signal() called without matching wait() - activeFetches=%ld"
++ "%s: significant event fetch failed: %@"
++ "%{public}s: AirflowDirection not supported, cannot setAirflowDirection"
++ "%{public}s: MultiSpeed not supported, cannot setSpeedSetting"
++ "%{public}s: Rocking not supported, cannot setRockSetting"
++ "%{public}s: Step not supported"
++ "%{public}s: toggling known state, currently %{public}s"
++ "(ClimateModel - addController(for:)) - Failed to load thermostat controller for: %s"
++ "(ClimateModel - addController(for:)) - Loaded thermostat controller for thermostat with matterNodeID: %llu"
++ "(ClimateModel - addController(for:)) - Loading thermostat controller for thermostat with matterDeviceID: %llu if needed"
++ "(ClimateModel - homeManager(:didRemoveAccessory:)) - Removing thermostat controller for thermostat: %s"
++ "(ClimateModel - homeManager(:didRemoveHome:)) - Removing thermostat controllers for home: %s"
++ "(ClimateModel - invalidateLocalPresence(home:accessory:)) - Updating local presence rooms for home: %s"
++ "(ClimateModel - thermostatController(for:)) - Accessory: %s does not support auto climate control."
++ "(ClimateModel - thermostatController(for:)) - Failed to find accessory for static service with accessoryId: %s"
++ "(ClimateModel.Home - fetchLocalPresenceRooms(for:)) - Failed to find eligible home for identifier: %s"
++ "(ClimateModel.Home - fetchLocalPresenceRooms(for:)) - Failed to get rooms supporting local presence for home: %s because of error: %@."
++ "(ClimateModel.Home - fetchLocalPresenceRooms(for:)) - Successfully fetched rooms supporting local presence for home: %s rooms: %s."
++ "(ClimateModel.Thermostat - (energyIsExpensive(for:hasRatesEnabled:timeZone:))) - Failed to refresh peak ranks for energy site with identifier: %s, in home with identifier: %s"
++ "(ClimateModel.Thermostat - (fetchCurrentAdaptiveTemperatureSetting(isInitialSetup:)) - Failed to find home for accessory: %s."
++ "(ClimateModel.Thermostat - (fetchCurrentAdaptiveTemperatureSetting(isInitialSetup:)) - Failed to find room for accessory: %s."
++ "(ClimateModel.Thermostat - (fetchCurrentAdaptiveTemperatureSetting(isInitialSetup:)) - Failed to get adaptive temperature settings for accessory: %s because of error: %@."
++ "(ClimateModel.Thermostat - (fetchCurrentAdaptiveTemperatureSetting(isInitialSetup:)) - Fetching current Adaptive Temperature settings for accessory: %s."
++ "(ClimateModel.Thermostat - (fetchCurrentAdaptiveTemperatureSetting(isInitialSetup:)) - Successfully fetched adaptive temperature settings for accessory: %s with temperature driver: %s and selected rooms: %s."
++ "(ClimateModel.Thermostat - (fetchCurrentSleepSchedule(isInitialSetup:)) - Fetching current sleep schedule for accessory: %s."
++ "(ClimateModel.Thermostat - (peakRanks(for:in:))) - Current peak rank: %ld"
++ "(ClimateModel.Thermostat - (setUpCleanEnergySetting(isInitialSetup:)) - Failed to find home for identifier: %s."
++ "(ClimateModel.Thermostat - (setUpCleanEnergySetting(isInitialSetup:)) - Loaded clean energy settings for accessory: %s,  %s"
++ "(ClimateModel.Thermostat - (updatePeakRates()) - Failed to find home for identifier: %s."
++ "(ClimateModel.Thermostat - (updatePeakRates()) - Updating clean energy settings for accessory: %s,  %s"
++ "(ClimateModel.Thermostat - (updatePeakRates()) - no accessory found with identifier: %s"
++ "(ClimateModel.Thermostat - (updatePeakRates()) - no energy site found for home with identifier: %s"
++ "(ClimateModel.Thermostat - (updateSnapshot(with:)) - Could not get home manager"
++ "(ClimateModel.Thermostat - (updateSnapshot(with:)) - No home found for accessory: %s,  homeUUID: %s"
++ "(ClimateModel.Thermostat - (updateSnapshot(with:)) - No home found for accessory: %s, homeUUID: %s"
++ "(ClimateModel.Thermostat - (updateSnapshot(with:)) - Updating snapshot with adaptive temperature settings for accessory: %s, setting: %s"
++ "(ClimateModel.Thermostat - (updateSnapshot(with:)) - Updating snapshot with clean energy settings for accessory: %s, setting: %s"
++ "(ClimateModel.Thermostat - (updateSnapshot(with:)) - Updating snapshot with sleep schedule for accessory: %s, schedule: %s"
++ "(ClimateModel.Thermostat - (updateState(autoClimateControlConfig:)) - Updated adaptive temperature settings for accessory: %s. New state: %s"
++ "(ClimateModel.Thermostat - (updateState(autoClimateControlConfig:)) - Updated clean energy setting for accessory: %s. New state: %s"
++ "(ClimateModel.Thermostat - (updateState(autoClimateControlConfig:)) - Updated sleep schedule for accessory: %s. New state: %s"
++ "(ClimateModel.Thermostat - (writeAdaptiveTemperatureSettings(_ setting:)) - Failed to update adaptive temperature settings due to error: %@. Reverting to previous state."
++ "(ClimateModel.Thermostat - (writeAdaptiveTemperatureSettings(_ setting:)) - Updating adaptive temperature settings for accessory: %s to temperature driver: %s and selected rooms: %s."
++ "(ClimateModel.Thermostat - (writeCleanEnergySetting(_ setting:)) - Failed to update electricity rates enabled for home: %s to %s: due to error: %s. Reverting to previous state"
++ "(ClimateModel.Thermostat - (writeCleanEnergySetting(_ setting:)) - Updating electricity rates enabled to %s for home: %s"
++ "(ClimateModel.Thermostat - (writeSleepSchedule(_ schedule:)) - Failed to generate schedule for accessory: %s"
++ "(ClimateModel.Thermostat - (writeSleepSchedule(oldRule:newRule:)) - Updating sleep schedule rule: %s to %s"
++ "(ClimateModel.Thermostat: (fetchCurrentSleepSchedule(isInitialSetup:)) - Failed to get current sleep schedule for accessory: %s with error: %@."
++ "(ClimateModel.Thermostat: (fetchCurrentSleepSchedule(isInitialSetup:)) - Successfully fetched sleep schedule: {%s} for accessory: %s"
++ "(ClimateModel.Thermostat: (writeSleepSchedule(_ schedule:)) - Failed to update thermostat schedule for accessory: %s due to error: %@. Reverting to previous state."
++ "(ClimateModel.Thermostat: (writeSleepSchedule(_ schedule:)) - Successfully updated thermostat schedule to: %s for accessory: %s."
++ "(ClimateModel.Thermostat: (writeSleepSchedule(_ schedule:)) - Updating thermostat schedule to: %s for accessory: %s."
++ ") deviceState: ("
++ ",\n    canBeToggled: "
++ ",\n    deviceTypes: "
++ ",\n    isFavorite: "
++ ",\n    isReachable: "
++ ", fetchAllChanges: "
++ ", primaryDeviceType: "
++ ", resultsLimit: "
++ ".pendingConfigurationIdentifier("
++ ".significantEvents"
++ "00000000-0000-0000-0000-000000000001"
++ "All per-camera polling loops finished; closing output stream"
++ "AnyEndpointLike { id: "
++ "AnyEndpointLike: endpointPath: "
++ "Asset download failed: "
++ "Asset not found in ProductKit"
++ "AssetDownload"
++ "Attempting to fetch HKSV3 elements"
++ "Attribute query failed: %s"
++ "Awaiting initial fetch completion for camera %s"
++ "Background camera fetch task completed"
++ "Background camera fetch task expired"
++ "Background fetch scheduled for %ld camera profile(s)"
++ "BackgroundFetchTask"
++ "Cached clip asset URL no longer exists on disk, removing stale entry for %s"
++ "Camera detected a "
++ "Camera detected a person yesterday"
++ "CameraClipEventDetectedFormatPlural"
++ "CameraClipEventDetectedFormatSingular"
++ "CameraClipInsufficientAnalysis"
++ "CameraClipReachabilityOffline"
++ "CameraClipReachabilityOnline"
++ "CameraClipReasonSubjectAnimal"
++ "CameraClipReasonSubjectMotion"
++ "CameraClipReasonSubjectPackage"
++ "CameraClipReasonSubjectPerson"
++ "CameraClipReasonSubjectVehicle"
++ "CameraClipsLibrary-fetchScrubberElementsMetadata: fetching with date interval: %s, limit: %ld, ascending: %{bool}d"
++ "Cameras-lastSelectedClipQuickSearch"
++ "Cancelled suspended fetch %s, found: %{bool}d"
++ "Cannot create FanControl command: endpoint %{public}s does not have FanControl cluster"
++ "Caption polling task finished"
++ "Caption polling task running"
++ "Caption summary empty for clip %{public}s (fetch complete: %{bool}d)"
++ "CaptionFetch"
++ "Catching up on filtered-out changes for camera %s; cooldown %s before next iteration"
++ "Change fetch errored for camera %s; backing off %fs"
++ "ChangeFetch"
++ "Cleared CSSearchableIndex"
++ "ClipFetchBatch"
++ "Complete"
++ "CoreSpotlightQuery"
++ "Could not find Home for MTRDevice: %{public}@"
++ "Could not get matter device or primary device type while trying to get symbolSet. accessory: %s"
++ "Could not schedule background fetch task: %s"
++ "Couldn't create MTROperationalStateClusterOperationalStateStruct from value '%{public}s' path:'%{public}s'"
++ "Couldn't create MatterOperationalState from value '%{public}s'"
++ "Couldn't find request with id %s"
++ "Coverage(intervals: ["
++ "CoverageCamera"
++ "CoverageGap"
++ "CoverageGapCaptions"
++ "CoverageGapMetadata"
++ "CoverageGapSE"
++ "CoverageGapSEFollowUp"
++ "CoverageRequest"
++ "Created CSSearchQuery for attribute search: '%s'"
++ "Created CSSearchQuery for wildcard search"
++ "Created CSUserQuery for semantic search: '%s'"
++ "Created StaticElectricalMeterEndpointGroup at %{public}s with %ld Electrical Sensor children"
++ "Created StaticMeterReferencePointEndpointGroup at %{public}s with %ld Electrical Meter children"
++ "Creating %{public}s name: %s"
++ "Creating new fetch state record for %s"
++ "Creating new fetch state record for %s with new token"
++ "Data store setup complete"
++ "Deleted %ld expired CameraEventRecord(s) older than %s"
++ "Deleted %ld local CameraEventRecord(s) for clips %s"
++ "Deleted %s"
++ "Deleted local CameraEventRecord for clip %s"
++ "Deleted store at path %{public}s"
++ "Deleting %ld file(s)"
++ "Deleting CameraClip IDs: %s"
++ "Deleting CameraRecording IDs: %s"
++ "Deleting clip %s for camera %s"
++ "Deleting indexing for %s"
++ "DeletionBatch"
++ "Download timed out"
++ "Dropped %ld caption(s) and %ld embedding(s) for unknown clip IDs"
++ "Electrical Meter endpoint %{public}s missing required clusters"
++ "Electrical Meter endpoint %{public}s received unexpected command for child endpoint %{public}s"
++ "Electrical Sensor"
++ "EmbeddingFetch"
++ "EnergyMonitoring"
++ "EnergyViewModel-"
++ "Enqueued non-cancellable request %s for coverage %s"
++ "Enqueued request %s for coverage %s"
++ "Escalated priority of %s to %s"
++ "Evaluating query: %s"
++ "Evaluating request %s, fetched windows: %s"
++ "Event record missing for clip %{public}s"
++ "Executing attribute query: %s"
++ "Executing semantic query: '%s'"
++ "Extensions.ExtendedContent"
++ "Failed to cast task as BGProcessingTask"
++ "Failed to clear CSSearchableIndex: %{public}s"
++ "Failed to create SearchResult: invalid uniqueIdentifier '%s'"
++ "Failed to delete %s: %@"
++ "Failed to delete expired records: %@"
++ "Failed to delete indexing for %s"
++ "Failed to delete store at path %{public}s with error: %s"
++ "Failed to fetch HKSV3 elements: %s"
++ "Failed to fetch change tokens %@"
++ "Failed to fetch coverage windows: %@"
++ "Failed to fetch events by clip ID for indexing: %@"
++ "Failed to fetch events for %ld clip(s): %s; ids: %{public}s"
++ "Failed to fetch segments for %s: %@"
++ "Failed to fetch significant events: %@"
++ "Failed to fetch transactions: %@"
++ "Failed to find target destination URL for image asset %s"
++ "Failed to generate modelContainer for Camera Store"
++ "Failed to get contents of directory %s"
++ "Failed to index batch: %@"
++ "Failed to initialize Electrical Energy Measurement cluster for Electrical Meter at %{public}s"
++ "Failed to initialize Electrical Power Measurement cluster for Electrical Meter at %{public}s"
++ "Failed to parse MeasurementAccuracyStruct for ElectricalEnergyMeasurement cluster at path: %{public}s"
++ "Failed to read Accuracy attribute for ElectricalPowerMeasurement cluster at path: %{public}s"
++ "Failed to read NumberOfMeasurementTypes attribute for ElectricalPowerMeasurement cluster at path: %{public}s"
++ "Failed to read PowerMode attribute for ElectricalPowerMeasurement cluster at path: %{public}s"
++ "Failed to remove asset at %s: %@"
++ "Failed to save with error %@"
++ "Failed to summarize captions: %{public}s"
++ "Failed to write thumbnail for %s: %@"
++ "FallbackHeroFrames"
++ "FeedbackClipDownloader: creating store for zone %s (%ld clips)"
++ "FeedbackClipDownloader: download failed for %s: %@"
++ "FeedbackClipDownloader: downloaded %s (%ld bytes)"
++ "FeedbackClipDownloader: failed to get data store for zone %s: %@"
++ "FeedbackClipDownloader: fetchClips returned %ld clips: %s"
++ "FeedbackClipDownloader: fetchClips threw: %@"
++ "FeedbackClipDownloader: fetchMediaAssets threw: %@"
++ "FeedbackClipDownloader: requesting IDs: %s"
++ "FeedbackClipDownloader: zone %s: %ld clips, %ld assets"
++ "Fetch %s completed with %s"
++ "Fetch failed when matching assets with error: %@"
++ "Fetch failed when matching embeddings with error: %s"
++ "Fetch failed when stamping recognizedPersonUUID: %s"
++ "Fetch for events failed when matching hero frames with error %@"
++ "Fetch returned zero events when matching hero frames"
++ "FetchAndUpdate"
++ "FetchAndUpdateCaptions"
++ "Fetched %ld HKSV3 recordings, converted to %ld elements"
++ "Fetched %ld captions for %ld clips"
++ "Fetched %ld transaction(s)"
++ "Fetched and cached %ld segments for clip %s"
++ "Fetched failed when matching HKSV3 significant events with error: %s"
++ "Fetched zero events when trying to match HKSV3 significant events"
++ "Fetched zero events when trying to match embeddings"
++ "Fetching"
++ "Fetching HKSV3 recordings with date interval: %s, limit: %ld"
++ "Finished coverage request %s"
++ "Found %ld events for %ld clip(s) with %ld captions"
++ "Found no events for %ld clip(s) with %ld captions; ids: %{public}s"
++ "Front door detected a "
++ "Front door detected a person"
++ "HEIC encode failed or timed out for clip %s"
++ "HFCharacteristicValueFanModeAuto"
++ "HFElectricalPowerMeasurementActivePowerDescription"
++ "HFElectricalPowerMeasurementAllHomeStatusTitle"
++ "HFElectricalPowerMeasurementStatusTitle"
++ "HFOutletStatusWithPower"
++ "HFSensitiveStrings-AccessorySetup"
++ "HFSensitiveStrings-CameraRefresh"
++ "HFSensitiveStrings-EnergyMonitoring"
++ "HFServiceDescription.FaucetValve, State:HeatReady"
++ "HFServiceDescription.FaucetValve, State:Preheating"
++ "HFServiceDescription.FaucetValve, State:Starting"
++ "HFServiceDescription.FaucetValve, State:Stopping"
++ "HKSV3 data store pre-warm failed: %@"
++ "HKSV3 data store setup complete"
++ "HKSV3 data store setup failed: %@"
++ "Handling %s, unsavedMutations: %ld"
++ "Handling coverage request %s"
++ "Hero frame afterUpdate elementID=%s hasFrame=%{bool}d"
++ "Hero frame applied to elementID=%s"
++ "Hero frame candidate elementID=%s date=%s firstEventUUID=%s alreadyHasHeroFrame=%{bool}d"
++ "Hero frame carry-over SKIPPED for elementID=%s sigEventsCount=%ld firstEventID=%s"
++ "Hero frame carry-over fired for elementID=%s eventID=%s resultHasFrame=%{bool}d"
++ "Hero frame downloadResult elementID=%s resultHasFrame=%{bool}d existingInCacheHasFrame=%{bool}d sigEvents=%ld"
++ "Hero frame elementsIn=%ld needingHeroFrames=%ld"
++ "Hero frame entering: elementID=%s date=%s sigEvents=%ld firstEventUUID=%s alreadyHasHeroFrame=%{bool}d"
++ "Hero frame fetched uuid=%s heroFrame=%{bool}d"
++ "Hero frame fetched uuid=%s — no matching elements in lookup"
++ "Hero frame requesting uuid=%s for elementID=%s"
++ "Hero frame stream completed: requested=%ld received=%ld"
++ "HeroFrameFetch"
++ "HomeDataModel.MockElectricalEnergyMeasurementCluster"
++ "HomeDataModel.MockElectricalPowerMeasurementCluster"
++ "HomeDataModel/AccessoryDetails+Climate.swift"
++ "HomeDataModel/ClimateModel.Thermostat.Structs.swift"
++ "HomeDataModel/ClimateModel.Thermostat.swift"
++ "HomeDataModel/StaticThermostatUIConfigCluster.swift"
++ "HomeDataModel/WaveformDataProvider.swift"
++ "Idle"
++ "Image download failed for clip %s"
++ "IndexBatch"
++ "IndexClipsAfterHeroFrames"
++ "IndexClipsBeforeHeroFrames"
++ "IndexEvents"
++ "Indexing"
++ "Indexing %ld event(s)"
++ "InitialHeroFrameDownload"
++ "Inserting %ld elements out of %ld"
++ "Intake continuation finished with reason %s"
++ "List the key subjects from these events in one sentence joined with commas and 'and'. Keep specific names like FedEx or USPS. Do not add details not in the input."
++ "Malformed asset data: "
++ "Matched %ld out of %ld significant events"
++ "MatterAttributePoller: After filtering, there are no paths to read, skipping registration. Client: '%{public}s'"
++ "MatterAttributePoller: Could not find device %{public}llu in home %{public}s"
++ "MatterAttributePoller: Polling task exited"
++ "MatterAttributePoller: Registered subscription '%{public}s' (%{public}s) with %{public}s"
++ "MatterAttributePoller: Rejecting path that could contain low-performance attributes for client '%{public}s'"
++ "MatterAttributePoller: Starting polling"
++ "MatterAttributePoller: Stopping polling"
++ "MatterAttributePoller: Unregistered all subscriptions"
++ "MatterAttributePoller: Unregistered subscription %{public}s"
++ "MatterAttributePoller: performPollingCycle — %ld device(s)"
++ "MatterCommandError-RVC-UnknownError-Description"
++ "MatterHRAPDeviceTypes"
++ "Meter Reference Point endpoint %{public}s has no Electrical Meter child endpoints"
++ "Meter Reference Point endpoint %{public}s received unexpected command for child endpoint %{public}s"
++ "Network unavailable for asset download"
++ "NightCameraRecordingSetting"
++ "No HKSV3 context available, returning empty elements"
++ "No camera profile for %s, skipping %s"
++ "No clips need caption updates"
++ "No executor for camera: %s!!"
++ "No fetch executor is registered for this camera."
++ "No identifiers to download asssets for %s"
++ "No local CameraEventRecord found for clip %s, skipping local delete"
++ "No local CameraEventRecord found for clips %s, skipping local delete"
++ "No media to download for assets %s"
++ "No recording event manager available for HKSV3 data store, skipping setup"
++ "No search active, emitting noFilter"
++ "No segments available for clip %s"
++ "OnDemandHeroFrameFetch"
++ "Passing fetch %s to executor"
++ "Pending configuration identifier: "
++ "Person detected at Front Door"
++ "Polling fetch startDate (%s) is later than now (%s); clamping startDate to now."
++ "Polling fetching changes for camera %s ended with output %s"
++ "Polling loop canceled for camera %s"
++ "Predicate(requires: ["
++ "Processing %ld evicted assets"
++ "Query '%s' returned %ld results"
++ "Query failed: %s"
++ "Query returned %ld results"
++ "Relevant changes landed"
++ "Removed %s after cancellation; cancelled task: %{bool}d"
++ "Removing %ld clip(s) from index"
++ "Removing %ld deleted clip(s) from index"
++ "Requests continuation finished with reason %s"
++ "ResolveCurrentNames"
++ "Sanitizer error: %{public}@ input: %{private}s"
++ "Save called without any pending changes"
++ "SearchFetchMetadata"
++ "SearchReadyPipeline"
++ "Semantic query blocked by GMS sanitization, showing empty results"
++ "Semantic query failed: %s"
++ "Setting limitingSourceIdentifier to nil"
++ "Setting limitingSourceIdentifier: %s"
++ "Setting query: %s"
++ "Setting up HKSV3 data store with zone: %s"
++ "Setup failed for %s: %@"
++ "SetupHKSV3DataStore"
++ "SetupRecordingManager"
++ "SignificantEventsFetch"
++ "Skipping polling, invalid duration %f"
++ "Start runBackgroundFetch"
++ "Starting change observation; priority: %s"
++ "Starting coverage processing; priority: %s"
++ "Starting download for media %s"
++ "Starting history tracker, priority: %s"
++ "Starting input handling, priority: %s"
++ "Starting intake save timer; priority: %s"
++ "Starting polling fetching changes for camera %s"
++ "Starting polling loop for camera %s; initial token: %s"
++ "Starting save timer"
++ "Starting wanted hero frame processing; priority: %s"
++ "StateSnapshot.pendingConfigurationIdentifier"
++ "StaticBasicInfoCluster: Setting localConfigDisabled to %{bool,public}d at %{public}s"
++ "StaticBasicInfoCluster: Unable to create BasicInformation cluster at %{public}s"
++ "StaticElectricalEnergyMeasurementCluster: Couldn't get value for accuracy attribute '%{public}s'"
++ "StaticFanControlCluster-"
++ "StaticFanControlCluster: Missing FanMode attribute at %{public}s"
++ "StaticFanControlCluster: Missing FanModeSequence attribute at %{public}s"
++ "StaticFanControlCluster: Missing PercentCurrent attribute at %{public}s"
++ "StaticMatterDevice: nodeID: "
++ "StaticThermostatUIConfigCluster: Missing KeypadLockout attribute at %{public}s"
++ "StaticThermostatUIConfigCluster: Missing TemperatureDisplayMode attribute at %{public}s"
++ "StoreQueryForFiltering"
++ "StoreTriggeredFilterUpdate"
++ "Submitting batched changes:\n%ld deleted\n%ld modifiedCaptions\n%ld modifiedEmbeddings"
++ "Submitting initial coverage %s"
++ "Successfully merged HKSV3 elements: HKSV2=%ld, HKSV3=%ld, total=%ld"
++ "Successfully saved"
++ "Successfully scheduled background fetch task."
++ "SwiftData.Schema.Index"
++ "SwiftData.Schema.Unique"
++ "TVRemoteCore"
++ "The camera data store is not available for deletion."
++ "Triggered external device sync via NanoPreferencesSync"
++ "Unable to process coverage requests because there's no continuation"
++ "Unexpected error"
++ "Unexpected sanitizer error: %{public}@ query: %{private}s"
++ "Unknown EndpointLikeProtocol type: "
++ "Unknown ProductKit error"
++ "Updated fetch state for %s; intervals: %s"
++ "Updated: total=%ld added=%ld removed=%ld pending=%ld dispatched=%ld"
++ "Updating %s"
++ "Updating fetch state record for %s with new token"
++ "VideoDownload"
++ "Writing image asset to %s"
++ "Wrote HKSV3 fallback thumbnail for clip %s (%ld bytes)"
++ "Wrote asset-based thumbnail for clip %s (%ld bytes)"
++ "Wrote thumbnail for clip %s (%ld bytes)"
++ "Yielding evaluateCompounds with %ld event(s)"
++ "Yielding indexEvents with %ld event(s)"
++ "[%s] %s intake stream finished: %s"
++ "[%s] change fetch errored during preflight drain; stopping"
++ "[%s] fetch completed"
++ "[%s] fetch starting"
++ "[%s] fetchAndCompleteClips completed"
++ "[%s] fetchAndCompleteClips failed to fetch events for [%s, %s]"
++ "[%s] fetchAndCompleteClips got no clips for [%s, %s]"
++ "[%s] fetchAndCompleteClips got unexpected output kind: %s"
++ "[%s] fetchAndCompleteClips marking %ld clip(s) as embedding/caption fetch complete (interval older than %ldm): %{public}s"
++ "[%s] fetchAndCompleteClips received %ld clip(s)"
++ "[%s] fetchAndCompleteClips skipping completion: could not compute date range from metadata"
++ "[%s] fetchAndCompleteClips starting [%s, %s]"
++ "[%s] fetchEmbeddingsAndCaptions completed"
++ "[%s] fetchEmbeddingsAndCaptions marking %ld clip(s) as fetch complete (interval older than %ldm)"
++ "[%s] fetchEmbeddingsAndCaptions starting for %ld clip(s) [%s, %s]"
++ "[%s] fetching embeddings + captions for %ld clip(s)"
++ "[%s] got no captions for %ld clip(s)"
++ "[%s] got no embeddings for %ld clip(s)"
++ "[%s] received %ld caption(s)"
++ "[%s] received %ld embedding(s)"
++ "[%s] retry attempt %ld/%ld for query [%s, %s] kind=%s"
++ "[%s] running .embeddingAndCaption query for %ld clip(s)"
++ "[%s] running .everything query [%s, %s]"
++ "[%s] skipping .embeddingAndCaption query — all %ld clip(s) already attempted"
++ "[%s] starting background fetch"
++ "[ChangeFetch] Fetching changes for %s using change token: %s, resultsLimit: %s, fetchAllChanges: %{bool}d"
++ "[ChangeFetch] Finished, submitting:\n%ld deleted\n%ld modifiedCaptions\n%ld modifiedEmbeddings"
++ "[ChangeFetch] Missing store"
++ "[ChangeFetch] Reached %hu batched changes, submitting:\n%ld deleted\n%ld modifiedCaptions\n%ld modifiedEmbeddings"
++ "[ChangeFetch] Received deleted event: %s"
++ "[ChangeFetch] Received modified clip caption for %s"
++ "[ChangeFetch] Received modified clip embedding for %s"
++ "[ChangeFetch] Received new change token"
++ "[ChangeFetch] fetchChanges failed for %s: %@"
++ "[Coverage] camera=%s gap=%s elements=%ld rawCount=%ld saturated=%{bool}d received=%s → honest=%s (%fs)"
++ "[Coverage] camera=%s requestID=%s processing %s"
++ "[Coverage] camera=%s: %ld SE(s) had no matching metadata in this fetch"
++ "[Coverage] camera=%s: metadata fetch returned nil for gap %s"
++ "[Coverage] camera=%s: non-metadata output for gap %s"
++ "[EndpointLikeProtocol set(name:)] Failed to set name for accessory with UUID: %{public}s"
++ "[Face Classification] No current home found for user context."
++ "[FaceCaption] %s returning %ld name(s), %ld event match(es); from home: %ld, from photos: %ld, from unknownSource: %ld, unmatched: %ld; homePersonsCount=%ld, photosPersonsCount=%ld, photosDataSetAvailable=%{bool}d"
++ "[FaceCaption] received %ld face classification(s); eventIDs: %s%s"
++ "[FaceCaption] resolved %ld person name(s) from %ld classification(s); userContextSet=%{bool}d, isOwner=%{bool}d"
++ "[FaceCaption] summary has no person tokens for clip %s; knownNames=%ld"
++ "[FaceCaption] summary has person token(s) for clip %s; knownNames=%ld"
++ "[FaceCaption] title has no person tokens for clip %s; knownNames=%ld"
++ "[FaceCaption] title has person token(s) for clip %s; knownNames=%ld"
++ "[StaticMatterDevice init] Found bridged accessory with identifier %{public}s that doesn't have a endpoint ID on its info service"
++ "[WHF] %s batch complete: yielded %ld frame(s) in %s"
++ "[WHF] debounce fired but nothing to dispatch"
++ "[WHF] debounce fired: absorbed %ld signal(s) over %s"
++ "[WHF] dispatching %ld clip(s) across %ld camera(s), requestID=%s"
++ "[WHF] one-shot cache hit clip=%s url=%s"
++ "[WHF] one-shot complete clip=%s url=%s"
++ "[WHF] one-shot complete clip=%s url=nil (still missing after fetch)"
++ "[WHF] one-shot dispatch clip=%s (record exists, no thumbnail yet)"
++ "[WHF] one-shot dispatch clip=%s (record not in store, will attempt fetch anyway)"
++ "[WHF] one-shot fetch entry clip=%s"
++ "[WHF] setWantedHeroFrameClipIDs: count=%ld"
++ "[all events] batch completed: camera=%s, direction=older, eventsFetched=%ld, totalEvents=%ld"
++ "[all events] completed: camera=%s, totalEvents=%ld"
++ "[all events] started: camera=%s"
++ "[asset download] completed: camera=%s, result=success, totalEvents=%ld"
++ "[asset download] started: camera=%s"
++ "[asset download] triggered: camera=%s, element=%s, count=%ld"
++ "[download remaining hero frames] completed: camera=%s count=%ld"
++ "[download remaining hero frames] skipped: camera=%s elementsWithoutHeroFrame=%ld cancelled=%{bool}d"
++ "[download remaining hero frames] started: camera=%s count=%ld"
++ "[fallbackHeroFrames] batch fetchMediaAssets failed: %@"
++ "[fallbackHeroFrames] element %s: generated fallback hero frame"
++ "[fallbackHeroFrames] element %s: generation failed: %@"
++ "[fallbackHeroFrames] element %s: no HomeKitClips clip available"
++ "[fallbackHeroFrames] element %s: no media asset from batch fetch"
++ "[indexElements] hero frame already persisted for %s"
++ "[indexElements] persisted hero frame to %s for %s"
++ "[indexing] skipping clip %s (date=%s, duration=%lds): no significant events and no generated hero frame"
++ "[indexing] skipping clip %s: indexedClip returned nil (hasHeroFrame=%{bool}d, significantEvents=%ld)"
++ "[initial fetch] completed: camera=%s, totalEvents=%ld"
++ "[initial fetch] started: camera=%s"
++ "[resolveCaptionPersonTokens] personNamesByPersonUUID has %ld entries with IDs: %s"
++ "_kMDItemBundleID == \"com.apple.Home\""
++ "_kMDItemThumbnailData"
++ "accessory(_:didUpdateUserConfigurationReady:)"
++ "accessoryDidUpdatePendingConfigurationIdentifier(_:)"
++ "accessoryID identifier homeID "
++ "airflowDirection"
++ "allHomePersonNames()"
++ "alreadyPersistedCameraEventIdentifiers fetch failed: %@"
++ "assetFallbackFetches: HKSV3 record %s has no recordingSessionNumber, skipping fallback"
++ "assetFallbackFetches: fetch failed: %@"
++ "bolt.fill"
++ "camera-data.sqlite"
++ "camera.event.fetchAndIndex"
++ "camera.event.fetchCoordinator"
++ "camera.event.historyTracker"
++ "camera.event.singleCameraFetchExecutor"
++ "camera.event.store"
++ "camera.event.store.heroFrames"
++ "camera.event.store.indexer"
++ "camera.event.store.intake"
++ "camera=%s"
++ "camera=%s clips=%ld"
++ "camera=%s events=%ld"
++ "camera=%s gap=%s direction=%s"
++ "camera=%s interval=%s...%s"
++ "camera=%s limit=%ld"
++ "camera=%s result=%ld clips=%ld"
++ "camera=%s result=%ld events"
++ "camera=%s result=%ld filtered=%ld interval=%s...%s"
++ "camera=%s result=failed"
++ "cameraClipsHeroCropMinimumSize"
++ "cameraClipsHeroCropPaddingFraction"
++ "cameraClipsOverrideForceHLS"
++ "cameraEventStoreBackgroundFetchWindow"
++ "cameraEventStoreBatchSizeInitial"
++ "cameraEventStoreChangeFetchDrainCooldown"
++ "cameraEventStoreChangeFetchPollingInterval"
++ "cameraEventStoreChangeFetchPollingResultsLimit"
++ "cameraEventStoreEmbeddingCaptionAvailabilityLag"
++ "cameraEventStoreIndexBatchSize"
++ "cameraEventStoreIndexBatchTimeout"
++ "cameraEventStoreMaxConcurrentHeroFrameFetches"
++ "cameraEventStoreParallelFetch"
++ "cameraEventStorePurgeOnLaunch"
++ "cameraEventStoreTailFetchSkipThreshold"
++ "cameraEventStoreUseCustomConstants"
++ "cameraForcePortraitCameraID"
++ "cameraIDs: fetch failed: %@"
++ "cameraOverrideAutoLiveThrottleInterval"
++ "cameraProfileID startDate latestDate "
++ "cameraRecording("
++ "camera_refresh"
++ "camera_refresh_incremental_fetch"
++ "camera_refresh_live"
++ "camera_refresh_motionselection"
++ "cameras=%ld"
++ "captionStateValue"
++ "captionsAndEmbeddingsFetchStateRawValue"
++ "car.fill"
++ "clipID date "
++ "clipID eventAsset "
++ "clipIDsStillMissingThumbnails: fetch failed: %@"
++ "clipUUID heicData "
++ "clips=%ld"
++ "com.apple.home.assetFetchQueue"
++ "com.apple.home.backgroundCameraClipFetch"
++ "com.apple.home.camera.heroframe.clipassetqueue"
++ "completedAssets("
++ "completedCaptions("
++ "completedChanges(token: "
++ "completedEmbeddings("
++ "completedFetchForCamera("
++ "completedFetchForClipsCaptionsAndEmbeddings "
++ "completedHKSV3ThumbnailImages("
++ "completedMetadata("
++ "completedPlaybackAsset("
++ "completedSegments("
++ "completedSignificantEvents("
++ "confidenceLevelValue"
++ "configure(resolver): configuring resolver with locationHome=%{public}s, primaryHome=%{public}s"
++ "contentCreationDate"
++ "coordinated_playback"
++ "creating camera for %s"
++ "cumulativeEnergyExported"
++ "cumulativeEnergyImported"
++ "cumulativeEnergyReset"
++ "dateInterval limit ascending includeHeroFrame "
++ "deleteAllData(from:)"
++ "dishwasher.fill"
++ "domainIdentifier"
++ "domainIdentifier == \""
++ "drop.fill"
++ "dryer.fill"
++ "electricalEnergyMeasurement"
++ "electricalMeter"
++ "electricalMeters"
++ "electricalMeters: "
++ "electricalPowerMeasurement"
++ "electricalSensorEndpointIDs"
++ "enableAudio(for:)"
++ "energy_insights2026"
++ "ev_charging_activity_log"
++ "events=%ld"
++ "exportedResetSystime"
++ "exportedResetTimestamp"
++ "faceClassifications("
++ "faceCropURLString"
++ "fetchAndCompleteClips"
++ "fetchAndUpdateCaptions(for:)"
++ "fetchAndUpdateEvents(in:limit:ascending:downloadAssets:downloadVideo:assetDownloadLimit:indexingBehavior:)"
++ "fetchChangesSinceLastChangeToken"
++ "fetchEmbeddingsAndCaptions"
++ "fetchHKSV3Elements: recording id=%s date=%s duration=%f isComplete=%{bool}d"
++ "fetchScrubberElementsMetadata: clip id=%s date=%s duration=%f isComplete=%{bool}d"
++ "fetchScrubberElementsMetadata: store.fetchEvents done — clips=%ld timelapse=%ld reachability=%ld"
++ "fetchSignificantEvents: done — hksv3=%ld legacy=%ld unmatched=%ld"
++ "fetchSignificantEvents: done — legacy=%ld unmatched=%ld"
++ "fetchSignificantEvents: failed to batch-fetch HKSV3 recordings: %@"
++ "fetches=%ld"
++ "frame:boundingBox"
++ "harmonicCurrents"
++ "hasFetchForEmbeddingsAndCaptions"
++ "heroFrameAssets("
++ "heroFrameFetches: %ld event(s) missing thumbnails out of %ld requested"
++ "heroFrameFetches: fetch failed: %@"
++ "hksv3ThumbnailImages("
++ "home_intelligence"
++ "homekit.search.camera"
++ "http://ns.apple.com/Home/camera/1.0/"
++ "iOSBundleIDRename"
++ "ignoreModeUpdatesExceptForNone"
++ "importedResetSystime"
++ "importedResetTimestamp"
++ "indexElements(_:)"
++ "intakeHKSV3Thumbnail fetch failed for %s: %@"
++ "intakeHKSV3Thumbnail: %s already has a thumbnail or no longer exists"
++ "interval limit ascending "
++ "isClipCaptioningEnabled"
++ "isCommissionedOverNFCWithoutPower"
++ "limit=%ld"
++ "manufacturerDefined"
++ "manufacturerDefined(mfgCode: "
++ "maxMeasuredValue"
++ "metadata(limit: "
++ "meterReferencePoint"
++ "meterReferencePoints"
++ "meterReferencePoints: "
++ "microwave.fill"
++ "minMeasuredValue"
++ "numberOfMeasurementTypes"
++ "off/low/high/auto"
++ "off/low/med/high"
++ "off/low/med/high/auto"
++ "orderedVisibleTileInfos: unhandled TileInfoBearer type '%s' (name: %s) dropped by filterCategory %s"
++ "oven.fill"
++ "performDataSync(homeManager:) HMHomeManager state already known: %s"
++ "periodicEnergyExported"
++ "periodicEnergyImported"
++ "planned %ld query/queries for camera %s (stored intervals: %ld, pending clips: %ld)"
++ "point.3.filled.connected.trianglepath.dotted"
++ "process(_:availability:)"
++ "prox_pairing"
++ "reachabilityEndDate"
++ "receivedCaptions("
++ "receivedChanges("
++ "receivedEmbeddings("
++ "receivedMetadata("
++ "receivedSignificantEvents("
++ "recognizedPersonUUID"
++ "reconfigureStream(with:)"
++ "recordingSessionNumber"
++ "recordingTypeValue"
++ "refresh(homeManager:timeout:) not refreshing: dataSyncState=%{public}s"
++ "requestID=%s completed; persisted intervals: %s"
++ "requesting fetch in polling task for interval %s"
++ "result=%ld clips=%ld"
++ "result=%ld events=%ld"
++ "result=failed"
++ "scheduleProgrammingVisibility"
++ "sensor.fill"
++ "setAirflowDirection("
++ "setOscillate(_:)"
++ "setPercentSetting("
++ "setSpeedSetting("
++ "setTemperatureDisplayMode(_:)"
++ "shippingbox.fill"
++ "significantEvents(limit: "
++ "since resultsLimit fetchAllChanges "
++ "snapshot(source: .camera, snapshot: "
++ "square.stack.3d.forward.dottedline"
++ "startCaptionPollingIfNeeded()"
++ "startMonitoring(for:using:)"
++ "startStream(with:)"
++ "startedIndexingClips("
++ "staticDeviceMetadata"
++ "staticEndpoint"
++ "stopCaptionPollingIfNeeded()"
++ "stopMonitoring(for:)"
++ "stream continuation "
++ "subscribeForStateIfNeeded() skipping request to subscribe for state of %@ because home %@ isn't in homesToSubscribe for %s"
++ "subscribeForStateIfNeeded() skipping request to subscribe for state of %@ because subscriptions aren't enabled"
++ "subscribeForStateIfNeeded() skipping request to subscribe for state of %s (%{public}s) because home %s (%{public}s) isn't in homesToSubscribe for %s"
++ "subscribeForStateIfNeeded() skipping request to subscribe for state of %s (%{public}s) because subscriptions aren't enabled"
++ "supportedRockModes"
++ "supportsAirflowDirection"
++ "supportsDeadFrontBehavior"
++ "supportsMultiSpeed"
++ "syncToExternalDevices: calling NPSManager.synchronizeUserDefaultsDomain(%{public}s, keys: %{public}s)"
++ "takeSnapshotAndUpdateTimestamp(_:)"
++ "temperatureDisplayMode"
++ "thermostatUIConfig"
++ "thumbnailFileURLString"
++ "universal_resizability"
++ "update(_:processModeAgain:)"
++ "update(_:with:using:)"
++ "updateAudio(to:enableMicrophone:enableSpeaker:)"
++ "updateSnapshots(enable:interval:)"
++ "updateStream(enable:resolution:)"
++ "updateWaveform(enableIncoming:enableOutgoing:)"
++ "user isOwner "
++ "userConfigurationReady"
++ "waitForHighPriorityFetchesIfNeeded(with:in:)"
++ "washer.fill"
+- "#16@0:8"
+- "$__lazy_storage_$_isHomeSensingEnabled"
+- "$__lazy_storage_$_meter"
+- "$defaultActor"
+- "%s Failed to find static endpoint for path %{public}s in endpoints %s"
+- "%s enquing %s for download"
+- "%s found cached timelapse clip for %s"
+- "%s: allowRVC:%{bool,public}d isLock:%{bool,public}d isLight:%{bool,public}d allowHomeActivityState:%{bool,public}d accessory category:%{public}@ accessory:%@"
+- "(AutoClimateModel - addController(for:)) - Failed to load thermostat controller for: %s"
+- "(AutoClimateModel - addController(for:)) - Loaded thermostat controller for thermostat with matterNodeID: %llu"
+- "(AutoClimateModel - addController(for:)) - Loading thermostat controller for thermostat with matterDeviceID: %llu if needed"
+- "(AutoClimateModel - homeManager(:didRemoveAccessory:)) - Removing thermostat controller for thermostat: %s"
+- "(AutoClimateModel - homeManager(:didRemoveHome:)) - Removing thermostat controllers for home: %s"
+- "(AutoClimateModel - invalidateLocalPresence(home:accessory:)) - Updating local presence rooms for home: %s"
+- "(AutoClimateModel - thermostatController(for:)) - Accessory: %s does not support auto climate control."
+- "(AutoClimateModel - thermostatController(for:)) - Failed to find accessory for static service with accessoryId: %s"
+- "(AutoClimateModel.Home - fetchLocalPresenceRooms(for:)) - Failed to find eligible home for identifier: %s"
+- "(AutoClimateModel.Home - fetchLocalPresenceRooms(for:)) - Failed to get rooms supporting local presence for home: %s because of error: %@."
+- "(AutoClimateModel.Home - fetchLocalPresenceRooms(for:)) - Successfully fetched rooms supporting local presence for home: %s rooms: %s."
+- "(AutoClimateModel.Thermostat - (energyIsExpensive(for:hasRatesEnabled:timeZone:))) - Failed to refresh peak ranks for energy site with identifier: %s, in home with identifier: %s"
+- "(AutoClimateModel.Thermostat - (fetchCurrentAdaptiveTemperatureSetting(isInitialSetup:)) - Failed to find home for accessory: %s."
+- "(AutoClimateModel.Thermostat - (fetchCurrentAdaptiveTemperatureSetting(isInitialSetup:)) - Failed to find room for accessory: %s."
+- "(AutoClimateModel.Thermostat - (fetchCurrentAdaptiveTemperatureSetting(isInitialSetup:)) - Failed to get adaptive temperature settings for accessory: %s because of error: %@."
+- "(AutoClimateModel.Thermostat - (fetchCurrentAdaptiveTemperatureSetting(isInitialSetup:)) - Fetching current Adaptive Temperature settings for accessory: %s."
+- "(AutoClimateModel.Thermostat - (fetchCurrentAdaptiveTemperatureSetting(isInitialSetup:)) - Successfully fetched adaptive temperature settings for accessory: %s with temperature driver: %s and selected rooms: %s."
+- "(AutoClimateModel.Thermostat - (fetchCurrentSleepSchedule(isInitialSetup:)) - Fetching current sleep schedule for accessory: %s."
+- "(AutoClimateModel.Thermostat - (peakRanks(for:in:))) - Current peak rank: %ld"
+- "(AutoClimateModel.Thermostat - (setUpCleanEnergySetting(isInitialSetup:)) - Failed to find home for identifier: %s."
+- "(AutoClimateModel.Thermostat - (setUpCleanEnergySetting(isInitialSetup:)) - Loaded clean energy settings for accessory: %s,  %s"
+- "(AutoClimateModel.Thermostat - (updatePeakRates()) - Failed to find home for identifier: %s."
+- "(AutoClimateModel.Thermostat - (updatePeakRates()) - Updating clean energy settings for accessory: %s,  %s"
+- "(AutoClimateModel.Thermostat - (updatePeakRates()) - no accessory found with identifier: %s"
+- "(AutoClimateModel.Thermostat - (updatePeakRates()) - no energy site found for home with identifier: %s"
+- "(AutoClimateModel.Thermostat - (updateSnapshot(with:)) - Could not get home manager"
+- "(AutoClimateModel.Thermostat - (updateSnapshot(with:)) - No home found for accessory: %s,  homeUUID: %s"
+- "(AutoClimateModel.Thermostat - (updateSnapshot(with:)) - No home found for accessory: %s, homeUUID: %s"
+- "(AutoClimateModel.Thermostat - (updateSnapshot(with:)) - Updating snapshot with adaptive temperature settings for accessory: %s, setting: %s"
+- "(AutoClimateModel.Thermostat - (updateSnapshot(with:)) - Updating snapshot with clean energy settings for accessory: %s, setting: %s"
+- "(AutoClimateModel.Thermostat - (updateSnapshot(with:)) - Updating snapshot with sleep schedule for accessory: %s, schedule: %s"
+- "(AutoClimateModel.Thermostat - (updateState(autoClimateControlConfig:)) - Updated adaptive temperature settings for accessory: %s. New state: %s"
+- "(AutoClimateModel.Thermostat - (updateState(autoClimateControlConfig:)) - Updated clean energy setting for accessory: %s. New state: %s"
+- "(AutoClimateModel.Thermostat - (updateState(autoClimateControlConfig:)) - Updated sleep schedule for accessory: %s. New state: %s"
+- "(AutoClimateModel.Thermostat - (writeAdaptiveTemperatureSettings(_ setting:)) - Failed to update adaptive temperature settings due to error: %@. Reverting to previous state."
+- "(AutoClimateModel.Thermostat - (writeAdaptiveTemperatureSettings(_ setting:)) - Updating adaptive temperature settings for accessory: %s to temperature driver: %s and selected rooms: %s."
+- "(AutoClimateModel.Thermostat - (writeCleanEnergySetting(_ setting:)) - Failed to update electricity rates enabled for home: %s to %s: due to error: %s. Reverting to previous state"
+- "(AutoClimateModel.Thermostat - (writeCleanEnergySetting(_ setting:)) - Updating electricity rates enabled to %s for home: %s"
+- "(AutoClimateModel.Thermostat - (writeSleepSchedule(_ schedule:)) - Failed to generate schedule for accessory: %s"
+- "(AutoClimateModel.Thermostat - (writeSleepSchedule(oldRule:newRule:)) - Updating sleep schedule rule: %s to %s"
+- "(AutoClimateModel.Thermostat: (fetchCurrentSleepSchedule(isInitialSetup:)) - Failed to get current sleep schedule for accessory: %s with error: %@."
+- "(AutoClimateModel.Thermostat: (fetchCurrentSleepSchedule(isInitialSetup:)) - Successfully fetched sleep schedule: {%s} for accessory: %s"
+- "(AutoClimateModel.Thermostat: (writeSleepSchedule(_ schedule:)) - Failed to update thermostat schedule for accessory: %s due to error: %@. Reverting to previous state."
+- "(AutoClimateModel.Thermostat: (writeSleepSchedule(_ schedule:)) - Successfully updated thermostat schedule to: %s for accessory: %s."
+- "(AutoClimateModel.Thermostat: (writeSleepSchedule(_ schedule:)) - Updating thermostat schedule to: %s for accessory: %s."
+- ".cxx_destruct"
+- "?"
+- "@\"HMActionSetBuilder\""
+- "@\"HMActionSetBuilder\"16@0:8"
+- "@\"HMApplicationData\"16@0:8"
+- "@\"HMHome\""
+- "@\"HMHomeManager\""
+- "@\"HMTriggerPolicy\""
+- "@\"HMTriggerPolicy\"16@0:8"
+- "@\"NSArray\"16@0:8"
+- "@\"NSDictionary\"8@?0"
+- "@\"NSPredicate\""
+- "@\"NSPredicate\"16@0:8"
+- "@\"NSString\"16@0:8"
+- "@\"NSXPCConnection\"16@0:8"
+- "@\"UIColor\"16@?0@\"UITraitCollection\"8"
+- "@16@0:8"
+- "@24@0:8:16"
+- "@24@0:8@16"
+- "@24@0:8^{_NSZone=}16"
+- "@32@0:8:16@24"
+- "@32@0:8@16@24"
+- "@36@0:8@16S24@28"
+- "@40@0:8:16@24@32"
+- "@40@0:8@16@24@32"
+- "@40@0:8@16q24@32"
+- "AVAssetResourceLoaderDelegate"
+- "AVCAudioPowerSpectrumMeterDelegate"
+- "AutoClimateModel"
+- "AutomationBuilderMocking"
+- "B"
+- "B16@0:8"
+- "B24@0:8#16"
+- "B24@0:8:16"
+- "B24@0:8@\"Protocol\"16"
+- "B24@0:8@16"
+- "B32@0:8@\"AVAssetResourceLoader\"16@\"AVAssetResourceLoadingRequest\"24"
+- "B32@0:8@\"AVAssetResourceLoader\"16@\"AVAssetResourceRenewalRequest\"24"
+- "B32@0:8@\"AVAssetResourceLoader\"16@\"NSURLAuthenticationChallenge\"24"
+- "B32@0:8@16@24"
+- "COAlarmManagerConnectionProvider"
+- "COTimerManagerConnectionProvider"
+- "Creating StaticMatterDevice: (%s) nodeID: %{public}llu deviceTypes:%{public}s primaryDeviceType:(%{public}s) deviceState: (%{public}s) endpoints: %{public}s "
+- "DCLDeviceType"
+- "Failed to remove asset at %s"
+- "HDMHomeManagerDataSyncProxy"
+- "HMAccessoryDelegate"
+- "HMAccessoryDelegatePrivate"
+- "HMAccessorySettingsDataSourceDelegate"
+- "HMAccessorySoftwareUpdateControllerV2Delegate"
+- "HMApplicationData"
+- "HMAudioAnalysisLastKnownEventSubscriberDelegate"
+- "HMCameraSnapshotControlDelegate"
+- "HMCameraStreamControlDelegate"
+- "HMCameraUserSettingsDelegate"
+- "HMEventTriggerBuilder"
+- "HMFCancellable"
+- "HMHomeDelegate"
+- "HMHomeDelegatePrivate"
+- "HMHomeManagerDelegate"
+- "HMHomeManagerDelegatePrivate"
+- "HMLightProfileDelegate"
+- "HMMediaObjectDelegate"
+- "HMMediaSessionDelegate"
+- "HMResidentDeviceDelegate"
+- "HMSoftwareUpdateDelegate"
+- "HMSymptomsHandlerDelegate"
+- "HMTriggerBuilder"
+- "HMTriggerBuilderPrivate"
+- "HMUserActionPredictionControllerDelegate"
+- "HomeDataModel"
+- "HomeDataModel/AutoClimateModel.Thermostat.Structs.swift"
+- "HomeDataModel/AutoClimateModel.Thermostat.swift"
+- "HomeDataModel1"
+- "HomeDataModel10"
+- "HomeDataModel11"
+- "HomeDataModel12"
+- "HomeDataModel13"
+- "HomeDataModel14"
+- "HomeDataModel15"
+- "HomeDataModel16"
+- "HomeDataModel17"
+- "HomeDataModel18"
+- "HomeDataModel2"
+- "HomeDataModel3"
+- "HomeDataModel4"
+- "HomeDataModel5"
+- "HomeDataModel6"
+- "HomeDataModel7"
+- "HomeDataModel8"
+- "HomeDataModel9"
+- "HomeDataModelExtensions"
+- "JSONObjectWithData:options:error:"
+- "MTRDeviceDelegate"
+- "MatterExtensions"
+- "NSCopying"
+- "NSObject"
+- "OS_os_activity"
+- "Q"
+- "Q16@0:8"
+- "Swift/Dictionary.swift"
+- "T#,R"
+- "T@\"HMActionSetBuilder\",N,&,VtriggerOwnedActionSet"
+- "T@\"HMActionSetBuilder\",R,N"
+- "T@\"HMApplicationData\",R,N"
+- "T@\"HMHome\",&,N"
+- "T@\"HMHome\",N,&"
+- "T@\"HMHome\",N,&,V_currentHome"
+- "T@\"HMHome\",N,R"
+- "T@\"HMHomeManager\",N,&,VhomeManager"
+- "T@\"HMHomeManagerConfiguration\",N,&"
+- "T@\"HMTriggerPolicy\",&,N"
+- "T@\"HMTriggerPolicy\",N,&,Vpolicy"
+- "T@\"MTRDeviceController\",R,N"
+- "T@\"NSArray\",C,N"
+- "T@\"NSArray\",N,C"
+- "T@\"NSArray\",N,R"
+- "T@\"NSNumber\",R,N"
+- "T@\"NSPredicate\",C,N"
+- "T@\"NSPredicate\",N,&,Vpredicate"
+- "T@\"NSString\",?,R,C"
+- "T@\"NSString\",C,N"
+- "T@\"NSString\",N,C"
+- "T@\"NSString\",N,R"
+- "T@\"NSString\",R,C"
+- "T@\"_TtC13HomeDataModel21CoordinationDataModel\",N,R"
+- "T@\"_TtC13HomeDataModel9DataModel\",N,R"
+- "T@,R,N"
+- "TB,N"
+- "TB,N,GisEnabled"
+- "TB,N,VexecuteOnce"
+- "TB,N,VisEnabled"
+- "TB,N,VnameIsConfigured"
+- "TB,R,N"
+- "TQ,N"
+- "TQ,N,VrecurrenceDays"
+- "TQ,R"
+- "TestingMatterExtensions"
+- "Tq,N"
+- "URL"
+- "URLForUbiquityContainerIdentifier:"
+- "URLsForDirectory:inDomains:"
+- "UUID"
+- "Vv16@0:8"
+- "Writing initial poster frame to %s"
+- "^{_NSZone=}16@0:8"
+- "_$observationRegistrar"
+- "_TtC13HomeDataModel11WidgetActor"
+- "_TtC13HomeDataModel12MockObserver"
+- "_TtC13HomeDataModel13HomeDataActor"
+- "_TtC13HomeDataModel14TriggerBuilder"
+- "_TtC13HomeDataModel15CameraClipAsset"
+- "_TtC13HomeDataModel15HomeAppSettings"
+- "_TtC13HomeDataModel15WidgetDataModel"
+- "_TtC13HomeDataModel16AutoClimateModel"
+- "_TtC13HomeDataModel16HomeManagerActor"
+- "_TtC13HomeDataModel16MockAlarmManager"
+- "_TtC13HomeDataModel16MockMatterDevice"
+- "_TtC13HomeDataModel16MockOnOffCluster"
+- "_TtC13HomeDataModel16MockTimerManager"
+- "_TtC13HomeDataModel17OSActivityInSwift"
+- "_TtC13HomeDataModel17PlatformUtilities"
+- "_TtC13HomeDataModel17SnapshotModerator"
+- "_TtC13HomeDataModel18MockTriggerBuilder"
+- "_TtC13HomeDataModel18PowerSpectrumMeter"
+- "_TtC13HomeDataModel18WidgetHomeDataSync"
+- "_TtC13HomeDataModel19DateFormatUtilities"
+- "_TtC13HomeDataModel19MockDoorLockCluster"
+- "_TtC13HomeDataModel19MockIdentifyCluster"
+- "_TtC13HomeDataModel20AccessoryLogsManager"
+- "_TtC13HomeDataModel20MatterExecuteRequest"
+- "_TtC13HomeDataModel20MockBasicInfoCluster"
+- "_TtC13HomeDataModel20SerialWidgetExecutor"
+- "_TtC13HomeDataModel21CameraEventPrefetcher"
+- "_TtC13HomeDataModel21CoordinationDataModel"
+- "_TtC13HomeDataModel21IntentLaunchDataModel"
+- "_TtC13HomeDataModel21MockDescriptorCluster"
+- "_TtC13HomeDataModel21MockPreferenceStorage"
+- "_TtC13HomeDataModel21MockRVCRunModeCluster"
+- "_TtC13HomeDataModel21MockThermostatCluster"
+- "_TtC13HomeDataModel22MockPowerSourceCluster"
+- "_TtC13HomeDataModel22MockServiceAreaCluster"
+- "_TtC13HomeDataModel23MatterSnapshotModerator"
+- "_TtC13HomeDataModel23MockColorControlCluster"
+- "_TtC13HomeDataModel23MockLevelControlCluster"
+- "_TtC13HomeDataModel23MockRVCCleanModeCluster"
+- "_TtC13HomeDataModel23WidgetSnapshotModerator"
+- "_TtC13HomeDataModel24DiscardingMatterDelegate"
+- "_TtC13HomeDataModel24MockAppleDoorLockCluster"
+- "_TtC13HomeDataModel24PhoenixMetricsAggregator"
+- "_TtC13HomeDataModel24RecommendationsModerator"
+- "_TtC13HomeDataModel24StateRestorationSettings"
+- "_TtC13HomeDataModel24_CoordinationClassObject"
+- "_TtC13HomeDataModel25CameraClipPlaybackManager"
+- "_TtC13HomeDataModel25MockDiagnosticLogsCluster"
+- "_TtC13HomeDataModel25RecordingOptionsViewModel"
+- "_TtC13HomeDataModel27CameraClipAssetLibraryCache"
+- "_TtC13HomeDataModel27HomeFaceClassificationStore"
+- "_TtC13HomeDataModel29CoordinationSnapshotModerator"
+- "_TtC13HomeDataModel30CameraClipAssetPlaybackManager"
+- "_TtC13HomeDataModel30CameraClipPosterFrameGenerator"
+- "_TtC13HomeDataModel30MockRVCOperationalStateCluster"
+- "_TtC13HomeDataModel30WriteInProgressStatusViewModel"
+- "_TtC13HomeDataModel31AccessoryControlTransitionModel"
+- "_TtC13HomeDataModel33MockOperationalCredentialsCluster"
+- "_TtC13HomeDataModel37CameraClipScrubberDemoContentProvider"
+- "_TtC13HomeDataModel9DataModel"
+- "_TtC13HomeDataModel9MockAlarm"
+- "_TtC13HomeDataModel9MockTimer"
+- "_TtC13HomeDataModelP33_06687A056795A35B04F0AB8E8B09184924_AlarmConnectionProvider"
+- "_TtC13HomeDataModelP33_06687A056795A35B04F0AB8E8B09184924_TimerConnectionProvider"
+- "_TtC13HomeDataModelP33_2FEE6254CAF7CE650035D3602F82436C12Continuation"
+- "_TtCC13HomeDataModel16AutoClimateModel10Thermostat"
+- "_TtCC13HomeDataModel16AutoClimateModel4Home"
+- "_TtCC13HomeDataModel9DataModel30DiagnosticAttachmentController"
+- "_TtCCC13HomeDataModel16AutoClimateModel10Thermostat5State"
+- "_TtCCV13HomeDataModel9HomeState19CurrentHomeResolver25HomeSwitchingStateMachine"
+- "_TtCCV13HomeDataModel9HomeState6Stream14MatterDelegate"
+- "_TtCCV13HomeDataModel9HomeState6Stream15DelegatePackage"
+- "_TtCCV13HomeDataModel9HomeState6Stream24UngenericHomeKitDelegate"
+- "_TtCE13HomeDataModelCSo11HMAccessory15DelegateAdapter"
+- "_TtCE13HomeDataModelCSo13HMHomeManager15DelegateAdapter"
+- "_TtCE13HomeDataModelCSo13HMHomeManagerP33_A992F82B8F2DBDAF46F5E04152E4A1C711Cancellable"
+- "_TtCE13HomeDataModelCSo14HMMediaSession15DelegateAdapter"
+- "_TtCE13HomeDataModelCSo29HMAccessorySettingsDataSource15DelegateAdapter"
+- "_TtCE13HomeDataModelCSo32HMUserActionPredictionController15DelegateAdapter"
+- "_TtCE13HomeDataModelCSo39HMAudioAnalysisLastKnownEventSubscriber15DelegateAdapter"
+- "_TtCE13HomeDataModelCSo6HMHome15DelegateAdapter"
+- "_TtCE13HomeDataModelSS25_doNotTouchThisDummyClass"
+- "_TtCV13HomeDataModel17AnyTileInfoBearer11StorageBase"
+- "_TtCV13HomeDataModel35CameraStreamDelegateAdapterSequenceP33_72C782A2C3BD4E22C957914F2E9161C67Adapter"
+- "_TtCV13HomeDataModel37CameraSettingsDelegateAdapterSequenceP33_53FF3178D93395DFA1844984076A5D2E7Adapter"
+- "_TtCV13HomeDataModel37CameraSnapshotDelegateAdapterSequenceP33_3BD2BE05E1805C249AC13C2CD7DBB5207Adapter"
+- "_TtCV13HomeDataModel9HomeState13AllHomesModel"
+- "_TtCV13HomeDataModel9HomeState19CurrentHomeResolver"
+- "_TtCV13HomeDataModel9HomeState6Stream"
+- "_TtCV13HomeDataModel9HomeState7_Client"
+- "_accessMode"
+- "_accessorySettingsDataSource"
+- "_actions"
+- "_activatedScenes"
+- "_adaptiveTemperatureSettings"
+- "_alarmManagerServiceConnection"
+- "_availability"
+- "_beginActiveAssertionWithReason:"
+- "_cameraProfile"
+- "_cameras"
+- "_canDispatchForAssociatedAccessory"
+- "_cancellable"
+- "_characteristicFetchTasks"
+- "_cleanEnergySetting"
+- "_completedSetupMilestones"
+- "_config"
+- "_currentHome"
+- "_currentHomeID"
+- "_currentLocationHomeID"
+- "_currentMatterSnapshot"
+- "_currentPosition"
+- "_currentState"
+- "_currentStateSnapshot"
+- "_deletesAfterExecution"
+- "_elements"
+- "_elementsByUUID"
+- "_enabled"
+- "_endActiveAssertion:"
+- "_endpointID"
+- "_eventCache"
+- "_events"
+- "_executesOnce"
+- "_expandedElement"
+- "_expandedMode"
+- "_fetchRequestsCancellationRequested"
+- "_hasAdminPrivilege"
+- "_homeManager"
+- "_homeStates"
+- "_homeToThermostatControllers"
+- "_homesToMatterSnapshots"
+- "_homesToStateSnapshots"
+- "_idsToHide"
+- "_indexingHash"
+- "_initialCharacteristicFetchContinuation"
+- "_isTestMode"
+- "_lastFetchedIndex"
+- "_latestIncomingData"
+- "_latestOutgoingData"
+- "_lock"
+- "_mode"
+- "_modeOptions"
+- "_name"
+- "_nameIsConfigured"
+- "_pollingTask"
+- "_prefersAudioMuted"
+- "_readyForPlayback"
+- "_recordingOptions"
+- "_refreshBeforeDate:completionHandler:"
+- "_scrubberElements"
+- "_sleepSchedule"
+- "_snapshot"
+- "_snapshotModerator"
+- "_stream"
+- "_streamState"
+- "_targetOffset"
+- "_timerManagerServiceConnection"
+- "_updateTask"
+- "accessModeForCameraHomePresence:"
+- "accessibilityContrast"
+- "accessories"
+- "accessory:didAddControlTarget:"
+- "accessory:didAddProfile:"
+- "accessory:didAddSymptomsHandler:"
+- "accessory:didRemoveControlTarget:"
+- "accessory:didRemoveProfile:"
+- "accessory:didUpdateApplicationDataForService:"
+- "accessory:didUpdateAssociatedServiceTypeForService:"
+- "accessory:didUpdateBulletinBoardNotificationForService:"
+- "accessory:didUpdateBundleID:"
+- "accessory:didUpdateConfigurationStateForService:"
+- "accessory:didUpdateConfiguredNameForService:"
+- "accessory:didUpdateDefaultNameForService:"
+- "accessory:didUpdateDevice:"
+- "accessory:didUpdateFirmwareUpdateAvailable:"
+- "accessory:didUpdateFirmwareVersion:"
+- "accessory:didUpdateHH1EOLEnabled:"
+- "accessory:didUpdateHasAuthorizationDataForCharacteristic:"
+- "accessory:didUpdateLastKnownOperatingStateResponseForService:"
+- "accessory:didUpdateLastKnownSleepDiscoveryModeForService:"
+- "accessory:didUpdateLoggedInAccount:"
+- "accessory:didUpdateNameForService:"
+- "accessory:didUpdatePairingIdentity:"
+- "accessory:didUpdateServiceSubtypeForService:"
+- "accessory:didUpdateSettings:"
+- "accessory:didUpdateSoftwareVersion:"
+- "accessory:didUpdateStoreID:"
+- "accessory:didUpdateSupportsUWBUnlock:"
+- "accessory:didUpdateSupportsWalletKey:"
+- "accessory:didUpdateWifiNetworkInfo:"
+- "accessory:service:didUpdateValueForCharacteristic:"
+- "accessoryDelegate"
+- "accessoryDidRemoveSymptomsHandler:"
+- "accessoryDidSetHasOnboardedForAdaptiveTemperatureAutomations:"
+- "accessoryDidSetHasOnboardedForCleanEnergyAutomation:"
+- "accessoryDidSetHasOnboardedForNaturalLighting:"
+- "accessoryDidUpdateAdditionalSetupRequired:"
+- "accessoryDidUpdateApplicationData:"
+- "accessoryDidUpdateAudioDestination:"
+- "accessoryDidUpdateAudioDestinationController:"
+- "accessoryDidUpdateAudioReturnChannelSupport:"
+- "accessoryDidUpdateCalibrationStatus:"
+- "accessoryDidUpdateControllable:"
+- "accessoryDidUpdateDiagnosticsTransferSupport:"
+- "accessoryDidUpdateHomeLevelLocationServiceSettingSupport:"
+- "accessoryDidUpdateMultiUserSupport:"
+- "accessoryDidUpdateName:"
+- "accessoryDidUpdatePairingIdentity:"
+- "accessoryDidUpdatePendingConfigurationIdentifier:"
+- "accessoryDidUpdatePreferredMediaUser:"
+- "accessoryDidUpdateReachability:"
+- "accessoryDidUpdateReachableTransports:"
+- "accessoryDidUpdateServices:"
+- "accessoryDidUpdateSupportsAnnounce:"
+- "accessoryDidUpdateSupportsAudioAnalysis:"
+- "accessoryDidUpdateSupportsCompanionInitiatedObliterate:"
+- "accessoryDidUpdateSupportsCompanionInitiatedRestart:"
+- "accessoryDidUpdateSupportsDoorbellChime:"
+- "accessoryDidUpdateSupportsDropIn:"
+- "accessoryDidUpdateSupportsJustSiri:"
+- "accessoryDidUpdateSupportsMediaActions:"
+- "accessoryDidUpdateSupportsMediaContentProfile:"
+- "accessoryDidUpdateSupportsMusicAlarm:"
+- "accessoryDidUpdateSupportsPreferredMediaUser:"
+- "accessoryDidUpdateSupportsRMVonAppleTV:"
+- "accessoryDidUpdateSupportsThirdPartyMusic:"
+- "accessoryDidUpdateSupportsUserMediaSettings:"
+- "accessoryDidUpdateTargetControlSupport:"
+- "accessoryFor:"
+- "accessoryFor:homeID:"
+- "accessoryFor:in:"
+- "accessoryFromAnyHomeFor:"
+- "accessorySettingsDataSource"
+- "accessorySettingsDataSource:didReceiveSettingsUpdatesForAccessoryWithIdentifier:settings:"
+- "accessorySettingsDataSourceDelegate"
+- "accessoryUUID"
+- "accessoryWithUniqueIdentifier:"
+- "actionSet"
+- "actionSetFor:"
+- "actionSetType"
+- "actionSets"
+- "actions"
+- "activateCHIPPairingModeAndCreateSetupPayloadStringWithCompletion:"
+- "activity"
+- "addActionSet:"
+- "addActionSetWithName:completionHandler:"
+- "addAlarm:"
+- "addCompletionBlock:"
+- "addDelegate:queue:"
+- "addDelegate:queue:interestedPathsForAttributes:interestedPathsForEvents:"
+- "addEndEvent:"
+- "addEvent:"
+- "addEventTriggerFromBuilder:completionHandler:"
+- "addFailureBlock:"
+- "addObserverForName:queue:usingBlock:"
+- "addPeriodicTimeObserverForInterval:queue:usingBlock:"
+- "addRoomWithName:completionHandler:"
+- "addServiceGroupWithName:completionHandler:"
+- "addSuccessBlock:"
+- "addTimer:"
+- "addTimer:forMode:"
+- "addTrigger:completionHandler:"
+- "addZoneWithName:completionHandler:"
+- "alarmError"
+- "alarmID"
+- "alarmManagerServiceConnection"
+- "alarms"
+- "alarmsForAccessories:"
+- "alarmsForAccessory:"
+- "alarmsIncludingSleepAlarm:"
+- "allObjects"
+- "allScrubberElements"
+- "alphabeticalHomes"
+- "appIntentIdentifier"
+- "applicationData"
+- "applyOnboardingSelections:completionHandler:"
+- "archivedDataWithRootObject:requiringSecureCoding:error:"
+- "areaID"
+- "areaInfo"
+- "areaType"
+- "arrayByAddingObject:"
+- "aspectRatio"
+- "asset"
+- "assignAccessory:toRoom:completionHandler:"
+- "associatedServiceType"
+- "atomicRequestWithParams:expectedValues:expectedValueInterval:completion:"
+- "attribute"
+- "attributePathWithEndpointID:clusterID:attributeID:"
+- "attributeStates"
+- "attributeWaitingState"
+- "audioAnalysisEventBulletinBoardNotification"
+- "audioAnalysisEventDelegate"
+- "audioAnalysisEventSubscribers"
+- "audioControl"
+- "audioDestinationIdentifier"
+- "audioDownlinkToken"
+- "audioPowerSpectrumMeter:didUpdateAudioPowerSpectrums:"
+- "audioPowerSpectrumMeter:didUpdateLocalAudioPowerSpectrum:remoteAudioPowerSpectrums:"
+- "audioStreamSetting"
+- "audioUplinkToken"
+- "autoSelectedPreferredResidents"
+- "autorelease"
+- "avPlayer"
+- "availableUpdate"
+- "backgroundThreshold"
+- "baseURL"
+- "batchEvents"
+- "bins"
+- "block"
+- "blocks"
+- "boolForKey:"
+- "boolStorage"
+- "boolValue"
+- "boolValueForOption:"
+- "boundarySize"
+- "bufferedElements"
+- "builtIn"
+- "builtinActionSetOfType:"
+- "bundleForClass:"
+- "bundleIdentifier"
+- "cache"
+- "cacheDirectory"
+- "cacheEnabled"
+- "cachePolicy"
+- "cachedSelectedHomeIdentifier"
+- "cameraName"
+- "cameraProfile"
+- "cameraProfileFor:"
+- "cameraProfileIdentifier"
+- "cameraProfiles"
+- "cameraSnapshotControl:didTakeSnapshot:error:"
+- "cameraSnapshotControlDidUpdateMostRecentSnapshot:"
+- "cameraStream"
+- "cameraStreamControl:didStopStreamWithError:"
+- "cameraStreamControlDidStartStream:"
+- "cameraUserSettingsDidUpdate:"
+- "camera_lensing"
+- "camerasAccessLevel"
+- "cancel"
+- "cancelable"
+- "cancelled"
+- "capabilities"
+- "capability"
+- "captureDate"
+- "categoryType"
+- "center"
+- "certificationStatus"
+- "changeToModeBlock"
+- "changeToModeWithParams:expectedValues:expectedValueInterval:completion:"
+- "channels"
+- "characteristic"
+- "characteristicBatchRequestWithReadRequests:"
+- "characteristicBatchRequestWithWriteRequests:"
+- "characteristicFor:"
+- "characteristicType"
+- "characteristicValueModerator"
+- "characteristics"
+- "characteristicsWithActiveReads"
+- "chaseTime"
+- "class"
+- "clipAssetQueue"
+- "clipEventAsset"
+- "clipEventAssetCache"
+- "clipID"
+- "clipsLibrary"
+- "clock"
+- "closeFile"
+- "cluster"
+- "clusterID"
+- "clusterKind"
+- "code"
+- "colorTemperatureMireds"
+- "combineContentsOfPropertyListObject:"
+- "commandFields"
+- "commandID"
+- "commandObserver"
+- "commandPathWithEndpointID:clusterID:commandID:"
+- "commandResponseState"
+- "commands"
+- "components"
+- "configuration"
+- "configuredName"
+- "conformsToProtocol:"
+- "consumerTask"
+- "containingDevice"
+- "containingHome"
+- "contentInformationRequest"
+- "contentsOfDirectoryAtPath:error:"
+- "context"
+- "continuation"
+- "coolingSetpoint"
+- "copyAsBuilder"
+- "copyItemAtURL:toURL:error:"
+- "copyWithZone:"
+- "cost"
+- "costLimit"
+- "countForObject:"
+- "createAccessorySettingsDataSource"
+- "createDirectoryAtURL:withIntermediateDirectories:attributes:error:"
+- "createHomeAudioAnalysisEventSubscriber"
+- "crossProcessObservation"
+- "currentCoordinationSnapshot"
+- "currentDuration"
+- "currentElement"
+- "currentHome"
+- "currentHomeResolver"
+- "currentHomeResolver: new resolver set, initializing with locationHome=%{public}s, primaryHome=%{public}s"
+- "currentHomeResolverObservation"
+- "currentItem"
+- "currentPlayerTime"
+- "currentQuality"
+- "currentSnapshotInterval"
+- "currentStreamingResolution"
+- "currentThread"
+- "currentTimer"
+- "currentUser"
+- "currentUserActionPredictionControllersDictionary"
+- "currentUserActionPredictionsDictionary"
+- "dataRequest"
+- "dataSyncState"
+- "dataSyncTask"
+- "dataWithJSONObject:options:error:"
+- "dateFormatter"
+- "dateFromString:"
+- "daysOfTheWeek"
+- "dealloc"
+- "debugDescription"
+- "defaultManager"
+- "defaultName"
+- "defaultPrivateConfiguration"
+- "defaultSettingsWithHomeIdentifier:accessoryIdentifier:keyPaths:"
+- "delegate"
+- "delegates"
+- "deleteAfterExecutionPolicy"
+- "description"
+- "device"
+- "device:receivedAttributeReport:"
+- "device:receivedEventReport:"
+- "device:stateChanged:"
+- "deviceBecameActive:"
+- "deviceCachePrimed:"
+- "deviceConfigurationChanged:"
+- "deviceType"
+- "deviceTypeID"
+- "deviceTypeValues"
+- "deviceWithNodeID:controller:"
+- "diagnosticAttachmentController"
+- "dictionary"
+- "didExecutionFailByActionSetUniqueIdentifier"
+- "didUpdateSupportedCapabilitiesForResidentDevice:"
+- "diskCache"
+- "diskTransform"
+- "dismissAlarmWithIdentifier:"
+- "dismissTimerWithIdentifier:"
+- "dispatchQueue"
+- "displayableVersion"
+- "documentation"
+- "documentationMetadata"
+- "domain"
+- "doubleForKey:"
+- "doubleValue"
+- "downloadLogOfType:timeout:queue:completion:"
+- "downloadLogShouldThrow"
+- "downloadSize"
+- "duration"
+- "element"
+- "enableNotification:completionHandler:"
+- "enableNotifications:includeAppleMediaAccessoryNotifications:completionHandler:"
+- "enableSoftwareUpdateDelegates"
+- "enabled"
+- "encoder"
+- "endEvents"
+- "endTime"
+- "endpoint"
+- "endpointID"
+- "energySite"
+- "enforceExecutionOrder"
+- "enhancedHue"
+- "enhancedMoveToHueAndSaturationWithParams:expectedValues:expectedValueInterval:completion:"
+- "environment"
+- "error"
+- "errorStateDetails"
+- "errorStateID"
+- "errorStateLabel"
+- "estimatedTime"
+- "eventCache"
+- "eventFetchLimit"
+- "eventPrefetcher"
+- "events"
+- "evictionPredicate"
+- "executeActionSet:completionHandler:"
+- "executeActions:completionHandler:"
+- "executeOnce"
+- "executeRequestWithActionSet:"
+- "expectedValues"
+- "failed to fetch face crops for zone: %s, error: %s"
+- "failures"
+- "fakeData"
+- "fetchAccessorySettingsWithHomeIdentifier:accessoryIdentifier:keyPaths:completionHandler:"
+- "fetchAdaptiveTemperatureSettingsWithCompletion:"
+- "fetchAllPersonsWithCompletion:"
+- "fetchAndUpdateEvents(in:limit:ascending:)"
+- "fetchCachedAccessorySettingsWithHomeIdentifier:accessoryIdentifier:keyPaths:completionHandler:"
+- "fetchDocumentationFromMetadata:completion:"
+- "fetchNaturalLightColorTemperatureForBrightness:completion:"
+- "fetchNewerEventTask"
+- "fetchOlderEventTask"
+- "fetchPredictionsWithCompletion:"
+- "fetchProductDataWithVendorID:productID:completion:"
+- "fetchRequestsCancellationRequested"
+- "fetchRoomsSupportingLocalPresenceWithCompletion:"
+- "fetchSettingsWithCompletion:"
+- "fetchStateForActionSets:completion:"
+- "fetchStateForCharacteristics:completion:"
+- "fetchThermostatSleepScheduleWithCompletion:"
+- "fetched %ld face crops"
+- "fetching face crops for zone: %s"
+- "fileDescriptor"
+- "fileExistsAtPath:"
+- "fileHandleForReadingFromURL:error:"
+- "fileManager"
+- "finalize"
+- "finish"
+- "finishLoading"
+- "finishLoadingWithError:"
+- "fireDateComponents"
+- "firmwareVersion"
+- "firstSyncHappened"
+- "fixSessionAvailabilityDidUpdateForSymptomsHandler:"
+- "floatValue"
+- "floorNumber"
+- "followSelectedHome"
+- "forDataModel"
+- "format"
+- "futureWithError:"
+- "futureWithResult:"
+- "getMapItemsWithCompletionHandler:"
+- "getNewAreas"
+- "getNewMode"
+- "goHomeWithExpectedValues:expectedValueInterval:completion:"
+- "guestAccessSchedule"
+- "hasFinished"
+- "hasOnboardedForWalletKey"
+- "hasOperatingState"
+- "hasOperatingStateAbnormalReasons"
+- "hasOptedToHH2"
+- "hash"
+- "hdm_addEventTriggerFromBuilder:completionHandler:"
+- "hdm_containingHome"
+- "hdm_createDeviceWithController:"
+- "hdm_createMatterController"
+- "hdm_deviceTypeFromDCL"
+- "hdm_getEndpointID"
+- "hdm_getNodeID"
+- "hdm_matterDevice"
+- "hdm_newEventTriggerBuilderWithName:events:"
+- "hdm_sharedMatterController"
+- "heatingSetpoint"
+- "hlsPlayerItemTask"
+- "hmf_UUIDWithNamespace:data:salts:"
+- "hmf_zeroUUID"
+- "home"
+- "home:didAddAccessory:"
+- "home:didAddAccessoryNetworkProtectionGroup:"
+- "home:didAddActionSet:"
+- "home:didAddMediaSystem:"
+- "home:didAddResidentDevice:"
+- "home:didAddRoom:"
+- "home:didAddRoom:toZone:"
+- "home:didAddService:toServiceGroup:"
+- "home:didAddServiceGroup:"
+- "home:didAddTrigger:"
+- "home:didAddUser:"
+- "home:didAddZone:"
+- "home:didEncounterError:forAccessory:"
+- "home:didFailAccessorySetupWithError:"
+- "home:didRemoveAccessory:"
+- "home:didRemoveAccessoryNetworkProtectionGroup:"
+- "home:didRemoveActionSet:"
+- "home:didRemoveMediaSystem:"
+- "home:didRemoveResidentDevice:"
+- "home:didRemoveRoom:"
+- "home:didRemoveRoom:fromZone:"
+- "home:didRemoveService:fromServiceGroup:"
+- "home:didRemoveServiceGroup:"
+- "home:didRemoveTrigger:"
+- "home:didRemoveUser:"
+- "home:didRemoveZone:"
+- "home:didUnblockAccessory:"
+- "home:didUpdateAccessControlForUser:"
+- "home:didUpdateAccessoryInvitationsForUser:"
+- "home:didUpdateAccessoryNetworkProtectionGroup:"
+- "home:didUpdateActionSet:isExecuting:"
+- "home:didUpdateActionsForActionSet:"
+- "home:didUpdateApplicationDataForActionSet:"
+- "home:didUpdateApplicationDataForRoom:"
+- "home:didUpdateApplicationDataForServiceGroup:"
+- "home:didUpdateAreBulletinNotificationsSupported:"
+- "home:didUpdateAudioAnalysisClassifierOptions:"
+- "home:didUpdateAutomaticSoftwareUpdateEnabled:"
+- "home:didUpdateAutomaticThirdPartyAccessorySoftwareUpdateEnabled:"
+- "home:didUpdateDismissedWalletKeyUWBUnlockOnboarding:"
+- "home:didUpdateEventLogDuration:"
+- "home:didUpdateEventLogEnabled:"
+- "home:didUpdateHasOnboardedForWalletKey:"
+- "home:didUpdateHomeActivityState:isActivityStateHoldActive:activityStateHoldEndDate:transitionalStateEndDate:"
+- "home:didUpdateHomeActivityStateSchedule:"
+- "home:didUpdateHomeHubState:"
+- "home:didUpdateLastExecutionDateForActionSet:"
+- "home:didUpdateLocation:"
+- "home:didUpdateMediaPassword:"
+- "home:didUpdateMediaPeerToPeerEnabled:"
+- "home:didUpdateMinimumMediaUserPrivilege:"
+- "home:didUpdateNameForActionSet:"
+- "home:didUpdateNameForRoom:"
+- "home:didUpdateNameForServiceGroup:"
+- "home:didUpdateNameForTrigger:"
+- "home:didUpdateNameForZone:"
+- "home:didUpdateOnboardAudioAnalysis:"
+- "home:didUpdatePersonManagerSettings:"
+- "home:didUpdateReprovisionStateForAccessory:"
+- "home:didUpdateRoom:forAccessory:"
+- "home:didUpdateSiriPhraseOptions:"
+- "home:didUpdateStateForOutgoingInvitations:"
+- "home:didUpdateSupportsResidentActionSetStateEvaluation:"
+- "home:didUpdateTimeZone:"
+- "home:didUpdateTrigger:"
+- "homeAccessControlForUser:"
+- "homeAlarms"
+- "homeAppGroup"
+- "homeDelegate"
+- "homeDidAddWalletKey:"
+- "homeDidEnableLocationServices:"
+- "homeDidEnableMultiUser:"
+- "homeDidOnboardLocationServices:"
+- "homeDidRemoveWalletKey:"
+- "homeDidSetEnableDoorbellChime:"
+- "homeDidSetHasAnyUserAcknowledgedCameraRecordingOnboarding:"
+- "homeDidSetHasOnboardedForAccessCode:"
+- "homeDidUpdateAccessControlForCurrentUser:"
+- "homeDidUpdateApplicationData:"
+- "homeDidUpdateAssistantIdentifiers:"
+- "homeDidUpdateAutoSelectedPreferredResident:"
+- "homeDidUpdateHomeLocationStatus:"
+- "homeDidUpdateName:"
+- "homeDidUpdateNetworkRouterSupport:"
+- "homeDidUpdateOnboardedEventLog:"
+- "homeDidUpdatePrimaryResidentNetworkInfo:"
+- "homeDidUpdateProtectionMode:"
+- "homeDidUpdateSoundCheck:"
+- "homeDidUpdateSupportedFeatures:"
+- "homeDidUpdateSupportsResidentSelection:"
+- "homeDidUpdateToROAR:"
+- "homeDidUpdateUserSelectedPreferredResident:"
+- "homeFor:"
+- "homeHasUpdatedOnce"
+- "homeHubState"
+- "homeIdentifier"
+- "homeKitDelegate"
+- "homeLocationStatus"
+- "homeManager"
+- "homeManager:didAddHome:"
+- "homeManager:didReceiveAddAccessoryRequest:"
+- "homeManager:didRemoveHome:"
+- "homeManager:didRemoveHomePermanently:"
+- "homeManager:didUpdateAccessAllowedWhenLocked:"
+- "homeManager:didUpdateAuthorizationStatus:"
+- "homeManager:didUpdateDevices:"
+- "homeManager:didUpdateHH2MigrationAvailableState:"
+- "homeManager:didUpdateHH2MigrationInProgressState:"
+- "homeManager:didUpdateHH2State:"
+- "homeManager:didUpdateHomeSafetySecurityEnabled:"
+- "homeManager:didUpdateMultiUserStatus:reason:"
+- "homeManager:didUpdateResidentEnabledForThisDevice:"
+- "homeManager:didUpdateStateForIncomingInvitations:"
+- "homeManager:didUpdateStatus:"
+- "homeManager:didUpdateThisDeviceIsResidentCapable:"
+- "homeManager:residentProvisioningStatusChanged:"
+- "homeManagerConfiguration"
+- "homeManagerDelegate"
+- "homeManagerDelegateQueue"
+- "homeManagerDidEndBatchNotifications:"
+- "homeManagerDidRemoveCurrentAccessory:"
+- "homeManagerDidUpdateApplicationData:"
+- "homeManagerDidUpdateAssistantIdentifiers:"
+- "homeManagerDidUpdateCurrentHome:"
+- "homeManagerDidUpdateDataSyncInProgress:"
+- "homeManagerDidUpdateDataSyncState:"
+- "homeManagerDidUpdateHomes:"
+- "homeManagerDidUpdatePrimaryHome:"
+- "homeManagerSet"
+- "homeManagerWillStartBatchNotifications:"
+- "homePodVariant"
+- "homeTimeZone"
+- "homeTimers"
+- "homeUUID"
+- "homes"
+- "hour"
+- "id"
+- "identifier"
+- "identifyWithCompletionHandler:"
+- "identifyWithParams:expectedValues:expectedValueInterval:completion:"
+- "inFlightFuture"
+- "inactiveUpdatingLevel"
+- "incomingCoordinationMessagesQueue"
+- "incomingHomeKitMessagesQueue"
+- "incomingToken"
+- "init"
+- "initForAccessory:withConnectionProvider:"
+- "initForTestingWithClusterID:"
+- "initRegularFileWithContents:"
+- "initWithAccessory:targetSleepWakeState:"
+- "initWithAppBundleIdentifier:linkAction:linkActionMetadata:"
+- "initWithArray:"
+- "initWithAsset:"
+- "initWithBool:"
+- "initWithCenter:radius:identifier:"
+- "initWithCharacteristic:targetValue:"
+- "initWithCharacteristic:thresholdRange:"
+- "initWithCharacteristic:triggerValue:"
+- "initWithCommandID:endpointID:clusterID:accessory:commandFields:expectedValues:"
+- "initWithConfig:delegate:queue:"
+- "initWithConfiguration:"
+- "initWithDevice:endpoint:queue:"
+- "initWithDevice:endpointID:queue:"
+- "initWithDomain:code:userInfo:"
+- "initWithDouble:"
+- "initWithDynamicProvider:"
+- "initWithFireDateComponents:"
+- "initWithFloat:"
+- "initWithInteger:"
+- "initWithLightProfile:naturalLightingEnabled:"
+- "initWithLocation:"
+- "initWithLogSizeBytes:delaySeconds:snapshotType:recordAudio:enableAudioClips:cloudkitMetadataRequired:"
+- "initWithMTRDevice:controllerID:attributePaths:"
+- "initWithMachServiceName:options:"
+- "initWithMatterCommands:enforceExecutionOrder:"
+- "initWithMediaProfiles:playbackState:volume:"
+- "initWithMediaProfiles:playbackState:volume:playbackArchive:"
+- "initWithOptions:cachePolicy:"
+- "initWithParameters:error:"
+- "initWithPath:commandFields:requiredResponse:"
+- "initWithPresenceEventType:presenceUserType:"
+- "initWithPresenceEventType:presenceUserType:users:"
+- "initWithRed:green:blue:alpha:"
+- "initWithRegion:"
+- "initWithResponseValue:error:"
+- "initWithScheduleRules:"
+- "initWithSignificantEvent:offset:"
+- "initWithStartTime:endTime:daysOfTheWeek:"
+- "initWithSuiteName:"
+- "initWithURL:options:"
+- "initWithUUIDString:"
+- "initWithVideoResolutionType:"
+- "initWithXPConnectionBlock:uniqueIdentifier:"
+- "initialCharacteristicFetchTask"
+- "initiateDiagnosticsTransferWithOptions:completionHandler:"
+- "intValue"
+- "integerValue"
+- "internalHomeManager"
+- "intervalBuffer"
+- "invalidate"
+- "invokeCommandWithEndpointID:clusterID:commandID:commandFields:expectedValues:expectedValueInterval:queue:completion:"
+- "invokeCommands:queue:completion:"
+- "isAdditionalSetupRequired"
+- "isAdministrator"
+- "isAllowedToEnableAdaptiveTemperatureAutomations"
+- "isAnnounceAccessAllowed"
+- "isAutomaticSoftwareUpdateEnabled"
+- "isBridged"
+- "isCalibrating"
+- "isCameraManuallyDisabled"
+- "isCompatible"
+- "isControllable"
+- "isCurrentTimer"
+- "isDate:withinAllowedTimeForSchedule:forHomeInTimeZone:"
+- "isDemoAccessory"
+- "isDemoCamera"
+- "isEnabled"
+- "isEqual:"
+- "isExecuting"
+- "isFiring"
+- "isFirmwareUpdateAvailable"
+- "isFirstPlaylistRequest"
+- "isImportingFromPhotoLibraryEnabled"
+- "isInitialized"
+- "isKindOfClass:"
+- "isMemberOfClass:"
+- "isNaturalLightingEnabled"
+- "isNeedsOnboarding"
+- "isNotificationEnabled"
+- "isOnByActionSetUniqueIdentifier"
+- "isOwner"
+- "isPrimary"
+- "isPrimaryService"
+- "isProxy"
+- "isReachable"
+- "isRemoteAccessAllowed"
+- "isRestrictedGuest"
+- "isRestrictedGuestInAllowedPeriod"
+- "isSeekInProgress"
+- "isUserInteractive"
+- "iteration"
+- "keyEnumerator"
+- "label"
+- "landmarkInfo"
+- "landmarkTag"
+- "lastFireDate"
+- "lastKnownEndpointID"
+- "lastKnownOperatingState"
+- "lastKnownOperatingStateAbnormalReasons"
+- "lastOverrideValueIteration"
+- "lastRefreshDateByHome"
+- "lastSeenDate"
+- "lastSeenStatus"
+- "lastStreamAttemptResultedInBusyError"
+- "lastWriteDate"
+- "latestBatchWriteIDs"
+- "launchInitiationTimestamp"
+- "level"
+- "licenseAgreement"
+- "lightProfile"
+- "lightProfile:didUpdateSettings:"
+- "lightProfileDelegate"
+- "lightProfiles"
+- "linkedServices"
+- "localPresenceRoomsConfig"
+- "localizedDescription"
+- "localizedDescriptionForCharacteristicType:"
+- "localizedTitleForKeyPath:"
+- "location"
+- "locationBasedHomeID"
+- "locationInfo"
+- "locationName"
+- "lock"
+- "lockedToFreezeDriedHome"
+- "logger"
+- "lowBatteryStatus"
+- "mainBundle"
+- "mainRunLoop"
+- "majorVersion"
+- "manageUsersWithCompletionHandler:"
+- "manager"
+- "managers"
+- "manufacturer"
+- "manufacturerDescription"
+- "mapID"
+- "matterControllerID"
+- "matterDelegate"
+- "matterNodeID"
+- "matterSnapshotBatchManager"
+- "matterSnapshotUpdateController"
+- "matterStartupParametersXPCConnectBlock"
+- "matterStateSnapshots"
+- "maxLength"
+- "maxValue"
+- "maximumValue"
+- "mediaObject:didUpdateMediaSession:"
+- "mediaObject:didUpdateSettings:"
+- "mediaObjectDelegate"
+- "mediaProfile"
+- "mediaProfileFor:"
+- "mediaProfiles"
+- "mediaSession"
+- "mediaSession:didUpdatePlaybackState:"
+- "mediaSessionDelegate"
+- "mediaSessionDidUpdate:"
+- "mediaSystemFor:"
+- "mediaSystems"
+- "mediaUniqueIdentifier"
+- "metadata"
+- "meter"
+- "meterServerDidDisconnect:"
+- "meterSpectrumCaptureWasInterrupted:"
+- "meteringTask"
+- "mfiCertifiedACWG"
+- "microphoneControl"
+- "minValue"
+- "minimumValue"
+- "minute"
+- "mockDiagnosticLogs"
+- "mockEndpoints"
+- "mode"
+- "modeTags"
+- "model"
+- "monitorAndFetchStateForActionSets:widgetIdentifier:kind:completion:"
+- "monitorAndFetchStateForCharacteristics:widgetIdentifier:kind:completion:"
+- "monitorStateForMTRAttributeDescriptors:widgetIdentifier:kind:completion:"
+- "monitoredActionSets"
+- "monitoredCharacteristics"
+- "monitoredMatterDevices"
+- "mostRecentElementStream"
+- "mostRecentElementStreamContinuation"
+- "mostRecentSnapshot"
+- "moveToColorTemperatureWithParams:expectedValues:expectedValueInterval:completion:"
+- "moveToColorWithParams:expectedValues:expectedValueInterval:completion:"
+- "moveToHueAndSaturationWithParams:expectedValues:expectedValueInterval:completion:"
+- "moveToLevelWithOnOffWithParams:expectedValues:expectedValueInterval:completion:"
+- "moveToLevelWithParams:expectedValues:expectedValueInterval:completion:"
+- "moveWithOnOffWithParams:expectedValues:expectedValueInterval:completion:"
+- "mutableCopy"
+- "mute"
+- "name"
+- "nameIsConfigured"
+- "nameResolver"
+- "nanoHomeGroup"
+- "newAccessoryControlsBearer"
+- "newEventTriggerBuilderWithName:events:predicate:"
+- "nextBatchWriteID"
+- "nodeID"
+- "notificationCenter"
+- "notificationEnabledTime"
+- "notificationName"
+- "numberFormatter"
+- "numberOfPresets"
+- "numberRangeWithMaxValue:"
+- "numberRangeWithMinValue:"
+- "object"
+- "objectEnumerator"
+- "objectForKey:"
+- "objectForKeyedSubscript:"
+- "observer"
+- "observers"
+- "offWithParams:expectedValues:expectedValueInterval:completion:"
+- "offset"
+- "oldAccessoryControlsBearer"
+- "onCancelBlock"
+- "onHold"
+- "onWithParams:expectedValues:expectedValueInterval:completion:"
+- "operationalStateID"
+- "options"
+- "origin"
+- "originStream"
+- "originStreamContinuation"
+- "otherAttributeStates"
+- "outgoingToken"
+- "overrideEndpointIDs"
+- "owner"
+- "path"
+- "pause"
+- "pauseWithCompletionHandler:"
+- "pauseWithExpectedValues:expectedValueInterval:completion:"
+- "percentageComplete"
+- "performBatchCharacteristicRequest:"
+- "performDataSync(homeManager:) HMHomeManager already in good state with homes"
+- "performRequests:forKind:completion:"
+- "performSelector:"
+- "performSelector:withObject:"
+- "performSelector:withObject:withObject:"
+- "periodicTimeObserver"
+- "persistedSelectedHomeID"
+- "personManager"
+- "photosPersonManager"
+- "photosPersonManagerSettings"
+- "photosPersonManagerWithUUID:"
+- "play"
+- "playbackArchive"
+- "playbackManager"
+- "playbackSessionIdentifier"
+- "playbackState"
+- "playbackStateDescription"
+- "playerItemStatusObserver"
+- "policy"
+- "powerLevel"
+- "predicate"
+- "predictionControllers"
+- "predictionScore"
+- "predictionTargetUUID"
+- "predictionType"
+- "predictionsTask"
+- "presenceEventType"
+- "presenceUserType"
+- "presetHandle"
+- "presetScenario"
+- "presetTypeFeatures"
+- "previousSnapshotCallTime"
+- "primaryColor"
+- "primaryHome"
+- "primaryHomeID"
+- "processInfo"
+- "processName"
+- "productID"
+- "profiles"
+- "properties"
+- "q16@0:8"
+- "radius"
+- "rate"
+- "reachabilityByAccessoryUniqueIdentifier"
+- "reachable"
+- "reachableTransports"
+- "readAttributeOnOffWithParams:"
+- "readAttributePaths:"
+- "readAttributeWithEndpointID:clusterID:attributeID:params:"
+- "readRequestWithCharacteristic:"
+- "readValueWithCompletionHandler:"
+- "readyForPlayback"
+- "reason"
+- "recommendationsModerator"
+- "recommendedHome"
+- "recordedCommands"
+- "recordedReads"
+- "recurrenceDays"
+- "recurrences"
+- "refreshTask"
+- "region"
+- "regularFileContents"
+- "release"
+- "releaseNotes"
+- "releaseNotesSummary"
+- "remainingTime"
+- "removeAccessory:completionHandler:"
+- "removeActionSet:"
+- "removeActionSet:completionHandler:"
+- "removeAlarm:"
+- "removeDelegate:"
+- "removeEndEvent:"
+- "removeEvent:"
+- "removeItemAtURL:error:"
+- "removeObjectForKey:"
+- "removeObserver:"
+- "removeRoom:completionHandler:"
+- "removeServiceGroup:completionHandler:"
+- "removeTimeObserver:"
+- "removeTimer:"
+- "removeTrigger:completionHandler:"
+- "removeZone:completionHandler:"
+- "repeatSchedule"
+- "repeatState"
+- "replaceCurrentItemWithPlayerItem:"
+- "request"
+- "requestPathWithEndpointID:clusterID:attributeID:"
+- "requestedLength"
+- "requestedOffset"
+- "requesting fetch in polling task"
+- "requestsAllDataToEndOfResource"
+- "resetAndRemoveAllCHIPPairingsFromAccessory:completion:"
+- "residentDevice:didUpdateCapabilities:"
+- "residentDevice:didUpdateEnabled:"
+- "residentDevice:didUpdateName:"
+- "residentDevice:didUpdateStatus:"
+- "residentDevice:didUpdateSupportsHomeActivityState:"
+- "residentDeviceDelegate"
+- "residentDevices"
+- "residentFor:"
+- "resourceLoader"
+- "resourceLoader:didCancelAuthenticationChallenge:"
+- "resourceLoader:didCancelLoadingRequest:"
+- "resourceLoader:shouldWaitForLoadingOfRequestedResource:"
+- "resourceLoader:shouldWaitForRenewalOfRequestedResource:"
+- "resourceLoader:shouldWaitForResponseToAuthenticationChallenge:"
+- "respondWithData:"
+- "respondsToSelector:"
+- "restrictedGuestAccessSettings"
+- "resumeWithCompletionHandler:"
+- "resumeWithExpectedValues:expectedValueInterval:completion:"
+- "retain"
+- "retainCount"
+- "role"
+- "roomFor:"
+- "roomForEntireHome"
+- "rooms"
+- "rootGroup"
+- "saturation"
+- "scheduleRules"
+- "scheduledTimerWithTimeInterval:repeats:block:"
+- "seekToTime:toleranceBefore:toleranceAfter:completionHandler:"
+- "selectAreasWithParams:expectedValues:expectedValueInterval:completion:"
+- "selectPreferredResident:completion:"
+- "selectPreferredResident:requireAutoUpdate:completion:"
+- "self"
+- "serialNumber"
+- "serializedParameters"
+- "service"
+- "serviceFor:"
+- "serviceGroupFor:"
+- "serviceGroups"
+- "serviceIDs"
+- "serviceSubtype"
+- "serviceType"
+- "services"
+- "sessionState"
+- "setActionSets:"
+- "setActions:"
+- "setAdaptive:"
+- "setAdaptiveTemperatureDriver:rooms:completion:"
+- "setAllNotificationsEnabled:includeAppleMediaAccessories:completionHandler:"
+- "setAllowsCaptureOfClearKeyVideo:"
+- "setAttributeRequests:"
+- "setBool:forKey:"
+- "setCachePolicy:"
+- "setColorTemperatureMireds:"
+- "setColorX:"
+- "setColorY:"
+- "setCompletionHandler:"
+- "setContentLength:"
+- "setContentType:"
+- "setContext:"
+- "setCurrentHome:"
+- "setDateFormat:"
+- "setDateStyle:"
+- "setDelegate:"
+- "setDelegate:queue:"
+- "setDelegateQueue:"
+- "setDiscretionary:"
+- "setEnabled:"
+- "setEndEvents:"
+- "setEnhancedHue:"
+- "setEvents:"
+- "setExecuteOnce:"
+- "setFormatWidth:"
+- "setFormattingContext:"
+- "setHdm_containingHome:"
+- "setHomeManager:"
+- "setHomeManagerConfiguration:"
+- "setHour:"
+- "setHue:"
+- "setIdentifyTime:"
+- "setInactiveUpdatingLevel:"
+- "setInterruptionHandler:"
+- "setInvalidationHandler:"
+- "setLevel:"
+- "setLocale:"
+- "setLocalizedDateFormatFromTemplate:"
+- "setMaxConcurrentOperationCount:"
+- "setMaximumFractionDigits:"
+- "setMaximumIntegerDigits:"
+- "setMaximumSize:"
+- "setMaximumUnitCount:"
+- "setMinute:"
+- "setMoveMode:"
+- "setMuted:"
+- "setName:"
+- "setName:isConfigured:"
+- "setNameIsConfigured:"
+- "setNaturalLightingEnabled:completionHandler:"
+- "setNewAreas:"
+- "setNewMode:"
+- "setNumberStyle:"
+- "setObject:forKey:"
+- "setObject:forKeyedSubscript:"
+- "setPolicy:"
+- "setPredicate:"
+- "setPresetsEditable"
+- "setProgressHandler:"
+- "setQualityOfService:"
+- "setRate:"
+- "setRecurrenceDays:"
+- "setRecurrences:"
+- "setRequestType:"
+- "setRequestedTimeToleranceBefore:"
+- "setResolutions:"
+- "setSaturation:"
+- "setShouldTakeOwnershipOfExistingStream:"
+- "setSkippedArea:"
+- "setStatus:"
+- "setStatusText:"
+- "setStepMode:"
+- "setStepSize:"
+- "setThermostatSleepSchedule:completion:"
+- "setTimeStyle:"
+- "setTimeZone:"
+- "setTimeout:"
+- "setTitle:"
+- "setTransitionTime:"
+- "setTriggerOwnedActionSet:"
+- "setUnitStyle:"
+- "setUnitsStyle:"
+- "setUsesSignificantDigits:"
+- "setVideoPreferences:"
+- "set_currentHome:"
+- "settingsControl"
+- "shared"
+- "sharedSession"
+- "shortValue"
+- "shuffleState"
+- "significantEvent"
+- "signpostState"
+- "signposter"
+- "siriEndpointProfile"
+- "skipAreaWithParams:expectedValues:expectedValueInterval:completion:"
+- "skippedArea"
+- "sleepForTimeInterval:"
+- "sleepWakeState"
+- "snapshot(snapshot: "
+- "snapshotBatchManager"
+- "snapshotConsumingTask"
+- "snapshotControl"
+- "snapshotMetricsAggregator"
+- "snapshotModerator"
+- "snapshotPath"
+- "snapshotTimer"
+- "snapshotUpdateController"
+- "snapshotsContinuation"
+- "snapshotsStream"
+- "snoozeAlarmWithIdentifier:"
+- "softwareUpdate:didUpdateDocumentation:"
+- "softwareUpdate:didUpdateDocumentationAvailable:"
+- "softwareUpdate:didUpdateNeedsAttentionReasons:"
+- "softwareUpdate:didUpdateState:"
+- "softwareUpdateController"
+- "softwareUpdateController:accessory:didFailUpdate:withError:timestamp:"
+- "softwareUpdateController:accessory:didReceiveUpdate:"
+- "softwareUpdateController:accessory:didUpdateProgress:"
+- "softwareUpdateControllerV2Delegate"
+- "softwareUpdateDelegate"
+- "softwareVersion"
+- "sortedHomes"
+- "speakerControl"
+- "stagedCustomIcon"
+- "stagedIsFavorite"
+- "stagedShowInDashboard"
+- "stagedSoftwareUpdateState"
+- "stagedSuggestedRoom"
+- "standardUserDefaults"
+- "startDate"
+- "startStream"
+- "startStreamWithPreferences:"
+- "startTime"
+- "startUpdate:completionHandler:"
+- "state"
+- "stateRestoration"
+- "stateSnapshotUpdateController"
+- "stateSnapshots"
+- "stateSubscriptionConfig"
+- "status"
+- "statusCode"
+- "statusText"
+- "stepValue"
+- "stepWithOnOffWithParams:expectedValues:expectedValueInterval:completion:"
+- "stopStream"
+- "stopWithOnOffWithParams:expectedValues:expectedValueInterval:completion:"
+- "storage"
+- "store"
+- "stream"
+- "streamControl"
+- "streamState"
+- "stringForKey:"
+- "stringForObjectValue:"
+- "stringFromDate:"
+- "stringFromNumber:"
+- "stringFromTimeInterval:"
+- "stringStorage"
+- "stringValue"
+- "subscribeLastKnownEventsForAccessory:completion:"
+- "subscribeToAccessorySettingsWithHomeIdentifier:accessoryIdentifier:keyPaths:options:completionHandler:"
+- "subscriber:didReceiveIndividualEventBulletin:"
+- "subscriber:didUpdateBulletins:"
+- "superclass"
+- "supportedDiagnostics"
+- "supportedTypes"
+- "supportsAdaptiveTemperatureAutomations"
+- "supportsAnnounce"
+- "supportsAudioAnalysis"
+- "supportsAudioReturnChannel"
+- "supportsCHIP"
+- "supportsCleanEnergyAutomation"
+- "supportsCompanionInitiatedObliterate"
+- "supportsCompanionInitiatedRestart"
+- "supportsDoorbellChime"
+- "supportsDropIn"
+- "supportsGoHomeCommand"
+- "supportsHomeLevelLocationServiceSetting"
+- "supportsJustSiri"
+- "supportsMediaActions"
+- "supportsMediaContentProfile"
+- "supportsMultiUser"
+- "supportsMusicAlarm"
+- "supportsNativeMatter"
+- "supportsOnboarding"
+- "supportsPreferredMediaUser"
+- "supportsRMVonAppleTV"
+- "supportsTargetControl"
+- "supportsThirdPartyMusic"
+- "supportsUserMediaSettings"
+- "supportsWalletKey"
+- "suspendedState"
+- "symptomHandlerDelegate"
+- "symptoms"
+- "symptomsHandler"
+- "symptomsHandler:didUpdateSymptoms:"
+- "synchronize"
+- "takeSnapshot"
+- "target"
+- "targetServiceUUID"
+- "targetValue"
+- "task"
+- "tasks"
+- "televisionProfiles"
+- "temporaryDirectory"
+- "thermostatControllers"
+- "thermostatServiceConfig"
+- "thresholdRange"
+- "timeProvider"
+- "timeZone"
+- "timer"
+- "timerByUpdatingWithState:"
+- "timerError"
+- "timerFired"
+- "timerID"
+- "timerManagerServiceConnection"
+- "timerWithTimeInterval:target:selector:userInfo:repeats:"
+- "timers"
+- "timersForAccessories:"
+- "timersForAccessory:"
+- "title"
+- "toggleWithParams:expectedValues:expectedValueInterval:completion:"
+- "tokens"
+- "triggerOwnedActionSet"
+- "triggerValue"
+- "triggers"
+- "type"
+- "unblockAccessory:completionHandler:"
+- "ungenericHomeKitDelegate"
+- "uniqueIdentifiersForBridgedAccessories"
+- "units"
+- "unlock"
+- "unregisterPowerSpectrumForStreamToken:"
+- "unsignedCharValue"
+- "unsignedIntValue"
+- "unsignedIntegerValue"
+- "unsignedLongLongValue"
+- "unsignedShortValue"
+- "unsubscribeToAccessorySettingsWithHomeIdentifier:accessoryIdentifier:keyPaths:completionHandler:"
+- "updateAccessMode:forCameraHomePresence:completionHandler:"
+- "updateAlarm:"
+- "updateApplicationData:completionHandler:"
+- "updateAudioStreamSetting:completionHandler:"
+- "updateAutomaticSoftwareUpdateEnabled:completionHandler:"
+- "updateCamerasAccessLevel:completionHandler:"
+- "updateMaximumVideoResolutionQuality:completionHandler:"
+- "updateName:completionHandler:"
+- "updatePresets"
+- "updateRemoteAccess:completionHandler:"
+- "updateTimer:"
+- "updateTypeStream"
+- "updateWithBuilder:completionHandler:"
+- "updates"
+- "userActionPredictionController"
+- "userActionPredictionController:didUpdatePredictions:"
+- "userActionPredictionControllerDelegate"
+- "userFor:"
+- "userID"
+- "userInterfaceStyle"
+- "userSelectedPreferredResident"
+- "userSettings"
+- "users"
+- "v12@?0B8"
+- "v12@?0i8"
+- "v16@0:8"
+- "v16@?0@\"NSArray\"8"
+- "v16@?0@\"NSError\"8"
+- "v16@?0@\"NSNotification\"8"
+- "v16@?0@\"NSNull\"8"
+- "v16@?0@\"NSTimer\"8"
+- "v20@0:8B16"
+- "v24@0:8@\"AVCAudioPowerSpectrumMeter\"16"
+- "v24@0:8@\"HMAccessory\"16"
+- "v24@0:8@\"HMActionSet\"16"
+- "v24@0:8@\"HMCameraSnapshotControl\"16"
+- "v24@0:8@\"HMCameraStreamControl\"16"
+- "v24@0:8@\"HMCameraUserSettings\"16"
+- "v24@0:8@\"HMEvent\"16"
+- "v24@0:8@\"HMHome\"16"
+- "v24@0:8@\"HMHomeManager\"16"
+- "v24@0:8@\"HMMediaSession\"16"
+- "v24@0:8@\"HMResidentDevice\"16"
+- "v24@0:8@\"HMSymptomsHandler\"16"
+- "v24@0:8@\"HMTriggerPolicy\"16"
+- "v24@0:8@\"MTRDevice\"16"
+- "v24@0:8@\"NSArray\"16"
+- "v24@0:8@\"NSPredicate\"16"
+- "v24@0:8@\"NSString\"16"
+- "v24@0:8@16"
+- "v24@0:8Q16"
+- "v24@0:8q16"
+- "v24@?0@\"HMActionSet\"8@\"NSError\"16"
+- "v24@?0@\"HMLightProfileSettings\"8@\"NSError\"16"
+- "v24@?0@\"HMRoom\"8@\"NSError\"16"
+- "v24@?0@\"HMServiceGroup\"8@\"NSError\"16"
+- "v24@?0@\"HMSoftwareUpdateDocumentation\"8@\"NSError\"16"
+- "v24@?0@\"HMWeekDaySchedule\"8@\"NSError\"16"
+- "v24@?0@\"HMWidgetManagerFetchStateForActionSetsResponse\"8@\"NSError\"16"
+- "v24@?0@\"HMWidgetManagerFetchStateResponse\"8@\"NSError\"16"
+- "v24@?0@\"HMWidgetManagerMonitorActionSetsResponse\"8@\"NSError\"16"
+- "v24@?0@\"HMWidgetManagerMonitorCharacteristicsResponse\"8@\"NSError\"16"
+- "v24@?0@\"HMZone\"8@\"NSError\"16"
+- "v24@?0@\"MTRRVCCleanModeClusterChangeToModeResponseParams\"8@\"NSError\"16"
+- "v24@?0@\"MTRRVCOperationalStateClusterOperationalCommandResponseParams\"8@\"NSError\"16"
+- "v24@?0@\"MTRRVCRunModeClusterChangeToModeResponseParams\"8@\"NSError\"16"
+- "v24@?0@\"MTRServiceAreaClusterSelectAreasResponseParams\"8@\"NSError\"16"
+- "v24@?0@\"MTRServiceAreaClusterSkipAreaResponseParams\"8@\"NSError\"16"
+- "v24@?0@\"MTRThermostatClusterAtomicResponseParams\"8@\"NSError\"16"
+- "v24@?0@\"NSArray\"8@\"NSError\"16"
+- "v24@?0@\"NSError\"8@\"HMAccessoryDiagnosticsMetadata\"16"
+- "v24@?0@\"NSError\"8@\"NSArray\"16"
+- "v24@?0@\"NSError\"8q16"
+- "v24@?0@\"NSNumber\"8@\"NSError\"16"
+- "v24@?0@\"NSSet\"8@\"NSError\"16"
+- "v24@?0@\"NSString\"8@\"NSError\"16"
+- "v24@?0@\"NSURL\"8@\"NSError\"16"
+- "v24@?0@8@\"NSError\"16"
+- "v28@0:8@\"HMAccessory\"16B24"
+- "v28@0:8@\"HMHome\"16B24"
+- "v28@0:8@\"HMHomeManager\"16B24"
+- "v28@0:8@\"HMResidentDevice\"16B24"
+- "v28@0:8@\"HMSoftwareUpdate\"16B24"
+- "v28@0:8@\"NSString\"16B24"
+- "v28@0:8@16B24"
+- "v32@0:8@\"<HMMediaObject>\"16@\"HMAccessorySettings\"24"
+- "v32@0:8@\"<HMMediaObject>\"16@\"HMMediaSession\"24"
+- "v32@0:8@\"AVAssetResourceLoader\"16@\"AVAssetResourceLoadingRequest\"24"
+- "v32@0:8@\"AVAssetResourceLoader\"16@\"NSURLAuthenticationChallenge\"24"
+- "v32@0:8@\"AVCAudioPowerSpectrumMeter\"16@\"NSDictionary\"24"
+- "v32@0:8@\"HMAccessory\"16@\"ACAccount\"24"
+- "v32@0:8@\"HMAccessory\"16@\"HMAccessory\"24"
+- "v32@0:8@\"HMAccessory\"16@\"HMAccessoryProfile\"24"
+- "v32@0:8@\"HMAccessory\"16@\"HMAccessorySettings\"24"
+- "v32@0:8@\"HMAccessory\"16@\"HMCharacteristic\"24"
+- "v32@0:8@\"HMAccessory\"16@\"HMDevice\"24"
+- "v32@0:8@\"HMAccessory\"16@\"HMFPairingIdentity\"24"
+- "v32@0:8@\"HMAccessory\"16@\"HMFSoftwareVersion\"24"
+- "v32@0:8@\"HMAccessory\"16@\"HMFWiFiNetworkInfo\"24"
+- "v32@0:8@\"HMAccessory\"16@\"HMService\"24"
+- "v32@0:8@\"HMAccessory\"16@\"HMSymptomsHandler\"24"
+- "v32@0:8@\"HMAccessory\"16@\"NSString\"24"
+- "v32@0:8@\"HMApplicationData\"16@?<v@?@\"NSError\">24"
+- "v32@0:8@\"HMAudioAnalysisLastKnownEventSubscriber\"16@\"HMAudioAnalysisEventBulletin\"24"
+- "v32@0:8@\"HMAudioAnalysisLastKnownEventSubscriber\"16@\"NSArray\"24"
+- "v32@0:8@\"HMCameraStreamControl\"16@\"NSError\"24"
+- "v32@0:8@\"HMHome\"16@\"CLLocation\"24"
+- "v32@0:8@\"HMHome\"16@\"HMAccessory\"24"
+- "v32@0:8@\"HMHome\"16@\"HMAccessoryNetworkProtectionGroup\"24"
+- "v32@0:8@\"HMHome\"16@\"HMActionSet\"24"
+- "v32@0:8@\"HMHome\"16@\"HMHomeActivityStateSchedule\"24"
+- "v32@0:8@\"HMHome\"16@\"HMHomePersonManagerSettings\"24"
+- "v32@0:8@\"HMHome\"16@\"HMMediaSystem\"24"
+- "v32@0:8@\"HMHome\"16@\"HMResidentDevice\"24"
+- "v32@0:8@\"HMHome\"16@\"HMRoom\"24"
+- "v32@0:8@\"HMHome\"16@\"HMServiceGroup\"24"
+- "v32@0:8@\"HMHome\"16@\"HMTrigger\"24"
+- "v32@0:8@\"HMHome\"16@\"HMUser\"24"
+- "v32@0:8@\"HMHome\"16@\"HMZone\"24"
+- "v32@0:8@\"HMHome\"16@\"NSArray\"24"
+- "v32@0:8@\"HMHome\"16@\"NSError\"24"
+- "v32@0:8@\"HMHome\"16@\"NSString\"24"
+- "v32@0:8@\"HMHome\"16@\"NSTimeZone\"24"
+- "v32@0:8@\"HMHome\"16Q24"
+- "v32@0:8@\"HMHome\"16q24"
+- "v32@0:8@\"HMHomeManager\"16@\"HMAddAccessoryRequest\"24"
+- "v32@0:8@\"HMHomeManager\"16@\"HMHome\"24"
+- "v32@0:8@\"HMHomeManager\"16@\"NSArray\"24"
+- "v32@0:8@\"HMHomeManager\"16@\"NSSet\"24"
+- "v32@0:8@\"HMHomeManager\"16@\"NSUUID\"24"
+- "v32@0:8@\"HMHomeManager\"16Q24"
+- "v32@0:8@\"HMLightProfile\"16@\"HMLightProfileSettings\"24"
+- "v32@0:8@\"HMMediaSession\"16q24"
+- "v32@0:8@\"HMResidentDevice\"16@\"NSString\"24"
+- "v32@0:8@\"HMResidentDevice\"16Q24"
+- "v32@0:8@\"HMSoftwareUpdate\"16@\"HMSoftwareUpdateDocumentation\"24"
+- "v32@0:8@\"HMSoftwareUpdate\"16Q24"
+- "v32@0:8@\"HMSoftwareUpdate\"16q24"
+- "v32@0:8@\"HMSymptomsHandler\"16@\"NSSet\"24"
+- "v32@0:8@\"HMUserActionPredictionController\"16@\"NSArray\"24"
+- "v32@0:8@\"MTRDevice\"16@\"NSArray\"24"
+- "v32@0:8@\"MTRDevice\"16Q24"
+- "v32@0:8@16@24"
+- "v32@0:8@16@?24"
+- "v32@0:8@16Q24"
+- "v32@0:8@16q24"
+- "v32@?0Q8@\"NSSet\"16@\"NSError\"24"
+- "v32@?0{?=qiIq}8"
+- "v36@0:8@\"HMHome\"16@\"HMActionSet\"24B32"
+- "v36@0:8@16@24B32"
+- "v40@0:8@\"AVCAudioPowerSpectrumMeter\"16@\"AVCAudioPowerSpectrum\"24@\"NSDictionary\"32"
+- "v40@0:8@\"HMAccessory\"16@\"HMService\"24@\"HMCharacteristic\"32"
+- "v40@0:8@\"HMAccessorySettingsDataSource\"16@\"NSUUID\"24@\"NSArray\"32"
+- "v40@0:8@\"HMAccessorySoftwareUpdateControllerV2\"16@\"NSUUID\"24@\"HMSoftwareUpdateProgressV2\"32"
+- "v40@0:8@\"HMAccessorySoftwareUpdateControllerV2\"16@\"NSUUID\"24@\"HMSoftwareUpdateV2\"32"
+- "v40@0:8@\"HMCameraSnapshotControl\"16@\"HMCameraSnapshot\"24@\"NSError\"32"
+- "v40@0:8@\"HMHome\"16@\"HMRoom\"24@\"HMAccessory\"32"
+- "v40@0:8@\"HMHome\"16@\"HMRoom\"24@\"HMZone\"32"
+- "v40@0:8@\"HMHome\"16@\"HMService\"24@\"HMServiceGroup\"32"
+- "v40@0:8@\"HMHome\"16@\"NSError\"24@\"HMAccessory\"32"
+- "v40@0:8@\"HMHomeManager\"16q24@\"NSString\"32"
+- "v40@0:8@\"NSArray\"16@\"NSNumber\"24@?<v@?@\"MTRRVCOperationalStateClusterOperationalCommandResponseParams\"@\"NSError\">32"
+- "v40@0:8@16@24@32"
+- "v40@0:8@16q24@32"
+- "v48@0:8@\"MTRRVCCleanModeClusterChangeToModeParams\"16@\"NSArray\"24@\"NSNumber\"32@?<v@?@\"MTRRVCCleanModeClusterChangeToModeResponseParams\"@\"NSError\">40"
+- "v48@0:8@\"MTRRVCRunModeClusterChangeToModeParams\"16@\"NSArray\"24@\"NSNumber\"32@?<v@?@\"MTRRVCRunModeClusterChangeToModeResponseParams\"@\"NSError\">40"
+- "v48@0:8@\"MTRServiceAreaClusterSelectAreasParams\"16@\"NSArray\"24@\"NSNumber\"32@?<v@?@\"MTRServiceAreaClusterSelectAreasResponseParams\"@\"NSError\">40"
+- "v48@0:8@\"MTRServiceAreaClusterSkipAreaParams\"16@\"NSArray\"24@\"NSNumber\"32@?<v@?@\"MTRServiceAreaClusterSkipAreaResponseParams\"@\"NSError\">40"
+- "v48@0:8@16@24@32@?40"
+- "v52@0:8@\"HMHome\"16Q24B32@\"NSDate\"36@\"NSDate\"44"
+- "v52@0:8@16Q24B32@36@44"
+- "v56@0:8@\"HMAccessorySoftwareUpdateControllerV2\"16@\"NSUUID\"24@\"HMSoftwareUpdateV2\"32@\"NSError\"40@\"NSDate\"48"
+- "v56@0:8@16@24@32@40@48"
+- "validValues"
+- "value"
+- "valueByCharacteristicUniqueIdentifier"
+- "valueUpdatedTime"
+- "vendorID"
+- "version"
+- "visitedEventRequestID"
+- "volume"
+- "waitForAttributeValues:timeout:queue:completion:"
+- "waveformDataProvider"
+- "waveformStreamProvider"
+- "widgetAttributeCache"
+- "widgetManager"
+- "writeAttributeAutoRelockTimeWithValue:expectedValueInterval:"
+- "writeAttributeOnLevelWithValue:expectedValueInterval:"
+- "writeAttributeOnOffTransitionTimeWithValue:expectedValueInterval:"
+- "writeAttributeTemperatureSetpointHoldDurationWithValue:expectedValueInterval:"
+- "writeAttributeTemperatureSetpointHoldWithValue:expectedValueInterval:"
+- "writeAttributeWithEndpointID:clusterID:attributeID:value:expectedValueInterval:timedWriteTimeout:"
+- "writeRequestWithCharacteristic:value:"
+- "writeTask"
+- "writeValue:completionHandler:"
+- "zone"
+- "zoneName"
+- "zones"
+
+```

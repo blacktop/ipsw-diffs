@@ -1,0 +1,2860 @@
+## PrivacySettingsUI
+
+> `/System/Library/PrivateFrameworks/Settings/PrivacySettingsUI.framework/PrivacySettingsUI`
+
+```diff
+
+-1238.5.1.0.0
+-  __TEXT.__text: 0x6ace8 sha256:db0fadaf1b03a1274876413bfe6f6bae656f62c01ba43a7b06806304bce953b4
+-  __TEXT.__auth_stubs: 0x10a0 sha256:4bb0ab8ad8bfb41000176de5cb58fe2c13e68f14cceaafd62f59da9c550ece0f
+-  __TEXT.__objc_methlist: 0x4104 sha256:8ef3d1c5057e039d1291bb492c86670ba462b2073b6604459fd916527c7c14bf
+-  __TEXT.__const: 0x334 sha256:51ccc4e772ab4911ffca92cf2195a880ea3a74399a03cd7db36e67294786d282
+-  __TEXT.__gcc_except_tab: 0x1354 sha256:25a118b95a2c88bce9c692bbe6eda43855061776d6080308c745dacfa910317f
+-  __TEXT.__cstring: 0x814f sha256:625a9971c2ed47e0e6593f52689b1237f74f2643ee980cf4ad2ad7424ce26738
+-  __TEXT.__oslogstring: 0x2d10 sha256:c8967b5cd6437545d19ac19ae77ad087c49f698622941c67567c9c83b722744d
+-  __TEXT.__dlopen_cstrs: 0xf41 sha256:716c79a3f4a3527eb36cc9cd8d5f399c8aa3d9618912dcdb60c94a8b770eb84f
+-  __TEXT.__swift5_typeref: 0x188 sha256:da4fa7b856e4597e3a228833da41c9df7d6f814cd987e6165f7a707f18892511
+-  __TEXT.__swift5_capture: 0x1ac sha256:df01f760fc394990b955cacaa8c9f51220847452e78bafd1a78a138699d336f3
+-  __TEXT.__constg_swiftt: 0x178 sha256:49a99095ce6e4e7ae023678958d9bcda64811d937e397b4fab30f970b575a313
++1259.0.101.0.0
++  __TEXT.__text: 0x64700 sha256:75b51da4b9f7eefd22c7991430df1c04579a7b09c7bd5eab0d4d658f08015836
++  __TEXT.__objc_methlist: 0x4164 sha256:436acaa37bf6289e10c8a5a6da8f9f55fabee6408078a3404f61b6c67d777dab
++  __TEXT.__const: 0x374 sha256:57f82fb6e6279dc955dc9f314f5577265de88e58d703eab43f8995e4de4784f8
++  __TEXT.__gcc_except_tab: 0x1294 sha256:e6e6a54043fbd1d4216381e58b64ea0f8323f95a144993a5e3a4b7132090cfc8
++  __TEXT.__cstring: 0x81f4 sha256:854c9bd4a32cd38d43a4c342e3aed6b21973e5989289621eddac946828224a03
++  __TEXT.__oslogstring: 0x2c60 sha256:a33ac6d8dc9090ce049bb606298aaf660e4aed77208ab3712fa4e9c2ffc75c69
++  __TEXT.__dlopen_cstrs: 0xe98 sha256:7cb3a7253e91072ee1e466aa01e3948aa12abc23ac1a793977ff2c2fe1246c4c
++  __TEXT.__swift5_typeref: 0x1b8 sha256:e13cd4895eec976ef64677526eb27efe0d7be5a3ac933133956af1e17a958809
++  __TEXT.__swift5_capture: 0x19c sha256:79904f512147a788de8c64a3f0f06a0d4f23d15f09d33821f46efabed6858af7
++  __TEXT.__constg_swiftt: 0x1e8 sha256:8cc29ae14c0b29f46702e69bc58b547905edffd7b0fe263ba877c6d47f8a8ed6
+   __TEXT.__swift5_reflstr: 0xb9 sha256:c416067f2d63bbe4941b4f176312e3c0d65e4b96bfb4cda5ef2bf52669a892e3
+-  __TEXT.__swift5_fieldmd: 0x9c sha256:730bc3d5f4fa14c79faad85570a8d5dcbecd721423360871cfa4c32a67687a4c
+-  __TEXT.__swift5_types: 0xc sha256:e4912a8f0beae992631970feae3fabe0821cb8e135d154db8eb0f45494d6ed88
+-  __TEXT.__swift_as_entry: 0x34 sha256:cae74742c08b1e27a3dc89659109f382f9d3ed064e353f67dde9d0c00ac0d094
+-  __TEXT.__swift_as_ret: 0x34 sha256:8728920280fdea8cf72664a1a2a27f4fe5cf0b050c705ee859636fb7779a4e27
+-  __TEXT.__unwind_info: 0x1bb0 sha256:85b536cfcc53b07be722657d157d41f9b21d18f03add807e9a205156b5ca1093
+-  __TEXT.__eh_frame: 0x640 sha256:937ca661f61f5f6afd54f76ddc24a20722e6fa950238e77cac85c8fa6b30adad
+-  __TEXT.__objc_classname: 0xa21 sha256:e9285812c7582551699ae9685a96779a6dfda01473377705bf667d19d993e488
+-  __TEXT.__objc_methname: 0xd557 sha256:f1dfd32e9a6fc136b75c9751f612c2252cd6732143a018ebf9debad6dfc24c05
+-  __TEXT.__objc_methtype: 0x1170 sha256:e69ec20d5278910708b9fe0a7365a51da77118ffbbedd74b3699bd029e370161
+-  __TEXT.__objc_stubs: 0xa3a0 sha256:6cbefc3de6204e48dbb309f0ccd2dba4ebff9cf2f0af630c70b109ec2a4a1423
+-  __DATA_CONST.__got: 0x988 sha256:f6c3f201a8556380a2d75c4e547297d826f48012899629ce95a56b7ad727a180
+-  __DATA_CONST.__const: 0x1b78 sha256:b3557d0a6f5ffb6a5e77674fbda7284ee9fe51be41b2f8de78c4ed45ef47117b
+-  __DATA_CONST.__objc_classlist: 0x228 sha256:082e96506f1b55438721462ad9f78adc2178c1d4628103c383357d091dd96a6f
+-  __DATA_CONST.__objc_catlist: 0x10 sha256:74390d2e48c5480543055f46904536f1d9bf323117eb2a100d172b364887a516
+-  __DATA_CONST.__objc_protolist: 0x58 sha256:b8417580673f62a864007695c0ec56c03435b1383d3f155dc342b35e75f9855d
+-  __DATA_CONST.__objc_imageinfo: 0x8 sha256:8c2e86a3d61473a17440ee60441113a7d285704a3b70278f03e88b3c356a5493
+-  __DATA_CONST.__objc_selrefs: 0x3280 sha256:1ed31eefb56d1e07a7b93efff438b2b8d8ab4edb26725e04e5ff3715923a7dbc
+-  __DATA_CONST.__objc_protorefs: 0x10 sha256:007bb54a5e47d6108a6b301f144a64bd8ef01de822f654624633f10b267423a0
+-  __DATA_CONST.__objc_superrefs: 0x1d8 sha256:246e354a00fa75292d8ac7071bac3144215cd1e312a81f6912f101dab92ba526
+-  __DATA_CONST.__objc_arraydata: 0x180 sha256:57214e7af8b8553103ad4e7d463df210e958b7e9e20bb1f7f679d6ffcc13afb7
+-  __AUTH_CONST.__auth_got: 0x860 sha256:2a0e323f3cb40a89a5381d6f63891f148a4ef89e523a1455104e75779f242a97
+-  __AUTH_CONST.__const: 0xa50 sha256:da0c66fa655a1f0954004b37bb5c4342dcb062ac68acc74d934f77cc5f74d40d
+-  __AUTH_CONST.__cfstring: 0x6ec0 sha256:0a6efb751e9defeed7da1029144e0fa9da4404e0f31d697e4aafd4d938aa8f70
+-  __AUTH_CONST.__objc_const: 0x62f0 sha256:4c98aa9a2088db52f9d504810204980e7cf88154ededb3b505327eafc57f4428
+-  __AUTH_CONST.__objc_intobj: 0x348 sha256:c38fbcd6d09ac71f59855279ad17289aba01a36687aad12150791c6701e5b0ea
+-  __AUTH_CONST.__objc_arrayobj: 0x108 sha256:168be91d486dd8cd3cc2231104400809a74a6e2900b6c452639df85bcb872a14
+-  __AUTH_CONST.__objc_dictobj: 0x50 sha256:463e35e23cf21d76a3c93e542b4ff9e0cc0f1f0dc6d0a7bc9cffab1ade3404d4
+-  __AUTH.__objc_data: 0x1208 sha256:d899422d18767985cc9977e574bc8c267345e89329881572fb24e9f9c5d87374
+-  __AUTH.__data: 0xe8 sha256:03c8c9f275c2ec162287d39a56e2ae1d8e7817867757961799b2bd7391aaf065
+-  __DATA.__objc_ivar: 0x460 sha256:42e49c2743a269a2701c95e0cab7622df8c60942dff61c8b30d8adf0032090b1
+-  __DATA.__data: 0x4c0 sha256:af48dfda93cde1c5507874584fe2818b2833673038c4c1be956b06e38cf5e5e2
+-  __DATA.__bss: 0x508 sha256:2ef0b8632395250da7a50aba9c73b8b97c27e1a5ff76d0ae2ffce238e3ce4f0c
++  __TEXT.__swift5_fieldmd: 0xbc sha256:30ee0831138cf2a927c914525546909aa9b216cc9926f7199d2bf255788d4651
++  __TEXT.__swift5_types: 0x14 sha256:a39a14c157b92bfdbad9383dcf2b88171bb5bda93f3839a2195fa8f0571868d1
++  __TEXT.__swift_as_entry: 0x34 sha256:1565f93c913f6fb8b163cd00a7a19aa567ad79a70c2bec52ba562c05c69d4b16
++  __TEXT.__swift_as_ret: 0x34 sha256:a9a13b131215c13617bb5b70daa3dac39ad309f9ef740a340c1f3e763234c58a
++  __TEXT.__swift_as_cont: 0x34 sha256:ebcad3f1b44bdf4bbb8a8add4d8a1e05e3b8958bc3952799765e0f68cf917595
++  __TEXT.__unwind_info: 0x17a0 sha256:57b4332f13687524a0365d6babca44a66c8086a6a145a21eb7d3528a0e1063fa
++  __TEXT.__eh_frame: 0x648 sha256:307cc497d75a7403cce493dd4918f4ab772ea74b3d2fc5dfe8c159d397bab7e8
++  __TEXT.__objc_stubs: 0x0
++  __TEXT.__auth_stubs: 0x0
++  __TEXT.__objc_classname: 0x0
++  __TEXT.__objc_methname: 0x0
++  __TEXT.__objc_methtype: 0x0
++  __DATA_CONST.__const: 0x1b28 sha256:8f91f17bd673da3a8bd9a93a00b8e0abacc760b4f873001b8d93699260dad571
++  __DATA_CONST.__objc_classlist: 0x238 sha256:e4d30873c58510b811ad4bf7e90a0f431f7035aefac19d2c70f714bbc905a093
++  __DATA_CONST.__objc_catlist: 0x10 sha256:0311cd2f96b5ea40d956869193d7ead96d61eb231f817bb2f178873d8fc4a569
++  __DATA_CONST.__objc_protolist: 0x50 sha256:9ee0210199257ddcf79e06134d940604f7b2b5beccfaf8666a62caf88b205e02
++  __DATA_CONST.__objc_imageinfo: 0x8 sha256:ce857dcadc2529f941104469975d60698ea3610a86c121e7b4aee224cd0c59ea
++  __DATA_CONST.__objc_selrefs: 0x32b8 sha256:181b318ecb4496775746d556066c84f48297b6f88d7f0065197eeaf0543f223a
++  __DATA_CONST.__objc_protorefs: 0x8 sha256:f491762f7f0459892f0e57e87e3c671b7a2cd2b346f55ca717fcca5440c7d61d
++  __DATA_CONST.__objc_superrefs: 0x1d8 sha256:a88daddae3bdb2ae981ddb5a713c598852a7452bf4bd991ea6f88f57819ca140
++  __DATA_CONST.__objc_arraydata: 0x180 sha256:aca8cbe4268a0db4953d92e83c7f1ad1e0d25004eb09a06c85571d0b3139e1e3
++  __DATA_CONST.__got: 0x9a0 sha256:1fe035315832c10cc1801ab9dc8556765d3f39bd060cb4da8282812bc9973e9c
++  __AUTH_CONST.__const: 0xa48 sha256:0ea7316a8ba68dc179bd678eebe5cd3baa25639e97f51f356250f0f035807d0f
++  __AUTH_CONST.__cfstring: 0x6f40 sha256:61994204bedcc94ced08bc2fd8a652ff56cbc98209b9b2dce86d84caea795a7e
++  __AUTH_CONST.__objc_const: 0x6410 sha256:aba8dfeb9bdc5ec91c8d99fb3a5bf632bdad5d02a3d83167050f1aad3367e7fa
++  __AUTH_CONST.__objc_intobj: 0x348 sha256:e5b5c36e894e7888058e88c2a86d449a0daefb554d4474a6310e1731fbfa03ab
++  __AUTH_CONST.__objc_arrayobj: 0x108 sha256:5cd16dde9a59ebf97f3819b27f998e9f6279caffb5f5fbadef0b3a0777981677
++  __AUTH_CONST.__objc_dictobj: 0x50 sha256:e31b7e6c080270b318462e5be063c42e3daa3771b072283f86ffb51e08cffec2
++  __AUTH_CONST.__auth_got: 0x948 sha256:d438c0a8d50f8aea3c536d70b6adc13ea658c293f0ae0adcb3f09fe02455b326
++  __AUTH.__objc_data: 0x16c8 sha256:5ce840d9a4a4e691a6b9f0f215abc55133eefb808ee96fb1b53430d0c9196653
++  __AUTH.__data: 0x1a8 sha256:fe81281981bad9e607bab1a561d47c1fa955df318b307087865c4cf568489ab0
++  __DATA.__objc_ivar: 0x468 sha256:437cfd55efa8af179d5981de244763badf229c6fd8edbb0484ca31c87253de52
++  __DATA.__data: 0x478 sha256:b8bd53d6167d58ed931363ffb4fa1329c8cdfe326b53c7517525726ddb12452d
++  __DATA.__bss: 0x568 sha256:e253c6a87bdd62e771c0ef1b9850dbc9523c51408ca282f994d3530dbbad9b11
+   __DATA.__common: 0x30 sha256:17b0761f87b081d5cf10757ccc89f12be355c70e2e29df288b65b30710dcbcd1
+-  __DATA_DIRTY.__objc_data: 0x500 sha256:2a8080ab19e4454b53195759f3526da120e4db4457debcc06a66cf74609a4eb3
+-  __DATA_DIRTY.__bss: 0x78 sha256:6edd9f6f9cc92cded36e6c4a580933f9c9f1b90562b46903b806f21902a1a54f
++  __DATA_DIRTY.__objc_data: 0xf0 sha256:48429f221f922154300977f93036456f2f67357cd9cf2b1dbdd0abb76dc5d90e
+   - /System/Library/Frameworks/AccessorySetupKit.framework/AccessorySetupKit
+   - /System/Library/Frameworks/Accounts.framework/Accounts
+   - /System/Library/Frameworks/Contacts.framework/Contacts
+
+   - /System/Library/Frameworks/NetworkExtension.framework/NetworkExtension
+   - /System/Library/Frameworks/PhotosUI.framework/PhotosUI
+   - /System/Library/Frameworks/QuartzCore.framework/QuartzCore
++  - /System/Library/Frameworks/SwiftUI.framework/SwiftUI
+   - /System/Library/Frameworks/UIKit.framework/UIKit
+   - /System/Library/PrivateFrameworks/AccessorySetupKitCore.framework/AccessorySetupKitCore
+   - /System/Library/PrivateFrameworks/AggregateDictionary.framework/AggregateDictionary
+
+   - /System/Library/PrivateFrameworks/CoreAnalytics.framework/CoreAnalytics
+   - /System/Library/PrivateFrameworks/CoreRoutine.framework/CoreRoutine
+   - /System/Library/PrivateFrameworks/DeviceAccess.framework/DeviceAccess
++  - /System/Library/PrivateFrameworks/DiagnosticsSessionAvailability.framework/DiagnosticsSessionAvailability
+   - /System/Library/PrivateFrameworks/EventKitTCCUI.framework/EventKitTCCUI
+   - /System/Library/PrivateFrameworks/FMFUI.framework/FMFUI
++  - /System/Library/PrivateFrameworks/FeatureFlags.framework/FeatureFlags
+   - /System/Library/PrivateFrameworks/FindMyDevice.framework/FindMyDevice
+   - /System/Library/PrivateFrameworks/FindMyLocate.framework/FindMyLocate
+   - /System/Library/PrivateFrameworks/FrontBoardServices.framework/FrontBoardServices
+
+   - /System/Library/PrivateFrameworks/GraphicsServices.framework/GraphicsServices
+   - /System/Library/PrivateFrameworks/IconServices.framework/IconServices
+   - /System/Library/PrivateFrameworks/LimitAdTracking.framework/LimitAdTracking
++  - /System/Library/PrivateFrameworks/LockdownMode.framework/LockdownMode
++  - /System/Library/PrivateFrameworks/LockdownModeUI.framework/LockdownModeUI
+   - /System/Library/PrivateFrameworks/ManagedConfiguration.framework/ManagedConfiguration
+   - /System/Library/PrivateFrameworks/MobileIcons.framework/MobileIcons
+   - /System/Library/PrivateFrameworks/NanoRegistry.framework/NanoRegistry
+
+   - /System/Library/PrivateFrameworks/PrivacyAccounting.framework/PrivacyAccounting
+   - /System/Library/PrivateFrameworks/RunningBoardServices.framework/RunningBoardServices
+   - /System/Library/PrivateFrameworks/SEService.framework/SEService
++  - /System/Library/PrivateFrameworks/Settings.framework/Settings
+   - /System/Library/PrivateFrameworks/SettingsFoundation.framework/SettingsFoundation
++  - /System/Library/PrivateFrameworks/ShareSheet.framework/ShareSheet
+   - /System/Library/PrivateFrameworks/SoftLinking.framework/SoftLinking
+   - /System/Library/PrivateFrameworks/Symptoms.framework/Frameworks/SymptomAnalytics.framework/SymptomAnalytics
+   - /System/Library/PrivateFrameworks/Symptoms.framework/Frameworks/SymptomPresentationFeed.framework/SymptomPresentationFeed
+   - /System/Library/PrivateFrameworks/TCC.framework/TCC
+   - /System/Library/PrivateFrameworks/TransparencyDetailsView.framework/TransparencyDetailsView
++  - /System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
+   - /System/Library/PrivateFrameworks/URLFormatting.framework/URLFormatting
+   - /usr/lib/libAccessibility.dylib
+   - /usr/lib/libMobileGestalt.dylib
+
+   - /usr/lib/swift/libswiftAccelerate.dylib
+   - /usr/lib/swift/libswiftCompression.dylib
+   - /usr/lib/swift/libswiftCore.dylib
++  - /usr/lib/swift/libswiftCoreAudio.dylib
+   - /usr/lib/swift/libswiftCoreFoundation.dylib
++  - /usr/lib/swift/libswiftCoreImage.dylib
+   - /usr/lib/swift/libswiftCoreLocation.dylib
++  - /usr/lib/swift/libswiftCoreMIDI.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
++  - /usr/lib/swift/libswiftIntents.dylib
+   - /usr/lib/swift/libswiftMetal.dylib
+   - /usr/lib/swift/libswiftOSLog.dylib
+   - /usr/lib/swift/libswiftObjectiveC.dylib
+   - /usr/lib/swift/libswiftQuartzCore.dylib
++  - /usr/lib/swift/libswiftSpatial.dylib
+   - /usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: C88A8893-A3FE-3D5F-B78C-0380FBC97DC7
+-  Functions: 2039
+-  Symbols:   7113
+-  CStrings:  4593
++  UUID: A86F4EEA-F2FC-35B2-AAF3-7F1182899B6C
++  Functions: 2055
++  Symbols:   7191
++  CStrings:  2296
+ 
+Symbols:
++ +[PUILocationServicesListController getAppsUsingLocation]
++ +[PUILocationServicesListController updateAppsUsingLocation]
++ -[DiagnosticDataController _continueDiagnosticsData:completion:]
++ -[PUIProblemReportingController analyticsDataSpecifiers]
++ -[PUIProblemReportingController diagnosticsSessionAvailability]
++ -[PUIProblemReportingController diagnosticsSessionButtonSpecifierForStatus:]
++ -[PUIProblemReportingController setAnalyticsDataSpecifiers:]
++ -[PUIProblemReportingController setDiagnosticsSessionAvailability:]
++ GCC_except_table10
++ GCC_except_table106
++ GCC_except_table111
++ GCC_except_table113
++ GCC_except_table124
++ GCC_except_table125
++ GCC_except_table129
++ GCC_except_table134
++ GCC_except_table136
++ GCC_except_table137
++ GCC_except_table141
++ GCC_except_table147
++ GCC_except_table160
++ GCC_except_table161
++ GCC_except_table162
++ GCC_except_table183
++ GCC_except_table206
++ GCC_except_table207
++ GCC_except_table36
++ GCC_except_table38
++ GCC_except_table43
++ GCC_except_table48
++ GCC_except_table49
++ GCC_except_table51
++ GCC_except_table56
++ GCC_except_table62
++ GCC_except_table7
++ GCC_except_table75
++ GCC_except_table76
++ GCC_except_table78
++ GCC_except_table85
++ GCC_except_table93
++ _OBJC_CLASS_$_DSDiagnosticsSessionAvailability
++ _OBJC_CLASS_$_PUILockdownModeExemptContactsViewController
++ _OBJC_IVAR_$_PUIProblemReportingController._analyticsDataSpecifiers
++ _OBJC_IVAR_$_PUIProblemReportingController._diagnosticsSessionAvailability
++ _OBJC_METACLASS_$_PUILockdownModeExemptContactsViewController
++ _OUTLINED_FUNCTION_10
++ _OUTLINED_FUNCTION_100
++ _OUTLINED_FUNCTION_101
++ _OUTLINED_FUNCTION_31
++ _OUTLINED_FUNCTION_36
++ _OUTLINED_FUNCTION_48
++ _OUTLINED_FUNCTION_57
++ _OUTLINED_FUNCTION_62
++ _OUTLINED_FUNCTION_68
++ _OUTLINED_FUNCTION_75
++ _OUTLINED_FUNCTION_79
++ _OUTLINED_FUNCTION_92
++ _PSOSAGetSubmittableLogsWithMetadata
++ _PSOSAGetSubmittableLogsWithMetadata.cold.1
++ _PUIReportSensorManagerDataHasChangedNotification_block_invoke.na_once_object_8
++ _PUIReportSensorManagerDataHasChangedNotification_block_invoke.na_once_token_8
++ _PUIReportSensorManagerDataHasChangedNotification_block_invoke_2.na_once_object_9
++ _PUIReportSensorManagerDataHasChangedNotification_block_invoke_2.na_once_token_9
++ _PUI_SetupXPCConnection
++ _PUI_getSubmittableLogsWithMetadata
++ _PUI_loadDiagnosticsDataWithCompletion
++ _PUI_loadDiagnosticsDataWithMetadata
++ _PUI_loadDiagnosticsDataWithMetadata.cold.1
++ _PUI_loadDiagnosticsDataWithMetadata.cold.2
++ _PUI_loadDiagnosticsDataWithMetadata.cold.3
++ __CLASS_METHODS_PUILockdownModeExemptContactsViewController
++ __CLASS_PROPERTIES_PUILockdownModeExemptContactsViewController
++ __DATA_PUILockdownModeExemptContactsViewController
++ __DATA__TtC17PrivacySettingsUIP33_919BE9D6CC5F06B1A125FFAF517EF51926FindPrivacySettingsUIClass
++ __INSTANCE_METHODS_PUILockdownModeExemptContactsViewController
++ __METACLASS_DATA_PUILockdownModeExemptContactsViewController
++ __METACLASS_DATA__TtC17PrivacySettingsUIP33_919BE9D6CC5F06B1A125FFAF517EF51926FindPrivacySettingsUIClass
++ __OBJC_$_INSTANCE_METHODS_PUIProblemReportingController(PrivacySettingsUI)
++ ___33-[PUIReportController didTapSave]_block_invoke.335
++ ___33-[PUIReportController didTapSave]_block_invoke.335.cold.1
++ ___33-[PUIReportController didTapSave]_block_invoke.335.cold.2
++ ___33-[PUIReportController didTapSave]_block_invoke.340
++ ___39-[PUIReportSensorManager loadAllEvents]_block_invoke.125
++ ___40-[PUIAdSupportController viewDidAppear:]_block_invoke.101
++ ___40-[PUIAdSupportController viewDidAppear:]_block_invoke.105
++ ___43-[PUIAccessoriesController findAccessories]_block_invoke.214
++ ___44-[PUIAccessoriesController specifierForApp:]_block_invoke.175
++ ___45-[PUIReportAppDetailController dataDidChange]_block_invoke.101
++ ___45-[PUIReportAppDetailController dataDidChange]_block_invoke.97
++ ___45-[PUIReportAppDetailController dataDidChange]_block_invoke_2.102
++ ___45-[PUIReportAppDetailController dataDidChange]_block_invoke_2.98
++ ___48-[PUIReportDomainDetailController dataDidChange]_block_invoke.133
++ ___48-[PUIReportDomainDetailController dataDidChange]_block_invoke_2.134
++ ___49-[PUIReportWebsiteDetailController dataDidChange]_block_invoke.86
++ ___49-[PUIReportWebsiteDetailController dataDidChange]_block_invoke.90
++ ___49-[PUIReportWebsiteDetailController dataDidChange]_block_invoke_2.87
++ ___49-[PUIReportWebsiteDetailController dataDidChange]_block_invoke_2.91
++ ___49-[PUITCCAccessController setAccess:forSpecifier:]_block_invoke.238
++ ___51-[PUILocationServicesListController viewDidAppear:]_block_invoke
++ ___52-[PUILockdownModeController set2GEnabled:specifier:]_block_invoke.194
++ ___52-[PUILockdownModeController set2GEnabled:specifier:]_block_invoke_2.195
++ ___52-[PUILockdownModeController set2GEnabled:specifier:]_block_invoke_2.195.cold.1
++ ___54-[PUILocationServicesListController updateTribecaText]_block_invoke.581
++ ___54-[PUILocationServicesListController updateTribecaText]_block_invoke.581.cold.1
++ ___58-[PUILocationServicesListController updateLocationSharing]_block_invoke.578
++ ___61-[PUILocationServicesListController showCoreRoutineSettings:]_block_invoke.601
++ ___62-[PUILockdownModeController getEligibleDevicesWithCompletion:]_block_invoke.283
++ ___62-[PUILockdownModeController getEligibleDevicesWithCompletion:]_block_invoke.283.cold.1
++ ___64-[DiagnosticDataController _continueDiagnosticsData:completion:]_block_invoke
++ ___64-[PUIPhotosPrivacyController _specifiersWithCombinedPickerUsage]_block_invoke.213
++ ___65-[PUILocationServicesListController _setLocationServicesEnabled:]_block_invoke
++ ___66-[PUILockdownModeController setLockdownModeEnabled:forAllDevices:]_block_invoke.264
++ ___67-[PUILocationServicesListController startUpdatingFindMyPreferences]_block_invoke.573
++ ___67-[PUILocationServicesListController startUpdatingFindMyPreferences]_block_invoke.575
++ ___68-[PUIProblemReportingController checkDiagnosticsSessionAvailability]_block_invoke.639
++ ___68-[PUIProblemReportingController checkDiagnosticsSessionAvailability]_block_invoke.cold.1
++ ___69-[PUIAccessoriesAppSpecificControllerViewController refreshDADevices]_block_invoke.145
++ ___71-[PUIContactsPrivacyController createSpecifiersWithCombinedPickerUsage]_block_invoke.318
++ ___73-[PUINetworkController loadConfigurationsForceRefresh:completionHandler:]_block_invoke.79
++ ___73-[PUIProblemReportingController shouldShowIdentityVerificationSpecifiers]_block_invoke.962
++ ___77-[PUILocationServicesAuthorizationLevelController updateCoreRoutineSettings:]_block_invoke.887
++ ___77-[PUIProblemReportingController updateHealthRecordsPreferenceForSpecifierID:]_block_invoke.1048
++ ___77-[PUIProblemReportingController updateHealthRecordsPreferenceForSpecifierID:]_block_invoke.1049
++ ___78+[PUIPhotosPrivacyController setTCCForService:appIdentifier:value:completion:]_block_invoke.184
++ ___PUI_SetupXPCConnection_block_invoke
++ ___PUI_loadDiagnosticsDataWithCompletion_block_invoke
++ ___block_descriptor_48_e8_32s_e5_v8?0ls32l8
++ ___block_descriptor_64_e8_32s40s48s56w_e23_v16?0"UIAlertAction"8ls32l8w56l8s40l8s48l8
++ ___block_descriptor_tmp.152
++ ___block_descriptor_tmp.182
++ ___block_literal_global.1031
++ ___block_literal_global.1039
++ ___block_literal_global.104
++ ___block_literal_global.112
++ ___block_literal_global.124
++ ___block_literal_global.143
++ ___block_literal_global.148
++ ___block_literal_global.154
++ ___block_literal_global.184
++ ___block_literal_global.213
++ ___block_literal_global.216
++ ___block_literal_global.217
++ ___block_literal_global.271
++ ___block_literal_global.293
++ ___block_literal_global.321
++ ___block_literal_global.341
++ ___block_literal_global.344
++ ___block_literal_global.347
++ ___block_literal_global.447
++ ___block_literal_global.572
++ ___block_literal_global.58
++ ___block_literal_global.76
++ ___block_literal_global.81
++ ___block_literal_global.88
++ ___getOSAGetSubmittableLogsWithMetadataSymbolLoc_block_invoke
++ ___swift_allocate_boxed_opaque_existential_1
++ ___swift_async_cont_functlets
++ ___swift_closure_destructor
++ ___swift_closure_destructor.101
++ ___swift_closure_destructor.104
++ ___swift_closure_destructor.110
++ ___swift_closure_destructor.113
++ ___swift_closure_destructor.116
++ ___swift_closure_destructor.119
++ ___swift_closure_destructor.31
++ ___swift_closure_destructor.31Tm
++ ___swift_closure_destructor.35
++ ___swift_closure_destructor.35Tm
++ ___swift_closure_destructor.39
++ ___swift_closure_destructor.4
++ ___swift_closure_destructor.43
++ ___swift_closure_destructor.47
++ ___swift_closure_destructor.56
++ ___swift_closure_destructor.60
++ ___swift_closure_destructor.65
++ ___swift_closure_destructor.71
++ ___swift_closure_destructor.75
++ ___swift_closure_destructor.80
++ ___swift_closure_destructor.86
++ ___swift_closure_destructor.90
++ ___swift_closure_destructor.95
++ ___swift_destroy_boxed_opaque_existential_1
++ __addURLsWithMetadata
++ __swift_FORCE_LOAD_$_swiftCoreAudio
++ __swift_FORCE_LOAD_$_swiftCoreAudio_$_PrivacySettingsUI
++ __swift_FORCE_LOAD_$_swiftCoreImage
++ __swift_FORCE_LOAD_$_swiftCoreImage_$_PrivacySettingsUI
++ __swift_FORCE_LOAD_$_swiftCoreMIDI
++ __swift_FORCE_LOAD_$_swiftCoreMIDI_$_PrivacySettingsUI
++ __swift_FORCE_LOAD_$_swiftIntents
++ __swift_FORCE_LOAD_$_swiftIntents_$_PrivacySettingsUI
++ __swift_FORCE_LOAD_$_swiftSpatial
++ __swift_FORCE_LOAD_$_swiftSpatial_$_PrivacySettingsUI
++ __swift_FORCE_LOAD_$_swiftUIKit
++ __swift_FORCE_LOAD_$_swiftUIKit_$_PrivacySettingsUI
++ _block_copy_helper.106
++ _block_descriptor.108
++ _block_destroy_helper.107
++ _getOSAGetSubmittableLogsWithMetadataSymbolLoc.ptr
++ _objc_claimAutoreleasedReturnValue
++ _objc_msgSend$_continueDiagnosticsData:completion:
++ _objc_msgSend$addChildViewController:
++ _objc_msgSend$analyticsDataSpecifiers
++ _objc_msgSend$diagnosticsSessionAvailability
++ _objc_msgSend$diagnosticsSessionButtonSpecifierForStatus:
++ _objc_msgSend$dictionaryWithDictionary:
++ _objc_msgSend$didMoveToParentViewController:
++ _objc_msgSend$getAppsUsingLocation
++ _objc_msgSend$getSessionStatusWithCompletionHandler:
++ _objc_msgSend$learnedRoutesAccessForLocationDictionary:
++ _objc_msgSend$openDiagnosticsAppWithCompletionHandler:
++ _objc_msgSend$setAutoresizingMask:
++ _objc_msgSend$setDiagnosticsSessionAvailability:
++ _objc_msgSend$updateAppsUsingLocation
++ _objc_msgSend$visitHistoryAccessForLocationDictionary:
++ _objc_retainAutoreleaseReturnValue
++ _objc_retain_x4
++ _objc_retain_x5
++ _objc_retain_x6
++ _objc_retain_x9
++ _sAppsUsingLocation
++ _swift_allocBox
++ _swift_release_x1
++ _swift_release_x19
++ _swift_release_x20
++ _swift_release_x21
++ _swift_release_x22
++ _swift_release_x25
++ _swift_release_x8
++ _swift_retain_x1
++ _swift_retain_x2
++ _swift_retain_x20
++ _swift_retain_x21
++ _symbolic So16PSListControllerC
++ _symbolic _____ 17PrivacySettingsUI04FindaB7UIClass33_919BE9D6CC5F06B1A125FFAF517EF519LLC
++ _symbolic _____ 17PrivacySettingsUI43PUILockdownModeExemptContactsViewControllerC
++ _symbolic _____y_____G 7SwiftUI19UIHostingControllerC 012LockdownModeB022LMUIExemptContactsViewV
+- -[PUILocationServicesAuthorizationLevelController getQualifierState].cold.2
+- -[PUILocationServicesAuthorizationLevelController getQualifierState].cold.3
+- -[PUILocationServicesClipsListController specifiers].cold.1
+- -[PUILocationServicesListController updateAuthLevelStringForSpecifier:andCell:].cold.2
+- -[PUILocationServicesListController updateAuthLevelStringForSpecifier:andCell:].cold.3
+- -[PUILocationSystemServicesListController specifiers].cold.2
+- -[PUIProblemReportingController launchDiagnosticsSession:]
+- GCC_except_table105
+- GCC_except_table107
+- GCC_except_table116
+- GCC_except_table126
+- GCC_except_table128
+- GCC_except_table132
+- GCC_except_table139
+- GCC_except_table144
+- GCC_except_table146
+- GCC_except_table150
+- GCC_except_table163
+- GCC_except_table164
+- GCC_except_table165
+- GCC_except_table179
+- GCC_except_table202
+- GCC_except_table203
+- GCC_except_table40
+- GCC_except_table57
+- GCC_except_table58
+- GCC_except_table60
+- GCC_except_table79
+- GCC_except_table80
+- GCC_except_table82
+- GCC_except_table89
+- GCC_except_table95
+- GCC_except_table96
+- GCC_except_table97
+- _OUTLINED_FUNCTION_20
+- _OUTLINED_FUNCTION_27
+- _OUTLINED_FUNCTION_28
+- _OUTLINED_FUNCTION_32
+- _OUTLINED_FUNCTION_39
+- _OUTLINED_FUNCTION_49
+- _OUTLINED_FUNCTION_56
+- _OUTLINED_FUNCTION_6
+- _OUTLINED_FUNCTION_63
+- _OUTLINED_FUNCTION_71
+- _OUTLINED_FUNCTION_78
+- _OUTLINED_FUNCTION_87
+- _OUTLINED_FUNCTION_88
+- _OUTLINED_FUNCTION_9
+- _PUIReportSensorManagerDataHasChangedNotification_block_invoke.na_once_object_788
+- _PUIReportSensorManagerDataHasChangedNotification_block_invoke.na_once_token_788
+- _PUIReportSensorManagerDataHasChangedNotification_block_invoke_2.na_once_object_789
+- _PUIReportSensorManagerDataHasChangedNotification_block_invoke_2.na_once_token_789
+- __OBJC_$_INSTANCE_METHODS_PUIProblemReportingController
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_DADiagnosticsSessionAvailabilityProtocol
+- __OBJC_$_PROTOCOL_METHOD_TYPES_DADiagnosticsSessionAvailabilityProtocol
+- __OBJC_LABEL_PROTOCOL_$_DADiagnosticsSessionAvailabilityProtocol
+- __OBJC_PROTOCOL_$_DADiagnosticsSessionAvailabilityProtocol
+- __OBJC_PROTOCOL_REFERENCE_$_DADiagnosticsSessionAvailabilityProtocol
+- ___32-[DiagnosticDataController init]_block_invoke
+- ___33-[PUIReportController didTapSave]_block_invoke.294
+- ___33-[PUIReportController didTapSave]_block_invoke.294.cold.1
+- ___33-[PUIReportController didTapSave]_block_invoke.294.cold.2
+- ___33-[PUIReportController didTapSave]_block_invoke.299
+- ___39-[PUIReportSensorManager loadAllEvents]_block_invoke.83
+- ___40-[PUIAdSupportController viewDidAppear:]_block_invoke.59
+- ___40-[PUIAdSupportController viewDidAppear:]_block_invoke.63
+- ___43-[PUIAccessoriesController findAccessories]_block_invoke.172
+- ___44-[PUIAccessoriesController specifierForApp:]_block_invoke.133
+- ___45-[PUIReportAppDetailController dataDidChange]_block_invoke.55
+- ___45-[PUIReportAppDetailController dataDidChange]_block_invoke.59
+- ___45-[PUIReportAppDetailController dataDidChange]_block_invoke_2.56
+- ___45-[PUIReportAppDetailController dataDidChange]_block_invoke_2.60
+- ___48-[PUIReportDomainDetailController dataDidChange]_block_invoke.92
+- ___48-[PUIReportDomainDetailController dataDidChange]_block_invoke_2.93
+- ___49-[PUIReportWebsiteDetailController dataDidChange]_block_invoke.44
+- ___49-[PUIReportWebsiteDetailController dataDidChange]_block_invoke.48
+- ___49-[PUIReportWebsiteDetailController dataDidChange]_block_invoke_2.45
+- ___49-[PUIReportWebsiteDetailController dataDidChange]_block_invoke_2.49
+- ___49-[PUITCCAccessController setAccess:forSpecifier:]_block_invoke.196
+- ___52-[PUILockdownModeController set2GEnabled:specifier:]_block_invoke.148
+- ___52-[PUILockdownModeController set2GEnabled:specifier:]_block_invoke_2.149
+- ___52-[PUILockdownModeController set2GEnabled:specifier:]_block_invoke_2.149.cold.1
+- ___54-[PUILocationServicesListController updateTribecaText]_block_invoke.547
+- ___54-[PUILocationServicesListController updateTribecaText]_block_invoke.547.cold.1
+- ___58-[PUILocationServicesListController updateLocationSharing]_block_invoke.544
+- ___61-[PUILocationServicesListController showCoreRoutineSettings:]_block_invoke.567
+- ___62-[PUILockdownModeController getEligibleDevicesWithCompletion:]_block_invoke.237
+- ___62-[PUILockdownModeController getEligibleDevicesWithCompletion:]_block_invoke.237.cold.1
+- ___63-[DiagnosticDataController _loadDiagnosticsDataWithCompletion:]_block_invoke.500
+- ___63-[DiagnosticDataController _loadDiagnosticsDataWithCompletion:]_block_invoke.cold.1
+- ___63-[DiagnosticDataController _loadDiagnosticsDataWithCompletion:]_block_invoke.cold.2
+- ___63-[DiagnosticDataController _loadDiagnosticsDataWithCompletion:]_block_invoke.cold.3
+- ___63-[DiagnosticDataController _loadDiagnosticsDataWithCompletion:]_block_invoke.cold.4
+- ___64-[PUIPhotosPrivacyController _specifiersWithCombinedPickerUsage]_block_invoke.172
+- ___66-[PUILockdownModeController setLockdownModeEnabled:forAllDevices:]_block_invoke.218
+- ___67-[PUILocationServicesListController startUpdatingFindMyPreferences]_block_invoke.539
+- ___67-[PUILocationServicesListController startUpdatingFindMyPreferences]_block_invoke.541
+- ___68-[PUIProblemReportingController checkDiagnosticsSessionAvailability]_block_invoke_2
+- ___69-[PUIAccessoriesAppSpecificControllerViewController refreshDADevices]_block_invoke.103
+- ___71-[PUIContactsPrivacyController createSpecifiersWithCombinedPickerUsage]_block_invoke.277
+- ___73-[PUINetworkController loadConfigurationsForceRefresh:completionHandler:]_block_invoke.37
+- ___73-[PUIProblemReportingController shouldShowIdentityVerificationSpecifiers]_block_invoke.944
+- ___77-[PUILocationServicesAuthorizationLevelController updateCoreRoutineSettings:]_block_invoke.851
+- ___77-[PUIProblemReportingController updateHealthRecordsPreferenceForSpecifierID:]_block_invoke.1030
+- ___77-[PUIProblemReportingController updateHealthRecordsPreferenceForSpecifierID:]_block_invoke.1031
+- ___78+[PUIPhotosPrivacyController setTCCForService:appIdentifier:value:completion:]_block_invoke.143
+- ___NSDictionary0__struct
+- ___block_descriptor_48_e8_32s40s_e18_v16?0"NSString"8ls32l8s40l8
+- ___block_descriptor_56_e8_32s40s48w_e17_v16?0"NSError"8ls32l8s40l8w48l8
+- ___block_descriptor_56_e8_32s40s48w_e23_v16?0"UIAlertAction"8ls32l8s40l8w48l8
+- ___block_descriptor_64_e8_32s40s48s56w_e23_v16?0"UIAlertAction"8ls32l8s40l8s48l8w56l8
+- ___block_descriptor_tmp.151
+- ___block_descriptor_tmp.181
+- ___block_literal_global.1003
+- ___block_literal_global.1013
+- ___block_literal_global.102
+- ___block_literal_global.107
+- ___block_literal_global.142
+- ___block_literal_global.153
+- ___block_literal_global.171
+- ___block_literal_global.175
+- ___block_literal_global.239
+- ___block_literal_global.252
+- ___block_literal_global.280
+- ___block_literal_global.303
+- ___block_literal_global.309
+- ___block_literal_global.34
+- ___block_literal_global.39
+- ___block_literal_global.413
+- ___block_literal_global.46
+- ___block_literal_global.538
+- ___block_literal_global.55
+- ___block_literal_global.62
+- ___block_literal_global.70
+- ___block_literal_global.82
+- ___getOSAGetSubmittableLogsSymbolLoc_block_invoke
+- ___iOSDiagnosticsLibraryCore_block_invoke
+- _audit_stringiOSDiagnostics
+- _block_copy_helper.102
+- _block_descriptor.104
+- _block_destroy_helper.103
+- _getDRGetAllLogFileURLsSymbolLoc
+- _getOSAGetSubmittableLogsSymbolLoc.ptr
+- _iOSDiagnosticsLibraryCore.frameworkLibrary
+- _objc_msgSend$absoluteURL
+- _objc_msgSend$arrayWithObject:
+- _objc_msgSend$checkAvailabilityWithReply:
+- _objc_msgSend$getLearnedRoutesAccess:forBundleIdentifier:
+- _objc_msgSend$getVisitHistoryAccess:forBundleIdentifier:
+- _objc_msgSend$launchDiagnosticsSession:
+- _objc_msgSend$openURL:options:completionHandler:
+- _objc_release_x10
+- _objc_retain_x10
+- _objectdestroy.27Tm
+- _objectdestroy.31Tm
+CStrings:
++ "AUTOMATED_FEEDBACK"
++ "AUTOMATED_FEEDBACK_FOOTER"
++ "AUTOMATED_FEEDBACK_GROUP"
++ "AUTOMATED_FEEDBACK_LINK"
++ "CONFIGURE_MESSAGES"
++ "DIAGNOSTIC_USAGE_DATA_GROUP"
++ "Failed to get Diagnostics session status: %@"
++ "OSAGetSubmittableLogsWithMetadata"
++ "PrivacyAndSecuritySettings"
++ "com.apple.graphic-icon.analytics-data-logs"
++ "onDeviceLog"
++ "telephony"
+- "#16@0:8"
+- ".cxx_destruct"
+- "?"
+- "@"
+- "@\"<SRRelatedSettingsProvider>\""
+- "@\"ACAccount\""
+- "@\"ACAccountStore\""
+- "@\"ADTrackingTransparency\""
+- "@\"AFSettingsConnection\""
+- "@\"AnalyticsWorkspace\""
+- "@\"CIDVUIIdentityProofingDataSharingFlowManager\""
+- "@\"CoreTelephonyClient\""
+- "@\"DASession\""
+- "@\"FBSDisplayLayoutMonitor\""
+- "@\"FPAccessControlManager\""
+- "@\"HKHealthStore\""
+- "@\"LSApplicationProxy\""
+- "@\"NEConfiguration\""
+- "@\"NSArray\""
+- "@\"NSArray\"40@0:8@\"UITextView\"16{_NSRange=QQ}24"
+- "@\"NSBundle\""
+- "@\"NSDate\""
+- "@\"NSDictionary\""
+- "@\"NSLayoutConstraint\""
+- "@\"NSMutableArray\""
+- "@\"NSMutableDictionary\""
+- "@\"NSNumber\""
+- "@\"NSObject<OS_dispatch_queue>\""
+- "@\"NSObject<PUIOnboardingCellDelegate>\""
+- "@\"NSOperationQueue\""
+- "@\"NSProgress\"32@0:8@\"NSDictionary\"16@?<v@?@\"NSString\"@\"NSError\">24"
+- "@\"NSSet\""
+- "@\"NSString\""
+- "@\"NSString\"16@0:8"
+- "@\"NSURL\""
+- "@\"PSSpecifier\""
+- "@\"PUIBankConnectAnalyticsConsentCoordinator\""
+- "@\"PUIFitnessPlusAnalyticsConsentCoordinator\""
+- "@\"PUILocationUsageMixin\""
+- "@\"PUIReportSensorManager\""
+- "@\"PUITrackingReportManager\""
+- "@\"PrefsUILinkLabel\""
+- "@\"RTRoutineManager\""
+- "@\"UIAction\"40@0:8@\"UITextView\"16@\"UITextItem\"24@\"UIAction\"32"
+- "@\"UIActivityIndicatorView\""
+- "@\"UIColor\""
+- "@\"UIImageView\""
+- "@\"UILabel\""
+- "@\"UIMenu\"40@0:8@\"UITextView\"16@\"NSArray\"24@\"NSArray\"32"
+- "@\"UIMenu\"48@0:8@\"UITextView\"16{_NSRange=QQ}24@\"NSArray\"40"
+- "@\"UISearchController\""
+- "@\"UIStackView\""
+- "@\"UITextItemMenuConfiguration\"40@0:8@\"UITextView\"16@\"UITextItem\"24@\"UIMenu\"32"
+- "@\"UITextView\""
+- "@\"UIView\""
+- "@\"UIView\"24@0:8@\"UIScrollView\"16"
+- "@\"UIView<PSHeaderFooterView>\"24@0:8@\"PSSpecifier\"16"
+- "@\"UsageFeed\""
+- "@\"UserTransparencyViewController\""
+- "@\"_TtC17PrivacySettingsUI12PUIFMLDevice\""
+- "@\"_TtC17PrivacySettingsUI19FindMyLocateSession\""
+- "@16@0:8"
+- "@20@0:8B16"
+- "@20@0:8i16"
+- "@24@0:8:16"
+- "@24@0:8@16"
+- "@24@0:8@?16"
+- "@24@0:8B16B20"
+- "@24@0:8Q16"
+- "@28@0:8@16B24"
+- "@32@0:8:16@24"
+- "@32@0:8@16@24"
+- "@32@0:8@16@?24"
+- "@32@0:8Q16i24i28"
+- "@32@0:8q16@24"
+- "@40@0:8:16@24@32"
+- "@40@0:8@16@24@32"
+- "@40@0:8@16@24B32B36"
+- "@40@0:8@16Q24^@32"
+- "@40@0:8@16{_NSRange=QQ}24"
+- "@40@0:8q16@24@32"
+- "@44@0:8@16@24B32B36B40"
+- "@48@0:8@16@24@32@40"
+- "@48@0:8@16{_NSRange=QQ}24@40"
+- "@56@0:8@16B24B28@32@40@48"
+- "@?"
+- "@?16@0:8"
+- "B"
+- "B16@0:8"
+- "B24@0:8#16"
+- "B24@0:8:16"
+- "B24@0:8@\"Protocol\"16"
+- "B24@0:8@\"UIScrollView\"16"
+- "B24@0:8@\"UITextView\"16"
+- "B24@0:8@16"
+- "B32@0:8@16@24"
+- "B32@0:8@16@?24"
+- "B32@0:8Q16@?24"
+- "B36@0:8Q16B24@?28"
+- "B40@0:8@\"UITextView\"16@\"NSArray\"24@\"NSString\"32"
+- "B40@0:8@16@24@32"
+- "B44@0:8Q16B24B28B32@?36"
+- "B48@0:8@\"UITextView\"16@\"NSTextAttachment\"24{_NSRange=QQ}32"
+- "B48@0:8@\"UITextView\"16@\"NSURL\"24{_NSRange=QQ}32"
+- "B48@0:8@\"UITextView\"16{_NSRange=QQ}24@\"NSString\"40"
+- "B48@0:8@16@24{_NSRange=QQ}32"
+- "B48@0:8@16{_NSRange=QQ}24@40"
+- "B56@0:8@\"UITextView\"16@\"NSTextAttachment\"24{_NSRange=QQ}32q48"
+- "B56@0:8@\"UITextView\"16@\"NSURL\"24{_NSRange=QQ}32q48"
+- "B56@0:8@16@24{_NSRange=QQ}32q48"
+- "CGImage"
+- "CNLimitedAccessContactPickerDelegate"
+- "ContainsString"
+- "DADiagnosticsSessionAvailabilityProtocol"
+- "DSFilesystemMetadataSnapshotting"
+- "DiagnosticDataController"
+- "ENHANCED_LOGGING_SESSION_EXPLANATION"
+- "ENHANCED_LOGGING_STATE"
+- "Failed to get learned routes state, assuming ineligible"
+- "Failed to get visit history state, assuming ineligible"
+- "Got learned routes access state: %d"
+- "Got visit history state: %d"
+- "IN_CURRENT_SESSION"
+- "NSObject"
+- "OSAGetSubmittableLogs"
+- "PSContactsPrivacyPickerInfoCell"
+- "PSHeaderFooterView"
+- "PSPowerlogListController"
+- "PSSharableDetailController"
+- "PUIAccessoriesAppSpecificControllerViewController"
+- "PUIAccessoriesController"
+- "PUIActivityButtonCell"
+- "PUIAdSupportController"
+- "PUIAllowLocationRestrictionsController"
+- "PUIAllowTCCRestrictionsController"
+- "PUIAttributedStringFooter"
+- "PUIBankConnectAnalyticsConsentCoordinator"
+- "PUICalendarPrivacyController"
+- "PUICalendarPrivacySettingsInsetView"
+- "PUIContactsAuthorizationLevelController"
+- "PUIContactsPrivacyController"
+- "PUIContactsPrivacySettingsInsetView"
+- "PUIContinuityLayoutManager"
+- "PUIDataAndSensorsController"
+- "PUIDoubleSubtitleCell"
+- "PUIEventKitAuthorizationLevelController"
+- "PUIFileAccessController"
+- "PUIFitnessPlusAnalyticsConsentCoordinator"
+- "PUIGroupReplace"
+- "PUIJSONSerialization"
+- "PUILocationIndicatorSystemExplanationView"
+- "PUILocationServicesAuthLevelCell"
+- "PUILocationServicesAuthorizationLevelController"
+- "PUILocationServicesClipsListController"
+- "PUILocationServicesListController"
+- "PUILocationServicesPrivacyAlertsLevelController"
+- "PUILocationServicesSubDirectoryCell"
+- "PUILocationSystemServicesListController"
+- "PUILocationUsageMixin"
+- "PUILockdownModeCTCapabilities"
+- "PUILockdownModeController"
+- "PUILockdownModeUtilities"
+- "PUILockdownModeWebController"
+- "PUIMotionFitnessController"
+- "PUINetworkApplicationController"
+- "PUINetworkController"
+- "PUIOnboardingCell"
+- "PUIOnboardingCellDelegate"
+- "PUIPhotoServicesAuthorizationLevelController"
+- "PUIPhotosPrivacyController"
+- "PUIPrivateClassForFindingBundle"
+- "PUIProblemReportingController"
+- "PUIReportAppDetailController"
+- "PUIReportAppListController"
+- "PUIReportController"
+- "PUIReportDomainDetailController"
+- "PUIReportDomainListController"
+- "PUIReportSensorAppController"
+- "PUIReportSensorEventsController"
+- "PUIReportSensorListController"
+- "PUIReportSensorManager"
+- "PUIReportWebsiteDetailController"
+- "PUIReportWebsiteListController"
+- "PUITCCAccessController"
+- "PUITrackerBarCell"
+- "PUITrackerCell"
+- "PUITrackerNoDataCell"
+- "PUITrackerOnboardingCell"
+- "PUITrackersController"
+- "PUITrackingReportManager"
+- "ProblemReportingAboutController"
+- "Q16@0:8"
+- "SDKVersion"
+- "SSID"
+- "T#,R"
+- "T@\"ADTrackingTransparency\",&,N,V_adTrackingTransparency"
+- "T@\"AFSettingsConnection\",&,N,V_assistantSettingsConnection"
+- "T@\"AnalyticsWorkspace\",&,N,V_workspace"
+- "T@\"CIDVUIIdentityProofingDataSharingFlowManager\",&,N,V_identityProofingDataSharingManager"
+- "T@\"CoreTelephonyClient\",&,N,V_client"
+- "T@\"DASession\",&,N,V_session"
+- "T@\"FBSDisplayLayoutMonitor\",&,N,V_monitor"
+- "T@\"FPAccessControlManager\",&,N,V_accessManager"
+- "T@\"HKHealthStore\",R,N,V_healthStore"
+- "T@\"LSApplicationProxy\",&,V_application"
+- "T@\"NEConfiguration\",&,V_pathControllerConfiguration"
+- "T@\"NSArray\",&,N,V__allSpecifiers"
+- "T@\"NSArray\",&,N,V__lockdownModeOptionsSpecifiers"
+- "T@\"NSArray\",&,N,V_accessorySpecifiers"
+- "T@\"NSArray\",&,N,V_allAppSpecifiers"
+- "T@\"NSArray\",&,N,V_allEntries"
+- "T@\"NSArray\",&,N,V_allEvents"
+- "T@\"NSArray\",&,N,V_appNetworkActivityHeader"
+- "T@\"NSArray\",&,N,V_appNetworkActivityRows"
+- "T@\"NSArray\",&,N,V_appNetworkActivityRowsAwaitingDisplay"
+- "T@\"NSArray\",&,N,V_appRows"
+- "T@\"NSArray\",&,N,V_appRowsAwaitingDisplay"
+- "T@\"NSArray\",&,N,V_appSpecifiers"
+- "T@\"NSArray\",&,N,V_automatedFeedbackSpecifiers"
+- "T@\"NSArray\",&,N,V_cachedSpecifiers"
+- "T@\"NSArray\",&,N,V_calendarAppSpecifiers"
+- "T@\"NSArray\",&,N,V_constraints"
+- "T@\"NSArray\",&,N,V_contactsAppSpecifiers"
+- "T@\"NSArray\",&,N,V_domainNetworkActivityHeader"
+- "T@\"NSArray\",&,N,V_domainNetworkActivityRows"
+- "T@\"NSArray\",&,N,V_domainNetworkActivityRowsAwaitingDisplay"
+- "T@\"NSArray\",&,N,V_domainRows"
+- "T@\"NSArray\",&,N,V_domainRowsAwaitingDisplay"
+- "T@\"NSArray\",&,N,V_improveAssistiveVoiceSpecifiers"
+- "T@\"NSArray\",&,N,V_improveSiriSpecifiers"
+- "T@\"NSArray\",&,N,V_learnMoreHeader"
+- "T@\"NSArray\",&,N,V_otherRows"
+- "T@\"NSArray\",&,N,V_otherRowsAwaitingDisplay"
+- "T@\"NSArray\",&,N,V_sensorActivityHeader"
+- "T@\"NSArray\",&,N,V_sensorActivityRows"
+- "T@\"NSArray\",&,N,V_websiteNetworkActivityHeader"
+- "T@\"NSArray\",&,N,V_websiteNetworkActivityRows"
+- "T@\"NSArray\",&,N,V_websiteNetworkActivityRowsAwaitingDisplay"
+- "T@\"NSArray\",&,N,V_websiteRows"
+- "T@\"NSArray\",&,N,V_websiteRowsAwaitingDisplay"
+- "T@\"NSArray\",C,N,V_correctiveCompensationSpecifierGroup"
+- "T@\"NSArray\",C,N,V_preferredRoutesSpecifierGroup"
+- "T@\"NSArray\",C,N,V_qualifierSpecifierGroups"
+- "T@\"NSArray\",C,N,V_visitedPlacesSpecifierGroup"
+- "T@\"NSArray\",R"
+- "T@\"NSArray\",R,V_bankConnectDataSpecifiers"
+- "T@\"NSArray\",R,V_baseSpecifiers"
+- "T@\"NSArray\",R,V_fitnessPlusDataSpecifiers"
+- "T@\"NSArray\",R,V_handwashingDataSpecifiers"
+- "T@\"NSArray\",R,V_healthDataSpecifiers"
+- "T@\"NSArray\",R,V_healthRecordsDataSpecifiers"
+- "T@\"NSArray\",R,V_identityVerificationDataSpecifiers"
+- "T@\"NSArray\",R,V_improveARLocationAccuracySpecifiers"
+- "T@\"NSArray\",R,V_safetyDataSpecifiers"
+- "T@\"NSArray\",R,V_wheelchairDataSpecifiers"
+- "T@\"NSBundle\",&,N,V_authEntityBundle"
+- "T@\"NSBundle\",&,N,V_entityBundle"
+- "T@\"NSDate\",&,N,V_date"
+- "T@\"NSDictionary\",&,N,V_appsToTrackers"
+- "T@\"NSDictionary\",&,N,V_appsToTrackersInAppOnly"
+- "T@\"NSDictionary\",&,N,V_appsToWebsitesToTrackers"
+- "T@\"NSDictionary\",&,N,V_details"
+- "T@\"NSDictionary\",&,N,V_trackersToApps"
+- "T@\"NSDictionary\",&,N,V_trackersToAppsInAppOnly"
+- "T@\"NSDictionary\",&,N,V_trackersToWebsitesToTrackers"
+- "T@\"NSLayoutConstraint\",&,N,V_textViewLeadingConstraint"
+- "T@\"NSLayoutConstraint\",&,N,V_textViewTrailingConstraint"
+- "T@\"NSMutableArray\",&,N,V_coalescedImproveMapsServices"
+- "T@\"NSMutableArray\",&,V_dnsConfigurations"
+- "T@\"NSMutableDictionary\",&,N,V_accessoriesManagementApprovedMap"
+- "T@\"NSMutableDictionary\",&,N,V_accessoriesManagementMap"
+- "T@\"NSNumber\",&,N,V_limitedAccessCount"
+- "T@\"NSNumber\",&,N,V_locationSharingEnabled"
+- "T@\"NSObject<PUIOnboardingCellDelegate>\",W,N,V_delegate"
+- "T@\"NSOperationQueue\",&,N,V_locationSharingOperationQueue"
+- "T@\"NSSet\",&,N,V_calendarAllAppIDs"
+- "T@\"NSSet\",&,N,V_calendarFullAccessAllowedAppIDs"
+- "T@\"NSSet\",&,N,V_calendarNoAccessAppIDs"
+- "T@\"NSSet\",&,N,V_calendarSomeAccessAppIDs"
+- "T@\"NSSet\",&,N,V_calendarWriteOnlyAppIDs"
+- "T@\"NSSet\",&,N,V_contactsAllAppIDs"
+- "T@\"NSSet\",&,N,V_contactsDeniedAppIDs"
+- "T@\"NSSet\",&,N,V_contactsFullAccessAllowedAppIDs"
+- "T@\"NSSet\",&,N,V_contactsLimitedAccessAppIDs"
+- "T@\"NSSet\",&,N,V_photosAddOnlyAllAppIDs"
+- "T@\"NSSet\",&,N,V_photosAddOnlyAllowedAppIDs"
+- "T@\"NSSet\",&,N,V_photosAddOnlyDeniedAppIDs"
+- "T@\"NSSet\",&,N,V_photosAllAppIDs"
+- "T@\"NSSet\",&,N,V_photosReadWriteAllAppIDs"
+- "T@\"NSSet\",&,N,V_photosReadWriteAllowedAppIDs"
+- "T@\"NSSet\",&,N,V_photosReadWriteAllowedOrLimitedAppIDs"
+- "T@\"NSSet\",&,N,V_photosReadWriteDeniedAppIDs"
+- "T@\"NSSet\",&,N,V_photosReadWriteLimitedAppIDs"
+- "T@\"NSSet\",&,N,V_pickerUsageAppIDs"
+- "T@\"NSString\",&,N,V_appBundleID"
+- "T@\"NSString\",&,N,V_appGroupHeader"
+- "T@\"NSString\",&,N,V_bundleID"
+- "T@\"NSString\",&,N,V_category"
+- "T@\"NSString\",&,N,V_context"
+- "T@\"NSString\",&,N,V_coreRoutineAppKey"
+- "T@\"NSString\",&,N,V_currentCoreRoutineStatus"
+- "T@\"NSString\",&,N,V_domain"
+- "T@\"NSString\",&,N,V_specifierIDBeforeCoreRoutine"
+- "T@\"NSString\",&,V_bundleIdentifier"
+- "T@\"NSString\",?,R,C"
+- "T@\"NSString\",C,N,V_clipsFooter"
+- "T@\"NSString\",C,N,V_displayName"
+- "T@\"NSString\",C,N,V_explanation"
+- "T@\"NSString\",C,N,V_footer"
+- "T@\"NSString\",C,N,V_header"
+- "T@\"NSString\",C,N,V_serviceKey"
+- "T@\"NSString\",N,R"
+- "T@\"NSString\",N,V_appClipsCount"
+- "T@\"NSString\",R,C"
+- "T@\"NSString\",R,N,V_authLevelString"
+- "T@\"NSString\",R,N,V_serviceKey"
+- "T@\"PSSpecifier\",&,N,V_appHeader"
+- "T@\"PSSpecifier\",&,N,V_domainHeader"
+- "T@\"PSSpecifier\",&,N,V_otherHeader"
+- "T@\"PSSpecifier\",&,N,V_preferredRoutesSpecifier"
+- "T@\"PSSpecifier\",&,N,V_preferredRoutesSpinnerSpecifier"
+- "T@\"PSSpecifier\",&,N,V_productImprovementGroup"
+- "T@\"PSSpecifier\",&,N,V_saveAppActivitySpecifier"
+- "T@\"PSSpecifier\",&,N,V_specifier"
+- "T@\"PSSpecifier\",&,N,V_tribecaSpecifier"
+- "T@\"PSSpecifier\",&,N,V_visitedPlacesSpecifier"
+- "T@\"PSSpecifier\",&,N,V_visitedPlacesSpinnerSpecifier"
+- "T@\"PSSpecifier\",&,N,V_websiteHeader"
+- "T@\"PSSpecifier\",R"
+- "T@\"PSSpecifier\",W,N,V_fullAccessSpecifier"
+- "T@\"PSSpecifier\",W,N,V_limitedAccessSpecifier"
+- "T@\"PUIBankConnectAnalyticsConsentCoordinator\",&,N,V_bankConnectAnalyticsConsentCoordinator"
+- "T@\"PUIFitnessPlusAnalyticsConsentCoordinator\",&,N,V_fitnessPlusAnalyticsConsentCoordinator"
+- "T@\"PUILocationUsageMixin\",R,N,V_location"
+- "T@\"PUIReportSensorManager\",&,N,V_manager"
+- "T@\"PUIReportSensorManager\",&,N,V_sensorManager"
+- "T@\"PUITrackingReportManager\",&,N,V_reportManager"
+- "T@\"RTRoutineManager\",&,N,V_routineManager"
+- "T@\"UIActivityIndicatorView\",&,N,V_spinner"
+- "T@\"UIColor\",&,N,V_barColor"
+- "T@\"UIImageView\",&,N,V_appAttributedBackgroundView"
+- "T@\"UIImageView\",&,N,V_appAttributedView"
+- "T@\"UIImageView\",&,N,V_symbolImageView"
+- "T@\"UIImageView\",R,N,V_usageIndicator"
+- "T@\"UILabel\",&,N,V_iconLabelView"
+- "T@\"UILabel\",&,N,V_primaryLabel"
+- "T@\"UILabel\",&,N,V_secondaryLabel"
+- "T@\"UILabel\",&,N,V_subtitleLabel"
+- "T@\"UILabel\",&,N,V_tertiaryLabel"
+- "T@\"UILabel\",&,N,V_valueLabel"
+- "T@\"UISearchController\",&,N,V_searchController"
+- "T@\"UIStackView\",&,N,V_barStackView"
+- "T@\"UIStackView\",&,N,V_stackView"
+- "T@\"UITextView\",&,N,V_textView"
+- "T@\"UIView\",&,N,V_barView"
+- "T@\"UsageFeed\",&,N,V_feed"
+- "T@\"UserTransparencyViewController\",&,N,V_userTransparencyController"
+- "T@\"_TtC17PrivacySettingsUI12PUIFMLDevice\",&,N,V_locationSharingDevice"
+- "T@\"_TtC17PrivacySettingsUI19FindMyLocateSession\",&,N,V_locationSharingSession"
+- "T@?,C,N,V_updateHandler"
+- "T@?,N,C"
+- "TB,N,R,VisThisDevice"
+- "TB,N,V__2GEnabled"
+- "TB,N,V_alphabeticalSort"
+- "TB,N,V_correctiveCompensationState"
+- "TB,N,V_didLoadCoreRoutineSettings"
+- "TB,N,V_has2GSupport"
+- "TB,N,V_hasData"
+- "TB,N,V_isAccess"
+- "TB,N,V_isMirroring"
+- "TB,N,V_isWaitingForNetworkConfigurationDidChangeInResponseToUserInteractionWithToggle"
+- "TB,N,V_lockdownModeEnabled"
+- "TB,N,V_reportEnabled"
+- "TB,N,V_shouldReloadApps"
+- "TB,N,V_shouldShareHealthRecordsData"
+- "TB,N,V_showWebsiteAndAppCounts"
+- "TB,N,V_supportsClips"
+- "TB,R,N,V_shouldShare"
+- "TB,R,N,V_showPreference"
+- "TQ,N,V__state"
+- "TQ,N,V_appType"
+- "TQ,N,V_authLevel"
+- "TQ,N,V_currentControllerMode"
+- "TQ,R"
+- "TQ,R,N,V_authLevel"
+- "Ti,N,V_learnedRoutesAccess"
+- "Ti,N,V_preferredRoutesState"
+- "Ti,N,V_usage"
+- "Ti,N,V_visitHistoryAccess"
+- "Ti,N,V_visitedPlacesState"
+- "UIScrollViewDelegate"
+- "UISearchResultsUpdating"
+- "UITextViewDelegate"
+- "URLByStandardizingPath"
+- "URLWithString:"
+- "UTF8String"
+- "UUIDString"
+- "UserTransparencyViewControllerDelegate"
+- "VIEW_ENHANCED_LOGGING_SESSION"
+- "VTUISiriDataSharingOptInPresentationDelegate"
+- "Vv16@0:8"
+- "^{_NSZone=}16@0:8"
+- "_2GEnabled"
+- "_2GEnabled:"
+- "_TtC17PrivacySettingsUI12PUIFMLDevice"
+- "_TtC17PrivacySettingsUI19FindMyLocateSession"
+- "_TtC17PrivacySettingsUIP33_1B8B6A415A7E9535A70FD4F28D4B139919ResourceBundleClass"
+- "__2GEnabled"
+- "__allSpecifiers"
+- "__lockdownModeOptionsSpecifiers"
+- "__state"
+- "_aboutDiagnosticsLinkLabel"
+- "_accessManager"
+- "_accessibilityHigherContrastTintColorForColor:"
+- "_accessibilitySetInterfaceStyleIntent:"
+- "_accessoriesManagementApprovedMap"
+- "_accessoriesManagementMap"
+- "_accessorySpecifiers"
+- "_accountStore"
+- "_activeIcon"
+- "_activeLabel"
+- "_adTrackingTransparency"
+- "_addLimitedAccessSection"
+- "_addLimitedLibrarySection"
+- "_addPickerUsageSectionIfNeeded"
+- "_additionalInfoLabel"
+- "_allAppSpecifiers"
+- "_allEntries"
+- "_allEvents"
+- "_allSpecifiers"
+- "_allowedGroup"
+- "_alphabeticalSort"
+- "_appActivitySpecifiers"
+- "_appAttributedBackgroundView"
+- "_appAttributedView"
+- "_appBundleID"
+- "_appClipsCount"
+- "_appGroupHeader"
+- "_appHeader"
+- "_appNetworkActivityHeader"
+- "_appNetworkActivityRows"
+- "_appNetworkActivityRowsAwaitingDisplay"
+- "_appRows"
+- "_appRowsAwaitingDisplay"
+- "_appSpecifiers"
+- "_appType"
+- "_appleIdImprovementSpecifiers"
+- "_application"
+- "_appsToTrackers"
+- "_appsToTrackersInAppOnly"
+- "_appsToWebsitesToTrackers"
+- "_areCoalescedBundlesAuthorized:"
+- "_areLocationBasedAlertsAuthorized"
+- "_assistantSettingsConnection"
+- "_authEntityBundle"
+- "_authLevel"
+- "_authLevelString"
+- "_authLevelStringForMask:learnedRoutesAccess:visitHistoryAccess:"
+- "_authMask"
+- "_authorizationPromptMapDisplayEnabled"
+- "_automatedFeedbackSpecifiers"
+- "_backgroundInset"
+- "_bankConnectAnalyticsConsentCoordinator"
+- "_bankConnectDataSpecifiers"
+- "_barColor"
+- "_barStackView"
+- "_barView"
+- "_baseSpecifiers"
+- "_bundleID"
+- "_bundleIdentifier"
+- "_bundleURL"
+- "_cachedSpecifiers"
+- "_calendarAllAppIDs"
+- "_calendarAppSpecifiers"
+- "_calendarFullAccessAllowedAppIDs"
+- "_calendarNoAccessAppIDs"
+- "_calendarSomeAccessAppIDs"
+- "_calendarWriteOnlyAppIDs"
+- "_cancelConfirmDisableForSpecifier:"
+- "_category"
+- "_client"
+- "_clientIdentifier"
+- "_clipsFooter"
+- "_coalesceAppKeys"
+- "_coalescedHomeKitSystemServices"
+- "_coalescedImproveLocationAccuracySystemServices"
+- "_coalescedImproveMapsServices"
+- "_coalescedLocationBasedAlertsSystemServices"
+- "_coalescedRoutingAndTrafficSystemServices"
+- "_coalescedSystemCutomizationSystemServices"
+- "_coalescedWirelessSystemServices"
+- "_constraints"
+- "_constructFooterForAuthorizationLevel:"
+- "_constructFooterForVisitedPlaces"
+- "_contactsAllAppIDs"
+- "_contactsAppSpecifiers"
+- "_contactsDeniedAppIDs"
+- "_contactsFullAccessAllowedAppIDs"
+- "_contactsLimitedAccessAppIDs"
+- "_context"
+- "_coreRoutineAppKey"
+- "_correctiveCompensationSpecifierGroup"
+- "_correctiveCompensationState"
+- "_currentControllerMode"
+- "_currentCoreRoutineStatus"
+- "_currentTCCAuthorizationRight"
+- "_date"
+- "_deferredRefreshDueToConfirm"
+- "_delegate"
+- "_details"
+- "_didLoadCoreRoutineSettings"
+- "_displayName"
+- "_dnsConfigurations"
+- "_domain"
+- "_domainHeader"
+- "_domainNetworkActivityHeader"
+- "_domainNetworkActivityRows"
+- "_domainNetworkActivityRowsAwaitingDisplay"
+- "_domainRows"
+- "_domainRowsAwaitingDisplay"
+- "_entityBundle"
+- "_explanation"
+- "_explanationLabel"
+- "_feed"
+- "_filesystemMetadataSnapshotSpecifier"
+- "_fitnessPlusAnalyticsConsentCoordinator"
+- "_fitnessPlusDataSpecifiers"
+- "_flatImageWithColor:"
+- "_footer"
+- "_fullAccessSpecifier"
+- "_handleAuthenticationForSender:success:error:"
+- "_handleContactStoreDidChangeNotification:"
+- "_handleUpgradePromptNotification:"
+- "_handwashingDataSpecifiers"
+- "_has2GSupport"
+- "_hasData"
+- "_header"
+- "_healthDataSpecifiers"
+- "_healthRecordsDataSpecifiers"
+- "_healthStore"
+- "_homeKitBundles"
+- "_iCloudSpecifiers"
+- "_iconForLocationUsage:"
+- "_iconFromImage:"
+- "_iconLabelView"
+- "_iconVariantForUIApplicationIconFormat:scale:"
+- "_identityProofingDataSharingManager"
+- "_identityVerificationDataSpecifiers"
+- "_ignoredLocationEntities"
+- "_improveARLocationAccuracySpecifiers"
+- "_improveAssistiveVoiceSpecifiers"
+- "_improveLocationAccuracyBundles"
+- "_improveSiriSpecifiers"
+- "_initUniqueWithPath:"
+- "_initWithSuiteName:container:"
+- "_isAccess"
+- "_isBundleBlacklisted:"
+- "_isFindMyDeviceSpecifier:"
+- "_isHomeKitAuthorized"
+- "_isImproveLocationAccuracyAuthorized"
+- "_isLocationServicesEnabled"
+- "_isMirroring"
+- "_isRoutingAndTrafficAuthorized"
+- "_isSystemCustomizationAuthorized"
+- "_isWaitingForNetworkConfigurationDidChangeInResponseToUserInteractionWithToggle"
+- "_isWebApp"
+- "_isWirelessAuthorized"
+- "_learnMoreHeader"
+- "_learnedRoutesAccess"
+- "_legacy_sizeWithFont:constrainedToSize:lineBreakMode:"
+- "_limitedAccessCount"
+- "_limitedAccessSectionSpecifiers"
+- "_limitedAccessSpecifier"
+- "_limitedLibraryRowSpecifier"
+- "_limitedLibrarySectionSpecifiers"
+- "_loadDiagnosticsDataWithCompletion:"
+- "_location"
+- "_locationBasedAlertBundles"
+- "_locationEntitiesDetails"
+- "_locationNotificationsEnabled"
+- "_locationSetting:"
+- "_locationSharingDevice"
+- "_locationSharingEnabled"
+- "_locationSharingOperationQueue"
+- "_locationSharingSession"
+- "_locationSharingSpecifierWasTapped:"
+- "_lockdownModeEnabled"
+- "_lockdownModeOptionsSpecifiers"
+- "_lp_simplifiedDisplayString"
+- "_manager"
+- "_marginWidth"
+- "_monitor"
+- "_offlineLabConsentCoordinator"
+- "_otherHeader"
+- "_otherRows"
+- "_otherRowsAwaitingDisplay"
+- "_parentTCCSpecifiers"
+- "_pathControllerConfiguration"
+- "_performConsistencyCheckForBundles:name:"
+- "_performConsistencyCheckValue:bundles:name:"
+- "_performHomeKitConsistencyCheck"
+- "_performImproveLocationAccuracyConsistencyCheck"
+- "_performLocationBasedAlertsConsistencyCheck"
+- "_performRoutingAndTrafficConsistencyCheck"
+- "_performSystemCustomizationConsistencyCheck"
+- "_performWirelessConsistencyCheck"
+- "_photosAddOnlyAllAppIDs"
+- "_photosAddOnlyAllowedAppIDs"
+- "_photosAddOnlyDeniedAppIDs"
+- "_photosAllAppIDs"
+- "_photosReadWriteAllAppIDs"
+- "_photosReadWriteAllowedAppIDs"
+- "_photosReadWriteAllowedOrLimitedAppIDs"
+- "_photosReadWriteDeniedAppIDs"
+- "_photosReadWriteLimitedAppIDs"
+- "_photosStatus:"
+- "_pickerUsageAppIDs"
+- "_pickerUsageSectionSpecifiers"
+- "_preciseLocationStatus:"
+- "_preferredRoutesSpecifier"
+- "_preferredRoutesSpecifierGroup"
+- "_preferredRoutesSpinnerSpecifier"
+- "_preferredRoutesState"
+- "_preferredRoutesStatus:"
+- "_presentContactsPickerForModifyingSelection"
+- "_presentImagePickerForModifyingSelection"
+- "_primaryAccount"
+- "_primaryLabel"
+- "_privacyLogs:"
+- "_productImprovementByBundlePath"
+- "_productImprovementGroup"
+- "_purposeStringForAuthorizationLevel:"
+- "_pushCoreRoutineViewController"
+- "_qualifierSpecifierGroups"
+- "_readAddressCorrectionAuthorizationStatus:"
+- "_recentIcon"
+- "_recentLabel"
+- "_removeLimitedAccessSectionIfPresent"
+- "_removeLimitedLibrarySectionIfPresent"
+- "_removePickerUsageSectionIfPresent"
+- "_reportEnabled"
+- "_reportManager"
+- "_routineManager"
+- "_routingAndTrafficBundles"
+- "_safetyDataSpecifiers"
+- "_saveAppActivitySpecifier"
+- "_searchController"
+- "_secondaryLabel"
+- "_sensorActivityHeader"
+- "_sensorActivityRows"
+- "_sensorKitSpecifiersProvider"
+- "_sensorManager"
+- "_serviceKey"
+- "_session"
+- "_setAddressCorrectionAuthorizationStatus:specifier:"
+- "_setCalendarStatus:specifier:"
+- "_setChecked:"
+- "_setCoalescedBundlesAuthorized:bundles:"
+- "_setContactsTCCStatus:specifier:"
+- "_setContinuousCornerRadius:"
+- "_setDisplaysCellContentStringsOnTapAndHold:"
+- "_setEntityAuthorized:specifier:"
+- "_setHomeKitAuthorized:"
+- "_setImproveLocationAccuracyAuthorized:"
+- "_setInteractiveTextSelectionDisabled:"
+- "_setLocationAuthorizationLevelForSpecifier:"
+- "_setLocationAuthorizationLevelMaskForAssociatedFramework:withCorrectiveCompensation:"
+- "_setLocationBasedAlertsAuthorized:"
+- "_setLocationServicesEnabled:"
+- "_setPhotosStatus:specifier:"
+- "_setPreciseLocationEnabled:specifier:"
+- "_setPreferredRoutesEnabled:specifier:"
+- "_setRoutingAndTrafficAuthorized:"
+- "_setSystemCutomizationAuthorized:"
+- "_setVisitedPlacesEnabled:specifier:"
+- "_setWirelessAuthorized:"
+- "_shouldEnableLocationSharingSpecifier"
+- "_shouldReloadApps"
+- "_shouldReverseLayoutDirection"
+- "_shouldShare"
+- "_shouldShareHealthRecordsData"
+- "_showPreference"
+- "_showWebsiteAndAppCounts"
+- "_specifier"
+- "_specifierIDBeforeCoreRoutine"
+- "_specifiersWithCombinedPickerUsage"
+- "_spinner"
+- "_spinnerSpecifier"
+- "_stackView"
+- "_state"
+- "_subtitleLabel"
+- "_supportsClips"
+- "_symbolImageView"
+- "_syncedKeychainNotifyToken"
+- "_synchronizeLocationDetails"
+- "_systemImageNamed:"
+- "_systemImageNamed:withConfiguration:"
+- "_tertiaryLabel"
+- "_textView"
+- "_textViewLeadingConstraint"
+- "_textViewTrailingConstraint"
+- "_trackersToApps"
+- "_trackersToAppsInAppOnly"
+- "_trackersToWebsitesToTrackers"
+- "_tribecaSpecifier"
+- "_twentyFourHoursAgo"
+- "_updateHandler"
+- "_updatePhotosAuthorizationStates"
+- "_usage"
+- "_usageIndicator"
+- "_usageTextForAuthorizationLevel:"
+- "_userTransparencyController"
+- "_valueLabel"
+- "_visitHistoryAccess"
+- "_visitedPlacesSpecifier"
+- "_visitedPlacesSpecifierGroup"
+- "_visitedPlacesSpinnerSpecifier"
+- "_visitedPlacesState"
+- "_visitedPlacesStatus:"
+- "_websiteHeader"
+- "_websiteNetworkActivityHeader"
+- "_websiteNetworkActivityRows"
+- "_websiteNetworkActivityRowsAwaitingDisplay"
+- "_websiteRows"
+- "_websiteRowsAwaitingDisplay"
+- "_wheelchairDataSpecifiers"
+- "_workspace"
+- "aa_altDSID"
+- "aa_authKitAccountForAltDSID:"
+- "aa_isPrimaryEmailVerified"
+- "aa_needsToVerifyTerms"
+- "aa_primaryAppleAccount"
+- "absoluteString"
+- "absoluteURL"
+- "access"
+- "accessCount"
+- "accessManager"
+- "accessPublisherWithoutHiddenOrMissingApps:"
+- "accessPublisherWithoutOutOfProcessPickerAccesses:"
+- "accessPublisherWithoutUnknownCategoryAccesses:"
+- "accessor"
+- "accessoriesManagementApprovedMap"
+- "accessoriesManagementMap"
+- "accessorySpecifiers"
+- "accesssForSpecifier:"
+- "accountStore"
+- "acknowledgePrivacy"
+- "actionWithHandler:"
+- "actionWithTitle:style:handler:"
+- "activate"
+- "activateConstraints:"
+- "activeLocationServiceTypesForLocationDictionary:"
+- "activePairedDeviceSelectorBlock"
+- "adTrackingTransparency"
+- "addAction:"
+- "addArrangedSubview:"
+- "addAttribute:value:range:"
+- "addButton:"
+- "addFinishBlock:"
+- "addObject:"
+- "addObjectsFromArray:"
+- "addObserver:selector:name:object:"
+- "addSectionWithHeader:content:"
+- "addSignificantLocationsFooter:hyperlink:toSpecifier:"
+- "addSpecifiersFromArray:animated:"
+- "addSubview:"
+- "addTarget:action:forControlEvents:"
+- "addTarget:action:forEvents:"
+- "alertControllerWithTitle:message:preferredStyle:"
+- "allAppSpecifiers"
+- "allContactsSettingsViewController"
+- "allData"
+- "allEntries"
+- "allEntriesFromAppsToTrackers:"
+- "allEvents"
+- "allKeys"
+- "allLoggedBundledIdentifiers"
+- "allValues"
+- "allowAsk:"
+- "allowableAuthorizationForLocationDictionary:"
+- "alphabeticalSort"
+- "altTextColor"
+- "analyticsSpecifiersIncludingIndependentSpecifiers:includeDependentSpecifiers:"
+- "appAccessHasData"
+- "appAccessInfoMap"
+- "appActivitySpecifiers"
+- "appAttributedBackgroundView"
+- "appAttributedView"
+- "appClipMetadata"
+- "appClipsCount"
+- "appDidLaunch"
+- "appGroupHeader"
+- "appHeader"
+- "appName"
+- "appNetworkActivityGroupSpecifiers"
+- "appNetworkActivityHeader"
+- "appNetworkActivityRows"
+- "appNetworkActivityRowsAwaitingDisplay"
+- "appRows"
+- "appRowsAwaitingDisplay"
+- "appSpecifierWasTapped:"
+- "appSpecifierWithName:bundleID:"
+- "appSpecifierWithName:bundleID:showContactsAccess:showPickerUsage:"
+- "appSpecifierWithName:bundleID:showPhotosAccess:showPhotosAddAccess:showPickerUsage:"
+- "appSpecifiers"
+- "appSpecifiersFromManager:"
+- "appSpecifiersFromResults:"
+- "appSpecifiersWithLimit:completion:"
+- "appState"
+- "appTags"
+- "appType"
+- "appearance"
+- "appendAttributedString:"
+- "appleIdImprovementSpecifiers"
+- "application"
+- "applicationBundleIdentifierForCategory:"
+- "applicationIsInstalled:"
+- "applicationProxiesDictionary"
+- "applicationProxyForIdentifier:"
+- "appsIDsContactingTrackersInAppOnly:"
+- "appsToTrackers"
+- "appsToTrackersInAppOnly"
+- "appsToTrackersInAppOnlyFromAppsToTrackers:"
+- "appsToTrackersWithoutHiddenApps:"
+- "appsToWebsitesDictFromAppsToTrackersDict:"
+- "appsToWebsitesToTrackers"
+- "array"
+- "arrayByAddingObject:"
+- "arrayByAddingObjectsFromArray:"
+- "arrayWithArray:"
+- "arrayWithCapacity:"
+- "arrayWithObject:"
+- "arrayWithObjects:"
+- "arrayWithObjects:count:"
+- "artistName"
+- "assistantSettingsConnection"
+- "attributedStringWithAttachment:"
+- "authEntityBundle"
+- "authLevel"
+- "authLevelString"
+- "authorizationPromptMapDisplayEnabled"
+- "authorizationPromptMapDisplayEnabled:"
+- "automatedFeedbackEnabled:"
+- "automatedFeedbackSpecifiers"
+- "autorelease"
+- "bankConnectAnalyticsConsentCoordinator"
+- "bankConnectDataSpecifiers"
+- "barColor"
+- "barStackView"
+- "barView"
+- "baseSpecifiers"
+- "beginUpdates"
+- "bluetoothIdentifier"
+- "boolForKey:"
+- "boolValue"
+- "bottomAnchor"
+- "bounds"
+- "bundleForClass:"
+- "bundleIDsAndLatestDatesFromEvents:"
+- "bundleIdentifier"
+- "bundleIdentifierContainsWebClipIdentifier:"
+- "bundleIdentifiersAccessingExternalMediaDevices"
+- "bundleIdentifiersAccessingExternalMediaDevicesWithStatus"
+- "bundleIdentifiersAccessingFiles"
+- "bundleIdentifiersWithAccessToAnyItemCompletionHandler:"
+- "bundleProxyForIdentifier:"
+- "bundleRecordWithApplicationIdentifier:error:"
+- "bundleURL"
+- "bundleWithPath:"
+- "bundleWithURL:"
+- "buttonTray"
+- "buttonWithType:"
+- "bytes"
+- "cStringUsingEncoding:"
+- "cachedSpecifiers"
+- "calendarAllAppIDs"
+- "calendarAppSpecifiers"
+- "calendarFullAccessAllowedAppIDs"
+- "calendarNoAccessAppIDs"
+- "calendarSomeAccessAppIDs"
+- "calendarStatus:"
+- "calendarWriteOnlyAppIDs"
+- "cameraAccessForSpecifier:"
+- "canChangeAllowAsk"
+- "canEvaluatePolicy:error:"
+- "canReload"
+- "categoriesAndLatestDatesFromEvents:"
+- "cellType"
+- "centerXAnchor"
+- "centerYAnchor"
+- "checkAvailabilityWithReply:"
+- "checkAvailabilityWithTicketNumber:response:"
+- "checkAvailabilityWithTicketNumber:timeout:response:"
+- "checkDiagnosticsSessionAvailability"
+- "checkUserConsent:"
+- "class"
+- "classNamed:"
+- "clearASTServerURL"
+- "clearAdvertisingIdentifier"
+- "clearColor"
+- "client"
+- "clipsFooter"
+- "clipsLocationUsage"
+- "close"
+- "coalescedImproveMapsServices"
+- "code"
+- "com.apple.DiagnosticsSessionAvailibility"
+- "compare:"
+- "compare:options:"
+- "componentsSeparatedByString:"
+- "configurationForContinuityDisplay"
+- "configurationInfoWithIdentifiers:forAltDSID:completion:"
+- "configurationWithHierarchicalColor:"
+- "configurationWithPointSize:weight:"
+- "configureWithOpaqueBackground"
+- "conformsToProtocol:"
+- "constant"
+- "constraintEqualToAnchor:"
+- "constraintEqualToAnchor:constant:"
+- "constraintEqualToConstant:"
+- "constraintEqualToSystemSpacingAfterAnchor:multiplier:"
+- "constraintEqualToSystemSpacingBelowAnchor:multiplier:"
+- "constraintGreaterThanOrEqualToAnchor:"
+- "constraintGreaterThanOrEqualToAnchor:constant:"
+- "constraintLessThanOrEqualToAnchor:"
+- "constraintLessThanOrEqualToAnchor:multiplier:constant:"
+- "constraints"
+- "contactPicker:didGoBackWithSelectedContacts:"
+- "contactPicker:didSelectContact:"
+- "contactPicker:didSelectContacts:"
+- "contactPickerDidCancel:"
+- "contactsAllAppIDs"
+- "contactsAppSpecifiers"
+- "contactsDeniedAppIDs"
+- "contactsFullAccessAllowedAppIDs"
+- "contactsLimitedAccessAppIDs"
+- "contactsStatus:"
+- "containsObject:"
+- "containsSpecifier:"
+- "containsString:"
+- "contentView"
+- "contentsOfDirectoryAtURL:includingPropertiesForKeys:options:error:"
+- "continuousCornerRadius"
+- "controllerMode"
+- "copy"
+- "copyLocalizedValuesFromAllDevicesForInfoPlistKeys:forAppWithBundleID:fetchingFirstMatchingLocalizationInList:error:"
+- "coreRoutineAppKey"
+- "coreRoutineEnabledStatus:"
+- "correctiveCompensationSpecifierGroup"
+- "correctiveCompensationState"
+- "correctiveCompensationStatusForLocationDictionary:"
+- "countByEnumeratingWithState:objects:count:"
+- "createContinuityDisplayMonitor"
+- "createQualifierSpecifierGroups"
+- "createSpecifiers"
+- "createSpecifiersWithCombinedPickerUsage"
+- "crossAppTrackingAllowed"
+- "crossAppTrackingAllowedSwitchDisabledReason"
+- "crossAppTrackingAllowedSwitchEnabled"
+- "currentCalendar"
+- "currentControllerMode"
+- "currentCoreRoutineStatus"
+- "currentDevice"
+- "currentLocale"
+- "d24@0:8d16"
+- "d32@0:8d16@\"UITableView\"24"
+- "d32@0:8d16@24"
+- "dataAccessGroupSpecifiers"
+- "dataAccessSpecifiers"
+- "dataContainerURL"
+- "dataDidChange"
+- "dataWithJSONObject:options:error:"
+- "date"
+- "dateByAddingComponents:toDate:options:"
+- "dateLocationLastUsedForLocationDictionary:"
+- "dateToString:"
+- "dateWithTimeIntervalSinceReferenceDate:"
+- "deactivateConstraints:"
+- "dealloc"
+- "debugDescription"
+- "defaultCenter"
+- "defaultManager"
+- "defaultStore"
+- "defaultWorkspace"
+- "delegate"
+- "deleteButtonSpecifierWithName:target:action:"
+- "denyMulticast"
+- "description"
+- "deselectRowAtIndexPath:animated:"
+- "detailControllerClass"
+- "detailTextLabel"
+- "details"
+- "deviceName"
+- "deviceSupportsMultitech:"
+- "diagnostics://"
+- "diagnosticsURLs"
+- "dictionary"
+- "dictionaryForKey:"
+- "dictionaryWithObject:forKey:"
+- "dictionaryWithObjects:forKeys:count:"
+- "didBecomeActive"
+- "didChangeActiveLocationSharingDevice:"
+- "didChangeUserConsent:completion:"
+- "didLoadCoreRoutineSettings"
+- "didTapEnableLockdownModeButton:"
+- "didTapHeaderLearnMoreLink:"
+- "didTapOnboardingCellLink:"
+- "didTapOnboardingLockdownModeButton"
+- "didTapSave"
+- "didTapTurnOffAppPrivacyReport"
+- "didTapTurnOnAppPrivacyReport"
+- "didUpdateHidingStatus:"
+- "disableAfterLoginConfirmation:"
+- "disablePhoneLocatorWithMessageString:buttonTitle:presentingViewController:completion:"
+- "disableTCCForAllApps"
+- "dismissAboutSheet:"
+- "dismissViewControllerAnimated:completion:"
+- "displayName"
+- "dnsConfigurationChanged:"
+- "dnsConfigurations"
+- "dnsSettings"
+- "domainHeader"
+- "domainNetworkActivityHeader"
+- "domainNetworkActivityRows"
+- "domainNetworkActivityRowsAwaitingDisplay"
+- "domainRows"
+- "domainRowsAwaitingDisplay"
+- "domainSpecifiersFromResults:showDates:showAppAndWebsiteCounts:app:appOther:website:"
+- "domainSpecifiersWithLimit:showDates:showAppAndWebsiteCounts:showIPAddresses:completion:"
+- "domainsSpecifiersFromResults:"
+- "donePressed"
+- "drawInRect:"
+- "effectiveBlacklistedAppBundleIDs"
+- "effectiveBoolValueForSetting:"
+- "eitherSourceHasData"
+- "eligibleApplications"
+- "emptyGroupSpecifier"
+- "enabled"
+- "enabledDate"
+- "enabledInAccount"
+- "endTime"
+- "endUpdates"
+- "entitlementValueForKey:ofClass:"
+- "entityAuthorizationForLocationDictionary:"
+- "entityBundle"
+- "entries"
+- "entries:filtered:"
+- "entriesFiltered:"
+- "enumerateApplicationsOfType:block:"
+- "enumerateKeysAndObjectsUsingBlock:"
+- "enumerateObjectsUsingBlock:"
+- "enumeratorForApplicationProxiesWithOptions:"
+- "enumeratorWithOptions:"
+- "error"
+- "errorWithDomain:code:userInfo:"
+- "evaluatePolicy:localizedReason:reply:"
+- "eventSpecifiersForRecords:greenTea:"
+- "eventType"
+- "events:filtered:"
+- "eventsFiltered:"
+- "execute:"
+- "expiryDate"
+- "explanation"
+- "exportFromPublisher:toStream:error:"
+- "exportToStream:error:"
+- "feed"
+- "fetchAnalyticsConsent"
+- "fetchCurrentDeviceSupportsImproveHealthRecordsDataSubmissionOptionWithCompletion:"
+- "fetchDeviceListWithContext:completion:"
+- "fetchIsImproveHealthRecordsDataSubmissionAllowedWithCompletion:"
+- "fetchRoutineStateWithHandler:"
+- "fetchStateWithCompletion:"
+- "fetchSubscriptionStatusWithCompletion:"
+- "fetchUserConsent:"
+- "fetchUserInformationForAltDSID:completion:"
+- "fetchWatchAppBundleIDForCompanionAppBundleID:completion:"
+- "fileNameForExport"
+- "fileURLWithPath:"
+- "fileURLWithPath:isDirectory:"
+- "filesystemMetadataSnapshotSpecifier"
+- "findAccessories"
+- "findApplicationRecordWithError:"
+- "firstObject"
+- "fitnessPlusAnalyticsConsentCoordinator"
+- "fitnessPlusDataSpecifiers"
+- "floatValue"
+- "fmipStateWithCompletion:"
+- "font"
+- "fontDescriptor"
+- "fontDescriptorWithSymbolicTraits:"
+- "fontWithDescriptor:size:"
+- "footer"
+- "footerHyperlinkColor"
+- "footerStringForSpecifiers:"
+- "frame"
+- "fullAccessSpecifier"
+- "generalExplanationItemString"
+- "generateFilesystemMetadataSnapshotWithOptions:reply:"
+- "generateIconImageForFormat:scale:"
+- "get2GSwitchEnabledSync:"
+- "get2GUserPreferenceSync:"
+- "getActiveLocationSharingDeviceWithCompletionHandler:"
+- "getAllDevicesWithArchivedAltAccountDevicesMatching:"
+- "getAllDevicesWithArchivedDevicesMatching:"
+- "getAppAssetForBundleID:completion:"
+- "getAppClipsCount:"
+- "getCanSetLockdownMode"
+- "getCanShowLockdownMode"
+- "getCurrentImproveSiriAndDictationValueForSpecifier:"
+- "getDevicesWithFlags:completionHandler:"
+- "getDevicesWithFlags:session:error:"
+- "getEligibleDevicesWithCompletion:"
+- "getGroup:row:ofSpecifier:"
+- "getIconForBundleID:iconVariant:block:timeout:"
+- "getImproveAssistiveVoiceValueForSpecifier:"
+- "getIncidentalUseMode:forBundleIdentifier:"
+- "getLazyIcon"
+- "getLazyIconID"
+- "getLearnedRoutesAccess:forBundleIdentifier:"
+- "getLimitedAccessContactsCountForBundle:"
+- "getNetworkDomainsOptions:reply:"
+- "getQualifierState"
+- "getSiriDataSharingOptInStatusWithCompletion:"
+- "getSubscriptionEntitlementsForSegment:ignoreCaches:requestingBundleId:withCacheInfoResultHandler:"
+- "getUserInformationForAltDSID:completion:"
+- "getVisitHistoryAccess:forBundleIdentifier:"
+- "getVisitHistoryAccessAllowedTime:forBundleIdentifier:"
+- "grade"
+- "groupSpecifierWithID:"
+- "groupSpecifierWithID:name:"
+- "groupSpecifierWithName:"
+- "hadDataInLastQuery"
+- "handleSessionEvent:"
+- "handwashingDataSpecifiers"
+- "has2GSupport"
+- "hasAppAndAccessoryAnalyticsAllowedBeenSet"
+- "hasData"
+- "hasPreviouslyAcknowledgedPrivacyIdentifier:"
+- "hasRejectedPrivacyIdentifier:"
+- "hasSuffix:"
+- "hasUltraWideBand"
+- "hash"
+- "header"
+- "headerForCategory:"
+- "headerSpecifiers"
+- "healthDataSpecifiers"
+- "healthRecordsDataSpecifiers"
+- "healthStore"
+- "heightAnchor"
+- "hiddenBundleIdentifiers"
+- "highestNumberOfTrackerDataPerAppInAppOnly:"
+- "highestNumberOfTrackerDataPerTrackerInAppOnly:"
+- "homeKitBundles"
+- "i16@0:8"
+- "i24@0:8@16"
+- "iCloudSpecifiers"
+- "iTunesMetadata"
+- "iconData"
+- "iconForCategory:"
+- "iconForContext:"
+- "iconForUsage:"
+- "iconLabelView"
+- "iconTypeIdentifierForCategory:"
+- "identifier"
+- "identityForLSApplicationIdentity:"
+- "identityProofingDataSharingManager"
+- "identityVerificationDataSpecifiers"
+- "image"
+- "imageDescriptor"
+- "imageDescriptorNamed:"
+- "imageForDescriptor:"
+- "imageNamed:inBundle:"
+- "imageView"
+- "imageWithActions:"
+- "imageWithCGImage:scale:orientation:"
+- "imageWithData:"
+- "imageWithRenderingMode:"
+- "improveARLocationAccuracyForSpecifier:"
+- "improveARLocationAccuracySpecifiers"
+- "improveAssistiveVoiceSpecifiers"
+- "improveLocationAccuracyBundles"
+- "improveMapsBundles"
+- "improveSiriSpecifiers"
+- "indexForIndexPath:"
+- "indexOfSpecifier:"
+- "indexOfSpecifierID:"
+- "indexPathForIndex:"
+- "init"
+- "initContinuations"
+- "initDeltaPickerForAppName:bundleId:"
+- "initSettingsPickerForAppName:bundleId:"
+- "initWithActivityIndicatorStyle:"
+- "initWithActivityItems:applicationActivities:"
+- "initWithActivityType:"
+- "initWithBarButtonSystemItem:primaryAction:"
+- "initWithBarButtonSystemItem:target:action:"
+- "initWithBool:"
+- "initWithBundleIdentifier:"
+- "initWithBundleIdentifier:URL:personaUniqueString:personaType:"
+- "initWithBundleIdentifier:allowPlaceholder:error:"
+- "initWithBundleIdentifierOfSystemPlaceholder:error:"
+- "initWithCGImage:scale:orientation:"
+- "initWithCString:encoding:"
+- "initWithCalendarIdentifier:"
+- "initWithCapacity:"
+- "initWithDatabaseFile:"
+- "initWithDate:calendar:format:"
+- "initWithExplanation:"
+- "initWithFrame:"
+- "initWithHealthStore:"
+- "initWithImage:"
+- "initWithKey:table:locale:bundleURL:"
+- "initWithObjects:"
+- "initWithPath:"
+- "initWithPredicate:context:"
+- "initWithPrivacyIdentifier:"
+- "initWithQueue:"
+- "initWithRootViewController:"
+- "initWithSearchResultsController:"
+- "initWithServiceName:"
+- "initWithSigningIdentifier:"
+- "initWithSize:"
+- "initWithSize:scale:"
+- "initWithSpecifier:"
+- "initWithString:"
+- "initWithStyle:reuseIdentifier:"
+- "initWithStyle:reuseIdentifier:specifier:"
+- "initWithStyle:reuseIdentifier:title:"
+- "initWithSuiteName:"
+- "initWithTimeIntervalSinceReferenceDate:"
+- "initWithTitle:content:"
+- "initWithTitle:detailText:symbolName:contentLayout:"
+- "initWithTitle:style:target:action:"
+- "initWithType:customTitle:customSubtitle:assetDescriptor:"
+- "initWithURL:"
+- "initWithUserTransparencyDetails:"
+- "initWithWorkspace:"
+- "initWorkspaceWithService:"
+- "insertContiguousSpecifiers:afterSpecifier:"
+- "insertContiguousSpecifiers:afterSpecifier:animated:"
+- "insertContiguousSpecifiers:afterSpecifierID:"
+- "insertContiguousSpecifiers:atEndOfGroup:animated:"
+- "insertContiguousSpecifiers:atIndex:animated:"
+- "insertCoreRoutineSpecifier"
+- "insertObject:atIndex:"
+- "insertSpecifier:afterSpecifier:"
+- "insertSpecifier:afterSpecifierID:animated:"
+- "insertSpecifier:atIndex:animated:"
+- "instantiateInitialViewController"
+- "intValue"
+- "integerValue"
+- "interfaceWithProtocol:"
+- "invalidate"
+- "isAccess"
+- "isActive"
+- "isAppAnalyticsAllowed"
+- "isAppAndAccessoryAnalyticsAllowed"
+- "isAppAndAccessoryAnalyticsAllowedFeatureEnabled"
+- "isAppClipsAllowed"
+- "isAppLinkedWithContactsLimitedAccessSupportedSDK"
+- "isBoolSettingLockedDownByRestrictions:"
+- "isCaptivePortalModeIgnored:"
+- "isCaptivePortalModeIgnoredForContainerPath:"
+- "isCoreRoutineAuthorized"
+- "isDiagnosticSubmissionModificationAllowed"
+- "isEnabled"
+- "isEntityAuthorized:"
+- "isEntityAuthorizedForLocationDictionary:"
+- "isEqual:"
+- "isEqualToArray:"
+- "isEqualToDictionary:"
+- "isEqualToSet:"
+- "isEqualToString:"
+- "isFindMyiPhoneEnabled"
+- "isFitnessTrackingEnabled:"
+- "isFitnessTrackingEnabledFromTCC"
+- "isGreenTeaSpecialCategory"
+- "isHidden"
+- "isInGracePeriod"
+- "isInitialized"
+- "isInstalled"
+- "isInternalInstall"
+- "isKindOfClass:"
+- "isLocalNetworkEnabled:"
+- "isLocationRestricted"
+- "isLocationServicesEnabled:"
+- "isLocationSharingEnabled"
+- "isLocationSharingModificationAllowed"
+- "isLockdownModeEnabled"
+- "isLockdownModeEnabledInAccount"
+- "isMemberOfClass:"
+- "isMirroring"
+- "isMyLocationEnabledWithCompletionHandler:"
+- "isOfferPeriod"
+- "isOn"
+- "isOnDeviceOnlyDictationForced"
+- "isPaired"
+- "isPhoneMirroringActive"
+- "isPlaceholder"
+- "isProblemReportingEnabled"
+- "isProxy"
+- "isRecordActivityEnabled"
+- "isRecordActivityEnabled:"
+- "isRunningInStoreDemoMode"
+- "isServiceRestricted:"
+- "isSharedIPad"
+- "isSpecifierEnabled:"
+- "isStatusBarIconEnabledForLocationEntityClass:"
+- "isStatusEnabled:"
+- "isThisDevice"
+- "isThumperCallingEnabled"
+- "isTrialPeriod"
+- "isWaitingForNetworkConfigurationDidChangeInResponseToUserInteractionWithToggle"
+- "isWebBrowser"
+- "isWiFiCallingEnabled"
+- "labelColor"
+- "lastObject"
+- "lastPathComponent"
+- "lastUpdatedDate"
+- "laterDate:"
+- "launchDiagnosticsSession:"
+- "launchExperienceWithRequest:eventHandler:completion:"
+- "layer"
+- "layoutForWidth:inTableView:"
+- "layoutIfNeeded"
+- "layoutMarginsGuide"
+- "layoutSubviews"
+- "leadingAnchor"
+- "learnMoreHeader"
+- "learnedRoutesAccess"
+- "length"
+- "lengthOfBytesUsingEncoding:"
+- "lightGrayColor"
+- "limitedAccessCount"
+- "limitedAccessSpecifier"
+- "lineBreakMode"
+- "linkButton"
+- "load"
+- "loadAllEvents"
+- "loadConfigurationsForceRefresh:completionHandler:"
+- "loadConfigurationsWithCompletionQueue:handler:"
+- "loadOfflineLabSharingPreferenceWithCompletion:"
+- "loadPane"
+- "loadPrivacySettingsBundle"
+- "loadSensorKitSpecifiersProvider"
+- "localTimeZone"
+- "localizedCaseInsensitiveCompare:"
+- "localizedCaseInsensitiveContainsString:"
+- "localizedDescription"
+- "localizedDisplayNameForBundleID:"
+- "localizedName"
+- "localizedNameForContext:"
+- "localizedRemainingNumberOfApprovedAccessories:"
+- "localizedStandardCompare:"
+- "localizedStringForCategory:"
+- "localizedStringForDate:relativeToDate:"
+- "localizedStringForKey:value:table:"
+- "localizedStringFromNumber:numberStyle:"
+- "localizedStringWithFormat:"
+- "localizedUppercaseString"
+- "locationBasedAlertBundles"
+- "locationDetailSpecifiersForAppsAndBundles"
+- "locationDetailSpecifiersWithDetailsMatching:"
+- "locationServicesAccessQueue"
+- "locationServicesEnabled"
+- "locationSharingAppList"
+- "locationSharingDevice"
+- "locationSharingEnabled"
+- "locationSharingOperationQueue"
+- "locationSharingSession"
+- "locationSharingSpecifiers"
+- "locationUsageBasedOnDetails:"
+- "locationUsageForEntity:"
+- "lockdownModeEnabled"
+- "lockdownModeOptionsSpecifiers"
+- "loggingEnabled"
+- "logsWithError:"
+- "longValue"
+- "lowercaseString"
+- "mainScreen"
+- "mainThreadConnectionError:"
+- "mainThreadDidChangeActiveLocationSharingDevice:"
+- "mainThreadDidUpdateHidingStatus:"
+- "manager"
+- "matchSigningIdentifier"
+- "meDeviceUpdateCallback"
+- "monitor"
+- "monitorWithConfiguration:"
+- "mostContactedDomainsGroupSpecifiers"
+- "multicastPreferenceSet"
+- "mutableCopy"
+- "name"
+- "nameForAppID:"
+- "navigationController"
+- "navigationItem"
+- "networkConfigurationEnabled:"
+- "networkDomainsToDateWithOptionsFor:nameKind:domainType:startTime:options:reply:"
+- "nextObject"
+- "nonretainedObjectValue"
+- "now"
+- "null"
+- "numberWithBool:"
+- "numberWithDouble:"
+- "numberWithInt:"
+- "numberWithInteger:"
+- "numberWithUnsignedChar:"
+- "numberWithUnsignedInteger:"
+- "objectAtIndex:"
+- "objectAtIndexedSubscript:"
+- "objectForInfoDictionaryKey:"
+- "objectForKey:"
+- "objectForKeyedSubscript:"
+- "offlineLabPrivacyBundleIdentifier"
+- "open"
+- "openLearnMorePage"
+- "openURL:configuration:completionHandler:"
+- "openURL:options:completionHandler:"
+- "operatingSystemName"
+- "operatingSystemVersion"
+- "otherHeader"
+- "otherRows"
+- "otherRowsAwaitingDisplay"
+- "otherSpecifiersFromResults:"
+- "outputStreamWithURL:append:"
+- "pane"
+- "parentViewController"
+- "path"
+- "pathController"
+- "pathControllerConfiguration"
+- "pathRuleCreate:"
+- "pathRuleForBundleID:create:"
+- "pathRules"
+- "pe_emitNavigationEventForSystemSettingsWithGraphicIconIdentifier:title:localizedNavigationComponents:deepLink:"
+- "pe_isSettingsFeatureDescriptionCellSupported"
+- "performBatchUpdates:completion:"
+- "performButtonAction"
+- "performGetter"
+- "performSelector:"
+- "performSelector:withObject:"
+- "performSelector:withObject:withObject:"
+- "performSetterWithValue:"
+- "personalizedAds"
+- "personalizedAdsAvailable"
+- "personalizedAdsAvailable:"
+- "personalizedAdsConsented"
+- "personalizedAdsEnabled:"
+- "personalizedAdsSwitchEnabled"
+- "photosAddOnlyAllAppIDs"
+- "photosAddOnlyAllowedAppIDs"
+- "photosAddOnlyDeniedAppIDs"
+- "photosAllAppIDs"
+- "photosPickerPresentedLibraryLogsByClient"
+- "photosReadWriteAllAppIDs"
+- "photosReadWriteAllowedAppIDs"
+- "photosReadWriteAllowedOrLimitedAppIDs"
+- "photosReadWriteDeniedAppIDs"
+- "photosReadWriteLimitedAppIDs"
+- "pickerUsageAppIDs"
+- "popViewControllerAnimated:"
+- "popoverPresentationController"
+- "postNotificationName:object:"
+- "postNotificationName:object:userInfo:"
+- "predicateMatchingIdentity:"
+- "preferenceChangesTask"
+- "preferenceSpecifierNamed:target:set:get:detail:cell:edit:"
+- "preferredContentSizeCategory"
+- "preferredFindMyiPhoneAccount"
+- "preferredFontForTextStyle:"
+- "preferredHeightForWidth:"
+- "preferredHeightForWidth:inTableView:"
+- "preferredLanguages"
+- "preferredRoutesSpecifier"
+- "preferredRoutesSpecifierGroup"
+- "preferredRoutesSpinnerSpecifier"
+- "preferredRoutesState"
+- "prepareImagesForImageDescriptors:"
+- "present"
+- "presentConfirmationAlert:hasPairedWatch:"
+- "presentErrorAlert"
+- "presentLimitedLibraryPickerFromViewController:options:"
+- "presentLimitedLibraryPickerFromViewController:options:completionHandler:"
+- "presentModalViewController:withTransition:"
+- "presentOnboardingController"
+- "presentViewController:animated:completion:"
+- "presentedViewController"
+- "presenterForPrivacySplashWithIdentifier:"
+- "presentingViewController"
+- "previewTableView"
+- "primaryAccount"
+- "primaryEntityClassForLocationDictionary:"
+- "primaryLabel"
+- "privacyBundleIdentifier"
+- "problemReportingEnabled:"
+- "productImprovementGroup"
+- "profileNotification:"
+- "profileSettingsChanged:"
+- "propertyForKey:"
+- "provideNavigationDonations"
+- "publisherForAll"
+- "publisherForReportWithError:"
+- "pui_replaceRows:withRows:header:insertPoint:"
+- "q20@0:8B16"
+- "qualifierSpecifierGroups"
+- "queryWithOptions:reply:"
+- "rangeOfSpecifiersInGroupID:"
+- "rangeOfString:"
+- "rangeOfString:options:"
+- "readPreferenceValue:"
+- "rebootIntoCheckerBoard"
+- "receivedAppListFromCoreLocation"
+- "recursivelyReplaceNSDateWithNSString:"
+- "refreshCellContentsWithSpecifier:"
+- "refreshContentsWithSpecifier:"
+- "refreshDADevices"
+- "refreshDADevicesSynchronously"
+- "refreshLinkStatusInParent"
+- "registerForUpdatesWithHandler:"
+- "rejectPrivacy"
+- "release"
+- "reloadAppAccessHasDataWithCompletion:"
+- "reloadAppAndTrackingData"
+- "reloadAppNetworkActivitySpecifiersWithCompletion:"
+- "reloadAsyncSpecifiers"
+- "reloadData"
+- "reloadDataWithCompletion:"
+- "reloadEnabledWithCompletion:"
+- "reloadMostContactedDomainsSpecifiersWithCompletion:"
+- "reloadSensorAndNetworkSpecifiersAnimated:"
+- "reloadSpecifier:"
+- "reloadSpecifier:animated:"
+- "reloadSpecifierID:"
+- "reloadSpecifierID:animated:"
+- "reloadSpecifiers"
+- "reloadWebsiteNetworkActivitySpecifiersWithCompletion:"
+- "reloadWithCompletion:"
+- "remakeUI:"
+- "remoteObjectProxy"
+- "removeContiguousSpecifiers:"
+- "removeContiguousSpecifiers:animated:"
+- "removeObjectForKey:"
+- "removeObserver:"
+- "removeObserver:name:object:"
+- "removePropertyForKey:"
+- "removeSpecifier:animated:"
+- "renderInContext:"
+- "replaceCharactersInRange:withAttributedString:"
+- "replaceContiguousSpecifiers:withSpecifiers:animated:"
+- "reportEnabled"
+- "reportManager"
+- "respondsToSelector:"
+- "resume"
+- "retain"
+- "retainCount"
+- "reverseObjectEnumerator"
+- "revokeAccessToAllItemsForBundle:completionHandler:"
+- "rightBarButtonItem"
+- "rootController"
+- "routineManager"
+- "routingAndTrafficBundles"
+- "safariSettingsBundle"
+- "safeAreaLayoutGuide"
+- "safetyDataSpecifiers"
+- "saveAppActivityFooterText"
+- "saveAppActivitySpecifier"
+- "saveConfiguration"
+- "saveConfiguration:withCompletionQueue:handler:"
+- "saveOfflineLabSharingPermission:withCompletion:"
+- "scale"
+- "scrollViewDidChangeAdjustedContentInset:"
+- "scrollViewDidEndDecelerating:"
+- "scrollViewDidEndDragging:willDecelerate:"
+- "scrollViewDidEndScrollingAnimation:"
+- "scrollViewDidEndZooming:withView:atScale:"
+- "scrollViewDidScroll:"
+- "scrollViewDidScrollToTop:"
+- "scrollViewDidZoom:"
+- "scrollViewShouldScrollToTop:"
+- "scrollViewWillBeginDecelerating:"
+- "scrollViewWillBeginDragging:"
+- "scrollViewWillBeginZooming:withView:"
+- "scrollViewWillEndDragging:withVelocity:targetContentOffset:"
+- "searchBar"
+- "searchController"
+- "secondaryLabel"
+- "secondaryLabelColor"
+- "section"
+- "securityLevelForAccount:"
+- "selectSpecifier:"
+- "self"
+- "sensorActivityHeader"
+- "sensorActivityRows"
+- "sensorManager"
+- "serialNumber"
+- "serviceKey"
+- "set"
+- "set2GEnabled:specifier:"
+- "set2GUserPreference:completion:"
+- "setASTServerURL:"
+- "setAccess:forSpecifier:"
+- "setAccessManager:"
+- "setAccessoriesManagementApprovedMap:"
+- "setAccessoriesManagementMap:"
+- "setAccessorySpecifiers:"
+- "setAccountImprovementOptIn:forAccount:error:"
+- "setActive:"
+- "setAdTrackingTransparency:"
+- "setAlignment:"
+- "setAllAppSpecifiers:"
+- "setAllEntries:"
+- "setAllEvents:"
+- "setAllowAsk:specifier:"
+- "setAlphabeticalSort:"
+- "setAltDSID:"
+- "setAnalyticsConsent:completion:"
+- "setAppAttributedBackgroundView:"
+- "setAppAttributedView:"
+- "setAppBundleID:"
+- "setAppClipsCount:"
+- "setAppGroupHeader:"
+- "setAppHeader:"
+- "setAppLockdownModeEnabled:forSpecifier:"
+- "setAppNetworkActivityHeader:"
+- "setAppNetworkActivityRows:"
+- "setAppNetworkActivityRowsAwaitingDisplay:"
+- "setAppRows:"
+- "setAppRowsAwaitingDisplay:"
+- "setAppSpecifiers:"
+- "setAppType:"
+- "setApplication:"
+- "setAppsToTrackers:"
+- "setAppsToTrackersInAppOnly:"
+- "setAppsToWebsitesToTrackers:"
+- "setAssistantSettingsConnection:"
+- "setAttributedText:"
+- "setAuthEntityBundle:"
+- "setAuthLevel:"
+- "setAuthLevel:learnedRoutesAccess:visitHistoryAccess:"
+- "setAuthLevel:learnedRoutesAccess:visitHistoryAccess:forCell:"
+- "setAuthorizationPromptMapDisplayEnabled:"
+- "setAuthorizationPromptMapDisplayEnabled:specifier:"
+- "setAutocapitalizationType:"
+- "setAutocorrectionType:"
+- "setAutomatedFeedbackEnabled:specifier:"
+- "setAutomatedFeedbackSpecifiers:"
+- "setAxis:"
+- "setBackgroundColor:"
+- "setBankConnectAnalyticsConsentCoordinator:"
+- "setBarButtonItem:"
+- "setBarColor:"
+- "setBarStackView:"
+- "setBarView:"
+- "setBool:forKey:"
+- "setBoolValue:forIdMSConfigKey:completion:"
+- "setBoolValue:forSetting:"
+- "setBundleID:"
+- "setBundleIdentifier:"
+- "setButtonAction:"
+- "setByAddingObjectsFromSet:"
+- "setCachedSpecifiers:"
+- "setCalendarAllAppIDs:"
+- "setCalendarAppSpecifiers:"
+- "setCalendarFullAccessAllowedAppIDs:"
+- "setCalendarNoAccessAppIDs:"
+- "setCalendarSomeAccessAppIDs:"
+- "setCalendarWriteOnlyAppIDs:"
+- "setCameraAccess:forSpecifier:"
+- "setCaptivePortalModeIgnored:ignore:"
+- "setCaptivePortalModeIgnoredForContainerPath:ignored:"
+- "setCategory:"
+- "setCellEnabled:"
+- "setCellType:"
+- "setChangedQueue:andHandler:"
+- "setClient:"
+- "setClipsFooter:"
+- "setCoalescedImproveMapsServices:"
+- "setCompactAppearance:"
+- "setConfigurationInfo:forIdentifier:forAltDSID:completion:"
+- "setConstant:"
+- "setConstraints:"
+- "setContactsAllAppIDs:"
+- "setContactsAppSpecifiers:"
+- "setContactsDeniedAppIDs:"
+- "setContactsFullAccessAllowedAppIDs:"
+- "setContactsLimitedAccessAppIDs:"
+- "setContentMode:"
+- "setContentOffset:animated:"
+- "setContext:"
+- "setControllerLoadAction:"
+- "setCoreRoutineAppKey:"
+- "setCoreRoutineAuthorized:"
+- "setCornerRadius:"
+- "setCorrectiveCompensationSpecifierGroup:"
+- "setCorrectiveCompensationState:"
+- "setCrossAppTrackingAllowed:"
+- "setCurrentControllerMode:"
+- "setCurrentCoreRoutineStatus:"
+- "setCustomSpacing:afterView:"
+- "setDate:"
+- "setDateFormat:"
+- "setDateStyle:"
+- "setDateTimeStyle:"
+- "setDefinesPresentationContext:"
+- "setDelegate:"
+- "setDenyMulticast:"
+- "setDetailControllerClass:"
+- "setDetailText:linkText:"
+- "setDetails:"
+- "setDidLoadCoreRoutineSettings:"
+- "setDisplayName:"
+- "setDistribution:"
+- "setDnsConfigurations:"
+- "setDoesRelativeDateFormatting:"
+- "setDomain:"
+- "setDomainHeader:"
+- "setDomainNetworkActivityHeader:"
+- "setDomainNetworkActivityRows:"
+- "setDomainNetworkActivityRowsAwaitingDisplay:"
+- "setDomainRows:"
+- "setDomainRowsAwaitingDisplay:"
+- "setEditPaneClass:"
+- "setEditable:"
+- "setEligibleForHandoff:"
+- "setEnabled:options:completion:"
+- "setEntityAuthorization:withCorrectiveCompensationType:forLocationDictionary:"
+- "setEntityAuthorized:forLocationDictionary:"
+- "setEntityAuthorized:specifier:"
+- "setEntityBundle:"
+- "setEventHandler:"
+- "setExcludedActivityTypes:"
+- "setExplanation:"
+- "setFeed:"
+- "setFitnessPlusAnalyticsConsentCoordinator:"
+- "setFitnessTrackingEnabled:forSpecifier:"
+- "setFont:"
+- "setFooter:"
+- "setFormatOptions:"
+- "setFrame:"
+- "setFullAccessSpecifier:"
+- "setHas2GSupport:"
+- "setHasData:"
+- "setHeader:"
+- "setHidden:"
+- "setHour:"
+- "setHyphenationFactor:"
+- "setIconLabelView:"
+- "setIdentifier:"
+- "setIdentityProofingDataSharingManager:"
+- "setImage:"
+- "setImproveARLocationAccuracy:specifier:"
+- "setImproveAssistiveVoiceSpecifiers:"
+- "setImproveAssistiveVoiceValue:specifier:"
+- "setImproveSiriAndDictationValue:specifier:"
+- "setImproveSiriSpecifiers:"
+- "setIncidentalUseMode:forBundleIdentifier:"
+- "setIncludeFamilyDevices:"
+- "setIncludeUntrustedDevices:"
+- "setIsAccess:"
+- "setIsMirroring:"
+- "setIsWaitingForNetworkConfigurationDidChangeInResponseToUserInteractionWithToggle:"
+- "setKeyboardType:"
+- "setLayoutMargins:"
+- "setLayoutMarginsRelativeArrangement:"
+- "setLearnMoreHeader:"
+- "setLearnedRoutesAccess:"
+- "setLearnedRoutesAccess:forBundleIdentifier:"
+- "setLeftBarButtonItem:"
+- "setLimitedAccessCount:"
+- "setLimitedAccessSpecifier:"
+- "setLineBreakMode:"
+- "setLineFragmentPadding:"
+- "setLinkTextAttributes:"
+- "setLocalNetworkEnabled:specifier:"
+- "setLocalizedDateFormatFromTemplate:"
+- "setLocationServicesEnabled:"
+- "setLocationServicesEnabled:specifier:"
+- "setLocationSharingDevice:"
+- "setLocationSharingEnabled:"
+- "setLocationSharingOperationQueue:"
+- "setLocationSharingSession:"
+- "setLockdownModeEnabled:"
+- "setLockdownModeEnabled:forAllDevices:"
+- "setLockdownModeEnabled:forAllDevices:completion:"
+- "setLoggingEnabled:"
+- "setManager:"
+- "setMasksToBounds:"
+- "setMeDeviceUpdateCallback:"
+- "setModalPresentationStyle:"
+- "setMonitor:"
+- "setMulticastPreferenceSet:"
+- "setName:"
+- "setNeedsLayout"
+- "setNeedsUpdateConstraints"
+- "setNetworkDomainsOptions:reply:"
+- "setNumberOfLines:"
+- "setObject:forKey:"
+- "setObject:forKeyedSubscript:"
+- "setObscuresBackgroundDuringPresentation:"
+- "setOn:animated:"
+- "setOperatingSystems:"
+- "setOtherHeader:"
+- "setOtherRows:"
+- "setOtherRowsAwaitingDisplay:"
+- "setParentController:"
+- "setPathControllerConfiguration:"
+- "setPathRules:"
+- "setPersonalizedAds:"
+- "setPersonalizedAdsEnabled:specifier:"
+- "setPhotosAddOnlyAllAppIDs:"
+- "setPhotosAddOnlyAllowedAppIDs:"
+- "setPhotosAddOnlyDeniedAppIDs:"
+- "setPhotosAllAppIDs:"
+- "setPhotosReadWriteAllAppIDs:"
+- "setPhotosReadWriteAllowedAppIDs:"
+- "setPhotosReadWriteAllowedOrLimitedAppIDs:"
+- "setPhotosReadWriteDeniedAppIDs:"
+- "setPhotosReadWriteLimitedAppIDs:"
+- "setPickerUsageAppIDs:"
+- "setPreferenceValue:specifier:"
+- "setPreferredRoutesSpecifier:"
+- "setPreferredRoutesSpecifierGroup:"
+- "setPreferredRoutesSpinnerSpecifier:"
+- "setPreferredRoutesState:"
+- "setPreferredStyle:"
+- "setPresentingViewController:"
+- "setPrimaryLabel:"
+- "setProblemReportingEnabled:"
+- "setProblemReportingEnabled:forSpecifier:"
+- "setProductImprovementGroup:"
+- "setProperty:forKey:"
+- "setQualifierSpecifierGroups:"
+- "setRecordActivityEnabled:specifier:"
+- "setRemoteObjectInterface:"
+- "setReportEnabled:"
+- "setReportManager:"
+- "setReusesCells:"
+- "setRightBarButtonItem:"
+- "setRootController:"
+- "setRoutineManager:"
+- "setSOSEntityAuthorized:specifier:"
+- "setSaveAppActivitySpecifier:"
+- "setScrollEdgeAppearance:"
+- "setScrollEnabled:"
+- "setSearchController:"
+- "setSearchResultsUpdater:"
+- "setSecondaryLabel:"
+- "setSelectable:"
+- "setSensorActivityHeader:"
+- "setSensorActivityRows:"
+- "setSensorManager:"
+- "setSeparatorInset:"
+- "setServiceKey:"
+- "setServices:"
+- "setSession:"
+- "setSettingsFeatureDescriptionURLAction:"
+- "setShareMyLocationUpdateCallback:"
+- "setShouldReloadApps:"
+- "setShouldShareAppActivityWithAppDevelopers:specifier:"
+- "setShouldShareAppleIdImprovementAnalytics:specifier:"
+- "setShouldShareBankConnectData:specifier:"
+- "setShouldShareFitnessPlusData:specifier:"
+- "setShouldShareHandwashingData:specifier:"
+- "setShouldShareHealthData:specifier:"
+- "setShouldShareHealthRecordsData:"
+- "setShouldShareHealthRecordsData:specifier:"
+- "setShouldShareIdentityVerificationData:specifier:"
+- "setShouldShareSafetyData:specifier:"
+- "setShouldShareWheelchairData:specifier:"
+- "setShouldShareiCloudAnalytics:specifier:"
+- "setShowWebsiteAndAppCounts:"
+- "setShowsHorizontalScrollIndicator:"
+- "setShowsVerticalScrollIndicator:"
+- "setSiriDataSharingOptInStatus:propagateToHomeAccessories:source:reason:completion:"
+- "setSourceView:"
+- "setSpacing:"
+- "setSpecifier:"
+- "setSpecifierIDBeforeCoreRoutine:"
+- "setSpecifiers:"
+- "setSpinner:"
+- "setStackView:"
+- "setStandardAppearance:"
+- "setStatusBarIconEnabled:forLocationEntityClass:"
+- "setStatusEnabled:specifier:"
+- "setSubtitleLabel:"
+- "setSupportsClips:"
+- "setSymbolImage:tintColor:"
+- "setSymbolImageView:"
+- "setTCCForService:appIdentifier:value:"
+- "setTCCForService:appIdentifier:value:completion:"
+- "setTableView:"
+- "setTertiaryLabel:"
+- "setText:"
+- "setTextAlignment:"
+- "setTextColor:"
+- "setTextView:"
+- "setTextViewLeadingConstraint:"
+- "setTextViewTrailingConstraint:"
+- "setTimeStyle:"
+- "setTimeZone:"
+- "setTintColor:"
+- "setTitle:"
+- "setTitle:forState:"
+- "setTrackersToApps:"
+- "setTrackersToAppsInAppOnly:"
+- "setTrackersToWebsitesToTrackers:"
+- "setTrackingReportEnabled:"
+- "setTransitionHandler:"
+- "setTranslatesAutoresizingMaskIntoConstraints:"
+- "setTribecaSpecifier:"
+- "setUnitsStyle:"
+- "setUpdateHandler:"
+- "setUsage:"
+- "setUsage:forCell:"
+- "setUserActivity:"
+- "setUserDidAccept:currentAgreement:completion:"
+- "setUserInfo:"
+- "setUserInteractionEnabled:"
+- "setUserTransparencyController:"
+- "setValueLabel:"
+- "setValues:titles:"
+- "setView:"
+- "setVisitHistoryAccess:"
+- "setVisitHistoryAccess:forBundleIdentifier:"
+- "setVisitedPlacesSpecifier:"
+- "setVisitedPlacesSpecifierGroup:"
+- "setVisitedPlacesSpinnerSpecifier:"
+- "setVisitedPlacesState:"
+- "setWebsiteHeader:"
+- "setWebsiteNetworkActivityHeader:"
+- "setWebsiteNetworkActivityRows:"
+- "setWebsiteNetworkActivityRowsAwaitingDisplay:"
+- "setWebsiteRows:"
+- "setWebsiteRowsAwaitingDisplay:"
+- "setWithArray:"
+- "setWithObjects:"
+- "setWithSet:"
+- "setWorkspace:"
+- "set_2GEnabled:"
+- "set_allSpecifiers:"
+- "set_lockdownModeOptionsSpecifiers:"
+- "set_state:"
+- "settingsViewSubtitle"
+- "setupSubviewsAndContstraints"
+- "sf_isChinaRegionCellularDevice"
+- "sf_isInternalInstall"
+- "sf_isiPad"
+- "sf_isiPhone"
+- "shareLog"
+- "shareMyLocationUpdateCallback"
+- "shared"
+- "sharedApplication"
+- "sharedConnection"
+- "sharedDeviceConnection"
+- "sharedInstance"
+- "sharedManager"
+- "sharedManagerForAllUsers"
+- "sharedPlatform"
+- "shouldDeferPushForSpecifierID:"
+- "shouldIncludeBundleID:"
+- "shouldReloadApps"
+- "shouldReloadSpecifiersOnResume"
+- "shouldShare"
+- "shouldShareAppActivityWithAppDevelopers"
+- "shouldShareAppleIdImprovementAnalytics:"
+- "shouldShareBankConnectDataForSpecifier:"
+- "shouldShareFitnessPlusDataForSpecifier:"
+- "shouldShareHandwashingDataForSpecifier:"
+- "shouldShareHealthDataForSpecifier:"
+- "shouldShareHealthRecordsData"
+- "shouldShareHealthRecordsDataForSpecifier:"
+- "shouldShareIdentityVerificationData:"
+- "shouldShareSafetyDataForSpecifier:"
+- "shouldShareWheelchairDataForSpecifier:"
+- "shouldShareiCloudAnalytics:"
+- "shouldShowAppleIdImprovementSpecifiersForAccount:"
+- "shouldShowBundleID:"
+- "shouldShowDataAndSensors"
+- "shouldShowOtherContent"
+- "shouldShowPersonalizedAdsToggle"
+- "shouldShowiCloudSpecifiersForAccount:"
+- "showAboutImproveAssistiveVoiceFeatures"
+- "showAboutImproveSiriAnalyticsSheet"
+- "showAboutSheetWithTitle:content:"
+- "showController:"
+- "showController:animate:"
+- "showPreference"
+- "showWebsiteAndAppCounts"
+- "sinkWithCompletion:receiveInput:"
+- "sinkWithCompletion:shouldContinue:"
+- "siriDataSharingOptInRequestsDismissalFromPresenter:"
+- "siriDataSharingOptInViewControllerDidDismissFromPresenter:"
+- "siriDataSharingOptInViewDismissButtonTappedFromPresenter:"
+- "size"
+- "snapshot:"
+- "softlink:r:path:/System/Library/PrivateFrameworks/iOSDiagnostics.framework/iOSDiagnostics"
+- "sortByWasTapped"
+- "sortUsingComparator:"
+- "sortUsingFunction:context:"
+- "sortedArrayUsingComparator:"
+- "specifier"
+- "specifierAtIndex:"
+- "specifierAtIndexPath:"
+- "specifierForApp:"
+- "specifierForDevice:"
+- "specifierForID:"
+- "specifierIDBeforeCoreRoutine"
+- "specifiers"
+- "specifiers -- CLCopyAppsUsingLocation:\n%@"
+- "specifiersForAppPrivacyReport"
+- "specifiersForRecordAppActivity"
+- "specifiersForRelatedSettings:"
+- "spinner"
+- "spinnerSpecifier"
+- "stackView"
+- "standardUserDefaults"
+- "startAnimating"
+- "startLocationStatusUpdates"
+- "startMonitoringPrefrenceChangesWithCompletionHandler:"
+- "startTime"
+- "startUpdatingFindMyPreferences"
+- "state"
+- "stopAnimating"
+- "stopLocationStatusUpdates"
+- "stopMonitoringPreferenceChangesWithCompletionHandler:"
+- "storyboardWithName:bundle:"
+- "string"
+- "string:replacingSubstring:withImage:"
+- "stringByAppendingPathComponent:"
+- "stringByAppendingString:"
+- "stringByDeletingPathExtension"
+- "stringFromDate:"
+- "stringFromDate:toDate:"
+- "stringFromNumber:"
+- "stringValueOfTable:"
+- "stringWithFormat:"
+- "subarrayWithRange:"
+- "submittedReports"
+- "submitttedSpotlightReportsError:"
+- "substringWithRange:"
+- "subtitleLabel"
+- "superclass"
+- "superview"
+- "supportsBB2GMitigation"
+- "supportsClips"
+- "symbolImageView"
+- "systemBlueColor"
+- "systemCustomizationBundles"
+- "systemGray3Color"
+- "systemGrayColor"
+- "systemGreenColor"
+- "systemImageNamed:"
+- "systemImageNamed:withConfiguration:"
+- "systemLayoutSizeFittingSize:withHorizontalFittingPriority:verticalFittingPriority:"
+- "systemOrangeColor"
+- "systemPurpleColor"
+- "systemRedColor"
+- "systemServicesLocationUsage"
+- "table"
+- "tableNamesFromDatabase"
+- "tableView"
+- "tableView:cellForRowAtIndexPath:"
+- "tableView:didSelectRowAtIndexPath:"
+- "tableView:shouldHighlightRowAtIndexPath:"
+- "tableView:willDisplayCell:forRowAtIndexPath:"
+- "tableView:willSelectRowAtIndexPath:"
+- "tertiaryLabel"
+- "text"
+- "textColor"
+- "textContainer"
+- "textContainerInset"
+- "textLabel"
+- "textView"
+- "textView:didBeginFormattingWithViewController:"
+- "textView:didEndFormattingWithViewController:"
+- "textView:editMenuForTextInRange:suggestedActions:"
+- "textView:editMenuForTextInRanges:suggestedActions:"
+- "textView:insertInputSuggestion:"
+- "textView:menuConfigurationForTextItem:defaultMenu:"
+- "textView:primaryActionForTextItem:defaultAction:"
+- "textView:shouldChangeTextInRange:replacementText:"
+- "textView:shouldChangeTextInRanges:replacementText:"
+- "textView:shouldInteractWithTextAttachment:inRange:"
+- "textView:shouldInteractWithTextAttachment:inRange:interaction:"
+- "textView:shouldInteractWithURL:inRange:"
+- "textView:shouldInteractWithURL:inRange:interaction:"
+- "textView:textItemMenuWillDisplayForTextItem:animator:"
+- "textView:textItemMenuWillEndForTextItem:animator:"
+- "textView:willBeginFormattingWithViewController:"
+- "textView:willDismissEditMenuWithAnimator:"
+- "textView:willEndFormattingWithViewController:"
+- "textView:willPresentEditMenuWithAnimator:"
+- "textView:writingToolsIgnoredRangesInEnclosingRange:"
+- "textViewDidBeginEditing:"
+- "textViewDidChange:"
+- "textViewDidChangeSelection:"
+- "textViewDidEndEditing:"
+- "textViewLeadingConstraint"
+- "textViewShouldBeginEditing:"
+- "textViewShouldEndEditing:"
+- "textViewTrailingConstraint"
+- "textViewWritingToolsDidEnd:"
+- "textViewWritingToolsWillBegin:"
+- "timeIntervalSinceDate:"
+- "timeIntervalSinceNow"
+- "timeIntervalSinceReferenceDate"
+- "timeStringForDate:"
+- "titleLabel"
+- "topAnchor"
+- "topViewController"
+- "trackerDataForAppID:inAppOnly:"
+- "trackerDataForAppID:websiteDomain:"
+- "trackerDataForTrackerDomain:inAppOnly:"
+- "trackerDataForTrackerDomain:websiteDomain:"
+- "trackerDomainsInAppOnly:"
+- "trackersToApps"
+- "trackersToAppsDictFromAppsToTrackersDict:"
+- "trackersToAppsInAppOnly"
+- "trackersToWebsitesDictFromAppsToTrackersDict:"
+- "trackersToWebsitesToTrackers"
+- "trackingAppActivitySaved"
+- "trackingRecordAppActivityVisited"
+- "trackingReportEnabled"
+- "trackingStateOfRequest:askAppsToStopTracking:"
+- "trackingStateOfRequestForSpecificApp:view:"
+- "trackingViewVisited"
+- "trailingAnchor"
+- "traitCollection"
+- "traitCollectionDidChange:"
+- "tribecaSpecifier"
+- "unifiedContactCountWithError:"
+- "unprotectedSpecifiers"
+- "updateAppClipsSpecifierCount:"
+- "updateAppleIdImprovementForSpecifierID:"
+- "updateAuthLevelStringForSpecifier:andCell:"
+- "updateBundleIdentifierAccessingExternalMediaDevices:withStatus:"
+- "updateCachedPermission:"
+- "updateCachedVisibility:"
+- "updateCalendarAuthorizationStates"
+- "updateConstraints"
+- "updateContactsAuthorizationStates"
+- "updateContactsCountSubtitleForSpecifier:contactsTCCAccess:"
+- "updateCoreRoutineEnabledStatusAndInsertSpecifier:"
+- "updateCoreRoutineSettings:"
+- "updateFindMyFriendsStateBasedOnRestriction"
+- "updateForApplicationDidBecomeActive:"
+- "updateHandler"
+- "updateHealthRecordsPreferenceForSpecifierID:"
+- "updateImproveMapsSpecifierWithCompletion:"
+- "updateLocationSharing"
+- "updateLocationSharingSpecifiersWithReload:"
+- "updateLocationUsage"
+- "updateMutableStateBasedOnRestriction"
+- "updateMutableStateForLocationSharing"
+- "updateQualifierSpecifierGroupsIfDeltaFrom:animated:"
+- "updateRecentlyUsedDate"
+- "updateSearchResultsForSearchController:"
+- "updateSearchResultsForSearchController:selectingSearchSuggestion:"
+- "updateSpecifiersForImposedSettings"
+- "updateSpecifiersForImposedSettingsWithReload:"
+- "updateSpecifiersInRange:withSpecifiers:"
+- "updateTribecaText"
+- "updateiCloudAnalyticsForSpecifierID:"
+- "usage"
+- "usageIndicator"
+- "usageIndicatorSize"
+- "userDidTapAdPreferences:"
+- "userDidTapDoneButton:"
+- "userInfo"
+- "userInterfaceIdiom"
+- "userInterfaceLayoutDirection"
+- "userTransparencyController"
+- "userTransparencyViewController:didFailWithError:"
+- "userTransparencyViewControllerDidDismiss:"
+- "userTransparencyViewControllerDidLoad:"
+- "username"
+- "v16@0:8"
+- "v20@0:8B16"
+- "v20@0:8i16"
+- "v24@0:8@\"CNLimitedAccessContactPickerViewController\"16"
+- "v24@0:8@\"NSString\"16"
+- "v24@0:8@\"PSSpecifier\"16"
+- "v24@0:8@\"PUIOnboardingCell\"16"
+- "v24@0:8@\"UIScrollView\"16"
+- "v24@0:8@\"UISearchController\"16"
+- "v24@0:8@\"UITextView\"16"
+- "v24@0:8@\"UserTransparencyViewController\"16"
+- "v24@0:8@\"VTUISiriDataSharingOptInPresenter\"16"
+- "v24@0:8@16"
+- "v24@0:8@?16"
+- "v24@0:8@?<v@?@\"NSError\">16"
+- "v24@0:8@?<v@?@\"NSString\">16"
+- "v24@0:8@?<v@?@\"_TtC17PrivacySettingsUI12PUIFMLDevice\"@\"NSError\">16"
+- "v24@0:8@?<v@?B@\"NSError\">16"
+- "v24@0:8B16B20"
+- "v24@0:8Q16"
+- "v28@0:8@\"UIScrollView\"16B24"
+- "v28@0:8@16B24"
+- "v28@0:8@16i24"
+- "v28@0:8B16@20"
+- "v28@0:8B16@?20"
+- "v28@0:8Q16i24"
+- "v28@0:8i16@20"
+- "v32@0:8#16@24"
+- "v32@0:8@\"CNLimitedAccessContactPickerViewController\"16@\"CNContact\"24"
+- "v32@0:8@\"CNLimitedAccessContactPickerViewController\"16@\"NSArray\"24"
+- "v32@0:8@\"NSString\"16@?<v@?B>24"
+- "v32@0:8@\"UIScrollView\"16@\"UIView\"24"
+- "v32@0:8@\"UISearchController\"16@\"<UISearchSuggestion>\"24"
+- "v32@0:8@\"UITextView\"16@\"<UIEditMenuInteractionAnimating>\"24"
+- "v32@0:8@\"UITextView\"16@\"UIInputSuggestion\"24"
+- "v32@0:8@\"UITextView\"16@\"UITextFormattingViewController\"24"
+- "v32@0:8@\"UserTransparencyViewController\"16@\"NSError\"24"
+- "v32@0:8@16@24"
+- "v32@0:8@16@?24"
+- "v32@0:8@16^@24"
+- "v32@0:8B16B20@?24"
+- "v32@0:8Q16i24i28"
+- "v32@0:8d16@24"
+- "v36@0:8@16B24@28"
+- "v36@0:8B16@20@?28"
+- "v36@0:8^{__CFString=}16@24i32"
+- "v40@0:8@\"NSString\"16d24@?<v@?B>32"
+- "v40@0:8@\"UIScrollView\"16@\"UIView\"24d32"
+- "v40@0:8@\"UITextView\"16@\"UITextItem\"24@\"<UIContextMenuInteractionAnimating>\"32"
+- "v40@0:8@16@24@32"
+- "v40@0:8@16@24d32"
+- "v40@0:8@16d24@?32"
+- "v40@0:8Q16i24i28@32"
+- "v44@0:8^{__CFString=}16@24i32@?36"
+- "v48@0:8@\"UIScrollView\"16{CGPoint=dd}24N^{CGPoint=dd}40"
+- "v48@0:8@16{CGPoint=dd}24N^{CGPoint=dd}40"
+- "valueForKey:"
+- "valueForProperty:"
+- "valueForSpecifier:"
+- "valueLabel"
+- "valueWithNonretainedObject:"
+- "values"
+- "valuesAndCountsForKey:entries:"
+- "valuesForKey:withLargestValueForKey:entries:"
+- "viewDidAppear:"
+- "viewDidDisappear:"
+- "viewDidLoad"
+- "viewForZoomingInScrollView:"
+- "viewWillAppear:"
+- "visitHistoryAccess"
+- "visitedPlacesSpecifier"
+- "visitedPlacesSpecifierGroup"
+- "visitedPlacesSpinnerSpecifier"
+- "visitedPlacesState"
+- "webClipIdentifierFromBundleIdentifier:"
+- "webClipWithIdentifier:"
+- "websiteDomainsForAppID:"
+- "websiteDomainsForTrackerDomain:"
+- "websiteHeader"
+- "websiteNetworkActivityGroupSpecifiers"
+- "websiteNetworkActivityHeader"
+- "websiteNetworkActivityRows"
+- "websiteNetworkActivityRowsAwaitingDisplay"
+- "websiteRows"
+- "websiteRowsAwaitingDisplay"
+- "websiteSpecifiersFromResults:"
+- "websiteSpecifiersFromResults:showDetail:"
+- "websiteSpecifiersWithLimit:showDetail:completion:"
+- "wheelchairDataSpecifiers"
+- "whiteColor"
+- "widthAnchor"
+- "wifiAwareDevicePairingID"
+- "wifiEnabled"
+- "willBecomeActive"
+- "window"
+- "wirelessBundles"
+- "workspace"
+- "write:maxLength:"
+- "zone"
+- "{CGSize=dd}16@0:8"
+
+```

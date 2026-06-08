@@ -1,0 +1,4829 @@
+## SpotlightDaemon
+
+> `/System/Library/PrivateFrameworks/SpotlightDaemon.framework/SpotlightDaemon`
+
+```diff
+
+-2418.5.9.101.0
+-  __TEXT.__text: 0xbceac sha256:d79a51528c94d67b7c5f63b494ce8a1def09b86eedf615d3b09607ccba08e744
+-  __TEXT.__auth_stubs: 0x2030 sha256:63d4e0340adb9ef5e569d53955a82d1d37c96956d449318e06edc1e6a756d570
+-  __TEXT.__objc_methlist: 0x4714 sha256:ba74e1a78df205b775dc7b3aaa19d584f8db3a742eef8dd076faf4582d23be37
+-  __TEXT.__const: 0x388 sha256:b3ad8c26c6727ca044fdb322bea7860edd06b65558160a954679c18354bde7be
+-  __TEXT.__cstring: 0x8cbb sha256:70574b222cd156f6c4be005b0051bbadca256b8b7340213c66f30cbd02eb78be
+-  __TEXT.__gcc_except_tab: 0x45f0 sha256:7ca04ea4737dc8436220598e273b1b0a0abca315cc8f0b6c725518de0e70f3ce
+-  __TEXT.__oslogstring: 0xb466 sha256:53f6519a9c44ac287e5b22086a99bc5740cb8529d07cdd4b6b628ce318f0eef1
++2444.104.0.0.0
++  __TEXT.__text: 0xbadd0 sha256:fbe3d7f8a66c4cf1296c501e21bffd0d90e85715905c099c76741f45ee0c4f49
++  __TEXT.__objc_methlist: 0x4874 sha256:9dbb557f82e20675548365bdaffde44a57d389c3492011de561624c2933d5849
++  __TEXT.__const: 0x3b8 sha256:a429c9968cb515c1a8a66b85028707ff55e488798e876931154284dabf969197
++  __TEXT.__cstring: 0x9153 sha256:2ad058decade1a0ecf1a3493b8e46c88cd6e807615ab055738d54f1335b31686
++  __TEXT.__gcc_except_tab: 0x4680 sha256:7fe3f8439da54f4b554df37b13f86f5520c6770348a40fd9a95be612c06f2181
++  __TEXT.__oslogstring: 0xbf6b sha256:8758deed0bf216ac14804f2327fe4c708eebb0177b4832d5c930684b962d7136
+   __TEXT.__dlopen_cstrs: 0x4a sha256:54810b6838f104828bcd5c0b040ec5d1eb0e460a37edbb35d1fbf1e264f92e7d
+-  __TEXT.__unwind_info: 0x2780 sha256:98c812571659ccad66a7b34176612119297c4edfa3eddbd0061b1232a1793e79
+-  __TEXT.__objc_classname: 0x5b0 sha256:3fc498141734de243417f979b83c36b5e76043510f1419bab4916ed157d73467
+-  __TEXT.__objc_methname: 0xfe89 sha256:15d0599b1ae2a625a102d47089dce166ee0400aaa2624ef99118405c77c68226
+-  __TEXT.__objc_methtype: 0x27df sha256:c23682311aaa3e56687f9916add72b8a5ab20bd6fd1de290d3bb0e4289eff968
+-  __TEXT.__objc_stubs: 0xc960 sha256:ae96ea39ee08f0aac931c18e316a904aba6f8439c5f0a6124b0162e1171836f1
+-  __DATA_CONST.__got: 0xbc0 sha256:931d2c59b23043eeb7e4812b62087a9cac3ccd109d4aeb9b0edfb12343d222dd
+-  __DATA_CONST.__const: 0x4048 sha256:a233fd59824e8cd9efb815d0b76a64ce006803929382cc8293ae330828b3f969
+-  __DATA_CONST.__objc_classlist: 0x1a0 sha256:6db365ed9c5d30dad8d15e908ac494f24e2eeda8cccde40f83eef08f2fb3d119
+-  __DATA_CONST.__objc_catlist: 0x8 sha256:d82b2fc281bca32cf0708cff71085e00a491016e2dc04b4b659511a7648ff7aa
+-  __DATA_CONST.__objc_protolist: 0x50 sha256:1e6e2b19b0092985e67727b655946874f4ee7adc06b8b843ee826f4cf37dc1d0
++  __TEXT.__unwind_info: 0x26d0 sha256:93c99a36dcd1fb48b28827c204833e447e0924539e9a9f17641303acec187c99
++  __TEXT.__objc_stubs: 0x0
++  __TEXT.__auth_stubs: 0x0
++  __TEXT.__objc_classname: 0x0
++  __TEXT.__objc_methname: 0x0
++  __TEXT.__objc_methtype: 0x0
++  __DATA_CONST.__const: 0x44a8 sha256:159f3e3e06d630ae8b08b23c4f53afda02cdb7b4a20bec33c16a7f2929ef9289
++  __DATA_CONST.__objc_classlist: 0x1b0 sha256:caf9f549c00e66d77ce60a9fd6ae29fbcb06d37fcda8746931b906d6031d5ba1
++  __DATA_CONST.__objc_catlist: 0x8 sha256:737f752ceb6ffcb206e5b1ffdaa2761fab8ca633869813114ae670b762aed63d
++  __DATA_CONST.__objc_protolist: 0x50 sha256:0702c9267c4aeacc422adba82a6828f3f48014b60a76859cba1a2e5be99451c6
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x39a8 sha256:c77215e2703c0d6e81e5fcb7950afddb42a0f339325db5bfdf1df44f207a3f50
+-  __DATA_CONST.__objc_protorefs: 0x8 sha256:5811ae33eb7988e852006b579683f8e50ab2098f971a42aacf6c3e825f753519
+-  __DATA_CONST.__objc_superrefs: 0x128 sha256:1d41c8abffb20ce605f1482bc67dcf15d50d7092115c6e11f3c7166796b1f7db
+-  __DATA_CONST.__objc_arraydata: 0x2e0 sha256:185c30620340e6b9ec420059c912e534e36c628e7a202de3047981ff0af77f7e
+-  __AUTH_CONST.__auth_got: 0x1030 sha256:b39857e56c045da37ae1c4fc1f6d846ad1df0cce26d88073dc942dfcdc70728e
+-  __AUTH_CONST.__const: 0x1168 sha256:730b12fc0b14da66a5e9a87da2a6594e1d3fee73dc3d3e72debbcbfd11a19573
+-  __AUTH_CONST.__cfstring: 0x7800 sha256:47e8b459142d5d90d9af3ce3e80890bb618f08847b51410247e3eb1ab2426b57
+-  __AUTH_CONST.__objc_const: 0x5b48 sha256:34863049443f40b25fe1d9e255688d68d67292aac6e4ef925c635fbc3e1e83e4
+-  __AUTH_CONST.__objc_arrayobj: 0x378 sha256:65a06d540afbcb42f0034eff9099fe345cee664dc433e71aa05d47f1bd0ce773
+-  __AUTH_CONST.__objc_intobj: 0x210 sha256:3d0c73437373288728ef005ab367e8f5f1ab55c3d87e19c08d5fe4204e6e5a7f
+-  __AUTH_CONST.__objc_dictobj: 0x28 sha256:3cffe55985c83fee66e413cb7b871d64d2450073729197c401af72972fa5b937
+-  __AUTH.__objc_data: 0x140 sha256:c37725f81496b09fa6d4ce29ee404633a61138910a8a646ff05ed3899536830e
+-  __DATA.__objc_ivar: 0x4c8 sha256:497baa704232adbd039cb7e9dc0904a5ed408607c01ba2e448d8d23418330043
+-  __DATA.__data: 0x810 sha256:284b3cd6d9b9f3ca80d2105b3ab3f06a27d217865f42b539ffbff7bc3ba2e110
+-  __DATA.__bss: 0x128 sha256:250f52cb2d6f1966a29f6ac771fa1cd185b8f8531396c8a4026c0fe635617e0c
++  __DATA_CONST.__weak_got: 0x8 sha256:baed7a8f4fe06577baf9413d1425189458482e4f64d55b4f5cc304378385a036
++  __DATA_CONST.__objc_selrefs: 0x3ad8 sha256:99cb854b3775a8a4e3ac6719444827e6d79fb720d88b46f9fade586dc9c6bac0
++  __DATA_CONST.__objc_protorefs: 0x8 sha256:cbde44960a7d41ffa6f6f4be6d0ef080a4b9105a385b0efc9fce19d79d008b37
++  __DATA_CONST.__objc_superrefs: 0x138 sha256:a30c61d5c12b104863adfb3e4d69538c3ab66cb008bd89189d75808c040c3e76
++  __DATA_CONST.__objc_arraydata: 0x300 sha256:9cd21c5e625a84fe592898ed6bba884659fd8a83a1320e08fb6fcad987f91a52
++  __DATA_CONST.__got: 0xbe8 sha256:3e006f81adfb42e3c0d3f56888ba442a7d3f3aaa3c231c87722635fbfcb9465f
++  __AUTH_CONST.__const: 0x1208 sha256:a4c34ebd34c250911f3f84ec16708b469b24bc2696f9b09e55f7aa2355aab0e7
++  __AUTH_CONST.__cfstring: 0x7a20 sha256:d478bc00bc461077bc4df602f9807b437b0bcfaab95c22298e0d1b26f44c45b4
++  __AUTH_CONST.__objc_const: 0x5eb8 sha256:cf3b9db7c78deb362a55bc0aad4940933f4def9cf6934fd3ebdf48ee1b9caca5
++  __AUTH_CONST.__weak_auth_got: 0x10 sha256:9a2b91fa56b146795e83ca4f39da0bd07c39c24068e9aa0ceaa7f212fc574d7c
++  __AUTH_CONST.__objc_arrayobj: 0x3a8 sha256:9f8537372c1345a8113c860498348fdaaa6cc0a1f9e61a68434f2972565a2377
++  __AUTH_CONST.__objc_intobj: 0x228 sha256:8aaa2485fc3f584c40d7450d56b93382763072417d28ce92dd902e16aee11856
++  __AUTH_CONST.__objc_dictobj: 0x28 sha256:71d8d3cbea4cb3ea2bc2b49b06c33239a61719e7fd75dc8318c04ffe4e97ac74
++  __AUTH_CONST.__auth_got: 0x10f8 sha256:dcac278c68ea83f7013ef92d781179057d06cd2e53926f1f7e40074f3899b795
++  __AUTH.__objc_data: 0x1e0 sha256:cf89700c8c4f5e0b502a4a5f02e270e28a16796adf5a7dee3793391d48cb1f66
++  __DATA.__objc_ivar: 0x4fc sha256:d095f3d02f8f04f16e1e13c9327aa4f69b03a4cb6fe78373b32a1cbfbb6e6c0e
++  __DATA.__data: 0x410 sha256:4e6cb530478b056eafa5b22429d815dbfc7753bd84b2450d02558c1996d5c8ce
++  __DATA.__bss: 0x130 sha256:e2fc162ed9124452d23c85e81d60a0c228f414c3214a5de635737e25fbd29ac1
+   __DATA.__common: 0x4 sha256:df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119
+-  __DATA_DIRTY.__objc_data: 0xf00 sha256:16b5b34a8d53a9cc719c58254d50e0da8ebb2bc7056ed0dc3cd2e9eb389ac54d
++  __DATA_DIRTY.__objc_data: 0xf00 sha256:433b1345149eaa5b0b5d4d7a2be35d9a0cd1441db80bc2883d3157b7c63c5934
+   __DATA_DIRTY.__data: 0x158 sha256:a6d2b6e482300ea92b089193f9ab703e4528e44d269b8b31251acf494e1b18a8
+-  __DATA_DIRTY.__bss: 0x670 sha256:ff0c1198e3fba5061d254660b2c0e7fceb3d9b1041e29e876594eb9ee5eb7630
++  __DATA_DIRTY.__bss: 0x6a0 sha256:bf75520ae2a2df40c3d8b29b71564bac7a99659315d2e1c83b750c96807a078d
+   __DATA_DIRTY.__common: 0x18 sha256:9d908ecfb6b256def8b49a7c504e6c889c4b0e41fe6ce3e01863dd7b61a20aa0
+   - /System/Library/Frameworks/Contacts.framework/Contacts
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+
+   - /System/Library/PrivateFrameworks/CoreAnalytics.framework/CoreAnalytics
+   - /System/Library/PrivateFrameworks/DataMigration.framework/DataMigration
+   - /System/Library/PrivateFrameworks/DuetActivityScheduler.framework/DuetActivityScheduler
++  - /System/Library/PrivateFrameworks/LinkServices.framework/LinkServices
+   - /System/Library/PrivateFrameworks/LoggingSupport.framework/LoggingSupport
+   - /System/Library/PrivateFrameworks/MetadataUtilities.framework/MetadataUtilities
+   - /System/Library/PrivateFrameworks/MobileKeyBag.framework/MobileKeyBag
+   - /System/Library/PrivateFrameworks/PlugInKit.framework/PlugInKit
+   - /System/Library/PrivateFrameworks/SoftLinking.framework/SoftLinking
+-  - /System/Library/PrivateFrameworks/SpotlightEmbedding.framework/SpotlightEmbedding
++  - /System/Library/PrivateFrameworks/SpotlightDiagnostics.framework/SpotlightDiagnostics
++  - /System/Library/PrivateFrameworks/SpotlightEmbeddingCore.framework/SpotlightEmbeddingCore
+   - /System/Library/PrivateFrameworks/SpotlightIndex.framework/SpotlightIndex
+   - /System/Library/PrivateFrameworks/SpotlightKnowledge.framework/SpotlightKnowledge
+   - /System/Library/PrivateFrameworks/SpotlightResources.framework/SpotlightResources
+
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libutil.dylib
+-  UUID: 269799CF-00D6-378B-BDFC-5EAF9F69D5C7
+-  Functions: 3112
+-  Symbols:   10526
+-  CStrings:  6192
++  UUID: 5B8E6687-C8B8-3206-8CED-F63D8A4D9F60
++  Functions: 3233
++  Symbols:   10867
++  CStrings:  3526
+ 
+Symbols:
++ +[SPConcreteCoreSpotlightIndexer fetchSearchableItemForURL:]
++ +[SPConcreteCoreSpotlightIndexer fetchSearchableItemForURL:].cold.1
++ +[SPCoreSpotlightAppMonitor sharedInstance]
++ +[SPCoreSpotlightAppMonitor sharedInstance].cold.1
++ +[SPCoreSpotlightIndexer writeDiagnostic:bundleID:identifier:privacyLevel:]
++ +[SpotlightSender(SpotlightScheduledSender) addOrUpdateCascadeItemsWithAttributeSets:bundleID:protectionClass:indexType:serialNumber:journalCookie:client:config:completionHandler:]
++ +[SpotlightSender(SpotlightScheduledSender) addOrUpdateSearchableItemsInJournalFd:atOffset:size:indexType:bundleID:protectionClass:serialNumber:journalCookie:additionalAttributes:client:config:updateDestination:skipIndexCheck:completionHandler:]
++ -[MDSearchableIndexService _deleteAllSearchableItemsWithBundleID:protectionClass:shouldGC:options:deleteAllReason:donationTimestamp:completionHandler:]
++ -[MDSearchableIndexService _issueDiagnose:bundleID:privacyLevel:completionHandler:]
++ -[MDSearchableIndexService _issueDiagnose:bundleID:privacyLevel:completionHandler:].cold.1
++ -[MDSearchableIndexService _processIndexDataForBundle:protectionClass:personaID:options:items:itemsText:itemsHTML:clientState:expectedClientState:clientStateName:donationTimestamp:deletes:completionHandler:]
++ -[MDSearchableIndexService allowIndexWipe]
++ -[MDSearchableIndexService deleteBundle:].cold.1
++ -[MDSearchableIndexService deleteBundle:].cold.2
++ -[MDSearchableIndexService deleteBundle:].cold.3
++ -[MDSearchableIndexService deleteSearchableItemsWithDomainIdentifiers:protectionClass:forBundleID:fromClient:options:donationTimestamp:completionHandler:]
++ -[MDSearchableIndexService deleteSearchableItemsWithDomainIdentifiers:protectionClass:forBundleID:fromClient:options:donationTimestamp:completionHandler:].cold.1
++ -[MDSearchableIndexService fetchLastLinkedTimestampWithProtectionClass:forBundleID:completionHandler:]
++ -[MDSearchableIndexService fetchLinkedTimestamp:]
++ -[MDSearchableIndexService indexFromBundle:protectionClass:options:items:itemsText:itemsHTML:clientState:expectedClientState:clientStateName:donationTimestamp:deletes:userActivities:completionHandler:]
++ -[MDSearchableIndexService indexFromBundle:protectionClass:options:items:itemsText:itemsHTML:clientState:expectedClientState:clientStateName:donationTimestamp:deletes:userActivities:completionHandler:].cold.1
++ -[MDSearchableIndexService issueCommand:].cold.1
++ -[MDSearchableIndexService setAllowIndexWipe:]
++ -[SDConnectionConfiguration allowIndexWipe]
++ -[SDPommesSynonyms _loadSynonymsFromFile:error:]
++ -[SDPommesSynonyms _loadSynonymsFromFile:error:].cold.1
++ -[SDPommesSynonyms _loadSynonymsFromFile:error:].cold.2
++ -[SDPommesSynonyms getSynonymsForWord:]
++ -[SDPommesSynonyms loadSynonymDictionary]
++ -[SDPommesSynonyms loadSynonymDictionary].cold.1
++ -[SDPommesSynonyms loadSynonymDictionary].cold.2
++ -[SPConcreteCoreSpotlightIndexer _startInternalQueryWithIndex:query:fetchAttributes:forBundleIds:maxCount:resultQueue:postFilter:clientBundleID:shouldDeferBlock:resultsHandler:]
++ -[SPConcreteCoreSpotlightIndexer _startInternalQueryWithIndex:query:liftingRules:fetchAttributes:forBundleIds:maxCount:resultQueue:postFilter:clientBundleID:shouldDeferBlock:resultsHandler:]
++ -[SPConcreteCoreSpotlightIndexer checkDocIDConsistencyWithCompletion:]
++ -[SPConcreteCoreSpotlightIndexer deleteAllSearchableItemsForBundleID:fromClient:shouldGC:options:deleteAllReason:donationTimestamp:completionHandler:]
++ -[SPConcreteCoreSpotlightIndexer deleteSearchableItemsWithDomainIdentifiers:forBundleID:fromClient:reason:donationTimestamp:completionHandler:]
++ -[SPConcreteCoreSpotlightIndexer deleteSearchableItemsWithDomainIdentifiers:forBundleID:fromClient:reason:donationTimestamp:completionHandler:].cold.1
++ -[SPConcreteCoreSpotlightIndexer fetchLastLinkedTimestampForBundleID:useCache:completionHandler:]
++ -[SPConcreteCoreSpotlightIndexer fetchLastLinkedTimestampForBundleID:useCache:completionHandler:].cold.1
++ -[SPConcreteCoreSpotlightIndexer indexFromBundle:personaID:options:items:itemsText:itemsHTML:clientState:expectedClientState:clientStateName:donationTimestamp:deletes:canCreateNewIndex:completionHandler:]
++ -[SPConcreteCoreSpotlightIndexer issueDocIDConsistencyCheck]
++ -[SPConcreteCoreSpotlightIndexer maintenanceTransaction]
++ -[SPConcreteCoreSpotlightIndexer setMaintenanceTransaction:]
++ -[SPConcreteCoreSpotlightIndexer writeDiagnostic:bundleID:identifier:privacyLevel:]
++ -[SPCoreSpotlightAppMonitor .cxx_destruct]
++ -[SPCoreSpotlightAppMonitor _appInfoForBundleID:]
++ -[SPCoreSpotlightAppMonitor _appInfoPath]
++ -[SPCoreSpotlightAppMonitor _loadAppInfo]
++ -[SPCoreSpotlightAppMonitor _writeInfoDict:]
++ -[SPCoreSpotlightAppMonitor init]
++ -[SPCoreSpotlightAppMonitor init].cold.1
++ -[SPCoreSpotlightAppMonitor protectionClassesForBundleID:]
++ -[SPCoreSpotlightAppMonitor queue]
++ -[SPCoreSpotlightIndexer _issueDiagnose:bundleID:privacyLevel:completionHandler:]
++ -[SPCoreSpotlightIndexer _issueDiagnose:bundleID:privacyLevel:completionHandler:].cold.1
++ -[SPCoreSpotlightIndexer deleteAllSearchableItemsWithBundleID:fromClient:protectionClass:shouldGC:options:deleteAllReason:donationTimestamp:completionHandler:]
++ -[SPCoreSpotlightIndexer deleteAllSearchableItemsWithBundleID:fromClient:protectionClass:shouldGC:options:deleteAllReason:donationTimestamp:completionHandler:].cold.1
++ -[SPCoreSpotlightIndexer deleteSearchableItemsWithDomainIdentifiers:protectionClass:forBundleID:fromClient:options:donationTimestamp:completionHandler:]
++ -[SPCoreSpotlightIndexer deleteSearchableItemsWithDomainIdentifiers:protectionClass:forBundleID:options:donationTimestamp:completionHandler:]
++ -[SPCoreSpotlightIndexer fetchLastLinkedTimestampWithProtectionClass:forBundleID:completionHandler:]
++ -[SPCoreSpotlightIndexer indexFromBundle:protectionClass:personaID:options:items:itemsText:itemsHTML:clientState:expectedClientState:clientStateName:donationTimestamp:deletes:canCreateNewIndex:completionHandler:]
++ -[SPCoreSpotlightIndexer isBundleHDBMigrated:]
++ -[SPCoreSpotlightIndexer performIndexerTask:withAppIntentsProviderAndCompletionHandler:]
++ -[SPCoreSpotlightIndexerTask lnHandler]
++ -[SPCoreSpotlightIndexerTask lnProvider]
++ -[SPHDBBundleRegistry .cxx_destruct]
++ -[SPHDBBundleRegistry initWithPlistPath:]
++ -[SPHDBBundleRegistry isBundleMigrated:]
++ -[SPHDBBundleRegistry loadFromDisk]
++ -[SPHDBBundleRegistry loadFromDisk].cold.1
++ -[SPHDBBundleRegistry loadFromDisk].cold.2
++ -[SPHDBBundleRegistry loadFromDisk].cold.3
++ -[SPHDBBundleRegistry loadFromDisk].cold.4
++ -[SPHDBBundleRegistry loadFromDisk].cold.5
++ -[SPHDBBundleRegistry loadFromDisk].cold.6
++ -[SPHDBBundleRegistry migratedBundles]
++ -[SPHDBBundleRegistry registerBundle:]
++ -[SPHDBBundleRegistry registerBundle:].cold.1
++ -[SpotlightReceiverConfig appEntitySchemas]
++ -[SpotlightReceiverConfig disableAppEntitySchemas]
++ -[SpotlightReceiverConfig setAppEntitySchemas:]
++ -[SpotlightReceiverConfig setDisableAppEntitySchemas:]
++ -[SpotlightReceiverConnection indexWithCascadeData:bundleID:protectionClass:indexType:serialNumber:journalCookie:config:completionHandler:]
++ -[SpotlightReceiverConnection indexWithFd:offset:size:indexType:bundleID:protectionClass:serialNumber:journalCookie:config:additionalAttributes:updateDestination:skipIndexCheck:completionHandler:]
++ GCC_except_table102
++ GCC_except_table1026
++ GCC_except_table105
++ GCC_except_table106
++ GCC_except_table1077
++ GCC_except_table111
++ GCC_except_table1111
++ GCC_except_table1117
++ GCC_except_table1118
++ GCC_except_table112
++ GCC_except_table1124
++ GCC_except_table1126
++ GCC_except_table1127
++ GCC_except_table1136
++ GCC_except_table1138
++ GCC_except_table1153
++ GCC_except_table1163
++ GCC_except_table1174
++ GCC_except_table1184
++ GCC_except_table1191
++ GCC_except_table1198
++ GCC_except_table1205
++ GCC_except_table1212
++ GCC_except_table122
++ GCC_except_table1228
++ GCC_except_table123
++ GCC_except_table1303
++ GCC_except_table1304
++ GCC_except_table1306
++ GCC_except_table1371
++ GCC_except_table1378
++ GCC_except_table1500
++ GCC_except_table1505
++ GCC_except_table1506
++ GCC_except_table163
++ GCC_except_table164
++ GCC_except_table166
++ GCC_except_table167
++ GCC_except_table17
++ GCC_except_table180
++ GCC_except_table185
++ GCC_except_table198
++ GCC_except_table20
++ GCC_except_table205
++ GCC_except_table217
++ GCC_except_table222
++ GCC_except_table226
++ GCC_except_table231
++ GCC_except_table232
++ GCC_except_table240
++ GCC_except_table241
++ GCC_except_table261
++ GCC_except_table264
++ GCC_except_table278
++ GCC_except_table28
++ GCC_except_table286
++ GCC_except_table296
++ GCC_except_table324
++ GCC_except_table334
++ GCC_except_table348
++ GCC_except_table381
++ GCC_except_table382
++ GCC_except_table386
++ GCC_except_table40
++ GCC_except_table408
++ GCC_except_table437
++ GCC_except_table438
++ GCC_except_table453
++ GCC_except_table454
++ GCC_except_table484
++ GCC_except_table508
++ GCC_except_table522
++ GCC_except_table525
++ GCC_except_table536
++ GCC_except_table537
++ GCC_except_table538
++ GCC_except_table577
++ GCC_except_table588
++ GCC_except_table6
++ GCC_except_table607
++ GCC_except_table613
++ GCC_except_table632
++ GCC_except_table633
++ GCC_except_table643
++ GCC_except_table698
++ GCC_except_table699
++ GCC_except_table723
++ GCC_except_table789
++ GCC_except_table79
++ GCC_except_table813
++ GCC_except_table834
++ GCC_except_table838
++ GCC_except_table870
++ GCC_except_table899
++ GCC_except_table930
++ GCC_except_table96
++ GCC_except_table960
++ GCC_except_table969
++ GCC_except_table985
++ GCC_except_table986
++ _CFNotificationCenterGetDarwinNotifyCenter
++ _CSLinkedTimestamp
++ _LSApplicationsChangedNotificationName
++ _MDItemIsTimeSensitive
++ _OBJC_CLASS_$_CSSearchableIndexDescription
++ _OBJC_CLASS_$_LNMetadataProvider
++ _OBJC_CLASS_$_LNSpotlightReindexHandler
++ _OBJC_CLASS_$_LNSpotlightReindexingIdentifier
++ _OBJC_CLASS_$_LSApplicationRecord
++ _OBJC_CLASS_$_SPCoreSpotlightAppMonitor
++ _OBJC_CLASS_$_SPHDBBundleRegistry
++ _OBJC_IVAR_$_MDSearchableIndexService._allowIndexWipe
++ _OBJC_IVAR_$_SDConnectionConfiguration._allowIndexWipe
++ _OBJC_IVAR_$_SDPommesSynonyms.synonymDictionary
++ _OBJC_IVAR_$_SPConcreteCoreSpotlightIndexer._maintenanceTransaction
++ _OBJC_IVAR_$_SPCoreSpotlightAppMonitor._infoByBundle
++ _OBJC_IVAR_$_SPCoreSpotlightAppMonitor._queue
++ _OBJC_IVAR_$_SPCoreSpotlightAppMonitor._supportedBundles
++ _OBJC_IVAR_$_SPCoreSpotlightIndexer._hdbBundleRegistry
++ _OBJC_IVAR_$_SPCoreSpotlightIndexer._provider
++ _OBJC_IVAR_$_SPCoreSpotlightIndexerTask._lnHandler
++ _OBJC_IVAR_$_SPCoreSpotlightIndexerTask._lnProvider
++ _OBJC_IVAR_$_SPHDBBundleRegistry._lock
++ _OBJC_IVAR_$_SPHDBBundleRegistry._migratedBundles
++ _OBJC_IVAR_$_SPHDBBundleRegistry._plistPath
++ _OBJC_IVAR_$_SPHDBBundleRegistry._writeQueue
++ _OBJC_IVAR_$_SpotlightReceiverConfig._appEntitySchemas
++ _OBJC_IVAR_$_SpotlightReceiverConfig._disableAppEntitySchemas
++ _OBJC_METACLASS_$_SPCoreSpotlightAppMonitor
++ _OBJC_METACLASS_$_SPHDBBundleRegistry
++ _SDDiagnosticDefaultPrivacyLevel
++ _SIDeleteLinkedTimestampCache
++ _SIFetchLinkedTimestampFromDisk
++ _SIGetLinkedTimestampFromCache
++ _SIQuerySetShouldDeferBlock
++ _SIRecordBulkDeleteByBundleID
++ _SIRecordBulkDeleteByDate
++ _SIRecordBulkDeleteByDomainIdentifiers
++ _SIRecordBulkDeleteByFileProviderDomainIdentifier
++ _SIRecordBulkDeleteByPersonaIDs
++ _SPBundleCacheInit.onceToken
++ _SPBundleCacheNotification
++ _SPEmbeddingProviderGetVersion
++ _SecTaskCopyTeamIdentifier
++ _SecTaskGetCodeSignStatus
++ _SecTaskGetValidationCategory
++ __MDJsonParse
++ __MDJsonUTF8String
++ __OBJC_$_CLASS_METHODS_SPCoreSpotlightAppMonitor
++ __OBJC_$_INSTANCE_METHODS_SPCoreSpotlightAppMonitor
++ __OBJC_$_INSTANCE_METHODS_SPHDBBundleRegistry
++ __OBJC_$_INSTANCE_VARIABLES_SPCoreSpotlightAppMonitor
++ __OBJC_$_INSTANCE_VARIABLES_SPHDBBundleRegistry
++ __OBJC_$_PROP_LIST_SPCoreSpotlightAppMonitor
++ __OBJC_$_PROP_LIST_SPHDBBundleRegistry
++ __OBJC_CLASS_RO_$_SPCoreSpotlightAppMonitor
++ __OBJC_CLASS_RO_$_SPHDBBundleRegistry
++ __OBJC_METACLASS_RO_$_SPCoreSpotlightAppMonitor
++ __OBJC_METACLASS_RO_$_SPHDBBundleRegistry
++ __SICreateDerivedFromToIsMeAliasAddedTouchFile
++ __SICreateDerivedFromToIsMeAliasUpdatedTouchFile
++ __SICreateDerivedFromToIsMeNameAddedTouchFile
++ __SICreateDerivedFromToIsMeNameUpdatedTouchFile
++ __SIMail
++ __SIReserveSpace
++ __SIUnreserveSpace
++ __ZNSt12length_errorC1B9fqe220100EPKc
++ __ZNSt3__110__pop_heapB9fqe220100INS_17_ClassicAlgPolicyE22_compareTopKCandidatesNS_11__wrap_iterIPNS_4pairIU8__strongP8NSStringU8__strongP8NSNumberEEEEEEvT1_SE_RT0_NS_15iterator_traitsISE_E15difference_typeE
++ __ZNSt3__110__pop_heapB9fqe220100INS_17_ClassicAlgPolicyE27_compareCorectionCandidatesNS_11__wrap_iterIPNS_4pairINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEfEEEEEEvT1_SE_RT0_NS_15iterator_traitsISE_E15difference_typeE
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_length_errorB9fqe220100Ev
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE22__init_internal_bufferB9fqe220100Em
++ __ZNSt3__114__split_bufferINS_4pairINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEfEERNS5_IS8_EEE17__destruct_at_endB9fqe220100EPS8_
++ __ZNSt3__114__split_bufferINS_4pairIU8__strongP8NSStringU8__strongP8NSNumberEERNS_9allocatorIS8_EEE17__destruct_at_endB9fqe220100EPS8_
++ __ZNSt3__116__if_likely_elseB9fqe220100IZNS_6vectorINS_4pairIU8__strongP8NSStringU8__strongP8NSNumberEENS_9allocatorIS9_EEE12emplace_backIJS9_EEEvDpOT_EUlvE_ZNSD_IJS9_EEEvSG_EUlvE0_EEvbT_T0_
++ __ZNSt3__116__if_likely_elseB9fqe220100IZNS_6vectorINS_4pairIU8__strongP8NSStringU8__strongP8NSNumberEENS_9allocatorIS9_EEE12emplace_backIJS9_EEEvDpOT_EUlvE_ZNSD_IJS9_EEEvSG_EUlvE0_EEvbT_T0_.cold.1
++ __ZNSt3__117__floyd_sift_downB9fqe220100INS_17_ClassicAlgPolicyER22_compareTopKCandidatesNS_11__wrap_iterIPNS_4pairIU8__strongP8NSStringU8__strongP8NSNumberEEEEEET1_SF_OT0_NS_15iterator_traitsISF_E15difference_typeE
++ __ZNSt3__117__floyd_sift_downB9fqe220100INS_17_ClassicAlgPolicyER27_compareCorectionCandidatesNS_11__wrap_iterIPNS_4pairINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEfEEEEEET1_SF_OT0_NS_15iterator_traitsISF_E15difference_typeE
++ __ZNSt3__119__allocate_at_leastB9fqe220100INS_9allocatorINS_4pairINS_12basic_stringIcNS_11char_traitsIcEENS1_IcEEEEfEEEENS_16allocator_traitsIS9_EEEENS_19__allocation_resultINT0_7pointerENSD_9size_typeEEERT_m
++ __ZNSt3__119__allocate_at_leastB9fqe220100INS_9allocatorINS_4pairIU8__strongP8NSStringU8__strongP8NSNumberEEEENS_16allocator_traitsISA_EEEENS_19__allocation_resultINT0_7pointerENSE_9size_typeEEERT_m
++ __ZNSt3__119__allocate_at_leastB9fqe220100INS_9allocatorIfEENS_16allocator_traitsIS2_EEEENS_19__allocation_resultINT0_7pointerENS6_9size_typeEEERT_m
++ __ZNSt3__119__allocator_destroyB9fqe220100INS_9allocatorINS_4pairIU8__strongP8NSStringU8__strongP8NSNumberEEEENS_16reverse_iteratorIPS9_EESD_EEvRT_T0_T1_
++ __ZNSt3__119__allocator_destroyB9fqe220100INS_9allocatorINS_4pairIU8__strongP8NSStringU8__strongP8NSNumberEEEEPS9_SB_EEvRT_T0_T1_
++ __ZNSt3__120__throw_length_errorB9fqe220100EPKc
++ __ZNSt3__128__exception_guard_exceptionsINS_29_AllocatorDestroyRangeReverseINS_9allocatorINS_4pairIU8__strongP8NSStringU8__strongP8NSNumberEEEEPSA_EEED2B9fqe220100Ev
++ __ZNSt3__134__uninitialized_allocator_relocateB9fqe220100INS_9allocatorINS_4pairIU8__strongP8NSStringU8__strongP8NSNumberEEEEPS9_EEvRT_T0_SE_SE_
++ __ZNSt3__16vectorINS_4pairINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEfEENS5_IS8_EEE16__destroy_vectorclB9fqe220100Ev
++ __ZNSt3__16vectorINS_4pairINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEfEENS5_IS8_EEE20__throw_length_errorB9fqe220100Ev
++ __ZNSt3__16vectorINS_4pairINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEfEENS5_IS8_EEE24__emplace_back_slow_pathIJS8_EEEPS8_DpOT_
++ __ZNSt3__16vectorINS_4pairINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEfEENS5_IS8_EEE5clearB9fqe220100Ev
++ __ZNSt3__16vectorINS_4pairIU8__strongP8NSStringU8__strongP8NSNumberEENS_9allocatorIS8_EEE16__destroy_vectorclB9fqe220100Ev
++ __ZNSt3__16vectorINS_4pairIU8__strongP8NSStringU8__strongP8NSNumberEENS_9allocatorIS8_EEE20__throw_length_errorB9fqe220100Ev
++ __ZNSt3__16vectorINS_4pairIU8__strongP8NSStringU8__strongP8NSNumberEENS_9allocatorIS8_EEE22__base_destruct_at_endB9fqe220100EPS8_
++ __ZNSt3__16vectorIfNS_9allocatorIfEEE11__vallocateB9fqe220100Em
++ __ZNSt3__16vectorIfNS_9allocatorIfEEE20__throw_length_errorB9fqe220100Ev
++ __ZNSt3__16vectorIfNS_9allocatorIfEEEC2B9fqe220100EmRKf
++ __ZNSt3__19__sift_upB9fqe220100INS_17_ClassicAlgPolicyER22_compareTopKCandidatesNS_11__wrap_iterIPNS_4pairIU8__strongP8NSStringU8__strongP8NSNumberEEEEEEvT1_SF_OT0_NS_15iterator_traitsISF_E15difference_typeE
++ __ZNSt3__19__sift_upB9fqe220100INS_17_ClassicAlgPolicyER27_compareCorectionCandidatesNS_11__wrap_iterIPNS_4pairINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEfEEEEEEvT1_SF_OT0_NS_15iterator_traitsISF_E15difference_typeE
++ __ZSt28__throw_bad_array_new_lengthB9fqe220100v
++ ___101-[SPConcreteCoreSpotlightIndexer _deleteSearchableItemsMatchingQuery:forBundleIds:completionHandler:]_block_invoke.1689
++ ___101-[SPConcreteCoreSpotlightIndexer _deleteSearchableItemsMatchingQuery:forBundleIds:completionHandler:]_block_invoke_2.1690
++ ___102-[MDSearchableIndexService fetchLastLinkedTimestampWithProtectionClass:forBundleID:completionHandler:]_block_invoke
++ ___105-[SPConcreteCoreSpotlightIndexer willModifySearchableItemsWithIdentifiers:forBundleID:completionHandler:]_block_invoke.1490
++ ___105-[SPConcreteCoreSpotlightIndexer willModifySearchableItemsWithIdentifiers:forBundleID:completionHandler:]_block_invoke_2.1494
++ ___107-[SPCoreSpotlightIndexer _migrateIndexExtensionsWithEnumerator:forced:migratedBundleIds:completionHandler:]_block_invoke.3628
++ ___108-[SPConcreteCoreSpotlightIndexer fetchLastClientStateForBundleID:clientStateName:options:completionHandler:]_block_invoke.1735
++ ___108-[SPConcreteCoreSpotlightIndexer fetchLastClientStateForBundleID:clientStateName:options:completionHandler:]_block_invoke_2.1726
++ ___114-[SPCoreSpotlightIndexer _taskForQueryWithQueryString:queryContext:eventHandler:resultsHandler:completionHandler:]_block_invoke.2719
++ ___114-[SPCoreSpotlightIndexer _taskForQueryWithQueryString:queryContext:eventHandler:resultsHandler:completionHandler:]_block_invoke.2721
++ ___114-[SPCoreSpotlightIndexer _taskForQueryWithQueryString:queryContext:eventHandler:resultsHandler:completionHandler:]_block_invoke.2721.cold.1
++ ___114-[SPCoreSpotlightIndexer _taskForQueryWithQueryString:queryContext:eventHandler:resultsHandler:completionHandler:]_block_invoke.2724
++ ___114-[SPCoreSpotlightIndexer _taskForQueryWithQueryString:queryContext:eventHandler:resultsHandler:completionHandler:]_block_invoke.2724.cold.1
++ ___114-[SPCoreSpotlightIndexer _taskForQueryWithQueryString:queryContext:eventHandler:resultsHandler:completionHandler:]_block_invoke.2725
++ ___114-[SPCoreSpotlightIndexer _taskForQueryWithQueryString:queryContext:eventHandler:resultsHandler:completionHandler:]_block_invoke.2725.cold.1
++ ___114-[SPCoreSpotlightIndexer _taskForQueryWithQueryString:queryContext:eventHandler:resultsHandler:completionHandler:]_block_invoke.2726
++ ___119-[MDSearchableIndexService _dispatchToReceiversWithBundleID:protectionClass:options:items:itemsText:itemsHTML:deletes:]_block_invoke.51
++ ___125-[SPCoreSpotlightIndexer _enumerateIndexersWithProtectionClasses:forQueryWithContext:forBundleIds:inferSpecialIndexes:block:]_block_invoke.2574
++ ___127-[SpotlightReceiverConnection deleteWithFd:offset:size:indexType:protectionClass:serialNumber:journalCookie:completionHandler:]_block_invoke.354
++ ___131-[SPConcreteCoreSpotlightIndexer persistDonationProgress:fromBundle:clientIndexName:personaID:canCreateNewIndex:completionHandler:]_block_invoke.1308
++ ___131-[SPConcreteCoreSpotlightIndexer updateMeCardInfo:middleName:familyName:emailAddresses:isFirstTimeCheck:isNotCreateNewIndex:group:]_block_invoke.872
++ ___131-[SPConcreteCoreSpotlightIndexer updateMeCardInfo:middleName:familyName:emailAddresses:isFirstTimeCheck:isNotCreateNewIndex:group:]_block_invoke.876
++ ___131-[SPConcreteCoreSpotlightIndexer updateMeCardInfo:middleName:familyName:emailAddresses:isFirstTimeCheck:isNotCreateNewIndex:group:]_block_invoke.879
++ ___131-[SPConcreteCoreSpotlightIndexer updateMeCardInfo:middleName:familyName:emailAddresses:isFirstTimeCheck:isNotCreateNewIndex:group:]_block_invoke.882
++ ___139-[SpotlightReceiverConnection indexWithCascadeData:bundleID:protectionClass:indexType:serialNumber:journalCookie:config:completionHandler:]_block_invoke
++ ___139-[SpotlightReceiverConnection indexWithCascadeData:bundleID:protectionClass:indexType:serialNumber:journalCookie:config:completionHandler:]_block_invoke.358
++ ___139-[SpotlightReceiverConnection indexWithCascadeData:bundleID:protectionClass:indexType:serialNumber:journalCookie:config:completionHandler:]_block_invoke.358.cold.1
++ ___139-[SpotlightReceiverConnection indexWithCascadeData:bundleID:protectionClass:indexType:serialNumber:journalCookie:config:completionHandler:]_block_invoke.358.cold.2
++ ___139-[SpotlightReceiverConnection indexWithCascadeData:bundleID:protectionClass:indexType:serialNumber:journalCookie:config:completionHandler:]_block_invoke.358.cold.3
++ ___139-[SpotlightReceiverConnection indexWithCascadeData:bundleID:protectionClass:indexType:serialNumber:journalCookie:config:completionHandler:]_block_invoke.cold.1
++ ___139-[SpotlightReceiverConnection indexWithCascadeData:bundleID:protectionClass:indexType:serialNumber:journalCookie:config:completionHandler:]_block_invoke.cold.2
++ ___143-[SPConcreteCoreSpotlightIndexer deleteSearchableItemsWithDomainIdentifiers:forBundleID:fromClient:reason:donationTimestamp:completionHandler:]_block_invoke
++ ___143-[SPConcreteCoreSpotlightIndexer deleteSearchableItemsWithDomainIdentifiers:forBundleID:fromClient:reason:donationTimestamp:completionHandler:]_block_invoke.1519
++ ___143-[SPConcreteCoreSpotlightIndexer deleteSearchableItemsWithDomainIdentifiers:forBundleID:fromClient:reason:donationTimestamp:completionHandler:]_block_invoke.1528
++ ___143-[SPConcreteCoreSpotlightIndexer deleteSearchableItemsWithDomainIdentifiers:forBundleID:fromClient:reason:donationTimestamp:completionHandler:]_block_invoke.1528.cold.1
++ ___143-[SPConcreteCoreSpotlightIndexer deleteSearchableItemsWithDomainIdentifiers:forBundleID:fromClient:reason:donationTimestamp:completionHandler:]_block_invoke_2
++ ___143-[SPConcreteCoreSpotlightIndexer deleteSearchableItemsWithDomainIdentifiers:forBundleID:fromClient:reason:donationTimestamp:completionHandler:]_block_invoke_2.1523
++ ___143-[SPConcreteCoreSpotlightIndexer deleteSearchableItemsWithDomainIdentifiers:forBundleID:fromClient:reason:donationTimestamp:completionHandler:]_block_invoke_3
++ ___143-[SPConcreteCoreSpotlightIndexer deleteSearchableItemsWithDomainIdentifiers:forBundleID:fromClient:reason:donationTimestamp:completionHandler:]_block_invoke_3.1524
++ ___143-[SPConcreteCoreSpotlightIndexer deleteSearchableItemsWithDomainIdentifiers:forBundleID:fromClient:reason:donationTimestamp:completionHandler:]_block_invoke_4
++ ___143-[SPConcreteCoreSpotlightIndexer deleteSearchableItemsWithDomainIdentifiers:forBundleID:fromClient:reason:donationTimestamp:completionHandler:]_block_invoke_4.1525
++ ___143-[SPConcreteCoreSpotlightIndexer deleteSearchableItemsWithDomainIdentifiers:forBundleID:fromClient:reason:donationTimestamp:completionHandler:]_block_invoke_4.cold.1
++ ___143-[SPConcreteCoreSpotlightIndexer deleteSearchableItemsWithDomainIdentifiers:forBundleID:fromClient:reason:donationTimestamp:completionHandler:]_block_invoke_4.cold.2
++ ___143-[SPConcreteCoreSpotlightIndexer deleteSearchableItemsWithDomainIdentifiers:forBundleID:fromClient:reason:donationTimestamp:completionHandler:]_block_invoke_5
++ ___143-[SPConcreteCoreSpotlightIndexer deleteSearchableItemsWithDomainIdentifiers:forBundleID:fromClient:reason:donationTimestamp:completionHandler:]_block_invoke_5.1526
++ ___143-[SPConcreteCoreSpotlightIndexer deleteSearchableItemsWithDomainIdentifiers:forBundleID:fromClient:reason:donationTimestamp:completionHandler:]_block_invoke_5.cold.1
++ ___143-[SPConcreteCoreSpotlightIndexer deleteSearchableItemsWithDomainIdentifiers:forBundleID:fromClient:reason:donationTimestamp:completionHandler:]_block_invoke_6
++ ___143-[SPConcreteCoreSpotlightIndexer deleteSearchableItemsWithDomainIdentifiers:forBundleID:fromClient:reason:donationTimestamp:completionHandler:]_block_invoke_7
++ ___143-[SPConcreteCoreSpotlightIndexer deleteSearchableItemsWithDomainIdentifiers:forBundleID:fromClient:reason:donationTimestamp:completionHandler:]_block_invoke_8
++ ___150-[SPConcreteCoreSpotlightIndexer deleteAllSearchableItemsForBundleID:fromClient:shouldGC:options:deleteAllReason:donationTimestamp:completionHandler:]_block_invoke
++ ___150-[SPConcreteCoreSpotlightIndexer deleteAllSearchableItemsForBundleID:fromClient:shouldGC:options:deleteAllReason:donationTimestamp:completionHandler:]_block_invoke.1648
++ ___150-[SPConcreteCoreSpotlightIndexer deleteAllSearchableItemsForBundleID:fromClient:shouldGC:options:deleteAllReason:donationTimestamp:completionHandler:]_block_invoke.1657
++ ___150-[SPConcreteCoreSpotlightIndexer deleteAllSearchableItemsForBundleID:fromClient:shouldGC:options:deleteAllReason:donationTimestamp:completionHandler:]_block_invoke.1663
++ ___150-[SPConcreteCoreSpotlightIndexer deleteAllSearchableItemsForBundleID:fromClient:shouldGC:options:deleteAllReason:donationTimestamp:completionHandler:]_block_invoke.1675
++ ___150-[SPConcreteCoreSpotlightIndexer deleteAllSearchableItemsForBundleID:fromClient:shouldGC:options:deleteAllReason:donationTimestamp:completionHandler:]_block_invoke.1676
++ ___150-[SPConcreteCoreSpotlightIndexer deleteAllSearchableItemsForBundleID:fromClient:shouldGC:options:deleteAllReason:donationTimestamp:completionHandler:]_block_invoke.1679
++ ___150-[SPConcreteCoreSpotlightIndexer deleteAllSearchableItemsForBundleID:fromClient:shouldGC:options:deleteAllReason:donationTimestamp:completionHandler:]_block_invoke_2
++ ___150-[SPConcreteCoreSpotlightIndexer deleteAllSearchableItemsForBundleID:fromClient:shouldGC:options:deleteAllReason:donationTimestamp:completionHandler:]_block_invoke_2.1649
++ ___150-[SPConcreteCoreSpotlightIndexer deleteAllSearchableItemsForBundleID:fromClient:shouldGC:options:deleteAllReason:donationTimestamp:completionHandler:]_block_invoke_2.1666
++ ___150-[SPConcreteCoreSpotlightIndexer deleteAllSearchableItemsForBundleID:fromClient:shouldGC:options:deleteAllReason:donationTimestamp:completionHandler:]_block_invoke_2.1677
++ ___150-[SPConcreteCoreSpotlightIndexer deleteAllSearchableItemsForBundleID:fromClient:shouldGC:options:deleteAllReason:donationTimestamp:completionHandler:]_block_invoke_2.1680
++ ___150-[SPConcreteCoreSpotlightIndexer deleteAllSearchableItemsForBundleID:fromClient:shouldGC:options:deleteAllReason:donationTimestamp:completionHandler:]_block_invoke_2.1680.cold.1
++ ___150-[SPConcreteCoreSpotlightIndexer deleteAllSearchableItemsForBundleID:fromClient:shouldGC:options:deleteAllReason:donationTimestamp:completionHandler:]_block_invoke_2.cold.1
++ ___150-[SPConcreteCoreSpotlightIndexer deleteAllSearchableItemsForBundleID:fromClient:shouldGC:options:deleteAllReason:donationTimestamp:completionHandler:]_block_invoke_2.cold.2
++ ___150-[SPConcreteCoreSpotlightIndexer deleteAllSearchableItemsForBundleID:fromClient:shouldGC:options:deleteAllReason:donationTimestamp:completionHandler:]_block_invoke_3
++ ___150-[SPConcreteCoreSpotlightIndexer deleteAllSearchableItemsForBundleID:fromClient:shouldGC:options:deleteAllReason:donationTimestamp:completionHandler:]_block_invoke_3.1667
++ ___150-[SPConcreteCoreSpotlightIndexer deleteAllSearchableItemsForBundleID:fromClient:shouldGC:options:deleteAllReason:donationTimestamp:completionHandler:]_block_invoke_3.1678
++ ___150-[SPConcreteCoreSpotlightIndexer deleteAllSearchableItemsForBundleID:fromClient:shouldGC:options:deleteAllReason:donationTimestamp:completionHandler:]_block_invoke_4
++ ___150-[SPConcreteCoreSpotlightIndexer deleteAllSearchableItemsForBundleID:fromClient:shouldGC:options:deleteAllReason:donationTimestamp:completionHandler:]_block_invoke_4.1668
++ ___150-[SPConcreteCoreSpotlightIndexer deleteAllSearchableItemsForBundleID:fromClient:shouldGC:options:deleteAllReason:donationTimestamp:completionHandler:]_block_invoke_5
++ ___150-[SPConcreteCoreSpotlightIndexer deleteAllSearchableItemsForBundleID:fromClient:shouldGC:options:deleteAllReason:donationTimestamp:completionHandler:]_block_invoke_5.1671
++ ___150-[SPConcreteCoreSpotlightIndexer deleteAllSearchableItemsForBundleID:fromClient:shouldGC:options:deleteAllReason:donationTimestamp:completionHandler:]_block_invoke_5.1671.cold.1
++ ___150-[SPConcreteCoreSpotlightIndexer deleteAllSearchableItemsForBundleID:fromClient:shouldGC:options:deleteAllReason:donationTimestamp:completionHandler:]_block_invoke_5.1671.cold.2
++ ___150-[SPConcreteCoreSpotlightIndexer deleteAllSearchableItemsForBundleID:fromClient:shouldGC:options:deleteAllReason:donationTimestamp:completionHandler:]_block_invoke_6
++ ___150-[SPConcreteCoreSpotlightIndexer deleteAllSearchableItemsForBundleID:fromClient:shouldGC:options:deleteAllReason:donationTimestamp:completionHandler:]_block_invoke_7
++ ___151-[MDSearchableIndexService _deleteAllSearchableItemsWithBundleID:protectionClass:shouldGC:options:deleteAllReason:donationTimestamp:completionHandler:]_block_invoke
++ ___151-[MDSearchableIndexService _deleteAllSearchableItemsWithBundleID:protectionClass:shouldGC:options:deleteAllReason:donationTimestamp:completionHandler:]_block_invoke_2
++ ___151-[MDSearchableIndexService _deleteAllSearchableItemsWithBundleID:protectionClass:shouldGC:options:deleteAllReason:donationTimestamp:completionHandler:]_block_invoke_3
++ ___152-[SPCoreSpotlightIndexer deleteSearchableItemsWithDomainIdentifiers:protectionClass:forBundleID:fromClient:options:donationTimestamp:completionHandler:]_block_invoke
++ ___152-[SPCoreSpotlightIndexer deleteSearchableItemsWithDomainIdentifiers:protectionClass:forBundleID:fromClient:options:donationTimestamp:completionHandler:]_block_invoke.2805
++ ___152-[SPCoreSpotlightIndexer deleteSearchableItemsWithDomainIdentifiers:protectionClass:forBundleID:fromClient:options:donationTimestamp:completionHandler:]_block_invoke_2
++ ___152-[SPCoreSpotlightIndexer deleteSearchableItemsWithDomainIdentifiers:protectionClass:forBundleID:fromClient:options:donationTimestamp:completionHandler:]_block_invoke_2.2808
++ ___152-[SPCoreSpotlightIndexer deleteSearchableItemsWithDomainIdentifiers:protectionClass:forBundleID:fromClient:options:donationTimestamp:completionHandler:]_block_invoke_2.cold.1
++ ___154-[MDSearchableIndexService deleteSearchableItemsWithDomainIdentifiers:protectionClass:forBundleID:fromClient:options:donationTimestamp:completionHandler:]_block_invoke
++ ___154-[MDSearchableIndexService deleteSearchableItemsWithDomainIdentifiers:protectionClass:forBundleID:fromClient:options:donationTimestamp:completionHandler:]_block_invoke_2
++ ___159-[SPCoreSpotlightIndexer deleteAllSearchableItemsWithBundleID:fromClient:protectionClass:shouldGC:options:deleteAllReason:donationTimestamp:completionHandler:]_block_invoke
++ ___159-[SPCoreSpotlightIndexer deleteAllSearchableItemsWithBundleID:fromClient:protectionClass:shouldGC:options:deleteAllReason:donationTimestamp:completionHandler:]_block_invoke_2
++ ___159-[SPCoreSpotlightIndexer deleteAllSearchableItemsWithBundleID:fromClient:protectionClass:shouldGC:options:deleteAllReason:donationTimestamp:completionHandler:]_block_invoke_3
++ ___159-[SPCoreSpotlightIndexer deleteAllSearchableItemsWithBundleID:fromClient:protectionClass:shouldGC:options:deleteAllReason:donationTimestamp:completionHandler:]_block_invoke_4
++ ___178-[SPConcreteCoreSpotlightIndexer indexSearchableItems:deleteSearchableItemsWithIdentifiers:clientState:expectedClientState:clientStateName:forBundleID:options:completionHandler:]_block_invoke.1409
++ ___178-[SPConcreteCoreSpotlightIndexer indexSearchableItems:deleteSearchableItemsWithIdentifiers:clientState:expectedClientState:clientStateName:forBundleID:options:completionHandler:]_block_invoke.1409.cold.1
++ ___178-[SPConcreteCoreSpotlightIndexer indexSearchableItems:deleteSearchableItemsWithIdentifiers:clientState:expectedClientState:clientStateName:forBundleID:options:completionHandler:]_block_invoke.1409.cold.2
++ ___178-[SPConcreteCoreSpotlightIndexer indexSearchableItems:deleteSearchableItemsWithIdentifiers:clientState:expectedClientState:clientStateName:forBundleID:options:completionHandler:]_block_invoke.1430
++ ___178-[SPConcreteCoreSpotlightIndexer indexSearchableItems:deleteSearchableItemsWithIdentifiers:clientState:expectedClientState:clientStateName:forBundleID:options:completionHandler:]_block_invoke.1432
++ ___178-[SPConcreteCoreSpotlightIndexer indexSearchableItems:deleteSearchableItemsWithIdentifiers:clientState:expectedClientState:clientStateName:forBundleID:options:completionHandler:]_block_invoke.1432.cold.1
++ ___178-[SPConcreteCoreSpotlightIndexer indexSearchableItems:deleteSearchableItemsWithIdentifiers:clientState:expectedClientState:clientStateName:forBundleID:options:completionHandler:]_block_invoke.1432.cold.2
++ ___178-[SPConcreteCoreSpotlightIndexer indexSearchableItems:deleteSearchableItemsWithIdentifiers:clientState:expectedClientState:clientStateName:forBundleID:options:completionHandler:]_block_invoke.1435
++ ___178-[SPConcreteCoreSpotlightIndexer indexSearchableItems:deleteSearchableItemsWithIdentifiers:clientState:expectedClientState:clientStateName:forBundleID:options:completionHandler:]_block_invoke.1435.cold.1
++ ___178-[SPConcreteCoreSpotlightIndexer indexSearchableItems:deleteSearchableItemsWithIdentifiers:clientState:expectedClientState:clientStateName:forBundleID:options:completionHandler:]_block_invoke.1435.cold.2
++ ___178-[SPConcreteCoreSpotlightIndexer indexSearchableItems:deleteSearchableItemsWithIdentifiers:clientState:expectedClientState:clientStateName:forBundleID:options:completionHandler:]_block_invoke.1438
++ ___178-[SPConcreteCoreSpotlightIndexer indexSearchableItems:deleteSearchableItemsWithIdentifiers:clientState:expectedClientState:clientStateName:forBundleID:options:completionHandler:]_block_invoke_2.1413
++ ___178-[SPConcreteCoreSpotlightIndexer indexSearchableItems:deleteSearchableItemsWithIdentifiers:clientState:expectedClientState:clientStateName:forBundleID:options:completionHandler:]_block_invoke_2.1431
++ ___190-[SPConcreteCoreSpotlightIndexer _startInternalQueryWithIndex:query:liftingRules:fetchAttributes:forBundleIds:maxCount:resultQueue:postFilter:clientBundleID:shouldDeferBlock:resultsHandler:]_block_invoke
++ ___190-[SPConcreteCoreSpotlightIndexer _startInternalQueryWithIndex:query:liftingRules:fetchAttributes:forBundleIds:maxCount:resultQueue:postFilter:clientBundleID:shouldDeferBlock:resultsHandler:]_block_invoke.cold.1
++ ___190-[SPConcreteCoreSpotlightIndexer _startInternalQueryWithIndex:query:liftingRules:fetchAttributes:forBundleIds:maxCount:resultQueue:postFilter:clientBundleID:shouldDeferBlock:resultsHandler:]_block_invoke.cold.2
++ ___190-[SPConcreteCoreSpotlightIndexer _startInternalQueryWithIndex:query:liftingRules:fetchAttributes:forBundleIds:maxCount:resultQueue:postFilter:clientBundleID:shouldDeferBlock:resultsHandler:]_block_invoke.cold.3
++ ___196-[SpotlightReceiverConnection indexWithFd:offset:size:indexType:bundleID:protectionClass:serialNumber:journalCookie:config:additionalAttributes:updateDestination:skipIndexCheck:completionHandler:]_block_invoke
++ ___196-[SpotlightReceiverConnection indexWithFd:offset:size:indexType:bundleID:protectionClass:serialNumber:journalCookie:config:additionalAttributes:updateDestination:skipIndexCheck:completionHandler:]_block_invoke.339
++ ___196-[SpotlightReceiverConnection indexWithFd:offset:size:indexType:bundleID:protectionClass:serialNumber:journalCookie:config:additionalAttributes:updateDestination:skipIndexCheck:completionHandler:]_block_invoke.339.cold.1
++ ___196-[SpotlightReceiverConnection indexWithFd:offset:size:indexType:bundleID:protectionClass:serialNumber:journalCookie:config:additionalAttributes:updateDestination:skipIndexCheck:completionHandler:]_block_invoke.339.cold.2
++ ___196-[SpotlightReceiverConnection indexWithFd:offset:size:indexType:bundleID:protectionClass:serialNumber:journalCookie:config:additionalAttributes:updateDestination:skipIndexCheck:completionHandler:]_block_invoke.339.cold.3
++ ___196-[SpotlightReceiverConnection indexWithFd:offset:size:indexType:bundleID:protectionClass:serialNumber:journalCookie:config:additionalAttributes:updateDestination:skipIndexCheck:completionHandler:]_block_invoke.cold.1
++ ___204-[SPConcreteCoreSpotlightIndexer indexFromBundle:personaID:options:items:itemsText:itemsHTML:clientState:expectedClientState:clientStateName:donationTimestamp:deletes:canCreateNewIndex:completionHandler:]_block_invoke
++ ___204-[SPConcreteCoreSpotlightIndexer indexFromBundle:personaID:options:items:itemsText:itemsHTML:clientState:expectedClientState:clientStateName:donationTimestamp:deletes:canCreateNewIndex:completionHandler:]_block_invoke.1318
++ ___204-[SPConcreteCoreSpotlightIndexer indexFromBundle:personaID:options:items:itemsText:itemsHTML:clientState:expectedClientState:clientStateName:donationTimestamp:deletes:canCreateNewIndex:completionHandler:]_block_invoke.1318.cold.1
++ ___204-[SPConcreteCoreSpotlightIndexer indexFromBundle:personaID:options:items:itemsText:itemsHTML:clientState:expectedClientState:clientStateName:donationTimestamp:deletes:canCreateNewIndex:completionHandler:]_block_invoke.1318.cold.2
++ ___204-[SPConcreteCoreSpotlightIndexer indexFromBundle:personaID:options:items:itemsText:itemsHTML:clientState:expectedClientState:clientStateName:donationTimestamp:deletes:canCreateNewIndex:completionHandler:]_block_invoke.1318.cold.3
++ ___204-[SPConcreteCoreSpotlightIndexer indexFromBundle:personaID:options:items:itemsText:itemsHTML:clientState:expectedClientState:clientStateName:donationTimestamp:deletes:canCreateNewIndex:completionHandler:]_block_invoke.1318.cold.4
++ ___204-[SPConcreteCoreSpotlightIndexer indexFromBundle:personaID:options:items:itemsText:itemsHTML:clientState:expectedClientState:clientStateName:donationTimestamp:deletes:canCreateNewIndex:completionHandler:]_block_invoke.1318.cold.5
++ ___204-[SPConcreteCoreSpotlightIndexer indexFromBundle:personaID:options:items:itemsText:itemsHTML:clientState:expectedClientState:clientStateName:donationTimestamp:deletes:canCreateNewIndex:completionHandler:]_block_invoke.1347
++ ___204-[SPConcreteCoreSpotlightIndexer indexFromBundle:personaID:options:items:itemsText:itemsHTML:clientState:expectedClientState:clientStateName:donationTimestamp:deletes:canCreateNewIndex:completionHandler:]_block_invoke.1369
++ ___204-[SPConcreteCoreSpotlightIndexer indexFromBundle:personaID:options:items:itemsText:itemsHTML:clientState:expectedClientState:clientStateName:donationTimestamp:deletes:canCreateNewIndex:completionHandler:]_block_invoke.1386
++ ___204-[SPConcreteCoreSpotlightIndexer indexFromBundle:personaID:options:items:itemsText:itemsHTML:clientState:expectedClientState:clientStateName:donationTimestamp:deletes:canCreateNewIndex:completionHandler:]_block_invoke.1391
++ ___204-[SPConcreteCoreSpotlightIndexer indexFromBundle:personaID:options:items:itemsText:itemsHTML:clientState:expectedClientState:clientStateName:donationTimestamp:deletes:canCreateNewIndex:completionHandler:]_block_invoke.1395
++ ___204-[SPConcreteCoreSpotlightIndexer indexFromBundle:personaID:options:items:itemsText:itemsHTML:clientState:expectedClientState:clientStateName:donationTimestamp:deletes:canCreateNewIndex:completionHandler:]_block_invoke.1399
++ ___204-[SPConcreteCoreSpotlightIndexer indexFromBundle:personaID:options:items:itemsText:itemsHTML:clientState:expectedClientState:clientStateName:donationTimestamp:deletes:canCreateNewIndex:completionHandler:]_block_invoke_2
++ ___204-[SPConcreteCoreSpotlightIndexer indexFromBundle:personaID:options:items:itemsText:itemsHTML:clientState:expectedClientState:clientStateName:donationTimestamp:deletes:canCreateNewIndex:completionHandler:]_block_invoke_2.1351
++ ___204-[SPConcreteCoreSpotlightIndexer indexFromBundle:personaID:options:items:itemsText:itemsHTML:clientState:expectedClientState:clientStateName:donationTimestamp:deletes:canCreateNewIndex:completionHandler:]_block_invoke_2.1370
++ ___204-[SPConcreteCoreSpotlightIndexer indexFromBundle:personaID:options:items:itemsText:itemsHTML:clientState:expectedClientState:clientStateName:donationTimestamp:deletes:canCreateNewIndex:completionHandler:]_block_invoke_2.1387
++ ___204-[SPConcreteCoreSpotlightIndexer indexFromBundle:personaID:options:items:itemsText:itemsHTML:clientState:expectedClientState:clientStateName:donationTimestamp:deletes:canCreateNewIndex:completionHandler:]_block_invoke_2.1392
++ ___204-[SPConcreteCoreSpotlightIndexer indexFromBundle:personaID:options:items:itemsText:itemsHTML:clientState:expectedClientState:clientStateName:donationTimestamp:deletes:canCreateNewIndex:completionHandler:]_block_invoke_2.1392.cold.1
++ ___204-[SPConcreteCoreSpotlightIndexer indexFromBundle:personaID:options:items:itemsText:itemsHTML:clientState:expectedClientState:clientStateName:donationTimestamp:deletes:canCreateNewIndex:completionHandler:]_block_invoke_2.1396
++ ___204-[SPConcreteCoreSpotlightIndexer indexFromBundle:personaID:options:items:itemsText:itemsHTML:clientState:expectedClientState:clientStateName:donationTimestamp:deletes:canCreateNewIndex:completionHandler:]_block_invoke_2.1400
++ ___204-[SPConcreteCoreSpotlightIndexer indexFromBundle:personaID:options:items:itemsText:itemsHTML:clientState:expectedClientState:clientStateName:donationTimestamp:deletes:canCreateNewIndex:completionHandler:]_block_invoke_2.cold.1
++ ___204-[SPConcreteCoreSpotlightIndexer indexFromBundle:personaID:options:items:itemsText:itemsHTML:clientState:expectedClientState:clientStateName:donationTimestamp:deletes:canCreateNewIndex:completionHandler:]_block_invoke_2.cold.2
++ ___204-[SPConcreteCoreSpotlightIndexer indexFromBundle:personaID:options:items:itemsText:itemsHTML:clientState:expectedClientState:clientStateName:donationTimestamp:deletes:canCreateNewIndex:completionHandler:]_block_invoke_2.cold.3
++ ___204-[SPConcreteCoreSpotlightIndexer indexFromBundle:personaID:options:items:itemsText:itemsHTML:clientState:expectedClientState:clientStateName:donationTimestamp:deletes:canCreateNewIndex:completionHandler:]_block_invoke_2.cold.4
++ ___204-[SPConcreteCoreSpotlightIndexer indexFromBundle:personaID:options:items:itemsText:itemsHTML:clientState:expectedClientState:clientStateName:donationTimestamp:deletes:canCreateNewIndex:completionHandler:]_block_invoke_2.cold.5
++ ___204-[SPConcreteCoreSpotlightIndexer indexFromBundle:personaID:options:items:itemsText:itemsHTML:clientState:expectedClientState:clientStateName:donationTimestamp:deletes:canCreateNewIndex:completionHandler:]_block_invoke_2.cold.6
++ ___204-[SPConcreteCoreSpotlightIndexer indexFromBundle:personaID:options:items:itemsText:itemsHTML:clientState:expectedClientState:clientStateName:donationTimestamp:deletes:canCreateNewIndex:completionHandler:]_block_invoke_3
++ ___204-[SPConcreteCoreSpotlightIndexer indexFromBundle:personaID:options:items:itemsText:itemsHTML:clientState:expectedClientState:clientStateName:donationTimestamp:deletes:canCreateNewIndex:completionHandler:]_block_invoke_3.1371
++ ___204-[SPConcreteCoreSpotlightIndexer indexFromBundle:personaID:options:items:itemsText:itemsHTML:clientState:expectedClientState:clientStateName:donationTimestamp:deletes:canCreateNewIndex:completionHandler:]_block_invoke_3.1403
++ ___204-[SPConcreteCoreSpotlightIndexer indexFromBundle:personaID:options:items:itemsText:itemsHTML:clientState:expectedClientState:clientStateName:donationTimestamp:deletes:canCreateNewIndex:completionHandler:]_block_invoke_4
++ ___204-[SPConcreteCoreSpotlightIndexer indexFromBundle:personaID:options:items:itemsText:itemsHTML:clientState:expectedClientState:clientStateName:donationTimestamp:deletes:canCreateNewIndex:completionHandler:]_block_invoke_5
++ ___204-[SPConcreteCoreSpotlightIndexer indexFromBundle:personaID:options:items:itemsText:itemsHTML:clientState:expectedClientState:clientStateName:donationTimestamp:deletes:canCreateNewIndex:completionHandler:]_block_invoke_5.cold.1
++ ___212-[SPCoreSpotlightIndexer indexFromBundle:protectionClass:personaID:options:items:itemsText:itemsHTML:clientState:expectedClientState:clientStateName:donationTimestamp:deletes:canCreateNewIndex:completionHandler:]_block_invoke
++ ___212-[SPCoreSpotlightIndexer indexFromBundle:protectionClass:personaID:options:items:itemsText:itemsHTML:clientState:expectedClientState:clientStateName:donationTimestamp:deletes:canCreateNewIndex:completionHandler:]_block_invoke.2801
++ ___212-[SPCoreSpotlightIndexer indexFromBundle:protectionClass:personaID:options:items:itemsText:itemsHTML:clientState:expectedClientState:clientStateName:donationTimestamp:deletes:canCreateNewIndex:completionHandler:]_block_invoke_2
++ ___212-[SPCoreSpotlightIndexer indexFromBundle:protectionClass:personaID:options:items:itemsText:itemsHTML:clientState:expectedClientState:clientStateName:donationTimestamp:deletes:canCreateNewIndex:completionHandler:]_block_invoke_2.2804
++ ___212-[SPCoreSpotlightIndexer indexFromBundle:protectionClass:personaID:options:items:itemsText:itemsHTML:clientState:expectedClientState:clientStateName:donationTimestamp:deletes:canCreateNewIndex:completionHandler:]_block_invoke_2.cold.1
++ ___236-[SPConcreteCoreSpotlightIndexer reindexAttributes:ofItemsMatchingQuery:liftingRules:indexAttrName:withVersion:perItemCompletionAttributeArray:completionValueArray:alwaysReindexWithCompletionAttribute:force:postFilter:group:forceMerge:]_block_invoke.427
++ ___236-[SPConcreteCoreSpotlightIndexer reindexAttributes:ofItemsMatchingQuery:liftingRules:indexAttrName:withVersion:perItemCompletionAttributeArray:completionValueArray:alwaysReindexWithCompletionAttribute:force:postFilter:group:forceMerge:]_block_invoke.428
++ ___236-[SPConcreteCoreSpotlightIndexer reindexAttributes:ofItemsMatchingQuery:liftingRules:indexAttrName:withVersion:perItemCompletionAttributeArray:completionValueArray:alwaysReindexWithCompletionAttribute:force:postFilter:group:forceMerge:]_block_invoke.431
++ ___236-[SPConcreteCoreSpotlightIndexer reindexAttributes:ofItemsMatchingQuery:liftingRules:indexAttrName:withVersion:perItemCompletionAttributeArray:completionValueArray:alwaysReindexWithCompletionAttribute:force:postFilter:group:forceMerge:]_block_invoke.432
++ ___28-[CSSearchAgent startQuery:]_block_invoke.175
++ ___28-[CSSearchAgent startQuery:]_block_invoke.175.cold.1
++ ___28-[CSSearchAgent startQuery:]_block_invoke.175.cold.2
++ ___28-[CSSearchAgent startQuery:]_block_invoke.175.cold.3
++ ___28-[CSSearchAgent startQuery:]_block_invoke.213
++ ___28-[CSSearchAgent startQuery:]_block_invoke.217
++ ___28-[CSSearchAgent startQuery:]_block_invoke.227
++ ___28-[CSSearchAgent startQuery:]_block_invoke.238
++ ___28-[CSSearchAgent startQuery:]_block_invoke_2.225
++ ___28-[CSSearchAgent startQuery:]_block_invoke_2.229
++ ___28-[CSSearchAgent startQuery:]_block_invoke_2.229.cold.1
++ ___30-[SPCoreSpotlightIndexer init]_block_invoke.2398
++ ___30-[SPCoreSpotlightIndexer init]_block_invoke.2407
++ ___30-[SPCoreSpotlightIndexer init]_block_invoke.2411
++ ___30-[SPCoreSpotlightIndexer init]_block_invoke.2417
++ ___30-[SPCoreSpotlightIndexer init]_block_invoke.2418
++ ___30-[SPCoreSpotlightIndexer init]_block_invoke.2428
++ ___30-[SPCoreSpotlightIndexer init]_block_invoke.2443
++ ___30-[SPCoreSpotlightIndexer init]_block_invoke.2450
++ ___30-[SPCoreSpotlightIndexer init]_block_invoke.2451
++ ___30-[SPCoreSpotlightIndexer init]_block_invoke.2457
++ ___30-[SPCoreSpotlightIndexer init]_block_invoke.2459
++ ___30-[SPCoreSpotlightIndexer init]_block_invoke.2460
++ ___30-[SPCoreSpotlightIndexer init]_block_invoke.2465
++ ___30-[SPCoreSpotlightIndexer init]_block_invoke.2466
++ ___30-[SPCoreSpotlightIndexer init]_block_invoke.2467
++ ___30-[SPCoreSpotlightIndexer init]_block_invoke.2467.cold.1
++ ___30-[SPCoreSpotlightIndexer init]_block_invoke.2472
++ ___30-[SPCoreSpotlightIndexer init]_block_invoke.2481
++ ___30-[SPCoreSpotlightIndexer init]_block_invoke.2491
++ ___30-[SPCoreSpotlightIndexer init]_block_invoke.2494
++ ___30-[SPCoreSpotlightIndexer init]_block_invoke_2.2403
++ ___30-[SPCoreSpotlightIndexer init]_block_invoke_2.2421
++ ___30-[SPCoreSpotlightIndexer init]_block_invoke_2.2429
++ ___30-[SPCoreSpotlightIndexer init]_block_invoke_2.2446
++ ___30-[SPCoreSpotlightIndexer init]_block_invoke_2.2461
++ ___30-[SPCoreSpotlightIndexer init]_block_invoke_2.2461.cold.1
++ ___30-[SPCoreSpotlightIndexer init]_block_invoke_2.2469
++ ___30-[SPCoreSpotlightIndexer init]_block_invoke_2.2469.cold.1
++ ___30-[SPCoreSpotlightIndexer init]_block_invoke_2.2473
++ ___30-[SPCoreSpotlightIndexer init]_block_invoke_2.2492
++ ___30-[SPCoreSpotlightIndexer init]_block_invoke_2.2495
++ ___30-[SPCoreSpotlightIndexer init]_block_invoke_3.2395
++ ___30-[SPCoreSpotlightIndexer init]_block_invoke_3.2395.cold.1
++ ___30-[SPCoreSpotlightIndexer init]_block_invoke_3.2424
++ ___30-[SPCoreSpotlightIndexer init]_block_invoke_3.2477
++ ___30-[SPCoreSpotlightIndexer init]_block_invoke_3.2493
++ ___30-[SPCoreSpotlightIndexer init]_block_invoke_3.2493.cold.1
++ ___30-[SPCoreSpotlightIndexer init]_block_invoke_3.2496
++ ___30-[SPCoreSpotlightIndexer init]_block_invoke_4.2497
++ ___31-[SPCoreSpotlightIndexer start]_block_invoke.2565
++ ___31-[SPCoreSpotlightIndexer start]_block_invoke.cold.5
++ ___33-[SPCoreSpotlightAppMonitor init]_block_invoke
++ ___33-[SPCoreSpotlightAppMonitor init]_block_invoke_2
++ ___36-[SpotlightReceiverConnection reset]_block_invoke.367
++ ___37-[SpotlightReceiverConnection resume]_block_invoke.366
++ ___38-[SPHDBBundleRegistry registerBundle:]_block_invoke
++ ___38-[SpotlightReceiverConnection suspend]_block_invoke.365
++ ___39-[SPCoreSpotlightIndexer queryPreheat:]_block_invoke.2707
++ ___40-[SPConcreteCoreSpotlightIndexer dirty:]_block_invoke.725
++ ___40-[SPConcreteCoreSpotlightIndexer dirty:]_block_invoke.725.cold.1
++ ___40-[SPConcreteCoreSpotlightIndexer dirty:]_block_invoke.726
++ ___40-[SPConcreteCoreSpotlightIndexer dirty:]_block_invoke.738
++ ___40-[SPConcreteCoreSpotlightIndexer dirty:]_block_invoke_2.730
++ ___40-[SPCoreSpotlightIndexer migrateForced:]_block_invoke.3641
++ ___40-[SPCoreSpotlightIndexer migrateForced:]_block_invoke_2.3642
++ ___40-[SPCoreSpotlightIndexer migrateForced:]_block_invoke_3.3645
++ ___41-[SpotlightReceiverConnection startSetup]_block_invoke.298
++ ___41-[SpotlightReceiverConnection startSetup]_block_invoke.298.cold.1
++ ___43+[SPCoreSpotlightAppMonitor sharedInstance]_block_invoke
++ ___44-[SPCoreSpotlightIndexer purgeIndexForSize:]_block_invoke.2326
++ ___44-[SPCoreSpotlightIndexer purgeIndexForSize:]_block_invoke.2326.cold.1
++ ___48-[SpotlightReceiverConnection deleteFromBundle:]_block_invoke.382
++ ___49-[MDSearchableIndexService fetchLinkedTimestamp:]_block_invoke
++ ___49-[SPConcreteCoreSpotlightIndexer mergeWithGroup:]_block_invoke
++ ___50-[SPConcreteCoreSpotlightIndexer validateVectors:]_block_invoke.1467
++ ___50-[SPConcreteCoreSpotlightIndexer validateVectors:]_block_invoke_2.1468
++ ___51-[SPCoreSpotlightIndexer moveMailToClassCWithClone]_block_invoke.2556
++ ___51-[SPCoreSpotlightIndexer moveMailToClassCWithClone]_block_invoke.2560
++ ___51-[SPCoreSpotlightIndexer moveMailToClassCWithClone]_block_invoke.2560.cold.1
++ ___51-[SPCoreSpotlightIndexer moveMailToClassCWithClone]_block_invoke.2560.cold.2
++ ___51-[SPCoreSpotlightIndexer moveMailToClassCWithClone]_block_invoke.2561
++ ___51-[SPCoreSpotlightIndexer moveMailToClassCWithClone]_block_invoke.2561.cold.1
++ ___51-[SPCoreSpotlightIndexer moveMailToClassCWithClone]_block_invoke.2562
++ ___51-[SPCoreSpotlightIndexer moveMailToClassCWithClone]_block_invoke.2562.cold.1
++ ___51-[SPCoreSpotlightIndexer moveMailToClassCWithClone]_block_invoke.2563
++ ___52-[SPConcreteCoreSpotlightIndexer setHasPhotosOrText]_block_invoke.1843
++ ___52-[SPConcreteCoreSpotlightIndexer setHasPhotosOrText]_block_invoke.1844
++ ___54-[MDSearchableIndexService _runLibraryDeletedCommand:]_block_invoke.242
++ ___55-[SpotlightReceiverConnection deleteAllUserActivities:]_block_invoke.378
++ ___57-[MDSearchableIndexService _dispatchActivities:bundleID:]_block_invoke.120
++ ___57-[SPConcreteCoreSpotlightIndexer zombifyAllContactItems:]_block_invoke.1586
++ ___58-[SPCoreSpotlightAppMonitor protectionClassesForBundleID:]_block_invoke
++ ___58-[SPCoreSpotlightIndexer asyncOpenIndex:forInit:readOnly:]_block_invoke_3
++ ___58-[SpotlightReceiverConnection deleteFromBundle:sinceDate:]_block_invoke.381
++ ___59-[SPConcreteCoreSpotlightIndexer _performXPCActivity:name:]_block_invoke.747
++ ___59-[SPConcreteCoreSpotlightIndexer _performXPCActivity:name:]_block_invoke_2.751
++ ___59-[SPCoreSpotlightIndexer _moveClassAIndexToClassCMailIndex]_block_invoke.2539
++ ___59-[SPCoreSpotlightIndexer _moveClassAIndexToClassCMailIndex]_block_invoke_2.2542
++ ___59-[SPCoreSpotlightIndexer _moveClassAIndexToClassCMailIndex]_block_invoke_3.2543
++ ___59-[SpotlightReceiverConnection purgeFromBundle:identifiers:]_block_invoke.374
++ ___60-[SPConcreteCoreSpotlightIndexer _addNewClientWithBundleID:]_block_invoke.1099
++ ___60-[SPConcreteCoreSpotlightIndexer issueDocIDConsistencyCheck]_block_invoke
++ ___60-[SPConcreteCoreSpotlightIndexer issueDocIDConsistencyCheck]_block_invoke.1164
++ ___60-[SPConcreteCoreSpotlightIndexer issueDocIDConsistencyCheck]_block_invoke_2
++ ___60-[SPConcreteCoreSpotlightIndexer issueDocIDConsistencyCheck]_block_invoke_2.cold.1
++ ___60-[SPConcreteCoreSpotlightIndexer issueDocIDConsistencyCheck]_block_invoke_2.cold.2
++ ___60-[SPConcreteCoreSpotlightIndexer issuePriorityIndexFixupOff]_block_invoke.394
++ ___60-[SPConcreteCoreSpotlightIndexer issuePriorityIndexFixupOff]_block_invoke.395
++ ___60-[SPConcreteCoreSpotlightIndexer issuePriorityIndexFixupOff]_block_invoke.401
++ ___60-[SPConcreteCoreSpotlightIndexer issuePriorityIndexFixupOff]_block_invoke.401.cold.1
++ ___60-[SPConcreteCoreSpotlightIndexer suspendIndexForDeviceLock:]_block_invoke.1285
++ ___60-[SPConcreteCoreSpotlightIndexer suspendIndexForDeviceLock:]_block_invoke_2.1288
++ ___60-[SPConcreteCoreSpotlightIndexer suspendIndexForDeviceLock:]_block_invoke_3.1291
++ ___62-[SpotlightReceiverConnection donateRelevantActions:bundleID:]_block_invoke.390
++ ___63-[SPConcreteCoreSpotlightIndexer indexFinishedDrainingJournal:]_block_invoke.770
++ ___63-[SPConcreteCoreSpotlightIndexer indexFinishedDrainingJournal:]_block_invoke.775
++ ___63-[SPConcreteCoreSpotlightIndexer indexFinishedDrainingJournal:]_block_invoke.775.cold.1
++ ___63-[SPConcreteCoreSpotlightIndexer indexFinishedDrainingJournal:]_block_invoke.778
++ ___63-[SPConcreteCoreSpotlightIndexer indexFinishedDrainingJournal:]_block_invoke_2.776
++ ___63-[SPConcreteCoreSpotlightIndexer indexFinishedDrainingJournal:]_block_invoke_2.cold.1
++ ___63-[SPCoreSpotlightIndexer _deleteNonMailBundlesFromClassAIndex:]_block_invoke.2533
++ ___63-[SPCoreSpotlightIndexer performIndexerTask:completionHandler:]_block_invoke_6
++ ___63-[SPCoreSpotlightIndexer performIndexerTask:completionHandler:]_block_invoke_7
++ ___64-[SPConcreteCoreSpotlightIndexer issuePriorityIndexFixupOn:key:]_block_invoke.373
++ ___64-[SPConcreteCoreSpotlightIndexer issuePriorityIndexFixupOn:key:]_block_invoke.374
++ ___64-[SPConcreteCoreSpotlightIndexer issuePriorityIndexFixupOn:key:]_block_invoke.378
++ ___64-[SPConcreteCoreSpotlightIndexer issuePriorityIndexFixupOn:key:]_block_invoke.379
++ ___64-[SPConcreteCoreSpotlightIndexer issuePriorityIndexFixupOn:key:]_block_invoke.387
++ ___64-[SPConcreteCoreSpotlightIndexer issuePriorityIndexFixupOn:key:]_block_invoke.387.cold.1
++ ___64-[SPConcreteCoreSpotlightIndexer issuePriorityIndexFixupOn:key:]_block_invoke.389
++ ___65-[SPConcreteCoreSpotlightIndexer openIndexForUpgradeSynchronous:]_block_invoke.958
++ ___66-[SPConcreteCoreSpotlightIndexer _flushPendingNotificationBatches]_block_invoke.364
++ ___66-[SPConcreteCoreSpotlightIndexer _flushPendingNotificationBatches]_block_invoke.364.cold.1
++ ___66-[SPConcreteCoreSpotlightIndexer _flushPendingNotificationBatches]_block_invoke.364.cold.2
++ ___66-[SpotlightReceiverConnection deleteFromBundle:domainIdentifiers:]_block_invoke.373
++ ___67-[SPConcreteCoreSpotlightIndexer revokeExpiredItems:expirationRef:]_block_invoke.803
++ ___67-[SPConcreteCoreSpotlightIndexer revokeExpiredItems:expirationRef:]_block_invoke.803.cold.1
++ ___67-[SPConcreteCoreSpotlightIndexer revokeExpiredItems:expirationRef:]_block_invoke.804
++ ___67-[SPConcreteCoreSpotlightIndexer revokeExpiredItems:expirationRef:]_block_invoke.804.cold.1
++ ___67-[SPConcreteCoreSpotlightIndexer revokeExpiredItems:expirationRef:]_block_invoke.805
++ ___67-[SPConcreteCoreSpotlightIndexer revokeExpiredItems:expirationRef:]_block_invoke.805.cold.1
++ ___67-[SPConcreteCoreSpotlightIndexer revokeExpiredItems:expirationRef:]_block_invoke.806
++ ___67-[SPConcreteCoreSpotlightIndexer revokeExpiredItems:expirationRef:]_block_invoke.812
++ ___67-[SPConcreteCoreSpotlightIndexer revokeExpiredItems:expirationRef:]_block_invoke_2.816
++ ___67-[SPCoreSpotlightIndexer registerCacheDeleteCallbackForVolumePath:]_block_invoke.2339
++ ___67-[SPCoreSpotlightIndexer registerCacheDeleteCallbackForVolumePath:]_block_invoke.2340
++ ___67-[SPCoreSpotlightIndexer registerPostJournalPlaybackBGSTActivities]_block_invoke.2636
++ ___67-[SPCoreSpotlightIndexer registerPostJournalPlaybackBGSTActivities]_block_invoke.2640
++ ___67-[SPCoreSpotlightIndexer registerPostJournalPlaybackBGSTActivities]_block_invoke.2646
++ ___67-[SPCoreSpotlightIndexer registerPostJournalPlaybackBGSTActivities]_block_invoke.2651
++ ___67-[SPCoreSpotlightIndexer registerPostJournalPlaybackBGSTActivities]_block_invoke.2651.cold.1
++ ___67-[SPCoreSpotlightIndexer registerPostJournalPlaybackBGSTActivities]_block_invoke.2652
++ ___67-[SPCoreSpotlightIndexer registerPostJournalPlaybackBGSTActivities]_block_invoke.2657
++ ___67-[SPCoreSpotlightIndexer registerPostJournalPlaybackBGSTActivities]_block_invoke.2657.cold.1
++ ___67-[SPCoreSpotlightIndexer registerPostJournalPlaybackBGSTActivities]_block_invoke.2658
++ ___67-[SPCoreSpotlightIndexer registerPostJournalPlaybackBGSTActivities]_block_invoke_2.2639
++ ___67-[SPCoreSpotlightIndexer registerPostJournalPlaybackBGSTActivities]_block_invoke_2.2641
++ ___67-[SPCoreSpotlightIndexer registerPostJournalPlaybackBGSTActivities]_block_invoke_2.2649
++ ___67-[SPCoreSpotlightIndexer registerPostJournalPlaybackBGSTActivities]_block_invoke_2.2655
++ ___67-[SPCoreSpotlightIndexer registerPostJournalPlaybackBGSTActivities]_block_invoke_2.2661
++ ___67-[SPCoreSpotlightIndexer registerPostJournalPlaybackBGSTActivities]_block_invoke_3
++ ___67-[SPCoreSpotlightIndexer registerPostJournalPlaybackBGSTActivities]_block_invoke_3.2642
++ ___67-[SPCoreSpotlightIndexer registerPostJournalPlaybackBGSTActivities]_block_invoke_4
++ ___67-[SPCoreSpotlightIndexer registerPostJournalPlaybackBGSTActivities]_block_invoke_4.2645
++ ___67-[SpotlightReceiverConnection deleteFromBundle:encodedIdentifiers:]_block_invoke.370
++ ___70-[SPConcreteCoreSpotlightIndexer checkDocIDConsistencyWithCompletion:]_block_invoke
++ ___71-[SPConcreteCoreSpotlightIndexer performIndexerTask:completionHandler:]_block_invoke_6
++ ___71-[SPConcreteCoreSpotlightIndexer performIndexerTask:completionHandler:]_block_invoke_7
++ ___71-[SpotlightReceiverConnection addUserActions:bundleID:protectionClass:]_block_invoke.377
++ ___72-[SPConcreteCoreSpotlightIndexer checkInWithBundleID:completionHandler:]_block_invoke.1088
++ ___72-[SPConcreteCoreSpotlightIndexer checkInWithBundleID:completionHandler:]_block_invoke.1089
++ ___72-[SPConcreteCoreSpotlightIndexer checkInWithBundleID:completionHandler:]_block_invoke_2.1092
++ ___72-[SPConcreteCoreSpotlightIndexer fetchMeCard:isNotCreateNewIndex:group:]_block_invoke.888
++ ___72-[SpotlightReceiverConnection deleteFromBundle:contentType:identifiers:]_block_invoke.372
++ ___73-[SPConcreteCoreSpotlightIndexer restartAttachmentImport:maxCount:depth:]_block_invoke.1593
++ ___73-[SPConcreteCoreSpotlightIndexer restartAttachmentImport:maxCount:depth:]_block_invoke.1600
++ ___73-[SPConcreteCoreSpotlightIndexer restartAttachmentImport:maxCount:depth:]_block_invoke.1600.cold.1
++ ___73-[SPConcreteCoreSpotlightIndexer restartAttachmentImport:maxCount:depth:]_block_invoke.1604
++ ___73-[SPConcreteCoreSpotlightIndexer restartAttachmentImport:maxCount:depth:]_block_invoke.1604.cold.1
++ ___73-[SPConcreteCoreSpotlightIndexer restartAttachmentImport:maxCount:depth:]_block_invoke.1605
++ ___73-[SPConcreteCoreSpotlightIndexer restartAttachmentImport:maxCount:depth:]_block_invoke.1619
++ ___73-[SPConcreteCoreSpotlightIndexer restartAttachmentImport:maxCount:depth:]_block_invoke.1621
++ ___73-[SPConcreteCoreSpotlightIndexer restartAttachmentImport:maxCount:depth:]_block_invoke.1625
++ ___73-[SPConcreteCoreSpotlightIndexer restartAttachmentImport:maxCount:depth:]_block_invoke_2.1624
++ ___73-[SPConcreteCoreSpotlightIndexer restartAttachmentImport:maxCount:depth:]_block_invoke_2.1628
++ ___75+[SPCoreSpotlightIndexer writeDiagnostic:bundleID:identifier:privacyLevel:]_block_invoke
++ ___76-[MDSearchableIndexService processFetchIndexingPipelineCompletenessMessage:]_block_invoke.200
++ ___76-[MDSearchableIndexService processFetchIndexingPipelineCompletenessMessage:]_block_invoke.200.cold.1
++ ___76-[SPConcreteCoreSpotlightIndexer validateConcreteIndexer:outFileDescriptor:]_block_invoke.1443
++ ___76-[SPConcreteCoreSpotlightIndexer validateConcreteIndexer:outFileDescriptor:]_block_invoke.1448
++ ___76-[SPConcreteCoreSpotlightIndexer validateConcreteIndexer:outFileDescriptor:]_block_invoke.1454
++ ___76-[SPConcreteCoreSpotlightIndexer validateConcreteIndexer:outFileDescriptor:]_block_invoke_2.1444
++ ___76-[SPConcreteCoreSpotlightIndexer validateConcreteIndexer:outFileDescriptor:]_block_invoke_2.1449
++ ___76-[SPConcreteCoreSpotlightIndexer validateConcreteIndexer:outFileDescriptor:]_block_invoke_2.1457
++ ___76-[SPConcreteCoreSpotlightIndexer validateConcreteIndexer:outFileDescriptor:]_block_invoke_2.1457.cold.1
++ ___78-[MDSearchableIndexService performDataMigrationWithTimeout:completionHandler:]_block_invoke.141
++ ___78-[MDSearchableIndexService performDataMigrationWithTimeout:completionHandler:]_block_invoke.154
++ ___78-[SPConcreteCoreSpotlightIndexer openIndex:shouldReindexAll:readOnly:forcePC:]_block_invoke.1025
++ ___78-[SPConcreteCoreSpotlightIndexer openIndex:shouldReindexAll:readOnly:forcePC:]_block_invoke.1031
++ ___78-[SPConcreteCoreSpotlightIndexer openIndex:shouldReindexAll:readOnly:forcePC:]_block_invoke.1036
++ ___78-[SPConcreteCoreSpotlightIndexer openIndex:shouldReindexAll:readOnly:forcePC:]_block_invoke.1044
++ ___78-[SPConcreteCoreSpotlightIndexer openIndex:shouldReindexAll:readOnly:forcePC:]_block_invoke.1048
++ ___78-[SPConcreteCoreSpotlightIndexer openIndex:shouldReindexAll:readOnly:forcePC:]_block_invoke.1054
++ ___78-[SPConcreteCoreSpotlightIndexer openIndex:shouldReindexAll:readOnly:forcePC:]_block_invoke.1060
++ ___78-[SPConcreteCoreSpotlightIndexer openIndex:shouldReindexAll:readOnly:forcePC:]_block_invoke.1071
++ ___78-[SPConcreteCoreSpotlightIndexer openIndex:shouldReindexAll:readOnly:forcePC:]_block_invoke.1075
++ ___78-[SPConcreteCoreSpotlightIndexer openIndex:shouldReindexAll:readOnly:forcePC:]_block_invoke.976
++ ___78-[SPConcreteCoreSpotlightIndexer openIndex:shouldReindexAll:readOnly:forcePC:]_block_invoke_2.1030
++ ___78-[SPConcreteCoreSpotlightIndexer openIndex:shouldReindexAll:readOnly:forcePC:]_block_invoke_2.1034
++ ___78-[SPConcreteCoreSpotlightIndexer openIndex:shouldReindexAll:readOnly:forcePC:]_block_invoke_2.1039
++ ___78-[SPConcreteCoreSpotlightIndexer openIndex:shouldReindexAll:readOnly:forcePC:]_block_invoke_2.1039.cold.1
++ ___78-[SPConcreteCoreSpotlightIndexer openIndex:shouldReindexAll:readOnly:forcePC:]_block_invoke_2.1047
++ ___78-[SPConcreteCoreSpotlightIndexer openIndex:shouldReindexAll:readOnly:forcePC:]_block_invoke_2.1051
++ ___78-[SPConcreteCoreSpotlightIndexer openIndex:shouldReindexAll:readOnly:forcePC:]_block_invoke_2.1057
++ ___78-[SPConcreteCoreSpotlightIndexer openIndex:shouldReindexAll:readOnly:forcePC:]_block_invoke_2.1063
++ ___78-[SPConcreteCoreSpotlightIndexer openIndex:shouldReindexAll:readOnly:forcePC:]_block_invoke_2.979
++ ___78-[SPConcreteCoreSpotlightIndexer openIndex:shouldReindexAll:readOnly:forcePC:]_block_invoke_2.998
++ ___78-[SPConcreteCoreSpotlightIndexer openIndex:shouldReindexAll:readOnly:forcePC:]_block_invoke_3.1035
++ ___78-[SPConcreteCoreSpotlightIndexer openIndex:shouldReindexAll:readOnly:forcePC:]_block_invoke_3.1043
++ ___78-[SPConcreteCoreSpotlightIndexer openIndex:shouldReindexAll:readOnly:forcePC:]_block_invoke_3.980
++ ___78-[SPConcreteCoreSpotlightIndexer openIndex:shouldReindexAll:readOnly:forcePC:]_block_invoke_4.1004
++ ___78-[SPConcreteCoreSpotlightIndexer openIndex:shouldReindexAll:readOnly:forcePC:]_block_invoke_4.983
++ ___78-[SPConcreteCoreSpotlightIndexer scheduleMaintenance:description:forDarkWake:]_block_invoke.763
++ ___79-[SPConcreteCoreSpotlightIndexer fixupMessageAttachmentsWithCompletionHandler:]_block_invoke.1174
++ ___79-[SPConcreteCoreSpotlightIndexer fixupMessageAttachmentsWithCompletionHandler:]_block_invoke_2.1177
++ ___79-[SPConcreteCoreSpotlightIndexer fixupMessageAttachmentsWithCompletionHandler:]_block_invoke_3.1178
++ ___79-[SPConcreteCoreSpotlightIndexer fixupMessageAttachmentsWithCompletionHandler:]_block_invoke_4.1185
++ ___79-[SPCoreSpotlightIndexer reindexAllItemsWithIndexers:reason:completionHandler:]_block_invoke.2758
++ ___79-[SPCoreSpotlightIndexer reindexAllItemsWithIndexers:reason:completionHandler:]_block_invoke.2762
++ ___79-[SPCoreSpotlightIndexer reindexAllItemsWithIndexers:reason:completionHandler:]_block_invoke_2.2761
++ ___79-[SPCoreSpotlightIndexer reindexAllItemsWithIndexers:reason:completionHandler:]_block_invoke_2.2763
++ ___79-[SPCoreSpotlightIndexer reindexAllItemsWithIndexers:reason:completionHandler:]_block_invoke_3.2766
++ ___80-[SPCoreSpotlightIndexer cleanupStringsWithProtectionClasses:completionHandler:]_block_invoke.2615
++ ___80-[SPCoreSpotlightIndexer cleanupStringsWithProtectionClasses:completionHandler:]_block_invoke_2.2616
++ ___81-[SPConcreteCoreSpotlightIndexer processDecryptsForBundleID:persona:infos:group:]_block_invoke.1294
++ ___81-[SPCoreSpotlightIndexer _issueCacheCommand:xpc:searchContext:completionHandler:]_block_invoke.2888
++ ___81-[SpotlightReceiverConnection deleteAllInteractionsWithBundleID:protectionClass:]_block_invoke.388
++ ___82-[SpotlightReceiverConnection indexFromBundle:protectionClass:items:itemsContent:]_block_invoke.328
++ ___83-[SPConcreteCoreSpotlightIndexer writeDiagnostic:bundleID:identifier:privacyLevel:]_block_invoke
++ ___83-[SPConcreteCoreSpotlightIndexer writeDiagnostic:bundleID:identifier:privacyLevel:]_block_invoke_10
++ ___83-[SPConcreteCoreSpotlightIndexer writeDiagnostic:bundleID:identifier:privacyLevel:]_block_invoke_2
++ ___83-[SPConcreteCoreSpotlightIndexer writeDiagnostic:bundleID:identifier:privacyLevel:]_block_invoke_3
++ ___83-[SPConcreteCoreSpotlightIndexer writeDiagnostic:bundleID:identifier:privacyLevel:]_block_invoke_4
++ ___83-[SPConcreteCoreSpotlightIndexer writeDiagnostic:bundleID:identifier:privacyLevel:]_block_invoke_5
++ ___83-[SPConcreteCoreSpotlightIndexer writeDiagnostic:bundleID:identifier:privacyLevel:]_block_invoke_6
++ ___83-[SPConcreteCoreSpotlightIndexer writeDiagnostic:bundleID:identifier:privacyLevel:]_block_invoke_7
++ ___83-[SPConcreteCoreSpotlightIndexer writeDiagnostic:bundleID:identifier:privacyLevel:]_block_invoke_8
++ ___83-[SPConcreteCoreSpotlightIndexer writeDiagnostic:bundleID:identifier:privacyLevel:]_block_invoke_9
++ ___84-[SPCoreSpotlightIndexer _fetchAccumulatedStorageSizeForBundleId:completionHandler:]_block_invoke.3624
++ ___84-[SPCoreSpotlightIndexer _fetchAccumulatedStorageSizeForBundleId:completionHandler:]_block_invoke_2.3627
++ ___85-[SPCoreSpotlightIndexer performIndexerTask:withIndexExtensionsAndCompletionHandler:]_block_invoke.3563
++ ___85-[SPCoreSpotlightIndexer performIndexerTask:withIndexExtensionsAndCompletionHandler:]_block_invoke.3563.cold.1
++ ___85-[SPCoreSpotlightIndexer performIndexerTask:withIndexExtensionsAndCompletionHandler:]_block_invoke.3565
++ ___85-[SPCoreSpotlightIndexer performIndexerTask:withIndexExtensionsAndCompletionHandler:]_block_invoke.3567
++ ___85-[SPCoreSpotlightIndexer performIndexerTask:withIndexExtensionsAndCompletionHandler:]_block_invoke.3567.cold.1
++ ___85-[SPCoreSpotlightIndexer performIndexerTask:withIndexExtensionsAndCompletionHandler:]_block_invoke.3568
++ ___85-[SPCoreSpotlightIndexer performIndexerTask:withIndexExtensionsAndCompletionHandler:]_block_invoke.3569
++ ___85-[SPCoreSpotlightIndexer performIndexerTask:withIndexExtensionsAndCompletionHandler:]_block_invoke.3569.cold.1
++ ___85-[SPCoreSpotlightIndexer performIndexerTask:withIndexExtensionsAndCompletionHandler:]_block_invoke.3570
++ ___87-[SpotlightReceiverConnection addInteraction:intentClassName:bundleID:protectionClass:]_block_invoke.385
++ ___88-[SPConcreteCoreSpotlightIndexer deleteSearchableItemsWithPersonaIds:completionHandler:]_block_invoke.1536
++ ___88-[SPConcreteCoreSpotlightIndexer deleteSearchableItemsWithPersonaIds:completionHandler:]_block_invoke_2.1537
++ ___88-[SPConcreteCoreSpotlightIndexer deleteSearchableItemsWithPersonaIds:completionHandler:]_block_invoke_3.1540
++ ___88-[SPConcreteCoreSpotlightIndexer deleteSearchableItemsWithPersonaIds:completionHandler:]_block_invoke_4.cold.1
++ ___88-[SPCoreSpotlightIndexer performIndexerTask:withAppIntentsProviderAndCompletionHandler:]_block_invoke
++ ___88-[SPCoreSpotlightIndexer performIndexerTask:withAppIntentsProviderAndCompletionHandler:]_block_invoke.3544
++ ___88-[SPCoreSpotlightIndexer performIndexerTask:withAppIntentsProviderAndCompletionHandler:]_block_invoke.3544.cold.1
++ ___88-[SPCoreSpotlightIndexer performIndexerTask:withAppIntentsProviderAndCompletionHandler:]_block_invoke.3545
++ ___88-[SPCoreSpotlightIndexer performIndexerTask:withAppIntentsProviderAndCompletionHandler:]_block_invoke.3545.cold.1
++ ___88-[SPCoreSpotlightIndexer performIndexerTask:withAppIntentsProviderAndCompletionHandler:]_block_invoke.3556
++ ___88-[SPCoreSpotlightIndexer performIndexerTask:withAppIntentsProviderAndCompletionHandler:]_block_invoke.3558
++ ___88-[SPCoreSpotlightIndexer performIndexerTask:withAppIntentsProviderAndCompletionHandler:]_block_invoke.3558.cold.1
++ ___88-[SPCoreSpotlightIndexer performIndexerTask:withAppIntentsProviderAndCompletionHandler:]_block_invoke.3559
++ ___88-[SPCoreSpotlightIndexer performIndexerTask:withAppIntentsProviderAndCompletionHandler:]_block_invoke.cold.1
++ ___88-[SPCoreSpotlightIndexer performIndexerTask:withAppIntentsProviderAndCompletionHandler:]_block_invoke_2
++ ___88-[SPCoreSpotlightIndexer performIndexerTask:withAppIntentsProviderAndCompletionHandler:]_block_invoke_2.3562
++ ___88-[SPCoreSpotlightIndexer performIndexerTask:withAppIntentsProviderAndCompletionHandler:]_block_invoke_2.cold.1
++ ___90-[SPCoreSpotlightIndexer _issueCommand:outFileDescriptor:searchContext:completionHandler:]_block_invoke.2973
++ ___90-[SPCoreSpotlightIndexer _issueCommand:outFileDescriptor:searchContext:completionHandler:]_block_invoke.2984
++ ___90-[SPCoreSpotlightIndexer _issueCommand:outFileDescriptor:searchContext:completionHandler:]_block_invoke.3001
++ ___90-[SPCoreSpotlightIndexer _issueCommand:outFileDescriptor:searchContext:completionHandler:]_block_invoke.3009
++ ___90-[SPCoreSpotlightIndexer _issueCommand:outFileDescriptor:searchContext:completionHandler:]_block_invoke.3022
++ ___90-[SPCoreSpotlightIndexer _issueCommand:outFileDescriptor:searchContext:completionHandler:]_block_invoke.3056
++ ___90-[SPCoreSpotlightIndexer _issueCommand:outFileDescriptor:searchContext:completionHandler:]_block_invoke.3060
++ ___90-[SPCoreSpotlightIndexer _issueCommand:outFileDescriptor:searchContext:completionHandler:]_block_invoke.3064
++ ___90-[SPCoreSpotlightIndexer _issueCommand:outFileDescriptor:searchContext:completionHandler:]_block_invoke.3087
++ ___90-[SPCoreSpotlightIndexer _issueCommand:outFileDescriptor:searchContext:completionHandler:]_block_invoke.3095
++ ___90-[SPCoreSpotlightIndexer _issueCommand:outFileDescriptor:searchContext:completionHandler:]_block_invoke.3108
++ ___90-[SPCoreSpotlightIndexer _issueCommand:outFileDescriptor:searchContext:completionHandler:]_block_invoke.3367
++ ___90-[SPCoreSpotlightIndexer _issueCommand:outFileDescriptor:searchContext:completionHandler:]_block_invoke.3368
++ ___90-[SPCoreSpotlightIndexer _issueCommand:outFileDescriptor:searchContext:completionHandler:]_block_invoke.3378
++ ___90-[SPCoreSpotlightIndexer _issueCommand:outFileDescriptor:searchContext:completionHandler:]_block_invoke.3382
++ ___90-[SPCoreSpotlightIndexer _issueCommand:outFileDescriptor:searchContext:completionHandler:]_block_invoke.3383
++ ___90-[SPCoreSpotlightIndexer _issueCommand:outFileDescriptor:searchContext:completionHandler:]_block_invoke.3387
++ ___90-[SPCoreSpotlightIndexer _issueCommand:outFileDescriptor:searchContext:completionHandler:]_block_invoke.3391
++ ___90-[SPCoreSpotlightIndexer _issueCommand:outFileDescriptor:searchContext:completionHandler:]_block_invoke.3410
++ ___90-[SPCoreSpotlightIndexer _issueCommand:outFileDescriptor:searchContext:completionHandler:]_block_invoke_10.3505
++ ___90-[SPCoreSpotlightIndexer _issueCommand:outFileDescriptor:searchContext:completionHandler:]_block_invoke_11.3506
++ ___90-[SPCoreSpotlightIndexer _issueCommand:outFileDescriptor:searchContext:completionHandler:]_block_invoke_12.3516
++ ___90-[SPCoreSpotlightIndexer _issueCommand:outFileDescriptor:searchContext:completionHandler:]_block_invoke_13.3517
++ ___90-[SPCoreSpotlightIndexer _issueCommand:outFileDescriptor:searchContext:completionHandler:]_block_invoke_14.3525
++ ___90-[SPCoreSpotlightIndexer _issueCommand:outFileDescriptor:searchContext:completionHandler:]_block_invoke_15.3528
++ ___90-[SPCoreSpotlightIndexer _issueCommand:outFileDescriptor:searchContext:completionHandler:]_block_invoke_16.3529
++ ___90-[SPCoreSpotlightIndexer _issueCommand:outFileDescriptor:searchContext:completionHandler:]_block_invoke_17.3530
++ ___90-[SPCoreSpotlightIndexer _issueCommand:outFileDescriptor:searchContext:completionHandler:]_block_invoke_2.2987
++ ___90-[SPCoreSpotlightIndexer _issueCommand:outFileDescriptor:searchContext:completionHandler:]_block_invoke_2.3004
++ ___90-[SPCoreSpotlightIndexer _issueCommand:outFileDescriptor:searchContext:completionHandler:]_block_invoke_2.3012
++ ___90-[SPCoreSpotlightIndexer _issueCommand:outFileDescriptor:searchContext:completionHandler:]_block_invoke_2.3109
++ ___90-[SPCoreSpotlightIndexer _issueCommand:outFileDescriptor:searchContext:completionHandler:]_block_invoke_2.3301
++ ___90-[SPCoreSpotlightIndexer _issueCommand:outFileDescriptor:searchContext:completionHandler:]_block_invoke_2.3371
++ ___90-[SPCoreSpotlightIndexer _issueCommand:outFileDescriptor:searchContext:completionHandler:]_block_invoke_2.3441
++ ___90-[SPCoreSpotlightIndexer _issueCommand:outFileDescriptor:searchContext:completionHandler:]_block_invoke_3.2988
++ ___90-[SPCoreSpotlightIndexer _issueCommand:outFileDescriptor:searchContext:completionHandler:]_block_invoke_3.3005
++ ___90-[SPCoreSpotlightIndexer _issueCommand:outFileDescriptor:searchContext:completionHandler:]_block_invoke_3.3013
++ ___90-[SPCoreSpotlightIndexer _issueCommand:outFileDescriptor:searchContext:completionHandler:]_block_invoke_3.3119
++ ___90-[SPCoreSpotlightIndexer _issueCommand:outFileDescriptor:searchContext:completionHandler:]_block_invoke_3.3305
++ ___90-[SPCoreSpotlightIndexer _issueCommand:outFileDescriptor:searchContext:completionHandler:]_block_invoke_3.3445
++ ___90-[SPCoreSpotlightIndexer _issueCommand:outFileDescriptor:searchContext:completionHandler:]_block_invoke_4.3120
++ ___90-[SPCoreSpotlightIndexer _issueCommand:outFileDescriptor:searchContext:completionHandler:]_block_invoke_4.3312
++ ___90-[SPCoreSpotlightIndexer _issueCommand:outFileDescriptor:searchContext:completionHandler:]_block_invoke_4.3449
++ ___90-[SPCoreSpotlightIndexer _issueCommand:outFileDescriptor:searchContext:completionHandler:]_block_invoke_5.3343
++ ___90-[SPCoreSpotlightIndexer _issueCommand:outFileDescriptor:searchContext:completionHandler:]_block_invoke_5.3473
++ ___90-[SPCoreSpotlightIndexer _issueCommand:outFileDescriptor:searchContext:completionHandler:]_block_invoke_6.3344
++ ___90-[SPCoreSpotlightIndexer _issueCommand:outFileDescriptor:searchContext:completionHandler:]_block_invoke_6.3474
++ ___90-[SPCoreSpotlightIndexer _issueCommand:outFileDescriptor:searchContext:completionHandler:]_block_invoke_7.3347
++ ___90-[SPCoreSpotlightIndexer _issueCommand:outFileDescriptor:searchContext:completionHandler:]_block_invoke_7.3478
++ ___90-[SPCoreSpotlightIndexer _issueCommand:outFileDescriptor:searchContext:completionHandler:]_block_invoke_8.3357
++ ___90-[SPCoreSpotlightIndexer _issueCommand:outFileDescriptor:searchContext:completionHandler:]_block_invoke_8.3491
++ ___90-[SPCoreSpotlightIndexer _issueCommand:outFileDescriptor:searchContext:completionHandler:]_block_invoke_9.3496
++ ___90-[SpotlightReceiverConnection deleteInteractionsWithIdentifiers:bundleID:protectionClass:]_block_invoke.386
++ ___92-[SPConcreteCoreSpotlightIndexer performIndexerTask:withIndexDelegatesAndCompletionHandler:]_block_invoke.1107
++ ___92-[SPConcreteCoreSpotlightIndexer performIndexerTask:withIndexDelegatesAndCompletionHandler:]_block_invoke.1108
++ ___93-[SPCoreSpotlightIndexer userPerformedAction:withItem:protectionClass:forBundleID:personaID:]_block_invoke.2814
++ ___93-[SPCoreSpotlightIndexer userPerformedAction:withItem:protectionClass:forBundleID:personaID:]_block_invoke_2.2815
++ ___94-[SPConcreteCoreSpotlightIndexer requestRequiresImportWithoutSandboxExtension:maxCount:depth:]_block_invoke.825
++ ___94-[SPConcreteCoreSpotlightIndexer requestRequiresImportWithoutSandboxExtension:maxCount:depth:]_block_invoke.826
++ ___94-[SPConcreteCoreSpotlightIndexer requestRequiresImportWithoutSandboxExtension:maxCount:depth:]_block_invoke.827
++ ___94-[SPConcreteCoreSpotlightIndexer requestRequiresImportWithoutSandboxExtension:maxCount:depth:]_block_invoke.831
++ ___94-[SPConcreteCoreSpotlightIndexer requestRequiresImportWithoutSandboxExtension:maxCount:depth:]_block_invoke_2.830
++ ___94-[SPConcreteCoreSpotlightIndexer requestRequiresImportWithoutSandboxExtension:maxCount:depth:]_block_invoke_2.834
++ ___95-[SPConcreteCoreSpotlightIndexer deleteSearchableItemsSinceDate:forBundleID:completionHandler:]_block_invoke.cold.1
++ ___95-[SPConcreteCoreSpotlightIndexer deleteSearchableItemsSinceDate:forBundleID:completionHandler:]_block_invoke_2
++ ___95-[SpotlightReceiverConnection deleteInteractionsWithGroupIdentifiers:bundleID:protectionClass:]_block_invoke.387
++ ___96-[SpotlightDaemonServer handleJob:protectionClass:perClientCompletionHandler:completionHandler:]_block_invoke.88
++ ___97-[SPConcreteCoreSpotlightIndexer deleteSearchableItemsWithFileProviderDomains:completionHandler:]_block_invoke.1542
++ ___97-[SPConcreteCoreSpotlightIndexer deleteSearchableItemsWithFileProviderDomains:completionHandler:]_block_invoke.1552
++ ___97-[SPConcreteCoreSpotlightIndexer deleteSearchableItemsWithFileProviderDomains:completionHandler:]_block_invoke_2.1553
++ ___97-[SPConcreteCoreSpotlightIndexer deleteSearchableItemsWithFileProviderDomains:completionHandler:]_block_invoke_3.1554
++ ___97-[SPConcreteCoreSpotlightIndexer deleteSearchableItemsWithFileProviderDomains:completionHandler:]_block_invoke_3.cold.1
++ ___97-[SPConcreteCoreSpotlightIndexer deleteSearchableItemsWithFileProviderDomains:completionHandler:]_block_invoke_3.cold.2
++ ___97-[SPConcreteCoreSpotlightIndexer deleteSearchableItemsWithFileProviderDomains:completionHandler:]_block_invoke_4.1557
++ ___97-[SPConcreteCoreSpotlightIndexer fetchLastLinkedTimestampForBundleID:useCache:completionHandler:]_block_invoke
++ ___97-[SPConcreteCoreSpotlightIndexer fetchLastLinkedTimestampForBundleID:useCache:completionHandler:]_block_invoke_2
++ ___97-[SPConcreteCoreSpotlightIndexer fetchLastLinkedTimestampForBundleID:useCache:completionHandler:]_block_invoke_3
++ ___97-[SPConcreteCoreSpotlightIndexer fetchLastLinkedTimestampForBundleID:useCache:completionHandler:]_block_invoke_4
++ ___97-[SPConcreteCoreSpotlightIndexer fetchLastLinkedTimestampForBundleID:useCache:completionHandler:]_block_invoke_5
++ ___97-[SPCoreSpotlightIndexer mergeWithProtectionClasses:power:inferSpecialIndexes:completionHandler:]_block_invoke.2605
++ ___97-[SPCoreSpotlightIndexer mergeWithProtectionClasses:power:inferSpecialIndexes:completionHandler:]_block_invoke.2605.cold.1
++ ___97-[SPCoreSpotlightIndexer mergeWithProtectionClasses:power:inferSpecialIndexes:completionHandler:]_block_invoke.2606
++ ___97-[SPCoreSpotlightIndexer mergeWithProtectionClasses:power:inferSpecialIndexes:completionHandler:]_block_invoke.2610
++ ___97-[SPCoreSpotlightIndexer mergeWithProtectionClasses:power:inferSpecialIndexes:completionHandler:]_block_invoke.2611
++ ___97-[SPCoreSpotlightIndexer mergeWithProtectionClasses:power:inferSpecialIndexes:completionHandler:]_block_invoke_2.2612
++ ___99-[SpotlightReceiverConnection deleteUserActivitiesWithPersistentIdentifiers:bundleID:retainedData:]_block_invoke.379
++ ___SPBundleCacheInit_block_invoke
++ ___SPBundleCacheInit_block_invoke_2
++ ___SPSetBundleCacheUpdateBlock_block_invoke
++ ____SPBuildBundleCache_block_invoke
++ ____SPBuildBundleCache_block_invoke.65
++ ____SPBuildBundleCache_block_invoke.65.cold.1
++ ____SPBuildBundleCache_block_invoke.66
++ ____SPBuildBundleCache_block_invoke.66.cold.1
++ ____SPBuildBundleCache_block_invoke.cold.1
++ ___block_descriptor_104_e8_32s40s48s56s64s72r80r88r_e40_v16?0"SPConcreteCoreSpotlightIndexer"8ls32l8s40l8s48l8s56l8r72l8r80l8r88l8s64l8
++ ___block_descriptor_104_e8_32s40s48s56s64s72s80bs_e5_v8?0ls32l8s40l8s48l8s80l8s56l8s64l8s72l8
++ ___block_descriptor_106_e8_32s40s48s56bs64r72r80w_e17_v16?0"NSError"8lw80l8s56l8s32l8s40l8r64l8r72l8s48l8
++ ___block_descriptor_133_e8_32s40s48s56s64s72s80bs_e5_v8?0ls32l8s40l8s48l8s56l8s64l8s72l8s80l8
++ ___block_descriptor_136_e8_32bs40bs48bs56r64r72r80r_e34_v28?0i8^{md_json_value=i*Q}12^B20lr56l8r64l8s32l8r72l8r80l8s40l8s48l8
++ ___block_descriptor_146_e8_32s40s48s56s64s72s80s88s96s104s112bs_e5_v8?0ls32l8s112l8s40l8s48l8s56l8s64l8s72l8s80l8s88l8s96l8s104l8
++ ___block_descriptor_152_e8_32s40s48s56s64s72s80s88s96s104s112r120r128r_e40_v16?0"SPConcreteCoreSpotlightIndexer"8ls32l8s40l8s48l8s56l8s64l8s72l8s80l8s88l8s96l8s104l8r112l8r120l8r128l8
++ ___block_descriptor_186_e8_32s40s48s56s64s72s80s88s96s104s112s120s128bs136w_e18_v20?0^{__SI=}8C16lw136l8s128l8s32l8s40l8s48l8s56l8s64l8s72l8s80l8s88l8s96l8s104l8s112l8s120l8
++ ___block_descriptor_40_e8_32bs_e11_v20?0Q8i16ls32l8
++ ___block_descriptor_40_e8_32bs_e30_v24?0"NSNumber"8"NSError"16ls32l8
++ ___block_descriptor_40_e8_32r_e17_v16?0"NSArray"8lr32l8
++ ___block_descriptor_40_e8_32r_e31_v24?0^{md_json_value=i*Q}8^B16lr32l8
++ ___block_descriptor_40_e8_32r_e56_v40?0^{md_json_value=i*Q}8^{md_json_value=i*Q}16Q24^B32lr32l8
++ ___block_descriptor_40_e8_32s_e12_v20?0i8r*12ls32l8
++ ___block_descriptor_40_e8_32s_e15_v16?0"NSSet"8ls32l8
++ ___block_descriptor_48_e8_32r_e17_v16?0"NSError"8lr32l8
++ ___block_descriptor_48_e8_32s40bs_e40_v16?0"SPConcreteCoreSpotlightIndexer"8ls32l8s40l8
++ ___block_descriptor_48_e8_32s40r_e22_v16?0"NSDictionary"8lr40l8s32l8
++ ___block_descriptor_48_e8_32s40w_e5_v8?0lw40l8s32l8
++ ___block_descriptor_49_e8_32s40bs_e18_v20?0^{__SI=}8C16ls40l8s32l8
++ ___block_descriptor_56_e8_32bs40r48r_e5_v8?0lr40l8r48l8s32l8
++ ___block_descriptor_56_e8_32bs40r48r_e5_v8?0ls32l8r40l8r48l8
++ ___block_descriptor_56_e8_32s40bs_e5_v8?0ls32l8s40l8
++ ___block_descriptor_56_e8_32s40s48bs_e17_v16?0"NSError"8ls32l8s40l8s48l8
++ ___block_descriptor_56_e8_32s40s48r_e5_v8?0ls32l8s40l8r48l8
++ ___block_descriptor_56_e8_32s40s48s_e34_v24?0"NSDictionary"8"NSError"16ls32l8s40l8s48l8
++ ___block_descriptor_56_e8_32w_e22_v16?0"NSDictionary"8lw32l8
++ ___block_descriptor_57_e8_32s40s48bs_e5_v8?0ls32l8s48l8s40l8
++ ___block_descriptor_60_e8_32s40r_e21_v32?0I8S12^q16I24I28ls32l8r40l8
++ ___block_descriptor_64_e8_32s40s48bs_e17_v16?0"NSError"8ls32l8s40l8s48l8
++ ___block_descriptor_64_e8_32s40s_e18_v20?0^{__SI=}8C16ls32l8s40l8
++ ___block_descriptor_64_e8_32s40w_e5_v8?0lw40l8s32l8
++ ___block_descriptor_72_e8_32s40s48r56r64r_e17_v16?0"NSError"8lr48l8s32l8r56l8r64l8s40l8
++ ___block_descriptor_72_e8_32s40s48r56r64r_e20_v20?0"NSError"8B16lr48l8s32l8r56l8r64l8s40l8
++ ___block_descriptor_72_e8_32s40s48r56r64r_e31_v24?0^{md_json_value=i*Q}8^B16lr48l8s32l8r56l8r64l8s40l8
++ ___block_descriptor_72_e8_32s40s48s56r_e57_v32?0"NSString"8"SPConcreteCoreSpotlightIndexer"16^B24lr56l8s32l8s40l8s48l8
++ ___block_descriptor_72_e8_32s40s48w_e17_v16?0"NSError"8ls32l8w48l8s40l8
++ ___block_descriptor_76_e8_32s40s48s56s_e18_v20?0^{__SI=}8C16ls32l8s40l8s48l8s56l8
++ ___block_descriptor_77_e8_32s40s48s56s64r_e5_v8?0ls32l8s40l8r64l8s48l8s56l8
++ ___block_descriptor_80_e8_32s40s48s56bs64w_e17_v16?0"NSError"8ls56l8s32l8s40l8s48l8w64l8
++ ___block_descriptor_80_e8_32s40s48s56s64bs_e5_v8?0ls32l8s64l8s40l8s48l8s56l8
++ ___block_descriptor_80_e8_32s40s48s56s64s72s_e17_v16?0"NSArray"8ls32l8s40l8s48l8s56l8s64l8s72l8
++ ___block_descriptor_84_e8_32s40s48s56s64r_e69_v48?0"SPQueryJob"8q16Q24^{__MDStoreOIDArray=}32^{__MDPlistBytes=}40ls32l8s40l8s48l8s56l8r64l8
++ ___block_descriptor_85_e8_32s40s48s56s64r_e18_v20?0^{__SI=}8C16lr64l8s32l8s40l8s48l8s56l8
++ ___block_descriptor_93_e8_32s40s48bs56r64r_e5_v8?0ls32l8s40l8r56l8s48l8r64l8
++ ___block_descriptor_96_e8_32s40s_e30_v24?0"NSNumber"8"NSError"16ls32l8s40l8
++ ___block_literal_global.1000
++ ___block_literal_global.1003
++ ___block_literal_global.1006
++ ___block_literal_global.1027
++ ___block_literal_global.1053
++ ___block_literal_global.1059
++ ___block_literal_global.1065
++ ___block_literal_global.1077
++ ___block_literal_global.121
++ ___block_literal_global.1280
++ ___block_literal_global.1283
++ ___block_literal_global.1287
++ ___block_literal_global.1290
++ ___block_literal_global.1293
++ ___block_literal_global.1349
++ ___block_literal_global.1394
++ ___block_literal_global.1405
++ ___block_literal_global.1434
++ ___block_literal_global.1437
++ ___block_literal_global.144
++ ___block_literal_global.1530
++ ___block_literal_global.1682
++ ___block_literal_global.1750
++ ___block_literal_global.1778
++ ___block_literal_global.216
++ ___block_literal_global.2295
++ ___block_literal_global.2300
++ ___block_literal_global.2318
++ ___block_literal_global.2322
++ ___block_literal_global.2342
++ ___block_literal_global.2344
++ ___block_literal_global.2346
++ ___block_literal_global.2349
++ ___block_literal_global.2367
++ ___block_literal_global.2380
++ ___block_literal_global.2383
++ ___block_literal_global.2387
++ ___block_literal_global.24
++ ___block_literal_global.2413
++ ___block_literal_global.2420
++ ___block_literal_global.2431
++ ___block_literal_global.244
++ ___block_literal_global.2453
++ ___block_literal_global.2471
++ ___block_literal_global.2568
++ ___block_literal_global.2576
++ ___block_literal_global.2596
++ ___block_literal_global.2604
++ ___block_literal_global.261
++ ___block_literal_global.2622
++ ___block_literal_global.264
++ ___block_literal_global.2673
++ ___block_literal_global.2680
++ ___block_literal_global.2682
++ ___block_literal_global.2688
++ ___block_literal_global.2709
++ ___block_literal_global.2741
++ ___block_literal_global.2795
++ ___block_literal_global.2817
++ ___block_literal_global.2921
++ ___block_literal_global.3015
++ ___block_literal_global.3232
++ ___block_literal_global.3237
++ ___block_literal_global.3242
++ ___block_literal_global.3247
++ ___block_literal_global.3252
++ ___block_literal_global.3257
++ ___block_literal_global.3262
++ ___block_literal_global.3276
++ ___block_literal_global.3579
++ ___block_literal_global.362
++ ___block_literal_global.3640
++ ___block_literal_global.3658
++ ___block_literal_global.366
++ ___block_literal_global.393
++ ___block_literal_global.397
++ ___block_literal_global.4248
++ ___block_literal_global.4292
++ ___block_literal_global.4387
++ ___block_literal_global.4395
++ ___block_literal_global.4397
++ ___block_literal_global.44
++ ___block_literal_global.4426
++ ___block_literal_global.4433
++ ___block_literal_global.46
++ ___block_literal_global.509
++ ___block_literal_global.511
++ ___block_literal_global.554
++ ___block_literal_global.657
++ ___block_literal_global.728
++ ___block_literal_global.769
++ ___block_literal_global.797
++ ___block_literal_global.869
++ ___block_literal_global.874
++ ___block_literal_global.878
++ ___block_literal_global.881
++ ___block_literal_global.884
++ ___block_literal_global.886
++ ___block_literal_global.915
++ ___block_literal_global.949
++ ___block_literal_global.954
++ ___block_literal_global.972
++ ___cachedBundleIdentifiers
++ ___collectSpotlightLogs_block_invoke.4313
++ ___processItemsForImportInner_block_invoke.4342
++ ___processItemsForImportInner_block_invoke.4342.cold.1
++ ___processItemsForImportInner_block_invoke.4343
++ __commitBundleRegistryToDisk
++ __commitBundleRegistryToDisk.cold.1
++ __commitBundleRegistryToDisk.cold.2
++ _bundleIdHash
++ _gSpotlightKnowledgeProcessingQueue
++ _kSPReindexAllCompletedBundleIDs_block_invoke_5.sQueryQueue
++ _kSPReindexAllCompletedBundleIDs_block_invoke_5.sQueryQueueOnce
++ _kSPReindexAllCompletedBundleIDs_block_invoke_8.queueNum
++ _objc_claimAutoreleasedReturnValue
++ _objc_msgSend$URL
++ _objc_msgSend$_appInfoForBundleID:
++ _objc_msgSend$_appInfoPath
++ _objc_msgSend$_deleteAllSearchableItemsWithBundleID:protectionClass:shouldGC:options:deleteAllReason:donationTimestamp:completionHandler:
++ _objc_msgSend$_issueDiagnose:bundleID:privacyLevel:completionHandler:
++ _objc_msgSend$_loadAppInfo
++ _objc_msgSend$_loadSynonymsFromFile:error:
++ _objc_msgSend$_processIndexDataForBundle:protectionClass:personaID:options:items:itemsText:itemsHTML:clientState:expectedClientState:clientStateName:donationTimestamp:deletes:completionHandler:
++ _objc_msgSend$_startInternalQueryWithIndex:query:liftingRules:fetchAttributes:forBundleIds:maxCount:resultQueue:postFilter:clientBundleID:shouldDeferBlock:resultsHandler:
++ _objc_msgSend$_writeInfoDict:
++ _objc_msgSend$allowIndexWipe
++ _objc_msgSend$checkDocIDConsistencyWithCompletion:
++ _objc_msgSend$compiledRankingFactsConfiguration
++ _objc_msgSend$dataWithContentsOfFile:options:error:
++ _objc_msgSend$deleteAllSearchableItemsForBundleID:fromClient:shouldGC:options:deleteAllReason:donationTimestamp:completionHandler:
++ _objc_msgSend$deleteAllSearchableItemsWithBundleID:fromClient:protectionClass:shouldGC:options:deleteAllReason:donationTimestamp:completionHandler:
++ _objc_msgSend$deleteSearchableItemsWithDomainIdentifiers:forBundleID:fromClient:reason:donationTimestamp:completionHandler:
++ _objc_msgSend$deleteSearchableItemsWithDomainIdentifiers:protectionClass:forBundleID:fromClient:options:donationTimestamp:completionHandler:
++ _objc_msgSend$deprioritizedQueriesWithCapabilities:inputValueType:resultValueType:bundleIdentifier:completionHandler:
++ _objc_msgSend$entityIdentifierFromIdentifier:entityType:
++ _objc_msgSend$excludePhotos
++ _objc_msgSend$extraTTRInfoForPrivacyLevel:
++ _objc_msgSend$fetchLastLinkedTimestampForBundleID:useCache:completionHandler:
++ _objc_msgSend$fetchLastLinkedTimestampWithProtectionClass:forBundleID:completionHandler:
++ _objc_msgSend$fetchLinkedTimestamp:
++ _objc_msgSend$fetchParentItemIDsForItemID:recursively:completionHandler:
++ _objc_msgSend$fetchSearchableItemForURL:
++ _objc_msgSend$fileProviderDomainIdentifier
++ _objc_msgSend$fileProviderID
++ _objc_msgSend$filterForDisabledBundles:logForQuery:
++ _objc_msgSend$finishDecoding
++ _objc_msgSend$getSynonymsForWord:
++ _objc_msgSend$hardFilterQuery
++ _objc_msgSend$hdbMigratedBundlesPath
++ _objc_msgSend$indexFromBundle:personaID:options:items:itemsText:itemsHTML:clientState:expectedClientState:clientStateName:donationTimestamp:deletes:canCreateNewIndex:completionHandler:
++ _objc_msgSend$indexFromBundle:protectionClass:personaID:options:items:itemsText:itemsHTML:clientState:expectedClientState:clientStateName:donationTimestamp:deletes:canCreateNewIndex:completionHandler:
++ _objc_msgSend$indexWithCascadeData:bundleID:protectionClass:indexType:serialNumber:journalCookie:config:completionHandler:
++ _objc_msgSend$indexWithFd:offset:size:indexType:bundleID:protectionClass:serialNumber:journalCookie:config:additionalAttributes:updateDestination:skipIndexCheck:completionHandler:
++ _objc_msgSend$initWithBundleID:persona:
++ _objc_msgSend$initWithBundleID:protectionClass:persona:
++ _objc_msgSend$initWithBundleIdentifier:allowPlaceholder:error:
++ _objc_msgSend$initWithIdentifier:entityType:
++ _objc_msgSend$initWithName:protectionClass:bundleIdentifier:
++ _objc_msgSend$initWithOptions:
++ _objc_msgSend$initWithPlistPath:
++ _objc_msgSend$isBundleHDBMigrated:
++ _objc_msgSend$isBundleMigrated:
++ _objc_msgSend$issueDocIDConsistencyCheck
++ _objc_msgSend$lnHandler
++ _objc_msgSend$lnProvider
++ _objc_msgSend$loadFromDisk
++ _objc_msgSend$loadSynonymDictionary
++ _objc_msgSend$migratedBundles
++ _objc_msgSend$performIndexerTask:withAppIntentsProviderAndCompletionHandler:
++ _objc_msgSend$propertyListWithData:options:format:error:
++ _objc_msgSend$protectionClassesForBundleID:
++ _objc_msgSend$queryEmbeddings
++ _objc_msgSend$registerBundle:
++ _objc_msgSend$reindexAllSearchableItemsWithIndexDescription:acknowledgementHandler:
++ _objc_msgSend$reindexSearchableItemsWithIdentifiers:indexDescription:acknowledgementHandler:
++ _objc_msgSend$searchableItemForURL:error:
++ _objc_msgSend$setAllowIndexWipe:
++ _objc_msgSend$setAppEntitySchemas:
++ _objc_msgSend$setDisableAppEntitySchemas:
++ _objc_msgSend$setWithCapacity:
++ _objc_msgSend$slowFetchAttributes:protectionClass:bundleID:identifiers:completionHandler:
++ _objc_msgSend$timeCritical
++ _objc_msgSend$writeDiagnostic:bundleID:identifier:privacyLevel:
++ _objc_msgSend$writeToFile:atomically:
++ _objc_retainAutoreleaseReturnValue
++ _objc_retain_x10
++ _sBundleCacheLock
++ _sBundleCacheQueue
++ _sBundleCacheSource
++ _sBundleCacheUpdateBlock
++ _xpc_data_create
++ _xpc_dictionary_get_data
+- +[SPConcreteCoreSpotlightIndexer fetchItemForURL:]
+- +[SPCoreSpotlightIndexer writeDiagnostic:bundleID:identifier:logQuery:]
+- +[SpotlightSender(SpotlightScheduledSender) addOrUpdateSearchableItemsInJournalFd:atOffset:size:indexType:bundleID:protectionClass:serialNumber:journalCookie:additionalAttributes:client:config:completionHandler:]
+- -[CSDonationProgressStreamRecorder donationPermmited]
+- -[MDSearchableIndexService _deleteAllSearchableItemsWithBundleID:protectionClass:shouldGC:options:deleteAllReason:completionHandler:]
+- -[MDSearchableIndexService _issueDiagnose:bundleID:logQuery:completionHandler:]
+- -[MDSearchableIndexService _issueDiagnose:bundleID:logQuery:completionHandler:].cold.1
+- -[MDSearchableIndexService _processIndexDataForBundle:protectionClass:personaID:options:items:itemsText:itemsHTML:clientState:expectedClientState:clientStateName:deletes:completionHandler:]
+- -[MDSearchableIndexService deleteSearchableItemsWithDomainIdentifiers:protectionClass:forBundleID:fromClient:options:completionHandler:]
+- -[MDSearchableIndexService deleteSearchableItemsWithDomainIdentifiers:protectionClass:forBundleID:fromClient:options:completionHandler:].cold.1
+- -[MDSearchableIndexService indexFromBundle:protectionClass:options:items:itemsText:itemsHTML:clientState:expectedClientState:clientStateName:deletes:userActivities:completionHandler:]
+- -[MDSearchableIndexService indexFromBundle:protectionClass:options:items:itemsText:itemsHTML:clientState:expectedClientState:clientStateName:deletes:userActivities:completionHandler:].cold.1
+- -[SDPommesSynonyms _loadSynonymsFromFile:isFirstPass:isDate:error:]
+- -[SDPommesSynonyms _loadSynonymsFromFile:isFirstPass:isDate:error:].cold.1
+- -[SDPommesSynonyms _loadSynonymsFromFile:isFirstPass:isDate:error:].cold.2
+- -[SDPommesSynonyms _loadSynonymsFromFile:isFirstPass:isDate:error:].cold.3
+- -[SDPommesSynonyms generateDateSynonymsFromToken:previousToken:isOrdinalToken:]
+- -[SDPommesSynonyms generateDateSynonymsFromToken:previousToken:isOrdinalToken:].cold.1
+- -[SDPommesSynonyms getDateSynonymsForWord:]
+- -[SDPommesSynonyms getFirstPassSynonymsForWord:]
+- -[SDPommesSynonyms getSecondPassSynonymsForWord:]
+- -[SDPommesSynonyms loadDateSynonymDictionary]
+- -[SDPommesSynonyms loadDateSynonymDictionary].cold.1
+- -[SDPommesSynonyms loadDateSynonymDictionary].cold.2
+- -[SDPommesSynonyms loadFirstPassSynonymDictionary]
+- -[SDPommesSynonyms loadFirstPassSynonymDictionary].cold.1
+- -[SDPommesSynonyms loadFirstPassSynonymDictionary].cold.2
+- -[SDPommesSynonyms loadSecondPassSynonymDictionary]
+- -[SDPommesSynonyms loadSecondPassSynonymDictionary].cold.1
+- -[SDPommesSynonyms loadSecondPassSynonymDictionary].cold.2
+- -[SPConcreteCoreSpotlightIndexer _startInternalQueryWithIndex:query:liftingRules:fetchAttributes:forBundleIds:maxCount:resultQueue:postFilter:clientBundleID:resultsHandler:]
+- -[SPConcreteCoreSpotlightIndexer checkDocIDConsistency]
+- -[SPConcreteCoreSpotlightIndexer checkDocIDConsistency].cold.1
+- -[SPConcreteCoreSpotlightIndexer deleteAllSearchableItemsForBundleID:fromClient:shouldGC:deleteAllReason:completionHandler:]
+- -[SPConcreteCoreSpotlightIndexer deleteSearchableItemsWithDomainIdentifiers:forBundleID:fromClient:reason:completionHandler:]
+- -[SPConcreteCoreSpotlightIndexer deleteSearchableItemsWithDomainIdentifiers:forBundleID:fromClient:reason:completionHandler:].cold.1
+- -[SPConcreteCoreSpotlightIndexer indexFromBundle:personaID:options:items:itemsText:itemsHTML:clientState:expectedClientState:clientStateName:deletes:canCreateNewIndex:completionHandler:]
+- -[SPConcreteCoreSpotlightIndexer issueDocIDConsistencyCheck:]
+- -[SPConcreteCoreSpotlightIndexer issueDocIDConsistencyCheck:].cold.1
+- -[SPConcreteCoreSpotlightIndexer issueDocIDConsistencyCheck:].cold.2
+- -[SPConcreteCoreSpotlightIndexer writeDiagnostic:bundleID:identifier:]
+- -[SPCoreSpotlightIndexer _issueDiagnose:bundleID:logQuery:completionHandler:]
+- -[SPCoreSpotlightIndexer _issueDiagnose:bundleID:logQuery:completionHandler:].cold.1
+- -[SPCoreSpotlightIndexer dateRewritesFromContext:]
+- -[SPCoreSpotlightIndexer deleteAllSearchableItemsWithBundleID:fromClient:protectionClass:shouldGC:deleteAllReason:completionHandler:]
+- -[SPCoreSpotlightIndexer deleteSearchableItemsWithDomainIdentifiers:protectionClass:forBundleID:fromClient:options:completionHandler:]
+- -[SPCoreSpotlightIndexer deleteSearchableItemsWithDomainIdentifiers:protectionClass:forBundleID:options:completionHandler:]
+- -[SPCoreSpotlightIndexer indexFromBundle:protectionClass:personaID:options:items:itemsText:itemsHTML:clientState:expectedClientState:clientStateName:deletes:canCreateNewIndex:completionHandler:]
+- -[SPCoreSpotlightIndexer rewriteFirstPassQueryWithQueryString:context:trimmedSearchStringTokens:populateDateSynonyms:]
+- -[SpotlightReceiverConnection indexWithFd:offset:size:indexType:bundleID:protectionClass:serialNumber:journalCookie:config:additionalAttributes:completionHandler:]
+- GCC_except_table100
+- GCC_except_table103
+- GCC_except_table104
+- GCC_except_table1046
+- GCC_except_table107
+- GCC_except_table108
+- GCC_except_table1082
+- GCC_except_table1088
+- GCC_except_table1089
+- GCC_except_table1095
+- GCC_except_table1096
+- GCC_except_table1097
+- GCC_except_table1098
+- GCC_except_table1106
+- GCC_except_table1121
+- GCC_except_table1135
+- GCC_except_table114
+- GCC_except_table1145
+- GCC_except_table115
+- GCC_except_table1152
+- GCC_except_table1166
+- GCC_except_table1173
+- GCC_except_table1189
+- GCC_except_table125
+- GCC_except_table1258
+- GCC_except_table1260
+- GCC_except_table1266
+- GCC_except_table128
+- GCC_except_table1320
+- GCC_except_table1442
+- GCC_except_table1447
+- GCC_except_table1448
+- GCC_except_table1509
+- GCC_except_table1512
+- GCC_except_table1514
+- GCC_except_table1517
+- GCC_except_table1518
+- GCC_except_table1707
+- GCC_except_table178
+- GCC_except_table183
+- GCC_except_table19
+- GCC_except_table196
+- GCC_except_table203
+- GCC_except_table213
+- GCC_except_table214
+- GCC_except_table220
+- GCC_except_table228
+- GCC_except_table229
+- GCC_except_table235
+- GCC_except_table237
+- GCC_except_table251
+- GCC_except_table254
+- GCC_except_table256
+- GCC_except_table27
+- GCC_except_table272
+- GCC_except_table280
+- GCC_except_table318
+- GCC_except_table32
+- GCC_except_table328
+- GCC_except_table340
+- GCC_except_table373
+- GCC_except_table395
+- GCC_except_table41
+- GCC_except_table423
+- GCC_except_table424
+- GCC_except_table439
+- GCC_except_table440
+- GCC_except_table469
+- GCC_except_table493
+- GCC_except_table507
+- GCC_except_table510
+- GCC_except_table521
+- GCC_except_table523
+- GCC_except_table524
+- GCC_except_table561
+- GCC_except_table572
+- GCC_except_table591
+- GCC_except_table597
+- GCC_except_table60
+- GCC_except_table614
+- GCC_except_table615
+- GCC_except_table624
+- GCC_except_table646
+- GCC_except_table671
+- GCC_except_table673
+- GCC_except_table761
+- GCC_except_table77
+- GCC_except_table785
+- GCC_except_table806
+- GCC_except_table810
+- GCC_except_table814
+- GCC_except_table82
+- GCC_except_table871
+- GCC_except_table903
+- GCC_except_table92
+- GCC_except_table932
+- GCC_except_table933
+- GCC_except_table942
+- GCC_except_table958
+- GCC_except_table995
+- _CPCopyBundleIdentifierAndTeamFromApplicationIdentifier
+- _OBJC_CLASS_$_PKManager
+- _OBJC_CLASS_$_SPEmbeddingModel
+- _OBJC_IVAR_$_CSDonationProgressStreamRecorder._donationPermitted
+- _OBJC_IVAR_$_SDPommesSynonyms.dateSynonymDictionary
+- _OBJC_IVAR_$_SDPommesSynonyms.firstPassSynonymDictionary
+- _OBJC_IVAR_$_SDPommesSynonyms.secondPassSynonymDictionary
+- _OUTLINED_FUNCTION_44
+- _OUTLINED_FUNCTION_45
+- _OUTLINED_FUNCTION_46
+- _OUTLINED_FUNCTION_47
+- _OUTLINED_FUNCTION_48
+- _OUTLINED_FUNCTION_49
+- _OUTLINED_FUNCTION_50
+- _PKManagerPlugInBundleIdentifierKey
+- _SILogBulkDeleteEvent
+- __ZNSt12length_errorC1B9nqe210106EPKc
+- __ZNSt3__110__pop_heapB9nqe210106INS_17_ClassicAlgPolicyE22_compareTopKCandidatesNS_11__wrap_iterIPNS_4pairIU8__strongP8NSStringU8__strongP8NSNumberEEEEEEvT1_SE_RT0_NS_15iterator_traitsISE_E15difference_typeE
+- __ZNSt3__110__pop_heapB9nqe210106INS_17_ClassicAlgPolicyE27_compareCorectionCandidatesNS_11__wrap_iterIPNS_4pairINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEfEEEEEEvT1_SE_RT0_NS_15iterator_traitsISE_E15difference_typeE
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_length_errorB9nqe210106Ev
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC1B9nqe210106ILi0EEEPKc
+- __ZNSt3__114__split_bufferINS_4pairINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEfEERNS5_IS8_EEE17__destruct_at_endB9nqe210106EPS8_
+- __ZNSt3__114__split_bufferINS_4pairIU8__strongP8NSStringU8__strongP8NSNumberEERNS_9allocatorIS8_EEE17__destruct_at_endB9nqe210106EPS8_
+- __ZNSt3__114priority_queueINS_4pairINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEfEENS_6vectorIS8_NS5_IS8_EEEE27_compareCorectionCandidatesE4pushEOS8_
+- __ZNSt3__117__floyd_sift_downB9nqe210106INS_17_ClassicAlgPolicyER22_compareTopKCandidatesNS_11__wrap_iterIPNS_4pairIU8__strongP8NSStringU8__strongP8NSNumberEEEEEET1_SF_OT0_NS_15iterator_traitsISF_E15difference_typeE
+- __ZNSt3__117__floyd_sift_downB9nqe210106INS_17_ClassicAlgPolicyER27_compareCorectionCandidatesNS_11__wrap_iterIPNS_4pairINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEfEEEEEET1_SF_OT0_NS_15iterator_traitsISF_E15difference_typeE
+- __ZNSt3__119__allocate_at_leastB9nqe210106INS_9allocatorINS_4pairINS_12basic_stringIcNS_11char_traitsIcEENS1_IcEEEEfEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSC_m
+- __ZNSt3__119__allocate_at_leastB9nqe210106INS_9allocatorINS_4pairIU8__strongP8NSStringU8__strongP8NSNumberEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSD_m
+- __ZNSt3__119__allocate_at_leastB9nqe210106INS_9allocatorIfEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS5_m
+- __ZNSt3__119__allocator_destroyB9nqe210106INS_9allocatorINS_4pairIU8__strongP8NSStringU8__strongP8NSNumberEEEENS_16reverse_iteratorIPS9_EESD_EEvRT_T0_T1_
+- __ZNSt3__119__allocator_destroyB9nqe210106INS_9allocatorINS_4pairIU8__strongP8NSStringU8__strongP8NSNumberEEEEPS9_SB_EEvRT_T0_T1_
+- __ZNSt3__120__throw_length_errorB9nqe210106EPKc
+- __ZNSt3__128__exception_guard_exceptionsINS_29_AllocatorDestroyRangeReverseINS_9allocatorINS_4pairIU8__strongP8NSStringU8__strongP8NSNumberEEEEPSA_EEED2B9nqe210106Ev
+- __ZNSt3__134__uninitialized_allocator_relocateB9nqe210106INS_9allocatorINS_4pairIU8__strongP8NSStringU8__strongP8NSNumberEEEEPS9_EEvRT_T0_SE_SE_
+- __ZNSt3__16vectorINS_4pairINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEfEENS5_IS8_EEE16__destroy_vectorclB9nqe210106Ev
+- __ZNSt3__16vectorINS_4pairINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEfEENS5_IS8_EEE20__throw_length_errorB9nqe210106Ev
+- __ZNSt3__16vectorINS_4pairINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEfEENS5_IS8_EEE5clearB9nqe210106Ev
+- __ZNSt3__16vectorINS_4pairIU8__strongP8NSStringU8__strongP8NSNumberEENS_9allocatorIS8_EEE16__destroy_vectorclB9nqe210106Ev
+- __ZNSt3__16vectorINS_4pairIU8__strongP8NSStringU8__strongP8NSNumberEENS_9allocatorIS8_EEE20__throw_length_errorB9nqe210106Ev
+- __ZNSt3__16vectorINS_4pairIU8__strongP8NSStringU8__strongP8NSNumberEENS_9allocatorIS8_EEE22__base_destruct_at_endB9nqe210106EPS8_
+- __ZNSt3__16vectorINS_4pairIU8__strongP8NSStringU8__strongP8NSNumberEENS_9allocatorIS8_EEE9push_backB9nqe210106EOS8_
+- __ZNSt3__16vectorIfNS_9allocatorIfEEE11__vallocateB9nqe210106Em
+- __ZNSt3__16vectorIfNS_9allocatorIfEEE20__throw_length_errorB9nqe210106Ev
+- __ZNSt3__16vectorIfNS_9allocatorIfEEEC2B9nqe210106EmRKf
+- __ZNSt3__19__sift_upB9nqe210106INS_17_ClassicAlgPolicyER22_compareTopKCandidatesNS_11__wrap_iterIPNS_4pairIU8__strongP8NSStringU8__strongP8NSNumberEEEEEEvT1_SF_OT0_NS_15iterator_traitsISF_E15difference_typeE
+- __ZNSt3__19__sift_upB9nqe210106INS_17_ClassicAlgPolicyER27_compareCorectionCandidatesNS_11__wrap_iterIPNS_4pairINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEfEEEEEEvT1_SF_OT0_NS_15iterator_traitsISF_E15difference_typeE
+- __ZSt28__throw_bad_array_new_lengthB9nqe210106v
+- ___101-[SPConcreteCoreSpotlightIndexer _deleteSearchableItemsMatchingQuery:forBundleIds:completionHandler:]_block_invoke.1627
+- ___101-[SPConcreteCoreSpotlightIndexer _deleteSearchableItemsMatchingQuery:forBundleIds:completionHandler:]_block_invoke_2.1628
+- ___105-[SPConcreteCoreSpotlightIndexer willModifySearchableItemsWithIdentifiers:forBundleID:completionHandler:]_block_invoke.1432
+- ___105-[SPConcreteCoreSpotlightIndexer willModifySearchableItemsWithIdentifiers:forBundleID:completionHandler:]_block_invoke_2.1436
+- ___107-[SPCoreSpotlightIndexer _migrateIndexExtensionsWithEnumerator:forced:migratedBundleIds:completionHandler:]_block_invoke.3516
+- ___108-[SPConcreteCoreSpotlightIndexer fetchLastClientStateForBundleID:clientStateName:options:completionHandler:]_block_invoke.1674
+- ___108-[SPConcreteCoreSpotlightIndexer fetchLastClientStateForBundleID:clientStateName:options:completionHandler:]_block_invoke_2.1665
+- ___114-[SPCoreSpotlightIndexer _taskForQueryWithQueryString:queryContext:eventHandler:resultsHandler:completionHandler:]_block_invoke.2638
+- ___114-[SPCoreSpotlightIndexer _taskForQueryWithQueryString:queryContext:eventHandler:resultsHandler:completionHandler:]_block_invoke.2640
+- ___114-[SPCoreSpotlightIndexer _taskForQueryWithQueryString:queryContext:eventHandler:resultsHandler:completionHandler:]_block_invoke.2640.cold.1
+- ___114-[SPCoreSpotlightIndexer _taskForQueryWithQueryString:queryContext:eventHandler:resultsHandler:completionHandler:]_block_invoke.2643
+- ___114-[SPCoreSpotlightIndexer _taskForQueryWithQueryString:queryContext:eventHandler:resultsHandler:completionHandler:]_block_invoke.2643.cold.1
+- ___114-[SPCoreSpotlightIndexer _taskForQueryWithQueryString:queryContext:eventHandler:resultsHandler:completionHandler:]_block_invoke.2644
+- ___114-[SPCoreSpotlightIndexer _taskForQueryWithQueryString:queryContext:eventHandler:resultsHandler:completionHandler:]_block_invoke.2644.cold.1
+- ___114-[SPCoreSpotlightIndexer _taskForQueryWithQueryString:queryContext:eventHandler:resultsHandler:completionHandler:]_block_invoke.2645
+- ___119-[MDSearchableIndexService _dispatchToReceiversWithBundleID:protectionClass:options:items:itemsText:itemsHTML:deletes:]_block_invoke.52
+- ___124-[SPConcreteCoreSpotlightIndexer deleteAllSearchableItemsForBundleID:fromClient:shouldGC:deleteAllReason:completionHandler:]_block_invoke
+- ___124-[SPConcreteCoreSpotlightIndexer deleteAllSearchableItemsForBundleID:fromClient:shouldGC:deleteAllReason:completionHandler:]_block_invoke.1587
+- ___124-[SPConcreteCoreSpotlightIndexer deleteAllSearchableItemsForBundleID:fromClient:shouldGC:deleteAllReason:completionHandler:]_block_invoke.1596
+- ___124-[SPConcreteCoreSpotlightIndexer deleteAllSearchableItemsForBundleID:fromClient:shouldGC:deleteAllReason:completionHandler:]_block_invoke.1602
+- ___124-[SPConcreteCoreSpotlightIndexer deleteAllSearchableItemsForBundleID:fromClient:shouldGC:deleteAllReason:completionHandler:]_block_invoke.1614
+- ___124-[SPConcreteCoreSpotlightIndexer deleteAllSearchableItemsForBundleID:fromClient:shouldGC:deleteAllReason:completionHandler:]_block_invoke.1617
+- ___124-[SPConcreteCoreSpotlightIndexer deleteAllSearchableItemsForBundleID:fromClient:shouldGC:deleteAllReason:completionHandler:]_block_invoke_2
+- ___124-[SPConcreteCoreSpotlightIndexer deleteAllSearchableItemsForBundleID:fromClient:shouldGC:deleteAllReason:completionHandler:]_block_invoke_2.1588
+- ___124-[SPConcreteCoreSpotlightIndexer deleteAllSearchableItemsForBundleID:fromClient:shouldGC:deleteAllReason:completionHandler:]_block_invoke_2.1605
+- ___124-[SPConcreteCoreSpotlightIndexer deleteAllSearchableItemsForBundleID:fromClient:shouldGC:deleteAllReason:completionHandler:]_block_invoke_2.1615
+- ___124-[SPConcreteCoreSpotlightIndexer deleteAllSearchableItemsForBundleID:fromClient:shouldGC:deleteAllReason:completionHandler:]_block_invoke_2.1618
+- ___124-[SPConcreteCoreSpotlightIndexer deleteAllSearchableItemsForBundleID:fromClient:shouldGC:deleteAllReason:completionHandler:]_block_invoke_2.1618.cold.1
+- ___124-[SPConcreteCoreSpotlightIndexer deleteAllSearchableItemsForBundleID:fromClient:shouldGC:deleteAllReason:completionHandler:]_block_invoke_2.cold.1
+- ___124-[SPConcreteCoreSpotlightIndexer deleteAllSearchableItemsForBundleID:fromClient:shouldGC:deleteAllReason:completionHandler:]_block_invoke_2.cold.2
+- ___124-[SPConcreteCoreSpotlightIndexer deleteAllSearchableItemsForBundleID:fromClient:shouldGC:deleteAllReason:completionHandler:]_block_invoke_3
+- ___124-[SPConcreteCoreSpotlightIndexer deleteAllSearchableItemsForBundleID:fromClient:shouldGC:deleteAllReason:completionHandler:]_block_invoke_3.1606
+- ___124-[SPConcreteCoreSpotlightIndexer deleteAllSearchableItemsForBundleID:fromClient:shouldGC:deleteAllReason:completionHandler:]_block_invoke_3.1616
+- ___124-[SPConcreteCoreSpotlightIndexer deleteAllSearchableItemsForBundleID:fromClient:shouldGC:deleteAllReason:completionHandler:]_block_invoke_4
+- ___124-[SPConcreteCoreSpotlightIndexer deleteAllSearchableItemsForBundleID:fromClient:shouldGC:deleteAllReason:completionHandler:]_block_invoke_4.1607
+- ___124-[SPConcreteCoreSpotlightIndexer deleteAllSearchableItemsForBundleID:fromClient:shouldGC:deleteAllReason:completionHandler:]_block_invoke_5
+- ___124-[SPConcreteCoreSpotlightIndexer deleteAllSearchableItemsForBundleID:fromClient:shouldGC:deleteAllReason:completionHandler:]_block_invoke_5.1610
+- ___124-[SPConcreteCoreSpotlightIndexer deleteAllSearchableItemsForBundleID:fromClient:shouldGC:deleteAllReason:completionHandler:]_block_invoke_5.1610.cold.1
+- ___124-[SPConcreteCoreSpotlightIndexer deleteAllSearchableItemsForBundleID:fromClient:shouldGC:deleteAllReason:completionHandler:]_block_invoke_6
+- ___124-[SPConcreteCoreSpotlightIndexer deleteAllSearchableItemsForBundleID:fromClient:shouldGC:deleteAllReason:completionHandler:]_block_invoke_7
+- ___125-[SPConcreteCoreSpotlightIndexer deleteSearchableItemsWithDomainIdentifiers:forBundleID:fromClient:reason:completionHandler:]_block_invoke
+- ___125-[SPConcreteCoreSpotlightIndexer deleteSearchableItemsWithDomainIdentifiers:forBundleID:fromClient:reason:completionHandler:]_block_invoke.1461
+- ___125-[SPConcreteCoreSpotlightIndexer deleteSearchableItemsWithDomainIdentifiers:forBundleID:fromClient:reason:completionHandler:]_block_invoke.1470
+- ___125-[SPConcreteCoreSpotlightIndexer deleteSearchableItemsWithDomainIdentifiers:forBundleID:fromClient:reason:completionHandler:]_block_invoke.1470.cold.1
+- ___125-[SPConcreteCoreSpotlightIndexer deleteSearchableItemsWithDomainIdentifiers:forBundleID:fromClient:reason:completionHandler:]_block_invoke_2
+- ___125-[SPConcreteCoreSpotlightIndexer deleteSearchableItemsWithDomainIdentifiers:forBundleID:fromClient:reason:completionHandler:]_block_invoke_2.1465
+- ___125-[SPConcreteCoreSpotlightIndexer deleteSearchableItemsWithDomainIdentifiers:forBundleID:fromClient:reason:completionHandler:]_block_invoke_3
+- ___125-[SPConcreteCoreSpotlightIndexer deleteSearchableItemsWithDomainIdentifiers:forBundleID:fromClient:reason:completionHandler:]_block_invoke_3.1466
+- ___125-[SPConcreteCoreSpotlightIndexer deleteSearchableItemsWithDomainIdentifiers:forBundleID:fromClient:reason:completionHandler:]_block_invoke_4
+- ___125-[SPConcreteCoreSpotlightIndexer deleteSearchableItemsWithDomainIdentifiers:forBundleID:fromClient:reason:completionHandler:]_block_invoke_4.1467
+- ___125-[SPConcreteCoreSpotlightIndexer deleteSearchableItemsWithDomainIdentifiers:forBundleID:fromClient:reason:completionHandler:]_block_invoke_5
+- ___125-[SPConcreteCoreSpotlightIndexer deleteSearchableItemsWithDomainIdentifiers:forBundleID:fromClient:reason:completionHandler:]_block_invoke_5.1468
+- ___125-[SPConcreteCoreSpotlightIndexer deleteSearchableItemsWithDomainIdentifiers:forBundleID:fromClient:reason:completionHandler:]_block_invoke_5.cold.1
+- ___125-[SPConcreteCoreSpotlightIndexer deleteSearchableItemsWithDomainIdentifiers:forBundleID:fromClient:reason:completionHandler:]_block_invoke_6
+- ___125-[SPConcreteCoreSpotlightIndexer deleteSearchableItemsWithDomainIdentifiers:forBundleID:fromClient:reason:completionHandler:]_block_invoke_7
+- ___125-[SPConcreteCoreSpotlightIndexer deleteSearchableItemsWithDomainIdentifiers:forBundleID:fromClient:reason:completionHandler:]_block_invoke_8
+- ___127-[SpotlightReceiverConnection deleteWithFd:offset:size:indexType:protectionClass:serialNumber:journalCookie:completionHandler:]_block_invoke.329
+- ___131-[SPConcreteCoreSpotlightIndexer persistDonationProgress:fromBundle:clientIndexName:personaID:canCreateNewIndex:completionHandler:]_block_invoke.1254
+- ___133-[MDSearchableIndexService _deleteAllSearchableItemsWithBundleID:protectionClass:shouldGC:options:deleteAllReason:completionHandler:]_block_invoke
+- ___133-[MDSearchableIndexService _deleteAllSearchableItemsWithBundleID:protectionClass:shouldGC:options:deleteAllReason:completionHandler:]_block_invoke_2
+- ___133-[MDSearchableIndexService _deleteAllSearchableItemsWithBundleID:protectionClass:shouldGC:options:deleteAllReason:completionHandler:]_block_invoke_3
+- ___133-[SPCoreSpotlightIndexer deleteAllSearchableItemsWithBundleID:fromClient:protectionClass:shouldGC:deleteAllReason:completionHandler:]_block_invoke
+- ___133-[SPCoreSpotlightIndexer deleteAllSearchableItemsWithBundleID:fromClient:protectionClass:shouldGC:deleteAllReason:completionHandler:]_block_invoke_2
+- ___133-[SPCoreSpotlightIndexer deleteAllSearchableItemsWithBundleID:fromClient:protectionClass:shouldGC:deleteAllReason:completionHandler:]_block_invoke_3
+- ___133-[SPCoreSpotlightIndexer deleteAllSearchableItemsWithBundleID:fromClient:protectionClass:shouldGC:deleteAllReason:completionHandler:]_block_invoke_4
+- ___136-[MDSearchableIndexService deleteSearchableItemsWithDomainIdentifiers:protectionClass:forBundleID:fromClient:options:completionHandler:]_block_invoke
+- ___136-[MDSearchableIndexService deleteSearchableItemsWithDomainIdentifiers:protectionClass:forBundleID:fromClient:options:completionHandler:]_block_invoke_2
+- ___163-[SpotlightReceiverConnection indexWithFd:offset:size:indexType:bundleID:protectionClass:serialNumber:journalCookie:config:additionalAttributes:completionHandler:]_block_invoke
+- ___163-[SpotlightReceiverConnection indexWithFd:offset:size:indexType:bundleID:protectionClass:serialNumber:journalCookie:config:additionalAttributes:completionHandler:]_block_invoke.328
+- ___163-[SpotlightReceiverConnection indexWithFd:offset:size:indexType:bundleID:protectionClass:serialNumber:journalCookie:config:additionalAttributes:completionHandler:]_block_invoke.cold.1
+- ___173-[SPConcreteCoreSpotlightIndexer _startInternalQueryWithIndex:query:liftingRules:fetchAttributes:forBundleIds:maxCount:resultQueue:postFilter:clientBundleID:resultsHandler:]_block_invoke
+- ___173-[SPConcreteCoreSpotlightIndexer _startInternalQueryWithIndex:query:liftingRules:fetchAttributes:forBundleIds:maxCount:resultQueue:postFilter:clientBundleID:resultsHandler:]_block_invoke.cold.1
+- ___173-[SPConcreteCoreSpotlightIndexer _startInternalQueryWithIndex:query:liftingRules:fetchAttributes:forBundleIds:maxCount:resultQueue:postFilter:clientBundleID:resultsHandler:]_block_invoke.cold.2
+- ___173-[SPConcreteCoreSpotlightIndexer _startInternalQueryWithIndex:query:liftingRules:fetchAttributes:forBundleIds:maxCount:resultQueue:postFilter:clientBundleID:resultsHandler:]_block_invoke.cold.3
+- ___178-[SPConcreteCoreSpotlightIndexer indexSearchableItems:deleteSearchableItemsWithIdentifiers:clientState:expectedClientState:clientStateName:forBundleID:options:completionHandler:]_block_invoke.1351
+- ___178-[SPConcreteCoreSpotlightIndexer indexSearchableItems:deleteSearchableItemsWithIdentifiers:clientState:expectedClientState:clientStateName:forBundleID:options:completionHandler:]_block_invoke.1351.cold.1
+- ___178-[SPConcreteCoreSpotlightIndexer indexSearchableItems:deleteSearchableItemsWithIdentifiers:clientState:expectedClientState:clientStateName:forBundleID:options:completionHandler:]_block_invoke.1351.cold.2
+- ___178-[SPConcreteCoreSpotlightIndexer indexSearchableItems:deleteSearchableItemsWithIdentifiers:clientState:expectedClientState:clientStateName:forBundleID:options:completionHandler:]_block_invoke.1372
+- ___178-[SPConcreteCoreSpotlightIndexer indexSearchableItems:deleteSearchableItemsWithIdentifiers:clientState:expectedClientState:clientStateName:forBundleID:options:completionHandler:]_block_invoke.1374
+- ___178-[SPConcreteCoreSpotlightIndexer indexSearchableItems:deleteSearchableItemsWithIdentifiers:clientState:expectedClientState:clientStateName:forBundleID:options:completionHandler:]_block_invoke.1374.cold.1
+- ___178-[SPConcreteCoreSpotlightIndexer indexSearchableItems:deleteSearchableItemsWithIdentifiers:clientState:expectedClientState:clientStateName:forBundleID:options:completionHandler:]_block_invoke.1374.cold.2
+- ___178-[SPConcreteCoreSpotlightIndexer indexSearchableItems:deleteSearchableItemsWithIdentifiers:clientState:expectedClientState:clientStateName:forBundleID:options:completionHandler:]_block_invoke.1377
+- ___178-[SPConcreteCoreSpotlightIndexer indexSearchableItems:deleteSearchableItemsWithIdentifiers:clientState:expectedClientState:clientStateName:forBundleID:options:completionHandler:]_block_invoke.1377.cold.1
+- ___178-[SPConcreteCoreSpotlightIndexer indexSearchableItems:deleteSearchableItemsWithIdentifiers:clientState:expectedClientState:clientStateName:forBundleID:options:completionHandler:]_block_invoke.1377.cold.2
+- ___178-[SPConcreteCoreSpotlightIndexer indexSearchableItems:deleteSearchableItemsWithIdentifiers:clientState:expectedClientState:clientStateName:forBundleID:options:completionHandler:]_block_invoke.1380
+- ___178-[SPConcreteCoreSpotlightIndexer indexSearchableItems:deleteSearchableItemsWithIdentifiers:clientState:expectedClientState:clientStateName:forBundleID:options:completionHandler:]_block_invoke_2.1355
+- ___178-[SPConcreteCoreSpotlightIndexer indexSearchableItems:deleteSearchableItemsWithIdentifiers:clientState:expectedClientState:clientStateName:forBundleID:options:completionHandler:]_block_invoke_2.1373
+- ___186-[SPConcreteCoreSpotlightIndexer indexFromBundle:personaID:options:items:itemsText:itemsHTML:clientState:expectedClientState:clientStateName:deletes:canCreateNewIndex:completionHandler:]_block_invoke
+- ___186-[SPConcreteCoreSpotlightIndexer indexFromBundle:personaID:options:items:itemsText:itemsHTML:clientState:expectedClientState:clientStateName:deletes:canCreateNewIndex:completionHandler:]_block_invoke.1261
+- ___186-[SPConcreteCoreSpotlightIndexer indexFromBundle:personaID:options:items:itemsText:itemsHTML:clientState:expectedClientState:clientStateName:deletes:canCreateNewIndex:completionHandler:]_block_invoke.1261.cold.1
+- ___186-[SPConcreteCoreSpotlightIndexer indexFromBundle:personaID:options:items:itemsText:itemsHTML:clientState:expectedClientState:clientStateName:deletes:canCreateNewIndex:completionHandler:]_block_invoke.1261.cold.2
+- ___186-[SPConcreteCoreSpotlightIndexer indexFromBundle:personaID:options:items:itemsText:itemsHTML:clientState:expectedClientState:clientStateName:deletes:canCreateNewIndex:completionHandler:]_block_invoke.1261.cold.3
+- ___186-[SPConcreteCoreSpotlightIndexer indexFromBundle:personaID:options:items:itemsText:itemsHTML:clientState:expectedClientState:clientStateName:deletes:canCreateNewIndex:completionHandler:]_block_invoke.1261.cold.4
+- ___186-[SPConcreteCoreSpotlightIndexer indexFromBundle:personaID:options:items:itemsText:itemsHTML:clientState:expectedClientState:clientStateName:deletes:canCreateNewIndex:completionHandler:]_block_invoke.1290
+- ___186-[SPConcreteCoreSpotlightIndexer indexFromBundle:personaID:options:items:itemsText:itemsHTML:clientState:expectedClientState:clientStateName:deletes:canCreateNewIndex:completionHandler:]_block_invoke.1312
+- ___186-[SPConcreteCoreSpotlightIndexer indexFromBundle:personaID:options:items:itemsText:itemsHTML:clientState:expectedClientState:clientStateName:deletes:canCreateNewIndex:completionHandler:]_block_invoke.1329
+- ___186-[SPConcreteCoreSpotlightIndexer indexFromBundle:personaID:options:items:itemsText:itemsHTML:clientState:expectedClientState:clientStateName:deletes:canCreateNewIndex:completionHandler:]_block_invoke.1334
+- ___186-[SPConcreteCoreSpotlightIndexer indexFromBundle:personaID:options:items:itemsText:itemsHTML:clientState:expectedClientState:clientStateName:deletes:canCreateNewIndex:completionHandler:]_block_invoke.1338
+- ___186-[SPConcreteCoreSpotlightIndexer indexFromBundle:personaID:options:items:itemsText:itemsHTML:clientState:expectedClientState:clientStateName:deletes:canCreateNewIndex:completionHandler:]_block_invoke.1341
+- ___186-[SPConcreteCoreSpotlightIndexer indexFromBundle:personaID:options:items:itemsText:itemsHTML:clientState:expectedClientState:clientStateName:deletes:canCreateNewIndex:completionHandler:]_block_invoke_2
+- ___186-[SPConcreteCoreSpotlightIndexer indexFromBundle:personaID:options:items:itemsText:itemsHTML:clientState:expectedClientState:clientStateName:deletes:canCreateNewIndex:completionHandler:]_block_invoke_2.1294
+- ___186-[SPConcreteCoreSpotlightIndexer indexFromBundle:personaID:options:items:itemsText:itemsHTML:clientState:expectedClientState:clientStateName:deletes:canCreateNewIndex:completionHandler:]_block_invoke_2.1313
+- ___186-[SPConcreteCoreSpotlightIndexer indexFromBundle:personaID:options:items:itemsText:itemsHTML:clientState:expectedClientState:clientStateName:deletes:canCreateNewIndex:completionHandler:]_block_invoke_2.1330
+- ___186-[SPConcreteCoreSpotlightIndexer indexFromBundle:personaID:options:items:itemsText:itemsHTML:clientState:expectedClientState:clientStateName:deletes:canCreateNewIndex:completionHandler:]_block_invoke_2.1335
+- ___186-[SPConcreteCoreSpotlightIndexer indexFromBundle:personaID:options:items:itemsText:itemsHTML:clientState:expectedClientState:clientStateName:deletes:canCreateNewIndex:completionHandler:]_block_invoke_2.1335.cold.1
+- ___186-[SPConcreteCoreSpotlightIndexer indexFromBundle:personaID:options:items:itemsText:itemsHTML:clientState:expectedClientState:clientStateName:deletes:canCreateNewIndex:completionHandler:]_block_invoke_2.1342
+- ___186-[SPConcreteCoreSpotlightIndexer indexFromBundle:personaID:options:items:itemsText:itemsHTML:clientState:expectedClientState:clientStateName:deletes:canCreateNewIndex:completionHandler:]_block_invoke_2.cold.1
+- ___186-[SPConcreteCoreSpotlightIndexer indexFromBundle:personaID:options:items:itemsText:itemsHTML:clientState:expectedClientState:clientStateName:deletes:canCreateNewIndex:completionHandler:]_block_invoke_2.cold.2
+- ___186-[SPConcreteCoreSpotlightIndexer indexFromBundle:personaID:options:items:itemsText:itemsHTML:clientState:expectedClientState:clientStateName:deletes:canCreateNewIndex:completionHandler:]_block_invoke_2.cold.3
+- ___186-[SPConcreteCoreSpotlightIndexer indexFromBundle:personaID:options:items:itemsText:itemsHTML:clientState:expectedClientState:clientStateName:deletes:canCreateNewIndex:completionHandler:]_block_invoke_2.cold.4
+- ___186-[SPConcreteCoreSpotlightIndexer indexFromBundle:personaID:options:items:itemsText:itemsHTML:clientState:expectedClientState:clientStateName:deletes:canCreateNewIndex:completionHandler:]_block_invoke_2.cold.5
+- ___186-[SPConcreteCoreSpotlightIndexer indexFromBundle:personaID:options:items:itemsText:itemsHTML:clientState:expectedClientState:clientStateName:deletes:canCreateNewIndex:completionHandler:]_block_invoke_2.cold.6
+- ___186-[SPConcreteCoreSpotlightIndexer indexFromBundle:personaID:options:items:itemsText:itemsHTML:clientState:expectedClientState:clientStateName:deletes:canCreateNewIndex:completionHandler:]_block_invoke_3
+- ___186-[SPConcreteCoreSpotlightIndexer indexFromBundle:personaID:options:items:itemsText:itemsHTML:clientState:expectedClientState:clientStateName:deletes:canCreateNewIndex:completionHandler:]_block_invoke_3.1314
+- ___186-[SPConcreteCoreSpotlightIndexer indexFromBundle:personaID:options:items:itemsText:itemsHTML:clientState:expectedClientState:clientStateName:deletes:canCreateNewIndex:completionHandler:]_block_invoke_3.1345
+- ___186-[SPConcreteCoreSpotlightIndexer indexFromBundle:personaID:options:items:itemsText:itemsHTML:clientState:expectedClientState:clientStateName:deletes:canCreateNewIndex:completionHandler:]_block_invoke_4
+- ___186-[SPConcreteCoreSpotlightIndexer indexFromBundle:personaID:options:items:itemsText:itemsHTML:clientState:expectedClientState:clientStateName:deletes:canCreateNewIndex:completionHandler:]_block_invoke_5
+- ___186-[SPConcreteCoreSpotlightIndexer indexFromBundle:personaID:options:items:itemsText:itemsHTML:clientState:expectedClientState:clientStateName:deletes:canCreateNewIndex:completionHandler:]_block_invoke_5.cold.1
+- ___236-[SPConcreteCoreSpotlightIndexer reindexAttributes:ofItemsMatchingQuery:liftingRules:indexAttrName:withVersion:perItemCompletionAttributeArray:completionValueArray:alwaysReindexWithCompletionAttribute:force:postFilter:group:forceMerge:]_block_invoke.403
+- ___236-[SPConcreteCoreSpotlightIndexer reindexAttributes:ofItemsMatchingQuery:liftingRules:indexAttrName:withVersion:perItemCompletionAttributeArray:completionValueArray:alwaysReindexWithCompletionAttribute:force:postFilter:group:forceMerge:]_block_invoke.404
+- ___236-[SPConcreteCoreSpotlightIndexer reindexAttributes:ofItemsMatchingQuery:liftingRules:indexAttrName:withVersion:perItemCompletionAttributeArray:completionValueArray:alwaysReindexWithCompletionAttribute:force:postFilter:group:forceMerge:]_block_invoke.410
+- ___236-[SPConcreteCoreSpotlightIndexer reindexAttributes:ofItemsMatchingQuery:liftingRules:indexAttrName:withVersion:perItemCompletionAttributeArray:completionValueArray:alwaysReindexWithCompletionAttribute:force:postFilter:group:forceMerge:]_block_invoke.411
+- ___28-[CSSearchAgent startQuery:]_block_invoke.178
+- ___28-[CSSearchAgent startQuery:]_block_invoke.178.cold.1
+- ___28-[CSSearchAgent startQuery:]_block_invoke.178.cold.2
+- ___28-[CSSearchAgent startQuery:]_block_invoke.178.cold.3
+- ___28-[CSSearchAgent startQuery:]_block_invoke.216
+- ___28-[CSSearchAgent startQuery:]_block_invoke.220
+- ___28-[CSSearchAgent startQuery:]_block_invoke.230
+- ___28-[CSSearchAgent startQuery:]_block_invoke.241
+- ___28-[CSSearchAgent startQuery:]_block_invoke_2.228
+- ___28-[CSSearchAgent startQuery:]_block_invoke_2.232
+- ___28-[CSSearchAgent startQuery:]_block_invoke_2.232.cold.1
+- ___30-[SPCoreSpotlightIndexer init]_block_invoke.2310
+- ___30-[SPCoreSpotlightIndexer init]_block_invoke.2323
+- ___30-[SPCoreSpotlightIndexer init]_block_invoke.2332
+- ___30-[SPCoreSpotlightIndexer init]_block_invoke.2336
+- ___30-[SPCoreSpotlightIndexer init]_block_invoke.2342
+- ___30-[SPCoreSpotlightIndexer init]_block_invoke.2343
+- ___30-[SPCoreSpotlightIndexer init]_block_invoke.2353
+- ___30-[SPCoreSpotlightIndexer init]_block_invoke.2368
+- ___30-[SPCoreSpotlightIndexer init]_block_invoke.2375
+- ___30-[SPCoreSpotlightIndexer init]_block_invoke.2376
+- ___30-[SPCoreSpotlightIndexer init]_block_invoke.2382
+- ___30-[SPCoreSpotlightIndexer init]_block_invoke.2385
+- ___30-[SPCoreSpotlightIndexer init]_block_invoke.2390
+- ___30-[SPCoreSpotlightIndexer init]_block_invoke.2391
+- ___30-[SPCoreSpotlightIndexer init]_block_invoke.2392
+- ___30-[SPCoreSpotlightIndexer init]_block_invoke.2392.cold.1
+- ___30-[SPCoreSpotlightIndexer init]_block_invoke.2397
+- ___30-[SPCoreSpotlightIndexer init]_block_invoke.2406
+- ___30-[SPCoreSpotlightIndexer init]_block_invoke.2416
+- ___30-[SPCoreSpotlightIndexer init]_block_invoke.2419
+- ___30-[SPCoreSpotlightIndexer init]_block_invoke_2.2319
+- ___30-[SPCoreSpotlightIndexer init]_block_invoke_2.2328
+- ___30-[SPCoreSpotlightIndexer init]_block_invoke_2.2346
+- ___30-[SPCoreSpotlightIndexer init]_block_invoke_2.2354
+- ___30-[SPCoreSpotlightIndexer init]_block_invoke_2.2371
+- ___30-[SPCoreSpotlightIndexer init]_block_invoke_2.2386
+- ___30-[SPCoreSpotlightIndexer init]_block_invoke_2.2386.cold.1
+- ___30-[SPCoreSpotlightIndexer init]_block_invoke_2.2394.cold.1
+- ___30-[SPCoreSpotlightIndexer init]_block_invoke_2.2398
+- ___30-[SPCoreSpotlightIndexer init]_block_invoke_2.2417
+- ___30-[SPCoreSpotlightIndexer init]_block_invoke_2.2420
+- ___30-[SPCoreSpotlightIndexer init]_block_invoke_3.2320
+- ___30-[SPCoreSpotlightIndexer init]_block_invoke_3.2320.cold.1
+- ___30-[SPCoreSpotlightIndexer init]_block_invoke_3.2349
+- ___30-[SPCoreSpotlightIndexer init]_block_invoke_3.2402
+- ___30-[SPCoreSpotlightIndexer init]_block_invoke_3.2418
+- ___30-[SPCoreSpotlightIndexer init]_block_invoke_3.2418.cold.1
+- ___30-[SPCoreSpotlightIndexer init]_block_invoke_3.2421
+- ___30-[SPCoreSpotlightIndexer init]_block_invoke_4.2422
+- ___31-[SPCoreSpotlightIndexer start]_block_invoke.2490
+- ___31-[SPCoreSpotlightIndexer start]_block_invoke_5
+- ___31-[SPCoreSpotlightIndexer start]_block_invoke_6
+- ___36-[SpotlightReceiverConnection reset]_block_invoke.332
+- ___37-[SpotlightReceiverConnection resume]_block_invoke.331
+- ___38-[SpotlightReceiverConnection suspend]_block_invoke.330
+- ___39-[SPCoreSpotlightIndexer queryPreheat:]_block_invoke.2626
+- ___40-[SPConcreteCoreSpotlightIndexer dirty:]_block_invoke.704
+- ___40-[SPConcreteCoreSpotlightIndexer dirty:]_block_invoke.704.cold.1
+- ___40-[SPConcreteCoreSpotlightIndexer dirty:]_block_invoke.705
+- ___40-[SPConcreteCoreSpotlightIndexer dirty:]_block_invoke.717
+- ___40-[SPConcreteCoreSpotlightIndexer dirty:]_block_invoke_2.709
+- ___40-[SPCoreSpotlightIndexer migrateForced:]_block_invoke.3529
+- ___40-[SPCoreSpotlightIndexer migrateForced:]_block_invoke_2.3530
+- ___40-[SPCoreSpotlightIndexer migrateForced:]_block_invoke_3.3533
+- ___41-[SpotlightReceiverConnection startSetup]_block_invoke.289
+- ___41-[SpotlightReceiverConnection startSetup]_block_invoke.289.cold.1
+- ___44-[SPCoreSpotlightIndexer purgeIndexForSize:]_block_invoke.2254
+- ___44-[SPCoreSpotlightIndexer purgeIndexForSize:]_block_invoke.2254.cold.1
+- ___48-[SpotlightReceiverConnection deleteFromBundle:]_block_invoke.347
+- ___50+[SPConcreteCoreSpotlightIndexer fetchItemForURL:]_block_invoke
+- ___50+[SPConcreteCoreSpotlightIndexer fetchItemForURL:]_block_invoke.cold.1
+- ___50-[SPConcreteCoreSpotlightIndexer validateVectors:]_block_invoke.1409
+- ___50-[SPConcreteCoreSpotlightIndexer validateVectors:]_block_invoke_2.1410
+- ___51-[SPCoreSpotlightIndexer moveMailToClassCWithClone]_block_invoke.2481
+- ___51-[SPCoreSpotlightIndexer moveMailToClassCWithClone]_block_invoke.2485
+- ___51-[SPCoreSpotlightIndexer moveMailToClassCWithClone]_block_invoke.2485.cold.1
+- ___51-[SPCoreSpotlightIndexer moveMailToClassCWithClone]_block_invoke.2485.cold.2
+- ___51-[SPCoreSpotlightIndexer moveMailToClassCWithClone]_block_invoke.2486
+- ___51-[SPCoreSpotlightIndexer moveMailToClassCWithClone]_block_invoke.2486.cold.1
+- ___51-[SPCoreSpotlightIndexer moveMailToClassCWithClone]_block_invoke.2487
+- ___51-[SPCoreSpotlightIndexer moveMailToClassCWithClone]_block_invoke.2487.cold.1
+- ___51-[SPCoreSpotlightIndexer moveMailToClassCWithClone]_block_invoke.2488
+- ___52-[SPConcreteCoreSpotlightIndexer setHasPhotosOrText]_block_invoke.1780
+- ___52-[SPConcreteCoreSpotlightIndexer setHasPhotosOrText]_block_invoke.1781
+- ___54-[MDSearchableIndexService _runLibraryDeletedCommand:]_block_invoke.239
+- ___55-[SpotlightReceiverConnection deleteAllUserActivities:]_block_invoke.343
+- ___57-[MDSearchableIndexService _dispatchActivities:bundleID:]_block_invoke.118
+- ___57-[SPConcreteCoreSpotlightIndexer zombifyAllContactItems:]_block_invoke.1525
+- ___58-[SpotlightReceiverConnection deleteFromBundle:sinceDate:]_block_invoke.346
+- ___59-[SPConcreteCoreSpotlightIndexer _performXPCActivity:name:]_block_invoke.726
+- ___59-[SPConcreteCoreSpotlightIndexer _performXPCActivity:name:]_block_invoke_2.730
+- ___59-[SPCoreSpotlightIndexer _moveClassAIndexToClassCMailIndex]_block_invoke.2464
+- ___59-[SPCoreSpotlightIndexer _moveClassAIndexToClassCMailIndex]_block_invoke_2.2467
+- ___59-[SPCoreSpotlightIndexer _moveClassAIndexToClassCMailIndex]_block_invoke_3.2468
+- ___59-[SpotlightReceiverConnection purgeFromBundle:identifiers:]_block_invoke.339
+- ___60-[SPConcreteCoreSpotlightIndexer _addNewClientWithBundleID:]_block_invoke.1057
+- ___60-[SPConcreteCoreSpotlightIndexer issuePriorityIndexFixupOff]_block_invoke.370
+- ___60-[SPConcreteCoreSpotlightIndexer issuePriorityIndexFixupOff]_block_invoke.371
+- ___60-[SPConcreteCoreSpotlightIndexer issuePriorityIndexFixupOff]_block_invoke.377
+- ___60-[SPConcreteCoreSpotlightIndexer issuePriorityIndexFixupOff]_block_invoke.377.cold.1
+- ___60-[SPConcreteCoreSpotlightIndexer suspendIndexForDeviceLock:]_block_invoke.1231
+- ___60-[SPConcreteCoreSpotlightIndexer suspendIndexForDeviceLock:]_block_invoke_2.1234
+- ___60-[SPConcreteCoreSpotlightIndexer suspendIndexForDeviceLock:]_block_invoke_3.1237
+- ___62-[SpotlightReceiverConnection donateRelevantActions:bundleID:]_block_invoke.355
+- ___63-[SPConcreteCoreSpotlightIndexer indexFinishedDrainingJournal:]_block_invoke.750
+- ___63-[SPConcreteCoreSpotlightIndexer indexFinishedDrainingJournal:]_block_invoke.750.cold.1
+- ___63-[SPConcreteCoreSpotlightIndexer indexFinishedDrainingJournal:]_block_invoke.754
+- ___63-[SPConcreteCoreSpotlightIndexer indexFinishedDrainingJournal:]_block_invoke.754.cold.1
+- ___63-[SPConcreteCoreSpotlightIndexer indexFinishedDrainingJournal:]_block_invoke.756
+- ___63-[SPCoreSpotlightIndexer _deleteNonMailBundlesFromClassAIndex:]_block_invoke.2458
+- ___64-[SPConcreteCoreSpotlightIndexer issuePriorityIndexFixupOn:key:]_block_invoke.349
+- ___64-[SPConcreteCoreSpotlightIndexer issuePriorityIndexFixupOn:key:]_block_invoke.350
+- ___64-[SPConcreteCoreSpotlightIndexer issuePriorityIndexFixupOn:key:]_block_invoke.354
+- ___64-[SPConcreteCoreSpotlightIndexer issuePriorityIndexFixupOn:key:]_block_invoke.355
+- ___64-[SPConcreteCoreSpotlightIndexer issuePriorityIndexFixupOn:key:]_block_invoke.363
+- ___64-[SPConcreteCoreSpotlightIndexer issuePriorityIndexFixupOn:key:]_block_invoke.363.cold.1
+- ___64-[SPConcreteCoreSpotlightIndexer issuePriorityIndexFixupOn:key:]_block_invoke.365
+- ___65-[SPConcreteCoreSpotlightIndexer openIndexForUpgradeSynchronous:]_block_invoke.925
+- ___66-[SPConcreteCoreSpotlightIndexer _flushPendingNotificationBatches]_block_invoke.340
+- ___66-[SPConcreteCoreSpotlightIndexer _flushPendingNotificationBatches]_block_invoke.340.cold.1
+- ___66-[SPConcreteCoreSpotlightIndexer _flushPendingNotificationBatches]_block_invoke.340.cold.2
+- ___66-[SpotlightReceiverConnection deleteFromBundle:domainIdentifiers:]_block_invoke.338
+- ___67-[SPConcreteCoreSpotlightIndexer revokeExpiredItems:expirationRef:]_block_invoke.781
+- ___67-[SPConcreteCoreSpotlightIndexer revokeExpiredItems:expirationRef:]_block_invoke.781.cold.1
+- ___67-[SPConcreteCoreSpotlightIndexer revokeExpiredItems:expirationRef:]_block_invoke.782
+- ___67-[SPConcreteCoreSpotlightIndexer revokeExpiredItems:expirationRef:]_block_invoke.782.cold.1
+- ___67-[SPConcreteCoreSpotlightIndexer revokeExpiredItems:expirationRef:]_block_invoke.783
+- ___67-[SPConcreteCoreSpotlightIndexer revokeExpiredItems:expirationRef:]_block_invoke.783.cold.1
+- ___67-[SPConcreteCoreSpotlightIndexer revokeExpiredItems:expirationRef:]_block_invoke.784
+- ___67-[SPConcreteCoreSpotlightIndexer revokeExpiredItems:expirationRef:]_block_invoke.790
+- ___67-[SPConcreteCoreSpotlightIndexer revokeExpiredItems:expirationRef:]_block_invoke_2.794
+- ___67-[SPCoreSpotlightIndexer registerCacheDeleteCallbackForVolumePath:]_block_invoke.2264
+- ___67-[SPCoreSpotlightIndexer registerCacheDeleteCallbackForVolumePath:]_block_invoke.2264.cold.1
+- ___67-[SPCoreSpotlightIndexer registerCacheDeleteCallbackForVolumePath:]_block_invoke.2265
+- ___67-[SPCoreSpotlightIndexer registerPostJournalPlaybackBGSTActivities]_block_invoke.2557
+- ___67-[SPCoreSpotlightIndexer registerPostJournalPlaybackBGSTActivities]_block_invoke.2561
+- ___67-[SPCoreSpotlightIndexer registerPostJournalPlaybackBGSTActivities]_block_invoke.2565
+- ___67-[SPCoreSpotlightIndexer registerPostJournalPlaybackBGSTActivities]_block_invoke.2570
+- ___67-[SPCoreSpotlightIndexer registerPostJournalPlaybackBGSTActivities]_block_invoke.2570.cold.1
+- ___67-[SPCoreSpotlightIndexer registerPostJournalPlaybackBGSTActivities]_block_invoke.2571
+- ___67-[SPCoreSpotlightIndexer registerPostJournalPlaybackBGSTActivities]_block_invoke.2576
+- ___67-[SPCoreSpotlightIndexer registerPostJournalPlaybackBGSTActivities]_block_invoke.2576.cold.1
+- ___67-[SPCoreSpotlightIndexer registerPostJournalPlaybackBGSTActivities]_block_invoke.2577
+- ___67-[SPCoreSpotlightIndexer registerPostJournalPlaybackBGSTActivities]_block_invoke_2.2560
+- ___67-[SPCoreSpotlightIndexer registerPostJournalPlaybackBGSTActivities]_block_invoke_2.2562
+- ___67-[SPCoreSpotlightIndexer registerPostJournalPlaybackBGSTActivities]_block_invoke_2.2568
+- ___67-[SPCoreSpotlightIndexer registerPostJournalPlaybackBGSTActivities]_block_invoke_2.2574
+- ___67-[SPCoreSpotlightIndexer registerPostJournalPlaybackBGSTActivities]_block_invoke_2.2580
+- ___67-[SpotlightReceiverConnection deleteFromBundle:encodedIdentifiers:]_block_invoke.335
+- ___70-[SPConcreteCoreSpotlightIndexer writeDiagnostic:bundleID:identifier:]_block_invoke
+- ___70-[SPConcreteCoreSpotlightIndexer writeDiagnostic:bundleID:identifier:]_block_invoke_2
+- ___70-[SPConcreteCoreSpotlightIndexer writeDiagnostic:bundleID:identifier:]_block_invoke_3
+- ___70-[SPConcreteCoreSpotlightIndexer writeDiagnostic:bundleID:identifier:]_block_invoke_4
+- ___70-[SPConcreteCoreSpotlightIndexer writeDiagnostic:bundleID:identifier:]_block_invoke_5
+- ___70-[SPConcreteCoreSpotlightIndexer writeDiagnostic:bundleID:identifier:]_block_invoke_6
+- ___70-[SPConcreteCoreSpotlightIndexer writeDiagnostic:bundleID:identifier:]_block_invoke_7
+- ___70-[SPConcreteCoreSpotlightIndexer writeDiagnostic:bundleID:identifier:]_block_invoke_8
+- ___70-[SPConcreteCoreSpotlightIndexer writeDiagnostic:bundleID:identifier:]_block_invoke_9
+- ___71+[SPCoreSpotlightIndexer writeDiagnostic:bundleID:identifier:logQuery:]_block_invoke
+- ___71-[SpotlightReceiverConnection addUserActions:bundleID:protectionClass:]_block_invoke.342
+- ___72-[SPConcreteCoreSpotlightIndexer checkInWithBundleID:completionHandler:]_block_invoke.1046
+- ___72-[SPConcreteCoreSpotlightIndexer checkInWithBundleID:completionHandler:]_block_invoke.1047
+- ___72-[SPConcreteCoreSpotlightIndexer checkInWithBundleID:completionHandler:]_block_invoke_2.1050
+- ___72-[SPConcreteCoreSpotlightIndexer fetchMeCard:isNotCreateNewIndex:group:]_block_invoke.854
+- ___72-[SpotlightReceiverConnection deleteFromBundle:contentType:identifiers:]_block_invoke.337
+- ___73-[SPConcreteCoreSpotlightIndexer restartAttachmentImport:maxCount:depth:]_block_invoke.1532
+- ___73-[SPConcreteCoreSpotlightIndexer restartAttachmentImport:maxCount:depth:]_block_invoke.1539
+- ___73-[SPConcreteCoreSpotlightIndexer restartAttachmentImport:maxCount:depth:]_block_invoke.1539.cold.1
+- ___73-[SPConcreteCoreSpotlightIndexer restartAttachmentImport:maxCount:depth:]_block_invoke.1543
+- ___73-[SPConcreteCoreSpotlightIndexer restartAttachmentImport:maxCount:depth:]_block_invoke.1543.cold.1
+- ___73-[SPConcreteCoreSpotlightIndexer restartAttachmentImport:maxCount:depth:]_block_invoke.1544
+- ___73-[SPConcreteCoreSpotlightIndexer restartAttachmentImport:maxCount:depth:]_block_invoke.1558
+- ___73-[SPConcreteCoreSpotlightIndexer restartAttachmentImport:maxCount:depth:]_block_invoke.1560
+- ___73-[SPConcreteCoreSpotlightIndexer restartAttachmentImport:maxCount:depth:]_block_invoke.1564
+- ___73-[SPConcreteCoreSpotlightIndexer restartAttachmentImport:maxCount:depth:]_block_invoke_2.1563
+- ___73-[SPConcreteCoreSpotlightIndexer restartAttachmentImport:maxCount:depth:]_block_invoke_2.1567
+- ___76-[MDSearchableIndexService processFetchIndexingPipelineCompletenessMessage:]_block_invoke.198
+- ___76-[MDSearchableIndexService processFetchIndexingPipelineCompletenessMessage:]_block_invoke.198.cold.1
+- ___76-[SPConcreteCoreSpotlightIndexer validateConcreteIndexer:outFileDescriptor:]_block_invoke.1385
+- ___76-[SPConcreteCoreSpotlightIndexer validateConcreteIndexer:outFileDescriptor:]_block_invoke.1390
+- ___76-[SPConcreteCoreSpotlightIndexer validateConcreteIndexer:outFileDescriptor:]_block_invoke.1396
+- ___76-[SPConcreteCoreSpotlightIndexer validateConcreteIndexer:outFileDescriptor:]_block_invoke_2.1386
+- ___76-[SPConcreteCoreSpotlightIndexer validateConcreteIndexer:outFileDescriptor:]_block_invoke_2.1391
+- ___76-[SPConcreteCoreSpotlightIndexer validateConcreteIndexer:outFileDescriptor:]_block_invoke_2.1399
+- ___76-[SPConcreteCoreSpotlightIndexer validateConcreteIndexer:outFileDescriptor:]_block_invoke_2.1399.cold.1
+- ___78-[MDSearchableIndexService performDataMigrationWithTimeout:completionHandler:]_block_invoke.139
+- ___78-[MDSearchableIndexService performDataMigrationWithTimeout:completionHandler:]_block_invoke.152
+- ___78-[SPConcreteCoreSpotlightIndexer openIndex:shouldReindexAll:readOnly:forcePC:]_block_invoke.1002
+- ___78-[SPConcreteCoreSpotlightIndexer openIndex:shouldReindexAll:readOnly:forcePC:]_block_invoke.1006
+- ___78-[SPConcreteCoreSpotlightIndexer openIndex:shouldReindexAll:readOnly:forcePC:]_block_invoke.1012
+- ___78-[SPConcreteCoreSpotlightIndexer openIndex:shouldReindexAll:readOnly:forcePC:]_block_invoke.1018
+- ___78-[SPConcreteCoreSpotlightIndexer openIndex:shouldReindexAll:readOnly:forcePC:]_block_invoke.1033
+- ___78-[SPConcreteCoreSpotlightIndexer openIndex:shouldReindexAll:readOnly:forcePC:]_block_invoke.943
+- ___78-[SPConcreteCoreSpotlightIndexer openIndex:shouldReindexAll:readOnly:forcePC:]_block_invoke.954
+- ___78-[SPConcreteCoreSpotlightIndexer openIndex:shouldReindexAll:readOnly:forcePC:]_block_invoke.983
+- ___78-[SPConcreteCoreSpotlightIndexer openIndex:shouldReindexAll:readOnly:forcePC:]_block_invoke.989
+- ___78-[SPConcreteCoreSpotlightIndexer openIndex:shouldReindexAll:readOnly:forcePC:]_block_invoke.994
+- ___78-[SPConcreteCoreSpotlightIndexer openIndex:shouldReindexAll:readOnly:forcePC:]_block_invoke_2.1005
+- ___78-[SPConcreteCoreSpotlightIndexer openIndex:shouldReindexAll:readOnly:forcePC:]_block_invoke_2.1009
+- ___78-[SPConcreteCoreSpotlightIndexer openIndex:shouldReindexAll:readOnly:forcePC:]_block_invoke_2.1015
+- ___78-[SPConcreteCoreSpotlightIndexer openIndex:shouldReindexAll:readOnly:forcePC:]_block_invoke_2.1021
+- ___78-[SPConcreteCoreSpotlightIndexer openIndex:shouldReindexAll:readOnly:forcePC:]_block_invoke_2.946
+- ___78-[SPConcreteCoreSpotlightIndexer openIndex:shouldReindexAll:readOnly:forcePC:]_block_invoke_2.956
+- ___78-[SPConcreteCoreSpotlightIndexer openIndex:shouldReindexAll:readOnly:forcePC:]_block_invoke_2.988
+- ___78-[SPConcreteCoreSpotlightIndexer openIndex:shouldReindexAll:readOnly:forcePC:]_block_invoke_2.992
+- ___78-[SPConcreteCoreSpotlightIndexer openIndex:shouldReindexAll:readOnly:forcePC:]_block_invoke_2.997
+- ___78-[SPConcreteCoreSpotlightIndexer openIndex:shouldReindexAll:readOnly:forcePC:]_block_invoke_2.997.cold.1
+- ___78-[SPConcreteCoreSpotlightIndexer openIndex:shouldReindexAll:readOnly:forcePC:]_block_invoke_3.947
+- ___78-[SPConcreteCoreSpotlightIndexer openIndex:shouldReindexAll:readOnly:forcePC:]_block_invoke_3.959
+- ___78-[SPConcreteCoreSpotlightIndexer openIndex:shouldReindexAll:readOnly:forcePC:]_block_invoke_3.993
+- ___78-[SPConcreteCoreSpotlightIndexer openIndex:shouldReindexAll:readOnly:forcePC:]_block_invoke_4.950
+- ___78-[SPConcreteCoreSpotlightIndexer openIndex:shouldReindexAll:readOnly:forcePC:]_block_invoke_4.962
+- ___78-[SPConcreteCoreSpotlightIndexer scheduleMaintenance:description:forDarkWake:]_block_invoke.742
+- ___79-[SDPommesSynonyms generateDateSynonymsFromToken:previousToken:isOrdinalToken:]_block_invoke
+- ___79-[SPConcreteCoreSpotlightIndexer fixupMessageAttachmentsWithCompletionHandler:]_block_invoke.1123
+- ___79-[SPConcreteCoreSpotlightIndexer fixupMessageAttachmentsWithCompletionHandler:]_block_invoke_2.1126
+- ___79-[SPConcreteCoreSpotlightIndexer fixupMessageAttachmentsWithCompletionHandler:]_block_invoke_3.1127
+- ___79-[SPConcreteCoreSpotlightIndexer fixupMessageAttachmentsWithCompletionHandler:]_block_invoke_4.1134
+- ___79-[SPCoreSpotlightIndexer reindexAllItemsWithIndexers:reason:completionHandler:]_block_invoke.2689
+- ___79-[SPCoreSpotlightIndexer reindexAllItemsWithIndexers:reason:completionHandler:]_block_invoke.2693
+- ___79-[SPCoreSpotlightIndexer reindexAllItemsWithIndexers:reason:completionHandler:]_block_invoke_2.2692
+- ___79-[SPCoreSpotlightIndexer reindexAllItemsWithIndexers:reason:completionHandler:]_block_invoke_2.2694
+- ___79-[SPCoreSpotlightIndexer reindexAllItemsWithIndexers:reason:completionHandler:]_block_invoke_3.2697
+- ___80-[SPCoreSpotlightIndexer cleanupStringsWithProtectionClasses:completionHandler:]_block_invoke.2536
+- ___80-[SPCoreSpotlightIndexer cleanupStringsWithProtectionClasses:completionHandler:]_block_invoke_2.2537
+- ___81-[SPConcreteCoreSpotlightIndexer processDecryptsForBundleID:persona:infos:group:]_block_invoke.1240
+- ___81-[SPCoreSpotlightIndexer _issueCacheCommand:xpc:searchContext:completionHandler:]_block_invoke.2810
+- ___81-[SpotlightReceiverConnection deleteAllInteractionsWithBundleID:protectionClass:]_block_invoke.353
+- ___82-[SpotlightReceiverConnection indexFromBundle:protectionClass:items:itemsContent:]_block_invoke.319
+- ___84-[SPCoreSpotlightIndexer _fetchAccumulatedStorageSizeForBundleId:completionHandler:]_block_invoke.3512
+- ___84-[SPCoreSpotlightIndexer _fetchAccumulatedStorageSizeForBundleId:completionHandler:]_block_invoke_2.3515
+- ___85-[SPCoreSpotlightIndexer performIndexerTask:withIndexExtensionsAndCompletionHandler:]_block_invoke.3451
+- ___85-[SPCoreSpotlightIndexer performIndexerTask:withIndexExtensionsAndCompletionHandler:]_block_invoke.3451.cold.1
+- ___85-[SPCoreSpotlightIndexer performIndexerTask:withIndexExtensionsAndCompletionHandler:]_block_invoke.3453
+- ___85-[SPCoreSpotlightIndexer performIndexerTask:withIndexExtensionsAndCompletionHandler:]_block_invoke.3455
+- ___85-[SPCoreSpotlightIndexer performIndexerTask:withIndexExtensionsAndCompletionHandler:]_block_invoke.3455.cold.1
+- ___85-[SPCoreSpotlightIndexer performIndexerTask:withIndexExtensionsAndCompletionHandler:]_block_invoke.3456
+- ___85-[SPCoreSpotlightIndexer performIndexerTask:withIndexExtensionsAndCompletionHandler:]_block_invoke.3457
+- ___85-[SPCoreSpotlightIndexer performIndexerTask:withIndexExtensionsAndCompletionHandler:]_block_invoke.3457.cold.1
+- ___85-[SPCoreSpotlightIndexer performIndexerTask:withIndexExtensionsAndCompletionHandler:]_block_invoke.3458
+- ___87-[SpotlightReceiverConnection addInteraction:intentClassName:bundleID:protectionClass:]_block_invoke.350
+- ___88-[SPConcreteCoreSpotlightIndexer deleteSearchableItemsWithPersonaIds:completionHandler:]_block_invoke_6
+- ___88-[SPConcreteCoreSpotlightIndexer deleteSearchableItemsWithPersonaIds:completionHandler:]_block_invoke_7
+- ___90-[SPCoreSpotlightIndexer _issueCommand:outFileDescriptor:searchContext:completionHandler:]_block_invoke.2895
+- ___90-[SPCoreSpotlightIndexer _issueCommand:outFileDescriptor:searchContext:completionHandler:]_block_invoke.2906
+- ___90-[SPCoreSpotlightIndexer _issueCommand:outFileDescriptor:searchContext:completionHandler:]_block_invoke.2929
+- ___90-[SPCoreSpotlightIndexer _issueCommand:outFileDescriptor:searchContext:completionHandler:]_block_invoke.2963
+- ___90-[SPCoreSpotlightIndexer _issueCommand:outFileDescriptor:searchContext:completionHandler:]_block_invoke.2967
+- ___90-[SPCoreSpotlightIndexer _issueCommand:outFileDescriptor:searchContext:completionHandler:]_block_invoke.2971
+- ___90-[SPCoreSpotlightIndexer _issueCommand:outFileDescriptor:searchContext:completionHandler:]_block_invoke.2997
+- ___90-[SPCoreSpotlightIndexer _issueCommand:outFileDescriptor:searchContext:completionHandler:]_block_invoke.3005
+- ___90-[SPCoreSpotlightIndexer _issueCommand:outFileDescriptor:searchContext:completionHandler:]_block_invoke.3018
+- ___90-[SPCoreSpotlightIndexer _issueCommand:outFileDescriptor:searchContext:completionHandler:]_block_invoke.3207
+- ___90-[SPCoreSpotlightIndexer _issueCommand:outFileDescriptor:searchContext:completionHandler:]_block_invoke.3277
+- ___90-[SPCoreSpotlightIndexer _issueCommand:outFileDescriptor:searchContext:completionHandler:]_block_invoke.3278
+- ___90-[SPCoreSpotlightIndexer _issueCommand:outFileDescriptor:searchContext:completionHandler:]_block_invoke.3288
+- ___90-[SPCoreSpotlightIndexer _issueCommand:outFileDescriptor:searchContext:completionHandler:]_block_invoke.3292
+- ___90-[SPCoreSpotlightIndexer _issueCommand:outFileDescriptor:searchContext:completionHandler:]_block_invoke.3293
+- ___90-[SPCoreSpotlightIndexer _issueCommand:outFileDescriptor:searchContext:completionHandler:]_block_invoke.3301
+- ___90-[SPCoreSpotlightIndexer _issueCommand:outFileDescriptor:searchContext:completionHandler:]_block_invoke.3320
+- ___90-[SPCoreSpotlightIndexer _issueCommand:outFileDescriptor:searchContext:completionHandler:]_block_invoke_10.3415
+- ___90-[SPCoreSpotlightIndexer _issueCommand:outFileDescriptor:searchContext:completionHandler:]_block_invoke_11.3416
+- ___90-[SPCoreSpotlightIndexer _issueCommand:outFileDescriptor:searchContext:completionHandler:]_block_invoke_12.3426
+- ___90-[SPCoreSpotlightIndexer _issueCommand:outFileDescriptor:searchContext:completionHandler:]_block_invoke_13.3427
+- ___90-[SPCoreSpotlightIndexer _issueCommand:outFileDescriptor:searchContext:completionHandler:]_block_invoke_14.3434
+- ___90-[SPCoreSpotlightIndexer _issueCommand:outFileDescriptor:searchContext:completionHandler:]_block_invoke_15.3437
+- ___90-[SPCoreSpotlightIndexer _issueCommand:outFileDescriptor:searchContext:completionHandler:]_block_invoke_16.3438
+- ___90-[SPCoreSpotlightIndexer _issueCommand:outFileDescriptor:searchContext:completionHandler:]_block_invoke_2.2909
+- ___90-[SPCoreSpotlightIndexer _issueCommand:outFileDescriptor:searchContext:completionHandler:]_block_invoke_2.3019
+- ___90-[SPCoreSpotlightIndexer _issueCommand:outFileDescriptor:searchContext:completionHandler:]_block_invoke_2.3211
+- ___90-[SPCoreSpotlightIndexer _issueCommand:outFileDescriptor:searchContext:completionHandler:]_block_invoke_2.3281
+- ___90-[SPCoreSpotlightIndexer _issueCommand:outFileDescriptor:searchContext:completionHandler:]_block_invoke_2.3351
+- ___90-[SPCoreSpotlightIndexer _issueCommand:outFileDescriptor:searchContext:completionHandler:]_block_invoke_3.2910
+- ___90-[SPCoreSpotlightIndexer _issueCommand:outFileDescriptor:searchContext:completionHandler:]_block_invoke_3.3029
+- ___90-[SPCoreSpotlightIndexer _issueCommand:outFileDescriptor:searchContext:completionHandler:]_block_invoke_3.3215
+- ___90-[SPCoreSpotlightIndexer _issueCommand:outFileDescriptor:searchContext:completionHandler:]_block_invoke_3.3355
+- ___90-[SPCoreSpotlightIndexer _issueCommand:outFileDescriptor:searchContext:completionHandler:]_block_invoke_4.3030
+- ___90-[SPCoreSpotlightIndexer _issueCommand:outFileDescriptor:searchContext:completionHandler:]_block_invoke_4.3222
+- ___90-[SPCoreSpotlightIndexer _issueCommand:outFileDescriptor:searchContext:completionHandler:]_block_invoke_4.3359
+- ___90-[SPCoreSpotlightIndexer _issueCommand:outFileDescriptor:searchContext:completionHandler:]_block_invoke_5.3253
+- ___90-[SPCoreSpotlightIndexer _issueCommand:outFileDescriptor:searchContext:completionHandler:]_block_invoke_5.3383
+- ___90-[SPCoreSpotlightIndexer _issueCommand:outFileDescriptor:searchContext:completionHandler:]_block_invoke_6.3254
+- ___90-[SPCoreSpotlightIndexer _issueCommand:outFileDescriptor:searchContext:completionHandler:]_block_invoke_6.3384
+- ___90-[SPCoreSpotlightIndexer _issueCommand:outFileDescriptor:searchContext:completionHandler:]_block_invoke_7.3257
+- ___90-[SPCoreSpotlightIndexer _issueCommand:outFileDescriptor:searchContext:completionHandler:]_block_invoke_7.3388
+- ___90-[SPCoreSpotlightIndexer _issueCommand:outFileDescriptor:searchContext:completionHandler:]_block_invoke_8.3267
+- ___90-[SPCoreSpotlightIndexer _issueCommand:outFileDescriptor:searchContext:completionHandler:]_block_invoke_8.3401
+- ___90-[SPCoreSpotlightIndexer _issueCommand:outFileDescriptor:searchContext:completionHandler:]_block_invoke_9.3406
+- ___90-[SpotlightReceiverConnection deleteInteractionsWithIdentifiers:bundleID:protectionClass:]_block_invoke.351
+- ___92-[SPConcreteCoreSpotlightIndexer performIndexerTask:withIndexDelegatesAndCompletionHandler:]_block_invoke.1065
+- ___92-[SPConcreteCoreSpotlightIndexer performIndexerTask:withIndexDelegatesAndCompletionHandler:]_block_invoke.1066
+- ___93-[SPCoreSpotlightIndexer userPerformedAction:withItem:protectionClass:forBundleID:personaID:]_block_invoke.2736
+- ___93-[SPCoreSpotlightIndexer userPerformedAction:withItem:protectionClass:forBundleID:personaID:]_block_invoke_2.2737
+- ___94-[SPConcreteCoreSpotlightIndexer requestRequiresImportWithoutSandboxExtension:maxCount:depth:]_block_invoke.803
+- ___94-[SPConcreteCoreSpotlightIndexer requestRequiresImportWithoutSandboxExtension:maxCount:depth:]_block_invoke.804
+- ___94-[SPConcreteCoreSpotlightIndexer requestRequiresImportWithoutSandboxExtension:maxCount:depth:]_block_invoke.805
+- ___94-[SPConcreteCoreSpotlightIndexer requestRequiresImportWithoutSandboxExtension:maxCount:depth:]_block_invoke.809
+- ___94-[SPConcreteCoreSpotlightIndexer requestRequiresImportWithoutSandboxExtension:maxCount:depth:]_block_invoke_2.808
+- ___94-[SPConcreteCoreSpotlightIndexer requestRequiresImportWithoutSandboxExtension:maxCount:depth:]_block_invoke_2.812
+- ___95-[SpotlightReceiverConnection deleteInteractionsWithGroupIdentifiers:bundleID:protectionClass:]_block_invoke.352
+- ___96-[SpotlightDaemonServer handleJob:protectionClass:perClientCompletionHandler:completionHandler:]_block_invoke.89
+- ___97-[SPConcreteCoreSpotlightIndexer deleteSearchableItemsWithFileProviderDomains:completionHandler:]_block_invoke.1481
+- ___97-[SPConcreteCoreSpotlightIndexer deleteSearchableItemsWithFileProviderDomains:completionHandler:]_block_invoke.1491
+- ___97-[SPConcreteCoreSpotlightIndexer deleteSearchableItemsWithFileProviderDomains:completionHandler:]_block_invoke_2.1492
+- ___97-[SPConcreteCoreSpotlightIndexer deleteSearchableItemsWithFileProviderDomains:completionHandler:]_block_invoke_3.1493
+- ___97-[SPConcreteCoreSpotlightIndexer deleteSearchableItemsWithFileProviderDomains:completionHandler:]_block_invoke_4.1496
+- ___97-[SPConcreteCoreSpotlightIndexer deleteSearchableItemsWithFileProviderDomains:completionHandler:]_block_invoke_4.cold.1
+- ___97-[SPCoreSpotlightIndexer mergeWithProtectionClasses:power:inferSpecialIndexes:completionHandler:]_block_invoke.2526
+- ___97-[SPCoreSpotlightIndexer mergeWithProtectionClasses:power:inferSpecialIndexes:completionHandler:]_block_invoke.2526.cold.1
+- ___97-[SPCoreSpotlightIndexer mergeWithProtectionClasses:power:inferSpecialIndexes:completionHandler:]_block_invoke.2527
+- ___97-[SPCoreSpotlightIndexer mergeWithProtectionClasses:power:inferSpecialIndexes:completionHandler:]_block_invoke.2531
+- ___97-[SPCoreSpotlightIndexer mergeWithProtectionClasses:power:inferSpecialIndexes:completionHandler:]_block_invoke.2532
+- ___97-[SPCoreSpotlightIndexer mergeWithProtectionClasses:power:inferSpecialIndexes:completionHandler:]_block_invoke_2.2533
+- ___99-[SpotlightReceiverConnection deleteUserActivitiesWithPersistentIdentifiers:bundleID:retainedData:]_block_invoke.344
+- ___block_descriptor_123_e8_32s40s48s56s64bs72r80r88w_e17_v16?0"NSError"8lw88l8s32l8s40l8s64l8s48l8r72l8r80l8s56l8
+- ___block_descriptor_124_e8_32s40s48s56s64s72s80bs_e5_v8?0ls32l8s40l8s48l8s56l8s64l8s72l8s80l8
+- ___block_descriptor_136_e8_32bs40bs48bs56r64r72r80r_e31_v28?0i8^{json_value=i*Q}12^B20lr56l8r64l8s32l8r72l8r80l8s40l8s48l8
+- ___block_descriptor_138_e8_32s40s48s56s64s72s80s88s96s104s112bs_e5_v8?0ls32l8s112l8s40l8s48l8s56l8s64l8s72l8s80l8s88l8s96l8s104l8
+- ___block_descriptor_178_e8_32s40s48s56s64s72s80s88s96s104s112s120s128bs136w_e18_v20?0^{__SI=}8C16lw136l8s128l8s32l8s40l8s48l8s56l8s64l8s72l8s80l8s88l8s96l8s104l8s112l8s120l8
+- ___block_descriptor_40_e8_32r_e28_v24?0^{json_value=i*Q}8^B16lr32l8
+- ___block_descriptor_40_e8_32r_e50_v40?0^{json_value=i*Q}8^{json_value=i*Q}16Q24^B32lr32l8
+- ___block_descriptor_52_e8_32s40r_e28_v24?0"FPItem"8"NSError"16lr40l8s32l8
+- ___block_descriptor_56_e8_32s40r_e21_v32?0I8S12^q16I24I28ls32l8r40l8
+- ___block_descriptor_60_e8_32s40s48s_e18_v20?0^{__SI=}8C16ls32l8s40l8s48l8
+- ___block_descriptor_64_e8_32s40s48s56r_e57_v32?0"NSString"8"SPConcreteCoreSpotlightIndexer"16^B24lr56l8s32l8s40l8s48l8
+- ___block_descriptor_72_e8_32s40s48bs56w_e17_v16?0"NSError"8ls48l8s32l8w56l8s40l8
+- ___block_descriptor_72_e8_32s40s48r56r64r_e28_v24?0^{json_value=i*Q}8^B16lr48l8s32l8r56l8r64l8s40l8
+- ___block_descriptor_72_e8_32s40s48s56s_e18_v20?0^{__SI=}8C16ls32l8s40l8s48l8s56l8
+- ___block_descriptor_73_e8_32s40s48s56s64r_e5_v8?0ls32l8s40l8r64l8s48l8s56l8
+- ___block_descriptor_80_e8_32s40s48s56s64r_e69_v48?0"SPQueryJob"8q16Q24^{__MDStoreOIDArray=}32^{__MDPlistBytes=}40ls32l8s40l8s48l8s56l8r64l8
+- ___block_descriptor_81_e8_32s40s48s56s64r_e18_v20?0^{__SI=}8C16lr64l8s32l8s40l8s48l8s56l8
+- ___block_descriptor_89_e8_32s40s48bs56r64r_e5_v8?0ls32l8s40l8r56l8s48l8r64l8
+- ___block_literal_global.1011
+- ___block_literal_global.1017
+- ___block_literal_global.1023
+- ___block_literal_global.1035
+- ___block_literal_global.122
+- ___block_literal_global.1226
+- ___block_literal_global.1229
+- ___block_literal_global.1233
+- ___block_literal_global.1236
+- ___block_literal_global.1239
+- ___block_literal_global.1292
+- ___block_literal_global.1337
+- ___block_literal_global.1347
+- ___block_literal_global.1376
+- ___block_literal_global.1379
+- ___block_literal_global.142
+- ___block_literal_global.1472
+- ___block_literal_global.1620
+- ___block_literal_global.1686
+- ___block_literal_global.1714
+- ___block_literal_global.207
+- ___block_literal_global.2223
+- ___block_literal_global.2228
+- ___block_literal_global.2246
+- ___block_literal_global.2250
+- ___block_literal_global.2267
+- ___block_literal_global.2269
+- ___block_literal_global.2271
+- ___block_literal_global.2274
+- ___block_literal_global.2291
+- ___block_literal_global.2307
+- ___block_literal_global.2309
+- ___block_literal_global.2313
+- ___block_literal_global.2338
+- ___block_literal_global.2345
+- ___block_literal_global.2356
+- ___block_literal_global.2378
+- ___block_literal_global.238
+- ___block_literal_global.2396
+- ___block_literal_global.2493
+- ___block_literal_global.2497
+- ___block_literal_global.2513
+- ___block_literal_global.2517
+- ___block_literal_global.2525
+- ___block_literal_global.2543
+- ___block_literal_global.2556
+- ___block_literal_global.2564
+- ___block_literal_global.259
+- ___block_literal_global.2599
+- ___block_literal_global.2601
+- ___block_literal_global.2607
+- ___block_literal_global.2628
+- ___block_literal_global.263
+- ___block_literal_global.2672
+- ___block_literal_global.2726
+- ___block_literal_global.2739
+- ___block_literal_global.2843
+- ___block_literal_global.3142
+- ___block_literal_global.3147
+- ___block_literal_global.3152
+- ___block_literal_global.3157
+- ___block_literal_global.3162
+- ___block_literal_global.3167
+- ___block_literal_global.3172
+- ___block_literal_global.3186
+- ___block_literal_global.338
+- ___block_literal_global.342
+- ___block_literal_global.3467
+- ___block_literal_global.3528
+- ___block_literal_global.3546
+- ___block_literal_global.369
+- ___block_literal_global.373
+- ___block_literal_global.4132
+- ___block_literal_global.4176
+- ___block_literal_global.4270
+- ___block_literal_global.4278
+- ___block_literal_global.4280
+- ___block_literal_global.4311
+- ___block_literal_global.4318
+- ___block_literal_global.45
+- ___block_literal_global.472
+- ___block_literal_global.474
+- ___block_literal_global.517
+- ___block_literal_global.612
+- ___block_literal_global.707
+- ___block_literal_global.748
+- ___block_literal_global.775
+- ___block_literal_global.847
+- ___block_literal_global.852
+- ___block_literal_global.882
+- ___block_literal_global.916
+- ___block_literal_global.919
+- ___block_literal_global.921
+- ___block_literal_global.939
+- ___block_literal_global.958
+- ___block_literal_global.961
+- ___block_literal_global.964
+- ___collectSpotlightLogs_block_invoke.4197
+- ___processItemsForImportInner_block_invoke.4226
+- ___processItemsForImportInner_block_invoke_3
+- _generateDateSynonymsFromToken:previousToken:isOrdinalToken:.onceToken
+- _generateDateSynonymsFromToken:previousToken:isOrdinalToken:.ordinalIndicators
+- _jscon_scan_string
+- _json_char_table
+- _json_parse
+- _json_utf8_string
+- _kSPReindexAllCompletedBundleIDs_block_invoke_4.sQueryQueue
+- _kSPReindexAllCompletedBundleIDs_block_invoke_4.sQueryQueueOnce
+- _kSPReindexAllCompletedBundleIDs_block_invoke_5.queueNum
+- _memchr
+- _objc_msgSend$_deleteAllSearchableItemsWithBundleID:protectionClass:shouldGC:options:deleteAllReason:completionHandler:
+- _objc_msgSend$_fetchParentsForItemID:recursively:completionHandler:
+- _objc_msgSend$_issueDiagnose:bundleID:logQuery:completionHandler:
+- _objc_msgSend$_loadSynonymsFromFile:isFirstPass:isDate:error:
+- _objc_msgSend$_processIndexDataForBundle:protectionClass:personaID:options:items:itemsText:itemsHTML:clientState:expectedClientState:clientStateName:deletes:completionHandler:
+- _objc_msgSend$_startInternalQueryWithIndex:query:liftingRules:fetchAttributes:forBundleIds:maxCount:resultQueue:postFilter:clientBundleID:resultsHandler:
+- _objc_msgSend$checkDocIDConsistency
+- _objc_msgSend$containingAppForPlugInWithPid:
+- _objc_msgSend$dateRewritesFromContext:
+- _objc_msgSend$deleteAllSearchableItemsForBundleID:fromClient:shouldGC:deleteAllReason:completionHandler:
+- _objc_msgSend$deleteAllSearchableItemsWithBundleID:fromClient:protectionClass:shouldGC:deleteAllReason:completionHandler:
+- _objc_msgSend$deleteSearchableItemsWithDomainIdentifiers:forBundleID:fromClient:reason:completionHandler:
+- _objc_msgSend$deleteSearchableItemsWithDomainIdentifiers:protectionClass:forBundleID:fromClient:options:completionHandler:
+- _objc_msgSend$extraTTRInfo
+- _objc_msgSend$fetchItemForURL:
+- _objc_msgSend$fetchItemForURL:completionHandler:
+- _objc_msgSend$filterForDisabledBundles:
+- _objc_msgSend$freeIndexDiskSpace
+- _objc_msgSend$generateDateSynonymsFromToken:previousToken:isOrdinalToken:
+- _objc_msgSend$getDateSynonymsForWord:
+- _objc_msgSend$getFirstPassSynonymsForWord:
+- _objc_msgSend$getSecondPassSynonymsForWord:
+- _objc_msgSend$indexFromBundle:personaID:options:items:itemsText:itemsHTML:clientState:expectedClientState:clientStateName:deletes:canCreateNewIndex:completionHandler:
+- _objc_msgSend$indexFromBundle:protectionClass:personaID:options:items:itemsText:itemsHTML:clientState:expectedClientState:clientStateName:deletes:canCreateNewIndex:completionHandler:
+- _objc_msgSend$indexWithFd:offset:size:indexType:bundleID:protectionClass:serialNumber:journalCookie:config:additionalAttributes:completionHandler:
+- _objc_msgSend$informationForPlugInWithPid:
+- _objc_msgSend$issueDocIDConsistencyCheck:
+- _objc_msgSend$itemID
+- _objc_msgSend$itemIdentifier
+- _objc_msgSend$lengthOfBytesUsingEncoding:
+- _objc_msgSend$loadDateSynonymDictionary
+- _objc_msgSend$loadFirstPassSynonymDictionary
+- _objc_msgSend$loadSecondPassSynonymDictionary
+- _objc_msgSend$markIndexPurgeable:
+- _objc_msgSend$processSearchString:intoTrimmedString:andTokens:
+- _objc_msgSend$providerID
+- _objc_msgSend$rewriteFirstPassQueryWithQueryString:context:trimmedSearchStringTokens:populateDateSynonyms:
+- _objc_msgSend$setIsTimeSensitive:
+- _objc_msgSend$totalIndexDiskSpace
+- _objc_msgSend$writeDiagnostic:bundleID:identifier:
+- _objc_msgSend$writeDiagnostic:bundleID:identifier:logQuery:
+- _utf8_byte_length_noerror.utf8_len_table
+CStrings:
++ "#index fetch timestamp %@"
++ "%@ = \"%@\" && FieldMatch(%@, "
++ "%@/CoreSpotlight/amonitor.dat"
++ "%@/Info.plist"
++ "(%@ == \"%@\")"
++ "(%@) fetchLastLinkedTimestampWithProtectionClass, protectionClass:%@/%@"
++ "(kMDItemContentCreationDate==* && kMDItemContentCreationDate_Ranking!=*) || (kMDItemLastUsedDate == * && kMDItemLastUsedDate_Ranking != * )|| (kMDItemStartDate==* && kMDItemStartDate_Ranking != *) || (kMDItemCompletionDate=* && kMDItemCompletionDate_Ranking!=*) || (kMDItemDueDate=* && kMDItemDueDate_Ranking!=*) || (com_apple_mail_dateReceived==* && kMDItemMailDateReceived_Ranking!=*) || (kMDItemContentCreationDate==*  || kMDItemLastUsedDate == * || kMDItemStartDate==* || kMDItemCompletionDate=* || kMDItemDueDate=* || com_apple_mail_dateReceived==* || _kMDItemRelatedActivityLastLaunchDate=*) && (_kMDItemRankingDateFixed!=1 || _kMDItemInterestingDate!=*)"
++ "(no error)"
++ "-[MDSearchableIndexService fetchLinkedTimestamp:]"
++ "-[SPConcreteCoreSpotlightIndexer indexFromBundle:personaID:options:items:itemsText:itemsHTML:clientState:expectedClientState:clientStateName:donationTimestamp:deletes:canCreateNewIndex:completionHandler:]_block_invoke"
++ "23F"
++ "<redacted>"
++ "CACHE_DELETE_CRITICAL_RELINQUISH_PURGE"
++ "CSDataProtectionTypes"
++ "CacheDelete: asked for size on %@ for urgency: %d and relinquish:%d"
++ "CacheDelete: will purge %d on %@ for urgency: %d and relinquish:%d"
++ "Client %@ sent privileged CSIndexJobOptionHDBMigrationDelete — rejecting"
++ "Client %@ sent privileged deleteAllReason %ld — rejecting"
++ "Client %@ should not be issuing a delete all with bundleID @\"\""
++ "Dropping reindex task for %@: all bundles are HDB-migrated (reason: %@)"
++ "Event indexing for %@ returned error: %@"
++ "Exception decoding Cascade updates: %@"
++ "Exception decoding redirected updates: %@"
++ "Failed to decode Cascade updates: decodeObjectOfClasses returned nil"
++ "Failed to decode redirected updates: decodeObjectOfClasses returned nil"
++ "HDB bundle registry failed to load; migrated bundles will not be suppressed this session"
++ "HDB migration: registerBundle failed for %{private}@, aborting delete"
++ "Index ref nil when logging bulk delete event for bundle"
++ "Index ref nil when logging bulk delete event for domain identifiers"
++ "Index ref nil when logging bulk delete event for file provider domains"
++ "Index ref nil when logging bulk delete event for personas"
++ "Index ref nil when logging bulk delete event since date"
++ "LNReindex"
++ "Library/Spotlight"
++ "Linked timestamp chain broken during deleteSearchableItemsByDomainIdentifiers call - client did not provide new donation timestamp. BundleID:%@"
++ "Linked timestamp chain broken during indexFromBundle call - client did not provide new donation timestamp. BundleID:%@"
++ "Object deallocated during background import operation"
++ "Only searchutil is allowed to issue an index-wiping command"
++ "Processing results, identifier:%@ batch count:%ld"
++ "Reserve command: %lld bytes"
++ "SPCoreSpotlightAppMonitor: Adding bundle: %@"
++ "SPCoreSpotlightAppMonitor: Building bundle cache, trigger: %llu"
++ "SPCoreSpotlightAppMonitor: Bundle cache init"
++ "SPCoreSpotlightAppMonitor: Bundle cache notification: %@"
++ "SPCoreSpotlightAppMonitor: Bundle cache source fired data: %llx"
++ "SPCoreSpotlightAppMonitor: Bundle cache updated, clearing schema cache"
++ "SPCoreSpotlightAppMonitor: CoreSpotlight query completed with %lu bundles"
++ "SPCoreSpotlightAppMonitor: CoreSpotlight query failed: %@"
++ "SPCoreSpotlightAppMonitor: Finished building bundle cache with %ld bundles, took %f seconds, update? %@"
++ "SPCoreSpotlightAppMonitor: Set bundle cache update block with %lu cached bundles"
++ "SPCoreSpotlightAppMonitor: bundle cache update? %@"
++ "SPHDBBundleRegistry: failed to create registry at %{private}s"
++ "SPHDBBundleRegistry: failed to read %{private}s: %{public}@"
++ "SPHDBBundleRegistry: invalid plist at path %{private}s"
++ "SPHDBBundleRegistry: plist at %{private}s exceeds maximum size"
++ "SPHDBBundleRegistry: plist at %{private}s has too many entries (%lu)"
++ "SPHDBBundleRegistry: registerBundle called with invalid bundleID"
++ "SPHDBBundleRegistry: registered bundle %{private}@"
++ "SPHDBBundleRegistry: serialization failed for %{private}s: %{public}s"
++ "SPHDBBundleRegistry: skipping invalid element in plist at %{private}s"
++ "SPHDBBundleRegistry: writeToFile failed for %{private}s"
++ "Skipping reindex at check-in for HDB-migrated bundle, bundleID:%@, dataclass:%@"
++ "SpotlightScheduledSender: decodeObjectOfClasses returned nil for Cascade updates"
++ "SpotlightScheduledSender: decodeObjectOfClasses returned nil for redirected updates"
++ "SpotlightScheduledSender: exception decoding Cascade updates: %@"
++ "SpotlightScheduledSender: exception decoding redirected updates: %@"
++ "SpotlightScheduledSender: exception during Cascade serialization: %@"
++ "SpotlightScheduledSender: failed to create unarchiver for Cascade updates: %@"
++ "SpotlightScheduledSender: failed to create unarchiver for redirected updates: %@"
++ "SpotlightScheduledSender: failed to encode Cascade attribute sets: %@"
++ "SpotlightScheduledSender: indexWithCascadeData, client: %@, configName: %@, priority: %@"
++ "SpotlightScheduledSender: indexWithSerialNumber (redirect), client: %@, configName: %@, priority: %@"
++ "SpotlightScheduledSender: received %ld Cascade updates"
++ "SpotlightScheduledSender: received %ld redirected updates"
++ "SpotlightScheduledSender: spotlightReceiver disabling messages for Cascade items"
++ "Unreserve command"
++ "[POMMES] Synonym file for bundle ID %@ is not found."
++ "[POMMES] Synonym vocab dictionary is loaded from the source file %@."
++ "[POMMES] Synonym vocab dictionary is not loaded."
++ "_kMDItemAppEntityTypeIdentifier"
++ "_kMDItemRequiresImport==1 && _kMDItemImportComplete!=* && (_kMDItemImportHasSandboxExtension==0 || _kMDItemImportHasSandboxExtension!=*)"
++ "appIntents Provider"
++ "appIntents Query"
++ "appIntents reindex"
++ "catrs"
++ "catrs-size"
++ "caupd"
++ "com.apple.Home"
++ "com.apple.LaunchServices.applicationRegistered"
++ "com.apple.LaunchServices.applicationStateChanged"
++ "com.apple.LaunchServices.applicationUnregistered"
++ "com.apple.campo"
++ "com.apple.corespotlight.hdbregistry"
++ "com.apple.omniSearch.searchtoold"
++ "com.apple.searchd.SpotlightKnowledgeProcessing"
++ "com.apple.searchtoold"
++ "com.apple.spotlight.IndexDelegateAgent.test"
++ "com.apple.spotlightknowledged.SPCoreSpotlightAppMonitor"
++ "com.apple.spotlightknowledged.bundlecache"
++ "completion handler for fetchLinkedTimestamp"
++ "deleteSearchableItemsWithDomainIndentifers %@ returned error: %@"
++ "docID consistency check: no results for dataclass:%@ (index may not be open or check was canceled)"
++ "donation-timestamp"
++ "dpl"
++ "en_synonyms"
++ "excludePhotos"
++ "fetch-linked-timestamp"
++ "importBlock: importing %lu validated items: %@"
++ "linked-timestamp"
++ "maintenance"
++ "reindexAllSearchableItemsWithIndexDescription: %@"
++ "reserve"
++ "skipchk"
++ "supportedAppEntitySchemas"
++ "unreserve"
++ "unsupportedAppEntitySchemas"
++ "updst"
++ "v16@?0@\"NSSet\"8"
++ "v20@?0Q8i16"
++ "v20@?0i8r*12"
++ "v24@?0@\"NSDictionary\"8@\"NSError\"16"
++ "v24@?0^{md_json_value=i*Q}8^B16"
++ "v28@?0i8^{md_json_value=i*Q}12^B20"
++ "v40@?0^{md_json_value=i*Q}8^{md_json_value=i*Q}16Q24^B32"
++ "\xd11\xb1"
+- "### calculateDirectorySize %llu"
+- "###calculateDirectorySize %s: fsctl failed errno: %d"
+- "#16@0:8"
+- "%@ = %@ && FieldMatch(%@, "
+- "%ld items"
+- "(kMDItemContentCreationDate==* && kMDItemContentCreationDate_Ranking!=*) || (kMDItemLastUsedDate == * && kMDItemLastUsedDate_Ranking != * )|| (kMDItemStartDate==* && kMDItemStartDate_Ranking != *) || (kMDItemCompletionDate=* && kMDItemCompletionDate_Ranking!=*) || (kMDItemDueDate=* && kMDItemDueDate_Ranking!=*) || (com_apple_mail_dateReceived==* && kMDItemMailDateReceived_Ranking!=*) || (kMDItemContentCreationDate==*  || kMDItemLastUsedDate == * || kMDItemStartDate==* || kMDItemCompletionDate=* || kMDItemDueDate=* || com_apple_mail_dateReceived==* || _kMDItemRelatedActivityLastLaunchDate=*) && _kMDItemRankingDateFixed!=1"
+- "*warn* Failed to get index size for %s. err=%d"
+- "-[SPConcreteCoreSpotlightIndexer indexFromBundle:personaID:options:items:itemsText:itemsHTML:clientState:expectedClientState:clientStateName:deletes:canCreateNewIndex:completionHandler:]_block_invoke"
+- ".cxx_destruct"
+- "@\"<CSDonationProgressFetching>\""
+- "@\"<CSIndexExtensionDelegate>\""
+- "@\"<CSIndexExtensionDelegate>\"16@0:8"
+- "@\"<MDIndexer>\""
+- "@\"<NSObject>\""
+- "@\"<SDLockHandlerDelegate>\""
+- "@\"<SPCoreSpotlightIndexerDelegate>\""
+- "@\"BMSource\""
+- "@\"CNContact\""
+- "@\"CNContactStore\""
+- "@\"CSDonationProgressStreamRecorder\""
+- "@\"CSFileProviderDomainMonitor\""
+- "@\"CSIndexJob\""
+- "@\"CSIndexingQueue\""
+- "@\"CSPipelineCompletenessReportStorage\""
+- "@\"CSReceiverPreferences\""
+- "@\"CSReceiverServerPreferences\""
+- "@\"CSSearchQueryContext\""
+- "@\"MDSearchableIndexService\""
+- "@\"NSArray\""
+- "@\"NSArray\"16@0:8"
+- "@\"NSData\""
+- "@\"NSDate\""
+- "@\"NSDictionary\""
+- "@\"NSLock\""
+- "@\"NSMapTable\""
+- "@\"NSMutableArray\""
+- "@\"NSMutableDictionary\""
+- "@\"NSMutableOrderedSet\""
+- "@\"NSMutableSet\""
+- "@\"NSNumber\""
+- "@\"NSObject\""
+- "@\"NSObject<MDIndexer>\""
+- "@\"NSObject<OS_dispatch_queue>\""
+- "@\"NSObject<OS_dispatch_semaphore>\""
+- "@\"NSObject<OS_dispatch_source>\""
+- "@\"NSObject<OS_os_transaction>\""
+- "@\"NSObject<OS_xpc_object>\""
+- "@\"NSObject<OS_xpc_object>\"16@0:8"
+- "@\"NSSet\""
+- "@\"NSString\""
+- "@\"NSString\"16@0:8"
+- "@\"NSURL\""
+- "@\"SDConnectionConfiguration\""
+- "@\"SIAnalytics\""
+- "@\"SPCoreSpotlightIndexer\""
+- "@\"SPCoreSpotlightInteractionHandler\""
+- "@\"SPCoreSpotlightTask\""
+- "@\"SPCoreSpotlightTask\"40@0:8@\"NSString\"16@\"CSSearchQueryContext\"24@?<v@?iQ^{__MDStoreOIDArray=}^{__MDPlistBytes=}@\"NSString\">32"
+- "@\"SPCoreSpotlightTask\"48@0:8@\"NSString\"16@\"CSSearchQueryContext\"24@?<^v@?i{?=(?={?=^vI}{?=^vQ}{?=*Q}{?=*I}*BCSIQTcsiqtdfdq^v)}Q^v>32@?<v@?iQ^{__MDStoreOIDArray=}^{__MDPlistBytes=}@\"NSString\">40"
+- "@\"SPCoreSpotlightTask\"56@0:8@\"NSString\"16@\"CSSearchQueryContext\"24@?<^v@?i{?=(?={?=^vI}{?=^vQ}{?=*Q}{?=*I}*BCSIQTcsiqtdfdq^v)}Q^v>32@?<v@?iQ^{__MDStoreOIDArray=}^{__MDPlistBytes=}@\"NSString\">40@?<v@?@\"NSError\">48"
+- "@\"SPQueryResultsQueue\""
+- "@\"SpotlightReceiverConfig\""
+- "@\"SpotlightSenderState\""
+- "@\"_DASSystemContext\""
+- "@16@0:8"
+- "@20@0:8B16"
+- "@24@0:8:16"
+- "@24@0:8@16"
+- "@24@0:8^{_NSZone=}16"
+- "@24@0:8d16"
+- "@24@0:8q16"
+- "@28@0:8@16B24"
+- "@28@0:8B16@20"
+- "@28@0:8q16i24"
+- "@32@0:8:16@24"
+- "@32@0:8@16@24"
+- "@32@0:8@16@?24"
+- "@32@0:8@16B24B28"
+- "@32@0:8@16Q24"
+- "@32@0:8@16q24"
+- "@32@0:8q16q24"
+- "@36@0:8@16@24B32"
+- "@36@0:8@16B24Q28"
+- "@36@0:8@16^q24B32"
+- "@40@0:8:16@24@32"
+- "@40@0:8@16@24@32"
+- "@40@0:8@16@24@?32"
+- "@40@0:8@16@24^@32"
+- "@40@0:8@16@24^B32"
+- "@40@0:8@16@24^i32"
+- "@40@0:8@16@?24@?32"
+- "@40@0:8@16q24@32"
+- "@48@0:8@16@24@32@40"
+- "@48@0:8@16@24@?32@?40"
+- "@48@0:8^{__SIJobRef=}16@24@?32@?40"
+- "@48@0:8{?=*Q{?=IC}}16@40"
+- "@56@0:8@16@24@?32@?40@?48"
+- "@64@0:8@16@24@32q40@48@56"
+- "@?"
+- "@?16@0:8"
+- "AB"
+- "AI"
+- "ARG_TIME"
+- "B16@0:8"
+- "B24@0:8#16"
+- "B24@0:8*16"
+- "B24@0:8:16"
+- "B24@0:8@\"Protocol\"16"
+- "B24@0:8@16"
+- "B24@0:8^{__sFILE=*iiss{__sbuf=*i}i^v^?^?^?^?{__sbuf=*i}^{__sFILEX}i[3C][1C]{__sbuf=*i}iq}16"
+- "B24@0:8q16"
+- "B28@0:8@16B24"
+- "B32@0:8@16@24"
+- "B32@0:8@16q24"
+- "B32@0:8q16@24"
+- "B32@0:8r*16@24"
+- "B40@0:8@16@24@32"
+- "B40@0:8@16B24B28^@32"
+- "B40@0:8^{__SI=}16q24^@32"
+- "B40@0:8i16B20B24B28Q32"
+- "B40@0:8r*16@24@32"
+- "B44@0:8@16@24@32B40"
+- "B48@0:8@16@24@32@?40"
+- "B48@0:8^{__SI=}16@24@32@?40"
+- "B52@0:8@16@24@32B40B44B48"
+- "B56@0:8^{__SI=}16@24@32@40@?48"
+- "B64@0:8@16@24@32@40@48^@56"
+- "B64@0:8@16@24@32@40B48B52@56"
+- "B64@0:8^{__SI=}16@24@32@40@48@?56"
+- "B64@0:8^{__SI=}16@24@32@40Q48@?56"
+- "B72@0:8^{__SI=}16@24@32@40Q48@56@?64"
+- "B80@0:8^{__SI=}16@24@32@40Q48@56@64@?72"
+- "B88@0:8^{__SI=}16@24@32@40Q48@56@64@72@?80"
+- "B96@0:8^{__SI=}16@24@32@40@48Q56@64@72@80@?88"
+- "CSBundleCompletenessAggregator"
+- "CSDecryptInfo"
+- "CSDonationProgressFetcher"
+- "CSDonationProgressFetching"
+- "CSDonationProgressStreamRecorder"
+- "CSImportInfo"
+- "CSIndexAgent"
+- "CSIndexClientConnection"
+- "CSIndexClientConnectionKey"
+- "CSIndexingPipelineCompletenessCollector"
+- "CSRecieverState"
+- "CSSearchClientConnection"
+- "CSSearchClientConnectionKey"
+- "CSSearchableIndexInterface"
+- "CSSearchableIndexServiceInterface"
+- "CSTestIndexAgent"
+- "CSTestSearchAgent"
+- "CSXPCConnectionConfiguration"
+- "CacheDelete: NOT allowing purge for %s: %llu/%llu"
+- "CacheDelete: allowing purge for %s: %llu/%llu"
+- "CacheDelete: asked for size on %@ for urgency: %d"
+- "CacheDelete: will purge %d on %@ for urgency: %d"
+- "ClassCData"
+- "Clearing CoreSpotlight index files purgeable under %@. freeDiskSpace %lu, totalDiskSpace %lu"
+- "DonationProgress"
+- "HTMLContentData"
+- "I"
+- "I16@0:8"
+- "MDAgent"
+- "MDIndexer"
+- "MDSearchableIndexService"
+- "Mail"
+- "Marking CoreSpotlight index files purgeable under %@. freeDiskSpace %lu, totalDiskSpace %lu"
+- "MeFixupContext"
+- "NSCopying"
+- "NSObject"
+- "PLAssetsdDirectServiceProtocol"
+- "Q"
+- "Q16@0:8"
+- "Q20@0:8B16"
+- "Q24@0:8@16"
+- "Q24@0:8Q16"
+- "SDConnectionConfiguration"
+- "SDDirtyIdleTimer"
+- "SDEventHandlerProvider"
+- "SDEventMonitor"
+- "SDLockHandler"
+- "SDMigrationMonitor"
+- "SDPommesFeature"
+- "SDPommesSynonyms"
+- "SDSignalHandler"
+- "SDTrace"
+- "SDTraceItem"
+- "SDXPCClientConnection"
+- "SPConcreteCoreSpotlightIndexer"
+- "SPCoreSpotlightContactsUpdater"
+- "SPCoreSpotlightExtensionsTask"
+- "SPCoreSpotlightIndexer"
+- "SPCoreSpotlightIndexerTask"
+- "SPCoreSpotlightInteractionHandler"
+- "SPCoreSpotlightLiveQueryTask"
+- "SPCoreSpotlightTask"
+- "SPCorrectionHandler"
+- "SPDASManager"
+- "SPHistoricalReport"
+- "SPHistoricalReportManager"
+- "SPIndexStorageUsageCollector"
+- "SPQueryJob"
+- "SPQueryResultsQueue"
+- "SPUAProgressItem"
+- "SplitWithLimit"
+- "SpotlightDaemonServer"
+- "SpotlightReceiverConfig"
+- "SpotlightReceiverConnection"
+- "SpotlightReceiverConnectionManager"
+- "SpotlightScheduledSender"
+- "SpotlightScheduledSender: indexWithSerialNumber, client: %@, configName: %@, priority: %@"
+- "SpotlightSenderState"
+- "T#,R"
+- "T@\"<CSIndexExtensionDelegate>\",?,W"
+- "T@\"<CSIndexExtensionDelegate>\",W,VextensionDelegate"
+- "T@\"<MDIndexer>\",&,N,V_indexer"
+- "T@\"<NSObject>\",&,N,V_dataMigrationFinishObserver"
+- "T@\"<NSObject>\",&,N,V_dataMigrationStartObserver"
+- "T@\"<NSObject>\",&,N,V_meCardObserver"
+- "T@\"<SPCoreSpotlightIndexerDelegate>\",W,V_indexerDelegate"
+- "T@\"BMSource\",&,N,V_streamSource"
+- "T@\"CNContact\",&,N,V_meCard"
+- "T@\"CNContactStore\",&,N,V_contactStore"
+- "T@\"CSFileProviderDomainMonitor\",W,V_fileProviderMonitor"
+- "T@\"CSIndexJob\",R,N,V_job"
+- "T@\"CSIndexingQueue\",R,N"
+- "T@\"CSReceiverPreferences\",R,N,V_receiverPreferences"
+- "T@\"CSReceiverServerPreferences\",R,N,V_serverPreferences"
+- "T@\"CSSearchQueryContext\",&,N,V_queryContext"
+- "T@\"MDSearchableIndexService\",R,N,V_service"
+- "T@\"NSArray\",&,N,V_bundleIDs"
+- "T@\"NSArray\",&,N,V_completedBundleIDs"
+- "T@\"NSArray\",C,N,V_bundleIDs"
+- "T@\"NSArray\",C,N,V_connectionIdentifiers"
+- "T@\"NSArray\",C,N,V_contentTypes"
+- "T@\"NSArray\",C,N,V_disableBundleIDs"
+- "T@\"NSArray\",C,N,V_disableContentTypes"
+- "T@\"NSArray\",C,N,V_disableDomainIDs"
+- "T@\"NSArray\",C,N,V_domainIDs"
+- "T@\"NSArray\",C,N,V_donationAttributes"
+- "T@\"NSArray\",C,N,V_excludeAttributes"
+- "T@\"NSArray\",C,N,V_optionalAttributes"
+- "T@\"NSArray\",C,N,V_processes"
+- "T@\"NSArray\",C,N,V_requiredAttributes"
+- "T@\"NSArray\",R,N"
+- "T@\"NSArray\",R,N,V_indexers"
+- "T@\"NSData\",&,N,V_decryptInfo"
+- "T@\"NSDate\",&,V_timestamp"
+- "T@\"NSDictionary\",&,N,V_meCardDict"
+- "T@\"NSDictionary\",&,V_concreteIndexers"
+- "T@\"NSDictionary\",&,V_lastCommittedVersions"
+- "T@\"NSDictionary\",&,V_report"
+- "T@\"NSDictionary\",R,N"
+- "T@\"NSDictionary\",R,N,V_fileProviderAppToExtensionBundleMap"
+- "T@\"NSDictionary\",R,N,V_fileProviderExtensionToAppBundleMap"
+- "T@\"NSLock\",&,V_correctionRefsLock"
+- "T@\"NSMapTable\",R,N,V_checkedInClients"
+- "T@\"NSMutableArray\",&,N,V_jobs"
+- "T@\"NSMutableArray\",&,N,V_matchInfo"
+- "T@\"NSMutableArray\",&,N,V_outstandingMaintenance"
+- "T@\"NSMutableArray\",&,N,V_queries"
+- "T@\"NSMutableDictionary\",&,N,V_eventHandlers"
+- "T@\"NSMutableDictionary\",&,N,V_indexConnections"
+- "T@\"NSMutableDictionary\",&,N,V_jobs"
+- "T@\"NSMutableDictionary\",&,N,V_nameQueryDict"
+- "T@\"NSMutableDictionary\",&,N,V_queryTasks"
+- "T@\"NSMutableDictionary\",&,N,V_searchConnections"
+- "T@\"NSMutableOrderedSet\",&,N,V_pausedTasks"
+- "T@\"NSMutableSet\",&,N,V_knownPersonas"
+- "T@\"NSNumber\",C,N,V_versionValue"
+- "T@\"NSObject\",&,N,V_data"
+- "T@\"NSObject<MDIndexer>\",&,N,V_indexer"
+- "T@\"NSObject<OS_dispatch_queue>\",&,N,V_clientQueue"
+- "T@\"NSObject<OS_dispatch_queue>\",&,N,V_dispatchQueue"
+- "T@\"NSObject<OS_dispatch_queue>\",&,N,V_firstUnlockQueue"
+- "T@\"NSObject<OS_dispatch_queue>\",&,N,V_indexQueue"
+- "T@\"NSObject<OS_dispatch_queue>\",&,N,V_personaQueue"
+- "T@\"NSObject<OS_dispatch_queue>\",&,N,V_queue"
+- "T@\"NSObject<OS_dispatch_queue>\",&,N,V_reindexAllQueue"
+- "T@\"NSObject<OS_dispatch_queue>\",R,N,V_clientQueue"
+- "T@\"NSObject<OS_dispatch_queue>\",R,N,V_senderQueue"
+- "T@\"NSObject<OS_dispatch_semaphore>\",&,V_setupSemaphore"
+- "T@\"NSObject<OS_dispatch_source>\",&,N,V_idleTimer"
+- "T@\"NSObject<OS_dispatch_source>\",&,N,V_prefsChangeSource"
+- "T@\"NSObject<OS_dispatch_source>\",&,N,V_reindexAllItemsSource"
+- "T@\"NSObject<OS_dispatch_source>\",&,N,V_reindexAllItemsWithIdentifiersSource"
+- "T@\"NSObject<OS_dispatch_source>\",R,N,V_indexIdleTimer"
+- "T@\"NSObject<OS_os_transaction>\",&,N,V_dirtyTransaction"
+- "T@\"NSObject<OS_os_transaction>\",&,N,V_transaction"
+- "T@\"NSObject<OS_xpc_object>\",&,N,V_clientConnection"
+- "T@\"NSObject<OS_xpc_object>\",&,N,V_connection"
+- "T@\"NSObject<OS_xpc_object>\",R,N,V_connection"
+- "T@\"NSSet\",&,N,V_dataMigrationBundleIDs"
+- "T@\"NSSet\",&,N,V_prefsDisabledBundleIDs"
+- "T@\"NSSet\",&,V_knownClients"
+- "T@\"NSSet\",C,N,V_INIntentClassNames"
+- "T@\"NSSet\",C,N,V_knownBundleIds"
+- "T@\"NSSet\",R,N,V_allowedBundleIDs"
+- "T@\"NSSet\",R,N,V_disabledBundleIdentifiers"
+- "T@\"NSSet\",R,N,V_enabledBundleIdentifiers"
+- "T@\"NSSet\",R,N,V_fileProviderBundleIDs"
+- "T@\"NSString\",&,N,V_bundleID"
+- "T@\"NSString\",&,N,V_contentType"
+- "T@\"NSString\",&,N,V_dataclass"
+- "T@\"NSString\",&,N,V_externalID"
+- "T@\"NSString\",&,N,V_identifier"
+- "T@\"NSString\",&,N,V_label"
+- "T@\"NSString\",&,N,V_meCardPath"
+- "T@\"NSString\",&,N,V_nameQueryFilePath"
+- "T@\"NSString\",&,N,V_queryFilePath"
+- "T@\"NSString\",&,N,V_queryString"
+- "T@\"NSString\",&,N,V_relatedID"
+- "T@\"NSString\",&,N,V_sandboxExtension"
+- "T@\"NSString\",&,N,V_string"
+- "T@\"NSString\",&,N,V_title"
+- "T@\"NSString\",&,N,V_uaID"
+- "T@\"NSString\",?,R,C"
+- "T@\"NSString\",C,N,V_clientBundleID"
+- "T@\"NSString\",C,N,V_clientPersonaID"
+- "T@\"NSString\",C,N,V_name"
+- "T@\"NSString\",C,N,V_priority"
+- "T@\"NSString\",C,N,V_protectionClass"
+- "T@\"NSString\",C,N,V_supportedQuery"
+- "T@\"NSString\",C,N,V_unsupportedQuery"
+- "T@\"NSString\",C,N,V_versionName"
+- "T@\"NSString\",R"
+- "T@\"NSString\",R,C"
+- "T@\"NSString\",R,N"
+- "T@\"NSString\",R,N,V_bundleID"
+- "T@\"NSString\",R,N,V_personaID"
+- "T@\"NSString\",R,N,V_protectionClass"
+- "T@\"NSURL\",&,N,V_contentURL"
+- "T@\"NSURL\",&,V_versionInfoLocation"
+- "T@\"NSURL\",R"
+- "T@\"SDConnectionConfiguration\",&,N,V_configuration"
+- "T@\"SDConnectionConfiguration\",R,N,V_configuration"
+- "T@\"SPCoreSpotlightIndexer\",W,N,V_owner"
+- "T@\"SPCoreSpotlightInteractionHandler\",&,N,V_interactionHandler"
+- "T@\"SPCoreSpotlightTask\",&,V_reindexAllItemsTask"
+- "T@\"SPQueryResultsQueue\",&,N,V_resultsQueue"
+- "T@\"SPQueryResultsQueue\",W,N,V_resultsQueue"
+- "T@\"SpotlightReceiverConfig\",C,N,V_primaryConfig"
+- "T@?,C,N,V_block"
+- "T@?,C,N,V_completionBlock"
+- "T@?,C,N,V_eventHandler"
+- "T@?,C,N,V_filterBlock"
+- "T@?,C,N,V_performBlock"
+- "T@?,C,N,V_resultsHandler"
+- "T@?,C,N,V_scheduleBlock"
+- "TAI,R,N,V_requestCount"
+- "TB,N,V_allowCarPlayApps"
+- "TB,N,V_allowMail"
+- "TB,N,V_allowMessagesContent"
+- "TB,N,V_allowNotifications"
+- "TB,N,V_allowOpenJournalFile"
+- "TB,N,V_allowPhotosLibraryDeletion"
+- "TB,N,V_canceled"
+- "TB,N,V_critical"
+- "TB,N,V_disableResultStreaming"
+- "TB,N,V_finished"
+- "TB,N,V_finishedDataMigration"
+- "TB,N,V_finishedDrainingJournal"
+- "TB,N,V_foundExtensions"
+- "TB,N,V_hasPausedResults"
+- "TB,N,V_includeDeletedItems"
+- "TB,N,V_includeLanguage"
+- "TB,N,V_isExtension"
+- "TB,N,V_isInternal"
+- "TB,N,V_isPrivate"
+- "TB,N,V_live"
+- "TB,N,V_needsHTML"
+- "TB,N,V_needsText"
+- "TB,N,V_onDemandOpen"
+- "TB,N,V_quotaDisabled"
+- "TB,N,V_requireBacklogItems"
+- "TB,N,V_requirePriorityItems"
+- "TB,N,V_searchInternal"
+- "TB,N,V_shared"
+- "TB,N,V_shouldResumeOnFailure"
+- "TB,N,V_skipFileProviderItems"
+- "TB,N,V_tracked"
+- "TB,N,V_unlocked"
+- "TB,N,V_updatePersonas"
+- "TB,N,V_wantsHTML"
+- "TB,N,V_wantsText"
+- "TB,N,V_willAsyncStart"
+- "TB,R"
+- "TB,R,N"
+- "TB,R,N,V_allowCarPlayApps"
+- "TB,R,N,V_allowMail"
+- "TB,R,N,V_allowMessagesContent"
+- "TB,R,N,V_allowNotifications"
+- "TB,R,N,V_allowOpenJournalFile"
+- "TB,R,N,V_allowPhotosLibraryDeletion"
+- "TB,R,N,V_donationPermitted"
+- "TB,R,N,V_internal"
+- "TB,R,N,V_isExtension"
+- "TB,R,N,V_isManaged"
+- "TB,R,N,V_isPrivate"
+- "TB,R,N,V_managedIndexNonSandboxAllowed"
+- "TB,R,N,V_privateIndexNonSandboxAllowed"
+- "TB,R,N,V_quotaDisabled"
+- "TB,R,N,V_searchInternal"
+- "TB,V_canceled"
+- "TB,V_setupComplete"
+- "TB,V_wasCanceledByClient"
+- "TI,N,V_clientUID"
+- "TI,N,V_completeCount"
+- "TI,N,V_deleteCount"
+- "TI,N,V_dirtyCount"
+- "TI,N,V_errorCount"
+- "TI,N,V_expectedCount"
+- "TI,N,V_resetCount"
+- "TI,R,N"
+- "TI,R,N,V_egid"
+- "TI,R,N,V_euid"
+- "TI,V_type"
+- "TQ,N,V_dataMigrationStage"
+- "TQ,N,V_dirtyTimeout"
+- "TQ,N,V_idleStartTime"
+- "TQ,N,V_idleTimeout"
+- "TQ,R"
+- "TQ,V_dirtyTimeout"
+- "T^{__CFDictionary=},V_correctionRefs"
+- "T^{__SI=},N,V_index"
+- "T^{__SI=},N,V_jwlIndex"
+- "T^{__SIJobRef=},N,V_siJob"
+- "T^{__SIQuery=},N,V_siQuery"
+- "T^{__SIResultQueue=},N,V_resultQueue"
+- "T^{__SIResultQueue=},N,V_siResultsQueue"
+- "Td,N,V_duration"
+- "Td,N,V_latestMeCardTime"
+- "Td,N,V_minDate"
+- "Td,N,V_startTime"
+- "Td,R,N,V_idleStartTime"
+- "Ti,N,V_debug"
+- "Ti,N,V_entitledAttributes"
+- "Ti,R,N,V_current"
+- "Ti,R,N,V_entitledAttributes"
+- "Ti,R,N,V_notifyToken"
+- "Ti,R,N,V_pid"
+- "Ti,R,N,V_supportedJobs"
+- "Ti,V_dictDirFd"
+- "Tq,N,V_identifier"
+- "Tq,N,V_pausedCount"
+- "Tq,R,N,V_client"
+- "Tq,R,N,V_transactionCount"
+- "Tq,V_count"
+- "T{?=QQ},N,V_queryID"
+- "UMUserPersonaUpdateObserver"
+- "URLWithString:"
+- "UTF8String"
+- "Vv16@0:8"
+- "[%d] fetching %s"
+- "[32@\"SDTraceItem\"]"
+- "[6i]"
+- "[POMMES] [first pass] Synonym file for bundle ID %@ is not found."
+- "[POMMES] [first pass] Synonym vocab dictionary is loaded from the source file %@."
+- "[POMMES] [first pass] Synonym vocab dictionary is not loaded."
+- "[POMMES] [second pass] Synonym file for bundle ID %@ is not found."
+- "[POMMES] [second pass] Synonym vocab dictionary is loaded from the source file %@."
+- "[POMMES] [second pass] Synonym vocab dictionary is not loaded."
+- "[POMMES] [second pass] [date] Synonym file for bundle ID %@ is not found."
+- "[POMMES] [second pass] [date] Synonym vocab dictionary is loaded from the source file %@."
+- "[POMMES] [second pass] [date] Synonym vocab dictionary is not loaded."
+- "[rewrite] [first pass] adding date synonym = %@ for token = %@"
+- "[rewrite] [first pass] adding synonym = %@ for token = %@"
+- "[rewrite] [first pass] skipping first pass rewrite due to invalid trimmedSearchStringTokens"
+- "^i"
+- "^v36@0:8@16@24B32"
+- "^{_AKSEvent=}"
+- "^{_NSZone=}16@0:8"
+- "^{__CFArray=}16@0:8"
+- "^{__CFDictionary=}"
+- "^{__CFDictionary=}16@0:8"
+- "^{__SI=}"
+- "^{__SI=}16@0:8"
+- "^{__SIJobRef=}"
+- "^{__SIJobRef=}16@0:8"
+- "^{__SIQuery=}"
+- "^{__SIQuery=}16@0:8"
+- "^{__SIQuery=}32@0:8@16@24"
+- "^{__SIResultQueue=}"
+- "^{__SIResultQueue=}16@0:8"
+- "_INIntentClassNames"
+- "_SPBucketSet"
+- "_activityQueue"
+- "_addNewClientWithBundleID:"
+- "_aggregateWipeCount"
+- "_aksEvent"
+- "_allowCarPlayApps"
+- "_allowMail"
+- "_allowMessagesContent"
+- "_allowNotifications"
+- "_allowOpenJournalFile"
+- "_allowPhotosLibraryDeletion"
+- "_allowedBundleIDs"
+- "_analytics"
+- "_appScopingQueue"
+- "_appendRervseInfo:dictionary:key:level:"
+- "_assertedBundleIds"
+- "_assertionEndTime"
+- "_backgroundDeleteItems:bundleID:completionHandler:"
+- "_block"
+- "_blocksToRunWhenFinishedDraining"
+- "_bundleID"
+- "_bundleIDs"
+- "_bundlesWithIndexedCoreSpotlightItems"
+- "_bundlesWithRemoteSearchSupport"
+- "_cachedImputedBundleWeights"
+- "_canProcessIndexDataForBundle:itemsDecoder:deletesDecoder:clientState:clientStateName:outError:"
+- "_cancelIdleTimer"
+- "_cancelPtr"
+- "_canceled"
+- "_changeFilesToClassC:"
+- "_checkBundleIDHelper:"
+- "_checkItems:identifiers:protectionClass:bundleID:"
+- "_checkNonEmptyBundle:protectionClass:"
+- "_checkedInClients"
+- "_cleanWord:unacceptableCharSet:"
+- "_client"
+- "_clientBundleID"
+- "_clientConnection"
+- "_clientDonationProgressAttributeWithName:"
+- "_clientPersonaID"
+- "_clientQueue"
+- "_clientUID"
+- "_closeIndexWithIndexers:"
+- "_completeCount"
+- "_completedBundleIDs"
+- "_completionBlock"
+- "_concreteIndexers"
+- "_configs"
+- "_configuration"
+- "_connection"
+- "_connectionIdentifiers"
+- "_connections"
+- "_contactStore"
+- "_contentType"
+- "_contentTypes"
+- "_contentURL"
+- "_context"
+- "_convertDonationProgressToBiomeEvent:bundleID:clientIndexName:"
+- "_correctionRefs"
+- "_correctionRefsLock"
+- "_count"
+- "_createCount"
+- "_createPurgeableTouchFile"
+- "_creationDate"
+- "_critical"
+- "_current"
+- "_data"
+- "_dataMigrationBundleIDs"
+- "_dataMigrationFinishObserver"
+- "_dataMigrationStage"
+- "_dataMigrationStartObserver"
+- "_dataclass"
+- "_debug"
+- "_decryptInfo"
+- "_delegate"
+- "_deleteAllSearchableItemsWithBundleID:protectionClass:shouldGC:options:deleteAllReason:completionHandler:"
+- "_deleteCount"
+- "_deleteInteractions:forGroup:"
+- "_deleteNonMailBundlesFromClassAIndex:"
+- "_deleteSearchableItemsMatchingQuery:forBundleIds:completionHandler:"
+- "_descriptionWithTokenRewrites:"
+- "_dictDirFd"
+- "_didFindExtensions:"
+- "_didFirstUnlockInHomeScreen"
+- "_didFirstUnlockInSpringBoard"
+- "_didFirstUnlockSinceBoot"
+- "_didMigrationComplete"
+- "_didReceiveResultsBatchCompletion"
+- "_didStart"
+- "_dirtyCount"
+- "_dirtyTimeout"
+- "_dirtyTransaction"
+- "_disableBundleIDs"
+- "_disableContentTypes"
+- "_disableDomainIDs"
+- "_disableResultStreaming"
+- "_disabled"
+- "_disabledBundleIdentifiers"
+- "_dispatchActivities:"
+- "_dispatchActivities:bundleID:"
+- "_dispatchQueue"
+- "_dispatchToReceiversWithBundleID:protectionClass:options:items:itemsText:itemsHTML:deletes:"
+- "_domainIDs"
+- "_donationAttributes"
+- "_donationPermitted"
+- "_donationProgresByBundle"
+- "_donationProgressFetcher"
+- "_donationProgressStreamRecorder"
+- "_duration"
+- "_egid"
+- "_enabledBundleIdentifiers"
+- "_entitledAttributes"
+- "_enumerateIndexersWithBlock:"
+- "_enumerateIndexersWithProtectionClasses:block:"
+- "_enumerateIndexersWithProtectionClasses:forBundleIds:inferSpecialIndexes:block:"
+- "_enumerateIndexersWithProtectionClasses:forQueryWithContext:forBundleIds:inferSpecialIndexes:block:"
+- "_enumerateIndexersWithProtectionClasses:inferSpecialIndexes:block:"
+- "_errorCount"
+- "_euid"
+- "_eventHandler"
+- "_eventHandlers"
+- "_excludeAttributes"
+- "_expectedCount"
+- "_expireCorruptIndexFilesWithPath:keepLatest:"
+- "_externalID"
+- "_fetchAccumulatedStorageSizeForBundleId:completionHandler:"
+- "_fetchParentsForItemID:recursively:completionHandler:"
+- "_fileProviderAppToExtensionBundleMap"
+- "_fileProviderBundleIDs"
+- "_fileProviderExtensionToAppBundleMap"
+- "_fileProviderMonitor"
+- "_filterBlock"
+- "_filterReindexAllExtensions:"
+- "_finishFileTransferToClassCMailIndex"
+- "_finishMigration"
+- "_finishedDataMigration"
+- "_finishedDrainingJournal"
+- "_firstUnlockQueue"
+- "_fixProtClassForClassCMailIndex"
+- "_flushPendingNotificationBatches"
+- "_forceAppWithBundleID:toPerformJob:"
+- "_foundExtensions"
+- "_getBundleIndexesFrom:"
+- "_handleAssetsCommand:"
+- "_hasAssertion"
+- "_hasPausedResults"
+- "_hasPurgeableTouchFile"
+- "_identifier"
+- "_idleStartTime"
+- "_idleTimeout"
+- "_idleTimer"
+- "_includeDeletedItems"
+- "_includeLanguage"
+- "_index"
+- "_indexConnections"
+- "_indexDependentTokenRewritesWithMatchInfo:topK:setOfTokensToCorrect:queryID:bundleIds:clientBundleId:"
+- "_indexIdleTimer"
+- "_indexIndependentTokenRewritesWithMatchInfo:queryID:setOfTokensToCorrect:"
+- "_indexMaintenanceActivityName"
+- "_indexPath"
+- "_indexQueue"
+- "_indexer"
+- "_indexerDelegate"
+- "_indexers"
+- "_init"
+- "_interactionHandler"
+- "_interestedAttributesMaskForBundleID:"
+- "_internal"
+- "_ios_meContactWithKeysToFetch:error:"
+- "_isExtension"
+- "_isFullyFormed"
+- "_isInternal"
+- "_isManaged"
+- "_isPrivate"
+- "_issueCacheCommand:xpc:searchContext:completionHandler:"
+- "_issueCommand:outFileDescriptor:searchContext:completionHandler:"
+- "_issueDiagnose:bundleID:logQuery:completionHandler:"
+- "_items"
+- "_job"
+- "_jobForIndex:"
+- "_jobs"
+- "_jwlIndex"
+- "_kMDItemRequiresImport==1 && _kMDItemImportComplete!=* && (_kMDItemImportHasSandboxExtension==0 || _kMDItemImportHasSandboxExtension!=*) && kMDItemFileProviderID!=*"
+- "_knownBundleIds"
+- "_knownClients"
+- "_knownPersonas"
+- "_label"
+- "_lastCommittedVersions"
+- "_lastPreheat"
+- "_lastTTLPass"
+- "_lastTokenWithQueryString:tokenMatchInfo:"
+- "_lastUpdateTime"
+- "_latestMeCardTime"
+- "_live"
+- "_loadSynonymsFromFile:isFirstPass:isDate:error:"
+- "_mailClassCMarkFileTransferComplete"
+- "_mailClassCMarkMigrationComplete"
+- "_mailClassCResetIndexAndComplete"
+- "_maintenanceOperations"
+- "_makeActivityQueueIfNecessary"
+- "_makeAdditionalQueryStringForQueryContext:"
+- "_makeBundleQueryStringForField:withBundleIDs:"
+- "_makeBundleQueryStringForQueryContext:"
+- "_makeDisabledBundlesQueryStringForQueryContext:"
+- "_makeFilterQueryStringForQueryContext:"
+- "_makeInstantAnswersQueryStringForQueryContext:"
+- "_makePrefsQueryStringWithBundleIDs:prefsDisabledBundles:"
+- "_makeSIQueryWithQueryString:queryContext:"
+- "_managedIndexNonSandboxAllowed"
+- "_matchInfo"
+- "_meCard"
+- "_meCardDict"
+- "_meCardObserver"
+- "_meCardPath"
+- "_members"
+- "_mergedTokenRewrites:"
+- "_migrateIndexExtensionsWithEnumerator:forced:migratedBundleIds:completionHandler:"
+- "_minDate"
+- "_moveClassAIndexToClassCMailIndex"
+- "_name"
+- "_nameQueryDict"
+- "_nameQueryFilePath"
+- "_needsHTML"
+- "_needsText"
+- "_negativeSet"
+- "_notificationQueue"
+- "_notifyBatchLock"
+- "_notifyBatchTimerScheduled"
+- "_notifyToken"
+- "_notifyTokenKeybagLockStateNotifyToken"
+- "_notifyTokenSBHomescreenUnlocked"
+- "_notifyTokenSBLockState"
+- "_onDemandOpen"
+- "_openIndex:forInit:readOnly:"
+- "_optionalAttributes"
+- "_options"
+- "_outBatchCount"
+- "_outstandingMaintenance"
+- "_owner"
+- "_pausedCount"
+- "_pausedTasks"
+- "_pendingNotificationBatches"
+- "_performBlock"
+- "_performWithExtensionsEnumerator:completionBlock:"
+- "_performXPCActivity:name:"
+- "_personaID"
+- "_personaQueue"
+- "_pid"
+- "_pipelineCompleteness"
+- "_pipelineReportsByBundle"
+- "_pommesBundlesWithQueryContext:queryID:"
+- "_positiveSet"
+- "_prefsChangeSource"
+- "_prefsDisabledBundleIDs"
+- "_prepareQueryContext:searchConnection:"
+- "_primaryConfig"
+- "_priority"
+- "_privateIndexNonSandboxAllowed"
+- "_processIndexDataForBundle:protectionClass:personaID:options:items:itemsText:itemsHTML:clientState:expectedClientState:clientStateName:deletes:completionHandler:"
+- "_processResults"
+- "_processes"
+- "_protectionClass"
+- "_queries"
+- "_queryContext"
+- "_queryFilePath"
+- "_queryID"
+- "_queryString"
+- "_queryTasks"
+- "_queue"
+- "_quotaDisabled"
+- "_readOnly"
+- "_receiverPreferences"
+- "_registerForPrefsChanges"
+- "_reindexAllDelegateBundleIDs"
+- "_reindexAllIdentifiersWithExtension:completionBlock:"
+- "_reindexAllItemsForBundleIDs:reason:completionHandler:"
+- "_reindexAllItemsOnPrefsChanges"
+- "_reindexAllItemsSource"
+- "_reindexAllItemsTask"
+- "_reindexAllItemsWithExtensionsAndCompletionBlock:"
+- "_reindexAllItemsWithExtensionsAndIdentifiersAndCompletionBlock:"
+- "_reindexAllItemsWithIdentifiersSource"
+- "_reindexAllQueue"
+- "_reindexIndexers"
+- "_relatedID"
+- "_removePurgeableTouchFile"
+- "_report"
+- "_reportsDirectory"
+- "_requestCount"
+- "_requireBacklogItems"
+- "_requirePriorityItems"
+- "_requiredAttributes"
+- "_resetCount"
+- "_resultQueue"
+- "_resultsHandler"
+- "_resultsQueue"
+- "_retentionDays"
+- "_runLibraryDeletedCommand:"
+- "_sandboxExtension"
+- "_saveCorruptIndexWithPath:"
+- "_scheduleBlock"
+- "_scheduleStringsCleanupForBundleID:"
+- "_scheduleWakeupForced:"
+- "_scheduledStringsCleanup"
+- "_searchConnections"
+- "_searchInternal"
+- "_sendIndexDropABCEvent:"
+- "_sendPhotosNilClientStateSignpost:retCode:"
+- "_senderQueue"
+- "_serverPreferences"
+- "_service"
+- "_serviceName"
+- "_setOfTokensToCorrect:tokenMatchInfo:"
+- "_setupComplete"
+- "_setupOnce"
+- "_setupSemaphore"
+- "_shared"
+- "_sharedSynonyms"
+- "_shouldNotifyForSearchableItemUpdates:"
+- "_shouldPurge"
+- "_shouldResumeOnFailure"
+- "_siJob"
+- "_siQuery"
+- "_siResultsQueue"
+- "_skipFileProviderItems"
+- "_softSuspended"
+- "_spellingCorrectionConditional:isSingleToken:isPreviousTokenCorrected:isLastToken:tokenLength:"
+- "_startInternalQueryWithIndex:query:fetchAttributes:forBundleIds:maxCount:resultQueue:postFilter:clientBundleID:resultsHandler:"
+- "_startInternalQueryWithIndex:query:fetchAttributes:forBundleIds:maxCount:resultQueue:postFilter:resultsHandler:"
+- "_startInternalQueryWithIndex:query:fetchAttributes:forBundleIds:maxCount:resultQueue:resultsHandler:"
+- "_startInternalQueryWithIndex:query:fetchAttributes:forBundleIds:maxCount:resultsHandler:"
+- "_startInternalQueryWithIndex:query:fetchAttributes:forBundleIds:resultQueue:resultsHandler:"
+- "_startInternalQueryWithIndex:query:fetchAttributes:forBundleIds:resultsHandler:"
+- "_startInternalQueryWithIndex:query:fetchAttributes:resultsHandler:"
+- "_startInternalQueryWithIndex:query:liftingRules:fetchAttributes:forBundleIds:maxCount:resultQueue:postFilter:clientBundleID:resultsHandler:"
+- "_startMonitoringEventsForStream:"
+- "_startQueryWithQueryString:queryContext:eventHandler:resultsHandler:completionHandler:"
+- "_startQueryWithQueryTask:eventHandler:resultsHandler:"
+- "_startTime"
+- "_startTracking"
+- "_state"
+- "_stateInfoAttributeNameWithClientStateName:"
+- "_stop"
+- "_stopTracking"
+- "_storageUsage"
+- "_streamSource"
+- "_string"
+- "_stringWithRewriteType:"
+- "_supportedJobs"
+- "_supportedQuery"
+- "_suspended"
+- "_suspending"
+- "_taskForQueryWithQueryString:queryContext:eventHandler:resultsHandler:completionHandler:"
+- "_timestamp"
+- "_title"
+- "_tokensMaxCountFromMatchInfo:"
+- "_tracked"
+- "_transaction"
+- "_transactionCount"
+- "_tryOpenJwlIndex"
+- "_type"
+- "_uaID"
+- "_unlocked"
+- "_unsupportedQuery"
+- "_updateFromPreferences"
+- "_updatePersonas"
+- "_upgradeToPriorityIndex"
+- "_versionInfoLocation"
+- "_versionName"
+- "_versionValue"
+- "_visitedInodes"
+- "_wantsHTML"
+- "_wantsText"
+- "_wasCanceledByClient"
+- "_web_createDirectoryAtPathWithIntermediateDirectories:attributes:"
+- "_willAsyncStart"
+- "_willSendResultsBatch:qid:"
+- "absoluteString"
+- "activateStreamFromDate:toDate:"
+- "activityQueue"
+- "activityStartedWithParameters:"
+- "activityStoppedWithParameters:"
+- "addAppContainerOID:forBundle:fpBundle:"
+- "addAttributesFromDictionary:"
+- "addClientConnectionIfAllowedForConfiguration:"
+- "addClientConnectionIfAllowedForConnection:"
+- "addClients:"
+- "addCompletedBundleIDs:forIndexerTask:"
+- "addEntriesFromDictionary:"
+- "addHiddenAppFiltersToQueryContext:"
+- "addIndex:"
+- "addInteraction:"
+- "addInteraction:bundleID:protectionClass:"
+- "addInteraction:bundleID:protectionClass:options:completionHandler:"
+- "addInteraction:intentClassName:bundleID:protectionClass:"
+- "addInteraction:intentClassName:bundleID:protectionClass:client:"
+- "addInteraction:intentClassName:bundleID:protectionClass:options:completionHandler:"
+- "addJob:"
+- "addLabel:identifier:duration:string:data:"
+- "addMatchInfo:"
+- "addMemoryHandler"
+- "addObject:"
+- "addObjectsFromArray:"
+- "addObserver:selector:name:object:"
+- "addObserverForName:object:queue:usingBlock:"
+- "addOrUpdateSearchableItems:itemsContent:bundleID:protectionClass:client:"
+- "addOrUpdateSearchableItemsInJournalFd:atOffset:size:indexType:bundleID:protectionClass:serialNumber:journalCookie:additionalAttributes:client:config:completionHandler:"
+- "addSignalHandler"
+- "addUserActions:bundleID:protectionClass:"
+- "addUserActions:bundleID:protectionClass:client:"
+- "addValue:forKey:"
+- "additionalBundleIDs"
+- "additionalQueries"
+- "allBundleIDs"
+- "allBundleIDsUsingPommesRanking"
+- "allBundleIDsUsingPommesRankingSearchTool"
+- "allExtensionsWithBlock:"
+- "allKeys"
+- "allKnownItems"
+- "allObjects"
+- "allProtectionClasses"
+- "allValues"
+- "allowCarPlayApps"
+- "allowMail"
+- "allowMessagesContent"
+- "allowNotifications"
+- "allowOpenJournalFile"
+- "allowPhotosLibraryDeletion"
+- "allowedBundleIDs"
+- "allowsDiscretionaryWorkForTask:withPriority:withParameters:"
+- "appendDescription:prefix:toString:"
+- "appendFormat:"
+- "appendString:"
+- "applicationsExcludedFromUninstall"
+- "archivedDataWithRootObject:requiringSecureCoding:error:"
+- "array"
+- "arrayByAddingObject:"
+- "arrayByAddingObjectsFromArray:"
+- "arrayWithArray:"
+- "arrayWithCapacity:"
+- "arrayWithContentsOfURL:"
+- "arrayWithObject:"
+- "arrayWithObjects:"
+- "arrayWithObjects:count:"
+- "asyncOpenIndex:forInit:readOnly:"
+- "attribute"
+- "attributeDictionary"
+- "attributeForIntent:direction:"
+- "attributeForKey:"
+- "attributeSet"
+- "attributedUserQuery"
+- "attributesForBundleId:identifier:completion:"
+- "attributesOfFileSystemForPath:error:"
+- "autorelease"
+- "backingStore"
+- "baseBundleIDs"
+- "beginArray"
+- "beginDictionary"
+- "block"
+- "blocklistCheck:withOptions:"
+- "boolForKey:"
+- "boolValue"
+- "buildVersion"
+- "bundleForClass:"
+- "bundleId"
+- "bundleIdentifier"
+- "bundleWithIdentifier:"
+- "bytes"
+- "cStringUsingEncoding:"
+- "cacheDeleteForKey:value:bundleID:protectionClass:completionHandler:"
+- "cacheDeleteId"
+- "cacheEntryForKeys:bundleID:protectionClass:completionHandler:"
+- "cacheInsertForKey:value:bundleID:protectionClass:completionHandler:"
+- "canRun"
+- "cancelFlags"
+- "cancelJob:"
+- "cancelQuery:"
+- "cancelQueryTask:"
+- "cancelQueryTask:wasCanceledByClient:"
+- "cancelQueryTasks"
+- "cancelSimpleQuery:"
+- "canceled"
+- "category"
+- "changeState:"
+- "changeStateOfSearchableItemsWithUIDs:toState:forBundleID:"
+- "changeStateOfSearchableItemsWithUIDs:toState:protectionClass:forBundleID:forUTIType:options:"
+- "characterAtIndex:"
+- "characterSetWithCharactersInString:"
+- "checkAdmission:background:didBeginThrottle:didEndThrottle:live:slow:memoryPressure:"
+- "checkBundleIdentifier:"
+- "checkDocIDConsistency"
+- "checkIfExtensionsNeedToBeLoaded"
+- "checkIn:"
+- "checkInWithBundleID:completionHandler:"
+- "checkInWithIndexID:protectionClass:completionHandler:"
+- "checkInWithProtectionClass:completionHandler:"
+- "checkItemOfInterest:mask:"
+- "checkMailMigrationToClassCComplete"
+- "checkMigrationComplete"
+- "checkedInClients"
+- "class"
+- "cleanupOldReports"
+- "cleanupStringsWithActivity:group:shouldDefer:flags:"
+- "cleanupStringsWithCompletionHandler:"
+- "cleanupStringsWithProtectionClasses:completionHandler:"
+- "clearCache"
+- "client"
+- "clientBundleID"
+- "clientConnection"
+- "clientConnection:"
+- "clientConnection:jobType:"
+- "clientDidCheckin:protectionClass:service:completionHandler:"
+- "clientDidCheckin:service:completionHandler:"
+- "clientDisabled:"
+- "clientIsCheckedIn:"
+- "clientPersonaID"
+- "clientQueue"
+- "clientTypeForBundleID:jobType:"
+- "clientUID"
+- "cloneIndexFrom:to:"
+- "closeCache:"
+- "closeFile"
+- "closeIndex"
+- "code"
+- "collectAtPath:completionBlock:"
+- "combinedScoreForBundle:"
+- "commitDictionary:language:version:"
+- "commitUpdates:"
+- "commitUpdatesWithCompletionHandler:"
+- "compare:"
+- "completeCount"
+- "completeIndexingItemFor:delegate:didBeginThrottle:didEndThrottle:error:live:queue:slow:startTime:dataLen:completionHandler:"
+- "completedBundleIDs"
+- "completionAttributes"
+- "completionOptions"
+- "completionResultCount"
+- "completionString"
+- "completionWeights"
+- "componentsJoinedByString:"
+- "componentsSeparatedByCharactersInSet:"
+- "componentsSeparatedByString:"
+- "componentsSeparatedByString:limit:"
+- "composedMessage"
+- "computePhotosDerivedAttributes"
+- "concreteIndexerForProtectionClass:andBundleID:"
+- "concreteIndexers"
+- "configuration"
+- "conformsToProtocol:"
+- "connection"
+- "connectionForBundleID:jobType:"
+- "connectionForClient:jobType:"
+- "connectionForClientType:jobType:"
+- "connectionIdentifiers"
+- "contactIdentifier"
+- "contactStore"
+- "contacts"
+- "contactsIndexer"
+- "containerID"
+- "containingAppForPlugInWithPid:"
+- "containingBundleRecord"
+- "containsObject:"
+- "containsString:"
+- "contentType"
+- "contentTypes"
+- "contentURL"
+- "contentsOfDirectoryAtPath:error:"
+- "contentsOfDirectoryAtURL:includingPropertiesForKeys:options:error:"
+- "coolDown"
+- "coolDown:"
+- "cooldown"
+- "copy"
+- "copyDiagnosticInfo"
+- "copyItemAtPath:toPath:error:"
+- "copyMatchInfo"
+- "copyNSDataForKey:fromXPCDictionary:"
+- "copyNSStringArrayFromXPCArray:"
+- "copyNSStringForKey:fromXPCDictionary:"
+- "copyNSStringOrDictArrayFromXPCArray:"
+- "copyNSStringSetFromXPCArray:"
+- "copyPlistFromXPCObject:"
+- "copyWithZone:"
+- "coreSpotlightIdentifier"
+- "correctionRefs"
+- "correctionRefsLock"
+- "count"
+- "countByEnumeratingWithState:objects:count:"
+- "counting"
+- "createDirectoryAtPath:withIntermediateDirectories:attributes:error:"
+- "createDirectoryAtURL:withIntermediateDirectories:attributes:error:"
+- "createFileAtPath:contents:attributes:"
+- "creationTouchFileCreate"
+- "creationTouchFileExists"
+- "creator"
+- "critical"
+- "current"
+- "currentLocale"
+- "currentPersona"
+- "currentTime"
+- "customAttributeDictionary"
+- "cxUnlocked"
+- "d16@0:8"
+- "dataMigration:"
+- "dataMigrationBundleIDs"
+- "dataMigrationFinishObserver"
+- "dataMigrationStage"
+- "dataMigrationStartObserver"
+- "dataPtr"
+- "dataSize"
+- "dataUsingEncoding:"
+- "dataWithBytes:length:"
+- "dataWithData:"
+- "dataWithJSONObject:options:error:"
+- "dataWithLength:"
+- "dataWithPropertyList:format:options:error:"
+- "dataWrapperForKey:sizeKey:fromXPCDictionary:"
+- "dataclass"
+- "date"
+- "dateByAddingTimeInterval:"
+- "dateFromString:"
+- "dateInterval"
+- "dateRewritesFromContext:"
+- "dateSortedL1"
+- "dateSynonymDictionary"
+- "dateWithTimeInterval:sinceDate:"
+- "dateWithTimeIntervalSince1970:"
+- "dateWithTimeIntervalSinceNow:"
+- "dateWithTimeIntervalSinceReferenceDate:"
+- "deactivate"
+- "dealloc"
+- "debugDescription"
+- "decay:"
+- "decimalDigitCharacterSet"
+- "decimalNumberWithString:"
+- "decode"
+- "decodeObjectOfClasses:forKey:"
+- "decryptInfo"
+- "defaultCenter"
+- "defaultIndexer"
+- "defaultInstance"
+- "defaultManager"
+- "delegateServiceName"
+- "deleteActionsBeforeTime:"
+- "deleteActionsBeforeTime:completionHandler:"
+- "deleteActionsBeforeTime:options:completionHandler:"
+- "deleteActionsWithIdentifiers:"
+- "deleteActionsWithIdentifiers:completionHandler:"
+- "deleteActionsWithIdentifiers:options:completionHandler:"
+- "deleteAllInteractions:"
+- "deleteAllInteractionsWithBundleID:completionHandler:"
+- "deleteAllInteractionsWithBundleID:fromClient:completionHandler:"
+- "deleteAllInteractionsWithBundleID:protectionClass:"
+- "deleteAllInteractionsWithBundleID:protectionClass:client:"
+- "deleteAllInteractionsWithBundleID:protectionClass:options:completionHandler:"
+- "deleteAllSearchableItemsForBundleID:fromClient:shouldGC:deleteAllReason:completionHandler:"
+- "deleteAllSearchableItemsWithBundleID:client:"
+- "deleteAllSearchableItemsWithBundleID:fromClient:protectionClass:shouldGC:deleteAllReason:completionHandler:"
+- "deleteAllSearchableItemsWithBundleID:protectionClass:shouldGC:completionHandler:"
+- "deleteAllSearchableItemsWithBundleID:protectionClass:shouldGC:deleteAllReason:completionHandler:"
+- "deleteAllSearchableItemsWithProtectionClass:forBundleID:options:completionHandler:"
+- "deleteAllSearchableItemsWithProtectionClass:forBundleID:options:deleteAllReason:completionHandler:"
+- "deleteAllSearchableItemsWithReason:completionHandler:"
+- "deleteAllUserActivities:"
+- "deleteAllUserActivities:client:"
+- "deleteAllUserActivities:completionHandler:"
+- "deleteAllUserActivities:fromClient:completionHandler:"
+- "deleteAllUserActivities:fromClient:options:completionHandler:"
+- "deleteBundle:"
+- "deleteDomains:"
+- "deleteDonationProgressReportsForDeletedBundle:"
+- "deleteFromBundle:"
+- "deleteFromBundle:contentType:identifiers:"
+- "deleteFromBundle:domainIdentifiers:"
+- "deleteFromBundle:encodedIdentifiers:"
+- "deleteFromBundle:sinceDate:"
+- "deleteHasTopHitAppShortcutsWithResultsHandler:completionHandler:"
+- "deleteInteractionsWithGroupIdentifiers:bundleID:protectionClass:"
+- "deleteInteractionsWithGroupIdentifiers:bundleID:protectionClass:client:"
+- "deleteInteractionsWithGroupIdentifiers:bundleID:protectionClass:options:completionHandler:"
+- "deleteInteractionsWithIdentifiers:bundleID:protectionClass:"
+- "deleteInteractionsWithIdentifiers:bundleID:protectionClass:client:"
+- "deleteInteractionsWithIdentifiers:bundleID:protectionClass:options:completionHandler:"
+- "deleteItemsForEnumerator:traceID:bundleID:fromClient:completionHandler:"
+- "deleteItemsForQuery:bundleID:fromClient:completionHandler:"
+- "deleteSearchableItemsInJournalFd:atOffset:size:indexType:protectionClass:serialNumber:journalCookie:client:completionHandler:"
+- "deleteSearchableItemsSinceDate:bundleID:client:"
+- "deleteSearchableItemsSinceDate:forBundleID:completionHandler:"
+- "deleteSearchableItemsSinceDate:protectionClass:forBundleID:options:completionHandler:"
+- "deleteSearchableItemsWithDomainIdentifiers:bundleID:client:"
+- "deleteSearchableItemsWithDomainIdentifiers:forBundleID:fromClient:reason:completionHandler:"
+- "deleteSearchableItemsWithDomainIdentifiers:protectionClass:forBundleID:fromClient:options:completionHandler:"
+- "deleteSearchableItemsWithDomainIdentifiers:protectionClass:forBundleID:options:completionHandler:"
+- "deleteSearchableItemsWithDomainIdentifiers:reason:completionHandler:"
+- "deleteSearchableItemsWithEncodedIdentifiers:bundleID:client:"
+- "deleteSearchableItemsWithFileProviderDomains:completionHandler:"
+- "deleteSearchableItemsWithIdentifiers:bundleID:contentType:client:"
+- "deleteSearchableItemsWithIdentifiers:reason:completionHandler:"
+- "deleteSearchableItemsWithPersonaIds:completionHandler:"
+- "deleteSinceDate:"
+- "deleteTouchfileForMigrationStep:"
+- "deleteUserActivitiesWithPersistentIdentifiers:"
+- "deleteUserActivitiesWithPersistentIdentifiers:bundleID:client:retainedData:"
+- "deleteUserActivitiesWithPersistentIdentifiers:bundleID:options:completionHandler:"
+- "deleteUserActivitiesWithPersistentIdentifiers:bundleID:retainedData:"
+- "deleteWithFd:offset:size:indexType:protectionClass:serialNumber:journalCookie:completionHandler:"
+- "deleteWithPolicy:eventsPassingTest:"
+- "denyOperationOnAssertedIndex:"
+- "description"
+- "deviceCXUnlocked"
+- "deviceFirstUnlockedInMKB"
+- "deviceFirstUnlockedInSB"
+- "deviceStateWillChange:"
+- "deviceUnlocked"
+- "diagnose_logq"
+- "diagnosemd_q"
+- "dictDirFd"
+- "dictionary"
+- "dictionary:setArray:forKey:"
+- "dictionary:setDecoderData:forKey:sizeKey:"
+- "dictionary:setPlistBytes:forKey:sizeKey:"
+- "dictionary:setPlistContainer:forKey:sizeKey:"
+- "dictionary:setStringArray:forKey:"
+- "dictionary:setStringOrDictionaryArray:forKey:"
+- "dictionary:setXPCFdArray:forKey:"
+- "dictionaryRepresentation"
+- "dictionaryWithCapacity:"
+- "dictionaryWithContentsOfFile:"
+- "dictionaryWithContentsOfURL:error:"
+- "dictionaryWithDictionary:"
+- "dictionaryWithObjects:forKeys:count:"
+- "didReceiveMemoryPressureNotification:"
+- "didReceiveSignal:"
+- "dimension"
+- "direction"
+- "dirty:"
+- "dirtyCount"
+- "dirtyTimeout"
+- "dirtyTransaction"
+- "disableABCReporting:"
+- "disableBlockingOnIndex"
+- "disableBundleIDs"
+- "disableBundles"
+- "disableContentTypes"
+- "disableDomainIDs"
+- "disableReceiver"
+- "disableResultStreaming"
+- "disabled"
+- "disabledBundleIdentifiers"
+- "disabledBundleSet"
+- "disabledServices"
+- "disabledUserActivities"
+- "dispatchWithOptions:block:"
+- "docID consistency check failed for dataclass:%@"
+- "docIDCheckDropTouchFileCreate"
+- "docIDCheckDropTouchFileExists"
+- "domain"
+- "domainIDs"
+- "domainIdentifier"
+- "dominantRankingQueryCount"
+- "dominatedRankingQueryCount"
+- "donateRelevantActions:"
+- "donateRelevantActions:bundleID:"
+- "donateRelevantActions:bundleID:client:"
+- "donateRelevantActions:bundleID:options:completionHandler:"
+- "donatedItems"
+- "donationCompletenessForBundle:"
+- "donationPermitted"
+- "donationPermmited"
+- "donationProgress"
+- "donationProgressForBundle:"
+- "dontRunDuringMigration"
+- "doubleValue"
+- "dropBackgroundAssertions:"
+- "dumpAllRankingDiagnosticInformationForQuery:withCompletionHandler:"
+- "dumpAppContainerCache"
+- "dumpCrashStates:toFile:"
+- "dumpTTRDebugFiles"
+- "duration"
+- "earlierDate:"
+- "egid"
+- "eligibility"
+- "eligibleItems"
+- "emailAddresses"
+- "en_synonyms_date"
+- "en_synonyms_first_pass"
+- "en_synonyms_second_pass"
+- "enableBundleIdentifier:"
+- "enableInstantAnswers"
+- "enableReceiver"
+- "enabledBundleIdentifiers"
+- "enabledForClient:"
+- "encodeInt64:"
+- "encodeNSString:"
+- "encodeObject:"
+- "encodeObject:withKey:"
+- "encodeString:"
+- "endArray"
+- "endDate"
+- "endDictionary"
+- "ensureOpenIndexFiles:"
+- "entitledAttributes"
+- "enumerateConnections:jobType:"
+- "enumerateKeysAndObjectsUsingBlock:"
+- "enumerateKeysAndObjectsWithOptions:usingBlock:"
+- "enumerateLinguisticTagsInRange:scheme:options:orthography:usingBlock:"
+- "enumerateObjectsUsingBlock:"
+- "enumerateQueryResults:stringCache:usingBlock:"
+- "enumeratorAtPath:"
+- "enumeratorAtURL:includingPropertiesForKeys:options:errorHandler:"
+- "errorCount"
+- "errorWithDomain:code:userInfo:"
+- "euid"
+- "eventBody"
+- "eventHandler"
+- "eventHandlers"
+- "excludedBundleIDs"
+- "expectedCount"
+- "extensionDelegate"
+- "extensionExistsForBundleId:"
+- "extensionID"
+- "externalID"
+- "extraTTRInfo"
+- "failureReason"
+- "familyName"
+- "fetchAllCompletedBundleIDs"
+- "fetchAllCompletedBundleIDsForIndexerTask:completionHandler:"
+- "fetchAllParametersForLanguages:"
+- "fetchAllPersonasWithCompletionHandler:"
+- "fetchAttributes:"
+- "fetchAttributes:bundleID:identifiers:userCtx:flags:completion:"
+- "fetchAttributes:bundleID:identifiers:userCtx:flags:completionHandler:"
+- "fetchAttributes:protectionClass:bundleID:identifiers:userCtx:flags:qos:completionHandler:"
+- "fetchAttributes:protectionClass:bundleID:identifiers:userCtx:flags:qos:reply:completionHandler:"
+- "fetchAttributesForProtectionClass:attributes:bundleID:identifiers:completion:"
+- "fetchAttributesForProtectionClass:attributes:bundleID:identifiers:userCtx:flags:completion:"
+- "fetchBundleIDs:"
+- "fetchBundleIdsForProtectionClass:completionHandler:"
+- "fetchCacheFileDescriptors:"
+- "fetchCacheFileDescriptorsForBundleID:identifiers:userCtx:flags:completionHandler:"
+- "fetchCacheFileDescriptorsForProtectionClass:bundleID:identifiers:userCtx:flags:qos:completionHandler:"
+- "fetchCacheFileDescriptorsForProtectionClass:bundleID:identifiers:userCtx:flags:qos:reply:completionHandler:"
+- "fetchClientState:"
+- "fetchCompletenessReportsForPipeline:error:"
+- "fetchConsumedAndLatestSerialNums:"
+- "fetchConsumedAndLatestSerialNums:completionHandler:"
+- "fetchDonationProgressForBundles:completionHandler:"
+- "fetchIndexingPipelineCompleteness:forBundles:completionHandler:"
+- "fetchIndexingPipelineOverallCompleteness:completionHandler:"
+- "fetchItemForURL:"
+- "fetchItemForURL:completionHandler:"
+- "fetchLastClientStateForBundleID:clientStateName:options:completionHandler:"
+- "fetchLastClientStateWithProtectionClass:forBundleID:clientStateName:options:completionHandler:"
+- "fetchMeCard:isNotCreateNewIndex:group:"
+- "fetchParentsForItemID:recursively:timeout:"
+- "fileExistsAtPath:"
+- "fileExistsAtPath:isDirectory:"
+- "fileHandleForReadingAtPath:"
+- "fileHandleForWritingAtPath:"
+- "filePathArrayForKey:didFailWithError:"
+- "fileProviderActiveProvidersChanged:"
+- "fileProviderAppToExtensionBundleMap"
+- "fileProviderBundleIDs"
+- "fileProviderDomainFilterQueries"
+- "fileProviderExtensionToAppBundleMap"
+- "fileProviderInfoSetup"
+- "fileProviderMonitor"
+- "fileProviderProtectionClasses"
+- "fileSystemRepresentation"
+- "fileType"
+- "fileURLWithPath:"
+- "fileURLWithPath:isDirectory:"
+- "fileURLWithPathComponents:"
+- "filenameDateFormatter"
+- "filterBlock"
+- "filterForDisabledBundles:"
+- "filterOutHiddenApps"
+- "filterQueries"
+- "filterQuery"
+- "filteredArrayUsingPredicate:"
+- "findExtensionsWithCompletionBlock:"
+- "findResultsQueueWithIdentifier:"
+- "finishDeleteBatchForQueryQueue:bundleID:blockTime:"
+- "finishIndexingLocked:"
+- "finishIndexingWhileLocked:completionHandler:"
+- "finishIndexingWhileLocked:protectionClass:completionHandler:"
+- "finishReindexAll"
+- "finishWithError:"
+- "finished"
+- "finishedDataMigration"
+- "finishedDrainingJournal"
+- "firstMatchInString:options:range:"
+- "firstObject"
+- "firstPassSynonymDictionary"
+- "firstUnlockQueue"
+- "firstUnlockSBCompleted"
+- "firstUnlockedInSB"
+- "fixupBundlesWithGroup:"
+- "fixupMessageAttachmentsWithCompletionHandler:"
+- "fixupPathTimeouts"
+- "floatValue"
+- "flushUserActivities"
+- "forceMigrationComplete"
+- "format"
+- "foundExtensions"
+- "fpBundleIDs"
+- "freeIndexDiskSpace"
+- "fuzzyMask"
+- "fuzzyMatch"
+- "generateDateSynonymsFromToken:previousToken:isOrdinalToken:"
+- "generateSuggestions"
+- "getBytes:maxLength:usedLength:encoding:options:range:remainingRange:"
+- "getCachedEmbeddingCompletenessForBundle:completion:"
+- "getCorrections:forLanguage:version:"
+- "getCurrentSpotlightVersionWithRoots:"
+- "getDBLogsWithCompletionHandler:"
+- "getDateSynonymsForWord:"
+- "getFirstPassSynonymsForWord:"
+- "getIntegerPropertyForKey:"
+- "getPreviousBuild"
+- "getPropertyForKey:"
+- "getReportsForDateInterval:reportHandler:"
+- "getResourceValue:forKey:error:"
+- "getSecondPassSynonymsForWord:"
+- "givenName"
+- "grouped"
+- "groupingRules"
+- "handleAssetsCommand:"
+- "handleCommand:info:"
+- "handleCommand:info:connection:"
+- "handleEngagement:forConnection:"
+- "handleError:"
+- "handleFirstUnlock"
+- "handleFirstUnlockHomeScreen"
+- "handleFirstUnlockInSpringBoard"
+- "handleInteraction:bundleID:protectionClass:"
+- "handleJob:bundleID:protectionClass:completionHandler:"
+- "handleJob:protectionClass:perClientCompletionHandler:completionHandler:"
+- "handleLogOut"
+- "handleMigrationComplete"
+- "handleRankingCommand:completion:"
+- "hasPausedResults"
+- "hasPrefix:"
+- "hasSuffix:"
+- "hash"
+- "haveDaemonForBundleID:jobType:"
+- "hiddenApplications"
+- "highMatchBit"
+- "highRecencyBit"
+- "i16@0:8"
+- "i20@0:8B16"
+- "i24@0:8@16"
+- "i24@0:8B16B20"
+- "i28@0:8B16B20B24"
+- "i32@0:8@16@24"
+- "i32@0:8@16@?24"
+- "i36@0:8B16B20B24@28"
+- "identifier"
+- "identifiersToReindex"
+- "idleStartTime"
+- "idleTimeout"
+- "idleTimer"
+- "includeUserActivities"
+- "indexAgent"
+- "indexAgent:serviceName:"
+- "indexAvailableForProtectionClass:newIndex:"
+- "indexConnection:"
+- "indexConnections"
+- "indexDelegateAgent:"
+- "indexDependentTokenRewritesWithQueryString:context:matchInfo:setOfTokensToCorrect:tokenRewritesHandler:"
+- "indexDirectory"
+- "indexFinishedDrainingJournal:"
+- "indexFromBundle:personaID:options:items:itemsText:itemsHTML:clientState:expectedClientState:clientStateName:deletes:canCreateNewIndex:completionHandler:"
+- "indexFromBundle:protectionClass:items:itemsContent:"
+- "indexFromBundle:protectionClass:options:items:itemsText:itemsHTML:clientState:expectedClientState:clientStateName:deletes:userActivities:completionHandler:"
+- "indexFromBundle:protectionClass:personaID:options:items:itemsText:itemsHTML:clientState:expectedClientState:clientStateName:deletes:canCreateNewIndex:completionHandler:"
+- "indexIdleTimer"
+- "indexMeCardFirstTimeCheckedPath"
+- "indexMeCardInfoPath"
+- "indexQueue"
+- "indexRequestsPerformDataJob:forBundle:completionHandler:"
+- "indexRequestsPerformJob:extensions:perExtensionCompletionHandler:completionHandler:"
+- "indexRequestsPerformJob:forBundle:completionHandler:"
+- "indexRequestsPerformJob:forBundles:perExtensionCompletionHandler:completionHandler:"
+- "indexRequestsPerformJob:perExtensionCompletionHandler:completionHandler:"
+- "indexSearchableItems:deleteSearchableItemsWithIdentifiers:clientState:clientStateName:protectionClass:forBundleID:options:completionHandler:"
+- "indexSearchableItems:deleteSearchableItemsWithIdentifiers:clientState:expectedClientState:clientStateName:forBundleID:options:completionHandler:"
+- "indexSearchableItems:deleteSearchableItemsWithIdentifiers:clientState:expectedClientState:clientStateName:protectionClass:forBundleID:options:completionHandler:"
+- "indexSearchableItems:deleteSearchableItemsWithIdentifiers:clientState:forBundleID:options:completionHandler:"
+- "indexSearchableItems:deleteSearchableItemsWithIdentifiers:clientState:protectionClass:forBundleID:options:completionHandler:"
+- "indexServiceName"
+- "indexWithFd:offset:size:indexType:bundleID:protectionClass:serialNumber:journalCookie:config:additionalAttributes:completionHandler:"
+- "indexer"
+- "indexerDelegate"
+- "indexers"
+- "indexingEnabled"
+- "informationForPlugInWithPid:"
+- "init"
+- "initFileURLWithPath:"
+- "initForClient:"
+- "initForReadingFromData:error:"
+- "initMachServiceListenerWithName:"
+- "initWithAction:item:"
+- "initWithAllKnownItems:itemsNeedingDonation:donatedItems:partiallyDonatedItems:itemsNeedingDonationForRedonationRequests:"
+- "initWithArray:"
+- "initWithAttributes:"
+- "initWithBundleID:uaID:relatedID:"
+- "initWithBundleId:clientIndexName:donationProgressReport:donationProgressReportFailure:"
+- "initWithBundleIdentifier:error:"
+- "initWithCapacity:"
+- "initWithConfiguration:"
+- "initWithConfiguration:indexer:"
+- "initWithConnection:"
+- "initWithConnection:indexer:"
+- "initWithConnection:isManaged:"
+- "initWithConnection:isPrivate:"
+- "initWithConnection:isPrivate:isManaged:"
+- "initWithConnectionConfiguration:"
+- "initWithConnectionInfo:configurationInfo:"
+- "initWithContentsOfFile:"
+- "initWithContentsOfFile:usedEncoding:error:"
+- "initWithContentsOfURL:"
+- "initWithData:"
+- "initWithData:encoding:"
+- "initWithDelegate:options:"
+- "initWithDeletes:"
+- "initWithDictionary:"
+- "initWithDomain:code:"
+- "initWithDomain:code:userInfo:"
+- "initWithDonationProgressQueryResults:pipelineReports:"
+- "initWithEncodedData:"
+- "initWithFailureReason:underlyingError:"
+- "initWithFileDescriptor:closeOnDealloc:"
+- "initWithFormat:"
+- "initWithIdentifier:"
+- "initWithIdentifier:dispatchQueue:"
+- "initWithIdleTime:idleTimeLeeway:maximumBatchSize:mode:notifyBlock:"
+- "initWithIndexJob:indexers:"
+- "initWithItemContentType:"
+- "initWithItems:itemsContent:"
+- "initWithJobType:"
+- "initWithJobType:jobOptions:"
+- "initWithKeyOptions:valueOptions:capacity:"
+- "initWithMachServiceName:"
+- "initWithMachServiceName:options:"
+- "initWithOriginalToken:variations:"
+- "initWithParentDirectoryPath:corespotlight:heartbeatIndex:resourcesCallback:"
+- "initWithPattern:options:error:"
+- "initWithPipeline:bundleID:overallCompleteness:donationCompeleteness:pipelineCompleteness:pipelineCompletenessHeuristicScore:pipelineReportAge:donationProgress:pipelineCompletenessFirstTimeBucket:pipelineCompletenessSecondBucket:pipelineCompletenessThirdBucket:"
+- "initWithPipeline:overallCompleteness:donationCompeleteness:pipelineCompleteness:pipelineCompletenessHeuristicScore:pipelineReportAge:"
+- "initWithPipelineCompletenessStorage:donationProgressFetcher:"
+- "initWithPlistObject:externalID:"
+- "initWithProviderDomainID:itemIdentifier:"
+- "initWithProviderID:domainIdentifier:coreSpotlightIdentifier:"
+- "initWithQueryString:attributes:"
+- "initWithQueryString:queryContext:"
+- "initWithQueue:protectionClass:cancelPtr:"
+- "initWithQueue:timeoutBlock:"
+- "initWithRewrittenTokens:"
+- "initWithSIJob:dataclass:eventHandler:resultsHandler:"
+- "initWithSearchQueryString:searchQueryContext:score:"
+- "initWithServiceName:"
+- "initWithServiceName:client:configPath:"
+- "initWithServiceName:clientType:"
+- "initWithSource:"
+- "initWithString:"
+- "initWithSuiteName:"
+- "initWithTitle:"
+- "initWithUTF8String:"
+- "initWithUUIDString:"
+- "initWithUniqueIdentifier:domainIdentifier:attributeSet:"
+- "initWithVariation:type:confidence:"
+- "initWithXPCDictionary:"
+- "initialize"
+- "inputStreamWithFileAtPath:"
+- "insertObject:atIndex:"
+- "instantAnswersBundleIDs"
+- "instantAnswersQueries"
+- "intValue"
+- "integerValue"
+- "intent"
+- "interactionHandler"
+- "interestingContactIdentifiersFromIntent:"
+- "interfaceWithProtocol:"
+- "internal"
+- "intersectsSet:"
+- "invalidate"
+- "invalidationHandler"
+- "isAtEnd"
+- "isBuildVersion:equalToBuildVersion:"
+- "isCalendarBundle:"
+- "isDeviceUsingEphemeralStorage"
+- "isEqual:"
+- "isEqualToString:"
+- "isEventsBundle:"
+- "isExtension"
+- "isForegroundFileProviderBundleID:"
+- "isIndexDropReportingDisabled"
+- "isInternal"
+- "isKindOfClass:"
+- "isMailBundle:"
+- "isManaged"
+- "isMemberOfClass:"
+- "isMessagesBundle:"
+- "isNamespaceLoaded:"
+- "isPhotosBundle:"
+- "isPriority"
+- "isPrivate"
+- "isProviderIDForeground:"
+- "isProxy"
+- "isRemindersBundle:"
+- "isSafariBundle:"
+- "isSearchCLIBundle:"
+- "isSearchToolClientBundle:"
+- "isSettingsBundle:"
+- "isSpotlightUIClientBundle:"
+- "isSubsetOfSet:"
+- "isTimeSensitive"
+- "isUnsafeQuery"
+- "isUpdate"
+- "isUrgent"
+- "issueBundleFixup:completionHandler:"
+- "issueCacheCommand:"
+- "issueCleanup:flags:"
+- "issueCommand:"
+- "issueConsistencyCheck"
+- "issueConsistencyCheck:"
+- "issueDefrag:"
+- "issueDefrag:group:"
+- "issueDocIDConsistencyCheck:"
+- "issueDumpForward:completionHandler:"
+- "issueDumpReverse:completionHandler:"
+- "issueDuplicateOidCheck"
+- "issueDuplicateOidCheck:"
+- "issueDuplicateOidCheckWithGroup:protected:"
+- "issueHeartbeat"
+- "issueLoadTrial:"
+- "issueMessagesFixup:"
+- "issuePathFixup:"
+- "issuePhotosReindexIfNeeded:group:"
+- "issuePriorityIndexFixup"
+- "issuePriorityIndexFixupOff"
+- "issuePriorityIndexFixupOn"
+- "issuePriorityIndexFixupOn:key:"
+- "issueReindexAllItemsForBundleID:protectionClass:reason:acknowledgementHandler:"
+- "issueReindexItemsWithIdentifiers:bundleID:protectionClass:acknowledgementHandler:"
+- "issueRepair"
+- "issueRepair:"
+- "issueResolveFPItem:completionHandler:"
+- "issueResolveFPItemForBundle:domain:identifier:completionHandler:"
+- "issueResolveFPItemForURL:completionHandler:"
+- "issueSharedDocumentAttributeFixup"
+- "issueSplit"
+- "issueSplit:"
+- "itemID"
+- "itemIdentifier"
+- "itemsNeedingDonation"
+- "itemsNeedingDonationForRedonationRequests"
+- "jobForAssets:"
+- "jobForDuet:"
+- "jobForImages:"
+- "jobForSuggestions:"
+- "jobForTest:"
+- "jobForTextUnderstanding:"
+- "jobOptions"
+- "jobOptionsFromProvideOptions:"
+- "jobType"
+- "jobs"
+- "journalDictionary:toFolderPath:forPID:withLabel:andID:"
+- "journalEnabled"
+- "jwlIndex"
+- "kQPQUOutputToken"
+- "kQPQUOutputTokenArgLabels"
+- "kQPQUOutputTokenInfo"
+- "keyEnumerator"
+- "keyName"
+- "keyWithConnection:"
+- "keysSortedByValueUsingComparator:"
+- "knownBundleIds"
+- "knownClients"
+- "knownPersonas"
+- "label"
+- "languageCode"
+- "lastBuildVersionPref"
+- "lastCommittedVersions"
+- "lastObject"
+- "lastPathComponent"
+- "lastUpdateTime"
+- "latestMeCardTime"
+- "leakDebugDump:"
+- "length"
+- "lengthOfBytesUsingEncoding:"
+- "loadDateSynonymDictionary"
+- "loadExtensions"
+- "loadFirstPassSynonymDictionary"
+- "loadNamespace:"
+- "loadSecondPassSynonymDictionary"
+- "localStore"
+- "localeWithLocaleIdentifier:"
+- "localizedDescription"
+- "localizedLowercaseString"
+- "localizedStrings"
+- "lock"
+- "lockedCx"
+- "logForTrigger:queryID:"
+- "logToken"
+- "logType"
+- "logWithBundleID:indexOperation:itemCount:code:"
+- "longForKey:didFailWithError:"
+- "longLongValue"
+- "longValue"
+- "lostClientConnection:error:"
+- "lowMatchBit"
+- "lowPriority"
+- "lowRecencyBit"
+- "lowercaseString"
+- "mailClassCFileTransferCompleteTouchFile"
+- "mailClassCIndexPath"
+- "mailClassCMigrationCompleteTouchFile"
+- "mailQueryID"
+- "managedIndex"
+- "managedIndexNonSandboxAllowed"
+- "markDirectoryAtomicallyPurgeable:purgeableOrNot:"
+- "markIndexPurgeable:"
+- "matchInfo"
+- "maxCount"
+- "maxRankedResultCount"
+- "maximumBatchSize"
+- "meCard"
+- "meCardDict"
+- "meCardObserver"
+- "meCardPath"
+- "mediaAnalysisComplete"
+- "member:"
+- "mergeWithCompletionHandler:"
+- "mergeWithGroup:"
+- "mergeWithProtectionClasses:completionHandler:"
+- "mergeWithProtectionClasses:power:"
+- "mergeWithProtectionClasses:power:completionHandler:"
+- "mergeWithProtectionClasses:power:inferSpecialIndexes:completionHandler:"
+- "middleName"
+- "migrateForced:"
+- "migrationComplete"
+- "migrationCompleted"
+- "minDate"
+- "minusSet:"
+- "monitorDataMigrationWithCompletionBlock:"
+- "moveBackMailToClassA"
+- "moveItemAtPath:toPath:error:"
+- "moveMailToClassC"
+- "moveMailToClassCWithClone"
+- "moveMailToClassCWithoutClone"
+- "mutableBytes"
+- "mutableCopy"
+- "nameQueryDict"
+- "nameQueryFilePath"
+- "nd"
+- "needsHTML"
+- "needsText"
+- "newlineCharacterSet"
+- "nextObject"
+- "noIndex"
+- "nonTopHitFetchAttributeIndexesBits"
+- "notifyClientForItemUpdates:updatedItems:batchMask:"
+- "notifyIndexDelegates"
+- "notifyStart"
+- "notifyToken"
+- "notifyUpdatesForItems:bundleID:interestedAttributeMask:acknowledgementHandler:"
+- "now"
+- "null"
+- "numberFromString:"
+- "numberOfMatchesInString:options:range:"
+- "numberWithBool:"
+- "numberWithDouble:"
+- "numberWithInt:"
+- "numberWithInteger:"
+- "numberWithLongLong:"
+- "numberWithUnsignedInt:"
+- "numberWithUnsignedInteger:"
+- "numberWithUnsignedLong:"
+- "numberWithUnsignedLongLong:"
+- "numberWithUnsignedShort:"
+- "obj"
+- "objectAtIndex:"
+- "objectAtIndexedSubscript:"
+- "objectEnumerator"
+- "objectForKey:"
+- "objectForKey:didFailWithError:"
+- "objectForKeyedSubscript:"
+- "onDemandOpen"
+- "open"
+- "openCorrectionRef:language:create:"
+- "openIndex:"
+- "openIndex:forInit:readOnly:"
+- "openIndex:readOnly:"
+- "openIndex:shouldReindexAll:"
+- "openIndex:shouldReindexAll:readOnly:"
+- "openIndex:shouldReindexAll:readOnly:forcePC:"
+- "openIndexForUpgradeSynchronous:"
+- "openJWLIndex"
+- "openJournalFile:"
+- "options"
+- "originalToken"
+- "otaBundleVersion"
+- "outBatchCount"
+- "outputStreamToFileAtPath:append:"
+- "outstandingMaintenance"
+- "overallPipelineReportAcrossAllBundles"
+- "overrideMailHitCounts:"
+- "owner"
+- "ownerToken"
+- "partiallyDonatedItems"
+- "pathExtension"
+- "pathForResource:ofType:"
+- "pauseResults"
+- "pausedCount"
+- "pausedTasks"
+- "performBlock"
+- "performDataMigrationWithTimeout:completionHandler:"
+- "performIndexJob:protectionClass:acknowledgementHandler:"
+- "performIndexerTask:completionHandler:"
+- "performIndexerTask:withIndexDelegatesAndCompletionHandler:"
+- "performIndexerTask:withIndexExtensionsAndCompletionHandler:"
+- "performJob:completionBlock:"
+- "performMigrationStepWithTouchfileGuard:step:"
+- "performQueryForCountOfItemsInCategory:completion:"
+- "performSelector:"
+- "performSelector:withObject:"
+- "performSelector:withObject:withObject:"
+- "persistDonationProgress:fromBundle:clientIndexName:personaID:canCreateNewIndex:completionHandler:"
+- "persistDonationProgress:fromBundle:clientIndexName:protectionClass:personaID:options:completionHandler:"
+- "persistentDomainForName:"
+- "personaID"
+- "personaListDidUpdate"
+- "personaListURL"
+- "personaQueue"
+- "photoLibraryDeletedAtURL:reply:"
+- "photosLibraryDeleted:"
+- "pid"
+- "pipelineCompleteness"
+- "pipelineCompletenessFirstTimeBucket"
+- "pipelineCompletenessHeuristicScore"
+- "pipelineCompletenessSecondBucket"
+- "pipelineCompletenessThirdBucket"
+- "pipelineReportForBundle:"
+- "playback"
+- "plistContainer"
+- "poll"
+- "pollResults:"
+- "pollResultsForQueryTask:"
+- "pommes"
+- "postNotificationName:object:userInfo:"
+- "powerStateChanged"
+- "predicateWithFormat:"
+- "preferredLanguages"
+- "prefsChangeSource"
+- "prefsDisabledBundleIDs"
+- "prefsDisabledBundles"
+- "preheat:"
+- "prepareIndexingLocked:"
+- "prepareIndexingWhileLocked:holdAssertionFor:completionHandler:"
+- "prepareIndexingWhileLocked:protectionClass:holdAssertionFor:completionHandler:"
+- "prepareWithCompletionHandler:"
+- "primaryConfig"
+- "priorityIndexAvailableTouchFilePath"
+- "priorityIndexPath"
+- "priorityIndexQuery"
+- "priorityIndexer"
+- "privateIndex"
+- "privateIndexNonSandboxAllowed"
+- "privateQuery"
+- "process"
+- "processActivities:"
+- "processCorrectionsWithHandle:"
+- "processDecryptsForBundleID:persona:infos:group:"
+- "processDescription"
+- "processFetchIndexingPipelineCompletenessMessage:"
+- "processIdentifier"
+- "processImportForBundleID:withURLs:contentTypes:sandboxExtensions:andIdentifiers:options:inGroup:additionalAttributes:computeUpdaterAttributesAfterImport:cancelBlock:"
+- "processIndexData:"
+- "processInfo"
+- "processName"
+- "processNameForPID:"
+- "processReportDonationProgressMessage:"
+- "processSearchString:intoTrimmedString:andTokens:"
+- "processorAttributesForRecord:bundleID:protectionClass:isUpdate:"
+- "propertyListWithStream:options:format:error:"
+- "protectionClasses"
+- "provideDataForBundle:identifier:type:completionHandler:"
+- "provideDataForBundle:itemIdentifier:typeIdentifier:allowDownload:completionHandler:"
+- "provideDataForBundle:itemIdentifier:typeIdentifier:options:completionHandler:"
+- "provideDataForBundleID:protectionClass:itemIdentifier:typeIdentifier:options:completionHandler:"
+- "provideFileURLForBundle:identifier:type:completionHandler:"
+- "provideFileURLForBundle:itemIdentifier:typeIdentifier:inPlace:allowDownload:completionHandler:"
+- "provideFileURLForBundle:itemIdentifier:typeIdentifier:options:completionHandler:"
+- "provideFileURLForBundleID:protectionClass:itemIdentifier:typeIdentifier:options:completionHandler:"
+- "provideFileURLsForBundle:itemIdentifiers:typeIdentifier:options:completionHandler:"
+- "provideFileURLsForBundleID:protectionClass:itemIdentifiers:typeIdentifier:options:completionHandler:"
+- "provideOptionsFromJobOptions:"
+- "providerDataTypeIdentifiers"
+- "providerDomainID"
+- "providerID"
+- "providerIdentifier"
+- "providerIdentifiers"
+- "providerType"
+- "pruner"
+- "purePommesL2RankingAllowedWithSectionBundle:clientBundle:"
+- "purgeFromBundle:identifiers:"
+- "purgeIndexForSize:"
+- "purgeSearchableItemsWithIdentifiers:bundleID:client:"
+- "purgeVectorIndex:"
+- "purgeableIndexSize:"
+- "purgeableIndexTouchFilePath"
+- "purgeableVectorIndexSize:"
+- "q16@0:8"
+- "q24@0:8@16"
+- "q32@0:8@16q24"
+- "q32@0:8q16@24"
+- "q56@0:8@16q24d32@40@48"
+- "q92@0:8B16@20q28@36@44@52@60@68@76@84"
+- "queries"
+- "queryContext"
+- "queryEmbedding"
+- "queryFilePath"
+- "queryForWord:matchingAttributes:prefixMatch:"
+- "queryID"
+- "queryPreheat:"
+- "queryString"
+- "queryTask:"
+- "queryTasks"
+- "queryUnderstandingOutput"
+- "queue"
+- "queueItems:"
+- "queueRelatedDelete:forBundleID:"
+- "quotaDisabled"
+- "raise:format:"
+- "rangeAtIndex:"
+- "rangeOfCharacterFromSet:"
+- "rangeOfString:"
+- "rangeOfString:options:"
+- "rangeOfString:options:range:"
+- "rankingQueries"
+- "rankingType"
+- "readCommittedVersions"
+- "readyIndex:"
+- "reason"
+- "receiverPreferences"
+- "receiverRequestComplete"
+- "receiverRequestStart"
+- "recipients"
+- "recordEngagementForBundleID:uniqueIdentifier:protectionClass:userQuery:date:"
+- "recordRequestsForIndex:adds:updates:deletes:"
+- "recycleAndPurgeIndex"
+- "recycleIndex:"
+- "refreshCacheWithCompletionHandler:"
+- "registerCacheDeleteCallbackForVolumePath:"
+- "registerForTaskWithIdentifier:usingQueue:launchHandler:"
+- "registerHandler:forEventName:"
+- "registerHandlerWithEventMonitor:"
+- "registerPersonaListUpdateObserver:withMachService:completionHandler:"
+- "registerPostJournalPlaybackBGSTActivities"
+- "regularExpressionWithPattern:options:error:"
+- "reindexAllItemsSource"
+- "reindexAllItemsTask"
+- "reindexAllItemsWithIdentifiersSource"
+- "reindexAllItemsWithIndexers:reason:completionHandler:"
+- "reindexAllQueue"
+- "reindexAllStarted"
+- "reindexAttributes:ofItemsMatchingQuery:indexAttrName:withVersion:perItemCompletionAttribute:completionValue:alwaysReindexWithCompletionAttribute:force:postFilter:group:forceMerge:"
+- "reindexAttributes:ofItemsMatchingQuery:indexAttrName:withVersion:perItemCompletionAttribute:force:postFilter:group:forceMerge:"
+- "reindexAttributes:ofItemsMatchingQuery:indexAttrName:withVersion:perItemCompletionAttributeArray:completionValueArray:alwaysReindexWithCompletionAttribute:force:postFilter:group:forceMerge:"
+- "reindexAttributes:ofItemsMatchingQuery:liftingRules:indexAttrName:withVersion:perItemCompletionAttributeArray:completionValueArray:alwaysReindexWithCompletionAttribute:force:postFilter:group:forceMerge:"
+- "relatedID"
+- "relatedUniqueIdentifier"
+- "release"
+- "removeAllObjects"
+- "removeDerivedMeDebug:group:forceMerge:context:"
+- "removeExpiredItemsForBundleId:group:"
+- "removeItemAtPath:error:"
+- "removeItemAtURL:error:"
+- "removeJob:"
+- "removeObject:"
+- "removeObjectAtIndex:"
+- "removeObjectForKey:"
+- "removeObjectsAtIndexes:"
+- "removeObjectsInArray:"
+- "removeObserver:"
+- "removeObserver:name:object:"
+- "removePersistentDomainForName:"
+- "removeSandboxExtensions:"
+- "removeValueForKey:"
+- "removedDomainFilterQueries"
+- "reportDate"
+- "reportFeatureCheckpoint:forFeature:error:"
+- "reportHeartbeats"
+- "requestCount"
+- "requestRequiresImportWithoutSandboxExtension:maxCount:depth:"
+- "resetCount"
+- "resourcePath"
+- "resources"
+- "respondsToSelector:"
+- "restartAttachmentImport:maxCount:depth:"
+- "restoreIndexAndClearPurgeable"
+- "resultMatchingAttributes"
+- "resultQueue"
+- "resumeIndex"
+- "resumeMigrationQueue"
+- "resumeResults"
+- "resumeResultsIfSystemInGoodState"
+- "retain"
+- "retainCount"
+- "reverseObjectEnumerator"
+- "revokeExpiredItems:expirationRef:"
+- "revokeExpiredItems:protected:expirationRef:"
+- "revokeUnusedFiles"
+- "rewriteContext"
+- "rewriteFirstPassQueryWithQueryString:context:trimmedSearchStringTokens:populateDateSynonyms:"
+- "rewriteQueryWithQueryString:context:matchInfo:rewriteHandler:"
+- "runAssetCommand:"
+- "runCommand:"
+- "runMigration"
+- "runOnSenderQueue:"
+- "runOneFixup:group:"
+- "runOtherFixups:state:"
+- "runTrialCommand:"
+- "sandboxExtension"
+- "sanityCheckFile:"
+- "saveReport:withType:errorHandler:"
+- "scanLocation"
+- "scanString:intoString:"
+- "scanUpToString:intoString:"
+- "scannerWithString:"
+- "schedule"
+- "scheduleBlock"
+- "scheduleMaintenance:description:forDarkWake:"
+- "scopes"
+- "searchAgent"
+- "searchAgent:serviceName:"
+- "searchConnection:"
+- "searchConnections"
+- "searchInternal"
+- "searchQueryContext"
+- "searchServiceName"
+- "searchableItem"
+- "secondPassSynonymDictionary"
+- "self"
+- "sendEvent:"
+- "sendHeartbeatEvent"
+- "sendIndexDropEventWithCorruptIndex:path:readOnly:reason:"
+- "sendMessageAsync:completion:"
+- "sendToCoreAnalyticsWithLiveDocCount:deadDocCount:"
+- "sender"
+- "senderQueue"
+- "serverPreferences"
+- "service"
+- "serviceName"
+- "set"
+- "setAllowCarPlayApps:"
+- "setAllowMail:"
+- "setAllowMessagesContent:"
+- "setAllowNotifications:"
+- "setAllowOpenJournalFile:"
+- "setAllowPhotosLibraryDeletion:"
+- "setAttribute:"
+- "setAttribute:forKey:"
+- "setAttributeSet:"
+- "setBackingStore:"
+- "setBlock:"
+- "setBundleID:"
+- "setBundleIDs:"
+- "setBundleIdentifier:"
+- "setByAddingObject:"
+- "setByAddingObjectsFromArray:"
+- "setCanceled:"
+- "setClientBundleID:"
+- "setClientConnection:"
+- "setClientPersonaID:"
+- "setClientQueue:"
+- "setClientUID:"
+- "setCompleteCount:"
+- "setCompletedBundleIDs:"
+- "setCompletionBlock:"
+- "setCompletionHandler:"
+- "setConcreteIndexers:"
+- "setConfiguration:"
+- "setConnection:"
+- "setConnectionIdentifiers:"
+- "setConnectionName:"
+- "setContactStore:"
+- "setContentType:"
+- "setContentTypes:"
+- "setContentURL:"
+- "setCorrectionRefs:"
+- "setCorrectionRefsLock:"
+- "setCount:"
+- "setCounting:"
+- "setCreator:"
+- "setCritical:"
+- "setData:"
+- "setDataMigrationBundleIDs:"
+- "setDataMigrationFinishObserver:"
+- "setDataMigrationStage:"
+- "setDataMigrationStartObserver:"
+- "setDataclass:"
+- "setDateFormat:"
+- "setDebug:"
+- "setDecryptInfo:"
+- "setDelegate:memoryStatusFlags:"
+- "setDeleteCount:"
+- "setDictDirFd:"
+- "setDirtyCount:"
+- "setDirtyTimeout:"
+- "setDirtyTransaction:"
+- "setDisableBundleIDs:"
+- "setDisableBundles:"
+- "setDisableContentTypes:"
+- "setDisableDomainIDs:"
+- "setDisableResultStreaming:"
+- "setDispatchQueue:"
+- "setDomainCleaner:"
+- "setDomainIDs:"
+- "setDomainIdentifier:"
+- "setDonationAttributes:"
+- "setDuration:"
+- "setEntitledAttributes:"
+- "setErrorCount:"
+- "setEventHandler:"
+- "setEventHandlers:"
+- "setExcludeAttributes:"
+- "setExcludedBundleIDs:"
+- "setExpectedCount:"
+- "setExpectedDuration:"
+- "setExpirationHandler:"
+- "setExtensionDelegate:"
+- "setExternalID:"
+- "setFetchAttributes:"
+- "setFileAttributeSets:"
+- "setFileProviderMonitor:"
+- "setFileType:"
+- "setFilterBlock:"
+- "setFilterOutHiddenApps:"
+- "setFilterPredicate:"
+- "setFilterQueries:"
+- "setFinished:"
+- "setFinishedDataMigration:"
+- "setFinishedDrainingJournal:"
+- "setFirstUnlockQueue:"
+- "setFlags:"
+- "setFoundExtensions:"
+- "setFoundItemsHandler:"
+- "setGroupConcurrencyLimit:"
+- "setGroupName:"
+- "setHasPausedResults:"
+- "setHasPhotosOrText"
+- "setINIntentClassNames:"
+- "setIdentifier:"
+- "setIdentifiersToReindex:"
+- "setIdleStartTime:"
+- "setIdleTimeout:"
+- "setIdleTimer:"
+- "setImportData:"
+- "setIncludeDeletedItems:"
+- "setIncludeLanguage:"
+- "setIndex:"
+- "setIndexConnections:"
+- "setIndexQueue:"
+- "setIndexer:"
+- "setIndexerDelegate:"
+- "setInteractionHandler:"
+- "setInternal:"
+- "setInvalidationHandler:"
+- "setIsExtension:"
+- "setIsInternal:"
+- "setIsPrivate:"
+- "setIsTimeSensitive:"
+- "setIsUpdate:"
+- "setIsUrgent:"
+- "setJobs:"
+- "setJournalEnabled:"
+- "setJwlIndex:"
+- "setKnownBundleIds:"
+- "setKnownClients:"
+- "setKnownPersonas:"
+- "setLabel:"
+- "setLastCommittedVersions:"
+- "setLatestMeCardTime:"
+- "setLive:"
+- "setLocale:"
+- "setLockHandlerWithDelegate:options:"
+- "setLogToken:"
+- "setLowPriority:"
+- "setMatchInfo:"
+- "setMaxConcurrentOperationCount:"
+- "setMaxCount:"
+- "setMeCard:"
+- "setMeCardDict:"
+- "setMeCardObserver:"
+- "setMeCardPath:"
+- "setMediaAnalysisComplete:"
+- "setMemoryPressureStatus:"
+- "setMinDate:"
+- "setName:"
+- "setNameQueryDict:"
+- "setNameQueryFilePath:"
+- "setNeedsHTML:"
+- "setNeedsText:"
+- "setNonLaunching:"
+- "setNumberStyle:"
+- "setObject:atIndexedSubscript:"
+- "setObject:forKey:"
+- "setObject:forKeyedSubscript:"
+- "setOnDemandOpen:"
+- "setOptionalAttributes:"
+- "setOutstandingMaintenance:"
+- "setOwner:"
+- "setOwnerToken:"
+- "setPausedCount:"
+- "setPausedTasks:"
+- "setPerformBlock:"
+- "setPersonaQueue:"
+- "setPrefsChangeSource:"
+- "setPrefsDisabledBundleIDs:"
+- "setPrefsDisabledBundles:"
+- "setPrimaryConfig:"
+- "setPriority:"
+- "setProcesses:"
+- "setProperty:forKey:sync:"
+- "setProtectionClass:"
+- "setProtectionClasses:"
+- "setProviderDataTypeIdentifiers:"
+- "setProviderIdentifier:"
+- "setProviderIdentifiers:"
+- "setProviderMonitor:"
+- "setProviderType:"
+- "setPurgeTimestampForIndex:start:"
+- "setPurgeability:forIndex:"
+- "setQueries:"
+- "setQueryContext:"
+- "setQueryFilePath:"
+- "setQueryID:"
+- "setQueryString:"
+- "setQueryTask:forQueryID:"
+- "setQueryTasks:"
+- "setQueue:"
+- "setQuotaDisabled:"
+- "setReason:"
+- "setReindexAllItemsSource:"
+- "setReindexAllItemsTask:"
+- "setReindexAllItemsWithIdentifiersSource:"
+- "setReindexAllQueue:"
+- "setRelatedID:"
+- "setRemoteObjectInterface:"
+- "setReport:"
+- "setRequireBacklogItems:"
+- "setRequirePriorityItems:"
+- "setRequiredAttributes:"
+- "setRequiresExternalPower:"
+- "setRequiresNetworkConnectivity:"
+- "setRequiresProtectionClass:"
+- "setRequiresUserInactivity:"
+- "setResetCount:"
+- "setResourceIntensive:"
+- "setResources:"
+- "setResultQueue:"
+- "setResultsHandler:"
+- "setResultsQueue:"
+- "setRewriteContext:"
+- "setSandboxExtension:"
+- "setScheduleBlock:"
+- "setSearchConnections:"
+- "setSearchContext:"
+- "setSearchInternal:"
+- "setServiceName:"
+- "setSetupComplete:"
+- "setSetupSemaphore:"
+- "setShared:"
+- "setShouldResumeOnFailure:"
+- "setSiJob:"
+- "setSiQuery:"
+- "setSiResultsQueue:"
+- "setSkipFileProviderItems:"
+- "setStartTime:"
+- "setStreamSource:"
+- "setString:"
+- "setSummarizationContentSynopsis:"
+- "setSummarizationContentTopLine:"
+- "setSummarizationContentTopic:"
+- "setSummarizationStatus:"
+- "setSupportedQuery:"
+- "setTaskCompleted"
+- "setTaskExpiredWithRetryAfter:error:"
+- "setThreadIdentifier:"
+- "setTimestamp:"
+- "setTitle:"
+- "setTouchfileExistsForMigrationStep:"
+- "setTracked:"
+- "setTransaction:"
+- "setTurboMode:"
+- "setType:"
+- "setUaID:"
+- "setUnderlyingQueue:"
+- "setUniqueIdentifier:"
+- "setUnlocked:"
+- "setUnsupportedQuery:"
+- "setUpdatePersonas:"
+- "setUpdatedItems:"
+- "setUpdatedItemsMask:"
+- "setUrgencyStatus:"
+- "setValue:forKey:"
+- "setVersionInfoLocation:"
+- "setVersionName:"
+- "setVersionValue:"
+- "setWantsHTML:"
+- "setWantsText:"
+- "setWasCanceledByClient:"
+- "setWillAsyncStart:"
+- "setWithArray:"
+- "setWithObject:"
+- "setWithObjects:"
+- "setupComplete"
+- "setupComplete:"
+- "setupHandlers"
+- "setupHasComplete"
+- "setupInstantSender"
+- "setupScheduledSender"
+- "setupSemaphore"
+- "shared"
+- "sharedAgent"
+- "sharedDaemonServer"
+- "sharedHandler"
+- "sharedInstance"
+- "sharedInstanceDispatchQueue:"
+- "sharedInstanceMaintenanceDispatchQueue:"
+- "sharedInstantManager"
+- "sharedLockHandler"
+- "sharedManager"
+- "sharedProcessor"
+- "sharedResourcesManager"
+- "sharedScheduledManager"
+- "sharedScheduler"
+- "shortcutBit"
+- "shouldDropForKnownDocIDInconsistencyCriteria:version:dropReason:"
+- "shouldResumeOnFailure"
+- "shrink:"
+- "siJob"
+- "signatureWithDomain:type:subType:detectedProcess:triggerThresholdValues:"
+- "signatureWithDomain:type:subType:subtypeContext:detectedProcess:triggerThresholdValues:"
+- "skipDescendants"
+- "skipFileProviderItems"
+- "snapshotWithSignature:delay:events:payload:actions:reply:"
+- "sortedArrayUsingSelector:"
+- "source"
+- "sourceOptions"
+- "spotlightCacheFileDescriptor:completionHandler:"
+- "spotlightCacheFilePrefix"
+- "st"
+- "standardUserDefaults"
+- "startAllAgents"
+- "startDate"
+- "startListener"
+- "startMonitoringEvents"
+- "startQuery:"
+- "startQuery:withContext:eventHandler:handler:"
+- "startQuery:withContext:handler:"
+- "startQueryTask:"
+- "startQueryWithQueryString:queryContext:eventHandler:resultsHandler:completionHandler:"
+- "startQueryWithQueryTask:startHandler:eventHandler:resultsHandler:"
+- "startReindexAll"
+- "startSetup"
+- "startSetupForClient:configurationValues:"
+- "startSimpleQuery:"
+- "startTime"
+- "startTrackingResultsQueue:"
+- "stopTrackingResultsQueueWithIdentifier:"
+- "storageSizeForFolder:"
+- "storageUsage"
+- "streamSource"
+- "string"
+- "stringByAppendingFormat:"
+- "stringByAppendingPathComponent:"
+- "stringByAppendingString:"
+- "stringByDeletingLastPathComponent"
+- "stringByExpandingTildeInPath"
+- "stringByReplacingMatchesInString:options:range:withTemplate:"
+- "stringByReplacingOccurrencesOfString:withString:"
+- "stringByTrimmingCharactersInSet:"
+- "stringForKey:didFailWithError:"
+- "stringFromDate:"
+- "stringFromReferenceDate:"
+- "stringValue"
+- "stringWithCString:encoding:"
+- "stringWithContentsOfFile:encoding:error:"
+- "stringWithFormat:"
+- "stringWithString:"
+- "stringWithUTF8String:"
+- "strongRankingQueryCount"
+- "strongToStrongObjectsMapTable"
+- "subarrayWithRange:"
+- "submitTaskRequest:error:"
+- "substringFromIndex:"
+- "substringToIndex:"
+- "substringWithRange:"
+- "subsystem"
+- "summarizationContentSynopsis"
+- "summarizationContentTopLine"
+- "summarizationContentTopic"
+- "summarizationStatus"
+- "superclass"
+- "supportedConfigs"
+- "supportedJobs"
+- "suspendIndexForDeviceLock:"
+- "suspendMigrationQueue"
+- "sync"
+- "synchronousRemoteObjectProxyWithErrorHandler:"
+- "systemSettingsIndexer"
+- "taskForQueryWithQueryString:queryContext:eventHandler:resultsHandler:completionHandler:"
+- "taskForTopHitQueryWithQueryString:queryContext:eventHandler:resultsHandler:completionHandler:"
+- "testIndex"
+- "textContent"
+- "textContentSummary"
+- "th"
+- "threadIdentifier"
+- "timeIntervalSince1970"
+- "timeIntervalSinceDate:"
+- "timeIntervalSinceNow"
+- "timeIntervalSinceReferenceDate"
+- "title"
+- "tokenRewrites"
+- "topKTerms:completionHandler:"
+- "totalIndexDiskSpace"
+- "touchfileExistsForMigrationStep:"
+- "touchfilePathForMigrationStep:"
+- "tracked"
+- "transaction"
+- "transactionCount"
+- "transferDeleteJournals:"
+- "transferDeleteJournalsForProtectionClass:toDirectory:completionHandler:"
+- "transferDeleteJournalsForProtectionClass:toDirectory:withCompletionHandler:"
+- "transferDeleteJournalsToDirectory:completionHandler:"
+- "trialIntentionalDropUUID"
+- "truncateAtOffset:error:"
+- "uaID"
+- "unarchivedArrayOfObjectsOfClass:fromData:error:"
+- "unarchivedObjectOfClass:fromData:error:"
+- "underlyingError"
+- "unionSet:"
+- "uniqueIdentifier"
+- "unlock"
+- "unlockedSinceBoot"
+- "unpurgeOnceTouchFileCreate"
+- "unpurgeOnceTouchFileExists"
+- "unregisterHandler:forEventName:"
+- "unresponsive"
+- "unsignedIntValue"
+- "unsignedIntegerValue"
+- "unsignedLongLongValue"
+- "unsignedLongValue"
+- "update:"
+- "updateApplicationsWithCompletion:clean:"
+- "updateCheckedInClientWithBundleIdentifier:completionHandler:"
+- "updateConfigsForClient:configurationValues:"
+- "updateContactCounts:"
+- "updateContainersAndScores:group:forceMerge:"
+- "updateCorrections:"
+- "updateCorrectionsWithFilePath:options:completionHandler:"
+- "updateCount"
+- "updateDerivedIsFromMe:fullName:emails:onlyIfNotAlready:group:forceMerge:context:"
+- "updateDerivedIsFromMeNot:fullName:emails:group:forceMerge:context:"
+- "updateDerivedIsFromMeRanking:nameTokens:onlyIfNotAlready:group:forceMerge:context:"
+- "updateDerivedIsFromMeRankingNot:nameTokens:group:forceMerge:context:"
+- "updateDerivedIsMe:nameTokens:alias:onlyIfNotAlready:group:forceMerge:context:"
+- "updateDerivedIsMeNot:nameTokens:alias:group:forceMerge:context:"
+- "updateDerivedIsMeRanking:nameTokens:onlyIfNotAlready:group:forceMerge:context:"
+- "updateDerivedIsMeRankingNot:nameTokens:group:forceMerge:context:"
+- "updateDerivedIsMeRankingOCR:givenNameTokens:nonGivenNameTokens:alias:onlyIfNotAlready:group:forceMerge:context:"
+- "updateDerivedIsMeRankingOCRNot:givenNameTokens:nonGivenNameTokens:alias:group:forceMerge:context:"
+- "updateDerivedIsMeRankingOCRTextContentMatch:givenNameTokens:nonGivenNameTokens:alias:onlyIfNotAlready:group:forceMerge:context:"
+- "updateDerivedIsMeRankingOCRTextContentMatchNot:givenNameTokens:nonGivenNameTokens:alias:group:forceMerge:context:"
+- "updateDerivedIsMeRankingPreExtraction:givenNameTokens:nonGivenNameTokens:alias:onlyIfNotAlready:group:forceMerge:context:"
+- "updateDerivedIsMeRankingPreExtractionNot:givenNameTokens:nonGivenNameTokens:alias:group:forceMerge:context:"
+- "updateDerivedIsMeRankingSpan:fullName:onlyIfNotAlready:group:forceMerge:context:"
+- "updateDerivedIsMeRankingSpanNot:fullName:group:forceMerge:context:"
+- "updateDerivedIsMeRankingTextContentMatchTokens:nameTokens:onlyIfNotAlready:group:forceMerge:context:"
+- "updateDerivedIsMeRankingTextContentMatchTokensNot:nameTokens:group:forceMerge:context:"
+- "updateDerivedIsMeRankingToken:nameTokens:onlyIfNotAlready:group:forceMerge:context:"
+- "updateDerivedIsMeRankingTokenNot:nameTokens:group:forceMerge:context:"
+- "updateDerivedIsMeTextContentMatch:nameTokens:alias:onlyIfNotAlready:group:forceMerge:context:"
+- "updateDerivedIsMeTextContentMatchNot:nameTokens:alias:group:forceMerge:context:"
+- "updateDerivedIsToMe:fullName:emails:onlyIfNotAlready:group:forceMerge:context:"
+- "updateDerivedIsToMeNot:fullName:emails:group:forceMerge:context:"
+- "updateDerivedIsToMeRanking:nameTokens:onlyIfNotAlready:group:forceMerge:context:"
+- "updateDerivedIsToMeRankingNot:nameTokens:group:forceMerge:context:"
+- "updateDerivedMeAll:group:order:aliasName:fullName:nameTokens:givenNameTokens:nonGivenNameTokens:emails:context:"
+- "updateDerivedMeAll:runAllStates:runOtherFixups:force:group:state:context:completion:"
+- "updateEmailContentURLAttr:group:forceMerge:"
+- "updateEmailLocalParts:group:forceMerge:"
+- "updateFileProviderBundleIDs:"
+- "updateGroups:group:forceMerge:"
+- "updateIndexRankingDates:group:forceMerge:"
+- "updateKnownBundles:group:"
+- "updateMeCardInfo:middleName:familyName:emailAddresses:isFirstTimeCheck:isNotCreateNewIndex:group:"
+- "updateNotes:group:forceMerge:"
+- "updatePersonas"
+- "updateRankingDates:group:forceMerge:"
+- "updateWithFileHandle:"
+- "updateWithFilePath:"
+- "updatedCountsFromExisting:result:shouldUpdateMonth:"
+- "updatedItems"
+- "updatedItemsMask"
+- "upgradeCheck"
+- "urgencyStatus"
+- "userInfo"
+- "userPerformedAction:withItem:protectionClass:"
+- "userPerformedAction:withItem:protectionClass:forBundleID:"
+- "userPerformedAction:withItem:protectionClass:forBundleID:personaID:"
+- "userPersonaUniqueString"
+- "userQuery"
+- "usingPommesRankingForClientBundle:"
+- "usingRewritesForContextBundleIDs:clientBundleID:userQuery:indexSupportsRewrites:isCounting:embeddingsEnabled:"
+- "v100@0:8@16@24@32@40Q48@56@64B72B76@80@88B96"
+- "v100@0:8i16Q20Q28Q36@44@52Q60@68@76@84@?92"
+- "v108@0:8@16@24q32@40@48@56@64@72@80@88B96@?100"
+- "v108@0:8i16Q20Q28Q36@44@52Q60@68@76q84@92@?100"
+- "v112@0:8@16@24@32q40@48@56@64@72@80@88@96@?104"
+- "v116@0:8@\"NSString\"16@\"NSString\"24@\"NSString\"32q40@\"NSData\"48@\"NSData\"56@\"NSData\"64@\"NSData\"72@\"NSData\"80@\"NSString\"88@\"NSData\"96B104@?<v@?@\"NSError\">108"
+- "v116@0:8@\"NSString\"16@\"NSString\"24@\"NSString\"32q40@\"NSData\"48@\"NSData\"56@\"NSData\"64@\"NSData\"72@\"NSData\"80@\"NSString\"88@\"NSData\"96B104@?<v@?@\"NSError\"B>108"
+- "v116@0:8@16@24@32q40@48@56@64@72@80@88@96B104@?108"
+- "v16@0:8"
+- "v20@0:8B16"
+- "v20@0:8I16"
+- "v20@0:8i16"
+- "v24@0:8@\"<CSIndexExtensionDelegate>\"16"
+- "v24@0:8@\"NSArray\"16"
+- "v24@0:8@\"NSObject<OS_xpc_object>\"16"
+- "v24@0:8@\"SDEventMonitor\"16"
+- "v24@0:8@\"SPCoreSpotlightTask\"16"
+- "v24@0:8@16"
+- "v24@0:8@?16"
+- "v24@0:8B16i20"
+- "v24@0:8Q16"
+- "v24@0:8^{_MDPlistContainer=}16"
+- "v24@0:8^{__CFDictionary=}16"
+- "v24@0:8^{__SI=}16"
+- "v24@0:8^{__SIJobRef=}16"
+- "v24@0:8^{__SIQuery=}16"
+- "v24@0:8^{__SIResultQueue=}16"
+- "v24@0:8d16"
+- "v24@0:8q16"
+- "v24@?0@\"FPItem\"8@\"NSError\"16"
+- "v24@?0^{json_value=i*Q}8^B16"
+- "v28@0:8@16B24"
+- "v28@0:8@16i24"
+- "v28@0:8B16@20"
+- "v28@0:8B16B20B24"
+- "v28@0:8^{__SI=}16i24"
+- "v28@0:8i16@?20"
+- "v28@0:8q16B24"
+- "v28@?0i8^{json_value=i*Q}12^B20"
+- "v32@0:8@\"NSArray\"16@?<v@?@\"NSArray\"@\"NSError\">24"
+- "v32@0:8@\"NSArray\"16@?<v@?@\"NSError\">24"
+- "v32@0:8@\"NSNumber\"16@?<v@?@\"NSError\">24"
+- "v32@0:8@\"NSString\"16@\"CSIndexJob\"24"
+- "v32@0:8@\"NSString\"16@?<v@?@\"NSArray\"@\"NSError\">24"
+- "v32@0:8@\"NSString\"16@?<v@?@\"NSData\"@\"NSError\">24"
+- "v32@0:8@\"NSURL\"16@?<v@?@\"NSError\">24"
+- "v32@0:8@16@24"
+- "v32@0:8@16@?24"
+- "v32@0:8@16Q24"
+- "v32@0:8@16^B24"
+- "v32@0:8@16q24"
+- "v32@0:8@?16@24"
+- "v32@0:8@?16@?24"
+- "v32@0:8@?16q24"
+- "v32@0:8B16@20B28"
+- "v32@0:8B16B20@24"
+- "v32@0:8Q16@?24"
+- "v32@0:8Q16Q24"
+- "v32@0:8d16@?24"
+- "v32@0:8d16@?<v@?@\"NSError\">24"
+- "v32@0:8q16@24"
+- "v32@0:8q16@?24"
+- "v32@0:8q16@?<v@?@\"NSError\">24"
+- "v32@0:8{?=QQ}16"
+- "v36@0:8@\"NSString\"16i24@?<v@?@\"NSError\">28"
+- "v36@0:8@16@24B32"
+- "v36@0:8@16B24@?28"
+- "v36@0:8@16B24^B28"
+- "v36@0:8@16I24@?28"
+- "v36@0:8@16i24@?28"
+- "v36@0:8@?16@24B32"
+- "v36@0:8r*16i24@?28"
+- "v40@0:8@\"CSIndexJob\"16@\"NSString\"24@?<v@?@\"NSError\">32"
+- "v40@0:8@\"CSUserAction\"16@\"CSSearchableItem\"24@\"NSString\"32"
+- "v40@0:8@\"INInteraction\"16@\"NSString\"24@\"NSString\"32"
+- "v40@0:8@\"NSArray\"16q24@?<v@?@\"NSError\">32"
+- "v40@0:8@\"NSString\"16@\"NSString\"24@?<v@?@\"NSError\">32"
+- "v40@0:8@\"NSString\"16^@24^@32"
+- "v40@0:8@16@24@32"
+- "v40@0:8@16@24@?32"
+- "v40@0:8@16@24d32"
+- "v40@0:8@16@24q32"
+- "v40@0:8@16B24B28@?32"
+- "v40@0:8@16Q24q32"
+- "v40@0:8@16^@24^@32"
+- "v40@0:8@16d24@?32"
+- "v40@0:8@16q24@32"
+- "v40@0:8@16q24@?32"
+- "v40@0:8B16@20B28@32"
+- "v40@0:8Q16@\"NSString\"24@?<v@?@\"CSIndexJob\"@\"NSError\">32"
+- "v40@0:8Q16@24@?32"
+- "v40@0:8^v16@24@32"
+- "v40@0:8d16q24@?32"
+- "v40@0:8i16@\"NSString\"20B28@?<v@?@\"NSData\"@\"NSError\">32"
+- "v40@0:8i16@20B28@?32"
+- "v40@?0^{json_value=i*Q}8^{json_value=i*Q}16Q24^B32"
+- "v44@0:8@\"NSString\"16@\"CSSearchQueryContext\"24@\"NSArray\"32B40"
+- "v44@0:8@\"NSString\"16@\"NSString\"24B32@?<v@?@\"NSError\">36"
+- "v44@0:8@\"NSString\"16i24@\"CSSearchContext\"28@?<v@?@\"NSData\"@\"NSError\">36"
+- "v44@0:8@16@24@32B40"
+- "v44@0:8@16@24B32@?36"
+- "v44@0:8@16@24^B32i40"
+- "v44@0:8@16B24@28@?36"
+- "v44@0:8@16i24@28@?36"
+- "v48@0:8@\"CSUserAction\"16@\"CSSearchableItem\"24@\"NSString\"32@\"NSString\"40"
+- "v48@0:8@\"NSString\"16@\"CSSearchQueryContext\"24@\"NSDictionary\"32@?<v@?@\"NSArray\"@\"NSError\">40"
+- "v48@0:8@\"NSString\"16@\"NSObject<OS_xpc_object>\"24@\"CSSearchContext\"32@?<v@?@\"NSData\"@\"NSError\">40"
+- "v48@0:8@\"NSString\"16@\"NSString\"24@\"<CSSearchableIndexServiceInterface>\"32@?<v@?@\"CSIndexJob\"@\"NSError\">40"
+- "v48@0:8@\"NSString\"16@\"NSString\"24@\"NSString\"32@?<v@?@\"NSData\"@\"NSError\">40"
+- "v48@0:8@\"NSString\"16@\"NSString\"24@\"NSString\"32@?<v@?@\"NSURL\"@\"NSError\">40"
+- "v48@0:8@\"NSString\"16@\"NSString\"24d32@?<v@?@\"NSError\">40"
+- "v48@0:8@\"NSString\"16@\"NSString\"24q32@?<v@?@\"NSError\">40"
+- "v48@0:8@16@24@32@40"
+- "v48@0:8@16@24@32@?40"
+- "v48@0:8@16@24@32Q40"
+- "v48@0:8@16@24@32q40"
+- "v48@0:8@16@24@?32@?40"
+- "v48@0:8@16@24d32@?40"
+- "v48@0:8@16@24q32@40"
+- "v48@0:8@16@24q32@?40"
+- "v48@0:8@16@24r*32r*40"
+- "v48@0:8@16@?24@?32@?40"
+- "v48@0:8B16@20@28B36@40"
+- "v52@0:8@\"NSString\"16@\"NSString\"24@\"NSString\"32B40@?<v@?@\"NSData\"@\"NSError\">44"
+- "v52@0:8@\"NSString\"16@\"NSString\"24B32q36@?<v@?@\"NSError\">44"
+- "v52@0:8@16@24@32B40@?44"
+- "v52@0:8@16@24@32i40@?44"
+- "v52@0:8@16@24B32q36@?44"
+- "v52@0:8B16@20B28@32B40@44"
+- "v56@0:8@\"CSUserAction\"16@\"CSSearchableItem\"24@\"NSString\"32@\"NSString\"40@\"NSString\"48"
+- "v56@0:8@\"INInteraction\"16@\"NSString\"24@\"NSString\"32q40@?<v@?@\"NSError\">48"
+- "v56@0:8@\"NSArray\"16@\"NSString\"24@\"NSString\"32q40@?<v@?@\"NSError\">48"
+- "v56@0:8@\"NSDate\"16@\"NSString\"24@\"NSString\"32q40@?<v@?@\"NSError\">48"
+- "v56@0:8@\"NSString\"16@\"NSArray\"24@\"NSString\"32q40@?<v@?@\"NSDictionary\"@\"NSError\">48"
+- "v56@0:8@\"NSString\"16@\"NSString\"24@\"NSString\"32@\"NSString\"40@\"NSDate\"48"
+- "v56@0:8@\"NSString\"16@\"NSString\"24@\"NSString\"32B40B44@?<v@?@\"NSURL\"@\"NSError\">48"
+- "v56@0:8@\"NSString\"16@\"NSString\"24@\"NSString\"32q40@?<v@?@\"NSData\"@\"NSError\">48"
+- "v56@0:8@\"NSString\"16@\"NSString\"24@\"NSString\"32q40@?<v@?@\"NSURL\"@\"NSError\">48"
+- "v56@0:8@\"NSString\"16@\"NSString\"24q32q40@?<v@?@\"NSError\">48"
+- "v56@0:8@16@24@32@40@48"
+- "v56@0:8@16@24@32@40@?48"
+- "v56@0:8@16@24@32@40q48"
+- "v56@0:8@16@24@32B40B44@?48"
+- "v56@0:8@16@24@32q40@?48"
+- "v56@0:8@16@24q32q40@?48"
+- "v56@0:8@16q24@32@40@?48"
+- "v56@0:8B16@20@28@36B44@48"
+- "v60@0:8@\"NSString\"16@\"NSString\"24@\"NSString\"32B40q44@?<v@?@\"NSError\">52"
+- "v60@0:8@16@24@32@40B48@?52"
+- "v60@0:8@16@24@32@40i48@?52"
+- "v60@0:8@16@24@32B40q44@?52"
+- "v60@0:8@16@24B32q36q44@?52"
+- "v60@0:8B16@20@28B36@40B48@52"
+- "v64@0:8@\"NSArray\"16@\"NSString\"24@\"NSString\"32@\"NSString\"40q48@?<v@?@\"NSError\">56"
+- "v64@0:8@\"NSArray\"16q24@\"NSString\"32@\"NSString\"40@\"NSString\"48q56"
+- "v64@0:8@\"NSString\"16@\"NSString\"24@\"NSObject\"32@\"NSObject\"40I48I52@?<v@?@@\"NSError\">56"
+- "v64@0:8@16@24@32@40I48I52@?56"
+- "v64@0:8@16@24@32@40q48@?56"
+- "v64@0:8@16q24@32@40@48q56"
+- "v64@0:8B16@20@28@36@44B52@56"
+- "v64@0:8B16B20B24B28@32q40@48@?56"
+- "v68@0:8@16@24@32@40@48i56@?60"
+- "v68@0:8@16B24^B28^B36^B44^B52^B60"
+- "v68@0:8B16@20@28@36B44@48B56@60"
+- "v72@0:8@\"NSArray\"16@\"NSArray\"24@\"NSData\"32@\"NSString\"40@\"NSString\"48q56@?<v@?@\"NSError\">64"
+- "v72@0:8@\"NSArray\"16@\"NSString\"24@\"NSString\"32@\"NSObject\"40@\"NSObject\"48I56I60@?<v@?@@\"NSError\">64"
+- "v72@0:8@\"NSData\"16@\"NSString\"24@\"NSString\"32@\"NSString\"40@\"NSString\"48q56@?<v@?@\"NSError\">64"
+- "v72@0:8@16@24@32@40@48I56I60@?64"
+- "v72@0:8@16@24@32@40@48q56@?64"
+- "v72@0:8@16@24@32@40I48I52@56@?64"
+- "v72@0:8@16@24q32@40@48@56@64"
+- "v76@0:8i16Q20Q28Q36@44Q52@60@?68"
+- "v80@0:8@\"NSArray\"16@\"NSArray\"24@\"NSData\"32@\"NSString\"40@\"NSString\"48@\"NSString\"56q64@?<v@?@\"NSError\">72"
+- "v80@0:8@16@24@32@40@48@56q64@?72"
+- "v80@0:8@16@24@32@40@48I56I60@64@?72"
+- "v80@0:8@16@24@32Q40@48B56@60@68B76"
+- "v84@0:8i16Q20Q28Q36@44Q52@60q68@?76"
+- "v88@0:8@16@24@32@40@48@56@64q72@?80"
+- "v88@0:8@16@24@32Q40@48B56B60B64@68@76B84"
+- "v88@0:8@16@24B32B36@40B48@52B60d64Q72@?80"
+- "v92@0:8@16@24@32@40@48q56@64@72B80@?84"
+- "v92@0:8@16@24@32Q40@48@56B64B68@72@80B88"
+- "validateConcreteIndexer:outFileDescriptor:"
+- "validateIndexers:outFileDescriptor:"
+- "validateVectors:"
+- "validateVectors:outFileDescriptor:"
+- "value"
+- "valueForKey:"
+- "valueWithPointer:"
+- "variation"
+- "variations"
+- "versionForLanguage:"
+- "versionInfoLocation"
+- "wantsBundleID:"
+- "wantsContentType:"
+- "wantsDomainID:"
+- "wantsHTML"
+- "wantsINIntentClassNames:"
+- "wantsText"
+- "wasCanceledByClient"
+- "weightForBundle:"
+- "whenFinishedDraining:"
+- "whitespaceAndNewlineCharacterSet"
+- "whitespaceCharacterSet"
+- "willAsyncStart"
+- "willModify:"
+- "willModifySearchableItemsWithIdentifiers:forBundleID:completionHandler:"
+- "willModifySearchableItemsWithIdentifiers:protectionClass:forBundleID:options:completionHandler:"
+- "wipeCoreSpotlightIndexForTrial"
+- "writeCommittedVersions:"
+- "writeData:"
+- "writeData:error:"
+- "writeData:toFile:"
+- "writeDiagnostic:bundleID:identifier:"
+- "writeDiagnostic:bundleID:identifier:logQuery:"
+- "writeDonationProgress:bundleID:clientIndexName:"
+- "writeFileProviderBundleMap:fileProviderBundleIDs:"
+- "writePropertyList:toStream:format:options:error:"
+- "writeToBiomeStreamWithBundleID:itemCount:baseOperation:"
+- "writeToBiomeStreamWithBundleID:itemCount:baseOperation:reason:"
+- "writeToFile:atomically:encoding:error:"
+- "writeToURL:atomically:"
+- "writeToURL:error:"
+- "writeUISearchEnabled:"
+- "xpcData"
+- "xpc_dictionary"
+- "zombifyAllContactItems:"
+- "zone"
+- "{?=\"queryId\"Q\"internalQueryId\"Q}"
+- "{?=QQ}16@0:8"
+- "{os_unfair_lock_s=\"_os_unfair_lock_opaque\"I}"
+- "\xb11\xb1"
+
+```

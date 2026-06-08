@@ -1,0 +1,1846 @@
+## ActivityRingsUI
+
+> `/System/Library/PrivateFrameworks/ActivityRingsUI.framework/ActivityRingsUI`
+
+```diff
+
+-2026.4.2.0.0
+-  __TEXT.__text: 0x25010 sha256:76d4efada16609ff28faf5044c38903587d2cacf558ce66d97d1cfbf13e6b121
+-  __TEXT.__auth_stubs: 0xdc0 sha256:be47845ca880eac786cc686de4ab52899e2c9529a8a13146eec9fb1fe1ad5d71
+-  __TEXT.__objc_methlist: 0x31d4 sha256:b8092997febf397b15c03a2969e97a9e824270594e3496ce7dfc82ed6b378277
+-  __TEXT.__const: 0x1034 sha256:136bba70de586d843948c30fd91cad4546b0e007d279be37e3e33cf733cbef37
+-  __TEXT.__cstring: 0x10f2 sha256:7c57b43ca80212427f682d83db175b3983094e9bd14db21774b5514485e99a65
+-  __TEXT.__oslogstring: 0x6e6 sha256:e81ec1599f9b558566d47f1b4dcd8b92d9c06e14684809ea3183d26fc6019df4
+-  __TEXT.__gcc_except_tab: 0x354 sha256:ab7ba31cf428159c9dc1c848a1b1e0a12ad224dadfa51619c573ce7c19e7afcd
+-  __TEXT.__constg_swiftt: 0x428 sha256:748f7f4e03cbf982b7a62ba2b886f009cfa8998a24687c643204adca390aae08
+-  __TEXT.__swift5_typeref: 0x7b3 sha256:3f2d9997726197df288372a1701f11ce63de42eede9eb64b789cc585198f3a87
+-  __TEXT.__swift5_reflstr: 0x336 sha256:6e7811b921131707a06de24d3c351c52f370d5a117c0dc3476734258ff858e37
+-  __TEXT.__swift5_fieldmd: 0x42c sha256:a9f0ce60f819c20c70313fd8c631a1a8d1f7f77583c23e14963fcf6abbdaabc8
+-  __TEXT.__swift5_capture: 0x4c sha256:ff55165319a3d17d1ae874e5b9e03ece1b94dbc9160004e171b77e526d0ccc0a
+-  __TEXT.__swift5_builtin: 0x3c sha256:d737e0f32288a3ee1dd1a51098bbd76eca8e9276c128e3c56e5a45361e73ace7
+-  __TEXT.__swift5_types: 0x48 sha256:5b680c55820a1e7fe41443cb4baa09392c48aaea392bb457ace73747bec1afee
+-  __TEXT.__swift5_assocty: 0xa8 sha256:e6168c8e17fd62665f224d718f28896c2970b95c7f3114922165fc38d8be1a88
+-  __TEXT.__swift5_mpenum: 0x10 sha256:8dff9a2f7cc40b525ee9882b58622325f39c9a3c741165f723d54aca078105f1
+-  __TEXT.__swift5_proto: 0x38 sha256:9d98800429077ceaabf9a31c75467ad4705753ac38327f9d7289bda631d27a5d
+-  __TEXT.__unwind_info: 0xdc0 sha256:2f310e0ec1ff7a5db973893f38cae09854ec3fbfd93c6b3572f40aceccdc3553
+-  __TEXT.__eh_frame: 0xe0 sha256:fe4c211cbc5fd7486fda2d7b8d54488ec7771f3e0385cc05271e81676f28ce8f
+-  __TEXT.__objc_classname: 0x86e sha256:dddd69c51b3a4a3989caaad7a5f788f484ff25a83f3bd5239c7b1a7ee2504944
+-  __TEXT.__objc_methname: 0x65c6 sha256:dc908f5ad1d1ef3354815d120a062b03ce53a43b1347f64cd86ae1d481286e1d
+-  __TEXT.__objc_methtype: 0x10f3 sha256:43b99be172858ca0fe25d91c3a5d07e2fd7d1eb0155a1236ab4a983ca67f6629
+-  __TEXT.__objc_stubs: 0x4580 sha256:0327e7199b88a7fbe822c7140abcb0bb4046df25a52c43c3a13dc436d6772d22
+-  __DATA_CONST.__got: 0x2d8 sha256:9c9e0196665505cee6163f3edce2cef82f26480d6ed8efd1c21697f9131177b9
+-  __DATA_CONST.__const: 0x768 sha256:a0d4caf4cf7b1d6784f62821123f566023be42d2b2fb7f6a38f821079afca53a
+-  __DATA_CONST.__objc_classlist: 0x260 sha256:197d9c7fd6f397558ca92f0660115d30aca81c3dfffdc99fc286dfa180cdb9d3
+-  __DATA_CONST.__objc_catlist: 0x8 sha256:d0454e62afe50baff38af9aa1bab6e11667864af7fc8bdd52e440af342c7a19c
+-  __DATA_CONST.__objc_protolist: 0x58 sha256:570326000005df7b56cafea6a07e7b350c8dc372a1f4e2f3f897319faf86ef74
+-  __DATA_CONST.__objc_imageinfo: 0x8 sha256:8c2e86a3d61473a17440ee60441113a7d285704a3b70278f03e88b3c356a5493
+-  __DATA_CONST.__objc_selrefs: 0x17c0 sha256:5fbbfc44bd97d62835bdcd1f88f2dac0743b156987de3871a610edca4c8e5021
+-  __DATA_CONST.__objc_superrefs: 0x170 sha256:558d0e19df3030281111915c8af7e1e4088f19402cd1a1229415f7999c72d992
+-  __DATA_CONST.__objc_arraydata: 0xe0 sha256:980f52d38db1c0cba2f59896baeddd061ab5af5ab1f0ef3b10ea02b428fdddfb
+-  __AUTH_CONST.__auth_got: 0x6f0 sha256:cac301e92bd8b54a2baf8dec1aa1f58707f5ad9fa4958b64eedd900dd667fe45
+-  __AUTH_CONST.__const: 0xee8 sha256:083ee80001214e68a4fbe1e1d0fe9c10352b27f965cb204e488c0384eb55a023
+-  __AUTH_CONST.__cfstring: 0xe00 sha256:ee4907b4069db7a00fbd4087ba94d85aa3885f0158380c8296f4697b327b7d9f
+-  __AUTH_CONST.__objc_const: 0x98e8 sha256:ece128c227175b191eea047059b9cc644cbe2a189d91dd505641557a88899f4f
+-  __AUTH_CONST.__objc_arrayobj: 0xc0 sha256:72b27a0d4cb70c7269af5c57f08e1081b435e27bb874e119acd8c241353ac572
+-  __AUTH.__objc_data: 0xfe8 sha256:ebd36d8c0fb921a69b8443871de5870d3ad4a5bb3ceeea403e439049078aab1d
+-  __AUTH.__data: 0x90 sha256:b4dd00015cce89bbf8527dda86feb2c12eb9edd4a5551307d828368de9c90b44
+-  __DATA.__objc_ivar: 0x3d4 sha256:f2a446e4bfb2f46e67f5b035e0f51feb483582ca1e1b658f7e163e6b1e2fbcb6
+-  __DATA.__data: 0x738 sha256:4d7bfbac857381d752075e9a6d7365255e40046c63d9c1ab88cfa9ea3b4c662d
+-  __DATA.__objc_stublist: 0x8 sha256:c72f67b77b87ddf86d9b2992ee739399d8d9e5bd144ff1631048558dbdd0ea3f
+-  __DATA.__common: 0x20 sha256:66687aadf862bd776c8fc18b8e9f8e20089714856ee233b3902a591d0d5f2925
+-  __DATA.__bss: 0x750 sha256:e3dd750851eba7858adfb137b83d9e071e938c668ba3fe36d54f8fd68fff10d4
+-  __DATA_DIRTY.__objc_data: 0xa50 sha256:6dae055c4b2cbc24565f6d710cf8d0091a7c533673590316db66e214a7ef8e7a
++2027.0.5.0.0
++  __TEXT.__text: 0x226e0 sha256:007c8b981b019fedecd38d518f5ad3e9865654335e32cbcf8b31e66284a5b148
++  __TEXT.__objc_methlist: 0x31fc sha256:c2765eda5a53b620b52a14775e985eeac96001b21fde4357391e8f38f434e9a4
++  __TEXT.__const: 0x1144 sha256:d3302c47b8577c36219dcb92b5badbc851d6a2e7c1314f0c27816b47c4221c74
++  __TEXT.__cstring: 0x14a2 sha256:4a9e20f1a271189ce400dfefa69bea920d30fad2edfb34edabd8db5371b13b45
++  __TEXT.__oslogstring: 0x7c9 sha256:2acf2e5f2b8f3c1c773dad61cc61c126e7da33d04d314773589fc87208e043d5
++  __TEXT.__gcc_except_tab: 0x32c sha256:7d8ffaa4d7b8be242e7f08ff65ff52e055392d1f4fce8f7be0566f110753119b
++  __TEXT.__constg_swiftt: 0x3ec sha256:60a9258264fb4ddb32eb7da29d842af2780f15fc3f388938760320a126e3f29f
++  __TEXT.__swift5_typeref: 0x8a5 sha256:fa06eec23d8912ba8441aef69610edd3e96984e21a61df3586c5a906a688d2d7
++  __TEXT.__swift5_reflstr: 0x346 sha256:ca66bb7759acc4d9c7c6bea2d7e93ffd1659426321ad13672256e766c2b234bc
++  __TEXT.__swift5_fieldmd: 0x418 sha256:4f643645e9fd5e535b24896b13ce55e2ff10ddd1955a186cc2e1b39492e8c345
++  __TEXT.__swift5_types: 0x40 sha256:0462a75b9030b669ee4873bb67344881f5330281ddbd9ef34e5a59a79159e841
++  __TEXT.__swift5_assocty: 0xa8 sha256:6d8fda4735c4b02ac4317741b309577ae5c703783842a6b69c71b4baf698e1f5
++  __TEXT.__swift5_builtin: 0x28 sha256:1f62682aae32b541c9ae6f3d29b074ce86e9bb445560438f14e7424246e69d1d
++  __TEXT.__swift5_mpenum: 0x10 sha256:168cd24466129a999b683a208b396377348209f0c484bc7647320942d33dfca4
++  __TEXT.__swift5_proto: 0x38 sha256:16bd0617cfd200ab892edd4d8ca430bafa113044710b78f3c1c7dd54286a6ee4
++  __TEXT.__swift5_capture: 0x30 sha256:b9a907ad6905df20c0312cd04c42fbc68dd6f078f50bda55fafdf7bd033ef6bb
++  __TEXT.__unwind_info: 0xc80 sha256:a80856bdaefa04eb3d98ea33aeb5c3a2709f436033e218abbf81f55e9610cc1b
++  __TEXT.__objc_stubs: 0x0
++  __TEXT.__auth_stubs: 0x0
++  __TEXT.__objc_classname: 0x0
++  __TEXT.__objc_methname: 0x0
++  __TEXT.__objc_methtype: 0x0
++  __DATA_CONST.__const: 0x768 sha256:585ef9433965c17ab1fbb358e21a0872e098fb971ba3459ccb8a3a936f0d3b49
++  __DATA_CONST.__objc_classlist: 0x260 sha256:d202007a3acaeb056f10ff90248f933830f4e29b5fc45e8adea318c8209169df
++  __DATA_CONST.__objc_catlist: 0x8 sha256:8ba186314c80bef568ec4b9e6e5d305248b86465fd12e425f48965e6109ebe4a
++  __DATA_CONST.__objc_protolist: 0x58 sha256:a72efc742b2ad7ab92f01c622ba1b1af74fd54297e633c4361469f61b31144ff
++  __DATA_CONST.__objc_imageinfo: 0x8 sha256:ce857dcadc2529f941104469975d60698ea3610a86c121e7b4aee224cd0c59ea
++  __DATA_CONST.__objc_selrefs: 0x1878 sha256:f29e512dad478430093bafa51d346a8c15157e23b7522c10c5c9ecab45e0580a
++  __DATA_CONST.__objc_superrefs: 0x170 sha256:13faee2e079e27d6c4aa0340fdb006568028d8fb64572adddab434f39eda8e83
++  __DATA_CONST.__objc_arraydata: 0xe0 sha256:0a09f5c096422ff7e982db5ec685be0a08c876cb092ff828031e60053fcce27e
++  __DATA_CONST.__vfx_script_tbx: 0x18 sha256:cc4b04c5417079f8a065891e9e04e757c62a35108e336ece4044cad5165b9a89
++  __DATA_CONST.__got: 0x2f0 sha256:bdb70bf6fc47be0ba563ab687b6849e8a9925e0eaf823e1e47b904c8af5ca051
++  __AUTH_CONST.__const: 0x950 sha256:56e0beadf9725cef68c61e9c701a9a5efb8ef652467e4d910c82967a74f5fe1d
++  __AUTH_CONST.__cfstring: 0xe00 sha256:81f7ff9ac2eed8a11d77ffbb75b0dbf9385cc7be17f3bf1e887a20d3f0ac92dc
++  __AUTH_CONST.__objc_const: 0x98d8 sha256:9d0dd91eb230122b07e53e5f41c69801a036e83b617364e0ab05165e2a73f3f0
++  __AUTH_CONST.__objc_arrayobj: 0xc0 sha256:13eb0b04611e6535df99aa24d4f29af782f9f018cb940535ef59664171c951b2
++  __AUTH_CONST.__auth_got: 0x688 sha256:256984cb62bc879971463ff0ff7567042dc95d8b0fb2bc676f246c2293c77ae8
++  __AUTH.__objc_data: 0xf78 sha256:cb6e9af614775e0947704ac66593d2f16186d0aa0d16bbdb9ba4840884b58c6d
++  __AUTH.__data: 0xb0 sha256:c3522f42a8949ae4df7542600acea532b50ef957918970926099597b75c8f64d
++  __DATA.__objc_ivar: 0x3d8 sha256:e5554ec755482c7e96deb08e0440a701378ef8f5ee8d7c12d2d6c4bbe87668b9
++  __DATA.__data: 0x718 sha256:8cbc71cf1efc7235fd37891705b030a606c9a3183fb812aeb010a86b68a663b2
++  __DATA.__common: 0x10 sha256:374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb
++  __DATA.__bss: 0x980 sha256:0d941f3db0103709b44380ee8852d477b59c983d24272dfecbd6750fd42251d0
++  __DATA_DIRTY.__objc_data: 0xa00 sha256:f8c413e9b16c76d0bb9789a9a6d52cf9b9a3f4376f9c462834cc40a4be41756b
+   __DATA_DIRTY.__bss: 0x38 sha256:d4817aa5497628e7c77e6b606107042bbba3130888c5f47a375e6179be789fbb
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+
+   - /System/Library/PrivateFrameworks/VFX.framework/VFX
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
++  - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+-  - /usr/lib/swift/libswiftAVFoundation.dylib
+-  - /usr/lib/swift/libswiftAccelerate.dylib
+   - /usr/lib/swift/libswiftCore.dylib
+   - /usr/lib/swift/libswiftCoreAudio.dylib
+   - /usr/lib/swift/libswiftCoreFoundation.dylib
+   - /usr/lib/swift/libswiftCoreImage.dylib
+   - /usr/lib/swift/libswiftCoreLocation.dylib
+-  - /usr/lib/swift/libswiftCoreMIDI.dylib
+-  - /usr/lib/swift/libswiftCoreMedia.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
+   - /usr/lib/swift/libswiftGLKit.dylib
+   - /usr/lib/swift/libswiftMetal.dylib
+
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: A6562FF7-ADAA-3E64-9C5E-711CFE7AD9C5
+-  Functions: 1366
+-  Symbols:   4204
+-  CStrings:  1691
++  UUID: 33E19613-A129-3282-B78A-23BE764DD353
++  Functions: 1308
++  Symbols:   4300
++  CStrings:  364
+ 
+Symbols:
++ -[ARUICelebration renderer]
++ -[ARUICelebration setRenderer:]
++ -[ARUICelebration world]
++ -[ARUIRingsView _updateRenderContext].cold.1
++ -[ARUIRingsView displayLayer:]
++ -[ARUIRingsView displayLayer:].cold.1
++ -[ARUIRingsView displayLayer:].cold.2
++ -[ARUIRingsView displayLayer:].cold.3
++ -[ARUIRingsView displayLayer:].cold.4
++ -[ARUIRingsView drawRect:]
++ GCC_except_table25
++ _NSStringFromCGSize
++ _OBJC_CLASS_$_VFXRenderOptions
++ _OBJC_CLASS_$_VFXTransaction
++ _OBJC_CLASS_$_VFXWorld
++ _OBJC_IVAR_$_ARUICelebration._renderer
++ _OBJC_IVAR_$_ARUICelebration._world
++ _OBJC_IVAR_$_ARUICelebrationsRenderer._commandQueue
++ __ZL17_vfx_objc_sel_uv0
++ __ZL18__vfx_script_table
++ __ZL18_vfx_objc_sel_node
++ __ZL19_vfx_objc_sel_begin
++ __ZL19_vfx_objc_sel_clone
++ __ZL19_vfx_objc_sel_count
++ __ZL20_vfx_objc_sel_commit
++ __ZL21_vfx_objc_cls_NSValue
++ __ZL21_vfx_objc_cls_VFXNode
++ __ZL22__vfx_script_table_ref
++ __ZL22_vfx_objc_cls_NSNumber
++ __ZL22_vfx_objc_cls_NSString
++ __ZL22_vfx_objc_sel_boneNode
++ __ZL23_vfx_objc_sel_deepClone
++ __ZL23_vfx_objc_sel_faceIndex
++ __ZL23_vfx_objc_sel_setState_
++ __ZL24_vfx_objc_sel_childNodes
++ __ZL24_vfx_objc_sel_dictionary
++ __ZL24_vfx_objc_sel_parentNode
++ __ZL25_vfx_objc_sel__screenSize
++ __ZL25_vfx_objc_sel_firstObject
++ __ZL25_vfx_objc_sel_localNormal
++ __ZL25_vfx_objc_sel_physicsBody
++ __ZL25_vfx_objc_sel_worldNormal
++ __ZL26_vfx_objc_cls_NSDictionary
++ __ZL27_vfx_objc_sel_addChildNode_
++ __ZL27_vfx_objc_sel_geometryIndex
++ __ZL27_vfx_objc_sel_projectPoint_
++ __ZL28_vfx_objc_cls_VFXTransaction
++ __ZL28_vfx_objc_sel_localRotateBy_
++ __ZL28_vfx_objc_sel_modelTransform
++ __ZL28_vfx_objc_sel_setStateNamed_
++ __ZL29_vfx_objc_sel_numberWithBool_
++ __ZL29_vfx_objc_sel_script_rootNode
++ __ZL29_vfx_objc_sel_unprojectPoint_
++ __ZL30_vfx_objc_sel_localCoordinates
++ __ZL30_vfx_objc_sel_numberWithFloat_
++ __ZL30_vfx_objc_sel_presentationNode
++ __ZL30_vfx_objc_sel_setValue_forKey_
++ __ZL30_vfx_objc_sel_valueForKeyPath_
++ __ZL30_vfx_objc_sel_worldCoordinates
++ __ZL31_vfx_objc_sel_localTranslateBy_
++ __ZL31_vfx_objc_sel_setObject_forKey_
++ __ZL32_vfx_objc_sel_childNodeWithName_
++ __ZL32_vfx_objc_sel_presentationObject
++ __ZL33_vfx_objc_cls_NSMutableDictionary
++ __ZL33_vfx_objc_sel_applyForce_impulse_
++ __ZL33_vfx_objc_sel_removeAllAnimations
++ __ZL33_vfx_objc_sel_script_instantiate_
++ __ZL34_vfx_objc_sel__contentsScaleFactor
++ __ZL34_vfx_objc_sel_applyTorque_impulse_
++ __ZL34_vfx_objc_sel_presentationBoneNode
++ __ZL34_vfx_objc_sel_removeFromParentNode
++ __ZL34_vfx_objc_sel_setValue_forKeyPath_
++ __ZL35_vfx_objc_sel_convertVector_toNode_
++ __ZL35_vfx_objc_sel_stringWithUTF8String_
++ __ZL36_vfx_objc_sel_removeAnimationForKey_
++ __ZL36_vfx_objc_sel_rotateBy_aroundTarget_
++ __ZL37_vfx_objc_sel_convertPosition_toNode_
++ __ZL37_vfx_objc_sel_convertVector_fromNode_
++ __ZL37_vfx_objc_sel_script_hitTest_options_
++ __ZL38_vfx_objc_sel_convertTransform_toNode_
++ __ZL38_vfx_objc_sel_insertChildNode_atIndex_
++ __ZL39_vfx_objc_sel_addAnimationAsset_forKey_
++ __ZL39_vfx_objc_sel_convertPosition_fromNode_
++ __ZL40_vfx_objc_sel_convertTransform_fromNode_
++ __ZL40_vfx_objc_sel_numberWithUnsignedInteger_
++ __ZL42_vfx_objc_sel_setAnimationDurationAsFloat_
++ __ZL44_vfx_objc_sel_applyForce_atPosition_impulse_
++ __ZL58_vfx_objc_sel_hitTestWithSegmentFromPoint_toPoint_options_
++ __ZZL34vfx_script_initialize_objc_helpersvE4once
++ ___30-[ARUIRingsView displayLayer:]_block_invoke
++ ____ZL34vfx_script_initialize_objc_helpersv_block_invoke
++ ___block_descriptor_tmp
++ ___swift_closure_destructor
++ ___vfx_script_Sparks_graph_46
++ ___vfx_script_Sparks_graph_46.cold.1
++ ___vfx_script_Sparks_graph_48
++ ___vfx_script_Sparks_graph_48.cold.1
++ ___vfx_script_Sparks_graph_49.cold.1
++ ___vfx_script_Sparks_graph_50
++ ___vfx_script_Sparks_graph_50.cold.1
++ ___vfx_script_Sparks_particleInit_47
++ ___vfx_script_Sparks_particleInit_47.cold.1
++ _get_witness_table 7SwiftUI12TupleContentVyAA21StrokeBorderShapeViewVyAA6CircleVAA5ColorVAA05EmptyH0VG_AA08ModifiedD0VyANyAA14GeometryReaderVyACyAA01_gH0Vy013ActivityRingsB00O4RingV3ArcVAA15AngularGradientVG_ANyANyAwA11_ClipEffectVyAWGGAA010_BlendModeV0VGSgANyANyARyAwIGAA07_ShadowV0VGA1_GQPGGAA017_CompositingGroupV0VGAA18_AnimationModifierVySdGGSgQPGAA0H0HPAlAA23_HPyHC_A21_AAA23_HpA20_AAA23_HPA16_AAA23_HPA13_AAA23_HPyHC_A15_AA0H8ModifierHPyHCHC_A19_AAA24_HPyHCHC_HCHX_HC.10
++ _get_witness_table 7SwiftUI14GeometryReaderVyAA15ModifiedContentVyAA5GroupVyAA05TupleF0Vy013ActivityRingsB00I14SpriteRingViewV_AEyAlA14_PaddingLayoutVGAOQPGGAA06_FrameO0VGGAA0M0HPyHC.1
++ _get_witness_table qd__7SwiftUI4ViewHD2_AaBPAAE12drawingGroup6opaque9colorModeQrSb_AA014ColorRenderingH0OtFQOyAA6ZStackVyAA12TupleContentVyAA08ModifiedM0Vy013ActivityRingsB00O4RingVAA14_OpacityEffectVG_ANyANyANyANyANyAA5ImageVAA18_AspectRatioLayoutVGAA30_EnvironmentKeyWritingModifierVyAA0I0VSgGGAA06_BlendhS0VGAA06_FrameW0VGAA08_PaddingW0VGSgQPGG_Qo_HO.6
++ _kCAGravityResizeAspect
++ _objc_claimAutoreleasedReturnValue
++ _objc_lookUpClass
++ _objc_msgSend$VFXFloat3Value
++ _objc_msgSend$background
++ _objc_msgSend$begin
++ _objc_msgSend$childNodeWithName:
++ _objc_msgSend$clearColor
++ _objc_msgSend$flush
++ _objc_msgSend$parameters
++ _objc_msgSend$projectPoint:viewportSize:
++ _objc_msgSend$renderToTexture:options:
++ _objc_msgSend$renderer
++ _objc_msgSend$rendererWithCommandQueue:options:
++ _objc_msgSend$rootNode
++ _objc_msgSend$setAdditiveWritesToAlpha:
++ _objc_msgSend$setBackgroundColor:
++ _objc_msgSend$setCommandBuffer:
++ _objc_msgSend$setContents:
++ _objc_msgSend$setContentsGravity:
++ _objc_msgSend$setNeedsDisplay
++ _objc_msgSend$setPosition:
++ _objc_msgSend$setRenderer:
++ _objc_msgSend$setShouldLoadFinalColor:
++ _objc_msgSend$setWorld:
++ _objc_msgSend$unprojectPoint:viewportSize:
++ _objc_msgSend$updateAtTime:
++ _objc_msgSend$valueWithVFXFloat3:
++ _objc_msgSend$valueWithVFXFloat4:
++ _objc_msgSend$world
++ _objc_msgSend$worldWithURL:options:error:
++ _objc_retain_x27
++ _objc_retain_x4
++ _objc_retain_x5
++ _objc_retain_x6
++ _objc_retain_x7
++ _objc_retain_x8
++ _sel_registerName
++ _swift_release_x1
++ _swift_release_x19
++ _swift_release_x23
++ _swift_release_x25
++ _swift_release_x8
++ _swift_retain_x19
++ _swift_retain_x2
++ _swift_retain_x21
++ _swift_retain_x24
++ _swift_unknownObjectRelease
++ _symbolic So11VFXRendererCSg
++ _symbolic So8VFXWorldC
++ _symbolic _____yAAy_____y_____y_____y__________G_AAyAAyAE_____yAEGG_____GSgAAyAAyADyAE_____G_____GAIGQPGG_____G_____ySdGG 7SwiftUI15ModifiedContentV AA14GeometryReaderV AA05TupleD0V AA10_ShapeViewV 013ActivityRingsB00J4RingV3ArcV AA15AngularGradientV AA11_ClipEffectV AA010_BlendModeQ0V AA5ColorV AA07_ShadowQ0V AA017_CompositingGroupQ0V AA18_AnimationModifierV
++ _symbolic _____yAAy_____y_____y_____y__________G_AAyAAyAE_____yAEGG_____GSgAAyAAyADyAE_____G_____GAIGQPGG_____G_____ySdGGSg 7SwiftUI15ModifiedContentV AA14GeometryReaderV AA05TupleD0V AA10_ShapeViewV 013ActivityRingsB00J4RingV3ArcV AA15AngularGradientV AA11_ClipEffectV AA010_BlendModeQ0V AA5ColorV AA07_ShadowQ0V AA017_CompositingGroupQ0V AA18_AnimationModifierV
++ _symbolic _____ySdG 7SwiftUI18_AnimationModifierV
++ _symbolic _____y___________y_____y__________G_ADyADyADyADyADy__________G_____y_____SgGG_____G_____G_____GSgQPGG 7SwiftUI13_VariadicViewO4TreeV AA13_ZStackLayoutV AA12TupleContentV AA08ModifiedI0V 013ActivityRingsB00K4RingV AA14_OpacityEffectV AA5ImageV AA012_AspectRatioG0V AA30_EnvironmentKeyWritingModifierV AA5ColorV AA010_BlendModeO0V AA06_FrameG0V AA08_PaddingG0V
++ _symbolic _____y_____y_______________G______yAGy_____yAAy_____y__________G_AGyAGyAJ_____yAJGG_____GSgAGyAGyAIyAjDG_____GANGQPGG_____G_____ySdGGSgQPG 7SwiftUI12TupleContentV AA21StrokeBorderShapeViewV AA6CircleV AA5ColorV AA05EmptyH0V AA08ModifiedD0V AA14GeometryReaderV AA01_gH0V 013ActivityRingsB00O4RingV3ArcV AA15AngularGradientV AA11_ClipEffectV AA010_BlendModeV0V AA07_ShadowV0V AA017_CompositingGroupV0V AA18_AnimationModifierV
++ _symbolic _____y_____y___________yAC_____GAFQPGG 7SwiftUI5GroupV AA12TupleContentV 013ActivityRingsB00F14SpriteRingViewV AA08ModifiedE0V AA14_PaddingLayoutV
++ _symbolic _____y_____y_____y__________G_ACyACyACyACyACy__________G_____y_____SgGG_____G_____G_____GSgQPGG 7SwiftUI6ZStackV AA12TupleContentV AA08ModifiedE0V 013ActivityRingsB00G4RingV AA14_OpacityEffectV AA5ImageV AA18_AspectRatioLayoutV AA30_EnvironmentKeyWritingModifierV AA5ColorV AA010_BlendModeK0V AA06_FrameO0V AA08_PaddingO0V
++ _symbolic _____y_____y_____y__________G______yAGyAD_____yADGG_____GSgAGyAGyACyAD_____G_____GAIGQPGG 7SwiftUI14GeometryReaderV AA12TupleContentV AA10_ShapeViewV 013ActivityRingsB00I4RingV3ArcV AA15AngularGradientV AA08ModifiedF0V AA11_ClipEffectV AA010_BlendModeQ0V AA5ColorV AA07_ShadowQ0V
++ _symbolic _____y_____y_____y_____y______AByAE_____GAGQPGG_____GG 7SwiftUI14GeometryReaderV AA15ModifiedContentV AA5GroupV AA05TupleF0V 013ActivityRingsB00I14SpriteRingViewV AA14_PaddingLayoutV AA06_FrameO0V
++ _symbolic _____y_____y_____y_____y__________G_AAyAAyAE_____yAEGG_____GSgAAyAAyADyAE_____G_____GAIGQPGG_____G 7SwiftUI15ModifiedContentV AA14GeometryReaderV AA05TupleD0V AA10_ShapeViewV 013ActivityRingsB00J4RingV3ArcV AA15AngularGradientV AA11_ClipEffectV AA010_BlendModeQ0V AA5ColorV AA07_ShadowQ0V AA017_CompositingGroupQ0V
++ _symbolic _____y_____y_____y_____y__________G_ACyACyACyACyACy__________G_____y_____SgGG_____G_____G_____GSgQPGG_Qo_ 7SwiftUI4ViewPAAE12drawingGroup6opaque9colorModeQrSb_AA014ColorRenderingH0OtFQO AA6ZStackV AA12TupleContentV AA08ModifiedM0V 013ActivityRingsB00O4RingV AA14_OpacityEffectV AA5ImageV AA18_AspectRatioLayoutV AA30_EnvironmentKeyWritingModifierV AA0I0V AA06_BlendhS0V AA06_FrameW0V AA08_PaddingW0V
++ _vfx_script_clock_delta_time
++ _vfx_script_clock_simulation_index
++ _vfx_script_clock_time
++ _vfx_script_color_ramp_copy
++ _vfx_script_color_ramp_create
++ _vfx_script_color_ramp_create_setting_color
++ _vfx_script_color_ramp_destroy
++ _vfx_script_curve_create
++ _vfx_script_curve_destroy
++ _vfx_script_curve_evaluate
++ _vfx_script_get_arguments_buffer
++ _vfx_script_get_iteration_range
+- -[ARUICelebration scene]
+- -[ARUIRingsView layoutSubviews]
+- -[ARUIRingsView setSynchronizesWithCA:]
+- -[ARUIRingsView synchronizesWithCA]
+- GCC_except_table24
+- GCC_except_table38
+- _OBJC_CLASS_$_Sparks
+- _OBJC_IVAR_$_ARUICelebration._scene
+- _OBJC_IVAR_$_ARUICelebrationsRenderer._renderer
+- _OBJC_METACLASS_$_Sparks
+- _OBJC_METACLASS_$__TtC3VFX9VFXEffect
+- _OUTLINED_FUNCTION_5
+- _OUTLINED_FUNCTION_6
+- __CLASS_METHODS_Sparks
+- __CLASS_PROPERTIES_Sparks
+- __DATA_Sparks
+- __INSTANCE_METHODS_Sparks
+- __METACLASS_DATA_Sparks
+- ___31-[ARUIRingsView layoutSubviews]_block_invoke
+- ___invert_f4
+- ___swift_memcpy64_16
+- ___vfx_get_effect_class_Sparks
+- ___vfx_script_Sparks_graph_1
+- ___vfx_script_Sparks_graph_14
+- ___vfx_script_Sparks_graph_17
+- ___vfx_script_Sparks_graph_2
+- ___vfx_script_Sparks_graph_24
+- ___vfx_script_Sparks_graph_33
+- ___vfx_script_Sparks_graph_34
+- ___vfx_script_Sparks_graph_39
+- ___vfx_script_Sparks_graph_4
+- ___vfx_script_Sparks_graph_42
+- ___vfx_script_Sparks_graph_45
+- ___vfx_script_Sparks_particleInit_8
+- __swiftEmptyDictionarySingleton
+- __swiftImmortalRefCount
+- __swift_FORCE_LOAD_$_swiftAVFoundation
+- __swift_FORCE_LOAD_$_swiftAVFoundation_$_ActivityRingsUI
+- __swift_FORCE_LOAD_$_swiftAccelerate
+- __swift_FORCE_LOAD_$_swiftAccelerate_$_ActivityRingsUI
+- __swift_FORCE_LOAD_$_swiftCoreMIDI
+- __swift_FORCE_LOAD_$_swiftCoreMIDI_$_ActivityRingsUI
+- __swift_FORCE_LOAD_$_swiftCoreMedia
+- __swift_FORCE_LOAD_$_swiftCoreMedia_$_ActivityRingsUI
+- _drand48
+- _get_witness_table 7SwiftUI14GeometryReaderVyAA15ModifiedContentVyAA5GroupVyAA9TupleViewVy013ActivityRingsB00j10SpriteRingI0V_AEyAlA14_PaddingLayoutVGAOtGGAA06_FrameO0VGGAA0I0HPyHC.1
+- _get_witness_table 7SwiftUI9TupleViewVyAA017StrokeBorderShapeD0VyAA6CircleVAA5ColorVAA05EmptyD0VG_AA15ModifiedContentVyANyAA14GeometryReaderVyACyAA01_gD0Vy013ActivityRingsB00O4RingV3ArcVAA15AngularGradientVG_ANyANyAwA11_ClipEffectVyAWGGAA010_BlendModeV0VGSgANyANyARyAwIGAA07_ShadowV0VGA1_GtGGAA017_CompositingGroupV0VGAA18_AnimationModifierVySdGGSgtGAA0D0HPyHC.10
+- _get_witness_table qd__7SwiftUI4ViewHD2_AaBPAAE12drawingGroup6opaque9colorModeQrSb_AA014ColorRenderingH0OtFQOyAA6ZStackVyAA05TupleC0VyAA15ModifiedContentVy013ActivityRingsB00O4RingVAA14_OpacityEffectVG_ANyANyANyANyANyAA5ImageVAA18_AspectRatioLayoutVGAA30_EnvironmentKeyWritingModifierVyAA0I0VSgGGAA06_BlendhS0VGAA06_FrameW0VGAA08_PaddingW0VGSgtGG_Qo_HO.6
+- _memcpy
+- _memmove
+- _objc_autorelease
+- _objc_class_stubs
+- _objc_msgSend$encodeWithCommandBuffer:
+- _objc_msgSend$initWithCommandQueue:
+- _objc_msgSend$scene
+- _objc_msgSend$setScene:
+- _objc_msgSend$valueWithPointer:
+- _swift_allocError
+- _swift_bridgeObjectRetain
+- _swift_deallocClassInstance
+- _swift_errorRelease
+- _swift_getForeignTypeMetadata
+- _swift_getSingletonMetadata
+- _swift_initClassMetadata2
+- _swift_isUniquelyReferenced_nonNull_native
+- _swift_once
+- _swift_setDeallocating
+- _symbolic Sf
+- _symbolic So8ARUIRingC
+- _symbolic _____ 15ActivityRingsUI6SparksC
+- _symbolic _____ 3VFX8VFXSceneC
+- _symbolic _____ 3VFX9VFXEffectC
+- _symbolic _____ So13simd_float4x4a
+- _symbolic _____Sg 10Foundation3URLV
+- _symbolic _____ySSSo7NSValueCG s18_DictionaryStorageC
+- _symbolic _____ySfG s5SIMD2V
+- _symbolic _____ySfG s5SIMD3V
+- _symbolic _____ySfG s5SIMD4V
+- _symbolic _____ySfG_A3Bt s5SIMD4V
+- _symbolic _____y_____G s23_ContiguousArrayStorageC 3VFX8VFXSceneC14ScriptFunctionV
+- _symbolic _____y___________y_____y__________G_ADyADyADyADyADy__________G_____y_____SgGG_____G_____G_____GSgtGG 7SwiftUI13_VariadicViewO4TreeV AA13_ZStackLayoutV AA05TupleD0V AA15ModifiedContentV 013ActivityRingsB00K4RingV AA14_OpacityEffectV AA5ImageV AA012_AspectRatioG0V AA30_EnvironmentKeyWritingModifierV AA5ColorV AA010_BlendModeO0V AA06_FrameG0V AA08_PaddingG0V
+- _symbolic _____y_____ySfGG s23_ContiguousArrayStorageC s5SIMD4V
+- _symbolic _____y_____y_____G_____G 7SwiftUI15ModifiedContentV AA5GroupV 013ActivityRingsB00F14SpriteRingViewV AA12_FrameLayoutV
+- _symbolic _____y_____y_______________G______yAGy_____yAAy_____y__________G_AGyAGyAJ_____yAJGG_____GSgAGyAGyAIyAjDG_____GANGtGG_____G_____ySdGGSgtG 7SwiftUI9TupleViewV AA017StrokeBorderShapeD0V AA6CircleV AA5ColorV AA05EmptyD0V AA15ModifiedContentV AA14GeometryReaderV AA01_gD0V 013ActivityRingsB00O4RingV3ArcV AA15AngularGradientV AA11_ClipEffectV AA010_BlendModeV0V AA07_ShadowV0V AA017_CompositingGroupV0V AA18_AnimationModifierV
+- _symbolic _____y_____y___________yAC_____GAFtGG 7SwiftUI5GroupV AA9TupleViewV 013ActivityRingsB00f10SpriteRingE0V AA15ModifiedContentV AA14_PaddingLayoutV
+- _symbolic _____y_____y_____y______AAyAD_____GAFtGG_____G 7SwiftUI15ModifiedContentV AA5GroupV AA9TupleViewV 013ActivityRingsB00h10SpriteRingG0V AA14_PaddingLayoutV AA06_FrameM0V
+- _symbolic _____y_____y_____y__________G_ACyACyACyACyACy__________G_____y_____SgGG_____G_____G_____GSgtGG 7SwiftUI6ZStackV AA9TupleViewV AA15ModifiedContentV 013ActivityRingsB00H4RingV AA14_OpacityEffectV AA5ImageV AA18_AspectRatioLayoutV AA30_EnvironmentKeyWritingModifierV AA5ColorV AA010_BlendModeL0V AA06_FrameP0V AA08_PaddingP0V
+- _symbolic _____y_____y_____y_____y______AByAE_____GAGtGG_____GG 7SwiftUI14GeometryReaderV AA15ModifiedContentV AA5GroupV AA9TupleViewV 013ActivityRingsB00j10SpriteRingI0V AA14_PaddingLayoutV AA06_FrameO0V
+- _symbolic _____y_____y_____y_____y__________G_ACyACyACyACyACy__________G_____y_____SgGG_____G_____G_____GSgtGG_Qo_ 7SwiftUI4ViewPAAE12drawingGroup6opaque9colorModeQrSb_AA014ColorRenderingH0OtFQO AA6ZStackV AA05TupleC0V AA15ModifiedContentV 013ActivityRingsB00O4RingV AA14_OpacityEffectV AA5ImageV AA18_AspectRatioLayoutV AA30_EnvironmentKeyWritingModifierV AA0I0V AA06_BlendhS0V AA06_FrameW0V AA08_PaddingW0V
+- _type_layout_string So13simd_float4x4a
+CStrings:
++ "Camera not found"
++ "NSDictionary"
++ "NSMutableDictionary"
++ "NSNumber"
++ "NSString"
++ "NSValue"
++ "Ring00_Main not found"
++ "VFXNode"
++ "VFXTransaction"
++ "[ARUIRingsView] Updating render context with size: %@"
++ "[ARUIRingsView] displayLayer"
++ "[ARUIRingsView] displayLayer Got a Drawable, rendering"
++ "[ARUIRingsView] displayLayer NO DRAWABLE!"
++ "[ARUIRingsView] displayLayer Rendering Allowed"
++ "__vfx_script_Sparks_graph_46"
++ "__vfx_script_Sparks_graph_48"
++ "__vfx_script_Sparks_graph_50"
++ "__vfx_script_Sparks_particleInit_47"
++ "_contentsScaleFactor"
++ "_screenSize"
++ "addAnimationAsset:forKey:"
++ "addChildNode:"
++ "applyForce:atPosition:impulse:"
++ "applyForce:impulse:"
++ "applyTorque:impulse:"
++ "begin"
++ "boneNode"
++ "childNodeWithName:"
++ "childNodes"
++ "clone"
++ "convertPosition:fromNode:"
++ "convertPosition:toNode:"
++ "convertTransform:fromNode:"
++ "convertTransform:toNode:"
++ "convertVector:fromNode:"
++ "convertVector:toNode:"
++ "deepClone"
++ "faceIndex"
++ "geometryIndex"
++ "hitTestWithSegmentFromPoint:toPoint:options:"
++ "insertChildNode:atIndex:"
++ "localCoordinates"
++ "localNormal"
++ "localRotateBy:"
++ "localTranslateBy:"
++ "modelTransform"
++ "node"
++ "numberWithBool:"
++ "parentNode"
++ "physicsBody"
++ "presentationBoneNode"
++ "presentationNode"
++ "presentationObject"
++ "projectPoint:"
++ "removeAnimationForKey:"
++ "removeFromParentNode"
++ "rotateBy:aroundTarget:"
++ "script_hitTest:options:"
++ "script_instantiate:"
++ "script_rootNode"
++ "setAnimationDurationAsFloat:"
++ "setState:"
++ "setStateNamed:"
++ "setValue:forKey:"
++ "setValue:forKeyPath:"
++ "stringWithUTF8String:"
++ "unprojectPoint:"
++ "uv0"
++ "valueForKeyPath:"
++ "worldCoordinates"
++ "worldNormal"
+- "#16@0:8"
+- "#Camera.ProjectionMatrix.matrix"
+- "#Camera.WorldTransform.value"
+- ".cxx_destruct"
+- "16@0:8"
+- "24@0:8Q16"
+- "@"
+- "@\"<ARUIAnimationSequencing>\""
+- "@\"<ARUICountdownAnimation>\""
+- "@\"<ARUICountdownAnimatorDelegate>\""
+- "@\"<ARUIRingGroupAnimationDelegate>\""
+- "@\"<ARUIRingGroupAnimationDelegate>\"16@0:8"
+- "@\"<ARUIRingGroupDelegate>\""
+- "@\"<MTLBuffer>\""
+- "@\"<MTLCommandQueue>\""
+- "@\"<MTLDevice>\""
+- "@\"<MTLDeviceSPI>\""
+- "@\"<MTLRenderPipelineState>\""
+- "@\"<MTLRenderPipelineState>\"16@0:8"
+- "@\"<MTLTexture>\""
+- "@\"ARUICelebration\""
+- "@\"ARUICelebrationsRenderer\""
+- "@\"ARUICountdownTimeline\""
+- "@\"ARUICountdownView\""
+- "@\"ARUIObserverStore\""
+- "@\"ARUIRenderContext\""
+- "@\"ARUIRenderer\""
+- "@\"ARUIRingGroup\""
+- "@\"ARUIRingGroupAnimationState\""
+- "@\"ARUIRingUniformsCache\""
+- "@\"ARUIRingsAlphaReductionState\""
+- "@\"ARUIRingsCountdownState\""
+- "@\"ARUIRingsEmptyState\""
+- "@\"ARUIRingsEndCapShadowState\""
+- "@\"ARUIRingsFillState\""
+- "@\"ARUIRingsRenderPipelineFactory\""
+- "@\"ARUIRingsRenderer\""
+- "@\"ARUISpriteParticleRenderState\""
+- "@\"ARUISpriteRenderState\""
+- "@\"ARUISpriteSheet\""
+- "@\"ARUISpriteTexture\""
+- "@\"ARUISpriteUniformsCache\""
+- "@\"ARUISpritesRenderer\""
+- "@\"CADisplayLink\""
+- "@\"CAMediaTimingFunction\""
+- "@\"MTLRenderPipelineDescriptor\"24@0:8@\"<MTLLibrary>\"16"
+- "@\"NSArray\""
+- "@\"NSCache\""
+- "@\"NSMutableArray\""
+- "@\"NSMutableDictionary\""
+- "@\"NSMutableSet\""
+- "@\"NSPointerArray\""
+- "@\"NSString\""
+- "@\"NSString\"16@0:8"
+- "@\"UIColor\""
+- "@\"UIImage\""
+- "@\"VFXRenderer\""
+- "@\"_TtC15ActivityRingsUI15SpringAnimation\""
+- "@\"_TtC3VFX8VFXScene\""
+- "@16@0:8"
+- "@20@0:8f16"
+- "@24@0:816"
+- "@24@0:8:16"
+- "@24@0:8@\"<MTLPipelineLibrarySPI>\"16"
+- "@24@0:8@16"
+- "@24@0:8Q16"
+- "@24@0:8^@16"
+- "@24@0:8^{_NSZone=}16"
+- "@24@0:8q16"
+- "@28@0:8q16B24"
+- "@32@0:8:16@24"
+- "@32@0:8@\"<MTLDevice>\"16@\"<MTLLibrary>\"24"
+- "@32@0:8@1624"
+- "@32@0:8@16@24"
+- "@32@0:8@?16@?24"
+- "@32@0:8Q16@24"
+- "@32@0:8Q16q24"
+- "@32@0:8d16d24"
+- "@32@0:8q16@24"
+- "@32@0:8{CGSize=dd}16"
+- "@36@0:8d16Q24B32"
+- "@36@0:8q16B24@28"
+- "@40@0:8:16@24@32"
+- "@40@0:8@16@24@32"
+- "@40@0:8@16@24Q32"
+- "@40@0:8d16@?24@?32"
+- "@44@0:8f16d20@28@?36"
+- "@44@0:8f16d20@?28@?36"
+- "@48@0:8@16d24d32d40"
+- "@48@0:8Q16Q243240"
+- "@48@0:8Q16Q24Q32Q40"
+- "@48@0:8d16d24f32f36@?40"
+- "@48@0:8d16f24f28@32@?40"
+- "@56@0:8d162432@40@?48"
+- "@56@0:8d16Q24Q32@40@?48"
+- "@56@0:8{CGPoint=dd}16d32@40@?48"
+- "@64@0:8@16d24d32d40@48@56"
+- "@72@0:8@16d24d32d40d48d56d64"
+- "@72@0:8d16@24@32@40@48@56@?64"
+- "@80@0:8@16@24d32d40d48d56d64d72"
+- "@?"
+- "@?16@0:8"
+- "@?24@0:8@16"
+- "ARUIAnimatableObject"
+- "ARUIAnimatableObjectPropertyAnimation"
+- "ARUIAnimatableProperty"
+- "ARUIAnimationKeyCoordinator"
+- "ARUIAnimationObserver"
+- "ARUIAnimationSequencing"
+- "ARUICGPointPropertyAnimation"
+- "ARUICelebration"
+- "ARUICelebrationFactory"
+- "ARUICelebrationsRenderer"
+- "ARUIColorAnimation"
+- "ARUICountdownAnimation"
+- "ARUICountdownAnimator"
+- "ARUICountdownCancel"
+- "ARUICountdownCountdown"
+- "ARUICountdownDefaultAnimation"
+- "ARUICountdownDisappear"
+- "ARUICountdownFadeIn"
+- "ARUICountdownFadeOut"
+- "ARUICountdownPreAnimation"
+- "ARUICountdownPreCancel"
+- "ARUICountdownRingsRenderPipelineFactory"
+- "ARUICountdownTimeline"
+- "ARUICountdownView"
+- "ARUICountdownWindUp"
+- "ARUIFloat2Animation"
+- "ARUIFloatAnimation"
+- "ARUIFloatPropertyAnimation"
+- "ARUIFloatSpringAnimation"
+- "ARUIGridSpriteGenerator"
+- "ARUIHashBuilder"
+- "ARUIManualAnimationSequencer"
+- "ARUIMetricColors"
+- "ARUIObserverStore"
+- "ARUIOverlappingRingsRenderPipelineFactory"
+- "ARUIPipelineFactory"
+- "ARUIPrecompiledRendering"
+- "ARUIRenderContext"
+- "ARUIRenderState"
+- "ARUIRenderer"
+- "ARUIRendering"
+- "ARUIRing"
+- "ARUIRingGroup"
+- "ARUIRingGroupAnimation"
+- "ARUIRingGroupAnimationDelegate"
+- "ARUIRingGroupAnimationState"
+- "ARUIRingGroupController"
+- "ARUIRingGroupDelegate"
+- "ARUIRingGroupGlobalAnimationSequencer"
+- "ARUIRingGroupSpringAnimationState"
+- "ARUIRingUniforms"
+- "ARUIRingUniformsCache"
+- "ARUIRingUniformsCacheKey"
+- "ARUIRingsGeometry"
+- "ARUIRingsImageFactory"
+- "ARUIRingsImageView"
+- "ARUIRingsRenderPipelineConfiguration"
+- "ARUIRingsRenderPipelineFactory"
+- "ARUIRingsRenderState"
+- "ARUIRingsRenderer"
+- "ARUIRingsState"
+- "ARUIRingsStaticBufferFactory"
+- "ARUIRingsView"
+- "ARUIRingsViewRenderer"
+- "ARUISprite"
+- "ARUISpriteSheet"
+- "ARUISpriteSheetFactory"
+- "ARUISpriteTexture"
+- "ARUISpriteUniforms"
+- "ARUISpriteUniformsCache"
+- "ARUISpriteUniformsCacheKey"
+- "ARUISpritesParticleRenderer"
+- "ARUISpritesRenderer"
+- "ARUISpritesStaticBufferFactory"
+- "ARUIUIntAnimation"
+- "Activity"
+- "B"
+- "B16@0:8"
+- "B24@0:8#16"
+- "B24@0:8:16"
+- "B24@0:8@\"ARUIRing\"16"
+- "B24@0:8@\"Protocol\"16"
+- "B24@0:8@16"
+- "B24@0:8d16"
+- "CGColor"
+- "CGImage"
+- "CGPath"
+- "CGPointValue"
+- "Celebrations"
+- "Configuration"
+- "Deprecated"
+- "Geometry"
+- "I"
+- "I16@0:8"
+- "NSCopying"
+- "NSObject"
+- "Q"
+- "Q16@0:8"
+- "Q20@0:8f16"
+- "Q24@0:8d16"
+- "Q24@0:8q16"
+- "T#,R"
+- "T,N,V_translation"
+- "T,R,N"
+- "T,R,N,V_bottomColorPremultipliedVector"
+- "T,R,N,V_bottomColorVector"
+- "T,R,N,V_currentValue"
+- "T,R,N,V_drawableSize"
+- "T,R,N,V_endValue"
+- "T,R,N,V_firstFrameOrigin"
+- "T,R,N,V_frameSize"
+- "T,R,N,V_startValue"
+- "T,R,N,V_topColorPremultipliedVector"
+- "T,R,N,V_topColorVector"
+- "T@\"<ARUICountdownAnimation>\",&,N,V_prepareToAnimate"
+- "T@\"<ARUICountdownAnimation>\",&,N,V_prepareToCancel"
+- "T@\"<ARUICountdownAnimatorDelegate>\",W,N,V_delegate"
+- "T@\"<ARUIRingGroupAnimationDelegate>\",W,N"
+- "T@\"<ARUIRingGroupAnimationDelegate>\",W,N,V_delegate"
+- "T@\"<ARUIRingGroupDelegate>\",W,N,V_delegate"
+- "T@\"<MTLRenderPipelineState>\",&,N"
+- "T@\"<MTLTexture>\",R,N,V_texture"
+- "T@\"ARUICelebration\",&,N,V_celebration"
+- "T@\"ARUICountdownTimeline\",&,N,V_timeline"
+- "T@\"ARUICountdownView\",W,N,V_countdownView"
+- "T@\"ARUIRenderer\",R,N,V_renderer"
+- "T@\"ARUIRingGroup\",R,N"
+- "T@\"ARUIRingGroup\",R,N,V_ringGroup"
+- "T@\"ARUIRingGroupAnimationState\",&,N,V_nextAnimationState"
+- "T@\"ARUIRingGroupController\",R,N"
+- "T@\"ARUISpriteSheet\",&,N"
+- "T@\"ARUISpriteSheet\",R,N,V_spriteSheet"
+- "T@\"ARUISpriteTexture\",R,N,V_texture"
+- "T@\"CAMediaTimingFunction\",&,N,V_timingFunction"
+- "T@\"CAMediaTimingFunction\",R,N,V_timingFunction"
+- "T@\"CAMetalLayer\",R,N"
+- "T@\"NSArray\",&,N,V_animations"
+- "T@\"NSArray\",&,N,V_cancelAnimations"
+- "T@\"NSArray\",R,N"
+- "T@\"NSArray\",R,N,V_rings"
+- "T@\"NSArray\",R,N,V_sprites"
+- "T@\"NSDictionary\",N,R"
+- "T@\"NSMutableSet\",&,N,V_trackedAnimations"
+- "T@\"NSNumber\",N,R"
+- "T@\"NSString\",&,N,V_workoutRingColorIdentifier"
+- "T@\"NSString\",?,R,C"
+- "T@\"NSString\",R,C"
+- "T@\"NSURL\",N,R"
+- "T@\"UIColor\",&,N,V_adjustmentButtonBackgroundColor"
+- "T@\"UIColor\",&,N,V_bottomColor"
+- "T@\"UIColor\",&,N,V_buttonDisabledTextColor"
+- "T@\"UIColor\",&,N,V_buttonTextColor"
+- "T@\"UIColor\",&,N,V_gradientContrastColor"
+- "T@\"UIColor\",&,N,V_gradientDarkColor"
+- "T@\"UIColor\",&,N,V_gradientLightColor"
+- "T@\"UIColor\",&,N,V_highContrastTextColor"
+- "T@\"UIColor\",&,N,V_lightenedNonGradientColor"
+- "T@\"UIColor\",&,N,V_nonGradientTextColor"
+- "T@\"UIColor\",&,N,V_platterBackgroundColor"
+- "T@\"UIColor\",&,N,V_platterInactiveBackgroundColor"
+- "T@\"UIColor\",&,N,V_textDisplayColor"
+- "T@\"UIColor\",&,N,V_topColor"
+- "T@\"UIColor\",&,N,V_valueDisplayColor"
+- "T@\"UIColor\",R,N,V_currentBottomColor"
+- "T@\"UIColor\",R,N,V_currentTopColor"
+- "T@\"UIColor\",R,N,V_endBottomColor"
+- "T@\"UIColor\",R,N,V_endTopColor"
+- "T@\"UIColor\",R,N,V_startBottomColor"
+- "T@\"UIColor\",R,N,V_startTopColor"
+- "T@\"UIImage\",&,N,V_iconSpriteImage"
+- "T@\"UIImage\",R,N"
+- "T@\"_TtC3VFX8VFXScene\",N,R,Vscene"
+- "T@\"_TtC3VFX8VFXScene\",R,N,V_scene"
+- "T@,&,N,S_setCurrentValue:"
+- "T@,&,N,S_setEndValue:"
+- "T@,&,N,S_setStartValue:"
+- "T@,&,N,V_currentValue"
+- "T@,&,N,V_endValue"
+- "T@,&,N,V_startValue"
+- "T@?,C,N,V_completion"
+- "T@?,R,N,V_completionHandler"
+- "TB,N"
+- "TB,N,GisPaused,V_paused"
+- "TB,N,V_discardBackBuffers"
+- "TB,N,V_hasEmptyRing"
+- "TB,N,V_hasFilledRing"
+- "TB,N,V_hasOverlappingRing"
+- "TB,N,V_hasVisibleRings"
+- "TB,N,V_needsAlphaReductionPass"
+- "TB,N,V_opaque"
+- "TB,N,V_paused"
+- "TB,N,V_presentsWithTransaction"
+- "TB,N,V_shouldBypassApplicationStateChecking"
+- "TB,N,V_shouldCheckDrawableAvailable"
+- "TB,N,V_shouldRenderOnLayout"
+- "TB,R,N"
+- "TB,R,N,GisAnimating,V_animating"
+- "TB,R,N,V_viewIsVisible"
+- "TI,N,V_circleSegments"
+- "TQ,N,R"
+- "TQ,N,V_currentFrameIndex"
+- "TQ,N,V_iconTextureColumns"
+- "TQ,N,V_iconTextureRows"
+- "TQ,N,V_renderArea"
+- "TQ,R"
+- "TQ,R,N"
+- "TQ,R,N,V_currentValue"
+- "TQ,R,N,V_endValue"
+- "TQ,R,N,V_frameColumns"
+- "TQ,R,N,V_frameCount"
+- "TQ,R,N,V_hashValue"
+- "TQ,R,N,V_maximumRingCount"
+- "TQ,R,N,V_renderStyle"
+- "TQ,R,N,V_startValue"
+- "TQ,R,N,V_type"
+- "Td,N,R"
+- "Td,N,R,Vduration"
+- "Td,N,V_additionalSpacingAtIndex"
+- "Td,N,V_backingOrigin"
+- "Td,N,V_duration"
+- "Td,N,V_emptyRingAlpha"
+- "Td,N,V_friction"
+- "Td,N,V_percent"
+- "Td,N,V_tension"
+- "Td,R,N,V_duration"
+- "Tf,N"
+- "Tf,N,V_diameter"
+- "Tf,N,V_emptyOpacity"
+- "Tf,N,V_endingRadian"
+- "Tf,N,V_groupDiameter"
+- "Tf,N,V_interspacing"
+- "Tf,N,V_opacity"
+- "Tf,N,V_percentage"
+- "Tf,N,V_ringIconSize"
+- "Tf,N,V_scale"
+- "Tf,N,V_size"
+- "Tf,N,V_startingRadian"
+- "Tf,N,V_thickness"
+- "Tf,N,V_trackOpacity"
+- "Tf,N,V_zRotation"
+- "Tf,R,N"
+- "Tf,R,N,V_currentValue"
+- "Tf,R,N,V_endValue"
+- "Tf,R,N,V_height"
+- "Tf,R,N,V_screenScale"
+- "Tf,R,N,V_startValue"
+- "Tf,R,N,V_width"
+- "Tq,N,V_centeredAroundPercentSegmentDrawCount"
+- "Tq,N,V_preferredFramesPerSecond"
+- "Tq,N,V_ringType"
+- "Tq,R,N"
+- "T{?=[2{?=[4]}]},R,N,V_vertexAttributes"
+- "T{?=[4]},R,N"
+- "T{?=f},R,N,V_uniforms"
+- "T{?={?=[4]}},R,N,V_vertexAttributes"
+- "T{?=},R,N,V_uniforms"
+- "T{CGPoint=dd},N"
+- "T{CGPoint=dd},R,N,V_currentValue"
+- "T{CGPoint=dd},R,N,V_endValue"
+- "T{CGPoint=dd},R,N,V_startValue"
+- "URLForResource:withExtension:"
+- "Vv16@0:8"
+- "^S16@0:8"
+- "^v16@0:8"
+- "^{CGGradient=}32@0:8@16@24"
+- "^{_NSZone=}16@0:8"
+- "_TtC15ActivityRingsUI15SpringAnimation"
+- "_TtC15ActivityRingsUI17SparksCelebration"
+- "__vfx_script_Sparks_graph_1"
+- "__vfx_script_Sparks_graph_14"
+- "__vfx_script_Sparks_graph_17"
+- "__vfx_script_Sparks_graph_2"
+- "__vfx_script_Sparks_graph_24"
+- "__vfx_script_Sparks_graph_33"
+- "__vfx_script_Sparks_graph_34"
+- "__vfx_script_Sparks_graph_39"
+- "__vfx_script_Sparks_graph_4"
+- "__vfx_script_Sparks_graph_42"
+- "__vfx_script_Sparks_graph_45"
+- "__vfx_script_Sparks_particleInit_8"
+- "_additionalSpacingAtIndex"
+- "_adjustedDurationForRingWithIndex:startPercentage:targetPercentage:defaultDuration:"
+- "_adjustmentButtonBackgroundColor"
+- "_allRings"
+- "_alphaReductionState"
+- "_animatableProperties"
+- "_animatablePropertyForType:"
+- "_animating"
+- "_animationSequencer"
+- "_animationTimingFunction"
+- "_animations"
+- "_anySpriteSheet"
+- "_applier"
+- "_applyAnimationAtIndex:"
+- "_applyCancelAnimationAtIndex:"
+- "_backgrounded"
+- "_backingOrigin"
+- "_bottomColor"
+- "_bottomColorPremultipliedVector"
+- "_bottomColorVector"
+- "_bufferSize"
+- "_buttonDisabledTextColor"
+- "_buttonTextColor"
+- "_cache"
+- "_cancelAnimations"
+- "_cancelable"
+- "_canceled"
+- "_celebration"
+- "_celebrationsRenderer"
+- "_centeredAroundPercentSegmentDrawCount"
+- "_circleSegments"
+- "_colorBlendedWithColor:"
+- "_columnsPerSprite"
+- "_commandQueue"
+- "_completed"
+- "_completion"
+- "_completionHandler"
+- "_countdownState"
+- "_countdownView"
+- "_currentAnimation"
+- "_currentAnimationTime"
+- "_currentBottomColor"
+- "_currentFrameIndex"
+- "_currentTopColor"
+- "_currentValue"
+- "_defaultSpriteTexture"
+- "_delegate"
+- "_delegateFlags"
+- "_delegate_completedAnimation:"
+- "_delegate_didFinishAnimating"
+- "_delegate_performingAnimation:withDuration:"
+- "_delegate_willBeginAnimating"
+- "_delegate_willBeginAnimation:afterDelay:"
+- "_device"
+- "_diameter"
+- "_didEnterBackground:"
+- "_discardBackBuffers"
+- "_displayLink"
+- "_displayLinkFired:"
+- "_drawableDiameter"
+- "_drawableSize"
+- "_duration"
+- "_emptyOpacity"
+- "_emptyRingAlpha"
+- "_emptyState"
+- "_endBottomColor"
+- "_endCapShadowState"
+- "_endTopColor"
+- "_endValue"
+- "_endingRadian"
+- "_fillState"
+- "_firstFrameOrigin"
+- "_frameColumns"
+- "_frameCount"
+- "_frameSize"
+- "_framesPerSprite"
+- "_friction"
+- "_getter"
+- "_gradientContrastColor"
+- "_gradientDarkColor"
+- "_gradientLightColor"
+- "_groupDiameter"
+- "_hasEmptyRing"
+- "_hasFilledRing"
+- "_hasOverlappingRing"
+- "_hasVisibleRings"
+- "_hash"
+- "_hashValue"
+- "_height"
+- "_highContrastTextColor"
+- "_iconSpriteImage"
+- "_iconTextureColumns"
+- "_iconTextureRows"
+- "_inViewHierarchy"
+- "_indexCount"
+- "_init"
+- "_interspacing"
+- "_lastUpdateTime"
+- "_lightenedNonGradientColor"
+- "_maximumRingCount"
+- "_needsAlphaReductionPass"
+- "_needsCelebrationRenderPassOn:"
+- "_needsDisplayLink"
+- "_needsImageRender"
+- "_newAnimatablePropertyForType:"
+- "_nextAnimationState"
+- "_nonGradientTextColor"
+- "_numIndicies"
+- "_numberOfRingsForRingType:"
+- "_observers"
+- "_observingSequencing"
+- "_opacity"
+- "_opaque"
+- "_paused"
+- "_percent"
+- "_percentage"
+- "_platterBackgroundColor"
+- "_platterInactiveBackgroundColor"
+- "_positionSprites"
+- "_preferredFramesPerSecond"
+- "_prepareToAnimate"
+- "_prepareToCancel"
+- "_presentsWithTransaction"
+- "_removeAnimationForKey:"
+- "_renderArea"
+- "_renderContext"
+- "_renderEntireRings:intoContext:withCommandEncoder:forState:"
+- "_renderImage"
+- "_renderPipelineState"
+- "_renderRings:commandEncoder:passDescriptor:commandBuffer:withContext:"
+- "_renderRings:passDescriptor:commandBuffer:withContext:"
+- "_renderRings:spriteSheet:intoTexture:presentingDrawable:withContext:waitUntilCompleted:completion:"
+- "_renderRingsFollowingPercent:intoContext:withCommandEncoder:forState:"
+- "_renderRingsUsingRingsView:withDiameter:thickness:interspacing:"
+- "_renderStyle"
+- "_renderer"
+- "_ringGroup"
+- "_ringGroupControllers"
+- "_ringGroups"
+- "_ringIconSize"
+- "_ringPercentageAdjustedForProximityToFull:withRingDiameter:thickness:"
+- "_ringType"
+- "_rings"
+- "_ringsRenderPipelineFactory"
+- "_ringsRenderer"
+- "_rowsPerSprite"
+- "_scale"
+- "_scene"
+- "_screenScale"
+- "_setCurrentValue:"
+- "_setDefaultGroupValues:"
+- "_setEndValue:"
+- "_setStandardColorsWithAnimated:"
+- "_setStartValue:"
+- "_setter"
+- "_setupColorAnimationForState:startTopColor:endTopColor:startBottomColor:endBottomColor:key:applier:"
+- "_setupFloat2AnimationForState:startValue:endValue:key:applier:"
+- "_setupFloatAnimationForState:startValue:endValue:key:applier:"
+- "_setupUIntAnimationForState:startValue:endValue:key:applier:"
+- "_sharedInitWithDevice:"
+- "_sharedInitWithDevice:bufferSize:"
+- "_sharedInitWithRingGroups:renderer:"
+- "_sharedInitWithWithRingGroupControllers:renderer:"
+- "_sharingSpriteTexture"
+- "_shouldAllowRendering"
+- "_shouldBypassApplicationStateChecking"
+- "_shouldCheckDrawableAvailable"
+- "_shouldObserveSequencer"
+- "_shouldRenderOnLayout"
+- "_size"
+- "_skewAdjustmentMatrix"
+- "_snapshotRings:spriteSheet:withContext:"
+- "_solveForInput:"
+- "_springAnimation"
+- "_spriteCount"
+- "_spriteIndexBuffer"
+- "_spriteRenderState"
+- "_spriteSheet"
+- "_spriteVertexBuffer"
+- "_sprites"
+- "_spritesRenderer"
+- "_startBottomColor"
+- "_startTopColor"
+- "_startValue"
+- "_startingRadian"
+- "_step"
+- "_tension"
+- "_textDisplayColor"
+- "_texture"
+- "_thickness"
+- "_timeUntilCompletion"
+- "_timeline"
+- "_timingFunction"
+- "_timingFunctionForCurve:"
+- "_topColor"
+- "_topColorPremultipliedVector"
+- "_topColorVector"
+- "_trackOpacity"
+- "_trackedAnimations"
+- "_translation"
+- "_type"
+- "_uniforms"
+- "_uniformsBuffer"
+- "_updateAnimationObserving"
+- "_updateDisplayLink"
+- "_updatePremultipliedBottomColor"
+- "_updatePremultipliedTopColor"
+- "_updateRenderContext"
+- "_updateRingGroupLayout"
+- "_updateRingGroupPauseState"
+- "_updateUniformsWithRing:inContext:"
+- "_updateUniformsWithSprite:"
+- "_updateVertexAttributesWithRing:inContext:"
+- "_updateVertexAttributesWithSprite:inContet:"
+- "_updateWithProgress:"
+- "_valueDisplayColor"
+- "_vertexAttributes"
+- "_vertexAttributesBuffer"
+- "_viewIsVisible"
+- "_wheelchairSharingSpriteTexture"
+- "_wheelchairSpriteTexture"
+- "_width"
+- "_willEnterForeground:"
+- "_workoutRingColorIdentifier"
+- "_zRotation"
+- "accessibilityContrast"
+- "activityRingGroup"
+- "activityRingGroupForRingType:"
+- "addAnimation:"
+- "addAnimation:forPropertyType:"
+- "addAnimation:forRingGroupPropertyType:"
+- "addCelebration:toRingAtIndex:"
+- "addCompletedHandler:"
+- "addObject:"
+- "addObjectsFromArray:"
+- "addObserver:"
+- "addObserver:selector:name:object:"
+- "addOpacityAnimation:forRingAtIndex:"
+- "addPointer:"
+- "addPropertyAnimation:"
+- "addToRunLoop:forMode:"
+- "additionalSpacingAtIndex"
+- "adjustmentButtonBackgroundColor"
+- "advanceWithDeltaTime:"
+- "allKeys"
+- "allObjects"
+- "allValues"
+- "allocWithZone:"
+- "animateUsingSpringWithTension:friction:animations:"
+- "animateUsingSpringWithTension:friction:animations:completion:"
+- "animateWithDuration:animations:"
+- "animateWithDuration:animations:completion:"
+- "animateWithDuration:animations:curve:completion:"
+- "animating"
+- "animationDidComplete:"
+- "animationKeyCache"
+- "animationKeyForType:ringIndex:"
+- "animationKeyFormatForType:"
+- "animationSequencer:updatedWithTime:"
+- "animationState"
+- "animationTimingFunction"
+- "animationWithDuration:startTopColor:endTopColor:startBottomColor:endBottomColor:timingFunction:applier:"
+- "animationWithDuration:startValue:endValue:timingFunction:applier:"
+- "animationWithDuration:timingFunction:completion:"
+- "animationWithEndingCGPointValue:duration:timingFunction:completion:"
+- "animationWithEndingFloatValue:duration:customTimingFunction:completion:"
+- "animationWithEndingFloatValue:duration:timingFunction:completion:"
+- "animationWithTension:friction:startValue:endValue:applier:"
+- "animations"
+- "appendArraySection:withName:skipIfEmpty:"
+- "appendBool:"
+- "appendBool:withName:"
+- "appendCGFloat:"
+- "appendCGRect:"
+- "appendDouble:"
+- "appendDouble:withName:decimalPrecision:"
+- "appendFloat2:"
+- "appendFloat4:"
+- "appendFloat4x4:"
+- "appendFloat:"
+- "appendFloat:counterpart:"
+- "appendFloat:withName:"
+- "appendInt:"
+- "appendObject:"
+- "appendObject:counterpart:"
+- "appendString:withName:"
+- "appendTimeInterval:"
+- "appendUnsignedInt:"
+- "applicationState"
+- "apply:context:"
+- "applyToCountdownView:completion:"
+- "areAnimationsInProgress"
+- "array"
+- "arrayWithCapacity:"
+- "arrayWithObjects:count:"
+- "autorelease"
+- "backingOrigin"
+- "backingTrackRingGroup"
+- "beginAnimations"
+- "beginRenderingWithCommandEncoder:"
+- "bezierPathWithOvalInRect:"
+- "blackColor"
+- "bottomColor"
+- "bottomColorPremultipliedVector"
+- "bottomColorVector"
+- "bounds"
+- "briskColors"
+- "build"
+- "builder"
+- "builderWithObject:"
+- "builderWithObject:ofExpectedClass:"
+- "bundleForClass:"
+- "bundlePath"
+- "buttonDisabledTextColor"
+- "buttonTextColor"
+- "cacheWithLimit:"
+- "callAndReleaseCompletionHandler"
+- "cancel"
+- "cancelAnimations"
+- "cancelIdentifier"
+- "cancelable"
+- "canceled"
+- "celebration"
+- "celebrationOfType:"
+- "center"
+- "centeredAroundPercentSegmentDrawCount"
+- "circleSegments"
+- "class"
+- "clearCache"
+- "clearCaches"
+- "clearSharedCaches"
+- "clockColors"
+- "colorAttachments"
+- "colorWithAlphaComponent:"
+- "colorWithRed:green:blue:alpha:"
+- "colorWithWhite:alpha:"
+- "commandBuffer"
+- "compact"
+- "completeAnimation"
+- "completeWithSnap"
+- "completion"
+- "completionHandler"
+- "configureForAdditiveBlending"
+- "configureForAlphaReductionBlending"
+- "configureForSourceOverBlending"
+- "configureWithTension:friction:target:"
+- "conformsToProtocol:"
+- "connectedIndiciesGeometry"
+- "contents"
+- "copy"
+- "copyWithZone:"
+- "countByEnumeratingWithState:objects:count:"
+- "countdownAnimator:completedAnimation:"
+- "countdownAnimator:performingAnimation:withDuration:"
+- "countdownAnimator:willBeginAnimation:afterDelay:"
+- "countdownAnimatorDidFinishAnimating:"
+- "countdownAnimatorWillBeginAnimating:"
+- "countdownController"
+- "countdownIdentifier"
+- "countdownRingGroup"
+- "countdownRingGroupOnCompanion"
+- "countdownStep"
+- "countdownView"
+- "countdownViewConfiguredForCompanion"
+- "countdownViewConfiguredForDisplayWithRingDiameter:"
+- "countdownViewConfiguredForWatch"
+- "currentAnimationState"
+- "currentBottomColor"
+- "currentFrameIndex"
+- "currentTopColor"
+- "currentValue"
+- "d"
+- "d16@0:8"
+- "d24@0:8d16"
+- "d28@0:8d16B24"
+- "d40@0:8q16f24f28d32"
+- "dealloc"
+- "debugDescription"
+- "defaultAnimationDuration"
+- "defaultCache"
+- "defaultCenter"
+- "defaultSpriteSheet"
+- "defaultSpriteTexture"
+- "delay"
+- "delegate"
+- "description"
+- "device"
+- "diameterForRingAtIndex:"
+- "dictionaryWithCapacity:"
+- "didInitialize"
+- "disappearIdentifier"
+- "discardBackBuffers"
+- "disconnectedIndexCount"
+- "disconnectedIndiciesGeometry"
+- "displayLinkWithTarget:selector:"
+- "distanceColors"
+- "diveColors"
+- "drawAtPoint:"
+- "drawInRect:"
+- "drawIndexedPrimitives:indexCount:indexType:indexBuffer:indexBufferOffset:"
+- "drawIndexedPrimitives:indexCount:indexType:indexBuffer:indexBufferOffset:instanceCount:"
+- "drawSprites"
+- "drawableDiameter"
+- "drawableSize"
+- "elapsedTimeColors"
+- "emptyRingAlpha"
+- "encodeWithCommandBuffer:"
+- "endBottomColor"
+- "endEncoding"
+- "endTopColor"
+- "endValue"
+- "endingRadian"
+- "endingValueForPropertyType:"
+- "energyColors"
+- "enumerateKeysAndObjectsUsingBlock:"
+- "enumerateObjectsUsingBlock:"
+- "enumerateObserversWithBlock:"
+- "enumerateVertexGeometryWithBlock:"
+- "f"
+- "f16@0:8"
+- "f24@0:8Q16"
+- "f28@0:8f16f20f24"
+- "fadeInIdentifier"
+- "fadeOutIdentifier"
+- "firstFrameOrigin"
+- "floatValue"
+- "forCompanion"
+- "forWatch"
+- "frameColumns"
+- "frameCount"
+- "frameSize"
+- "friction"
+- "functionWithControlPoints::::"
+- "functionWithName:"
+- "generateSprites"
+- "generatorWithSpriteCount:framesPerSprite:rowsPerSprite:columnsPerSprite:"
+- "getBytes:bytesPerRow:fromRegion:mipmapLevel:"
+- "getRed:green:blue:alpha:"
+- "gradientContrastColor"
+- "gradientDarkColor"
+- "gradientLightColor"
+- "grayColors"
+- "hasEmptyRing"
+- "hasFilledRing"
+- "hasOverlappingRing"
+- "hasVisibleRings"
+- "hash"
+- "hashForCGFloat:"
+- "hashForDouble:"
+- "hashForFloat:"
+- "hashForNSTimeInterval:"
+- "hashValue"
+- "heartRateColors"
+- "height"
+- "highContrastTextColor"
+- "iconSpriteImage"
+- "iconTextureColumns"
+- "iconTextureRows"
+- "identifier"
+- "imageNamed:inBundle:compatibleWithTraitCollection:"
+- "imageWithCGImage:scale:orientation:"
+- "indexCount"
+- "init"
+- "initWithArray:copyItems:"
+- "initWithCommandQueue:"
+- "initWithDevice:"
+- "initWithDevice:commandQueue:"
+- "initWithDevice:library:"
+- "initWithDevice:library:bufferSize:"
+- "initWithDeviceSPI:librarySPI:"
+- "initWithDeviceSPI:librarySPI:bufferSize:"
+- "initWithDrawableSize:"
+- "initWithDuration:startTopColor:endTopColor:startBottomColor:endBottomColor:timingFunction:applier:"
+- "initWithDuration:startValue:endValue:timingFunction:applier:"
+- "initWithDynamicProvider:"
+- "initWithFrame:"
+- "initWithFrameCount:frameColumns:firstFrameOrigin:frameSize:"
+- "initWithGetter:setter:"
+- "initWithImage:"
+- "initWithInitialValue:delay:"
+- "initWithLimit:"
+- "initWithMaximumRingCount:"
+- "initWithMaximumRingCount:commandQueue:"
+- "initWithNumberOfRings:"
+- "initWithNumberOfRings:animationSequencer:"
+- "initWithPercent:andStep:cancelable:"
+- "initWithPipelineLibrary:"
+- "initWithRed:green:blue:alpha:"
+- "initWithRenderStyle:"
+- "initWithRenderStyle:commandQueue:"
+- "initWithRing:"
+- "initWithRing:context:"
+- "initWithRing:inContext:"
+- "initWithRingGroup:"
+- "initWithRingGroup:renderer:"
+- "initWithRingGroupController:"
+- "initWithRingGroupController:renderer:"
+- "initWithRingGroupControllers:"
+- "initWithRingGroupControllers:renderer:"
+- "initWithRingGroups:"
+- "initWithRingGroups:renderer:"
+- "initWithRings:animationSequencer:"
+- "initWithSize:"
+- "initWithSprite:"
+- "initWithSprite:context:"
+- "initWithSprite:inContext:"
+- "initWithSpriteCount:framesPerSprite:rowsPerSprite:columnsPerSprite:"
+- "initWithSpriteSheet:"
+- "initWithTension:friction:startValue:endValue:applier:"
+- "initWithTexture:sprites:"
+- "initWithTimeline:"
+- "invalidate"
+- "isAnimating"
+- "isDrawableAvailable"
+- "isEqual"
+- "isEqual:"
+- "isFinishedAnimating"
+- "isKindOfClass:"
+- "isMemberOfClass:"
+- "isOpaque"
+- "isPaused"
+- "isProxy"
+- "keyColors"
+- "keyForRing:context:"
+- "keyForSprite:context:"
+- "lastObject"
+- "layer"
+- "layerClass"
+- "layoutSubviews"
+- "length"
+- "lightenedNonGradientColor"
+- "linearTimingFunction"
+- "loadEffectAndReturnError:"
+- "loadSceneAndReturnError:"
+- "localizedDescription"
+- "mainRunLoop"
+- "mainScreen"
+- "maximumRingCount"
+- "metalLayer"
+- "name"
+- "needsAlphaReductionPass"
+- "newBufferWithBytes:length:options:"
+- "newBufferWithLength:options:"
+- "newCommandQueue"
+- "newDefaultLibraryWithBundle:error:"
+- "newFunctionWithName:"
+- "newGradientForStartColor:endColor:"
+- "newPipelineLibraryWithFilePath:error:"
+- "newRenderPipelineStateWithDescriptor:error:"
+- "newRenderPipelineStateWithName:options:reflection:error:"
+- "newTextureWithCGImage:options:error:"
+- "newTextureWithDescriptor:"
+- "nextAnimationState"
+- "nextDrawable"
+- "noMetricColors"
+- "nonGradientTextColor"
+- "numberOfRings"
+- "objectAtIndex:"
+- "objectAtIndexedSubscript:"
+- "objectForKey:"
+- "objectForKeyedSubscript:"
+- "originForSpriteAtIndex:"
+- "paceColors"
+- "paused"
+- "pausedRingsColors"
+- "percent"
+- "performAfter:completion:"
+- "performSelector:"
+- "performSelector:withObject:"
+- "performSelector:withObject:withObject:"
+- "pipelineForConfiguration:"
+- "platterBackgroundColor"
+- "platterInactiveBackgroundColor"
+- "playCelebration:onRingAtIndex:"
+- "playCelebration:onRingAtIndex:completion:"
+- "playSpriteAnimation"
+- "playSpriteAnimationWithCompletion:"
+- "playingSpriteAnimation"
+- "pointerAtIndex:"
+- "popAnimationState"
+- "preAnimationIdentifier"
+- "preferredActivityRingInterspacingForDiameter:"
+- "preferredActivityRingThicknessForDiameter:"
+- "preferredActivityRingThicknessForDiameter:isStandaloneRing:"
+- "preferredFramesPerSecond"
+- "prepareToAnimate"
+- "prepareToCancel"
+- "present"
+- "presentDrawable:"
+- "pushAnimationState:"
+- "q"
+- "q16@0:8"
+- "raise:format:"
+- "randomRing"
+- "randomSprite"
+- "release"
+- "remainingDelay"
+- "removeAllAnimationsForPropertyType:"
+- "removeAllObjects"
+- "removeAllPropertyAnimations"
+- "removeBackBuffers"
+- "removeCelebration:fromRingAtIndex:"
+- "removeObject:"
+- "removeObjectForKey:"
+- "removeObjectsForKeys:"
+- "removeObserver:"
+- "renderArea"
+- "renderCelebrationsForRings:withCommandBuffer:intoTexture:withContext:"
+- "renderCommandEncoderWithDescriptor:"
+- "renderInContext:"
+- "renderPassDescriptor"
+- "renderPipelineDescriptorFromLibrary:"
+- "renderPipelineFactoryWithDevice:library:"
+- "renderPipelineFactoryWithDeviceSPI:librarySPI:"
+- "renderPipelineState"
+- "renderRingGroup:withRenderer:"
+- "renderRingGroupController:withBackgroundColor:andRenderer:"
+- "renderRingGroupController:withRenderer:"
+- "renderRingGroupControllers:withSize:intoTexture:withDrawable:waitUntilCompleted:completionHandler:"
+- "renderRings:intoContext:withCommandEncoder:forState:"
+- "renderRings:intoDrawable:withContext:"
+- "renderRings:intoDrawable:withContext:completion:"
+- "renderRings:spriteSheet:intoDrawable:withContext:"
+- "renderRings:spriteSheet:intoDrawable:withContext:completion:"
+- "renderRingsUsingRingsView:forMovePercentage:exercisePercentage:standPercentage:withDiameter:thickness:interspacing:"
+- "renderRingsUsingRingsView:forMovePercentage:exercisePercentage:standPercentage:withDiameter:thickness:interspacing:inRect:"
+- "renderRingsWithBackgroundColor:usingRingsView:forMovePercentage:exercisePercentage:standPercentage:withDiameter:thickness:interspacing:"
+- "renderSingleRingUsingRingsView:forPercentage:withDiameter:thickness:topColor:bottomColor:"
+- "renderSpriteSheet:intoContext:withCommandEncoder:"
+- "renderStyle"
+- "renderer"
+- "rendererForRingGroupController:"
+- "rendererForRingGroupControllers:"
+- "replacePointerAtIndex:withPointer:"
+- "respondsToSelector:"
+- "retain"
+- "retainCount"
+- "reverseObjectEnumerator"
+- "ringDiameter"
+- "ringGroup"
+- "ringGroupController"
+- "ringGroupControllerConfiguredForCompanionWithRingType:withIcon:"
+- "ringGroupControllerConfiguredForWatchWithRingType:withIcon:"
+- "ringGroupControllers"
+- "ringGroupHasUpdated:"
+- "ringGroups"
+- "ringIconSize"
+- "ringIndexBufferWithDevice:"
+- "ringInterspacing"
+- "ringScale"
+- "ringThickness"
+- "ringType"
+- "ringVertexPositionsBufferWithDevice:"
+- "ringsRenderPipelineConfigurationForRings:context:"
+- "ringsViewConfiguredForCompanionOfType:withRenderer:"
+- "ringsViewConfiguredForOneRingOnCompanionOfType:"
+- "ringsViewConfiguredForOneRingOnWatchOfType:"
+- "ringsViewConfiguredForOneRingOnWatchOfType:withIcon:"
+- "ringsViewConfiguredForOneRingOnWatchOfType:withRenderer:"
+- "ringsViewConfiguredForThreeRingsOnCompanion"
+- "ringsViewConfiguredForThreeRingsOnCompanionWithRenderer:"
+- "ringsViewConfiguredForThreeRingsOnWatch"
+- "ringsViewConfiguredForThreeRingsOnWatchWithRenderer:"
+- "ringsViewConfiguredForWatchOfType:withIcon:renderer:"
+- "scene"
+- "scriptTable_1000"
+- "sedentaryColors"
+- "self"
+- "set"
+- "setActiveEnergyPercentage:animated:"
+- "setActiveEnergyPercentage:animated:completion:"
+- "setActiveEnergyPercentage:briskPercentage:movingHoursPercentage:animated:completion:"
+- "setActiveEnergyPercentage:exerciseMinutesPercentage:standHoursPercentage:animated:"
+- "setActiveEnergyPercentage:exerciseMinutesPercentage:standHoursPercentage:animated:completion:"
+- "setAdditionalSpacingAtIndex:"
+- "setAdjustmentButtonBackgroundColor:"
+- "setAlphaBlendOperation:"
+- "setAnimations:"
+- "setBackingOrigin:"
+- "setBlendingEnabled:"
+- "setBorderWidth:"
+- "setBottomColor:"
+- "setBounds:"
+- "setBriskPercentage:animated:"
+- "setButtonDisabledTextColor:"
+- "setButtonTextColor:"
+- "setCancelAnimations:"
+- "setCelebration:"
+- "setCenter:"
+- "setCenteredAroundPercentSegmentDrawCount:"
+- "setCircleSegments:"
+- "setClearColor:"
+- "setCompletion:"
+- "setContentMode:"
+- "setCountLimit:"
+- "setCountdownView:"
+- "setCurrentFrameIndex:"
+- "setCurrentValue:"
+- "setDelegate:"
+- "setDestinationAlphaBlendFactor:"
+- "setDestinationRGBBlendFactor:"
+- "setDiameter:"
+- "setDiscardBackBuffers:"
+- "setDotPercentage:ofRingAtIndex:animated:"
+- "setDrawableSize:"
+- "setDuration:"
+- "setEmptyOpacity:"
+- "setEmptyOpacity:ofRingAtIndex:"
+- "setEmptyRingAlpha:"
+- "setEndValue:"
+- "setEndingRadian:"
+- "setExerciseMinutesPercentage:animated:"
+- "setExerciseMinutesPercentage:animated:completion:"
+- "setFillColor:"
+- "setFragmentBuffer:offset:atIndex:"
+- "setFragmentBytes:length:atIndex:"
+- "setFragmentFunction:"
+- "setFragmentTexture:atIndex:"
+- "setFrame:"
+- "setFrame:ofSpriteAtIndex:"
+- "setFriction:"
+- "setGradientContrastColor:"
+- "setGradientDarkColor:"
+- "setGradientLightColor:"
+- "setGroupDiameter:"
+- "setHasEmptyRing:"
+- "setHasFilledRing:"
+- "setHasOverlappingRing:"
+- "setHasVisibleRings:"
+- "setHighContrastTextColor:"
+- "setIconDotTextureOrigin:ofRingAtIndex:"
+- "setIconFirstFrameOrigin:frameSize:frameCount:columns:ofRingAtIndex:"
+- "setIconSpriteImage:"
+- "setIconTextureColumns:"
+- "setIconTextureRows:"
+- "setImage:"
+- "setInterspacing:"
+- "setIsPaused:"
+- "setIsPaused:animated:"
+- "setIsPaused:animated:completion:"
+- "setIsPaused:completion:"
+- "setIsStandalonePhoneFitnessMode:"
+- "setIsStandalonePhoneFitnessMode:animated:"
+- "setIsStandalonePhoneFitnessMode:animated:completion:"
+- "setIsStandalonePhoneFitnessMode:completion:"
+- "setLabel:"
+- "setLightenedNonGradientColor:"
+- "setLoadAction:"
+- "setMovingHoursPercentage:animated:"
+- "setNeedsAlphaReductionPass:"
+- "setNeedsLayout"
+- "setNextAnimationState:"
+- "setNonGradientTextColor:"
+- "setObject:forKeyedSubscript:"
+- "setOpacity:"
+- "setOpacity:ofRingAtIndex:"
+- "setOpacity:ofRingAtIndex:animated:"
+- "setOpaque:"
+- "setPath:"
+- "setPaused:"
+- "setPercent:"
+- "setPercentage:"
+- "setPercentage:ofRingAtIndex:"
+- "setPercentage:ofRingAtIndex:animated:"
+- "setPercentage:ofRingAtIndex:animated:completion:"
+- "setPercentage:ofRingAtIndex:animated:duration:timingFunction:completion:"
+- "setPercentage:ofRingAtIndex:fromAnimation:"
+- "setPixelFormat:"
+- "setPlatterBackgroundColor:"
+- "setPlatterInactiveBackgroundColor:"
+- "setPreferredFramesPerSecond:"
+- "setPrepareToAnimate:"
+- "setPrepareToCancel:"
+- "setPresentsWithTransaction:"
+- "setRenderArea:"
+- "setRenderPipelineState:"
+- "setResourceOptions:"
+- "setRgbBlendOperation:"
+- "setRingDiameter:"
+- "setRingDiameter:ofRingAtIndex:animated:"
+- "setRingIconPosition:ofRingAtIndex:animated:"
+- "setRingIconSize:"
+- "setRingIconSize:ofRingAtIndex:animated:"
+- "setRingInterspacing:"
+- "setRingInterspacing:ofRingAtIndex:animated:"
+- "setRingScale:"
+- "setRingThickness:"
+- "setRingThickness:ofRingAtIndex:animated:"
+- "setRingType:"
+- "setScale:"
+- "setScene:"
+- "setShouldBypassApplicationStateChecking:"
+- "setShouldCheckDrawableAvailable:"
+- "setShouldRenderOnLayout:"
+- "setSize:"
+- "setSourceAlphaBlendFactor:"
+- "setSourceRGBBlendFactor:"
+- "setSpriteSheet:"
+- "setStandHoursPercentage:animated:"
+- "setStandHoursPercentage:animated:completion:"
+- "setStartValue:"
+- "setStartingRadian:"
+- "setStoreAction:"
+- "setSynchronizesWithCA:"
+- "setTension:"
+- "setTextDisplayColor:"
+- "setTexture:"
+- "setThickness:"
+- "setThickness:ofRingAtIndex:"
+- "setTimeline:"
+- "setTimingFunction:"
+- "setTopColor:"
+- "setTopColor:bottomColor:"
+- "setTopColor:bottomColor:contrastColor:ofRingAtIndex:"
+- "setTopColor:bottomColor:ofRingAtIndex:"
+- "setTopColor:bottomColor:ofRingAtIndex:animated:"
+- "setTrackOpacity:"
+- "setTrackOpacity:ofRingAtIndex:"
+- "setTrackedAnimations:"
+- "setTranslation:"
+- "setUsage:"
+- "setValue:forPropertyType:"
+- "setValueDisplayColor:"
+- "setValueImmediate:"
+- "setVertexBuffer:offset:atIndex:"
+- "setVertexBytes:length:atIndex:"
+- "setVertexFunction:"
+- "setWorkoutRingColorIdentifier:"
+- "setZRotation:"
+- "sharedApplication"
+- "sharedInstance"
+- "sharingSpriteSheet"
+- "sharingSpriteTexture"
+- "shouldBypassApplicationStateChecking"
+- "shouldCheckDrawableAvailable"
+- "shouldRenderOnLayout"
+- "shouldRunStateForRing:"
+- "size"
+- "skewAdjustmentMatrix"
+- "snapshot"
+- "snapshotRingGroupControllers:withSize:"
+- "snapshotRings:spriteSheet:withContext:"
+- "snapshotRings:withContext:"
+- "spriteAtIndex:"
+- "spriteIndexBufferWithDevice:"
+- "spritePositionsBufferWithDevice:"
+- "spriteSheet"
+- "spriteSheetForRingType:"
+- "sprites"
+- "startBottomColor"
+- "startTopColor"
+- "startValue"
+- "startingRadian"
+- "stringByAppendingPathComponent:"
+- "stringWithFormat:"
+- "substringWithRange:"
+- "superclass"
+- "synchronizesWithCA"
+- "systemGrayTextColor"
+- "target"
+- "tension"
+- "textDisplayColor"
+- "texture"
+- "texture2DDescriptorWithPixelFormat:width:height:mipmapped:"
+- "textureRect"
+- "tick"
+- "timeline"
+- "timestamp"
+- "timingFunction"
+- "timingFunctionForMediaTimingFunction:"
+- "topColor"
+- "topColorPremultipliedVector"
+- "topColorVector"
+- "trackedAnimations"
+- "uniforms"
+- "uniformsBytes"
+- "uniformsForRing:renderedInContext:"
+- "uniformsForSprite:renderedInContext:"
+- "update:"
+- "updateDeltaTime:"
+- "updateTarget:"
+- "url"
+- "v104@0:8@16d24d32d40d48d56d64{CGRect={CGPoint=dd}{CGSize=dd}}72"
+- "v16@0:8"
+- "v20@0:8B16"
+- "v20@0:8I16"
+- "v20@0:8f16"
+- "v24@0:816"
+- "v24@0:8@\"<ARUIAnimationObserver>\"16"
+- "v24@0:8@\"<ARUIRingGroupAnimation>\"16"
+- "v24@0:8@\"<ARUIRingGroupAnimationDelegate>\"16"
+- "v24@0:8@\"<MTLRenderPipelineState>\"16"
+- "v24@0:8@\"ARUIRingGroup\"16"
+- "v24@0:8@16"
+- "v24@0:8@?16"
+- "v24@0:8B16B20"
+- "v24@0:8Q16"
+- "v24@0:8d16"
+- "v24@0:8f16B20"
+- "v24@0:8q16"
+- "v28@0:8B16@?20"
+- "v28@0:8d16B24"
+- "v28@0:8f16Q20"
+- "v32@0:816"
+- "v32@0:8@\"<ARUIAnimationSequencing>\"16d24"
+- "v32@0:8@\"ARUICountdownView\"16@?<v@?>24"
+- "v32@0:8@16@24"
+- "v32@0:8@16@?24"
+- "v32@0:8@16Q24"
+- "v32@0:8@16d24"
+- "v32@0:8@16q24"
+- "v32@0:8B16B20@?24"
+- "v32@0:8Q16Q24"
+- "v32@0:8d16@?24"
+- "v32@0:8f16B20@?24"
+- "v32@0:8f16Q20B28"
+- "v32@0:8f16f20f24B28"
+- "v32@0:8f16q20B28"
+- "v32@0:8{CGPoint=dd}16"
+- "v36@0:8d16q24B32"
+- "v40@0:8@16@24@32"
+- "v40@0:8@16@24q32"
+- "v40@0:8@16Q24@?32"
+- "v40@0:8d16@?24@?32"
+- "v40@0:8d16d24@?32"
+- "v40@0:8d16d24d32"
+- "v40@0:8f16f20f24B28@?32"
+- "v40@0:8f16q20B28@?32"
+- "v40@0:8{CGPoint=dd}16q32"
+- "v44@0:8@16@24q32B40"
+- "v44@0:8d16q24B32@?36"
+- "v44@0:8{CGPoint=dd}16q32B40"
+- "v48@0:8@16@24@32@40"
+- "v48@0:8@16@24@32@?40"
+- "v48@0:8@16@24@32q40"
+- "v48@0:8@16f24f28@32@?40"
+- "v48@0:8d16@?24Q32@?40"
+- "v48@0:8d16d24@?32@?40"
+- "v48@0:8{CGRect={CGPoint=dd}{CGSize=dd}}16"
+- "v52@0:8d16d24d32B40@?44"
+- "v56@0:8@162432@40@?48"
+- "v56@0:8@16@24@32@40@48"
+- "v56@0:8@16@24@32@40@?48"
+- "v56@0:8@16Q24Q32@40@?48"
+- "v60@0:8@1624@32@40B48@?52"
+- "v60@0:8d16q24B32d36@44@?52"
+- "v68@0:8@16@24@32@40@48B56@?60"
+- "v72@0:8@16@24@32@40@48@56@?64"
+- "v72@0:8{CGPoint=dd}16{CGSize=dd}32q48q56q64"
+- "v80@0:8{?=[4]}16"
+- "value"
+- "valueByAddingCurrentValueToValue:"
+- "valueDisplayColor"
+- "valueWithCGPoint:"
+- "valueWithPointer:"
+- "vertexAttributes"
+- "vertexAttributesBytes"
+- "vertexCount"
+- "vfxToolVersion"
+- "viewIsVisible"
+- "waitUntilCompleted"
+- "waitUntilScheduled"
+- "weakObjectsPointerArray"
+- "wheelchairSharingSpriteSheet"
+- "wheelchairSharingSpriteTexture"
+- "wheelchairSpriteSheet"
+- "wheelchairSpriteSheetForRingType:"
+- "wheelchairSpriteTexture"
+- "whiteColor"
+- "width"
+- "willMoveToWindow:"
+- "windUpIdentifier"
+- "withSpriteSheet"
+- "withWheelchairSpriteSheet"
+- "workoutRingColorIdentifier"
+- "zone"
+- "{?=\"color1\"\"color2\"\"center\"\"startPosition\"\"endPosition\"\"ringValues\"\"blendingValues\"\"trigResults\"}"
+- "{?=\"columns\"[4]}"
+- "{?=\"textureRect\"\"opacity\"f}"
+- "{?=\"transformMatrix\"[2{?=\"columns\"[4]}]}"
+- "{?=\"transformMatrix\"{?=\"columns\"[4]}}"
+- "{?=\"willBeginAnimating\"B\"willBeginAnimation\"B\"performingAnimation\"B\"completedAnimation\"B\"didFinishAnimating\"B}"
+- "{?=[2{?=[4]}]}16@0:8"
+- "{?=[4]}16@0:8"
+- "{?=f}16@0:8"
+- "{?={?=[4]}}16@0:8"
+- "{?=}16@0:8"
+- "{CGPoint=\"x\"d\"y\"d}"
+- "{CGPoint=dd}16@0:8"
+
+```

@@ -1,0 +1,1445 @@
+## AVD.videodecoder
+
+> `/System/Library/VideoDecoders/AVD.videodecoder`
+
+```diff
+
+-960.0.0.0.0
+-  __TEXT.__text: 0x151880 sha256:75c79205f04cccd98235c357085047401527656c2d183ec1e99f9986ae08dd13
+-  __TEXT.__auth_stubs: 0xe90 sha256:81ab2d26ada983b0aff491a02953be7df2d733706f02cf0a02f1d9c5140359fb
+-  __TEXT.__const: 0xc013 sha256:7b315febeb52d45c4456a84f8a5d3623531d6610d6a1d5d72892573acd5cefe4
+-  __TEXT.__gcc_except_tab: 0x8b4 sha256:412f1a5ac08b9096684f26d4ac0b95850d6b59fc75180839db59f29b379a6c7a
+-  __TEXT.__oslogstring: 0x147e1 sha256:3eca3d774ccab4c75a1c3c94fb5105c3666ce5d1be8ca07fe56748bcc1a48db0
+-  __TEXT.__cstring: 0x52af sha256:3f9eac5c42450662fb41c324ae89a74b7cd998c580b9a035f8bc2d57f73c3291
+-  __TEXT.__unwind_info: 0x19c0 sha256:7b26d10ee781f027f4b1b7c7daea1d2b3f7b6f64c46c2dc940b385fdf524e810
+-  __DATA_CONST.__got: 0x340 sha256:e0084b66cb4a03e2aba6cc7342eead6a91610ad915d66f9ae2c734f99b772ac7
++988.0.0.0.0
++  __TEXT.__text: 0x1784b4 sha256:7c83f3758991063982d58ef46d72e86fc15ddc061be9701962a2753949ef5e76
++  __TEXT.__objc_methlist: 0x1fc sha256:b689e21ef0198316a7168cc0972993700b5f20e374b4c6a2730de4200a9f0221
++  __TEXT.__const: 0xc373 sha256:a8b9364b103f81ba9c65d62f9e11e68ac0fe35620e6407d085b78c0c905a3b19
++  __TEXT.__oslogstring: 0x15fae sha256:8539a76d73eac82282ebfcaec70cefb95daaa36f5ffa5878177b16d334a1f81b
++  __TEXT.__cstring: 0x5635 sha256:8b8fa0cd78c71d1e415ffb6719a8cb88e3db427cbcc414d81aa32a1b5c8417b2
++  __TEXT.__gcc_except_tab: 0xde0 sha256:4d186d06bb4979f9b3eb40b03708e58c32316001a6ed313d2a69368309191b50
++  __TEXT.__unwind_info: 0x1de0 sha256:dc2d574edb2c1ab9f9ed013a41a49ece4fccc12eb1df3b5b4fc144ca0a271228
++  __TEXT.__objc_stubs: 0x0
++  __TEXT.__auth_stubs: 0x0
++  __TEXT.__objc_classname: 0x0
++  __TEXT.__objc_methname: 0x0
++  __TEXT.__objc_methtype: 0x0
++  __DATA_CONST.__const: 0x68 sha256:05fc8b56d4d7955345bc7c31313216263587965a991b3cd24326a0fec7968f73
++  __DATA_CONST.__objc_classlist: 0x28 sha256:e150e4631863fcc72d337cab9269470abc83ad2a9846c0920e9d1cb40b5c3ac2
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __AUTH_CONST.__auth_got: 0x750 sha256:d3d91a89c2a8d48cf45f2035c1e2cc2a6b81e7f4d3b6cd668bf4e8ba50507793
+-  __AUTH_CONST.__const: 0x4800 sha256:b70e00b7dc993d26ad8f699437e8fa3eadb738d820d619062e137e6e22df581a
+-  __AUTH_CONST.__cfstring: 0x680 sha256:45f62452ea91f68f9f673abf577f55b820a925a7bd31be4e6da06cb2ab7a02cc
++  __DATA_CONST.__objc_selrefs: 0x1a8 sha256:643d7b1f4fb8b575a2807115641048fd20bd9ac6d5b34bc3606630facbdb2464
++  __DATA_CONST.__objc_superrefs: 0x18 sha256:f6e2fbd415edbb4a763c9caa6a6bd0f0c8005dc954e666fb3e9c50bfb33b54bc
++  __DATA_CONST.__got: 0x0
++  __AUTH_CONST.__const: 0x53c0 sha256:4c62ee71e8c77184639c093278808e765bed3c3f9917759205150af3c8d27a04
++  __AUTH_CONST.__cfstring: 0x7e0 sha256:a7836d1ae228b43baf1384735d3a31855903a5c752796819ea9789b5f649055e
++  __AUTH_CONST.__objc_const: 0x6e0 sha256:1b948e0c85d972f776a92e953a255cd482a3d4f64f65db94f98368289ec3faea
++  __AUTH_CONST.__weak_auth_got: 0x38 sha256:d0aa4aab8eb87d53f85ca643ac273d08ad6caaff879ba80b667c56b0a84c46b0
++  __AUTH_CONST.__objc_intobj: 0x48 sha256:2de23bf2246c0651222787212e8a09fa3d477ea22a64ae261a0a5be11f4e18c4
++  __AUTH_CONST.__auth_got: 0x8c0 sha256:2f7eaacf490839d9c603736149286272aea4df46c0daf58f0c70062041c68230
++  __AUTH.__objc_data: 0x50 sha256:1085caaf235febbf229c59f2ec6602bb35bf48ec5712f1201509b3fa8f1b5022
++  __DATA.__objc_ivar: 0x70 sha256:7e042da23d168ee9a8cd2cfa76383689038b3fabb4e7085f1640fa5d175cf8d4
+   __DATA.__common: 0x30 sha256:17b0761f87b081d5cf10757ccc89f12be355c70e2e29df288b65b30710dcbcd1
++  __DATA_DIRTY.__objc_data: 0x140 sha256:5ae04018f380eeb5e53782efeaf3527a312128ec0286ccb3829428fc145ce089
+   __DATA_DIRTY.__data: 0x78 sha256:b862cf8029191c4ed0da9f1599eeb6d24e89e5a0e305a45a11b948601de7707e
+   __DATA_DIRTY.__bss: 0x50 sha256:5b6fb58e61fa475939767d68a446f97f1bff02c0e5935a3ea8bb51e6515783d8
+   __DATA_DIRTY.__common: 0x18 sha256:9d908ecfb6b256def8b49a7c504e6c889c4b0e41fe6ce3e01863dd7b61a20aa0
+
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/Frameworks/IOKit.framework/Versions/A/IOKit
+   - /System/Library/Frameworks/IOSurface.framework/IOSurface
++  - /System/Library/Frameworks/Metal.framework/Metal
+   - /System/Library/Frameworks/VideoToolbox.framework/VideoToolbox
+   - /System/Library/PrivateFrameworks/IOSurfaceAccelerator.framework/IOSurfaceAccelerator
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+-  UUID: 15F7333C-7EA7-31E4-9AD0-94187BEF437C
+-  Functions: 3776
+-  Symbols:   10015
+-  CStrings:  2003
++  - /usr/lib/libobjc.A.dylib
++  UUID: B06055A6-987B-3D58-93C9-12E0B2FF7660
++  Functions: 4256
++  Symbols:   11572
++  CStrings:  2133
+ 
+Symbols:
++ +[MetalContextManager createManager]
++ -[AVDBufferFillMetal .cxx_construct]
++ -[AVDBufferFillMetal .cxx_destruct]
++ -[AVDBufferFillMetal CompileBufferFill]
++ -[AVDBufferFillMetal PreFill:values:clearFullAllocation:bitDepth:]
++ -[AVDBufferFillMetal PreFill:values:clearFullAllocation:bitDepth:].cold.1
++ -[AVDBufferFillMetal PreFill:values:clearFullAllocation:bitDepth:].cold.2
++ -[AVDBufferFillMetal PreFill:values:clearFullAllocation:bitDepth:].cold.3
++ -[AVDBufferFillMetal PreFill:values:clearFullAllocation:bitDepth:].cold.4
++ -[AVDBufferFillMetal PreFill:values:clearFullAllocation:bitDepth:].cold.5
++ -[AVDBufferFillMetal init]
++ -[AVDCommonMetal .cxx_destruct]
++ -[AVDCommonMetal compileFunction:]
++ -[AVDCommonMetal compileFunction:constantValues:]
++ -[AVDCommonMetal compileFunction:constantValues:].cold.1
++ -[AVDCommonMetal compileFunction:constantValues:].cold.2
++ -[AVDCommonMetal initWithDevice:]
++ -[AVDCommonMetal initWithDevice:].cold.1
++ -[AVDCommonMetal uintTexture:forPlane:usingTextureCache:withAttributes:bitDepth:]
++ -[AVDCommonMetal unormTexture:forPlane:usingTextureCache:withAttributes:bitDepth:]
++ -[AVDDeblockMetal .cxx_construct]
++ -[AVDDeblockMetal .cxx_destruct]
++ -[AVDDeblockMetal compileDeblockFilters]
++ -[AVDDeblockMetal compileDeblockFilters].cold.1
++ -[AVDDeblockMetal deblockFrame:intermediateCVPixelBuff:withQP:preserveOffset:needDecompress:]
++ -[AVDDeblockMetal deblockFrame:intermediateCVPixelBuff:withQP:preserveOffset:needDecompress:].cold.1
++ -[AVDDeblockMetal deblockFrame:intermediateCVPixelBuff:withQP:preserveOffset:needDecompress:].cold.2
++ -[AVDDeblockMetal deblockFrame:intermediateCVPixelBuff:withQP:preserveOffset:needDecompress:].cold.3
++ -[AVDDeblockMetal deblockFrame:intermediateCVPixelBuff:withQP:preserveOffset:needDecompress:].cold.4
++ -[AVDDeblockMetal deblockFrame:intermediateCVPixelBuff:withQP:preserveOffset:needDecompress:].cold.5
++ -[AVDDeblockMetal deblockFrame:intermediateCVPixelBuff:withQP:preserveOffset:needDecompress:].cold.6
++ -[AVDDeblockMetal init]
++ -[AVDScaleMetal .cxx_construct]
++ -[AVDScaleMetal .cxx_destruct]
++ -[AVDScaleMetal CompileBilinearScaler:]
++ -[AVDScaleMetal getPaddedInterchangeTiledHeight:plane:]
++ -[AVDScaleMetal getPaddedInterchangeTiledHeightFromIOSurface:plane:]
++ -[AVDScaleMetal getPaddedInterchangeTiledWidth:plane:]
++ -[AVDScaleMetal getPaddedInterchangeTiledWidthFromIOSurface:plane:]
++ -[AVDScaleMetal init]
++ -[AVDScaleMetal scaleFrameBilinear:dstFrame:srcRegion:dstRegion:bitDepth:]
++ -[AVDScaleMetal scaleFrameBilinear:dstFrame:srcRegion:dstRegion:bitDepth:].cold.1
++ -[AVDScaleMetal scaleFrameBilinear:dstFrame:srcRegion:dstRegion:bitDepth:].cold.2
++ -[AVDScaleMetal scaleFrameBilinear:dstFrame:srcRegion:dstRegion:bitDepth:].cold.3
++ -[AVDScaleMetal scaleFrameBilinear:dstFrame:srcRegion:dstRegion:bitDepth:].cold.4
++ -[AVDScaleMetal scaleFrameBilinear:dstFrame:srcRegion:dstRegion:bitDepth:].cold.5
++ -[AVDScaleMetal scaleFrameBilinear:dstFrame:srcRegion:dstRegion:bitDepth:].cold.6
++ -[MetalContextManager .cxx_destruct]
++ -[MetalContextManager initializeWithFrame:]
++ -[MetalContextManager initializeWithFrame:].cold.1
++ -[MetalContextManager initializeWithFrame:].cold.2
++ -[MetalContextManager initializeWithFrame:].cold.3
++ -[MetalContextManager initializeWithFrame:].cold.4
++ -[MetalContextManager setSharedReadAttributes:]
++ -[MetalContextManager setSharedReadWriteAttributes:]
++ -[MetalContextManager setSharedWriteAttributes:]
++ -[MetalContextManager sharedCommandQueue]
++ -[MetalContextManager sharedDevice]
++ -[MetalContextManager sharedLibrary]
++ -[MetalContextManager sharedReadAttributes]
++ -[MetalContextManager sharedReadWriteAttributes]
++ -[MetalContextManager sharedWriteAttributes]
++ GCC_except_table11
++ GCC_except_table13
++ GCC_except_table15
++ GCC_except_table16
++ GCC_except_table17
++ GCC_except_table19
++ GCC_except_table20
++ GCC_except_table33
++ GCC_except_table7
++ _AppleAVDOpenConnection.cold.5
++ _AppleAVDOpenConnection.cold.6
++ _AppleAVDOpenConnection.cold.7
++ _AppleAVDOpenConnection.cold.8
++ _AppleAVDWrapperH264DecoderDecodeFrame.cold.25
++ _AppleAVDWrapperH264DecoderDecodeFrame.cold.26
++ _AppleAVDWrapperH264DecoderStartSession.cold.8
++ _AppleAVDWrapperHEVCDecoderStartSession.cold.10
++ _CVMetalTextureCacheCreate
++ _CVMetalTextureCacheCreateTextureFromImage
++ _CVMetalTextureGetTexture
++ _CVPixelBufferCreateWithIOSurface
++ _CVPixelBufferGetHeightOfPlane
++ _CVPixelBufferGetPlaneCount
++ _CVPixelBufferGetWidthOfPlane
++ _IOSurfaceGetRegistryID
++ _JVTLibCompDecodeAVCDecoderConfigurationRecord
++ _JVTLibCompDecodeAVCDecoderConfigurationRecord.cold.1
++ _MTLCreateSystemDefaultDevice
++ _OBJC_CLASS_$_AVDBufferFillMetal
++ _OBJC_CLASS_$_AVDCommonMetal
++ _OBJC_CLASS_$_AVDDeblockMetal
++ _OBJC_CLASS_$_AVDScaleMetal
++ _OBJC_CLASS_$_MTLFunctionConstantValues
++ _OBJC_CLASS_$_MetalContextManager
++ _OBJC_CLASS_$_NSBundle
++ _OBJC_CLASS_$_NSConstantIntegerNumber
++ _OBJC_CLASS_$_NSDictionary
++ _OBJC_CLASS_$_NSObject
++ _OBJC_IVAR_$_AVDBufferFillMetal._preFillChroma
++ _OBJC_IVAR_$_AVDBufferFillMetal._preFillLuma
++ _OBJC_IVAR_$_AVDBufferFillMetal._supportsNonuniformThreadgroups
++ _OBJC_IVAR_$_AVDBufferFillMetal._textureCacheChromaPreFill
++ _OBJC_IVAR_$_AVDBufferFillMetal._textureCacheLumaPreFill
++ _OBJC_IVAR_$_AVDCommonMetal._commandQueue
++ _OBJC_IVAR_$_AVDCommonMetal._device
++ _OBJC_IVAR_$_AVDCommonMetal._library
++ _OBJC_IVAR_$_AVDCommonMetal._manager
++ _OBJC_IVAR_$_AVDCommonMetal._readAttributes
++ _OBJC_IVAR_$_AVDCommonMetal._readWriteAttributes
++ _OBJC_IVAR_$_AVDCommonMetal._writeAttributes
++ _OBJC_IVAR_$_AVDDeblockMetal._horizontalOffset
++ _OBJC_IVAR_$_AVDDeblockMetal._inloopDeblockH
++ _OBJC_IVAR_$_AVDDeblockMetal._inloopDeblockV
++ _OBJC_IVAR_$_AVDDeblockMetal._textureCacheChromaIn
++ _OBJC_IVAR_$_AVDDeblockMetal._textureCacheChromaOutV
++ _OBJC_IVAR_$_AVDDeblockMetal._verticalOffset
++ _OBJC_IVAR_$_AVDScaleMetal._bilinearScale
++ _OBJC_IVAR_$_AVDScaleMetal._supportsNonuniformThreadgroups
++ _OBJC_IVAR_$_AVDScaleMetal._textureCacheChromaScale
++ _OBJC_IVAR_$_AVDScaleMetal._textureCacheLumaScale
++ _OBJC_IVAR_$_MetalContextManager._sharedCommandQueue
++ _OBJC_IVAR_$_MetalContextManager._sharedDevice
++ _OBJC_IVAR_$_MetalContextManager._sharedLibrary
++ _OBJC_IVAR_$_MetalContextManager._sharedReadAttributes
++ _OBJC_IVAR_$_MetalContextManager._sharedReadWriteAttributes
++ _OBJC_IVAR_$_MetalContextManager._sharedWriteAttributes
++ _OBJC_METACLASS_$_AVDBufferFillMetal
++ _OBJC_METACLASS_$_AVDCommonMetal
++ _OBJC_METACLASS_$_AVDDeblockMetal
++ _OBJC_METACLASS_$_AVDScaleMetal
++ _OBJC_METACLASS_$_MetalContextManager
++ _OBJC_METACLASS_$_NSObject
++ __Block_copy
++ __Block_object_dispose
++ __Block_release
++ __NSConcreteStackBlock
++ __OBJC_$_CLASS_METHODS_MetalContextManager
++ __OBJC_$_INSTANCE_METHODS_AVDBufferFillMetal
++ __OBJC_$_INSTANCE_METHODS_AVDCommonMetal
++ __OBJC_$_INSTANCE_METHODS_AVDDeblockMetal
++ __OBJC_$_INSTANCE_METHODS_AVDScaleMetal
++ __OBJC_$_INSTANCE_METHODS_MetalContextManager
++ __OBJC_$_INSTANCE_VARIABLES_AVDBufferFillMetal
++ __OBJC_$_INSTANCE_VARIABLES_AVDCommonMetal
++ __OBJC_$_INSTANCE_VARIABLES_AVDDeblockMetal
++ __OBJC_$_INSTANCE_VARIABLES_AVDScaleMetal
++ __OBJC_$_INSTANCE_VARIABLES_MetalContextManager
++ __OBJC_$_PROP_LIST_MetalContextManager
++ __OBJC_CLASS_RO_$_AVDBufferFillMetal
++ __OBJC_CLASS_RO_$_AVDCommonMetal
++ __OBJC_CLASS_RO_$_AVDDeblockMetal
++ __OBJC_CLASS_RO_$_AVDScaleMetal
++ __OBJC_CLASS_RO_$_MetalContextManager
++ __OBJC_METACLASS_RO_$_AVDBufferFillMetal
++ __OBJC_METACLASS_RO_$_AVDCommonMetal
++ __OBJC_METACLASS_RO_$_AVDDeblockMetal
++ __OBJC_METACLASS_RO_$_AVDScaleMetal
++ __OBJC_METACLASS_RO_$_MetalContextManager
++ __Z14hevcCalcViewIdP26hevc_video_parameter_set_ta
++ __Z17calcTilePositionsP28hevc_picture_parameter_set_tP29hevc_sequence_parameter_set_t
++ __Z21hevcCalcRefPiclayerIdP26hevc_video_parameter_set_tiaP27hevc_slice_segment_header_t
++ __Z21hevcConvOlsIdxToLsIdxP26hevc_video_parameter_set_ti
++ __Z22createNerineAvcDecoderPv
++ __Z22createNerineAvxDecoderPv
++ __Z22createNerineLghDecoderPv
++ __Z23AppleAVDDisplayCallbackP22_sAppleAVDVideoContextjjj10RvraParams16DecProfileParamsjajjj
++ __Z23AppleAVDDisplayCallbackP22_sAppleAVDVideoContextjjj10RvraParams16DecProfileParamsjajjj.cold.1
++ __Z23AppleAVDDisplayCallbackP22_sAppleAVDVideoContextjjj10RvraParams16DecProfileParamsjajjj.cold.10
++ __Z23AppleAVDDisplayCallbackP22_sAppleAVDVideoContextjjj10RvraParams16DecProfileParamsjajjj.cold.11
++ __Z23AppleAVDDisplayCallbackP22_sAppleAVDVideoContextjjj10RvraParams16DecProfileParamsjajjj.cold.12
++ __Z23AppleAVDDisplayCallbackP22_sAppleAVDVideoContextjjj10RvraParams16DecProfileParamsjajjj.cold.13
++ __Z23AppleAVDDisplayCallbackP22_sAppleAVDVideoContextjjj10RvraParams16DecProfileParamsjajjj.cold.14
++ __Z23AppleAVDDisplayCallbackP22_sAppleAVDVideoContextjjj10RvraParams16DecProfileParamsjajjj.cold.15
++ __Z23AppleAVDDisplayCallbackP22_sAppleAVDVideoContextjjj10RvraParams16DecProfileParamsjajjj.cold.2
++ __Z23AppleAVDDisplayCallbackP22_sAppleAVDVideoContextjjj10RvraParams16DecProfileParamsjajjj.cold.3
++ __Z23AppleAVDDisplayCallbackP22_sAppleAVDVideoContextjjj10RvraParams16DecProfileParamsjajjj.cold.4
++ __Z23AppleAVDDisplayCallbackP22_sAppleAVDVideoContextjjj10RvraParams16DecProfileParamsjajjj.cold.5
++ __Z23AppleAVDDisplayCallbackP22_sAppleAVDVideoContextjjj10RvraParams16DecProfileParamsjajjj.cold.6
++ __Z23AppleAVDDisplayCallbackP22_sAppleAVDVideoContextjjj10RvraParams16DecProfileParamsjajjj.cold.7
++ __Z23AppleAVDDisplayCallbackP22_sAppleAVDVideoContextjjj10RvraParams16DecProfileParamsjajjj.cold.8
++ __Z23AppleAVDDisplayCallbackP22_sAppleAVDVideoContextjjj10RvraParams16DecProfileParamsjajjj.cold.9
++ __Z23createNerineHevcDecoderPv
++ __Z23hevcCalcNumReflayerPicsP26hevc_video_parameter_set_tai
++ __Z27AppleAVDParsedFrameResponsePvijiii
++ __Z27hevcDecodeTargetLayerIdlistP26hevc_video_parameter_set_ti
++ __Z29hevcCalcNumActiveRefLayerPicsP26hevc_video_parameter_set_taiP27hevc_slice_segment_header_t
++ __Z35hevcCalcSpsMaxDecPicBufferingMinus1P26hevc_video_parameter_set_tP29hevc_sequence_parameter_set_tia
++ __Z42hevcPerformRangeChecksAndComputeParametersP29hevc_sequence_parameter_set_tP28hevc_picture_parameter_set_t
++ __Z42hevcPerformRangeChecksAndComputeParametersP29hevc_sequence_parameter_set_tP28hevc_picture_parameter_set_t.cold.1
++ __Z42hevcPerformRangeChecksAndComputeParametersP29hevc_sequence_parameter_set_tP28hevc_picture_parameter_set_t.cold.2
++ __Z42hevcPerformRangeChecksAndComputeParametersP29hevc_sequence_parameter_set_tP28hevc_picture_parameter_set_t.cold.3
++ __ZN10BufferPool9getBufferEPjjP10__CVBufferP27OpaqueVTVideoDecoderSessionP25OpaqueVTVideoDecoderFrameb
++ __ZN10BufferPool9getBufferEPjjP10__CVBufferP27OpaqueVTVideoDecoderSessionP25OpaqueVTVideoDecoderFrameb.cold.1
++ __ZN10BufferPool9getBufferEPjjP10__CVBufferP27OpaqueVTVideoDecoderSessionP25OpaqueVTVideoDecoderFrameb.cold.2
++ __ZN10BufferPool9getBufferEPjjP10__CVBufferP27OpaqueVTVideoDecoderSessionP25OpaqueVTVideoDecoderFrameb.cold.3
++ __ZN10BufferPool9getBufferEPjjP10__CVBufferP27OpaqueVTVideoDecoderSessionP25OpaqueVTVideoDecoderFrameb.cold.4
++ __ZN10BufferPool9getBufferEPjjP10__CVBufferP27OpaqueVTVideoDecoderSessionP25OpaqueVTVideoDecoderFrameb.cold.5
++ __ZN10BufferPool9getBufferEPjjP10__CVBufferP27OpaqueVTVideoDecoderSessionP25OpaqueVTVideoDecoderFrameb.cold.6
++ __ZN10BufferPool9getBufferEPjjP10__CVBufferP27OpaqueVTVideoDecoderSessionP25OpaqueVTVideoDecoderFrameb.cold.7
++ __ZN11CAVDDecoder15setAVDSharedMemEya
++ __ZN11CAVDDecoder19frameParsingPendingEj
++ __ZN11CAVDDecoder20frameParsingCompleteEj
++ __ZN14CAHDecClaryAvc24populatePictureRegistersEv.cold.10
++ __ZN14CAHDecClaryAvc24populatePictureRegistersEv.cold.7
++ __ZN14CAHDecClaryAvc24populatePictureRegistersEv.cold.8
++ __ZN14CAHDecClaryAvc24populatePictureRegistersEv.cold.9
++ __ZN14CAHDecDaisyAvc24populatePictureRegistersEv.cold.10
++ __ZN14CAHDecDaisyAvc24populatePictureRegistersEv.cold.7
++ __ZN14CAHDecDaisyAvc24populatePictureRegistersEv.cold.8
++ __ZN14CAHDecDaisyAvc24populatePictureRegistersEv.cold.9
++ __ZN14CAHDecDaisyAvx24populatePictureRegistersEv.cold.1
++ __ZN14CAHDecDaisyAvx24populatePictureRegistersEv.cold.2
++ __ZN14CAHDecDaisyAvx24populatePictureRegistersEv.cold.3
++ __ZN14CAHDecDaisyAvx24populatePictureRegistersEv.cold.4
++ __ZN14CAHDecDaisyLgh4initEv.cold.4
++ __ZN14CAHDecDaisyLgh4initEv.cold.5
++ __ZN14CAHDecDaisyLghD2Ev.cold.1
++ __ZN14CAHDecIxoraAvc24populatePictureRegistersEv.cold.10
++ __ZN14CAHDecIxoraAvc24populatePictureRegistersEv.cold.7
++ __ZN14CAHDecIxoraAvc24populatePictureRegistersEv.cold.8
++ __ZN14CAHDecIxoraAvc24populatePictureRegistersEv.cold.9
++ __ZN14CAHDecIxoraAvx24populatePictureRegistersEv.cold.1
++ __ZN14CAHDecIxoraAvx24populatePictureRegistersEv.cold.2
++ __ZN14CAHDecIxoraAvx24populatePictureRegistersEv.cold.3
++ __ZN14CAHDecIxoraAvx24populatePictureRegistersEv.cold.4
++ __ZN14CAHDecIxoraLgh4initEv.cold.4
++ __ZN14CAHDecIxoraLgh4initEv.cold.5
++ __ZN14CAHDecIxoraLghD2Ev.cold.1
++ __ZN14CAHDecLotusAvc24populatePictureRegistersEv.cold.10
++ __ZN14CAHDecLotusAvc24populatePictureRegistersEv.cold.7
++ __ZN14CAHDecLotusAvc24populatePictureRegistersEv.cold.8
++ __ZN14CAHDecLotusAvc24populatePictureRegistersEv.cold.9
++ __ZN14CAHDecTansyAvc24populatePictureRegistersEv.cold.10
++ __ZN14CAHDecTansyAvc24populatePictureRegistersEv.cold.7
++ __ZN14CAHDecTansyAvc24populatePictureRegistersEv.cold.8
++ __ZN14CAHDecTansyAvc24populatePictureRegistersEv.cold.9
++ __ZN14CAHDecTansyAvx24populatePictureRegistersEv.cold.1
++ __ZN14CAHDecTansyAvx24populatePictureRegistersEv.cold.2
++ __ZN14CAHDecTansyAvx24populatePictureRegistersEv.cold.3
++ __ZN14CAHDecTansyAvx24populatePictureRegistersEv.cold.4
++ __ZN14CAHDecTansyLgh4initEv.cold.4
++ __ZN14CAHDecTansyLgh4initEv.cold.5
++ __ZN14CAHDecTansyLghD2Ev.cold.1
++ __ZN14CAHDecThymeAvc24populatePictureRegistersEv.cold.10
++ __ZN14CAHDecThymeAvc24populatePictureRegistersEv.cold.7
++ __ZN14CAHDecThymeAvc24populatePictureRegistersEv.cold.8
++ __ZN14CAHDecThymeAvc24populatePictureRegistersEv.cold.9
++ __ZN14CAHDecThymeAvx24populatePictureRegistersEv.cold.1
++ __ZN14CAHDecThymeAvx24populatePictureRegistersEv.cold.2
++ __ZN14CAHDecThymeAvx24populatePictureRegistersEv.cold.3
++ __ZN14CAHDecThymeAvx24populatePictureRegistersEv.cold.4
++ __ZN14CAHDecThymeLgh4initEv.cold.4
++ __ZN14CAHDecThymeLgh4initEv.cold.5
++ __ZN14CAHDecThymeLghD2Ev.cold.1
++ __ZN14CAHDecViolaAvc24populatePictureRegistersEv.cold.5
++ __ZN14CAHDecViolaAvc24populatePictureRegistersEv.cold.6
++ __ZN14CAHDecViolaAvc24populatePictureRegistersEv.cold.7
++ __ZN14CAVDAvcDecoder16processParserOutEP13sAvcParserOutPhRP7sAvcSPSRP7sAvcPPSR14avd_seq_paramsRiRb
++ __ZN14CAVDAvcDecoder16processParserOutEP13sAvcParserOutPhRP7sAvcSPSRP7sAvcPPSR14avd_seq_paramsRiRb.cold.1
++ __ZN14CAVDAvcDecoder16processParserOutEP13sAvcParserOutPhRP7sAvcSPSRP7sAvcPPSR14avd_seq_paramsRiRb.cold.10
++ __ZN14CAVDAvcDecoder16processParserOutEP13sAvcParserOutPhRP7sAvcSPSRP7sAvcPPSR14avd_seq_paramsRiRb.cold.11
++ __ZN14CAVDAvcDecoder16processParserOutEP13sAvcParserOutPhRP7sAvcSPSRP7sAvcPPSR14avd_seq_paramsRiRb.cold.12
++ __ZN14CAVDAvcDecoder16processParserOutEP13sAvcParserOutPhRP7sAvcSPSRP7sAvcPPSR14avd_seq_paramsRiRb.cold.13
++ __ZN14CAVDAvcDecoder16processParserOutEP13sAvcParserOutPhRP7sAvcSPSRP7sAvcPPSR14avd_seq_paramsRiRb.cold.2
++ __ZN14CAVDAvcDecoder16processParserOutEP13sAvcParserOutPhRP7sAvcSPSRP7sAvcPPSR14avd_seq_paramsRiRb.cold.3
++ __ZN14CAVDAvcDecoder16processParserOutEP13sAvcParserOutPhRP7sAvcSPSRP7sAvcPPSR14avd_seq_paramsRiRb.cold.4
++ __ZN14CAVDAvcDecoder16processParserOutEP13sAvcParserOutPhRP7sAvcSPSRP7sAvcPPSR14avd_seq_paramsRiRb.cold.5
++ __ZN14CAVDAvcDecoder16processParserOutEP13sAvcParserOutPhRP7sAvcSPSRP7sAvcPPSR14avd_seq_paramsRiRb.cold.6
++ __ZN14CAVDAvcDecoder16processParserOutEP13sAvcParserOutPhRP7sAvcSPSRP7sAvcPPSR14avd_seq_paramsRiRb.cold.7
++ __ZN14CAVDAvcDecoder16processParserOutEP13sAvcParserOutPhRP7sAvcSPSRP7sAvcPPSR14avd_seq_paramsRiRb.cold.8
++ __ZN14CAVDAvcDecoder16processParserOutEP13sAvcParserOutPhRP7sAvcSPSRP7sAvcPPSR14avd_seq_paramsRiRb.cold.9
++ __ZN14CAVDAvcDecoder16processParserOutEP13sAvcParserOutRbS2_RiS3_
++ __ZN14CAVDAvcDecoder16processParserOutEP13sAvcParserOutRbS2_RiS3_.cold.1
++ __ZN14CAVDAvcDecoder16processParserOutEP13sAvcParserOutRbS2_RiS3_.cold.2
++ __ZN14CAVDAvcDecoder6VAInitEv.cold.10
++ __ZN14CAVDAvcDecoder6VAInitEv.cold.11
++ __ZN14CAVDAvcDecoder6VAInitEv.cold.12
++ __ZN14CAVDLghDecoder13VADecodeFrameEPhijiiiP14avd_seq_params.cold.12
++ __ZN14CAVDLghDecoder19frameParsingPendingEj
++ __ZN14CAVDLghDecoder20frameParsingCompleteEj
++ __ZN14CAVDLghDecoder20frameParsingCompleteEj.cold.1
++ __ZN14CAVDLghDecoder35waitForAllFramesToFinishParsingByHWEj
++ __ZN14CAVDLghDecoder35waitForAllFramesToFinishParsingByHWEj.cold.1
++ __ZN14CAVDLghDecoder6VAInitEv.cold.8
++ __ZN15CAHDecCatnipAvc24populatePictureRegistersEv.cold.10
++ __ZN15CAHDecCatnipAvc24populatePictureRegistersEv.cold.7
++ __ZN15CAHDecCatnipAvc24populatePictureRegistersEv.cold.8
++ __ZN15CAHDecCatnipAvc24populatePictureRegistersEv.cold.9
++ __ZN15CAHDecCatnipAvx24populatePictureRegistersEv.cold.1
++ __ZN15CAHDecCatnipAvx24populatePictureRegistersEv.cold.2
++ __ZN15CAHDecCatnipAvx24populatePictureRegistersEv.cold.3
++ __ZN15CAHDecCatnipAvx24populatePictureRegistersEv.cold.4
++ __ZN15CAHDecCatnipLgh4initEv.cold.4
++ __ZN15CAHDecCatnipLgh4initEv.cold.5
++ __ZN15CAHDecCatnipLghD2Ev.cold.1
++ __ZN15CAHDecClaryHevc24populatePictureRegistersEv.cold.5
++ __ZN15CAHDecClaryHevc24populatePictureRegistersEv.cold.6
++ __ZN15CAHDecClaryHevc24populatePictureRegistersEv.cold.7
++ __ZN15CAHDecClaryHevc24populatePictureRegistersEv.cold.8
++ __ZN15CAHDecDahliaAvc24populatePictureRegistersEv.cold.10
++ __ZN15CAHDecDahliaAvc24populatePictureRegistersEv.cold.7
++ __ZN15CAHDecDahliaAvc24populatePictureRegistersEv.cold.8
++ __ZN15CAHDecDahliaAvc24populatePictureRegistersEv.cold.9
++ __ZN15CAHDecDaisyHevc24populatePictureRegistersEv.cold.5
++ __ZN15CAHDecDaisyHevc24populatePictureRegistersEv.cold.6
++ __ZN15CAHDecDaisyHevc24populatePictureRegistersEv.cold.7
++ __ZN15CAHDecDaisyHevc24populatePictureRegistersEv.cold.8
++ __ZN15CAHDecIxoraHevc24populatePictureRegistersEv.cold.5
++ __ZN15CAHDecIxoraHevc24populatePictureRegistersEv.cold.6
++ __ZN15CAHDecIxoraHevc24populatePictureRegistersEv.cold.7
++ __ZN15CAHDecIxoraHevc24populatePictureRegistersEv.cold.8
++ __ZN15CAHDecLotusHevc24populatePictureRegistersEv.cold.5
++ __ZN15CAHDecLotusHevc24populatePictureRegistersEv.cold.6
++ __ZN15CAHDecLotusHevc24populatePictureRegistersEv.cold.7
++ __ZN15CAHDecLotusHevc24populatePictureRegistersEv.cold.8
++ __ZN15CAHDecNerineAvc11decHdrCSizeEj
++ __ZN15CAHDecNerineAvc11decHdrYSizeEj
++ __ZN15CAHDecNerineAvc11initPictureEjjb
++ __ZN15CAHDecNerineAvc11initPictureEjjb.cold.1
++ __ZN15CAHDecNerineAvc12decodeBufferEv
++ __ZN15CAHDecNerineAvc12getSWRStrideEjjjj
++ __ZN15CAHDecNerineAvc13decHdrCStrideEv
++ __ZN15CAHDecNerineAvc13decHdrYStrideEv
++ __ZN15CAHDecNerineAvc13getTileEndCTUEjj
++ __ZN15CAHDecNerineAvc14decHdrCLinAddrEj
++ __ZN15CAHDecNerineAvc14decHdrYLinAddrEj
++ __ZN15CAHDecNerineAvc14populateSlicesEj
++ __ZN15CAHDecNerineAvc14setVPInstrFifoEj
++ __ZN15CAHDecNerineAvc15copyScalingListER15AvcScalingListsR13AvcQtMatCoeffPhS4_S4_i
++ __ZN15CAHDecNerineAvc15freeWorkBuf_PPSEPv
++ __ZN15CAHDecNerineAvc15freeWorkBuf_SPSEv
++ __ZN15CAHDecNerineAvc15getTileIdxAboveEj
++ __ZN15CAHDecNerineAvc15getTileStartCTUEjj
++ __ZN15CAHDecNerineAvc15populateAvdWorkEj
++ __ZN15CAHDecNerineAvc16allocWorkBuf_PPSEPvS0_S0_
++ __ZN15CAHDecNerineAvc16allocWorkBuf_PPSEPvS0_S0_.cold.1
++ __ZN15CAHDecNerineAvc16allocWorkBuf_PPSEPvS0_S0_.cold.2
++ __ZN15CAHDecNerineAvc16allocWorkBuf_PPSEPvS0_S0_.cold.3
++ __ZN15CAHDecNerineAvc16allocWorkBuf_PPSEPvS0_S0_.cold.4
++ __ZN15CAHDecNerineAvc16allocWorkBuf_PPSEPvS0_S0_.cold.5
++ __ZN15CAHDecNerineAvc16allocWorkBuf_SPSEPv
++ __ZN15CAHDecNerineAvc16allocWorkBuf_SPSEPv.cold.1
++ __ZN15CAHDecNerineAvc16allocWorkBuf_SPSEPv.cold.2
++ __ZN15CAHDecNerineAvc16allocWorkBuf_SPSEPv.cold.3
++ __ZN15CAHDecNerineAvc16decodeBufferSizeEv
++ __ZN15CAHDecNerineAvc21updateCommonRegistersEj
++ __ZN15CAHDecNerineAvc22populateSliceRegistersEP17AvcSliceRegistersi
++ __ZN15CAHDecNerineAvc23populateCommonRegistersEv
++ __ZN15CAHDecNerineAvc24populatePictureRegistersEv
++ __ZN15CAHDecNerineAvc24populatePictureRegistersEv.cold.1
++ __ZN15CAHDecNerineAvc24populatePictureRegistersEv.cold.10
++ __ZN15CAHDecNerineAvc24populatePictureRegistersEv.cold.2
++ __ZN15CAHDecNerineAvc24populatePictureRegistersEv.cold.3
++ __ZN15CAHDecNerineAvc24populatePictureRegistersEv.cold.4
++ __ZN15CAHDecNerineAvc24populatePictureRegistersEv.cold.5
++ __ZN15CAHDecNerineAvc24populatePictureRegistersEv.cold.6
++ __ZN15CAHDecNerineAvc24populatePictureRegistersEv.cold.7
++ __ZN15CAHDecNerineAvc24populatePictureRegistersEv.cold.8
++ __ZN15CAHDecNerineAvc24populatePictureRegistersEv.cold.9
++ __ZN15CAHDecNerineAvc25AvcPicScalingListFallBackEP7sAvcSPSP7sAvcPPS
++ __ZN15CAHDecNerineAvc25AvcSeqScalingListFallBackEP7sAvcSPS
++ __ZN15CAHDecNerineAvc25populateSequenceRegistersEv
++ __ZN15CAHDecNerineAvc4initEv
++ __ZN15CAHDecNerineAvc4initEv.cold.1
++ __ZN15CAHDecNerineAvcC2EP14CAVDAvcDecoder
++ __ZN15CAHDecNerineAvcD0Ev
++ __ZN15CAHDecNerineAvcD1Ev
++ __ZN15CAHDecNerineAvcD2Ev
++ __ZN15CAHDecNerineAvx10isLfPadDisEv
++ __ZN15CAHDecNerineAvx11decHdrCSizeEj
++ __ZN15CAHDecNerineAvx11decHdrYSizeEj
++ __ZN15CAHDecNerineAvx11initPictureEjjb
++ __ZN15CAHDecNerineAvx12decodeBufferEv
++ __ZN15CAHDecNerineAvx12startPictureEj
++ __ZN15CAHDecNerineAvx12startPictureEj.cold.1
++ __ZN15CAHDecNerineAvx13DecodePictureEjj
++ __ZN15CAHDecNerineAvx13decHdrCStrideEv
++ __ZN15CAHDecNerineAvx13decHdrYStrideEv
++ __ZN15CAHDecNerineAvx13getTileEndCTUEjj
++ __ZN15CAHDecNerineAvx13populateTilesEv
++ __ZN15CAHDecNerineAvx14decHdrCLinAddrEj
++ __ZN15CAHDecNerineAvx14decHdrYLinAddrEj
++ __ZN15CAHDecNerineAvx14populateSlicesEj
++ __ZN15CAHDecNerineAvx14setVPInstrFifoEj
++ __ZN15CAHDecNerineAvx15freeWorkBuf_PPSEPv
++ __ZN15CAHDecNerineAvx15freeWorkBuf_SPSEv
++ __ZN15CAHDecNerineAvx15getTileIdxAboveEj
++ __ZN15CAHDecNerineAvx15getTileStartCTUEjj
++ __ZN15CAHDecNerineAvx15populateAvdWorkEj
++ __ZN15CAHDecNerineAvx16allocWorkBuf_PPSEPvS0_S0_
++ __ZN15CAHDecNerineAvx16allocWorkBuf_PPSEPvS0_S0_.cold.1
++ __ZN15CAHDecNerineAvx16allocWorkBuf_PPSEPvS0_S0_.cold.10
++ __ZN15CAHDecNerineAvx16allocWorkBuf_PPSEPvS0_S0_.cold.11
++ __ZN15CAHDecNerineAvx16allocWorkBuf_PPSEPvS0_S0_.cold.12
++ __ZN15CAHDecNerineAvx16allocWorkBuf_PPSEPvS0_S0_.cold.13
++ __ZN15CAHDecNerineAvx16allocWorkBuf_PPSEPvS0_S0_.cold.2
++ __ZN15CAHDecNerineAvx16allocWorkBuf_PPSEPvS0_S0_.cold.3
++ __ZN15CAHDecNerineAvx16allocWorkBuf_PPSEPvS0_S0_.cold.4
++ __ZN15CAHDecNerineAvx16allocWorkBuf_PPSEPvS0_S0_.cold.5
++ __ZN15CAHDecNerineAvx16allocWorkBuf_PPSEPvS0_S0_.cold.6
++ __ZN15CAHDecNerineAvx16allocWorkBuf_PPSEPvS0_S0_.cold.7
++ __ZN15CAHDecNerineAvx16allocWorkBuf_PPSEPvS0_S0_.cold.8
++ __ZN15CAHDecNerineAvx16allocWorkBuf_PPSEPvS0_S0_.cold.9
++ __ZN15CAHDecNerineAvx16allocWorkBuf_SPSEPv
++ __ZN15CAHDecNerineAvx16allocWorkBuf_SPSEPv.cold.1
++ __ZN15CAHDecNerineAvx16allocWorkBuf_SPSEPv.cold.2
++ __ZN15CAHDecNerineAvx16allocWorkBuf_SPSEPv.cold.3
++ __ZN15CAHDecNerineAvx16allocWorkBuf_SPSEPv.cold.4
++ __ZN15CAHDecNerineAvx16decodeBufferSizeEv
++ __ZN15CAHDecNerineAvx17getPPSWorkBufSizeEPvS0_
++ __ZN15CAHDecNerineAvx18populateClearTilesEv
++ __ZN15CAHDecNerineAvx20getUpscaleConvolveX0Eiii
++ __ZN15CAHDecNerineAvx21populateTileRegistersEP16AvxTileRegistersj
++ __ZN15CAHDecNerineAvx21updateCommonRegistersEj
++ __ZN15CAHDecNerineAvx22calc_az_left_tile_sizeEiiiiiiii
++ __ZN15CAHDecNerineAvx22calc_lf_left_tile_sizeEiiiiiiiii
++ __ZN15CAHDecNerineAvx22calc_lr_left_tile_sizeEiiiiiiiii
++ __ZN15CAHDecNerineAvx22getUpscaleConvolveStepEii
++ __ZN15CAHDecNerineAvx22ppsWorkBufSizeIncreaseEPvS0_
++ __ZN15CAHDecNerineAvx23populateAvxVPDependencyEv
++ __ZN15CAHDecNerineAvx23populateCommonRegistersEv
++ __ZN15CAHDecNerineAvx24populateAddressRegistersEv
++ __ZN15CAHDecNerineAvx24populateAddressRegistersEv.cold.1
++ __ZN15CAHDecNerineAvx24populatePictureRegistersEv
++ __ZN15CAHDecNerineAvx24populatePictureRegistersEv.cold.1
++ __ZN15CAHDecNerineAvx24populatePictureRegistersEv.cold.2
++ __ZN15CAHDecNerineAvx24populatePictureRegistersEv.cold.3
++ __ZN15CAHDecNerineAvx24populatePictureRegistersEv.cold.4
++ __ZN15CAHDecNerineAvx25populateSequenceRegistersEv
++ __ZN15CAHDecNerineAvx27calc_lf_above_pix_tile_sizeEiiiiiiii
++ __ZN15CAHDecNerineAvx27populateDecryptionRegistersEv
++ __ZN15CAHDecNerineAvx4initEv
++ __ZN15CAHDecNerineAvx4initEv.cold.1
++ __ZN15CAHDecNerineAvx4initEv.cold.2
++ __ZN15CAHDecNerineAvx4initEv.cold.3
++ __ZN15CAHDecNerineAvxC2EP14CAVDAvxDecoder
++ __ZN15CAHDecNerineAvxD0Ev
++ __ZN15CAHDecNerineAvxD1Ev
++ __ZN15CAHDecNerineAvxD2Ev
++ __ZN15CAHDecNerineLgh11decHdrCSizeEj
++ __ZN15CAHDecNerineLgh11decHdrYSizeEj
++ __ZN15CAHDecNerineLgh11initPictureEjjb
++ __ZN15CAHDecNerineLgh12decodeBufferEv
++ __ZN15CAHDecNerineLgh12getSWRStrideEjjjj
++ __ZN15CAHDecNerineLgh12startPictureEj
++ __ZN15CAHDecNerineLgh12startPictureEj.cold.1
++ __ZN15CAHDecNerineLgh13DecodePictureEj
++ __ZN15CAHDecNerineLgh13decHdrCStrideEv
++ __ZN15CAHDecNerineLgh13decHdrYStrideEv
++ __ZN15CAHDecNerineLgh13getTileEndCTUEjj
++ __ZN15CAHDecNerineLgh13populateTilesEv
++ __ZN15CAHDecNerineLgh14clearSegBufferEv
++ __ZN15CAHDecNerineLgh14decHdrCLinAddrEj
++ __ZN15CAHDecNerineLgh14decHdrYLinAddrEj
++ __ZN15CAHDecNerineLgh14populateSlicesEj
++ __ZN15CAHDecNerineLgh14setVPInstrFifoEj
++ __ZN15CAHDecNerineLgh15freeWorkBuf_PPSEPv
++ __ZN15CAHDecNerineLgh15freeWorkBuf_SPSEv
++ __ZN15CAHDecNerineLgh15getTileIdxAboveEj
++ __ZN15CAHDecNerineLgh15getTileStartCTUEjj
++ __ZN15CAHDecNerineLgh15populateAvdWorkEj
++ __ZN15CAHDecNerineLgh16allocWorkBuf_PPSEPvS0_S0_
++ __ZN15CAHDecNerineLgh16allocWorkBuf_PPSEPvS0_S0_.cold.1
++ __ZN15CAHDecNerineLgh16allocWorkBuf_PPSEPvS0_S0_.cold.2
++ __ZN15CAHDecNerineLgh16allocWorkBuf_PPSEPvS0_S0_.cold.3
++ __ZN15CAHDecNerineLgh16allocWorkBuf_PPSEPvS0_S0_.cold.4
++ __ZN15CAHDecNerineLgh16allocWorkBuf_PPSEPvS0_S0_.cold.5
++ __ZN15CAHDecNerineLgh16allocWorkBuf_PPSEPvS0_S0_.cold.6
++ __ZN15CAHDecNerineLgh16allocWorkBuf_PPSEPvS0_S0_.cold.7
++ __ZN15CAHDecNerineLgh16allocWorkBuf_SPSEPv
++ __ZN15CAHDecNerineLgh16allocWorkBuf_SPSEPv.cold.1
++ __ZN15CAHDecNerineLgh16allocWorkBuf_SPSEPv.cold.2
++ __ZN15CAHDecNerineLgh16allocWorkBuf_SPSEPv.cold.3
++ __ZN15CAHDecNerineLgh16allocWorkBuf_SPSEPv.cold.4
++ __ZN15CAHDecNerineLgh16decodeBufferSizeEv
++ __ZN15CAHDecNerineLgh21populateTileRegistersEP16LghTileRegisters
++ __ZN15CAHDecNerineLgh21updateCommonRegistersEj
++ __ZN15CAHDecNerineLgh23populateCommonRegistersEv
++ __ZN15CAHDecNerineLgh24populatePictureRegistersEv
++ __ZN15CAHDecNerineLgh25populateSequenceRegistersEv
++ __ZN15CAHDecNerineLgh4initEv
++ __ZN15CAHDecNerineLgh4initEv.cold.1
++ __ZN15CAHDecNerineLgh4initEv.cold.2
++ __ZN15CAHDecNerineLgh4initEv.cold.3
++ __ZN15CAHDecNerineLgh4initEv.cold.4
++ __ZN15CAHDecNerineLgh4initEv.cold.5
++ __ZN15CAHDecNerineLghC2EP14CAVDLghDecoder
++ __ZN15CAHDecNerineLghD0Ev
++ __ZN15CAHDecNerineLghD1Ev
++ __ZN15CAHDecNerineLghD2Ev
++ __ZN15CAHDecNerineLghD2Ev.cold.1
++ __ZN15CAHDecRadishAvc11decHdrCSizeEj
++ __ZN15CAHDecRadishAvc11decHdrYSizeEj
++ __ZN15CAHDecRadishAvc11initPictureEjjb
++ __ZN15CAHDecRadishAvc11initPictureEjjb.cold.1
++ __ZN15CAHDecRadishAvc12decodeBufferEv
++ __ZN15CAHDecRadishAvc12getSWRStrideEjjjj
++ __ZN15CAHDecRadishAvc13decHdrCStrideEv
++ __ZN15CAHDecRadishAvc13decHdrYStrideEv
++ __ZN15CAHDecRadishAvc13getTileEndCTUEjj
++ __ZN15CAHDecRadishAvc14decHdrCLinAddrEj
++ __ZN15CAHDecRadishAvc14decHdrYLinAddrEj
++ __ZN15CAHDecRadishAvc14populateSlicesEj
++ __ZN15CAHDecRadishAvc14setVPInstrFifoEj
++ __ZN15CAHDecRadishAvc15copyScalingListER15AvcScalingListsR13AvcQtMatCoeffPhS4_S4_i
++ __ZN15CAHDecRadishAvc15freeWorkBuf_PPSEPv
++ __ZN15CAHDecRadishAvc15freeWorkBuf_SPSEv
++ __ZN15CAHDecRadishAvc15getTileIdxAboveEj
++ __ZN15CAHDecRadishAvc15getTileStartCTUEjj
++ __ZN15CAHDecRadishAvc15populateAvdWorkEj
++ __ZN15CAHDecRadishAvc16allocWorkBuf_PPSEPvS0_S0_
++ __ZN15CAHDecRadishAvc16allocWorkBuf_PPSEPvS0_S0_.cold.1
++ __ZN15CAHDecRadishAvc16allocWorkBuf_PPSEPvS0_S0_.cold.2
++ __ZN15CAHDecRadishAvc16allocWorkBuf_PPSEPvS0_S0_.cold.3
++ __ZN15CAHDecRadishAvc16allocWorkBuf_PPSEPvS0_S0_.cold.4
++ __ZN15CAHDecRadishAvc16allocWorkBuf_PPSEPvS0_S0_.cold.5
++ __ZN15CAHDecRadishAvc16allocWorkBuf_SPSEPv
++ __ZN15CAHDecRadishAvc16allocWorkBuf_SPSEPv.cold.1
++ __ZN15CAHDecRadishAvc16allocWorkBuf_SPSEPv.cold.2
++ __ZN15CAHDecRadishAvc16allocWorkBuf_SPSEPv.cold.3
++ __ZN15CAHDecRadishAvc16decodeBufferSizeEv
++ __ZN15CAHDecRadishAvc21updateCommonRegistersEj
++ __ZN15CAHDecRadishAvc22populateSliceRegistersEP17AvcSliceRegistersi
++ __ZN15CAHDecRadishAvc23populateCommonRegistersEv
++ __ZN15CAHDecRadishAvc24populatePictureRegistersEv
++ __ZN15CAHDecRadishAvc24populatePictureRegistersEv.cold.1
++ __ZN15CAHDecRadishAvc24populatePictureRegistersEv.cold.10
++ __ZN15CAHDecRadishAvc24populatePictureRegistersEv.cold.2
++ __ZN15CAHDecRadishAvc24populatePictureRegistersEv.cold.3
++ __ZN15CAHDecRadishAvc24populatePictureRegistersEv.cold.4
++ __ZN15CAHDecRadishAvc24populatePictureRegistersEv.cold.5
++ __ZN15CAHDecRadishAvc24populatePictureRegistersEv.cold.6
++ __ZN15CAHDecRadishAvc24populatePictureRegistersEv.cold.7
++ __ZN15CAHDecRadishAvc24populatePictureRegistersEv.cold.8
++ __ZN15CAHDecRadishAvc24populatePictureRegistersEv.cold.9
++ __ZN15CAHDecRadishAvc25AvcPicScalingListFallBackEP7sAvcSPSP7sAvcPPS
++ __ZN15CAHDecRadishAvc25AvcSeqScalingListFallBackEP7sAvcSPS
++ __ZN15CAHDecRadishAvc25populateSequenceRegistersEv
++ __ZN15CAHDecRadishAvc4initEv
++ __ZN15CAHDecRadishAvc4initEv.cold.1
++ __ZN15CAHDecRadishAvcC2EP14CAVDAvcDecoder
++ __ZN15CAHDecRadishAvcD0Ev
++ __ZN15CAHDecRadishAvcD1Ev
++ __ZN15CAHDecRadishAvcD2Ev
++ __ZN15CAHDecRadishLgh11decHdrCSizeEj
++ __ZN15CAHDecRadishLgh11decHdrYSizeEj
++ __ZN15CAHDecRadishLgh11initPictureEjjb
++ __ZN15CAHDecRadishLgh12decodeBufferEv
++ __ZN15CAHDecRadishLgh12getSWRStrideEjjjj
++ __ZN15CAHDecRadishLgh12startPictureEj
++ __ZN15CAHDecRadishLgh12startPictureEj.cold.1
++ __ZN15CAHDecRadishLgh13DecodePictureEj
++ __ZN15CAHDecRadishLgh13decHdrCStrideEv
++ __ZN15CAHDecRadishLgh13decHdrYStrideEv
++ __ZN15CAHDecRadishLgh13getTileEndCTUEjj
++ __ZN15CAHDecRadishLgh13populateTilesEv
++ __ZN15CAHDecRadishLgh14clearSegBufferEv
++ __ZN15CAHDecRadishLgh14decHdrCLinAddrEj
++ __ZN15CAHDecRadishLgh14decHdrYLinAddrEj
++ __ZN15CAHDecRadishLgh14populateSlicesEj
++ __ZN15CAHDecRadishLgh14setVPInstrFifoEj
++ __ZN15CAHDecRadishLgh15freeWorkBuf_PPSEPv
++ __ZN15CAHDecRadishLgh15freeWorkBuf_SPSEv
++ __ZN15CAHDecRadishLgh15getTileIdxAboveEj
++ __ZN15CAHDecRadishLgh15getTileStartCTUEjj
++ __ZN15CAHDecRadishLgh15populateAvdWorkEj
++ __ZN15CAHDecRadishLgh16allocWorkBuf_PPSEPvS0_S0_
++ __ZN15CAHDecRadishLgh16allocWorkBuf_PPSEPvS0_S0_.cold.1
++ __ZN15CAHDecRadishLgh16allocWorkBuf_PPSEPvS0_S0_.cold.2
++ __ZN15CAHDecRadishLgh16allocWorkBuf_PPSEPvS0_S0_.cold.3
++ __ZN15CAHDecRadishLgh16allocWorkBuf_PPSEPvS0_S0_.cold.4
++ __ZN15CAHDecRadishLgh16allocWorkBuf_PPSEPvS0_S0_.cold.5
++ __ZN15CAHDecRadishLgh16allocWorkBuf_PPSEPvS0_S0_.cold.6
++ __ZN15CAHDecRadishLgh16allocWorkBuf_PPSEPvS0_S0_.cold.7
++ __ZN15CAHDecRadishLgh16allocWorkBuf_SPSEPv
++ __ZN15CAHDecRadishLgh16allocWorkBuf_SPSEPv.cold.1
++ __ZN15CAHDecRadishLgh16allocWorkBuf_SPSEPv.cold.2
++ __ZN15CAHDecRadishLgh16allocWorkBuf_SPSEPv.cold.3
++ __ZN15CAHDecRadishLgh16allocWorkBuf_SPSEPv.cold.4
++ __ZN15CAHDecRadishLgh16decodeBufferSizeEv
++ __ZN15CAHDecRadishLgh21populateTileRegistersEP16LghTileRegisters
++ __ZN15CAHDecRadishLgh21updateCommonRegistersEj
++ __ZN15CAHDecRadishLgh23populateCommonRegistersEv
++ __ZN15CAHDecRadishLgh24populatePictureRegistersEv
++ __ZN15CAHDecRadishLgh25populateSequenceRegistersEv
++ __ZN15CAHDecRadishLgh4initEv
++ __ZN15CAHDecRadishLgh4initEv.cold.1
++ __ZN15CAHDecRadishLgh4initEv.cold.2
++ __ZN15CAHDecRadishLgh4initEv.cold.3
++ __ZN15CAHDecRadishLghC2EP14CAVDLghDecoder
++ __ZN15CAHDecRadishLghD0Ev
++ __ZN15CAHDecRadishLghD1Ev
++ __ZN15CAHDecRadishLghD2Ev
++ __ZN15CAHDecSalviaAvc24populatePictureRegistersEv.cold.5
++ __ZN15CAHDecSalviaAvc24populatePictureRegistersEv.cold.6
++ __ZN15CAHDecSalviaAvc24populatePictureRegistersEv.cold.7
++ __ZN15CAHDecTansyHevc24populatePictureRegistersEv.cold.5
++ __ZN15CAHDecTansyHevc24populatePictureRegistersEv.cold.6
++ __ZN15CAHDecTansyHevc24populatePictureRegistersEv.cold.7
++ __ZN15CAHDecTansyHevc24populatePictureRegistersEv.cold.8
++ __ZN15CAHDecThymeHevc24populatePictureRegistersEv.cold.5
++ __ZN15CAHDecThymeHevc24populatePictureRegistersEv.cold.6
++ __ZN15CAHDecThymeHevc24populatePictureRegistersEv.cold.7
++ __ZN15CAHDecThymeHevc24populatePictureRegistersEv.cold.8
++ __ZN15CAHDecViolaHevc24populatePictureRegistersEv.cold.3
++ __ZN15CAHDecViolaHevc24populatePictureRegistersEv.cold.4
++ __ZN15CAHDecViolaHevc24populatePictureRegistersEv.cold.5
++ __ZN15CAVDHevcDecoder13VAStartDecodeEPhi.cold.9
++ __ZN15CAVDHevcDecoder16processParserOutEP14sHevcParserOutPhRbRP29hevc_sequence_parameter_set_tRP28hevc_picture_parameter_set_tR14avd_seq_paramsRi
++ __ZN15CAVDHevcDecoder16processParserOutEP14sHevcParserOutPhRbRP29hevc_sequence_parameter_set_tRP28hevc_picture_parameter_set_tR14avd_seq_paramsRi.cold.1
++ __ZN15CAVDHevcDecoder16processParserOutEP14sHevcParserOutPhRbRP29hevc_sequence_parameter_set_tRP28hevc_picture_parameter_set_tR14avd_seq_paramsRi.cold.10
++ __ZN15CAVDHevcDecoder16processParserOutEP14sHevcParserOutPhRbRP29hevc_sequence_parameter_set_tRP28hevc_picture_parameter_set_tR14avd_seq_paramsRi.cold.11
++ __ZN15CAVDHevcDecoder16processParserOutEP14sHevcParserOutPhRbRP29hevc_sequence_parameter_set_tRP28hevc_picture_parameter_set_tR14avd_seq_paramsRi.cold.12
++ __ZN15CAVDHevcDecoder16processParserOutEP14sHevcParserOutPhRbRP29hevc_sequence_parameter_set_tRP28hevc_picture_parameter_set_tR14avd_seq_paramsRi.cold.13
++ __ZN15CAVDHevcDecoder16processParserOutEP14sHevcParserOutPhRbRP29hevc_sequence_parameter_set_tRP28hevc_picture_parameter_set_tR14avd_seq_paramsRi.cold.14
++ __ZN15CAVDHevcDecoder16processParserOutEP14sHevcParserOutPhRbRP29hevc_sequence_parameter_set_tRP28hevc_picture_parameter_set_tR14avd_seq_paramsRi.cold.15
++ __ZN15CAVDHevcDecoder16processParserOutEP14sHevcParserOutPhRbRP29hevc_sequence_parameter_set_tRP28hevc_picture_parameter_set_tR14avd_seq_paramsRi.cold.16
++ __ZN15CAVDHevcDecoder16processParserOutEP14sHevcParserOutPhRbRP29hevc_sequence_parameter_set_tRP28hevc_picture_parameter_set_tR14avd_seq_paramsRi.cold.2
++ __ZN15CAVDHevcDecoder16processParserOutEP14sHevcParserOutPhRbRP29hevc_sequence_parameter_set_tRP28hevc_picture_parameter_set_tR14avd_seq_paramsRi.cold.3
++ __ZN15CAVDHevcDecoder16processParserOutEP14sHevcParserOutPhRbRP29hevc_sequence_parameter_set_tRP28hevc_picture_parameter_set_tR14avd_seq_paramsRi.cold.4
++ __ZN15CAVDHevcDecoder16processParserOutEP14sHevcParserOutPhRbRP29hevc_sequence_parameter_set_tRP28hevc_picture_parameter_set_tR14avd_seq_paramsRi.cold.5
++ __ZN15CAVDHevcDecoder16processParserOutEP14sHevcParserOutPhRbRP29hevc_sequence_parameter_set_tRP28hevc_picture_parameter_set_tR14avd_seq_paramsRi.cold.6
++ __ZN15CAVDHevcDecoder16processParserOutEP14sHevcParserOutPhRbRP29hevc_sequence_parameter_set_tRP28hevc_picture_parameter_set_tR14avd_seq_paramsRi.cold.7
++ __ZN15CAVDHevcDecoder16processParserOutEP14sHevcParserOutPhRbRP29hevc_sequence_parameter_set_tRP28hevc_picture_parameter_set_tR14avd_seq_paramsRi.cold.8
++ __ZN15CAVDHevcDecoder16processParserOutEP14sHevcParserOutPhRbRP29hevc_sequence_parameter_set_tRP28hevc_picture_parameter_set_tR14avd_seq_paramsRi.cold.9
++ __ZN15CAVDHevcDecoder16processParserOutEP14sHevcParserOutRbS2_S2_S2_RiS3_S3_
++ __ZN15CAVDHevcDecoder16processParserOutEP14sHevcParserOutRbS2_S2_S2_RiS3_S3_.cold.1
++ __ZN15CAVDHevcDecoder25getInterLayerShortTermPicEia
++ __ZN15CAVDHevcDecoder6VAInitEv.cold.4
++ __ZN15CAVDHevcDecoder6VAInitEv.cold.5
++ __ZN15CAVDHevcDecoder6VAInitEv.cold.6
++ __ZN15CAVDHevcDecoder6VAInitEv.cold.7
++ __ZN16CAHDecCatnipHevc24populatePictureRegistersEv.cold.5
++ __ZN16CAHDecCatnipHevc24populatePictureRegistersEv.cold.6
++ __ZN16CAHDecCatnipHevc24populatePictureRegistersEv.cold.7
++ __ZN16CAHDecCatnipHevc24populatePictureRegistersEv.cold.8
++ __ZN16CAHDecDahliaHevc24populatePictureRegistersEv.cold.5
++ __ZN16CAHDecDahliaHevc24populatePictureRegistersEv.cold.6
++ __ZN16CAHDecDahliaHevc24populatePictureRegistersEv.cold.7
++ __ZN16CAHDecDahliaHevc24populatePictureRegistersEv.cold.8
++ __ZN16CAHDecNerineHevc11decHdrCSizeEj
++ __ZN16CAHDecNerineHevc11decHdrYSizeEj
++ __ZN16CAHDecNerineHevc11initPictureEjjb
++ __ZN16CAHDecNerineHevc11initPictureEjjb.cold.1
++ __ZN16CAHDecNerineHevc12decodeBufferEv
++ __ZN16CAHDecNerineHevc12getMVmemInfoEiP20_avd_client_mem_infoPj
++ __ZN16CAHDecNerineHevc12getSWRStrideEjjjj
++ __ZN16CAHDecNerineHevc13decHdrCStrideEv
++ __ZN16CAHDecNerineHevc13decHdrYStrideEv
++ __ZN16CAHDecNerineHevc13getTileEndCTUEjj
++ __ZN16CAHDecNerineHevc14decHdrCLinAddrEj
++ __ZN16CAHDecNerineHevc14decHdrYLinAddrEj
++ __ZN16CAHDecNerineHevc14populateSlicesEj
++ __ZN16CAHDecNerineHevc14setVPInstrFifoEj
++ __ZN16CAHDecNerineHevc15copyScalingListER16HevcScalingListsR14HevcQtMatCoeffjR24hevc_scaling_list_data_t
++ __ZN16CAHDecNerineHevc15freeWorkBuf_PPSEPv
++ __ZN16CAHDecNerineHevc15freeWorkBuf_SPSEv
++ __ZN16CAHDecNerineHevc15getTileIdxAboveEj
++ __ZN16CAHDecNerineHevc15getTileStartCTUEjj
++ __ZN16CAHDecNerineHevc15populateAvdWorkEj
++ __ZN16CAHDecNerineHevc16allocWorkBuf_PPSEPvS0_S0_
++ __ZN16CAHDecNerineHevc16allocWorkBuf_PPSEPvS0_S0_.cold.1
++ __ZN16CAHDecNerineHevc16allocWorkBuf_PPSEPvS0_S0_.cold.10
++ __ZN16CAHDecNerineHevc16allocWorkBuf_PPSEPvS0_S0_.cold.2
++ __ZN16CAHDecNerineHevc16allocWorkBuf_PPSEPvS0_S0_.cold.3
++ __ZN16CAHDecNerineHevc16allocWorkBuf_PPSEPvS0_S0_.cold.4
++ __ZN16CAHDecNerineHevc16allocWorkBuf_PPSEPvS0_S0_.cold.5
++ __ZN16CAHDecNerineHevc16allocWorkBuf_PPSEPvS0_S0_.cold.6
++ __ZN16CAHDecNerineHevc16allocWorkBuf_PPSEPvS0_S0_.cold.7
++ __ZN16CAHDecNerineHevc16allocWorkBuf_PPSEPvS0_S0_.cold.8
++ __ZN16CAHDecNerineHevc16allocWorkBuf_PPSEPvS0_S0_.cold.9
++ __ZN16CAHDecNerineHevc16allocWorkBuf_SPSEPv
++ __ZN16CAHDecNerineHevc16allocWorkBuf_SPSEPv.cold.1
++ __ZN16CAHDecNerineHevc16allocWorkBuf_SPSEPv.cold.2
++ __ZN16CAHDecNerineHevc16allocWorkBuf_SPSEPv.cold.3
++ __ZN16CAHDecNerineHevc16decodeBufferSizeEv
++ __ZN16CAHDecNerineHevc17getTileHdrMemInfoEiP17_Tile_hdr_buffs_t
++ __ZN16CAHDecNerineHevc21updateCommonRegistersEj
++ __ZN16CAHDecNerineHevc22populateSliceRegistersEP18HevcSliceRegistersi
++ __ZN16CAHDecNerineHevc23populateCommonRegistersEv
++ __ZN16CAHDecNerineHevc24populatePictureRegistersEv
++ __ZN16CAHDecNerineHevc24populatePictureRegistersEv.cold.1
++ __ZN16CAHDecNerineHevc24populatePictureRegistersEv.cold.2
++ __ZN16CAHDecNerineHevc24populatePictureRegistersEv.cold.3
++ __ZN16CAHDecNerineHevc24populatePictureRegistersEv.cold.4
++ __ZN16CAHDecNerineHevc24populatePictureRegistersEv.cold.5
++ __ZN16CAHDecNerineHevc24populatePictureRegistersEv.cold.6
++ __ZN16CAHDecNerineHevc24populatePictureRegistersEv.cold.7
++ __ZN16CAHDecNerineHevc24populatePictureRegistersEv.cold.8
++ __ZN16CAHDecNerineHevc25populateSequenceRegistersEv
++ __ZN16CAHDecNerineHevc4initEv
++ __ZN16CAHDecNerineHevc4initEv.cold.1
++ __ZN16CAHDecNerineHevcD0Ev
++ __ZN16CAHDecNerineHevcD1Ev
++ __ZN16CAHDecNerineHevcD2Ev
++ __ZN16CAHDecRadishHevc11decHdrCSizeEj
++ __ZN16CAHDecRadishHevc11decHdrYSizeEj
++ __ZN16CAHDecRadishHevc11initPictureEjjb
++ __ZN16CAHDecRadishHevc11initPictureEjjb.cold.1
++ __ZN16CAHDecRadishHevc12decodeBufferEv
++ __ZN16CAHDecRadishHevc12getMVmemInfoEiP20_avd_client_mem_infoPj
++ __ZN16CAHDecRadishHevc12getSWRStrideEjjjj
++ __ZN16CAHDecRadishHevc13decHdrCStrideEv
++ __ZN16CAHDecRadishHevc13decHdrYStrideEv
++ __ZN16CAHDecRadishHevc13getTileEndCTUEjj
++ __ZN16CAHDecRadishHevc14decHdrCLinAddrEj
++ __ZN16CAHDecRadishHevc14decHdrYLinAddrEj
++ __ZN16CAHDecRadishHevc14populateSlicesEj
++ __ZN16CAHDecRadishHevc14setVPInstrFifoEj
++ __ZN16CAHDecRadishHevc15copyScalingListER16HevcScalingListsR14HevcQtMatCoeffjR24hevc_scaling_list_data_t
++ __ZN16CAHDecRadishHevc15freeWorkBuf_PPSEPv
++ __ZN16CAHDecRadishHevc15freeWorkBuf_SPSEv
++ __ZN16CAHDecRadishHevc15getTileIdxAboveEj
++ __ZN16CAHDecRadishHevc15getTileStartCTUEjj
++ __ZN16CAHDecRadishHevc15populateAvdWorkEj
++ __ZN16CAHDecRadishHevc16allocWorkBuf_PPSEPvS0_S0_
++ __ZN16CAHDecRadishHevc16allocWorkBuf_PPSEPvS0_S0_.cold.1
++ __ZN16CAHDecRadishHevc16allocWorkBuf_PPSEPvS0_S0_.cold.2
++ __ZN16CAHDecRadishHevc16allocWorkBuf_PPSEPvS0_S0_.cold.3
++ __ZN16CAHDecRadishHevc16allocWorkBuf_PPSEPvS0_S0_.cold.4
++ __ZN16CAHDecRadishHevc16allocWorkBuf_PPSEPvS0_S0_.cold.5
++ __ZN16CAHDecRadishHevc16allocWorkBuf_PPSEPvS0_S0_.cold.6
++ __ZN16CAHDecRadishHevc16allocWorkBuf_PPSEPvS0_S0_.cold.7
++ __ZN16CAHDecRadishHevc16allocWorkBuf_PPSEPvS0_S0_.cold.8
++ __ZN16CAHDecRadishHevc16allocWorkBuf_PPSEPvS0_S0_.cold.9
++ __ZN16CAHDecRadishHevc16allocWorkBuf_SPSEPv
++ __ZN16CAHDecRadishHevc16allocWorkBuf_SPSEPv.cold.1
++ __ZN16CAHDecRadishHevc16allocWorkBuf_SPSEPv.cold.2
++ __ZN16CAHDecRadishHevc16allocWorkBuf_SPSEPv.cold.3
++ __ZN16CAHDecRadishHevc16decodeBufferSizeEv
++ __ZN16CAHDecRadishHevc17getTileHdrMemInfoEiP17_Tile_hdr_buffs_t
++ __ZN16CAHDecRadishHevc21updateCommonRegistersEj
++ __ZN16CAHDecRadishHevc22populateSliceRegistersEP18HevcSliceRegistersi
++ __ZN16CAHDecRadishHevc23populateCommonRegistersEv
++ __ZN16CAHDecRadishHevc24populatePictureRegistersEv
++ __ZN16CAHDecRadishHevc24populatePictureRegistersEv.cold.1
++ __ZN16CAHDecRadishHevc24populatePictureRegistersEv.cold.2
++ __ZN16CAHDecRadishHevc24populatePictureRegistersEv.cold.3
++ __ZN16CAHDecRadishHevc24populatePictureRegistersEv.cold.4
++ __ZN16CAHDecRadishHevc24populatePictureRegistersEv.cold.5
++ __ZN16CAHDecRadishHevc24populatePictureRegistersEv.cold.6
++ __ZN16CAHDecRadishHevc24populatePictureRegistersEv.cold.7
++ __ZN16CAHDecRadishHevc24populatePictureRegistersEv.cold.8
++ __ZN16CAHDecRadishHevc25populateSequenceRegistersEv
++ __ZN16CAHDecRadishHevc4initEv
++ __ZN16CAHDecRadishHevc4initEv.cold.1
++ __ZN16CAHDecRadishHevcD0Ev
++ __ZN16CAHDecRadishHevcD1Ev
++ __ZN16CAHDecRadishHevcD2Ev
++ __ZN16CAHDecSalviaHevc24populatePictureRegistersEv.cold.3
++ __ZN16CAHDecSalviaHevc24populatePictureRegistersEv.cold.4
++ __ZN16CAHDecSalviaHevc24populatePictureRegistersEv.cold.5
++ __ZN17CAHDecHibiscusAvc24populatePictureRegistersEv.cold.10
++ __ZN17CAHDecHibiscusAvc24populatePictureRegistersEv.cold.7
++ __ZN17CAHDecHibiscusAvc24populatePictureRegistersEv.cold.8
++ __ZN17CAHDecHibiscusAvc24populatePictureRegistersEv.cold.9
++ __ZN17CAHDecHibiscusAvx24populatePictureRegistersEv.cold.1
++ __ZN17CAHDecHibiscusAvx24populatePictureRegistersEv.cold.2
++ __ZN17CAHDecHibiscusAvx24populatePictureRegistersEv.cold.3
++ __ZN17CAHDecHibiscusAvx24populatePictureRegistersEv.cold.4
++ __ZN17CAHDecHibiscusLgh4initEv.cold.4
++ __ZN17CAHDecHibiscusLgh4initEv.cold.5
++ __ZN17CAHDecHibiscusLghD2Ev.cold.1
++ __ZN17CAVDMvHevcDecoder15setAVDSharedMemEya
++ __ZN17CAVDMvHevcDecoder16processParserOutEP14sHevcParserOutPhRbRP29hevc_sequence_parameter_set_tRP28hevc_picture_parameter_set_tR14avd_seq_paramsRi
++ __ZN17CAVDMvHevcDecoder16processParserOutEP14sHevcParserOutPhRbRP29hevc_sequence_parameter_set_tRP28hevc_picture_parameter_set_tR14avd_seq_paramsRi.cold.1
++ __ZN17CAVDMvHevcDecoder16processParserOutEP14sHevcParserOutPhRbRP29hevc_sequence_parameter_set_tRP28hevc_picture_parameter_set_tR14avd_seq_paramsRi.cold.10
++ __ZN17CAVDMvHevcDecoder16processParserOutEP14sHevcParserOutPhRbRP29hevc_sequence_parameter_set_tRP28hevc_picture_parameter_set_tR14avd_seq_paramsRi.cold.11
++ __ZN17CAVDMvHevcDecoder16processParserOutEP14sHevcParserOutPhRbRP29hevc_sequence_parameter_set_tRP28hevc_picture_parameter_set_tR14avd_seq_paramsRi.cold.12
++ __ZN17CAVDMvHevcDecoder16processParserOutEP14sHevcParserOutPhRbRP29hevc_sequence_parameter_set_tRP28hevc_picture_parameter_set_tR14avd_seq_paramsRi.cold.13
++ __ZN17CAVDMvHevcDecoder16processParserOutEP14sHevcParserOutPhRbRP29hevc_sequence_parameter_set_tRP28hevc_picture_parameter_set_tR14avd_seq_paramsRi.cold.14
++ __ZN17CAVDMvHevcDecoder16processParserOutEP14sHevcParserOutPhRbRP29hevc_sequence_parameter_set_tRP28hevc_picture_parameter_set_tR14avd_seq_paramsRi.cold.15
++ __ZN17CAVDMvHevcDecoder16processParserOutEP14sHevcParserOutPhRbRP29hevc_sequence_parameter_set_tRP28hevc_picture_parameter_set_tR14avd_seq_paramsRi.cold.16
++ __ZN17CAVDMvHevcDecoder16processParserOutEP14sHevcParserOutPhRbRP29hevc_sequence_parameter_set_tRP28hevc_picture_parameter_set_tR14avd_seq_paramsRi.cold.17
++ __ZN17CAVDMvHevcDecoder16processParserOutEP14sHevcParserOutPhRbRP29hevc_sequence_parameter_set_tRP28hevc_picture_parameter_set_tR14avd_seq_paramsRi.cold.18
++ __ZN17CAVDMvHevcDecoder16processParserOutEP14sHevcParserOutPhRbRP29hevc_sequence_parameter_set_tRP28hevc_picture_parameter_set_tR14avd_seq_paramsRi.cold.19
++ __ZN17CAVDMvHevcDecoder16processParserOutEP14sHevcParserOutPhRbRP29hevc_sequence_parameter_set_tRP28hevc_picture_parameter_set_tR14avd_seq_paramsRi.cold.2
++ __ZN17CAVDMvHevcDecoder16processParserOutEP14sHevcParserOutPhRbRP29hevc_sequence_parameter_set_tRP28hevc_picture_parameter_set_tR14avd_seq_paramsRi.cold.20
++ __ZN17CAVDMvHevcDecoder16processParserOutEP14sHevcParserOutPhRbRP29hevc_sequence_parameter_set_tRP28hevc_picture_parameter_set_tR14avd_seq_paramsRi.cold.21
++ __ZN17CAVDMvHevcDecoder16processParserOutEP14sHevcParserOutPhRbRP29hevc_sequence_parameter_set_tRP28hevc_picture_parameter_set_tR14avd_seq_paramsRi.cold.22
++ __ZN17CAVDMvHevcDecoder16processParserOutEP14sHevcParserOutPhRbRP29hevc_sequence_parameter_set_tRP28hevc_picture_parameter_set_tR14avd_seq_paramsRi.cold.23
++ __ZN17CAVDMvHevcDecoder16processParserOutEP14sHevcParserOutPhRbRP29hevc_sequence_parameter_set_tRP28hevc_picture_parameter_set_tR14avd_seq_paramsRi.cold.3
++ __ZN17CAVDMvHevcDecoder16processParserOutEP14sHevcParserOutPhRbRP29hevc_sequence_parameter_set_tRP28hevc_picture_parameter_set_tR14avd_seq_paramsRi.cold.4
++ __ZN17CAVDMvHevcDecoder16processParserOutEP14sHevcParserOutPhRbRP29hevc_sequence_parameter_set_tRP28hevc_picture_parameter_set_tR14avd_seq_paramsRi.cold.5
++ __ZN17CAVDMvHevcDecoder16processParserOutEP14sHevcParserOutPhRbRP29hevc_sequence_parameter_set_tRP28hevc_picture_parameter_set_tR14avd_seq_paramsRi.cold.6
++ __ZN17CAVDMvHevcDecoder16processParserOutEP14sHevcParserOutPhRbRP29hevc_sequence_parameter_set_tRP28hevc_picture_parameter_set_tR14avd_seq_paramsRi.cold.7
++ __ZN17CAVDMvHevcDecoder16processParserOutEP14sHevcParserOutPhRbRP29hevc_sequence_parameter_set_tRP28hevc_picture_parameter_set_tR14avd_seq_paramsRi.cold.8
++ __ZN17CAVDMvHevcDecoder16processParserOutEP14sHevcParserOutPhRbRP29hevc_sequence_parameter_set_tRP28hevc_picture_parameter_set_tR14avd_seq_paramsRi.cold.9
++ __ZN17CAVDMvHevcDecoder16processParserOutEP14sHevcParserOutRbS2_S2_S2_RiS3_S3_
++ __ZN17CAVDMvHevcDecoder16processParserOutEP14sHevcParserOutRbS2_S2_S2_RiS3_S3_.cold.1
++ __ZN17CAVDMvHevcDecoder16processParserOutEP14sHevcParserOutRbS2_S2_S2_RiS3_S3_.cold.2
++ __ZN17CAVDMvHevcDecoder16processParserOutEP14sHevcParserOutRbS2_S2_S2_RiS3_S3_.cold.3
++ __ZN17CAVDMvHevcDecoder19calcSmallestLayerIdEa
++ __ZN17CAVDMvHevcDecoder25getInterLayerShortTermPicEia
++ __ZN17CAVDMvHevcDecoder27allocateMultiViewHwDecodersEa
++ __ZN17CAVDMvHevcDecoder27allocateMultiViewHwDecodersEa.cold.1
++ __ZN17CAVDMvHevcDecoder27allocateMultiViewHwDecodersEa.cold.2
++ __ZN17CAVDMvHevcDecoder27allocateMultiViewHwDecodersEa.cold.3
++ __ZN17CAVDMvHevcDecoder27allocateMultiViewHwDecodersEa.cold.4
++ __ZN17CAVDMvHevcDecoder28deriveSpsParamsFromActiveVpsEP29hevc_sequence_parameter_set_ta
++ __ZN17CAVDMvHevcDecoder28deriveSpsParamsFromActiveVpsEP29hevc_sequence_parameter_set_ta.cold.1
++ __ZN17CAVDMvHevcDecoder28removeSubDpbPicturesInAuListEaa
++ __ZN18CAHDecHibiscusHevc24populatePictureRegistersEv.cold.5
++ __ZN18CAHDecHibiscusHevc24populatePictureRegistersEv.cold.6
++ __ZN18CAHDecHibiscusHevc24populatePictureRegistersEv.cold.7
++ __ZN18CAHDecHibiscusHevc24populatePictureRegistersEv.cold.8
++ __ZN20AVDScaleMetalSession28ScaleFrameBilinear_CoreVideoEP10__CVBufferS1_PjS2_j
++ __ZN20AVDScaleMetalSessionC1Ev
++ __ZN20AVDScaleMetalSessionC2Ev
++ __ZN22AVDDeblockMetalSession18ExtraInloopDeblockEP10__CVBufferS1_ibb
++ __ZN22AVDDeblockMetalSessionC1Ev
++ __ZN22AVDDeblockMetalSessionC2Ev
++ __ZN22AppleAVDCommandBuilder16scaleOutputFrameEPvS0_jjjjiPhjjj16scaler_context_t25scaler_bilinear_buffers_tS0_S0_.cold.6
++ __ZN22AppleAVDCommandBuilder18metalDeblockFilterEP10__CVBufferS1_i
++ __ZN22AppleAVDCommandBuilder36decodeFrameFigHelper_VASetParametersEP26_sAppleAVDDecodeFrameFigIn.cold.10
++ __ZN25AVDBufferFillMetalSession7PreFillEP10__CVBufferPKijb
++ __ZN25AVDBufferFillMetalSessionC1Ev
++ __ZN25AVDBufferFillMetalSessionC2Ev
++ __ZN2CFIP10__CVBufferED2Ev
++ __ZN2CFIP21__CVMetalTextureCacheED2Ev
++ __ZN2CFIPKvED2Ev
++ __ZN2CFIPKvEaSEOS2_
++ __ZN6CAHDec14supportsVPDoneEv
++ __ZN8AVC_RBSP10parseNALUsEP12sAvcParserInP13sAvcParserOutb
++ __ZN8AVC_RBSP10parseNALUsEP12sAvcParserInP13sAvcParserOutb.cold.1
++ __ZN8AVC_RBSP10parseNALUsEP12sAvcParserInP13sAvcParserOutb.cold.10
++ __ZN8AVC_RBSP10parseNALUsEP12sAvcParserInP13sAvcParserOutb.cold.11
++ __ZN8AVC_RBSP10parseNALUsEP12sAvcParserInP13sAvcParserOutb.cold.12
++ __ZN8AVC_RBSP10parseNALUsEP12sAvcParserInP13sAvcParserOutb.cold.2
++ __ZN8AVC_RBSP10parseNALUsEP12sAvcParserInP13sAvcParserOutb.cold.3
++ __ZN8AVC_RBSP10parseNALUsEP12sAvcParserInP13sAvcParserOutb.cold.4
++ __ZN8AVC_RBSP10parseNALUsEP12sAvcParserInP13sAvcParserOutb.cold.5
++ __ZN8AVC_RBSP10parseNALUsEP12sAvcParserInP13sAvcParserOutb.cold.6
++ __ZN8AVC_RBSP10parseNALUsEP12sAvcParserInP13sAvcParserOutb.cold.7
++ __ZN8AVC_RBSP10parseNALUsEP12sAvcParserInP13sAvcParserOutb.cold.8
++ __ZN8AVC_RBSP10parseNALUsEP12sAvcParserInP13sAvcParserOutb.cold.9
++ __ZN9AsyncInit11WaitForInitEv
++ __ZN9AsyncInit6DoInitEv
++ __ZN9AsyncInitC1EU13block_pointerFvvE
++ __ZN9AsyncInitC2EU13block_pointerFvvE
++ __ZN9AsyncInitD1Ev
++ __ZN9AsyncInitD2Ev
++ __ZN9HEVC_RBSP13calcRepFormatEP26hevc_video_parameter_set_tP29hevc_sequence_parameter_set_ta
++ __ZN9HEVC_RBSP13parseMvHevcPSEP13sHevcParserInP14sHevcParserOut
++ __ZN9HEVC_RBSP13parseMvHevcPSEP13sHevcParserInP14sHevcParserOut.cold.1
++ __ZN9HEVC_RBSP13parseMvHevcPSEP13sHevcParserInP14sHevcParserOut.cold.10
++ __ZN9HEVC_RBSP13parseMvHevcPSEP13sHevcParserInP14sHevcParserOut.cold.11
++ __ZN9HEVC_RBSP13parseMvHevcPSEP13sHevcParserInP14sHevcParserOut.cold.2
++ __ZN9HEVC_RBSP13parseMvHevcPSEP13sHevcParserInP14sHevcParserOut.cold.3
++ __ZN9HEVC_RBSP13parseMvHevcPSEP13sHevcParserInP14sHevcParserOut.cold.4
++ __ZN9HEVC_RBSP13parseMvHevcPSEP13sHevcParserInP14sHevcParserOut.cold.5
++ __ZN9HEVC_RBSP13parseMvHevcPSEP13sHevcParserInP14sHevcParserOut.cold.6
++ __ZN9HEVC_RBSP13parseMvHevcPSEP13sHevcParserInP14sHevcParserOut.cold.7
++ __ZN9HEVC_RBSP13parseMvHevcPSEP13sHevcParserInP14sHevcParserOut.cold.8
++ __ZN9HEVC_RBSP13parseMvHevcPSEP13sHevcParserInP14sHevcParserOut.cold.9
++ __ZN9HEVC_RBSP14parseHevcNALUsEP13sHevcParserInP14sHevcParserOutb
++ __ZN9HEVC_RBSP14parseHevcNALUsEP13sHevcParserInP14sHevcParserOutb.cold.1
++ __ZN9HEVC_RBSP14parseHevcNALUsEP13sHevcParserInP14sHevcParserOutb.cold.10
++ __ZN9HEVC_RBSP14parseHevcNALUsEP13sHevcParserInP14sHevcParserOutb.cold.11
++ __ZN9HEVC_RBSP14parseHevcNALUsEP13sHevcParserInP14sHevcParserOutb.cold.12
++ __ZN9HEVC_RBSP14parseHevcNALUsEP13sHevcParserInP14sHevcParserOutb.cold.2
++ __ZN9HEVC_RBSP14parseHevcNALUsEP13sHevcParserInP14sHevcParserOutb.cold.3
++ __ZN9HEVC_RBSP14parseHevcNALUsEP13sHevcParserInP14sHevcParserOutb.cold.4
++ __ZN9HEVC_RBSP14parseHevcNALUsEP13sHevcParserInP14sHevcParserOutb.cold.5
++ __ZN9HEVC_RBSP14parseHevcNALUsEP13sHevcParserInP14sHevcParserOutb.cold.6
++ __ZN9HEVC_RBSP14parseHevcNALUsEP13sHevcParserInP14sHevcParserOutb.cold.7
++ __ZN9HEVC_RBSP14parseHevcNALUsEP13sHevcParserInP14sHevcParserOutb.cold.8
++ __ZN9HEVC_RBSP14parseHevcNALUsEP13sHevcParserInP14sHevcParserOutb.cold.9
++ __ZN9HEVC_RBSP16parseMvHevcNALUsEP13sHevcParserInP14sHevcParserOut
++ __ZN9HEVC_RBSP16parseMvHevcNALUsEP13sHevcParserInP14sHevcParserOut.cold.1
++ __ZN9HEVC_RBSP16parseMvHevcNALUsEP13sHevcParserInP14sHevcParserOut.cold.10
++ __ZN9HEVC_RBSP16parseMvHevcNALUsEP13sHevcParserInP14sHevcParserOut.cold.11
++ __ZN9HEVC_RBSP16parseMvHevcNALUsEP13sHevcParserInP14sHevcParserOut.cold.2
++ __ZN9HEVC_RBSP16parseMvHevcNALUsEP13sHevcParserInP14sHevcParserOut.cold.3
++ __ZN9HEVC_RBSP16parseMvHevcNALUsEP13sHevcParserInP14sHevcParserOut.cold.4
++ __ZN9HEVC_RBSP16parseMvHevcNALUsEP13sHevcParserInP14sHevcParserOut.cold.5
++ __ZN9HEVC_RBSP16parseMvHevcNALUsEP13sHevcParserInP14sHevcParserOut.cold.6
++ __ZN9HEVC_RBSP16parseMvHevcNALUsEP13sHevcParserInP14sHevcParserOut.cold.7
++ __ZN9HEVC_RBSP16parseMvHevcNALUsEP13sHevcParserInP14sHevcParserOut.cold.8
++ __ZN9HEVC_RBSP16parseMvHevcNALUsEP13sHevcParserInP14sHevcParserOut.cold.9
++ __ZN9HEVC_RBSP18calcReflayerPicIdcEP26hevc_video_parameter_set_taii
++ __ZN9HEVC_RBSP8parseSPSEP26hevc_video_parameter_set_tP29hevc_sequence_parameter_set_tai
++ __ZN9HEVC_RBSP8parseSPSEP26hevc_video_parameter_set_tP29hevc_sequence_parameter_set_tai.cold.1
++ __ZN9HEVC_RBSP8parseSPSEP26hevc_video_parameter_set_tP29hevc_sequence_parameter_set_tai.cold.2
++ __ZN9HEVC_RBSP8parseSPSEP26hevc_video_parameter_set_tP29hevc_sequence_parameter_set_tai.cold.3
++ __ZN9HEVC_RBSP8parseSPSEP26hevc_video_parameter_set_tP29hevc_sequence_parameter_set_tai.cold.4
++ __ZN9HEVC_RBSP8parseSPSEP26hevc_video_parameter_set_tP29hevc_sequence_parameter_set_tai.cold.5
++ __ZN9HEVC_RBSP8parseSPSEP26hevc_video_parameter_set_tP29hevc_sequence_parameter_set_tai.cold.6
++ __ZN9HEVC_RBSP8parseSPSEP26hevc_video_parameter_set_tP29hevc_sequence_parameter_set_tai.cold.7
++ __ZN9HEVC_RBSP8parseVPSEP26hevc_video_parameter_set_tib.cold.2
++ __ZN9HEVC_RBSP8parseVPSEP26hevc_video_parameter_set_tib.cold.3
++ __ZN9HEVC_RBSP8parseVPSEP26hevc_video_parameter_set_tib.cold.4
++ __ZN9HEVC_RBSP8parseVPSEP26hevc_video_parameter_set_tib.cold.5
++ __ZN9HEVC_RBSP8parseVPSEP26hevc_video_parameter_set_tib.cold.6
++ __ZN9HEVC_RBSP8parseVPSEP26hevc_video_parameter_set_tib.cold.7
++ __ZN9HEVC_RBSP8parseVPSEP26hevc_video_parameter_set_tib.cold.8
++ __ZN9HEVC_RBSP8parseVPSEP26hevc_video_parameter_set_tib.cold.9
++ __ZNKSt3__119__shared_weak_count13__get_deleterERKSt9type_info
++ __ZNSt3__110unique_ptrI20AVDScaleMetalSessionNS_14default_deleteIS1_EEE5resetB9fqe220100EPS1_
++ __ZNSt3__110unique_ptrI22AVDDeblockMetalSessionNS_14default_deleteIS1_EEE5resetB9fqe220100EPS1_
++ __ZNSt3__110unique_ptrI25AVDBufferFillMetalSessionNS_14default_deleteIS1_EEE5resetB9fqe220100EPS1_
++ __ZNSt3__110unique_ptrI9AsyncInitNS_14default_deleteIS1_EEE5resetB9fqe220100EPS1_
++ __ZNSt3__111make_uniqueB9fqe220100I9AsyncInitJU13block_pointerFvvEELi0EEENS_10unique_ptrIT_NS_14default_deleteIS5_EEEEDpOT0_
++ __ZNSt3__119__shared_weak_count14__release_weakEv
++ __ZNSt3__119__shared_weak_count16__release_sharedB9fqe220100Ev
++ __ZNSt3__119__shared_weak_countD2Ev
++ __ZNSt3__120__shared_ptr_emplaceIN9AsyncInit15AsyncSharedDataENS_9allocatorIS2_EEE16__on_zero_sharedEv
++ __ZNSt3__120__shared_ptr_emplaceIN9AsyncInit15AsyncSharedDataENS_9allocatorIS2_EEE21__on_zero_shared_weakEv
++ __ZNSt3__120__shared_ptr_emplaceIN9AsyncInit15AsyncSharedDataENS_9allocatorIS2_EEED0Ev
++ __ZNSt3__120__shared_ptr_emplaceIN9AsyncInit15AsyncSharedDataENS_9allocatorIS2_EEED1Ev
++ __ZNSt3__15mutex4lockEv
++ __ZNSt3__15mutex6unlockEv
++ __ZNSt3__15mutexD1Ev
++ __ZTI15CAHDecNerineAvc
++ __ZTI15CAHDecNerineAvx
++ __ZTI15CAHDecNerineLgh
++ __ZTI15CAHDecRadishAvc
++ __ZTI15CAHDecRadishLgh
++ __ZTI16CAHDecNerineHevc
++ __ZTI16CAHDecRadishHevc
++ __ZTINSt3__119__shared_weak_countE
++ __ZTINSt3__120__shared_ptr_emplaceIN9AsyncInit15AsyncSharedDataENS_9allocatorIS2_EEEE
++ __ZTS15CAHDecNerineAvc
++ __ZTS15CAHDecNerineAvx
++ __ZTS15CAHDecNerineLgh
++ __ZTS15CAHDecRadishAvc
++ __ZTS15CAHDecRadishLgh
++ __ZTS16CAHDecNerineHevc
++ __ZTS16CAHDecRadishHevc
++ __ZTSNSt3__120__shared_ptr_emplaceIN9AsyncInit15AsyncSharedDataENS_9allocatorIS2_EEEE
++ __ZTV15CAHDecNerineAvc
++ __ZTV15CAHDecNerineAvx
++ __ZTV15CAHDecNerineLgh
++ __ZTV15CAHDecRadishAvc
++ __ZTV15CAHDecRadishLgh
++ __ZTV16CAHDecNerineHevc
++ __ZTV16CAHDecRadishHevc
++ __ZTVNSt3__120__shared_ptr_emplaceIN9AsyncInit15AsyncSharedDataENS_9allocatorIS2_EEEE
++ __ZdlPv
++ __ZnwmSt19__type_descriptor_t
++ ___Block_byref_object_copy_
++ ___Block_byref_object_dispose_
++ ____ZN22AppleAVDCommandBuilder14decodeFrameFigEP26_sAppleAVDDecodeFrameFigInP27_sAppleAVDDecodeFrameFigOut_block_invoke
++ ____ZN22AppleAVDCommandBuilder14decodeFrameFigEP26_sAppleAVDDecodeFrameFigInP27_sAppleAVDDecodeFrameFigOut_block_invoke.2
++ ____ZN9AsyncInitC2EU13block_pointerFvvE_block_invoke
++ ___block_descriptor_tmp
++ ___block_descriptor_tmp.3
++ __objc_empty_cache
++ _calcAvcDpbMaxSize
++ _calcHevcDpbMaxSize
++ _decodeHEVCDecoderConfigurationRecord
++ _decodeHEVCDecoderConfigurationRecord.cold.1
++ _dispatch_async
++ _dispatch_queue_attr_make_with_qos_class
++ _dispatch_queue_create
++ _dispatch_release
++ _getAvcSeqAndPicParamSetFromImageDescExt
++ _getAvcSeqAndPicParamSetFromImageDescExt.cold.1
++ _getAvcSpsPpsBuffer
++ _getHevcSeqAndPicParamSetFromImageDescExt
++ _getHevcSeqAndPicParamSetFromImageDescExt.cold.1
++ _getHevcSeqAndPicParamSetFromImageDescExt.cold.2
++ _getHevcVpsSpsPpsBuffer
++ _getHevcVpsSpsPpsBuffer.cold.1
++ _kCVMetalTextureUsage
++ _objc_alloc_init
++ _objc_autoreleasePoolPop
++ _objc_autoreleasePoolPush
++ _objc_autoreleaseReturnValue
++ _objc_claimAutoreleasedReturnValue
++ _objc_getProperty
++ _objc_msgSend
++ _objc_msgSend$CompileBilinearScaler:
++ _objc_msgSend$CompileBufferFill
++ _objc_msgSend$PreFill:values:clearFullAllocation:bitDepth:
++ _objc_msgSend$URLForResource:withExtension:
++ _objc_msgSend$bundleForClass:
++ _objc_msgSend$commandBuffer
++ _objc_msgSend$commit
++ _objc_msgSend$compileDeblockFilters
++ _objc_msgSend$compileFunction:constantValues:
++ _objc_msgSend$computeCommandEncoder
++ _objc_msgSend$createManager
++ _objc_msgSend$deblockFrame:intermediateCVPixelBuff:withQP:preserveOffset:needDecompress:
++ _objc_msgSend$dictionaryWithObjects:forKeys:count:
++ _objc_msgSend$dispatchThreadgroups:threadsPerThreadgroup:
++ _objc_msgSend$dispatchThreads:threadsPerThreadgroup:
++ _objc_msgSend$endEncoding
++ _objc_msgSend$getPaddedInterchangeTiledHeight:plane:
++ _objc_msgSend$getPaddedInterchangeTiledHeightFromIOSurface:plane:
++ _objc_msgSend$getPaddedInterchangeTiledWidth:plane:
++ _objc_msgSend$getPaddedInterchangeTiledWidthFromIOSurface:plane:
++ _objc_msgSend$initWithDevice:
++ _objc_msgSend$initializeWithFrame:
++ _objc_msgSend$maxTotalThreadsPerThreadgroup
++ _objc_msgSend$newCommandQueue
++ _objc_msgSend$newComputePipelineStateWithFunction:error:
++ _objc_msgSend$newFunctionWithName:
++ _objc_msgSend$newFunctionWithName:constantValues:error:
++ _objc_msgSend$newLibraryWithURL:error:
++ _objc_msgSend$registryID
++ _objc_msgSend$scaleFrameBilinear:dstFrame:srcRegion:dstRegion:bitDepth:
++ _objc_msgSend$setBytes:length:atIndex:
++ _objc_msgSend$setComputePipelineState:
++ _objc_msgSend$setConstantValue:type:atIndex:
++ _objc_msgSend$setLabel:
++ _objc_msgSend$setSharedReadAttributes:
++ _objc_msgSend$setSharedReadWriteAttributes:
++ _objc_msgSend$setSharedWriteAttributes:
++ _objc_msgSend$setTexture:atIndex:
++ _objc_msgSend$sharedCommandQueue
++ _objc_msgSend$sharedDevice
++ _objc_msgSend$sharedLibrary
++ _objc_msgSend$sharedReadAttributes
++ _objc_msgSend$sharedReadWriteAttributes
++ _objc_msgSend$sharedWriteAttributes
++ _objc_msgSend$supportsFamily:
++ _objc_msgSend$threadExecutionWidth
++ _objc_msgSend$unormTexture:forPlane:usingTextureCache:withAttributes:bitDepth:
++ _objc_msgSend$waitUntilCompleted
++ _objc_msgSendSuper2
++ _objc_opt_class
++ _objc_opt_new
++ _objc_release
++ _objc_release_x19
++ _objc_release_x20
++ _objc_release_x21
++ _objc_release_x22
++ _objc_release_x23
++ _objc_release_x24
++ _objc_release_x25
++ _objc_release_x26
++ _objc_release_x27
++ _objc_release_x28
++ _objc_release_x8
++ _objc_release_x9
++ _objc_retain_x19
++ _objc_retain_x2
++ _objc_retain_x20
++ _objc_retain_x5
++ _objc_retain_x8
++ _objc_setProperty_atomic
++ _objc_storeStrong
+- GCC_except_table14
+- GCC_except_table18
+- GCC_except_table21
+- _AppleAVDWrapperFghrnDecoderCleanUpMVAV1Resources
+- _AppleAVDWrapperFghrnDecoderCopyProperty.cold.2
+- _AppleAVDWrapperFghrnDecoderSetProperty.cold.4
+- _AppleAVDWrapperFghrnDecoderSetProperty.cold.5
+- _CreateAVDFghrnInstance.cold.19
+- _OUTLINED_FUNCTION_27
+- _OUTLINED_FUNCTION_28
+- _OUTLINED_FUNCTION_29
+- __Z18calcHevcDpbMaxSizeP29hevc_sequence_parameter_set_t
+- __Z23AppleAVDDisplayCallbackP22_sAppleAVDVideoContextjjj10RvraParams16DecProfileParamsjijjj
+- __Z23AppleAVDDisplayCallbackP22_sAppleAVDVideoContextjjj10RvraParams16DecProfileParamsjijjj.cold.1
+- __Z23AppleAVDDisplayCallbackP22_sAppleAVDVideoContextjjj10RvraParams16DecProfileParamsjijjj.cold.10
+- __Z23AppleAVDDisplayCallbackP22_sAppleAVDVideoContextjjj10RvraParams16DecProfileParamsjijjj.cold.11
+- __Z23AppleAVDDisplayCallbackP22_sAppleAVDVideoContextjjj10RvraParams16DecProfileParamsjijjj.cold.12
+- __Z23AppleAVDDisplayCallbackP22_sAppleAVDVideoContextjjj10RvraParams16DecProfileParamsjijjj.cold.13
+- __Z23AppleAVDDisplayCallbackP22_sAppleAVDVideoContextjjj10RvraParams16DecProfileParamsjijjj.cold.2
+- __Z23AppleAVDDisplayCallbackP22_sAppleAVDVideoContextjjj10RvraParams16DecProfileParamsjijjj.cold.3
+- __Z23AppleAVDDisplayCallbackP22_sAppleAVDVideoContextjjj10RvraParams16DecProfileParamsjijjj.cold.4
+- __Z23AppleAVDDisplayCallbackP22_sAppleAVDVideoContextjjj10RvraParams16DecProfileParamsjijjj.cold.5
+- __Z23AppleAVDDisplayCallbackP22_sAppleAVDVideoContextjjj10RvraParams16DecProfileParamsjijjj.cold.6
+- __Z23AppleAVDDisplayCallbackP22_sAppleAVDVideoContextjjj10RvraParams16DecProfileParamsjijjj.cold.7
+- __Z23AppleAVDDisplayCallbackP22_sAppleAVDVideoContextjjj10RvraParams16DecProfileParamsjijjj.cold.8
+- __Z23AppleAVDDisplayCallbackP22_sAppleAVDVideoContextjjj10RvraParams16DecProfileParamsjijjj.cold.9
+- __ZL17calcAvcDpbMaxSizeP7sAvcSPS
+- __ZL17calcTilePositionsP28hevc_picture_parameter_set_tP29hevc_sequence_parameter_set_t
+- __ZN10BufferPool9getBufferEPjjP10__CVBufferP27OpaqueVTVideoDecoderSessionP25OpaqueVTVideoDecoderFrame
+- __ZN10BufferPool9getBufferEPjjP10__CVBufferP27OpaqueVTVideoDecoderSessionP25OpaqueVTVideoDecoderFrame.cold.1
+- __ZN10BufferPool9getBufferEPjjP10__CVBufferP27OpaqueVTVideoDecoderSessionP25OpaqueVTVideoDecoderFrame.cold.2
+- __ZN10BufferPool9getBufferEPjjP10__CVBufferP27OpaqueVTVideoDecoderSessionP25OpaqueVTVideoDecoderFrame.cold.3
+- __ZN10BufferPool9getBufferEPjjP10__CVBufferP27OpaqueVTVideoDecoderSessionP25OpaqueVTVideoDecoderFrame.cold.4
+- __ZN10BufferPool9getBufferEPjjP10__CVBufferP27OpaqueVTVideoDecoderSessionP25OpaqueVTVideoDecoderFrame.cold.5
+- __ZN10BufferPool9getBufferEPjjP10__CVBufferP27OpaqueVTVideoDecoderSessionP25OpaqueVTVideoDecoderFrame.cold.6
+- __ZN10BufferPool9getBufferEPjjP10__CVBufferP27OpaqueVTVideoDecoderSessionP25OpaqueVTVideoDecoderFrame.cold.7
+- __ZN11CAVDDecoder15setAVDSharedMemEy
+- __ZN14CAVDAvcDecoder13VADecodeFrameEPhijiiiP14avd_seq_params.cold.17
+- __ZN14CAVDAvcDecoder13VADecodeFrameEPhijiiiP14avd_seq_params.cold.18
+- __ZN14CAVDAvcDecoder13VADecodeFrameEPhijiiiP14avd_seq_params.cold.19
+- __ZN14CAVDAvcDecoder13VADecodeFrameEPhijiiiP14avd_seq_params.cold.20
+- __ZN14CAVDAvcDecoder13VADecodeFrameEPhijiiiP14avd_seq_params.cold.21
+- __ZN14CAVDAvcDecoder13VADecodeFrameEPhijiiiP14avd_seq_params.cold.22
+- __ZN14CAVDAvcDecoder13VADecodeFrameEPhijiiiP14avd_seq_params.cold.23
+- __ZN14CAVDAvcDecoder13VADecodeFrameEPhijiiiP14avd_seq_params.cold.24
+- __ZN14CAVDAvcDecoder13VADecodeFrameEPhijiiiP14avd_seq_params.cold.25
+- __ZN14CAVDAvcDecoder13VADecodeFrameEPhijiiiP14avd_seq_params.cold.26
+- __ZN14CAVDAvcDecoder13VADecodeFrameEPhijiiiP14avd_seq_params.cold.27
+- __ZN14CAVDAvcDecoder13VADecodeFrameEPhijiiiP14avd_seq_params.cold.28
+- __ZN14CAVDAvcDecoder13VADecodeFrameEPhijiiiP14avd_seq_params.cold.29
+- __ZN14CAVDAvcDecoder13VADecodeFrameEPhijiiiP14avd_seq_params.cold.30
+- __ZN14CAVDAvcDecoder13VADecodeFrameEPhijiiiP14avd_seq_params.cold.31
+- __ZN14CAVDAvcDecoder13VAStartDecodeEPhi.cold.10
+- __ZN14CAVDAvcDecoder13VAStartDecodeEPhi.cold.8
+- __ZN14CAVDAvcDecoder13VAStartDecodeEPhi.cold.9
+- __ZN15CAVDHevcDecoder13VADecodeFrameEPhijiiiP14avd_seq_params.cold.14
+- __ZN15CAVDHevcDecoder13VADecodeFrameEPhijiiiP14avd_seq_params.cold.15
+- __ZN15CAVDHevcDecoder13VADecodeFrameEPhijiiiP14avd_seq_params.cold.16
+- __ZN15CAVDHevcDecoder13VADecodeFrameEPhijiiiP14avd_seq_params.cold.17
+- __ZN15CAVDHevcDecoder13VADecodeFrameEPhijiiiP14avd_seq_params.cold.18
+- __ZN15CAVDHevcDecoder13VADecodeFrameEPhijiiiP14avd_seq_params.cold.19
+- __ZN15CAVDHevcDecoder13VADecodeFrameEPhijiiiP14avd_seq_params.cold.20
+- __ZN15CAVDHevcDecoder13VADecodeFrameEPhijiiiP14avd_seq_params.cold.21
+- __ZN15CAVDHevcDecoder13VADecodeFrameEPhijiiiP14avd_seq_params.cold.22
+- __ZN15CAVDHevcDecoder13VADecodeFrameEPhijiiiP14avd_seq_params.cold.23
+- __ZN15CAVDHevcDecoder13VADecodeFrameEPhijiiiP14avd_seq_params.cold.24
+- __ZN15CAVDHevcDecoder13VADecodeFrameEPhijiiiP14avd_seq_params.cold.25
+- __ZN15CAVDHevcDecoder13VADecodeFrameEPhijiiiP14avd_seq_params.cold.26
+- __ZN15CAVDHevcDecoder13VADecodeFrameEPhijiiiP14avd_seq_params.cold.27
+- __ZN15CAVDHevcDecoder13VADecodeFrameEPhijiiiP14avd_seq_params.cold.28
+- __ZN15CAVDHevcDecoder13VADecodeFrameEPhijiiiP14avd_seq_params.cold.29
+- __ZN15CAVDHevcDecoder25getInterLayerShortTermPicEii
+- __ZN15CAVDHevcDecoder7getRBSPEv
+- __ZN17CAVDMvHevcDecoder13VADecodeFrameEPhijiiiP14avd_seq_params.cold.15
+- __ZN17CAVDMvHevcDecoder13VADecodeFrameEPhijiiiP14avd_seq_params.cold.16
+- __ZN17CAVDMvHevcDecoder13VADecodeFrameEPhijiiiP14avd_seq_params.cold.17
+- __ZN17CAVDMvHevcDecoder13VADecodeFrameEPhijiiiP14avd_seq_params.cold.18
+- __ZN17CAVDMvHevcDecoder13VADecodeFrameEPhijiiiP14avd_seq_params.cold.19
+- __ZN17CAVDMvHevcDecoder13VADecodeFrameEPhijiiiP14avd_seq_params.cold.20
+- __ZN17CAVDMvHevcDecoder13VADecodeFrameEPhijiiiP14avd_seq_params.cold.21
+- __ZN17CAVDMvHevcDecoder13VADecodeFrameEPhijiiiP14avd_seq_params.cold.22
+- __ZN17CAVDMvHevcDecoder13VADecodeFrameEPhijiiiP14avd_seq_params.cold.23
+- __ZN17CAVDMvHevcDecoder13VADecodeFrameEPhijiiiP14avd_seq_params.cold.24
+- __ZN17CAVDMvHevcDecoder13VADecodeFrameEPhijiiiP14avd_seq_params.cold.25
+- __ZN17CAVDMvHevcDecoder13VADecodeFrameEPhijiiiP14avd_seq_params.cold.26
+- __ZN17CAVDMvHevcDecoder13VADecodeFrameEPhijiiiP14avd_seq_params.cold.27
+- __ZN17CAVDMvHevcDecoder13VADecodeFrameEPhijiiiP14avd_seq_params.cold.28
+- __ZN17CAVDMvHevcDecoder13VADecodeFrameEPhijiiiP14avd_seq_params.cold.29
+- __ZN17CAVDMvHevcDecoder13VADecodeFrameEPhijiiiP14avd_seq_params.cold.30
+- __ZN17CAVDMvHevcDecoder13VADecodeFrameEPhijiiiP14avd_seq_params.cold.31
+- __ZN17CAVDMvHevcDecoder13VADecodeFrameEPhijiiiP14avd_seq_params.cold.32
+- __ZN17CAVDMvHevcDecoder13VADecodeFrameEPhijiiiP14avd_seq_params.cold.33
+- __ZN17CAVDMvHevcDecoder13VADecodeFrameEPhijiiiP14avd_seq_params.cold.34
+- __ZN17CAVDMvHevcDecoder13VADecodeFrameEPhijiiiP14avd_seq_params.cold.35
+- __ZN17CAVDMvHevcDecoder15setAVDSharedMemEy
+- __ZN17CAVDMvHevcDecoder19calcSmallestLayerIdEi
+- __ZN17CAVDMvHevcDecoder25getInterLayerShortTermPicEii
+- __ZN17CAVDMvHevcDecoder27allocateMultiViewHwDecodersEi
+- __ZN17CAVDMvHevcDecoder27allocateMultiViewHwDecodersEi.cold.1
+- __ZN17CAVDMvHevcDecoder27allocateMultiViewHwDecodersEi.cold.2
+- __ZN17CAVDMvHevcDecoder27allocateMultiViewHwDecodersEi.cold.3
+- __ZN17CAVDMvHevcDecoder28deriveSpsParamsFromActiveVpsEP29hevc_sequence_parameter_set_ti
+- __ZN17CAVDMvHevcDecoder28deriveSpsParamsFromActiveVpsEP29hevc_sequence_parameter_set_ti.cold.1
+- __ZN17CAVDMvHevcDecoder28removeSubDpbPicturesInAuListEii
+- __ZN8AVC_RBSP21getNumberOfBitsParsedEv
+- __ZN8AVC_RBSP22removeNalTrailingZerosEPhi
+- __ZN8AVC_RBSP38performRangeChecksAndComputeParametersEP7sAvcSPSP7sAvcPPS
+- __ZN8AVC_RBSP38performRangeChecksAndComputeParametersEP7sAvcSPSP7sAvcPPS.cold.1
+- __ZN8AVC_RBSP6setLenEPhy
+- __ZN9HEVC_RBSP10calcViewIdEP26hevc_video_parameter_set_ti
+- __ZN9HEVC_RBSP13calcRepFormatEP26hevc_video_parameter_set_tP29hevc_sequence_parameter_set_ti
+- __ZN9HEVC_RBSP17calcRefPiclayerIdEP26hevc_video_parameter_set_tiiP27hevc_slice_segment_header_t
+- __ZN9HEVC_RBSP17convOlsIdxToLsIdxEP26hevc_video_parameter_set_ti
+- __ZN9HEVC_RBSP18calcReflayerPicIdcEP26hevc_video_parameter_set_tiii
+- __ZN9HEVC_RBSP19calcNumReflayerPicsEP26hevc_video_parameter_set_tii
+- __ZN9HEVC_RBSP21getNumberOfBitsParsedEv
+- __ZN9HEVC_RBSP23decodeTargetLayerIdlistEP26hevc_video_parameter_set_ti
+- __ZN9HEVC_RBSP25calcNumActiveRefLayerPicsEP26hevc_video_parameter_set_tiiP27hevc_slice_segment_header_t
+- __ZN9HEVC_RBSP31calcSpsMaxDecPicBufferingMinus1EP26hevc_video_parameter_set_tP29hevc_sequence_parameter_set_tii
+- __ZN9HEVC_RBSP38performRangeChecksAndComputeParametersEP29hevc_sequence_parameter_set_tP28hevc_picture_parameter_set_t
+- __ZN9HEVC_RBSP38performRangeChecksAndComputeParametersEP29hevc_sequence_parameter_set_tP28hevc_picture_parameter_set_t.cold.1
+- __ZN9HEVC_RBSP38performRangeChecksAndComputeParametersEP29hevc_sequence_parameter_set_tP28hevc_picture_parameter_set_t.cold.2
+- __ZN9HEVC_RBSP38performRangeChecksAndComputeParametersEP29hevc_sequence_parameter_set_tP28hevc_picture_parameter_set_t.cold.3
+- __ZN9HEVC_RBSP38performRangeChecksAndComputeParametersEP29hevc_sequence_parameter_set_tP28hevc_picture_parameter_set_t.cold.4
+- __ZN9HEVC_RBSP8parseSPSEP26hevc_video_parameter_set_tP29hevc_sequence_parameter_set_tii
+- __ZN9HEVC_RBSP8parseSPSEP26hevc_video_parameter_set_tP29hevc_sequence_parameter_set_tii.cold.1
+- __ZN9HEVC_RBSP8parseSPSEP26hevc_video_parameter_set_tP29hevc_sequence_parameter_set_tii.cold.2
+- __ZN9HEVC_RBSP8parseSPSEP26hevc_video_parameter_set_tP29hevc_sequence_parameter_set_tii.cold.3
+- __ZN9HEVC_RBSP8parseSPSEP26hevc_video_parameter_set_tP29hevc_sequence_parameter_set_tii.cold.4
+- __ZN9HEVC_RBSP8parseSPSEP26hevc_video_parameter_set_tP29hevc_sequence_parameter_set_tii.cold.5
+- __ZN9HEVC_RBSP8parseSPSEP26hevc_video_parameter_set_tP29hevc_sequence_parameter_set_tii.cold.6
+- __ZN9HEVC_RBSP8parseSPSEP26hevc_video_parameter_set_tP29hevc_sequence_parameter_set_tii.cold.7
+- _kCMSampleAttachmentKey_BytesOfClearDataCount
+- _parseHevcSps.cold.10
+- _safeGet32
+- _safeGetByte
+- _safeGetShort
+CStrings:
++ "-[AVDBufferFillMetal PreFill:values:clearFullAllocation:bitDepth:]"
++ "-[AVDCommonMetal initWithDevice:]"
++ "-[AVDDeblockMetal deblockFrame:intermediateCVPixelBuff:withQP:preserveOffset:needDecompress:]"
++ "-[AVDScaleMetal scaleFrameBilinear:dstFrame:srcRegion:dstRegion:bitDepth:]"
++ "-[MetalContextManager initializeWithFrame:]"
++ "21:33:49"
++ "21:33:50"
++ "21:33:51"
++ "AVC_MAX_NAL_UNITS"
++ "AVC_MAX_SLICES"
++ "AVDBilinearScaleUnorm"
++ "AVDExtraInloopDeblockHTwoTexture"
++ "AVDExtraInloopDeblockVTwoTexture"
++ "AVDFaceTimeGPUAccelerate"
++ "AVDPreFillChroma"
++ "AVDPreFillLuma"
++ "AVD_DisallowPCM"
++ "AppleAVD: ERROR: %{public}s():  fail to create reference picture list - result: %d\n\n"
++ "AppleAVD: ERROR: %{public}s(): %s(): Canvas Decoding requires intra only!\n"
++ "AppleAVD: ERROR: %{public}s(): %s(): ERROR! Failed to set parameter kVASetCanvasDecodeParams - status %d\n"
++ "AppleAVD: ERROR: %{public}s(): %s(): PicOffset %dx%d is not a multiple of %dx%d!\n"
++ "AppleAVD: ERROR: %{public}s(): %s(): Right %d or Bottom %d is > canvas width or height!\n"
++ "AppleAVD: ERROR: %{public}s(): %s(): Right %d or Bottom %d is >64k!\n"
++ "AppleAVD: ERROR: %{public}s(): %s(): Right-Bottom %dx%d is not aligned to the interchange macroblock boundary within the canvas!\n"
++ "AppleAVD: ERROR: %{public}s(): %s(): inter pic is outside canvas boundary!\n"
++ "AppleAVD: ERROR: %{public}s(): AppleAVD_H264VideoDecoder ERROR: kAppleAVDSetFaceTimeCompressedIOSurfaces : Could not set useCompressedIOSurfacesForFaceTime\n"
++ "AppleAVD: ERROR: %{public}s(): AppleAVD_HEVCVideoDecoder ERROR: kAppleAVDSetFaceTimeCompressedIOSurfaces: Could not set useCompressedIOSurfacesForFaceTime\n"
++ "AppleAVD: ERROR: %{public}s(): Bad Bitstream! first_slice_segment_in_pic_flag NOT set on num_slices: %d\n"
++ "AppleAVD: ERROR: %{public}s(): Bad Bitstream! first_slice_segment_in_pic_flag set on num_slices: %d\n"
++ "AppleAVD: ERROR: %{public}s(): CHECK_UPPER_BOUND %s %d > %s %d\n"
++ "AppleAVD: ERROR: %{public}s(): CVMetalTextureCacheCreate returned error for _textureCacheChromaIn!\n"
++ "AppleAVD: ERROR: %{public}s(): CVMetalTextureCacheCreate returned error for _textureCacheChromaOutV!\n"
++ "AppleAVD: ERROR: %{public}s(): CVMetalTextureCacheCreate returned error for _textureCacheChromaPreFill!\n"
++ "AppleAVD: ERROR: %{public}s(): CVMetalTextureCacheCreate returned error for _textureCacheChromaScale!\n"
++ "AppleAVD: ERROR: %{public}s(): CVMetalTextureCacheCreate returned error for _textureCacheLumaPreFill!\n"
++ "AppleAVD: ERROR: %{public}s(): CVMetalTextureCacheCreate returned error for _textureCacheLumaScale!\n"
++ "AppleAVD: ERROR: %{public}s(): CVPixelBufferCreate failed for Metal Deblocking!\n"
++ "AppleAVD: ERROR: %{public}s(): ERROR: vps->vps_num_hrd_parameters > %d \n"
++ "AppleAVD: ERROR: %{public}s(): ERROR: vps->vps_num_layer_sets_minus1 >= %d \n"
++ "AppleAVD: ERROR: %{public}s(): Encountered unexpected frame parsing state\n\n"
++ "AppleAVD: ERROR: %{public}s(): Failed to allocate parserIn\n"
++ "AppleAVD: ERROR: %{public}s(): Failed to allocate parserOut\n"
++ "AppleAVD: ERROR: %{public}s(): Failed to allocate state buffers\n\n"
++ "AppleAVD: ERROR: %{public}s(): Failed to compile deblock shaders!\n"
++ "AppleAVD: ERROR: %{public}s(): Failed to create input texture from CVMetalTextureCache\n"
++ "AppleAVD: ERROR: %{public}s(): Failed to create intermediate texture from CVMetalTextureCache\n"
++ "AppleAVD: ERROR: %{public}s(): Failed to derive sps params from active vps!\n"
++ "AppleAVD: ERROR: %{public}s(): Failed to init Device for de-blocking!\n"
++ "AppleAVD: ERROR: %{public}s(): Failed to init multiview dpb info!\n"
++ "AppleAVD: ERROR: %{public}s(): HW Supports VP Done but decoder did not allocate buffers correctly\n\n"
++ "AppleAVD: ERROR: %{public}s(): Hardware was listed as supporting VPDone feature but circular state buffer not initialized...\n\n"
++ "AppleAVD: ERROR: %{public}s(): IOIteratorNext failed \n\n"
++ "AppleAVD: ERROR: %{public}s(): IOMainPort failed \n\n"
++ "AppleAVD: ERROR: %{public}s(): IOServiceGetMatchingServices failed \n\n"
++ "AppleAVD: ERROR: %{public}s(): Memory is not assigned for the destination buffer!\n"
++ "AppleAVD: ERROR: %{public}s(): Metal PreFill returned error!\n"
++ "AppleAVD: ERROR: %{public}s(): Metal ScaleFrameBilinear returned error!\n"
++ "AppleAVD: ERROR: %{public}s(): MetalContextManager is NULL!\n"
++ "AppleAVD: ERROR: %{public}s(): Missing CryptorSubsampleAuxData\n"
++ "AppleAVD: ERROR: %{public}s(): No AuxData Entries\n"
++ "AppleAVD: ERROR: %{public}s(): Output structures not properly initialized\n"
++ "AppleAVD: ERROR: %{public}s(): Timed out, waited at least %ums for all previous frames to finish parsing on frameNum %d!, timeoutMS=%u\n"
++ "AppleAVD: ERROR: %{public}s(): Too many slices! %d\n"
++ "AppleAVD: ERROR: %{public}s(): Unable to create texture from input buffer\n"
++ "AppleAVD: ERROR: %{public}s(): Unable to create texture from source buffer!\n"
++ "AppleAVD: ERROR: %{public}s(): Unable to get command queue\n"
++ "AppleAVD: ERROR: %{public}s(): Unable to get metal device\n"
++ "AppleAVD: ERROR: %{public}s(): Unsupported PPS extension features present! pps(%d)\n"
++ "AppleAVD: ERROR: %{public}s(): Unsupported SPS extension features present! sps(%d) pps(%d)\n"
++ "AppleAVD: ERROR: %{public}s(): bit is not 1!\n"
++ "AppleAVD: ERROR: %{public}s(): context alloc  failed \n\n"
++ "AppleAVD: ERROR: %{public}s(): failed to compile metal Bilinear scaling!\n"
++ "AppleAVD: ERROR: %{public}s(): incorrect values to pre-fill the buffer\n"
++ "AppleAVD: ERROR: %{public}s(): initWithDevice returned error!\n"
++ "AppleAVD: ERROR: %{public}s(): kJVTLibCompressedDataFormat_WrappedNALU_* :: NOT SUPPORTED, naluLengthSize %d\n"
++ "AppleAVD: ERROR: %{public}s(): layerIDinVps %d exceeds maximum!\n\n"
++ "AppleAVD: ERROR: %{public}s(): m_pParserOut->pps_list mem alloc failed\n"
++ "AppleAVD: ERROR: %{public}s(): m_pParserOut->slices mem alloc failed\n"
++ "AppleAVD: ERROR: %{public}s(): m_pParserOut->sps_list mem alloc failed\n"
++ "AppleAVD: ERROR: %{public}s(): m_pParserOut->vps mem alloc failed\n"
++ "AppleAVD: ERROR: %{public}s(): m_vps is NULL\n"
++ "AppleAVD: ERROR: %{public}s(): metalDeblockFilter returned error:%d\n"
++ "AppleAVD: ERROR: %{public}s(): metallib file not found\n"
++ "AppleAVD: ERROR: %{public}s(): no vps extension flag!\n"
++ "AppleAVD: ERROR: %{public}s(): pData is NULL\n"
++ "AppleAVD: ERROR: %{public}s(): parse HRD failed!\n"
++ "AppleAVD: ERROR: %{public}s(): parseHevcNALUs error %d\n"
++ "AppleAVD: ERROR: %{public}s(): parseMvHevcNALUs error %d\n"
++ "AppleAVD: ERROR: %{public}s(): parseNALUs error %d\n"
++ "AppleAVD: ERROR: %{public}s(): parserIn is NULL\n"
++ "AppleAVD: ERROR: %{public}s(): parserIn or pData is NULL\n"
++ "AppleAVD: ERROR: %{public}s(): parserOut is NULL\n"
++ "AppleAVD: ERROR: %{public}s(): preFill MTLComputePipelineState error!\n"
++ "AppleAVD: ERROR: %{public}s(): processParserOut error %d\n"
++ "AppleAVD: ERROR: %{public}s(): unsupported naluLengthSize \n"
++ "AppleAVD: ERROR: %{public}s(): unsupported naluLengthSize! %d\n"
++ "AppleAVD: ERROR: %{public}s(): vps extension allocation failed!\n"
++ "AppleAVD: ERROR: %{public}s(): vps extension parsing failed!\n"
++ "AppleAVD: ERROR: %{public}s(): vps parsing failed! releasing vps!\n"
++ "AppleAVD: INFO: %{public}s():  allocate HW Decoder for layerIDinVps %d !\n\n"
++ "AppleAVD: INFO: %{public}s(): AppleAVDFaceTime Chroma De-blocking Filter Method: AVD HW\n"
++ "AppleAVD: INFO: %{public}s(): AppleAVDFaceTime Chroma De-blocking Filter Method: CPU\n"
++ "AppleAVD: INFO: %{public}s(): AppleAVDFaceTime Chroma De-blocking Filter Method: GPU\n"
++ "AppleAVD: INFO: %{public}s(): AppleAVDFaceTime VRA Scaling Method: CPU\n"
++ "AppleAVD: INFO: %{public}s(): AppleAVDFaceTime VRA Scaling Method: GPU\n"
++ "AppleAVD: INFO: %{public}s(): FeatureFlagIsPWDEnabled: %s FeatureFlagIsFaceTimeCompressedIOSurfacesEnabled: %s\n"
++ "AppleAVD: INFO: %{public}s(): Tile size exceeds data size\n"
++ "AppleAVD: INFO: %{public}s(): USP codecT HEVC, m_hwDeviceType = %d multiview client %d \n"
++ "AppleAVD: INFO: %{public}s(): VideoParserEngine enabled\n"
++ "AppleAVD: INFO: %{public}s(): [layer 0] HW Decoder allocated !\n\n"
++ "AppleAVD: INFO: %{public}s(): cfg4: %d\n"
++ "AppleAVD: INFO: %{public}s(): codecType %c%c%c%c encryptionScheme %d\n"
++ "AppleAVD: INFO: %{public}s(): lhvcConfig Record data is found size %zu\n"
++ "AppleAVD: INFO: %{public}s(): m_vps is NULL\n"
++ "AppleAVD: INFO: %{public}s(): returning %d (0: reject; 1: accept) frameNum %d\n"
++ "AppleAVD: INFO: %{public}s(): waited at least %ums for previous frames to finish parsing for frameNum %d! timeoutMS=%u\n"
++ "AppleAVD: WARNING: %{public}s(): slice_count %d out->slice_count %u\n"
++ "Bilinear frame scaler (interpolator)"
++ "Deblock kernels need SIMD of 4 or more"
++ "Facetime chroma extra inloop deblock"
++ "Failed compiling %@ with error %@"
++ "HEVC_MAX_NAL_UNITS"
++ "HEVC_MAX_SLICES"
++ "Jun  1 2026"
++ "LegacyOddSizeYCbCrPixelExtension"
++ "Pre-fill pixel buffer"
++ "Q"
++ "Unable to find kernel %@ with error %@"
++ "Unable to get metal library for bundle %@ error: %@"
++ "com.apple.AppleVideoDecoder.GPUInit"
++ "frameParsingComplete"
++ "getAvcSeqAndPicParamSetFromImageDescExt"
++ "getHevcSeqAndPicParamSetFromImageDescExt"
++ "getHevcVpsSpsPpsBuffer"
++ "getVPS"
++ "hevcPerformRangeChecksAndComputeParameters"
++ "metallib"
++ "out->nal_count"
++ "out->slice_count"
++ "parseHevcNALUs"
++ "parseMvHevcNALUs"
++ "parseMvHevcPS"
++ "parseNALUs"
++ "processParserOut"
++ "v8@?0"
++ "waitForAllFramesToFinishParsingByHW"
++ "~CAHDecCatnipLgh"
++ "~CAHDecDaisyLgh"
++ "~CAHDecHibiscusLgh"
++ "~CAHDecIxoraLgh"
++ "~CAHDecNerineLgh"
++ "~CAHDecTansyLgh"
++ "~CAHDecThymeLgh"
++ "~CAVDMvHevcDecoder"
+- "20:33:42"
+- "20:33:43"
+- "AppleAVD: ERROR: %{public}s(): AVC_Decoder::ParseHeader unsupported naluLengthSize \n"
+- "AppleAVD: ERROR: %{public}s(): AppleAVD::scaleOutputFrame unlockSurface returned error %d\n\n"
+- "AppleAVD: ERROR: %{public}s(): AppleAVDSetParameter call for kAppleAVDSetMVAV1DisplayLayerIDs returned ERROR\n\n"
+- "AppleAVD: ERROR: %{public}s(): AppleAVD_FghrnDecoder - AppleAVDSetParameter kAppleAVDSetTaggedBufGroupArray returned ERROR\n"
+- "AppleAVD: ERROR: %{public}s(): NALU too big! %d nal_ptr:%p, buf_end:%p\n"
+- "AppleAVD: ERROR: %{public}s(): NALU too big! %d nal_ptr:%p, buf_end:%p; dataLength: %8d\n"
+- "AppleAVD: ERROR: %{public}s(): RequestedMVAV1SpatialIDs is not set ERROR\n\n"
+- "AppleAVD: ERROR: %{public}s(): [CAVDHevcDecoder] m_pps_list mem alloc failed\n"
+- "AppleAVD: ERROR: %{public}s(): [CAVDHevcDecoder] m_sps_list mem alloc failed\n"
+- "AppleAVD: ERROR: %{public}s(): bad PPS index %d\n\n"
+- "AppleAVD: ERROR: %{public}s(): bad SPS index %d\n\n"
+- "AppleAVD: ERROR: %{public}s(): cannot find PPS\n"
+- "AppleAVD: ERROR: %{public}s(): kJVTLibCompressedDataFormat_WrappedNALU_* :: NOT SUPPORTED, storage->naluLengthSize %d\n"
+- "AppleAVD: ERROR: %{public}s(): kVTDecompressionPropertyKey_RequestedMVAV1SpatialVideoLayerIDs error\n"
+- "AppleAVD: ERROR: %{public}s(): mvhevc - unpermitted non-VCL NAL following last VCL NAL\n\n"
+- "AppleAVD: INFO: %{public}s(): AppleAVDWrapperHEVCDecoderCreateInstance - encryptionScheme %d\n\n"
+- "AppleAVD: INFO: %{public}s(): Radish AVD is not supported in this AppleAVD driver!!!\n"
+- "AppleAVD: INFO: %{public}s(): storage->usageMode:%d storage->enableRVRA:%d storage->enableChromaFilter:%d\n"
+- "AppleAVD: WARNING: %{public}s(): trying to set kAppleAVDSetMVAV1DisplayLayerIDs before videoContext was created!\n\n"
+- "Apr 23 2026"
+- "NALU too big!"
+- "RequestedMVAV1SpatialIDs"
+- "SeqAndPicParamSetFromImageDescExt"
+- "Too many slices!"
+- "bad PPS index"
+- "bas SPS index!"
+- "createRadishAvcDecoder"
+- "createRadishHevcDecoder"
+- "createRadishLghDecoder"
+- "invalid slice header"
+- "parseNAL error!"
+- "performRangeChecksAndComputeParameters"
+- "unsupported naluLengthSize!"
+
+```

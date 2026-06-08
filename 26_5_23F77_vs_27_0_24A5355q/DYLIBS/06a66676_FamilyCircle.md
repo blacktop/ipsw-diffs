@@ -1,0 +1,3076 @@
+## FamilyCircle
+
+> `/System/Library/PrivateFrameworks/FamilyCircle.framework/FamilyCircle`
+
+```diff
+
+-254.575.9.0.0
+-  __TEXT.__text: 0xdb408 sha256:8e6110f0710b7774bfddd117098df6433651fa67e1dcdd93e4a628cb660e2c4d
+-  __TEXT.__auth_stubs: 0x27e0 sha256:a307846ab52426901e11e6815f990ac41f3030f74b8066c1e1fd0ae5a8cc22b4
+-  __TEXT.__objc_methlist: 0x4164 sha256:3223e9f4bdbc99b853ce5845da8a171f7751875048b8b656f98c71151f70090f
+-  __TEXT.__const: 0x9108 sha256:2cf90fbe28fc6f6f365afb478326b88d10c2145ace733b2ed0ce9f66ee4f5f91
+-  __TEXT.__gcc_except_tab: 0x50c sha256:efb82c1f9a344169dcbe2e0d1b4c8d3a8d156b39bfba8baec99fca8ee32c34e4
+-  __TEXT.__cstring: 0x5f24 sha256:8849914fdc8a8ec31ad7a476c00fa22ef294166e532201445cf335168a173ca1
+-  __TEXT.__oslogstring: 0x50c2 sha256:f1b21d8250a79c5f7177daec2e141a5983de00320edccae557c119370b469e2f
+-  __TEXT.__dlopen_cstrs: 0x1a6 sha256:e2ade622bceb7cc296ec8e98ccdb7c523cb71eda457007eaab08cfcb2b4dae7f
+-  __TEXT.__swift5_typeref: 0x294c sha256:e776ae52ea8a274e4e5a4a5a7f6cf875fe7803ea3a5b2bcd6c13c9b5d376e2bc
+-  __TEXT.__constg_swiftt: 0x2aa0 sha256:a901f06361d202387a4be5541f666c3b5074e2d302d54a3dde78ee71c430fe8b
+-  __TEXT.__swift5_reflstr: 0x15bd sha256:fb60ccd0c1bb44a4ab3c2e7aafb8b00acdb12bcf92e04b964b96d5d1a381a796
+-  __TEXT.__swift5_fieldmd: 0x1fa8 sha256:c752651d636e2698793cd0f7caf2d0188d0b45451b32ab863bfd0fcaaab5566f
+-  __TEXT.__swift5_builtin: 0xdc sha256:856b3d9a121da0c287b2922e94013fa7fabda5658f7acb8c83611cc180a2c2dd
+-  __TEXT.__swift5_assocty: 0x620 sha256:eecaa88352cb8c16f9e725088f50bf251f692611894e365e09e155e37849597f
+-  __TEXT.__swift5_proto: 0x6d8 sha256:079e3cdb17f7e3dcbfda1dc10f38214fffdcba9df3fbb2ad60cce56cd4299836
+-  __TEXT.__swift5_types: 0x2e8 sha256:c8fbedab1a15d4b134c413f3c7450b8879b56ccd1e58acb6d117c6b762f034b8
+-  __TEXT.__swift5_mpenum: 0x10 sha256:24cd9c01eafb7650b3ce0445b5cd6e9bc9b8a1e2c365394157da61f37df7fd60
+-  __TEXT.__swift5_capture: 0x80c sha256:383e470e0badf6d841d1a62da96640de30ed6388d1ba44c6f50bb405e76b448f
+-  __TEXT.__swift_as_entry: 0x1d0 sha256:1b6adebc2d01683fe749bc5ae8d750a8c1e4b48e4a749e78d6d3a4f7d40293d5
+-  __TEXT.__swift_as_ret: 0x25c sha256:a81da663d3ce15c1d6bf273d3f7a1855c80312200bd25e98cae66b53972706f9
+-  __TEXT.__swift5_protos: 0x78 sha256:952110fdf889367fcc64b7a9cc18262bbc88b93ad7a6304ae1a9f36f0dd2cc19
+-  __TEXT.__unwind_info: 0x4368 sha256:c1343af4b513d35a77ee526f0b45c32b927a90df92ca9dd9d17922dddb4c3f2e
+-  __TEXT.__eh_frame: 0x6a38 sha256:43ae062d307a83536424ea535c6988c52f318521ad86f089aead14e115a70719
+-  __TEXT.__objc_classname: 0x11de sha256:4855acf2efe01d35319059679c4c11e1644399d18ec03715837902950db8dbc7
+-  __TEXT.__objc_methname: 0xbabd sha256:01c71b510e1b1fe1fbbd27e8d6d8920ce25a78e7aefdf3929d0920f07d2a1114
+-  __TEXT.__objc_methtype: 0x1eb0 sha256:6b3540e0f84ae254136445066d642b0228242fc02c0da9c473ad5ba789169884
+-  __TEXT.__objc_stubs: 0x7040 sha256:b6966b3dfe8b58d983d7417ecf9379f9cea60aced7bcb4308c1db4ef10ee4be8
+-  __DATA_CONST.__got: 0xae8 sha256:ca3bf2395f24fa52d2ed02a97b5a3b7f3a7b71ff48c5ca685302d7a276712bd2
+-  __DATA_CONST.__const: 0x1a60 sha256:052a7ab9ea5fb7804d19e0a872b29bf82bdfd352056edde68cd85d5cb2c8d8af
+-  __DATA_CONST.__objc_classlist: 0x3d0 sha256:fc971dd9ec5a3dff965e3cfc731b279f001e42127f47ba03b6dc597482ad5d7e
+-  __DATA_CONST.__objc_catlist: 0x58 sha256:29c577306d44f6ccd487fbc49018d8949c51981dc8f9bea92afeea2b7902b344
+-  __DATA_CONST.__objc_protolist: 0xd8 sha256:89579a6436773670ac3a4c7b809f524dfe6c20fbd77ddaa63050bb27161a7423
+-  __DATA_CONST.__objc_imageinfo: 0x8 sha256:8c2e86a3d61473a17440ee60441113a7d285704a3b70278f03e88b3c356a5493
+-  __DATA_CONST.__objc_selrefs: 0x28f0 sha256:d767ab09d217f42cb60b5bed57a197e5160ba1d4f07842b80ad1baaa39ab5bac
+-  __DATA_CONST.__objc_protorefs: 0x50 sha256:1f9cd5950047d8abadbfc7e49c6af39603c2f5aadc222a08e6ebef1e03acac78
+-  __DATA_CONST.__objc_superrefs: 0x180 sha256:30cdb59a0bc242dcbaf03010ca5e4792a4a2d27ecc49d52de05219e6ce600246
+-  __DATA_CONST.__objc_arraydata: 0x88 sha256:4e4b40d9fdafdc3fa8d461ea1a03b7ecc01284d3b38f3d5abbb630d6e1c382b2
+-  __AUTH_CONST.__auth_got: 0x1400 sha256:a11937f356a9b0ba592c82f5290bac8016cb33a3f9bc68d3490147c158ebb10d
+-  __AUTH_CONST.__const: 0x6e00 sha256:7b07669c8cbc94aba1ad7db5b3381aa254b3aa0057696074a9bc487b33e59c53
+-  __AUTH_CONST.__cfstring: 0x4200 sha256:fd0677648c0bb2aff9fa38516d4548bd6e9697d107ba3d861b8e8900e9ead60e
+-  __AUTH_CONST.__objc_const: 0xd0d8 sha256:f90f899ec9551eb375be65d9fc1cae637226509a7bd7642ba244f6e8ee3676f1
+-  __AUTH_CONST.__objc_intobj: 0x1b0 sha256:6bea7d7375f3155a7f1df7ec0afa4c9ca556d20d58532e0fafa39b76d7687bd5
+-  __AUTH_CONST.__objc_arrayobj: 0x78 sha256:c053a0b357d393bd886fa95c5af0aefa80bab2f0984503b425d0ba25bd6ff465
+-  __AUTH.__objc_data: 0x1698 sha256:1909071e9a47012d18bb47ce1c8b9071bab07ad6ddbf395ae664b6187e334617
+-  __AUTH.__data: 0x1858 sha256:c7e6f08b8549b0170e04f7f5605b1d72e1a443a6fa4429a585972ff3b8331b94
+-  __DATA.__objc_ivar: 0x470 sha256:07877aa148a3e351c2d79d7d012d46b8edda5dc0cc026a636b98995a45fd87ca
+-  __DATA.__data: 0x2850 sha256:f80b1f4c2f8fc7bc9fce032a6e4b0f356dbec19bb51491e8c33357d542485a81
+-  __DATA.__bss: 0xcae0 sha256:b77a41f1ebda5a654b94409a29ea570ffb146ef0061ab4aa2a0c1511120119df
++279.3.1.2.0
++  __TEXT.__text: 0xc4970 sha256:5109298e36e268f376b1142488383af199e2745554deb808db4f5e4d64c9717c
++  __TEXT.__objc_methlist: 0x410c sha256:015346b079947a18174f24a840914c5ede883afea655c577fd70bfe24edae73d
++  __TEXT.__const: 0x8478 sha256:0f6a879012b5dce41083b304b1b000e90d0203a80e44d92003090e031d19271e
++  __TEXT.__gcc_except_tab: 0x47c sha256:8560113919fd48d58ce55e37ac004a826b16c6b8beaa1de9f8d1de6e5928f606
++  __TEXT.__cstring: 0x5fa4 sha256:8a2c43cb81d4d653b1b842aa5bbf9baeeb9004ccd8b0100a1f88e211f0349718
++  __TEXT.__oslogstring: 0x4c33 sha256:7815dc6551717f0590f892c49624f76318c89bc249248bb52b9f371c3d65ee37
++  __TEXT.__dlopen_cstrs: 0x14c sha256:fc5cf5211f101bd85d411ab9eb332f5cf59b820b1eb2ceddbd8d74e2440542b6
++  __TEXT.__swift5_typeref: 0x2380 sha256:41caa5ecebf16a74054db97415b3c6e57de0a41b090beac7988c836cfd1973a1
++  __TEXT.__constg_swiftt: 0x26f4 sha256:5e8aca1103e1f8199783be12c3634aee798713abe80d2b03924cffaad363ed1b
++  __TEXT.__swift5_reflstr: 0x155d sha256:299830813d2078f39d9bbf5109a40e679125f6b4c6154ec0e1b967ac808e6617
++  __TEXT.__swift5_fieldmd: 0x1de8 sha256:aec64a0edafd9810609c709f9963fd22087fd50c9521d34913efc4d91025c63d
++  __TEXT.__swift5_builtin: 0xdc sha256:bd0aec91cba1d2f8e0a46ef44d4fa3278bd4da85fa89f5cc29b99c1b576b344f
++  __TEXT.__swift5_assocty: 0x580 sha256:2f35adac984e3c341c824fb3a0c8de5a97240b94a36cebfe2fe23e4d2a23da9a
++  __TEXT.__swift5_proto: 0x630 sha256:cd38b50faa17865cc4105eeabe179b51a0bc9dde8f47a86cc0a4ad68e6b92b41
++  __TEXT.__swift5_types: 0x2d4 sha256:dc8a93f858b9f79d4242c2eaa941858c9e6f2ddd092dd5c77a748a89bd6c0132
++  __TEXT.__swift5_capture: 0x738 sha256:b332708929806e919257a045e30baae8b58e52980fc5e758a8eda8215a62cec2
++  __TEXT.__swift_as_entry: 0x1a4 sha256:640c0bfd7e9ac63ff2ad70adaf15aab4ccfa9e85b0c6ca98a15f56ea2a732790
++  __TEXT.__swift_as_ret: 0x1dc sha256:e3a1bc013cb24f6f79f31e37a524a9a96ddd12eb4ff5656d25903441c553a21a
++  __TEXT.__swift_as_cont: 0x3cc sha256:0ba4369848a5327836ef5bd2a895629e0bf42855500eb8010080f199ca853326
++  __TEXT.__swift5_mpenum: 0x10 sha256:d1b69e6be42d8416d6cde09a7c41a69888224f076f2633c0fbbb27e8814b258b
++  __TEXT.__swift5_protos: 0x64 sha256:8b03c20084466ab8934548f5a5e4000a56db14afdb0f6e144b89edac65f11874
++  __TEXT.__unwind_info: 0x3b88 sha256:c510e02c68152dae3ac1f0d93f9a6f05820682a4f048873c4d9a3e0d31bb3329
++  __TEXT.__eh_frame: 0x55b8 sha256:e42fed09abd15bbb20dd836f4e64d4c76544fbe1f370c76837264dd94e43f84a
++  __TEXT.__objc_stubs: 0x0
++  __TEXT.__auth_stubs: 0x0
++  __TEXT.__objc_classname: 0x0
++  __TEXT.__objc_methname: 0x0
++  __TEXT.__objc_methtype: 0x0
++  __DATA_CONST.__const: 0x1900 sha256:279fac568fb3021f23728264b59dea976a912f36e751cd89a73bc0e2e1e52c5b
++  __DATA_CONST.__objc_classlist: 0x3d8 sha256:2bdaecd67ac9a0a9dcb7d2a10bc888dc4d108f6059bbe769d08a80b4a05ab8b4
++  __DATA_CONST.__objc_catlist: 0x58 sha256:cddf9b803ad97a47b6d4cd94e6cd5fd3b649c2bcfdd568abf7dec0488a526d6b
++  __DATA_CONST.__objc_protolist: 0xd0 sha256:848d9693c4e316bad512f488029fcf6b7107a952700061ae77b87c2aebfbc240
++  __DATA_CONST.__objc_imageinfo: 0x8 sha256:ce857dcadc2529f941104469975d60698ea3610a86c121e7b4aee224cd0c59ea
++  __DATA_CONST.__objc_selrefs: 0x2840 sha256:e7d11a2a331dac3a08b883f28f0f3cbd65ae5bb298dbe313636cff8fc7c63667
++  __DATA_CONST.__objc_protorefs: 0x50 sha256:6e458b91d18ffb52fe48daaff3f4897ac5cd0ec28f6aa2321a88ec1cb8b4801a
++  __DATA_CONST.__objc_superrefs: 0x178 sha256:fb597722b91c32ba080ec61ac3f07bcd075dfc343d06d7ac8d2582e94edd6400
++  __DATA_CONST.__objc_arraydata: 0x88 sha256:09b9834d011c17ea53eba196e0fd1e546f77493a81338c1e2c1a19eb5e78cfd7
++  __DATA_CONST.__got: 0x980 sha256:c03a585f51881fc5b33fcab73a6cb97519a67dafdfe6bfcc1141fe3a24c8f639
++  __AUTH_CONST.__const: 0x6860 sha256:824feca8b60352c2d85a452a2dfd61107237456be9c211cd5b5bbf16695c4dc4
++  __AUTH_CONST.__cfstring: 0x4260 sha256:5ea799beb63c21c437544ca42d80b6999f1d7708dee4262fbe90f66f8710ea02
++  __AUTH_CONST.__objc_const: 0xc8d0 sha256:4becce98b14d678104ce4a170b37ce9edd4479ad1377179dbf62feabebd8417e
++  __AUTH_CONST.__objc_arrayobj: 0x78 sha256:9162ee2076baaed8e5d6361709adc8f615d8a43fbe780de778e6745dcd127ecf
++  __AUTH_CONST.__objc_intobj: 0x1b0 sha256:99824900f1562f5d0b99879fc2851ba28b6bc393e9e206a5ef7bc12d0cbe8945
++  __AUTH_CONST.__auth_got: 0x1388 sha256:7ca5bd879f393d9dd05b14f38add9c0fc6b67928f7f2d261b2e47a32ee8219e3
++  __AUTH.__objc_data: 0x1700 sha256:9a6f2a73a76cd245c4860e6c68cf77857c7ab4fe0dd587bfb9ac760a2f15321e
++  __AUTH.__data: 0x15c8 sha256:0a5a772332f510f60b1d01bd168520dac805ba4f1283d9a43c4b025a7757f2d9
++  __DATA.__objc_ivar: 0x470 sha256:57d74e570a48ed3cdbd27e05a5843fcfc0e9e3991e146e334c00fd00a83f3a59
++  __DATA.__data: 0x2550 sha256:8c5d834e7a2fb279f8ef0ae405f3064644ac692e389b631c8d3029ae3d662002
++  __DATA.__bss: 0xbb40 sha256:3c8048b831a6ba4f6c0e6a42818fc47035aa5ba1b2e5ae971e4a1942b3a25f19
+   __DATA.__common: 0x88 sha256:b707241545a346265aab1ffb32ff64b55bf8f8dc1b56a46ef33ce3d15db11d33
+-  __DATA_DIRTY.__objc_data: 0x1340 sha256:74dc8f83b835856890b8b09be62db80016554421b8fd2c16439654fe78f1dc06
+-  __DATA_DIRTY.__data: 0x708 sha256:0bcdb8199d845ba709471a5f7adda75f0ed5323aa1961cbcb3e7a46aae82a5aa
+-  __DATA_DIRTY.__bss: 0x250 sha256:2b73f6b3cd6cd9f97ccbbedc2fa1904331b916b2ace865882f72ddd083c79b04
++  __DATA_DIRTY.__objc_data: 0x1390 sha256:8ad9a115dd4a74a92c62b0467425db7209360ead7f484ef4e7130fecb10e9b51
++  __DATA_DIRTY.__data: 0x618 sha256:dd1e4f5a57d697dd08e4027b2195253dc737f1924957b896751aa4335b9d17e6
++  __DATA_DIRTY.__bss: 0x160 sha256:627f6149015f853f26db2f3dffba1b7c30b3b74b87c5cfb9f346c1616e3636d0
+   - /System/Library/Frameworks/Accounts.framework/Accounts
+   - /System/Library/Frameworks/CloudKit.framework/CloudKit
+   - /System/Library/Frameworks/Combine.framework/Combine
+
+   - /System/Library/Frameworks/CoreServices.framework/CoreServices
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/Frameworks/ImageIO.framework/ImageIO
++  - /System/Library/Frameworks/LightweightCodeRequirements.framework/LightweightCodeRequirements
+   - /System/Library/Frameworks/Security.framework/Security
+   - /System/Library/PrivateFrameworks/AAAFoundation.framework/AAAFoundation
+   - /System/Library/PrivateFrameworks/AAAFoundationSwift.framework/AAAFoundationSwift
+
+   - /System/Library/PrivateFrameworks/ApplePushService.framework/ApplePushService
+   - /System/Library/PrivateFrameworks/AuthKit.framework/AuthKit
+   - /System/Library/PrivateFrameworks/BackgroundSystemTasks.framework/BackgroundSystemTasks
++  - /System/Library/PrivateFrameworks/CloudKitSharingManagement.framework/CloudKitSharingManagement
+   - /System/Library/PrivateFrameworks/CoreDuet.framework/CoreDuet
+   - /System/Library/PrivateFrameworks/CoreFollowUp.framework/CoreFollowUp
+   - /System/Library/PrivateFrameworks/FTClientServices.framework/FTClientServices
+
+   - /usr/lib/swift/libswiftCoreImage.dylib
+   - /usr/lib/swift/libswiftCoreLocation.dylib
+   - /usr/lib/swift/libswiftCoreMIDI.dylib
+-  - /usr/lib/swift/libswiftCoreMedia.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
+   - /usr/lib/swift/libswiftIntents.dylib
+   - /usr/lib/swift/libswiftMetal.dylib
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: EEEC5937-B60B-3B99-AF54-41ED09A030C3
+-  Functions: 5872
+-  Symbols:   7375
+-  CStrings:  4141
++  UUID: 95185848-51EC-33A3-9953-8B97BDBB5E97
++  Functions: 5442
++  Symbols:   7321
++  CStrings:  1840
+ 
+Symbols:
++ +[FAFamilyInviteReporter reportInviteSentWithURL:completionInfo:]
++ +[FAFamilyInviteReporter reportInviteSentWithURL:completionInfo:].cold.1
++ +[FAFamilyInviteReporter reportInviteSentWithURL:completionInfo:].cold.2
++ -[FAFamilySettings prompterProvider]
++ -[FAFamilySettings prompterProvider].cold.1
++ -[FARequestConfigurator _fresnoPayloadWithAdditionalPayload:].cold.1
++ -[FARequestConfigurator _fresnoPayloadWithAdditionalPayload:].cold.2
++ -[FARequestConfigurator _fresnoPayloadWithAdditionalPayload:].cold.3
++ -[FARequestConfigurator authResults]
++ -[FARequestConfigurator setAuthResults:]
++ -[FARequestConfigurator updateWithAuthResults:]
++ -[FARequestConfigurator updateWithAuthResults:].cold.1
++ -[FASettingProtoAccountRestrictionsRequest setRestrictions:completion:]
++ -[FASettingsPresetsRequest fetchPresetsJSONDataWithCompletion:]
++ _AKAppleIDAuthenticationAppProvidedContextAgeMigration
++ _AKAuthenticationNewAccountCreated
++ _FASettingsPresetsRequestVersionV3
++ _FAURLEndpointCKShareUpdate
++ _NSCocoaErrorDomain
++ _OBJC_CLASS_$_AKDeviceListResponse
++ _OBJC_CLASS_$_AKRemoteDevice
++ _OBJC_CLASS_$_FAFamilyInviteReporter
++ _OBJC_CLASS_$_FASharingCenterHelper
++ _OBJC_CLASS_$__TtC12FamilyCircle22FAFamilyInviteNotifier
++ _OBJC_IVAR_$_FARequestConfigurator._authResults
++ _OBJC_METACLASS_$_FAFamilyInviteReporter
++ _OBJC_METACLASS_$_FASharingCenterHelper
++ _OBJC_METACLASS_$__TtC12FamilyCircle22FAFamilyInviteNotifier
++ __CLASS_METHODS__TtC12FamilyCircle22FAFamilyInviteNotifier
++ __DATA_FASharingCenterHelper
++ __DATA__TtC12FamilyCircle19FAOSUpdatedActivity
++ __DATA__TtC12FamilyCircle22FAFamilyInviteNotifier
++ __DATA__TtC12FamilyCircle25FAUpdateFamilyFlagRequest
++ __DATA__TtC12FamilyCircle30FAFetchFamilyDeviceListRequest
++ __DATA__TtC12FamilyCircle31FAReportFamilyInviteSentRequest
++ __INSTANCE_METHODS_FASharingCenterHelper
++ __INSTANCE_METHODS__TtC12FamilyCircle22FAFamilyInviteNotifier
++ __IVARS__TtC12FamilyCircle19FAOSUpdatedActivity
++ __IVARS__TtC12FamilyCircle25FAUpdateFamilyFlagRequest
++ __IVARS__TtC12FamilyCircle30FAFetchFamilyDeviceListRequest
++ __IVARS__TtC12FamilyCircle31FAReportFamilyInviteSentRequest
++ __METACLASS_DATA_FASharingCenterHelper
++ __METACLASS_DATA__TtC12FamilyCircle19FAOSUpdatedActivity
++ __METACLASS_DATA__TtC12FamilyCircle22FAFamilyInviteNotifier
++ __METACLASS_DATA__TtC12FamilyCircle25FAUpdateFamilyFlagRequest
++ __METACLASS_DATA__TtC12FamilyCircle30FAFetchFamilyDeviceListRequest
++ __METACLASS_DATA__TtC12FamilyCircle31FAReportFamilyInviteSentRequest
++ __OBJC_$_CLASS_METHODS_FAFamilyInviteReporter
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_FAFamilySetupPrompterBaseDelegate
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_FASharingCenterHelperProtocol
++ __OBJC_$_PROTOCOL_METHOD_TYPES_FAFamilySetupPrompterBaseDelegate
++ __OBJC_$_PROTOCOL_METHOD_TYPES_FASharingCenterHelperProtocol
++ __OBJC_$_PROTOCOL_REFS_FAFamilySetupPrompterBaseDelegate
++ __OBJC_$_PROTOCOL_REFS_FASharingCenterHelperProtocol
++ __OBJC_CLASS_RO_$_FAFamilyInviteReporter
++ __OBJC_LABEL_PROTOCOL_$_FAFamilySetupPrompterBaseDelegate
++ __OBJC_LABEL_PROTOCOL_$_FASharingCenterHelperProtocol
++ __OBJC_METACLASS_RO_$_FAFamilyInviteReporter
++ __OBJC_PROTOCOL_$_FAFamilySetupPrompterBaseDelegate
++ __OBJC_PROTOCOL_$_FASharingCenterHelperProtocol
++ __PROTOCOLS_FASharingCenterHelper
++ __PROTOCOLS_FASharingCenterHelper.7
++ ___36-[FAFamilySettings prompterProvider]_block_invoke
++ ___49-[FARequestConfigurator pushTokenWithCompletion:]_block_invoke.103
++ ___49-[FARequestConfigurator pushTokenWithCompletion:]_block_invoke.103.cold.1
++ ___55-[FAFamilySettings _launchPrefsUsingDaemonWithOptions:]_block_invoke.29
++ ___63-[FASettingsPresetsRequest fetchPresetsJSONDataWithCompletion:]_block_invoke
++ ___66-[FARequestConfigurator addFresnoHeadersToRequest:withCompletion:]_block_invoke.95
++ ___66-[FARequestConfigurator addFresnoHeadersToRequest:withCompletion:]_block_invoke.97
++ ___71-[FASettingProtoAccountRestrictionsRequest setRestrictions:completion:]_block_invoke
++ ___71-[FASettingProtoAccountRestrictionsRequest setRestrictions:completion:]_block_invoke.cold.1
++ ___block_descriptor_32_e20_v20?0B8"NSError"12l
++ ___block_literal_global.28
++ ___block_literal_global.32
++ ___swift__destructor
++ ___swift__destructor.2
++ ___swift__destructor.32
++ ___swift_allocate_boxed_opaque_existential_0
++ ___swift_assign_boxed_opaque_existential_0
++ ___swift_async_cont_functlets
++ ___swift_closure_destructor
++ ___swift_closure_destructor.10
++ ___swift_closure_destructor.10Tm
++ ___swift_closure_destructor.11
++ ___swift_closure_destructor.13
++ ___swift_closure_destructor.14
++ ___swift_closure_destructor.15
++ ___swift_closure_destructor.16
++ ___swift_closure_destructor.18
++ ___swift_closure_destructor.19
++ ___swift_closure_destructor.2
++ ___swift_closure_destructor.20
++ ___swift_closure_destructor.21
++ ___swift_closure_destructor.22
++ ___swift_closure_destructor.23
++ ___swift_closure_destructor.24
++ ___swift_closure_destructor.24Tm
++ ___swift_closure_destructor.25
++ ___swift_closure_destructor.26
++ ___swift_closure_destructor.27
++ ___swift_closure_destructor.28
++ ___swift_closure_destructor.3
++ ___swift_closure_destructor.30
++ ___swift_closure_destructor.33
++ ___swift_closure_destructor.34
++ ___swift_closure_destructor.35
++ ___swift_closure_destructor.36
++ ___swift_closure_destructor.37
++ ___swift_closure_destructor.39
++ ___swift_closure_destructor.4
++ ___swift_closure_destructor.40
++ ___swift_closure_destructor.44
++ ___swift_closure_destructor.46
++ ___swift_closure_destructor.51
++ ___swift_closure_destructor.59
++ ___swift_closure_destructor.6
++ ___swift_closure_destructor.64
++ ___swift_closure_destructor.69
++ ___swift_closure_destructor.69Tm
++ ___swift_closure_destructor.7
++ ___swift_closure_destructor.72
++ ___swift_closure_destructor.7Tm
++ ___swift_closure_destructor.8
++ ___swift_closure_destructor.9
++ ___swift_closure_destructorTm
++ ___swift_deallocate_boxed_opaque_existential_0
++ ___swift_exist.box.addr_destructor
++ ___swift_memcpy9_8
++ _associated conformance 12FamilyCircle0A13TestingCenterC3XPCO23ForceFetchPendingSharesO14RequestMessageV10CodingKeys33_CE0002795F062A8860ADFD91A18BCAC2LLOSHAASQ
++ _associated conformance 12FamilyCircle0A13TestingCenterC3XPCO23ForceFetchPendingSharesO14RequestMessageV10CodingKeys33_CE0002795F062A8860ADFD91A18BCAC2LLOs0L3KeyAAs23CustomStringConvertible
++ _associated conformance 12FamilyCircle0A13TestingCenterC3XPCO23ForceFetchPendingSharesO14RequestMessageV10CodingKeys33_CE0002795F062A8860ADFD91A18BCAC2LLOs0L3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 12FamilyCircle0A13TestingCenterC3XPCO23ForceFetchPendingSharesO14RequestMessageV18AAAFoundationSwift0K0AA12ResponseTypeAjKP_SE
++ _associated conformance 12FamilyCircle0A13TestingCenterC3XPCO23ForceFetchPendingSharesO14RequestMessageV18AAAFoundationSwift0K0AA12ResponseTypeAjKP_Se
++ _associated conformance 12FamilyCircle0A13TestingCenterC3XPCO23ForceFetchPendingSharesO14RequestMessageV18AAAFoundationSwift0K0AASE
++ _associated conformance 12FamilyCircle0A13TestingCenterC3XPCO23ForceFetchPendingSharesO14RequestMessageV18AAAFoundationSwift0K0AASe
++ _associated conformance 12FamilyCircle0A13TestingCenterC3XPCO23ForceFetchPendingSharesO8ResponseV10CodingKeys33_CE0002795F062A8860ADFD91A18BCAC2LLOs0K3KeyAAs23CustomStringConvertible
++ _associated conformance 12FamilyCircle0A13TestingCenterC3XPCO23ForceFetchPendingSharesO8ResponseV10CodingKeys33_CE0002795F062A8860ADFD91A18BCAC2LLOs0K3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 12FamilyCircle11AppleIDTypeOSHAASQ
++ _associated conformance 12FamilyCircle21FAURLProviderBagErrorOSHAASQ
++ _associated conformance 12FamilyCircle30ScreenTimeSettingsFeatureFlagsOSHAASQ
++ _associated conformance 12FamilyCircle31FAForceFetchShareRequestContextOSHAASQ
++ _associated conformance 12FamilyCircle34DaemonContainerItemDescriptorErrorOSHAASQ
++ _block_copy_helper.14
++ _block_copy_helper.23
++ _block_copy_helper.28
++ _block_copy_helper.35
++ _block_copy_helper.37
++ _block_copy_helper.41
++ _block_copy_helper.5
++ _block_copy_helper.8
++ _block_descriptor.10
++ _block_descriptor.16
++ _block_descriptor.25
++ _block_descriptor.30
++ _block_descriptor.37
++ _block_descriptor.39
++ _block_descriptor.43
++ _block_descriptor.7
++ _block_destroy_helper.15
++ _block_destroy_helper.24
++ _block_destroy_helper.29
++ _block_destroy_helper.36
++ _block_destroy_helper.38
++ _block_destroy_helper.42
++ _block_destroy_helper.6
++ _block_destroy_helper.9
++ _kCFAllocatorSystemDefault
++ _objc_claimAutoreleasedReturnValue
++ _objc_msgSend$URLsForDirectory:inDomains:
++ _objc_msgSend$_appearsToBeEmail
++ _objc_msgSend$_appearsToBePhoneNumber
++ _objc_msgSend$appProvidedContext
++ _objc_msgSend$authContext
++ _objc_msgSend$authResults
++ _objc_msgSend$bundleWithPath:
++ _objc_msgSend$classNamed:
++ _objc_msgSend$deviceList
++ _objc_msgSend$familyDeviceList
++ _objc_msgSend$familyDeviceListInformationForAltDSID:replyBlock:
++ _objc_msgSend$fetchSettingsPresetsJSONWithStoreFront:version:options:replyBlock:
++ _objc_msgSend$lastUpdatedDate
++ _objc_msgSend$launchICloudFamilySettingsWithOptions:reply:
++ _objc_msgSend$memberForAltDSID:
++ _objc_msgSend$model
++ _objc_msgSend$notifyInviteSentWithUrl:completionInfo:
++ _objc_msgSend$operatingSystemName
++ _objc_msgSend$operatingSystemVersion
++ _objc_msgSend$promptIfEligibleWithPresentingSender:isFirstRun:
++ _objc_msgSend$prompterProvider
++ _objc_msgSend$prompterWithITunesAccount:
++ _objc_msgSend$reportFamilyInviteSentWithURL:completionInfo:replyBlock:
++ _objc_msgSend$setAuthResults:
++ _objc_msgSend$setRestrictions:completion:
++ _objc_msgSend$setRestrictionsForProtoAccount:completion:
++ _objc_msgSend$updateFamilyFlagWithHasScreenTimeMigrated:replyBlock:
++ _objc_retain_x3
++ _objc_retain_x4
++ _objc_retain_x5
++ _objc_retain_x6
++ _prompterProvider.onceToken
++ _prompterProvider.provider
++ _swift_release_x19
++ _swift_release_x20
++ _swift_release_x21
++ _swift_release_x22
++ _swift_release_x23
++ _swift_release_x24
++ _swift_release_x25
++ _swift_release_x26
++ _swift_release_x27
++ _swift_release_x28
++ _swift_release_x8
++ _swift_retain_x19
++ _swift_retain_x2
++ _swift_retain_x20
++ _swift_retain_x21
++ _swift_retain_x22
++ _swift_retain_x23
++ _swift_retain_x24
++ _swift_retain_x25
++ _swift_retain_x26
++ _swift_retain_x27
++ _swift_retain_x28
++ _swift_retain_x8
++ _swift_task_future_wait_throwing
++ _swift_task_localValueGet
++ _symbolic $s12FamilyCircle25CKAudienceManagerProtocolP
++ _symbolic SS3key_yp5valuet
++ _symbolic Sb_____c 12FamilyCircle0A12FeatureFlagsO
++ _symbolic Sb_____c 12FamilyCircle24AppleIDSetupFeatureFlagsO
++ _symbolic Sb_____c 12FamilyCircle30ScreenTimeSettingsFeatureFlagsO
++ _symbolic ScCySo20AKDeviceListResponseC______pG s5ErrorP
++ _symbolic ScCy___________pG 10Foundation3URLV s5ErrorP
++ _symbolic Shy_____G 12FamilyCircle25InternalRegulatoryFeatureO
++ _symbolic So21FASharingCenterHelperC
++ _symbolic So22FAInviteCompletionInfoC
++ _symbolic So7NSErrorCSgIeyBy_Sg
++ _symbolic _____ 12FamilyCircle07FAFetchA17DeviceListRequestC
++ _symbolic _____ 12FamilyCircle08FAReportA17InviteSentRequestC
++ _symbolic _____ 12FamilyCircle08FAUpdateA11FlagRequestC
++ _symbolic _____ 12FamilyCircle0A13TestingCenterC3XPCO23ForceFetchPendingSharesO
++ _symbolic _____ 12FamilyCircle0A13TestingCenterC3XPCO23ForceFetchPendingSharesO14RequestMessageV
++ _symbolic _____ 12FamilyCircle0A13TestingCenterC3XPCO23ForceFetchPendingSharesO14RequestMessageV10CodingKeys33_CE0002795F062A8860ADFD91A18BCAC2LLO
++ _symbolic _____ 12FamilyCircle0A13TestingCenterC3XPCO23ForceFetchPendingSharesO8ResponseV
++ _symbolic _____ 12FamilyCircle0A13TestingCenterC3XPCO23ForceFetchPendingSharesO8ResponseV10CodingKeys33_CE0002795F062A8860ADFD91A18BCAC2LLO
++ _symbolic _____ 12FamilyCircle0A20FeatureFlagsProtocolV
++ _symbolic _____ 12FamilyCircle11AppleIDTypeO
++ _symbolic _____ 12FamilyCircle14FAFamilyDeviceV
++ _symbolic _____ 12FamilyCircle19FAOSUpdatedActivityC
++ _symbolic _____ 12FamilyCircle21FAURLProviderBagErrorO
++ _symbolic _____ 12FamilyCircle22FAFamilyInviteNotifierC
++ _symbolic _____ 12FamilyCircle24SharingNotSupportedErrorV
++ _symbolic _____ 12FamilyCircle30ScreenTimeSettingsFeatureFlagsO
++ _symbolic _____ 12FamilyCircle31FAForceFetchShareRequestContextO
++ _symbolic _____ 12FamilyCircle32AppleIDSetupFeatureFlagsProtocolV
++ _symbolic _____ 12FamilyCircle34DaemonContainerItemDescriptorErrorO
++ _symbolic _____ 12FamilyCircle38ScreenTimeSettingsFeatureFlagsProtocolV
++ _symbolic _____ 25CloudKitSharingManagement10AudienceIDV
++ _symbolic _____ 25CloudKitSharingManagement10AudienceIDV12FamilyCircleE07defaultG16SettingsZoneNameSSvg07UnknownE5ErrorL_V
++ _symbolic _____ 25CloudKitSharingManagement10AudienceIDV12FamilyCircleE07defaultG16SettingsZoneNameSSvg23NoAltDSIDForCurrentUserL_V
++ _symbolic _____ 25CloudKitSharingManagement17CKAudienceManagerC
++ _symbolic _____ 25CloudKitSharingManagement18UpdateSharesResultV
++ _symbolic ______p 12FamilyCircle23BackgroundTaskSchedulerP
++ _symbolic ______pSg 12FamilyCircle25CKAudienceManagerProtocolP
++ _symbolic _____ySSSay_____GG s18_DictionaryStorageC 12FamilyCircle14FAFamilyDeviceV
++ _symbolic _____y_____G s22KeyedDecodingContainerV 12FamilyCircle0D13TestingCenterC3XPCO23ForceFetchPendingSharesO14RequestMessageV10CodingKeys33_CE0002795F062A8860ADFD91A18BCAC2LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 12FamilyCircle0D13TestingCenterC3XPCO23ForceFetchPendingSharesO14RequestMessageV10CodingKeys33_CE0002795F062A8860ADFD91A18BCAC2LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 12FamilyCircle0D13TestingCenterC3XPCO23ForceFetchPendingSharesO8ResponseV10CodingKeys33_CE0002795F062A8860ADFD91A18BCAC2LLO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 12FamilyCircle14FAFamilyDeviceV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 25CloudKitSharingManagement10AudienceIDV
++ _type_layout_string 12FamilyCircle0A13TestingCenterC3XPCO23ForceFetchPendingSharesO14RequestMessageV
++ _type_layout_string 12FamilyCircle0A20FeatureFlagsProtocolV
++ _type_layout_string 12FamilyCircle32AppleIDSetupFeatureFlagsProtocolV
++ _type_layout_string 12FamilyCircle38ScreenTimeSettingsFeatureFlagsProtocolV
+- +[FAFamilyCircleCache cacheQueue]
+- +[FAFamilyCircleCache cacheQueue].cold.1
+- -[FAFamilyCircleCache .cxx_destruct]
+- -[FAFamilyCircleCache _cacheDataWithFamilyCircle:serverTag:]
+- -[FAFamilyCircleCache _cacheURLWithError:]
+- -[FAFamilyCircleCache _cacheURLWithError:].cold.1
+- -[FAFamilyCircleCache _cacheURL]
+- -[FAFamilyCircleCache _createCacheFile]
+- -[FAFamilyCircleCache _fetchData:]
+- -[FAFamilyCircleCache _isCacheDate:withinDuration:]
+- -[FAFamilyCircleCache _onQueue:]
+- -[FAFamilyCircleCache _username]
+- -[FAFamilyCircleCache account]
+- -[FAFamilyCircleCache initWithAccount:]
+- -[FAFamilyCircleCache invalidate]
+- -[FAFamilyCircleCache loadWithError:]
+- -[FAFamilyCircleCache loadWithError:].cold.1
+- -[FAFamilyCircleCache loadWithError:].cold.2
+- -[FAFamilyCircleCache loadWithError:].cold.3
+- -[FAFamilyCircleCache loadWithError:].cold.4
+- -[FAFamilyCircleCache loadWithError:].cold.5
+- -[FAFamilyCircleCache loadWithError:].cold.6
+- -[FAFamilyCircleCache loadWithError:].cold.7
+- -[FAFamilyCircleCache load]
+- -[FAFamilyCircleCache updateWithFamilyCircle:serverTag:]
+- -[FAFetchFamilyCircleRequest fetchCachedFamilyCircle:]
+- -[FAFetchFamilyCircleRequest fetchCachedFamilyCircle:].cold.1
+- -[FAFetchFamilyCircleRequest fetchCachedFamilyCircleWithCache:deviceInfo:error:]
+- GCC_except_table11
+- _AppleAccountUILibraryCore.frameworkLibrary
+- _OBJC_CLASS_$_CKShare
+- _OBJC_CLASS_$_CKShareMetadata
+- _OBJC_CLASS_$_CKShareParticipant
+- _OBJC_CLASS_$_CKUserIdentityLookupInfo
+- _OBJC_CLASS_$_FAFamilyCircleCache
+- _OBJC_CLASS_$_FAOSUpdatedActivity
+- _OBJC_CLASS_$_NSManagedObjectID
+- _OBJC_CLASS_$_NSPersistentStoreDescription
+- _OBJC_EHTYPE_$_NSException
+- _OBJC_IVAR_$_FAFamilyCircleCache._account
+- _OBJC_METACLASS_$_FAFamilyCircleCache
+- _OBJC_METACLASS_$_FAOSUpdatedActivity
+- _OUTLINED_FUNCTION_6
+- _OUTLINED_FUNCTION_7
+- _XPC_ACTIVITY_ALLOW_BATTERY
+- _XPC_ACTIVITY_CHECK_IN
+- _XPC_ACTIVITY_CPU_INTENSIVE
+- _XPC_ACTIVITY_DELAY
+- _XPC_ACTIVITY_DISK_INTENSIVE
+- _XPC_ACTIVITY_GRACE_PERIOD
+- _XPC_ACTIVITY_INTERVAL
+- _XPC_ACTIVITY_MEMORY_INTENSIVE
+- _XPC_ACTIVITY_POST_INSTALL
+- _XPC_ACTIVITY_POWER_NAP
+- _XPC_ACTIVITY_PRIORITY
+- _XPC_ACTIVITY_PRIORITY_MAINTENANCE
+- _XPC_ACTIVITY_PRIORITY_UTILITY
+- _XPC_ACTIVITY_REPEATING
+- _XPC_ACTIVITY_REQUIRES_BUDDY_COMPLETE
+- _XPC_ACTIVITY_REQUIRE_INEXPENSIVE_NETWORK_CONNECTIVITY
+- _XPC_ACTIVITY_REQUIRE_NETWORK_CONNECTIVITY
+- _XPC_ACTIVITY_REQUIRE_SIGNIFICANT_USER_INACTIVITY
+- _XPC_ACTIVITY_SHOULD_WAKE_DEVICE
+- __DATA_FAOSUpdatedActivity
+- __DATA__TtC12FamilyCircle13SharingCenter
+- __DATA__TtC12FamilyCircle21RecordSharingMetadata
+- __DATA__TtC12FamilyCircle27FAOSUpdatedActivityProvider
+- __DATA__TtC12FamilyCircle29FAFamilyFetchActivityProvider
+- __INSTANCE_METHODS_FAOSUpdatedActivity
+- __IVARS_FAOSUpdatedActivity
+- __IVARS__TtC12FamilyCircle11XPCActivity
+- __IVARS__TtC12FamilyCircle13SharingCenter
+- __IVARS__TtC12FamilyCircle20XPCActivityScheduler
+- __IVARS__TtC12FamilyCircle21RecordSharingMetadata
+- __IVARS__TtC12FamilyCircle27FAOSUpdatedActivityProvider
+- __IVARS__TtC12FamilyCircle28FamilyCoreDataSharingService
+- __IVARS__TtC12FamilyCircle29FAFamilyFetchActivityProvider
+- __METACLASS_DATA_FAOSUpdatedActivity
+- __METACLASS_DATA__TtC12FamilyCircle13SharingCenter
+- __METACLASS_DATA__TtC12FamilyCircle21RecordSharingMetadata
+- __METACLASS_DATA__TtC12FamilyCircle27FAOSUpdatedActivityProvider
+- __METACLASS_DATA__TtC12FamilyCircle29FAFamilyFetchActivityProvider
+- __OBJC_$_CLASS_METHODS_FAFamilyCircleCache
+- __OBJC_$_INSTANCE_METHODS_FAFamilyCircleCache
+- __OBJC_$_INSTANCE_VARIABLES_FAFamilyCircleCache
+- __OBJC_$_PROP_LIST_FAFamilyCircleCache
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_FAFamilyCircleCacheProtocol
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_FAFamilySetupPrompterDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_FAFamilyCircleCacheProtocol
+- __OBJC_$_PROTOCOL_METHOD_TYPES_FAFamilySetupPrompterDelegate
+- __OBJC_$_PROTOCOL_REFS_FAFamilyCircleCacheProtocol
+- __OBJC_$_PROTOCOL_REFS_FAFamilySetupPrompterDelegate
+- __OBJC_$_PROTOCOL_REFS_OS_xpc_object
+- __OBJC_CLASS_PROTOCOLS_$_FAFamilyCircleCache
+- __OBJC_CLASS_RO_$_FAFamilyCircleCache
+- __OBJC_LABEL_PROTOCOL_$_FAFamilyCircleCacheProtocol
+- __OBJC_LABEL_PROTOCOL_$_FAFamilySetupPrompterDelegate
+- __OBJC_LABEL_PROTOCOL_$_OS_xpc_object
+- __OBJC_METACLASS_RO_$_FAFamilyCircleCache
+- __OBJC_PROTOCOL_$_FAFamilyCircleCacheProtocol
+- __OBJC_PROTOCOL_$_FAFamilySetupPrompterDelegate
+- __OBJC_PROTOCOL_$_OS_xpc_object
+- ___27-[FAFamilyCircleCache load]_block_invoke
+- ___32-[FAFamilyCircleCache _cacheURL]_block_invoke
+- ___32-[FAFamilyCircleCache _onQueue:]_block_invoke
+- ___32-[FAFamilyCircleCache _onQueue:]_block_invoke_2
+- ___33+[FAFamilyCircleCache cacheQueue]_block_invoke
+- ___33-[FAFamilyCircleCache invalidate]_block_invoke
+- ___33-[FAFamilyCircleCache invalidate]_block_invoke_2
+- ___34-[FAFamilyCircleCache _fetchData:]_block_invoke
+- ___39-[FAFamilyCircleCache _createCacheFile]_block_invoke
+- ___39-[FAFamilyCircleCache _createCacheFile]_block_invoke_2
+- ___49-[FARequestConfigurator pushTokenWithCompletion:]_block_invoke.94
+- ___49-[FARequestConfigurator pushTokenWithCompletion:]_block_invoke.94.cold.1
+- ___56-[FAFamilyCircleCache updateWithFamilyCircle:serverTag:]_block_invoke
+- ___56-[FAFamilyCircleCache updateWithFamilyCircle:serverTag:]_block_invoke_2
+- ___56-[FAFamilyCircleCache updateWithFamilyCircle:serverTag:]_block_invoke_3
+- ___60-[FAFamilyCircleCache _cacheDataWithFamilyCircle:serverTag:]_block_invoke
+- ___66-[FARequestConfigurator addFresnoHeadersToRequest:withCompletion:]_block_invoke.86
+- ___66-[FARequestConfigurator addFresnoHeadersToRequest:withCompletion:]_block_invoke.88
+- ___74-[FASettingProtoAccountRestrictionsRequest setRestrictionsWithCompletion:]_block_invoke
+- ___74-[FASettingProtoAccountRestrictionsRequest setRestrictionsWithCompletion:]_block_invoke.cold.1
+- ___AppleAccountUILibraryCore_block_invoke
+- ___block_descriptor_32_e17_16?0"NSArray"8l
+- ___block_descriptor_40_e8_32s_e15_16?0"NSURL"8ls32l8
+- ___block_descriptor_40_e8_32s_e5_8?0ls32l8
+- ___block_descriptor_48_e8_32bs40bs_e5_v8?0ls32l8s40l8
+- ___block_descriptor_48_e8_32s40bs_e25_v16?0?<v?"NSError">8ls32l8s40l8
+- ___block_descriptor_56_e8_32s40r_e5_v8?0ls32l8r40l8
+- ___block_descriptor_64_e8_32s40s48s56bs_e5_v8?0ls32l8s40l8s48l8s56l8
+- ___block_literal_global.62
+- ___getAAUIFamilySetupPrompterClass_block_invoke
+- ___getAAUIFamilySetupPrompterClass_block_invoke.cold.1
+- ___swift_project_boxed_opaque_existential_0Tm
+- ___unnamed_6
+- __swift_FORCE_LOAD_$_swiftCoreMedia
+- __swift_FORCE_LOAD_$_swiftCoreMedia_$_FamilyCircle
+- _associated conformance 12FamilyCircle13SharingCenterC15ShareDescriptorV10CodingKeys33_F0ACA3967EF537B74B018F93D7C373B9LLOSHAASQ
+- _associated conformance 12FamilyCircle13SharingCenterC15ShareDescriptorV10CodingKeys33_F0ACA3967EF537B74B018F93D7C373B9LLOs0G3KeyAAs23CustomStringConvertible
+- _associated conformance 12FamilyCircle13SharingCenterC15ShareDescriptorV10CodingKeys33_F0ACA3967EF537B74B018F93D7C373B9LLOs0G3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 12FamilyCircle13SharingCenterC15ShareDescriptorV11ParticipantV10CodingKeys33_F0ACA3967EF537B74B018F93D7C373B9LLOSHAASQ
+- _associated conformance 12FamilyCircle13SharingCenterC15ShareDescriptorV11ParticipantV10CodingKeys33_F0ACA3967EF537B74B018F93D7C373B9LLOs0H3KeyAAs23CustomStringConvertible
+- _associated conformance 12FamilyCircle13SharingCenterC15ShareDescriptorV11ParticipantV10CodingKeys33_F0ACA3967EF537B74B018F93D7C373B9LLOs0H3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 12FamilyCircle13SharingCenterC3XPCO18AcceptShareMessageV10CodingKeys33_54E8B7A38B73962B5BDFE9B4DB5F7B58LLOSHAASQ
+- _associated conformance 12FamilyCircle13SharingCenterC3XPCO18AcceptShareMessageV10CodingKeys33_54E8B7A38B73962B5BDFE9B4DB5F7B58LLOs0I3KeyAAs23CustomStringConvertible
+- _associated conformance 12FamilyCircle13SharingCenterC3XPCO18AcceptShareMessageV10CodingKeys33_54E8B7A38B73962B5BDFE9B4DB5F7B58LLOs0I3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 12FamilyCircle13SharingCenterC3XPCO18AcceptShareMessageV18AAAFoundationSwift0H0AA12ResponseTypeAhIP_SE
+- _associated conformance 12FamilyCircle13SharingCenterC3XPCO18AcceptShareMessageV18AAAFoundationSwift0H0AA12ResponseTypeAhIP_Se
+- _associated conformance 12FamilyCircle13SharingCenterC3XPCO18AcceptShareMessageV18AAAFoundationSwift0H0AASE
+- _associated conformance 12FamilyCircle13SharingCenterC3XPCO18AcceptShareMessageV18AAAFoundationSwift0H0AASe
+- _associated conformance 12FamilyCircle13SharingCenterC3XPCO19AcceptShareResponseV10CodingKeys33_54E8B7A38B73962B5BDFE9B4DB5F7B58LLOs0I3KeyAAs23CustomStringConvertible
+- _associated conformance 12FamilyCircle13SharingCenterC3XPCO19AcceptShareResponseV10CodingKeys33_54E8B7A38B73962B5BDFE9B4DB5F7B58LLOs0I3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 12FamilyCircle13SharingCenterC3XPCO19RepairSharesMessageV10CodingKeys33_54E8B7A38B73962B5BDFE9B4DB5F7B58LLOs0I3KeyAAs23CustomStringConvertible
+- _associated conformance 12FamilyCircle13SharingCenterC3XPCO19RepairSharesMessageV10CodingKeys33_54E8B7A38B73962B5BDFE9B4DB5F7B58LLOs0I3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 12FamilyCircle13SharingCenterC3XPCO19RepairSharesMessageV18AAAFoundationSwift0H0AA12ResponseTypeAhIP_SE
+- _associated conformance 12FamilyCircle13SharingCenterC3XPCO19RepairSharesMessageV18AAAFoundationSwift0H0AA12ResponseTypeAhIP_Se
+- _associated conformance 12FamilyCircle13SharingCenterC3XPCO19RepairSharesMessageV18AAAFoundationSwift0H0AASE
+- _associated conformance 12FamilyCircle13SharingCenterC3XPCO19RepairSharesMessageV18AAAFoundationSwift0H0AASe
+- _associated conformance 12FamilyCircle13SharingCenterC3XPCO20RepairSharesResponseV10CodingKeys33_54E8B7A38B73962B5BDFE9B4DB5F7B58LLOSHAASQ
+- _associated conformance 12FamilyCircle13SharingCenterC3XPCO20RepairSharesResponseV10CodingKeys33_54E8B7A38B73962B5BDFE9B4DB5F7B58LLOs0I3KeyAAs23CustomStringConvertible
+- _associated conformance 12FamilyCircle13SharingCenterC3XPCO20RepairSharesResponseV10CodingKeys33_54E8B7A38B73962B5BDFE9B4DB5F7B58LLOs0I3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 12FamilyCircle13SharingCenterC3XPCO22ShareRecordZoneMessageV10CodingKeys33_54E8B7A38B73962B5BDFE9B4DB5F7B58LLOSHAASQ
+- _associated conformance 12FamilyCircle13SharingCenterC3XPCO22ShareRecordZoneMessageV10CodingKeys33_54E8B7A38B73962B5BDFE9B4DB5F7B58LLOs0J3KeyAAs23CustomStringConvertible
+- _associated conformance 12FamilyCircle13SharingCenterC3XPCO22ShareRecordZoneMessageV10CodingKeys33_54E8B7A38B73962B5BDFE9B4DB5F7B58LLOs0J3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 12FamilyCircle13SharingCenterC3XPCO22ShareRecordZoneMessageV18AAAFoundationSwift0I0AA12ResponseTypeAhIP_SE
+- _associated conformance 12FamilyCircle13SharingCenterC3XPCO22ShareRecordZoneMessageV18AAAFoundationSwift0I0AA12ResponseTypeAhIP_Se
+- _associated conformance 12FamilyCircle13SharingCenterC3XPCO22ShareRecordZoneMessageV18AAAFoundationSwift0I0AASE
+- _associated conformance 12FamilyCircle13SharingCenterC3XPCO22ShareRecordZoneMessageV18AAAFoundationSwift0I0AASe
+- _associated conformance 12FamilyCircle13SharingCenterC3XPCO23ShareRecordZoneResponseV10CodingKeys33_54E8B7A38B73962B5BDFE9B4DB5F7B58LLOSHAASQ
+- _associated conformance 12FamilyCircle13SharingCenterC3XPCO23ShareRecordZoneResponseV10CodingKeys33_54E8B7A38B73962B5BDFE9B4DB5F7B58LLOs0J3KeyAAs23CustomStringConvertible
+- _associated conformance 12FamilyCircle13SharingCenterC3XPCO23ShareRecordZoneResponseV10CodingKeys33_54E8B7A38B73962B5BDFE9B4DB5F7B58LLOs0J3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 12FamilyCircle13SharingCenterC3XPCO23ShareRecordZoneResponseV15ParticipantInfoV10CodingKeys33_54E8B7A38B73962B5BDFE9B4DB5F7B58LLOSHAASQ
+- _associated conformance 12FamilyCircle13SharingCenterC3XPCO23ShareRecordZoneResponseV15ParticipantInfoV10CodingKeys33_54E8B7A38B73962B5BDFE9B4DB5F7B58LLOs0L3KeyAAs23CustomStringConvertible
+- _associated conformance 12FamilyCircle13SharingCenterC3XPCO23ShareRecordZoneResponseV15ParticipantInfoV10CodingKeys33_54E8B7A38B73962B5BDFE9B4DB5F7B58LLOs0L3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 12FamilyCircle20XPCActivitySchedulerCyxGAA014BackgroundTaskD0AA0F8ProviderAaEP_AA0efG0
+- _associated conformance 12FamilyCircle27FAOSUpdatedActivityProviderCAA014BackgroundTaskE0AA0G4TypeAaDP_AA0fG8Protocol
+- _associated conformance 12FamilyCircle29FAFamilyFetchActivityProviderCAA014BackgroundTaskF0AA0H4TypeAaDP_AA0gH8Protocol
+- _associated conformance So15CKShareMetadataC12FamilyCircle0aB8ProtocolAC5ShareAcDP_AC0aE0
+- _associated conformance So29NSPersistentCloudKitContainerC12FamilyCircle0abcD8ProtocolAC0bD0AcDP_AC011CKContainerG0
+- _associated conformance So29NSPersistentCloudKitContainerC12FamilyCircle0abcD8ProtocolAC5ShareAcDP_AC07CKShareG0
+- _associated conformance So7CKShareC12FamilyCircle0A8ProtocolAC11ParticipantAcDP_AC0aeD0
+- _associated conformance So7CKShareC12FamilyCircle0A8ProtocolAC8MetadataAcDP_AC0aeD0
+- _audit_stringAppleAccountUI
+- _block_copy_helper.15
+- _block_copy_helper.22
+- _block_copy_helper.24
+- _block_copy_helper.26
+- _block_copy_helper.30
+- _block_copy_helper.40
+- _block_copy_helper.48
+- _block_copy_helper.53
+- _block_copy_helper.55
+- _block_copy_helper.63
+- _block_copy_helper.69
+- _block_copy_helper.77
+- _block_descriptor.17
+- _block_descriptor.24
+- _block_descriptor.26
+- _block_descriptor.28
+- _block_descriptor.32
+- _block_descriptor.42
+- _block_descriptor.50
+- _block_descriptor.55
+- _block_descriptor.57
+- _block_descriptor.65
+- _block_descriptor.71
+- _block_descriptor.79
+- _block_destroy_helper.16
+- _block_destroy_helper.23
+- _block_destroy_helper.25
+- _block_destroy_helper.27
+- _block_destroy_helper.31
+- _block_destroy_helper.41
+- _block_destroy_helper.49
+- _block_destroy_helper.54
+- _block_destroy_helper.56
+- _block_destroy_helper.64
+- _block_destroy_helper.70
+- _block_destroy_helper.78
+- _flat unique So13OS_xpc_object_p
+- _generic environment 12FamilyCircle37NSPersistentCloudKitContainerProtocolRzl
+- _getAAUIFamilySetupPrompterClass.softClass
+- _get_enum_tag_for_layout_string 10Foundation4DataV15_RepresentationO
+- _get_enum_tag_for_layout_string 10Foundation4DataVSg
+- _keypath_get_selector_emailAddress
+- _objc_begin_catch
+- _objc_end_catch
+- _objc_msgSend$_cacheDataWithFamilyCircle:serverTag:
+- _objc_msgSend$_cacheURL
+- _objc_msgSend$_cacheURLWithError:
+- _objc_msgSend$_createCacheFile
+- _objc_msgSend$_fetchData:
+- _objc_msgSend$_onQueue:
+- _objc_msgSend$_username
+- _objc_msgSend$aa_personID
+- _objc_msgSend$acceptShareInvitationsFromURLs:intoPersistentStore:completion:
+- _objc_msgSend$acceptanceStatus
+- _objc_msgSend$addParticipant:
+- _objc_msgSend$all:
+- _objc_msgSend$cloudKitContainerOptions
+- _objc_msgSend$containerIdentifier
+- _objc_msgSend$fa_familyErrorWithCode:exception:
+- _objc_msgSend$familyCircleIfFresh
+- _objc_msgSend$fetchCachedFamilyCircleWithCache:deviceInfo:error:
+- _objc_msgSend$fetchParticipantsMatchingLookupInfos:intoPersistentStore:completion:
+- _objc_msgSend$fetchSharesInPersistentStore:error:
+- _objc_msgSend$initWithAccount:
+- _objc_msgSend$initWithContext:
+- _objc_msgSend$initWithEmailAddress:
+- _objc_msgSend$initWithFamilyCircle:serverTag:cacheDate:maxAge:
+- _objc_msgSend$initWithHeartbeatActivityHandler:
+- _objc_msgSend$initWithRecordZoneID:
+- _objc_msgSend$initWithServerResponse:
+- _objc_msgSend$initWithiTunesAccount:
+- _objc_msgSend$invitationToken
+- _objc_msgSend$isCurrentUser
+- _objc_msgSend$launchICloudFamilySettingsWithOptions:
+- _objc_msgSend$loadWithError:
+- _objc_msgSend$lookupInfo
+- _objc_msgSend$newBackgroundContext
+- _objc_msgSend$objectAtIndexedSubscript:
+- _objc_msgSend$participants
+- _objc_msgSend$permission
+- _objc_msgSend$persistUpdatedShare:inPersistentStore:completion:
+- _objc_msgSend$persistentStoreDescriptions
+- _objc_msgSend$promptIfEligibleWithPresentingViewController:isFirstRun:
+- _objc_msgSend$removeParticipant:
+- _objc_msgSend$role
+- _objc_msgSend$save:
+- _objc_msgSend$setFetchLimit:
+- _objc_msgSend$setPermission:
+- _objc_msgSend$setPredicate:
+- _objc_msgSend$setRestrictionsForProtoAccountWithCompletion:
+- _objc_msgSend$setRole:
+- _objc_msgSend$share
+- _objc_msgSend$shareManagedObjects:toShare:completion:
+- _objc_msgSend$temporaryDirectory
+- _objc_msgSend$timeIntervalSinceNow
+- _objc_msgSend$unlockedSinceBoot
+- _objc_msgSend$userIdentity
+- _objectdestroy.13Tm
+- _objectdestroy.20Tm
+- _objectdestroy.24Tm
+- _objectdestroy.66Tm
+- _objectdestroy.7Tm
+- _objectdestroyTm
+- _swift_initStaticObject
+- _swift_isEscapingClosureAtFileLocation
+- _swift_stdlib_isStackAllocationSafe
+- _swift_unknownObjectWeakAssign
+- _swift_weakDestroy
+- _swift_weakInit
+- _swift_weakLoadStrong
+- _symbolic $s12FamilyCircle15CKShareProtocolP
+- _symbolic $s12FamilyCircle19CKContainerProtocolP
+- _symbolic $s12FamilyCircle19XPCActivityProviderP
+- _symbolic $s12FamilyCircle23CKShareMetadataProtocolP
+- _symbolic $s12FamilyCircle26CKShareParticipantProtocolP
+- _symbolic $s12FamilyCircle37NSPersistentCloudKitContainerProtocolP
+- _symbolic 11Participant_____Qz 12FamilyCircle15CKShareProtocolP
+- _symbolic 14CloudContainer_____Qz 12FamilyCircle37NSPersistentCloudKitContainerProtocolP
+- _symbolic 5Share_____Qz 12FamilyCircle23CKShareMetadataProtocolP
+- _symbolic 5Share_____Qz 12FamilyCircle37NSPersistentCloudKitContainerProtocolP
+- _symbolic 5Share______11Participant_____QZ 12FamilyCircle37NSPersistentCloudKitContainerProtocolP AA07CKShareG0P
+- _symbolic 8Metadata_____Qz 12FamilyCircle15CKShareProtocolP
+- _symbolic IeyB_
+- _symbolic IeyB_Sg
+- _symbolic Ig_
+- _symbolic Say_____G 12FamilyCircle13SharingCenterC15ShareDescriptorV
+- _symbolic Say_____G 12FamilyCircle13SharingCenterC15ShareDescriptorV11ParticipantV
+- _symbolic Say_____G 12FamilyCircle13SharingCenterC3XPCO23ShareRecordZoneResponseV15ParticipantInfoV
+- _symbolic ScCyyt_____G s5NeverO
+- _symbolic SccySaySo15CKShareMetadataCG______pG s5ErrorP
+- _symbolic SccySaySo18CKShareParticipantCG______pG s5ErrorP
+- _symbolic SccyShySo17NSManagedObjectIDCG_So7CKShareCSo11CKContainerCt______pG s5ErrorP
+- _symbolic SccySo7CKShareC______pG s5ErrorP
+- _symbolic So11CKContainerC
+- _symbolic So14FAFamilyCircleCyYaKc
+- _symbolic So15CKShareMetadataC
+- _symbolic So17NSPersistentStoreCyYaKc
+- _symbolic So18CKShareParticipantC
+- _symbolic So19FAOSUpdatedActivityC
+- _symbolic So22NSManagedObjectContextC
+- _symbolic So24CKUserIdentityLookupInfoC
+- _symbolic So24CKUserIdentityLookupInfoCSg
+- _symbolic So29NSPersistentCloudKitContainerC
+- _symbolic So7CKShareC
+- _symbolic _____ 12FamilyCircle0A22CoreDataSharingServiceC
+- _symbolic _____ 12FamilyCircle13SharingCenterC
+- _symbolic _____ 12FamilyCircle13SharingCenterC13NoURLForShareV
+- _symbolic _____ 12FamilyCircle13SharingCenterC15ShareDescriptorV
+- _symbolic _____ 12FamilyCircle13SharingCenterC15ShareDescriptorV10CodingKeys33_F0ACA3967EF537B74B018F93D7C373B9LLO
+- _symbolic _____ 12FamilyCircle13SharingCenterC15ShareDescriptorV11ParticipantV
+- _symbolic _____ 12FamilyCircle13SharingCenterC15ShareDescriptorV11ParticipantV10CodingKeys33_F0ACA3967EF537B74B018F93D7C373B9LLO
+- _symbolic _____ 12FamilyCircle13SharingCenterC3XPCO
+- _symbolic _____ 12FamilyCircle13SharingCenterC3XPCO18AcceptShareMessageV
+- _symbolic _____ 12FamilyCircle13SharingCenterC3XPCO18AcceptShareMessageV10CodingKeys33_54E8B7A38B73962B5BDFE9B4DB5F7B58LLO
+- _symbolic _____ 12FamilyCircle13SharingCenterC3XPCO19AcceptShareResponseV
+- _symbolic _____ 12FamilyCircle13SharingCenterC3XPCO19AcceptShareResponseV10CodingKeys33_54E8B7A38B73962B5BDFE9B4DB5F7B58LLO
+- _symbolic _____ 12FamilyCircle13SharingCenterC3XPCO19RepairSharesMessageV
+- _symbolic _____ 12FamilyCircle13SharingCenterC3XPCO19RepairSharesMessageV10CodingKeys33_54E8B7A38B73962B5BDFE9B4DB5F7B58LLO
+- _symbolic _____ 12FamilyCircle13SharingCenterC3XPCO20RepairSharesResponseV
+- _symbolic _____ 12FamilyCircle13SharingCenterC3XPCO20RepairSharesResponseV10CodingKeys33_54E8B7A38B73962B5BDFE9B4DB5F7B58LLO
+- _symbolic _____ 12FamilyCircle13SharingCenterC3XPCO22ShareRecordZoneMessageV
+- _symbolic _____ 12FamilyCircle13SharingCenterC3XPCO22ShareRecordZoneMessageV10CodingKeys33_54E8B7A38B73962B5BDFE9B4DB5F7B58LLO
+- _symbolic _____ 12FamilyCircle13SharingCenterC3XPCO23ShareRecordZoneResponseV
+- _symbolic _____ 12FamilyCircle13SharingCenterC3XPCO23ShareRecordZoneResponseV10CodingKeys33_54E8B7A38B73962B5BDFE9B4DB5F7B58LLO
+- _symbolic _____ 12FamilyCircle13SharingCenterC3XPCO23ShareRecordZoneResponseV15ParticipantInfoV
+- _symbolic _____ 12FamilyCircle13SharingCenterC3XPCO23ShareRecordZoneResponseV15ParticipantInfoV10CodingKeys33_54E8B7A38B73962B5BDFE9B4DB5F7B58LLO
+- _symbolic _____ 12FamilyCircle20XPCActivitySchedulerC
+- _symbolic _____ 12FamilyCircle21RecordSharingMetadataC
+- _symbolic _____ 12FamilyCircle23InvalidAudienceForShareV
+- _symbolic _____ 12FamilyCircle27FAOSUpdatedActivityProviderC
+- _symbolic _____ 12FamilyCircle29FAFamilyFetchActivityProviderC
+- _symbolic _____Iegg_ 12FamilyCircle11XPCActivityC
+- _symbolic _____Iegn_ 12FamilyCircle11XPCActivityC
+- _symbolic _____Iegr_ 12FamilyCircle11XPCActivityC8CriteriaV
+- _symbolic _____Sg 12FamilyCircle11XPCActivityC
+- _symbolic _____Sg 12FamilyCircle21RecordSharingMetadataC
+- _symbolic _____SgABc 12FamilyCircle11XPCActivityC8CriteriaV
+- _symbolic _____SgXw 12FamilyCircle11XPCActivityC
+- _symbolic ______p 12FamilyCircle15CKShareProtocolP
+- _symbolic ______p So13OS_xpc_objectP
+- _symbolic ______pSg So13OS_xpc_objectP
+- _symbolic ______pSgXw So13OS_xpc_objectP
+- _symbolic _____y_SSSgG 10Foundation20PredicateExpressionsO5ValueV
+- _symbolic _____y_____G 12FamilyCircle20XPCActivitySchedulerC AA27FAOSUpdatedActivityProviderC
+- _symbolic _____y_____G 12FamilyCircle20XPCActivitySchedulerC AA29FAFamilyFetchActivityProviderC
+- _symbolic _____y_____G s22KeyedDecodingContainerV 12FamilyCircle13SharingCenterC15ShareDescriptorV10CodingKeys33_F0ACA3967EF537B74B018F93D7C373B9LLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 12FamilyCircle13SharingCenterC15ShareDescriptorV11ParticipantV10CodingKeys33_F0ACA3967EF537B74B018F93D7C373B9LLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 12FamilyCircle13SharingCenterC3XPCO18AcceptShareMessageV10CodingKeys33_54E8B7A38B73962B5BDFE9B4DB5F7B58LLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 12FamilyCircle13SharingCenterC3XPCO20RepairSharesResponseV10CodingKeys33_54E8B7A38B73962B5BDFE9B4DB5F7B58LLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 12FamilyCircle13SharingCenterC3XPCO22ShareRecordZoneMessageV10CodingKeys33_54E8B7A38B73962B5BDFE9B4DB5F7B58LLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 12FamilyCircle13SharingCenterC3XPCO23ShareRecordZoneResponseV10CodingKeys33_54E8B7A38B73962B5BDFE9B4DB5F7B58LLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 12FamilyCircle13SharingCenterC3XPCO23ShareRecordZoneResponseV15ParticipantInfoV10CodingKeys33_54E8B7A38B73962B5BDFE9B4DB5F7B58LLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 12FamilyCircle13SharingCenterC15ShareDescriptorV10CodingKeys33_F0ACA3967EF537B74B018F93D7C373B9LLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 12FamilyCircle13SharingCenterC15ShareDescriptorV11ParticipantV10CodingKeys33_F0ACA3967EF537B74B018F93D7C373B9LLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 12FamilyCircle13SharingCenterC3XPCO18AcceptShareMessageV10CodingKeys33_54E8B7A38B73962B5BDFE9B4DB5F7B58LLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 12FamilyCircle13SharingCenterC3XPCO19AcceptShareResponseV10CodingKeys33_54E8B7A38B73962B5BDFE9B4DB5F7B58LLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 12FamilyCircle13SharingCenterC3XPCO19RepairSharesMessageV10CodingKeys33_54E8B7A38B73962B5BDFE9B4DB5F7B58LLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 12FamilyCircle13SharingCenterC3XPCO20RepairSharesResponseV10CodingKeys33_54E8B7A38B73962B5BDFE9B4DB5F7B58LLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 12FamilyCircle13SharingCenterC3XPCO22ShareRecordZoneMessageV10CodingKeys33_54E8B7A38B73962B5BDFE9B4DB5F7B58LLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 12FamilyCircle13SharingCenterC3XPCO23ShareRecordZoneResponseV10CodingKeys33_54E8B7A38B73962B5BDFE9B4DB5F7B58LLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 12FamilyCircle13SharingCenterC3XPCO23ShareRecordZoneResponseV15ParticipantInfoV10CodingKeys33_54E8B7A38B73962B5BDFE9B4DB5F7B58LLO
+- _symbolic _____y_____G s23_ContiguousArrayStorageC 10Foundation3URLV
+- _symbolic _____y_____G s23_ContiguousArrayStorageC 12FamilyCircle13SharingCenterC15ShareDescriptorV11ParticipantV
+- _symbolic _____y______G 10Foundation20PredicateExpressionsO8VariableV 12FamilyCircle27RecordSharingMetadataEntityC
+- _symbolic _____y______QPG 10Foundation9PredicateV 12FamilyCircle27RecordSharingMetadataEntityC
+- _symbolic _____y______y______GSSSgG 10Foundation20PredicateExpressionsO7KeyPathV AC8VariableV 12FamilyCircle27RecordSharingMetadataEntityC
+- _symbolic _____y______y______y______GSSSgG_____y_AFGG 10Foundation20PredicateExpressionsO5EqualV AC7KeyPathV AC8VariableV 12FamilyCircle27RecordSharingMetadataEntityC AC5ValueV
+- _symbolic _____y______y______y______y______GSSSgG_____y_AGGGAKG 10Foundation20PredicateExpressionsO11ConjunctionV AC5EqualV AC7KeyPathV AC8VariableV 12FamilyCircle27RecordSharingMetadataEntityC AC5ValueV
+- _symbolic y________________tc 12FamilyCircle11XPCActivityC 18AAAFoundationSwift13OSTransactionC AC5StateO
+- _symbolic y______pcSg So13OS_xpc_objectP
+- _type_layout_string 12FamilyCircle13SharingCenterC13NoURLForShareV
+- _type_layout_string 12FamilyCircle13SharingCenterC15ShareDescriptorV11ParticipantV
+- _type_layout_string 12FamilyCircle13SharingCenterC3XPCO20RepairSharesResponseV
+- _type_layout_string 12FamilyCircle13SharingCenterC3XPCO22ShareRecordZoneMessageV
+- _type_layout_string 12FamilyCircle13SharingCenterC3XPCO23ShareRecordZoneResponseV15ParticipantInfoV
+- _type_layout_string 12FamilyCircle23InvalidAudienceForShareV
+- _xpc_activity_copy_criteria
+- _xpc_activity_get_state
+- _xpc_activity_register
+- _xpc_activity_set_criteria
+- _xpc_activity_set_state
+- _xpc_activity_should_defer
+- _xpc_activity_unregister
+- _xpc_dictionary_create
+- _xpc_dictionary_get_bool
+- _xpc_dictionary_get_int64
+- _xpc_dictionary_get_string
+- _xpc_dictionary_set_bool
+- _xpc_dictionary_set_int64
+- _xpc_dictionary_set_string
+CStrings:
++ "/System/Library/FamilyCircle/Bundles/FamilyCircleUIPlugin.bundle"
++ "3"
++ "Attempting migration from %s to %s"
++ "Error accessing caches directory for Family Circle cache"
++ "ExpressParentalControlsV2"
++ "FAFamilyInviteNotifier: Failed to report invite sent: %s"
++ "FAFamilyInviteReporter: Reporting invite sent via Messages"
++ "FAFamilyInviteReporter: completionInfo is nil, ignoring report"
++ "FAFamilyInviteReporter: inviteURL is nil, ignoring report"
++ "FAFamilySettings: Failed to launch family settings - %@"
++ "FAFamilySettings: Successfully launched family settings"
++ "FAOSUpdatedActivity failed to run sharingManagerActivityHandler: %s"
++ "FARequestConfigurator updating with authResults"
++ "FASharingCenterHelper.repairAllShares"
++ "FAUpdateFamilyFlagRequest: serviceRemoteObject returned nil"
++ "Failed to connect to FamilyCircle service"
++ "Failed to create SecTask from audit token"
++ "Failed to create remote service connection"
++ "Family repair isAgeMigration: %@"
++ "Family repair isNewAccount: %@"
++ "Family repair setup_migrate: %@"
++ "FamilyCircleUIPlugin.FAFamilySetupPrompterProvider"
++ "FamilyScreenTime2"
++ "LWCR validation failed: %s"
++ "LWCR validation result: %{bool}d"
++ "Migration completed from %s to %s"
++ "No device list response received"
++ "ScreenTimeSettings"
++ "Will notify CKAudienceManager"
++ "Will repair all shares"
++ "allFamily"
++ "audienceNameSpaces"
++ "ckShareUpdate"
++ "clientInvoked"
++ "eureka"
++ "expressParentalControlsV2"
++ "familyScreenTime2"
++ "fetchRawResponse()"
++ "isAgeMigration"
++ "isNewAccount"
++ "osUpdate"
++ "parentsAndGuardians"
++ "setup_migrate"
++ "setup_migration_flow"
++ "updateFamilyFlag XPC connection error: %@"
++ "updateFamilyFlag(hasScreenTimeMigrated:)"
+- "#16@0:8"
+- "$__lazy_storage_$_scheduler"
+- "$defaultActor"
+- "%s - Criteria dictionary is nil."
+- "%s - Existing criteria: %s"
+- "%s - Keeping existing criteria for: %s"
+- "%s - No current activity -- hasn't checked in yet: %s"
+- "%s - No current activity -- re-registering: %s"
+- "%s - Registering new criteria: %s"
+- "%s - Registering updated  criteria: %s"
+- "%s - Unregistered criteria"
+- "%s - calling activityHandler"
+- "%s - continue called on invalidated XPCActivity"
+- "%s - criteriaBlock returned nil"
+- "%s - defer called on invalidated XPCActivity"
+- "%s - done called on invalidated XPCActivity"
+- "%s - getCriteria called on invalidated XPCActivity."
+- "%s - shouldDefer called on invalidated XPCActivity"
+- "%s - updateCriteria called."
+- "%s: state called on invalidated XPCActivity"
+- "%s: writeToURL completed error:%@"
+- "-[FAFamilyCircleCache updateWithFamilyCircle:serverTag:]_block_invoke_3"
+- ".cxx_destruct"
+- "?"
+- "@"
+- "@\"<FAFamilyCircleRequestConnectionFactory>\""
+- "@\"<FAFamilyCircleRequestConnectionProvider>\""
+- "@\"<FAMegadomeRecommendationLoading>\""
+- "@\"<GDVisualIdentifierView>\"24@0:8^@16"
+- "@\"<_TtP12FamilyCircle15FARequestSigner_>\""
+- "@\"AAFPromise\"16@0:8"
+- "@\"AAFPromise\"24@0:8@\"NSString\"16"
+- "@\"AAFPromise\"32@0:8@\"FAFamilyCircle\"16@\"NSString\"24"
+- "@\"AAFPromise\"40@0:8@\"NSURL\"16@\"NSString\"24@\"NSString\"32"
+- "@\"AAFPromise\"48@0:8@\"NSArray\"16@\"NSURL\"24@\"NSString\"32@\"NSString\"40"
+- "@\"AAGrandSlamSigner\""
+- "@\"ACAccount\""
+- "@\"ACAccount\"16@0:8"
+- "@\"ACAccountStore\""
+- "@\"AIDAServiceOwnersManager\""
+- "@\"AKAppleIDAuthenticationContext\""
+- "@\"AKAppleIDServerResourceLoadDelegate\""
+- "@\"CNContact\""
+- "@\"FAAgeRangeDaemonConnection\""
+- "@\"FAAgeRangeResponse\""
+- "@\"FAAppAndWebActivity\""
+- "@\"FACommunicationLimits\""
+- "@\"FACommunicationSafety\""
+- "@\"FAEligibilityRequirements\""
+- "@\"FAFamilyCircle\""
+- "@\"FAFamilyCircleCacheResponse\"24@0:8^@16"
+- "@\"FAFamilyCloudKitProperties\""
+- "@\"FAFamilyMember\""
+- "@\"FAFamilySettings\""
+- "@\"FAFamilySetupPrompter\""
+- "@\"FAFamilySuggesterFeedbackContext\""
+- "@\"FARequestCoalescer\""
+- "@\"FAScreenDistance\""
+- "@\"FAScreentimeSettingsObjectCache\""
+- "@\"FASettingsPreset\""
+- "@\"FASettingsPresetConfiguration\""
+- "@\"GDRankedEntityTagPersons\"24@0:8^@16"
+- "@\"NSArray\""
+- "@\"NSArray\"24@0:8^q16"
+- "@\"NSArray\"32@0:8@\"NSArray\"16@\"<GDVisualIdentifierView>\"24"
+- "@\"NSArray\"32@0:8^@16^@24"
+- "@\"NSData\""
+- "@\"NSData\"24@0:8@\"NSString\"16"
+- "@\"NSDate\""
+- "@\"NSDictionary\""
+- "@\"NSDictionary\"16@0:8"
+- "@\"NSError\""
+- "@\"NSHTTPURLResponse\""
+- "@\"NSLock\""
+- "@\"NSMutableDictionary\""
+- "@\"NSMutableSet\"16@0:8"
+- "@\"NSNumber\""
+- "@\"NSObject\""
+- "@\"NSObject<OS_dispatch_queue>\""
+- "@\"NSSet\"16@0:8"
+- "@\"NSString\""
+- "@\"NSString\"16@0:8"
+- "@\"NSURL\""
+- "@\"NSXPCConnection\""
+- "@\"NSXPCConnection\"16@0:8"
+- "@\"NSXPCConnection\"32@0:8@?<v@?>16@?<v@?>24"
+- "@\"NSXPCListenerEndpoint\""
+- "@\"RPPeopleDiscovery\""
+- "@\"UIViewController\""
+- "@\"_PSPredictionContext\""
+- "@16@0:8"
+- "@16@?0@\"NSArray\"8"
+- "@20@0:8B16"
+- "@24@0:8:16"
+- "@24@0:8@\"NSCoder\"16"
+- "@24@0:8@16"
+- "@24@0:8@?16"
+- "@24@0:8B16B20"
+- "@24@0:8^@16"
+- "@24@0:8^q16"
+- "@24@0:8^{_NSZone=}16"
+- "@24@0:8d16"
+- "@24@0:8q16"
+- "@32@0:8:16@24"
+- "@32@0:8@16@24"
+- "@32@0:8@16@?24"
+- "@32@0:8@?16@?24"
+- "@32@0:8B16B20@24"
+- "@32@0:8^@16^@24"
+- "@32@0:8^q16@24"
+- "@32@0:8d16d24"
+- "@32@0:8q16@24"
+- "@32@0:8q16^@24"
+- "@36@0:8@16@24B32"
+- "@36@0:8@16B24@?28"
+- "@36@0:8@16Q24B32"
+- "@36@0:8B16@20@28"
+- "@40@0:8:16@24@32"
+- "@40@0:8@16@24@32"
+- "@40@0:8@16@24^@32"
+- "@40@0:8@16d24d32"
+- "@40@0:8q16@24^@32"
+- "@44@0:8@16@24@32B40"
+- "@44@0:8@16Q24B32@36"
+- "@48@0:8@16@24@32@40"
+- "@48@0:8@16@24@32d40"
+- "@48@0:8@16@24d32d40"
+- "@48@0:8@16q24q32@40"
+- "@56@0:8@16@24@32@40@48"
+- "@56@0:8@16B24@28B36@40@48"
+- "@56@0:8d16{CGRect={CGPoint=dd}{CGSize=dd}}24"
+- "@60@0:8B16@20@28@36@44q52"
+- "@68@0:8@16@24q32q40@48B56q60"
+- "@68@0:8@16B24q28@36@44@52@60"
+- "@72@0:8@16@24@32@40@48@56@64"
+- "@72@0:8q16q24@32@40@48@56@64"
+- "@88@0:8@16@24@32@40q48q56@64@72q80"
+- "@8@?0"
+- "AAUIFamilySetupPrompter"
+- "Attempting to fetch the family circle from the server as the cache is stale (%@)"
+- "Attmpting migration file from %s to %s"
+- "Attmpting migration from %s to %s"
+- "B"
+- "B16@0:8"
+- "B20@0:8B16"
+- "B24@0:8#16"
+- "B24@0:8:16"
+- "B24@0:8@\"NSNumber\"16"
+- "B24@0:8@\"Protocol\"16"
+- "B24@0:8@16"
+- "B32@0:8@16@24"
+- "B32@0:8@16d24"
+- "B32@0:8@16q24"
+- "BEGIN [%lld]: LoadFamilyCache "
+- "Call to fetch URL for circle cache provided error: %@"
+- "Convenience"
+- "DSIDForAccount:service:"
+- "Defaulting to cache age of: %f"
+- "END [%lld] %fs:LoadFamilyCache "
+- "Error fetching family circle cache: %@"
+- "Error parsing family circle cache: %@"
+- "FAAgeRange"
+- "FAAgeRangeAlertModel"
+- "FAAgeRangeController"
+- "FAAgeRangeDaemonConnection"
+- "FAAgeRangeDaemonInterface"
+- "FAAgeRangeDaemonProtocol"
+- "FAAgeRangeRequestModel"
+- "FAAgeRangeResponse"
+- "FAAppAndWebActivity"
+- "FABroadcaster"
+- "FACancelInvitationRequest"
+- "FAChildAccountCutOffAgeRequest"
+- "FAChildAccountCutOffAgeResponse"
+- "FACircleStateResponse"
+- "FAClearFamilyCircleCacheRequest"
+- "FAClearPhotoCacheRequest"
+- "FACommunicationLimits"
+- "FACommunicationSafety"
+- "FADeleteFamilyRequest"
+- "FADeviceInfo"
+- "FADeviceInfoProtocol"
+- "FAEligibilityRequirements"
+- "FAEligiblityEvaluationRequest"
+- "FAEnableScreenTimeSettingsRequest"
+- "FAFamilyCFUScheduler"
+- "FAFamilyCircle"
+- "FAFamilyCircleCache"
+- "FAFamilyCircleCache plist == nil"
+- "FAFamilyCircleCacheProtocol"
+- "FAFamilyCircleCacheResponse"
+- "FAFamilyCircleChangeHandler"
+- "FAFamilyCircleRequest"
+- "FAFamilyCircleRequestConnectionFactory"
+- "FAFamilyCircleRequestConnectionProvider"
+- "FAFamilyCloudKitProperties"
+- "FAFamilyFeatureFlag"
+- "FAFamilyFetchActivityScheduler"
+- "FAFamilyFetchActivityScheduler %s - defering fetchBlock"
+- "FAFamilyFetchActivityScheduler %s - executing fetchBlock"
+- "FAFamilyFetchActivityScheduler %s updating criteria interval: %lld"
+- "FAFamilyInvite"
+- "FAFamilyMegadomeSuggester"
+- "FAFamilyMember"
+- "FAFamilyMemberPhotoRequest"
+- "FAFamilyPeopleSuggesterSuggester"
+- "FAFamilyPresenterHostInterface"
+- "FAFamilyPresenterHostProtocol"
+- "FAFamilySettings"
+- "FAFamilySetupPrompterDelegate"
+- "FAFamilySuggesterFeedbackContext"
+- "FAFamilySuggesterProtocol"
+- "FAFetchFamilyCircleOperation Cache Queue"
+- "FAFetchFamilyCircleRequest"
+- "FAFetchFamilyPhotoRequest"
+- "FAFetchFollowupRequest"
+- "FAFetchScreenTimeSettingsCacheRequest"
+- "FAFollowupManager"
+- "FAHTTPResponse"
+- "FAHandleFamilyEventPushNotificationRequest"
+- "FAHandlePrivacyResolver"
+- "FAHeartbeatRequest"
+- "FAInviteCompletionInfo"
+- "FAInviteContext"
+- "FAInviteFollowUpTestRequest"
+- "FAInviteSuggesterProtocol"
+- "FAInviteSuggestions"
+- "FALaunchOutOfProcessRequest"
+- "FAMegadomePerson"
+- "FAMegadomeRecommendationLoading"
+- "FAMegadomeRecommendationsLoader"
+- "FAMemberPhotoRequest404Cache"
+- "FAMonogram"
+- "FAOSUpdatedActivity"
+- "FAOSUpdatedActivity %s - deferring activityBlock"
+- "FAOSUpdatedActivity %s - executing activityBlock"
+- "FAParentalControlsRequest"
+- "FAPeopleDiscoveryService"
+- "FAPeopleDiscoveryServiceProtocol"
+- "FAPropertyEligibilityRequirements"
+- "FAPushNotificationHandler"
+- "FARecommendedFamilyMember"
+- "FARegisterPushTokenRequest"
+- "FARemoveFamilyMemberRequest"
+- "FARemoveMemberResult"
+- "FARequestCoalescer"
+- "FARequestConfigurator"
+- "FARequestEphemeralSigner"
+- "FASaveScreenTimeSettingsCacheRequest"
+- "FAScreenDistance"
+- "FAScreenTimeRequestProvider"
+- "FAScreenTimeRequestProviderProtocol"
+- "FAScreentimeSettingsObjectCache"
+- "FAServerBagFlag"
+- "FAServiceProtocol"
+- "FASettingAccountRestrictionsRequest"
+- "FASettingPresetsCache"
+- "FASettingPresetsCacheProtocol"
+- "FASettingsPreset"
+- "FASettingsPresetComputedProperty"
+- "FASettingsPresetConfiguration"
+- "FASettingsPresetPropertyCondition"
+- "FASettingsPresetSource"
+- "FASettingsPresetsRequest"
+- "FASettingsPresetsResponse"
+- "FASharedService"
+- "FASharedServiceGroup"
+- "FAURLConfiguration"
+- "FAURLProvider"
+- "FAUpdateFamilyInviteStatusRequest"
+- "FAUpdateFamilyMemberFlagRequest"
+- "FAUpdateFamilyMemberFlagsRequest"
+- "Family request came back with response: %@ - %@"
+- "FamilyCircle"
+- "FamilyCircle.FAOSUpdatedActivity"
+- "FamilyCircle/XPCActivity.swift"
+- "FamilySettingsDestinations"
+- "HTTPBody"
+- "HTTPResponse"
+- "Invalid cache detected... validUser: %@, cachedTimestamp: %@, cachedCirclePlist: %@"
+- "JSONObjectWithData:options:error:"
+- "KeyValuePersisting"
+- "LoadFamilyCache"
+- "NSCoding"
+- "NSCopying"
+- "NSObject"
+- "NSSecureCoding"
+- "No URL found for share with recordZoneID "
+- "OS_xpc_object"
+- "Q"
+- "Q16@0:8"
+- "Q24@0:8@16"
+- "Q24@0:8^@16"
+- "Q32@0:8@16@24"
+- "ServerFlags"
+- "Skipping server fetch of family circle as the cache is fresh (%@)"
+- "Starting in process family request: %@"
+- "State: Unhandled xpc_activity_state_t: "
+- "SystemBackgroundTasks"
+- "T#,R"
+- "T@\"<FAFamilyCircleRequestConnectionFactory>\",&,N,V_factory"
+- "T@\"<FAFamilyCircleRequestConnectionProvider>\",&,N,V_connectionProvider"
+- "T@\"<FAMegadomeRecommendationLoading>\",&,N,V_recommendationLoader"
+- "T@\"<_TtP12FamilyCircle15FARequestSigner_>\",&,N,V_ephemeralAuthSigner"
+- "T@\"<_TtP12FamilyCircle15FARequestSigner_>\",&,N,V_signer"
+- "T@\"ACAccount\",&,N,SsetiTunesAccount:,V_iTunesAccount"
+- "T@\"ACAccount\",&,V_iTunesAccount"
+- "T@\"ACAccount\",N,R"
+- "T@\"ACAccount\",R,N,V_account"
+- "T@\"AKAppleIDAuthenticationContext\",&,N,V_authContext"
+- "T@\"CNContact\",&,N,V_contact"
+- "T@\"CNContact\",R,N"
+- "T@\"FAAgeRangeResponse\",R,N,V_ageRangeResponse"
+- "T@\"FAAppAndWebActivity\",R,N,V_appAndWebActivity"
+- "T@\"FACommunicationLimits\",R,N,V_communicationLimits"
+- "T@\"FACommunicationSafety\",R,N,V_communicationSafety"
+- "T@\"FAEligibilityRequirements\",R,V_eligibilityRequirements"
+- "T@\"FAFamilyCircle\",&,N,V_familyCircle"
+- "T@\"FAFamilyCloudKitProperties\",R,V_cloudKitProperties"
+- "T@\"FAFamilyMember\",&,V_remoteGuardianPerson"
+- "T@\"FAFamilyMember\",R"
+- "T@\"FAFamilyMember\",R,N,V_me"
+- "T@\"FAFamilySuggesterFeedbackContext\",&,N,V_feedbackContext"
+- "T@\"FAScreenDistance\",R,N,V_screenDistance"
+- "T@\"FAScreentimeSettingsObjectCache\",R,C,V_object"
+- "T@\"FAScreentimeSettingsObjectCache\",R,V_screentimeModelCache"
+- "T@\"FASettingsPreset\",R,N,V_currentPreset"
+- "T@\"FASettingsPreset\",R,N,V_expectedPreset"
+- "T@\"FASettingsPresetConfiguration\",R,N,V_configuration"
+- "T@\"NSArray\",&,N,V_recipients"
+- "T@\"NSArray\",&,N,V_services"
+- "T@\"NSArray\",&,N,V_suggesters"
+- "T@\"NSArray\",C,N,V_invitees"
+- "T@\"NSArray\",C,N,V_sharesheetExcludedAppsAndActions"
+- "T@\"NSArray\",C,V_expectedAltDSIDs"
+- "T@\"NSArray\",C,V_expectedDSIDs"
+- "T@\"NSArray\",N,R"
+- "T@\"NSArray\",R,C,N"
+- "T@\"NSArray\",R,C,N,V_activeBundleIDs"
+- "T@\"NSArray\",R,C,N,V_availablePresets"
+- "T@\"NSArray\",R,C,N,V_invites"
+- "T@\"NSArray\",R,C,N,V_pendingMembers"
+- "T@\"NSArray\",R,C,N,V_pendingMembersWithAllStatues"
+- "T@\"NSArray\",R,C,N,V_sources"
+- "T@\"NSArray\",R,N"
+- "T@\"NSArray\",R,N,V_ageGates"
+- "T@\"NSArray\",R,N,V_allowedSubscriptions"
+- "T@\"NSArray\",R,N,V_childBotAllowlistedParents"
+- "T@\"NSArray\",R,N,V_contactIdentifiers"
+- "T@\"NSArray\",R,N,V_emails"
+- "T@\"NSArray\",R,N,V_names"
+- "T@\"NSArray\",R,N,V_parentAllowlistedChildBots"
+- "T@\"NSArray\",R,N,V_parentalControlsInformation"
+- "T@\"NSArray\",R,N,V_peopleSuggesterSuggestions"
+- "T@\"NSArray\",R,N,V_phoneNumbers"
+- "T@\"NSArray\",R,N,V_remoteChildren"
+- "T@\"NSArray\",R,N,V_remoteGuardians"
+- "T@\"NSArray\",R,V_members"
+- "T@\"NSData\",R,C,V_pushToken"
+- "T@\"NSDate\",&,N,V_associateInviteDate"
+- "T@\"NSDate\",&,N,V_cacheDate"
+- "T@\"NSDate\",&,N,V_inviteDate"
+- "T@\"NSDate\",C,N,V_date"
+- "T@\"NSDate\",N,D,C"
+- "T@\"NSDate\",R,C,N"
+- "T@\"NSDate\",R,N"
+- "T@\"NSDate\",R,N,V_createdAt"
+- "T@\"NSDate\",R,N,V_invalidatedAt"
+- "T@\"NSDictionary\",&,N,V_ephemeralAuthResults"
+- "T@\"NSDictionary\",&,V_dictionary"
+- "T@\"NSDictionary\",&,V_idsCache"
+- "T@\"NSDictionary\",N,C"
+- "T@\"NSDictionary\",R,&,V_serverResponse"
+- "T@\"NSDictionary\",R,C,N,V_computedProperties"
+- "T@\"NSDictionary\",R,C,N,V_dictionary"
+- "T@\"NSDictionary\",R,C,N,V_values"
+- "T@\"NSDictionary\",R,C,V_additionalRequestParameters"
+- "T@\"NSDictionary\",R,N,V_userInfo"
+- "T@\"NSDictionary\",R,V__serverResponse"
+- "T@\"NSDictionary\",R,V_payload"
+- "T@\"NSError\",R,N,V_error"
+- "T@\"NSHTTPURLResponse\",R,N,V_HTTPResponse"
+- "T@\"NSLock\",R,N,V_lock"
+- "T@\"NSMutableDictionary\",&,N,V_inFlightRequests"
+- "T@\"NSNumber\",&,N,V_badgeAfter"
+- "T@\"NSNumber\",&,N,V_childAge"
+- "T@\"NSNumber\",&,N,V_followUpNotificationAfter"
+- "T@\"NSNumber\",&,N,V_groupID"
+- "T@\"NSNumber\",&,N,V_memberDSID"
+- "T@\"NSNumber\",C,N,V_familyMemberDSID"
+- "T@\"NSNumber\",C,N,V_organizerDSID"
+- "T@\"NSNumber\",C,V_memberDSID"
+- "T@\"NSNumber\",N,D,&"
+- "T@\"NSNumber\",R,C"
+- "T@\"NSNumber\",R,C,N"
+- "T@\"NSNumber\",R,C,V_memberDSID"
+- "T@\"NSNumber\",R,N"
+- "T@\"NSNumber\",R,N,V_attestedAtOverrideInDays"
+- "T@\"NSNumber\",R,N,V_lowerbound"
+- "T@\"NSNumber\",R,N,V_strictPolicy"
+- "T@\"NSNumber\",R,N,V_upperbound"
+- "T@\"NSNumber\",R,N,V_userAgeOverride"
+- "T@\"NSObject\",N,R,Voperand"
+- "T@\"NSObject\",N,R,Vresult"
+- "T@\"NSObject<OS_dispatch_queue>\",&,N,V_coalesceQueue"
+- "T@\"NSObject<OS_dispatch_queue>\",R,N,V_processingQueue"
+- "T@\"NSSet\",N,R"
+- "T@\"NSString\",&,N,V_altDSID"
+- "T@\"NSString\",&,N,V_context"
+- "T@\"NSString\",&,N,V_eventType"
+- "T@\"NSString\",&,N,V_footerText"
+- "T@\"NSString\",&,N,V_headerText"
+- "T@\"NSString\",&,N,V_storeFront"
+- "T@\"NSString\",&,N,V_version"
+- "T@\"NSString\",?,R,C"
+- "T@\"NSString\",C,N,V_action"
+- "T@\"NSString\",C,N,V_childFirstName"
+- "T@\"NSString\",C,N,V_childLastName"
+- "T@\"NSString\",C,N,V_code"
+- "T@\"NSString\",C,N,V_displayName"
+- "T@\"NSString\",C,N,V_familyMemberAltDSID"
+- "T@\"NSString\",C,N,V_handle"
+- "T@\"NSString\",C,N,V_iMessageHandle"
+- "T@\"NSString\",C,N,V_inviteId"
+- "T@\"NSString\",C,N,V_inviteStatus"
+- "T@\"NSString\",C,N,V_mailLinkSubtitle"
+- "T@\"NSString\",C,N,V_mailLinkTitle"
+- "T@\"NSString\",C,N,V_mailMessageBodyHTML"
+- "T@\"NSString\",C,N,V_mailMessageSubject"
+- "T@\"NSString\",C,N,V_messageBubbleAppleIDSettingsLinkLabel"
+- "T@\"NSString\",C,N,V_messageBubbleFamilySettingsLinkLabel"
+- "T@\"NSString\",C,N,V_messageBubbleInviteAcceptButtonLabel"
+- "T@\"NSString\",C,N,V_messageBubbleInviteAcceptedIcon"
+- "T@\"NSString\",C,N,V_messageBubbleInviteAcceptedSubTitleReceiver"
+- "T@\"NSString\",C,N,V_messageBubbleInviteAcceptedSubTitleSender"
+- "T@\"NSString\",C,N,V_messageBubbleInviteAcceptedTitleReceiver"
+- "T@\"NSString\",C,N,V_messageBubbleInviteAcceptedTitleSender"
+- "T@\"NSString\",C,N,V_messageBubbleInviteDeclineAlertSheetMessage"
+- "T@\"NSString\",C,N,V_messageBubbleInviteDeclineAlertSheetTitle"
+- "T@\"NSString\",C,N,V_messageBubbleInviteDeclineButtonLabel"
+- "T@\"NSString\",C,N,V_messageBubbleInviteDeclinedIcon"
+- "T@\"NSString\",C,N,V_messageBubbleInviteDeclinedSubTitleReceiver"
+- "T@\"NSString\",C,N,V_messageBubbleInviteDeclinedSubTitleSender"
+- "T@\"NSString\",C,N,V_messageBubbleInviteDeclinedTitleReceiver"
+- "T@\"NSString\",C,N,V_messageBubbleInviteDeclinedTitleSender"
+- "T@\"NSString\",C,N,V_messageBubbleInviteExpiredIcon"
+- "T@\"NSString\",C,N,V_messageBubbleInviteExpiredSubTitleReceiver"
+- "T@\"NSString\",C,N,V_messageBubbleInviteExpiredSubTitleSender"
+- "T@\"NSString\",C,N,V_messageBubbleInviteExpiredTitleReceiver"
+- "T@\"NSString\",C,N,V_messageBubbleInviteExpiredTitleSender"
+- "T@\"NSString\",C,N,V_messageBubbleInviteLoadingLabel"
+- "T@\"NSString\",C,N,V_messageBubbleInvitePendingIcon"
+- "T@\"NSString\",C,N,V_messageBubbleInvitePendingSubTitle"
+- "T@\"NSString\",C,N,V_messageBubbleInvitePendingTitle"
+- "T@\"NSString\",C,N,V_messageBubbleLearnMoreLinkLabel"
+- "T@\"NSString\",C,N,V_messageBubbleSubTitle"
+- "T@\"NSString\",C,N,V_messageBubbleSubTitleTeen"
+- "T@\"NSString\",C,N,V_messageBubbleSubscriptionsList"
+- "T@\"NSString\",C,N,V_messageBubbleTitle"
+- "T@\"NSString\",C,N,V_messageBubbleViewInvitationButtonLabel"
+- "T@\"NSString\",C,N,V_organizerEmail"
+- "T@\"NSString\",C,N,V_organizerFirstName"
+- "T@\"NSString\",C,N,V_organizerLastName"
+- "T@\"NSString\",C,N,V_overlaidTextColorString"
+- "T@\"NSString\",C,N,V_secondaryTitle"
+- "T@\"NSString\",C,N,V_serverCacheTag"
+- "T@\"NSString\",C,N,V_serverTag"
+- "T@\"NSString\",C,N,V_sharesheetType"
+- "T@\"NSString\",C,N,V_subtitle"
+- "T@\"NSString\",C,N,V_title"
+- "T@\"NSString\",C,V_emailAddress"
+- "T@\"NSString\",C,V_fullname"
+- "T@\"NSString\",C,V_passwordOrToken"
+- "T@\"NSString\",C,V_phoneNumber"
+- "T@\"NSString\",C,V_usernameOrDSID"
+- "T@\"NSString\",N,C"
+- "T@\"NSString\",N,D,C"
+- "T@\"NSString\",N,R"
+- "T@\"NSString\",N,V_name"
+- "T@\"NSString\",R,C"
+- "T@\"NSString\",R,C,N"
+- "T@\"NSString\",R,C,N,V_addMemberButtonLabel"
+- "T@\"NSString\",R,C,N,V_bundleID"
+- "T@\"NSString\",R,C,N,V_checklistRankingBucketType"
+- "T@\"NSString\",R,C,N,V_checklistRankingVersion"
+- "T@\"NSString\",R,C,N,V_expectedMediaAltDSID"
+- "T@\"NSString\",R,C,N,V_familyID"
+- "T@\"NSString\",R,C,N,V_familyMembersFooterLabel"
+- "T@\"NSString\",R,C,N,V_identifier"
+- "T@\"NSString\",R,C,N,V_propertyName"
+- "T@\"NSString\",R,C,V_inviteCode"
+- "T@\"NSString\",R,C,V_memberHashedDSID"
+- "T@\"NSString\",R,N"
+- "T@\"NSString\",R,N,V_altDSID"
+- "T@\"NSString\",R,N,V_bundleID"
+- "T@\"NSString\",R,N,V_childCutOffAge"
+- "T@\"NSString\",R,N,V_message"
+- "T@\"NSString\",R,N,V_primaryButtonText"
+- "T@\"NSString\",R,N,V_secondaryButtonText"
+- "T@\"NSString\",R,N,V_title"
+- "T@\"NSURL\",C,N,V_iconURL"
+- "T@\"NSURL\",C,N,V_imageURL"
+- "T@\"NSURL\",C,N,V_inviteURL"
+- "T@\"NSURL\",C,N,V_messageBubbleAcceptInviteURL"
+- "T@\"NSURL\",C,N,V_messageBubbleDeclineInviteURL"
+- "T@\"NSURL\",C,N,V_reportInviteeDetailsUrl"
+- "T@\"NSXPCConnection\",&,N,V_connection"
+- "T@\"NSXPCListenerEndpoint\",R,N,V_listenerEndpoint"
+- "T@\"UIViewController\",V_presentingViewController"
+- "T@\"_PSPredictionContext\",R,N,V_peopleSuggesterPredictionContext"
+- "T@,&,N,V_introductionModel"
+- "T@,R,N,V_body"
+- "T@,R,N,V_serverPayload"
+- "TB,N,R"
+- "TB,N,V_attachSetupHeader"
+- "TB,N,V_canEditRecipients"
+- "TB,N,V_familyRefreshTriggered"
+- "TB,N,V_isChildTransferInvite"
+- "TB,N,V_isNewFamily"
+- "TB,N,V_isResendInvite"
+- "TB,N,V_showCopyLinkAction"
+- "TB,N,V_showCreateChildAccountAction"
+- "TB,N,V_showInviteInPersonAction"
+- "TB,N,V_value"
+- "TB,N,Venabled"
+- "TB,N,VstrictPolicy"
+- "TB,N,Vsuccess"
+- "TB,R"
+- "TB,R,N"
+- "TB,R,N,V_canAddMembers"
+- "TB,R,N,V_hasRecommendedMembers"
+- "TB,R,N,V_isSharingNewInformation"
+- "TB,R,N,V_loadSuccess"
+- "TB,R,N,V_serverEligibility"
+- "TB,R,N,V_sharedPayementEnabled"
+- "TB,R,N,V_shouldBadgeInvitee"
+- "TB,R,N,V_shouldBadgeOrganizer"
+- "TB,R,N,V_shouldPrompt"
+- "TB,R,N,V_shouldShowInvites"
+- "TB,R,N,V_showAddMemberButton"
+- "TB,R,N,V_showLocationSplashScreen"
+- "TB,R,N,V_showRUIPages"
+- "TB,R,V_localFallback"
+- "TB,V_doNotFetchFromServer"
+- "TB,V_forceServerFetch"
+- "TB,V_isFirstRun"
+- "TB,V_promptUserToResolveAuthenticatonFailure"
+- "TB,V_signedInAccountShouldBeApprover"
+- "TB,V_useMonogramAsLastResort"
+- "TQ,N,V_status"
+- "TQ,N,V_transportType"
+- "TQ,N,V_validation"
+- "TQ,R"
+- "TQ,R,N"
+- "TQ,R,N,V_remainingFamilySpots"
+- "TQ,R,V_requestedSize"
+- "TQ,V_cachePolicy"
+- "Task cancelled: %s"
+- "Td,N,V_maxAge"
+- "Td,V_monogramDiameter"
+- "Td,V_requiredHeight"
+- "Td,V_requiredWidth"
+- "The container identifier is nil"
+- "The container identifier is: %s"
+- "Ti,N,D"
+- "Ti,R,N,V_ageCategoryEnum"
+- "Tq,N,D"
+- "Tq,N,R"
+- "Tq,N,V_intValue"
+- "Tq,N,V_qualityOfService"
+- "Tq,N,V_verificationMethod"
+- "Tq,N,VstatusCode"
+- "Tq,R,N"
+- "Tq,R,N,V_ageCategory"
+- "Tq,R,N,V_entryPoint"
+- "Tq,R,N,V_flowType"
+- "Tq,R,N,V_maxAge"
+- "Tq,R,N,V_megadomeFeedbackEventId"
+- "Tq,R,N,V_minAge"
+- "Tq,R,N,V_requestType"
+- "Tq,R,N,V_response"
+- "Tq,R,N,V_responseType"
+- "Tq,R,N,V_validationLevel"
+- "Tq,R,V_inviteStatus"
+- "Tq,R,V_responseFormat"
+- "Tq,V_backgroundType"
+- "URL"
+- "URLByAppendingPathComponent:"
+- "URLForDirectory:inDomain:appropriateForURL:create:error:"
+- "URLForEndpoint:"
+- "URLForEndpoint:withCompletion:"
+- "URLWithString:"
+- "Vv16@0:8"
+- "XPCInterface"
+- "^{CGContext=}64@0:8^{CGImage=}16{CGRect={CGPoint=dd}{CGSize=dd}}24d56"
+- "^{CGImage=}16@0:8"
+- "^{_NSZone=}16@0:8"
+- "_FAFamilyCircleRequestConnectionFactory"
+- "_FAFamilyCircleRequestConnectionProvider"
+- "_HTTPResponse"
+- "_TtC12FamilyCircle11MessageUtil"
+- "_TtC12FamilyCircle11XPCActivity"
+- "_TtC12FamilyCircle13SharingCenter"
+- "_TtC12FamilyCircle14FamilySettings"
+- "_TtC12FamilyCircle15DaemonContainer"
+- "_TtC12FamilyCircle16SerialDispatcher"
+- "_TtC12FamilyCircle18DefaultIDSProvider"
+- "_TtC12FamilyCircle18RuntimeEnvironment"
+- "_TtC12FamilyCircle19FamilyDefaultSuites"
+- "_TtC12FamilyCircle19FamilyTestingCenter"
+- "_TtC12FamilyCircle20AgeAttestationEntity"
+- "_TtC12FamilyCircle20DaemonContainerActor"
+- "_TtC12FamilyCircle20FABuildInviteRequest"
+- "_TtC12FamilyCircle20FADeleteFamilyResult"
+- "_TtC12FamilyCircle21FAGuardianInviteModel"
+- "_TtC12FamilyCircle21RecordSharingMetadata"
+- "_TtC12FamilyCircle22FamilyUserDefaultsKeys"
+- "_TtC12FamilyCircle23AgeRangeStringsProvider"
+- "_TtC12FamilyCircle25FamilySettingsValueEntity"
+- "_TtC12FamilyCircle26iMessageServiceAvailabilty"
+- "_TtC12FamilyCircle27DefaultAccountStoreProvider"
+- "_TtC12FamilyCircle27FAOSUpdatedActivityProvider"
+- "_TtC12FamilyCircle27RecordSharingMetadataEntity"
+- "_TtC12FamilyCircle28ProfilePictureMarqueKeyNames"
+- "_TtC12FamilyCircle29FAFamilyFetchActivityProvider"
+- "_TtC12FamilyCircle36SignificantChangeAckExtensionContext"
+- "_TtC12FamilyCircle37FAFamilyChecklistRankingConfigRequest"
+- "_TtCC12FamilyCircle30FAChildAccountCutOffAgeRequest7Request"
+- "_TtP12FamilyCircle15FARequestSigner_"
+- "_account"
+- "_accountStore"
+- "_action"
+- "_activeBundleIDs"
+- "_addAccountForServiceType:toPayload:forKey:"
+- "_additionalRequestParameters"
+- "_ageCategoryEnum"
+- "_appAndWebActivity"
+- "_associateInviteDate"
+- "_attachSetupHeader"
+- "_authContext"
+- "_availablePresets"
+- "_backgroundType"
+- "_badgeAfter"
+- "_body"
+- "_broadcastNotificationName:userInfo:"
+- "_cacheDataWithFamilyCircle:serverTag:"
+- "_cacheDate"
+- "_cacheDirectoryURLWithError:"
+- "_cachePolicy"
+- "_cacheURL"
+- "_cacheURLWithError:"
+- "_cacheURLWithStoreFront:version:"
+- "_cacheURLWithStoreFront:version:error:"
+- "_canConnectToAPS"
+- "_canEditRecipients"
+- "_childAge"
+- "_childFirstName"
+- "_childLastName"
+- "_coalesceQueue"
+- "_code"
+- "_communicationLimits"
+- "_communicationSafety"
+- "_completionStatusStringValue"
+- "_computedProperties"
+- "_configuration"
+- "_connection"
+- "_connectionInterruptionHandler"
+- "_connectionInvalidationHandler"
+- "_connectionProvider"
+- "_contactIdentifiers"
+- "_context"
+- "_createCacheFile"
+- "_createCacheFileWithStoreFront:version:"
+- "_crossPlatformUnifiedMeContactWithKeysToFetch:error:"
+- "_currentPreset"
+- "_daemonConnection"
+- "_dateWithEpochString:"
+- "_deviceLanguage"
+- "_doNotFetchFromServer"
+- "_dsid"
+- "_eligibilityRequirements"
+- "_email"
+- "_emailAddress"
+- "_emails"
+- "_enabled"
+- "_ephemeralAuthResults"
+- "_ephemeralAuthSigner"
+- "_error"
+- "_eventType"
+- "_expectedAltDSIDs"
+- "_expectedDSIDs"
+- "_expectedMediaAltDSID"
+- "_expectedPreset"
+- "_faCircularImageDataWithDiameter:"
+- "_faCircularImageDataWithDiameter:cropRect:"
+- "_faCreateContextWithImage:crop:diameter:"
+- "_faCreateImageRef"
+- "_faTranformedRectForImageSize:cropRect:diameter:"
+- "_factory"
+- "_familyCircle"
+- "_familyGrandSlamSigner"
+- "_familyMemberAltDSID"
+- "_familyMemberDSID"
+- "_familyRefreshTriggered"
+- "_familyTokenForGrandSlamAccount:andTokenID:"
+- "_feedbackContext"
+- "_fetchData:"
+- "_fetchDataWithStoreFront:version:error:"
+- "_flag"
+- "_flags"
+- "_followUpNotificationAfter"
+- "_followupManager"
+- "_footerText"
+- "_forceServerFetch"
+- "_fresnoPayloadWithAdditionalPayload:"
+- "_fullname"
+- "_grandSlamAccount"
+- "_grandSlamSigner"
+- "_groupID"
+- "_hasRecommendedMembers"
+- "_headerText"
+- "_iTunesAccount"
+- "_iconURL"
+- "_identifier"
+- "_idsCache"
+- "_imageURL"
+- "_inFlightRequests"
+- "_intValue"
+- "_inviteCode"
+- "_inviteDate"
+- "_inviteId"
+- "_inviteStatus"
+- "_inviteURL"
+- "_invitees"
+- "_invites"
+- "_isCacheDate:withinDuration:"
+- "_isChildTransferInvite"
+- "_isFamilyCircleFresh:"
+- "_isFirstRun"
+- "_isNewFamily"
+- "_isResendInvite"
+- "_launchPrefsUsingDaemonWithOptions:"
+- "_listenerEndpoint"
+- "_loadSuccess"
+- "_localFallback"
+- "_localizedShortNameForComponents:withStyle:options:"
+- "_lock"
+- "_mailLinkSubtitle"
+- "_mailLinkTitle"
+- "_mailMessageBodyHTML"
+- "_mailMessageSubject"
+- "_maxAge"
+- "_me"
+- "_megadomeFeedbackEventId"
+- "_memberHashedDSID"
+- "_messageBubbleAcceptInviteURL"
+- "_messageBubbleAppleIDSettingsLinkLabel"
+- "_messageBubbleDeclineInviteURL"
+- "_messageBubbleFamilySettingsLinkLabel"
+- "_messageBubbleInviteAcceptButtonLabel"
+- "_messageBubbleInviteAcceptedIcon"
+- "_messageBubbleInviteAcceptedSubTitleReceiver"
+- "_messageBubbleInviteAcceptedSubTitleSender"
+- "_messageBubbleInviteAcceptedTitleReceiver"
+- "_messageBubbleInviteAcceptedTitleSender"
+- "_messageBubbleInviteDeclineAlertSheetMessage"
+- "_messageBubbleInviteDeclineAlertSheetTitle"
+- "_messageBubbleInviteDeclineButtonLabel"
+- "_messageBubbleInviteDeclinedIcon"
+- "_messageBubbleInviteDeclinedSubTitleReceiver"
+- "_messageBubbleInviteDeclinedSubTitleSender"
+- "_messageBubbleInviteDeclinedTitleReceiver"
+- "_messageBubbleInviteDeclinedTitleSender"
+- "_messageBubbleInviteExpiredIcon"
+- "_messageBubbleInviteExpiredSubTitleReceiver"
+- "_messageBubbleInviteExpiredSubTitleSender"
+- "_messageBubbleInviteExpiredTitleReceiver"
+- "_messageBubbleInviteExpiredTitleSender"
+- "_messageBubbleInviteLoadingLabel"
+- "_messageBubbleInvitePendingIcon"
+- "_messageBubbleInvitePendingSubTitle"
+- "_messageBubbleInvitePendingTitle"
+- "_messageBubbleLearnMoreLinkLabel"
+- "_messageBubbleSubTitle"
+- "_messageBubbleSubTitleTeen"
+- "_messageBubbleSubscriptionsList"
+- "_messageBubbleTitle"
+- "_messageBubbleViewInvitationButtonLabel"
+- "_minAge"
+- "_monogramDiameter"
+- "_name"
+- "_names"
+- "_nilEqualProperty:with:"
+- "_object"
+- "_onQueue:"
+- "_organizerDSID"
+- "_organizerEmail"
+- "_organizerFirstName"
+- "_organizerLastName"
+- "_overlaidTextColorString"
+- "_parentalControlsInformation"
+- "_parseResultsDictionary:"
+- "_passwordOrToken"
+- "_payload"
+- "_pendingMembers"
+- "_pendingMembersWithAllStatues"
+- "_peopleDiscovery"
+- "_peopleSuggesterPredictionContext"
+- "_peopleSuggesterSuggestions"
+- "_phoneNumber"
+- "_phoneNumbers"
+- "_presentingViewController"
+- "_processingQueue"
+- "_promptUserToResolveAuthenticatonFailure"
+- "_prompter"
+- "_properties"
+- "_propertyName"
+- "_pushToken"
+- "_qualityOfService"
+- "_recipients"
+- "_recommendationLoader"
+- "_refetchFamilyWithContext:completion:"
+- "_remainingFamilySpots"
+- "_remoteChildren"
+- "_remoteGuardianPerson"
+- "_remoteGuardians"
+- "_reportInviteeDetailsUrl"
+- "_requestCoalescer"
+- "_requestedSize"
+- "_requiredHeight"
+- "_requiredWidth"
+- "_resourceLoadDelegate"
+- "_resourceLoadDelegate:"
+- "_responseFormat"
+- "_retainedSelf"
+- "_safeClasses"
+- "_screenDistance"
+- "_screentimeModelCache"
+- "_secondaryTitle"
+- "_serverCacheTag"
+- "_serverEligibility"
+- "_serverPayload"
+- "_serverResponse"
+- "_serverTag"
+- "_serviceOwnersManager"
+- "_services"
+- "_sharesheetExcludedAppsAndActions"
+- "_sharesheetType"
+- "_showCopyLinkAction"
+- "_showCreateChildAccountAction"
+- "_showInviteInPersonAction"
+- "_signedInAccountShouldBeApprover"
+- "_signer"
+- "_sources"
+- "_state"
+- "_status"
+- "_storeFront"
+- "_strictPolicy"
+- "_subtitle"
+- "_suggesters"
+- "_title"
+- "_transportStringValue"
+- "_transportType"
+- "_unfairLock"
+- "_useMonogramAsLastResort"
+- "_userInfo"
+- "_username"
+- "_usernameOrDSID"
+- "_validation"
+- "_validatonFromString:eventType:"
+- "_value"
+- "_values"
+- "_version"
+- "aa_addBasicAuthorizationHeaderWithAccount:preferUsingPassword:"
+- "aa_addDeviceProvisioningInfoHeadersWithDSID:"
+- "aa_addLocationSharingAllowedHeader"
+- "aa_addLoggedInAppleIDHeaderWithAccount:"
+- "aa_altDSID"
+- "aa_appleAccountWithAltDSID:"
+- "aa_grandSlamAccountForAltDSID:"
+- "aa_grandSlamAccountForiCloudAccount:"
+- "aa_hexString"
+- "aa_isPrimaryEmailVerified"
+- "aa_isSuspended"
+- "aa_personID"
+- "aa_primaryAppleAccount"
+- "aa_primaryAppleAccountWithCompletion:"
+- "aa_setBodyWithParameters:"
+- "aa_suspensionInfo"
+- "aaf_hasObjects"
+- "aaf_map:"
+- "aaf_removeFirstObject"
+- "absoluteString"
+- "acceptShareInvitationsFromURLs:intoPersistentStore:completion:"
+- "acceptanceStatus"
+- "account"
+- "accountForService:"
+- "accountInfoPayload"
+- "accountStore"
+- "accounts"
+- "action"
+- "actionURLString"
+- "activateWithCompletion:"
+- "activeBundleIDs"
+- "activity"
+- "activityBlock"
+- "activityHandler for %s -- state: %s"
+- "addEntriesFromDictionary:"
+- "addFresnoHeadersToRequest:"
+- "addFresnoHeadersToRequest:withCompletion:"
+- "addFresnoPayloadToRequest:additionalPayload:"
+- "addListenerID:forService:"
+- "addLocalHeadersToRequest:"
+- "addMemberButtonLabel"
+- "addObject:"
+- "addObjectsFromArray:"
+- "addParticipant:"
+- "addPayload:toRequest:"
+- "adding %s to %s"
+- "additionalRequestParameters"
+- "adviseInteractionsUsingSettings:"
+- "age"
+- "ageCategory"
+- "ageCategoryEnum"
+- "ageGates"
+- "ageRangeGlobalStateForAltDSID:completion:"
+- "ageRangeResponse"
+- "ageRangeResponseDisplayNames"
+- "ageRangeResponseToString"
+- "ageRangeResponseTypeDisplayNames"
+- "ageRangeResponseTypeToString"
+- "ageRangeValidationLevelDisplayNames"
+- "ageRangeValidationLevelToString"
+- "aida_accountForPrimaryiCloudAccount"
+- "ak_addClientTimeHeader"
+- "all:"
+- "allHTTPHeaderFields"
+- "allHeaderFields"
+- "allKeys"
+- "allObjects"
+- "allValues"
+- "allValuesWithUserValueProvider:"
+- "allocWithZone:"
+- "allowedLaunchURLHosts"
+- "allowedSubscriptions"
+- "altDSIDForAccount:service:"
+- "ams_DSID"
+- "ams_cookies"
+- "anyChildHasRemoteGuardians"
+- "appendFormat:"
+- "appendString:"
+- "appleID"
+- "appleIDAliases"
+- "apsEnvironment"
+- "areContactsManagedForDSID:"
+- "array"
+- "arrayByAddingObject:"
+- "arrayByAddingObjectsFromArray:"
+- "arrayWithArray:"
+- "arrayWithCapacity:"
+- "arrayWithObjects:count:"
+- "associateInviteDate"
+- "attachSetupHeader"
+- "attestedAtOverrideInDays"
+- "auditToken"
+- "authContext"
+- "authKitAccountWithAltDSID:"
+- "authenticationController"
+- "autorelease"
+- "availabilityForListenerID:forService:"
+- "availablePresets"
+- "avatarImageForContacts:scope:"
+- "badgeAfter"
+- "base64EncodedStringWithOptions:"
+- "birthDate"
+- "block"
+- "body"
+- "boolKeys"
+- "boolValue"
+- "broadcastFamilyChangedNotification"
+- "broadcastFamilyMarqueeChangedNotification"
+- "broadcastRemoteUIWillDismissNotification:"
+- "broadcastServicesChangedNotification"
+- "buildInvite:replyBlock:"
+- "buildInviteMessageBubbleURL:"
+- "bundleForClass:"
+- "bundleID"
+- "bundleId"
+- "bundleIdentifier"
+- "bundleRecordForAuditToken:error:"
+- "cacheDate"
+- "cacheDuration"
+- "cacheLoadBlock"
+- "cacheObjectSettings:dsid:options:replyBlock:"
+- "cachePolicy"
+- "cacheQueue"
+- "cacheScreenTimeSettingToDiskWithDSID:screentimeObject:completionHandler:"
+- "canAddMembers"
+- "canEditRecipients"
+- "canRemoveSelf"
+- "cancelChildTransferRequest:replyBlock:"
+- "cancelInvitationWith:familyID:options:replyBlock:"
+- "cancelTask"
+- "caseInsensitiveCompare:"
+- "characterDirectionForLanguage:"
+- "characterSetWithCharactersInString:"
+- "checkResourceIsReachableAndReturnError:"
+- "checkedInAtLeastOnce"
+- "checkinWithCompletionHandler:"
+- "checklistRankingBucketType"
+- "checklistRankingVersion"
+- "childAge"
+- "childBotAllowlistedParents"
+- "childFirstName"
+- "childLastName"
+- "circle"
+- "class"
+- "clearFamilyCircleCacheWithReplyBlock:"
+- "clearInviteFollowUpNotificationStateWithReply:"
+- "clearNotificationStateWithCompletion:"
+- "clearPendingFollowUpItems:"
+- "clearPendingFollowUpItemsWithUniqueIdentifiers:completion:"
+- "clearPendingFollowUpItemsWithUniqueIdentifiers:error:"
+- "clearPhotoCacheWithReplyBlock:"
+- "clientService"
+- "cloudKitContainer"
+- "cloudKitContainerOptions"
+- "cloudKitProperties"
+- "coalesceQueue"
+- "code"
+- "com.apple.family.cache.refresh"
+- "com.apple.family.osupdate.activity"
+- "com.apple.familycircled.sharing"
+- "compare:"
+- "completionTypeFrom:"
+- "componentsJoinedByString:"
+- "componentsSeparatedByString:"
+- "computedValueWithValueProvider:"
+- "conditions"
+- "configuration"
+- "configurationWithCompletion:"
+- "conformsToProtocol:"
+- "connection"
+- "connectionProvider"
+- "connectionWasInterrupted:"
+- "connectionWasInvalidated:"
+- "contact"
+- "contactFromRecommendationWithIdentifier:"
+- "contactID"
+- "contactIdentifiers"
+- "contactIncludingImage:"
+- "contactManagementState"
+- "contactType"
+- "contactWithKeys:contactStore:"
+- "contactsIncludingImage:"
+- "contactsWithKeys:contactStore:"
+- "container"
+- "containerIdentifier"
+- "containsObject:"
+- "containsValueForKey:"
+- "context"
+- "controller"
+- "copy"
+- "copyWithZone:"
+- "count"
+- "countByEnumeratingWithState:objects:count:"
+- "createDirectoryAtPath:withIntermediateDirectories:attributes:error:"
+- "createResumedConnectionWithFactory:provider:"
+- "createServiceConnectionWithInterruptionHandler:invalidationHandler:"
+- "createdAt"
+- "credentialForAccount:serviceID:"
+- "criteria"
+- "criteriaBlock"
+- "currentConfigurationForUser:error:"
+- "currentLocale"
+- "currentPreset"
+- "currentProcess"
+- "currentState"
+- "currentTask"
+- "currentTaskID"
+- "currentUserIsU13"
+- "d"
+- "d16@0:8"
+- "dataForKey:"
+- "dataRepresentation"
+- "dataWithContentsOfFile:options:error:"
+- "dataWithJSONObject:options:error:"
+- "dataWithPropertyList:format:options:error:"
+- "dataclassActionsForAccountSave:"
+- "date"
+- "dateByAddingTimeInterval:"
+- "dateWithTimeIntervalSince1970:"
+- "dealloc"
+- "debugDescription"
+- "declaredAgeRangeOverrides"
+- "decodeArrayOfObjectsOfClass:forKey:"
+- "decodeBoolForKey:"
+- "decodeDictionaryWithKeysOfClasses:objectsOfClasses:forKey:"
+- "decodeIntegerForKey:"
+- "decodeObjectOfClass:forKey:"
+- "decodeObjectOfClasses:forKey:"
+- "decoder"
+- "defaultCenter"
+- "defaultInvitationDelay"
+- "defaultManager"
+- "defaultStore"
+- "deleteAgeRangesWith:completion:"
+- "demoAccountForAccount:"
+- "dependencies"
+- "deregisterTaskWithIdentifier:"
+- "descriptorForRequiredKeysForStyle:"
+- "devDescription"
+- "dictionary"
+- "dictionaryForKey:"
+- "dictionaryWithObjects:forKeys:count:"
+- "didAddAccount:replyBlock:"
+- "didDeleteAccount:replyBlock:"
+- "didReceiveFamilyEventPushNotificationWithPayload:options:replyBlock:"
+- "didReceivePushNotificationWithPayload:"
+- "discoveredPeople"
+- "dispatchQueue"
+- "displayName"
+- "distantPast"
+- "doNotFetchFromServer"
+- "domain"
+- "doubleValue"
+- "dsid"
+- "eligibilityRequirements"
+- "emails"
+- "enableScreenTimeSettingsForDSID:screentimeObject:completionHandler:"
+- "enableSettings:"
+- "enableSettingsForMemberDSID:options:replyBlock:"
+- "enableSettingsForMemberDSID:screentimeModelCache:options:replyBlock:"
+- "encodeBool:forKey:"
+- "encodeInteger:forKey:"
+- "encodeObject:forKey:"
+- "encodeWithCoder:"
+- "encodedData"
+- "encoder"
+- "endowmentNamespaces"
+- "endpoints"
+- "entitiesForTag:options:error:"
+- "entryPoint"
+- "enumerateKeysAndObjectsUsingBlock:"
+- "enumerateObjectsUsingBlock:"
+- "environment"
+- "ephemeralAuthResults"
+- "ephemeralAuthSigner"
+- "errorMessage"
+- "errorTitle"
+- "errorWithDomain:code:userInfo:"
+- "expectedAltDSIDs"
+- "expectedDSIDs"
+- "expectedMediaAltDSID"
+- "expectedPreset"
+- "expiration"
+- "fa_URLByAddingAirdropInviteParams"
+- "fa_URLByAddingQueryParams:"
+- "fa_accountWithEphemeralAuthResults:"
+- "fa_checklistDateFormatter"
+- "fa_dictionaryFromPlistData"
+- "fa_familyErrorWithCode:"
+- "fa_familyErrorWithCode:exception:"
+- "fa_familyErrorWithCode:underlyingError:"
+- "fa_familyErrorWithCode:userInfo:"
+- "fa_firstObjectMatching:"
+- "fa_map:"
+- "fa_photoRequestBaseURLString"
+- "fa_queryItemsDictionary"
+- "fa_standardFormatter"
+- "fa_valueForQueryItem:"
+- "factory"
+- "failed to update membership for share: %s, error: %@"
+- "fam_addiTunesHeadersWithAccount:"
+- "familyChecklistRankingConfigWithCachePolicy:replyBlock:"
+- "familyCircleFetchBlock"
+- "familyCircleIfFresh"
+- "familyCircleRequest"
+- "familyCircleValidatingAgeWithDate:"
+- "familyDaemonDefaultsSuite"
+- "familyHandles"
+- "familyHasU13Member"
+- "familyID"
+- "familyMemberAltDSID"
+- "familyMemberDSID"
+- "familyMembersFooterLabel"
+- "familyName"
+- "familyProvider"
+- "familyRecommendationSuggestionsWithPredictionContext:"
+- "familyRefreshTriggered"
+- "familySetupPrompterDidFinish:"
+- "familyUserDefaultsSuite"
+- "feedbackContext"
+- "feedbackEventId"
+- "fetchAAURLConfigurationWithCompletion:"
+- "fetchAgeRangesWith:completion:"
+- "fetchAgeWithCompletionHandler:"
+- "fetchAltDSIDWithCompletionHandler:"
+- "fetchCachedFamilyCircle exception %@"
+- "fetchCachedFamilyCircle:"
+- "fetchCachedFamilyCircleWithCache:deviceInfo:error:"
+- "fetchCachedPresets"
+- "fetchCachedPresetsWithCompletion:"
+- "fetchDSIDWithCompletionHandler:"
+- "fetchEligibilityForPropertyName:bundleID:completion:"
+- "fetchEligibilityWithError:"
+- "fetchFamilyCircleWithCachePolicy:signedInAccountShouldBeApprover:context:options:replyBlock:"
+- "fetchFamilyCircleWithCompletionHandler:"
+- "fetchFamilyCircleWithError:"
+- "fetchFamilyMemberPhotoWithDSID:hashedDSID:size:localFallback:options:replyBlock:"
+- "fetchFamilyMemberSuggestions:"
+- "fetchFamilyMemberSuggestions:useSuggester:"
+- "fetchFamilyPhotoWithRequestedSize:fallbackToLocalAddressBook:completionHandler:"
+- "fetchFollowupsWithAltDSID:options:replyBlock:"
+- "fetchParentalControlBitsForAltDSID:replyBlock:"
+- "fetchParticipantsMatchingLookupInfos:intoPersistentStore:completion:"
+- "fetchPresets"
+- "fetchPresetsWithAdditionalHeaders:completion:"
+- "fetchPresetsWithCompletion:"
+- "fetchPrivacyVersionForAltDSID:completion:"
+- "fetchSettingsPresetsForAge:fromCache:storeFront:version:options:additionalHeaders:replyBlock:"
+- "fetchSettingsPresetsForAge:fromCache:storeFront:version:options:replyBlock:"
+- "fetchSettingsPresetsForMemberWithAltDSID:fromCache:storeFront:version:options:additionalHeaders:replyBlock:"
+- "fetchSettingsPresetsForMemberWithAltDSID:fromCache:storeFront:version:options:replyBlock:"
+- "fetchSharesInPersistentStore:error:"
+- "fetchSuggestedInviteTransportForContactId:contactHandles:"
+- "fetchWithCompletionHandler:"
+- "fileExistsAtPath:"
+- "filteredArrayUsingPredicate:"
+- "finishWith:"
+- "firstName"
+- "firstNames"
+- "firstObject"
+- "flowType"
+- "followUpNotificationAfter"
+- "footerText"
+- "forceFamilyFetchWithCompletionHandler:"
+- "forceRefreshScreenTimeForDSID:completionHandler:"
+- "forceServerFetch"
+- "formattedStringValue"
+- "fullName"
+- "fullyQualifiedDigits"
+- "getAgeVerificationInfoForDSID:completion:"
+- "getCacheDurationforMemberPhoto404Response:"
+- "getFamilyCircle"
+- "getFamilyMemberPhotoURL"
+- "getFamilyRecommendationsWithContext:error:"
+- "getLast404ResponseFor:"
+- "getNearbyPeople"
+- "getRecordSharingMetadata(with:recordZone:)"
+- "getServerUILoadDelegateWithContext:completion:"
+- "givenName"
+- "globalStateForAltDSID:completion:"
+- "grabFromServer"
+- "handle"
+- "handleDidRepairFamilyWithCompletion:"
+- "handleDidSetupFamilyWithCompletion:"
+- "handleForIdentifier:error:"
+- "handleURLResponse:"
+- "hasAskToBuyEnabled"
+- "hasHSA2"
+- "hasLinkediTunesAccount"
+- "hasParentalControlsEnabled"
+- "hasRecommendedMembers"
+- "hasSiwaEnabled"
+- "hash"
+- "hashedDSID"
+- "headerText"
+- "hostAppName"
+- "hours"
+- "i"
+- "i16@0:8"
+- "iMessageHandle"
+- "iTunes"
+- "iTunesAccount"
+- "iTunesAccountDSID"
+- "iTunesAccountUsername"
+- "iTunesMetadata"
+- "iTunesNotLinkedMessage"
+- "iconURL"
+- "iconURLString"
+- "iconURLStringx2"
+- "iconURLStringx3"
+- "idInfoForDestinations:service:infoTypes:options:listenerID:queue:completionBlock:"
+- "idValue"
+- "identifierWithPid:"
+- "identity"
+- "idsCache"
+- "imageForSize:scale:"
+- "imageURL"
+- "inFlightRequests"
+- "init"
+- "initForOneTapInvite"
+- "initForReadingFromData:error:"
+- "initRequiringSecureCoding:"
+- "initWith:familyID:"
+- "initWithAccount:"
+- "initWithAccountStore:"
+- "initWithAccountStore:grandSlamAccount:appTokenID:"
+- "initWithAccountType:"
+- "initWithAgeRangeResponse:shouldPrompt:flowType:title:message:primaryButtonText:secondaryButtonText:"
+- "initWithAltDSID:"
+- "initWithAltDSID:bundleID:lowerbound:upperbound:"
+- "initWithAltDSID:bundleID:lowerbound:upperbound:createdAt:"
+- "initWithAltDSID:bundleID:lowerbound:upperbound:response:responseType:createdAt:invalidatedAt:validationLevel:"
+- "initWithAppleAccount:grandSlamAccount:accountStore:"
+- "initWithArray:"
+- "initWithAvailablePresets:expectedPreset:currentPreset:"
+- "initWithBlock:"
+- "initWithBool:"
+- "initWithCapacity:"
+- "initWithChildAge:"
+- "initWithChildAge:storeFront:version:"
+- "initWithClientIdentifier:"
+- "initWithCoder:"
+- "initWithConditions:"
+- "initWithConfig:error:"
+- "initWithConnectionFactory:"
+- "initWithConnectionProvider:"
+- "initWithContext:"
+- "initWithDSID:"
+- "initWithDaemonXPCEndpoint:"
+- "initWithDictionary:"
+- "initWithDictionaryRepresentation:"
+- "initWithDisplayName:handle:iMessageHandle:contact:"
+- "initWithDomain:code:userInfo:"
+- "initWithDouble:"
+- "initWithEmailAddress:"
+- "initWithEmails:phoneNumbers:names:contactIdentifiers:"
+- "initWithEnabled:strictPolicy:"
+- "initWithEnabled:strictPolicy:limitType:"
+- "initWithEntity:insertIntoManagedObjectContext:"
+- "initWithEntityName:"
+- "initWithEnvironmentName:queue:"
+- "initWithEphemeralAuthResults:"
+- "initWithError:"
+- "initWithFLFollowupController:"
+- "initWithFamilyCircle:serverTag:cacheDate:maxAge:"
+- "initWithFamilyCircleFetchBlock:cacheLoadBlock:"
+- "initWithFamilyMember:"
+- "initWithFamilyMember:storeFront:version:"
+- "initWithFamilyMemberAltDSID:"
+- "initWithFamilyMemberAltDSID:storeFront:version:"
+- "initWithFamilyMemberDSID:"
+- "initWithFamilyMemberDSID:connectionProvider:"
+- "initWithFamilyMemberDSID:ephemeralAuthResults:flag:enabled:"
+- "initWithFamilyMemberDSID:flag:enabled:"
+- "initWithFamilyMemberDSID:flags:"
+- "initWithFamilyMemberDSID:screentimeModelCache:"
+- "initWithFamilyMemberDSID:screentimeObject:"
+- "initWithFamilyMemberDSID:size:localFallback:"
+- "initWithFamilyMemberDSID:size:localFallback:connectionProvider:"
+- "initWithFamilyMemberHashedDSID:size:localFallback:"
+- "initWithFamilyMemberHashedDSID:size:localFallback:connectionProvider:"
+- "initWithFollowUpFactory:provider:"
+- "initWithHTTPResponse:body:"
+- "initWithHTTPResponse:body:familyRefreshTriggered:"
+- "initWithHTTPResponse:data:"
+- "initWithHTTPResponse:data:bodyIsPlist:"
+- "initWithHTTPResponse:data:mediaType:"
+- "initWithHeartbeatActivityHandler:"
+- "initWithIdentifier:"
+- "initWithIdentifier:configuration:"
+- "initWithIdentifier:description:"
+- "initWithIdentifier:minAge:maxAge:sources:"
+- "initWithInteger:"
+- "initWithIntroductionModel:date:dsid:"
+- "initWithInviteCode:inviteStatus:responseFormat:additionalRequestParameters:"
+- "initWithKey:ascending:"
+- "initWithListenerEndpoint:"
+- "initWithLoadSuccess:error:userInfo:"
+- "initWithLowerbound:upperbound:validationLevel:response:parentalControlsInformation:isSharingNewInformation:verificationMethod:"
+- "initWithMachServiceName:options:"
+- "initWithMegadomeFeedbackEventID:"
+- "initWithMegadomeRecommendation:"
+- "initWithMemberAltDSID:accountStore:"
+- "initWithMemberAltDSID:ephemeralAuthResults:"
+- "initWithMemberAltDSID:ephemeralAuthSigner:"
+- "initWithMemberDSID:accountStore:"
+- "initWithName:value:"
+- "initWithPassword:"
+- "initWithPayload:"
+- "initWithPeopleSuggesterRecommendation:"
+- "initWithPredictionContext:suggestions:"
+- "initWithPropertyName:bundleID:"
+- "initWithPropertyName:dictionaryRepresentation:"
+- "initWithPropertyName:hasRecommendedMembers:expectedMediaAltDSID:serverEligibility:activeBundleIDs:serverPayload:"
+- "initWithPropertyRequirements:"
+- "initWithPushToken:"
+- "initWithQueue:"
+- "initWithRawValue:"
+- "initWithRecommendationLoader:"
+- "initWithRecordZoneID:"
+- "initWithRequestType:entryPoint:altDSID:bundleID:ageGates:userAgeOverride:attestedAtOverrideInDays:"
+- "initWithResults:"
+- "initWithServerKey:"
+- "initWithServerResponse:"
+- "initWithSourceProperty:operand:result:"
+- "initWithString:"
+- "initWithStringValue:"
+- "initWithSuccess:errorTitle:errorMessage:learnMoreURL:statusMessage:statusCode:"
+- "initWithSuggesters:"
+- "initWithSuiteName:"
+- "initWithTagThresholds:"
+- "initWithTimeIntervalSince1970:"
+- "initWithURL:resolvingAgainstBaseURL:"
+- "initWithURLString:"
+- "initWithUrlProvider:urlSession:"
+- "initWithValue:"
+- "initWithValues:"
+- "initWithValues:computedProperties:"
+- "initWithValues:computedProperties:communicationLimits:communicationSafety:appAndWebActivity:screenDistance:strictPolicy:"
+- "initWithVisualIdentifierViewPerson:"
+- "initWithiTunesAccount:"
+- "insertObject:atIndex:"
+- "intValue"
+- "integerForKey:"
+- "integerValue"
+- "interactionAdvisor"
+- "interactionAdvisorSettingsDefault"
+- "interfaceWithProtocol:"
+- "intersectSet:"
+- "interval"
+- "introductionModel"
+- "introductionModelClass"
+- "invalidate"
+- "invalidatedAt"
+- "invitationDate"
+- "invitationToken"
+- "inviteCode"
+- "inviteDate"
+- "inviteEmail"
+- "inviteId"
+- "inviteStatus"
+- "inviteType"
+- "inviteURL"
+- "invites"
+- "isAccountSignedIn"
+- "isBeta"
+- "isChildAccount"
+- "isChildTransferInvite"
+- "isCurrentUser"
+- "isDateRelative"
+- "isDefault"
+- "isEnabled"
+- "isEnabledWithForceRefresh:"
+- "isEqual:"
+- "isEqualAgeRange:"
+- "isEqualIgnoringIdentifiers:"
+- "isEqualToArray:"
+- "isEqualToDictionary:"
+- "isEqualToFAFamilyCircle:"
+- "isEqualToFamilyMember:"
+- "isEqualToNumber:"
+- "isEqualToSharedService:"
+- "isEqualToString:"
+- "isFamilyCircleFresh"
+- "isFamilySuspended"
+- "isFirstRun"
+- "isGuardian"
+- "isKindOfClass:"
+- "isLikePhoneNumber:"
+- "isMe"
+- "isMemberOfClass:"
+- "isOrganizer"
+- "isParent"
+- "isProfileValidated"
+- "isProxy"
+- "isScreenTimeSetupForDSID:"
+- "isSeparator"
+- "isSharingNewInformation"
+- "isSubsetOfSet:"
+- "isTesting"
+- "isValidBoolValue:"
+- "isValidTriState:"
+- "joinedDate"
+- "key"
+- "label"
+- "languageCode"
+- "lastName"
+- "launchICloudFamilySettingsWithOptions:"
+- "launchOutOfProcessFamilyWithOptions:completion:"
+- "launchOutOfProcessUIWithOptions:completion:"
+- "launchiCloudFamilySettings"
+- "launchiCloudFamilySettingsWithOptions:"
+- "learnMoreURL"
+- "length"
+- "listener"
+- "listenerEndpoint"
+- "load"
+- "loadForURL:storeFront:version:"
+- "loadWithError:"
+- "loadWithStoreFront:version:error:"
+- "localFallback"
+- "localizedName"
+- "localizedStringForKey:value:table:"
+- "localizedStringFromPersonNameComponents:style:options:"
+- "lock"
+- "logger"
+- "lookupInfo"
+- "lowerbound"
+- "lowercaseString"
+- "mainBundle"
+- "manateeContainer"
+- "maxFamilySuggestions"
+- "maxTimeout"
+- "me"
+- "megadomeAdoption"
+- "megadomeFeedbackEventId"
+- "megadomePeopleFromScoredEntities:inVisualIdentifierView:"
+- "megadomeResultsForFamilyTagWithError:"
+- "memberForAltDSID:"
+- "memberForDSID:"
+- "memberForPhoneNumber:"
+- "memberHashedDSID"
+- "memberIsPending"
+- "memberPhoneNumbers"
+- "memberType"
+- "memberTypeDisplayString"
+- "memberTypeString"
+- "members"
+- "message"
+- "messageBubbleAcceptInviteURL"
+- "messageBubbleDeclineInviteURL"
+- "messageBubbleInviteLoadingLabel"
+- "messageSender"
+- "messageServiceAvailabilty"
+- "messageSigninProvider"
+- "messageStatusProvider"
+- "middleName"
+- "milliseconds"
+- "minDurationBetweenInstances"
+- "minimizedLanguagesFromLanguages:"
+- "monogramForContact:diameter:scale:"
+- "monogramWithFirstName:lastName:diameter:scale:"
+- "moveItemAtPath:toPath:error:"
+- "mutableCopy"
+- "namePrefix"
+- "nameSuffix"
+- "names"
+- "newBackgroundContext"
+- "nickname"
+- "normalizedDSID"
+- "normalizedPhoneNumbersForPhoneNumbers:"
+- "now"
+- "numberWithBool:"
+- "numberWithDouble:"
+- "numberWithInt:"
+- "numberWithInteger:"
+- "numberWithUnsignedInt:"
+- "object"
+- "objectAtIndex:"
+- "objectAtIndexedSubscript:"
+- "objectForKey:"
+- "objectForKeyedSubscript:"
+- "objectWithData:"
+- "onComplete:"
+- "onComplete:onQueue:"
+- "operand"
+- "operationFinishedWithResponse:"
+- "organizerDSID"
+- "organizerEmail"
+- "organizerFirstName"
+- "organizerLastName"
+- "overlaidTextColorString"
+- "parentAllowlistedChildBots"
+- "parentalControlsInformation"
+- "participant %s does not have email address"
+- "participantID"
+- "participants"
+- "passwordOrToken"
+- "path"
+- "payload"
+- "pendingInvitesOnly"
+- "pendingMembers"
+- "pendingMembersWithAllStatues"
+- "peopleNotAlreadyInFamilyInPersonArray:"
+- "peopleSuggesterPredictionContext"
+- "peopleSuggesterSuggestions"
+- "peopleViewWithError:"
+- "performBlockForKey:force:block:"
+- "performRequestWithSession:withHandler:"
+- "performSelector:"
+- "performSelector:withObject:"
+- "performSelector:withObject:withObject:"
+- "permission"
+- "persistUpdatedShare:inPersistentStore:completion:"
+- "persistence"
+- "persistentStoreDescriptions"
+- "personForIdentifier:"
+- "phoneNumberWithStringValue:"
+- "phoneNumbers"
+- "placeholderImageProvider"
+- "postAgeRangeNotification:lowerAgeBound:upperAgeBound:completion:"
+- "postAgeRangeNotificationWith:lowerAgeBound:upperAgeBound:completion:"
+- "postFollowUpItem:error:"
+- "postInstall"
+- "postNotificationName:object:userInfo:"
+- "powerNap"
+- "predicateForContactsMatchingEmailAddress:"
+- "predicateForContactsMatchingPhoneNumber:"
+- "predicateForContactsWithIdentifiers:"
+- "predicateWithBlock:"
+- "preferredLanguages"
+- "presentingViewController"
+- "presetValueForKey:"
+- "presetValueForKey:userValueProvider:"
+- "primaryAuthKitAccount"
+- "primaryButtonText"
+- "priority"
+- "privacySafeInvitees"
+- "privacySafeInvitees:"
+- "privateStore"
+- "proactiveModel"
+- "processIdentifier"
+- "processInfo"
+- "processName"
+- "processingQueue"
+- "promptIfEligibleWithPresentingViewController:isFirstRun:"
+- "propertiesForDataclass:"
+- "propertyListWithData:options:format:error:"
+- "publicToken"
+- "purchaseSharingEnabled"
+- "pushToken"
+- "pushTokenWithCompletion:"
+- "q16@0:8"
+- "q20@0:8B16"
+- "q32@0:8@\"NSString\"16@\"NSArray\"24"
+- "q32@0:8@16@24"
+- "qualityOfService"
+- "queryItems"
+- "queue"
+- "reason"
+- "recipients"
+- "recommendationLoader"
+- "recommendedFamilyMembersForMegadomeResults:"
+- "recommendedSuggester:"
+- "recordID"
+- "recordZone"
+- "redactedCopyWithFullyMaskingKeys:withPartialMaskingKeys:"
+- "refreshIDInfo"
+- "registerDeviceWithPDS"
+- "registerForTaskWithIdentifier:usingQueue:launchHandler:"
+- "registerPushToken:options:replyBlock:"
+- "registered activity: %s"
+- "registrationBlock"
+- "release"
+- "remoteChildren"
+- "remoteGuardian"
+- "remoteGuardianPerson"
+- "remoteGuardians"
+- "remoteObjectProxyWithErrorHandler:"
+- "removeFamilyMemberWithDSID:options:replyBlock:"
+- "removeFamilyWithReplyBlock:"
+- "removeItemAtURL:error:"
+- "removeListenerID:forService:"
+- "removeObjectAtIndex:"
+- "removeObjectForKey:"
+- "removeParticipant:"
+- "removing %s from %s"
+- "removingNonSecureCodingValues"
+- "renewCredentialsForAccount:options:completion:"
+- "renewCredentialsWithCompletion:"
+- "requestAgeRangeWith:userAgeOverride:altDSID:bundleID:appName:attestedAtOverrideInDays:completion:"
+- "requestFactory"
+- "requestHeaderFieldsWithCookies:"
+- "requestOptions"
+- "requestType"
+- "requestedSize"
+- "requiredHeight"
+- "requiredWidth"
+- "requirementsForPropertyName:"
+- "requiresBuddyComplete"
+- "requiresExternalPower"
+- "requiresInexpensiveNetworkConnectivity"
+- "requiresNetworkConnectivity"
+- "reschedule"
+- "resendChildTransferRequest:replyBlock:"
+- "resourceIntensive"
+- "respondsToSelector:"
+- "response"
+- "responseClass"
+- "responseDictionary"
+- "responseFormat"
+- "responseType"
+- "result"
+- "resume"
+- "retain"
+- "retainCount"
+- "role"
+- "ruiURL"
+- "runHeartbeatWithOptions:replyBlock:"
+- "save404ResponseFor:"
+- "save:"
+- "saveAccount:withDataclassActions:doVerify:completion:"
+- "saveAgeRangeGlobalState:forAltDSID:cacheDuration:privacyVersion:completion:"
+- "saveAgeRangeWith:completion:"
+- "scheduleAfter"
+- "scheduleWakeupIfNeeded"
+- "scheduler"
+- "scopeWithPointSize:scale:rightToLeft:style:"
+- "scoredEntities"
+- "screenTimeState"
+- "screentimeModelCache"
+- "secondaryButtonText"
+- "seconds"
+- "securityLevelForAccount:"
+- "self"
+- "sendPendingInviteFollowUpNotificationsForTestingWithinHours:reply:"
+- "sendPendingNotificationsWithinHours:completion:"
+- "serverCacheTag"
+- "serverEligibility"
+- "serverReadableDictionary"
+- "serverResponse"
+- "serverTag"
+- "serviceConnection"
+- "serviceRemoteObjectWithErrorHandler:"
+- "services"
+- "set"
+- "setAccountProperty:forKey:"
+- "setAction:"
+- "setAgeRangeGlobalState:forAltDSID:privacyVersion:completion:"
+- "setAltDSID:"
+- "setAssociateInviteDate:"
+- "setAttachSetupHeader:"
+- "setAuthContext:"
+- "setBackgroundType:"
+- "setBadgeAfter:"
+- "setBoolValue:"
+- "setBundleID:"
+- "setBundleIconName:"
+- "setByAddingObjectsFromArray:"
+- "setCacheDate:"
+- "setCachePolicy:"
+- "setCanEditRecipients:"
+- "setCategoryIdentifier:"
+- "setChangeFlags:"
+- "setChildAge:"
+- "setChildFirstName:"
+- "setChildLastName:"
+- "setClasses:forSelector:argumentIndex:ofReply:"
+- "setCloudKitContainer:"
+- "setCoalesceQueue:"
+- "setCode:"
+- "setCollectionIdentifier:"
+- "setCommLimitsCollaborationSwitchForAltDSID:enableCollaboration:replyBlock:"
+- "setCommLimitsMailAppSwitchForAltDSID:enableMailApp:replyBlock:"
+- "setConnection:"
+- "setConnectionProvider:"
+- "setConstrainIdentifiers:"
+- "setConstrainMechanisms:"
+- "setConstrainPersonIds:"
+- "setContact:"
+- "setContactType:"
+- "setContext:"
+- "setCreatedAt:"
+- "setCredential:"
+- "setDate:"
+- "setDateFormat:"
+- "setDateStyle:"
+- "setDelegate:"
+- "setDictionary:"
+- "setDiscoveryFlags:"
+- "setDiscoveryMode:"
+- "setDispatchQueue:"
+- "setDisplayName:"
+- "setDisplayStyle:"
+- "setDoNotFetchFromServer:"
+- "setDoesRelativeDateFormatting:"
+- "setDoubleValue:"
+- "setEmailAddress:"
+- "setEnabled:"
+- "setEnabled:forDataclass:"
+- "setEphemeralAuthResults:"
+- "setEphemeralAuthSigner:"
+- "setErrorMessage:"
+- "setErrorTitle:"
+- "setEventType:"
+- "setExpectedAltDSIDs:"
+- "setExpectedDSIDs:"
+- "setExpirationDate:"
+- "setExtensionIdentifier:"
+- "setFactory:"
+- "setFamilyCircle:"
+- "setFamilyMemberAltDSID:"
+- "setFamilyMemberDSID:"
+- "setFamilyName:"
+- "setFamilyRefreshTriggered:"
+- "setFeedbackContext:"
+- "setFetchLimit:"
+- "setFollowUpNotificationAfter:"
+- "setFooterText:"
+- "setForceRefresh:"
+- "setForceServerFetch:"
+- "setFullname:"
+- "setGivenName:"
+- "setGlobalStateForAltDSID:forAltDSID:privacyVersion:completion:"
+- "setGroupID:"
+- "setGroupIdentifier:"
+- "setHTTPMethod:"
+- "setHandle:"
+- "setHeaderFieldKey:"
+- "setHeaderText:"
+- "setIMessageHandle:"
+- "setITunesAccount:"
+- "setIconURL:"
+- "setIdsCache:"
+- "setImageURL:"
+- "setInFlightRequests:"
+- "setInformativeText:"
+- "setIntValue:"
+- "setInterruptionHandler:"
+- "setInterval:"
+- "setIntroductionModel:"
+- "setInvalidatedAt:"
+- "setInvalidationHandler:"
+- "setInviteDate:"
+- "setInviteId:"
+- "setInviteStatus:"
+- "setInviteURL:"
+- "setInvitees:"
+- "setIsChildTransferInvite:"
+- "setIsFirstRun:"
+- "setIsNewFamily:"
+- "setIsResendInvite:"
+- "setKey:"
+- "setLearnMoreURL:"
+- "setLimitType:"
+- "setLocale:"
+- "setLocalizedDateFormatFromTemplate:"
+- "setLowerbound:"
+- "setMailLinkSubtitle:"
+- "setMailLinkTitle:"
+- "setMailMessageBodyHTML:"
+- "setMailMessageSubject:"
+- "setMaxAge:"
+- "setMemberDSID:"
+- "setMessageBubbleAcceptInviteURL:"
+- "setMessageBubbleAppleIDSettingsLinkLabel:"
+- "setMessageBubbleDeclineInviteURL:"
+- "setMessageBubbleFamilySettingsLinkLabel:"
+- "setMessageBubbleInviteAcceptButtonLabel:"
+- "setMessageBubbleInviteAcceptedIcon:"
+- "setMessageBubbleInviteAcceptedSubTitleReceiver:"
+- "setMessageBubbleInviteAcceptedSubTitleSender:"
+- "setMessageBubbleInviteAcceptedTitleReceiver:"
+- "setMessageBubbleInviteAcceptedTitleSender:"
+- "setMessageBubbleInviteDeclineAlertSheetMessage:"
+- "setMessageBubbleInviteDeclineAlertSheetTitle:"
+- "setMessageBubbleInviteDeclineButtonLabel:"
+- "setMessageBubbleInviteDeclinedIcon:"
+- "setMessageBubbleInviteDeclinedSubTitleReceiver:"
+- "setMessageBubbleInviteDeclinedSubTitleSender:"
+- "setMessageBubbleInviteDeclinedTitleReceiver:"
+- "setMessageBubbleInviteDeclinedTitleSender:"
+- "setMessageBubbleInviteExpiredIcon:"
+- "setMessageBubbleInviteExpiredSubTitleReceiver:"
+- "setMessageBubbleInviteExpiredSubTitleSender:"
+- "setMessageBubbleInviteExpiredTitleReceiver:"
+- "setMessageBubbleInviteExpiredTitleSender:"
+- "setMessageBubbleInviteLoadingLabel:"
+- "setMessageBubbleInvitePendingIcon:"
+- "setMessageBubbleInvitePendingSubTitle:"
+- "setMessageBubbleInvitePendingTitle:"
+- "setMessageBubbleLearnMoreLinkLabel:"
+- "setMessageBubbleSubTitle:"
+- "setMessageBubbleSubTitleTeen:"
+- "setMessageBubbleSubscriptionsList:"
+- "setMessageBubbleTitle:"
+- "setMessageBubbleViewInvitationButtonLabel:"
+- "setMiddleName:"
+- "setMinDurationBetweenInstances:"
+- "setMonogramDiameter:"
+- "setName:"
+- "setNamePrefix:"
+- "setNameSuffix:"
+- "setNickname:"
+- "setObject:forKey:"
+- "setObject:forKeyedSubscript:"
+- "setOrganizerDSID:"
+- "setOrganizerEmail:"
+- "setOrganizerFirstName:"
+- "setOrganizerLastName:"
+- "setOverlaidTextColorString:"
+- "setPasswordOrToken:"
+- "setPermission:"
+- "setPersonChangedHandler:"
+- "setPersonFoundHandler:"
+- "setPersonLostHandler:"
+- "setPhoneNumber:"
+- "setPostInstall:"
+- "setPowerNap:"
+- "setPredicate:"
+- "setPresentingViewController:"
+- "setPriority:"
+- "setPromptUserToResolveAuthenticatonFailure:"
+- "setQualityOfService:"
+- "setQueryItems:"
+- "setRecipients:"
+- "setRecommendationLoader:"
+- "setRecordZone:"
+- "setRemoteGuardianPerson:"
+- "setRemoteObjectInterface:"
+- "setReportInviteeDetailsUrl:"
+- "setRepresentingBundlePath:"
+- "setRequiredHeight:"
+- "setRequiredWidth:"
+- "setRequiresBuddyComplete:"
+- "setRequiresExternalPower:"
+- "setRequiresInexpensiveNetworkConnectivity:"
+- "setRequiresNetworkConnectivity:"
+- "setResourceIntensive:"
+- "setResponse:"
+- "setResponseType:"
+- "setRestrictionsForAccountWithAdditionalHeaders:completion:"
+- "setRestrictionsForProtoAccountWithCompletion:"
+- "setRestrictionsWithAdditionalHeaders:completion:"
+- "setRestrictionsWithCompletion:"
+- "setResultLimit:"
+- "setRole:"
+- "setScanRate:"
+- "setScheduleAfter:"
+- "setSecondaryTitle:"
+- "setSeedContactIdentifiers:"
+- "setServerCacheTag:"
+- "setServerTag:"
+- "setServices:"
+- "setSharesheetExcludedAppsAndActions:"
+- "setSharesheetType:"
+- "setShouldSendSigningHeaders:"
+- "setShouldWakeDevice:"
+- "setShowCopyLinkAction:"
+- "setShowCreateChildAccountAction:"
+- "setShowInviteInPersonAction:"
+- "setSignedInAccountShouldBeApprover:"
+- "setSigner:"
+- "setStatus:"
+- "setStatusCode:"
+- "setStatusMessage:"
+- "setStoreFront:"
+- "setStrictPolicy:"
+- "setSubtitle:"
+- "setSuccess:"
+- "setSuggesters:"
+- "setTargetAudience:"
+- "setTargetBundleIdentifier:"
+- "setTaskCompleted"
+- "setTimeStyle:"
+- "setTitle:"
+- "setToken:"
+- "setTransportType:"
+- "setTrySchedulingBefore:"
+- "setUniqueIdentifier:"
+- "setUpdatedAt:"
+- "setUpperbound:"
+- "setUseMonogramAsLastResort:"
+- "setUsername:"
+- "setUsernameOrDSID:"
+- "setValidation:"
+- "setValue:"
+- "setValue:forHTTPHeaderField:"
+- "setValue:forKey:"
+- "setVerificationMethod:"
+- "setVersion:"
+- "setWithArray:"
+- "setWithObject:"
+- "setWithObjects:"
+- "setiTunesAccount:"
+- "share"
+- "shareID"
+- "shareManagedObjects:toShare:completion:"
+- "sharedHandler"
+- "sharedInstance"
+- "sharedPaymentEnabled"
+- "sharedScheduler"
+- "sharedServer"
+- "sharedStore"
+- "shortName"
+- "shouldAllowRequestFor:cacheDuration:"
+- "shouldBadgeInvitee"
+- "shouldBadgeOrganizer"
+- "shouldPrompt"
+- "shouldPromptAgeRangeWith:bundleID:appName:privacyVersion:userAgeOverride:attestedAtOverrideInDays:completion:"
+- "shouldShowInvites"
+- "shouldWakeDevice"
+- "showAddMemberButton"
+- "showLocationSplashScreen"
+- "showRUIPages"
+- "signInUsername:onService:waitUntilRegistered:withCompletion:"
+- "signRequest:withCompletionHandler:"
+- "signURLRequest:"
+- "signedInAccountShouldBeApprover"
+- "signer"
+- "signposter"
+- "silhouetteMonogramWithDiameter:scale:"
+- "softlink:r:path:/System/Library/PrivateFrameworks/AppleAccountUI.framework/AppleAccountUI"
+- "sortUsingDescriptors:"
+- "sortedArray:"
+- "sortedArrayUsingComparator:"
+- "sourceProperty"
+- "sourceWithIdentifier:"
+- "standardUserDefaults"
+- "startMonitoringProximity"
+- "startRequestWithCompletion:"
+- "startRequestWithCompletionHandler:"
+- "status"
+- "statusCode"
+- "statusMessage"
+- "statusString"
+- "stopMonitoringProximity"
+- "storeFront"
+- "storeItemIdentifier"
+- "stringByDeletingLastPathComponent"
+- "stringByTrimmingCharactersInSet:"
+- "stringForKey:"
+- "stringFromContact:style:"
+- "stringFromDate:"
+- "stringFromPersonNameComponents:"
+- "stringValue"
+- "stringWithFormat:"
+- "submitTaskRequest:error:"
+- "subtitle"
+- "suggesterWithDaemon"
+- "suggesters"
+- "superclass"
+- "supportsSecureCoding"
+- "swiftVariant"
+- "synchronizeFollowUpsWithServerPayload:altDSID:error:"
+- "synchronizeFollowupWithPayload:altDSID:"
+- "synchronousRemoteObjectProxyWithErrorHandler:"
+- "synchronousRemoteObjectWithErrorHandler:"
+- "systemBackgroundTasks"
+- "taggingOptions"
+- "targetAudience"
+- "taskBlock"
+- "taskID=%s"
+- "taskProvider"
+- "taskRequestForIdentifier:"
+- "taskState"
+- "tearDownFollowupItemWithIdentifier:completion:"
+- "teardownFollowUpWithContext:completion:"
+- "teardownPendingFollowup"
+- "temporaryDirectory"
+- "then"
+- "thenOnQueue"
+- "timeIntervalSinceNow"
+- "timestamp"
+- "token"
+- "transportType"
+- "transportTypeFrom:"
+- "trySchedulingBefore"
+- "underlyingScheduler"
+- "unifiedContactsMatchingPredicate:keysToFetch:error:"
+- "unlock"
+- "unlockedSinceBoot"
+- "unregister"
+- "updateAgeRangeWith:completion:"
+- "updateFamilyInviteStatusWith:inviteCode:options:responseFormat:additionalRequestParameters:replyBlock:"
+- "updateFamilyMemberFlagWithDSID:ephemeralAuthResults:flag:enabled:replyBlock:"
+- "updateFamilyMemberFlagsWithDSID:flags:replyBlock:"
+- "updateRecordSharingMetadata(with:recordZone:targetAudience:)"
+- "updateRegulatoryRestrictionsAppliedToSystemWithCompletion:"
+- "updateScreenTimeServerFlagSettingsForDSID:ephemeralAuthResults:enabled:completionHandler:"
+- "updateTaskRequest:error:"
+- "updateWithAuthResults:"
+- "updateWithEphemeralAuthResults:"
+- "updateWithFamilyCircle:serverTag:"
+- "updateWithPresets:requestURL:storeFront:version:"
+- "updatedAt"
+- "upperbound"
+- "urlConfiguration"
+- "urlDestinationTo:error:"
+- "urlDestinationTo:params:error:"
+- "urlForEndpoint:"
+- "urlProvider"
+- "urlRequest"
+- "urlSession"
+- "urlString"
+- "userAgeOverride"
+- "userAgentForProcessInfo:"
+- "userIdentity"
+- "username"
+- "usernameOrDSID"
+- "v16@0:8"
+- "v16@?0@\"<OS_xpc_object>\"8"
+- "v16@?0@\"BGSystemTask\"8"
+- "v20@0:8B16"
+- "v24@0:8@\"FACircleStateResponse\"16"
+- "v24@0:8@\"FAFamilySetupPrompter\"16"
+- "v24@0:8@\"NSCoder\"16"
+- "v24@0:8@\"NSDictionary\"16"
+- "v24@0:8@\"NSMutableURLRequest\"16"
+- "v24@0:8@16"
+- "v24@0:8@?16"
+- "v24@0:8@?<v@?>16"
+- "v24@0:8@?<v@?@\"FAChildAccountCutOffAgeResponse\"@\"NSError\">16"
+- "v24@0:8@?<v@?@\"FAFamilyCircle\"@\"NSError\">16"
+- "v24@0:8@?<v@?@\"NSDictionary\"@\"NSError\">16"
+- "v24@0:8@?<v@?@\"NSError\">16"
+- "v24@0:8@?<v@?@\"NSNumber\"@\"NSError\">16"
+- "v24@0:8@?<v@?@\"NSString\"@\"NSError\">16"
+- "v24@0:8@?<v@?B@\"NSError\">16"
+- "v24@0:8Q16"
+- "v24@0:8d16"
+- "v24@0:8q16"
+- "v24@?0@\"ACAccount\"8@\"NSError\"16"
+- "v24@?0@\"CKShare\"8@\"NSError\"16"
+- "v24@?0@\"FAFamilyCircleCacheResponse\"8@\"NSError\"16"
+- "v24@?0@\"NSURL\"8@\"NSError\"16"
+- "v32@0:8@\"ACAccount\"16@?<v@?B>24"
+- "v32@0:8@\"FAAgeRange\"16@?<v@?@\"NSError\">24"
+- "v32@0:8@\"NSArray\"16@?<v@?@\"NSDictionary\"@\"NSError\">24"
+- "v32@0:8@\"NSDictionary\"16@?<v@?@\"FACircleStateResponse\">24"
+- "v32@0:8@\"NSDictionary\"16@?<v@?@\"NSDictionary\"@\"NSError\">24"
+- "v32@0:8@\"NSDictionary\"16@?<v@?B@\"NSError\">24"
+- "v32@0:8@\"NSNumber\"16@?<v@?@\"NSError\">24"
+- "v32@0:8@\"NSString\"16@?<v@?@\"NSArray\"@\"NSError\">24"
+- "v32@0:8@\"NSString\"16@?<v@?@\"NSDictionary\"@\"NSError\">24"
+- "v32@0:8@\"NSString\"16@?<v@?@\"NSError\">24"
+- "v32@0:8@\"NSString\"16@?<v@?@\"NSNumber\"@\"NSError\">24"
+- "v32@0:8@\"NSString\"16@?<v@?@\"NSURL\"@\"NSError\">24"
+- "v32@0:8@\"NSString\"16@?<v@?i@\"NSError\">24"
+- "v32@0:8@16@\"NSString\"24"
+- "v32@0:8@16@24"
+- "v32@0:8@16@?24"
+- "v32@0:8Q16@?24"
+- "v32@0:8Q16@?<v@?@\"NSData\"@\"NSError\">24"
+- "v32@?0@\"AARequest\"8@\"AAResponse\"16@\"NSError\"24"
+- "v36@0:8@\"NSString\"16B24@?<v@?@\"NSError\">28"
+- "v36@0:8@16B24@?28"
+- "v36@0:8Q16B24@?28"
+- "v40@0:8@\"NSData\"16@\"NSDictionary\"24@?<v@?@\"NSError\">32"
+- "v40@0:8@\"NSDictionary\"16@\"NSDictionary\"24@?<v@?@\"NSError\">32"
+- "v40@0:8@\"NSNumber\"16@\"FAScreentimeSettingsObjectCache\"24@?<v@?@\"NSNumber\"@\"NSError\">32"
+- "v40@0:8@\"NSNumber\"16@\"FAScreentimeSettingsObjectCache\"24@?<v@?B@\"NSError\">32"
+- "v40@0:8@\"NSNumber\"16@\"NSDictionary\"24@?<v@?@\"NSDictionary\"@\"NSNumber\"@\"NSError\">32"
+- "v40@0:8@\"NSNumber\"16@\"NSDictionary\"24@?<v@?@\"NSNumber\"@\"NSError\">32"
+- "v40@0:8@\"NSNumber\"16@\"NSDictionary\"24@?<v@?B@\"NSError\">32"
+- "v40@0:8@\"NSString\"16@\"NSDictionary\"24@?<v@?@\"NSDictionary\"@\"NSError\">32"
+- "v40@0:8@\"NSString\"16@\"NSString\"24@?<v@?Q@\"NSError\">32"
+- "v40@0:8@16@24@32"
+- "v40@0:8@16@24@?32"
+- "v40@?0@\"NSSet\"8@\"CKShare\"16@\"CKContainer\"24@\"NSError\"32"
+- "v44@0:8@\"NSNumber\"16@\"NSDictionary\"24B32@?<v@?@\"NSError\">36"
+- "v44@0:8@16@24B32@?36"
+- "v44@0:8i16@\"NSString\"20@\"NSNumber\"28@?<v@?@\"NSError\">36"
+- "v44@0:8i16@20@28@?36"
+- "v48@0:8@\"FAScreentimeSettingsObjectCache\"16@\"NSNumber\"24@\"NSDictionary\"32@?<v@?B@\"NSError\">40"
+- "v48@0:8@\"NSNumber\"16@\"FAScreentimeSettingsObjectCache\"24@\"NSDictionary\"32@?<v@?@\"NSNumber\"@\"NSError\">40"
+- "v48@0:8@\"NSString\"16@\"NSNumber\"24@\"NSNumber\"32@?<v@?@\"NSError\">40"
+- "v48@0:8@\"NSString\"16@\"NSString\"24@\"NSDictionary\"32@?<v@?@@\"NSError\">40"
+- "v48@0:8@16@24@32@?40"
+- "v52@0:8@\"NSNumber\"16@\"NSDictionary\"24@\"NSString\"32B40@?<v@?@\"NSError\">44"
+- "v52@0:8@16@24@32B40@?44"
+- "v52@0:8Q16B24@\"NSString\"28@\"NSDictionary\"36@?<v@?@\"NSDictionary\"@\"FAFamilyCircle\"@\"NSError\">44"
+- "v52@0:8Q16B24@28@36@?44"
+- "v52@0:8i16@\"NSString\"20@\"NSNumber\"28@\"NSNumber\"36@?<v@?@\"NSError\">44"
+- "v52@0:8i16@20@28@36@?44"
+- "v60@0:8@\"NSNumber\"16@\"NSString\"24q32B40@\"NSDictionary\"44@?<v@?@\"NSData\"q@\"NSError\">52"
+- "v60@0:8@\"NSNumber\"16B24@\"NSString\"28@\"NSString\"36@\"NSDictionary\"44@?<v@?@\"FASettingsPresetsResponse\"@\"NSError\">52"
+- "v60@0:8@\"NSString\"16B24@\"NSString\"28@\"NSString\"36@\"NSDictionary\"44@?<v@?@\"FASettingsPresetsResponse\"@\"NSError\">52"
+- "v60@0:8@16@24q32B40@44@?52"
+- "v60@0:8@16B24@28@36@44@?52"
+- "v64@0:8q16@\"NSString\"24@\"NSDictionary\"32q40@\"NSDictionary\"48@?<v@?B@\"NSError\">56"
+- "v64@0:8q16@24@32q40@48@?56"
+- "v68@0:8@\"NSNumber\"16B24@\"NSString\"28@\"NSString\"36@\"NSDictionary\"44@\"NSDictionary\"52@?<v@?@\"FASettingsPresetsResponse\"@\"NSError\">60"
+- "v68@0:8@\"NSString\"16B24@\"NSString\"28@\"NSString\"36@\"NSDictionary\"44@\"NSDictionary\"52@?<v@?@\"FASettingsPresetsResponse\"@\"NSError\">60"
+- "v68@0:8@16B24@28@36@44@52@?60"
+- "v72@0:8@\"NSArray\"16@\"NSNumber\"24@\"NSString\"32@\"NSString\"40@\"NSString\"48@\"NSNumber\"56@?<v@?@\"FAAgeRangeResponse\"@\"NSError\">64"
+- "v72@0:8@\"NSArray\"16@\"NSString\"24@\"NSString\"32@\"NSNumber\"40@\"NSNumber\"48@\"NSNumber\"56@?<v@?@\"FAAgeRangeAlertModel\"@\"NSError\">64"
+- "v72@0:8@16@24@32@40@48@56@?64"
+- "validatedValuesFromValues:"
+- "validation"
+- "validationLevel"
+- "value"
+- "valueForEntitlement:"
+- "verificationMethod"
+- "version"
+- "visualIdentifierViewWithError:"
+- "whitespaceAndNewlineCharacterSet"
+- "whitespaceCharacterSet"
+- "writeToURL:options:error:"
+- "zone"
+- "zoneID"
+- "zoneName"
+- "{CGRect={CGPoint=dd}{CGSize=dd}}72@0:8{CGSize=dd}16{CGRect={CGPoint=dd}{CGSize=dd}}32d64"
+- "{os_unfair_lock_s=\"_os_unfair_lock_opaque\"I}"
+
+```

@@ -1,0 +1,1337 @@
+## AssistiveTouchUI
+
+> `/System/Library/PrivateFrameworks/AssistiveTouchUI.framework/AssistiveTouchUI`
+
+```diff
+
+-3191.35.0.0.0
+-  __TEXT.__text: 0xcf04 sha256:2268d66e2fd50fc9ad613823ee2eb4478c8dd92ee093080cf27c529cf52ebd83
+-  __TEXT.__auth_stubs: 0xd20 sha256:7f462c1dc0f055d3fe41d1f81f4c7e17a993bc32fe660d40d320007c1d412d1e
+-  __TEXT.__objc_methlist: 0x704 sha256:d48fbf104ff02ccfb8764ddab8795c1d08b42a53fcd69d00e7615b948048ccd5
+-  __TEXT.__const: 0xcf8 sha256:9e86553dfad41c0972eb757716573848cffa41c2453e4b392d670d70eed30936
+-  __TEXT.__gcc_except_tab: 0x48 sha256:246ce45afad4179d7908250a9f35ebeb7b9177a940de0e9aee27e5f6ef4355fc
+-  __TEXT.__cstring: 0x33c sha256:039fb0571dd351f24b943f322d42a444349d523e688dc36a2710a9e4f0ed3ea1
+-  __TEXT.__constg_swiftt: 0x4b4 sha256:4761320f87bc9b718c35a25ce324a7c3d59ac9c77f631828f366c9715c20f8f7
+-  __TEXT.__swift5_typeref: 0x10bb sha256:3a209944191a66dfe9251ab3c3a4e14e8abff58b4dc951bac44c4762c34806b8
+-  __TEXT.__swift5_builtin: 0x50 sha256:6cb75dd28a64dffd9159b6ffae3a98363d82dbc9add1abf6bfdc77a19aa8463b
+-  __TEXT.__swift5_reflstr: 0x37a sha256:f04ccd1d687f42aea2fed23a24238e45c0c82eedbad7556737ad329464c8eaaf
+-  __TEXT.__swift5_fieldmd: 0x35c sha256:ba805b64c2e28d87ddc2daaefc20df2d1ab50bd9e3ccba5a8a394a2fa2193023
+-  __TEXT.__swift5_assocty: 0xa8 sha256:ffbe6f29eb5bf1e1a10bbc6217a425e7c6fded7883a3807351d5f0556b318b5f
+-  __TEXT.__swift5_capture: 0x140 sha256:24275f1b0c3da0ef001ae1760d4cace97c21ddbdb409302397ea557943d6aa27
+-  __TEXT.__swift5_proto: 0x24 sha256:fc87d5c1b9bc90e69f2dec60d2c7d8538196c597117b0dc6445232d33e4cce1d
+-  __TEXT.__swift5_types: 0x3c sha256:f3aec88e6db0aa615f615547b04ed1581c73249890a603365f26909e04e39836
+-  __TEXT.__swift_as_entry: 0xc sha256:d5dc24157c67f163e931b4e80da91bfb1db83ad9b0abdd58b9987d767b933c99
+-  __TEXT.__swift_as_ret: 0xc sha256:2c98086bb191669107f41b94eee6b71d5fa85ce6add3cfc2a6936bac402800b9
+-  __TEXT.__unwind_info: 0x4b8 sha256:4d4f760edf40b6e38fed7fb0807545f4205971d90e6e0dbba38b89f296a1837b
+-  __TEXT.__eh_frame: 0x258 sha256:f599274758ba975244e20b6cb18dd1dad52841c32d1417c515c8c4a0d718058d
+-  __TEXT.__objc_classname: 0x330 sha256:4b68ba8151333ffe73497b8e65d94b00ae399c5407290b8c4d10b1f714b1842f
+-  __TEXT.__objc_methname: 0x1555 sha256:63572bbb6d4736c665abea92b9ff983e94cd3ad25eb98880ebb50fd4761d1805
+-  __TEXT.__objc_methtype: 0x6d4 sha256:8b5a5d5fd6df0a9c8a46a0ac79cf0581cd4ac25398c5c6e17dc78350aa33098a
+-  __TEXT.__objc_stubs: 0xec0 sha256:e7c4c3f20d95c26c89610f5c7bcb24e93513411ea7fddb66450d072e809be416
+-  __DATA_CONST.__got: 0x278 sha256:ce8f13ea2010bd86df0423bece8d185a6faf7a30651f632726232e63ff09441b
+-  __DATA_CONST.__const: 0x1d0 sha256:9da908db86cc29db20a82105d770588c7f411e8b38c5bdaa12f43e691faab78c
+-  __DATA_CONST.__objc_classlist: 0x68 sha256:497d058e786f0a5f64e1c5426ef9f3cae68e50bc4b66b4c87643bf5077f7db09
+-  __DATA_CONST.__objc_protolist: 0x58 sha256:6f7049faa640b81501fed5ef64f308448fe4f589415397c979e5626d4ab11aef
+-  __DATA_CONST.__objc_imageinfo: 0x8 sha256:8c2e86a3d61473a17440ee60441113a7d285704a3b70278f03e88b3c356a5493
+-  __DATA_CONST.__objc_selrefs: 0x580 sha256:897ce7a7d58c9a7719a52ad46f2fff06b5a749bcba4dcebb116ed9506587537a
+-  __DATA_CONST.__objc_protorefs: 0x28 sha256:81aad3fe867c2bd8e61e37fc054d440699789f059fb3ce15f0a0be2012d35e63
+-  __DATA_CONST.__objc_superrefs: 0x18 sha256:9cd91b4c08a315c808f9b52f0a8ac435b5a5bdb862c28b5d904343f5b5ea3476
+-  __DATA_CONST.__objc_arraydata: 0x80 sha256:628bd767b58fcd7fb961c3993814d745ac170d54c7cab2293829091d0f7c5ac9
+-  __AUTH_CONST.__auth_got: 0x6a0 sha256:bf75520ae2a2df40c3d8b29b71564bac7a99659315d2e1c83b750c96807a078d
+-  __AUTH_CONST.__const: 0x9a0 sha256:8c37c67baab40833878e35697fe6bd0de62bd5f9ec7a4b476652eb3e66ee4b9a
+-  __AUTH_CONST.__cfstring: 0x1a0 sha256:5ac2c3612b21f8c042540981454fa3b493526dac3eef65b3585a75fc214b1685
+-  __AUTH_CONST.__objc_const: 0xd50 sha256:1b57af9c6355a13efa3999e3f5889ec0a5ef43e76c4c4ef1b8e7762af68d13a5
+-  __AUTH_CONST.__objc_arrayobj: 0x30 sha256:f39f01c7795d0f16e0f814ec686eb1fbe46e8d9ee79c5b4661a5b256430c135b
+-  __AUTH_CONST.__objc_intobj: 0x18 sha256:3e8d3c2cb2dc8053abe0020ff7de2e2ae86fb9c8c2f82811f7eb14ce3baa3fc4
+-  __AUTH.__objc_data: 0x628 sha256:f5b63b40d99a4a522707a442ccad18803e0947abc1ed8966425659484e25e692
+-  __AUTH.__data: 0x3c0 sha256:4bc1446ee9d245b5c2337f3a9bafd7d62137e84281deef2895fbd93d3903c88b
+-  __DATA.__objc_ivar: 0x28 sha256:5597a9eb60acedd6376f4eaa95de97921a87322153d8c697b08d01ac29a7fda8
+-  __DATA.__data: 0x660 sha256:42b9ac4f3e26f043fa641ec2e6ee88760f9c079ebf15ae8b2240ca16cf44bea5
+-  __DATA.__bss: 0x570 sha256:834b357d7d39eea0e0c10d11b2219f6830900756c8044936f5374c9e9490f05a
++3229.1.6.0.0
++  __TEXT.__text: 0x6c328 sha256:8ee6e7323780e9952e0080dd34f627b7f59f3b14e0dacafd0f16ee9a8054f68b
++  __TEXT.__objc_methlist: 0x91c sha256:a06ac75b4ca2bad9de0029105e65d55e0f0f8b92fc929022794ca5892c05fccd
++  __TEXT.__const: 0x3950 sha256:4657b18c1bd828f10ece7bae43af1389a6ac85f8d85d91f05ab00e239564bd0d
++  __TEXT.__constg_swiftt: 0x1074 sha256:98a07e955d74fd9ce3f11e64db3362b9992d5659ffc5768a5178f99de8f7bac1
++  __TEXT.__swift5_typeref: 0x4d80 sha256:8ee3f36a96eaceaddbdc9e0de01e11df773e4d91acf6b2b66bc973ee502d6bde
++  __TEXT.__swift5_builtin: 0x64 sha256:68564d70d10814410e5c22f495c9fdbbf3842b538975067bc142b5c5dc16c062
++  __TEXT.__swift5_reflstr: 0xac5 sha256:86cc47cc66a2aa88fe73b678118fbdbb23319a537e68e377c720c08846005ff7
++  __TEXT.__swift5_fieldmd: 0xa7c sha256:ea068b8dbd43ab225692066653d2f2b363eca167d9e11ede29ad75931554095e
++  __TEXT.__swift5_assocty: 0x228 sha256:35021a5ad3ab70b03032682d4a5a2d167731164c33784b8c992d90ee29fd5886
++  __TEXT.__swift5_capture: 0x7a0 sha256:8299b50b81a04287905e70ef2c386b5585120887399c0f8c46c39c046765063f
++  __TEXT.__cstring: 0x755 sha256:83bd3c811da950ba944dd3e457b0c57a58c8ce870c5876ee30b7c15f8dd5fc2c
++  __TEXT.__swift5_proto: 0xc4 sha256:af3099722557eed71d7a5ffd854bb2d209a90a5b916e362657a31d793436183d
++  __TEXT.__swift5_types: 0xac sha256:cf4b0345d0ddda47459b382151b725af1c19e4303ffd68161469546793ff031b
++  __TEXT.__swift5_protos: 0x18 sha256:bc237ffc77a2c7759deac103e0a22e71f388777bc3112aa901629839f28f5f60
++  __TEXT.__swift_as_entry: 0x22c sha256:f2c7b61dff7ae6be5414bd454e333366338e96812e08e41a40d1c0fd8a7b99d8
++  __TEXT.__swift_as_ret: 0xd0 sha256:fb164c1b9c00c4f42731882fdf1f4ddb4fe731b569e59f0c6b46289232324558
++  __TEXT.__swift_as_cont: 0x220 sha256:d16e51f359d7160a3192fb7532246a36d0af690dff12130e81a535f640bdb694
++  __TEXT.__oslogstring: 0x22b sha256:b22e642ab8da040daf4ba84654b976c072d7ea5172940ea6bb7de295c6a2c211
++  __TEXT.__gcc_except_tab: 0xd0 sha256:e31452f0d287f68bd5ad0e6330d442600a0e5ef4b9ebffc5a3d8c544298ce480
++  __TEXT.__unwind_info: 0x1988 sha256:1bdf69212f5d90b35ae6084ad94ab7c1762525da9dc84c083fbb4b1b8129b088
++  __TEXT.__eh_frame: 0x33f0 sha256:46da3e130976ce2979cd7400d189a2c0b380a22cdf57f2bedc711217c46ad3e7
++  __TEXT.__objc_stubs: 0x0
++  __TEXT.__auth_stubs: 0x0
++  __TEXT.__objc_classname: 0x0
++  __TEXT.__objc_methname: 0x0
++  __TEXT.__objc_methtype: 0x0
++  __DATA_CONST.__const: 0x3b0 sha256:97d8ad3e90fdf11725bac3d31fd0d376eb35e75eec074563093756e55d500db0
++  __DATA_CONST.__objc_classlist: 0xa0 sha256:214d27a188bdc300dde266781b5732bce1c77588bf97aae9be273817edaabc0f
++  __DATA_CONST.__objc_protolist: 0x88 sha256:dce972bff4442505297a7d9cfd4e0b5f5e70b36f93bb3cf7541172d9fedb6bd6
++  __DATA_CONST.__objc_imageinfo: 0x8 sha256:ce857dcadc2529f941104469975d60698ea3610a86c121e7b4aee224cd0c59ea
++  __DATA_CONST.__objc_selrefs: 0x890 sha256:fa03a429b53d5915c95c1cbff74b56b7f44d431281efb6c597c79f06c77376d2
++  __DATA_CONST.__objc_protorefs: 0x40 sha256:d4e821d05c18bbab7504ed186d3cfc0b2b2a716150fc915690bcb70593d59674
++  __DATA_CONST.__objc_superrefs: 0x20 sha256:f8b6c584ddf82289f9026e1e9ac707fba4d3039647fd0808e66d152c3c892d21
++  __DATA_CONST.__objc_arraydata: 0x88 sha256:e416201ecaaff85c926da2cd2d6c6c0e8074230021c6bd22b094e4262c719cd7
++  __DATA_CONST.__got: 0xc88 sha256:f6e60b849337d26da81c13850af4362d3ed74b2391d1f442cc19077ec8a8653a
++  __AUTH_CONST.__const: 0x1c40 sha256:81439f4819eb338b5f0d826b0eccc24c3e76b4d0e84cdbc46bd09857fd87601a
++  __AUTH_CONST.__cfstring: 0x1c0 sha256:1a341ba9fd5d056a0fe423c3e04077c9b0fe82a39074094810427868220149b5
++  __AUTH_CONST.__objc_const: 0x1630 sha256:552e1b382c50f72315b2b4ae064beb98427a789a558b6e1d25345106388c2b78
++  __AUTH_CONST.__objc_intobj: 0x30 sha256:60ac12efb6f7878c4fc5417137426e9f54718927f439402eb893ed2cf0471de1
++  __AUTH_CONST.__objc_arrayobj: 0x48 sha256:92bb6d16095287b61ea493b7dc83831033e32ccc240b65551e1cbbc47357f6ab
++  __AUTH_CONST.__auth_got: 0x1660 sha256:9d5c75a5bc689ce375e06e8530236708ecb04300792ba9a385c1ca44e432b556
++  __AUTH.__objc_data: 0xc80 sha256:1bb3da7746a3ff17a677e8f56c05395202d967b8bea3a953f87355f823a0ab83
++  __AUTH.__data: 0xcd8 sha256:5b5939d88552c1f37cfd4be022322ff91a06535628eee3edeea5f1a02fb7f4dc
++  __DATA.__objc_ivar: 0x2c sha256:ed0b3b5ffe179a20c316a43b05b77f594e9da1e58e6e3af2dd78214ad75cb1c9
++  __DATA.__data: 0x16b0 sha256:b498f5faeaa99c552bd6e4a04be2bc089ae239fa5e751c4873b2330f08364b7f
++  __DATA.__bss: 0x1a10 sha256:0ceb2c36117a172cd14a5df6db76867e299efb7e79aa3c997e86df2700e32cc6
++  __DATA.__common: 0x30 sha256:17b0761f87b081d5cf10757ccc89f12be355c70e2e29df288b65b30710dcbcd1
+   - /System/Library/Frameworks/Accelerate.framework/Accelerate
++  - /System/Library/Frameworks/Accessibility.framework/Accessibility
+   - /System/Library/Frameworks/Combine.framework/Combine
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
++  - /System/Library/Frameworks/CoreHaptics.framework/CoreHaptics
+   - /System/Library/Frameworks/Foundation.framework/Foundation
++  - /System/Library/Frameworks/LocalAuthentication.framework/LocalAuthentication
+   - /System/Library/Frameworks/SwiftUI.framework/SwiftUI
+   - /System/Library/Frameworks/Symbols.framework/Symbols
+   - /System/Library/Frameworks/UIKit.framework/UIKit
+   - /System/Library/PrivateFrameworks/AXCoreUtilities.framework/AXCoreUtilities
++  - /System/Library/PrivateFrameworks/AccessibilityPhysicalInteraction.framework/AccessibilityPhysicalInteraction
++  - /System/Library/PrivateFrameworks/AccessibilitySharedSupport.framework/AccessibilitySharedSupport
++  - /System/Library/PrivateFrameworks/AccessibilitySharedUISupport.framework/AccessibilitySharedUISupport
+   - /System/Library/PrivateFrameworks/AccessibilityUIUtilities.framework/AccessibilityUIUtilities
+   - /System/Library/PrivateFrameworks/AccessibilityUtilities.framework/AccessibilityUtilities
++  - /System/Library/PrivateFrameworks/ManagedConfiguration.framework/ManagedConfiguration
++  - /System/Library/PrivateFrameworks/SpringBoardServices.framework/SpringBoardServices
++  - /usr/lib/libAccessibility.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/swift/libswiftAVFoundation.dylib
+   - /usr/lib/swift/libswiftAccelerate.dylib
++  - /usr/lib/swift/libswiftCompression.dylib
+   - /usr/lib/swift/libswiftCore.dylib
+   - /usr/lib/swift/libswiftCoreAudio.dylib
+   - /usr/lib/swift/libswiftCoreAudio_Private.dylib
+
+   - /usr/lib/swift/libswiftCoreImage.dylib
+   - /usr/lib/swift/libswiftCoreLocation.dylib
+   - /usr/lib/swift/libswiftCoreMIDI.dylib
+-  - /usr/lib/swift/libswiftCoreMedia.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
++  - /usr/lib/swift/libswiftIntents.dylib
+   - /usr/lib/swift/libswiftMLCompute.dylib
+   - /usr/lib/swift/libswiftMetal.dylib
+   - /usr/lib/swift/libswiftNaturalLanguage.dylib
+
+   - /usr/lib/swift/libswiftQuartzCore.dylib
+   - /usr/lib/swift/libswiftSpatial.dylib
+   - /usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
+-  - /usr/lib/swift/libswiftVideoToolbox.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 96355E82-9C85-3078-A60B-71FA760E7845
+-  Functions: 394
+-  Symbols:   756
+-  CStrings:  352
++  UUID: 1D4245B7-F1DF-303A-A429-24F9BABD11FC
++  Functions: 1842
++  Symbols:   1755
++  CStrings:  88
+ 
+Symbols:
++ -[ASTUIDragMenuGesturePerformer beginDragAtPoint:]
++ -[ASTUIDragMenuGesturePerformer beginGestureAtPoint:]
++ -[ASTUIDragMenuGesturePerformer canRepeatGesture]
++ -[ASTUIDragMenuGesturePerformer cancelGesture]
++ -[ASTUIDragMenuGesturePerformer dragStartPoint]
++ -[ASTUIDragMenuGesturePerformer endDragModeAtPoint:completed:]
++ -[ASTUIDragMenuGesturePerformer endGestureAtPoint:]
++ -[ASTUIDragMenuGesturePerformer handleInputGestureBegan:fromTouch:]
++ -[ASTUIDragMenuGesturePerformer handleInputGestureEnded:fromTouch:]
++ -[ASTUIDragMenuGesturePerformer handleInputGestureMoved:fromTouch:]
++ -[ASTUIDragMenuGesturePerformer handledMoveFingerToPoint:]
++ -[ASTUIDragMenuGesturePerformer prepareGestureAtPoint:]
++ -[ASTUIDragMenuGesturePerformer setDragStartPoint:]
++ GCC_except_table36
++ GCC_except_table52
++ GCC_except_table68
++ _ASTUIDisplayIDForScreen
++ _ASTUIIsReachabilityEnabled
++ _ASTUIPlayLongPressHaptic
++ _AXAssistiveAccessEnabled
++ _AXAssistiveTouchLocationsForLayout
++ _AXAssistiveTouchNamedLayout
++ _AXCornerRadiusForBackground
++ _AXDeviceCanArmApplePay
++ _AXDeviceHasHomeButton
++ _AXDeviceHasPearl
++ _AXDeviceHasStaccato
++ _AXDeviceHasTopTouchIDButton
++ _AXDeviceIsPod
++ _AXDeviceIsRingerSwitchAvailable
++ _AXDeviceIsSOSAvailable
++ _AXDeviceIsSiriAvailable
++ _AXDeviceIsSiriAvailableInClarity
++ _AXDeviceIsVoiceControlAvailable
++ _AXDeviceSupportsArrangementMultitasking
++ _AXDeviceSupportsReachability
++ _AXDeviceSupportsSideApp
++ _AXIsBuddyCompleted
++ _AXLogCommon
++ _AXLogSettings
++ _AXPIGesturePointNull
++ _AXPerformBlockOnMainThreadAfterDelay
++ _AXUIFirstActiveScreen
++ _AXUIScreenForDisplayID
++ _CFNotificationCenterAddObserver
++ _CFNotificationCenterGetDarwinNotifyCenter
++ _CFNotificationCenterRemoveEveryObserver
++ _CGRectContainsPoint
++ _CGRectGetMidX
++ _CGRectGetMidY
++ _CGRectGetMinX
++ _CGRectGetMinY
++ _MCFeatureAccessibilitySpeechAllowed
++ _OBJC_CLASS_$_ASTUIDragMenuGesturePerformer
++ _OBJC_CLASS_$_AXAssistiveTouchLayoutView
++ _OBJC_CLASS_$_AXBackBoardServer
++ _OBJC_CLASS_$_AXNamedReplayableGesture
++ _OBJC_CLASS_$_AXPICustomGesturePerformer
++ _OBJC_CLASS_$_AXPIDragGesturePerformer
++ _OBJC_CLASS_$_AXPIFingerModel
++ _OBJC_CLASS_$_AXPIGesturePerformer
++ _OBJC_CLASS_$_AXPIMultiFingerGesturePerformer
++ _OBJC_CLASS_$_AXPIPinchGesturePerformer
++ _OBJC_CLASS_$_AXPISystemActionHelper
++ _OBJC_CLASS_$_AXSBMenuBarManager
++ _OBJC_CLASS_$_AXSpringBoardServer
++ _OBJC_CLASS_$_CHHapticEngine
++ _OBJC_CLASS_$_LAStorage
++ _OBJC_CLASS_$_MCProfileConnection
++ _OBJC_CLASS_$_NSBundle
++ _OBJC_CLASS_$_NSUserDefaults
++ _OBJC_CLASS_$_OS_os_log
++ _OBJC_CLASS_$_UIImage
++ _OBJC_CLASS_$_UINotificationFeedbackGenerator
++ _OBJC_CLASS_$_UISceneSession
++ _OBJC_CLASS_$_UIWindowScene
++ _OBJC_CLASS_$__TtC16AssistiveTouchUI23AssistiveTouchMenuState
++ _OBJC_CLASS_$__TtC16AssistiveTouchUI33AssistiveTouchSecureIntentManager
++ _OBJC_CLASS_$__UINotificationFeedbackGeneratorConfiguration
++ _OBJC_IVAR_$_ASTUIDragMenuGesturePerformer._dragStartPoint
++ _OBJC_METACLASS_$_ASTUIDragMenuGesturePerformer
++ _OBJC_METACLASS_$_AXPIGesturePerformer
++ _OBJC_METACLASS_$__TtC16AssistiveTouchUI23AssistiveTouchMenuState
++ _OBJC_METACLASS_$__TtC16AssistiveTouchUI33AssistiveTouchSecureIntentManager
++ _SBSIsReachabilityEnabled
++ __AXSAccessibilitySecureIntentProvider
++ __AXSHomeButtonAssistant
++ __AXSSpeakThisEnabled
++ __DATA__TtC16AssistiveTouchUI23AssistiveTouchMenuState
++ __DATA__TtC16AssistiveTouchUI31AssistiveTouchMenuActionHandler
++ __DATA__TtC16AssistiveTouchUI32TouchHandlingBackgroundViewState
++ __DATA__TtC16AssistiveTouchUI33AssistiveTouchSecureIntentManager
++ __DATA__TtC16AssistiveTouchUIP33_0D6354354CB275BF4183609E4BA41CED19ResourceBundleClass
++ __DATA__TtC16AssistiveTouchUIP33_5FCD353F1D4F2F19AF3C3B2F2968C6C312WeakObserver
++ __INSTANCE_METHODS__TtC16AssistiveTouchUI33AssistiveTouchSecureIntentManager
++ __IVARS__TtC16AssistiveTouchUI23AssistiveTouchMenuState
++ __IVARS__TtC16AssistiveTouchUI31AssistiveTouchMenuActionHandler
++ __IVARS__TtC16AssistiveTouchUI32TouchHandlingBackgroundViewState
++ __IVARS__TtC16AssistiveTouchUI33AssistiveTouchSecureIntentManager
++ __IVARS__TtC16AssistiveTouchUIP33_5FCD353F1D4F2F19AF3C3B2F2968C6C312WeakObserver
++ __METACLASS_DATA__TtC16AssistiveTouchUI23AssistiveTouchMenuState
++ __METACLASS_DATA__TtC16AssistiveTouchUI31AssistiveTouchMenuActionHandler
++ __METACLASS_DATA__TtC16AssistiveTouchUI32TouchHandlingBackgroundViewState
++ __METACLASS_DATA__TtC16AssistiveTouchUI33AssistiveTouchSecureIntentManager
++ __METACLASS_DATA__TtC16AssistiveTouchUIP33_0D6354354CB275BF4183609E4BA41CED19ResourceBundleClass
++ __METACLASS_DATA__TtC16AssistiveTouchUIP33_5FCD353F1D4F2F19AF3C3B2F2968C6C312WeakObserver
++ __MergedGlobals
++ __OBJC_$_INSTANCE_METHODS_ASTUIDragMenuGesturePerformer
++ __OBJC_$_INSTANCE_METHODS__TtC16AssistiveTouchUI23AssistiveTouchMenuState(AssistiveTouchUI|AssistiveTouchUI1)
++ __OBJC_$_INSTANCE_VARIABLES_ASTUIDragMenuGesturePerformer
++ __OBJC_$_PROP_LIST_ASTUIDragMenuGesturePerformer
++ __OBJC_$_PROP_LIST_AXPIGesturePerformerDelegate
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_ASTUIDragMenuGesturePerformerDelegate
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_AXPICustomGesturePerformerDelegate
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_AXPIGesturePerformerDelegate
++ __OBJC_$_PROTOCOL_METHOD_TYPES_ASTUIDragMenuGesturePerformerDelegate
++ __OBJC_$_PROTOCOL_METHOD_TYPES_AXPICustomGesturePerformerDelegate
++ __OBJC_$_PROTOCOL_METHOD_TYPES_AXPIGesturePerformerDelegate
++ __OBJC_$_PROTOCOL_REFS_ASTUIDragMenuGesturePerformerDelegate
++ __OBJC_$_PROTOCOL_REFS_AXPICustomGesturePerformerDelegate
++ __OBJC_CLASS_PROTOCOLS_$__TtC16AssistiveTouchUI23AssistiveTouchMenuState(AssistiveTouchUI|AssistiveTouchUI1)
++ __OBJC_CLASS_RO_$_ASTUIDragMenuGesturePerformer
++ __OBJC_LABEL_PROTOCOL_$_ASTUIDragMenuGesturePerformerDelegate
++ __OBJC_LABEL_PROTOCOL_$_AXPICustomGesturePerformerDelegate
++ __OBJC_LABEL_PROTOCOL_$_AXPIGesturePerformerDelegate
++ __OBJC_METACLASS_RO_$_ASTUIDragMenuGesturePerformer
++ __OBJC_PROTOCOL_$_ASTUIDragMenuGesturePerformerDelegate
++ __OBJC_PROTOCOL_$_AXPICustomGesturePerformerDelegate
++ __OBJC_PROTOCOL_$_AXPIGesturePerformerDelegate
++ ___62-[ASTUIDragMenuGesturePerformer endDragModeAtPoint:completed:]_block_invoke
++ ___62-[ASTUIDragMenuGesturePerformer endDragModeAtPoint:completed:]_block_invoke_2
++ ___62-[ASTUIDragMenuGesturePerformer endDragModeAtPoint:completed:]_block_invoke_3
++ ___66-[ASTUILinearMatrixCalibrationStrategy learnCalibrationForPoints:]_block_invoke.148
++ ___66-[ASTUILinearMatrixCalibrationStrategy learnCalibrationForPoints:]_block_invoke.151
++ ___block_descriptor_40_e8_32bs_e8_v12?0B8ls32l8
++ ___block_descriptor_40_e8_32s_e33_v32?0"NSValue"8"NSValue"16^B24ls32l8
++ ___block_descriptor_56_e8_32s_e5_v8?0ls32l8
++ ___block_descriptor_57_e8_32s_e5_v8?0ls32l8
++ ___block_descriptor_64_e8_32r40r48r_e33_v32?0"NSValue"8"NSValue"16^B24lr32l8r40l8r48l8
++ ___isPlatformVersionAtLeast
++ ___swift__destructor
++ ___swift_allocate_value_buffer
++ ___swift_async_cont_functlets
++ ___swift_closure_destructor
++ ___swift_closure_destructor.10
++ ___swift_closure_destructor.11
++ ___swift_closure_destructor.12
++ ___swift_closure_destructor.13
++ ___swift_closure_destructor.138
++ ___swift_closure_destructor.14
++ ___swift_closure_destructor.16
++ ___swift_closure_destructor.167
++ ___swift_closure_destructor.16Tm
++ ___swift_closure_destructor.17
++ ___swift_closure_destructor.171
++ ___swift_closure_destructor.18
++ ___swift_closure_destructor.188
++ ___swift_closure_destructor.19
++ ___swift_closure_destructor.191
++ ___swift_closure_destructor.20
++ ___swift_closure_destructor.209
++ ___swift_closure_destructor.21
++ ___swift_closure_destructor.213
++ ___swift_closure_destructor.21Tm
++ ___swift_closure_destructor.220
++ ___swift_closure_destructor.224
++ ___swift_closure_destructor.234
++ ___swift_closure_destructor.238
++ ___swift_closure_destructor.243
++ ___swift_closure_destructor.248
++ ___swift_closure_destructor.25
++ ___swift_closure_destructor.28
++ ___swift_closure_destructor.29
++ ___swift_closure_destructor.3
++ ___swift_closure_destructor.30
++ ___swift_closure_destructor.32
++ ___swift_closure_destructor.34
++ ___swift_closure_destructor.35
++ ___swift_closure_destructor.37
++ ___swift_closure_destructor.38
++ ___swift_closure_destructor.4
++ ___swift_closure_destructor.40
++ ___swift_closure_destructor.41
++ ___swift_closure_destructor.43
++ ___swift_closure_destructor.44
++ ___swift_closure_destructor.46
++ ___swift_closure_destructor.49
++ ___swift_closure_destructor.52
++ ___swift_closure_destructor.55
++ ___swift_closure_destructor.56
++ ___swift_closure_destructor.58
++ ___swift_closure_destructor.58Tm
++ ___swift_closure_destructor.61
++ ___swift_closure_destructor.62
++ ___swift_closure_destructor.63
++ ___swift_closure_destructor.64
++ ___swift_closure_destructor.67
++ ___swift_closure_destructor.7
++ ___swift_closure_destructor.71
++ ___swift_closure_destructor.8
++ ___swift_closure_destructor.9
++ ___swift_closure_destructor.9Tm
++ ___swift_closure_destructorTm
++ ___swift_destroy_boxed_opaque_existential_0
++ ___swift_destroy_boxed_opaque_existential_0Tm
++ ___swift_destroy_boxed_opaque_existential_1
++ ___swift_memcpy0_1
++ ___swift_memcpy34_8
++ ___swift_memcpy40_8
++ ___swift_memcpy48_8
++ ___swift_memcpy88_8
++ ___swift_project_boxed_opaque_existential_1
++ ___swift_project_value_buffer
++ __astUIFeedbackGenerator
++ __availability_version_check
++ __initializeAvailabilityCheck
++ __os_log_impl
++ __os_signpost_emit_with_name_impl
++ __swiftEmptyDictionarySingleton
++ __swiftEmptySetSingleton
++ __swift_FORCE_LOAD_$_swiftCompression
++ __swift_FORCE_LOAD_$_swiftCompression_$_AssistiveTouchUI
++ __swift_FORCE_LOAD_$_swiftIntents
++ __swift_FORCE_LOAD_$_swiftIntents_$_AssistiveTouchUI
++ __swift_stdlib_malloc_size
++ _associated conformance 16AssistiveTouchUI013AccessibilityaB17MenuResolvedStateV0D13SharedSupport0D12SystemActionO0fG0AaF15OrientationLockVAG
++ _associated conformance 16AssistiveTouchUI013AccessibilityaB17MenuResolvedStateV0D13SharedSupport0D12SystemActionO0fG0AaF4MuteVAG
++ _associated conformance 16AssistiveTouchUI013AccessibilityaB17MenuResolvedStateV0D13SharedSupport0D12SystemActionO15OrientationLockV0fG0AaD0dfG0
++ _associated conformance 16AssistiveTouchUI013AccessibilityaB17MenuResolvedStateV0D13SharedSupport0D12SystemActionO4MuteV0fG0AaD0dfG0
++ _associated conformance 16AssistiveTouchUI013AccessibilityaB17MenuResolvedStateV0D13SharedSupport0daB6ActionO0eJ0O24ToggleNubbitPositionLockV0fG0AaD0dfG0
++ _associated conformance 16AssistiveTouchUI023AccessibilityMenuButtonaB0V05SwiftC04ViewAA4BodyAdEP_AdE
++ _associated conformance 16AssistiveTouchUI0B22HandlingBackgroundViewV05SwiftC00F0AA4BodyAdEP_AdE
++ _associated conformance 16AssistiveTouchUI0B27HandlingBackgroundViewStateC7Combine16ObservableObjectAA0J19WillChangePublisherAdEP_AD0M0
++ _associated conformance 16AssistiveTouchUI0aB10LayoutViewV05SwiftC00E0AA4BodyAdEP_AdE
++ _associated conformance 16AssistiveTouchUI0aB10MenuButtonV05SwiftC04ViewAA4BodyAdEP_AdE
++ _associated conformance 16AssistiveTouchUI0aB10MenuLayoutV05SwiftC00E0AaD10Animatable
++ _associated conformance 16AssistiveTouchUI0aB10MenuLayoutV05SwiftC010AnimatableAA0G4DataAdEP_AD16VectorArithmetic
++ _associated conformance 16AssistiveTouchUI0aB12ExpandedMenuV05SwiftC04ViewAA4BodyAdEP_AdE
++ _associated conformance 16AssistiveTouchUI0aB13LayoutContextOSHAASQ
++ _associated conformance 16AssistiveTouchUI0aB15MenuButtonImage33_374A64A159D9821E91BF28D3C2A7966ELLV05SwiftC04ViewAA4BodyAeFP_AeF
++ _associated conformance 16AssistiveTouchUI0aB15MenuButtonTitle33_374A64A159D9821E91BF28D3C2A7966ELLV05SwiftC04ViewAA4BodyAeFP_AeF
++ _associated conformance 16AssistiveTouchUI0aB17MenuActionHandlerC26AccessibilitySharedSupport0g4SiriE0O0F0AAScA
++ _associated conformance 16AssistiveTouchUI0aB17MenuActionHandlerC26AccessibilitySharedSupport0g6DeviceE0O0F0AAScA
++ _associated conformance 16AssistiveTouchUI0aB17MenuActionHandlerC26AccessibilitySharedSupport0g6SystemE0O0F0AAScA
++ _associated conformance 16AssistiveTouchUI0aB17MenuActionHandlerC26AccessibilitySharedSupport0g7FeatureE0O0F0AAScA
++ _associated conformance 16AssistiveTouchUI0aB17MenuActionHandlerC26AccessibilitySharedSupport0gE7MonitorAAScA
++ _associated conformance 16AssistiveTouchUI0aB17MenuActionHandlerC26AccessibilitySharedSupport0gabE0O0F0AAScA
++ _associated conformance 16AssistiveTouchUI0aB17MenuActionHandlerC26AccessibilitySharedSupport0geF0AAScA
++ _associated conformance 16AssistiveTouchUI0aB19MenuExpandedContentV05SwiftC04ViewAA4BodyAdEP_AdE
++ _associated conformance 16AssistiveTouchUI0aB19NubbitContainerViewV05SwiftC00F0AA4BodyAdEP_AdE
++ _associated conformance 16AssistiveTouchUI0aB8MenuItemVSHAASQ
++ _associated conformance 16AssistiveTouchUI0aB9MenuStateC7Combine16ObservableObjectAA0H19WillChangePublisherAdEP_AD0K0
++ _associated conformance 16AssistiveTouchUI0aB9VolumeBarV05SwiftC04ViewAA4BodyAdEP_AdE
++ _associated conformance 16AssistiveTouchUI21AccessibilityMenuPageV17PaginationContext33_E5934A494A52D718333663E5946C5B09LLVSHAASQ
++ _associated conformance 16AssistiveTouchUI21AccessibilityMenuPageVSHAASQ
++ _block_copy_helper.37
++ _block_descriptor.39
++ _block_destroy_helper.38
++ _bzero
++ _compatibilityInitializeAvailabilityCheck
++ _dispatch_once_f
++ _dlsym
++ _fclose
++ _fopen
++ _fread
++ _free
++ _fseek
++ _ftell
++ _get_enum_tag_for_layout_string 22AccessibilityUtilities30AssistiveTouchMenuItemLocationOACIegnn_Sg
++ _get_enum_tag_for_layout_string 22AccessibilityUtilities30AssistiveTouchMenuItemLocationOIegn_Sg
++ _get_underlying_type_ref 7SwiftUI4ViewPAAEAcAE4task2id4name8priority4file4line_Qrqd___SSSgScPSSSiyyYaYAcntSQRd__lFQOQr.1
++ _get_underlying_witness 7SwiftUI4ViewPAAEAcAE4task2id4name8priority4file4line_Qrqd___SSSgScPSSSiyyYaYAcntSQRd__lFQOqd0__AaBHC.2
++ _get_witness_table 16AssistiveTouchUI0aB19MenuExpandedContentV05SwiftC04ViewHPyHC.8
++ _get_witness_table 7SwiftUI15ModifiedContentVyAA4ViewPAAE11buttonStyleyQrqd__AA015PrimitiveButtonG0Rd__lFQOyACyACyAeAE20accessibilityElement8childrenQrAA26AccessibilityChildBehaviorV_tFQOyACyACyACyACyAA6VStackVyAA05TupleD0VyACyACyACy014AssistiveTouchB00rs4MenuI5Image33_374A64A159D9821E91BF28D3C2A7966ELLVAA14_PaddingLayoutVGAUGAUG_AP0rstI5TitleARLLVSgAA6SpacerVSgQPGGAA011_ForegroundG8ModifierVyAA5ColorVGGAA16_FlexFrameLayoutVGAA30_EnvironmentKeyWritingModifierVySbGGAA16_OverlayModifierVyACyAeAEAFyQrqd__AaGRd__lFQOyAA0I0VyACyACyAA0U0VAA011_ForegroundG9Modifier2VyA8_A8_GGA15_yAA4FontVSgGGG_AA05PlainiG0VQo_AA13_OffsetEffectVGSgGG_Qo_AA0M18AttachmentModifierVGAA12_FrameLayoutVG_AA010BorderlessiG0VQo_AA14_OpacityEffectVGAaDHPqd0__AaDHD3_A52_HO_A54_AA0E8ModifierHPyHCHC.53
++ _get_witness_table 7SwiftUI15ModifiedContentVyAA4ViewPAAE19simultaneousGesture_9includingQrqd___AA0G4MaskVtAA0G0Rd__lFQOyAeAEAF_AGQrqd___AItAaJRd__lFQOyAeAE11buttonStyleyQrqd__AA015PrimitiveButtonK0Rd__lFQOyACyACyACyACyACyACyACyAA5ImageVAA18_AspectRatioLayoutVGAA08_PaddingQ0VGAA06_FrameQ0VGAA31AccessibilityAttachmentModifierVGAVGAA08_OverlayV0VyAA6VStackVyAA05TupleD0VyAA6SpacerV_ACyACyAeAE10fontWeightyQrAA4FontV6WeightVSgFQOyACyAA4TextVASG_Qo_AA011_ForegroundkV0VyAA017HierarchicalShapeK0VGGAYGQPGGSgGGAA01_d5ShapeV0VyAA16RoundedRectangleVGG_AA05PlainmK0VQo__AA06_EndedG0VyAA03TapG0VGQo__A40_yAA09LongPressG0VGQo_AYGAaDHPqd0__AaDHD3_A48_HO_AyA0eV0HPyHCHC.19
++ _get_witness_table 7SwiftUI15ModifiedContentVyAA4ViewPAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQOyACyACyAA06_ShapeE0VyAA6CircleVAA5ColorVGAA14_OpacityEffectVGAA16_OverlayModifierVyACyACyACyArA010_BlendModeN0VGAA06_ScaleN0VGATyAA6IDViewVyACyACyACyACyAA5ImageVAA12_FrameLayoutVGAA022_EnvironmentKeyWritingP0VyAA015SymbolRenderingR0VSgGGAA25_ForegroundStyleModifier2VyA2NGGA7_yAA0D10TransitionVGGSiGSgGGGG_014AssistiveTouchB014GazeFocusStateOQo_AA017_AppearanceActionP0VGAaDHPqd0__AaDHD3_A30_HO_A32_AA0eP0HPyHCHC.49
++ _get_witness_table 7SwiftUI15ModifiedContentVyAA6HStackVyAA7ForEachVySnySiGSiACyACyAA10_ShapeViewVyAA9RectangleVAA5ColorVGAA12_FrameLayoutVGAA16_BlendModeEffectVGGGAQGAA0I0HPAwaYHPyHC_AqA0I8ModifierHPyHCHC.5
++ _get_witness_table 7SwiftUI15ModifiedContentVyACyACyAA14GeometryReaderVyAA6ZStackVyAA05TupleD0VyACyAA6VStackVyAIyAA6SpacerV_AA6HStackVyAIyAM_ACyACyACyACyAA4TextVAA30_EnvironmentKeyWritingModifierVyAA0L9AlignmentOGGASySiSgGGASy12CoreGraphics7CGFloatVGGAA023AccessibilityAttachmentP0VGAMQPGGAMQPGGAA14_PaddingLayoutVGSg_ACyAA4ViewPAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQOyA16_AAEA17_A18_A19__Qrqd___Sbyqd___qd__tctSQRd__lFQOyACyACyACy014AssistiveTouchB014GazeFocusPointVAA06_FrameX0VGAA09_PositionX0VGAA017_AppearanceActionP0VG_A20_14GazeFocusStateOQo__SbQo_A5_GQPGGGAA024_SafeAreaRegionsIgnoringX0VGA5_GASyAA0X9DirectionOGGAAA15_HPA43_AAA15_HPA42_AAA15_HPA39_AAA15_HPyHC_A41_AA0yP0HPyHCHC_A5_AAA48_HPyHCHC_A46_AAA48_HPyHCHC.86
++ _get_witness_table 7SwiftUI15ModifiedContentVyACyACyAA4ViewPAAE10fontWeightyQrAA4FontV0G0VSgFQOyACyACyAA4TextVAA30_EnvironmentKeyWritingModifierVyAA0I9AlignmentOGGAOyAHSgGG_Qo_AOy12CoreGraphics7CGFloatVGGAOySiSgGGAA16_FixedSizeLayoutVGAaDHPA3_AaDHPA0_AaDHPqd__AaDHD2_AWHO_A_AA0eM0HPyHCHC_A2_AAA7_HPyHCHC_A5_AAA7_HPyHCHC.67
++ _get_witness_table 7SwiftUI6IDViewVy014AssistiveTouchB00dE19MenuExpandedContentVSay26AccessibilitySharedSupport0I6ActionOGGSgAA4ViewHpAkaMHPyHC_HC.10
++ _get_witness_table 7SwiftUI6ZStackVyAA12TupleContentVyAA08ModifiedE0VyAA012_ConditionalE0VyAA4ViewPAAE10fontWeightyQrAA4FontV0J0VSgFQOyAGyAA5ImageVAA30_EnvironmentKeyWritingModifierVyANSgGG_Qo_ASGSgAA12_FrameLayoutVG_AIyAGyAGyAGyAsA012_AspectRatioR0VGAWGA1_GA7_GSgAGyA7_AA14_OpacityEffectVGSgQPGGAaJHPyHC.68
++ _get_witness_table qd0__7SwiftUI4ViewHD3_AaBPAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQOyAcAE19highPriorityGesture_9includingQrqd___AA0J4MaskVtAA0J0Rd__lFQOyAA5ColorV_AA06_EndedJ0VyAA08_ChangedJ0VyAA0j5StateJ0VyAA04DragJ0VSbGGGQo__SbQo_HO.14
++ _get_witness_table qd0__7SwiftUI4ViewHD3_AaBPAAE8onChange2of7initial_Qrqd___SbyyctSQRd__lFQOyAcAE4task2id4name8priority4file4line_Qrqd___SSSgScPSSSiyyYaYAcntSQRd__lFQOyAA15ModifiedContentVyAOyAOyAOyAcAEAdeF_Qrqd___Sbyqd___qd__tctSQRd__lFQOyAcAEAdeF_Qrqd___Sbyqd___qd__tctSQRd__lFQOyAcAE19simultaneousGesture_9includingQrqd___AA0Q4MaskVtAA0Q0Rd__lFQOyAcAEAP_AQQrqd___AStAaTRd__lFQOyAOyAOyAOyAA09_VariadicC0O4TreeVy_AA11_LayoutRootVy014AssistiveTouchB00xy4MenuV0VGAA7ForEachVys18EnumeratedSequenceVySay22AccessibilityUtilities0xyZ12ItemLocationO8location_A_0xyZ4ItemV4itemtGGSiAC28AccessibilitySharedUISupportE14axsuiReadFrame15coordinateSpaceADQrAA15CoordinateSpaceO_ySo6CGRectVctFQOyAOyAOyAOyAOyAOyAA012_ConditionalO0VyA24_yAOyA_0xY9VolumeBarVAA06_FrameV0VGAcAE0d3TapQ05count7performQrSi_yyctFQOyA_0xyZ6ButtonV_Qo_GA34_GAA21_TraitWritingModifierVyAA01_V5TraitVyA_0xyz12ItemLocationV8ValueKey33_57A219D8A3AE91DAFD8A8EAE585AE16CLLVGGGAA14_OpacityEffectVGAA12_ScaleEffectVGAA18_AnimationModifierVyA9_SgGGA39_yAA18TransitionTraitKeyVGG_Qo_GGAA16_OverlayModifierVyAOyAOyAOyAOyA34_AA09_PositionV0VGA52_GAA13_ShadowEffectVGAA25_AllowsHitTestingModifierVGSgGGAA24_CoordinateSpaceModifierVySSGGAA01_O13ShapeModifierVyAA9RectangleVGG_AA06_EndedQ0VyAA08_ChangedQ0VyAA0q5StateQ0VyAA04DragQ0VSbGGGQo__A92_yA94_yAA08SequenceQ0VyAA09LongPressQ0VA98_GGGQo__SbQo__AA9UnitPointVSgQo_AA25_AppearanceActionModifierVGA49_GA55_yA114_GGA61_G_SbQo__A_013AccessibilityZ4PageVQo_HO.78
++ _get_witness_table qd__7SwiftUI4ViewHD2_AaBP28AccessibilitySharedUISupportE14axsuiReadFrame15coordinateSpace8onChangeQrAA010CoordinateK0O_ySo6CGRectVctFQOyAA15ModifiedContentVyAA6ZStackVyAA05TupleQ0Vy014AssistiveTouchB00u18HandlingBackgroundC0V_AMyAcAEAG2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQOyAcAEAguV_Qrqd___Sbyqd___qd__tctSQRd__lFQOyAD0d19FloatingUIContainerC0VyAMyAcDEAefGQrAI_yAKctFQOyAD0dZ9UIContentVyAR0d10MenuButtontU0VAR0tU12ExpandedMenuVG_Qo_AA30_EnvironmentKeyWritingModifierVyAR0tU9MenuStateCSgGGG_0dE7Support0dZ10UIPositionOQo__SbQo_A6_yAA11ColorSchemeOGGQPGGAA30_SafeAreaRegionsIgnoringLayoutVG_Qo_HO.2
++ _initializeAvailabilityCheck
++ _keypath_get.64Tm
++ _keypath_set.65Tm
++ _malloc
++ _malloc_size
++ _memcpy
++ _memmove
++ _objc_claimAutoreleasedReturnValue
++ _objc_msgSend$_privateNotificationOccurred:
++ _objc_msgSend$animateWithDuration:animations:
++ _objc_msgSend$appearanceDelegate
++ _objc_msgSend$armApplePay
++ _objc_msgSend$arrayWithObjects:count:
++ _objc_msgSend$assistiveTouchCustomGestures
++ _objc_msgSend$assistiveTouchMouseOnDeviceEyeTrackingEnabled
++ _objc_msgSend$beginDragAtPoint:
++ _objc_msgSend$boolForKey:
++ _objc_msgSend$boolForKey:error:
++ _objc_msgSend$bundleForClass:
++ _objc_msgSend$canRepeatGesture
++ _objc_msgSend$cancelGesture
++ _objc_msgSend$capabilitiesForHardware
++ _objc_msgSend$clearAllFingersAnimated:endPointForAnimation:
++ _objc_msgSend$confirmApplePay
++ _objc_msgSend$currentOrientation
++ _objc_msgSend$defaultSideLength
++ _objc_msgSend$delegate
++ _objc_msgSend$displayID
++ _objc_msgSend$displayIdentity
++ _objc_msgSend$effectiveBoolValueForSetting:
++ _objc_msgSend$endDragModeAtPoint:completed:
++ _objc_msgSend$fingerContainerView
++ _objc_msgSend$fingerController
++ _objc_msgSend$fingerInnerRadius
++ _objc_msgSend$fingerModelForLocation:
++ _objc_msgSend$flickGestureStartingAtPoint:endingAtPoint:numberOfFingers:
++ _objc_msgSend$fontMetrics
++ _objc_msgSend$forceTouchGestureAtPoint:
++ _objc_msgSend$gesturePerformer:didCancelGestureAtPoint:
++ _objc_msgSend$gesturePerformer:didFinishGestureAtPoint:
++ _objc_msgSend$gesturePerformer:didStartGestureAtPoint:
++ _objc_msgSend$handleInputGestureBegan:fromTouch:
++ _objc_msgSend$handleInputGestureEnded:fromTouch:
++ _objc_msgSend$handleInputGestureMoved:fromTouch:
++ _objc_msgSend$imageNamed:inBundle:compatibleWithTraitCollection:
++ _objc_msgSend$inDragMode
++ _objc_msgSend$initWithConfiguration:
++ _objc_msgSend$initWithController:hardwareIdentifier:
++ _objc_msgSend$initWithCustomGesture:controller:hardwareIdentifier:
++ _objc_msgSend$initWithDomain:authenticationContext:
++ _objc_msgSend$initWithNumberOfFingers:controller:hardwareIdentifier:
++ _objc_msgSend$initWithPinchMode:controller:hardwareIdentifier:
++ _objc_msgSend$inputGestureBegan
++ _objc_msgSend$isContinuousGesture
++ _objc_msgSend$isGuidedAccessActive
++ _objc_msgSend$isMenuBarSupported
++ _objc_msgSend$isNotificationCenterVisible
++ _objc_msgSend$isSideSwitchUsedForOrientation
++ _objc_msgSend$layoutViewSideLengthScaledFromDefaultLength:
++ _objc_msgSend$localizedDescription
++ _objc_msgSend$longPressGestureAtPoint:
++ _objc_msgSend$moveFingersForRealEventToPoint:
++ _objc_msgSend$moveFingersToPointInFingerCoordinateSpace:allowOutOfBounds:
++ _objc_msgSend$moveFingersToPointInFingerCoordinateSpace:allowOutOfBounds:animated:completion:
++ _objc_msgSend$moveNubbitToPoint:
++ _objc_msgSend$numberOfFingers
++ _objc_msgSend$openAssistiveTouchCustomGestureCreation
++ _objc_msgSend$openSessions
++ _objc_msgSend$performGesture
++ _objc_msgSend$prepare
++ _objc_msgSend$prepareGestureAtPoint:
++ _objc_msgSend$privateConfigurationForTypes:
++ _objc_msgSend$rotateLeft
++ _objc_msgSend$rotatePortrait
++ _objc_msgSend$rotateRight
++ _objc_msgSend$rotateUpsideDown
++ _objc_msgSend$scaledValueForValue:compatibleWithTraitCollection:
++ _objc_msgSend$scene
++ _objc_msgSend$screen
++ _objc_msgSend$scrollGestureFromPoint:toPoint:duration:
++ _objc_msgSend$server
++ _objc_msgSend$setBool:forKey:
++ _objc_msgSend$setDragStartPoint:
++ _objc_msgSend$sharedConnection
++ _objc_msgSend$showAlert:withHandler:
++ _objc_msgSend$showFingerModels:animated:startPointForAnimation:
++ _objc_msgSend$sortedArrayUsingSelector:
++ _objc_msgSend$standardUserDefaults
++ _objc_msgSend$startingPoint
++ _objc_msgSend$strokeWidth
++ _objc_msgSend$supportsHaptics
++ _objc_msgSend$tapGestureAtPoint:isDoubleTap:numberOfFingers:
++ _objc_msgSend$toggleNotificationCenter
++ _objc_msgSend$traitCollectionForImagePreferredContentSizeCategory
++ _objc_msgSend$traitCollectionForLabelPreferredContentSizeCategory
++ _objc_msgSend$valueForKeyPath:
++ _objc_msgSend$warm
++ _objc_retainAutoreleaseReturnValue
++ _objc_retainBlock
++ _objc_retain_x1
++ _objc_retain_x23
++ _objc_retain_x24
++ _objc_retain_x27
++ _objc_retain_x28
++ _objc_retain_x3
++ _objc_retain_x9
++ _os_log_type_enabled
++ _rewind
++ _sscanf
++ _swift_arrayDestroy
++ _swift_arrayInitWithCopy
++ _swift_arrayInitWithTakeBackToFront
++ _swift_arrayInitWithTakeFrontToBack
++ _swift_bridgeObjectRelease_n
++ _swift_bridgeObjectRetain
++ _swift_bridgeObjectRetain_n
++ _swift_coroFrameAlloc
++ _swift_cvw_initStructMetadataWithLayoutString
++ _swift_cvw_initWithTake
++ _swift_defaultActor_deallocate
++ _swift_defaultActor_destroy
++ _swift_defaultActor_initialize
++ _swift_dynamicCast
++ _swift_dynamicCastObjCClass
++ _swift_getAtKeyPath
++ _swift_getEnumCaseMultiPayload
++ _swift_getEnumTagSinglePayloadGeneric
++ _swift_getExistentialTypeMetadata
++ _swift_getFunctionTypeMetadata0
++ _swift_isUniquelyReferenced_nonNull_bridgeObject
++ _swift_isUniquelyReferenced_nonNull_native
++ _swift_isaMask
++ _swift_release_n
++ _swift_release_x1
++ _swift_release_x12
++ _swift_release_x19
++ _swift_release_x20
++ _swift_release_x21
++ _swift_release_x22
++ _swift_release_x23
++ _swift_release_x24
++ _swift_release_x25
++ _swift_release_x26
++ _swift_release_x27
++ _swift_release_x28
++ _swift_release_x8
++ _swift_release_x9
++ _swift_retain_x1
++ _swift_retain_x19
++ _swift_retain_x2
++ _swift_retain_x20
++ _swift_retain_x21
++ _swift_retain_x22
++ _swift_retain_x23
++ _swift_retain_x24
++ _swift_retain_x25
++ _swift_retain_x26
++ _swift_retain_x27
++ _swift_retain_x8
++ _swift_setDeallocating
++ _swift_slowAlloc
++ _swift_slowDealloc
++ _swift_storeEnumTagMultiPayload
++ _swift_storeEnumTagSinglePayloadGeneric
++ _swift_willThrowTypedImpl
++ _symbolic $s16AssistiveTouchUI013AccessibilityaB37ToggleNubbitPositionLockActionHandlerP
++ _symbolic $s16AssistiveTouchUI0B30HandlingBackgroundViewDelegateP
++ _symbolic $s16AssistiveTouchUI0aB16BannerPresentingP
++ _symbolic $s16AssistiveTouchUI0aB24MenuStateGestureDelegateP
++ _symbolic $s16AssistiveTouchUI0aB28MenuItemOverlayImageProviderP
++ _symbolic $s16AssistiveTouchUI0ab18MenuBackgroundViewB8ObserverP
++ _symbolic $s7SwiftUI10AnimatableP
++ _symbolic $s7SwiftUI14EnvironmentKeyP
++ _symbolic $s7SwiftUI14LayoutValueKeyP
++ _symbolic $s7SwiftUI6LayoutP
++ _symbolic BD
++ _symbolic Ieg_
++ _symbolic SDy__________G 16AssistiveTouchUI21AccessibilityMenuPageV 05SwiftC09UnitPointV
++ _symbolic SDy__________G 22AccessibilityUtilities30AssistiveTouchMenuItemLocationO 0cD2UI0cdeF0V
++ _symbolic SDy__________G 22AccessibilityUtilities30AssistiveTouchMenuItemLocationO So6CGRectV
++ _symbolic SSSg
++ _symbolic SayScTyyt_____GG s5NeverO
++ _symbolic Say_____8location______4itemtG 22AccessibilityUtilities30AssistiveTouchMenuItemLocationO 0cD2UI0cdeF0V
++ _symbolic Say_____G 16AssistiveTouchUI12WeakObserver031_5FCD353F1D4F2F19AF3C3B2F2968C6L0LLC
++ _symbolic Say_____G 16AssistiveTouchUI21AccessibilityMenuPageV
++ _symbolic Say_____G 26AccessibilitySharedSupport0A6ActionO
++ _symbolic Say_____G 26AccessibilitySharedSupport0A6ActionO13ModifierFlagsV
++ _symbolic SbSg
++ _symbolic Sb______Sgt 7SwiftUI11DragGestureV5ValueV
++ _symbolic ScSy_____G 12CoreGraphics7CGFloatV
++ _symbolic ScTyyt_____G s5NeverO
++ _symbolic ScTyyt_____GSg s5NeverO
++ _symbolic Si
++ _symbolic Si6offset______7elementt 26AccessibilitySharedSupport0A6ActionO
++ _symbolic Si6offset______8location______4itemt7elementt 22AccessibilityUtilities30AssistiveTouchMenuItemLocationO 0cD2UI0cdeF0V
++ _symbolic Si_______________y_____yACyACyACyACy_____yADyACy__________G_____y______Qo_GAHG_____y_____y_____GGG_____G_____G_____yAASgGGALy_____GG_Qo_Iegynnr_ 22AccessibilityUtilities30AssistiveTouchMenuItemLocationO 0cD2UI0cdeF0V 05SwiftH04ViewP0A15SharedUISupportE14axsuiReadFrame15coordinateSpace8onChangeQrAG010CoordinateQ0O_ySo6CGRectVctFQO AG15ModifiedContentV AG012_ConditionalW0V AD0cD9VolumeBarV AG01_O6LayoutV AiGE0R10TapGesture5count7performQrSi_yyctFQO AD0cdE6ButtonV AG21_TraitWritingModifierV AG12_LayoutTraitV AD0cdefG14LayoutValueKey33_57A219D8A3AE91DAFD8A8EAE585AE16CLLV AG14_OpacityEffectV AG12_ScaleEffectV AG18_AnimationModifierV AG18TransitionTraitKeyV
++ _symbolic SnySiG
++ _symbolic So20AXPIFingerControllerCSgXw
++ _symbolic So20AXPIGesturePerformerCSg
++ _symbolic So26AXPICustomGesturePerformerC
++ _symbolic _____ 16AssistiveTouchUI013AccessibilityaB17MenuResolvedStateV
++ _symbolic _____ 16AssistiveTouchUI023AccessibilityMenuButtonaB0V
++ _symbolic _____ 16AssistiveTouchUI0B22HandlingBackgroundViewV
++ _symbolic _____ 16AssistiveTouchUI0B27HandlingBackgroundViewStateC
++ _symbolic _____ 16AssistiveTouchUI0aB10LayoutViewV
++ _symbolic _____ 16AssistiveTouchUI0aB10MenuButtonV
++ _symbolic _____ 16AssistiveTouchUI0aB10MenuLayoutV
++ _symbolic _____ 16AssistiveTouchUI0aB12ExpandedMenuV
++ _symbolic _____ 16AssistiveTouchUI0aB13LayoutContextO
++ _symbolic _____ 16AssistiveTouchUI0aB13MenuConstantsV
++ _symbolic _____ 16AssistiveTouchUI0aB15MenuButtonImage33_374A64A159D9821E91BF28D3C2A7966ELLV
++ _symbolic _____ 16AssistiveTouchUI0aB15MenuButtonTitle33_374A64A159D9821E91BF28D3C2A7966ELLV
++ _symbolic _____ 16AssistiveTouchUI0aB17MenuActionHandlerC
++ _symbolic _____ 16AssistiveTouchUI0aB19MenuExpandedContentV
++ _symbolic _____ 16AssistiveTouchUI0aB19MenuExpandedContentV9DragState33_57A219D8A3AE91DAFD8A8EAE585AE16CLLV
++ _symbolic _____ 16AssistiveTouchUI0aB19NubbitContainerViewV
++ _symbolic _____ 16AssistiveTouchUI0aB19SecureIntentManagerC
++ _symbolic _____ 16AssistiveTouchUI0aB27LayoutContextEnvironmentKey33_B5EDA4B87A8EDE660FFC54DE37F53D28LLV
++ _symbolic _____ 16AssistiveTouchUI0aB30MenuItemLocationLayoutValueKey33_57A219D8A3AE91DAFD8A8EAE585AE16CLLV
++ _symbolic _____ 16AssistiveTouchUI0aB8MenuItemV
++ _symbolic _____ 16AssistiveTouchUI0aB9MenuStateC
++ _symbolic _____ 16AssistiveTouchUI0aB9VolumeBarV
++ _symbolic _____ 16AssistiveTouchUI12WeakObserver031_5FCD353F1D4F2F19AF3C3B2F2968C6L0LLC
++ _symbolic _____ 16AssistiveTouchUI19ResourceBundleClass33_0D6354354CB275BF4183609E4BA41CEDLLC
++ _symbolic _____ 16AssistiveTouchUI21AccessibilityMenuPageV
++ _symbolic _____ 16AssistiveTouchUI21AccessibilityMenuPageV17PaginationContext33_E5934A494A52D718333663E5946C5B09LLV
++ _symbolic _____ 22AccessibilityUtilities30AssistiveTouchMenuItemLocationO
++ _symbolic _____ 26AccessibilitySharedSupport0A12ActionSenderC
++ _symbolic _____ 26AccessibilitySharedSupport0A14ActionReceiverC
++ _symbolic _____ 26AccessibilitySharedSupport0A20AssistiveTouchActionO04MenuF0O
++ _symbolic _____ 26AccessibilitySharedSupport0A6ActionO
++ _symbolic _____ 28AccessibilitySharedUISupport0A15FloatingUIStateC
++ _symbolic _____ 28AccessibilitySharedUISupport0A16ShortcutsManagerC
++ _symbolic _____ 7SwiftUI11ColorSchemeO
++ _symbolic _____ 7SwiftUI15DynamicTypeSizeO
++ _symbolic _____ 7SwiftUI19EmptyAnimatableDataV
++ _symbolic _____ So11CFStringRefa
++ _symbolic _____ So18CFNotificationNamea
++ _symbolic _____ s6UInt32V
++ _symbolic _____3key______5valuet 22AccessibilityUtilities30AssistiveTouchMenuItemLocationO 0A13SharedSupport0A6ActionO
++ _symbolic _____3key______5valuet 22AccessibilityUtilities30AssistiveTouchMenuItemLocationO 0cD2UI0cdeF0V
++ _symbolic _____3key______5valuet 22AccessibilityUtilities30AssistiveTouchMenuItemLocationO So6CGRectV
++ _symbolic _____3key______5valuetSg 22AccessibilityUtilities30AssistiveTouchMenuItemLocationO 0cD2UI0cdeF0V
++ _symbolic _____3key______5valuetSg 22AccessibilityUtilities30AssistiveTouchMenuItemLocationO So6CGRectV
++ _symbolic _____8location______4itemt 22AccessibilityUtilities30AssistiveTouchMenuItemLocationO 0cD2UI0cdeF0V
++ _symbolic _____8location______8positiont 22AccessibilityUtilities30AssistiveTouchMenuItemLocationO So7CGPointV
++ _symbolic _____Sg 12CoreGraphics7CGFloatV
++ _symbolic _____Sg 16AssistiveTouchUI0aB15MenuButtonTitle33_374A64A159D9821E91BF28D3C2A7966ELLV
++ _symbolic _____Sg 16AssistiveTouchUI0aB19MenuExpandedContentV9DragState33_57A219D8A3AE91DAFD8A8EAE585AE16CLLV
++ _symbolic _____Sg 16AssistiveTouchUI0aB8MenuItemV
++ _symbolic _____Sg 16AssistiveTouchUI21AccessibilityMenuPageV
++ _symbolic _____Sg 16AssistiveTouchUI21AccessibilityMenuPageV17PaginationContext33_E5934A494A52D718333663E5946C5B09LLV
++ _symbolic _____Sg 22AccessibilityUtilities30AssistiveTouchMenuItemLocationO
++ _symbolic _____Sg 26AccessibilitySharedSupport0A12ActionClientO
++ _symbolic _____Sg 26AccessibilitySharedSupport0A18FloatingUIPositionO
++ _symbolic _____Sg 26AccessibilitySharedSupport0A20AssistiveTouchActionO04MenuF0O
++ _symbolic _____Sg 26AccessibilitySharedSupport0A23FloatingUIConfigurationV12DragBehaviorO
++ _symbolic _____Sg 26AccessibilitySharedSupport0A6ActionO
++ _symbolic _____Sg 7SwiftUI16LegibilityWeightO
++ _symbolic _____Sg 7SwiftUI4FontV
++ _symbolic _____Sg 7SwiftUI4FontV6DesignO
++ _symbolic _____Sg 7SwiftUI5ImageV
++ _symbolic _____Sg 7SwiftUI5ImageV21TemplateRenderingModeO
++ _symbolic _____Sg 7SwiftUI9UnitPointV
++ _symbolic _____Sg So18CFNotificationNamea
++ _symbolic _____Sg So7CGPointV
++ _symbolic _____SgXw 16AssistiveTouchUI0aB19SecureIntentManagerC
++ _symbolic _____SgXw 16AssistiveTouchUI0aB9MenuStateC
++ _symbolic _____SgXwz_Xx 16AssistiveTouchUI0aB19SecureIntentManagerC
++ _symbolic _____SgXwz_Xx 16AssistiveTouchUI0aB9MenuStateC
++ _symbolic _____Sg_ABt 16AssistiveTouchUI0aB8MenuItemV
++ _symbolic _____Sg_ABt 22AccessibilityUtilities30AssistiveTouchMenuItemLocationO
++ _symbolic _____Sg_ABt 26AccessibilitySharedSupport0A23FloatingUIConfigurationV12DragBehaviorO
++ _symbolic _____Sg_ABt 26AccessibilitySharedSupport0A6ActionO
++ _symbolic _____Sg_ABt 7SwiftUI16LegibilityWeightO
++ _symbolic ___________t 22AccessibilityUtilities30AssistiveTouchMenuItemLocationO 0cD2UI0cdeF0V
++ _symbolic ___________t 22AccessibilityUtilities30AssistiveTouchMenuItemLocationO So6CGRectV
++ _symbolic ___________y_____yAA______yADyADyADy__________y_____GGAFySiSgGGAFy_____GG_____GAAQPGGAAt 7SwiftUI6SpacerV AA6HStackV AA12TupleContentV AA08ModifiedF0V AA4TextV AA30_EnvironmentKeyWritingModifierV AA0H9AlignmentO 12CoreGraphics7CGFloatV AA023AccessibilityAttachmentL0V
++ _symbolic ___________y_____y_____y_____yABy_____y_____y__________G_Qo______y_____SgGGG______Qo__SbQo_AIy_____GGt 16AssistiveTouchUI0B22HandlingBackgroundViewV 05SwiftC015ModifiedContentV AD0F0PADE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO AhDEAijK_Qrqd___Sbyqd___qd__tctSQRd__lFQO 28AccessibilitySharedUISupport0n19FloatingUIContainerF0V AhLE14axsuiReadFrame15coordinateSpaceAIQrAD010CoordinateW0O_ySo6CGRectVctFQO AL0nQ9UIContentV AA0n10MenuButtonaB0V AA0aB12ExpandedMenuV AD30_EnvironmentKeyWritingModifierV AA0aB9MenuStateC 0nO7Support0nQ10UIPositionO AD11ColorSchemeO
++ _symbolic ______p 16AssistiveTouchUI0B30HandlingBackgroundViewDelegateP
++ _symbolic ______p 16AssistiveTouchUI0aB28MenuItemOverlayImageProviderP
++ _symbolic ______p 26AccessibilitySharedSupport0A13ResolvedStateP
++ _symbolic ______p 26AccessibilitySharedSupport0A14ResolvedActionP
++ _symbolic ______p 26AccessibilitySharedSupport0A20AssistiveTouchActionO13ResolvedStateP
++ _symbolic ______pSg 26AccessibilitySharedSupport0A13ResolvedStateP
++ _symbolic ______pSgXw 16AssistiveTouchUI0aB16BannerPresentingP
++ _symbolic ______pSgXw 16AssistiveTouchUI0aB24MenuStateGestureDelegateP
++ _symbolic ______pSgXw 16AssistiveTouchUI0ab18MenuBackgroundViewB8ObserverP
++ _symbolic _____yAAyAAyAAyAAyAAyAAy__________G_____G_____G_____GAGG_____y_____y_____y______AAyAAy_____yAAy_____AEG_Qo______y_____GGAIGQPGGSgGG_____y_____GG 7SwiftUI15ModifiedContentV AA5ImageV AA18_AspectRatioLayoutV AA08_PaddingH0V AA06_FrameH0V AA31AccessibilityAttachmentModifierV AA08_OverlayM0V AA6VStackV AA05TupleD0V AA6SpacerV AA4ViewPAAE10fontWeightyQrAA4FontV0T0VSgFQO AA4TextV AA016_ForegroundStyleM0V AA017HierarchicalShapeX0V AA01_dzM0V AA16RoundedRectangleV
++ _symbolic _____yAAyAAyAAyAAyAAy__________G_____G_____G_____GAGG_____y_____y_____y______AAyAAy_____yAAy_____AEG_Qo______y_____GGAIGQPGGSgGG 7SwiftUI15ModifiedContentV AA5ImageV AA18_AspectRatioLayoutV AA08_PaddingH0V AA06_FrameH0V AA31AccessibilityAttachmentModifierV AA08_OverlayM0V AA6VStackV AA05TupleD0V AA6SpacerV AA4ViewPAAE10fontWeightyQrAA4FontV0T0VSgFQO AA4TextV AA016_ForegroundStyleM0V AA017HierarchicalShapeX0V
++ _symbolic _____yAAyAAyAAyAAy__________G_____G_____G_____GAGG 7SwiftUI15ModifiedContentV AA5ImageV AA18_AspectRatioLayoutV AA08_PaddingH0V AA06_FrameH0V AA31AccessibilityAttachmentModifierV
++ _symbolic _____yAAyAAyAAyAAy_____yAByAAy__________G_____y______Qo_GAFG_____y_____y_____GGG_____G_____G_____y_____SgGGAJy_____GG 7SwiftUI15ModifiedContentV AA012_ConditionalD0V 014AssistiveTouchB00fG9VolumeBarV AA12_FrameLayoutV AA4ViewPAAE12onTapGesture5count7performQrSi_yyctFQO AF0fG10MenuButtonV AA21_TraitWritingModifierV AA01_kT0V AF0fgr12ItemLocationK8ValueKey33_57A219D8A3AE91DAFD8A8EAE585AE16CLLV AA14_OpacityEffectV AA12_ScaleEffectV AA010_AnimationV0V 22AccessibilityUtilities0fgrwX0O AA010TransitiontZ0V
++ _symbolic _____yAAyAAyAAyAAy_____y_____y_____y_____yAAyAAyAAy_____y______y_____G_____y_____ySay_____8location______4itemtGGSi_____yAAyAAyAAyAAyAAy_____yANyAAy__________G_____y______Qo_GARG_____y_____y_____GGG_____G_____G_____yAHSgGGAVy_____GG_Qo_GG_____yAAyAAyAAyAAyAR_____GA2_G_____G_____GSgGG_____ySSGG_____y_____GG______y_____y_____y_____SbGGGQo__A32_yA33_y_____y_____A35_GGGQo__SbQo_______SgQo______GA0_GA4_yA48_GGA9_G_____ySbGG 7SwiftUI15ModifiedContentV AA4ViewPAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO AeAEAfgH_Qrqd___Sbyqd___qd__tctSQRd__lFQO AeAE19simultaneousGesture_9includingQrqd___AA0K4MaskVtAA0K0Rd__lFQO AeAEAI_AJQrqd___ALtAaMRd__lFQO AA09_VariadicE0O4TreeV AA11_LayoutRootV 014AssistiveTouchB00rs4MenuP0V AA7ForEachV s18EnumeratedSequenceV 22AccessibilityUtilities0rsT12ItemLocationO AT0rsT4ItemV AE0Y15SharedUISupportE14axsuiReadFrame15coordinateSpaceAFQrAA15CoordinateSpaceO_ySo6CGRectVctFQO AA012_ConditionalD0V AT0rS9VolumeBarV AA06_FrameP0V AeAE0f3TapK05count7performQrSi_yyctFQO AT0rsT6ButtonV AA21_TraitWritingModifierV AA01_P5TraitV AT0rst12ItemLocationP8ValueKey33_57A219D8A3AE91DAFD8A8EAE585AE16CLLV AA14_OpacityEffectV AA12_ScaleEffectV AA18_AnimationModifierV AA18TransitionTraitKeyV AA16_OverlayModifierV AA09_PositionP0V AA13_ShadowEffectV AA25_AllowsHitTestingModifierV AA24_CoordinateSpaceModifierV AA01_D13ShapeModifierV AA9RectangleV AA06_EndedK0V AA08_ChangedK0V AA0k5StateK0V AA04DragK0V AA0xK0V AA09LongPressK0V AA9UnitPointV AA25_AppearanceActionModifierV AA19_TaskValueModifier2V
++ _symbolic _____yAAyAAyAAy__________G_____G_____G_____G 7SwiftUI15ModifiedContentV 014AssistiveTouchB00eF10MenuButtonV AA15_PositionLayoutV AA12_ScaleEffectV AA07_ShadowL0V AA25_AllowsHitTestingModifierV
++ _symbolic _____yAAyAAyAAy__________G_____G_____G_____G 7SwiftUI15ModifiedContentV AA5ImageV AA18_AspectRatioLayoutV AA08_PaddingH0V AA06_FrameH0V AA31AccessibilityAttachmentModifierV
++ _symbolic _____yAAyAAyAAy__________G_____y_____SgGG_____G_____GSg 7SwiftUI15ModifiedContentV AA5ImageV AA18_AspectRatioLayoutV AA30_EnvironmentKeyWritingModifierV AA4FontV AA06_FrameH0V AA14_OpacityEffectV
++ _symbolic _____yAAyAAyAAy_____yAByAAy__________G_____y______Qo_GAFG_____y_____y_____GGG_____G_____G_____y_____SgGG 7SwiftUI15ModifiedContentV AA012_ConditionalD0V 014AssistiveTouchB00fG9VolumeBarV AA12_FrameLayoutV AA4ViewPAAE12onTapGesture5count7performQrSi_yyctFQO AF0fG10MenuButtonV AA21_TraitWritingModifierV AA01_kT0V AF0fgr12ItemLocationK8ValueKey33_57A219D8A3AE91DAFD8A8EAE585AE16CLLV AA14_OpacityEffectV AA12_ScaleEffectV AA010_AnimationV0V 22AccessibilityUtilities0fgrwX0O
++ _symbolic _____yAAyAAyAAy_____y_____yAAyAAyAAy__________GAEGAEG______Sg_____SgQPGG_____y_____GG_____G_____ySbGG_____yAAy_____y_____yAAyAAy__________yA2PGGAUy_____SgGGG______Qo______GSgGG 7SwiftUI15ModifiedContentV AA6VStackV AA05TupleD0V 014AssistiveTouchB00gH15MenuButtonImage33_374A64A159D9821E91BF28D3C2A7966ELLV AA14_PaddingLayoutV AH0ghiJ5TitleAJLLV AA6SpacerV AA24_ForegroundStyleModifierV AA5ColorV AA010_FlexFrameU0V AA022_EnvironmentKeyWritingZ0V AA08_OverlayZ0V AA4ViewPAAE06buttonY0yQrqd__AA09PrimitivejY0Rd__lFQO AA0J0V AA0K0V AA01_xY9Modifier2V AA4FontV AA05PlainjY0V AA13_OffsetEffectV
++ _symbolic _____yAAyAAyAAy_____y_____y_____y_____yAAyAAyAAy_____y______y_____G_____y_____ySay_____8location______4itemtGGSi_____yAAyAAyAAyAAyAAy_____yANyAAy__________G_____y______Qo_GARG_____y_____y_____GGG_____G_____G_____yAHSgGGAVy_____GG_Qo_GG_____yAAyAAyAAyAAyAR_____GA2_G_____G_____GSgGG_____ySSGG_____y_____GG______y_____y_____y_____SbGGGQo__A32_yA33_y_____y_____A35_GGGQo__SbQo_______SgQo______GA0_GA4_yA48_GGA9_G 7SwiftUI15ModifiedContentV AA4ViewPAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO AeAEAfgH_Qrqd___Sbyqd___qd__tctSQRd__lFQO AeAE19simultaneousGesture_9includingQrqd___AA0K4MaskVtAA0K0Rd__lFQO AeAEAI_AJQrqd___ALtAaMRd__lFQO AA09_VariadicE0O4TreeV AA11_LayoutRootV 014AssistiveTouchB00rs4MenuP0V AA7ForEachV s18EnumeratedSequenceV 22AccessibilityUtilities0rsT12ItemLocationO AT0rsT4ItemV AE0Y15SharedUISupportE14axsuiReadFrame15coordinateSpaceAFQrAA15CoordinateSpaceO_ySo6CGRectVctFQO AA012_ConditionalD0V AT0rS9VolumeBarV AA06_FrameP0V AeAE0f3TapK05count7performQrSi_yyctFQO AT0rsT6ButtonV AA21_TraitWritingModifierV AA01_P5TraitV AT0rst12ItemLocationP8ValueKey33_57A219D8A3AE91DAFD8A8EAE585AE16CLLV AA14_OpacityEffectV AA12_ScaleEffectV AA18_AnimationModifierV AA18TransitionTraitKeyV AA16_OverlayModifierV AA09_PositionP0V AA13_ShadowEffectV AA25_AllowsHitTestingModifierV AA24_CoordinateSpaceModifierV AA01_D13ShapeModifierV AA9RectangleV AA06_EndedK0V AA08_ChangedK0V AA0k5StateK0V AA04DragK0V AA0xK0V AA09LongPressK0V AA9UnitPointV AA25_AppearanceActionModifierV
++ _symbolic _____yAAyAAy__________GACGACG 7SwiftUI15ModifiedContentV 014AssistiveTouchB00eF15MenuButtonImage33_374A64A159D9821E91BF28D3C2A7966ELLV AA14_PaddingLayoutV
++ _symbolic _____yAAyAAy__________GACGACG______Sg_____Sgt 7SwiftUI15ModifiedContentV 014AssistiveTouchB00eF15MenuButtonImage33_374A64A159D9821E91BF28D3C2A7966ELLV AA14_PaddingLayoutV AD0efgH5TitleAFLLV AA6SpacerV
++ _symbolic _____yAAyAAy__________G_____G_____G 7SwiftUI15ModifiedContentV 014AssistiveTouchB00eF10MenuButtonV AA15_PositionLayoutV AA12_ScaleEffectV AA07_ShadowL0V
++ _symbolic _____yAAyAAy__________G_____G_____G 7SwiftUI15ModifiedContentV AA5ImageV AA18_AspectRatioLayoutV AA08_PaddingH0V AA06_FrameH0V
++ _symbolic _____yAAyAAy__________G_____y_____SgGG_____G 7SwiftUI15ModifiedContentV AA5ImageV AA18_AspectRatioLayoutV AA30_EnvironmentKeyWritingModifierV AA4FontV AA06_FrameH0V
++ _symbolic _____yAAyAAy_____yAAyAAy__________y_____GGACy_____SgGG_Qo_ACy_____GGACySiSgGG_____G 7SwiftUI15ModifiedContentV AA4ViewPAAE10fontWeightyQrAA4FontV0G0VSgFQO AA4TextV AA30_EnvironmentKeyWritingModifierV AA0I9AlignmentO AH 12CoreGraphics7CGFloatV AA16_FixedSizeLayoutV
++ _symbolic _____yAAyAAy_____yAByAAy__________G_____y______Qo_GAFG_____y_____y_____GGG_____G_____G 7SwiftUI15ModifiedContentV AA012_ConditionalD0V 014AssistiveTouchB00fG9VolumeBarV AA12_FrameLayoutV AA4ViewPAAE12onTapGesture5count7performQrSi_yyctFQO AF0fG10MenuButtonV AA21_TraitWritingModifierV AA01_kT0V AF0fgr12ItemLocationK8ValueKey33_57A219D8A3AE91DAFD8A8EAE585AE16CLLV AA14_OpacityEffectV AA12_ScaleEffectV
++ _symbolic _____yAAyAAy_____y______y_____G_____y_____ySay_____8location______4itemtGGSi_____yAAyAAyAAyAAyAAy_____yANyAAy__________G_____y______Qo_GARG_____y_____y_____GGG_____G_____G_____yAHSgGGAVy_____GG_Qo_GG_____yAAyAAyAAyAAyAR_____GA2_G_____G_____GSgGG_____ySSGG_____y_____GG 7SwiftUI15ModifiedContentV AA13_VariadicViewO4TreeV AA11_LayoutRootV 014AssistiveTouchB00jk4MenuH0V AA7ForEachV s18EnumeratedSequenceV 22AccessibilityUtilities0jkL12ItemLocationO AJ0jklS0V AA0F0P0Q15SharedUISupportE14axsuiReadFrame15coordinateSpace8onChangeQrAA15CoordinateSpaceO_ySo6CGRectVctFQO AA012_ConditionalD0V AJ0jK9VolumeBarV AA01_yH0V AwAE12onTapGesture5count7performQrSi_yyctFQO AJ0jkL6ButtonV AA21_TraitWritingModifierV AA01_H5TraitV AJ0jklstH8ValueKey33_57A219D8A3AE91DAFD8A8EAE585AE16CLLV AA14_OpacityEffectV AA12_ScaleEffectV AA18_AnimationModifierV AA18TransitionTraitKeyV AA16_OverlayModifierV AA09_PositionH0V AA13_ShadowEffectV AA25_AllowsHitTestingModifierV AA24_CoordinateSpaceModifierV AA01_D13ShapeModifierV AA9RectangleV
++ _symbolic _____yAAyAAy_____y_____yAAyAAyAAy__________GAEGAEG______Sg_____SgQPGG_____y_____GG_____G_____ySbGG 7SwiftUI15ModifiedContentV AA6VStackV AA05TupleD0V 014AssistiveTouchB00gH15MenuButtonImage33_374A64A159D9821E91BF28D3C2A7966ELLV AA14_PaddingLayoutV AH0ghiJ5TitleAJLLV AA6SpacerV AA24_ForegroundStyleModifierV AA5ColorV AA010_FlexFrameU0V AA022_EnvironmentKeyWritingZ0V
++ _symbolic _____yAAyAAy_____y_____y_____yAAy_____yADy___________yADyAF_AAyAAyAAyAAy__________y_____GGAIySiSgGGAIy_____GG_____GAFQPGGAFQPGG_____GSg_AAy_____y_____yAAyAAyAAy__________G_____G_____G______Qo__SbQo_ASGQPGGG_____GASGAIy_____GG 7SwiftUI15ModifiedContentV AA14GeometryReaderV AA6ZStackV AA05TupleD0V AA6VStackV AA6SpacerV AA6HStackV AA4TextV AA30_EnvironmentKeyWritingModifierV AA0L9AlignmentO 12CoreGraphics7CGFloatV AA023AccessibilityAttachmentP0V AA14_PaddingLayoutV AA4ViewPAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO A2_AAEA3_A4_A5__Qrqd___Sbyqd___qd__tctSQRd__lFQO 014AssistiveTouchB014GazeFocusPointV AA06_FrameX0V AA09_PositionX0V AA017_AppearanceActionP0V A6_14GazeFocusStateO AA024_SafeAreaRegionsIgnoringX0V AA0X9DirectionO
++ _symbolic _____yAAyAAy_____y_____y_____y_____yAAyAAyAAy_____y______y_____G_____y_____ySay_____8location______4itemtGGSi_____yAAyAAyAAyAAyAAy_____yANyAAy__________G_____y______Qo_GARG_____y_____y_____GGG_____G_____G_____yAHSgGGAVy_____GG_Qo_GG_____yAAyAAyAAyAAyAR_____GA2_G_____G_____GSgGG_____ySSGG_____y_____GG______y_____y_____y_____SbGGGQo__A32_yA33_y_____y_____A35_GGGQo__SbQo_______SgQo______GA0_GA4_yA48_GG 7SwiftUI15ModifiedContentV AA4ViewPAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO AeAEAfgH_Qrqd___Sbyqd___qd__tctSQRd__lFQO AeAE19simultaneousGesture_9includingQrqd___AA0K4MaskVtAA0K0Rd__lFQO AeAEAI_AJQrqd___ALtAaMRd__lFQO AA09_VariadicE0O4TreeV AA11_LayoutRootV 014AssistiveTouchB00rs4MenuP0V AA7ForEachV s18EnumeratedSequenceV 22AccessibilityUtilities0rsT12ItemLocationO AT0rsT4ItemV AE0Y15SharedUISupportE14axsuiReadFrame15coordinateSpaceAFQrAA15CoordinateSpaceO_ySo6CGRectVctFQO AA012_ConditionalD0V AT0rS9VolumeBarV AA06_FrameP0V AeAE0f3TapK05count7performQrSi_yyctFQO AT0rsT6ButtonV AA21_TraitWritingModifierV AA01_P5TraitV AT0rst12ItemLocationP8ValueKey33_57A219D8A3AE91DAFD8A8EAE585AE16CLLV AA14_OpacityEffectV AA12_ScaleEffectV AA18_AnimationModifierV AA18TransitionTraitKeyV AA16_OverlayModifierV AA09_PositionP0V AA13_ShadowEffectV AA25_AllowsHitTestingModifierV AA24_CoordinateSpaceModifierV AA01_D13ShapeModifierV AA9RectangleV AA06_EndedK0V AA08_ChangedK0V AA0k5StateK0V AA04DragK0V AA0xK0V AA09LongPressK0V AA9UnitPointV AA25_AppearanceActionModifierV
++ _symbolic _____yAAy__________GACG 7SwiftUI15ModifiedContentV 014AssistiveTouchB00eF15MenuButtonImage33_374A64A159D9821E91BF28D3C2A7966ELLV AA14_PaddingLayoutV
++ _symbolic _____yAAy__________G_____G 7SwiftUI15ModifiedContentV 014AssistiveTouchB00eF10MenuButtonV AA15_PositionLayoutV AA12_ScaleEffectV
++ _symbolic _____yAAy__________G_____G 7SwiftUI15ModifiedContentV AA5ImageV AA18_AspectRatioLayoutV AA08_PaddingH0V
++ _symbolic _____yAAy__________y_____ADGG_____y_____SgGG 7SwiftUI15ModifiedContentV AA5ImageV AA25_ForegroundStyleModifier2V AA5ColorV AA30_EnvironmentKeyWritingModifierV AA4FontV
++ _symbolic _____yAAy__________y_____GGACy_____SgGG 7SwiftUI15ModifiedContentV AA4TextV AA30_EnvironmentKeyWritingModifierV AA0E9AlignmentO AA4FontV
++ _symbolic _____yAAy_____yAAyAAyAAyAAy_____y_____yAAyAAyAAy__________GAEGAEG______Sg_____SgQPGG_____y_____GG_____G_____ySbGG_____yAAy_____y_____yAAyAAy__________yA2PGGAUy_____SgGGG______Qo______GSgGG_Qo______G_____G 7SwiftUI15ModifiedContentV AA4ViewPAAE20accessibilityElement8childrenQrAA26AccessibilityChildBehaviorV_tFQO AA6VStackV AA05TupleD0V 014AssistiveTouchB00nO15MenuButtonImage33_374A64A159D9821E91BF28D3C2A7966ELLV AA14_PaddingLayoutV AN0nopQ5TitleAPLLV AA6SpacerV AA24_ForegroundStyleModifierV AA5ColorV AA16_FlexFrameLayoutV AA30_EnvironmentKeyWritingModifierV AA16_OverlayModifierV AeAE11buttonStyleyQrqd__AA09PrimitiveQ5StyleRd__lFQO AA0Q0V AA0R0V AA25_ForegroundStyleModifier2V AA4FontV AA05PlainQ5StyleV AA13_OffsetEffectV AA0I18AttachmentModifierV AA12_FrameLayoutV
++ _symbolic _____yAAy_____yAAyAAy__________y_____GGACy_____SgGG_Qo_ACy_____GGACySiSgGG 7SwiftUI15ModifiedContentV AA4ViewPAAE10fontWeightyQrAA4FontV0G0VSgFQO AA4TextV AA30_EnvironmentKeyWritingModifierV AA0I9AlignmentO AH 12CoreGraphics7CGFloatV
++ _symbolic _____yAAy_____yAByAAy__________G_____y______Qo_GAFG_____y_____y_____GGG_____G 7SwiftUI15ModifiedContentV AA012_ConditionalD0V 014AssistiveTouchB00fG9VolumeBarV AA12_FrameLayoutV AA4ViewPAAE12onTapGesture5count7performQrSi_yyctFQO AF0fG10MenuButtonV AA21_TraitWritingModifierV AA01_kT0V AF0fgr12ItemLocationK8ValueKey33_57A219D8A3AE91DAFD8A8EAE585AE16CLLV AA14_OpacityEffectV
++ _symbolic _____yAAy_____y__________G_____G_____G 7SwiftUI15ModifiedContentV AA10_ShapeViewV AA9RectangleV AA5ColorV AA12_FrameLayoutV AA16_BlendModeEffectV
++ _symbolic _____yAAy_____y__________G_____y______Qo_GAFG 7SwiftUI19_ConditionalContentV AA08ModifiedD0V 014AssistiveTouchB00fG9VolumeBarV AA12_FrameLayoutV AA4ViewPAAE12onTapGesture5count7performQrSi_yyctFQO AF0fG10MenuButtonV
++ _symbolic _____yAAy_____y______y_____G_____y_____ySay_____8location______4itemtGGSi_____yAAyAAyAAyAAyAAy_____yANyAAy__________G_____y______Qo_GARG_____y_____y_____GGG_____G_____G_____yAHSgGGAVy_____GG_Qo_GG_____yAAyAAyAAyAAyAR_____GA2_G_____G_____GSgGG_____ySSGG 7SwiftUI15ModifiedContentV AA13_VariadicViewO4TreeV AA11_LayoutRootV 014AssistiveTouchB00jk4MenuH0V AA7ForEachV s18EnumeratedSequenceV 22AccessibilityUtilities0jkL12ItemLocationO AJ0jklS0V AA0F0P0Q15SharedUISupportE14axsuiReadFrame15coordinateSpace8onChangeQrAA15CoordinateSpaceO_ySo6CGRectVctFQO AA012_ConditionalD0V AJ0jK9VolumeBarV AA01_yH0V AwAE12onTapGesture5count7performQrSi_yyctFQO AJ0jkL6ButtonV AA21_TraitWritingModifierV AA01_H5TraitV AJ0jklstH8ValueKey33_57A219D8A3AE91DAFD8A8EAE585AE16CLLV AA14_OpacityEffectV AA12_ScaleEffectV AA18_AnimationModifierV AA18TransitionTraitKeyV AA16_OverlayModifierV AA09_PositionH0V AA13_ShadowEffectV AA25_AllowsHitTestingModifierV AA24_CoordinateSpaceModifierV
++ _symbolic _____yAAy_____y_____yAAyAAyAAy__________GAEGAEG______Sg_____SgQPGG_____y_____GG_____G 7SwiftUI15ModifiedContentV AA6VStackV AA05TupleD0V 014AssistiveTouchB00gH15MenuButtonImage33_374A64A159D9821E91BF28D3C2A7966ELLV AA14_PaddingLayoutV AH0ghiJ5TitleAJLLV AA6SpacerV AA24_ForegroundStyleModifierV AA5ColorV AA010_FlexFrameU0V
++ _symbolic _____yAAy_____y_____y_____yAAy_____yADy___________yADyAF_AAyAAyAAyAAy__________y_____GGAIySiSgGGAIy_____GG_____GAFQPGGAFQPGG_____GSg_AAy_____y_____yAAyAAyAAy__________G_____G_____G______Qo__SbQo_ASGQPGGG_____GASG 7SwiftUI15ModifiedContentV AA14GeometryReaderV AA6ZStackV AA05TupleD0V AA6VStackV AA6SpacerV AA6HStackV AA4TextV AA30_EnvironmentKeyWritingModifierV AA0L9AlignmentO 12CoreGraphics7CGFloatV AA023AccessibilityAttachmentP0V AA14_PaddingLayoutV AA4ViewPAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO A2_AAEA3_A4_A5__Qrqd___Sbyqd___qd__tctSQRd__lFQO 014AssistiveTouchB014GazeFocusPointV AA06_FrameX0V AA09_PositionX0V AA017_AppearanceActionP0V A6_14GazeFocusStateO AA024_SafeAreaRegionsIgnoringX0V
++ _symbolic _____yAAy_____y_____y_____y_____yAAyAAyAAy_____y______y_____G_____y_____ySay_____8location______4itemtGGSi_____yAAyAAyAAyAAyAAy_____yANyAAy__________G_____y______Qo_GARG_____y_____y_____GGG_____G_____G_____yAHSgGGAVy_____GG_Qo_GG_____yAAyAAyAAyAAyAR_____GA2_G_____G_____GSgGG_____ySSGG_____y_____GG______y_____y_____y_____SbGGGQo__A32_yA33_y_____y_____A35_GGGQo__SbQo_______SgQo______GA0_G 7SwiftUI15ModifiedContentV AA4ViewPAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO AeAEAfgH_Qrqd___Sbyqd___qd__tctSQRd__lFQO AeAE19simultaneousGesture_9includingQrqd___AA0K4MaskVtAA0K0Rd__lFQO AeAEAI_AJQrqd___ALtAaMRd__lFQO AA09_VariadicE0O4TreeV AA11_LayoutRootV 014AssistiveTouchB00rs4MenuP0V AA7ForEachV s18EnumeratedSequenceV 22AccessibilityUtilities0rsT12ItemLocationO AT0rsT4ItemV AE0Y15SharedUISupportE14axsuiReadFrame15coordinateSpaceAFQrAA15CoordinateSpaceO_ySo6CGRectVctFQO AA012_ConditionalD0V AT0rS9VolumeBarV AA06_FrameP0V AeAE0f3TapK05count7performQrSi_yyctFQO AT0rsT6ButtonV AA21_TraitWritingModifierV AA01_P5TraitV AT0rst12ItemLocationP8ValueKey33_57A219D8A3AE91DAFD8A8EAE585AE16CLLV AA14_OpacityEffectV AA12_ScaleEffectV AA18_AnimationModifierV AA18TransitionTraitKeyV AA16_OverlayModifierV AA09_PositionP0V AA13_ShadowEffectV AA25_AllowsHitTestingModifierV AA24_CoordinateSpaceModifierV AA01_D13ShapeModifierV AA9RectangleV AA06_EndedK0V AA08_ChangedK0V AA0k5StateK0V AA04DragK0V AA0xK0V AA09LongPressK0V AA9UnitPointV AA25_AppearanceActionModifierV
++ _symbolic _____ySDy__________GG 7Combine9PublishedV 16AssistiveTouchUI21AccessibilityMenuPageV 05SwiftE09UnitPointV
++ _symbolic _____ySDy__________GG 7SwiftUI9LazyStateV 22AccessibilityUtilities30AssistiveTouchMenuItemLocationO So6CGRectV
++ _symbolic _____ySDy__________G_G 7SwiftUI9LazyStateV7StorageO 22AccessibilityUtilities30AssistiveTouchMenuItemLocationO So6CGRectV
++ _symbolic _____ySSG 7SwiftUI24_CoordinateSpaceModifierV
++ _symbolic _____ySSG s23_ContiguousArrayStorageC
++ _symbolic _____ySay_____8location______4itemtGG 7SwiftUI5StateV 22AccessibilityUtilities30AssistiveTouchMenuItemLocationO 0fgB00fghI0V
++ _symbolic _____ySay_____8location______4itemtGG s18EnumeratedSequenceV 22AccessibilityUtilities30AssistiveTouchMenuItemLocationO 0eF2UI0efgH0V
++ _symbolic _____ySay_____GG 7Combine9PublishedV 16AssistiveTouchUI21AccessibilityMenuPageV
++ _symbolic _____ySbG 7SwiftUI11EnvironmentV
++ _symbolic _____ySbG 7SwiftUI12GestureStateV
++ _symbolic _____ySbG 7SwiftUI19_TaskValueModifier2V
++ _symbolic _____ySbG 7SwiftUI30_EnvironmentKeyWritingModifierV
++ _symbolic _____ySbG 7SwiftUI9LazyStateV
++ _symbolic _____ySbG s23_ContiguousArrayStorageC
++ _symbolic _____ySb_G 7SwiftUI9LazyStateV7StorageO
++ _symbolic _____yScTyyt_____GG s23_ContiguousArrayStorageC s5NeverO
++ _symbolic _____ySiG 7SwiftUI9LazyStateV
++ _symbolic _____ySi_G 7SwiftUI9LazyStateV7StorageO
++ _symbolic _____ySo7NSTimerCSgG 7SwiftUI9LazyStateV
++ _symbolic _____ySo7NSTimerCSg_G 7SwiftUI9LazyStateV7StorageO
++ _symbolic _____ySo7NSTimerCSg_G_yXlSgt 7SwiftUI9LazyStateV7StorageO
++ _symbolic _____ySo8UIScreenCG s11_SetStorageC
++ _symbolic _____y_____8location______4itemtG s23_ContiguousArrayStorageC 22AccessibilityUtilities30AssistiveTouchMenuItemLocationO 0fG2UI0fghI0V
++ _symbolic _____y_____8location______8positiontG s23_ContiguousArrayStorageC 22AccessibilityUtilities30AssistiveTouchMenuItemLocationO So7CGPointV
++ _symbolic _____y_____ABG 7SwiftUI25_ForegroundStyleModifier2V AA5ColorV
++ _symbolic _____y_____G 7Combine9PublishedV 12CoreGraphics7CGFloatV
++ _symbolic _____y_____G 7SwiftUI11EnvironmentV 014AssistiveTouchB00dE13LayoutContextO
++ _symbolic _____y_____G 7SwiftUI11EnvironmentV AA15DynamicTypeSizeO
++ _symbolic _____y_____G 7SwiftUI11_LayoutRootV 014AssistiveTouchB00ef4MenuC0V
++ _symbolic _____y_____G 7SwiftUI13_EndedGestureV AA03TapD0V
++ _symbolic _____y_____G 7SwiftUI13_EndedGestureV AA09LongPressD0V
++ _symbolic _____y_____G 7SwiftUI14ObservedObjectV 014AssistiveTouchB00F27HandlingBackgroundViewStateC
++ _symbolic _____y_____G 7SwiftUI14ObservedObjectV 014AssistiveTouchB00eF9MenuStateC
++ _symbolic _____y_____G 7SwiftUI17EnvironmentObjectV 014AssistiveTouchB00eF9MenuStateC
++ _symbolic _____y_____G 7SwiftUI21_ContentShapeModifierV AA16RoundedRectangleV
++ _symbolic _____y_____G 7SwiftUI21_ContentShapeModifierV AA9RectangleV
++ _symbolic _____y_____G 7SwiftUI21_TraitWritingModifierV AA010TransitionC3KeyV
++ _symbolic _____y_____G 7SwiftUI24_ForegroundStyleModifierV AA5ColorV
++ _symbolic _____y_____G 7SwiftUI30_EnvironmentKeyWritingModifierV AA11ColorSchemeO
++ _symbolic _____y_____G 7SwiftUI8BindableV So10AXSettingsC22AccessibilityUtilitiesE14AssistiveTouchC
++ _symbolic _____y_____G 7SwiftUI9LazyStateV 12CoreGraphics7CGFloatV
++ _symbolic _____y_____G 7SwiftUI9LazyStateV So19UIDeviceOrientationV
++ _symbolic _____y_____G s11_SetStorageC 22AccessibilityUtilities30AssistiveTouchMenuItemLocationO
++ _symbolic _____y_____G s16IndexingIteratorV 7SwiftUI14LayoutSubviewsV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 16AssistiveTouchUI0dE8MenuItemV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 16AssistiveTouchUI21AccessibilityMenuPageV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 22AccessibilityUtilities30AssistiveTouchMenuItemLocationO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 26AccessibilitySharedSupport0D6ActionO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 26AccessibilitySharedSupport0D6ActionO6DomainO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC s5UInt8V
++ _symbolic _____y_____Say_____GG 7SwiftUI6IDViewV 014AssistiveTouchB00dE19MenuExpandedContentV 26AccessibilitySharedSupport0I6ActionO
++ _symbolic _____y_____Say_____GGSg 7SwiftUI6IDViewV 014AssistiveTouchB00dE19MenuExpandedContentV 26AccessibilitySharedSupport0I6ActionO
++ _symbolic _____y_____SbG 7SwiftUI012GestureStateC0V AA04DragC0V
++ _symbolic _____y_____SgG 7Combine9PublishedV 7SwiftUI5ImageV
++ _symbolic _____y_____SgG 7SwiftUI11EnvironmentV 12CoreGraphics7CGFloatV
++ _symbolic _____y_____SgG 7SwiftUI11EnvironmentV AA16LegibilityWeightO
++ _symbolic _____y_____SgG 7SwiftUI18_AnimationModifierV 22AccessibilityUtilities30AssistiveTouchMenuItemLocationO
++ _symbolic _____y_____SgG 7SwiftUI18_AnimationModifierV AA9UnitPointV
++ _symbolic _____y_____SgG 7SwiftUI30_EnvironmentKeyWritingModifierV 014AssistiveTouchB00gH9MenuStateC
++ _symbolic _____y_____SgG 7SwiftUI30_EnvironmentKeyWritingModifierV AA4FontV
++ _symbolic _____y_____SgG 7SwiftUI5StateV 014AssistiveTouchB00dE19MenuExpandedContentV04DragC033_57A219D8A3AE91DAFD8A8EAE585AE16CLLV
++ _symbolic _____y_____SgG 7SwiftUI5StateV 014AssistiveTouchB00dE8MenuItemV
++ _symbolic _____y_____SgG 7SwiftUI5StateV AA9UnitPointV
++ _symbolic _____y_____SgG 7SwiftUI9LazyStateV 014AssistiveTouchB00eF19MenuExpandedContentV04DragD033_57A219D8A3AE91DAFD8A8EAE585AE16CLLV
++ _symbolic _____y_____SgG 7SwiftUI9LazyStateV 014AssistiveTouchB00eF8MenuItemV
++ _symbolic _____y_____SgG 7SwiftUI9LazyStateV So7CGPointV
++ _symbolic _____y_____SgGSg 7SwiftUI5StateV 014AssistiveTouchB00dE19MenuExpandedContentV04DragC033_57A219D8A3AE91DAFD8A8EAE585AE16CLLV
++ _symbolic _____y_____SgGSg 7SwiftUI5StateV 014AssistiveTouchB00dE8MenuItemV
++ _symbolic _____y_____Sg_G 7Combine9PublishedV9PublisherV 7SwiftUI5ImageV
++ _symbolic _____y_____Sg_G 7SwiftUI11EnvironmentV7ContentO AA16LegibilityWeightO
++ _symbolic _____y_____Sg_G 7SwiftUI9LazyStateV7StorageO 014AssistiveTouchB00fG19MenuExpandedContentV04DragD033_57A219D8A3AE91DAFD8A8EAE585AE16CLLV
++ _symbolic _____y_____Sg_G 7SwiftUI9LazyStateV7StorageO 014AssistiveTouchB00fG8MenuItemV
++ _symbolic _____y_____Sg_G 7SwiftUI9LazyStateV7StorageO So7CGPointV
++ _symbolic _____y_____Sg_G_yXlSgt 7SwiftUI9LazyStateV7StorageO 014AssistiveTouchB00fG19MenuExpandedContentV04DragD033_57A219D8A3AE91DAFD8A8EAE585AE16CLLV
++ _symbolic _____y_____Sg_G_yXlSgt 7SwiftUI9LazyStateV7StorageO 014AssistiveTouchB00fG8MenuItemV
++ _symbolic _____y______G 7SwiftUI11EnvironmentV7ContentO AA15DynamicTypeSizeO
++ _symbolic _____y______G 7SwiftUI9LazyStateV7StorageO 12CoreGraphics7CGFloatV
++ _symbolic _____y______G 7SwiftUI9LazyStateV7StorageO So19UIDeviceOrientationV
++ _symbolic _____y______G ScS8IteratorV 12CoreGraphics7CGFloatV
++ _symbolic _____y__________G 28AccessibilitySharedUISupport0A17FloatingUIContentV 16AssistiveTouchUI0a10MenuButtonfG0V AD0fg8ExpandedI0V
++ _symbolic _____y__________G 7SwiftUI15ModifiedContentV 014AssistiveTouchB00eF10MenuButtonV AA15_PositionLayoutV
++ _symbolic _____y__________G 7SwiftUI15ModifiedContentV 014AssistiveTouchB00eF15MenuButtonImage33_374A64A159D9821E91BF28D3C2A7966ELLV AA14_PaddingLayoutV
++ _symbolic _____y__________G 7SwiftUI15ModifiedContentV 014AssistiveTouchB00eF9VolumeBarV AA12_FrameLayoutV
++ _symbolic _____y__________G 7SwiftUI15ModifiedContentV AA5ImageV AA18_AspectRatioLayoutV
++ _symbolic _____y__________G 7SwiftUI15SequenceGestureV AA09LongPressD0V AA04DragD0V
++ _symbolic _____y__________G s18_DictionaryStorageC 16AssistiveTouchUI21AccessibilityMenuPageV 05SwiftE09UnitPointV
++ _symbolic _____y__________G s18_DictionaryStorageC 22AccessibilityUtilities30AssistiveTouchMenuItemLocationO 0C13SharedSupport0C6ActionO
++ _symbolic _____y__________G s18_DictionaryStorageC 22AccessibilityUtilities30AssistiveTouchMenuItemLocationO 0eF2UI0efgH0V
++ _symbolic _____y__________G s18_DictionaryStorageC 22AccessibilityUtilities30AssistiveTouchMenuItemLocationO So6CGRectV
++ _symbolic _____y__________G s18_DictionaryStorageC s6UInt32V 26AccessibilitySharedSupport0D18FloatingUIPositionO
++ _symbolic _____y__________G s18_DictionaryStorageC s6UInt32V 26AccessibilitySharedSupport0D23FloatingUIConfigurationV12DragBehaviorO
++ _symbolic _____y___________G 7SwiftUI15SequenceGestureV5ValueO AA09LongPressD0V AA04DragD0V
++ _symbolic _____y___________tG s23_ContiguousArrayStorageC 22AccessibilityUtilities30AssistiveTouchMenuItemLocationO 0fG2UI0fghI0V
++ _symbolic _____y___________ySnySiGSi_____yAEy_____y__________G_____G_____GGG 7SwiftUI13_VariadicViewO4TreeV AA13_HStackLayoutV AA7ForEachV AA15ModifiedContentV AA06_ShapeD0V AA9RectangleV AA5ColorV AA06_FrameG0V AA16_BlendModeEffectV
++ _symbolic _____y___________y___________yACyAD______yAFyAFyAFy__________y_____GGAHySiSgGGAHy_____GG_____GADQPGGADQPGG 7SwiftUI13_VariadicViewO4TreeV AA13_VStackLayoutV AA12TupleContentV AA6SpacerV AA6HStackV AA08ModifiedI0V AA4TextV AA30_EnvironmentKeyWritingModifierV AA0M9AlignmentO 12CoreGraphics7CGFloatV AA023AccessibilityAttachmentQ0V
++ _symbolic _____y___________y___________yAEyAEyAEy__________y_____GGAGySiSgGGAGy_____GG_____GADQPGG 7SwiftUI13_VariadicViewO4TreeV AA13_HStackLayoutV AA12TupleContentV AA6SpacerV AA08ModifiedI0V AA4TextV AA30_EnvironmentKeyWritingModifierV AA0L9AlignmentO 12CoreGraphics7CGFloatV AA023AccessibilityAttachmentP0V
++ _symbolic _____y___________y___________y_____y_____y_____yAEy_____y_____y__________G_Qo______y_____SgGGG______Qo__SbQo_ALy_____GGQPGG 7SwiftUI13_VariadicViewO4TreeV AA13_ZStackLayoutV AA12TupleContentV 014AssistiveTouchB00k18HandlingBackgroundD0V AA08ModifiedI0V AA0D0PAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO ApAEAqrS_Qrqd___Sbyqd___qd__tctSQRd__lFQO 28AccessibilitySharedUISupport0s19FloatingUIContainerD0V ApTE14axsuiReadFrame15coordinateSpaceAQQrAA15CoordinateSpaceO_ySo6CGRectVctFQO AT0sV9UIContentV AJ0s10MenuButtonjK0V AJ0jK12ExpandedMenuV AA30_EnvironmentKeyWritingModifierV AJ0jK9MenuStateC 0sT7Support0sV10UIPositionO AA11ColorSchemeO
++ _symbolic _____y___________y_____yADyADy__________GAFGAFG______Sg_____SgQPGG 7SwiftUI13_VariadicViewO4TreeV AA13_VStackLayoutV AA12TupleContentV AA08ModifiedI0V 014AssistiveTouchB00kL15MenuButtonImage33_374A64A159D9821E91BF28D3C2A7966ELLV AA08_PaddingG0V AL0klmN5TitleANLLV AA6SpacerV
++ _symbolic _____y___________y_____y_____yACy___________yACyAF_ADyADyADyADy__________y_____GGAIySiSgGGAIy_____GG_____GAFQPGGAFQPGG_____GSg_ADy_____y_____yADyADyADy__________G_____G_____G______Qo__SbQo_ASGQPGG 7SwiftUI13_VariadicViewO4TreeV AA13_ZStackLayoutV AA12TupleContentV AA08ModifiedI0V AA6VStackV AA6SpacerV AA6HStackV AA4TextV AA30_EnvironmentKeyWritingModifierV AA0N9AlignmentO 12CoreGraphics7CGFloatV AA023AccessibilityAttachmentR0V AA08_PaddingG0V AA0D0PAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO A4_AAEA5_A6_A7__Qrqd___Sbyqd___qd__tctSQRd__lFQO 014AssistiveTouchB014GazeFocusPointV AA06_FrameG0V AA09_PositionG0V AA017_AppearanceActionR0V A8_14GazeFocusStateO
++ _symbolic _____y___________y_____y_____y_____SbGGGQo_ 7SwiftUI4ViewPAAE19highPriorityGesture_9includingQrqd___AA0F4MaskVtAA0F0Rd__lFQO AA5ColorV AA06_EndedF0V AA08_ChangedF0V AA0f5StateF0V AA04DragF0V
++ _symbolic _____y___________y_____y_____y_____yADy__________y_____SgGG_Qo_AFGSg_____G_AEyADyADyADyAF_____GAJGAOGATGSgADyAT_____GSgQPGG 7SwiftUI13_VariadicViewO4TreeV AA13_ZStackLayoutV AA12TupleContentV AA08ModifiedI0V AA012_ConditionalI0V AA0D0PAAE10fontWeightyQrAA4FontV0M0VSgFQO AA5ImageV AA30_EnvironmentKeyWritingModifierV AR AA06_FrameG0V AA012_AspectRatioG0V AA14_OpacityEffectV
++ _symbolic _____y__________y_____ADGG 7SwiftUI15ModifiedContentV AA5ImageV AA25_ForegroundStyleModifier2V AA5ColorV
++ _symbolic _____y__________y_____SgGG 7SwiftUI15ModifiedContentV AA5ImageV AA30_EnvironmentKeyWritingModifierV AA4FontV
++ _symbolic _____y______pG s23_ContiguousArrayStorageC s7CVarArgP
++ _symbolic _____y______y_____G_____y_____ySay_____8location______4itemtGGSi_____y_____yAMyAMyAMyAMy_____yANyAMy__________G_____y______Qo_GARG_____y_____y_____GGG_____G_____G_____yAGSgGGAVy_____GG_Qo_GG 7SwiftUI13_VariadicViewO4TreeV AA11_LayoutRootV 014AssistiveTouchB00hi4MenuF0V AA7ForEachV s18EnumeratedSequenceV 22AccessibilityUtilities0hiJ12ItemLocationO AH0hijQ0V AA0D0P0O15SharedUISupportE14axsuiReadFrame15coordinateSpace8onChangeQrAA010CoordinateY0O_ySo6CGRectVctFQO AA15ModifiedContentV AA19_ConditionalContentV AH0hI9VolumeBarV AA01_wF0V AuAE0Z10TapGesture5count7performQrSi_yyctFQO AH0hiJ6ButtonV AA21_TraitWritingModifierV AA01_F5TraitV AH0hijqrF8ValueKey33_57A219D8A3AE91DAFD8A8EAE585AE16CLLV AA14_OpacityEffectV AA12_ScaleEffectV AA18_AnimationModifierV AA18TransitionTraitKeyV
++ _symbolic _____y_____yAAyAAyAAyAAyAAyAAy__________G_____G_____G_____GAGG_____y_____y_____y______AAyAAy_____yAAy_____AEG_Qo______y_____GGAIGQPGGSgGG_____y_____GG______Qo_ 7SwiftUI4ViewPAAE11buttonStyleyQrqd__AA015PrimitiveButtonE0Rd__lFQO AA15ModifiedContentV AA5ImageV AA18_AspectRatioLayoutV AA08_PaddingM0V AA06_FrameM0V AA31AccessibilityAttachmentModifierV AA08_OverlayR0V AA6VStackV AA05TupleI0V AA6SpacerV AcAE10fontWeightyQrAA4FontV0X0VSgFQO AA4TextV AA011_ForegroundeR0V AA017HierarchicalShapeE0V AA01_i5ShapeR0V AA16RoundedRectangleV AA05PlaingE0V
++ _symbolic _____y_____yAAyAAyAAyAAy_____yAByAAy__________G_____y______Qo_GAFG_____y_____y_____GGG_____G_____G_____y_____SgGGAJy_____GG_Qo_ 7SwiftUI4ViewP28AccessibilitySharedUISupportE14axsuiReadFrame15coordinateSpace8onChangeQrAA010CoordinateK0O_ySo6CGRectVctFQO AA15ModifiedContentV AA012_ConditionalQ0V 014AssistiveTouchB00sT9VolumeBarV AA01_I6LayoutV AcAE0L10TapGesture5count7performQrSi_yyctFQO AP0sT10MenuButtonV AA21_TraitWritingModifierV AA01_W5TraitV AP0st16MenuItemLocationW8ValueKey33_57A219D8A3AE91DAFD8A8EAE585AE16CLLV AA14_OpacityEffectV AA12_ScaleEffectV AA18_AnimationModifierV 0D9Utilities0sT16MenuItemLocationO AA18TransitionTraitKeyV
++ _symbolic _____y_____yAAyAAyAAyAAy_____y_____yAAyAAyAAy__________GAEGAEG______Sg_____SgQPGG_____y_____GG_____G_____ySbGG_____yAAy_____y_____yAAyAAy__________yA2PGGAUy_____SgGGG______Qo______GSgGG_Qo______G 7SwiftUI15ModifiedContentV AA4ViewPAAE20accessibilityElement8childrenQrAA26AccessibilityChildBehaviorV_tFQO AA6VStackV AA05TupleD0V 014AssistiveTouchB00nO15MenuButtonImage33_374A64A159D9821E91BF28D3C2A7966ELLV AA14_PaddingLayoutV AN0nopQ5TitleAPLLV AA6SpacerV AA24_ForegroundStyleModifierV AA5ColorV AA16_FlexFrameLayoutV AA30_EnvironmentKeyWritingModifierV AA16_OverlayModifierV AeAE11buttonStyleyQrqd__AA09PrimitiveQ5StyleRd__lFQO AA0Q0V AA0R0V AA25_ForegroundStyleModifier2V AA4FontV AA05PlainQ5StyleV AA13_OffsetEffectV AA0I18AttachmentModifierV
++ _symbolic _____y_____yAAyAAyAAy_____y_____yAAyAAyAAy__________GAEGAEG______Sg_____SgQPGG_____y_____GG_____G_____ySbGG_____yAAy_____y_____yAAyAAy__________yA2PGGAUy_____SgGGG______Qo______GSgGG_Qo_ 7SwiftUI4ViewPAAE20accessibilityElement8childrenQrAA26AccessibilityChildBehaviorV_tFQO AA15ModifiedContentV AA6VStackV AA05TupleK0V 014AssistiveTouchB00nO15MenuButtonImage33_374A64A159D9821E91BF28D3C2A7966ELLV AA14_PaddingLayoutV AN0nopQ5TitleAPLLV AA6SpacerV AA24_ForegroundStyleModifierV AA5ColorV AA16_FlexFrameLayoutV AA30_EnvironmentKeyWritingModifierV AA16_OverlayModifierV AcAE11buttonStyleyQrqd__AA09PrimitiveQ5StyleRd__lFQO AA0Q0V AA0R0V AA25_ForegroundStyleModifier2V AA4FontV AA05PlainQ5StyleV AA13_OffsetEffectV
++ _symbolic _____y_____yAAyAAyAAy_____y_____y_____y_____yAAyAAyAAy_____y______y_____G_____y_____ySay_____8location______4itemtGGSi_____yAAyAAyAAyAAyAAy_____yANyAAy__________G_____y______Qo_GARG_____y_____y_____GGG_____G_____G_____yAHSgGGAVy_____GG_Qo_GG_____yAAyAAyAAyAAyAR_____GA2_G_____G_____GSgGG_____ySSGG_____y_____GG______y_____y_____y_____SbGGGQo__A32_yA33_y_____y_____A35_GGGQo__SbQo_______SgQo______GA0_GA4_yA48_GGA9_G_SbQo_ 7SwiftUI4ViewPAAE4task2id4name8priority4file4line_Qrqd___SSSgScPSSSiyyYaYAcntSQRd__lFQO AA15ModifiedContentV AcAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO AcAEAmnO_Qrqd___Sbyqd___qd__tctSQRd__lFQO AcAE19simultaneousGesture_9includingQrqd___AA0Q4MaskVtAA0Q0Rd__lFQO AcAEAP_AQQrqd___AStAaTRd__lFQO AA09_VariadicC0O4TreeV AA11_LayoutRootV 014AssistiveTouchB00xy4MenuV0V AA7ForEachV s18EnumeratedSequenceV 22AccessibilityUtilities0xyZ12ItemLocationO A_0xyZ4ItemV AC28AccessibilitySharedUISupportE14axsuiReadFrame15coordinateSpaceAMQrAA15CoordinateSpaceO_ySo6CGRectVctFQO AA012_ConditionalK0V A_0xY9VolumeBarV AA06_FrameV0V AcAE0l3TapQ05count7performQrSi_yyctFQO A_0xyZ6ButtonV AA21_TraitWritingModifierV AA01_V5TraitV A_0xyz12ItemLocationV8ValueKey33_57A219D8A3AE91DAFD8A8EAE585AE16CLLV AA14_OpacityEffectV AA12_ScaleEffectV AA18_AnimationModifierV AA18TransitionTraitKeyV AA16_OverlayModifierV AA09_PositionV0V AA13_ShadowEffectV AA25_AllowsHitTestingModifierV AA24_CoordinateSpaceModifierV AA01_K13ShapeModifierV AA9RectangleV AA06_EndedQ0V AA08_ChangedQ0V AA0q5StateQ0V AA04DragQ0V AA08SequenceQ0V AA09LongPressQ0V AA9UnitPointV AA25_AppearanceActionModifierV
++ _symbolic _____y_____yAAyAAy__________y_____GGACy_____SgGG_Qo_ACy_____GG 7SwiftUI15ModifiedContentV AA4ViewPAAE10fontWeightyQrAA4FontV0G0VSgFQO AA4TextV AA30_EnvironmentKeyWritingModifierV AA0I9AlignmentO AH 12CoreGraphics7CGFloatV
++ _symbolic _____y_____yAAyAAy_____yAAyAAyAAyAAy_____y_____yAAyAAyAAy__________GAEGAEG______Sg_____SgQPGG_____y_____GG_____G_____ySbGG_____yAAy_____y_____yAAyAAy__________yA2PGGAUy_____SgGGG______Qo______GSgGG_Qo______G_____G______Qo______G 7SwiftUI15ModifiedContentV AA4ViewPAAE11buttonStyleyQrqd__AA015PrimitiveButtonG0Rd__lFQO AeAE20accessibilityElement8childrenQrAA26AccessibilityChildBehaviorV_tFQO AA6VStackV AA05TupleD0V 014AssistiveTouchB00rs4MenuI5Image33_374A64A159D9821E91BF28D3C2A7966ELLV AA14_PaddingLayoutV AP0rstI5TitleARLLV AA6SpacerV AA011_ForegroundG8ModifierV AA5ColorV AA16_FlexFrameLayoutV AA30_EnvironmentKeyWritingModifierV AA16_OverlayModifierV AeAEAFyQrqd__AaGRd__lFQO AA0I0V AA0U0V AA011_ForegroundG9Modifier2V AA4FontV AA05PlainiG0V AA13_OffsetEffectV AA0M18AttachmentModifierV AA12_FrameLayoutV AA010BorderlessiG0V AA14_OpacityEffectV
++ _symbolic _____y_____yAAyAAy_____y______y_____G_____y_____ySay_____8location______4itemtGGSi_____yAAyAAyAAyAAyAAy_____yANyAAy__________G_____y______Qo_GARG_____y_____y_____GGG_____G_____G_____yAHSgGGAVy_____GG_Qo_GG_____yAAyAAyAAyAAyAR_____GA2_G_____G_____GSgGG_____ySSGG_____y_____GG______y_____y_____y_____SbGGGQo_ 7SwiftUI4ViewPAAE19simultaneousGesture_9includingQrqd___AA0E4MaskVtAA0E0Rd__lFQO AA15ModifiedContentV AA09_VariadicC0O4TreeV AA11_LayoutRootV 014AssistiveTouchB00no4MenuL0V AA7ForEachV s18EnumeratedSequenceV 22AccessibilityUtilities0noP12ItemLocationO AQ0nopW0V AC0U15SharedUISupportE14axsuiReadFrame15coordinateSpace8onChangeQrAA15CoordinateSpaceO_ySo6CGRectVctFQO AA012_ConditionalI0V AQ0nO9VolumeBarV AA06_FrameL0V AcAE05onTapE05count7performQrSi_yyctFQO AQ0noP6ButtonV AA21_TraitWritingModifierV AA01_L5TraitV AQ0nopwxL8ValueKey33_57A219D8A3AE91DAFD8A8EAE585AE16CLLV AA14_OpacityEffectV AA12_ScaleEffectV AA18_AnimationModifierV AA18TransitionTraitKeyV AA16_OverlayModifierV AA09_PositionL0V AA13_ShadowEffectV AA25_AllowsHitTestingModifierV AA24_CoordinateSpaceModifierV AA01_I13ShapeModifierV AA9RectangleV AA06_EndedE0V AA08_ChangedE0V AA0e5StateE0V AA04DragE0V
++ _symbolic _____y_____yAAy_____yAAyAAyAAyAAy_____y_____yAAyAAyAAy__________GAEGAEG______Sg_____SgQPGG_____y_____GG_____G_____ySbGG_____yAAy_____y_____yAAyAAy__________yA2PGGAUy_____SgGGG______Qo______GSgGG_Qo______G_____G______Qo_ 7SwiftUI4ViewPAAE11buttonStyleyQrqd__AA015PrimitiveButtonE0Rd__lFQO AA15ModifiedContentV AcAE20accessibilityElement8childrenQrAA26AccessibilityChildBehaviorV_tFQO AA6VStackV AA05TupleI0V 014AssistiveTouchB00rs4MenuG5Image33_374A64A159D9821E91BF28D3C2A7966ELLV AA14_PaddingLayoutV AP0rstG5TitleARLLV AA6SpacerV AA011_ForegroundE8ModifierV AA5ColorV AA16_FlexFrameLayoutV AA30_EnvironmentKeyWritingModifierV AA16_OverlayModifierV AcAEADyQrqd__AaERd__lFQO AA0G0V AA0U0V AA011_ForegroundE9Modifier2V AA4FontV AA05PlaingE0V AA13_OffsetEffectV AA0M18AttachmentModifierV AA12_FrameLayoutV AA010BorderlessgE0V
++ _symbolic _____y_____yAAy_____y__________G_____G_____yAAyAAyAAyAG_____G_____GAHy_____yAAyAAyAAyAAy__________G_____y_____SgGG_____yA2DGGAQy_____GGSiGSgGGGG______Qo_ 7SwiftUI4ViewPAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO AA15ModifiedContentV AA06_ShapeC0V AA6CircleV AA5ColorV AA14_OpacityEffectV AA16_OverlayModifierV AA010_BlendModeN0V AA06_ScaleN0V AA6IDViewV AA5ImageV AA12_FrameLayoutV AA022_EnvironmentKeyWritingP0V AA015SymbolRenderingR0V AA25_ForegroundStyleModifier2V AA0I10TransitionV 014AssistiveTouchB014GazeFocusStateO
++ _symbolic _____y_____yAByAAy__________G_____y______Qo_GAFG_____y_____y_____GGG 7SwiftUI15ModifiedContentV AA012_ConditionalD0V 014AssistiveTouchB00fG9VolumeBarV AA12_FrameLayoutV AA4ViewPAAE12onTapGesture5count7performQrSi_yyctFQO AF0fG10MenuButtonV AA21_TraitWritingModifierV AA01_kT0V AF0fgr12ItemLocationK8ValueKey33_57A219D8A3AE91DAFD8A8EAE585AE16CLLV
++ _symbolic _____y_____yAByAByABy__________G_____G_____G_____GSgG 7SwiftUI16_OverlayModifierV AA15ModifiedContentV 014AssistiveTouchB00gH10MenuButtonV AA15_PositionLayoutV AA12_ScaleEffectV AA07_ShadowN0V AA017_AllowsHitTestingD0V
++ _symbolic _____y_____yAByABy__________G_____y_____SgGG_____GALGSg 7SwiftUI19_ConditionalContentV AA08ModifiedD0V AA5ImageV AA18_AspectRatioLayoutV AA30_EnvironmentKeyWritingModifierV AA4FontV AA06_FrameI0V
++ _symbolic _____y_____yABy__________y_____AEGG_____y_____SgGGG 7SwiftUI6ButtonV AA15ModifiedContentV AA5ImageV AA25_ForegroundStyleModifier2V AA5ColorV AA30_EnvironmentKeyWritingModifierV AA4FontV
++ _symbolic _____y_____ySay_____8location______4itemtGGSi_____y_____yAIyAIyAIyAIy_____yAJyAIy__________G_____y______Qo_GANG_____y_____y_____GGG_____G_____G_____yACSgGGARy_____GG_Qo_G 7SwiftUI7ForEachV s18EnumeratedSequenceV 22AccessibilityUtilities30AssistiveTouchMenuItemLocationO 0ijB00ijkL0V AA4ViewP0G15SharedUISupportE14axsuiReadFrame15coordinateSpace8onChangeQrAA010CoordinateU0O_ySo6CGRectVctFQO AA15ModifiedContentV AA19_ConditionalContentV AI0iJ9VolumeBarV AA01_S6LayoutV AmAE0V10TapGesture5count7performQrSi_yyctFQO AI0ijK6ButtonV AA21_TraitWritingModifierV AA12_LayoutTraitV AI0ijklM14LayoutValueKey33_57A219D8A3AE91DAFD8A8EAE585AE16CLLV AA14_OpacityEffectV AA12_ScaleEffectV AA18_AnimationModifierV AA18TransitionTraitKeyV
++ _symbolic _____y_____ySnySiGSi_____yADy_____y__________G_____G_____GGG 7SwiftUI6HStackV AA7ForEachV AA15ModifiedContentV AA10_ShapeViewV AA9RectangleV AA5ColorV AA12_FrameLayoutV AA16_BlendModeEffectV
++ _symbolic _____y_____y_____GG 7SwiftUI21_TraitWritingModifierV AA07_LayoutC0V 014AssistiveTouchB00gh16MenuItemLocationF8ValueKey33_57A219D8A3AE91DAFD8A8EAE585AE16CLLV
++ _symbolic _____y_____y_____SbGG 7SwiftUI15_ChangedGestureV AA0d5StateD0V AA04DragD0V
++ _symbolic _____y_____y__________GG 7SwiftUI15_ChangedGestureV AA08SequenceD0V AA09LongPressD0V AA04DragD0V
++ _symbolic _____y_____y__________G_Qo_ 7SwiftUI4ViewP28AccessibilitySharedUISupportE14axsuiReadFrame15coordinateSpace8onChangeQrAA010CoordinateK0O_ySo6CGRectVctFQO AD0D17FloatingUIContentV 014AssistiveTouchB00d10MenuButtonrS0V AN0rs8ExpandedT0V
++ _symbolic _____y_____y__________G_____G 7SwiftUI15ModifiedContentV AA10_ShapeViewV AA9RectangleV AA5ColorV AA12_FrameLayoutV
++ _symbolic _____y_____y__________G_____y______Qo_G 7SwiftUI19_ConditionalContentV AA08ModifiedD0V 014AssistiveTouchB00fG9VolumeBarV AA12_FrameLayoutV AA4ViewPAAE12onTapGesture5count7performQrSi_yyctFQO AF0fG10MenuButtonV
++ _symbolic _____y_____y__________G_____y______Qo__G 7SwiftUI19_ConditionalContentV7StorageO AA08ModifiedD0V 014AssistiveTouchB00gH9VolumeBarV AA12_FrameLayoutV AA4ViewPAAE12onTapGesture5count7performQrSi_yyctFQO AH0gH10MenuButtonV
++ _symbolic _____y_____y___________yADyADyADy__________y_____GGAFySiSgGGAFy_____GG_____GACQPGG 7SwiftUI6HStackV AA12TupleContentV AA6SpacerV AA08ModifiedE0V AA4TextV AA30_EnvironmentKeyWritingModifierV AA0H9AlignmentO 12CoreGraphics7CGFloatV AA023AccessibilityAttachmentL0V
++ _symbolic _____y_____y___________yADy_____yADy__________G_Qo______y_____GG_____GQPGG 7SwiftUI6VStackV AA12TupleContentV AA6SpacerV AA08ModifiedE0V AA4ViewPAAE10fontWeightyQrAA4FontV0J0VSgFQO AA4TextV AA14_PaddingLayoutV AA24_ForegroundStyleModifierV AA017HierarchicalShapeP0V AA023AccessibilityAttachmentQ0V
++ _symbolic _____y_____y___________y_____y_____y_____SbGGGQo__SbQo_ 7SwiftUI4ViewPAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO AcAE19highPriorityGesture_9includingQrqd___AA0J4MaskVtAA0J0Rd__lFQO AA5ColorV AA06_EndedJ0V AA08_ChangedJ0V AA0j5StateJ0V AA04DragJ0V
++ _symbolic _____y_____y___________y_____y_____y_____yADy_____y_____y__________G_Qo______y_____SgGGG______Qo__SbQo_AKy_____GGQPGG 7SwiftUI6ZStackV AA12TupleContentV 014AssistiveTouchB00G22HandlingBackgroundViewV AA08ModifiedE0V AA0J0PAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO AlAEAmnO_Qrqd___Sbyqd___qd__tctSQRd__lFQO 28AccessibilitySharedUISupport0p19FloatingUIContainerJ0V AlPE14axsuiReadFrame15coordinateSpaceAMQrAA010CoordinateY0O_ySo6CGRectVctFQO AP0pS9UIContentV AF0p10MenuButtonfG0V AF0fG12ExpandedMenuV AA30_EnvironmentKeyWritingModifierV AF0fG9MenuStateC 0pQ7Support0pS10UIPositionO AA11ColorSchemeO
++ _symbolic _____y_____y______y_____G_____y_____ySay_____8location______4itemtGGSi_____yAAyAAyAAyAAyAAy_____yANyAAy__________G_____y______Qo_GARG_____y_____y_____GGG_____G_____G_____yAHSgGGAVy_____GG_Qo_GG_____yAAyAAyAAyAAyAR_____GA2_G_____G_____GSgGG 7SwiftUI15ModifiedContentV AA13_VariadicViewO4TreeV AA11_LayoutRootV 014AssistiveTouchB00jk4MenuH0V AA7ForEachV s18EnumeratedSequenceV 22AccessibilityUtilities0jkL12ItemLocationO AJ0jklS0V AA0F0P0Q15SharedUISupportE14axsuiReadFrame15coordinateSpace8onChangeQrAA15CoordinateSpaceO_ySo6CGRectVctFQO AA012_ConditionalD0V AJ0jK9VolumeBarV AA01_yH0V AwAE12onTapGesture5count7performQrSi_yyctFQO AJ0jkL6ButtonV AA21_TraitWritingModifierV AA01_H5TraitV AJ0jklstH8ValueKey33_57A219D8A3AE91DAFD8A8EAE585AE16CLLV AA14_OpacityEffectV AA12_ScaleEffectV AA18_AnimationModifierV AA18TransitionTraitKeyV AA16_OverlayModifierV AA09_PositionH0V AA13_ShadowEffectV AA25_AllowsHitTestingModifierV
++ _symbolic _____y_____y_____yAAyAAyAAyAAyAAyAAy__________G_____G_____G_____GAGG_____y_____y_____y______AAyAAy_____yAAy_____AEG_Qo______y_____GGAIGQPGGSgGG_____y_____GG______Qo_______y_____GQo_ 7SwiftUI4ViewPAAE19simultaneousGesture_9includingQrqd___AA0E4MaskVtAA0E0Rd__lFQO AcAE11buttonStyleyQrqd__AA015PrimitiveButtonI0Rd__lFQO AA15ModifiedContentV AA5ImageV AA18_AspectRatioLayoutV AA08_PaddingQ0V AA06_FrameQ0V AA31AccessibilityAttachmentModifierV AA08_OverlayV0V AA6VStackV AA05TupleM0V AA6SpacerV AcAE10fontWeightyQrAA4FontV6WeightVSgFQO AA4TextV AA011_ForegroundiV0V AA017HierarchicalShapeI0V AA01_m5ShapeV0V AA16RoundedRectangleV AA05PlainkI0V AA06_EndedE0V AA03TapE0V
++ _symbolic _____y_____y_____yAAyAAyAAy__________GAEGAEG______Sg_____SgQPGG_____y_____GG 7SwiftUI15ModifiedContentV AA6VStackV AA05TupleD0V 014AssistiveTouchB00gH15MenuButtonImage33_374A64A159D9821E91BF28D3C2A7966ELLV AA14_PaddingLayoutV AH0ghiJ5TitleAJLLV AA6SpacerV AA24_ForegroundStyleModifierV AA5ColorV
++ _symbolic _____y_____y_____yAAyAAyAAy_____y_____y_____y_____yAAyAAyAAy_____y______y_____G_____y_____ySay_____8location______4itemtGGSi_____yAAyAAyAAyAAyAAy_____yANyAAy__________G_____y______Qo_GARG_____y_____y_____GGG_____G_____G_____yAHSgGGAVy_____GG_Qo_GG_____yAAyAAyAAyAAyAR_____GA2_G_____G_____GSgGG_____ySSGG_____y_____GG______y_____y_____y_____SbGGGQo__A32_yA33_y_____y_____A35_GGGQo__SbQo_______SgQo______GA0_GA4_yA48_GGA9_G_SbQo_______Qo_ 7SwiftUI4ViewPAAE8onChange2of7initial_Qrqd___SbyyctSQRd__lFQO AcAE4task2id4name8priority4file4line_Qrqd___SSSgScPSSSiyyYaYAcntSQRd__lFQO AA15ModifiedContentV AcAEAdeF_Qrqd___Sbyqd___qd__tctSQRd__lFQO AcAEAdeF_Qrqd___Sbyqd___qd__tctSQRd__lFQO AcAE19simultaneousGesture_9includingQrqd___AA0Q4MaskVtAA0Q0Rd__lFQO AcAEAP_AQQrqd___AStAaTRd__lFQO AA09_VariadicC0O4TreeV AA11_LayoutRootV 014AssistiveTouchB00xy4MenuV0V AA7ForEachV s18EnumeratedSequenceV 22AccessibilityUtilities0xyZ12ItemLocationO A_0xyZ4ItemV AC28AccessibilitySharedUISupportE14axsuiReadFrame15coordinateSpaceADQrAA15CoordinateSpaceO_ySo6CGRectVctFQO AA012_ConditionalO0V A_0xY9VolumeBarV AA06_FrameV0V AcAE0d3TapQ05count7performQrSi_yyctFQO A_0xyZ6ButtonV AA21_TraitWritingModifierV AA01_V5TraitV A_0xyz12ItemLocationV8ValueKey33_57A219D8A3AE91DAFD8A8EAE585AE16CLLV AA14_OpacityEffectV AA12_ScaleEffectV AA18_AnimationModifierV AA18TransitionTraitKeyV AA16_OverlayModifierV AA09_PositionV0V AA13_ShadowEffectV AA25_AllowsHitTestingModifierV AA24_CoordinateSpaceModifierV AA01_O13ShapeModifierV AA9RectangleV AA06_EndedQ0V AA08_ChangedQ0V AA0q5StateQ0V AA04DragQ0V AA08SequenceQ0V AA09LongPressQ0V AA9UnitPointV AA25_AppearanceActionModifierV A_013AccessibilityZ4PageV
++ _symbolic _____y_____y_____yAAyAAy__________y_____AEGG_____y_____SgGGG______Qo______G 7SwiftUI15ModifiedContentV AA4ViewPAAE11buttonStyleyQrqd__AA015PrimitiveButtonG0Rd__lFQO AA0I0V AA5ImageV AA011_ForegroundG9Modifier2V AA5ColorV AA30_EnvironmentKeyWritingModifierV AA4FontV AA05PlainiG0V AA13_OffsetEffectV
++ _symbolic _____y_____y_____yAAyAAy_____y______y_____G_____y_____ySay_____8location______4itemtGGSi_____yAAyAAyAAyAAyAAy_____yANyAAy__________G_____y______Qo_GARG_____y_____y_____GGG_____G_____G_____yAHSgGGAVy_____GG_Qo_GG_____yAAyAAyAAyAAyAR_____GA2_G_____G_____GSgGG_____ySSGG_____y_____GG______y_____y_____y_____SbGGGQo__A32_yA33_y_____y_____A35_GGGQo_ 7SwiftUI4ViewPAAE19simultaneousGesture_9includingQrqd___AA0E4MaskVtAA0E0Rd__lFQO AcAEAD_AEQrqd___AGtAaHRd__lFQO AA15ModifiedContentV AA09_VariadicC0O4TreeV AA11_LayoutRootV 014AssistiveTouchB00no4MenuL0V AA7ForEachV s18EnumeratedSequenceV 22AccessibilityUtilities0noP12ItemLocationO AQ0nopW0V AC0U15SharedUISupportE14axsuiReadFrame15coordinateSpace8onChangeQrAA15CoordinateSpaceO_ySo6CGRectVctFQO AA012_ConditionalI0V AQ0nO9VolumeBarV AA06_FrameL0V AcAE05onTapE05count7performQrSi_yyctFQO AQ0noP6ButtonV AA21_TraitWritingModifierV AA01_L5TraitV AQ0nopwxL8ValueKey33_57A219D8A3AE91DAFD8A8EAE585AE16CLLV AA14_OpacityEffectV AA12_ScaleEffectV AA18_AnimationModifierV AA18TransitionTraitKeyV AA16_OverlayModifierV AA09_PositionL0V AA13_ShadowEffectV AA25_AllowsHitTestingModifierV AA24_CoordinateSpaceModifierV AA01_I13ShapeModifierV AA9RectangleV AA06_EndedE0V AA08_ChangedE0V AA0e5StateE0V AA04DragE0V AA0tE0V AA09LongPressE0V
++ _symbolic _____y_____y_____yAAy__________y_____SgGG_Qo_ACGSg_____G 7SwiftUI15ModifiedContentV AA012_ConditionalD0V AA4ViewPAAE10fontWeightyQrAA4FontV0H0VSgFQO AA5ImageV AA30_EnvironmentKeyWritingModifierV AJ AA12_FrameLayoutV
++ _symbolic _____y_____y_____yAAy__________y_____SgGG_Qo_ACGSg_____G_AByAAyAAyAAyAC_____GAGGALGAQGSgAAyAQ_____GSgt 7SwiftUI15ModifiedContentV AA012_ConditionalD0V AA4ViewPAAE10fontWeightyQrAA4FontV0H0VSgFQO AA5ImageV AA30_EnvironmentKeyWritingModifierV AJ AA12_FrameLayoutV AA012_AspectRatioP0V AA14_OpacityEffectV
++ _symbolic _____y_____y_____yACyACy__________GAEGAEG______Sg_____SgQPGG 7SwiftUI6VStackV AA12TupleContentV AA08ModifiedE0V 014AssistiveTouchB00gH15MenuButtonImage33_374A64A159D9821E91BF28D3C2A7966ELLV AA14_PaddingLayoutV AH0ghiJ5TitleAJLLV AA6SpacerV
++ _symbolic _____y_____y_____ySnySiGSiAAyAAy_____y__________G_____G_____GGGAIG 7SwiftUI15ModifiedContentV AA6HStackV AA7ForEachV AA10_ShapeViewV AA9RectangleV AA5ColorV AA12_FrameLayoutV AA16_BlendModeEffectV
++ _symbolic _____y_____y_____y_____SbGGG 7SwiftUI13_EndedGestureV AA08_ChangedD0V AA0d5StateD0V AA04DragD0V
++ _symbolic _____y_____y_____y______AAy_____y_____y_____yAAy_____y_____y__________G_Qo______y_____SgGGG______Qo__SbQo_AKy_____GGQPGG_____G 7SwiftUI15ModifiedContentV AA6ZStackV AA05TupleD0V 014AssistiveTouchB00H22HandlingBackgroundViewV AA0K0PAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO AlAEAmnO_Qrqd___Sbyqd___qd__tctSQRd__lFQO 28AccessibilitySharedUISupport0p19FloatingUIContainerK0V AlPE14axsuiReadFrame15coordinateSpaceAMQrAA010CoordinateY0O_ySo6CGRectVctFQO AP0pS9UIContentV AH0p10MenuButtongH0V AH0gH12ExpandedMenuV AA30_EnvironmentKeyWritingModifierV AH0gH9MenuStateC 0pQ7Support0pS10UIPositionO AA11ColorSchemeO AA30_SafeAreaRegionsIgnoringLayoutV
++ _symbolic _____y_____y_____y__________GGG 7SwiftUI13_EndedGestureV AA08_ChangedD0V AA08SequenceD0V AA09LongPressD0V AA04DragD0V
++ _symbolic _____y_____y_____y__________G_Qo______y_____SgGG 7SwiftUI15ModifiedContentV AA4ViewP28AccessibilitySharedUISupportE14axsuiReadFrame15coordinateSpace8onChangeQrAA010CoordinateM0O_ySo6CGRectVctFQO AF0F17FloatingUIContentV 014AssistiveTouchB00f10MenuButtontU0V AP0tu8ExpandedV0V AA30_EnvironmentKeyWritingModifierV AP0tuV5StateC
++ _symbolic _____y_____y_____y__________G_____y______Qo_GAG_G 7SwiftUI19_ConditionalContentV7StorageO AC AA08ModifiedD0V 014AssistiveTouchB00gH9VolumeBarV AA12_FrameLayoutV AA4ViewPAAE12onTapGesture5count7performQrSi_yyctFQO AH0gH10MenuButtonV
++ _symbolic _____y_____y_____y___________yACyAD_AAyAAyAAyAAy__________y_____GGAGySiSgGGAGy_____GG_____GADQPGGADQPGG_____G 7SwiftUI15ModifiedContentV AA6VStackV AA05TupleD0V AA6SpacerV AA6HStackV AA4TextV AA30_EnvironmentKeyWritingModifierV AA0I9AlignmentO 12CoreGraphics7CGFloatV AA023AccessibilityAttachmentM0V AA14_PaddingLayoutV
++ _symbolic _____y_____y_____y___________yACyAD_AAyAAyAAyAAy__________y_____GGAGySiSgGGAGy_____GG_____GADQPGGADQPGG_____GSg 7SwiftUI15ModifiedContentV AA6VStackV AA05TupleD0V AA6SpacerV AA6HStackV AA4TextV AA30_EnvironmentKeyWritingModifierV AA0I9AlignmentO 12CoreGraphics7CGFloatV AA023AccessibilityAttachmentM0V AA14_PaddingLayoutV
++ _symbolic _____y_____y_____y___________yACyAD_AAyAAyAAyAAy__________y_____GGAGySiSgGGAGy_____GG_____GADQPGGADQPGG_____GSg_AAy_____y_____yAAyAAyAAy__________G_____G_____G______Qo__SbQo_AQGt 7SwiftUI15ModifiedContentV AA6VStackV AA05TupleD0V AA6SpacerV AA6HStackV AA4TextV AA30_EnvironmentKeyWritingModifierV AA0I9AlignmentO 12CoreGraphics7CGFloatV AA023AccessibilityAttachmentM0V AA14_PaddingLayoutV AA4ViewPAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO AzAEA_A0_A1__Qrqd___Sbyqd___qd__tctSQRd__lFQO 014AssistiveTouchB014GazeFocusPointV AA06_FrameU0V AA09_PositionU0V AA017_AppearanceActionM0V A2_14GazeFocusStateO
++ _symbolic _____y_____y_____y___________yAEy_____yAEy__________G_Qo______y_____GG_____GQPGGSgG 7SwiftUI16_OverlayModifierV AA6VStackV AA12TupleContentV AA6SpacerV AA08ModifiedG0V AA4ViewPAAE10fontWeightyQrAA4FontV0L0VSgFQO AA4TextV AA14_PaddingLayoutV AA016_ForegroundStyleD0V AA017HierarchicalShapeR0V AA023AccessibilityAttachmentD0V
++ _symbolic _____y_____y_____y__________y_____SgGG_Qo_ACG 7SwiftUI19_ConditionalContentV AA4ViewPAAE10fontWeightyQrAA4FontV0G0VSgFQO AA08ModifiedD0V AA5ImageV AA30_EnvironmentKeyWritingModifierV AH
++ _symbolic _____y_____y_____y__________y_____SgGG_Qo_AC_G 7SwiftUI19_ConditionalContentV7StorageO AA4ViewPAAE10fontWeightyQrAA4FontV0H0VSgFQO AA08ModifiedD0V AA5ImageV AA30_EnvironmentKeyWritingModifierV AJ
++ _symbolic _____y_____y_____y_____yAAyAAyAAyAAyAAyAAyAAy__________G_____G_____G_____GAGG_____y_____y_____y______AAyAAy_____yAAy_____AEG_Qo______y_____GGAIGQPGGSgGG_____y_____GG______Qo_______y_____GQo__A7_y_____GQo_AIG 7SwiftUI15ModifiedContentV AA4ViewPAAE19simultaneousGesture_9includingQrqd___AA0G4MaskVtAA0G0Rd__lFQO AeAEAF_AGQrqd___AItAaJRd__lFQO AeAE11buttonStyleyQrqd__AA015PrimitiveButtonK0Rd__lFQO AA5ImageV AA18_AspectRatioLayoutV AA08_PaddingQ0V AA06_FrameQ0V AA31AccessibilityAttachmentModifierV AA08_OverlayV0V AA6VStackV AA05TupleD0V AA6SpacerV AeAE10fontWeightyQrAA4FontV6WeightVSgFQO AA4TextV AA011_ForegroundkV0V AA017HierarchicalShapeK0V AA01_d5ShapeV0V AA16RoundedRectangleV AA05PlainmK0V AA06_EndedG0V AA03TapG0V AA09LongPressG0V
++ _symbolic _____y_____y_____y_____yAAyAAyAAyAAyAAyAAy__________G_____G_____G_____GAGG_____y_____y_____y______AAyAAy_____yAAy_____AEG_Qo______y_____GGAIGQPGGSgGG_____y_____GG______Qo_______y_____GQo__A7_y_____GQo_ 7SwiftUI4ViewPAAE19simultaneousGesture_9includingQrqd___AA0E4MaskVtAA0E0Rd__lFQO AcAEAD_AEQrqd___AGtAaHRd__lFQO AcAE11buttonStyleyQrqd__AA015PrimitiveButtonI0Rd__lFQO AA15ModifiedContentV AA5ImageV AA18_AspectRatioLayoutV AA08_PaddingQ0V AA06_FrameQ0V AA31AccessibilityAttachmentModifierV AA08_OverlayV0V AA6VStackV AA05TupleM0V AA6SpacerV AcAE10fontWeightyQrAA4FontV6WeightVSgFQO AA4TextV AA011_ForegroundiV0V AA017HierarchicalShapeI0V AA01_m5ShapeV0V AA16RoundedRectangleV AA05PlainkI0V AA06_EndedE0V AA03TapE0V AA09LongPressE0V
++ _symbolic _____y_____y_____y_____yAAyAAy_____y______y_____G_____y_____ySay_____8location______4itemtGGSi_____yAAyAAyAAyAAyAAy_____yANyAAy__________G_____y______Qo_GARG_____y_____y_____GGG_____G_____G_____yAHSgGGAVy_____GG_Qo_GG_____yAAyAAyAAyAAyAR_____GA2_G_____G_____GSgGG_____ySSGG_____y_____GG______y_____y_____y_____SbGGGQo__A32_yA33_y_____y_____A35_GGGQo__SbQo_ 7SwiftUI4ViewPAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO AcAE19simultaneousGesture_9includingQrqd___AA0I4MaskVtAA0I0Rd__lFQO AcAEAG_AHQrqd___AJtAaKRd__lFQO AA15ModifiedContentV AA09_VariadicC0O4TreeV AA11_LayoutRootV 014AssistiveTouchB00rs4MenuP0V AA7ForEachV s18EnumeratedSequenceV 22AccessibilityUtilities0rsT12ItemLocationO AT0rsT4ItemV AC0Y15SharedUISupportE14axsuiReadFrame15coordinateSpaceADQrAA15CoordinateSpaceO_ySo6CGRectVctFQO AA012_ConditionalM0V AT0rS9VolumeBarV AA06_FrameP0V AcAE0d3TapI05count7performQrSi_yyctFQO AT0rsT6ButtonV AA21_TraitWritingModifierV AA01_P5TraitV AT0rst12ItemLocationP8ValueKey33_57A219D8A3AE91DAFD8A8EAE585AE16CLLV AA14_OpacityEffectV AA12_ScaleEffectV AA18_AnimationModifierV AA18TransitionTraitKeyV AA16_OverlayModifierV AA09_PositionP0V AA13_ShadowEffectV AA25_AllowsHitTestingModifierV AA24_CoordinateSpaceModifierV AA01_M13ShapeModifierV AA9RectangleV AA06_EndedI0V AA08_ChangedI0V AA0i5StateI0V AA04DragI0V AA0xI0V AA09LongPressI0V
++ _symbolic _____y_____y_____y_____yAAy_____yADy___________yADyAF_AAyAAyAAyAAy__________y_____GGAIySiSgGGAIy_____GG_____GAFQPGGAFQPGG_____GSg_AAy_____y_____yAAyAAyAAy__________G_____G_____G______Qo__SbQo_ASGQPGGG_____G 7SwiftUI15ModifiedContentV AA14GeometryReaderV AA6ZStackV AA05TupleD0V AA6VStackV AA6SpacerV AA6HStackV AA4TextV AA30_EnvironmentKeyWritingModifierV AA0L9AlignmentO 12CoreGraphics7CGFloatV AA023AccessibilityAttachmentP0V AA14_PaddingLayoutV AA4ViewPAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO A2_AAEA3_A4_A5__Qrqd___Sbyqd___qd__tctSQRd__lFQO 014AssistiveTouchB014GazeFocusPointV AA06_FrameX0V AA09_PositionX0V AA017_AppearanceActionP0V A6_14GazeFocusStateO AA024_SafeAreaRegionsIgnoringX0V
++ _symbolic _____y_____y_____y_____yAAy_____y_____y__________G_Qo______y_____SgGGG______Qo__SbQo_AHy_____GG 7SwiftUI15ModifiedContentV AA4ViewPAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO AeAEAfgH_Qrqd___Sbyqd___qd__tctSQRd__lFQO 28AccessibilitySharedUISupport0j19FloatingUIContainerE0V AeIE14axsuiReadFrame15coordinateSpaceAFQrAA010CoordinateS0O_ySo6CGRectVctFQO AI0jM9UIContentV 014AssistiveTouchB00j10MenuButtonwX0V AT0wx8ExpandedY0V AA30_EnvironmentKeyWritingModifierV AT0wxY5StateC 0jK7Support0jM10UIPositionO AA11ColorSchemeO
++ _symbolic _____y_____y_____y_____yAByABy__________y_____AFGG_____y_____SgGGG______Qo______GSgG 7SwiftUI16_OverlayModifierV AA15ModifiedContentV AA4ViewPAAE11buttonStyleyQrqd__AA015PrimitiveButtonI0Rd__lFQO AA0K0V AA5ImageV AA011_ForegroundI9Modifier2V AA5ColorV AA022_EnvironmentKeyWritingD0V AA4FontV AA05PlainkI0V AA13_OffsetEffectV
++ _symbolic _____y_____y_____y_____y______AAy_____y_____y_____yAAy_____y_____y__________G_Qo______y_____SgGGG______Qo__SbQo_AKy_____GGQPGG_____G_Qo_ 7SwiftUI4ViewP28AccessibilitySharedUISupportE14axsuiReadFrame15coordinateSpace8onChangeQrAA010CoordinateK0O_ySo6CGRectVctFQO AA15ModifiedContentV AA6ZStackV AA05TupleQ0V 014AssistiveTouchB00u18HandlingBackgroundC0V AcAEAG2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO AcAEAguV_Qrqd___Sbyqd___qd__tctSQRd__lFQO AD0d19FloatingUIContainerC0V AcDEAefGQrAI_yAKctFQO AD0dZ9UIContentV AR0d10MenuButtontU0V AR0tU12ExpandedMenuV AA30_EnvironmentKeyWritingModifierV AR0tU9MenuStateC 0dE7Support0dZ10UIPositionO AA11ColorSchemeO AA30_SafeAreaRegionsIgnoringLayoutV
++ _symbolic _____y_____y_____y_____y__________G_Qo______y_____SgGGG 28AccessibilitySharedUISupport0A23FloatingUIContainerViewV 7SwiftUI15ModifiedContentV AD0F0PAAE14axsuiReadFrame15coordinateSpace8onChangeQrAD010CoordinateO0O_ySo6CGRectVctFQO AA0aD9UIContentV 014AssistiveTouchH00a10MenuButtonuV0V AR0uv8ExpandedW0V AD30_EnvironmentKeyWritingModifierV AR0uvW5StateC
++ _symbolic _____y_____y_____y_____y_____yAAyAAyAAy_____y______y_____G_____y_____ySay_____8location______4itemtGGSi_____yAAyAAyAAyAAyAAy_____yANyAAy__________G_____y______Qo_GARG_____y_____y_____GGG_____G_____G_____yAHSgGGAVy_____GG_Qo_GG_____yAAyAAyAAyAAyAR_____GA2_G_____G_____GSgGG_____ySSGG_____y_____GG______y_____y_____y_____SbGGGQo__A32_yA33_y_____y_____A35_GGGQo__SbQo_______SgQo______G 7SwiftUI15ModifiedContentV AA4ViewPAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO AeAEAfgH_Qrqd___Sbyqd___qd__tctSQRd__lFQO AeAE19simultaneousGesture_9includingQrqd___AA0K4MaskVtAA0K0Rd__lFQO AeAEAI_AJQrqd___ALtAaMRd__lFQO AA09_VariadicE0O4TreeV AA11_LayoutRootV 014AssistiveTouchB00rs4MenuP0V AA7ForEachV s18EnumeratedSequenceV 22AccessibilityUtilities0rsT12ItemLocationO AT0rsT4ItemV AE0Y15SharedUISupportE14axsuiReadFrame15coordinateSpaceAFQrAA15CoordinateSpaceO_ySo6CGRectVctFQO AA012_ConditionalD0V AT0rS9VolumeBarV AA06_FrameP0V AeAE0f3TapK05count7performQrSi_yyctFQO AT0rsT6ButtonV AA21_TraitWritingModifierV AA01_P5TraitV AT0rst12ItemLocationP8ValueKey33_57A219D8A3AE91DAFD8A8EAE585AE16CLLV AA14_OpacityEffectV AA12_ScaleEffectV AA18_AnimationModifierV AA18TransitionTraitKeyV AA16_OverlayModifierV AA09_PositionP0V AA13_ShadowEffectV AA25_AllowsHitTestingModifierV AA24_CoordinateSpaceModifierV AA01_D13ShapeModifierV AA9RectangleV AA06_EndedK0V AA08_ChangedK0V AA0k5StateK0V AA04DragK0V AA0xK0V AA09LongPressK0V AA9UnitPointV AA25_AppearanceActionModifierV
++ _symbolic _____y_____y_____y_____y_____yACy___________yACyAF_ADyADyADyADy__________y_____GGAIySiSgGGAIy_____GG_____GAFQPGGAFQPGG_____GSg_ADy_____y_____yADyADyADy__________G_____G_____G______Qo__SbQo_ASGQPGGG 7SwiftUI14GeometryReaderV AA6ZStackV AA12TupleContentV AA08ModifiedG0V AA6VStackV AA6SpacerV AA6HStackV AA4TextV AA30_EnvironmentKeyWritingModifierV AA0L9AlignmentO 12CoreGraphics7CGFloatV AA023AccessibilityAttachmentP0V AA14_PaddingLayoutV AA4ViewPAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO A2_AAEA3_A4_A5__Qrqd___Sbyqd___qd__tctSQRd__lFQO 014AssistiveTouchB014GazeFocusPointV AA06_FrameX0V AA09_PositionX0V AA017_AppearanceActionP0V A6_14GazeFocusStateO
++ _symbolic _____y_____y_____y_____y_____yACy__________y_____SgGG_Qo_AEGSg_____G_ADyACyACyACyAE_____GAIGANGASGSgACyAS_____GSgQPGG 7SwiftUI6ZStackV AA12TupleContentV AA08ModifiedE0V AA012_ConditionalE0V AA4ViewPAAE10fontWeightyQrAA4FontV0J0VSgFQO AA5ImageV AA30_EnvironmentKeyWritingModifierV AN AA12_FrameLayoutV AA012_AspectRatioR0V AA14_OpacityEffectV
++ _symbolic _____y_____y_____y_____y_____y__________G_Qo______y_____SgGGG______Qo_ 7SwiftUI4ViewPAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO 28AccessibilitySharedUISupport0h19FloatingUIContainerC0V AA15ModifiedContentV AcGE14axsuiReadFrame15coordinateSpaceADQrAA010CoordinateS0O_ySo6CGRectVctFQO AG0hK9UIContentV 014AssistiveTouchB00h10MenuButtonwX0V AT0wx8ExpandedY0V AA30_EnvironmentKeyWritingModifierV AT0wxY5StateC 0hI7Support0hK10UIPositionO
++ _symbolic qd0__
++ _symbolic qd__
++ _symbolic y______AAtcSg 22AccessibilityUtilities30AssistiveTouchMenuItemLocationO
++ _symbolic y______Sbtc 16AssistiveTouchUI0aB8MenuItemV
++ _symbolic y___________Sbtc 22AccessibilityUtilities30AssistiveTouchMenuItemLocationO 0cD2UI0cdeF0V
++ _symbolic y_____c 22AccessibilityUtilities30AssistiveTouchMenuItemLocationO
++ _symbolic y_____cSg 22AccessibilityUtilities30AssistiveTouchMenuItemLocationO
++ _symbolic yt
++ _symbolic ytSg
++ _symbolic ytSgIeAgHr_
++ _symbolic yycSg
++ _type_layout_string 16AssistiveTouchUI013AccessibilityaB17MenuResolvedStateV
++ _type_layout_string 16AssistiveTouchUI0aB10LayoutViewV
++ _type_layout_string 16AssistiveTouchUI0aB10MenuLayoutV
++ _type_layout_string 16AssistiveTouchUI0aB12ExpandedMenuV
++ _type_layout_string 16AssistiveTouchUI0aB19NubbitContainerViewV
++ _type_layout_string 16AssistiveTouchUI0aB9VolumeBarV
++ _type_layout_string 16AssistiveTouchUI21AccessibilityMenuPageV
++ _type_layout_string 16AssistiveTouchUI21AccessibilityMenuPageV17PaginationContext33_E5934A494A52D718333663E5946C5B09LLV
++ _type_layout_string So18CFNotificationNamea
+- +[ASTUIGazeEnrollmentManager sharedManager].cold.1
+- GCC_except_table2
+- GCC_except_table3
+- ___66-[ASTUILinearMatrixCalibrationStrategy learnCalibrationForPoints:]_block_invoke_2
+- ___block_descriptor_32_e33_v32?0"NSValue"8"NSValue"16^B24l
+- ___swift_memcpy104_8
+- ___swift_memcpy144_8
+- __swift_FORCE_LOAD_$_swiftCoreMedia
+- __swift_FORCE_LOAD_$_swiftCoreMedia_$_AssistiveTouchUI
+- __swift_FORCE_LOAD_$_swiftVideoToolbox
+- __swift_FORCE_LOAD_$_swiftVideoToolbox_$_AssistiveTouchUI
+- _block_copy_helper.34
+- _block_descriptor.36
+- _block_destroy_helper.35
+- _get_enum_tag_for_layout_string 7SwiftUI11StateObjectV7StorageOy014AssistiveTouchB004GazeC7ManagerC_G
+- _get_witness_table 7SwiftUI15ModifiedContentVyAA4ViewPAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQOyACyACyAA06_ShapeE0VyAA6CircleVAA5ColorVGAA14_OpacityEffectVGAA16_OverlayModifierVyACyACyACyArA010_BlendModeN0VGAA06_ScaleN0VGATyAA6IDViewVyACyACyACyACyAA5ImageVAA12_FrameLayoutVGAA022_EnvironmentKeyWritingP0VyAA015SymbolRenderingR0VSgGGAA25_ForegroundStyleModifier2VyA2NGGA7_yAA0D10TransitionVGGSiGSgGGGG_014AssistiveTouchB014GazeFocusStateOQo_AA017_AppearanceActionP0VGAaDHPqd0__AaDHD3_A30_HO_A32_AA0eP0HPyHCHC.45
+- _get_witness_table 7SwiftUI15ModifiedContentVyACyACyAA14GeometryReaderVyAA6ZStackVyAA9TupleViewVyACyAA6VStackVyAIyAA6SpacerV_AA6HStackVyAIyAM_ACyACyACyACyAA4TextVAA30_EnvironmentKeyWritingModifierVyAA0M9AlignmentOGGASySiSgGGASy12CoreGraphics7CGFloatVGGAA023AccessibilityAttachmentQ0VGAMtGGAMtGGAA14_PaddingLayoutVGSg_ACyAA0I0PAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQOyA16_AAEA17_A18_A19__Qrqd___Sbyqd___qd__tctSQRd__lFQOyACyACyACy014AssistiveTouchB014GazeFocusPointVAA06_FrameY0VGAA09_PositionY0VGAA017_AppearanceActionQ0VG_A20_14GazeFocusStateOQo__SbQo_A5_GtGGGAA024_SafeAreaRegionsIgnoringY0VGA5_GASyAA0Y9DirectionOGGAAA15_HPA43_AAA15_HPA42_AAA15_HPA39_AAA15_HPyHC_A41_AA0iQ0HPyHCHC_A5_AAA48_HPyHCHC_A46_AAA48_HPyHCHC.93
+- _objc_msgSend$mainScreen
+- _objectdestroyTm
+- _swift_retain_n
+- _symbolic ___________y_____yAA______yADyADyADy__________y_____GGAFySiSgGGAFy_____GG_____GAAtGGAAt 7SwiftUI6SpacerV AA6HStackV AA9TupleViewV AA15ModifiedContentV AA4TextV AA30_EnvironmentKeyWritingModifierV AA0I9AlignmentO 12CoreGraphics7CGFloatV AA023AccessibilityAttachmentM0V
+- _symbolic _____yAAyAAy_____y_____y_____yAAy_____yADy___________yADyAF_AAyAAyAAyAAy__________y_____GGAIySiSgGGAIy_____GG_____GAFtGGAFtGG_____GSg_AAy_____y_____yAAyAAyAAy__________G_____G_____G______Qo__SbQo_ASGtGGG_____GASGAIy_____GG 7SwiftUI15ModifiedContentV AA14GeometryReaderV AA6ZStackV AA9TupleViewV AA6VStackV AA6SpacerV AA6HStackV AA4TextV AA30_EnvironmentKeyWritingModifierV AA0M9AlignmentO 12CoreGraphics7CGFloatV AA023AccessibilityAttachmentQ0V AA14_PaddingLayoutV AA0I0PAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO A2_AAEA3_A4_A5__Qrqd___Sbyqd___qd__tctSQRd__lFQO 014AssistiveTouchB014GazeFocusPointV AA06_FrameY0V AA09_PositionY0V AA017_AppearanceActionQ0V A6_14GazeFocusStateO AA024_SafeAreaRegionsIgnoringY0V AA0Y9DirectionO
+- _symbolic _____yAAy_____y_____y_____yAAy_____yADy___________yADyAF_AAyAAyAAyAAy__________y_____GGAIySiSgGGAIy_____GG_____GAFtGGAFtGG_____GSg_AAy_____y_____yAAyAAyAAy__________G_____G_____G______Qo__SbQo_ASGtGGG_____GASG 7SwiftUI15ModifiedContentV AA14GeometryReaderV AA6ZStackV AA9TupleViewV AA6VStackV AA6SpacerV AA6HStackV AA4TextV AA30_EnvironmentKeyWritingModifierV AA0M9AlignmentO 12CoreGraphics7CGFloatV AA023AccessibilityAttachmentQ0V AA14_PaddingLayoutV AA0I0PAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO A2_AAEA3_A4_A5__Qrqd___Sbyqd___qd__tctSQRd__lFQO 014AssistiveTouchB014GazeFocusPointV AA06_FrameY0V AA09_PositionY0V AA017_AppearanceActionQ0V A6_14GazeFocusStateO AA024_SafeAreaRegionsIgnoringY0V
+- _symbolic _____ySiGSg 7SwiftUI11AnyLocationC
+- _symbolic _____ySo7NSTimerCSgG 7SwiftUI5StateV
+- _symbolic _____ySo7NSTimerCSgGSg 7SwiftUI11AnyLocationC
+- _symbolic _____y_____G 7SwiftUI5StateV 12CoreGraphics7CGFloatV
+- _symbolic _____y_____G 7SwiftUI5StateV So19UIDeviceOrientationV
+- _symbolic _____y___________y___________yACyAD______yAFyAFyAFy__________y_____GGAHySiSgGGAHy_____GG_____GADtGGADtGG 7SwiftUI13_VariadicViewO4TreeV AA13_VStackLayoutV AA05TupleD0V AA6SpacerV AA6HStackV AA15ModifiedContentV AA4TextV AA30_EnvironmentKeyWritingModifierV AA0M9AlignmentO 12CoreGraphics7CGFloatV AA023AccessibilityAttachmentQ0V
+- _symbolic _____y___________y___________yAEyAEyAEy__________y_____GGAGySiSgGGAGy_____GG_____GADtGG 7SwiftUI13_VariadicViewO4TreeV AA13_HStackLayoutV AA05TupleD0V AA6SpacerV AA15ModifiedContentV AA4TextV AA30_EnvironmentKeyWritingModifierV AA0L9AlignmentO 12CoreGraphics7CGFloatV AA023AccessibilityAttachmentP0V
+- _symbolic _____y___________y_____y_____yACy___________yACyAF_ADyADyADyADy__________y_____GGAIySiSgGGAIy_____GG_____GAFtGGAFtGG_____GSg_ADy_____y_____yADyADyADy__________G_____G_____G______Qo__SbQo_ASGtGG 7SwiftUI13_VariadicViewO4TreeV AA13_ZStackLayoutV AA05TupleD0V AA15ModifiedContentV AA6VStackV AA6SpacerV AA6HStackV AA4TextV AA30_EnvironmentKeyWritingModifierV AA0N9AlignmentO 12CoreGraphics7CGFloatV AA023AccessibilityAttachmentR0V AA08_PaddingG0V AA0D0PAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO A4_AAEA5_A6_A7__Qrqd___Sbyqd___qd__tctSQRd__lFQO 014AssistiveTouchB014GazeFocusPointV AA06_FrameG0V AA09_PositionG0V AA017_AppearanceActionR0V A8_14GazeFocusStateO
+- _symbolic _____y_____y___________yADyADyADy__________y_____GGAFySiSgGGAFy_____GG_____GACtGG 7SwiftUI6HStackV AA9TupleViewV AA6SpacerV AA15ModifiedContentV AA4TextV AA30_EnvironmentKeyWritingModifierV AA0I9AlignmentO 12CoreGraphics7CGFloatV AA023AccessibilityAttachmentM0V
+- _symbolic _____y_____y_____y___________yACyAD_AAyAAyAAyAAy__________y_____GGAGySiSgGGAGy_____GG_____GADtGGADtGG_____G 7SwiftUI15ModifiedContentV AA6VStackV AA9TupleViewV AA6SpacerV AA6HStackV AA4TextV AA30_EnvironmentKeyWritingModifierV AA0J9AlignmentO 12CoreGraphics7CGFloatV AA023AccessibilityAttachmentN0V AA14_PaddingLayoutV
+- _symbolic _____y_____y_____y___________yACyAD_AAyAAyAAyAAy__________y_____GGAGySiSgGGAGy_____GG_____GADtGGADtGG_____GSg 7SwiftUI15ModifiedContentV AA6VStackV AA9TupleViewV AA6SpacerV AA6HStackV AA4TextV AA30_EnvironmentKeyWritingModifierV AA0J9AlignmentO 12CoreGraphics7CGFloatV AA023AccessibilityAttachmentN0V AA14_PaddingLayoutV
+- _symbolic _____y_____y_____y___________yACyAD_AAyAAyAAyAAy__________y_____GGAGySiSgGGAGy_____GG_____GADtGGADtGG_____GSg_AAy_____y_____yAAyAAyAAy__________G_____G_____G______Qo__SbQo_AQGt 7SwiftUI15ModifiedContentV AA6VStackV AA9TupleViewV AA6SpacerV AA6HStackV AA4TextV AA30_EnvironmentKeyWritingModifierV AA0J9AlignmentO 12CoreGraphics7CGFloatV AA023AccessibilityAttachmentN0V AA14_PaddingLayoutV AA0G0PAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO AzAEA_A0_A1__Qrqd___Sbyqd___qd__tctSQRd__lFQO 014AssistiveTouchB014GazeFocusPointV AA06_FrameV0V AA09_PositionV0V AA017_AppearanceActionN0V A2_14GazeFocusStateO
+- _symbolic _____y_____y_____y_____yAAy_____yADy___________yADyAF_AAyAAyAAyAAy__________y_____GGAIySiSgGGAIy_____GG_____GAFtGGAFtGG_____GSg_AAy_____y_____yAAyAAyAAy__________G_____G_____G______Qo__SbQo_ASGtGGG_____G 7SwiftUI15ModifiedContentV AA14GeometryReaderV AA6ZStackV AA9TupleViewV AA6VStackV AA6SpacerV AA6HStackV AA4TextV AA30_EnvironmentKeyWritingModifierV AA0M9AlignmentO 12CoreGraphics7CGFloatV AA023AccessibilityAttachmentQ0V AA14_PaddingLayoutV AA0I0PAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO A2_AAEA3_A4_A5__Qrqd___Sbyqd___qd__tctSQRd__lFQO 014AssistiveTouchB014GazeFocusPointV AA06_FrameY0V AA09_PositionY0V AA017_AppearanceActionQ0V A6_14GazeFocusStateO AA024_SafeAreaRegionsIgnoringY0V
+- _symbolic _____y_____y_____y_____y_____yACy___________yACyAF_ADyADyADyADy__________y_____GGAIySiSgGGAIy_____GG_____GAFtGGAFtGG_____GSg_ADy_____y_____yADyADyADy__________G_____G_____G______Qo__SbQo_ASGtGGG 7SwiftUI14GeometryReaderV AA6ZStackV AA9TupleViewV AA15ModifiedContentV AA6VStackV AA6SpacerV AA6HStackV AA4TextV AA30_EnvironmentKeyWritingModifierV AA0M9AlignmentO 12CoreGraphics7CGFloatV AA023AccessibilityAttachmentQ0V AA14_PaddingLayoutV AA0G0PAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO A2_AAEA3_A4_A5__Qrqd___Sbyqd___qd__tctSQRd__lFQO 014AssistiveTouchB014GazeFocusPointV AA06_FrameY0V AA09_PositionY0V AA017_AppearanceActionQ0V A6_14GazeFocusStateO
+- _type_layout_string 16AssistiveTouchUI14GazeFocusPointV
+- _type_layout_string 16AssistiveTouchUI15CalibrationViewV
+CStrings:
++ "%d.%d.%d"
++ "/System/Library/CoreServices/SystemVersion.plist"
++ "@avg.self"
++ "AST received Secure Intent Notification: %@"
++ "AST registering for Secure Intent Notifications"
++ "Accessing Environment<%s>'s value outside of being installed on a View. This will always read the default value and will not update."
++ "AssistiveTouchLayoutContext"
++ "AssistiveTouchUI.AssistiveTouchMenuState"
++ "CALIBRATION_MATRIX | W: [%.6f, %.6f, %.6f, %.6f, %.6f, %.6f] | points: %lu"
++ "CALIBRATION_QUALITY | mean_residual: %.2f | max_residual: %.2f | point_count: %lu"
++ "CALIBRATION_RESIDUAL | gt: (%.1f, %.1f) | pred: (%.1f, %.1f) | calibrated: (%.1f, %.1f) | residual: %.2f"
++ "CFDataCreateWithBytesNoCopy"
++ "CFDictionaryGetValue"
++ "CFGetTypeID"
++ "CFPropertyListCreateFromXMLData"
++ "CFPropertyListCreateWithData"
++ "CFRelease"
++ "CFStringCreateWithCStringNoCopy"
++ "CFStringGetCString"
++ "CFStringGetTypeID"
++ "Contradictory frame constraints specified."
++ "Ground truth point: { %.2f, %.2f }, predicted point { %.2f, %.2f }, difference: %.2f"
++ "Median: %.2f, Mean: %.2f"
++ "Optional<CGFloat>"
++ "Optional<LegibilityWeight>"
++ "ProductVersion"
++ "Transition Menu to Nubbit"
++ "Transition Nubbit to Menu"
++ "Unable to query Local Auth Storage: %s"
++ "View.task @ AssistiveTouchUI/AssistiveTouchMenuExpandedContent.swift:"
++ "[Error] Interval already ended"
++ "circle.circle.fill"
++ "com.apple.Accessibility"
++ "com.apple.LocalAuthentication.intent.not-waiting"
++ "com.apple.LocalAuthentication.intent.waiting"
++ "com.apple.assistivetouchd.has_shown_secure_intent_confirm"
++ "init()"
++ "kCFAllocatorNull"
++ "minus.circle.fill"
++ "q"
++ "r"
+- "#16@0:8"
+- "$__lazy_storage_$_calibrationView"
+- ".cxx_destruct"
+- "@\"<ASTUICalibrationStrategy>\""
+- "@\"<ASTUIGazePointDelegate>\"16@0:8"
+- "@\"<UIViewControllerAnimatedTransitioning>\"48@0:8@\"UINavigationController\"16q24@\"UIViewController\"32@\"UIViewController\"40"
+- "@\"<UIViewControllerInteractiveTransitioning>\"32@0:8@\"UINavigationController\"16@\"<UIViewControllerAnimatedTransitioning>\"24"
+- "@\"<UIViewImplicitlyAnimating>\"24@0:8@\"<UIViewControllerContextTransitioning>\"16"
+- "@\"ASTUIGazeEnrollmentStore\""
+- "@\"NSArray\""
+- "@\"NSMutableDictionary\""
+- "@\"NSString\""
+- "@\"NSString\"16@0:8"
+- "@\"UIView\"16@0:8"
+- "@\"UIView\"24@0:8@\"NSString\"16"
+- "@\"UIViewController\"24@0:8@\"NSString\"16"
+- "@16@0:8"
+- "@20@0:8B16"
+- "@24@0:8:16"
+- "@24@0:8@16"
+- "@32@0:8#16#24"
+- "@32@0:8:16@24"
+- "@32@0:8@16@24"
+- "@32@0:8{CGPoint=dd}16"
+- "@40@0:8:16@24@32"
+- "@48@0:8@16q24@32@40"
+- "@48@0:8{CGRect={CGPoint=dd}{CGSize=dd}}16"
+- "ASTUICalibrationStrategy"
+- "ASTUICalibrationViewControllerDelegate"
+- "ASTUICapturedGazeEnrollmentPoint"
+- "ASTUIDualMatrixCalibrationStrategy"
+- "ASTUIGazeEnrollmentManager"
+- "ASTUIGazeEnrollmentStore"
+- "ASTUILinearMatrixCalibrationStrategy"
+- "ASTUISingularMatrixCalibrationStrategy"
+- "AssistiveTouchUI"
+- "B"
+- "B16@0:8"
+- "B24@0:8#16"
+- "B24@0:8:16"
+- "B24@0:8@\"Protocol\"16"
+- "B24@0:8@16"
+- "CGPointValue"
+- "NSObject"
+- "Q16@0:8"
+- "Q24@0:8@\"UINavigationController\"16"
+- "Q24@0:8@16"
+- "T#,R"
+- "T@\"<ASTUICalibrationStrategy>\",&,N,V_calibrationStrategy"
+- "T@\"<ASTUIGazePointDelegate>\",R,N"
+- "T@\"NSArray\",&,N,V_bottomCalibrationMatrix"
+- "T@\"NSArray\",&,N,V_topCalibrationMatrix"
+- "T@\"NSArray\",R,N"
+- "T@\"NSDictionary\",R,N"
+- "T@\"NSMutableDictionary\",&,N,V_storedEnrollments"
+- "T@\"NSString\",&,N,V_positionName"
+- "T@\"NSString\",?,R,C"
+- "T@\"NSString\",R,C"
+- "T@\"UIView\",R,N"
+- "TB,N,R"
+- "TB,N,V_enrollmentComplete"
+- "TB,R,N"
+- "TB,R,N,GisAnimated"
+- "TB,R,N,GisInteractive"
+- "TQ,R"
+- "Td,N,V_uncalibratedMiddleLineOfTheScreen"
+- "Tq,R,N"
+- "T{CGAffineTransform=dddddd},R,N"
+- "T{CGPoint=dd},N,V_groundTruthPoint"
+- "T{CGPoint=dd},N,V_predictedPoint"
+- "UINavigationControllerDelegate"
+- "UIViewControllerAnimatedTransitioning"
+- "UIViewControllerContextTransitioning"
+- "Vv16@0:8"
+- "^{_NSZone=}16@0:8"
+- "_TtC16AssistiveTouchUI16GazeStateManager"
+- "_TtC16AssistiveTouchUI21GazeFocusModelFactory"
+- "_TtC16AssistiveTouchUI22CalibrationContentView"
+- "_TtC16AssistiveTouchUI23CalibrationViewDelegate"
+- "_TtC16AssistiveTouchUI25CalibrationViewController"
+- "_TtC16AssistiveTouchUI35CalibrationNavigationViewController"
+- "_TtC16AssistiveTouchUIP33_68923AC70CF2E840903A54A21D42AC2C14PushTransition"
+- "_bottomCalibrationMatrix"
+- "_calibrationPoint"
+- "_calibrationStrategy"
+- "_canShowWhileLocked"
+- "_currentGazeState"
+- "_enrollmentComplete"
+- "_focusModel"
+- "_gazeState"
+- "_groundTruthPoint"
+- "_learnCalibration"
+- "_positionName"
+- "_predictedPoint"
+- "_retrieveDictionary"
+- "_setupCalibrationStrategy"
+- "_store"
+- "_storedEnrollments"
+- "_topCalibrationMatrix"
+- "_uncalibratedMiddleLineOfTheScreen"
+- "activateConstraints:"
+- "addGestureRecognizer:"
+- "addObject:"
+- "addSubview:"
+- "allKeys"
+- "allValues"
+- "animateTransition:"
+- "animateWithDuration:delay:options:animations:completion:"
+- "animated"
+- "animationEnded:"
+- "archivedDataWithRootObject:requiringSecureCoding:error:"
+- "arrayWithCapacity:"
+- "assistiveTouchMouseOnDeviceEyeTrackingCalibratedValues"
+- "assistiveTouchMouseOnDeviceEyeTrackingCalibrationStrategy"
+- "assistiveTouchMouseOnDeviceEyeTrackingEnrollmentCompleted"
+- "assistiveTouchMouseOnDeviceEyeTrackingEnrollmentPointToGazePointMap"
+- "assistiveTouchOnDeviceEyeTrackingCalibrationDotActivationTimeout"
+- "autorelease"
+- "ax_mappedArrayUsingBlock:"
+- "base64EncodedStringWithOptions:"
+- "blackColor"
+- "blurView"
+- "bottomAnchor"
+- "bottomCalibrationMatrix"
+- "bounds"
+- "calibratedArray"
+- "calibratedArrayForGazePoint:"
+- "calibratedGazePointForGazePoint:"
+- "calibrationObservable"
+- "calibrationStrategy"
+- "cancelInteractiveTransition"
+- "cancellable"
+- "captureCurrentEnrollmentPoint:gazePoint:positionName:"
+- "captureGazeEnrollmentPoint:"
+- "class"
+- "clearColor"
+- "clearStore"
+- "completeTransition:"
+- "conformsToProtocol:"
+- "constraintEqualToAnchor:"
+- "containerView"
+- "containsObject:"
+- "contentView"
+- "count"
+- "countByEnumeratingWithState:objects:count:"
+- "currentDevice"
+- "d"
+- "d16@0:8"
+- "d24@0:8@\"<UIViewControllerContextTransitioning>\"16"
+- "d24@0:8@16"
+- "dealloc"
+- "debugDescription"
+- "delegate"
+- "description"
+- "dictionary"
+- "didForceDismissForEmergencyTap"
+- "dismissCompletion"
+- "dismissViewControllerAnimated:completion:"
+- "effectWithStyle:"
+- "enrollmentCancellable"
+- "enrollmentComplete"
+- "enrollmentPointToGazePointDict"
+- "enumerateKeysAndObjectsUsingBlock:"
+- "enumerateObjectsUsingBlock:"
+- "finalFrameForViewController:"
+- "finishInteractiveTransition"
+- "floatValue"
+- "frame"
+- "gazePointManager"
+- "groundTruthPoint"
+- "handleTapGuesture:"
+- "hash"
+- "init"
+- "initWithBase64EncodedString:options:"
+- "initWithCoder:"
+- "initWithFrame:"
+- "initWithNavigationBarClass:toolbarClass:"
+- "initWithNibName:bundle:"
+- "initWithRootViewController:"
+- "initWithTarget:action:"
+- "initialFrameForViewController:"
+- "interactive"
+- "interruptibleAnimatorForTransition:"
+- "invalidate"
+- "isAnimated"
+- "isEqual:"
+- "isInteractive"
+- "isKindOfClass:"
+- "isMemberOfClass:"
+- "isProxy"
+- "lastSeenLookAtPoint"
+- "layer"
+- "leadingAnchor"
+- "learnCalibration"
+- "learnCalibrationForPoints:"
+- "mainScreen"
+- "mutableCopy"
+- "navigationController:animationControllerForOperation:fromViewController:toViewController:"
+- "navigationController:didShowViewController:animated:"
+- "navigationController:interactionControllerForAnimationController:"
+- "navigationController:willShowViewController:animated:"
+- "navigationControllerPreferredInterfaceOrientationForPresentation:"
+- "navigationControllerSupportedInterfaceOrientations:"
+- "numberWithDouble:"
+- "numberWithFloat:"
+- "objectAtIndexedSubscript:"
+- "objectForKeyedSubscript:"
+- "orientation"
+- "overlayView"
+- "pauseInteractiveTransition"
+- "performSelector:"
+- "performSelector:withObject:"
+- "performSelector:withObject:withObject:"
+- "popViewControllerAnimated:"
+- "positionName"
+- "predictedPoint"
+- "prefersHomeIndicatorAutoHidden"
+- "prefersStatusBarHidden"
+- "presentationStyle"
+- "pushViewController:animated:"
+- "q16@0:8"
+- "q24@0:8@\"UINavigationController\"16"
+- "q24@0:8@16"
+- "registerUpdateBlock:forRetrieveSelector:withListener:"
+- "release"
+- "reset"
+- "resetGazeEnrollment"
+- "respondsToSelector:"
+- "retain"
+- "retainCount"
+- "safeAreaInsets"
+- "saveCalibratedArray:"
+- "saveEnrollmentCompleted:"
+- "saveEnrollmentPoint:withGazePoint:"
+- "scheduledTimerWithTimeInterval:repeats:block:"
+- "self"
+- "setAccessibilityElementsHidden:"
+- "setAssistiveTouchBubbleModeEnabled:"
+- "setAssistiveTouchMouseOnDeviceEyeTrackingCalibratedValues:"
+- "setAssistiveTouchMouseOnDeviceEyeTrackingEnrollmentCompleted:"
+- "setAssistiveTouchMouseOnDeviceEyeTrackingEnrollmentPointToGazePointMap:"
+- "setBackgroundColor:"
+- "setBottomCalibrationMatrix:"
+- "setCalibrationStrategy:"
+- "setDelegate:"
+- "setEffect:"
+- "setEnrollmentComplete:"
+- "setFrame:"
+- "setGroundTruthPoint:"
+- "setIdleTimerDisabled:"
+- "setIsAccessibilityElement:"
+- "setNavigationBarHidden:"
+- "setObject:forKey:"
+- "setObject:forKeyedSubscript:"
+- "setOpacity:"
+- "setPositionName:"
+- "setPredictedPoint:"
+- "setStoredEnrollments:"
+- "setTopCalibrationMatrix:"
+- "setTranslatesAutoresizingMaskIntoConstraints:"
+- "setUncalibratedMiddleLineOfTheScreen:"
+- "setWithArray:"
+- "sharedApplication"
+- "sharedInstance"
+- "sharedManager"
+- "storedEnrollments"
+- "superclass"
+- "targetTransform"
+- "topAnchor"
+- "topCalibrationMatrix"
+- "trailingAnchor"
+- "transitionDuration:"
+- "transitionWasCancelled"
+- "unarchivedObjectOfClass:fromData:error:"
+- "uncalibratedMiddleLineOfTheScreen"
+- "updateInteractiveTransition:"
+- "v16@0:8"
+- "v16@?0@\"NSTimer\"8"
+- "v20@0:8B16"
+- "v24@0:8@\"<UIViewControllerContextTransitioning>\"16"
+- "v24@0:8@\"ASTUICapturedGazeEnrollmentPoint\"16"
+- "v24@0:8@16"
+- "v24@0:8d16"
+- "v28@0:8@16B24"
+- "v32@0:8{CGPoint=dd}16"
+- "v36@0:8@\"UINavigationController\"16@\"UIViewController\"24B32"
+- "v36@0:8@16@24B32"
+- "v48@0:8{CGPoint=dd}16{CGPoint=dd}32"
+- "v56@0:8{CGPoint=dd}16{CGPoint=dd}32@48"
+- "valueWithBytes:objCType:"
+- "valueWithCGPoint:"
+- "view"
+- "viewControllerForKey:"
+- "viewDidAppear:"
+- "viewDidLayoutSubviews"
+- "viewDidLoad"
+- "viewForKey:"
+- "viewWillDisappear:"
+- "zone"
+- "{CGAffineTransform=dddddd}16@0:8"
+- "{CGPoint=\"x\"d\"y\"d}"
+- "{CGPoint=dd}16@0:8"
+- "{CGPoint=dd}32@0:8{CGPoint=dd}16"
+- "{CGRect={CGPoint=dd}{CGSize=dd}}24@0:8@\"UIViewController\"16"
+- "{CGRect={CGPoint=dd}{CGSize=dd}}24@0:8@16"
+
+```

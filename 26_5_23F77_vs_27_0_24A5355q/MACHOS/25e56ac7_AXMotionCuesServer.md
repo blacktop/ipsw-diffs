@@ -1,0 +1,476 @@
+## AXMotionCuesServer
+
+> `/System/Library/AccessibilityBundles/AXMotionCuesServer.axuiservice/AXMotionCuesServer`
+
+```diff
+
+-3191.35.0.0.0
+-  __TEXT.__text: 0x308b0 sha256:d768b3bcdaaf7f0dec000926eac644af15063680a618567e6236757e0ec367d5
+-  __TEXT.__auth_stubs: 0x1490 sha256:9561716670da035e08befdef71c2b7dc802f56053ec379466dbe6eeee6435c6f
+-  __TEXT.__objc_stubs: 0x1140 sha256:aec9fd06c57c28670c1e8eab0a6333504eefbea5a58ceff18c666e2d7df329d0
+-  __TEXT.__objc_methlist: 0x5b0 sha256:f5f8a0a2de3119a3ea6e52974fa175e5e0edd16395c17c012c8c354ebfd1eb9c
+-  __TEXT.__const: 0x1f06 sha256:6886851e18f2e5e979190ad116070800a87c7222c561d7bfaf6e361135249136
+-  __TEXT.__gcc_except_tab: 0x24 sha256:66b40776f28da37785f563e5ee55a89ebcaa099ae4a59672aedce694b63106af
+-  __TEXT.__cstring: 0x1e4f sha256:6e3bace8b2f5f4069518d6d713ece1e85cf33995f829f5b5ba8b5f406e2c9da1
+-  __TEXT.__oslogstring: 0xc28 sha256:9d58fdf5ca7a7787b48543c9f6d9a2d959c80cd4c1c718771a0aa07ea0410cd3
++3229.1.6.0.0
++  __TEXT.__text: 0x31c74 sha256:66d4e10740cec8c174e83a670370429f2fdbdc3a7239b411240d8dcd6b154b11
++  __TEXT.__auth_stubs: 0x1760 sha256:a40017037a9cd741f0d7620dbedcd68fbe2cd43c6d52b5de91f1a22ae525904c
++  __TEXT.__objc_stubs: 0x1240 sha256:4661a5d1fa59e46d41d1890741ea947df1969ac913ffcb282dd0dcaebdd7d4c0
++  __TEXT.__objc_methlist: 0x650 sha256:99e780a4bb1dfb6ba1c63ca3dfb4b9e323f7d093893e59843e4739cb7834dc99
+   __TEXT.__dlopen_cstrs: 0x68 sha256:4d641a31599f293a8e9473b498474a5ef707d96458155c8ba8fc0ac0b2c95fb7
+-  __TEXT.__objc_classname: 0x4cf sha256:9a808f1ea6eda6791531f08d65cbdb15f7675f2dd681929bc0d2d06e924919c4
+-  __TEXT.__objc_methname: 0x255d sha256:999604caadbd24f6349524b53011c041d19297a97e741ea7aebd5e64da7d5eeb
+-  __TEXT.__objc_methtype: 0x5bb sha256:8d3fb28d2680bef1251bb58a8e318b6c6a584cfcdd26ec0ea7e6fd71db6898c4
+-  __TEXT.__constg_swiftt: 0x1228 sha256:5d49fbd8520675671aa526568e892a31435c4a348ec5ed2a27db32a796194453
+-  __TEXT.__swift5_typeref: 0x920 sha256:9c2624d893e0ce69c57a287151bcdfd83d156f4fb656b2954d41111225992395
+-  __TEXT.__swift5_reflstr: 0xe90 sha256:76db7aacee04c2453478684c88388ed6b1464c9567aa27fa92be3be9bf60e810
+-  __TEXT.__swift5_fieldmd: 0xc48 sha256:939f9c56c46c88637c8deb87de5299f91af2175804009815ff70ebf8740f9e56
+-  __TEXT.__swift5_builtin: 0xb4 sha256:35113e0be08952324d1c76ebd0a2b6e2c6d09c2327599839030f81c5e3ad7302
+-  __TEXT.__swift5_capture: 0x2bc sha256:e0db6247cbeaf56268766587e1186d9a233ad854d6faf471080c7b56ef616d41
+-  __TEXT.__swift5_assocty: 0x140 sha256:ede1e49d97762146995c7638ea002efd0da66869878315beb6667c7449c23176
+-  __TEXT.__swift5_proto: 0x7c sha256:6c7bf0733aab3a4867dff1a93c1558fc3a7ac8dd8ffda82bea6f96f35459fbe9
+-  __TEXT.__swift5_types: 0x98 sha256:3fbb468f87eda50056ae0cc70483509053adb1c36de53c07e9d39e203bf904d0
+-  __TEXT.__swift5_protos: 0x4 sha256:e3cf38c97ed03e87a73ee89a081c399a519cab3aca539e38ce3e8baad30677e4
+-  __TEXT.__swift_as_entry: 0x64 sha256:68b277618286d35ff9220fc08da413ca7ae5c2b7bae4cefbfdb4eec4f79f4029
+-  __TEXT.__swift_as_ret: 0x78 sha256:82444fb852c93604c0b25de85ab974a7de62735c9522e04b5dca2d0e20eb6a76
+-  __TEXT.__unwind_info: 0xc18 sha256:ea26ff2b02770c2b3bcee0e742b2bffd2a6e779122d0c097ee427e99e00a7a8e
+-  __TEXT.__eh_frame: 0xfe8 sha256:a3b8268fd33814e08dcfd1a2c87e2a643d8d1a370f61f56361b49f235fa5ca1e
+-  __DATA_CONST.__auth_got: 0xa58 sha256:540f3febb00655e54323a3339dc7860082e0a82f1db19a4102b720c506622dcb
+-  __DATA_CONST.__got: 0x338 sha256:0955001b1e327bccb788eaa0f0a05c7216cb397bd32f4cd22e7dc1f437dddb87
+-  __DATA_CONST.__auth_ptr: 0x428 sha256:bded23d8fd0f452916a482f86a25df0ab4805b9528a5d8deb2220c3321a0fae5
+-  __DATA_CONST.__const: 0x10c8 sha256:a8546d6c1c9ad3a46d27e73b337172673c0b10472ab99f1436896a2b28e4fc0d
+-  __DATA_CONST.__cfstring: 0x60 sha256:c977b406ca52e5fbe5b2617b925772fca2327c88574f5a6c928d6d90207005a0
+-  __DATA_CONST.__objc_classlist: 0xb0 sha256:a65ec8b10c2c534ca7fa2b3c87b8c6cdc055003c95198981eeb7d384bfdbb235
+-  __DATA_CONST.__objc_protolist: 0x40 sha256:f11cfc45576cdea954778944cd522fd8ed6d2776c4e1b6a480719f0946b6abad
+-  __DATA_CONST.__objc_imageinfo: 0x8 sha256:234cedc7009d98da03ca2a7ff525d0db26b82bff0e6046456f4eda918f734526
+-  __DATA_CONST.__objc_protorefs: 0x20 sha256:9f6283e625f95aad3cda297edba405655e08bde45dbeb76794b6c22093196bde
+-  __DATA_CONST.__vfx_script_tbl: 0x10 sha256:790a1a9ac994324d97f66f6821951289139bb1e9f5b1d34460f2f347379ea16a
+-  __DATA.__objc_const: 0x23a8 sha256:a94b57f43fee6c84ba02dbccfe364523e068d7152135224b53734145e85c2782
+-  __DATA.__objc_selrefs: 0x668 sha256:479edc5c109ffde8df631a2fec7b34598294d64e256ebf4baa30e0bfc14baa54
+-  __DATA.__objc_data: 0xcd8 sha256:d02f57a2e22f103c07001ca607a8f197feca47be5995723b9330e35301e59561
+-  __DATA.__data: 0x2050 sha256:7be2918270a3962935ad5513318f942a819cd2b4d475eb197e18da2a5b10589a
+-  __DATA.__bss: 0x12f0 sha256:a5d761d934032f4110b47c2362b1254f1403baad447cd8ca324d564fa103cb5e
++  __TEXT.__const: 0x1f70 sha256:6c64dffacedd17937f21d7f20813f5fe0ef96fa5e448cdf8ae0530f0a2f33d39
++  __TEXT.__objc_classname: 0x4d8 sha256:0172ea9f0261380dd1493647c34b7a2f70e5cf542f080bc73fa0f5bad7c1bf39
++  __TEXT.__objc_methname: 0x282d sha256:be7b2b7466c27d69a1693a1509422113c5d04f3ef840cf555e1b6470f81e529f
++  __TEXT.__objc_methtype: 0x6db sha256:11a835304165ba4551ce0d89f900bc39d25b43ae7848c532f7b953b9e74e1ebe
++  __TEXT.__constg_swiftt: 0x128c sha256:b900ddd0147c306c9ee26bc554dd4cbabd026115e4d5b8abaf768ddc1d1530df
++  __TEXT.__swift5_typeref: 0x9ce sha256:5af288f6e734ff08dfdce68c31b9c196cc5dee6a49c6e94241026c58381d8863
++  __TEXT.__swift5_reflstr: 0xf20 sha256:2895bbd60efe768a351281df0e9b47f1c44d222c846604749a8589577fc5ec81
++  __TEXT.__swift5_fieldmd: 0xc90 sha256:ffd5d0ebfea85f1fe369d78a574251ff7f7c06ab7ed2e03b2cbea1d199ea42d0
++  __TEXT.__swift5_builtin: 0xc8 sha256:0e4d350cb7d8f468882f866dc0790a6553dee83704220063c6bd1f2c1540dcdc
++  __TEXT.__cstring: 0x11d7 sha256:1657c3ba95fb13b79fefbfe77507708f8fcf783338da0dcfea08ddba9fdf9f31
++  __TEXT.__swift5_capture: 0x3bc sha256:5be4002808538f69f6cb91b079ed9f718ea42254ebad8cc988ab3fc2b7244cd3
++  __TEXT.__swift5_assocty: 0x158 sha256:e197610c42b4574f4e3a9c6e2edcabacc06c137d2b68d6b3d7e7470d124a7340
++  __TEXT.__swift5_proto: 0x84 sha256:8fb651e941a701d21a7bd7dd630193473353cb2d44f978b380ba9302e4affcb0
++  __TEXT.__swift5_types: 0x9c sha256:632212c41bafe13faf11f5aa12a4aa7fd3ff5f6135834ca7766497f51653340b
++  __TEXT.__oslogstring: 0xc5a sha256:c991cf655fb6af107e76bbd95d6a5e2e9735411427170f62736416fe27a0082b
++  __TEXT.__swift5_protos: 0x4 sha256:3f001ec82ffc1dd4f6bf68872c439a2eb9a5792b02bb122e74dbcbd43eb163dc
++  __TEXT.__swift_as_entry: 0x6c sha256:3346bdc09028bc5228ae1f05200295d90ca4378c7aa4f65ff8fffbad061ad596
++  __TEXT.__swift_as_ret: 0x84 sha256:456dc9f3fb6366e273a651a5e66abaf5d8cd224ebc10282bc119221b1ab112f6
++  __TEXT.__swift_as_cont: 0xf8 sha256:9b56af77a9b67d10d703f34eb4f5bd5ea0e1f6c30ecaba74489e1189e070c4bf
++  __TEXT.__gcc_except_tab: 0x44 sha256:c6ee78f6a4b3500c0faf3c7a52ac6ac44b6caf218f65c14157b7181d3c1f052c
++  __TEXT.__unwind_info: 0xb68 sha256:540ce6b3b93d4bbd21bc385688efe09849c0ff0cc143d4e3e764f4ab91c99fec
++  __TEXT.__eh_frame: 0x12e8 sha256:f1efa58ed8f44fc23d2d01826f3be7f591dd9e52cb42db27a10b3d29e542dd7b
++  __DATA_CONST.__const: 0x1360 sha256:f8d11818bf1eaf523f174ec8839b3e413e93acde7ceb535b12b4b130407ce132
++  __DATA_CONST.__cfstring: 0x60 sha256:1d498b4df54f187a581325a3a6dd3086ce42f3a9f18e51e67aa222f6f866d562
++  __DATA_CONST.__objc_classlist: 0xb0 sha256:7e257c84c035a5f7c28e3fb612fefb27eee2cb1963615c26ad48335327a65e77
++  __DATA_CONST.__objc_protolist: 0x50 sha256:f3ec6afe2dc01425760f8f9bd3729d79b29c05464d8147eb62fed783bcc5f30d
++  __DATA_CONST.__objc_imageinfo: 0x8 sha256:885ce8037a15de89b0ceb0054c31fc3de725513307f685be388961916dadcdb0
++  __DATA_CONST.__objc_protorefs: 0x28 sha256:d75577421833355e56c8ab5a99c57322c7abd73105395deec40375fbb644b4a0
++  __DATA_CONST.__vfx_script_tby: 0x20 sha256:4845ffb58baae0afa006a3bc73fece3276dda2b23ad129bccffa9564e4d76ae9
++  __DATA_CONST.__auth_got: 0xbc0 sha256:e65a93d5c62ea571106eed472e2e8b680ee2c6e339dccbf5c3c454ae965c3cab
++  __DATA_CONST.__got: 0x330 sha256:a808d1d2646e3ecc55c337ba9348fe36f46c7f6b8e8351e368a0f67b879e0c22
++  __DATA_CONST.__auth_ptr: 0x428 sha256:158cb528d940e60c8ebe948da53b0cafcd2c722424a367271dd1c9ba65da71b3
++  __DATA.__objc_const: 0x24b8 sha256:6901df77100a289245ad8639a6c7def0c65733c5ad225fb98c69dd3cc3f9c287
++  __DATA.__objc_selrefs: 0x6f0 sha256:4b973501a3c52b2a4551cd90a8b1a69fa6732fd0eaa02b5be79325ce0ee3be9f
++  __DATA.__objc_data: 0xcf8 sha256:1879b78e9297564751fde14262f396d0375fb525ee20f2898e3d5f962a7586c2
++  __DATA.__data: 0x1e30 sha256:579998f7722372e26d9d9d6c7267ec783253c248fe281d795967fa75b35bd4f7
++  __DATA.__bss: 0x1490 sha256:61c21db2a2cf0e87c642d2e73e96db9788001c7538554d6a723264fc9a1aa90b
+   __DATA.__common: 0xc0 sha256:5d89f056865052bcb89c910d2d62872e029fb273c3db03f8968a52a41593c1b5
+   - /System/Library/Frameworks/Combine.framework/Combine
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+
+   - /System/Library/PrivateFrameworks/AccessibilityUIService.framework/AccessibilityUIService
+   - /System/Library/PrivateFrameworks/AccessibilityUIUtilities.framework/AccessibilityUIUtilities
+   - /System/Library/PrivateFrameworks/AccessibilityUtilities.framework/AccessibilityUtilities
++  - /System/Library/PrivateFrameworks/BacklightServices.framework/BacklightServices
+   - /System/Library/PrivateFrameworks/BiomeLibrary.framework/BiomeLibrary
+   - /System/Library/PrivateFrameworks/CoreAnalytics.framework/CoreAnalytics
+-  - /System/Library/PrivateFrameworks/FrontBoardServices.framework/FrontBoardServices
+   - /System/Library/PrivateFrameworks/SoftLinking.framework/SoftLinking
+   - /System/Library/PrivateFrameworks/SpringBoardUIServices.framework/SpringBoardUIServices
+   - /System/Library/PrivateFrameworks/VFX.framework/VFX
+
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/swift/libswiftAVFoundation.dylib
+   - /usr/lib/swift/libswiftAccelerate.dylib
++  - /usr/lib/swift/libswiftCompression.dylib
+   - /usr/lib/swift/libswiftCore.dylib
+   - /usr/lib/swift/libswiftCoreAudio.dylib
+   - /usr/lib/swift/libswiftCoreAudio_Private.dylib
+
+   - /usr/lib/swift/libswiftCoreImage.dylib
+   - /usr/lib/swift/libswiftCoreLocation.dylib
+   - /usr/lib/swift/libswiftCoreMIDI.dylib
+-  - /usr/lib/swift/libswiftCoreMedia.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
+   - /usr/lib/swift/libswiftGLKit.dylib
+   - /usr/lib/swift/libswiftMLCompute.dylib
+
+   - /usr/lib/swift/libswiftSceneKit.dylib
+   - /usr/lib/swift/libswiftSpatial.dylib
+   - /usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
+-  - /usr/lib/swift/libswiftVideoToolbox.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 174ED0C2-22AA-3E28-B75B-0870326858C1
+-  Functions: 952
+-  Symbols:   405
+-  CStrings:  734
++  UUID: 320978A4-1257-3CAD-A093-72B46D4B337A
++  Functions: 899
++  Symbols:   316
++  CStrings:  733
+ 
+Symbols:
++ _OBJC_CLASS_$_BLSBacklight
++ _OBJC_CLASS_$_BLSDisplayReference
++ ___vfx_script_VMCParticles_graph_67
++ ___vfx_script_VMCParticles_graph_71
++ ___vfx_script_VMCParticles_graph_72
++ ___vfx_script_VMCParticles_graph_74
++ ___vfx_script_VMCParticles_particleInit_69
++ ___vfx_script_VMCParticles_particleUpdate_70
++ ___vfx_script_VMCParticles_trigger_68
++ ___vfx_script_VMCParticles_trigger_73
++ __swift_FORCE_LOAD_$_swiftCompression
++ _fmodf
++ _objc_claimAutoreleasedReturnValue
++ _objc_retainAutorelease
++ _objc_retain_x1
++ _objc_retain_x3
++ _objc_retain_x9
++ _swift_bridgeObjectRetain_n
++ _swift_isUniquelyReferenced_nonNull_bridgeObject
++ _swift_release_x1
++ _swift_release_x19
++ _swift_release_x20
++ _swift_release_x21
++ _swift_release_x22
++ _swift_release_x23
++ _swift_release_x24
++ _swift_release_x25
++ _swift_release_x26
++ _swift_release_x27
++ _swift_release_x28
++ _swift_release_x8
++ _swift_retain_x1
++ _swift_retain_x19
++ _swift_retain_x2
++ _swift_retain_x20
++ _swift_retain_x21
++ _swift_retain_x22
++ _swift_retain_x23
++ _swift_retain_x24
++ _swift_retain_x25
++ _swift_retain_x26
++ _swift_retain_x27
++ _swift_retain_x28
++ _swift_retain_x8
+- _OBJC_CLASS_$_CADisplayLink
+- _OBJC_CLASS_$_FBSDisplayLayoutMonitor
+- _OBJC_CLASS_$_FBSDisplayLayoutMonitorConfiguration
+- _OBJC_CLASS_$_UIScreen
+- __Z40ParticleInit_VMCParticles_particleInit_4PKvjDv3_fRDv4_f
+- __Z41ParticleInit_VMCParticles_particleInit_17PKvjDv3_fRDv4_f
+- __Z41ParticleInit_VMCParticles_particleInit_73PKvjDv3_fRDv4_f
+- __Z41ParticleInit_VMCParticles_particleInit_94PKvjDv3_fRDv4_f
+- __Z42ParticleInit_VMCParticles_particleInit_102PKvjDv3_fRDv4_f
+- __Z42ParticleInit_VMCParticles_particleInit_119PKvjDv3_fRDv4_f
+- __Z42ParticleInit_VMCParticles_particleInit_188PKvjDv3_fRDv4_f
+- __Z42ParticleInit_VMCParticles_particleInit_247PKvjDv3_fRDv4_f
+- __Z42ParticleInit_VMCParticles_particleInit_261PKvjDv3_fRDv4_f
+- __Z42ParticleInit_VMCParticles_particleInit_292PKvjDv3_fRDv4_f
+- __Z45ParticleUpdate_VMCParticles_particleUpdate_13PKvjfDv3_ffRfRS1_
+- __Z45ParticleUpdate_VMCParticles_particleUpdate_83PKvjfDv3_ffRfRS1_
+- __Z45ParticleUpdate_VMCParticles_particleUpdate_99PKvjfDv3_ffRfRS1_
+- __Z46ParticleUpdate_VMCParticles_particleUpdate_143PKvjfDv3_ffRfRS1_
+- __Z46ParticleUpdate_VMCParticles_particleUpdate_299PKvjfDv3_ffRfRS1_
+- __Z46ParticleUpdate_VMCParticles_particleUpdate_330PKvjfDv3_ffRfRS1_
+- __Z46ParticleUpdate_VMCParticles_particleUpdate_350PKvjfDv3_ffRfRS1_
+- __Z46ParticleUpdate_VMCParticles_particleUpdate_353PKvjfDv3_ffRfRS1_
+- __Z46ParticleUpdate_VMCParticles_particleUpdate_371PKvjfDv3_ffRfRS1_
+- __Z46ParticleUpdate_VMCParticles_particleUpdate_379PKvjfDv3_ffRfRS1_
+- __Z60Init_VMCParticles_graph_0DE37D62_6CBD_454C_8547_CBAD53AD40A6PKvjfDv2_fR15vfx_float_rangeS3_
+- __Z60Init_VMCParticles_graph_143CF007_90B2_44ED_9E8A_7E11720AE771PKvjfDv2_fR15vfx_float_rangeS3_
+- __Z60Init_VMCParticles_graph_25FD3188_A461_4DDE_9306_B8B93CAEA6CCPKvjffffbbbfDv2_fR15vfx_float_rangeS3_RDv3_fS5_S5_S5_S5_S5_S5_RbS6_S6_
+- __Z60Init_VMCParticles_graph_265BA9EA_595A_4894_96D9_87E6E83DFEA0PKvjfDv2_fR15vfx_float_rangeS3_
+- __Z60Init_VMCParticles_graph_4A198295_DC75_4F06_8959_F93900DED002PKvjfDv2_fR15vfx_float_rangeS3_
+- __Z60Init_VMCParticles_graph_4E9B1593_B2CF_41C7_ABC7_92F7B866A635PKvjfDv2_fR15vfx_float_rangeS3_
+- __Z60Init_VMCParticles_graph_6A5C2C69_FF27_45DE_8C56_E39F2A6EF0EDPKvjfDv2_fR15vfx_float_rangeS3_
+- __Z60Init_VMCParticles_graph_6B70C51E_4F3C_471B_B2A6_82E6EAEB4C2EPKvjfDv2_fR15vfx_float_rangeS3_
+- __Z60Init_VMCParticles_graph_6BD8D3FB_BDA2_4EAE_A164_3E2C6FE38879PKvjfDv2_fR15vfx_float_rangeS3_
+- __Z60Init_VMCParticles_graph_E4543F5A_7B7D_4E0E_830E_24C1190836B4PKvjfDv2_fR15vfx_float_rangeS3_
+- __Z60Init_VMCParticles_graph_F08170A0_6CA4_4089_947B_8AC90FFB2AFFPKvjfDv2_fR15vfx_float_rangeS3_
+- __Z60Main_VMCParticles_graph_0B995548_91B4_4FFF_90AE_B881318BA5DEPKvjbbRDv3_f
+- __Z60Main_VMCParticles_graph_0DD834A1_B7FF_4320_AD59_A0B54CB50D44PKvjffffRf
+- __Z60Main_VMCParticles_graph_1072D7CF_4C5A_44CA_989E_8E48D20C59A1PKvjbbbRfS1_
+- __Z60Main_VMCParticles_graph_3AA0CB8E_13CA_4A6E_8A3A_9355FA090FD9PKvjffffRf
+- __Z60Main_VMCParticles_graph_3B7F6C17_DC21_4CBE_A0B6_00795EC5018APKvjbbRDv3_fRb
+- __Z60Main_VMCParticles_graph_4B720A4C_22ED_4BC7_8EAB_63388F55B5E1PKvjbbRDv3_fRb
+- __Z60Main_VMCParticles_graph_5D958868_DF35_4085_8654_603C9A86965APKvjbbRDv3_f
+- __Z60Main_VMCParticles_graph_87CB4056_DBF2_4E45_8E11_C1DB36E997CFPKvjffffRf
+- __Z60Main_VMCParticles_graph_8FFB1B4C_C330_435D_8249_9CD583F85229PKvjbbbDv2_fRDv3_f
+- __Z60Main_VMCParticles_graph_A606D101_3A67_4F6A_BBCE_E1CCDBF026A7PKvjffffRf
+- __Z60Main_VMCParticles_graph_A914479F_F468_4795_8E1E_41C0A98A3A01PKvjbbbDv2_fRDv3_f
+- __Z60Main_VMCParticles_graph_AED1689A_93E2_4771_A668_9D7F27D85AC2PKvjffffRf
+- __Z60Main_VMCParticles_graph_BDE95487_4162_40D7_890D_AF0D10F1E2E6PKvjffffRf
+- __Z60Main_VMCParticles_graph_C4548059_82A6_4CBF_B4FB_D76B9D211F48PKvjffffRf
+- __Z60Main_VMCParticles_graph_C6AD08EB_45D1_4116_BF8F_F5B2CE3EC20EPKvjffffRf
+- __Z60Main_VMCParticles_graph_D14BD358_5A4C_44CD_857B_DA21F753D187PKvjffffRf
+- __Z60Main_VMCParticles_graph_D5A926A8_D9DD_456C_B6D4_4FDF3C1BB467PKvjbbRDv3_f
+- __Z60Main_VMCParticles_graph_F324EAA4_B817_4C7A_B24F_74A008361421PKvjffbbbDv2_fRDv3_f
+- __Z60Main_VMCParticles_graph_F7B532B2_9AE7_45C6_A40D_B36AEB9766A9PKvjffffRf
+- __Z60Main_VMCParticles_graph_FA441883_F559_4A46_86C7_02742D9AC80DPKvjbbRDv3_f
+- __Z61Spawn_VMCParticles_graph_F06B866A_2AAD_4693_8963_A8695D4F626CPKvjffffffRfS1_S1_S1_S1_RbS2_S2_
+- __Z62Update_VMCParticles_graph_0D9070B4_9633_45B6_A068_FA8EC86D2E3EPKvjfffRDv3_f
+- __Z62Update_VMCParticles_graph_15C613AA_44A8_49BE_A8F4_1D6E7B43C6F0PKvjfffRDv3_f
+- __Z62Update_VMCParticles_graph_1E8CC8F4_2702_4600_8BE2_0AC10FBC943EPKvjfffRDv3_f
+- __Z62Update_VMCParticles_graph_2F965AD9_ED60_4939_A876_1BA013B20A6EPKvjfffRDv3_f
+- __Z62Update_VMCParticles_graph_6A353C51_F304_42D8_9E95_D3BA58457D18PKvjfffRDv3_f
+- __Z62Update_VMCParticles_graph_905058BC_E3B2_4481_9416_B3A2CA68D452PKvjfffRDv3_f
+- __Z62Update_VMCParticles_graph_962C2A87_F280_411E_AB1F_4A82DC559BDCPKvjfffRDv3_f
+- __Z62Update_VMCParticles_graph_9B0E811A_707E_4030_A430_3744E9E60E1EPKvjfffRDv3_f
+- __Z62Update_VMCParticles_graph_C784AF34_9A29_43E6_9CDB_82AD4547CB32PKvjfffRDv3_f
+- __Z62Update_VMCParticles_graph_D3E45F22_6BB8_4359_90F7_D89D0F774429PKvjfffRDv3_f
+- __Z62Update_VMCParticles_graph_DFB13BBA_34C8_42E8_A347_EB31A3FB78CAPKvjfffRDv3_f
+- ___vfx_script_VMCParticles_graph_0B995548_91B4_4FFF_90AE_B881318BA5DE
+- ___vfx_script_VMCParticles_graph_0D9070B4_9633_45B6_A068_FA8EC86D2E3E
+- ___vfx_script_VMCParticles_graph_0DD834A1_B7FF_4320_AD59_A0B54CB50D44
+- ___vfx_script_VMCParticles_graph_0DE37D62_6CBD_454C_8547_CBAD53AD40A6
+- ___vfx_script_VMCParticles_graph_1072D7CF_4C5A_44CA_989E_8E48D20C59A1
+- ___vfx_script_VMCParticles_graph_143CF007_90B2_44ED_9E8A_7E11720AE771
+- ___vfx_script_VMCParticles_graph_15C613AA_44A8_49BE_A8F4_1D6E7B43C6F0
+- ___vfx_script_VMCParticles_graph_1E8CC8F4_2702_4600_8BE2_0AC10FBC943E
+- ___vfx_script_VMCParticles_graph_25FD3188_A461_4DDE_9306_B8B93CAEA6CC
+- ___vfx_script_VMCParticles_graph_265BA9EA_595A_4894_96D9_87E6E83DFEA0
+- ___vfx_script_VMCParticles_graph_2F965AD9_ED60_4939_A876_1BA013B20A6E
+- ___vfx_script_VMCParticles_graph_3AA0CB8E_13CA_4A6E_8A3A_9355FA090FD9
+- ___vfx_script_VMCParticles_graph_3B7F6C17_DC21_4CBE_A0B6_00795EC5018A
+- ___vfx_script_VMCParticles_graph_4A198295_DC75_4F06_8959_F93900DED002
+- ___vfx_script_VMCParticles_graph_4B720A4C_22ED_4BC7_8EAB_63388F55B5E1
+- ___vfx_script_VMCParticles_graph_4E9B1593_B2CF_41C7_ABC7_92F7B866A635
+- ___vfx_script_VMCParticles_graph_5D958868_DF35_4085_8654_603C9A86965A
+- ___vfx_script_VMCParticles_graph_6A353C51_F304_42D8_9E95_D3BA58457D18
+- ___vfx_script_VMCParticles_graph_6A5C2C69_FF27_45DE_8C56_E39F2A6EF0ED
+- ___vfx_script_VMCParticles_graph_6B70C51E_4F3C_471B_B2A6_82E6EAEB4C2E
+- ___vfx_script_VMCParticles_graph_6BD8D3FB_BDA2_4EAE_A164_3E2C6FE38879
+- ___vfx_script_VMCParticles_graph_87CB4056_DBF2_4E45_8E11_C1DB36E997CF
+- ___vfx_script_VMCParticles_graph_8FFB1B4C_C330_435D_8249_9CD583F85229
+- ___vfx_script_VMCParticles_graph_905058BC_E3B2_4481_9416_B3A2CA68D452
+- ___vfx_script_VMCParticles_graph_962C2A87_F280_411E_AB1F_4A82DC559BDC
+- ___vfx_script_VMCParticles_graph_9B0E811A_707E_4030_A430_3744E9E60E1E
+- ___vfx_script_VMCParticles_graph_A606D101_3A67_4F6A_BBCE_E1CCDBF026A7
+- ___vfx_script_VMCParticles_graph_A914479F_F468_4795_8E1E_41C0A98A3A01
+- ___vfx_script_VMCParticles_graph_AED1689A_93E2_4771_A668_9D7F27D85AC2
+- ___vfx_script_VMCParticles_graph_BDE95487_4162_40D7_890D_AF0D10F1E2E6
+- ___vfx_script_VMCParticles_graph_C4548059_82A6_4CBF_B4FB_D76B9D211F48
+- ___vfx_script_VMCParticles_graph_C6AD08EB_45D1_4116_BF8F_F5B2CE3EC20E
+- ___vfx_script_VMCParticles_graph_C784AF34_9A29_43E6_9CDB_82AD4547CB32
+- ___vfx_script_VMCParticles_graph_D14BD358_5A4C_44CD_857B_DA21F753D187
+- ___vfx_script_VMCParticles_graph_D3E45F22_6BB8_4359_90F7_D89D0F774429
+- ___vfx_script_VMCParticles_graph_D5A926A8_D9DD_456C_B6D4_4FDF3C1BB467
+- ___vfx_script_VMCParticles_graph_DFB13BBA_34C8_42E8_A347_EB31A3FB78CA
+- ___vfx_script_VMCParticles_graph_E4543F5A_7B7D_4E0E_830E_24C1190836B4
+- ___vfx_script_VMCParticles_graph_F06B866A_2AAD_4693_8963_A8695D4F626C
+- ___vfx_script_VMCParticles_graph_F08170A0_6CA4_4089_947B_8AC90FFB2AFF
+- ___vfx_script_VMCParticles_graph_F324EAA4_B817_4C7A_B24F_74A008361421
+- ___vfx_script_VMCParticles_graph_F7B532B2_9AE7_45C6_A40D_B36AEB9766A9
+- ___vfx_script_VMCParticles_graph_FA441883_F559_4A46_86C7_02742D9AC80D
+- ___vfx_script_VMCParticles_particleInit_102
+- ___vfx_script_VMCParticles_particleInit_119
+- ___vfx_script_VMCParticles_particleInit_17
+- ___vfx_script_VMCParticles_particleInit_188
+- ___vfx_script_VMCParticles_particleInit_247
+- ___vfx_script_VMCParticles_particleInit_261
+- ___vfx_script_VMCParticles_particleInit_292
+- ___vfx_script_VMCParticles_particleInit_4
+- ___vfx_script_VMCParticles_particleInit_73
+- ___vfx_script_VMCParticles_particleInit_94
+- ___vfx_script_VMCParticles_particleUpdate_13
+- ___vfx_script_VMCParticles_particleUpdate_143
+- ___vfx_script_VMCParticles_particleUpdate_299
+- ___vfx_script_VMCParticles_particleUpdate_330
+- ___vfx_script_VMCParticles_particleUpdate_350
+- ___vfx_script_VMCParticles_particleUpdate_353
+- ___vfx_script_VMCParticles_particleUpdate_371
+- ___vfx_script_VMCParticles_particleUpdate_379
+- ___vfx_script_VMCParticles_particleUpdate_83
+- ___vfx_script_VMCParticles_particleUpdate_99
+- __swift_FORCE_LOAD_$_swiftCoreMedia
+- __swift_FORCE_LOAD_$_swiftVideoToolbox
+- _objc_autorelease
+CStrings:
++ "Attached Motion Cues UI for connected scene"
++ "BLSBacklightStateObserving"
++ "Backlight state changed: %ld"
++ "Failed to attach Motion Cues for connected scene: %@"
++ "Failed to detach Motion Cues for disconnected scene: %@"
++ "Got nil device motion but motion manager is not active. Cleaning up view controllers %s"
++ "Motion Cues UI started on scene"
++ "Removed Motion Cues UI for disconnected scene"
++ "Scene already has a view controller, skipping"
++ "Scene already known, skipping"
++ "Scene connected"
++ "Scene disconnected"
++ "VFXTimingFunction"
++ "VFXTriggerManager"
++ "VFXWorld"
++ "__vfx_script_VMCParticles_graph_67"
++ "__vfx_script_VMCParticles_graph_71"
++ "__vfx_script_VMCParticles_graph_72"
++ "__vfx_script_VMCParticles_graph_74"
++ "__vfx_script_VMCParticles_particleInit_69"
++ "__vfx_script_VMCParticles_particleUpdate_70"
++ "__vfx_script_VMCParticles_trigger_68"
++ "__vfx_script_VMCParticles_trigger_73"
++ "_backlight"
++ "_knownScenes"
++ "_lastVehicleExitDate"
++ "_registeredForSceneUpdates"
++ "_sceneModels"
++ "_sceneViewControllers"
++ "addObserver:"
++ "backlight:activatingWithEvent:"
++ "backlight:deactivatingWithEvent:"
++ "backlight:didChangeAlwaysOnEnabled:"
++ "backlight:didCompleteUpdateToState:forEvent:"
++ "backlight:didCompleteUpdateToState:forEvents:abortedEvents:"
++ "backlight:performingEvent:"
++ "baseParticleSizeRangeMax"
++ "baseParticleSizeRangeMin"
++ "currentMouseState"
++ "displayScale"
++ "effectiveGeometry"
++ "firstMaterial"
++ "functionWithControlPoints::::"
++ "horizontalSizeClass"
++ "initWithIntent:moduleIdentifier:containerBundleIdentifier:moduleSize:"
++ "materials"
++ "objectAtIndex:"
++ "pointOfView"
++ "presentationBoneNode"
++ "presentationNode"
++ "referenceForAggregateDisplay"
++ "remoteSceneDidResign:"
++ "removeContentViewController:withUserInteractionEnabled:forService:context:completion:"
++ "removeObserver:"
++ "requestScenesForService:atPreferredSceneLevel:forSceneClientIdentifier:"
++ "sceneConnected:"
++ "sceneDisconnected:"
++ "script_addAnimation:forKey:blendDuration:"
++ "script_clone"
++ "script_deepClone"
++ "script_newNode"
++ "script_setPointOfView:duration:"
++ "setTimingFunction:"
++ "sharedBacklightForDisplay:"
++ "springWithDuration:bounce:"
++ "traitCollection"
++ "triggerManager"
++ "v28@0:8@\"<BLSBacklightStateObservable>\"16B24"
++ "v28@0:8@16B24"
++ "v32@0:8@\"<BLSBacklightStateObservable>\"16@\"BLSBacklightChangeEvent\"24"
++ "v40@0:8@\"<BLSBacklightStateObservable>\"16q24@\"BLSBacklightChangeEvent\"32"
++ "v40@0:8@16q24@32"
++ "v48@0:8@\"<BLSBacklightStateObservable>\"16q24@\"NSArray\"32@\"NSArray\"40"
++ "v48@0:8@16q24@32@40"
++ "verticalSizeClass"
++ "windowScene"
+- "Called removeMainDisplayViewController but view controller is already nil."
+- "Got nil device motion but motion manager is not active. Somehow the view controller is still querying for motion updates. Trying again to clean up mainDisplayViewController %@."
+- "Screen state changed: backlightState=%ld"
+- "Trying to start motion cues when main display view controller is not nil. Cleaning up old one before overwriting."
+- "__vfx_script_VMCParticles_graph_0B995548_91B4_4FFF_90AE_B881318BA5DE"
+- "__vfx_script_VMCParticles_graph_0D9070B4_9633_45B6_A068_FA8EC86D2E3E"
+- "__vfx_script_VMCParticles_graph_0DD834A1_B7FF_4320_AD59_A0B54CB50D44"
+- "__vfx_script_VMCParticles_graph_0DE37D62_6CBD_454C_8547_CBAD53AD40A6"
+- "__vfx_script_VMCParticles_graph_1072D7CF_4C5A_44CA_989E_8E48D20C59A1"
+- "__vfx_script_VMCParticles_graph_143CF007_90B2_44ED_9E8A_7E11720AE771"
+- "__vfx_script_VMCParticles_graph_15C613AA_44A8_49BE_A8F4_1D6E7B43C6F0"
+- "__vfx_script_VMCParticles_graph_1E8CC8F4_2702_4600_8BE2_0AC10FBC943E"
+- "__vfx_script_VMCParticles_graph_25FD3188_A461_4DDE_9306_B8B93CAEA6CC"
+- "__vfx_script_VMCParticles_graph_265BA9EA_595A_4894_96D9_87E6E83DFEA0"
+- "__vfx_script_VMCParticles_graph_2F965AD9_ED60_4939_A876_1BA013B20A6E"
+- "__vfx_script_VMCParticles_graph_3AA0CB8E_13CA_4A6E_8A3A_9355FA090FD9"
+- "__vfx_script_VMCParticles_graph_3B7F6C17_DC21_4CBE_A0B6_00795EC5018A"
+- "__vfx_script_VMCParticles_graph_4A198295_DC75_4F06_8959_F93900DED002"
+- "__vfx_script_VMCParticles_graph_4B720A4C_22ED_4BC7_8EAB_63388F55B5E1"
+- "__vfx_script_VMCParticles_graph_4E9B1593_B2CF_41C7_ABC7_92F7B866A635"
+- "__vfx_script_VMCParticles_graph_5D958868_DF35_4085_8654_603C9A86965A"
+- "__vfx_script_VMCParticles_graph_6A353C51_F304_42D8_9E95_D3BA58457D18"
+- "__vfx_script_VMCParticles_graph_6A5C2C69_FF27_45DE_8C56_E39F2A6EF0ED"
+- "__vfx_script_VMCParticles_graph_6B70C51E_4F3C_471B_B2A6_82E6EAEB4C2E"
+- "__vfx_script_VMCParticles_graph_6BD8D3FB_BDA2_4EAE_A164_3E2C6FE38879"
+- "__vfx_script_VMCParticles_graph_87CB4056_DBF2_4E45_8E11_C1DB36E997CF"
+- "__vfx_script_VMCParticles_graph_8FFB1B4C_C330_435D_8249_9CD583F85229"
+- "__vfx_script_VMCParticles_graph_905058BC_E3B2_4481_9416_B3A2CA68D452"
+- "__vfx_script_VMCParticles_graph_962C2A87_F280_411E_AB1F_4A82DC559BDC"
+- "__vfx_script_VMCParticles_graph_9B0E811A_707E_4030_A430_3744E9E60E1E"
+- "__vfx_script_VMCParticles_graph_A606D101_3A67_4F6A_BBCE_E1CCDBF026A7"
+- "__vfx_script_VMCParticles_graph_A914479F_F468_4795_8E1E_41C0A98A3A01"
+- "__vfx_script_VMCParticles_graph_AED1689A_93E2_4771_A668_9D7F27D85AC2"
+- "__vfx_script_VMCParticles_graph_BDE95487_4162_40D7_890D_AF0D10F1E2E6"
+- "__vfx_script_VMCParticles_graph_C4548059_82A6_4CBF_B4FB_D76B9D211F48"
+- "__vfx_script_VMCParticles_graph_C6AD08EB_45D1_4116_BF8F_F5B2CE3EC20E"
+- "__vfx_script_VMCParticles_graph_C784AF34_9A29_43E6_9CDB_82AD4547CB32"
+- "__vfx_script_VMCParticles_graph_D14BD358_5A4C_44CD_857B_DA21F753D187"
+- "__vfx_script_VMCParticles_graph_D3E45F22_6BB8_4359_90F7_D89D0F774429"
+- "__vfx_script_VMCParticles_graph_D5A926A8_D9DD_456C_B6D4_4FDF3C1BB467"
+- "__vfx_script_VMCParticles_graph_DFB13BBA_34C8_42E8_A347_EB31A3FB78CA"
+- "__vfx_script_VMCParticles_graph_E4543F5A_7B7D_4E0E_830E_24C1190836B4"
+- "__vfx_script_VMCParticles_graph_F06B866A_2AAD_4693_8963_A8695D4F626C"
+- "__vfx_script_VMCParticles_graph_F08170A0_6CA4_4089_947B_8AC90FFB2AFF"
+- "__vfx_script_VMCParticles_graph_F324EAA4_B817_4C7A_B24F_74A008361421"
+- "__vfx_script_VMCParticles_graph_F7B532B2_9AE7_45C6_A40D_B36AEB9766A9"
+- "__vfx_script_VMCParticles_graph_FA441883_F559_4A46_86C7_02742D9AC80D"
+- "__vfx_script_VMCParticles_particleInit_102"
+- "__vfx_script_VMCParticles_particleInit_119"
+- "__vfx_script_VMCParticles_particleInit_17"
+- "__vfx_script_VMCParticles_particleInit_188"
+- "__vfx_script_VMCParticles_particleInit_247"
+- "__vfx_script_VMCParticles_particleInit_261"
+- "__vfx_script_VMCParticles_particleInit_292"
+- "__vfx_script_VMCParticles_particleInit_4"
+- "__vfx_script_VMCParticles_particleInit_73"
+- "__vfx_script_VMCParticles_particleInit_94"
+- "__vfx_script_VMCParticles_particleUpdate_13"
+- "__vfx_script_VMCParticles_particleUpdate_143"
+- "__vfx_script_VMCParticles_particleUpdate_299"
+- "__vfx_script_VMCParticles_particleUpdate_330"
+- "__vfx_script_VMCParticles_particleUpdate_350"
+- "__vfx_script_VMCParticles_particleUpdate_353"
+- "__vfx_script_VMCParticles_particleUpdate_371"
+- "__vfx_script_VMCParticles_particleUpdate_379"
+- "__vfx_script_VMCParticles_particleUpdate_83"
+- "__vfx_script_VMCParticles_particleUpdate_99"
+- "_mainDisplayViewController"
+- "_motionCuesModel"
+- "_screenMonitor"
+- "addAnimationAsset:forKey:"
+- "configurationForDefaultMainDisplayMonitor"
+- "currentLayout"
+- "initWithIntent:moduleIdentifier:containerBundleIdentifier:size:"
+- "insertChildNode:"
+- "mainScreen"
+- "monitorWithConfiguration:"
+- "scale"
+- "setTransitionHandler:"
+- "v32@?0@\"FBSDisplayLayoutMonitor\"8@\"FBSDisplayLayout\"16@\"FBSDisplayLayoutTransitionContext\"24"
+
+```

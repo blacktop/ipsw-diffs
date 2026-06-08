@@ -1,0 +1,56 @@
+## AppleARMPL011Driver_development
+
+> `/System/Library/Extensions/AppleARMPL011Driver.kext/AppleARMPL011Driver_development`
+
+```diff
+
+ 1.0.0.0.0
+   __TEXT.__cstring: 0x78 sha256:365d30704839536af294acd27caf74e43b362779ca5f73808ce1b515ce29379a
+-  __TEXT_EXEC.__text: 0xa38 sha256:1b8427e37803005e85c2ed09ecdfd67f8e5ae14639f2bee335b571caa169207a
+-  __TEXT_EXEC.__auth_stubs: 0xc0 sha256:8efcfc730dc7671e9cbe2178c0ec395372cce5be65ad5e5c922f1937c66222a4
++  __TEXT_EXEC.__text: 0xa38 sha256:74ad8613b2ed1b57459ff8f688fbd5b1042c3393fbfff3d18f3bccd84b1ae495
++  __TEXT_EXEC.__auth_stubs: 0xc0 sha256:bce6dbaf0cad1b4584dde30888bc51bbc30a9a653484cdd5846a452aeb0a2b0e
+   __DATA.__data: 0xc8 sha256:9c823a34d8f19743a83db532b38dbea869030ee378b1e5acc755a5ba33f7f28b
+   __DATA.__common: 0x38 sha256:d4817aa5497628e7c77e6b606107042bbba3130888c5f47a375e6179be789fbb
+-  __DATA_CONST.__auth_got: 0x60 sha256:310813b01bf9e56ee84291b65793cf0c62eb2ce847d34ba936879f5ab6b80fd2
+-  __DATA_CONST.__got: 0x18 sha256:3a621af02fa9cda893507bfa0ab49407f2ca6cb80e64359542e247c82923084e
+   __DATA_CONST.__mod_init_func: 0x8 sha256:d5380606d3c95523731f999cd5ac111a17b09b6c2918fd2129f6b7b9bc5cb405
+   __DATA_CONST.__mod_term_func: 0x8 sha256:43de08dbd92f726f0d027b798f4c9f6b19bd9127643f8ba75335a4848944db9f
+-  __DATA_CONST.__const: 0x6c8 sha256:564db8686457167865245a9c6ae5e0d320b1c9b3fa6d111c9a82bf74e1efa254
++  __DATA_CONST.__const: 0x6c8 sha256:00cfe6da21f0c194c85d6f028eefacca64b5efdbd33bd4ee62769cf276b22ba8
+   __DATA_CONST.__kalloc_type: 0x40 sha256:3331776466ecb161b1bc42c39323eb9b75dfcae3aca35aad8661687ef3e408c7
+-  __DATA_CONST.__assert: 0x14 sha256:48a05347d225164f849dc08b61db86b91608eadc1a629d3651c72c4d86ec2958
+-  UUID: F0DF12FA-4D5C-3F4D-B277-767A7F7BCE2B
++  __DATA_CONST.__assert: 0x14 sha256:d4557a0d576e0ed0b38bec085599aabe47ef0c7795b2458a83a61216654310b9
++  __DATA_CONST.__auth_got: 0x60 sha256:9cf7bf04b2c8995a486f902b77b643d26d7e6faf175acb93f774df6f814571af
++  __DATA_CONST.__got: 0x18 sha256:ebf884563a7a2612db06ea4bb1cd5d43909467bf62200dcad05915d5d40a09cc
++  UUID: FEA5DA2B-FF85-3B6C-BF30-590944D47C64
+   Functions: 53
+   Symbols:   467
+   CStrings:  5
+Symbols:
++ /Library/Caches/com.apple.xbs/5EEBA727-8082-4A6C-91AE-B52705B76B19/TemporaryDirectory.7UaU13/Binaries/AppleARMPL011Driver/install/TempContent/Objects/AppleARMPL011Driver.build/AppleARMPL011Driver.build/DerivedSources/
++ /Library/Caches/com.apple.xbs/5EEBA727-8082-4A6C-91AE-B52705B76B19/TemporaryDirectory.7UaU13/Binaries/AppleARMPL011Driver/install/TempContent/Objects/AppleARMPL011Driver.build/AppleARMPL011Driver.build/Objects-development/arm64e/AppleARMPL011Driver.o
++ /Library/Caches/com.apple.xbs/5EEBA727-8082-4A6C-91AE-B52705B76B19/TemporaryDirectory.7UaU13/Binaries/AppleARMPL011Driver/install/TempContent/Objects/AppleARMPL011Driver.build/AppleARMPL011Driver.build/Objects-development/arm64e/AppleARMPL011Driver_info.o
++ /Library/Caches/com.apple.xbs/5EEBA727-8082-4A6C-91AE-B52705B76B19/TemporaryDirectory.7UaU13/Sources/AppleARMPL011Driver/AppleARMPL011Driver/
+- /Library/Caches/com.apple.xbs/17DDB8B8-DDB1-4801-84EC-AD3FF0DD6D81/TemporaryDirectory.FqFhut/Binaries/AppleARMPL011Driver/install/TempContent/Objects/AppleARMPL011Driver.build/AppleARMPL011Driver.build/DerivedSources/
+- /Library/Caches/com.apple.xbs/17DDB8B8-DDB1-4801-84EC-AD3FF0DD6D81/TemporaryDirectory.FqFhut/Binaries/AppleARMPL011Driver/install/TempContent/Objects/AppleARMPL011Driver.build/AppleARMPL011Driver.build/Objects-development/arm64e/AppleARMPL011Driver.o
+- /Library/Caches/com.apple.xbs/17DDB8B8-DDB1-4801-84EC-AD3FF0DD6D81/TemporaryDirectory.FqFhut/Binaries/AppleARMPL011Driver/install/TempContent/Objects/AppleARMPL011Driver.build/AppleARMPL011Driver.build/Objects-development/arm64e/AppleARMPL011Driver_info.o
+- /Library/Caches/com.apple.xbs/17DDB8B8-DDB1-4801-84EC-AD3FF0DD6D81/TemporaryDirectory.FqFhut/Sources/AppleARMPL011Driver/AppleARMPL011Driver/
+Functions:
+~ __ZN19AppleARMPL011Driver9MetaClassC1Ev : sha256 3b277f7d7801f07358d55fc11b63d372a03a42b9b39cce687ce0c68def2bc348 -> 4b576e67220d0b4041f7638856c2b8e337b2212481413d57b4c75051cd93cbef
+~ __ZN19AppleARMPL011DriverC2EPK11OSMetaClass : sha256 d3e103746d943fd515b4cffcc095a15a406e5b553e53f706a69394bda2b05570 -> 960e03113707725b23d84a1bd892c8ff07cbd06d127715bcbffd9d1ed265baa2
+~ __ZN19AppleARMPL011DriverC1EPK11OSMetaClass : sha256 92039fc27fbd49c9678d0a78a7cee29120f23385ba9a7236230cb9574e43c89d -> 4828d718f22b601a4f8c67597242dab220e1186380d9e495aec714aca366745a
+~ __ZN19AppleARMPL011DriverD0Ev : sha256 583871376fc3640a97eef7d5d6b109bbb5ecb469f21f1498b3c1ddb6453b1de9 -> b8e5a93b14ad925317775184be5b99240924c238f3aee2116857f60904e0412e
+~ __ZN19AppleARMPL011DriverdlEPvm : sha256 2488f5c77201b7cb013692acbd7f8d0c1a35282615eecf09b6509328c23ac283 -> edd439c513d5c86101b0c174b06f1867f81bead41cf08ae8c46e96b9a66f8a51
+~ __ZN19AppleARMPL011Driver9MetaClassC2Ev : sha256 70fa0dd3ce38e603b2bf0a49457fa189f56c7456cff95d403877719dbbe03c97 -> 56e2ed80333fd56356b011303162b40a6d5f699c1225e7a4a8bae014d4f70aba
+~ __ZNK19AppleARMPL011Driver9MetaClass5allocEv : sha256 c5fd91fa53c9338cc56769d13de67c68c793402bf11b551c6518b983baff1d7a -> ea2231de4d69abec09f371e5d2b8314a8dc45daa0336abc5b7a8174b093e86be
+~ __ZN19AppleARMPL011DrivernwEm : sha256 56e5254e5e67e5e469af99ddd2d89a50c2c3ac9f55752790a9231c70839c78cf -> a767adb9a2c929c1c0b76808d27b0a89560b70fec67ceb5730ef09acf91ef080
+~ __ZN19AppleARMPL011DriverC1Ev : sha256 7d3181d5cd26d017b70a10ef47f47a2c3773f8a7d9c44deff591ff23d765373e -> ecaaf6ce4040f21247ab7a2d0852cb748914f6ff57c3ecdf320a9fda644cf401
+~ __ZN19AppleARMPL011DriverC2Ev : sha256 c48ac5a8e0245dfc39f388f299fe348f0c728181c97eaad93bde7aa9b1749c28 -> 02f0184ff84d9f06d8f81743629bc038fe34088e61043715139ba66af2299b8f
+~ __ZN19AppleARMPL011Driver5startEP9IOService : sha256 577ff3280d156f1b5bcf59a65b239fd796ae2150e09e7b8da368b9f524fba1aa -> ca4b8cfd98e753adb6ea802291ed4a7bf263615e0efdf46e1a6a6ce81492ae7a
+~ __ZN19AppleARMPL011Driver4freeEv : sha256 7d22d2dde21d2d05a8e323ca240cca4707f68aa6c153ae8dc0c9bd4ffc875360 -> 6df8233d573b008726f532f918f6c4d3f7790b36e152ba98b9becc854ecc8149
+~ _GLOBAL__sub_I_AppleARMPL011Driver.cpp : sha256 3e075862c84e1636dfbcfab123e8acc1b8f70a2e1f405d76f75584931513e7df -> 952b6ccefa55a35785ed8bc6713cdabd0bfa20411d1c6470e4b259269992c6d5
+~ _ZN19AppleARMPL011Driver5startEP9IOService.cold.1 : sha256 948b091d302bd723a5afd08d5d00c0a714a7b431db712292067923c110e2288f -> 77c50a584e383872e727a5a5635e88eb9eb3f1bddcd9a01a75474cda163f56d8
+
+```

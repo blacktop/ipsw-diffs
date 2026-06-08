@@ -1,0 +1,209 @@
+## Maps
+
+> `/System/Library/Assistant/Plugins/Maps.assistantBundle/Maps`
+
+```diff
+
+-2921.35.2.9.29
+-  __TEXT.__text: 0x14f74 sha256:cad0eac8fd9ff5dd73cc2470aab9406c06083a2efc4f8097c288f250b68d4680
+-  __TEXT.__auth_stubs: 0x580 sha256:7063b4b4b12d71096344a5195ba0e9f30ef7601b17ab342d89ebe65147967968
+-  __TEXT.__objc_stubs: 0x3aa0 sha256:eb9c335d58671d1f420b99590a098edc3fb2640a890e145bb39d51162d611076
+-  __TEXT.__objc_methlist: 0x12f4 sha256:f034fc13559ea728606ecf6e9b3e749494328c30ce454403c303c7eb6680fe8b
++2966.30.5.15.8
++  __TEXT.__text: 0x1440c sha256:a358e821eb195d70669c8359e1bea1ec82957a52f585d28c149fa53f915e2074
++  __TEXT.__auth_stubs: 0x5e0 sha256:2a1135cf8f34f3c4099034f4ca5d46d5f6a2ed7e083d1cc3894bb67b682dff35
++  __TEXT.__objc_stubs: 0x3aa0 sha256:fafccaf6ec696f728e9748ead2373ad7355f93e8e9ff1cedcd2c902307301dcd
++  __TEXT.__objc_methlist: 0x12fc sha256:1cff070be4514bb455032b5ba89ca821662893689fcf4757a7a7e1e5a1e2d70d
+   __TEXT.__const: 0xe8 sha256:fb30740bda94f3b18ab4ca3b6b7937c2b05cac8a24898615d991f50dd7ad61dd
+-  __TEXT.__cstring: 0x97f5 sha256:350e799f270442092978ec47dd1e01e7bc872b256c254206ce7b9d01fb1cccf6
+-  __TEXT.__objc_classname: 0x54d sha256:9ab50d988aafaf65ab1b036d070ba39de0c7eeeda96e913b6df6f0dce9e438e4
+-  __TEXT.__objc_methname: 0x38f9 sha256:1e8bd098f6f26565c2695999e9ffff6124189408c7c97a00da1f96252d9c4e9b
+-  __TEXT.__objc_methtype: 0x838 sha256:9370069dd3c62614015c7b712bb03b35e922b1c03ab59a5b3ed7222f961418d6
+-  __TEXT.__gcc_except_tab: 0x18c sha256:ab00d94c5ffa3f691fbbff08976ad24afe9022edeb9ac4428690d04f841a28fd
+-  __TEXT.__oslogstring: 0x10df sha256:9cbe6cf70b12e74f9b72a73c779abd26c28d645e04925cfcfd6f32c50f22a602
+-  __TEXT.__unwind_info: 0x558 sha256:7caea58e461cbf344f64786a106b88e98daa19dd61bc4d4e7976e2952c071907
+-  __DATA_CONST.__auth_got: 0x2d0 sha256:71a8f1e8bfb33282384f65849f3ce1f031a868ae258495fc21b4263f1b7f6811
+-  __DATA_CONST.__got: 0x460 sha256:e608ab86cc253c2fae039710fad7a50966d2f9a8ce1fc8510ba580a9d7348215
+-  __DATA_CONST.__const: 0x16d50 sha256:9d8d2788e256f19eb4ebade7a7ac8d3324314ec00e2d87bcff0e0d7eec3e2593
+-  __DATA_CONST.__cfstring: 0x7e40 sha256:b0b6e60480561a3e2fda84109fe0ffe558a7720d62187130e5bd89bbc214e42f
+-  __DATA_CONST.__objc_classlist: 0xf0 sha256:56d75d3435220e6101a326c9957ff5dc2176e3ebae1072e6c92aa878da8de487
++  __TEXT.__cstring: 0x9c66 sha256:c1f4add8af5cf95e7b52b6bd4703d4a130c82db57417189c63b7eaf88536f50a
++  __TEXT.__objc_classname: 0x53b sha256:eb6bacfd6a6bc994dba50ca73a566f99f358a45e75dbdd6b13cd92a687e6c795
++  __TEXT.__objc_methname: 0x391a sha256:499af83b0e0782d0c1540583f66d3bb51f29f266c84c07cd712944aba9e0a441
++  __TEXT.__objc_methtype: 0x848 sha256:023ef96b7ccc182672ca51a7efa9fe8def7784f8992b586eda4db3c9870026d7
++  __TEXT.__gcc_except_tab: 0x13c sha256:4982aab6159c873a0a11486fbdb3391929946ca5ec41a0f7fa8e11e7faa4269b
++  __TEXT.__oslogstring: 0x1178 sha256:343c261eef8f390f4a8b1a6bbddb80aa3464807111ce9d377c590fdb553950fb
++  __TEXT.__unwind_info: 0x530 sha256:28e34230d5cd46b92639736f079f8aa03ca38b839310d1ced7205941e81396ed
++  __DATA_CONST.__const: 0x179a8 sha256:18cd0e86f8f072152f7bfdbe2e1abeb2148797cdcf8967abd06d23046b0d8b1e
++  __DATA_CONST.__cfstring: 0x8200 sha256:9d3ebddd8409046bf04291324d459492c27db8b5c2db126998d70ade49dfd04e
++  __DATA_CONST.__objc_classlist: 0xf0 sha256:59b07e34a3c74af5960a82346b235fab66142a3b48ce0c04a37d08fb68366ce6
+   __DATA_CONST.__objc_catlist: 0xd0 sha256:f6969928fbdd4607728e49f2c8aa01701e52360bd09250427e22b75774d07c1a
+-  __DATA_CONST.__objc_protolist: 0x98 sha256:5c336d57cd7d0730fd9177c4ee8ae9edea0e3b6bea4e7d689a1e62119e69c366
++  __DATA_CONST.__objc_protolist: 0x98 sha256:d00fb264a15c9e1bac32fdc7acf7bfc7748581f028cbe6bfd7a2822880f91386
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:1fa65ffcccc24c72d5d7f804a2be05ae57dfbb8769ffb33c4272ed6795b7e61c
+-  __DATA_CONST.__objc_protorefs: 0x38 sha256:330aa20ee15554c4a3b88218f96300c024bb161898c27a1f8fec338377026d96
+-  __DATA_CONST.__objc_superrefs: 0x68 sha256:6d006e41dea659534fa93d8fa0aaee9fa967bd7d8bdb5174fbb95a4dfa01edc3
+-  __DATA_CONST.__objc_floatobj: 0x40 sha256:b940c2fe16e7ffde140855c31a84ea2043712288c88a79d5b0d27e9198efd02b
+-  __DATA_CONST.__objc_doubleobj: 0x390 sha256:4ceb46353cc40d56846f22d55f73c46f8347498e7089b117b4a368eaeaa9518b
+-  __DATA_CONST.__objc_intobj: 0x798 sha256:d226db080253db33fce01850c5b80cfd77c952a1091f362b9f9f5d27f8f93f96
+-  __DATA_CONST.__objc_arraydata: 0x98 sha256:0932745deb16d4a4f1cc858ac2b2f08379e3fa473c85da9ac5fa92ffd9933f3f
+-  __DATA_CONST.__objc_arrayobj: 0xf0 sha256:261ac5ba5bee2938f3b539bf246c8bd8964521c8f8ed9ebe7a92d5350de45e0d
+-  __DATA.__objc_const: 0x2cd8 sha256:2b2f4743e9e9513a1d9a8aa1723fc3d254033e91efe33e37c90556b2832a05cd
+-  __DATA.__objc_selrefs: 0x1148 sha256:e7b24466e87c09e2faa4f954cd469d4092ee1dc63ef8c19d448ad093c2643484
++  __DATA_CONST.__objc_protorefs: 0x38 sha256:8de0bdc6f0bd8b8a36fabd73e232f816ecf3c1dbbc6f882f3bed96618dac67a1
++  __DATA_CONST.__objc_superrefs: 0x68 sha256:28856f072f638556e1ee90efc808ae39620280bffcce7678cf849c67cfca5878
++  __DATA_CONST.__objc_floatobj: 0x40 sha256:9c76d96e84a5aa1d4e1fff4fe90a5e9dd385254574777baabfe85550a6ab7ef2
++  __DATA_CONST.__objc_doubleobj: 0x390 sha256:266d9ae82626c1c1368796c7c575bdcd903ae739e3f4280d4719e4b97355f72b
++  __DATA_CONST.__objc_intobj: 0x7f8 sha256:6fe1855d014a287bbe28f79e56b148b7637d644f30bd20b20b590ccdcab7eff3
++  __DATA_CONST.__objc_arraydata: 0x98 sha256:e387d7f93f141440c32e42d3f55f3280d6e069cc71e264893fece649596c7ed1
++  __DATA_CONST.__objc_arrayobj: 0xf0 sha256:eb7954742dccf48dfb4af3028d5f2934b67e67b3c05946255f6cd1ad81210b34
++  __DATA_CONST.__auth_got: 0x300 sha256:35afbde5e0380571763c054917945e9694a65daea24f4e9eece58eef34f5571f
++  __DATA_CONST.__got: 0x470 sha256:03e7d995e4777e2113c4d8444f6072eb195bbc43c96501d245a59987dc14bc0d
++  __DATA.__objc_const: 0x2cd8 sha256:ea48d9d9011e9c5fd6a1bb531417f23f00a3b2770530b803adc6cfc8d8e2df45
++  __DATA.__objc_selrefs: 0x1150 sha256:332026c6266fc1a80938bf79594b3babb234b2a014da1bdb7180bf92ee41e6b7
+   __DATA.__objc_ivar: 0xc4 sha256:de187d2659f244df0e7dc2fd8937269aa6a7baa91a5baeb12a415667922921b6
+-  __DATA.__objc_data: 0x960 sha256:21e6ba50a26fe12f8d0afa5bf1eaba5f2d56f516ab6acde66948ca57846a2fab
+-  __DATA.__data: 0x748 sha256:67f6bc14496706a3067a786a2df2792134209b1bf8cb2bb17cf3d90115752fea
++  __DATA.__objc_data: 0x960 sha256:b0633c8efb24dfcce273d466b888dd830fe8a1909d331530b827df5b12075186
++  __DATA.__data: 0x748 sha256:1a571961ef2d5cf46d0e267e49bb356a04a5fa9bde685dfc1f7099629768c91b
+   __DATA.__bss: 0xe0 sha256:6eb69e26de2a26eda48af77d4cec893aa0cf4748a64cbefcfe11a22c1e680ad9
+   - /System/Library/Frameworks/AVFoundation.framework/AVFoundation
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: E8FFE911-764D-3174-8DC0-91AA273F53BF
+-  Functions: 1286
+-  Symbols:   1239
+-  CStrings:  2935
++  UUID: 5B6DD8B6-2973-3F99-9494-691C724BB78C
++  Functions: 1320
++  Symbols:   1278
++  CStrings:  2999
+ 
+Symbols:
++ _MapsConfig_CarMapWidgetNavigationModeControllerGuidanceCardEnabled
++ _MapsConfig_CarPlayMiniSignEnabled
++ _MapsConfig_ChromeDebugFrameColourOverrides
++ _MapsConfig_ChromeHiddenDebugFrames
++ _MapsConfig_ChromeShowMapsSceneSizeClassOnMap
++ _MapsConfig_ContainerEnableSheetStacks
++ _MapsConfig_ContainerMaximumNumberOfStacks
++ _MapsConfig_ContainerMinimumRemainingSpaceWithStacks
++ _MapsConfig_ContainerUseMapsSceneSizeClassForStyle
++ _MapsConfig_ETACurrentTimeOverride
++ _MapsConfig_ETASnippetDarkThemeOverride
++ _MapsConfig_EnableModernCollectionManager
++ _MapsConfig_EnableTapToRadarGroupAnimationCompletionWaitHandlerAttachmentProvider
++ _MapsConfig_EnableTapToRadarStagedSystemAppsAttachmentProvider
++ _MapsConfig_GroupAnimationCompletionWaitBlockTimeout
++ _MapsConfig_LinwoodStraightToNavBehavior
++ _MapsConfig_LinwoodStraightToNavTimeout
++ _MapsConfig_MacSidebarEnabled
++ _MapsConfig_MapsSceneInterfaceStylePortraitSidebarWidthThreshold
++ _MapsConfig_MapsSceneInterfaceStyleSidebarLowerThreshold
++ _MapsConfig_MapsSceneInterfaceStyleSidebarLowerThresholdMac
++ _MapsConfig_MapsSceneInterfaceStyleSidebarUpperThreshold
++ _MapsConfig_MapsSceneInterfaceStyleSidebarUpperThresholdMac
++ _MapsConfig_MapsSceneInterfaceStyleStandardLowerThreshold
++ _MapsConfig_MapsSceneInterfaceStyleStandardUpperThreshold
++ _MapsConfig_MapsSceneSizeClassLargeHeightThreshold
++ _MapsConfig_MapsSceneSizeClassLargeWidthThreshold
++ _MapsConfig_NavigationManeuverListAnimateDistanceUpdates
++ _MapsConfig_NavigationManeuverListRefreshEnabledWithMapsDesign
++ _MapsConfig_ParkedCarLiveEntityDonation
++ _MapsConfig_ParkedCarSpotlightDonation
++ _MapsConfig_RoutePlanningDefaultRouteCount
++ _MapsConfig_RoutePlanningMaxWaypointsBeforeCollapsing
++ _MapsConfig_RoutePlanningRefreshEnabled
++ _MapsConfig_RoutePlanningZoomTransitionsEnabled
++ _MapsConfig_SidebarSheetMaximumWidth
++ _MapsConfig_SidebarSheetMaximumWidthMac
++ _MapsConfig_SidebarSheetMinimumWidth
++ _MapsConfig_SidebarSheetMinimumWidthMac
++ _MapsConfig_SignificantChangeForceApprovalRequired
++ _MapsConfig_SimulateMapsSceneInterfaceStyle
++ _MapsConfig_VisitedPlacesSearchCachingEnabled
++ __MapsConfig_MetadataForIdentifier
++ ___NSDictionary0__struct
++ __os_log_default
++ __os_log_fault_impl
++ _objc_claimAutoreleasedReturnValue
++ _objc_retainAutoreleaseReturnValue
++ _objc_retain_x25
++ _objc_retain_x3
++ _objc_retain_x4
+- _MapsConfig_ClusteredResultsContextEnabledForAnnotations
+- _MapsConfig_EnableMacChromeOwnedSidebar
+- _MapsConfig_EnableRoutePlanningContext
+- _MapsConfig_RoutePlanningEnableWaypointCollapseOnMac
+- _MapsConfig_SearchResultContextEnabledForAddStopFlow
+- _MapsConfig_StaleMapEffectViewBlurEffectStyle
+- _MapsConfig_StaleMapEffectViewDimmingValueDarkMode
+- _MapsConfig_StaleMapEffectViewDimmingValueLightMode
+- _MapsConfig_UserCollectionCachingEnabled
+- _MapsConfig_iPadCardWidthOverrideMaxBucket
+- _MapsConfig_iPadCardWidthOverrideMiddleBucket
+- _MapsConfig_iPadCardWidthOverrideMinBucket
+CStrings:
++ "CarMapWidgetNavigationModeControllerGuidanceCardEnabled"
++ "CarPlayMiniSignEnabled"
++ "ChromeDebugFrameColourOverrides"
++ "ChromeHiddenDebugFrames"
++ "ChromeShowMapsSceneSizeClassOnMap"
++ "ContainerEnableSheetStacks"
++ "ContainerMaximumNumberOfStacks"
++ "ContainerMinimumRemainingSpaceWithStacks"
++ "ContainerUseMapsSceneSizeClassForStyle"
++ "ETACurrentTimeOverride"
++ "ETASnippetDarkThemeOverride"
++ "EnableModernCollectionManager"
++ "EnableTapToRadarGroupAnimationCompletionWaitHandlerAttachmentProvider"
++ "EnableTapToRadarStagedSystemAppsAttachmentProvider"
++ "GroupAnimationCompletionWaitBlockTimeout"
++ "LinwoodStraightToNavBehaviorRotated"
++ "LinwoodStraightToNavTimeout"
++ "MacSidebarEnabled"
++ "MapsIPCInterface Maps failed to call us back in time"
++ "MapsSceneInterfaceStylePortraitSidebarWidthThreshold"
++ "MapsSceneInterfaceStyleSidebarLowerThreshold"
++ "MapsSceneInterfaceStyleSidebarLowerThresholdMac"
++ "MapsSceneInterfaceStyleSidebarUpperThreshold"
++ "MapsSceneInterfaceStyleSidebarUpperThresholdMac"
++ "MapsSceneInterfaceStyleStandardLowerThreshold"
++ "MapsSceneInterfaceStyleStandardUpperThreshold"
++ "MapsSceneSizeClassLargeHeightThreshold"
++ "MapsSceneSizeClassLargeWidthThreshold"
++ "NavigationManeuverListAnimateDistanceUpdates"
++ "NavigationManeuverListRefreshEnabledWithMapsDesign"
++ "ParkedCarLiveEntityDonation"
++ "ParkedCarSpotlightDonation"
++ "RoutePlanningDefaultRouteCount"
++ "RoutePlanningMaxWaypointsBeforeCollapsing"
++ "RoutePlanningRefreshEnabled"
++ "RoutePlanningZoomTransitionsEnabled"
++ "SidebarSheetMaximumWidth"
++ "SidebarSheetMaximumWidthMac"
++ "SidebarSheetMinimumWidth"
++ "SidebarSheetMinimumWidthMac"
++ "SignificantChangeForceApprovalRequired"
++ "SimulateMapsSceneInterfaceStyle"
++ "Unreachable reached: _MapsConfig_MetadataForIdentifier called, but there is no Swift implementation"
++ "VisitedPlacesSearchCachingEnabled"
++ "addKeepAliveReferenceTo:withKey:"
++ "v32@0:8@16r^v24"
+- "ClusteredResultsContextEnabledForAnnotations"
+- "EnableMacChromeOwnedSidebar"
+- "EnableRoutePlanningContext"
+- "RoutePlanningEnableWaypointCollapseOnMac"
+- "SearchResultContextEnabledForAddStopFlow"
+- "StaleMapEffectViewBlurEffectStyle"
+- "StaleMapEffectViewDimmingValueDarkMode"
+- "StaleMapEffectViewDimmingValueLightMode"
+- "UserCollectionCachingEnabled"
+- "iPadCardWidthOverrideMaxBucket"
+- "iPadCardWidthOverrideMiddleBucket"
+- "iPadCardWidthOverrideMinBucket"
+
+```

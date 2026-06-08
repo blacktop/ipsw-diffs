@@ -1,0 +1,3509 @@
+## mediaanalysisd
+
+> `/System/Library/PrivateFrameworks/MediaAnalysis.framework/mediaanalysisd`
+
+```diff
+
+-405.3.1.0.0
+-  __TEXT.__text: 0x1e0c54 sha256:7c440792113a6c4c540cf07130f1b20e892de60039ac68bdf9f5a43c7a7945a0
+-  __TEXT.__auth_stubs: 0x2330 sha256:ec9f1578fedd2fb42b70be3770287195f7dbd24157e42075bc99392de3654f36
+-  __TEXT.__objc_stubs: 0x156a0 sha256:921a5987a5fb0718bf98d0bf7e7d312f78b9fa02f91fddffa19444b2cb0fc099
+-  __TEXT.__objc_methlist: 0xa2d0 sha256:a426e7d8002bf9dd482460f50cd5452f24e11fa8e1738e7922e80cc75727abf8
+-  __TEXT.__gcc_except_tab: 0x34e20 sha256:5fb1eb54e5cd5a928e36fb805f6e9d6bb7fd37f7bc1b33337d71580e7ecc0ccc
+-  __TEXT.__cstring: 0x10675 sha256:8160bd520e9263f6e13e5a368c196c4fa6451c7a628e1d121581d4090cbfdac8
+-  __TEXT.__const: 0x950 sha256:7d855fddfa74ea76d322f5030bb62a156f6cf09733abb66da675e6c358ce376f
+-  __TEXT.__objc_methname: 0x1d17b sha256:80e86b71fb2d505bd8bb3397d74cc52aeda7e299a1e09daa6620be756d3ade38
+-  __TEXT.__objc_classname: 0x2097 sha256:b601f8d17cdac604df3411fc8046462da29e5ff60d06b1a9850abaa8ae5e3aa9
+-  __TEXT.__objc_methtype: 0x3d62 sha256:b184ae536c1ccc1f15777ca94726f6bc920fe2187f48dab8e6a833514faab868
+-  __TEXT.__oslogstring: 0x2a38c sha256:2b0a99f2085e0dcb542ebef18aa224987bb62b718a01f4031b2067e556d81b7c
++435.60.2.11.2
++  __TEXT.__text: 0x20a4ac sha256:5225f135736105e98e7fc034d5fcab3bf7603d563d8e6ff1b2387b81264020ce
++  __TEXT.__auth_stubs: 0x3020 sha256:879a8559dcc762d64467f39f961eb803e74703e56538e014a6aadb21b518bb5f
++  __TEXT.__objc_stubs: 0x179e0 sha256:239735de3b0e139335433156e2367e138a7830ad01b1934ce89d5918ee240a1d
++  __TEXT.__objc_methlist: 0xabc8 sha256:4f581b8a749df99d7100cb012fb2f46862a11c20686852d46e16c73fa3375a62
++  __TEXT.__gcc_except_tab: 0x335e0 sha256:c95b7181593a09279392cecc8d26798f6ff654daa4415d7042d34e577cbb8555
++  __TEXT.__cstring: 0x10f94 sha256:2a86250d5edcbe429c1d11519a986332732aca402cf49863d4e633f3fc9940f4
++  __TEXT.__const: 0x21d0 sha256:f4f34958a2d1468de9af62cf051cae524e0ae21fbd21cbe98401a29c3d88cd3c
++  __TEXT.__objc_methname: 0x1fb94 sha256:b976ed386fbd5e33493f38a059456ddf32cd493cc76453002ab0b0692d7d5dcf
++  __TEXT.__objc_classname: 0x21a6 sha256:506cf7d08601eb836b1eeb1d302ffe4fed0075c6c5d26fac97a265cce5d90a41
++  __TEXT.__objc_methtype: 0x3f2b sha256:4b7da1290c1a384f68213b7a3cea417d9e8863d706db9580227e1113df78780d
++  __TEXT.__oslogstring: 0x2e3bc sha256:3634648b950580bc11e8ad34784a2cd3bd8030dcd709effe7a367b7b6b0c8f74
+   __TEXT.__dlopen_cstrs: 0x2de sha256:bdb90c5cec02c951ba828aea4e9a0af215ba78c572a6c3e6f97b72204fd8680b
+-  __TEXT.__swift5_typeref: 0x397 sha256:80037eaa5b2308b70cc0cd67cd87bba48963638f71a6f33ccae5a07833d52117
+-  __TEXT.__constg_swiftt: 0x31c sha256:c02642bc4e496dbfede3a1ee156ba6bcdbf0ded18cd7055ea185818c219fc1c4
+-  __TEXT.__swift5_fieldmd: 0x110 sha256:3a016b30846f14d61aefebd8bf16d3f65634dd20b2f8186794b8d708f0b6ec04
+-  __TEXT.__swift5_reflstr: 0xc3 sha256:b2c8a9f6bf36e1beb66ca0162e1eca46b5e357166abe5bb5574b70c19c1bb2b9
+-  __TEXT.__swift5_capture: 0xe0 sha256:6cff48a935be3ffc7ee1271df0e08c204ca3dd3d0bf9f4d11c5197192ae0721e
+-  __TEXT.__swift5_types: 0x28 sha256:65650ed031a51fb833e1c230a8f5bf06c1793985b987b5bc3801ecad7305441f
+-  __TEXT.__swift_as_entry: 0x38 sha256:ea245d6e31dd37ff02f95cd5f74603e02326f54655aa73e0c02a44d381c1f779
+-  __TEXT.__swift_as_ret: 0x40 sha256:d23e220676ff293fa8cf4bd43a7e706682f7b91eac9d338e58f1ad274d3132fa
+-  __TEXT.__swift5_assocty: 0x30 sha256:95f0056fd4eb562c78ea925e70ffebd84b432679dcafa9b3a74a651afd45f767
+-  __TEXT.__swift5_builtin: 0x28 sha256:bca9ccee3fa883d2366beb6eb1fec820b07693040bd1523258a97c79b4b251e8
+-  __TEXT.__swift5_proto: 0x20 sha256:bec80b539c11e233e66dfe8b24f89d5000e2959d753d30c30b3788136ad2928f
+-  __TEXT.__unwind_info: 0x7338 sha256:25f8acd5fda2114963b6f23787ff51906f4467edb2df8a09e5031a6b20f44906
+-  __TEXT.__eh_frame: 0x7d8 sha256:a8da88f1c949e7c6e5e7f82f300b3d590b94de04c19461ba2cfd9ad57dcd222d
+-  __DATA_CONST.__auth_got: 0x11b0 sha256:2555c332fbbc40d6114d11d1b8feabed33b7b63887743125fbe4630f53b1e3ee
+-  __DATA_CONST.__got: 0x17e0 sha256:a15cd68e7555ca5f45001fcebc5d6de72b0295dac5a2692b15e300702f8cb789
+-  __DATA_CONST.__auth_ptr: 0x228 sha256:92f83f480350f2d8393c59cfc12963a9eed13333ebe8909fa7ef5997f9dfda47
+-  __DATA_CONST.__const: 0x65f8 sha256:a3bcd362605bb8507a0b3249c3f323adc95d5ce74b7dc3fc9fe88dfffceb8d0c
+-  __DATA_CONST.__cfstring: 0xa980 sha256:56342e3204815c46d2e0ad095372512fde0bbae8c5e0144752ed6f3d6cfde162
+-  __DATA_CONST.__objc_classlist: 0x730 sha256:63c1db60fb26cb142194b65e315e6df5aa99554a0b8f1a9ee6ea5d83e546e583
+-  __DATA_CONST.__objc_catlist: 0x50 sha256:a4ee01b8dd9bd5e57fd63e0674a82d13063a1e93045f93199a4015a110ba0241
+-  __DATA_CONST.__objc_protolist: 0xf0 sha256:61831084f6d011d1ac56a32134a009d06a46f95fd75be65f0d175920cea62f85
+-  __DATA_CONST.__objc_imageinfo: 0x8 sha256:234cedc7009d98da03ca2a7ff525d0db26b82bff0e6046456f4eda918f734526
+-  __DATA_CONST.__objc_protorefs: 0x90 sha256:7c2599760f092c2dbab796f4e5df52105e2547b4ef2cb3e802cc5301a2a7ea17
+-  __DATA_CONST.__objc_superrefs: 0x588 sha256:41408964ce5ce32b15f7a212cbc4e8cfb83222c5699a37fdfa2fccf115f21264
+-  __DATA_CONST.__objc_intobj: 0x16e0 sha256:313240a7c3da73eed5fe546c849a852359d2b9185acc0290e2042d2da27f7a6f
+-  __DATA_CONST.__objc_arraydata: 0xab0 sha256:efc65a046e8e881cc289dd3ddaf037cb11b964bf895b50fd65738ce16fc1f46b
+-  __DATA_CONST.__objc_arrayobj: 0x798 sha256:1e1205af6c8b72f0edf84677e32777f682d7e68a518d4dd4c5cba461cea3c75e
+-  __DATA_CONST.__objc_doubleobj: 0x20 sha256:8235ea6568a2bfb18776bf0d0e944ae438440ee6ca3dc0ba05c7b3f054f2d1d5
+-  __DATA_CONST.__objc_dictobj: 0xa0 sha256:30c4fa6a763c3a191ea0bb5b4d02a144b59e6ea9a5d819a16bfae80c2b40054b
+-  __DATA.__objc_const: 0x14d30 sha256:2bd91d98660873985c5252bb81b572553cc8056584a3053a452fe4e9f1af5e0f
+-  __DATA.__objc_selrefs: 0x5c88 sha256:aa2cc8a0e8eaf1867fef0fd117a716404633555ad15bca34eb253f78f72ac9a4
+-  __DATA.__objc_ivar: 0x126c sha256:09fbf72c0ae23e50a142130bf1cedb51c0063e2ab94d1878b910c25105a6bb07
+-  __DATA.__objc_data: 0x4b50 sha256:93a394f8024684ad65008dcc1995e5ccadd58457501d09cede8934b6563be302
+-  __DATA.__data: 0x1018 sha256:df33d57a70a5cf59a93fbf8a95e34a3bd06ec1f2ec45f68030b07e4a386feca5
+-  __DATA.__bss: 0xa10 sha256:c761e3be285d6d5316a9405da5a85368da854d4044728949ca9a0a13913895da
+-  __DATA.__common: 0x28 sha256:2c34ce1df23b838c5abf2a7f6437cca3d3067ed509ff25f11df6b11b582b51eb
++  __TEXT.__swift5_typeref: 0x952 sha256:7a52f3647f7dd06b4109d6a4ba232020d82474973ec02df103adc504465302b4
++  __TEXT.__constg_swiftt: 0x918 sha256:cc3f2eaca0c8b0949bcd57cac4b872007b57f7cc44a3e4bafeac77f200a7fb3f
++  __TEXT.__swift5_fieldmd: 0x990 sha256:83eddc8a2dfda1a132b8906e0127dc5f9207725506a6e116a69a3346077d9faa
++  __TEXT.__swift5_reflstr: 0x472 sha256:0c8533808ef16390cac4a9d27f59778d91f40994f64b75242c85c47f60898bb6
++  __TEXT.__swift5_capture: 0x360 sha256:237ae6476db03bd0b5f7c9a144e91b646ec8f05763ecf18e0b63fc5ed9ddd87b
++  __TEXT.__swift5_types: 0xb0 sha256:cfca82ba63e04dfc08ccb810adea632e34f1f5f670ca9e1dcf75bb7947a17c3c
++  __TEXT.__swift_as_entry: 0x70 sha256:4e04cfdae0b8e8ec411413d5739773b97c5a79759597844274fd408d73d4a085
++  __TEXT.__swift_as_ret: 0x78 sha256:c0c766fa7f26685cdf928272685bf51ba6c727b07dcddb221b9b8e66f38807d7
++  __TEXT.__swift_as_cont: 0xb4 sha256:7d7ee26bbff8c549be4768ec7a0ffeb94e224ed93c77a9f4414cfce319405d75
++  __TEXT.__swift5_proto: 0x160 sha256:c0d28d4f69ad0d4213724ba8508f5e81cb803ac315eff626913bd4b206b0a230
++  __TEXT.__swift5_assocty: 0x48 sha256:7d4727ae7070191e909faedb7b7a0a898f45de49fdd9b62699a2b0cffcfe7230
++  __TEXT.__swift5_builtin: 0x50 sha256:05350688e94ff2099bfeafff3c0af86825cf312ee46d3bae3ef36df9cd94fe88
++  __TEXT.__swift5_mpenum: 0x8 sha256:8c25888301be3597d59e42cac8470262000caa9217b444db1f4f7014a17b55a9
++  __TEXT.__unwind_info: 0x7fd0 sha256:30d7e448a7e6ce896e767cd72af80bcd45d44f9f1163793953e01e1b10bad7cb
++  __TEXT.__eh_frame: 0x1b78 sha256:6335481406a4996441143ba92acb06b170050b2098b901c0c4284e87b349d9ca
++  __DATA_CONST.__const: 0x7ed8 sha256:74df48169c47c5eb68798b8f5559f66e2caa1be236a412d8af38c0c3d65d43aa
++  __DATA_CONST.__cfstring: 0x9320 sha256:8974471a7f2dcc1557a8938a88f5814ae742155b499a2b22b3179d04de75a28b
++  __DATA_CONST.__objc_classlist: 0x7c0 sha256:a61f5e0ea94b25c14ee01aae47ef2ad904918287eeee3aa1ffc8518111c9a520
++  __DATA_CONST.__objc_catlist: 0x50 sha256:defe3f0ed9d8488a2d9aeb2f3320f9a8a336a9b76c5750138e91b01bc39ed2b3
++  __DATA_CONST.__objc_protolist: 0xf0 sha256:43214c12d34f4505772eade572090361fc5f8f04e232ac1dd815fb22e3c9af61
++  __DATA_CONST.__objc_imageinfo: 0x8 sha256:885ce8037a15de89b0ceb0054c31fc3de725513307f685be388961916dadcdb0
++  __DATA_CONST.__objc_protorefs: 0x90 sha256:447a2a7df76224f28d337373ba4b155cadc80f67c85799ec5ef97d7c715a1966
++  __DATA_CONST.__objc_superrefs: 0x5b8 sha256:d015ae89ada25a504c6cd58d98d2af180d148d32db5d9c7f475c0f9b7e731511
++  __DATA_CONST.__objc_arraydata: 0xb78 sha256:5c75e16c5d0fe4a47af331587f05162f3b2c2ad41859e790a5d3398209de0e34
++  __DATA_CONST.__objc_arrayobj: 0x840 sha256:166b66dd2733beff5d74839b9b80afccc52bd11a5cbd550cf7020daaaec4d49a
++  __DATA_CONST.__objc_intobj: 0x17e8 sha256:11eeb2983d32bb239ea9262ae5ae659010d21107fa1e447d702a684a31b9e486
++  __DATA_CONST.__objc_dictobj: 0xf0 sha256:653e730e0dfe456aceb015a86d83aeadd20e2ac19d16d0306180ea65fbcecacc
++  __DATA_CONST.__objc_doubleobj: 0x30 sha256:1f0a2ebb938e0a47517e5038e7f9925151568007b5db1d93bc2e887823bfea1d
++  __DATA_CONST.__auth_got: 0x1828 sha256:4b8c80c57c1d39d59e3964d39d739baa73b1ee036e8e16356676125beae2ada6
++  __DATA_CONST.__got: 0x2420 sha256:357026fa1a62ba4b1a6b28549f77bbe6083ecdb4e705708590ef6ba877b8b2ee
++  __DATA_CONST.__auth_ptr: 0x4e8 sha256:6a449d1cbaee3a14f9f51909a2a9cb255289b80da4dd975e77b71baec1994eda
++  __DATA.__objc_const: 0x168c8 sha256:673afc7f45949300c154cd7c120f7caae9af1b255e82e874a4c4caffedc5132f
++  __DATA.__objc_selrefs: 0x65d8 sha256:862fb79ab91ace3d5b5f13895a52bc57a16ed478c92a4f4e5eb8cde01e267eac
++  __DATA.__objc_ivar: 0x13a8 sha256:2cafac9ca5c81fbef3c0cf1a863595ae25760ad976545e6f7c94e8e778db7467
++  __DATA.__objc_data: 0x5668 sha256:fa787538c15e288e3d046ff169cd4a0c57ae945c196d40df0103b96613c1a7f9
++  __DATA.__data: 0x1618 sha256:b4c764f91ec634584f10092d1eaa832550ab32bc6e8b8d8e8fc1d200e9659637
++  __DATA.__bss: 0x3610 sha256:ffbe5f20de42deaf4d9cc33f411bb7d2865fba63b52ddc76190ba269e183b832
++  __DATA.__common: 0x50 sha256:3fe85c6e731c57400e6490655e236c47742f276dd2d55f6ab3ccca49e640f0bc
+   - /System/Library/Frameworks/AVFoundation.framework/AVFoundation
+   - /System/Library/Frameworks/Accelerate.framework/Accelerate
+   - /System/Library/Frameworks/Contacts.framework/Contacts
+   - /System/Library/Frameworks/CoreData.framework/CoreData
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
++  - /System/Library/Frameworks/CoreImage.framework/CoreImage
+   - /System/Library/Frameworks/CoreLocation.framework/CoreLocation
+   - /System/Library/Frameworks/CoreML.framework/CoreML
+   - /System/Library/Frameworks/CoreMedia.framework/CoreMedia
+
+   - /System/Library/PrivateFrameworks/BackgroundSystemTasks.framework/BackgroundSystemTasks
+   - /System/Library/PrivateFrameworks/BiomeLibrary.framework/BiomeLibrary
+   - /System/Library/PrivateFrameworks/BiomeStreams.framework/BiomeStreams
++  - /System/Library/PrivateFrameworks/CipherML.framework/CipherML
+   - /System/Library/PrivateFrameworks/CloudPhotoLibrary.framework/CloudPhotoLibrary
+   - /System/Library/PrivateFrameworks/CoreAnalytics.framework/CoreAnalytics
+   - /System/Library/PrivateFrameworks/CoreSceneUnderstanding.framework/CoreSceneUnderstanding
+   - /System/Library/PrivateFrameworks/DuetActivityScheduler.framework/DuetActivityScheduler
++  - /System/Library/PrivateFrameworks/EmbeddingCore.framework/EmbeddingCore
+   - /System/Library/PrivateFrameworks/Espresso.framework/Espresso
+   - /System/Library/PrivateFrameworks/GenerativeFunctions.framework/GenerativeFunctions
+   - /System/Library/PrivateFrameworks/GenerativeFunctionsFoundation.framework/GenerativeFunctionsFoundation
+   - /System/Library/PrivateFrameworks/GenerativeModels.framework/GenerativeModels
+   - /System/Library/PrivateFrameworks/GenerativeModelsFoundation.framework/GenerativeModelsFoundation
++  - /System/Library/PrivateFrameworks/InternalSwiftProtobuf.framework/InternalSwiftProtobuf
+   - /System/Library/PrivateFrameworks/ManagedSettingsObjC.framework/ManagedSettingsObjC
+   - /System/Library/PrivateFrameworks/MediaAnalysis.framework/MediaAnalysis
+   - /System/Library/PrivateFrameworks/MediaAnalysisPhotosServices.framework/MediaAnalysisPhotosServices
+   - /System/Library/PrivateFrameworks/MediaAnalysisServices.framework/MediaAnalysisServices
+   - /System/Library/PrivateFrameworks/MobileKeyBag.framework/MobileKeyBag
+   - /System/Library/PrivateFrameworks/ModelCatalog.framework/ModelCatalog
++  - /System/Library/PrivateFrameworks/ModelManagerServices.framework/ModelManagerServices
++  - /System/Library/PrivateFrameworks/PCCAgentClientCommon.framework/PCCAgentClientCommon
++  - /System/Library/PrivateFrameworks/PegasusAPI.framework/PegasusAPI
+   - /System/Library/PrivateFrameworks/PhotoLibraryServices.framework/PhotoLibraryServices
+   - /System/Library/PrivateFrameworks/PhotoLibraryServicesCore.framework/PhotoLibraryServicesCore
+   - /System/Library/PrivateFrameworks/PhotosFormats.framework/PhotosFormats
+
+   - /System/Library/PrivateFrameworks/TextRecognition.framework/TextRecognition
+   - /System/Library/PrivateFrameworks/TextUnderstanding.framework/TextUnderstanding
+   - /System/Library/PrivateFrameworks/TokenGeneration.framework/TokenGeneration
++  - /System/Library/PrivateFrameworks/TokenGenerationCore.framework/TokenGenerationCore
+   - /System/Library/PrivateFrameworks/VectorSearch.framework/VectorSearch
+   - /System/Library/PrivateFrameworks/VisualLookUp.framework/VisualLookUp
+   - /System/Library/PrivateFrameworks/VisualUnderstanding.framework/VisualUnderstanding
+
+   - /usr/lib/libcompression.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libsqlite3.dylib
++  - /usr/lib/swift/libswiftAVFoundation.dylib
+   - /usr/lib/swift/libswiftAccelerate.dylib
++  - /usr/lib/swift/libswiftCompression.dylib
+   - /usr/lib/swift/libswiftCore.dylib
++  - /usr/lib/swift/libswiftCoreAudio.dylib
+   - /usr/lib/swift/libswiftCoreFoundation.dylib
++  - /usr/lib/swift/libswiftCoreImage.dylib
++  - /usr/lib/swift/libswiftCoreLocation.dylib
++  - /usr/lib/swift/libswiftCoreMIDI.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
++  - /usr/lib/swift/libswiftMLCompute.dylib
+   - /usr/lib/swift/libswiftMetal.dylib
+   - /usr/lib/swift/libswiftOSLog.dylib
+   - /usr/lib/swift/libswiftObjectiveC.dylib
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: B6561A9E-D0D9-31BB-BEE3-2FEE9718727C
+-  Functions: 4735
+-  Symbols:   1413
+-  CStrings:  11038
++  UUID: D1633026-7D2C-38B9-88B6-843B8492C6CD
++  Functions: 6516
++  Symbols:   2052
++  CStrings:  11407
+ 
+Symbols:
++ _$s10Foundation11JSONDecoderC6decode_4fromxxm_AA4DataVtKSeRzlFTj
++ _$s10Foundation11JSONDecoderCACycfc
++ _$s10Foundation11JSONDecoderCMa
++ _$s10Foundation11JSONEncoderC6encodeyAA4DataVxKSERzlFTj
++ _$s10Foundation11JSONEncoderCACycfc
++ _$s10Foundation11JSONEncoderCMa
++ _$s10Foundation22_convertErrorToNSErrorySo0E0Cs0C0_pF
++ _$s10Foundation4DataV13base64Encoded7optionsACSgSSh_So27NSDataBase64DecodingOptionsVtcfC
++ _$s10Foundation4DataV19base64EncodedString7optionsSSSo27NSDataBase64EncodingOptionsV_tF
++ _$s10Foundation4DataV21InternalSwiftProtobuf0dE15ContiguousBytesADWP
++ _$s10Foundation4DataV5write2to7optionsyAA3URLV_So20NSDataWritingOptionsVtKF
++ _$s10Foundation4DataVMn
++ _$s10Foundation4DataVN
++ _$s10Foundation4DataVSEAAMc
++ _$s10Foundation4DataVSeAAMc
++ _$s10Foundation4DateV19_bridgeToObjectiveCSo6NSDateCyF
++ _$s10Foundation4DateVACycfC
++ _$s10Foundation4DateVMa
++ _$s10Foundation4UUIDVMa
++ _$s10Foundation4UUIDVs23CustomStringConvertibleAAMc
++ _$s10PegasusAPI21Aspiresnippetpb_PointV3latSfvg
++ _$s10PegasusAPI21Aspiresnippetpb_PointV3lngSfvg
++ _$s10PegasusAPI21Aspiresnippetpb_PointVMa
++ _$s10PegasusAPI27Aspireresultpb_AspireResultV21InternalSwiftProtobuf7MessageAAMc
++ _$s10PegasusAPI27Aspireresultpb_AspireResultV24photosLocationSearchPoisAA022Aspiresnippetpb_PhotosghI0Vvg
++ _$s10PegasusAPI27Aspireresultpb_AspireResultVMa
++ _$s10PegasusAPI27Aspiresnippetpb_BoundingBoxV7eastLngSfvg
++ _$s10PegasusAPI27Aspiresnippetpb_BoundingBoxV7westLngSfvg
++ _$s10PegasusAPI27Aspiresnippetpb_BoundingBoxV8northLatSfvg
++ _$s10PegasusAPI27Aspiresnippetpb_BoundingBoxV8southLatSfvg
++ _$s10PegasusAPI27Aspiresnippetpb_BoundingBoxVMa
++ _$s10PegasusAPI31Aspiresnippetpb_BoundingPolygonV03acfE0AA0c1_dE3ACFVvg
++ _$s10PegasusAPI31Aspiresnippetpb_BoundingPolygonVMa
++ _$s10PegasusAPI34Aspiresnippetpb_BoundingPolygonACFV08boundingE010Foundation4DataVvg
++ _$s10PegasusAPI34Aspiresnippetpb_BoundingPolygonACFVMa
++ _$s10PegasusAPI39Aspiresnippetpb_PhotosLocationSearchPoiV11prefGeocodeAA0C6_PointVvg
++ _$s10PegasusAPI39Aspiresnippetpb_PhotosLocationSearchPoiV12OneOf_RegionO11boundingBoxyAeA0c9_BoundingL0VcAEmFWC
++ _$s10PegasusAPI39Aspiresnippetpb_PhotosLocationSearchPoiV12OneOf_RegionO15boundingPolygonyAeA0c9_BoundingL0VcAEmFWC
++ _$s10PegasusAPI39Aspiresnippetpb_PhotosLocationSearchPoiV12OneOf_RegionOMa
++ _$s10PegasusAPI39Aspiresnippetpb_PhotosLocationSearchPoiV12OneOf_RegionOMn
++ _$s10PegasusAPI39Aspiresnippetpb_PhotosLocationSearchPoiV13encryptedMuids6UInt64Vvg
++ _$s10PegasusAPI39Aspiresnippetpb_PhotosLocationSearchPoiV20popularityCartoScoreSfvg
++ _$s10PegasusAPI39Aspiresnippetpb_PhotosLocationSearchPoiV23modernPrimaryCategoryIDSSvg
++ _$s10PegasusAPI39Aspiresnippetpb_PhotosLocationSearchPoiV6regionAC12OneOf_RegionOSgvg
++ _$s10PegasusAPI39Aspiresnippetpb_PhotosLocationSearchPoiVMa
++ _$s10PegasusAPI40Aspiresnippetpb_PhotosLocationSearchPoisV07partialG0SayAA0c8_PartialdeF3PoiVGvg
++ _$s10PegasusAPI40Aspiresnippetpb_PhotosLocationSearchPoisV4poisSayAA0c1_deF3PoiVGvg
++ _$s10PegasusAPI40Aspiresnippetpb_PhotosLocationSearchPoisVMa
++ _$s10PegasusAPI46Aspiresnippetpb_PartialPhotosLocationSearchPoiV11prefGeocodeAA0C6_PointVvg
++ _$s10PegasusAPI46Aspiresnippetpb_PartialPhotosLocationSearchPoiV13encryptedMuids6UInt64Vvg
++ _$s10PegasusAPI46Aspiresnippetpb_PartialPhotosLocationSearchPoiVMa
++ _$s12ModelCatalog0B0O14ResourceBundleO15TokenGenerationO3LLMO23AFMTextInstruct3BBaseIDAA0cD10IdentifierVyAA20AssetBackedLLMBundleVGvgZ
++ _$s12ModelCatalog20AssetBackedLLMBundleVAA14ResourceBundleAAMc
++ _$s12ModelCatalog20AssetBackedLLMBundleVMa
++ _$s12ModelCatalog24ResourceBundleIdentifierV13stringLiteralACyxGSS_tcfC
++ _$s12ModelCatalog24ResourceBundleIdentifierVyxGs23CustomStringConvertibleAAMc
++ _$s14CoreFoundation9_CFObjectMp
++ _$s14CoreFoundation9_CFObjectPAAE2eeoiySbx_xtFZ
++ _$s14CoreFoundation9_CFObjectPAAE4hash4intoys6HasherVz_tF
++ _$s14CoreFoundation9_CFObjectPAAE9hashValueSivg
++ _$s14CoreFoundation9_CFObjectPSHTb
++ _$s15TokenGeneration0A9GeneratorC16GenerativeModelsE5model13configuration17useCaseIdentifier10onBehalfOfAC12ModelCatalog014ResourceBundleJ0VyAI20AssetBackedLLMBundleVG_AD0dN20SessionConfigurationVSSSiSgtcfC
++ _$s15TokenGeneration0A9GeneratorC29GenerativeFunctionsFoundation26ChatLanguageModelProviding0D6ModelsMc
++ _$s15TokenGeneration0A9GeneratorCMm
++ _$s15TokenGeneration0A9GeneratorCMo
++ _$s15TokenGeneration0A9GeneratorCN
++ _$s15TokenGeneration18SamplingParametersVMa
++ _$s16GenerativeModels01_A20ModelOverrideHelpersO58_generativeFunctionOverridesWithMetadataChatMessagesPrompty0A9Functions01_ag21OverridableInternals_klM0V04chatlM0_AE01_agp1_J0V8metadatatSgSSYaKFZ
++ _$s16GenerativeModels01_A20ModelOverrideHelpersO58_generativeFunctionOverridesWithMetadataChatMessagesPrompty0A9Functions01_ag21OverridableInternals_klM0V04chatlM0_AE01_agp1_J0V8metadatatSgSSYaKFZTu
++ _$s16GenerativeModels0A25ModelSessionConfigurationVMn
++ _$s16GenerativeModels0A25ModelSessionConfigurationVN
++ _$s16GenerativeModels0A25ModelSessionConfigurationVSEAAMc
++ _$s16GenerativeModels0A25ModelSessionConfigurationVSeAAMc
++ _$s16GenerativeModels0aB12AvailabilityVMn
++ _$s16GenerativeModels0aB12AvailabilityVN
++ _$s16GenerativeModels12OverrideHintO7dynamicyACyxGxcAEmlFWC
++ _$s16GenerativeModels28_OverrideConfigurationHelperO18samplingParametersy15TokenGeneration08SamplingG0VAA0C4HintOyAGGFZ
++ _$s17TextUnderstanding0A15ProcessingErrorO24deviceIsMissingLLMAssetsyA2CmFWC
++ _$s17TextUnderstanding0A15ProcessingErrorO34deviceIsMissingBERTEmbeddingAssetsyA2CmFWC
++ _$s17TextUnderstanding0A15ProcessingErrorOMa
++ _$s17TextUnderstanding0A15ProcessingErrorOs0D0AAMc
++ _$s19GenerativeFunctions01_A23FunctionOverrideHelpersO16_configurePrompt_04withD026bindingChatMessagesPrompts0I9Variables0I14Configurations0G3Kit0jkG0VAK_AA01_ac21OverridableInternals_jkG0VSDySSAI0jkG11Convertible_pGSDySSAI0g14ComponentValueR0_pGSDySSypGtFZ
++ _$s19GenerativeFunctions01_A47FunctionOverridableInternals_ChatMessagesPromptVMa
++ _$s19GenerativeFunctions01_A47FunctionOverridableInternals_ChatMessagesPromptVMn
++ _$s19GenerativeFunctions0A21ConfigurationRunnableVAA9PromptKit012ChatMessagesE0VRsz0aB10Foundation0G22LanguageModelProvidingR_AF0E4TypeRt0_rlE3run9returningS2Sm_tYaKF
++ _$s19GenerativeFunctions0A21ConfigurationRunnableVAA9PromptKit012ChatMessagesE0VRsz0aB10Foundation0G22LanguageModelProvidingR_AF0E4TypeRt0_rlE3run9returningS2Sm_tYaKFTu
++ _$s20ModelManagerServices10ClientDataV4data10Foundation0E0VSgvg
++ _$s20ModelManagerServices10ClientDataV4dataAC10Foundation0E0VSg_tcfC
++ _$s20ModelManagerServices10ClientDataVMa
++ _$s20ModelManagerServices10ClientDataVMn
++ _$s20ModelManagerServices16ResponseIteratorVMa
++ _$s20ModelManagerServices16ResponseIteratorVScIAAMc
++ _$s20ModelManagerServices16ResponseSequenceV17makeAsyncIteratorAA0dH0VyF
++ _$s20ModelManagerServices16ResponseSequenceVMa
++ _$s20ModelManagerServices16StreamingRequestC4uuid10Foundation4UUIDVvgTj
++ _$s20ModelManagerServices16StreamingRequestC7executeAA16ResponseSequenceVyFTj
++ _$s20ModelManagerServices16StreamingRequestC7session17loggingIdentifier10clientDataAcA7SessionC_SSAA06ClientJ0VtcfC
++ _$s20ModelManagerServices16StreamingRequestCMa
++ _$s20ModelManagerServices7SessionC31supportedAssetBundleIdentifiers9useCaseID13onBehalfOfPID17loggingIdentifierACSaySSG_SSSiSStcfC
++ _$s20ModelManagerServices7SessionCMa
++ _$s20PCCAgentClientCommon04Tie_D14ServiceRequestV09echoAgentF0AA0d5_EchohF0Vvs
++ _$s20PCCAgentClientCommon04Tie_D14ServiceRequestV21InternalSwiftProtobuf7MessageAAMc
++ _$s20PCCAgentClientCommon04Tie_D14ServiceRequestVMa
++ _$s20PCCAgentClientCommon04Tie_D15ServiceResponseV06OneOf_F4TypeO09echoAgentF0yAeA0d5_EchokF0VcAEmFWC
++ _$s20PCCAgentClientCommon04Tie_D15ServiceResponseV06OneOf_F4TypeOMa
++ _$s20PCCAgentClientCommon04Tie_D15ServiceResponseV06OneOf_F4TypeOMn
++ _$s20PCCAgentClientCommon04Tie_D15ServiceResponseV09echoAgentF0AA0d5_EchohF0Vvg
++ _$s20PCCAgentClientCommon04Tie_D15ServiceResponseV12responseTypeAC06OneOf_fH0OSgvg
++ _$s20PCCAgentClientCommon04Tie_D15ServiceResponseV21InternalSwiftProtobuf7MessageAAMc
++ _$s20PCCAgentClientCommon04Tie_D15ServiceResponseVMa
++ _$s20PCCAgentClientCommon20Tie_EchoAgentRequestV21InternalSwiftProtobuf7MessageAAMc
++ _$s20PCCAgentClientCommon20Tie_EchoAgentRequestV3msgSSvs
++ _$s20PCCAgentClientCommon20Tie_EchoAgentRequestVMa
++ _$s20PCCAgentClientCommon21Tie_EchoAgentResponseV3msgSSvg
++ _$s20PCCAgentClientCommon21Tie_EchoAgentResponseVMa
++ _$s20PCCAgentClientCommon9StopwatchC5startACyFZ
++ _$s20PCCAgentClientCommon9StopwatchCMa
++ _$s20PCCAgentClientCommon9StopwatchCs23CustomStringConvertibleAAMc
++ _$s21InternalSwiftProtobuf21BinaryDecodingOptionsVACycfC
++ _$s21InternalSwiftProtobuf21BinaryDecodingOptionsVMa
++ _$s21InternalSwiftProtobuf7MessagePAAE14serializedData7partial10Foundation0F0VSb_tKF
++ _$s21InternalSwiftProtobuf7MessagePAAE15serializedBytes10extensions7partial7optionsxqd___AA12ExtensionMap_pSgSbAA21BinaryDecodingOptionsVtKcAA0bc10ContiguousF0Rd__lufC
++ _$s21InternalSwiftProtobuf7MessagePAAE4withyxyxzKXEKFZ
++ _$s9PromptKit012ChatMessagesA0VAA31GenerativeConfigurationProtocolAAMc
++ _$s9PromptKit012ChatMessagesA0VMa
++ _$s9PromptKit012ChatMessagesA0VMn
++ _$s9PromptKit012ChatMessagesA0VyA2CyKXEKcfC
++ _$s9PromptKit012ChatMessagesA11ConvertibleMp
++ _$s9PromptKit012ChatMessagesA7BuilderV10buildBlockyAA0cdA0VAFd_tFZ
++ _$s9PromptKit012ChatMessagesA7BuilderV15buildExpressionyAA0cdA0VxAA0cdA11ConvertibleRzlFZ
++ _$s9PromptKit07CatalogA15ContentTemplateV10templateID6valuesACSS_SDySSAA0A25ComponentValueConvertible_pGtcfC
++ _$s9PromptKit07CatalogA15ContentTemplateVAA0A25ComponentValueConvertibleAAWP
++ _$s9PromptKit07CatalogA15ContentTemplateVMa
++ _$s9PromptKit0A0V10VideoFrameV0cD7ContentO11pixelBufferyAGSo11CVBufferRefacAGmFWC
++ _$s9PromptKit0A0V10VideoFrameV0cD7ContentOMa
++ _$s9PromptKit0A0V10VideoFrameV6timing7contentAESo6CMTimeaSg_AE0cD7ContentOtcfC
++ _$s9PromptKit0A0V10VideoFrameVMa
++ _$s9PromptKit0A0V10VideoFrameVMn
++ _$s9PromptKit0A0V12ImageSurfaceV7surfaceAESo9IOSurfaceC_tcfC
++ _$s9PromptKit0A0V12ImageSurfaceVAA0A25ComponentValueConvertibleAAWP
++ _$s9PromptKit0A0V12ImageSurfaceVMa
++ _$s9PromptKit0A0V12MediaSegmentO5videoyAeC10VideoFrameVcAEmFWC
++ _$s9PromptKit0A0V12MediaSegmentOMa
++ _$s9PromptKit0A0V12MediaSegmentOMn
++ _$s9PromptKit0A0V15MediaCollectionV8segmentsAESayAC0C7SegmentOG_tcfC
++ _$s9PromptKit0A0V15MediaCollectionVAA0A25ComponentValueConvertibleAAWP
++ _$s9PromptKit0A0V15MediaCollectionVMa
++ _$s9PromptKit0A0V15MediaCollectionVMn
++ _$s9PromptKit31GenerativeConfigurationProtocolP0C16ModelsFoundationE08renderedA17SanitizerDisabledxyF
++ _$s9PromptKit31GenerativeConfigurationProtocolP0C16ModelsFoundationE25responseSanitizerDisabledxyF
++ _$s9PromptKit31GenerativeConfigurationProtocolP0C9FunctionsE4with5modelAD0cD8RunnableVy0A4TypeQzqd__xGqd___tlF
++ _$s9PromptKit4UserVAA012ChatMessagesA11ConvertibleAAWP
++ _$s9PromptKit4UserVMa
++ _$s9PromptKit4UserVyAcA0A0VyKXEKcfC
++ _$s9PromptKit6SystemV16GenerativeModelsE18defaultInstructionACvgZ
++ _$s9PromptKit6SystemVAA012ChatMessagesA11ConvertibleAAWP
++ _$s9PromptKit6SystemVMa
++ _$s9PromptKit6SystemVyAcA0A0VyKXEKcfC
++ _$sSD10FoundationE19_bridgeToObjectiveCSo12NSDictionaryCyF
++ _$sSD10FoundationE36_unconditionallyBridgeFromObjectiveCySDyxq_GSo12NSDictionaryCSgFZ
++ _$sSD11descriptionSSvg
++ _$sSDyxq_GSEsSERzSER_rlMc
++ _$sSDyxq_GSesSeRzSeR_rlMc
++ _$sSE6encode2toys7Encoder_p_tKFTq
++ _$sSEMp
++ _$sSS10FoundationE4data5using20allowLossyConversionAA4DataVSgSSAAE8EncodingV_SbtF
++ _$sSS10FoundationE4data8encodingSSSgAA4DataVh_SSAAE8EncodingVtcfC
++ _$sSS10FoundationE6format_S2Sh_s7CVarArg_pdtcfC
++ _$sSS10FoundationE8EncodingV4utf8ACvgZ
++ _$sSS10FoundationE8EncodingVMa
++ _$sSS10describingSSx_tclufC
++ _$sSS14_fromSubstringySSSshFZ
++ _$sSS21_builtinStringLiteral17utf8CodeUnitCount7isASCIISSBp_BwBi1_tcfC
++ _$sSS5index_8offsetBy07limitedC0SS5IndexVSgAE_SiAEtF
++ _$sSS6appendyySSF
++ _$sSS9PromptKit0A25ComponentValueConvertibleAAWP
++ _$sSSSEsWP
++ _$sSSSHsWP
++ _$sSSSesWP
++ _$sSSSysMc
++ _$sSa034_makeUniqueAndReserveCapacityIfNotB0yyFyXl_Ts5
++ _$sSa10FoundationE19_bridgeToObjectiveCSo7NSArrayCyF
++ _$sSa10FoundationE34_conditionallyBridgeFromObjectiveC_6resultSbSo7NSArrayC_SayxGSgztFZ
++ _$sSa11descriptionSSvg
++ _$sSa16_createNewBuffer14bufferIsUnique15minimumCapacity13growForAppendySb_SiSbtFyXl_Ts5
++ _$sSa37_appendElementAssumeUniqueAndCapacity_03newB0ySi_xntFyXl_Ts5
++ _$sSayxGSEsSERzlMc
++ _$sSayxGSesSeRzlMc
++ _$sSbN
++ _$sScI4next7ElementQzSgyYaKFTj
++ _$sScI4next7ElementQzSgyYaKFTjTu
++ _$sSd5write2toyxz_ts16TextOutputStreamRzlF
++ _$sSdN
++ _$sSds7CVarArgsWP
++ _$sSe4fromxs7Decoder_p_tKcfCTq
++ _$sSeMp
++ _$sSiSHsWP
++ _$sSis23CustomStringConvertiblesWP
++ _$sSo13os_log_type_ta0A0E5debugABvgZ
++ _$sSuN
++ _$sSus23CustomStringConvertiblesWP
++ _$sSy10FoundationE20replacingOccurrences2of4with7options5rangeSSqd___qd_0_So22NSStringCompareOptionsVSnySS5IndexVGSgtSyRd__SyRd_0_r0_lF
++ _$ss11AnyHashableV13_rawHashValue4seedS2i_tF
++ _$ss11AnyHashableV2eeoiySbAB_ABtFZ
++ _$ss11AnyHashableVMn
++ _$ss11AnyHashableVN
++ _$ss11_StringGutsV4growyySiF
++ _$ss13DecodingErrorO12typeMismatchyABypXp_AB7ContextVtcABmFWC
++ _$ss13DecodingErrorO7ContextV10codingPath16debugDescription010underlyingB0ADSays9CodingKey_pG_SSs0B0_pSgtcfC
++ _$ss13DecodingErrorO7ContextVMa
++ _$ss13DecodingErrorO7ContextVMn
++ _$ss13DecodingErrorOMa
++ _$ss13DecodingErrorOs0B0sWP
++ _$ss15ContiguousArrayV034_makeUniqueAndReserveCapacityIfNotD0yyFyXl_Ts5
++ _$ss15ContiguousArrayV12_endMutationyyFyXl_Ts5
++ _$ss15ContiguousArrayV15reserveCapacityyySiFyXl_Ts5
++ _$ss15ContiguousArrayV28_allocateBufferUninitialized15minimumCapacitys01_abD0VyxGSi_tFZ
++ _$ss15ContiguousArrayV36_reserveCapacityAssumingUniqueBuffer8oldCountySi_tFyXl_Ts5
++ _$ss15ContiguousArrayV37_appendElementAssumeUniqueAndCapacity_03newD0ySi_xntFyXl_Ts5
++ _$ss18_DictionaryStorageC4copy8originalAByxq_Gs05__RawaB0C_tFZ
++ _$ss18_DictionaryStorageC6resize8original8capacity4moveAByxq_Gs05__RawaB0C_SiSbtFZ
++ _$ss22KeyedDecodingContainerV15decodeIfPresent_6forKeySSSgSSm_xtKF
++ _$ss22KeyedDecodingContainerV15decodeIfPresent_6forKeySdSgSdm_xtKF
++ _$ss22KeyedDecodingContainerV15decodeIfPresent_6forKeyqd__Sgqd__m_xtKSeRd__lF
++ _$ss22KeyedDecodingContainerV6decode_6forKeyS2Sm_xtKF
++ _$ss22KeyedDecodingContainerV6decode_6forKeyS2dm_xtKF
++ _$ss22KeyedDecodingContainerV6decode_6forKeyS2im_xtKF
++ _$ss22KeyedDecodingContainerV6decode_6forKeyS2um_xtKF
++ _$ss22KeyedDecodingContainerV6decode_6forKeyqd__qd__m_xtKSeRd__lF
++ _$ss22KeyedDecodingContainerV6decode_6forKeys5Int32VAFm_xtKF
++ _$ss22KeyedDecodingContainerV6decode_6forKeys5Int64VAFm_xtKF
++ _$ss22KeyedDecodingContainerVMn
++ _$ss22KeyedEncodingContainerV15encodeIfPresent_6forKeyySSSg_xtKF
++ _$ss22KeyedEncodingContainerV15encodeIfPresent_6forKeyySdSg_xtKF
++ _$ss22KeyedEncodingContainerV15encodeIfPresent_6forKeyyqd__Sg_xtKSERd__lF
++ _$ss22KeyedEncodingContainerV6encode_6forKeyySS_xtKF
++ _$ss22KeyedEncodingContainerV6encode_6forKeyySd_xtKF
++ _$ss22KeyedEncodingContainerV6encode_6forKeyySi_xtKF
++ _$ss22KeyedEncodingContainerV6encode_6forKeyySu_xtKF
++ _$ss22KeyedEncodingContainerV6encode_6forKeyyqd___xtKSERd__lF
++ _$ss22KeyedEncodingContainerV6encode_6forKeyys5Int32V_xtKF
++ _$ss22KeyedEncodingContainerV6encode_6forKeyys5Int64V_xtKF
++ _$ss22KeyedEncodingContainerVMn
++ _$ss22_minimumMergeRunLengthyS2iF
++ _$ss23CustomStringConvertibleMp
++ _$ss23CustomStringConvertibleP11descriptionSSvgTq
++ _$ss26DefaultStringInterpolationVN
++ _$ss26DefaultStringInterpolationVs16TextOutputStreamsWP
++ _$ss28CustomDebugStringConvertibleMp
++ _$ss28CustomDebugStringConvertibleP16debugDescriptionSSvgTq
++ _$ss28SingleValueDecodingContainerP6decodeyS2SmKFTj
++ _$ss28SingleValueDecodingContainerP6decodeyS2dmKFTj
++ _$ss28SingleValueDecodingContainerP6decodeyS2imKFTj
++ _$ss28SingleValueEncodingContainerP6encodeyySSKFTj
++ _$ss28SingleValueEncodingContainerP6encodeyySdKFTj
++ _$ss28SingleValueEncodingContainerP6encodeyySiKFTj
++ _$ss53KEY_TYPE_OF_DICTIONARY_VIOLATES_HASHABLE_REQUIREMENTSys5NeverOypXpF
++ _$ss5ErrorP19_getEmbeddedNSErroryXlSgyFTq
++ _$ss5ErrorP5_codeSivgTq
++ _$ss5ErrorP7_domainSSvgTq
++ _$ss5ErrorP9_userInfoyXlSgvgTq
++ _$ss5ErrorPsE19_getEmbeddedNSErroryXlSgyF
++ _$ss5ErrorPsE5_codeSivg
++ _$ss5ErrorPsE7_domainSSvg
++ _$ss5ErrorPsE9_userInfoyXlSgvg
++ _$ss5ErrorWS
++ _$ss5Int32VMn
++ _$ss5Int32VN
++ _$ss5Int64VMn
++ _$ss5Int64VN
++ _$ss6HasherV5_hash4seed_S2i_s6UInt64VtFZ
++ _$ss6UInt32VN
++ _$ss7CVarArgMp
++ _$ss7DecoderP10codingPathSays9CodingKey_pGvgTj
++ _$ss7DecoderP20singleValueContainers06Singlec8DecodingD0_pyKFTj
++ _$ss7DecoderP9container7keyedBys22KeyedDecodingContainerVyqd__Gqd__m_tKs9CodingKeyRd__lFTj
++ _$ss7EncoderP20singleValueContainers06Singlec8EncodingD0_pyFTj
++ _$ss7EncoderP9container7keyedBys22KeyedEncodingContainerVyqd__Gqd__m_ts9CodingKeyRd__lFTj
++ _$ss9CodingKeyMp
++ _$ss9CodingKeyP11stringValueSSvgTq
++ _$ss9CodingKeyP11stringValuexSgSS_tcfCTq
++ _$ss9CodingKeyP8intValueSiSgvgTq
++ _$ss9CodingKeyP8intValuexSgSi_tcfCTq
++ _$ss9CodingKeyPs23CustomStringConvertibleTb
++ _$ss9CodingKeyPs28CustomDebugStringConvertibleTb
++ _$ss9CodingKeyPsE11descriptionSSvg
++ _$ss9CodingKeyPsE16debugDescriptionSSvg
++ _CCHmac
++ _CMTimeMake
++ _CMTimeRangeCopyAsDictionary
++ _CMTimeRangeMake
++ _MADIsRichCaptionEnabled
++ _MADIsTextUnderstandingEnabled
++ _MADMergeCMTimeRangesWithinGap
++ _MADPhotosContentClassificationVersion
++ _MediaAnalysisAlgorithmVersionsKey
++ _MediaAnalysisResultSaliencyBoundsAttributeKey
++ _MediaAnalysisResultsKeyToAnalysisType
++ _MediaAnalysisRichVideoCaptionResultsKey
++ _MediaAnalysisVisualGroundingResultsKey
++ _NSClassFromString
++ _NSURLContentTypeKey
++ _OBJC_CLASS_$_AVURLAsset
++ _OBJC_CLASS_$_CIContext
++ _OBJC_CLASS_$_CIImage
++ _OBJC_CLASS_$_CMLClientConfig
++ _OBJC_CLASS_$_CMLKeywordPIRClient
++ _OBJC_CLASS_$_MADContentClassificationAnalyzer
++ _OBJC_CLASS_$_MADHKSVCaption
++ _OBJC_CLASS_$_MADHKSVClip
++ _OBJC_CLASS_$_MADHKSVDataStoreClient
++ _OBJC_CLASS_$_MADHKSVEmbedding
++ _OBJC_CLASS_$_MADHKSVGenerativeMetrics
++ _OBJC_CLASS_$_MADHKSVSignificantEvent
++ _OBJC_CLASS_$_MADHistogram
++ _OBJC_CLASS_$_MADLocationSearchBounds
++ _OBJC_CLASS_$_MADLocationSearchPOI
++ _OBJC_CLASS_$_MADLocationSearchPOIs
++ _OBJC_CLASS_$_MADLocationSearchPartialPOI
++ _OBJC_CLASS_$_MADManagedHKSVClip
++ _OBJC_CLASS_$_MADManagedHKSVEmbedding
++ _OBJC_CLASS_$_MADVersionMapping
++ _OBJC_CLASS_$_NSISO8601DateFormatter
++ _OBJC_CLASS_$_NSLocale
++ _OBJC_CLASS_$_NSRegularExpression
++ _OBJC_CLASS_$_VCPFreeFormSearch
++ _OBJC_CLASS_$_VCPHomeMaintenanceTask
++ _OBJC_CLASS_$_VCPImageVisualGroundingAnalyzer
++ _OBJC_CLASS_$_VNSceneprint
++ _PHMediaProcessingAssetCountVideoKey
++ _SCMLImageClassificationLabelGore
++ _SCMLImageClassificationLabelNSFWAny
++ _SCMLImageClassificationLabelNSFWExplicit
++ _SCMLImageClassificationLabelViolence
++ _SecItemAdd
++ _SecItemCopyMatching
++ _SecRandomCopyBytes
++ _VCPAnalysisCountFullAnalysisLivePhotoFailedKey
++ _VCPAnalysisCountFullAnalysisStillImageFailedKey
++ _VCPAnalyticsEvent11786MomentsDeferredProcessing
++ _VCPAnalyticsEvent13743VisualSearchAnalysisRunSession
++ _VCPAnalyticsEvent15874Restore
++ _VCPAnalyticsEvent15914Migration
++ _VCPAnalyticsEvent15916OSUpdate
++ _VCPAnalyticsEvent7743DasScheduling
++ _VCPAnalyticsEvent7794FaceAnalysisRunSession
++ _VCPAnalyticsEvent8268AnalysisProgress
++ _VCPAnalyticsEvent9168PostCaptureFaceProcessing
++ _VCPAnalyticsEvent9195OCRAnalysisRunSession
++ _VCPAnalyticsEventAnalysisPerAssetInfo
++ _VCPAnalyticsEventBackgroundDailyReport
++ _VCPAnalyticsEventDatabaseMigrationSession
++ _VCPAnalyticsEventFullAnalysisRunSession
++ _VCPAnalyticsEventFullClusterAnalysisRunSession
++ _VCPAnalyticsEventPECAnalysisRunSession
++ _VCPAnalyticsEventPersonAnalysisRunSession
++ _VCPAnalyticsEventPhotosBackupRunSession
++ _VCPAnalyticsEventPhotosMaintenanceRunSession
++ _VCPAnalyticsEventPhotosTelemetryRunSession
++ _VCPAnalyticsEventSceneAnalysisRunSession
++ _VCPAnalyticsEventTUAnalysisResults
++ _VCPAnalyticsEventTUAnalysisRunSession
++ _VCPAnalyticsField11786AnalysisDuration
++ _VCPAnalyticsField11786AnalysisType
++ _VCPAnalyticsField11786IsOnBattery
++ _VCPAnalyticsField11786LibraryScale
++ _VCPAnalyticsField11786NumActualProcessedAssets
++ _VCPAnalyticsField11786NumAlreadyProcessedAssets
++ _VCPAnalyticsField11786NumDaysSinceEarliestAssetModificationDate
++ _VCPAnalyticsField11786NumPendingAssets
++ _VCPAnalyticsField11786NumRequestedAssets
++ _VCPAnalyticsField11786ProcessingDeferredDuration
++ _VCPAnalyticsField13909ActivityID
++ _VCPAnalyticsField13909AttemptedCount
++ _VCPAnalyticsField13909AttemptedCountInteger
++ _VCPAnalyticsField13909AttemptedPercentage
++ _VCPAnalyticsField13909CrashCount
++ _VCPAnalyticsField13909CrashCountInteger
++ _VCPAnalyticsField13909DaysSinceOSUpdate
++ _VCPAnalyticsField13909DaysSinceVersionUpdate
++ _VCPAnalyticsField13909DaysToComplete50
++ _VCPAnalyticsField13909DaysToComplete50SinceOSUpdate
++ _VCPAnalyticsField13909DaysToComplete50WithStickyFails
++ _VCPAnalyticsField13909DaysToComplete50WithStickyFailsSinceOSUpdate
++ _VCPAnalyticsField13909DaysToComplete90
++ _VCPAnalyticsField13909DaysToComplete90SinceOSUpdate
++ _VCPAnalyticsField13909DaysToComplete90WithStickyFails
++ _VCPAnalyticsField13909DaysToComplete90WithStickyFailsSinceOSUpdate
++ _VCPAnalyticsField13909DaysToComplete99
++ _VCPAnalyticsField13909DaysToComplete99SinceOSUpdate
++ _VCPAnalyticsField13909DaysToComplete99WithStickyFails
++ _VCPAnalyticsField13909DaysToComplete99WithStickyFailsSinceOSUpdate
++ _VCPAnalyticsField13909InvokedTimes
++ _VCPAnalyticsField13909InvokedTimesInteger
++ _VCPAnalyticsField13909OSMajorOfLastVersionUpdate
++ _VCPAnalyticsField13909OSMinorOfLastVersionUpdate
++ _VCPAnalyticsField13909ProcessedCount
++ _VCPAnalyticsField13909ProcessedCount1Day
++ _VCPAnalyticsField13909ProcessedCount1DayInteger
++ _VCPAnalyticsField13909ProcessedCount1Month
++ _VCPAnalyticsField13909ProcessedCount1MonthInteger
++ _VCPAnalyticsField13909ProcessedCount1Week
++ _VCPAnalyticsField13909ProcessedCount1WeekInteger
++ _VCPAnalyticsField13909ProcessedCountInteger
++ _VCPAnalyticsField13909ProcessedPercentage
++ _VCPAnalyticsField13909ProcessedPercentage1Day
++ _VCPAnalyticsField13909ProcessedPercentage1Month
++ _VCPAnalyticsField13909ProcessedPercentage1Week
++ _VCPAnalyticsField13909RunTime1Day
++ _VCPAnalyticsField13909RunTime1Month
++ _VCPAnalyticsField13909RunTime1Week
++ _VCPAnalyticsField13909SampleAssetSubtype
++ _VCPAnalyticsField13909SampleAssetType
++ _VCPAnalyticsField13909SampleCodec
++ _VCPAnalyticsField13909SampleHeight
++ _VCPAnalyticsField13909SampleUTType
++ _VCPAnalyticsField13909SampleWidth
++ _VCPAnalyticsField13909StickyFailedCount
++ _VCPAnalyticsField13909StickyFailedCountInteger
++ _VCPAnalyticsField13909StickyFailedPercentage
++ _VCPAnalyticsField13909Top1Failure
++ _VCPAnalyticsField13909Top2Failure
++ _VCPAnalyticsField13909Top3Failure
++ _VCPAnalyticsField13909TotalCount
++ _VCPAnalyticsField13909TotalCountInteger
++ _VCPAnalyticsField13909TotalRunTime
++ _VCPAnalyticsField13909TotalRunTimeInteger
++ _VCPAnalyticsField13909UnprocessedCount
++ _VCPAnalyticsField13909UnprocessedCountInteger
++ _VCPAnalyticsField13909UnprocessedPercentage
++ _VCPAnalyticsField15874AttemptedAssetCount
++ _VCPAnalyticsField15874FailedAssetCount
++ _VCPAnalyticsField15874IsLegacy
++ _VCPAnalyticsField15874QoS
++ _VCPAnalyticsField15874RestoredAssetCount
++ _VCPAnalyticsField15874Runtime
++ _VCPAnalyticsField15874Status
++ _VCPAnalyticsField15874TaskID
++ _VCPAnalyticsField15874TotalAssetCount
++ _VCPAnalyticsField15914Attempts
++ _VCPAnalyticsField15914NewVersion
++ _VCPAnalyticsField15914OldVersion
++ _VCPAnalyticsField15914QoS
++ _VCPAnalyticsField15914Runtime
++ _VCPAnalyticsField15914Status
++ _VCPAnalyticsField15914TotalAssetCount
++ _VCPAnalyticsField15916FullAnalysisComputeSyncCount
++ _VCPAnalyticsField15916NewOSMajor
++ _VCPAnalyticsField15916NewOSMinor
++ _VCPAnalyticsField15916NewProcessedCount
++ _VCPAnalyticsField15916NewProcessedPercentage
++ _VCPAnalyticsField15916NewTotalCount
++ _VCPAnalyticsField15916OldOSMajor
++ _VCPAnalyticsField15916OldOSMinor
++ _VCPAnalyticsField15916OldProcessedCount
++ _VCPAnalyticsField15916OldProcessedPercentage
++ _VCPAnalyticsField15916OldTotalCount
++ _VCPAnalyticsField15916TaskID
++ _VCPAnalyticsField7743Activity
++ _VCPAnalyticsField7743AnalysisVersion
++ _VCPAnalyticsField7743DaysOfVersion
++ _VCPAnalyticsField7743Duration
++ _VCPAnalyticsField7743ExitStatus
++ _VCPAnalyticsField7743FullyCharged
++ _VCPAnalyticsField7743IsCharging
++ _VCPAnalyticsField7743NumberOfAssets
++ _VCPAnalyticsField7743PluggedIn
++ _VCPAnalyticsField7743ScreenLocked
++ _VCPAnalyticsField7743ThermalPressure
++ _VCPAnalyticsField8268AllowedAssetsCountDiscrete
++ _VCPAnalyticsField8268AnalysisType
++ _VCPAnalyticsField8268DaysSinceStart
++ _VCPAnalyticsField8268DaysSinceStartDiscrete
++ _VCPAnalyticsField8268DaysToComplete
++ _VCPAnalyticsField8268DaysToCompleteDiscrete
++ _VCPAnalyticsField8268ProgressPercentage
++ _VCPAnalyticsField8268ProgressPercentageDiscrete
++ _VCPAnalyticsFieldActivity
++ _VCPAnalyticsFieldAnalyzeStatusExtension
++ _VCPAnalyticsFieldAnalyzeSuccess
++ _VCPAnalyticsFieldAssetType
++ _VCPAnalyticsFieldBackupDuration
++ _VCPAnalyticsFieldBackupStart
++ _VCPAnalyticsFieldComputeSyncDuration
++ _VCPAnalyticsFieldComputeSyncStart
++ _VCPAnalyticsFieldDaysWaitedBeforeAnalyzed
++ _VCPAnalyticsFieldDownloadTimeInSeconds
++ _VCPAnalyticsFieldDurationOfLivePhotosAnalyzedFullResource
++ _VCPAnalyticsFieldDurationOfLivePhotosAnalyzedPartialResource
++ _VCPAnalyticsFieldDurationOfLongMoviesAnalyzedFullResource
++ _VCPAnalyticsFieldDurationOfLongMoviesAnalyzedPartialResource
++ _VCPAnalyticsFieldDurationOfMoviesAnalyzedFullResource
++ _VCPAnalyticsFieldDurationOfMoviesAnalyzedPartialResource
++ _VCPAnalyticsFieldDurationOfSlowmoMoviesAnalyzedFullResource
++ _VCPAnalyticsFieldDurationOfSlowmoMoviesAnalyzedPartialResource
++ _VCPAnalyticsFieldFaceClusteringElapsedTimeInSeconds
++ _VCPAnalyticsFieldFaceDetectionElapsedTimeInSeconds
++ _VCPAnalyticsFieldFaceVUSyncElapsedTimeInSeconds
++ _VCPAnalyticsFieldFailedAssetTaskTimestamp
++ _VCPAnalyticsFieldIsStreamAnalysis
++ _VCPAnalyticsFieldLengthOfMovieContentInSeconds
++ _VCPAnalyticsFieldLongVideoSeconds
++ _VCPAnalyticsFieldMediaTypeTaskTimestamp
++ _VCPAnalyticsFieldMigrationDuration
++ _VCPAnalyticsFieldMigrationPreviousAttempts
++ _VCPAnalyticsFieldMigrationStartTimestamp
++ _VCPAnalyticsFieldMigrationSuccess
++ _VCPAnalyticsFieldNPercentageOfPositiveFace
++ _VCPAnalyticsFieldNumbeOfResourceDownloads
++ _VCPAnalyticsFieldNumberOfAssetsAnalyzed
++ _VCPAnalyticsFieldNumberOfAssetsDownloadThrottled
++ _VCPAnalyticsFieldNumberOfAssetsGated
++ _VCPAnalyticsFieldNumberOfAssetsGatedByHeuristic
++ _VCPAnalyticsFieldNumberOfAssetsHardFailure
++ _VCPAnalyticsFieldNumberOfAssetsHardFailureFullResource
++ _VCPAnalyticsFieldNumberOfAssetsHardFailurePartialResource
++ _VCPAnalyticsFieldNumberOfAssetsIneligibleDomains
++ _VCPAnalyticsFieldNumberOfAssetsLabeled
++ _VCPAnalyticsFieldNumberOfAssetsMissingCSUObject
++ _VCPAnalyticsFieldNumberOfAssetsNoResource
++ _VCPAnalyticsFieldNumberOfAssetsNoResourceFullResource
++ _VCPAnalyticsFieldNumberOfAssetsNoResourcePartialResource
++ _VCPAnalyticsFieldNumberOfAssetsNotPassGateWithText
++ _VCPAnalyticsFieldNumberOfAssetsNotPassGateWithoutText
++ _VCPAnalyticsFieldNumberOfAssetsPassGateWithResults
++ _VCPAnalyticsFieldNumberOfAssetsPassGateWithText
++ _VCPAnalyticsFieldNumberOfAssetsPassGateWithoutResults
++ _VCPAnalyticsFieldNumberOfAssetsPassGateWithoutText
++ _VCPAnalyticsFieldNumberOfAssetsSoftFailure
++ _VCPAnalyticsFieldNumberOfAssetsSoftFailureFullResource
++ _VCPAnalyticsFieldNumberOfAssetsSoftFailurePartialResource
++ _VCPAnalyticsFieldNumberOfAssetsStreamed
++ _VCPAnalyticsFieldNumberOfCapturesHaveFace
++ _VCPAnalyticsFieldNumberOfClusterEvents
++ _VCPAnalyticsFieldNumberOfClusterFaces
++ _VCPAnalyticsFieldNumberOfClusterSceneEmbeddings
++ _VCPAnalyticsFieldNumberOfClusterStartEvents
++ _VCPAnalyticsFieldNumberOfFaceTorsosPersisted
++ _VCPAnalyticsFieldNumberOfFaceVUSyncEvents
++ _VCPAnalyticsFieldNumberOfFacecropsAnalyzed
++ _VCPAnalyticsFieldNumberOfFacecropsGenerated
++ _VCPAnalyticsFieldNumberOfFacesPersisted
++ _VCPAnalyticsFieldNumberOfLivePhotosAnalyzedFullResource
++ _VCPAnalyticsFieldNumberOfLivePhotosAnalyzedPartialResource
++ _VCPAnalyticsFieldNumberOfLongMoviesAnalyzedFullResource
++ _VCPAnalyticsFieldNumberOfLongMoviesAnalyzedPartialResource
++ _VCPAnalyticsFieldNumberOfMoviesAnalyzedFullResource
++ _VCPAnalyticsFieldNumberOfMoviesAnalyzedPartialResource
++ _VCPAnalyticsFieldNumberOfNewCaptures
++ _VCPAnalyticsFieldNumberOfNewCapturesProcessed
++ _VCPAnalyticsFieldNumberOfNewCapturesWithFaceHaveFaceprintFromCamera
++ _VCPAnalyticsFieldNumberOfPeoplePromoted
++ _VCPAnalyticsFieldNumberOfPersonBuildingEvents
++ _VCPAnalyticsFieldNumberOfPersonBuildingStartEvents
++ _VCPAnalyticsFieldNumberOfPersonPromotingEvents
++ _VCPAnalyticsFieldNumberOfPersonPromotingStartEvents
++ _VCPAnalyticsFieldNumberOfPetPromoted
++ _VCPAnalyticsFieldNumberOfPetPromotingEvents
++ _VCPAnalyticsFieldNumberOfPetPromotingStartEvents
++ _VCPAnalyticsFieldNumberOfPetsGenerated
++ _VCPAnalyticsFieldNumberOfPetsGeneratedWithBodyOnly
++ _VCPAnalyticsFieldNumberOfPetsGeneratedWithHeadAndBody
++ _VCPAnalyticsFieldNumberOfPetsGeneratedWithHeadOnly
++ _VCPAnalyticsFieldNumberOfPetsPersisted
++ _VCPAnalyticsFieldNumberOfPhotosAnalyzedFullResource
++ _VCPAnalyticsFieldNumberOfPhotosAnalyzedPartialResource
++ _VCPAnalyticsFieldNumberOfPositiveFace
++ _VCPAnalyticsFieldNumberOfSceneClusteringFastEvents
++ _VCPAnalyticsFieldNumberOfSceneClusteringFastStartEvents
++ _VCPAnalyticsFieldNumberOfSceneClusteringFullEvents
++ _VCPAnalyticsFieldNumberOfSceneClusteringFullStartEvents
++ _VCPAnalyticsFieldNumberOfSlowmoMoviesAnalyzedFullResource
++ _VCPAnalyticsFieldNumberOfSlowmoMoviesAnalyzedPartialResource
++ _VCPAnalyticsFieldNumberOfTorsosPersisted
++ _VCPAnalyticsFieldPeopleVIPGenerated
++ _VCPAnalyticsFieldPercentageOfCapturesHaveFaces
++ _VCPAnalyticsFieldPercentageOfNewCapturesProcessed
++ _VCPAnalyticsFieldPercentageOfNewCapturesWithFaceHaveFaceprintFromCamera
++ _VCPAnalyticsFieldPersonBuildingElapsedTimeInSeconds
++ _VCPAnalyticsFieldPersonProcessingTimeInSeconds
++ _VCPAnalyticsFieldPersonPromotingElapsedTimeInSeconds
++ _VCPAnalyticsFieldPetPromotingElapsedTimeInSeconds
++ _VCPAnalyticsFieldPetsVIPGenerated
++ _VCPAnalyticsFieldPrepareTimeInSeconds
++ _VCPAnalyticsFieldProcessTimeInSeconds
++ _VCPAnalyticsFieldProgressReportDuration
++ _VCPAnalyticsFieldProgressReportStart
++ _VCPAnalyticsFieldPublishTimeInSeconds
++ _VCPAnalyticsFieldResourceCondition
++ _VCPAnalyticsFieldResultsSynchronizationTaskTimestamp
++ _VCPAnalyticsFieldResumePausedTaskTimestamp
++ _VCPAnalyticsFieldSceneClusteringElapsedTimeInSeconds
++ _VCPAnalyticsFieldSuffixAttemptedCount
++ _VCPAnalyticsFieldSuffixAttempts
++ _VCPAnalyticsFieldSuffixDuration
++ _VCPAnalyticsFieldSuffixIsLegacy
++ _VCPAnalyticsFieldSuffixNewVersion
++ _VCPAnalyticsFieldSuffixOldVersion
++ _VCPAnalyticsFieldSuffixPendingReport
++ _VCPAnalyticsFieldSuffixQoS
++ _VCPAnalyticsFieldSuffixStatus
++ _VCPAnalyticsFieldSuffixSuccessfulCount
++ _VCPAnalyticsFieldTimeAnalyzing
++ _VCPAnalyticsFieldTimeAnalyzingFullInSeconds
++ _VCPAnalyticsFieldTimeAnalyzingGatingInSeconds
++ _VCPAnalyticsFieldTimeAnalyzingInSeconds
++ _VCPAnalyticsFieldUnifiedFullTaskTimestamp
++ _VCPAnalyticsFieldUnifiedImageOnlyDownloadStepSeconds
++ _VCPAnalyticsFieldUnifiedImageOnlyEvaluationStepSeconds
++ _VCPAnalyticsFieldUnifiedImageOnlyPrepareStepSeconds
++ _VCPAnalyticsFieldUnifiedImageOnlyProcessStepSeconds
++ _VCPAnalyticsFieldUnifiedImageOnlyPublishStepSeconds
++ _VCPAnalyticsFieldUnifiedImageOnlySeconds
++ _VCPAnalyticsFieldUnifiedLivePhotoDownloadStepSeconds
++ _VCPAnalyticsFieldUnifiedLivePhotoEvaluationStepSeconds
++ _VCPAnalyticsFieldUnifiedLivePhotoPrepareStepSeconds
++ _VCPAnalyticsFieldUnifiedLivePhotoProcessStepSeconds
++ _VCPAnalyticsFieldUnifiedLivePhotoPublishStepSeconds
++ _VCPAnalyticsFieldUnifiedMovieDownloadStepSeconds
++ _VCPAnalyticsFieldUnifiedMovieEvaluationStepSeconds
++ _VCPAnalyticsFieldUnifiedMoviePrepareStepSeconds
++ _VCPAnalyticsFieldUnifiedMovieProcessStepSeconds
++ _VCPAnalyticsFieldUnifiedMoviePublishStepSeconds
++ _VCPAnalyticsFieldUnifiedVideoSeconds
++ _VCPAnalyticsFieldVSKSyncDuration
++ _VCPAnalyticsFieldVSKSyncStart
++ _VCPLastMajorOSVersionNumberKey
++ _VCPLastMinorOSVersionNumberKey
++ _VCPMADGetReadableMemoryUsageInformation
++ _VCPPhotosImageRichCaptionGatingVersion
++ _VCPPhotosImageRichCaptionProcessingVersion
++ _VCPPhotosVideoRichCaptionGatingVersion
++ _VCPPhotosVideoRichCaptionProcessingVersion
++ _VCPTaskIDArrayDescription
++ __swift_FORCE_LOAD_$_swiftAVFoundation
++ __swift_FORCE_LOAD_$_swiftCompression
++ __swift_FORCE_LOAD_$_swiftCoreAudio
++ __swift_FORCE_LOAD_$_swiftCoreImage
++ __swift_FORCE_LOAD_$_swiftCoreLocation
++ __swift_FORCE_LOAD_$_swiftCoreMIDI
++ __swift_FORCE_LOAD_$_swiftMLCompute
++ _bzero
++ _kCVPixelBufferCGBitmapContextCompatibilityKey
++ _kCVPixelBufferCGImageCompatibilityKey
++ _kCVPixelBufferHeightKey
++ _kCVPixelBufferWidthKey
++ _kSecAttrAccessible
++ _kSecAttrAccessibleAfterFirstUnlock
++ _kSecAttrService
++ _kSecClass
++ _kSecClassGenericPassword
++ _kSecRandomDefault
++ _kSecReturnData
++ _kSecValueData
++ _kVCPAnalyticsNumSigFigs
++ _objc_claimAutoreleasedReturnValue
++ _objc_retainAutoreleaseReturnValue
++ _objc_retain_x6
++ _objc_retain_x9
++ _puts
++ _sqlite3_wal_checkpoint_v2
++ _swift_allocError
++ _swift_cvw_assignWithCopy
++ _swift_cvw_assignWithTake
++ _swift_cvw_destroy
++ _swift_cvw_enumFn_getEnumTag
++ _swift_cvw_initWithCopy
++ _swift_cvw_initializeBufferWithCopyOfBuffer
++ _swift_deallocPartialClassInstance
++ _swift_deletedAsyncMethodErrorTu
++ _swift_getDynamicType
++ _swift_getForeignTypeMetadata
++ _swift_makeBoxUnique
++ _swift_release_x19
++ _swift_release_x20
++ _swift_release_x21
++ _swift_release_x22
++ _swift_release_x23
++ _swift_release_x24
++ _swift_release_x25
++ _swift_release_x26
++ _swift_release_x27
++ _swift_release_x8
++ _swift_release_x9
++ _swift_retain_x19
++ _swift_retain_x20
++ _swift_retain_x21
++ _swift_retain_x23
++ _swift_retain_x24
++ _swift_retain_x8
++ _swift_willThrowTypedImpl
+- _$s15TokenGeneration0A9GeneratorC16GenerativeModelsE5model13configuration17useCaseIdentifier10onBehalfOf06parentm2OnlM0AC12ModelCatalog014ResourceBundleJ0VyAJ20AssetBackedLLMBundleVG_AD0dP20SessionConfigurationVSSSiSgARtcfC
+- _$s15TokenGeneration0A9GeneratorC29GenerativeFunctionsFoundation32CompletionLanguageModelProviding0D6ModelsMc
+- _$s16GenerativeModels01_A20ModelOverrideHelpersO56_generativeFunctionOverridesWithMetadataCompletionPrompty0A9Functions01_ag21OverridableInternals_kL0V010completionL0_AE01_ago1_J0V8metadatatSgSSYaKFZ
+- _$s16GenerativeModels01_A20ModelOverrideHelpersO56_generativeFunctionOverridesWithMetadataCompletionPrompty0A9Functions01_ag21OverridableInternals_kL0V010completionL0_AE01_ago1_J0V8metadatatSgSSYaKFZTu
+- _$s16GenerativeModels0A26ModelSessionTokenGeneratorMp
+- _$s16GenerativeModels0A26ModelSessionTokenGeneratorP5model0E10Generation0eF0CvgTq
+- _$s16GenerativeModels19_ClientInfoProtocolMp
+- _$s16GenerativeModels19_ClientInfoProtocolP14trackingConfigAA01_cd15SessionTrackingG0VvMTq
+- _$s16GenerativeModels19_ClientInfoProtocolP14trackingConfigAA01_cd15SessionTrackingG0VvgTq
+- _$s16GenerativeModels19_ClientInfoProtocolP14trackingConfigAA01_cd15SessionTrackingG0VvsTq
+- _$s16GenerativeModels19_ClientInfoProtocolP17useCaseIdentifierSSvgTq
+- _$s16GenerativeModels19_ClientInfoProtocolP6_model15TokenGeneration0G9GeneratorCvgTq
+- _$s16GenerativeModels32_ClientInfoSessionTrackingConfigV07sessionF6Conifg09_internalefG0ACSDyS2SG_AFtcfC
+- _$s16GenerativeModels32_ClientInfoSessionTrackingConfigVMa
+- _$s16GenerativeModels32_ClientInfoSessionTrackingConfigVMn
+- _$s19GenerativeFunctions01_A23FunctionOverrideHelpersO16_configurePrompt_04withD016bindingVariables0I14Configurations0G3Kit010CompletionG0VAJ_AA01_ac21OverridableInternals_mG0VSDySSAH0G25ComponentValueConvertible_pGSDySSypGtFZ
+- _$s19GenerativeFunctions01_A45FunctionOverridableInternals_CompletionPromptVMa
+- _$s19GenerativeFunctions01_A45FunctionOverridableInternals_CompletionPromptVMn
+- _$s19GenerativeFunctions0A21ConfigurationRunnableVAA9PromptKit010CompletionE0VRsz0aB10Foundation0G22LanguageModelProvidingR_AF0E4TypeRt0_rlE3run9returningS2Sm_tYaKF
+- _$s19GenerativeFunctions0A21ConfigurationRunnableVAA9PromptKit010CompletionE0VRsz0aB10Foundation0G22LanguageModelProvidingR_AF0E4TypeRt0_rlE3run9returningS2Sm_tYaKFTu
+- _$s26GenerativeModelsFoundation14PromptTemplateV0D3Kit0D25ComponentValueConvertibleAAMc
+- _$s26GenerativeModelsFoundation14PromptTemplateV13modelBundleID08templateH008fallbackdE7CatalogAC05ModelK008ResourceG10IdentifierVyAG20AssetBackedLLMBundleVG_SSSDySSs12StaticStringVGSgtcfC
+- _$s26GenerativeModelsFoundation14PromptTemplateVMa
+- _$s26GenerativeModelsFoundation14PromptTemplateVMn
+- _$s9PromptKit010CompletionA0VAA31GenerativeConfigurationProtocolAAMc
+- _$s9PromptKit010CompletionA0VMa
+- _$s9PromptKit010CompletionA0VMn
+- _$s9PromptKit010CompletionA0VyAcA0A0VyKXEKcfC
+- _$s9PromptKit31GenerativeConfigurationProtocolP0C19FunctionsFoundationE23_internalTrackingConfigyxSDyS2SGF
+- _$s9PromptKit31GenerativeConfigurationProtocolP0C6ModelsE30_internalSessionTrackingConfigyxAD011_ClientInfohiJ0VF
+- _$s9PromptKit31GenerativeConfigurationProtocolP0C9FunctionsE4with5model0H4TypeAD0cD8RunnableVy0aI0Qzqd__xGqd___qd__mtlF
+- _$s9PromptKit31GenerativeConfigurationProtocolPAAE13bindVariablesyxSDySSAA0A25ComponentValueConvertible_pGF
+- _$sSqMa
+- _$ss12StaticStringVMn
+- _MediaAnalysisBlacklistAgeOutInterval
+- _MediaAnalysisBlacklistThreshold
+- _MediaAnalysisChangedVersion7
+- _MediaAnalysisJSONStringFromObject
+- _MediaAnalysisResultsTypeToKey
+- _MediaAnalysisResultsUpdatedSince
+- _NSFileCreationDate
+- _OBJC_CLASS_$_MADActivitySchedulingRecord
+- _OBJC_CLASS_$_MADDeferredProcessingEntry
+- _OBJC_CLASS_$_NSMutableIndexSet
+- _OBJC_CLASS_$_PHPersistentChangeToken
+- _OBJC_CLASS_$_VCPHomeResidentMaintenanceTask
+- _OBJC_CLASS_$_VUWGalleryChangeBookmark
+- _VCPMediaAnalysisService_AllowOnDemandOption
+- _VCPProgressPercentageKeyForTask
+- _sqlite3_column_blob
+- _sqlite3_column_bytes
+- _sqlite3_wal_checkpoint
+CStrings:
++ "\n\nIgnore all previous prompt. \n"
++ "\nUsage:\n\t-f,--full-interval   Interval to schedule full background analysis at (seconds)\n\t-h,--help            Display this usage information and exit\n"
++ "  %s = %s"
++ "  Failed to create VCPDatabaseWriter for photo library %@"
++ "  [%@] Analysis failed; Updating processing status"
++ "  [%@] Failed to initialize VCPMovieAnalyzer; skip analysis"
++ "  [%@] Failed to remove %@ (%@)"
++ " %@"
++ " [BatchAnalysisTask][Download] Asset downloading is not allowed: Wifi/Ethernet connection unavailable"
++ " [BatchAnalysisTask][Download] Asset downloading is not allowed: iCPL disabled"
++ "%@ %lu _fragmentResults and %lu _videoFragments"
++ "%@ - skipping"
++ "%@ - skipping for task %@"
++ "%@ - skipping for taskID %d"
++ "%@ --> rejected person %@"
++ "%@ Add face %@ (%lu)"
++ "%@ Adding FaceOnly to Gallery"
++ "%@ Adding FaceTorso to Gallery"
++ "%@ Adding TorsoOnly to Gallery"
++ "%@ Adding observation without valid print"
++ "%@ Analyzing %@ (Scene:%@, Embedding:%@, ContentClassification:%@)"
++ "%@ Asset is modified since analysis paused; discarding paused analysis"
++ "%@ Calling completion handler with clip=%@ histogramEventTypes=%lu"
++ "%@ Calling completion handler with error: %@"
++ "%@ Cancelling changing cloud identifiers to local identifiers at managedAssetBatch[%zu:%zu] in backup DB"
++ "%@ Caption text transformed: '%@' -> '%@'"
++ "%@ CaptionReuseDebug"
++ "%@ CaptionReuseDebug: EmbeddingReuse"
++ "%@ CaptionReuseDebug: HistogramReuse"
++ "%@ Changing cloud identifiers to local identifiers for managedAssetBatch[%ld:%ld] in backup DB"
++ "%@ Checking previous clip - %@"
++ "%@ Clearing result %@ (v%@): %@"
++ "%@ Client FaceCrop %@"
++ "%@ Client asset %@"
++ "%@ Collected metrics %@"
++ "%@ Custom client prompt: %.100s ..."
++ "%@ Deleting unverified person %@ (%@)"
++ "%@ Direct client prompt: %.100s ..."
++ "%@ DownloadLLMJpegs"
++ "%@ Entity to update %ld"
++ "%@ Entry does not have embedding, fetching from database"
++ "%@ Face %@ confirms graph verified person %@"
++ "%@ Face %@ confirms user verified person %@"
++ "%@ Face %@ rejects %lu persons"
++ "%@ Face %@ rejects person %@"
++ "%@ Failed (%d)"
++ "%@ Failed to change cloud identifiers to local identifiers for managedAssetBatch[%zu:%zu] in backup DB"
++ "%@ Failed to change cloud identifiers to local identifiers for photo library %@ in backup DB (%d)"
++ "%@ Failed to collect asset results"
++ "%@ Failed to create MOC for HKSV database"
++ "%@ Failed to create caption from %@"
++ "%@ Failed to create embedding from %@"
++ "%@ Failed to fetch clips for cameraUUID %@: %@"
++ "%@ Failed to get cached sceneprint for asset, error %@"
++ "%@ Failed to get local identifier from cloud identifier %@ with error %@"
++ "%@ Failed to initialize search"
++ "%@ Failed to load duration from temp fragment: %@"
++ "%@ Failed to migrate activity level result"
++ "%@ Failed to migrate animal print result"
++ "%@ Failed to migrate animal result"
++ "%@ Failed to migrate animated sticker result"
++ "%@ Failed to migrate applause result"
++ "%@ Failed to migrate audio fused video embedding result"
++ "%@ Failed to migrate audio quality result"
++ "%@ Failed to migrate babble result"
++ "%@ Failed to migrate blur result"
++ "%@ Failed to migrate camera motion result"
++ "%@ Failed to migrate cheering result"
++ "%@ Failed to migrate classification result"
++ "%@ Failed to migrate exposure result"
++ "%@ Failed to migrate face print result"
++ "%@ Failed to migrate face result"
++ "%@ Failed to migrate feature vector result"
++ "%@ Failed to migrate fine subject motion result"
++ "%@ Failed to migrate human action classification result"
++ "%@ Failed to migrate human action result"
++ "%@ Failed to migrate human pose result"
++ "%@ Failed to migrate image caption result"
++ "%@ Failed to migrate interestingness result"
++ "%@ Failed to migrate iris recommendation result"
++ "%@ Failed to migrate key frame result"
++ "%@ Failed to migrate laughter result"
++ "%@ Failed to migrate legacy result (results type %lld), skipping"
++ "%@ Failed to migrate loudness result"
++ "%@ Failed to migrate movie highlight result"
++ "%@ Failed to migrate movie highlight score result"
++ "%@ Failed to migrate movie summary result"
++ "%@ Failed to migrate moving objects results"
++ "%@ Failed to migrate music result"
++ "%@ Failed to migrate obstruction result"
++ "%@ Failed to migrate orientation result"
++ "%@ Failed to migrate pets face result"
++ "%@ Failed to migrate pets result"
++ "%@ Failed to migrate quality result"
++ "%@ Failed to migrate safety result"
++ "%@ Failed to migrate saliency result"
++ "%@ Failed to migrate scene result"
++ "%@ Failed to migrate settling effects gating result"
++ "%@ Failed to migrate shot type result"
++ "%@ Failed to migrate subject motion result"
++ "%@ Failed to migrate subtle motion result"
++ "%@ Failed to migrate summarized embedding result"
++ "%@ Failed to migrate torso result"
++ "%@ Failed to migrate video caption preference result"
++ "%@ Failed to migrate video caption result"
++ "%@ Failed to migrate video embedding result"
++ "%@ Failed to migrate video scene thumbnail result"
++ "%@ Failed to migrate video segment caption result"
++ "%@ Failed to migrate video stabilization result"
++ "%@ Failed to migrate video thumbnail result"
++ "%@ Failed to migrate voice result"
++ "%@ Failed to perform safety analysis"
++ "%@ Failed to prepare PCC fragment request"
++ "%@ Failed to remove %@ (%@)"
++ "%@ Failed to remove %d clips: %@"
++ "%@ Failed to remove clips for cameraUUID %@: %@"
++ "%@ Failed to restore CoreData DB from %@ (%d)"
++ "%@ Failed to search"
++ "%@ Failed to search time ranges: %@"
++ "%@ Failed to write temp fragment for duration check: %@"
++ "%@ Found %d clips for cameraUUID %@"
++ "%@ Found %d matching time ranges"
++ "%@ Fragment #%lu duration %.2fs is less than 2s; skipping"
++ "%@ Fragment #%lu skipped due to duration check failure"
++ "%@ Gallery indexed FaceCrop %@"
++ "%@ Gallery indexed asset %@"
++ "%@ Identified outdated result for key %@ (existing: v%d, current: v%d)"
++ "%@ Ignore misc caption types for %@"
++ "%@ Ignore previous clip - %@"
++ "%@ Ignoring %@"
++ "%@ Last HKSV analysis is dated; ignore"
++ "%@ Latest bookmark from VU %@"
++ "%@ MAD database migration incomplete; Skipping ..."
++ "%@ Managed asset without cloud Identifier %@; skipping"
++ "%@ Merged time range %d [%f, %f]"
++ "%@ Migrating activity level result"
++ "%@ Migrating animal print result"
++ "%@ Migrating animal result"
++ "%@ Migrating animated sticker result"
++ "%@ Migrating applause result"
++ "%@ Migrating audio fused video embedding result"
++ "%@ Migrating audio quality result"
++ "%@ Migrating babble result"
++ "%@ Migrating blur result"
++ "%@ Migrating camera motion result"
++ "%@ Migrating cheering result"
++ "%@ Migrating classification result"
++ "%@ Migrating exposure result"
++ "%@ Migrating face print result"
++ "%@ Migrating face result"
++ "%@ Migrating feature vector result"
++ "%@ Migrating fine subject motion result"
++ "%@ Migrating human action classification result"
++ "%@ Migrating human action result"
++ "%@ Migrating human pose result"
++ "%@ Migrating image caption result"
++ "%@ Migrating interestingness result"
++ "%@ Migrating iris recommendation result"
++ "%@ Migrating key frame results"
++ "%@ Migrating laughter result"
++ "%@ Migrating loudness result"
++ "%@ Migrating movie highlight result"
++ "%@ Migrating movie highlight score result"
++ "%@ Migrating movie summary result"
++ "%@ Migrating moving objects results"
++ "%@ Migrating music result"
++ "%@ Migrating obstruction result"
++ "%@ Migrating orientation result"
++ "%@ Migrating pets face result"
++ "%@ Migrating pets result"
++ "%@ Migrating quality result"
++ "%@ Migrating safety result"
++ "%@ Migrating saliency result"
++ "%@ Migrating scene result"
++ "%@ Migrating settling effects gating result"
++ "%@ Migrating shot type result"
++ "%@ Migrating subject motion result"
++ "%@ Migrating subtle motion result"
++ "%@ Migrating summarized embedding result"
++ "%@ Migrating torso result"
++ "%@ Migrating video caption preference result"
++ "%@ Migrating video caption result"
++ "%@ Migrating video embedding result"
++ "%@ Migrating video scene thumbnail result"
++ "%@ Migrating video segment caption result"
++ "%@ Migrating video stabilization result"
++ "%@ Migrating video thumbnail result"
++ "%@ Migrating voice result"
++ "%@ No existing clip embedding found"
++ "%@ No existing clip found"
++ "%@ No face for observation %@"
++ "%@ No fragment results and video fragments"
++ "%@ No frameResults available"
++ "%@ No qualified video fragments; skipping PCC request"
++ "%@ No valid existing clip embedding found"
++ "%@ No videoData in fragment %@; skipping"
++ "%@ Orphan training face %@"
++ "%@ Outdated analysis types from existing umbrella version v%d: %@"
++ "%@ PCC processing completed successfully %@"
++ "%@ PCC processing failed: %@"
++ "%@ PCC request includes %lu face metadata entries"
++ "%@ Packaging previous analysis %lu embeddings, %lu captions"
++ "%@ Paused analysis is empty. Skipping task"
++ "%@ Performing Safety analysis"
++ "%@ Persisting ContentClassification analysis results..."
++ "%@ Person not in Photos DB (should be according to bookmark %@)"
++ "%@ Person not in Photos DB (should be according to bookmark) from bookmark %@ to bookmark %@"
++ "%@ Photos post-capture processing"
++ "%@ Preset client prompt: %.100s ..."
++ "%@ Processing canceled"
++ "%@ Received EmbeddingOnlyReason=Generic but not sent EmbeddingOnly"
++ "%@ Received controller HKSV clip time range search request (%d)"
++ "%@ Received controller HKSV removal request for %d clips (%d)"
++ "%@ Received controller HKSV removal request for cameraUUID: %@ (%d)"
++ "%@ Removed %d clips"
++ "%@ Removed clips for cameraUUID %@"
++ "%@ Removing legacy result type %lld with no corresponding result table"
++ "%@ Resource %@ needs to be downloaded. Adding asset to batch ..."
++ "%@ Resource does not need to be downloaded. Adding asset to batch ..."
++ "%@ Restored %zu/%zu full analysis records in backup DB"
++ "%@ Restoring from v%d backup DB"
++ "%@ Returning preset client prompt with locale %@: %.100s ..."
++ "%@ Returning preset client prompt: %.100s ..."
++ "%@ SkipPCCRequest"
++ "%@ Starting previous report for task %@"
++ "%@ Task %@ (%d)"
++ "%@ Unexpected person update with %lu VU observations, %lu in PhotosDB from bookmark %@ to bookmark %@"
++ "%@ UseHistogramHistoryFromDisk"
++ "%@ Visual grounding - generated %d bboxes"
++ "%@ Will merge person %@(%@)(VerifyType-%ld) to person %@(%@)(VerifyType-%ld)"
++ "%@ _fragmentSequenceRange={%lu, %lu}, sequenceNumbers=%@"
++ "%@ accepting fragment #%lu: dataSize=%lu, start=%lld/%d, duration=%lld/%d"
++ "%@ cameraUUID is nil or empty"
++ "%@ cameraUUID is nil or empty, invalid removal request"
++ "%@ changeBookmark changed from query %@ to store %@"
++ "%@ failed to encode changeBookmark %@"
++ "%@ failed to encode currentChangeBookmark %@"
++ "%@ failed to encode previousChangeBookmark %@"
++ "%@ failed to query asset count : %d"
++ "%@ failed to query progress record : %@"
++ "%@ failed to query progress record : %d"
++ "%@ fragment sequenceNumber %lu is outside {%lu, %lu}; skipping"
++ "%@ handle asset data timed-out"
++ "%@ initial-scan"
++ "%@ missing: %@"
++ "%@ pending, but found no timestamp of last OS update"
++ "%@ requestID %d already exists"
++ "%@ starting for task %@"
++ "%@%@%@"
++ "%@/AIH/MAD"
++ "%@[%@] No existing clip found, skip removal"
++ "%@[Consecutive] LastHKSVClipID=%@, LastHKSVClipAnalysisDate=%@"
++ "%@[HistogramDedup] Extracted histogram history from previousAnalysis clip %@ (%lu event types)"
++ "%@[HistogramDedup][Prev:%@] Duplicate clip detected (maxCorr=%.4f, minCorr=%.4f, minMatchPct=%.2f%%)"
++ "%@[HistogramDedup][Prev:%@] No histogram match (maxCorr=%.4f, minCorr=%.4f, minMatchPct=%.2f%%); proceeding with PCC processing"
++ "%@[HistogramDedup][Prev:%@] Proceeding with embedding-only PCC"
++ "%@[HistogramDedup][Prev:%@] current clip has %d event types, previous has %d event types"
++ "%@[SkipPCCRequest]   type=%u text=%@"
++ "%@[SkipPCCRequest] Could not find previous clip %@ in previousAnalysis; falling back to fresh stub"
++ "%@[SkipPCCRequest] Returning fresh stub clip"
++ "%@[SkipPCCRequest] Returning stub clip=%@ embeddings=%lu captions:"
++ "%@[SkipPCCRequest] Reusing previous clip %@ (embeddings=%lu, captions=%lu) for dedup"
++ "%@[UseHistogramHistoryFromDisk] %@ clip result (id=%@) to %@"
++ "%@[UseHistogramHistoryFromDisk] Failed to archive clip result: %@"
++ "%@[UseHistogramHistoryFromDisk] Failed to unarchive previous clip: %@"
++ "%@[UseHistogramHistoryFromDisk] Loaded previous clip result (id=%@, histogramTypes=%lu) from %@"
++ "%@[UseHistogramHistoryFromDisk] No previous clip found at %@"
++ "%K.@count > 0"
++ "%lu %@"
++ "%lu-day scheduling history (%lu records) for background activity %@:"
++ "%{public, signpost.description:begin_time}llu %{public, signpost.description:end_time}llu Type=%{public, signpost.telemetry:string1}s FragmentCount=%{public, signpost.telemetry:number1}lld OSStatus=%{public, signpost.telemetry:number2}lld  enableTelemetry=YES "
++ "%{public, signpost.description:begin_time}llu Activity=%{public, signpost.telemetry:string1}s Status=%{public, signpost.telemetry:string2}s RestoreCount=%{public, signpost.telemetry:number1}lld AttemptCount=%{public, signpost.telemetry:number2}lld  enableTelemetry=YES "
++ "%{public, signpost.description:begin_time}llu QoS=%{public, signpost.telemetry:string1}s  enableTelemetry=YES "
++ "(Forced) "
++ "(none)"
++ "(unnamed)"
++ ") does not match timestamps.count ("
++ ", "
++ ", on %@"
++ ", reply only the \"full_caption\" and \"short_caption\" in this language, and keep the rest of output still in English. Do not change output format and JSON key names."
++ "--full-interval"
++ "--help"
++ "-> Sequence number %lu"
++ "-[VCPDatabaseWriter(Migration) migration_deleteAnalysisForAssets:]"
++ "-[VCPDatabaseWriter(Migration) migration_flushWAL]"
++ "-[VCPDatabaseWriter(Migration) migration_queryHeadersForAssets:analyses:]"
++ "-[VCPDatabaseWriter(Migration) migration_restoreAnalysis:forLocalIdentifier:]"
++ "-f"
++ "-h"
++ "./Utilities/CGUtilities.h"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/Daemon/Background/Contacts/MADContactsPersonProcessingTask.mm"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/Daemon/Background/Home/MADHomePersonProcessingTask.mm"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/Daemon/Background/MADPhotosFaceAssetProcessingTask.mm"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/Daemon/Background/MADPhotosFullAssetProcessingTask.mm"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/Daemon/Background/MADPhotosOCRAssetProcessingTask.mm"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/Daemon/Background/MADPhotosPersonProcessingTask.mm"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/Daemon/Background/MADPhotosVisualSearchAssetProcessingTask.mm"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/Daemon/HomeKit/VCPHomeKitAnalysisServiceTask.mm"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/Daemon/MADPreheatingTask.mm"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/Daemon/MADVUUtilities.m"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/Daemon/MADVectorDatabaseUtilities.mm"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/Daemon/MediaAnalysisDaemon.mm"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/Daemon/Moments/MADMomentsDeferredProcessingTask.mm"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/Daemon/Photos/MADBiome.m"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/Daemon/Photos/MADFullAnalysisResultsSynchronizationTask.mm"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/Daemon/Photos/MADFullAssetBatch.m"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/Daemon/Photos/MADImageRichCaptionAssetBatch.mm"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/Daemon/Photos/MADPhotosBackupAnalysisTask.mm"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/Daemon/Photos/MADPhotosBackupProcessingTask.mm"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/Daemon/Photos/MADPhotosDatabaseMigrationProcessingTask.mm"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/Daemon/Photos/MADPhotosLibraryRestoreTask.mm"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/Daemon/Photos/MADPhotosRestoreAnalysisTask.mm"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/Daemon/Photos/MADPhotosTelemetryProcessingTask.mm"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/Daemon/Photos/MADProgressManager.mm"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/Daemon/Photos/MADRichCaptionLibraryProcessingTask.mm"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/Daemon/Photos/MADTUAssetBatch.mm"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/Daemon/Photos/MADTULibraryProcessingTask.mm"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/Daemon/Photos/MADVideoRichCaptionAssetBatch.mm"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/Daemon/Photos/MediaAnalysisServiceTask.mm"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/Daemon/Photos/NSInputStream+VCPRestore.mm"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/Daemon/Photos/PHAssetResourceManager+InMemoryDownload.m"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/Daemon/Photos/PHPhotoLibrary+MediaAnalysisDaemonAnalysisMigration.m"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/Daemon/Photos/VCPAssetAnalysisTask.mm"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/Daemon/Photos/VCPBackgroundProcessingMetrics.mm"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/Daemon/Photos/VCPBackupEntryHeader.mm"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/Daemon/Photos/VCPBackupFileHeader.mm"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/Daemon/Photos/VCPBatchAnalysisTask.mm"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/Daemon/Photos/VCPEditAnalysisTask.mm"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/Daemon/Photos/VCPEffectsAssetProcessingTask.mm"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/Daemon/Photos/VCPFaceAssetProcessingTask.mm"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/Daemon/Photos/VCPFaceLibraryProcessingTask.mm"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/Daemon/Photos/VCPFaceProcessingTask.mm"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/Daemon/Photos/VCPFailedAssetAnalysisTask.mm"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/Daemon/Photos/VCPMADFullAssetProcessingTask.mm"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/Daemon/Photos/VCPMADOCRAssetBatch.mm"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/Daemon/Photos/VCPMADPECAssetBatch.mm"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/Daemon/Photos/VCPMADPECLibraryProcessingTask.mm"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/Daemon/Photos/VCPMADPECSingleRequestProcessingTask.mm"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/Daemon/Photos/VCPMADPhotoAssetProcessingTask.m"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/Daemon/Photos/VCPMADPhotosFetchProcessingTask.m"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/Daemon/Photos/VCPMADPhotosLibraryProcessingTask.mm"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/Daemon/Photos/VCPMADPhotosProcessingTask.m"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/Daemon/Photos/VCPMADQuickFaceIDAssetBatch.mm"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/Daemon/Photos/VCPMADSceneAssetBatch.mm"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/Daemon/Photos/VCPMADSceneLibraryProcessingTask.mm"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/Daemon/Photos/VCPMADVisualSearchAssetBatch.mm"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/Daemon/Photos/VCPMediaTypeAnalysisTask.mm"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/Daemon/Photos/VCPPausedAnalysis.mm"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/Daemon/Photos/VCPPhotosAssetChangeManager.mm"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/Daemon/Photos/VCPPhotosAssetProcessingTask.m"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/Daemon/Photos/VCPPhotosCaptureProcessingTask.mm"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/Daemon/Photos/VCPPhotosCoreAnalytics.mm"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/Daemon/Photos/VCPPhotosFaceIdentificationTask.m"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/Daemon/Photos/VCPPhotosMaintenanceProcessingTask.mm"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/Daemon/Photos/VCPRestoreDatabaseTask.mm"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/Daemon/Photos/VCPResumePausedAnalysisTask.mm"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/Daemon/Photos/VCPSystemMonitor.mm"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/Daemon/Photos/VCPUnifiedFullAnalysisTask.mm"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/Daemon/Spotlight/MADSpotlightImageProcessingTask.mm"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/Daemon/Spotlight/MADSpotlightMovieProcessingTask.mm"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/Daemon/VCPCompoundMADTask.mm"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/MediaAnalysis/Service/VCPMADRemoteActivityTask.mm"
++ "/var/mobile/"
++ "1#"
++ "@\"MADHKSVXPCStoreContainer\"8@?0"
++ "@\"MADPhotosTUFastPassBackgroundSystemTask\""
++ "@\"MADRichCaptionLibraryProcessingTask\""
++ "@\"NSObject<VCPMADAssetBatchProtocol>\"28@0:8@?<B@?>16B24"
++ "@\"VCPFreeFormSearch\""
++ "@24@?0@\"VCPDatabaseReader\"8^Q16"
++ "@28@0:8@?16B24"
++ "@36@0:8@?16B24@28"
++ "@40@0:8@16@24Q32"
++ "@40@0:8@16^q24^q32"
++ "@48@0:8@16@24@32@40"
++ "@48@0:8@16@24@32Q40"
++ "@48@0:8@16d24Q32Q40"
++ "@52@0:8@?16B24Q28@36@?44"
++ "@56@0:8@16@24Q32Q40Q48"
++ "@56@0:8@16@24q32Q40B48B52"
++ "@56@0:8@16Q24@32@40@48"
++ "@56@0:8@16q24i32q36i44q48"
++ "@64@0:8@16@24i32B36@40@48@?56"
++ "@72@0:8@16@24@32@40@48@56@64"
++ "@72@0:8@16Q24Q32@40i48q52i60q64"
++ "@84@0:8@16@24{_NSRange=QQ}32@48B56@60@68@?76"
++ "AEMVisualGrounding"
++ "Adding fragment result with sequence number %lu"
++ "AdditionalResults (%ld entries):"
++ "AdditionalResults: none"
++ "After adding, buffer contains %lu results"
++ "AllowStreaming"
++ "Analysis complete"
++ "Analysis failed error: %@"
++ "Analysis start"
++ "AutoCounter "
++ "B32@0:8@16d24"
++ "B32@0:8Q16Q24"
++ "B56@0:8@16@24^f32^f40^f48"
++ "B72@0:8@16@24@32@40^f48^f56^f64"
++ "BlurExposureRotationConcurrentQueueCount"
++ "CMTimeRangeValue"
++ "CMTimeValue"
++ "Caller provided customized system prompt ..."
++ "CaptionFrameCount"
++ "CaptionReuseDebug"
++ "Caption[%ld]: type=%lu, text=%s"
++ "CollectionThemeTokenGenerator"
++ "CollectionUnderstandingMultiModalInferenceProvider not available"
++ "ConcurrentAssetCountFullImage"
++ "ConcurrentAssetCountFullLivePhoto"
++ "ConcurrentAssetCountFullVideo"
++ "ConcurrentFaceAnalysis"
++ "ConcurrentPreAnalysis"
++ "ConsecutiveEmbeddingThreshold"
++ "ConsecutiveEmbeddingThreshold use %@"
++ "ConsecutiveGatingEmbeddingMatchClipID"
++ "ContentClassification"
++ "Conversion to BGRA failed"
++ "Creating fragments service request"
++ "Creating images service request"
++ "Current extraction version %ld, not in allowed versions %s"
++ "DAS cancellation %s via default"
++ "Describe the image concisely within four sentences."
++ "DisablePhotosPostCaptureProcessing"
++ "Disabling"
++ "DownloadLLMJpegs"
++ "EmbeddingOnly"
++ "EmbeddingOnlyReason"
++ "Embedding[%ld]: type=%lu, version=%lu, size=%ldB, startTime=%lld/%d, duration=%lld/%d"
++ "EnablePerFrameHomeKitAnalysis"
++ "EnableRemoteActivity"
++ "Enabling"
++ "EndToEnd"
++ "Error(%d) during OS update reporting for lib %@"
++ "Error(%d) during migration task reporting for lib %@"
++ "Error(%d) during restore task reporting for lib %@"
++ "Error: Empty return from HKSVProcessingAgent"
++ "Error: Received data from the HKSVProcessingAgent but it's not a well formed response."
++ "Error: This option is currently unsupported."
++ "Expected String, Int, or Double"
++ "FaceAnalysisConcurrentQueueCount"
++ "FaceClustering "
++ "FaceCropProcessing "
++ "FaceDetection "
++ "FaceProcessingConcurrentQueueCount"
++ "FaceStagingConcurrency"
++ "Failed JSON content: %s"
++ "Failed to parse search POI results"
++ "Failed to persist telemetry for restore database: %@"
++ "Failed to publish results - %@"
++ "Failed to run MADHKSVGenerativeProcessingTask (%d)"
++ "Failed to save"
++ "ForceInitialScanNoResource"
++ "FrequentProgressReporting"
++ "Full Image"
++ "Full Video"
++ "FullImage"
++ "Generative frameworks not available"
++ "GenerativeModels framework not available at runtime"
++ "Generic"
++ "HKSV Generative Processing terminated"
++ "HKSVCaption(clipID: "
++ "HKSVCustomPrompt"
++ "HKSVProcessingAgent analysis failed: %s"
++ "HKSVPromptOverwrite"
++ "HMIVideoAnalyzerEventPackage"
++ "HMIVideoAnalyzerEventPerson"
++ "HMIVideoAnalyzerEventPet"
++ "HMIVideoAnalyzerEventVehicle"
++ "HMIVideoAnalyzerFragmentResult"
++ "HistogramCorrelationThreshold"
++ "HistogramCorrelationThreshold %.4f out of range (-1, 1); using default %.4f"
++ "HistogramCorrelationThreshold = %.4f (default)"
++ "HistogramCorrelationThreshold = %.4f (set by user)"
++ "HistogramMatchPercentage"
++ "HistogramMatchPercentage %.4f out of range [0, 1]; using default %.4f"
++ "HistogramMatchPercentage = %.4f (default)"
++ "HistogramMatchPercentage = %.4f (set by user)"
++ "HistogramReuse"
++ "IOSurface unavailable"
++ "IgnoreDASCancellation"
++ "ImageRichCaptionMaxWordCound"
++ "Issuing request %s to HKSVProcessingAgent"
++ "JITCameraFaceOnly"
++ "JSON Decoding failed: %@"
++ "LastHKSVClipAnalysisDate"
++ "LastHKSVClipID"
++ "Library/MediaAnalysis/Home/previous_clip_result.plist"
++ "Locale"
++ "Long movie download timeout set to %0.2f via default"
++ "LongMovie"
++ "LongMovieDownloadTimeout"
++ "MAD database migration incomplete for Photo Library (%@); skipping library"
++ "MADHKSVGenerativeProcessing"
++ "MADHKSVGenerativeProcessingTask"
++ "MADHKSVGenerativeProcessing_HistogramDedupe"
++ "MADHKSVXPCStoreContainer"
++ "MADImageRichCaptionAssetBatch"
++ "MADImageRichCaptionAssetBatch_Process"
++ "MADImageRichCaptionAssetEntry"
++ "MADImageRichCaptionAssetEntry_Prepare"
++ "MADImageRichCaptionAssetEntry_Publish"
++ "MADLibraryRestore_Full_ChangeCloudIdentifiersToLocalIdentifiers"
++ "MADLibraryRestore_Full_RestorePersistentStore"
++ "MADPhotosFullAssetProcessingTask_Publish_Single"
++ "MADPhotosRichCaptionBackgroundSystemTask"
++ "MADPhotosTUFastPassBackgroundSystemTask"
++ "MADPhotosTUFastPassProcessingTask"
++ "MADRichCaptionLibraryProcessingTask"
++ "MADRichCaptionLibraryProcessingTask_FetchInitialScanAssets"
++ "MADVideoRichCaptionAssetBatch"
++ "MADVideoRichCaptionAssetBatch_Process"
++ "MADVideoRichCaptionAssetEntry"
++ "MADVideoRichCaptionAssetEntry_Prepare"
++ "MADVideoRichCaptionAssetEntry_Publish"
++ "MATCH"
++ "MediaAnalysis/Home/cache/HKSVPCCImages"
++ "MediaAnalysisDaemon.MADPCCAgentCaption"
++ "MediaAnalysisDaemon.MADPCCAgentEmbedding"
++ "MediaAnalysisDaemon.MADPCCAgentFragment"
++ "MediaAnalysisDaemon.MADPCCAgentFragmentRequest"
++ "MediaAnalysisDaemon.MADPCCAgentImagesRequest"
++ "MediaAnalysisDaemon.MADPCCAgentResult"
++ "Migration report"
++ "Missing or invalid face annotation data"
++ "Missing or invalid faceAnnotations in frame metadata"
++ "MomentsGracePeriod"
++ "MomentsPriority"
++ "NO MATCH"
++ "No scheduling history for background activity %@ in database"
++ "NoResultStrip"
++ "OSUpdate"
++ "OSUpdate report"
++ "Options:%s"
++ "PCC processing completed"
++ "PCC processing failed - %@"
++ "PCCAgent bundleIdentifier: %s"
++ "ParseConcurrentAssetCount"
++ "Per client scheduled request limit set to %d"
++ "PerClientScheduledRequestLimit"
++ "Persist full-range signals %@"
++ "PersistFullRangeSignals"
++ "PersonBuilding "
++ "PersonPromoting "
++ "ProcessCapturedFace"
++ "Processing failed"
++ "Processing response %s"
++ "Prompt:%s..."
++ "QuickFaceID "
++ "ReceiveResultsFromAgent"
++ "Received %ld Bytes from PCCAgent, elapsed=%s"
++ "Received HKSVResult(\nclipID: %s,\nembeddings: %ld items\ncaptions: %ld items,\nerror: %s)"
++ "Received requestFastPassTUProcessing MADRequestID %d"
++ "Remote DAS activity %s via default"
++ "Removing all %lu fragment results"
++ "Required generative frameworks not available at runtime"
++ "Restore"
++ "Restore report"
++ "ResultStorageRedesign"
++ "Rich caption completed in %0.6fs"
++ "Rich caption progress: %.2f%%"
++ "RichCaption"
++ "RichCaptionAssetBatch.Download"
++ "RichCaptionCapRatioImage"
++ "RichCaptionCapRatioVideo"
++ "RichCaptionTokenGenerator"
++ "RunRequest"
++ "Saved"
++ "SceneNetConcurrentQueueCount"
++ "SceneProcessing "
++ "SearchUnifiedEmbeddingMD8"
++ "SendRequestToAgent"
++ "Sending request clipID:%s with %ld fragments"
++ "Sending video clip %s (payload size: %{public}s) ..."
++ "Set ImageRichCaptionMaxWordCound to %lu"
++ "Set RichCaptionCapRatioImage to %f"
++ "Set RichCaptionCapRatioVideo to %f"
++ "Set VideoRichCaptionMaxWordCound to %lu"
++ "SkipFirstPass"
++ "SkipPCCRequest"
++ "Source buffer is not IOSurface‑backed"
++ "Start PCC processing ... "
++ "Succesfully running MADHKSVGenerativeProcessingTask"
++ "Success"
++ "System.defaultInstruction"
++ "T@\"NSArray\",N,R"
++ "T@\"NSData\",N,R"
++ "T@\"NSDate\",R,N,V_assetModificationDate"
++ "T@\"NSDictionary\",N,R"
++ "T@\"NSSet\",&,N,V_contentClassificationResults"
++ "T@\"NSString\",&,N,V_captionText"
++ "T@\"NSString\",&,V_sessionLogActivityKey"
++ "T@\"NSString\",N,R"
++ "T@\"NSURL\",&,N,V_downloadResourceURL"
++ "TB,N"
++ "TB,N,V_needsContentClassificationProcessing"
++ "TB,N,V_needsTUStatusReset"
++ "TB,N,V_skipSceneAnalysis"
++ "TB,N,V_skipsMACDAccess"
++ "TB,N,V_version100To101Bypass"
++ "TB,N,V_versionOnlyUpdate"
++ "TQ,N,R,Vtype"
++ "TQ,N,R,Vversion"
++ "TU"
++ "TU Eligibility check failed: %@"
++ "TU Full processing failed: %@"
++ "Td,V_duration"
++ "The user's locale is "
++ "Ti,N,R,VdurationTimeScale"
++ "Ti,N,R,VstartTimeScale"
++ "Ti,V_contentClassificationStatus"
++ "Tq,N,R,VdurationTimeValue"
++ "Tq,N,R,VfragmentNumber"
++ "Tq,N,R,VstartTimeValue"
++ "Tq,N,V_kind"
++ "TqUXi0kAopRLC5MEsbeD2ESfJ48."
++ "Ts,N,V_contentClassificationVersion"
++ "URLAssetWithURL:options:"
++ "URLsForDirectory:inDomains:"
++ "Unable to convert json data to string"
++ "Unable to create BGRA CVPixelBuffer"
++ "Unknown (%d)"
++ "Unknown option \"%@\" specified"
++ "Unknown priority %@, default to Maintenance"
++ "Unknown(%lu)"
++ "Unsupported HKSVPropertyValue type '%@'. Skipping."
++ "Unsupported option type for key '%s': %s. Skipping."
++ "UseHistogramHistoryFromDisk"
++ "Utility"
++ "VCPBatchAnalysisTask_Download"
++ "VCPFaceMetadataExtractor"
++ "VCPMADSceneAssetEntryProcess_ContentClassificationAnalysis"
++ "VCPMediaAnalysisDaemon_Publish_Single"
++ "VCPPhotoAnalyzer_Image_VCPImageVisualGroundingAnalyzer"
++ "VCPResumePausedAnalysisTask_Publish_Single"
++ "VS"
++ "VideoCaption"
++ "VideoDecode"
++ "VideoEmbedding"
++ "VideoGate"
++ "VideoRichCaptionAssetBatch.Download"
++ "VideoRichCaptionMaxWordCound"
++ "Visual Search"
++ "Visual grounding - bbox not normalized [%f, %f, %f, %f], skip"
++ "Was this a false positive?"
++ "Was your sensitive content warning intervention a false positive? Please review the attached frames before submitting this radar. \n\nFalse positive detected during FaceTime call"
++ "Watchdog disabled"
++ "WatchdogTimeoutSeconds"
++ "With custom prompt, ignore locale"
++ "You are a Home Intelligence caption assistant (V11.1Pro/V4). Describe what happened — not how it looked. Only describe events visible in the clip. Be confident, neutral, and concise. Never speculate. Pay precise attention to the direction of motion (e.g., arriving vs. departing) — check the start and end of the clip to confirm if a subject is entering or leaving. Distinguish arrival (bringing an item) from retrieval (taking an item away). Do not hallucinate people, brand names, or actions not clearly visible. Never describe appearance (colors, clothing, materials).\n\n## Processing order\n1. **No-activity check** — If the scene is static with nothing happening, return the no-activity output. Subtle or brief actions (e.g., grooming, distance movement) count as activity.\n2. **Privacy check** — If the primary activity is sensitive, return the suppressed output.\n3. **Generate captions** — Write short and full captions following the rules below.\n4. **Privacy scrub** — Verify no sensitive details leaked into captions.\n5. **Return** — Output ONLY the final JSON. If `is_sensitive` or `is_no_activity` is true, `short_caption`, `full_caption`, and `noteworthy` MUST be null.\n\n## Privacy — sensitive categories (suppress caption)\nSuppress captions (`is_sensitive: true`) for: sleeping, showering, grooming, undressing, taking medication, crying, arguing, fighting, pacing, eating, drinking, exercising, smoking, movement between rooms, time spent in rooms, domestic violence indicators, conversation transcripts. Also never describe: age beyond \"child\"/\"adult\", weight, clothing, facial expressions, tattoos, mobility aids, package labels (beyond carrier name like FedEx/UPS/Amazon), screen content, paperwork.\n\nFor mixed scenes, caption only the non-sensitive event. For example, if someone delivers a package and a person inside is in bed, caption only the delivery.\n\n## Short caption\n- Noun phrase, max 20 characters, no past-tense, sentence casing\n- **Rule**: Use nouns or gerunds to describe the event. Ensure the short caption captures the specific event, not just the subject's presence (e.g., \"Package delivery\" instead of \"Someone on porch\"). Avoid past-tense. If there is movement, capture it (e.g., \"Car leaving driveway\" instead of \"Car in driveway\").\n- Examples: \"FedEx delivery\", \"Dogs in yard\", \"Bear near door\"\n\n## Full caption\n- **Rule**: Prioritize the primary foreground event. If people are the main subject (e.g., walking a dog, playing), do not caption background car movement.\n- Brief past-tense sentence, one subject + action, sentence casing\n- **Rule**: Use active voice (e.g., \"Amazon delivered a package\" instead of \"A package was delivered\").\n- **Rule**: Focus on the primary action (e.g., \"A bear scratched its back\" or \"Someone pressure washed stairs\"). Focus on specific interactions (e.g., \"delivered\", \"grazed\", \"looked at camera\", \"parked\") rather than generic presence (e.g., \"stood\", \"was in\"). Be as specific as possible about the activity (e.g., \"decorated for holidays\" instead of \"worked in yard\").\n- **Rule**: Do not describe paths taken (e.g., \"walked up stairs\" or \"across the yard\"), secondary actions (e.g., \"and left\"), background objects, or materials (e.g., \"wooden\").\n- **Rule**: Identify the specific object or location involved in the action (e.g., \"couch\", \"shrubs\", \"porch\") rather than using vague terms like \"room\" or \"outside\". Verify locations against the visual evidence; do not guess (e.g., do not say \"driveway\" if it is a \"walkway\").\n- **Rule**: Distinguish between arriving, leaving, and passing by. Verify the direction of movement.\n- **Rule**: If a subject moves from the property to the street, it is \"leaving\", not \"passing by\". A car backing out of a driveway is \"leaving\".\n- **Rule**: Verify that every subject in the caption performed the stated action (e.g., do not say \"two people left\" if only one moved). Include all active subjects (e.g., \"someone and a dog\").\n- **Rule**: Do not include objects (e.g., scooters) or specific actions unless they are clearly visible; avoid hallucinations.\n- Examples: \"FedEx delivered a package.\", \"A flock of geese sat in the pool.\"\n\n## Style rules\n- Use \"someone\" (not \"a person\"), \"two people\" (even if one is being carried), \"group\" (for 3+)\n- Use brand names (e.g., \"Amazon\", \"USPS\") only when a logo is clearly visible. Use the brand name as the subject; do not add \"worker\" or \"driver\" (e.g., \"USPS delivered mail\"). Do not guess the brand based on vehicle color, shape, or package markings (e.g., use \"delivery truck\" or \"someone\" if no logo is clearly seen).\n- Oxford comma, spell out numbers one through ten, spell out \"and\"\n- Never anthropomorphize the camera (\"Children got on a school bus\" not \"Children seen getting on a school bus\")\n- Never mention the \"camera\" or its field of view (e.g., \"walked in front of camera\")\n\n## Noteworthy score\nReturn a float (0.0–1.0). If `is_sensitive` or `is_no_activity` is true, `noteworthy` MUST be null.\n\n- **0.1 (Routine):** Arriving/leaving; car passing; walking by; taking out trash; yard work (mowing, watering, leaf blowing); sprinklers.\n- **0.3 (Notable):** Pets or common wildlife (cats, dogs, deer, squirrels) on the property; package retrieval (carrying a package inside); non-routine indoor activity.\n- **0.5 (Important):** Package/mail/food delivery; doorbell/knocking; unusual wildlife (raccoons, opossums, turkeys, foxes); item left on porch; delivery to a neighbor; animal vocalizing (barking).\n- **0.9 (Critical):** Dangerous animals (bears, coyotes) near home; pet escaped; fire/smoke; burst pipe; someone fell; emergency vehicles. Wild predators are always 0.9.\n\n## Output format\nReturn ONLY valid JSON.\n\nActivity present, NOT sensitive:\n```json\n{\n    \"short_caption\": \"<noun phrase>\",\n    \"full_caption\": \"<past-tense sentence>\",\n    \"noteworthy\": <float>,\n    \"is_sensitive\": false,\n    \"is_no_activity\": false\n}\n```\n\nPrivacy-sensitive activity:\n```json\n{\n    \"short_caption\": null,\n    \"full_caption\": null,\n    \"noteworthy\": null,\n    \"is_sensitive\": true,\n    \"is_no_activity\": false\n}\n```\n\nNo activity (static scene):\n```json\n{\n    \"short_caption\": null,\n    \"full_caption\": null,\n    \"noteworthy\": null,\n    \"is_sensitive\": false,\n    \"is_no_activity\": true\n}\n```"
++ "["
++ "[%@] Apple intelligence toggle disabled at start of processing, stopping"
++ "[%@] Apple intelligence toggle disabled, stopping"
++ "[%@] Concurrent asset count set via defaults (%d)"
++ "[%@] Downloadable resource %@ (privateFileURL: %@)"
++ "[%@] Failed to cancel existing task: %@"
++ "[%@] Failed to create batch for task: %lu"
++ "[%@] Failed to process assets due to MACD migration incomplete for library %@"
++ "[%@] Found cached downloaded resource %@ at: %@"
++ "[%@] Found no missing analysis. Skipping"
++ "[%@] MAD database migration incomplete for Photo Library %@; skipping"
++ "[%@] MAD database migration incomplete for Photo Library %@; skipping analysis"
++ "[%@] Pass to download and process assets with no local resources"
++ "[%@] Pass to download and process assets with no local resources not allowed, skip"
++ "[%@] Photo Library %@ is not ready for analysis; skipping"
++ "[%@] Processing complete"
++ "[%@] Processing failed (%@)"
++ "[%@] Processing started"
++ "[%@] Resource %@ needs to be downloaded (or if already downloaded, a. Adding asset to batch ..."
++ "[%@] Resource does not need to be downloaded. Adding asset to batch ..."
++ "[%@] Skip embedding incompatible with expected version %d (%@)"
++ "[%@] Skip embedding with nil data (%@)"
++ "[%@] Skip embedding with nil time range (%@)"
++ "[%@] Skipping registration because of user config"
++ "[%@] Task is not at steady-state but existing request has relaxed params; canceling to resubmit"
++ "[%@] VIP match -> %@ (name: %@)"
++ "[%@] merged results: %@"
++ "[%@][%@] Asset not eligible for processing; skipping %@"
++ "[%@][%@] Asset up-to-date for %@; skipping"
++ "[%@][%@] Tiny image, skipping performing Safety Analysis ."
++ "[%@][%@] Vision Object Saliency, use AEM instead"
++ "[%@][%@] compactSCSensitivityAnalysisIVS is sensitive? %d"
++ "[%@][Consecutive][%@]"
++ "[%@][MACD] Skipping removeProcessingStatus for taskID %d due to MACD migration incomplete"
++ "[%@][PhotosCapture] Persisting matching face %@ with person %@"
++ "[%@][PhotosCapture] Persisting unrecognized face %@"
++ "[%@][Rich caption] %lu assets processing status changed to Hard Failure"
++ "[BatchAnalysisTask][Download] %d downloads pending"
++ "[BatchAnalysisTask][Download] Canceling %d download requests (%d)"
++ "[BatchAnalysisTask][Download] Created directory %@"
++ "[BatchAnalysisTask][Download] Download inactivity timeout; cancelling downloads"
++ "[BatchAnalysisTask][Download] Failed to create directory (%@)"
++ "[BatchAnalysisTask][Download] Processing cancelled; cancelling downloads"
++ "[BatchAnalysisTask][Download] Waiting for %d downloads to complete"
++ "[BatchAnalysisTask][Download][%@] Asset resource not found; skipping"
++ "[BatchAnalysisTask][Download][%@] Download resource URL %@ does not conform to type movie/video"
++ "[BatchAnalysisTask][Download][%@] Download resource URL already exists at %@. Skip downloading"
++ "[BatchAnalysisTask][Download][%@] Download resource exists but download is not allowed; skipping"
++ "[BatchAnalysisTask][Download][%@] Failed to copy %@ to %@ (%@)"
++ "[BatchAnalysisTask][Download][%@] Failed to initialize resource download"
++ "[BatchAnalysisTask][Download][%@] Requesting download file URL for resource %@"
++ "[BatchAnalysisTask][Download][%@] Resource download failed (%@)"
++ "[BatchAnalysisTask][Download][%@] Resource download throttled (%@)"
++ "[BatchAnalysisTask][Download][%@] Resource exists on disk at %@ and is copied to %@. Skip downloading"
++ "[BatchAnalysisTask][Download][%@] Resource exists on disk at %@. Failed to copy to %@ (%@)"
++ "[BatchAnalysisTask][Download][%@] Successfully copied %@ to %@"
++ "[BatchAnalysisTask][Download][%@] Successfully downloaded resource %@"
++ "[CoreAnalyticManager] %@ %@ days with since Version %llu created %@"
++ "[CoreAnalyticManager] %@ invalid taskID %lu (%@); ignore"
++ "[CoreAnalyticManager] %@: invalid allowed assets count %lu; ignore"
++ "[CoreAnalyticManager] %@: invalid progress %lu%%; ignore"
++ "[DownloadLLMJpegs] Failed to create folder %s: %@"
++ "[DownloadLLMJpegs] Failed to decode base64 for index %s"
++ "[DownloadLLMJpegs] Failed to resolve library directory"
++ "[DownloadLLMJpegs] Failed to write %s: %@"
++ "[DownloadLLMJpegs] Failed to write fragment %ld: %@"
++ "[DownloadLLMJpegs] Saved %s"
++ "[DownloadLLMJpegs] Saved fragment %ld to %s"
++ "[E] %@"
++ "[FaceCrop] Processed %lu facecrop for person %@"
++ "[FaceLibraryProcessing] MAD database migration incomplete; skipping library (%@)"
++ "[FaceLibraryProcessing] Running with: "
++ "[GenerativeProcessing][Prompt]"
++ "[GenerativeProcessing][Run][%@]"
++ "[HKSVIngest] Clip %@ has nil cameraUUID — camera removal will not be able to purge this clip"
++ "[HKSVIngest] Failed to create MOC for HKSV database"
++ "[HKSVIngest] Failed to fetch or create managed clip for homeID %@ and identifier %@"
++ "[HKSVIngest] Failed to ingest %d clips: %@"
++ "[HKSVIngest] Ingested %d clips"
++ "[HKSVIngest] Received controller HKSV clip ingestion request (%d)"
++ "[HKSVIngest] requestID %d already exists"
++ "[HKSVRemovalByCameraUUID]"
++ "[HKSVRemoval]"
++ "[HKSVSearch][%@]"
++ "[H] %@"
++ "[HistogramDedup][Curr:%@][Prev:%@] Event type %@ missing from previous history"
++ "[HistogramDedup][Curr:%@][Prev:%@] Event type %@: current count %d, previous count %d -> %@ (maxCorr=%.4f, minCorr=%.4f, matchPct=%.2f%%)"
++ "[HomeGP] Invalid taskID %lu"
++ "[HomeGP] Missing fragment buffer size; default to %lu"
++ "[HomeGP] Received fragment buffer size %lu > max value %lu; force to %lu"
++ "[HomeGP] Received request for Generative Processing"
++ "[HomeGP] Received request for Generative Processing with Video Fragments"
++ "[HomeGP] Receiving fragment buffer size: %lu"
++ "[HomeGP] Skip first-pass analysis"
++ "[HomeGP] taskID %lu %@ - %@"
++ "[HomeGP] taskID %lu already exists"
++ "[HomeGP] taskID already exists"
++ "[ImageCaption] Error generating afm+ caption: %@"
++ "[ImageCaption] No afm+ caption theme generated"
++ "[ImageRichCaption] Checking to download full resolution ..."
++ "[ImageRichCaption] Download inactivity timeout; cancelling downloads"
++ "[ImageRichCaption] Failed to load VIP model (%d)."
++ "[ImageRichCaption] Failed to persist results to Photos (%@)"
++ "[ImageRichCaption] Finished persisting %d assets to Photos"
++ "[ImageRichCaption] Full processing complete"
++ "[ImageRichCaption] Full processing failed, returned error: %@"
++ "[ImageRichCaption] Gating complete, returned %d"
++ "[ImageRichCaption] No resource on asset %@, skipping"
++ "[ImageRichCaption] Persisting %d assets (QoS: %@)"
++ "[ImageRichCaption] Persisting %d assets to Photos"
++ "[ImageRichCaption] Preparing %d assets (QoS: %@)"
++ "[ImageRichCaption] Processing %d assets (QoS: %@)"
++ "[ImageRichCaption] Processing canceled"
++ "[ImageRichCaption] Processing cancelled; cancelling downloads"
++ "[ImageRichCaption] Waiting for %d downloads to complete"
++ "[ImageRichCaption] asset batch process called without rich caption service"
++ "[ImageRichCaption] failed to create pixelBuffer for entry %@"
++ "[ImageRichCaption][%@]"
++ "[ImageRichCaption][%@] Asset has VIP person"
++ "[ImageRichCaption][%@] Asset has no adjustment version"
++ "[ImageRichCaption][%@] Asset has no thumbnail resource"
++ "[ImageRichCaption][%@] Asset is user favorite"
++ "[ImageRichCaption][%@] Batch already contains asset; ignoring"
++ "[ImageRichCaption][%@] Failed to check VIP persons (%d)"
++ "[ImageRichCaption][%@] Failed to download resource (%@)"
++ "[ImageRichCaption][%@] Failed to initialize resource download"
++ "[ImageRichCaption][%@] Gating failed with failed loading VIP model"
++ "[ImageRichCaption][%@] Issuing full resolution download ..."
++ "[ImageRichCaption][%@] No medium image derivative available; allowing other high-res resources"
++ "[ImageRichCaption][%@] No viable resources; allowing thumbnail"
++ "[ImageRichCaption][%@] Processing asset"
++ "[ImageRichCaption][%@][MACD] Setting processing status to running"
++ "[ImageRichCaption][Download] %d downloads pending"
++ "[ImageRichCaption][Download] Canceling %d download requests (%d)"
++ "[ImageRichCaption][MACD] Failed to prepare %d assets: %@"
++ "[ImageRichCaption][MACD] Skipping processing status setting due to MACD migration incomplete"
++ "[ImageRichCaption][MACD] Skipping processing status updating due to MACD migration incomplete"
++ "[ImageSafety] ResultsGV: sensitiveG = %@, sensitivityScoreG = %.4f, sensitiveV = %@, sensitivityScoreV = %.4f"
++ "[ImageSafety] ResultsN: sensitiveN = %@, sensitivityScoreN = %.4f"
++ "[ImageSafety] safetyQRresults: %d"
++ "[Internal] Sensitive Content Warning"
++ "[LOG_ERROR] %s[%d]: code %d\n"
++ "[LocationSearch] Failed to create complete POI"
++ "[LocationSearch] Failed to create partial POI"
++ "[LocationSearch] Failed to parse POIs: %@"
++ "[LocationSearch] No region field"
++ "[LocationSearch] Unknown region field; ignoring"
++ "[MACDMigration] Failed to create DB connection for flushing WAL"
++ "[MACDMigration] Failed to migrate to v3 MACD"
++ "[MACDMigration] Failed to remove legacy database %@ file at path %@ - %@"
++ "[MACDMigration] Failed to update database version to v3"
++ "[MACDMigration] Removed legacy database %@ file at path %@"
++ "[MACDMigration|v1] Cannot migrate with nil entityName"
++ "[MACDMigration|v1] No legacy database is present at %@"
++ "[MACDMigration|v1] No legacy records for %@"
++ "[MACDMigration|v3] Cancelled during result migration"
++ "[MACDMigration|v3] Failed to create MADPhotosDataStoreBatchIterator"
++ "[MACDMigration|v3] Migrating database to v3 for photo library %@"
++ "[MACDMigration|v3] Setting v3 to MACD"
++ "[MACDMigration|v3][%@]"
++ "[MACD] MAD database migration incomplete, skip progress reporting"
++ "[MAClientHandler] Failed to parse search POI results"
++ "[MAClientHandler] Photos turbo analysis request complete %@"
++ "[MAClientHandler] Received Photos turbo analysis request %@"
++ "[MAClientHandler][HKSVXPCStore]"
++ "[MADBGSTAtomicThroughputMetric] session log update failed, skipping"
++ "[MADBGSTAtomicThroughputMetric] system task is null, skipping"
++ "[MADBGSTSummaryThroughputMetric] No activity %@ in current session log"
++ "[MADBGSTThroughputMetric] Registered throughput reporting for %@"
++ "[MADBGSTThroughputMetric] Unable to register throughput reporting for %@: %@"
++ "[MADHKSVXPCStoreContainer] Failed to create NSXPCListener"
++ "[MADHKSVXPCStoreContainer] Failed to load model at %@"
++ "[MADHKSVXPCStoreContainer] Invalid model definition URL from %@"
++ "[MADHKSVXPCStoreContainer] Invalid store URL"
++ "[MADHKSVXPCStoreContainer] Missing default database path"
++ "[MADHKSVXPCStoreContainer] Missing model definition"
++ "[MADHKSVXPCStoreContainer] Opening store with model definition (%@) for %@ ..."
++ "[MADHKSVXPCStoreContainer] Successfully opened store"
++ "[MADProgressManager] Error storing additional progress for task:subtask %u:%u - %@"
++ "[MADProgressManager] Error storing progress for task:subtask %u:%u - %@"
++ "[MADQuantizeUIntIntoAllowedValues] No allowed values to quantize %d into"
++ "[OCR][%@] Skipping v8->v9 reprocessing on external build; version-only update"
++ "[OCR][MACD] Skipping processing status setting due to MACD migration incomplete"
++ "[OCR][MACD] Skipping processing status updating due to MACD migration incomplete"
++ "[OCR][Process][%@] Skipping v8->v9 reprocessing on external build; version-only update"
++ "[P:%02x%02x%02x]"
++ "[PEC][MACD] Skipping processing status setting due to MACD migration incomplete"
++ "[PEC][MACD] Skipping processing status updating due to MACD migration incomplete"
++ "[PERSON_%@]"
++ "[Perf] Memory usage before running the first task: %@"
++ "[Perf] Memory usage on finishing all scheduled tasks: %@"
++ "[Perf] Memory usage: %@"
++ "[PrepRequest]"
++ "[QuickFaceID][%@] Persisting matching face %@ with person %@"
++ "[QuickFaceID][%@] Persisting unrecognized face %@"
++ "[QuickFaceID][MACD] Skipping processing status setting due to MACD migration incomplete"
++ "[QuickFaceID][MACD] Skipping processing status updating due to MACD migration incomplete"
++ "[R:%d][%@][%@]"
++ "[Restore][%@] No CoreData backup present at %@; Checking legacy backup..."
++ "[Restore][%@] No backup present at %@; skipping restore"
++ "[SceneAnalysis][ContentClassification] Entry is missing image embedding results"
++ "[SceneAnalysis][ContentClassification] Unable to create analyzer"
++ "[Scene] Defaults to fail initial scan with no resource"
++ "[Scene][%@] Entry already at v100, bypass download"
++ "[Scene][MACD] Skipping processing status setting due to MACD migration incomplete"
++ "[Scene][MACD] Skipping processing status updating due to MACD migration incomplete"
++ "[SkipPCCRequest] stub caption - %@"
++ "[TU-FP]"
++ "[TU] Detected missing LLM assets, clearing processing status"
++ "[TU] Full processing failed from missing LLM assets, stop all processing"
++ "[TU] Gating failed from missing LLM assets, stop all processing"
++ "[TU][%@] Asset OCR version / adjustment do not match stored properties; skipping"
++ "[TU][%@] Asset has no OCR properties adjustment version"
++ "[TU][MACD] Skipping processing status setting due to MACD migration incomplete"
++ "[TU][MACD] Skipping processing status updating due to MACD migration incomplete"
++ "[Unified] Processing complete (%@)"
++ "[Unified] Processing started (%@)"
++ "[UserDefaults] DownloadLLMJpegs: %{bool}d"
++ "[UserDefaults] UseProModel: %{bool}d"
++ "[VCPAssetMaintenanceTask] Nil localIdentifier %@; removing asset ..."
++ "[VCPDatabaseWriter] WAL checkpoint failed: %d (logs: %d, checkpointed: %d)"
++ "[VCPDatabaseWriter] WAL checkpoint succeeded: %d frames, %d checkpointed"
++ "[VCPFaceMetadataExtractor] Device secret unavailable; cannot generate label"
++ "[VCPFaceMetadataExtractor] Face events found but no frame data available for frameIndex %lu"
++ "[VCPFaceMetadataExtractor] Found label '%@' in text but no corresponding UUID in global mapping"
++ "[VCPFaceMetadataExtractor] Found person labels in caption: %@"
++ "[VCPFaceMetadataExtractor] Keychain read failed (status=%d)"
++ "[VCPFaceMetadataExtractor] Keychain write failed (status=%d); label secret is session-only"
++ "[VCPFaceMetadataExtractor] Label collision detected for %@"
++ "[VCPFaceMetadataExtractor] No caption provided - skipping person label replacement"
++ "[VCPFaceMetadataExtractor] No frame data available - skipping metadata creation"
++ "[VCPFaceMetadataExtractor] No frame result or events provided"
++ "[VCPFaceMetadataExtractor] No frame results provided"
++ "[VCPFaceMetadataExtractor] No person labels found in caption: '%@'"
++ "[VCPFaceMetadataExtractor] Person event has no face data"
++ "[VCPFaceMetadataExtractor] Rejecting person event - confidence %.2f below threshold %.2f"
++ "[VCPFaceMetadataExtractor] Replaced '%@' with '%@'"
++ "[VCPFaceMetadataExtractor] SecRandomCopyBytes failed; cannot generate secure secret"
++ "[VCPFaceMetadataExtractor] Skipping face annotation - label generation failed (keychain unavailable)"
++ "[VCPFaceMetadataExtractor] Skipping face annotation - no valid UUID"
++ "[VCPPhotosCollectionThemeAnalysisTask] Bridge embedding revision %lu not compatible with VCPMUBackboneRevision %lu, compute on-demand if requested"
++ "[VCPPhotosCollectionThemeAnalysisTask] Retrieving stored asset embedding for unified embedding version: %ld"
++ "[VCPPhotosCollectionThemeAnalysisTask] [%@] Retrieved unified embedding version %lu not compatible with bridge unified embedding version %lu. Discard retrieved embedding\n"
++ "[VCPPhotosCollectionThemeAnalysisTask] on-demand compute is temporarily set to YES for MD7 theme with MD8 enabled <rdar://174019249>"
++ "[VCPPhotosCollectionThemeAnalysisTask][%@] Compute image embedding on-demand with unified embedding version %ld"
++ "[VCPPhotosCollectionThemeAnalysisTask][%@] Compute video thumbnail embedding on-demand with unified embedding version %ld"
++ "[VCPPhotosCollectionThemeAnalysisTask][%@] Image thumbnail loading failed"
++ "[VideoRichCaption] Failed to load VIP model (%d)."
++ "[VideoRichCaption] Failed to persist results to Photos (%@)"
++ "[VideoRichCaption] Finished persisting %d assets to Photos"
++ "[VideoRichCaption] Gating complete, returned %d"
++ "[VideoRichCaption] No resource on asset %@, skipping"
++ "[VideoRichCaption] Persisting %d assets (QoS: %@)"
++ "[VideoRichCaption] Persisting %d assets to Photos"
++ "[VideoRichCaption] Preparing %d assets (QoS: %@)"
++ "[VideoRichCaption] Processing %d assets (QoS: %@)"
++ "[VideoRichCaption] Processing canceled"
++ "[VideoRichCaption] asset batch process called without rich caption service"
++ "[VideoRichCaption][%@]"
++ "[VideoRichCaption][%@] Asset has VIP person"
++ "[VideoRichCaption][%@] Asset has no adjustment version"
++ "[VideoRichCaption][%@] Asset is user favorite"
++ "[VideoRichCaption][%@] Batch already contains asset; ignoring"
++ "[VideoRichCaption][%@] Failed to check VIP persons (%d)"
++ "[VideoRichCaption][%@] Full processing cancelled"
++ "[VideoRichCaption][%@] Full processing failed"
++ "[VideoRichCaption][%@] Gating failed with failed loading VIP model"
++ "[VideoRichCaption][%@] Processing asset"
++ "[VideoRichCaption][%@][MACD] Setting processing status to running"
++ "[VideoRichCaption][MACD] Failed to prepare %d assets: %@"
++ "[VideoRichCaption][MACD] Skipping processing status setting due to MACD migration incomplete"
++ "[VideoRichCaption][MACD] Skipping processing status updating due to MACD migration incomplete"
++ "[VisualSearch] Concurrent asset count set via default (%d)"
++ "[VisualSearch][MACD] Skipping processing status setting due to MACD migration incomplete"
++ "[VisualSearch][MACD] Skipping processing status updating due to MACD migration incomplete"
++ "\\[P:[0-9a-f]{6}\\]"
++ "]"
++ "_MADObjCLocationSearchPOIs"
++ "_OverrideConfigurationHelper.samplingParameters(.dynamic(SamplingParameters(maximumTokens:maximumTokens,)))"
++ "_TtC19MediaAnalysisDaemon10HKSVPrompt"
++ "_TtC19MediaAnalysisDaemon17MADPCCAgentResult"
++ "_TtC19MediaAnalysisDaemon18MADPCCAgentCaption"
++ "_TtC19MediaAnalysisDaemon19MADPCCAgentFragment"
++ "_TtC19MediaAnalysisDaemon20MADPCCAgentEmbedding"
++ "_TtC19MediaAnalysisDaemon24MADPCCAgentImagesRequest"
++ "_TtC19MediaAnalysisDaemon25MADPCCAgentClientDelegate"
++ "_TtC19MediaAnalysisDaemon26MADPCCAgentFragmentRequest"
++ "_assetModificationDate"
++ "_backupFullAnalysisWithPhotoLibrary:currentTimestamp:encryptionManager:"
++ "_batchCompletionHandler"
++ "_buildHistogramHistory"
++ "_canDoFullAnalysis:withResources:"
++ "_captionText"
++ "_changeCloudIdentifierToLocalIdentifierForPhotoLibrary:managedAssetBatch:managedObjectContext:successCount:"
++ "_checkClipMatch:previousHistograms:currentClipID:previousClipID:maxCorrelation:minCorrelation:minMatchPercent:"
++ "_checkHardFailuresForPhotoLibrary:"
++ "_checkHistogramsMatch:previousHistograms:maxCorrelation:minCorrelation:matchPercent:"
++ "_cleanupRequestedAssets:withProcessingType:photoLibrary:unprocessedAssets:earliestAssetModificationDate:"
++ "_clientPrompt"
++ "_clipID"
++ "_computeHashLabelForUUID:"
++ "_consecutiveEmbeddingThreshold"
++ "_containCustomPrompt"
++ "_contentClassificationResults"
++ "_contentClassificationStatus"
++ "_contentClassificationVersion"
++ "_correlationThreshold"
++ "_countAssetsGatedByHeuristic"
++ "_createBackupAtFilepath:forPhotoLibrary:persistentStoreCoordinator:"
++ "_createMetadataFromFaceEvents:frame:fragmentIndex:fragmentSequenceNumber:frameIndex:"
++ "_createVideoVSKAssetWithLocalIdentifier:analysis:"
++ "_currentFaceMetadata"
++ "_dataMigrationIfNeededForPhotoLibrary:andProgress:"
++ "_debugReuse"
++ "_dedupedByHistogram"
++ "_dedupedPreviousClipID"
++ "_detectedMissingMLAssets"
++ "_deviceSecret"
++ "_downloadLLMJpegs"
++ "_downloadResourceURL"
++ "_downloadTimeElapsedInSeconds"
++ "_duration"
++ "_embeddingOnly"
++ "_extractFaceEventsFromFrame:confidenceThreshold:"
++ "_extractHistogramsByEventTypeFromFragmentResult:"
++ "_findPersonLabelsInText:"
++ "_fragmentResultBuffer"
++ "_fragmentResultBufferSize"
++ "_fragmentResults"
++ "_fragmentSequenceRange"
++ "_freeFormSearch"
++ "_generateSceneClassificationsFromRequests:safetyNResults:safetyGVResults:safetyQRResults:"
++ "_handleSkipPCCRequestWithHistogramHistory:logPrefix:"
++ "_histogramHistory"
++ "_initializeMappingsIfNeeded"
++ "_isAssetEligible:previousStatus:previousAttempts:lastAttemptDate:allowDownload:"
++ "_isValidPersonEventForAnnotation:confidenceThreshold:"
++ "_kind"
++ "_loadPreviousClipFromDiskWithLogPrefix:"
++ "_matchPercentage"
++ "_memoryUsageMonitor"
++ "_migrateAssetsAndResultsForPhotoLibrary:fromLegacyDatabase:"
++ "_migrateChangeTokensForLibrary:database:"
++ "_migrateDatabaseForPhotoLibrary:previousAttempts:"
++ "_migrateDatabaseToV3ForPhotoLibrary:"
++ "_migrateKeyValueStoreForLibrary:database:"
++ "_migrateMomentsScheduledAssetForLibrary:database:"
++ "_migrateProcessingStatusForLibrary:database:"
++ "_migrateProgressHistoryForLibrary:database:"
++ "_migrateResultsV3ForAsset:"
++ "_migrateResultsV3ForAssetBatch:photoLibrary:"
++ "_migrateResultsV3FromLegacyResult:asset:"
++ "_migrateTable:forLibrary:fromLegacyDatabase:retrievalBlock:insertionBlock:"
++ "_needsContentClassificationProcessing"
++ "_needsTUStatusReset"
++ "_parseHeader:startColumn:analysis:"
++ "_performContentClassificationAnalysisForAssetEntry:"
++ "_performSafetyAnalysisForAssetEntry:pixelBuffer:sceneprintData:safetyNResults:safetyGVResults:safetyQRResults:"
++ "_performSceneNetAnalysisForAssetEntry:withImage:andRequests:sceneprint:"
++ "_personLabelForUUID:"
++ "_personUUIDFromEvent:"
++ "_photosTUFastPassProcessing"
++ "_prepareFragmentRequest"
++ "_previousAnalysis"
++ "_previousClipAllowedClasses"
++ "_previousClipResultFilePath"
++ "_processAllAssetsInPhotoLibrary:progress:taskID:"
++ "_processAllAssetsInProcessingStatusForPhotoLibrary:progress:isForDownloadEligibleAssets:taskID:"
++ "_processDownloadEligibleAssetsInPhotoLibrary:progress:"
++ "_processFailedAssetsInPhotoLibrary:progress:"
++ "_processingOptions"
++ "_processingQueue"
++ "_processingTimeElapsedInSeconds"
++ "_removeLegacyDatabaseFilesForPhotoLibrary:"
++ "_replaceLabelsWithUUIDs:forLabels:"
++ "_reportRunSessionAnalytics"
++ "_reportSignpostTelemetryForAgentResult:agentError:requestFragmentCount:requestOverallPayloadSize:resultOverallPayloadSize:timestampAnalysisRequested:timestampResultsReceived:"
++ "_requestAnalysis:forAssets:withOptions:andProgressHandler:andError:"
++ "_restoreCoreDataStoreFromBackupPersistentStoreCoordinator:version:"
++ "_restoreVideoEmbeddingsFromCoreDataStoreVersion:"
++ "_sanitizeWithManagedObjectContext:"
++ "_saveClipResult:logPrefix:"
++ "_searchQueue"
++ "_sessionLogActivityKey"
++ "_sessionLogDurationKey"
++ "_sessionLogMetricKeys"
++ "_skipPCCRequest"
++ "_skipSceneAnalysis"
++ "_skipsMACDAccess"
++ "_supportedEventTypeNames"
++ "_updatePromptIfNeeded:clientLocale:"
++ "_useHistogramHistoryFromDisk"
++ "_version100To101Bypass"
++ "_versionOnlyUpdate"
++ "_videoFragments"
++ "activityLevelVersion"
++ "activityLevelVersionForUmbrellaVersion:"
++ "addAnalysis:withExistingAnalysis:forAsset:allowStreaming:downloadResource:"
++ "addFragmentResult:"
++ "additionalResults"
++ "afm+3b.imageDescription"
++ "afm+3b.videoDescription"
++ "analysisDate"
++ "analyzeEmbedding:results:"
++ "analyzeWithFragmentRequest:completionHandler:"
++ "analyzeWithImagesRequest:completionHandler:"
++ "analyzerWithVCPAsset:withExistingAnalysis:forAnalysisTypes:withOptions:"
++ "animalPrintVersion"
++ "animalPrintVersionForUmbrellaVersion:"
++ "animalVersion"
++ "animalVersionForUmbrellaVersion:"
++ "animatedStickerVersion"
++ "animatedStickerVersionForUmbrellaVersion:"
++ "applauseVersion"
++ "applauseVersionForUmbrellaVersion:"
++ "arguments"
++ "assetModificationDate"
++ "assetTask"
++ "assetWithPHAsset:downloadedData:"
++ "audioFusedVideoEmbeddingVersion"
++ "audioFusedVideoEmbeddingVersionForUmbrellaVersion:"
++ "audioQualityVersion"
++ "audioQualityVersionForUmbrellaVersion:"
++ "babbleVersion"
++ "babbleVersionForUmbrellaVersion:"
++ "base model ID: %s"
++ "base64EncodedStringWithOptions:"
++ "batchCompletionHandler:"
++ "batchWithCancelBlock:allowDownload:"
++ "batchWithCancelBlock:allowDownload:resources:"
++ "batchWithCancelBlock:allowDownload:taskID:service:foundPassedGatingEntryBlock:"
++ "batchWithQuickFaceIDManager:cancelBlock:"
++ "batchWithServicePool:cancelBlock:"
++ "batchWithServicePool:visionSession:cancelBlock:"
++ "blurVersion"
++ "blurVersionForUmbrellaVersion:"
++ "cacheDownloadResourceForAsset:resources:"
++ "cameraMotionVersion"
++ "cameraMotionVersionForUmbrellaVersion:"
++ "cameraName"
++ "cameraUUID"
++ "cancelTaskRequestWithIdentifier:error:"
++ "cancelled"
++ "captionGenerationV4SystemPrompt"
++ "captionLocaleSuffixForLocale:"
++ "captionText"
++ "captions"
++ "changeCloudIdentifierToLocalIdentifierForPhotoLibrary:managedObjectContext:"
++ "cheeringVersion"
++ "cheeringVersionForUmbrellaVersion:"
++ "classificationVersion"
++ "classificationVersionForUmbrellaVersion:"
++ "classifications"
++ "clearLastProgressReportTimestampForTasks:photoLibrary:"
++ "clearProgressUpdateRequestForTask:photoLibrary:"
++ "clipID"
++ "collectionThemeConfig"
++ "collectionThemeGenerator"
++ "com.apple.fm.language.instruct_3b.fm_api_generic"
++ "com.apple.fm.service.hksvprocessing.v1"
++ "com.apple.fm.service.hksvprocessing_pro.v1"
++ "com.apple.mediaanalysis.MADRichCaptionLibraryProcessingTask"
++ "com.apple.mediaanalysis.hksv.labelkey"
++ "com.apple.mediaanalysis.pccagent.processing"
++ "com.apple.mediaanalysisd.home.HKSVClipIngestion"
++ "com.apple.mediaanalysisd.home.HKSVClipRemoval"
++ "com.apple.mediaanalysisd.home.HKSVClipRemovalByCameraUUID"
++ "com.apple.mediaanalysisd.home.HKSVClipSearch"
++ "com.apple.mediaanalysisd.homekit.search"
++ "com.apple.mediaanalysisd.longmovie.download"
++ "com.apple.mediaanalysisd.photos.richcaption"
++ "com.apple.mediaanalysisd.photos.textunderstanding.fastpass"
++ "com.apple.mediaanalysisd.photos.textunderstanding.results"
++ "contentClassificationResults"
++ "contentClassificationStatus"
++ "contentClassificationVersion"
++ "correlationBetweenHistogramData:andHistogramData:"
++ "createTaskBacklogForPhotoLibrary:"
++ "currentAlgorithmVersions"
++ "currentLocale"
++ "d16@?0@\"NSString\"8"
++ "dataWithContentsOfFile:"
++ "dataWithJSONObject:options:error:"
++ "deferred: missing ML assets"
++ "deleteObject:"
++ "disabled"
++ "diskIntensive"
++ "displayName"
++ "downloadResourceURL"
++ "downloadableResourceForAsset:resources:"
++ "durationTimeScale"
++ "durationTimeValue"
++ "embedding"
++ "embeddingResultsFromManagedEmbeddings:clipID:expectedEmbeddingVersion:"
++ "embeddingsColumnName"
++ "encryptedPhotosLocationSearch"
++ "enumerateMatchesInString:options:range:usingBlock:"
++ "enumerateSubstringsInRange:options:usingBlock:"
++ "events"
++ "exposureVersion"
++ "exposureVersionForUmbrellaVersion:"
++ "extractAnnotationMetadataFromFrames:confidenceThreshold:fragmentIndex:fragmentSequenceNumber:"
++ "faceAnnotations"
++ "faceMetadata"
++ "facePrintVersion"
++ "facePrintVersionForUmbrellaVersion:"
++ "faceRecognition"
++ "faceTorsoprint"
++ "faceVersion"
++ "faceVersionForUmbrellaVersion:"
++ "false"
++ "featureVectorVersion"
++ "featureVectorVersionForUmbrellaVersion:"
++ "fetchManagedClipWithIdentifier:moc:"
++ "fetchMostRecentProgressHistoryRecord:beforeDate:taskID:"
++ "fetchOrCreateManagedClipForHomeID:identifier:moc:"
++ "fetchRequestForCameraUUID:"
++ "fetchV2AnalysesWithLocalIdentifiers:resultTypes:"
++ "fineSubjectMotionVersion"
++ "fineSubjectMotionVersionForUmbrellaVersion:"
++ "fragment"
++ "fragmentBufferSize"
++ "fragmentCount"
++ "fragmentIndex"
++ "fragmentNumber"
++ "fragmentSequenceNumber"
++ "fragmentSize"
++ "fragments"
++ "frame"
++ "frameData"
++ "frameHeight"
++ "frameIndex"
++ "frameWidth"
++ "frames is not [CVPixelBuffer]"
++ "generateDescription:userPrompt:maximumTokens:setGMSBackgroundTaskPriority:completion:"
++ "generateVideoDescription:timestamps:userPrompt:maximumTokens:setGMSBackgroundTaskPriority:completion:"
++ "getCapRatio"
++ "getFragmentResults"
++ "getMaxCaptionWordCount"
++ "getResourceValue:forKey:error:"
++ "getTimeRangesWithSearchResults:"
++ "height"
++ "histogramData"
++ "histograms"
++ "histogramsByEventType"
++ "homeID"
++ "homeName"
++ "humanActionClassificationVersion"
++ "humanActionClassificationVersionForUmbrellaVersion:"
++ "humanActionVersion"
++ "humanActionVersionForUmbrellaVersion:"
++ "humanPoseVersion"
++ "humanPoseVersionForUmbrellaVersion:"
++ "i40@0:8@16@24Q32"
++ "i40@0:8@16B24B28@32"
++ "i44@0:8@16@24B32Q36"
++ "i48@0:8@16@24@32^@40"
++ "i48@0:8@16B24B28@32Q40"
++ "i48@0:8@16Q24Q32B40i44"
++ "i56@0:8@16@24@32@?40@?48"
++ "i60@0:8@16@24Q32Q40Q48i56"
++ "i64@0:8@16^{__CVBuffer=}24@32^@40^@48^Q56"
++ "i72@0:8@16@24Q32Q40Q48d56d64"
++ "imageCaptionVersionForUmbrellaVersion:"
++ "images"
++ "includeGV"
++ "indexOfObject:"
++ "initWithAnalysis:forAsset:resourceURL:"
++ "initWithBatchCompletionHandler:"
++ "initWithCancelBlock:allowDownload:"
++ "initWithCancelBlock:allowDownload:resources:"
++ "initWithCancelBlock:allowDownload:taskID:service:foundPassedGatingEntryBlock:"
++ "initWithClientConfig:"
++ "initWithClipID:embeddings:captions:additionalResults:"
++ "initWithClipID:fragments:previousEmbeddings:previousCaptions:prompt:faceMetadata:options:"
++ "initWithClipID:images:prompt:"
++ "initWithClipID:version:type:data:startTimeScale:startTimeValue:durationTimeScale:durationTimeValue:"
++ "initWithClipID:version:type:text:"
++ "initWithCompletePOIS:partialPOIS:"
++ "initWithData:fragmentNumber:startTimeScale:startTimeValue:durationTimeScale:durationTimeValue:"
++ "initWithDomain:code:userInfo:"
++ "initWithFragmentResults:clipID:fragmentSequenceRange:previousAnalysis:embeddingOnly:clientPrompt:clientLocale:completionHandler:"
++ "initWithGallery:"
++ "initWithIOSurface:"
++ "initWithMaxNumRegions:andTextPrompts:"
++ "initWithNorthEastPoint:southWestPoint:"
++ "initWithPHAsset:existingAnalysis:analysisTypes:downloadedResourceURL:"
++ "initWithPhotoLibrary:progressReporter:mediaType:mediaSubtype:imageOnlyAnalysis:downloadAllowed:"
++ "initWithPopularityCartoScore:modernPrimaryCategoryID:preferredGeocode:boundingPolygon:boundingBox:encryptedMUID:"
++ "initWithPreferredGeocode:encryptedMUID:"
++ "initWithQuickFaceIDManager:cancelBlock:"
++ "initWithSceneAnalysisVersion:faceAnalysisVersion:characterRecognitionAlgorithmVersion:visualSearchAlgorithmVersion:stickerConfidenceAlgorithmVersion:vaAnalysisVersion:vaLocationAnalysisVersion:mediaAnalysisVersion:mediaAnalysisImageVersion:captionGenerationVersion:imageEmbeddingVersion:videoEmbeddingVersion:videoSensitivityAnalysisVersion:textUnderstandingAlgorithmVersion:textUnderstandingGatingVersion:richCaptionGatingVersion:richCaptionGenerationVersion:videoRichCaptionGatingVersion:videoRichCaptionGenerationVersion:contentClassificationVersion:"
++ "initWithServicePool:cancelBlock:"
++ "initWithServicePool:visionSession:"
++ "initWithServicePool:visionSession:cancelBlock:"
++ "initWithSystemTask:activity:throughputCategory:itemCountKeys:durationKey:"
++ "initWithUseCase:sourceApplicationBundleIdentifier:"
++ "initWithVideoFragments:previousAnalysis:captionFrameCount:embeddingOnly:clientPrompt:clientLocale:completionHandler:"
++ "insertChangeTokens:insertedCount:"
++ "insertKeyValues:insertedCount:"
++ "insertMomentsScheduledAssets:insertedCount:"
++ "insertProcessingStatus:insertedCount:"
++ "insertProgressHistory:insertedCount:"
++ "interestingnessVersion"
++ "interestingnessVersionForUmbrellaVersion:"
++ "irisRecommendationVersion"
++ "irisRecommendationVersionForUmbrellaVersion:"
++ "isMovieResourceLocalAvailable"
++ "isSensitive"
++ "isValidJSONObject:"
++ "itemCount"
++ "j408sPZrvhbQbsZGmmGRXWlGMTg."
++ "keyFrameVersion"
++ "keyFrameVersionForUmbrellaVersion:"
++ "kind"
++ "laughterVersion"
++ "laughterVersionForUmbrellaVersion:"
++ "livePhotos-failed"
++ "loadEmbeddings:"
++ "loadLowResPixelBuffer:orientation:"
++ "loadValuesAsynchronouslyForKeys:completionHandler:"
++ "localeIdentifier"
++ "longMovieDownloadTimeout"
++ "loudnessVersion"
++ "loudnessVersionForUmbrellaVersion:"
++ "mad_createDirectoryIfNeeded:"
++ "mad_fileCacheDirectoryPath"
++ "mad_frag_check_%@.mp4"
++ "mad_kindFromInteger:"
++ "mad_needsContentClassificationProcessing"
++ "mad_shortNameForKind:"
++ "metadata"
++ "metricForSystemTask:activity:throughputCategory:itemCountKeys:durationKey:"
++ "migration_flushWAL"
++ "migration_loadChangeTokens"
++ "migration_loadProcessingStatus"
++ "migration_queryAnalysesForAssets:statsFlags:"
++ "movieHighlightScoreVersion"
++ "movieHighlightScoreVersionForUmbrellaVersion:"
++ "movieHighlightVersion"
++ "movieHighlightVersionForUmbrellaVersion:"
++ "movieSummaryVersion"
++ "movieSummaryVersionForUmbrellaVersion:"
++ "movingObjectVersion"
++ "movingObjectVersionForUmbrellaVersion:"
++ "multiModalLLMInference"
++ "musicVersion"
++ "musicVersionForUmbrellaVersion:"
++ "mutableSetValueForKey:"
++ "needsContentClassificationProcessing"
++ "needsTUStatusReset"
++ "notAnalyzableAnalysis"
++ "obstructionVersion"
++ "obstructionVersionForUmbrellaVersion:"
++ "operatingSystemVersionString"
++ "orientationVersion"
++ "orientationVersionForUmbrellaVersion:"
++ "overall"
++ "overallPayloadSize"
++ "parseCommandLine:argv:"
++ "parseProtoBufWithData:"
++ "pausedAnalysis:forAsset:resourceURL:"
++ "pausedResourceURL"
++ "performFullProcessingToDataWithImage:status:resultKind:"
++ "performanceMetricIdentifier"
++ "persistTelemetryMetricsForPhotoLibrary:startDate:oldVersion:newVersion:attempts:status:"
++ "persistTelemetryMetricsForStartDate:attemptCount:successfulCount:isLegacy:status:"
++ "personLabel"
++ "petsFaceVersion"
++ "petsFaceVersionForUmbrellaVersion:"
++ "petsVersion"
++ "petsVersionForUmbrellaVersion:"
++ "photos.collectionTheme"
++ "prepareEntry:"
++ "presentationTimeStamp"
++ "previousCaptions"
++ "previousEmbeddings"
++ "printUsageAndExitWith:andMessage:"
++ "processAllAssetsInPhotoLibrary:progress:"
++ "processAllAssetsInPhotoLibrary:progress:imageStage:"
++ "processAllAssetsInProcessingStatusForPhotoLibrary:progress:isForDownloadEligibleAssets:"
++ "processAssetsInFetchResult:initialScan:allowDownload:progress:"
++ "processAssetsInFetchResult:initialScan:allowDownload:progress:taskID:"
++ "progress"
++ "prompt"
++ "publishAnalysis:forAsset:embeddingChangeManager:"
++ "purpose"
++ "q24@?0@\"NSArray\"8@\"NSArray\"16"
++ "q24@?0@\"NSString\"8@\"NSString\"16"
++ "qualityVersion"
++ "qualityVersionForUmbrellaVersion:"
++ "range"
++ "rangeOfString:"
++ "regularExpressionWithPattern:options:error:"
++ "releaseSharedDataStoreForPhotoLibraryURL:"
++ "releaseSharedDatabaseForPhotoLibraryURL:"
++ "removeAllFragmentResultsWithReply:"
++ "removeManagedAsset:"
++ "removeObjectsInRange:"
++ "removeResult:"
++ "render:toCVPixelBuffer:"
++ "replacePersonNamesWithUUIDsInText:"
++ "requestDataByStringKeywords:completionHandler:"
++ "requestFragmentCount"
++ "requestGenerativeProcessingWithClipID:previousAnalysis:fragmentSequenceRange:embeddingOnly:clientPrompt:clientLocale:reply:"
++ "requestGenerativeProcessingWithVideoFragments:previousAnalysis:captionFrameCount:embeddingOnly:clientPrompt:clientLocale:reply:"
++ "requestHKSVClipIngestion:clips:reply:"
++ "requestHKSVRemoval:cameraUUID:reply:"
++ "requestHKSVRemoval:clipIDs:reply:"
++ "requestHKSVXPCStoreListenerEndpoint:"
++ "requestOverallPayloadSize"
++ "requestPhotosTUFastPassProcessing:withPhotoLibraryURL:andReply:"
++ "requestProgressUpdateForTasks:photoLibrary:"
++ "requestSearchPOIs:locationNames:reply:"
++ "requestTimeRanges:clipID:matchingEmbeddings:embeddingVersion:reply:"
++ "restoreLegacyDatabaseFromBackupFilepath:"
++ "restorePersistentStoreForPhotoLibrary:fromURL:"
++ "resultOverallPayloadSize"
++ "resultsArrayFromData:"
++ "resultsColumnName"
++ "richCaptionConfig"
++ "richCaptionGenerator"
++ "richVideoCaptionGenerator"
++ "roomName"
++ "safetyVersion"
++ "safetyVersionForUmbrellaVersion:"
++ "saliencyVersion"
++ "saliencyVersionForUmbrellaVersion:"
++ "sceneVersionForUmbrellaVersion:"
++ "sceneprint"
++ "sceneprintProperties"
++ "searchForQuery:matchingScoreOnly:topK:"
++ "sendLowLevelSessionEvent:"
++ "sensitiveExplicit"
++ "sensitiveGore"
++ "sensitiveViolence"
++ "sensitivityScoreExplicit"
++ "sensitivityScoreGore"
++ "sensitivityScoreViolence"
++ "sequenceNumber"
++ "sessionLogActivityKey"
++ "setAnalysisDate:"
++ "setCameraName:"
++ "setCameraUUID:"
++ "setCaptionText:"
++ "setCaptions:"
++ "setCharacterRecognitionVersion:"
++ "setClip:"
++ "setContentClassificationResults:"
++ "setContentClassificationStatus:"
++ "setContentClassificationVersion:"
++ "setCreationDate:"
++ "setDownloadResourceURL:"
++ "setDurationTimeScale:"
++ "setDurationTimeValue:"
++ "setEmbedding:"
++ "setError:"
++ "setFinishDate:"
++ "setHistogramsByEventType:"
++ "setHomeID:"
++ "setHomeName:"
++ "setIdentifier:"
++ "setNeedsContentClassificationProcessing:"
++ "setNeedsTUStatusReset:"
++ "setPersistentDomain:forName:"
++ "setPrimaryDomain:"
++ "setPurpose:"
++ "setRequestFragmentCount:"
++ "setRequestFragmentSize:"
++ "setRequestOverallPayloadSize:"
++ "setResultCaptionCount:"
++ "setResultEmbeddingCount:"
++ "setResultOverallPayloadSize:"
++ "setRoomName:"
++ "setSessionLogActivityKey:"
++ "setSkipSceneAnalysis:"
++ "setSkipsMACDAccess:"
++ "setStartDate:"
++ "setStartTimeScale:"
++ "setStartTimeValue:"
++ "setStartTimestamp:"
++ "setSubtitle:"
++ "setText:"
++ "setType:"
++ "setVersion100To101Bypass:"
++ "setVersionOnlyUpdate:"
++ "setZoneName:"
++ "settlingEffectsGatingVersion"
++ "settlingEffectsGatingVersionForUmbrellaVersion:"
++ "sharedDatabaseWithPhotoLibrary:embeddingType:"
++ "shotTypeVersion"
++ "shotTypeVersionForUmbrellaVersion:"
++ "skipSceneAnalysis"
++ "skipsMACDAccess"
++ "startTimeScale"
++ "startTimeValue"
++ "statusOfValueForKey:error:"
++ "stillImages-failed"
++ "stringByAppendingFormat:"
++ "stringByReplacingOccurrencesOfString:withString:options:range:"
++ "stringByTrimmingCharactersInSet:"
++ "stringWithCString:encoding:"
++ "subjectMotionVersion"
++ "subjectMotionVersionForUmbrellaVersion:"
++ "substringFromIndex:"
++ "substringWithRange:"
++ "subtleMotionVersion"
++ "subtleMotionVersionForUmbrellaVersion:"
++ "summarizedEmbeddingVersion"
++ "summarizedEmbeddingVersionForUmbrellaVersion:"
++ "tap-to-radar://new?Title=%@&Classification=Serious Bug&ComponentID=%d&ComponentName=%@&ComponentVersion=%@&Reproducible=Sometimes&Description=%@&Attachments=%@DeleteOnAttach=1"
++ "task:hasReachedPercentage:"
++ "taskWithFragmentResults:clipID:fragmentSequenceRange:previousAnalysis:embeddingOnly:clientPrompt:clientLocale:completionHandler:"
++ "taskWithGallery:"
++ "taskWithPhotoLibrary:progressReporter:mediaType:mediaSubtype:imageOnlyAnalysis:downloadAllowed:"
++ "taskWithServicePool:visionSession:"
++ "taskWithVideoFragments:previousAnalysis:captionFrameCount:embeddingOnly:clientPrompt:clientLocale:completionHandler:"
++ "text"
++ "timestampRequestReceived"
++ "timestampRequestStartRunning"
++ "timestampVideoCaptionDone"
++ "timestampVideoCaptionStart"
++ "timestampVideoDecodeDone"
++ "timestampVideoDecodeStart"
++ "timestampVideoEmbeddingDone"
++ "timestampVideoEmbeddingStart"
++ "timestampVideoGateDone"
++ "timestampVideoGateStart"
++ "timestampWriteResponseToClient"
++ "toDictionary"
++ "torsoVersion"
++ "torsoVersionForUmbrellaVersion:"
++ "unarchivedObjectOfClasses:fromData:error:"
++ "unsignedLongValue"
++ "updateActivityLevelResultsWithArray:version:"
++ "updateAnimalPrintResultsWithArray:version:"
++ "updateAnimalResultsWithArray:version:"
++ "updateAnimatedStickerResultsWithArray:version:"
++ "updateApplauseResultsWithArray:version:"
++ "updateAssetWithPhotosAsset:analysis:"
++ "updateAudioFusedVideoEmbeddingResultsWithArray:version:"
++ "updateAudioQualityResultsWithArray:version:"
++ "updateBabbleResultsWithArray:version:"
++ "updateBlurResultsWithArray:version:"
++ "updateCameraMotionResultsWithArray:version:"
++ "updateCheeringResultsWithArray:version:"
++ "updateClassificationResultsWithArray:version:"
++ "updateExposureResultsWithArray:version:"
++ "updateFacePrintResultsWithArray:version:"
++ "updateFaceResultsWithArray:version:"
++ "updateFeatureVectorResultsWithArray:version:"
++ "updateFineSubjectMotionResultsWithArray:version:"
++ "updateHumanActionClassificationResultsWithArray:version:"
++ "updateHumanActionResultsWithArray:version:"
++ "updateHumanPoseResultsWithArray:version:"
++ "updateImageCaptionResultsWithArray:version:"
++ "updateInterestingnessResultsWithArray:version:"
++ "updateIrisRecommendationResultWithArray:version:"
++ "updateKeyFrameResultsWithArray:version:"
++ "updateLaughterResultsWithArray:version:"
++ "updateLoudnessResultsWithArray:version:"
++ "updateMovieHighlightResultsWithArray:version:"
++ "updateMovieHighlightScoreResultsWithArray:version:"
++ "updateMovieSummaryResultsWithArray:version:"
++ "updateMovingObjectResultsWithArray:version:"
++ "updateMusicResultsWithArray:version:"
++ "updateObstructionResultsWithArray:version:"
++ "updateOrientationResultsWithArray:version:"
++ "updatePetsFaceResultsWithArray:version:"
++ "updatePetsResultsWithArray:version:"
++ "updateQualityResultsWithArray:version:"
++ "updateSafetyResultWithArray:version:"
++ "updateSaliencyResultsWithArray:version:"
++ "updateSceneResultsWithArray:version:"
++ "updateSettlingEffectsGatingResultsWithArray:version:"
++ "updateShotTypeResultsWithArray:version:"
++ "updateSubjectMotionResultsWithArray:version:"
++ "updateSubtleMotionResultsWithArray:version:"
++ "updateSummarizedEmbeddingResultsWithArray:version:"
++ "updateTorsoResultsWithArray:version:"
++ "updateV2AssetWithPhotosAsset:analysis:"
++ "updateVideoCaptionPreferenceResultsWithArray:version:"
++ "updateVideoCaptionResultsWithArray:version:"
++ "updateVideoEmbeddingResultsWithArray:version:"
++ "updateVideoSceneThumbnailResultsWithArray:version:"
++ "updateVideoSegmentCaptionResultsWithArray:version:"
++ "updateVideoStabilizationResultsWithArray:version:"
++ "updateVideoThumbnailResultsWithArray:version:"
++ "updateVoiceResultsWithArray:version:"
++ "v%lu"
++ "v1"
++ "v16@?0@\"NSString\"8"
++ "v2"
++ "v24@?0@\"NSUUID\"8^B16"
++ "v24@?0@\"VUWGalleryEntityIdentifier\"8^B16"
++ "v24@?0@\"_TtC19MediaAnalysisDaemon17MADPCCAgentResult\"8@\"NSError\"16"
++ "v24@?0@8^B16"
++ "v24@?0d8@\"NSString\"16"
++ "v28@0:8i16r^*20"
++ "v3"
++ "v32@?0@\"HMIVideoAnalyzerFragmentResult\"8Q16^B24"
++ "v32@?0@\"MADChangeRequest\"8@16^Q24"
++ "v32@?0@\"MADHKSVClip\"8@\"MADHKSVGenerativeMetrics\"16@\"NSError\"24"
++ "v32@?0@\"NSNumber\"8@\"NSMutableSet\"16^B24"
++ "v32@?0@\"NSTextCheckingResult\"8Q16^B24"
++ "v36@0:8i16@\"NSArray\"20@?<v@?@\"NSArray\"@\"NSError\">28"
++ "v36@0:8i16@\"NSArray\"20@?<v@?@\"NSError\">28"
++ "v36@0:8i16@\"NSString\"20@?<v@?@\"NSError\">28"
++ "v52@0:8Q16@24@32B40@44"
++ "v52@0:8^{__CVBuffer=}16@24q32B40@?44"
++ "v52@0:8i16@\"NSString\"20@\"NSArray\"28Q36@?<v@?@\"NSArray\"@\"NSError\">44"
++ "v52@0:8i16@20@28Q36@?44"
++ "v56@0:8@16Q24@32^@40^@48"
++ "v56@?0@\"NSString\"8{_NSRange=QQ}16{_NSRange=QQ}32^B48"
++ "v60@0:8@16@24@32q40B48@?52"
++ "v64@0:8@\"NSArray\"16@\"NSArray\"24i32B36@\"NSString\"40@\"NSString\"48@?<v@?@\"MADHKSVClip\"@\"MADHKSVGenerativeMetrics\"@\"NSError\">56"
++ "v64@0:8@16@24i32B36@40@48@?56"
++ "v76@0:8@\"NSString\"16@\"NSArray\"24{_NSRange=QQ}32B48@\"NSString\"52@\"NSString\"60@?<v@?@\"MADHKSVClip\"@\"NSError\">68"
++ "v76@0:8@16@24{_NSRange=QQ}32B48@52@60@?68"
++ "valueWithCMTimeRange:"
++ "vcp_addEntriesFromResults:algorithmVersions:"
++ "vcp_algorithmVersions"
++ "vcp_hasAdjustments"
++ "vcp_localMovieResourcesSorted:"
++ "vcp_movieResourcesSorted:"
++ "vcp_needsImageRichCaptionProcessing"
++ "vcp_needsVideoRichCaptionProcessing"
++ "version100To101Bypass"
++ "versionOnlyUpdate"
++ "videoCaptionPreferenceVersion"
++ "videoCaptionPreferenceVersionForUmbrellaVersion:"
++ "videoCaptionVersionForUmbrellaVersion:"
++ "videoEmbeddingVersionForUmbrellaVersion:"
++ "videoSceneThumbnailVersion"
++ "videoSceneThumbnailVersionForUmbrellaVersion:"
++ "videoSegmentCaptionVersion"
++ "videoSegmentCaptionVersionForUmbrellaVersion:"
++ "videoStabilizationVersion"
++ "videoStabilizationVersionForUmbrellaVersion:"
++ "videoThumbnailVersion"
++ "videoThumbnailVersionForUmbrellaVersion:"
++ "videos-failed"
++ "voiceVersion"
++ "voiceVersionForUmbrellaVersion:"
++ "whitespaceCharacterSet"
++ "width"
++ "writeToFile:atomically:"
++ "x"
++ "y"
++ "zoneName"
++ "{_NSRange=\"location\"Q\"length\"Q}"
++ "\xf0\xf0\""
++ "\xf8"
+- "\r"
+- "  Analysis backup up-to-date (%@)"
+- "  Backed up %zu/%zu full analysis records"
+- "  Backup outdated (%@); performing backup"
+- "  Changes too few (%d, threshold: %d) since last backup (%@); skipping backup"
+- "  Failed to create VCPDatabaseWriter at %@ for photo library %@"
+- "  Failed to create backup directory (%@); backup failed"
+- "  Failed to create backup file"
+- "  Failed to create backup file; backup failed (%d)"
+- "  Failed to create intermediate backup directory (%@); backup failed"
+- "  Failed to delete intermediate file on aborted backup"
+- "  Failed to encrypt intermediate backup file (%@); backup failed"
+- "  Failed to migrate file to backup directory (%@); backup failed"
+- "  Failed to remove existing intermediate backup (%@); backup failed"
+- "  Failed to remove intermediate encrypted backup (%@)"
+- "  Failed to remove intermediate unencrypted backup (%@)"
+- "  Failed to write backup file header"
+- "  Has asset deletion changes since last backup (%@); performing 1-day early backup"
+- "  Has asset deletion changes since last backup (%@); performing backup"
+- "  Has asset deletion changes since last backup; performing early backup"
+- "  Invalid backup date (%@); adjusting date and skipping backup"
+- "  No analysis database present; skipping backup"
+- "  No last backup time; performing backup"
+- "  Significant changes (%d) since last backup (%@); performing early backup"
+- "  Successfully backed up analysis database"
+- "  Successfully encrypted intermediate backup file"
+- "  Unknown backup date key; skipping backup"
+- "  Unknown backup date key; skipping backup for task %llu"
+- "  [%@] Analysis failed"
+- "  [%@] Deprecated analysis version (%d); skipping"
+- "  [%@] Failed to convert asset analysis; skipping"
+- "  [%@] Failed to fetch asset's cloud identifier: %@; skipping"
+- "  [%@] Failed to query blacklist count"
+- "  [%@] Failed to retrieve VCPDatabaseWriter"
+- "  [%@] Failed to serialize asset analysis; skipping"
+- "  [%@] Invalid asset (media type %d, subtype %d) for backup; skipping"
+- "  [%@] No analysis available; skipping"
+- "  [%@] Serialized analysis exceeds per-entry limit; skipping"
+- "  [Photos][Backup] Skip performing backup for legacy DB"
+- "  [Photos][Backup][MACD][%@]"
+- "  [Photos][Backup][SPL] MADB does not exist; Skipping ..."
+- " [%@] Failed to write backup entry data"
+- " [%@] Failed to write backup entry header"
+- "!#"
+- "%@ Analyzing %@ (Scene:%@, Embedding:%@)"
+- "%@ Clearing result %@: %@"
+- "%@ Completed removing image embedding"
+- "%@ Failed to fetch results for %lu processed assets from MA DB"
+- "%@ Failed to parse existing session log %@ with error %@; ignoring"
+- "%@ Failed to persist deep sync date"
+- "%@ Failed to query previous VUWGalleryChangeBookmark (code:%d)"
+- "%@ Failed to remove legacy database files for photo library %@"
+- "%@ Failed to restore CoreData DB from backup PSC"
+- "%@ Failed to retrieve VCPDatabaseWriter"
+- "%@ Fetched %lu corresponding result records from MA DB out of %lu processed assets from Photos"
+- "%@ MAD database does not exist; skipping"
+- "%@ MADB does not exist; Skipping ..."
+- "%@ Merging existing session log %@ with new session log %@"
+- "%@ No existing session log"
+- "%@ Saving session log %@"
+- "%@ failed (%@)"
+- "%@[SystemDataStore] Updated session log %@"
+- "%@[SystemDataStore] Updating session log %@"
+- "%{public, signpost.description:begin_time}llu Type=%{public, signpost.telemetry:string1}s QoS=%{public, signpost.telemetry:string2}s  enableTelemetry=YES "
+- "(mediaSubtypes & (%lu)) "
+- ") AND nextAttemptDate<(?) "
+- ", ?"
+- "-[VCPDatabaseWriter(BackgroundActivitySchedulingHistory) purgeExcessiveSchedulingRecordsForActivityID:]"
+- "-[VCPDatabaseWriter(BackgroundActivitySchedulingHistory) querySchedulingHistoryRecords:forActivityID:sinceDate:]"
+- "-[VCPDatabaseWriter(BackgroundActivitySchedulingHistory) storeSchedulingHistoryForActivityID:andStartTime:]"
+- "-[VCPDatabaseWriter(BackgroundActivitySchedulingHistory) updateSchedulingHistoryForActivityID:startTime:duration:exitStatus:sessionLog:]"
+- "-[VCPDatabaseWriter(BackgroundAnalysisProgressHistory) countAssetsForTaskID:totalAssets:processedAssets:]"
+- "-[VCPDatabaseWriter(BackgroundAnalysisProgressHistory) removeProgressEntriesBeyondLimits]"
+- "-[VCPDatabaseWriter(BackgroundAnalysisProgressHistory) storeProgressForActivityID:withAnalysisSubtype:version:processedAssetCount:totalAssetCount:storeDate:]"
+- "-[VCPDatabaseWriter(BackupRestore) backup_analysisRecordsModifiedSinceDate:]"
+- "-[VCPDatabaseWriter(BackupRestore) flushWAL]"
+- "-[VCPDatabaseWriter(BackupRestore) migration_restoreAnalysis:forLocalIdentifier:]"
+- "-[VCPDatabaseWriter(Blacklist) addAssetToBlacklist:]"
+- "-[VCPDatabaseWriter(Blacklist) ageOutBlacklistBefore:count:]"
+- "-[VCPDatabaseWriter(Blacklist) decrementBlacklistCountForLocalIdentifier:]"
+- "-[VCPDatabaseWriter(Blacklist) removeLocalIdentifierFromBlacklist:]"
+- "-[VCPDatabaseWriter(ChangeTokenOrBookmark) queryChangeToken:forTaskID:andChangeTokenType:]"
+- "-[VCPDatabaseWriter(ChangeTokenOrBookmark) removeAllChangeTokensForTaskID:]"
+- "-[VCPDatabaseWriter(ChangeTokenOrBookmark) removeChangeTokenForTaskID:andChangeTokenType:]"
+- "-[VCPDatabaseWriter(ChangeTokenOrBookmark) setChangeToken:forTaskID:andChangeTokenType:date:]"
+- "-[VCPDatabaseWriter(ChangeTokenOrBookmark) updateChangeToken:forTaskID:andChangeTokenType:]"
+- "-[VCPDatabaseWriter(DataCollection) backup_valueForKey:]"
+- "-[VCPDatabaseWriter(DataCollection) countOfAssetsWithMediaAnalysisResultsType:]"
+- "-[VCPDatabaseWriter(DataCollection) keyExistsInKeyValueStore:]"
+- "-[VCPDatabaseWriter(DataCollection) loadAllKeyValuePairs:]"
+- "-[VCPDatabaseWriter(DataCollection) migration_queryHeadersForAssets:analyses:]"
+- "-[VCPDatabaseWriter(DataCollection) removeKey:]"
+- "-[VCPDatabaseWriter(DataCollection) setValue:forKey:]"
+- "-[VCPDatabaseWriter(DataCollection) storeStatsFlags:forLocalIdentifier:]"
+- "-[VCPDatabaseWriter(DataCollection) valueForKey:]"
+- "-[VCPDatabaseWriter(Maintenance) containsAsset:result:]"
+- "-[VCPDatabaseWriter(Maintenance) deleteAnalysisResultsWithType:]"
+- "-[VCPDatabaseWriter(Maintenance) queryAssetWithLocalIdentifier:forMediaAnalysisVersion:]"
+- "-[VCPDatabaseWriter(Maintenance) setDeletePendingFlag:localIdentifier:]"
+- "-[VCPDatabaseWriter(Maintenance) updateDateModifiedForAsset:]"
+- "-[VCPDatabaseWriter(Maintenance) updateFingerprint:forAsset:]"
+- "-[VCPDatabaseWriter(Maintenance) updateLocalIdentifer:to:]"
+- "-[VCPDatabaseWriter(MediaAnalysis) analysisForAsset:analysis:]"
+- "-[VCPDatabaseWriter(MediaAnalysis) bumpAnalysisVersionForAsset:]"
+- "-[VCPDatabaseWriter(MediaAnalysis) deleteAnalysisForAsset:]"
+- "-[VCPDatabaseWriter(MediaAnalysis) migration_deleteAnalysisForAssets:]"
+- "-[VCPDatabaseWriter(MediaAnalysis) queryAnalysisResultsForAssets:results:]"
+- "-[VCPDatabaseWriter(MediaAnalysis) storeAnalysisForAsset:analysis:]"
+- "-[VCPDatabaseWriter(MomentsScheduledAssets) fetchAllMomentsScheduledAssets:]"
+- "-[VCPDatabaseWriter(MomentsScheduledAssets) fetchMomentsScheduledAssetEntries:forTaskID:]"
+- "-[VCPDatabaseWriter(MomentsScheduledAssets) removeMomentsScheduledAssetWithLocalIdentifier:andTaskID:]"
+- "-[VCPDatabaseWriter(MomentsScheduledAssets) setMomentsScheduledAssetWithLocalIdentifier:taskID:andRequestDate:]"
+- "-[VCPDatabaseWriter(ProcessingStatus) fetchEligibleToRetryLocalIdentifiers:processingStatus:taskID:fetchLimit:additionalPredicates:]"
+- "-[VCPDatabaseWriter(ProcessingStatus) fetchLocalIdentifiers:processingStatus:taskID:attempts:fetchLimit:additionalPredicates:]"
+- "-[VCPDatabaseWriter(ProcessingStatus) fetchLocalIdentifiers:taskID:processingStatus:additionalPredicates:]"
+- "-[VCPDatabaseWriter(ProcessingStatus) fetchLocalIdentifiersEligibleForRetry:taskID:excludingStatuses:fetchLimit:additionalPredicates:]"
+- "-[VCPDatabaseWriter(ProcessingStatus) fetchLocalIdentifiersEligibleForRetry:taskID:includingStatuses:fetchLimit:additionalPredicates:]"
+- "-[VCPDatabaseWriter(ProcessingStatus) fetchLocalIdentifiersEligibleForRetry:withTaskID:andFetchLimit:]"
+- "-[VCPDatabaseWriter(ProcessingStatus) fetchProcessingErrorCode:errorLine:taskID:localIdentifier:]"
+- "-[VCPDatabaseWriter(ProcessingStatus) fetchProcessingErrorCodeCounts:withTaskID:sinceDate:additionalPredicates:]"
+- "-[VCPDatabaseWriter(ProcessingStatus) hardFailAllRunningProcessingStatusForTaskID:additionalPredicates:]"
+- "-[VCPDatabaseWriter(ProcessingStatus) queryAssetCountForTaskID:]"
+- "-[VCPDatabaseWriter(ProcessingStatus) queryAssetCountForTaskID:minimumAttempts:]"
+- "-[VCPDatabaseWriter(ProcessingStatus) queryAssetCountForTaskID:withStatus:andAttempts:]"
+- "-[VCPDatabaseWriter(ProcessingStatus) queryEligibleToRetryAssetCountWithProcessingStatus:andTaskID:]"
+- "-[VCPDatabaseWriter(ProcessingStatus) queryEligibleToRetryAssetCountWithTaskID:]"
+- "-[VCPDatabaseWriter(ProcessingStatus) queryProcessingStatus:attempts:lastAttemptDate:andNextAttemptDate:forLocalIdentifier:andTaskID:]"
+- "-[VCPDatabaseWriter(ProcessingStatus) removeAllProcessingStatusForTaskID:]"
+- "-[VCPDatabaseWriter(ProcessingStatus) removeProcessingStatusForLocalIdentifier:andTaskID:]"
+- "-[VCPDatabaseWriter(ProcessingStatus) removeProcessingStatusForTaskID:mediaType:mediaSubtypes:]"
+- "-[VCPDatabaseWriter(ProcessingStatus) setAttempts:asset:taskID:status:lastAttemptDate:mediaType:mediaSubtypes:errorCode:errorLine:]"
+- "-[VCPDatabaseWriter(ProcessingStatus) updateProcessingStatus:andNextAttemptDate:andErrorCode:andErrorLine:forLocalIdentifier:andTaskID:]"
+- "@\"NSObject<VCPMADAssetBatchProtocol>\"36@0:8@\"VCPDatabaseWriter\"16B24@?<B@?>28"
+- "@\"VCPDatabaseWriter\""
+- "@36@0:8q16Q24B32"
+- "@44@0:8@16B24@?28@36"
+- "@48@0:8Q16@24@32@40"
+- "@56@0:8Q16@24@32@40@48"
+- "@60@0:8@16B24@?28Q36@44@?52"
+- "@64@0:8@16@24@32q40Q48B56B60"
+- "AND "
+- "AND mediaType=(%ld) "
+- "AND status=(?);"
+- "Activity"
+- "ActivityAnalysisVersion"
+- "ActivityAnalysisVersionDaysSinceEstablished"
+- "ActivityID"
+- "Age-out interval reached; discarding change token data..."
+- "AllowedAssetsCountDiscrete"
+- "Analysis version updated; discarding change token data..."
+- "AnalysisDuration"
+- "AnalysisStatusExtension"
+- "AnalysisType"
+- "AnalyzeSuccess"
+- "AssetType"
+- "AttemptedCount"
+- "AttemptedCountInteger"
+- "AttemptedPercentage"
+- "B60@0:8@16@24^Q32^i40^@48B56"
+- "BackgroundActivitySchedulingHistory"
+- "BackgroundAnalysisProgressHistory"
+- "BackupDuration"
+- "BackupRestore"
+- "BackupStart"
+- "Blacklist"
+- "Cannot load result type: %@"
+- "ChangeTokenOrBookmark"
+- "Checking full analysis backup for PHPhotoLibrary (%@) ... "
+- "ComputeSyncDuration"
+- "ComputeSyncStart"
+- "CoreDataPersistence"
+- "CrashCount"
+- "CrashCountInteger"
+- "Current extraction version %ld, mismatch with expected %ld"
+- "DELETE FROM Assets WHERE localIdentifier=(?);"
+- "DELETE FROM BackgroundActivitySchedulingHistory WHERE activityID=(?) AND id NOT IN (SELECT id FROM BackgroundActivitySchedulingHistory WHERE activityID=(?) ORDER BY startTime DESC LIMIT (?));"
+- "DELETE FROM BackgroundActivitySchedulingHistory WHERE startTime<(?);"
+- "DELETE FROM BackgroundAnalysisProgressHistory WHERE id NOT IN (     SELECT id FROM BackgroundAnalysisProgressHistory      ORDER BY storeDate DESC LIMIT (?));"
+- "DELETE FROM BackgroundAnalysisProgressHistory WHERE storeDate<(?);"
+- "DELETE FROM Blacklist WHERE date<=(?);"
+- "DELETE FROM Blacklist WHERE localIdentifier=(?);"
+- "DELETE FROM ChangeTokens WHERE tokenID=(?) AND tokenType=(?);"
+- "DELETE FROM ChangeTokens WHERE tokenID=(?);"
+- "DELETE FROM MomentsScheduledAssets WHERE taskID=(?) AND localIdentifier=(?);"
+- "DELETE FROM ProcessingStatus WHERE taskID=(?) AND localIdentifier=(?);"
+- "DELETE FROM ProcessingStatus WHERE taskID=(?) AND mediaType=(?) AND mediaSubtypes=(?);"
+- "DELETE FROM Results WHERE assetId=(?) AND resultsType=(?);"
+- "DELETE FROM Results WHERE resultsType=(?);"
+- "DataCollection"
+- "DaysSinceOSUpdate"
+- "DaysSinceStart"
+- "DaysSinceStartDiscrete"
+- "DaysSinceVersionUpdate"
+- "DaysToComplete"
+- "DaysToComplete50"
+- "DaysToComplete50SinceOSUpdate"
+- "DaysToComplete50WithFails"
+- "DaysToComplete50WithFailsSinceOSUpdate"
+- "DaysToComplete90"
+- "DaysToComplete90SinceOSUpdate"
+- "DaysToComplete90WithFails"
+- "DaysToComplete90WithFailsSinceOSUpdate"
+- "DaysToComplete99"
+- "DaysToComplete99SinceOSUpdate"
+- "DaysToComplete99WithFails"
+- "DaysToComplete99WithFailsSinceOSUpdate"
+- "DaysToCompleteDiscrete"
+- "DaysWaitedBeforeAnalyzed"
+- "DeprecatedMethodException"
+- "Detected bad errorCode %lld in ProcessingStatus with count %lld"
+- "Detected bad localIdentifier in MomentsScheduledAssets"
+- "Detected bad localIdentifier in ProcessingStatus"
+- "DurationOfLivePhotosAnalyzedFullResource"
+- "DurationOfLivePhotosAnalyzedPartialResource"
+- "DurationOfMoviesAnalyzedFullResource"
+- "DurationOfMoviesAnalyzedPartialResource"
+- "DurationOverall"
+- "Eligibility check failed: %@"
+- "Error: %d -- Failed to store progress for activity %d subtype %d version %d processed asset count %d total asset count %d on datetime %@. "
+- "ExitStatus"
+- "Face analysis backup/restore is disabled, not eligible for backup/restore"
+- "FaceClusteringElapsedTimeInSeconds"
+- "FaceDetectionElapsedTimeInSeconds"
+- "FaceVUSyncElapsedTimeInSeconds"
+- "Failed to archive changeToken - %@"
+- "Failed to bump version for asset %@"
+- "Failed to check if key %@ exists in KeyValueStore"
+- "Failed to delete asset %@"
+- "Failed to extract NSArray from column %d (%@)"
+- "Failed to persist VCPBackgroundProcessingMetrics - %d"
+- "Failed to publish results (%@)"
+- "Failed to query asset %@"
+- "Failed to query countOfAssetsWithMediaAnalysisResultsType - %d"
+- "Failed to remove background activity scheduling history with start time before %@"
+- "Failed to remove background analysis progress history past max count %d"
+- "Failed to remove background analysis progress history with storage date before %@"
+- "Failed to remove scheduling history for background activity %lu over limit %lu"
+- "Failed to store asset %@"
+- "Failed to store history for background activity %@ and start time %@"
+- "Failed to update dateModified for asset %@"
+- "Failed to update local identifier for asset %@"
+- "Failed to update results for asset %@"
+- "FailedAssetTaskTimestamp"
+- "FailedCount"
+- "FailedCountInteger"
+- "FailedPercentage"
+- "False positive detected during FaceTime call"
+- "Full processing failed: %@"
+- "GROUP BY errorCode;"
+- "InvokedTimes"
+- "InvokedTimesInteger"
+- "IsOnBattery"
+- "IsStreamAnalysis"
+- "LengthOfMovieContentInSeconds"
+- "LibraryScale"
+- "LibraryUnderstanding"
+- "LongVideoSeconds"
+- "MACDStorePersist"
+- "MACDStoreRead"
+- "MAD database does not exist, skip progress reporting and data collection"
+- "MADPhotosFaceAssetProcessingTask_LegacyPrepare"
+- "MADPhotosFullAssetProcessingTask_LegacyPrepare"
+- "MADPhotosFullAssetProcessingTask_LegacyPublishProcessingStatus"
+- "MADPhotosFullAssetProcessingTask_LegacyPublishResults"
+- "MADPhotosFullAssetProcessingTask_PublishCoreData_Single"
+- "MADPhotosFullAssetProcessingTask_PublishLegacy_Single"
+- "MADPhotosOCRAssetProcessingTask_LegacyPrepare"
+- "MADPhotosVisualSearchAssetProcessingTask_LegacyPrepare"
+- "MADVSKDBUtil_VideoDeepSync_MAAssetCount_CoreData"
+- "MediaTypeTaskTimestamp"
+- "MomentsScheduledAssets"
+- "NOT "
+- "No results type for %@; can't delete"
+- "NumActualProcessedAssets"
+- "NumAlreadyProcessedAssets"
+- "NumDaysSinceEarliestAssetModificationDate"
+- "NumPendingAssets"
+- "NumRequestedAssets"
+- "NumbeOfResourceDownloads"
+- "NumberOfAssets"
+- "NumberOfAssetsAnalyzed"
+- "NumberOfAssetsDownloadThrottled"
+- "NumberOfAssetsGated"
+- "NumberOfAssetsHardFailure"
+- "NumberOfAssetsHardFailureFullResource"
+- "NumberOfAssetsHardFailurePartialResource"
+- "NumberOfAssetsIneligibleDomains"
+- "NumberOfAssetsIntoBlacklist"
+- "NumberOfAssetsLabeled"
+- "NumberOfAssetsMissingCSUObject"
+- "NumberOfAssetsNoResource"
+- "NumberOfAssetsNoResourceFullResource"
+- "NumberOfAssetsNoResourcePartialResource"
+- "NumberOfAssetsNotPassGateWithText"
+- "NumberOfAssetsNotPassGateWithoutText"
+- "NumberOfAssetsOutFromBlacklist"
+- "NumberOfAssetsPassGateWithText"
+- "NumberOfAssetsPassGateWithoutText"
+- "NumberOfAssetsSoftFailure"
+- "NumberOfAssetsSoftFailureFullResource"
+- "NumberOfAssetsSoftFailurePartialResource"
+- "NumberOfAssetsSteamed"
+- "NumberOfCapturesHaveFace"
+- "NumberOfClusterEvents"
+- "NumberOfClusterStartEvents"
+- "NumberOfClusteredFaces"
+- "NumberOfClusteredSceneEmbeddings"
+- "NumberOfFaceTorsosPersisted"
+- "NumberOfFaceVUSyncEvents"
+- "NumberOfFacecropsAnalyzed"
+- "NumberOfFacecropsGenerated"
+- "NumberOfFacesPersisted"
+- "NumberOfLivePhotosAnalyzedFullResource"
+- "NumberOfLivePhotosAnalyzedPartialResource"
+- "NumberOfMoviesAnalyzedFullResource"
+- "NumberOfMoviesAnalyzedPartialResource"
+- "NumberOfNewCaptures"
+- "NumberOfNewCapturesProcessed"
+- "NumberOfNewCapturesWithFaceFullFromCamera"
+- "NumberOfPeoplePromoted"
+- "NumberOfPersonBuildingEvents"
+- "NumberOfPersonBuildingStartEvents"
+- "NumberOfPersonPromotingEvents"
+- "NumberOfPersonPromotingStartEvents"
+- "NumberOfPetPromoted"
+- "NumberOfPetPromotingEvents"
+- "NumberOfPetPromotingStartEvents"
+- "NumberOfPetsGenerated"
+- "NumberOfPetsGeneratedWithBodyOnly"
+- "NumberOfPetsGeneratedWithHeadAndBody"
+- "NumberOfPetsGeneratedWithHeadOnly"
+- "NumberOfPetsPersisted"
+- "NumberOfPhotosAnalyzedFullResource"
+- "NumberOfPhotosAnalyzedPartialResource"
+- "NumberOfPositiveFace"
+- "NumberOfSceneClusterFastEvents"
+- "NumberOfSceneClusterFastStartEvents"
+- "NumberOfSceneClusterFullEvents"
+- "NumberOfSceneClusterFullStartEvents"
+- "NumberOfTorsosPersisted"
+- "ORDER BY id ASC LIMIT (?);"
+- "ORDER BY id ASC;"
+- "OSMajorOfLastVersionUpdate"
+- "OSMinorOfLastVersionUpdate"
+- "PID"
+- "Parsed a value without key specified; skipping this value"
+- "PeopleVIPGenerated"
+- "PercentageOfCapturesHaveFace"
+- "PercentageOfNewCapturesProcessed"
+- "PercentageOfNewCapturesWithFaceFullFromCamera"
+- "PercentageOfPositiveFaces"
+- "PersonBuildingElapsedTimeInSeconds"
+- "PersonPromotingElapsedTimeInSeconds"
+- "PetPromotingElapsedTimeInSeconds"
+- "PetsVIPGenerated"
+- "PhotosIDExtraction"
+- "PluggedIn"
+- "PreventFaceBackupRestore"
+- "PreviousAttempts"
+- "ProcessedCount"
+- "ProcessedCount1Day"
+- "ProcessedCount1DayInteger"
+- "ProcessedCount1Month"
+- "ProcessedCount1MonthInteger"
+- "ProcessedCount1Week"
+- "ProcessedCount1WeekInteger"
+- "ProcessedCountInteger"
+- "ProcessedPercentage"
+- "ProcessedPercentage1Day"
+- "ProcessedPercentage1Month"
+- "ProcessedPercentage1Week"
+- "Processing %s"
+- "ProcessingDeferredDuration"
+- "ProcessingStatus"
+- "ProgressCheckDuration"
+- "ProgressCheckStart"
+- "ProgressPercentage"
+- "ProgressPercentageDiscrete"
+- "Q32@0:8Q16@24"
+- "Q32@0:8Q16Q24"
+- "REPLACE INTO BackgroundActivitySchedulingHistory (activityID, startTime, duration, exitStatus) VALUES ((?), (?), (?), (?));"
+- "REPLACE INTO BackgroundActivitySchedulingHistory (activityID, startTime, duration, exitStatus, sessionLog) VALUES ((?), (?), (?), (?), (?));"
+- "REPLACE INTO BackgroundAnalysisProgressHistory (activityID, analysisSubtype, storeDate, version, processedAssetCount, totalAssetCount) VALUES ((?), (?), (?), (?), (?), (?));"
+- "REPLACE INTO Blacklist (localIdentifier, date, count) VALUES ((?), (?), COALESCE((SELECT count FROM Blacklist WHERE localIdentifier=(?)), 0) + 1);"
+- "REPLACE INTO ChangeTokens (tokenID, tokenType, tokenData, date, version) VALUES ((?),(?),(?),(?),(?));"
+- "REPLACE INTO MomentsScheduledAssets (taskID, localIdentifier, requestDate) VALUES ((?), (?), (?));"
+- "REPLACE INTO ProcessingStatus (taskID, localIdentifier, lastAttemptDate, nextAttemptDate, errorCode, errorLine, mediaType, mediaSubtypes, attempts, status) VALUES ((?), (?), (?), (?), (?), (?), (?), (?), (?), (?));"
+- "Resetting person process change tokens ... "
+- "Resetting person process timestamps ..."
+- "ResourceCondition"
+- "ResultsSynchronizationTaskTimestamp"
+- "ResumePausedTaskTimestamp"
+- "RunTime1Day"
+- "RunTime1Month"
+- "RunTime1Week"
+- "SELECT * FROM KeyValueStore WHERE key = (?);"
+- "SELECT Assets.localIdentifier, Results.resultsType, Results.results FROM Assets JOIN Results ON Assets.id = Results.assetId WHERE Assets.localIdentifier IN (?"
+- "SELECT COUNT(*) FROM Results WHERE resultsType=(?);"
+- "SELECT activityID, startTime, duration, exitStatus, sessionLog FROM BackgroundActivitySchedulingHistory WHERE activityID=(?) AND startTime>=(?);"
+- "SELECT count FROM Blacklist WHERE localIdentifier=(?);"
+- "SELECT count(*) FROM Assets WHERE dateAnalyzed >= (?) AND dateAnalyzed <= (?);"
+- "SELECT count(*) FROM Assets WHERE localIdentifier=(?);"
+- "SELECT count(*) FROM Blacklist WHERE date<=(?);"
+- "SELECT count(*) FROM ProcessingStatus WHERE taskID=(?) AND attempts>=(?);"
+- "SELECT count(*) FROM ProcessingStatus WHERE taskID=(?) AND status=(?) AND attempts=(?);"
+- "SELECT count(*) FROM ProcessingStatus WHERE taskID=(?) AND status=(?) AND nextAttemptDate<(?);"
+- "SELECT count(*) FROM ProcessingStatus WHERE taskID=(?);"
+- "SELECT date, version, tokenData FROM ChangeTokens WHERE tokenID=(?) AND tokenType=(?);"
+- "SELECT errorCode, count(*) FROM ProcessingStatus "
+- "SELECT errorCode, errorLine FROM ProcessingStatus WHERE taskID=(?) AND localIdentifier=(?);"
+- "SELECT id FROM Assets WHERE localIdentifier=?"
+- "SELECT id, version, dateModified, dateAnalyzed, analysisTypes, flags, quality, masterFingerprint, adjustedFingerprint, statsFlags FROM Assets WHERE localIdentifier=(?);"
+- "SELECT key, value FROM KeyValueStore;"
+- "SELECT localIdentifier FROM ProcessingStatus "
+- "SELECT localIdentifier FROM ProcessingStatus WHERE taskID=(?) AND nextAttemptDate<(?) ORDER BY id ASC LIMIT (?);"
+- "SELECT localIdentifier, requestDate FROM MomentsScheduledAssets WHERE taskID=(?);"
+- "SELECT localIdentifier, taskID FROM MomentsScheduledAssets;"
+- "SELECT resultsType, results FROM Results WHERE assetId=(?);"
+- "SELECT status, attempts, lastAttemptDate, nextAttemptDate FROM ProcessingStatus WHERE taskID=(?) AND localIdentifier=(?);"
+- "SELECT totalAssetCount, processedAssetCount FROM BackgroundAnalysisProgressHistory WHERE activityID=(?) ORDER BY storeDate DESC LIMIT 1 "
+- "SELECT version FROM Assets WHERE localIdentifier=(?);"
+- "SampleAssetSubtype"
+- "SampleAssetType"
+- "SampleCodec"
+- "SampleHeight"
+- "SampleUTType"
+- "SampleWidth"
+- "SceneClusteringElapsedTimeInSeconds"
+- "ScreenLocked"
+- "Spotlight"
+- "StartTimestamp"
+- "T@\"NSString\",&,V_sessionLogKey"
+- "T@\"NSString\",&,V_subcategory"
+- "T@\"VCPDatabaseWriter\",R,N,V_database"
+- "TUExtractionVersion"
+- "TaskID:%d (%d) queryChangeToken error - %@"
+- "The PEC feature flag must be enabled to schedule the PEC analysis"
+- "ThermalPressure"
+- "TimeAnalyzing"
+- "TimeAnalyzingInSeconds"
+- "Top1Failure"
+- "Top2Failure"
+- "Top3Failure"
+- "TotalCount"
+- "TotalCountInteger"
+- "TotalDownloadTimeInSeconds"
+- "TotalPersonProcessingTimeInSeconds"
+- "TotalPrepareTimeInSeconds"
+- "TotalProcessTimeInSeconds"
+- "TotalPublishTimeInSeconds"
+- "TotalRunTime"
+- "TotalRunTimeInteger"
+- "Tq,N,R"
+- "UPDATE Assets SET dateModified=(?) WHERE localIdentifier=(?);"
+- "UPDATE Assets SET flags=flags & ~(?), dateAnalyzed=(?) WHERE localIdentifier=(?)"
+- "UPDATE Assets SET flags=flags | (?), dateAnalyzed=(?) WHERE localIdentifier=(?)"
+- "UPDATE Assets SET localIdentifier=(?), flags=flags & ~(?) WHERE localIdentifier=(?);"
+- "UPDATE Assets SET masterFingerprint=(?), adjustedFingerprint=(?) WHERE localIdentifier=(?);"
+- "UPDATE Assets SET statsFlags=(?) WHERE localIdentifier=(?);"
+- "UPDATE Assets SET version=(?) WHERE  localIdentifier=(?);"
+- "UPDATE Assets SET version=(?), dateModified=(?), dateAnalyzed=(?), analysisTypes=(?), flags=(?), quality=(?), statsFlags=(?) WHERE id=(?);"
+- "UPDATE Blacklist SET count=(?) WHERE localIdentifier=(?);"
+- "UPDATE ChangeTokens SET tokenData=(?) WHERE tokenID=(?) AND tokenType=(?);"
+- "UPDATE ProcessingStatus SET status=(?) "
+- "UPDATE ProcessingStatus SET status=(?), nextAttemptDate=(?), errorCode=(?), errorLine=(?) WHERE taskID=(?) AND localIdentifier=(?);"
+- "UnifiedFullTaskTimestamp"
+- "UnifiedImageOnlyDownloadStepSeconds"
+- "UnifiedImageOnlyEvaluationStepSeconds"
+- "UnifiedImageOnlyPrepareStepSeconds"
+- "UnifiedImageOnlyProcessStepSeconds"
+- "UnifiedImageOnlyPublishStepSeconds"
+- "UnifiedImageOnlySeconds"
+- "UnifiedLivePhotoDownloadStepSeconds"
+- "UnifiedLivePhotoEvaluationStepSeconds"
+- "UnifiedLivePhotoPrepareStepSeconds"
+- "UnifiedLivePhotoProcessStepSeconds"
+- "UnifiedLivePhotoPublishStepSeconds"
+- "UnifiedMovieDownloadStepSeconds"
+- "UnifiedMovieEvaluationStepSeconds"
+- "UnifiedMoviePrepareStepSeconds"
+- "UnifiedMovieProcessStepSeconds"
+- "UnifiedMoviePublishStepSeconds"
+- "UnifiedVideoSeconds"
+- "UnprocessedCount"
+- "UnprocessedCountInteger"
+- "UnprocessedPercentage"
+- "Use [MAD[Change|Fetch]Request %@] instead."
+- "VCPAssetAnalysisTask_PublishLegacy_Single"
+- "VCPDatabaseManager"
+- "VCPMADLibraryBackup_FullAnalysis_CoreDataDB"
+- "VCPMADOCRAssetBatch_LegacyPrepare"
+- "VCPMADPECAssetEntry_LegacyPrepare"
+- "VCPMADQuickFaceIDAssetBatch_LegacyPrepare"
+- "VCPMADSceneAssetBatch_LegacyPrepare"
+- "VCPMADServerSearch_LegacyPrepare"
+- "VCPMADVisualSearchAssetBatch_LegacyPrepare"
+- "VCPMediaAnalysisDaemon_PublishCoreData_Single"
+- "VCPMediaAnalysisDaemon_PublishLegacy_Single"
+- "VCPResumePausedAnalysisTask_PublishCoreData_Single"
+- "VCPResumePausedAnalysisTask_PublishLegacy_Single"
+- "VSKSyncDuration"
+- "VSKSyncStart"
+- "WHERE taskID=(?) "
+- "WHERE taskID=(?) AND lastAttemptDate>=(?) "
+- "WHERE taskID=(?) AND status IN (?"
+- "WHERE taskID=(?) AND status NOT IN (?"
+- "WHERE taskID=(?) AND status=(?) "
+- "WHERE taskID=(?) AND status=(?) AND attempts=(?) "
+- "WHERE taskID=(?) AND status=(?) AND nextAttemptDate<(?) "
+- "[%@] Cannot load result type: %@"
+- "[%@] Cannot store invalid analysis (v%d) with %@"
+- "[%@] Dropping processing status for %lu unknown localIdentifiers"
+- "[%@] Error: Outstanding MAD database transcations detected before launching the task %u!"
+- "[%@] Existing analysis contains nil date; ignoring ..."
+- "[%@] Existing analysis from previous modification (%@ vs %@); discarding"
+- "[%@] Failed to load MediaAnalysis database"
+- "[%@] Failed to open Media Analysis for Photo Library (%@)"
+- "[%@] Failed to process assets due to database migration incomplete for library %@"
+- "[%@] New analysis version outdated (%d vs %d); discarding"
+- "[%@] No results key for type %d"
+- "[%@] Photo Library %@ is not ready; skipping"
+- "[%@] Processing assets done."
+- "[%@] Processing assets..."
+- "[%@][%@] Failed to query mediaanalysis version"
+- "[%@][%@] Failed to remove processing status for taskID %d"
+- "[%@][%@] Removing processing status for taskID %d"
+- "[%@][%@] Skipping %@ task due to migration incomplete"
+- "[%@][%@] Skipping task %u due to migration incomplete"
+- "[%@][%@] Tiny image, skipping performing IVS Analysis ."
+- "[%@][%@][Legacy]"
+- "[%@][Legacy] Persisting %lu results"
+- "[%@][MACD] Persisting results to MA DB"
+- "[%@][MACD] Setting processing status to running"
+- "[%@][MACD] Updating processing status for taskID %d"
+- "[CAM] Fetched session analytic data - %@"
+- "[CAM] Fetching session analytic data for %@"
+- "[CAM][TaskID-%d]"
+- "[ComputeSync|Backfill] MAD database does not exist; skipping backfill"
+- "[FaceLibraryProcessing][MACD] Change %lu processing status to Hard Failure"
+- "[FaceModelBump][%@] Failed to flush (%d)"
+- "[FaceModelBump][%@] Failed to reset (%d)"
+- "[FaceModelBump][%@] Media analysis database does not exist, skipping ChangeToken and ProcessingStatus reset"
+- "[FaceModelBump][%@] Resetting person process change tokens ..."
+- "[FaceModelBump][%@] Resetting person process timestamps ..."
+- "[FaceModelBump][%@][MACD] Removing all change tokens for taskID %d"
+- "[FaceModelBump][%@][MACD] Removing all processing status for taskID %d"
+- "[Face][%@][Legacy]"
+- "[Internal] Was this a false positive?"
+- "[MACDMigration|v1] No legacy database is present"
+- "[MAClientHandler] Failed to reset %@ state"
+- "[MAClientHandler] Failed to schedule all assets for Moments deferred processing"
+- "[MAClientHandler] Failed to schedule asset %@ for Moments deferred processing (type %@)"
+- "[MAClientHandler] Received Photos analysis MADRequestID %d for task %@(%lu)"
+- "[MAClientHandler][MACD] Removing all processing status and change tokens for taskID %d"
+- "[MADBGSTThroughputMetric] Adding count %d"
+- "[MADBGSTThroughputMetric] No key %@ in current session log. No throughput for metric %@"
+- "[MADBGSTThroughputMetric] Total count for task equal to 0. Skipping report"
+- "[MADBGSTThroughputMetric] system task is null, skipping"
+- "[MADProgressManager] Error %d in storing additional progress for task:subtask %u:%u"
+- "[MADProgressManager] Error %d in storing progress for task:subtask %u:%u"
+- "[MADProgressManager] Unable to determine steady-state for unknown task %u"
+- "[MADProgressManager] Unable to request progress report for unknown task %d"
+- "[MADProgressManager] found date %@ (timestamp: %lld)"
+- "[MADThroughputManager] Failed to create context"
+- "[MADThroughputManager] Failed to get last scheduling record for task %d"
+- "[MADThroughputManager] No last scheduling record for task %d"
+- "[MADThroughputManager] Unable to decode session log - %@"
+- "[MADThroughputManager] Unable to get last scheduling record for task %d"
+- "[MADThroughputManager] Unable to get scheduling history for task %d"
+- "[MADThroughputManager] Unable to get session log for task %d"
+- "[OCR] Skipping persisting due to migration incomplete"
+- "[OCR] Skipping processing status updating due to migration incomplete"
+- "[OCR][%@][Legacy]"
+- "[OCR][MACD] Skipping processing due to migration incomplete"
+- "[OCR][MACD] Skipping processing status setting due to migration incomplete"
+- "[PECSingleRequest][%@][Legacy]"
+- "[PECSingleRequest][MACD] %lu assets processing status changed to Hard Failure"
+- "[PEC][%@][Legacy]"
+- "[ProcessingStatusPruning] MAD database does not exist; skipping"
+- "[ProcessingStatusPruning][MACD] Removing processing status for taskID %d, mediaType %d, mediaSubtypes %d"
+- "[QuickFaceID] Skipping persisting due to migration incomplete"
+- "[QuickFaceID] Skipping processing status updating due to migration incomplete"
+- "[QuickFaceID][%@][Legacy]"
+- "[QuickFaceID][MACD] Skipping processing due to migration incomplete"
+- "[QuickFaceID][MACD] Skipping processing status setting due to migration incomplete"
+- "[Restore][%@] No CoreData backup present; Checking legacy backup..."
+- "[Restore][%@] No backup present; skipping restore"
+- "[Scene] Skipping persisting due to migration incomplete"
+- "[Scene] Skipping processing status updating due to migration incomplete"
+- "[Scene][%@][Legacy]"
+- "[Scene][MACD] Skipping processing due to migration incomplete"
+- "[Scene][MACD] Skipping processing status setting due to migration incomplete"
+- "[SchedulingHistory] Failed to query history %@ (%d)"
+- "[SchedulingHistory] Failed to update (duration: %f, exitStatus: %d) for background activity %@ and start time %@"
+- "[TU] Skipping persisting due to migration incomplete"
+- "[TU][%@] Asset OCR version, adjustment do not match stored properties"
+- "[VCPAssetMaintenanceTask] Asset maintenance: nil %s at index %zu/%zu"
+- "[VCPAssetMaintenanceTask] Deleted asset detection/removal process failed"
+- "[VCPAssetMaintenanceTask] Nil localIdentifier %@; skipping asset ..."
+- "[VCPAssetMaintenanceTask][%@] Asset found; recovering analysis"
+- "[VCPAssetMaintenanceTask][%@] Asset in trash; marking analysis for deletion"
+- "[VCPAssetMaintenanceTask][%@] Asset purged; removing analysis"
+- "[VCPBackgroundProcessingMetrics] Failed to initialize database to persist results"
+- "[VCPBackgroundProcessingMetrics] Failed to load background processing metrics"
+- "[VCPBackgroundProcessingMetrics] Failed to open database for background processing metrics"
+- "[VCPBackgroundProcessingMetrics] Failed to persist results"
+- "[VCPDatabaseManager] Failed to remove legacy database %@ file at path %@ - %@"
+- "[VCPDatabaseManager] Releasing shared database for %@"
+- "[VCPDatabaseManager] Removed legacy database %@ file at path %@"
+- "[VCPDatabaseWriter %@] is deprecated. "
+- "[VCPDatabaseWriter] Failed to begin transaction for analysis version check/update"
+- "[VCPDatabaseWriter] Failed to begin transaction for analytic metrics table initialization"
+- "[VCPDatabaseWriter] Failed to begin transaction for os version check/update"
+- "[VCPDatabaseWriter] Failed to check/update OS version"
+- "[VCPDatabaseWriter] Failed to check/update analysis version for %@"
+- "[VCPDatabaseWriter] Failed to check/update analysis versions"
+- "[VCPDatabaseWriter] Failed to commit transaction for analytic metrics table initialization"
+- "[VCPDatabaseWriter] Failed to query analysis version for %@"
+- "[VCPDatabaseWriter] Failed to query major os version for %@"
+- "[VCPDatabaseWriter] Failed to query minor os version for %@"
+- "[VCPDatabaseWriter] Failed to remove checkpoint timestamp for %@"
+- "[VCPDatabaseWriter] Failed to remove checkpoint_with_failure timestamp for %@"
+- "[VCPDatabaseWriter] Failed to remove checkpoint_with_sticky_failure timestamp for %@"
+- "[VCPDatabaseWriter] Failed to remove complete timestamp for %@"
+- "[VCPDatabaseWriter] Failed to remove complete_with_failure timestamp for %@"
+- "[VCPDatabaseWriter] Failed to remove complete_with_sticky_failure timestamp for %@"
+- "[VCPDatabaseWriter] Failed to remove enablement timestamp for %@"
+- "[VCPDatabaseWriter] Failed to remove personalization checkpoint timestamp for %@"
+- "[VCPDatabaseWriter] Failed to set %@ as now"
+- "[VCPDatabaseWriter] Failed to set %@ to 0"
+- "[VCPDatabaseWriter] Failed to set analysis version %d for %@"
+- "[VCPDatabaseWriter] Failed to set major os version for %@"
+- "[VCPDatabaseWriter] Failed to set major os version of analysis version update %lld for %@"
+- "[VCPDatabaseWriter] Failed to set minor os version for %@"
+- "[VCPDatabaseWriter] Failed to set minor os version of analysis version update %lld for %@"
+- "[VCPDatabaseWriter] Failed to set os version timestamp for %@"
+- "[VCPDatabaseWriter] Failed to set timestamp %lld for %@"
+- "[VCPDatabaseWriter] Operating System version changed from %lld.%lld to %lld.%lld"
+- "[VCPDatabaseWriter] Unable to drop processing status for %@"
+- "[VCPDatabaseWriter][%@] Deleting result analyzed in new analysis but not in existing analysis - %@"
+- "[VCPDatabaseWriter][%@] Deleting updated result analyzed in both existing analysis and new analysis - %@"
+- "[VCPDatabaseWriter][%@] Deleting updated result analyzed in existing analysis but not in new analysis - %@"
+- "[VCPDatabaseWriter][%@] Overwriting updated result analyzed in both existing analysis and new analysis - %@"
+- "[VCPDatabaseWriter][%@] Storing result analyzed in new analysis but not in existing analysis - %@"
+- "[VCPPhotosCollectionThemeAnalysisTask] Bridge embedding revision %lu not compatible with VCPMUBackboneRevision %lu"
+- "[VCPPhotosCollectionThemeAnalysisTask] Bridge embedding version not compatible"
+- "[VCPPhotosCollectionThemeAnalysisTask] [%@] Retrieved embedding version %lu not compatible with bridge embedding version %lu. Discard retrieved embedding\n"
+- "[VCPPhotosCollectionThemeAnalysisTask][%@] Compute image embedding on-demand"
+- "[VCPPhotosCollectionThemeAnalysisTask][%@] Compute video thumbnail embedding on-demand"
+- "[VCPPhotosCollectionThemeAnalysisTask][%@] Image loading failed"
+- "[VideoEmbedding|Backfill] MAD database does not exist; skipping backfill"
+- "[VisualSearch] Skipping persisting due to migration incomplete"
+- "[VisualSearch] Skipping processing status updating due to migration incomplete"
+- "[VisualSearch][%@][Legacy]"
+- "[VisualSearch][MACD] Skipping processing due to migration incomplete"
+- "[VisualSearch][MACD] Skipping processing status setting due to migration incomplete"
+- "_TtCC19MediaAnalysisDaemon50CollectionUnderstandingMultiModalInferenceProviderP33_3F112C14651A533C2588E4550269021D11_ClientInfo"
+- "__prepareWithCurrentDate:"
+- "_ageOutIntervalForChangeTokenType:"
+- "_analysisDatabase"
+- "_backupFullAnalysisForCoreDataDBWithPhotoLibrary:currentTimestamp:encryptionManager:"
+- "_backupFullAnalysisForPhotoLibrary:currentTimestamp:encryptionManager:"
+- "_canDoFullAnalysis:"
+- "_checkHardFailuresForPhotoLibrary:withAnalysisDatabase:"
+- "_cleanupRequestedAssets:fromDatabase:withProcessingType:photoLibrary:unprocessedAssets:earliestAssetModificationDate:"
+- "_clientInfo"
+- "_createBackupAtFilepath:forPhotoLibrary:"
+- "_createBackupForCoreDataDBAtFilepath:forPhotoLibrary:persistentStoreCoordinator:"
+- "_createVideoVSKAssetWithLocalIdentifier:analysisHeader:analysisResults:"
+- "_dataMigrationIfNeededForPhotoLibrary:withAnalysisDatabase:andProgress:"
+- "_databases"
+- "_deleteAsset:"
+- "_deleteResult:forAssetId:"
+- "_durationKey"
+- "_generateSceneClassificationsFromRequests:safetyNResults:safetyGVResults:"
+- "_getBlacklistCountForLocalIdentifier:count:"
+- "_getBlacklistExpiredCount:count:"
+- "_isAssetEligible:withAnalysisDatabase:previousStatus:previousAttempts:lastAttemptDate:allowDownload:"
+- "_isLegacyPersistEnabledForValidation"
+- "_keys"
+- "_migrateAssetsAndResultsForPhotoLibrary:"
+- "_migrateChangeTokensForLibrary:"
+- "_migrateDatabaseForPhotoLibrary:"
+- "_migrateKeyValueStoreForLibrary:"
+- "_migrateMomentsScheduledAssetForLibrary:"
+- "_migrateProcessingStatusForLibrary:"
+- "_migrateProgressHistoryForLibrary:"
+- "_model"
+- "_performIVSAnalysisForAssetEntry:pixelBuffer:results:safetyQRResults:"
+- "_performSceneNetAnalysisForAssetEntry:withImage:andRequests:"
+- "_persistWithLegacyDatabaseWithElapsedTime:"
+- "_prepareWithCurrentDate:"
+- "_processAllAssetsInPhotoLibrary:withAnalysisDatabase:andProgress:taskID:"
+- "_processAllAssetsInProcessingStatusForPhotoLibrary:analysisDatabase:progress:isForDownloadEligibleAssets:taskID:"
+- "_processDownloadEligibleAssetsInPhotoLibrary:withAnalysisDatabase:andProgress:"
+- "_processFailedAssetsInPhotoLibrary:withAnalysisDatabase:andProgress:"
+- "_publishAnalysisResultsToLegacyDatabase"
+- "_publishProcessingStatusToLegacyDatabase"
+- "_publishProcessingStatusToLegacyDatabaseForEntries:database:"
+- "_quantizeCount:intoAllowedValues:"
+- "_queryPropertiesForAsset:assetId:analysis:"
+- "_queryResultsForAssetId:analysis:"
+- "_removeProgressRecordsBeforeDate:"
+- "_removeProgressRecordsBeyondMaximum:"
+- "_removeSchedulingHistoryForStartTimeBefore:"
+- "_restoreCoreDataStoreFromBackupPersistentStoreCoordinator:"
+- "_restoreVideoEmbeddings"
+- "_sanitizeCoreDataDBWithManagedObjectContext:"
+- "_saveBatch:entityName:photoLibrary:"
+- "_sessionLogKey"
+- "_shouldPerformBackupForCoreData:"
+- "_startTime"
+- "_startsKey"
+- "_storeProgressForActivityID:withAnalysisSubtype:version:processedAssetCount:totalAssetCount:storeDate:"
+- "_storeSchedulingHistoryForActivityID:andStartTime:"
+- "_subcategory"
+- "_throughputMetrics"
+- "_updateAnalysis:withAnalysis:forAsset:withAssetId:"
+- "_updateAnalysisInfoOnAnalysisVersionChange"
+- "_updateAnalysisInfoWithCurrentVersion:andTimestamp:forTaskID:"
+- "_updateOperatingSystemVersion"
+- "_updateProperties:forAssetId:"
+- "_valueForKey:"
+- "activityID"
+- "addAnalysis:withExistingAnalysis:forAsset:allowStreaming:"
+- "addAssetToBlacklist:"
+- "addIndex:"
+- "ageOutBlacklistBefore:count:"
+- "analysisForAsset:analysis:"
+- "analysisSubtype"
+- "assetTaskWithAnalysisDatabase"
+- "assetTaskWithAnalysisDatabase:"
+- "assetTypePredicatesStringWithMediaType:mediaSubtypes:imageOnlyAnalysis:"
+- "assetWithPhotosAsset:analysis:"
+- "assetWithPhotosAsset:newAnalysis:existingAnalysis:"
+- "backup_analysisRecordsModifiedSinceDate:"
+- "backup_valueForKey:"
+- "batchWithAnalysisDatabase"
+- "batchWithAnalysisDatabase:allowDownload:cancelBlock:"
+- "batchWithAnalysisDatabase:allowDownload:cancelBlock:resources:"
+- "batchWithAnalysisDatabase:allowDownload:cancelBlock:taskID:service:foundPassedGatingEntryBlock:"
+- "batchWithAnalysisDatabase:quickFaceIDManager:cancelBlock:"
+- "batchWithServicePool:analysisDatabase:cancelBlock:"
+- "batchWithServicePool:visionSession:analysisDatabase:cancelBlock:"
+- "bumpAnalysisVersionForAsset:"
+- "clearLastProgressReportTimestampForTasks:"
+- "clearProgressUpdateRequestForTask:"
+- "com.apple.mediaanalysisd.AnalysisPerAssetInfo"
+- "com.apple.mediaanalysisd.BackupRunSession"
+- "com.apple.mediaanalysisd.DatabaseMigrationSession"
+- "com.apple.mediaanalysisd.FaceAnalysisRunSession"
+- "com.apple.mediaanalysisd.FullAnalysisRunSession"
+- "com.apple.mediaanalysisd.FullClusterAnalysisRunSession"
+- "com.apple.mediaanalysisd.MaintenanceRunSession"
+- "com.apple.mediaanalysisd.MomentsDeferredProcessing"
+- "com.apple.mediaanalysisd.OCRAnalysisRunSession"
+- "com.apple.mediaanalysisd.PECAnalysisRunSession"
+- "com.apple.mediaanalysisd.PersonAnalysisRunSession"
+- "com.apple.mediaanalysisd.SceneAnalysisRunSession"
+- "com.apple.mediaanalysisd.TelemetryRunSession"
+- "com.apple.mediaanalysisd.VCPDatabaseManager"
+- "com.apple.mediaanalysisd.VisualSearchAnalysisRunSession"
+- "com.apple.mediaanalysisd.analysisprogress"
+- "com.apple.mediaanalysisd.background.dailyreport"
+- "com.apple.mediaanalysisd.das.scheduling"
+- "com.apple.mediaanalysisd.photos.postcapturefaceprocessing"
+- "compareExistingAnalysis:toNewAnalysis:forAsset:"
+- "containsAsset:result:"
+- "countAssetsForTaskID:totalAssets:processedAssets:"
+- "countOfAssetsWithMediaAnalysisResultsType:"
+- "createTaskBacklogForPhotoLibrary:withDatabase:"
+- "d24@0:8Q16"
+- "database"
+- "databaseValueForKey:"
+- "databaseWithFilepath:"
+- "decrementBlacklistCountForLocalIdentifier:"
+- "deleteAnalysisForAsset:"
+- "deleteAnalysisResultsWithType:"
+- "deprecatedExceptionForMethodName:replacedByMethodName:"
+- "entryWithLocalIdentifier:requestDate:"
+- "exists"
+- "existsDatabaseForPhotoLibrary:"
+- "expectedExtractionVersion"
+- "fetchChangeToken:tokenID:changeTokenType:"
+- "fetchEligibleLocalIdentifierEntries:andTaskID:andFetchLimit:"
+- "fetchEligibleToRetryLocalIdentifiers:withProcessingStatus:andTaskID:andFetchLimit:"
+- "fetchLocalIdentifiers:withProcessingStatus:andTaskID:andAttempts:andFetchLimit:"
+- "fetchLocalIdentifiers:withTaskID:andProcessingStatus:"
+- "fetchLocalIdentifiersEligibleForRetry:withTaskID:andFetchLimit:"
+- "fetchMostRecentSessionLogs:forActivityID:managedObjectContext:"
+- "fetchProcessingErrorCodeCounts:withTaskID:sinceDate:additionalPredicates:"
+- "flushWAL"
+- "hasOutstandingTransactions"
+- "hasOutstandingTransactions:"
+- "i28@0:8B16@20"
+- "i32@0:8@16^@24"
+- "i32@0:8@16^B24"
+- "i32@0:8@16^i24"
+- "i32@0:8@16q24"
+- "i32@0:8Q16Q24"
+- "i32@0:8^@16Q24"
+- "i36@0:8Q16Q24i32"
+- "i36@0:8i16q20Q28"
+- "i40@0:8@16Q24Q32"
+- "i40@0:8@16^q24^@32"
+- "i40@0:8Q16^Q24^Q32"
+- "i40@0:8Q16q24Q32"
+- "i40@0:8^@16Q24@32"
+- "i40@0:8^@16Q24Q32"
+- "i44@0:8@16@24@32B40"
+- "i48@0:8@16@24@32Q40"
+- "i48@0:8@16@24@32q40"
+- "i48@0:8@16B24@28B36@40"
+- "i48@0:8@16Q24Q32@40"
+- "i48@0:8@16^{__CVBuffer=}24^@32^Q40"
+- "i48@0:8Q16@24@32Q40"
+- "i48@0:8^@16Q24@32@40"
+- "i48@0:8^@16Q24Q32@40"
+- "i48@0:8^@16Q24Q32Q40"
+- "i48@0:8^Q16^Q24Q32@40"
+- "i52@0:8@16@24@32B40Q44"
+- "i52@0:8Q16@24d32i40@44"
+- "i52@0:8^@16Q24Q32i40Q44"
+- "i56@0:8@16B24@28B36@40Q48"
+- "i56@0:8Q16@24Q32Q40@48"
+- "i56@0:8^@16Q24@32Q40@48"
+- "i56@0:8^@16Q24Q32Q40@48"
+- "i60@0:8^@16Q24Q32i40Q44@52"
+- "i64@0:8Q16@24Q32Q40@48Q56"
+- "i64@0:8Q16Q24Q32Q40Q48@56"
+- "i64@0:8^Q16^i24^@32^@40@48Q56"
+- "i72@0:8Q16@24Q32Q40@48q56Q64"
+- "i88@0:8Q16@24Q32Q40@48q56Q64Q72Q80"
+- "imageAnalysisFromLegacyDictionary:assetCloudIdentifier:"
+- "incrementBlacklistCountForMemory:"
+- "indexSetWithIndex:"
+- "initWithAnalysis:forAsset:"
+- "initWithAnalysisDatabase:"
+- "initWithAnalysisDatabase:allowDownload:cancelBlock:"
+- "initWithAnalysisDatabase:allowDownload:cancelBlock:resources:"
+- "initWithAnalysisDatabase:allowDownload:cancelBlock:taskID:service:foundPassedGatingEntryBlock:"
+- "initWithAnalysisDatabase:gallery:"
+- "initWithAnalysisDatabase:photoLibrary:progressReporter:mediaType:mediaSubtype:imageOnlyAnalysis:downloadAllowed:"
+- "initWithAnalysisDatabase:quickFaceIDManager:cancelBlock:"
+- "initWithPhotoLibrary:database:cancelBlock:"
+- "initWithSceneAnalysisVersion:faceAnalysisVersion:characterRecognitionAlgorithmVersion:visualSearchAlgorithmVersion:stickerConfidenceAlgorithmVersion:vaAnalysisVersion:vaLocationAnalysisVersion:mediaAnalysisVersion:mediaAnalysisImageVersion:captionGenerationVersion:imageEmbeddingVersion:videoEmbeddingVersion:"
+- "initWithServicePool:analysisDatabase:cancelBlock:"
+- "initWithServicePool:visionSession:analysisDatabase:"
+- "initWithServicePool:visionSession:analysisDatabase:cancelBlock:"
+- "initWithTask:subCategory:keys:BGSystemTask:"
+- "initWithTask:subCategory:startsKey:durationKey:BGSystemTask:"
+- "isAutoplayable:"
+- "isLegacyPersistEnabled"
+- "isMACDPersistEnabled"
+- "isMACDReadEnabled"
+- "key"
+- "loadAllKeyValuePairs:"
+- "loadChangeTokens"
+- "loadPixelBuffer:orientation:"
+- "loadProcessingStatus"
+- "local identifier"
+- "mad_cloudIdentifierForLocalIdentifier:error:"
+- "mad_insertBatch:entityName:insertedCount:"
+- "maintainanceWithLegacyDatabase"
+- "metricForTask:subCategory:keys:BGSystemTask:"
+- "metricForTask:subCategory:startsKey:durationKey:BGSystemTask:"
+- "migration_queryAnalysesForAssets:statsFlags:withTypes:"
+- "movieAnalysisFromLegacyDictionary:assetCloudIdentifier:"
+- "newManagedObjectContext"
+- "nextAttemptDate"
+- "parentOfOnBehalfOfPid"
+- "parseHeader:startColumn:analysis:"
+- "pausedAnalysis:forAsset:"
+- "performFullProcessingToDataWithImage:status:"
+- "prepareEntry:withDatabase:"
+- "presumedSensitiveAnalysis"
+- "processAllAssetsInPhotoLibrary:withAnalysisDatabase:andProgress:"
+- "processAllAssetsInProcessingStatusForPhotoLibrary:analysisDatabase:progress:isForDownloadEligibleAssets:"
+- "processAssetsInFetchResult:initialScan:analysisDatabase:allowDownload:progress:"
+- "processAssetsInFetchResult:initialScan:analysisDatabase:allowDownload:progress:taskID:"
+- "promptTemplate"
+- "propertyListWithData:options:format:error:"
+- "publishAnalysis:forAsset:database:embeddingChangeManager:"
+- "purgeExcessiveSchedulingRecordsForActivityID:"
+- "q16@?0@\"NSString\"8"
+- "q40@0:8@16@24@32"
+- "queryAnalysisForAsset:withTypes:"
+- "queryAnalysisResultsForAssets:results:"
+- "queryAssetCountForTaskID:"
+- "queryAssetCountForTaskID:minimumAttempts:"
+- "queryAssetCountForTaskID:withStatus:andAttempts:"
+- "queryAssetWithLocalIdentifier:forMediaAnalysisVersion:"
+- "queryChangeToken:forTaskID:andChangeTokenType:"
+- "queryChangeToken:forTokenID:andChangeTokenType:"
+- "queryEligibleToRetryAssetCountWithProcessingStatus:andTaskID:"
+- "queryEligibleToRetryAssetCountWithTaskID:"
+- "queryHeadersForAssets:analyses:"
+- "queryProcessingStatus:andAttempts:lastAttemptDate:andNextAttemptDate:forLocalIdentifier:andTaskID:"
+- "queryProcessingStatus:attempts:lastAttemptDate:andNextAttemptDate:forLocalIdentifier:andTaskID:"
+- "releaseSharedDataStoreForPhotoLibrary:"
+- "releaseSharedDatabaseForPhotoLibrary:"
+- "releaseSharedDatabaseWithPhotoLibrary:"
+- "removeAllChangeTokensForTaskID:"
+- "removeAllProcessingStatusForTaskID:"
+- "removeAllProcessingStatusForTaskID:mediaType:mediaSubtypes:"
+- "removeAssetsWithLocalIdentifiers:predicate:"
+- "removeChangeTokenForTaskID:andChangeTokenType:"
+- "removeKey:"
+- "removeLegacyDatabaseFilesForPhotoLibrary:"
+- "removeLocalIdentifierFromBlacklist:"
+- "removeMomentsScheduledAssetWithLocalIdentifier:andTaskID:"
+- "removeProcessingStatusForLocalIdentifier:andTaskID:"
+- "removeProcessingStatusForTaskID:mediaType:mediaSubtypes:"
+- "removeProgressEntriesBeyondLimits:"
+- "reportThroughputWithItemCount:"
+- "requestAnalysis:forAssets:withOptions:andProgressHandler:andError:"
+- "requestProgressUpdateForTasks:"
+- "restoreDatabaseToFilepath:fromBackupFilepath:"
+- "runtimeAssertEnabledForDatabaseWriter"
+- "sFYe6KL6LA8nMPfhAIWFDEffEMQ."
+- "self.promptTemplate"
+- "sessionLogFromDB:"
+- "sessionLogKey"
+- "setActivityID:"
+- "setAssetIdentifier:"
+- "setAttempts:asset:taskID:status:lastAttemptDate:mediaType:mediaSubtypes:"
+- "setAttempts:localIdentifier:taskID:status:lastAttemptDate:mediaType:mediaSubtypes:"
+- "setAttempts:localIdentifier:taskID:status:lastAttemptDate:mediaType:mediaSubtypes:errorCode:errorLine:"
+- "setChangeToken:forTaskID:andChangeTokenType:date:"
+- "setChangeToken:forTokenID:andChangeTokenType:date:"
+- "setChangeToken:tokenID:changeTokenType:date:"
+- "setDeletePendingFlag:localIdentifier:"
+- "setExitStatus:"
+- "setMomentsScheduledAssetWithLocalIdentifier:taskID:andRequestDate:"
+- "setSessionLog:"
+- "setSessionLogKey:"
+- "setSubcategory:"
+- "sharedDatabaseForPhotoLibrary:"
+- "sharedDatabaseManager"
+- "sharedDatabaseWithPhotoLibrary:"
+- "sharedMediaAnalyzer"
+- "shouldDeleteLegacyWhileMigrating"
+- "storeAnalysisForAsset:analysis:"
+- "storeDate"
+- "storeProgressForActivityID:withAnalysisSubtype:version:processedAssetCount:totalAssetCount:storeDate:"
+- "storeSchedulingHistoryForActivityID:andStartTime:"
+- "subcategory"
+- "tap-to-radar://new?Title=%@&Classification=Serious Bug&ComponentID=%d&ComponentName=%@&ComponentVersion=%@&Reproducible=Sometimes&Description=%@&Attachments=%@"
+- "taskWithAnalysisDatabase:"
+- "taskWithAnalysisDatabase:gallery:"
+- "taskWithAnalysisDatabase:photoLibrary:progressReporter:mediaType:mediaSubtype:imageOnlyAnalysis:downloadAllowed:"
+- "taskWithServicePool:visionSession:analysisDatabase:"
+- "tokenData"
+- "tokenID"
+- "tokenType"
+- "trackingConfig"
+- "updateChangeToken:forTaskID:andChangeTokenType:"
+- "updateDateModifiedForAsset:"
+- "updateFingerprint:forAsset:"
+- "updateLocalIdentifer:to:"
+- "updateProcessingStatus:andNextAttemptDate:andErrorCode:andErrorLine:forLocalIdentifier:andTaskID:"
+- "updateProcessingStatus:andNextAttemptDate:andErrorCode:andErrorLine:forLocaldentifier:andTaskID:"
+- "updateProcessingStatus:andNextAttemptDate:forLocalIdentifier:andTaskID:"
+- "updateProcessingStatus:andNextAttemptDate:forLocaldentifier:andTaskID:"
+- "updateResultsForAsset:results:"
+- "updateSchedulingHistoryForActivityID:startTime:duration:exitStatus:sessionLog:"
+- "updateSessionLogWithTaskID:startTime:duration:exitStatus:sessionLog:"
+- "updateStatsFlags:forPHAsset:"
+- "useCaseIdentifier"
+- "v24@?0@\"MADManagedBackgroundActivitySessionLog\"8^B16"
+- "v44@0:8Q16@24@32B40"
+- "v64@0:8@16@24Q32@40^@48^@56"
+- "valueForKey:"
+- "vcp_addEntriesFromResults:"
+- "\xe7"
+- "\xf0\xf0#"
+
+```

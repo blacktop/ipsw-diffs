@@ -1,0 +1,2678 @@
+## NewDeviceOutreachUI
+
+> `/System/Library/PrivateFrameworks/NewDeviceOutreachUI.framework/NewDeviceOutreachUI`
+
+```diff
+
+-517.120.3.0.0
+-  __TEXT.__text: 0x4fbbc sha256:9d68b73a66c199e28c51509cd165cf7ca1a30b234f42bf84ba997593cff01b34
+-  __TEXT.__auth_stubs: 0x18f0 sha256:6702f8df1057edb9e3cea8e6e19df7588e2efbede0b08c91db21d6189e1b949d
+-  __TEXT.__objc_methlist: 0x14a4 sha256:3eddfaa867b777c88e2510f2a54ab06f339ebeb73100d4c6f76f4ed964328d54
+-  __TEXT.__const: 0x1464 sha256:67f1875dc8cfd008827c44726ae35a3452750e02b7c83077cda1e7963a32a829
+-  __TEXT.__cstring: 0x23f5 sha256:886315db945827389eea3a72af016356410c59114b18e08bec87978a52062543
+-  __TEXT.__oslogstring: 0x1bd0 sha256:dd3f9c90f89bada15d7e02c309a3a6a4fb4449a51c3780139cdf90ae4ba3e5bf
+-  __TEXT.__gcc_except_tab: 0x39c sha256:63581f17e69707e99bcd8305959af7516534fcba3122238263cce841a65897f7
+-  __TEXT.__constg_swiftt: 0x820 sha256:e0cf3424b028b8a8bfe8d5b9ecfbbffc6e743d572c65242af5d05905c406af64
+-  __TEXT.__swift5_typeref: 0x1a46 sha256:9049c5999823789f4ad55a4ea7b2ff11b871ff728ba24686c0be0766a281ccd2
+-  __TEXT.__swift5_fieldmd: 0x484 sha256:827d67a5cb4833ace53cbc4045a0bc38d54702b884b2b748b926093cbcc277c7
+-  __TEXT.__swift5_types: 0x54 sha256:c6be0bdf8585a3304dcbf7c4bc980698dc9b091b64d4eb8fee66fd40fe9345c3
+-  __TEXT.__swift5_capture: 0xaa8 sha256:79197baf8acde9d99594bc2d5036357b05d0d45a71f0222c6257deef4e53bd4d
+-  __TEXT.__swift5_reflstr: 0x707 sha256:e4240dce29885b111d871185a1f19ab1fa37e093c8da3847e8d4397c37d8098d
+-  __TEXT.__swift5_builtin: 0x3c sha256:c008e00090eb7fcfe7d80d11d8352e8e00003c93d5781ac3285d5fa7c2542ed6
+-  __TEXT.__swift5_assocty: 0x90 sha256:4b59703caa100a9f5c8b79ebf2168e7b786aaa1507e6795e3f81fe4703cd4463
+-  __TEXT.__swift5_proto: 0x44 sha256:fad24423b71e569bccf9ddbcf1e134cb3bb244e9638ad1657cda55c9f2b42dd2
+-  __TEXT.__swift_as_entry: 0x60 sha256:4deb580cc159dddd2c9f6da2c7987666b5f593a68f1adabd2821adbdc762834c
+-  __TEXT.__swift_as_ret: 0x5c sha256:fe98f2cce9182169a23264891b3958a83c4a3533e62324024ef62aa59379510b
+-  __TEXT.__swift5_mpenum: 0x8 sha256:29da96cf0a8873f2aca93ede90b9991e437087d1676b7cca7abf6f0875230d15
+-  __TEXT.__unwind_info: 0x1278 sha256:b1d700959e428e6957af096ece19bf17380df4f4953f831a8615a7d9658aa636
+-  __TEXT.__eh_frame: 0xd20 sha256:0e4266a45ff6d517a711a21493a77b0dfc6b972eba36551bc21511059cf12d5f
+-  __TEXT.__objc_classname: 0x4e3 sha256:927e523955e91204592fb435f75f9f847c3c904f8cbd52d706b931a57ce3858b
+-  __TEXT.__objc_methname: 0x4c69 sha256:dab0d0a6d864529ae81de0865ea7703910a71e8168dba5789dff30903e511069
+-  __TEXT.__objc_methtype: 0xfc4 sha256:980c911b9bf10af520925bb23530720dd0d602b38361b3a8aced83aac6ccdd15
+-  __TEXT.__objc_stubs: 0x4340 sha256:8c3d4140be1d00fe1ee9e484ec120bd612f95e4b8ded9a494f72a4deb66efa47
+-  __DATA_CONST.__got: 0x7b0 sha256:afc93192bab02c5390d105d09a5e4ae1ea37c6d1ccaceeb2b03d63d1c5fe165b
+-  __DATA_CONST.__const: 0x850 sha256:9f7661a738906fdd1dfca6d5879bad4c9936b0d722f060213e791a9dd8d89a6c
+-  __DATA_CONST.__objc_classlist: 0xc0 sha256:cf2ace7cfe22ea9a868a2026f5a503c99bf2a713d14e9b6f8d769a61c5ba75d1
+-  __DATA_CONST.__objc_protolist: 0x70 sha256:8fa5cdd4627174be13b3a01643d293fc1ca0e29df25b90690bf2580e110fc1e9
+-  __DATA_CONST.__objc_imageinfo: 0x8 sha256:8c2e86a3d61473a17440ee60441113a7d285704a3b70278f03e88b3c356a5493
+-  __DATA_CONST.__objc_selrefs: 0x1470 sha256:60135729aa3e6ac59ca190023c052dae76f48f6c25dbfaa3a1d96b017a83d1c3
+-  __DATA_CONST.__objc_protorefs: 0x28 sha256:e35dd53d1f4fa03ea30746f5185a7f747c296e05b7a81c765b98c2049f521e6a
+-  __DATA_CONST.__objc_classrefs: 0x8 sha256:666138668b8f7cb1af997533172c3ffbc444c49434528ce04c00ccb55558e3d5
+-  __DATA_CONST.__objc_superrefs: 0x60 sha256:e07ad409a1f97b2b43dedfe2bcfc3dccfeaa00cfbd3f7a8c3b433326bd521ce7
+-  __AUTH_CONST.__auth_got: 0xc88 sha256:125cc4a765aed3bc28e10bff1aae4242c403bd65680a71e30036da1592a40f0d
+-  __AUTH_CONST.__const: 0x1e50 sha256:390eed5da643ca4180713282d77bdad750604fd2e5820e966392980e2b429d51
+-  __AUTH_CONST.__cfstring: 0xd00 sha256:66451699da6cf620fc692a3fcf6fefda1d9d790625dcec5e35dd0da917988a92
+-  __AUTH_CONST.__objc_const: 0x3798 sha256:4ae9c002d8d4ff66d1122735ef148c69cf7c265a591e99dd29e70e342a650e7a
+-  __AUTH_CONST.__objc_intobj: 0x18 sha256:280320b6e70a6c81b32505dfa7a9fecf65303550f560da6d28724b4331ae7ddb
+-  __AUTH.__objc_data: 0x810 sha256:827da9dc20e74fb2ce856f75811c9bbd12d6dd093990a6fe10628a4bf96788e8
+-  __AUTH.__data: 0xaf8 sha256:151827eef07c15ea81976edda5d8c1648625a569f0e347d364e5b5bce971e099
+-  __DATA.__objc_ivar: 0x100 sha256:c8815d1cc6cc71bb87989fa8e1e518a207138294083b8b97762aee5bb509e5c7
+-  __DATA.__data: 0xb30 sha256:db97c8cc54ed7cf90230559bead7dab7efe82ef886a600e71e522921517016de
+-  __DATA.__bss: 0xb80 sha256:85e59f7e1bb5b3c5e95cccaa8b311f46d61a630145f38ada2c1c6f8ee0ece90c
+-  __DATA.__common: 0x60 sha256:2ea9ab9198d1638007400cd2c3bef1cc745b864b76011a0e1bc52180ac6452d4
+-  __DATA_DIRTY.__objc_data: 0x28 sha256:6f6ba99a709f9290c322dedfe82cce3e0be4d2beb4cefeb8988a5510370248c8
+-  __DATA_DIRTY.__data: 0x28 sha256:904843c50e443527eed02a3a14781809e5557ae3c650e8677b323a46e1b4de1f
++602.0.0.0.0
++  __TEXT.__text: 0x3cbd8 sha256:b41d1331602e751df5c3ccb96901dc08ead54cf0fd3ea3dbd14819c7aed0985d
++  __TEXT.__objc_methlist: 0x87c sha256:eed5a735f5bde72829bba366d2a8eef0c41874cbdf134ec0ad20e6e5dd0b3bda
++  __TEXT.__const: 0x1494 sha256:5f83f61c9eb8e1bf9bd70f1384ba79d0bc00690f5e0e11fd7fdeb6797cfca79c
++  __TEXT.__cstring: 0x8ab sha256:941cc1821f8ece9df7ec1eacfaa1963b4abd87916c942d7bcc0d06ddbda3ef2e
++  __TEXT.__oslogstring: 0x1120 sha256:1866ff2004eaff7391ea4665e20752f6a90c0a52f7299cb495a166d8afd58646
++  __TEXT.__constg_swiftt: 0x8a0 sha256:1b20978afd33ba998c6f00d1234e0a089c00c1a5f5d5720f12aed28b30b2f1c8
++  __TEXT.__swift5_typeref: 0x1a1e sha256:819d26b2508c8de7d8eefcc9b4d37a85611efecc868ab1265c80d7eeed4dfa0b
++  __TEXT.__swift5_fieldmd: 0x36c sha256:2560f662d0312dfade8a12d08173e64d987b37e1ff5d50725d2add974ab2b59a
++  __TEXT.__swift5_types: 0x5c sha256:f65ab0d975fe2858fa95a5c737ba503450c24619c9a1bcb7172076ed8c0ad7ed
++  __TEXT.__swift5_capture: 0xae0 sha256:afc555514fbfe2a6c216356cd2f77155f2c46b83a228979f93c6f68e9c4e20d3
++  __TEXT.__swift5_reflstr: 0x397 sha256:79febdf8c14bb01ed8c275ff4a5b985726fd2e97d588d351aa8134058ccd52a9
++  __TEXT.__swift5_builtin: 0x3c sha256:99842dadb81728977957414e01108d1791ddb66ebc8b1fc34ff76a622e999a73
++  __TEXT.__swift5_assocty: 0x90 sha256:6d2400330cdab1ab128c2c6acee25edc9881c6929576fef96727d88916737b47
++  __TEXT.__swift5_proto: 0x44 sha256:ad691f0fd76cbd7f0f95192c4d1578bf8f973b34f20704f3999c0a1c2c403881
++  __TEXT.__swift_as_entry: 0x5c sha256:2785cb6a994f7caf520a196686e26ed14e981853269a82067a883ae63a849dbf
++  __TEXT.__swift_as_ret: 0x5c sha256:8c61898e83da0ff24fee4bbffc79d4e0da571a2ba217426291cb7a09aedf13e0
++  __TEXT.__swift_as_cont: 0x70 sha256:78b0d5b02c2b10be597bcb3a6641e2390ecc251dc3c2d093196aed141f693da4
++  __TEXT.__swift5_mpenum: 0x8 sha256:487f1a45c7127fe612014aa013b06cf4594606f46128eaa752118a0c4d1080f4
++  __TEXT.__unwind_info: 0xed8 sha256:31b840f89b6a2afd279f63c10023b73ee0288da2235d073151ed51ee4478e6e5
++  __TEXT.__eh_frame: 0xd90 sha256:bad006263ddfb2793873b1f9e9efc70e81d730079c6076852059a5516e4efe73
++  __TEXT.__objc_stubs: 0x0
++  __TEXT.__auth_stubs: 0x0
++  __TEXT.__objc_classname: 0x0
++  __TEXT.__objc_methname: 0x0
++  __TEXT.__objc_methtype: 0x0
++  __DATA_CONST.__const: 0x1c8 sha256:22d8b1616c4421d29042691eebe0de1709406bc346fb8682330fe63a97e34516
++  __DATA_CONST.__objc_classlist: 0x80 sha256:86e1000bfdcd7fa379477d4b4c2ab5735cc402aafd6e8421fad7ae05329601f8
++  __DATA_CONST.__objc_protolist: 0x58 sha256:8991846d3a63b0d83bd17c54336c77c549c1981b1e19d689e18e6d17fe5d4011
++  __DATA_CONST.__objc_imageinfo: 0x8 sha256:ce857dcadc2529f941104469975d60698ea3610a86c121e7b4aee224cd0c59ea
++  __DATA_CONST.__objc_selrefs: 0x7c8 sha256:f96260095165219a8d9682a896f31b1cceac35a7bf35628cd1d2c3f1cb1404fb
++  __DATA_CONST.__objc_protorefs: 0x28 sha256:96924650bceb2310ecdc9d677134636bf2088e23ddfde2d8d760057d087a4e99
++  __DATA_CONST.__objc_superrefs: 0x10 sha256:685a9840dac8c6fa77bdf359a518cce5ea84ba391114279db131898d58020897
++  __DATA_CONST.__got: 0x580 sha256:bc7d0d4b7028a7da2fec68011d5a1a95b72b15cd9c9bfe060b11b37f230492d2
++  __AUTH_CONST.__const: 0x1f00 sha256:4fa01dd1bf42d19e837eeadc4f551e0421d19736e9c35d464bada0bb70380f74
++  __AUTH_CONST.__cfstring: 0x80 sha256:3f07197d5f9ff6831809713a08e2b0b843206b9f59c68662e838635f6203c6ad
++  __AUTH_CONST.__objc_const: 0x1de8 sha256:148d063e235d53f608945d773545de71d84e965437ec59f441c0abf6e84cd0b0
++  __AUTH_CONST.__auth_got: 0xc98 sha256:fdb824b0031cfe73ab9bba7f8ab82cf0939f3509272fcc5c297835949b7a0351
++  __AUTH.__objc_data: 0x540 sha256:ac6b150547f430ed8e4ef4343bf33f7fc7bc63ca34dd6d362d639367396dca6d
++  __AUTH.__data: 0xba8 sha256:e453e80e57be5da7ae26e4fa2df5ec3170405f014d770709e8ce5252dc6b9592
++  __DATA.__objc_ivar: 0x20 sha256:04b4c457ec23e50bbe624bb2a0b10c7133f8ecd97bce4415f8a2b417f81f0ce0
++  __DATA.__data: 0xa38 sha256:5cb0e998c532cb0dd0568fbb6d2780f0ca8a0a4511e30df9c78316df143245f4
++  __DATA.__bss: 0xba8 sha256:e7a8700798fa9cfc104f6a7f314057237b214aef5d3cbd2b1861f662fbc65fd0
++  __DATA.__common: 0x48 sha256:834a709ba2534ebe3ee1397fd4f7bd288b2acc1d20a08d6c862dcd99b6f04400
++  __DATA_DIRTY.__objc_data: 0x28 sha256:d40985ffbad682a1d878b1d827d060c809a3ceebfe3352d58a6469fb8066abe0
++  __DATA_DIRTY.__data: 0x28 sha256:c594aa9eda30460b7f9b78c617942d97decea00e5254a6dccdd9728139d1acf7
+   - /System/Library/Frameworks/Accounts.framework/Accounts
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+   - /System/Library/Frameworks/CoreServices.framework/CoreServices
+   - /System/Library/Frameworks/DeveloperToolsSupport.framework/DeveloperToolsSupport
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+-  - /System/Library/Frameworks/SafariServices.framework/SafariServices
+   - /System/Library/Frameworks/SwiftUI.framework/SwiftUI
+   - /System/Library/Frameworks/UIKit.framework/UIKit
+   - /System/Library/Frameworks/WebKit.framework/WebKit
+-  - /System/Library/PrivateFrameworks/AppStoreComponents.framework/AppStoreComponents
+   - /System/Library/PrivateFrameworks/AppleMediaServices.framework/AppleMediaServices
+   - /System/Library/PrivateFrameworks/AppleMediaServicesUI.framework/AppleMediaServicesUI
+   - /System/Library/PrivateFrameworks/CoreAnalytics.framework/CoreAnalytics
++  - /System/Library/PrivateFrameworks/NDOAPI.framework/NDOAPI
+   - /System/Library/PrivateFrameworks/NDOUI.framework/NDOUI
+   - /System/Library/PrivateFrameworks/NewDeviceOutreach.framework/NewDeviceOutreach
+   - /System/Library/PrivateFrameworks/OnBoardingKit.framework/OnBoardingKit
+   - /System/Library/PrivateFrameworks/Preferences.framework/Preferences
+   - /System/Library/PrivateFrameworks/PreferencesExtended.framework/PreferencesExtended
+   - /System/Library/PrivateFrameworks/Settings.framework/Settings
+-  - /System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+
+   - /usr/lib/swift/libswiftCoreImage.dylib
+   - /usr/lib/swift/libswiftCoreLocation.dylib
+   - /usr/lib/swift/libswiftCoreMIDI.dylib
+-  - /usr/lib/swift/libswiftCoreMedia.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
+   - /usr/lib/swift/libswiftIntents.dylib
+   - /usr/lib/swift/libswiftMetal.dylib
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: F4719681-7E77-3F03-8DB0-D4BD348C6C4E
+-  Functions: 1668
+-  Symbols:   2623
+-  CStrings:  1479
++  UUID: 6C6F7410-BB3E-309A-B73F-9CF6B2090FEE
++  Functions: 1344
++  Symbols:   1469
++  CStrings:  147
+ 
+Symbols:
++ _MGCopyAnswer
++ _OBJC_CLASS_$_UIBarButtonItemGroup
++ __DATA__TtC19NewDeviceOutreachUI21CompanionHandoffModel
++ __DATA__TtC19NewDeviceOutreachUIP33_97CBFB127CD5DD6127C358F6CC3C22E519ResourceBundleClass
++ __IVARS__TtC19NewDeviceOutreachUI21CompanionHandoffModel
++ __METACLASS_DATA__TtC19NewDeviceOutreachUI21CompanionHandoffModel
++ __METACLASS_DATA__TtC19NewDeviceOutreachUIP33_97CBFB127CD5DD6127C358F6CC3C22E519ResourceBundleClass
++ ___swift__destructor
++ ___swift_async_cont_functlets
++ ___swift_closure_destructor
++ ___swift_closure_destructor.10
++ ___swift_closure_destructor.102
++ ___swift_closure_destructor.106
++ ___swift_closure_destructor.11
++ ___swift_closure_destructor.112
++ ___swift_closure_destructor.115
++ ___swift_closure_destructor.118
++ ___swift_closure_destructor.12
++ ___swift_closure_destructor.125
++ ___swift_closure_destructor.128
++ ___swift_closure_destructor.13
++ ___swift_closure_destructor.131
++ ___swift_closure_destructor.14
++ ___swift_closure_destructor.15
++ ___swift_closure_destructor.16
++ ___swift_closure_destructor.17
++ ___swift_closure_destructor.18
++ ___swift_closure_destructor.19
++ ___swift_closure_destructor.2
++ ___swift_closure_destructor.20
++ ___swift_closure_destructor.21
++ ___swift_closure_destructor.22
++ ___swift_closure_destructor.24
++ ___swift_closure_destructor.25
++ ___swift_closure_destructor.26
++ ___swift_closure_destructor.28
++ ___swift_closure_destructor.2Tm
++ ___swift_closure_destructor.3
++ ___swift_closure_destructor.30
++ ___swift_closure_destructor.31
++ ___swift_closure_destructor.32
++ ___swift_closure_destructor.34
++ ___swift_closure_destructor.35
++ ___swift_closure_destructor.4
++ ___swift_closure_destructor.40
++ ___swift_closure_destructor.41
++ ___swift_closure_destructor.45
++ ___swift_closure_destructor.5
++ ___swift_closure_destructor.51
++ ___swift_closure_destructor.54
++ ___swift_closure_destructor.55
++ ___swift_closure_destructor.57
++ ___swift_closure_destructor.57Tm
++ ___swift_closure_destructor.6
++ ___swift_closure_destructor.60
++ ___swift_closure_destructor.63
++ ___swift_closure_destructor.64
++ ___swift_closure_destructor.69
++ ___swift_closure_destructor.7
++ ___swift_closure_destructor.71
++ ___swift_closure_destructor.73
++ ___swift_closure_destructor.74
++ ___swift_closure_destructor.76
++ ___swift_closure_destructor.8
++ ___swift_closure_destructor.82
++ ___swift_closure_destructor.85
++ ___swift_closure_destructor.8Tm
++ ___swift_closure_destructor.9
++ ___swift_closure_destructor.92
++ ___swift_closure_destructor.95
++ ___swift_closure_destructor.96
++ ___swift_closure_destructor.99
++ ___swift_closure_destructorTm
++ ___swift_memcpy8_8
++ _block_copy_helper.11
++ _block_copy_helper.21
++ _block_copy_helper.24
++ _block_copy_helper.27
++ _block_copy_helper.36
++ _block_copy_helper.4
++ _block_copy_helper.53
++ _block_copy_helper.7
++ _block_descriptor.13
++ _block_descriptor.23
++ _block_descriptor.26
++ _block_descriptor.29
++ _block_descriptor.38
++ _block_descriptor.55
++ _block_descriptor.6
++ _block_descriptor.9
++ _block_destroy_helper.12
++ _block_destroy_helper.22
++ _block_destroy_helper.25
++ _block_destroy_helper.28
++ _block_destroy_helper.37
++ _block_destroy_helper.5
++ _block_destroy_helper.54
++ _block_destroy_helper.8
++ _get_enum_tag_for_layout_string 19NewDeviceOutreachUI21CompanionHandoffModelC5StateO
++ _get_witness_table 7SwiftUI19_ConditionalContentVyACyAA08ModifiedD0VyAA4ViewPAAE11refreshable6actionQryyYaYbc_tFQOyAG8SettingsE22settingsListAppearanceQryFQOyAA0K0Vys5NeverOAA7ForEachVySay5NDOUI12NDODWSectionVGSS017NewDeviceOutreachB00s15WarrantySectionF0VGG_Qo__Qo_AA14_PaddingLayoutVGAgAE08progressF5StyleyQrqd__AA08ProgressfZ0Rd__lFQOyAA08ProgressF0VyAA05EmptyF0VA9_G_AA016CircularProgressfZ0VQo_GACyAR08NDOErrorF0VA9_GGAaFHPA14_AaFHPA3_AaFHPqd__AaFHD2_A0_HO_A2_AA0F8ModifierHPyHCHC_qd0__AaFHD3_A13_HOHC_A17_AaFHPA16_AaFHPyHC_A9_AaFHPyHCHCHC.9
++ _get_witness_table 7SwiftUI19_ConditionalContentVyACyACy5NDOUI17NDODWCoverageViewVAA05EmptyG0VGACyAD07NDOLinkG0VAD010NDODWPromoG0VGGACyAD012NDODWSupportG0VAHGGAA0G0HPAoaTHPAiaTHPAfaTHPyHC_AhaTHPyHCHC_AnaTHPAkaTHPyHC_AmaTHPyHCHCHC_AraTHPAqaTHPyHC_AhaTHPyHCHCHC.11
++ _get_witness_table 7SwiftUI19_ConditionalContentVyACyACyAA08ModifiedD0Vy5NDOUI13NDODeviceViewVAA24_ForegroundStyleModifierVyAA5ColorVGGAF07NDOLinkH0VGACyAF010NDOPlacardH0VACyAF08NDOPromoH0VAUGGGAA05EmptyH0VGAA0H0HPAxAA0_HPAqAA0_HPAnAA0_HPAhAA0_HPyHC_AmA0hK0HPyHCHC_ApAA0_HPyHCHC_AwAA0_HPAsAA0_HPyHC_AvAA0_HPAuAA0_HPyHC_AuAA0_HPyHCHCHCHC_AzAA0_HPyHCHC.20
++ _get_witness_table 7SwiftUI7SectionVyAA4TextVSgAA7ForEachVySay5NDOUI7NDOItemOGSiAA19_ConditionalContentVyANyANyAA08ModifiedJ0VyAI13NDODeviceViewVAA24_ForegroundStyleModifierVyAA5ColorVGGAI07NDOLinkM0VGANyAI010NDOPlacardM0VANyAI08NDOPromoM0VA3_GGGAA05EmptyM0VGGANyAPyAPyAeA16_FlexFrameLayoutVGAA022_EnvironmentKeyWritingP0VyAA0D9AlignmentOGGAA6HStackVyAA05TupleJ0VyAI17NDOLoadingMessageVSg_AA6SpacerVAA0M0PAAE08progressmO0yQrqd__AA08ProgressmO0Rd__lFQOyAA08ProgressM0VyA8_A8_G_AA016CircularProgressmO0VQo_SgQPGGGSgGAAA29_HPAfAA29_HpAeAA29_HPyHC_HC_A10_AAA29_HPA9_AAA29_HPA6_AAA29_HPA_AAA29_HPAxAA29_HPArAA29_HPyHC_AwA0mP0HPyHCHC_AzAA29_HPyHCHC_A5_AAA29_HPA1_AAA29_HPyHC_A4_AAA29_HPA3_AAA29_HPyHC_A3_AAA29_HPyHCHCHCHC_A8_AAA29_HPyHCHC_HCA43_AAA29_HpA42_AAA29_HPA19_AAA29_HPA13_AAA29_HPAeAA29_HPyHC_A12_AAA45_HPyHCHC_A18_AAA45_HPyHCHC_A41_AAA29_HPyHCHC_HCHC.21
++ _get_witness_table 7SwiftUI7SectionVyAA4TextVSgAA7ForEachVySay5NDOUI9NDODWItemOGSiAA19_ConditionalContentVyANyANyAI17NDODWCoverageViewVAA05EmptyL0VGANyAI07NDOLinkL0VAI010NDODWPromoL0VGGANyAI012NDODWSupportL0VARGGGANyANyAA08ModifiedJ0VyA4_yAeA16_FlexFrameLayoutVGAA30_EnvironmentKeyWritingModifierVyAA0D9AlignmentOGGAA6VStackVyAHySayAI16NDODWFooterModelVGSiAI011NDODWFooterL0VGGGAA6HStackVyAA05TupleJ0VyAI17NDOLoadingMessageVSg_AA6SpacerVAA0L0PAAE08progressL5StyleyQrqd__AA08ProgressL5StyleRd__lFQOyAA08ProgressL0VyA2RG_AA016CircularProgressL5StyleVQo_SgQPGGGSgGAAA33_HPAfAA33_HpAeAA33_HPyHC_HC_A2_AAA33_HPA1_AAA33_HPAyAA33_HPAsAA33_HPApAA33_HPyHC_ArAA33_HPyHCHC_AxAA33_HPAuAA33_HPyHC_AwAA33_HPyHCHCHC_A0_AAA33_HPA_AAA33_HPyHC_ArAA33_HPyHCHCHC_HCA47_AAA33_HpA46_AAA33_HPA23_AAA33_HPA13_AAA33_HPA7_AAA33_HPAeAA33_HPyHC_A6_AA0lX0HPyHCHC_A12_AAA49_HPyHCHC_A22_AAA33_HPyHCHC_A45_AAA33_HPyHCHC_HCHC.12
++ _objc_claimAutoreleasedReturnValue
++ _objc_msgSend$initWithBarButtonItems:representativeItem:
++ _objc_msgSend$isSignedInToAppleAccount
++ _objc_msgSend$loadCount
++ _objc_msgSend$presentedViewController
++ _objc_msgSend$setLeadingItemGroups:
++ _objc_msgSend$setLoadCount:
++ _objc_retain_x3
++ _swift_cvw_enumFn_getEnumTag
++ _swift_release_x1
++ _swift_release_x19
++ _swift_release_x20
++ _swift_release_x21
++ _swift_release_x22
++ _swift_release_x23
++ _swift_release_x24
++ _swift_release_x25
++ _swift_release_x26
++ _swift_release_x27
++ _swift_release_x28
++ _swift_release_x8
++ _swift_retain_x1
++ _swift_retain_x19
++ _swift_retain_x2
++ _swift_retain_x20
++ _swift_retain_x21
++ _swift_retain_x22
++ _swift_retain_x23
++ _swift_retain_x24
++ _swift_retain_x25
++ _swift_retain_x26
++ _swift_retain_x27
++ _swift_retain_x28
++ _swift_retain_x8
++ _symbolic Say_____GSg 5NDOUI12NDODWSectionV
++ _symbolic _____ 19NewDeviceOutreachUI19ResourceBundleClass33_97CBFB127CD5DD6127C358F6CC3C22E5LLC
++ _symbolic _____ 19NewDeviceOutreachUI21CompanionHandoffModelC
++ _symbolic _____ 19NewDeviceOutreachUI21CompanionHandoffModelC5StateO
++ _symbolic _____Sg 19NewDeviceOutreachUI21CompanionHandoffModelC5StateO
++ _symbolic _____Sg 5NDOUI18NDOUIFailureReasonO
++ _symbolic _____Sg_ABt 5NDOUI18NDOUIFailureReasonO
++ _symbolic _____yAAy_____yABy__________G_____y_____GG_____y_____ySay_____GSi_____GGG_____y_____y_____Sg___________y_____y_____AXG______Qo_SgQPGGG 7SwiftUI19_ConditionalContentV AA08ModifiedD0V AA4TextV AA16_FlexFrameLayoutV AA30_EnvironmentKeyWritingModifierV AA0F9AlignmentO AA6VStackV AA7ForEachV 5NDOUI16NDODWFooterModelV AR0S4ViewV AA6HStackV AA05TupleD0V AR17NDOLoadingMessageV AA6SpacerV AA0U0PAAE08progressU5StyleyQrqd__AA08ProgressU5StyleRd__lFQO AA08ProgressU0V AA05EmptyU0V AA016CircularProgressU5StyleV
++ _symbolic _____yAAy_____yABy__________G_____y_____GG_____y_____ySay_____GSi_____GGG_____y_____y_____Sg___________y_____y_____AXG______Qo_SgQPGGGSg 7SwiftUI19_ConditionalContentV AA08ModifiedD0V AA4TextV AA16_FlexFrameLayoutV AA30_EnvironmentKeyWritingModifierV AA0F9AlignmentO AA6VStackV AA7ForEachV 5NDOUI16NDODWFooterModelV AR0S4ViewV AA6HStackV AA05TupleD0V AR17NDOLoadingMessageV AA6SpacerV AA0U0PAAE08progressU5StyleyQrqd__AA08ProgressU5StyleRd__lFQO AA08ProgressU0V AA05EmptyU0V AA016CircularProgressU5StyleV
++ _symbolic _____yAAy_____y_____y_____y_____y__________ySay_____GSS_____GG_Qo__Qo______G_____y_____y_____APG______Qo_GAAy_____APGG 7SwiftUI19_ConditionalContentV AA08ModifiedD0V AA4ViewPAAE11refreshable6actionQryyYaYbc_tFQO AG8SettingsE22settingsListAppearanceQryFQO AA0K0V s5NeverO AA7ForEachV 5NDOUI12NDODWSectionV 017NewDeviceOutreachB00s15WarrantySectionF0V AA14_PaddingLayoutV AgAE08progressF5StyleyQrqd__AA08ProgressfZ0Rd__lFQO AA08ProgressF0V AA05EmptyF0V AA016CircularProgressfZ0V AR08NDOErrorF0V
++ _symbolic _____y_____Sg_____ySay_____GSi_____yAGyAGy__________GAGy__________GGAGy_____AIGGGAGyAGy_____yASyAB_____G_____y_____GG_____yADySay_____GSi_____GGG_____y_____y_____Sg___________y_____yA2IG______Qo_SgQPGGGSgG 7SwiftUI7SectionV AA4TextV AA7ForEachV 5NDOUI9NDODWItemO AA19_ConditionalContentV AH17NDODWCoverageViewV AA05EmptyL0V AH07NDOLinkL0V AH010NDODWPromoL0V AH012NDODWSupportL0V AA08ModifiedJ0V AA16_FlexFrameLayoutV AA30_EnvironmentKeyWritingModifierV AA0D9AlignmentO AA6VStackV AH16NDODWFooterModelV AH011NDODWFooterL0V AA6HStackV AA05TupleJ0V AH17NDOLoadingMessageV AA6SpacerV AA0L0PAAE08progressL5StyleyQrqd__AA08ProgressL5StyleRd__lFQO AA08ProgressL0V AA016CircularProgressL5StyleV
++ _symbolic _____y_____Sg_____ySay_____GSi_____yAGyAGy_____y__________y_____GG_____GAGy_____AGy_____AQGGG_____GGAGyAHyAHyAB_____G_____y_____GG_____y_____y_____Sg___________y_____yA2UG______Qo_SgQPGGGSgG 7SwiftUI7SectionV AA4TextV AA7ForEachV 5NDOUI7NDOItemO AA19_ConditionalContentV AA08ModifiedJ0V AH13NDODeviceViewV AA24_ForegroundStyleModifierV AA5ColorV AH07NDOLinkM0V AH010NDOPlacardM0V AH08NDOPromoM0V AA05EmptyM0V AA16_FlexFrameLayoutV AA022_EnvironmentKeyWritingP0V AA0D9AlignmentO AA6HStackV AA05TupleJ0V AH17NDOLoadingMessageV AA6SpacerV AA0M0PAAE08progressmO0yQrqd__AA08ProgressmO0Rd__lFQO AA08ProgressM0V AA016CircularProgressmO0V
++ _symbolic _____y___________y_____Sg___________y_____y_____AHG______Qo_SgQPGG 7SwiftUI13_VariadicViewO4TreeV AA13_HStackLayoutV AA12TupleContentV 5NDOUI17NDOLoadingMessageV AA6SpacerV AA0D0PAAE08progressD5StyleyQrqd__AA08ProgressdO0Rd__lFQO AA0pD0V AA05EmptyD0V AA08CircularpdO0V
++ _symbolic _____y_____yABy__________G_____y_____GG_____y_____y_____Sg___________y_____y_____APG______Qo_SgQPGGG 7SwiftUI19_ConditionalContentV AA08ModifiedD0V AA4TextV AA16_FlexFrameLayoutV AA30_EnvironmentKeyWritingModifierV AA0F9AlignmentO AA6HStackV AA05TupleD0V 5NDOUI17NDOLoadingMessageV AA6SpacerV AA4ViewPAAE08progressU5StyleyQrqd__AA08ProgressuW0Rd__lFQO AA0xU0V AA05EmptyU0V AA08CircularxuW0V
++ _symbolic _____y_____yABy__________G_____y_____GG_____y_____y_____Sg___________y_____y_____APG______Qo_SgQPGGGSg 7SwiftUI19_ConditionalContentV AA08ModifiedD0V AA4TextV AA16_FlexFrameLayoutV AA30_EnvironmentKeyWritingModifierV AA0F9AlignmentO AA6HStackV AA05TupleD0V 5NDOUI17NDOLoadingMessageV AA6SpacerV AA4ViewPAAE08progressU5StyleyQrqd__AA08ProgressuW0Rd__lFQO AA0xU0V AA05EmptyU0V AA08CircularxuW0V
++ _symbolic _____y_____yABy__________G_____y_____GG_____y_____y_____Sg___________y_____y_____APG______Qo_SgQPGG_G 7SwiftUI19_ConditionalContentV7StorageO AA08ModifiedD0V AA4TextV AA16_FlexFrameLayoutV AA30_EnvironmentKeyWritingModifierV AA0G9AlignmentO AA6HStackV AA05TupleD0V 5NDOUI17NDOLoadingMessageV AA6SpacerV AA4ViewPAAE08progressV5StyleyQrqd__AA08ProgressvX0Rd__lFQO AA0yV0V AA05EmptyV0V AA08CircularyvX0V
++ _symbolic _____y_____y_____Sg___________y_____y_____AGG______Qo_SgQPGG 7SwiftUI6HStackV AA12TupleContentV 5NDOUI17NDOLoadingMessageV AA6SpacerV AA4ViewPAAE08progressJ5StyleyQrqd__AA08ProgressjL0Rd__lFQO AA0mJ0V AA05EmptyJ0V AA08CircularmjL0V
++ _symbolic _____y_____y_____yACy__________G_____y_____GG_____y_____ySay_____GSi_____GGG_____y_____y_____Sg___________y_____y_____AYG______Qo_SgQPGG_G 7SwiftUI19_ConditionalContentV7StorageO AC AA08ModifiedD0V AA4TextV AA16_FlexFrameLayoutV AA30_EnvironmentKeyWritingModifierV AA0G9AlignmentO AA6VStackV AA7ForEachV 5NDOUI16NDODWFooterModelV AT0T4ViewV AA6HStackV AA05TupleD0V AT17NDOLoadingMessageV AA6SpacerV AA0V0PAAE08progressV5StyleyQrqd__AA08ProgressV5StyleRd__lFQO AA08ProgressV0V AA05EmptyV0V AA016CircularProgressV5StyleV
++ _symbolic _____y_____y_____y_____y_____y__________ySay_____GSS_____GG_Qo__Qo______G_____y_____y_____APG______Qo_G 7SwiftUI19_ConditionalContentV AA08ModifiedD0V AA4ViewPAAE11refreshable6actionQryyYaYbc_tFQO AG8SettingsE22settingsListAppearanceQryFQO AA0K0V s5NeverO AA7ForEachV 5NDOUI12NDODWSectionV 017NewDeviceOutreachB00s15WarrantySectionF0V AA14_PaddingLayoutV AgAE08progressF5StyleyQrqd__AA08ProgressfZ0Rd__lFQO AA08ProgressF0V AA05EmptyF0V AA016CircularProgressfZ0V
++ _symbolic _____y_____y_____y_____y_____y__________ySay_____GSS_____GG_Qo__Qo______G_____y_____y_____APG______Qo__G 7SwiftUI19_ConditionalContentV7StorageO AA08ModifiedD0V AA4ViewPAAE11refreshable6actionQryyYaYbc_tFQO AI8SettingsE22settingsListAppearanceQryFQO AA0L0V s5NeverO AA7ForEachV 5NDOUI12NDODWSectionV 017NewDeviceOutreachB00t15WarrantySectionG0V AA14_PaddingLayoutV AiAE08progressG5StyleyQrqd__AA08ProgressG5StyleRd__lFQO AA08ProgressG0V AA05EmptyG0V AA016CircularProgressG5StyleV
++ _symbolic _____y_____y_____y_____y_____y_____y__________ySay_____GSS_____GG_Qo__Qo______G_____y_____y_____AQG______Qo_GABy_____AQG_G 7SwiftUI19_ConditionalContentV7StorageO AC AA08ModifiedD0V AA4ViewPAAE11refreshable6actionQryyYaYbc_tFQO AI8SettingsE22settingsListAppearanceQryFQO AA0L0V s5NeverO AA7ForEachV 5NDOUI12NDODWSectionV 017NewDeviceOutreachB00t15WarrantySectionG0V AA14_PaddingLayoutV AiAE08progressG5StyleyQrqd__AA08ProgressG5StyleRd__lFQO AA08ProgressG0V AA05EmptyG0V AA016CircularProgressG5StyleV AT08NDOErrorG0V
++ _type_layout_string 19NewDeviceOutreachUI21CompanionHandoffModelC5StateO
+- +[NDOAppItemViewCell cellStyle]
+- +[NDOCoverageItemCell cellStyle]
+- +[NDOImageManager sharedManager]
+- +[NDOSupportAppTableViewCell cellStyle]
+- +[NDOWarrantySubTextCell cellStyle]
+- -[NDOACController forceUpdateSpecifiersAndForceUpdateFollowup:withCompletionHandler:]
+- -[NDOAMSUIWebViewWrapperController .cxx_destruct]
+- -[NDOAMSUIWebViewWrapperController dealloc]
+- -[NDOAMSUIWebViewWrapperController dealloc].cold.1
+- -[NDOAMSUIWebViewWrapperController dismissBlock]
+- -[NDOAMSUIWebViewWrapperController initWithViewController:]
+- -[NDOAMSUIWebViewWrapperController loadView]
+- -[NDOAMSUIWebViewWrapperController presentationControllerDidDismiss:]
+- -[NDOAMSUIWebViewWrapperController presentationControllerDidDismiss:].cold.1
+- -[NDOAMSUIWebViewWrapperController setDismissBlock:]
+- -[NDOAMSUIWebViewWrapperController viewController]
+- -[NDOAMSUIWebViewWrapperController viewDidDisappear:]
+- -[NDOAMSUIWebViewWrapperController viewDidDisappear:].cold.1
+- -[NDOAMSUIWebViewWrapperController viewDidDisappear:].cold.2
+- -[NDOAMSUIWebViewWrapperController viewDidDisappear:].cold.3
+- -[NDOAMSUIWebViewWrapperController viewDidDisappear:].cold.4
+- -[NDOAMSUIWebViewWrapperController viewWillLayoutSubviews]
+- -[NDOAppItemViewCell .cxx_destruct]
+- -[NDOAppItemViewCell _setupWarrantyCoverageCell]
+- -[NDOAppItemViewCell initWithStyle:reuseIdentifier:specifier:]
+- -[NDOAppItemViewCell itemImageView]
+- -[NDOAppItemViewCell itemSubtitleLabel]
+- -[NDOAppItemViewCell itemTitleLabel]
+- -[NDOAppItemViewCell itemTitleView]
+- -[NDOAppItemViewCell layoutSubviews]
+- -[NDOAppItemViewCell refreshCellContentsWithSpecifier:]
+- -[NDOAppItemViewCell setItemImageView:]
+- -[NDOAppItemViewCell setItemSubtitleLabel:]
+- -[NDOAppItemViewCell setItemTitleLabel:]
+- -[NDOAppItemViewCell setItemTitleView:]
+- -[NDOAppItemViewCell sizeThatFits:]
+- -[NDOAppItemViewCell updateConstraints]
+- -[NDOAppleCareAMSUIViewController _initWithWarranty:serialNumber:source:isMultiCall:url:deeplinkParams:purchaseBody:]
+- -[NDOAppleCareAMSUIViewController _prepareRequestWithWarranty:serialNumber:source:isMultiCall:url:deeplinkParams:purchaseBody:]
+- -[NDOAppleCareAMSUIViewController _prepareRequestWithWarranty:serialNumber:source:isMultiCall:url:deeplinkParams:purchaseBody:].cold.1
+- -[NDOAppleCareAMSUIViewController _prepareRequestWithWarranty:serialNumber:source:isMultiCall:url:deeplinkParams:purchaseBody:].cold.2
+- -[NDOAppleCareAMSUIViewController initWithWarranty:serialNumber:source:deeplinkParams:]
+- -[NDOAppleCareAMSUIViewController initWithWarranty:serialNumber:source:url:purchaseBody:deeplinkParams:]
+- -[NDOCoverageCentralViewControllerLegacy .cxx_destruct]
+- -[NDOCoverageCentralViewControllerLegacy _errorStateConfig]
+- -[NDOCoverageCentralViewControllerLegacy _getParamsDictFromPath:]
+- -[NDOCoverageCentralViewControllerLegacy _getUpdatedParamsFromPath:withCompletion:]
+- -[NDOCoverageCentralViewControllerLegacy _localizedResourceWithString:]
+- -[NDOCoverageCentralViewControllerLegacy _noAccountConfig]
+- -[NDOCoverageCentralViewControllerLegacy _refresh:]
+- -[NDOCoverageCentralViewControllerLegacy _refreshAndForcePostFollowUp:refreshControlToStop:]
+- -[NDOCoverageCentralViewControllerLegacy _refreshAndForcePostFollowUp:refreshControlToStop:].cold.1
+- -[NDOCoverageCentralViewControllerLegacy acController]
+- -[NDOCoverageCentralViewControllerLegacy addFooterLabelToSpecifier:]
+- -[NDOCoverageCentralViewControllerLegacy allLocalDevices]
+- -[NDOCoverageCentralViewControllerLegacy amsLoadingViewController]
+- -[NDOCoverageCentralViewControllerLegacy amsUIViewFinishedWithCompletion:]
+- -[NDOCoverageCentralViewControllerLegacy amsUIViewFinishedWithCompletion:params:]
+- -[NDOCoverageCentralViewControllerLegacy completeWithStatus:]
+- -[NDOCoverageCentralViewControllerLegacy completeWithStatus:params:]
+- -[NDOCoverageCentralViewControllerLegacy deeplinkParams]
+- -[NDOCoverageCentralViewControllerLegacy defaultDevice]
+- -[NDOCoverageCentralViewControllerLegacy deviceInfoDict]
+- -[NDOCoverageCentralViewControllerLegacy deviceListAPISections]
+- -[NDOCoverageCentralViewControllerLegacy deviceLoadCompleted]
+- -[NDOCoverageCentralViewControllerLegacy deviceSequenceDict]
+- -[NDOCoverageCentralViewControllerLegacy dismissAMSUI]
+- -[NDOCoverageCentralViewControllerLegacy expectingLink]
+- -[NDOCoverageCentralViewControllerLegacy fetchAllDeviceInfoUsingPolicy:sessionID:params:isSales:withReply:]
+- -[NDOCoverageCentralViewControllerLegacy fetchAllDeviceInfoUsingPolicy:sessionID:params:isSales:withReply:].cold.1
+- -[NDOCoverageCentralViewControllerLegacy fetchAllDeviceInfoUsingPolicy:sessionID:params:isSales:withReply:].cold.2
+- -[NDOCoverageCentralViewControllerLegacy fetchAllDeviceInfoUsingPolicy:sessionID:params:isSales:withReply:].cold.3
+- -[NDOCoverageCentralViewControllerLegacy fetchAllLocalDevices]
+- -[NDOCoverageCentralViewControllerLegacy fetchAllLocalDevices].cold.1
+- -[NDOCoverageCentralViewControllerLegacy fetchAllLocalDevices].cold.2
+- -[NDOCoverageCentralViewControllerLegacy getAllDeviceInfoUsingPolicy:sessionID:params:isSales:andForcePostFollowup:withReply:]
+- -[NDOCoverageCentralViewControllerLegacy getDeviceInfoForSerialNumber:usingPolicy:sessionID:params:andForcePostFollowup:withReply:]
+- -[NDOCoverageCentralViewControllerLegacy getDeviceInfoForSerialNumber:usingPolicy:sessionID:params:andForcePostFollowup:withReply:].cold.1
+- -[NDOCoverageCentralViewControllerLegacy handlePurchaseCompleted]
+- -[NDOCoverageCentralViewControllerLegacy handlePurchaseCompleted].cold.1
+- -[NDOCoverageCentralViewControllerLegacy handleURL:withCompletion:]
+- -[NDOCoverageCentralViewControllerLegacy initWithIsSignedIn:deviceManager:]
+- -[NDOCoverageCentralViewControllerLegacy initWithIsSignedIn:deviceManager:].cold.1
+- -[NDOCoverageCentralViewControllerLegacy init]
+- -[NDOCoverageCentralViewControllerLegacy init].cold.1
+- -[NDOCoverageCentralViewControllerLegacy isFromDeeplink]
+- -[NDOCoverageCentralViewControllerLegacy isSignedIn]
+- -[NDOCoverageCentralViewControllerLegacy launchedWithUrl]
+- -[NDOCoverageCentralViewControllerLegacy loadView]
+- -[NDOCoverageCentralViewControllerLegacy loadView].cold.1
+- -[NDOCoverageCentralViewControllerLegacy ndoManager]
+- -[NDOCoverageCentralViewControllerLegacy offerTextForDevice:]
+- -[NDOCoverageCentralViewControllerLegacy offerTextForDeviceInfo:]
+- -[NDOCoverageCentralViewControllerLegacy onViewIsAppearing]
+- -[NDOCoverageCentralViewControllerLegacy openAMSUIWithURL:httpBody:]
+- -[NDOCoverageCentralViewControllerLegacy openDefaultDeviceDetails]
+- -[NDOCoverageCentralViewControllerLegacy openURL:]
+- -[NDOCoverageCentralViewControllerLegacy openURL:].cold.1
+- -[NDOCoverageCentralViewControllerLegacy pairedDevices]
+- -[NDOCoverageCentralViewControllerLegacy resetAll]
+- -[NDOCoverageCentralViewControllerLegacy sessionID]
+- -[NDOCoverageCentralViewControllerLegacy setAcController:]
+- -[NDOCoverageCentralViewControllerLegacy setAllLocalDevices:]
+- -[NDOCoverageCentralViewControllerLegacy setAmsLoadingViewController:]
+- -[NDOCoverageCentralViewControllerLegacy setDeeplinkParams:]
+- -[NDOCoverageCentralViewControllerLegacy setDefaultDevice:]
+- -[NDOCoverageCentralViewControllerLegacy setDeviceInfoDict:]
+- -[NDOCoverageCentralViewControllerLegacy setDeviceListAPISections:]
+- -[NDOCoverageCentralViewControllerLegacy setDeviceLoadCompleted:]
+- -[NDOCoverageCentralViewControllerLegacy setDeviceSequenceDict:]
+- -[NDOCoverageCentralViewControllerLegacy setExpectingLink:]
+- -[NDOCoverageCentralViewControllerLegacy setIsFromDeeplink:]
+- -[NDOCoverageCentralViewControllerLegacy setIsSignedIn:]
+- -[NDOCoverageCentralViewControllerLegacy setLaunchedWithUrl:]
+- -[NDOCoverageCentralViewControllerLegacy setNdoManager:]
+- -[NDOCoverageCentralViewControllerLegacy setOnViewIsAppearing:]
+- -[NDOCoverageCentralViewControllerLegacy setOpenDefaultDeviceDetails:]
+- -[NDOCoverageCentralViewControllerLegacy setPairedDevices:]
+- -[NDOCoverageCentralViewControllerLegacy setSessionID:]
+- -[NDOCoverageCentralViewControllerLegacy setUlSalesURL:]
+- -[NDOCoverageCentralViewControllerLegacy shouldDeferPushForSpecifierID:]
+- -[NDOCoverageCentralViewControllerLegacy shouldShowDeviceListUI]
+- -[NDOCoverageCentralViewControllerLegacy showUI]
+- -[NDOCoverageCentralViewControllerLegacy showUI].cold.1
+- -[NDOCoverageCentralViewControllerLegacy specifiers]
+- -[NDOCoverageCentralViewControllerLegacy specifiers].cold.1
+- -[NDOCoverageCentralViewControllerLegacy ulSalesURL]
+- -[NDOCoverageCentralViewControllerLegacy updateCells]
+- -[NDOCoverageCentralViewControllerLegacy updateCells].cold.1
+- -[NDOCoverageCentralViewControllerLegacy updateCells].cold.2
+- -[NDOCoverageCentralViewControllerLegacy updateCells].cold.3
+- -[NDOCoverageCentralViewControllerLegacy updateCells].cold.4
+- -[NDOCoverageCentralViewControllerLegacy updateCells].cold.5
+- -[NDOCoverageCentralViewControllerLegacy updateDefaultDeviceWithDeviceInfo:]
+- -[NDOCoverageCentralViewControllerLegacy updateDeviceInfoForDevice:usingPolicy:params:forceUpdateFollowup:withReply:]
+- -[NDOCoverageCentralViewControllerLegacy updateDeviceInfoForDevice:usingPolicy:params:forceUpdateFollowup:withReply:].cold.1
+- -[NDOCoverageCentralViewControllerLegacy viewIsAppearing:]
+- -[NDOCoverageItemCell .cxx_destruct]
+- -[NDOCoverageItemCell _setupWarrantyCoverageCell]
+- -[NDOCoverageItemCell initWithStyle:reuseIdentifier:specifier:]
+- -[NDOCoverageItemCell itemImageView]
+- -[NDOCoverageItemCell itemOfferLabel]
+- -[NDOCoverageItemCell itemSubtitleLabel]
+- -[NDOCoverageItemCell itemTitleLabel]
+- -[NDOCoverageItemCell itemTitleView]
+- -[NDOCoverageItemCell layoutSubviews]
+- -[NDOCoverageItemCell refreshCellContentsWithSpecifier:]
+- -[NDOCoverageItemCell setItemImageView:]
+- -[NDOCoverageItemCell setItemOfferLabel:]
+- -[NDOCoverageItemCell setItemSubtitleLabel:]
+- -[NDOCoverageItemCell setItemTitleLabel:]
+- -[NDOCoverageItemCell setItemTitleView:]
+- -[NDOCoverageItemCell sizeThatFits:]
+- -[NDOCoverageItemCell updateConstraints]
+- -[NDOCoverageItemCell updateDeviceImage]
+- -[NDOImageManager .cxx_destruct]
+- -[NDOImageManager fetchImageWithURLString:completion:]
+- -[NDOImageManager fetchImageWithURLString:completion:].cold.1
+- -[NDOImageManager imageCache]
+- -[NDOImageManager initPrivate]
+- -[NDOImageManager resetCache]
+- -[NDOImageManager setImageCache:]
+- -[NDOLongValueCell .cxx_destruct]
+- -[NDOLongValueCell constraints]
+- -[NDOLongValueCell initWithStyle:reuseIdentifier:]
+- -[NDOLongValueCell primaryLabel]
+- -[NDOLongValueCell refreshCellContentsWithSpecifier:]
+- -[NDOLongValueCell secondaryLabel]
+- -[NDOLongValueCell setConstraints:]
+- -[NDOLongValueCell setPrimaryLabel:]
+- -[NDOLongValueCell setSecondaryLabel:]
+- -[NDOLongValueCell setStackView:]
+- -[NDOLongValueCell stackView]
+- -[NDOLongValueCell updateConstraints]
+- -[NDOSupportAppTableViewCell .cxx_destruct]
+- -[NDOSupportAppTableViewCell _setupAppSuportCell]
+- -[NDOSupportAppTableViewCell dealloc]
+- -[NDOSupportAppTableViewCell didChangeTraitPreferredContentSizeCategory]
+- -[NDOSupportAppTableViewCell initWithStyle:reuseIdentifier:specifier:]
+- -[NDOSupportAppTableViewCell initWithStyle:reuseIdentifier:specifier:].cold.1
+- -[NDOSupportAppTableViewCell layoutSubviews]
+- -[NDOSupportAppTableViewCell layoutSubviews].cold.1
+- -[NDOSupportAppTableViewCell lockupView:appStateDidChange:]
+- -[NDOSupportAppTableViewCell lockupView:appStateDidChange:].cold.1
+- -[NDOSupportAppTableViewCell lockupView:didFailRequestWithError:]
+- -[NDOSupportAppTableViewCell lockupView:didFailRequestWithError:].cold.1
+- -[NDOSupportAppTableViewCell lockupViewDidBeginRequest:]
+- -[NDOSupportAppTableViewCell lockupViewDidBeginRequest:].cold.1
+- -[NDOSupportAppTableViewCell lockupViewDidFinishRequest:]
+- -[NDOSupportAppTableViewCell lockupViewDidFinishRequest:].cold.1
+- -[NDOSupportAppTableViewCell lockupView]
+- -[NDOSupportAppTableViewCell openButtonAction]
+- -[NDOSupportAppTableViewCell parentViewController]
+- -[NDOSupportAppTableViewCell presentingViewControllerForLockupView:]
+- -[NDOSupportAppTableViewCell presentingViewControllerForLockupView:].cold.1
+- -[NDOSupportAppTableViewCell setLockupView:]
+- -[NDOSupportAppTableViewCell sizeThatFits:]
+- -[NDOSupportAppTableViewCell updateConstraints]
+- -[NDOWarrantyBenefitsViewController .cxx_destruct]
+- -[NDOWarrantyBenefitsViewController donePressed:]
+- -[NDOWarrantyBenefitsViewController initWithWarranty:]
+- -[NDOWarrantyBenefitsViewController loadView]
+- -[NDOWarrantyBenefitsViewController setWarranty:]
+- -[NDOWarrantyBenefitsViewController warranty]
+- -[NDOWarrantyInfoController .cxx_destruct]
+- -[NDOWarrantyInfoController _addKey:isCopyable:toSpecifiers:]
+- -[NDOWarrantyInfoController _addKey:value:isCopyable:toSpecifiers:]
+- -[NDOWarrantyInfoController _errorStateConfig]
+- -[NDOWarrantyInfoController _isValidSubscriptionPlan]
+- -[NDOWarrantyInfoController _noAccountConfig]
+- -[NDOWarrantyInfoController _refresh:]
+- -[NDOWarrantyInfoController _refreshWithForcedNetworkPolicy:forceUpdateFollowup:withCompletion:]
+- -[NDOWarrantyInfoController _refreshWithForcedNetworkPolicy:forceUpdateFollowup:withCompletion:].cold.1
+- -[NDOWarrantyInfoController _refreshWithForcedNetworkPolicy:forceUpdateFollowup:withCompletion:].cold.2
+- -[NDOWarrantyInfoController _setValue:forSpecifier:]
+- -[NDOWarrantyInfoController _setValue:forSpecifierWithKey:inSpecifiers:]
+- -[NDOWarrantyInfoController acController]
+- -[NDOWarrantyInfoController appSupportDictionary]
+- -[NDOWarrantyInfoController benefitsDescLinkTapped:]
+- -[NDOWarrantyInfoController coverageItemSubTitle:]
+- -[NDOWarrantyInfoController deeplinkParams]
+- -[NDOWarrantyInfoController donePressed:]
+- -[NDOWarrantyInfoController errorUI]
+- -[NDOWarrantyInfoController footer1Tapped:]
+- -[NDOWarrantyInfoController footer2Tapped:]
+- -[NDOWarrantyInfoController handleURL:withCompletion:]
+- -[NDOWarrantyInfoController hasLoaded]
+- -[NDOWarrantyInfoController hideUI]
+- -[NDOWarrantyInfoController initWithSpecifier:]
+- -[NDOWarrantyInfoController isSignedIn]
+- -[NDOWarrantyInfoController isWarrantyValid]
+- -[NDOWarrantyInfoController lastCoverageSpecifier]
+- -[NDOWarrantyInfoController lastDetailSpecifier]
+- -[NDOWarrantyInfoController loadView]
+- -[NDOWarrantyInfoController loadView].cold.1
+- -[NDOWarrantyInfoController managePlanPressed:]
+- -[NDOWarrantyInfoController managePlanPressed:].cold.1
+- -[NDOWarrantyInfoController managePlanPressed:].cold.2
+- -[NDOWarrantyInfoController ndoAppleCareCoveragePressed:]
+- -[NDOWarrantyInfoController noCoverageInternalSubtitle:]
+- -[NDOWarrantyInfoController openURL:]
+- -[NDOWarrantyInfoController outreachFinishedForDeviceWithSerialNumber:withCompletion:]
+- -[NDOWarrantyInfoController postCAEventWithDeviceInfo:]
+- -[NDOWarrantyInfoController postCAEventWithDeviceInfo:].cold.1
+- -[NDOWarrantyInfoController previousAppSupportAvailabilityType]
+- -[NDOWarrantyInfoController reloadInProgress]
+- -[NDOWarrantyInfoController reloadSpecifiers]
+- -[NDOWarrantyInfoController reloadSpecifiers].cold.1
+- -[NDOWarrantyInfoController setAcController:]
+- -[NDOWarrantyInfoController setAppSupportDictionary:]
+- -[NDOWarrantyInfoController setDeeplinkParams:]
+- -[NDOWarrantyInfoController setHasLoaded:]
+- -[NDOWarrantyInfoController setIsSignedIn:]
+- -[NDOWarrantyInfoController setLastCoverageSpecifier:]
+- -[NDOWarrantyInfoController setLastDetailSpecifier:]
+- -[NDOWarrantyInfoController setPreviousAppSupportAvailabilityType:]
+- -[NDOWarrantyInfoController setReloadInProgress:]
+- -[NDOWarrantyInfoController setShouldRefreshOnAppear:]
+- -[NDOWarrantyInfoController shouldRefreshOnAppear]
+- -[NDOWarrantyInfoController shouldReloadSpecifiersOnResume]
+- -[NDOWarrantyInfoController showUI]
+- -[NDOWarrantyInfoController specifierForID:inSpecifiers:]
+- -[NDOWarrantyInfoController specifiers]
+- -[NDOWarrantyInfoController updateAppStoreLookupWithSpecifiers:]
+- -[NDOWarrantyInfoController updateAppSupportSpecifiersWithSpecifiers:]
+- -[NDOWarrantyInfoController valueForSpecifier:]
+- -[NDOWarrantyInfoController viewDidAppear:]
+- -[NDOWarrantySubTextCell initWithStyle:reuseIdentifier:]
+- GCC_except_table19
+- GCC_except_table2
+- GCC_except_table20
+- GCC_except_table34
+- GCC_except_table39
+- GCC_except_table44
+- GCC_except_table5
+- GCC_except_table50
+- GCC_except_table60
+- GCC_except_table7
+- GCC_except_table9
+- OBJC_IVAR_$_PSListController._specifiers
+- _ASCAppStateOpenable
+- _ASCAppStatePurchased
+- _ASCLockupContextStandard
+- _ASCLockupKindApp
+- _ASCLockupViewSizeSmall
+- _CFPreferencesCopyAppValue
+- _CGRectZero
+- _NDOAppleSuportAppURLKey
+- _NDOAppleSuportDictionaryKey
+- _NDOCoverageCentralContainerKey
+- _NDOCoverageDefaultItemSpecifierID
+- _NDOCoverageItemCellCoverageLabelKey
+- _NDOCoverageItemCellFallbackImageKey
+- _NDOCoverageItemCellImageURLKey
+- _NDOCoverageItemCellOfferLabelKey
+- _NDOCoverageItemSubtitleKey
+- _NDODeeplinkParamsKey
+- _NDODeviceInfoKey
+- _NDODeviceKey
+- _NDOHostingControllerKey
+- _NDOPurchaseCompletedNotification
+- _NDOSettingsContainerKey
+- _NDOSubscriptionURLBagKey
+- _NDOWarrantyKey
+- _NSStringFromClass
+- _NSStringFromRange
+- _NSStringFromRect
+- _OBJC_CLASS_$_AMSPromise
+- _OBJC_CLASS_$_AMSUICommonViewController
+- _OBJC_CLASS_$_ASCAdamID
+- _OBJC_CLASS_$_ASCLocalOffer
+- _OBJC_CLASS_$_ASCLockupRequest
+- _OBJC_CLASS_$_ASCLockupView
+- _OBJC_CLASS_$_ASCMetrics
+- _OBJC_CLASS_$_ASCOfferMetadata
+- _OBJC_CLASS_$_ASCOfferTheme
+- _OBJC_CLASS_$_NDOAMSUIWebViewWrapperController
+- _OBJC_CLASS_$_NDOAppItemViewCell
+- _OBJC_CLASS_$_NDOCoverageCentralViewControllerLegacy
+- _OBJC_CLASS_$_NDOCoverageItemCell
+- _OBJC_CLASS_$_NDODeviceInfo
+- _OBJC_CLASS_$_NDOImageManager
+- _OBJC_CLASS_$_NDOLongValueCell
+- _OBJC_CLASS_$_NDOSupportAppTableViewCell
+- _OBJC_CLASS_$_NDOTypeChecking
+- _OBJC_CLASS_$_NDOViewModelGenerationHelpers
+- _OBJC_CLASS_$_NDOWarrantyBenefitsViewController
+- _OBJC_CLASS_$_NDOWarrantyInfoController
+- _OBJC_CLASS_$_NDOWarrantySubTextCell
+- _OBJC_CLASS_$_NSArray
+- _OBJC_CLASS_$_NSCache
+- _OBJC_CLASS_$_NSCharacterSet
+- _OBJC_CLASS_$_NSConstantIntegerNumber
+- _OBJC_CLASS_$_NSDate
+- _OBJC_CLASS_$_NSDateFormatter
+- _OBJC_CLASS_$_NSError
+- _OBJC_CLASS_$_NSJSONSerialization
+- _OBJC_CLASS_$_NSMutableArray
+- _OBJC_CLASS_$_NSMutableDictionary
+- _OBJC_CLASS_$_NSMutableString
+- _OBJC_CLASS_$_NSNotificationCenter
+- _OBJC_CLASS_$_NSNull
+- _OBJC_CLASS_$_NSNumber
+- _OBJC_CLASS_$_NSPredicate
+- _OBJC_CLASS_$_NSString
+- _OBJC_CLASS_$_NSThread
+- _OBJC_CLASS_$_NSTimeZone
+- _OBJC_CLASS_$_NSURL
+- _OBJC_CLASS_$_NSURLComponents
+- _OBJC_CLASS_$_NSURLQueryItem
+- _OBJC_CLASS_$_NSURLSession
+- _OBJC_CLASS_$_NSUUID
+- _OBJC_CLASS_$_NSValue
+- _OBJC_CLASS_$_OBTextWelcomeController
+- _OBJC_CLASS_$_PSFooterHyperlinkView
+- _OBJC_CLASS_$_PSTableCell
+- _OBJC_CLASS_$_UIButtonConfiguration
+- _OBJC_CLASS_$_UIContentUnavailableConfiguration
+- _OBJC_CLASS_$_UIFont
+- _OBJC_CLASS_$_UIImageView
+- _OBJC_CLASS_$_UILabel
+- _OBJC_CLASS_$_UIRefreshControl
+- _OBJC_CLASS_$_UIStackView
+- _OBJC_CLASS_$_UITraitPreferredContentSizeCategory
+- _OBJC_CLASS_$_UIView
+- _OBJC_IVAR_$_NDOAMSUIWebViewWrapperController._dismissBlock
+- _OBJC_IVAR_$_NDOAMSUIWebViewWrapperController._viewController
+- _OBJC_IVAR_$_NDOAppItemViewCell._imageConstraints
+- _OBJC_IVAR_$_NDOAppItemViewCell._itemImageView
+- _OBJC_IVAR_$_NDOAppItemViewCell._itemSubtitleLabel
+- _OBJC_IVAR_$_NDOAppItemViewCell._itemTitleLabel
+- _OBJC_IVAR_$_NDOAppItemViewCell._itemTitleView
+- _OBJC_IVAR_$_NDOCoverageCentralViewControllerLegacy._acController
+- _OBJC_IVAR_$_NDOCoverageCentralViewControllerLegacy._allLocalDevices
+- _OBJC_IVAR_$_NDOCoverageCentralViewControllerLegacy._amsLoadingViewController
+- _OBJC_IVAR_$_NDOCoverageCentralViewControllerLegacy._deeplinkParams
+- _OBJC_IVAR_$_NDOCoverageCentralViewControllerLegacy._defaultDevice
+- _OBJC_IVAR_$_NDOCoverageCentralViewControllerLegacy._deviceInfoDict
+- _OBJC_IVAR_$_NDOCoverageCentralViewControllerLegacy._deviceListAPISections
+- _OBJC_IVAR_$_NDOCoverageCentralViewControllerLegacy._deviceLoadCompleted
+- _OBJC_IVAR_$_NDOCoverageCentralViewControllerLegacy._deviceSequenceDict
+- _OBJC_IVAR_$_NDOCoverageCentralViewControllerLegacy._expectingLink
+- _OBJC_IVAR_$_NDOCoverageCentralViewControllerLegacy._group
+- _OBJC_IVAR_$_NDOCoverageCentralViewControllerLegacy._isFromDeeplink
+- _OBJC_IVAR_$_NDOCoverageCentralViewControllerLegacy._isSignedIn
+- _OBJC_IVAR_$_NDOCoverageCentralViewControllerLegacy._launchedWithUrl
+- _OBJC_IVAR_$_NDOCoverageCentralViewControllerLegacy._loadingConfig
+- _OBJC_IVAR_$_NDOCoverageCentralViewControllerLegacy._ndoManager
+- _OBJC_IVAR_$_NDOCoverageCentralViewControllerLegacy._onViewIsAppearing
+- _OBJC_IVAR_$_NDOCoverageCentralViewControllerLegacy._openDefaultDeviceDetails
+- _OBJC_IVAR_$_NDOCoverageCentralViewControllerLegacy._pairedDevices
+- _OBJC_IVAR_$_NDOCoverageCentralViewControllerLegacy._policyLookupQueue
+- _OBJC_IVAR_$_NDOCoverageCentralViewControllerLegacy._sessionID
+- _OBJC_IVAR_$_NDOCoverageCentralViewControllerLegacy._ulSalesURL
+- _OBJC_IVAR_$_NDOCoverageItemCell._hasOffer
+- _OBJC_IVAR_$_NDOCoverageItemCell._imageConstraints
+- _OBJC_IVAR_$_NDOCoverageItemCell._itemImageView
+- _OBJC_IVAR_$_NDOCoverageItemCell._itemOfferLabel
+- _OBJC_IVAR_$_NDOCoverageItemCell._itemSubtitleLabel
+- _OBJC_IVAR_$_NDOCoverageItemCell._itemTitleLabel
+- _OBJC_IVAR_$_NDOCoverageItemCell._itemTitleView
+- _OBJC_IVAR_$_NDOImageManager._imageCache
+- _OBJC_IVAR_$_NDOLongValueCell._constraints
+- _OBJC_IVAR_$_NDOLongValueCell._primaryLabel
+- _OBJC_IVAR_$_NDOLongValueCell._secondaryLabel
+- _OBJC_IVAR_$_NDOLongValueCell._stackView
+- _OBJC_IVAR_$_NDOSupportAppTableViewCell._lockupView
+- _OBJC_IVAR_$_NDOSupportAppTableViewCell._originalAppOffer
+- _OBJC_IVAR_$_NDOSupportAppTableViewCell._supportAppURL
+- _OBJC_IVAR_$_NDOSupportAppTableViewCell._traitRegistration
+- _OBJC_IVAR_$_NDOWarrantyBenefitsViewController._warranty
+- _OBJC_IVAR_$_NDOWarrantyInfoController._acController
+- _OBJC_IVAR_$_NDOWarrantyInfoController._appSupportDictionary
+- _OBJC_IVAR_$_NDOWarrantyInfoController._deeplinkParams
+- _OBJC_IVAR_$_NDOWarrantyInfoController._hasLoaded
+- _OBJC_IVAR_$_NDOWarrantyInfoController._isSignedIn
+- _OBJC_IVAR_$_NDOWarrantyInfoController._lastCoverageSpecifier
+- _OBJC_IVAR_$_NDOWarrantyInfoController._lastDetailSpecifier
+- _OBJC_IVAR_$_NDOWarrantyInfoController._previousAppSupportAvailabilityType
+- _OBJC_IVAR_$_NDOWarrantyInfoController._reloadInProgress
+- _OBJC_IVAR_$_NDOWarrantyInfoController._shouldRefreshOnAppear
+- _OBJC_METACLASS_$_AMSUICommonViewController
+- _OBJC_METACLASS_$_NDOAMSUIWebViewWrapperController
+- _OBJC_METACLASS_$_NDOAppItemViewCell
+- _OBJC_METACLASS_$_NDOCoverageCentralViewControllerLegacy
+- _OBJC_METACLASS_$_NDOCoverageItemCell
+- _OBJC_METACLASS_$_NDOImageManager
+- _OBJC_METACLASS_$_NDOLongValueCell
+- _OBJC_METACLASS_$_NDOSupportAppTableViewCell
+- _OBJC_METACLASS_$_NDOWarrantyBenefitsViewController
+- _OBJC_METACLASS_$_NDOWarrantyInfoController
+- _OBJC_METACLASS_$_NDOWarrantySubTextCell
+- _OBJC_METACLASS_$_OBTextWelcomeController
+- _OBJC_METACLASS_$_PSListController
+- _OBJC_METACLASS_$_PSTableCell
+- _OUTLINED_FUNCTION_0
+- _OUTLINED_FUNCTION_1
+- _OUTLINED_FUNCTION_10
+- _OUTLINED_FUNCTION_11
+- _OUTLINED_FUNCTION_12
+- _OUTLINED_FUNCTION_2
+- _OUTLINED_FUNCTION_3
+- _OUTLINED_FUNCTION_4
+- _OUTLINED_FUNCTION_5
+- _OUTLINED_FUNCTION_6
+- _OUTLINED_FUNCTION_7
+- _OUTLINED_FUNCTION_8
+- _OUTLINED_FUNCTION_9
+- _PSCopyableCellKey
+- _PSFooterCellClassGroupKey
+- _PSFooterHyperlinkViewActionKey
+- _PSFooterHyperlinkViewLinkRangeKey
+- _PSFooterHyperlinkViewTargetKey
+- _PSFooterHyperlinkViewTitleKey
+- _PSTableCellHeightKey
+- _UIApp
+- _UIFontTextStyleBody
+- _UIFontTextStyleFootnote
+- _UIFontTextStyleSubheadline
+- _UITableViewAutomaticDimension
+- __Block_object_dispose
+- __OBJC_$_CLASS_METHODS_NDOAppItemViewCell
+- __OBJC_$_CLASS_METHODS_NDOCoverageItemCell
+- __OBJC_$_CLASS_METHODS_NDOImageManager
+- __OBJC_$_CLASS_METHODS_NDOSupportAppTableViewCell
+- __OBJC_$_CLASS_METHODS_NDOWarrantySubTextCell
+- __OBJC_$_CLASS_PROP_LIST_NDOImageManager
+- __OBJC_$_INSTANCE_METHODS_NDOAMSUIWebViewWrapperController
+- __OBJC_$_INSTANCE_METHODS_NDOAppItemViewCell
+- __OBJC_$_INSTANCE_METHODS_NDOCoverageCentralViewControllerLegacy
+- __OBJC_$_INSTANCE_METHODS_NDOCoverageItemCell
+- __OBJC_$_INSTANCE_METHODS_NDOImageManager
+- __OBJC_$_INSTANCE_METHODS_NDOLongValueCell
+- __OBJC_$_INSTANCE_METHODS_NDOSupportAppTableViewCell
+- __OBJC_$_INSTANCE_METHODS_NDOWarrantyBenefitsViewController
+- __OBJC_$_INSTANCE_METHODS_NDOWarrantyInfoController
+- __OBJC_$_INSTANCE_METHODS_NDOWarrantySubTextCell
+- __OBJC_$_INSTANCE_VARIABLES_NDOAMSUIWebViewWrapperController
+- __OBJC_$_INSTANCE_VARIABLES_NDOAppItemViewCell
+- __OBJC_$_INSTANCE_VARIABLES_NDOCoverageCentralViewControllerLegacy
+- __OBJC_$_INSTANCE_VARIABLES_NDOCoverageItemCell
+- __OBJC_$_INSTANCE_VARIABLES_NDOImageManager
+- __OBJC_$_INSTANCE_VARIABLES_NDOLongValueCell
+- __OBJC_$_INSTANCE_VARIABLES_NDOSupportAppTableViewCell
+- __OBJC_$_INSTANCE_VARIABLES_NDOWarrantyBenefitsViewController
+- __OBJC_$_INSTANCE_VARIABLES_NDOWarrantyInfoController
+- __OBJC_$_PROP_LIST_NDOAMSUIWebViewWrapperController
+- __OBJC_$_PROP_LIST_NDOAppItemViewCell
+- __OBJC_$_PROP_LIST_NDOCoverageCentralViewControllerLegacy
+- __OBJC_$_PROP_LIST_NDOCoverageItemCell
+- __OBJC_$_PROP_LIST_NDOImageManager
+- __OBJC_$_PROP_LIST_NDOLongValueCell
+- __OBJC_$_PROP_LIST_NDOSupportAppTableViewCell
+- __OBJC_$_PROP_LIST_NDOWarrantyBenefitsViewController
+- __OBJC_$_PROP_LIST_NDOWarrantyInfoController
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_ASCLockupViewDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NDOAppleCareFlowDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_ASCLockupViewDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NDOAppleCareFlowDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_UIAdaptivePresentationControllerDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_ASCLockupViewDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NDOAppleCareFlowDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_UIAdaptivePresentationControllerDelegate
+- __OBJC_$_PROTOCOL_REFS_ASCLockupViewDelegate
+- __OBJC_$_PROTOCOL_REFS_NDOAppleCareFlowDelegate
+- __OBJC_$_PROTOCOL_REFS_UIAdaptivePresentationControllerDelegate
+- __OBJC_CLASS_PROTOCOLS_$_NDOAMSUIWebViewWrapperController
+- __OBJC_CLASS_PROTOCOLS_$_NDOCoverageCentralViewControllerLegacy
+- __OBJC_CLASS_PROTOCOLS_$_NDOSupportAppTableViewCell
+- __OBJC_CLASS_PROTOCOLS_$_NDOWarrantyInfoController
+- __OBJC_CLASS_RO_$_NDOAMSUIWebViewWrapperController
+- __OBJC_CLASS_RO_$_NDOAppItemViewCell
+- __OBJC_CLASS_RO_$_NDOCoverageCentralViewControllerLegacy
+- __OBJC_CLASS_RO_$_NDOCoverageItemCell
+- __OBJC_CLASS_RO_$_NDOImageManager
+- __OBJC_CLASS_RO_$_NDOLongValueCell
+- __OBJC_CLASS_RO_$_NDOSupportAppTableViewCell
+- __OBJC_CLASS_RO_$_NDOWarrantyBenefitsViewController
+- __OBJC_CLASS_RO_$_NDOWarrantyInfoController
+- __OBJC_CLASS_RO_$_NDOWarrantySubTextCell
+- __OBJC_LABEL_PROTOCOL_$_ASCLockupViewDelegate
+- __OBJC_LABEL_PROTOCOL_$_NDOAppleCareFlowDelegate
+- __OBJC_LABEL_PROTOCOL_$_UIAdaptivePresentationControllerDelegate
+- __OBJC_METACLASS_RO_$_NDOAMSUIWebViewWrapperController
+- __OBJC_METACLASS_RO_$_NDOAppItemViewCell
+- __OBJC_METACLASS_RO_$_NDOCoverageCentralViewControllerLegacy
+- __OBJC_METACLASS_RO_$_NDOCoverageItemCell
+- __OBJC_METACLASS_RO_$_NDOImageManager
+- __OBJC_METACLASS_RO_$_NDOLongValueCell
+- __OBJC_METACLASS_RO_$_NDOSupportAppTableViewCell
+- __OBJC_METACLASS_RO_$_NDOWarrantyBenefitsViewController
+- __OBJC_METACLASS_RO_$_NDOWarrantyInfoController
+- __OBJC_METACLASS_RO_$_NDOWarrantySubTextCell
+- __OBJC_PROTOCOL_$_ASCLockupViewDelegate
+- __OBJC_PROTOCOL_$_NDOAppleCareFlowDelegate
+- __OBJC_PROTOCOL_$_UIAdaptivePresentationControllerDelegate
+- __Unwind_Resume
+- ___107-[NDOCoverageCentralViewControllerLegacy fetchAllDeviceInfoUsingPolicy:sessionID:params:isSales:withReply:]_block_invoke
+- ___107-[NDOCoverageCentralViewControllerLegacy fetchAllDeviceInfoUsingPolicy:sessionID:params:isSales:withReply:]_block_invoke.68
+- ___107-[NDOCoverageCentralViewControllerLegacy fetchAllDeviceInfoUsingPolicy:sessionID:params:isSales:withReply:]_block_invoke_2
+- ___107-[NDOCoverageCentralViewControllerLegacy fetchAllDeviceInfoUsingPolicy:sessionID:params:isSales:withReply:]_block_invoke_2.69
+- ___107-[NDOCoverageCentralViewControllerLegacy fetchAllDeviceInfoUsingPolicy:sessionID:params:isSales:withReply:]_block_invoke_2.69.cold.1
+- ___117-[NDOCoverageCentralViewControllerLegacy updateDeviceInfoForDevice:usingPolicy:params:forceUpdateFollowup:withReply:]_block_invoke
+- ___117-[NDOCoverageCentralViewControllerLegacy updateDeviceInfoForDevice:usingPolicy:params:forceUpdateFollowup:withReply:]_block_invoke.76
+- ___117-[NDOCoverageCentralViewControllerLegacy updateDeviceInfoForDevice:usingPolicy:params:forceUpdateFollowup:withReply:]_block_invoke_2
+- ___117-[NDOCoverageCentralViewControllerLegacy updateDeviceInfoForDevice:usingPolicy:params:forceUpdateFollowup:withReply:]_block_invoke_2.77
+- ___117-[NDOCoverageCentralViewControllerLegacy updateDeviceInfoForDevice:usingPolicy:params:forceUpdateFollowup:withReply:]_block_invoke_2.77.cold.1
+- ___126-[NDOCoverageCentralViewControllerLegacy getAllDeviceInfoUsingPolicy:sessionID:params:isSales:andForcePostFollowup:withReply:]_block_invoke
+- ___126-[NDOCoverageCentralViewControllerLegacy getAllDeviceInfoUsingPolicy:sessionID:params:isSales:andForcePostFollowup:withReply:]_block_invoke.74
+- ___126-[NDOCoverageCentralViewControllerLegacy getAllDeviceInfoUsingPolicy:sessionID:params:isSales:andForcePostFollowup:withReply:]_block_invoke.75
+- ___126-[NDOCoverageCentralViewControllerLegacy getAllDeviceInfoUsingPolicy:sessionID:params:isSales:andForcePostFollowup:withReply:]_block_invoke.75.cold.1
+- ___126-[NDOCoverageCentralViewControllerLegacy getAllDeviceInfoUsingPolicy:sessionID:params:isSales:andForcePostFollowup:withReply:]_block_invoke_2
+- ___126-[NDOCoverageCentralViewControllerLegacy getAllDeviceInfoUsingPolicy:sessionID:params:isSales:andForcePostFollowup:withReply:]_block_invoke_2.cold.1
+- ___126-[NDOCoverageCentralViewControllerLegacy getAllDeviceInfoUsingPolicy:sessionID:params:isSales:andForcePostFollowup:withReply:]_block_invoke_2.cold.2
+- ___126-[NDOCoverageCentralViewControllerLegacy getAllDeviceInfoUsingPolicy:sessionID:params:isSales:andForcePostFollowup:withReply:]_block_invoke_2.cold.3
+- ___126-[NDOCoverageCentralViewControllerLegacy getAllDeviceInfoUsingPolicy:sessionID:params:isSales:andForcePostFollowup:withReply:]_block_invoke_2.cold.4
+- ___127-[NDOAppleCareAMSUIViewController _prepareRequestWithWarranty:serialNumber:source:isMultiCall:url:deeplinkParams:purchaseBody:]_block_invoke
+- ___127-[NDOAppleCareAMSUIViewController _prepareRequestWithWarranty:serialNumber:source:isMultiCall:url:deeplinkParams:purchaseBody:]_block_invoke.31
+- ___32+[NDOImageManager sharedManager]_block_invoke
+- ___37-[NDOWarrantyInfoController loadView]_block_invoke
+- ___37-[NDOWarrantyInfoController loadView]_block_invoke_2
+- ___38-[NDOWarrantyInfoController _refresh:]_block_invoke
+- ___38-[NDOWarrantyInfoController _refresh:]_block_invoke_2
+- ___39-[NDOWarrantyInfoController specifiers]_block_invoke
+- ___40-[NDOCoverageItemCell updateDeviceImage]_block_invoke
+- ___40-[NDOCoverageItemCell updateDeviceImage]_block_invoke.cold.1
+- ___41-[NDOWarrantyInfoController donePressed:]_block_invoke
+- ___45-[NDOWarrantyBenefitsViewController loadView]_block_invoke
+- ___46-[NDOSupportAppTableViewCell openButtonAction]_block_invoke
+- ___46-[NDOSupportAppTableViewCell openButtonAction]_block_invoke.cold.1
+- ___46-[NDOWarrantyInfoController _errorStateConfig]_block_invoke
+- ___47-[NDOWarrantyInfoController managePlanPressed:]_block_invoke
+- ___47-[NDOWarrantyInfoController managePlanPressed:]_block_invoke.189
+- ___47-[NDOWarrantyInfoController managePlanPressed:]_block_invoke.191
+- ___50-[NDOCoverageCentralViewControllerLegacy loadView]_block_invoke
+- ___50-[NDOCoverageCentralViewControllerLegacy loadView]_block_invoke.cold.1
+- ___52-[NDOWarrantyInfoController benefitsDescLinkTapped:]_block_invoke
+- ___53-[NDOCoverageCentralViewControllerLegacy updateCells]_block_invoke
+- ___54-[NDOCoverageCentralViewControllerLegacy dismissAMSUI]_block_invoke
+- ___54-[NDOImageManager fetchImageWithURLString:completion:]_block_invoke
+- ___54-[NDOImageManager fetchImageWithURLString:completion:]_block_invoke.14
+- ___54-[NDOImageManager fetchImageWithURLString:completion:]_block_invoke.5
+- ___54-[NDOImageManager fetchImageWithURLString:completion:]_block_invoke.6
+- ___54-[NDOImageManager fetchImageWithURLString:completion:]_block_invoke.cold.1
+- ___54-[NDOImageManager fetchImageWithURLString:completion:]_block_invoke.cold.2
+- ___54-[NDOImageManager fetchImageWithURLString:completion:]_block_invoke.cold.3
+- ___54-[NDOImageManager fetchImageWithURLString:completion:]_block_invoke_2
+- ___57-[NDOACController updateSpecifiersWithCompletionHandler:]_block_invoke_2
+- ___57-[NDOWarrantyInfoController specifierForID:inSpecifiers:]_block_invoke
+- ___59-[NDOCoverageCentralViewControllerLegacy _errorStateConfig]_block_invoke
+- ___59-[NDOSupportAppTableViewCell lockupView:appStateDidChange:]_block_invoke
+- ___59-[NDOSupportAppTableViewCell lockupView:appStateDidChange:]_block_invoke.cold.1
+- ___62-[NDOCoverageCentralViewControllerLegacy fetchAllLocalDevices]_block_invoke
+- ___67-[NDOCoverageCentralViewControllerLegacy handleURL:withCompletion:]_block_invoke
+- ___67-[NDOCoverageCentralViewControllerLegacy handleURL:withCompletion:]_block_invoke.90
+- ___68-[NDOCoverageCentralViewControllerLegacy completeWithStatus:params:]_block_invoke
+- ___68-[NDOCoverageCentralViewControllerLegacy completeWithStatus:params:]_block_invoke.162
+- ___68-[NDOCoverageCentralViewControllerLegacy openAMSUIWithURL:httpBody:]_block_invoke
+- ___70-[NDOWarrantyInfoController updateAppSupportSpecifiersWithSpecifiers:]_block_invoke
+- ___70-[NDOWarrantyInfoController updateAppSupportSpecifiersWithSpecifiers:]_block_invoke_2
+- ___83-[NDOCoverageCentralViewControllerLegacy _getUpdatedParamsFromPath:withCompletion:]_block_invoke
+- ___85-[NDOACController forceUpdateSpecifiersAndForceUpdateFollowup:withCompletionHandler:]_block_invoke
+- ___86-[NDOWarrantyInfoController outreachFinishedForDeviceWithSerialNumber:withCompletion:]_block_invoke
+- ___86-[NDOWarrantyInfoController outreachFinishedForDeviceWithSerialNumber:withCompletion:]_block_invoke.215
+- ___86-[NDOWarrantyInfoController outreachFinishedForDeviceWithSerialNumber:withCompletion:]_block_invoke.217
+- ___86-[NDOWarrantyInfoController outreachFinishedForDeviceWithSerialNumber:withCompletion:]_block_invoke.225
+- ___86-[NDOWarrantyInfoController outreachFinishedForDeviceWithSerialNumber:withCompletion:]_block_invoke_2
+- ___86-[NDOWarrantyInfoController outreachFinishedForDeviceWithSerialNumber:withCompletion:]_block_invoke_2.226
+- ___92-[NDOCoverageCentralViewControllerLegacy _refreshAndForcePostFollowUp:refreshControlToStop:]_block_invoke
+- ___92-[NDOCoverageCentralViewControllerLegacy _refreshAndForcePostFollowUp:refreshControlToStop:]_block_invoke_2
+- ___92-[NDOCoverageCentralViewControllerLegacy _refreshAndForcePostFollowUp:refreshControlToStop:]_block_invoke_3
+- ___96-[NDOWarrantyInfoController _refreshWithForcedNetworkPolicy:forceUpdateFollowup:withCompletion:]_block_invoke
+- ___96-[NDOWarrantyInfoController _refreshWithForcedNetworkPolicy:forceUpdateFollowup:withCompletion:]_block_invoke.87
+- ___96-[NDOWarrantyInfoController _refreshWithForcedNetworkPolicy:forceUpdateFollowup:withCompletion:]_block_invoke.89
+- ___96-[NDOWarrantyInfoController _refreshWithForcedNetworkPolicy:forceUpdateFollowup:withCompletion:]_block_invoke.90
+- ___96-[NDOWarrantyInfoController _refreshWithForcedNetworkPolicy:forceUpdateFollowup:withCompletion:]_block_invoke.91
+- ___Block_byref_object_copy_
+- ___Block_byref_object_dispose_
+- ___NSDictionary0__struct
+- ___block_descriptor_32_e36_B24?0"NDODevice"8"NSDictionary"16l
+- ___block_descriptor_40_e5_v8?0l
+- ___block_descriptor_40_e8_32bs_e17_v16?0"NSArray"8ls32l8
+- ___block_descriptor_40_e8_32bs_e18_v16?0"NSString"8ls32l8
+- ___block_descriptor_40_e8_32bs_e23_v16?0"NDODeviceInfo"8ls32l8
+- ___block_descriptor_40_e8_32bs_e5_v8?0ls32l8
+- ___block_descriptor_40_e8_32r_e18_v16?0"NSString"8lr32l8
+- ___block_descriptor_40_e8_32s_e17_v16?0"NSArray"8ls32l8
+- ___block_descriptor_40_e8_32s_e18_v16?0"UIAction"8ls32l8
+- ___block_descriptor_40_e8_32s_e27_"AMSPromise"16?0"NSURL"8ls32l8
+- ___block_descriptor_40_e8_32s_e29_v32?0"NSDictionary"8Q16^B24ls32l8
+- ___block_descriptor_40_e8_32s_e5_v8?0ls32l8
+- ___block_descriptor_40_e8_32s_e8_v12?0B8ls32l8
+- ___block_descriptor_40_e8_32w_e22_v16?0"NSDictionary"8lw32l8
+- ___block_descriptor_40_e8_32w_e23_v16?0"NDODeviceInfo"8lw32l8
+- ___block_descriptor_40_e8_32w_e5_v8?0lw32l8
+- ___block_descriptor_48_e8_32bs40w_e18_v16?0"NSString"8lw40l8s32l8
+- ___block_descriptor_48_e8_32s40bs_e17_v16?0"NSArray"8ls32l8s40l8
+- ___block_descriptor_48_e8_32s40bs_e5_v8?0ls40l8s32l8
+- ___block_descriptor_48_e8_32s40r_e28_v32?0"PSSpecifier"8Q16^B24ls32l8r40l8
+- ___block_descriptor_48_e8_32s40s_e29_v32?0"NSDictionary"8Q16^B24ls32l8s40l8
+- ___block_descriptor_48_e8_32s40s_e43_v32?0"NSString"8"NSArray"16"NSString"24ls32l8s40l8
+- ___block_descriptor_48_e8_32s40w_e29_v24?0"UIImage"8"NSError"16lw40l8s32l8
+- ___block_descriptor_48_e8_32s40w_e5_v8?0lw40l8s32l8
+- ___block_descriptor_48_e8_32s_e5_v8?0ls32l8
+- ___block_descriptor_48_e8_32w_e5_v8?0lw32l8
+- ___block_descriptor_56_e8_32s40s48bs_e23_v16?0"NDODeviceInfo"8ls32l8s40l8s48l8
+- ___block_descriptor_56_e8_32s40s48bs_e46_v32?0"NSData"8"NSURLResponse"16"NSError"24ls48l8s32l8s40l8
+- ___block_descriptor_56_e8_32s40s48bs_e5_v8?0ls32l8s40l8s48l8
+- ___block_descriptor_56_e8_32s40s48s_e26_v32?0"NDODevice"8Q16^B24ls32l8s40l8s48l8
+- ___block_descriptor_56_e8_32s40s48w_e5_v8?0lw48l8s32l8s40l8
+- ___block_descriptor_57_e8_32s40s48bs_e23_v16?0"NDODeviceInfo"8ls32l8s40l8s48l8
+- ___block_descriptor_64_e8_32s40bs48r56r_e5_v8?0lr48l8s32l8r56l8s40l8
+- ___block_descriptor_64_e8_32s40bs48r56r_e5_v8?0ls32l8r48l8s40l8r56l8
+- ___block_descriptor_64_e8_32s40s48r56r_e23_v16?0"NDODeviceInfo"8ls32l8s40l8r48l8r56l8
+- ___block_descriptor_64_e8_32s40s48s56bs_e5_v8?0ls32l8s40l8s48l8s56l8
+- ___block_descriptor_64_e8_32s40s48s56s_e5_v8?0ls32l8s40l8s48l8s56l8
+- ___block_descriptor_64_e8_32s40s48s56w_e48_v16?0?<v?"NDOAppleCareAMSUIViewController">8lw56l8s32l8s40l8s48l8
+- ___block_descriptor_81_e8_32s40s48s56r64r_e26_v32?0"NDODevice"8Q16^B24ls32l8s40l8s48l8r56l8r64l8
+- ___block_literal_global.194
+- ___block_literal_global.228
+- ___kCFBooleanTrue
+- ___objc_personality_v0
+- ___stack_chk_fail
+- ___stack_chk_guard
+- __os_log_debug_impl
+- __swift_FORCE_LOAD_$_swiftCoreMedia
+- __swift_FORCE_LOAD_$_swiftCoreMedia_$_NewDeviceOutreachUI
+- _block_copy_helper.13
+- _block_copy_helper.19
+- _block_copy_helper.22
+- _block_copy_helper.25
+- _block_copy_helper.37
+- _block_copy_helper.48
+- _block_copy_helper.5
+- _block_copy_helper.54
+- _block_descriptor.15
+- _block_descriptor.21
+- _block_descriptor.24
+- _block_descriptor.27
+- _block_descriptor.39
+- _block_descriptor.50
+- _block_descriptor.56
+- _block_descriptor.7
+- _block_destroy_helper.14
+- _block_destroy_helper.20
+- _block_destroy_helper.23
+- _block_destroy_helper.26
+- _block_destroy_helper.38
+- _block_destroy_helper.49
+- _block_destroy_helper.55
+- _block_destroy_helper.6
+- _dispatch_get_global_queue
+- _dispatch_group_create
+- _dispatch_group_enter
+- _dispatch_group_leave
+- _dispatch_group_notify
+- _dispatch_queue_attr_make_with_autorelease_frequency
+- _dispatch_queue_create
+- _get_witness_table 7SwiftUI19_ConditionalContentVyACyAA4ViewPAAE08progressE5StyleyQrqd__AA08ProgresseG0Rd__lFQOyAA0hE0VyAA05EmptyE0VAKG_AA08CircularheG0VQo_AA08ModifiedD0VyAeAE11refreshable6actionQryyYaYbc_tFQOyAE8SettingsE22settingsListAppearanceQryFQOyAA0P0Vys5NeverOAA7ForEachVySay5NDOUI12NDODWSectionVGSS017NewDeviceOutreachB00x15WarrantySectionE0VGG_Qo__Qo_AA14_PaddingLayoutVGGACyA0_08NDOErrorE0VAKGGAaDHPA14_AaDHPqd0__AaDHD3_AOHO_A13_AaDHPqd__AaDHD2_A10_HO_A12_AA0E8ModifierHPyHCHCHC_A17_AaDHPA16_AaDHPyHC_AkaDHPyHCHCHC.9
+- _get_witness_table 7SwiftUI19_ConditionalContentVyACyACy5NDOUI17NDODWCoverageViewVAA05EmptyG0VGACyAD07NDOLinkG0VAD010NDODWPromoG0VGGACyAD012NDODWSupportG0VAHGGAA0G0HPAoaTHPAiaTHPAfaTHPyHC_AhaTHPyHCHC_AnaTHPAkaTHPyHC_AmaTHPyHCHCHC_AraTHPAqaTHPyHC_AhaTHPyHCHCHC.8
+- _get_witness_table 7SwiftUI19_ConditionalContentVyACyACyAA08ModifiedD0Vy5NDOUI13NDODeviceViewVAA24_ForegroundStyleModifierVyAA5ColorVGGAF07NDOLinkH0VGACyAF010NDOPlacardH0VACyAF08NDOPromoH0VAUGGGAA05EmptyH0VGAA0H0HPAxAA0_HPAqAA0_HPAnAA0_HPAhAA0_HPyHC_AmA0hK0HPyHCHC_ApAA0_HPyHCHC_AwAA0_HPAsAA0_HPyHC_AvAA0_HPAuAA0_HPyHC_AuAA0_HPyHCHCHCHC_AzAA0_HPyHCHC.17
+- _get_witness_table 7SwiftUI7SectionVyAA4TextVSgAA7ForEachVySay5NDOUI7NDOItemOGSiAA19_ConditionalContentVyANyANyAA08ModifiedJ0VyAI13NDODeviceViewVAA24_ForegroundStyleModifierVyAA5ColorVGGAI07NDOLinkM0VGANyAI010NDOPlacardM0VANyAI08NDOPromoM0VA3_GGGAA05EmptyM0VGGANyAPyAPyAeA16_FlexFrameLayoutVGAA022_EnvironmentKeyWritingP0VyAA0D9AlignmentOGGAA6HStackVyAA05TupleM0VyAI17NDOLoadingMessageVSg_AA6SpacerVAA0M0PAAE08progressmO0yQrqd__AA08ProgressmO0Rd__lFQOyAA08ProgressM0VyA8_A8_G_AA016CircularProgressmO0VQo_SgtGGGSgGAAA29_HPAfAA29_HpAeAA29_HPyHC_HC_A10_AAA29_HPA9_AAA29_HPA6_AAA29_HPA_AAA29_HPAxAA29_HPArAA29_HPyHC_AwA0mP0HPyHCHC_AzAA29_HPyHCHC_A5_AAA29_HPA1_AAA29_HPyHC_A4_AAA29_HPA3_AAA29_HPyHC_A3_AAA29_HPyHCHCHCHC_A8_AAA29_HPyHCHC_HCA43_AAA29_HpA42_AAA29_HPA19_AAA29_HPA13_AAA29_HPAeAA29_HPyHC_A12_AAA45_HPyHCHC_A18_AAA45_HPyHCHC_A41_AAA29_HPyHCHC_HCHC.18
+- _get_witness_table 7SwiftUI7SectionVyAA4TextVSgAA7ForEachVySay5NDOUI9NDODWItemOGSiAA19_ConditionalContentVyANyANyAI17NDODWCoverageViewVAA05EmptyL0VGANyAI07NDOLinkL0VAI010NDODWPromoL0VGGANyAI012NDODWSupportL0VARGGGANyANyAA08ModifiedJ0VyA4_yAeA16_FlexFrameLayoutVGAA30_EnvironmentKeyWritingModifierVyAA0D9AlignmentOGGAA6VStackVyAHySayAI16NDODWFooterModelVGSiAI011NDODWFooterL0VGGGAA6HStackVyAA05TupleL0VyAI17NDOLoadingMessageVSg_AA6SpacerVAA0L0PAAE08progressL5StyleyQrqd__AA08ProgressL5StyleRd__lFQOyAA08ProgressL0VyA2RG_AA016CircularProgressL5StyleVQo_SgtGGGSgGAAA33_HPAfAA33_HpAeAA33_HPyHC_HC_A2_AAA33_HPA1_AAA33_HPAyAA33_HPAsAA33_HPApAA33_HPyHC_ArAA33_HPyHCHC_AxAA33_HPAuAA33_HPyHC_AwAA33_HPyHCHCHC_A0_AAA33_HPA_AAA33_HPyHC_ArAA33_HPyHCHCHC_HCA47_AAA33_HpA46_AAA33_HPA23_AAA33_HPA13_AAA33_HPA7_AAA33_HPAeAA33_HPyHC_A6_AA0lX0HPyHCHC_A12_AAA49_HPyHCHC_A22_AAA33_HPyHCHC_A45_AAA33_HPyHCHC_HCHC.9
+- _kAppAvailabilityType
+- _objc_copyWeak
+- _objc_enumerationMutation
+- _objc_initWeak
+- _objc_msgSend$URL
+- _objc_msgSend$URLForKey:
+- _objc_msgSend$URLQueryAllowedCharacterSet
+- _objc_msgSend$URLWithString:
+- _objc_msgSend$UTF8String
+- _objc_msgSend$UUID
+- _objc_msgSend$UUIDString
+- _objc_msgSend$_addKey:isCopyable:toSpecifiers:
+- _objc_msgSend$_addKey:value:isCopyable:toSpecifiers:
+- _objc_msgSend$_errorStateConfig
+- _objc_msgSend$_getParamsDictFromPath:
+- _objc_msgSend$_getUpdatedParamsFromPath:withCompletion:
+- _objc_msgSend$_initWithID:kind:context:clientID:
+- _objc_msgSend$_initWithWarranty:serialNumber:source:isMultiCall:url:deeplinkParams:purchaseBody:
+- _objc_msgSend$_isValidSubscriptionPlan
+- _objc_msgSend$_noAccountConfig
+- _objc_msgSend$_prepareRequestWithWarranty:serialNumber:source:isMultiCall:url:deeplinkParams:purchaseBody:
+- _objc_msgSend$_refresh:
+- _objc_msgSend$_refreshAndForcePostFollowUp:refreshControlToStop:
+- _objc_msgSend$_refreshWithForcedNetworkPolicy:forceUpdateFollowup:withCompletion:
+- _objc_msgSend$_setContentUnavailableConfiguration:
+- _objc_msgSend$_setValue:forSpecifier:
+- _objc_msgSend$_setupAppSuportCell
+- _objc_msgSend$_setupWarrantyCoverageCell
+- _objc_msgSend$absoluteString
+- _objc_msgSend$acLocalizedOfferCTA
+- _objc_msgSend$acLocalizedOfferDesc
+- _objc_msgSend$acLocalizedUnlinkedPlanLabel
+- _objc_msgSend$acOfferDisplayDate
+- _objc_msgSend$acOfferEligible
+- _objc_msgSend$acOfferEligibleUntil
+- _objc_msgSend$acOfferIdentifier
+- _objc_msgSend$actionWithHandler:
+- _objc_msgSend$addArrangedSubview:
+- _objc_msgSend$addConstraint:
+- _objc_msgSend$addFooterLabelToSpecifier:
+- _objc_msgSend$addObject:
+- _objc_msgSend$addObjectsFromArray:
+- _objc_msgSend$addObserver:selector:name:object:
+- _objc_msgSend$addSectionWithHeader:content:
+- _objc_msgSend$addTarget:action:forControlEvents:
+- _objc_msgSend$agsULURL
+- _objc_msgSend$allLocalDevices
+- _objc_msgSend$allValues
+- _objc_msgSend$amsLoadingViewController
+- _objc_msgSend$ams_activeiTunesAccount
+- _objc_msgSend$appSupportDictionary
+- _objc_msgSend$appSupportDictionaryWithReply:
+- _objc_msgSend$appendString:
+- _objc_msgSend$array
+- _objc_msgSend$arrayWithObjects:count:
+- _objc_msgSend$benefitDetailsArray
+- _objc_msgSend$bodyDescription
+- _objc_msgSend$boolValue
+- _objc_msgSend$bounds
+- _objc_msgSend$bundleWithPath:
+- _objc_msgSend$buttonProperties
+- _objc_msgSend$callStackSymbols
+- _objc_msgSend$clearAllUserInitiatedFollowUpDismissalsWithReply:
+- _objc_msgSend$clearUserInitiatedFollowUpDismissalForSerialNumber:withReply:
+- _objc_msgSend$clientConfiguration
+- _objc_msgSend$colorWithAlphaComponent:
+- _objc_msgSend$completeWithStatus:
+- _objc_msgSend$completeWithStatus:params:
+- _objc_msgSend$componentsSeparatedByString:
+- _objc_msgSend$componentsWithString:
+- _objc_msgSend$configuration
+- _objc_msgSend$constraintWithItem:attribute:relatedBy:toItem:attribute:multiplier:constant:
+- _objc_msgSend$constraints
+- _objc_msgSend$containsView:
+- _objc_msgSend$contentView
+- _objc_msgSend$copy
+- _objc_msgSend$count
+- _objc_msgSend$countByEnumeratingWithState:objects:count:
+- _objc_msgSend$coverageDetailsArray
+- _objc_msgSend$coverageDetailsDictionary
+- _objc_msgSend$coverageEndDate
+- _objc_msgSend$coverageHasACLogo
+- _objc_msgSend$coverageItemSubTitle:
+- _objc_msgSend$coverageLocalizedDesc
+- _objc_msgSend$coverageLocalizedExpirationLabel
+- _objc_msgSend$coverageLocalizedLabel
+- _objc_msgSend$ctaTextWithDevice:
+- _objc_msgSend$ctaTextWithWarranty:forDate:
+- _objc_msgSend$dataTaskWithURL:completionHandler:
+- _objc_msgSend$dataWithJSONObject:options:error:
+- _objc_msgSend$date
+- _objc_msgSend$deactivateConstraints:
+- _objc_msgSend$deeplinkParams
+- _objc_msgSend$defaultCenter
+- _objc_msgSend$defaultDevice
+- _objc_msgSend$detailTextLabel
+- _objc_msgSend$deviceImageUrl
+- _objc_msgSend$deviceInfoDict
+- _objc_msgSend$deviceInfoWithDevice:warranty:
+- _objc_msgSend$deviceList
+- _objc_msgSend$deviceListAPISections
+- _objc_msgSend$deviceLoadCompleted
+- _objc_msgSend$deviceType
+- _objc_msgSend$deviceTypeString
+- _objc_msgSend$dictionary
+- _objc_msgSend$dictionaryWithObjects:forKeys:count:
+- _objc_msgSend$dismissAMSUI
+- _objc_msgSend$dismissBlock
+- _objc_msgSend$dismissFollowUpForSerialNumber:completion:
+- _objc_msgSend$displayRepairAndSupport
+- _objc_msgSend$emptyGroupSpecifier
+- _objc_msgSend$emptyProminentConfiguration
+- _objc_msgSend$endRefreshing
+- _objc_msgSend$enumerateObjectsUsingBlock:
+- _objc_msgSend$errorUI
+- _objc_msgSend$errorWithDomain:code:userInfo:
+- _objc_msgSend$fetchAllDeviceInfoUsingPolicy:sessionID:params:isSales:withReply:
+- _objc_msgSend$fetchAllLocalDevices
+- _objc_msgSend$fetchImageWithURLString:completion:
+- _objc_msgSend$filteredArrayUsingPredicate:
+- _objc_msgSend$firstObject
+- _objc_msgSend$font
+- _objc_msgSend$footer1FormatString
+- _objc_msgSend$footer1LinkLabel
+- _objc_msgSend$footer1LinkURL
+- _objc_msgSend$footer2FormatString
+- _objc_msgSend$footer2LinkLabel
+- _objc_msgSend$footer2LinkURL
+- _objc_msgSend$forceUpdateSpecifiersAndForceUpdateFollowup:withCompletionHandler:
+- _objc_msgSend$frame
+- _objc_msgSend$generalAboutPolicy
+- _objc_msgSend$getDecodedParamsForPath:withReply:
+- _objc_msgSend$getDefaultDeviceInfoUsingForceCachedPolicy
+- _objc_msgSend$getDeviceInfoForSerialNumber:usingPolicy:sessionID:params:andForcePostFollowup:withReply:
+- _objc_msgSend$getDeviceInfoUsingForceCachedPolicyForSerialNumber:
+- _objc_msgSend$getDeviceListForLocalDevices:sessionID:policy:params:salesReplyOnly:salesInfoReply:deviceInfoReply:completionBlock:
+- _objc_msgSend$groupSpecifierWithID:name:
+- _objc_msgSend$hasLoaded
+- _objc_msgSend$hasPrefix:
+- _objc_msgSend$headerDescription
+- _objc_msgSend$hideUI
+- _objc_msgSend$identifier
+- _objc_msgSend$imageCache
+- _objc_msgSend$imageNamed:inBundle:withConfiguration:
+- _objc_msgSend$imageWithData:
+- _objc_msgSend$initPrivate
+- _objc_msgSend$initWithBag:account:clientInfo:
+- _objc_msgSend$initWithBarButtonSystemItem:target:action:
+- _objc_msgSend$initWithFrame:
+- _objc_msgSend$initWithImage:
+- _objc_msgSend$initWithIsSignedIn:deviceManager:
+- _objc_msgSend$initWithMetadata:action:
+- _objc_msgSend$initWithSpecifier:
+- _objc_msgSend$initWithStringValue:
+- _objc_msgSend$initWithTitleBackgroundColor:titleTextColor:titleTextDisabledColor:subtitleTextColor:iconTintColor:progressColor:
+- _objc_msgSend$initWithViewController:
+- _objc_msgSend$initWithWarranty:
+- _objc_msgSend$initWithWarranty:presentationType:
+- _objc_msgSend$initWithWarranty:presentationType:serialNumber:
+- _objc_msgSend$initWithWarranty:serialNumber:source:url:purchaseBody:deeplinkParams:
+- _objc_msgSend$insertContiguousSpecifiers:afterSpecifierID:animated:
+- _objc_msgSend$isACServicesPartner
+- _objc_msgSend$isBeingDismissed
+- _objc_msgSend$isCoveragePlanSubscriptionType
+- _objc_msgSend$isEqual:
+- _objc_msgSend$isHidden
+- _objc_msgSend$isMainThread
+- _objc_msgSend$isMovingFromParentViewController
+- _objc_msgSend$isNotEmptyString:
+- _objc_msgSend$isSignedIn
+- _objc_msgSend$isSignedIntoAppleAccount
+- _objc_msgSend$isVisibleInCC
+- _objc_msgSend$isWarrantyValid
+- _objc_msgSend$itemImageView
+- _objc_msgSend$itemOfferLabel
+- _objc_msgSend$itemSubtitleLabel
+- _objc_msgSend$itemTitleLabel
+- _objc_msgSend$itemTitleView
+- _objc_msgSend$label
+- _objc_msgSend$lastCoverageSpecifier
+- _objc_msgSend$lastDetailSpecifier
+- _objc_msgSend$lastObject
+- _objc_msgSend$launchedWithUrl
+- _objc_msgSend$layoutMarginsGuide
+- _objc_msgSend$layoutSubviews
+- _objc_msgSend$length
+- _objc_msgSend$loadBagValue:
+- _objc_msgSend$loadingConfiguration
+- _objc_msgSend$localizedBenefitsCardFooter
+- _objc_msgSend$localizedBenefitsCardSubTitle
+- _objc_msgSend$localizedBenefitsCardTitle
+- _objc_msgSend$localizedCoverageDetailsTitle
+- _objc_msgSend$localizedCoverageFooterFormatString
+- _objc_msgSend$localizedCoverageFooterLinkLabel
+- _objc_msgSend$localizedCoverageSubTitleForServicesPartnerString
+- _objc_msgSend$localizedManagePlanLabel
+- _objc_msgSend$localizedStringForKey:value:table:
+- _objc_msgSend$localizedSupportAppFooter
+- _objc_msgSend$lockup
+- _objc_msgSend$lockupView
+- _objc_msgSend$lockupWithOffer:
+- _objc_msgSend$lowercaseString
+- _objc_msgSend$name
+- _objc_msgSend$null
+- _objc_msgSend$numberWithBool:
+- _objc_msgSend$numberWithDouble:
+- _objc_msgSend$objectAtIndexedSubscript:
+- _objc_msgSend$objectForKeyedSubscript:
+- _objc_msgSend$offer
+- _objc_msgSend$offerTextForDevice:
+- _objc_msgSend$offerTextForDeviceInfo:
+- _objc_msgSend$onViewIsAppearing
+- _objc_msgSend$openAMSUIWithURL:httpBody:
+- _objc_msgSend$openButtonAction
+- _objc_msgSend$openURL:
+- _objc_msgSend$openURL:options:completionHandler:
+- _objc_msgSend$orangeColor
+- _objc_msgSend$pairedBTDevices
+- _objc_msgSend$pairedDevices
+- _objc_msgSend$pairedWatches
+- _objc_msgSend$plainButtonConfiguration
+- _objc_msgSend$postCAEventFor:eventDict:
+- _objc_msgSend$postCAEventWithDeviceInfo:
+- _objc_msgSend$postNotificationName:object:
+- _objc_msgSend$predicateWithBlock:
+- _objc_msgSend$preferredFontForTextStyle:
+- _objc_msgSend$presentationController
+- _objc_msgSend$previousAppSupportAvailabilityType
+- _objc_msgSend$primaryLabel
+- _objc_msgSend$primaryTheme
+- _objc_msgSend$productPlaceholderImage
+- _objc_msgSend$progressColor
+- _objc_msgSend$promiseWithResult:
+- _objc_msgSend$pushViewController:animated:
+- _objc_msgSend$queryItemWithName:value:
+- _objc_msgSend$rangeOfString:
+- _objc_msgSend$recordCampaignToken:providerToken:withLockup:
+- _objc_msgSend$registerForTraitChanges:withAction:
+- _objc_msgSend$reloadInProgress
+- _objc_msgSend$reloadSpecifiers
+- _objc_msgSend$removeAllObjects
+- _objc_msgSend$removeArrangedSubview:
+- _objc_msgSend$requestProvider
+- _objc_msgSend$requestWithURL:
+- _objc_msgSend$resetCache
+- _objc_msgSend$resume
+- _objc_msgSend$secondaryLabel
+- _objc_msgSend$secondaryLabelColor
+- _objc_msgSend$sessionID
+- _objc_msgSend$setAccessibilityLabel:
+- _objc_msgSend$setAllLocalDevices:
+- _objc_msgSend$setAmsLoadingViewController:
+- _objc_msgSend$setAppSupportDictionary:
+- _objc_msgSend$setAxis:
+- _objc_msgSend$setCellEnabled:
+- _objc_msgSend$setConfiguration:
+- _objc_msgSend$setConstraints:
+- _objc_msgSend$setContentCompressionResistancePriority:forAxis:
+- _objc_msgSend$setContentHuggingPriority:forAxis:
+- _objc_msgSend$setDateStyle:
+- _objc_msgSend$setDeeplinkParams:
+- _objc_msgSend$setDefaultDevice:
+- _objc_msgSend$setDeviceInfoDict:
+- _objc_msgSend$setDeviceListAPISections:
+- _objc_msgSend$setDeviceLoadCompleted:
+- _objc_msgSend$setDeviceSequenceDict:
+- _objc_msgSend$setDismissBlock:
+- _objc_msgSend$setFont:
+- _objc_msgSend$setFrame:
+- _objc_msgSend$setHasLoaded:
+- _objc_msgSend$setHidden:
+- _objc_msgSend$setImage:
+- _objc_msgSend$setIsSignedIn:
+- _objc_msgSend$setLastCoverageSpecifier:
+- _objc_msgSend$setLastDetailSpecifier:
+- _objc_msgSend$setLaunchedWithUrl:
+- _objc_msgSend$setLayoutMargins:
+- _objc_msgSend$setLockup:
+- _objc_msgSend$setLockupView:
+- _objc_msgSend$setNdoManager:
+- _objc_msgSend$setNeedsLayout
+- _objc_msgSend$setNeedsUpdateConstraints
+- _objc_msgSend$setNumberOfLines:
+- _objc_msgSend$setObject:forKey:
+- _objc_msgSend$setObject:forKeyedSubscript:
+- _objc_msgSend$setOfferTheme:
+- _objc_msgSend$setOnViewIsAppearing:
+- _objc_msgSend$setOpaque:
+- _objc_msgSend$setPairedDevices:
+- _objc_msgSend$setPresentor:
+- _objc_msgSend$setPreviousAppSupportAvailabilityType:
+- _objc_msgSend$setPrimaryAction:
+- _objc_msgSend$setPrimaryLabel:
+- _objc_msgSend$setPriority:
+- _objc_msgSend$setProperties:
+- _objc_msgSend$setQueryItems:
+- _objc_msgSend$setRefreshControl:
+- _objc_msgSend$setReloadInProgress:
+- _objc_msgSend$setRequest:
+- _objc_msgSend$setSecondaryLabel:
+- _objc_msgSend$setSecondaryText:
+- _objc_msgSend$setSessionID:
+- _objc_msgSend$setShouldRefreshOnAppear:
+- _objc_msgSend$setSize:
+- _objc_msgSend$setSpacing:
+- _objc_msgSend$setSpecifier:
+- _objc_msgSend$setStackView:
+- _objc_msgSend$setText:
+- _objc_msgSend$setTextAlignment:
+- _objc_msgSend$setTextColor:
+- _objc_msgSend$setTimeStyle:
+- _objc_msgSend$setTimeZone:
+- _objc_msgSend$setTimeoutInterval:
+- _objc_msgSend$setTitle:
+- _objc_msgSend$setUlSalesURL:
+- _objc_msgSend$sharedManager
+- _objc_msgSend$sharedMetrics
+- _objc_msgSend$sharedSession
+- _objc_msgSend$shouldShowDeviceListUI
+- _objc_msgSend$showUI
+- _objc_msgSend$sizeThatFits:
+- _objc_msgSend$sourceFromDeviceType
+- _objc_msgSend$specifierForID:inSpecifiers:
+- _objc_msgSend$stackView
+- _objc_msgSend$storeLocaleHeader
+- _objc_msgSend$stringByAddingPercentEncodingWithAllowedCharacters:
+- _objc_msgSend$stringByAppendingFormat:
+- _objc_msgSend$stringByAppendingString:
+- _objc_msgSend$stringByRemovingPercentEncoding
+- _objc_msgSend$stringFromDate:
+- _objc_msgSend$stringValue
+- _objc_msgSend$stringWithFormat:
+- _objc_msgSend$stringWithString:
+- _objc_msgSend$subtitleTextColor
+- _objc_msgSend$supportAppURL
+- _objc_msgSend$systemGrayColor
+- _objc_msgSend$systemOrangeColor
+- _objc_msgSend$table
+- _objc_msgSend$text
+- _objc_msgSend$textLabel
+- _objc_msgSend$textMetadataWithTitle:subtitle:
+- _objc_msgSend$timeIntervalSinceNow
+- _objc_msgSend$timeZoneForSecondsFromGMT:
+- _objc_msgSend$titleBackgroundColor
+- _objc_msgSend$titleLabel
+- _objc_msgSend$transformWithBlock:
+- _objc_msgSend$type
+- _objc_msgSend$ulWebURLOverride:
+- _objc_msgSend$unregisterForTraitChanges:
+- _objc_msgSend$updateAppStoreLookupWithSpecifiers:
+- _objc_msgSend$updateAppSupportSpecifiersWithSpecifiers:
+- _objc_msgSend$updateCells
+- _objc_msgSend$updateDefaultDeviceWithDeviceInfo:
+- _objc_msgSend$updateDeviceImage
+- _objc_msgSend$updateDeviceInfoForDevice:usingPolicy:params:forceUpdateFollowup:withReply:
+- _objc_msgSend$updateSpecifiersWithCompletionHandler:
+- _objc_msgSend$valueLabel
+- _objc_msgSend$valueWithNonretainedObject:
+- _objc_msgSend$viewController
+- _objc_msgSend$webURLOverride:
+- _objc_opt_class
+- _objc_opt_isKindOfClass
+- _objc_retainAutorelease
+- _objc_retainBlock
+- _objc_retain_x1
+- _objc_retain_x4
+- _objc_setProperty_nonatomic_copy
+- _objc_unsafeClaimAutoreleasedReturnValue
+- _objectdestroy.12Tm
+- _objectdestroy.2Tm
+- _objectdestroy.57Tm
+- _objectdestroyTm
+- _sharedManager.onceToken
+- _sharedManager.shared
+- _swift_cvw_initEnumMetadataMultiPayloadWithLayoutString
+- _swift_cvw_multiPayloadEnumGeneric_destructiveInjectEnumTag
+- _swift_cvw_multiPayloadEnumGeneric_getEnumTag
+- _symbolic SS_ypt
+- _symbolic _____ 19NewDeviceOutreachUI9NDOErrorsO
+- _symbolic _____ 5NDOUI12NDOUIDWStateO
+- _symbolic _____Sg 5NDOUI30NDOLocalDeviceWarrantyResponseV
+- _symbolic _____Sg 5NDOUI31NDOLocalCoverageCentralResponseV
+- _symbolic ______AAt 19NewDeviceOutreachUI9NDOErrorsO
+- _symbolic _____yAAy_____yABy__________G_____y_____GG_____y_____ySay_____GSi_____GGG_____y_____y_____Sg___________y_____y_____AXG______Qo_SgtGGG 7SwiftUI19_ConditionalContentV AA08ModifiedD0V AA4TextV AA16_FlexFrameLayoutV AA30_EnvironmentKeyWritingModifierV AA0F9AlignmentO AA6VStackV AA7ForEachV 5NDOUI16NDODWFooterModelV AR0S4ViewV AA6HStackV AA05TupleU0V AR17NDOLoadingMessageV AA6SpacerV AA0U0PAAE08progressU5StyleyQrqd__AA08ProgressU5StyleRd__lFQO AA08ProgressU0V AA05EmptyU0V AA016CircularProgressU5StyleV
+- _symbolic _____yAAy_____yABy__________G_____y_____GG_____y_____ySay_____GSi_____GGG_____y_____y_____Sg___________y_____y_____AXG______Qo_SgtGGGSg 7SwiftUI19_ConditionalContentV AA08ModifiedD0V AA4TextV AA16_FlexFrameLayoutV AA30_EnvironmentKeyWritingModifierV AA0F9AlignmentO AA6VStackV AA7ForEachV 5NDOUI16NDODWFooterModelV AR0S4ViewV AA6HStackV AA05TupleU0V AR17NDOLoadingMessageV AA6SpacerV AA0U0PAAE08progressU5StyleyQrqd__AA08ProgressU5StyleRd__lFQO AA08ProgressU0V AA05EmptyU0V AA016CircularProgressU5StyleV
+- _symbolic _____yAAy_____y_____y_____ACG______Qo______y_____y_____y_____y__________ySay_____GSS_____GG_Qo__Qo______GGAAy_____ACGG 7SwiftUI19_ConditionalContentV AA4ViewPAAE08progressE5StyleyQrqd__AA08ProgresseG0Rd__lFQO AA0hE0V AA05EmptyE0V AA08CircularheG0V AA08ModifiedD0V AeAE11refreshable6actionQryyYaYbc_tFQO AE8SettingsE22settingsListAppearanceQryFQO AA0P0V s5NeverO AA7ForEachV 5NDOUI12NDODWSectionV 017NewDeviceOutreachB00x15WarrantySectionE0V AA14_PaddingLayoutV AZ08NDOErrorE0V
+- _symbolic _____y_____Sg_____ySay_____GSi_____yAGyAGy__________GAGy__________GGAGy_____AIGGGAGyAGy_____yASyAB_____G_____y_____GG_____yADySay_____GSi_____GGG_____y_____y_____Sg___________y_____yA2IG______Qo_SgtGGGSgG 7SwiftUI7SectionV AA4TextV AA7ForEachV 5NDOUI9NDODWItemO AA19_ConditionalContentV AH17NDODWCoverageViewV AA05EmptyL0V AH07NDOLinkL0V AH010NDODWPromoL0V AH012NDODWSupportL0V AA08ModifiedJ0V AA16_FlexFrameLayoutV AA30_EnvironmentKeyWritingModifierV AA0D9AlignmentO AA6VStackV AH16NDODWFooterModelV AH011NDODWFooterL0V AA6HStackV AA05TupleL0V AH17NDOLoadingMessageV AA6SpacerV AA0L0PAAE08progressL5StyleyQrqd__AA08ProgressL5StyleRd__lFQO AA08ProgressL0V AA016CircularProgressL5StyleV
+- _symbolic _____y_____Sg_____ySay_____GSi_____yAGyAGy_____y__________y_____GG_____GAGy_____AGy_____AQGGG_____GGAGyAHyAHyAB_____G_____y_____GG_____y_____y_____Sg___________y_____yA2UG______Qo_SgtGGGSgG 7SwiftUI7SectionV AA4TextV AA7ForEachV 5NDOUI7NDOItemO AA19_ConditionalContentV AA08ModifiedJ0V AH13NDODeviceViewV AA24_ForegroundStyleModifierV AA5ColorV AH07NDOLinkM0V AH010NDOPlacardM0V AH08NDOPromoM0V AA05EmptyM0V AA16_FlexFrameLayoutV AA022_EnvironmentKeyWritingP0V AA0D9AlignmentO AA6HStackV AA05TupleM0V AH17NDOLoadingMessageV AA6SpacerV AA0M0PAAE08progressmO0yQrqd__AA08ProgressmO0Rd__lFQO AA08ProgressM0V AA016CircularProgressmO0V
+- _symbolic _____y___________y_____Sg___________y_____y_____AHG______Qo_SgtGG 7SwiftUI13_VariadicViewO4TreeV AA13_HStackLayoutV AA05TupleD0V 5NDOUI17NDOLoadingMessageV AA6SpacerV AA0D0PAAE08progressD5StyleyQrqd__AA08ProgressdN0Rd__lFQO AA0oD0V AA05EmptyD0V AA08CircularodN0V
+- _symbolic _____y_____yABy__________G_____y_____GG_____y_____y_____Sg___________y_____y_____APG______Qo_SgtGGG 7SwiftUI19_ConditionalContentV AA08ModifiedD0V AA4TextV AA16_FlexFrameLayoutV AA30_EnvironmentKeyWritingModifierV AA0F9AlignmentO AA6HStackV AA9TupleViewV 5NDOUI17NDOLoadingMessageV AA6SpacerV AA0Q0PAAE08progressQ5StyleyQrqd__AA08ProgressqW0Rd__lFQO AA0xQ0V AA05EmptyQ0V AA08CircularxqW0V
+- _symbolic _____y_____yABy__________G_____y_____GG_____y_____y_____Sg___________y_____y_____APG______Qo_SgtGGGSg 7SwiftUI19_ConditionalContentV AA08ModifiedD0V AA4TextV AA16_FlexFrameLayoutV AA30_EnvironmentKeyWritingModifierV AA0F9AlignmentO AA6HStackV AA9TupleViewV 5NDOUI17NDOLoadingMessageV AA6SpacerV AA0Q0PAAE08progressQ5StyleyQrqd__AA08ProgressqW0Rd__lFQO AA0xQ0V AA05EmptyQ0V AA08CircularxqW0V
+- _symbolic _____y_____yABy__________G_____y_____GG_____y_____y_____Sg___________y_____y_____APG______Qo_SgtGG_G 7SwiftUI19_ConditionalContentV7StorageO AA08ModifiedD0V AA4TextV AA16_FlexFrameLayoutV AA30_EnvironmentKeyWritingModifierV AA0G9AlignmentO AA6HStackV AA9TupleViewV 5NDOUI17NDOLoadingMessageV AA6SpacerV AA0R0PAAE08progressR5StyleyQrqd__AA08ProgressrX0Rd__lFQO AA0yR0V AA05EmptyR0V AA08CircularyrX0V
+- _symbolic _____y_____y_____Sg___________y_____y_____AGG______Qo_SgtGG 7SwiftUI6HStackV AA9TupleViewV 5NDOUI17NDOLoadingMessageV AA6SpacerV AA0E0PAAE08progressE5StyleyQrqd__AA08ProgresseK0Rd__lFQO AA0lE0V AA05EmptyE0V AA08CircularleK0V
+- _symbolic _____y_____y_____yACy__________G_____y_____GG_____y_____ySay_____GSi_____GGG_____y_____y_____Sg___________y_____y_____AYG______Qo_SgtGG_G 7SwiftUI19_ConditionalContentV7StorageO AC AA08ModifiedD0V AA4TextV AA16_FlexFrameLayoutV AA30_EnvironmentKeyWritingModifierV AA0G9AlignmentO AA6VStackV AA7ForEachV 5NDOUI16NDODWFooterModelV AT0T4ViewV AA6HStackV AA05TupleV0V AT17NDOLoadingMessageV AA6SpacerV AA0V0PAAE08progressV5StyleyQrqd__AA08ProgressV5StyleRd__lFQO AA08ProgressV0V AA05EmptyV0V AA016CircularProgressV5StyleV
+- _symbolic _____y_____y_____y_____ACG______Qo______y_____y_____y_____y__________ySay_____GSS_____GG_Qo__Qo______GG 7SwiftUI19_ConditionalContentV AA4ViewPAAE08progressE5StyleyQrqd__AA08ProgresseG0Rd__lFQO AA0hE0V AA05EmptyE0V AA08CircularheG0V AA08ModifiedD0V AeAE11refreshable6actionQryyYaYbc_tFQO AE8SettingsE22settingsListAppearanceQryFQO AA0P0V s5NeverO AA7ForEachV 5NDOUI12NDODWSectionV 017NewDeviceOutreachB00x15WarrantySectionE0V AA14_PaddingLayoutV
+- _symbolic _____y_____y_____y_____ACG______Qo______y_____y_____y_____y__________ySay_____GSS_____GG_Qo__Qo______G_G 7SwiftUI19_ConditionalContentV7StorageO AA4ViewPAAE08progressF5StyleyQrqd__AA08ProgressfH0Rd__lFQO AA0iF0V AA05EmptyF0V AA08CircularifH0V AA08ModifiedD0V AgAE11refreshable6actionQryyYaYbc_tFQO AG8SettingsE22settingsListAppearanceQryFQO AA0Q0V s5NeverO AA7ForEachV 5NDOUI12NDODWSectionV 017NewDeviceOutreachB00y15WarrantySectionF0V AA14_PaddingLayoutV
+- _symbolic _____y_____y_____y_____y_____ADG______Qo______y_____y_____y_____y__________ySay_____GSS_____GG_Qo__Qo______GGABy_____ADG_G 7SwiftUI19_ConditionalContentV7StorageO AC AA4ViewPAAE08progressF5StyleyQrqd__AA08ProgressfH0Rd__lFQO AA0iF0V AA05EmptyF0V AA08CircularifH0V AA08ModifiedD0V AgAE11refreshable6actionQryyYaYbc_tFQO AG8SettingsE22settingsListAppearanceQryFQO AA0Q0V s5NeverO AA7ForEachV 5NDOUI12NDODWSectionV 017NewDeviceOutreachB00y15WarrantySectionF0V AA14_PaddingLayoutV A0_08NDOErrorF0V
+- _symbolic _____y_____y_____y_____y__________ySay_____GSS_____GG_____G_Qo__Qo_ 7SwiftUI4ViewPAAE11refreshable6actionQryyYaYbc_tFQO AC8SettingsE22settingsListAppearanceQryFQO AA15ModifiedContentV AA0H0V s5NeverO AA7ForEachV 5NDOUI10NDOSectionV 017NewDeviceOutreachB0022CoverageCentralSectionC0V AA14_PaddingLayoutV
+CStrings:
++ "%s.%s not refreshing warranty data after loading it from cache because cache is not stale yet."
++ "%s.%s refreshing warranty data after loading it from cache because cache is stale or missing info to determine if cache is stale."
++ "%s:%s - specifier from PSController is unexpectedly null. Cannot handle deeplink or load content"
++ "Accessing Environment<%s>'s value outside of being installed on a View. This will always read the default value and will not update."
++ "AppendSettingsNavigationPathAction"
++ "Deeplink path cleared, reloading coverage central"
++ "HANDOFF_CONTINUE_GENERIC"
++ "HANDOFF_CONTINUE_INFO"
++ "HANDOFF_CONTINUE_OTHER"
++ "NewDeviceOutreachUI/DeviceWarrantyViewModel.swift"
++ "NewDeviceOutreachUI/NDOCoverageCentralViewController.swift"
++ "SWITCH_PROFILE_ALERT_CANCEL"
++ "SWITCH_PROFILE_ALERT_MESSAGE"
++ "SWITCH_PROFILE_ALERT_TITLE"
++ "Sending error state"
++ "Skipping stale coverage central embed (generation %ld != %ld)"
++ "Skipping stale onDismiss load (generation %ld != %ld)"
++ "Skipping stale reload (generation %ld != %ld)"
++ "Skipping stale universal link embed (generation %ld != %ld)"
++ "Unexpected state: no loaded sections, not actively loading, no error"
++ "iPad_iPhone_White"
++ "viewWillAppear(_:)"
+- ""
+- "#16@0:8"
+- "%@"
+- "%@\n%@"
+- "%@\n%@\n%@"
+- "%@ %@"
+- "%@%@"
+- "%s"
+- "%s 1"
+- "%s 2"
+- "%s 3"
+- "%s: AMS Body: %@"
+- "%s: AMS Headers: %@"
+- "%s: Beginning amsUI flow with URL: %@"
+- "%s: Cannot create request. No URL for amsui"
+- "%s: Failed to instantiate amsUI flow from: %@"
+- "%s: Using override AMSUI flow URL: %@"
+- "%s: Warranty:%@, sn:%@, source:%@, isMulti:%@ url:%@, deeplinkParams:%@ purchaseBody:%@"
+- "%s: dismissing amsui"
+- "%s: no achostingController, cannot call forceUpdateSpecifiersAndForceUpdateFollowup:withCompletionHandler:"
+- "%s: no achostingController, cannot call updateSpecifiersWithCompletionHandler:"
+- "%s: no settingshostingController, cannot call updateDeviceInfoForDevice:usingPolicy:params:forceUpdateFollowup:withReply:"
+- "%s: refreshing device list"
+- "%s: refreshing summary api"
+- "%{public}@ followup up for %@"
+- "%{public}s"
+- "%{public}s specifierId:%@"
+- "%{public}s:"
+- "%{public}s: %{public}@ followup up for %@"
+- "%{public}s: Device info refreshed after purchase done"
+- "%{public}s: Device info refreshed only."
+- "%{public}s: Failed with error: %@"
+- "%{public}s: Finished Request"
+- "%{public}s: Handle url %@"
+- "%{public}s: Handle url with dict: %@"
+- "%{public}s: Ignoring handle as the user is not signed in to icloud."
+- "%{public}s: NDOACControllerKey: %@"
+- "%{public}s: No active itunes account"
+- "%{public}s: No warranties found"
+- "%{public}s: Not signed in to icloud. Leaving..."
+- "%{public}s: On appear block. Launch url:%@ "
+- "%{public}s: Opening url: %@"
+- "%{public}s: Refreshing device info after purchase done"
+- "%{public}s: Started Request"
+- "%{public}s: Updating default device info with warranty:%@: "
+- "%{public}s: all local devices %@"
+- "%{public}s: amsui payload: %@"
+- "%{public}s: appStateDidChange with action"
+- "%{public}s: appStateDidChange with state: %@"
+- "%{public}s: appSupport added with appSupportDictionary: %@"
+- "%{public}s: appSupport reload completed with appSupportDictionary: %@"
+- "%{public}s: called off main thread with backtrace: %{public}@"
+- "%{public}s: cannot load warranty: no deviceInfo or device to make query"
+- "%{public}s: checking for warranty in settings: %d"
+- "%{public}s: coverageLocalizedLabel nil with deviceInfo: %{private}@"
+- "%{public}s: default device"
+- "%{public}s: default device info: %@ \n dict: %@"
+- "%{public}s: deviceInfo: %@ with url: %@"
+- "%{public}s: fetching devices with params dict: %@"
+- "%{public}s: finished updating warranty"
+- "%{public}s: finishing with device infos: %@"
+- "%{public}s: for device: %@"
+- "%{public}s: generating specifiers from device list api response"
+- "%{public}s: generating specifiers from local cache"
+- "%{public}s: getDeviceListForLocalDevices reply: %@"
+- "%{public}s: isHostSettings == NO, setting specifier deviceInfo: %@"
+- "%{public}s: isHostSettings == YES, setting specifier deviceInfo: %@"
+- "%{public}s: lockupView frame: %@"
+- "%{public}s: params:%{public}s isSales:%{public}d"
+- "%{public}s: refresh completion: specifier: %@, deviceInfo: %@"
+- "%{public}s: refreshing"
+- "%{public}s: refreshing warranty after dismiss"
+- "%{public}s: skipping fetch: not logged in"
+- "%{public}s: sn: %@ with warranty: %@"
+- "%{public}s: starting fetch"
+- "%{public}s: status: %lu, params: %@"
+- "%{public}s: supportApp url: %@"
+- "%{public}s: updateAppSupportSpecifiersWithSpecifiers started: %d"
+- "%{public}s: updated sn: %@ with warranty: %@"
+- "%{public}s: updated: %@ for sn: %@ with warranty: %@"
+- "%{public}s: updating deviceInfo: %@ for sn: %@"
+- "%{public}s: url: %@, httpBody: %@, deeplinkParams: %@"
+- "%{public}s: warranty changed"
+- "%{public}s: warranty not changed"
+- "&"
+- "-[NDOAppleCareAMSUIViewController _initWithWarranty:serialNumber:source:isMultiCall:url:deeplinkParams:purchaseBody:]"
+- "-[NDOAppleCareAMSUIViewController _prepareRequestWithWarranty:serialNumber:source:isMultiCall:url:deeplinkParams:purchaseBody:]"
+- "-[NDOAppleCareAMSUIViewController initWithWarranty:serialNumber:source:deeplinkParams:]"
+- "-[NDOAppleCareAMSUIViewController initWithWarranty:serialNumber:source:url:purchaseBody:deeplinkParams:]"
+- "-[NDOCoverageCentralViewControllerLegacy _refreshAndForcePostFollowUp:refreshControlToStop:]"
+- "-[NDOCoverageCentralViewControllerLegacy completeWithStatus:params:]"
+- "-[NDOCoverageCentralViewControllerLegacy dismissAMSUI]_block_invoke"
+- "-[NDOCoverageCentralViewControllerLegacy fetchAllDeviceInfoUsingPolicy:sessionID:params:isSales:withReply:]"
+- "-[NDOCoverageCentralViewControllerLegacy fetchAllDeviceInfoUsingPolicy:sessionID:params:isSales:withReply:]_block_invoke_2"
+- "-[NDOCoverageCentralViewControllerLegacy fetchAllLocalDevices]"
+- "-[NDOCoverageCentralViewControllerLegacy getAllDeviceInfoUsingPolicy:sessionID:params:isSales:andForcePostFollowup:withReply:]"
+- "-[NDOCoverageCentralViewControllerLegacy getAllDeviceInfoUsingPolicy:sessionID:params:isSales:andForcePostFollowup:withReply:]_block_invoke"
+- "-[NDOCoverageCentralViewControllerLegacy getAllDeviceInfoUsingPolicy:sessionID:params:isSales:andForcePostFollowup:withReply:]_block_invoke_2"
+- "-[NDOCoverageCentralViewControllerLegacy getDeviceInfoForSerialNumber:usingPolicy:sessionID:params:andForcePostFollowup:withReply:]"
+- "-[NDOCoverageCentralViewControllerLegacy handlePurchaseCompleted]"
+- "-[NDOCoverageCentralViewControllerLegacy handleURL:withCompletion:]"
+- "-[NDOCoverageCentralViewControllerLegacy handleURL:withCompletion:]_block_invoke"
+- "-[NDOCoverageCentralViewControllerLegacy initWithIsSignedIn:deviceManager:]"
+- "-[NDOCoverageCentralViewControllerLegacy init]"
+- "-[NDOCoverageCentralViewControllerLegacy loadView]"
+- "-[NDOCoverageCentralViewControllerLegacy loadView]_block_invoke"
+- "-[NDOCoverageCentralViewControllerLegacy openAMSUIWithURL:httpBody:]"
+- "-[NDOCoverageCentralViewControllerLegacy openURL:]"
+- "-[NDOCoverageCentralViewControllerLegacy shouldDeferPushForSpecifierID:]"
+- "-[NDOCoverageCentralViewControllerLegacy showUI]"
+- "-[NDOCoverageCentralViewControllerLegacy specifiers]"
+- "-[NDOCoverageCentralViewControllerLegacy updateCells]"
+- "-[NDOCoverageCentralViewControllerLegacy updateDeviceInfoForDevice:usingPolicy:params:forceUpdateFollowup:withReply:]"
+- "-[NDOCoverageCentralViewControllerLegacy updateDeviceInfoForDevice:usingPolicy:params:forceUpdateFollowup:withReply:]_block_invoke_2"
+- "-[NDOSupportAppTableViewCell initWithStyle:reuseIdentifier:specifier:]"
+- "-[NDOSupportAppTableViewCell layoutSubviews]"
+- "-[NDOSupportAppTableViewCell lockupView:appStateDidChange:]"
+- "-[NDOSupportAppTableViewCell lockupView:appStateDidChange:]_block_invoke"
+- "-[NDOSupportAppTableViewCell lockupView:didFailRequestWithError:]"
+- "-[NDOSupportAppTableViewCell lockupViewDidBeginRequest:]"
+- "-[NDOSupportAppTableViewCell lockupViewDidFinishRequest:]"
+- "-[NDOSupportAppTableViewCell presentingViewControllerForLockupView:]"
+- "-[NDOWarrantyInfoController _refreshWithForcedNetworkPolicy:forceUpdateFollowup:withCompletion:]"
+- "-[NDOWarrantyInfoController _refreshWithForcedNetworkPolicy:forceUpdateFollowup:withCompletion:]_block_invoke"
+- "-[NDOWarrantyInfoController handleURL:withCompletion:]"
+- "-[NDOWarrantyInfoController loadView]"
+- "-[NDOWarrantyInfoController loadView]_block_invoke_2"
+- "-[NDOWarrantyInfoController managePlanPressed:]"
+- "-[NDOWarrantyInfoController managePlanPressed:]_block_invoke"
+- "-[NDOWarrantyInfoController ndoAppleCareCoveragePressed:]"
+- "-[NDOWarrantyInfoController outreachFinishedForDeviceWithSerialNumber:withCompletion:]"
+- "-[NDOWarrantyInfoController outreachFinishedForDeviceWithSerialNumber:withCompletion:]_block_invoke"
+- "-[NDOWarrantyInfoController outreachFinishedForDeviceWithSerialNumber:withCompletion:]_block_invoke_2"
+- "-[NDOWarrantyInfoController postCAEventWithDeviceInfo:]"
+- "-[NDOWarrantyInfoController reloadSpecifiers]"
+- "-[NDOWarrantyInfoController updateAppSupportSpecifiersWithSpecifiers:]"
+- "-[NDOWarrantyInfoController updateAppSupportSpecifiersWithSpecifiers:]_block_invoke_2"
+- ".cxx_destruct"
+- "/System/Library/PrivateFrameworks/NewDeviceOutreachUI.framework"
+- "1130498044"
+- "2003"
+- "="
+- "?"
+- "?context=linking&source=applecaresettings&serialNumbers=%@"
+- "@\"<ASCOffer>\""
+- "@\"<NDOAppleCareAMSUIViewPresenterProtocol>\""
+- "@\"<UITraitChangeRegistration>\""
+- "@\"AMSPromise\"16@?0@\"NSURL\"8"
+- "@\"ASCLockupView\""
+- "@\"ASCMetricsActivity\"32@0:8@\"ASCLockupView\"16@\"<ASCOffer>\"24"
+- "@\"NDOACController\""
+- "@\"NDOAMSUILoadingViewController\""
+- "@\"NDOAppleCareAMSUIViewController\""
+- "@\"NDODevice\""
+- "@\"NDOManager\""
+- "@\"NDOSpecifierDataSource\""
+- "@\"NDOWarranty\""
+- "@\"NSArray\""
+- "@\"NSCache\""
+- "@\"NSData\"32@0:8@\"NSString\"16@\"NSArray\"24"
+- "@\"NSData\"40@0:8@\"NSString\"16@\"NSString\"24@\"NSDictionary\"32"
+- "@\"NSDictionary\""
+- "@\"NSDictionary\"24@0:8@\"NSData\"16"
+- "@\"NSDictionary\"24@0:8@\"NSString\"16"
+- "@\"NSDictionary\"32@0:8@\"NSMutableURLRequest\"16B24B28"
+- "@\"NSDictionary\"48@0:8@\"NSString\"16@\"NSString\"24@\"NSString\"32@\"NSString\"40"
+- "@\"NSDictionary\"8@?0"
+- "@\"NSMutableArray\""
+- "@\"NSMutableDictionary\""
+- "@\"NSObject<NDOCoverageCentralVCManager>\""
+- "@\"NSObject<NDORequestPropertiesProvider>\"16@0:8"
+- "@\"NSObject<OS_dispatch_group>\""
+- "@\"NSObject<OS_dispatch_queue>\""
+- "@\"NSString\""
+- "@\"NSString\"16@0:8"
+- "@\"NSURLRequest\""
+- "@\"PSListController\""
+- "@\"PSSpecifier\""
+- "@\"UIContentUnavailableConfiguration\""
+- "@\"UIImageView\""
+- "@\"UILabel\""
+- "@\"UINavigationController\""
+- "@\"UIStackView\""
+- "@\"UIView\""
+- "@\"UIViewController\""
+- "@\"UIViewController\"24@0:8@\"ASCLockupView\"16"
+- "@\"UIViewController\"32@0:8@\"UIPresentationController\"16q24"
+- "@\"_NSKeyValueObservation\""
+- "@16@0:8"
+- "@20@0:8B16"
+- "@24@0:8:16"
+- "@24@0:8@16"
+- "@24@0:8@?16"
+- "@28@0:8B16@20"
+- "@32@0:8:16@24"
+- "@32@0:8@16@24"
+- "@32@0:8@16@?24"
+- "@32@0:8@16B24B28"
+- "@32@0:8@16Q24"
+- "@32@0:8@16q24"
+- "@32@0:8q16@24"
+- "@40@0:8:16@24@32"
+- "@40@0:8@16@24@32"
+- "@40@0:8@16Q24@32"
+- "@40@0:8q16@24@32"
+- "@48@0:8@16@24@32@40"
+- "@48@0:8@16Q24@32@40"
+- "@64@0:8@16@24@32@40@48@56"
+- "@68@0:8@16@24@32B40@44@52@60"
+- "@?"
+- "@?16@0:8"
+- "A"
+- "AMSUIWebDelegate"
+- "APPSUPPORT"
+- "ASCLockupViewDelegate"
+- "Accessing Environment's value outside of being installed on a View. This will always read the default value and will not update."
+- "B"
+- "B16@0:8"
+- "B24@0:8#16"
+- "B24@0:8:16"
+- "B24@0:8@\"Protocol\"16"
+- "B24@0:8@\"UIPresentationController\"16"
+- "B24@0:8@16"
+- "B24@?0@\"NDODevice\"8@\"NSDictionary\"16"
+- "B32@0:8@\"UINavigationBar\"16@\"UINavigationItem\"24"
+- "B32@0:8@16@24"
+- "B40@0:8@\"AMSUIWebViewController\"16@\"NSDictionary\"24@?<v@?@@\"NSError\">32"
+- "B40@0:8@16@24@?32"
+- "CC_DEFAULT_TITLE"
+- "CC_FOOTER_APPLEID"
+- "CC_OTHER_TITLE"
+- "CC_RETRY"
+- "CGColor"
+- "COVERAGE"
+- "COVERAGE_ITEM"
+- "COVERAGE_ITEM1"
+- "Content-Type"
+- "Could not open URL %@"
+- "DEFAULT_COVERAGE"
+- "Dismissed"
+- "Failed to dismiss"
+- "Image fetch failed with error: %@ for: %@"
+- "Image url conversion"
+- "LINK"
+- "Localizable"
+- "N/A"
+- "NDOACController"
+- "NDOAMSUIComposition"
+- "NDOAMSUILoadingViewController"
+- "NDOAMSUIWebViewWrapperController"
+- "NDOAppItemViewCell"
+- "NDOAppleCareAMSUIViewController"
+- "NDOAppleCareAMSUIViewPresenterProtocol"
+- "NDOAppleCareFlowDelegate"
+- "NDOAppleCareViewController"
+- "NDOAppleSuportAppURL"
+- "NDOAppleSuportDictionary"
+- "NDOCoverageCentralViewController"
+- "NDOCoverageCentralViewControllerLegacy"
+- "NDOCoverageItemCell"
+- "NDOCoverageItemCellCoverageLabelKey"
+- "NDOCoverageItemCellFallbackImageKey"
+- "NDOCoverageItemCellImageURLKey"
+- "NDOCoverageItemCellOfferLabelKey"
+- "NDOCoverageItemSubtitle"
+- "NDODeeplinkParams"
+- "NDODevice"
+- "NDODeviceCoverageDetailsUI"
+- "NDODeviceDetailsViewController"
+- "NDODeviceInfo"
+- "NDOHostingController"
+- "NDOImageManager"
+- "NDOLongValueCell"
+- "NDOPurchaseCompletedNotification"
+- "NDORequestPropertiesProvider"
+- "NDOSpecifierDataSource"
+- "NDOSupportAppDictionary"
+- "NDOSupportAppShown"
+- "NDOSupportAppTableViewCell"
+- "NDOWarranty"
+- "NDOWarrantyBenefitsViewController"
+- "NDOWarrantyInfoController"
+- "NDOWarrantySubTextCell"
+- "NSObject"
+- "NULL"
+- "NewDeviceOutreach"
+- "NewDeviceOutreachUI"
+- "OASHeadersWithOfferID:serialNumber:primarySerialNumber:currentStoreLocaleHeader:"
+- "OPEN"
+- "POST"
+- "Private"
+- "Q"
+- "Q16@0:8"
+- "SUBSCRIPTION_PLAN"
+- "SupportApp"
+- "T#,R"
+- "T@\"<NDOAppleCareAMSUIViewPresenterProtocol>\",N,W,Vpresenter"
+- "T@\"<NDOAppleCareAMSUIViewPresenterProtocol>\",W,V_presenter"
+- "T@\"<NDOAppleCareFlowDelegate>\",N,W,Vpresentor"
+- "T@\"ASCLockupView\",&,N,V_lockupView"
+- "T@\"NDOACController\",N,W,VhostingController"
+- "T@\"NDOACController\",R"
+- "T@\"NDOACController\",W,N,V_acController"
+- "T@\"NDOAMSUILoadingViewController\",&,N,V_amsLoadingViewController"
+- "T@\"NDOAppleCareAMSUIViewController\",N,&,VamsViewController"
+- "T@\"NDODevice\",&,N,V_defaultDevice"
+- "T@\"NDOImageManager\",R"
+- "T@\"NDOManager\",N,&,VndoManager"
+- "T@\"NDOSpecifierDataSource\",&,N,V_ndoSpecifierDataSource"
+- "T@\"NDOWarranty\",W,V_warranty"
+- "T@\"NSArray\",&,N,V_constraints"
+- "T@\"NSArray\",&,N,V_deviceListAPISections"
+- "T@\"NSArray\",N,C"
+- "T@\"NSArray\",R"
+- "T@\"NSCache\",&,N,V_imageCache"
+- "T@\"NSDictionary\",&,V_appSupportDictionary"
+- "T@\"NSDictionary\",N,C"
+- "T@\"NSMutableArray\",&,N,V_allLocalDevices"
+- "T@\"NSMutableArray\",&,N,V_pairedDevices"
+- "T@\"NSMutableDictionary\",&,V_deviceInfoDict"
+- "T@\"NSMutableDictionary\",&,V_deviceSequenceDict"
+- "T@\"NSObject<NDOCoverageCentralVCManager>\",&,N,V_ndoManager"
+- "T@\"NSString\",&,N,V_specifierIDToInsertAfter"
+- "T@\"NSString\",&,V_deeplinkParams"
+- "T@\"NSString\",&,V_sessionID"
+- "T@\"NSString\",&,V_ulSalesURL"
+- "T@\"NSString\",?,R,C"
+- "T@\"NSString\",N,C"
+- "T@\"NSString\",N,R"
+- "T@\"NSString\",R,C"
+- "T@\"NSURLRequest\",&,V_amsUIRequest"
+- "T@\"PSListController\",W,N,V_parentViewController"
+- "T@\"PSSpecifier\",&,V_lastCoverageSpecifier"
+- "T@\"PSSpecifier\",&,V_lastDetailSpecifier"
+- "T@\"UIImageView\",&,N,V_itemImageView"
+- "T@\"UILabel\",&,N,V_itemOfferLabel"
+- "T@\"UILabel\",&,N,V_itemSubtitleLabel"
+- "T@\"UILabel\",&,N,V_itemTitleLabel"
+- "T@\"UILabel\",&,N,V_primaryLabel"
+- "T@\"UILabel\",&,N,V_secondaryLabel"
+- "T@\"UINavigationController\",V_navController"
+- "T@\"UIStackView\",&,N,V_stackView"
+- "T@\"UIView\",&,N,V_itemTitleView"
+- "T@\"UIViewController\",N,&,VembeddedController"
+- "T@\"UIViewController\",R,N,V_viewController"
+- "T@\"_NSKeyValueObservation\",N,&,VpathObserver"
+- "T@?,C,N,V_dismissBlock"
+- "T@?,C,N,V_onViewIsAppearing"
+- "T@?,N,C"
+- "T@?,N,R"
+- "TB,N,V_deviceLoadCompleted"
+- "TB,N,V_isSignedIn"
+- "TB,N,VfirstLoadRequestStarted"
+- "TB,V_expectingLink"
+- "TB,V_hasLoaded"
+- "TB,V_isDefaultDevice"
+- "TB,V_isFromDeeplink"
+- "TB,V_isLoaded"
+- "TB,V_isSignedIn"
+- "TB,V_launchedWithUrl"
+- "TB,V_openDefaultDeviceDetails"
+- "TB,V_reloadInProgress"
+- "TB,V_shouldRefreshOnAppear"
+- "TQ,N,R"
+- "TQ,R"
+- "TQ,V_previousAppSupportAvailabilityType"
+- "UIAdaptivePresentationControllerDelegate"
+- "UIBarPositioningDelegate"
+- "UINavigationBarDelegate"
+- "URL"
+- "URLForKey:"
+- "URLQueryAllowedCharacterSet"
+- "URLWithString:"
+- "UTF8String"
+- "UUID"
+- "UUIDString"
+- "VisionPro"
+- "Vv16@0:8"
+- "WARRANTY_OFFER"
+- "WebFlowURL"
+- "X-source-type"
+- "[internal] Expected for non-production devices"
+- "[internal] No coverage info"
+- "^{_NSZone=}16@0:8"
+- "_$observationRegistrar"
+- "_COVERAGE"
+- "_COVERAGE_CENTRAL"
+- "_TtC19NewDeviceOutreachUI12AMSPresenter"
+- "_TtC19NewDeviceOutreachUI23DeviceWarrantyViewModel"
+- "_TtC19NewDeviceOutreachUI24CoverageCentralViewModel"
+- "_TtC19NewDeviceOutreachUIP33_D0E7B83252FABA9635A52F13EF32674719ResourceBundleClass"
+- "_TtCE19NewDeviceOutreachUICSo26NDODeviceCoverageDetailsUIP33_7AEC11C85262A7495351F90F23CAE37121WrapperViewController"
+- "__swift_objectForKeyedSubscript:"
+- "_acController"
+- "_addKey:isCopyable:toSpecifiers:"
+- "_addKey:value:isCopyable:toSpecifiers:"
+- "_additionalHeaders"
+- "_allLocalDevices"
+- "_amsLoadingViewController"
+- "_amsUIRequest"
+- "_appSupportDictionary"
+- "_appendSettingsNavigationPath"
+- "_constraints"
+- "_dataDate"
+- "_dataProvider"
+- "_deeplinkParams"
+- "_defaultDevice"
+- "_deviceInfoDict"
+- "_deviceListAPISections"
+- "_deviceLoadCompleted"
+- "_deviceSequenceDict"
+- "_deviceWarrantyViewModelProvider"
+- "_dismissBlock"
+- "_errorStateConfig"
+- "_expectingLink"
+- "_getParamsDictFromPath:"
+- "_getUpdatedParamsFromPath:withCompletion:"
+- "_group"
+- "_hasLoaded"
+- "_hasOffer"
+- "_imageCache"
+- "_imageConstraints"
+- "_initWithID:kind:context:clientID:"
+- "_initWithWarranty:serialNumber:source:isMultiCall:url:deeplinkParams:purchaseBody:"
+- "_isDefaultDevice"
+- "_isFromDeeplink"
+- "_isLoaded"
+- "_isSignedIn"
+- "_isValidSubscriptionPlan"
+- "_itemImageView"
+- "_itemOfferLabel"
+- "_itemSubtitleLabel"
+- "_itemTitleLabel"
+- "_itemTitleView"
+- "_lastCoverageSpecifier"
+- "_lastDetailSpecifier"
+- "_launchedWithUrl"
+- "_loadingConfig"
+- "_localizedResourceWithString:"
+- "_lockupView"
+- "_navController"
+- "_ndoManager"
+- "_ndoSpecifierDataSource"
+- "_noAccountConfig"
+- "_onViewIsAppearing"
+- "_openAMSHandler"
+- "_openDefaultDeviceDetails"
+- "_originalAppOffer"
+- "_pairedDevices"
+- "_parentViewController"
+- "_policyLookupQueue"
+- "_prepareRequestWithWarranty:serialNumber:source:isMultiCall:url:deeplinkParams:purchaseBody:"
+- "_presenter"
+- "_previousAppSupportAvailabilityType"
+- "_primaryLabel"
+- "_refresh:"
+- "_refreshAndForcePostFollowUp:refreshControlToStop:"
+- "_refreshWithForcedNetworkPolicy:forceUpdateFollowup:withCompletion:"
+- "_reloadInProgress"
+- "_secondaryLabel"
+- "_serialNumber"
+- "_sessionID"
+- "_setContentUnavailableConfiguration:"
+- "_setValue:forSpecifier:"
+- "_setValue:forSpecifierWithKey:inSpecifiers:"
+- "_setupAppSuportCell"
+- "_setupWarrantyCoverageCell"
+- "_shouldRefreshOnAppear"
+- "_showLastUpdatedMessage"
+- "_showLoadingSpinner"
+- "_specifierIDToInsertAfter"
+- "_stackView"
+- "_state"
+- "_supportAppURL"
+- "_traitRegistration"
+- "_ulSalesURL"
+- "_viewController"
+- "_warranty"
+- "absoluteString"
+- "acController"
+- "acLocalizedOfferCTA"
+- "acLocalizedOfferDesc"
+- "acLocalizedUnlinkedPlanLabel"
+- "acOfferDisplayDate"
+- "acOfferEligible"
+- "acOfferEligibleUntil"
+- "acOfferIdentifier"
+- "accountHeadersFor:forceReprovisioning:avoidUI:"
+- "actionWithHandler:"
+- "activateConstraints:"
+- "adaptivePresentationStyleForPresentationController:"
+- "adaptivePresentationStyleForPresentationController:traitCollection:"
+- "addAllHeadersFrom:"
+- "addArrangedSubview:"
+- "addChildViewController:"
+- "addConstraint:"
+- "addFinishBlock:"
+- "addFooterLabelToSpecifier:"
+- "addObject:"
+- "addObjectsFromArray:"
+- "addObserver:selector:name:object:"
+- "addSectionWithHeader:content:"
+- "addSubview:"
+- "addTarget:action:forControlEvents:"
+- "addValue:forHTTPHeaderField:"
+- "additionalBody"
+- "additionalHeaders"
+- "additionalInfo"
+- "additionalPurchaseFlowData"
+- "additionalPurchaseFlowHeaders"
+- "agsULURL"
+- "agsURL"
+- "aida_accountForPrimaryiCloudAccount"
+- "allLocalDevices"
+- "allValues"
+- "amsLoadingViewController"
+- "amsUIRequest"
+- "amsUIViewFinishedWithCompletion:"
+- "amsUIViewFinishedWithCompletion:params:"
+- "amsViewController"
+- "ams_activeiCloudAccount"
+- "ams_activeiTunesAccount"
+- "ams_primaryGroupedBackground"
+- "ams_sharedAccountStore"
+- "appSupportDictionary"
+- "appSupportDictionaryWithReply:"
+- "appearance"
+- "appendString:"
+- "apple account signed out"
+- "applecare-badge"
+- "array"
+- "arrayWithObjects:count:"
+- "authTokenHeaderKey"
+- "autorelease"
+- "bagForProfile:profileVersion:"
+- "bagKeySet"
+- "bagSubProfile"
+- "bagSubProfileVersion"
+- "basicHeadersWithBundleID:"
+- "benefitDetailsArray"
+- "benefitsDescLinkTapped:"
+- "bodyData"
+- "bodyDescription"
+- "boolValue"
+- "bottomAnchor"
+- "bounds"
+- "bundleForClass:"
+- "bundleIdentifier"
+- "bundleURL"
+- "bundleWithPath:"
+- "buttonProperties"
+- "buttonTextColor"
+- "callStackSymbols"
+- "callerId"
+- "canOpenURL:"
+- "cellStyle"
+- "checkIn disabled in plist"
+- "checkIn trigger invalid"
+- "childViewController"
+- "cid"
+- "class"
+- "clearAllUserInitiatedFollowUpDismissalsWithReply:"
+- "clearUserInitiatedFollowUpDismissalForSerialNumber:withReply:"
+- "clientConfiguration"
+- "colorWithAlphaComponent:"
+- "com.apple.Bridge"
+- "com.apple.newdeviceoutreach.coverage.loadmanageplan"
+- "com.apple.newdeviceoutreach.coverage.viewload"
+- "com.apple.newdeviceoutreach.ndoccvc.policyqueue"
+- "completeWithStatus:"
+- "completeWithStatus:params:"
+- "componentsSeparatedByString:"
+- "componentsWithString:"
+- "config TTL is missing"
+- "configuration"
+- "configureWithTransparentBackground"
+- "conformsToProtocol:"
+- "constraintEqualToAnchor:"
+- "constraintWithItem:attribute:relatedBy:toItem:attribute:multiplier:constant:"
+- "constraints"
+- "containsView:"
+- "contentView"
+- "copy"
+- "count"
+- "countByEnumeratingWithState:objects:count:"
+- "coverage.settings"
+- "coverageDetailText:"
+- "coverageDetailsArray"
+- "coverageDetailsDictionary"
+- "coverageEndDate"
+- "coverageHasACLogo"
+- "coverageItemSubTitle:"
+- "coverageLocalizedDesc"
+- "coverageLocalizedExpirationLabel"
+- "coverageLocalizedLabel"
+- "coverageRequestBodyWithSerialNumber:primarySerialNumber:displayedEvents:"
+- "coverageType"
+- "createAMSViewController"
+- "createViewController"
+- "ctaTextWithDevice:"
+- "ctaTextWithWarranty:forDate:"
+- "currentDevice"
+- "currentLocale"
+- "data"
+- "data error"
+- "dataTaskWithURL:completionHandler:"
+- "dataWithJSONObject:options:error:"
+- "date"
+- "deactivateConstraints:"
+- "dealloc"
+- "debugDescription"
+- "deeplinkParams"
+- "defaultCenter"
+- "defaultDevice"
+- "defaultStore"
+- "defaultWorkspace"
+- "description"
+- "detailTextLabel"
+- "device"
+- "deviceCoverageDetailsViewControllerForSerialNumber:source:completion:"
+- "deviceImageUrl"
+- "deviceInfoDict"
+- "deviceInfoWithDevice:warranty:"
+- "deviceList"
+- "deviceListAPISections"
+- "deviceListRequestBodyWithSerialNumber:localDevices:"
+- "deviceLoadCompleted"
+- "deviceSeq"
+- "deviceSequenceDict"
+- "deviceType"
+- "deviceTypeString"
+- "devices"
+- "devicetype"
+- "dictionary"
+- "dictionaryWithObjects:forKeys:count:"
+- "didChangeTraitPreferredContentSizeCategory"
+- "didMoveToParentViewController:"
+- "dismissAMSUI"
+- "dismissBlock"
+- "dismissFollowUpForSerialNumber:completion:"
+- "dismissFollowUps:completion:"
+- "dismissViewControllerAnimated:completion:"
+- "dismissal isBeingDismissed %d"
+- "dismissal isMovingFromParentViewController %d"
+- "dismissal navigationController isBeingDismissed %d"
+- "dismissing from presentation controller did dismiss."
+- "dismissing from view did disappear"
+- "dismissing via dealloc"
+- "displayRepairAndSupport"
+- "donePressed:"
+- "download warranty error"
+- "embedViewControllerWithController:"
+- "embeddedController"
+- "emptyGroupSpecifier"
+- "emptyProminentConfiguration"
+- "endRefreshing"
+- "enumerateObjectsUsingBlock:"
+- "errorUI"
+- "errorWithDomain:code:userInfo:"
+- "expectingLink"
+- "failed parsing checkIn response"
+- "failed parsing config map JSON"
+- "failed parsing ndo plist dictionary"
+- "failed to create ams view controller"
+- "failed to create cf user notification"
+- "failed to create checkInHandler"
+- "failed to generate request"
+- "failed to initialize FLFollowUpController"
+- "failed to load ams url"
+- "failed to load device details view controller"
+- "failed to open url: "
+- "failed to show user notification: "
+- "fetchAllDeviceInfoUsingPolicy:sessionID:params:isSales:withReply:"
+- "fetchAllLocalDevices"
+- "fetchImageWithURLString:completion:"
+- "filteredArrayUsingPredicate:"
+- "firstLoadRequestStarted"
+- "firstObject"
+- "font"
+- "footer1FormatString"
+- "footer1LinkLabel"
+- "footer1LinkURL"
+- "footer1Tapped:"
+- "footer2FormatString"
+- "footer2LinkLabel"
+- "footer2LinkURL"
+- "footer2Tapped:"
+- "forceUpdateSpecifiersAndForceUpdateFollowup:withCompletionHandler:"
+- "frame"
+- "generalAboutPolicy"
+- "getAllDeviceInfoUsingPolicy:sessionID:params:isSales:andForcePostFollowup:withReply:"
+- "getAmsPropertiesForContext:withReply:"
+- "getCoverageInfoForSerialNumber:usingPolicy:withReply:"
+- "getDecodedParamsForPath:withReply:"
+- "getDefaultDeviceInfoUsingForceCachedPolicy"
+- "getDeviceInfoForSerialNumber:usingPolicy:sessionID:params:andForcePostFollowup:withReply:"
+- "getDeviceInfoForSerialNumber:usingPolicy:withReply:"
+- "getDeviceInfoUsingForceCachedPolicyForSerialNumber:"
+- "getDeviceListForLocalDevices:sessionID:policy:params:salesReplyOnly:salesInfoReply:deviceInfoReply:completionBlock:"
+- "getLocalDeviceListWithReply:"
+- "getLocalDeviceWarrantyForSerialNumber:withReply:"
+- "getRemoteDeviceListWithReply:"
+- "getRemoteDeviceWarrantyForSerialNumber:withAdditionalHeaders:withReply:"
+- "groupSpecifierWithID:"
+- "groupSpecifierWithID:name:"
+- "handlePurchaseCompleted"
+- "handleURL:withCompletion:"
+- "hasLoaded"
+- "hasPrefix:"
+- "hash"
+- "headerDescription"
+- "hideUI"
+- "hostingController"
+- "https://agreements.apple.com/acsales"
+- "https://getsupport.apple.com/?caller=prefscoverage"
+- "i"
+- "iPad"
+- "iPhone"
+- "identifier"
+- "imageCache"
+- "imageNamed:inBundle:withConfiguration:"
+- "imageWithData:"
+- "init"
+- "init(warranty:) has not been implemented"
+- "init(warranty:presentationType:) has not been implemented"
+- "init(warranty:presentationType:serialNumber:) has not been implemented"
+- "initPrivate"
+- "initWithBag:account:clientInfo:"
+- "initWithBarButtonSystemItem:target:action:"
+- "initWithCoder:"
+- "initWithCreateAMSViewController:"
+- "initWithDefaultDevice:"
+- "initWithDeviceInfo:presentationType:"
+- "initWithDeviceInfo:presentationType:source:deeplinkParams:"
+- "initWithFrame:"
+- "initWithImage:"
+- "initWithIsSignedIn:deviceManager:"
+- "initWithKey:table:locale:bundleURL:"
+- "initWithMetadata:action:"
+- "initWithName:target:set:get:detail:cell:edit:"
+- "initWithNibName:bundle:"
+- "initWithRequest:"
+- "initWithRequestType:serialNumber:universalLinkPath:additionalBody:"
+- "initWithRootViewController:"
+- "initWithSerialNumber:"
+- "initWithSerialNumber:updateHandler:"
+- "initWithSpecifier:"
+- "initWithSpecifiers:"
+- "initWithStringValue:"
+- "initWithStyle:reuseIdentifier:"
+- "initWithStyle:reuseIdentifier:specifier:"
+- "initWithSuiteName:"
+- "initWithTitle:"
+- "initWithTitleBackgroundColor:titleTextColor:titleTextDisabledColor:subtitleTextColor:iconTintColor:progressColor:"
+- "initWithURL:"
+- "initWithViewController:"
+- "initWithViewControllerCreation:"
+- "initWithWarranty:"
+- "initWithWarranty:presentationType:"
+- "initWithWarranty:presentationType:serialNumber:"
+- "initWithWarranty:serialNumber:source:deeplinkParams:"
+- "initWithWarranty:serialNumber:source:url:purchaseBody:deeplinkParams:"
+- "insertContiguousSpecifiers:afterSpecifier:"
+- "insertContiguousSpecifiers:afterSpecifierID:animated:"
+- "intValue"
+- "invalid action data"
+- "invalid download warranty action data"
+- "isACServicesPartner"
+- "isBeingDismissed"
+- "isCoverageCentralContainer"
+- "isCoveragePlanSubscriptionType"
+- "isDefaultDevice"
+- "isEqual:"
+- "isEqualToString:"
+- "isFromDeeplink"
+- "isHidden"
+- "isInternal"
+- "isKindOfClass:"
+- "isLoaded"
+- "isMainThread"
+- "isMemberOfClass:"
+- "isMovingFromParentViewController"
+- "isNotEmptyString:"
+- "isProxy"
+- "isSettingsContainer"
+- "isSignedIn"
+- "isSignedIntoAppleAccount"
+- "isValidPath:"
+- "isVisibleInCC"
+- "isWarrantyValid"
+- "itemImageView"
+- "itemOfferLabel"
+- "itemSubtitleLabel"
+- "itemTitleLabel"
+- "itemTitleView"
+- "label"
+- "labelColor"
+- "lastCoverageSpecifier"
+- "lastDetailSpecifier"
+- "lastObject"
+- "launchedWithUrl"
+- "layoutMarginsGuide"
+- "layoutSubviews"
+- "leadingAnchor"
+- "length"
+- "loadAMSUIView"
+- "loadBagValue:"
+- "loadCoverageDetailsContentViewController"
+- "loadRequest:"
+- "loadSpecifiers"
+- "loadUsingWebKit"
+- "loadView"
+- "loadingConfiguration"
+- "lobType=%@"
+- "localize"
+- "localizedBenefitLabel"
+- "localizedBenefitValue"
+- "localizedBenefitsCardFooter"
+- "localizedBenefitsCardSubTitle"
+- "localizedBenefitsCardTitle"
+- "localizedCoverageDetailsTitle"
+- "localizedCoverageFooterFormatString"
+- "localizedCoverageFooterLinkLabel"
+- "localizedCoverageLabel"
+- "localizedCoverageSubTitleForServicesPartnerString"
+- "localizedCoverageValue"
+- "localizedManagePlanLabel"
+- "localizedStringForKey:value:table:"
+- "localizedSupportAppFooter"
+- "lockup"
+- "lockupView"
+- "lockupView:appStateDidChange:"
+- "lockupView:didFailRequestWithError:"
+- "lockupViewDidBeginRequest:"
+- "lockupViewDidFinishRequest:"
+- "lockupViewDidInvalidateIntrinsicContentSize:"
+- "lockupWithOffer:"
+- "lowercaseString"
+- "mainBundle"
+- "makeFollowUpAMSViewControllerWithAgent:url:presenter:headers:body:onDismiss:completion:"
+- "makePropertiesProvider"
+- "managePlanPressed:"
+- "manageSubscriptionsV2Url"
+- "metricsActivityForLockupView:toPerformActionOfOffer:"
+- "missing or bad config map URL in plist"
+- "name"
+- "navController"
+- "navigationBar:didPopItem:"
+- "navigationBar:didPushItem:"
+- "navigationBar:shouldPopItem:"
+- "navigationBar:shouldPushItem:"
+- "navigationBarNSToolbarSection:"
+- "navigationController"
+- "navigationItem"
+- "ndoAppleCareCoveragePressed:"
+- "ndoManager"
+- "ndoSpecifierDataSource"
+- "ndoSpecifiers"
+- "no checkIn URL in config"
+- "no image error"
+- "noCoverageInternalSubtitle:"
+- "null"
+- "numberWithBool:"
+- "numberWithDouble:"
+- "object deallocated: "
+- "objectAtIndexedSubscript:"
+- "objectForKey:"
+- "objectForKeyedSubscript:"
+- "oceanVersion"
+- "offer"
+- "offerPressed:"
+- "offerTextForDevice:"
+- "offerTextForDeviceInfo:"
+- "onFinish"
+- "onViewIsAppearing"
+- "openAMSHandler"
+- "openAMSUIWithURL:httpBody:"
+- "openButtonAction"
+- "openDefaultDeviceDetails"
+- "openPathHandler"
+- "openSensitiveURL:withOptions:"
+- "openURL:"
+- "openURL:options:completionHandler:"
+- "openURL:withCompletionHandler:"
+- "orangeColor"
+- "outreachFinishedForDeviceWithSerialNumber:withCompletion:"
+- "outreachFinishedWithCompletion:"
+- "pairedBTDevices"
+- "pairedDevices"
+- "pairedWatches"
+- "parentViewController"
+- "path"
+- "pathObserver"
+- "pe_emitNavigationEventForSystemSettingsWithGraphicIconIdentifier:title:localizedNavigationComponents:deepLink:"
+- "performSelector:"
+- "performSelector:withObject:"
+- "performSelector:withObject:withObject:"
+- "performSpecifierUpdates:"
+- "performUpdatesAnimated:usingBlock:"
+- "plainButtonConfiguration"
+- "positionForBar:"
+- "postCAEventFor:eventDict:"
+- "postCAEventWithDeviceInfo:"
+- "postNotificationName:object:"
+- "predicateWithBlock:"
+- "preferenceSpecifierNamed:target:set:get:detail:cell:edit:"
+- "preferredFontForTextStyle:"
+- "presentModally"
+- "presentViewController:animated:completion:"
+- "presentationController"
+- "presentationController:prepareAdaptivePresentationController:"
+- "presentationController:viewControllerForAdaptivePresentationStyle:"
+- "presentationController:willPresentWithAdaptiveStyle:transitionCoordinator:"
+- "presentationControllerDidAttemptToDismiss:"
+- "presentationControllerDidDismiss:"
+- "presentationControllerShouldDismiss:"
+- "presentationControllerWillDismiss:"
+- "presenter"
+- "presentingViewController"
+- "presentingViewControllerForLockupView:"
+- "presentor"
+- "previousAppSupportAvailabilityType"
+- "primaryLabel"
+- "primaryTheme"
+- "productPlaceholderImage"
+- "progressColor"
+- "promiseWithResult:"
+- "propertyForKey:"
+- "pushViewController:animated:"
+- "q16@0:8"
+- "q24@0:8@\"<UIBarPositioning>\"16"
+- "q24@0:8@\"UINavigationBar\"16"
+- "q24@0:8@\"UIPresentationController\"16"
+- "q24@0:8@16"
+- "q32@0:8@\"UIPresentationController\"16@\"UITraitCollection\"24"
+- "q32@0:8@16@24"
+- "queryItemWithName:value:"
+- "rangeOfString:"
+- "recordCampaignToken:providerToken:withLockup:"
+- "refreshCellContentsWithSpecifier:"
+- "registerBagKeySet:forProfile:profileVersion:"
+- "registerForTraitChanges:withAction:"
+- "release"
+- "reloadInProgress"
+- "reloadSpecifiers"
+- "removeAllObjects"
+- "removeArrangedSubview:"
+- "removeFromParentViewController"
+- "removeFromSuperview"
+- "removePromoSectionWithHashValue:andAckData:"
+- "removeSpecifiersWithIDs:"
+- "requestProvider"
+- "requestType"
+- "requestWithURL:"
+- "resetAll"
+- "resetCache"
+- "respondsToSelector:"
+- "response"
+- "resume"
+- "retain"
+- "retainCount"
+- "safeAreaLayoutGuide"
+- "sales"
+- "secondaryLabel"
+- "secondaryLabelColor"
+- "self"
+- "serialNumber"
+- "sessionID"
+- "setAcController:"
+- "setAccessibilityLabel:"
+- "setAdditionalBody:"
+- "setAdditionalHeaders:"
+- "setAllLocalDevices:"
+- "setAmsLoadingViewController:"
+- "setAmsUIRequest:"
+- "setAmsViewController:"
+- "setAppSupportDictionary:"
+- "setAxis:"
+- "setBackgroundColor:"
+- "setButtonAction:"
+- "setCellEnabled:"
+- "setChildViewController:"
+- "setClientOptions:"
+- "setCompactAppearance:"
+- "setConfiguration:"
+- "setConstraints:"
+- "setContentCompressionResistancePriority:forAxis:"
+- "setContentHuggingPriority:forAxis:"
+- "setCreateViewController:"
+- "setDateStyle:"
+- "setDeeplinkParams:"
+- "setDefaultDevice:"
+- "setDelegate:"
+- "setDeviceInfoDict:"
+- "setDeviceListAPISections:"
+- "setDeviceLoadCompleted:"
+- "setDeviceSequenceDict:"
+- "setDismissBlock:"
+- "setEmbeddedController:"
+- "setExpectingLink:"
+- "setFirstLoadRequestStarted:"
+- "setFont:"
+- "setFrame:"
+- "setHTTPBody:"
+- "setHTTPMethod:"
+- "setHasLoaded:"
+- "setHidden:"
+- "setHostingController:"
+- "setImage:"
+- "setImageCache:"
+- "setIsDefaultDevice:"
+- "setIsFromDeeplink:"
+- "setIsLoaded:"
+- "setIsSignedIn:"
+- "setItemImageView:"
+- "setItemOfferLabel:"
+- "setItemSubtitleLabel:"
+- "setItemTitleLabel:"
+- "setItemTitleView:"
+- "setLastCoverageSpecifier:"
+- "setLastDetailSpecifier:"
+- "setLaunchedWithUrl:"
+- "setLayoutMargins:"
+- "setLoadUsingWebKit:"
+- "setLockup:"
+- "setLockupView:"
+- "setModalInPresentation:"
+- "setModalPresentationStyle:"
+- "setNavController:"
+- "setNavigationBarHidden:"
+- "setNdoManager:"
+- "setNdoSpecifierDataSource:"
+- "setNdoSpecifiers:"
+- "setNeedsLayout"
+- "setNeedsUpdateConstraints"
+- "setNumberOfLines:"
+- "setObject:forKey:"
+- "setObject:forKeyedSubscript:"
+- "setOfferTheme:"
+- "setOnViewIsAppearing:"
+- "setOpaque:"
+- "setOpenDefaultDeviceDetails:"
+- "setPairedDevices:"
+- "setParentViewController:"
+- "setPathObserver:"
+- "setPresenter:"
+- "setPresentor:"
+- "setPreviousAppSupportAvailabilityType:"
+- "setPrimaryAction:"
+- "setPrimaryLabel:"
+- "setPriority:"
+- "setProperties:"
+- "setProperty:forKey:"
+- "setQueryItems:"
+- "setRefreshControl:"
+- "setReloadInProgress:"
+- "setRequest:"
+- "setRightBarButtonItem:"
+- "setScrollEdgeAppearance:"
+- "setSecondaryLabel:"
+- "setSecondaryText:"
+- "setSerialNumber:"
+- "setSessionID:"
+- "setShouldRefreshOnAppear:"
+- "setSize:"
+- "setSource:"
+- "setSpacing:"
+- "setSpecifier:"
+- "setSpecifierIDToInsertAfter:"
+- "setStackView:"
+- "setStandardAppearance:"
+- "setText:"
+- "setTextAlignment:"
+- "setTextColor:"
+- "setTimeStyle:"
+- "setTimeZone:"
+- "setTimeoutInterval:"
+- "setTitle:"
+- "setTranslatesAutoresizingMaskIntoConstraints:"
+- "setUlSalesURL:"
+- "setUpdateHandler:"
+- "setUrlString:"
+- "setUserInfo:"
+- "setValue:forHTTPHeaderField:"
+- "setWarranty:"
+- "sharedApplication"
+- "sharedController"
+- "sharedManager"
+- "sharedMetrics"
+- "sharedSession"
+- "shouldDeferPushForSpecifierID:"
+- "shouldRefreshOnAppear"
+- "shouldReloadSpecifiersOnResume"
+- "shouldShowDeviceListUI"
+- "showUI"
+- "signatureHeaders"
+- "signatureHeadersForBody:"
+- "sizeThatFits:"
+- "source"
+- "sourceFromDeviceType"
+- "specifier"
+- "specifierDataSource"
+- "specifierForID:"
+- "specifierForID:inSpecifiers:"
+- "specifierIDToInsertAfter"
+- "specifiers"
+- "stackView"
+- "startWebHandler"
+- "storeLocaleHeader"
+- "stringByAddingPercentEncodingWithAllowedCharacters:"
+- "stringByAppendingFormat:"
+- "stringByAppendingString:"
+- "stringByRemovingPercentEncoding"
+- "stringForKey:"
+- "stringFromDate:"
+- "stringValue"
+- "stringWithFormat:"
+- "stringWithString:"
+- "subtitleTextColor"
+- "superclass"
+- "supportAppURL"
+- "supportedInterfaceOrientations"
+- "systemBackgroundColor"
+- "systemGrayColor"
+- "systemGroupedBackgroundColor"
+- "systemImageNamed:"
+- "systemOrangeColor"
+- "table"
+- "task error"
+- "text"
+- "textLabel"
+- "textMetadataWithTitle:subtitle:"
+- "timeIntervalSinceNow"
+- "timeZoneForSecondsFromGMT:"
+- "titleBackgroundColor"
+- "titleLabel"
+- "topAnchor"
+- "trailingAnchor"
+- "transformWithBlock:"
+- "type"
+- "ulSalesURL"
+- "ulWebURLOverride:"
+- "unexpected response: "
+- "unregisterForTraitChanges:"
+- "unsuccessful response: "
+- "unsuccessful status code: "
+- "unsupported action"
+- "updateAppStoreLookupWithSpecifiers:"
+- "updateAppSupportSpecifiersWithSpecifiers:"
+- "updateCells"
+- "updateConstraints"
+- "updateDefaultDeviceWithDeviceInfo:"
+- "updateDeviceImage"
+- "updateDeviceInfoForDevice:usingPolicy:params:forceUpdateFollowup:withReply:"
+- "updateHandler"
+- "updateNDOSpecifiersWithPolicy:withCompletion:"
+- "updateSpecifiersWithCompletionHandler:"
+- "url"
+- "urlString"
+- "userInfo"
+- "userInterfaceIdiom"
+- "v12@?0B8"
+- "v16@0:8"
+- "v16@?0@\"NDOAppleCareAMSUIViewController\"8"
+- "v16@?0@\"NDODeviceInfo\"8"
+- "v16@?0@\"NSArray\"8"
+- "v16@?0@\"NSData\"8"
+- "v16@?0@\"NSDictionary\"8"
+- "v16@?0@\"NSError\"8"
+- "v16@?0@\"NSString\"8"
+- "v16@?0@\"PSSpecifierUpdates\"8"
+- "v16@?0@\"UIAction\"8"
+- "v16@?0@\"UIViewController\"8"
+- "v16@?0@?<v@?@\"NDOAppleCareAMSUIViewController\">8"
+- "v16@?0@?<v@?@\"UIViewController\">8"
+- "v20@0:8B16"
+- "v20@?0B8@\"NSError\"12"
+- "v24@0:8@\"ASCLockupView\"16"
+- "v24@0:8@\"UIPresentationController\"16"
+- "v24@0:8@16"
+- "v24@0:8@?16"
+- "v24@0:8Q16"
+- "v24@?0@\"NDOAMSProperties\"8@\"NSError\"16"
+- "v24@?0@\"NSData\"8@\"NSError\"16"
+- "v24@?0@\"UIImage\"8@\"NSError\"16"
+- "v28@0:8B16@20"
+- "v28@0:8B16@?20"
+- "v32@0:8@\"AMSUIWebViewController\"16@\"NSMutableURLRequest\"24"
+- "v32@0:8@\"ASCLockupView\"16@\"NSError\"24"
+- "v32@0:8@\"ASCLockupView\"16@\"NSString\"24"
+- "v32@0:8@\"NSString\"16Q24"
+- "v32@0:8@\"UINavigationBar\"16@\"UINavigationItem\"24"
+- "v32@0:8@\"UIPresentationController\"16@\"UIPresentationController\"24"
+- "v32@0:8@16@24"
+- "v32@0:8@16@?24"
+- "v32@0:8@16Q24"
+- "v32@0:8B16B20@?24"
+- "v32@0:8Q16@\"NSDictionary\"24"
+- "v32@0:8Q16@24"
+- "v32@0:8Q16@?24"
+- "v32@?0@\"NDODevice\"8Q16^B24"
+- "v32@?0@\"NSData\"8@\"NSURLResponse\"16@\"NSError\"24"
+- "v32@?0@\"NSDictionary\"8Q16^B24"
+- "v32@?0@\"NSString\"8@\"NSArray\"16@\"NSString\"24"
+- "v32@?0@\"PSSpecifier\"8Q16^B24"
+- "v36@0:8@16B24@28"
+- "v40@0:8@\"AMSUIWebViewController\"16@\"AMSAuthenticateRequest\"24@?<v@?@\"AMSAuthenticateResult\"@\"NSError\">32"
+- "v40@0:8@\"AMSUIWebViewController\"16@\"AMSDialogRequest\"24@?<v@?@\"AMSDialogResult\"@\"NSError\">32"
+- "v40@0:8@\"AMSUIWebViewController\"16@\"AMSPurchaseResult\"24@\"NSError\"32"
+- "v40@0:8@\"UIPresentationController\"16q24@\"<UIViewControllerTransitionCoordinator>\"32"
+- "v40@0:8@16@24@32"
+- "v40@0:8@16@24@?32"
+- "v40@0:8@16Q24@?32"
+- "v40@0:8@16q24@32"
+- "v44@0:8@16@24B32@36"
+- "v48@0:8@\"AMSUIWebViewController\"16@\"NSDictionary\"24@\"NSError\"32@?<v@?@@\"NSError\">40"
+- "v48@0:8@16@24@32@?40"
+- "v52@0:8@16Q24@32B40@?44"
+- "v52@0:8Q16@24@32B40@?44"
+- "v56@0:8Q16@24@32B40B44@?48"
+- "v60@0:8@16Q24@32@40B48@?52"
+- "v72@0:8@16@24@32@40@48@?56@?64"
+- "valueForSpecifier:"
+- "valueLabel"
+- "valueWithNonretainedObject:"
+- "view"
+- "viewController"
+- "viewDidAppear:"
+- "viewDidDisappear:"
+- "viewDidLoad"
+- "viewIsAppearing:"
+- "viewWillAppear:"
+- "viewWillLayoutSubviews"
+- "warranty"
+- "webURLOverride:"
+- "webViewController:didEncodeNetworkRequest:"
+- "webViewController:didFinishPurchaseWithResult:error:"
+- "webViewController:didResolveWithResult:error:completion:"
+- "webViewController:handleAuthenticateRequest:completion:"
+- "webViewController:handleDelegateAction:completion:"
+- "webViewController:handleDialogRequest:completion:"
+- "willMoveToParentViewController:"
+- "x-apple-universal"
+- "zone"
+- "{CGSize=dd}32@0:8{CGSize=dd}16"
+
+```

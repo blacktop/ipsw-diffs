@@ -1,0 +1,6062 @@
+## RoyaCaptureCore
+
+> `/System/Library/PrivateFrameworks/RoyaCaptureCore.framework/RoyaCaptureCore`
+
+```diff
+
+-14.100.20.0.1
+-  __TEXT.__text: 0x4f810 sha256:7248e9c9b0b78d4e5ec8bef900d271381de65696f5c8e094d2159402f021bac5
+-  __TEXT.__auth_stubs: 0x11c0 sha256:60dbe06970728c91d242044308a32ab89e256a16af1e5b978cb03196921eed74
+-  __TEXT.__objc_methlist: 0x7a4 sha256:1b6257a7b45d7a7b8f8b2c898cb2c4ceda71d42e90665f6e5aa6d02edac7c40d
+-  __TEXT.__const: 0x2032 sha256:bce50ab5df7f15bec1ff95f4f22c53d77521a09beae9b1a0d4fb35e47457d10f
+-  __TEXT.__gcc_except_tab: 0x65dc sha256:177e336a66a9cc7b486a3985bd5ae958be9455bac5ec3229fc215b0a7ded39f4
+-  __TEXT.__cstring: 0x89c3 sha256:1615a39b212fdaf96b50194d1d7d672af024e85b7a36765d588a4fa3ef4718e6
+-  __TEXT.__oslogstring: 0x5331 sha256:25331b39d1a8b382845a18860526d62dea6f14fff428583b2d79bbe6848d3906
+-  __TEXT.__unwind_info: 0x22e0 sha256:6b59cc78fc30fdcd909da36748e3a6f7f3bc39285f2c91014512be70c683d9b7
+-  __TEXT.__objc_classname: 0x1f5 sha256:80de372e692c1b72a9d887da92d458ac21238fe30ef82bbf3f6441e68e83a607
+-  __TEXT.__objc_methname: 0x2976 sha256:c29eaec3805c21858759131f8a716079161ddbe27dffd1dcb077539b318b3a18
+-  __TEXT.__objc_methtype: 0x827 sha256:aa2c34f9689064a534117c7f15bdd160f2df2982b8d295c2362ed21fe331aba9
+-  __TEXT.__objc_stubs: 0x2ce0 sha256:51501b574a86401a0f9dd0c26a8108e7ff3e36f77be1e9824e62aff09810f7fa
+-  __DATA_CONST.__got: 0x428 sha256:5a5c7ebe67f79585f699b7ed58c304a79aae89e491f25a9717364fcf783d79af
+-  __DATA_CONST.__const: 0x2360 sha256:72bc8f1f9fb08896fcba19bfe3ce6058bc801efdc4464bd5f4e9133630dd20b7
+-  __DATA_CONST.__objc_classlist: 0x48 sha256:6d26cab4e7b14196aa7e3d6c195e16923a11f6d27fa572a2481bec37a92a1340
+-  __DATA_CONST.__objc_protolist: 0x50 sha256:035de4f45f1ce11bf644b5b327a12ab0c75ebda734cddefdfeda5f8f93cb1356
++47.0.0.500.2
++  __TEXT.__text: 0x85734 sha256:11b12af009fdb6e6ed3d9de7216a721afee42c6ac039dcfd04f8ec12c10ff096
++  __TEXT.__objc_methlist: 0xe2c sha256:52e19e71542a908130dc36ad98330b0e1f71bed4be8125c82722627bf0ec87b0
++  __TEXT.__const: 0x2fd9 sha256:e2b5825927fbb39b9ae1a460908a335059a9d6d055384f06d3bbd4e7920d2792
++  __TEXT.__gcc_except_tab: 0xacd8 sha256:d119d9404edc15979b4ffedc4805fd01223271ca5cd6919b46e19275c1c796df
++  __TEXT.__oslogstring: 0x8bae sha256:53ac49b136181626ecbeed324cfea41c5f7538861ba3b1ad07b987ef1ee992d1
++  __TEXT.__cstring: 0x71c2 sha256:921885722b1abd79eb085464a3c23aa1f0a5b11304bfabb9604d2fd47d2c86ff
++  __TEXT.__unwind_info: 0x37d8 sha256:c84f51f61623908bdbc4ce6610ec5b74a52cf6878dc2e43b92a51cf62ac83930
++  __TEXT.__objc_stubs: 0x0
++  __TEXT.__auth_stubs: 0x0
++  __TEXT.__objc_classname: 0x0
++  __TEXT.__objc_methname: 0x0
++  __TEXT.__objc_methtype: 0x0
++  __DATA_CONST.__const: 0xb38 sha256:2130e60748c6921362f5604b1e049884bd748f7dd8d5855cb2d032a29f4ce1b3
++  __DATA_CONST.__objc_classlist: 0xe8 sha256:f7154c66c115c81b078d306f4072ff1898e37ce9370a397904b3f7247ff977f3
++  __DATA_CONST.__objc_catlist: 0x8 sha256:aee7705f8b31a879dda4325e75cd3a43a993e5694c00def87d40896ae00db691
++  __DATA_CONST.__objc_protolist: 0x90 sha256:f51a1bf9cd4d075037898f3382294587af0491e681d68c31fec352d84e40efce
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0xd78 sha256:7de63ffdf56f43bfb798dd4952dca665580e147299dbec975ec55cf9c397b893
+-  __DATA_CONST.__objc_protorefs: 0x8 sha256:44af8f224fdf79d72b187a1e7fac6d4765e05eee49b6840fbb480af266d8efba
+-  __DATA_CONST.__objc_superrefs: 0x30 sha256:516cba495989f36a66c689ba951ca195c958c873d7e954a461ac7e6154a8569c
+-  __DATA_CONST.__objc_arraydata: 0x3b8 sha256:af9e540c59f0ed9e3302efd237143c5bbd775ee1b66e33744de67403558fce2a
+-  __AUTH_CONST.__auth_got: 0x8f8 sha256:be7d0a50612ee53660666f19a4075c6646da113ac79905922094b196b33d3d01
+-  __AUTH_CONST.__const: 0x3a78 sha256:52ad056ee7500b6334a7c775e930b0546d279c36f72879a94a0951050bd42fdf
+-  __AUTH_CONST.__cfstring: 0x4900 sha256:77d52a1a6a9741395238587d448b3b4d7b943d504cb954ac862e0dbc6c862136
+-  __AUTH_CONST.__objc_const: 0xf90 sha256:0e964de881c49efb7ae6bac2f83ea18e5b2410a218f60d8b7438558db656ac1d
+-  __AUTH_CONST.__objc_dictobj: 0x2d0 sha256:cffb780d6cdb5c770b3af359611d57ce71259fa54458c9045c4a5ffdcea0ad8f
+-  __AUTH_CONST.__objc_intobj: 0xc0 sha256:4cc04d352810007075aecdd3a7203c7037655fa9543081ea00959c63a941c6c3
+-  __AUTH_CONST.__objc_arrayobj: 0x18 sha256:03c92ad576610e44dfb4aacc3f7ca3858b6dc1f1834af1cf2f00b54ad94d6b5c
+-  __AUTH.__objc_data: 0x2d0 sha256:36a32d2b123fd8a35a918bf1a1a0501469efadaec7092c5d18fff757f2d117be
+-  __DATA.__objc_ivar: 0x78 sha256:d86716d83e98991b8251abb36224c3a18a12dc43b8efaaeef01be1cc63bcb8c4
+-  __DATA.__data: 0x560 sha256:9cf9988554de89f20d2ff5b45df288b82a138bb176dc88f17d4c4930e44d9f07
+-  __DATA.__bss: 0x140 sha256:7b6436b0c98f62380866d9432c2af0ee08ce16a171bda6951aecd95ee1307d61
++  __DATA_CONST.__weak_got: 0x20 sha256:09459abba6650f2ffa0eb9f67ba8943fdc32fe35e159e860c1f239c1d5192746
++  __DATA_CONST.__objc_selrefs: 0x1448 sha256:fecd47a378c5759003c2d103440ec174a1eb07bc9ee4c6c10330be9cb2b991bd
++  __DATA_CONST.__objc_protorefs: 0x20 sha256:e4533d6fb54531fc56d4f428152eb4303dd1ba601cc9d0b3119276365e4b96bb
++  __DATA_CONST.__objc_superrefs: 0xb0 sha256:37e25b13cad2d82b4f4c8c39ec135a4631900157b0a20d1077f6dbf601646a19
++  __DATA_CONST.__objc_arraydata: 0x3d8 sha256:a7adfa51ca3d992ef68a04e7ea191a0ff00def2286c2f472700ce01b5dab9893
++  __DATA_CONST.__got: 0x768 sha256:c21bcafced9c93652d8209b70f786d967fd49bcff429a9eb58a7e87bcffc36a6
++  __AUTH_CONST.__const: 0x5228 sha256:701fd30202d1750f866a352b9b87a121aaf245ba87a8157e460d816278486d35
++  __AUTH_CONST.__cfstring: 0x1080 sha256:e22bec7b65056edcd56ee5560941a949fabd40fab3c65b85cedf6d57a7767436
++  __AUTH_CONST.__objc_const: 0x2478 sha256:73a05c15db76c66a5922712a7f666a97631825d6778f82b90003bdf79b2a64f0
++  __AUTH_CONST.__weak_auth_got: 0x20 sha256:00d1c9286ce157a391a15c99d78f96da39609a21d2fc922ba1eb2abb0139baa3
++  __AUTH_CONST.__objc_doubleobj: 0x10 sha256:2ceaf6e01bf964108018d3c5333649cb89be5cfda898f3138e5686c3b1b4b497
++  __AUTH_CONST.__objc_intobj: 0xf0 sha256:dee3e34ebd4f62791088e9d250f4bd5fd5455f13895d61f5490200e50a6e7c73
++  __AUTH_CONST.__objc_arrayobj: 0x30 sha256:7afa57344634cde3da9d13eb4225da8e0d75cb397bb864ba806afecdf7ded993
++  __AUTH_CONST.__objc_dictobj: 0x2d0 sha256:0201a78fa34b80f8865f65e516ec6bb9c14ef8634b1810aded897cfdc196d350
++  __AUTH_CONST.__auth_got: 0xa90 sha256:9dd75789e0f371d50efb6aaf2878d08ccf1374a4189a0941ae6057b11e487c02
++  __AUTH.__objc_data: 0x910 sha256:3a12cf28d86378dfdaed297814507c004d7a2823f2422644c27b74857ed3d0d8
++  __DATA.__objc_ivar: 0xf0 sha256:c34b16da8d07e8acc6f542cf8c78e6867ecc898e9f4440b37f0057f21ddec7fe
++  __DATA.__data: 0x890 sha256:282376638a96d45f31f38d250a5b120d1b0dd3c2538859a3b23f102efc9ace70
++  __DATA.__bss: 0x260 sha256:4beb641f77c3df2749a5dffc0a23f4270dc4b94e1e940287fc3ebfa05b720662
+   - /System/Library/Frameworks/AVFAudio.framework/AVFAudio
+   - /System/Library/Frameworks/AVFoundation.framework/AVFoundation
+   - /System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+   - /System/Library/Frameworks/CoreAudio.framework/CoreAudio
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
++  - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+   - /System/Library/Frameworks/CoreLocation.framework/CoreLocation
+   - /System/Library/Frameworks/CoreMedia.framework/CoreMedia
+   - /System/Library/Frameworks/CoreMotion.framework/CoreMotion
+
+   - /System/Library/Frameworks/IOKit.framework/Versions/A/IOKit
+   - /System/Library/Frameworks/IOSurface.framework/IOSurface
+   - /System/Library/Frameworks/MediaToolbox.framework/MediaToolbox
++  - /System/Library/Frameworks/Security.framework/Security
+   - /System/Library/Frameworks/VideoToolbox.framework/VideoToolbox
+   - /System/Library/PrivateFrameworks/AccessorySensorManagerServices.framework/AccessorySensorManagerServices
+   - /System/Library/PrivateFrameworks/AppleCV3DMOVKit.framework/AppleCV3DMOVKit
+
+   - /System/Library/PrivateFrameworks/AudioAccessoryServices.framework/AudioAccessoryServices
+   - /System/Library/PrivateFrameworks/CoreWiFi.framework/CoreWiFi
+   - /System/Library/PrivateFrameworks/HID.framework/HID
++  - /System/Library/PrivateFrameworks/IOFastPath.framework/IOFastPath
+   - /System/Library/PrivateFrameworks/MOVStreamIO.framework/MOVStreamIO
+   - /System/Library/PrivateFrameworks/MediaExperience.framework/MediaExperience
+   - /System/Library/PrivateFrameworks/Polaris.framework/Polaris
+   - /System/Library/PrivateFrameworks/PolarisGraph.framework/PolarisGraph
++  - /System/Library/PrivateFrameworks/ProtocolBuffer.framework/ProtocolBuffer
++  - /System/Library/PrivateFrameworks/RoyaFormatCore.framework/RoyaFormatCore
++  - /System/Library/PrivateFrameworks/RoyaMediaOffload.framework/RoyaMediaOffload
++  - /System/Library/PrivateFrameworks/RoyaProtobufKit.framework/RoyaProtobufKit
+   - /System/Library/PrivateFrameworks/RoyaUtilities.framework/RoyaUtilities
+   - /System/Library/PrivateFrameworks/TimeSync.framework/TimeSync
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 2FAE4D8E-434F-3DAE-9540-425A7ED04068
+-  Functions: 1774
+-  Symbols:   5786
+-  CStrings:  2650
++  - /usr/lib/swift/libswiftCore.dylib
++  UUID: 2EC7CECE-1C9F-3458-9975-D7670322F352
++  Functions: 2603
++  Symbols:   7551
++  CStrings:  1686
+ 
+Symbols:
++ +[NSError(RoyaCaptureError) royaCaptureErrorWithCode:message:]
++ +[RoyaCameraStreamSession resolveSourceName]
++ +[RoyaCameraStreamSession resolveSourceName].cold.1
++ -[AudioReceiverWrapper receiveSampleWithIndex:audioBuffer:metadata:error:]
++ -[DeviceMotionDataService .cxx_destruct]
++ -[DeviceMotionDataService dealloc]
++ -[DeviceMotionDataService initWithCallback:onQueue:]
++ -[DeviceMotionDataService setUpdateInterval:]
++ -[DeviceMotionDataService start]
++ -[DeviceMotionDataService stop]
++ -[MetadataReceiverWrapper receiveSampleWithIndex:timestamp:data:metadata:error:]
++ -[RoyaBuiltInDataSource initWithName:config:]
++ -[RoyaCameraStreamSession .cxx_destruct]
++ -[RoyaCameraStreamSession initWithDelegate:]
++ -[RoyaCameraStreamSession running]
++ -[RoyaCameraStreamSession setupSessionWithError:]
++ -[RoyaCameraStreamSession startWithCompletionHandler:]
++ -[RoyaCameraStreamSession stopWithCompletionHandler:]
++ -[RoyaCameraStreamSessionDelegateAdapter .cxx_destruct]
++ -[RoyaCameraStreamSessionDelegateAdapter createVideoReceiverForTrack:error:]
++ -[RoyaCameraStreamSessionDelegateAdapter initWithSession:delegate:]
++ -[RoyaCameraStreamSessionDelegateAdapter shouldInitializeWithError:]
++ -[RoyaCameraStreamSessionDelegateAdapter startWithCompletionHandler:]
++ -[RoyaCameraStreamSessionDelegateAdapter stopWithCompletionHandler:]
++ -[RoyaCameraStreamVideoReceiver .cxx_destruct]
++ -[RoyaCameraStreamVideoReceiver initWithSession:delegate:]
++ -[RoyaCameraStreamVideoReceiver receiveSampleWithIndex:timestamp:pixelBuffer:metadata:error:]
++ -[RoyaCaptureSession .cxx_construct]
++ -[RoyaCaptureSession .cxx_destruct]
++ -[RoyaCaptureSession addOperation:error:]
++ -[RoyaCaptureSession addSink:error:]
++ -[RoyaCaptureSession addSource:error:]
++ -[RoyaCaptureSession initWithAuditToken:]
++ -[RoyaCaptureSession init]
++ -[RoyaCaptureSession running]
++ -[RoyaCaptureSession sendMessageToSource:payload:error:]
++ -[RoyaCaptureSession sessionFinishedHandler]
++ -[RoyaCaptureSession sessionMessageHandler]
++ -[RoyaCaptureSession setRouting:error:]
++ -[RoyaCaptureSession setSessionFinishedHandler:]
++ -[RoyaCaptureSession setSessionMessageHandler:]
++ -[RoyaCaptureSession startWithTimeout:captureDuration:completionHandler:]
++ -[RoyaCaptureSession startWithTimeout:captureDuration:error:]
++ -[RoyaCaptureSession stopWithTimeout:completionHandler:]
++ -[RoyaCaptureSession stopWithTimeout:error:]
++ -[RoyaCustomDataSource .cxx_destruct]
++ -[RoyaCustomDataSource initWithName:source:config:]
++ -[RoyaCustomDataSource source]
++ -[RoyaDataSource .cxx_destruct]
++ -[RoyaDataSource config]
++ -[RoyaDataSource initWithName:]
++ -[RoyaDataSource initWithName:config:]
++ -[RoyaDataSource name]
++ -[RoyaDelegateSinkOptions .cxx_destruct]
++ -[RoyaDelegateSinkOptions delegate]
++ -[RoyaDelegateSinkOptions initWithDelegate:]
++ -[RoyaDelegateSinkOptions initWithDelegate:identifier:]
++ -[RoyaDelegateSinkOptions setDelegate:]
++ -[RoyaFileSinkOptions .cxx_destruct]
++ -[RoyaFileSinkOptions initWithIdentifier:outputPath:]
++ -[RoyaFileSinkOptions outputPath]
++ -[RoyaFileSinkOptions setOutputPath:]
++ -[RoyaMOVKitFileSinkOptions initWithOutputPath:useOwnThreadPerTrack:]
++ -[RoyaMOVKitFileSinkOptions initWithOutputPath:useOwnThreadPerTrack:identifier:]
++ -[RoyaMOVKitFileSinkOptions setUseOwnThreadPerTrack:]
++ -[RoyaMOVKitFileSinkOptions useOwnThreadPerTrack]
++ -[RoyaOperationNode .cxx_destruct]
++ -[RoyaOperationNode config]
++ -[RoyaOperationNode initWithName:type:config:]
++ -[RoyaOperationNode name]
++ -[RoyaOperationNode setConfig:]
++ -[RoyaOperationNode setName:]
++ -[RoyaOperationNode setType:]
++ -[RoyaOperationNode type]
++ -[RoyaProtoBufFileSinkOptions initWithOutputPath:]
++ -[RoyaProtoBufFileSinkOptions initWithOutputPath:identifier:]
++ -[RoyaRouteEdge .cxx_destruct]
++ -[RoyaRouteEdge from]
++ -[RoyaRouteEdge initWithFrom:to:]
++ -[RoyaRouteEdge to]
++ -[RoyaSampleReceiver .cxx_construct]
++ -[RoyaSampleReceiver .cxx_destruct]
++ -[RoyaSampleReceiver bridge]
++ -[RoyaSampleReceiver setBridge:]
++ -[RoyaSinkOptions .cxx_destruct]
++ -[RoyaSinkOptions identifier]
++ -[RoyaSinkOptions initWithIdentifier:]
++ -[RoyaSinkOptions setIdentifier:]
++ -[RoyaTimeSyncPeerService .cxx_construct]
++ -[RoyaTimeSyncPeerService .cxx_destruct]
++ -[RoyaTimeSyncPeerService addPeer:onInterface:error:]
++ -[RoyaTimeSyncPeerService createNewInstanceReturningClockId:error:]
++ -[RoyaTimeSyncPeerService init]
++ -[RoyaTimeSyncPeerService initializeWithClockId:error:]
++ -[RoyaTimeSyncPeerService networkInterface]
++ -[RoyaTimeSyncPeerService removeAllPeers]
++ -[RoyaTimeSyncPeerService removePeer:onInterface:error:]
++ -[TrackOptions .cxx_destruct]
++ -[TrackOptions config]
++ -[TrackOptions dataSource]
++ -[TrackOptions initWithDataSource:config:]
++ -[TrackOptions setConfig:]
++ -[TrackOptions setDataSource:]
++ -[VideoReceiverWrapper receiveSampleWithIndex:timestamp:pixelBuffer:metadata:error:]
++ GCC_except_table105
++ GCC_except_table107
++ GCC_except_table112
++ GCC_except_table113
++ GCC_except_table114
++ GCC_except_table119
++ GCC_except_table125
++ GCC_except_table126
++ GCC_except_table127
++ GCC_except_table128
++ GCC_except_table134
++ GCC_except_table135
++ GCC_except_table141
++ GCC_except_table142
++ GCC_except_table143
++ GCC_except_table144
++ GCC_except_table148
++ GCC_except_table149
++ GCC_except_table155
++ GCC_except_table156
++ GCC_except_table162
++ GCC_except_table163
++ GCC_except_table168
++ GCC_except_table169
++ GCC_except_table176
++ GCC_except_table177
++ GCC_except_table182
++ GCC_except_table183
++ GCC_except_table184
++ GCC_except_table189
++ GCC_except_table193
++ GCC_except_table194
++ GCC_except_table200
++ GCC_except_table201
++ GCC_except_table206
++ GCC_except_table216
++ GCC_except_table217
++ GCC_except_table222
++ GCC_except_table223
++ GCC_except_table224
++ GCC_except_table225
++ GCC_except_table231
++ GCC_except_table43
++ GCC_except_table48
++ GCC_except_table49
++ GCC_except_table82
++ GCC_except_table85
++ GCC_except_table93
++ GCC_except_table94
++ GCC_except_table99
++ _AVChannelLayoutKey
++ _AVEncoderBitRateKey
++ _AVFileTypeQuickTimeMovie
++ _AVFormatIDKey
++ _AVMediaTypeMetadata
++ _AVMetadataCommonIdentifierTitle
++ _AVMetadataIdentifierQuickTimeUserDataTrackName
++ _AVMetadataKeySpaceQuickTimeMetadata
++ _AVMetadataKeySpaceQuickTimeUserData
++ _AVMetadataQuickTimeUserDataKeyTaggedCharacteristic
++ _AVNumberOfChannelsKey
++ _AVSampleRateKey
++ _AVTrackAssociationTypeMetadataReferent
++ _AVVideoAverageBitRateKey
++ _AVVideoCodecKey
++ _AVVideoCodecTypeH264
++ _AVVideoCodecTypeHEVC
++ _AVVideoCodecTypeJPEG
++ _AVVideoCompressionPropertiesKey
++ _AVVideoExpectedSourceFrameRateKey
++ _AVVideoH264EntropyModeCABAC
++ _AVVideoH264EntropyModeKey
++ _AVVideoHeightKey
++ _AVVideoMaxKeyFrameIntervalKey
++ _AVVideoQualityKey
++ _AVVideoWidthKey
++ _CFArrayGetTypeID
++ _CFGetTypeID
++ _CFRunLoopRunInMode
++ _CMBlockBufferAssureBlockMemory
++ _CMBlockBufferCopyDataBytes
++ _CMBlockBufferGetDataLength
++ _CMBlockBufferGetDataPointer
++ _CMBlockBufferReplaceDataBytes
++ _CMMemoryPoolGetAllocator
++ _CMMemoryPoolInvalidate
++ _CMMetadataFormatDescriptionCreateWithMetadataSpecifications
++ _CMSampleBufferCreate
++ _CMSampleBufferCreateReadyWithImageBuffer
++ _CMSampleBufferGetDataBuffer
++ _CMSampleBufferGetSampleTimingInfo
++ _CMSampleBufferGetSampleTimingInfoArray
++ _CMTimeCopyAsDictionary
++ _CMTimeRangeMake
++ _CVPixelBufferCreate
++ _NSLocalizedDescriptionKey
++ _NSOSStatusErrorDomain
++ _OBJC_CLASS_$_AVAssetWriter
++ _OBJC_CLASS_$_AVAssetWriterInput
++ _OBJC_CLASS_$_AVAssetWriterInputMetadataAdaptor
++ _OBJC_CLASS_$_AVAssetWriterInputPixelBufferAdaptor
++ _OBJC_CLASS_$_AVMutableMetadataItem
++ _OBJC_CLASS_$_AVTimedMetadataGroup
++ _OBJC_CLASS_$_AudioReceiverWrapper
++ _OBJC_CLASS_$_CMMotionManager
++ _OBJC_CLASS_$_CVACLMotionTypeVector3
++ _OBJC_CLASS_$_CVACMAccelerometerData
++ _OBJC_CLASS_$_CVACMCompassData
++ _OBJC_CLASS_$_CVACMGyroData
++ _OBJC_CLASS_$_DeviceMotionDataService
++ _OBJC_CLASS_$_MetadataReceiverWrapper
++ _OBJC_CLASS_$_NSConstantDoubleNumber
++ _OBJC_CLASS_$_NSError
++ _OBJC_CLASS_$_NSUserDefaults
++ _OBJC_CLASS_$_PBDataWriter
++ _OBJC_CLASS_$_RFCTimedValue
++ _OBJC_CLASS_$_RPBContainerMetadata
++ _OBJC_CLASS_$_RPBHIDSample
++ _OBJC_CLASS_$_RPBIMUComboSample
++ _OBJC_CLASS_$_RPBIMUSample
++ _OBJC_CLASS_$_RPBSample
++ _OBJC_CLASS_$_RPBTrackMetadata
++ _OBJC_CLASS_$_RPBTrackProperty
++ _OBJC_CLASS_$_RPBUserEventSample
++ _OBJC_CLASS_$_RPBWifiSample
++ _OBJC_CLASS_$_RoyaBuiltInDataSource
++ _OBJC_CLASS_$_RoyaCameraStreamSession
++ _OBJC_CLASS_$_RoyaCameraStreamSessionDelegateAdapter
++ _OBJC_CLASS_$_RoyaCameraStreamVideoReceiver
++ _OBJC_CLASS_$_RoyaCaptureSession
++ _OBJC_CLASS_$_RoyaCustomDataSource
++ _OBJC_CLASS_$_RoyaDataSource
++ _OBJC_CLASS_$_RoyaDelegateSinkOptions
++ _OBJC_CLASS_$_RoyaFileSinkOptions
++ _OBJC_CLASS_$_RoyaMOVKitFileSinkOptions
++ _OBJC_CLASS_$_RoyaOperationNode
++ _OBJC_CLASS_$_RoyaProtoBufFileSinkOptions
++ _OBJC_CLASS_$_RoyaRouteEdge
++ _OBJC_CLASS_$_RoyaSampleReceiver
++ _OBJC_CLASS_$_RoyaSinkOptions
++ _OBJC_CLASS_$_RoyaTimeSyncPeerService
++ _OBJC_CLASS_$_TSgPTPNetworkPort
++ _OBJC_CLASS_$_TrackOptions
++ _OBJC_CLASS_$_VideoReceiverWrapper
++ _OBJC_IVAR_$_DeviceMotionDataService._deviceMotionCallback
++ _OBJC_IVAR_$_DeviceMotionDataService._motionManager
++ _OBJC_IVAR_$_DeviceMotionDataService._operationQueue
++ _OBJC_IVAR_$_DeviceMotionDataService._underlyingQueue
++ _OBJC_IVAR_$_RoyaCameraStreamSession._captureSession
++ _OBJC_IVAR_$_RoyaCameraStreamSession._delegateBridge
++ _OBJC_IVAR_$_RoyaCameraStreamSession._isSinkAdded
++ _OBJC_IVAR_$_RoyaCameraStreamSession._isSourceAdded
++ _OBJC_IVAR_$_RoyaCameraStreamSession._outputDelegate
++ _OBJC_IVAR_$_RoyaCameraStreamSession._sourceName
++ _OBJC_IVAR_$_RoyaCameraStreamSessionDelegateAdapter._session
++ _OBJC_IVAR_$_RoyaCameraStreamSessionDelegateAdapter._sessionDelegate
++ _OBJC_IVAR_$_RoyaCameraStreamVideoReceiver._delegate
++ _OBJC_IVAR_$_RoyaCameraStreamVideoReceiver._session
++ _OBJC_IVAR_$_RoyaCaptureSession._retainedCallbackBlock
++ _OBJC_IVAR_$_RoyaCaptureSession._sessionMessageHandler
++ _OBJC_IVAR_$_RoyaCaptureSession.dataSourceBridges
++ _OBJC_IVAR_$_RoyaCaptureSession.sessionProxy
++ _OBJC_IVAR_$_RoyaCustomDataSource._source
++ _OBJC_IVAR_$_RoyaDataSource._config
++ _OBJC_IVAR_$_RoyaDataSource._name
++ _OBJC_IVAR_$_RoyaDelegateSinkOptions.delegate
++ _OBJC_IVAR_$_RoyaFileSinkOptions.outputPath
++ _OBJC_IVAR_$_RoyaMOVKitFileSinkOptions.useOwnThreadPerTrack
++ _OBJC_IVAR_$_RoyaOperationNode._config
++ _OBJC_IVAR_$_RoyaOperationNode._name
++ _OBJC_IVAR_$_RoyaOperationNode._type
++ _OBJC_IVAR_$_RoyaRouteEdge._from
++ _OBJC_IVAR_$_RoyaRouteEdge._to
++ _OBJC_IVAR_$_RoyaSampleReceiver._bridge
++ _OBJC_IVAR_$_RoyaSinkOptions.identifier
++ _OBJC_IVAR_$_RoyaTimeSyncPeerService._service
++ _OBJC_IVAR_$_TrackOptions.config
++ _OBJC_IVAR_$_TrackOptions.dataSource
++ _OBJC_METACLASS_$_AudioReceiverWrapper
++ _OBJC_METACLASS_$_DeviceMotionDataService
++ _OBJC_METACLASS_$_MetadataReceiverWrapper
++ _OBJC_METACLASS_$_RoyaBuiltInDataSource
++ _OBJC_METACLASS_$_RoyaCameraStreamSession
++ _OBJC_METACLASS_$_RoyaCameraStreamSessionDelegateAdapter
++ _OBJC_METACLASS_$_RoyaCameraStreamVideoReceiver
++ _OBJC_METACLASS_$_RoyaCaptureSession
++ _OBJC_METACLASS_$_RoyaCustomDataSource
++ _OBJC_METACLASS_$_RoyaDataSource
++ _OBJC_METACLASS_$_RoyaDelegateSinkOptions
++ _OBJC_METACLASS_$_RoyaFileSinkOptions
++ _OBJC_METACLASS_$_RoyaMOVKitFileSinkOptions
++ _OBJC_METACLASS_$_RoyaOperationNode
++ _OBJC_METACLASS_$_RoyaProtoBufFileSinkOptions
++ _OBJC_METACLASS_$_RoyaRouteEdge
++ _OBJC_METACLASS_$_RoyaSampleReceiver
++ _OBJC_METACLASS_$_RoyaSinkOptions
++ _OBJC_METACLASS_$_RoyaTimeSyncPeerService
++ _OBJC_METACLASS_$_TrackOptions
++ _OBJC_METACLASS_$_VideoReceiverWrapper
++ _RoyaCaptureErrorDomain
++ _RoyaSessionMessagePayloadKeyCaptureStartWithTimestamp
++ _RoyaSessionMessagePayloadKeyCaptureStop
++ _RoyaSessionMessagePayloadKeyCapturedAssetPath
++ _RoyaSessionMessagePayloadKeyErrorCode
++ _RoyaSessionMessagePayloadKeyErrorMessage
++ _RoyaSessionMessagePayloadKeyProxyAssetPath
++ _SecTaskCopyValueForEntitlement
++ _SecTaskCreateFromSelf
++ _SecTaskCreateWithAuditToken
++ __MergedGlobals
++ __NSGetExecutablePath
++ __OBJC_$_CATEGORY_CLASS_METHODS_NSError_$_RoyaCaptureError
++ __OBJC_$_CATEGORY_NSError_$_RoyaCaptureError
++ __OBJC_$_CLASS_METHODS_RoyaCameraStreamSession
++ __OBJC_$_INSTANCE_METHODS_AudioReceiverWrapper
++ __OBJC_$_INSTANCE_METHODS_DeviceMotionDataService
++ __OBJC_$_INSTANCE_METHODS_MetadataReceiverWrapper
++ __OBJC_$_INSTANCE_METHODS_RoyaBuiltInDataSource
++ __OBJC_$_INSTANCE_METHODS_RoyaCameraStreamSession
++ __OBJC_$_INSTANCE_METHODS_RoyaCameraStreamSessionDelegateAdapter
++ __OBJC_$_INSTANCE_METHODS_RoyaCameraStreamVideoReceiver
++ __OBJC_$_INSTANCE_METHODS_RoyaCaptureSession
++ __OBJC_$_INSTANCE_METHODS_RoyaCustomDataSource
++ __OBJC_$_INSTANCE_METHODS_RoyaDataSource
++ __OBJC_$_INSTANCE_METHODS_RoyaDelegateSinkOptions
++ __OBJC_$_INSTANCE_METHODS_RoyaFileSinkOptions
++ __OBJC_$_INSTANCE_METHODS_RoyaMOVKitFileSinkOptions
++ __OBJC_$_INSTANCE_METHODS_RoyaOperationNode
++ __OBJC_$_INSTANCE_METHODS_RoyaProtoBufFileSinkOptions
++ __OBJC_$_INSTANCE_METHODS_RoyaRouteEdge
++ __OBJC_$_INSTANCE_METHODS_RoyaSampleReceiver
++ __OBJC_$_INSTANCE_METHODS_RoyaSinkOptions
++ __OBJC_$_INSTANCE_METHODS_RoyaTimeSyncPeerService
++ __OBJC_$_INSTANCE_METHODS_TrackOptions
++ __OBJC_$_INSTANCE_METHODS_VideoReceiverWrapper
++ __OBJC_$_INSTANCE_VARIABLES_DeviceMotionDataService
++ __OBJC_$_INSTANCE_VARIABLES_RoyaCameraStreamSession
++ __OBJC_$_INSTANCE_VARIABLES_RoyaCameraStreamSessionDelegateAdapter
++ __OBJC_$_INSTANCE_VARIABLES_RoyaCameraStreamVideoReceiver
++ __OBJC_$_INSTANCE_VARIABLES_RoyaCaptureSession
++ __OBJC_$_INSTANCE_VARIABLES_RoyaCustomDataSource
++ __OBJC_$_INSTANCE_VARIABLES_RoyaDataSource
++ __OBJC_$_INSTANCE_VARIABLES_RoyaDelegateSinkOptions
++ __OBJC_$_INSTANCE_VARIABLES_RoyaFileSinkOptions
++ __OBJC_$_INSTANCE_VARIABLES_RoyaMOVKitFileSinkOptions
++ __OBJC_$_INSTANCE_VARIABLES_RoyaOperationNode
++ __OBJC_$_INSTANCE_VARIABLES_RoyaRouteEdge
++ __OBJC_$_INSTANCE_VARIABLES_RoyaSampleReceiver
++ __OBJC_$_INSTANCE_VARIABLES_RoyaSinkOptions
++ __OBJC_$_INSTANCE_VARIABLES_RoyaTimeSyncPeerService
++ __OBJC_$_INSTANCE_VARIABLES_TrackOptions
++ __OBJC_$_PROP_LIST_AudioReceiverWrapper
++ __OBJC_$_PROP_LIST_MetadataReceiverWrapper
++ __OBJC_$_PROP_LIST_RoyaCameraStreamSession
++ __OBJC_$_PROP_LIST_RoyaCameraStreamSessionDelegateAdapter
++ __OBJC_$_PROP_LIST_RoyaCameraStreamVideoReceiver
++ __OBJC_$_PROP_LIST_RoyaCaptureSession
++ __OBJC_$_PROP_LIST_RoyaCustomDataSource
++ __OBJC_$_PROP_LIST_RoyaDataSource
++ __OBJC_$_PROP_LIST_RoyaDelegateSinkOptions
++ __OBJC_$_PROP_LIST_RoyaFileSinkOptions
++ __OBJC_$_PROP_LIST_RoyaMOVKitFileSinkOptions
++ __OBJC_$_PROP_LIST_RoyaOperationNode
++ __OBJC_$_PROP_LIST_RoyaRouteEdge
++ __OBJC_$_PROP_LIST_RoyaSampleReceiver
++ __OBJC_$_PROP_LIST_RoyaSessionProtocol
++ __OBJC_$_PROP_LIST_RoyaSinkOptions
++ __OBJC_$_PROP_LIST_RoyaTimeSyncPeerService
++ __OBJC_$_PROP_LIST_TrackOptions
++ __OBJC_$_PROP_LIST_VideoReceiverWrapper
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_RoyaDataSourceProtocol
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_RoyaOutputDelegate
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_RoyaAudioDataSource
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_RoyaAudioSampleReceiver
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_RoyaDataSourceProtocol
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_RoyaMetadataDataSource
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_RoyaMetadataSampleReceiver
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_RoyaOutputDelegate
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_RoyaSessionProtocol
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_RoyaVideoDataSource
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_RoyaVideoSampleReceiver
++ __OBJC_$_PROTOCOL_METHOD_TYPES_RoyaAudioDataSource
++ __OBJC_$_PROTOCOL_METHOD_TYPES_RoyaAudioSampleReceiver
++ __OBJC_$_PROTOCOL_METHOD_TYPES_RoyaDataSourceProtocol
++ __OBJC_$_PROTOCOL_METHOD_TYPES_RoyaMetadataDataSource
++ __OBJC_$_PROTOCOL_METHOD_TYPES_RoyaMetadataSampleReceiver
++ __OBJC_$_PROTOCOL_METHOD_TYPES_RoyaOutputDelegate
++ __OBJC_$_PROTOCOL_METHOD_TYPES_RoyaSessionProtocol
++ __OBJC_$_PROTOCOL_METHOD_TYPES_RoyaVideoDataSource
++ __OBJC_$_PROTOCOL_METHOD_TYPES_RoyaVideoSampleReceiver
++ __OBJC_$_PROTOCOL_REFS_RoyaAudioDataSource
++ __OBJC_$_PROTOCOL_REFS_RoyaAudioSampleReceiver
++ __OBJC_$_PROTOCOL_REFS_RoyaDataSourceProtocol
++ __OBJC_$_PROTOCOL_REFS_RoyaMetadataDataSource
++ __OBJC_$_PROTOCOL_REFS_RoyaMetadataSampleReceiver
++ __OBJC_$_PROTOCOL_REFS_RoyaOutputDelegate
++ __OBJC_$_PROTOCOL_REFS_RoyaSampleReceiverProtocol
++ __OBJC_$_PROTOCOL_REFS_RoyaSessionProtocol
++ __OBJC_$_PROTOCOL_REFS_RoyaVideoDataSource
++ __OBJC_$_PROTOCOL_REFS_RoyaVideoSampleReceiver
++ __OBJC_CLASS_PROTOCOLS_$_AudioReceiverWrapper
++ __OBJC_CLASS_PROTOCOLS_$_MetadataReceiverWrapper
++ __OBJC_CLASS_PROTOCOLS_$_RoyaCameraStreamSessionDelegateAdapter
++ __OBJC_CLASS_PROTOCOLS_$_RoyaCameraStreamVideoReceiver
++ __OBJC_CLASS_PROTOCOLS_$_RoyaCaptureSession
++ __OBJC_CLASS_PROTOCOLS_$_VideoReceiverWrapper
++ __OBJC_CLASS_RO_$_AudioReceiverWrapper
++ __OBJC_CLASS_RO_$_DeviceMotionDataService
++ __OBJC_CLASS_RO_$_MetadataReceiverWrapper
++ __OBJC_CLASS_RO_$_RoyaBuiltInDataSource
++ __OBJC_CLASS_RO_$_RoyaCameraStreamSession
++ __OBJC_CLASS_RO_$_RoyaCameraStreamSessionDelegateAdapter
++ __OBJC_CLASS_RO_$_RoyaCameraStreamVideoReceiver
++ __OBJC_CLASS_RO_$_RoyaCaptureSession
++ __OBJC_CLASS_RO_$_RoyaCustomDataSource
++ __OBJC_CLASS_RO_$_RoyaDataSource
++ __OBJC_CLASS_RO_$_RoyaDelegateSinkOptions
++ __OBJC_CLASS_RO_$_RoyaFileSinkOptions
++ __OBJC_CLASS_RO_$_RoyaMOVKitFileSinkOptions
++ __OBJC_CLASS_RO_$_RoyaOperationNode
++ __OBJC_CLASS_RO_$_RoyaProtoBufFileSinkOptions
++ __OBJC_CLASS_RO_$_RoyaRouteEdge
++ __OBJC_CLASS_RO_$_RoyaSampleReceiver
++ __OBJC_CLASS_RO_$_RoyaSinkOptions
++ __OBJC_CLASS_RO_$_RoyaTimeSyncPeerService
++ __OBJC_CLASS_RO_$_TrackOptions
++ __OBJC_CLASS_RO_$_VideoReceiverWrapper
++ __OBJC_LABEL_PROTOCOL_$_RoyaAudioDataSource
++ __OBJC_LABEL_PROTOCOL_$_RoyaAudioSampleReceiver
++ __OBJC_LABEL_PROTOCOL_$_RoyaDataSourceProtocol
++ __OBJC_LABEL_PROTOCOL_$_RoyaMetadataDataSource
++ __OBJC_LABEL_PROTOCOL_$_RoyaMetadataSampleReceiver
++ __OBJC_LABEL_PROTOCOL_$_RoyaOutputDelegate
++ __OBJC_LABEL_PROTOCOL_$_RoyaSampleReceiverProtocol
++ __OBJC_LABEL_PROTOCOL_$_RoyaSessionProtocol
++ __OBJC_LABEL_PROTOCOL_$_RoyaVideoDataSource
++ __OBJC_LABEL_PROTOCOL_$_RoyaVideoSampleReceiver
++ __OBJC_METACLASS_RO_$_AudioReceiverWrapper
++ __OBJC_METACLASS_RO_$_DeviceMotionDataService
++ __OBJC_METACLASS_RO_$_MetadataReceiverWrapper
++ __OBJC_METACLASS_RO_$_RoyaBuiltInDataSource
++ __OBJC_METACLASS_RO_$_RoyaCameraStreamSession
++ __OBJC_METACLASS_RO_$_RoyaCameraStreamSessionDelegateAdapter
++ __OBJC_METACLASS_RO_$_RoyaCameraStreamVideoReceiver
++ __OBJC_METACLASS_RO_$_RoyaCaptureSession
++ __OBJC_METACLASS_RO_$_RoyaCustomDataSource
++ __OBJC_METACLASS_RO_$_RoyaDataSource
++ __OBJC_METACLASS_RO_$_RoyaDelegateSinkOptions
++ __OBJC_METACLASS_RO_$_RoyaFileSinkOptions
++ __OBJC_METACLASS_RO_$_RoyaMOVKitFileSinkOptions
++ __OBJC_METACLASS_RO_$_RoyaOperationNode
++ __OBJC_METACLASS_RO_$_RoyaProtoBufFileSinkOptions
++ __OBJC_METACLASS_RO_$_RoyaRouteEdge
++ __OBJC_METACLASS_RO_$_RoyaSampleReceiver
++ __OBJC_METACLASS_RO_$_RoyaSinkOptions
++ __OBJC_METACLASS_RO_$_RoyaTimeSyncPeerService
++ __OBJC_METACLASS_RO_$_TrackOptions
++ __OBJC_METACLASS_RO_$_VideoReceiverWrapper
++ __OBJC_PROTOCOL_$_RoyaAudioDataSource
++ __OBJC_PROTOCOL_$_RoyaAudioSampleReceiver
++ __OBJC_PROTOCOL_$_RoyaDataSourceProtocol
++ __OBJC_PROTOCOL_$_RoyaMetadataDataSource
++ __OBJC_PROTOCOL_$_RoyaMetadataSampleReceiver
++ __OBJC_PROTOCOL_$_RoyaOutputDelegate
++ __OBJC_PROTOCOL_$_RoyaSampleReceiverProtocol
++ __OBJC_PROTOCOL_$_RoyaSessionProtocol
++ __OBJC_PROTOCOL_$_RoyaVideoDataSource
++ __OBJC_PROTOCOL_$_RoyaVideoSampleReceiver
++ __OBJC_PROTOCOL_REFERENCE_$_RoyaAudioDataSource
++ __OBJC_PROTOCOL_REFERENCE_$_RoyaMetadataDataSource
++ __OBJC_PROTOCOL_REFERENCE_$_RoyaVideoDataSource
++ __Z15SecondsToNSDated
++ __Z17SecondsFromNSDateP6NSDate
++ __Z27SecondsToNSDateWith1970Basedd
++ __ZGVZN4roya20AudioPipelineContext14encoderToCodecEvE3map
++ __ZGVZN4roya4impl21PolarisSharedResource22GetOrCreateFlowControlERKNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEEE5mutex
++ __ZGVZN4roya4util15getBuildVersionEvE6result
++ __ZGVZN4roya4util15getDeviceSerialEvE6result
++ __ZGVZN4roya4util15isVirtualDeviceEvE6result
++ __ZGVZN4roya4util16getProductConfigEvE6result
++ __ZGVZN4roya4util17getProductVersionEvE6result
++ __ZGVZN4roya4util18getDeviceModelNameEvE6result
++ __ZL17NSErrorFromStatusRKN4roya6StatusE
++ __ZL29sessionMessageCallbackWrapperPv22RoyaSessionMessageTypeP12NSDictionaryIP8NSStringP11objc_objectE
++ __ZN4roya11FrameDumper14OnDataReceivedEPNS_15PipelineContextERKNSt3__110shared_ptrINS_9FrameDataEEE
++ __ZN4roya11MetadataSet9MergeFromEP12NSDictionary
++ __ZN4roya11SessionBase13OnSinkMessageEPNS_8DataSinkE22RoyaSessionMessageTypeP12NSDictionaryIP8NSStringP11objc_objectE
++ __ZN4roya11SessionBase16OnSessionMessageE22RoyaSessionMessageTypeP12NSDictionaryIP8NSStringP11objc_objectE
++ __ZN4roya11SessionBase25SetSessionMessageCallbackEPFvPv22RoyaSessionMessageTypeP12NSDictionaryIP8NSStringP11objc_objectEES1_
++ __ZN4roya11SessionBase25SetSessionMessageCallbackEPFvPv22RoyaSessionMessageTypeP12NSDictionaryIP8NSStringP11objc_objectEES1_.cold.1
++ __ZN4roya11audio_utils18ExtractMonoChannelEP20opaqueCMSampleBufferj
++ __ZN4roya11audio_utils18IsInterleavedAudioEP20opaqueCMSampleBuffer
++ __ZN4roya11audio_utils19CreateChannelLayoutEj
++ __ZN4roya11audio_utils19GetChannelLayoutTagEj
++ __ZN4roya11audio_utils25ConvertToInterleavedAudioEP20opaqueCMSampleBuffer
++ __ZN4roya11audio_utils31CreateInterleavedCMSampleBufferERKNSt3__16vectorINS2_ISt4byteNS1_9allocatorIS3_EEEENS4_IS6_EEEEmRKNS_5cmrefIPNS_20CMFormatDescription_ESC_EERK18CMSampleTimingInfo
++ __ZN4roya11audio_utils34CreateNonInterleavedCMSampleBufferERKNSt3__16vectorINS2_ISt4byteNS1_9allocatorIS3_EEEENS4_IS6_EEEERKNS_5cmrefIPNS_20CMFormatDescription_ESC_EERK18CMSampleTimingInfo
++ __ZN4roya11audio_utilsL27CreateInterleavedFormatDescIaEEijdRNS_5cmrefIPNS_20CMFormatDescription_ES3_EE
++ __ZN4roya11audio_utilsL27CreateInterleavedFormatDescIfEEijdRNS_5cmrefIPNS_20CMFormatDescription_ES3_EE
++ __ZN4roya11audio_utilsL27CreateInterleavedFormatDescIiEEijdRNS_5cmrefIPNS_20CMFormatDescription_ES3_EE
++ __ZN4roya11audio_utilsL27CreateInterleavedFormatDescIsEEijdRNS_5cmrefIPNS_20CMFormatDescription_ES3_EE
++ __ZN4roya11audio_utilsL35CreateCMSampleBufferFromBlockBufferENS_5cmrefIP19OpaqueCMBlockBufferS2_EElRKNS1_IPNS_20CMFormatDescription_ES5_EERK18CMSampleTimingInfo
++ __ZN4roya12DataProvider9OnMessageEP12NSDictionaryIP8NSStringP11objc_objectE
++ __ZN4roya12GraphBuilder10SetRoutingERKNSt3__13setINS1_4pairINS1_12basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEES9_EENS1_4lessISA_EENS7_ISA_EEEE
++ __ZN4roya12GraphBuilder12AddOperationERKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEES9_RKNS1_13unordered_mapIS7_S7_NS1_4hashIS7_EENS1_8equal_toIS7_EENS5_INS1_4pairIS8_S7_EEEEEE
++ __ZN4roya12GraphBuilder13CreateContextENS_9TrackTypeERKNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEERKNS2_13unordered_mapIS8_S8_NS2_4hashIS8_EENS2_8equal_toIS8_EENS6_INS2_4pairIS9_S8_EEEEEENS_16PipelineExecModeE
++ __ZN4roya12GraphBuilder14CreateDataSinkEP15RoyaSinkOptions
++ __ZN4roya12GraphBuilder15CreateOperationERKNS_13OperationInfoE
++ __ZN4roya12GraphBuilder19SendMessageToSourceERKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEEP12NSDictionary
++ __ZN4roya12GraphBuilder20ValidateRoutingEdgesERKNSt3__13setINS1_4pairINS1_12basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEES9_EENS1_4lessISA_EENS7_ISA_EEEE
++ __ZN4roya12GraphBuilder5BuildEPNS_7SessionE.cold.2
++ __ZN4roya12GraphBuilder7AddSinkEP15RoyaSinkOptions
++ __ZN4roya12GraphBuilderC2ENS_10DeviceTypeE
++ __ZN4roya12MOVContainer11SetDataSinkEPNS_8DataSinkEPU28objcproto17OS_dispatch_queue8NSObject
++ __ZN4roya12MOVContainer18WriteAssetMetadataEP12NSDictionary6CMTime
++ __ZN4roya12MOVContainer22AddStateChangeCallbackENSt3__18functionIFvNS_14ContainerStateEEEE
++ __ZN4roya13CVBufferFrameC1EyP10__CVBuffer6CMTimeS3_NS_11FrameStatusE
++ __ZN4roya13CVBufferFrameC2EyP10__CVBuffer6CMTimeS3_NS_11FrameStatusE
++ __ZN4roya13MobileGestalt18HardwareModelOrNilEv
++ __ZN4roya13OperationInfoD2Ev
++ __ZN4roya13ProtoBufTrack20SubmitProtoBufSampleEPNS_4impl17ProtoBufContainerEP9RPBSample
++ __ZN4roya13ProtoBufTrackC2EPNS_15PipelineContextENS_12MOVTrackTypeERKNSt3__112basic_stringIcNS4_11char_traitsIcEENS4_9allocatorIcEEEE
++ __ZN4roya13ProtoBufTrackD0Ev
++ __ZN4roya13ProtoBufTrackD1Ev
++ __ZN4roya13TestOperation11ParseUint64ERKNSt3__113unordered_mapINS1_12basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEES8_NS1_4hashIS8_EENS1_8equal_toIS8_EENS6_INS1_4pairIKS8_S8_EEEEEEPKcy
++ __ZN4roya13TestOperation14OnDataReceivedEPNS_15PipelineContextERKNSt3__110shared_ptrINS_9FrameDataEEE
++ __ZN4roya13TestOperation7ExecuteEPNS_15PipelineContextERKNSt3__110shared_ptrINS_9FrameDataEEE
++ __ZN4roya13TestOperation9ParseModeERKNSt3__113unordered_mapINS1_12basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEES8_NS1_4hashIS8_EENS1_8equal_toIS8_EENS6_INS1_4pairIKS8_S8_EEEEEE
++ __ZN4roya13TestOperationC2ERKNSt3__113unordered_mapINS1_12basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEES8_NS1_4hashIS8_EENS1_8equal_toIS8_EENS6_INS1_4pairIKS8_S8_EEEEEE
++ __ZN4roya13TestOperationD0Ev
++ __ZN4roya13TestOperationD1Ev
++ __ZN4roya14AsyncOperation7ExecuteEPNS_15PipelineContextERKNSt3__110shared_ptrINS_9FrameDataEEE
++ __ZN4roya14AudioFrameDataC1EyP20opaqueCMSampleBuffer6CMTimeNS_11FrameStatusE
++ __ZN4roya14AudioFrameDataC2EyP20opaqueCMSampleBuffer6CMTimeNS_11FrameStatusE
++ __ZN4roya14VideoFrameDataC1EyP10__CVBuffer6CMTimeS3_NS_11FrameStatusE
++ __ZN4roya14VideoFrameDataC2EyP10__CVBuffer6CMTimeS3_NS_11FrameStatusE
++ __ZN4roya15DataSourceProxy6CreateERKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEENS_9TrackTypeEPvPFbSB_NS_16NotificationTypeEP12NSDictionaryIP8NSStringP11objc_objectEE
++ __ZN4roya15PipelineContext17SetPrevFrameIndexEy
++ __ZN4roya15SimpleFrameDataC1EybPKvm6CMTimejS3_NS_11FrameStatusE
++ __ZN4roya15SimpleFrameDataC2EybPKvm6CMTimejS3_NS_11FrameStatusE
++ __ZN4roya15TrackDefinitionC2ERKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEENS_9TrackTypeES9_bS9_
++ __ZN4roya15TrackDefinitionC2ERKS0_
++ __ZN4roya16CreateMOVKitSinkERKNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEEb
++ __ZN4roya16DataSourceBridge10InitializeEv
++ __ZN4roya16DataSourceBridge14OnNotificationENS_16NotificationTypeEP12NSDictionaryIP8NSStringP11objc_objectE
++ __ZN4roya16DataSourceBridge14OnReceivedDataEyyPKvyPK14__CFDictionary
++ __ZN4roya16DataSourceBridge21OnReceivedPixelBufferEyyP10__CVBufferPK14__CFDictionary
++ __ZN4roya16DataSourceBridge27OnReceivedAudioSampleBufferEyP20opaqueCMSampleBufferPK14__CFDictionary
++ __ZN4roya16DataSourceBridge8GetProxyEv
++ __ZN4roya16DataSourceBridgeC1ERKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEEPU33objcproto22RoyaDataSourceProtocol11objc_objectRKNS1_13unordered_mapIS7_S7_NS1_4hashIS7_EENS1_8equal_toIS7_EENS5_INS1_4pairIS8_S7_EEEEEE
++ __ZN4roya16DataSourceBridgeC2ERKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEEPU33objcproto22RoyaDataSourceProtocol11objc_objectRKNS1_13unordered_mapIS7_S7_NS1_4hashIS7_EENS1_8equal_toIS7_EENS5_INS1_4pairIS8_S7_EEEEEE
++ __ZN4roya16DataSourceBridgeD1Ev
++ __ZN4roya16DataSourceBridgeD2Ev
++ __ZN4roya16DelegateDataSink12OnInitializeEPNS_15PipelineContextE
++ __ZN4roya16DelegateDataSink12OnSharedStopEPNS_13CaptureConfigE
++ __ZN4roya16DelegateDataSink13OnSharedStartEPNS_13CaptureConfigE
++ __ZN4roya16DelegateDataSink15OnSharedCleanupEPNS_13CaptureConfigE
++ __ZN4roya16DelegateDataSink17ProcessAudioFrameEPU37objcproto26RoyaSampleReceiverProtocol11objc_objectPNS_14AudioFrameDataERKNSt3__112basic_stringIcNS5_11char_traitsIcEENS5_9allocatorIcEEEE
++ __ZN4roya16DelegateDataSink17ProcessVideoFrameEPU37objcproto26RoyaSampleReceiverProtocol11objc_objectPNS_14VideoFrameDataERKNSt3__112basic_stringIcNS5_11char_traitsIcEENS5_9allocatorIcEEEE
++ __ZN4roya16DelegateDataSink18OnDataReceivedImplEPNS_15PipelineContextERKNSt3__110shared_ptrINS_9FrameDataEEE
++ __ZN4roya16DelegateDataSink18OnDataReceivedImplEPNS_15PipelineContextERKNSt3__110shared_ptrINS_9FrameDataEEE.cold.1
++ __ZN4roya16DelegateDataSink18OnSharedInitializeEPNS_13CaptureConfigE
++ __ZN4roya16DelegateDataSink18OnSharedInitializeEPNS_13CaptureConfigE.cold.1
++ __ZN4roya16DelegateDataSink20ProcessMetadataFrameEPU37objcproto26RoyaSampleReceiverProtocol11objc_objectPNS_15SimpleFrameDataERKNSt3__112basic_stringIcNS5_11char_traitsIcEENS5_9allocatorIcEEEE
++ __ZN4roya16DelegateDataSink21ExecuteAsyncOperationERKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEEU13block_pointerFvU13block_pointerFvP7NSErrorEE
++ __ZN4roya16DelegateDataSink6OnStopEPNS_15PipelineContextE
++ __ZN4roya16DelegateDataSink7OnStartEPNS_15PipelineContextE
++ __ZN4roya16DelegateDataSink9OnCleanupEPNS_15PipelineContextE
++ __ZN4roya16DelegateDataSinkC2EPU29objcproto18RoyaOutputDelegate8NSObject
++ __ZN4roya16DelegateDataSinkD0Ev
++ __ZN4roya16DelegateDataSinkD1Ev
++ __ZN4roya16DelegateDataSinkD2Ev
++ __ZN4roya16SessionProxyImpl10SetRoutingERKNSt3__13setINS1_4pairINS1_12basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEES9_EENS1_4lessISA_EENS7_ISA_EEEE
++ __ZN4roya16SessionProxyImpl12AddOperationERKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEES9_RKNS1_13unordered_mapIS7_S7_NS1_4hashIS7_EENS1_8equal_toIS7_EENS5_INS1_4pairIS8_S7_EEEEEE
++ __ZN4roya16SessionProxyImpl19SendMessageToSourceERKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEEP12NSDictionary
++ __ZN4roya16SessionProxyImpl25SetSessionMessageCallbackEPFvPv22RoyaSessionMessageTypeP12NSDictionaryIP8NSStringP11objc_objectEES1_
++ __ZN4roya16SessionProxyImpl5StartExx
++ __ZN4roya16SessionProxyImpl7AddSinkEP15RoyaSinkOptions
++ __ZN4roya18CreateProtoBufSinkERKNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEE
++ __ZN4roya18EntitlementCheckerC1ERK13audit_token_t
++ __ZN4roya18EntitlementCheckerC1Ev
++ __ZN4roya18EntitlementCheckerC2ERK13audit_token_t
++ __ZN4roya18EntitlementCheckerC2Ev
++ __ZN4roya18GraphBuilderForiOS15CreateOperationERKNS_13OperationInfoE
++ __ZN4roya18GraphBuilderForiOSC1ENS_10DeviceTypeE
++ __ZN4roya18GraphBuilderForiOSC2ENS_10DeviceTypeE
++ __ZN4roya19DataSourceProxyImpl9OnMessageEP12NSDictionaryIP8NSStringP11objc_objectE
++ __ZN4roya19DataSourceProxyImplC1ERKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEENS_9TrackTypeEPvPFbSB_NS_16NotificationTypeEP12NSDictionaryIP8NSStringP11objc_objectEE
++ __ZN4roya19DataSourceProxyImplC2ERKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEENS_9TrackTypeEPvPFbSB_NS_16NotificationTypeEP12NSDictionaryIP8NSStringP11objc_objectEE
++ __ZN4roya20AudioPipelineContext10SetEncoderERKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEE
++ __ZN4roya20AudioPipelineContext14encoderToCodecEv
++ __ZN4roya20AudioPipelineContext22GetSupportedPropertiesEv
++ __ZN4roya20AudioPipelineContext4InitEv
++ __ZN4roya20AudioPipelineContextC1ERKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEERKNS1_13unordered_mapIS7_S7_NS1_4hashIS7_EENS1_8equal_toIS7_EENS5_INS1_4pairIS8_S7_EEEEEENS_16PipelineExecModeE
++ __ZN4roya20AudioPipelineContextC2ERKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEERKNS1_13unordered_mapIS7_S7_NS1_4hashIS7_EENS1_8equal_toIS7_EENS5_INS1_4pairIS8_S7_EEEEEENS_16PipelineExecModeE
++ __ZN4roya20ExternalDataProvider14OnReceivedDataEyyPKvyPK14__CFDictionary
++ __ZN4roya20ExternalDataProvider21OnReceivedPixelBufferEyyP10__CVBufferPK14__CFDictionary
++ __ZN4roya20ExternalDataProvider27OnReceivedAudioSampleBufferEyP20opaqueCMSampleBufferPK14__CFDictionary
++ __ZN4roya20ExternalDataProvider9OnMessageEP12NSDictionaryIP8NSStringP11objc_objectE
++ __ZN4roya20VideoPipelineContextC1ERKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEERKNS1_13unordered_mapIS7_S7_NS1_4hashIS7_EENS1_8equal_toIS7_EENS5_INS1_4pairIS8_S7_EEEEEENS_16PipelineExecModeE
++ __ZN4roya20VideoPipelineContextC2ERKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEERKNS1_13unordered_mapIS7_S7_NS1_4hashIS7_EENS1_8equal_toIS7_EENS5_INS1_4pairIS8_S7_EEEEEENS_16PipelineExecModeE
++ __ZN4roya20VideoPipelineContextC2ERKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEERKNS1_13unordered_mapIS7_S7_NS1_4hashIS7_EENS1_8equal_toIS7_EENS5_INS1_4pairIS8_S7_EEEEEENS_16PipelineExecModeE.cold.1
++ __ZN4roya31RegularFrameratePipelineContext20SetCountFramesInSinkEb
++ __ZN4roya31RegularFrameratePipelineContext22SetCountFramesInSourceEb
++ __ZN4roya31RegularFrameratePipelineContextC1ENS_9TrackTypeERKNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEERKNS2_13unordered_mapIS8_S8_NS2_4hashIS8_EENS2_8equal_toIS8_EENS6_INS2_4pairIS9_S8_EEEEEENS_16PipelineExecModeE
++ __ZN4roya31RegularFrameratePipelineContextC2ENS_9TrackTypeERKNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEERKNS2_13unordered_mapIS8_S8_NS2_4hashIS8_EENS2_8equal_toIS8_EENS6_INS2_4pairIS9_S8_EEEEEENS_16PipelineExecModeE
++ __ZN4roya4impl11trySetErrorEPU15__autoreleasingP7NSError
++ __ZN4roya4impl11trySetErrorEPU15__autoreleasingP7NSError16RoyaCaptureErrorP8NSString
++ __ZN4roya4impl11trySetErrorEPU15__autoreleasingP7NSErrorS2_
++ __ZN4roya4impl13PolarisSource17NeedsPrimingFrameEv
++ __ZN4roya4impl13PolarisSource19EnableStreamControlEv
++ __ZN4roya4impl13PolarisSource19ShouldDispatchFrameEv
++ __ZN4roya4impl13PolarisSource26HandleStreamControlMessageEP12NSDictionaryIP8NSStringP11objc_objectE
++ __ZN4roya4impl13PolarisSource27ConsumePendingAssetMetadataEv
++ __ZN4roya4impl13PolarisSource35ConvertSourceTimeToMachAbsoluteTimeERy
++ __ZN4roya4impl13statusToErrorERKNS_6StatusEPU15__autoreleasingP7NSError
++ __ZN4roya4impl15MOVKitContainerC1Eb
++ __ZN4roya4impl15MOVKitContainerC2Eb
++ __ZN4roya4impl15MOVKitContainerD2Ev
++ __ZN4roya4impl15PolarisProvider9OnMessageEP12NSDictionaryIP8NSStringP11objc_objectE
++ __ZN4roya4impl15TimeSyncService10removePeerERKNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEESA_
++ __ZN4roya4impl15TimeSyncService11waitForLockEd
++ __ZN4roya4impl15TimeSyncService13desynchronizeEv
++ __ZN4roya4impl15TimeSyncService15initNewInstanceEPy
++ __ZN4roya4impl15TimeSyncService18initAndSynchronizeERKNSt3__16vectorINS2_12basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEENS7_IS9_EEEERKS9_
++ __ZN4roya4impl15TimeSyncService18waitForClockObjectEv
++ __ZN4roya4impl15TimeSyncService19ensureManagersReadyEv
++ __ZN4roya4impl15TimeSyncService7addPeerERKNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEESA_
++ __ZN4roya4impl16PolarisIMUSource12InitTimeSyncEv
++ __ZN4roya4impl16PolarisIMUSource19GetDefaultFramerateEv
++ __ZN4roya4impl16PolarisIMUSource22GetSupportedPropertiesEv
++ __ZN4roya4impl16ProtoBufHIDTrack10InitializeEPNS_12MOVContainerEPNS_9FrameDataE
++ __ZN4roya4impl16ProtoBufHIDTrack11SubmitFrameEPNS_12MOVContainerEPNS_9FrameDataE
++ __ZN4roya4impl16ProtoBufHIDTrack17PopulateHIDSampleEPNS_9FrameDataE
++ __ZN4roya4impl16ProtoBufHIDTrack7CleanupEv
++ __ZN4roya4impl16ProtoBufHIDTrackC1EPNS_15PipelineContextERKNSt3__112basic_stringIcNS4_11char_traitsIcEENS4_9allocatorIcEEEE
++ __ZN4roya4impl16ProtoBufHIDTrackC2EPNS_15PipelineContextERKNSt3__112basic_stringIcNS4_11char_traitsIcEENS4_9allocatorIcEEEE
++ __ZN4roya4impl16ProtoBufHIDTrackD0Ev
++ __ZN4roya4impl16ProtoBufHIDTrackD1Ev
++ __ZN4roya4impl16ProtoBufIMUTrack10InitializeEPNS_12MOVContainerEPNS_9FrameDataE
++ __ZN4roya4impl16ProtoBufIMUTrack11SubmitFrameEPNS_12MOVContainerEPNS_9FrameDataE
++ __ZN4roya4impl16ProtoBufIMUTrack17PopulateIMUSampleEPNS_9FrameDataE
++ __ZN4roya4impl16ProtoBufIMUTrack7CleanupEv
++ __ZN4roya4impl16ProtoBufIMUTrackC1EPNS_15PipelineContextERKNSt3__112basic_stringIcNS4_11char_traitsIcEENS4_9allocatorIcEEEE
++ __ZN4roya4impl16ProtoBufIMUTrackC2EPNS_15PipelineContextERKNSt3__112basic_stringIcNS4_11char_traitsIcEENS4_9allocatorIcEEEE
++ __ZN4roya4impl16ProtoBufIMUTrackD0Ev
++ __ZN4roya4impl16ProtoBufIMUTrackD1Ev
++ __ZN4roya4impl17HIDDeviceProvider12SetContainerERKNSt3__110shared_ptrINS_12MOVContainerEEE
++ __ZN4roya4impl17ProtoBufContainer11CreateTrackEPNS_15PipelineContextE
++ __ZN4roya4impl17ProtoBufContainer13DoSubmitFrameEPNS_8MOVTrackEPNS_9FrameDataE
++ __ZN4roya4impl17ProtoBufContainer16DoStartContainerEv
++ __ZN4roya4impl17ProtoBufContainer17DoInitializeTrackEPNS_8MOVTrackEPNS_9FrameDataE
++ __ZN4roya4impl17ProtoBufContainer19WriteProtoBufSampleEP9RPBSample
++ __ZN4roya4impl17ProtoBufContainer22WriteContainerMetadataEv
++ __ZN4roya4impl17ProtoBufContainer8DoCancelEv
++ __ZN4roya4impl17ProtoBufContainer8DoCreateEPNS_13CaptureConfigERKNSt3__112basic_stringIcNS4_11char_traitsIcEENS4_9allocatorIcEEEE
++ __ZN4roya4impl17ProtoBufContainer8DoFinishEv
++ __ZN4roya4impl17ProtoBufContainerC1Ev
++ __ZN4roya4impl17ProtoBufContainerC2Ev
++ __ZN4roya4impl17ProtoBufContainerD0Ev
++ __ZN4roya4impl17ProtoBufContainerD1Ev
++ __ZN4roya4impl17ProtoBufContainerD2Ev
++ __ZN4roya4impl17ProtoBufWifiTrack10InitializeEPNS_12MOVContainerEPNS_9FrameDataE
++ __ZN4roya4impl17ProtoBufWifiTrack11SubmitFrameEPNS_12MOVContainerEPNS_9FrameDataE
++ __ZN4roya4impl17ProtoBufWifiTrack18PopulateWifiSampleEPNS_9FrameDataE
++ __ZN4roya4impl17ProtoBufWifiTrack7CleanupEv
++ __ZN4roya4impl17ProtoBufWifiTrackC1EPNS_15PipelineContextERKNSt3__112basic_stringIcNS4_11char_traitsIcEENS4_9allocatorIcEEEE
++ __ZN4roya4impl17ProtoBufWifiTrackC2EPNS_15PipelineContextERKNSt3__112basic_stringIcNS4_11char_traitsIcEENS4_9allocatorIcEEEE
++ __ZN4roya4impl17ProtoBufWifiTrackD0Ev
++ __ZN4roya4impl17ProtoBufWifiTrackD1Ev
++ __ZN4roya4impl17ProtoBufWifiTrackD2Ev
++ __ZN4roya4impl17TestVideoProvider12InstanceDataC2Ev
++ __ZN4roya4impl17TestVideoProvider12InstanceDataD2Ev
++ __ZN4roya4impl17TestVideoProvider12OnInitializeEPNS_13IDataReceiverEPNS_15PipelineContextE
++ __ZN4roya4impl17TestVideoProvider6OnStopEPNS_15PipelineContextE
++ __ZN4roya4impl17TestVideoProvider7OnStartEPNS_15PipelineContextE
++ __ZN4roya4impl17TestVideoProvider9OnCleanupEPNS_15PipelineContextE
++ __ZN4roya4impl17TestVideoProviderC1Ev
++ __ZN4roya4impl17TestVideoProviderC2Ev
++ __ZN4roya4impl17TestVideoProviderD0Ev
++ __ZN4roya4impl17TestVideoProviderD1Ev
++ __ZN4roya4impl17TestVideoProviderD2Ev
++ __ZN4roya4impl17UserEventProvider12OnInitializeEPNS_13IDataReceiverEPNS_15PipelineContextE
++ __ZN4roya4impl17UserEventProvider22GetSupportedPropertiesEv
++ __ZN4roya4impl17UserEventProvider6OnStopEPNS_15PipelineContextE
++ __ZN4roya4impl17UserEventProvider7OnStartEPNS_15PipelineContextE
++ __ZN4roya4impl17UserEventProvider9OnCleanupEPNS_15PipelineContextE
++ __ZN4roya4impl17UserEventProvider9OnMessageEP12NSDictionaryIP8NSStringP11objc_objectE
++ __ZN4roya4impl17UserEventProviderC1Ev
++ __ZN4roya4impl17UserEventProviderC2Ev
++ __ZN4roya4impl17UserEventProviderD0Ev
++ __ZN4roya4impl17UserEventProviderD1Ev
++ __ZN4roya4impl17UserEventProviderD2Ev
++ __ZN4roya4impl17toOperationConfigEP12NSDictionaryIP8NSStringP11objc_objectE
++ __ZN4roya4impl18PolarisAudioSource10CreateTaskEPNS0_19PolarisInstanceDataE
++ __ZN4roya4impl18PolarisAudioSource12DispatchDataEP17ps_resource_arrayS3_
++ __ZN4roya4impl18PolarisAudioSource15InitializeGraphEPNS0_19PolarisInstanceDataE
++ __ZN4roya4impl18PolarisAudioSource17IsStreamSupportedEP8NSString
++ __ZN4roya4impl18PolarisAudioSource22GetSupportedPropertiesEv
++ __ZN4roya4impl18PolarisAudioSource7CleanupEPNS0_19PolarisInstanceDataE
++ __ZN4roya4impl18PolarisAudioSourceC1EPNS_15PipelineContextEPNS_13IDataReceiverEPNS0_19PolarisInstanceDataE
++ __ZN4roya4impl18PolarisAudioSourceC2EPNS_15PipelineContextEPNS_13IDataReceiverEPNS0_19PolarisInstanceDataE
++ __ZN4roya4impl18PolarisAudioSourceD0Ev
++ __ZN4roya4impl18PolarisAudioSourceD1Ev
++ __ZN4roya4impl18PolarisAudioSourceD2Ev
++ __ZN4roya4impl18PolarisCameraFrameC1EyP10__CVBuffer6CMTimeS4_NS_11FrameStatusE
++ __ZN4roya4impl18PolarisCameraFrameC2EyP10__CVBuffer6CMTimeS4_NS_11FrameStatusE
++ __ZN4roya4impl19deserializeMetadataEP8NSObjectP8NSStringPv
++ __ZN4roya4impl21PolarisSharedResource15AddPendingGraphEP7PSGraph
++ __ZN4roya4impl21PolarisSharedResource18RemovePendingGraphEP7PSGraph
++ __ZN4roya4impl21PolarisSharedResource19CommitPendingGraphsEv
++ __ZN4roya4impl21PolarisSharedResource19addPendingGraphImplEP7PSGraph
++ __ZN4roya4impl21PolarisSharedResource22GetOrCreateFlowControlERKNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEE
++ __ZN4roya4impl21PolarisSharedResource22GetOrCreateFlowControlERKNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEE.cold.1
++ __ZN4roya4impl21PolarisSharedResource22GetOrCreateFlowControlERKNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEE.cold.2
++ __ZN4roya4impl21PolarisSharedResource22removePendingGraphImplEP7PSGraph
++ __ZN4roya4impl21PolarisSharedResource23commitPendingGraphsImplEv
++ __ZN4roya4impl21PolarisSharedResource26ConfigureMaxInFlightFramesERKNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEE
++ __ZN4roya4impl21VideoCaptureSinkTrack11AddMetadataEP8NSStringP11objc_objectPK10__CFString
++ __ZN4roya4impl21VideoCaptureSinkTrack14SetWriterInputEP18AVAssetWriterInput
++ __ZN4roya4impl21VideoCaptureSinkTrack16AddMetadataItemsEP7NSArrayIP14AVMetadataItemE
++ __ZN4roya4impl21VideoCaptureSinkTrack19setTracknamePostfixERKNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEE
++ __ZN4roya4impl21VideoCaptureSinkTrack9TrackNameEv
++ __ZN4roya4impl21VideoCaptureSinkTrackC2EPNS_15PipelineContextENS_12MOVTrackTypeERKNSt3__112basic_stringIcNS5_11char_traitsIcEENS5_9allocatorIcEEEE
++ __ZN4roya4impl21VideoCaptureSinkTrackD0Ev
++ __ZN4roya4impl21VideoCaptureSinkTrackD1Ev
++ __ZN4roya4impl21VideoCaptureSinkTrackD2Ev
++ __ZN4roya4impl22ProtoBufUserEventTrack10InitializeEPNS_12MOVContainerEPNS_9FrameDataE
++ __ZN4roya4impl22ProtoBufUserEventTrack11SubmitFrameEPNS_12MOVContainerEPNS_9FrameDataE
++ __ZN4roya4impl22ProtoBufUserEventTrack21CreateUserEventSampleEPNS_9FrameDataE
++ __ZN4roya4impl22ProtoBufUserEventTrack7CleanupEv
++ __ZN4roya4impl22ProtoBufUserEventTrackC1EPNS_15PipelineContextERKNSt3__112basic_stringIcNS4_11char_traitsIcEENS4_9allocatorIcEEEE
++ __ZN4roya4impl22ProtoBufUserEventTrackC2EPNS_15PipelineContextERKNSt3__112basic_stringIcNS4_11char_traitsIcEENS4_9allocatorIcEEEE
++ __ZN4roya4impl22ProtoBufUserEventTrackD0Ev
++ __ZN4roya4impl22ProtoBufUserEventTrackD1Ev
++ __ZN4roya4impl23MOVKitDeviceMotionTrack10InitializeEPNS_12MOVContainerEPNS_9FrameDataE
++ __ZN4roya4impl23MOVKitDeviceMotionTrack10InitializeEPNS_12MOVContainerEPNS_9FrameDataE.cold.1
++ __ZN4roya4impl23MOVKitDeviceMotionTrack11SubmitFrameEPNS_12MOVContainerEPNS_9FrameDataE
++ __ZN4roya4impl23MOVKitDeviceMotionTrack11SubmitFrameEPNS_12MOVContainerEPNS_9FrameDataE.cold.1
++ __ZN4roya4impl23MOVKitDeviceMotionTrack7CleanupEv
++ __ZN4roya4impl23MOVKitDeviceMotionTrackC1EPNS_15PipelineContextERKNSt3__112basic_stringIcNS4_11char_traitsIcEENS4_9allocatorIcEEEE
++ __ZN4roya4impl23MOVKitDeviceMotionTrackC2EPNS_15PipelineContextERKNSt3__112basic_stringIcNS4_11char_traitsIcEENS4_9allocatorIcEEEE
++ __ZN4roya4impl23MOVKitDeviceMotionTrackD0Ev
++ __ZN4roya4impl23MOVKitDeviceMotionTrackD1Ev
++ __ZN4roya4impl24DeviceMotionDataProvider12OnInitializeEPNS_13IDataReceiverEPNS_15PipelineContextE
++ __ZN4roya4impl24DeviceMotionDataProvider12OnInitializeEPNS_13IDataReceiverEPNS_15PipelineContextE.cold.1
++ __ZN4roya4impl24DeviceMotionDataProvider22GetSupportedPropertiesEv
++ __ZN4roya4impl24DeviceMotionDataProvider6OnStopEPNS_15PipelineContextE
++ __ZN4roya4impl24DeviceMotionDataProvider7OnStartEPNS_15PipelineContextE
++ __ZN4roya4impl24DeviceMotionDataProvider9OnCleanupEPNS_15PipelineContextE
++ __ZN4roya4impl24DeviceMotionDataProviderC1Ev
++ __ZN4roya4impl24DeviceMotionDataProviderC2Ev
++ __ZN4roya4impl24DeviceMotionDataProviderD0Ev
++ __ZN4roya4impl24DeviceMotionDataProviderD1Ev
++ __ZN4roya4impl24DeviceMotionDataProviderD2Ev
++ __ZN4roya4impl25VideoCaptureSinkContainer11CreateTrackEPNS_15PipelineContextE
++ __ZN4roya4impl25VideoCaptureSinkContainer11CreateTrackEPNS_15PipelineContextE.cold.1
++ __ZN4roya4impl25VideoCaptureSinkContainer11CreateTrackEPNS_15PipelineContextE.cold.2
++ __ZN4roya4impl25VideoCaptureSinkContainer12SetStartTimeE6CMTime
++ __ZN4roya4impl25VideoCaptureSinkContainer16DoStartContainerEv
++ __ZN4roya4impl25VideoCaptureSinkContainer18WriteAssetMetadataEP12NSDictionary6CMTime
++ __ZN4roya4impl25VideoCaptureSinkContainer8DoCancelEv
++ __ZN4roya4impl25VideoCaptureSinkContainer8DoCreateEPNS_13CaptureConfigERKNSt3__112basic_stringIcNS4_11char_traitsIcEENS4_9allocatorIcEEEE
++ __ZN4roya4impl25VideoCaptureSinkContainer8DoFinishEv
++ __ZN4roya4impl25VideoCaptureSinkContainerC1Ev
++ __ZN4roya4impl25VideoCaptureSinkContainerC2Ev
++ __ZN4roya4impl25VideoCaptureSinkContainerD0Ev
++ __ZN4roya4impl25VideoCaptureSinkContainerD1Ev
++ __ZN4roya4impl25VideoCaptureSinkContainerD2Ev
++ __ZN4roya4impl26VideoCaptureSinkAudioTrack10InitializeEPNS_12MOVContainerEPNS_9FrameDataE
++ __ZN4roya4impl26VideoCaptureSinkAudioTrack11SubmitFrameEPNS_12MOVContainerEPNS_9FrameDataE
++ __ZN4roya4impl26VideoCaptureSinkAudioTrack22ConfigureAudioSettingsEPK25opaqueCMFormatDescriptionPU15__autoreleasingP19NSMutableDictionary
++ __ZN4roya4impl26VideoCaptureSinkAudioTrack7CleanupEv
++ __ZN4roya4impl26VideoCaptureSinkAudioTrackC1EPNS_15PipelineContextERKNSt3__112basic_stringIcNS4_11char_traitsIcEENS4_9allocatorIcEEEE
++ __ZN4roya4impl26VideoCaptureSinkAudioTrackC2EPNS_15PipelineContextERKNSt3__112basic_stringIcNS4_11char_traitsIcEENS4_9allocatorIcEEEE
++ __ZN4roya4impl26VideoCaptureSinkAudioTrackD0Ev
++ __ZN4roya4impl26VideoCaptureSinkAudioTrackD1Ev
++ __ZN4roya4impl26VideoCaptureSinkVideoTrack10InitializeEPNS_12MOVContainerEPNS_9FrameDataE
++ __ZN4roya4impl26VideoCaptureSinkVideoTrack11SubmitFrameEPNS_12MOVContainerEPNS_9FrameDataE
++ __ZN4roya4impl26VideoCaptureSinkVideoTrack22ConfigureVideoSettingsEP10__CVBufferPU15__autoreleasingP12NSDictionary
++ __ZN4roya4impl26VideoCaptureSinkVideoTrack7CleanupEv
++ __ZN4roya4impl26VideoCaptureSinkVideoTrackC1EPNS_15PipelineContextERKNSt3__112basic_stringIcNS4_11char_traitsIcEENS4_9allocatorIcEEEE
++ __ZN4roya4impl26VideoCaptureSinkVideoTrackC2EPNS_15PipelineContextERKNSt3__112basic_stringIcNS4_11char_traitsIcEENS4_9allocatorIcEEEE
++ __ZN4roya4impl26VideoCaptureSinkVideoTrackD0Ev
++ __ZN4roya4impl26VideoCaptureSinkVideoTrackD1Ev
++ __ZN4roya4impl26VideoCaptureSinkVideoTrackD2Ev
++ __ZN4roya4impl29VideoCaptureSinkMetadataTrack10InitializeEPNS_12MOVContainerEPNS_9FrameDataE
++ __ZN4roya4impl29VideoCaptureSinkMetadataTrack11SubmitFrameEPNS_12MOVContainerEPNS_9FrameDataE
++ __ZN4roya4impl29VideoCaptureSinkMetadataTrack7CleanupEv
++ __ZN4roya4impl29VideoCaptureSinkMetadataTrackC1EPNS_15PipelineContextERKNSt3__112basic_stringIcNS4_11char_traitsIcEENS4_9allocatorIcEEEE
++ __ZN4roya4impl29VideoCaptureSinkMetadataTrackC2EPNS_15PipelineContextERKNSt3__112basic_stringIcNS4_11char_traitsIcEENS4_9allocatorIcEEEE
++ __ZN4roya4impl29VideoCaptureSinkMetadataTrackD0Ev
++ __ZN4roya4impl29VideoCaptureSinkMetadataTrackD1Ev
++ __ZN4roya4impl29VideoCaptureSinkMetadataTrackD2Ev
++ __ZN4roya4impl32VideoCaptureSinkAttachmentsTrack10InitializeEPNS_12MOVContainerEPNS_9FrameDataE
++ __ZN4roya4impl32VideoCaptureSinkAttachmentsTrack11SubmitFrameEPNS_12MOVContainerEPNS_9FrameDataE
++ __ZN4roya4impl32VideoCaptureSinkAttachmentsTrack18SetAssociatedTrackEP18AVAssetWriterInput
++ __ZN4roya4impl32VideoCaptureSinkAttachmentsTrack7CleanupEv
++ __ZN4roya4impl32VideoCaptureSinkAttachmentsTrackC1EPNS_15PipelineContextERKNSt3__112basic_stringIcNS4_11char_traitsIcEENS4_9allocatorIcEEEE
++ __ZN4roya4impl32VideoCaptureSinkAttachmentsTrackC2EPNS_15PipelineContextERKNSt3__112basic_stringIcNS4_11char_traitsIcEENS4_9allocatorIcEEEE
++ __ZN4roya4impl32VideoCaptureSinkAttachmentsTrackD0Ev
++ __ZN4roya4impl32VideoCaptureSinkAttachmentsTrackD1Ev
++ __ZN4roya4impl32VideoCaptureSinkAttachmentsTrackD2Ev
++ __ZN4roya4impl8toPublicENS_6Status4CodeE
++ __ZN4roya4impl9toPrivateEP12NSDictionaryIP8NSStringP11objc_objectE
++ __ZN4roya4implL12parseAddressERKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEERNS0_13ParsedAddressE
++ __ZN4roya4implL23kTestVideoTimerQueueKeyE
++ __ZN4roya4util15isVirtualDeviceEv
++ __ZN4roya5cfrefIP18OpaqueCMMemoryPoolED2Ev
++ __ZN4roya5cfrefIPK14__CFDictionaryED2Ev
++ __ZN4roya5cmrefIP19OpaqueCMBlockBufferS1_ED1Ev
++ __ZN4roya5cmrefIP19OpaqueCMBlockBufferS1_ED2Ev
++ __ZN4roya5cmrefIP20opaqueCMSampleBufferS1_ED1Ev
++ __ZN4roya5cmrefIP20opaqueCMSampleBufferS1_ED2Ev
++ __ZN4roya5cmrefIPNS_20CMFormatDescription_ES1_ED1Ev
++ __ZN4roya5cmrefIPNS_20CMFormatDescription_ES1_ED2Ev
++ __ZN4roya5cmrefIPNS_25CMAudioFormatDescription_ES1_ED1Ev
++ __ZN4roya5cmrefIPNS_25CMAudioFormatDescription_ES1_ED2Ev
++ __ZN4roya5cmrefIPNS_25CMVideoFormatDescription_ES1_ED2Ev
++ __ZN4roya5cmrefIPNS_28CMMetadataFormatDescription_ES1_E25newMetadataSpecificationsILm1EEENS_5nsrefI14NSMutableArrayIP12NSDictionaryIP8NSStringS9_EENS_10ref_strongEEEPSC_RAT__KNSt3__14pairIU8__strongS9_PK10__CFStringEE
++ __ZN4roya5cmrefIPNS_28CMMetadataFormatDescription_ES1_EC1ILm1EEENS_9ref_new_tEPK13__CFAllocatorRAT__KNSt3__14pairIU8__strongP8NSStringPK10__CFStringEE
++ __ZN4roya5cmrefIPNS_28CMMetadataFormatDescription_ES1_ED2Ev
++ __ZN4roya5cvrefINS_14CVPixelBuffer_ES1_ED1Ev
++ __ZN4roya6StatusC1ENS0_4CodeE
++ __ZN4roya6StatusC2ENS0_4CodeE
++ __ZN4roya6_cxrefI20opaqueCMSampleBufferNS_17OSStatusExceptionES1_Li0EEaSEOS3_
++ __ZN4roya6_cxrefI20opaqueCMSampleBufferNS_17OSStatusExceptionES1_Li0EEaSERKS3_
++ __ZN4roya7MOVSink18OnDataReceivedImplEPNS_15PipelineContextERKNSt3__110shared_ptrINS_9FrameDataEEE
++ __ZN4roya7MOVSink18OnDataReceivedImplEPNS_15PipelineContextERKNSt3__110shared_ptrINS_9FrameDataEEE.cold.1
++ __ZN4roya8DataSink11SendMessageE22RoyaSessionMessageTypeP12NSDictionaryIP8NSStringP11objc_objectE
++ __ZN4roya8DataSink14OnDataReceivedEPNS_15PipelineContextERKNSt3__110shared_ptrINS_9FrameDataEEE
++ __ZN4roya8DataSink7ExecuteEPNS_15PipelineContextERKNSt3__110shared_ptrINS_9FrameDataEEE
++ __ZN4roya8DataSink7ExecuteEPNS_15PipelineContextERKNSt3__110shared_ptrINS_9FrameDataEEE.cold.1
++ __ZN4roya8Pipeline11TrySetStateERNS_13PipelineStateES1_PNS_7IObjectE
++ __ZN4roya8Pipeline12ProcessFrameEPNS_15PipelineContextERKNSt3__110shared_ptrINS_9FrameDataEEE
++ __ZN4roya8Pipeline14OnDataReceivedEPNS_15PipelineContextERKNSt3__110shared_ptrINS_9FrameDataEEE
++ __ZN4roya8Pipeline20NotifyStateListenersEPNS_7IObjectE
++ __ZN4roya8Pipeline25GetAllSupportedPropertiesEv
++ __ZN4roya9FrameData14SetEndOfStreamEb
++ __ZN4roya9FrameData14SetIsLastFrameEb
++ __ZN4roya9FrameData15SetPrimingFrameEb
++ __ZN4roya9FrameData8SetIndexEy
++ __ZN4roya9FrameDataC1Ey6CMTimeS1_NS_11FrameStatusE
++ __ZN4roya9FrameDataC2Ey6CMTimeS1_NS_11FrameStatusE
++ __ZN4roya9Operation7ExecuteEPNS_15PipelineContextERKNSt3__110shared_ptrINS_9FrameDataEEE
++ __ZN4roya9OperationC2ERKNSt3__113unordered_mapINS1_12basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEES8_NS1_4hashIS8_EENS1_8equal_toIS8_EENS6_INS1_4pairIKS8_S8_EEEEEE
++ __ZN4roya9OperationD2Ev
++ __ZN4royaL16kMOVSinkQueueKeyE
++ __ZNK4roya11SessionBase32RequiresAllPipelinesReadyToStartEv
++ __ZNK4roya12MOVContainer14GetMOVMetadataEPNS_13CaptureConfigE
++ __ZNK4roya13TestOperation9DebugNameEv
++ __ZNK4roya16DelegateDataSink13GetSyncPolicyEv
++ __ZNK4roya16DelegateDataSink9DebugNameEv
++ __ZNK4roya18EntitlementChecker17IsAuditTokenEmptyEv
++ __ZNK4roya18EntitlementChecker20LoadEntitlementArrayERKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEE
++ __ZNK4roya18EntitlementChecker21CheckArrayEntitlementERKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEES9_
++ __ZNK4roya20AudioPipelineContext10QualityKeyEv
++ __ZNK4roya20AudioPipelineContext5CodecEv
++ __ZNK4roya31RegularFrameratePipelineContext17CountFramesInSinkEv
++ __ZNK4roya31RegularFrameratePipelineContext19CountFramesInSourceEv
++ __ZNK4roya4impl13PolarisSource15IsCancelPendingEv
++ __ZNK4roya4impl13PolarisSource22IsStreamControlEnabledEv
++ __ZNK4roya4impl15TimeSyncService24discoverNetworkInterfaceEv
++ __ZNK4roya4impl17ProtoBufContainer9DebugNameEv
++ __ZNK4roya4impl17TestVideoProvider9DebugNameEv
++ __ZNK4roya4impl17UserEventProvider9DebugNameEv
++ __ZNK4roya4impl18PolarisAudioSource9DebugNameEv
++ __ZNK4roya4impl24DeviceMotionDataProvider9DebugNameEv
++ __ZNK4roya4impl25VideoCaptureSinkContainer14HasTrackOfTypeEPNS_13CaptureConfigENS_9TrackTypeE
++ __ZNK4roya4impl25VideoCaptureSinkContainer9DebugNameEv
++ __ZNK4roya7MOVSink13GetSyncPolicyEv
++ __ZNK4roya9FrameData11IsLastFrameEv
++ __ZNK4roya9FrameData13IsEndOfStreamEv
++ __ZNK4roya9FrameData14IsPrimingFrameEv
++ __ZNKSt3__110__function6__funcIZN4roya19DataSourceProxyImplC1ERKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS2_9TrackTypeEPvPFbSD_NS2_16NotificationTypeEP12NSDictionaryIP8NSStringP11objc_objectEEE3$_0FbSE_SL_EE11target_typeEv
++ __ZNKSt3__110__function6__funcIZN4roya19DataSourceProxyImplC1ERKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS2_9TrackTypeEPvPFbSD_NS2_16NotificationTypeEP12NSDictionaryIP8NSStringP11objc_objectEEE3$_0FbSE_SL_EE6targetERKSt9type_info
++ __ZNKSt3__110__function6__funcIZN4roya19DataSourceProxyImplC1ERKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS2_9TrackTypeEPvPFbSD_NS2_16NotificationTypeEP12NSDictionaryIP8NSStringP11objc_objectEEE3$_0FbSE_SL_EE7__cloneEPNS0_6__baseISP_EE
++ __ZNKSt3__110__function6__funcIZN4roya19DataSourceProxyImplC1ERKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS2_9TrackTypeEPvPFbSD_NS2_16NotificationTypeEP12NSDictionaryIP8NSStringP11objc_objectEEE3$_0FbSE_SL_EE7__cloneEv
++ __ZNKSt3__110__function6__funcIZN4roya4impl17HIDDeviceProvider12SetContainerERKNS_10shared_ptrINS2_12MOVContainerEEEE3$_0FvNS2_14ContainerStateEEE11target_typeEv
++ __ZNKSt3__110__function6__funcIZN4roya4impl17HIDDeviceProvider12SetContainerERKNS_10shared_ptrINS2_12MOVContainerEEEE3$_0FvNS2_14ContainerStateEEE6targetERKSt9type_info
++ __ZNKSt3__110__function6__funcIZN4roya4impl17HIDDeviceProvider12SetContainerERKNS_10shared_ptrINS2_12MOVContainerEEEE3$_0FvNS2_14ContainerStateEEE7__cloneEPNS0_6__baseISC_EE
++ __ZNKSt3__110__function6__funcIZN4roya4impl17HIDDeviceProvider12SetContainerERKNS_10shared_ptrINS2_12MOVContainerEEEE3$_0FvNS2_14ContainerStateEEE7__cloneEv
++ __ZNKSt3__110__function6__funcIZZN4roya7MOVSink12OnInitializeEPNS2_15PipelineContextEEUb_E3$_0FvNS2_14ContainerStateEEE11target_typeEv
++ __ZNKSt3__110__function6__funcIZZN4roya7MOVSink12OnInitializeEPNS2_15PipelineContextEEUb_E3$_0FvNS2_14ContainerStateEEE6targetERKSt9type_info
++ __ZNKSt3__110__function6__funcIZZN4roya7MOVSink12OnInitializeEPNS2_15PipelineContextEEUb_E3$_0FvNS2_14ContainerStateEEE7__cloneEPNS0_6__baseIS8_EE
++ __ZNKSt3__110__function6__funcIZZN4roya7MOVSink12OnInitializeEPNS2_15PipelineContextEEUb_E3$_0FvNS2_14ContainerStateEEE7__cloneEv
++ __ZNKSt3__112__hash_tableINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_4hashIS6_EENS_8equal_toIS6_EENS4_IS6_EEE4findIS6_EENS_21__hash_const_iteratorIPNS_11__hash_nodeIS6_PvEEEERKT_
++ __ZNKSt3__112__hash_tableINS_17__hash_value_typeIN4roya13PipelineStateENS2_12SessionStateEEENS_22__unordered_map_hasherIS3_NS_4pairIKS3_S4_EENS_4hashIS3_EENS_8equal_toIS3_EEEENS_21__unordered_map_equalIS3_S9_SD_SB_EENS_9allocatorIS9_EEE4findIS3_EENS_21__hash_const_iteratorIPNS_11__hash_nodeIS5_PvEEEERKT_
++ __ZNKSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrIN4roya4NodeEEEEENS_22__unordered_map_hasherIS7_NS_4pairIKS7_SB_EENS_4hashIS7_EENS_8equal_toIS7_EEEENS_21__unordered_map_equalIS7_SG_SK_SI_EENS5_ISG_EEE4findIS7_EENS_21__hash_const_iteratorIPNS_11__hash_nodeISC_PvEEEERKT_
++ __ZNKSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES7_EENS_22__unordered_map_hasherIS7_NS_4pairIKS7_S7_EENS_4hashIS7_EENS_8equal_toIS7_EEEENS_21__unordered_map_equalIS7_SC_SG_SE_EENS5_ISC_EEE4findIS7_EENS_21__hash_const_iteratorIPNS_11__hash_nodeIS8_PvEEEERKT_
++ __ZNKSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEjEENS_22__unordered_map_hasherIS7_NS_4pairIKS7_jEENS_4hashIS7_EENS_8equal_toIS7_EEEENS_21__unordered_map_equalIS7_SC_SG_SE_EENS5_ISC_EEE4findIS7_EENS_21__hash_const_iteratorIPNS_11__hash_nodeIS8_PvEEEERKT_
++ __ZNKSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE11starts_withB9fqe220100EPKc
++ __ZNKSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE4findB9fqe220100EPKcm
++ __ZNKSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE8containsB9fqe220100EPKc
++ __ZNKSt3__113__atomic_baseIN4roya14ContainerStateELb0EE4waitB9fqe220100ES2_NS_12memory_orderE
++ __ZNKSt3__113__string_hashIcNS_9allocatorIcEEEclB9fqe220100ERKNS_12basic_stringIcNS_11char_traitsIcEES2_EE
++ __ZNKSt3__114default_deleteIN4roya4impl20FastPathInstanceDataEEclB9fqe220100EPS3_
++ __ZNKSt3__115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEE4viewB9fqe220100Ev
++ __ZNKSt3__117basic_string_viewIcNS_11char_traitsIcEEE11starts_withB9fqe220100ES3_
++ __ZNKSt3__117basic_string_viewIcNS_11char_traitsIcEEE7compareB9fqe220100EmmS3_
++ __ZNKSt3__120__shared_ptr_pointerIPN4roya12SessionProxyENS_10shared_ptrIS2_E27__shared_ptr_default_deleteIS2_S2_EENS_9allocatorIS2_EEE13__get_deleterERKSt9type_info
++ __ZNKSt3__120__shared_ptr_pointerIPN4roya15DataSourceProxyENS_10shared_ptrIS2_E27__shared_ptr_default_deleteIS2_S2_EENS_9allocatorIS2_EEE13__get_deleterERKSt9type_info
++ __ZNKSt3__120__shared_ptr_pointerIPN4roya4impl18PolarisCameraFrameEZNS2_19PolarisCameraSource12DispatchDataEP17ps_resource_arrayS7_E3$_0NS_9allocatorIS3_EEE13__get_deleterERKSt9type_info
++ __ZNKSt3__121__murmur2_or_cityhashImLm64EEclB9fqe220100EPKvm
++ __ZNKSt3__126__atomic_wait_backoff_implINS_13__atomic_baseIN4roya14ContainerStateELb0EEEZNS_13__atomic_waitB9fqe220100IKS4_S3_EEvRT_T0_NS_12memory_orderEEUlRKS3_E_E29__update_monitor_val_and_pollB9fqe220100EPVKvRx
++ __ZNKSt3__126__atomic_wait_backoff_implINS_13__atomic_baseIN4roya14ContainerStateELb0EEEZNS_13__atomic_waitB9fqe220100IKS4_S3_EEvRT_T0_NS_12memory_orderEEUlRKS3_E_EclB9fqe220100ENS_6chrono8durationIxNS_5ratioILl1ELl1000000000EEEEE
++ __ZNKSt3__129_AllocatorDestroyRangeReverseINS_9allocatorIN4roya13OperationInfoEEEPS3_EclB9fqe220100Ev
++ __ZNKSt3__129_AllocatorDestroyRangeReverseINS_9allocatorINS_4pairINS_12basic_stringIcNS_11char_traitsIcEENS1_IcEEEEN4roya9TrackInfoEEEEEPSA_EclB9fqe220100Ev
++ __ZNKSt3__17greaterIN4roya7_CMTimeEEclB9fqe220100ERKS2_S5_
++ __ZNKSt3__18equal_toINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEEclB9fqe220100ERKS6_S9_
++ __ZNKSt3__18functionIFbN4roya16NotificationTypeEP12NSDictionaryIP8NSStringP11objc_objectEEEclES2_S9_
++ __ZNKSt3__18functionIFvN4roya14ContainerStateEEEclES2_
++ __ZNKSt9type_infoeqB9fqe220100ERKS_
++ __ZNSt12length_errorC1B9fqe220100EPKc
++ __ZNSt12out_of_rangeC1B9fqe220100EPKc
++ __ZNSt3__110__function12__value_funcIFbN4roya16NotificationTypeEP12NSDictionaryIP8NSStringP11objc_objectEEE4swapB9fqe220100ERSC_
++ __ZNSt3__110__function12__value_funcIFbN4roya16NotificationTypeEP12NSDictionaryIP8NSStringP11objc_objectEEED2B9fqe220100Ev
++ __ZNSt3__110__function12__value_funcIFvN4roya14ContainerStateEEEC2B9fqe220100EOS5_
++ __ZNSt3__110__function12__value_funcIFvN4roya14ContainerStateEEED2B9fqe220100Ev
++ __ZNSt3__110__function6__funcIZN4roya19DataSourceProxyImplC1ERKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS2_9TrackTypeEPvPFbSD_NS2_16NotificationTypeEP12NSDictionaryIP8NSStringP11objc_objectEEE3$_0FbSE_SL_EE18destroy_deallocateEv
++ __ZNSt3__110__function6__funcIZN4roya19DataSourceProxyImplC1ERKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS2_9TrackTypeEPvPFbSD_NS2_16NotificationTypeEP12NSDictionaryIP8NSStringP11objc_objectEEE3$_0FbSE_SL_EE7destroyEv
++ __ZNSt3__110__function6__funcIZN4roya19DataSourceProxyImplC1ERKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS2_9TrackTypeEPvPFbSD_NS2_16NotificationTypeEP12NSDictionaryIP8NSStringP11objc_objectEEE3$_0FbSE_SL_EED0Ev
++ __ZNSt3__110__function6__funcIZN4roya19DataSourceProxyImplC1ERKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS2_9TrackTypeEPvPFbSD_NS2_16NotificationTypeEP12NSDictionaryIP8NSStringP11objc_objectEEE3$_0FbSE_SL_EED1Ev
++ __ZNSt3__110__function6__funcIZN4roya19DataSourceProxyImplC1ERKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS2_9TrackTypeEPvPFbSD_NS2_16NotificationTypeEP12NSDictionaryIP8NSStringP11objc_objectEEE3$_0FbSE_SL_EEclEOSE_OU8__strongSL_
++ __ZNSt3__110__function6__funcIZN4roya4impl17HIDDeviceProvider12SetContainerERKNS_10shared_ptrINS2_12MOVContainerEEEE3$_0FvNS2_14ContainerStateEEE18destroy_deallocateEv
++ __ZNSt3__110__function6__funcIZN4roya4impl17HIDDeviceProvider12SetContainerERKNS_10shared_ptrINS2_12MOVContainerEEEE3$_0FvNS2_14ContainerStateEEE7destroyEv
++ __ZNSt3__110__function6__funcIZN4roya4impl17HIDDeviceProvider12SetContainerERKNS_10shared_ptrINS2_12MOVContainerEEEE3$_0FvNS2_14ContainerStateEEED0Ev
++ __ZNSt3__110__function6__funcIZN4roya4impl17HIDDeviceProvider12SetContainerERKNS_10shared_ptrINS2_12MOVContainerEEEE3$_0FvNS2_14ContainerStateEEED1Ev
++ __ZNSt3__110__function6__funcIZN4roya4impl17HIDDeviceProvider12SetContainerERKNS_10shared_ptrINS2_12MOVContainerEEEE3$_0FvNS2_14ContainerStateEEEclEOSB_
++ __ZNSt3__110__function6__funcIZZN4roya7MOVSink12OnInitializeEPNS2_15PipelineContextEEUb_E3$_0FvNS2_14ContainerStateEEE18destroy_deallocateEv
++ __ZNSt3__110__function6__funcIZZN4roya7MOVSink12OnInitializeEPNS2_15PipelineContextEEUb_E3$_0FvNS2_14ContainerStateEEE7destroyEv
++ __ZNSt3__110__function6__funcIZZN4roya7MOVSink12OnInitializeEPNS2_15PipelineContextEEUb_E3$_0FvNS2_14ContainerStateEEED0Ev
++ __ZNSt3__110__function6__funcIZZN4roya7MOVSink12OnInitializeEPNS2_15PipelineContextEEUb_E3$_0FvNS2_14ContainerStateEEED1Ev
++ __ZNSt3__110__function6__funcIZZN4roya7MOVSink12OnInitializeEPNS2_15PipelineContextEEUb_E3$_0FvNS2_14ContainerStateEEEclEOS7_
++ __ZNSt3__110shared_ptrIN4roya12SessionProxyEE5resetB9fqe220100IS2_Li0EEEvPT_
++ __ZNSt3__110shared_ptrIN4roya12SessionProxyEEC2B9fqe220100IS2_Li0EEEPT_
++ __ZNSt3__110shared_ptrIN4roya12SessionProxyEEC2B9fqe220100IS2_Li0EEEPT_.cold.1
++ __ZNSt3__110shared_ptrIN4roya13CVBufferFrameEE18__enable_weak_thisB9fqe220100INS1_9FrameDataES2_Li0EEEvPKNS_23enable_shared_from_thisIT_EEPT0_
++ __ZNSt3__110shared_ptrIN4roya14AudioFrameDataEE18__enable_weak_thisB9fqe220100INS1_9FrameDataES2_Li0EEEvPKNS_23enable_shared_from_thisIT_EEPT0_
++ __ZNSt3__110shared_ptrIN4roya14VideoFrameDataEE18__enable_weak_thisB9fqe220100INS1_9FrameDataES2_Li0EEEvPKNS_23enable_shared_from_thisIT_EEPT0_
++ __ZNSt3__110shared_ptrIN4roya15DataSourceProxyEE5resetB9fqe220100IS2_Li0EEEvPT_
++ __ZNSt3__110shared_ptrIN4roya15DataSourceProxyEEC2B9fqe220100IS2_Li0EEEPT_
++ __ZNSt3__110shared_ptrIN4roya15DataSourceProxyEEC2B9fqe220100IS2_Li0EEEPT_.cold.1
++ __ZNSt3__110shared_ptrIN4roya15SimpleFrameDataEE18__enable_weak_thisB9fqe220100INS1_9FrameDataES2_Li0EEEvPKNS_23enable_shared_from_thisIT_EEPT0_
++ __ZNSt3__110shared_ptrIN4roya16DataSourceBridgeEE18__enable_weak_thisB9fqe220100IS2_S2_Li0EEEvPKNS_23enable_shared_from_thisIT_EEPT0_
++ __ZNSt3__110shared_ptrIN4roya16DataSourceBridgeEEC2B9fqe220100IS2_Li0EEERKNS_8weak_ptrIT_EE
++ __ZNSt3__110shared_ptrIN4roya4impl13AVFDataSourceEED1B9fqe220100Ev
++ __ZNSt3__110shared_ptrIN4roya4impl13PolarisSourceEEC2B9fqe220100INS2_19PolarisCameraSourceENS_14default_deleteIS6_EELi0EEEONS_10unique_ptrIT_T0_EE
++ __ZNSt3__110shared_ptrIN4roya4impl13PolarisSourceEEaSB9fqe220100INS2_17PolarisDataSourceELi0EEERS4_ONS0_IT_EE
++ __ZNSt3__110shared_ptrIN4roya4impl13PolarisSourceEEaSB9fqe220100INS2_19PolarisCameraSourceELi0EEERS4_ONS0_IT_EE
++ __ZNSt3__110shared_ptrIN4roya4impl13PolarisSourceEEaSB9fqe220100INS2_19PolarisCameraSourceENS_14default_deleteIS6_EELi0EEERS4_ONS_10unique_ptrIT_T0_EE
++ __ZNSt3__110shared_ptrIN4roya4impl15AVFDataProviderEE18__enable_weak_thisB9fqe220100IS3_S3_Li0EEEvPKNS_23enable_shared_from_thisIT_EEPT0_
++ __ZNSt3__110shared_ptrIN4roya4impl16LocationProviderEE18__enable_weak_thisB9fqe220100IS3_S3_Li0EEEvPKNS_23enable_shared_from_thisIT_EEPT0_
++ __ZNSt3__110shared_ptrIN4roya4impl16LocationProviderEEC2B9fqe220100IS3_Li0EEERKNS_8weak_ptrIT_EE
++ __ZNSt3__110shared_ptrIN4roya4impl16RawAudioProviderEE18__enable_weak_thisB9fqe220100IS3_S3_Li0EEEvPKNS_23enable_shared_from_thisIT_EEPT0_
++ __ZNSt3__110shared_ptrIN4roya4impl16WiFiDataProviderEE18__enable_weak_thisB9fqe220100IS3_S3_Li0EEEvPKNS_23enable_shared_from_thisIT_EEPT0_
++ __ZNSt3__110shared_ptrIN4roya4impl17AudioQueueWrapperEEC2B9fqe220100IS3_Li0EEERKNS_8weak_ptrIT_EE
++ __ZNSt3__110shared_ptrIN4roya4impl17HIDDeviceProviderEE18__enable_weak_thisB9fqe220100IS3_S3_Li0EEEvPKNS_23enable_shared_from_thisIT_EEPT0_
++ __ZNSt3__110shared_ptrIN4roya4impl17HIDDeviceProviderEEC2B9fqe220100IS3_Li0EEERKNS_8weak_ptrIT_EE
++ __ZNSt3__110shared_ptrIN4roya4impl17TestVideoProviderEE18__enable_weak_thisB9fqe220100IS3_S3_Li0EEEvPKNS_23enable_shared_from_thisIT_EEPT0_
++ __ZNSt3__110shared_ptrIN4roya4impl18PolarisCameraFrameEE18__enable_weak_thisB9fqe220100INS1_9FrameDataES3_Li0EEEvPKNS_23enable_shared_from_thisIT_EEPT0_
++ __ZNSt3__110shared_ptrIN4roya4impl23DoAPPluginAudioProviderEE18__enable_weak_thisB9fqe220100IS3_S3_Li0EEEvPKNS_23enable_shared_from_thisIT_EEPT0_
++ __ZNSt3__110shared_ptrIN4roya4impl23DoAPPluginAudioProviderEEC2B9fqe220100IS3_Li0EEERKNS_8weak_ptrIT_EE
++ __ZNSt3__110shared_ptrIN4roya4impl23HeadphoneMotionProviderEE18__enable_weak_thisB9fqe220100IS3_S3_Li0EEEvPKNS_23enable_shared_from_thisIT_EEPT0_
++ __ZNSt3__110shared_ptrIN4roya4impl23HeadphoneMotionProviderEEC2B9fqe220100IS3_Li0EEERKNS_8weak_ptrIT_EE
++ __ZNSt3__110shared_ptrIN4roya4impl24DeviceMotionDataProviderEE18__enable_weak_thisB9fqe220100IS3_S3_Li0EEEvPKNS_23enable_shared_from_thisIT_EEPT0_
++ __ZNSt3__110shared_ptrIN4roya4impl24DeviceMotionDataProviderEEC2B9fqe220100IS3_Li0EEERKNS_8weak_ptrIT_EE
++ __ZNSt3__110shared_ptrIN4roya4impl25VideoCaptureSinkContainerEEC2B9fqe220100IS3_Li0EEERKNS_8weak_ptrIT_EE
++ __ZNSt3__110shared_ptrIN4roya4impl33HeadphoneInertialOdometryProviderEE18__enable_weak_thisB9fqe220100IS3_S3_Li0EEEvPKNS_23enable_shared_from_thisIT_EEPT0_
++ __ZNSt3__110shared_ptrIN4roya4impl33HeadphoneInertialOdometryProviderEEC2B9fqe220100IS3_Li0EEERKNS_8weak_ptrIT_EE
++ __ZNSt3__110shared_ptrIN4roya8PipelineEE18__enable_weak_thisB9fqe220100IS2_S2_Li0EEEvPKNS_23enable_shared_from_thisIT_EEPT0_
++ __ZNSt3__110shared_ptrIN4roya9FrameDataEE18__enable_weak_thisB9fqe220100IS2_S2_Li0EEEvPKNS_23enable_shared_from_thisIT_EEPT0_
++ __ZNSt3__110shared_ptrIN4roya9FrameDataEEC2B9fqe220100IS2_Li0EEEPT_
++ __ZNSt3__110shared_ptrIN4roya9FrameDataEEC2B9fqe220100IS2_Li0EEEPT_.cold.1
++ __ZNSt3__110shared_ptrIN4roya9FrameDataEEC2B9fqe220100IS2_Li0EEERKNS_8weak_ptrIT_EE
++ __ZNSt3__110unique_ptrI10DoAPPluginN4roya4impl3$_0EE5resetB9fqe220100EPS1_
++ __ZNSt3__110unique_ptrI20OpaqueAudioConverterN4roya4impl3$_1EE5resetB9fqe220100EPS1_
++ __ZNSt3__110unique_ptrIN4roya16FrameDropMonitorENS_14default_deleteIS2_EEED1B9fqe220100Ev
++ __ZNSt3__110unique_ptrIN4roya4impl13CFAutoReleaseIPK25opaqueCMFormatDescriptionEENS_14default_deleteIS7_EEE5resetB9fqe220100EPS7_
++ __ZNSt3__110unique_ptrIN4roya4impl15TimeSyncService12InstanceDataENS_14default_deleteIS4_EEE5resetB9fqe220100EPS4_
++ __ZNSt3__110unique_ptrIN4roya4impl15TimeSyncServiceENS_14default_deleteIS3_EEE5resetB9fqe220100EPS3_
++ __ZNSt3__110unique_ptrIN4roya4impl16LocationProvider12InstanceDataENS_14default_deleteIS4_EEE5resetB9fqe220100EPS4_
++ __ZNSt3__110unique_ptrIN4roya4impl16TimeSyncProvider12InstanceDataENS_14default_deleteIS4_EEE5resetB9fqe220100EPS4_
++ __ZNSt3__110unique_ptrIN4roya4impl17HIDDeviceProvider12InstanceDataENS_14default_deleteIS4_EEE5resetB9fqe220100EPS4_
++ __ZNSt3__110unique_ptrIN4roya4impl17TestVideoProvider12InstanceDataENS_14default_deleteIS4_EEE5resetB9fqe220100EPS4_
++ __ZNSt3__110unique_ptrIN4roya4impl17UserEventProvider12InstanceDataENS_14default_deleteIS4_EEE5resetB9fqe220100EPS4_
++ __ZNSt3__110unique_ptrIN4roya4impl19PolarisInstanceDataENS_14default_deleteIS3_EEE5resetB9fqe220100EPS3_
++ __ZNSt3__110unique_ptrIN4roya4impl23AudioQueueBufferWrapperENS_14default_deleteIS3_EEED1B9fqe220100Ev
++ __ZNSt3__110unique_ptrIN4roya4impl23HeadphoneMotionProvider12InstanceDataENS_14default_deleteIS4_EEE5resetB9fqe220100EPS4_
++ __ZNSt3__110unique_ptrIN4roya4impl23WiFiScannerInstanceDataENS_14default_deleteIS3_EEE5resetB9fqe220100EPS3_
++ __ZNSt3__110unique_ptrIN4roya4impl24DeviceMotionInstanceDataENS_14default_deleteIS3_EEE5resetB9fqe220100EPS3_
++ __ZNSt3__110unique_ptrIN4roya4impl25AVFDataSourceInstanceDataENS_14default_deleteIS3_EEE5resetB9fqe220100EPS3_
++ __ZNSt3__110unique_ptrIN4roya4impl28RawAudioProviderInstanceDataENS_14default_deleteIS3_EEE5resetB9fqe220100EPS3_
++ __ZNSt3__110unique_ptrIN4roya4impl33HeadphoneInertialOdometryProvider12InstanceDataENS_14default_deleteIS4_EEE5resetB9fqe220100EPS4_
++ __ZNSt3__110unique_ptrIN4roya4impl35DoAPPluginAudioProviderInstanceDataENS_14default_deleteIS3_EEE5resetB9fqe220100EPS3_
++ __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrIN4roya4NodeEEEEEPvEENS_22__hash_node_destructorINS6_ISF_EEEEED1B9fqe220100Ev
++ __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrIN4roya4impl21PolarisSharedResource17StreamFlowControlEEEEEPvEENS_22__hash_node_destructorINS6_ISH_EEEEED1B9fqe220100Ev
++ __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrIN4roya8MOVTrackEEEEEPvEENS_22__hash_node_destructorINS6_ISF_EEEEED1B9fqe220100Ev
++ __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrIN4roya9OperationEEEEEPvEENS_22__hash_node_destructorINS6_ISF_EEEEED1B9fqe220100Ev
++ __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_6vectorIS8_NS6_IS8_EEEEEEPvEENS_22__hash_node_destructorINS6_ISE_EEEEED1B9fqe220100Ev
++ __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_8weak_ptrIN4roya12DataProviderEEEEEPvEENS_22__hash_node_destructorINS6_ISF_EEEEED1B9fqe220100Ev
++ __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES8_EEPvEENS_22__hash_node_destructorINS6_ISB_EEEEED1B9fqe220100Ev
++ __ZNSt3__110unique_ptrINS_11__tree_nodeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEU8__strongPU37objcproto26RoyaSampleReceiverProtocol11objc_objectEEPvEENS_22__tree_node_destructorINS6_ISE_EEEEED1B9fqe220100Ev
++ __ZNSt3__110unique_ptrINS_11__tree_nodeINS_4pairINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES8_EEPvEENS_22__tree_node_destructorINS6_ISB_EEEEED1B9fqe220100Ev
++ __ZNSt3__110unique_ptrINS_11__tree_nodeINS_4pairINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES8_EEPvEENS_6__treeIS9_NS_4lessIS9_EENS6_IS9_EEE14__tree_deleterEE5resetB9fqe220100EPSB_
++ __ZNSt3__111__introsortINS_17_ClassicAlgPolicyERNS_7greaterIN4roya7_CMTimeEEEPS4_Lb0EEEvT1_S8_T0_NS_15iterator_traitsIS8_E15difference_typeEb
++ __ZNSt3__111__introsortINS_17_ClassicAlgPolicyERZN4roya12MOVContainer30SubmitFirstFramesFromAllTracksEvE3$_0PNS_4pairIPNS2_8MOVTrackE6CMTimeEELb0EEEvT1_SC_T0_NS_15iterator_traitsISC_E15difference_typeEb
++ __ZNSt3__111__sift_downB9fqe220100INS_17_ClassicAlgPolicyELb0ERNS_6__lessIvvEEPdEEvT2_OT1_NS_15iterator_traitsIS6_E15difference_typeESB_
++ __ZNSt3__111__sift_downB9fqe220100INS_17_ClassicAlgPolicyELb0ERNS_7greaterIN4roya7_CMTimeEEEPS4_EEvT2_OT1_NS_15iterator_traitsIS8_E15difference_typeESD_
++ __ZNSt3__111__sift_downB9fqe220100INS_17_ClassicAlgPolicyELb1ERNS_6__lessIvvEEPdEEvT2_OT1_NS_15iterator_traitsIS6_E15difference_typeESB_
++ __ZNSt3__112__destroy_atB9fqe220100IN4roya18EntitlementCheckerEEEvPT_
++ __ZNSt3__112__destroy_atB9fqe220100IN4roya5cmrefIP20opaqueCMSampleBufferS3_EEEEvPT_
++ __ZNSt3__112__destroy_atB9fqe220100INS_4pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrIN4roya4NodeEEEEEEEvPT_
++ __ZNSt3__112__destroy_atB9fqe220100INS_4pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrIN4roya4impl21PolarisSharedResource17StreamFlowControlEEEEEEEvPT_
++ __ZNSt3__112__destroy_atB9fqe220100INS_4pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrIN4roya8MOVTrackEEEEEEEvPT_
++ __ZNSt3__112__destroy_atB9fqe220100INS_4pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrIN4roya9OperationEEEEEEEvPT_
++ __ZNSt3__112__destroy_atB9fqe220100INS_4pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_6vectorIS7_NS5_IS7_EEEEEEEEvPT_
++ __ZNSt3__112__destroy_atB9fqe220100INS_4pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_8weak_ptrIN4roya12DataProviderEEEEEEEvPT_
++ __ZNSt3__112__destroy_atB9fqe220100INS_4pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES7_EEEEvPT_
++ __ZNSt3__112__destroy_atB9fqe220100INS_4pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEU8__strongPU37objcproto26RoyaSampleReceiverProtocol11objc_objectEEEEvPT_
++ __ZNSt3__112__destroy_atB9fqe220100INS_4pairINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES7_EEEEvPT_
++ __ZNSt3__112__hash_tableINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_4hashIS6_EENS_8equal_toIS6_EENS4_IS6_EEE11__do_rehashILb1EEEvm
++ __ZNSt3__112__hash_tableINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_4hashIS6_EENS_8equal_toIS6_EENS4_IS6_EEE13__move_assignERSC_NS_17integral_constantIbLb1EEE
++ __ZNSt3__112__hash_tableINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_4hashIS6_EENS_8equal_toIS6_EENS4_IS6_EEE17__deallocate_nodeB9fqe220100EPNS_11__hash_nodeIS6_PvEE
++ __ZNSt3__112__hash_tableINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_4hashIS6_EENS_8equal_toIS6_EENS4_IS6_EEE21__construct_node_hashIJRS6_EEENS_10unique_ptrINS_11__hash_nodeIS6_PvEENS_22__hash_node_destructorINS4_ISI_EEEEEEmDpOT_
++ __ZNSt3__112__hash_tableINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_4hashIS6_EENS_8equal_toIS6_EENS4_IS6_EEE5clearEv
++ __ZNSt3__112__hash_tableINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_4hashIS6_EENS_8equal_toIS6_EENS4_IS6_EEE8__rehashILb1EEEvm
++ __ZNSt3__112__hash_tableINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_4hashIS6_EENS_8equal_toIS6_EENS4_IS6_EEED2Ev
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIN4roya13PipelineStateENS2_12SessionStateEEENS_22__unordered_map_hasherIS3_NS_4pairIKS3_S4_EENS_4hashIS3_EENS_8equal_toIS3_EEEENS_21__unordered_map_equalIS3_S9_SD_SB_EENS_9allocatorIS9_EEE11__do_rehashILb1EEEvm
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIN4roya13PipelineStateENS2_12SessionStateEEENS_22__unordered_map_hasherIS3_NS_4pairIKS3_S4_EENS_4hashIS3_EENS_8equal_toIS3_EEEENS_21__unordered_map_equalIS3_S9_SD_SB_EENS_9allocatorIS9_EEE8__rehashILb1EEEvm
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIN4roya13PipelineStateENS2_12SessionStateEEENS_22__unordered_map_hasherIS3_NS_4pairIKS3_S4_EENS_4hashIS3_EENS_8equal_toIS3_EEEENS_21__unordered_map_equalIS3_S9_SD_SB_EENS_9allocatorIS9_EEED2Ev
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN4roya9TrackInfoEEENS_22__unordered_map_hasherIS7_NS_4pairIKS7_S9_EENS_4hashIS7_EENS_8equal_toIS7_EEEENS_21__unordered_map_equalIS7_SE_SI_SG_EENS5_ISE_EEE11__do_rehashILb1EEEvm
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN4roya9TrackInfoEEENS_22__unordered_map_hasherIS7_NS_4pairIKS7_S9_EENS_4hashIS7_EENS_8equal_toIS7_EEEENS_21__unordered_map_equalIS7_SE_SI_SG_EENS5_ISE_EEE21__construct_node_hashIJRKNS_21piecewise_construct_tENS_5tupleIJRSD_EEENSS_IJEEEEEENS_10unique_ptrINS_11__hash_nodeISA_PvEENS_22__hash_node_destructorINS5_ISZ_EEEEEEmDpOT_
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN4roya9TrackInfoEEENS_22__unordered_map_hasherIS7_NS_4pairIKS7_S9_EENS_4hashIS7_EENS_8equal_toIS7_EEEENS_21__unordered_map_equalIS7_SE_SI_SG_EENS5_ISE_EEE22__deallocate_node_listB9fqe220100EPNS_16__hash_node_baseIPNS_11__hash_nodeISA_PvEEEE
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN4roya9TrackInfoEEENS_22__unordered_map_hasherIS7_NS_4pairIKS7_S9_EENS_4hashIS7_EENS_8equal_toIS7_EEEENS_21__unordered_map_equalIS7_SE_SI_SG_EENS5_ISE_EEE4findIS7_EENS_15__hash_iteratorIPNS_11__hash_nodeISA_PvEEEERKT_
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN4roya9TrackInfoEEENS_22__unordered_map_hasherIS7_NS_4pairIKS7_S9_EENS_4hashIS7_EENS_8equal_toIS7_EEEENS_21__unordered_map_equalIS7_SE_SI_SG_EENS5_ISE_EEE8__rehashILb1EEEvm
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN4roya9TrackInfoEEENS_22__unordered_map_hasherIS7_NS_4pairIKS7_S9_EENS_4hashIS7_EENS_8equal_toIS7_EEEENS_21__unordered_map_equalIS7_SE_SI_SG_EENS5_ISE_EEED2Ev
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrIN4roya4NodeEEEEENS_22__unordered_map_hasherIS7_NS_4pairIKS7_SB_EENS_4hashIS7_EENS_8equal_toIS7_EEEENS_21__unordered_map_equalIS7_SG_SK_SI_EENS5_ISG_EEE11__do_rehashILb1EEEvm
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrIN4roya4NodeEEEEENS_22__unordered_map_hasherIS7_NS_4pairIKS7_SB_EENS_4hashIS7_EENS_8equal_toIS7_EEEENS_21__unordered_map_equalIS7_SG_SK_SI_EENS5_ISG_EEE21__construct_node_hashIJRKNS_21piecewise_construct_tENS_5tupleIJRSF_EEENSU_IJEEEEEENS_10unique_ptrINS_11__hash_nodeISC_PvEENS_22__hash_node_destructorINS5_IS11_EEEEEEmDpOT_
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrIN4roya4NodeEEEEENS_22__unordered_map_hasherIS7_NS_4pairIKS7_SB_EENS_4hashIS7_EENS_8equal_toIS7_EEEENS_21__unordered_map_equalIS7_SG_SK_SI_EENS5_ISG_EEE22__deallocate_node_listB9fqe220100EPNS_16__hash_node_baseIPNS_11__hash_nodeISC_PvEEEE
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrIN4roya4NodeEEEEENS_22__unordered_map_hasherIS7_NS_4pairIKS7_SB_EENS_4hashIS7_EENS_8equal_toIS7_EEEENS_21__unordered_map_equalIS7_SG_SK_SI_EENS5_ISG_EEE4findIS7_EENS_15__hash_iteratorIPNS_11__hash_nodeISC_PvEEEERKT_
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrIN4roya4NodeEEEEENS_22__unordered_map_hasherIS7_NS_4pairIKS7_SB_EENS_4hashIS7_EENS_8equal_toIS7_EEEENS_21__unordered_map_equalIS7_SG_SK_SI_EENS5_ISG_EEE8__rehashILb1EEEvm
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrIN4roya4NodeEEEEENS_22__unordered_map_hasherIS7_NS_4pairIKS7_SB_EENS_4hashIS7_EENS_8equal_toIS7_EEEENS_21__unordered_map_equalIS7_SG_SK_SI_EENS5_ISG_EEED2Ev
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrIN4roya4impl21PolarisSharedResource17StreamFlowControlEEEEENS_22__unordered_map_hasherIS7_NS_4pairIKS7_SD_EENS_4hashIS7_EENS_8equal_toIS7_EEEENS_21__unordered_map_equalIS7_SI_SM_SK_EENS5_ISI_EEE11__do_rehashILb1EEEvm
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrIN4roya4impl21PolarisSharedResource17StreamFlowControlEEEEENS_22__unordered_map_hasherIS7_NS_4pairIKS7_SD_EENS_4hashIS7_EENS_8equal_toIS7_EEEENS_21__unordered_map_equalIS7_SI_SM_SK_EENS5_ISI_EEE21__construct_node_hashIJRSH_RSD_EEENS_10unique_ptrINS_11__hash_nodeISE_PvEENS_22__hash_node_destructorINS5_ISY_EEEEEEmDpOT_
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrIN4roya4impl21PolarisSharedResource17StreamFlowControlEEEEENS_22__unordered_map_hasherIS7_NS_4pairIKS7_SD_EENS_4hashIS7_EENS_8equal_toIS7_EEEENS_21__unordered_map_equalIS7_SI_SM_SK_EENS5_ISI_EEE22__deallocate_node_listB9fqe220100EPNS_16__hash_node_baseIPNS_11__hash_nodeISE_PvEEEE
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrIN4roya4impl21PolarisSharedResource17StreamFlowControlEEEEENS_22__unordered_map_hasherIS7_NS_4pairIKS7_SD_EENS_4hashIS7_EENS_8equal_toIS7_EEEENS_21__unordered_map_equalIS7_SI_SM_SK_EENS5_ISI_EEE4findIS7_EENS_15__hash_iteratorIPNS_11__hash_nodeISE_PvEEEERKT_
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrIN4roya4impl21PolarisSharedResource17StreamFlowControlEEEEENS_22__unordered_map_hasherIS7_NS_4pairIKS7_SD_EENS_4hashIS7_EENS_8equal_toIS7_EEEENS_21__unordered_map_equalIS7_SI_SM_SK_EENS5_ISI_EEE8__rehashILb1EEEvm
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrIN4roya4impl21PolarisSharedResource17StreamFlowControlEEEEENS_22__unordered_map_hasherIS7_NS_4pairIKS7_SD_EENS_4hashIS7_EENS_8equal_toIS7_EEEENS_21__unordered_map_equalIS7_SI_SM_SK_EENS5_ISI_EEED2Ev
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrIN4roya8MOVTrackEEEEENS_22__unordered_map_hasherIS7_NS_4pairIKS7_SB_EENS_4hashIS7_EENS_8equal_toIS7_EEEENS_21__unordered_map_equalIS7_SG_SK_SI_EENS5_ISG_EEE11__do_rehashILb1EEEvm
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrIN4roya8MOVTrackEEEEENS_22__unordered_map_hasherIS7_NS_4pairIKS7_SB_EENS_4hashIS7_EENS_8equal_toIS7_EEEENS_21__unordered_map_equalIS7_SG_SK_SI_EENS5_ISG_EEE16__copy_constructB9fqe220100EPNS_16__hash_node_baseIPNS_11__hash_nodeISC_PvEEEE
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrIN4roya8MOVTrackEEEEENS_22__unordered_map_hasherIS7_NS_4pairIKS7_SB_EENS_4hashIS7_EENS_8equal_toIS7_EEEENS_21__unordered_map_equalIS7_SG_SK_SI_EENS5_ISG_EEE16__copy_constructB9fqe220100EPNS_16__hash_node_baseIPNS_11__hash_nodeISC_PvEEEESW_m
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrIN4roya8MOVTrackEEEEENS_22__unordered_map_hasherIS7_NS_4pairIKS7_SB_EENS_4hashIS7_EENS_8equal_toIS7_EEEENS_21__unordered_map_equalIS7_SG_SK_SI_EENS5_ISG_EEE21__construct_node_hashIJRSG_EEENS_10unique_ptrINS_11__hash_nodeISC_PvEENS_22__hash_node_destructorINS5_ISV_EEEEEEmDpOT_
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrIN4roya8MOVTrackEEEEENS_22__unordered_map_hasherIS7_NS_4pairIKS7_SB_EENS_4hashIS7_EENS_8equal_toIS7_EEEENS_21__unordered_map_equalIS7_SG_SK_SI_EENS5_ISG_EEE22__deallocate_node_listB9fqe220100EPNS_16__hash_node_baseIPNS_11__hash_nodeISC_PvEEEE
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrIN4roya8MOVTrackEEEEENS_22__unordered_map_hasherIS7_NS_4pairIKS7_SB_EENS_4hashIS7_EENS_8equal_toIS7_EEEENS_21__unordered_map_equalIS7_SG_SK_SI_EENS5_ISG_EEE4findIS7_EENS_15__hash_iteratorIPNS_11__hash_nodeISC_PvEEEERKT_
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrIN4roya8MOVTrackEEEEENS_22__unordered_map_hasherIS7_NS_4pairIKS7_SB_EENS_4hashIS7_EENS_8equal_toIS7_EEEENS_21__unordered_map_equalIS7_SG_SK_SI_EENS5_ISG_EEE5clearEv
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrIN4roya8MOVTrackEEEEENS_22__unordered_map_hasherIS7_NS_4pairIKS7_SB_EENS_4hashIS7_EENS_8equal_toIS7_EEEENS_21__unordered_map_equalIS7_SG_SK_SI_EENS5_ISG_EEE8__rehashILb1EEEvm
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrIN4roya8MOVTrackEEEEENS_22__unordered_map_hasherIS7_NS_4pairIKS7_SB_EENS_4hashIS7_EENS_8equal_toIS7_EEEENS_21__unordered_map_equalIS7_SG_SK_SI_EENS5_ISG_EEEC2ERKSP_
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrIN4roya8MOVTrackEEEEENS_22__unordered_map_hasherIS7_NS_4pairIKS7_SB_EENS_4hashIS7_EENS_8equal_toIS7_EEEENS_21__unordered_map_equalIS7_SG_SK_SI_EENS5_ISG_EEED2Ev
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrIN4roya9OperationEEEEENS_22__unordered_map_hasherIS7_NS_4pairIKS7_SB_EENS_4hashIS7_EENS_8equal_toIS7_EEEENS_21__unordered_map_equalIS7_SG_SK_SI_EENS5_ISG_EEE11__do_rehashILb1EEEvm
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrIN4roya9OperationEEEEENS_22__unordered_map_hasherIS7_NS_4pairIKS7_SB_EENS_4hashIS7_EENS_8equal_toIS7_EEEENS_21__unordered_map_equalIS7_SG_SK_SI_EENS5_ISG_EEE21__construct_node_hashIJRKNS_21piecewise_construct_tENS_5tupleIJRSF_EEENSU_IJEEEEEENS_10unique_ptrINS_11__hash_nodeISC_PvEENS_22__hash_node_destructorINS5_IS11_EEEEEEmDpOT_
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrIN4roya9OperationEEEEENS_22__unordered_map_hasherIS7_NS_4pairIKS7_SB_EENS_4hashIS7_EENS_8equal_toIS7_EEEENS_21__unordered_map_equalIS7_SG_SK_SI_EENS5_ISG_EEE22__deallocate_node_listB9fqe220100EPNS_16__hash_node_baseIPNS_11__hash_nodeISC_PvEEEE
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrIN4roya9OperationEEEEENS_22__unordered_map_hasherIS7_NS_4pairIKS7_SB_EENS_4hashIS7_EENS_8equal_toIS7_EEEENS_21__unordered_map_equalIS7_SG_SK_SI_EENS5_ISG_EEE8__rehashILb1EEEvm
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrIN4roya9OperationEEEEENS_22__unordered_map_hasherIS7_NS_4pairIKS7_SB_EENS_4hashIS7_EENS_8equal_toIS7_EEEENS_21__unordered_map_equalIS7_SG_SK_SI_EENS5_ISG_EEED2Ev
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_6vectorIS7_NS5_IS7_EEEEEENS_22__unordered_map_hasherIS7_NS_4pairIKS7_SA_EENS_4hashIS7_EENS_8equal_toIS7_EEEENS_21__unordered_map_equalIS7_SF_SJ_SH_EENS5_ISF_EEE11__do_rehashILb1EEEvm
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_6vectorIS7_NS5_IS7_EEEEEENS_22__unordered_map_hasherIS7_NS_4pairIKS7_SA_EENS_4hashIS7_EENS_8equal_toIS7_EEEENS_21__unordered_map_equalIS7_SF_SJ_SH_EENS5_ISF_EEE21__construct_node_hashIJRKNS_21piecewise_construct_tENS_5tupleIJRSE_EEENST_IJEEEEEENS_10unique_ptrINS_11__hash_nodeISB_PvEENS_22__hash_node_destructorINS5_IS10_EEEEEEmDpOT_
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_6vectorIS7_NS5_IS7_EEEEEENS_22__unordered_map_hasherIS7_NS_4pairIKS7_SA_EENS_4hashIS7_EENS_8equal_toIS7_EEEENS_21__unordered_map_equalIS7_SF_SJ_SH_EENS5_ISF_EEE22__deallocate_node_listB9fqe220100EPNS_16__hash_node_baseIPNS_11__hash_nodeISB_PvEEEE
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_6vectorIS7_NS5_IS7_EEEEEENS_22__unordered_map_hasherIS7_NS_4pairIKS7_SA_EENS_4hashIS7_EENS_8equal_toIS7_EEEENS_21__unordered_map_equalIS7_SF_SJ_SH_EENS5_ISF_EEE4findIS7_EENS_15__hash_iteratorIPNS_11__hash_nodeISB_PvEEEERKT_
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_6vectorIS7_NS5_IS7_EEEEEENS_22__unordered_map_hasherIS7_NS_4pairIKS7_SA_EENS_4hashIS7_EENS_8equal_toIS7_EEEENS_21__unordered_map_equalIS7_SF_SJ_SH_EENS5_ISF_EEE8__rehashILb1EEEvm
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_6vectorIS7_NS5_IS7_EEEEEENS_22__unordered_map_hasherIS7_NS_4pairIKS7_SA_EENS_4hashIS7_EENS_8equal_toIS7_EEEENS_21__unordered_map_equalIS7_SF_SJ_SH_EENS5_ISF_EEED2Ev
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_8weak_ptrIN4roya12DataProviderEEEEENS_22__unordered_map_hasherIS7_NS_4pairIKS7_SB_EENS_4hashIS7_EENS_8equal_toIS7_EEEENS_21__unordered_map_equalIS7_SG_SK_SI_EENS5_ISG_EEE11__do_rehashILb1EEEvm
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_8weak_ptrIN4roya12DataProviderEEEEENS_22__unordered_map_hasherIS7_NS_4pairIKS7_SB_EENS_4hashIS7_EENS_8equal_toIS7_EEEENS_21__unordered_map_equalIS7_SG_SK_SI_EENS5_ISG_EEE21__construct_node_hashIJRKNS_21piecewise_construct_tENS_5tupleIJRSF_EEENSU_IJEEEEEENS_10unique_ptrINS_11__hash_nodeISC_PvEENS_22__hash_node_destructorINS5_IS11_EEEEEEmDpOT_
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_8weak_ptrIN4roya12DataProviderEEEEENS_22__unordered_map_hasherIS7_NS_4pairIKS7_SB_EENS_4hashIS7_EENS_8equal_toIS7_EEEENS_21__unordered_map_equalIS7_SG_SK_SI_EENS5_ISG_EEE22__deallocate_node_listB9fqe220100EPNS_16__hash_node_baseIPNS_11__hash_nodeISC_PvEEEE
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_8weak_ptrIN4roya12DataProviderEEEEENS_22__unordered_map_hasherIS7_NS_4pairIKS7_SB_EENS_4hashIS7_EENS_8equal_toIS7_EEEENS_21__unordered_map_equalIS7_SG_SK_SI_EENS5_ISG_EEE4findIS7_EENS_15__hash_iteratorIPNS_11__hash_nodeISC_PvEEEERKT_
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_8weak_ptrIN4roya12DataProviderEEEEENS_22__unordered_map_hasherIS7_NS_4pairIKS7_SB_EENS_4hashIS7_EENS_8equal_toIS7_EEEENS_21__unordered_map_equalIS7_SG_SK_SI_EENS5_ISG_EEE8__rehashILb1EEEvm
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_8weak_ptrIN4roya12DataProviderEEEEENS_22__unordered_map_hasherIS7_NS_4pairIKS7_SB_EENS_4hashIS7_EENS_8equal_toIS7_EEEENS_21__unordered_map_equalIS7_SG_SK_SI_EENS5_ISG_EEED2Ev
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES7_EENS_22__unordered_map_hasherIS7_NS_4pairIKS7_S7_EENS_4hashIS7_EENS_8equal_toIS7_EEEENS_21__unordered_map_equalIS7_SC_SG_SE_EENS5_ISC_EEE11__do_rehashILb1EEEvm
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES7_EENS_22__unordered_map_hasherIS7_NS_4pairIKS7_S7_EENS_4hashIS7_EENS_8equal_toIS7_EEEENS_21__unordered_map_equalIS7_SC_SG_SE_EENS5_ISC_EEE13__move_assignERSL_NS_17integral_constantIbLb1EEE
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES7_EENS_22__unordered_map_hasherIS7_NS_4pairIKS7_S7_EENS_4hashIS7_EENS_8equal_toIS7_EEEENS_21__unordered_map_equalIS7_SC_SG_SE_EENS5_ISC_EEE14__erase_uniqueIS7_EEmRKT_
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES7_EENS_22__unordered_map_hasherIS7_NS_4pairIKS7_S7_EENS_4hashIS7_EENS_8equal_toIS7_EEEENS_21__unordered_map_equalIS7_SC_SG_SE_EENS5_ISC_EEE16__copy_constructB9fqe220100EPNS_16__hash_node_baseIPNS_11__hash_nodeIS8_PvEEEE
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES7_EENS_22__unordered_map_hasherIS7_NS_4pairIKS7_S7_EENS_4hashIS7_EENS_8equal_toIS7_EEEENS_21__unordered_map_equalIS7_SC_SG_SE_EENS5_ISC_EEE16__copy_constructB9fqe220100EPNS_16__hash_node_baseIPNS_11__hash_nodeIS8_PvEEEESS_m
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES7_EENS_22__unordered_map_hasherIS7_NS_4pairIKS7_S7_EENS_4hashIS7_EENS_8equal_toIS7_EEEENS_21__unordered_map_equalIS7_SC_SG_SE_EENS5_ISC_EEE21__construct_node_hashIJRKNS_21piecewise_construct_tENS_5tupleIJRSB_EEENSQ_IJEEEEEENS_10unique_ptrINS_11__hash_nodeIS8_PvEENS_22__hash_node_destructorINS5_ISX_EEEEEEmDpOT_
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES7_EENS_22__unordered_map_hasherIS7_NS_4pairIKS7_S7_EENS_4hashIS7_EENS_8equal_toIS7_EEEENS_21__unordered_map_equalIS7_SC_SG_SE_EENS5_ISC_EEE21__construct_node_hashIJRKSC_EEENS_10unique_ptrINS_11__hash_nodeIS8_PvEENS_22__hash_node_destructorINS5_ISS_EEEEEEmDpOT_
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES7_EENS_22__unordered_map_hasherIS7_NS_4pairIKS7_S7_EENS_4hashIS7_EENS_8equal_toIS7_EEEENS_21__unordered_map_equalIS7_SC_SG_SE_EENS5_ISC_EEE21__construct_node_hashIJRSC_EEENS_10unique_ptrINS_11__hash_nodeIS8_PvEENS_22__hash_node_destructorINS5_ISR_EEEEEEmDpOT_
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES7_EENS_22__unordered_map_hasherIS7_NS_4pairIKS7_S7_EENS_4hashIS7_EENS_8equal_toIS7_EEEENS_21__unordered_map_equalIS7_SC_SG_SE_EENS5_ISC_EEE21__construct_node_hashIJSC_EEENS_10unique_ptrINS_11__hash_nodeIS8_PvEENS_22__hash_node_destructorINS5_ISQ_EEEEEEmDpOT_
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES7_EENS_22__unordered_map_hasherIS7_NS_4pairIKS7_S7_EENS_4hashIS7_EENS_8equal_toIS7_EEEENS_21__unordered_map_equalIS7_SC_SG_SE_EENS5_ISC_EEE22__deallocate_node_listB9fqe220100EPNS_16__hash_node_baseIPNS_11__hash_nodeIS8_PvEEEE
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES7_EENS_22__unordered_map_hasherIS7_NS_4pairIKS7_S7_EENS_4hashIS7_EENS_8equal_toIS7_EEEENS_21__unordered_map_equalIS7_SC_SG_SE_EENS5_ISC_EEE4findIS7_EENS_15__hash_iteratorIPNS_11__hash_nodeIS8_PvEEEERKT_
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES7_EENS_22__unordered_map_hasherIS7_NS_4pairIKS7_S7_EENS_4hashIS7_EENS_8equal_toIS7_EEEENS_21__unordered_map_equalIS7_SC_SG_SE_EENS5_ISC_EEE5clearEv
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES7_EENS_22__unordered_map_hasherIS7_NS_4pairIKS7_S7_EENS_4hashIS7_EENS_8equal_toIS7_EEEENS_21__unordered_map_equalIS7_SC_SG_SE_EENS5_ISC_EEE5eraseENS_21__hash_const_iteratorIPNS_11__hash_nodeIS8_PvEEEE
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES7_EENS_22__unordered_map_hasherIS7_NS_4pairIKS7_S7_EENS_4hashIS7_EENS_8equal_toIS7_EEEENS_21__unordered_map_equalIS7_SC_SG_SE_EENS5_ISC_EEE6removeENS_21__hash_const_iteratorIPNS_11__hash_nodeIS8_PvEEEE
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES7_EENS_22__unordered_map_hasherIS7_NS_4pairIKS7_S7_EENS_4hashIS7_EENS_8equal_toIS7_EEEENS_21__unordered_map_equalIS7_SC_SG_SE_EENS5_ISC_EEE8__rehashILb1EEEvm
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES7_EENS_22__unordered_map_hasherIS7_NS_4pairIKS7_S7_EENS_4hashIS7_EENS_8equal_toIS7_EEEENS_21__unordered_map_equalIS7_SC_SG_SE_EENS5_ISC_EEEC2EOSL_
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES7_EENS_22__unordered_map_hasherIS7_NS_4pairIKS7_S7_EENS_4hashIS7_EENS_8equal_toIS7_EEEENS_21__unordered_map_equalIS7_SC_SG_SE_EENS5_ISC_EEEC2ERKSL_
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES7_EENS_22__unordered_map_hasherIS7_NS_4pairIKS7_S7_EENS_4hashIS7_EENS_8equal_toIS7_EEEENS_21__unordered_map_equalIS7_SC_SG_SE_EENS5_ISC_EEED2Ev
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEiEENS_22__unordered_map_hasherIS7_NS_4pairIKS7_iEENS_4hashIS7_EENS_8equal_toIS7_EEEENS_21__unordered_map_equalIS7_SC_SG_SE_EENS5_ISC_EEE11__do_rehashILb1EEEvm
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEiEENS_22__unordered_map_hasherIS7_NS_4pairIKS7_iEENS_4hashIS7_EENS_8equal_toIS7_EEEENS_21__unordered_map_equalIS7_SC_SG_SE_EENS5_ISC_EEE17__deallocate_nodeB9fqe220100EPNS_11__hash_nodeIS8_PvEE
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEiEENS_22__unordered_map_hasherIS7_NS_4pairIKS7_iEENS_4hashIS7_EENS_8equal_toIS7_EEEENS_21__unordered_map_equalIS7_SC_SG_SE_EENS5_ISC_EEE21__construct_node_hashIJRKNS_21piecewise_construct_tENS_5tupleIJRSB_EEENSQ_IJEEEEEENS_10unique_ptrINS_11__hash_nodeIS8_PvEENS_22__hash_node_destructorINS5_ISX_EEEEEEmDpOT_
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEiEENS_22__unordered_map_hasherIS7_NS_4pairIKS7_iEENS_4hashIS7_EENS_8equal_toIS7_EEEENS_21__unordered_map_equalIS7_SC_SG_SE_EENS5_ISC_EEE8__rehashILb1EEEvm
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEiEENS_22__unordered_map_hasherIS7_NS_4pairIKS7_iEENS_4hashIS7_EENS_8equal_toIS7_EEEENS_21__unordered_map_equalIS7_SC_SG_SE_EENS5_ISC_EEED2Ev
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEjEENS_22__unordered_map_hasherIS7_NS_4pairIKS7_jEENS_4hashIS7_EENS_8equal_toIS7_EEEENS_21__unordered_map_equalIS7_SC_SG_SE_EENS5_ISC_EEE11__do_rehashILb1EEEvm
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEjEENS_22__unordered_map_hasherIS7_NS_4pairIKS7_jEENS_4hashIS7_EENS_8equal_toIS7_EEEENS_21__unordered_map_equalIS7_SC_SG_SE_EENS5_ISC_EEE17__deallocate_nodeB9fqe220100EPNS_11__hash_nodeIS8_PvEE
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEjEENS_22__unordered_map_hasherIS7_NS_4pairIKS7_jEENS_4hashIS7_EENS_8equal_toIS7_EEEENS_21__unordered_map_equalIS7_SC_SG_SE_EENS5_ISC_EEE21__construct_node_hashIJRKSC_EEENS_10unique_ptrINS_11__hash_nodeIS8_PvEENS_22__hash_node_destructorINS5_ISS_EEEEEEmDpOT_
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEjEENS_22__unordered_map_hasherIS7_NS_4pairIKS7_jEENS_4hashIS7_EENS_8equal_toIS7_EEEENS_21__unordered_map_equalIS7_SC_SG_SE_EENS5_ISC_EEE8__rehashILb1EEEvm
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEjEENS_22__unordered_map_hasherIS7_NS_4pairIKS7_jEENS_4hashIS7_EENS_8equal_toIS7_EEEENS_21__unordered_map_equalIS7_SC_SG_SE_EENS5_ISC_EEED2Ev
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_length_errorB9fqe220100Ev
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_out_of_rangeB9fqe220100Ev
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE22__init_internal_bufferB9fqe220100Em
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6appendB9fqe220100IPKcLi0EEERS5_T_SA_
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6insertEmPKcm
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC1B9fqe220100ILi0EEEPKc
++ __ZNSt3__112construct_atB9fqe220100IN4roya4impl15AVFDataProviderEJRNS1_9TrackTypeENS_10shared_ptrINS2_13AVFDataSourceEEEEPS3_EEPT_SB_DpOT0_
++ __ZNSt3__112construct_atB9fqe220100IN4roya7MOVSinkEJNS_10shared_ptrINS1_4impl15MOVKitContainerEEERKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEEPS2_EEPT_SH_DpOT0_
++ __ZNSt3__112construct_atB9fqe220100IN4roya7MOVSinkEJNS_10shared_ptrINS1_4impl17ProtoBufContainerEEERKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEEPS2_EEPT_SH_DpOT0_
++ __ZNSt3__112construct_atB9fqe220100IN4roya8PipelineEJRNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10unique_ptrINS1_15PipelineContextENS_14default_deleteISB_EEEERNS_10shared_ptrINS1_12DataProviderEEENS1_16PipelineExecModeEEPS2_EEPT_SM_DpOT0_
++ __ZNSt3__112construct_atB9fqe220100IN4roya8PipelineEJRNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10unique_ptrINS1_15PipelineContextENS_14default_deleteISB_EEEERNS_10shared_ptrINS1_12DataProviderEEENS1_16PipelineExecModeEEPS2_EEPT_SM_DpOT0_.cold.1
++ __ZNSt3__113basic_filebufIcNS_11char_traitsIcEEE5closeEv
++ __ZNSt3__113basic_filebufIcNS_11char_traitsIcEEEC1Ev
++ __ZNSt3__113basic_filebufIcNS_11char_traitsIcEEED1Ev
++ __ZNSt3__113basic_ostreamIcNS_11char_traitsIcEEE5flushEv
++ __ZNSt3__113basic_ostreamIcNS_11char_traitsIcEEE5writeEPKcl
++ __ZNSt3__113basic_ostreamIcNS_11char_traitsIcEEElsEy
++ __ZNSt3__113unordered_mapIN4roya13PipelineStateENS1_12SessionStateENS_4hashIS2_EENS_8equal_toIS2_EENS_9allocatorINS_4pairIKS2_S3_EEEEED1B9fqe220100Ev
++ __ZNSt3__113unordered_mapINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrIN4roya4impl21PolarisSharedResource17StreamFlowControlEEENS_4hashIS6_EENS_8equal_toIS6_EENS4_INS_4pairIKS6_SC_EEEEED1B9fqe220100Ev
++ __ZNSt3__113unordered_mapINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEjNS_4hashIS6_EENS_8equal_toIS6_EENS4_INS_4pairIKS6_jEEEEED1B9fqe220100Ev
++ __ZNSt3__113unordered_setINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_4hashIS6_EENS_8equal_toIS6_EENS4_IS6_EEEC2INS_11__wrap_iterIPS6_EEEET_SH_
++ __ZNSt3__114__split_bufferIN4roya13OperationInfoERNS_9allocatorIS2_EEE17__destruct_at_endB9fqe220100EPS2_
++ __ZNSt3__114__split_bufferIN4roya13OperationInfoERNS_9allocatorIS2_EEED2Ev
++ __ZNSt3__114__split_bufferINS_10shared_ptrIN4roya16DataSourceBridgeEEERNS_9allocatorIS4_EEE5clearB9fqe220100Ev
++ __ZNSt3__114__split_bufferINS_10shared_ptrIN4roya16DataSourceBridgeEEERNS_9allocatorIS4_EEED2Ev
++ __ZNSt3__114__split_bufferINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEERNS4_IS6_EEE17__destruct_at_endB9fqe220100EPS6_
++ __ZNSt3__114__split_bufferINS_4pairINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN4roya9TrackInfoEEERNS5_ISA_EEE17__destruct_at_endB9fqe220100EPSA_
++ __ZNSt3__114__split_bufferINS_8functionIFvN4roya14ContainerStateEEEERNS_9allocatorIS5_EEED2Ev
++ __ZNSt3__114__split_bufferIPNS_4pairINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEmEENS5_IS9_EEE12emplace_backIJRS9_EEEvDpOT_
++ __ZNSt3__114__split_bufferIPNS_4pairINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEmEENS5_IS9_EEE12emplace_backIJS9_EEEvDpOT_
++ __ZNSt3__114__split_bufferIPNS_4pairINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEmEENS5_IS9_EEE13emplace_frontIJS9_EEEvDpOT_
++ __ZNSt3__114__split_bufferIPNS_4pairINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEmEENS5_IS9_EEED2Ev
++ __ZNSt3__114__split_bufferIPNS_4pairINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEmEERNS5_IS9_EEE12emplace_backIJS9_EEEvDpOT_
++ __ZNSt3__114__split_bufferIPNS_4pairINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEmEERNS5_IS9_EEE13emplace_frontIJRS9_EEEvDpOT_
++ __ZNSt3__114__split_bufferIZN4roya12GraphBuilder5BuildEPNS1_7SessionEE13PipelineEntryRNS_9allocatorIS5_EEED1Ev
++ __ZNSt3__114basic_ofstreamIcNS_11char_traitsIcEEE4openERKNS_12basic_stringIcS2_NS_9allocatorIcEEEEj
++ __ZNSt3__115__expected_baseIN4roya5cmrefIP20opaqueCMSampleBufferS3_EENS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEE6__repr22__destroy_union_memberB9fqe220100Ev
++ __ZNSt3__115__expected_baseINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN4roya6StatusEE6__repr22__destroy_union_memberB9fqe220100Ev
++ __ZNSt3__115__expected_baseINS_6vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS5_IS7_EEEEN4roya6StatusEE6__repr22__destroy_union_memberB9fqe220100Ev
++ __ZNSt3__115__expected_baseINS_6vectorIdNS_9allocatorIdEEEEN4roya6StatusEE6__repr22__destroy_union_memberB9fqe220100Ev
++ __ZNSt3__115allocate_sharedB9fqe220100IN4roya11MetadataSetENS_9allocatorIS2_EEJELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
++ __ZNSt3__115allocate_sharedB9fqe220100IN4roya13CVBufferFrameENS_9allocatorIS2_EEJRyRP10__CVBuffer6CMTimeS9_NS1_11FrameStatusEELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
++ __ZNSt3__115allocate_sharedB9fqe220100IN4roya13CaptureConfigENS_9allocatorIS2_EEJELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
++ __ZNSt3__115allocate_sharedB9fqe220100IN4roya13TestOperationENS_9allocatorIS2_EEJRKNS_13unordered_mapINS_12basic_stringIcNS_11char_traitsIcEENS3_IcEEEESA_NS_4hashISA_EENS_8equal_toISA_EENS3_INS_4pairIKSA_SA_EEEEEEELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
++ __ZNSt3__115allocate_sharedB9fqe220100IN4roya14AudioFrameDataENS_9allocatorIS2_EEJRKyRP20opaqueCMSampleBufferELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
++ __ZNSt3__115allocate_sharedB9fqe220100IN4roya14AudioFrameDataENS_9allocatorIS2_EEJRyRNS1_5cmrefIP20opaqueCMSampleBufferS7_EEELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
++ __ZNSt3__115allocate_sharedB9fqe220100IN4roya14AudioFrameDataENS_9allocatorIS2_EEJRyRP20opaqueCMSampleBufferELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
++ __ZNSt3__115allocate_sharedB9fqe220100IN4roya14AudioFrameDataENS_9allocatorIS2_EEJiRNS1_4impl13CFAutoReleaseIP20opaqueCMSampleBufferEEELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
++ __ZNSt3__115allocate_sharedB9fqe220100IN4roya14AudioFrameDataENS_9allocatorIS2_EEJiRNS1_5cfrefIP20opaqueCMSampleBufferEEELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
++ __ZNSt3__115allocate_sharedB9fqe220100IN4roya14VideoFrameDataENS_9allocatorIS2_EEJRKyP10__CVBuffer6CMTimeELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
++ __ZNSt3__115allocate_sharedB9fqe220100IN4roya14VideoFrameDataENS_9allocatorIS2_EEJRyRNS1_5cvrefINS1_14CVPixelBuffer_ES7_EER6CMTimeRKSA_NS1_11FrameStatusEELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
++ __ZNSt3__115allocate_sharedB9fqe220100IN4roya14VideoFrameDataENS_9allocatorIS2_EEJRyRP10__CVBuffer6CMTimeELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
++ __ZNSt3__115allocate_sharedB9fqe220100IN4roya15SimpleFrameDataENS_9allocatorIS2_EEJELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
++ __ZNSt3__115allocate_sharedB9fqe220100IN4roya15SimpleFrameDataENS_9allocatorIS2_EEJRKybDni6CMTimeELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
++ __ZNSt3__115allocate_sharedB9fqe220100IN4roya15SimpleFrameDataENS_9allocatorIS2_EEJRKybPKvm6CMTimeELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
++ __ZNSt3__115allocate_sharedB9fqe220100IN4roya15SimpleFrameDataENS_9allocatorIS2_EEJRtbRA_KhRjR6CMTimeRKtELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
++ __ZNSt3__115allocate_sharedB9fqe220100IN4roya15SimpleFrameDataENS_9allocatorIS2_EEJRybPvS5_6CMTimeELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
++ __ZNSt3__115allocate_sharedB9fqe220100IN4roya15SimpleFrameDataENS_9allocatorIS2_EEJRybPvm6CMTimeELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
++ __ZNSt3__115allocate_sharedB9fqe220100IN4roya15SimpleFrameDataENS_9allocatorIS2_EEJRybRPvRm6CMTimeiS9_NS1_11FrameStatusEELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
++ __ZNSt3__115allocate_sharedB9fqe220100IN4roya15SimpleFrameDataENS_9allocatorIS2_EEJRybRPvRmR6CMTimeiS9_ELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
++ __ZNSt3__115allocate_sharedB9fqe220100IN4roya15SimpleFrameDataENS_9allocatorIS2_EEJibDni6CMTimeELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
++ __ZNSt3__115allocate_sharedB9fqe220100IN4roya15SimpleFrameDataENS_9allocatorIS2_EEJibPvm6CMTimeELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
++ __ZNSt3__115allocate_sharedB9fqe220100IN4roya16DataSourceBridgeENS_9allocatorIS2_EEJNS_12basic_stringIcNS_11char_traitsIcEENS3_IcEEEERU8__strongPU33objcproto22RoyaDataSourceProtocol11objc_objectNS_13unordered_mapIS9_S9_NS_4hashIS9_EENS_8equal_toIS9_EENS3_INS_4pairIKS9_S9_EEEEEEELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
++ __ZNSt3__115allocate_sharedB9fqe220100IN4roya16DelegateDataSinkENS_9allocatorIS2_EEJU8__strongPU29objcproto18RoyaOutputDelegate11objc_objectELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
++ __ZNSt3__115allocate_sharedB9fqe220100IN4roya18EntitlementCheckerENS_9allocatorIS2_EEJRK13audit_token_tELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
++ __ZNSt3__115allocate_sharedB9fqe220100IN4roya18GraphBuilderForiOSENS_9allocatorIS2_EEJRKNS1_10DeviceTypeEELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
++ __ZNSt3__115allocate_sharedB9fqe220100IN4roya20ExternalDataProviderENS_9allocatorIS2_EEJRKNS_12basic_stringIcNS_11char_traitsIcEENS3_IcEEEEPNS1_19DataSourceProxyImplEELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
++ __ZNSt3__115allocate_sharedB9fqe220100IN4roya4impl13AVFDataSourceENS_9allocatorIS3_EEJELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
++ __ZNSt3__115allocate_sharedB9fqe220100IN4roya4impl14MOVKitIMUTrackENS_9allocatorIS3_EEJRPNS1_15PipelineContextERKNS_12basic_stringIcNS_11char_traitsIcEENS4_IcEEEEELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
++ __ZNSt3__115allocate_sharedB9fqe220100IN4roya4impl15AVFDataProviderENS_9allocatorIS3_EEJRNS1_9TrackTypeENS_10shared_ptrINS2_13AVFDataSourceEEEELi0EEENS8_IT_EERKT0_DpOT1_
++ __ZNSt3__115allocate_sharedB9fqe220100IN4roya4impl15MOVKitContainerENS_9allocatorIS3_EEJRbELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
++ __ZNSt3__115allocate_sharedB9fqe220100IN4roya4impl15MOVKitWiFiTrackENS_9allocatorIS3_EEJRPNS1_15PipelineContextERKNS_12basic_stringIcNS_11char_traitsIcEENS4_IcEEEEELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
++ __ZNSt3__115allocate_sharedB9fqe220100IN4roya4impl15PolarisProviderENS_9allocatorIS3_EEJELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
++ __ZNSt3__115allocate_sharedB9fqe220100IN4roya4impl16LocationProviderENS_9allocatorIS3_EEJELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
++ __ZNSt3__115allocate_sharedB9fqe220100IN4roya4impl16MOVKitAudioTrackENS_9allocatorIS3_EEJRPNS1_15PipelineContextERKNS_12basic_stringIcNS_11char_traitsIcEENS4_IcEEEEELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
++ __ZNSt3__115allocate_sharedB9fqe220100IN4roya4impl16MOVKitVideoTrackENS_9allocatorIS3_EEJRPNS1_15PipelineContextERKNS_12basic_stringIcNS_11char_traitsIcEENS4_IcEEEEELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
++ __ZNSt3__115allocate_sharedB9fqe220100IN4roya4impl16PolarisIMUSourceENS_9allocatorIS3_EEJRPNS1_15PipelineContextERPNS1_13IDataReceiverEPNS2_19PolarisInstanceDataEELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
++ __ZNSt3__115allocate_sharedB9fqe220100IN4roya4impl16ProtoBufHIDTrackENS_9allocatorIS3_EEJRPNS1_15PipelineContextERKNS_12basic_stringIcNS_11char_traitsIcEENS4_IcEEEEELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
++ __ZNSt3__115allocate_sharedB9fqe220100IN4roya4impl16ProtoBufIMUTrackENS_9allocatorIS3_EEJRPNS1_15PipelineContextERKNS_12basic_stringIcNS_11char_traitsIcEENS4_IcEEEEELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
++ __ZNSt3__115allocate_sharedB9fqe220100IN4roya4impl16RawAudioProviderENS_9allocatorIS3_EEJELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
++ __ZNSt3__115allocate_sharedB9fqe220100IN4roya4impl16TimeSyncProviderENS_9allocatorIS3_EEJELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
++ __ZNSt3__115allocate_sharedB9fqe220100IN4roya4impl16WiFiDataProviderENS_9allocatorIS3_EEJELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
++ __ZNSt3__115allocate_sharedB9fqe220100IN4roya4impl17AudioQueueWrapperENS_9allocatorIS3_EEJP27AudioStreamBasicDescriptionRFvPvP16OpaqueAudioQueueP16AudioQueueBufferPK14AudioTimeStampjPK28AudioStreamPacketDescriptionES8_ELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
++ __ZNSt3__115allocate_sharedB9fqe220100IN4roya4impl17HIDDeviceProviderENS_9allocatorIS3_EEJELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
++ __ZNSt3__115allocate_sharedB9fqe220100IN4roya4impl17MOVKitDesgenTrackENS_9allocatorIS3_EEJRPNS1_15PipelineContextERKNS_12basic_stringIcNS_11char_traitsIcEENS4_IcEEEEELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
++ __ZNSt3__115allocate_sharedB9fqe220100IN4roya4impl17PolarisDataSourceENS_9allocatorIS3_EEJRPNS1_15PipelineContextERPNS1_13IDataReceiverEPNS2_19PolarisInstanceDataEELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
++ __ZNSt3__115allocate_sharedB9fqe220100IN4roya4impl17ProtoBufContainerENS_9allocatorIS3_EEJELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
++ __ZNSt3__115allocate_sharedB9fqe220100IN4roya4impl17ProtoBufWifiTrackENS_9allocatorIS3_EEJRPNS1_15PipelineContextERKNS_12basic_stringIcNS_11char_traitsIcEENS4_IcEEEEELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
++ __ZNSt3__115allocate_sharedB9fqe220100IN4roya4impl17TestVideoProviderENS_9allocatorIS3_EEJELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
++ __ZNSt3__115allocate_sharedB9fqe220100IN4roya4impl17UserEventProviderENS_9allocatorIS3_EEJELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
++ __ZNSt3__115allocate_sharedB9fqe220100IN4roya4impl18PolarisAudioSourceENS_9allocatorIS3_EEJRPNS1_15PipelineContextERPNS1_13IDataReceiverEPNS2_19PolarisInstanceDataEELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
++ __ZNSt3__115allocate_sharedB9fqe220100IN4roya4impl19MOVKitMetadataTrackENS_9allocatorIS3_EEJRPNS1_15PipelineContextERKNS_12basic_stringIcNS_11char_traitsIcEENS4_IcEEEEELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
++ __ZNSt3__115allocate_sharedB9fqe220100IN4roya4impl19PolarisCameraSourceENS_9allocatorIS3_EEJRPNS1_15PipelineContextERPNS1_13IDataReceiverEPNS2_19PolarisInstanceDataEELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
++ __ZNSt3__115allocate_sharedB9fqe220100IN4roya4impl21MOVKitPointCloudTrackENS_9allocatorIS3_EEJRPNS1_15PipelineContextERKNS_12basic_stringIcNS_11char_traitsIcEENS4_IcEEEEELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
++ __ZNSt3__115allocate_sharedB9fqe220100IN4roya4impl22ProtoBufUserEventTrackENS_9allocatorIS3_EEJRPNS1_15PipelineContextERKNS_12basic_stringIcNS_11char_traitsIcEENS4_IcEEEEELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
++ __ZNSt3__115allocate_sharedB9fqe220100IN4roya4impl23DoAPPluginAudioProviderENS_9allocatorIS3_EEJELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
++ __ZNSt3__115allocate_sharedB9fqe220100IN4roya4impl23HeadphoneMotionProviderENS_9allocatorIS3_EEJELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
++ __ZNSt3__115allocate_sharedB9fqe220100IN4roya4impl23MOVKitDeviceMotionTrackENS_9allocatorIS3_EEJRPNS1_15PipelineContextERKNS_12basic_stringIcNS_11char_traitsIcEENS4_IcEEEEELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
++ __ZNSt3__115allocate_sharedB9fqe220100IN4roya4impl23PolarisPointCloudSourceENS_9allocatorIS3_EEJRPNS1_15PipelineContextERPNS1_13IDataReceiverEPNS2_19PolarisInstanceDataEELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
++ __ZNSt3__115allocate_sharedB9fqe220100IN4roya4impl24DeviceMotionDataProviderENS_9allocatorIS3_EEJELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
++ __ZNSt3__115allocate_sharedB9fqe220100IN4roya4impl26VideoCaptureSinkAudioTrackENS_9allocatorIS3_EEJRPNS1_15PipelineContextERKNS_12basic_stringIcNS_11char_traitsIcEENS4_IcEEEEELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
++ __ZNSt3__115allocate_sharedB9fqe220100IN4roya4impl26VideoCaptureSinkVideoTrackENS_9allocatorIS3_EEJRPNS1_15PipelineContextERKNS_12basic_stringIcNS_11char_traitsIcEENS4_IcEEEEELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
++ __ZNSt3__115allocate_sharedB9fqe220100IN4roya4impl29VideoCaptureSinkMetadataTrackENS_9allocatorIS3_EEJRPNS1_15PipelineContextERKNS_12basic_stringIcNS_11char_traitsIcEENS4_IcEEEEELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
++ __ZNSt3__115allocate_sharedB9fqe220100IN4roya4impl33HeadphoneInertialOdometryProviderENS_9allocatorIS3_EEJELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
++ __ZNSt3__115allocate_sharedB9fqe220100IN4roya7MOVSinkENS_9allocatorIS2_EEJNS_10shared_ptrINS1_4impl15MOVKitContainerEEERKNS_12basic_stringIcNS_11char_traitsIcEENS3_IcEEEEELi0EEENS5_IT_EERKT0_DpOT1_
++ __ZNSt3__115allocate_sharedB9fqe220100IN4roya7MOVSinkENS_9allocatorIS2_EEJNS_10shared_ptrINS1_4impl17ProtoBufContainerEEERKNS_12basic_stringIcNS_11char_traitsIcEENS3_IcEEEEELi0EEENS5_IT_EERKT0_DpOT1_
++ __ZNSt3__115allocate_sharedB9fqe220100IN4roya7SessionENS_9allocatorIS2_EEJELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
++ __ZNSt3__115allocate_sharedB9fqe220100IN4roya8PipelineENS_9allocatorIS2_EEJRNS_12basic_stringIcNS_11char_traitsIcEENS3_IcEEEENS_10unique_ptrINS1_15PipelineContextENS_14default_deleteISC_EEEERNS_10shared_ptrINS1_12DataProviderEEENS1_16PipelineExecModeEELi0EEENSG_IT_EERKT0_DpOT1_
++ __ZNSt3__115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEE15__init_buf_ptrsB9fqe220100Ev
++ __ZNSt3__115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEE3strB9fqe220100EONS_12basic_stringIcS2_S4_EE
++ __ZNSt3__115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEEC2B9fqe220100ERKNS_12basic_stringIcS2_S4_EEj
++ __ZNSt3__115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEEC2B9fqe220100Ej
++ __ZNSt3__116__if_likely_elseB9fqe220100IZNS_6vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS5_IS7_EEE12emplace_backIJRKS7_EEERS7_DpOT_EUlvE_ZNSA_IJSC_EEESD_SG_EUlvE0_EEvbT_T0_
++ __ZNSt3__116__if_likely_elseB9fqe220100IZNS_6vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS5_IS7_EEE12emplace_backIJRKS7_EEERS7_DpOT_EUlvE_ZNSA_IJSC_EEESD_SG_EUlvE0_EEvbT_T0_.cold.1
++ __ZNSt3__116__insertion_sortB9fqe220100INS_17_ClassicAlgPolicyERNS_7greaterIN4roya7_CMTimeEEEPS4_EEvT1_S8_T0_
++ __ZNSt3__116__pad_and_outputB9fqe220100IcNS_11char_traitsIcEEEENS_19ostreambuf_iteratorIT_T0_EES6_PKS4_S8_S8_RNS_8ios_baseES4_
++ __ZNSt3__116allocator_traitsINS_9allocatorIN4roya13OperationInfoEEEE7destroyB9fqe220100IS3_Li0EEEvRS4_PT_
++ __ZNSt3__116allocator_traitsINS_9allocatorINS_4pairINS_12basic_stringIcNS_11char_traitsIcEENS1_IcEEEEN4roya9TrackInfoEEEEEE7destroyB9fqe220100ISA_Li0EEEvRSB_PT_
++ __ZNSt3__116allocator_traitsINS_9allocatorIZN4roya12GraphBuilder5BuildEPNS2_7SessionEE13PipelineEntryEEE7destroyB9fqe220100IS6_Li0EEEvRS7_PT_
++ __ZNSt3__117__floyd_sift_downB9fqe220100INS_17_ClassicAlgPolicyERNS_7greaterIN4roya7_CMTimeEEEPS4_EET1_S8_OT0_NS_15iterator_traitsIS8_E15difference_typeE
++ __ZNSt3__118basic_stringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEC1B9fqe220100ERKNS_12basic_stringIcS2_S4_EEj
++ __ZNSt3__118basic_stringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEC1B9fqe220100Ev
++ __ZNSt3__119__allocator_destroyB9fqe220100INS_9allocatorIN4roya15TrackDefinitionEEENS_16reverse_iteratorIPS3_EES7_EEvRT_T0_T1_
++ __ZNSt3__119__partial_sort_copyB9fqe220100INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPdS5_S5_S5_NS_10__identityES6_EENS_4pairIT1_T3_EES8_T2_S9_T4_OT0_OT5_OT6_
++ __ZNSt3__119__partial_sort_implB9fqe220100INS_17_ClassicAlgPolicyERNS_7greaterIN4roya7_CMTimeEEEPS4_S7_EET1_S8_S8_T2_OT0_
++ __ZNSt3__119__shared_weak_count16__release_sharedB9fqe220100Ev
++ __ZNSt3__119bad_expected_accessIN4roya6StatusEEC2B9fqe220100ES2_
++ __ZNSt3__119basic_ostringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEC1B9fqe220100Ev
++ __ZNSt3__120__shared_ptr_emplaceIN4roya11MetadataSetENS_9allocatorIS2_EEEC2B9fqe220100IJES4_Li0EEES4_DpOT_
++ __ZNSt3__120__shared_ptr_emplaceIN4roya13CVBufferFrameENS_9allocatorIS2_EEEC2B9fqe220100IJRyRP10__CVBuffer6CMTimeSB_NS1_11FrameStatusEES4_Li0EEES4_DpOT_
++ __ZNSt3__120__shared_ptr_emplaceIN4roya13CaptureConfigENS_9allocatorIS2_EEEC2B9fqe220100IJES4_Li0EEES4_DpOT_
++ __ZNSt3__120__shared_ptr_emplaceIN4roya13TestOperationENS_9allocatorIS2_EEE16__on_zero_sharedEv
++ __ZNSt3__120__shared_ptr_emplaceIN4roya13TestOperationENS_9allocatorIS2_EEE21__on_zero_shared_weakEv
++ __ZNSt3__120__shared_ptr_emplaceIN4roya13TestOperationENS_9allocatorIS2_EEEC2B9fqe220100IJRKNS_13unordered_mapINS_12basic_stringIcNS_11char_traitsIcEENS3_IcEEEESC_NS_4hashISC_EENS_8equal_toISC_EENS3_INS_4pairIKSC_SC_EEEEEEES4_Li0EEES4_DpOT_
++ __ZNSt3__120__shared_ptr_emplaceIN4roya13TestOperationENS_9allocatorIS2_EEED0Ev
++ __ZNSt3__120__shared_ptr_emplaceIN4roya13TestOperationENS_9allocatorIS2_EEED1Ev
++ __ZNSt3__120__shared_ptr_emplaceIN4roya14AudioFrameDataENS_9allocatorIS2_EEEC2B9fqe220100IJRKyRP20opaqueCMSampleBufferES4_Li0EEES4_DpOT_
++ __ZNSt3__120__shared_ptr_emplaceIN4roya14AudioFrameDataENS_9allocatorIS2_EEEC2B9fqe220100IJRyRNS1_5cmrefIP20opaqueCMSampleBufferS9_EEES4_Li0EEES4_DpOT_
++ __ZNSt3__120__shared_ptr_emplaceIN4roya14AudioFrameDataENS_9allocatorIS2_EEEC2B9fqe220100IJRyRP20opaqueCMSampleBufferES4_Li0EEES4_DpOT_
++ __ZNSt3__120__shared_ptr_emplaceIN4roya14AudioFrameDataENS_9allocatorIS2_EEEC2B9fqe220100IJiRNS1_4impl13CFAutoReleaseIP20opaqueCMSampleBufferEEES4_Li0EEES4_DpOT_
++ __ZNSt3__120__shared_ptr_emplaceIN4roya14AudioFrameDataENS_9allocatorIS2_EEEC2B9fqe220100IJiRNS1_5cfrefIP20opaqueCMSampleBufferEEES4_Li0EEES4_DpOT_
++ __ZNSt3__120__shared_ptr_emplaceIN4roya14VideoFrameDataENS_9allocatorIS2_EEEC2B9fqe220100IJRKyP10__CVBuffer6CMTimeES4_Li0EEES4_DpOT_
++ __ZNSt3__120__shared_ptr_emplaceIN4roya14VideoFrameDataENS_9allocatorIS2_EEEC2B9fqe220100IJRyRNS1_5cvrefINS1_14CVPixelBuffer_ES9_EER6CMTimeRKSC_NS1_11FrameStatusEES4_Li0EEES4_DpOT_
++ __ZNSt3__120__shared_ptr_emplaceIN4roya14VideoFrameDataENS_9allocatorIS2_EEEC2B9fqe220100IJRyRP10__CVBuffer6CMTimeES4_Li0EEES4_DpOT_
++ __ZNSt3__120__shared_ptr_emplaceIN4roya15SimpleFrameDataENS_9allocatorIS2_EEEC2B9fqe220100IJES4_Li0EEES4_DpOT_
++ __ZNSt3__120__shared_ptr_emplaceIN4roya15SimpleFrameDataENS_9allocatorIS2_EEEC2B9fqe220100IJRKybDni6CMTimeES4_Li0EEES4_DpOT_
++ __ZNSt3__120__shared_ptr_emplaceIN4roya15SimpleFrameDataENS_9allocatorIS2_EEEC2B9fqe220100IJRKybPKvm6CMTimeES4_Li0EEES4_DpOT_
++ __ZNSt3__120__shared_ptr_emplaceIN4roya15SimpleFrameDataENS_9allocatorIS2_EEEC2B9fqe220100IJRtbRA_KhRjR6CMTimeRKtES4_Li0EEES4_DpOT_
++ __ZNSt3__120__shared_ptr_emplaceIN4roya15SimpleFrameDataENS_9allocatorIS2_EEEC2B9fqe220100IJRybPvS7_6CMTimeES4_Li0EEES4_DpOT_
++ __ZNSt3__120__shared_ptr_emplaceIN4roya15SimpleFrameDataENS_9allocatorIS2_EEEC2B9fqe220100IJRybPvm6CMTimeES4_Li0EEES4_DpOT_
++ __ZNSt3__120__shared_ptr_emplaceIN4roya15SimpleFrameDataENS_9allocatorIS2_EEEC2B9fqe220100IJRybRPvRm6CMTimeiSB_NS1_11FrameStatusEES4_Li0EEES4_DpOT_
++ __ZNSt3__120__shared_ptr_emplaceIN4roya15SimpleFrameDataENS_9allocatorIS2_EEEC2B9fqe220100IJRybRPvRmR6CMTimeiSB_ES4_Li0EEES4_DpOT_
++ __ZNSt3__120__shared_ptr_emplaceIN4roya15SimpleFrameDataENS_9allocatorIS2_EEEC2B9fqe220100IJibDni6CMTimeES4_Li0EEES4_DpOT_
++ __ZNSt3__120__shared_ptr_emplaceIN4roya15SimpleFrameDataENS_9allocatorIS2_EEEC2B9fqe220100IJibPvm6CMTimeES4_Li0EEES4_DpOT_
++ __ZNSt3__120__shared_ptr_emplaceIN4roya16DataSourceBridgeENS_9allocatorIS2_EEE16__on_zero_sharedEv
++ __ZNSt3__120__shared_ptr_emplaceIN4roya16DataSourceBridgeENS_9allocatorIS2_EEE21__on_zero_shared_weakEv
++ __ZNSt3__120__shared_ptr_emplaceIN4roya16DataSourceBridgeENS_9allocatorIS2_EEEC2B9fqe220100IJNS_12basic_stringIcNS_11char_traitsIcEENS3_IcEEEERU8__strongPU33objcproto22RoyaDataSourceProtocol11objc_objectNS_13unordered_mapISB_SB_NS_4hashISB_EENS_8equal_toISB_EENS3_INS_4pairIKSB_SB_EEEEEEES4_Li0EEES4_DpOT_
++ __ZNSt3__120__shared_ptr_emplaceIN4roya16DataSourceBridgeENS_9allocatorIS2_EEED0Ev
++ __ZNSt3__120__shared_ptr_emplaceIN4roya16DataSourceBridgeENS_9allocatorIS2_EEED1Ev
++ __ZNSt3__120__shared_ptr_emplaceIN4roya16DelegateDataSinkENS_9allocatorIS2_EEE16__on_zero_sharedEv
++ __ZNSt3__120__shared_ptr_emplaceIN4roya16DelegateDataSinkENS_9allocatorIS2_EEE21__on_zero_shared_weakEv
++ __ZNSt3__120__shared_ptr_emplaceIN4roya16DelegateDataSinkENS_9allocatorIS2_EEEC2B9fqe220100IJU8__strongPU29objcproto18RoyaOutputDelegate11objc_objectES4_Li0EEES4_DpOT_
++ __ZNSt3__120__shared_ptr_emplaceIN4roya16DelegateDataSinkENS_9allocatorIS2_EEED0Ev
++ __ZNSt3__120__shared_ptr_emplaceIN4roya16DelegateDataSinkENS_9allocatorIS2_EEED1Ev
++ __ZNSt3__120__shared_ptr_emplaceIN4roya18EntitlementCheckerENS_9allocatorIS2_EEE16__on_zero_sharedEv
++ __ZNSt3__120__shared_ptr_emplaceIN4roya18EntitlementCheckerENS_9allocatorIS2_EEE21__on_zero_shared_weakEv
++ __ZNSt3__120__shared_ptr_emplaceIN4roya18EntitlementCheckerENS_9allocatorIS2_EEEC2B9fqe220100IJRK13audit_token_tES4_Li0EEES4_DpOT_
++ __ZNSt3__120__shared_ptr_emplaceIN4roya18EntitlementCheckerENS_9allocatorIS2_EEED0Ev
++ __ZNSt3__120__shared_ptr_emplaceIN4roya18EntitlementCheckerENS_9allocatorIS2_EEED1Ev
++ __ZNSt3__120__shared_ptr_emplaceIN4roya18GraphBuilderForiOSENS_9allocatorIS2_EEEC2B9fqe220100IJRKNS1_10DeviceTypeEES4_Li0EEES4_DpOT_
++ __ZNSt3__120__shared_ptr_emplaceIN4roya20ExternalDataProviderENS_9allocatorIS2_EEEC2B9fqe220100IJRKNS_12basic_stringIcNS_11char_traitsIcEENS3_IcEEEEPNS1_19DataSourceProxyImplEES4_Li0EEES4_DpOT_
++ __ZNSt3__120__shared_ptr_emplaceIN4roya4impl13AVFDataSourceENS_9allocatorIS3_EEEC2B9fqe220100IJES5_Li0EEES5_DpOT_
++ __ZNSt3__120__shared_ptr_emplaceIN4roya4impl14MOVKitIMUTrackENS_9allocatorIS3_EEEC2B9fqe220100IJRPNS1_15PipelineContextERKNS_12basic_stringIcNS_11char_traitsIcEENS4_IcEEEEES5_Li0EEES5_DpOT_
++ __ZNSt3__120__shared_ptr_emplaceIN4roya4impl15AVFDataProviderENS_9allocatorIS3_EEEC2B9fqe220100IJRNS1_9TrackTypeENS_10shared_ptrINS2_13AVFDataSourceEEEES5_Li0EEES5_DpOT_
++ __ZNSt3__120__shared_ptr_emplaceIN4roya4impl15MOVKitContainerENS_9allocatorIS3_EEEC2B9fqe220100IJRbES5_Li0EEES5_DpOT_
++ __ZNSt3__120__shared_ptr_emplaceIN4roya4impl15MOVKitWiFiTrackENS_9allocatorIS3_EEEC2B9fqe220100IJRPNS1_15PipelineContextERKNS_12basic_stringIcNS_11char_traitsIcEENS4_IcEEEEES5_Li0EEES5_DpOT_
++ __ZNSt3__120__shared_ptr_emplaceIN4roya4impl15PolarisProviderENS_9allocatorIS3_EEEC2B9fqe220100IJES5_Li0EEES5_DpOT_
++ __ZNSt3__120__shared_ptr_emplaceIN4roya4impl16LocationProviderENS_9allocatorIS3_EEEC2B9fqe220100IJES5_Li0EEES5_DpOT_
++ __ZNSt3__120__shared_ptr_emplaceIN4roya4impl16MOVKitAudioTrackENS_9allocatorIS3_EEEC2B9fqe220100IJRPNS1_15PipelineContextERKNS_12basic_stringIcNS_11char_traitsIcEENS4_IcEEEEES5_Li0EEES5_DpOT_
++ __ZNSt3__120__shared_ptr_emplaceIN4roya4impl16MOVKitVideoTrackENS_9allocatorIS3_EEEC2B9fqe220100IJRPNS1_15PipelineContextERKNS_12basic_stringIcNS_11char_traitsIcEENS4_IcEEEEES5_Li0EEES5_DpOT_
++ __ZNSt3__120__shared_ptr_emplaceIN4roya4impl16PolarisIMUSourceENS_9allocatorIS3_EEEC2B9fqe220100IJRPNS1_15PipelineContextERPNS1_13IDataReceiverEPNS2_19PolarisInstanceDataEES5_Li0EEES5_DpOT_
++ __ZNSt3__120__shared_ptr_emplaceIN4roya4impl16ProtoBufHIDTrackENS_9allocatorIS3_EEE16__on_zero_sharedEv
++ __ZNSt3__120__shared_ptr_emplaceIN4roya4impl16ProtoBufHIDTrackENS_9allocatorIS3_EEE21__on_zero_shared_weakEv
++ __ZNSt3__120__shared_ptr_emplaceIN4roya4impl16ProtoBufHIDTrackENS_9allocatorIS3_EEEC2B9fqe220100IJRPNS1_15PipelineContextERKNS_12basic_stringIcNS_11char_traitsIcEENS4_IcEEEEES5_Li0EEES5_DpOT_
++ __ZNSt3__120__shared_ptr_emplaceIN4roya4impl16ProtoBufHIDTrackENS_9allocatorIS3_EEED0Ev
++ __ZNSt3__120__shared_ptr_emplaceIN4roya4impl16ProtoBufHIDTrackENS_9allocatorIS3_EEED1Ev
++ __ZNSt3__120__shared_ptr_emplaceIN4roya4impl16ProtoBufIMUTrackENS_9allocatorIS3_EEE16__on_zero_sharedEv
++ __ZNSt3__120__shared_ptr_emplaceIN4roya4impl16ProtoBufIMUTrackENS_9allocatorIS3_EEE21__on_zero_shared_weakEv
++ __ZNSt3__120__shared_ptr_emplaceIN4roya4impl16ProtoBufIMUTrackENS_9allocatorIS3_EEEC2B9fqe220100IJRPNS1_15PipelineContextERKNS_12basic_stringIcNS_11char_traitsIcEENS4_IcEEEEES5_Li0EEES5_DpOT_
++ __ZNSt3__120__shared_ptr_emplaceIN4roya4impl16ProtoBufIMUTrackENS_9allocatorIS3_EEED0Ev
++ __ZNSt3__120__shared_ptr_emplaceIN4roya4impl16ProtoBufIMUTrackENS_9allocatorIS3_EEED1Ev
++ __ZNSt3__120__shared_ptr_emplaceIN4roya4impl16RawAudioProviderENS_9allocatorIS3_EEEC2B9fqe220100IJES5_Li0EEES5_DpOT_
++ __ZNSt3__120__shared_ptr_emplaceIN4roya4impl16TimeSyncProviderENS_9allocatorIS3_EEEC2B9fqe220100IJES5_Li0EEES5_DpOT_
++ __ZNSt3__120__shared_ptr_emplaceIN4roya4impl16WiFiDataProviderENS_9allocatorIS3_EEEC2B9fqe220100IJES5_Li0EEES5_DpOT_
++ __ZNSt3__120__shared_ptr_emplaceIN4roya4impl17AudioQueueWrapperENS_9allocatorIS3_EEEC2B9fqe220100IJP27AudioStreamBasicDescriptionRFvPvP16OpaqueAudioQueueP16AudioQueueBufferPK14AudioTimeStampjPK28AudioStreamPacketDescriptionESA_ES5_Li0EEES5_DpOT_
++ __ZNSt3__120__shared_ptr_emplaceIN4roya4impl17HIDDeviceProviderENS_9allocatorIS3_EEEC2B9fqe220100IJES5_Li0EEES5_DpOT_
++ __ZNSt3__120__shared_ptr_emplaceIN4roya4impl17MOVKitDesgenTrackENS_9allocatorIS3_EEEC2B9fqe220100IJRPNS1_15PipelineContextERKNS_12basic_stringIcNS_11char_traitsIcEENS4_IcEEEEES5_Li0EEES5_DpOT_
++ __ZNSt3__120__shared_ptr_emplaceIN4roya4impl17PolarisDataSourceENS_9allocatorIS3_EEEC2B9fqe220100IJRPNS1_15PipelineContextERPNS1_13IDataReceiverEPNS2_19PolarisInstanceDataEES5_Li0EEES5_DpOT_
++ __ZNSt3__120__shared_ptr_emplaceIN4roya4impl17ProtoBufContainerENS_9allocatorIS3_EEE16__on_zero_sharedEv
++ __ZNSt3__120__shared_ptr_emplaceIN4roya4impl17ProtoBufContainerENS_9allocatorIS3_EEE21__on_zero_shared_weakEv
++ __ZNSt3__120__shared_ptr_emplaceIN4roya4impl17ProtoBufContainerENS_9allocatorIS3_EEEC2B9fqe220100IJES5_Li0EEES5_DpOT_
++ __ZNSt3__120__shared_ptr_emplaceIN4roya4impl17ProtoBufContainerENS_9allocatorIS3_EEED0Ev
++ __ZNSt3__120__shared_ptr_emplaceIN4roya4impl17ProtoBufContainerENS_9allocatorIS3_EEED1Ev
++ __ZNSt3__120__shared_ptr_emplaceIN4roya4impl17ProtoBufWifiTrackENS_9allocatorIS3_EEE16__on_zero_sharedEv
++ __ZNSt3__120__shared_ptr_emplaceIN4roya4impl17ProtoBufWifiTrackENS_9allocatorIS3_EEE21__on_zero_shared_weakEv
++ __ZNSt3__120__shared_ptr_emplaceIN4roya4impl17ProtoBufWifiTrackENS_9allocatorIS3_EEEC2B9fqe220100IJRPNS1_15PipelineContextERKNS_12basic_stringIcNS_11char_traitsIcEENS4_IcEEEEES5_Li0EEES5_DpOT_
++ __ZNSt3__120__shared_ptr_emplaceIN4roya4impl17ProtoBufWifiTrackENS_9allocatorIS3_EEED0Ev
++ __ZNSt3__120__shared_ptr_emplaceIN4roya4impl17ProtoBufWifiTrackENS_9allocatorIS3_EEED1Ev
++ __ZNSt3__120__shared_ptr_emplaceIN4roya4impl17TestVideoProviderENS_9allocatorIS3_EEE16__on_zero_sharedEv
++ __ZNSt3__120__shared_ptr_emplaceIN4roya4impl17TestVideoProviderENS_9allocatorIS3_EEE21__on_zero_shared_weakEv
++ __ZNSt3__120__shared_ptr_emplaceIN4roya4impl17TestVideoProviderENS_9allocatorIS3_EEEC2B9fqe220100IJES5_Li0EEES5_DpOT_
++ __ZNSt3__120__shared_ptr_emplaceIN4roya4impl17TestVideoProviderENS_9allocatorIS3_EEED0Ev
++ __ZNSt3__120__shared_ptr_emplaceIN4roya4impl17TestVideoProviderENS_9allocatorIS3_EEED1Ev
++ __ZNSt3__120__shared_ptr_emplaceIN4roya4impl17UserEventProviderENS_9allocatorIS3_EEE16__on_zero_sharedEv
++ __ZNSt3__120__shared_ptr_emplaceIN4roya4impl17UserEventProviderENS_9allocatorIS3_EEE21__on_zero_shared_weakEv
++ __ZNSt3__120__shared_ptr_emplaceIN4roya4impl17UserEventProviderENS_9allocatorIS3_EEEC2B9fqe220100IJES5_Li0EEES5_DpOT_
++ __ZNSt3__120__shared_ptr_emplaceIN4roya4impl17UserEventProviderENS_9allocatorIS3_EEED0Ev
++ __ZNSt3__120__shared_ptr_emplaceIN4roya4impl17UserEventProviderENS_9allocatorIS3_EEED1Ev
++ __ZNSt3__120__shared_ptr_emplaceIN4roya4impl18PolarisAudioSourceENS_9allocatorIS3_EEE16__on_zero_sharedEv
++ __ZNSt3__120__shared_ptr_emplaceIN4roya4impl18PolarisAudioSourceENS_9allocatorIS3_EEE21__on_zero_shared_weakEv
++ __ZNSt3__120__shared_ptr_emplaceIN4roya4impl18PolarisAudioSourceENS_9allocatorIS3_EEEC2B9fqe220100IJRPNS1_15PipelineContextERPNS1_13IDataReceiverEPNS2_19PolarisInstanceDataEES5_Li0EEES5_DpOT_
++ __ZNSt3__120__shared_ptr_emplaceIN4roya4impl18PolarisAudioSourceENS_9allocatorIS3_EEED0Ev
++ __ZNSt3__120__shared_ptr_emplaceIN4roya4impl18PolarisAudioSourceENS_9allocatorIS3_EEED1Ev
++ __ZNSt3__120__shared_ptr_emplaceIN4roya4impl19MOVKitMetadataTrackENS_9allocatorIS3_EEEC2B9fqe220100IJRPNS1_15PipelineContextERKNS_12basic_stringIcNS_11char_traitsIcEENS4_IcEEEEES5_Li0EEES5_DpOT_
++ __ZNSt3__120__shared_ptr_emplaceIN4roya4impl19PolarisCameraSourceENS_9allocatorIS3_EEEC2B9fqe220100IJRPNS1_15PipelineContextERPNS1_13IDataReceiverEPNS2_19PolarisInstanceDataEES5_Li0EEES5_DpOT_
++ __ZNSt3__120__shared_ptr_emplaceIN4roya4impl21MOVKitPointCloudTrackENS_9allocatorIS3_EEEC2B9fqe220100IJRPNS1_15PipelineContextERKNS_12basic_stringIcNS_11char_traitsIcEENS4_IcEEEEES5_Li0EEES5_DpOT_
++ __ZNSt3__120__shared_ptr_emplaceIN4roya4impl21PolarisSharedResource17StreamFlowControlENS_9allocatorIS4_EEE16__on_zero_sharedEv
++ __ZNSt3__120__shared_ptr_emplaceIN4roya4impl21PolarisSharedResource17StreamFlowControlENS_9allocatorIS4_EEE21__on_zero_shared_weakEv
++ __ZNSt3__120__shared_ptr_emplaceIN4roya4impl21PolarisSharedResource17StreamFlowControlENS_9allocatorIS4_EEED0Ev
++ __ZNSt3__120__shared_ptr_emplaceIN4roya4impl21PolarisSharedResource17StreamFlowControlENS_9allocatorIS4_EEED1Ev
++ __ZNSt3__120__shared_ptr_emplaceIN4roya4impl22ProtoBufUserEventTrackENS_9allocatorIS3_EEE16__on_zero_sharedEv
++ __ZNSt3__120__shared_ptr_emplaceIN4roya4impl22ProtoBufUserEventTrackENS_9allocatorIS3_EEE21__on_zero_shared_weakEv
++ __ZNSt3__120__shared_ptr_emplaceIN4roya4impl22ProtoBufUserEventTrackENS_9allocatorIS3_EEEC2B9fqe220100IJRPNS1_15PipelineContextERKNS_12basic_stringIcNS_11char_traitsIcEENS4_IcEEEEES5_Li0EEES5_DpOT_
++ __ZNSt3__120__shared_ptr_emplaceIN4roya4impl22ProtoBufUserEventTrackENS_9allocatorIS3_EEED0Ev
++ __ZNSt3__120__shared_ptr_emplaceIN4roya4impl22ProtoBufUserEventTrackENS_9allocatorIS3_EEED1Ev
++ __ZNSt3__120__shared_ptr_emplaceIN4roya4impl23DoAPPluginAudioProviderENS_9allocatorIS3_EEEC2B9fqe220100IJES5_Li0EEES5_DpOT_
++ __ZNSt3__120__shared_ptr_emplaceIN4roya4impl23HeadphoneMotionProviderENS_9allocatorIS3_EEEC2B9fqe220100IJES5_Li0EEES5_DpOT_
++ __ZNSt3__120__shared_ptr_emplaceIN4roya4impl23MOVKitDeviceMotionTrackENS_9allocatorIS3_EEE16__on_zero_sharedEv
++ __ZNSt3__120__shared_ptr_emplaceIN4roya4impl23MOVKitDeviceMotionTrackENS_9allocatorIS3_EEE21__on_zero_shared_weakEv
++ __ZNSt3__120__shared_ptr_emplaceIN4roya4impl23MOVKitDeviceMotionTrackENS_9allocatorIS3_EEEC2B9fqe220100IJRPNS1_15PipelineContextERKNS_12basic_stringIcNS_11char_traitsIcEENS4_IcEEEEES5_Li0EEES5_DpOT_
++ __ZNSt3__120__shared_ptr_emplaceIN4roya4impl23MOVKitDeviceMotionTrackENS_9allocatorIS3_EEED0Ev
++ __ZNSt3__120__shared_ptr_emplaceIN4roya4impl23MOVKitDeviceMotionTrackENS_9allocatorIS3_EEED1Ev
++ __ZNSt3__120__shared_ptr_emplaceIN4roya4impl23PolarisPointCloudSourceENS_9allocatorIS3_EEEC2B9fqe220100IJRPNS1_15PipelineContextERPNS1_13IDataReceiverEPNS2_19PolarisInstanceDataEES5_Li0EEES5_DpOT_
++ __ZNSt3__120__shared_ptr_emplaceIN4roya4impl24DeviceMotionDataProviderENS_9allocatorIS3_EEE16__on_zero_sharedEv
++ __ZNSt3__120__shared_ptr_emplaceIN4roya4impl24DeviceMotionDataProviderENS_9allocatorIS3_EEE21__on_zero_shared_weakEv
++ __ZNSt3__120__shared_ptr_emplaceIN4roya4impl24DeviceMotionDataProviderENS_9allocatorIS3_EEEC2B9fqe220100IJES5_Li0EEES5_DpOT_
++ __ZNSt3__120__shared_ptr_emplaceIN4roya4impl24DeviceMotionDataProviderENS_9allocatorIS3_EEED0Ev
++ __ZNSt3__120__shared_ptr_emplaceIN4roya4impl24DeviceMotionDataProviderENS_9allocatorIS3_EEED1Ev
++ __ZNSt3__120__shared_ptr_emplaceIN4roya4impl26VideoCaptureSinkAudioTrackENS_9allocatorIS3_EEE16__on_zero_sharedEv
++ __ZNSt3__120__shared_ptr_emplaceIN4roya4impl26VideoCaptureSinkAudioTrackENS_9allocatorIS3_EEE21__on_zero_shared_weakEv
++ __ZNSt3__120__shared_ptr_emplaceIN4roya4impl26VideoCaptureSinkAudioTrackENS_9allocatorIS3_EEEC2B9fqe220100IJRPNS1_15PipelineContextERKNS_12basic_stringIcNS_11char_traitsIcEENS4_IcEEEEES5_Li0EEES5_DpOT_
++ __ZNSt3__120__shared_ptr_emplaceIN4roya4impl26VideoCaptureSinkAudioTrackENS_9allocatorIS3_EEED0Ev
++ __ZNSt3__120__shared_ptr_emplaceIN4roya4impl26VideoCaptureSinkAudioTrackENS_9allocatorIS3_EEED1Ev
++ __ZNSt3__120__shared_ptr_emplaceIN4roya4impl26VideoCaptureSinkVideoTrackENS_9allocatorIS3_EEE16__on_zero_sharedEv
++ __ZNSt3__120__shared_ptr_emplaceIN4roya4impl26VideoCaptureSinkVideoTrackENS_9allocatorIS3_EEE21__on_zero_shared_weakEv
++ __ZNSt3__120__shared_ptr_emplaceIN4roya4impl26VideoCaptureSinkVideoTrackENS_9allocatorIS3_EEEC2B9fqe220100IJRPNS1_15PipelineContextERKNS_12basic_stringIcNS_11char_traitsIcEENS4_IcEEEEES5_Li0EEES5_DpOT_
++ __ZNSt3__120__shared_ptr_emplaceIN4roya4impl26VideoCaptureSinkVideoTrackENS_9allocatorIS3_EEED0Ev
++ __ZNSt3__120__shared_ptr_emplaceIN4roya4impl26VideoCaptureSinkVideoTrackENS_9allocatorIS3_EEED1Ev
++ __ZNSt3__120__shared_ptr_emplaceIN4roya4impl29VideoCaptureSinkMetadataTrackENS_9allocatorIS3_EEE16__on_zero_sharedEv
++ __ZNSt3__120__shared_ptr_emplaceIN4roya4impl29VideoCaptureSinkMetadataTrackENS_9allocatorIS3_EEE21__on_zero_shared_weakEv
++ __ZNSt3__120__shared_ptr_emplaceIN4roya4impl29VideoCaptureSinkMetadataTrackENS_9allocatorIS3_EEEC2B9fqe220100IJRPNS1_15PipelineContextERKNS_12basic_stringIcNS_11char_traitsIcEENS4_IcEEEEES5_Li0EEES5_DpOT_
++ __ZNSt3__120__shared_ptr_emplaceIN4roya4impl29VideoCaptureSinkMetadataTrackENS_9allocatorIS3_EEED0Ev
++ __ZNSt3__120__shared_ptr_emplaceIN4roya4impl29VideoCaptureSinkMetadataTrackENS_9allocatorIS3_EEED1Ev
++ __ZNSt3__120__shared_ptr_emplaceIN4roya4impl33HeadphoneInertialOdometryProviderENS_9allocatorIS3_EEEC2B9fqe220100IJES5_Li0EEES5_DpOT_
++ __ZNSt3__120__shared_ptr_emplaceIN4roya7MOVSinkENS_9allocatorIS2_EEEC2B9fqe220100IJNS_10shared_ptrINS1_4impl15MOVKitContainerEEERKNS_12basic_stringIcNS_11char_traitsIcEENS3_IcEEEEES4_Li0EEES4_DpOT_
++ __ZNSt3__120__shared_ptr_emplaceIN4roya7MOVSinkENS_9allocatorIS2_EEEC2B9fqe220100IJNS_10shared_ptrINS1_4impl17ProtoBufContainerEEERKNS_12basic_stringIcNS_11char_traitsIcEENS3_IcEEEEES4_Li0EEES4_DpOT_
++ __ZNSt3__120__shared_ptr_emplaceIN4roya7SessionENS_9allocatorIS2_EEEC2B9fqe220100IJES4_Li0EEES4_DpOT_
++ __ZNSt3__120__shared_ptr_emplaceIN4roya8PipelineENS_9allocatorIS2_EEEC2B9fqe220100IJRNS_12basic_stringIcNS_11char_traitsIcEENS3_IcEEEENS_10unique_ptrINS1_15PipelineContextENS_14default_deleteISE_EEEERNS_10shared_ptrINS1_12DataProviderEEENS1_16PipelineExecModeEES4_Li0EEES4_DpOT_
++ __ZNSt3__120__shared_ptr_pointerIPN4roya12SessionProxyENS_10shared_ptrIS2_E27__shared_ptr_default_deleteIS2_S2_EENS_9allocatorIS2_EEE16__on_zero_sharedEv
++ __ZNSt3__120__shared_ptr_pointerIPN4roya12SessionProxyENS_10shared_ptrIS2_E27__shared_ptr_default_deleteIS2_S2_EENS_9allocatorIS2_EEE21__on_zero_shared_weakEv
++ __ZNSt3__120__shared_ptr_pointerIPN4roya12SessionProxyENS_10shared_ptrIS2_E27__shared_ptr_default_deleteIS2_S2_EENS_9allocatorIS2_EEED0Ev
++ __ZNSt3__120__shared_ptr_pointerIPN4roya12SessionProxyENS_10shared_ptrIS2_E27__shared_ptr_default_deleteIS2_S2_EENS_9allocatorIS2_EEED1Ev
++ __ZNSt3__120__shared_ptr_pointerIPN4roya15DataSourceProxyENS_10shared_ptrIS2_E27__shared_ptr_default_deleteIS2_S2_EENS_9allocatorIS2_EEE16__on_zero_sharedEv
++ __ZNSt3__120__shared_ptr_pointerIPN4roya15DataSourceProxyENS_10shared_ptrIS2_E27__shared_ptr_default_deleteIS2_S2_EENS_9allocatorIS2_EEE21__on_zero_shared_weakEv
++ __ZNSt3__120__shared_ptr_pointerIPN4roya15DataSourceProxyENS_10shared_ptrIS2_E27__shared_ptr_default_deleteIS2_S2_EENS_9allocatorIS2_EEED0Ev
++ __ZNSt3__120__shared_ptr_pointerIPN4roya15DataSourceProxyENS_10shared_ptrIS2_E27__shared_ptr_default_deleteIS2_S2_EENS_9allocatorIS2_EEED1Ev
++ __ZNSt3__120__shared_ptr_pointerIPN4roya4impl18PolarisCameraFrameEZNS2_19PolarisCameraSource12DispatchDataEP17ps_resource_arrayS7_E3$_0NS_9allocatorIS3_EEE16__on_zero_sharedEv
++ __ZNSt3__120__shared_ptr_pointerIPN4roya4impl18PolarisCameraFrameEZNS2_19PolarisCameraSource12DispatchDataEP17ps_resource_arrayS7_E3$_0NS_9allocatorIS3_EEE21__on_zero_shared_weakEv
++ __ZNSt3__120__shared_ptr_pointerIPN4roya4impl18PolarisCameraFrameEZNS2_19PolarisCameraSource12DispatchDataEP17ps_resource_arrayS7_E3$_0NS_9allocatorIS3_EEED0Ev
++ __ZNSt3__120__shared_ptr_pointerIPN4roya4impl18PolarisCameraFrameEZNS2_19PolarisCameraSource12DispatchDataEP17ps_resource_arrayS7_E3$_0NS_9allocatorIS3_EEED1Ev
++ __ZNSt3__120__throw_bad_weak_ptrB9fqe220100Ev
++ __ZNSt3__120__throw_length_errorB9fqe220100EPKc
++ __ZNSt3__120__throw_out_of_rangeB9fqe220100EPKc
++ __ZNSt3__121__murmur2_or_cityhashImLm64EE18__hash_len_0_to_16B9fqe220100EPKcm
++ __ZNSt3__121__murmur2_or_cityhashImLm64EE19__hash_len_17_to_32B9fqe220100EPKcm
++ __ZNSt3__121__murmur2_or_cityhashImLm64EE19__hash_len_33_to_64B9fqe220100EPKcm
++ __ZNSt3__122__hash_node_destructorINS_9allocatorINS_11__hash_nodeINS_12basic_stringIcNS_11char_traitsIcEENS1_IcEEEEPvEEEEEclB9fqe220100EPS9_
++ __ZNSt3__122__hash_node_destructorINS_9allocatorINS_11__hash_nodeINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS1_IcEEEEN4roya9TrackInfoEEEPvEEEEEclB9fqe220100EPSD_
++ __ZNSt3__122__hash_node_destructorINS_9allocatorINS_11__hash_nodeINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS1_IcEEEEiEEPvEEEEEclB9fqe220100EPSB_
++ __ZNSt3__122__hash_node_destructorINS_9allocatorINS_11__hash_nodeINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS1_IcEEEEjEEPvEEEEEclB9fqe220100EPSB_
++ __ZNSt3__122__tree_node_destructorINS_9allocatorINS_11__tree_nodeINS_12basic_stringIcNS_11char_traitsIcEENS1_IcEEEEPvEEEEEclB9fqe220100EPS9_
++ __ZNSt3__124__put_character_sequenceB9fqe220100IcNS_11char_traitsIcEEEERNS_13basic_ostreamIT_T0_EES7_PKS4_m
++ __ZNSt3__125__throw_bad_function_callB9fqe220100Ev
++ __ZNSt3__126__insertion_sort_unguardedB9fqe220100INS_17_ClassicAlgPolicyERNS_7greaterIN4roya7_CMTimeEEEPS4_EEvT1_S8_T0_
++ __ZNSt3__127__insertion_sort_incompleteB9fqe220100INS_17_ClassicAlgPolicyERNS_7greaterIN4roya7_CMTimeEEEPS4_EEbT1_S8_T0_
++ __ZNSt3__127__insertion_sort_incompleteB9fqe220100INS_17_ClassicAlgPolicyERZN4roya12MOVContainer30SubmitFirstFramesFromAllTracksEvE3$_0PNS_4pairIPNS2_8MOVTrackE6CMTimeEEEEbT1_SC_T0_
++ __ZNSt3__127__throw_bad_expected_accessB9fqe220100IN4roya6StatusERKS2_EEvOT0_
++ __ZNSt3__127__throw_bad_expected_accessB9fqe220100IN4roya6StatusES2_EEvOT0_
++ __ZNSt3__127__tree_balance_after_insertB9fqe220100IPNS_16__tree_node_baseIPvEEEEvT_S5_
++ __ZNSt3__128__exception_guard_exceptionsINS_29_AllocatorDestroyRangeReverseINS_9allocatorIN4roya13OperationInfoEEEPS4_EEED2B9fqe220100Ev
++ __ZNSt3__128__exception_guard_exceptionsINS_29_AllocatorDestroyRangeReverseINS_9allocatorIN4roya15TrackDefinitionEEEPS4_EEED2B9fqe220100Ev
++ __ZNSt3__128__exception_guard_exceptionsINS_29_AllocatorDestroyRangeReverseINS_9allocatorINS_4pairINS_12basic_stringIcNS_11char_traitsIcEENS2_IcEEEEN4roya9TrackInfoEEEEEPSB_EEED2B9fqe220100Ev
++ __ZNSt3__128__exception_guard_exceptionsINS_29_AllocatorDestroyRangeReverseINS_9allocatorIZN4roya12GraphBuilder5BuildEPNS3_7SessionEE13PipelineEntryEEPS7_EEED1B9fqe220100Ev
++ __ZNSt3__130__default_three_way_comparatorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES6_vEclB9fqe220100ERKS6_S9_
++ __ZNSt3__131__partition_with_equals_on_leftB9fqe220100INS_17_ClassicAlgPolicyEPN4roya7_CMTimeERNS_7greaterIS3_EEEET0_S8_S8_T1_
++ __ZNSt3__132__partition_with_equals_on_rightB9fqe220100INS_17_ClassicAlgPolicyEPN4roya7_CMTimeERNS_7greaterIS3_EEEENS_4pairIT0_bEES9_S9_T1_
++ __ZNSt3__133__libcpp_thread_poll_with_backoffB9fqe220100IZNS_20__atomic_wait_unlessB9fqe220100INS_13__atomic_baseIN4roya14ContainerStateELb0EEEZNS_13__atomic_waitB9fqe220100IKS5_S4_EEvRT_T0_NS_12memory_orderEEUlRKS4_E_EEvRKS8_SB_OSA_EUlvE_RNS_26__atomic_wait_backoff_implIS5_SE_EEEENS_27__poll_with_backoff_resultsEOS8_SH_NS_6chrono8durationIxNS_5ratioILl1ELl1000000000EEEEE
++ __ZNSt3__134__uninitialized_allocator_relocateB9fqe220100INS_9allocatorIN4roya13OperationInfoEEEPS3_EEvRT_T0_S8_S8_
++ __ZNSt3__134__uninitialized_allocator_relocateB9fqe220100INS_9allocatorINS_4pairINS_12basic_stringIcNS_11char_traitsIcEENS1_IcEEEEN4roya9TrackInfoEEEEEPSA_EEvRT_T0_SF_SF_
++ __ZNSt3__134__uninitialized_allocator_relocateB9fqe220100INS_9allocatorINS_8functionIFvN4roya14ContainerStateEEEEEEPS6_EEvRT_T0_SB_SB_
++ __ZNSt3__135__uninitialized_allocator_copy_implB9fqe220100INS_9allocatorIN4roya15TrackDefinitionEEEPKS3_S6_PS3_EET2_RT_T0_T1_S8_
++ __ZNSt3__13mapINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEU8__strongPU37objcproto26RoyaSampleReceiverProtocol11objc_objectNS_4lessIS6_EENS4_INS_4pairIKS6_S9_EEEEEixERSD_
++ __ZNSt3__13setINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_4lessIS6_EENS4_IS6_EEE6insertB9fqe220100ERKS6_
++ __ZNSt3__13setINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_4lessIS6_EENS4_IS6_EEEC2B9fqe220100ESt16initializer_listIS6_ERKS8_
++ __ZNSt3__13setINS_4pairINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES7_EENS_4lessIS8_EENS5_IS8_EEE6insertB9fqe220100EOS8_
++ __ZNSt3__14__fs10filesystem4pathC2B9fqe220100INS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEvEERKT_NS2_6formatE
++ __ZNSt3__14__fs10filesystem4pathdVB9fqe220100ERKS2_
++ __ZNSt3__14__fs10filesystemdvB9fqe220100ERKNS1_4pathES4_
++ __ZNSt3__14pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN4roya9TrackInfoEEC1B9fqe220100IJRS7_EJEEENS_21piecewise_construct_tENS_5tupleIJDpT_EEENSE_IJDpT0_EEE
++ __ZNSt3__14pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN4roya9TrackInfoEEC2B9fqe220100IS7_S9_Li0EEERNS0_IT_T0_EE
++ __ZNSt3__14pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrIN4roya4impl21PolarisSharedResource17StreamFlowControlEEEEC2B9fqe220100IRS7_RSD_Li0EEEOT_OT0_
++ __ZNSt3__14pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrIN4roya8MOVTrackEEEEC2B9fqe220100ERKSC_
++ __ZNSt3__14pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrIN4roya8MOVTrackEEEEC2B9fqe220100IS7_SB_Li0EEERNS0_IT_T0_EE
++ __ZNSt3__14pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES6_EC2B9fqe220100ERKS8_
++ __ZNSt3__14pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES6_EC2B9fqe220100IS7_S6_Li0EEERNS0_IT_T0_EE
++ __ZNSt3__14pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES6_ED1Ev
++ __ZNSt3__14pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEjEC1B9fqe220100IRKPKc16RYVideoCodecTypeLi0EEEOT_OT0_
++ __ZNSt3__14pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEjEC1B9fqe220100IRKPKc3$_0Li0EEEOT_OT0_
++ __ZNSt3__14pairINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN4roya9TrackInfoEEC2B9fqe220100IRKS6_S8_Li0EEEOT_OT0_
++ __ZNSt3__14pairINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN4roya9TrackInfoEEC2B9fqe220100IS6_S8_Li0EEERNS0_IT_T0_EE
++ __ZNSt3__14pairINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES6_EC2B9fqe220100ERKS7_
++ __ZNSt3__14pairINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES6_EC2B9fqe220100IPKcSA_Li0EEEOT_OT0_
++ __ZNSt3__14pairINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES6_ED2Ev
++ __ZNSt3__15dequeINS_10shared_ptrIN4roya4NodeEEENS_9allocatorIS4_EEE26__maybe_remove_front_spareB9fqe220100Eb
++ __ZNSt3__15dequeINS_10shared_ptrIN4roya4NodeEEENS_9allocatorIS4_EEED2B9fqe220100Ev
++ __ZNSt3__15dequeINS_4pairINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEmEENS5_IS8_EEE19__add_back_capacityEv
++ __ZNSt3__15dequeINS_4pairINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEmEENS5_IS8_EEE25__maybe_remove_back_spareB9fqe220100Eb
++ __ZNSt3__15dequeINS_4pairINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEmEENS5_IS8_EEE8pop_backEv
++ __ZNSt3__15dequeINS_4pairINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEmEENS5_IS8_EEE9push_backEOS8_
++ __ZNSt3__15dequeINS_4pairINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEmEENS5_IS8_EEED2B9fqe220100Ev
++ __ZNSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEU8__strongPU37objcproto26RoyaSampleReceiverProtocol11objc_objectEENS_19__map_value_compareIS7_NS_4pairIKS7_SA_EENS_4lessIS7_EEEENS5_ISF_EEE12__find_equalB9fqe220100IS7_EENSD_IPNS_15__tree_end_nodeIPNS_16__tree_node_baseIPvEEEERSQ_EERKT_
++ __ZNSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEU8__strongPU37objcproto26RoyaSampleReceiverProtocol11objc_objectEENS_19__map_value_compareIS7_NS_4pairIKS7_SA_EENS_4lessIS7_EEEENS5_ISF_EEE14__tree_deleterclB9fqe220100EPNS_11__tree_nodeISB_PvEE
++ __ZNSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEU8__strongPU37objcproto26RoyaSampleReceiverProtocol11objc_objectEENS_19__map_value_compareIS7_NS_4pairIKS7_SA_EENS_4lessIS7_EEEENS5_ISF_EEE16__construct_nodeIJRKNS_21piecewise_construct_tENS_5tupleIJRSE_EEENSP_IJEEEEEENS_10unique_ptrINS_11__tree_nodeISB_PvEENS_22__tree_node_destructorINS5_ISW_EEEEEEDpOT_
++ __ZNSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEU8__strongPU37objcproto26RoyaSampleReceiverProtocol11objc_objectEENS_19__map_value_compareIS7_NS_4pairIKS7_SA_EENS_4lessIS7_EEEENS5_ISF_EEE16__insert_node_atEPNS_15__tree_end_nodeIPNS_16__tree_node_baseIPvEEEERSP_SP_
++ __ZNSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEU8__strongPU37objcproto26RoyaSampleReceiverProtocol11objc_objectEENS_19__map_value_compareIS7_NS_4pairIKS7_SA_EENS_4lessIS7_EEEENS5_ISF_EEE7destroyEPNS_11__tree_nodeISB_PvEE
++ __ZNSt3__16__treeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_4lessIS6_EENS4_IS6_EEE12__find_equalB9fqe220100IS6_EENS_4pairIPNS_15__tree_end_nodeIPNS_16__tree_node_baseIPvEEEERSH_EERKT_
++ __ZNSt3__16__treeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_4lessIS6_EENS4_IS6_EEE14__tree_deleterclB9fqe220100EPNS_11__tree_nodeIS6_PvEE
++ __ZNSt3__16__treeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_4lessIS6_EENS4_IS6_EEE21__insert_range_uniqueB9fqe220100INS_21__tree_const_iteratorIS6_PNS_11__tree_nodeIS6_PvEElEESH_EEvT_T0_
++ __ZNSt3__16__treeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_4lessIS6_EENS4_IS6_EEE21__insert_range_uniqueB9fqe220100IPKS6_SD_EEvT_T0_
++ __ZNSt3__16__treeINS_4pairINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES7_EENS_4lessIS8_EENS5_IS8_EEE12__find_equalB9fqe220100IS8_EENS1_IPNS_15__tree_end_nodeIPNS_16__tree_node_baseIPvEEEERSI_EERKT_
++ __ZNSt3__16__treeINS_4pairINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES7_EENS_4lessIS8_EENS5_IS8_EEE14__tree_deleterclB9fqe220100EPNS_11__tree_nodeIS8_PvEE
++ __ZNSt3__16__treeINS_4pairINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES7_EENS_4lessIS8_EENS5_IS8_EEE16__construct_nodeIJRKS8_EEENS_10unique_ptrINS_11__tree_nodeIS8_PvEENS_22__tree_node_destructorINS5_ISJ_EEEEEEDpOT_
++ __ZNSt3__16__treeINS_4pairINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES7_EENS_4lessIS8_EENS5_IS8_EEE16__insert_node_atEPNS_15__tree_end_nodeIPNS_16__tree_node_baseIPvEEEERSH_SH_
++ __ZNSt3__16__treeINS_4pairINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES7_EENS_4lessIS8_EENS5_IS8_EEE18__assign_from_treeB9fqe220100IZNSC_18__copy_assign_treeB9fqe220100EPNS_11__tree_nodeIS8_PvEESH_EUlRS8_RKS8_E_ZNSC_18__copy_assign_treeB9fqe220100ESH_SH_EUlSH_E_EESH_SH_SH_T_T0_
++ __ZNSt3__16__treeINS_4pairINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES7_EENS_4lessIS8_EENS5_IS8_EEE21__construct_from_treeB9fqe220100IZNSC_21__copy_construct_treeB9fqe220100EPNS_11__tree_nodeIS8_PvEEEUlRKS8_E_EESH_SH_T_
++ __ZNSt3__16__treeINS_4pairINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES7_EENS_4lessIS8_EENS5_IS8_EEE7destroyEPNS_11__tree_nodeIS8_PvEE
++ __ZNSt3__16__treeINS_4pairINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES7_EENS_4lessIS8_EENS5_IS8_EEEaSERKSC_
++ __ZNSt3__16vectorIN4roya10DeviceTypeENS_9allocatorIS2_EEE11__vallocateB9fqe220100Em
++ __ZNSt3__16vectorIN4roya10DeviceTypeENS_9allocatorIS2_EEE16__init_with_sizeB9fqe220100IPKS2_S8_EEvT_T0_m
++ __ZNSt3__16vectorIN4roya10DeviceTypeENS_9allocatorIS2_EEE16__init_with_sizeB9fqe220100IPS2_S7_EEvT_T0_m
++ __ZNSt3__16vectorIN4roya10DeviceTypeENS_9allocatorIS2_EEE20__throw_length_errorB9fqe220100Ev
++ __ZNSt3__16vectorIN4roya10DeviceTypeENS_9allocatorIS2_EEED1B9fqe220100Ev
++ __ZNSt3__16vectorIN4roya13OperationInfoENS_9allocatorIS2_EEE16__destroy_vectorclB9fqe220100Ev
++ __ZNSt3__16vectorIN4roya13OperationInfoENS_9allocatorIS2_EEE20__throw_length_errorB9fqe220100Ev
++ __ZNSt3__16vectorIN4roya13OperationInfoENS_9allocatorIS2_EEE24__emplace_back_slow_pathIJS2_EEEPS2_DpOT_
++ __ZNSt3__16vectorIN4roya13OperationInfoENS_9allocatorIS2_EEE5clearB9fqe220100Ev
++ __ZNSt3__16vectorIN4roya15TrackDefinitionENS_9allocatorIS2_EEE11__vallocateB9fqe220100Em
++ __ZNSt3__16vectorIN4roya15TrackDefinitionENS_9allocatorIS2_EEE16__destroy_vectorclB9fqe220100Ev
++ __ZNSt3__16vectorIN4roya15TrackDefinitionENS_9allocatorIS2_EEE16__init_with_sizeB9fqe220100IPKS2_S8_EEvT_T0_m
++ __ZNSt3__16vectorIN4roya15TrackDefinitionENS_9allocatorIS2_EEE20__throw_length_errorB9fqe220100Ev
++ __ZNSt3__16vectorIN4roya15TrackDefinitionENS_9allocatorIS2_EEE5clearB9fqe220100Ev
++ __ZNSt3__16vectorIN4roya15TrackDefinitionENS_9allocatorIS2_EEED1B9fqe220100Ev
++ __ZNSt3__16vectorIN4roya7_CMTimeENS_9allocatorIS2_EEE11__vallocateB9fqe220100Em
++ __ZNSt3__16vectorIN4roya7_CMTimeENS_9allocatorIS2_EEE20__throw_length_errorB9fqe220100Ev
++ __ZNSt3__16vectorIN4roya7_CMTimeENS_9allocatorIS2_EEE24__emplace_back_slow_pathIJS2_EEEPS2_DpOT_
++ __ZNSt3__16vectorIN4roya7_CMTimeENS_9allocatorIS2_EEEC2B9fqe220100Em
++ __ZNSt3__16vectorINS0_ISt4byteNS_9allocatorIS1_EEEENS2_IS4_EEE11__vallocateB9fqe220100Em
++ __ZNSt3__16vectorINS0_ISt4byteNS_9allocatorIS1_EEEENS2_IS4_EEE16__destroy_vectorclB9fqe220100Ev
++ __ZNSt3__16vectorINS0_ISt4byteNS_9allocatorIS1_EEEENS2_IS4_EEE20__throw_length_errorB9fqe220100Ev
++ __ZNSt3__16vectorINS0_ISt4byteNS_9allocatorIS1_EEEENS2_IS4_EEE5clearB9fqe220100Ev
++ __ZNSt3__16vectorINS0_ISt4byteNS_9allocatorIS1_EEEENS2_IS4_EEEC2B9fqe220100Em
++ __ZNSt3__16vectorINS_10shared_ptrIN4roya16DataSourceBridgeEEENS_9allocatorIS4_EEE16__destroy_vectorclB9fqe220100Ev
++ __ZNSt3__16vectorINS_10shared_ptrIN4roya16DataSourceBridgeEEENS_9allocatorIS4_EEE20__throw_length_errorB9fqe220100Ev
++ __ZNSt3__16vectorINS_10shared_ptrIN4roya16DataSourceBridgeEEENS_9allocatorIS4_EEE24__emplace_back_slow_pathIJRKS4_EEEPS4_DpOT_
++ __ZNSt3__16vectorINS_10shared_ptrIN4roya16DataSourceBridgeEEENS_9allocatorIS4_EEE5clearB9fqe220100Ev
++ __ZNSt3__16vectorINS_10shared_ptrIN4roya16DataSourceBridgeEEENS_9allocatorIS4_EEE9push_backB9fqe220100ERKS4_
++ __ZNSt3__16vectorINS_10unique_ptrIN4roya4impl23AudioQueueBufferWrapperENS_14default_deleteIS4_EEEENS_9allocatorIS7_EEE16__destroy_vectorclB9fqe220100Ev
++ __ZNSt3__16vectorINS_10unique_ptrIN4roya4impl23AudioQueueBufferWrapperENS_14default_deleteIS4_EEEENS_9allocatorIS7_EEE20__throw_length_errorB9fqe220100Ev
++ __ZNSt3__16vectorINS_10unique_ptrIN4roya4impl23AudioQueueBufferWrapperENS_14default_deleteIS4_EEEENS_9allocatorIS7_EEE24__emplace_back_slow_pathIJS7_EEEPS7_DpOT_
++ __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE16__destroy_vectorclB9fqe220100Ev
++ __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE20__throw_length_errorB9fqe220100Ev
++ __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE24__emplace_back_slow_pathIJS6_EEEPS6_DpOT_
++ __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE30__emplace_back_assume_capacityB9fqe220100IJRKS6_EEEvDpOT_
++ __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE5clearB9fqe220100Ev
++ __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEED1B9fqe220100Ev
++ __ZNSt3__16vectorINS_4pairINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN4roya9TrackInfoEEENS5_ISA_EEE16__destroy_vectorclB9fqe220100Ev
++ __ZNSt3__16vectorINS_4pairINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN4roya9TrackInfoEEENS5_ISA_EEE20__throw_length_errorB9fqe220100Ev
++ __ZNSt3__16vectorINS_4pairINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN4roya9TrackInfoEEENS5_ISA_EEE5clearB9fqe220100Ev
++ __ZNSt3__16vectorINS_4pairIPN4roya8MOVTrackE6CMTimeEENS_9allocatorIS6_EEE20__throw_length_errorB9fqe220100Ev
++ __ZNSt3__16vectorINS_4pairIPN4roya8MOVTrackE6CMTimeEENS_9allocatorIS6_EEE24__emplace_back_slow_pathIJS6_EEEPS6_DpOT_
++ __ZNSt3__16vectorINS_8functionIFvN4roya14ContainerStateEEEENS_9allocatorIS5_EEE16__destroy_vectorclB9fqe220100Ev
++ __ZNSt3__16vectorINS_8functionIFvN4roya14ContainerStateEEEENS_9allocatorIS5_EEE20__throw_length_errorB9fqe220100Ev
++ __ZNSt3__16vectorINS_8functionIFvN4roya14ContainerStateEEEENS_9allocatorIS5_EEE24__emplace_back_slow_pathIJS5_EEEPS5_DpOT_
++ __ZNSt3__16vectorINS_8functionIFvN4roya14ContainerStateEEEENS_9allocatorIS5_EEE9push_backB9fqe220100EOS5_
++ __ZNSt3__16vectorIPN4roya22IPipelineEventReceiverENS_9allocatorIS3_EEE11__vallocateB9fqe220100Em
++ __ZNSt3__16vectorIPN4roya22IPipelineEventReceiverENS_9allocatorIS3_EEE18__assign_with_sizeB9fqe220100INS_17_ClassicAlgPolicyENS_15__list_iteratorIS3_PvEESB_EEvT0_T1_l
++ __ZNSt3__16vectorIPN4roya22IPipelineEventReceiverENS_9allocatorIS3_EEE20__throw_length_errorB9fqe220100Ev
++ __ZNSt3__16vectorISt4byteNS_9allocatorIS1_EEE20__throw_length_errorB9fqe220100Ev
++ __ZNSt3__16vectorISt4byteNS_9allocatorIS1_EEE6resizeEm
++ __ZNSt3__16vectorIU8__strongP39RYA_AVCaptureOutputSampleBufferDelegateNS_9allocatorIS3_EEE16__destroy_vectorclB9fqe220100Ev
++ __ZNSt3__16vectorIU8__strongP39RYA_AVCaptureOutputSampleBufferDelegateNS_9allocatorIS3_EEE20__throw_length_errorB9fqe220100Ev
++ __ZNSt3__16vectorIU8__strongP39RYA_AVCaptureOutputSampleBufferDelegateNS_9allocatorIS3_EEE24__emplace_back_slow_pathIJRU8__strongKS2_EEEPS3_DpOT_
++ __ZNSt3__16vectorIU8__strongP39RYA_AVCaptureOutputSampleBufferDelegateNS_9allocatorIS3_EEE9push_backB9fqe220100ERU8__strongKS2_
++ __ZNSt3__16vectorIZN4roya12GraphBuilder5BuildEPNS1_7SessionEE13PipelineEntryNS_9allocatorIS5_EEE20__throw_length_errorB9fqe220100Ev
++ __ZNSt3__16vectorIZN4roya12GraphBuilder5BuildEPNS1_7SessionEE13PipelineEntryNS_9allocatorIS5_EEED1B9fqe220100Ev
++ __ZNSt3__16vectorIcNS_9allocatorIcEEE11__vallocateB9fqe220100Em
++ __ZNSt3__16vectorIcNS_9allocatorIcEEE20__throw_length_errorB9fqe220100Ev
++ __ZNSt3__16vectorIcNS_9allocatorIcEEEC2B9fqe220100Em
++ __ZNSt3__16vectorIdNS_9allocatorIdEEE20__throw_length_errorB9fqe220100Ev
++ __ZNSt3__16vectorIdNS_9allocatorIdEEE24__emplace_back_slow_pathIJRKdEEEPdDpOT_
++ __ZNSt3__16vectorIdNS_9allocatorIdEEE24__emplace_back_slow_pathIJdEEEPdDpOT_
++ __ZNSt3__16vectorIhNS_9allocatorIhEEE11__vallocateB9fqe220100Em
++ __ZNSt3__16vectorIhNS_9allocatorIhEEE18__assign_with_sizeB9fqe220100INS_17_ClassicAlgPolicyEPhS6_EEvT0_T1_l
++ __ZNSt3__16vectorIhNS_9allocatorIhEEE20__throw_length_errorB9fqe220100Ev
++ __ZNSt3__16vectorIiNS_9allocatorIiEEE11__vallocateB9fqe220100Em
++ __ZNSt3__16vectorIiNS_9allocatorIiEEE18__assign_with_sizeB9fqe220100INS_17_ClassicAlgPolicyEPKiS7_EEvT0_T1_l
++ __ZNSt3__16vectorIiNS_9allocatorIiEEE20__throw_length_errorB9fqe220100Ev
++ __ZNSt3__17__sort3B9fqe220100INS_17_ClassicAlgPolicyERZN4roya12MOVContainer30SubmitFirstFramesFromAllTracksEvE3$_0PNS_4pairIPNS2_8MOVTrackE6CMTimeEELi0EEEbT1_SC_SC_T0_
++ __ZNSt3__17__sort4B9fqe220100INS_17_ClassicAlgPolicyERNS_7greaterIN4roya7_CMTimeEEEPS4_Li0EEEvT1_S8_S8_S8_T0_
++ __ZNSt3__17__sort4B9fqe220100INS_17_ClassicAlgPolicyERZN4roya12MOVContainer30SubmitFirstFramesFromAllTracksEvE3$_0PNS_4pairIPNS2_8MOVTrackE6CMTimeEELi0EEEvT1_SC_SC_SC_T0_
++ __ZNSt3__17__sort5B9fqe220100INS_17_ClassicAlgPolicyERZN4roya12MOVContainer30SubmitFirstFramesFromAllTracksEvE3$_0PNS_4pairIPNS2_8MOVTrackE6CMTimeEELi0EEEvT1_SC_SC_SC_SC_T0_
++ __ZNSt3__17getlineB9fqe220100IcNS_11char_traitsIcEENS_9allocatorIcEEEERNS_13basic_istreamIT_T0_EES9_RNS_12basic_stringIS6_S7_T1_EES6_
++ __ZNSt3__18expectedIN4roya5cmrefIP20opaqueCMSampleBufferS3_EENS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEEC1B9fqe220100IPKcEEONS_10unexpectedIT_EE
++ __ZNSt3__18expectedIdN4roya6StatusEE17__reinit_expectedB9fqe220100INS_10unexpect_tENS_10in_place_tES2_dJS2_EEEvRT2_DpOT3_
++ __ZNSt3__18expectedIdN4roya6StatusEEaSB9fqe220100EOS3_
++ __ZNSt3__19__sift_upB9fqe220100INS_17_ClassicAlgPolicyERNS_7greaterIN4roya7_CMTimeEEEPS4_EEvT1_S8_OT0_NS_15iterator_traitsIS8_E15difference_typeE
++ __ZNSt3__19allocatorIN4roya10DeviceTypeEE17allocate_at_leastB9fqe220100Em
++ __ZNSt3__19allocatorIN4roya13OperationInfoEE17allocate_at_leastB9fqe220100Em
++ __ZNSt3__19allocatorIN4roya15TrackDefinitionEE17allocate_at_leastB9fqe220100Em
++ __ZNSt3__19allocatorIN4roya7_CMTimeEE17allocate_at_leastB9fqe220100Em
++ __ZNSt3__19allocatorINS_10shared_ptrIN4roya16DataSourceBridgeEEEE17allocate_at_leastB9fqe220100Em
++ __ZNSt3__19allocatorINS_10unique_ptrIN4roya4impl23AudioQueueBufferWrapperENS_14default_deleteIS4_EEEEE17allocate_at_leastB9fqe220100Em
++ __ZNSt3__19allocatorINS_12basic_stringIcNS_11char_traitsIcEENS0_IcEEEEE17allocate_at_leastB9fqe220100Em
++ __ZNSt3__19allocatorINS_4pairINS_12basic_stringIcNS_11char_traitsIcEENS0_IcEEEEN4roya9TrackInfoEEEE17allocate_at_leastB9fqe220100Em
++ __ZNSt3__19allocatorINS_4pairIPN4roya8MOVTrackE6CMTimeEEE17allocate_at_leastB9fqe220100Em
++ __ZNSt3__19allocatorINS_6vectorISt4byteNS0_IS2_EEEEE17allocate_at_leastB9fqe220100Em
++ __ZNSt3__19allocatorINS_8functionIFvN4roya14ContainerStateEEEEE17allocate_at_leastB9fqe220100Em
++ __ZNSt3__19allocatorIPN4roya22IPipelineEventReceiverEE17allocate_at_leastB9fqe220100Em
++ __ZNSt3__19allocatorIPNS_10shared_ptrIN4roya4NodeEEEE17allocate_at_leastB9fqe220100Em
++ __ZNSt3__19allocatorIPNS_4pairINS_12basic_stringIcNS_11char_traitsIcEENS0_IcEEEEmEEE17allocate_at_leastB9fqe220100Em
++ __ZNSt3__19allocatorIU8__strongP39RYA_AVCaptureOutputSampleBufferDelegateE17allocate_at_leastB9fqe220100Em
++ __ZNSt3__19allocatorIdE17allocate_at_leastB9fqe220100Em
++ __ZNSt3__19allocatorIiE17allocate_at_leastB9fqe220100Em
++ __ZNSt3__19to_stringEi
++ __ZNSt3__19to_stringEj
++ __ZNSt3__19to_stringEl
++ __ZNSt3__19to_stringEm
++ __ZNSt3__1eqB9fqe220100IcNS_11char_traitsIcEENS_9allocatorIcEEEEbRKNS_12basic_stringIT_T0_T1_EEPKS6_
++ __ZNSt3__1plB9fqe220100IcNS_11char_traitsIcEENS_9allocatorIcEEEENS_12basic_stringIT_T0_T1_EEPKS6_OS9_
++ __ZNSt3__1plB9fqe220100IcNS_11char_traitsIcEENS_9allocatorIcEEEENS_12basic_stringIT_T0_T1_EERKS9_PKS6_
++ __ZNSt3__1plB9fqe220100IcNS_11char_traitsIcEENS_9allocatorIcEEEENS_12basic_stringIT_T0_T1_EERKS9_SB_
++ __ZNSt3__1ssB9fqe220100INS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES6_S6_S6_EENS_26common_comparison_categoryIJDTclL_ZNS_17__synth_three_wayB9fqe220100EEclsr3stdE7declvalIRT_EEclsr3stdE7declvalIRT1_EEEEDTclL_ZNS_17__synth_three_wayB9fqe220100EEclsr3stdE7declvalIRT0_EEclsr3stdE7declvalIRT2_EEEEEE4typeERKNS_4pairIS8_SD_EERKNSK_ISA_SF_EE
++ __ZNSt3__1ssB9fqe220100IcNS_11char_traitsIcEENS_9allocatorIcEEEEDaRKNS_12basic_stringIT_T0_T1_EESC_
++ __ZNSt9bad_allocC1Ev
++ __ZNSt9bad_allocD1Ev
++ __ZSt28__throw_bad_array_new_lengthB9fqe220100v
++ __ZTIN4roya13ProtoBufTrackE
++ __ZTIN4roya13TestOperationE
++ __ZTIN4roya16DelegateDataSinkE
++ __ZTIN4roya4impl16ProtoBufHIDTrackE
++ __ZTIN4roya4impl16ProtoBufIMUTrackE
++ __ZTIN4roya4impl17ProtoBufContainerE
++ __ZTIN4roya4impl17ProtoBufWifiTrackE
++ __ZTIN4roya4impl17TestVideoProviderE
++ __ZTIN4roya4impl17UserEventProviderE
++ __ZTIN4roya4impl18PolarisAudioSourceE
++ __ZTIN4roya4impl21VideoCaptureSinkTrackE
++ __ZTIN4roya4impl22ProtoBufUserEventTrackE
++ __ZTIN4roya4impl23MOVKitDeviceMotionTrackE
++ __ZTIN4roya4impl24DeviceMotionDataProviderE
++ __ZTIN4roya4impl25VideoCaptureSinkContainerE
++ __ZTIN4roya4impl26VideoCaptureSinkAudioTrackE
++ __ZTIN4roya4impl26VideoCaptureSinkVideoTrackE
++ __ZTIN4roya4impl29VideoCaptureSinkMetadataTrackE
++ __ZTIN4roya4impl32VideoCaptureSinkAttachmentsTrackE
++ __ZTINSt3__110__function6__baseIFbN4roya16NotificationTypeEP12NSDictionaryIP8NSStringP11objc_objectEEEE
++ __ZTINSt3__110__function6__baseIFvN4roya14ContainerStateEEEE
++ __ZTINSt3__110__function6__funcIZN4roya19DataSourceProxyImplC1ERKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS2_9TrackTypeEPvPFbSD_NS2_16NotificationTypeEP12NSDictionaryIP8NSStringP11objc_objectEEE3$_0FbSE_SL_EEE
++ __ZTINSt3__110__function6__funcIZN4roya4impl17HIDDeviceProvider12SetContainerERKNS_10shared_ptrINS2_12MOVContainerEEEE3$_0FvNS2_14ContainerStateEEEE
++ __ZTINSt3__110__function6__funcIZZN4roya7MOVSink12OnInitializeEPNS2_15PipelineContextEEUb_E3$_0FvNS2_14ContainerStateEEEE
++ __ZTINSt3__110shared_ptrIN4roya12SessionProxyEE27__shared_ptr_default_deleteIS2_S2_EE
++ __ZTINSt3__110shared_ptrIN4roya15DataSourceProxyEE27__shared_ptr_default_deleteIS2_S2_EE
++ __ZTINSt3__114default_deleteIN4roya12SessionProxyEEE
++ __ZTINSt3__114default_deleteIN4roya15DataSourceProxyEEE
++ __ZTINSt3__120__shared_ptr_emplaceIN4roya13TestOperationENS_9allocatorIS2_EEEE
++ __ZTINSt3__120__shared_ptr_emplaceIN4roya16DataSourceBridgeENS_9allocatorIS2_EEEE
++ __ZTINSt3__120__shared_ptr_emplaceIN4roya16DelegateDataSinkENS_9allocatorIS2_EEEE
++ __ZTINSt3__120__shared_ptr_emplaceIN4roya18EntitlementCheckerENS_9allocatorIS2_EEEE
++ __ZTINSt3__120__shared_ptr_emplaceIN4roya4impl16ProtoBufHIDTrackENS_9allocatorIS3_EEEE
++ __ZTINSt3__120__shared_ptr_emplaceIN4roya4impl16ProtoBufIMUTrackENS_9allocatorIS3_EEEE
++ __ZTINSt3__120__shared_ptr_emplaceIN4roya4impl17ProtoBufContainerENS_9allocatorIS3_EEEE
++ __ZTINSt3__120__shared_ptr_emplaceIN4roya4impl17ProtoBufWifiTrackENS_9allocatorIS3_EEEE
++ __ZTINSt3__120__shared_ptr_emplaceIN4roya4impl17TestVideoProviderENS_9allocatorIS3_EEEE
++ __ZTINSt3__120__shared_ptr_emplaceIN4roya4impl17UserEventProviderENS_9allocatorIS3_EEEE
++ __ZTINSt3__120__shared_ptr_emplaceIN4roya4impl18PolarisAudioSourceENS_9allocatorIS3_EEEE
++ __ZTINSt3__120__shared_ptr_emplaceIN4roya4impl21PolarisSharedResource17StreamFlowControlENS_9allocatorIS4_EEEE
++ __ZTINSt3__120__shared_ptr_emplaceIN4roya4impl22ProtoBufUserEventTrackENS_9allocatorIS3_EEEE
++ __ZTINSt3__120__shared_ptr_emplaceIN4roya4impl23MOVKitDeviceMotionTrackENS_9allocatorIS3_EEEE
++ __ZTINSt3__120__shared_ptr_emplaceIN4roya4impl24DeviceMotionDataProviderENS_9allocatorIS3_EEEE
++ __ZTINSt3__120__shared_ptr_emplaceIN4roya4impl26VideoCaptureSinkAudioTrackENS_9allocatorIS3_EEEE
++ __ZTINSt3__120__shared_ptr_emplaceIN4roya4impl26VideoCaptureSinkVideoTrackENS_9allocatorIS3_EEEE
++ __ZTINSt3__120__shared_ptr_emplaceIN4roya4impl29VideoCaptureSinkMetadataTrackENS_9allocatorIS3_EEEE
++ __ZTINSt3__120__shared_ptr_pointerIPN4roya12SessionProxyENS_10shared_ptrIS2_E27__shared_ptr_default_deleteIS2_S2_EENS_9allocatorIS2_EEEE
++ __ZTINSt3__120__shared_ptr_pointerIPN4roya15DataSourceProxyENS_10shared_ptrIS2_E27__shared_ptr_default_deleteIS2_S2_EENS_9allocatorIS2_EEEE
++ __ZTINSt3__120__shared_ptr_pointerIPN4roya4impl18PolarisCameraFrameEZNS2_19PolarisCameraSource12DispatchDataEP17ps_resource_arrayS7_E3$_0NS_9allocatorIS3_EEEE
++ __ZTINSt3__123enable_shared_from_thisIN4roya4impl17TestVideoProviderEEE
++ __ZTINSt3__123enable_shared_from_thisIN4roya4impl24DeviceMotionDataProviderEEE
++ __ZTINSt3__123enable_shared_from_thisIN4roya4impl25VideoCaptureSinkContainerEEE
++ __ZTISt9bad_alloc
++ __ZTIZN4roya19DataSourceProxyImplC1ERKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEENS_9TrackTypeEPvPFbSB_NS_16NotificationTypeEP12NSDictionaryIP8NSStringP11objc_objectEEE3$_0
++ __ZTIZN4roya4impl17HIDDeviceProvider12SetContainerERKNSt3__110shared_ptrINS_12MOVContainerEEEE3$_0
++ __ZTIZN4roya4impl19PolarisCameraSource12DispatchDataEP17ps_resource_arrayS3_E3$_0
++ __ZTIZZN4roya7MOVSink12OnInitializeEPNS_15PipelineContextEEUb_E3$_0
++ __ZTSN4roya13ProtoBufTrackE
++ __ZTSN4roya13TestOperationE
++ __ZTSN4roya16DelegateDataSinkE
++ __ZTSN4roya4impl16ProtoBufHIDTrackE
++ __ZTSN4roya4impl16ProtoBufIMUTrackE
++ __ZTSN4roya4impl17ProtoBufContainerE
++ __ZTSN4roya4impl17ProtoBufWifiTrackE
++ __ZTSN4roya4impl17TestVideoProviderE
++ __ZTSN4roya4impl17UserEventProviderE
++ __ZTSN4roya4impl18PolarisAudioSourceE
++ __ZTSN4roya4impl21VideoCaptureSinkTrackE
++ __ZTSN4roya4impl22ProtoBufUserEventTrackE
++ __ZTSN4roya4impl23MOVKitDeviceMotionTrackE
++ __ZTSN4roya4impl24DeviceMotionDataProviderE
++ __ZTSN4roya4impl25VideoCaptureSinkContainerE
++ __ZTSN4roya4impl26VideoCaptureSinkAudioTrackE
++ __ZTSN4roya4impl26VideoCaptureSinkVideoTrackE
++ __ZTSN4roya4impl29VideoCaptureSinkMetadataTrackE
++ __ZTSN4roya4impl32VideoCaptureSinkAttachmentsTrackE
++ __ZTSNSt3__110__function6__baseIFbN4roya16NotificationTypeEP12NSDictionaryIP8NSStringP11objc_objectEEEE
++ __ZTSNSt3__110__function6__baseIFvN4roya14ContainerStateEEEE
++ __ZTSNSt3__110__function6__funcIZN4roya19DataSourceProxyImplC1ERKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS2_9TrackTypeEPvPFbSD_NS2_16NotificationTypeEP12NSDictionaryIP8NSStringP11objc_objectEEE3$_0FbSE_SL_EEE
++ __ZTSNSt3__110__function6__funcIZN4roya4impl17HIDDeviceProvider12SetContainerERKNS_10shared_ptrINS2_12MOVContainerEEEE3$_0FvNS2_14ContainerStateEEEE
++ __ZTSNSt3__110__function6__funcIZZN4roya7MOVSink12OnInitializeEPNS2_15PipelineContextEEUb_E3$_0FvNS2_14ContainerStateEEEE
++ __ZTSNSt3__110shared_ptrIN4roya12SessionProxyEE27__shared_ptr_default_deleteIS2_S2_EE
++ __ZTSNSt3__110shared_ptrIN4roya15DataSourceProxyEE27__shared_ptr_default_deleteIS2_S2_EE
++ __ZTSNSt3__114default_deleteIN4roya12SessionProxyEEE
++ __ZTSNSt3__114default_deleteIN4roya15DataSourceProxyEEE
++ __ZTSNSt3__120__shared_ptr_emplaceIN4roya13TestOperationENS_9allocatorIS2_EEEE
++ __ZTSNSt3__120__shared_ptr_emplaceIN4roya16DataSourceBridgeENS_9allocatorIS2_EEEE
++ __ZTSNSt3__120__shared_ptr_emplaceIN4roya16DelegateDataSinkENS_9allocatorIS2_EEEE
++ __ZTSNSt3__120__shared_ptr_emplaceIN4roya18EntitlementCheckerENS_9allocatorIS2_EEEE
++ __ZTSNSt3__120__shared_ptr_emplaceIN4roya4impl16ProtoBufHIDTrackENS_9allocatorIS3_EEEE
++ __ZTSNSt3__120__shared_ptr_emplaceIN4roya4impl16ProtoBufIMUTrackENS_9allocatorIS3_EEEE
++ __ZTSNSt3__120__shared_ptr_emplaceIN4roya4impl17ProtoBufContainerENS_9allocatorIS3_EEEE
++ __ZTSNSt3__120__shared_ptr_emplaceIN4roya4impl17ProtoBufWifiTrackENS_9allocatorIS3_EEEE
++ __ZTSNSt3__120__shared_ptr_emplaceIN4roya4impl17TestVideoProviderENS_9allocatorIS3_EEEE
++ __ZTSNSt3__120__shared_ptr_emplaceIN4roya4impl17UserEventProviderENS_9allocatorIS3_EEEE
++ __ZTSNSt3__120__shared_ptr_emplaceIN4roya4impl18PolarisAudioSourceENS_9allocatorIS3_EEEE
++ __ZTSNSt3__120__shared_ptr_emplaceIN4roya4impl21PolarisSharedResource17StreamFlowControlENS_9allocatorIS4_EEEE
++ __ZTSNSt3__120__shared_ptr_emplaceIN4roya4impl22ProtoBufUserEventTrackENS_9allocatorIS3_EEEE
++ __ZTSNSt3__120__shared_ptr_emplaceIN4roya4impl23MOVKitDeviceMotionTrackENS_9allocatorIS3_EEEE
++ __ZTSNSt3__120__shared_ptr_emplaceIN4roya4impl24DeviceMotionDataProviderENS_9allocatorIS3_EEEE
++ __ZTSNSt3__120__shared_ptr_emplaceIN4roya4impl26VideoCaptureSinkAudioTrackENS_9allocatorIS3_EEEE
++ __ZTSNSt3__120__shared_ptr_emplaceIN4roya4impl26VideoCaptureSinkVideoTrackENS_9allocatorIS3_EEEE
++ __ZTSNSt3__120__shared_ptr_emplaceIN4roya4impl29VideoCaptureSinkMetadataTrackENS_9allocatorIS3_EEEE
++ __ZTSNSt3__120__shared_ptr_pointerIPN4roya12SessionProxyENS_10shared_ptrIS2_E27__shared_ptr_default_deleteIS2_S2_EENS_9allocatorIS2_EEEE
++ __ZTSNSt3__120__shared_ptr_pointerIPN4roya15DataSourceProxyENS_10shared_ptrIS2_E27__shared_ptr_default_deleteIS2_S2_EENS_9allocatorIS2_EEEE
++ __ZTSNSt3__120__shared_ptr_pointerIPN4roya4impl18PolarisCameraFrameEZNS2_19PolarisCameraSource12DispatchDataEP17ps_resource_arrayS7_E3$_0NS_9allocatorIS3_EEEE
++ __ZTSNSt3__123enable_shared_from_thisIN4roya4impl17TestVideoProviderEEE
++ __ZTSNSt3__123enable_shared_from_thisIN4roya4impl24DeviceMotionDataProviderEEE
++ __ZTSNSt3__123enable_shared_from_thisIN4roya4impl25VideoCaptureSinkContainerEEE
++ __ZTSZN4roya19DataSourceProxyImplC1ERKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEENS_9TrackTypeEPvPFbSB_NS_16NotificationTypeEP12NSDictionaryIP8NSStringP11objc_objectEEE3$_0
++ __ZTSZN4roya4impl17HIDDeviceProvider12SetContainerERKNSt3__110shared_ptrINS_12MOVContainerEEEE3$_0
++ __ZTSZN4roya4impl19PolarisCameraSource12DispatchDataEP17ps_resource_arrayS3_E3$_0
++ __ZTSZZN4roya7MOVSink12OnInitializeEPNS_15PipelineContextEEUb_E3$_0
++ __ZTTN4roya4impl17PolarisDataSourceE
++ __ZTTN4roya4impl19PolarisCameraSourceE
++ __ZTTNSt3__114basic_ofstreamIcNS_11char_traitsIcEEEE
++ __ZTVN4roya13ProtoBufTrackE
++ __ZTVN4roya13TestOperationE
++ __ZTVN4roya16DelegateDataSinkE
++ __ZTVN4roya4impl16ProtoBufHIDTrackE
++ __ZTVN4roya4impl16ProtoBufIMUTrackE
++ __ZTVN4roya4impl17ProtoBufContainerE
++ __ZTVN4roya4impl17ProtoBufWifiTrackE
++ __ZTVN4roya4impl17TestVideoProviderE
++ __ZTVN4roya4impl17UserEventProviderE
++ __ZTVN4roya4impl18PolarisAudioSourceE
++ __ZTVN4roya4impl21VideoCaptureSinkTrackE
++ __ZTVN4roya4impl22ProtoBufUserEventTrackE
++ __ZTVN4roya4impl23MOVKitDeviceMotionTrackE
++ __ZTVN4roya4impl24DeviceMotionDataProviderE
++ __ZTVN4roya4impl25VideoCaptureSinkContainerE
++ __ZTVN4roya4impl26VideoCaptureSinkAudioTrackE
++ __ZTVN4roya4impl26VideoCaptureSinkVideoTrackE
++ __ZTVN4roya4impl29VideoCaptureSinkMetadataTrackE
++ __ZTVN4roya4impl32VideoCaptureSinkAttachmentsTrackE
++ __ZTVNSt3__110__function6__funcIZN4roya19DataSourceProxyImplC1ERKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS2_9TrackTypeEPvPFbSD_NS2_16NotificationTypeEP12NSDictionaryIP8NSStringP11objc_objectEEE3$_0FbSE_SL_EEE
++ __ZTVNSt3__110__function6__funcIZN4roya4impl17HIDDeviceProvider12SetContainerERKNS_10shared_ptrINS2_12MOVContainerEEEE3$_0FvNS2_14ContainerStateEEEE
++ __ZTVNSt3__110__function6__funcIZZN4roya7MOVSink12OnInitializeEPNS2_15PipelineContextEEUb_E3$_0FvNS2_14ContainerStateEEEE
++ __ZTVNSt3__114basic_ofstreamIcNS_11char_traitsIcEEEE
++ __ZTVNSt3__120__shared_ptr_emplaceIN4roya13TestOperationENS_9allocatorIS2_EEEE
++ __ZTVNSt3__120__shared_ptr_emplaceIN4roya16DataSourceBridgeENS_9allocatorIS2_EEEE
++ __ZTVNSt3__120__shared_ptr_emplaceIN4roya16DelegateDataSinkENS_9allocatorIS2_EEEE
++ __ZTVNSt3__120__shared_ptr_emplaceIN4roya18EntitlementCheckerENS_9allocatorIS2_EEEE
++ __ZTVNSt3__120__shared_ptr_emplaceIN4roya4impl16ProtoBufHIDTrackENS_9allocatorIS3_EEEE
++ __ZTVNSt3__120__shared_ptr_emplaceIN4roya4impl16ProtoBufIMUTrackENS_9allocatorIS3_EEEE
++ __ZTVNSt3__120__shared_ptr_emplaceIN4roya4impl17ProtoBufContainerENS_9allocatorIS3_EEEE
++ __ZTVNSt3__120__shared_ptr_emplaceIN4roya4impl17ProtoBufWifiTrackENS_9allocatorIS3_EEEE
++ __ZTVNSt3__120__shared_ptr_emplaceIN4roya4impl17TestVideoProviderENS_9allocatorIS3_EEEE
++ __ZTVNSt3__120__shared_ptr_emplaceIN4roya4impl17UserEventProviderENS_9allocatorIS3_EEEE
++ __ZTVNSt3__120__shared_ptr_emplaceIN4roya4impl18PolarisAudioSourceENS_9allocatorIS3_EEEE
++ __ZTVNSt3__120__shared_ptr_emplaceIN4roya4impl21PolarisSharedResource17StreamFlowControlENS_9allocatorIS4_EEEE
++ __ZTVNSt3__120__shared_ptr_emplaceIN4roya4impl22ProtoBufUserEventTrackENS_9allocatorIS3_EEEE
++ __ZTVNSt3__120__shared_ptr_emplaceIN4roya4impl23MOVKitDeviceMotionTrackENS_9allocatorIS3_EEEE
++ __ZTVNSt3__120__shared_ptr_emplaceIN4roya4impl24DeviceMotionDataProviderENS_9allocatorIS3_EEEE
++ __ZTVNSt3__120__shared_ptr_emplaceIN4roya4impl26VideoCaptureSinkAudioTrackENS_9allocatorIS3_EEEE
++ __ZTVNSt3__120__shared_ptr_emplaceIN4roya4impl26VideoCaptureSinkVideoTrackENS_9allocatorIS3_EEEE
++ __ZTVNSt3__120__shared_ptr_emplaceIN4roya4impl29VideoCaptureSinkMetadataTrackENS_9allocatorIS3_EEEE
++ __ZTVNSt3__120__shared_ptr_pointerIPN4roya12SessionProxyENS_10shared_ptrIS2_E27__shared_ptr_default_deleteIS2_S2_EENS_9allocatorIS2_EEEE
++ __ZTVNSt3__120__shared_ptr_pointerIPN4roya15DataSourceProxyENS_10shared_ptrIS2_E27__shared_ptr_default_deleteIS2_S2_EENS_9allocatorIS2_EEEE
++ __ZTVNSt3__120__shared_ptr_pointerIPN4roya4impl18PolarisCameraFrameEZNS2_19PolarisCameraSource12DispatchDataEP17ps_resource_arrayS7_E3$_0NS_9allocatorIS3_EEEE
++ __ZThn16_N4roya4impl17ProtoBufContainerD0Ev
++ __ZThn16_N4roya4impl17ProtoBufContainerD1Ev
++ __ZThn16_N4roya4impl25VideoCaptureSinkContainerD0Ev
++ __ZThn16_N4roya4impl25VideoCaptureSinkContainerD1Ev
++ __ZThn16_NK4roya4impl17ProtoBufContainer9DebugNameEv
++ __ZThn16_NK4roya4impl25VideoCaptureSinkContainer9DebugNameEv
++ __ZThn24_N4roya11SessionBase13OnSinkMessageEPNS_8DataSinkE22RoyaSessionMessageTypeP12NSDictionaryIP8NSStringP11objc_objectE
++ __ZThn72_N4roya11FrameDumper14OnDataReceivedEPNS_15PipelineContextERKNSt3__110shared_ptrINS_9FrameDataEEE
++ __ZThn72_N4roya13TestOperation14OnDataReceivedEPNS_15PipelineContextERKNSt3__110shared_ptrINS_9FrameDataEEE
++ __ZThn72_N4roya13TestOperation7ExecuteEPNS_15PipelineContextERKNSt3__110shared_ptrINS_9FrameDataEEE
++ __ZThn72_N4roya13TestOperationD0Ev
++ __ZThn72_N4roya13TestOperationD1Ev
++ __ZThn72_N4roya14AsyncOperation7ExecuteEPNS_15PipelineContextERKNSt3__110shared_ptrINS_9FrameDataEEE
++ __ZThn72_N4roya16DelegateDataSink12OnInitializeEPNS_15PipelineContextE
++ __ZThn72_N4roya16DelegateDataSink12OnSharedStopEPNS_13CaptureConfigE
++ __ZThn72_N4roya16DelegateDataSink13OnSharedStartEPNS_13CaptureConfigE
++ __ZThn72_N4roya16DelegateDataSink15OnSharedCleanupEPNS_13CaptureConfigE
++ __ZThn72_N4roya16DelegateDataSink18OnSharedInitializeEPNS_13CaptureConfigE
++ __ZThn72_N4roya16DelegateDataSink6OnStopEPNS_15PipelineContextE
++ __ZThn72_N4roya16DelegateDataSink7OnStartEPNS_15PipelineContextE
++ __ZThn72_N4roya16DelegateDataSink9OnCleanupEPNS_15PipelineContextE
++ __ZThn72_N4roya16DelegateDataSinkD0Ev
++ __ZThn72_N4roya16DelegateDataSinkD1Ev
++ __ZThn72_N4roya4impl17TestVideoProvider12OnInitializeEPNS_13IDataReceiverEPNS_15PipelineContextE
++ __ZThn72_N4roya4impl17TestVideoProvider6OnStopEPNS_15PipelineContextE
++ __ZThn72_N4roya4impl17TestVideoProvider7OnStartEPNS_15PipelineContextE
++ __ZThn72_N4roya4impl17TestVideoProvider9OnCleanupEPNS_15PipelineContextE
++ __ZThn72_N4roya4impl17TestVideoProviderD0Ev
++ __ZThn72_N4roya4impl17TestVideoProviderD1Ev
++ __ZThn72_N4roya4impl17UserEventProvider12OnInitializeEPNS_13IDataReceiverEPNS_15PipelineContextE
++ __ZThn72_N4roya4impl17UserEventProvider6OnStopEPNS_15PipelineContextE
++ __ZThn72_N4roya4impl17UserEventProvider7OnStartEPNS_15PipelineContextE
++ __ZThn72_N4roya4impl17UserEventProvider9OnCleanupEPNS_15PipelineContextE
++ __ZThn72_N4roya4impl17UserEventProviderD0Ev
++ __ZThn72_N4roya4impl17UserEventProviderD1Ev
++ __ZThn72_N4roya4impl24DeviceMotionDataProvider12OnInitializeEPNS_13IDataReceiverEPNS_15PipelineContextE
++ __ZThn72_N4roya4impl24DeviceMotionDataProvider6OnStopEPNS_15PipelineContextE
++ __ZThn72_N4roya4impl24DeviceMotionDataProvider7OnStartEPNS_15PipelineContextE
++ __ZThn72_N4roya4impl24DeviceMotionDataProvider9OnCleanupEPNS_15PipelineContextE
++ __ZThn72_N4roya4impl24DeviceMotionDataProviderD0Ev
++ __ZThn72_N4roya4impl24DeviceMotionDataProviderD1Ev
++ __ZThn72_N4roya8DataSink14OnDataReceivedEPNS_15PipelineContextERKNSt3__110shared_ptrINS_9FrameDataEEE
++ __ZThn72_N4roya8DataSink7ExecuteEPNS_15PipelineContextERKNSt3__110shared_ptrINS_9FrameDataEEE
++ __ZThn72_N4roya9Operation7ExecuteEPNS_15PipelineContextERKNSt3__110shared_ptrINS_9FrameDataEEE
++ __ZThn72_NK4roya13TestOperation9DebugNameEv
++ __ZThn72_NK4roya16DelegateDataSink13GetSyncPolicyEv
++ __ZThn72_NK4roya16DelegateDataSink9DebugNameEv
++ __ZThn72_NK4roya4impl17TestVideoProvider9DebugNameEv
++ __ZThn72_NK4roya4impl17UserEventProvider9DebugNameEv
++ __ZThn72_NK4roya4impl24DeviceMotionDataProvider9DebugNameEv
++ __ZThn72_NK4roya7MOVSink13GetSyncPolicyEv
++ __ZThn8_N4roya13TestOperationD0Ev
++ __ZThn8_N4roya13TestOperationD1Ev
++ __ZThn8_N4roya16DelegateDataSinkD0Ev
++ __ZThn8_N4roya16DelegateDataSinkD1Ev
++ __ZThn8_N4roya4impl16PolarisIMUSource22GetSupportedPropertiesEv
++ __ZThn8_N4roya4impl17TestVideoProviderD0Ev
++ __ZThn8_N4roya4impl17TestVideoProviderD1Ev
++ __ZThn8_N4roya4impl17UserEventProvider22GetSupportedPropertiesEv
++ __ZThn8_N4roya4impl17UserEventProviderD0Ev
++ __ZThn8_N4roya4impl17UserEventProviderD1Ev
++ __ZThn8_N4roya4impl18PolarisAudioSource22GetSupportedPropertiesEv
++ __ZThn8_N4roya4impl18PolarisAudioSourceD0Ev
++ __ZThn8_N4roya4impl18PolarisAudioSourceD1Ev
++ __ZThn8_N4roya4impl24DeviceMotionDataProvider22GetSupportedPropertiesEv
++ __ZThn8_N4roya4impl24DeviceMotionDataProviderD0Ev
++ __ZThn8_N4roya4impl24DeviceMotionDataProviderD1Ev
++ __ZThn8_N4roya8Pipeline14OnDataReceivedEPNS_15PipelineContextERKNSt3__110shared_ptrINS_9FrameDataEEE
++ __ZThn96_N4roya20ExternalDataProvider14OnReceivedDataEyyPKvyPK14__CFDictionary
++ __ZThn96_N4roya20ExternalDataProvider21OnReceivedPixelBufferEyyP10__CVBufferPK14__CFDictionary
++ __ZThn96_N4roya20ExternalDataProvider27OnReceivedAudioSampleBufferEyP20opaqueCMSampleBufferPK14__CFDictionary
++ __ZTv0_n104_N4roya4impl19PolarisCameraSource22GetSupportedPropertiesEv
++ __ZTv0_n24_N4roya4impl17PolarisDataSourceD0Ev
++ __ZTv0_n24_N4roya4impl17PolarisDataSourceD1Ev
++ __ZTv0_n24_N4roya4impl19PolarisCameraSourceD0Ev
++ __ZTv0_n24_N4roya4impl19PolarisCameraSourceD1Ev
++ __ZTv0_n32_NK4roya4impl17PolarisDataSource9DebugNameEv
++ __ZTv0_n32_NK4roya4impl19PolarisCameraSource9DebugNameEv
++ __ZTv0_n40_N4roya4impl17PolarisDataSource15InitializeGraphEPNS0_19PolarisInstanceDataE
++ __ZTv0_n40_N4roya4impl19PolarisCameraSource15InitializeGraphEPNS0_19PolarisInstanceDataE
++ __ZTv0_n56_N4roya4impl17PolarisDataSource10CreateTaskEPNS0_19PolarisInstanceDataE
++ __ZTv0_n56_N4roya4impl19PolarisCameraSource10CreateTaskEPNS0_19PolarisInstanceDataE
++ __ZTv0_n64_N4roya4impl17PolarisDataSource12DispatchDataEP17ps_resource_arrayS3_
++ __ZTv0_n64_N4roya4impl19PolarisCameraSource12DispatchDataEP17ps_resource_arrayS3_
++ __ZTv0_n96_N4roya4impl19PolarisCameraSource12SetupContextEv
++ __ZTvn8_n104_N4roya4impl19PolarisCameraSource22GetSupportedPropertiesEv
++ __ZTvn8_n24_N4roya4impl17PolarisDataSourceD0Ev
++ __ZTvn8_n24_N4roya4impl17PolarisDataSourceD1Ev
++ __ZTvn8_n24_N4roya4impl19PolarisCameraSourceD0Ev
++ __ZTvn8_n24_N4roya4impl19PolarisCameraSourceD1Ev
++ __ZZ44+[RoyaCameraStreamSession resolveSourceName]E10sourceName
++ __ZZ44+[RoyaCameraStreamSession resolveSourceName]E9onceToken
++ __ZZN4roya12GraphBuilder5BuildEPNS_7SessionEEN13PipelineEntryD1Ev
++ __ZZN4roya16DataSourceBridgeC1ERKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEEPU33objcproto22RoyaDataSourceProtocol11objc_objectRKNS1_13unordered_mapIS7_S7_NS1_4hashIS7_EENS1_8equal_toIS7_EENS5_INS1_4pairIS8_S7_EEEEEEEN3$_08__invokeEPvNS_16NotificationTypeEP12NSDictionaryIP8NSStringP11objc_objectE
++ __ZZN4roya20AudioPipelineContext14encoderToCodecEvE3map
++ __ZZN4roya4impl16LocationProvider12OnInitializeEPNS_13IDataReceiverEPNS_15PipelineContextEEN3$_0D1Ev
++ __ZZN4roya4impl21PolarisSharedResource22GetOrCreateFlowControlERKNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEEE5mutex
++ __ZZN4roya4implL15CreateTestFrameEyE10BAR_COLORS
++ __ZZN4roya4implL15CreateTestFrameEyE13STRIPE_COLORS
++ __ZZN4roya4implL15CreateTestFrameEyE15BITFIELD_COLORS
++ __ZZN4roya4util15getBuildVersionEvE6result
++ __ZZN4roya4util15getDeviceSerialEvE6result
++ __ZZN4roya4util15isVirtualDeviceEvE6result
++ __ZZN4roya4util15isVirtualDeviceEvENK3$_0clEv
++ __ZZN4roya4util16getProductConfigEvE6result
++ __ZZN4roya4util16getProductConfigEvENK3$_0clEv
++ __ZZN4roya4util17getProductVersionEvE6result
++ __ZZN4roya4util18getDeviceModelNameEvE6result
++ __ZZNSt3__112__hash_tableINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_4hashIS6_EENS_8equal_toIS6_EENS4_IS6_EEE16__emplace_uniqueB9fqe220100IJRS6_EEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeIS6_PvEEEEbEEDpOT_ENKUlRKS6_SE_E_clESR_SE_
++ __ZZNSt3__112__hash_tableINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_4hashIS6_EENS_8equal_toIS6_EENS4_IS6_EEE16__emplace_uniqueB9fqe220100IJS6_EEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeIS6_PvEEEEbEEDpOT_ENKUlRKS6_OS6_E_clESQ_SR_
++ __ZZNSt3__112__hash_tableINS_17__hash_value_typeIN4roya13PipelineStateENS2_12SessionStateEEENS_22__unordered_map_hasherIS3_NS_4pairIKS3_S4_EENS_4hashIS3_EENS_8equal_toIS3_EEEENS_21__unordered_map_equalIS3_S9_SD_SB_EENS_9allocatorIS9_EEE16__emplace_uniqueB9fqe220100IJRKS9_EEENS7_INS_15__hash_iteratorIPNS_11__hash_nodeIS5_PvEEEEbEEDpOT_ENKUlRS8_SM_E_clESX_SM_
++ __ZZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN4roya9TrackInfoEEENS_22__unordered_map_hasherIS7_NS_4pairIKS7_S9_EENS_4hashIS7_EENS_8equal_toIS7_EEEENS_21__unordered_map_equalIS7_SE_SI_SG_EENS5_ISE_EEE16__emplace_uniqueB9fqe220100IJRKNS_21piecewise_construct_tENS_5tupleIJRSD_EEENSS_IJEEEEEENSC_INS_15__hash_iteratorIPNS_11__hash_nodeISA_PvEEEEbEEDpOT_ENKUlST_SR_OSU_OSV_E_clEST_SR_S16_S17_
++ __ZZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrIN4roya4NodeEEEEENS_22__unordered_map_hasherIS7_NS_4pairIKS7_SB_EENS_4hashIS7_EENS_8equal_toIS7_EEEENS_21__unordered_map_equalIS7_SG_SK_SI_EENS5_ISG_EEE16__emplace_uniqueB9fqe220100IJRKNS_21piecewise_construct_tENS_5tupleIJRSF_EEENSU_IJEEEEEENSE_INS_15__hash_iteratorIPNS_11__hash_nodeISC_PvEEEEbEEDpOT_ENKUlSV_ST_OSW_OSX_E_clESV_ST_S18_S19_
++ __ZZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrIN4roya4impl21PolarisSharedResource17StreamFlowControlEEEEENS_22__unordered_map_hasherIS7_NS_4pairIKS7_SD_EENS_4hashIS7_EENS_8equal_toIS7_EEEENS_21__unordered_map_equalIS7_SI_SM_SK_EENS5_ISI_EEE16__emplace_uniqueB9fqe220100IJRSH_RSD_EEENSG_INS_15__hash_iteratorIPNS_11__hash_nodeISE_PvEEEEbEEDpOT_ENKUlST_ST_SU_E_clEST_ST_SU_
++ __ZZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrIN4roya8MOVTrackEEEEENS_22__unordered_map_hasherIS7_NS_4pairIKS7_SB_EENS_4hashIS7_EENS_8equal_toIS7_EEEENS_21__unordered_map_equalIS7_SG_SK_SI_EENS5_ISG_EEE16__emplace_uniqueB9fqe220100IJRKNS_21piecewise_construct_tENS_5tupleIJOS7_EEENSU_IJEEEEEENSE_INS_15__hash_iteratorIPNS_11__hash_nodeISC_PvEEEEbEEDpOT_ENKUlRSF_ST_OSW_OSX_E_clES18_ST_S19_S1A_
++ __ZZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrIN4roya9OperationEEEEENS_22__unordered_map_hasherIS7_NS_4pairIKS7_SB_EENS_4hashIS7_EENS_8equal_toIS7_EEEENS_21__unordered_map_equalIS7_SG_SK_SI_EENS5_ISG_EEE16__emplace_uniqueB9fqe220100IJRKNS_21piecewise_construct_tENS_5tupleIJRSF_EEENSU_IJEEEEEENSE_INS_15__hash_iteratorIPNS_11__hash_nodeISC_PvEEEEbEEDpOT_ENKUlSV_ST_OSW_OSX_E_clESV_ST_S18_S19_
++ __ZZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_6vectorIS7_NS5_IS7_EEEEEENS_22__unordered_map_hasherIS7_NS_4pairIKS7_SA_EENS_4hashIS7_EENS_8equal_toIS7_EEEENS_21__unordered_map_equalIS7_SF_SJ_SH_EENS5_ISF_EEE16__emplace_uniqueB9fqe220100IJRKNS_21piecewise_construct_tENS_5tupleIJRSE_EEENST_IJEEEEEENSD_INS_15__hash_iteratorIPNS_11__hash_nodeISB_PvEEEEbEEDpOT_ENKUlSU_SS_OSV_OSW_E_clESU_SS_S17_S18_
++ __ZZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_8weak_ptrIN4roya12DataProviderEEEEENS_22__unordered_map_hasherIS7_NS_4pairIKS7_SB_EENS_4hashIS7_EENS_8equal_toIS7_EEEENS_21__unordered_map_equalIS7_SG_SK_SI_EENS5_ISG_EEE16__emplace_uniqueB9fqe220100IJRKNS_21piecewise_construct_tENS_5tupleIJRSF_EEENSU_IJEEEEEENSE_INS_15__hash_iteratorIPNS_11__hash_nodeISC_PvEEEEbEEDpOT_ENKUlSV_ST_OSW_OSX_E_clESV_ST_S18_S19_
++ __ZZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES7_EENS_22__unordered_map_hasherIS7_NS_4pairIKS7_S7_EENS_4hashIS7_EENS_8equal_toIS7_EEEENS_21__unordered_map_equalIS7_SC_SG_SE_EENS5_ISC_EEE16__emplace_uniqueB9fqe220100IJRKNS_21piecewise_construct_tENS_5tupleIJOS7_EEENSQ_IJEEEEEENSA_INS_15__hash_iteratorIPNS_11__hash_nodeIS8_PvEEEEbEEDpOT_ENKUlRSB_SP_OSS_OST_E_clES14_SP_S15_S16_
++ __ZZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES7_EENS_22__unordered_map_hasherIS7_NS_4pairIKS7_S7_EENS_4hashIS7_EENS_8equal_toIS7_EEEENS_21__unordered_map_equalIS7_SC_SG_SE_EENS5_ISC_EEE16__emplace_uniqueB9fqe220100IJRKNS_21piecewise_construct_tENS_5tupleIJRSB_EEENSQ_IJEEEEEENSA_INS_15__hash_iteratorIPNS_11__hash_nodeIS8_PvEEEEbEEDpOT_ENKUlSR_SP_OSS_OST_E_clESR_SP_S14_S15_
++ __ZZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES7_EENS_22__unordered_map_hasherIS7_NS_4pairIKS7_S7_EENS_4hashIS7_EENS_8equal_toIS7_EEEENS_21__unordered_map_equalIS7_SC_SG_SE_EENS5_ISC_EEE16__emplace_uniqueB9fqe220100IJRKSC_EEENSA_INS_15__hash_iteratorIPNS_11__hash_nodeIS8_PvEEEEbEEDpOT_ENKUlRSB_SO_E_clESZ_SO_
++ __ZZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES7_EENS_22__unordered_map_hasherIS7_NS_4pairIKS7_S7_EENS_4hashIS7_EENS_8equal_toIS7_EEEENS_21__unordered_map_equalIS7_SC_SG_SE_EENS5_ISC_EEE16__emplace_uniqueB9fqe220100IJSC_EEENSA_INS_15__hash_iteratorIPNS_11__hash_nodeIS8_PvEEEEbEEDpOT_ENKUlRSB_OSC_E_clESX_SY_
++ __ZZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEiEENS_22__unordered_map_hasherIS7_NS_4pairIKS7_iEENS_4hashIS7_EENS_8equal_toIS7_EEEENS_21__unordered_map_equalIS7_SC_SG_SE_EENS5_ISC_EEE16__emplace_uniqueB9fqe220100IJRKNS_21piecewise_construct_tENS_5tupleIJRSB_EEENSQ_IJEEEEEENSA_INS_15__hash_iteratorIPNS_11__hash_nodeIS8_PvEEEEbEEDpOT_ENKUlSR_SP_OSS_OST_E_clESR_SP_S14_S15_
++ __ZZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEjEENS_22__unordered_map_hasherIS7_NS_4pairIKS7_jEENS_4hashIS7_EENS_8equal_toIS7_EEEENS_21__unordered_map_equalIS7_SC_SG_SE_EENS5_ISC_EEE16__emplace_uniqueB9fqe220100IJRKSC_EEENSA_INS_15__hash_iteratorIPNS_11__hash_nodeIS8_PvEEEEbEEDpOT_ENKUlRSB_SO_E_clESZ_SO_
++ __ZZNSt3__16__treeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_4lessIS6_EENS4_IS6_EEE21__insert_range_uniqueB9fqe220100INS_21__tree_const_iteratorIS6_PNS_11__tree_nodeIS6_PvEElEESH_EEvT_T0_ENKUlRKS6_SL_E_clESL_SL_
++ __ZZNSt3__16__treeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_4lessIS6_EENS4_IS6_EEE21__insert_range_uniqueB9fqe220100IPKS6_SD_EEvT_T0_ENKUlRSC_SG_E_clESG_SG_
++ __ZZNSt3__16vectorIZN4roya12GraphBuilder5BuildEPNS1_7SessionEE13PipelineEntryNS_9allocatorIS5_EEE12emplace_backIJS5_EEERS5_DpOT_ENKUlvE0_clEv
++ __ZdaPvSt19__type_descriptor_t
++ ___32-[DeviceMotionDataService start]_block_invoke
++ ___44+[RoyaCameraStreamSession resolveSourceName]_block_invoke
++ ___44-[RoyaCameraStreamSession initWithDelegate:]_block_invoke
++ ___48-[RoyaCaptureSession setSessionFinishedHandler:]_block_invoke
++ ____ZN4roya11MetadataSet9MergeFromEP12NSDictionary_block_invoke
++ ____ZN4roya14AsyncOperation7ExecuteEPNS_15PipelineContextERKNSt3__110shared_ptrINS_9FrameDataEEE_block_invoke
++ ____ZN4roya16DataSourceBridge14OnNotificationENS_16NotificationTypeEP12NSDictionaryIP8NSStringP11objc_objectE_block_invoke
++ ____ZN4roya16DelegateDataSink12OnSharedStopEPNS_13CaptureConfigE_block_invoke
++ ____ZN4roya16DelegateDataSink13OnSharedStartEPNS_13CaptureConfigE_block_invoke
++ ____ZN4roya16DelegateDataSink21ExecuteAsyncOperationERKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEEU13block_pointerFvU13block_pointerFvP7NSErrorEE_block_invoke
++ ____ZN4roya16SessionProxyImpl5StartExx_block_invoke
++ ____ZN4roya4impl15TimeSyncService19ensureManagersReadyEv_block_invoke
++ ____ZN4roya4impl15TimeSyncService19ensureManagersReadyEv_block_invoke.5
++ ____ZN4roya4impl16TimeSyncProvider12OnInitializeEPNS_13IDataReceiverEPNS_15PipelineContextE_block_invoke
++ ____ZN4roya4impl16TimeSyncProvider12OnInitializeEPNS_13IDataReceiverEPNS_15PipelineContextE_block_invoke_2
++ ____ZN4roya4impl17TestVideoProvider6OnStopEPNS_15PipelineContextE_block_invoke
++ ____ZN4roya4impl17TestVideoProvider7OnStartEPNS_15PipelineContextE_block_invoke
++ ____ZN4roya4impl17TestVideoProvider7OnStartEPNS_15PipelineContextE_block_invoke.2
++ ____ZN4roya4impl17UserEventProvider9OnMessageEP12NSDictionaryIP8NSStringP11objc_objectE_block_invoke
++ ____ZN4roya4impl17toOperationConfigEP12NSDictionaryIP8NSStringP11objc_objectE_block_invoke
++ ____ZN4roya4impl23DoAPPluginAudioProvider12OnInitializeEPNS_13IDataReceiverEPNS_15PipelineContextE_block_invoke.82
++ ____ZN4roya4impl23DoAPPluginAudioProvider12OnInitializeEPNS_13IDataReceiverEPNS_15PipelineContextE_block_invoke.82.cold.1
++ ____ZN4roya4impl24DeviceMotionDataProvider12OnInitializeEPNS_13IDataReceiverEPNS_15PipelineContextE_block_invoke
++ ____ZN4roya4impl25VideoCaptureSinkContainer8DoFinishEv_block_invoke
++ ____ZN4roya4impl25VideoCaptureSinkContainer8DoFinishEv_block_invoke_2
++ ____ZN4roya4impl9toPrivateEP12NSDictionaryIP8NSStringP11objc_objectE_block_invoke
++ ____ZN4roya7MOVSink15OnSharedCleanupEPNS_13CaptureConfigE_block_invoke.5
++ ____ZN4roya7MOVSink18OnDataReceivedImplEPNS_15PipelineContextERKNSt3__110shared_ptrINS_9FrameDataEEE_block_invoke
++ ____ZZN4roya4impl17HIDDeviceProvider12SetContainerERKNSt3__110shared_ptrINS_12MOVContainerEEEENK3$_0clENS_14ContainerStateE_block_invoke
++ ____ZZN4roya4impl17HIDDeviceProvider12SetContainerERKNSt3__110shared_ptrINS_12MOVContainerEEEENK3$_0clENS_14ContainerStateE_block_invoke.67
++ ____ZZZN4roya7MOVSink12OnInitializeEPNS_15PipelineContextEEUb_ENK3$_0clENS_14ContainerStateE_block_invoke
++ ___block_descriptor_40_e15_v32?0816^B24l
++ ___block_descriptor_40_e24_v16?0?<v?"NSError">8l
++ ___block_descriptor_40_e35_v32?0"NSString"8"NSString"16^B24l
++ ___block_descriptor_40_ea8_32bs_e25_v24?0q8"NSDictionary"16ls32l8
++ ___block_descriptor_40_ea8_32r_e25_v32?0"NSString"816^B24lr32l8
++ ___block_descriptor_40_ea8_32w_e25_v24?0q8"NSDictionary"16lw32l8
++ ___block_descriptor_40_ea8_32w_e36_v24?0"CMDeviceMotion"8"NSError"16lw32l8
++ ___block_descriptor_48_ea8_32c39_ZTSNSt3__18weak_ptrIN4roya8PipelineEEE_e5_v8?0l
++ ___block_descriptor_48_ea8_32c54_ZTSNSt3__18weak_ptrIN4roya4impl17HIDDeviceProviderEEE_e22_v20?0"HIDDevice"8B16l
++ ___block_descriptor_48_ea8_32c54_ZTSNSt3__18weak_ptrIN4roya4impl17HIDDeviceProviderEEE_e39_v48?0"HIDDevice"8Q16q24q32"NSData"40l
++ ___block_descriptor_48_ea8_32c54_ZTSNSt3__18weak_ptrIN4roya4impl17TestVideoProviderEEE_e5_v8?0l
++ ___block_descriptor_48_ea8_32c62_ZTSNSt3__18weak_ptrIN4roya4impl25VideoCaptureSinkContainerEEE_e5_v8?0l
++ ___block_descriptor_56_ea8_32s40c62_ZTSNSt3__18weak_ptrIN4roya4impl25VideoCaptureSinkContainerEEE_e5_v8?0l
++ ___block_descriptor_56_ea8_32s40r48r_e20_v20?0B8"NSError"12lr40l8r48l8s32l8
++ ___block_descriptor_64_ea8_32s40r48r_e17_v16?0"NSError"8lr40l8r48l8s32l8
++ ___block_descriptor_72_ea8_32c47_ZTSNSt3__110shared_ptrIN4roya12MOVContainerEEE48c66_ZTSNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE_e5_v8?0l
++ ___block_descriptor_72_ea8_32c60_ZTSNSt3__18weak_ptrIN4roya4impl23HeadphoneMotionProviderEEE48c66_ZTSNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE_e242_v16?0^{FastPathDeviceMotionV3=SSIQ{_logItem=d}{_attitude=ddd[3{FastPathXYZDataV3=ddd}]{FastPathXYZWDataV3=dddd}}{FastPathXYZDataV3=ddd}{FastPathXYZDataV3=ddd}{FastPathXYZDataV3=ddd}{_magneticField={FastPathXYZDataV3=ddd}i}qd{_location=iid}}8l
++ ___block_descriptor_72_ea8_32c61_ZTSNSt3__18weak_ptrIN4roya4impl24DeviceMotionDataProviderEEE48c66_ZTSNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE_e24_v16?0"CMDeviceMotion"8l
++ ___block_descriptor_72_ea8_32c97_ZTSKZN4roya4impl16LocationProvider12OnInitializeEPNS_13IDataReceiverEPNS_15PipelineContextEE3$_0_e96_v16?0^{RYFLocationSample_V1={Coordinate=dd}ddddddddd{Floor=q}{LocationSourceInformation=BB}id}8l
++ ___block_descriptor_80_ea8_40c39_ZTSNSt3__18weak_ptrIN4roya8PipelineEEE56c66_ZTSNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE_e5_v8?0l
++ ___block_descriptor_88_ea8_32s40s48s_e5_v8?0ls32l8s40l8s48l8
++ ___block_descriptor_96_ea8_40c39_ZTSNSt3__18weak_ptrIN4roya8PipelineEEE56c43_ZTSNSt3__110shared_ptrIN4roya9FrameDataEEE72c66_ZTSNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE_e5_v8?0l
++ ___block_literal_global.27
++ ___block_literal_global.4
++ ___chkstk_darwin
++ ___copy_helper_block_ea8_32c39_ZTSNSt3__18weak_ptrIN4roya8PipelineEEE
++ ___copy_helper_block_ea8_32c47_ZTSNSt3__110shared_ptrIN4roya12MOVContainerEEE48c66_ZTSNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE
++ ___copy_helper_block_ea8_32c54_ZTSNSt3__18weak_ptrIN4roya4impl17HIDDeviceProviderEEE
++ ___copy_helper_block_ea8_32c54_ZTSNSt3__18weak_ptrIN4roya4impl17TestVideoProviderEEE
++ ___copy_helper_block_ea8_32c60_ZTSNSt3__18weak_ptrIN4roya4impl23HeadphoneMotionProviderEEE48c66_ZTSNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE
++ ___copy_helper_block_ea8_32c61_ZTSNSt3__18weak_ptrIN4roya4impl24DeviceMotionDataProviderEEE48c66_ZTSNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE
++ ___copy_helper_block_ea8_32c62_ZTSNSt3__18weak_ptrIN4roya4impl25VideoCaptureSinkContainerEEE
++ ___copy_helper_block_ea8_40c39_ZTSNSt3__18weak_ptrIN4roya8PipelineEEE56c43_ZTSNSt3__110shared_ptrIN4roya9FrameDataEEE72c66_ZTSNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE
++ ___copy_helper_block_ea8_40c39_ZTSNSt3__18weak_ptrIN4roya8PipelineEEE56c66_ZTSNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE
++ ___copy_helper_block_ea8_40c62_ZTSNSt3__18weak_ptrIN4roya4impl25VideoCaptureSinkContainerEEE
++ ___destroy_helper_block_ea8_32c39_ZTSNSt3__18weak_ptrIN4roya8PipelineEEE
++ ___destroy_helper_block_ea8_32c47_ZTSNSt3__110shared_ptrIN4roya12MOVContainerEEE48c66_ZTSNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE
++ ___destroy_helper_block_ea8_32c54_ZTSNSt3__18weak_ptrIN4roya4impl17HIDDeviceProviderEEE
++ ___destroy_helper_block_ea8_32c54_ZTSNSt3__18weak_ptrIN4roya4impl17TestVideoProviderEEE
++ ___destroy_helper_block_ea8_32c60_ZTSNSt3__18weak_ptrIN4roya4impl23HeadphoneMotionProviderEEE48c66_ZTSNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE
++ ___destroy_helper_block_ea8_32c61_ZTSNSt3__18weak_ptrIN4roya4impl24DeviceMotionDataProviderEEE48c66_ZTSNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE
++ ___destroy_helper_block_ea8_32c62_ZTSNSt3__18weak_ptrIN4roya4impl25VideoCaptureSinkContainerEEE
++ ___destroy_helper_block_ea8_40c39_ZTSNSt3__18weak_ptrIN4roya8PipelineEEE56c43_ZTSNSt3__110shared_ptrIN4roya9FrameDataEEE72c66_ZTSNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE
++ ___destroy_helper_block_ea8_40c39_ZTSNSt3__18weak_ptrIN4roya8PipelineEEE56c66_ZTSNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE
++ ___destroy_helper_block_ea8_40c62_ZTSNSt3__18weak_ptrIN4roya4impl25VideoCaptureSinkContainerEEE
++ _dispatch_get_specific
++ _dispatch_queue_set_specific
++ _free
++ _inet_pton
++ _kAudioEncoderAAC
++ _kAudioEncoderLPCM
++ _kCFAllocatorMalloc
++ _kCFRunLoopDefaultMode
++ _kCMMetadataBaseDataType_RawData
++ _kCMMetadataBaseDataType_UInt8
++ _kCMMetadataBaseDataType_UTF8
++ _kCMMetadataFormatDescriptionMetadataSpecificationKey_DataType
++ _kCMMetadataFormatDescriptionMetadataSpecificationKey_Identifier
++ _kCMTimeZero
++ _kCVPixelBufferHeightKey
++ _kCVPixelBufferIOSurfacePropertiesKey
++ _kCVPixelBufferPixelFormatTypeKey
++ _kCVPixelBufferWidthKey
++ _kEntitlementKey_DataSource
++ _kEntitlement_PhotoVideoCapture
++ _kEntitlement_VisionPro_becaml
++ _kEntitlement_VisionPro_becamr
++ _kEntitlement_VisionPro_dcaml
++ _kEntitlement_VisionPro_dcamr
++ _kEntitlement_VisionPro_jcaml
++ _kEntitlement_VisionPro_jcamr
++ _kEntitlement_VisionPro_mcaml
++ _kEntitlement_VisionPro_mcamr
++ _kEntitlement_VisionPro_necaml
++ _kEntitlement_VisionPro_necamr
++ _kEntitlement_VisionPro_pcam
++ _kEntitlement_VisionPro_scaml
++ _kEntitlement_VisionPro_scamr
++ _kEntitlement_VisionPro_xcam
++ _kEntitlement_audio
++ _kEntitlement_calibration
++ _kEntitlement_default_camera
++ _kEntitlement_empty
++ _kEntitlement_imu
++ _kEntitlement_location
++ _kEntitlement_metadata
++ _kEntitlement_polaris
++ _kEntitlement_voice
++ _kEntitlement_wifi
++ _kMIOStreamConvertNonPlanarBuffersKeepBufferOnChildBuffer
++ _kMIOStreamConvertNonPlanarBuffersTo16bitMonochrome
++ _kMIOStreamConvertNonPlanarBuffersTo8bitMonochrome
++ _kOperationConfig_mode
++ _kOperationConfig_period
++ _kOperationConfig_rate
++ _kOperationMode_decimate
++ _kOperationMode_interpolate
++ _kOperationMode_merge
++ _kOperationType_TestOperation
++ _kStreamControlActionCaptureFrames
++ _kStreamControlActionStart
++ _kStreamControlActionStop
++ _kStreamControlMessageAction
++ _kStreamControlMessageAssetMetadata
++ _kStreamControlMessageCancel
++ _kStreamControlMessageFrameCount
++ _kStreamControlMetadataAssetMetadata
++ _kStreamControlMetadataIsCancel
++ _kStreamControlMetadataIsLastFrame
++ _kTrackName_DeviceMotion
++ _kTrackName_TestPolarisSource
++ _kTrackName_TestVideoSource
++ _kTrackName_UserEvent
++ _kTrackName_VisionPro_imu_imu800_iter
++ _kTrackProperty_abort_on_out_of_order
++ _kTrackProperty_ap_timestamp_ns
++ _kTrackProperty_camera_orientation_correction
++ _kTrackProperty_event_names
++ _kTrackProperty_event_senders
++ _kTrackProperty_mocked_audio_source_manifests
++ _kTrackProperty_mocked_devicemotion_source_manifest
++ _kTrackProperty_network_interface
++ _kTrackProperty_peer_addresses
++ _kTrackProperty_polaris_stream
++ _kTrackProperty_spu_timestamp_ns
++ _kTrackProperty_stream_control_message
++ _kUserEventMessageArgs
++ _kUserEventMessageEventName
++ _kUserEventMessageEventSender
++ _kUserEventMessageTimestamp
++ _mach_get_times
++ _malloc_type_malloc
++ _objc_autorelease
++ _objc_claimAutoreleasedReturnValue
++ _objc_msgSend$acceleration
++ _objc_msgSend$accelerometerTrackName:prefix:
++ _objc_msgSend$addProperty:
++ _objc_msgSend$addSink:error:
++ _objc_msgSend$addSource:error:
++ _objc_msgSend$addTrack:
++ _objc_msgSend$addTrackAssociationWithTrackOfInput:type:
++ _objc_msgSend$addUnicastUDPv4EtEPortOnInterfaceNamed:withDestinationAddress:allocatedPortNumber:error:
++ _objc_msgSend$addUnicastUDPv6EtEPortOnInterfaceNamed:withDestinationAddress:allocatedPortNumber:error:
++ _objc_msgSend$allBundles
++ _objc_msgSend$appendPixelBuffer:withPresentationTime:
++ _objc_msgSend$appendSampleBuffer:
++ _objc_msgSend$appendTimedMetadataGroup:
++ _objc_msgSend$assetWriterInputMetadataAdaptorWithAssetWriterInput:
++ _objc_msgSend$assetWriterInputWithMediaType:outputSettings:sourceFormatHint:
++ _objc_msgSend$boolValue
++ _objc_msgSend$bridge
++ _objc_msgSend$bundlePath
++ _objc_msgSend$cameraStreamSession:didOutputSampleBuffer:
++ _objc_msgSend$cameraStreamSession:didStopWithError:
++ _objc_msgSend$canAddTrackAssociationWithTrackOfInput:type:
++ _objc_msgSend$cancelWriting
++ _objc_msgSend$clockIdentity
++ _objc_msgSend$code
++ _objc_msgSend$compassTrackName:prefix:
++ _objc_msgSend$config
++ _objc_msgSend$containsObject:
++ _objc_msgSend$createAudioReceiverForTrack:error:
++ _objc_msgSend$createMetadataReceiverForTrack:error:
++ _objc_msgSend$createVideoReceiverForTrack:error:
++ _objc_msgSend$dataSource
++ _objc_msgSend$dateWithTimeIntervalSince1970:
++ _objc_msgSend$dateWithTimeIntervalSinceReferenceDate:
++ _objc_msgSend$delegate
++ _objc_msgSend$deltaPositionUncertaintyX
++ _objc_msgSend$deltaPositionUncertaintyY
++ _objc_msgSend$deltaPositionUncertaintyZ
++ _objc_msgSend$deviceLocation
++ _objc_msgSend$dictionaryWithContentsOfURL:error:
++ _objc_msgSend$enumerateKeysAndObjectsUsingBlock:
++ _objc_msgSend$error
++ _objc_msgSend$errorWithDomain:code:userInfo:
++ _objc_msgSend$fieldValues
++ _objc_msgSend$fileExistsAtPath:
++ _objc_msgSend$fileExistsAtPath:isDirectory:
++ _objc_msgSend$fileSystemRepresentation
++ _objc_msgSend$finishWriting
++ _objc_msgSend$finishWritingWithCompletionHandler:
++ _objc_msgSend$from
++ _objc_msgSend$gyroTrackName:prefix:
++ _objc_msgSend$hasPrefix:
++ _objc_msgSend$hasSuffix:
++ _objc_msgSend$identifier
++ _objc_msgSend$immutableData
++ _objc_msgSend$initWithArray:
++ _objc_msgSend$initWithAssetWriterInput:
++ _objc_msgSend$initWithAssetWriterInput:sourcePixelBufferAttributes:
++ _objc_msgSend$initWithAuditToken:
++ _objc_msgSend$initWithBytes:length:
++ _objc_msgSend$initWithCapacity:
++ _objc_msgSend$initWithDelegate:
++ _objc_msgSend$initWithDelegate:identifier:
++ _objc_msgSend$initWithInitialCapacity:
++ _objc_msgSend$initWithItems:timeRange:
++ _objc_msgSend$initWithMediaType:outputSettings:sourceFormatHint:
++ _objc_msgSend$initWithName:config:
++ _objc_msgSend$initWithOutputPath:identifier:
++ _objc_msgSend$initWithOutputPath:useOwnThreadPerTrack:identifier:
++ _objc_msgSend$initWithSession:delegate:
++ _objc_msgSend$initWithStreamId:audioFormatDescription:additionalSettings:
++ _objc_msgSend$initWithSuiteName:
++ _objc_msgSend$initWithURL:fileType:error:
++ _objc_msgSend$interfaceName
++ _objc_msgSend$isBuffered
++ _objc_msgSend$isEqual:
++ _objc_msgSend$isFileURL
++ _objc_msgSend$isMemberOfClass:
++ _objc_msgSend$isReadyForMoreMediaData
++ _objc_msgSend$longLongValue
++ _objc_msgSend$markAsFinished
++ _objc_msgSend$metadata
++ _objc_msgSend$name
++ _objc_msgSend$now
++ _objc_msgSend$onMessageWithPayload:error:
++ _objc_msgSend$outputPath
++ _objc_msgSend$path
++ _objc_msgSend$pathForResource:ofType:
++ _objc_msgSend$ports
++ _objc_msgSend$processAccelerometerData:andAdditionalData:
++ _objc_msgSend$processAccelerometerData:andAdditionalData:location:
++ _objc_msgSend$processCompassData:
++ _objc_msgSend$processCompassData:location:
++ _objc_msgSend$processDeviceMotionData:andAdditionalData:location:
++ _objc_msgSend$processGyroscopeData:andAdditionalData:
++ _objc_msgSend$processGyroscopeData:andAdditionalData:location:
++ _objc_msgSend$receiveSampleWithIndex:audioBuffer:metadata:error:
++ _objc_msgSend$receiveSampleWithIndex:timestamp:data:metadata:error:
++ _objc_msgSend$receiveSampleWithIndex:timestamp:pixelBuffer:metadata:error:
++ _objc_msgSend$registerAccelerometer
++ _objc_msgSend$registerAccelerometer:
++ _objc_msgSend$registerCompass
++ _objc_msgSend$registerCompass:
++ _objc_msgSend$registerDeviceMotion:
++ _objc_msgSend$registerGyro
++ _objc_msgSend$registerGyro:
++ _objc_msgSend$removeItemAtURL:error:
++ _objc_msgSend$removeObject:
++ _objc_msgSend$removePTPInstanceWithIdentifier:error:
++ _objc_msgSend$removeUnicastUDPv4EtEPortFromInterfaceNamed:withDestinationAddress:error:
++ _objc_msgSend$removeUnicastUDPv6EtEPortFromInterfaceNamed:withDestinationAddress:error:
++ _objc_msgSend$resolveSourceName
++ _objc_msgSend$royaCaptureErrorWithCode:message:
++ _objc_msgSend$running
++ _objc_msgSend$setAcceleration:
++ _objc_msgSend$setArgs:
++ _objc_msgSend$setAx:
++ _objc_msgSend$setAy:
++ _objc_msgSend$setAz:
++ _objc_msgSend$setBridge:
++ _objc_msgSend$setBssid:
++ _objc_msgSend$setBuildversion:
++ _objc_msgSend$setConfig:
++ _objc_msgSend$setData:
++ _objc_msgSend$setDataSource:
++ _objc_msgSend$setDataType:
++ _objc_msgSend$setDeviceMotionUpdateInterval:
++ _objc_msgSend$setDevicename:
++ _objc_msgSend$setDeviceserial:
++ _objc_msgSend$setExpectsMediaDataInRealTime:
++ _objc_msgSend$setFieldValues:
++ _objc_msgSend$setFrameId:
++ _objc_msgSend$setGx:
++ _objc_msgSend$setGy:
++ _objc_msgSend$setGz:
++ _objc_msgSend$setHasAx:
++ _objc_msgSend$setHasAy:
++ _objc_msgSend$setHasAz:
++ _objc_msgSend$setHasGx:
++ _objc_msgSend$setHasGy:
++ _objc_msgSend$setHasGz:
++ _objc_msgSend$setHasTemperature:
++ _objc_msgSend$setHasTimebase:
++ _objc_msgSend$setHasType:
++ _objc_msgSend$setHasUnfilteredAx:
++ _objc_msgSend$setHasUnfilteredAy:
++ _objc_msgSend$setHasUnfilteredAz:
++ _objc_msgSend$setHidSample:
++ _objc_msgSend$setIdentifier:
++ _objc_msgSend$setImuComboSample:
++ _objc_msgSend$setImuSample:
++ _objc_msgSend$setInProcessRecording:
++ _objc_msgSend$setKey:
++ _objc_msgSend$setKeySpace:
++ _objc_msgSend$setLength:
++ _objc_msgSend$setMediaTimeScale:
++ _objc_msgSend$setMetadata:
++ _objc_msgSend$setMovieTimeScale:
++ _objc_msgSend$setName:
++ _objc_msgSend$setOutputPath:
++ _objc_msgSend$setProductversion:
++ _objc_msgSend$setPropertyKey:
++ _objc_msgSend$setPropertyValue:
++ _objc_msgSend$setRequiresInProcessOperation:
++ _objc_msgSend$setRotationRate:
++ _objc_msgSend$setRssi:
++ _objc_msgSend$setSampleData:
++ _objc_msgSend$setSender:
++ _objc_msgSend$setSequenceNumber:
++ _objc_msgSend$setSessionMessageHandler:
++ _objc_msgSend$setShouldOptimizeForNetworkUse:
++ _objc_msgSend$setTemperature:
++ _objc_msgSend$setTime:
++ _objc_msgSend$setTimebase:
++ _objc_msgSend$setTrackID:
++ _objc_msgSend$setTrackcount:
++ _objc_msgSend$setType:
++ _objc_msgSend$setUnfilteredAx:
++ _objc_msgSend$setUnfilteredAy:
++ _objc_msgSend$setUnfilteredAz:
++ _objc_msgSend$setUpdateInterval:
++ _objc_msgSend$setUseOwnProcessingQueue:
++ _objc_msgSend$setUseOwnThreadPerTrack:
++ _objc_msgSend$setUseOwnWritingThread:
++ _objc_msgSend$setUserEventSample:
++ _objc_msgSend$setWifiSample:
++ _objc_msgSend$setX:
++ _objc_msgSend$setY:
++ _objc_msgSend$setZ:
++ _objc_msgSend$setupSessionWithError:
++ _objc_msgSend$shouldInitializeWithError:
++ _objc_msgSend$shouldInitializeWithReceiver:config:error:
++ _objc_msgSend$source
++ _objc_msgSend$startSessionAtSourceTime:
++ _objc_msgSend$startWithCompletionHandler:
++ _objc_msgSend$startWithTimeout:captureDuration:completionHandler:
++ _objc_msgSend$startWithTimeout:captureDuration:error:
++ _objc_msgSend$startWriting
++ _objc_msgSend$status
++ _objc_msgSend$stopWithCompletionHandler:
++ _objc_msgSend$stopWithTimeout:completionHandler:
++ _objc_msgSend$stopWithTimeout:error:
++ _objc_msgSend$stringByAppendingString:
++ _objc_msgSend$stringByDeletingLastPathComponent
++ _objc_msgSend$stringByReplacingOccurrencesOfString:withString:
++ _objc_msgSend$stringForKey:
++ _objc_msgSend$substringFromIndex:
++ _objc_msgSend$substringToIndex:
++ _objc_msgSend$timeIntervalSinceNow
++ _objc_msgSend$timeIntervalSinceReferenceDate
++ _objc_msgSend$to
++ _objc_msgSend$unsignedIntValue
++ _objc_msgSend$unsignedIntegerValue
++ _objc_msgSend$useOwnThreadPerTrack
++ _objc_msgSend$writeBareVarint:
++ _objc_msgSend$writeTo:
++ _objc_msgSend$writerInputs
++ _objc_opt_self
++ _objc_retainAutoreleaseReturnValue
++ _objc_retain_x3
++ _objc_retain_x4
++ _objc_retain_x5
++ _objc_setProperty_nonatomic_copy
++ _objc_storeWeak
++ _os_unfair_lock_lock
++ _os_unfair_lock_unlock
++ _os_variant_is_darwinos
++ _ps_resource_fastpath_reader_get_next_sample
++ _ps_resource_get_fastpath_reader
++ _strstr
+- +[RYFTimedValue classes]
+- +[RYFTimedValue supportsSecureCoding]
+- -[RYFTimedValue .cxx_destruct]
+- -[RYFTimedValue attachments]
+- -[RYFTimedValue dictionary]
+- -[RYFTimedValue encodeWithCoder:]
+- -[RYFTimedValue initWithCoder:]
+- -[RYFTimedValue initWithDictionary:]
+- -[RYFTimedValue init]
+- -[RYFTimedValue setAttachments:]
+- -[RYFTimedValue setSyncTimestamp:]
+- -[RYFTimedValue setTimestamp:]
+- -[RYFTimedValue setValue:]
+- -[RYFTimedValue syncTimestamp]
+- -[RYFTimedValue timestamp]
+- -[RYFTimedValue value]
+- GCC_except_table101
+- GCC_except_table103
+- GCC_except_table120
+- GCC_except_table124
+- GCC_except_table129
+- GCC_except_table130
+- GCC_except_table136
+- GCC_except_table137
+- GCC_except_table83
+- GCC_except_table84
+- GCC_except_table96
+- GCC_except_table97
+- _CurrentRoyaFormatVersionNumber
+- _OBJC_CLASS_$_RYFTimedValue
+- _OBJC_IVAR_$_RYFTimedValue._attachments
+- _OBJC_IVAR_$_RYFTimedValue._syncTimestamp
+- _OBJC_IVAR_$_RYFTimedValue._timestamp
+- _OBJC_IVAR_$_RYFTimedValue._value
+- _OBJC_METACLASS_$_RYFTimedValue
+- _OUTLINED_FUNCTION_5
+- _OUTLINED_FUNCTION_6
+- _OUTLINED_FUNCTION_7
+- _PLSResourceKeyFastIMU800
+- _PLSResourceKeyVsync
+- _RYFARAnchorClassNameARAppleDeviceAnchor
+- _RYFARAnchorClassNameARBodyAnchor
+- _RYFARAnchorClassNameARCameraAnchor
+- _RYFARAnchorClassNameAREyeAnchor
+- _RYFARAnchorClassNameARFaceAnchor
+- _RYFARAnchorClassNameARHandAnchor
+- _RYFARAnchorClassNameARImageAnchor
+- _RYFARAnchorClassNameARMeshAnchor
+- _RYFARAnchorClassNameARPlaneAnchor
+- _RYFRealityTrackDataIdentifierARAnchorHand
+- _RYFRealityTrackDataIdentifierARAnchorPlane
+- _RYFRealityTrackDataIdentifierARAnchorUUID
+- _RYFRealityTrackDataIdentifierARDataAnchorHand
+- _RYFRealityTrackDataIdentifierARDataAnchorHand_V2_1
+- _RYFRealityTrackDataIdentifierARDataAnchorHand_V2_2
+- _RYFRealityTrackDataIdentifierARDataAnchorPlane
+- _RYFRealityTrackDataIdentifierARDataAnchorPlane_V2_1
+- _RYFRealityTrackDataIdentifierARDataAnchorPlane_V2_2
+- _RYFRealityTrackDataIdentifierARDataAnchorUUID
+- _RYFRealityTrackDataIdentifierARDataAnchorUUID_V2_1
+- _RYFRealityTrackDataIdentifierARDataAnchorUUID_V2_2
+- _RYFRealityTrackDataIdentifierARDataPoseGazeCenter
+- _RYFRealityTrackDataIdentifierARDataPoseGazeCenter_V2_1
+- _RYFRealityTrackDataIdentifierARDataPoseGazeCenter_V2_2
+- _RYFRealityTrackDataIdentifierARDataPoseGazeLeft
+- _RYFRealityTrackDataIdentifierARDataPoseGazeLeft_V2_1
+- _RYFRealityTrackDataIdentifierARDataPoseGazeLeft_V2_2
+- _RYFRealityTrackDataIdentifierARDataPoseGazeRight
+- _RYFRealityTrackDataIdentifierARDataPoseGazeRight_V2_1
+- _RYFRealityTrackDataIdentifierARDataPoseGazeRight_V2_2
+- _RYFRealityTrackDataIdentifierARDataPoseHead
+- _RYFRealityTrackDataIdentifierARDataPoseHead_V2_1
+- _RYFRealityTrackDataIdentifierARDataPoseHead_V2_2
+- _RYFRealityTrackDataIdentifierARPoseCenterGaze
+- _RYFRealityTrackDataIdentifierARPoseHead
+- _RYFRealityTrackDataIdentifierARPoseLeftGaze
+- _RYFRealityTrackDataIdentifierARPoseRightGaze
+- _RYFRealityTrackDataIdentifierAssetsAdd
+- _RYFRealityTrackDataIdentifierAssetsRemove
+- _RYFRealityTrackDataIdentifierMetadataAssetDependenciesLookup
+- _RYFRealityTrackDataIdentifierMetadataAssetFilePathLookup
+- _RYFRealityTrackDataIdentifierMetadataAssetLoadDescriptorLookup
+- _RYFRealityTrackDataIdentifierMetadataSceneComponents
+- _RYFRealityTrackDataIdentifierMetadataSceneMeshAssetURLLookup
+- _RYFRealityTrackDataIdentifierMetadataSceneSnapshots
+- _RYFRealityTrackDataIdentifierREAssetsAdd
+- _RYFRealityTrackDataIdentifierREAssetsAdd_V2_1
+- _RYFRealityTrackDataIdentifierREAssetsAdd_V2_2
+- _RYFRealityTrackDataIdentifierREAssetsRemove
+- _RYFRealityTrackDataIdentifierREAssetsRemove_V2_1
+- _RYFRealityTrackDataIdentifierREAssetsRemove_V2_2
+- _RYFRealityTrackDataIdentifierREMetadataAssetDependenciesLookup
+- _RYFRealityTrackDataIdentifierREMetadataAssetDependenciesLookup_V2_1
+- _RYFRealityTrackDataIdentifierREMetadataAssetDependenciesLookup_V2_2
+- _RYFRealityTrackDataIdentifierREMetadataAssetFilePathLookup
+- _RYFRealityTrackDataIdentifierREMetadataAssetFilePathLookup_V2_1
+- _RYFRealityTrackDataIdentifierREMetadataAssetFilePathLookup_V2_2
+- _RYFRealityTrackDataIdentifierREMetadataAssetLoadDescriptorLookup
+- _RYFRealityTrackDataIdentifierREMetadataAssetLoadDescriptorLookup_V2_1
+- _RYFRealityTrackDataIdentifierREMetadataAssetLoadDescriptorLookup_V2_2
+- _RYFRealityTrackDataIdentifierREMetadataSceneComponents
+- _RYFRealityTrackDataIdentifierREMetadataSceneComponents_V2_1
+- _RYFRealityTrackDataIdentifierREMetadataSceneComponents_V2_2
+- _RYFRealityTrackDataIdentifierREMetadataSceneMeshAssetURLLookup
+- _RYFRealityTrackDataIdentifierREMetadataSceneMeshAssetURLLookup_V2_1
+- _RYFRealityTrackDataIdentifierREMetadataSceneMeshAssetURLLookup_V2_2
+- _RYFRealityTrackDataIdentifierREMetadataSceneSnapshots
+- _RYFRealityTrackDataIdentifierREMetadataSceneSnapshots_V2_1
+- _RYFRealityTrackDataIdentifierREMetadataSceneSnapshots_V2_2
+- _RYFRealityTrackDataIdentifierRESceneFrameDataDelta
+- _RYFRealityTrackDataIdentifierRESceneFrameDataDelta_V2_1
+- _RYFRealityTrackDataIdentifierRESceneFrameDataDelta_V2_2
+- _RYFRealityTrackDataIdentifierRESceneFrameDataSnapshot
+- _RYFRealityTrackDataIdentifierRESceneFrameDataSnapshot_V2_1
+- _RYFRealityTrackDataIdentifierRESceneFrameDataSnapshot_V2_2
+- _RYFRealityTrackDataIdentifierRESceneFrameTimestamp
+- _RYFRealityTrackDataIdentifierRESceneFrameTimestamp_V2_1
+- _RYFRealityTrackDataIdentifierRESceneFrameTimestamp_V2_2
+- _RYFRealityTrackDataIdentifierRESceneFrameType
+- _RYFRealityTrackDataIdentifierRESceneFrameType_V2_1
+- _RYFRealityTrackDataIdentifierRESceneFrameType_V2_2
+- _RYFRealityTrackDataIdentifierRESceneKeyFrameType
+- _RYFRealityTrackDataIdentifierRESceneKeyFrameType_V2_1
+- _RYFRealityTrackDataIdentifierRESceneKeyFrameType_V2_2
+- _RYFRealityTrackDataIdentifierSceneFrameDataDelta
+- _RYFRealityTrackDataIdentifierSceneFrameDataSnapshot
+- _RYFRealityTrackDataIdentifierSceneFrameTimestamp
+- _RYFRealityTrackDataIdentifierSceneFrameType
+- _RYFRealityTrackDataIdentifierSceneKeyFrameType
+- _RYFTrackNameARData
+- _RYFTrackNameARDataBodyAnchors
+- _RYFTrackNameARDataBodyAnchors_V2_2
+- _RYFTrackNameARDataCameraAnchors
+- _RYFTrackNameARDataCameraAnchors_V2_2
+- _RYFTrackNameARDataClientAppleDeviceAnchors
+- _RYFTrackNameARDataClientAppleDeviceAnchors_V2_3
+- _RYFTrackNameARDataClientImageAnchors
+- _RYFTrackNameARDataClientImageAnchors_V2_3
+- _RYFTrackNameARDataDeviceTransform
+- _RYFTrackNameARDataDeviceTransform_V2_3
+- _RYFTrackNameARDataEyeAnchors
+- _RYFTrackNameARDataEyeAnchors_V2_2
+- _RYFTrackNameARDataFaceAnchors
+- _RYFTrackNameARDataFaceAnchors_V2_2
+- _RYFTrackNameARDataHandAnchors
+- _RYFTrackNameARDataHandAnchors_V2_2
+- _RYFTrackNameARDataImageAnchors
+- _RYFTrackNameARDataImageAnchors_V2_2
+- _RYFTrackNameARDataMeshAnchors
+- _RYFTrackNameARDataMeshAnchors_V2_3
+- _RYFTrackNameARDataPlaneAnchors
+- _RYFTrackNameARDataPlaneAnchors_V2_2
+- _RYFTrackNameARData_V2_1
+- _RYFTrackNameARData_V2_2
+- _RYFTrackNameAudioApp2Prefix
+- _RYFTrackNameAudioApp2Prefix_V2_1
+- _RYFTrackNameAudioOutput2
+- _RYFTrackNameAudioOutput2_V2_1
+- _RYFTrackNameAudioOutput2_V2_2
+- _RYFTrackNameAudioSystem2
+- _RYFTrackNameAudioSystem2_V2_1
+- _RYFTrackNameAudioSystem2_V2_2
+- _RYFTrackNameAudioSystem9
+- _RYFTrackNameAudioSystem9_V2_1
+- _RYFTrackNameAudioSystem9_V2_2
+- _RYFTrackNameAudioSystemBinaural2
+- _RYFTrackNameAudioSystemBinaural2_V2_1
+- _RYFTrackNameAudioVoice
+- _RYFTrackNameAudioVoiceBinaural2
+- _RYFTrackNameAudioVoiceBinaural2_V2_1
+- _RYFTrackNameAudioVoiceFOA4
+- _RYFTrackNameAudioVoiceFOA4_V2_1
+- _RYFTrackNameAudioVoiceSpatial6
+- _RYFTrackNameAudioVoiceSpatial6_V2_1
+- _RYFTrackNameAudioVoice_V2_1
+- _RYFTrackNameAudioVoice_V2_2
+- _RYFTrackNameCVCalibration
+- _RYFTrackNameCVCalibration_V2_1
+- _RYFTrackNameCVCalibration_V2_2
+- _RYFTrackNameCameraBEyeL_IID
+- _RYFTrackNameCameraBEyeL_IID_V2_1
+- _RYFTrackNameCameraBEyeL_IID_V2_2
+- _RYFTrackNameCameraBEyeL_IID_V2_3
+- _RYFTrackNameCameraBEyeL_OID
+- _RYFTrackNameCameraBEyeL_OID_V2_3
+- _RYFTrackNameCameraBEyeL_RAW
+- _RYFTrackNameCameraBEyeL_RAW_V2_3
+- _RYFTrackNameCameraBEyeL_S1
+- _RYFTrackNameCameraBEyeL_S1_V2_1
+- _RYFTrackNameCameraBEyeL_S1_V2_2
+- _RYFTrackNameCameraBEyeL_S2
+- _RYFTrackNameCameraBEyeL_S2BU
+- _RYFTrackNameCameraBEyeL_S2BUC
+- _RYFTrackNameCameraBEyeL_S2BUC_V2_3
+- _RYFTrackNameCameraBEyeL_S2BU_V2_3
+- _RYFTrackNameCameraBEyeL_S2U
+- _RYFTrackNameCameraBEyeL_S2U21
+- _RYFTrackNameCameraBEyeL_S2U21_V2_3
+- _RYFTrackNameCameraBEyeL_S2U52
+- _RYFTrackNameCameraBEyeL_S2U52P
+- _RYFTrackNameCameraBEyeL_S2U52P_V2_3
+- _RYFTrackNameCameraBEyeL_S2U52_V2_3
+- _RYFTrackNameCameraBEyeL_S2UC
+- _RYFTrackNameCameraBEyeL_S2UC_V2_3
+- _RYFTrackNameCameraBEyeL_S2U_V2_3
+- _RYFTrackNameCameraBEyeL_S2_V2_1
+- _RYFTrackNameCameraBEyeL_S2_V2_2
+- _RYFTrackNameCameraBEyeR_IID
+- _RYFTrackNameCameraBEyeR_IID_V2_1
+- _RYFTrackNameCameraBEyeR_IID_V2_2
+- _RYFTrackNameCameraBEyeR_IID_V2_3
+- _RYFTrackNameCameraBEyeR_OID
+- _RYFTrackNameCameraBEyeR_OID_V2_3
+- _RYFTrackNameCameraBEyeR_RAW
+- _RYFTrackNameCameraBEyeR_RAW_V2_3
+- _RYFTrackNameCameraBEyeR_S1
+- _RYFTrackNameCameraBEyeR_S1_V2_1
+- _RYFTrackNameCameraBEyeR_S1_V2_2
+- _RYFTrackNameCameraBEyeR_S2
+- _RYFTrackNameCameraBEyeR_S2BU
+- _RYFTrackNameCameraBEyeR_S2BUC
+- _RYFTrackNameCameraBEyeR_S2BUC_V2_3
+- _RYFTrackNameCameraBEyeR_S2BU_V2_3
+- _RYFTrackNameCameraBEyeR_S2U
+- _RYFTrackNameCameraBEyeR_S2U21
+- _RYFTrackNameCameraBEyeR_S2U21_V2_3
+- _RYFTrackNameCameraBEyeR_S2U52
+- _RYFTrackNameCameraBEyeR_S2U52P
+- _RYFTrackNameCameraBEyeR_S2U52P_V2_3
+- _RYFTrackNameCameraBEyeR_S2U52_V2_3
+- _RYFTrackNameCameraBEyeR_S2UC
+- _RYFTrackNameCameraBEyeR_S2UC_V2_3
+- _RYFTrackNameCameraBEyeR_S2U_V2_3
+- _RYFTrackNameCameraBEyeR_S2_V2_1
+- _RYFTrackNameCameraBEyeR_S2_V2_2
+- _RYFTrackNameCameraBrowL_S1
+- _RYFTrackNameCameraBrowL_S1_V2_1
+- _RYFTrackNameCameraBrowL_S1_V2_2
+- _RYFTrackNameCameraBrowR_S1
+- _RYFTrackNameCameraBrowR_S1_V2_1
+- _RYFTrackNameCameraBrowR_S1_V2_2
+- _RYFTrackNameCameraDisplayLoopbackL
+- _RYFTrackNameCameraDisplayLoopbackR
+- _RYFTrackNameCameraDisplayWritebackL
+- _RYFTrackNameCameraDisplayWritebackR
+- _RYFTrackNameCameraDownL_Desgen
+- _RYFTrackNameCameraDownL_Desgen_V2_3
+- _RYFTrackNameCameraDownL_RAW
+- _RYFTrackNameCameraDownL_RAW_V2_3
+- _RYFTrackNameCameraDownL_S1
+- _RYFTrackNameCameraDownL_S1_V2_1
+- _RYFTrackNameCameraDownL_S1_V2_2
+- _RYFTrackNameCameraDownL_S2
+- _RYFTrackNameCameraDownL_S2BU
+- _RYFTrackNameCameraDownL_S2BU_V2_3
+- _RYFTrackNameCameraDownL_S2BW
+- _RYFTrackNameCameraDownL_S2BWP
+- _RYFTrackNameCameraDownL_S2BWP_V2_3
+- _RYFTrackNameCameraDownL_S2BW_V2_3
+- _RYFTrackNameCameraDownL_S2U
+- _RYFTrackNameCameraDownL_S2U21
+- _RYFTrackNameCameraDownL_S2U21_V2_3
+- _RYFTrackNameCameraDownL_S2U_V2_3
+- _RYFTrackNameCameraDownL_S2W
+- _RYFTrackNameCameraDownL_S2WP
+- _RYFTrackNameCameraDownL_S2WP_V2_3
+- _RYFTrackNameCameraDownL_S2W_V2_3
+- _RYFTrackNameCameraDownL_S2_V2_1
+- _RYFTrackNameCameraDownL_S2_V2_2
+- _RYFTrackNameCameraDownR_Desgen
+- _RYFTrackNameCameraDownR_Desgen_V2_3
+- _RYFTrackNameCameraDownR_RAW
+- _RYFTrackNameCameraDownR_RAW_V2_3
+- _RYFTrackNameCameraDownR_S1
+- _RYFTrackNameCameraDownR_S1_V2_1
+- _RYFTrackNameCameraDownR_S1_V2_2
+- _RYFTrackNameCameraDownR_S2
+- _RYFTrackNameCameraDownR_S2BU
+- _RYFTrackNameCameraDownR_S2BU_V2_3
+- _RYFTrackNameCameraDownR_S2BW
+- _RYFTrackNameCameraDownR_S2BWP
+- _RYFTrackNameCameraDownR_S2BWP_V2_3
+- _RYFTrackNameCameraDownR_S2BW_V2_3
+- _RYFTrackNameCameraDownR_S2U
+- _RYFTrackNameCameraDownR_S2U21
+- _RYFTrackNameCameraDownR_S2U21_V2_3
+- _RYFTrackNameCameraDownR_S2U_V2_3
+- _RYFTrackNameCameraDownR_S2W
+- _RYFTrackNameCameraDownR_S2WP
+- _RYFTrackNameCameraDownR_S2WP_V2_3
+- _RYFTrackNameCameraDownR_S2W_V2_3
+- _RYFTrackNameCameraDownR_S2_V2_1
+- _RYFTrackNameCameraDownR_S2_V2_2
+- _RYFTrackNameCameraEyeL_IID
+- _RYFTrackNameCameraEyeL_IID_V2_1
+- _RYFTrackNameCameraEyeL_IID_V2_2
+- _RYFTrackNameCameraEyeL_S1
+- _RYFTrackNameCameraEyeL_S1_V2_1
+- _RYFTrackNameCameraEyeL_S1_V2_2
+- _RYFTrackNameCameraEyeL_S2
+- _RYFTrackNameCameraEyeL_S2_V2_1
+- _RYFTrackNameCameraEyeL_S2_V2_2
+- _RYFTrackNameCameraEyeR_IID
+- _RYFTrackNameCameraEyeR_IID_V2_1
+- _RYFTrackNameCameraEyeR_IID_V2_2
+- _RYFTrackNameCameraEyeR_S1
+- _RYFTrackNameCameraEyeR_S1_V2_1
+- _RYFTrackNameCameraEyeR_S1_V2_2
+- _RYFTrackNameCameraEyeR_S2
+- _RYFTrackNameCameraEyeR_S2_V2_1
+- _RYFTrackNameCameraEyeR_S2_V2_2
+- _RYFTrackNameCameraGridView
+- _RYFTrackNameCameraGridView_V2_1
+- _RYFTrackNameCameraGridView_V2_2
+- _RYFTrackNameCameraJasperTOF
+- _RYFTrackNameCameraJasperTOF_V2_1
+- _RYFTrackNameCameraJasperTOF_V2_2
+- _RYFTrackNameCameraJasper_PointCloud
+- _RYFTrackNameCameraJasper_PointCloud_V2_3
+- _RYFTrackNameCameraJasper_RAW
+- _RYFTrackNameCameraJasper_RAW_V2_3
+- _RYFTrackNameCameraJawL_RAW
+- _RYFTrackNameCameraJawL_RAW_V2_3
+- _RYFTrackNameCameraJawL_S1
+- _RYFTrackNameCameraJawL_S1_V2_1
+- _RYFTrackNameCameraJawL_S1_V2_2
+- _RYFTrackNameCameraJawL_S2
+- _RYFTrackNameCameraJawL_S2BU
+- _RYFTrackNameCameraJawL_S2BU_V2_3
+- _RYFTrackNameCameraJawL_S2BW
+- _RYFTrackNameCameraJawL_S2BWP
+- _RYFTrackNameCameraJawL_S2BWP_V2_3
+- _RYFTrackNameCameraJawL_S2BW_V2_3
+- _RYFTrackNameCameraJawL_S2U
+- _RYFTrackNameCameraJawL_S2U21
+- _RYFTrackNameCameraJawL_S2U21_V2_3
+- _RYFTrackNameCameraJawL_S2U_V2_3
+- _RYFTrackNameCameraJawL_S2W
+- _RYFTrackNameCameraJawL_S2WP
+- _RYFTrackNameCameraJawL_S2WP_V2_3
+- _RYFTrackNameCameraJawL_S2W_V2_3
+- _RYFTrackNameCameraJawL_S2_V2_1
+- _RYFTrackNameCameraJawL_S2_V2_2
+- _RYFTrackNameCameraJawR_RAW
+- _RYFTrackNameCameraJawR_RAW_V2_3
+- _RYFTrackNameCameraJawR_S1
+- _RYFTrackNameCameraJawR_S1_V2_1
+- _RYFTrackNameCameraJawR_S1_V2_2
+- _RYFTrackNameCameraJawR_S2
+- _RYFTrackNameCameraJawR_S2BU
+- _RYFTrackNameCameraJawR_S2BU_V2_3
+- _RYFTrackNameCameraJawR_S2BW
+- _RYFTrackNameCameraJawR_S2BWP
+- _RYFTrackNameCameraJawR_S2BWP_V2_3
+- _RYFTrackNameCameraJawR_S2BW_V2_3
+- _RYFTrackNameCameraJawR_S2U
+- _RYFTrackNameCameraJawR_S2U21
+- _RYFTrackNameCameraJawR_S2U21_V2_3
+- _RYFTrackNameCameraJawR_S2U_V2_3
+- _RYFTrackNameCameraJawR_S2W
+- _RYFTrackNameCameraJawR_S2WP
+- _RYFTrackNameCameraJawR_S2WP_V2_3
+- _RYFTrackNameCameraJawR_S2W_V2_3
+- _RYFTrackNameCameraJawR_S2_V2_1
+- _RYFTrackNameCameraJawR_S2_V2_2
+- _RYFTrackNameCameraMainL
+- _RYFTrackNameCameraMainL_Desgen
+- _RYFTrackNameCameraMainL_Desgen_V2_3
+- _RYFTrackNameCameraMainL_PT
+- _RYFTrackNameCameraMainL_PT_V2_3
+- _RYFTrackNameCameraMainL_RAW
+- _RYFTrackNameCameraMainL_RAW_V2_3
+- _RYFTrackNameCameraMainL_S1
+- _RYFTrackNameCameraMainL_S1_V2_1
+- _RYFTrackNameCameraMainL_S1_V2_2
+- _RYFTrackNameCameraMainL_S2
+- _RYFTrackNameCameraMainL_S2_V2_1
+- _RYFTrackNameCameraMainL_S2_V2_2
+- _RYFTrackNameCameraMainL_S3
+- _RYFTrackNameCameraMainL_S3R
+- _RYFTrackNameCameraMainL_S3R_V2_1
+- _RYFTrackNameCameraMainL_S3R_V2_2
+- _RYFTrackNameCameraMainL_S3W
+- _RYFTrackNameCameraMainL_S3WP
+- _RYFTrackNameCameraMainL_S3WP_V2_3
+- _RYFTrackNameCameraMainL_S3WR
+- _RYFTrackNameCameraMainL_S3WR31
+- _RYFTrackNameCameraMainL_S3WR31_V2_3
+- _RYFTrackNameCameraMainL_S3WRP_1
+- _RYFTrackNameCameraMainL_S3WRP_1_V2_3
+- _RYFTrackNameCameraMainL_S3WR_10
+- _RYFTrackNameCameraMainL_S3WR_10_V2_3
+- _RYFTrackNameCameraMainL_S3WR_V2_3
+- _RYFTrackNameCameraMainL_S3W_V2_3
+- _RYFTrackNameCameraMainL_S3_V2_1
+- _RYFTrackNameCameraMainL_S3_V2_2
+- _RYFTrackNameCameraMainL_S4
+- _RYFTrackNameCameraMainL_S4W
+- _RYFTrackNameCameraMainL_S4W_V2_3
+- _RYFTrackNameCameraMainL_S4_V2_1
+- _RYFTrackNameCameraMainL_S4_V2_2
+- _RYFTrackNameCameraMainL_S5
+- _RYFTrackNameCameraMainL_S5_V2_1
+- _RYFTrackNameCameraMainL_S5_V2_2
+- _RYFTrackNameCameraMainL_S6
+- _RYFTrackNameCameraMainL_S6_V2_1
+- _RYFTrackNameCameraMainL_S6_V2_2
+- _RYFTrackNameCameraMainL_S8
+- _RYFTrackNameCameraMainL_S8U
+- _RYFTrackNameCameraMainL_S8U41_10
+- _RYFTrackNameCameraMainL_S8U41_10_V2_3
+- _RYFTrackNameCameraMainL_S8U_1
+- _RYFTrackNameCameraMainL_S8U_10
+- _RYFTrackNameCameraMainL_S8U_10_V2_3
+- _RYFTrackNameCameraMainL_S8U_1_V2_3
+- _RYFTrackNameCameraMainL_S8U_V2_3
+- _RYFTrackNameCameraMainL_S8WP_1
+- _RYFTrackNameCameraMainL_S8WP_1_V2_3
+- _RYFTrackNameCameraMainL_S8W_1
+- _RYFTrackNameCameraMainL_S8W_1_V2_3
+- _RYFTrackNameCameraMainL_S8_V2_1
+- _RYFTrackNameCameraMainL_S8_V2_2
+- _RYFTrackNameCameraMainL_V2_1
+- _RYFTrackNameCameraMainL_V2_2
+- _RYFTrackNameCameraMainR
+- _RYFTrackNameCameraMainR_Desgen
+- _RYFTrackNameCameraMainR_Desgen_V2_3
+- _RYFTrackNameCameraMainR_PT
+- _RYFTrackNameCameraMainR_PT_V2_3
+- _RYFTrackNameCameraMainR_RAW
+- _RYFTrackNameCameraMainR_RAW_V2_3
+- _RYFTrackNameCameraMainR_S1
+- _RYFTrackNameCameraMainR_S1_V2_1
+- _RYFTrackNameCameraMainR_S1_V2_2
+- _RYFTrackNameCameraMainR_S2
+- _RYFTrackNameCameraMainR_S2_V2_1
+- _RYFTrackNameCameraMainR_S2_V2_2
+- _RYFTrackNameCameraMainR_S3
+- _RYFTrackNameCameraMainR_S3R
+- _RYFTrackNameCameraMainR_S3R_V2_1
+- _RYFTrackNameCameraMainR_S3R_V2_2
+- _RYFTrackNameCameraMainR_S3W
+- _RYFTrackNameCameraMainR_S3WP
+- _RYFTrackNameCameraMainR_S3WP_V2_3
+- _RYFTrackNameCameraMainR_S3WR
+- _RYFTrackNameCameraMainR_S3WR31
+- _RYFTrackNameCameraMainR_S3WR31_V2_3
+- _RYFTrackNameCameraMainR_S3WRP_1
+- _RYFTrackNameCameraMainR_S3WRP_1_V2_3
+- _RYFTrackNameCameraMainR_S3WR_10
+- _RYFTrackNameCameraMainR_S3WR_10_V2_3
+- _RYFTrackNameCameraMainR_S3WR_V2_3
+- _RYFTrackNameCameraMainR_S3W_V2_3
+- _RYFTrackNameCameraMainR_S3_V2_1
+- _RYFTrackNameCameraMainR_S3_V2_2
+- _RYFTrackNameCameraMainR_S4
+- _RYFTrackNameCameraMainR_S4W
+- _RYFTrackNameCameraMainR_S4W_V2_3
+- _RYFTrackNameCameraMainR_S4_V2_1
+- _RYFTrackNameCameraMainR_S4_V2_2
+- _RYFTrackNameCameraMainR_S5
+- _RYFTrackNameCameraMainR_S5_V2_1
+- _RYFTrackNameCameraMainR_S5_V2_2
+- _RYFTrackNameCameraMainR_S6
+- _RYFTrackNameCameraMainR_S6_V2_1
+- _RYFTrackNameCameraMainR_S6_V2_2
+- _RYFTrackNameCameraMainR_S8
+- _RYFTrackNameCameraMainR_S8U
+- _RYFTrackNameCameraMainR_S8U41_10
+- _RYFTrackNameCameraMainR_S8U41_10_V2_3
+- _RYFTrackNameCameraMainR_S8U_1
+- _RYFTrackNameCameraMainR_S8U_10
+- _RYFTrackNameCameraMainR_S8U_10_V2_3
+- _RYFTrackNameCameraMainR_S8U_1_V2_3
+- _RYFTrackNameCameraMainR_S8U_V2_3
+- _RYFTrackNameCameraMainR_S8WP_1
+- _RYFTrackNameCameraMainR_S8WP_1_V2_3
+- _RYFTrackNameCameraMainR_S8W_1
+- _RYFTrackNameCameraMainR_S8W_1_V2_3
+- _RYFTrackNameCameraMainR_S8_V2_1
+- _RYFTrackNameCameraMainR_S8_V2_2
+- _RYFTrackNameCameraMainR_V2_1
+- _RYFTrackNameCameraMainR_V2_2
+- _RYFTrackNameCameraMainS_PCE
+- _RYFTrackNameCameraMainS_PCE_V2_1
+- _RYFTrackNameCameraMainS_PCE_V2_2
+- _RYFTrackNameCameraMainS_STEREO_PCE
+- _RYFTrackNameCameraMainS_STEREO_PCE_V2_3
+- _RYFTrackNameCameraMattingL
+- _RYFTrackNameCameraMattingL_V2_1
+- _RYFTrackNameCameraMattingR
+- _RYFTrackNameCameraMattingR_V2_1
+- _RYFTrackNameCameraMattingS
+- _RYFTrackNameCameraMattingS_V2_1
+- _RYFTrackNameCameraMetricDepth
+- _RYFTrackNameCameraMixedL
+- _RYFTrackNameCameraMixedL_V2_1
+- _RYFTrackNameCameraMixedL_V2_2
+- _RYFTrackNameCameraMixedR
+- _RYFTrackNameCameraMixedR_V2_1
+- _RYFTrackNameCameraMixedR_V2_2
+- _RYFTrackNameCameraMixedS
+- _RYFTrackNameCameraMixedS_V2_1
+- _RYFTrackNameCameraMixedS_V2_2
+- _RYFTrackNameCameraNEyeL_BOC
+- _RYFTrackNameCameraNEyeL_BOC_V2_3
+- _RYFTrackNameCameraNEyeL_IID
+- _RYFTrackNameCameraNEyeL_IID_V2_3
+- _RYFTrackNameCameraNEyeL_OC
+- _RYFTrackNameCameraNEyeL_OC_V2_3
+- _RYFTrackNameCameraNEyeL_OID
+- _RYFTrackNameCameraNEyeL_OID_V2_3
+- _RYFTrackNameCameraNEyeL_RAW
+- _RYFTrackNameCameraNEyeL_RAW_V2_3
+- _RYFTrackNameCameraNEyeL_S2BU
+- _RYFTrackNameCameraNEyeL_S2BUC
+- _RYFTrackNameCameraNEyeL_S2BUC_V2_3
+- _RYFTrackNameCameraNEyeL_S2BU_V2_3
+- _RYFTrackNameCameraNEyeL_S2U
+- _RYFTrackNameCameraNEyeL_S2U21
+- _RYFTrackNameCameraNEyeL_S2U21_V2_3
+- _RYFTrackNameCameraNEyeL_S2U52
+- _RYFTrackNameCameraNEyeL_S2U52P
+- _RYFTrackNameCameraNEyeL_S2U52P_V2_3
+- _RYFTrackNameCameraNEyeL_S2U52_V2_3
+- _RYFTrackNameCameraNEyeL_S2UC
+- _RYFTrackNameCameraNEyeL_S2UC_V2_3
+- _RYFTrackNameCameraNEyeL_S2U_V2_3
+- _RYFTrackNameCameraNEyeR_BOC
+- _RYFTrackNameCameraNEyeR_BOC_V2_3
+- _RYFTrackNameCameraNEyeR_IID
+- _RYFTrackNameCameraNEyeR_IID_V2_3
+- _RYFTrackNameCameraNEyeR_OC
+- _RYFTrackNameCameraNEyeR_OC_V2_3
+- _RYFTrackNameCameraNEyeR_OID
+- _RYFTrackNameCameraNEyeR_OID_V2_3
+- _RYFTrackNameCameraNEyeR_RAW
+- _RYFTrackNameCameraNEyeR_RAW_V2_3
+- _RYFTrackNameCameraNEyeR_S2BU
+- _RYFTrackNameCameraNEyeR_S2BUC
+- _RYFTrackNameCameraNEyeR_S2BUC_V2_3
+- _RYFTrackNameCameraNEyeR_S2BU_V2_3
+- _RYFTrackNameCameraNEyeR_S2U
+- _RYFTrackNameCameraNEyeR_S2U21
+- _RYFTrackNameCameraNEyeR_S2U21_V2_3
+- _RYFTrackNameCameraNEyeR_S2U52
+- _RYFTrackNameCameraNEyeR_S2U52P
+- _RYFTrackNameCameraNEyeR_S2U52P_V2_3
+- _RYFTrackNameCameraNEyeR_S2U52_V2_3
+- _RYFTrackNameCameraNEyeR_S2UC
+- _RYFTrackNameCameraNEyeR_S2UC_V2_3
+- _RYFTrackNameCameraNEyeR_S2U_V2_3
+- _RYFTrackNameCameraPearl
+- _RYFTrackNameCameraPearlIR
+- _RYFTrackNameCameraPearlIR_V2_1
+- _RYFTrackNameCameraPearlIR_V2_2
+- _RYFTrackNameCameraPearl_DX
+- _RYFTrackNameCameraPearl_DX_V2_3
+- _RYFTrackNameCameraPearl_DY
+- _RYFTrackNameCameraPearl_DY_V2_3
+- _RYFTrackNameCameraPearl_Depth
+- _RYFTrackNameCameraPearl_Depth_V2_3
+- _RYFTrackNameCameraPearl_IRU
+- _RYFTrackNameCameraPearl_IRU_V2_3
+- _RYFTrackNameCameraPearl_IRW
+- _RYFTrackNameCameraPearl_IRW_V2_3
+- _RYFTrackNameCameraPearl_Score
+- _RYFTrackNameCameraPearl_Score_V2_3
+- _RYFTrackNameCameraPearl_V2_1
+- _RYFTrackNameCameraPearl_V2_2
+- _RYFTrackNameCameraSideL_Desgen
+- _RYFTrackNameCameraSideL_Desgen_V2_3
+- _RYFTrackNameCameraSideL_RAW
+- _RYFTrackNameCameraSideL_RAW_V2_3
+- _RYFTrackNameCameraSideL_S1
+- _RYFTrackNameCameraSideL_S1_V2_1
+- _RYFTrackNameCameraSideL_S1_V2_2
+- _RYFTrackNameCameraSideL_S2
+- _RYFTrackNameCameraSideL_S2BU
+- _RYFTrackNameCameraSideL_S2BU_V2_3
+- _RYFTrackNameCameraSideL_S2BW
+- _RYFTrackNameCameraSideL_S2BWP
+- _RYFTrackNameCameraSideL_S2BWP_V2_3
+- _RYFTrackNameCameraSideL_S2BW_V2_3
+- _RYFTrackNameCameraSideL_S2U
+- _RYFTrackNameCameraSideL_S2U21
+- _RYFTrackNameCameraSideL_S2U21_V2_3
+- _RYFTrackNameCameraSideL_S2U_V2_3
+- _RYFTrackNameCameraSideL_S2W
+- _RYFTrackNameCameraSideL_S2WP
+- _RYFTrackNameCameraSideL_S2WP_V2_3
+- _RYFTrackNameCameraSideL_S2W_V2_3
+- _RYFTrackNameCameraSideL_S2_V2_1
+- _RYFTrackNameCameraSideL_S2_V2_2
+- _RYFTrackNameCameraSideR_Desgen
+- _RYFTrackNameCameraSideR_Desgen_V2_3
+- _RYFTrackNameCameraSideR_RAW
+- _RYFTrackNameCameraSideR_RAW_V2_3
+- _RYFTrackNameCameraSideR_S1
+- _RYFTrackNameCameraSideR_S1_V2_1
+- _RYFTrackNameCameraSideR_S1_V2_2
+- _RYFTrackNameCameraSideR_S2
+- _RYFTrackNameCameraSideR_S2BU
+- _RYFTrackNameCameraSideR_S2BU_V2_3
+- _RYFTrackNameCameraSideR_S2BW
+- _RYFTrackNameCameraSideR_S2BWP
+- _RYFTrackNameCameraSideR_S2BWP_V2_3
+- _RYFTrackNameCameraSideR_S2BW_V2_3
+- _RYFTrackNameCameraSideR_S2U
+- _RYFTrackNameCameraSideR_S2U21
+- _RYFTrackNameCameraSideR_S2U21_V2_3
+- _RYFTrackNameCameraSideR_S2U_V2_3
+- _RYFTrackNameCameraSideR_S2W
+- _RYFTrackNameCameraSideR_S2WP
+- _RYFTrackNameCameraSideR_S2WP_V2_3
+- _RYFTrackNameCameraSideR_S2W_V2_3
+- _RYFTrackNameCameraSideR_S2_V2_1
+- _RYFTrackNameCameraSideR_S2_V2_2
+- _RYFTrackNameCameraVRAlphaL
+- _RYFTrackNameCameraVRAlphaL_V2_1
+- _RYFTrackNameCameraVRAlphaL_V2_2
+- _RYFTrackNameCameraVRAlphaR
+- _RYFTrackNameCameraVRAlphaR_V2_1
+- _RYFTrackNameCameraVRAlphaR_V2_2
+- _RYFTrackNameCameraVRColorAlphaL
+- _RYFTrackNameCameraVRColorAlphaL_V2_1
+- _RYFTrackNameCameraVRColorAlphaL_V2_2
+- _RYFTrackNameCameraVRColorAlphaR
+- _RYFTrackNameCameraVRColorAlphaR_V2_1
+- _RYFTrackNameCameraVRColorAlphaR_V2_2
+- _RYFTrackNameCameraVRColorL
+- _RYFTrackNameCameraVRColorL_V2_1
+- _RYFTrackNameCameraVRColorL_V2_2
+- _RYFTrackNameCameraVRColorR
+- _RYFTrackNameCameraVRColorR_V2_1
+- _RYFTrackNameCameraVRColorR_V2_2
+- _RYFTrackNameCameraVRDepthL
+- _RYFTrackNameCameraVRDepthL_V2_1
+- _RYFTrackNameCameraVRDepthL_V2_2
+- _RYFTrackNameCameraVRDepthR
+- _RYFTrackNameCameraVRDepthR_V2_1
+- _RYFTrackNameCameraVRDepthR_V2_2
+- _RYFTrackNameCameraVideoViewMattingAlphaL
+- _RYFTrackNameCameraVideoViewMattingAlphaL_V2_2
+- _RYFTrackNameCameraVideoViewMattingAlphaR
+- _RYFTrackNameCameraVideoViewMattingAlphaR_V2_2
+- _RYFTrackNameCameraVideoViewMattingAlphaS
+- _RYFTrackNameCameraVideoViewMattingAlphaS_V2_2
+- _RYFTrackNameCameraVideoViewMattingColorL
+- _RYFTrackNameCameraVideoViewMattingColorL_V2_2
+- _RYFTrackNameCameraVideoViewMattingColorR
+- _RYFTrackNameCameraVideoViewMattingColorR_V2_2
+- _RYFTrackNameCameraVideoViewMattingColorS
+- _RYFTrackNameCameraVideoViewMattingColorS_V2_2
+- _RYFTrackNameCameraVideoViewMattingL
+- _RYFTrackNameCameraVideoViewMattingL_V2_2
+- _RYFTrackNameCameraVideoViewMattingR
+- _RYFTrackNameCameraVideoViewMattingR_V2_2
+- _RYFTrackNameCameraVideoViewMattingS
+- _RYFTrackNameCameraVideoViewMattingS_V2_2
+- _RYFTrackNameCameraVideoViewVirtualAlphaL
+- _RYFTrackNameCameraVideoViewVirtualAlphaL_V2_2
+- _RYFTrackNameCameraVideoViewVirtualAlphaR
+- _RYFTrackNameCameraVideoViewVirtualAlphaR_V2_2
+- _RYFTrackNameCameraVideoViewVirtualAlphaS
+- _RYFTrackNameCameraVideoViewVirtualAlphaS_V2_2
+- _RYFTrackNameCameraVideoViewVirtualColorL
+- _RYFTrackNameCameraVideoViewVirtualColorL_V2_2
+- _RYFTrackNameCameraVideoViewVirtualColorR
+- _RYFTrackNameCameraVideoViewVirtualColorR_V2_2
+- _RYFTrackNameCameraVideoViewVirtualColorS
+- _RYFTrackNameCameraVideoViewVirtualColorS_V2_2
+- _RYFTrackNameCameraVideoViewVirtualL
+- _RYFTrackNameCameraVideoViewVirtualL_V2_2
+- _RYFTrackNameCameraVideoViewVirtualR
+- _RYFTrackNameCameraVideoViewVirtualR_V2_2
+- _RYFTrackNameCameraVideoViewVirtualS
+- _RYFTrackNameCameraVideoViewVirtualS_V2_2
+- _RYFTrackNameCameraVirtualL
+- _RYFTrackNameCameraVirtualL_V2_1
+- _RYFTrackNameCameraVirtualL_V2_2
+- _RYFTrackNameCameraVirtualR
+- _RYFTrackNameCameraVirtualR_V2_1
+- _RYFTrackNameCameraVirtualR_V2_2
+- _RYFTrackNameCameraVirtualS
+- _RYFTrackNameCameraVirtualS_V2_1
+- _RYFTrackNameCameraVirtualS_V2_2
+- _RYFTrackNameCameraWorldDepthL
+- _RYFTrackNameCameraWorldDepthL_V2_1
+- _RYFTrackNameCameraWorldDepthL_V2_2
+- _RYFTrackNameCameraWorldDepthR
+- _RYFTrackNameCameraWorldDepthR_V2_1
+- _RYFTrackNameCameraWorldDepthR_V2_2
+- _RYFTrackNameDeviceMotion_V2_3
+- _RYFTrackNameDeviceTransform
+- _RYFTrackNameDeviceTransform_V2_3
+- _RYFTrackNameFastPathCompass
+- _RYFTrackNameFastPathCompass_V2_3
+- _RYFTrackNameFastPathControlL
+- _RYFTrackNameFastPathControlL_V2_3
+- _RYFTrackNameFastPathControlR
+- _RYFTrackNameFastPathControlR_V2_3
+- _RYFTrackNameFastPathIMU
+- _RYFTrackNameFastPathIMU_V2_3
+- _RYFTrackNameGridViewCamera
+- _RYFTrackNameHIDALS
+- _RYFTrackNameHIDALS_V2_1
+- _RYFTrackNameHIDALS_V2_2
+- _RYFTrackNameHIDAccelerometer
+- _RYFTrackNameHIDAccelerometer_V2_1
+- _RYFTrackNameHIDAccelerometer_V2_2
+- _RYFTrackNameHIDCompass
+- _RYFTrackNameHIDCompass_V2_1
+- _RYFTrackNameHIDCompass_V2_2
+- _RYFTrackNameHIDGyroscope
+- _RYFTrackNameHIDGyroscope_V2_1
+- _RYFTrackNameHIDGyroscope_V2_2
+- _RYFTrackNameHIDMotion
+- _RYFTrackNameHIDMotion_V2_2
+- _RYFTrackNameIPD
+- _RYFTrackNameIPD_V2_1
+- _RYFTrackNameIPD_V2_2
+- _RYFTrackNameLTCTimecode
+- _RYFTrackNameLTCTimecode_V2_3
+- _RYFTrackNameLegacyAudioSystem12_V2_1
+- _RYFTrackNameLegacyAudioSystem12_V2_2
+- _RYFTrackNameLegacyMeasurementAudioSystem
+- _RYFTrackNameLegacyVoiceAudioSystem
+- _RYFTrackNameMRCameraLeft
+- _RYFTrackNameMRCameraRight
+- _RYFTrackNameMRCameraStereo
+- _RYFTrackNameManagedAssets
+- _RYFTrackNameManagedAssets_V2_3
+- _RYFTrackNameMattingCameraLeft
+- _RYFTrackNameMattingCameraRight
+- _RYFTrackNameMattingCameraStereo
+- _RYFTrackNameMeshPrefix
+- _RYFTrackNameMeshPrefix_V2_3
+- _RYFTrackNameMesh_CCAM_IRW
+- _RYFTrackNameMesh_CCAM_IRW_V2_3
+- _RYFTrackNameMesh_DCAML_S2BU_S2BW
+- _RYFTrackNameMesh_DCAML_S2BU_S2BW_V2_3
+- _RYFTrackNameMesh_DCAML_S2U_S2W
+- _RYFTrackNameMesh_DCAML_S2U_S2W_V2_3
+- _RYFTrackNameMesh_DCAMR_S2BU_S2BW
+- _RYFTrackNameMesh_DCAMR_S2BU_S2BW_V2_3
+- _RYFTrackNameMesh_DCAMR_S2U_S2W
+- _RYFTrackNameMesh_DCAMR_S2U_S2W_V2_3
+- _RYFTrackNameMesh_JASPER
+- _RYFTrackNameMesh_JASPER_V2_3
+- _RYFTrackNameMesh_JCAML_S2BU_S2BW
+- _RYFTrackNameMesh_JCAML_S2BU_S2BW_V2_3
+- _RYFTrackNameMesh_JCAML_S2U_S2W
+- _RYFTrackNameMesh_JCAML_S2U_S2W_V2_3
+- _RYFTrackNameMesh_JCAMR_S2BU_S2BW
+- _RYFTrackNameMesh_JCAMR_S2BU_S2BW_V2_3
+- _RYFTrackNameMesh_JCAMR_S2U_S2W
+- _RYFTrackNameMesh_JCAMR_S2U_S2W_V2_3
+- _RYFTrackNameMesh_MCAML_S3W_S3WR
+- _RYFTrackNameMesh_MCAML_S3W_S3WR31
+- _RYFTrackNameMesh_MCAML_S3W_S3WR31_FIXED_V2_3
+- _RYFTrackNameMesh_MCAML_S3W_S3WR31_V2_3
+- _RYFTrackNameMesh_MCAML_S3W_S3WR_V2_3
+- _RYFTrackNameMesh_MCAMR_S3W_S3WR
+- _RYFTrackNameMesh_MCAMR_S3W_S3WR31
+- _RYFTrackNameMesh_MCAMR_S3W_S3WR31_FIXED_V2_3
+- _RYFTrackNameMesh_MCAMR_S3W_S3WR31_V2_3
+- _RYFTrackNameMesh_MCAMR_S3W_S3WR_V2_3
+- _RYFTrackNameMesh_SCAML_S2BU_S2BW
+- _RYFTrackNameMesh_SCAML_S2BU_S2BW_V2_3
+- _RYFTrackNameMesh_SCAML_S2U_S2W
+- _RYFTrackNameMesh_SCAML_S2U_S2W_V2_3
+- _RYFTrackNameMesh_SCAMR_S2BU_S2BW
+- _RYFTrackNameMesh_SCAMR_S2BU_S2BW_V2_3
+- _RYFTrackNameMesh_SCAMR_S2U_S2W
+- _RYFTrackNameMesh_SCAMR_S2U_S2W_V2_3
+- _RYFTrackNameMesh_VMCAML_S3WR
+- _RYFTrackNameMesh_VMCAML_S3WR31
+- _RYFTrackNameMesh_VMCAML_S3WR31_FIXED_V2_3
+- _RYFTrackNameMesh_VMCAML_S3WR31_V2_3
+- _RYFTrackNameMesh_VMCAML_S3WR_V2_3
+- _RYFTrackNameMesh_VMCAMR_S3WR
+- _RYFTrackNameMesh_VMCAMR_S3WR31
+- _RYFTrackNameMesh_VMCAMR_S3WR31_FIXED_V2_3
+- _RYFTrackNameMesh_VMCAMR_S3WR31_V2_3
+- _RYFTrackNameMesh_VMCAMR_S3WR_V2_3
+- _RYFTrackNameMesh_WMCAML_S1
+- _RYFTrackNameMesh_WMCAML_S1_V2_3
+- _RYFTrackNameMesh_WMCAMR_S1
+- _RYFTrackNameMesh_WMCAMR_S1_V2_3
+- _RYFTrackNamePenrose
+- _RYFTrackNamePenrose_V2_2
+- _RYFTrackNamePolarisPrefix
+- _RYFTrackNamePolarisPrefix_V2_3
+- _RYFTrackNameREAssets
+- _RYFTrackNameREAssets_V2_1
+- _RYFTrackNameREAssets_V2_2
+- _RYFTrackNameRECALayer
+- _RYFTrackNameRECALayerMetadata
+- _RYFTrackNameRECALayerMetadata_V2_3
+- _RYFTrackNameRECALayer_V2_3
+- _RYFTrackNameREMetadata
+- _RYFTrackNameREMetadata_V2_1
+- _RYFTrackNameREMetadata_V2_2
+- _RYFTrackNameREScene
+- _RYFTrackNameREScene_V2_1
+- _RYFTrackNameREScene_V2_2
+- _RYFTrackNameRealityARData
+- _RYFTrackNameRealityAssets
+- _RYFTrackNameRealityMetadata
+- _RYFTrackNameRealityScene
+- _RYFTrackNameSpatialVideoS
+- _RYFTrackNameUserEvent
+- _RYFTrackNameUserEvent_V2_1
+- _RYFTrackNameUserEvent_V2_2
+- _RYFTrackNameVRAlphaLeft
+- _RYFTrackNameVRAlphaRight
+- _RYFTrackNameVRCameraLeft
+- _RYFTrackNameVRCameraRight
+- _RYFTrackNameVRCameraStereo
+- _RYFTrackNameVRColorAlphaLeft
+- _RYFTrackNameVRColorAlphaRight
+- _RYFTrackNameVRColorLeft
+- _RYFTrackNameVRColorRight
+- _RYFTrackNameVRDepthLeft
+- _RYFTrackNameVRDepthRight
+- _RYFTrackNameVSync
+- _RYFTrackNameVSync_V2_2
+- _RYFTrackNameWiFiScan_V2_3
+- _RYFTrackNameWorldDepthLeft
+- _RYFTrackNameWorldDepthRight
+- _RYFTrackShortNameARData
+- _RYFTrackShortNameARData_V2_1
+- _RYFTrackShortNameARData_V2_2
+- _RYFTrackShortNameREAssets
+- _RYFTrackShortNameREAssets_V2_1
+- _RYFTrackShortNameREAssets_V2_2
+- _RYFTrackShortNameREMetadata
+- _RYFTrackShortNameREMetadata_V2_1
+- _RYFTrackShortNameREMetadata_V2_2
+- _RYFTrackShortNameREScene
+- _RYFTrackShortNameREScene_V2_1
+- _RYFTrackShortNameREScene_V2_2
+- _RYFTrackShortNameRealityARData
+- _RYFTrackShortNameRealityAssets
+- _RYFTrackShortNameRealityMetadata
+- _RYFTrackShortNameRealityScene
+- __OBJC_$_CLASS_METHODS_RYFTimedValue
+- __OBJC_$_CLASS_PROP_LIST_NSSecureCoding
+- __OBJC_$_CLASS_PROP_LIST_RYFTimedValue
+- __OBJC_$_INSTANCE_METHODS_RYFTimedValue
+- __OBJC_$_INSTANCE_VARIABLES_RYFTimedValue
+- __OBJC_$_PROP_LIST_RYFTimedValue
+- __OBJC_$_PROTOCOL_CLASS_METHODS_NSSecureCoding
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSCoding
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NSCoding
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NSSecureCoding
+- __OBJC_$_PROTOCOL_REFS_NSSecureCoding
+- __OBJC_CLASS_PROTOCOLS_$_RYFTimedValue
+- __OBJC_CLASS_RO_$_RYFTimedValue
+- __OBJC_LABEL_PROTOCOL_$_NSCoding
+- __OBJC_LABEL_PROTOCOL_$_NSSecureCoding
+- __OBJC_METACLASS_RO_$_RYFTimedValue
+- __OBJC_PROTOCOL_$_NSCoding
+- __OBJC_PROTOCOL_$_NSSecureCoding
+- __ZN4roya11FrameDumper14OnDataReceivedEPNS_15PipelineContextEPNS_9FrameDataE
+- __ZN4roya11SessionBase17OnSessionFinishedERKNS_6StatusE
+- __ZN4roya11SessionBase24SetSessionFinishCallbackEPFvPvRKNS_6StatusEES1_
+- __ZN4roya11SessionBase24SetSessionFinishCallbackEPFvPvRKNS_6StatusEES1_.cold.1
+- __ZN4roya12GraphBuilder13CreateContextENS_9TrackTypeERKNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEERKNS2_13unordered_mapIS8_S8_NS2_4hashIS8_EENS2_8equal_toIS8_EENS6_INS2_4pairIS9_S8_EEEEEE
+- __ZN4roya12GraphBuilder14CreateDataSinkENS_8SinkTypeERKNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEE
+- __ZN4roya12GraphBuilderC2ENS_10DeviceTypeENS_8SinkTypeERKNSt3__112basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEE
+- __ZN4roya12MOVContainer10SetMOVSinkEPNS_7MOVSinkEPU28objcproto17OS_dispatch_queue8NSObject
+- __ZN4roya12MOVContainer15InitializeTrackEPNS_15PipelineContextEPNS_9FrameDataE.cold.3
+- __ZN4roya12MOVContainer30SubmitFirstFramesFromAllTracksEv.cold.1
+- __ZN4roya13CVBufferFrameC1ExP10__CVBuffer6CMTimeS3_NS_11FrameStatusE
+- __ZN4roya13CVBufferFrameC2ExP10__CVBuffer6CMTimeS3_NS_11FrameStatusE
+- __ZN4roya14AsyncOperation7ExecuteEPNS_15PipelineContextEPNS_9FrameDataE
+- __ZN4roya14AudioFrameDataC1ExP20opaqueCMSampleBuffer6CMTimeNS_11FrameStatusE
+- __ZN4roya14AudioFrameDataC2ExP20opaqueCMSampleBuffer6CMTimeNS_11FrameStatusE
+- __ZN4roya14VideoFrameDataC1ExP10__CVBuffer6CMTimeS3_NS_11FrameStatusE
+- __ZN4roya14VideoFrameDataC2ExP10__CVBuffer6CMTimeS3_NS_11FrameStatusE
+- __ZN4roya15DataSourceProxy6CreateERKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEENS_9TrackTypeEPvPFbSB_NS_16NotificationTypeEE
+- __ZN4roya15PipelineContext17SetPrevFrameIndexEx
+- __ZN4roya15SimpleFrameDataC1ExbPKvm6CMTimeS3_NS_11FrameStatusE
+- __ZN4roya15SimpleFrameDataC2ExbPKvm6CMTimeS3_NS_11FrameStatusE
+- __ZN4roya15TrackDefinitionC2ERKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEENS_9TrackTypeES9_b
+- __ZN4roya16CreateMOVKitSinkERKNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEE
+- __ZN4roya16SessionProxyImpl24SetSessionFinishCallbackEPFvPvRKNS_6StatusEES1_
+- __ZN4roya16SessionProxyImpl28defaultSessionFinishCallbackEPvRKNS_6StatusE
+- __ZN4roya16SessionProxyImpl28defaultSessionFinishCallbackEPvRKNS_6StatusE.cold.1
+- __ZN4roya16SessionProxyImpl29SetSessionFinishCallbackSwiftEPFvPvNS_6Status4CodeEPKcES1_
+- __ZN4roya16SessionProxyImpl5StartEx
+- __ZN4roya18GraphBuilderForiOSC1ENS_10DeviceTypeENS_8SinkTypeERKNSt3__112basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEE
+- __ZN4roya18GraphBuilderForiOSC2ENS_10DeviceTypeENS_8SinkTypeERKNSt3__112basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEE
+- __ZN4roya19DataSourceProxyImplC1ERKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEENS_9TrackTypeEPvPFbSB_NS_16NotificationTypeEE
+- __ZN4roya19DataSourceProxyImplC2ERKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEENS_9TrackTypeEPvPFbSB_NS_16NotificationTypeEE
+- __ZN4roya20AudioPipelineContextC1ERKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEERKNS1_13unordered_mapIS7_S7_NS1_4hashIS7_EENS1_8equal_toIS7_EENS5_INS1_4pairIS8_S7_EEEEEE
+- __ZN4roya20AudioPipelineContextC2ERKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEERKNS1_13unordered_mapIS7_S7_NS1_4hashIS7_EENS1_8equal_toIS7_EENS5_INS1_4pairIS8_S7_EEEEEE
+- __ZN4roya20ExternalDataProvider14OnReceivedDataEyyPKvy
+- __ZN4roya20ExternalDataProvider21OnReceivedPixelBufferEyyP10__CVBuffer
+- __ZN4roya20ExternalDataProvider27OnReceivedAudioSampleBufferEyP20opaqueCMSampleBuffer
+- __ZN4roya20VideoPipelineContextC1ERKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEERKNS1_13unordered_mapIS7_S7_NS1_4hashIS7_EENS1_8equal_toIS7_EENS5_INS1_4pairIS8_S7_EEEEEE
+- __ZN4roya20VideoPipelineContextC2ERKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEERKNS1_13unordered_mapIS7_S7_NS1_4hashIS7_EENS1_8equal_toIS7_EENS5_INS1_4pairIS8_S7_EEEEEE
+- __ZN4roya20VideoPipelineContextC2ERKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEERKNS1_13unordered_mapIS7_S7_NS1_4hashIS7_EENS1_8equal_toIS7_EENS5_INS1_4pairIS8_S7_EEEEEE.cold.1
+- __ZN4roya31RegularFrameratePipelineContextC1ENS_9TrackTypeERKNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEERKNS2_13unordered_mapIS8_S8_NS2_4hashIS8_EENS2_8equal_toIS8_EENS6_INS2_4pairIS9_S8_EEEEEE
+- __ZN4roya31RegularFrameratePipelineContextC2ENS_9TrackTypeERKNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEERKNS2_13unordered_mapIS8_S8_NS2_4hashIS8_EENS2_8equal_toIS8_EENS6_INS2_4pairIS9_S8_EEEEEE
+- __ZN4roya4impl14MOVKitIMUTrack10InitializeEPNS_12MOVContainerEPNS_9FrameDataE.cold.1
+- __ZN4roya4impl14MOVKitIMUTrack11SubmitFrameEPNS_12MOVContainerEPNS_9FrameDataE.cold.1
+- __ZN4roya4impl14MOVKitIMUTrack16FastPathTimeSyncEv
+- __ZN4roya4impl15MOVKitContainer16SetWriterThreadsEP18MIOWriterInterfacem
+- __ZN4roya4impl15MOVKitContainerC1Ev
+- __ZN4roya4impl15MOVKitContainerC2Ev
+- __ZN4roya4impl16MOVKitAudioTrack10InitializeEPNS_12MOVContainerEPNS_9FrameDataE.cold.1
+- __ZN4roya4impl16MOVKitAudioTrack10InitializeEPNS_12MOVContainerEPNS_9FrameDataE.cold.2
+- __ZN4roya4impl16MOVKitAudioTrack11SubmitFrameEPNS_12MOVContainerEPNS_9FrameDataE.cold.1
+- __ZN4roya4impl18PolarisCameraFrameC1ExP10__CVBuffer6CMTimeS4_NS_11FrameStatusE
+- __ZN4roya4impl18PolarisCameraFrameC2ExP10__CVBuffer6CMTimeS4_NS_11FrameStatusE
+- __ZN4roya4impl19PolarisCameraSource35ConvertSourceTimeToMachAbsoluteTimeERy
+- __ZN4roya4impl19deserializeMetadataEP8NSObjectP8NSString
+- __ZN4roya7MOVSink14OnDataReceivedEPNS_15PipelineContextEPNS_9FrameDataE
+- __ZN4roya7MOVSink14OnDataReceivedEPNS_15PipelineContextEPNS_9FrameDataE.cold.1
+- __ZN4roya8DataSink7ExecuteEPNS_15PipelineContextEPNS_9FrameDataE
+- __ZN4roya8DataSink7ExecuteEPNS_15PipelineContextEPNS_9FrameDataE.cold.1
+- __ZN4roya8Pipeline12ProcessFrameEPNS_15PipelineContextEPNS_9FrameDataE
+- __ZN4roya8Pipeline14OnDataReceivedEPNS_15PipelineContextENSt3__110shared_ptrINS_9FrameDataEEE
+- __ZN4roya9FrameData8SetIndexEx
+- __ZN4roya9FrameDataC1Ex6CMTimeS1_NS_11FrameStatusE
+- __ZN4roya9FrameDataC2Ex6CMTimeS1_NS_11FrameStatusE
+- __ZN4roya9Operation7ExecuteEPNS_15PipelineContextEPNS_9FrameDataE
+- __ZNKRSt3__119basic_ostringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEE3strB9nqe210106Ev
+- __ZNKSt3__110__function6__funcIZN4roya19DataSourceProxyImplC1ERKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS2_9TrackTypeEPvPFbSD_NS2_16NotificationTypeEEE3$_0FbSE_EE11target_typeEv
+- __ZNKSt3__110__function6__funcIZN4roya19DataSourceProxyImplC1ERKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS2_9TrackTypeEPvPFbSD_NS2_16NotificationTypeEEE3$_0FbSE_EE6targetERKSt9type_info
+- __ZNKSt3__110__function6__funcIZN4roya19DataSourceProxyImplC1ERKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS2_9TrackTypeEPvPFbSD_NS2_16NotificationTypeEEE3$_0FbSE_EE7__cloneEPNS0_6__baseISI_EE
+- __ZNKSt3__110__function6__funcIZN4roya19DataSourceProxyImplC1ERKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS2_9TrackTypeEPvPFbSD_NS2_16NotificationTypeEEE3$_0FbSE_EE7__cloneEv
+- __ZNKSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES7_EENS_22__unordered_map_hasherIS7_NS_4pairIKS7_S7_EENS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SC_SG_SE_Lb1EEENS5_ISC_EEE4findIS7_EENS_21__hash_const_iteratorIPNS_11__hash_nodeIS8_PvEEEERKT_
+- __ZNKSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEjEENS_22__unordered_map_hasherIS7_NS_4pairIKS7_jEENS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SC_SG_SE_Lb1EEENS5_ISC_EEE4findIS7_EENS_21__hash_const_iteratorIPNS_11__hash_nodeIS8_PvEEEERKT_
+- __ZNKSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE11starts_withB9nqe210106EPKc
+- __ZNKSt3__113__atomic_baseIN4roya14ContainerStateELb0EE4waitB9nqe210106ES2_NS_12memory_orderE
+- __ZNKSt3__113__string_hashIcNS_9allocatorIcEEEclB9nqe210106ERKNS_12basic_stringIcNS_11char_traitsIcEES2_EE
+- __ZNKSt3__114default_deleteIN4roya4impl20FastPathInstanceDataEEclB9nqe210106EPS3_
+- __ZNKSt3__115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEE4viewB9nqe210106Ev
+- __ZNKSt3__117basic_string_viewIcNS_11char_traitsIcEEE11starts_withB9nqe210106ES3_
+- __ZNKSt3__117basic_string_viewIcNS_11char_traitsIcEEE7compareB9nqe210106EmmS3_
+- __ZNKSt3__121__murmur2_or_cityhashImLm64EEclB9nqe210106EPKvm
+- __ZNKSt3__126__atomic_wait_backoff_implINS_13__atomic_baseIN4roya14ContainerStateELb0EEEZNS_13__atomic_waitB9nqe210106IKS4_S3_EEvRT_T0_NS_12memory_orderEEUlRKS3_E_E29__update_monitor_val_and_pollB9nqe210106EPVKvRx
+- __ZNKSt3__126__atomic_wait_backoff_implINS_13__atomic_baseIN4roya14ContainerStateELb0EEEZNS_13__atomic_waitB9nqe210106IKS4_S3_EEvRT_T0_NS_12memory_orderEEUlRKS3_E_EclB9nqe210106ENS_6chrono8durationIxNS_5ratioILl1ELl1000000000EEEEE
+- __ZNKSt3__129_AllocatorDestroyRangeReverseINS_9allocatorINS_4pairINS_12basic_stringIcNS_11char_traitsIcEENS1_IcEEEEN4roya9TrackInfoEEEEEPSA_EclB9nqe210106Ev
+- __ZNKSt3__16__treeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_4lessIS6_EENS4_IS6_EEE4findIS6_EENS_21__tree_const_iteratorIS6_PNS_11__tree_nodeIS6_PvEElEERKT_
+- __ZNKSt3__18equal_toINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEEclB9nqe210106ERKS6_S9_
+- __ZNKSt3__18functionIFbN4roya16NotificationTypeEEEclES2_
+- __ZNKSt9type_infoeqB9nqe210106ERKS_
+- __ZNSt12length_errorC1B9nqe210106EPKc
+- __ZNSt12out_of_rangeC1B9nqe210106EPKc
+- __ZNSt13runtime_errorC1EPKc
+- __ZNSt13runtime_errorD1Ev
+- __ZNSt3__110__function12__value_funcIFbN4roya16NotificationTypeEEE4swapB9nqe210106ERS5_
+- __ZNSt3__110__function12__value_funcIFbN4roya16NotificationTypeEEED2B9nqe210106Ev
+- __ZNSt3__110__function6__funcIZN4roya19DataSourceProxyImplC1ERKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS2_9TrackTypeEPvPFbSD_NS2_16NotificationTypeEEE3$_0FbSE_EE18destroy_deallocateEv
+- __ZNSt3__110__function6__funcIZN4roya19DataSourceProxyImplC1ERKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS2_9TrackTypeEPvPFbSD_NS2_16NotificationTypeEEE3$_0FbSE_EE7destroyEv
+- __ZNSt3__110__function6__funcIZN4roya19DataSourceProxyImplC1ERKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS2_9TrackTypeEPvPFbSD_NS2_16NotificationTypeEEE3$_0FbSE_EED0Ev
+- __ZNSt3__110__function6__funcIZN4roya19DataSourceProxyImplC1ERKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS2_9TrackTypeEPvPFbSD_NS2_16NotificationTypeEEE3$_0FbSE_EED1Ev
+- __ZNSt3__110__function6__funcIZN4roya19DataSourceProxyImplC1ERKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS2_9TrackTypeEPvPFbSD_NS2_16NotificationTypeEEE3$_0FbSE_EEclEOSE_
+- __ZNSt3__110shared_ptrIN4roya13CVBufferFrameEE18__enable_weak_thisB9nqe210106INS1_9FrameDataES2_Li0EEEvPKNS_23enable_shared_from_thisIT_EEPT0_
+- __ZNSt3__110shared_ptrIN4roya14AudioFrameDataEE18__enable_weak_thisB9nqe210106INS1_9FrameDataES2_Li0EEEvPKNS_23enable_shared_from_thisIT_EEPT0_
+- __ZNSt3__110shared_ptrIN4roya14VideoFrameDataEE18__enable_weak_thisB9nqe210106INS1_9FrameDataES2_Li0EEEvPKNS_23enable_shared_from_thisIT_EEPT0_
+- __ZNSt3__110shared_ptrIN4roya15SimpleFrameDataEE18__enable_weak_thisB9nqe210106INS1_9FrameDataES2_Li0EEEvPKNS_23enable_shared_from_thisIT_EEPT0_
+- __ZNSt3__110shared_ptrIN4roya4impl13AVFDataSourceEED1B9nqe210106Ev
+- __ZNSt3__110shared_ptrIN4roya4impl13PolarisSourceEEC2B9nqe210106INS2_19PolarisCameraSourceENS_14default_deleteIS6_EELi0EEEONS_10unique_ptrIT_T0_EE
+- __ZNSt3__110shared_ptrIN4roya4impl13PolarisSourceEEaSB9nqe210106INS2_19PolarisCameraSourceENS_14default_deleteIS6_EELi0EEERS4_ONS_10unique_ptrIT_T0_EE
+- __ZNSt3__110shared_ptrIN4roya4impl15AVFDataProviderEE18__enable_weak_thisB9nqe210106IS3_S3_Li0EEEvPKNS_23enable_shared_from_thisIT_EEPT0_
+- __ZNSt3__110shared_ptrIN4roya4impl16LocationProviderEE18__enable_weak_thisB9nqe210106IS3_S3_Li0EEEvPKNS_23enable_shared_from_thisIT_EEPT0_
+- __ZNSt3__110shared_ptrIN4roya4impl16LocationProviderEEC2B9nqe210106IS3_Li0EEERKNS_8weak_ptrIT_EE
+- __ZNSt3__110shared_ptrIN4roya4impl16RawAudioProviderEE18__enable_weak_thisB9nqe210106IS3_S3_Li0EEEvPKNS_23enable_shared_from_thisIT_EEPT0_
+- __ZNSt3__110shared_ptrIN4roya4impl16WiFiDataProviderEE18__enable_weak_thisB9nqe210106IS3_S3_Li0EEEvPKNS_23enable_shared_from_thisIT_EEPT0_
+- __ZNSt3__110shared_ptrIN4roya4impl17AudioQueueWrapperEEC2B9nqe210106IS3_Li0EEERKNS_8weak_ptrIT_EE
+- __ZNSt3__110shared_ptrIN4roya4impl17HIDDeviceProviderEE18__enable_weak_thisB9nqe210106IS3_S3_Li0EEEvPKNS_23enable_shared_from_thisIT_EEPT0_
+- __ZNSt3__110shared_ptrIN4roya4impl17HIDDeviceProviderEEC2B9nqe210106IS3_Li0EEERKNS_8weak_ptrIT_EE
+- __ZNSt3__110shared_ptrIN4roya4impl18PolarisCameraFrameEE18__enable_weak_thisB9nqe210106INS1_9FrameDataES3_Li0EEEvPKNS_23enable_shared_from_thisIT_EEPT0_
+- __ZNSt3__110shared_ptrIN4roya4impl23DoAPPluginAudioProviderEE18__enable_weak_thisB9nqe210106IS3_S3_Li0EEEvPKNS_23enable_shared_from_thisIT_EEPT0_
+- __ZNSt3__110shared_ptrIN4roya4impl23DoAPPluginAudioProviderEEC2B9nqe210106IS3_Li0EEERKNS_8weak_ptrIT_EE
+- __ZNSt3__110shared_ptrIN4roya4impl23HeadphoneMotionProviderEE18__enable_weak_thisB9nqe210106IS3_S3_Li0EEEvPKNS_23enable_shared_from_thisIT_EEPT0_
+- __ZNSt3__110shared_ptrIN4roya4impl23HeadphoneMotionProviderEEC2B9nqe210106IS3_Li0EEERKNS_8weak_ptrIT_EE
+- __ZNSt3__110shared_ptrIN4roya4impl33HeadphoneInertialOdometryProviderEE18__enable_weak_thisB9nqe210106IS3_S3_Li0EEEvPKNS_23enable_shared_from_thisIT_EEPT0_
+- __ZNSt3__110shared_ptrIN4roya4impl33HeadphoneInertialOdometryProviderEEC2B9nqe210106IS3_Li0EEERKNS_8weak_ptrIT_EE
+- __ZNSt3__110shared_ptrIN4roya8PipelineEE18__enable_weak_thisB9nqe210106IS2_S2_Li0EEEvPKNS_23enable_shared_from_thisIT_EEPT0_
+- __ZNSt3__110shared_ptrIN4roya9FrameDataEE18__enable_weak_thisB9nqe210106IS2_S2_Li0EEEvPKNS_23enable_shared_from_thisIT_EEPT0_
+- __ZNSt3__110shared_ptrIN4roya9FrameDataEEC2B9nqe210106IS2_Li0EEEPT_
+- __ZNSt3__110shared_ptrIN4roya9FrameDataEEC2B9nqe210106IS2_Li0EEEPT_.cold.1
+- __ZNSt3__110shared_ptrIN4roya9FrameDataEEC2B9nqe210106IS2_Li0EEERKNS_8weak_ptrIT_EE
+- __ZNSt3__110unique_ptrI10DoAPPluginN4roya4impl3$_0EE5resetB9nqe210106EPS1_
+- __ZNSt3__110unique_ptrI20OpaqueAudioConverterN4roya4impl3$_1EE5resetB9nqe210106EPS1_
+- __ZNSt3__110unique_ptrIN4roya16FrameDropMonitorENS_14default_deleteIS2_EEED1B9nqe210106Ev
+- __ZNSt3__110unique_ptrIN4roya4impl13CFAutoReleaseIPK25opaqueCMFormatDescriptionEENS_14default_deleteIS7_EEE5resetB9nqe210106EPS7_
+- __ZNSt3__110unique_ptrIN4roya4impl15TimeSyncService12InstanceDataENS_14default_deleteIS4_EEE5resetB9nqe210106EPS4_
+- __ZNSt3__110unique_ptrIN4roya4impl15TimeSyncServiceENS_14default_deleteIS3_EEE5resetB9nqe210106EPS3_
+- __ZNSt3__110unique_ptrIN4roya4impl16LocationProvider12InstanceDataENS_14default_deleteIS4_EEE5resetB9nqe210106EPS4_
+- __ZNSt3__110unique_ptrIN4roya4impl16TimeSyncProvider12InstanceDataENS_14default_deleteIS4_EEE5resetB9nqe210106EPS4_
+- __ZNSt3__110unique_ptrIN4roya4impl17HIDDeviceProvider12InstanceDataENS_14default_deleteIS4_EEE5resetB9nqe210106EPS4_
+- __ZNSt3__110unique_ptrIN4roya4impl19PolarisInstanceDataENS_14default_deleteIS3_EEE5resetB9nqe210106EPS3_
+- __ZNSt3__110unique_ptrIN4roya4impl23AudioQueueBufferWrapperENS_14default_deleteIS3_EEED1B9nqe210106Ev
+- __ZNSt3__110unique_ptrIN4roya4impl23HeadphoneMotionProvider12InstanceDataENS_14default_deleteIS4_EEE5resetB9nqe210106EPS4_
+- __ZNSt3__110unique_ptrIN4roya4impl23WiFiScannerInstanceDataENS_14default_deleteIS3_EEE5resetB9nqe210106EPS3_
+- __ZNSt3__110unique_ptrIN4roya4impl25AVFDataSourceInstanceDataENS_14default_deleteIS3_EEE5resetB9nqe210106EPS3_
+- __ZNSt3__110unique_ptrIN4roya4impl28RawAudioProviderInstanceDataENS_14default_deleteIS3_EEE5resetB9nqe210106EPS3_
+- __ZNSt3__110unique_ptrIN4roya4impl33HeadphoneInertialOdometryProvider12InstanceDataENS_14default_deleteIS4_EEE5resetB9nqe210106EPS4_
+- __ZNSt3__110unique_ptrIN4roya4impl35DoAPPluginAudioProviderInstanceDataENS_14default_deleteIS3_EEE5resetB9nqe210106EPS3_
+- __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrIN4roya8MOVTrackEEEEEPvEENS_22__hash_node_destructorINS6_ISF_EEEEED1B9nqe210106Ev
+- __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES8_EEPvEENS_22__hash_node_destructorINS6_ISB_EEEEED1B9nqe210106Ev
+- __ZNSt3__111__sift_downB9nqe210106INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPdEEvT1_OT0_NS_15iterator_traitsIS6_E15difference_typeES6_
+- __ZNSt3__112__destroy_atB9nqe210106IN4roya15TrackDefinitionELi0EEEvPT_
+- __ZNSt3__112__destroy_atB9nqe210106INS_4pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrIN4roya8MOVTrackEEEEELi0EEEvPT_
+- __ZNSt3__112__destroy_atB9nqe210106INS_4pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES7_EELi0EEEvPT_
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIN4roya13PipelineStateENS2_12SessionStateEEENS_22__unordered_map_hasherIS3_NS_4pairIKS3_S4_EENS_4hashIS3_EENS_8equal_toIS3_EELb1EEENS_21__unordered_map_equalIS3_S9_SD_SB_Lb1EEENS_9allocatorIS9_EEE11__do_rehashILb1EEEvm
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIN4roya13PipelineStateENS2_12SessionStateEEENS_22__unordered_map_hasherIS3_NS_4pairIKS3_S4_EENS_4hashIS3_EENS_8equal_toIS3_EELb1EEENS_21__unordered_map_equalIS3_S9_SD_SB_Lb1EEENS_9allocatorIS9_EEE25__emplace_unique_key_argsIS3_JRKS9_EEENS7_INS_15__hash_iteratorIPNS_11__hash_nodeIS5_PvEEEEbEERKT_DpOT0_
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIN4roya13PipelineStateENS2_12SessionStateEEENS_22__unordered_map_hasherIS3_NS_4pairIKS3_S4_EENS_4hashIS3_EENS_8equal_toIS3_EELb1EEENS_21__unordered_map_equalIS3_S9_SD_SB_Lb1EEENS_9allocatorIS9_EEE8__rehashILb1EEEvm
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIN4roya13PipelineStateENS2_12SessionStateEEENS_22__unordered_map_hasherIS3_NS_4pairIKS3_S4_EENS_4hashIS3_EENS_8equal_toIS3_EELb1EEENS_21__unordered_map_equalIS3_S9_SD_SB_Lb1EEENS_9allocatorIS9_EEED2Ev
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN4roya9TrackInfoEEENS_22__unordered_map_hasherIS7_NS_4pairIKS7_S9_EENS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SE_SI_SG_Lb1EEENS5_ISE_EEE11__do_rehashILb1EEEvm
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN4roya9TrackInfoEEENS_22__unordered_map_hasherIS7_NS_4pairIKS7_S9_EENS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SE_SI_SG_Lb1EEENS5_ISE_EEE17__deallocate_nodeEPNS_16__hash_node_baseIPNS_11__hash_nodeISA_PvEEEE
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN4roya9TrackInfoEEENS_22__unordered_map_hasherIS7_NS_4pairIKS7_S9_EENS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SE_SI_SG_Lb1EEENS5_ISE_EEE21__construct_node_hashIRKNS_21piecewise_construct_tEJNS_5tupleIJRSD_EEENSS_IJEEEEEENS_10unique_ptrINS_11__hash_nodeISA_PvEENS_22__hash_node_destructorINS5_ISZ_EEEEEEmOT_DpOT0_
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN4roya9TrackInfoEEENS_22__unordered_map_hasherIS7_NS_4pairIKS7_S9_EENS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SE_SI_SG_Lb1EEENS5_ISE_EEE25__emplace_unique_key_argsIS7_JRKNS_21piecewise_construct_tENS_5tupleIJRSD_EEENSS_IJEEEEEENSC_INS_15__hash_iteratorIPNS_11__hash_nodeISA_PvEEEEbEERKT_DpOT0_
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN4roya9TrackInfoEEENS_22__unordered_map_hasherIS7_NS_4pairIKS7_S9_EENS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SE_SI_SG_Lb1EEENS5_ISE_EEE4findIS7_EENS_15__hash_iteratorIPNS_11__hash_nodeISA_PvEEEERKT_
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN4roya9TrackInfoEEENS_22__unordered_map_hasherIS7_NS_4pairIKS7_S9_EENS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SE_SI_SG_Lb1EEENS5_ISE_EEE8__rehashILb1EEEvm
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN4roya9TrackInfoEEENS_22__unordered_map_hasherIS7_NS_4pairIKS7_S9_EENS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SE_SI_SG_Lb1EEENS5_ISE_EEED2Ev
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrIN4roya8MOVTrackEEEEENS_22__unordered_map_hasherIS7_NS_4pairIKS7_SB_EENS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SG_SK_SI_Lb1EEENS5_ISG_EEE11__do_rehashILb1EEEvm
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrIN4roya8MOVTrackEEEEENS_22__unordered_map_hasherIS7_NS_4pairIKS7_SB_EENS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SG_SK_SI_Lb1EEENS5_ISG_EEE17__deallocate_nodeEPNS_16__hash_node_baseIPNS_11__hash_nodeISC_PvEEEE
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrIN4roya8MOVTrackEEEEENS_22__unordered_map_hasherIS7_NS_4pairIKS7_SB_EENS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SG_SK_SI_Lb1EEENS5_ISG_EEE25__emplace_unique_key_argsIS7_JRKNS_21piecewise_construct_tENS_5tupleIJOS7_EEENSU_IJEEEEEENSE_INS_15__hash_iteratorIPNS_11__hash_nodeISC_PvEEEEbEERKT_DpOT0_
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrIN4roya8MOVTrackEEEEENS_22__unordered_map_hasherIS7_NS_4pairIKS7_SB_EENS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SG_SK_SI_Lb1EEENS5_ISG_EEE4findIS7_EENS_15__hash_iteratorIPNS_11__hash_nodeISC_PvEEEERKT_
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrIN4roya8MOVTrackEEEEENS_22__unordered_map_hasherIS7_NS_4pairIKS7_SB_EENS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SG_SK_SI_Lb1EEENS5_ISG_EEE5clearEv
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrIN4roya8MOVTrackEEEEENS_22__unordered_map_hasherIS7_NS_4pairIKS7_SB_EENS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SG_SK_SI_Lb1EEENS5_ISG_EEE8__rehashILb1EEEvm
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrIN4roya8MOVTrackEEEEENS_22__unordered_map_hasherIS7_NS_4pairIKS7_SB_EENS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SG_SK_SI_Lb1EEENS5_ISG_EEED2Ev
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES7_EENS_22__unordered_map_hasherIS7_NS_4pairIKS7_S7_EENS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SC_SG_SE_Lb1EEENS5_ISC_EEE11__do_rehashILb1EEEvm
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES7_EENS_22__unordered_map_hasherIS7_NS_4pairIKS7_S7_EENS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SC_SG_SE_Lb1EEENS5_ISC_EEE13__move_assignERSL_NS_17integral_constantIbLb1EEE
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES7_EENS_22__unordered_map_hasherIS7_NS_4pairIKS7_S7_EENS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SC_SG_SE_Lb1EEENS5_ISC_EEE17__deallocate_nodeEPNS_16__hash_node_baseIPNS_11__hash_nodeIS8_PvEEEE
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES7_EENS_22__unordered_map_hasherIS7_NS_4pairIKS7_S7_EENS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SC_SG_SE_Lb1EEENS5_ISC_EEE21__construct_node_hashIRKSC_JEEENS_10unique_ptrINS_11__hash_nodeIS8_PvEENS_22__hash_node_destructorINS5_ISS_EEEEEEmOT_DpOT0_
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES7_EENS_22__unordered_map_hasherIS7_NS_4pairIKS7_S7_EENS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SC_SG_SE_Lb1EEENS5_ISC_EEE21__construct_node_hashISC_JEEENS_10unique_ptrINS_11__hash_nodeIS8_PvEENS_22__hash_node_destructorINS5_ISQ_EEEEEEmOT_DpOT0_
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES7_EENS_22__unordered_map_hasherIS7_NS_4pairIKS7_S7_EENS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SC_SG_SE_Lb1EEENS5_ISC_EEE25__emplace_unique_key_argsIS7_JRKSC_EEENSA_INS_15__hash_iteratorIPNS_11__hash_nodeIS8_PvEEEEbEERKT_DpOT0_
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES7_EENS_22__unordered_map_hasherIS7_NS_4pairIKS7_S7_EENS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SC_SG_SE_Lb1EEENS5_ISC_EEE25__emplace_unique_key_argsIS7_JSC_EEENSA_INS_15__hash_iteratorIPNS_11__hash_nodeIS8_PvEEEEbEERKT_DpOT0_
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES7_EENS_22__unordered_map_hasherIS7_NS_4pairIKS7_S7_EENS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SC_SG_SE_Lb1EEENS5_ISC_EEE5clearEv
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES7_EENS_22__unordered_map_hasherIS7_NS_4pairIKS7_S7_EENS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SC_SG_SE_Lb1EEENS5_ISC_EEE8__rehashILb1EEEvm
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES7_EENS_22__unordered_map_hasherIS7_NS_4pairIKS7_S7_EENS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SC_SG_SE_Lb1EEENS5_ISC_EEEC2EOSL_
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES7_EENS_22__unordered_map_hasherIS7_NS_4pairIKS7_S7_EENS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SC_SG_SE_Lb1EEENS5_ISC_EEED2Ev
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEjEENS_22__unordered_map_hasherIS7_NS_4pairIKS7_jEENS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SC_SG_SE_Lb1EEENS5_ISC_EEE11__do_rehashILb1EEEvm
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEjEENS_22__unordered_map_hasherIS7_NS_4pairIKS7_jEENS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SC_SG_SE_Lb1EEENS5_ISC_EEE17__deallocate_nodeEPNS_16__hash_node_baseIPNS_11__hash_nodeIS8_PvEEEE
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEjEENS_22__unordered_map_hasherIS7_NS_4pairIKS7_jEENS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SC_SG_SE_Lb1EEENS5_ISC_EEE21__construct_node_hashIRKSC_JEEENS_10unique_ptrINS_11__hash_nodeIS8_PvEENS_22__hash_node_destructorINS5_ISS_EEEEEEmOT_DpOT0_
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEjEENS_22__unordered_map_hasherIS7_NS_4pairIKS7_jEENS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SC_SG_SE_Lb1EEENS5_ISC_EEE25__emplace_unique_key_argsIS7_JRKSC_EEENSA_INS_15__hash_iteratorIPNS_11__hash_nodeIS8_PvEEEEbEERKT_DpOT0_
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEjEENS_22__unordered_map_hasherIS7_NS_4pairIKS7_jEENS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SC_SG_SE_Lb1EEENS5_ISC_EEE8__rehashILb1EEEvm
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEjEENS_22__unordered_map_hasherIS7_NS_4pairIKS7_jEENS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SC_SG_SE_Lb1EEENS5_ISC_EEED2Ev
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE16__init_with_sizeB9nqe210106IPKcS8_EEvT_T0_m
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_length_errorB9nqe210106Ev
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_out_of_rangeB9nqe210106Ev
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6appendB9nqe210106IPKcLi0EEERS5_T_SA_
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC1B9nqe210106ILi0EEEPKc
+- __ZNSt3__112construct_atB9nqe210106IN4roya4impl15AVFDataProviderEJRNS1_9TrackTypeENS_10shared_ptrINS2_13AVFDataSourceEEEEPS3_EEPT_SB_DpOT0_
+- __ZNSt3__112construct_atB9nqe210106IN4roya7MOVSinkEJNS_10shared_ptrINS1_4impl15MOVKitContainerEEERKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEEPS2_EEPT_SH_DpOT0_
+- __ZNSt3__112construct_atB9nqe210106IN4roya8PipelineEJRNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10unique_ptrINS1_15PipelineContextENS_14default_deleteISB_EEEERNS_10shared_ptrINS1_12DataProviderEEENS1_16PipelineExecModeEEPS2_EEPT_SM_DpOT0_
+- __ZNSt3__112construct_atB9nqe210106IN4roya8PipelineEJRNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10unique_ptrINS1_15PipelineContextENS_14default_deleteISB_EEEERNS_10shared_ptrINS1_12DataProviderEEENS1_16PipelineExecModeEEPS2_EEPT_SM_DpOT0_.cold.1
+- __ZNSt3__113unordered_mapIN4roya13PipelineStateENS1_12SessionStateENS_4hashIS2_EENS_8equal_toIS2_EENS_9allocatorINS_4pairIKS2_S3_EEEEED1B9nqe210106Ev
+- __ZNSt3__113unordered_mapINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES6_NS_4hashIS6_EENS_8equal_toIS6_EENS4_INS_4pairIKS6_S6_EEEEEC2ERKSF_
+- __ZNSt3__113unordered_mapINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEjNS_4hashIS6_EENS_8equal_toIS6_EENS4_INS_4pairIKS6_jEEEEED1B9nqe210106Ev
+- __ZNSt3__114__split_bufferINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEERNS4_IS6_EEE17__destruct_at_endB9nqe210106EPS6_
+- __ZNSt3__114__split_bufferINS_4pairINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN4roya9TrackInfoEEERNS5_ISA_EEE17__destruct_at_endB9nqe210106EPSA_
+- __ZNSt3__115__expected_baseINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN4roya6StatusEE6__repr22__destroy_union_memberB9nqe210106Ev
+- __ZNSt3__115__expected_baseINS_6vectorIdNS_9allocatorIdEEEEN4roya6StatusEE6__repr22__destroy_union_memberB9nqe210106Ev
+- __ZNSt3__115allocate_sharedB9nqe210106IN4roya11MetadataSetENS_9allocatorIS2_EEJELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB9nqe210106IN4roya13CVBufferFrameENS_9allocatorIS2_EEJRyRP10__CVBuffer6CMTimeS9_NS1_11FrameStatusEELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB9nqe210106IN4roya13CaptureConfigENS_9allocatorIS2_EEJELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB9nqe210106IN4roya14AudioFrameDataENS_9allocatorIS2_EEJRKxRP20opaqueCMSampleBufferELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB9nqe210106IN4roya14AudioFrameDataENS_9allocatorIS2_EEJRyRP20opaqueCMSampleBufferELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB9nqe210106IN4roya14AudioFrameDataENS_9allocatorIS2_EEJiRNS1_4impl13CFAutoReleaseIP20opaqueCMSampleBufferEEELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB9nqe210106IN4roya14AudioFrameDataENS_9allocatorIS2_EEJiRNS1_5cfrefIP20opaqueCMSampleBufferEEELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB9nqe210106IN4roya14VideoFrameDataENS_9allocatorIS2_EEJRKxP10__CVBuffer6CMTimeELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB9nqe210106IN4roya14VideoFrameDataENS_9allocatorIS2_EEJRyRP10__CVBuffer6CMTimeELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB9nqe210106IN4roya15SimpleFrameDataENS_9allocatorIS2_EEJELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB9nqe210106IN4roya15SimpleFrameDataENS_9allocatorIS2_EEJRKxbPKvm6CMTimeELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB9nqe210106IN4roya15SimpleFrameDataENS_9allocatorIS2_EEJRKxbRP25_SpuFastPathComboAxisDataRm6CMTimeSB_ELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB9nqe210106IN4roya15SimpleFrameDataENS_9allocatorIS2_EEJRybPvS5_6CMTimeELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB9nqe210106IN4roya15SimpleFrameDataENS_9allocatorIS2_EEJRybPvm6CMTimeELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB9nqe210106IN4roya15SimpleFrameDataENS_9allocatorIS2_EEJRybPvm6CMTimeS7_NS1_11FrameStatusEELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB9nqe210106IN4roya15SimpleFrameDataENS_9allocatorIS2_EEJibPvm6CMTimeELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB9nqe210106IN4roya18GraphBuilderForiOSENS_9allocatorIS2_EEJRKNS1_10DeviceTypeERKNS1_8SinkTypeERKNS_12basic_stringIcNS_11char_traitsIcEENS3_IcEEEEELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB9nqe210106IN4roya20ExternalDataProviderENS_9allocatorIS2_EEJRKNS_12basic_stringIcNS_11char_traitsIcEENS3_IcEEEEPNS1_19DataSourceProxyImplEELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB9nqe210106IN4roya4impl13AVFDataSourceENS_9allocatorIS3_EEJELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB9nqe210106IN4roya4impl14MOVKitIMUTrackENS_9allocatorIS3_EEJRPNS1_15PipelineContextERKNS_12basic_stringIcNS_11char_traitsIcEENS4_IcEEEEELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB9nqe210106IN4roya4impl15AVFDataProviderENS_9allocatorIS3_EEJRNS1_9TrackTypeENS_10shared_ptrINS2_13AVFDataSourceEEEELi0EEENS8_IT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB9nqe210106IN4roya4impl15MOVKitContainerENS_9allocatorIS3_EEJELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB9nqe210106IN4roya4impl15MOVKitWiFiTrackENS_9allocatorIS3_EEJRPNS1_15PipelineContextERKNS_12basic_stringIcNS_11char_traitsIcEENS4_IcEEEEELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB9nqe210106IN4roya4impl15PolarisProviderENS_9allocatorIS3_EEJELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB9nqe210106IN4roya4impl16LocationProviderENS_9allocatorIS3_EEJELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB9nqe210106IN4roya4impl16MOVKitAudioTrackENS_9allocatorIS3_EEJRPNS1_15PipelineContextERKNS_12basic_stringIcNS_11char_traitsIcEENS4_IcEEEEELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB9nqe210106IN4roya4impl16MOVKitVideoTrackENS_9allocatorIS3_EEJRPNS1_15PipelineContextERKNS_12basic_stringIcNS_11char_traitsIcEENS4_IcEEEEELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB9nqe210106IN4roya4impl16PolarisIMUSourceENS_9allocatorIS3_EEJRPNS1_15PipelineContextERPNS1_13IDataReceiverEPNS2_19PolarisInstanceDataEELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB9nqe210106IN4roya4impl16RawAudioProviderENS_9allocatorIS3_EEJELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB9nqe210106IN4roya4impl16TimeSyncProviderENS_9allocatorIS3_EEJELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB9nqe210106IN4roya4impl16WiFiDataProviderENS_9allocatorIS3_EEJELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB9nqe210106IN4roya4impl17AudioQueueWrapperENS_9allocatorIS3_EEJP27AudioStreamBasicDescriptionRFvPvP16OpaqueAudioQueueP16AudioQueueBufferPK14AudioTimeStampjPK28AudioStreamPacketDescriptionES8_ELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB9nqe210106IN4roya4impl17HIDDeviceProviderENS_9allocatorIS3_EEJELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB9nqe210106IN4roya4impl17MOVKitDesgenTrackENS_9allocatorIS3_EEJRPNS1_15PipelineContextERKNS_12basic_stringIcNS_11char_traitsIcEENS4_IcEEEEELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB9nqe210106IN4roya4impl17PolarisDataSourceENS_9allocatorIS3_EEJRPNS1_15PipelineContextERPNS1_13IDataReceiverEPNS2_19PolarisInstanceDataEELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB9nqe210106IN4roya4impl18PolarisCameraFrameENS_9allocatorIS3_EEJRKxRP10__CVBuffer6CMTimeSB_ELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB9nqe210106IN4roya4impl19MOVKitMetadataTrackENS_9allocatorIS3_EEJRPNS1_15PipelineContextERKNS_12basic_stringIcNS_11char_traitsIcEENS4_IcEEEEELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB9nqe210106IN4roya4impl19PolarisCameraSourceENS_9allocatorIS3_EEJRPNS1_15PipelineContextERPNS1_13IDataReceiverEPNS2_19PolarisInstanceDataEELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB9nqe210106IN4roya4impl21MOVKitPointCloudTrackENS_9allocatorIS3_EEJRPNS1_15PipelineContextERKNS_12basic_stringIcNS_11char_traitsIcEENS4_IcEEEEELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB9nqe210106IN4roya4impl23DoAPPluginAudioProviderENS_9allocatorIS3_EEJELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB9nqe210106IN4roya4impl23HeadphoneMotionProviderENS_9allocatorIS3_EEJELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB9nqe210106IN4roya4impl23PolarisPointCloudSourceENS_9allocatorIS3_EEJRPNS1_15PipelineContextERPNS1_13IDataReceiverEPNS2_19PolarisInstanceDataEELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB9nqe210106IN4roya4impl33HeadphoneInertialOdometryProviderENS_9allocatorIS3_EEJELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB9nqe210106IN4roya7MOVSinkENS_9allocatorIS2_EEJNS_10shared_ptrINS1_4impl15MOVKitContainerEEERKNS_12basic_stringIcNS_11char_traitsIcEENS3_IcEEEEELi0EEENS5_IT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB9nqe210106IN4roya7SessionENS_9allocatorIS2_EEJELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB9nqe210106IN4roya8PipelineENS_9allocatorIS2_EEJRNS_12basic_stringIcNS_11char_traitsIcEENS3_IcEEEENS_10unique_ptrINS1_15PipelineContextENS_14default_deleteISC_EEEERNS_10shared_ptrINS1_12DataProviderEEENS1_16PipelineExecModeEELi0EEENSG_IT_EERKT0_DpOT1_
+- __ZNSt3__115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEE15__init_buf_ptrsB9nqe210106Ev
+- __ZNSt3__115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEE3strB9nqe210106EONS_12basic_stringIcS2_S4_EE
+- __ZNSt3__115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEEC2B9nqe210106ERKNS_12basic_stringIcS2_S4_EEj
+- __ZNSt3__115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEEC2B9nqe210106Ej
+- __ZNSt3__116__pad_and_outputB9nqe210106IcNS_11char_traitsIcEEEENS_19ostreambuf_iteratorIT_T0_EES6_PKS4_S8_S8_RNS_8ios_baseES4_
+- __ZNSt3__116allocator_traitsINS_9allocatorINS_4pairINS_12basic_stringIcNS_11char_traitsIcEENS1_IcEEEEN4roya9TrackInfoEEEEEE7destroyB9nqe210106ISA_Li0EEEvRSB_PT_
+- __ZNSt3__118basic_stringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEC1B9nqe210106ERKNS_12basic_stringIcS2_S4_EEj
+- __ZNSt3__118basic_stringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEC1B9nqe210106Ev
+- __ZNSt3__119__partial_sort_copyB9nqe210106INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPdS5_S5_S5_NS_10__identityES6_EENS_4pairIT1_T3_EES8_T2_S9_T4_OT0_OT5_OT6_
+- __ZNSt3__119__shared_weak_count16__release_sharedB9nqe210106Ev
+- __ZNSt3__119bad_expected_accessIN4roya6StatusEEC2B9nqe210106ES2_
+- __ZNSt3__119basic_ostringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEC1B9nqe210106Ev
+- __ZNSt3__120__shared_ptr_emplaceIN4roya11MetadataSetENS_9allocatorIS2_EEEC2B9nqe210106IJES4_Li0EEES4_DpOT_
+- __ZNSt3__120__shared_ptr_emplaceIN4roya13CVBufferFrameENS_9allocatorIS2_EEEC2B9nqe210106IJRyRP10__CVBuffer6CMTimeSB_NS1_11FrameStatusEES4_Li0EEES4_DpOT_
+- __ZNSt3__120__shared_ptr_emplaceIN4roya13CaptureConfigENS_9allocatorIS2_EEEC2B9nqe210106IJES4_Li0EEES4_DpOT_
+- __ZNSt3__120__shared_ptr_emplaceIN4roya14AudioFrameDataENS_9allocatorIS2_EEEC2B9nqe210106IJRKxRP20opaqueCMSampleBufferES4_Li0EEES4_DpOT_
+- __ZNSt3__120__shared_ptr_emplaceIN4roya14AudioFrameDataENS_9allocatorIS2_EEEC2B9nqe210106IJRyRP20opaqueCMSampleBufferES4_Li0EEES4_DpOT_
+- __ZNSt3__120__shared_ptr_emplaceIN4roya14AudioFrameDataENS_9allocatorIS2_EEEC2B9nqe210106IJiRNS1_4impl13CFAutoReleaseIP20opaqueCMSampleBufferEEES4_Li0EEES4_DpOT_
+- __ZNSt3__120__shared_ptr_emplaceIN4roya14AudioFrameDataENS_9allocatorIS2_EEEC2B9nqe210106IJiRNS1_5cfrefIP20opaqueCMSampleBufferEEES4_Li0EEES4_DpOT_
+- __ZNSt3__120__shared_ptr_emplaceIN4roya14VideoFrameDataENS_9allocatorIS2_EEEC2B9nqe210106IJRKxP10__CVBuffer6CMTimeES4_Li0EEES4_DpOT_
+- __ZNSt3__120__shared_ptr_emplaceIN4roya14VideoFrameDataENS_9allocatorIS2_EEEC2B9nqe210106IJRyRP10__CVBuffer6CMTimeES4_Li0EEES4_DpOT_
+- __ZNSt3__120__shared_ptr_emplaceIN4roya15SimpleFrameDataENS_9allocatorIS2_EEEC2B9nqe210106IJES4_Li0EEES4_DpOT_
+- __ZNSt3__120__shared_ptr_emplaceIN4roya15SimpleFrameDataENS_9allocatorIS2_EEEC2B9nqe210106IJRKxbPKvm6CMTimeES4_Li0EEES4_DpOT_
+- __ZNSt3__120__shared_ptr_emplaceIN4roya15SimpleFrameDataENS_9allocatorIS2_EEEC2B9nqe210106IJRKxbRP25_SpuFastPathComboAxisDataRm6CMTimeSD_ES4_Li0EEES4_DpOT_
+- __ZNSt3__120__shared_ptr_emplaceIN4roya15SimpleFrameDataENS_9allocatorIS2_EEEC2B9nqe210106IJRybPvS7_6CMTimeES4_Li0EEES4_DpOT_
+- __ZNSt3__120__shared_ptr_emplaceIN4roya15SimpleFrameDataENS_9allocatorIS2_EEEC2B9nqe210106IJRybPvm6CMTimeES4_Li0EEES4_DpOT_
+- __ZNSt3__120__shared_ptr_emplaceIN4roya15SimpleFrameDataENS_9allocatorIS2_EEEC2B9nqe210106IJRybPvm6CMTimeS9_NS1_11FrameStatusEES4_Li0EEES4_DpOT_
+- __ZNSt3__120__shared_ptr_emplaceIN4roya15SimpleFrameDataENS_9allocatorIS2_EEEC2B9nqe210106IJibPvm6CMTimeES4_Li0EEES4_DpOT_
+- __ZNSt3__120__shared_ptr_emplaceIN4roya18GraphBuilderForiOSENS_9allocatorIS2_EEEC2B9nqe210106IJRKNS1_10DeviceTypeERKNS1_8SinkTypeERKNS_12basic_stringIcNS_11char_traitsIcEENS3_IcEEEEES4_Li0EEES4_DpOT_
+- __ZNSt3__120__shared_ptr_emplaceIN4roya20ExternalDataProviderENS_9allocatorIS2_EEEC2B9nqe210106IJRKNS_12basic_stringIcNS_11char_traitsIcEENS3_IcEEEEPNS1_19DataSourceProxyImplEES4_Li0EEES4_DpOT_
+- __ZNSt3__120__shared_ptr_emplaceIN4roya4impl13AVFDataSourceENS_9allocatorIS3_EEEC2B9nqe210106IJES5_Li0EEES5_DpOT_
+- __ZNSt3__120__shared_ptr_emplaceIN4roya4impl14MOVKitIMUTrackENS_9allocatorIS3_EEEC2B9nqe210106IJRPNS1_15PipelineContextERKNS_12basic_stringIcNS_11char_traitsIcEENS4_IcEEEEES5_Li0EEES5_DpOT_
+- __ZNSt3__120__shared_ptr_emplaceIN4roya4impl15AVFDataProviderENS_9allocatorIS3_EEEC2B9nqe210106IJRNS1_9TrackTypeENS_10shared_ptrINS2_13AVFDataSourceEEEES5_Li0EEES5_DpOT_
+- __ZNSt3__120__shared_ptr_emplaceIN4roya4impl15MOVKitContainerENS_9allocatorIS3_EEEC2B9nqe210106IJES5_Li0EEES5_DpOT_
+- __ZNSt3__120__shared_ptr_emplaceIN4roya4impl15MOVKitWiFiTrackENS_9allocatorIS3_EEEC2B9nqe210106IJRPNS1_15PipelineContextERKNS_12basic_stringIcNS_11char_traitsIcEENS4_IcEEEEES5_Li0EEES5_DpOT_
+- __ZNSt3__120__shared_ptr_emplaceIN4roya4impl15PolarisProviderENS_9allocatorIS3_EEEC2B9nqe210106IJES5_Li0EEES5_DpOT_
+- __ZNSt3__120__shared_ptr_emplaceIN4roya4impl16LocationProviderENS_9allocatorIS3_EEEC2B9nqe210106IJES5_Li0EEES5_DpOT_
+- __ZNSt3__120__shared_ptr_emplaceIN4roya4impl16MOVKitAudioTrackENS_9allocatorIS3_EEEC2B9nqe210106IJRPNS1_15PipelineContextERKNS_12basic_stringIcNS_11char_traitsIcEENS4_IcEEEEES5_Li0EEES5_DpOT_
+- __ZNSt3__120__shared_ptr_emplaceIN4roya4impl16MOVKitVideoTrackENS_9allocatorIS3_EEEC2B9nqe210106IJRPNS1_15PipelineContextERKNS_12basic_stringIcNS_11char_traitsIcEENS4_IcEEEEES5_Li0EEES5_DpOT_
+- __ZNSt3__120__shared_ptr_emplaceIN4roya4impl16PolarisIMUSourceENS_9allocatorIS3_EEEC2B9nqe210106IJRPNS1_15PipelineContextERPNS1_13IDataReceiverEPNS2_19PolarisInstanceDataEES5_Li0EEES5_DpOT_
+- __ZNSt3__120__shared_ptr_emplaceIN4roya4impl16RawAudioProviderENS_9allocatorIS3_EEEC2B9nqe210106IJES5_Li0EEES5_DpOT_
+- __ZNSt3__120__shared_ptr_emplaceIN4roya4impl16TimeSyncProviderENS_9allocatorIS3_EEEC2B9nqe210106IJES5_Li0EEES5_DpOT_
+- __ZNSt3__120__shared_ptr_emplaceIN4roya4impl16WiFiDataProviderENS_9allocatorIS3_EEEC2B9nqe210106IJES5_Li0EEES5_DpOT_
+- __ZNSt3__120__shared_ptr_emplaceIN4roya4impl17AudioQueueWrapperENS_9allocatorIS3_EEEC2B9nqe210106IJP27AudioStreamBasicDescriptionRFvPvP16OpaqueAudioQueueP16AudioQueueBufferPK14AudioTimeStampjPK28AudioStreamPacketDescriptionESA_ES5_Li0EEES5_DpOT_
+- __ZNSt3__120__shared_ptr_emplaceIN4roya4impl17HIDDeviceProviderENS_9allocatorIS3_EEEC2B9nqe210106IJES5_Li0EEES5_DpOT_
+- __ZNSt3__120__shared_ptr_emplaceIN4roya4impl17MOVKitDesgenTrackENS_9allocatorIS3_EEEC2B9nqe210106IJRPNS1_15PipelineContextERKNS_12basic_stringIcNS_11char_traitsIcEENS4_IcEEEEES5_Li0EEES5_DpOT_
+- __ZNSt3__120__shared_ptr_emplaceIN4roya4impl17PolarisDataSourceENS_9allocatorIS3_EEEC2B9nqe210106IJRPNS1_15PipelineContextERPNS1_13IDataReceiverEPNS2_19PolarisInstanceDataEES5_Li0EEES5_DpOT_
+- __ZNSt3__120__shared_ptr_emplaceIN4roya4impl18PolarisCameraFrameENS_9allocatorIS3_EEE16__on_zero_sharedEv
+- __ZNSt3__120__shared_ptr_emplaceIN4roya4impl18PolarisCameraFrameENS_9allocatorIS3_EEE21__on_zero_shared_weakEv
+- __ZNSt3__120__shared_ptr_emplaceIN4roya4impl18PolarisCameraFrameENS_9allocatorIS3_EEEC2B9nqe210106IJRKxRP10__CVBuffer6CMTimeSD_ES5_Li0EEES5_DpOT_
+- __ZNSt3__120__shared_ptr_emplaceIN4roya4impl18PolarisCameraFrameENS_9allocatorIS3_EEED0Ev
+- __ZNSt3__120__shared_ptr_emplaceIN4roya4impl18PolarisCameraFrameENS_9allocatorIS3_EEED1Ev
+- __ZNSt3__120__shared_ptr_emplaceIN4roya4impl19MOVKitMetadataTrackENS_9allocatorIS3_EEEC2B9nqe210106IJRPNS1_15PipelineContextERKNS_12basic_stringIcNS_11char_traitsIcEENS4_IcEEEEES5_Li0EEES5_DpOT_
+- __ZNSt3__120__shared_ptr_emplaceIN4roya4impl19PolarisCameraSourceENS_9allocatorIS3_EEEC2B9nqe210106IJRPNS1_15PipelineContextERPNS1_13IDataReceiverEPNS2_19PolarisInstanceDataEES5_Li0EEES5_DpOT_
+- __ZNSt3__120__shared_ptr_emplaceIN4roya4impl21MOVKitPointCloudTrackENS_9allocatorIS3_EEEC2B9nqe210106IJRPNS1_15PipelineContextERKNS_12basic_stringIcNS_11char_traitsIcEENS4_IcEEEEES5_Li0EEES5_DpOT_
+- __ZNSt3__120__shared_ptr_emplaceIN4roya4impl23DoAPPluginAudioProviderENS_9allocatorIS3_EEEC2B9nqe210106IJES5_Li0EEES5_DpOT_
+- __ZNSt3__120__shared_ptr_emplaceIN4roya4impl23HeadphoneMotionProviderENS_9allocatorIS3_EEEC2B9nqe210106IJES5_Li0EEES5_DpOT_
+- __ZNSt3__120__shared_ptr_emplaceIN4roya4impl23PolarisPointCloudSourceENS_9allocatorIS3_EEEC2B9nqe210106IJRPNS1_15PipelineContextERPNS1_13IDataReceiverEPNS2_19PolarisInstanceDataEES5_Li0EEES5_DpOT_
+- __ZNSt3__120__shared_ptr_emplaceIN4roya4impl33HeadphoneInertialOdometryProviderENS_9allocatorIS3_EEEC2B9nqe210106IJES5_Li0EEES5_DpOT_
+- __ZNSt3__120__shared_ptr_emplaceIN4roya7MOVSinkENS_9allocatorIS2_EEEC2B9nqe210106IJNS_10shared_ptrINS1_4impl15MOVKitContainerEEERKNS_12basic_stringIcNS_11char_traitsIcEENS3_IcEEEEES4_Li0EEES4_DpOT_
+- __ZNSt3__120__shared_ptr_emplaceIN4roya7SessionENS_9allocatorIS2_EEEC2B9nqe210106IJES4_Li0EEES4_DpOT_
+- __ZNSt3__120__shared_ptr_emplaceIN4roya8PipelineENS_9allocatorIS2_EEEC2B9nqe210106IJRNS_12basic_stringIcNS_11char_traitsIcEENS3_IcEEEENS_10unique_ptrINS1_15PipelineContextENS_14default_deleteISE_EEEERNS_10shared_ptrINS1_12DataProviderEEENS1_16PipelineExecModeEES4_Li0EEES4_DpOT_
+- __ZNSt3__120__throw_bad_weak_ptrB9nqe210106Ev
+- __ZNSt3__120__throw_length_errorB9nqe210106EPKc
+- __ZNSt3__120__throw_out_of_rangeB9nqe210106EPKc
+- __ZNSt3__121__murmur2_or_cityhashImLm64EE18__hash_len_0_to_16B9nqe210106EPKcm
+- __ZNSt3__121__murmur2_or_cityhashImLm64EE19__hash_len_17_to_32B9nqe210106EPKcm
+- __ZNSt3__121__murmur2_or_cityhashImLm64EE19__hash_len_33_to_64B9nqe210106EPKcm
+- __ZNSt3__122__hash_node_destructorINS_9allocatorINS_11__hash_nodeINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS1_IcEEEEN4roya9TrackInfoEEEPvEEEEEclB9nqe210106EPSD_
+- __ZNSt3__122__hash_node_destructorINS_9allocatorINS_11__hash_nodeINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS1_IcEEEEjEEPvEEEEEclB9nqe210106EPSB_
+- __ZNSt3__122__tree_node_destructorINS_9allocatorINS_11__tree_nodeINS_12basic_stringIcNS_11char_traitsIcEENS1_IcEEEEPvEEEEEclB9nqe210106EPS9_
+- __ZNSt3__124__put_character_sequenceB9nqe210106IcNS_11char_traitsIcEEEERNS_13basic_ostreamIT_T0_EES7_PKS4_m
+- __ZNSt3__125__throw_bad_function_callB9nqe210106Ev
+- __ZNSt3__127__throw_bad_expected_accessB9nqe210106IN4roya6StatusERKS2_EEvOT0_
+- __ZNSt3__127__throw_bad_expected_accessB9nqe210106IN4roya6StatusES2_EEvOT0_
+- __ZNSt3__127__tree_balance_after_insertB9nqe210106IPNS_16__tree_node_baseIPvEEEEvT_S5_
+- __ZNSt3__128__exception_guard_exceptionsINS_29_AllocatorDestroyRangeReverseINS_9allocatorINS_4pairINS_12basic_stringIcNS_11char_traitsIcEENS2_IcEEEEN4roya9TrackInfoEEEEEPSB_EEED2B9nqe210106Ev
+- __ZNSt3__133__libcpp_thread_poll_with_backoffB9nqe210106IZNS_20__atomic_wait_unlessB9nqe210106INS_13__atomic_baseIN4roya14ContainerStateELb0EEEZNS_13__atomic_waitB9nqe210106IKS5_S4_EEvRT_T0_NS_12memory_orderEEUlRKS4_E_EEvRKS8_SB_OSA_EUlvE_RNS_26__atomic_wait_backoff_implIS5_SE_EEEEbOS8_SH_NS_6chrono8durationIxNS_5ratioILl1ELl1000000000EEEEE
+- __ZNSt3__134__uninitialized_allocator_relocateB9nqe210106INS_9allocatorINS_4pairINS_12basic_stringIcNS_11char_traitsIcEENS1_IcEEEEN4roya9TrackInfoEEEEEPSA_EEvRT_T0_SF_SF_
+- __ZNSt3__135__uninitialized_allocator_copy_implB9nqe210106INS_9allocatorIN4roya15TrackDefinitionEEEPKS3_S6_PS3_EET2_RT_T0_T1_S8_
+- __ZNSt3__13setINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_4lessIS6_EENS4_IS6_EEE6insertB9nqe210106INS_21__tree_const_iteratorIS6_PNS_11__tree_nodeIS6_PvEElEEEEvT_SI_
+- __ZNSt3__13setINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_4lessIS6_EENS4_IS6_EEEC2B9nqe210106ESt16initializer_listIS6_ERKS8_
+- __ZNSt3__14__fs10filesystem4pathC2B9nqe210106INS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEvEERKT_NS2_6formatE
+- __ZNSt3__14__fs10filesystem4pathdVB9nqe210106ERKS2_
+- __ZNSt3__14__fs10filesystemdvB9nqe210106ERKNS1_4pathES4_
+- __ZNSt3__14listIPN4roya15PipelineContextENS_9allocatorIS3_EEEC2ERKS6_
+- __ZNSt3__14pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN4roya9TrackInfoEEC1B9nqe210106IJRS7_EJEEENS_21piecewise_construct_tENS_5tupleIJDpT_EEENSE_IJDpT0_EEE
+- __ZNSt3__14pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN4roya9TrackInfoEEC2B9nqe210106IS7_S9_Li0EEERNS0_IT_T0_EE
+- __ZNSt3__14pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN4roya9TrackInfoEED2Ev
+- __ZNSt3__14pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrIN4roya8MOVTrackEEEEC2B9nqe210106IS7_SB_Li0EEERNS0_IT_T0_EE
+- __ZNSt3__14pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES6_EC2B9nqe210106ERKS8_
+- __ZNSt3__14pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES6_EC2B9nqe210106IS7_S6_Li0EEERNS0_IT_T0_EE
+- __ZNSt3__14pairINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN4roya9TrackInfoEEC2B9nqe210106IRKS6_S8_Li0EEEOT_OT0_
+- __ZNSt3__14pairINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN4roya9TrackInfoEEC2B9nqe210106IS6_S8_Li0EEERNS0_IT_T0_EE
+- __ZNSt3__15dequeINS_10shared_ptrIN4roya4NodeEEENS_9allocatorIS4_EEE26__maybe_remove_front_spareB9nqe210106Eb
+- __ZNSt3__15dequeINS_10shared_ptrIN4roya4NodeEEENS_9allocatorIS4_EEED2B9nqe210106Ev
+- __ZNSt3__16__treeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_4lessIS6_EENS4_IS6_EEE12__find_equalIS6_EERPNS_16__tree_node_baseIPvEENS_21__tree_const_iteratorIS6_PNS_11__tree_nodeIS6_SD_EElEERPNS_15__tree_end_nodeISF_EESG_RKT_
+- __ZNSt3__16__treeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_4lessIS6_EENS4_IS6_EEE12__find_equalIS6_EERPNS_16__tree_node_baseIPvEERPNS_15__tree_end_nodeISF_EERKT_
+- __ZNSt3__16__treeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_4lessIS6_EENS4_IS6_EEE30__emplace_hint_unique_key_argsIS6_JRKS6_EEENS_4pairINS_15__tree_iteratorIS6_PNS_11__tree_nodeIS6_PvEElEEbEENS_21__tree_const_iteratorIS6_SJ_lEERKT_DpOT0_
+- __ZNSt3__16vectorIN4roya10DeviceTypeENS_9allocatorIS2_EEE11__vallocateB9nqe210106Em
+- __ZNSt3__16vectorIN4roya10DeviceTypeENS_9allocatorIS2_EEE16__init_with_sizeB9nqe210106IPKS2_S8_EEvT_T0_m
+- __ZNSt3__16vectorIN4roya10DeviceTypeENS_9allocatorIS2_EEE16__init_with_sizeB9nqe210106IPS2_S7_EEvT_T0_m
+- __ZNSt3__16vectorIN4roya10DeviceTypeENS_9allocatorIS2_EEE20__throw_length_errorB9nqe210106Ev
+- __ZNSt3__16vectorIN4roya10DeviceTypeENS_9allocatorIS2_EEED1B9nqe210106Ev
+- __ZNSt3__16vectorIN4roya15TrackDefinitionENS_9allocatorIS2_EEE11__vallocateB9nqe210106Em
+- __ZNSt3__16vectorIN4roya15TrackDefinitionENS_9allocatorIS2_EEE16__destroy_vectorclB9nqe210106Ev
+- __ZNSt3__16vectorIN4roya15TrackDefinitionENS_9allocatorIS2_EEE16__init_with_sizeB9nqe210106IPKS2_S8_EEvT_T0_m
+- __ZNSt3__16vectorIN4roya15TrackDefinitionENS_9allocatorIS2_EEE20__throw_length_errorB9nqe210106Ev
+- __ZNSt3__16vectorIN4roya15TrackDefinitionENS_9allocatorIS2_EEED1B9nqe210106Ev
+- __ZNSt3__16vectorINS_10unique_ptrIN4roya4impl23AudioQueueBufferWrapperENS_14default_deleteIS4_EEEENS_9allocatorIS7_EEE16__destroy_vectorclB9nqe210106Ev
+- __ZNSt3__16vectorINS_10unique_ptrIN4roya4impl23AudioQueueBufferWrapperENS_14default_deleteIS4_EEEENS_9allocatorIS7_EEE20__throw_length_errorB9nqe210106Ev
+- __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE16__destroy_vectorclB9nqe210106Ev
+- __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE20__throw_length_errorB9nqe210106Ev
+- __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE30__emplace_back_assume_capacityB9nqe210106IJRKS6_EEEvDpOT_
+- __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE5clearB9nqe210106Ev
+- __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE9push_backB9nqe210106EOS6_
+- __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE9push_backB9nqe210106ERKS6_
+- __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEED1B9nqe210106Ev
+- __ZNSt3__16vectorINS_4pairINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN4roya9TrackInfoEEENS5_ISA_EEE16__destroy_vectorclB9nqe210106Ev
+- __ZNSt3__16vectorINS_4pairINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN4roya9TrackInfoEEENS5_ISA_EEE20__throw_length_errorB9nqe210106Ev
+- __ZNSt3__16vectorINS_4pairINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN4roya9TrackInfoEEENS5_ISA_EEE5clearB9nqe210106Ev
+- __ZNSt3__16vectorIU8__strongP39RYA_AVCaptureOutputSampleBufferDelegateNS_9allocatorIS3_EEE16__destroy_vectorclB9nqe210106Ev
+- __ZNSt3__16vectorIU8__strongP39RYA_AVCaptureOutputSampleBufferDelegateNS_9allocatorIS3_EEE20__throw_length_errorB9nqe210106Ev
+- __ZNSt3__16vectorIU8__strongP39RYA_AVCaptureOutputSampleBufferDelegateNS_9allocatorIS3_EEE9push_backB9nqe210106ERU8__strongKS2_
+- __ZNSt3__16vectorIcNS_9allocatorIcEEE11__vallocateB9nqe210106Em
+- __ZNSt3__16vectorIcNS_9allocatorIcEEE20__throw_length_errorB9nqe210106Ev
+- __ZNSt3__16vectorIcNS_9allocatorIcEEEC2B9nqe210106Em
+- __ZNSt3__16vectorIdNS_9allocatorIdEEE20__throw_length_errorB9nqe210106Ev
+- __ZNSt3__16vectorIhNS_9allocatorIhEEE11__vallocateB9nqe210106Em
+- __ZNSt3__16vectorIhNS_9allocatorIhEEE18__assign_with_sizeB9nqe210106IPhS5_EEvT_T0_l
+- __ZNSt3__16vectorIhNS_9allocatorIhEEE20__throw_length_errorB9nqe210106Ev
+- __ZNSt3__16vectorIhNS_9allocatorIhEEE8__appendEm
+- __ZNSt3__16vectorIiNS_9allocatorIiEEE11__vallocateB9nqe210106Em
+- __ZNSt3__16vectorIiNS_9allocatorIiEEE18__assign_with_sizeB9nqe210106IPKiS6_EEvT_T0_l
+- __ZNSt3__16vectorIiNS_9allocatorIiEEE20__throw_length_errorB9nqe210106Ev
+- __ZNSt3__17getlineB9nqe210106IcNS_11char_traitsIcEENS_9allocatorIcEEEERNS_13basic_istreamIT_T0_EES9_RNS_12basic_stringIS6_S7_T1_EES6_
+- __ZNSt3__18expectedIdN4roya6StatusEE17__reinit_expectedB9nqe210106INS_10unexpect_tENS_10in_place_tES2_dJS2_EEEvRT2_DpOT3_
+- __ZNSt3__18expectedIdN4roya6StatusEEaSB9nqe210106EOS3_
+- __ZNSt3__19allocatorIN4roya10DeviceTypeEE17allocate_at_leastB9nqe210106Em
+- __ZNSt3__19allocatorIN4roya15TrackDefinitionEE17allocate_at_leastB9nqe210106Em
+- __ZNSt3__19allocatorINS_10unique_ptrIN4roya4impl23AudioQueueBufferWrapperENS_14default_deleteIS4_EEEEE17allocate_at_leastB9nqe210106Em
+- __ZNSt3__19allocatorINS_12basic_stringIcNS_11char_traitsIcEENS0_IcEEEEE17allocate_at_leastB9nqe210106Em
+- __ZNSt3__19allocatorINS_4pairINS_12basic_stringIcNS_11char_traitsIcEENS0_IcEEEEN4roya9TrackInfoEEEE17allocate_at_leastB9nqe210106Em
+- __ZNSt3__19allocatorIPNS_10shared_ptrIN4roya4NodeEEEE17allocate_at_leastB9nqe210106Em
+- __ZNSt3__19allocatorIU8__strongP39RYA_AVCaptureOutputSampleBufferDelegateE17allocate_at_leastB9nqe210106Em
+- __ZNSt3__19allocatorIdE17allocate_at_leastB9nqe210106Em
+- __ZNSt3__19allocatorIiE17allocate_at_leastB9nqe210106Em
+- __ZNSt3__1eqB9nqe210106IcNS_11char_traitsIcEENS_9allocatorIcEEEEbRKNS_12basic_stringIT_T0_T1_EEPKS6_
+- __ZNSt3__1ssB9nqe210106IcNS_11char_traitsIcEENS_9allocatorIcEEEEDaRKNS_12basic_stringIT_T0_T1_EESC_
+- __ZSt28__throw_bad_array_new_lengthB9nqe210106v
+- __ZTINSt3__110__function6__baseIFbN4roya16NotificationTypeEEEE
+- __ZTINSt3__110__function6__funcIZN4roya19DataSourceProxyImplC1ERKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS2_9TrackTypeEPvPFbSD_NS2_16NotificationTypeEEE3$_0FbSE_EEE
+- __ZTINSt3__120__shared_ptr_emplaceIN4roya4impl18PolarisCameraFrameENS_9allocatorIS3_EEEE
+- __ZTIZN4roya19DataSourceProxyImplC1ERKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEENS_9TrackTypeEPvPFbSB_NS_16NotificationTypeEEE3$_0
+- __ZTSNSt3__110__function6__baseIFbN4roya16NotificationTypeEEEE
+- __ZTSNSt3__110__function6__funcIZN4roya19DataSourceProxyImplC1ERKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS2_9TrackTypeEPvPFbSD_NS2_16NotificationTypeEEE3$_0FbSE_EEE
+- __ZTSNSt3__120__shared_ptr_emplaceIN4roya4impl18PolarisCameraFrameENS_9allocatorIS3_EEEE
+- __ZTSZN4roya19DataSourceProxyImplC1ERKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEENS_9TrackTypeEPvPFbSB_NS_16NotificationTypeEEE3$_0
+- __ZTVNSt3__110__function6__funcIZN4roya19DataSourceProxyImplC1ERKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS2_9TrackTypeEPvPFbSD_NS2_16NotificationTypeEEE3$_0FbSE_EEE
+- __ZTVNSt3__120__shared_ptr_emplaceIN4roya4impl18PolarisCameraFrameENS_9allocatorIS3_EEEE
+- __ZThn72_N4roya11FrameDumper14OnDataReceivedEPNS_15PipelineContextEPNS_9FrameDataE
+- __ZThn72_N4roya14AsyncOperation7ExecuteEPNS_15PipelineContextEPNS_9FrameDataE
+- __ZThn72_N4roya7MOVSink14OnDataReceivedEPNS_15PipelineContextEPNS_9FrameDataE
+- __ZThn72_N4roya8DataSink7ExecuteEPNS_15PipelineContextEPNS_9FrameDataE
+- __ZThn72_N4roya9Operation7ExecuteEPNS_15PipelineContextEPNS_9FrameDataE
+- __ZThn8_N4roya4impl17PolarisDataSourceD0Ev
+- __ZThn8_N4roya4impl17PolarisDataSourceD1Ev
+- __ZThn8_N4roya4impl19PolarisCameraSource22GetSupportedPropertiesEv
+- __ZThn8_N4roya4impl19PolarisCameraSourceD0Ev
+- __ZThn8_N4roya4impl19PolarisCameraSourceD1Ev
+- __ZThn8_N4roya8Pipeline14OnDataReceivedEPNS_15PipelineContextENSt3__110shared_ptrINS_9FrameDataEEE
+- __ZThn96_N4roya20ExternalDataProvider14OnReceivedDataEyyPKvy
+- __ZThn96_N4roya20ExternalDataProvider21OnReceivedPixelBufferEyyP10__CVBuffer
+- __ZThn96_N4roya20ExternalDataProvider27OnReceivedAudioSampleBufferEyP20opaqueCMSampleBuffer
+- ____ZN4roya14AsyncOperation7ExecuteEPNS_15PipelineContextEPNS_9FrameDataE_block_invoke
+- ____ZN4roya16SessionProxyImpl5StartEx_block_invoke
+- ____ZN4roya4impl15MOVKitContainer8DoFinishEv_block_invoke
+- ____ZN4roya4impl15TimeSyncService4initEy_block_invoke
+- ____ZN4roya4impl15TimeSyncService4initEy_block_invoke.5
+- ____ZN4roya4impl16TimeSyncProviderC2Ev_block_invoke
+- ____ZN4roya4impl16TimeSyncProviderC2Ev_block_invoke_2
+- ____ZN4roya4impl17HIDDeviceProvider12OnInitializeEPNS_13IDataReceiverEPNS_15PipelineContextE_block_invoke
+- ____ZN4roya4impl17HIDDeviceProvider12OnInitializeEPNS_13IDataReceiverEPNS_15PipelineContextE_block_invoke.31
+- ____ZN4roya4impl23DoAPPluginAudioProvider12OnInitializeEPNS_13IDataReceiverEPNS_15PipelineContextE_block_invoke.83
+- ____ZN4roya4impl23DoAPPluginAudioProvider12OnInitializeEPNS_13IDataReceiverEPNS_15PipelineContextE_block_invoke.83.cold.1
+- ____ZN4roya7MOVSink14OnDataReceivedEPNS_15PipelineContextEPNS_9FrameDataE_block_invoke
+- ____ZN4roya7MOVSink14OnDataReceivedEPNS_15PipelineContextEPNS_9FrameDataE_block_invoke.8
+- ___block_descriptor_40_e20_v20?0B8"NSError"12l
+- ___block_descriptor_48_ea8_32c57_ZTSNSt3__110shared_ptrIN4roya4impl17HIDDeviceProviderEEE_e39_v48?0"HIDDevice"8Q16q24q32"NSData"40l
+- ___block_descriptor_48_ea8_32c60_ZTSNSt3__18weak_ptrIN4roya4impl23HeadphoneMotionProviderEEE_e242_v16?0^{FastPathDeviceMotionV3=SSIQ{_logItem=d}{_attitude=ddd[3{FastPathXYZDataV3=ddd}]{FastPathXYZWDataV3=dddd}}{FastPathXYZDataV3=ddd}{FastPathXYZDataV3=ddd}{FastPathXYZDataV3=ddd}{_magneticField={FastPathXYZDataV3=ddd}i}qd{_location=iid}}8l
+- ___block_descriptor_48_ea8_32c97_ZTSKZN4roya4impl16LocationProvider12OnInitializeEPNS_13IDataReceiverEPNS_15PipelineContextEE3$_0_e96_v16?0^{RYFLocationSample_V1={Coordinate=dd}ddddddddd{Floor=q}{LocationSourceInformation=BB}id}8l
+- ___block_descriptor_56_ea8_40c57_ZTSNSt3__110shared_ptrIN4roya4impl17HIDDeviceProviderEEE_e22_v20?0"HIDDevice"8B16l
+- ___block_descriptor_64_ea8_48c43_ZTSNSt3__110shared_ptrIN4roya9FrameDataEEE_e5_v8?0l
+- ___block_descriptor_tmp.2
+- ___block_literal_global.25
+- ___copy_helper_block_ea8_32c57_ZTSNSt3__110shared_ptrIN4roya4impl17HIDDeviceProviderEEE
+- ___copy_helper_block_ea8_32c60_ZTSNSt3__18weak_ptrIN4roya4impl23HeadphoneMotionProviderEEE
+- ___copy_helper_block_ea8_40c57_ZTSNSt3__110shared_ptrIN4roya4impl17HIDDeviceProviderEEE
+- ___copy_helper_block_ea8_48c43_ZTSNSt3__110shared_ptrIN4roya9FrameDataEEE
+- ___destroy_helper_block_ea8_32c57_ZTSNSt3__110shared_ptrIN4roya4impl17HIDDeviceProviderEEE
+- ___destroy_helper_block_ea8_32c60_ZTSNSt3__18weak_ptrIN4roya4impl23HeadphoneMotionProviderEEE
+- ___destroy_helper_block_ea8_40c57_ZTSNSt3__110shared_ptrIN4roya4impl17HIDDeviceProviderEEE
+- ___destroy_helper_block_ea8_48c43_ZTSNSt3__110shared_ptrIN4roya9FrameDataEEE
+- _dispatch_release
+- _dispatch_suspend
+- _kCALayerTextureLogExtension
+- _kCALayerTextureLogPrefix
+- _kCALayerVideoSyncComponentEnabled
+- _kMOVAllowedFrameDropLevel
+- _kMOVCVCalibration
+- _kMOVDisplayFrequency
+- _kMOVMCT2MATDelta
+- _kMOVStartTime
+- _kMOVSummaryDeviceString
+- _kMOVSummaryOSBuildVersion
+- _kMOVSummaryProductConfig
+- _kMOVSummaryProductVersion
+- _kMOVSummarySerialNumber
+- _kManagedAssetsInitial
+- _kRYFAPTimestampBase
+- _kRYFARResultDataTypeKey
+- _kRYFCALayerAtlasLayoutKey
+- _kRYFCALayerAtlasTrackNumberKey
+- _kRYFCloudLengthKey
+- _kRYFDisplayMode
+- _kRYFExtrinsics
+- _kRYFFrameNumber
+- _kRYFFreeFormApproximationKey
+- _kRYFIntrinsics
+- _kRYFJasperBankOrder
+- _kRYFMINRSSI
+- _kRYFMOVMetadataTrackKindIdentifier
+- _kRYFMOVTrackKindIdentifier
+- _kRYFMachAbsoluteStartTime
+- _kRYFMachContinuousStartTime
+- _kRYFMachTimeZoneAbbreviation
+- _kRYFMachTimeZoneName
+- _kRYFMachWallClockStartTime
+- _kRYFMattingBiasKey
+- _kRYFMattingScaleKey
+- _kRYFMovieTimeScale
+- _kRYFPolarisStreamDomainKey
+- _kRYFPolarisStride
+- _kRYFPresentationTime
+- _kRYFROIHeight
+- _kRYFROILeft
+- _kRYFROITop
+- _kRYFROIWidth
+- _kRYFRemoteFrameID
+- _kRYFSPUTimestampBase
+- _kRYFSensorTime
+- _kRYFWiFiChannels
+- _objc_msgSend$attachments
+- _objc_msgSend$bundleURL
+- _objc_msgSend$decodeDoubleForKey:
+- _objc_msgSend$decodeInt64ForKey:
+- _objc_msgSend$decodeObjectForKey:
+- _objc_msgSend$encodeDouble:forKey:
+- _objc_msgSend$encodeInt64:forKey:
+- _objc_msgSend$encodeObject:forKey:
+- _objc_msgSend$finishWithCompletionHandler:
+- _objc_msgSend$getReport:reportLength:withIdentifier:forType:error:
+- _objc_msgSend$setAttachments:
+- _objc_msgSend$syncTimestamp
+- _objc_msgSend$value
+- _objc_retain_x27
+- _objc_retain_x28
+- _sleep
+CStrings:
++ "\nHIDDevice is not added yet, recording failed. "
++ "  %s: %s"
++ " but expected "
++ " bytes)"
++ " bytes, need "
++ " data: "
++ " for "
++ " has size "
++ "!trackTimestamps.empty()"
++ "%s"
++ "(unknown error)"
++ ")"
++ ", bytesPerSample="
++ "-attachments"
++ "-channel audio"
++ ".xctest"
++ "/System/Library/PrivateFrameworks/Polaris.framework/"
++ "1"
++ "47.0.0.500.2.4"
++ "AP"
++ "Args"
++ "AsyncOperation::Execute() - data is null"
++ "CMDeviceMotion"
++ "CMSampleBufferCreate returned NULL"
++ "Connected HIDDeviceProvider to MOVContainer for track: %s"
++ "Container is not set!"
++ "Container not initialized"
++ "Container not ready"
++ "ConvertToInterleavedAudio: bits per channel is not a multipe of 8: "
++ "ConvertToInterleavedAudio: failed to copy channel "
++ "ConvertToInterleavedAudio: failed to create interleaved format description"
++ "ConvertToInterleavedAudio: failed to get timing info"
++ "ConvertToInterleavedAudio: no ASBD"
++ "ConvertToInterleavedAudio: no block buffer"
++ "ConvertToInterleavedAudio: unsupported bit depth "
++ "CreateInterleavedCMSampleBuffer: block buffer too small (got "
++ "CreateInterleavedCMSampleBuffer: failed to assure block memory: "
++ "CreateInterleavedCMSampleBuffer: failed to create CMBlockBuffer: "
++ "CreateInterleavedCMSampleBuffer: no channel data provided"
++ "CreateNonInterleavedCMSampleBuffer: block buffer too small (got "
++ "CreateNonInterleavedCMSampleBuffer: channel "
++ "CreateNonInterleavedCMSampleBuffer: failed to assure block memory: "
++ "CreateNonInterleavedCMSampleBuffer: failed to create CMBlockBuffer: "
++ "CreateNonInterleavedCMSampleBuffer: failed to get ASBD from format description"
++ "CreateNonInterleavedCMSampleBuffer: format description is not non-interleaved"
++ "CreateNonInterleavedCMSampleBuffer: no channel data provided"
++ "DEV"
++ "Data has invalid size"
++ "DataSink.mm"
++ "DataSource does not conform to any supported protocol (RoyaVideoDataSource, RoyaAudioDataSource, or RoyaMetadataDataSource)"
++ "DataSourceBridge: Start/stop operation failed, %@"
++ "DataSourceBridge: Start/stop operation timed out after 1 sec"
++ "DataSourceBridge: dataSource does not implement onMessageWithPayload, ignoring message"
++ "DataSourceBridge: failed to send message to data source: %@"
++ "DataSourceBridge: message payload is nil"
++ "DelegateDataSink"
++ "DelegateDataSink.mm"
++ "DelegateDataSink: %s failed, %@"
++ "DelegateDataSink: %s timed out after %d sec"
++ "DelegateDataSink: Error in %s: %@"
++ "DelegateDataSink: Error in initializing delegate: %@"
++ "DelegateDataSink: No receivers found for track: %s"
++ "DelegateDataSink: Not supported track type: %s"
++ "DelegateDataSink: Unsupported track type for track: %s"
++ "DelegateDataSink: discarding priming frame for track: %s"
++ "DelegateDataSink: failed to create frame data for track: %s"
++ "DelegateDataSink: failed to get receiver for track name: %s, type: %s"
++ "DelegateDataSink: failed to get receiver for track name: %s, type: %s, error: %@"
++ "DelegateDataSink: failed to submit audio sample to treck %s: %@"
++ "DelegateDataSink: failed to submit metadata sample: %@"
++ "DelegateDataSink: failed to submit video sample to treck %s: %@"
++ "DeviceMotionDataProvider"
++ "DeviceMotionDataProvider::OnCleanup"
++ "DeviceMotionDataProvider::OnInitialize Unsupported data source for track type: %s, track: %s"
++ "DeviceMotionDataProvider::OnInitialize failed to create DeviceMotionService for track: %s"
++ "DeviceMotionDataProvider::OnStart"
++ "DeviceMotionDataProvider::OnStart failed for track: %s (wrong state: %s)"
++ "DeviceMotionDataProvider::OnStart failed to start DeviceMotion service for track: %s"
++ "DeviceMotionDataProvider::OnStop"
++ "DeviceMotionDataService::initWithCallback CoreMotionData is not available on this device"
++ "DeviceMotionDataService::setUpdateInterval set to %f Hz"
++ "DeviceMotionService callback: DeviceMotionService object deallocated"
++ "DeviceMotionService device motion data is nil, skipping update"
++ "DeviceMotionService error from CMMotionManager: %@"
++ "DeviceMotionService::start starting device motion updates"
++ "DeviceMotionService::stop stopping device motion updates"
++ "Duplicate routing edge: '%s' -> '%s'"
++ "Entitlements"
++ "ExecuteAsyncOperation"
++ "ExtractMonoChannel: bits per channel is not a multipe of 8: "
++ "ExtractMonoChannel: cannot extract channel from non-LPCM audio (formatID: "
++ "ExtractMonoChannel: failed to allocate memory for mono data"
++ "ExtractMonoChannel: failed to create mono block buffer: "
++ "ExtractMonoChannel: failed to create mono format description: "
++ "ExtractMonoChannel: failed to create mono sample buffer: "
++ "ExtractMonoChannel: failed to get block buffer"
++ "ExtractMonoChannel: failed to get timing info count: "
++ "ExtractMonoChannel: failed to get timing info: "
++ "ExtractMonoChannel: invalid audio data: numFrames="
++ "ExtractMonoChannel: invalid channel index "
++ "ExtractMonoChannel: multiple timing info entries not supported (count: "
++ "ExtractMonoChannel: no ASBD"
++ "ExtractMonoChannel: no timing info available"
++ "Failed to create CMSampleBuffer: "
++ "Failed to create format description from pixel buffer"
++ "Failed to create sample"
++ "Failed to create sample buffer from pixel buffer"
++ "Failed to get receiver for track name: %s, type: %s"
++ "Failed to get receiver for track name: %s, type: %s, error code: %ld, message: %s"
++ "Failed to open ProtoBuf output file"
++ "Failed to populate WiFi sample"
++ "Failed to receive audio buffer"
++ "Failed to receive buffer"
++ "Failed to receive pixel buffer"
++ "Failed to send message to data source: %s."
++ "Failed to write metadata"
++ "Failed to write sample"
++ "GetAudioStreamBasicDescription: no ASBD"
++ "GetAudioStreamBasicDescription: no format description"
++ "GetAudioStreamBasicDescription: null sample buffer"
++ "GraphBuilderForiOS::CreatePipeline() - duplicate track name: %s"
++ "GraphBuilderForiOS::CreatePipeline() - failed to create data provider for %s"
++ "Invalid container type"
++ "Invalid data size"
++ "Invalid parameters"
++ "Invalid source options."
++ "Invalid track type"
++ "Local, Drumstick, Remote, VisionOS_Device, iOS_Device"
++ "MOVKitAudioTrack::Initialize - Error setting audio track %s: %@"
++ "MOVKitAudioTrack::Initialize - Expected AudioFrameData for track %s"
++ "MOVKitAudioTrack::Initialize - Failed to create MIOWriterAudioSampleBufferStreamInput for track %s"
++ "MOVKitAudioTrack::Initialize - Using LPCM format for track %s"
++ "MOVKitAudioTrack::Initialize - Using pre-encoded format (%s) for track %s"
++ "MOVKitAudioTrack::SubmitFrame - Error submitting frame for track %s: %@"
++ "MOVKitAudioTrack::SubmitFrame - Expected AudioFrameData for track %s"
++ "MOVKitAudioTrack::SubmitFrame - Invalid container"
++ "MOVKitDeviceMotionTrack.mm"
++ "Metadata serialization failed"
++ "N301"
++ "Name"
++ "No MOVKit Writer"
++ "No createAudioReceiverForTrack implemented in outut delegate"
++ "No createMetadataReceiverForTrack implemented in outut delegate"
++ "No createVideoReceiverForTrack implemented in outut delegate"
++ "No valid axis data"
++ "Null container"
++ "Null frame data"
++ "Null sample"
++ "OSBuildVersion"
++ "OnDataReceivedImpl"
++ "Operation, name, and type must not be nil."
++ "OriginalTimestampWhenWrittenToFile"
++ "PacketType"
++ "Pipeline.mm"
++ "PolarisAudioSource"
++ "PolarisAudioSource::Constructor(). Stream:%s"
++ "PolarisAudioSource::CreateTask() - failed to create PSTaskInput for PSGraph: %@"
++ "PolarisAudioSource::CreateTask()."
++ "PolarisAudioSource::DispatchData() - Expected SPMC type, got: %d"
++ "PolarisAudioSource::DispatchData() - Expected fastpath resource for %@"
++ "PolarisAudioSource::DispatchData() - Failed to copy data to CMBlockBuffer"
++ "PolarisAudioSource::DispatchData() - Failed to create CMBlockBuffer"
++ "PolarisAudioSource::DispatchData() - Failed to create CMSampleBuffer (status=%d)"
++ "PolarisAudioSource::DispatchData() - callback."
++ "PolarisAudioSource::DispatchData() - entry_size mismatch: expected=%zu actual=%d stream=%@"
++ "PolarisAudioSource::DispatchData() - frameId:%lld ts:%f frames:%lld"
++ "PolarisAudioSource::DispatchData() - legacy format (no header) for stream=%@"
++ "PolarisAudioSource::DispatchData() - unexpected input count: %ld (expected 2)"
++ "PolarisAudioSource::DispatchData() fp_reader->is_initialized=%d type=%d entry_size=%d"
++ "PolarisAudioSource::InitializeGraph() - Stream %s not supported"
++ "PolarisDataSource::DispatchData() - Empty buffer"
++ "PolarisDataSource::DispatchData() - Stream: %s, skipping frame with 0 length"
++ "PolarisDataSource::DispatchData() - received frame with timestamp: %5.3f, length: %zu"
++ "PolarisIMUSource"
++ "PolarisProvider::OnInitialize() - received stream info for resource: %@.."
++ "PolarisProvider::OnInitialize() - waiting for polaris context for resource: %@.."
++ "PolarisProvider::OnInitialize() TrackType::Audio"
++ "PolarisProvider::OnMessage() - stream control not enabled, forwarding to default handler"
++ "PolarisProvider::taskFunction() - task function exited."
++ "ProcessAudioFrame"
++ "ProcessMetadataFrame"
++ "ProcessVideoFrame"
++ "ProductConfig"
++ "ProtoBufContainer"
++ "RPROD300AP"
++ "Routing edge has nil from or to"
++ "RoyaCameraStreamSession - fatal error: %@"
++ "RoyaCameraStreamSession - ignoring message type=%ld"
++ "RoyaCameraStreamSession - session finished without error"
++ "RoyaCameraStreamSession - unknown device model: %@, falling back to ccam_s2u"
++ "RoyaCameraStreamSession - using stream name from defaults: %@"
++ "RoyaCaptureErrorDomain"
++ "Sample serialization failed"
++ "Sender"
++ "Session is in an invalid state."
++ "Session not initialized."
++ "SessionBase.mm"
++ "SessionProxyImpl.mm"
++ "SetSessionMessageCallback"
++ "Starting delegate"
++ "Stopping delegate"
++ "TestOperation"
++ "TestVideoProvider"
++ "Timeout limit must be a date in the future."
++ "Track not initialized"
++ "Track not initialized or null data"
++ "Unexpected IMU packet payload size:%zu"
++ "Unexpected IMU packet payload size:%zu Expected:%zu or %zu or %zu"
++ "Unknown error"
++ "Unknown, Video, Audio, IMU, Metadata, Desgen, CalibrationMesh, PointCloud, Deferred, UNUSED_0, UNUSED_1, UNUSED_2, WiFi, DeviceMotion, UNUSED_3"
++ "Unsupported IMU Packet size:%zu"
++ "Unsupported sinkOptions. Use a concrete leaf-node class."
++ "UserEventDataProvider"
++ "VideoCaptureSinkContainer"
++ "VideoCaptureSinkContainer.mm"
++ "[AVFDataSource] Data not ready"
++ "[AVFDataSource] Error setting video device frame duration for track '%s' with error: %s"
++ "[AVFDataSource] Provider not yet started"
++ "[AVFDataSource] State changed to %s"
++ "[AVFDataSource] captureOutput didDropSampleBuffer"
++ "[AudioPipelineContext] Error setting encoder to %s, invalid encoder. Keep using %s"
++ "[AudioPipelineContext] Failed to parse [bitrate]: %s, switching to default %zu bps"
++ "[AudioPipelineContext] Failed to parse [quality]: %s, switching to default %.2f"
++ "[AudioQueueBufferWrapper] Failed to allocate AudioQueueBufferRef status=%d"
++ "[AudioQueueBufferWrapper] Failed to free AudioQueueBufferRef status=%d"
++ "[AudioQueueWrapper] Failed to create AudioQueue status=%d"
++ "[AudioQueueWrapper] Failed to dispose AudioQueue status=%d"
++ "[AudioQueueWrapper] Failed to enqueue audio buffer status=%d"
++ "[AudioQueueWrapper] Failed to get AudioQueue property status=%d"
++ "[AudioQueueWrapper] Failed to start AudioQueue status=%d"
++ "[AudioQueueWrapper] Failed to stop AudioQueue status=%d"
++ "[CaptureSession] Cannot set sessionFinishedHandler, sessionMessageHandler already set"
++ "[CaptureSession] Cannot set sessionMessageHandler, already set"
++ "[CaptureSession] Ignoring message type=%ld in deprecated sessionFinishedHandler"
++ "[CaptureSession] setRouting called with nil, clearing routing"
++ "[DataProvider] - Message payload (%lu entries):"
++ "[DataProvider] - null payload received"
++ "[DataProvider] State changed to %s, provider=%s"
++ "[DataSink] End of stream detected, stopping capture"
++ "[DeviceMotionDataProvider] Provider object deallocated for stream=%s"
++ "[DoAPPluginAudioProvider] DataProvider no longer exists"
++ "[DoAPPluginAudioProvider] Failed to check resource: %s"
++ "[DoAPPluginAudioProvider] Failed to find plugin bundle: %@"
++ "[DoAPPluginAudioProvider] Not ready to start for stream: %s"
++ "[DoAPPluginAudioProvider] setStatusChangeBlock data provider no longer exists"
++ "[FastPathIMUDataProvider] Cannot create plugin interface for service error=%x"
++ "[FastPathIMUDataProvider] Failed to process frame"
++ "[FastPathIMUDataProvider] Failed to read FastPath samples error=%x"
++ "[FastPathIMUDataProvider] FastPath interface not found"
++ "[FastPathIMUDataProvider] First frame is too old latency=%f (s), skipping"
++ "[FastPathIMUDataProvider] Found class: %@"
++ "[FastPathIMUDataProvider] Found service handle"
++ "[FastPathIMUDataProvider] Got %d samples"
++ "[FastPathIMUDataProvider] Got %d services"
++ "[FastPathIMUDataProvider] Got iterator size=%u entry size=%u queue size=%u"
++ "[FastPathIMUDataProvider] Has matched interface for %s"
++ "[FastPathIMUDataProvider] Has no matched interface for %s"
++ "[FastPathIMUDataProvider] Have registry name: %s for i:%d"
++ "[FastPathIMUDataProvider] Invalid location: %s"
++ "[FastPathIMUDataProvider] Invalid location: track=%s, location=%d"
++ "[FastPathIMUDataProvider] Location detected successfully: track=%s, location=%d"
++ "[FastPathIMUDataProvider] OnInitialize succeeded"
++ "[FastPathIMUDataProvider] OnStart"
++ "[FastPathIMUDataProvider] OnStop"
++ "[FastPathIMUDataProvider] Permission not allowed"
++ "[FastPathIMUDataProvider] Read returned=%x ptr=%llu updatedPtr=%llu"
++ "[FastPathIMUDataProvider] ReadLast returned=%x updatedPtr=%llu"
++ "[FastPathIMUDataProvider] SPU timesync info not found"
++ "[FastPathIMUDataProvider] SPUTimeSync got spuTimestampNS=%llu apTimestampNS=%llu"
++ "[FastPathIMUDataProvider] Timer cancelled"
++ "[FastPathIMUDataProvider] Unable to find SPU time sync service"
++ "[FastPathIMUDataProvider] fpInterface failed with error code: %x"
++ "[FastPathIMUDataProvider] onTimer"
++ "[FastPathIMUDataProvider] processSample received frame with timestamp=%5.3f %5.3f"
++ "[FastPathIMUDataProvider] pt=%x valid=%u mach_ts=%llu ts=%llu interval=%lld latency=%lld (%llu %llu) id=%d u:[%f %f %f] a:[%f %f %f] g:[%f %f %f]\n"
++ "[FrameCounter] Invalid timestamp rejected, value=%f"
++ "[FrameCounter] No change in timestamp, value=%f"
++ "[GraphBuilder]   %s -> %s"
++ "[GraphBuilder] Access denied for track=%s, required datasource=%s not in entitlement=%s"
++ "[GraphBuilder] AddOperation: name=%s, type=%s"
++ "[GraphBuilder] AddSink: identifier=%@"
++ "[GraphBuilder] AddTrack: name=%s, hasExternalDataSource=%s"
++ "[GraphBuilder] Build: implicit routing with %zu track(s), sink=%s"
++ "[GraphBuilder] Cannot add sink, already added: identifier=%@"
++ "[GraphBuilder] Cannot determine deferred track type for stream=%s"
++ "[GraphBuilder] Cycle in routing edges: '%s' -> '%s'"
++ "[GraphBuilder] Data provider is null for source=%s"
++ "[GraphBuilder] Data provider not found for source=%s"
++ "[GraphBuilder] Device not supported: %s"
++ "[GraphBuilder] Entitlement check passed for track=%s, datasource=%s, entitlement=%s"
++ "[GraphBuilder] Failed to create context for track=%s"
++ "[GraphBuilder] Failed to create data provider for track=%s"
++ "[GraphBuilder] Failed to create data sink: %@"
++ "[GraphBuilder] Failed to create pipeline for track=%s"
++ "[GraphBuilder] Operation '%s' not referenced in routing edges"
++ "[GraphBuilder] Operation already exists: %s"
++ "[GraphBuilder] Operation node '%s' conflicts with existing node name"
++ "[GraphBuilder] Routing node '%s' not found"
++ "[GraphBuilder] Self-loop in routing edge: '%s' -> '%s'"
++ "[GraphBuilder] SendMessageToSource name=%s"
++ "[GraphBuilder] SetRouting: %zu edge(s), explicit=%s"
++ "[GraphBuilder] Sink '%s' not referenced as destination in routing edges"
++ "[GraphBuilder] Sink identifier '%s' conflicts with existing node name"
++ "[GraphBuilder] Sink identifier is nil"
++ "[GraphBuilder] Track '%s' not referenced in routing edges"
++ "[GraphBuilder] Track already exists: %s"
++ "[GraphBuilder] Unhandled pipeline type"
++ "[GraphBuilder] Unknown operation type=%s"
++ "[GraphBuilder] Unsupported sink type: %@"
++ "[GraphBuilder] sinkOptions is nil, AddSink() was not called"
++ "[HIDDeviceProvider] Container state changed to %s"
++ "[HIDDeviceProvider] Device added"
++ "[HIDDeviceProvider] Device removed"
++ "[HIDDeviceProvider] Error sending HID report id 0x%02X: %s"
++ "[HIDDeviceProvider] Expired when container state changed to %s"
++ "[HIDDeviceProvider] Failed to access HID config directory: %s"
++ "[HIDDeviceProvider] Failed to load plist file: %s"
++ "[HIDDeviceProvider] Failed to send start report"
++ "[HIDDeviceProvider] Failed to send stop report"
++ "[HIDDeviceProvider] HID input report id=%ld, timestamp=%lld, length=%lu, data=%s"
++ "[HIDDeviceProvider] Loaded HID config from: %s"
++ "[HIDDeviceProvider] Matching criteria matched zero devices. Initialization failed"
++ "[HIDDeviceProvider] OnCleanup"
++ "[HIDDeviceProvider] OnInitialize"
++ "[HIDDeviceProvider] OnStart"
++ "[HIDDeviceProvider] OnStop"
++ "[HIDDeviceProvider] Reference expired"
++ "[HIDDeviceProvider] Sending report 0x%02X with %u bytes"
++ "[HIDDeviceProvider] Waiting for container to be ready, sending an empty frame"
++ "[HeadphoneMotionProvider] Provider object deallocated for stream=%s"
++ "[LocationProvider] Failed to create LocationService for stream=%s"
++ "[LocationProvider] Provider object deallocated for stream=%s"
++ "[MOVContainer] Cannot close container that has not been started. Cancel it instead. filepath=%s"
++ "[MOVContainer] Cannot close container. state=%s"
++ "[MOVContainer] Cannot initialize track, container is in invalid state=%s track=%s"
++ "[MOVContainer] Cannot start a container that has already been started. filepath=%s"
++ "[MOVContainer] Cannot submit frame, container failed. track=%s"
++ "[MOVContainer] Cannot submit frames as the container has not been started. track=%s"
++ "[MOVContainer] Cleanup()"
++ "[MOVContainer] Container cannot be re-created. filepath=%s, state=%s"
++ "[MOVContainer] Container created. filepath=%s"
++ "[MOVContainer] Container has already started finishing. filepath=%s"
++ "[MOVContainer] Container is in the process of starting. filepath=%s"
++ "[MOVContainer] Container ready but track not initialized. track=%s"
++ "[MOVContainer] DoSubmitFrame() for track=%s ts:%f"
++ "[MOVContainer] Dropping late frame, container is closing. state=%s track=%s"
++ "[MOVContainer] Failed to add track - track already exists. track=%s"
++ "[MOVContainer] Found a track that has not been submitted yet. track=%s"
++ "[MOVContainer] Initialize track: %s"
++ "[MOVContainer] InitializeTrack() entered. track=%s"
++ "[MOVContainer] New track registered: name=%s,  numTracksRegistered=%d"
++ "[MOVContainer] No data was submitted to track=%s"
++ "[MOVContainer] Start closing. filepath=%s"
++ "[MOVContainer] Start preparing container... filepath=%s"
++ "[MOVContainer] State changed to %s"
++ "[MOVContainer] Submitted cached frame for track %s"
++ "[MOVContainer] Track has already been initialized. Replaced GetPrevFrame(): track=%s, timestamp=%8.3f"
++ "[MOVContainer] Track has unsubmitted cached frame. track=%s"
++ "[MOVContainer] Wait for on-going process to finish. Timeout=%llu state=%s"
++ "[MOVContainer] WaitTillFinish() finishes waiting. state=%s"
++ "[MOVContainer] frame counter error"
++ "[MOVContainer] numTracksRegistered=%d, numTracksAdded=%d, track=%s"
++ "[MOVContainer] timeout in waiting for closing. state=%s"
++ "[MOVKitContainer] Cannot create track for unsupported pipeline. TrackType=%s"
++ "[MOVKitContainer] Created MOVKitDeviceMotionTrack for stream: %s"
++ "[MOVKitContainer] Delegate object created"
++ "[MOVKitContainer] Did encounter error: %s"
++ "[MOVKitContainer] Did fail with error: %s"
++ "[MOVKitContainer] Did finish preparing"
++ "[MOVKitContainer] DidCancelRecording"
++ "[MOVKitContainer] DidFinishRecording"
++ "[MOVKitContainer] DoCreate() SUCCEEDED"
++ "[MOVKitContainer] DoFinish() SUCCEEDED"
++ "[MOVKitContainer] DoStartContainer() SUCCEEDED"
++ "[MOVKitContainer] Failed to create MIOWriter. filepath=%s"
++ "[MOVKitContainer] Failed to create delegate object"
++ "[MOVKitContainer] Failed to submit the first frame"
++ "[MOVKitContainer] Instance created"
++ "[MOVKitContainer] Invalid delegate object. filepath=%s"
++ "[MOVKitContainer] Output directory does not exist: %s"
++ "[MOVKitContainer] Output file path is not valid UTF-8: %s"
++ "[MOVKitDeviceMotionTrack] Cleanup"
++ "[MOVKitDeviceMotionTrack] Created track. track_name = %s"
++ "[MOVKitDeviceMotionTrack] Initialize track. track_name = %s"
++ "[MOVKitDeviceMotionTrack] deviceMotion is nil"
++ "[MOVKitIMUTrack] Cleanup"
++ "[MOVKitIMUTrack] Invalid container type"
++ "[MOVKitIMUTrack] No MOVKit Writer"
++ "[MOVKitIMUTrack] No valid axis data for accelerometer"
++ "[MOVKitIMUTrack] No valid axis data for compass"
++ "[MOVKitIMUTrack] No valid axis data for gyroscope"
++ "[MOVKitIMUTrack] Null frame data"
++ "[MOVKitIMUTrack] Unexpected IMU packet payload size=%zu"
++ "[MOVKitIMUTrack] Unexpected IMU packet payload size=%zu expected=%zu or %zu or %zu"
++ "[MOVKitMetadataTrack] Invalid frame type"
++ "[MOVKitVideoTrack] Error setting metadata track for track=%@"
++ "[MOVKitVideoTrack] Error setting video track %s: %@"
++ "[MOVKitVideoTrack] Error submitting frame for track %s"
++ "[MOVKitVideoTrack] Failed to create format desc for track: %s"
++ "[MOVKitVideoTrack] Failed to register track: %s. Quality must be in the range 0-1"
++ "[MOVSink] Cannot finish container, not in Ready state filepath=%s"
++ "[MOVSink] Container entered Failed state, aborting pipeline"
++ "[MOVSink] Container failed"
++ "[MOVSink] Failed to finish container at %s"
++ "[MOVSink] Failed to submit frame [%lld] for track: %s. Details: %s"
++ "[MOVSink] OnDataReceived - frame [%lld] for track: %s"
++ "[MOVSink] Pipeline destroyed, skipping frame [%lld] for track: %s"
++ "[MOVSink] Pipeline destroyed, skipping track registration for: %s"
++ "[MOVSink] Submitted frame [%lld] for track: %s"
++ "[MOVSink] discarding priming frame for track: %s"
++ "[MOVTrack] Sink framerate check failed for nominal=%f"
++ "[Pipeline] Added operation=%s, pipeline=%s"
++ "[Pipeline] Cannot cleanup while running, pipeline=%s"
++ "[Pipeline] Cannot initialize in state=%s, pipeline=%s"
++ "[Pipeline] Cannot initialize without DataSource, pipeline=%s"
++ "[Pipeline] Cannot start in state=%s, pipeline=%s"
++ "[Pipeline] Cannot stop, not running, pipeline=%s"
++ "[Pipeline] Cleanup, pipeline=%s"
++ "[Pipeline] Failed to initialize data provider=%s"
++ "[Pipeline] Failed to initialize operation=%s"
++ "[Pipeline] Failed to report timestamp to source frame counter"
++ "[Pipeline] Fatal error in %s: %s"
++ "[Pipeline] Not running, deferring first frame, pipeline=%s"
++ "[Pipeline] Processing first frame, pipeline=%s"
++ "[Pipeline] Processing frame, pipeline=%s, operation=%s"
++ "[Pipeline] Skipped duplicate frame, timestamp=%8.3f"
++ "[Pipeline] Source framerate check failed"
++ "[Pipeline] Start entered, pipeline=%s"
++ "[Pipeline] State transition from=%s to=%s, pipeline=%s"
++ "[Pipeline] Stop called by %s"
++ "[Pipeline] TrySetState failed, actual=%s, target=%s, pipeline=%s"
++ "[Pipeline] Unsupported track config key=%s, track=%s"
++ "[PolarisCameraSource] At max in-flight frames for stream=%s (%zu/%zu), total dropped=%zu"
++ "[PolarisCameraSource] Attached asset metadata with %lu entries"
++ "[PolarisCameraSource] Dispatching priming frame for pipeline startup, timestamp=%5.3f"
++ "[PolarisCameraSource] Enabling stream control"
++ "[PolarisCameraSource] Encountered invalid polaris resource for %@"
++ "[PolarisCameraSource] Error reading from pixel buffer: %d"
++ "[PolarisCameraSource] Failed to create PSTaskInput for PSGraph: %@"
++ "[PolarisCameraSource] Failed to get pearl buffer for %@"
++ "[PolarisCameraSource] Failed to get polaris pixel buffer item for %@"
++ "[PolarisCameraSource] Failed to read data, stream=%@"
++ "[PolarisCameraSource] Frame skipped by stream control"
++ "[PolarisCameraSource] Invalid timestamp detected: %lld, dropping this frame for %@"
++ "[PolarisCameraSource] Last frame before stream control pause, timestamp=%5.3f"
++ "[PolarisCameraSource] Last frame marked as cancel, timestamp=%5.3f"
++ "[PolarisCameraSource] Out-of-order timestamp detected, aborting pipeline, ts=%llu lastTs=%llu stream=%@"
++ "[PolarisCameraSource] Out-of-order timestamp dropped, ts=%llu lastTs=%llu stream=%@"
++ "[PolarisCameraSource] PCAM pixel buffer invalid"
++ "[PolarisCameraSource] Received frame with timestamp=%5.3f"
++ "[PolarisCameraSource] Received new Polaris resource of class=%lld for %@"
++ "[PolarisCameraSource] Received ps_resource_class_databuffer data"
++ "[PolarisCameraSource] Received ps_resource_class_jasper data"
++ "[PolarisCameraSource] Received ps_resource_class_pearl data"
++ "[PolarisCameraSource] Received ps_resource_class_pixelbuffer data"
++ "[PolarisCameraSource] Received unsupported data, stream=%@"
++ "[PolarisCameraSource] Supplied pipeline context is not a countable frame pipeline context"
++ "[PolarisCameraSource] abortOnOutOfOrder=%d stream=%s"
++ "[PolarisIMUSource] Cannot find SPU time sync service"
++ "[PolarisIMUSource] Constructor stream=%s"
++ "[PolarisIMUSource] CreateTask"
++ "[PolarisIMUSource] DispatchData [%zu/%zu] fp_reader->is_initialized=%d fp_reader->type=%d fp_reader->entry_size=%d"
++ "[PolarisIMUSource] DispatchData [%zu/%zu] input_class=%lld fp_reader=%p"
++ "[PolarisIMUSource] DispatchData callback"
++ "[PolarisIMUSource] Failed to create PSTaskInput for PSGraph: %@"
++ "[PolarisIMUSource] InitTimeSync SPUTimeSync got spuTimestampNS=%llu apTimestampNS=%llu diffNS=%lld"
++ "[PolarisIMUSource] InitTimeSync failed: %s"
++ "[PolarisIMUSource] InitTimeSync mach_diff=%lld mach_diff_nano=%lld"
++ "[PolarisIMUSource] Issued data frame frameId=%lld, ts=%f size=%ld"
++ "[PolarisIMUSource] Received %ld samples of DATA from %@"
++ "[PolarisIMUSource] Received unsupported class of data: %lld for %@"
++ "[PolarisIMUSource] SPU timesync info not found"
++ "[PolarisIMUSource] SPU timesync values not found in dictionary"
++ "[PolarisIMUSource] Supplied pipeline context is not a countable frame pipeline context"
++ "[PolarisIMUSource] Unexpected input count: %ld (expected 2)"
++ "[PolarisIMUSource] Unsupported fastpath packet type=%d"
++ "[PolarisPointCloudSource] Failed to create PSTaskInput for PSGraph: %@"
++ "[PolarisPointCloudSource] Failed to deserialize metadata for track: %@"
++ "[PolarisPointCloudSource] Frame is not valid, dropping this frame: %lld(%f)"
++ "[PolarisPointCloudSource] Invalid or duplicate timestamp detected (%lld) for bank=%d, use autotimestamp instead (%lld)"
++ "[PolarisPointCloudSource] Invalid timestamp detected: %lld, dropping this frame"
++ "[PolarisPointCloudSource] Jasper frames order changed: %d %d %d %d"
++ "[PolarisPointCloudSource] Received ps_resource_class_jasper data"
++ "[PolarisPointCloudSource] Received unsupported data, stream=%@"
++ "[PolarisPointCloudSource] Supplied pipeline context is not a countable frame pipeline context"
++ "[PolarisProvider] Failed to remove graph=%@, error=%@"
++ "[PolarisProvider] Initialized PSGraph: %@"
++ "[PolarisProvider] Invalid session during cleanup"
++ "[PolarisProvider] OnCleanup graph is nil, skipping graph removal"
++ "[PolarisProvider] OnStart for stream=%s"
++ "[PolarisSharedResource] Aborting due to Polaris fatal error (ResourceTimeout)"
++ "[PolarisSharedResource] Aborting due to Polaris fatal error (TransitionFailedTimeout)"
++ "[PolarisSharedResource] Aborting due to Polaris fatal error (UnknownTimeout)"
++ "[PolarisSharedResource] AddPendingGraph called with nil graph"
++ "[PolarisSharedResource] Added Camera Resource Used property to assertion (id=%u) return=%d"
++ "[PolarisSharedResource] Added pending graph %@ (%zu total)"
++ "[PolarisSharedResource] Buffer depth plist not found at %s"
++ "[PolarisSharedResource] Cannot determine hardware model, skipping flow control for stream %s"
++ "[PolarisSharedResource] Cannot release the IOPM assertion (id=%u), error=%d"
++ "[PolarisSharedResource] Cannot serialize PSStreamDomain for %s, error=%@"
++ "[PolarisSharedResource] Cannot set camera resource used property to assertion (id=%u), error=%d"
++ "[PolarisSharedResource] Committing %zu graphs"
++ "[PolarisSharedResource] Configured maxInFlightFrames=%lu for stream %s"
++ "[PolarisSharedResource] Failed to commit %zu graphs, error=%@"
++ "[PolarisSharedResource] Failed to create Polaris session"
++ "[PolarisSharedResource] Failed to load buffer depth plist at %s, error=%@"
++ "[PolarisSharedResource] Failed to query resource stream for resource %s"
++ "[PolarisSharedResource] IOPM assertion released"
++ "[PolarisSharedResource] IOPMAssertionDeclareSystemActivity returned: %x (assertion=%ld, state=%d)"
++ "[PolarisSharedResource] No valid readerDepth for stream %s in %s"
++ "[PolarisSharedResource] Polaris framework not available"
++ "[PolarisSharedResource] Power assertion (assertion=%ld, state=%d)"
++ "[PolarisSharedResource] Removed pending graph %@ (%zu remaining)"
++ "[PolarisSharedResource] SessionCallback %@ task time-out"
++ "[PolarisSharedResource] SessionCallback DeterministicFrameCompleted"
++ "[PolarisSharedResource] SessionCallback GraphSubmissionRequested"
++ "[PolarisSharedResource] SessionCallback SystemEvent"
++ "[PolarisSharedResource] SessionCallback TransitionCompleted"
++ "[PolarisSharedResource] SessionCallback TransitionFailedGraphTimeout"
++ "[PolarisSharedResource] SessionCallback TransitionFailedResourceTimeout"
++ "[PolarisSharedResource] SessionCallback TransitionFailedTimeout"
++ "[PolarisSharedResource] SessionCallback TransitionFailedUnknownTimeout"
++ "[PolarisSharedResource] SessionCallback UnknownEvent of type=%lu"
++ "[PolarisSharedResource] SessionCallback time-out getting resource %@"
++ "[PolarisSharedResource] Stream %s not found in buffer depth plist %s"
++ "[PolarisSharedResource] Try to add ResourceUsed property to assertion (id=%u)"
++ "[PolarisSharedResource] Try to create power assertion"
++ "[PolarisSharedResource] Try to release power assertion"
++ "[PolarisSharedResource] bufferConfigs key not found in %s"
++ "[PolarisSharedResource] resourceClass=%s for resource %s"
++ "[PolarisSharedResource] resourceClass=unknown for resource %s"
++ "[PolarisSource] Cannot deserialize metadata for %@ from NSData"
++ "[PolarisSource] Capturing %lld frames"
++ "[PolarisSource] Caught exception while trying to deserialize metadata object: %@ for %@"
++ "[PolarisSource] Deserializing metadata failed for %@"
++ "[PolarisSource] Dispatching priming frame for pipeline startup"
++ "[PolarisSource] Error deserializing metadata for %@ from NSData: %@"
++ "[PolarisSource] Failed to parse [fps] for the stream: %s, with error: %s"
++ "[PolarisSource] GetDefaultFramerate: returning default framerate: %f"
++ "[PolarisSource] IOSurface lock error: %d"
++ "[PolarisSource] Missing 'action' key in stream control payload"
++ "[PolarisSource] SetupContext default framerate is %f for %s"
++ "[PolarisSource] SetupContext with framerate=%f for the stream: %s"
++ "[PolarisSource] Stored asset metadata with %lu entries"
++ "[PolarisSource] Stream control enabled, dispatch paused"
++ "[PolarisSource] Stream dispatch started (continuous)"
++ "[PolarisSource] Stream dispatch stop pending, cancel=%d"
++ "[PolarisSource] Unknown stream control action: %@"
++ "[PolarisSource] captureFrames action missing 'framecount'"
++ "[PolarisSource] captureFrames count must be positive, got %lld"
++ "[ProtoBufContainer] Container not initialized"
++ "[ProtoBufContainer] DoCancel()"
++ "[ProtoBufContainer] DoFinish()"
++ "[ProtoBufContainer] Failed to open: %s"
++ "[ProtoBufContainer] Finished. Total samples: %llu"
++ "[ProtoBufContainer] Invalid track type: %s"
++ "[ProtoBufContainer] Metadata write error: %s"
++ "[ProtoBufContainer] Sample write error: %s"
++ "[ProtoBufContainer] Unsupported track: %s (type %d)"
++ "[ProtoBufContainer] WriteContainerMetadata()"
++ "[ProtoBufContainer] Writing sample %llu"
++ "[ProtoBufHIDTrack] Invalid container type"
++ "[ProtoBufHIDTrack] Null frame data"
++ "[ProtoBufIMUTrack] Invalid container type"
++ "[ProtoBufIMUTrack] Null frame data"
++ "[ProtoBufUserEventTrack] Failed to create sample"
++ "[ProtoBufUserEventTrack] Invalid container type"
++ "[ProtoBufUserEventTrack] Null frame data"
++ "[ProtoBufWifiTrack] Failed to populate WiFi sample"
++ "[ProtoBufWifiTrack] Invalid container type"
++ "[ProtoBufWifiTrack] Missing Channel"
++ "[ProtoBufWifiTrack] Missing RSSI"
++ "[RawAudioProvider] Audio Session IO buffer duration=%fs, size=%u"
++ "[RawAudioProvider] Constructor entered"
++ "[RawAudioProvider] Failed to create AVAudioSession"
++ "[RawAudioProvider] Failed to setCategory for AVAudioSession with error: %s"
++ "[RawAudioProvider] Failed to setPreferredSampleRate for AVAudioSession with error: %s"
++ "[RawAudioProvider] Failed to setPrefersNoInterruptionsFromSystemAlerts for AVAudioSession with error: %s"
++ "[RawAudioProvider] Initialization FAILED"
++ "[RawAudioProvider] Initialization SUCCEEDED"
++ "[RawAudioProvider] Not ready to start for stream: %s"
++ "[RawAudioProvider] OnCleanup entered"
++ "[SessionBase] Cannot cleanup while running, session=%s"
++ "[SessionBase] Cannot initialize in state=%s, session=%s"
++ "[SessionBase] Cannot start in state=%s, session=%s"
++ "[SessionBase] Cannot stop, not running, session=%s"
++ "[SessionBase] No DataProvider found, pipeline=%s"
++ "[SessionBase] Node already exists, node=%s"
++ "[SessionBase] Node is not IOperation, node=%s, pipeline=%s"
++ "[SessionBase] OnPipelineEvent event=%s, pipeline=%s"
++ "[SessionBase] OnPipelineEvent event=%s, pipeline=%s, state=%s"
++ "[SessionBase] Pipeline already exists, name=%s"
++ "[SessionBase] Pipeline already running, ignoring, pipeline=%s"
++ "[SessionBase] Pipeline ready, pipeline=%s"
++ "[SessionBase] Session already running, advancing pipeline=%s"
++ "[SessionBase] Stop called by %s"
++ "[SessionBase] Stop skipped, another pipeline is stopping"
++ "[SessionBase] Stop, pipeline=%s, pipelineState=%s"
++ "[SessionBase] Stop, state=%s"
++ "[SessionBase] Stopped all data sinks"
++ "[SessionBase] Stopped all pipelines"
++ "[SessionBase] Transitioning to Running"
++ "[SessionBase] Unhandled event=%s"
++ "[SessionBase] Unhandled state=%s, pipeline=%s"
++ "[SessionBase] Waiting for all pipelines to be ready"
++ "[SessionProxyImpl] Aborting session"
++ "[SessionProxyImpl] Cannot add operation after session has started"
++ "[SessionProxyImpl] Cannot add sink after session has started"
++ "[SessionProxyImpl] Cannot add track after session has started"
++ "[SessionProxyImpl] Cannot set routing after session has started"
++ "[SessionProxyImpl] Failed to initialize session: %s"
++ "[SessionProxyImpl] Failed to start session: %s"
++ "[SessionProxyImpl] Graph builder is null"
++ "[SessionProxyImpl] Graph has already started"
++ "[SessionProxyImpl] Invalid duration=%lld(ms)"
++ "[SessionProxyImpl] Session aborted during start"
++ "[SessionProxyImpl] Session aborted during stop"
++ "[SessionProxyImpl] Session started"
++ "[SessionProxyImpl] Session stopped"
++ "[SessionProxyImpl] Stopping session"
++ "[SessionProxyImpl] Timed out initializing the pipeline"
++ "[SessionProxyImpl] Unhandled sink type"
++ "[SessionProxyImpl] Waiting for session to start"
++ "[SessionProxyImpl] Waiting for session to stop, state=%d"
++ "[SessionProxyImpl] Waiting up to %lldms for session to start"
++ "[StringUtils] Invalid video codec=%s, using hvc1 instead"
++ "[SystemInfoUtils] Device model: %s"
++ "[TestVideoProvider] - timer cancelled"
++ "[TestVideoProvider] Error creating video frame. Error code: %d"
++ "[TimeSyncProvider] Failed to create timer"
++ "[TimeSyncProvider] Failed to initialize TimeSyncService: %s"
++ "[TimeSyncProvider] Failed to parse clock_id: %s"
++ "[TimeSyncProvider] Failed to start"
++ "[TimeSyncProvider] Initializing in existing clock mode, clockId=0x%llx"
++ "[TimeSyncProvider] Initializing in peer sync mode, peers=%s, interface=%s"
++ "[TimeSyncProvider] Initializing in standalone mode"
++ "[TimeSyncProvider] OnCleanup"
++ "[TimeSyncProvider] OnStart"
++ "[TimeSyncProvider] OnStop"
++ "[TimeSyncProvider] onTimerCancelled"
++ "[TimeSyncProvider] onTimerEvent isLocked=%d, clockId=0x%llx, referenceClockId=0x%llx, hostTime=%llu, domainTime=%llu"
++ "[TimeSyncProvider] onTimerEvent skipped, emitSamples=%d, initialized=%d"
++ "[TimeSyncService] Added peer %s on interface %s, portNumber=%u"
++ "[TimeSyncService] BMCA did not change grandmaster after %.1fs, accepting self as grandmaster (clockId=0x%llx)"
++ "[TimeSyncService] Cannot add gPTP services: %s"
++ "[TimeSyncService] Cannot add peer, service not initialized"
++ "[TimeSyncService] Cannot parse peer address: %s"
++ "[TimeSyncService] Cannot remove peer, service not initialized"
++ "[TimeSyncService] Cannot wait for lock, service not initialized"
++ "[TimeSyncService] Clock Identifier = 0x%llx"
++ "[TimeSyncService] Clock already self-locked, waiting up to %.1fs for BMCA negotiation with %zu peer(s)"
++ "[TimeSyncService] Clock locked after %.1fs, grandmaster=0x%llx"
++ "[TimeSyncService] Created new PTP instance, clockId=0x%llx"
++ "[TimeSyncService] Destroying, openPeers=%zu, ownsClockInstance=%d"
++ "[TimeSyncService] Desynchronizing, removing %zu peer(s)"
++ "[TimeSyncService] Failed to add gPTP services"
++ "[TimeSyncService] Failed to add peer %s: %s"
++ "[TimeSyncService] Failed to create PTP instance: %s"
++ "[TimeSyncService] Failed to create fallback PTP instance: %s"
++ "[TimeSyncService] Failed to get mach absolute rate ratio: %@"
++ "[TimeSyncService] Failed to remove PTP instance: %s"
++ "[TimeSyncService] Failed to remove peer %s: %s"
++ "[TimeSyncService] Grandmaster changed from 0x%llx to 0x%llx after %.1fs"
++ "[TimeSyncService] Initialized and synchronizing to %zu peer(s) on interface %s, lockState=%d"
++ "[TimeSyncService] Initialized with clockId=0x%llx, lockState=%d"
++ "[TimeSyncService] Initialized with clockId=0x%llx, lockState=TSClockNotLocking"
++ "[TimeSyncService] Initialized with clockId=0x%llx, referenceClockId=0x%llx, lockState=TSClockLocked"
++ "[TimeSyncService] Initialized with clockId=0x%llx, referenceClockId=0x%llx, lockState=TSClockLocking"
++ "[TimeSyncService] Lock state transitioned to %d after %.1fs, waiting for re-lock"
++ "[TimeSyncService] Removed peer %s on interface %s"
++ "[TimeSyncService] Timed out waiting for clock lock after %.1fs, lockState=%d"
++ "[TimeSyncService] Timeout waiting for clock manager"
++ "[TimeSyncService] Timeout waiting for clock object 0x%llx"
++ "[TimeSyncService] Timeout waiting for gPTP manager"
++ "[TimeSyncService] Waiting for clock lock, timeout=%.1fs"
++ "[UserEventProvider] Cannot start UserEventProvider for stream=%s"
++ "[UserEventProvider] Event name '%@' does not match names filter for stream=%s, ignoring event"
++ "[UserEventProvider] Event name or sender is nil"
++ "[UserEventProvider] Event sender '%@' does not match senders filter for stream=%s, ignoring event"
++ "[UserEventProvider] Failed to process frame for event: %@"
++ "[UserEventProvider] OnCleanup"
++ "[UserEventProvider] OnStart"
++ "[UserEventProvider] OnStop"
++ "[UserEventProvider] Provider not running, dropping event: %@"
++ "[UserEventProvider] Successfully processed user event: %@"
++ "[UserEventProvider] Timestamp in unexpected type, using current mach time for timestamp"
++ "[UserEventProvider] onUserEvent name=%@, sender=%@, args=%@ time=%.3f"
++ "[VideoCaptureSinkAttachmentsTrack] - Cannot add metadata input to writer"
++ "[VideoCaptureSinkAttachmentsTrack] - Cannot add track association"
++ "[VideoCaptureSinkAttachmentsTrack] - Cleanup complete for track %s, detected %zu dropped samples"
++ "[VideoCaptureSinkAttachmentsTrack] - Container is not an dvpContainer"
++ "[VideoCaptureSinkAttachmentsTrack] - Failed to append metadata"
++ "[VideoCaptureSinkAttachmentsTrack] - Failed to create AVAssetWriterInput"
++ "[VideoCaptureSinkAttachmentsTrack] - Failed to create metadata adaptor"
++ "[VideoCaptureSinkAttachmentsTrack] - Failed to serialize metadata as PLIST. error=%s"
++ "[VideoCaptureSinkAttachmentsTrack] - Initialized track: %s"
++ "[VideoCaptureSinkAttachmentsTrack] - Input not ready, dropping sample"
++ "[VideoCaptureSinkAttachmentsTrack] - Invalid container"
++ "[VideoCaptureSinkAttachmentsTrack] - Track not initialized"
++ "[VideoCaptureSinkAudioTrack] - Cannot add audio input to writer"
++ "[VideoCaptureSinkAudioTrack] - Cleanup complete for track %s, detected %zu dropped samples"
++ "[VideoCaptureSinkAudioTrack] - Container is not an VideoCaptureSinkContainer"
++ "[VideoCaptureSinkAudioTrack] - Converting non-interleaved to interleaved for encoding"
++ "[VideoCaptureSinkAudioTrack] - Failed to append sample buffer"
++ "[VideoCaptureSinkAudioTrack] - Failed to convert to interleaved: %s"
++ "[VideoCaptureSinkAudioTrack] - Failed to create AVAssetWriterInput"
++ "[VideoCaptureSinkAudioTrack] - Failed to create interleaved format description"
++ "[VideoCaptureSinkAudioTrack] - Failed to get ASBD"
++ "[VideoCaptureSinkAudioTrack] - Failed to get AudioStreamBasicDescription from format description"
++ "[VideoCaptureSinkAudioTrack] - Failed to get audio context"
++ "[VideoCaptureSinkAudioTrack] - Failed to get audio format description"
++ "[VideoCaptureSinkAudioTrack] - Initialized track: %s"
++ "[VideoCaptureSinkAudioTrack] - Input not ready, dropping sample"
++ "[VideoCaptureSinkAudioTrack] - Invalid container or frame data"
++ "[VideoCaptureSinkAudioTrack] - Invalid context or frame data"
++ "[VideoCaptureSinkAudioTrack] - No sample buffer in frame"
++ "[VideoCaptureSinkAudioTrack] - Using interleaved format hint for non-interleaved source"
++ "[VideoCaptureSinkContainer] Added asset metadata input to writer"
++ "[VideoCaptureSinkContainer] Asset metadata input not ready for more data"
++ "[VideoCaptureSinkContainer] Cannot add asset metadata input to writer"
++ "[VideoCaptureSinkContainer] Cannot create track for unsupported pipeline, TrackType=%s"
++ "[VideoCaptureSinkContainer] Created VideoCaptureSinkAudioTrack for stream=%s"
++ "[VideoCaptureSinkContainer] Created VideoCaptureSinkMetadataTrack for stream=%s"
++ "[VideoCaptureSinkContainer] Created VideoCaptureSinkVideoTrack for stream=%s"
++ "[VideoCaptureSinkContainer] DoCancel() succeeded"
++ "[VideoCaptureSinkContainer] DoCreate() succeeded"
++ "[VideoCaptureSinkContainer] DoFinish() initiated"
++ "[VideoCaptureSinkContainer] DoStartContainer() succeeded"
++ "[VideoCaptureSinkContainer] Failed to append asset metadata group at timestamp=%f"
++ "[VideoCaptureSinkContainer] Failed to create AVAssetWriter, filepath=%s, error=%s"
++ "[VideoCaptureSinkContainer] Failed to create metadata format description (err=%d)"
++ "[VideoCaptureSinkContainer] Failed to finish writing, status=%ld error=%s"
++ "[VideoCaptureSinkContainer] Failed to remove existing file, filepath=%s, error=%s"
++ "[VideoCaptureSinkContainer] Failed to serialize asset metadata: %s"
++ "[VideoCaptureSinkContainer] Failed to start writing, error=%s"
++ "[VideoCaptureSinkContainer] Instance created"
++ "[VideoCaptureSinkContainer] Successfully finished writing"
++ "[VideoCaptureSinkContainer] WriteAssetMetadata called but adaptor not available"
++ "[VideoCaptureSinkContainer] Writer is nil in DoCancel"
++ "[VideoCaptureSinkContainer] Writer is nil in DoFinish"
++ "[VideoCaptureSinkContainer] Writer is nil in DoStartContainer"
++ "[VideoCaptureSinkContainer] Wrote asset metadata at timestamp=%f"
++ "[VideoCaptureSinkMetadataTrack] Cannot add metadata input to writer"
++ "[VideoCaptureSinkMetadataTrack] Casting incoming frame data as CVBufferFrame"
++ "[VideoCaptureSinkMetadataTrack] Casting incoming frame data as SimpleFrameData"
++ "[VideoCaptureSinkMetadataTrack] Caught exception while submitting CVDataBuffer frame for track=%s: %@"
++ "[VideoCaptureSinkMetadataTrack] Cleanup complete for track=%s, detected %zu dropped samples"
++ "[VideoCaptureSinkMetadataTrack] Container is not a VideoCaptureSinkContainer"
++ "[VideoCaptureSinkMetadataTrack] Failed to append metadata"
++ "[VideoCaptureSinkMetadataTrack] Failed to create AVAssetWriterInput"
++ "[VideoCaptureSinkMetadataTrack] Failed to create metadata adaptor"
++ "[VideoCaptureSinkMetadataTrack] Failed to serialize metadata for track=%s: %s"
++ "[VideoCaptureSinkMetadataTrack] Initialized track=%s"
++ "[VideoCaptureSinkMetadataTrack] Input not ready, dropping sample"
++ "[VideoCaptureSinkMetadataTrack] Invalid container"
++ "[VideoCaptureSinkMetadataTrack] Invalid frame type"
++ "[VideoCaptureSinkMetadataTrack] Submit frame data as item"
++ "[VideoCaptureSinkMetadataTrack] Submit metadata set as item"
++ "[VideoCaptureSinkVideoTrack] - Could not submit attachments"
++ "[VideoCaptureSinkVideoTrack] Cannot add video input to writer"
++ "[VideoCaptureSinkVideoTrack] Cannot submit attachments"
++ "[VideoCaptureSinkVideoTrack] Cleanup complete for track=%s, detected %zu dropped samples"
++ "[VideoCaptureSinkVideoTrack] Container is not a VideoCaptureSinkContainer"
++ "[VideoCaptureSinkVideoTrack] Context is not a VideoPipelineContext"
++ "[VideoCaptureSinkVideoTrack] Discarding priming frame for stream=%s"
++ "[VideoCaptureSinkVideoTrack] Failed to append pixel buffer"
++ "[VideoCaptureSinkVideoTrack] Failed to create AVAssetWriterInput"
++ "[VideoCaptureSinkVideoTrack] Failed to create pixel buffer adaptor"
++ "[VideoCaptureSinkVideoTrack] HEVC not supported on virtual device, falling back to H264 for track: %s"
++ "[VideoCaptureSinkVideoTrack] Initialized track=%s"
++ "[VideoCaptureSinkVideoTrack] Input not ready, dropping sample"
++ "[VideoCaptureSinkVideoTrack] Invalid container or frame data"
++ "[VideoCaptureSinkVideoTrack] Invalid context or frame data"
++ "[VideoCaptureSinkVideoTrack] No pixel buffer in frame"
++ "[VideoCaptureSinkVideoTrack] Using bitrate: %zu for track: %s"
++ "[VideoCaptureSinkVideoTrack] Using default bitrate: %zu for track: %s"
++ "[VideoCaptureSinkVideoTrack] Using default quality: %f for track: %s"
++ "[VideoCaptureSinkVideoTrack] Using quality: %f for track: %s"
++ "[WIFIScanConfig] Scanning WiFi access points with frequency=%f for stream=%s"
++ "[WIFIScanConfig] Scanning WiFi access points with minimum RSSI=%ld for stream=%s"
++ "_"
++ "aac"
++ "abort_on_out_of_order"
++ "action"
++ "aop"
++ "aop.arm"
++ "aop.arm.accel.unfiltered"
++ "aop.main"
++ "aop.main.accel.unfiltered"
++ "ap_timestamp_ns"
++ "assetPath"
++ "asset_metadata"
++ "audioFrame != nullptr"
++ "becaml"
++ "becamr"
++ "bufferConfigs"
++ "camera_orientation_correction"
++ "captureFrames"
++ "captureStartTimestamp"
++ "captureStop"
++ "com.apple.%@"
++ "com.apple.RoyaLite.DeviceMotion"
++ "com.apple.reality.kind.camera.asset_metadata"
++ "com.apple.roya.asset_metadata"
++ "com.apple.roya.datasources"
++ "com.apple.royacapture.asyncoperation"
++ "com.apple.royacapture.devicemotion"
++ "com.apple.royacapture.fastpathimu"
++ "com.apple.royacapture.headphonemotion"
++ "com.apple.royacapture.hiddeviceprovider"
++ "com.apple.royacapture.location"
++ "com.apple.royacapture.movsink"
++ "com.apple.royacapture.polarissharedresource"
++ "com.apple.royacapture.session"
++ "com.apple.royacapture.sessionproxyimpl"
++ "com.apple.royacapture.testvideoprovider"
++ "com.apple.royacapture.timesyncprovider"
++ "com.apple.royacapture.usereventprovider"
++ "com.apple.royacapture.wifidataprovider"
++ "dcaml"
++ "dcamr"
++ "decimate"
++ "default_camera"
++ "delegate"
++ "delegate_ != nil"
++ "dev"
++ "en0"
++ "errorCode"
++ "errorMessage"
++ "event"
++ "eventnames"
++ "eventsenders"
++ "framecount"
++ "hw.model"
++ "imu"
++ "imu.imu800.iter"
++ "interpolate"
++ "jcaml"
++ "jcamr"
++ "lpcm"
++ "magnetometer"
++ "mcaml"
++ "mcamr"
++ "mdta/com.apple.roya.asset_metadata"
++ "mdta/com.apple.roya.video_capture_metadata"
++ "mdta/com.apple.stream_sample_attachments"
++ "mdta/com.apple.stream_sample_attachments_serialization_mode"
++ "mdta/com.apple.track_kind"
++ "merge"
++ "metadata"
++ "mode"
++ "movfile"
++ "necaml"
++ "necamr"
++ "network_interface"
++ "pcam"
++ "peerIP and networkInterface must not be nil"
++ "peer_addresses"
++ "period"
++ "photo_video"
++ "polaris"
++ "polaris.ccam_s2u"
++ "polaris.mcaml_s8u"
++ "polaris_stream"
++ "protobuffile"
++ "proxyPath"
++ "rate"
++ "raw_audio_manifests"
++ "raw_devicemotion_manifests"
++ "readerDepth"
++ "roya_mock_data_source"
++ "scaml"
++ "scamr"
++ "simpleFrame != nullptr"
++ "spu_timestamp_ns"
++ "stream_control_asset_metadata"
++ "stream_control_cancel"
++ "stream_control_last_frame"
++ "stream_control_message"
++ "test_video"
++ "true"
++ "unknown"
++ "unknown error"
++ "userevent"
++ "usereventargs"
++ "usereventname"
++ "usereventsender"
++ "usereventtimestamp"
++ "v16@?0@\"CMDeviceMotion\"8"
++ "v16@?0@?<v@?@\"NSError\">8"
++ "v24@?0q8@\"NSDictionary\"16"
++ "v32@?0@\"NSString\"8@\"NSString\"16^B24"
++ "v32@?0@\"NSString\"8@16^B24"
++ "v32@?0@8@16^B24"
++ "xcam"
++ "xctest"
+- "\""
+- "#16@0:8"
+- ".cxx_destruct"
+- "2.4.0"
+- "================== FATAL ERROR ================== "
+- "@\"CLLocationManager\""
+- "@\"CMHeadphoneMotionManager\""
+- "@\"CWFInterface\""
+- "@\"CWFScanParameters\""
+- "@\"NSArray\"16@0:8"
+- "@\"NSDictionary\""
+- "@\"NSMutableArray\""
+- "@\"NSMutableArray<AVAudioRemoteInputPlugin>\""
+- "@\"NSNumber\""
+- "@\"NSObject<NSSecureCoding>\""
+- "@\"NSObject<OS_dispatch_queue>\""
+- "@\"NSObject<OS_dispatch_source>\""
+- "@\"NSOperationQueue\""
+- "@\"NSString\"16@0:8"
+- "@16@0:8"
+- "@24@0:8:16"
+- "@24@0:8@\"<AVAudioRemoteInputPluginDelegate>\"16"
+- "@24@0:8@\"NSCoder\"16"
+- "@24@0:8@16"
+- "@24@0:8^@16"
+- "@24@0:8^v16"
+- "@32@0:8:16@24"
+- "@32@0:8@?16@24"
+- "@40@0:8:16@24@32"
+- "@40@0:8^v16^{IDataReceiver=^^?}24^v32"
+- "@?"
+- "A fatal error has occured in [%s]. Details: %s"
+- "ALS"
+- "ARAppleDeviceAnchor"
+- "ARBodyAnchor"
+- "ARCameraAnchor"
+- "ARData"
+- "AREyeAnchor"
+- "ARFaceAnchor"
+- "ARHandAnchor"
+- "ARImageAnchor"
+- "ARMeshAnchor"
+- "ARPlaneAnchor"
+- "ARResultDataType"
+- "AVAudioRemoteInputPlugin"
+- "AVAudioRemoteInputPluginDelegate"
+- "AVCaptureAudioDataOutputSampleBufferDelegate"
+- "AVCaptureVideoDataOutputSampleBufferDelegate"
+- "Added operation [%s] to pipeline [%s]."
+- "AllowedFrameDropLevel"
+- "AttachmentBuffers"
+- "AudioContext != nullptr && AudioFrame != nullptr"
+- "AudioDataOutputSampleBufferDelegate"
+- "B"
+- "B16@0:8"
+- "B24@0:8#16"
+- "B24@0:8:16"
+- "B24@0:8@\"CLLocationManager\"16"
+- "B24@0:8@\"Protocol\"16"
+- "B24@0:8@16"
+- "Bpr"
+- "Bytes"
+- "CALayerVideoResource"
+- "CALayerVideoSyncComponentEnabled"
+- "CLLocationManagerDelegate"
+- "CMHeadphoneMotionManagerDelegate"
+- "CVADepthTOF"
+- "CVCalibration"
+- "Cannot cleanup pipeline if it is running. Pipeline = %s"
+- "Cannot cleanup session if it is running. Session = %s"
+- "Cannot create track unsupported pipeline. TrackType=%s"
+- "Cannot initialize pipeline if it is in [%s] state. Pipeline name = %s"
+- "Cannot initialize session if it is in [%s] state. Session name = %s"
+- "Clock Identifier = 0x%llx"
+- "CloudLength"
+- "Compass"
+- "Could not serialize PSStreamDomain for %s, error:%@"
+- "DataSink type not supported: %d"
+- "DataSink.cpp"
+- "Device is not supported: %s"
+- "DisplayFrequency"
+- "DisplayMode"
+- "DoAPPlugin"
+- "Error removing graph from session, graph=%@, error=%@"
+- "Error sending HID report id 0x%02X: %s"
+- "Error setting audio track %s: %@"
+- "Error setting video track %s: %@"
+- "Error: %s"
+- "Error:%s"
+- "Extrinsics"
+- "Failed to access HID config directory: %s"
+- "Failed to add gPTP services."
+- "Failed to add track %s. Track already exist."
+- "Failed to check resource: %s"
+- "Failed to count frame!"
+- "Failed to create context for track: [%s]."
+- "Failed to create data sink at path: %s"
+- "Failed to create pipeline for track: [%s]."
+- "Failed to find plugin bundle: %@"
+- "Failed to finish container at %s."
+- "Failed to free AudioQueueBufferRef with status: %d"
+- "Failed to initialize pipeline due to missing DataSource instance. Pipeline name = %s"
+- "Failed to initialize session. Details: %s"
+- "Failed to initialize track: %s"
+- "Failed to load plist file: %s"
+- "Failed to query resource stream for resource %s"
+- "Failed to read FastPath samples error:%x"
+- "Failed to start TimeSyncProvider!"
+- "Failed to start session [%s]: can only start session when it is in Initialized or Stopped states."
+- "Failed to start session. Details: %s"
+- "Failed to stop the pipeline - pipeline is not running. Pipeline = %s"
+- "Failed to stop the session - session is not running. Pipeline = %s"
+- "Failed to submit frame [%d] for track: %s"
+- "Failed to write MOV with unknown error."
+- "Failed to write MOV: (%@)"
+- "FastPathIMUDataProvider::OnInitialize() - succeeded to initialize"
+- "FastPathIMUDataProvider::OnStart()"
+- "FastPathIMUDataProvider::OnStop()"
+- "FastPathIMUDataProvider::onTimer()"
+- "FastPathIMUDataProvider::onTimerCancelled() - Timer cancelled!"
+- "FastPathIMUDataProvider::processSample() - Failed to process frame."
+- "FastPathIMUDataProvider::processSample() - received frame with timestamp: %5.3f. %5.3f"
+- "FastPathInput"
+- "FrameCounter: no change in timestamp, %f"
+- "FrameNumber"
+- "FreeFormApproximation"
+- "Graph has already started!"
+- "HID input report id %ld, timestamp %lld, length: %lu, data: %s"
+- "HIDDevice OnInitialize: failed to send stop report."
+- "HIDDevice OnStart: failed to send start report."
+- "HIDDevice OnStop: failed to send stop report."
+- "HIDDevice: Error getting HID reporting interval %s"
+- "HIDDevice: Error setting HID reporting interval %s"
+- "HIDDevice: Reporting interval was previously set to %d"
+- "HIDDevice: device added"
+- "HIDDevice: device removed"
+- "HIDDeviceProvider reference expired."
+- "HIDDeviceProvider.queue"
+- "HIDDeviceProvider: Sending report 0x%02X with %u bytes"
+- "HIDDeviceProvider::OnCleanup"
+- "HIDDeviceProvider::OnInitialize"
+- "HIDDeviceProvider::OnStart"
+- "HIDDeviceProvider::OnStop"
+- "HIDManager: matching criteria matched zero devices. Initialization failed."
+- "HeadphoneMotion service callback: Headphone motion provider object deallocated"
+- "HeadphoneMotionService"
+- "Height"
+- "HostClockIdentifier"
+- "IOSurface lock error: %d"
+- "Initialized TimeSync with clockId = 0x%llx, lockState = TSClockNotLocking"
+- "Initialized TimeSync with clockId = 0x%llx, referenceClockId = 0x%llx, lockState = TSClockLocked"
+- "Initialized TimeSync with clockId = 0x%llx, referenceClockId = 0x%llx, lockState = TSClockLocking"
+- "Intrinsics"
+- "Invalid duration: %lld(ms)."
+- "Invalid video codec: %s. Use 'hvc1' instead.\n"
+- "Loaded HID config from: %s"
+- "Local, Drumstick, VisionOS_Device, iOS_Device"
+- "Location provider: Failed to create LocationService"
+- "Location service callback: location provider object deallocated"
+- "LocationService"
+- "MCT2MATDelta"
+- "MIOVersion"
+- "MIOWriterInterfaceDelegate"
+- "MOVKitAudioTrack.mm"
+- "MOVKitIMUTrack.mm"
+- "MOVStreamWriterDelegateObject"
+- "MachAbsoluteStartTime"
+- "MachContinuousStartTime"
+- "MachTimeBaseDenominator"
+- "MachTimeBaseNumerator"
+- "MachTimeZoneAbbreviation"
+- "MachTimeZoneName"
+- "MachWallClockStartTime"
+- "MattingBias"
+- "MattingScale"
+- "MinRSSI"
+- "NSCoding"
+- "NSObject"
+- "NSSecureCoding"
+- "No DataProvider found. Pipeline name: %s"
+- "Node %s already exist."
+- "Node [%s] is not IOperation. Pipeline name: %s"
+- "Ok"
+- "OnDataReceived"
+- "OriginalBytesPerRow"
+- "Pipeline [%s] already exists."
+- "Pipeline [%s] transitioning from [%s] to [%s]."
+- "Pipeline type unhandled."
+- "Pipeline.cpp"
+- "Pipeline::OnDataReceived() - Skipped duplicate frame with timestamp: %8.3f."
+- "Pipeline::OnDataReceived() - error in reporting timestamp to source frame counter"
+- "Pipeline::OnDataReceived() - sink framerate check error"
+- "Pipeline::OnDataReceived() - source framerate check error"
+- "Pipeline::Start() - Enter for pipeline [%s]."
+- "Pipeline::Start() - Failed to start pipeline [%s]: can only start pipeline when it is in Initialized or Stopped states."
+- "Pipeline::Start() - Process the first frame for pipeline [%s]."
+- "Pipeline::Start() - Skip to process the first frame for pipeline [%s]. Save for future operation."
+- "Pipeline::Stop() - called by %s."
+- "Polaris framework not available"
+- "PolarisCameraSource::CreateTask() - failed to create PSTaskInput for PSGraph: %@"
+- "PolarisCameraSource::DispatchData() - Failed to get pearl buffer for %@"
+- "PolarisCameraSource::DispatchData() - Failed to get polaris pixel buffer item for %@"
+- "PolarisCameraSource::DispatchData() - Failed to read data. stream:%@"
+- "PolarisCameraSource::DispatchData() - PCAM pixel buffer invalid"
+- "PolarisCameraSource::DispatchData() - Received new Polaris resource of class: %lld for %@"
+- "PolarisCameraSource::DispatchData() - Received ps_resource_class_databuffer data."
+- "PolarisCameraSource::DispatchData() - Received ps_resource_class_jasper data."
+- "PolarisCameraSource::DispatchData() - Received ps_resource_class_pearl data."
+- "PolarisCameraSource::DispatchData() - Received ps_resource_class_pixelbuffer data."
+- "PolarisCameraSource::DispatchData() - Received unsupported data. stream:%@"
+- "PolarisCameraSource::InitializeGraph - supplied pipeline context is not a coutable frame pipeline context."
+- "PolarisDataProvider::OnInitialize(): PSCallbackTransitionFailedResourceTimeout."
+- "PolarisDataProvider::SessionCallback() - %@ task time-out"
+- "PolarisDataProvider::SessionCallback() - Aborting due to Polaris fatal error (ResourceTimeout)"
+- "PolarisDataProvider::SessionCallback() - Aborting due to Polaris fatal error (UnknownTimeout)"
+- "PolarisDataProvider::SessionCallback() - Aborting due to Polaris fatal error TransitionFailedTimeout"
+- "PolarisDataProvider::SessionCallback() - GraphSubmissionRequested."
+- "PolarisDataProvider::SessionCallback() - PSCallbackDeterministicFrameCompleted."
+- "PolarisDataProvider::SessionCallback() - PSCallbackTransitionFailedGraphTimeout."
+- "PolarisDataProvider::SessionCallback() - PSCallbackTransitionFailedTimeout."
+- "PolarisDataProvider::SessionCallback() - PSCallbackTransitionFailedUnknownTimeout."
+- "PolarisDataProvider::SessionCallback() - SystemEvent."
+- "PolarisDataProvider::SessionCallback() - TransitionCompleted."
+- "PolarisDataProvider::SessionCallback() - UnknownEvent of type %lu ."
+- "PolarisDataProvider::SessionCallback() - time-out getting resource %@ "
+- "PolarisDataSpirce"
+- "PolarisFrameID"
+- "PolarisIMUSource::Constructor()."
+- "PolarisIMUSource::CreateTask() - failed to create PSTaskInput for PSGraph: %@"
+- "PolarisIMUSource::CreateTask()."
+- "PolarisIMUSource::DispatchData() - Received %ld samples of FastPathIMU from %@"
+- "PolarisIMUSource::DispatchData() - Received unsupported class of data: %lld for %@"
+- "PolarisIMUSource::DispatchData() - callback."
+- "PolarisIMUSource::DispatchData() - no data."
+- "PolarisIMUSource::DispatchData() - received frame with timestamp: %5.3f."
+- "PolarisIMUSource::DispatchData() Unexpected data length:%d. Expected:%d "
+- "PolarisPointCloudSource::CreateTask() - failed to create PSTaskInput for PSGraph: %@"
+- "PolarisPointCloudSource::DispatchData() - Received ps_resource_class_jasper data."
+- "PolarisPointCloudSource::DispatchData() - Received unsupported data. stream:%@"
+- "PolarisProvider::OnInitialize() - failed to commit PSGraph: graph=%@, error=%@"
+- "PolarisProvider::OnInitialize() - invalid session"
+- "PolarisProvider::OnInitialize() - succeeded to initialize PSGraph: %@."
+- "PolarisProvider::OnStart()"
+- "PolarisProvider::deinitFunc() - Releasing pointer to %@"
+- "PolarisSharedResource - Failed to create Polaris session."
+- "PolarisSharedResource.TrackTypeForResource.queue"
+- "PolarisSource - deserializing metadata failed for %@"
+- "PolarisSource::SetupContext - Failed to parse [fps] for the stream: %s, with error: %s"
+- "PolarisSource::SetupContext with framerate = %f for the stream: %s."
+- "PolarisStreamDomain"
+- "PolarisStride"
+- "PolarisTimeStamp"
+- "PresentationTime"
+- "Q16@0:8"
+- "REAssets"
+- "REMetadata"
+- "REScene"
+- "ROIHeight"
+- "ROILeft"
+- "ROITop"
+- "ROIWidth"
+- "RYA_AVCaptureOutputSampleBufferDelegate"
+- "RYFTimedValue"
+- "RYFVersion"
+- "RawAccelerometer"
+- "RawGyroscope"
+- "RealityARData"
+- "RealityAssets"
+- "RealityMetadata"
+- "RealityScene"
+- "RemoteFrameID"
+- "RoyaVersion"
+- "RoyaWiFiScanner"
+- "Roya_thread_wifi_scan"
+- "SPU timesync info not found!"
+- "SensorTime"
+- "Session started successfully."
+- "Session stopped."
+- "Session was aborted due to fatal error!"
+- "SessionBase.cpp"
+- "SessionBase::OnPipelineEvent() - Missing handling of event [%s]."
+- "SessionBase::OnPipelineEvent() - Synchronize Ready state. Pipeline=%s"
+- "SessionBase::OnPipelineEvent() - unhandled state: [%s] in pipeline: [%s]."
+- "SessionBase::OnPipelineEvent() event=%s, pipeline=%s"
+- "SessionBase::OnPipelineEvent() event=%s, pipeline=%s, state=%s"
+- "SessionBase::Stop() - Skipped since another pipeline is stopping."
+- "SessionBase::Stop() - Stopped all data sinks."
+- "SessionBase::Stop() - Stopped all pipelines."
+- "SessionBase::Stop() - called by %s."
+- "SessionProxyImpl.cpp"
+- "SetSessionFinishCallback"
+- "SourceConfigurations"
+- "SpuIntrinsics"
+- "Submitted frame [%d] for track: %s"
+- "T#,R"
+- "T@\"CWFInterface\",&,N,V_wifiInterface"
+- "T@\"CWFScanParameters\",&,N,V_scanParams"
+- "T@\"NSArray\",R,N"
+- "T@\"NSDictionary\",&,N,V_attachments"
+- "T@\"NSMutableArray\",&,N,V_channels"
+- "T@\"NSNumber\",&,N,V_minRSSI"
+- "T@\"NSObject<NSSecureCoding>\",&,N,V_value"
+- "T@\"NSObject<OS_dispatch_queue>\",R,N,V_queue"
+- "T@\"NSObject<OS_dispatch_source>\",&,N,V_timer"
+- "T@\"NSString\",?,R,C"
+- "T@\"NSString\",R,C"
+- "TB,R"
+- "TB,V_isCanceled"
+- "TIMEOUT on initializing the pipeline."
+- "TQ,N,V_syncTimestamp"
+- "TQ,R"
+- "T^v,N,V_context"
+- "T^v,N,Vcontext"
+- "T^v,Vhost_"
+- "T^{IDataReceiver=^^?},N,V_dataReceiver"
+- "T^{IDataReceiver=^^?},N,VdataReceiver"
+- "Td,N,V_frequency"
+- "Td,N,V_lastTimestamp"
+- "Td,N,V_timestamp"
+- "Td,N,V_wifiTimeToSystemOffset"
+- "Ti,N,V_frameCount"
+- "TimeSyncProvider failed to create timer."
+- "TimeSyncProvider.queue"
+- "TimeSyncProvider::OnCleanup"
+- "TimeSyncProvider::OnStart"
+- "TimeSyncProvider::OnStop"
+- "TimeSyncProvider::onTimerCancelled"
+- "TimeSyncProvider::onTimerEvent"
+- "TimeSyncService::sampleDomainTime - error getting mach absolute rate ratio: %@"
+- "Timeout waiting for TimeSync clock manager to become available."
+- "Timeout waiting for TimeSync gPTP manager to become available."
+- "Tr^v,N,V_provider"
+- "Tr^v,N,Vprovider"
+- "Track configuration [%s] is not supported by track [%s]."
+- "Track initialized: %s"
+- "URLByAppendingPathComponent:"
+- "URLsForDirectory:inDomains:"
+- "UTF8String"
+- "UUID"
+- "UUIDString"
+- "Unable to find SPU time sync service!"
+- "Unknown, Video, Audio, IMU, Metadata, Desgen, CalibrationMesh, PointCloud, Deferred, Photo, WiFi,"
+- "VideoDataOutputSampleBufferDelegate"
+- "Vv16@0:8"
+- "Waiting for up to %lldms for session to start"
+- "WiFiChannels"
+- "Width"
+- "[AVFDataSource] - Error setting video device frame duration for track '%s' with error: %s"
+- "[AVFDataSource] - State changed to %s"
+- "[DataProvider] - State changed to %s"
+- "[DoAPPluginAudioProvider: setStatusChangeBlock, data provider no longer exists."
+- "[DoAPPluginAudioProvider] - not ready to start for stream: %s."
+- "[DoAPPluginAudioProvider] DataProvider no longer exists."
+- "[FastPathIMUDataProvider]: Invalid location: %s"
+- "[FastPathIMUDataProvider]: Invalid location: track=%s, location=%d"
+- "[FastPathIMUDataProvider]: location detected successfully: track=%s, location=%d"
+- "[FastPath] FastPath interface not found"
+- "[FastPath] First frame is too old latency:%f (s), skipping..."
+- "[FastPath] Found service handle."
+- "[FastPath] Got %d samples"
+- "[FastPath] Got %d services"
+- "[FastPath] Got iterator size %u entry size %u queue size %u"
+- "[FastPath] Have registry name: %s for i:%d"
+- "[FastPath] Read returned:%x ptr:%llu updatedPtr:%llu"
+- "[FastPath] ReadLast returned:%x updatedPtr:%llu"
+- "[FastPath] SPUTimeSync got spuTimestampNS:%llu apTimestampNS:%llu"
+- "[FastPath] can't create plugin interface for service error:%x"
+- "[FastPath] found class: %@"
+- "[FastPath] fpInterface failed with error code: %x"
+- "[FastPath] has matched interface for %s"
+- "[FastPath] has no matched interface for %s"
+- "[FastPath] permission not allowed."
+- "[FastPath] pt=%x valid =%u mach_ts=%llu ts=%llu interval=%lld latency=%lld (%llu %llu) id=%d u:[%f %f %f] a:[%f %f %f] g:[%f %f %f]\n"
+- "[GraphBuilder] could not determine deferred track type for stream %s"
+- "[METADATA] Can't deserialize metadata for %@ from NSData"
+- "[METADATA] Catched exception while trying to deserialize metadata object: %@ for %@"
+- "[METADATA] Error deserializing metadata for %@ from NSData: %@"
+- "[METADATA] Error reading from pixel buffer: %d"
+- "[MOVContainer] - Cannot close container that has not been started. Cancel it instead. filepath=%s."
+- "[MOVContainer] - Cannot close container. state=%s"
+- "[MOVContainer] - Cannot start a container that has alread been started. filepath=%s."
+- "[MOVContainer] - Cannot submit frames as the container has not been started. track=%s"
+- "[MOVContainer] - Cleanup()"
+- "[MOVContainer] - Container cannot be re-created. filepath=%s, state=%s"
+- "[MOVContainer] - Container created. filepath=%s."
+- "[MOVContainer] - Container has already started finishing. filepath=%s."
+- "[MOVContainer] - Container is in the process of starting. filepath=%s."
+- "[MOVContainer] - DoSubmitFrame() for track=%s"
+- "[MOVContainer] - Failed to add track - track already exists. track=%s"
+- "[MOVContainer] - Found a track that has not been submitted yet. track=%s"
+- "[MOVContainer] - Initialize track: %s"
+- "[MOVContainer] - InitializeTrack() entered. track=%s"
+- "[MOVContainer] - New track registered: name=%s,  numTracksRegistered=%d"
+- "[MOVContainer] - No data was submitted to track=%s"
+- "[MOVContainer] - Start closing. filepath=%s."
+- "[MOVContainer] - Start preparing container... filepath=%s."
+- "[MOVContainer] - State changed to %s"
+- "[MOVContainer] - Submitted cached frame for track %s"
+- "[MOVContainer] - Track has already been initialized. Replaced GetPrevFrame(): track=%s, timestamp=%8.3f"
+- "[MOVContainer] - Track has unsubmitted cached frame. track=%s"
+- "[MOVContainer] - Wait for on-going process to finish. state=%s"
+- "[MOVContainer] - WaitTillFinish() finishes waiting. state=%s"
+- "[MOVContainer] - numTracksRegistered=%d, numTracksAdded=%d"
+- "[MOVContainer] - timeout in waiting for closing. state=%s"
+- "[MOVKitContainer] - Delegate object created."
+- "[MOVKitContainer] - Did Encounter with error: %s"
+- "[MOVKitContainer] - Did Fail with error: %s"
+- "[MOVKitContainer] - Did finish preparing."
+- "[MOVKitContainer] - DidCancelRecording"
+- "[MOVKitContainer] - DidFinishRecording"
+- "[MOVKitContainer] - DoCreate() SUCCEEDED."
+- "[MOVKitContainer] - DoFinish() SUCCEEDED."
+- "[MOVKitContainer] - DoStartContainer() SUCCEEDED."
+- "[MOVKitContainer] - Failed to create MIOWriter. filepath=%s."
+- "[MOVKitContainer] - Failed to create delegate object."
+- "[MOVKitContainer] - Failed to create delete object."
+- "[MOVKitContainer] - Failed to submit the first frame."
+- "[MOVKitContainer] - Invalid delegate object. filepath=%s."
+- "[MOVKitContainer] - instance created."
+- "[MOVKitIMUTrack] Cleanup."
+- "[MOVKitMetadataTrack] Invalid frame type."
+- "[MOVKitVideoTrack] - Failed to create format desc for track: %s."
+- "[MOVKitVideoTrack] - Failed to register track: %s. Quality must be in the range 0-1"
+- "[MOVKitVideoTrack] Error setting metadata track for : %@"
+- "[MOVKitVideoTrack] Error submitting frame for track %s!"
+- "[MOVSink] OnDataReceived - frame [%d] for track: %s"
+- "[MOVStreamIO][MULTITHREAD] Disabling multithreaded writing"
+- "[MOVStreamIO][MULTITHREAD] Enabling multithreaded writing, num threads: %ld"
+- "[POWER] Added Camera Resource Used property to assertion:(id:%u) Return:%d"
+- "[POWER] IOPM assertion released."
+- "[POWER] IOPMAssertionDeclareSystemActivity for key session returned: %x (assertion %ld, state %d)"
+- "[POWER] Power assertion (assertion %ld, state %d)"
+- "[POWER] Try to add ResourceUsed property to assertion (id:%u)"
+- "[POWER] Try to create power assertion.."
+- "[POWER] Try to release power assertion..."
+- "[POWER] Unable to release the IOPM assertion (id:%u). Error:%d"
+- "[POWER] Unable to set camera resource used property to assertion:(id:%u). Error:%d"
+- "[Pipeline] OnDataReceived. Pipeline=%s, opeation=%s"
+- "[PolarisPointCloudSource][Jasper] Failed to deserialize metadata for track: %@."
+- "[PolarisPointCloudSource][Jasper] Frame is not valid! Dropping this frame: %lld(%f)"
+- "[PolarisPointCloudSource][Jasper] Frames order changed: %d %d %d %d"
+- "[PolarisPointCloudSource][Jasper] Invalid or duplicate timestamp detected (%lld) for bank: %d. Use autotimestamp instead (%lld)"
+- "[PolarisPointCloudSource][Jasper] Invalid timestamp detected: %lld! Dropping this frame"
+- "[RYA_AVCaptureOutputSampleBufferDelegate] Data not ready"
+- "[RYA_AVCaptureOutputSampleBufferDelegate] captureOutput didDropSampleBuffer"
+- "[RYA_AVCaptureOutputSampleBufferDelegate] provider not yet started."
+- "[RawAudioProvider] - not ready to start for stream: %s."
+- "[RawAudioProvider] Audio Session IO buffer duration: %fs, size: %u."
+- "[RawAudioProvider] Initialization FAILED."
+- "[RawAudioProvider] Initialization SUCCEEDED."
+- "[RawAudioProvider] OnCleanup entered."
+- "[RawAudioProvider] constructor entered."
+- "[RawAudioProvider] failed to allocate AudioQueueBufferRef with status: %d"
+- "[RawAudioProvider] failed to create AudioQueue with status: %d"
+- "[RawAudioProvider] failed to dispose of AudioQueue with status: %d"
+- "[RawAudioProvider] failed to enqueue audio buffer with status: %d"
+- "[RawAudioProvider] failed to get AudioQueue property with status: %d"
+- "[RawAudioProvider] failed to start AudioQueue with status: %d"
+- "[RawAudioProvider] failed to stop AudioQueue with status: %d"
+- "[RawAudioProvider]::DoInitialize() failed to create AVAudioSession."
+- "[RawAudioProvider]::DoInitialize() failed to setCategory for AVAudioSession with error: %s"
+- "[RawAudioProvider]::DoInitialize() failed to setPreferredSampleRate for AVAudioSession with error: %s"
+- "[RawAudioProvider]::DoInitialize() failed to setPrefersNoInterruptionsFromSystemAlerts for AVAudioSession with error: %s"
+- "[TimeSyncProvider::OnInitialize] Failed to initialize TimeSyncService with error: %s"
+- "[TimeSyncProvider::OnInitialize] Failed to parse clock_id: %s"
+- "[TimeSyncProvider::onTimerEvent] isLocked = %@, clockId = 0x%llx, referenceClockId = 0x%llx, hostTime = %llu, domainTime = %llu"
+- "[WIFIScanConfig] Scanning WiFi access points with frequency: %f"
+- "[WIFIScanConfig] Scanning WiFi access points with minimum RSSI: %ld"
+- "^v"
+- "^v16@0:8"
+- "^{IDataReceiver=^^?}"
+- "^{IDataReceiver=^^?}16@0:8"
+- "^{_NSZone=}16@0:8"
+- "_attachments"
+- "_channels"
+- "_context"
+- "_dataReceiver"
+- "_frameCount"
+- "_frequency"
+- "_isAudioAccessoryInertialOdometryAvailable"
+- "_isCanceled"
+- "_lastTimestamp"
+- "_locationCallback"
+- "_locationManager"
+- "_locationQueue"
+- "_minRSSI"
+- "_motionCallback"
+- "_motionManager"
+- "_motionSerialQueue"
+- "_provider"
+- "_queue"
+- "_scanParams"
+- "_setAudioAccessoryInertialOdometryUpdateInterval:"
+- "_startAudioAccessoryInertialOdometryUpdatesToQueue:withHandler:"
+- "_stopAudioAccessoryInertialOdometryUpdates"
+- "_syncTimestamp"
+- "_timer"
+- "_timestamp"
+- "_underlayingQueue"
+- "_value"
+- "_wifiInterface"
+- "_wifiTimeToSystemOffset"
+- "a"
+- "absoluteString"
+- "activate"
+- "activeVideoMaxFrameDuration"
+- "addEncodingQuality:toConfiguration:"
+- "addEntriesFromDictionary:"
+- "addInput:"
+- "addInput:error:"
+- "addObject:"
+- "addObjectsFromArray:"
+- "addObserverForName:object:queue:usingBlock:"
+- "addOutput:"
+- "addPTPInstance:error:"
+- "addTask:"
+- "addgPTPServicesWithError:"
+- "allAttachments"
+- "allBundles:"
+- "allKeys"
+- "altitude"
+- "appendAllMetadataWithTimeStamp:"
+- "appendAudioBuffer:error:"
+- "appendPixelBuffer:pts:error:"
+- "archivedDataWithRootObject:requiringSecureCoding:error:"
+- "array"
+- "arrayWithCapacity:"
+- "arrayWithObjects:count:"
+- "attachments"
+- "attitude"
+- "authorizationStatus"
+- "autorelease"
+- "base64EncodedStringWithOptions:"
+- "beginConfiguration"
+- "bundleURL"
+- "bundleWithURL:"
+- "bytes"
+- "canAddInput:"
+- "cancelRecordingWithCompletionHandler:"
+- "captureOutput:didDropSampleBuffer:fromConnection:"
+- "captureOutput:didOutputSampleBuffer:fromConnection:"
+- "channels"
+- "checkResourceIsReachableAndReturnError:"
+- "class"
+- "classes"
+- "clockIdentifier"
+- "clockWithClockIdentifier:"
+- "close"
+- "color8bitHEVCWithAlphaEncoderConfig"
+- "colorH264EncoderConfig"
+- "colorH264EncoderConfigWithBitrate:"
+- "colorHEVCEncoderConfigWithBitrate:"
+- "colorHEVCEncoderConfigWithQuality:"
+- "colorHEVCLosslessEncoderConfig"
+- "colorWithAlphaLossless8bitHEVCEncoderConfig"
+- "com.apple.RoyaLite.AsyncOperation"
+- "com.apple.RoyaLite.HeadphoneMotion"
+- "com.apple.RoyaLite.Location"
+- "com.apple.RoyaLite.MOVSink"
+- "com.apple.RoyaLite.OnPipelineStateChanged"
+- "com.apple.RoyaLite.SessionProxyImpl"
+- "com.apple.reality.kind.audio.output_2"
+- "com.apple.reality.kind.audio.penrose"
+- "com.apple.reality.kind.audio.system_12"
+- "com.apple.reality.kind.audio.system_2"
+- "com.apple.reality.kind.audio.system_9"
+- "com.apple.reality.kind.audio.voice"
+- "com.apple.reality.kind.camera.bcam_l.s1"
+- "com.apple.reality.kind.camera.bcam_r.s1"
+- "com.apple.reality.kind.camera.becam_l.iid"
+- "com.apple.reality.kind.camera.becam_l.oid"
+- "com.apple.reality.kind.camera.becam_l.raw"
+- "com.apple.reality.kind.camera.becam_l.s1"
+- "com.apple.reality.kind.camera.becam_l.s2"
+- "com.apple.reality.kind.camera.becam_l.s2bu"
+- "com.apple.reality.kind.camera.becam_l.s2buc"
+- "com.apple.reality.kind.camera.becam_l.s2u"
+- "com.apple.reality.kind.camera.becam_l.s2u21"
+- "com.apple.reality.kind.camera.becam_l.s2u52"
+- "com.apple.reality.kind.camera.becam_l.s2u52p"
+- "com.apple.reality.kind.camera.becam_l.s2uc"
+- "com.apple.reality.kind.camera.becam_r.iid"
+- "com.apple.reality.kind.camera.becam_r.oid"
+- "com.apple.reality.kind.camera.becam_r.raw"
+- "com.apple.reality.kind.camera.becam_r.s1"
+- "com.apple.reality.kind.camera.becam_r.s2"
+- "com.apple.reality.kind.camera.becam_r.s2bu"
+- "com.apple.reality.kind.camera.becam_r.s2buc"
+- "com.apple.reality.kind.camera.becam_r.s2u"
+- "com.apple.reality.kind.camera.becam_r.s2u21"
+- "com.apple.reality.kind.camera.becam_r.s2u52"
+- "com.apple.reality.kind.camera.becam_r.s2u52p"
+- "com.apple.reality.kind.camera.becam_r.s2uc"
+- "com.apple.reality.kind.camera.dcam_l.desgen"
+- "com.apple.reality.kind.camera.dcam_l.raw"
+- "com.apple.reality.kind.camera.dcam_l.s1"
+- "com.apple.reality.kind.camera.dcam_l.s2"
+- "com.apple.reality.kind.camera.dcam_l.s2bu"
+- "com.apple.reality.kind.camera.dcam_l.s2bw"
+- "com.apple.reality.kind.camera.dcam_l.s2bwp"
+- "com.apple.reality.kind.camera.dcam_l.s2u"
+- "com.apple.reality.kind.camera.dcam_l.s2u21"
+- "com.apple.reality.kind.camera.dcam_l.s2w"
+- "com.apple.reality.kind.camera.dcam_l.s2wp"
+- "com.apple.reality.kind.camera.dcam_r.desgen"
+- "com.apple.reality.kind.camera.dcam_r.raw"
+- "com.apple.reality.kind.camera.dcam_r.s1"
+- "com.apple.reality.kind.camera.dcam_r.s2"
+- "com.apple.reality.kind.camera.dcam_r.s2bu"
+- "com.apple.reality.kind.camera.dcam_r.s2bw"
+- "com.apple.reality.kind.camera.dcam_r.s2bwp"
+- "com.apple.reality.kind.camera.dcam_r.s2u"
+- "com.apple.reality.kind.camera.dcam_r.s2u21"
+- "com.apple.reality.kind.camera.dcam_r.s2w"
+- "com.apple.reality.kind.camera.dcam_r.s2wp"
+- "com.apple.reality.kind.camera.display_loopback_l"
+- "com.apple.reality.kind.camera.display_loopback_r"
+- "com.apple.reality.kind.camera.display_writeback_l"
+- "com.apple.reality.kind.camera.display_writeback_r"
+- "com.apple.reality.kind.camera.ecam_l.iid"
+- "com.apple.reality.kind.camera.ecam_l.s1"
+- "com.apple.reality.kind.camera.ecam_l.s2"
+- "com.apple.reality.kind.camera.ecam_r.iid"
+- "com.apple.reality.kind.camera.ecam_r.s1"
+- "com.apple.reality.kind.camera.ecam_r.s2"
+- "com.apple.reality.kind.camera.gridview"
+- "com.apple.reality.kind.camera.jcam_l.raw"
+- "com.apple.reality.kind.camera.jcam_l.s1"
+- "com.apple.reality.kind.camera.jcam_l.s2"
+- "com.apple.reality.kind.camera.jcam_l.s2bu"
+- "com.apple.reality.kind.camera.jcam_l.s2bw"
+- "com.apple.reality.kind.camera.jcam_l.s2bwp"
+- "com.apple.reality.kind.camera.jcam_l.s2u"
+- "com.apple.reality.kind.camera.jcam_l.s2u21"
+- "com.apple.reality.kind.camera.jcam_l.s2w"
+- "com.apple.reality.kind.camera.jcam_l.s2wp"
+- "com.apple.reality.kind.camera.jcam_r.raw"
+- "com.apple.reality.kind.camera.jcam_r.s1"
+- "com.apple.reality.kind.camera.jcam_r.s2"
+- "com.apple.reality.kind.camera.jcam_r.s2bu"
+- "com.apple.reality.kind.camera.jcam_r.s2bw"
+- "com.apple.reality.kind.camera.jcam_r.s2bwp"
+- "com.apple.reality.kind.camera.jcam_r.s2u"
+- "com.apple.reality.kind.camera.jcam_r.s2u21"
+- "com.apple.reality.kind.camera.jcam_r.s2w"
+- "com.apple.reality.kind.camera.jcam_r.s2wp"
+- "com.apple.reality.kind.camera.matting_l"
+- "com.apple.reality.kind.camera.matting_r"
+- "com.apple.reality.kind.camera.matting_s"
+- "com.apple.reality.kind.camera.mcam.stereo_pce"
+- "com.apple.reality.kind.camera.mcam_l"
+- "com.apple.reality.kind.camera.mcam_l.desgen"
+- "com.apple.reality.kind.camera.mcam_l.pt"
+- "com.apple.reality.kind.camera.mcam_l.raw"
+- "com.apple.reality.kind.camera.mcam_l.s1"
+- "com.apple.reality.kind.camera.mcam_l.s2"
+- "com.apple.reality.kind.camera.mcam_l.s3"
+- "com.apple.reality.kind.camera.mcam_l.s3r"
+- "com.apple.reality.kind.camera.mcam_l.s3w"
+- "com.apple.reality.kind.camera.mcam_l.s3wp"
+- "com.apple.reality.kind.camera.mcam_l.s3wr"
+- "com.apple.reality.kind.camera.mcam_l.s3wr31"
+- "com.apple.reality.kind.camera.mcam_l.s3wr_10"
+- "com.apple.reality.kind.camera.mcam_l.s3wrp_1"
+- "com.apple.reality.kind.camera.mcam_l.s4"
+- "com.apple.reality.kind.camera.mcam_l.s4w"
+- "com.apple.reality.kind.camera.mcam_l.s5"
+- "com.apple.reality.kind.camera.mcam_l.s6"
+- "com.apple.reality.kind.camera.mcam_l.s8"
+- "com.apple.reality.kind.camera.mcam_l.s8u"
+- "com.apple.reality.kind.camera.mcam_l.s8u41_10"
+- "com.apple.reality.kind.camera.mcam_l.s8u_1"
+- "com.apple.reality.kind.camera.mcam_l.s8u_10"
+- "com.apple.reality.kind.camera.mcam_l.s8w_1"
+- "com.apple.reality.kind.camera.mcam_l.s8wp_1"
+- "com.apple.reality.kind.camera.mcam_r"
+- "com.apple.reality.kind.camera.mcam_r.desgen"
+- "com.apple.reality.kind.camera.mcam_r.pt"
+- "com.apple.reality.kind.camera.mcam_r.raw"
+- "com.apple.reality.kind.camera.mcam_r.s1"
+- "com.apple.reality.kind.camera.mcam_r.s2"
+- "com.apple.reality.kind.camera.mcam_r.s3"
+- "com.apple.reality.kind.camera.mcam_r.s3r"
+- "com.apple.reality.kind.camera.mcam_r.s3w"
+- "com.apple.reality.kind.camera.mcam_r.s3wp"
+- "com.apple.reality.kind.camera.mcam_r.s3wr"
+- "com.apple.reality.kind.camera.mcam_r.s3wr31"
+- "com.apple.reality.kind.camera.mcam_r.s3wr_10"
+- "com.apple.reality.kind.camera.mcam_r.s3wrp_1"
+- "com.apple.reality.kind.camera.mcam_r.s4"
+- "com.apple.reality.kind.camera.mcam_r.s4w"
+- "com.apple.reality.kind.camera.mcam_r.s5"
+- "com.apple.reality.kind.camera.mcam_r.s6"
+- "com.apple.reality.kind.camera.mcam_r.s8"
+- "com.apple.reality.kind.camera.mcam_r.s8u"
+- "com.apple.reality.kind.camera.mcam_r.s8u41_10"
+- "com.apple.reality.kind.camera.mcam_r.s8u_1"
+- "com.apple.reality.kind.camera.mcam_r.s8u_10"
+- "com.apple.reality.kind.camera.mcam_r.s8w_1"
+- "com.apple.reality.kind.camera.mcam_r.s8wp_1"
+- "com.apple.reality.kind.camera.mcam_s.pce"
+- "com.apple.reality.kind.camera.metric.depth"
+- "com.apple.reality.kind.camera.mixed_l"
+- "com.apple.reality.kind.camera.mixed_r"
+- "com.apple.reality.kind.camera.mixed_s"
+- "com.apple.reality.kind.camera.necam_l.boc"
+- "com.apple.reality.kind.camera.necam_l.iid"
+- "com.apple.reality.kind.camera.necam_l.oc"
+- "com.apple.reality.kind.camera.necam_l.oid"
+- "com.apple.reality.kind.camera.necam_l.raw"
+- "com.apple.reality.kind.camera.necam_l.s2bu"
+- "com.apple.reality.kind.camera.necam_l.s2buc"
+- "com.apple.reality.kind.camera.necam_l.s2u"
+- "com.apple.reality.kind.camera.necam_l.s2u21"
+- "com.apple.reality.kind.camera.necam_l.s2u52"
+- "com.apple.reality.kind.camera.necam_l.s2u52p"
+- "com.apple.reality.kind.camera.necam_l.s2uc"
+- "com.apple.reality.kind.camera.necam_r.boc"
+- "com.apple.reality.kind.camera.necam_r.iid"
+- "com.apple.reality.kind.camera.necam_r.oc"
+- "com.apple.reality.kind.camera.necam_r.oid"
+- "com.apple.reality.kind.camera.necam_r.raw"
+- "com.apple.reality.kind.camera.necam_r.s2bu"
+- "com.apple.reality.kind.camera.necam_r.s2buc"
+- "com.apple.reality.kind.camera.necam_r.s2u"
+- "com.apple.reality.kind.camera.necam_r.s2u21"
+- "com.apple.reality.kind.camera.necam_r.s2u52"
+- "com.apple.reality.kind.camera.necam_r.s2u52p"
+- "com.apple.reality.kind.camera.necam_r.s2uc"
+- "com.apple.reality.kind.camera.pcam"
+- "com.apple.reality.kind.camera.pcam.depth"
+- "com.apple.reality.kind.camera.pcam.dx"
+- "com.apple.reality.kind.camera.pcam.dy"
+- "com.apple.reality.kind.camera.pcam.iru"
+- "com.apple.reality.kind.camera.pcam.irw"
+- "com.apple.reality.kind.camera.pcam.score"
+- "com.apple.reality.kind.camera.pcam_ir"
+- "com.apple.reality.kind.camera.scam_l.desgen"
+- "com.apple.reality.kind.camera.scam_l.raw"
+- "com.apple.reality.kind.camera.scam_l.s1"
+- "com.apple.reality.kind.camera.scam_l.s2"
+- "com.apple.reality.kind.camera.scam_l.s2bu"
+- "com.apple.reality.kind.camera.scam_l.s2bw"
+- "com.apple.reality.kind.camera.scam_l.s2bwp"
+- "com.apple.reality.kind.camera.scam_l.s2u"
+- "com.apple.reality.kind.camera.scam_l.s2u21"
+- "com.apple.reality.kind.camera.scam_l.s2w"
+- "com.apple.reality.kind.camera.scam_l.s2wp"
+- "com.apple.reality.kind.camera.scam_r.desgen"
+- "com.apple.reality.kind.camera.scam_r.raw"
+- "com.apple.reality.kind.camera.scam_r.s1"
+- "com.apple.reality.kind.camera.scam_r.s2"
+- "com.apple.reality.kind.camera.scam_r.s2bu"
+- "com.apple.reality.kind.camera.scam_r.s2bw"
+- "com.apple.reality.kind.camera.scam_r.s2bwp"
+- "com.apple.reality.kind.camera.scam_r.s2u"
+- "com.apple.reality.kind.camera.scam_r.s2u21"
+- "com.apple.reality.kind.camera.scam_r.s2w"
+- "com.apple.reality.kind.camera.scam_r.s2wp"
+- "com.apple.reality.kind.camera.spatial_s"
+- "com.apple.reality.kind.camera.videoview.matting_l"
+- "com.apple.reality.kind.camera.videoview.matting_l.alpha"
+- "com.apple.reality.kind.camera.videoview.matting_l.color"
+- "com.apple.reality.kind.camera.videoview.matting_r"
+- "com.apple.reality.kind.camera.videoview.matting_r.alpha"
+- "com.apple.reality.kind.camera.videoview.matting_r.color"
+- "com.apple.reality.kind.camera.videoview.matting_s"
+- "com.apple.reality.kind.camera.videoview.matting_s.alpha"
+- "com.apple.reality.kind.camera.videoview.matting_s.color"
+- "com.apple.reality.kind.camera.videoview.virtual_l"
+- "com.apple.reality.kind.camera.videoview.virtual_l.alpha"
+- "com.apple.reality.kind.camera.videoview.virtual_l.color"
+- "com.apple.reality.kind.camera.videoview.virtual_r"
+- "com.apple.reality.kind.camera.videoview.virtual_r.alpha"
+- "com.apple.reality.kind.camera.videoview.virtual_r.color"
+- "com.apple.reality.kind.camera.videoview.virtual_s"
+- "com.apple.reality.kind.camera.videoview.virtual_s.alpha"
+- "com.apple.reality.kind.camera.videoview.virtual_s.color"
+- "com.apple.reality.kind.camera.virtual_l"
+- "com.apple.reality.kind.camera.virtual_r"
+- "com.apple.reality.kind.camera.virtual_s"
+- "com.apple.reality.kind.camera.vr_alpha_l"
+- "com.apple.reality.kind.camera.vr_alpha_r"
+- "com.apple.reality.kind.camera.vr_color_alpha_l"
+- "com.apple.reality.kind.camera.vr_color_alpha_r"
+- "com.apple.reality.kind.camera.vr_color_l"
+- "com.apple.reality.kind.camera.vr_color_r"
+- "com.apple.reality.kind.camera.vr_depth_l"
+- "com.apple.reality.kind.camera.vr_depth_r"
+- "com.apple.reality.kind.camera.world_depth_l"
+- "com.apple.reality.kind.camera.world_depth_r"
+- "com.apple.reality.kind.camera.xcam.pointcloud"
+- "com.apple.reality.kind.camera.xcam.raw"
+- "com.apple.reality.kind.data.accelerometer"
+- "com.apple.reality.kind.data.als"
+- "com.apple.reality.kind.data.ar_data"
+- "com.apple.reality.kind.data.ar_data.anchors.body"
+- "com.apple.reality.kind.data.ar_data.anchors.camera"
+- "com.apple.reality.kind.data.ar_data.anchors.eye"
+- "com.apple.reality.kind.data.ar_data.anchors.face"
+- "com.apple.reality.kind.data.ar_data.anchors.hand"
+- "com.apple.reality.kind.data.ar_data.anchors.image"
+- "com.apple.reality.kind.data.ar_data.anchors.mesh"
+- "com.apple.reality.kind.data.ar_data.anchors.plane"
+- "com.apple.reality.kind.data.ar_data.client.anchors.appledevice"
+- "com.apple.reality.kind.data.ar_data.client.anchors.image"
+- "com.apple.reality.kind.data.ar_data.devicetransform"
+- "com.apple.reality.kind.data.compass"
+- "com.apple.reality.kind.data.compass200"
+- "com.apple.reality.kind.data.cvcalibration"
+- "com.apple.reality.kind.data.device-transform"
+- "com.apple.reality.kind.data.devicemotion"
+- "com.apple.reality.kind.data.gyroscope"
+- "com.apple.reality.kind.data.imu800"
+- "com.apple.reality.kind.data.imu_gcl"
+- "com.apple.reality.kind.data.imu_gcr"
+- "com.apple.reality.kind.data.ipd"
+- "com.apple.reality.kind.data.ltc"
+- "com.apple.reality.kind.data.managed-assets"
+- "com.apple.reality.kind.data.mesh"
+- "com.apple.reality.kind.data.mesh.dcam_l.s2bu.s2bw"
+- "com.apple.reality.kind.data.mesh.dcam_l.s2u.s2w"
+- "com.apple.reality.kind.data.mesh.dcam_r.s2bu.s2bw"
+- "com.apple.reality.kind.data.mesh.dcam_r.s2u.s2w"
+- "com.apple.reality.kind.data.mesh.jasper"
+- "com.apple.reality.kind.data.mesh.jcam_l.s2bu.s2bw"
+- "com.apple.reality.kind.data.mesh.jcam_l.s2u.s2w"
+- "com.apple.reality.kind.data.mesh.jcam_r.s2bu.s2bw"
+- "com.apple.reality.kind.data.mesh.jcam_r.s2u.s2w"
+- "com.apple.reality.kind.data.mesh.mcam_l.s3w.s3wr"
+- "com.apple.reality.kind.data.mesh.mcam_l.s3w.s3wr31"
+- "com.apple.reality.kind.data.mesh.mcam_l.s3w.s3wr31.fixed"
+- "com.apple.reality.kind.data.mesh.mcam_r.s3w.s3wr"
+- "com.apple.reality.kind.data.mesh.mcam_r.s3w.s3wr31"
+- "com.apple.reality.kind.data.mesh.mcam_r.s3w.s3wr31.fixed"
+- "com.apple.reality.kind.data.mesh.pcam.irw"
+- "com.apple.reality.kind.data.mesh.scam_l.s2bu.s2bw"
+- "com.apple.reality.kind.data.mesh.scam_l.s2u.s2w"
+- "com.apple.reality.kind.data.mesh.scam_r.s2bu.s2bw"
+- "com.apple.reality.kind.data.mesh.scam_r.s2u.s2w"
+- "com.apple.reality.kind.data.mesh.vmcam_l.s3wr"
+- "com.apple.reality.kind.data.mesh.vmcam_l.s3wr31"
+- "com.apple.reality.kind.data.mesh.vmcam_l.s3wr31.fixed"
+- "com.apple.reality.kind.data.mesh.vmcam_r.s3wr"
+- "com.apple.reality.kind.data.mesh.vmcam_r.s3wr31"
+- "com.apple.reality.kind.data.mesh.vmcam_r.s3wr31.fixed"
+- "com.apple.reality.kind.data.mesh.wmcam_l.s1"
+- "com.apple.reality.kind.data.mesh.wmcam_r.s1"
+- "com.apple.reality.kind.data.motion"
+- "com.apple.reality.kind.data.re_assets"
+- "com.apple.reality.kind.data.re_calayer"
+- "com.apple.reality.kind.data.re_metadata"
+- "com.apple.reality.kind.data.re_scene"
+- "com.apple.reality.kind.data.user_event"
+- "com.apple.reality.kind.data.vsync"
+- "com.apple.reality.kind.data.wifi"
+- "com.apple.reality.kind.data.zcam_tof_pc"
+- "com.apple.reality.kind.hid."
+- "com.apple.reality.kind.polaris."
+- "com.apple.reality.kind.video.re_calayer"
+- "com.apple.reality.state.profile"
+- "com.apple.roya.audio.12chtap"
+- "com.apple.roya.audio.9chtap"
+- "com.apple.roya.audio.app"
+- "com.apple.roya.audio.binaural"
+- "com.apple.roya.audio.foa4"
+- "com.apple.roya.audio.mixed"
+- "com.apple.roya.audio.mixed.binaural"
+- "com.apple.roya.audio.spatial"
+- "com.apple.roya.audio.system"
+- "com.apple.roya.audio.voice"
+- "commitAddedGraphs:removedGraphs:error:"
+- "commitConfiguration"
+- "compare:"
+- "componentsJoinedByString:"
+- "conformsToProtocol:"
+- "contentsOfDirectoryAtPath:error:"
+- "contentsOfDirectoryAtURL:includingPropertiesForKeys:options:error:"
+- "context"
+- "convertFromMachAbsoluteToDomainTime:grandmasterUsed:portNumber:"
+- "coordinate"
+- "copy"
+- "coreAudioReanchors"
+- "count"
+- "countByEnumeratingWithState:objects:count:"
+- "course"
+- "courseAccuracy"
+- "creationTime"
+- "customEncoderConfigWithEmbeddedConfiguration:"
+- "d"
+- "d16@0:8"
+- "dataReceiver"
+- "dataWithBytes:length:"
+- "dataWithLength:"
+- "dataWithPropertyList:format:options:error:"
+- "date"
+- "dealloc"
+- "debugDescription"
+- "decodeDoubleForKey:"
+- "decodeInt64ForKey:"
+- "decodeObjectForKey:"
+- "defaultCenter"
+- "defaultDeviceWithMediaType:"
+- "defaultManager"
+- "defaultSessionFinishCallback"
+- "defaultVCPRecordingConfigWithBitrate:frameRate:"
+- "deltaPositionX"
+- "deltaPositionY"
+- "deltaPositionZ"
+- "deltaVelocityX"
+- "deltaVelocityY"
+- "deltaVelocityZ"
+- "description"
+- "deviceIdentifier"
+- "devices"
+- "dictionary"
+- "dictionaryWithContentsOfFile:"
+- "dictionaryWithDictionary:"
+- "dictionaryWithObjects:forKeys:count:"
+- "didEncounterError:"
+- "didFailWithError:"
+- "didFinishRecording"
+- "discardedDelayLimitExceededMeasurements"
+- "discardedDelayLimitExceededPercentage"
+- "discardedOutOfBoundsMeasurements"
+- "discardedOutOfBoundsPercentage"
+- "discardedPpmLimitMeasurements"
+- "discardedPpmLimitPercentage"
+- "discardedTimestampsOutOfOrderMeasurements"
+- "discardedTimestampsOutOfOrderPercentage"
+- "doingBiasEstimation"
+- "doingYawCorrection"
+- "domain"
+- "doubleValue"
+- "droppedMeasurements"
+- "droppedPercentage"
+- "dx"
+- "dy"
+- "earliestTrack != nullptr"
+- "ellipsoidalAltitude"
+- "encodeDouble:forKey:"
+- "encodeInt64:forKey:"
+- "encodeObject:forKey:"
+- "encodeWithCoder:"
+- "fileURLWithPath:"
+- "filterResetsDroppedLimit"
+- "filterResetsOutOfBounds"
+- "filteredArrayUsingPredicate:"
+- "findDeviceWithIdentifier:"
+- "finishWithCompletionHandler:"
+- "floor"
+- "format"
+- "frameCount"
+- "framerate"
+- "frequency"
+- "fusedWithVision"
+- "getFirstDevice"
+- "getMachAbsoluteRateRatioNumerator:denominator:machAnchor:andDomainAnchor:withError:"
+- "getMetrics"
+- "getReport:reportLength:withIdentifier:forType:error:"
+- "getSuggestedEncodingOptionsForFormat:streamID:"
+- "gmChangesCount"
+- "grandmasterIdentity"
+- "gravity"
+- "hash"
+- "heading"
+- "headingAccuracy"
+- "headphoneMotionManagerDidConnect:"
+- "headphoneMotionManagerDidDisconnect:"
+- "horizontalAccuracy"
+- "host_"
+- "i16@0:8"
+- "imuTrackName:prefix:"
+- "init"
+- "initScan"
+- "initWithCVDataBuffer:"
+- "initWithCallback:onQueue:"
+- "initWithCodecType:encoderSpecification:sessionProperties:"
+- "initWithCoder:"
+- "initWithContext:receiver:provider:"
+- "initWithCppHost:"
+- "initWithDevice:error:"
+- "initWithDictionary:"
+- "initWithEffectiveBundlePath:delegate:onQueue:"
+- "initWithFileURL:expectedFrameRate:fileSummary:callbackQueue:"
+- "initWithLayoutTag:"
+- "initWithLength:"
+- "initWithName:"
+- "initWithPluginDelegate:"
+- "initWithResourceKey:type:capacity:"
+- "initWithStreamDescription:"
+- "initWithStreamDescription:channelLayout:"
+- "initWithStreamId:audioFormat:additionalSettings:"
+- "initWithStreamId:format:recordingConfig:"
+- "initWithTimeIntervalSinceNow:"
+- "initWithUTF8String:"
+- "inputPlugin:didPublishDevice:"
+- "inputPlugin:didUnpublishDevice:"
+- "intValue"
+- "integerValue"
+- "invalidate"
+- "invalidatePlugins"
+- "isCanceled"
+- "isDeviceMotionAvailable"
+- "isEqual:"
+- "isEqualToString:"
+- "isKindOfClass:"
+- "isMemberOfClass:"
+- "isProducedByAccessory"
+- "isProxy"
+- "isReadyToRecord"
+- "isSimulatedBySoftware"
+- "lastObject"
+- "lastTimestamp"
+- "length"
+- "level"
+- "localizedDescription"
+- "locationManager:didChangeAuthorizationStatus:"
+- "locationManager:didDetermineState:forRegion:"
+- "locationManager:didEnterRegion:"
+- "locationManager:didExitRegion:"
+- "locationManager:didFailRangingBeaconsForConstraint:error:"
+- "locationManager:didFailWithError:"
+- "locationManager:didFinishDeferredUpdatesWithError:"
+- "locationManager:didRangeBeacons:inRegion:"
+- "locationManager:didRangeBeacons:satisfyingConstraint:"
+- "locationManager:didStartMonitoringForRegion:"
+- "locationManager:didUpdateHeading:"
+- "locationManager:didUpdateLocations:"
+- "locationManager:didUpdateToLocation:fromLocation:"
+- "locationManager:didVisit:"
+- "locationManager:monitoringDidFailForRegion:withError:"
+- "locationManager:rangingBeaconsDidFailForRegion:withError:"
+- "locationManagerDidChangeAuthorization:"
+- "locationManagerDidPauseLocationUpdates:"
+- "locationManagerDidResumeLocationUpdates:"
+- "locationManagerShouldDisplayHeadingCalibration:"
+- "lockForConfiguration:"
+- "lockState"
+- "lockWithOptions:seed:"
+- "mPlugins"
+- "machTimeSince1970"
+- "magneticField"
+- "magneticFieldCalibrationLevel"
+- "makeFrameFromSample:"
+- "makeFrameFromScanResult:number:"
+- "mdta/com.apple.metadataTrackType"
+- "mdta/com.apple.reality.kind.data.ar_data.anchor.hand"
+- "mdta/com.apple.reality.kind.data.ar_data.anchor.plane"
+- "mdta/com.apple.reality.kind.data.ar_data.anchor.uuid"
+- "mdta/com.apple.reality.kind.data.ar_data.pose.gaze.center"
+- "mdta/com.apple.reality.kind.data.ar_data.pose.gaze.left"
+- "mdta/com.apple.reality.kind.data.ar_data.pose.gaze.right"
+- "mdta/com.apple.reality.kind.data.ar_data.pose.head"
+- "mdta/com.apple.reality.kind.data.re_assets.add"
+- "mdta/com.apple.reality.kind.data.re_assets.remove"
+- "mdta/com.apple.reality.kind.data.re_metadata.asset_dependencies_lookup"
+- "mdta/com.apple.reality.kind.data.re_metadata.asset_file_path_lookup"
+- "mdta/com.apple.reality.kind.data.re_metadata.asset_load_descriptor_lookup"
+- "mdta/com.apple.reality.kind.data.re_metadata.scene_components"
+- "mdta/com.apple.reality.kind.data.re_metadata.scene_mesh_asset_url_lookup"
+- "mdta/com.apple.reality.kind.data.re_metadata.scene_snapshots"
+- "mdta/com.apple.reality.kind.data.re_scene.frame_data_delta"
+- "mdta/com.apple.reality.kind.data.re_scene.frame_data_snapshot"
+- "mdta/com.apple.reality.kind.data.re_scene.frame_timestamp"
+- "mdta/com.apple.reality.kind.data.re_scene.frame_type"
+- "mdta/com.apple.reality.kind.data.re_scene.keyframe_type"
+- "mdta/com.apple.tdg.RYRealityRecording.ARAnchor.Hand"
+- "mdta/com.apple.tdg.RYRealityRecording.ARAnchor.Plane"
+- "mdta/com.apple.tdg.RYRealityRecording.ARAnchor.UUID"
+- "mdta/com.apple.tdg.RYRealityRecording.ARPose.CenterGaze"
+- "mdta/com.apple.tdg.RYRealityRecording.ARPose.Head"
+- "mdta/com.apple.tdg.RYRealityRecording.ARPose.LeftGaze"
+- "mdta/com.apple.tdg.RYRealityRecording.ARPose.RightGaze"
+- "mdta/com.apple.tdg.RYRealityRecording.Assets.Add"
+- "mdta/com.apple.tdg.RYRealityRecording.Assets.Remove"
+- "mdta/com.apple.tdg.RYRealityRecording.Metadata.AssetDependenciesLookup"
+- "mdta/com.apple.tdg.RYRealityRecording.Metadata.AssetFilePathLookup"
+- "mdta/com.apple.tdg.RYRealityRecording.Metadata.AssetLoadDescriptorLookup"
+- "mdta/com.apple.tdg.RYRealityRecording.Metadata.SceneComponents"
+- "mdta/com.apple.tdg.RYRealityRecording.Metadata.SceneMeshAssetURLLookup"
+- "mdta/com.apple.tdg.RYRealityRecording.Metadata.SceneSnapshots"
+- "mdta/com.apple.tdg.RYRealityRecording.Scene.FrameDataDelta"
+- "mdta/com.apple.tdg.RYRealityRecording.Scene.FrameDataSnapshot"
+- "mdta/com.apple.tdg.RYRealityRecording.Scene.FrameTimestamp"
+- "mdta/com.apple.tdg.RYRealityRecording.Scene.FrameType"
+- "mdta/com.apple.tdg.RYRealityRecording.Scene.KeyFrameType"
+- "mdta/com.apple.trackStreamType"
+- "mdta/custom.com.apple.roya.rescene.CALayerAtlasLayout"
+- "mdta/custom.com.apple.roya.rescene.CALayerAtlasTrackNumber"
+- "meanDelayTime"
+- "methodForSelector:"
+- "minRSSI"
+- "minimumRSSI"
+- "monochrome10bitHEVCEncoderConfigWithBitrate:"
+- "monochrome10bitHEVCEncoderConfigWithQuality:"
+- "monochrome10bitHEVCLosslessEncoderConfig"
+- "monochrome8bitHEVCEncoderConfigWithBitrate:"
+- "monochrome8bitHEVCEncoderConfigWithQuality:"
+- "monochrome8bitHEVCLosslessEncoderConfig"
+- "mov"
+- "movkitContainer != nullptr && audioFrame != nullptr && audioContext != nullptr"
+- "mutableBytes"
+- "mutableCopy"
+- "notifyWhenClockManagerIsAvailable:"
+- "notifyWhengPTPManagerIsAvailable:"
+- "numberWithBool:"
+- "numberWithDouble:"
+- "numberWithInt:"
+- "numberWithInteger:"
+- "numberWithUnsignedInt:"
+- "numberWithUnsignedInteger:"
+- "numberWithUnsignedLong:"
+- "numberWithUnsignedLongLong:"
+- "objectAtIndexedSubscript:"
+- "objectForKey:"
+- "objectForKeyedSubscript:"
+- "open"
+- "packetCount"
+- "packetDescriptions"
+- "pathExtension"
+- "performScanWithParameters:error:"
+- "performSelector:"
+- "performSelector:withObject:"
+- "performSelector:withObject:withObject:"
+- "pitch"
+- "portWithPortNumber:"
+- "predicateWithFormat:"
+- "preferredIOBufferDuration"
+- "prepareWriter"
+- "principalClass"
+- "private.com.apple.camera.bcam.left.s1"
+- "private.com.apple.camera.bcam.right.s1"
+- "private.com.apple.camera.becam.left.iid"
+- "private.com.apple.camera.becam.left.s1"
+- "private.com.apple.camera.becam.left.s2"
+- "private.com.apple.camera.becam.right.iid"
+- "private.com.apple.camera.becam.right.s1"
+- "private.com.apple.camera.becam.right.s2"
+- "private.com.apple.camera.dcam.left.s1"
+- "private.com.apple.camera.dcam.left.s2"
+- "private.com.apple.camera.dcam.right.s1"
+- "private.com.apple.camera.dcam.right.s2"
+- "private.com.apple.camera.ecam.left.iid"
+- "private.com.apple.camera.ecam.left.s1"
+- "private.com.apple.camera.ecam.left.s2"
+- "private.com.apple.camera.ecam.right.iid"
+- "private.com.apple.camera.ecam.right.s1"
+- "private.com.apple.camera.ecam.right.s2"
+- "private.com.apple.camera.gridview"
+- "private.com.apple.camera.jcam.left.s1"
+- "private.com.apple.camera.jcam.left.s2"
+- "private.com.apple.camera.jcam.right.s1"
+- "private.com.apple.camera.jcam.right.s2"
+- "private.com.apple.camera.matting.left"
+- "private.com.apple.camera.matting.right"
+- "private.com.apple.camera.matting.stereo"
+- "private.com.apple.camera.mcam.left"
+- "private.com.apple.camera.mcam.left.s1"
+- "private.com.apple.camera.mcam.left.s2"
+- "private.com.apple.camera.mcam.left.s3"
+- "private.com.apple.camera.mcam.left.s3r"
+- "private.com.apple.camera.mcam.left.s4"
+- "private.com.apple.camera.mcam.left.s5"
+- "private.com.apple.camera.mcam.left.s6"
+- "private.com.apple.camera.mcam.left.s8"
+- "private.com.apple.camera.mcam.right"
+- "private.com.apple.camera.mcam.right.s1"
+- "private.com.apple.camera.mcam.right.s2"
+- "private.com.apple.camera.mcam.right.s3"
+- "private.com.apple.camera.mcam.right.s3r"
+- "private.com.apple.camera.mcam.right.s4"
+- "private.com.apple.camera.mcam.right.s5"
+- "private.com.apple.camera.mcam.right.s6"
+- "private.com.apple.camera.mcam.right.s8"
+- "private.com.apple.camera.mr.left"
+- "private.com.apple.camera.mr.right"
+- "private.com.apple.camera.mr.stereo"
+- "private.com.apple.camera.pcam"
+- "private.com.apple.camera.pcam.ir"
+- "private.com.apple.camera.scam.left.s1"
+- "private.com.apple.camera.scam.left.s2"
+- "private.com.apple.camera.scam.right.s1"
+- "private.com.apple.camera.scam.right.s2"
+- "private.com.apple.camera.stereo.pce"
+- "private.com.apple.camera.vr.alpha.left"
+- "private.com.apple.camera.vr.alpha.right"
+- "private.com.apple.camera.vr.color.alpha.left"
+- "private.com.apple.camera.vr.color.alpha.right"
+- "private.com.apple.camera.vr.color.left"
+- "private.com.apple.camera.vr.color.right"
+- "private.com.apple.camera.vr.depth.left"
+- "private.com.apple.camera.vr.depth.right"
+- "private.com.apple.camera.vr.left"
+- "private.com.apple.camera.vr.right"
+- "private.com.apple.camera.vr.stereo"
+- "private.com.apple.camera.world.depth.left"
+- "private.com.apple.camera.world.depth.right"
+- "private.com.apple.data.cvcalibration"
+- "private.com.apple.data.ipd"
+- "private.com.apple.data.userevent"
+- "private.com.apple.reality.ardata"
+- "private.com.apple.reality.assets"
+- "private.com.apple.reality.metadata"
+- "private.com.apple.reality.scene"
+- "processCVAFeatureBuffer:timestamp:syncTimestamp:frameId:streamName:"
+- "processFastPathIMUData:location:"
+- "processNSCoderObject:metadataID:timestamp:"
+- "processWiFiData:location:"
+- "propertyListWithData:options:format:error:"
+- "provider"
+- "quaternion"
+- "quaternionW"
+- "quaternionX"
+- "quaternionY"
+- "quaternionZ"
+- "queue"
+- "r^v"
+- "r^v16@0:8"
+- "referenceFrame"
+- "registerCVAFeatureBuffer:compress:"
+- "registerMetadataID:"
+- "registerSessionCallback:withContext:"
+- "registerSpuIMU:version:"
+- "registerWiFi:"
+- "release"
+- "removeObjectForKey:"
+- "requestWhenInUseAuthorization"
+- "resourceClass"
+- "resourceClass = %s for resource %s"
+- "resourceClass = unknown for resource %s"
+- "resourceStreamForKey:"
+- "respondsToSelector:"
+- "retain"
+- "retainCount"
+- "roll"
+- "rotationArbitraryToTrueNorth"
+- "rotationMatrix"
+- "rotationRate"
+- "sampleRate"
+- "sampleTime"
+- "scanAndPopulateWiFiData"
+- "scanParams"
+- "score"
+- "self"
+- "sensorLocation"
+- "setActive:error:"
+- "setActive:withOptions:error:"
+- "setActiveVideoMaxFrameDuration:"
+- "setActiveVideoMinFrameDuration:"
+- "setAttachments:"
+- "setAudioInputBlock:"
+- "setBSSID:"
+- "setBaseMediaTimeScale:"
+- "setBufferingCapacity:"
+- "setCategory:mode:options:error:"
+- "setChannel:"
+- "setChannels:"
+- "setContext:"
+- "setCriticalityCPU:"
+- "setDataReceiver:"
+- "setDeinitFunction:context:"
+- "setDelegate:"
+- "setDeviceMatching:"
+- "setDeviceNotificationHandler:"
+- "setDispatchQueue:"
+- "setExposureMode:"
+- "setFocusMode:"
+- "setFormat:"
+- "setFrameCount:"
+- "setFrequency:"
+- "setFunction:userdata:"
+- "setHost_:"
+- "setIncludeHiddenNetworks:"
+- "setIncludeProperties:"
+- "setInitFunction:context:"
+- "setInputReportHandler:"
+- "setInterface_delegate:"
+- "setIsCanceled:"
+- "setIsReady:"
+- "setLastTimestamp:"
+- "setMXSessionProperty:value:error:"
+- "setMaxConcurrentOperationCount:"
+- "setMinRSSI:"
+- "setMinimumRSSI:"
+- "setMovieFragmentInterval:"
+- "setObject:forKeyedSubscript:"
+- "setPreferredSampleRate:error:"
+- "setPreserveSessionStartTime:"
+- "setProvider:"
+- "setRSSI:"
+- "setRealTime:"
+- "setRelativeDeadline:"
+- "setReport:reportLength:withIdentifier:forType:error:"
+- "setSampleBufferDelegate:queue:"
+- "setScanParams:"
+- "setSessionPreset:"
+- "setStatusChangeBlock:"
+- "setSyncTimestamp:"
+- "setThreadPoolSize:"
+- "setTimer:"
+- "setTimestamp:"
+- "setTrackMetadata:forMetadataStream:"
+- "setUnderlyingQueue:"
+- "setValue:"
+- "setValue:forKey:"
+- "setWhiteBalanceMode:"
+- "setWifiInterface:"
+- "setWifiTimeToSystemOffset:"
+- "setWithArray:"
+- "setWriteMetadataTimeInterval:"
+- "sharedClockManager"
+- "sharedData != nullptr"
+- "sharedInstance"
+- "sharedInstanceForExecutionSessionKey:"
+- "sharedgPTPManager"
+- "signal"
+- "slimEncoderConfig"
+- "slimXEncoderConfig"
+- "sortedArrayUsingComparator:"
+- "sourceInformation"
+- "speed"
+- "speedAccuracy"
+- "st"
+- "startDeviceMotionUpdatesToQueue:withHandler:"
+- "startRecordingWithCompletionBlock:"
+- "startRunning"
+- "startScan"
+- "startTime"
+- "startUpdatingLocation"
+- "staticFlag"
+- "stopDeviceMotionUpdates"
+- "stopRecordingWithCompletionBlock:"
+- "stopRunning"
+- "stopScan"
+- "stopUpdatingLocation"
+- "streamDescription"
+- "streamId"
+- "stringByAppendingPathComponent:"
+- "stringWithFormat:"
+- "stringWithUTF8String:"
+- "successfulMeasurements"
+- "successfulPercentage"
+- "superclass"
+- "supportedChannelsWithCountryCode:"
+- "supportedFormats"
+- "supportsSecureCoding"
+- "syncTimeouts"
+- "syncTimestamp"
+- "systemDomainClockIdentifier"
+- "t"
+- "timeIntervalSince1970"
+- "timeToChangeGm"
+- "timeToLock"
+- "timestamp"
+- "totalMeasurements"
+- "track->IsInitialized()"
+- "trustedTimestamp"
+- "unlockForConfiguration"
+- "unlockWithOptions:seed:"
+- "unsignedCharValue"
+- "unsignedLongLongValue"
+- "userAcceleration"
+- "v"
+- "v16@0:8"
+- "v20@0:8B16"
+- "v20@0:8i16"
+- "v24@0:8@\"CLLocationManager\"16"
+- "v24@0:8@\"CMHeadphoneMotionManager\"16"
+- "v24@0:8@\"NSCoder\"16"
+- "v24@0:8@\"NSError\"16"
+- "v24@0:8@16"
+- "v24@0:8Q16"
+- "v24@0:8^v16"
+- "v24@0:8^{IDataReceiver=^^?}16"
+- "v24@0:8d16"
+- "v24@0:8r^v16"
+- "v28@0:8@\"CLLocationManager\"16i24"
+- "v28@0:8@16i24"
+- "v32@0:8@\"<AVAudioRemoteInputPlugin>\"16@\"<AVAudioRemoteInputDevice>\"24"
+- "v32@0:8@\"CLLocationManager\"16@\"CLHeading\"24"
+- "v32@0:8@\"CLLocationManager\"16@\"CLRegion\"24"
+- "v32@0:8@\"CLLocationManager\"16@\"CLVisit\"24"
+- "v32@0:8@\"CLLocationManager\"16@\"NSArray\"24"
+- "v32@0:8@\"CLLocationManager\"16@\"NSError\"24"
+- "v32@0:8@16@24"
+- "v40@0:8@\"AVCaptureOutput\"16^{opaqueCMSampleBuffer=}24@\"AVCaptureConnection\"32"
+- "v40@0:8@\"CLLocationManager\"16@\"CLBeaconIdentityConstraint\"24@\"NSError\"32"
+- "v40@0:8@\"CLLocationManager\"16@\"CLBeaconRegion\"24@\"NSError\"32"
+- "v40@0:8@\"CLLocationManager\"16@\"CLLocation\"24@\"CLLocation\"32"
+- "v40@0:8@\"CLLocationManager\"16@\"CLRegion\"24@\"NSError\"32"
+- "v40@0:8@\"CLLocationManager\"16@\"NSArray\"24@\"CLBeaconIdentityConstraint\"32"
+- "v40@0:8@\"CLLocationManager\"16@\"NSArray\"24@\"CLBeaconRegion\"32"
+- "v40@0:8@\"CLLocationManager\"16q24@\"CLRegion\"32"
+- "v40@0:8@16@24@32"
+- "v40@0:8@16^{opaqueCMSampleBuffer=}24@32"
+- "v40@0:8@16q24@32"
+- "value"
+- "verticalAccuracy"
+- "waitForContextFromExecutionSessionsProvidingResources:"
+- "waitUntilDate:"
+- "wifiInterface"
+- "wifiTimeToSystemOffset"
+- "yaw"
+- "zone"
+- "{shared_ptr<roya::FrameData>=^{FrameData}^{__shared_weak_count}}24@0:8^{opaqueCMSampleBuffer=}16"
+- "{shared_ptr<roya::FrameData>=^{FrameData}^{__shared_weak_count}}28@0:8@16i24"
+
+```

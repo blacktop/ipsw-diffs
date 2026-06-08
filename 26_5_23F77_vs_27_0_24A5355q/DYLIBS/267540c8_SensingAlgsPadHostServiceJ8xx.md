@@ -1,0 +1,503 @@
+## SensingAlgsPadHostServiceJ8xx
+
+> `/System/Library/PrivateFrameworks/SensingAlgsPadHostServiceJ8xx.framework/SensingAlgsPadHostServiceJ8xx`
+
+```diff
+
+ 10.0.0.0.0
+-  __TEXT.__text: 0x57568 sha256:af7616286ff29164df78ea59c2bca1b425bb3dce288868ed0471cb6356940efd
+-  __TEXT.__auth_stubs: 0x4b0 sha256:32acf581988edbdead48e011cf6145b8f78acc93d176488cb4ba1c3486f82559
+-  __TEXT.__objc_methlist: 0x838 sha256:30e912741b4349adb2a11853f99e8d12e2b60bb5331d89d6e27f61ed5db054f8
+-  __TEXT.__cstring: 0x1255 sha256:d588dd4801288570ad451263858f30647f5802c5665809faa0f1f46453629c41
+-  __TEXT.__const: 0x18aa59 sha256:69d5dcd4c3e8ef4ca2ee0d8cef9f7d69cffe1bee422fe88691435ba150ef0efe
+-  __TEXT.__gcc_except_tab: 0x2190 sha256:da2577468feede1b07b1dd3d2684599af74839f1d2aec2ce157e832da19dc9c9
++  __TEXT.__text: 0x5731c sha256:d567d41106c97709b6b214eca6236950b0058fba612e7ed0734a3d8fa645b235
++  __TEXT.__objc_methlist: 0x838 sha256:9fa6fdfd81b9b0af05a3b7ee9e507927af7d6e3eef99cfb4bbf4ba569ddbfc69
++  __TEXT.__cstring: 0x125c sha256:21b77adc2b58cb58f00ba131eec84c618c11d812deca443210a0660f7bc7b778
++  __TEXT.__const: 0x18aa5a sha256:fa295ea41a98ef063bbeaceeb462603ba3df8a6a7529216952ffb0b5f101c83c
+   __TEXT.__oslogstring: 0x1d12 sha256:186a420c06e680749ae7c29a3d41b2fc5a7814154252ee3032ecf2d0cb6e729f
+-  __TEXT.__unwind_info: 0x13d8 sha256:dcb8494ff86d8cf582e0a34241c1e2b893546932e33c856d7417b1471c91b8ae
+-  __TEXT.__objc_classname: 0x37 sha256:13362de6d04f3032e145f4e36664682f34b6104c09842e44e91e4aa577c66655
+-  __TEXT.__objc_methname: 0x1b8e sha256:b2e382da7aadc149e9851b923065b7e4a9bfe6bbfb03d6f4ae6a8cbfa67b1a39
+-  __TEXT.__objc_methtype: 0x9d4 sha256:6f24ef7e017fee5c54c5601ab71545fb9f23d641abdb36dae773e689884c7d9d
+-  __TEXT.__objc_stubs: 0xb80 sha256:782278474ca1ec6624e5dd791f551fee06551ebb1a6d13159db43dfc7c129c97
+-  __DATA_CONST.__got: 0x58 sha256:10eef285deef7a4b7c82b22aa53589b7833df29de3814649c772bbd5c832f365
+-  __DATA_CONST.__const: 0xa0 sha256:f18a295b17440ac211de5873cc189c16065f8af3dc802f6776aad58d35f7e666
+-  __DATA_CONST.__objc_classlist: 0x8 sha256:3d3ff9aa7b805a11483ea63ca26f6edd0596a5185677f2f889a175afd5660075
+-  __DATA_CONST.__objc_protolist: 0x10 sha256:98d2e6270e8784eb00a59ef6bc33ff8ccf06bec82b450811c8011408cef07da7
++  __TEXT.__gcc_except_tab: 0x2064 sha256:012b4cb2af5c63307d94493092d7318061dca54fdff94cd2190294d36dd17a2c
++  __TEXT.__unwind_info: 0x1390 sha256:48a7d078bb0c044b2502c48eb53fe9c5e128ec7163641d273c59ff87cb9021f1
++  __TEXT.__objc_stubs: 0x0
++  __TEXT.__auth_stubs: 0x0
++  __TEXT.__objc_classname: 0x0
++  __TEXT.__objc_methname: 0x0
++  __TEXT.__objc_methtype: 0x0
++  __DATA_CONST.__const: 0xa0 sha256:5fa791f18291d174f5d506a9115282612bd5544e6a09968fa6e8275682e9d4d0
++  __DATA_CONST.__objc_classlist: 0x8 sha256:bfca7de25ce04f72cd554f6f4ad623ffe8f3b2023b4a13dc94f049a0295ad7a6
++  __DATA_CONST.__objc_protolist: 0x10 sha256:0ac87d683085cbec0e47d2f241b56b89daaecc1a1aa429da8b872dce08fdd902
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x5e8 sha256:a13d25df529571db5fefe86dc75f6bc559b7da24f180d2f0c19b33a99645f35c
+-  __DATA_CONST.__objc_superrefs: 0x8 sha256:167effffbddc520ea5955e5f4599afa8b018f3bd9650122e5410b06b61f97614
+-  __AUTH_CONST.__auth_got: 0x268 sha256:10750b915e6396d9fbe9323fc85524a3087a7d203924aeb3ac8fe7f6de80f13c
+-  __AUTH_CONST.__const: 0x52b0 sha256:f5b96b6e8946df56c8f594c4e23daf0c07cdb39670a477502b2c4a82fbd98faa
+-  __AUTH_CONST.__cfstring: 0x11a0 sha256:a215aa8f0da35514bfa08bdb29c2f9b27cd03bce602b34247dac07a46e92e182
+-  __AUTH_CONST.__objc_const: 0xc00 sha256:d48110d47ad698302f1ff86f479301575853570b812fb4d658a16ab493e9d88a
+-  __AUTH_CONST.__objc_intobj: 0xf0 sha256:a329fdff2820c6b6be448c90f7ff48fdb41bd6d34fee8672321f85198f47dfbb
+-  __AUTH.__objc_data: 0x50 sha256:68bbd13ec2eccc8aa4107fd734f3f8fefefb0703cc4f0907c4f8c22954c3a6a9
++  __DATA_CONST.__objc_selrefs: 0x5e8 sha256:443553fe64cc782a5ed34a1497c4b34b12c43acbecf7d791860c70f6083795cb
++  __DATA_CONST.__objc_superrefs: 0x8 sha256:1f3710dc9a6e3e97c9660b228bab19733fd8133318d67d7bd4b77c53c77d2b77
++  __DATA_CONST.__got: 0x0
++  __AUTH_CONST.__const: 0x52b0 sha256:acc93147ebadb87a5625bff011c891abaebcfcb4c59dd6987e2903e26a808dda
++  __AUTH_CONST.__cfstring: 0x11a0 sha256:7a4d82674c51b69346833cad110d1b786eb05814a53ccc730dcadf3cca0d4913
++  __AUTH_CONST.__objc_const: 0xc00 sha256:3e5cd9a0428e038e321644c383263380a8634ac6346fba82a9d9130a462743e6
++  __AUTH_CONST.__weak_auth_got: 0x20 sha256:7a5264ed2a9b3451461f89c7c5d5e5c970e84a60adcbe78101fe9dabd03ac9c5
++  __AUTH_CONST.__objc_intobj: 0xf0 sha256:ac76181a407ba5c0704ef995bf5bd3c792da73144c35d58326eb268d5a7d0bfc
++  __AUTH_CONST.__auth_got: 0x230 sha256:738c079dff6c9b77a0891ac42db1cabcab933a672b14aed8ecfcf94c0e77bb40
++  __AUTH.__objc_data: 0x50 sha256:1196fdd67bed906c3c5c4ca3d7b1d996750b6b53fb6f92cc5ff4582695c4b462
+   __DATA.__objc_ivar: 0xc0 sha256:99a6ec4e72a74d27c4e3906f7cd90b19255a5c30805ac9d19c04b9ab103782a9
+-  __DATA.__data: 0xd0 sha256:10232a0c241024ab76d74556761316e3531219b4be790efe52c14c77bbf94b64
++  __DATA.__data: 0xd0 sha256:2a53a17f17c381ef6b0b5c4bae49993373006294e0f734df4fa41d2487112633
+   __DATA.__bss: 0x40 sha256:f5a5fd42d16a20302798ef6ed309979b43003d2320d9f0e8ea9831a92759fb4b
+   - /System/Library/Frameworks/Accelerate.framework/Accelerate
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: C2E98D15-D4FB-3C4A-8D02-4E277FEE5649
+-  Functions: 1581
+-  Symbols:   5196
+-  CStrings:  803
++  UUID: C26B7235-43DE-302B-B66F-83716F490542
++  Functions: 1584
++  Symbols:   5192
++  CStrings:  404
+ 
+Symbols:
++ _OUTLINED_FUNCTION_85
++ _OUTLINED_FUNCTION_86
++ _OUTLINED_FUNCTION_87
++ _OUTLINED_FUNCTION_88
++ _OUTLINED_FUNCTION_89
++ _OUTLINED_FUNCTION_90
++ _objc_claimAutoreleasedReturnValue
++ _objc_retain_x2
++ _objc_retain_x4
++ _objc_retain_x8
+- GCC_except_table108
+- GCC_except_table109
+- GCC_except_table110
+- _objc_retain
+- _objc_retainAutoreleasedReturnValue
+- _objc_retain_x19
+- _objc_retain_x21
+- _objc_retain_x22
+- _objc_retain_x23
+- _objc_retain_x24
+CStrings:
++ "21.0.0 (clang-2100.3.19.4) [+internal-os]"
++ "24A5352s"
++ "SensingAlgsPadHostServiceJ8xx-10~4112"
+- "#16@0:8"
+- ".cxx_destruct"
+- "21.0.0 (clang-2100.0.123.2) [+internal-os]"
+- "23F64"
+- "@\"NSData\""
+- "@\"NSMutableArray\""
+- "@\"NSMutableData\""
+- "@\"NSMutableDictionary\""
+- "@\"NSString\"16@0:8"
+- "@16@0:8"
+- "@24@0:8:16"
+- "@24@0:8@\"NSString\"16"
+- "@24@0:8@16"
+- "@24@0:8Q16"
+- "@28@0:8i16Q20"
+- "@32@0:8:16@24"
+- "@32@0:8Q16@?24"
+- "@32@0:8Q16@?<v@?@\"NSData\">24"
+- "@32@0:8Q16C24f28"
+- "@32@0:8r^{FireflyUnfilteredAnglesPacket=ff[8C]}16Q24"
+- "@36@0:8r^{?=BBQQC}16B24Q28"
+- "@36@0:8r^{?=QIIIIffffffffBBIS}16B24Q28"
+- "@36@0:8r^{?=QIIIIffffffffBBIS}16I24Q28"
+- "@36@0:8r^{?={?=QIIIIffffffffBBIS}ffS}16B24Q28"
+- "@36@0:8r^{?={?=QIIIIffffffffBBIS}ffS}16I24Q28"
+- "@40@0:8:16@24@32"
+- "@40@0:8Q16Q24@?32"
+- "@40@0:8Q16Q24@?<v@?@\"NSData\">32"
+- "@?"
+- "@?16@0:8"
+- "@?<B@?@\"NSData\"B>16@0:8"
+- "@?<v@?@\"NSArray\">16@0:8"
+- "@?<v@?@\"NSData\">16@0:8"
+- "@?<v@?@\"NSString\"@\"NSDictionary\">16@0:8"
+- "@?<v@?C>16@0:8"
+- "B"
+- "B16@0:8"
+- "B24@0:8#16"
+- "B24@0:8:16"
+- "B24@0:8@\"NSData\"16"
+- "B24@0:8@\"Protocol\"16"
+- "B24@0:8@16"
+- "B32@0:8@\"NSString\"16@24"
+- "B32@0:8@16@24"
+- "C"
+- "C16@0:8"
+- "NSObject"
+- "Q16@0:8"
+- "Q24@0:8Q16"
+- "Q32@0:8Q16Q24"
+- "SASInterfacePadHost"
+- "SASInterfaceProtocol"
+- "SensingAlgsPadHostServiceJ8xx-10~3708"
+- "T#,R"
+- "T@\"NSData\",&,N,V_emptyPaths"
+- "T@\"NSMutableArray\",&,N,V_versions"
+- "T@\"NSMutableData\",&,N,V_inputBuffer"
+- "T@\"NSMutableData\",&,N,V_outputBuffer"
+- "T@\"NSMutableDictionary\",&,N,V_propertyDatabase"
+- "T@\"NSString\",?,R,C"
+- "T@\"NSString\",R,C"
+- "T@?,?,C,N"
+- "T@?,?,C,N,V_pencilEventCallback"
+- "T@?,C,N"
+- "T@?,C,N,V_coreAnalyticsCallback"
+- "T@?,C,N,V_eventCallback"
+- "T@?,C,N,V_resetRequestCallback"
+- "T@?,C,N,V_streamCallback"
+- "TB,N,V_touch_system_ready"
+- "TC,N,V_atomic_wake_event"
+- "TC,N,V_cover_gesture_state"
+- "TC,N,V_planId"
+- "TC,N,V_wake_event_detected"
+- "TQ,N,V_cont_abs_diff"
+- "TQ,N,V_last_frame_time_us"
+- "TQ,N,V_last_reset_time_us"
+- "TQ,N,V_prev_frame_diff_us"
+- "TQ,R"
+- "T^v,N,V_device"
+- "Tq,N,V_hts_delta_ms"
+- "Tq,N,V_timestamp_offset"
+- "Tr^f,N,V_duration_between_touches"
+- "Tr^f,N,V_max_touch_duration_large_contact_stats"
+- "Tr^v,N,V_agg_calblob_error_in_algs_stats"
+- "Tr^v,N,V_agg_count_large_contact_touch_duration_stats"
+- "Tr^v,N,V_agg_duration_ff_dirty_spa_durations_stats"
+- "Tr^v,N,V_agg_duration_ff_dirty_spa_transitions_stats"
+- "Tr^v,N,V_agg_duration_ff_dirty_spa_usage_stats"
+- "Tr^v,N,V_agg_duration_pencil_dti_stats"
+- "Tr^v,N,V_agg_duration_thermal_region_stats"
+- "Tr^v,N,V_agg_duration_touch_coverage_stats"
+- "Tr^v,N,V_baseline_adapt_rate_state_stats"
+- "Tr^{?=BBQQC},N,V_event_info"
+- "Tr^{?=BBQQC},N,V_interpolated_event_info"
+- "Tr^{?=C[0{?=QIIIIffffffffBBIS}]},N,V_fingers"
+- "Tr^{?=C[0{?=QIIIIffffffffBBIS}]},N,V_interpolated_fingers"
+- "Tr^{?=C[0{?=ffffII}]},N,V_path_stats"
+- "Tr^{?=C[0{?={?=QIIIIffffffffBBIS}ffS}]},N,V_stylus"
+- "Tr^{?=QIIIIffffffffBBIS},N,V_hand"
+- "Tr^{?=QIIIIffffffffBBIS},N,V_interpolated_hand"
+- "Tr^{?=QIIIIffffffffBBIS},N,V_tap"
+- "Tr^{?={?=QIIIIffffffffBBIS}ffS},N,V_ptw"
+- "Tr^{?={?=QIIIIffffffffBBIS}ffS},N,V_stylusHand"
+- "Tr^{FireflyUnfilteredAnglesPacket=ff[8C]},N,V_pre_hysteresis_ff_angles"
+- "Tr^{PenMetadataPacket_v2=QICCCC[3{PenVectorInfo=CCC}]CCC},N,V_pen_meta_data"
+- "T{?=QCf},N,V_cover_gesture"
+- "T{?=iiCBBBBBB},N,V_phone_telemetry"
+- "UTF8String"
+- "Vv16@0:8"
+- "^v"
+- "^v16@0:8"
+- "^v20@0:8I16"
+- "^{_NSZone=}16@0:8"
+- "_agg_calblob_error_in_algs_stats"
+- "_agg_count_large_contact_touch_duration_stats"
+- "_agg_duration_ff_dirty_spa_durations_stats"
+- "_agg_duration_ff_dirty_spa_transitions_stats"
+- "_agg_duration_ff_dirty_spa_usage_stats"
+- "_agg_duration_pencil_dti_stats"
+- "_agg_duration_thermal_region_stats"
+- "_agg_duration_touch_coverage_stats"
+- "_atomic_wake_event"
+- "_baseline_adapt_rate_state_stats"
+- "_cont_abs_diff"
+- "_coreAnalyticsCallback"
+- "_cover_gesture"
+- "_cover_gesture_state"
+- "_device"
+- "_duration_between_touches"
+- "_emptyPaths"
+- "_eventCallback"
+- "_event_info"
+- "_fingers"
+- "_hand"
+- "_hts_delta_ms"
+- "_inputBuffer"
+- "_interpolated_event_info"
+- "_interpolated_fingers"
+- "_interpolated_hand"
+- "_last_frame_time_us"
+- "_last_reset_time_us"
+- "_max_touch_duration_large_contact_stats"
+- "_outputBuffer"
+- "_path_stats"
+- "_pen_meta_data"
+- "_pencilEventCallback"
+- "_phone_telemetry"
+- "_planId"
+- "_pre_hysteresis_ff_angles"
+- "_prev_frame_diff_us"
+- "_propertyDatabase"
+- "_ptw"
+- "_resetRequestCallback"
+- "_streamCallback"
+- "_stylus"
+- "_stylusHand"
+- "_tap"
+- "_timestamp_offset"
+- "_touch_system_ready"
+- "_versions"
+- "_wake_event_detected"
+- "addObject:"
+- "addVersion:"
+- "agg_calblob_error_in_algs_stats"
+- "agg_count_large_contact_touch_duration_stats"
+- "agg_duration_ff_dirty_spa_durations_stats"
+- "agg_duration_ff_dirty_spa_transitions_stats"
+- "agg_duration_ff_dirty_spa_usage_stats"
+- "agg_duration_pencil_dti_stats"
+- "agg_duration_thermal_region_stats"
+- "agg_duration_touch_coverage_stats"
+- "appendEvent:"
+- "atomic_wake_event"
+- "autorelease"
+- "baseline_adapt_rate_state_stats"
+- "boolValue"
+- "bytes"
+- "callCoreAnalyticsCallback"
+- "callEventCallback"
+- "callPadTouchCoreAnalyticsCallback"
+- "callPencilEventCallback"
+- "callResetRequestCallback:arg_ptr:"
+- "callStreamCallback:"
+- "class"
+- "cleanNodes"
+- "cleanStylusNodes"
+- "configurationCallback"
+- "configureCallbacks"
+- "configureTranslation"
+- "conformsToProtocol:"
+- "cont_abs_diff"
+- "coreAnalyticsCallback"
+- "countByEnumeratingWithState:objects:count:"
+- "cover_gesture"
+- "cover_gesture_state"
+- "createPadHostAlgsDevice:"
+- "dataWithBytes:length:"
+- "dataWithBytesNoCopy:length:freeWhenDone:"
+- "dataWithLength:"
+- "debugDescription"
+- "defaultStreamingConfiguration"
+- "description"
+- "device"
+- "dictionaryWithObjects:forKeys:count:"
+- "digitizerEvent:transducerType:x:y:z:options:"
+- "duration_between_touches"
+- "emptyPaths"
+- "eventCallback"
+- "event_info"
+- "fingers"
+- "generateCoverGesture:state:surfaceCovered:"
+- "generateEventInfo:interpolated:timestamp:"
+- "generateFingerEvent:interpolated:now:"
+- "generateHandEvent:interpolated:now:"
+- "generatePreHysteresisAngles:timestamp:"
+- "generatePtwEvent:transducerType:now:"
+- "generateStylusEvent:interpolated:now:"
+- "generateStylusHandEvent:interpolated:now:"
+- "generateSwipeUp:"
+- "generateTapEvent:transducerType:now:"
+- "generateTouchSystemReady:"
+- "generateWakeEvent:timestamp:"
+- "getProperty:"
+- "getValidTimestamp:now:"
+- "hand"
+- "handleInputStream:"
+- "hash"
+- "hts_delta_ms"
+- "init"
+- "initContactReclassificationParams"
+- "initProperties"
+- "initWithStreamSize:platformId:streamCallback:"
+- "initWithStreamSize:streamCallback:"
+- "injectProperty:"
+- "injectProperty:value:"
+- "inputBuffer"
+- "interpolated_event_info"
+- "interpolated_fingers"
+- "interpolated_hand"
+- "isContactReclassificationNeeded"
+- "isEqual:"
+- "isKindOfClass:"
+- "isMemberOfClass:"
+- "isProxy"
+- "last_frame_time_us"
+- "last_reset_time_us"
+- "length"
+- "longValue"
+- "max_touch_duration_large_contact_stats"
+- "mutableBytes"
+- "mutableCopy"
+- "numberWithBool:"
+- "numberWithFloat:"
+- "numberWithInt:"
+- "numberWithUnsignedChar:"
+- "numberWithUnsignedInt:"
+- "objectForKeyedSubscript:"
+- "outputBuffer"
+- "path_stats"
+- "pen_meta_data"
+- "pencilEventCallback"
+- "performSelector:"
+- "performSelector:withObject:"
+- "performSelector:withObject:withObject:"
+- "phone_telemetry"
+- "planId"
+- "polarDigitizerEvent:altitude:azimuth:quality:density:majorRadius:minorRadius:options:"
+- "pre_hysteresis_ff_angles"
+- "prev_frame_diff_us"
+- "propertyDatabase"
+- "ptw"
+- "q"
+- "q16@0:8"
+- "qualityDigitizerEvent:quality:density:irregularity:majorRadius:minorRadius:accuracy:options:"
+- "r^f"
+- "r^f16@0:8"
+- "r^v"
+- "r^v16@0:8"
+- "r^{?=BBQQC}"
+- "r^{?=BBQQC}16@0:8"
+- "r^{?=C[0{?=QIIIIffffffffBBIS}]}"
+- "r^{?=C[0{?=QIIIIffffffffBBIS}]}16@0:8"
+- "r^{?=C[0{?=ffffII}]}"
+- "r^{?=C[0{?=ffffII}]}16@0:8"
+- "r^{?=C[0{?={?=QIIIIffffffffBBIS}ffS}]}"
+- "r^{?=C[0{?={?=QIIIIffffffffBBIS}ffS}]}16@0:8"
+- "r^{?=QIIIIffffffffBBIS}"
+- "r^{?=QIIIIffffffffBBIS}16@0:8"
+- "r^{?={?=QIIIIffffffffBBIS}ffS}"
+- "r^{?={?=QIIIIffffffffBBIS}ffS}16@0:8"
+- "r^{FireflyUnfilteredAnglesPacket=ff[8C]}"
+- "r^{FireflyUnfilteredAnglesPacket=ff[8C]}16@0:8"
+- "r^{PenMetadataPacket_v2=QICCCC[3{PenVectorInfo=CCC}]CCC}"
+- "r^{PenMetadataPacket_v2=QICCCC[3{PenVectorInfo=CCC}]CCC}16@0:8"
+- "release"
+- "resetRequestCallback"
+- "respondsToSelector:"
+- "retain"
+- "retainCount"
+- "self"
+- "setAgg_calblob_error_in_algs_stats:"
+- "setAgg_count_large_contact_touch_duration_stats:"
+- "setAgg_duration_ff_dirty_spa_durations_stats:"
+- "setAgg_duration_ff_dirty_spa_transitions_stats:"
+- "setAgg_duration_ff_dirty_spa_usage_stats:"
+- "setAgg_duration_pencil_dti_stats:"
+- "setAgg_duration_thermal_region_stats:"
+- "setAgg_duration_touch_coverage_stats:"
+- "setAtomic_wake_event:"
+- "setBaseline_adapt_rate_state_stats:"
+- "setConfigurationCallback:"
+- "setCont_abs_diff:"
+- "setCoreAnalyticsCallback:"
+- "setCover_gesture:"
+- "setCover_gesture_state:"
+- "setDevice:"
+- "setDoubleValue:forField:"
+- "setDuration_between_touches:"
+- "setEmptyPaths:"
+- "setEventCallback:"
+- "setEvent_info:"
+- "setFingers:"
+- "setHand:"
+- "setHts_delta_ms:"
+- "setInputBuffer:"
+- "setIntegerValue:forField:"
+- "setInterpolated_event_info:"
+- "setInterpolated_fingers:"
+- "setInterpolated_hand:"
+- "setLast_frame_time_us:"
+- "setLast_reset_time_us:"
+- "setMax_touch_duration_large_contact_stats:"
+- "setObject:forKeyedSubscript:"
+- "setOutputBuffer:"
+- "setPath_stats:"
+- "setPen_meta_data:"
+- "setPencilEventCallback:"
+- "setPhone_telemetry:"
+- "setPlanId:"
+- "setPre_hysteresis_ff_angles:"
+- "setPrev_frame_diff_us:"
+- "setPropertyDatabase:"
+- "setPtw:"
+- "setResetRequestCallback:"
+- "setStreamCallback:"
+- "setStylus:"
+- "setStylusHand:"
+- "setTap:"
+- "setTimestamp_offset:"
+- "setTouch_system_ready:"
+- "setVersions:"
+- "setWake_event_detected:"
+- "stitchingTS:now:"
+- "streamCallback"
+- "stylus"
+- "stylusHand"
+- "superclass"
+- "tap"
+- "timestamp"
+- "timestampMachToUs:"
+- "timestampUsToAbsoluteMach:"
+- "timestamp_offset"
+- "touch_system_ready"
+- "unsignedIntValue"
+- "unsignedLongLongValue"
+- "unsignedShortValue"
+- "v16@0:8"
+- "v20@0:8B16"
+- "v20@0:8C16"
+- "v24@0:8@\"NSString\"16"
+- "v24@0:8@16"
+- "v24@0:8@?16"
+- "v24@0:8@?<B@?@\"NSData\"B>16"
+- "v24@0:8@?<v@?@\"NSArray\">16"
+- "v24@0:8@?<v@?@\"NSData\">16"
+- "v24@0:8@?<v@?@\"NSString\"@\"NSDictionary\">16"
+- "v24@0:8@?<v@?C>16"
+- "v24@0:8Q16"
+- "v24@0:8^v16"
+- "v24@0:8q16"
+- "v24@0:8r^f16"
+- "v24@0:8r^v16"
+- "v24@0:8r^{?=BBQQC}16"
+- "v24@0:8r^{?=C[0{?=QIIIIffffffffBBIS}]}16"
+- "v24@0:8r^{?=C[0{?=ffffII}]}16"
+- "v24@0:8r^{?=C[0{?={?=QIIIIffffffffBBIS}ffS}]}16"
+- "v24@0:8r^{?=QIIIIffffffffBBIS}16"
+- "v24@0:8r^{?={?=QIIIIffffffffBBIS}ffS}16"
+- "v24@0:8r^{FireflyUnfilteredAnglesPacket=ff[8C]}16"
+- "v24@0:8r^{PenMetadataPacket_v2=QICCCC[3{PenVectorInfo=CCC}]CCC}16"
+- "v28@0:8S16r^v20"
+- "v32@0:8{?=QCf}16"
+- "v32@0:8{?=iiCBBBBBB}16"
+- "vendorDefinedEvent:usagePage:usage:version:data:length:options:"
+- "versions"
+- "wake_event_detected"
+- "zone"
+- "{?=\"baseline_adaption_interval_ms\"i\"time_since_last_baseline_change_ms\"i\"scan_frequency_index\"C\"has_touch_above_threshold\"B\"is_on_coversheet\"B\"baseline_inversion_occurred\"B\"nondefault_baseline_adapt_occurred\"B\"all_columns_covered_occurred\"B\"event_occurred\"B}"
+- "{?=\"timestamp_us\"Q\"state\"C\"surface_covered\"f}"
+- "{?=QCf}16@0:8"
+- "{?=iiCBBBBBB}16@0:8"
+
+```

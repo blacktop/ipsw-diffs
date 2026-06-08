@@ -1,0 +1,565 @@
+## TVRemoteModule
+
+> `/System/Library/ControlCenter/Bundles/TVRemoteModule.bundle/TVRemoteModule`
+
+```diff
+
+-548.50.8.0.0
+-  __TEXT.__text: 0x2ae8 sha256:254c021893fa5351057ca31cc8fa412db3c1c71087d4adc4fabf48101a4e07b3
+-  __TEXT.__auth_stubs: 0x210 sha256:be967a23682c2bb229d58fc8eb250bb155e180d8a1624ffd5477c6534daee5c7
+-  __TEXT.__objc_methlist: 0x664 sha256:d0c4c2d59374c77aa27bd9e8c84eba9af5284764b5cd4acf29f73e30d60c33e0
+-  __TEXT.__const: 0xb8 sha256:32b74ab048d4d2a49c6a1008cfaf2c1a170c6c650000622d5c8843dabdbfb1c7
++625.0.0.0.0
++  __TEXT.__text: 0x2860 sha256:6b93abf3b621c117373e744676c64998e73bdfc64b267cade13c2d7e35b88b44
++  __TEXT.__objc_methlist: 0x694 sha256:cfda7408899032c2963cf370b283c74ea1c24c4de45104797a52baf7246a3910
++  __TEXT.__const: 0x70 sha256:7f287c5d4c0987017257c7f0dde0866fd7c98fa3ee63df05b8b3bfe04cd1906b
+   __TEXT.__oslogstring: 0x367 sha256:2824e94f262b177571180232fb82e10f2c73f49a4527945bc471e6ae9d86062e
+-  __TEXT.__cstring: 0x1a5 sha256:76f3ecbadc83b28e25c197c491dfface78fd21bcac9a7652b10a05b9ba208e10
+-  __TEXT.__unwind_info: 0x160 sha256:950382f9166612e973afb16b27e3b36f40797cd19a59c6b0db71935f45029250
+-  __TEXT.__objc_classname: 0x7e sha256:600f7f8f4fb10a7ab7be568ec9aea5d46ac86c32bbe7d05c0a2233e44fcf8c07
+-  __TEXT.__objc_methname: 0x1459 sha256:d3a144e1471d6c9f13030a125cb0e04e243a913d0587d108e8113ef0e2e1f06c
+-  __TEXT.__objc_methtype: 0x544 sha256:c1caeda2edf9647a4959c3bcd50a7e69d8967038223df040bdacab6effe17e7c
+-  __TEXT.__objc_stubs: 0x9e0 sha256:e10241d4121826ad3c9d67c0d3c43ab1372e37aa8ef15ac267f7dc3935fda245
+-  __DATA_CONST.__got: 0xa8 sha256:14c57bfb1dd0872cebc89390f027ac5360ce9002718895d0fa3aa6e24fcb7101
+-  __DATA_CONST.__const: 0x98 sha256:390e636ef2500c56db4457cb062017683e763715191240fec2573186742231b8
+-  __DATA_CONST.__objc_classlist: 0x18 sha256:ad5e21154b8139d470d0aae1f50a7995d7b203754e38b3d9abbe201bdb69257e
+-  __DATA_CONST.__objc_protolist: 0x18 sha256:fd291296d09d2865d21b373b7851b26ef4902b075177da8c2bac7085c457f1bd
++  __TEXT.__cstring: 0x1a9 sha256:602bf62b88d51342b3b0858fd1f2927f3fbde560d9056269a3918e0ade8acd4b
++  __TEXT.__unwind_info: 0x128 sha256:329cf1a5a126975d3ec72c83f9db04237c983646891ae506f8551bc9c786ac6e
++  __TEXT.__objc_stubs: 0x0
++  __TEXT.__auth_stubs: 0x0
++  __TEXT.__objc_classname: 0x0
++  __TEXT.__objc_methname: 0x0
++  __TEXT.__objc_methtype: 0x0
++  __DATA_CONST.__const: 0x98 sha256:c36f9d0153067ea3c7f52b4e0d8de83226ca6653476671c0c6bdd4b59bab3cd4
++  __DATA_CONST.__objc_classlist: 0x18 sha256:139c39bb9ff3315d3840aceb36077ddb72f7dc5b94a5ee92dfb2cb587c661b9a
++  __DATA_CONST.__objc_protolist: 0x18 sha256:720f7e23b0996dc470bc62f81cb5dda88c40084409985a3dd6d05490c963c466
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x518 sha256:de96d733899a02524966671151cdbcfcc3b340bb20ea6fb4c051edec397a2e7d
+-  __DATA_CONST.__objc_superrefs: 0x8 sha256:4ef4b4998bf8e07d9fbf64983d61ee70b1152f7a711c2a1800638c91c8fe0af0
+-  __AUTH_CONST.__auth_got: 0x110 sha256:e4d879a3407de578f579dfab4366fcea75a6649c683d9efe4f056f6505437574
+-  __AUTH_CONST.__const: 0x20 sha256:8f32ccb5fbc9052dcb1c3d85a269d1ff59d173534589308f813cc1811b716e8d
+-  __AUTH_CONST.__cfstring: 0xc0 sha256:e28995f324a29c0e54f6a9b90c0407125c3da1d31b6dc23905887c4656edb7df
+-  __AUTH_CONST.__objc_const: 0xa90 sha256:9d6f2a9276ba9fbef550718cd1c6b41119bdc06abcdbe3e9260dc34b2d388690
+-  __AUTH.__objc_data: 0xf0 sha256:7c7e9b889308b64f3306f6ff8aa1ad365c5abdb0710021023a9e7d4d42c1561e
+-  __DATA.__objc_ivar: 0x30 sha256:7eee7cd98c28b84e248a38ad39273e82d7068824c965c29f2e351aabc681b911
+-  __DATA.__data: 0x120 sha256:d230dc8d491e12fedc7507e559f89390aad4241a1e918d9f24d30319e5f1ae93
++  __DATA_CONST.__objc_selrefs: 0x558 sha256:3f5f2666139da2a0bf86704c7198aec53009b38b3d3c67aa89e8dcc1bb0413c5
++  __DATA_CONST.__objc_superrefs: 0x8 sha256:f28850ab27e95d2ca779cc0bd70695d57f098438890ae2f461681797ac265564
++  __DATA_CONST.__got: 0xa8 sha256:5534cd47907e3adbb7619ae03eff1069d66779c6b9b3851dfcd95bfb23e32858
++  __AUTH_CONST.__const: 0x20 sha256:d6b0d8ec4d77d77b066f70d8b5ee9bc7d0fbbe09ecd6a98d5a71ffd5bafe691e
++  __AUTH_CONST.__cfstring: 0xc0 sha256:bf8b514eb04fe44a950779e1247b1d82467f37e9cc997a942682d1c0716fff5f
++  __AUTH_CONST.__objc_const: 0xa98 sha256:2510f35a2269b00eb07252c90d7502e0fc306d1476a69d5abff4d01efc65b6d8
++  __AUTH_CONST.__auth_got: 0x0
++  __AUTH.__objc_data: 0xf0 sha256:7d9b7e6aacbeeabeab2bdb77a4538f4b780a358145dd1793209f4f70a581ab6c
++  __DATA.__objc_ivar: 0x30 sha256:163ce3e61c1b6dd00a1c747ff30e7ec729cfd07e16cba775ed9f9a870cfd227e
++  __DATA.__data: 0x120 sha256:efed23ce5aa397e1c5b599543f0c3bdc722fafe59dc5e4fbb8f9f783b7ff37d7
+   __DATA.__bss: 0x10 sha256:374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: B58BE5DC-888A-3E8A-A6AC-7042504C62C6
+-  Functions: 70
+-  Symbols:   339
+-  CStrings:  312
++  UUID: 8870801F-384C-33BB-93A0-6D0F70A66606
++  Functions: 72
++  Symbols:   69
++  CStrings:  39
+ 
+Symbols:
++ _CGRectIsEmpty
++ _OBJC_CLASS_$_TVRUIFeatures
++ _objc_claimAutoreleasedReturnValue
++ _objc_retainAutoreleaseReturnValue
++ _objc_retain_x2
++ _objc_retain_x21
++ _objc_retain_x3
+- +[TVRMDeviceInfo contentEdgeInsets]
+- +[TVRMDeviceInfo deviceHasRoundedCorners]
+- +[TVRMDeviceInfo expandedRoundedCornerRadius]
+- +[TVRMDeviceInfo heightForCurrentDeviceWithOrientation:]
+- +[TVRMDeviceInfo needsCompactLayoutForCurrentDevice]
+- +[TVRMDeviceInfo needsLandscapeOrientationForCurrentDevice]
+- +[TVRMDeviceInfo widthForCurrentDevice]
+- -[TVRMContentViewController .cxx_destruct]
+- -[TVRMContentViewController _canShowWhileLocked]
+- -[TVRMContentViewController _createRemoteControlViewControllerIfNeeded]
+- -[TVRMContentViewController _defaultScaledTransformForSize:]
+- -[TVRMContentViewController _dismissChildViewControllersPresentedContentAnimated:completion:]
+- -[TVRMContentViewController _prewarm]
+- -[TVRMContentViewController _remoteLaunchedAsViewService:]
+- -[TVRMContentViewController _requestLaunchAsViewService]
+- -[TVRMContentViewController _startRemoteControlViewController]
+- -[TVRMContentViewController _stopRemoteControlViewController]
+- -[TVRMContentViewController backgroundViewController]
+- -[TVRMContentViewController buttonTapped:forEvent:]
+- -[TVRMContentViewController canDismissPresentedContent]
+- -[TVRMContentViewController contentModuleContext]
+- -[TVRMContentViewController customAnimator]
+- -[TVRMContentViewController dismissPresentedContentAnimated:completion:]
+- -[TVRMContentViewController displayWillTurnOff]
+- -[TVRMContentViewController hintsViewController]
+- -[TVRMContentViewController isShowingButtonGlyph]
+- -[TVRMContentViewController lastActiveEndpointIdentifier]
+- -[TVRMContentViewController preferredExpandedContentHeight]
+- -[TVRMContentViewController preferredExpandedContentWidth]
+- -[TVRMContentViewController preferredExpandedContinuousCornerRadius]
+- -[TVRMContentViewController remoteControlViewController]
+- -[TVRMContentViewController remoteDismissAnimator]
+- -[TVRMContentViewController remoteShowAnimator]
+- -[TVRMContentViewController setBackgroundViewController:]
+- -[TVRMContentViewController setContentModuleContext:]
+- -[TVRMContentViewController setHintsViewController:]
+- -[TVRMContentViewController setLastActiveEndpointIdentifier:]
+- -[TVRMContentViewController setRemoteControlViewController:]
+- -[TVRMContentViewController setRemoteDismissAnimator:]
+- -[TVRMContentViewController setRemoteShowAnimator:]
+- -[TVRMContentViewController setSystemInitiatedDismissal:]
+- -[TVRMContentViewController setTransitionSize:]
+- -[TVRMContentViewController shouldFinishTransitionToExpandedContentModule]
+- -[TVRMContentViewController shouldLaunchAsViewService]
+- -[TVRMContentViewController supportedInterfaceOrientations]
+- -[TVRMContentViewController systemInitiatedDismissal]
+- -[TVRMContentViewController title]
+- -[TVRMContentViewController transitionSize]
+- -[TVRMContentViewController valueText]
+- -[TVRMContentViewController viewWillAppear:]
+- -[TVRMContentViewController viewWillLayoutSubviews]
+- -[TVRMContentViewController viewWillTransitionToSize:withTransitionCoordinator:]
+- -[TVRMContentViewController willTransitionToExpandedContentMode:]
+- -[TVRemoteModule .cxx_destruct]
+- -[TVRemoteModule contentViewControllerForContext:]
+- -[TVRemoteModule contentViewController]
+- -[TVRemoteModule expandsGridSizeClassesForAccessibility]
+- -[TVRemoteModule moduleContext]
+- -[TVRemoteModule setContentModuleContext:]
+- -[TVRemoteModule setContentViewController:]
+- -[TVRemoteModule setModuleContext:]
+- <redacted>
+- _CCUIExpandedModuleContinuousCornerRadius
+- _CCUILayoutShouldBePortrait
+- _OBJC_IVAR_$_TVRMContentViewController._backgroundViewController
+- _OBJC_IVAR_$_TVRMContentViewController._contentModuleContext
+- _OBJC_IVAR_$_TVRMContentViewController._hintsViewController
+- _OBJC_IVAR_$_TVRMContentViewController._lastActiveEndpointIdentifier
+- _OBJC_IVAR_$_TVRMContentViewController._remoteControlViewController
+- _OBJC_IVAR_$_TVRMContentViewController._remoteDismissAnimator
+- _OBJC_IVAR_$_TVRMContentViewController._remoteShowAnimator
+- _OBJC_IVAR_$_TVRMContentViewController._showButtonGlyph
+- _OBJC_IVAR_$_TVRMContentViewController._systemInitiatedDismissal
+- _OBJC_IVAR_$_TVRMContentViewController._transitionSize
+- _OBJC_IVAR_$_TVRemoteModule._contentViewController
+- _OBJC_IVAR_$_TVRemoteModule._moduleContext
+- __OBJC_$_CLASS_METHODS_TVRMDeviceInfo
+- __OBJC_$_INSTANCE_METHODS_TVRMContentViewController
+- __OBJC_$_INSTANCE_METHODS_TVRemoteModule
+- __OBJC_$_INSTANCE_VARIABLES_TVRMContentViewController
+- __OBJC_$_INSTANCE_VARIABLES_TVRemoteModule
+- __OBJC_$_PROP_LIST_CCUIContentModule
+- __OBJC_$_PROP_LIST_CCUIContentModuleContentViewController
+- __OBJC_$_PROP_LIST_NSObject
+- __OBJC_$_PROP_LIST_TVRMContentViewController
+- __OBJC_$_PROP_LIST_TVRemoteModule
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_CCUIContentModuleContentViewController
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_CCUIContentModule
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_CCUIContentModuleContentViewController
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject
+- __OBJC_$_PROTOCOL_METHOD_TYPES_CCUIContentModule
+- __OBJC_$_PROTOCOL_METHOD_TYPES_CCUIContentModuleContentViewController
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NSObject
+- __OBJC_$_PROTOCOL_REFS_CCUIContentModule
+- __OBJC_$_PROTOCOL_REFS_CCUIContentModuleContentViewController
+- __OBJC_CLASS_PROTOCOLS_$_TVRMContentViewController
+- __OBJC_CLASS_PROTOCOLS_$_TVRemoteModule
+- __OBJC_CLASS_RO_$_TVRMContentViewController
+- __OBJC_CLASS_RO_$_TVRMDeviceInfo
+- __OBJC_CLASS_RO_$_TVRemoteModule
+- __OBJC_LABEL_PROTOCOL_$_CCUIContentModule
+- __OBJC_LABEL_PROTOCOL_$_CCUIContentModuleContentViewController
+- __OBJC_LABEL_PROTOCOL_$_NSObject
+- __OBJC_METACLASS_RO_$_TVRMContentViewController
+- __OBJC_METACLASS_RO_$_TVRMDeviceInfo
+- __OBJC_METACLASS_RO_$_TVRemoteModule
+- __OBJC_PROTOCOL_$_CCUIContentModule
+- __OBJC_PROTOCOL_$_CCUIContentModuleContentViewController
+- __OBJC_PROTOCOL_$_NSObject
+- __TVRMControlCenterLog.cold.1
+- __TVRMControlCenterLog.log
+- __TVRMControlCenterLog.onceToken
+- ___43-[TVRMContentViewController customAnimator]_block_invoke
+- ___43-[TVRMContentViewController customAnimator]_block_invoke.17
+- ___58-[TVRMContentViewController _remoteLaunchedAsViewService:]_block_invoke
+- ___72-[TVRMContentViewController dismissPresentedContentAnimated:completion:]_block_invoke
+- ___80-[TVRMContentViewController viewWillTransitionToSize:withTransitionCoordinator:]_block_invoke
+- ___93-[TVRMContentViewController _dismissChildViewControllersPresentedContentAnimated:completion:]_block_invoke
+- ____TVRMControlCenterLog_block_invoke
+- ___block_descriptor_32_e5_v8?0l
+- ___block_descriptor_40_e8_32s_e56_v16?0"<UIViewControllerTransitionCoordinatorContext>"8ls32l8
+- ___block_descriptor_40_e8_32s_e5_v8?0ls32l8
+- ___block_descriptor_49_e8_32s40bs_e5_v8?0ls32l8s40l8
+- ___block_literal_global
+- ___stack_chk_fail
+- ___stack_chk_guard
+- _objc_msgSend$_createRemoteControlViewControllerIfNeeded
+- _objc_msgSend$_defaultScaledTransformForSize:
+- _objc_msgSend$_disconnectSystemInitiated
+- _objc_msgSend$_disconnectUserInitiated
+- _objc_msgSend$_dismissChildViewControllersPresentedContentAnimated:completion:
+- _objc_msgSend$_initWithLaunchContext:
+- _objc_msgSend$_prewarm
+- _objc_msgSend$_prewarmWithLaunchViewService:fetchActiveEndpoint:
+- _objc_msgSend$_requestLaunchAsViewService
+- _objc_msgSend$_startRemoteControlViewController
+- _objc_msgSend$_stopRemoteControlViewController
+- _objc_msgSend$addAnimations:
+- _objc_msgSend$addObserver:selector:name:object:
+- _objc_msgSend$animateAlongsideTransition:completion:
+- _objc_msgSend$bounds
+- _objc_msgSend$bringSubviewToFront:
+- _objc_msgSend$bs_addChildViewController:
+- _objc_msgSend$bundleForClass:
+- _objc_msgSend$buttonView
+- _objc_msgSend$compactContinuousCornerRadius
+- _objc_msgSend$configureWithDeviceIdentifier:identifierType:deviceType:launchContext:
+- _objc_msgSend$contentEdgeInsets
+- _objc_msgSend$contentModuleContext
+- _objc_msgSend$contentViewController
+- _objc_msgSend$currentDevice
+- _objc_msgSend$defaultCenter
+- _objc_msgSend$deviceHasRoundedCorners
+- _objc_msgSend$dismissControlCenter
+- _objc_msgSend$dismissHints
+- _objc_msgSend$dismissPresentedContentAnimated:completion:
+- _objc_msgSend$displayCornerRadius
+- _objc_msgSend$expandedRoundedCornerRadius
+- _objc_msgSend$hasPresentedContent
+- _objc_msgSend$hintsViewController
+- _objc_msgSend$imageNamed:inBundle:compatibleWithTraitCollection:
+- _objc_msgSend$initWithDuration:timingParameters:
+- _objc_msgSend$initWithMass:stiffness:damping:initialVelocity:
+- _objc_msgSend$isExpanded
+- _objc_msgSend$lastActiveEndpointIdentifier
+- _objc_msgSend$layoutIfNeeded
+- _objc_msgSend$localizedStringForKey:value:table:
+- _objc_msgSend$mainScreen
+- _objc_msgSend$moduleContext
+- _objc_msgSend$needsCompactLayoutForCurrentDevice
+- _objc_msgSend$needsLandscapeOrientationForCurrentDevice
+- _objc_msgSend$openApplication:completionHandler:
+- _objc_msgSend$preferredExpandedContentHeight
+- _objc_msgSend$preferredExpandedContentWidth
+- _objc_msgSend$presentWithContext:
+- _objc_msgSend$remoteControlViewController
+- _objc_msgSend$remoteWillBeDismissed
+- _objc_msgSend$removeObserver:name:object:
+- _objc_msgSend$requestExpandModule
+- _objc_msgSend$setAllowSiriHint:
+- _objc_msgSend$setAllowTips:
+- _objc_msgSend$setAllowVolumeHint:
+- _objc_msgSend$setAlpha:
+- _objc_msgSend$setBackgroundCornerRadius:
+- _objc_msgSend$setContentModuleContext:
+- _objc_msgSend$setDelegate:
+- _objc_msgSend$setDismissalType:
+- _objc_msgSend$setEnabled:
+- _objc_msgSend$setFrame:
+- _objc_msgSend$setGlyphImage:
+- _objc_msgSend$setHintsViewController:
+- _objc_msgSend$setModuleContext:
+- _objc_msgSend$setSystemInitiatedDismissal:
+- _objc_msgSend$setTransform:
+- _objc_msgSend$setTransitionSize:
+- _objc_msgSend$sharedInstance
+- _objc_msgSend$shouldLaunchAsViewService
+- _objc_msgSend$standardSpringAnimator
+- _objc_msgSend$startConnections
+- _objc_msgSend$stopConnections
+- _objc_msgSend$systemInitiatedDismissal
+- _objc_msgSend$traitCollection
+- _objc_msgSend$transitionSize
+- _objc_msgSend$userInterfaceIdiom
+- _objc_msgSend$view
+- _objc_retainAutoreleasedReturnValue
+- _objc_retain_x19
+- _objc_retain_x20
+CStrings:
+- "#16@0:8"
+- ".cxx_destruct"
+- "@\"CCUIContentModuleContext\""
+- "@\"CCUIModuleContentMetrics\"16@0:8"
+- "@\"INIntent\"16@0:8"
+- "@\"NSArray\"16@0:8"
+- "@\"NSString\""
+- "@\"NSString\"16@0:8"
+- "@\"TVRMContentViewController\""
+- "@\"TVRUICubicSpringAnimator\""
+- "@\"TVRUIHintsViewController\""
+- "@\"TVRUIRemoteViewController\""
+- "@\"UIViewController\""
+- "@\"UIViewController<CCUIContentModuleBackgroundViewController>\"16@0:8"
+- "@\"UIViewController<CCUIContentModuleBackgroundViewController>\"24@0:8@\"CCUIContentModulePresentationContext\"16"
+- "@\"UIViewController<CCUIContentModuleContentViewController>\"16@0:8"
+- "@\"UIViewController<CCUIContentModuleContentViewController>\"24@0:8@\"CCUIContentModulePresentationContext\"16"
+- "@\"UIViewPropertyAnimator\""
+- "@\"UIViewPropertyAnimator\"16@0:8"
+- "@16@0:8"
+- "@24@0:8:16"
+- "@24@0:8@16"
+- "@32@0:8:16@24"
+- "@40@0:8:16@24@32"
+- "B"
+- "B16@0:8"
+- "B24@0:8#16"
+- "B24@0:8:16"
+- "B24@0:8@\"Protocol\"16"
+- "B24@0:8@\"UITouch\"16"
+- "B24@0:8@16"
+- "B40@0:8{CGPoint=dd}16@\"UIView\"32"
+- "B40@0:8{CGPoint=dd}16@32"
+- "CCUIContentModule"
+- "CCUIContentModuleContentViewController"
+- "NSObject"
+- "Q16@0:8"
+- "T#,R"
+- "T@\"CCUIContentModuleContext\",&,N,V_contentModuleContext"
+- "T@\"CCUIContentModuleContext\",&,N,V_moduleContext"
+- "T@\"CCUIModuleContentMetrics\",?,&,N"
+- "T@\"INIntent\",?,R,N"
+- "T@\"NSArray\",?,R,N"
+- "T@\"NSString\",&,N,V_lastActiveEndpointIdentifier"
+- "T@\"NSString\",?,R,C"
+- "T@\"NSString\",?,R,C,N"
+- "T@\"NSString\",R,C"
+- "T@\"TVRMContentViewController\",&,N,V_contentViewController"
+- "T@\"TVRUICubicSpringAnimator\",&,N,V_remoteShowAnimator"
+- "T@\"TVRUIHintsViewController\",&,N,V_hintsViewController"
+- "T@\"TVRUIRemoteViewController\",&,N,V_remoteControlViewController"
+- "T@\"UIViewController\",&,N,V_backgroundViewController"
+- "T@\"UIViewController<CCUIContentModuleBackgroundViewController>\",?,R,N"
+- "T@\"UIViewController<CCUIContentModuleContentViewController>\",?,R,N"
+- "T@\"UIViewPropertyAnimator\",&,N,V_remoteDismissAnimator"
+- "T@\"UIViewPropertyAnimator\",?,R,N"
+- "TB,?,N"
+- "TB,?,N,GisResizing"
+- "TB,?,R,N"
+- "TB,N,V_systemInitiatedDismissal"
+- "TB,R,N"
+- "TB,R,N,GisShowingButtonGlyph,V_showButtonGlyph"
+- "TQ,?,N"
+- "TQ,?,R,N"
+- "TQ,R"
+- "TVRMContentViewController"
+- "TVRMDeviceInfo"
+- "TVRemoteModule"
+- "Td,?,N"
+- "Td,?,R,N"
+- "Td,R,N"
+- "Tq,?,N"
+- "T{CGSize=dd},N,V_transitionSize"
+- "Vv16@0:8"
+- "^{_NSZone=}16@0:8"
+- "_backgroundViewController"
+- "_canShowWhileLocked"
+- "_contentModuleContext"
+- "_contentViewController"
+- "_createRemoteControlViewControllerIfNeeded"
+- "_defaultScaledTransformForSize:"
+- "_disconnectSystemInitiated"
+- "_disconnectUserInitiated"
+- "_dismissChildViewControllersPresentedContentAnimated:completion:"
+- "_hintsViewController"
+- "_initWithLaunchContext:"
+- "_lastActiveEndpointIdentifier"
+- "_moduleContext"
+- "_prewarm"
+- "_prewarmWithLaunchViewService:fetchActiveEndpoint:"
+- "_remoteControlViewController"
+- "_remoteDismissAnimator"
+- "_remoteLaunchedAsViewService:"
+- "_remoteShowAnimator"
+- "_requestLaunchAsViewService"
+- "_showButtonGlyph"
+- "_startRemoteControlViewController"
+- "_stopRemoteControlViewController"
+- "_systemInitiatedDismissal"
+- "_transitionSize"
+- "addAnimations:"
+- "addObserver:selector:name:object:"
+- "animateAlongsideTransition:completion:"
+- "autorelease"
+- "backgroundViewController"
+- "backgroundViewControllerForContext:"
+- "bounds"
+- "bringSubviewToFront:"
+- "bs_addChildViewController:"
+- "bundleForClass:"
+- "buttonTapped:forEvent:"
+- "buttonView"
+- "canDismissPresentedContent"
+- "class"
+- "compactContinuousCornerRadius"
+- "configureWithDeviceIdentifier:identifierType:deviceType:launchContext:"
+- "conformsToProtocol:"
+- "containerViewsForPlatterTreatment"
+- "contentEdgeInsets"
+- "contentMetrics"
+- "contentModuleContext"
+- "contentRenderingMode"
+- "contentViewController"
+- "contentViewControllerForContext:"
+- "controlCenterDidDismiss"
+- "controlCenterWillPresent"
+- "currentDevice"
+- "customAnimator"
+- "d16@0:8"
+- "d24@0:8q16"
+- "debugDescription"
+- "defaultCenter"
+- "defaultConfigurationIntent"
+- "description"
+- "deviceHasRoundedCorners"
+- "didTransitionToExpandedContentMode:"
+- "dismissControlCenter"
+- "dismissHints"
+- "dismissPresentedContentAnimated:completion:"
+- "displayCornerRadius"
+- "displayWillTurnOff"
+- "expandedRoundedCornerRadius"
+- "expandsGridSizeClassesForAccessibility"
+- "gridSizeClass"
+- "hasPresentedContent"
+- "hash"
+- "heightForCurrentDeviceWithOrientation:"
+- "hintsViewController"
+- "imageNamed:inBundle:compatibleWithTraitCollection:"
+- "implicitlyExpandedGridSizeClasses"
+- "initWithDuration:timingParameters:"
+- "initWithMass:stiffness:damping:initialVelocity:"
+- "interpretsLocationAsContent:inView:"
+- "isEqual:"
+- "isExpanded"
+- "isKindOfClass:"
+- "isMemberOfClass:"
+- "isProxy"
+- "isResizing"
+- "isShowingButtonGlyph"
+- "lastActiveEndpointIdentifier"
+- "layoutIfNeeded"
+- "localizedStringForKey:value:table:"
+- "mainScreen"
+- "moduleContext"
+- "moduleDescription"
+- "moduleLayoutSizeForOrientation:"
+- "needsCompactLayoutForCurrentDevice"
+- "needsLandscapeOrientationForCurrentDevice"
+- "openApplication:completionHandler:"
+- "performSelector:"
+- "performSelector:withObject:"
+- "performSelector:withObject:withObject:"
+- "preferredExpandedContentHeight"
+- "preferredExpandedContentWidth"
+- "preferredExpandedContinuousCornerRadius"
+- "prefersExpandedContentSizeMatchesGridSize"
+- "presentWithContext:"
+- "promptsForUserConfiguration"
+- "providesOwnPlatter"
+- "q16@0:8"
+- "release"
+- "remoteControlViewController"
+- "remoteDismissAnimator"
+- "remoteShowAnimator"
+- "remoteWillBeDismissed"
+- "removeObserver:name:object:"
+- "requestExpandModule"
+- "resizing"
+- "respondsToSelector:"
+- "retain"
+- "retainCount"
+- "self"
+- "setAllowSiriHint:"
+- "setAllowTips:"
+- "setAllowVolumeHint:"
+- "setAlpha:"
+- "setBackgroundCornerRadius:"
+- "setBackgroundViewController:"
+- "setCompactContinuousCornerRadius:"
+- "setConfigurationIntent:"
+- "setContentMetrics:"
+- "setContentModuleContext:"
+- "setContentRenderingMode:"
+- "setContentViewController:"
+- "setDelegate:"
+- "setDismissalType:"
+- "setEnabled:"
+- "setFrame:"
+- "setGlyphImage:"
+- "setGridSizeClass:"
+- "setHintsViewController:"
+- "setLastActiveEndpointIdentifier:"
+- "setModuleContext:"
+- "setRemoteControlViewController:"
+- "setRemoteDismissAnimator:"
+- "setRemoteShowAnimator:"
+- "setResizing:"
+- "setSuppressesContentTransitions:"
+- "setSystemInitiatedDismissal:"
+- "setTransform:"
+- "setTransitionSize:"
+- "setUserVisibilityStatus:"
+- "sharedInstance"
+- "shouldBeginTransitionToExpandedContentModule"
+- "shouldExpandModuleOnTouch:"
+- "shouldFinishTransitionToExpandedContentModule"
+- "shouldLaunchAsViewService"
+- "shouldPerformClickInteraction"
+- "shouldPerformHoverInteraction"
+- "shouldUseCompactContentFrameForExpandedContent"
+- "showButtonGlyph"
+- "standardSpringAnimator"
+- "startConnections"
+- "stopConnections"
+- "superclass"
+- "supportedGridSizeClasses"
+- "supportedInterfaceOrientations"
+- "suppressesContentTransitions"
+- "systemInitiatedDismissal"
+- "title"
+- "traitCollection"
+- "transitionSize"
+- "userInterfaceIdiom"
+- "userVisibilityStatus"
+- "v16@0:8"
+- "v20@0:8B16"
+- "v24@0:8@\"CCUIContentModuleContext\"16"
+- "v24@0:8@\"CCUIModuleContentMetrics\"16"
+- "v24@0:8@\"INIntent\"16"
+- "v24@0:8@16"
+- "v24@0:8Q16"
+- "v24@0:8d16"
+- "v24@0:8q16"
+- "v28@0:8B16@?20"
+- "v28@0:8B16@?<v@?>20"
+- "v32@0:8@16@24"
+- "v32@0:8{CGSize=dd}16"
+- "v40@0:8{CGSize=dd}16@32"
+- "valueText"
+- "view"
+- "viewWillAppear:"
+- "viewWillLayoutSubviews"
+- "viewWillTransitionToSize:withTransitionCoordinator:"
+- "wantsConfigurationIntent"
+- "widthForCurrentDevice"
+- "willTransitionToExpandedContentMode:"
+- "zone"
+- "{CCUIModuleLayoutSize=QQ}24@0:8q16"
+- "{CGAffineTransform=dddddd}32@0:8{CGSize=dd}16"
+- "{CGSize=\"width\"d\"height\"d}"
+- "{CGSize=dd}16@0:8"
+- "{UIEdgeInsets=dddd}16@0:8"
+
+```

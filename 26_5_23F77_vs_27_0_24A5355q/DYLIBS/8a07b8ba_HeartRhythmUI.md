@@ -1,0 +1,210 @@
+## HeartRhythmUI
+
+> `/System/Library/AccessibilityBundles/HeartRhythmUI.axbundle/HeartRhythmUI`
+
+```diff
+
+-3005.28.0.0.0
+-  __TEXT.__text: 0x1720 sha256:3dba4e27f4de4af928a01a37d769f02017bc20e632f79cfe75c502f9bee06259
+-  __TEXT.__auth_stubs: 0x190 sha256:247b6866a00c6f0b34c1329ae3e58d3879e16080a915117d07483f839e8f1ee9
+-  __TEXT.__objc_methlist: 0x46c sha256:f2ebe950411ec62c882992e93890fe875a182b56badcc89b06d82de74c64bcd8
+-  __TEXT.__cstring: 0x74e sha256:b623ec63a8324c5f4457478da8af35eb686f9faf778e690d66039a7f5a3fd84f
++3036.2.0.0.0
++  __TEXT.__text: 0x1664 sha256:80063d9b17bf8baf3f8c9adbac2738f9671991900455d6337aefd83c347fb350
++  __TEXT.__objc_methlist: 0x46c sha256:c8819d932136f0166bcc67cf8067b684fd1c8e3bbba9d9dd6fbe1fbe4ab27eb1
+   __TEXT.__const: 0x8 sha256:61ea6d291f51bed018bdd7fb80d20685e7773ed7872222c6648a8ecfbe680f88
+   __TEXT.__gcc_except_tab: 0x28 sha256:b4b935e7c2794a886c65d84ac23ee69f130b4c16c8a0dda44bacc29bd91e9b55
+-  __TEXT.__unwind_info: 0x128 sha256:bcafb9033723bc420536efb59c185c6511fab1a2fe522ed54a9e7a31bd98f16e
+-  __TEXT.__objc_classname: 0x6bd sha256:a66f4338656e3eeefe0ec7f3259e5397df99e0fab35dba9a7a9bc30046654e1d
+-  __TEXT.__objc_methname: 0x42b sha256:e85c8462517a908ad7d58d38a496413cb679b9186f02e198924aa212d25bb60c
+-  __TEXT.__objc_methtype: 0x41 sha256:20d914e4bbfcbd40aff36712309adf4e18f456d3093b714d8a57fa84624122b3
+-  __TEXT.__objc_stubs: 0x360 sha256:b05b1a13e4e41e34c68ffb2a2e168035b9501fdb0ddb6c40258469381b0fcc2f
+-  __DATA_CONST.__got: 0x68 sha256:db44d53d9590d17a93524466f25036773a22b041859914a34799235e163bfe08
+-  __DATA_CONST.__const: 0x90 sha256:aed37f57bcc0b9d95598e57fe4322000c99d1a5f370733d92097f4efb810dd08
+-  __DATA_CONST.__objc_classlist: 0xe8 sha256:bfddb52e534c2a620fa2d1b9ebe26787e043851c3d4c0e4fc5049286c83f16c7
++  __TEXT.__cstring: 0x74e sha256:836fd51c6b1113886ca22482144e45ffa1f8286e2c6cbeb122aa8cbaa7f02649
++  __TEXT.__unwind_info: 0x128 sha256:f75a14649c7a6dfaa7753ebf434e89171dacd5bb573cca8b8192a1995dbb8912
++  __TEXT.__objc_stubs: 0x0
++  __TEXT.__auth_stubs: 0x0
++  __TEXT.__objc_classname: 0x0
++  __TEXT.__objc_methname: 0x0
++  __TEXT.__objc_methtype: 0x0
++  __DATA_CONST.__const: 0x90 sha256:04dc43d9f2fdd60b3fc6798b48fd02daede31018ba7205d8d9214ca09cde3d0e
++  __DATA_CONST.__objc_classlist: 0xe8 sha256:0397efcc351968b15887622f524df64b5ca11d2fc5a6b0f376bb1e97f22b3e05
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x138 sha256:1e1f3e8cacbd09b26dad1696a152bb8e1d08c1503a13c35a932d7cb85e4f96da
+-  __DATA_CONST.__objc_superrefs: 0x60 sha256:5ec24a47bd3894b9f60dd3e9d6a2134581c0e243217916e182d96e877f2f93f2
+-  __AUTH_CONST.__auth_got: 0xd8 sha256:a5645e7a3fa0866cde8842c4dab96567507c3d1a3c028b816bc63f6966367b70
+-  __AUTH_CONST.__const: 0x60 sha256:14cc4913aa1e6fd78098c30e5cc304f26bd93276296e72c1fe14eaee383cde50
+-  __AUTH_CONST.__cfstring: 0x640 sha256:cc94916148814c9e239767d6780c1cf3bf9a126d5c651dd95cef622c44c86d45
+-  __AUTH_CONST.__objc_const: 0x1050 sha256:e76acb3de70d988090937bdabc4cec10f8263a1cca1f4c42909a5e63122dcc68
++  __DATA_CONST.__objc_selrefs: 0x138 sha256:94b0d295f67a1bcdf523371a92604a7641f9c22f4329ff2e8a4c77af362159b9
++  __DATA_CONST.__objc_superrefs: 0x60 sha256:a05b7a11a649cf7635ee44591ef7841c3091be9559f467656d7b622c94e6db48
++  __DATA_CONST.__got: 0x68 sha256:cbb6b153dc563c217800658c76a3140db040b5b85a550c61876f22f8117ead3f
++  __AUTH_CONST.__const: 0x60 sha256:df2e0f5d8ab9b0c7e14f1daa2822878418e16b0367743dec7c812b503634225f
++  __AUTH_CONST.__cfstring: 0x640 sha256:b8fb190eea5884a0551fd2dd043bdfdcaf7a430f2ae2ed2821be7454f7a94d92
++  __AUTH_CONST.__objc_const: 0x1050 sha256:d4b799bf8cc2fc7def5f0cb0a3457bb901407253aa0957946500a90e494607ad
++  __AUTH_CONST.__auth_got: 0x0
+   __DATA.__bss: 0x10 sha256:374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb
+-  __DATA_DIRTY.__objc_data: 0x910 sha256:04c499574576bd6b0ff5db89e9420cd5fae06cecb5b46de83ce7534b7236e682
++  __DATA_DIRTY.__objc_data: 0x910 sha256:98f9f418b69b0e9ec15def36f2dff8648556f9a5c743dac7d5c04aef4f0fd8c8
+   __DATA_DIRTY.__bss: 0x8 sha256:af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+
+   - /usr/lib/libAXSafeCategoryBundle.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: AEF4749F-2E30-310E-8989-75D53AA1D2BC
++  UUID: 46BF0F8B-1FBA-3007-B6F1-D5658ABAD6FE
+   Functions: 76
+-  Symbols:   377
+-  CStrings:  184
++  Symbols:   378
++  CStrings:  108
+ 
+Symbols:
++ GCC_except_table55
++ ___block_literal_global.351
++ ___block_literal_global.360
++ _objc_claimAutoreleasedReturnValue
++ _objc_retain_x1
++ _objc_retain_x2
+- GCC_except_table4
+- ___block_literal_global.330
+- ___block_literal_global.339
+- _objc_retainAutoreleasedReturnValue
+- _objc_retain_x19
+Functions:
+~ +[AXHeartRhythmUIGlue accessibilityInitializeBundle] : 152 -> 148
+~ ___52+[AXHeartRhythmUIGlue accessibilityInitializeBundle]_block_invoke_2 : 100 -> 96
+~ ___52+[AXHeartRhythmUIGlue accessibilityInitializeBundle]_block_invoke_3 : 340 -> 332
+~ _accessibilityLocalizedString : sha256 5af5e743814a8bccc268d291917c60f3f1b23052641bcb8f1359f13f2f43b2c4 -> be201b7b0e7d093e2021463636cc6623fbdc38c1f18265ebf3e59dd453af4daf
+~ _localizedString : 192 -> 188
+~ _accessibilityAntimonyLocalizedString : sha256 57dd675270257c7ce79976b6ea23e4004078ccd497b47ff4ba0e7781c7661669 -> e7213079721fdaf02a0f5e46bbfb972c5749b8ebc6ce4d886ab8aad3e572eec1
+~ _accessibilityHealthCinnamonLocalizedString : 164 -> 156
+~ +[HRMetadataEducationTableViewCellAccessibility(SafeCategory) safeCategoryTargetClassName] : sha256 565167deb8b2e3490b27b7e276c8a4a8ceda2e2c79974947a4cad5e11a7d42ff -> f384ecbf19f9b7b3498d7de997d9ee92772ef162d87d48da692aacd4707b6bd1
+~ +[HRMetadataEducationTableViewCellAccessibility(SafeCategory) safeCategoryBaseClass] : sha256 260f363d5b671e6cd7b6e705613a3ef676db446e1da97d39be6ea5e8be5f16da -> dcbe8cd74ff7cc8888a600f92039a6e358c8fbc51a7cccb9412608ae085cc3e5
+~ +[HRMetadataEducationTableViewCellAccessibility _accessibilityPerformValidations:] : 160 -> 152
+~ -[HRMetadataEducationTableViewCellAccessibility _accessibilityLoadAccessibilityInformation] : 128 -> 124
+~ -[HRMetadataEducationTableViewCellAccessibility accessibilityElements] : 240 -> 220
+~ -[HRMetadataEducationTableViewCellAccessibility _setUpUI] : sha256 45cbf62d58bfc841354a3b517df990b2378bf922d85db3922ef98709bafc5fee -> 15cec7febd0f295fffa52f8c2a9b8d30e68f813dda3bcff40892c05f295a12cf
+~ +[HROnboardingWristImageViewAccessibility(SafeCategory) safeCategoryTargetClassName] : sha256 f7f263971ab09943d8fe322f0336992db0efbb2e186de930505fe1c9eaa57b05 -> 4e0dd872b599435f38be49e286bae10252859dfbf64db70f9137fe2a048f60ab
+~ +[HROnboardingWristImageViewAccessibility(SafeCategory) safeCategoryBaseClass] : sha256 89e95ecbc34b5fccdcdcfad2cbcb389aebf48a45bad4f716036778e0fa279fef -> c3ab3481bb945d3c707157f7445fec94a95adbf94fed1cdfcf0ce39d861bfb8e
+~ -[HROnboardingWristImageViewAccessibility accessibilityLabel] : sha256 6ee046e23b12052243fbe42a9abe5ad26d207398588e545c39c3143945c8de14 -> 0ade4ad075be8282ea51e68c81e219e16c1e9c3e55146f43fc032752411b61d7
+~ -[HROnboardingWristImageViewAccessibility accessibilityTraits] : sha256 305cc84e62d763aa870abc845dba548b0f4afca4b9ac5a29e7e2af1860c5d9b3 -> 7c6ec705859c7697109dada900c098c6cc8fdf5cbf7cc08458b864d102c327e5
+~ +[HROnboardingElectrocardiogramTakeRecordingViewControllerAccessibility(SafeCategory) safeCategoryTargetClassName] : sha256 02ac6b60f165706a6175704fd120acce1db34f7ba1316e2dad34ae38911b761e -> 4566c9c7ca9ffdef9a1395ee0d79d8312fe55502e5e14dbe297d618d2e81956b
+~ +[HROnboardingElectrocardiogramTakeRecordingViewControllerAccessibility(SafeCategory) safeCategoryBaseClass] : sha256 d8b1a1109324ee8f24ca582f663447bd71a8333200e2d6a1407d31d584315b23 -> 1677a544ed298cb59e3278d905c1393d982f04d6c35e5d8f9f9a4591801abb79
+~ +[HROnboardingElectrocardiogramTakeRecordingViewControllerAccessibility _accessibilityPerformValidations:] : sha256 1ac6ce282c6c2c4d4b8040cdb08d44ad8323c234d5154f7b0e1a7dc26b5a2da6 -> 0460515820e43c5ddf995f9cabb556a2e6045c4796c2831c8760f75aa24c7a6c
+~ -[HROnboardingElectrocardiogramTakeRecordingViewControllerAccessibility _accessibilityLoadAccessibilityInformation] : 128 -> 124
+~ +[HROnboardingElectrocardiogramResultViewAccessibility(SafeCategory) safeCategoryTargetClassName] : sha256 9796e1ea91fe264947440e6e62e1b15e1b9c589f9180a9fd199582faeed403ab -> 691c97ef01a64f9e5ead036fdfa41ef3e99232c48879bce256184a1a817bbc2a
+~ +[HROnboardingElectrocardiogramResultViewAccessibility(SafeCategory) safeCategoryBaseClass] : sha256 c9623b8e89d45d3e8fe9ef89657cb73dd58bb607f958b0df33f0c533d7837f1a -> 737eeb263addce2417931a29fefcdb3ce8ce73b39535a8133397d1b0402866a8
+~ +[HROnboardingElectrocardiogramResultViewAccessibility _accessibilityPerformValidations:] : 204 -> 192
+~ -[HROnboardingElectrocardiogramResultViewAccessibility _accessibilityLoadAccessibilityInformation] : 128 -> 124
+~ -[HROnboardingElectrocardiogramResultViewAccessibility _updateExpandedViewState] : 144 -> 140
+~ +[HROnboardingElectrocardiogramPossibleResultsViewControllerAccessibility(SafeCategory) safeCategoryTargetClassName] : sha256 769b971e6cbbb741b5612631eb8ddae49458ecdf54e2afff33ccd64fa4c9e645 -> 905081e15deda0eb2e5b630f4e5d0d090a0b149dcd5de0c640516b2fdcfe91d2
+~ +[HROnboardingElectrocardiogramPossibleResultsViewControllerAccessibility(SafeCategory) safeCategoryBaseClass] : sha256 5945233e645ec9b63cd237296f9983743da081d8ea0b0a247ae422501833c5be -> ce2d0a07b0acf311859ae1712ff9d4bc9eed3c09a4e7eedcad799a92726bedc7
+~ +[HROnboardingElectrocardiogramPossibleResultsViewControllerAccessibility _accessibilityPerformValidations:] : sha256 d8236282536c77181628b15fcc99ec62447b041da40c1513d85bb99aba5a81a1 -> b7769be486735da4fffe4e36939776df74c0be70431f4153d080b75952f6c6bd
+~ -[HROnboardingElectrocardiogramPossibleResultsViewControllerAccessibility _accessibilityLoadAccessibilityInformation] : 128 -> 124
+~ +[HROnboardingElectrocardiogramAvailabilityViewControllerAccessibility(SafeCategory) safeCategoryTargetClassName] : sha256 21f5e9b4cc9bb3cac03bca3c1c1605e494dcfc21a9909512ce8d41c67f4faf7e -> 40832611b03edb89c934a0e65bfa4fe513ee7477de85a6d06f2c5e0d4f86e45e
+~ +[HROnboardingElectrocardiogramAvailabilityViewControllerAccessibility(SafeCategory) safeCategoryBaseClass] : sha256 5bcab846a9d8867ee0eca76508abc25c7f667a2645affb1819649e39d668b157 -> 7816f21cb55da5ba58ac781dbb6d56941790d5f42819658c04c9249b2e99424d
+~ +[HROnboardingElectrocardiogramAvailabilityViewControllerAccessibility _accessibilityPerformValidations:] : 140 -> 128
+~ -[HROnboardingElectrocardiogramAvailabilityViewControllerAccessibility _accessibilityLoadAccessibilityInformation] : 248 -> 236
+~ +[HRAtrialFibrillationDataTypeDescriptionCellAccessibility(SafeCategory) safeCategoryTargetClassName] : sha256 ec54860b2b3185c4e0355ac6a74b473af99e0cc491a2d6e3d5f0340209dccbd6 -> ef562ea9e07a80ced21c9424f5dffbbafdfb3494ad2e6a3ad74c69fb14f0f7d8
+~ +[HRAtrialFibrillationDataTypeDescriptionCellAccessibility(SafeCategory) safeCategoryBaseClass] : sha256 48f1a42f4c92089fa1a9f62bfb218faaf07f768cffb74abb1bb59d6b529f16cd -> 47fb8ecc25b725c80ddb97b7d87a4509f5178c332ea15f04e117a4713da9e482
+~ +[HRAtrialFibrillationDataTypeDescriptionCellAccessibility _accessibilityPerformValidations:] : 164 -> 156
+~ -[HRAtrialFibrillationDataTypeDescriptionCellAccessibility _accessibilityLoadAccessibilityInformation] : 148 -> 140
+~ -[HRAtrialFibrillationDataTypeDescriptionCellAccessibility _setupDescriptionTextView] : sha256 ed8e4453d3b4dc8ddfee89cb14d6ce2fbd8cc7b5de043d5e87451836cfc32f6b -> ccaf1bc905f6b6ca8b4d357dcbe835d3bbd7046f3b90c9f3416e312616101178
+~ +[HRAtrialFibrillationIntroViewControllerAccessibility(SafeCategory) safeCategoryTargetClassName] : sha256 3adfcb9ec66a9f733157ae94f1524b58d65ebf1518b9bac75335866140642a15 -> a8cd6211818253627afd4ed8ac91befd0a1349274fefe8bd1c301b519e8cc3e0
+~ +[HRAtrialFibrillationIntroViewControllerAccessibility(SafeCategory) safeCategoryBaseClass] : sha256 f1f4ef18de5571ba255619bc1e042483f997aa276ab1e777a3ad5aa477edfad5 -> 37f58c5869527f1518067060a44307079b47ebf835215ddf5a20bd996a4df5bc
+~ +[HRAtrialFibrillationIntroViewControllerAccessibility _accessibilityPerformValidations:] : 140 -> 128
+~ -[HRAtrialFibrillationIntroViewControllerAccessibility _accessibilityLoadAccessibilityInformation] : 212 -> 204
+~ -[HRAtrialFibrillationIntroViewControllerAccessibility setUpUI] : sha256 c3cb7a8db7587e3ea6dad05dc8cf66d2a8431388478946581533112fe860bc3e -> 7aa5ac67dc8ba9ae877b4be0126e2d6874fc734cbf67759bf9450c4166fbb905
+~ +[HROnboardingAtrialFibrillationEnableViewControllerAccessibility(SafeCategory) safeCategoryTargetClassName] : sha256 9fb0b4f0ccb7980b3aefa36268c69522d95100ac88a92304819692eaeb7bf57c -> 5fffdfcc2f76c6b277337967cb8498ebd40d0329673ef65860f83dfb086fdddc
+~ +[HROnboardingAtrialFibrillationEnableViewControllerAccessibility(SafeCategory) safeCategoryBaseClass] : sha256 305312c22d6b4833f8e826623d755f1d09cbca162322259846a235672e0554c8 -> 0f6faf1a2c26a461ab45189477073158024db5b4ff160a8d55dfce653935f696
+~ +[HROnboardingAtrialFibrillationEnableViewControllerAccessibility _accessibilityPerformValidations:] : sha256 8cdd1ee6c21fbe8e82f15e391c541633264a057263c7b70a8d2f0f923a681260 -> 5e59698c87bab6cc739a4791cfe36c628dc9642500e6cc4a136343c7643d947c
+~ -[HROnboardingAtrialFibrillationEnableViewControllerAccessibility _accessibilityLoadAccessibilityInformation] : 212 -> 204
+~ +[HRSpeedBumpViewControllerAccessibility(SafeCategory) safeCategoryTargetClassName] : sha256 4fb80d865b2b9fb126650ece51d22d63074b29f56d015d669c82ae4c8c86af06 -> 68921dc59193a4d939ec4d45d0f5a6fa896dc37fcfa94a4bbe4dc7ee3d9be396
+~ +[HRSpeedBumpViewControllerAccessibility(SafeCategory) safeCategoryBaseClass] : sha256 0d16cc7f04ef61598ecb94ec01c057b24928bbf6a4abd7c52ae864f7a06705a2 -> 1309d1aa57e49c83a678c857f9730dda770ff200b884896c52343f713ffeb2b0
+~ +[HRSpeedBumpViewControllerAccessibility _accessibilityPerformValidations:] : 120 -> 112
+~ -[HRSpeedBumpViewControllerAccessibility _accessibilityLoadAccessibilityInformation] : 128 -> 124
+~ +[HROnboardingAtrialFibrillationGateViewControllerAccessibility(SafeCategory) safeCategoryTargetClassName] : sha256 0c2e1b5665a5162070830620b07e497eb9d5ec57133af385c935b11b0c9f0708 -> edeee32c0ebd6343fdb3a08a172d3c0a6c39d64d364526c8b7481caaec419522
+~ +[HROnboardingAtrialFibrillationGateViewControllerAccessibility(SafeCategory) safeCategoryBaseClass] : sha256 7f4f97f6c27b6a5838825d05927e3ca431dbf5d3c94fa4a168c6b5555c50c4b5 -> 6706adbb387f63a3b4e75551af86b23d137e78a3163df303a72d30ced3864e9b
+~ +[HROnboardingAtrialFibrillationGateViewControllerAccessibility _accessibilityPerformValidations:] : sha256 1a5ef22676ab3beefe58f4e99601a770d42b9c123c72f02506a4743b7d604535 -> 54fa8f026ceddd881313b34c5d7aefb985376603ac4525ee62712081177c3270
+~ -[HROnboardingAtrialFibrillationGateViewControllerAccessibility _accessibilityLoadAccessibilityInformation] : sha256 e2ebae361d1f0bb035ff09b94daefbc693201c884c97d542217c5d6cfcc7ff96 -> a82958fa3fc835ea8ce96cdc9fd6990af5707421ab9c45197cec7426758001c2
+~ -[HROnboardingAtrialFibrillationGateViewControllerAccessibility _axSetupSelectionRow:expectedResult:] : sha256 692d4f6754606f2dd72d50f4d6dc2cd3908a2f825a9de04d3bf4819ea54c5d60 -> 5b4f1a3525a4ebf6782c7365a23a795d9daf3baebf08bfeea11f463651cd6380
+~ ___101-[HROnboardingAtrialFibrillationGateViewControllerAccessibility _axSetupSelectionRow:expectedResult:]_block_invoke : 80 -> 76
+~ ___101-[HROnboardingAtrialFibrillationGateViewControllerAccessibility _axSetupSelectionRow:expectedResult:]_block_invoke_2 : 220 -> 212
+~ +[HROnboardingBulletPointViewControllerAccessibility(SafeCategory) safeCategoryTargetClassName] : sha256 31ee95c2508e286a8311f87073c3181d72f313020b0747ee2f7347717c3ee55c -> 56e526f8d3d7dd097b731a53555f452c590ba6969b3f8984ef2af05a09fc91b8
+~ +[HROnboardingBulletPointViewControllerAccessibility(SafeCategory) safeCategoryBaseClass] : sha256 4d9c4a5d5baf9e4d03ac14b3daef8df30602a269f539cde298aa50d344270076 -> fbe4af92fcd998aecab8063650d8204f21a9c966c1f70fb828129ad92f11d3b6
+~ +[HROnboardingBulletPointViewControllerAccessibility _accessibilityPerformValidations:] : sha256 09614be521e3043a92f16bf14b842db728d1e94bb7ea1f0cc9e105a085a53797 -> b6723f39a06402e48371fb52d56ff84cf4b95c3fe441df0ebae1c256f9dabf73
+~ -[HROnboardingBulletPointViewControllerAccessibility _accessibilityLoadAccessibilityInformation] : 212 -> 204
+~ +[HROnboardingHeroExplanationViewControllerAccessibility(SafeCategory) safeCategoryTargetClassName] : sha256 d9d629d9aeadb1481ba6af18477137b83c7664d11b99ba5ab0372dceaf2b8343 -> 28ee3ad1194cbc7364d61ecc0cf8bcde800cf5bb9aa563f8b0672190f7cebd76
+~ +[HROnboardingHeroExplanationViewControllerAccessibility(SafeCategory) safeCategoryBaseClass] : sha256 1f27f17628d9e0b399d6ab9546e6d74f959784c2ee89a7aa4d067733bca5a43d -> f7c38c110ad29153004862d4e374a5eff3874970bacc8e3100452712c38095f4
+~ +[HROnboardingHeroExplanationViewControllerAccessibility _accessibilityPerformValidations:] : sha256 51fe13844687372d4fc7d8f3871178236ff0abe8f506f49087e8ccaf72d30fa5 -> d5432c912d9679f3d94e12ca033267dd428501f53ac3b684e048b3780ba40199
+~ -[HROnboardingHeroExplanationViewControllerAccessibility _accessibilityLoadAccessibilityInformation] : 212 -> 204
+~ +[HRSimulatedAtrialFibrillationNotificationViewAccessibility(SafeCategory) safeCategoryTargetClassName] : sha256 16e08138e7c619699a103c21c883b6713d8939906ebe9ae7225f1db0e68f6e03 -> 2660f71b97860285cd3cc48cd18aa72a8e7a900d0bd1f993be773e77331fbb13
+~ +[HRSimulatedAtrialFibrillationNotificationViewAccessibility(SafeCategory) safeCategoryBaseClass] : sha256 2c2e346b4fafbb3c4ac85e46e9e7330fd35e2f9074db29790ac81f2d505fc7b0 -> 1fa357a77420ea7a5b5ff45bd761908736947413de40e476be1a4cf22c7105cd
+~ -[HRSimulatedAtrialFibrillationNotificationViewAccessibility accessibilityLabel] : 12 -> 20
+~ -[HRSimulatedAtrialFibrillationNotificationViewAccessibility accessibilityTraits] : sha256 db4a5021f641b454f3dd4eeb94bacd39ced6dc2af7639e62d83c508d27743b43 -> c851b0ecc4fd26e91f13f4c65064a1bf7b75cb97409a27a18f779a320655e696
+CStrings:
+- "#16@0:8"
+- "@16@0:8"
+- "AXHeartRhythmUIGlue"
+- "B16@0:8"
+- "Q16@0:8"
+- "SafeCategory"
+- "__HRAtrialFibrillationDataTypeDescriptionCellAccessibility_super"
+- "__HRAtrialFibrillationIntroViewControllerAccessibility_super"
+- "__HRMetadataEducationTableViewCellAccessibility_super"
+- "__HROnboardingAtrialFibrillationEnableViewControllerAccessibility_super"
+- "__HROnboardingAtrialFibrillationGateViewControllerAccessibility_super"
+- "__HROnboardingBulletPointViewControllerAccessibility_super"
+- "__HROnboardingElectrocardiogramAvailabilityViewControllerAccessibility_super"
+- "__HROnboardingElectrocardiogramPossibleResultsViewControllerAccessibility_super"
+- "__HROnboardingElectrocardiogramResultViewAccessibility_super"
+- "__HROnboardingElectrocardiogramTakeRecordingViewControllerAccessibility_super"
+- "__HROnboardingHeroExplanationViewControllerAccessibility_super"
+- "__HROnboardingWristImageViewAccessibility_super"
+- "__HRSimulatedAtrialFibrillationNotificationViewAccessibility_super"
+- "__HRSpeedBumpViewControllerAccessibility_super"
+- "_accessibilityLoadAccessibilityInformation"
+- "_accessibilityPerformValidations:"
+- "_accessibilitySetTextViewShouldBreakUpParagraphs:"
+- "_accessibleSubviews"
+- "_axSetupSelectionRow:expectedResult:"
+- "_setAccessibilityLabelBlock:"
+- "_setAccessibilityTraitsBlock:"
+- "accessibilityBundleWithLastPathComponent:"
+- "accessibilityElements"
+- "accessibilityInitializeBundle"
+- "accessibilityLabel"
+- "accessibilityTraits"
+- "boolValue"
+- "bundleForClass:"
+- "contentView"
+- "init"
+- "installSafeCategory:canInteractWithTargetClass:"
+- "isAccessibilityElement"
+- "localizedStringForKey:value:table:"
+- "performValidations:withPreValidationHandler:postValidationHandler:safeCategoryInstallationHandler:"
+- "safeBoolForKey:"
+- "safeCategoryBaseClass"
+- "safeCategoryTargetClassName"
+- "safeValueForKey:"
+- "setAccessibilityLabel:"
+- "setAccessibilityTraits:"
+- "setDebugBuild:"
+- "setIsAccessibilityElement:"
+- "setOverrideProcessName:"
+- "setValidationTargetName:"
+- "sharedInstance"
+- "v16@0:8"
+- "v24@0:8@16"
+- "v28@0:8@16B24"
+- "validateClass:"
+- "validateClass:hasInstanceMethod:withFullSignature:"
+- "validateClass:hasInstanceVariable:withType:"
+- "validateClass:isKindOfClass:"
+
+```

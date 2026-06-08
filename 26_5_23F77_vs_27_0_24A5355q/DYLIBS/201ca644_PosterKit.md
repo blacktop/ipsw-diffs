@@ -1,0 +1,517 @@
+## PosterKit
+
+> `/System/Library/AccessibilityBundles/PosterKit.axbundle/PosterKit`
+
+```diff
+
+-3005.28.0.0.0
+-  __TEXT.__text: 0x76a8 sha256:2f59269dd29df0fe912c885392af7dd88508d53dbf6add865069c6cbf8654308
+-  __TEXT.__auth_stubs: 0x380 sha256:167fa7d708c76ae27db6597113f283613dca5b1c2fc88401a9b7e047223c3f52
+-  __TEXT.__objc_methlist: 0xbfc sha256:7d7021c838192ec87fb53729e7c21a7e0b7718e7e5a690ec66de483d05cab01c
+-  __TEXT.__cstring: 0x1b5b sha256:71019aa411269b120a0fe2890816713f8f477fc2cd3facabe21962e1d28b5b15
++3036.2.0.0.0
++  __TEXT.__text: 0x7154 sha256:a958fa8a01b0e4d73ae93265acbbca8bba484d99bf78b69c276deb2d18b07728
++  __TEXT.__objc_methlist: 0xbfc sha256:28b5b3c1fecbe39d56cd4b77218c94dec95cb1d59b953496135d348233450e93
+   __TEXT.__const: 0x28 sha256:55f3d379f4adf3fc1f0ab5244ac20a2274cce61184f5cb92fc0bf31e57bbdbe2
+-  __TEXT.__gcc_except_tab: 0x218 sha256:cec54cc82252046ad69d831b3e41c3936c1b7b6272354ad615463e83e036fe38
+-  __TEXT.__unwind_info: 0x318 sha256:0a0382e8d73ff9e249ca302fa49f5f45d39c984382a138dd434c8f030d767c60
+-  __TEXT.__objc_classname: 0xc29 sha256:0fa8251098071fa1658c78157bfa3f6433f70c19c12c7d4d480eb33f6269054c
+-  __TEXT.__objc_methname: 0xf09 sha256:0c7fdded3fe3ed928fd1f6e2b438ee940fdf851ace91805ba179ca8c31f1a4db
+-  __TEXT.__objc_methtype: 0x62 sha256:f31639b98c57647b601c4d9d2a33dab5161e03287b6c784985e4c8d34f885f1d
+-  __TEXT.__objc_stubs: 0x10e0 sha256:8b5090c61df387de5c123d0fbfb9905dccb2c32cc04c2ea1972703841818a19d
+-  __DATA_CONST.__got: 0x100 sha256:2561b3b4b127f00cee9e154bb627940683167b49a30355473f835e144b501e00
+-  __DATA_CONST.__const: 0x300 sha256:90fd5c6cdc04ed8cbdf01de3f5906daf6be9c903b2a95b3b2638af1bc718edff
+-  __DATA_CONST.__objc_classlist: 0x208 sha256:c36d7b9db3fe84f388287355de3cac7ee35b31ef3d8714244a8a3ed4a3e8a8bb
++  __TEXT.__gcc_except_tab: 0x214 sha256:4b0aacbda0f07d4f8ed9dbe35f2886718d698e3e578ae8bf00d141c0faf465ca
++  __TEXT.__cstring: 0x1b5b sha256:10287111d6853e5f7085e96297b24cdb2732c19000719675f0baf240b83e27f2
++  __TEXT.__unwind_info: 0x318 sha256:9c31d2af8316f85f84df6c54656ff2744fe497ce6b660f6d9f78c80b3e895a5a
++  __TEXT.__objc_stubs: 0x0
++  __TEXT.__auth_stubs: 0x0
++  __TEXT.__objc_classname: 0x0
++  __TEXT.__objc_methname: 0x0
++  __TEXT.__objc_methtype: 0x0
++  __DATA_CONST.__const: 0x300 sha256:c50dd1590ff01d8ccc808d81ad8e0a2a666a62505ada692650c4adcd13eed998
++  __DATA_CONST.__objc_classlist: 0x208 sha256:02910b6e65e8e88fe6d9a1514328c489fcf15ed193bd5f732ed64a60eedf6293
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x518 sha256:0a6ab2b25d9855e41c19f72b6a066cc1170c66d78ccb17e4c8d69dcb3652c1a5
+-  __DATA_CONST.__objc_superrefs: 0x98 sha256:0c01cfad9c6915ce67f56d6e7a67893aef263b801b663fb95e29d6d296a4cabf
+-  __AUTH_CONST.__auth_got: 0x1d0 sha256:7c4c2b940c41426e36a4cf6c83afababacfb8bb1a1dc39162a95bb812e1d109f
+-  __AUTH_CONST.__const: 0x80 sha256:f33e428ee97621a21d061a593569f819e0fdb0dfd811ceb3acf080db97296643
+-  __AUTH_CONST.__cfstring: 0x2180 sha256:5e3992aee040f7574b583bf3185da4ac74343a4d151c80d6aafa61b2f49c3431
+-  __AUTH_CONST.__objc_const: 0x2490 sha256:a6c9386a6554ffd5cfaa958b38e3e1640544114ec1df638600bd933108defc58
+-  __AUTH.__objc_data: 0x140 sha256:01350b85416d2987b6f57544dda8c66ebb86754265c898bff0bdcc19294a5801
+-  __DATA.__bss: 0x13 sha256:d6fd62f5ce537d90ea3ea45841b17f34d727bcbc4128748cba14fb87c0ffd9d1
+-  __DATA_DIRTY.__objc_data: 0x1310 sha256:6a151c422cdf203a393bd289339a94c9479bd951636fb7a1972e75f291487467
++  __DATA_CONST.__objc_selrefs: 0x518 sha256:87dc4a996c44448aab49588cdfdb472dc9eb9f7691a941d3881dcfdebafbac66
++  __DATA_CONST.__objc_superrefs: 0x98 sha256:239a9adea9792e3dd6f82e271c76a7a574c37e6fd2092c0a65f9208f924db12f
++  __DATA_CONST.__got: 0x100 sha256:e8901bc4b8a3be42334caef8fdc7b38151952c6c04ed925aabdc3d09c04aef5f
++  __AUTH_CONST.__const: 0x80 sha256:bf0ec5ec6e797a12839a7504b203608810f533e1a6c61a310acd26230678250e
++  __AUTH_CONST.__cfstring: 0x2180 sha256:0d06f5edd0441802c4fa8e9f011d6e95de88625a3a2df8412ca5198c0d04582a
++  __AUTH_CONST.__objc_const: 0x2490 sha256:e9bbdc2b11c0fdea5036d14f5e53c0233f82f97a1a54ce15576dc01f11d31764
++  __AUTH_CONST.__auth_got: 0x0
++  __AUTH.__objc_data: 0x140 sha256:5aa8872aa44ac01155685f2514433643820fcc89bba2b84b36284517a557488e
++  __DATA.__bss: 0x21 sha256:7f9c9e31ac8256ca2f258583df262dbc7d6f68f2a03043d5c99a4ae5a7396ce9
++  __DATA_DIRTY.__objc_data: 0x1310 sha256:d01804bbbac9a71a64d9d1e17d39e4a187b0cd1f09570eec60dcd80e6e2833be
+   __DATA_DIRTY.__bss: 0x10 sha256:374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb
+   - /System/Library/Frameworks/Accessibility.framework/Accessibility
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+
+   - /usr/lib/libAXSafeCategoryBundle.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 48ED3DD2-85EA-3B50-B0C4-8A210769976F
+-  Functions: 235
+-  Symbols:   1065
+-  CStrings:  791
++  UUID: C38D7EEB-ED6F-3461-9ADF-B53A797F293F
++  Functions: 234
++  Symbols:   1066
++  CStrings:  552
+ 
+Symbols:
++ GCC_except_table13
++ GCC_except_table134
++ GCC_except_table136
++ GCC_except_table18
++ GCC_except_table22
++ GCC_except_table23
++ GCC_except_table24
++ GCC_except_table27
++ GCC_except_table68
++ GCC_except_table70
++ GCC_except_table93
++ ___PRInlineComplicationContainerViewControllerAccessibility___accessibilityGetRemoteElement.1176
++ ___block_literal_global.457
++ ___block_literal_global.466
++ ___block_literal_global.878
++ _objc_claimAutoreleasedReturnValue
++ _objc_retain_x1
++ _objc_retain_x2
++ _objc_retain_x24
++ _objc_retain_x25
++ _objc_retain_x8
+- -[AXRemoteElementAccessibility__PosterKit__AXRuntime _accessibilityShouldHitTestRemoteElementProcess].cold.1
+- GCC_except_table11
+- GCC_except_table12
+- GCC_except_table19
+- GCC_except_table20
+- GCC_except_table4
+- GCC_except_table5
+- GCC_except_table8
+- GCC_except_table9
+- ___block_literal_global.436
+- ___block_literal_global.445
+- _objc_retainAutoreleasedReturnValue
+- _objc_retain_x21
+- _objc_retain_x27
+Functions:
+~ +[AXPosterKitGlue accessibilityInitializeBundle] : 152 -> 148
+~ ___48+[AXPosterKitGlue accessibilityInitializeBundle]_block_invoke : 608 -> 604
+~ ___48+[AXPosterKitGlue accessibilityInitializeBundle]_block_invoke_2 : 100 -> 96
+~ ___48+[AXPosterKitGlue accessibilityInitializeBundle]_block_invoke_3 : 700 -> 692
+~ _accessibilityLocalizedString : 184 -> 176
+~ +[PREditingCloseBoxButtonAccessibility(SafeCategory) safeCategoryTargetClassName] : sha256 c7bc03084d0c8bb1369c01fd1bba925167f00dd7a8f002de339894fc38fd74e1 -> c3dc35b309f72d19cf2494ba98936bd2932ff4b0365b96b1c4d650a6833cf386
+~ +[PREditingCloseBoxButtonAccessibility(SafeCategory) safeCategoryBaseClass] : sha256 5fd06bdc90837a73078d67b5969160fce8591445acef7726b4653c454d780f4d -> e392da8a75e924ab7d11ca2a49498f5430c62c4725c551e9495068423a3a450e
+~ +[PREditingCloseBoxButtonAccessibility _accessibilityPerformValidations:] : 92 -> 84
+~ -[PREditingCloseBoxButtonAccessibility accessibilityLabel] : 192 -> 180
+~ +[PRQuickActionEditingViewControllerAccessibility(SafeCategory) safeCategoryTargetClassName] : sha256 a30a87fbff1d2036990efa9134b0c61465f51e1a306daf6f4ef759bd6e76789e -> 9052d1b3834b8fb9ecfdca1cec04eb840cca2783272e09063adfbd8ad56e5b59
+~ +[PRQuickActionEditingViewControllerAccessibility(SafeCategory) safeCategoryBaseClass] : sha256 c3f680a0c98bd6e78132d30617a4241351d98b1cf40d4be667fc7f68ab16dbe3 -> d543f40fc82c419131813e5d324457917853ca0444f7b31b5bdf3baf26618937
+~ +[PRQuickActionEditingViewControllerAccessibility _accessibilityPerformValidations:] : 396 -> 388
+~ -[PRQuickActionEditingViewControllerAccessibility _accessibilityLoadAccessibilityInformation] : sha256 778368bde6285fc0ff802e05f709f063d55895e502ec3f8b492571fbd7863b72 -> 409d6fe7ba3680d6ada941029d77683b3453caf5c40924edb2385f0efe4f6e83
+~ -[PRQuickActionEditingViewControllerAccessibility _updateButtonsVisibility] : sha256 5801f7ac6a70661ea925d0a97f97410d8b040f55c63676d7905e8d98cfdb61e9 -> fa8fe686c67201b020a7f12ca182b869b0b51bbbe8b96a7daeca9f624ccd751a
+~ -[PRQuickActionEditingViewControllerAccessibility _accessibilityMarkupButtons] : 1452 -> 1424
+~ ___78-[PRQuickActionEditingViewControllerAccessibility _accessibilityMarkupButtons]_block_invoke : 84 -> 80
+~ ___78-[PRQuickActionEditingViewControllerAccessibility _accessibilityMarkupButtons]_block_invoke_2 : 164 -> 148
+~ ___78-[PRQuickActionEditingViewControllerAccessibility _accessibilityMarkupButtons]_block_invoke_3 : 348 -> 312
+~ ___78-[PRQuickActionEditingViewControllerAccessibility _accessibilityMarkupButtons]_block_invoke_4 : sha256 e5c8b15e94e5dcb0954e47e639144b3ead32e88fabf5e3baf98e0abbca5b7372 -> c7806bbacfe3ac1836d2d875a192bd42cbdc5c490aae78e85c3f579c2b2f22b7
+~ ___78-[PRQuickActionEditingViewControllerAccessibility _accessibilityMarkupButtons]_block_invoke_5 : sha256 ec8ab27013f48b88db71e67b177c7fae6785bbc1de863e58985db00819e7c0a6 -> 45ac40821f8816a2b3ec961de1661d082c3b9b22c2ab6889a162df6007905762
+~ ___78-[PRQuickActionEditingViewControllerAccessibility _accessibilityMarkupButtons]_block_invoke_6 : 372 -> 364
+~ ___78-[PRQuickActionEditingViewControllerAccessibility _accessibilityMarkupButtons]_block_invoke_7 : sha256 c1a0d3ed77542c4e640255651fc2dbe4f195deb58237f7919e09b4e3b3d38324 -> 932b78d3231e0bfd93728d61202570d1f8793f1dd83a2efe77621b5a8ca5718e
+~ ___78-[PRQuickActionEditingViewControllerAccessibility _accessibilityMarkupButtons]_block_invoke_8 : sha256 1f1ae580f218b0edeb40169e3636268864b6abc1eb72cb789ad794f3ae8092e9 -> 9f32e6410ec2b67fff8a1219fc92600c635d55c9041ef9d457ea8df0f77c6217
+~ ___78-[PRQuickActionEditingViewControllerAccessibility _accessibilityMarkupButtons]_block_invoke_9 : 84 -> 80
+~ ___78-[PRQuickActionEditingViewControllerAccessibility _accessibilityMarkupButtons]_block_invoke_10 : 164 -> 148
+~ ___78-[PRQuickActionEditingViewControllerAccessibility _accessibilityMarkupButtons]_block_invoke_11 : 348 -> 312
+~ ___78-[PRQuickActionEditingViewControllerAccessibility _accessibilityMarkupButtons]_block_invoke_12 : sha256 976918e4c052360cfa813836d1da2dc4ef34431af601a8d936989fc2fb6d57ee -> 1d51ea668477690b75d0a175917e7894e7ddb5f1469e67bf01967a1cd1bc9111
+~ ___78-[PRQuickActionEditingViewControllerAccessibility _accessibilityMarkupButtons]_block_invoke_13 : sha256 6061092e16dd7391f84fd99eeeefaed61a491638cebc255064935209171a00ee -> 52ec91b36d0a9dc9ae130df1fb227ca559595c79c1676ccae31d5a78ad67e292
+~ ___78-[PRQuickActionEditingViewControllerAccessibility _accessibilityMarkupButtons]_block_invoke_14 : 372 -> 364
+~ ___78-[PRQuickActionEditingViewControllerAccessibility _accessibilityMarkupButtons]_block_invoke_15 : sha256 209e9292571b585f63aadc35171cd8c075d502037bfab3bdf9777e78ed4c64d8 -> 10ab3ccf00a9d5cfbeddd74b0c084c54c8f67891f64825bfeaef542e00ba5021
+~ ___78-[PRQuickActionEditingViewControllerAccessibility _accessibilityMarkupButtons]_block_invoke_16 : sha256 c12fd81287653c2afc47007ed299f842edf7f1677ed48531f7bd427cc8c44c92 -> 73746e2f7f423733ea9e1fdfd49b6cb767aff4fce972388503fedae65499c7a7
+~ -[PRQuickActionEditingViewControllerAccessibility _accessibilityProminentButtonsView] : 168 -> 160
+~ -[PRQuickActionEditingViewControllerAccessibility _accessibilityHasLeadingAction] : 64 -> 60
+~ -[PRQuickActionEditingViewControllerAccessibility _accessibilityHasTrailingAction] : 64 -> 60
+~ -[PRQuickActionEditingViewControllerAccessibility _axRemoveWidgetLabel:] : 560 -> 500
+~ +[PRSubviewHitTestingViewAccessibility(SafeCategory) safeCategoryTargetClassName] : sha256 22d4a101556d0108c8d1c0833f3fb9d54045bba66c0f02d1fe087fd2dccf6cad -> 9306ac82dd79e62ade371fd0a1dd7e7fc9bc43fe2f37d47116add140abc7e8a7
+~ +[PRSubviewHitTestingViewAccessibility(SafeCategory) safeCategoryBaseClass] : sha256 6450d0f1dfab06104363781c31469cdc190adb756086e389b50fbacb02b61dcc -> 7364a1d8404a321df1698cb4a63f637ea7068183802a71d69ddb323c2bd11bee
+~ +[PRSubviewHitTestingViewAccessibility _accessibilityPerformValidations:] : sha256 57351660634c451c03244a1976b4f095e00fa5be970c4a1071907504771f8bcd -> 1837452c6f19b9a23c70698a66e81752b5223c05d4d6928ee9d8aa39a77c9bf2
+~ -[PRSubviewHitTestingViewAccessibility automationElements] : 140 -> 132
+~ +[PREditingVariationSliderAccessibility(SafeCategory) safeCategoryTargetClassName] : sha256 27c74f6841da14fab9b97eed50371a4b96d82cdcc0b9a514f6ee690a364cd08b -> 559cdd0b306d20585c419f5b073447049d9005c52baec8d69005538dd23fdeb0
+~ +[PREditingVariationSliderAccessibility(SafeCategory) safeCategoryBaseClass] : sha256 ddf56d3075f55470384eb322bd1475d9f34c68802da5dd95e192ae63668f6166 -> e0d6ea47694a6dba1df06478c8386b9bdc1a86d15aa2fa689f1959d5cc45f1fc
+~ +[PREditingVariationSliderAccessibility _accessibilityPerformValidations:] : 140 -> 132
+~ -[PREditingVariationSliderAccessibility accessibilityLabel] : sha256 dee35f4e735b00060ad6e9f82dd4d5ca86aba94e6efdb4cc4de0af3083276121 -> 3522c1241b59b2fea5045e37e144713d2d5710765cad360d6b7159813889b352
+~ -[PREditingVariationSliderAccessibility accessibilityTraits] : sha256 c68f6a83ca862f7d84443ad543db398515bdf3bb158a101de829c7bea6667239 -> d2667948de9fa8738f1db5193a7830064ba97bb4a297814bdd8ee193c8934f6b
+~ -[PREditingVariationSliderAccessibility accessibilityIncrement] : sha256 68fe38279b87ee7b22463654a91a9672c18ff5b19ddb49130efe8e8823101579 -> 9cbae714fe0066969d191f30107f8df64187543dd2ce16d9437d5d03e0f9570d
+~ -[PREditingVariationSliderAccessibility accessibilityDecrement] : sha256 45a9fb9768198072d1631e565b3089d34abf2e85ed0316831099b9484357b905 -> e386e136c2bcdfd3aea6e5d971487706f1c27b4dc169b240fcd95ffa54cad237
+~ -[PREditingVariationSliderAccessibility accessibilityValue] : sha256 bd2594fbb2952d24f20a5639b745afc56f11737ec097a264cdfb65beb6adc351 -> 40d822a9460b03d5bbc2171df79d36bad382d726b9e72d1773c9d3d478a4d16f
+~ -[PREditingVariationSliderAccessibility _axAdjustSliderValue:] : 256 -> 252
+~ ___62-[PREditingVariationSliderAccessibility _axAdjustSliderValue:]_block_invoke : sha256 598509b282f4c278d80d822ac4cd8f91507f617098ae9957ab4e6358a632bf50 -> 08c82fe9e7f0d6f821763d2282900b058048857a8b350b88684c46baad03e9e4
+~ +[UIButtonAccessibility__PosterKit__UIKit(SafeCategory) safeCategoryTargetClassName] : sha256 0d1de4e92ff8f932f6526d2ec03dfd2edcf65ec6989bcf739d18876a9f3a25ca -> f686d5806b4ff554f8a9decbd679c4bd77d015b27fe37a58836b1263055e83cc
+~ +[UIButtonAccessibility__PosterKit__UIKit(SafeCategory) safeCategoryBaseClass] : sha256 0521938ab8bb75c7b572521f0dcf10849f90721523d8455a20ea61e9831f450e -> 4f60551ea44ba773bbe20318afecc810f048c98679990aaf2ca37d42637d57d2
+~ -[UIButtonAccessibility__PosterKit__UIKit accessibilityLabel] : 184 -> 176
+~ +[PREditingIncomingCallFontPickerCellViewAccessibility(SafeCategory) safeCategoryTargetClassName] : sha256 85d0d783b37c2c06020f321cfbe9a66263751afa7e6c76e3766a7bf7c9b11671 -> 0ab0267650d55083e321495d84ec527f360456a869a7097aad96e82d10ab4f35
+~ +[PREditingIncomingCallFontPickerCellViewAccessibility(SafeCategory) safeCategoryBaseClass] : sha256 c4cc6d335416abca61d7f7c62876d02a559c8ddb553158143c9e1a885817906e -> d2bb66d76013656f85a217efdc4570c0b4dc085118605e1c5f30bbd53ad91e5e
+~ +[PREditingIncomingCallFontPickerCellViewAccessibility _accessibilityPerformValidations:] : 128 -> 120
+~ -[PREditingIncomingCallFontPickerCellViewAccessibility accessibilityLabel] : 340 -> 308
+~ -[PREditingIncomingCallFontPickerCellViewAccessibility axFontWeight:] : 208 -> 200
+~ +[PRPosterWindowAccessibility(SafeCategory) safeCategoryTargetClassName] : sha256 3af656285c56fd077caaeba0993faf84a7ded915edcfc3d07228a64d9f51d525 -> 32a01ff3ac3d72b257f24db9619bc8ca65a3a42310e3d5870105f110554fdf64
+~ +[PRPosterWindowAccessibility(SafeCategory) safeCategoryBaseClass] : sha256 caa19ffe49370f3d08ea4c5778164ab92193e57e97943819f9c17dbe7518603b -> acb49a6091f212be6fca9a7a64dfce65b1900f2a1c28eaf63d77df4ca418066a
+~ +[PREditingPickerImageCellViewAccessibility(SafeCategory) safeCategoryTargetClassName] : sha256 b8964e1d2deb731e09a365c894505ee811d5b0a5a27845c85e1bbb2fd7543442 -> ef2d7d57d036254ca28f57175ba11d1e9852f8714bb822c4987b402468601f16
+~ +[PREditingPickerImageCellViewAccessibility(SafeCategory) safeCategoryBaseClass] : sha256 51bfd9ae61db1027252a5c4948471c1e9e1d80378d0fc99d116e56be8c2e7ddb -> 28059a96cccb01e2e34faa6684908d94237ea3402506eddb35f6d4d943f6484e
+~ +[PREditingPickerImageCellViewAccessibility _accessibilityPerformValidations:] : 204 -> 192
+~ -[PREditingPickerImageCellViewAccessibility accessibilityLabel] : 280 -> 256
+~ -[PREditingPickerImageCellViewAccessibility _axLabelForSymbolName:] : 276 -> 264
+~ +[PRWidgetIconViewControllerAccessibility(SafeCategory) safeCategoryTargetClassName] : sha256 866a81cc8f01539430eec7862608266ed926c7857a7208384aa63a8c67a7f7fa -> e45ed7acc9ab81cae49d59df374d1d8f97973129a71645b3dfd15481002a3335
+~ +[PRWidgetIconViewControllerAccessibility(SafeCategory) safeCategoryBaseClass] : sha256 ef66b29f5792eb19412cacab44aabb7ae64355e77907f654d5ad51dfb2a57189 -> 0efc68894be47a2ff733686dacbbfa56799c21ca038bdc5d108f985606589673
+~ +[PRWidgetIconViewControllerAccessibility _accessibilityPerformValidations:] : 348 -> 340
+~ -[PRWidgetIconViewControllerAccessibility viewDidLayoutSubviews] : sha256 696a789b66fb76bbbdb2cf6508245e8520ed1a16160fa34f7316b6d24cb9293b -> 2eb26a56fe5dafd835b830e23046a887b9acff33c273090c15a770f3119162ab
+~ -[PRWidgetIconViewControllerAccessibility _accessibilityLoadAccessibilityInformation] : sha256 fb068aa0e44477e4760498620a0a525f3bc143d69708877cbc373dfd904d3885 -> fe9a125a7b3ab0452a7fcde8b8d89af3d22b6f993e5791a967ceeea0be556db3
+~ -[PRWidgetIconViewControllerAccessibility _axSetWidgetView] : 940 -> 896
+~ ___59-[PRWidgetIconViewControllerAccessibility _axSetWidgetView]_block_invoke : sha256 8846bf8ef08c7bacc8ec55bb66581c29f2cce263c7e96546f45a8af52a32dc85 -> 334c0c1dd3a2bb74b104b49a435135b7b34919ffd5caed822302939cc79f9a15
+~ ___59-[PRWidgetIconViewControllerAccessibility _axSetWidgetView]_block_invoke_2 : 104 -> 100
+~ ___59-[PRWidgetIconViewControllerAccessibility _axSetWidgetView]_block_invoke_3 : sha256 bd36f2fe892349ab7fda431fb1bed3cb227b37ef9a502987d0305c2375710199 -> bc2f1d2e2d9b36549fecb43930e469c5ce3f4ab26c3861778ed4e21a9b99db63
+~ ___59-[PRWidgetIconViewControllerAccessibility _axSetWidgetView]_block_invoke_4 : sha256 9255caab032421db5bed30e4a05efb0747db0ebe4b11ef3cbb338d4d5314395c -> 0b3bc8857f618d0fad722f0151f156361966afce27618292b8d39972c8c5cb96
+~ +[PRInlineComplicationContainerViewControllerAccessibility(SafeCategory) safeCategoryTargetClassName] : sha256 738468f6964155cc566ac72fb80a1b8c307f7d75affab4abe657c02ea1f218d2 -> 0a6d51b20bfc9b0089690a58f3a58f187e7854514542fd48179881281bdf6b72
+~ +[PRInlineComplicationContainerViewControllerAccessibility(SafeCategory) safeCategoryBaseClass] : sha256 d1661e57993f7969459dbe90e060f0f049ceb26197bc1b80cf7860fd3371c84d -> 1ce58c64a4d4eeeb295c13250b792fd83234cda6e8d1257b0d1a50b02d7c6566
+~ -[PRInlineComplicationContainerViewControllerAccessibility _accessibilityGetRemoteElement] : sha256 66b94b9e2f7fab3b7c51444b3badb9b1303201d5fb55d80d84b356faed5587c7 -> 77be2185e178dbdfd55c54acf38c14fffa9d4211f37eabf31e8b0cc6b559e92f
+~ -[PRInlineComplicationContainerViewControllerAccessibility _accessibilitySetRemoteElement:] : sha256 6641da2f6ff66e28ecc9786b9458aa9b021ed40dc16a51b66d52b2b8189bb924 -> ec3b66ea1802fee63a04e55c91cb575ad36431cf16f48d7c2156ba220284b415
+~ +[PRInlineComplicationContainerViewControllerAccessibility _accessibilityPerformValidations:] : 336 -> 328
+~ -[PRInlineComplicationContainerViewControllerAccessibility _accessibilityLoadAccessibilityInformation] : sha256 c05fd1b928fcf30974ce0714f578ead435de3c8321b287fb00bbb4a8173a9711 -> 594cbacb42a3001ab6346d0525838a1c3c6680b1cc1d95297709c0eb3b9d15e2
+~ -[PRInlineComplicationContainerViewControllerAccessibility setComplicationDescriptor:] : sha256 038e15a054320c26775464902bf7a3e46ea480c5fe9aa0c55a45752bff0569d5 -> 618b35e63e74632d78e91263b4f6a24a0d490d246a2a4741c71e55eb4668dc2f
+~ -[PRInlineComplicationContainerViewControllerAccessibility viewDidAppear:] : sha256 2c370a69a4133d4a0b35513602840aaf855c45ad4bc29c879a165325bb4a9d30 -> 2bcbd3571b5b09da5e621083c0ec82e9147ac0516f9118be530614e330b5654b
+~ -[PRInlineComplicationContainerViewControllerAccessibility viewDidDisappear:] : sha256 95cdacedd3c4bd8f0868566e39f3f01def8726977b9279073175bf2ec1c208fe -> 418d13313bc069d4857340f28554f4f8a4bcef3bba0cf5d96bb3af8b7ae325ef
+~ -[PRInlineComplicationContainerViewControllerAccessibility invalidate] : sha256 be1537ef2202a20d098065f57e561ff18841bb36a71b5ad7655c6179a531e8db -> ead75d9c87d32c9d429b7caca2efc4c854903f68dd4f7e8bac0f9302b7543bfa
+~ -[PRInlineComplicationContainerViewControllerAccessibility _axSetWidgetView] : 240 -> 220
+~ -[PRInlineComplicationContainerViewControllerAccessibility _axSetRemoteView] : 276 -> 256
+~ -[PRInlineComplicationContainerViewControllerAccessibility _axResetRemoteView] : 120 -> 112
+~ -[PRInlineComplicationContainerViewControllerAccessibility accessibilityRemoteSubstituteChildren:] : 116 -> 108
+~ +[PREditingContentStyleItemViewAccessibility(SafeCategory) safeCategoryTargetClassName] : sha256 1c277212f773cc478e0c96597c5be57563446f2fc6d496b37080647091f22ee0 -> f434fa4f6297e736085e7d319ca498346ec420e5cbf406143344e53d4614357f
+~ +[PREditingContentStyleItemViewAccessibility(SafeCategory) safeCategoryBaseClass] : sha256 a3ce3c9f8544433a213ba276c2053c906e07dd8cdcb979e7abd9de2285454cfd -> 5f392e039866577e77bf4338a06fc87a91c35fc7ffdd2d4c26b977f9c7d83a49
+~ +[PREditingContentStyleItemViewAccessibility _accessibilityPerformValidations:] : 220 -> 208
+~ -[PREditingContentStyleItemViewAccessibility accessibilityValue] : 880 -> 820
+~ ___Block_byref_object_dispose_ : sha256 504596a7e253b42b2c9c25967f51687b646d678bb7207a294f230a00af359b89 -> a07066664d866f7d1e0a28a1b0778f144bfeda6de60c6f2eec0a088b8ffb64c6
+~ ___64-[PREditingContentStyleItemViewAccessibility accessibilityValue]_block_invoke : 80 -> 76
+~ -[PREditingContentStyleItemViewAccessibility accessibilityTraits] : sha256 5e7c5ada2507f683a2893c413875792c3950f79825c15511dba289f7972950c2 -> 391f0833883dd0139d8b93071eaf1f1802f3a985e1f349be1cbbf59557a42e6c
+~ +[PRInlineComplicationGalleryViewControllerAccessibility(SafeCategory) safeCategoryTargetClassName] : sha256 e893b6fa2298dc95e223925047d61901ecc96aacd91d2f8d01df06dae6ce6074 -> 4f2d0a6203aef9a1e5c95862cdb3bc04b30335a9d55525283fae2516fa71f25c
+~ +[PRInlineComplicationGalleryViewControllerAccessibility(SafeCategory) safeCategoryBaseClass] : sha256 fe6a815dd0888820ac26bb91788fe6c23f94a05285727dd64a144f9815586ec7 -> a7033f865e4231113b9a79d8d2150e6c46c3d94c4ca513b1cb678751221582db
+~ +[PRInlineComplicationGalleryViewControllerAccessibility _accessibilityPerformValidations:] : sha256 25f1fd791c626616b51410adccd2f5f5bcfc1d2e44e9b9b4acd94e0efca08c39 -> 3721d70e7bb26666cbe6f1cc62e919ed2215b9217937a0ad3b46830ac19b4ba3
+~ -[PRInlineComplicationGalleryViewControllerAccessibility viewDidAppear:] : 164 -> 156
+~ +[PRComplicationGalleryViewControllerAccessibility(SafeCategory) safeCategoryTargetClassName] : sha256 f3de4f589ad544dd86dd44b00aa80509d5b499e23a83a6345184b36602f1a5dd -> 72022934ee29753b6e1e84a3e39c2f81ca3e103a4435ffb4f4347fe8de46ad52
+~ +[PRComplicationGalleryViewControllerAccessibility(SafeCategory) safeCategoryBaseClass] : sha256 5fa038faa68b82714240e7b106a3a79c0f0ed367f767d03ec44665379ec8b5f5 -> 7a644ecfd364996d99df6612f6ebf645e2dbf979a51a31cfd13fab6a8d873f19
+~ +[PRComplicationGalleryViewControllerAccessibility _accessibilityPerformValidations:] : sha256 85e1f6310f48ddf92f8f7b01f57ee76224be64e07b5d2ac372c20b13b8d5f09a -> 794c3d830b5de564e02bfabef4fb25b46b5ad507065f7b5184f950b14929c7e2
+~ -[PRComplicationGalleryViewControllerAccessibility viewDidAppear:] : 164 -> 156
+~ +[PRComplicationGalleryDetailViewAccessibility(SafeCategory) safeCategoryTargetClassName] : sha256 63d155ee946414758a5e0b18e89b16da2054880f40bfffd32fc31353405b4d0b -> 4622e8a464b688637b72b2108ce2f65477d4f927cc5f77176f352a0940d09d8b
+~ +[PRComplicationGalleryDetailViewAccessibility(SafeCategory) safeCategoryBaseClass] : sha256 c79709b80067344e668caf33744efc109aca567e46dbe237519951fb32d6d485 -> 8ca1fc2df856b07735a92b1075804119a1f2f4bde3392aa03cdeb959fd8259f3
+~ +[PRComplicationGalleryDetailViewAccessibility _accessibilityPerformValidations:] : sha256 b67cae769e4e5db898a8d8f4915ebec64b548292c7c3ecbe23bc564c9980a859 -> 9dee55e22dd3de4a8ba85d21e6010973814979e5d07312b73193e327362c0955
+~ -[PRComplicationGalleryDetailViewAccessibility _accessibilityLoadAccessibilityInformation] : 124 -> 120
+~ +[PRAmbientEditingTitledViewControllerAccessibility(SafeCategory) safeCategoryTargetClassName] : sha256 72d5239508fdd778488bfbeff87448099e38102b867dcfa71a04b9f7cdee751a -> 8bfbf809525610491f88ffe8f7505a6d9bdea3049451532ed3c09a094ddfd0f6
+~ +[PRAmbientEditingTitledViewControllerAccessibility(SafeCategory) safeCategoryBaseClass] : sha256 7d8f2898002d653e85683a53c6987d8f1579fecf9f662a88f880c5fe2a3a116c -> a83f6d76797220b4ca7da30afd6bc26408287d3cd0fb65338c849e5a7a8005c1
+~ +[PRAmbientEditingTitledViewControllerAccessibility _accessibilityPerformValidations:] : 128 -> 120
+~ -[PRAmbientEditingTitledViewControllerAccessibility _accessibilityLoadAccessibilityInformation] : 108 -> 104
+~ -[PRAmbientEditingTitledViewControllerAccessibility loadView] : sha256 4f02e7988d2825f33c61e1cfed29c3439c1934453c63987b49c00f73c47c423b -> cf6ae8d9ab483ca6dc06fc5aff63d0e7140d3c9c6f9efb30282e75ffb3135ef6
+~ +[PRComplicationGalleryApplicationTitleViewAccessibility(SafeCategory) safeCategoryTargetClassName] : sha256 db6cbd8eb4e5606410bf09f1fedce81fd4806445746e2afe665b86fd38025b69 -> 0499d430d533112ba8ba8f6279f6e18cbe527c80e13eaba75be36bb91c187ea0
+~ +[PRComplicationGalleryApplicationTitleViewAccessibility(SafeCategory) safeCategoryBaseClass] : sha256 ba984e17cc9e8672f766ced2ffe06fda5a50ed4e9fec1b3f2380617305478467 -> f2ffdf6a09e92ca84f2ba9e8f3f8c010e3d43052d2546ae54c7862ffa14e6b7b
+~ +[PRComplicationGalleryApplicationTitleViewAccessibility _accessibilityPerformValidations:] : sha256 a1d8d29e72f3a5c1f15fa802a7a582ce8b3b8f820a18a9a23fe09e64dc4493d2 -> 5a71426c470c5dfcfabf0e5067274993d8f8ea90dc5dce2ce61fccaaa42328ed
+~ -[PRComplicationGalleryApplicationTitleViewAccessibility accessibilityLabel] : 92 -> 84
+~ -[PRComplicationGalleryApplicationTitleViewAccessibility accessibilityTraits] : 144 -> 140
+~ -[PRComplicationGalleryApplicationTitleViewAccessibility isAccessibilityElement] : 56 -> 52
+~ +[PRComplicationContainerViewControllerAccessibility(SafeCategory) safeCategoryTargetClassName] : sha256 01c2125fad5023d23fd696608d4aa12086fee85099bbe9635c4e304573021a91 -> 4941a179e8f24d34babdb5d489e944d377003c9dfa9c3f4bf08922879358a545
+~ +[PRComplicationContainerViewControllerAccessibility(SafeCategory) safeCategoryBaseClass] : sha256 84344bb994630a44938f9bba0adb5be6cd258852462cdb2ee0eb4990137b3cbc -> b882aa610079f9eef43e8d57513d5258750a0b9634e861f814a93353e456c98d
+~ +[PRComplicationContainerViewControllerAccessibility _accessibilityPerformValidations:] : 212 -> 204
+~ -[PRComplicationContainerViewControllerAccessibility _accessibilityLoadAccessibilityInformation] : 528 -> 484
+~ +[PREditingFontAndColorPickerViewControllerAccessibility(SafeCategory) safeCategoryTargetClassName] : sha256 85bce9e311136e1db4a8934d6869130a6b79598741b9f050196c52f5a15c6b39 -> 26ef5b9e1a90a4b9c2a8a8e859f2cd4eb5a7d20b5fb34d96b77ebd6405f66849
+~ +[PREditingFontAndColorPickerViewControllerAccessibility(SafeCategory) safeCategoryBaseClass] : sha256 4417bf7665142be00c9b59893b35d41725622e26bbcdf4997a37a60aaa95ff2f -> cf054595d9e0ebfcef33cf18bddce207c0085a139b59196120f49a928ba20359
+~ +[PREditingFontAndColorPickerViewControllerAccessibility _accessibilityPerformValidations:] : 124 -> 116
+~ -[PREditingFontAndColorPickerViewControllerAccessibility _accessibilityLoadAccessibilityInformation] : 140 -> 132
+~ -[PREditingFontAndColorPickerViewControllerAccessibility viewDidAppear:] : sha256 b0a188ec8d018ca17eaac8f10fd8f1d4200ca182d31867a9acfea916f0a9060c -> b979c654678174902b807427316b05ff93b734f0f3108ba739d9984b665d3eff
+~ ___72-[PREditingFontAndColorPickerViewControllerAccessibility viewDidAppear:]_block_invoke : 108 -> 104
+~ +[PREditorRootViewControllerAccessibility(SafeCategory) safeCategoryTargetClassName] : sha256 86bf6af18812412740670332478081a2276f9434f1cb652f99fcb81b06ea9ec3 -> f24e60b31eb90ddf1314a069f87f7b7f54a854e889f54d9d3fcd03b3cb8eac8a
+~ +[PREditorRootViewControllerAccessibility(SafeCategory) safeCategoryBaseClass] : sha256 70d05793bd30cfd3f561f1cdc5042080e638fa281b603bea092c3cba4bce7576 -> 6f33f8cb6ad08bfbcdc3b5c074cd6cb1a0ab0a3a74267744c7ea0feabf9ab604
+~ +[PREditorRootViewControllerAccessibility _accessibilityPerformValidations:] : 656 -> 648
+~ -[PREditorRootViewControllerAccessibility _accessibilityLoadAccessibilityInformation] : sha256 1d746d749894b57e8440620bcc34b46041e7d77176856eb2b6ad7fc0bca56530 -> 03c3eb62c2192c804c765a111453e5cc7ee84f95928f33d73e5ed01e8821037a
+~ -[PREditorRootViewControllerAccessibility viewDidAppear:] : 132 -> 128
+~ -[PREditorRootViewControllerAccessibility currentLookDidChange] : sha256 cbc159d709737fa5af646e1b62155cd69b5bffab6d6575716f8e660381a94f44 -> bc598b381ae014f646c84f7a3c11c95571372c53beaf585c7f1a9380087f3a50
+~ -[PREditorRootViewControllerAccessibility _updateMenuElements] : sha256 5eab021fe20d36133ed4e1ad4e0cef39c8ab77e636b88f76c9e6a2a28038efaf -> 48d7c83113eb33b4f187a2f4f959d852a350dd062c77f5cb5e7db9cdcbf5e067
+~ -[PREditorRootViewControllerAccessibility _axSetPageControlValue] : 392 -> 364
+~ -[PREditorRootViewControllerAccessibility _axSetAccessibilityElements] : 1160 -> 1104
+~ ___70-[PREditorRootViewControllerAccessibility _axSetAccessibilityElements]_block_invoke : sha256 3a56abcc3765821f7e55c32b5ca2d57a8a964077c28209be138b109859072814 -> 1438abe924bf8b9dc067792ca3cd5859f4e660f796964bf782ffc835204d8792
+~ ___70-[PREditorRootViewControllerAccessibility _axSetAccessibilityElements]_block_invoke_2 : 268 -> 252
+~ -[PREditorRootViewControllerAccessibility _axSetDepthEffectButton] : 560 -> 548
+~ ___66-[PREditorRootViewControllerAccessibility _axSetDepthEffectButton]_block_invoke : 112 -> 108
+~ +[PRAddWidgetDetailSheetWidgetDescriptionViewAccessibility(SafeCategory) safeCategoryTargetClassName] : sha256 4a7d24ec614875c5d6bb61f79ccaa875aa163f813fc8c8c5b15e230057c589b2 -> 9d65f711fd0a16e636237bdebefff0109252254085c8a651e6cb8f235fe41f45
+~ +[PRAddWidgetDetailSheetWidgetDescriptionViewAccessibility(SafeCategory) safeCategoryBaseClass] : sha256 1fa51045f41dcc473efe2dcaa7698087a7c4892c3297d5d015d33f341f87b4b3 -> f74d174fe7e99db34e8cb8934e537e51dd9a7e239da96daaeaa562c66649eaa7
+~ +[PRAddWidgetDetailSheetWidgetDescriptionViewAccessibility _accessibilityPerformValidations:] : 132 -> 124
+~ -[PRAddWidgetDetailSheetWidgetDescriptionViewAccessibility accessibilityLabel] : 208 -> 188
+~ +[PREditingTimeFontPickerCellViewAccessibility(SafeCategory) safeCategoryTargetClassName] : sha256 c91ea8f579c5b7e85d5ebc4ff05d9926db6787f66c1951f6a82bee9b3dafc538 -> cb573e385352635cac90d075ac26542c93ab0f9ed22a8bfe0efb21ee85f3357d
+~ +[PREditingTimeFontPickerCellViewAccessibility(SafeCategory) safeCategoryBaseClass] : sha256 5cb86c67ed28adbc1b217009fbc4cc7bf21ed273fb954a2c5304fbba9c83c2f0 -> 420dc03406f6b09004ae6dca710d0f302682bf391ec3e0a86809d641666d76cb
+~ +[PREditingTimeFontPickerCellViewAccessibility _accessibilityPerformValidations:] : sha256 987f4c6cdd0885d532e4dfa732f0b2d6e085d38e6177697b2bd00e131975e7d3 -> b2caf0eeeebdeebcc33e46a3b3f63431cee3ba58ccf27fbfaeebcd444807a96b
+~ -[PREditingTimeFontPickerCellViewAccessibility accessibilityLabel] : 92 -> 84
+~ -[PREditingTimeFontPickerCellViewAccessibility accessibilityValue] : 388 -> 348
+~ -[PREditingTimeFontPickerCellViewAccessibility axFontWeight:] : 208 -> 200
+~ +[PRComplicationGalleryApplicationCellAccessibility(SafeCategory) safeCategoryTargetClassName] : sha256 e9126e096e14c1cce34eed227f9a8fc9d0196d3290bd9c3cd5ea81771b1f80f8 -> 89830085da137fb8e7a408284f1e4b74f9bc3b03a60881f587ce012752318099
+~ +[PRComplicationGalleryApplicationCellAccessibility(SafeCategory) safeCategoryBaseClass] : sha256 004c1bd17e5d253f0aad65324da63babad1e2d8c7f3e9fcf423c79788040d153 -> b806b57e459c5705b027eb14a54b45290c2c4d1509402c56ff0f2df306957ef9
+~ +[PRComplicationGalleryApplicationCellAccessibility _accessibilityPerformValidations:] : sha256 72594e26268bd2c77f90a028f040714d310d173d6617b4e99b7d666cd8ada8cb -> 7cb3a613314124677eac68770c8d56361a4839bb41f826a02b638cf3615a2f8a
+~ -[PRComplicationGalleryApplicationCellAccessibility accessibilityLabel] : 92 -> 84
+~ -[PRComplicationGalleryApplicationCellAccessibility accessibilityTraits] : sha256 4f49a17df09a7c8598f78a1d0e2d43ba3b9f8f614f1417e9e7b5c1d9db0e8cfd -> 98be9f384f0f16c2786d2ac313db41b62fa473b4e7ba5e8845be9f65840a17b0
+~ +[PREditingPlusButtonAccessibility(SafeCategory) safeCategoryTargetClassName] : sha256 25416fc5c95862437a3d899474b118f9a72c1c63beb169ff3893aac548380328 -> 61307f27b9c2455f14df7f7e9ca15eabaffa376304da4fbaa60924a4fc0b7c3d
+~ +[PREditingPlusButtonAccessibility(SafeCategory) safeCategoryBaseClass] : sha256 6289dca31e773d478790dac069158e037b548c8b9883535147ffadab9f5edec9 -> c9e3dcceeb25d3dbe32cd24561bd0d9cfe4782507f181f8a87c8ca17dfa6a83d
+~ +[PREditingPlusButtonAccessibility _accessibilityPerformValidations:] : sha256 ee2c6a60072a86dd6fbdc69593eb2d8e1091161730a28b96b9a504ef5e20f40c -> 2a68c7566f0801659b23c66bc8400d6d00a044d0fedba0d3aebc2e24e807a091
+~ -[PREditingPlusButtonAccessibility accessibilityLabel] : sha256 c475724994b533bce2a21a4abd00f35d16d8e9902cddb6ecd46e53c331611270 -> d6d8160df8ab419f5fc8d8e5cbfdf846595abda6cb9bfb68a2cba932771a525d
+~ +[AXRemoteElementAccessibility__PosterKit__AXRuntime(SafeCategory) safeCategoryTargetClassName] : sha256 e606d3045bb17ef878f2cbc016668149019c8345030d96f6ae4e81d76194c4c9 -> 22df75a550f19d757743633960943b81089781f3dccf22c9ebaab617c50cd769
+~ +[AXRemoteElementAccessibility__PosterKit__AXRuntime(SafeCategory) safeCategoryBaseClass] : sha256 eb09e3a22cc40b43d5ead8f7035c93d17620b86c450ba89d8a0a14ef9b209b92 -> 576a6b1b0807acb1043242b25329a68202f8a2d292892f854db5d712aa6b6894
+~ +[AXRemoteElementAccessibility__PosterKit__AXRuntime _accessibilityPerformValidations:] : 108 -> 100
+~ -[AXRemoteElementAccessibility__PosterKit__AXRuntime _accessibilityShouldHitTestRemoteElementProcess] : 176 -> 192
+~ ___101-[AXRemoteElementAccessibility__PosterKit__AXRuntime _accessibilityShouldHitTestRemoteElementProcess]_block_invoke : 124 -> 120
+~ ___101-[AXRemoteElementAccessibility__PosterKit__AXRuntime _accessibilityShouldHitTestRemoteElementProcess]_block_invoke_2 : 84 -> 80
+~ -[AXRemoteElementAccessibility__PosterKit__AXRuntime _axIsKindOfClass:fromArray:] : 276 -> 280
+~ +[PREditingColorSliderAccessibility(SafeCategory) safeCategoryTargetClassName] : sha256 3a0d76ff2352fb756712728b7867b3fbf0a97d8f3db167d901e7c8475867bce6 -> 89d487b6a890ef8c455286b32d50bdc4bff77ebc3e6372dd755656b2c4bfad94
+~ +[PREditingColorSliderAccessibility(SafeCategory) safeCategoryBaseClass] : sha256 5db1cd536ac487c3e577c2e982f55095b9847305fb9adc5cba2ea58d38d8cf1e -> 84504280f8bbcaf18c50dfbb26f217d2c2c99f9032a90f3ac431bc8e7be25bc4
+~ +[PREditingColorSliderAccessibility _accessibilityPerformValidations:] : 228 -> 220
+~ -[PREditingColorSliderAccessibility accessibilityLabel] : sha256 4ebf9ada6899289f666c97becac5c31ebbd7be97bd91b50e4b8f6eb61ffdefa3 -> 25a685395efe581aa22a91f984803135d23d493df9ddce069b2afde3c8fd85c8
+~ -[PREditingColorSliderAccessibility accessibilityTraits] : sha256 ece7baf1ae659acc6951b51af10bcaa340fba396f250cc2c9de629c7c8b92ba2 -> 7f98aa1e97d304261dabdbe83713701d4a6935589b56b38ed813f8348d62890b
+~ -[PREditingColorSliderAccessibility accessibilityIncrement] : sha256 d0086dd47c4e7b40cf7ed75581c974eb0f771445bce8df8a3bfa83124236dd09 -> 5aaa68a9447484cfd653dddf180e5dbdf4a101a3a8b2427bbadbb5e0e87415b7
+~ -[PREditingColorSliderAccessibility accessibilityDecrement] : sha256 f2a8c2140c48168f50ae99f533321436b77bb9fe0adb35bb19f772f7aadd5e84 -> 8f50d19f4b8b0bf71ad0237045a0dac7476da9e4abf80973a522a3ec7d645d36
+~ -[PREditingColorSliderAccessibility accessibilityValue] : 204 -> 188
+~ -[PREditingColorSliderAccessibility _axAdjustSliderValue:] : 256 -> 252
+~ ___58-[PREditingColorSliderAccessibility _axAdjustSliderValue:]_block_invoke : sha256 25127a859c5252d8f8c2a65b27209d142e388444a45c1517fcff32ab5ff58704 -> 2b7a438330d5eabdb18ba96c1400a6aecf4782a6cc662708f6f9d691a34dcad8
+~ +[PREditingColorItemViewAccessibility(SafeCategory) safeCategoryTargetClassName] : sha256 c24cc5d0d6d7de69ac63e751f5d5bfca07268a453edd6e858f87a856fb4b75af -> fa2e92d323aeeab87a749333d5858248f26106f192e8bcca857ecec17d8585dd
+~ +[PREditingColorItemViewAccessibility(SafeCategory) safeCategoryBaseClass] : sha256 d53d8656269b1258c412cde45c816ce7b093697ef126b78adfef3cd5109b6054 -> bd74840eb8737fabc83490c441ab890da01198ae08234eb5e4deea7e7e6f31d5
+~ +[PREditingColorItemViewAccessibility _accessibilityPerformValidations:] : 204 -> 192
+~ -[PREditingColorItemViewAccessibility accessibilityValue] : 212 -> 196
+~ _AXWidgetFamilyType : 92 -> 88
+~ _AXWidgetAndAppName : 312 -> 280
+~ _AXWidgetDescription : 220 -> 204
+~ _AXIsWidgetConfigurable : 428 -> 416
+~ _AXRemoveWidgetLabel : 164 -> 152
+~ +[PRInlineComplicationGalleryItemCellAccessibility(SafeCategory) safeCategoryTargetClassName] : sha256 9c4dfcfcc04e2b2e8cc479e6f14d6dea95bdde2a54967b8662e13ff316ba57d7 -> 47df1b2b9982565fec7ad8908d43168a60b9ac293266b6a6eb073e18e3cc3c34
+~ +[PRInlineComplicationGalleryItemCellAccessibility(SafeCategory) safeCategoryBaseClass] : sha256 f7dd6028d64263b0ef9d20a665d529b9929eeeee2b46d89c7cbda3046c0817a5 -> 9e13ba9076a561558010142a44256e5137792fec9f7f73a619ff705a061cb357
+~ +[PRInlineComplicationGalleryItemCellAccessibility _accessibilityPerformValidations:] : 204 -> 192
+~ -[PRInlineComplicationGalleryItemCellAccessibility accessibilityLabel] : 200 -> 184
+~ -[PRInlineComplicationGalleryItemCellAccessibility accessibilityCustomContent] : 244 -> 224
+~ -[PRInlineComplicationGalleryItemCellAccessibility accessibilityTraits] : sha256 196623b933605dfdb9be8a01a0b3526740377182edda7fbf6889f1b7a1818766 -> 00ead5405c1f9185bdd2dd6141c5179af23cfca0dd5895fd5d79e32322e81b59
+~ +[PREditingDoneButtonAccessibility(SafeCategory) safeCategoryTargetClassName] : sha256 768af4dd01a1491229ce22654fbbdc03b2554fe6db3bd4f6b0d40fcc2b5ee0cc -> b61e425b433c3648da699aa442d35afd03ca74dfc2ecc05fdcf3b0fd56018b46
+~ +[PREditingDoneButtonAccessibility(SafeCategory) safeCategoryBaseClass] : sha256 080a5bae5cbc7b32903f4c27f35c88cd1b61bf1242d24f945492bbb6ad7c64df -> 5f55ca5008f9f4d1ce56a736b27f219acdda479d35b9861e937e391939d20816
+~ -[PREditingDoneButtonAccessibility accessibilityLabel] : sha256 ca7032a0bdf81296f490a81b872cd38cac5c636626d9e30924c59e0a65f1de53 -> 52b5499d900c8646647d95f61390c6c0cfde83b9168543c3461798d31cca94c5
+~ +[PREditingReticleViewAccessibility(SafeCategory) safeCategoryTargetClassName] : sha256 2c144b4c24d2be33b952b14253973c1aa60041481f6c03652c75109b6f3251ed -> 364a73bca6c3e981a66268747542c386428d0ff4c3673668282b3157912cd92e
+~ +[PREditingReticleViewAccessibility(SafeCategory) safeCategoryBaseClass] : sha256 d3e947e18906136cac7d4ba4c3dea55132aa48946b0d7e7c736cfd0b6c1d442c -> 7d15d7808eeae6431e38948c8e2c669cd8c148e9b20a6758772e211abc980052
+~ -[PREditingReticleViewAccessibility _accessibilityGetRemoteElement] : sha256 a5cd7435a0b7fe24b34ed74137e56fdcc13396228f305daf11e280c0bba4562f -> 17a335c259d0264e397dde9e07a9fc62eb17a8886773c89a488d9963db3286a2
+~ -[PREditingReticleViewAccessibility _accessibilitySetRemoteElement:] : sha256 aff4809bd88ad1ea7658ff519e2a2189ae2d6d88407f3ba0124df10bfcb2689f -> aab8e4068c515a537699a5811901b25875b8e2df44be6cdf1b266408d1222eae
+~ -[PREditingReticleViewAccessibility _axPosterEditorViewController] : sha256 61ad364bcb8d99b8d0131836866cacc2d03901fe153586f471470760207bee5a -> 52293fdac233336080bd624166760ded464fcfcf83432b58b4ea913b1ae173dc
+~ -[PREditingReticleViewAccessibility _axSetPosterEditorViewController:] : sha256 f2de4998998de94c228033db9de1add089133fdb39a3c535c29bbbc8f337ad8a -> 7f6264454920a3ce7925e93f28a240f3708a5732ecae3dc42560ae7b04bc19e8
+~ +[PREditingReticleViewAccessibility _accessibilityPerformValidations:] : 312 -> 300
+~ -[PREditingReticleViewAccessibility _accessibilityAXAttributedLabel] : 532 -> 484
+~ -[PREditingReticleViewAccessibility accessibilityHint] : 224 -> 200
+~ -[PREditingReticleViewAccessibility isAccessibilityElement] : 308 -> 284
+~ -[PREditingReticleViewAccessibility accessibilityTraits] : sha256 c7bb2352af97bee9a5f730f3d02c68c65d6db59e69b77bb781038d04b341857f -> 844dfebde4c78043c79a2f537e7ec1e6309d84c4a1dc85299246af1434337664
+~ -[PREditingReticleViewAccessibility _accessibilityShouldUseHostContextIDForPress] : 128 -> 112
+~ -[PREditingReticleViewAccessibility accessibilityElements] : 472 -> 436
+~ -[PREditingReticleViewAccessibility accessibilityElementsHidden] : 288 -> 260
+~ -[PREditingReticleViewAccessibility _axSetRemoteViews] : 244 -> 228
+~ +[PREditingCancelButtonAccessibility(SafeCategory) safeCategoryTargetClassName] : sha256 9f1333a1407f90e78b00707642c7efa6d9b93214638e17789de3f5156fe8158f -> e35aa8ac99553c6ba45f03b63cd722a4d4e4e9d8d1a25a3e5cade68a58f5f41b
+~ +[PREditingCancelButtonAccessibility(SafeCategory) safeCategoryBaseClass] : sha256 b57d82cf57fa74a7a4585c0a6d42c45b6e99887641c2fb99b8b6f8a6e63e2fb2 -> c5d63d7294c0cf0b64b5d0c2d8508b68d0b5bb329c5f58bb74f30823fb4c2d1f
+~ -[PREditingCancelButtonAccessibility accessibilityLabel] : sha256 345bbdc18b3e6054b85f17fff256f63d1a893b7057468773ff461e22efa676a7 -> 1d8bba70a9e0a30ec4a7c09c1f3260ae618be53c682fd5fb9c2b433447c61057
+~ +[PREditingAddButtonAccessibility(SafeCategory) safeCategoryTargetClassName] : sha256 ee80a3bcd9963c97606ee885b08ed603a54410524aa8205051633c25aeaf21e2 -> 1bced1b6a5c0aa53f2bad337acd7a98cadb75472f55d5152e0bdd0c29abb32d5
+~ +[PREditingAddButtonAccessibility(SafeCategory) safeCategoryBaseClass] : sha256 8637a3147e129c010e695a8502e792bbe6f33a7259d1e36725408f0a868db573 -> 05c446ce96fcebfb2fb9d3602025ed7a89f6c016f644b9495cb84f223949aa5d
+~ -[PREditingAddButtonAccessibility accessibilityLabel] : sha256 a150cb4880cde3a03d6e19de91e62a091dc47a60ca6983a51151bdca2a057079 -> 278bddb9c3b1db322e4bb1f87e4c64c59f1d61c7537c2e99eccff42c876d9031
+~ +[PREditingAmbientContentStylePickerViewControllerAccessibility(SafeCategory) safeCategoryTargetClassName] : sha256 e512ab12a28e261e78d8984d1ae0a079e5776a5d399912a297e7883fc7699cec -> f8bfa637a0178a202195522d68a1ce190ac7fe945ae69c0d88fb712283c60e11
+~ +[PREditingAmbientContentStylePickerViewControllerAccessibility(SafeCategory) safeCategoryBaseClass] : sha256 92ff1346eb78443bba38deb93270f6468b933fd010714eddc4babf7ad420dea7 -> 8701990274567b2ff7132696b0e8e53155c14ac0a947c1320e5d9c6889543c52
+~ +[PREditingAmbientContentStylePickerViewControllerAccessibility _accessibilityPerformValidations:] : 164 -> 156
+~ -[PREditingAmbientContentStylePickerViewControllerAccessibility didTapContentStyleItemView:] : 212 -> 204
+CStrings:
+- "#16@0:8"
+- "@16@0:8"
+- "@20@0:8B16"
+- "@24@0:8@16"
+- "AXPosterKitGlue"
+- "B16@0:8"
+- "B32@0:8@16@24"
+- "Q16@0:8"
+- "SafeCategory"
+- "__AXRemoteElementAccessibility__PosterKit__AXRuntime_super"
+- "__PRAddWidgetDetailSheetWidgetDescriptionViewAccessibility_super"
+- "__PRAmbientEditingTitledViewControllerAccessibility_super"
+- "__PRComplicationContainerViewControllerAccessibility_super"
+- "__PRComplicationGalleryApplicationCellAccessibility_super"
+- "__PRComplicationGalleryApplicationTitleViewAccessibility_super"
+- "__PRComplicationGalleryDetailViewAccessibility_super"
+- "__PRComplicationGalleryViewControllerAccessibility_super"
+- "__PREditingAddButtonAccessibility_super"
+- "__PREditingAmbientContentStylePickerViewControllerAccessibility_super"
+- "__PREditingCancelButtonAccessibility_super"
+- "__PREditingCloseBoxButtonAccessibility_super"
+- "__PREditingColorItemViewAccessibility_super"
+- "__PREditingColorSliderAccessibility_super"
+- "__PREditingContentStyleItemViewAccessibility_super"
+- "__PREditingDoneButtonAccessibility_super"
+- "__PREditingFontAndColorPickerViewControllerAccessibility_super"
+- "__PREditingIncomingCallFontPickerCellViewAccessibility_super"
+- "__PREditingPickerImageCellViewAccessibility_super"
+- "__PREditingPlusButtonAccessibility_super"
+- "__PREditingReticleViewAccessibility_super"
+- "__PREditingTimeFontPickerCellViewAccessibility_super"
+- "__PREditingVariationSliderAccessibility_super"
+- "__PREditorRootViewControllerAccessibility_super"
+- "__PRInlineComplicationContainerViewControllerAccessibility_super"
+- "__PRInlineComplicationGalleryItemCellAccessibility_super"
+- "__PRInlineComplicationGalleryViewControllerAccessibility_super"
+- "__PRPosterWindowAccessibility_super"
+- "__PRQuickActionEditingViewControllerAccessibility_super"
+- "__PRSubviewHitTestingViewAccessibility_super"
+- "__PRWidgetIconViewControllerAccessibility_super"
+- "__UIButtonAccessibility__PosterKit__UIKit_super"
+- "_accessibilityAXAttributedLabel"
+- "_accessibilityContextId"
+- "_accessibilityFindAncestor:startWithSelf:"
+- "_accessibilityGetRemoteElement"
+- "_accessibilityHasLeadingAction"
+- "_accessibilityHasTrailingAction"
+- "_accessibilityIsUserInteractionEnabled"
+- "_accessibilityLoadAccessibilityInformation"
+- "_accessibilityMarkupButtons"
+- "_accessibilityPerformValidations:"
+- "_accessibilityProminentButtonsView"
+- "_accessibilitySetRemoteElement:"
+- "_accessibilitySetSortPriority:"
+- "_accessibilityShouldHitTestRemoteElementProcess"
+- "_accessibilityShouldUseHostContextIDForPress"
+- "_accessibilitySubviews"
+- "_accessibilityViewController"
+- "_accessibilityWindowScene"
+- "_axAdjustSliderValue:"
+- "_axIsKindOfClass:fromArray:"
+- "_axLabelForSymbolName:"
+- "_axPosterEditorViewController"
+- "_axRemoveWidgetLabel:"
+- "_axResetRemoteView"
+- "_axSetAccessibilityElements"
+- "_axSetDepthEffectButton"
+- "_axSetPageControlValue"
+- "_axSetPosterEditorViewController:"
+- "_axSetRemoteView"
+- "_axSetRemoteViews"
+- "_axSetWidgetView"
+- "accessibilityCompareGeometry:"
+- "accessibilityCustomContent"
+- "accessibilityDecrement"
+- "accessibilityElements"
+- "accessibilityElementsHidden"
+- "accessibilityFrame"
+- "accessibilityHint"
+- "accessibilityIdentifier"
+- "accessibilityIncrement"
+- "accessibilityInitializeBundle"
+- "accessibilityLabel"
+- "accessibilityRemoteSubstituteChildren:"
+- "accessibilityTraits"
+- "accessibilityUserDefinedLabel"
+- "accessibilityValue"
+- "allValues"
+- "alpha"
+- "array"
+- "arrayWithObjects:count:"
+- "automationElements"
+- "axArrayByIgnoringNilElementsWithCount:"
+- "axFontWeight:"
+- "axSafelyAddObject:"
+- "bundleForClass:"
+- "componentsSeparatedByString:"
+- "containsObject:"
+- "count"
+- "countByEnumeratingWithState:objects:count:"
+- "currentPage"
+- "customContentWithLabel:value:"
+- "descriptor"
+- "familyName"
+- "firstObject"
+- "font"
+- "fontName"
+- "glyphView"
+- "init"
+- "initWithName:actionHandler:"
+- "initWithString:"
+- "initWithUUID:andRemotePid:andContextId:"
+- "installSafeCategory:canInteractWithTargetClass:"
+- "interfaceOrientation"
+- "isAccessibilityElement"
+- "isEqualToString:"
+- "lastObject"
+- "leadingButton"
+- "leadingRemoveButton"
+- "leadingReticle"
+- "length"
+- "loadView"
+- "localizedStringForKey:value:table:"
+- "mutableCopy"
+- "navigationController"
+- "numberOfPages"
+- "numberWithInt:"
+- "numberWithUnsignedLongLong:"
+- "performValidations:withPreValidationHandler:postValidationHandler:safeCategoryInstallationHandler:"
+- "remotePid"
+- "removeObject:"
+- "safeArrayForKey:"
+- "safeBoolForKey:"
+- "safeCGFloatForKey:"
+- "safeCategoryBaseClass"
+- "safeCategoryTargetClassName"
+- "safeDictionaryForKey:"
+- "safeIntForKey:"
+- "safeIntegerForKey:"
+- "safeStringForKey:"
+- "safeUIViewForKey:"
+- "safeValueForKey:"
+- "safeValueForKeyPath:"
+- "sendActionsForControlEvents:"
+- "setAccessibilityActivateBlock:"
+- "setAccessibilityCustomActions:"
+- "setAccessibilityCustomActionsBlock:"
+- "setAccessibilityElements:"
+- "setAccessibilityElementsBlock:"
+- "setAccessibilityElementsHidden:"
+- "setAccessibilityFrameBlock:"
+- "setAccessibilityHintBlock:"
+- "setAccessibilityIdentifier:"
+- "setAccessibilityLabel:"
+- "setAccessibilityLabelBlock:"
+- "setAccessibilityTraits:"
+- "setAccessibilityValue:"
+- "setAccessibilityValueBlock:"
+- "setAttribute:forKey:"
+- "setDebugBuild:"
+- "setImportance:"
+- "setIsAccessibilityElement:"
+- "setOnClientSide:"
+- "setOverrideProcessName:"
+- "setRemoteChildrenDelegate:"
+- "setValidationTargetName:"
+- "sharedInstance"
+- "sortedArrayUsingSelector:"
+- "stringWithFormat:"
+- "subviews"
+- "trailingButton"
+- "trailingRemoveButton"
+- "trailingReticle"
+- "unregister"
+- "uuidHash"
+- "v16@0:8"
+- "v20@0:8B16"
+- "v24@0:8@16"
+- "validateClass:"
+- "validateClass:hasInstanceMethod:withFullSignature:"
+- "validateClass:hasInstanceVariable:withType:"
+- "validateClass:hasProperty:withType:"
+- "validateClass:isKindOfClass:"
+- "valueForKey:"
+- "viewDidDisappear:"
+- "window"
+- "windowScene"
+
+```

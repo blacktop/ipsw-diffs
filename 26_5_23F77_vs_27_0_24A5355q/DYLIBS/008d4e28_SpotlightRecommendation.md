@@ -1,0 +1,463 @@
+## SpotlightRecommendation
+
+> `/System/Library/PrivateFrameworks/SpotlightRecommendation.framework/SpotlightRecommendation`
+
+```diff
+
+-2418.5.9.101.0
+-  __TEXT.__text: 0xf6e0 sha256:881e4154034c214f7f5abe963cdd14db19909e1a7934e3bc460bc82a1c73393b
+-  __TEXT.__auth_stubs: 0x6a0 sha256:3f9fae235c1fdc7429939b4a0e67868613181ff65d24a01c344c33fc1c15a720
+-  __TEXT.__objc_methlist: 0x420 sha256:d5d1d23d8f8d9cb2873be2e2fcfa8553f78b7a0d4ebb8def583bdd878eca1a0b
+-  __TEXT.__const: 0x180 sha256:70f2a47307be5d71611d97e01755d264df781e384d2ce7aa34deeb0bc5f98223
+-  __TEXT.__gcc_except_tab: 0x360 sha256:02d64692b25594195ce5d0f33c0c3521f9f1b632306a94569fe81e7345eb17c7
+-  __TEXT.__cstring: 0xbad sha256:e008cfee54ae47bef0aa81b82578be35c278ce056bb5158333fbe6645429646b
++2444.104.0.0.0
++  __TEXT.__text: 0xf518 sha256:6757ca904d7556e5e5f5050a76f0e87b5df2f75ac338d1a1f6f81ff08ee02910
++  __TEXT.__objc_methlist: 0x420 sha256:61d5ef4bfb7edc1d976bead48c0122ea4c49e0469fe16c339126f3616210d414
++  __TEXT.__const: 0x170 sha256:e6871fd4fa05ec751831d09e36bab93b36a809483ec420586e5ee7800ecab3f6
++  __TEXT.__gcc_except_tab: 0x370 sha256:79b8bacceccb6ad55c7bdc175e77d8d7fe9b44c63dfef1f68289dac039293e64
++  __TEXT.__cstring: 0xbb8 sha256:9d33d4d9b23ff9664fc866d9e8e4b801a3288e2c3f4f6bf424ec4f03a4733670
+   __TEXT.__oslogstring: 0x9b2 sha256:4ed4181f2640f44c73590e8741fde189355250bbe3ed2ea48a01a22ddc3906ce
+-  __TEXT.__unwind_info: 0x3a0 sha256:3752ca4917ebaa2b586924e3779a4f66959db2a89d55d2b6965a71760e4b091f
+-  __TEXT.__objc_classname: 0xb8 sha256:5bfea0b5080ed0dd9d4aa87e0c11725b7edeb1c4959122738913024f607e3ff2
+-  __TEXT.__objc_methname: 0xc79 sha256:1bb825e9ed4534fe6fb1092acb4e4066736e35c693b633a097f93e5fe1e100cc
+-  __TEXT.__objc_methtype: 0x199 sha256:2187852ceb04d35a4dc307bf13f72f5efac9372ecc50f5201350c2f3c13d90ed
+-  __TEXT.__objc_stubs: 0xe40 sha256:33a56beb394d8e4d914c73f96281271713ad9654ad4a30cca1dbd7106255dd48
+-  __DATA_CONST.__got: 0x138 sha256:9a28b4884aa797e9a91c6e09f435355b4dd1ce70cc695e54c017a228a0266235
+-  __DATA_CONST.__const: 0x58 sha256:21274d4cd8b5e09e6bb9b7642b7510de8fe7f236828a506254308c998c937987
+-  __DATA_CONST.__objc_classlist: 0x48 sha256:20fd2c722c1b83007d7a92632e660832ba5a7f6d47b30356d296e3e19f120980
++  __TEXT.__unwind_info: 0x360 sha256:ee35de939294713bb8dc49d2a8a89d1ca0a3bd28af132962836bc1fb8f74b816
++  __TEXT.__objc_stubs: 0x0
++  __TEXT.__auth_stubs: 0x0
++  __TEXT.__objc_classname: 0x0
++  __TEXT.__objc_methname: 0x0
++  __TEXT.__objc_methtype: 0x0
++  __DATA_CONST.__const: 0x58 sha256:0b96139a3d7886a954dca4df874f839247e19559e7caf2b8c639aaeb07496523
++  __DATA_CONST.__objc_classlist: 0x48 sha256:a20d859339a46cadcb29bc78a80ba1b4ed9c62c0bd6b54e81ff1d7a426e954a8
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x408 sha256:9b817ab3edf766e65211f702062b40bb89483197b95451a46bb8472478ba391f
+-  __DATA_CONST.__objc_superrefs: 0x40 sha256:a1e71d25282183727ba4147b851e62b2b3503f710f8162ff3215f828f668c6a6
+-  __DATA_CONST.__objc_arraydata: 0x70 sha256:9b9461656f001766fd313f730fa09ef73e0fb83e8eb9747b0305e6ca2728a5ee
+-  __AUTH_CONST.__auth_got: 0x368 sha256:5f52fd20cf3e62c20fd8372c746119fb315919c0c9f5261d4beda98f2293f5fa
+-  __AUTH_CONST.__cfstring: 0x1aa0 sha256:16054992cc9d159ea2fac84a780f3d293d7f11e0a8e51c0f338732e0ef1b9afb
+-  __AUTH_CONST.__objc_const: 0x9f0 sha256:79320ad761b401640b8209f60ba5d70dbb581f486af929cc22cbf9a3b6ebf023
+-  __AUTH_CONST.__objc_dictobj: 0x28 sha256:a51934f90122fcce7534cff51c502cc31fd44bd8febd96eac4a07fe6e00372fb
+-  __AUTH_CONST.__objc_intobj: 0x18 sha256:201ecc20ab9e2aa639d8e35cea4bcae8481acd6f8c57f3cb2217b4e05ab66eda
+-  __AUTH_CONST.__objc_arrayobj: 0x120 sha256:e14ce2a16284fcbee1dbd7e39f5afede87489306205081dfa0f21f656ea45b7c
+-  __AUTH.__objc_data: 0x230 sha256:81f4d71df5b76a441afa81acf36fbb9792badb0ded74938a71c8130593b15007
++  __DATA_CONST.__weak_got: 0x8 sha256:baed7a8f4fe06577baf9413d1425189458482e4f64d55b4f5cc304378385a036
++  __DATA_CONST.__objc_selrefs: 0x408 sha256:1750681cb4a7253ac7fe2a12fe17bfa605b560c5b001aa3e7664ab0edd4fb793
++  __DATA_CONST.__objc_superrefs: 0x40 sha256:ee9da10c5966da2325e182bd78984f85a6a32b7c1792816c97977b2d048e2498
++  __DATA_CONST.__objc_arraydata: 0x70 sha256:a972fdb12c0f1f334e4881275dc58f24ade4fc313b842fbb75efda4ce4133dca
++  __DATA_CONST.__got: 0x130 sha256:0c11b3a59130c789e6f5287dbe2e9096e504dd985ecb0a1a1d1c23b9448ddf04
++  __AUTH_CONST.__cfstring: 0x1aa0 sha256:b58c1d876bb646272dcff5c092650232a1f54883a27721ca11948239bd0c4ac0
++  __AUTH_CONST.__objc_const: 0x9f0 sha256:e77b4cf5236a39c3906fde2cfbd4371178d8472801e77a35e5fe99738d793d39
++  __AUTH_CONST.__weak_auth_got: 0x18 sha256:9301580f2a4c506b3a281d68e0e22bffb435cbb497ce8c36f9bdbf987996a481
++  __AUTH_CONST.__objc_dictobj: 0x28 sha256:28519507596e5d203c4d4793d8d203b58e4f72cb62f643a6586a804d89768a74
++  __AUTH_CONST.__objc_intobj: 0x18 sha256:9de82ea4f7a1ab5fd5828c49e0f6efe80dfbf606d1b77b2cb80ac555498ed298
++  __AUTH_CONST.__objc_arrayobj: 0x120 sha256:4ae77546a1ee9181613419dcbffa7f10d50ad092cf421e9e06a6cc37b01ebb7f
++  __AUTH_CONST.__auth_got: 0x358 sha256:ab9ac8d62fd064748c921e6bd4c123f5cc8910a384d1804bec33ffe27da27c4c
++  __AUTH.__objc_data: 0x230 sha256:18b89aa517373089ffd1d03c608dc9b2be5005521d1b7cf2a3e7e8d18802793f
+   __DATA.__objc_ivar: 0x60 sha256:033170747f13cb53faee8328d7661b6d1fb7b3a23e6fff58c13e4aaff60e7d37
+-  __DATA.__data: 0x8 sha256:c5305c6bd2e41defe55edd1b676664c708090af5181ceaaee20d95838f922f80
++  __DATA.__data: 0x8 sha256:a408770098d0d3ff585e82f441f0fbd6bede272ab8c6a3bc9f2239ee3a690dd3
+   __DATA.__bss: 0x8 sha256:af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc
+-  __DATA_DIRTY.__objc_data: 0xa0 sha256:4aa4934b7ceaa5a33d89651f09e32ef29ffa5c0626e1ba0c6183e61345c578e3
++  __DATA_DIRTY.__objc_data: 0xa0 sha256:d1827b8ee40d006222c487a46805013b64272783e3f048a6f334a0b2810d42b3
+   - /System/Library/Frameworks/Accelerate.framework/Accelerate
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreSpotlight.framework/CoreSpotlight
+
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 0E9205E1-20F3-35CE-BA43-28C3BAC8816C
+-  Functions: 219
+-  Symbols:   825
+-  CStrings:  702
++  UUID: 5F3D7C07-C692-3D89-8DBD-BD0DA1EECF6A
++  Functions: 217
++  Symbols:   822
++  CStrings:  486
+ 
+Symbols:
++ GCC_except_table10
++ GCC_except_table111
++ GCC_except_table113
++ GCC_except_table13
++ GCC_except_table16
++ GCC_except_table21
++ GCC_except_table22
++ GCC_except_table35
++ GCC_except_table5
++ GCC_except_table58
++ __ZNKSt3__111__copy_implclB9fqe220100IN11flatbuffers14VectorIteratorIiiEES4_NS_20back_insert_iteratorINS_6vectorIiNS_9allocatorIiEEEEEELi0EEENS_4pairIT_T1_EESC_T0_SD_
++ __ZNKSt3__111__copy_implclB9fqe220100IPNS_4pairIfxEES4_NS_20back_insert_iteratorINS_6vectorIS3_NS_9allocatorIS3_EEEEEELi0EEENS2_IT_T1_EESB_T0_SC_
++ __ZNKSt3__115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEE4viewB9fqe220100Ev
++ __ZNSt12length_errorC1B9fqe220100EPKc
++ __ZNSt3__111__sift_downB9fqe220100INS_17_ClassicAlgPolicyELb0ERNS_6__lessIvvEEPNS_4pairIfNS5_IiiEEEEEEvT2_OT1_NS_15iterator_traitsIS9_E15difference_typeESE_
++ __ZNSt3__111__sift_downB9fqe220100INS_17_ClassicAlgPolicyELb0ERNS_7greaterINS_4pairIfxEEEENS_11__wrap_iterIPS4_EEEEvT2_OT1_NS_15iterator_traitsISA_E15difference_typeESF_
++ __ZNSt3__111__sift_downB9fqe220100INS_17_ClassicAlgPolicyELb0ERNS_7greaterINS_4pairIfxEEEEPS4_EEvT2_OT1_NS_15iterator_traitsIS8_E15difference_typeESD_
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_length_errorB9fqe220100Ev
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE22__init_internal_bufferB9fqe220100Em
++ __ZNSt3__113__min_elementB9fqe220100IRNS_7greaterINS_4pairIfxEEEENS_11__wrap_iterIPS3_EES8_EET0_S9_T1_T_
++ __ZNSt3__113__nth_elementB9fqe220100INS_17_ClassicAlgPolicyERNS_7greaterINS_4pairIfxEEEENS_11__wrap_iterIPS4_EEEEvT1_SA_SA_T0_
++ __ZNSt3__115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEE15__init_buf_ptrsB9fqe220100Ev
++ __ZNSt3__115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEEC2B9fqe220100Ej
++ __ZNSt3__116__insertion_sortB9fqe220100INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPNS_4pairIfNS5_IiiEEEEEEvT1_S9_T0_
++ __ZNSt3__116__insertion_sortB9fqe220100INS_17_ClassicAlgPolicyERNS_7greaterINS_4pairIfxEEEEPS4_EEvT1_S8_T0_
++ __ZNSt3__116__pad_and_outputB9fqe220100IcNS_11char_traitsIcEEEENS_19ostreambuf_iteratorIT_T0_EES6_PKS4_S8_S8_RNS_8ios_baseES4_
++ __ZNSt3__116__selection_sortB9fqe220100INS_17_ClassicAlgPolicyERNS_7greaterINS_4pairIfxEEEENS_11__wrap_iterIPS4_EEEEvT1_SA_T0_
++ __ZNSt3__117__floyd_sift_downB9fqe220100INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPNS_4pairIfNS5_IiiEEEEEET1_S9_OT0_NS_15iterator_traitsIS9_E15difference_typeE
++ __ZNSt3__117__floyd_sift_downB9fqe220100INS_17_ClassicAlgPolicyERNS_7greaterINS_4pairIfxEEEENS_11__wrap_iterIPS4_EEEET1_SA_OT0_NS_15iterator_traitsISA_E15difference_typeE
++ __ZNSt3__117__floyd_sift_downB9fqe220100INS_17_ClassicAlgPolicyERNS_7greaterINS_4pairIfxEEEEPS4_EET1_S8_OT0_NS_15iterator_traitsIS8_E15difference_typeE
++ __ZNSt3__119__allocate_at_leastB9fqe220100INS_9allocatorINS_4pairIfNS2_IiiEEEEEENS_16allocator_traitsIS5_EEEENS_19__allocation_resultINT0_7pointerENS9_9size_typeEEERT_m
++ __ZNSt3__119__allocate_at_leastB9fqe220100INS_9allocatorINS_4pairIfxEEEENS_16allocator_traitsIS4_EEEENS_19__allocation_resultINT0_7pointerENS8_9size_typeEEERT_m
++ __ZNSt3__119__allocate_at_leastB9fqe220100INS_9allocatorIP17_opaque_pthread_tEENS_16allocator_traitsIS4_EEEENS_19__allocation_resultINT0_7pointerENS8_9size_typeEEERT_m
++ __ZNSt3__119__allocate_at_leastB9fqe220100INS_9allocatorIfEENS_16allocator_traitsIS2_EEEENS_19__allocation_resultINT0_7pointerENS6_9size_typeEEERT_m
++ __ZNSt3__119__allocate_at_leastB9fqe220100INS_9allocatorIiEENS_16allocator_traitsIS2_EEEENS_19__allocation_resultINT0_7pointerENS6_9size_typeEEERT_m
++ __ZNSt3__119__allocate_at_leastB9fqe220100INS_9allocatorIxEENS_16allocator_traitsIS2_EEEENS_19__allocation_resultINT0_7pointerENS6_9size_typeEEERT_m
++ __ZNSt3__119__partial_sort_implB9fqe220100INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPNS_4pairIfNS5_IiiEEEES8_EET1_S9_S9_T2_OT0_
++ __ZNSt3__119__partial_sort_implB9fqe220100INS_17_ClassicAlgPolicyERNS_7greaterINS_4pairIfxEEEENS_11__wrap_iterIPS4_EES9_EET1_SA_SA_T2_OT0_
++ __ZNSt3__119__partial_sort_implB9fqe220100INS_17_ClassicAlgPolicyERNS_7greaterINS_4pairIfxEEEEPS4_S7_EET1_S8_S8_T2_OT0_
++ __ZNSt3__119basic_ostringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEC1B9fqe220100Ev
++ __ZNSt3__120__throw_length_errorB9fqe220100EPKc
++ __ZNSt3__124__put_character_sequenceB9fqe220100IcNS_11char_traitsIcEEEERNS_13basic_ostreamIT_T0_EES7_PKS4_m
++ __ZNSt3__126__insertion_sort_unguardedB9fqe220100INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPNS_4pairIfNS5_IiiEEEEEEvT1_S9_T0_
++ __ZNSt3__126__insertion_sort_unguardedB9fqe220100INS_17_ClassicAlgPolicyERNS_7greaterINS_4pairIfxEEEEPS4_EEvT1_S8_T0_
++ __ZNSt3__127__insertion_sort_incompleteB9fqe220100INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPNS_4pairIfNS5_IiiEEEEEEbT1_S9_T0_
++ __ZNSt3__127__insertion_sort_incompleteB9fqe220100INS_17_ClassicAlgPolicyERNS_7greaterINS_4pairIfxEEEEPS4_EEbT1_S8_T0_
++ __ZNSt3__131__partition_with_equals_on_leftB9fqe220100INS_17_ClassicAlgPolicyEPNS_4pairIfNS2_IiiEEEERNS_6__lessIvvEEEET0_S9_S9_T1_
++ __ZNSt3__131__partition_with_equals_on_leftB9fqe220100INS_17_ClassicAlgPolicyEPNS_4pairIfxEERNS_7greaterIS3_EEEET0_S8_S8_T1_
++ __ZNSt3__132__partition_with_equals_on_rightB9fqe220100INS_17_ClassicAlgPolicyEPNS_4pairIfNS2_IiiEEEERNS_6__lessIvvEEEENS2_IT0_bEES9_S9_T1_
++ __ZNSt3__132__partition_with_equals_on_rightB9fqe220100INS_17_ClassicAlgPolicyEPNS_4pairIfxEERNS_7greaterIS3_EEEENS2_IT0_bEES8_S8_T1_
++ __ZNSt3__16vectorINS_4pairIfNS1_IiiEEEENS_9allocatorIS3_EEE20__throw_length_errorB9fqe220100Ev
++ __ZNSt3__16vectorINS_4pairIfxEENS_9allocatorIS2_EEE11__vallocateB9fqe220100Em
++ __ZNSt3__16vectorINS_4pairIfxEENS_9allocatorIS2_EEE20__throw_length_errorB9fqe220100Ev
++ __ZNSt3__16vectorINS_4pairIfxEENS_9allocatorIS2_EEE24__emplace_back_slow_pathIJRKS2_EEEPS2_DpOT_
++ __ZNSt3__16vectorINS_4pairIfxEENS_9allocatorIS2_EEE24__emplace_back_slow_pathIJS2_EEEPS2_DpOT_
++ __ZNSt3__16vectorINS_4pairIfxEENS_9allocatorIS2_EEEC2B9fqe220100Em
++ __ZNSt3__16vectorIP17_opaque_pthread_tNS_9allocatorIS2_EEE20__throw_length_errorB9fqe220100Ev
++ __ZNSt3__16vectorIP17_opaque_pthread_tNS_9allocatorIS2_EEE24__emplace_back_slow_pathIJRKS2_EEEPS2_DpOT_
++ __ZNSt3__16vectorIfNS_9allocatorIfEEE11__vallocateB9fqe220100Em
++ __ZNSt3__16vectorIfNS_9allocatorIfEEE20__throw_length_errorB9fqe220100Ev
++ __ZNSt3__16vectorIfNS_9allocatorIfEEEC2B9fqe220100Em
++ __ZNSt3__16vectorIiNS_9allocatorIiEEE20__throw_length_errorB9fqe220100Ev
++ __ZNSt3__16vectorIiNS_9allocatorIiEEE24__emplace_back_slow_pathIJiEEEPiDpOT_
++ __ZNSt3__16vectorIxNS_9allocatorIxEEE11__vallocateB9fqe220100Em
++ __ZNSt3__16vectorIxNS_9allocatorIxEEE20__throw_length_errorB9fqe220100Ev
++ __ZNSt3__16vectorIxNS_9allocatorIxEEEC2B9fqe220100Em
++ __ZNSt3__17__sort3B9fqe220100INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPNS_4pairIfNS5_IiiEEEELi0EEEbT1_S9_S9_T0_
++ __ZNSt3__17__sort3B9fqe220100INS_17_ClassicAlgPolicyERNS_7greaterINS_4pairIfxEEEENS_11__wrap_iterIPS4_EELi0EEEbT1_SA_SA_T0_
++ __ZNSt3__17__sort3B9fqe220100INS_17_ClassicAlgPolicyERNS_7greaterINS_4pairIfxEEEEPS4_Li0EEEbT1_S8_S8_T0_
++ __ZNSt3__17__sort4B9fqe220100INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPNS_4pairIfNS5_IiiEEEELi0EEEvT1_S9_S9_S9_T0_
++ __ZNSt3__17__sort5B9fqe220100INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPNS_4pairIfNS5_IiiEEEELi0EEEvT1_S9_S9_S9_S9_T0_
++ __ZNSt3__17__sort5B9fqe220100INS_17_ClassicAlgPolicyERNS_7greaterINS_4pairIfxEEEEPS4_Li0EEEvT1_S8_S8_S8_S8_T0_
++ __ZNSt3__18__uniqueB9fqe220100INS_17_ClassicAlgPolicyENS_11__wrap_iterIPiEES4_RNS_10__equal_toEEENS_4pairIT0_S8_EES8_T1_OT2_
++ __ZNSt3__19__sift_upB9fqe220100INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPNS_4pairIfNS5_IiiEEEEEEvT1_S9_OT0_NS_15iterator_traitsIS9_E15difference_typeE
++ __ZNSt3__19__sift_upB9fqe220100INS_17_ClassicAlgPolicyERNS_7greaterINS_4pairIfxEEEENS_11__wrap_iterIPS4_EEEEvT1_SA_OT0_NS_15iterator_traitsISA_E15difference_typeE
++ __ZNSt3__19__sift_upB9fqe220100INS_17_ClassicAlgPolicyERNS_7greaterINS_4pairIfxEEEEPS4_EEvT1_S8_OT0_NS_15iterator_traitsIS8_E15difference_typeE
++ __ZNSt3__1ssB9fqe220100IfNS_4pairIiiEEfS2_EENS_26common_comparison_categoryIJDTclL_ZNS_17__synth_three_wayB9fqe220100EEclsr3stdE7declvalIRT_EEclsr3stdE7declvalIRT1_EEEEDTclL_ZNS_17__synth_three_wayB9fqe220100EEclsr3stdE7declvalIRT0_EEclsr3stdE7declvalIRT2_EEEEEE4typeERKNS1_IS4_S9_EERKNS1_IS6_SB_EE
++ __ZSt28__throw_bad_array_new_lengthB9fqe220100v
++ _objc_claimAutoreleasedReturnValue
++ _objc_retain
++ _objc_retain_x1
++ _objc_retain_x28
+- GCC_except_table110
+- GCC_except_table112
+- GCC_except_table15
+- GCC_except_table18
+- GCC_except_table24
+- GCC_except_table25
+- GCC_except_table38
+- GCC_except_table61
+- GCC_except_table7
+- _OUTLINED_FUNCTION_4
+- _OUTLINED_FUNCTION_5
+- __ZNKSt3__111__copy_implclB9nqe210106IPNS_4pairIfxEES4_NS_20back_insert_iteratorINS_6vectorIS3_NS_9allocatorIS3_EEEEEEEENS2_IT_T1_EESB_T0_SC_
+- __ZNSt12length_errorC1B9nqe210106EPKc
+- __ZNSt3__111__sift_downB9nqe210106INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPNS_4pairIfNS5_IiiEEEEEEvT1_OT0_NS_15iterator_traitsIS9_E15difference_typeES9_
+- __ZNSt3__111__sift_downB9nqe210106INS_17_ClassicAlgPolicyERNS_7greaterINS_4pairIfxEEEENS_11__wrap_iterIPS4_EEEEvT1_OT0_NS_15iterator_traitsISA_E15difference_typeESA_
+- __ZNSt3__111__sift_downB9nqe210106INS_17_ClassicAlgPolicyERNS_7greaterINS_4pairIfxEEEEPS4_EEvT1_OT0_NS_15iterator_traitsIS8_E15difference_typeES8_
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_length_errorB9nqe210106Ev
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC1B9nqe210106EPKcm
+- __ZNSt3__113__min_elementB9nqe210106IRNS_7greaterINS_4pairIfxEEEENS_11__wrap_iterIPS3_EES8_EET0_S9_T1_T_
+- __ZNSt3__113__nth_elementB9nqe210106INS_17_ClassicAlgPolicyERNS_7greaterINS_4pairIfxEEEENS_11__wrap_iterIPS4_EEEEvT1_SA_SA_T0_
+- __ZNSt3__115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEE15__init_buf_ptrsB9nqe210106Ev
+- __ZNSt3__115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEEC2B9nqe210106Ej
+- __ZNSt3__116__insertion_sortB9nqe210106INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPNS_4pairIfNS5_IiiEEEEEEvT1_S9_T0_
+- __ZNSt3__116__insertion_sortB9nqe210106INS_17_ClassicAlgPolicyERNS_7greaterINS_4pairIfxEEEEPS4_EEvT1_S8_T0_
+- __ZNSt3__116__pad_and_outputB9nqe210106IcNS_11char_traitsIcEEEENS_19ostreambuf_iteratorIT_T0_EES6_PKS4_S8_S8_RNS_8ios_baseES4_
+- __ZNSt3__116__selection_sortB9nqe210106INS_17_ClassicAlgPolicyERNS_7greaterINS_4pairIfxEEEENS_11__wrap_iterIPS4_EEEEvT1_SA_T0_
+- __ZNSt3__117__floyd_sift_downB9nqe210106INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPNS_4pairIfNS5_IiiEEEEEET1_S9_OT0_NS_15iterator_traitsIS9_E15difference_typeE
+- __ZNSt3__117__floyd_sift_downB9nqe210106INS_17_ClassicAlgPolicyERNS_7greaterINS_4pairIfxEEEENS_11__wrap_iterIPS4_EEEET1_SA_OT0_NS_15iterator_traitsISA_E15difference_typeE
+- __ZNSt3__117__floyd_sift_downB9nqe210106INS_17_ClassicAlgPolicyERNS_7greaterINS_4pairIfxEEEEPS4_EET1_S8_OT0_NS_15iterator_traitsIS8_E15difference_typeE
+- __ZNSt3__119__allocate_at_leastB9nqe210106INS_9allocatorINS_4pairIfNS2_IiiEEEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS8_m
+- __ZNSt3__119__allocate_at_leastB9nqe210106INS_9allocatorINS_4pairIfxEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
+- __ZNSt3__119__allocate_at_leastB9nqe210106INS_9allocatorIP17_opaque_pthread_tEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
+- __ZNSt3__119__allocate_at_leastB9nqe210106INS_9allocatorIfEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS5_m
+- __ZNSt3__119__allocate_at_leastB9nqe210106INS_9allocatorIiEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS5_m
+- __ZNSt3__119__allocate_at_leastB9nqe210106INS_9allocatorIxEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS5_m
+- __ZNSt3__119__partial_sort_implB9nqe210106INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPNS_4pairIfNS5_IiiEEEES8_EET1_S9_S9_T2_OT0_
+- __ZNSt3__119__partial_sort_implB9nqe210106INS_17_ClassicAlgPolicyERNS_7greaterINS_4pairIfxEEEENS_11__wrap_iterIPS4_EES9_EET1_SA_SA_T2_OT0_
+- __ZNSt3__119__partial_sort_implB9nqe210106INS_17_ClassicAlgPolicyERNS_7greaterINS_4pairIfxEEEEPS4_S7_EET1_S8_S8_T2_OT0_
+- __ZNSt3__119basic_ostringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEC1B9nqe210106Ev
+- __ZNSt3__120__throw_length_errorB9nqe210106EPKc
+- __ZNSt3__124__copy_move_unwrap_itersB9nqe210106INS_11__copy_implEN11flatbuffers14VectorIteratorIiiEES4_NS_20back_insert_iteratorINS_6vectorIiNS_9allocatorIiEEEEEELi0EEENS_4pairIT0_T2_EESC_T1_SD_
+- __ZNSt3__124__put_character_sequenceB9nqe210106IcNS_11char_traitsIcEEEERNS_13basic_ostreamIT_T0_EES7_PKS4_m
+- __ZNSt3__126__insertion_sort_unguardedB9nqe210106INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPNS_4pairIfNS5_IiiEEEEEEvT1_S9_T0_
+- __ZNSt3__126__insertion_sort_unguardedB9nqe210106INS_17_ClassicAlgPolicyERNS_7greaterINS_4pairIfxEEEEPS4_EEvT1_S8_T0_
+- __ZNSt3__127__insertion_sort_incompleteB9nqe210106INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPNS_4pairIfNS5_IiiEEEEEEbT1_S9_T0_
+- __ZNSt3__127__insertion_sort_incompleteB9nqe210106INS_17_ClassicAlgPolicyERNS_7greaterINS_4pairIfxEEEEPS4_EEbT1_S8_T0_
+- __ZNSt3__131__partition_with_equals_on_leftB9nqe210106INS_17_ClassicAlgPolicyEPNS_4pairIfNS2_IiiEEEERNS_6__lessIvvEEEET0_S9_S9_T1_
+- __ZNSt3__131__partition_with_equals_on_leftB9nqe210106INS_17_ClassicAlgPolicyEPNS_4pairIfxEERNS_7greaterIS3_EEEET0_S8_S8_T1_
+- __ZNSt3__132__partition_with_equals_on_rightB9nqe210106INS_17_ClassicAlgPolicyEPNS_4pairIfNS2_IiiEEEERNS_6__lessIvvEEEENS2_IT0_bEES9_S9_T1_
+- __ZNSt3__132__partition_with_equals_on_rightB9nqe210106INS_17_ClassicAlgPolicyEPNS_4pairIfxEERNS_7greaterIS3_EEEENS2_IT0_bEES8_S8_T1_
+- __ZNSt3__16vectorINS_4pairIfNS1_IiiEEEENS_9allocatorIS3_EEE20__throw_length_errorB9nqe210106Ev
+- __ZNSt3__16vectorINS_4pairIfNS1_IiiEEEENS_9allocatorIS3_EEE9push_backB9nqe210106EOS3_
+- __ZNSt3__16vectorINS_4pairIfxEENS_9allocatorIS2_EEE11__vallocateB9nqe210106Em
+- __ZNSt3__16vectorINS_4pairIfxEENS_9allocatorIS2_EEE20__throw_length_errorB9nqe210106Ev
+- __ZNSt3__16vectorINS_4pairIfxEENS_9allocatorIS2_EEE8__appendEm
+- __ZNSt3__16vectorINS_4pairIfxEENS_9allocatorIS2_EEE9push_backB9nqe210106EOS2_
+- __ZNSt3__16vectorINS_4pairIfxEENS_9allocatorIS2_EEEC2B9nqe210106Em
+- __ZNSt3__16vectorIP17_opaque_pthread_tNS_9allocatorIS2_EEE20__throw_length_errorB9nqe210106Ev
+- __ZNSt3__16vectorIfNS_9allocatorIfEEE11__vallocateB9nqe210106Em
+- __ZNSt3__16vectorIfNS_9allocatorIfEEE20__throw_length_errorB9nqe210106Ev
+- __ZNSt3__16vectorIfNS_9allocatorIfEEEC2B9nqe210106Em
+- __ZNSt3__16vectorIiNS_9allocatorIiEEE20__throw_length_errorB9nqe210106Ev
+- __ZNSt3__16vectorIiNS_9allocatorIiEEE8__appendEm
+- __ZNSt3__16vectorIxNS_9allocatorIxEEE11__vallocateB9nqe210106Em
+- __ZNSt3__16vectorIxNS_9allocatorIxEEE20__throw_length_errorB9nqe210106Ev
+- __ZNSt3__16vectorIxNS_9allocatorIxEEEC2B9nqe210106Em
+- __ZNSt3__17__sort3B9nqe210106INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPNS_4pairIfNS5_IiiEEEELi0EEEbT1_S9_S9_T0_
+- __ZNSt3__17__sort3B9nqe210106INS_17_ClassicAlgPolicyERNS_7greaterINS_4pairIfxEEEENS_11__wrap_iterIPS4_EELi0EEEbT1_SA_SA_T0_
+- __ZNSt3__17__sort3B9nqe210106INS_17_ClassicAlgPolicyERNS_7greaterINS_4pairIfxEEEEPS4_Li0EEEbT1_S8_S8_T0_
+- __ZNSt3__17__sort4B9nqe210106INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPNS_4pairIfNS5_IiiEEEELi0EEEvT1_S9_S9_S9_T0_
+- __ZNSt3__17__sort5B9nqe210106INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPNS_4pairIfNS5_IiiEEEELi0EEEvT1_S9_S9_S9_S9_T0_
+- __ZNSt3__17__sort5B9nqe210106INS_17_ClassicAlgPolicyERNS_7greaterINS_4pairIfxEEEEPS4_Li0EEEvT1_S8_S8_S8_S8_T0_
+- __ZNSt3__18__uniqueB9nqe210106INS_17_ClassicAlgPolicyENS_11__wrap_iterIPiEES4_RNS_10__equal_toEEENS_4pairIT0_S8_EES8_T1_OT2_
+- __ZNSt3__19__sift_upB9nqe210106INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPNS_4pairIfNS5_IiiEEEEEEvT1_S9_OT0_NS_15iterator_traitsIS9_E15difference_typeE
+- __ZNSt3__19__sift_upB9nqe210106INS_17_ClassicAlgPolicyERNS_7greaterINS_4pairIfxEEEENS_11__wrap_iterIPS4_EEEEvT1_SA_OT0_NS_15iterator_traitsISA_E15difference_typeE
+- __ZNSt3__19__sift_upB9nqe210106INS_17_ClassicAlgPolicyERNS_7greaterINS_4pairIfxEEEEPS4_EEvT1_S8_OT0_NS_15iterator_traitsIS8_E15difference_typeE
+- __ZNSt3__1ssB9nqe210106IfNS_4pairIiiEEfS2_EENS_26common_comparison_categoryIJDTclL_ZNS_17__synth_three_wayB9nqe210106EEclsr3stdE7declvalIRT_EEclsr3stdE7declvalIRT1_EEEEDTclL_ZNS_17__synth_three_wayB9nqe210106EEclsr3stdE7declvalIRT0_EEclsr3stdE7declvalIRT2_EEEEEE4typeERKNS1_IS4_S9_EERKNS1_IS6_SB_EE
+- __ZSt28__throw_bad_array_new_lengthB9nqe210106v
+- _objc_retainAutoreleasedReturnValue
+- _objc_retain_x23
+- _objc_retain_x27
+CStrings:
+- ".cxx_destruct"
+- "@\"MMapStruct\""
+- "@\"NSArray\""
+- "@\"NSLocale\""
+- "@\"NSObject<OS_dispatch_queue>\""
+- "@\"NSSet\""
+- "@\"NSString\""
+- "@\"SRResources\""
+- "@16@0:8"
+- "@24@0:8@16"
+- "@24@0:8^@16"
+- "@32@0:8@16@24"
+- "@32@0:8@16^@24"
+- "@32@0:8Q16^@24"
+- "@32@0:8^v16Q24"
+- "@40@0:8@16@24^@32"
+- "@?"
+- "@?16@0:8"
+- "B24@0:8@16"
+- "B24@0:8^@16"
+- "B48@0:8@16@24Q32@40"
+- "C"
+- "C16@0:8"
+- "MMapStruct"
+- "Q"
+- "Q16@0:8"
+- "SREMusicCandidate"
+- "SREMusicFeatureExtraction"
+- "SREMusicMetadata"
+- "SREMusicMetadataRetrieval"
+- "SREMusicModelQuery"
+- "SREMusicRetrieval"
+- "SREMusicRetrievalModel"
+- "SREQueryIntent"
+- "T@\"MMapStruct\",&,N,V_modelMMap"
+- "T@\"NSArray\",&,N,V_genreIDs"
+- "T@\"NSLocale\",&,N,V_locale"
+- "T@\"NSObject<OS_dispatch_queue>\",&,N,V_queue"
+- "T@\"NSSet\",&,N,V_genres"
+- "T@\"NSString\",&,N,V_artistName"
+- "T@\"NSString\",&,N,V_artworkURL"
+- "T@\"NSString\",&,N,V_collectionName"
+- "T@\"NSString\",&,N,V_trackName"
+- "T@\"NSString\",&,N,VgenreID"
+- "T@\"NSString\",R,N,V_genreID"
+- "T@\"SRResources\",&,N,V_resources"
+- "T@?,C,VcandidatesHandler"
+- "T@?,C,VcompletionHandler"
+- "TC,N,V_trackExplicitness"
+- "TQ,R,N,V_size"
+- "T^v,R,N,V_buffer"
+- "Tq,N,V_collectionId"
+- "Tq,N,V_trackId"
+- "Tq,N,V_trackTimeMillis"
+- "Tq,N,VadamID"
+- "Tq,N,ValbumAdamID"
+- "Tq,N,VartistAdamID"
+- "UTF8String"
+- "^v"
+- "^v16@0:8"
+- "_artistName"
+- "_artworkURL"
+- "_buffer"
+- "_callCompletionHandler:"
+- "_callMetadataEndpointWithAdamIDs:queryIntent:"
+- "_collectionId"
+- "_collectionName"
+- "_fd"
+- "_genreID"
+- "_genreIDs"
+- "_genres"
+- "_handleSongEvent:context:numMusic:outputSequence:"
+- "_loadModelWithError:"
+- "_locale"
+- "_modelMMap"
+- "_parseQueryString:"
+- "_queue"
+- "_removeRecentlyPlayedCandidateAdamIDs:recentPlayed:"
+- "_resources"
+- "_size"
+- "_trackExplicitness"
+- "_trackId"
+- "_trackName"
+- "_trackTimeMillis"
+- "adamID"
+- "addObject:"
+- "albumAdamID"
+- "answerId"
+- "answers"
+- "array"
+- "arrayByAddingObject:"
+- "arrayWithCapacity:"
+- "arrayWithObjects:count:"
+- "artistAdamID"
+- "artistName"
+- "artworkURL"
+- "buffer"
+- "candidatesHandler"
+- "collectionId"
+- "collectionName"
+- "completionHandler"
+- "componentsJoinedByString:"
+- "containsObject:"
+- "count"
+- "countByEnumeratingWithState:objects:count:"
+- "currentLocale"
+- "date"
+- "dateWithTimeIntervalSinceNow:"
+- "dealloc"
+- "debugString"
+- "dictionaryWithCapacity:"
+- "dictionaryWithObjects:forKeys:count:"
+- "enumerateSongEventsThatOverlapWithDateInterval:ascending:error:usingBlock:"
+- "errorWithDomain:code:userInfo:"
+- "executeIntent:error:"
+- "extractAlbumMetadataFromFact:withAllAnswers:toCandidate:"
+- "extractArtistMetadataFromFact:withAllAnswers:toCandidate:"
+- "extractGenreMetadataFromFact:withAllAnswers:toCandidate:"
+- "facts"
+- "filePathArrayForKey:didFailWithError:"
+- "genre"
+- "genreID"
+- "genreIDs"
+- "genres"
+- "genresDebugString"
+- "graphSongFromContext:error:"
+- "hasUpdates"
+- "inferenceWithSequence:query:error:"
+- "init"
+- "initAndReturnError:"
+- "initWithBuffer:size:"
+- "initWithError:"
+- "initWithGenreID:"
+- "initWithIntent:args:score:"
+- "initWithIntents:query:limit:offset:"
+- "initWithLocale:queue:error:"
+- "initWithStartDate:endDate:"
+- "initWithValue:arg:"
+- "integerValue"
+- "isEqualToString:"
+- "isMusicRecEligible:"
+- "length"
+- "loadAllParametersForClient:locale:"
+- "locale"
+- "localeIdentifier"
+- "lowercaseString"
+- "mMapStructWithFilepath:"
+- "modelMMap"
+- "name"
+- "now"
+- "numberWithInteger:"
+- "numberWithLongLong:"
+- "numberWithUnsignedInteger:"
+- "objectAtIndexedSubscript:"
+- "objectForKey:"
+- "objectID"
+- "parents"
+- "parseAnswer:withAllAnswers:"
+- "playbackState"
+- "predicateId"
+- "q"
+- "q16@0:8"
+- "qualifiers"
+- "queryIntentWithGenres:"
+- "queue"
+- "resources"
+- "resourcesForClient:locale:options:"
+- "retrieveMusicMetadata:error:"
+- "retrieveMusicWithQuery:queryID:"
+- "retrieveNowPlayingHistoryWithLength:error:"
+- "setAdamID:"
+- "setAlbumAdamID:"
+- "setArtistAdamID:"
+- "setArtistName:"
+- "setArtworkURL:"
+- "setCandidatesHandler:"
+- "setCollectionId:"
+- "setCollectionName:"
+- "setCompletionHandler:"
+- "setGenreID:"
+- "setGenreIDs:"
+- "setGenres:"
+- "setLocale:"
+- "setModelMMap:"
+- "setObject:forKey:"
+- "setQueue:"
+- "setResources:"
+- "setTrackExplicitness:"
+- "setTrackId:"
+- "setTrackName:"
+- "setTrackTimeMillis:"
+- "setWithCapacity:"
+- "sharedInstance"
+- "sharedResourcesManager"
+- "size"
+- "songAdamId"
+- "songId"
+- "startDate"
+- "status"
+- "stringValue"
+- "stringWithFormat:"
+- "subarrayWithRange:"
+- "trackExplicitness"
+- "trackId"
+- "trackName"
+- "trackTimeMillis"
+- "v16@0:8"
+- "v20@0:8C16"
+- "v24@0:8@16"
+- "v24@0:8@?16"
+- "v24@0:8q16"
+- "v32@0:8@16@24"
+- "v32@0:8@16Q24"
+- "v40@0:8@16@24@32"
+
+```

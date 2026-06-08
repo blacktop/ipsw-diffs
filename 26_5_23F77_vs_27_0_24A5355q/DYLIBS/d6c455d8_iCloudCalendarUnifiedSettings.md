@@ -1,0 +1,251 @@
+## iCloudCalendarUnifiedSettings
+
+> `/System/Library/PrivateFrameworks/iCloudCalendarUnifiedSettings.framework/iCloudCalendarUnifiedSettings`
+
+```diff
+
+-2025.4.3.0.0
+-  __TEXT.__text: 0x2a3c sha256:3dd69ca9f89479c9315dcb8d8a0a304c4f2e58a1e9b8a737407bdf55d5469917
+-  __TEXT.__auth_stubs: 0x510 sha256:368ab5902bb298551c8258d2f2b9b5dada025455fed9b945c6235dcdbb13bb44
+-  __TEXT.__objc_methlist: 0x1f4 sha256:58e1f1bfe848c9d704f4d02042bb9d1a82fb305cbb22029a1c152732a327ae37
+-  __TEXT.__const: 0x256 sha256:e3ee1c69d74a6bfc6e8ff5289bfc2a7d97c74f46cea944609f317d67aebc4ef6
+-  __TEXT.__cstring: 0x11e sha256:971c6607f0733d091a2047950ceb929d50b54f660a98fef063ca635497c5b6c6
++2027.0.3.0.0
++  __TEXT.__text: 0x2b04 sha256:73e27fac679e0f3c015b72d9f8dc861fb0f976267745ab4242601d93a2e8b905
++  __TEXT.__objc_methlist: 0x1f4 sha256:880f47587a2c895ae470b0a4eb48ad938652eb0c67cc08d5ca18b447f2a7bae1
++  __TEXT.__const: 0x256 sha256:613b939a49c6be2451830c9dd3683e3d3a255d1a92cb58dc79520a8bef1db3a9
++  __TEXT.__cstring: 0x12e sha256:2194a136cf30210d5c1444bb8e3873e95268fec8cb9521416989b9df16b4ea22
+   __TEXT.__oslogstring: 0xbe sha256:7a93c004de5f1b1b9ec19f73cab5b70df0d6af8b2546cfa7dba916c523aedd0b
+-  __TEXT.__constg_swiftt: 0xc4 sha256:d1ff4434f64cee10cba2b5e2495f5d7fc2e23253a133a80c9f92bcb936003524
+-  __TEXT.__swift5_typeref: 0x115 sha256:d350b384169bc6250b5ef611eeef58216d67c4e193f11c6378482a0afc86ba55
++  __TEXT.__constg_swiftt: 0xc4 sha256:3c03c32175abdbff0e1708fb462c5627931cf6a0471f453109480560ee515b79
++  __TEXT.__swift5_typeref: 0x115 sha256:1c88d6cc610edd2d7b4aa552cadf1c046aa8a231a3294f40fdd3285d9d3c4b5a
+   __TEXT.__swift5_reflstr: 0x8a sha256:8ec2dd01ccbe75c25e665fd5e7a76ac8ec11a1b1641bfc31ae42d77a05ce157a
+   __TEXT.__swift5_fieldmd: 0x5c sha256:e823618f061dca1790f73257e1f1fff2ebc8686c029b00f840eb8d3489f451f6
+   __TEXT.__swift5_builtin: 0x14 sha256:aba97be67262feda18309df1621289a086579ba8b1106bc7a52856239543c3bc
+   __TEXT.__swift5_assocty: 0x30 sha256:7a0094cab5f1c527b9b6396122a868c6a1c62bd7bf58675c2bdc6e3a30576cc1
+-  __TEXT.__swift5_proto: 0x18 sha256:62c927498e358a3fd1f62385c70e5d74d763014ae31db6e6f8a7f3631ee7c693
++  __TEXT.__swift5_proto: 0x18 sha256:000c6d3e3501b8bdf5f707d492883a1da20eaff9e803949aaa6c412129d60a49
+   __TEXT.__swift5_types: 0x8 sha256:977d0ffb7fec44559931c34bbff54b500561a32861caac54d8e520d752f8b10a
+-  __TEXT.__unwind_info: 0x128 sha256:6fc3c01f1c41cfade4984456d1aa1013a177e3a19abd5f0a74247f114c49080a
+-  __TEXT.__objc_classname: 0xcc sha256:05c52ccdc9a9e7893c8846306c6ecc1cb4435d91807fbd22e6d2a5667915925d
+-  __TEXT.__objc_methname: 0x466 sha256:61edfeb5ef521ccc45b7c5f94f7208429ec639e8cf3c5849918052891358c236
+-  __TEXT.__objc_methtype: 0x196 sha256:6a0a08b27c759a02418d2134ef3df8e19b597fbc36a1c9123e839a96f2da5b0f
+-  __TEXT.__objc_stubs: 0x1e0 sha256:10373446f29cb1c2d31caea9c7cdc07a89fd43def0d5e8f0dbcba74cb5b1e62f
+-  __DATA_CONST.__got: 0x80 sha256:38723a2e5e8a17aa7950dc008209944e898f69a7bd10a23c839d341e935fd5ca
+-  __DATA_CONST.__const: 0x78 sha256:6edd9f6f9cc92cded36e6c4a580933f9c9f1b90562b46903b806f21902a1a54f
+-  __DATA_CONST.__objc_classlist: 0x10 sha256:92ff83b2e7d0cc82377837b70958496315720d7aa0d18771bd46ba7c8ba9aacf
+-  __DATA_CONST.__objc_protolist: 0x30 sha256:45130b9531c3251da38834d998f54f900b77ba5562b7a97c87c82c963ab2613a
+-  __DATA_CONST.__objc_imageinfo: 0x8 sha256:8c2e86a3d61473a17440ee60441113a7d285704a3b70278f03e88b3c356a5493
+-  __DATA_CONST.__objc_selrefs: 0x148 sha256:b07f237b02c038dced0a88d3d82a475e9cfc12f85536a145e7fcbffc2ea70099
+-  __DATA_CONST.__objc_protorefs: 0x18 sha256:a3bacfbb6421c8b9c8698ecd1758fd40b847c5db811599d471a71a1be20b9f15
+-  __DATA_CONST.__objc_superrefs: 0x8 sha256:8b12ef5c8e31ed06290e021947f0e5b4b89fb621a75ccd98b7ae10a7ca00d74a
+-  __AUTH_CONST.__auth_got: 0x290 sha256:e06e79cdfedfc6d6107b945613e65b2de3a209e40115b9b00ab048d2b91cd7d5
+-  __AUTH_CONST.__const: 0x50 sha256:49ef91492cd030c2a62315c707a670d7d3bc74fa6c02d8fdd404c99a2139da48
+-  __AUTH_CONST.__objc_const: 0x2d0 sha256:20b1a6a7bd8e49d443fe97e6b01510b2e8c1d880f91fef5dfb047d7454966dca
+-  __AUTH.__objc_data: 0x178 sha256:781dfda27f62783f41b6d773a7a3cdc987fbd4d11d95c72c40f0d77524ed7440
+-  __AUTH.__data: 0x28 sha256:b73cb400f5dd92243e75c228fc9e5db4a04b4365e61f111d1dd9badefdef5e3e
++  __TEXT.__unwind_info: 0x118 sha256:aad51b6089fd03b7f4504695cafc6c89039fff7a326570a96873f4122a687f7b
++  __TEXT.__objc_stubs: 0x0
++  __TEXT.__auth_stubs: 0x0
++  __TEXT.__objc_classname: 0x0
++  __TEXT.__objc_methname: 0x0
++  __TEXT.__objc_methtype: 0x0
++  __DATA_CONST.__const: 0x80 sha256:38723a2e5e8a17aa7950dc008209944e898f69a7bd10a23c839d341e935fd5ca
++  __DATA_CONST.__objc_classlist: 0x10 sha256:b659247be83f83174d342dacf7cc569f484a13be61930c516d7237dbb576b5e8
++  __DATA_CONST.__objc_protolist: 0x30 sha256:cdd6222a7735504b84cbd9465fbba588b221dcc83b7f6d1a7c18888a6aa87be7
++  __DATA_CONST.__objc_imageinfo: 0x8 sha256:ce857dcadc2529f941104469975d60698ea3610a86c121e7b4aee224cd0c59ea
++  __DATA_CONST.__objc_selrefs: 0x148 sha256:b3a6dfd5f2cdea2f84c17992d02e6b93fdacc47d4276f41a91e28b1e4de00fba
++  __DATA_CONST.__objc_protorefs: 0x18 sha256:e26ca3d556e065092ad891fc4b2aeafdda08fc2601901d106abf83dde81726cd
++  __DATA_CONST.__objc_superrefs: 0x8 sha256:bf2d5ac915cdbfae196f62e6b6d856e2e59d91228440b7355ff5be31a38980f6
++  __DATA_CONST.__got: 0x0
++  __AUTH_CONST.__const: 0x50 sha256:c3907afecd3d6f5c4ad4d02a9e5e1d0814667c76d4656243d2d11b3562ea526d
++  __AUTH_CONST.__objc_const: 0x2d0 sha256:9b578cc0a41cdf21e5e23bae5fcd00baa2450496a0b46e68db7154f4aed06fe4
++  __AUTH_CONST.__auth_got: 0x2b0 sha256:334e61fade598d87a35822d34aaa6adec70d9edb5a441ea134552eeb2afd813e
++  __AUTH.__objc_data: 0x178 sha256:f6e6ca141c0f30f4d0a8d998040d6ac239286df8da6d0104ee4da0d8b71f7c73
++  __AUTH.__data: 0x28 sha256:50f25bcab071d2c34e3494439497f75405ccdaeee1763686de6db258769ae41e
+   __DATA.__objc_ivar: 0x4 sha256:dc765660b06ee03dd16fd7ca5b957e8c805161ac2c4af28c5a100ab2ab432ca1
+-  __DATA.__data: 0x190 sha256:6b2e28e080220d0c647d5393f2343b7e5789e55893edc34fd4a0ca0d49701d95
++  __DATA.__data: 0x190 sha256:38596e0305dbedc2ef0217ddac911050fde0fe0e8589f7bc60be358cc3cb26cb
+   __DATA.__bss: 0x320 sha256:67042dfda5683aead81b6055d19c4dba238341f9dd82f49c0e7cc0c19c5f10d1
+   - /System/Library/Frameworks/Accounts.framework/Accounts
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+
+   - /usr/lib/swift/libswiftCore.dylib
+   - /usr/lib/swift/libswiftCoreFoundation.dylib
+   - /usr/lib/swift/libswiftCoreImage.dylib
++  - /usr/lib/swift/libswiftCoreLocation.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
+   - /usr/lib/swift/libswiftMetal.dylib
+   - /usr/lib/swift/libswiftOSLog.dylib
+
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 0CA98483-6F66-3AB3-9C53-455C3B7DED1C
+-  Functions: 70
+-  Symbols:   400
+-  CStrings:  89
++  UUID: 69437FF2-78DB-3887-8C6F-C0CCD328A45F
++  Functions: 71
++  Symbols:   408
++  CStrings:  10
+ 
+Symbols:
++ _$s29iCloudCalendarUnifiedSettings01iabcD8ProviderC9presenterACSo16UIViewControllerC_tcfcTf4gn_n
++ __swift_FORCE_LOAD_$_swiftCoreLocation
++ __swift_FORCE_LOAD_$_swiftCoreLocation_$_iCloudCalendarUnifiedSettings
++ _objc_release_x26
++ _objc_release_x27
++ _swift_release_x21
++ _swift_release_x25
+Functions:
+~ -[iCloudCalendarUnifiedSettingsProviderObjc initWithAccountManager:presenter:] : 148 -> 152
+~ -[iCloudCalendarUnifiedSettingsProviderObjc initWithPresenter:] : sha256 4d285f3646c2b192cf2bb772f83df27ceab7f905a5a5a4f4b9a8403fd385427f -> ac168727863e03862d6f4ded1a09be0fb0fa4bd035310bbd6707b86495e9c415
+~ -[iCloudCalendarUnifiedSettingsProviderObjc navigateToiCloudCalendarSettings] : sha256 053080637f5abf188cab00e9f5c51df9d688401d7f396566430d20169f7b8123 -> e2febde1fb529a8612640672423db1b62fc6cf8c00fff817738732386ada76df
+~ -[iCloudCalendarUnifiedSettingsProviderObjc navigateToiCloudCalendarSettingsWithDeeplink:] : sha256 b39cdae67e2da02ea950ff7bb33eb7bde8103b0980f8aa75f81e23ed80488433 -> 06a0fbe41ba0ee9659afcd72bd947e76911529b6d886b95d03e7c5624d670bcd
+~ -[iCloudCalendarUnifiedSettingsProviderObjc .cxx_destruct] : sha256 8f7ba500befb05135f113563fa836845d778223cad991132b61ec5b4e7dc07ca -> 7c361c6e3a6fea1d379ae973a11712ba331d7853d29e4b7bd2aad2f37b831117
+~ _$s29iCloudCalendarUnifiedSettings01iabcD8ProviderC20serviceOwnersManager33_3099D29EDB614C719A1CD4A734422216LLSo011AIDAServicegH0Cvg : sha256 45517d2223221212591c5db2e6267d0e7fe32ee926c0eaa7ec5ccca72a58c5b5 -> 85c5461ba35d28f25766ddc8ce911b861d8bd57a1795116031f5cfd9d1d5c980
+~ _$s29iCloudCalendarUnifiedSettings01iabcD8ProviderC14accountManager9presenterACSo011AIDAAccountG0C_So16UIViewControllerCtcfC : 180 -> 168
+~ _$s29iCloudCalendarUnifiedSettings01iabcD8ProviderC14accountManager9presenterACSo011AIDAAccountG0C_So16UIViewControllerCtcfc : 176 -> 164
+~ _$s29iCloudCalendarUnifiedSettings01iabcD8ProviderC14accountManager9presenterACSo011AIDAAccountG0C_So16UIViewControllerCtcfcTo : 68 -> 184
+~ _$s29iCloudCalendarUnifiedSettings01iabcD8ProviderC9presenterACSo16UIViewControllerC_tcfC : 52 -> 64
+~ _$s29iCloudCalendarUnifiedSettings01iabcD8ProviderC9presenterACSo16UIViewControllerC_tcfc : 236 -> 48
+~ _$s29iCloudCalendarUnifiedSettings01iabcD8ProviderC9presenterACSo16UIViewControllerC_tcfcTo : 40 -> 56
+~ _$s29iCloudCalendarUnifiedSettings01iabcD8ProviderC011navigateToiabD0yyF : sha256 ad0392df2af3bad9e1c091d7e248ff8e63d2e5d8e2c1c8907865020a274a7c18 -> 0931041e9f0677c2329db9ec50cc7d8070d318f86fcd52299fe671e69efeaa20
+~ _$s29iCloudCalendarUnifiedSettings01iabcD8ProviderC011navigateToiabD0yyFTo : sha256 e059f9c0cf5ca542b99fbfc6a12391a094a96c771e27a0f5144da31db70d92e3 -> f102d22a01ad4eb75759e695b9cec54972edaa685144b6ab877bfd3bc2ed2f45
+~ _$s29iCloudCalendarUnifiedSettings01iabcD8ProviderC011navigateToiabD04withySSSg_tF : 632 -> 664
+~ _$s29iCloudCalendarUnifiedSettings01iabcD8ProviderC011navigateToiabD04withySSSg_tFTo : sha256 179a955c75dc5578701e613d5ea4c950a0e400580bfc91782116828872aa7e25 -> 65d201ad5a588d31537458d394d8568ab2177af6528d54fd5ff7fd7746ef516a
+~ _$s29iCloudCalendarUnifiedSettings01iabcD8ProviderCACycfC : sha256 3eae0478c9dc2cc29a068d44605581a0824a29d059573e2eeb2b283317dd67e8 -> 8efed969904b0d4d72ca0dce36369595ab89bd0b16d5a671fe4e7a87272dab6b
+~ _$s29iCloudCalendarUnifiedSettings01iabcD8ProviderCfD : sha256 3088f536be86016ed68f9ca6e54d2c421f7f17be2b8d46fd9dc51bfab17517d5 -> ff827fcaa0a6f7ab70659008544d196b3f9443c3a2c4bdea7df2dcf388deed99
+~ _$s29iCloudCalendarUnifiedSettings01iabcD8ProviderCfETo : sha256 e1b3db335276ac6ed7ce8e3be9e6be39a94583f0479ed63a2d5df475f48722dc -> c7a83e4f67f79543f2f71af646bfb9dfc133792c28dcdcbd631095886a5f2cf7
+~ _$s29iCloudCalendarUnifiedSettings01iabcD8ProviderC8accounts3forSDySo15AIDAServiceTypeaSo9ACAccountCGSo18AIDAAccountManagerC_tF : sha256 3bbaeaab58bd6b60b0f2e8e9e206f452f8e49836a8096efff7d10d517f0594ec -> 9bf5807f79f93ad2aae318569b5c22e9320ba9f029c05868f56c1024f21bbb9c
+~ _$sSDyq_SgxcisSo15AIDAServiceTypea_So9ACAccountCTg5 : 260 -> 268
+~ _$s29iCloudCalendarUnifiedSettings01iabcD8ProviderC7account33_3099D29EDB614C719A1CD4A734422216LL3for14primaryAltDSID0N4DsidSo9ACAccountCSgSo15AIDAServiceTypea_S2StF : 1280 -> 1276
+~ _$s29iCloudCalendarUnifiedSettings01iabcD8ProviderC8accounts3forSDySo15AIDAServiceTypeaSo9ACAccountCGSo18AIDAAccountManagerC_tFTo : sha256 0bd683bc5166027f9001759eca7f42fa9d59975a30a80c4b39a2014b3b9ce595 -> 6293ff4356ed662c26c35bd7b76cd16ce5216a12c9f1e90464a8fbe84eec9a11
+~ _$s2os6LoggerV29iCloudCalendarUnifiedSettingsE7current33_3099D29EDB614C719A1CD4A734422216LL_WZ : sha256 0ca41522cf84a3ac7a93f38b084b88f43889d03e7d7636feb00557674fb07b1a -> 2068f70bca9d1dddf2fa6b4700323942f6d8e470fa4210846044272c2fc48302
+~ _$sSo15AIDAServiceTypeaSHSCSH9hashValueSivgTW : sha256 e839609b9e456046d863617f836d604282db0c6a4695ed0d3c8ded5116d7a186 -> 89414b41d150cbdbbfa39d32a95315adc82e4389f0d7bed1ebdcb047b2125afb
+~ _$sSo15AIDAServiceTypeaSHSCSH4hash4intoys6HasherVz_tFTW : sha256 81711a435927675ac558b0f1a27723caa8db3336b97f82d8f6eae07594868e93 -> 45169c31b02414f6178771fe4665be63be7eed65582acd3adbff18223664e658
+~ _$sSo15AIDAServiceTypeaSHSCSH13_rawHashValue4seedS2i_tFTW : sha256 3229a1f006a0d5d82f025f3927c71fc2e25a005842af0c06d82f8939569bf3c8 -> 21d6d3e20aaa6cc5e3a7a223efa42522159a92848e0cd0cbf6f92660f0c25fb7
+~ _$sSo15AIDAServiceTypeas21_ObjectiveCBridgeableSCsACP09_bridgeToC1C01_C5CTypeQzyFTW : sha256 847971f463040257bbb5a8d76d500a07e74485104ba7c64e4cc0ee2a70405953 -> c3f189ba9ea4f28834bc91508248ce7171ed7f4e484257612a00d684635af70f
+~ _$sSo15AIDAServiceTypeas21_ObjectiveCBridgeableSCsACP016_forceBridgeFromC1C_6resulty01_C5CTypeQz_xSgztFZTW : sha256 0f4a50d6c444b38fbdd7a28dedd243c5dcec4726b236fdc88435cf01f3fbe4a3 -> df38b69465e8ac355c04593cd1db3dae360514027804889a1ea834c29a695120
+~ _$sSo15AIDAServiceTypeas21_ObjectiveCBridgeableSCsACP024_conditionallyBridgeFromC1C_6resultSb01_C5CTypeQz_xSgztFZTW : sha256 7c32d09d7a3f0a5c8a768e27e73518e53590c71e8659b7f9f8a478b5eb95039d -> ec51e795145bc4f38e95a31350631f7d6a1872a0d2b6bc9f5b56c75f2380b91c
+~ _$sSo15AIDAServiceTypeas21_ObjectiveCBridgeableSCsACP026_unconditionallyBridgeFromC1Cyx01_C5CTypeQzSgFZTW : sha256 5f682a4cc52e83ce6a45d2e437aff5c200e2f4b2d7e4c286cbccb23e495aa259 -> fe3af29ffe767d31d2745b2c8b9b4433ce77b83144745f352ee9e29a217db58f
+~ _$sSo15AIDAServiceTypeaSQSCSQ2eeoiySbx_xtFZTW : sha256 304f497340117220cfe9b3c66708de579c4281b840e3ef6fa1c1bca6a3abaf6f -> 428620199ed8d2dc7a7f71780825f21c009b8026fc06295667bed985299b59fa
+~ _$sSo15AIDAServiceTypeaSYSCSY8rawValuexSg03RawD0Qz_tcfCTW : sha256 74b2a64bd7176a57a5c66712e96fffc5885d044ab213dc9b4d20bb2d9a3adaeb -> f1658108a39046d429a45722744e1395d2735d523af09f87c47133ab6e250802
+~ _$sSo15AIDAServiceTypeaSYSCSY8rawValue03RawD0QzvgTW : sha256 5aeccb406f9be3813a5e277b64d3cbf0500fbdba4007e484d2fb31484d0b6f80 -> 561685bda28b6250e4fb9e6df28447c5b69364ec7bc330639c58d89f0dc3a1f1
+~ _$sSo15AIDAServiceTypeas35_HasCustomAnyHashableRepresentationSCsACP03_todeF0s0eF0VSgyFTW : sha256 c459bf5e39d21e07e872b8a8c2c246c57558fcf01dabccc790c45cbed9b82040 -> c999e4e09f0480bb177ebb9728ec169fcf31451eef6e00091968ae12fd2648d1
+~ _$s2os32getNullTerminatedUTF8PointerImpl_21storingStringOwnersInSVSS_SpyypGSgztF : sha256 85eb3fcb3c3eea2f6d3f1ee45172373feac96c7045a7950bbee5d1a45c51136f -> 0b52016fd076b88c2a52ca0d56cb312edabe5ae39015e91a1182745ec4d4178a
+~ _$ss11_StringGutsV16_deconstructUTF87scratchyXlSg5owner_xSi6lengthSb11usesScratchSb15allocatedMemorytSwSg_ts8_PointerRzlFSV_Tgq5 : 276 -> 280
+~ _$ss11_StringGutsV23_allocateForDeconstructyXl5owner_SVSi6lengthtyF : sha256 50aa26641f459c193498487edd7cc1187be7404263b9f606b05bde3d2c1a79bd -> e51c9bca0a27783b88a0bf0fdbc7298edfc75d8dc724be1d0edb8fd3abacf60c
+~ _$ss32_copyCollectionToContiguousArrayys0dE0Vy7ElementQzGxSlRzlFSS8UTF8ViewV_Tgq5 : sha256 f260577612894dadd2d27b34971f066a5ab1d372c2c98dba25b1f110fa2c0ad6 -> 3fc75bb7c43109beb03c95445983205bda630ee537a3a9ff999c0bfb9aaf4cc3
+~ _$sSa6append10contentsOfyqd__n_t7ElementQyd__RszSTRd__lFs5UInt8V_SayAFGTgq5 : sha256 bc1f7413853bce1fd1b991c1c254268b1603377547d7bbe77e508e04c28ae3e7 -> 98e19bdbcde94b32de3358a521847a0b74c61c68b15d76bee1820e4f6fb44b0a
+~ _$ss22_ContiguousArrayBufferV19_uninitializedCount15minimumCapacityAByxGSi_SitcfCs5UInt8V_Tt1gq5 : sha256 29e3f526e1a4ee28184830886a996c9102b8ebbade4291f3961f14bbef6492de -> 44de3fd63552cd3a30c63ac029d54f9c5d90a2a09d217ad50ac619d3a4f42adc
+~ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFs5UInt8V_Tgq5 : sha256 5e98a38c2d5185b14d4fc863e19aad2ec244ffd16b85fd4feba4e50b67445b49 -> 09f5c415b922f6374d5e055b422ac8c0a4fb8d4310780b4be47baae85d6bb1ea
+~ _$ss22__RawDictionaryStorageC4findys10_HashTableV6BucketV6bucket_Sb5foundtxSHRzlFSo15AIDAServiceTypea_Tg5 : sha256 fb54c54ceddb9a73b79647732114d1d9dff9baf1f81a1f0d7c5ad28e252833ec -> 80e1106346d0948371e6be2aec0f8e583ebcf47ea7c741857061463a4a72ce9a
+~ _$ss17_NativeDictionaryV20_copyOrMoveAndResize8capacity12moveElementsySi_SbtFSo15AIDAServiceTypea_So9ACAccountCTg5 : 700 -> 696
+~ _$ss17_NativeDictionaryV7_delete2atys10_HashTableV6BucketV_tFSo15AIDAServiceTypea_So9ACAccountCTg5 : 448 -> 456
+~ _$ss17_NativeDictionaryV8setValue_6forKey8isUniqueyq_n_xSbtFSo15AIDAServiceTypea_So9ACAccountCTg5 : 352 -> 356
+~ _$ss22__RawDictionaryStorageC4find_9hashValues10_HashTableV6BucketV6bucket_Sb5foundtx_SitSHRzlFSo15AIDAServiceTypea_Tg5 : 252 -> 260
+~ _$ss17_NativeDictionaryV4copyyyFSo15AIDAServiceTypea_So9ACAccountCTg5 : 356 -> 348
+~ _$s29iCloudCalendarUnifiedSettings01iabcD8ProviderC04loadbD14BundleIfNeeded33_3099D29EDB614C719A1CD4A734422216LLyyFTf4d_n : sha256 3f2ea5f66a01796e1508367899715e804d8ef395d12a8c1d670930d16a827376 -> c78571b444eccb52b430f7e0b8222c31234ea36149e3533a3e47f6eb708a8114
+~ _$s29iCloudCalendarUnifiedSettings01iabcD8ProviderCMa : sha256 124654cfb7a541639aa210897a3cc4d29594f2d017ebf4c487cf89401bb682a2 -> 9e0851cf67118829135ce6a3dcdb59682838d2ff6ffe7d6be5288a2e5b4bad33
++ _$s29iCloudCalendarUnifiedSettings01iabcD8ProviderC9presenterACSo16UIViewControllerC_tcfcTf4gn_n
+~ _$s29iCloudCalendarUnifiedSettings01iabcD8ProviderC8accounts3forSDySo15AIDAServiceTypeaSo9ACAccountCGSo18AIDAAccountManagerC_tFTf4dn_n : sha256 aea00a42ce1b0320040db8348289c0b2d92c6e643bd1227414228bd5529eccd4 -> 4986c7a80423b3bbcfa77fb22bfe6f88727514e9112836e5ca2b3bb541c4ba81
+~ _$s29iCloudCalendarUnifiedSettings01iabcD8ProviderCMu : sha256 2406117c6d144c529b39522c1b96979631a7c2a464565c40ea349819f29e2cfd -> e79cd4f9ad68141d85b886312770a395cc345529983f14d8d03127f97f166c29
+~ _$s29iCloudCalendarUnifiedSettings01iabcD8ProviderC011navigateToiabD0yyFTj : sha256 0b6366100639e267b5eeb7bebd1179d2f9896a183162a89029c29fcb3ee7f178 -> dc8d1c94457e5e5161426c925f6c95a5048306e30ef9b198241a432155cd4835
+~ _$s29iCloudCalendarUnifiedSettings01iabcD8ProviderC011navigateToiabD04withySSSg_tFTj : sha256 d2ad63e2867c07aa09c6c8e7766cb4629ae2f4a472ef11e334c13659d4a8f63f -> 2d962f7fbcb1fd542439adbc4e61b26b71a85643b9aea0ef9c9d4f08e5546626
+~ _$sSo15AIDAServiceTypeaMa : sha256 2dda0a144d419a2e3a17fc3672f079f2ea4fd073f16de3086555e38d223dea99 -> 6a404cfe943aa16d363cb41b37ab30b99ed3a3430f24de917813780d75079832
+~ _$sSo9ACAccountCMa : sha256 d754aee8a3661c5988531abfde855f24105b842372b567535a91705451018b21 -> 65a0905bf1095e6563756be638fece2d698adfbfcb79c716a4aaae549aa89cac
+~ ___swift_destroy_boxed_opaque_existential_0 : sha256 4b8b8f824d757405d5beb39ba707eb2b2852ce5fd874b86bead8660fe89a6045 -> 2cab827fc9c63ea558a694a408092b58aab00bbbe90b78e496a4e89de76ccb46
+~ ___swift_instantiateConcreteTypeFromMangledNameV2 : sha256 7b58a174267f54b1ee3ab39f0051523aec8c2889b0dd4af5409ade0ec4bbee15 -> 37879709d3a0462c529ba1e316a7dd59279da3917627083b1c67af6c38106411
+~ __swift_stdlib_malloc_size : sha256 9ec80de80202158f5574a8ab5ededfe24f3f96f508bb0230c5fea3e28cefae7e -> df0b4783070218af4569600945a33a93c61192d2c9e6f4713fff5d0b9a44180c
+~ ___swift_allocate_value_buffer : sha256 3cc389baa689b3d3ff3ef1932644f46e701a8ec9c00c5c42738efcc28b3a250c -> 5eb1ee99f54dac227b8bef2694a9893daa37d83629f538c8ffdc8bbd5ee6f15d
+~ _$sSo15AIDAServiceTypeas20_SwiftNewtypeWrapperSCSYWb : sha256 565c9eea058bab9327076c5b573d1de6e679c2c6dbb4cdcaafc1f445f008d340 -> 197027edd4abfd2092d285b165f8802ab326d5a22cc936a7077b5f7e2286df0b
+~ _$sSo15AIDAServiceTypeas20_SwiftNewtypeWrapperSCs35_HasCustomAnyHashableRepresentationPWb : sha256 dbb4934aa49be1598d71c2d23589a6e50994445533d65d22df073684a034f585 -> 74e281ba56cf4c24f661732a615528e84d55386a989417b6e925195435133e28
+~ _$sSo15AIDAServiceTypeaSHSCSQWb : sha256 3d3427b136e0c737e3f8f5fd8d4204e867442eb1829246023c842ebebc300dd2 -> b937c86c62775873a2480cdf5f1a63e3c23302ef1fbf65f1680cf4353154e0c5
+~ _$sSo15AIDAServiceTypeaABSHSCWlTm : sha256 e41c090d9d28d7b9c05a52fb91270fbaefd838e079d45046e3085679de489944 -> 0ae5196296a875b3a86761cd9f8ec4acb26cfefa74767d2935adee92bb529552
+~ _$s29iCloudCalendarUnifiedSettings01iabcD8ProviderCACycfc : sha256 fd517d6633b51865706dcc3cdadb022d532ca76ccab7db3366df52d925b014a8 -> a7f79e4d28674ea5979d5c42e044e78d5f217883cb5acc41495d5d3aee51cf05
+~ _$s29iCloudCalendarUnifiedSettings01iabcD8ProviderCACycfcTo : sha256 1304cf750faba31053cb06497af363d67188fa912ecec9169bcfcdc7417e4c14 -> 81b832254032b39e85397930f007af37ff0f3b5a5520938e02a6b48354f172cc
+CStrings:
+- "#16@0:8"
+- "$__lazy_storage_$_serviceOwnersManager"
+- ".cxx_destruct"
+- "@\"NSDictionary\"24@0:8@\"AIDAAccountManager\"16"
+- "@\"NSString\"16@0:8"
+- "@\"iCloudCalendarUnifiedSettingsProvider\""
+- "@16@0:8"
+- "@24@0:8:16"
+- "@24@0:8@\"UIViewController\"16"
+- "@24@0:8@16"
+- "@32@0:8:16@24"
+- "@32@0:8@\"AIDAAccountManager\"16@\"UIViewController\"24"
+- "@32@0:8@16@24"
+- "@40@0:8:16@24@32"
+- "AIDAAccountManagerDelegate"
+- "B16@0:8"
+- "B24@0:8#16"
+- "B24@0:8:16"
+- "B24@0:8@\"Protocol\"16"
+- "B24@0:8@16"
+- "DSIDForAccount:service:"
+- "NSObject"
+- "Q16@0:8"
+- "T#,R"
+- "T@\"NSString\",?,R,C"
+- "T@\"NSString\",R,C"
+- "TQ,R"
+- "Vv16@0:8"
+- "^{_NSZone=}16@0:8"
+- "accountForService:"
+- "accountManager"
+- "accountsForAccountManager:"
+- "altDSIDForAccount:service:"
+- "autorelease"
+- "calendarSettingsProvider"
+- "class"
+- "conformsToProtocol:"
+- "dealloc"
+- "debugDescription"
+- "defaultStore"
+- "description"
+- "hash"
+- "iCloudCalendarUnifiedSettings"
+- "iCloudCalendarUnifiedSettingsProvider"
+- "iCloudCalendarUnifiedSettingsProviderObjc"
+- "iCloudCalendarUnifiedSettingsProviderType"
+- "init"
+- "initPresenter:"
+- "initWithAccountManager:presenter:"
+- "initWithAccountStore:"
+- "initWithManager:presenter:"
+- "initWithPath:"
+- "initWithPresenter:"
+- "isEqual:"
+- "isKindOfClass:"
+- "isLoaded"
+- "isMemberOfClass:"
+- "isProxy"
+- "load"
+- "navigateToiCloudCalendarSettings"
+- "navigateToiCloudCalendarSettingsWith:"
+- "navigateToiCloudCalendarSettingsWithDeeplink:"
+- "onCalendarTapWithDeeplink:"
+- "performSelector:"
+- "performSelector:withObject:"
+- "performSelector:withObject:withObject:"
+- "presenter"
+- "provider"
+- "release"
+- "respondsToSelector:"
+- "retain"
+- "retainCount"
+- "self"
+- "setDelegate:"
+- "superclass"
+- "v16@0:8"
+- "v24@0:8@\"NSString\"16"
+- "v24@0:8@16"
+- "zone"
+
+```

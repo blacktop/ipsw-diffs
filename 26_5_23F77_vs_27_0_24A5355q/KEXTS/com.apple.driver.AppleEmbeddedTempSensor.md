@@ -248,7 +248,7 @@ Functions:
 ~ sub_fffffe0008905dd0 -> sub_fffffe0008b85870 : sha256 f88b2966917041f7f29f1b54006db2ee589c188c71a1b9ec5d453216d2218469 -> 56a6a7912c42ccb268042ad491e0077730992c3f7b2ec7d5bce4040a06653954
 ~ sub_fffffe0008905dd8 -> sub_fffffe0008b85878 : sha256 f8cf84f49f7e0ee5adca60076de9137ac5c8694bf50c54d41d8d05f1134ce928 -> 480c5520be3ecad702c7271e97a3c7383ffda45036365231b53d5ac71bccba41
 ~ sub_fffffe0008905e28 -> sub_fffffe0008b858c8 : sha256 36aabc6246b169aab4c5e62601cafb4544a06d9a6486caa746fc70e2eaa6f755 -> 5847bde84315d39bb9f5e143ce7e6af84f213ae844e614fcf1503106fa6d367a
-~ sub_fffffe0008905e38 -> sub_fffffe0008b858d8 : sha256 af159b2f66bb899dbff9c44e6f1d1513708556262bfef3dc5a76b38bbcc64cad -> e1575cf4d822c763878fcd5ea3fa1bec95cc26ed9abafb44f1b65bf746d9576c
+~ __ZN22AppleDieTempController5startEP9IOService.cold.2 -> sub_fffffe0008b858d8 : sha256 af159b2f66bb899dbff9c44e6f1d1513708556262bfef3dc5a76b38bbcc64cad -> e1575cf4d822c763878fcd5ea3fa1bec95cc26ed9abafb44f1b65bf746d9576c
 ~ sub_fffffe0008905e80 -> sub_fffffe0008b85920 : sha256 b97cc340d8c0c2f9b1190425fca34007d85fb463d33b2f5919ec39ca603b7ecc -> 32b34d7de6c98f90e942404fdbf6f70e98842fe6ed04d9fa259077181d325cad
 ~ sub_fffffe0008905e88 -> sub_fffffe0008b85928 : sha256 a3e0a34615a933e2afc3be285d461f7de3bec3a42b1109532aa4373f449fbdc7 -> 47986f29cb6bb449b4c3403935e1e59c3ab16b837752bb8f1f598730e4c68962
 ~ sub_fffffe0008905ebc -> sub_fffffe0008b8595c : sha256 ed18ca5b925bf00f772673b1db06c911027aa0466344a55f2fe09fc55ead6cc7 -> 737a54579b2dae8174eeca616280a672861a7bd97c13439d676b887f57ec9cb9
@@ -484,7 +484,7 @@ Functions:
 ~ __ZN22AppleDieTempController14handleBootArgsEv.cold.2 -> sub_fffffe0008b940b8 : sha256 10c67541245d21477f1f6a2a13528abc0874fb7d623e4b3acd38e46426cc5d8b -> cfdb97edf424b5f68b9b907119efbacb1108cc95b7cd633a1eaeb05f88523924
 ~ __ZN22AppleDieTempController14handleBootArgsEv.cold.3 -> sub_fffffe0008b940e4 : sha256 663fd7f6915c0efa755ec9de0de77a0adc2bbc6e318871b8c6bd42541ac24ec6 -> a6ca9c765c5925262c0b5b865a6d9d6f49dc9c33dfa11ba37f1218aef4f6a77f
 ~ __ZN22AppleDieTempController14handleBootArgsEv.cold.4 -> sub_fffffe0008b94110 : sha256 11e89fab32a601ac0f2f877e86fd4bfe479567f747b9eeabb760c717d16053bf -> 9d2a64d2bbf490af2b49c331ad346eb1ed1d16684b5da0d029e4772006d79672
-~ __ZN22AppleDieTempController31calculateLoopMaxDieTemperaturesEv.cold.1 -> sub_fffffe0008b9413c : sha256 674f7a8134dcd2449a0680881cfbd139ff786a7a5f52b153f940ddd73190111f -> 923f6c9dd26a0e7d88167f744f92731d516116080e22ef9d32205a44062a8a22
+~ sub_fffffe0008914fb4 -> sub_fffffe0008b9413c : sha256 674f7a8134dcd2449a0680881cfbd139ff786a7a5f52b153f940ddd73190111f -> 923f6c9dd26a0e7d88167f744f92731d516116080e22ef9d32205a44062a8a22
 ~ __ZN22AppleDieTempController22registerSensorInstanceEP9IOServiceij.cold.1 -> sub_fffffe0008b941d4 : sha256 5e68933259c7a6f0674d33e4dbcd239a36d9a91c486d7a7bf27ffaa98bfd80cf -> 07c55bc4b2ef9e498a19883dc4617ee7cce66de537d6d5274418252a2d06765c
 CStrings:
 + "\"AppleSocHot: Hot Hot Hot (%08X/%d %08X/%d %08X/%d %08X/%d %08X/%d %08X/%d %08X/%d %08X/%d %08X/%d %08X/%d %08X/%d %08X/%d %08X/%d %08X/%d, Ids %d/%d/%d/%d/%d/%d/%d/%d/%d)\" @%s:%d"

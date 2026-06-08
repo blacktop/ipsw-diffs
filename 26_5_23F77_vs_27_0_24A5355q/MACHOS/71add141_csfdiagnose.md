@@ -1,0 +1,134 @@
+## csfdiagnose
+
+> `/usr/bin/csfdiagnose`
+
+```diff
+
+-301.23.5.8.0
+-  __TEXT.__text: 0x14fc0 sha256:ac9dd67554039a84a26a5edcd52fdfb778b377898a25f4324d9be706f17802c0
+-  __TEXT.__auth_stubs: 0xc60 sha256:fc5ae3ad8c1ab414f06a5805ffdea434fc328c25b0cf59f5c66b9c9822675da9
+-  __TEXT.__objc_stubs: 0x180 sha256:faaf313e7677087ccd6c27aa4b977b007b614ff20768fe06aeaa5cb9ac0878ae
+-  __TEXT.__const: 0x1592 sha256:75ebfb094f8d93474a20541a7b49e9907aa9cb8a2ed5f63c48dcb1a5fc0296f3
+-  __TEXT.__cstring: 0xeb4 sha256:c9d2d3d91605c850842c8b364cff97009a191af0c31d03ddc33c86a71403b471
++301.24.0.20.1
++  __TEXT.__text: 0x163b0 sha256:95b327fa33adc52365f6cab391216893493d701ce5a493022e8c6f327a5fe169
++  __TEXT.__auth_stubs: 0xd20 sha256:b195c4f7d48c7018d3e4c9710de05121860dfa872804967dd7b8a7719bcccaf9
++  __TEXT.__objc_stubs: 0x180 sha256:cbe81e5743d90c4dc4eae9d6fdd30527efb6c2576854c1e801bcf77d694c90c1
++  __TEXT.__const: 0x15b2 sha256:5fc5c6ae41ab621b8bcdc60bf82bab7e9b0ae53ec4e80e05eb27e44f049ced96
++  __TEXT.__cstring: 0xf61 sha256:7a9c6d2351d6f9221a34ea59e9fa674ac0db632711ef8c3721751016857d19fe
+   __TEXT.__oslogstring: 0x7c sha256:f5036c3dc7da7a6149ae36980fe6278d95e41fe66935e53b8b1d735dd62d8b74
+-  __TEXT.__swift5_entry: 0x8 sha256:dcaab87364c5d56b20977713f87e39857476344dfb9c6ec7114ab0490c2e6f95
+-  __TEXT.__swift5_typeref: 0x4bb sha256:e09bb33be5072d76a7c6e9544728132ad27cd70f081f541330913d785c6be9fa
+-  __TEXT.__swift5_fieldmd: 0x5f8 sha256:8a90bf6e8f11317b6704b0d2186bffb943d125d9248a1c41a7f5189cc459a799
+-  __TEXT.__constg_swiftt: 0x378 sha256:94063d2e7347188c8915ae461b7fa539e3f8601d7c83cd70e7f9d3725fde7ea6
+-  __TEXT.__swift5_protos: 0x4 sha256:113d8b5905052e2b6ff4263673c6dfc1dd43c74e01663926e50cc8236022cb39
+-  __TEXT.__swift5_proto: 0x15c sha256:b74b57fa4c1c32a378e3e99016e9f92c94fd45deb59bb058ea26ac54c60f10c0
+-  __TEXT.__swift5_reflstr: 0x25c sha256:a10bf8e596b6703d0309adcabc2ebde5fa42a3911c59c0e95f530d8b7d1ce7bd
+-  __TEXT.__swift5_capture: 0x44 sha256:98f5caebe85db7d608e9c709084813eea8e9f84dd8803d6eab2d097882f23b2c
++  __TEXT.__swift5_entry: 0x8 sha256:5ddfef1b9b8b599abcf3fc475a7dd77dddc48003455cfb6a020298a0b608a5fd
++  __TEXT.__constg_swiftt: 0x378 sha256:0aa59212cea5133fa2167e4bbeffe349fd16c8a46bc4390c583beb9e54b696f3
++  __TEXT.__swift5_proto: 0x15c sha256:5b3d6eedac3a0600fcbc593a695f8333c949182c995f126257e9e952d2658a9c
++  __TEXT.__swift5_typeref: 0x4db sha256:a77738ae1814ce4eea3a2b855af33078c3e3e3f7edf3aaa6bfb3cadd0c1c8fc1
++  __TEXT.__swift5_fieldmd: 0x658 sha256:63ae58fdabdc24fc2bdd38bc8a322a321484a5a2f79f9c3704feb9f26fd993b6
++  __TEXT.__swift5_protos: 0x4 sha256:9524e3a6c0c18e4d34ca9c2a9c6ae5ff5b8e310856fcf6bef6137f117b7a6458
++  __TEXT.__swift5_reflstr: 0x30c sha256:63512c7dd029fab0c1fbb84aa50436155badc2dfef0d6f6ecece91aed01b1a4d
++  __TEXT.__swift5_capture: 0x44 sha256:321bcc3476b40298f8a369946d3969e1366fc5efae95ea69826b2fee96bf7e41
+   __TEXT.__objc_methtype: 0x64 sha256:d89820b44a57c6ff23780b47007f2211fe8a508f33dfabc2648cd1e0db97c819
+-  __TEXT.__swift5_types: 0x60 sha256:28cd5f4f2287483c07ad90eb0f3efe5df10192b96ace532e6d4d03567afde220
+-  __TEXT.__swift_as_entry: 0x14 sha256:f66d956417ce0ca96339fd66f6189aaa5c82156414805dd3ea24a21211e29de9
+-  __TEXT.__swift_as_ret: 0x28 sha256:2649d1d3ed0dd97b578deec2321a3f684c1311cf9275a6c51ecf9fdaedf6f61a
++  __TEXT.__swift5_types: 0x60 sha256:ae606786b8f81d506914bd9b9a9d63fe0f32ef262f4fa06b27d31716e3857f70
++  __TEXT.__swift_as_entry: 0x14 sha256:66168132ab1b4abdf14d765c415b1fb821207048a1ee50bf0a92af5fb7118600
++  __TEXT.__swift_as_ret: 0x28 sha256:5a5fa9c08e879e99980d824fe4adec31afc730f05bbc2f77bca7f729a332a528
++  __TEXT.__swift_as_cont: 0x44 sha256:069ee860c520f7bca35630cd33b8f4a9697bbf2741d0c56338d745de1babea30
+   __TEXT.__objc_methname: 0xfb sha256:7052bf69f2613f4be894560ba81a4e54501b4ee51da56e924fca12bbf47fdf14
+-  __TEXT.__unwind_info: 0x548 sha256:98ffee3104840c058a0a7d79cfa91c339a4308643846f1486befa7543fb561f4
+-  __TEXT.__eh_frame: 0x8a0 sha256:97a720325346d6e1fa73492a1a8f85d8f0e3fe4ebc894f4ce985ff1f7ef53477
+-  __DATA_CONST.__auth_got: 0x638 sha256:e3a937b7c93f8b17485be99f3312aaf9556b581f77f6e19865f3652a93fe8066
+-  __DATA_CONST.__got: 0x238 sha256:6e43fc2b8d8b275b19c4f7c4029d8f5db8feae55a108e3eeb02e7618c63aa345
+-  __DATA_CONST.__auth_ptr: 0x1e8 sha256:97f22ce94e796734c321c5adafb93eb7627ee1614b57585c4b2cf179b42a5cca
+-  __DATA_CONST.__const: 0xca8 sha256:8103fc6c42e1cce223ad6f8154dcfa9235fe2c1859e6a2e0bc026496dc7fb0e5
+-  __DATA_CONST.__objc_imageinfo: 0x8 sha256:234cedc7009d98da03ca2a7ff525d0db26b82bff0e6046456f4eda918f734526
+-  __DATA.__objc_selrefs: 0x60 sha256:a3c1119e32df564498430466316632c83efe7f97aa9a4f16d2cd307bbd005ba4
+-  __DATA.__data: 0x848 sha256:9211b32f66b16c0a253885741a5ecb0f9eec3cbe36c2923d0d7d8e9e572bcebb
++  __TEXT.__unwind_info: 0x538 sha256:ac123e3a2041a288d57778a18f4d16f7c50385098ac3d8be1a506f7aec7239e5
++  __TEXT.__eh_frame: 0x8b0 sha256:b45dc9d4e496c9261d1223d4ab0e3d5314b6819cf2f248c526a41770c6d1f2a6
++  __DATA_CONST.__const: 0xcb0 sha256:7d210842b4ad77e08588ed635ab9afeec0222dbb35929db10576df82c837381c
++  __DATA_CONST.__objc_imageinfo: 0x8 sha256:885ce8037a15de89b0ceb0054c31fc3de725513307f685be388961916dadcdb0
++  __DATA_CONST.__auth_got: 0x698 sha256:fc26a2c1fa9731742cff001dba5d121243f9200a8ca8ec40508dcd72a3e6632b
++  __DATA_CONST.__got: 0x2b0 sha256:9ec4d09e6b4b81a195c08684bfe3a065b88a7ca720f0202dc82a9847854341f5
++  __DATA_CONST.__auth_ptr: 0x208 sha256:c9b1ce0b71329405cc9d9bd06210545b8fbe100a45fa8396064e3b2edc160f45
++  __DATA.__objc_selrefs: 0x60 sha256:da94c5ea980987d643e221a14a03c3a553c5eec46724937f851dc1dcef99b041
++  __DATA.__data: 0x918 sha256:be58cb5d5292f84b9af4680a802a3c9cc6c09ef961ebac37a4f6bdb267bacab3
+   __DATA.__common: 0x38 sha256:d4817aa5497628e7c77e6b606107042bbba3130888c5f47a375e6179be789fbb
+   __DATA.__bss: 0x2b80 sha256:c3a0f854149e981aafcb9b0c771ebf8ee7e9de704077323b521d2ed5c17a5193
+   - /System/Library/Frameworks/Accounts.framework/Accounts
+
+   - /usr/lib/swift/libswiftAccelerate.dylib
+   - /usr/lib/swift/libswiftCompression.dylib
+   - /usr/lib/swift/libswiftCore.dylib
++  - /usr/lib/swift/libswiftCoreAudio.dylib
+   - /usr/lib/swift/libswiftCoreFoundation.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
+   - /usr/lib/swift/libswiftMetal.dylib
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: F42B578F-1A60-3EA9-A3C2-7A53EBBE786D
+-  Functions: 450
+-  Symbols:   343
+-  CStrings:  82
++  UUID: 15AB4099-FC4F-3CAB-92E4-D6A93D57782A
++  Functions: 460
++  Symbols:   371
++  CStrings:  86
+ 
+Symbols:
++ _$s25CloudSubscriptionFeatures12FeatureCacheC06cachedD010identifier7altDSID15allowAnySession9ignoreTTLAA0aD0CSgSS_SSSgS2btF
++ _$s25CloudSubscriptionFeatures20FrameworkDiagnosticsV13DiagnosticKeyO29signupForWaitlistRequestStartyA2EmFWC
++ _$s25CloudSubscriptionFeatures20FrameworkDiagnosticsV13DiagnosticKeyO30signupForWaitlistRequestFinishyA2EmFWC
++ _$s25CloudSubscriptionFeatures20FrameworkDiagnosticsV13DiagnosticKeyO31fetchWaitlistStatusRequestStartyA2EmFWC
++ _$s25CloudSubscriptionFeatures20FrameworkDiagnosticsV13DiagnosticKeyO32fetchWaitlistStatusRequestFinishyA2EmFWC
++ _$s25CloudSubscriptionFeatures39SignupForWaitlistRequestStartDiagnosticVMa
++ _$s25CloudSubscriptionFeatures39SignupForWaitlistRequestStartDiagnosticVMn
++ _$s25CloudSubscriptionFeatures39SignupForWaitlistRequestStartDiagnosticVSEAAMc
++ _$s25CloudSubscriptionFeatures39SignupForWaitlistRequestStartDiagnosticVSeAAMc
++ _$s25CloudSubscriptionFeatures40SignupForWaitlistRequestFinishDiagnosticVMa
++ _$s25CloudSubscriptionFeatures40SignupForWaitlistRequestFinishDiagnosticVMn
++ _$s25CloudSubscriptionFeatures40SignupForWaitlistRequestFinishDiagnosticVSEAAMc
++ _$s25CloudSubscriptionFeatures40SignupForWaitlistRequestFinishDiagnosticVSeAAMc
++ _$s25CloudSubscriptionFeatures41FetchWaitlistStatusRequestStartDiagnosticVMa
++ _$s25CloudSubscriptionFeatures41FetchWaitlistStatusRequestStartDiagnosticVMn
++ _$s25CloudSubscriptionFeatures41FetchWaitlistStatusRequestStartDiagnosticVSEAAMc
++ _$s25CloudSubscriptionFeatures41FetchWaitlistStatusRequestStartDiagnosticVSeAAMc
++ _$s25CloudSubscriptionFeatures42FetchWaitlistStatusRequestFinishDiagnosticVMa
++ _$s25CloudSubscriptionFeatures42FetchWaitlistStatusRequestFinishDiagnosticVMn
++ _$s25CloudSubscriptionFeatures42FetchWaitlistStatusRequestFinishDiagnosticVSEAAMc
++ _$s25CloudSubscriptionFeatures42FetchWaitlistStatusRequestFinishDiagnosticVSeAAMc
++ _$sScC12continuation8functionScCyxq_GSccyxq_G_SStcfC
++ __swift_FORCE_LOAD_$_swiftCoreAudio
++ _objc_retain_x23
++ _objc_retain_x26
++ _swift_release_x19
++ _swift_release_x20
++ _swift_release_x21
++ _swift_release_x23
++ _swift_release_x24
++ _swift_release_x25
++ _swift_release_x28
++ _swift_release_x8
++ _swift_retain_x21
+- _$s25CloudSubscriptionFeatures12FeatureCacheC06cachedD010identifier6homeID7altDSID15allowAnySession9ignoreTTLAA0aD0CSgSS_SSSgAMS2btF
+- _$ss31withCheckedThrowingContinuation9isolation8function_xScA_pSgYi_SSyScCyxs5Error_pGXEtYaKlF
+- _$ss31withCheckedThrowingContinuation9isolation8function_xScA_pSgYi_SSyScCyxs5Error_pGXEtYaKlFTu
+- _objc_retain_x24
+- _swift_bridgeObjectRetain_n
+- _swift_retain
+CStrings:
++ "fetchWaitlistStatusRequestFinishes"
++ "fetchWaitlistStatusRequestStarts"
++ "signupForWaitlistRequestFinishes"
++ "signupForWaitlistRequestStarts"
+
+```

@@ -1,0 +1,5564 @@
+## PaperBoardUI
+
+> `/System/Library/PrivateFrameworks/PaperBoardUI.framework/PaperBoardUI`
+
+```diff
+
+-304.5.4.102.0
+-  __TEXT.__text: 0x88108 sha256:16ab28406c606afb39773840dd5762ea6571ddbb619b9da4459d6dfe5798891a
+-  __TEXT.__auth_stubs: 0x1030 sha256:5f03dcf7580e86f86deec239c29402e03fd19e33899ca745d17d09f5a0c1a9db
+-  __TEXT.__objc_methlist: 0xa2dc sha256:fe92492057055c2327182c541f392bcdfa49a6ad924f57bcd9df6799a7bf223f
+-  __TEXT.__const: 0x838 sha256:e57e83eff219003e3628c50a65b14806e0c7b3390030c234043091051c14b4e0
+-  __TEXT.__cstring: 0x7f04 sha256:38d53695efb99f082106fea9829047c2b065149c1edeab2726f6bcdd7ff3b989
+-  __TEXT.__oslogstring: 0x49b8 sha256:776a5e900a232912bfb1e09ec0313b19dc5bcfb68ca4982e38ad453c31dc2190
+-  __TEXT.__gcc_except_tab: 0x10bc sha256:3b2a9869f13cb8238aa72fe3b667dbf81710c706e8bb0961d3b0493400d4ec28
++341.0.3.0.0
++  __TEXT.__text: 0x779a4 sha256:977607134859d4629fa5d00b73c47bae3f1f3d94168f166fbd411a1079380c4e
++  __TEXT.__objc_methlist: 0x970c sha256:a248aeddb043adeef8653513c68663c997c342eeaffd12e047b6753ebd183d1f
++  __TEXT.__const: 0x828 sha256:ac9785e402f11a7ff35e0a5abdfcc3ebfeb62afd72fecc99788cbf058d512881
++  __TEXT.__cstring: 0x7a3f sha256:4a43eaef178e6b49798cdc674e8fb3b372df1fbff78f3557ada244399cbeea60
++  __TEXT.__oslogstring: 0x42cd sha256:6f82a9a690b97c8811da11b4dcb38c7c2e494220e7b1c4da45f2f2b619b525b2
++  __TEXT.__gcc_except_tab: 0xc20 sha256:711de3ef60ff2444fee6eb0c8bac0750228bdab26d2040060f5cd65113d1d8ce
+   __TEXT.__dlopen_cstrs: 0x1a6 sha256:07aa1c4ce8b9ab0f2902517367ecd68b05271db8e79660877cafadd608ba740a
+-  __TEXT.__unwind_info: 0x2e00 sha256:8f58ffea25d7423bff650aef9aaa46006e644c306891cc2a62f21542c31902f6
+-  __TEXT.__objc_classname: 0x1611 sha256:dbce7bbec6b124ee3f5e198e85bdbda59f33ff9b279b91617365110525307c82
+-  __TEXT.__objc_methname: 0x18414 sha256:baad79086227bffef02193510d856c76d9d846aaa039525770c58967ea51bc07
+-  __TEXT.__objc_methtype: 0x41c7 sha256:26b63a26c1126608ed2b3af5b866acc28959697d3bf7df5d853a02de7f4bb894
+-  __TEXT.__objc_stubs: 0x121a0 sha256:bdce72eb88ecf984f1ff78522655252608ffed3d347bed5ef668e9119ece449c
+-  __DATA_CONST.__got: 0x960 sha256:6b1d3f582fdad6f122b56bedd9bd107e7ceaa4526e708e0e586fa0400b97af0f
+-  __DATA_CONST.__const: 0x29d8 sha256:8dc401876369d383a9f5d9a7b0a717865dce6a5d3892a4774ebec9039a37f71a
+-  __DATA_CONST.__objc_classlist: 0x3d0 sha256:0e01bfa0af5fa8b70ff212445a4f5d540f553de3a015364cc96f6ebb17466d14
+-  __DATA_CONST.__objc_catlist: 0x60 sha256:064a9157aa498f6fad610dc8cd06fc9c6f6eff5a08bfe56b8e779ec2d81b30bc
+-  __DATA_CONST.__objc_protolist: 0x210 sha256:348ca301e00588084cde970f8ed6c687fa6473cf9ba1ad713ec0967596f4d9a8
++  __TEXT.__unwind_info: 0x2860 sha256:feddd6cbfe9e08f67cbfccbfe1061c355f10690b95db56036a0ccc9fb340aa74
++  __TEXT.__objc_stubs: 0x0
++  __TEXT.__auth_stubs: 0x0
++  __TEXT.__objc_classname: 0x0
++  __TEXT.__objc_methname: 0x0
++  __TEXT.__objc_methtype: 0x0
++  __DATA_CONST.__const: 0x22e8 sha256:36ca41f0a722e2a40a69af9e39b70ba6206974910e988ad090aac5ed42b05f7f
++  __DATA_CONST.__objc_classlist: 0x340 sha256:43b3c63a7d03d7b09223eb8077075eabd076fe0382faec34bfb7f2b59d3cfee7
++  __DATA_CONST.__objc_catlist: 0x60 sha256:2f18922e805bc22569ed49854be115f88ed6468d628a1d7ccdd34e0061b2fabb
++  __DATA_CONST.__objc_protolist: 0x1e0 sha256:2a3195479a7552b07afbe9815e5958c44501b7cea300ee578b49fb2bc8a41192
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x54b0 sha256:512eebdd810ee1e32ae734997dc6fb641b2af8ab09259e2796755e4a1d91e991
+-  __DATA_CONST.__objc_protorefs: 0x10 sha256:849fd4ee2a622b2a78f8035ab5985c5276c72a96ed29a9dbbc6eef43ce47cc91
+-  __DATA_CONST.__objc_superrefs: 0x348 sha256:3f8f042d1d97ddd30a580e282633f3a6805f3629ca8cb28e0f4d960f04cc68cc
+-  __DATA_CONST.__objc_arraydata: 0x1c8 sha256:08accc26ecd0b628d507c9cd1459873ff88c3c706463c7f741b58a9900bd61a1
+-  __AUTH_CONST.__auth_got: 0x828 sha256:d915342299b266cf98862d66f8f6985a32f53907f627a54198dbf4e988bb11c2
+-  __AUTH_CONST.__const: 0xbe0 sha256:350799343ba7cf34b523a1722761f801996522a5f19768e08c9b3c704fd987ab
+-  __AUTH_CONST.__cfstring: 0x64e0 sha256:a4690bca88747eb52e685cb4036cd534b321aeba3ae2efdd0c18ad1dba809e60
+-  __AUTH_CONST.__objc_const: 0x1ce20 sha256:0a7a092a46cc676041fa97bde21495115f24c3b9d89e024ec24e64d7743de70c
+-  __AUTH_CONST.__objc_arrayobj: 0xa8 sha256:c8bb05a2514a9ba27e87e926f9c3ad81a4f371378ebd9882e5b83b05932fb3ba
+-  __AUTH_CONST.__objc_dictobj: 0x1b8 sha256:ac639984fd5d64723c47d50e860d683ca0ebe112bd9907686632fe9a058e73f8
+-  __AUTH_CONST.__objc_intobj: 0x150 sha256:ffed855448bb4f5c155f3d8cd14eb9cab1de262f16627def2c5dac9586ccfacb
+-  __AUTH_CONST.__objc_doubleobj: 0x90 sha256:b6af00887e846295224ba39da7f8aaa3a5a1f6c3d063395457becddeee15ee81
+-  __AUTH.__objc_data: 0x23f0 sha256:5eb78bef583f3fc7e9236d37119225e9ea0173c279faa0d6f817de6fe00202d7
+-  __AUTH.__data: 0x8 sha256:057c5595f69cb12198b9f5856668d5614ff4fbed3085a5bbb0c0cedd41070e5c
+-  __DATA.__objc_ivar: 0xa7c sha256:6bfaecd2777eabb08d165c38d91d05bd3c3aa755d0f33e2bcf95b01d5c24a050
+-  __DATA.__data: 0x18e0 sha256:0989b9a71b6416334544e5207c20a4ceaa5d0466f58cd794949c2fa0adc6f8b2
++  __DATA_CONST.__objc_selrefs: 0x5140 sha256:1c7a164de4ee46a3fc482633738484ac96271cd221c1a3339e1f85091930493f
++  __DATA_CONST.__objc_protorefs: 0x10 sha256:ed8d795f05c478e9ab19a75ee3e92fcfa1ecc5e7717267b1fa2ca27a2b7b5212
++  __DATA_CONST.__objc_superrefs: 0x2e8 sha256:4f43d6857d15a971bb1c2241c0884712f6e5bb523e68e74a51c9b61542f63434
++  __DATA_CONST.__objc_arraydata: 0x1c8 sha256:7b2be8ebc444b84bee5fd591599f943826d183e4c62279101c6127502e85c8f4
++  __DATA_CONST.__got: 0x890 sha256:54fbc9576f88633a2f9a09da6913da07f95cbdc52fbec5b4c0deca52aa08452d
++  __AUTH_CONST.__const: 0x880 sha256:b8b12cdabe2d087c2902841176e90a299eab9fb7e0525ef5ddbe0e598e5485cb
++  __AUTH_CONST.__cfstring: 0x5f00 sha256:ab9e4d6a9a393932972061906340e9637b683b62ec1b601db05b81728871f147
++  __AUTH_CONST.__objc_const: 0x19378 sha256:dd3921f45ddcce58df8d37c7a16bf9cdf7b04e5df484e661c65a8d235f83d58a
++  __AUTH_CONST.__objc_arrayobj: 0xa8 sha256:b20a95827fd0ffaa2436649f54416c50f774e321741934e97e67ecc6ff789eb3
++  __AUTH_CONST.__objc_dictobj: 0x1b8 sha256:853930efbacdd408f4e9692789edc4d0ef6d277df370022ecf165c7a21c9b09e
++  __AUTH_CONST.__objc_intobj: 0x120 sha256:be5052c4d1338edb9f14bbb32f56911328d1780f4bfed3530eb10607922306e1
++  __AUTH_CONST.__objc_doubleobj: 0x90 sha256:f8447aa4d5b469e9faa27d16404e6efa867f4d3701dfcfb55d174595c899e094
++  __AUTH_CONST.__auth_got: 0x838 sha256:3bff857daf1c246b3ba79bff08805f403b65b0e2a5cffb40b078a383eb861514
++  __AUTH.__objc_data: 0x2030 sha256:155fb70fe8877a3d67c2019207ee95c5ab2e24a02cabd8d3e3353cd17ab66ef3
++  __AUTH.__data: 0x8 sha256:1f11a291e92fe93ff9133efff2693fba3052c6b275fc46f07dcc99e7041bb7f0
++  __DATA.__objc_ivar: 0x9b4 sha256:b3b23bce010612a638004e3fa7004738c1f30a81aff9877df70b928c875d6c91
++  __DATA.__data: 0x16a0 sha256:73d1ba5bf075632d1c87450392385d75ae44625e9eceb3008997e4b5326f776b
+   __DATA.__bss: 0x450 sha256:9688ec46af8fa56e8423a06a9e420db47500eb701e44ba3855faf7984ed1a0a6
+-  __DATA_DIRTY.__objc_data: 0x230 sha256:16920d03a5aee6bd57404a13a1021d1de0645a8258ef167ddfa94833519b95fa
++  __DATA_DIRTY.__objc_data: 0x50 sha256:7965ad438b5d66173ff5bdf86eb35382fe3b81046552e22cd02bacd1c6597473
+   __DATA_DIRTY.__bss: 0x20 sha256:66687aadf862bd776c8fc18b8e9f8e20089714856ee233b3902a591d0d5f2925
+   - /System/Library/Frameworks/AVFoundation.framework/AVFoundation
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: D039362C-E9D4-302E-B033-C9743EC7E7C0
+-  Functions: 4093
+-  Symbols:   14072
+-  CStrings:  6667
++  UUID: 335538EC-2B6D-3287-98E2-36679DFE07D6
++  Functions: 3747
++  Symbols:   12837
++  CStrings:  2162
+ 
+Symbols:
++ -[PBUIFixedReplicaSourceProvider initWithVariant:]
++ -[PBUIFixedReplicaSourceProvider variant]
++ -[PBUIPosterHomeViewController displayConfigurationDidUpdate:]
++ -[PBUIPosterHomeViewController displayConfigurationWillUpdate:]
++ -[PBUIPosterVariantPathProvider hardwareIdentifier]
++ -[PBUIPosterVariantPathProvider initWithInstanceURL:variant:hardwareIdentifier:]
++ -[PBUIPosterVariantViewController _migrateLegacySnapshotsIfNeeded:]
++ -[PBUIPosterVariantViewController _migrateLegacySnapshotsIfNeeded:].cold.1
++ -[PBUIPosterVariantViewController _rotateToPathProvider:]
++ -[PBUIPosterVariantViewController _setupCachesIfNeeded].cold.1
++ -[PBUIPosterVariantViewController displayConfigurationDidUpdate:]
++ -[PBUIPosterVariantViewController displayConfigurationWillUpdate:]
++ -[PBUIPosterVariantViewController displayConfigurationWillUpdate:].cold.1
++ -[PBUIPosterVariantViewController invalidatePortalSources]
++ -[PBUIPosterViewController _reapplyRenderingConfigurationIfChangedFromOldProperties:newProperties:inSettings:forScene:]
++ -[PBUIPosterViewController _updateDeviceMotionEventGeneration]
++ -[PBUIPosterViewController averageSaturationForVariant:]
++ -[PBUIPosterViewController invalidatePortalSources]
++ -[PBUIPosterViewController renderingFlags]
++ -[PBUIPosterViewController setRenderingFlags:]
++ -[PBUIPosterViewController startSendingDisplayStateProgressEvents]
++ -[PBUIPosterViewController stopSendingDisplayStateProgressEvents]
++ -[PBUIPosterViewController updateConfiguration:].cold.1
++ -[PBUIPosterViewController updateConfiguration:].cold.2
++ -[PBUIPosterViewController updateHomeScene].cold.3
++ -[PBUIPosterViewController updateHomeScene].cold.4
++ -[PBUIPosterViewController viewDidMoveToWindow:shouldAppearOrDisappear:]
++ -[PBUIPosterWallpaperRemoteViewController initWithNibName:bundle:shouldObservePosters:]
++ -[PBUIPosterWallpaperRemoteViewController invalidatePortalSources]
++ -[PBUIPosterWallpaperRemoteViewController viewIsAppearing:]
++ -[PBUIPosterWallpaperViewController initWithShouldObservePosters:]
++ -[PBUIPosterWallpaperViewController initWithShouldObservePosters:].cold.1
++ -[PBUIPosterWallpaperViewController invalidatePortalSources]
++ -[PBUIPosterWallpaperViewController observeValueForKeyPath:ofObject:change:context:]
++ -[PBUIPosterWallpaperViewController setRenderingFlags:]
++ -[PBUIPosterWallpaperViewController updateRenderingFlagsForSensitiveUIDisabled:]
++ -[PBUIReplicaSourceObserverBox description]
++ -[PBUIReplicaSourceObserverBox setVariant:]
++ -[PBUIReplicaSourceObserverBox variant]
++ -[PBUIURLBackedSnapshotSource variant]
++ -[PBUIWallpaperViewController viewIsAppearing:]
++ GCC_except_table109
++ GCC_except_table115
++ GCC_except_table117
++ GCC_except_table123
++ GCC_except_table128
++ GCC_except_table141
++ GCC_except_table144
++ GCC_except_table147
++ GCC_except_table150
++ GCC_except_table156
++ GCC_except_table159
++ GCC_except_table170
++ GCC_except_table33
++ GCC_except_table41
++ GCC_except_table63
++ GCC_except_table71
++ GCC_except_table93
++ GCC_except_table99
++ _.compoundliteral.35
++ _NSKeyValueChangeNewKey
++ _OBJC_CLASS_$_BSDescriptionStream
++ _OBJC_CLASS_$_FBSDisplayMonitor
++ _OBJC_CLASS_$_NSCountedSet
++ _OBJC_CLASS_$_NSLayoutConstraint
++ _OBJC_CLASS_$_NSNull
++ _OBJC_IVAR_$_PBUIFixedReplicaSourceProvider._variant
++ _OBJC_IVAR_$_PBUIPosterHomeViewController._snapshotHoldReasons
++ _OBJC_IVAR_$_PBUIPosterVariantPathProvider._hardwareIdentifier
++ _OBJC_IVAR_$_PBUIPosterViewController._displayStateProgressController
++ _OBJC_IVAR_$_PBUIPosterViewController._hostRequestedDeviceMotionEventGeneration
++ _OBJC_IVAR_$_PBUIPosterViewController._renderingFlags
++ _OBJC_IVAR_$_PBUIPosterWallpaperRemoteViewController._pinningConstraints
++ _OBJC_IVAR_$_PBUIPosterWallpaperViewController._renderingFlags
++ _OBJC_IVAR_$_PBUIReplicaSourceObserverBox._identifier
++ _OBJC_IVAR_$_PBUIReplicaSourceObserverBox._variant
++ _OBJC_IVAR_$_PBUIURLBackedSnapshotSource._variant
++ _PBUIDebugSnapshotCheckerboardColor
++ _PBUIDebugSnapshotCheckerboardColor.cold.1
++ _PBUIDebugSnapshotCheckerboardColor.color
++ _PBUIDebugSnapshotCheckerboardColor.onceToken
++ ___43-[PBUIPosterViewController updateHomeScene]_block_invoke.141
++ ___43-[PBUIReplicaSourceObserverBox description]_block_invoke
++ ___47-[PBUIWallpaperViewController viewIsAppearing:]_block_invoke
++ ___48-[PBUIPosterViewController updateConfiguration:]_block_invoke.113
++ ___48-[PBUIPosterViewController updateConfiguration:]_block_invoke_3
++ ___54-[PBUIURLBackedSnapshotSource updateFromPathProvider:]_block_invoke.14
++ ___55-[PBUIPosterWallpaperViewController setRenderingFlags:]_block_invoke
++ ___56-[PBUIURLBackedSnapshotSource invalidateCurrentSnapshot]_block_invoke.15
++ ___59-[PBUIPosterVariantViewController snapshotIfNeeded:reason:]_block_invoke.136
++ ___59-[PBUIPosterVariantViewController snapshotIfNeeded:reason:]_block_invoke_2.137
++ ___59-[PBUIPosterVariantViewController snapshotIfNeeded:reason:]_block_invoke_2.137.cold.1
++ ___59-[PBUIPosterVariantViewController snapshotIfNeeded:reason:]_block_invoke_2.137.cold.2
++ ___64-[PBUIPosterVariantViewController fetchWallpaperProminentColor:]_block_invoke.93
++ ___64-[PBUIPosterVariantViewController fetchWallpaperProminentColor:]_block_invoke.93.cold.1
++ ___64-[PBUIPosterWallpaperViewController requireWallpaperWithReason:]_block_invoke.84
++ ___64-[PBUIPosterWallpaperViewController requireWallpaperWithReason:]_block_invoke.87
++ ___66-[PBUIPosterWallpaperViewController initWithShouldObservePosters:]_block_invoke
++ ___66-[PBUIPosterWallpaperViewController initWithShouldObservePosters:]_block_invoke.16
++ ___66-[PBUIPosterWallpaperViewController initWithShouldObservePosters:]_block_invoke_2
++ ___66-[PBUIPosterWallpaperViewController initWithShouldObservePosters:]_block_invoke_3
++ ___66-[PBUIPosterWallpaperViewController initWithShouldObservePosters:]_block_invoke_4
++ ___66-[PBUIPosterWallpaperViewController initWithShouldObservePosters:]_block_invoke_5
++ ___66-[PBUIPosterWallpaperViewController initWithShouldObservePosters:]_block_invoke_6
++ ___66-[PBUIPosterWallpaperViewController initWithShouldObservePosters:]_block_invoke_7
++ ___66-[PBUIPosterWallpaperViewController initWithShouldObservePosters:]_block_invoke_8
++ ___72-[PBUIPosterHomeViewController performSnapshotOnQueue:scene:completion:]_block_invoke.218
++ ___72-[PBUIPosterHomeViewController performSnapshotOnQueue:scene:completion:]_block_invoke_2.219
++ ___72-[PBUIPosterHomeViewController performSnapshotOnQueue:scene:completion:]_block_invoke_3.220
++ ___72-[PBUIPosterHomeViewController performSnapshotOnQueue:scene:completion:]_block_invoke_4.223
++ ___72-[PBUIPosterHomeViewController performSnapshotOnQueue:scene:completion:]_block_invoke_5.227
++ ___72-[PBUIPosterHomeViewController performSnapshotOnQueue:scene:completion:]_block_invoke_6.236
++ ___73-[PBUIStaticWallpaperView _setupWallpaperImageFromConfiguration:options:]_block_invoke.3
++ ___73-[PBUIWallpaperViewController _updateInactiveBlurEffectForWallpaperMode:]_block_invoke.89
++ ___77-[PBUIPosterViewController _updatePosterScenesForReasons:updater:completion:]_block_invoke.188
++ ___77-[PBUIPosterViewController _updatePosterScenesForReasons:updater:completion:]_block_invoke.189
++ ___86-[PBUIPosterViewController _userInterfaceStyleTraitDidChange:previousTraitCollection:]_block_invoke.207
++ ___86-[PBUIPosterViewController _userInterfaceStyleTraitDidChange:previousTraitCollection:]_block_invoke.209
++ ___86-[PBUIPosterViewController _userInterfaceStyleTraitDidChange:previousTraitCollection:]_block_invoke.209.cold.1
++ ___PBUIDebugSnapshotCheckerboardColor_block_invoke
++ ___block_descriptor_141_e8_32s40s48bs_e75_v32?0"FBScene"8"FBSMutableSceneSettings"16"FBSSceneTransitionContext"24ls32l8s40l8s48l8
++ ___block_descriptor_88_e8_32s40s48s56s64s72r80w_e5_v8?0lw80l8s32l8s40l8s48l8s56l8s64l8r72l8
++ ___block_literal_global.140
++ ___block_literal_global.142
++ ___block_literal_global.144
++ ___block_literal_global.150
++ ___block_literal_global.185
++ ___block_literal_global.187
++ ___block_literal_global.37
++ ___block_literal_global.50
++ ___block_literal_global.53
++ ___block_literal_global.56
++ ___block_literal_global.58
++ ___block_literal_global.593
++ ___block_literal_global.61
++ ___block_literal_global.64
++ ___getPRUISDisplayStateProgressControllerClass_block_invoke
++ ___getPRUISDisplayStateProgressControllerClass_block_invoke.cold.1
++ _getPRUISDisplayStateProgressControllerClass
++ _getPRUISDisplayStateProgressControllerClass.softClass
++ _objc_claimAutoreleasedReturnValue
++ _objc_msgSend$_migrateLegacySnapshotsIfNeeded:
++ _objc_msgSend$_reapplyRenderingConfigurationIfChangedFromOldProperties:newProperties:inSettings:forScene:
++ _objc_msgSend$_rotateToPathProvider:
++ _objc_msgSend$_updateDeviceMotionEventGeneration
++ _objc_msgSend$activateConstraints:
++ _objc_msgSend$areMotionEffectsDisabled
++ _objc_msgSend$colorWithPatternImage:
++ _objc_msgSend$countForObject:
++ _objc_msgSend$deactivateConstraints:
++ _objc_msgSend$displayConfigurationDidUpdate:
++ _objc_msgSend$displayConfigurationWillUpdate:
++ _objc_msgSend$effectiveGeometry
++ _objc_msgSend$hardwareIdentifier
++ _objc_msgSend$initWithInstanceURL:variant:hardwareIdentifier:
++ _objc_msgSend$initWithNibName:bundle:shouldObservePosters:
++ _objc_msgSend$initWithScene:renderingServiceSceneComponent:
++ _objc_msgSend$initWithShouldObservePosters:
++ _objc_msgSend$invalidatePortalSources
++ _objc_msgSend$null
++ _objc_msgSend$persistentIdentifier
++ _objc_msgSend$pui_constraintsPinningSubview:toEdges:
++ _objc_msgSend$pui_displayConfigurationIdentifier
++ _objc_msgSend$pui_fbsDisplayConfiguration
++ _objc_msgSend$pui_setRenderingFlags:
++ _objc_msgSend$pui_sharedDisplayMonitor
++ _objc_msgSend$pui_windowScene
++ _objc_msgSend$remoteToken
++ _objc_msgSend$removeObserver:forKeyPath:
++ _objc_msgSend$session
++ _objc_msgSend$setRenderingFlags:
++ _objc_msgSend$setVariant:
++ _objc_msgSend$startSendingDisplayStateProgressEvents
++ _objc_msgSend$stopSendingDisplayStateProgressEvents
++ _objc_msgSend$synchronouslyApplyUpdates:error:
++ _objc_msgSend$updateRenderingFlagsForSensitiveUIDisabled:
++ _objc_retainAutoreleaseReturnValue
++ _objc_retain_x10
++ _objc_retain_x5
++ _objc_retain_x6
++ _objc_retain_x9
+- +[PBUIGradientWallpaperView layerClass]
+- -[PBUIDeferredImageSlot .cxx_destruct]
+- -[PBUIDeferredImageSlot _deferredImageSlot]
+- -[PBUIDeferredImageSlot addImageSlotObserver:]
+- -[PBUIDeferredImageSlot fallbackColor]
+- -[PBUIDeferredImageSlot initWithLifetimeToken:]
+- -[PBUIDeferredImageSlot removeImageSlotObserver:]
+- -[PBUIDeferredImageSlot setFallbackColor:]
+- -[PBUIDeferredImageSlot updateWithImage:]
+- -[PBUIFakeBlurAsset .cxx_destruct]
+- -[PBUIFakeBlurAsset actualStyle]
+- -[PBUIFakeBlurAsset descriptionBuilderWithMultilinePrefix:]
+- -[PBUIFakeBlurAsset descriptionWithMultilinePrefix:]
+- -[PBUIFakeBlurAsset description]
+- -[PBUIFakeBlurAsset imageURL]
+- -[PBUIFakeBlurAsset image]
+- -[PBUIFakeBlurAsset initWithActualStyle:imageURL:image:]
+- -[PBUIFakeBlurAsset succinctDescriptionBuilder]
+- -[PBUIFakeBlurAsset succinctDescription]
+- -[PBUIFakeBlurConfiguration .cxx_destruct]
+- -[PBUIFakeBlurConfiguration copyWithZone:]
+- -[PBUIFakeBlurConfiguration descriptionBuilderWithMultilinePrefix:]
+- -[PBUIFakeBlurConfiguration descriptionWithMultilinePrefix:]
+- -[PBUIFakeBlurConfiguration description]
+- -[PBUIFakeBlurConfiguration hash]
+- -[PBUIFakeBlurConfiguration initWithVariant:style:traitCollection:]
+- -[PBUIFakeBlurConfiguration isEqual:]
+- -[PBUIFakeBlurConfiguration requestedStyle]
+- -[PBUIFakeBlurConfiguration succinctDescriptionBuilder]
+- -[PBUIFakeBlurConfiguration succinctDescription]
+- -[PBUIFakeBlurConfiguration traitCollection]
+- -[PBUIFakeBlurConfiguration variant]
+- -[PBUIFixedReplicaSourceProvider init]
+- -[PBUIGradientWallpaperView .cxx_destruct]
+- -[PBUIGradientWallpaperView _computeAverageColor]
+- -[PBUIGradientWallpaperView averageColorInRect:withSmudgeRadius:]
+- -[PBUIGradientWallpaperView contrastInRect:contrastWithinBoxes:contrastBetweenBoxes:]
+- -[PBUIGradientWallpaperView initWithFrame:configuration:variant:cacheGroup:delegate:options:]
+- -[PBUIGradientWallpaperView isDisplayingWallpaperWithConfiguration:forVariant:]
+- -[PBUIGradientWallpaperView wallpaperGradient]
+- -[PBUIGradientWallpaperView wallpaperType]
+- -[PBUIImageSlot .cxx_destruct]
+- -[PBUIImageSlot _deferredImageSlot]
+- -[PBUIImageSlot _initWithImage:lifetimeToken:]
+- -[PBUIImageSlot _setImage:]
+- -[PBUIImageSlot dealloc]
+- -[PBUIImageSlot image]
+- -[PBUIImageSlot initWithImage:lifetimeToken:]
+- -[PBUIImageSlot lifetimeToken]
+- -[PBUIImageSlotView .cxx_destruct]
+- -[PBUIImageSlotView _pointSize]
+- -[PBUIImageSlotView _updateWithImage:]
+- -[PBUIImageSlotView deferredImageSlot:didUpdateImage:]
+- -[PBUIImageSlotView imageSlot]
+- -[PBUIImageSlotView intrinsicContentSize]
+- -[PBUIImageSlotView layoutSubviews]
+- -[PBUIImageSlotView setImageSlot:]
+- -[PBUIImageSlotView sizeThatFits:]
+- -[PBUIPosterWallpaperRemoteViewController viewWillAppear:]
+- -[PBUIPosterWallpaperViewController init]
+- -[PBUIPosterWallpaperViewController init].cold.1
+- -[PBUIRemoteIrisWallpaperPlayer .cxx_destruct]
+- -[PBUIRemoteIrisWallpaperPlayer _handleWallpaperGestureBegan]
+- -[PBUIRemoteIrisWallpaperPlayer _handleWallpaperGestureChanged]
+- -[PBUIRemoteIrisWallpaperPlayer _handleWallpaperGestureEnded]
+- -[PBUIRemoteIrisWallpaperPlayer _setIrisPlaybackState:]
+- -[PBUIRemoteIrisWallpaperPlayer _setTouchActive:]
+- -[PBUIRemoteIrisWallpaperPlayer _wallpaperGestureChanged:]
+- -[PBUIRemoteIrisWallpaperPlayer delegate]
+- -[PBUIRemoteIrisWallpaperPlayer init]
+- -[PBUIRemoteIrisWallpaperPlayer irisDelegate]
+- -[PBUIRemoteIrisWallpaperPlayer irisGestureRecognizer]
+- -[PBUIRemoteIrisWallpaperPlayer irisPlaybackState]
+- -[PBUIRemoteIrisWallpaperPlayer isIrisInteracting]
+- -[PBUIRemoteIrisWallpaperPlayer isTouchActive]
+- -[PBUIRemoteIrisWallpaperPlayer setDelegate:]
+- -[PBUIRemoteIrisWallpaperPlayer setIrisDelegate:]
+- -[PBUIRemoteIrisWallpaperPlayer stillTimeInVideo]
+- -[PBUIRemoteIrisWallpaperPlayer videoFileURL]
+- -[PBUIWallpaperRemoteViewController .cxx_destruct]
+- -[PBUIWallpaperRemoteViewController _acquireSceneModeAssertionForReason:sceneMode:]
+- -[PBUIWallpaperRemoteViewController _acquireSceneModeAssertionForReason:sceneMode:completion:]
+- -[PBUIWallpaperRemoteViewController _addStateCaptureHandlers]
+- -[PBUIWallpaperRemoteViewController _blurImageFromURL:]
+- -[PBUIWallpaperRemoteViewController _blurImageFromURL:].cold.1
+- -[PBUIWallpaperRemoteViewController _blurViewsForVariant:]
+- -[PBUIWallpaperRemoteViewController _cacheBlurImageForVariant:requestedStyle:actualStyle:traitCollection:image:imageURL:]
+- -[PBUIWallpaperRemoteViewController _cachedBlurAssetForVariant:requestedStyle:traitCollection:]
+- -[PBUIWallpaperRemoteViewController _canShowWhileLocked]
+- -[PBUIWallpaperRemoteViewController _cancelSceneDeactivation]
+- -[PBUIWallpaperRemoteViewController _disallowRasterizationReasonsForVariant:]
+- -[PBUIWallpaperRemoteViewController _effectiveSceneMode]
+- -[PBUIWallpaperRemoteViewController _hideWallpaperReasonsForVariant:]
+- -[PBUIWallpaperRemoteViewController _invalidateBlurCacheForVariant:]
+- -[PBUIWallpaperRemoteViewController _legibilityUpdatedWithDictionary:notifyObservers:]
+- -[PBUIWallpaperRemoteViewController _modifySceneSettings:forSceneMode:]
+- -[PBUIWallpaperRemoteViewController _notifyAllObserversOfNewWallpaperScene]
+- -[PBUIWallpaperRemoteViewController _observersForVariant:]
+- -[PBUIWallpaperRemoteViewController _performWithLiveScene:]
+- -[PBUIWallpaperRemoteViewController _reconfigureBlurViewsForVariant:]
+- -[PBUIWallpaperRemoteViewController _registerFakeBlurView:]
+- -[PBUIWallpaperRemoteViewController _sceneClientSettings]
+- -[PBUIWallpaperRemoteViewController _sceneSettings]
+- -[PBUIWallpaperRemoteViewController _scheduleSceneDeactivation]
+- -[PBUIWallpaperRemoteViewController _setupSceneWithCompletion:]
+- -[PBUIWallpaperRemoteViewController _setupScene]
+- -[PBUIWallpaperRemoteViewController _simpleAssertionWithReasonsSet:identifier:reason:updater:]
+- -[PBUIWallpaperRemoteViewController _simpleAssertionWithReasonsSet:identifier:reason:updater:].cold.1
+- -[PBUIWallpaperRemoteViewController _simpleAssertionWithReasonsSet:identifier:reason:updater:].cold.2
+- -[PBUIWallpaperRemoteViewController _simpleAssertionWithReasonsSet:identifier:reason:updater:].cold.3
+- -[PBUIWallpaperRemoteViewController _simpleAssertionWithReasonsSet:identifier:reason:updater:].cold.4
+- -[PBUIWallpaperRemoteViewController _unregisterFakeBlurView:]
+- -[PBUIWallpaperRemoteViewController _updateBlurViewsForVariant:]
+- -[PBUIWallpaperRemoteViewController _updateFallbackView]
+- -[PBUIWallpaperRemoteViewController _updateSceneModeWithCompletion:]
+- -[PBUIWallpaperRemoteViewController _updateSceneMode]
+- -[PBUIWallpaperRemoteViewController _updateWallpaperScaleWithAnimationFactory:]
+- -[PBUIWallpaperRemoteViewController _updateWallpaperSceneSettingsWithBlock:]
+- -[PBUIWallpaperRemoteViewController _updateWallpaperSceneSettingsWithBlock:postUpdateBlock:]
+- -[PBUIWallpaperRemoteViewController _updateWallpaperSceneSettingsWithTransitionBlock:]
+- -[PBUIWallpaperRemoteViewController _wallpaperScaleAssertionForVariant:scale:]
+- -[PBUIWallpaperRemoteViewController _wallpaperScaleForVariant:]
+- -[PBUIWallpaperRemoteViewController activeVariant]
+- -[PBUIWallpaperRemoteViewController addObserver:forVariant:]
+- -[PBUIWallpaperRemoteViewController averageColorForVariant:]
+- -[PBUIWallpaperRemoteViewController averageColorInRect:forVariant:]
+- -[PBUIWallpaperRemoteViewController averageColorInRect:forVariant:withSmudgeRadius:]
+- -[PBUIWallpaperRemoteViewController beginDelayingHomescreenStyleChangesForReason:]
+- -[PBUIWallpaperRemoteViewController beginRequiringWithReason:]
+- -[PBUIWallpaperRemoteViewController cachingIdentifier]
+- -[PBUIWallpaperRemoteViewController cancelInProcessAnimations]
+- -[PBUIWallpaperRemoteViewController contrastForVariant:]
+- -[PBUIWallpaperRemoteViewController contrastInRect:forVariant:]
+- -[PBUIWallpaperRemoteViewController currentHomeVariantStyleState]
+- -[PBUIWallpaperRemoteViewController currentHomescreenStyleTransitionState]
+- -[PBUIWallpaperRemoteViewController dealloc]
+- -[PBUIWallpaperRemoteViewController descriptionBuilderWithMultilinePrefix:]
+- -[PBUIWallpaperRemoteViewController descriptionWithMultilinePrefix:]
+- -[PBUIWallpaperRemoteViewController description]
+- -[PBUIWallpaperRemoteViewController endDelayingHomescreenStyleChangesForReason:animationFactory:]
+- -[PBUIWallpaperRemoteViewController homescreenWallpaperScale]
+- -[PBUIWallpaperRemoteViewController imageForWallpaperStyle:variant:traitCollection:]
+- -[PBUIWallpaperRemoteViewController initWithNibName:bundle:]
+- -[PBUIWallpaperRemoteViewController irisWallpaperPlayer]
+- -[PBUIWallpaperRemoteViewController legibilityEnvironment]
+- -[PBUIWallpaperRemoteViewController legibilitySettingsForVariant:]
+- -[PBUIWallpaperRemoteViewController lockscreenWallpaperScale]
+- -[PBUIWallpaperRemoteViewController minimumHomescreenWallpaperScale]
+- -[PBUIWallpaperRemoteViewController minimumLockscreenWallpaperScale]
+- -[PBUIWallpaperRemoteViewController newFakeBlurViewForVariant:style:transformOptions:]
+- -[PBUIWallpaperRemoteViewController newImageProviderView]
+- -[PBUIWallpaperRemoteViewController noteDidRotateFromInterfaceOrientation:]
+- -[PBUIWallpaperRemoteViewController noteWillAnimateToInterfaceOrientation:duration:]
+- -[PBUIWallpaperRemoteViewController parallaxEnabledForVariant:]
+- -[PBUIWallpaperRemoteViewController parallaxFactorForVariant:]
+- -[PBUIWallpaperRemoteViewController preheatWallpaperForVariant:]
+- -[PBUIWallpaperRemoteViewController reachabilityCoordinator]
+- -[PBUIWallpaperRemoteViewController remoteIrisWallpaperPlayer:touchActiveChanged:]
+- -[PBUIWallpaperRemoteViewController removeObserver:forVariant:]
+- -[PBUIWallpaperRemoteViewController removeWallpaperStyleForPriority:forVariant:withAnimationFactory:]
+- -[PBUIWallpaperRemoteViewController requireWallpaperRasterizationWithReason:]
+- -[PBUIWallpaperRemoteViewController requireWallpaperWithReason:]
+- -[PBUIWallpaperRemoteViewController scene:didReceiveActions:]
+- -[PBUIWallpaperRemoteViewController scene:didUpdateClientSettingsWithDiff:oldClientSettings:transitionContext:]
+- -[PBUIWallpaperRemoteViewController sceneDidDeactivate:withError:]
+- -[PBUIWallpaperRemoteViewController setActiveVariant:]
+- -[PBUIWallpaperRemoteViewController setActiveVariant:withOutAnimationFactory:inAnimationFactory:completion:]
+- -[PBUIWallpaperRemoteViewController setAlpha:forWallpaperVariant:]
+- -[PBUIWallpaperRemoteViewController setCachingIdentifier:]
+- -[PBUIWallpaperRemoteViewController setDisallowsRasterization:forVariant:withReason:]
+- -[PBUIWallpaperRemoteViewController setHomescreenWallpaperScale:withAnimationFactory:]
+- -[PBUIWallpaperRemoteViewController setLockscreenOnlyWallpaperAlpha:]
+- -[PBUIWallpaperRemoteViewController setLockscreenWallpaperContentsRect:]
+- -[PBUIWallpaperRemoteViewController setLockscreenWallpaperScale:]
+- -[PBUIWallpaperRemoteViewController setLockscreenWallpaperScale:withAnimationFactory:]
+- -[PBUIWallpaperRemoteViewController setReachabilityCoordinator:]
+- -[PBUIWallpaperRemoteViewController setVariant:]
+- -[PBUIWallpaperRemoteViewController setWallpaperConfigurationManager:]
+- -[PBUIWallpaperRemoteViewController setWallpaperHidden:variant:reason:]
+- -[PBUIWallpaperRemoteViewController setWallpaperPresentingDelegate:]
+- -[PBUIWallpaperRemoteViewController setWallpaperStyle:forPriority:forVariant:withAnimationFactory:]
+- -[PBUIWallpaperRemoteViewController setWallpaperStyleTransitionState:forPriority:forVariant:withAnimationFactory:]
+- -[PBUIWallpaperRemoteViewController shouldAutorotate]
+- -[PBUIWallpaperRemoteViewController succinctDescriptionBuilder]
+- -[PBUIWallpaperRemoteViewController succinctDescription]
+- -[PBUIWallpaperRemoteViewController supportedInterfaceOrientations]
+- -[PBUIWallpaperRemoteViewController suspendWallpaperAnimationForReason:]
+- -[PBUIWallpaperRemoteViewController traitCollectionDidChange:]
+- -[PBUIWallpaperRemoteViewController updateImageProviderView:withImage:]
+- -[PBUIWallpaperRemoteViewController updateIrisWallpaperForInteractiveMode]
+- -[PBUIWallpaperRemoteViewController updateIrisWallpaperForStaticMode]
+- -[PBUIWallpaperRemoteViewController updateWallpaperForLocations:wallpaperMode:withCompletion:]
+- -[PBUIWallpaperRemoteViewController updateWallpaperForLocations:withCompletion:]
+- -[PBUIWallpaperRemoteViewController variant]
+- -[PBUIWallpaperRemoteViewController viewDidDisappear:]
+- -[PBUIWallpaperRemoteViewController viewDidLoad]
+- -[PBUIWallpaperRemoteViewController viewWillAppear:]
+- -[PBUIWallpaperRemoteViewController viewWillLayoutSubviews]
+- -[PBUIWallpaperRemoteViewController viewWillTransitionToSize:withTransitionCoordinator:]
+- -[PBUIWallpaperRemoteViewController wallpaperConfigurationManager:didChangeWallpaperConfigurationForVariants:]
+- -[PBUIWallpaperRemoteViewController wallpaperConfigurationManager]
+- -[PBUIWallpaperRemoteViewController wallpaperPresentingDelegate]
+- -[PBUIWallpaperRemoteViewController wallpaperView:wallpaperConfigurationIncludingValueTypes:]
+- -[PBUIWallpaperRemoteViewController zoomFactorForVariant:]
+- -[PBUIWallpaperStaticBackgroundView .cxx_destruct]
+- -[PBUIWallpaperStaticBackgroundView _beginSuspendingMotionEffectsForStyleIfNeeded]
+- -[PBUIWallpaperStaticBackgroundView _effectViewForVariant:]
+- -[PBUIWallpaperStaticBackgroundView _endSuspendingMotionEffectsForStyleIfNeeded]
+- -[PBUIWallpaperStaticBackgroundView _newEffectViewForVariant:transitionState:]
+- -[PBUIWallpaperStaticBackgroundView _setEffectView:forVariant:]
+- -[PBUIWallpaperStaticBackgroundView _shouldSuspendMotionEffectsForState:]
+- -[PBUIWallpaperStaticBackgroundView _shouldSuspendMotionEffectsForStyle:]
+- -[PBUIWallpaperStaticBackgroundView _updateMotionEffectsForState:]
+- -[PBUIWallpaperStaticBackgroundView dealloc]
+- -[PBUIWallpaperStaticBackgroundView initWithWallpaperPresenter:]
+- -[PBUIWallpaperStaticBackgroundView setVariant:]
+- -[PBUIWallpaperStaticBackgroundView setVariant:withOutAnimationFactory:inAnimationFactory:completion:]
+- -[PBUIWallpaperStaticBackgroundView setWallpaperStyleAnimationAssertion:]
+- -[PBUIWallpaperStaticBackgroundView setWallpaperStyleTransitionState:forVariant:withAnimationFactory:]
+- -[PBUIWallpaperStaticBackgroundView variant]
+- -[PBUIWallpaperStaticBackgroundView wallpaperStyleAnimationAssertion]
+- -[PBUIWallpaperViewController viewDidLoad]
+- -[PBUIWallpaperWindowSceneBSActionHandler _respondToActions:forFBSScene:inUIScene:fromTransitionContext:]
+- -[PBUIWallpaperWindowSceneClientSettingsDiffInspector _observeOtherSetting:withBlock:]
+- -[PBUIWallpaperWindowSceneClientSettingsDiffInspector observeHomescreenAverageColorWithBlock:]
+- -[PBUIWallpaperWindowSceneClientSettingsDiffInspector observeHomescreenContentStaticWithBlock:]
+- -[PBUIWallpaperWindowSceneClientSettingsDiffInspector observeHomescreenContrastWithBlock:]
+- -[PBUIWallpaperWindowSceneClientSettingsDiffInspector observeHomescreenLegibilitySettingsWithBlock:]
+- -[PBUIWallpaperWindowSceneClientSettingsDiffInspector observeHomescreenMinimumWallpaperScaleWithBlock:]
+- -[PBUIWallpaperWindowSceneClientSettingsDiffInspector observeHomescreenParallaxEnabledWithBlock:]
+- -[PBUIWallpaperWindowSceneClientSettingsDiffInspector observeHomescreenParallaxFactorWithBlock:]
+- -[PBUIWallpaperWindowSceneClientSettingsDiffInspector observeHomescreenZoomFactorWithBlock:]
+- -[PBUIWallpaperWindowSceneClientSettingsDiffInspector observeLiveWallpaperPlaybackStateWithBlock:]
+- -[PBUIWallpaperWindowSceneClientSettingsDiffInspector observeLockscreenAverageColorWithBlock:]
+- -[PBUIWallpaperWindowSceneClientSettingsDiffInspector observeLockscreenContentLiveWallpaperWithBlock:]
+- -[PBUIWallpaperWindowSceneClientSettingsDiffInspector observeLockscreenContentStaticWithBlock:]
+- -[PBUIWallpaperWindowSceneClientSettingsDiffInspector observeLockscreenContrastWithBlock:]
+- -[PBUIWallpaperWindowSceneClientSettingsDiffInspector observeLockscreenLegibilitySettingsWithBlock:]
+- -[PBUIWallpaperWindowSceneClientSettingsDiffInspector observeLockscreenMinimumWallpaperScaleWithBlock:]
+- -[PBUIWallpaperWindowSceneClientSettingsDiffInspector observeLockscreenParallaxEnabledWithBlock:]
+- -[PBUIWallpaperWindowSceneClientSettingsDiffInspector observeLockscreenParallaxFactorWithBlock:]
+- -[PBUIWallpaperWindowSceneClientSettingsDiffInspector observeLockscreenZoomFactorWithBlock:]
+- -[PBUIWallpaperWindowSceneSettingsDiffAction .cxx_destruct]
+- -[PBUIWallpaperWindowSceneSettingsDiffAction _performActionsForUIScene:withUpdatedFBSScene:settingsDiff:fromSettings:transitionContext:lifecycleActionType:]
+- -[PBUIWallpaperWindowSceneSettingsDiffAction _performActionsForUIScene:withUpdatedFBSScene:settingsDiff:fromSettings:transitionContext:lifecycleActionType:].cold.1
+- -[PBUIWallpaperWindowSceneSettingsDiffAction _performActionsForUIScene:withUpdatedFBSScene:settingsDiff:fromSettings:transitionContext:lifecycleActionType:].cold.2
+- -[PBUIWallpaperWindowSceneSettingsDiffAction _wallpaperSceneSettingsDiffInspector]
+- -[PBUIWallpaperWindowSceneSettingsDiffInspector _observeOtherSetting:withBlock:]
+- -[PBUIWallpaperWindowSceneSettingsDiffInspector observeCachingIdentifierWithBlock:]
+- -[PBUIWallpaperWindowSceneSettingsDiffInspector observeDisallowHomescreenRasterizationWithBlock:]
+- -[PBUIWallpaperWindowSceneSettingsDiffInspector observeDisallowLockscreenRasterizationWithBlock:]
+- -[PBUIWallpaperWindowSceneSettingsDiffInspector observeHomescreenStyleChangesDelayedWithBlock:]
+- -[PBUIWallpaperWindowSceneSettingsDiffInspector observeHomescreenStyleTransitionStateWithBlock:]
+- -[PBUIWallpaperWindowSceneSettingsDiffInspector observeHomescreenWallpaperAlphaWithBlock:]
+- -[PBUIWallpaperWindowSceneSettingsDiffInspector observeHomescreenWallpaperHiddenWithBlock:]
+- -[PBUIWallpaperWindowSceneSettingsDiffInspector observeLiveWallpaperInteractiveWithBlock:]
+- -[PBUIWallpaperWindowSceneSettingsDiffInspector observeLiveWallpaperTouchActiveWithBlock:]
+- -[PBUIWallpaperWindowSceneSettingsDiffInspector observeLockscreenOnlyWallpaperAlphaWithBlock:]
+- -[PBUIWallpaperWindowSceneSettingsDiffInspector observeLockscreenStyleTransitionStateWithBlock:]
+- -[PBUIWallpaperWindowSceneSettingsDiffInspector observeLockscreenWallpaperAlphaWithBlock:]
+- -[PBUIWallpaperWindowSceneSettingsDiffInspector observeLockscreenWallpaperContentsRectWithBlock:]
+- -[PBUIWallpaperWindowSceneSettingsDiffInspector observeLockscreenWallpaperHiddenWithBlock:]
+- -[PBUIWallpaperWindowSceneSettingsDiffInspector observeWallpaperAnimationSuspendedWithBlock:]
+- -[PBUIWallpaperWindowSceneSettingsDiffInspector observeWallpaperRequiredWithBlock:]
+- -[PBUIWallpaperWindowSceneSettingsDiffInspector observeWallpaperVariantWithBlock:]
+- -[PBUIWallpaperWindowSceneSpecification clientSettingsClass]
+- -[PBUIWallpaperWindowSceneSpecification initialActionHandlers]
+- -[PBUIWallpaperWindowSceneSpecification initialSettingsDiffActions]
+- -[PBUIWallpaperWindowSceneSpecification settingsClass]
+- -[PBUIWallpaperWindowSceneSpecification uiSceneMinimumClass]
+- -[PBUIWallpaperWindowSceneSpecification uiSceneSessionRole]
+- -[PBUIWallpaperWindowSceneTwoCurveTransitionContext inAnimationSettings]
+- -[PBUIWallpaperWindowSceneTwoCurveTransitionContext keyDescriptionForSetting:]
+- -[PBUIWallpaperWindowSceneTwoCurveTransitionContext outAnimationSettings]
+- -[PBUIWallpaperWindowSceneTwoCurveTransitionContext setInAnimationSettings:]
+- -[PBUIWallpaperWindowSceneTwoCurveTransitionContext setOutAnimationSettings:]
+- -[PBUIWallpaperWindowSceneVariantSettingsDiffAction .cxx_destruct]
+- -[PBUIWallpaperWindowSceneVariantSettingsDiffAction _performActionsForUIScene:withUpdatedFBSScene:settingsDiff:fromSettings:transitionContext:lifecycleActionType:]
+- -[PBUIWallpaperWindowSceneVariantSettingsDiffAction _performActionsForUIScene:withUpdatedFBSScene:settingsDiff:fromSettings:transitionContext:lifecycleActionType:].cold.1
+- -[PBUIWallpaperWindowSceneVariantSettingsDiffAction _performActionsForUIScene:withUpdatedFBSScene:settingsDiff:fromSettings:transitionContext:lifecycleActionType:].cold.2
+- -[PBUIWallpaperWindowSceneVariantSettingsDiffAction _wallpaperVariantSceneSettingsDiffInspector]
+- -[_PBUIWallpaperRemoteViewControllerSceneModeAssertion descriptionBuilderWithMultilinePrefix:]
+- -[_PBUIWallpaperRemoteViewControllerSceneModeAssertion initWithIdentifier:forReason:sceneMode:invalidationBlock:]
+- -[_PBUIWallpaperRemoteViewControllerSceneModeAssertion sceneMode]
+- GCC_except_table111
+- GCC_except_table112
+- GCC_except_table129
+- GCC_except_table142
+- GCC_except_table145
+- GCC_except_table146
+- GCC_except_table149
+- GCC_except_table154
+- GCC_except_table157
+- GCC_except_table16
+- GCC_except_table160
+- GCC_except_table176
+- GCC_except_table184
+- GCC_except_table186
+- GCC_except_table37
+- GCC_except_table51
+- GCC_except_table53
+- GCC_except_table55
+- GCC_except_table61
+- GCC_except_table65
+- GCC_except_table67
+- GCC_except_table69
+- GCC_except_table82
+- GCC_except_table88
+- _.compoundliteral.64
+- _BSStringFromCGRect
+- _BSStringFromCGSize
+- _OBJC_CLASS_$_BSEventQueue
+- _OBJC_CLASS_$_BSEventQueueEvent
+- _OBJC_CLASS_$_FBDisplayManager
+- _OBJC_CLASS_$_FBSSceneClientIdentity
+- _OBJC_CLASS_$_FBSceneWorkspace
+- _OBJC_CLASS_$_NSTimer
+- _OBJC_CLASS_$_PBUIDeferredImageSlot
+- _OBJC_CLASS_$_PBUIFakeBlurAsset
+- _OBJC_CLASS_$_PBUIFakeBlurConfiguration
+- _OBJC_CLASS_$_PBUIGradientWallpaperView
+- _OBJC_CLASS_$_PBUIImageSlot
+- _OBJC_CLASS_$_PBUIImageSlotView
+- _OBJC_CLASS_$_PBUIRemoteIrisWallpaperPlayer
+- _OBJC_CLASS_$_PBUIStaticWallpaperImageView
+- _OBJC_CLASS_$_PBUIWallpaperRemoteViewController
+- _OBJC_CLASS_$_PBUIWallpaperStaticBackgroundView
+- _OBJC_CLASS_$_PBUIWallpaperWindowSceneBSActionHandler
+- _OBJC_CLASS_$_PBUIWallpaperWindowSceneClientSettingsDiffInspector
+- _OBJC_CLASS_$_PBUIWallpaperWindowSceneSettingsDiffAction
+- _OBJC_CLASS_$_PBUIWallpaperWindowSceneSettingsDiffInspector
+- _OBJC_CLASS_$_PBUIWallpaperWindowSceneSpecification
+- _OBJC_CLASS_$_PBUIWallpaperWindowSceneTwoCurveTransitionContext
+- _OBJC_CLASS_$_PBUIWallpaperWindowSceneVariantSettingsDiffAction
+- _OBJC_CLASS_$_RBSProcessIdentity
+- _OBJC_CLASS_$_UIApplicationSceneClientSettingsDiffInspector
+- _OBJC_CLASS_$_UIApplicationSceneSettingsDiffInspector
+- _OBJC_CLASS_$_UIApplicationSceneSpecification
+- _OBJC_CLASS_$_UIApplicationSceneTransitionContext
+- _OBJC_CLASS_$_UILongPressGestureRecognizer
+- _OBJC_CLASS_$__PBUIWallpaperRemoteViewControllerSceneModeAssertion
+- _OBJC_IVAR_$_PBUIDeferredImageSlot._fallbackColor
+- _OBJC_IVAR_$_PBUIDeferredImageSlot._imageSlotObservers
+- _OBJC_IVAR_$_PBUIFakeBlurAsset._actualStyle
+- _OBJC_IVAR_$_PBUIFakeBlurAsset._image
+- _OBJC_IVAR_$_PBUIFakeBlurAsset._imageURL
+- _OBJC_IVAR_$_PBUIFakeBlurConfiguration._requestedStyle
+- _OBJC_IVAR_$_PBUIFakeBlurConfiguration._traitCollection
+- _OBJC_IVAR_$_PBUIFakeBlurConfiguration._variant
+- _OBJC_IVAR_$_PBUIGradientWallpaperView._wallpaperGradient
+- _OBJC_IVAR_$_PBUIImageSlot._image
+- _OBJC_IVAR_$_PBUIImageSlot._lifetimeToken
+- _OBJC_IVAR_$_PBUIImageSlotView._imageSlot
+- _OBJC_IVAR_$_PBUIImageSlotView._imageView
+- _OBJC_IVAR_$_PBUIPosterHomeViewController._isUpdatingOrientation
+- _OBJC_IVAR_$_PBUIRemoteIrisWallpaperPlayer._delegate
+- _OBJC_IVAR_$_PBUIRemoteIrisWallpaperPlayer._gestureRecognizer
+- _OBJC_IVAR_$_PBUIRemoteIrisWallpaperPlayer._irisDelegate
+- _OBJC_IVAR_$_PBUIRemoteIrisWallpaperPlayer._irisPlaybackState
+- _OBJC_IVAR_$_PBUIRemoteIrisWallpaperPlayer._touchActive
+- _OBJC_IVAR_$_PBUIWallpaperRemoteViewController._activeVariant
+- _OBJC_IVAR_$_PBUIWallpaperRemoteViewController._cachingIdentifier
+- _OBJC_IVAR_$_PBUIWallpaperRemoteViewController._currentHomeVariantStyleState
+- _OBJC_IVAR_$_PBUIWallpaperRemoteViewController._currentLegibilityEnvironment
+- _OBJC_IVAR_$_PBUIWallpaperRemoteViewController._disallowRasterizationReasonsHomeVariant
+- _OBJC_IVAR_$_PBUIWallpaperRemoteViewController._disallowRasterizationReasonsLockVariant
+- _OBJC_IVAR_$_PBUIWallpaperRemoteViewController._eventQueue
+- _OBJC_IVAR_$_PBUIWallpaperRemoteViewController._externalSceneModeAssertionActions
+- _OBJC_IVAR_$_PBUIWallpaperRemoteViewController._fakeBlurCache
+- _OBJC_IVAR_$_PBUIWallpaperRemoteViewController._hideWallpaperReasonsHomeVariant
+- _OBJC_IVAR_$_PBUIWallpaperRemoteViewController._hideWallpaperReasonsLockVariant
+- _OBJC_IVAR_$_PBUIWallpaperRemoteViewController._homescreenBlurViews
+- _OBJC_IVAR_$_PBUIWallpaperRemoteViewController._homescreenChangesDelayedReasons
+- _OBJC_IVAR_$_PBUIWallpaperRemoteViewController._homescreenObservers
+- _OBJC_IVAR_$_PBUIWallpaperRemoteViewController._legibilityEnvironmentBuilder
+- _OBJC_IVAR_$_PBUIWallpaperRemoteViewController._lockscreenBlurViews
+- _OBJC_IVAR_$_PBUIWallpaperRemoteViewController._lockscreenObservers
+- _OBJC_IVAR_$_PBUIWallpaperRemoteViewController._missingEffectViewImages
+- _OBJC_IVAR_$_PBUIWallpaperRemoteViewController._pendingEffectViewImageSlots
+- _OBJC_IVAR_$_PBUIWallpaperRemoteViewController._reachabilityCoordinator
+- _OBJC_IVAR_$_PBUIWallpaperRemoteViewController._reconnectPolicy
+- _OBJC_IVAR_$_PBUIWallpaperRemoteViewController._remoteIrisWallpaperPlayer
+- _OBJC_IVAR_$_PBUIWallpaperRemoteViewController._scene
+- _OBJC_IVAR_$_PBUIWallpaperRemoteViewController._sceneDeactivationTimer
+- _OBJC_IVAR_$_PBUIWallpaperRemoteViewController._sceneModeAssertionForViewAppeared
+- _OBJC_IVAR_$_PBUIWallpaperRemoteViewController._sceneModeAssertions
+- _OBJC_IVAR_$_PBUIWallpaperRemoteViewController._scenePresentationView
+- _OBJC_IVAR_$_PBUIWallpaperRemoteViewController._scenePresenter
+- _OBJC_IVAR_$_PBUIWallpaperRemoteViewController._stateCaptureHandles
+- _OBJC_IVAR_$_PBUIWallpaperRemoteViewController._wallpaperAnimationSuspendedReasons
+- _OBJC_IVAR_$_PBUIWallpaperRemoteViewController._wallpaperConfigurationManager
+- _OBJC_IVAR_$_PBUIWallpaperRemoteViewController._wallpaperPresentingDelegate
+- _OBJC_IVAR_$_PBUIWallpaperRemoteViewController._wallpaperRequiredReasons
+- _OBJC_IVAR_$_PBUIWallpaperRemoteViewController._wallpaperScaleAssertions
+- _OBJC_IVAR_$_PBUIWallpaperStaticBackgroundView._homescreenWallpaperEffectView
+- _OBJC_IVAR_$_PBUIWallpaperStaticBackgroundView._lockscreenWallpaperEffectView
+- _OBJC_IVAR_$_PBUIWallpaperStaticBackgroundView._variant
+- _OBJC_IVAR_$_PBUIWallpaperStaticBackgroundView._wallpaperPresenter
+- _OBJC_IVAR_$_PBUIWallpaperStaticBackgroundView._wallpaperStyleAnimationAssertion
+- _OBJC_IVAR_$_PBUIWallpaperWindowSceneSettingsDiffAction._wallpaperSceneSettingsDiffInspector
+- _OBJC_IVAR_$_PBUIWallpaperWindowSceneVariantSettingsDiffAction._wallpaperVariantSceneSettingsDiffInspector
+- _OBJC_IVAR_$__PBUIWallpaperRemoteViewControllerSceneModeAssertion._sceneMode
+- _OBJC_METACLASS_$_PBUIDeferredImageSlot
+- _OBJC_METACLASS_$_PBUIFakeBlurAsset
+- _OBJC_METACLASS_$_PBUIFakeBlurConfiguration
+- _OBJC_METACLASS_$_PBUIGradientWallpaperView
+- _OBJC_METACLASS_$_PBUIImageSlot
+- _OBJC_METACLASS_$_PBUIImageSlotView
+- _OBJC_METACLASS_$_PBUIRemoteIrisWallpaperPlayer
+- _OBJC_METACLASS_$_PBUIStaticWallpaperImageView
+- _OBJC_METACLASS_$_PBUIWallpaperRemoteViewController
+- _OBJC_METACLASS_$_PBUIWallpaperStaticBackgroundView
+- _OBJC_METACLASS_$_PBUIWallpaperWindowSceneBSActionHandler
+- _OBJC_METACLASS_$_PBUIWallpaperWindowSceneClientSettingsDiffInspector
+- _OBJC_METACLASS_$_PBUIWallpaperWindowSceneSettingsDiffAction
+- _OBJC_METACLASS_$_PBUIWallpaperWindowSceneSettingsDiffInspector
+- _OBJC_METACLASS_$_PBUIWallpaperWindowSceneSpecification
+- _OBJC_METACLASS_$_PBUIWallpaperWindowSceneTwoCurveTransitionContext
+- _OBJC_METACLASS_$_PBUIWallpaperWindowSceneVariantSettingsDiffAction
+- _OBJC_METACLASS_$_UIApplicationSceneClientSettingsDiffInspector
+- _OBJC_METACLASS_$_UIApplicationSceneSettingsDiffInspector
+- _OBJC_METACLASS_$_UIApplicationSceneSpecification
+- _OBJC_METACLASS_$_UIApplicationSceneTransitionContext
+- _OBJC_METACLASS_$_UIImageView
+- _OBJC_METACLASS_$__PBUIWallpaperRemoteViewControllerSceneModeAssertion
+- _OUTLINED_FUNCTION_12
+- _OUTLINED_FUNCTION_13
+- _OUTLINED_FUNCTION_14
+- _PBUIWallpaperEffectViewIsDarkOrHiddenReason
+- _PBUIWallpaperWorkspaceIdentifier
+- _PBUIWallpaperWorkspaceIdentifier_block_invoke.sequenceNumber
+- __OBJC_$_CLASS_METHODS_PBUIGradientWallpaperView
+- __OBJC_$_INSTANCE_METHODS_PBUIDeferredImageSlot
+- __OBJC_$_INSTANCE_METHODS_PBUIFakeBlurAsset
+- __OBJC_$_INSTANCE_METHODS_PBUIFakeBlurConfiguration
+- __OBJC_$_INSTANCE_METHODS_PBUIGradientWallpaperView
+- __OBJC_$_INSTANCE_METHODS_PBUIImageSlot
+- __OBJC_$_INSTANCE_METHODS_PBUIImageSlotView
+- __OBJC_$_INSTANCE_METHODS_PBUIRemoteIrisWallpaperPlayer
+- __OBJC_$_INSTANCE_METHODS_PBUIWallpaperRemoteViewController
+- __OBJC_$_INSTANCE_METHODS_PBUIWallpaperStaticBackgroundView
+- __OBJC_$_INSTANCE_METHODS_PBUIWallpaperWindowSceneBSActionHandler
+- __OBJC_$_INSTANCE_METHODS_PBUIWallpaperWindowSceneClientSettingsDiffInspector
+- __OBJC_$_INSTANCE_METHODS_PBUIWallpaperWindowSceneSettingsDiffAction
+- __OBJC_$_INSTANCE_METHODS_PBUIWallpaperWindowSceneSettingsDiffInspector
+- __OBJC_$_INSTANCE_METHODS_PBUIWallpaperWindowSceneSpecification
+- __OBJC_$_INSTANCE_METHODS_PBUIWallpaperWindowSceneTwoCurveTransitionContext
+- __OBJC_$_INSTANCE_METHODS_PBUIWallpaperWindowSceneVariantSettingsDiffAction
+- __OBJC_$_INSTANCE_METHODS__PBUIWallpaperRemoteViewControllerSceneModeAssertion
+- __OBJC_$_INSTANCE_VARIABLES_PBUIDeferredImageSlot
+- __OBJC_$_INSTANCE_VARIABLES_PBUIFakeBlurAsset
+- __OBJC_$_INSTANCE_VARIABLES_PBUIFakeBlurConfiguration
+- __OBJC_$_INSTANCE_VARIABLES_PBUIGradientWallpaperView
+- __OBJC_$_INSTANCE_VARIABLES_PBUIImageSlot
+- __OBJC_$_INSTANCE_VARIABLES_PBUIImageSlotView
+- __OBJC_$_INSTANCE_VARIABLES_PBUIRemoteIrisWallpaperPlayer
+- __OBJC_$_INSTANCE_VARIABLES_PBUIWallpaperRemoteViewController
+- __OBJC_$_INSTANCE_VARIABLES_PBUIWallpaperStaticBackgroundView
+- __OBJC_$_INSTANCE_VARIABLES_PBUIWallpaperWindowSceneSettingsDiffAction
+- __OBJC_$_INSTANCE_VARIABLES_PBUIWallpaperWindowSceneVariantSettingsDiffAction
+- __OBJC_$_INSTANCE_VARIABLES__PBUIWallpaperRemoteViewControllerSceneModeAssertion
+- __OBJC_$_PROP_LIST_PBUIDeferredImageSlot
+- __OBJC_$_PROP_LIST_PBUIFakeBlurAsset
+- __OBJC_$_PROP_LIST_PBUIFakeBlurConfiguration
+- __OBJC_$_PROP_LIST_PBUIGradientWallpaperView
+- __OBJC_$_PROP_LIST_PBUIImageSlot
+- __OBJC_$_PROP_LIST_PBUIImageSlotView
+- __OBJC_$_PROP_LIST_PBUIRemoteIrisWallpaperPlayer
+- __OBJC_$_PROP_LIST_PBUIWallpaperRemoteViewController
+- __OBJC_$_PROP_LIST_PBUIWallpaperStaticBackgroundView
+- __OBJC_$_PROP_LIST_PBUIWallpaperWindowSceneBSActionHandler
+- __OBJC_$_PROP_LIST_PBUIWallpaperWindowSceneSettingsDiffAction
+- __OBJC_$_PROP_LIST_PBUIWallpaperWindowSceneTwoCurveTransitionContext
+- __OBJC_$_PROP_LIST_PBUIWallpaperWindowSceneVariantSettingsDiffAction
+- __OBJC_$_PROP_LIST__PBUIWallpaperRemoteViewControllerSceneModeAssertion
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_PBUIRemoteIrisWallpaperPlayerDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT__UISceneConnectionOptionProviding
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_PBUIDeferredImageSlotObserving
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS__UISceneBSActionResponding
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS__UISceneSettingsDiffAction
+- __OBJC_$_PROTOCOL_METHOD_TYPES_PBUIDeferredImageSlotObserving
+- __OBJC_$_PROTOCOL_METHOD_TYPES_PBUIRemoteIrisWallpaperPlayerDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES__UISceneBSActionResponding
+- __OBJC_$_PROTOCOL_METHOD_TYPES__UISceneConnectionOptionProviding
+- __OBJC_$_PROTOCOL_METHOD_TYPES__UISceneSettingsDiffAction
+- __OBJC_$_PROTOCOL_REFS_PBUIDeferredImageSlotObserving
+- __OBJC_$_PROTOCOL_REFS_PBUIRemoteIrisWallpaperPlayerDelegate
+- __OBJC_$_PROTOCOL_REFS__UISceneBSActionHandler
+- __OBJC_$_PROTOCOL_REFS__UISceneBSActionResponding
+- __OBJC_$_PROTOCOL_REFS__UISceneConnectionOptionProviding
+- __OBJC_$_PROTOCOL_REFS__UISceneSettingsDiffAction
+- __OBJC_CLASS_PROTOCOLS_$_PBUIFakeBlurAsset
+- __OBJC_CLASS_PROTOCOLS_$_PBUIFakeBlurConfiguration
+- __OBJC_CLASS_PROTOCOLS_$_PBUIImageSlotView
+- __OBJC_CLASS_PROTOCOLS_$_PBUIRemoteIrisWallpaperPlayer
+- __OBJC_CLASS_PROTOCOLS_$_PBUIWallpaperRemoteViewController
+- __OBJC_CLASS_PROTOCOLS_$_PBUIWallpaperWindowSceneBSActionHandler
+- __OBJC_CLASS_PROTOCOLS_$_PBUIWallpaperWindowSceneSettingsDiffAction
+- __OBJC_CLASS_PROTOCOLS_$_PBUIWallpaperWindowSceneVariantSettingsDiffAction
+- __OBJC_CLASS_RO_$_PBUIDeferredImageSlot
+- __OBJC_CLASS_RO_$_PBUIFakeBlurAsset
+- __OBJC_CLASS_RO_$_PBUIFakeBlurConfiguration
+- __OBJC_CLASS_RO_$_PBUIGradientWallpaperView
+- __OBJC_CLASS_RO_$_PBUIImageSlot
+- __OBJC_CLASS_RO_$_PBUIImageSlotView
+- __OBJC_CLASS_RO_$_PBUIRemoteIrisWallpaperPlayer
+- __OBJC_CLASS_RO_$_PBUIStaticWallpaperImageView
+- __OBJC_CLASS_RO_$_PBUIWallpaperRemoteViewController
+- __OBJC_CLASS_RO_$_PBUIWallpaperStaticBackgroundView
+- __OBJC_CLASS_RO_$_PBUIWallpaperWindowSceneBSActionHandler
+- __OBJC_CLASS_RO_$_PBUIWallpaperWindowSceneClientSettingsDiffInspector
+- __OBJC_CLASS_RO_$_PBUIWallpaperWindowSceneSettingsDiffAction
+- __OBJC_CLASS_RO_$_PBUIWallpaperWindowSceneSettingsDiffInspector
+- __OBJC_CLASS_RO_$_PBUIWallpaperWindowSceneSpecification
+- __OBJC_CLASS_RO_$_PBUIWallpaperWindowSceneTwoCurveTransitionContext
+- __OBJC_CLASS_RO_$_PBUIWallpaperWindowSceneVariantSettingsDiffAction
+- __OBJC_CLASS_RO_$__PBUIWallpaperRemoteViewControllerSceneModeAssertion
+- __OBJC_LABEL_PROTOCOL_$_PBUIDeferredImageSlotObserving
+- __OBJC_LABEL_PROTOCOL_$_PBUIRemoteIrisWallpaperPlayerDelegate
+- __OBJC_LABEL_PROTOCOL_$__UISceneBSActionHandler
+- __OBJC_LABEL_PROTOCOL_$__UISceneBSActionResponding
+- __OBJC_LABEL_PROTOCOL_$__UISceneConnectionOptionProviding
+- __OBJC_LABEL_PROTOCOL_$__UISceneSettingsDiffAction
+- __OBJC_METACLASS_RO_$_PBUIDeferredImageSlot
+- __OBJC_METACLASS_RO_$_PBUIFakeBlurAsset
+- __OBJC_METACLASS_RO_$_PBUIFakeBlurConfiguration
+- __OBJC_METACLASS_RO_$_PBUIGradientWallpaperView
+- __OBJC_METACLASS_RO_$_PBUIImageSlot
+- __OBJC_METACLASS_RO_$_PBUIImageSlotView
+- __OBJC_METACLASS_RO_$_PBUIRemoteIrisWallpaperPlayer
+- __OBJC_METACLASS_RO_$_PBUIStaticWallpaperImageView
+- __OBJC_METACLASS_RO_$_PBUIWallpaperRemoteViewController
+- __OBJC_METACLASS_RO_$_PBUIWallpaperStaticBackgroundView
+- __OBJC_METACLASS_RO_$_PBUIWallpaperWindowSceneBSActionHandler
+- __OBJC_METACLASS_RO_$_PBUIWallpaperWindowSceneClientSettingsDiffInspector
+- __OBJC_METACLASS_RO_$_PBUIWallpaperWindowSceneSettingsDiffAction
+- __OBJC_METACLASS_RO_$_PBUIWallpaperWindowSceneSettingsDiffInspector
+- __OBJC_METACLASS_RO_$_PBUIWallpaperWindowSceneSpecification
+- __OBJC_METACLASS_RO_$_PBUIWallpaperWindowSceneTwoCurveTransitionContext
+- __OBJC_METACLASS_RO_$_PBUIWallpaperWindowSceneVariantSettingsDiffAction
+- __OBJC_METACLASS_RO_$__PBUIWallpaperRemoteViewControllerSceneModeAssertion
+- __OBJC_PROTOCOL_$_PBUIDeferredImageSlotObserving
+- __OBJC_PROTOCOL_$_PBUIRemoteIrisWallpaperPlayerDelegate
+- __OBJC_PROTOCOL_$__UISceneBSActionHandler
+- __OBJC_PROTOCOL_$__UISceneBSActionResponding
+- __OBJC_PROTOCOL_$__UISceneConnectionOptionProviding
+- __OBJC_PROTOCOL_$__UISceneSettingsDiffAction
+- __PBUIWallpaperRemoteViewControllerSceneWorkspace.onceToken
+- __PBUIWallpaperRemoteViewControllerSceneWorkspace.workspace
+- __UISceneSettingsDiffActionPerformChangesWithTransitionContext
+- __UIUserInterfaceStyleDescription
+- ___101-[PBUIWallpaperRemoteViewController removeWallpaperStyleForPriority:forVariant:withAnimationFactory:]_block_invoke
+- ___102-[PBUIWallpaperStaticBackgroundView setVariant:withOutAnimationFactory:inAnimationFactory:completion:]_block_invoke
+- ___102-[PBUIWallpaperStaticBackgroundView setVariant:withOutAnimationFactory:inAnimationFactory:completion:]_block_invoke_2
+- ___102-[PBUIWallpaperStaticBackgroundView setVariant:withOutAnimationFactory:inAnimationFactory:completion:]_block_invoke_3
+- ___102-[PBUIWallpaperStaticBackgroundView setVariant:withOutAnimationFactory:inAnimationFactory:completion:]_block_invoke_4
+- ___102-[PBUIWallpaperStaticBackgroundView setVariant:withOutAnimationFactory:inAnimationFactory:completion:]_block_invoke_5
+- ___102-[PBUIWallpaperStaticBackgroundView setWallpaperStyleTransitionState:forVariant:withAnimationFactory:]_block_invoke
+- ___102-[PBUIWallpaperStaticBackgroundView setWallpaperStyleTransitionState:forVariant:withAnimationFactory:]_block_invoke_2
+- ___102-[PBUIWallpaperStaticBackgroundView setWallpaperStyleTransitionState:forVariant:withAnimationFactory:]_block_invoke_3
+- ___110-[PBUIWallpaperRemoteViewController wallpaperConfigurationManager:didChangeWallpaperConfigurationForVariants:]_block_invoke
+- ___110-[PBUIWallpaperRemoteViewController wallpaperConfigurationManager:didChangeWallpaperConfigurationForVariants:]_block_invoke.36
+- ___110-[PBUIWallpaperRemoteViewController wallpaperConfigurationManager:didChangeWallpaperConfigurationForVariants:]_block_invoke_2
+- ___110-[PBUIWallpaperRemoteViewController wallpaperConfigurationManager:didChangeWallpaperConfigurationForVariants:]_block_invoke_3
+- ___111-[PBUIWallpaperRemoteViewController scene:didUpdateClientSettingsWithDiff:oldClientSettings:transitionContext:]_block_invoke
+- ___111-[PBUIWallpaperRemoteViewController scene:didUpdateClientSettingsWithDiff:oldClientSettings:transitionContext:]_block_invoke_2
+- ___111-[PBUIWallpaperRemoteViewController scene:didUpdateClientSettingsWithDiff:oldClientSettings:transitionContext:]_block_invoke_3
+- ___111-[PBUIWallpaperRemoteViewController scene:didUpdateClientSettingsWithDiff:oldClientSettings:transitionContext:]_block_invoke_4
+- ___111-[PBUIWallpaperRemoteViewController scene:didUpdateClientSettingsWithDiff:oldClientSettings:transitionContext:]_block_invoke_5
+- ___111-[PBUIWallpaperRemoteViewController scene:didUpdateClientSettingsWithDiff:oldClientSettings:transitionContext:]_block_invoke_6
+- ___111-[PBUIWallpaperRemoteViewController scene:didUpdateClientSettingsWithDiff:oldClientSettings:transitionContext:]_block_invoke_7
+- ___111-[PBUIWallpaperRemoteViewController scene:didUpdateClientSettingsWithDiff:oldClientSettings:transitionContext:]_block_invoke_8
+- ___114-[PBUIWallpaperRemoteViewController setWallpaperStyleTransitionState:forPriority:forVariant:withAnimationFactory:]_block_invoke
+- ___156-[PBUIWallpaperWindowSceneSettingsDiffAction _performActionsForUIScene:withUpdatedFBSScene:settingsDiff:fromSettings:transitionContext:lifecycleActionType:]_block_invoke
+- ___37-[PBUIFakeBlurConfiguration isEqual:]_block_invoke
+- ___37-[PBUIFakeBlurConfiguration isEqual:]_block_invoke_2
+- ___37-[PBUIFakeBlurConfiguration isEqual:]_block_invoke_3
+- ___41-[PBUIDeferredImageSlot updateWithImage:]_block_invoke
+- ___41-[PBUIPosterWallpaperViewController init]_block_invoke
+- ___41-[PBUIPosterWallpaperViewController init]_block_invoke.12
+- ___41-[PBUIPosterWallpaperViewController init]_block_invoke_2
+- ___41-[PBUIPosterWallpaperViewController init]_block_invoke_3
+- ___41-[PBUIPosterWallpaperViewController init]_block_invoke_4
+- ___41-[PBUIPosterWallpaperViewController init]_block_invoke_5
+- ___41-[PBUIPosterWallpaperViewController init]_block_invoke_6
+- ___41-[PBUIPosterWallpaperViewController init]_block_invoke_7
+- ___42-[PBUIWallpaperViewController viewDidLoad]_block_invoke
+- ___43-[PBUIPosterViewController updateHomeScene]_block_invoke.75
+- ___48-[PBUIPosterViewController updateConfiguration:]_block_invoke.36
+- ___48-[PBUIPosterViewController updateConfiguration:]_block_invoke.56
+- ___48-[PBUIPosterViewController updateConfiguration:]_block_invoke.cold.1
+- ___54-[PBUIURLBackedSnapshotSource updateFromPathProvider:]_block_invoke.11
+- ___56-[PBUIURLBackedSnapshotSource invalidateCurrentSnapshot]_block_invoke.12
+- ___58-[PBUIWallpaperRemoteViewController setCachingIdentifier:]_block_invoke
+- ___59-[PBUIPosterVariantViewController snapshotIfNeeded:reason:]_block_invoke.87
+- ___59-[PBUIPosterVariantViewController snapshotIfNeeded:reason:]_block_invoke_2.88
+- ___59-[PBUIPosterVariantViewController snapshotIfNeeded:reason:]_block_invoke_2.88.cold.1
+- ___59-[PBUIPosterVariantViewController snapshotIfNeeded:reason:]_block_invoke_2.88.cold.2
+- ___59-[PBUIWallpaperRemoteViewController _performWithLiveScene:]_block_invoke
+- ___59-[PBUIWallpaperRemoteViewController _performWithLiveScene:]_block_invoke_2
+- ___61-[PBUIWallpaperRemoteViewController _addStateCaptureHandlers]_block_invoke
+- ___61-[PBUIWallpaperRemoteViewController _addStateCaptureHandlers]_block_invoke_2
+- ___61-[PBUIWallpaperRemoteViewController _addStateCaptureHandlers]_block_invoke_3
+- ___61-[PBUIWallpaperRemoteViewController _addStateCaptureHandlers]_block_invoke_4
+- ___61-[PBUIWallpaperRemoteViewController _addStateCaptureHandlers]_block_invoke_5
+- ___62-[PBUIWallpaperRemoteViewController traitCollectionDidChange:]_block_invoke
+- ___62-[PBUIWallpaperRemoteViewController traitCollectionDidChange:]_block_invoke_2
+- ___63-[PBUIWallpaperRemoteViewController _scheduleSceneDeactivation]_block_invoke
+- ___63-[PBUIWallpaperRemoteViewController _setupSceneWithCompletion:]_block_invoke
+- ___63-[PBUIWallpaperRemoteViewController _setupSceneWithCompletion:]_block_invoke.219
+- ___63-[PBUIWallpaperRemoteViewController _setupSceneWithCompletion:]_block_invoke.219.cold.1
+- ___63-[PBUIWallpaperRemoteViewController _setupSceneWithCompletion:]_block_invoke.220
+- ___63-[PBUIWallpaperRemoteViewController _setupSceneWithCompletion:]_block_invoke.234
+- ___63-[PBUIWallpaperRemoteViewController _setupSceneWithCompletion:]_block_invoke.248
+- ___63-[PBUIWallpaperRemoteViewController _setupSceneWithCompletion:]_block_invoke_2
+- ___63-[PBUIWallpaperRemoteViewController _setupSceneWithCompletion:]_block_invoke_2.235
+- ___63-[PBUIWallpaperRemoteViewController _setupSceneWithCompletion:]_block_invoke_3
+- ___63-[PBUIWallpaperRemoteViewController _setupSceneWithCompletion:]_block_invoke_4
+- ___64-[PBUIPosterVariantViewController fetchWallpaperProminentColor:]_block_invoke.44
+- ___64-[PBUIPosterVariantViewController fetchWallpaperProminentColor:]_block_invoke.44.cold.1
+- ___64-[PBUIPosterWallpaperViewController requireWallpaperWithReason:]_block_invoke.78
+- ___64-[PBUIPosterWallpaperViewController requireWallpaperWithReason:]_block_invoke.81
+- ___64-[PBUIWallpaperRemoteViewController requireWallpaperWithReason:]_block_invoke
+- ___64-[PBUIWallpaperRemoteViewController requireWallpaperWithReason:]_block_invoke.86
+- ___66-[PBUIWallpaperRemoteViewController sceneDidDeactivate:withError:]_block_invoke
+- ___66-[PBUIWallpaperRemoteViewController setAlpha:forWallpaperVariant:]_block_invoke
+- ___68-[PBUIWallpaperRemoteViewController _invalidateBlurCacheForVariant:]_block_invoke
+- ___68-[PBUIWallpaperRemoteViewController _updateSceneModeWithCompletion:]_block_invoke
+- ___68-[PBUIWallpaperRemoteViewController _updateSceneModeWithCompletion:]_block_invoke_2
+- ___69-[PBUIWallpaperRemoteViewController setLockscreenOnlyWallpaperAlpha:]_block_invoke
+- ___69-[PBUIWallpaperRemoteViewController updateIrisWallpaperForStaticMode]_block_invoke
+- ___71-[PBUIWallpaperRemoteViewController setWallpaperHidden:variant:reason:]_block_invoke
+- ___72-[PBUIPosterHomeViewController performSnapshotOnQueue:scene:completion:]_block_invoke.163
+- ___72-[PBUIPosterHomeViewController performSnapshotOnQueue:scene:completion:]_block_invoke_2.164
+- ___72-[PBUIPosterHomeViewController performSnapshotOnQueue:scene:completion:]_block_invoke_3.165
+- ___72-[PBUIPosterHomeViewController performSnapshotOnQueue:scene:completion:]_block_invoke_4.168
+- ___72-[PBUIPosterHomeViewController performSnapshotOnQueue:scene:completion:]_block_invoke_5.172
+- ___72-[PBUIPosterHomeViewController performSnapshotOnQueue:scene:completion:]_block_invoke_6.181
+- ___72-[PBUIWallpaperRemoteViewController setLockscreenWallpaperContentsRect:]_block_invoke
+- ___72-[PBUIWallpaperRemoteViewController suspendWallpaperAnimationForReason:]_block_invoke
+- ___72-[PBUIWallpaperRemoteViewController suspendWallpaperAnimationForReason:]_block_invoke.75
+- ___73-[PBUIStaticWallpaperView _setupWallpaperImageFromConfiguration:options:]_block_invoke.2
+- ___73-[PBUIWallpaperViewController _updateInactiveBlurEffectForWallpaperMode:]_block_invoke.44
+- ___74-[PBUIWallpaperRemoteViewController updateIrisWallpaperForInteractiveMode]_block_invoke
+- ___75-[PBUIWallpaperRemoteViewController descriptionBuilderWithMultilinePrefix:]_block_invoke
+- ___75-[PBUIWallpaperRemoteViewController descriptionBuilderWithMultilinePrefix:]_block_invoke_2
+- ___75-[PBUIWallpaperRemoteViewController descriptionBuilderWithMultilinePrefix:]_block_invoke_3
+- ___77-[PBUIPosterViewController _updatePosterScenesForReasons:updater:completion:]_block_invoke.126
+- ___77-[PBUIPosterViewController _updatePosterScenesForReasons:updater:completion:]_block_invoke.127
+- ___78-[PBUIWallpaperRemoteViewController _wallpaperScaleAssertionForVariant:scale:]_block_invoke
+- ___79-[PBUIWallpaperRemoteViewController _updateWallpaperScaleWithAnimationFactory:]_block_invoke
+- ___79-[PBUIWallpaperRemoteViewController _updateWallpaperScaleWithAnimationFactory:]_block_invoke_2
+- ___80-[PBUIWallpaperWindowSceneSettingsDiffInspector _observeOtherSetting:withBlock:]_block_invoke
+- ___82-[PBUIWallpaperRemoteViewController beginDelayingHomescreenStyleChangesForReason:]_block_invoke
+- ___82-[PBUIWallpaperRemoteViewController remoteIrisWallpaperPlayer:touchActiveChanged:]_block_invoke
+- ___82-[PBUIWallpaperWindowSceneSettingsDiffAction _wallpaperSceneSettingsDiffInspector]_block_invoke
+- ___82-[PBUIWallpaperWindowSceneSettingsDiffAction _wallpaperSceneSettingsDiffInspector]_block_invoke_10
+- ___82-[PBUIWallpaperWindowSceneSettingsDiffAction _wallpaperSceneSettingsDiffInspector]_block_invoke_11
+- ___82-[PBUIWallpaperWindowSceneSettingsDiffAction _wallpaperSceneSettingsDiffInspector]_block_invoke_12
+- ___82-[PBUIWallpaperWindowSceneSettingsDiffAction _wallpaperSceneSettingsDiffInspector]_block_invoke_13
+- ___82-[PBUIWallpaperWindowSceneSettingsDiffAction _wallpaperSceneSettingsDiffInspector]_block_invoke_14
+- ___82-[PBUIWallpaperWindowSceneSettingsDiffAction _wallpaperSceneSettingsDiffInspector]_block_invoke_15
+- ___82-[PBUIWallpaperWindowSceneSettingsDiffAction _wallpaperSceneSettingsDiffInspector]_block_invoke_2
+- ___82-[PBUIWallpaperWindowSceneSettingsDiffAction _wallpaperSceneSettingsDiffInspector]_block_invoke_3
+- ___82-[PBUIWallpaperWindowSceneSettingsDiffAction _wallpaperSceneSettingsDiffInspector]_block_invoke_4
+- ___82-[PBUIWallpaperWindowSceneSettingsDiffAction _wallpaperSceneSettingsDiffInspector]_block_invoke_5
+- ___82-[PBUIWallpaperWindowSceneSettingsDiffAction _wallpaperSceneSettingsDiffInspector]_block_invoke_6
+- ___82-[PBUIWallpaperWindowSceneSettingsDiffAction _wallpaperSceneSettingsDiffInspector]_block_invoke_7
+- ___82-[PBUIWallpaperWindowSceneSettingsDiffAction _wallpaperSceneSettingsDiffInspector]_block_invoke_8
+- ___82-[PBUIWallpaperWindowSceneSettingsDiffAction _wallpaperSceneSettingsDiffInspector]_block_invoke_9
+- ___84-[PBUIWallpaperRemoteViewController imageForWallpaperStyle:variant:traitCollection:]_block_invoke
+- ___84-[PBUIWallpaperRemoteViewController imageForWallpaperStyle:variant:traitCollection:]_block_invoke.48
+- ___84-[PBUIWallpaperRemoteViewController imageForWallpaperStyle:variant:traitCollection:]_block_invoke.53
+- ___84-[PBUIWallpaperRemoteViewController imageForWallpaperStyle:variant:traitCollection:]_block_invoke.53.cold.1
+- ___84-[PBUIWallpaperRemoteViewController imageForWallpaperStyle:variant:traitCollection:]_block_invoke.55
+- ___84-[PBUIWallpaperRemoteViewController imageForWallpaperStyle:variant:traitCollection:]_block_invoke.57
+- ___84-[PBUIWallpaperRemoteViewController imageForWallpaperStyle:variant:traitCollection:]_block_invoke.60
+- ___84-[PBUIWallpaperRemoteViewController imageForWallpaperStyle:variant:traitCollection:]_block_invoke_2
+- ___84-[PBUIWallpaperRemoteViewController noteWillAnimateToInterfaceOrientation:duration:]_block_invoke
+- ___85-[PBUIWallpaperRemoteViewController setDisallowsRasterization:forVariant:withReason:]_block_invoke
+- ___86-[PBUIPosterViewController _userInterfaceStyleTraitDidChange:previousTraitCollection:]_block_invoke.143
+- ___86-[PBUIPosterViewController _userInterfaceStyleTraitDidChange:previousTraitCollection:]_block_invoke.145
+- ___86-[PBUIPosterViewController _userInterfaceStyleTraitDidChange:previousTraitCollection:]_block_invoke.145.cold.1
+- ___86-[PBUIWallpaperRemoteViewController _updateWallpaperSceneSettingsWithTransitionBlock:]_block_invoke
+- ___86-[PBUIWallpaperRemoteViewController newFakeBlurViewForVariant:style:transformOptions:]_block_invoke
+- ___86-[PBUIWallpaperWindowSceneClientSettingsDiffInspector _observeOtherSetting:withBlock:]_block_invoke
+- ___92-[PBUIWallpaperRemoteViewController _updateWallpaperSceneSettingsWithBlock:postUpdateBlock:]_block_invoke
+- ___92-[PBUIWallpaperRemoteViewController _updateWallpaperSceneSettingsWithBlock:postUpdateBlock:]_block_invoke_2
+- ___94-[PBUIWallpaperRemoteViewController _acquireSceneModeAssertionForReason:sceneMode:completion:]_block_invoke
+- ___94-[PBUIWallpaperRemoteViewController _simpleAssertionWithReasonsSet:identifier:reason:updater:]_block_invoke
+- ___94-[PBUIWallpaperRemoteViewController updateWallpaperForLocations:wallpaperMode:withCompletion:]_block_invoke
+- ___94-[PBUIWallpaperRemoteViewController updateWallpaperForLocations:wallpaperMode:withCompletion:]_block_invoke.95
+- ___96-[PBUIWallpaperWindowSceneVariantSettingsDiffAction _wallpaperVariantSceneSettingsDiffInspector]_block_invoke
+- ___97-[PBUIWallpaperRemoteViewController endDelayingHomescreenStyleChangesForReason:animationFactory:]_block_invoke
+- ____PBUIWallpaperRemoteViewControllerSceneWorkspace_block_invoke
+- ___block_descriptor_125_e8_32s40bs_e75_v32?0"FBScene"8"FBSMutableSceneSettings"16"FBSSceneTransitionContext"24ls32l8s40l8
+- ___block_descriptor_32_e27_v16?0"<FBSceneCreating>"8l
+- ___block_descriptor_32_e39_v16?0"FBSMutableSceneClientSettings"8l
+- ___block_descriptor_32_e49_v16?0"PBUIMutableWallpaperWindowSceneSettings"8l
+- ___block_descriptor_32_e62_16?0"_PBUIWallpaperRemoteViewControllerSceneModeAssertion"8l
+- ___block_descriptor_32_e63_v24?0"FBSMutableSceneSettings"8"FBSSceneTransitionContext"16l
+- ___block_descriptor_32_e8_v12?0B8l
+- ___block_descriptor_32_e9_v16?0^v8l
+- ___block_descriptor_33_e49_v16?0"PBUIMutableWallpaperWindowSceneSettings"8l
+- ___block_descriptor_40_e49_v16?0"PBUIMutableWallpaperWindowSceneSettings"8l
+- ___block_descriptor_40_e61_B32?0"PBUIFakeBlurConfiguration"8"PBUIFakeBlurAsset"16^B24l
+- ___block_descriptor_40_e8_32bs_e12_v24?0Q8^v16ls32l8
+- ___block_descriptor_40_e8_32bs_e8_v12?0B8ls32l8
+- ___block_descriptor_40_e8_32r_e9_v16?0^v8lr32l8
+- ___block_descriptor_40_e8_32s_e26_v16?0"BSActionResponse"8ls32l8
+- ___block_descriptor_40_e8_32s_e33_v16?0"FBSMutableSceneSettings"8ls32l8
+- ___block_descriptor_40_e8_32s_e49_v16?0"PBUIMutableWallpaperWindowSceneSettings"8ls32l8
+- ___block_descriptor_40_e8_32s_e5_q8?0ls32l8
+- ___block_descriptor_40_e8_32w_e17_v16?0"NSTimer"8lw32l8
+- ___block_descriptor_41_e49_v16?0"PBUIMutableWallpaperWindowSceneSettings"8l
+- ___block_descriptor_48_e49_v16?0"PBUIMutableWallpaperWindowSceneSettings"8l
+- ___block_descriptor_48_e8_32s40bs_e26_v16?0"BSActionResponse"8ls40l8s32l8
+- ___block_descriptor_48_e8_32s40bs_e60_"FBSSceneTransitionContext"16?0"FBSMutableSceneSettings"8ls40l8s32l8
+- ___block_descriptor_48_e8_32s40bs_e8_v12?0B8ls40l8s32l8
+- ___block_descriptor_48_e8_32s40s_e5_B8?0ls32l8s40l8
+- ___block_descriptor_48_e8_32s40s_e76_"FBSSceneTransitionContext"16?0"PBUIMutableWallpaperWindowSceneSettings"8ls32l8s40l8
+- ___block_descriptor_48_e8_32s40w_e26_v16?0"BSActionResponse"8lw40l8s32l8
+- ___block_descriptor_48_e8_32s40w_e8_v12?0B8lw40l8s32l8
+- ___block_descriptor_48_e8_32w_e5_v8?0lw32l8
+- ___block_descriptor_49_e8_32s40bs_e20_v20?0B8"NSError"12ls32l8s40l8
+- ___block_descriptor_56_e8_32s40bs48bs_e5_v8?0ls32l8s40l8s48l8
+- ___block_descriptor_56_e8_32s40bs48w_e27_v16?0"BSSimpleAssertion"8lw48l8s32l8s40l8
+- ___block_descriptor_56_e8_32s40bs_e8_v12?0B8ls32l8s40l8
+- ___block_descriptor_56_e8_32s40s48w_e8_v12?0B8lw48l8s32l8s40l8
+- ___block_descriptor_56_e8_32s_e76_"FBSSceneTransitionContext"16?0"PBUIMutableWallpaperWindowSceneSettings"8ls32l8
+- ___block_descriptor_58_e8_32s40s48s_e8_v12?0B8ls32l8s40l8s48l8
+- ___block_descriptor_64_e49_v16?0"PBUIMutableWallpaperWindowSceneSettings"8l
+- ___block_descriptor_64_e8_32bs40r48r56r_e8_v12?0B8lr40l8r48l8r56l8s32l8
+- ___block_descriptor_64_e8_32s40bs_e5_v8?0ls32l8s40l8
+- ___block_descriptor_64_e8_32s40s48s_e76_"FBSSceneTransitionContext"16?0"PBUIMutableWallpaperWindowSceneSettings"8ls32l8s40l8s48l8
+- ___block_descriptor_65_e8_32s40s48r56r_e8_v12?0B8ls32l8r48l8s40l8r56l8
+- ___block_descriptor_72_e8_32s40s48r56r_e5_v8?0ls32l8r48l8r56l8s40l8
+- ___block_descriptor_73_e8_32s40s48r56r64w_e5_v8?0lw64l8r48l8s32l8s40l8r56l8
+- ___block_descriptor_73_e8_32s40s48r56r_e5_v8?0ls32l8r48l8r56l8s40l8
+- ___block_descriptor_88_e8_32s40s48s56s64s_e26_v16?0"BSActionResponse"8ls32l8s40l8s48l8s56l8s64l8
+- ___block_descriptor_88_e8_32s40s48s56s64s_e5_v8?0ls32l8s40l8s48l8s56l8s64l8
+- ___block_descriptor_88_e8_32s40s48s56s_e5_v8?0ls32l8s40l8s48l8s56l8
+- ___block_literal_global.128
+- ___block_literal_global.13
+- ___block_literal_global.133
+- ___block_literal_global.141
+- ___block_literal_global.143
+- ___block_literal_global.147
+- ___block_literal_global.15
+- ___block_literal_global.16
+- ___block_literal_global.18
+- ___block_literal_global.19
+- ___block_literal_global.21
+- ___block_literal_global.224
+- ___block_literal_global.239
+- ___block_literal_global.247
+- ___block_literal_global.25
+- ___block_literal_global.250
+- ___block_literal_global.276
+- ___block_literal_global.308
+- ___block_literal_global.540
+- ___block_literal_global.796
+- ___block_literal_global.89
+- ___block_literal_global.94
+- ___block_literal_global.96
+- ___block_literal_global.98
+- _objc_msgSend$_acquireSceneModeAssertionForReason:sceneMode:
+- _objc_msgSend$_acquireSceneModeAssertionForReason:sceneMode:completion:
+- _objc_msgSend$_blurImageFromURL:
+- _objc_msgSend$_cacheBlurImageForVariant:requestedStyle:actualStyle:traitCollection:image:imageURL:
+- _objc_msgSend$_cachedBlurAssetForVariant:requestedStyle:traitCollection:
+- _objc_msgSend$_cancelSceneDeactivation
+- _objc_msgSend$_deferredImageSlot
+- _objc_msgSend$_disallowRasterizationReasonsForVariant:
+- _objc_msgSend$_effectViewForVariant:
+- _objc_msgSend$_effectiveSceneMode
+- _objc_msgSend$_handleImageSlotRequestAction:
+- _objc_msgSend$_handlePreheatAction:
+- _objc_msgSend$_handleUpdateAndPrewarmAction:
+- _objc_msgSend$_handleUpdateLocationsAction:
+- _objc_msgSend$_handleWallpaperEffectImageRequestAction:
+- _objc_msgSend$_handleWallpaperGestureBegan
+- _objc_msgSend$_handleWallpaperGestureChanged
+- _objc_msgSend$_handleWallpaperGestureEnded
+- _objc_msgSend$_hideWallpaperReasonsForVariant:
+- _objc_msgSend$_initWithImage:lifetimeToken:
+- _objc_msgSend$_invalidateBlurCacheForVariant:
+- _objc_msgSend$_legibilityUpdatedWithDictionary:notifyObservers:
+- _objc_msgSend$_modifySceneSettings:forSceneMode:
+- _objc_msgSend$_newEffectViewForVariant:transitionState:
+- _objc_msgSend$_notifyAllObserversOfNewWallpaperScene
+- _objc_msgSend$_observeOtherSetting:withBlock:
+- _objc_msgSend$_performWithLiveScene:
+- _objc_msgSend$_pointSize
+- _objc_msgSend$_sceneClientSettings
+- _objc_msgSend$_sceneSettings
+- _objc_msgSend$_scheduleSceneDeactivation
+- _objc_msgSend$_setEffectView:forVariant:
+- _objc_msgSend$_setImage:
+- _objc_msgSend$_setIrisPlaybackState:
+- _objc_msgSend$_setTouchActive:
+- _objc_msgSend$_setupScene
+- _objc_msgSend$_setupSceneWithCompletion:
+- _objc_msgSend$_simpleAssertionWithReasonsSet:identifier:reason:updater:
+- _objc_msgSend$_updateBlurViewsForVariant:
+- _objc_msgSend$_updateDisallowRasterizationForHomescreen:lockscreen:
+- _objc_msgSend$_updateHomescreenStyleChangesDelayed:
+- _objc_msgSend$_updateHomescreenStyleTransitionStateTo:from:
+- _objc_msgSend$_updateHomescreenWallpaperAlpha:
+- _objc_msgSend$_updateLiveWallpaperInteractive:
+- _objc_msgSend$_updateLiveWallpaperTouchActive:
+- _objc_msgSend$_updateLockscreenOnlyWallpaperAlpha:
+- _objc_msgSend$_updateLockscreenWallpaperAlpha:
+- _objc_msgSend$_updateLockscreenWallpaperContentsRect:
+- _objc_msgSend$_updateSceneMode
+- _objc_msgSend$_updateSceneModeWithCompletion:
+- _objc_msgSend$_updateWallpaperAnimationSuspended:
+- _objc_msgSend$_updateWallpaperHiddenForHomescreen:lockscreen:
+- _objc_msgSend$_updateWallpaperRequired:
+- _objc_msgSend$_updateWallpaperSceneSettingsWithBlock:
+- _objc_msgSend$_updateWallpaperSceneSettingsWithBlock:postUpdateBlock:
+- _objc_msgSend$_updateWallpaperSceneSettingsWithTransitionBlock:
+- _objc_msgSend$_updateWallpaperVariant:inAnimationSettings:outAnimationSettings:
+- _objc_msgSend$_updateWithImage:
+- _objc_msgSend$_wallpaperSceneSettingsDiffInspector
+- _objc_msgSend$_wallpaperVariantSceneSettingsDiffInspector
+- _objc_msgSend$addImageSlotObserver:
+- _objc_msgSend$appendArraySection:withName:skipIfEmpty:objectTransformer:
+- _objc_msgSend$appendEqualsBlocks:
+- _objc_msgSend$appendInteger:counterpart:
+- _objc_msgSend$applyUpdatesLocally:error:
+- _objc_msgSend$arrayByAddingObject:
+- _objc_msgSend$arrayByAddingObjectsFromArray:
+- _objc_msgSend$blueColor
+- _objc_msgSend$bs_map:
+- _objc_msgSend$bs_setSafeObject:forKey:
+- _objc_msgSend$containsTraitsInCollection:
+- _objc_msgSend$contrastForVariant:
+- _objc_msgSend$createPresenterWithIdentifier:
+- _objc_msgSend$createScene:
+- _objc_msgSend$deactivateWithTransitionContext:
+- _objc_msgSend$debugDescription
+- _objc_msgSend$deferredImageSlot:didUpdateImage:
+- _objc_msgSend$evaluateWithInspector:context:
+- _objc_msgSend$eventWithName:handler:
+- _objc_msgSend$executeOrInsertEvent:atPosition:
+- _objc_msgSend$hasDifferentColorAppearanceComparedToTraitCollection:
+- _objc_msgSend$highestPriorityStyleTransitionState
+- _objc_msgSend$homescreenWallpaperHidden
+- _objc_msgSend$identityForAngelJobLabel:
+- _objc_msgSend$identityForProcessIdentity:
+- _objc_msgSend$imageSlot
+- _objc_msgSend$imageURL
+- _objc_msgSend$inAnimationSettings
+- _objc_msgSend$initWithIdentifier:forReason:sceneMode:invalidationBlock:
+- _objc_msgSend$initWithImage:lifetimeToken:
+- _objc_msgSend$initWithLifetimeToken:
+- _objc_msgSend$initWithName:onQueue:
+- _objc_msgSend$initWithResponder:
+- _objc_msgSend$initWithSlotIdentifier:forResponseOnQueue:withHandler:
+- _objc_msgSend$initWithTarget:action:
+- _objc_msgSend$initWithVariant:desiredStyle:traitCollection:slotIdentifier:forResponseOnQueue:withHandler:
+- _objc_msgSend$invalidateIntrinsicContentSize
+- _objc_msgSend$irisWallpaperPlayer
+- _objc_msgSend$isTouchActive
+- _objc_msgSend$keysOfEntriesPassingTest:
+- _objc_msgSend$lockscreenWallpaperHidden
+- _objc_msgSend$noteWillAnimateToInterfaceOrientation:duration:
+- _objc_msgSend$observeDisallowHomescreenRasterizationWithBlock:
+- _objc_msgSend$observeDisallowLockscreenRasterizationWithBlock:
+- _objc_msgSend$observeHomescreenAverageColorWithBlock:
+- _objc_msgSend$observeHomescreenContentStaticWithBlock:
+- _objc_msgSend$observeHomescreenLegibilitySettingsWithBlock:
+- _objc_msgSend$observeHomescreenParallaxEnabledWithBlock:
+- _objc_msgSend$observeHomescreenParallaxFactorWithBlock:
+- _objc_msgSend$observeHomescreenStyleChangesDelayedWithBlock:
+- _objc_msgSend$observeHomescreenStyleTransitionStateWithBlock:
+- _objc_msgSend$observeHomescreenWallpaperAlphaWithBlock:
+- _objc_msgSend$observeHomescreenWallpaperHiddenWithBlock:
+- _objc_msgSend$observeHomescreenZoomFactorWithBlock:
+- _objc_msgSend$observeLiveWallpaperInteractiveWithBlock:
+- _objc_msgSend$observeLiveWallpaperPlaybackStateWithBlock:
+- _objc_msgSend$observeLiveWallpaperTouchActiveWithBlock:
+- _objc_msgSend$observeLockscreenContentLiveWallpaperWithBlock:
+- _objc_msgSend$observeLockscreenContentStaticWithBlock:
+- _objc_msgSend$observeLockscreenContrastWithBlock:
+- _objc_msgSend$observeLockscreenLegibilitySettingsWithBlock:
+- _objc_msgSend$observeLockscreenOnlyWallpaperAlphaWithBlock:
+- _objc_msgSend$observeLockscreenParallaxEnabledWithBlock:
+- _objc_msgSend$observeLockscreenParallaxFactorWithBlock:
+- _objc_msgSend$observeLockscreenStyleTransitionStateWithBlock:
+- _objc_msgSend$observeLockscreenWallpaperAlphaWithBlock:
+- _objc_msgSend$observeLockscreenWallpaperContentsRectWithBlock:
+- _objc_msgSend$observeLockscreenWallpaperHiddenWithBlock:
+- _objc_msgSend$observeLockscreenZoomFactorWithBlock:
+- _objc_msgSend$observeWallpaperAnimationSuspendedWithBlock:
+- _objc_msgSend$observeWallpaperRequiredWithBlock:
+- _objc_msgSend$observeWallpaperVariantWithBlock:
+- _objc_msgSend$outAnimationSettings
+- _objc_msgSend$pr_createPosterSceneWithRole:path:
+- _objc_msgSend$remoteIrisWallpaperPlayer:touchActiveChanged:
+- _objc_msgSend$remoteProcess
+- _objc_msgSend$removeImageSlotObserver:
+- _objc_msgSend$removeObjectsForKeys:
+- _objc_msgSend$removeWallpaperStyleTransitionStateForPriority:
+- _objc_msgSend$sceneMode
+- _objc_msgSend$scheduledTimerWithTimeInterval:repeats:block:
+- _objc_msgSend$setCachingIdentifier:
+- _objc_msgSend$setCancelsTouchesInView:
+- _objc_msgSend$setClientIdentity:
+- _objc_msgSend$setDisallowHomescreenRasterization:
+- _objc_msgSend$setDisallowLockscreenRasterization:
+- _objc_msgSend$setForcesOpaque:
+- _objc_msgSend$setHomescreenStyleChangesDelayed:
+- _objc_msgSend$setHomescreenStyleTransitionState:
+- _objc_msgSend$setHomescreenWallpaperAlpha:
+- _objc_msgSend$setHomescreenWallpaperHidden:
+- _objc_msgSend$setImageSlot:
+- _objc_msgSend$setInAnimationSettings:
+- _objc_msgSend$setLiveWallpaperInteractive:
+- _objc_msgSend$setLiveWallpaperTouchActive:
+- _objc_msgSend$setLockscreenStyleTransitionState:
+- _objc_msgSend$setLockscreenWallpaperAlpha:
+- _objc_msgSend$setLockscreenWallpaperContentsRect:
+- _objc_msgSend$setLockscreenWallpaperHidden:
+- _objc_msgSend$setLockscreenWallpaperScale:withAnimationFactory:
+- _objc_msgSend$setMinimumPressDuration:
+- _objc_msgSend$setOutAnimationSettings:
+- _objc_msgSend$setPresentedLayerTypes:
+- _objc_msgSend$setSpecification:
+- _objc_msgSend$setTimeout:
+- _objc_msgSend$setVariant:withOutAnimationFactory:inAnimationFactory:completion:
+- _objc_msgSend$setWallpaperAnimationSuspended:
+- _objc_msgSend$setWallpaperRequired:
+- _objc_msgSend$setWallpaperVariant:
+- _objc_msgSend$setWithArray:
+- _objc_msgSend$systemTealColor
+- _objc_msgSend$transitionDuration
+- _objc_msgSend$updateSettings:withTransitionContext:
+- _objc_msgSend$updateSettings:withTransitionContext:completion:
+- _objc_msgSend$updateSettingsWithTransitionBlock:
+- _objc_msgSend$updateWallpaperForLocations:wallpaperMode:withCompletion:
+- _objc_msgSend$updateWithImage:
+- _objc_msgSend$updateWithLegibilitySettings:variants:
+- _objc_msgSend$width
+- _objc_release_x10
+CStrings:
++ "<PBUIPosterViewController:%p:home:%@>"
++ "<PBUIPosterViewController:%p:lock:%@>"
++ "Campo"
++ "Class getPRUISDisplayStateProgressControllerClass(void)_block_invoke"
++ "CornerPocket"
++ "DeviceSupportsASTC"
++ "DeviceSupportsAlwaysOnTime"
++ "Enabling %@ as a cross-display portal because moving between windows on different screens."
++ "Error finding extension %{public}@: %{public}@; falling back to NullPoster"
++ "Error finding extension %{public}@: %{public}@; falling back to NullPoster for home scene"
++ "Error finding extension AND NullPoster fallback is also unavailable. Original provider: %@, original error: %@"
++ "Extension %{public}@ not available, will use LoadingPoster for scene creation"
++ "HasExtendedColorDisplay"
++ "IntelligenceFlow"
++ "May 31 2026 20:53:06"
++ "PRUISDisplayStateProgressController"
++ "RuntimeSnapshot-%@-%@"
++ "RuntimeSnapshotColorStatisticsMetadata-%@-%@"
++ "RuntimeSnapshotMetadata-%@-%@"
++ "SBSensitiveUIEnabled"
++ "[%{public}@] Failed to migrate legacy snapshot: %{public}@"
++ "[%{public}@] Migrated legacy snapshot to hardware-prefixed format"
++ "[%{public}@] _migrateLegacySnapshotsIfNeeded: bailing because scene hwID does not match main hwID"
++ "[%{public}@] _migrateLegacySnapshotsIfNeeded: sceneHardwareIdentifier=%{public}@ mainHardwareIdentifier=%{public}@ sceneDisplayConfig=%{public}@ mainDisplayConfig=%{public}@"
++ "[%{public}@] _setupCachesIfNeeded: bailing on empty hardwareIdentifier; _pathProvider=%{public}@ _snapshotSource=%{public}@ _portalProvider=%{public}@"
++ "[%{public}@] _setupCachesIfNeeded: hardwareIdentifier=%{public}@ scene=%{public}@ displayConfiguration=%{public}@ instanceURL=%{public}@"
++ "[%{public}@] displayConfigurationDidUpdate: _pathProvider nil, running deferred _setupCachesIfNeeded"
++ "[%{public}@] displayConfigurationWillUpdate: bailing (no _pathProvider yet); displayConfiguration=%{public}@"
++ "[%{public}@] displayConfigurationWillUpdate: bailing on empty hardwareIdentifier"
++ "[%{public}@] displayConfigurationWillUpdate: hardwareIdentifier=%{public}@ displayConfiguration=%{public}@"
++ "[home] _didFinishRotating: removed 'rotation', holdReasons=%@"
++ "[home] configureEffectViewForMode: reflectsLock=%{BOOL}d counterpart=%@ portalProvider=%@ effectView=%@ snapshotHoldReasons=%@"
++ "[home] configureEffectViewForMode: setShowsSnapshot=%{BOOL}d snapshotSourceValid=%{BOOL}d needsSnapshot=%{BOOL}d isSnapshotting=%{BOOL}d"
++ "[home] displayConfigurationWillUpdate: holdReasons=%@"
++ "[home] noteWillRotate: added 'rotation', holdReasons=%@, canShowSnapshot=%{BOOL}d"
++ "[portalEffect] requestStyle: %{public}@ -> %{public}@"
++ "[portalEffect] setNeedsSourceUpdate: style=%{public}@ source=%@ averageColor=%@ backdropSettings=%@ materialStyle=%ld"
++ "[snapshot] _updateImageViewRotation: orientation=%ld radians=%f windowScene=%@"
++ "com.apple.Posters.NullPoster"
++ "display configuration updated"
++ "displayConfigurationTransition"
++ "snapshot held for reasons: %@"
++ "\x95"
++ "\xf0\x81!"
++ "\xf0\xf0Q"
+- "#16@0:8"
+- "#24@0:8@16"
+- "#24@0:8q16"
+- "(?=\"\"{?=\"vector\"}\"quaternion\"{?=\"vector\"})"
+- "(?={?=}{?=})16@0:8"
+- ".cxx_destruct"
+- "@"
+- "@\"<BSDefaultObserver>\""
+- "@\"<BSInvalidatable>\""
+- "@\"<BSInvalidatable>\"24@0:8@\"<PBUIPosterReplicaSourceObserver>\"16"
+- "@\"<BSInvalidatable>\"24@0:8@\"NSString\"16"
+- "@\"<BSInvalidatable>\"24@0:8@\"UIView<PBUIPosterReplicaView>\"16"
+- "@\"<BSPathProviding>\""
+- "@\"<PBUIEffectTrackingReplicaViewDelegate>\""
+- "@\"<PBUIFakeBlurImageProviding>\""
+- "@\"<PBUIFakeBlurObserver>\""
+- "@\"<PBUIFakeBlurObserver>\"16@0:8"
+- "@\"<PBUIFakeBlurViewRegistering>\""
+- "@\"<PBUIIrisWallpaperPlayerDelegate>\""
+- "@\"<PBUIIrisWallpaperPlayerDelegate>\"16@0:8"
+- "@\"<PBUIIrisWallpaperPlaying>\"16@0:8"
+- "@\"<PBUILegacyWallpaperPresenting>\""
+- "@\"<PBUILegibilitySettingsProviderDelegate>\""
+- "@\"<PBUILegibilitySettingsProviderDelegate>\"16@0:8"
+- "@\"<PBUILivePhotoPlayerViewDelegate>\""
+- "@\"<PBUIPosterComponentDelegate>\""
+- "@\"<PBUIPosterComponentDelegate>\"16@0:8"
+- "@\"<PBUIPosterReplicaPortalProviding>\""
+- "@\"<PBUIPosterReplicaSnapshotProviding>\""
+- "@\"<PBUIProceduralWallpaperProvider>\""
+- "@\"<PBUIRemoteIrisWallpaperPlayerDelegate>\""
+- "@\"<PBUIReplicaPortalSource>\""
+- "@\"<PBUIReplicaPortalSource>\"24@0:8@\"UIView<PBUIPosterReplicaView>\"16"
+- "@\"<PBUIReplicaSnapshotSource>\""
+- "@\"<PBUIReplicaSnapshotSource>\"24@0:8@\"<PBUIPosterReplicaSourceObserver>\"16"
+- "@\"<PBUISessionReconnectPolicy>\""
+- "@\"<PBUIURLSourceDelegate>\""
+- "@\"<PBUIWallpaperAnimatedInvalidating>\"32@0:8d16@\"BSUIAnimationFactory\"24"
+- "@\"<PBUIWallpaperAnimatedInvalidating>\"40@0:8@\"UIView\"16@\"NSString\"24@\"BSUIAnimationFactory\"32"
+- "@\"<PBUIWallpaperConfigurationManagerDelegate>\""
+- "@\"<PBUIWallpaperEffectCompositor>\""
+- "@\"<PBUIWallpaperLegibilityProviding>\""
+- "@\"<PBUIWallpaperPresenting><PBUIWallpaperLegibilityProviding>\""
+- "@\"<PBUIWallpaperPresentingDelegate>\""
+- "@\"<PBUIWallpaperPresentingDelegate>\"16@0:8"
+- "@\"<PBUIWallpaperReachabilityCoordinating>\""
+- "@\"<PBUIWallpaperServerDelegate>\""
+- "@\"<PBUIWallpaperViewDelegate>\""
+- "@\"<PBUIWallpaperViewInternalObserver>\""
+- "@\"<PLKLegibilityEnvironmentContext>\""
+- "@\"<PLKLegibilityEnvironmentContext>\"16@0:8"
+- "@\"<PLKLegibilityEnvironmentContext>\"24@0:8q16"
+- "@\"<PUIRenderer>\""
+- "@\"<UIScenePresenter>\""
+- "@\"AVAsset\""
+- "@\"AVPlayer\"24@0:8@\"ISBasePlayer\"16"
+- "@\"AVPlayer\"24@0:8@\"PBUILivePhotoPlayerView\"16"
+- "@\"BSActionResponder\""
+- "@\"BSAtomicFlag\""
+- "@\"BSCompoundAssertion\""
+- "@\"BSDescriptionBuilder\"16@0:8"
+- "@\"BSDescriptionBuilder\"24@0:8@\"NSString\"16"
+- "@\"BSEventQueue\""
+- "@\"BSServiceConnectionEndpoint\""
+- "@\"BSServiceConnectionListener\""
+- "@\"BSSimpleAssertion\""
+- "@\"BSUIAnimationFactory\""
+- "@\"BSUIMappedImageCache\""
+- "@\"BSUIMappedImageCache<PUIManagedCacheIdentifying>\""
+- "@\"BSUIOrientationTransformWrapperView\""
+- "@\"CADisplayLink\""
+- "@\"CAFilter\""
+- "@\"FBSSceneTransitionContext\"16@?0@\"FBSMutableSceneSettings\"8"
+- "@\"FBSSceneTransitionContext\"16@?0@\"PBUIMutableWallpaperWindowSceneSettings\"8"
+- "@\"FBScene\""
+- "@\"FBServiceClientAuthenticator\""
+- "@\"IOSurface\""
+- "@\"ISAVPlayer\""
+- "@\"ISBasePlayerUIView\""
+- "@\"ISLivePhotoUIView\""
+- "@\"ISLiveWallpaperUIView\""
+- "@\"ISWrappedAVPlayer\"24@0:8@\"ISBasePlayer\"16"
+- "@\"MTMaterialView\""
+- "@\"NSArray\""
+- "@\"NSArray\"16@0:8"
+- "@\"NSAttributedString\""
+- "@\"NSData\""
+- "@\"NSData\"32@0:8q16q24"
+- "@\"NSDate\""
+- "@\"NSDictionary\""
+- "@\"NSDictionary\"24@0:8q16"
+- "@\"NSHashTable\""
+- "@\"NSMutableArray\""
+- "@\"NSMutableDictionary\""
+- "@\"NSMutableSet\""
+- "@\"NSObject<OS_dispatch_queue>\""
+- "@\"NSObject<OS_dispatch_source>\""
+- "@\"NSSet\"16@0:8"
+- "@\"NSSet\"32@0:8@\"FBScene\"16@\"NSSet\"24"
+- "@\"NSSet\"48@0:8@\"NSSet\"16@\"FBSScene\"24@\"UIScene\"32@\"FBSSceneTransitionContext\"40"
+- "@\"NSString\""
+- "@\"NSString\"16@0:8"
+- "@\"NSString\"24@0:8@\"NSString\"16"
+- "@\"NSString\"24@0:8q16"
+- "@\"NSTimer\""
+- "@\"NSURL\""
+- "@\"NSURL\"16@0:8"
+- "@\"NSURL\"32@0:8q16q24"
+- "@\"NSUUID\""
+- "@\"PBUIBakedEffectSnapshotSource\""
+- "@\"PBUICachedSnapshotEffectProvider\""
+- "@\"PBUIDynamicProviderWrapper\""
+- "@\"PBUIEffectTrackingReplicaView\""
+- "@\"PBUIExternalDisplayConfiguration\""
+- "@\"PBUIExternalDisplayConfiguration\"24@0:8@\"<PBUIPosterComponent>\"16"
+- "@\"PBUIFixedReplicaSourceProvider\""
+- "@\"PBUIGradientView\""
+- "@\"PBUIHUDWindow\""
+- "@\"PBUIHomeVariantStyleState\""
+- "@\"PBUIHomeVariantStyleState\"16@0:8"
+- "@\"PBUIImageSlot\""
+- "@\"PBUIImageSlotRepository\""
+- "@\"PBUILivePhotoPlayerView\""
+- "@\"PBUIMagnifyMode\""
+- "@\"PBUIPortalReplicaEffectView\""
+- "@\"PBUIPosterActiveVariantImageProvider\""
+- "@\"PBUIPosterFloatingLayerReplica\""
+- "@\"PBUIPosterFloatingView\""
+- "@\"PBUIPosterHomeViewController\""
+- "@\"PBUIPosterLockViewController\""
+- "@\"PBUIPosterPortalImageProvider\""
+- "@\"PBUIPosterSceneLayerHostView\""
+- "@\"PBUIPosterVariantPathProvider\""
+- "@\"PBUIPosterVariantViewController\""
+- "@\"PBUIPosterViewController\""
+- "@\"PBUIPosterWallpaperViewController\""
+- "@\"PBUIRemoteIrisWallpaperPlayer\""
+- "@\"PBUIReplicaDebugView\""
+- "@\"PBUIReplicaDebugView\"16@0:8"
+- "@\"PBUIReplicaSourceObserverBox\""
+- "@\"PBUISnapshotReplicaView\""
+- "@\"PBUIURLBackedSnapshotSource\""
+- "@\"PBUIWallpaperConfiguration\"32@0:8@\"PBUIWallpaperView\"16Q24"
+- "@\"PBUIWallpaperConfigurationManager\""
+- "@\"PBUIWallpaperDefaults\""
+- "@\"PBUIWallpaperDefaultsDomain\""
+- "@\"PBUIWallpaperEffectConfiguration\""
+- "@\"PBUIWallpaperEffectViewBase\""
+- "@\"PBUIWallpaperGradient\""
+- "@\"PBUIWallpaperGradient\"24@0:8q16"
+- "@\"PBUIWallpaperImage\""
+- "@\"PBUIWallpaperImage\"32@0:8q16q24"
+- "@\"PBUIWallpaperOptions\""
+- "@\"PBUIWallpaperOptions\"24@0:8@\"NSString\"16"
+- "@\"PBUIWallpaperOptions\"32@0:8q16q24"
+- "@\"PBUIWallpaperParallaxSettings\""
+- "@\"PBUIWallpaperPrototypeSettings\""
+- "@\"PBUIWallpaperStyleInfo\""
+- "@\"PBUIWallpaperView\""
+- "@\"PBUIWallpaperViewController\""
+- "@\"PBUIWallpaperWindowSceneSettingsDiffInspector\""
+- "@\"PLKColorBoxes\""
+- "@\"PLKLegibilityEnvironment\""
+- "@\"PLKLegibilityEnvironment\"16@0:8"
+- "@\"PLKLegibilityEnvironmentBuilder\""
+- "@\"PRPosterHomeScreenConfiguration\""
+- "@\"PRPosterLegibilitySettings\""
+- "@\"PRRenderingServiceSceneComponent\""
+- "@\"PRSPosterConfiguration\""
+- "@\"PRSService\""
+- "@\"PRSWallpaperObserver\""
+- "@\"PTOutlet\""
+- "@\"PUIColorStatistics\""
+- "@\"PUIDiscreteGradientVariatedCustomStyle\""
+- "@\"PUIImageEncoder\""
+- "@\"PUIImageOnDiskFormat\""
+- "@\"UIColor\""
+- "@\"UIColor\"16@0:8"
+- "@\"UIColor\"24@0:8q16"
+- "@\"UIColor\"48@0:8{CGRect={CGPoint=dd}{CGSize=dd}}16"
+- "@\"UIColor\"56@0:8{CGRect={CGPoint=dd}{CGSize=dd}}16q48"
+- "@\"UIColor\"64@0:8{CGRect={CGPoint=dd}{CGSize=dd}}16q48d56"
+- "@\"UIGestureRecognizer\""
+- "@\"UIGestureRecognizer\"16@0:8"
+- "@\"UIImage\""
+- "@\"UIImage\"16@0:8"
+- "@\"UIImage\"32@0:8q16q24"
+- "@\"UIImage\"40@0:8@\"PBUIWallpaperEffectConfiguration\"16@\"UIImage\"24o^@32"
+- "@\"UIImageView\""
+- "@\"UILabel\""
+- "@\"UILongPressGestureRecognizer\""
+- "@\"UIPanGestureRecognizer\""
+- "@\"UIScrollView\""
+- "@\"UITraitCollection\""
+- "@\"UIView\""
+- "@\"UIView\"16@0:8"
+- "@\"UIView\"24@0:8@\"UIScrollView\"16"
+- "@\"UIView<BSInvalidatable><PBUIWallpaperPositioning>\"28@0:8@\"NSString\"16B24"
+- "@\"UIView<PBUIFakeBluring>\""
+- "@\"UIView<PBUIFakeBluring>\"40@0:8q16q24Q32"
+- "@\"UIView<UIScenePresentation>\""
+- "@\"UIVisualEffectView\""
+- "@\"_PBUIDimmingView\""
+- "@\"_UIBackdropView\""
+- "@\"_UILegibilitySettings\""
+- "@\"_UILegibilitySettings\"16@0:8"
+- "@\"_UILegibilitySettings\"24@0:8@\"NSString\"16"
+- "@\"_UILegibilitySettings\"24@0:8q16"
+- "@\"_UILegibilitySettings\"32@0:8@\"PBUIWallpaperConfigurationManager\"16q24"
+- "@\"_UILegibilitySettingsProvider\""
+- "@\"_UIParallaxMotionEffect\""
+- "@\"_UIPortalView\""
+- "@\"_UISceneConnectionOptionsContext\"48@0:8@\"NSSet\"16@\"FBSScene\"24@\"UISceneSession\"32@\"FBSSceneTransitionContext\"40"
+- "@100@0:8@16d24d32B40{CGRect={CGPoint=dd}{CGSize=dd}}44B76B80d84@92"
+- "@100@0:8@16{?=qqqddddq}24B88@92"
+- "@100@0:8{?=qqqddddq}16B80d84@92"
+- "@108@0:8@16d24d32B40{CGRect={CGPoint=dd}{CGSize=dd}}44B76B80d84q92q100"
+- "@116@0:8@16d24d32B40{CGRect={CGPoint=dd}{CGSize=dd}}44B76B80d84q92q100@108"
+- "@120@0:8@16d24d32B40{CGRect={CGPoint=dd}{CGSize=dd}}44B76d80B88B92d96q104q112"
+- "@128@0:8@16d24d32B40{CGRect={CGPoint=dd}{CGSize=dd}}44B76d80B88B92d96q104q112@120"
+- "@16@0:8"
+- "@16@?0@\"_PBUIWallpaperRemoteViewControllerSceneModeAssertion\"8"
+- "@20@0:8B16"
+- "@24@0:8:16"
+- "@24@0:8@\"NSCoder\"16"
+- "@24@0:8@\"NSObject<OS_xpc_object>\"16"
+- "@24@0:8@16"
+- "@24@0:8@?16"
+- "@24@0:8Q16"
+- "@24@0:8^{_NSZone=}16"
+- "@24@0:8d16"
+- "@24@0:8q16"
+- "@28@0:8@16B24"
+- "@28@0:8B16o^@20"
+- "@28@0:8Q16B24"
+- "@28@0:8c16c20c24"
+- "@28@0:8d16B24"
+- "@32@0:8:16@24"
+- "@32@0:8@16@24"
+- "@32@0:8@16@?24"
+- "@32@0:8@16Q24"
+- "@32@0:8@16^{__IOSurface=}24"
+- "@32@0:8@16q24"
+- "@32@0:8N^q16@24"
+- "@32@0:8d16@24"
+- "@32@0:8q16@24"
+- "@32@0:8q16Q24"
+- "@32@0:8q16d24"
+- "@32@0:8q16q24"
+- "@32@0:8{CGSize=dd}16"
+- "@36@0:8{CGSize=dd}16B32"
+- "@40@0:8:16@24@32"
+- "@40@0:8@16@24@32"
+- "@40@0:8@16@24@?32"
+- "@40@0:8@16@24o^@32"
+- "@40@0:8@16@?24@?32"
+- "@40@0:8@16d24q32"
+- "@40@0:8@16q24@32"
+- "@40@0:8@16q24@?32"
+- "@40@0:8@16q24Q32"
+- "@40@0:8@16{CGSize=dd}24"
+- "@40@0:8N^q16@24@32"
+- "@40@0:8N^q16q24@\"UITraitCollection\"32"
+- "@40@0:8N^q16q24@32"
+- "@40@0:8q16@24@32"
+- "@40@0:8q16@24Q32"
+- "@40@0:8q16@24^@32"
+- "@40@0:8q16Q24q32"
+- "@40@0:8q16q24@32"
+- "@40@0:8q16q24Q32"
+- "@40@0:8{CGPoint=dd}16@32"
+- "@40@0:8{CGSize=dd}16@32"
+- "@44@0:8@16@24@32B40"
+- "@44@0:8@16q24B32Q36"
+- "@48@0:8@16@24@32@40"
+- "@48@0:8@16@24@32@?40"
+- "@48@0:8@16@24q32@?40"
+- "@48@0:8@16{CGSize=dd}24d40"
+- "@48@0:8^{CGImage=}16d24q32@40"
+- "@48@0:8q16@24Q32@40"
+- "@48@0:8q16{?=qqd}24"
+- "@48@0:8q16{CGSize=dd}24@40"
+- "@48@0:8{CGRect={CGPoint=dd}{CGSize=dd}}16"
+- "@56@0:8@16@24@32@40@48"
+- "@56@0:8@16@24@32@40o^@48"
+- "@56@0:8@16{CGSize=dd}24d40q48"
+- "@56@0:8{CGRect={CGPoint=dd}{CGSize=dd}}16d48"
+- "@56@0:8{CGRect={CGPoint=dd}{CGSize=dd}}16q48"
+- "@64@0:8q16@24@32@40Q48@56"
+- "@64@0:8q16q24@32@40@48@?56"
+- "@64@0:8{CGRect={CGPoint=dd}{CGSize=dd}}16q48d56"
+- "@64@0:8{CGRect={CGPoint=dd}{CGSize=dd}}16{CGSize=dd}48"
+- "@68@0:8{CGRect={CGPoint=dd}{CGSize=dd}}16{CGSize=dd}48B64"
+- "@72@0:8{CGRect={CGPoint=dd}{CGSize=dd}}16@48@56q64"
+- "@76@0:8@16@24@32B40@44@52@60@68"
+- "@80@0:8@16d24d32B40{CGRect={CGPoint=dd}{CGSize=dd}}44B76"
+- "@88@0:8{CGRect={CGPoint=dd}{CGSize=dd}}16@48q56@64@72Q80"
+- "@92@0:8@16d24d32B40{CGRect={CGPoint=dd}{CGSize=dd}}44B76B80d84"
+- "@92@0:8{?=qqqddddq}16B80@84"
+- "@96@0:8@16{?=qqqddddq}24@88"
+- "@?"
+- "Acquiring foreground scene mode assertion for image request %{public}@"
+- "Acquiring foreground support scene mode assertion for wallpaper change"
+- "Acquiring foreground support scene mode assertion for wallpaper update"
+- "Activating existing wallpaper scene %{public}@"
+- "Aixt/MEN2O2B7f+8m4TxUA"
+- "Animation suspension assertion for reason %{public}@ invalidated. Setting sampling suspended:%{BOOL}u"
+- "Apr 20 2026 20:10:40"
+- "Attempting reactivation of remote wallpaper controller %p scene in %0.3f seconds."
+- "B"
+- "B16@0:8"
+- "B20@0:8B16"
+- "B24@0:8#16"
+- "B24@0:8:16"
+- "B24@0:8@\"Protocol\"16"
+- "B24@0:8@\"UIGestureRecognizer\"16"
+- "B24@0:8@\"UIScrollView\"16"
+- "B24@0:8@16"
+- "B24@0:8N^{?=qqd}16"
+- "B24@0:8Q16"
+- "B24@0:8o^@16"
+- "B24@0:8q16"
+- "B32@0:8@\"NSArray\"16o^@24"
+- "B32@0:8@\"NSDictionary\"16q24"
+- "B32@0:8@\"NSString\"16q24"
+- "B32@0:8@\"PBUIWallpaperConfigurationManager\"16q24"
+- "B32@0:8@\"PBUIWallpaperGradient\"16@\"NSString\"24"
+- "B32@0:8@\"PBUIWallpaperGradient\"16q24"
+- "B32@0:8@\"UIColor\"16q24"
+- "B32@0:8@\"UIGestureRecognizer\"16@\"UIEvent\"24"
+- "B32@0:8@\"UIGestureRecognizer\"16@\"UIGestureRecognizer\"24"
+- "B32@0:8@\"UIGestureRecognizer\"16@\"UIPress\"24"
+- "B32@0:8@\"UIGestureRecognizer\"16@\"UITouch\"24"
+- "B32@0:8@\"UIView\"16@24"
+- "B32@0:8@16@24"
+- "B32@0:8@16^@24"
+- "B32@0:8@16o^@24"
+- "B32@0:8@16q24"
+- "B32@0:8q16@24"
+- "B32@0:8q16q24"
+- "B32@?0@\"PBUIFakeBlurConfiguration\"8@\"PBUIFakeBlurAsset\"16^B24"
+- "B36@0:8B16@20@28"
+- "B40@0:8@\"NSData\"16q24q32"
+- "B40@0:8@\"NSURL\"16q24q32"
+- "B40@0:8@\"PBUIWallpaperOptions\"16q24q32"
+- "B40@0:8@\"UIColor\"16@\"UIColor\"24@\"NSString\"32"
+- "B40@0:8@\"UIImage\"16q24q32"
+- "B40@0:8@16@24@32"
+- "B40@0:8@16@24q32"
+- "B40@0:8@16q24q32"
+- "B40@0:8q16q24@\"BSUIAnimationFactory\"32"
+- "B40@0:8q16q24@32"
+- "B40@0:8q16q24q32"
+- "B40@0:8{?=qqd}16"
+- "B48@0:8@\"NSURL\"16@\"NSData\"24@\"NSString\"32@\"NSString\"40"
+- "B48@0:8@16@24@32@40"
+- "B48@0:8@16@24q32Q40"
+- "B48@0:8@16q24q32@40"
+- "B48@0:8q16q24q32@\"BSUIAnimationFactory\"40"
+- "B48@0:8q16q24q32@40"
+- "B56@0:8q16^{?=qqd}24^{?=qqd}32^@40^@48"
+- "B56@0:8{?=qqd}16q40@48"
+- "B64@0:8{?=qqd}16q40q48@\"BSUIAnimationFactory\"56"
+- "B64@0:8{?=qqd}16q40q48@56"
+- "B72@0:8@\"NSObject<OS_xpc_object>\"16@\"NSObject<OS_xpc_object>\"24@\"NSData\"32@\"NSData\"40@\"PBUIWallpaperOptions\"48@\"NSString\"56@\"NSString\"64"
+- "B72@0:8@16@24@32@40@48@56@64"
+- "B72@0:8@16@24@32@40@48q56q64"
+- "B76@0:8@16q24B32{CGRect={CGPoint=dd}{CGSize=dd}}36q68"
+- "B84@0:8@16@24@32@40@48q56Q64q72B80"
+- "B8@?0"
+- "BSColor"
+- "BSDescriptionProviding"
+- "BSInvalidatable"
+- "BSServiceConnectionListenerDelegate"
+- "BSXPCCoding"
+- "Beginning delaying homescreen style changes for reason %{public}@"
+- "Beginning wallpaper requiring for reason %{public}@ assertion %p"
+- "CAAnimationDelegate"
+- "CGColor"
+- "CGImage"
+- "CGRectValue"
+- "CGSizeValue"
+- "Caching asset %{public}@ for configuration %{public}@"
+- "Created new wallpaper scene %{public}@"
+- "Deactivating idle wallpaper scene due to inactivity."
+- "Did not receive response for image request %{public}@"
+- "DidChangeWallpaperConfiguration"
+- "Disabling parallax because of requested wallpaper style"
+- "Enabling %@ as a cross-display portal. I'm told this may have a significant perf impact."
+- "Enabling parallax because of requested wallpaper style"
+- "Ending delaying homescreen style changes for reason %{public}@. Remaining reasons: %ld"
+- "Ending wallpaper requiring with reason %{public}@. Setting wallpaper required:%{BOOL}u"
+- "Error deserializing wallpaper image from URL %{public}@: %{public}@"
+- "Extension %{public}@ not available, creating scene with LoadingPoster"
+- "FBSceneDelegate"
+- "FBSceneLayerManagerObserver"
+- "FBSceneObserver"
+- "Fetching image for wallpaper style:%{public}@ variant:%{public}@ traitCollection.userInterfaceStyle:%{public}@"
+- "I16@0:8"
+- "ISBasePlayerDelegate"
+- "ISChangeObserver"
+- "Image slot invalidated: %{public}@ (%{public}@)"
+- "ImageForWallpaperStyle"
+- "Installing live scene view on scene setup"
+- "Invalidating cached assets for configurations %{public}@"
+- "Invalidating foreground support scene mode assertion for wallpaper update"
+- "Live wallpaper playback state changed. Playback state: %{public}@"
+- "LoadingPoster extension not found, falling back to standard scene creation. Error: %{public}@"
+- "Modifying scene settings for scene mode %{public}@"
+- "NSCoding"
+- "NSCopying"
+- "NSFastEnumeration"
+- "NSObject"
+- "NSSecureCoding"
+- "PBMutablePosterSceneClientSettings"
+- "PBMutablePosterSceneSettings"
+- "PBPosterSceneClientSettings"
+- "PBPosterSceneSettings"
+- "PBUIAccessibilityTintView"
+- "PBUIBackdropCompositor"
+- "PBUIBakedEffectSnapshotSource"
+- "PBUIBokehColorArbiter"
+- "PBUIBokehImageArbiter"
+- "PBUIBokehWallpaperCircle"
+- "PBUIBokehWallpaperView"
+- "PBUICachedSnapshotEffectProvider"
+- "PBUIColorWallpaperView"
+- "PBUIDefaultSessionReconnectPolicy"
+- "PBUIDeferredImageSlot"
+- "PBUIDeferredImageSlotObserving"
+- "PBUIDynamicProviderWrapper"
+- "PBUIEffectTrackingReplicaView"
+- "PBUIEffectTrackingReplicaViewDelegate"
+- "PBUIExternalDisplayConfiguration"
+- "PBUIFakeBlurAsset"
+- "PBUIFakeBlurConfiguration"
+- "PBUIFakeBlurImageProviding"
+- "PBUIFakeBlurObserver"
+- "PBUIFakeBlurView"
+- "PBUIFakeBlurViewRegistering"
+- "PBUIFakeBluring"
+- "PBUIFixedReplicaSourceProvider"
+- "PBUIFloatingLayerObserver"
+- "PBUIGradientView"
+- "PBUIGradientWallpaperView"
+- "PBUIHUDWindow"
+- "PBUIHomeVariantStyleState"
+- "PBUIImageSlot"
+- "PBUIImageSlotRepository"
+- "PBUIImageSlotView"
+- "PBUIIrisWallpaperPlaying"
+- "PBUIIrisWallpaperView"
+- "PBUILegacyWallpaperPresenting"
+- "PBUILegibilitySettingsProvider"
+- "PBUILegibilitySettingsProviderDelegate"
+- "PBUILivePhotoPlayerLivePhotoView"
+- "PBUILivePhotoPlayerLiveWallpaperView"
+- "PBUILivePhotoPlayerView"
+- "PBUILivePhotoPlayerViewDelegate"
+- "PBUIMagnifyMode"
+- "PBUIMaterialCompositor"
+- "PBUIMutableWallpaperWindowSceneClientSettings"
+- "PBUIMutableWallpaperWindowSceneSettings"
+- "PBUIParallaxSettings"
+- "PBUIPortalReplicaEffectView"
+- "PBUIPortalReplicaView"
+- "PBUIPosterActiveVariantImageProvider"
+- "PBUIPosterBridge"
+- "PBUIPosterComponent"
+- "PBUIPosterComponentDelegate"
+- "PBUIPosterFloatingView"
+- "PBUIPosterHUDController"
+- "PBUIPosterHomeViewController"
+- "PBUIPosterLockViewController"
+- "PBUIPosterPortalImageProvider"
+- "PBUIPosterReplicaPortalProviding"
+- "PBUIPosterReplicaSnapshotProviding"
+- "PBUIPosterReplicaSourceObserver"
+- "PBUIPosterReplicaView"
+- "PBUIPosterSceneLayerHostView"
+- "PBUIPosterUpdating"
+- "PBUIPosterVariantPathProvider"
+- "PBUIPosterVariantViewController"
+- "PBUIPosterViewController"
+- "PBUIPosterWallpaperMigrationInfo"
+- "PBUIPosterWallpaperRemoteViewController"
+- "PBUIPosterWallpaperViewController"
+- "PBUIPosterWallpaperWindowSceneStyleTransitionState"
+- "PBUIPowerLogger"
+- "PBUIRemoteIrisWallpaperPlayer"
+- "PBUIRemoteIrisWallpaperPlayerDelegate"
+- "PBUIReplicaDebugView"
+- "PBUIReplicaPortalSource"
+- "PBUIReplicaSnapshotSource"
+- "PBUIReplicaSource"
+- "PBUIReplicaSourceObserverBox"
+- "PBUIScrollableIrisWallpaperView"
+- "PBUIScrollableStaticWallpaperView"
+- "PBUISessionReconnectPolicy"
+- "PBUISimpleReplicaPortalSource"
+- "PBUISnapshotPreconditionResult"
+- "PBUISnapshotReplicaView"
+- "PBUIStaticWallpaperImageView"
+- "PBUIStaticWallpaperView"
+- "PBUIURLBackedSnapshotSource"
+- "PBUIURLSourceDelegate"
+- "PBUIWallpaper"
+- "PBUIWallpaperAnimatedInvalidating"
+- "PBUIWallpaperCache"
+- "PBUIWallpaperClientToServerInterface"
+- "PBUIWallpaperConfiguration"
+- "PBUIWallpaperConfigurationManager"
+- "PBUIWallpaperConfigurationManagerDelegate"
+- "PBUIWallpaperDataStore"
+- "PBUIWallpaperDefaultConfiguration"
+- "PBUIWallpaperDefaults"
+- "PBUIWallpaperDefaultsDomain"
+- "PBUIWallpaperDefaultsWrapper"
+- "PBUIWallpaperDidChangeAction"
+- "PBUIWallpaperDidCompleteWallpaperChangeAction"
+- "PBUIWallpaperDirectoryDataStore"
+- "PBUIWallpaperDomain"
+- "PBUIWallpaperEffectCompositor"
+- "PBUIWallpaperEffectConfiguration"
+- "PBUIWallpaperEffectImageRequestAction"
+- "PBUIWallpaperEffectImageRequestActionIOSurfaceResponse"
+- "PBUIWallpaperEffectImageRequestActionImageURLResponse"
+- "PBUIWallpaperEffectImageRequestActionResponse"
+- "PBUIWallpaperEffectViewBase"
+- "PBUIWallpaperEffectViewIsDarkOrHiddenReason"
+- "PBUIWallpaperFloatingLayerAssertion"
+- "PBUIWallpaperGradient"
+- "PBUIWallpaperImage"
+- "PBUIWallpaperImageSlotRequestAction"
+- "PBUIWallpaperLegacyDefaultsDomain"
+- "PBUIWallpaperLegibilityProviding"
+- "PBUIWallpaperObserver"
+- "PBUIWallpaperOptions"
+- "PBUIWallpaperParallaxSettings"
+- "PBUIWallpaperPositioning"
+- "PBUIWallpaperPreheatAction"
+- "PBUIWallpaperPresenting"
+- "PBUIWallpaperPrototypeSettings"
+- "PBUIWallpaperReachabilityObserving"
+- "PBUIWallpaperRemoteViewController"
+- "PBUIWallpaperRemoteViewController - %p"
+- "PBUIWallpaperRemoteViewController - %p - Scene"
+- "PBUIWallpaperRemoteViewController - %p - SceneMode"
+- "PBUIWallpaperRemoteViewController - %p - WallpaperConfigurationManager"
+- "PBUIWallpaperRemoteViewController-%ld"
+- "PBUIWallpaperRemoteViewController.m"
+- "PBUIWallpaperRemoteViewController.sceneMode"
+- "PBUIWallpaperScaleAssertion"
+- "PBUIWallpaperServer"
+- "PBUIWallpaperServerToClientInterface"
+- "PBUIWallpaperService"
+- "PBUIWallpaperServiceInterfaceSpecification"
+- "PBUIWallpaperSharedDirectoryDataStore"
+- "PBUIWallpaperStaticBackgroundView"
+- "PBUIWallpaperStyleInfo"
+- "PBUIWallpaperUpdateActionResponse"
+- "PBUIWallpaperUpdateAndPrewarmAction"
+- "PBUIWallpaperUpdateLocationsAction"
+- "PBUIWallpaperUserDefaultsDataStore"
+- "PBUIWallpaperVariantIdentifying"
+- "PBUIWallpaperView"
+- "PBUIWallpaperViewController"
+- "PBUIWallpaperViewDelegate"
+- "PBUIWallpaperViewInternalObserver"
+- "PBUIWallpaperWillChangeAction"
+- "PBUIWallpaperWindowScene"
+- "PBUIWallpaperWindowSceneBSActionHandler"
+- "PBUIWallpaperWindowSceneClientSettings"
+- "PBUIWallpaperWindowSceneClientSettingsDiffInspector"
+- "PBUIWallpaperWindowSceneSettings"
+- "PBUIWallpaperWindowSceneSettingsDiffAction"
+- "PBUIWallpaperWindowSceneSettingsDiffAction.m"
+- "PBUIWallpaperWindowSceneSettingsDiffInspector"
+- "PBUIWallpaperWindowSceneSpecification"
+- "PBUIWallpaperWindowSceneStyleTransitionState"
+- "PBUIWallpaperWindowSceneTwoCurveTransitionContext"
+- "PBUIWallpaperWindowSceneVariantSettingsDiffAction"
+- "PBUIWallpaperWindowSceneVariantSettingsDiffAction.m"
+- "PBUIWallpaperWorkspace"
+- "PTSettingsKeyObserver"
+- "PUIColorStatisticsObserver"
+- "PaperBoard"
+- "PaperBoardUtilities"
+- "Perform with live scene"
+- "PosterBoard"
+- "Q16@0:8"
+- "Q24@0:8@\"NSUUID\"16"
+- "Q24@0:8@16"
+- "Q40@0:8^{?=Q^@^Q[5Q]}16^@24Q32"
+- "Q44@0:8q16B24@28Q36"
+- "Reactivating remote wallpaper controller scene %p."
+- "Received IOSurface %{public}@ size %{public}@ for image request %{public}@"
+- "Received action %{public}@"
+- "Received cached image URL %{public}@ but could not load image."
+- "Received image URL %{public}@ resulting in image %{public}@ for image request %{public}@"
+- "Releasing foreground scene mode assertion for image request %{public}@"
+- "Releasing foreground support scene mode assertion for wallpaper change"
+- "Remote wallpaper controller %p scene did deactivate with error: %@"
+- "Removing wallpaper style transition state for priority %{public}@ variant %{public}@. Is different:%{BOOL}u"
+- "Retrieved cached asset %{public}@ for configuration %{public}@"
+- "Satisfied image request from cache with image %{public}@"
+- "Satisfied image request from cache with image URL %{public}@"
+- "Scene setup completed. Success: %{BOOL}u Error: %{public}@"
+- "Sending image request action for image slot request %{public}@"
+- "Sending image slot request action for image slot request %{public}@"
+- "Sending wallpaper preheat action for variant %{public}@"
+- "Sending wallpaper update locations action for locations %{public}@ wallpaper mode %{public}@"
+- "Setting alpha %f for variant %{public}@"
+- "Setting live wallpaper touch active: %{BOOL}u"
+- "Setting lockscreen wallpaper contents rect %{public}@"
+- "Setting lockscreen-only wallpaper alpha %f"
+- "Setting rasterization disabled:%{BOOL}u for variant %{public}@ with reason %{public}@ (was disabled: %{BOOL}u)"
+- "Setting wallpaper hidden:%{BOOL}u for variant %{public}@ with reason %{public}@ (was hidden: %{BOOL}u)"
+- "Setting wallpaper mode to %@"
+- "Setting wallpaper style transition state %{public}@ for priority %{public}@ variant %{public}@. Is different:%{BOOL}u"
+- "Setting wallpaper variant to %{public}@ from %{public}@"
+- "Setup scene"
+- "Suspending animation for reason %{public}@ assertion %p"
+- "T#,R"
+- "T(?={?=}{?=}),N"
+- "T(?={?=}{?=}),N,V_rotation"
+- "T@\"<BSInvalidatable>\",&,N,V_wallpaperStyleAnimationAssertion"
+- "T@\"<BSInvalidatable>\",R,N,V_lifetimeToken"
+- "T@\"<BSPathProviding>\",R,N,V_storagePath"
+- "T@\"<PBUIEffectTrackingReplicaViewDelegate>\",W,N,V_delegate"
+- "T@\"<PBUIFakeBlurImageProviding>\",R,W,N,V_imageProvider"
+- "T@\"<PBUIFakeBlurObserver>\",W,N"
+- "T@\"<PBUIFakeBlurObserver>\",W,N,V_observer"
+- "T@\"<PBUIFakeBlurViewRegistering>\",R,W,N,V_fakeBlurRegistry"
+- "T@\"<PBUIIrisWallpaperPlayerDelegate>\",W,N"
+- "T@\"<PBUIIrisWallpaperPlayerDelegate>\",W,N,V_irisDelegate"
+- "T@\"<PBUIIrisWallpaperPlaying>\",R,N"
+- "T@\"<PBUILegacyWallpaperPresenting>\",R,W,N,V_wallpaperPresenter"
+- "T@\"<PBUILegibilitySettingsProviderDelegate>\",W,N"
+- "T@\"<PBUILegibilitySettingsProviderDelegate>\",W,N,V_delegate"
+- "T@\"<PBUILivePhotoPlayerViewDelegate>\",W,N,V_delegate"
+- "T@\"<PBUIPosterComponentDelegate>\",W,N"
+- "T@\"<PBUIPosterComponentDelegate>\",W,N,V_delegate"
+- "T@\"<PBUIPosterReplicaPortalProviding>\",W,N"
+- "T@\"<PBUIPosterReplicaPortalProviding>\",W,N,V_provider"
+- "T@\"<PBUIPosterReplicaSnapshotProviding>\",W,N"
+- "T@\"<PBUIPosterReplicaSnapshotProviding>\",W,N,V_provider"
+- "T@\"<PBUIProceduralWallpaperProvider>\",W,N,V_proceduralWallpaperProvider"
+- "T@\"<PBUIRemoteIrisWallpaperPlayerDelegate>\",W,N,V_delegate"
+- "T@\"<PBUIReplicaPortalSource>\",&,N,V_portalSource"
+- "T@\"<PBUIReplicaPortalSource>\",R,N,V_source"
+- "T@\"<PBUIReplicaSnapshotSource>\",&,N,V_snapshotSource"
+- "T@\"<PBUIReplicaSnapshotSource>\",R,N,V_source"
+- "T@\"<PBUIURLSourceDelegate>\",W,N,V_delegate"
+- "T@\"<PBUIWallpaperConfigurationManagerDelegate>\",W,N,V_delegate"
+- "T@\"<PBUIWallpaperLegibilityProviding>\",R,W,N,V_wallpaperLegibilityProvider"
+- "T@\"<PBUIWallpaperPresenting><PBUIWallpaperLegibilityProviding>\",R,N,V_wallpaperPresenter"
+- "T@\"<PBUIWallpaperPresentingDelegate>\",W,N"
+- "T@\"<PBUIWallpaperPresentingDelegate>\",W,N,V_wallpaperPresentingDelegate"
+- "T@\"<PBUIWallpaperReachabilityCoordinating>\",&,N,V_reachabilityCoordinator"
+- "T@\"<PBUIWallpaperReachabilityCoordinating>\",R,N,V_reachabilityCoordinator"
+- "T@\"<PBUIWallpaperServerDelegate>\",W,N,V_delegate"
+- "T@\"<PBUIWallpaperViewDelegate>\",W,N,V_wallpaperDelegate"
+- "T@\"<PBUIWallpaperViewInternalObserver>\",W,N,V_internalObserver"
+- "T@\"<PLKLegibilityEnvironmentContext>\",R,N"
+- "T@\"<PUIRenderer>\",&,N,V_renderer"
+- "T@\"<UIScenePresenter>\",R,N,V_presenter"
+- "T@\"BSAnimationSettings\",C,N"
+- "T@\"BSServiceConnectionEndpoint\",&,N,V_renderingServiceEndpoint"
+- "T@\"BSServiceInterface\",R,C,N"
+- "T@\"BSServiceQuality\",R,C,N"
+- "T@\"BSUIMappedImageCache\",R,N,V_imageCache"
+- "T@\"BSUIMappedImageCache<PUIManagedCacheIdentifying>\",R,N,V_cache"
+- "T@\"BSUIOrientationTransformWrapperView\",&,N,V_orientationWrapperView"
+- "T@\"CAGradientLayer\",R,N"
+- "T@\"FBScene\",&,N,V_scene"
+- "T@\"FBScene\",R,N,V_scene"
+- "T@\"IOSurface\",R,N"
+- "T@\"ISBasePlayerUIView\",R,N,V__playerUIView"
+- "T@\"NSArray\",&,N,V_hitTestViews"
+- "T@\"NSArray\",C,N"
+- "T@\"NSArray\",C,N,V_colors"
+- "T@\"NSArray\",C,N,V_locations"
+- "T@\"NSArray\",R,C,N,V_activelyRequiredReasons"
+- "T@\"NSArray\",R,C,N,V_dataStores"
+- "T@\"NSArray\",R,N,V_reasonsToNotSnapshot"
+- "T@\"NSAttributedString\",&,N,V_homeColumnContent"
+- "T@\"NSAttributedString\",&,N,V_lockColumnContent"
+- "T@\"NSAttributedString\",&,N,V_posterStatusContent"
+- "T@\"NSData\",&,D,N"
+- "T@\"NSData\",&,N,V_colorData"
+- "T@\"NSData\",&,N,V_gradientData"
+- "T@\"NSData\",&,N,V_imageHashData"
+- "T@\"NSData\",C,N,V_displayedImageHashData"
+- "T@\"NSData\",C,N,V_wallpaperImageHashData"
+- "T@\"NSData\",C,N,V_wallpaperThumbnailImageData"
+- "T@\"NSData\",R,C,N"
+- "T@\"NSDate\",&,D,N"
+- "T@\"NSDictionary\",&,D,N"
+- "T@\"NSDictionary\",&,N,V_wallpaperKitData"
+- "T@\"NSDictionary\",&,N,V_wallpaperOptions"
+- "T@\"NSDictionary\",C,N,V_proceduralWallpaperInfo"
+- "T@\"NSDictionary\",C,N,V_wallpaperKitData"
+- "T@\"NSDictionary\",D,N"
+- "T@\"NSDictionary\",R,C,N"
+- "T@\"NSDictionary\",R,C,N,V_lastUserSelectedVariantForStyleTypeOption"
+- "T@\"NSDictionary\",R,C,N,V_lock_snapshotMetadata"
+- "T@\"NSDictionary\",R,C,N,V_proceduralWallpaperOptions"
+- "T@\"NSString\",&,D,N"
+- "T@\"NSString\",&,N"
+- "T@\"NSString\",&,N,V_colorName"
+- "T@\"NSString\",&,N,V_identifier"
+- "T@\"NSString\",&,N,V_name"
+- "T@\"NSString\",&,N,V_wallpaperIdentifier"
+- "T@\"NSString\",&,N,V_wallpaperName"
+- "T@\"NSString\",?,R,C"
+- "T@\"NSString\",C,N"
+- "T@\"NSString\",C,N,V_cacheIdentifier"
+- "T@\"NSString\",C,N,V_cachingIdentifier"
+- "T@\"NSString\",C,N,V_displayedImageHashString"
+- "T@\"NSString\",C,N,V_identifier"
+- "T@\"NSString\",C,N,V_lock_cacheIdentifier"
+- "T@\"NSString\",C,N,V_name"
+- "T@\"NSString\",C,N,V_reason"
+- "T@\"NSString\",C,N,V_type"
+- "T@\"NSString\",C,N,V_wallpaperColorName"
+- "T@\"NSString\",R,C"
+- "T@\"NSString\",R,C,N"
+- "T@\"NSString\",R,C,N,V_cacheGroup"
+- "T@\"NSString\",R,C,N,V_iconSize"
+- "T@\"NSString\",R,C,N,V_iconStyle"
+- "T@\"NSString\",R,C,N,V_iconStyleVariant"
+- "T@\"NSString\",R,C,N,V_proceduralWallpaperIdentifier"
+- "T@\"NSString\",R,C,N,V_reason"
+- "T@\"NSString\",R,C,N,V_tintSource"
+- "T@\"NSString\",R,C,N,V_wallpaperColorName"
+- "T@\"NSString\",R,C,N,V_wallpaperName"
+- "T@\"NSString\",R,N,V_identifier"
+- "T@\"NSURL\",&,N,G_displayedImageURL,S_setDisplayedImageURL:,V_displayedImageURL"
+- "T@\"NSURL\",C,N,V_originalVideoURL"
+- "T@\"NSURL\",C,N,V_url"
+- "T@\"NSURL\",C,N,V_videoURL"
+- "T@\"NSURL\",R,C,N"
+- "T@\"NSURL\",R,C,N,V_directoryURL"
+- "T@\"NSURL\",R,C,N,V_staticImageURL"
+- "T@\"NSURL\",R,C,N,V_videoFileURL"
+- "T@\"NSURL\",R,C,N,V_videoURL"
+- "T@\"NSURL\",R,C,N,V_wallpaperFileURL"
+- "T@\"NSURL\",R,N"
+- "T@\"NSURL\",R,N,V_instanceURL"
+- "T@\"NSURL\",R,N,V_lock_snapshotColorStatisticsURL"
+- "T@\"NSURL\",R,N,V_lock_snapshotMetadataURL"
+- "T@\"NSURL\",R,N,V_lock_snapshotURL"
+- "T@\"NSUUID\",R,C,N,V_identifier"
+- "T@\"PBUIExternalDisplayConfiguration\",&,N,V_externalDisplayConfiguration"
+- "T@\"PBUIExternalDisplayConfiguration\",R,N,V_externalDisplayConfiguration"
+- "T@\"PBUIHUDWindow\",&,N,V_hudWindow"
+- "T@\"PBUIHomeVariantStyleState\",?,R,N"
+- "T@\"PBUIHomeVariantStyleState\",?,R,N,V_currentHomeVariantStyleState"
+- "T@\"PBUIHomeVariantStyleState\",R,N"
+- "T@\"PBUIHomeVariantStyleState\",R,N,V_currentHomeVariantStyleState"
+- "T@\"PBUIImageSlot\",&,N,V_imageSlot"
+- "T@\"PBUIMagnifyMode\",&,N,V_magnifyMode"
+- "T@\"PBUIPosterVariantViewController\",W,N,V_counterpart"
+- "T@\"PBUIPosterWallpaperViewController\",R,N,V_rootObject"
+- "T@\"PBUIReplicaDebugView\",R,N"
+- "T@\"PBUIReplicaDebugView\",R,N,V_debugView"
+- "T@\"PBUIWallpaperConfiguration\",R,C,N"
+- "T@\"PBUIWallpaperConfigurationManager\",&,N,V_wallpaperConfigurationManager"
+- "T@\"PBUIWallpaperDefaults\",R,N,V_wallpaperDefaults"
+- "T@\"PBUIWallpaperDefaultsDomain\",R,N,V_defaultsDomain"
+- "T@\"PBUIWallpaperEffectConfiguration\",&,N,V_effectConfiguration"
+- "T@\"PBUIWallpaperEffectViewBase\",&,N,V_wallpaperEffectView"
+- "T@\"PBUIWallpaperGradient\",&,N,V_gradient"
+- "T@\"PBUIWallpaperGradient\",C,N,V_wallpaperGradient"
+- "T@\"PBUIWallpaperGradient\",R,C,N,V_wallpaperGradient"
+- "T@\"PBUIWallpaperImage\",&,N,V_wallpaperImage"
+- "T@\"PBUIWallpaperOptions\",C,N,V_wallpaperOptions"
+- "T@\"PBUIWallpaperParallaxSettings\",&,N,V_homeScreenParallaxSettings"
+- "T@\"PBUIWallpaperParallaxSettings\",&,N,V_lockScreenParallaxSettings"
+- "T@\"PBUIWallpaperStyleInfo\",R,N,V_homescreenStyleInfo"
+- "T@\"PBUIWallpaperStyleInfo\",R,N,V_lockscreenStyleInfo"
+- "T@\"PBUIWallpaperView\",&,N,V_homescreenWallpaperView"
+- "T@\"PBUIWallpaperView\",&,N,V_lockscreenWallpaperView"
+- "T@\"PBUIWallpaperView\",&,N,V_sharedWallpaperView"
+- "T@\"PBUIWallpaperViewController\",R,W,N,V_wallpaperViewController"
+- "T@\"PBUIWallpaperWindowSceneStyleTransitionState\",C,N"
+- "T@\"PBUIWallpaperWindowSceneStyleTransitionState\",R,C,N"
+- "T@\"PLKColorBoxes\",&,N"
+- "T@\"PLKLegibilityEnvironment\",?,R,N"
+- "T@\"PLKLegibilityEnvironment\",R,N"
+- "T@\"PRPosterLegibilitySettings\",&,V_desiredLegibilitySettings"
+- "T@\"PRSPosterConfiguration\",R,N"
+- "T@\"PRSPosterConfiguration\",R,N,V_associatedConfiguration"
+- "T@\"PRSPosterConfiguration\",R,N,V_configuration"
+- "T@\"PTOutlet\",&,N,V_resetWallpaperOutlet"
+- "T@\"PUIColorStatistics\",R,C,N,V_lock_contentColorStatistics"
+- "T@\"PUIColorStatistics\",R,N"
+- "T@\"PUIDiscreteGradientVariatedCustomStyle\",R,C,N,V_tintColorStyle"
+- "T@\"PUIImageOnDiskFormat\",R,N,V_format"
+- "T@\"UIColor\",&,N,V_color"
+- "T@\"UIColor\",&,N,V_derivedProminentColor"
+- "T@\"UIColor\",&,N,V_fallbackColor"
+- "T@\"UIColor\",&,N,V_posterPreferredProminentColor"
+- "T@\"UIColor\",&,N,V_preferredProminentColor"
+- "T@\"UIColor\",&,N,V_timeColor"
+- "T@\"UIColor\",C,N"
+- "T@\"UIColor\",C,N,V_wallpaperColor"
+- "T@\"UIColor\",R,C,N"
+- "T@\"UIColor\",R,C,N,V_lock_derivedProminentPosterColor"
+- "T@\"UIColor\",R,C,N,V_lock_posterPreferredProminentColor"
+- "T@\"UIColor\",R,C,N,V_suggestedTintColor"
+- "T@\"UIColor\",R,C,N,V_wallpaperColor"
+- "T@\"UIColor\",R,N"
+- "T@\"UIGestureRecognizer\",R,N"
+- "T@\"UIImage\",&,N,G_displayedImage,S_setDisplayedImage:,V_displayedImage"
+- "T@\"UIImage\",&,N,G_sampleImage,S_setSampleImage:,V_sampleImage"
+- "T@\"UIImage\",&,N,V_cachedSnapshotImage"
+- "T@\"UIImage\",&,N,V_image"
+- "T@\"UIImage\",&,N,V_lock_snapshot"
+- "T@\"UIImage\",&,N,V_snapshot"
+- "T@\"UIImage\",&,N,V_untreatedWallpaperImage"
+- "T@\"UIImage\",&,N,V_wallpaperOriginalImage"
+- "T@\"UIImage\",&,N,V_wallpaperThumbnailImage"
+- "T@\"UIImage\",&,S_setImage:,V_image"
+- "T@\"UIImage\",R,N"
+- "T@\"UIImageView\",&,N,V_maskImageView"
+- "T@\"UILabel\",&,N,V_homeColumnLabel"
+- "T@\"UILabel\",&,N,V_lockColumnLabel"
+- "T@\"UILabel\",&,N,V_posterStatusLabel"
+- "T@\"UIPanGestureRecognizer\",&,N,V_panGestureRecognizer"
+- "T@\"UITraitCollection\",&,N,V_fakeBlurViewOverrideTraitCollection"
+- "T@\"UITraitCollection\",R,C,N"
+- "T@\"UIView\",&,N,V_blurMaskingContainer"
+- "T@\"UIView\",&,N,V_colorTintView"
+- "T@\"UIView\",&,N,V_contentView"
+- "T@\"UIView\",&,N,V_grayscaleTintView"
+- "T@\"UIView\",&,N,V_hudContainerView"
+- "T@\"UIView\",&,N,V_targetView"
+- "T@\"UIView\",&,N,V_tintMaskingContainer"
+- "T@\"UIView\",&,N,V_transitionColorTintView"
+- "T@\"UIView\",&,N,V_transitionGrayscaleTintView"
+- "T@\"UIView\",R,N"
+- "T@\"UIView\",R,N,V_providedImageView"
+- "T@\"UIView\",W,N,V_defaultFloatingLayerStandin"
+- "T@\"UIView<PBUIFakeBluring>\",&,N,V_blurView"
+- "T@\"UIView<PBUIFakeBluring>\",&,N,V_transitionBlurView"
+- "T@\"_UILegibilitySettings\",C,N"
+- "T@\"_UILegibilitySettings\",C,N,V_legibilitySettings"
+- "T@\"_UILegibilitySettings\",R,C,N"
+- "T@\"_UILegibilitySettings\",R,C,N,V_lock_legibilitySettings"
+- "T@\"_UILegibilitySettings\",R,N"
+- "T@,&,N,V_rootObject"
+- "TB,?,R,N"
+- "TB,D,N"
+- "TB,N"
+- "TB,N,GareMotionEffectsEnabled,V_motionEffectsEnabled"
+- "TB,N,GisCachedVariantsShareWallpaperConfigurationValid,V_cachedVariantsShareWallpaperConfigurationValid"
+- "TB,N,GisDeviceMotionEventGenerationActive,V_deviceMotionEventGenerationActive"
+- "TB,N,GisFloatingLayerStandin,V_floatingLayerStandin"
+- "TB,N,GisFullscreen"
+- "TB,N,GisHomescreenContentStatic"
+- "TB,N,GisInteracting,S_setInteracting:,V_interacting"
+- "TB,N,GisInvalidated,V_invalidated"
+- "TB,N,GisLockscreenContentLiveWallpaper"
+- "TB,N,GisLockscreenContentStatic"
+- "TB,N,GisMagnifyEnabled,V_magnifyEnabled"
+- "TB,N,GisPortrait,V_portrait"
+- "TB,N,GisRotating,V_rotating"
+- "TB,N,GisSubscribed,V_subscribed"
+- "TB,N,GisTouchActive,S_setTouchActive:,V_touchActive"
+- "TB,N,GisTransitioningActiveVariant,V_transitioningActiveVariant"
+- "TB,N,Spb_setAnimationSuspended:"
+- "TB,N,V_activelyRequired"
+- "TB,N,V_automaticallyEnablesParallax"
+- "TB,N,V_cachedVariantsShareWallpaperConfiguration"
+- "TB,N,V_colorSamplingDisabled"
+- "TB,N,V_continuousColorSamplingEnabled"
+- "TB,N,V_effectsAreBakedIn"
+- "TB,N,V_enableWallpaperDimming"
+- "TB,N,V_fixedOrientation"
+- "TB,N,V_forcesOpaque"
+- "TB,N,V_hasVideo"
+- "TB,N,V_isHUDVisible"
+- "TB,N,V_landscapeBlurEnabled"
+- "TB,N,V_magnifyEnabled"
+- "TB,N,V_needsInactiveAppearanceTreatment"
+- "TB,N,V_needsWallpaperDimmingTreatment"
+- "TB,N,V_parallaxEnabled"
+- "TB,N,V_portrait"
+- "TB,N,V_posterIsActive"
+- "TB,N,V_requiresSnapshotTreatment"
+- "TB,N,V_sharesContentsAcrossVariants"
+- "TB,N,V_shouldMatchWallpaperPosition"
+- "TB,N,V_showsSnapshot"
+- "TB,N,V_supportsCropping"
+- "TB,N,V_supportsRotation"
+- "TB,N,V_supportsWallpaperOptions"
+- "TB,N,V_useDimmingColorMatrix"
+- "TB,N,V_wakeSourceIsSwipeToUnlock"
+- "TB,N,V_wallpaperAnimationEnabled"
+- "TB,N,V_wallpaperWasUserSet"
+- "TB,R"
+- "TB,R,D,N"
+- "TB,R,N"
+- "TB,R,N,GisContentStatic"
+- "TB,R,N,GisFloatingLayerStandin"
+- "TB,R,N,GisFloatingLayerStandin,V_floatingLayerHasStandin"
+- "TB,R,N,GisHomescreenContentStatic"
+- "TB,R,N,GisLockscreenContentLiveWallpaper"
+- "TB,R,N,GisLockscreenContentStatic"
+- "TB,R,N,GisValid"
+- "TB,R,N,V_hasVideo"
+- "TB,R,N,V_homescreenWallpaperHidden"
+- "TB,R,N,V_isHomeScreenDimmed"
+- "TB,R,N,V_lockscreenWallpaperHidden"
+- "TB,R,N,V_mirrorsEmbeddedDisplay"
+- "TB,R,N,V_needsWallpaperDimmingTreatment"
+- "TB,V_increaseEnabled"
+- "TB,V_slideEnabled"
+- "TB,V_tiltEnabled"
+- "TI,N,V_contextID"
+- "TQ,?,R,N"
+- "TQ,D,N"
+- "TQ,N"
+- "TQ,N,Spb_setSignificantEventsCounter:"
+- "TQ,N,V_transformOptions"
+- "TQ,R"
+- "TQ,R,N"
+- "Tc,R,N,V_homeProvider"
+- "Tc,R,N,V_lockProvider"
+- "Tc,R,N,V_pairingType"
+- "Td,?,N"
+- "Td,?,N,V_deviceMotionUpdateInterval"
+- "Td,?,R,N"
+- "Td,D,N"
+- "Td,N"
+- "Td,N,V_deviceMotionUpdateInterval"
+- "Td,N,V_devicePitch"
+- "Td,N,V_deviceRoll"
+- "Td,N,V_deviceYaw"
+- "Td,N,V_downsampleFactor"
+- "Td,N,V_effectWeight"
+- "Td,N,V_parallaxFactor"
+- "Td,N,V_rotationAngle"
+- "Td,N,V_stillTimeInVideo"
+- "Td,N,V_unlockProgress"
+- "Td,N,V_zoomFactor"
+- "Td,N,V_zoomScale"
+- "Td,R,N"
+- "Td,R,N,V_stillTimeInVideo"
+- "Td,R,N,V_wallpaperScale"
+- "Td,V_overhangX"
+- "Td,V_overhangY"
+- "Td,V_perspectiveTransform"
+- "Td,V_slideIncreaseX"
+- "Td,V_slideIncreaseY"
+- "Td,V_slidePixelsX"
+- "Td,V_slidePixelsY"
+- "Td,V_tiltDegreesX"
+- "Td,V_tiltDegreesY"
+- "Tf,N,V_zoomFactor"
+- "Tq,N"
+- "Tq,N,S_setIrisPlaybackState:,V_irisPlaybackState"
+- "Tq,N,Spb_setActiveVariant:"
+- "Tq,N,V_activeOrientation"
+- "Tq,N,V_activeStyle"
+- "Tq,N,V_activeVariant"
+- "Tq,N,V_actualStyle"
+- "Tq,N,V_deviceOrientation"
+- "Tq,N,V_effectiveStyle"
+- "Tq,N,V_style"
+- "Tq,N,V_variant"
+- "Tq,N,V_wallpaperMode"
+- "Tq,N,V_wallpaperStatus"
+- "Tq,R,N"
+- "Tq,R,N,V_currentMode"
+- "Tq,R,N,V_sceneMode"
+- "Tq,R,N,V_variant"
+- "Tq,R,N,V_wallpaperMode"
+- "Tq,R,N,V_wallpaperSizeType"
+- "Tq,R,N,V_wallpaperType"
+- "Tq,R,V_type"
+- "Tq,V_distanceFromScreen"
+- "Tq,V_slideDirectionX"
+- "Tq,V_slideDirectionY"
+- "Tq,V_tiltDirectionX"
+- "Tq,V_tiltDirectionY"
+- "T{?=qqd},N,V_styleTransitionState"
+- "T{?=qqd},R,N"
+- "T{CGPoint=dd},N,V_endPoint"
+- "T{CGPoint=dd},N,V_lastPosition"
+- "T{CGPoint=dd},N,V_startPoint"
+- "T{CGRect={CGPoint=dd}{CGSize=dd}},?,R,N"
+- "T{CGRect={CGPoint=dd}{CGSize=dd}},N"
+- "T{CGRect={CGPoint=dd}{CGSize=dd}},N,V_cropRect"
+- "T{CGRect={CGPoint=dd}{CGSize=dd}},N,V_salientContentRectangle"
+- "T{CGRect={CGPoint=dd}{CGSize=dd}},N,V_superviewBounds"
+- "T{CGRect={CGPoint=dd}{CGSize=dd}},R,N"
+- "T{CGSize=dd},N,V_size"
+- "T{CGSize=dd},R,N"
+- "T{CGSize=dd},R,N,V_wallpaperSize"
+- "UIColor"
+- "UIGestureRecognizerDelegate"
+- "UIScrollViewDelegate"
+- "URL"
+- "URLByAppendingPathComponent:"
+- "URLByAppendingPathComponent:conformingToType:"
+- "URLByAppendingPathComponent:isDirectory:"
+- "URLByAppendingPathExtension:"
+- "UTF8String"
+- "UUID"
+- "UUIDString"
+- "Unexpected response %{public}@ for image request %{public}@"
+- "Unknown (%ld)"
+- "Update scene mode to idle"
+- "Update scene settings"
+- "UpdateWallpaperForLocations"
+- "Updating iris wallpaper for interactive mode"
+- "Updating iris wallpaper for static mode"
+- "View Appeared"
+- "Vv16@0:8"
+- "Wallpaper did change for variants: %{public}@"
+- "WallpaperAnimationSuspended"
+- "[2[5q]]"
+- "[5{?=\"valid\"B\"state\"{?=\"startStyle\"q\"endStyle\"q\"transitionFraction\"d}}]"
+- "[5{?=\"valid\"B\"styleTransitionState\"{?=\"startStyle\"q\"endStyle\"q\"transitionFraction\"d}}]"
+- "^{CGColorSpace=}16@0:8"
+- "^{CGGradient=}16@0:8"
+- "^{CGImageBlockSet=}"
+- "^{_NSZone=}16@0:8"
+- "^{__IOSurface=}"
+- "^{__IOSurface=}16@0:8"
+- "_FBSScene"
+- "_PBUIDimmingView"
+- "_PBUIImageSlotRepositoryEntry"
+- "_PBUIWallpaperBlurAnimatingView"
+- "_PBUIWallpaperRemoteViewControllerSceneModeAssertion"
+- "_PBUIWallpaperViewControllerAssertion"
+- "_SBMaskingContainerView"
+- "_SBTintView"
+- "_UISceneBSActionHandler"
+- "_UISceneBSActionResponding"
+- "_UISceneConnectionOptionProviding"
+- "_UISceneSettingsDiffAction"
+- "__playerUIView"
+- "_accessibilityReduceTransparencyChanged:"
+- "_accessibilityReduceTransparencyEnabled"
+- "_acquireSceneModeAssertionForReason:sceneMode:"
+- "_acquireSceneModeAssertionForReason:sceneMode:completion:"
+- "_activeOrientation"
+- "_activeStyle"
+- "_activeStyles"
+- "_activeVariant"
+- "_activeVariantProvider"
+- "_activeVariantReplicaProvider"
+- "_activeViewController"
+- "_activeWallpaperView"
+- "_activelyRequired"
+- "_activelyRequiredReasons"
+- "_actualStyle"
+- "_addBokehCircles:inBounds:"
+- "_addMotionEffect:"
+- "_addParallax"
+- "_addStateCaptureHandlers"
+- "_allowsRasterization"
+- "_alpha"
+- "_animateUsingSpringWithDuration:delay:options:mass:stiffness:damping:initialVelocity:animations:completion:"
+- "_animationSuspendedAssertion"
+- "_appearState"
+- "_applicableScene"
+- "_applyBackdropViewSettings:includeTints:includeBlur:"
+- "_applyBackdropViewSettings:includeTints:includeBlur:allowImageResizing:"
+- "_applyParallaxSettings"
+- "_associatedConfiguration"
+- "_automaticallyEnablesParallax"
+- "_averageColorInContentViewRect:smudgeRadius:"
+- "_backdropCompositor"
+- "_backdropParameters"
+- "_backdrop_generateImageFromImage:forBackdropParameters:includeTint:traitCollection:"
+- "_backgroundEffect"
+- "_backlightLuminance"
+- "_batchChangeCount"
+- "_batchNotifyVariants"
+- "_beginDisallowRasterizationBlock"
+- "_beginSuspendingMotionEffectsForStyleIfNeeded"
+- "_bestWallpaperViewInitializationOptionsForVariant:shared:wallpaperOptions:options:"
+- "_bindAndRegisterDefaults"
+- "_bindProperty:withDefaultKey:toDefaultValue:options:"
+- "_blockSet"
+- "_blurImageFromURL:"
+- "_blurMaskingContainer"
+- "_blurView"
+- "_blurViewsForVariant:"
+- "_blurredImage"
+- "_blurredImageURL"
+- "_blursNeedInvalidation"
+- "_borderView"
+- "_boundedContentOffsetForOverhang"
+- "_cache"
+- "_cacheBlurImageForVariant:requestedStyle:actualStyle:traitCollection:image:imageURL:"
+- "_cacheGroup"
+- "_cacheIdentifier"
+- "_cacheKeyForParameters:includingTint:downsampleFactor:traitCollection:"
+- "_cachedBlurAssetForVariant:requestedStyle:traitCollection:"
+- "_cachedSnapshotImage"
+- "_cachedVariantsShareWallpaperConfiguration"
+- "_cachedVariantsShareWallpaperConfigurationValid"
+- "_cachingIdentifier"
+- "_canCacheImages"
+- "_canDownscaleSampleImage"
+- "_canShowWhileLocked"
+- "_cancelSceneDeactivation"
+- "_cancelThrottle"
+- "_checkIfPresentationIsUpdatedAndSnapshot"
+- "_circleArray"
+- "_circleFillColor"
+- "_clearWallpaperEffectView:"
+- "_clearWallpaperView:"
+- "_clientAuthenticator"
+- "_color"
+- "_colorBoxes"
+- "_colorData"
+- "_colorName"
+- "_colorSampleTimer"
+- "_colorSamplingAssertion"
+- "_colorSamplingDisabled"
+- "_colorTintView"
+- "_colors"
+- "_common_configurePlayer:"
+- "_common_configurePlayerView:"
+- "_computeAverageColor"
+- "_configuration"
+- "_configureForCurrentBlurStyle"
+- "_configureFromScratch"
+- "_configureGrayscaleAndColorTintViewForStartStyle:"
+- "_configureViews"
+- "_configureViewsPositioning"
+- "_connectionListener"
+- "_connections"
+- "_containerView"
+- "_contentContainer"
+- "_contentIsVisible"
+- "_contentScaleFactor"
+- "_contentView"
+- "_contextID"
+- "_continuousColorSamplingEnabled"
+- "_contrastInContentViewRect:contrastWithinBoxes:contrastBetweenBoxes:"
+- "_correctGyroValues:y:"
+- "_counterpart"
+- "_createAttachmentForImage:"
+- "_createColorBoxes"
+- "_createHomeViewControllerIfNeeded"
+- "_createLabelWithAlignment:"
+- "_createSnapshotBuffer"
+- "_createThumbnailFromImage:"
+- "_cropRect"
+- "_currentDeviceType"
+- "_currentDimStyle"
+- "_currentHomeVariantStyleState"
+- "_currentLegibilityEnvironment"
+- "_currentMode"
+- "_currentSource"
+- "_currentUsers"
+- "_dataStores"
+- "_debugView"
+- "_defaultFloatingLayerStandin"
+- "_defaultsDomain"
+- "_defaultsWrapperForVariant:wallpaperMode:"
+- "_deferredImageSlot"
+- "_delegate"
+- "_derivedProminentColor"
+- "_descriptorIdentity"
+- "_desiredLegibilitySettings"
+- "_destroyDisplayLink"
+- "_determinePreferredProminentColorFromDerivedProminentColor:posterPreferredProminentColor:timeColor:fallbackColor:outChosenColor:"
+- "_deviceMotionEventGenerationActive"
+- "_deviceMotionKeepActiveReason"
+- "_deviceMotionUpdateInterval"
+- "_deviceOrientation"
+- "_devicePitch"
+- "_deviceRoll"
+- "_deviceSpecificImageNamed:inBundle:"
+- "_deviceYaw"
+- "_didFinishRotating"
+- "_dimView"
+- "_dimmingColorMatrixFilter"
+- "_directoryURL"
+- "_disallowRasterizationBlockCount"
+- "_disallowRasterizationReasonsForVariant:"
+- "_disallowRasterizationReasonsHomeVariant"
+- "_disallowRasterizationReasonsLockVariant"
+- "_displayImage:"
+- "_displayLink"
+- "_displayedImage"
+- "_displayedImageHashData"
+- "_displayedImageHashString"
+- "_displayedImageURL"
+- "_displayedVariant"
+- "_distanceFromScreen"
+- "_dontUseShadow"
+- "_downsampleFactor"
+- "_duckHomeScreenWallpaperDimAssertionDidInvalidate:"
+- "_duckHomeScreenWallpaperDimAssertions"
+- "_dxdt"
+- "_dydt"
+- "_dynamicWrapperView"
+- "_effectConfiguration"
+- "_effectView"
+- "_effectViewForVariant:"
+- "_effectViews"
+- "_effectWeight"
+- "_effectiveSceneMode"
+- "_effectiveStyle"
+- "_effectsAreBakedIn"
+- "_enableWallpaperDimming"
+- "_endDisallowRasterizationBlock"
+- "_endPoint"
+- "_endStyle"
+- "_endSuspendingMotionEffectsForStyleIfNeeded"
+- "_eventQueue"
+- "_extendedRenderSessionKeepActiveReason"
+- "_externalDisplayConfiguration"
+- "_externalNotificationToken"
+- "_externalSceneModeAssertionActions"
+- "_fakeBlurCache"
+- "_fakeBlurRegistry"
+- "_fakeBlurViewOverrideTraitCollection"
+- "_fallbackColor"
+- "_fallbackImageWithOriginalSize:"
+- "_fauxExternalScene"
+- "_fetchBlocks"
+- "_fetchDerivedProminentColor"
+- "_fetchPosterPreferredProminentColor"
+- "_fetchStyleState"
+- "_fetchTimeColor"
+- "_finalizeActiveVariantTransitionWithReason:"
+- "_fireObserverRespondingToSelector:variant:block:"
+- "_fireObserversWallpaperDidChange"
+- "_fireObserversWallpaperDidChangeForVariant:"
+- "_fireObserversWallpaperWillChange"
+- "_fireObserversWallpaperWillChangeForVariant:"
+- "_fixedColorStatistics"
+- "_fixedOrientation"
+- "_floatingContextID"
+- "_floatingEffect"
+- "_floatingLayerHasStandin"
+- "_floatingLayerStandIn"
+- "_floatingLayerStandin"
+- "_floatingPresenter"
+- "_forcePlaybackReasons"
+- "_forcesOpaque"
+- "_foregroundEffect"
+- "_format"
+- "_fromWindowOrientation"
+- "_generateColumnContentForVariant:snapshot:snapshotDate:legibilityEnvironment:legibilityDate:"
+- "_generateHUDContents"
+- "_generateImageForImage:cacheKey:options:downsampleFactor:needsDimmingTreatment:needsInactiveAppearanceTreatment:averageColorProvider:generationHandler:"
+- "_generateImageFromImage:forBackdropParameters:includeTint:traitCollection:"
+- "_generatePosterStatusContent"
+- "_generatingBlurredImages"
+- "_gestureRecognizer"
+- "_gradient"
+- "_gradientData"
+- "_gradientView"
+- "_graphicsQuality"
+- "_grayscaleTintView"
+- "_handleImageSlotRequestAction:"
+- "_handlePlaybackGesture:"
+- "_handlePreheatAction:"
+- "_handleUpdateAndPrewarmAction:"
+- "_handleUpdateLocationsAction:"
+- "_handleUpdateProminentPosterDerivedColor:posterPreferredProminentColor:timeColor:fallbackColor:"
+- "_handleVariantChange"
+- "_handleVisibilityChange"
+- "_handleWallpaperChangedForVariant:"
+- "_handleWallpaperEffectImageRequestAction:"
+- "_handleWallpaperGestureBegan"
+- "_handleWallpaperGestureChanged"
+- "_handleWallpaperGestureEnded"
+- "_handleWallpaperLegibilitySettingsChanged:forVariant:"
+- "_hasSingleVariant"
+- "_hasVideo"
+- "_hideHomescreenWallpaperReasons"
+- "_hideLockscreenWallpaperReasons"
+- "_hideWallpaperReasonsForVariant:"
+- "_hideWallpaperReasonsHomeVariant"
+- "_hideWallpaperReasonsLockVariant"
+- "_hitTestViews"
+- "_homeColumnContent"
+- "_homeColumnLabel"
+- "_homeConfiguration"
+- "_homeLastLegibilityEnvironment"
+- "_homeLastSnapshot"
+- "_homeLastSnapshotUpdateDate"
+- "_homeLegibilityEnvironmentLastUpdateDate"
+- "_homePosterReplicaProvider"
+- "_homeProvider"
+- "_homeReplicaProvider"
+- "_homeScene"
+- "_homeScreenConfigurationRequiresPosterContent"
+- "_homeScreenDimStyle"
+- "_homeScreenParallaxSettings"
+- "_homeScreenUpdateLock"
+- "_homeScreenUpdateLock_service"
+- "_homeVariantScene"
+- "_homeViewController"
+- "_homescreenBlurViews"
+- "_homescreenChangesDelayedReasons"
+- "_homescreenObservers"
+- "_homescreenStyleChangeDelayReasons"
+- "_homescreenStyleInfo"
+- "_homescreenWallpaperEffectView"
+- "_homescreenWallpaperHidden"
+- "_homescreenWallpaperView"
+- "_hudContainerView"
+- "_hudWindow"
+- "_iconSize"
+- "_iconStyle"
+- "_iconStyleVariant"
+- "_identifier"
+- "_image"
+- "_imageCache"
+- "_imageCachePath"
+- "_imageForBackdropParameters:includeTint:overrideTraitCollection:"
+- "_imageForStyle:withSource:"
+- "_imageForStyle:withSource:overrideTraitCollection:"
+- "_imageForStyle:withSource:overrideTraitCollection:result:"
+- "_imageFromRect:"
+- "_imageHashData"
+- "_imageProvider"
+- "_imageSize"
+- "_imageSlot"
+- "_imageSlotObservers"
+- "_imageURL"
+- "_imageURLForBackdropParameters:includeTint:overrideTraitCollection:"
+- "_imageView"
+- "_inSwitcherAssertion"
+- "_inactiveAppearanceDimmingView"
+- "_includeTint"
+- "_increaseEnabled"
+- "_initDisplayLink"
+- "_initWithData:preserveScale:"
+- "_initWithDomain:"
+- "_initWithIOSurface:scale:orientation:"
+- "_initWithImage:lifetimeToken:"
+- "_initWithPairingType:lockProvider:homeProvider:"
+- "_initWithPath:"
+- "_initialOrientation"
+- "_instanceURL"
+- "_interacting"
+- "_internalObserver"
+- "_intervalMovingAverage"
+- "_invalidateBlurCacheForVariant:"
+- "_invalidateComponents"
+- "_invalidateSnapshots:"
+- "_invalidateWallpaperAssertion:"
+- "_invalidated"
+- "_invalidationAnimationFactory"
+- "_ioSurface"
+- "_irisDelegate"
+- "_irisPlaybackState"
+- "_isBlurEnabled"
+- "_isEmbeddedScreen"
+- "_isForcingPlayback"
+- "_isHUDVisible"
+- "_isHomeScreenDimmed"
+- "_isHomeScreenWallpaperCurrentlyDimmed"
+- "_isInAnimationBlock"
+- "_isInAnimationBlockWithAnimationsEnabled"
+- "_isInteracting"
+- "_isOnLockScreen"
+- "_isParallaxActive"
+- "_isParallaxEnabled"
+- "_isParallaxMotionEnabled"
+- "_isRasterizationDisallowedForCurrentVariant"
+- "_isReduceTransparencyEnabled"
+- "_isRotating"
+- "_isSceneContentReady"
+- "_isSimilarToColor:withinPercentage:"
+- "_isSnapshotting"
+- "_isUpdatingOrientation"
+- "_isVisible"
+- "_isWallpaperHiddenForVariant:"
+- "_isWallpaperView:displayingWallpaperWithConfiguration:forVariant:"
+- "_keepForegroundRunning"
+- "_keyForWallpaperMode:"
+- "_labelView"
+- "_labelViewNeedsLayout"
+- "_landscapeBlurEnabled"
+- "_lastAverageColor"
+- "_lastDisconnect"
+- "_lastExtantUpdate"
+- "_lastPosition"
+- "_lastUserSelectedVariantForStyleTypeOption"
+- "_launchOptionsFromActions:forFBSScene:uiSceneSession:transitionContext:"
+- "_layerIsOutOfBounds:"
+- "_lazy_legacyWallpaperConfigurationManager"
+- "_legacyWallpaperConfigurationManager"
+- "_legibilityEnvironmentBuilder"
+- "_legibilityEnvironmentContext"
+- "_legibilitySettings"
+- "_legibilitySettingsProvider"
+- "_legibilityUpdatedForVariants:notifyObservers:"
+- "_legibilityUpdatedWithDictionary:notifyObservers:"
+- "_lifetimeToken"
+- "_lifetimes"
+- "_livePhotoView"
+- "_liveWallpaperView"
+- "_locations"
+- "_lock"
+- "_lockColumnContent"
+- "_lockColumnLabel"
+- "_lockFloatingLayerPosterReplicaProvider"
+- "_lockFloatingLayerReplicaProvider"
+- "_lockLastLegibilityEnvironment"
+- "_lockLastSnapshot"
+- "_lockLastSnapshotUpdateDate"
+- "_lockLegibilityEnvironmentLastUpdateDate"
+- "_lockPosterReplicaProvider"
+- "_lockProvider"
+- "_lockReplicaProvider"
+- "_lockScreenParallaxSettings"
+- "_lockVariantScene"
+- "_lockViewController"
+- "_lockWallpaperStyle"
+- "_lock_cacheIdentifier"
+- "_lock_contentColorStatistics"
+- "_lock_derivedProminentPosterColor"
+- "_lock_deviceOrientation"
+- "_lock_encoderForSnapshot"
+- "_lock_imageEncoder"
+- "_lock_interfaceOrientation"
+- "_lock_legibilitySettings"
+- "_lock_loadColorStatisticsWithError:"
+- "_lock_loadInterfaceOrientation:"
+- "_lock_loadSnapshotImageWithError:"
+- "_lock_loadSnapshotMetadataWithError:"
+- "_lock_posterPreferredProminentColor"
+- "_lock_removeOnDiskSnapshotWithError:"
+- "_lock_snapshot"
+- "_lock_snapshotColorStatisticsURL"
+- "_lock_snapshotMetadata"
+- "_lock_snapshotMetadataURL"
+- "_lock_snapshotURL"
+- "_lock_storeColorStatistics:error:"
+- "_lock_storeSnapshot:error:"
+- "_lock_storeSnapshotFromURL:error:"
+- "_lock_storeSnapshotMetadata:error:"
+- "_lockscreenBlurViews"
+- "_lockscreenObservers"
+- "_lockscreenOnlyWallpaperAlpha"
+- "_lockscreenStyleInfo"
+- "_lockscreenWallpaperEffectView"
+- "_lockscreenWallpaperHidden"
+- "_lockscreenWallpaperView"
+- "_lowPowerModeIsEnabled"
+- "_luminanceCurveMapFilter"
+- "_magnifyEnabled"
+- "_magnifyMode"
+- "_makePortalProvider"
+- "_makeSnapshotProvider"
+- "_makeWallpaperViewWithConfiguration:forVariant:shared:options:"
+- "_maskImage"
+- "_maskImageView"
+- "_materialCompositor"
+- "_materialView"
+- "_material_generateImageFromImage:forBackdropParameters:traitCollection:"
+- "_maximumContentOffsetForOverhang"
+- "_minimumContentOffsetForOverhang"
+- "_minimumZoomScale"
+- "_minimumZoomScaleForParallax"
+- "_mirrorsEmbeddedDisplay"
+- "_missingEffectViewImages"
+- "_modifySceneSettings:forSceneMode:"
+- "_monitorScene:"
+- "_mostRecentOrientation"
+- "_mostRecentSnapshotInterfaceStyle"
+- "_motionEffectWithFactor:"
+- "_motionEffects"
+- "_motionEffectsEnabled"
+- "_name"
+- "_naturalPreferredTransform:forNaturalSize:"
+- "_needsBlurViewForStyle:"
+- "_needsFallbackImageForBackdropGeneratedImage:"
+- "_needsInactiveAppearanceTreatment"
+- "_needsWallpaperDimmingTreatment"
+- "_newEffectViewForVariant:transitionState:"
+- "_newFadeAnimation"
+- "_newFlickerAnimation"
+- "_newImageView"
+- "_newScaleAnimation"
+- "_newWallpaperEffectViewForVariant:transitionState:"
+- "_notifyAllObserversOfNewWallpaperScene"
+- "_notifyBlursInvalidated"
+- "_observeOtherSetting:withBlock:"
+- "_observer"
+- "_observerLock"
+- "_observerLock_homeScreenObservers"
+- "_observerLock_lockScreenObservers"
+- "_observerLock_observersForVariant:"
+- "_observers"
+- "_observersForVariant:"
+- "_observesSnapshotValidity"
+- "_options"
+- "_orientationWrapperView"
+- "_originalVideoURL"
+- "_overallContrast"
+- "_overhangX"
+- "_overhangY"
+- "_pairingType"
+- "_panGestureRecognizer"
+- "_parallaxApplied"
+- "_parallaxEnabled"
+- "_parallaxFactor"
+- "_parallaxFactorWithZoomScale:contentOffset:"
+- "_parallaxSettings"
+- "_parallaxView"
+- "_path"
+- "_pathProvider"
+- "_pauseAnimations"
+- "_pendingEffectViewImageSlots"
+- "_performActionsForUIScene:withUpdatedFBSScene:settingsDiff:fromSettings:transitionContext:lifecycleActionType:"
+- "_performWithLiveScene:"
+- "_perspectiveTransform"
+- "_playbackReasonForSimulatedTouchReason:"
+- "_playbackState"
+- "_playerGestureRecognizer"
+- "_playerState"
+- "_playerUIView"
+- "_playerView"
+- "_pointSize"
+- "_populateContentView"
+- "_portalImageProvider"
+- "_portalObserver"
+- "_portalObservers"
+- "_portalProvider"
+- "_portalSource"
+- "_portalView"
+- "_portrait"
+- "_posterColorStatistics"
+- "_posterConfigsDidChange:withTransition:"
+- "_posterController"
+- "_posterControllerDidChange"
+- "_posterIsActive"
+- "_posterObserver"
+- "_posterPreferredProminentColor"
+- "_posterPreferredProminentColor:"
+- "_posterStatusContent"
+- "_posterStatusLabel"
+- "_posterStatusString"
+- "_precacheStyles:usingTraitCollection:"
+- "_preferredFontDescriptorWithTextStyle:design:weight:"
+- "_preferredProminentColor"
+- "_preferredProminentColor:source:"
+- "_preferredProminentColorSource"
+- "_prepareActiveVariantTransition"
+- "_prepareFauxExternalScene"
+- "_prepareFauxExternalSceneFromScene:completion:"
+- "_prepareFauxExternalSceneFromScene:completion:attemptNumber:"
+- "_presenter"
+- "_prewiredAVPlayer"
+- "_prewiredSize"
+- "_primaryColorOverride"
+- "_priorityInfo"
+- "_proceduralWallpaperIdentifier"
+- "_proceduralWallpaperInfo"
+- "_proceduralWallpaperOptions"
+- "_proceduralWallpaperProvider"
+- "_providedImageView"
+- "_provider"
+- "_providerForVariant:lockConfig:homeConfig:"
+- "_providerToken"
+- "_queue"
+- "_queue_addConnection:"
+- "_queue_removeConnection:"
+- "_reachabilityCoordinator"
+- "_realBackgroundView"
+- "_realFloatingView"
+- "_realForegroundView"
+- "_reason"
+- "_reasonsToNotSnapshot"
+- "_reconfigureBlurViewsForVariant:"
+- "_reconnectPolicy"
+- "_referenceBounds"
+- "_registerFakeBlurView:"
+- "_remoteIrisWallpaperPlayer"
+- "_remoteTargetForServiceClientConnection:"
+- "_removeAllRetargetableAnimations:"
+- "_removeColorSamplingAssertion:"
+- "_removeMotionEffect:"
+- "_removeParallax"
+- "_removeWallpaperAnimationAssertion:"
+- "_renderer"
+- "_renderingServiceEndpoint"
+- "_renderingServiceSceneComponent"
+- "_replicaProviderForVariant:"
+- "_requestedStyle"
+- "_requireWallpaperAssertions"
+- "_requiredOverhangSizeForCurrentDevice"
+- "_requiredOverhangSizeForDeviceType:"
+- "_requiresSnapshotTreatment"
+- "_resetColorBoxes"
+- "_resetPrewiredAVPlayer"
+- "_resetWallpaperOutlet"
+- "_respondToActions:forFBSScene:inUIScene:fromTransitionContext:"
+- "_responder"
+- "_resumeAnimations"
+- "_rootObject"
+- "_rotating"
+- "_rotation"
+- "_rotationAngle"
+- "_salientContentRectangle"
+- "_sampleImage"
+- "_saturationFilter"
+- "_scale"
+- "_scene"
+- "_sceneClientSettings"
+- "_sceneDeactivationTimer"
+- "_sceneMode"
+- "_sceneModeAssertionForViewAppeared"
+- "_sceneModeAssertions"
+- "_scenePresentationView"
+- "_scenePresenter"
+- "_sceneSettings"
+- "_sceneView"
+- "_scheduleSceneDeactivation"
+- "_scheduleSnapshotIfNeeded:"
+- "_screen"
+- "_screenDidUpdate:"
+- "_screenDimmed:"
+- "_screenUndimmed:"
+- "_scrollView"
+- "_scrollViewDidUpdate"
+- "_scrollViewParallaxFactor"
+- "_setBlockSet:"
+- "_setDefaultsWithDictionary:variant:wallpaperMode:"
+- "_setDisallowRasterization:withReason:reasons:"
+- "_setDisplayedImage:"
+- "_setDisplayedImageURL:"
+- "_setEffectView:forVariant:"
+- "_setFrame:forceUpdateBackgroundImage:"
+- "_setImage:"
+- "_setInteracting:"
+- "_setIrisPlaybackState:"
+- "_setIsContainedInPopover:"
+- "_setLegibilitySettings:notify:"
+- "_setPlayerGestureRecognizer:"
+- "_setSampleImage:"
+- "_setSupportsPointerDragScrolling:"
+- "_setTouchActive:"
+- "_setTransitionFraction:"
+- "_setUpStaticImageContentView:"
+- "_setVisualAltitude:"
+- "_setVisualAltitudeBias:"
+- "_setWallpaperHidden:variant:reason:"
+- "_setupAndActivateServiceClientConnection"
+- "_setupAndShowHUDWindow"
+- "_setupCachesIfNeeded"
+- "_setupContentViewForMode:"
+- "_setupContentViewWithOptions:"
+- "_setupScene"
+- "_setupSceneWithCompletion:"
+- "_setupScrollView"
+- "_setupWallpaperImageFromConfiguration:options:"
+- "_sharedUpdateAssertion"
+- "_sharedWallpaperView"
+- "_sharesContentsAcrossVariants"
+- "_shouldAnimatePropertyWithKey:"
+- "_shouldEffectivelyMatchWallpaperPosition"
+- "_shouldGenerateBlurredImagesWhenVisible"
+- "_shouldHomeScreenWallpaperBeDimmed"
+- "_shouldMaskBlur"
+- "_shouldMaskTint"
+- "_shouldMatchWallpaperPosition"
+- "_shouldRasterizeWallpaperAssertion"
+- "_shouldScaleForParallax"
+- "_shouldSuspendMotionEffectsForState:"
+- "_shouldSuspendMotionEffectsForStyle:"
+- "_showsSnapshot"
+- "_simpleAssertionWithReasonsSet:identifier:reason:updater:"
+- "_simulatedTouchReasons"
+- "_size"
+- "_slideDirectionX"
+- "_slideDirectionY"
+- "_slideEnabled"
+- "_slideIncreaseX"
+- "_slideIncreaseY"
+- "_slidePixelsX"
+- "_slidePixelsY"
+- "_slots"
+- "_snapshot"
+- "_snapshotBuffer"
+- "_snapshotNeeded"
+- "_snapshotNow:"
+- "_snapshotObserver"
+- "_snapshotObservers"
+- "_snapshotProvider"
+- "_snapshotScene:completion:"
+- "_snapshotScheduled"
+- "_snapshotSource"
+- "_snapshotSubscription"
+- "_snapshotView"
+- "_snapshotsView"
+- "_source"
+- "_sourceForFakeBlurView:"
+- "_sourceToken"
+- "_speed"
+- "_startGeneratingBlurredImages"
+- "_startPoint"
+- "_startStyle"
+- "_stateCaptureHandles"
+- "_stateTable"
+- "_staticImageURL"
+- "_stillTimeInVideo"
+- "_stopGeneratingBlurredImages"
+- "_storagePath"
+- "_store"
+- "_style"
+- "_styleModeChanged:"
+- "_styleTransitionState"
+- "_subclass_updateForForcingPlayback:"
+- "_subclass_updatePlayerItemForUse:"
+- "_subscribed"
+- "_suggestedTintColor"
+- "_superviewBounds"
+- "_supportsCropping"
+- "_supportsRotation"
+- "_supportsWallpaperOptions"
+- "_suspendColorSamplingAssertions"
+- "_suspendOrResumeColorSampling"
+- "_suspendOrResumeWallpaperAnimation"
+- "_suspendWallpaperAnimationAssertions"
+- "_synchronizeDrawing"
+- "_synchronizeDrawingWithFence:"
+- "_synchronizedDrawingFence"
+- "_targetView"
+- "_thermalStateDidChange:"
+- "_thermalStateIsCritical"
+- "_throttleCanUpdateFlag"
+- "_throttleDuration"
+- "_throttleTimer"
+- "_tiltDegreesX"
+- "_tiltDegreesY"
+- "_tiltDirectionX"
+- "_tiltDirectionY"
+- "_tiltEnabled"
+- "_timeColor"
+- "_tintColorStyle"
+- "_tintMaskingContainer"
+- "_tintSource"
+- "_toWindowOrientation"
+- "_toggleCircleAnimations:"
+- "_touchActive"
+- "_traitCollection"
+- "_traitCollectionWithBacklightLuminance:"
+- "_traitsArbiterActive"
+- "_transformOptions"
+- "_transitionBlurView"
+- "_transitionColorTintView"
+- "_transitionFraction"
+- "_transitionGrayscaleTintView"
+- "_transitioningActiveVariant"
+- "_transitioningLockState"
+- "_type"
+- "_unlockProgress"
+- "_unlockingKeepRunningAssertion"
+- "_unregisterFakeBlurView:"
+- "_untreatedWallpaperImage"
+- "_updateActivePosterSceneMode"
+- "_updateActiveVariantTransitionProgress:"
+- "_updateAndPrewarmWallpapers"
+- "_updateAnimationSuspended"
+- "_updateBackgroundColor"
+- "_updateBlurGeneration"
+- "_updateBlurImagesForVariant:"
+- "_updateBlurViewsForVariant:"
+- "_updateColorBoxesWithKey:image:"
+- "_updateContentViewScale"
+- "_updateDebugHUD"
+- "_updateDefaultsForVariant:wallpaperMode:updater:"
+- "_updateDimHomeScreenWallpaperViewAnimated"
+- "_updateDimHomeScreenWallpaperViewForUnlockProgress:animated:"
+- "_updateDisallowRasterizationForHomescreen:lockscreen:"
+- "_updateEffectViewForVariant:oldState:newState:oldEffectView:newEffectView:"
+- "_updateEffectViewForVariant:withFactory:"
+- "_updateEffectiveMotionEffectsModeForSupportedMode:disabled:"
+- "_updateEnableHomeScreenWallpaperDimming"
+- "_updateExtendedRenderSessionForScene:"
+- "_updateFallbackView"
+- "_updateForActiveVariant:"
+- "_updateGeneratingBlurs"
+- "_updateGradientAndFillColor"
+- "_updateHUDLayout"
+- "_updateHomeViewControllerVisibility"
+- "_updateHomescreenStyleChangesDelayed:"
+- "_updateHomescreenStyleTransitionStateTo:from:"
+- "_updateHomescreenWallpaperAlpha:"
+- "_updateImageViewRotation"
+- "_updateInactiveBlurEffectForWallpaperMode:"
+- "_updateInterfaceStyle"
+- "_updateLandscapeBlur"
+- "_updateLegibilitySettings:"
+- "_updateLegibilitySettingsForAverageColor:force:notify:"
+- "_updateLiveWallpaperInteractive:"
+- "_updateLiveWallpaperTouchActive:"
+- "_updateLockViewControllerVisibility"
+- "_updateLockscreenOnlyWallpaperAlpha:"
+- "_updateLockscreenStyleTransitionStateTo:from:"
+- "_updateLockscreenWallpaperAlpha:"
+- "_updateLockscreenWallpaperContentsRect:"
+- "_updateMotionEffectsForState:"
+- "_updateOrientation"
+- "_updateOrientationIfNeeded"
+- "_updateParallax"
+- "_updateParallaxForScroll"
+- "_updatePosterColorStatistics:desiredLegibilitySettings:"
+- "_updatePosterLayers"
+- "_updatePosterPreferredProminentColor"
+- "_updatePosterScenesForReasons:completion:"
+- "_updatePosterScenesForReasons:updater:completion:"
+- "_updatePowerlogStatus"
+- "_updateRasterization"
+- "_updateRasterizationState"
+- "_updateRotationForOrientation:"
+- "_updateScaleFactor"
+- "_updateSceneMode"
+- "_updateSceneModeWithCompletion:"
+- "_updateScrollViewZoomScales"
+- "_updateSeparateWallpaperForVariants:options:wallpaperMode:"
+- "_updateSharedWallpaperWithOptions:wallpaperMode:"
+- "_updateStyleForVariant:"
+- "_updateVariantStatus"
+- "_updateWallpaperAnimationSuspended:"
+- "_updateWallpaperAverageColor:"
+- "_updateWallpaperForLocations:options:wallpaperMode:withCompletion:"
+- "_updateWallpaperForWallpaperDimming:"
+- "_updateWallpaperForWallpaperMode:"
+- "_updateWallpaperHidden"
+- "_updateWallpaperHiddenForHomescreen:lockscreen:"
+- "_updateWallpaperParallax"
+- "_updateWallpaperRequired:"
+- "_updateWallpaperScaleWithAnimationFactory:"
+- "_updateWallpaperSceneClientSettingsWithBlock:"
+- "_updateWallpaperSceneSettingsWithBlock:"
+- "_updateWallpaperSceneSettingsWithBlock:postUpdateBlock:"
+- "_updateWallpaperSceneSettingsWithTransitionBlock:"
+- "_updateWallpaperVariant:inAnimationSettings:outAnimationSettings:"
+- "_updateWithImage:"
+- "_updatedDimStyle"
+- "_url"
+- "_useDimmingColorMatrix"
+- "_useRewindPlaybackStyle"
+- "_userInterfaceStyle"
+- "_userInterfaceStyleTraitDidChange:previousTraitCollection:"
+- "_variant"
+- "_vendWallpaperViewForConfiguration:forVariant:shared:options:"
+- "_video"
+- "_videoFileURL"
+- "_videoURL"
+- "_viewController"
+- "_viewControllerForVariant:"
+- "_wakeSourceIsSwipeToUnlock"
+- "_wallpaperAnimationEnabled"
+- "_wallpaperAnimationSuspendedReasons"
+- "_wallpaperAverageColor"
+- "_wallpaperCaptureView"
+- "_wallpaperColor"
+- "_wallpaperColorName"
+- "_wallpaperConfigurationManager"
+- "_wallpaperContainerView"
+- "_wallpaperDefaults"
+- "_wallpaperDefaultsStore"
+- "_wallpaperDelegate"
+- "_wallpaperDidChange:"
+- "_wallpaperEffectImageSlots"
+- "_wallpaperEffectView"
+- "_wallpaperEnableDimmingObserver"
+- "_wallpaperFileURL"
+- "_wallpaperGestureChanged:"
+- "_wallpaperGradient"
+- "_wallpaperIdentifier"
+- "_wallpaperImage"
+- "_wallpaperImageCache"
+- "_wallpaperImageForAnalysis"
+- "_wallpaperImageHashData"
+- "_wallpaperKitData"
+- "_wallpaperLegibilityProvider"
+- "_wallpaperMode"
+- "_wallpaperName"
+- "_wallpaperOffset"
+- "_wallpaperOptions"
+- "_wallpaperOriginalImage"
+- "_wallpaperPresenter"
+- "_wallpaperPresentingDelegate"
+- "_wallpaperRequiredAssertion"
+- "_wallpaperRequiredReasons"
+- "_wallpaperScale"
+- "_wallpaperScaleAssertionForVariant:scale:"
+- "_wallpaperScaleAssertions"
+- "_wallpaperScaleForVariant:"
+- "_wallpaperSceneClientSettings"
+- "_wallpaperSceneSettings"
+- "_wallpaperSceneSettingsDiffInspector"
+- "_wallpaperSettings"
+- "_wallpaperSize"
+- "_wallpaperSizeType"
+- "_wallpaperStatus"
+- "_wallpaperStyleAnimationAssertion"
+- "_wallpaperThumbnailImage"
+- "_wallpaperThumbnailImageData"
+- "_wallpaperType"
+- "_wallpaperVariantSceneSettingsDiffInspector"
+- "_wallpaperView"
+- "_wallpaperViewClassForType:"
+- "_wallpaperViewController"
+- "_wallpaperWasUserSet"
+- "_wantsRasterization"
+- "_warmupImageForKey:"
+- "_wasLastActive"
+- "_workQueue"
+- "_zoomFactor"
+- "_zoomScale"
+- "accumulateChangesToContentColor:contrast:"
+- "acquireDuckHomeScreenWallpaperDimAssertionWithReason:"
+- "acquireForReason:"
+- "acquireForReason:withContext:"
+- "acquireSourceUsageAssertionForView:"
+- "action"
+- "activate"
+- "activate:"
+- "activateWithCompletion:"
+- "activateWithConfiguration:"
+- "activeConfiguration"
+- "activeHome"
+- "activeInterfaceOrientation"
+- "activeLock"
+- "activeMultilinePrefix"
+- "activeStyleForVariant:"
+- "activeVariantForPosterComponent:"
+- "activelyRequiredReasons"
+- "activityMode"
+- "actualStyleForIdentifier:"
+- "adaptiveTimeHonorsPreferredSalientContentRectangle"
+- "addAnimation:forKey:"
+- "addAnimations:"
+- "addCompletionBlock:scheduler:"
+- "addContentView:"
+- "addEntriesFromDictionary:"
+- "addGestureRecognizer:"
+- "addImageSlotObserver:"
+- "addKeyObserver:"
+- "addObject:"
+- "addObjectsFromArray:"
+- "addObserver:"
+- "addObserver:forKeyPath:options:context:"
+- "addObserver:forVariant:"
+- "addObserver:selector:name:object:"
+- "addReachabilityObserver:"
+- "addSublayer:"
+- "addSubview:"
+- "addTarget:action:"
+- "addToRunLoop:forMode:"
+- "allObjects"
+- "allocWithZone:"
+- "allocateImageSlotForIdentifier:size:actualStyle:url:lifetimeObject:"
+- "allowsParallax"
+- "alpha"
+- "animateAlongsideTransition:completion:"
+- "animateWithDuration:animations:completion:"
+- "animateWithDuration:delay:options:animations:completion:"
+- "animateWithDuration:delay:usingSpringWithDamping:initialSpringVelocity:options:animations:completion:"
+- "animateWithFactory:actions:"
+- "animateWithFactory:actions:completion:"
+- "animateWithSettings:actions:"
+- "animateWithSettings:actions:completion:"
+- "animationDidStart:"
+- "animationDidStop:finished:"
+- "animationFence"
+- "animationForKey:"
+- "animationKeys"
+- "animationSettings"
+- "annul"
+- "appearanceStorage"
+- "appendArraySection:withName:skipIfEmpty:"
+- "appendArraySection:withName:skipIfEmpty:objectTransformer:"
+- "appendBodySectionWithName:multilinePrefix:block:"
+- "appendBool:"
+- "appendBool:withName:"
+- "appendBool:withName:ifEqualTo:"
+- "appendCGFloat:"
+- "appendDouble:withName:decimalPrecision:"
+- "appendEqualsBlocks:"
+- "appendFloat:withName:"
+- "appendFloat:withName:decimalPrecision:"
+- "appendFormat:"
+- "appendInteger:"
+- "appendInteger:counterpart:"
+- "appendInteger:withName:"
+- "appendObject:"
+- "appendObject:counterpart:"
+- "appendObject:withName:"
+- "appendObject:withName:skipIfNil:"
+- "appendPoint:withName:"
+- "appendPointer:withName:"
+- "appendPreconditionResultFailure:"
+- "appendPreconditionResultFailureWithFormat:"
+- "appendProem:block:"
+- "appendRect:withName:"
+- "appendSize:withName:"
+- "appendString:withName:"
+- "appendSuper"
+- "appendUnsignedInteger:"
+- "applyEffect:toImage:error:"
+- "applyFauxExternalSceneSettings:"
+- "applyUpdateLocally:error:"
+- "applyUpdatesLocally:error:"
+- "archivedDataWithRootObject:requiringSecureCoding:error:"
+- "areMotionEffectsEnabled"
+- "array"
+- "arrayByAddingObject:"
+- "arrayByAddingObjectsFromArray:"
+- "arrayWithObjects:count:"
+- "assertionWithIdentifier:"
+- "assertionWithIdentifier:stateDidChangeHandler:"
+- "assetWithURL:"
+- "attributeWithDomain:name:"
+- "attributedStringWithAttachment:"
+- "auditToken"
+- "authenticateAuditToken:"
+- "automaticallyEnablesParallax"
+- "automaticallyNotifiesObserversForValid"
+- "autorelease"
+- "averageColor"
+- "averageColorForVariant:"
+- "averageColorInRect:"
+- "averageColorInRect:forVariant:"
+- "averageColorInRect:forVariant:withSmudgeRadius:"
+- "averageColorInRect:withSmudgeRadius:"
+- "averageContrast"
+- "averageContrastForVariant:"
+- "averageSaturation"
+- "background support"
+- "backgroundColor"
+- "base64EncodedStringWithOptions:"
+- "begin"
+- "beginActiveVariantTransition"
+- "beginBackgroundTaskWithName:expirationHandler:"
+- "beginChangeBatch"
+- "beginDelayingHomescreenStyleChangesForReason:"
+- "beginRequiringWithReason:"
+- "beginSimulatedLiveWallpaperTouchWithReason:"
+- "beginSimulatedTouchWithReason:"
+- "bestWallpaperSizeForParallaxFactor:"
+- "bestWallpaperSizeForParallaxFactor:portrait:"
+- "bestWallpaperSizeForWallpaperSize:deviceType:parallaxFactor:portrait:"
+- "bestWallpaperSizeForWallpaperSize:wallpaperScale:deviceType:imageScale:"
+- "between:and:"
+- "blackColor"
+- "blue"
+- "blueColor"
+- "blurMaskingContainer"
+- "blurView"
+- "blurredImage"
+- "blurredImageURL"
+- "boolForKey:"
+- "boolForSetting:"
+- "boolValue"
+- "bootupExtensionInstance:"
+- "bounds"
+- "bringSubviewToFront:"
+- "bs_addChildViewController:"
+- "bs_addChildViewController:withSuperview:"
+- "bs_array"
+- "bs_beginAppearanceTransitionForChildViewController:toVisible:animated:"
+- "bs_containsObjectPassingTest:"
+- "bs_endAppearanceTransitionForChildViewController:toVisible:"
+- "bs_isAppearingOrAppeared"
+- "bs_map:"
+- "bs_performAfterSynchronizedCommit:"
+- "bs_removeChildViewController:"
+- "bs_safeAddObject:"
+- "bs_setSafeObject:forKey:"
+- "build"
+- "buildCacheIdentifierForURL:"
+- "buildWithError:"
+- "builder"
+- "builderWithObject:"
+- "builderWithObject:ofExpectedClass:"
+- "bundleForClass:"
+- "bundleIdentifier"
+- "bundlePath"
+- "bundleWithPath:"
+- "c"
+- "c16@0:8"
+- "c40@0:8q16@24@32"
+- "cache"
+- "cacheGroup"
+- "cacheUniqueIdentifier"
+- "cachedSnapshotImage"
+- "cachedVariantsShareWallpaperConfiguration"
+- "cachedVariantsShareWallpaperConfigurationValid"
+- "cachesPath"
+- "canSendResponse"
+- "canShowSnapshot"
+- "cancelInProcessAnimations"
+- "caseInsensitiveCompare:"
+- "center"
+- "cgColor"
+- "cgColors"
+- "checkResourceIsReachableAndReturnError:"
+- "checkoutImageCache:"
+- "class"
+- "classNamed:"
+- "cleanedProceduralWallpaperInfo:"
+- "cleanup"
+- "cleanupOldSharedWallpaper:lockSreenWallpaper:homeScreenWallpaper:"
+- "clearCacheForVariants:"
+- "clearCacheForVariants:memoryOnly:"
+- "clearColor"
+- "clearContentColorAccumulator"
+- "clearDelayedChangeNotifications"
+- "clearDerivedProminentColor"
+- "clearLegacyDefaults"
+- "clientHandle"
+- "clientSettings"
+- "clientSettingsClass"
+- "close"
+- "code"
+- "colorBoxes"
+- "colorBoxesForAverageColor:"
+- "colorBoxesForImage:"
+- "colorBoxesForKey:generatingIfNeceesaryFromImage:"
+- "colorData"
+- "colorName"
+- "colorSamplingDisabled"
+- "colorStatisticsDidChange:"
+- "colorTint"
+- "colorTintAlpha"
+- "colorTintView"
+- "colorWithAlphaComponent:"
+- "colorWithRed:green:blue:alpha:"
+- "colorWithWhite:alpha:"
+- "commit"
+- "compare:"
+- "componentsJoinedByString:"
+- "compositeLevelSet"
+- "computeOutputSettingsUsingModel:"
+- "conditionFormat:"
+- "configureAnimationsWithPhase:"
+- "configureConnection:"
+- "configureEffectViewForMode"
+- "configureForZOrder"
+- "configureLayer:"
+- "configureParameters:"
+- "conformsToProtocol:"
+- "connectionWithEndpoint:"
+- "containerPathProvider"
+- "containsObject:"
+- "containsString:"
+- "containsTraitsInCollection:"
+- "contentColor"
+- "contentColorStatistics"
+- "contentOffset"
+- "contentScaleFactor"
+- "contentSize"
+- "contentState"
+- "contentStatic"
+- "contentView"
+- "contentsOfDirectoryAtPath:error:"
+- "contentsURL"
+- "context"
+- "contextID"
+- "continuousColorSamplingEnabled"
+- "contrast"
+- "contrastForVariant:"
+- "contrastInRect:"
+- "contrastInRect:contrastWithinBoxes:contrastBetweenBoxes:"
+- "contrastInRect:forVariant:"
+- "convertRect:fromCoordinateSpace:"
+- "convertRect:fromView:"
+- "convertRect:toView:"
+- "convertTime:fromLayer:"
+- "convertToUILegibility"
+- "coordinateSpace"
+- "copy"
+- "copyCGGradient"
+- "copyItemAtURL:toURL:error:"
+- "copyVideoAtURL:toURL:"
+- "copyWithShouldDetermineColorStatistics:"
+- "copyWithWaitUntilReady:"
+- "copyWithZone:"
+- "count"
+- "countByEnumeratingWithState:objects:count:"
+- "counterpart"
+- "createDirectory"
+- "createDirectoryAtPath:withIntermediateDirectories:attributes:error:"
+- "createDirectoryAtURL:withIntermediateDirectories:attributes:error:"
+- "createPresenterForLayerTarget:identifier:priority:"
+- "createPresenterWithIdentifier:"
+- "createPresenterWithIdentifier:priority:"
+- "createScene:"
+- "createUIImageWithError:"
+- "createWallpaperFloatingViewForReason:ignoreReplica:"
+- "cropRectForOldCropRect:portrait:zoomScale:oldParallaxFactor:forImageSize:newZoomScale:"
+- "cropRectForVariant:wallpaperMode:"
+- "cropRectForViewPort:portrait:zoomScale:parallaxFactor:forImageSize:contentScaleFactor:"
+- "cropZoomScale"
+- "currentDevice"
+- "currentHandler"
+- "currentHomeVariantStyleState"
+- "currentHomescreenStyleTransitionState"
+- "currentIrisMode"
+- "currentMagnifyMode"
+- "currentPlaybackStyle"
+- "currentSnapshotInterfaceOrientation:outDeviceOrientation:"
+- "currentStyle"
+- "currentTraitCollection"
+- "currentTransitionStateIsOpaque"
+- "customizationConfiguration"
+- "d"
+- "d16@0:8"
+- "d24@0:8q16"
+- "d32@0:8q16q24"
+- "d40@0:8d16{CGPoint=dd}24"
+- "d40@0:8{CGSize=dd}16d32"
+- "d48@0:8{CGRect={CGPoint=dd}{CGSize=dd}}16"
+- "d48@0:8{CGSize=dd}16d32q40"
+- "d56@0:8{CGRect={CGPoint=dd}{CGSize=dd}}16q48"
+- "d64@0:8{CGRect={CGPoint=dd}{CGSize=dd}}16^d48^d56"
+- "d76@0:8{CGRect={CGPoint=dd}{CGSize=dd}}16B48{CGSize=dd}52d68"
+- "dataWithBytesNoCopy:length:freeWhenDone:"
+- "dataWithContentsOfFile:options:error:"
+- "dataWithContentsOfURL:"
+- "dataWithContentsOfURL:options:error:"
+- "dataWithPropertyList:format:options:error:"
+- "dateWithTimeIntervalSinceNow:"
+- "deactivate"
+- "deactivateWithTransitionContext:"
+- "dealloc"
+- "debugDescription"
+- "debugFont"
+- "debugView"
+- "decodeBoolForKey:"
+- "decodeCGPointForKey:"
+- "decodeCGRectForKey:"
+- "decodeDoubleForKey:"
+- "decodeIntegerForKey:"
+- "decodeObjectOfClass:forKey:"
+- "decodeObjectOfClasses:forKey:"
+- "defaultATX"
+- "defaultAnalysisDescriptor"
+- "defaultCacheManager"
+- "defaultCenter"
+- "defaultConfiguration"
+- "defaultDirectoryURL"
+- "defaultFormat"
+- "defaultManager"
+- "defaults"
+- "defaultsDomain"
+- "deferredImageSlot:didUpdateImage:"
+- "delayNotifyingChangeForVariants:"
+- "delegate"
+- "derivedProminentColor"
+- "derivedProminentPosterColor"
+- "description"
+- "descriptionBuilderWithMultilinePrefix:"
+- "descriptionForRotation:"
+- "descriptionWithMultilinePrefix:"
+- "descriptorIdentifier"
+- "desiredLegibilitySettings"
+- "destinationWithTemporaryDirectoryWithAuditToken:error:"
+- "deviceClass"
+- "deviceMotionEventGenerationActive"
+- "deviceMotionMode"
+- "deviceMotionUpdateInterval"
+- "deviceName"
+- "deviceOrientation"
+- "dictionary"
+- "dictionaryWithDictionary:"
+- "dictionaryWithObject:forKey:"
+- "dictionaryWithObjects:forKeys:count:"
+- "didChangeValueForKey:"
+- "didMoveToSuperview"
+- "didMoveToWindow"
+- "didRotateToInterfaceOrientation:"
+- "didWriteFileToURL:"
+- "diffFromPosterWallpaperWindowSceneStyleTransitionState:updateHandler:removeHandler:"
+- "diffFromWallpaperWindowSceneStyleTransitionState:updateHandler:removeHandler:"
+- "dimStyle"
+- "directoryCreationAttributes"
+- "disallowRasterizationReasonsHomeVariant"
+- "disallowRasterizationReasonsLockVariant"
+- "dispatchQueue"
+- "displayConfiguration"
+- "displayLinkWithTarget:selector:"
+- "displayedImage"
+- "displayedImageHashData"
+- "displayedImageHashString"
+- "displayedImageURL"
+- "domain"
+- "domainGroupName"
+- "domainName"
+- "doubleValue"
+- "downsampleFactor"
+- "drawAtPoint:"
+- "drawInRect:"
+- "duration"
+- "effectTrackingReplicaViewHasValidSnapshot:"
+- "effectWeight"
+- "effectWithStyle:"
+- "effectiveColor"
+- "effectiveReachabilityYOffset"
+- "effectiveSharedVariantForVariants:"
+- "effectiveTitleColor"
+- "encodeBool:forKey:"
+- "encodeCGPoint:forKey:"
+- "encodeCGRect:forKey:"
+- "encodeDouble:forKey:"
+- "encodeInteger:forKey:"
+- "encodeObject:forKey:"
+- "encodeWithCoder:"
+- "encodeWithXPCDictionary:"
+- "endActiveVariantTransition"
+- "endBackgroundTask:"
+- "endChangeBatch"
+- "endDelayingHomescreenStyleChangesForReason:animationFactory:"
+- "endSimulatedLiveWallpaperTouchWithReason:"
+- "endSimulatedTouchWithReason:"
+- "endpointForMachName:service:instance:"
+- "enumerateObjectsUsingBlock:"
+- "enumerateValidPrioritiesUsingBlock:"
+- "enumeratorAtURL:includingPropertiesForKeys:options:errorHandler:"
+- "error"
+- "errorWithDomain:code:userInfo:"
+- "evaluateSnapshotPreconditions"
+- "evaluateWithInspector:context:"
+- "eventQueue"
+- "eventWithName:handler:"
+- "exceptionWithName:reason:userInfo:"
+- "executeOrInsertEvent:atPosition:"
+- "exportAsynchronouslyWithCompletionHandler:"
+- "extensionForProvider:error:"
+- "extensionInstanceForPath:instanceIdentifier:"
+- "externalDisplayConfiguration"
+- "externalSceneModeAssertionActions"
+- "f"
+- "f16@0:8"
+- "fakeBlurRegistry"
+- "fakeBlurView:didChangeStyle:"
+- "fakeBlurViewOverrideTraitCollection"
+- "fallbackWallpaperConfigurationForVarient:"
+- "fallbackXPCEncodableClass"
+- "fetchWallpaperProminentColor:"
+- "fileExistsAtPath:"
+- "filePathURL"
+- "fileSystemRepresentation"
+- "fileURLWithPath:"
+- "fileURLWithPath:isDirectory:"
+- "filenameExtension"
+- "fillRect:"
+- "filterWithType:"
+- "filters"
+- "finishUnlockWithAnimationParameters:"
+- "firstObject"
+- "fixedOrientation"
+- "flagForSetting:"
+- "floatValue"
+- "floatingLayerStandin"
+- "fontWithDescriptor:size:"
+- "forcesOpaque"
+- "foreground support"
+- "format"
+- "frame"
+- "freeImageSlotWithIdentifier:lifetime:"
+- "fulfilled"
+- "fullscreen"
+- "gestureRecognizer"
+- "gestureRecognizer:shouldBeRequiredToFailByGestureRecognizer:"
+- "gestureRecognizer:shouldReceiveEvent:"
+- "gestureRecognizer:shouldReceivePress:"
+- "gestureRecognizer:shouldReceiveTouch:"
+- "gestureRecognizer:shouldRecognizeSimultaneouslyWithGestureRecognizer:"
+- "gestureRecognizer:shouldRequireFailureOfGestureRecognizer:"
+- "gestureRecognizerShouldBegin:"
+- "getBestCropRect:zoomScale:forImageSize:portrait:parallaxFactor:"
+- "getFlag"
+- "getHue:saturation:brightness:alpha:"
+- "getRed:green:blue:alpha:"
+- "getResourceValue:forKey:error:"
+- "getWallpaperLegibilitySettingsForVariant:"
+- "getWallpaperOptionsForVariant:"
+- "gradientAppearance"
+- "gradientColors"
+- "gradientData"
+- "grayscaleTintAlpha"
+- "grayscaleTintLevel"
+- "grayscaleTintView"
+- "green"
+- "greenColor"
+- "handleFailureInFunction:file:lineNumber:description:"
+- "handleFailureInMethod:object:file:lineNumber:description:"
+- "handlePanGesture:"
+- "handleReachabilityYOffsetDidChange"
+- "handlesInactiveAppearanceTreatment"
+- "handlesWakeAnimation"
+- "hasContentOutsideVisibleBounds"
+- "hasDifferentColorAppearanceComparedToTraitCollection:"
+- "hasPrefix:"
+- "hasRequestedDeviceMotionEvents"
+- "hasSlotForIdentifier:"
+- "hasSuffix:"
+- "hasVideoForVariant:"
+- "hasWallpaperImageForVariant:wallpaperMode:"
+- "hash"
+- "hideDimmingLayerDidChange:"
+- "hideHUD"
+- "hideWallpaperReasonsHomeVariant"
+- "hideWallpaperReasonsLockVariant"
+- "hidesDimmingLayer"
+- "hidesSourceView"
+- "highestPriorityStyleTransitionState"
+- "highestValidPriority"
+- "hitTest:withEvent:"
+- "hitTestViews"
+- "homeColumnContent"
+- "homeColumnLabel"
+- "homePosterAppearance"
+- "homeProvider"
+- "homeScreenConfiguration"
+- "homeScreenPosterMirrorsLock"
+- "homeScreenReflectsLockScreen"
+- "homeScreenWallpaperConfiguration"
+- "homeScreenWallpaperConfigurationIncludingValuesForTypes:"
+- "homeScreenWrapperForLegacyDefaults:"
+- "homescreenBlurViews"
+- "homescreenChangesDelayedReasons"
+- "homescreenObservers"
+- "homescreenStyleInfo"
+- "homescreenWallpaperScale"
+- "homescreenWallpaperView"
+- "hostDidEndDeviceMotionEventGeneration"
+- "hostWillStartDeviceMotionEventGeneration"
+- "hudContainerView"
+- "hudWindow"
+- "iconTintSource"
+- "iconUserInterfaceSize"
+- "iconUserInterfaceStyleType"
+- "iconUserInterfaceStyleVariant"
+- "identityForAngelJobLabel:"
+- "identityForProcessIdentity:"
+- "imageCache"
+- "imageForBackdropParameters:includeTint:overrideTraitCollection:"
+- "imageForKey:generatingIfNecessaryWithBlock:"
+- "imageForKey:generatingIfNecessaryWithBlock:completion:"
+- "imageForWallpaperStyle:variant:traitCollection:"
+- "imageHashData"
+- "imageHashForVariant:wallpaperMode:"
+- "imageNamed:inBundle:compatibleWithTraitCollection:"
+- "imageOrientation"
+- "imageProvider"
+- "imageRequiresLuminanceTreatment"
+- "imageSlot"
+- "imageURLForBackdropParameters:includeTint:overrideTraitCollection:"
+- "imageURLForKey:"
+- "imageWithActions:"
+- "imageWithCGImage:"
+- "imageWithCGImage:scale:orientation:"
+- "imageWithContentsOfCPBitmapFile:flags:"
+- "imageWithContentsOfFile:"
+- "inAnimationSettings"
+- "indexOfObject:"
+- "info"
+- "infoDictionary"
+- "inheritedAnimationDuration"
+- "init"
+- "initColorWithColor:"
+- "initColorWithColorName:"
+- "initForSnapshotProvider:cacheIdentifier:"
+- "initGradientWithGradient:"
+- "initProceduralWithIdentifier:options:"
+- "initStaticWithImageURL:"
+- "initToMemory"
+- "initVideoWithStaticImageURL:videoURL:"
+- "initWithActualStyle:size:imageURL:"
+- "initWithActualStyle:size:ioSurface:"
+- "initWithAnimationCurve:"
+- "initWithAsset:presetName:"
+- "initWithBundleIdentifier:error:"
+- "initWithCGImage:"
+- "initWithCGImage:scale:orientation:"
+- "initWithCGImage:scale:orientation:wallpaperFileURL:"
+- "initWithCapacity:"
+- "initWithCoder:"
+- "initWithColorBoxes:"
+- "initWithContainerView:forReason:invalidationBlock:"
+- "initWithContentsOfURL:"
+- "initWithContentsOfURL:options:error:"
+- "initWithData:"
+- "initWithDirectoryURL:"
+- "initWithDispatchQueue:"
+- "initWithDuration:timingParameters:"
+- "initWithEffect:"
+- "initWithEntitlement:additionalCredentials:"
+- "initWithExplanation:"
+- "initWithExternalDisplayConfiguration:variant:"
+- "initWithFlag:"
+- "initWithFlatColor:"
+- "initWithFlatColor:size:scale:"
+- "initWithFormat:arguments:"
+- "initWithFrame:"
+- "initWithFrame:configuration:variant:cacheGroup:delegate:options:"
+- "initWithFrame:configuration:wallpaperVideo:variant:"
+- "initWithIdentifier:"
+- "initWithIdentifier:activeStateDidChangeHandler:"
+- "initWithIdentifier:forReason:invalidationBlock:"
+- "initWithIdentifier:forReason:sceneMode:invalidationBlock:"
+- "initWithIdentifier:mirrorsEmbeddedDisplay:"
+- "initWithImage:"
+- "initWithImage:downscaleFactor:treatment:"
+- "initWithImage:lifetimeToken:"
+- "initWithInfo:error:"
+- "initWithInfo:responder:"
+- "initWithInstanceURL:variant:"
+- "initWithLevelSets:snapshotDefinitionIdentifier:"
+- "initWithLifetimeToken:"
+- "initWithLocations:wallpaperMode:responder:"
+- "initWithName:onQueue:"
+- "initWithName:parallaxFactor:zoomScale:supportsCropping:cropRect:supportsRotation:rotationAngle:portrait:hasVideo:stillTimeInVideo:wallpaperMode:wallpaperStatus:wallpaperKitData:"
+- "initWithNibName:bundle:"
+- "initWithOptions:"
+- "initWithOutputDescriptor:sceneDescriptor:attachments:analysis:host:"
+- "initWithPath:"
+- "initWithPathProvider:format:"
+- "initWithPersistentDataRepresentation:"
+- "initWithPrivateStyle:"
+- "initWithReason:invalidatedBlock:"
+- "initWithRecipeName:fromBundle:"
+- "initWithResponder:"
+- "initWithRootObject:"
+- "initWithRootObject:portalProvider:snapshotProvider:"
+- "initWithScene:"
+- "initWithScene:counterpart:"
+- "initWithSettings:"
+- "initWithSize:"
+- "initWithSize:format:"
+- "initWithSlotIdentifier:forResponseOnQueue:withHandler:"
+- "initWithSnapshotSource:"
+- "initWithStream:"
+- "initWithStyle:primaryColor:secondaryColor:shadowColor:"
+- "initWithSuperviewBounds:color:"
+- "initWithTarget:action:"
+- "initWithTargetView:cacheIdentifier:legibilitySettings:effectsAreBakedIn:"
+- "initWithTintColorStyle:suggestedTintColor:tintSource:isHomeScreenDimmed:iconSize:iconStyle:iconStyleVariant:lastUserSelectedVariantForStyleTypeOption:"
+- "initWithUIImage:error:"
+- "initWithURL:"
+- "initWithURL:append:"
+- "initWithURL:format:"
+- "initWithUniqueIdentifier:options:"
+- "initWithUserdefaultsDomain:"
+- "initWithVariant:"
+- "initWithVariant:desiredStyle:traitCollection:slotIdentifier:forResponseOnQueue:withHandler:"
+- "initWithVariant:imageProvider:fakeBlurRegistry:wallpaperViewDelegate:transformOptions:reachabilityCoordinator:"
+- "initWithVariant:scale:forReason:invalidationBlock:"
+- "initWithVariant:style:averageColor:contrast:saturation:legibilitySettings:"
+- "initWithVariant:style:colorBoxes:legibilitySettings:"
+- "initWithVariant:type:"
+- "initWithVariant:wallpaperPresenter:wallpaperLegibilityProvider:"
+- "initWithVariant:wallpaperViewController:"
+- "initWithVariant:wallpaperViewController:transformOptions:reachabilityCoordinator:"
+- "initWithVideoAsset:photo:photoTime:photoEXIFOrientation:"
+- "initWithWallpaperDataStores:"
+- "initWithWallpaperDataStores:wallpaperSize:scale:sizeType:"
+- "initWithWallpaperDefaultsDict:"
+- "initWithWallpaperPresenter:"
+- "initWithWallpaperPresenter:variant:transformOptions:"
+- "initWithWallpaperViewController:type:reason:"
+- "initWithWindowScene:"
+- "initWithXPCDictionary:"
+- "initWithdefaultsDomain:"
+- "initialActionHandlers"
+- "initialSettingsDiffActions"
+- "initialize"
+- "insertSubview:above:"
+- "insertSubview:aboveSubview:"
+- "insertSubview:atIndex:"
+- "inspect:"
+- "inspectDiff:withContext:"
+- "instanceURL"
+- "integerValue"
+- "interacting"
+- "interface"
+- "interfaceOrientation"
+- "interfaceWithIdentifier:"
+- "internalObserver"
+- "intrinsicContentSize"
+- "invalidate"
+- "invalidateCurrentSnapshot"
+- "invalidateIntrinsicContentSize"
+- "invalidateModelObjectCacheForPath:"
+- "invalidateSnapshotPreconditions:"
+- "invalidateWithAnimationFactory:"
+- "invalidated"
+- "ioSurfaceForIdentifier:"
+- "irisDelegate"
+- "irisGestureRecognizer"
+- "irisPlaybackState"
+- "irisWallpaperPlayer"
+- "irisWallpaperPlayer:didReplaceGestureRecognizer:withGestureRecognizer:"
+- "irisWallpaperPlayerIsInteractingDidChange:"
+- "irisWallpaperPlayerPlaybackStateDidChange:"
+- "isActive"
+- "isBlurred"
+- "isCachedVariantsShareWallpaperConfigurationValid"
+- "isContentStatic"
+- "isDepthEffectDisabled"
+- "isDescendantOfView:"
+- "isDeviceMotionEventGenerationActive"
+- "isDimmed"
+- "isDisplayingWallpaperWithConfiguration:forVariant:"
+- "isEffectView"
+- "isEphemeralMultiUser"
+- "isEqual"
+- "isEqual:"
+- "isEqualToArray:"
+- "isEqualToData:"
+- "isEqualToDictionary:"
+- "isEqualToPosterVariantPathProvider:"
+- "isEqualToState:"
+- "isEqualToString:"
+- "isFloatingLayerObserver"
+- "isFloatingLayerStandin"
+- "isFullscreen"
+- "isHUDEnabled"
+- "isHUDVisible"
+- "isHidden"
+- "isHomeScreenWallpaperDimmed"
+- "isHomescreenContentStatic"
+- "isInChangeBatch"
+- "isInteracting"
+- "isInvalid"
+- "isIrisInteracting"
+- "isKindOfClass:"
+- "isLegibilityBlurEnabled"
+- "isLockscreenContentLiveWallpaper"
+- "isLockscreenContentStatic"
+- "isLooselyEqualToWallpaperOptions:"
+- "isLowPowerModeEnabled"
+- "isMagnifyEnabled"
+- "isMainThread"
+- "isMemberOfClass:"
+- "isPlaying"
+- "isPortrait"
+- "isPortraitForVariant:wallpaperMode:"
+- "isProceduralWallpaperInfoValid:"
+- "isProxy"
+- "isRotating"
+- "isRunningInPreferencesApp"
+- "isServerPosterPath"
+- "isSettledPosition"
+- "isSnapshotInCorrectOrientation"
+- "isSnapshotting"
+- "isSubscribed"
+- "isTouchActive"
+- "isTransitioningActiveVariant"
+- "isValid"
+- "isVideoSupportedByDefaultForVariant:"
+- "isVideoSupportedForVariant:"
+- "isWindowIgnoredForReachability:"
+- "j8/Omm6s1lsmTDFsXjsBfA"
+- "ji56BO1mUeT7Qg9RO7Er9w"
+- "keyDescriptionForSetting:"
+- "keysOfEntriesPassingTest:"
+- "lastPathComponent"
+- "lastPosition"
+- "layer"
+- "layerClass"
+- "layerManager"
+- "layers"
+- "layoutIfNeeded"
+- "layoutSubviews"
+- "legibilityEnvironment"
+- "legibilityEnvironmentContext"
+- "legibilityEnvironmentContextForVariant:"
+- "legibilityEnvironmentForUILegibilitySettings:"
+- "legibilitySettings"
+- "legibilitySettingsDidChange"
+- "legibilitySettingsForVariant:"
+- "length"
+- "level"
+- "lifetimeToken"
+- "listener:didReceiveConnection:withContext:"
+- "listenerWithConfigurator:"
+- "load"
+- "loadView"
+- "localizedCaseInsensitiveContainsString:"
+- "localizedDescription"
+- "locationInView:"
+- "lockColumnContent"
+- "lockColumnLabel"
+- "lockPosterAppearance"
+- "lockProvider"
+- "lockScreenConfiguration"
+- "lockScreenWallpaperConfiguration"
+- "lockScreenWallpaperConfigurationIncludingValuesForTypes:"
+- "lockScreenWrapperForLegacyDefaults:"
+- "lockscreenBlurViews"
+- "lockscreenContentIsLiveWallpaper"
+- "lockscreenObservers"
+- "lockscreenStyleInfo"
+- "lockscreenWallpaperScale"
+- "lockscreenWallpaperView"
+- "lumaInRect:"
+- "magentaColor"
+- "magnifyEnabledForVariant:wallpaperMode:"
+- "magnifyMode"
+- "magnifyModeWithSize:name:"
+- "mainBundle"
+- "mainConfiguration"
+- "mainDisplay"
+- "mainRunLoop"
+- "mainScreen"
+- "makePortalSourceWithLegibilitySettings:"
+- "maskImageView"
+- "materialViewWithRecipe:"
+- "materialViewWithRecipe:options:"
+- "migrateWallpaperOptionsForImageIfNecessaryForVariant:representingVariants:"
+- "migratedWallpaperOptionsForWallpaperOptions:originalImageSize:"
+- "minimumHomescreenWallpaperScale"
+- "minimumLockscreenWallpaperScale"
+- "minimumWallpaperScaleForVariant:"
+- "minimumWallpaperSizeForCurrentDevice"
+- "minimumWallpaperSizeForWallpaperSize:deviceType:"
+- "minimumZoomScaleForCurrentDeviceForWallpaperSize:parallaxFactor:"
+- "minimumZoomScaleForWallpaperSize:parallaxFactor:deviceType:"
+- "mirrorsEmbeddedDisplay"
+- "missingEffectViewImages"
+- "modifyPresentationContext:"
+- "moduleWithTitle:contents:"
+- "motionEffectsEnabled"
+- "moveItemAtURL:toURL:error:"
+- "moveWallpaperImageDataTypes:fromVariant:toVariant:"
+- "mutableCopy"
+- "mutableCopyWithZone:"
+- "nameForVariant:wallpaperMode:"
+- "naturalSize"
+- "needsImmediateLayoutBeforeRotation"
+- "needsSnapshot"
+- "newFakeBlurViewForVariant:style:transformOptions:"
+- "newImageProviderView"
+- "newSnapshotWithRect:"
+- "normalizeImage:"
+- "noteDidRotateFromInterfaceOrientation:"
+- "noteDidRotateToInterfaceOrientation:"
+- "noteHomeVariantStyleStateMayHaveUpdated"
+- "noteUserTapOccurred"
+- "noteUserTapOccurredWithLocation:"
+- "noteWallpaperDidChangeForVariant:"
+- "noteWallpaperDidCompleteWallpaperChange"
+- "noteWallpaperWillChangeForVariant:"
+- "noteWallpapersDidUpdate"
+- "noteWillAnimateToInterfaceOrientation:"
+- "noteWillAnimateToInterfaceOrientation:duration:"
+- "noteWillRotateToInterfaceOrientation:"
+- "noteWorkspaceInstanceSetupForScene:poster:userInfo:"
+- "noteWorkspaceInstanceTeardownForScene:poster:userInfo:"
+- "noteWorkspaceUpdateForScene:poster:userInfo:"
+- "notificationCenterForType:"
+- "notifyDelegateOfChangesToVariants:"
+- "now"
+- "numberOfCachedStaticImages"
+- "numberWithBool:"
+- "numberWithDouble:"
+- "numberWithInteger:"
+- "numberWithUnsignedInt:"
+- "numberWithUnsignedInteger:"
+- "numberWithUnsignedShort:"
+- "objectAtIndex:"
+- "objectAtIndexedSubscript:"
+- "objectForInfoDictionaryKey:"
+- "objectForKey:"
+- "objectForKeyedSubscript:"
+- "objectForSetting:"
+- "observable:didChange:context:"
+- "observeCachingIdentifierWithBlock:"
+- "observeDefault:onQueue:withBlock:"
+- "observeDisallowHomescreenRasterizationWithBlock:"
+- "observeDisallowLockscreenRasterizationWithBlock:"
+- "observeHomescreenAverageColorWithBlock:"
+- "observeHomescreenContentStaticWithBlock:"
+- "observeHomescreenContrastWithBlock:"
+- "observeHomescreenLegibilitySettingsWithBlock:"
+- "observeHomescreenMinimumWallpaperScaleWithBlock:"
+- "observeHomescreenParallaxEnabledWithBlock:"
+- "observeHomescreenParallaxFactorWithBlock:"
+- "observeHomescreenStyleChangesDelayedWithBlock:"
+- "observeHomescreenStyleTransitionStateWithBlock:"
+- "observeHomescreenWallpaperAlphaWithBlock:"
+- "observeHomescreenWallpaperHiddenWithBlock:"
+- "observeHomescreenZoomFactorWithBlock:"
+- "observeLayersWithBlock:"
+- "observeLiveWallpaperInteractiveWithBlock:"
+- "observeLiveWallpaperPlaybackStateWithBlock:"
+- "observeLiveWallpaperTouchActiveWithBlock:"
+- "observeLockscreenAverageColorWithBlock:"
+- "observeLockscreenContentLiveWallpaperWithBlock:"
+- "observeLockscreenContentStaticWithBlock:"
+- "observeLockscreenContrastWithBlock:"
+- "observeLockscreenLegibilitySettingsWithBlock:"
+- "observeLockscreenMinimumWallpaperScaleWithBlock:"
+- "observeLockscreenOnlyWallpaperAlphaWithBlock:"
+- "observeLockscreenParallaxEnabledWithBlock:"
+- "observeLockscreenParallaxFactorWithBlock:"
+- "observeLockscreenStyleTransitionStateWithBlock:"
+- "observeLockscreenWallpaperAlphaWithBlock:"
+- "observeLockscreenWallpaperContentsRectWithBlock:"
+- "observeLockscreenWallpaperHiddenWithBlock:"
+- "observeLockscreenZoomFactorWithBlock:"
+- "observeOtherSetting:withBlock:"
+- "observeValueForKeyPath:ofObject:change:context:"
+- "observeWallpaperAnimationSuspendedWithBlock:"
+- "observeWallpaperRequiredWithBlock:"
+- "observeWallpaperVariantWithBlock:"
+- "observer"
+- "offsetWallpaperBy:"
+- "open"
+- "optionsWithContainerPathProvider:"
+- "optionsWithName:parallaxFactor:zoomScale:supportsCropping:cropRect:portrait:"
+- "optionsWithName:parallaxFactor:zoomScale:supportsCropping:cropRect:portrait:hasVideo:stillTimeInVideo:"
+- "optionsWithName:parallaxFactor:zoomScale:supportsCropping:cropRect:portrait:hasVideo:stillTimeInVideo:wallpaperKitData:"
+- "optionsWithName:parallaxFactor:zoomScale:supportsCropping:cropRect:portrait:hasVideo:stillTimeInVideo:wallpaperMode:wallpaperStatus:"
+- "optionsWithName:parallaxFactor:zoomScale:supportsCropping:cropRect:portrait:hasVideo:stillTimeInVideo:wallpaperMode:wallpaperStatus:wallpaperKitData:"
+- "optionsWithName:parallaxFactor:zoomScale:supportsCropping:cropRect:supportsRotation:rotationAngle:portrait:hasVideo:stillTimeInVideo:wallpaperMode:wallpaperStatus:"
+- "orangeColor"
+- "orderedReasons"
+- "orientationWrapperView"
+- "otherSettings"
+- "outAnimationSettings"
+- "overhangSizeForCurrentDevice"
+- "overhangSizeForDeviceType:"
+- "pairingType"
+- "panGestureRecognizer"
+- "parallaxDeviceType"
+- "parallaxEnabledForVariant:"
+- "parallaxFactorForCropRect:portrait:forImageSize:zoomScale:"
+- "parallaxFactorForVariant:"
+- "parallaxFactorForVariant:wallpaperMode:"
+- "parallaxSettingsForVariant:"
+- "path"
+- "pathExtension"
+- "pathProviderForCurrentContainer"
+- "pathProviderForSystemContainerForCurrentProcess"
+- "pb_activate:"
+- "pb_activate:withCompletion:"
+- "pb_activeVariant"
+- "pb_animationSuspended"
+- "pb_homeAppearanceChanged"
+- "pb_performUpdate:"
+- "pb_setActiveVariant:"
+- "pb_setAnimationSuspended:"
+- "pb_setHomeAppearanceChanged:"
+- "pb_setSignificantEventsCounter:"
+- "pb_significantEventsCounter"
+- "pb_update:"
+- "pb_update:withCompletion:"
+- "pbui_CGImageBackedImage"
+- "pbui_CGImageBackedImageUsingDataProvider"
+- "pbui_CGImageBackedImageWithMaximumBitsPerComponent:"
+- "pbui_CGImageBackedImageWithMaximumBitsPerComponent:skipCIF10FitsInSRGBCheck:"
+- "pbui_EXIFOrientation"
+- "pbui_colorSpace"
+- "pbui_cropImageWithRect:outputSize:"
+- "pbui_cropImageWithRect:outputSize:canUseIOSurface:"
+- "pbui_cropImageWithRect:outputSize:preservingAspectRatio:"
+- "pbui_imageByManipulatingInDeviceColorSpaceWithBlock:"
+- "pbui_imageFromSceneSnapshot:"
+- "pbui_imageHashData"
+- "pbui_imageSnapshotFromLayer:buffer:"
+- "pbui_imageWithIOSurface:"
+- "pbui_imageWithIOSurface:scale:orientation:"
+- "pbui_isBSColor"
+- "pbui_isFileNotFoundError"
+- "pbui_isUIColor"
+- "pbui_resizeImageToSize:"
+- "pbui_resizeImageToSize:preservingAspectRatio:"
+- "pbui_resizedImageForCurrentMagnifyMode"
+- "pbui_scaleImage:"
+- "pbui_scaleImage:canUseIOSurface:"
+- "pbui_thumbnailImageForImage:"
+- "pendingEffectViewImageSlots"
+- "performChanges:"
+- "performMigrationWithFailureHandler:"
+- "performSelector:"
+- "performSelector:withObject:"
+- "performSelector:withObject:withObject:"
+- "performSnapshotOnQueue:scene:completion:"
+- "performUpdate:withCompletion:"
+- "performWithoutAnimation:"
+- "persistentDataRepresentation"
+- "persistentPropertyList"
+- "pf_UUIDFromArbitraryString:"
+- "pf_hexadecimalEncodedString"
+- "pf_replaceURL:withURL:error:"
+- "pf_sha256Hash"
+- "pf_shortDesc"
+- "pf_temporaryDirectoryURL"
+- "pinchGestureRecognizer"
+- "playbackGestureRecognizer"
+- "playbackState"
+- "player"
+- "playerItemWithAsset:targetSize:"
+- "playerViewIsInteractingDidChange:"
+- "playerViewPlaybackStateDidChange:"
+- "playerViewWithRewindPlaybackStyle:"
+- "playerWillRelinquishVideoPlayer:"
+- "portalLayer"
+- "portalProvider"
+- "portalProviderForFloatingLayer"
+- "portalSource"
+- "portalSourceForReplicaView:"
+- "portalSourceProvider"
+- "portalSourceProviderForActiveVariant"
+- "portalSourceProviderForVariant:"
+- "position"
+- "possibleValues:titles:"
+- "postNotificationName:object:"
+- "poster is updating orientation"
+- "posterComponent:didUpdateAdaptiveTimeHonorsPreferredSalientContentRectangle:"
+- "posterComponent:didUpdateDeviceMotionEventsRequested:"
+- "posterComponent:didUpdateDeviceMotionMode:"
+- "posterComponent:didUpdateHideDimmingLayer:"
+- "posterComponent:didUpdateInExtendedRenderSession:"
+- "posterComponent:didUpdateLegibilitySettings:"
+- "posterComponent:didUpdatePreferredDeviceMotionUpdateInterval:"
+- "posterComponent:didUpdatePreferredProminentColor:"
+- "posterComponent:didUpdatePreferredSalientContentRectangle:"
+- "posterComponent:didUpdateSalientContentRectangleUpdatesRequested:"
+- "posterComponentExternalDisplayConfiguration:"
+- "posterDeviceMotionMode"
+- "posterDidUpdateDeviceMotionMode:"
+- "posterDidUpdateWantsMotionEvents:"
+- "posterHandlesWakeAnimation"
+- "posterHasRequestedDeviceMotionEvents"
+- "posterHidesDimmingLayer"
+- "posterIsActive"
+- "posterMigrationInfo"
+- "posterSignificantEventsCounter"
+- "posterStatusContent"
+- "posterStatusLabel"
+- "posterUUID"
+- "posterUpdateHomeScreenSuggestedTintColor:"
+- "posterWantsDefaultParallax"
+- "postprocessNewSnapshot:orSnapshotBundle:colorStatistics:metadata:completion:"
+- "pr_adjustedLuminance"
+- "pr_areMotionEffectsDisabled"
+- "pr_averageColor"
+- "pr_createPosterSceneWithRole:path:"
+- "pr_createPosterSceneWithRole:path:extension:instanceIdentifier:"
+- "pr_createPosterSceneWithRole:path:instance:"
+- "pr_desiredLegibilitySettings"
+- "pr_desiredLegibilitySettingsDidChange"
+- "pr_deviceMotionEventsRequested"
+- "pr_deviceMotionEventsRequestedDidChange"
+- "pr_deviceMotionMode"
+- "pr_deviceMotionModeDidChange"
+- "pr_effectiveMotionEffectsMode"
+- "pr_handlesWakeAnimation"
+- "pr_hideDimmingLayer"
+- "pr_hideDimmingLayerDidChange"
+- "pr_isDepthEffectDisallowed"
+- "pr_loadHomeScreenConfigurationWithError:"
+- "pr_posterConfiguredProperties"
+- "pr_posterPropertiesDidChange"
+- "pr_preferredDeviceMotionUpdateInterval"
+- "pr_preferredDeviceMotionUpdateIntervalDidChange"
+- "pr_preferredProminentColor"
+- "pr_prominentColorDidChange"
+- "pr_requestedRenderingEventTypes"
+- "pr_setAdjustedLuminance:"
+- "pr_setDepthEffectDisallowed:"
+- "pr_setDeviceMotionUpdateInterval:"
+- "pr_setEffectiveMotionEffectsMode:"
+- "pr_setFinishUnlockParameters:"
+- "pr_setPreferredProminentColor:"
+- "pr_setUnlockProgress:"
+- "pr_setWakeSourceIsSwipeToUnlock:"
+- "pr_suggestedTintColor"
+- "pr_supportedMotionEffectsMode"
+- "pr_supportedMotionEffectsModeDidChange"
+- "pr_unlockProgress"
+- "pr_unlockProgressDidChange"
+- "pr_updateSnapshot"
+- "pr_updateWithPath:inSettings:"
+- "precision:"
+- "preferredDeviceMotionUpdateInterval"
+- "preferredProminentColor"
+- "preferredSalientContentRectangle"
+- "preferredTransform"
+- "preheatImageData"
+- "preheatWallpaperForVariant:"
+- "prepareToAnimateToTransitionState:"
+- "prepareToAppear"
+- "prepareToDisappear"
+- "prepareWithPhoto:videoAsset:photoTime:photoEXIFOrientation:"
+- "presentationModeForHomeConfiguration:"
+- "presentationView"
+- "presetWallpaperOptions"
+- "primaryColor"
+- "priorityInfoForPriority:"
+- "proceduralIdentifierForVariant:"
+- "proceduralOptionsForVariant:"
+- "proceduralUserSetForVariant:"
+- "proceduralWallpaperClassForIdentifier:"
+- "proceduralWallpaperInfoForVariant:"
+- "proceduralWallpaperProvider"
+- "processHandle"
+- "processInfo"
+- "productType"
+- "propertyForKey:"
+- "propertyListWithData:options:format:error:"
+- "propertyListWithStream:options:format:error:"
+- "protocolForProtocol:"
+- "providedImageView"
+- "provider"
+- "providerBundleIdentifier"
+- "providerLegibilitySettingsChanged:"
+- "pui_CGImageBackedImage"
+- "pui_CGImageBackedImageUsingDataProvider"
+- "pui_CGImageBackedImageWithMaximumBitsPerComponent:skipCIF10FitsInSRGBCheck:"
+- "pui_adaptiveTimeMode"
+- "pui_adaptiveTimeModeDidChange"
+- "pui_applyToMutableSceneSettings:"
+- "pui_canDetermineProminentColor"
+- "pui_cropImageWithRect:outputSize:canUseIOSurface:"
+- "pui_cropImageWithRect:outputSize:preservingAspectRatio:"
+- "pui_determineProminentColorWithCompletion:"
+- "pui_deviceOrientation"
+- "pui_didFinishInitialization"
+- "pui_executeSnapshotForDescriptor:outputDestination:"
+- "pui_extendedRenderSessionDidChange"
+- "pui_homeScreenLegibilityMaterialView"
+- "pui_imageByManipulatingInDeviceColorSpaceWithBlock:"
+- "pui_imageFromSceneSnapshot:"
+- "pui_imageHashData"
+- "pui_imageSnapshotFromLayer:buffer:"
+- "pui_imageWithIOSurface:"
+- "pui_imageWithIOSurface:scale:orientation:"
+- "pui_inExtendedRenderSession"
+- "pui_invalidateWithCompletion:"
+- "pui_invertColor"
+- "pui_isAdaptiveTimeHeightUserConfigured"
+- "pui_isLegacyProvider"
+- "pui_postSignificantEvent:"
+- "pui_postUserTapEventWithLocation:"
+- "pui_posterContentDidChange"
+- "pui_posterContents"
+- "pui_posterPath"
+- "pui_powerlogIdentifier"
+- "pui_preferredSalientContentRectangle"
+- "pui_preferredSalientContentRectangleDidChange"
+- "pui_provider"
+- "pui_resizeImageToSize:"
+- "pui_resizeImageToSize:preservingAspectRatio:"
+- "pui_salientContentRectangleUpdatesRequested"
+- "pui_salientContentRectangleUpdatesRequestedDidChange"
+- "pui_scaleImage:canUseIOSurface:"
+- "pui_sceneIsReadyToSnapshot:"
+- "pui_setDeviceOrientation:"
+- "pui_setIdle:"
+- "pui_setSalientContentRectangle:"
+- "pui_setSignificantEvent:"
+- "pui_setSignificantEventsCounter:"
+- "pui_setUserInterfaceStyle:"
+- "pui_setWallpaperObscured:"
+- "pui_shortDescription"
+- "pui_significantEventOptions"
+- "pui_significantEventsCounter"
+- "pui_significantEventsCounterDidChange"
+- "pui_userInterfaceStyle"
+- "pui_userTapEventsRequested"
+- "pui_wallpaperColorForName:"
+- "pui_wrappedIOSurface"
+- "purpleColor"
+- "q16@0:8"
+- "q24@0:8@\"<PBUIPosterComponent>\"16"
+- "q24@0:8@16"
+- "q24@0:8Q16"
+- "q24@0:8q16"
+- "q8@?0"
+- "randomize"
+- "reachabilityCoordinator"
+- "reasons"
+- "reasonsSet"
+- "reasonsToNotSnapshot"
+- "reconfigureFromProvider"
+- "reconfigureWithSource:"
+- "reconnectPolicy"
+- "red"
+- "redColor"
+- "reflectsLock"
+- "regenerateStaticWallpaperThumbnailImages"
+- "regenerateThumbnailIfNecessaryForVariant:wallpaperMode:"
+- "regenerateThumbnailsIfNecessary"
+- "registerChangeObserver:context:"
+- "registerForTraitChanges:withAction:"
+- "registerForTraitChanges:withHandler:"
+- "registerPortalSourceObserver:"
+- "registerSnapshotSourceObserver:"
+- "registerSourceObserver:"
+- "release"
+- "reloadValueForKeyPath:"
+- "remoteIrisWallpaperPlayer"
+- "remoteIrisWallpaperPlayer:touchActiveChanged:"
+- "remoteProcess"
+- "remoteRendererIfPossible"
+- "remoteTargetWithLaunchingAssertionAttributes:"
+- "removeAllAnimations"
+- "removeAllDataExceptForType:variants:variantsShareWallpaperConfiguration:"
+- "removeAllDataExceptForTypes:variants:variantsShareWallpaperConfiguration:"
+- "removeAllImagesWithCompletion:"
+- "removeAllMotionEffects"
+- "removeAllObjects"
+- "removeAllObservers"
+- "removeAnimationForKey:"
+- "removeDataForTypes:variants:variantsShareWallpaperConfiguration:"
+- "removeEverythingWithCompletion:"
+- "removeFromSuperview"
+- "removeImageSlotObserver:"
+- "removeItemAtPath:error:"
+- "removeItemAtURL:error:"
+- "removeKeyObserver:"
+- "removeObject:"
+- "removeObjectForKey:"
+- "removeObjectsForKeys:"
+- "removeObserver:"
+- "removeObserver:forKeyPath:context:"
+- "removeObserver:forVariant:"
+- "removeObserver:name:object:"
+- "removePriorityInfoForPriority:"
+- "removeProceduralWallpaperForVariants:"
+- "removeVideoForVariant:"
+- "removeVideoForVariants:"
+- "removeWallpaperColorForVariants:"
+- "removeWallpaperGradientForVariants:"
+- "removeWallpaperImageDataTypes:forVariants:"
+- "removeWallpaperImageHashDataForVariants:"
+- "removeWallpaperImagesForVariants:"
+- "removeWallpaperImagesForVariants:variantsShareWallpaperConfiguration:"
+- "removeWallpaperOptionsForVariants:"
+- "removeWallpaperRequiredAssertion:"
+- "removeWallpaperStyleForPriority:forVariant:"
+- "removeWallpaperStyleForPriority:forVariant:withAnimationFactory:"
+- "removeWallpaperStyleTransitionStateForPriority:"
+- "removeWallpaperVideo"
+- "renderRequest:error:"
+- "renderer"
+- "renderingConfiguration"
+- "renderingServiceEndpoint"
+- "replaceCurrentItemWithPlayerItem:"
+- "replicaProviderForVariant:"
+- "representativeThumbnailImageName"
+- "requestStyle:"
+- "requireWallpaperRasterizationWithReason:"
+- "requireWallpaperWithReason:"
+- "requiresConstraintBasedLayout"
+- "requiresSnapshotTreatment"
+- "resetAllDefaults"
+- "resetCroppingDefaults"
+- "resetDefaults"
+- "resetHasVideoDefaults"
+- "resetImageHashDefaults"
+- "resetLegibilitySettingsForAverageColor:"
+- "resetMagnifyDefaults"
+- "resetNameDefaults"
+- "resetParallaxFactorDefaults"
+- "resetPortraitDefaults"
+- "resetStillTimeInVideoDefaults"
+- "resetWallpaperKitDataDefaults"
+- "resetWithColor:"
+- "resetZoomScaleDefaults"
+- "responderWithHandler:"
+- "respondsToSelector:"
+- "response"
+- "responseForError:"
+- "restoreDefaultWallpaper"
+- "restoreDefaultWallpaperForAllVariantsAndNotify:"
+- "retain"
+- "retainCount"
+- "rootObject"
+- "rootSettings"
+- "rootSettingsClass"
+- "rotateToInterfaceOrientation:"
+- "rotateToInterfaceOrientation:duration:"
+- "rotating"
+- "rowWithTitle:action:"
+- "rowWithTitle:childSettingsKeyPath:"
+- "rowWithTitle:outletKeyPath:"
+- "rowWithTitle:valueKeyPath:"
+- "safeAreaInsets"
+- "safeMigrateWallpaperImageIfNecessary"
+- "safeMigrateWallpaperImageIfNecessaryForVariant:representingVariants:wallpaperMode:"
+- "salientContentRectangle"
+- "salientContentRectangleUpdatesRequested"
+- "sampleImage"
+- "saturationInRect:"
+- "saturationInRect:forVariant:"
+- "saveCroppedVideo:toURL:cropRect:completionHandler:"
+- "scene:clientDidConnect:"
+- "scene:didApplyUpdateWithContext:"
+- "scene:didCompleteUpdateWithContext:error:"
+- "scene:didPrepareUpdateWithContext:"
+- "scene:didReceiveActions:"
+- "scene:didUpdateClientSettings:"
+- "scene:didUpdateClientSettingsWithDiff:oldClientSettings:transitionContext:"
+- "scene:didUpdateSettings:"
+- "scene:handleActions:"
+- "scene:willUpdateSettings:"
+- "scene:willUpdateSettings:withTransitionContext:"
+- "sceneContentStateDidChange:"
+- "sceneDeactivationTimer"
+- "sceneDidActivate:"
+- "sceneDidDeactivate:withContext:"
+- "sceneDidDeactivate:withError:"
+- "sceneDidInvalidate:"
+- "sceneDidInvalidate:withContext:"
+- "sceneID:com.apple.PaperBoard-wallpaper"
+- "sceneLayerManagerDidStartTrackingLayers:"
+- "sceneLayerManagerDidStopTrackingLayers:"
+- "sceneLayerManagerDidUpdateLayers:"
+- "sceneMode"
+- "sceneModeAssertionForViewMode"
+- "sceneModeAssertions"
+- "scenePresentationView"
+- "scenePresenter"
+- "sceneWillActivate:"
+- "sceneWillDeactivate:withContext:"
+- "sceneWillDeactivate:withError:"
+- "scenesForBacklightSession"
+- "scenesForInactiveEnvironmentSession"
+- "scheduledTimerWithTimeInterval:repeats:block:"
+- "schedulerWithDispatchQueue:"
+- "screen"
+- "scrollViewDidChangeAdjustedContentInset:"
+- "scrollViewDidEndDecelerating:"
+- "scrollViewDidEndDragging:willDecelerate:"
+- "scrollViewDidEndScrollingAnimation:"
+- "scrollViewDidEndZooming:withView:atScale:"
+- "scrollViewDidScroll:"
+- "scrollViewDidScrollToTop:"
+- "scrollViewDidZoom:"
+- "scrollViewShouldScrollToTop:"
+- "scrollViewWillBeginDecelerating:"
+- "scrollViewWillBeginDragging:"
+- "scrollViewWillBeginZooming:withView:"
+- "scrollViewWillEndDragging:withVelocity:targetContentOffset:"
+- "secondaryColor"
+- "sectionWithRows:"
+- "sectionWithRows:title:"
+- "sectionWithRows:title:conditionFormat:"
+- "selectedAppearanceType"
+- "self"
+- "sendActions:"
+- "sendResponse:"
+- "sendSubviewToBack:"
+- "sendTelemetryForPosterForegroundChange:posterProviderID:posterPowerlogIdentifier:"
+- "serial"
+- "serverIdentity"
+- "serviceClass:"
+- "serviceQuality"
+- "sessionDidDisconnect"
+- "sessionReconnectDelay"
+- "set"
+- "setActiveOrientation:"
+- "setActiveStyle:"
+- "setActiveStyle:forVariant:"
+- "setActiveVariant:"
+- "setActiveVariant:withOutAnimationFactory:inAnimationFactory:completion:"
+- "setActivelyRequired:"
+- "setActivelyRequiredReasons:"
+- "setActivityMode:"
+- "setActualStyle:"
+- "setAdditive:"
+- "setAdjustsFontSizeToFitWidth:"
+- "setAllowsBackdropGroups:"
+- "setAllowsEdgeAntialiasing:"
+- "setAllowsGroupBlending:"
+- "setAllowsGroupOpacity:"
+- "setAllowsInPlaceFiltering:"
+- "setAlpha:"
+- "setAlpha:forWallpaperVariant:"
+- "setAlwaysBounceHorizontal:"
+- "setAlwaysBounceVertical:"
+- "setAnimationDuration:"
+- "setAnimationFence:"
+- "setAnimationSettings:"
+- "setAnimationsEnabled:"
+- "setAppearanceStorage:"
+- "setAppearanceStyle:"
+- "setAssociatedPosterConfiguration:withAnimationSettings:"
+- "setAudioEnabled:"
+- "setAutomaticallyEnablesParallax:"
+- "setAutoresizingMask:"
+- "setAutoreverses:"
+- "setAverageColor:"
+- "setBackgroundColor:"
+- "setBarStyle:"
+- "setBarTintColor:"
+- "setBarWantsAdaptiveBackdrop:"
+- "setBeginTime:"
+- "setBlurEnabled:"
+- "setBlurMaskingContainer:"
+- "setBlurRadius:"
+- "setBlurView:"
+- "setBorderColor:"
+- "setBorderWidth:"
+- "setBounces:"
+- "setBounds:"
+- "setCacheIdentifier:"
+- "setCachedSnapshotImage:"
+- "setCachedVariantsShareWallpaperConfiguration:"
+- "setCachedVariantsShareWallpaperConfigurationValid:"
+- "setCachingIdentifier:"
+- "setCancelsTouchesInView:"
+- "setCenter:"
+- "setClient:"
+- "setClientIdentity:"
+- "setClippingDisabled:"
+- "setClipsToBounds:"
+- "setColor:"
+- "setColorBoxes:"
+- "setColorData:"
+- "setColorData:forLocations:"
+- "setColorName:"
+- "setColorName:forLocations:"
+- "setColorSamplingDisabled:"
+- "setColorTintView:"
+- "setColors:"
+- "setCompletionBlock:"
+- "setCompositingFilter:"
+- "setConfiguration:withAnimationSettings:"
+- "setContainerOrientation:"
+- "setContentColor:"
+- "setContentInsetAdjustmentBehavior:"
+- "setContentMode:"
+- "setContentOffset:"
+- "setContentOffset:animated:"
+- "setContentOrientation:"
+- "setContentSize:"
+- "setContentView:"
+- "setContents:"
+- "setContentsMultiplyColor:"
+- "setContentsOpaque:"
+- "setContentsRect:"
+- "setContextID:"
+- "setContextID:scene:"
+- "setContinuousColorSamplingEnabled:"
+- "setCounterTransformView:"
+- "setCounterpart:"
+- "setCropRect:"
+- "setCropRect:forLocations:wallpaperMode:"
+- "setCropRect:zoomScale:"
+- "setCropRectangle:atTime:"
+- "setCrossDisplay:"
+- "setDefaultFloatingLayerStandin:"
+- "setDefaultValues"
+- "setDelegate:"
+- "setDerivedProminentColor:"
+- "setDesiredLegibilitySettings:"
+- "setDeviceMotionEventGenerationActive:"
+- "setDeviceMotionUpdateInterval:"
+- "setDeviceOrientation:"
+- "setDevicePitch:"
+- "setDevicePitch:roll:yaw:"
+- "setDeviceRoll:"
+- "setDeviceYaw:"
+- "setDim:animated:"
+- "setDimensionsOfReservedVideoMemory:"
+- "setDisableActions:"
+- "setDisallowHomescreenRasterization:"
+- "setDisallowLockscreenRasterization:"
+- "setDisallowsRasterization:forVariant:withReason:"
+- "setDisplayConfiguration:"
+- "setDisplayedImageHashData:"
+- "setDisplayedImageHashString:"
+- "setDistanceFromScreen:"
+- "setDomain:"
+- "setDownsampleFactor:"
+- "setDuration:"
+- "setEffectConfiguration:"
+- "setEffectWeight:"
+- "setEffectiveStyle:"
+- "setEffectsAreBakedIn:"
+- "setEnableWallpaperDimming:"
+- "setEndPoint:"
+- "setExternalDisplayConfiguration:"
+- "setFakeBlurViewOverrideTraitCollection:"
+- "setFallbackColor:"
+- "setFill"
+- "setFillMode:"
+- "setFilters:"
+- "setFixedAverageColor:"
+- "setFixedOrientation:"
+- "setFlag:"
+- "setFlag:forSetting:"
+- "setFloatingLayerHasStandin:"
+- "setFloatingLayerStandin:"
+- "setFont:"
+- "setForce:"
+- "setForcesOpaque:"
+- "setForeground:"
+- "setFrame:"
+- "setFullscreen:"
+- "setGeneratesBlurredImages:"
+- "setGradient:"
+- "setGradientData:"
+- "setGradientData:forLocations:"
+- "setGrayscaleTintAlpha:"
+- "setGrayscaleTintLevel:"
+- "setGrayscaleTintView:"
+- "setGroupName:"
+- "setGroupNamespace:"
+- "setHandler:"
+- "setHasVideo:"
+- "setHidden:"
+- "setHidesSourceView:"
+- "setHitTestViews:"
+- "setHomeColumnContent:"
+- "setHomeColumnLabel:"
+- "setHomeScreenParallaxSettings:"
+- "setHomeScreenWallpapers:"
+- "setHomescreenAverageColor:"
+- "setHomescreenContentStatic:"
+- "setHomescreenContrast:"
+- "setHomescreenLegibilitySettings:"
+- "setHomescreenMinimumWallpaperScale:"
+- "setHomescreenParallaxEnabled:"
+- "setHomescreenParallaxFactor:"
+- "setHomescreenStyleChangesDelayed:"
+- "setHomescreenStyleTransitionState:"
+- "setHomescreenWallpaperAlpha:"
+- "setHomescreenWallpaperHidden:"
+- "setHomescreenWallpaperScale:withAnimationFactory:"
+- "setHomescreenWallpaperView:"
+- "setHomescreenZoomFactor:"
+- "setHorizontalSlideAccelerationBoostFactor:"
+- "setHudContainerView:"
+- "setHudWindow:"
+- "setIdentifier:"
+- "setImage:"
+- "setImageHash:forLocations:wallpaperMode:"
+- "setImageHashData:"
+- "setImageSlot:"
+- "setImageSlot:forIdentifier:"
+- "setInAnimationSettings:"
+- "setIncreaseEnabled:"
+- "setInstructions:"
+- "setInterface:"
+- "setInterfaceOrientation:"
+- "setInterfaceTarget:"
+- "setInternalObserver:"
+- "setInvalidated:"
+- "setInvalidationHandler:"
+- "setIrisDelegate:"
+- "setIsHUDVisible:"
+- "setJetsamMode:"
+- "setKeyPath:"
+- "setKeyTimes:"
+- "setLandscapeBlurEnabled:"
+- "setLastPosition:"
+- "setLayerInstructions:"
+- "setLegibilitySettings:"
+- "setLiveWallpaperInteractive:"
+- "setLiveWallpaperPlaybackState:"
+- "setLiveWallpaperTouchActive:"
+- "setLoadingTarget:"
+- "setLocationStateObserver:"
+- "setLocations:"
+- "setLockColumnContent:"
+- "setLockColumnLabel:"
+- "setLockScreenParallaxSettings:"
+- "setLockScreenWallpapers:"
+- "setLockscreenAverageColor:"
+- "setLockscreenContentIsLiveWallpaper:"
+- "setLockscreenContentLiveWallpaper:"
+- "setLockscreenContentStatic:"
+- "setLockscreenContrast:"
+- "setLockscreenLegibilitySettings:"
+- "setLockscreenMinimumWallpaperScale:"
+- "setLockscreenOnlyWallpaperAlpha:"
+- "setLockscreenParallaxEnabled:"
+- "setLockscreenParallaxFactor:"
+- "setLockscreenStyleTransitionState:"
+- "setLockscreenWallpaperAlpha:"
+- "setLockscreenWallpaperContentsRect:"
+- "setLockscreenWallpaperHidden:"
+- "setLockscreenWallpaperScale:"
+- "setLockscreenWallpaperScale:withAnimationFactory:"
+- "setLockscreenWallpaperView:"
+- "setLockscreenZoomFactor:"
+- "setLog:"
+- "setLowLatency:"
+- "setMagnifyEnabled:"
+- "setMagnifyEnabled:forLocations:wallpaperMode:"
+- "setMagnifyMode:"
+- "setMask:"
+- "setMaskImage:masksBlur:masksTint:"
+- "setMaskImageView:"
+- "setMatchesPosition:"
+- "setMatchesTransform:"
+- "setMaximumHorizontalTiltAngle:"
+- "setMaximumVerticalTiltAngle:"
+- "setMaximumZoomScale:"
+- "setMinimumPressDuration:"
+- "setMinimumZoomScale:"
+- "setMotionEffectsEnabled:"
+- "setMotionEffectsWithFloating:foreground:background:"
+- "setName:"
+- "setName:forLocations:wallpaperMode:"
+- "setNeedsDimmingTreatment:"
+- "setNeedsInactiveAppearanceTreatment:"
+- "setNeedsLayout"
+- "setNeedsLuminanceTreatment:"
+- "setNeedsNewSnapshot:"
+- "setNeedsProviderUpdate"
+- "setNeedsSandboxExtensions:"
+- "setNeedsSourceUpdate"
+- "setNeedsWallpaperDimmingTreatment:"
+- "setNullificationHandler:"
+- "setNumberOfLines:"
+- "setObject:forKey:"
+- "setObject:forKeyedSubscript:"
+- "setObject:forSetting:"
+- "setObserver:"
+- "setOpacity:"
+- "setOpaque:"
+- "setOrientationWrapperView:"
+- "setOriginalVideoURL:"
+- "setOriginalVideoURL:forVariant:wallpaperMode:"
+- "setOutAnimationSettings:"
+- "setOutputFileType:"
+- "setOutputURL:"
+- "setOverhangX:"
+- "setOverhangY:"
+- "setPanGestureRecognizer:"
+- "setParallaxEnabled:"
+- "setParallaxFactor:"
+- "setParallaxFactor:forLocations:wallpaperMode:"
+- "setPerspectiveTransform:"
+- "setPlayerItem:"
+- "setPortalProvider:"
+- "setPortalSource:"
+- "setPortrait:"
+- "setPortrait:forLocations:wallpaperMode:"
+- "setPosition:"
+- "setPosterIsActive:"
+- "setPosterPreferredProminentColor:"
+- "setPosterStatusContent:"
+- "setPosterStatusLabel:"
+- "setPreferredFrameRateRange:"
+- "setPreferredProminentColor:"
+- "setPreferredProminentColor:chosenColorSource:notifyObservers:"
+- "setPresentedLayerTypes:"
+- "setPriorityInfo:forPriority:"
+- "setProceduralIdentifier:forLocations:"
+- "setProceduralOptions:forLocations:"
+- "setProceduralUserSet:forLocations:"
+- "setProceduralWallpaperIdentifier:options:forVariants:"
+- "setProceduralWallpaperIdentifier:options:locations:"
+- "setProceduralWallpaperInfo:"
+- "setProceduralWallpaperInfo:forVariants:"
+- "setProceduralWallpaperProvider:"
+- "setProvider:"
+- "setQueue:"
+- "setRasterizationScale:"
+- "setReachabilityCoordinator:"
+- "setReason:"
+- "setRemovedOnCompletion:"
+- "setRenderSize:"
+- "setRenderer:"
+- "setRenderingHint:"
+- "setRenderingServiceEndpoint:"
+- "setRepeatCount:"
+- "setRequiresSnapshotTreatment:"
+- "setResetWallpaperOutlet:"
+- "setResourceValue:forKey:error:"
+- "setRootObject:"
+- "setRotating:"
+- "setRotatingSphereRadius:"
+- "setRotation:"
+- "setRotationAngle:"
+- "setSalientContentRectangle:"
+- "setSaturationDeltaFactor:"
+- "setScene:"
+- "setScrollEnabled:"
+- "setScrollsToTop:"
+- "setServer:"
+- "setService:"
+- "setServiceQuality:"
+- "setSharedWallpaperView:"
+- "setSharesContentsAcrossVariants:"
+- "setShouldMatchWallpaperPosition:"
+- "setShouldRasterize:"
+- "setShowsHorizontalScrollIndicator:"
+- "setShowsSnapshot:"
+- "setShowsVerticalScrollIndicator:"
+- "setSize:"
+- "setSlideDirectionX:"
+- "setSlideDirectionY:"
+- "setSlideEnabled:"
+- "setSlideIncreaseX:"
+- "setSlideIncreaseY:"
+- "setSlideMagnitude:"
+- "setSlidePixelsX:"
+- "setSlidePixelsY:"
+- "setSnapshot:"
+- "setSnapshotDeviceOrientation:forURL:"
+- "setSnapshotInterfaceOrientation:forURL:"
+- "setSnapshotProvider:"
+- "setSnapshotSource:"
+- "setSortsSublayers:"
+- "setSourceLayer:"
+- "setSourcePoints:"
+- "setSourceView:"
+- "setSpecification:"
+- "setSpeed:"
+- "setStackingLevel:"
+- "setStartPoint:"
+- "setStillTimeInVideo:"
+- "setStyle:"
+- "setStyleTransitionState:"
+- "setSubscribed:"
+- "setSuperviewBounds:"
+- "setSupportsCropping:"
+- "setSupportsCropping:forLocations:wallpaperMode:"
+- "setSupportsRotation:"
+- "setSupportsWallpaperOptions:"
+- "setTargetQueue:"
+- "setTargetView:"
+- "setText:"
+- "setTextAlignment:"
+- "setTextColor:"
+- "setTiltDegreesX:"
+- "setTiltDegreesY:"
+- "setTiltDirectionX:"
+- "setTiltDirectionY:"
+- "setTiltEnabled:"
+- "setTimeColor:"
+- "setTimeOffset:"
+- "setTimeRange:"
+- "setTimeout:"
+- "setTintMaskingContainer:"
+- "setTitle:"
+- "setTouching:"
+- "setTransform:"
+- "setTransform:atTime:"
+- "setTransformOptions:"
+- "setTransitionBlurView:"
+- "setTransitionColorTintView:"
+- "setTransitionGrayscaleTintView:"
+- "setTransitionState:"
+- "setTransitioningActiveVariant:"
+- "setTranslatesAutoresizingMaskIntoConstraints:"
+- "setTranslucent:"
+- "setType:"
+- "setUnlockProgress:"
+- "setUntreatedWallpaperImage:"
+- "setUrl:"
+- "setUseDimStyle:"
+- "setUseDimmingColorMatrix:"
+- "setUserInterfaceStyle:"
+- "setValue:forKey:"
+- "setValue:forKeyPath:"
+- "setValues:"
+- "setVariant:"
+- "setVariant:withAnimationFactory:"
+- "setVariant:withOutAnimationFactory:inAnimationFactory:completion:"
+- "setVerticalSlideAccelerationBoostFactor:"
+- "setVideoComposition:"
+- "setVideoURL:"
+- "setVideoURL:forVariant:shoudCrop:relativeCropRect:wallpaperMode:"
+- "setVideoURL:forVariant:wallpaperMode:"
+- "setView:"
+- "setWakeSourceIsSwipeToUnlock:"
+- "setWallpaperAnimationEnabled:"
+- "setWallpaperAnimationSuspended:"
+- "setWallpaperColor:"
+- "setWallpaperColor:darkColor:forLocations:"
+- "setWallpaperColor:forVariants:"
+- "setWallpaperColorName:"
+- "setWallpaperColorName:forVariants:"
+- "setWallpaperConfigurationFromDefaultWallpaperConfiguration:forVariants:wallpaperMode:name:"
+- "setWallpaperConfigurationManager:"
+- "setWallpaperDelegate:"
+- "setWallpaperEffectView:"
+- "setWallpaperFloatingLayerContainerView:forReason:withAnimationFactory:"
+- "setWallpaperGradient:"
+- "setWallpaperGradient:forLocations:"
+- "setWallpaperGradient:forVariants:"
+- "setWallpaperHidden:variant:reason:"
+- "setWallpaperIdentifier:"
+- "setWallpaperImage:"
+- "setWallpaperImage:adjustedImage:thumbnailData:imageHashData:wallpaperOptions:forLocations:currentWallpaperMode:"
+- "setWallpaperImage:adjustedImage:thumbnailData:imageHashData:wallpaperOptions:forVariants:wallpaperMode:"
+- "setWallpaperImage:forVariant:wallpaperMode:"
+- "setWallpaperImage:originalImage:forVariants:options:"
+- "setWallpaperImage:originalImage:thumbnailData:imageHashData:wallpaperOptions:forVariants:options:wallpaperMode:isMigrating:"
+- "setWallpaperImage:wallpaperOptions:forVariants:"
+- "setWallpaperImageHashData:"
+- "setWallpaperImageHashData:forVariants:wallpaperMode:"
+- "setWallpaperIsIdle:"
+- "setWallpaperKitData:"
+- "setWallpaperKitData:forLocations:wallpaperMode:"
+- "setWallpaperMode:"
+- "setWallpaperName:"
+- "setWallpaperObscured:"
+- "setWallpaperOptions:"
+- "setWallpaperOptions:forLocations:wallpaperMode:"
+- "setWallpaperOptions:forVariants:"
+- "setWallpaperOptions:forVariants:wallpaperMode:"
+- "setWallpaperOriginalImage:"
+- "setWallpaperOriginalImage:forVariant:wallpaperMode:"
+- "setWallpaperPresentingDelegate:"
+- "setWallpaperRequired:"
+- "setWallpaperStatus:"
+- "setWallpaperStyle:"
+- "setWallpaperStyle:forPriority:forVariant:"
+- "setWallpaperStyle:forPriority:forVariant:withAnimationFactory:"
+- "setWallpaperStyleAnimationAssertion:"
+- "setWallpaperStyleTransitionState:forPriority:"
+- "setWallpaperStyleTransitionState:forPriority:forVariant:withAnimationFactory:"
+- "setWallpaperStyleTransitionState:forVariant:withAnimationFactory:"
+- "setWallpaperThumbnailData:forVariant:"
+- "setWallpaperThumbnailData:forVariant:wallpaperMode:"
+- "setWallpaperThumbnailFromFullsizeImage:forVariant:wallpaperMode:"
+- "setWallpaperThumbnailImage:"
+- "setWallpaperThumbnailImageData:"
+- "setWallpaperVariant:"
+- "setWallpaperWasUserSet:"
+- "setWallpaperWithVideo:sandboxToken:cropRect:wallpaperMode:"
+- "setWeighting:"
+- "setWithArray:"
+- "setWithObject:"
+- "setWithObjects:"
+- "setZPosition:"
+- "setZoomFactor:"
+- "setZoomFactor:withAnimationFactory:"
+- "setZoomScale:"
+- "setZoomScale:animated:"
+- "setZoomScale:forLocations:wallpaperMode:"
+- "settings"
+- "settings:changedValueForKey:"
+- "settingsClass"
+- "settingsControllerModule"
+- "settingsDiff"
+- "settingsForPrivateStyle:graphicsQuality:"
+- "settingsWithDuration:"
+- "shadowColor"
+- "sharedApplication"
+- "sharedConnection"
+- "sharedInstance"
+- "sharedInstanceForStyle:"
+- "sharedWallpaperView"
+- "sharesContentsAcrossVariants"
+- "shouldAutomaticallyForwardAppearanceMethods"
+- "shouldAutorotate"
+- "shouldDelayHomescreenStyleUpdates"
+- "shouldRasterize"
+- "shouldReactivateForSceneMode: %{BOOL}u\nshouldReactivateForEffectImages: %{BOOL}u\n"
+- "shouldSetWallpaperImageHashData"
+- "showHUDIfEnabled"
+- "showsSnapshot"
+- "showsSnapshotWhenIdleForMode:"
+- "signal"
+- "significantEventsCounter"
+- "significantEventsCounterForPosterWithIdentifier:"
+- "sizeForIdentifier:"
+- "sizeThatFits:"
+- "sizeToFit"
+- "snapshotContentDirectory"
+- "snapshotForLevelSet:"
+- "snapshotFormat"
+- "snapshotIfNeeded:reason:"
+- "snapshotImage"
+- "snapshotImageURL"
+- "snapshotInProcessHostConfigurationDescriptorWithWorkQueue:"
+- "snapshotLevelSets"
+- "snapshotMetadata"
+- "snapshotOutOfProcessHostConfigurationDescriptor"
+- "snapshotProvider"
+- "snapshotSource"
+- "snapshotSource:failedToReadColorStatisticsAtURL:error:"
+- "snapshotSource:failedToReadSnapshotAtURL:error:"
+- "snapshotSourceForObserver:"
+- "snapshotSourceProvider"
+- "snapshotSourceProviderForActiveVariant"
+- "snapshotSourceProviderForVariant:"
+- "snapshotSourceReceivedNewSnapshot:"
+- "snapshotURLForLevelSet:"
+- "solidColorAppearance"
+- "sortedArrayUsingSelector:"
+- "source"
+- "sourceView"
+- "specification"
+- "speed"
+- "stablePersistenceIdentifier"
+- "standardUserDefaults"
+- "startAnimation"
+- "startPlaybackWithReason:"
+- "startPlaybackWithStyleWhenReady:"
+- "state"
+- "stateWithTintColorStyle:suggestedTintColor:tintSource:isHomeScreenDimmed:iconSize:iconStyle:iconStyleVariant:lastUserSelectedVariantForStyleTypeOption:"
+- "status"
+- "stillTimeInVideoForVariant:"
+- "stopPlayback"
+- "stopPlaybackWithReason:"
+- "storagePath"
+- "stringByAppendingPathComponent:"
+- "stringByAppendingPathExtension:"
+- "stringByAppendingString:"
+- "stringByDeletingPathExtension"
+- "stringByReplacingOccurrencesOfString:withString:"
+- "stringValue"
+- "stringWithFormat:"
+- "stringWithUTF8String:"
+- "styleStateByUpdatingSuggestedTintColor:"
+- "submoduleWithModule:childSettingsKeyPath:"
+- "subscribed"
+- "substitutionFlatColorForWallpaperName:"
+- "substitutionWallpaperConfigurationForWallpaperConfiguration:"
+- "substringToIndex:"
+- "subviews"
+- "succinctDescription"
+- "succinctDescriptionBuilder"
+- "succinctDescriptionForObject:"
+- "superclass"
+- "superlayer"
+- "superview"
+- "superviewBounds"
+- "supportedInterfaceOrientations"
+- "supportsCroppingForVariant:wallpaperMode:"
+- "supportsLandscapeWallpaperContents"
+- "supportsSecureCoding"
+- "supportsWallpaperImageHashDataStorage"
+- "supportsWallpaperOptions"
+- "suspendColorSamplingForReason:"
+- "suspendWallpaperAnimationForReason:"
+- "switchToIrisMode:"
+- "synchronizeDefaults"
+- "systemBlackColor"
+- "systemOrangeColor"
+- "systemTealColor"
+- "takeInSwitcherAssertionWithReason:"
+- "targetForContextID:"
+- "targetView"
+- "text"
+- "thermalState"
+- "thumbnailDataForImage:"
+- "thumbnailImageForOptions:"
+- "thumbnailWidth"
+- "timeIntervalSinceDate:"
+- "timeOffset"
+- "tintMaskingContainer"
+- "title"
+- "titleStyleConfiguration"
+- "tokenFromAuditToken:"
+- "touchActive"
+- "tracksWithMediaType:"
+- "traitCollection.userInterfaceStyle"
+- "traitCollectionDidChange:"
+- "traitCollectionWithTraitsFromCollections:"
+- "traitCollectionWithUserInterfaceStyle:"
+- "transactionID"
+- "transform"
+- "transformOptions"
+- "transientLocalClientSettings"
+- "transitionBlurView"
+- "transitionColorTintView"
+- "transitionContext"
+- "transitionContextClass"
+- "transitionDuration"
+- "transitionGrayscaleTintView"
+- "transitionToSettings:"
+- "transitioningActiveVariant"
+- "triggerPosterSignificantEvent"
+- "triggerPosterTapEvent:"
+- "triggerSceneUpdate"
+- "uiPresentationManager"
+- "uiSceneMinimumClass"
+- "uiSceneSessionRole"
+- "unarchivedObjectOfClass:fromData:error:"
+- "unfulfilled"
+- "uniqueId"
+- "unload"
+- "unregisterForTraitChanges:"
+- "unsignedIntegerValue"
+- "untreatedWallpaperImage"
+- "unverifiedVideoURLForVariant:wallpaperMode:"
+- "updateActiveVariantTransitionProgress:"
+- "updateAssociatedPosterConfiguration:"
+- "updateAssociatedPosterConfiguration:withAnimationSettings:"
+- "updateBackgroundImage"
+- "updateClientSettingsWithBlock:"
+- "updateClientSettingsWithTransitionBlock:"
+- "updateConfiguration:"
+- "updateConfiguration:withAnimationSettings:"
+- "updateCurrentPosterWithUpdates:error:"
+- "updateDefaultsForLocations:updater:"
+- "updateFromPathProvider:"
+- "updateGradientViewWithGradient:"
+- "updateHomeScene"
+- "updateHomeVariantStyleState"
+- "updateImageFromProviderForWallpaperMode:"
+- "updateImageProviderView:withImage:"
+- "updateImageWithSource:"
+- "updateIrisWallpaperForInteractiveMode"
+- "updateIrisWallpaperForStaticMode"
+- "updateLegacyPoster"
+- "updateLegibilitySettingsForAverageColor:"
+- "updateMotionWithRotation:"
+- "updatePositionWithTime:dx:dy:lockScreen:"
+- "updatePoster:"
+- "updatePosterPreferredProminentColor:error:"
+- "updatePresentation:"
+- "updateProceduralWallpaperDefaultsWithIdentifier:options:forVariant:"
+- "updateSalientContentRectangle:"
+- "updateSettings:"
+- "updateSettings:withTransitionContext:"
+- "updateSettings:withTransitionContext:completion:"
+- "updateSettingsWithBlock:"
+- "updateSettingsWithTransitionBlock:"
+- "updateVariant:lastSnapshotImage:legibilityEnvironmentContext:"
+- "updateViewControllerVisibilityForUnlockProgress:"
+- "updateWallpaperAnimationWithIconFlyInTension:friction:"
+- "updateWallpaperAnimationWithPitch:roll:yaw:"
+- "updateWallpaperAnimationWithProgress:"
+- "updateWallpaperAnimationWithRotation:"
+- "updateWallpaperAnimationWithWakeSourceIsSwipeToUnlock:"
+- "updateWallpaperForLocations:wallpaperMode:withCompletion:"
+- "updateWallpaperForLocations:withCompletion:"
+- "updateWithContext:"
+- "updateWithContext:variants:"
+- "updateWithImage:"
+- "updateWithImage:orImageAtURL:contentColorStatistics:metadata:error:"
+- "updateWithLegibilitySettings:variants:"
+- "updateWithLockSceneActivityMode:homeSceneActivityMode:activeVariant:wallpaperStyle:homeAndLockAreSame:isActivelyRequired:activelyRequiredReasons:assertionReasons:"
+- "updater"
+- "updaterForPath:"
+- "url"
+- "urlForIdentifier:"
+- "useDimmingColorMatrix"
+- "userInitiated"
+- "userInterfaceIdiom"
+- "userMode"
+- "userSelectedVariantsForStyleTypes"
+- "userTapEventsRequested"
+- "v16@0:8"
+- "v16@?0@\"<FBSceneCreating>\"8"
+- "v16@?0@\"BSActionResponse\"8"
+- "v16@?0@\"NSTimer\"8"
+- "v16@?0@\"PBUIMutableWallpaperWindowSceneSettings\"8"
+- "v20@0:8B16"
+- "v20@0:8I16"
+- "v20@0:8f16"
+- "v24@0:8@\"<PBUIFakeBlurObserver>\"16"
+- "v24@0:8@\"<PBUIIrisWallpaperPlayerDelegate>\"16"
+- "v24@0:8@\"<PBUILegibilitySettingsProvider>\"16"
+- "v24@0:8@\"<PBUILegibilitySettingsProviderDelegate>\"16"
+- "v24@0:8@\"<PBUIPosterComponentDelegate>\"16"
+- "v24@0:8@\"<PBUIWallpaperPresentingDelegate>\"16"
+- "v24@0:8@\"BSUIAnimationFactory\"16"
+- "v24@0:8@\"CAAnimation\"16"
+- "v24@0:8@\"FBScene\"16"
+- "v24@0:8@\"FBSceneLayerManager\"16"
+- "v24@0:8@\"ISWrappedAVPlayer\"16"
+- "v24@0:8@\"NSArray\"16"
+- "v24@0:8@\"NSCoder\"16"
+- "v24@0:8@\"NSObject<OS_xpc_object>\"16"
+- "v24@0:8@\"NSString\"16"
+- "v24@0:8@\"PBUIEffectTrackingReplicaView\"16"
+- "v24@0:8@\"PBUIExternalDisplayConfiguration\"16"
+- "v24@0:8@\"PBUIFakeBlurView\"16"
+- "v24@0:8@\"PBUILivePhotoPlayerView\"16"
+- "v24@0:8@\"PBUIURLBackedSnapshotSource\"16"
+- "v24@0:8@\"PBUIWallpaperView\"16"
+- "v24@0:8@\"PLKLegibilityEnvironment\"16"
+- "v24@0:8@\"PUIColorStatistics\"16"
+- "v24@0:8@\"UIColor\"16"
+- "v24@0:8@\"UIGestureRecognizer\"16"
+- "v24@0:8@\"UIScrollView\"16"
+- "v24@0:8@16"
+- "v24@0:8@?16"
+- "v24@0:8@?<v@?@\"UIColor\">16"
+- "v24@0:8B16B20"
+- "v24@0:8Q16"
+- "v24@0:8^{CGImageBlockSet=}16"
+- "v24@0:8d16"
+- "v24@0:8q16"
+- "v28@0:8@\"<PBUIPosterComponent>\"16B24"
+- "v28@0:8@\"CAAnimation\"16B24"
+- "v28@0:8@\"PBUIRemoteIrisWallpaperPlayer\"16B24"
+- "v28@0:8@\"UIScrollView\"16B24"
+- "v28@0:8@16B24"
+- "v28@0:8B16@20"
+- "v28@0:8B16q20"
+- "v28@0:8I16@20"
+- "v28@0:8Q16B24"
+- "v28@0:8d16B24"
+- "v28@0:8q16B24"
+- "v32@0:8@\"<PBUIPosterComponent>\"16@\"UIColor\"24"
+- "v32@0:8@\"<PBUIPosterComponent>\"16@\"_UILegibilitySettings\"24"
+- "v32@0:8@\"<PBUIPosterComponent>\"16Q24"
+- "v32@0:8@\"<PBUIPosterComponent>\"16d24"
+- "v32@0:8@\"<PBUIWallpaperObserver>\"16q24"
+- "v32@0:8@\"FBScene\"16@\"FBSSceneTransitionContext\"24"
+- "v32@0:8@\"FBScene\"16@\"FBSSceneUpdate\"24"
+- "v32@0:8@\"FBScene\"16@\"FBSceneClientHandle\"24"
+- "v32@0:8@\"FBScene\"16@\"FBSceneUpdateContext\"24"
+- "v32@0:8@\"FBScene\"16@\"NSError\"24"
+- "v32@0:8@\"FBScene\"16@\"NSSet\"24"
+- "v32@0:8@\"PBUIDeferredImageSlot\"16@\"UIImage\"24"
+- "v32@0:8@\"PBUIWallpaperConfigurationManager\"16q24"
+- "v32@0:8@\"PBUIWallpaperView\"16d24"
+- "v32@0:8@\"PRSPosterConfiguration\"16@\"BSAnimationSettings\"24"
+- "v32@0:8@\"PTSettings\"16@\"NSString\"24"
+- "v32@0:8@\"UIScrollView\"16@\"UIView\"24"
+- "v32@0:8@\"UIView<PBUIFakeBluring>\"16q24"
+- "v32@0:8@\"_UILegibilitySettings\"16q24"
+- "v32@0:8@16@24"
+- "v32@0:8@16@?24"
+- "v32@0:8@16B24B28"
+- "v32@0:8@16Q24"
+- "v32@0:8@16d24"
+- "v32@0:8@16q24"
+- "v32@0:8@?16@?24"
+- "v32@0:8N^d16N^d24"
+- "v32@0:8Q16@?24"
+- "v32@0:8Q16q24"
+- "v32@0:8^q16^q24"
+- "v32@0:8d16@24"
+- "v32@0:8d16d24"
+- "v32@0:8d16q24"
+- "v32@0:8q16@24"
+- "v32@0:8q16@?24"
+- "v32@0:8q16@?<v@?>24"
+- "v32@0:8q16d24"
+- "v32@0:8q16q24"
+- "v32@0:8{CGPoint=dd}16"
+- "v32@0:8{CGSize=dd}16"
+- "v36@0:8@16@24B32"
+- "v36@0:8B16@20Q28"
+- "v36@0:8B16q20@\"NSString\"28"
+- "v36@0:8B16q20@28"
+- "v36@0:8B16q20q28"
+- "v36@0:8Q16q24B32"
+- "v36@0:8q16q24B32"
+- "v40@0:8:16q24@?32"
+- "v40@0:8@\"BSServiceConnectionListener\"16@\"BSServiceConnection<BSServiceConnectionHost>\"24@\"<BSXPCDecoding>\"32"
+- "v40@0:8@\"FBScene\"16@\"FBSMutableSceneSettings\"24@\"FBSSceneTransitionContext\"32"
+- "v40@0:8@\"FBScene\"16@\"FBSceneUpdateContext\"24@\"NSError\"32"
+- "v40@0:8@\"ISObservable\"16Q24^v32"
+- "v40@0:8@\"NSString\"16@\"NSDictionary\"24@\"NSString\"32"
+- "v40@0:8@\"PBUIURLBackedSnapshotSource\"16@\"NSURL\"24@\"NSError\"32"
+- "v40@0:8@\"UIScrollView\"16@\"UIView\"24d32"
+- "v40@0:8@16@24@32"
+- "v40@0:8@16@24@?32"
+- "v40@0:8@16@24d32"
+- "v40@0:8@16@24q32"
+- "v40@0:8@16@?24@?32"
+- "v40@0:8@16@?24Q32"
+- "v40@0:8@16Q24^v32"
+- "v40@0:8@16q24q32"
+- "v40@0:8Q16q24q32"
+- "v40@0:8d16d24d32"
+- "v40@0:8d16q24q32"
+- "v40@0:8q16@24@32"
+- "v40@0:8q16@?24@?32"
+- "v40@0:8q16Q24q32"
+- "v40@0:8q16q24@?32"
+- "v40@0:8q16q24@?<v@?>32"
+- "v40@0:8q16q24q32"
+- "v40@0:8{?=qqd}16"
+- "v40@0:8{CGSize=dd}16@32"
+- "v44@0:8^{CGImage=}16@24d32i40"
+- "v44@0:8d16d24d32B40"
+- "v48@0:8(?={?=}{?=})16"
+- "v48@0:8@\"FBScene\"16@\"FBSSceneClientSettingsDiff\"24@\"FBSSceneClientSettings\"32@\"FBSSceneTransitionContext\"40"
+- "v48@0:8@\"UIScrollView\"16{CGPoint=dd}24N^{CGPoint=dd}40"
+- "v48@0:8@16@24@32@40"
+- "v48@0:8@16@24@32^v40"
+- "v48@0:8@16{CGPoint=dd}24N^{CGPoint=dd}40"
+- "v48@0:8q16@\"BSUIAnimationFactory\"24@\"BSUIAnimationFactory\"32@?<v@?>40"
+- "v48@0:8q16@24@32@?40"
+- "v48@0:8q16Q24q32@?40"
+- "v48@0:8q16q24@32@?40"
+- "v48@0:8{?=qqd}16q40"
+- "v48@0:8{CGRect={CGPoint=dd}{CGSize=dd}}16"
+- "v52@0:8{CGRect={CGPoint=dd}{CGSize=dd}}16B48"
+- "v56@0:8@\"<PBUIPosterComponent>\"16{CGRect={CGPoint=dd}{CGSize=dd}}24"
+- "v56@0:8@16@24@32@40@?48"
+- "v56@0:8@16@24@32@40o^@48"
+- "v56@0:8@16{CGRect={CGPoint=dd}{CGSize=dd}}24"
+- "v56@0:8q16{CGRect={CGPoint=dd}{CGSize=dd}}24"
+- "v56@0:8{?=B{?=qqd}}16q48"
+- "v56@0:8{CGRect={CGPoint=dd}{CGSize=dd}}16d48"
+- "v60@0:8@\"UIScene\"16@\"FBSScene\"24@\"FBSSceneSettingsDiff\"32@\"FBSSceneSettings\"40@\"FBSSceneTransitionContext\"48I56"
+- "v60@0:8@16@24@32@40@48I56"
+- "v60@0:8o^{CGRect={CGPoint=dd}{CGSize=dd}}16o^d24{CGSize=dd}32B48d52"
+- "v64@0:8@16{CGSize=dd}24q40@48@56"
+- "v64@0:8c16c20q24q32B40B44@48@56"
+- "v64@0:8q16q24q32@40@48@56"
+- "v64@0:8{CGRect={CGPoint=dd}{CGSize=dd}}16q48q56"
+- "v72@0:8@16@24Q32d40B48B52@?56@?64"
+- "v72@0:8@16@24{CGRect={CGPoint=dd}{CGSize=dd}}32@?64"
+- "validateSnapshottingPreconditionsForSettings:result:"
+- "valueDescriptionForFlag:object:ofSetting:"
+- "valueForEntitlement:"
+- "valueWithCAColorMatrix:"
+- "valueWithCGPoint:"
+- "valueWithCGRect:"
+- "valueWithCGSize:"
+- "variantCacheIdentifier"
+- "variants"
+- "variantsShareWallpaper"
+- "variantsShareWallpaperConfiguration"
+- "variantsShareWallpaperConfigurationForTypes:"
+- "verifiedOriginalVideoURLForVariant:wallpaperMode:"
+- "verifiedVideoURLForVariant:wallpaperMode:"
+- "version"
+- "videoCompositionInstruction"
+- "videoCompositionLayerInstructionWithAssetTrack:"
+- "videoCompositionWithPropertiesOfAsset:"
+- "videoFileURL"
+- "videoPlayerForPlayer:"
+- "videoPlayerForPlayerView:"
+- "videoURLForVariant:wallpaperMode:"
+- "view"
+- "viewDidAppear:"
+- "viewDidDisappear:"
+- "viewDidLayoutSubviews"
+- "viewDidLoad"
+- "viewForZoomingInScrollView:"
+- "viewIfLoaded"
+- "viewWillAppear:"
+- "viewWillDisappear:"
+- "viewWillLayoutSubviews"
+- "viewWillTransitionToSize:withTransitionCoordinator:"
+- "wakeSourceIsSwipeToUnlock"
+- "wallpaperAnimationEnabled"
+- "wallpaperAnimationSuspendedReasons"
+- "wallpaperCache"
+- "wallpaperColorDataForVariant:"
+- "wallpaperColorForVariant:"
+- "wallpaperColorForVariant:fromDataStore:colorName:"
+- "wallpaperColorNameForVariant:"
+- "wallpaperConfigurationForUpdatingWallpaperViewsForVariant:wallpaperMode:"
+- "wallpaperConfigurationForVariant:"
+- "wallpaperConfigurationForVariant:includingValuesForTypes:"
+- "wallpaperConfigurationForVariant:includingValuesForTypes:wallpaperMode:"
+- "wallpaperConfigurationManager:didChangeWallpaperConfigurationForVariants:"
+- "wallpaperConfigurationManager:isVideoSupportedForVariant:"
+- "wallpaperConfigurationManager:legibilitySettingsForVariant:"
+- "wallpaperDataTypesToRequestForUpdatingWallpaperViews"
+- "wallpaperDefaults"
+- "wallpaperDefaultsDict"
+- "wallpaperDelegate"
+- "wallpaperDidChangeForVariant:"
+- "wallpaperDidChangeForVariants:shouldNotify:"
+- "wallpaperDidUpdateAdaptiveTimeHonorsPreferredSalientContentRectangle:"
+- "wallpaperDidUpdatePreferredDeviceMotionUpdateInterval:"
+- "wallpaperDidUpdatePreferredProminentColor:"
+- "wallpaperDidUpdatePreferredSalientContentRectangle:"
+- "wallpaperEffectImageForStyle:variant:traitCollection:result:"
+- "wallpaperEffectView"
+- "wallpaperGradientDataForVariant:"
+- "wallpaperGradientForVariant:"
+- "wallpaperIdentifier"
+- "wallpaperImageForVariant:wallpaperMode:"
+- "wallpaperImageHashDataForVariant:wallpaperMode:"
+- "wallpaperImageURLForVariant:wallpaperMode:"
+- "wallpaperKitDataForVariant:wallpaperMode:"
+- "wallpaperLegibilityEnvironmentDidChange:"
+- "wallpaperLegibilityProvider"
+- "wallpaperLegibilitySettingsDidChange:forVariant:"
+- "wallpaperName"
+- "wallpaperOptionsForVariant:wallpaperMode:"
+- "wallpaperOptionsURLForVariant:wallpaperMode:"
+- "wallpaperOriginalImageForVariant:wallpaperMode:"
+- "wallpaperOriginalImageURLForVariant:wallpaperMode:"
+- "wallpaperOriginalVideoURLForVariant:wallpaperMode:"
+- "wallpaperPresenter"
+- "wallpaperPresenter:didChangeWallpaperForLocations:withConfiguration:"
+- "wallpaperPresenter:requestsOrientationWithRefresh:"
+- "wallpaperPresenterDidCompleteWallpaperChange:"
+- "wallpaperPresentingDelegate"
+- "wallpaperRequired"
+- "wallpaperRequiredReasons"
+- "wallpaperSizeIncludingParallaxOverhang"
+- "wallpaperStyle"
+- "wallpaperStyleAnimationAssertion"
+- "wallpaperStyleInfoForVariant:"
+- "wallpaperThumbnailDataForVariant:wallpaperMode:"
+- "wallpaperThumbnailImageDataForFulfillingLookupForConfiguration:"
+- "wallpaperThumbnailImageDataForVariant:wallpaperMode:"
+- "wallpaperThumbnailImageDataForVariant:wallpaperMode:inDataStore:"
+- "wallpaperThumbnailImageForFulfillingLookupForConfiguration:"
+- "wallpaperThumbnailImageForVariant:wallpaperMode:"
+- "wallpaperThumbnailURLForVariant:wallpaperMode:"
+- "wallpaperTypeForSharedWallpaperConfigurationForTypes:"
+- "wallpaperVideoURLForVariant:wallpaperMode:"
+- "wallpaperView:didChangeZoomFactor:"
+- "wallpaperView:wallpaperConfigurationIncludingValueTypes:"
+- "wallpaperViewClassForConfiguration:"
+- "wallpaperViewClassForWallpaperType:"
+- "wallpaperViewDidChangeWantsRasterization:"
+- "wallpaperViewDidInvalidateBlurs:"
+- "wallpaperViewForVariant:"
+- "wallpaperWasUserSet"
+- "wallpaperWillChangeForVariant:"
+- "wallpaperWillChangeForVariants:"
+- "wallpaperWindowScene:didReceivePreheatRequestForVariant:"
+- "wallpaperWindowScene:didReceiveUpdateRequestForLocations:wallpaperMode:completion:"
+- "wallpaperWindowScene:didUpdateHomescreenStyleChangesDelayed:"
+- "wallpaperWindowScene:didUpdateHomescreenStyleTransitionStateTo:from:"
+- "wallpaperWindowScene:didUpdateHomescreenWallpaperAlpha:"
+- "wallpaperWindowScene:didUpdateHomescreenWallpaperHidden:lockscreenWallpaperHidden:"
+- "wallpaperWindowScene:didUpdateLiveWallpaperInteractive:"
+- "wallpaperWindowScene:didUpdateLiveWallpaperTouchActive:"
+- "wallpaperWindowScene:didUpdateLockscreenOnlyWallpaperAlpha:"
+- "wallpaperWindowScene:didUpdateLockscreenStyleTransitionStateTo:from:"
+- "wallpaperWindowScene:didUpdateLockscreenWallpaperAlpha:"
+- "wallpaperWindowScene:didUpdateLockscreenWallpaperContentsRect:"
+- "wallpaperWindowScene:didUpdateRasterizationDisallowedForHomescreen:lockscreen:"
+- "wallpaperWindowScene:didUpdateVariant:inAnimationSettings:outAnimationSettings:"
+- "wallpaperWindowScene:didUpdateWallpaperAnimationSuspended:"
+- "wallpaperWindowScene:didUpdateWallpaperRequired:"
+- "wallpaperWindowScene:requestsWallpaperEffectImageForVariant:style:traitCollection:result:"
+- "wallpaperWindowSceneDidReceiveUpdateAndPrewarmRequest:"
+- "wantsDefaultParallaxTreatment"
+- "wantsRasterization"
+- "warmupForKey:"
+- "weakObjectsHashTable"
+- "weighting"
+- "weightingForEffectView"
+- "whiteColor"
+- "width"
+- "willChangeValueForKey:"
+- "willMoveToSuperview:"
+- "willMoveToWindow:"
+- "willRotateToInterfaceOrientation:"
+- "window"
+- "windowScene"
+- "windowSceneSettings"
+- "workaround_alwaysForceNoTreatment"
+- "wrappedIOSurface"
+- "wrappedVideoPlayerForPlayer:"
+- "writePropertyList:toStream:format:options:error:"
+- "writeThenReadBackImage:error:"
+- "writeToCPBitmapFile:flags:"
+- "writeToFile:atomically:"
+- "writeToURL:error:"
+- "writeToURL:options:error:"
+- "yellowColor"
+- "zone"
+- "zoomFactorForVariant:"
+- "zoomScaleForVariant:wallpaperMode:"
+- "{?=\"backdropStyle\"q\"stackingLevel\"q\"renderingHint\"q\"blurRadius\"d\"saturationDeltaFactor\"d\"grayscaleTintLevel\"d\"grayscaleTintAlpha\"d\"materialStyle\"q}"
+- "{?=\"startStyle\"q\"endStyle\"q\"transitionFraction\"d}"
+- "{?=B{?=qqd}}24@0:8q16"
+- "{?=qqd}16@0:8"
+- "{CGAffineTransform=dddddd}80@0:8{CGAffineTransform=dddddd}16{CGSize=dd}64"
+- "{CGPoint=\"x\"d\"y\"d}"
+- "{CGPoint=dd}16@0:8"
+- "{CGRect=\"origin\"{CGPoint=\"x\"d\"y\"d}\"size\"{CGSize=\"width\"d\"height\"d}}"
+- "{CGRect={CGPoint=dd}{CGSize=dd}}16@0:8"
+- "{CGRect={CGPoint=dd}{CGSize=dd}}32@0:8q16q24"
+- "{CGRect={CGPoint=dd}{CGSize=dd}}92@0:8{CGRect={CGPoint=dd}{CGSize=dd}}16B48d52d60{CGSize=dd}68^d84"
+- "{CGRect={CGPoint=dd}{CGSize=dd}}92@0:8{CGRect={CGPoint=dd}{CGSize=dd}}16B48d52d60{CGSize=dd}68d84"
+- "{CGSize=\"width\"d\"height\"d}"
+- "{CGSize=dd}16@0:8"
+- "{CGSize=dd}24@0:8@16"
+- "{CGSize=dd}24@0:8d16"
+- "{CGSize=dd}24@0:8q16"
+- "{CGSize=dd}28@0:8d16B24"
+- "{CGSize=dd}32@0:8{CGSize=dd}16"
+- "{CGSize=dd}40@0:8{CGSize=dd}16q32"
+- "{CGSize=dd}52@0:8{CGSize=dd}16q32d40B48"
+- "{CGSize=dd}56@0:8{CGSize=dd}16d32q40d48"
+- "{os_unfair_lock_s=\"_os_unfair_lock_opaque\"I}"
+- "\x94"
+- "\xf0\x81"
+- "\xf0\xe1"
+- "\xf0\xf0!"
+- "\xf1"
+
+```

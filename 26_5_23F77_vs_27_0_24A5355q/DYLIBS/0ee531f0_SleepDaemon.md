@@ -1,0 +1,4812 @@
+## SleepDaemon
+
+> `/System/Library/PrivateFrameworks/SleepDaemon.framework/SleepDaemon`
+
+```diff
+
+-6200.6.8.2.1
+-  __TEXT.__text: 0x82158 sha256:fe7665fd82273cbce1d37d5c093868ad4209843224be79c824d0ee35961a3a77
+-  __TEXT.__auth_stubs: 0xff0 sha256:61d1cbabcb6752f69aea80d09b8701a36dae388fba8a94e9cd3c831b75636c56
+-  __TEXT.__objc_methlist: 0x8b14 sha256:2f27ef684dcf741e97f002c231c2d5907f01bafc3a731888938b9d6753313fc3
+-  __TEXT.__const: 0x2a8 sha256:679af9203d467fc4f7b5ea3711602945ec8667da29dc300ce2e8f62d95086a22
+-  __TEXT.__cstring: 0x2acb sha256:c3b7f8ec17fc3f611f3f1bf1516d3cbdf6b637fd7a8ef1e98356df6e62027c6c
+-  __TEXT.__constg_swiftt: 0x80 sha256:7a42eaa0b9dad5155895330cf1aab6e3f71abc1df5c8ad4b1d1750ef4aa47022
+-  __TEXT.__swift5_typeref: 0x3a sha256:d60404df76ac3bce27bb7734a6195c97b689af8ca1b18a89d391a3eeca799525
+-  __TEXT.__swift5_reflstr: 0x5b sha256:40a0dfcfa64e324a94353e4ff11ed0b0ea7915f6ea561be48ad2c4e9777b49c7
+-  __TEXT.__swift5_fieldmd: 0x44 sha256:567884a4076c3cde44e5d99e616c2382bee4cd5f090f677f62bc3c6951a9e684
+-  __TEXT.__swift5_types: 0x8 sha256:7bb91e26c70baca918e5d1d7876d6b0fcd2cd8204c81da8e0e087bb5ce9d28af
+-  __TEXT.__swift5_capture: 0x10 sha256:12019d90313c5ed9799035f6515c21186c26a2e321fa6d66c19ce1413efb44b9
+-  __TEXT.__oslogstring: 0xb9ac sha256:9b3ce6fda8d3ec64b51a6260c52671f92ea89c012c11d2c0e31efda4be656b9e
+-  __TEXT.__gcc_except_tab: 0x119c sha256:9d44a682502314e8fbc55f24a62053b56938cf84dad4a7a91cc22262f511ca68
+-  __TEXT.__unwind_info: 0x2240 sha256:fa05f815b6b0ffcf151f517887fee23847201f2598112e7e9c21b67d2cc3763f
+-  __TEXT.__objc_classname: 0x200f sha256:19cd4d3b1f2169353922fd277a14097c4faad7d5bbcbd4cbb888fb103e299989
+-  __TEXT.__objc_methname: 0x11ee7 sha256:3a92ac166f4268eeda0d41403e45d5040b3e36323a3c00bcf2bdd514ca3fbca1
+-  __TEXT.__objc_methtype: 0x37b8 sha256:23b7fbd55d16d76f3c7a4c3d9f627c60646332d87923cf686c0571d229bdb8fa
+-  __TEXT.__objc_stubs: 0xd800 sha256:24a1d2df85174320dfb25c4b5a60d777fd3f959ce19c645219232a2ba257ff7e
+-  __DATA_CONST.__got: 0xb40 sha256:1c68947627d736454a63c5595da7902c90e02dc0ac2a2ff142121c9b7bf05b89
+-  __DATA_CONST.__const: 0x2498 sha256:81490d730b8046b2a60858952e95f0a5a7669747951f4604df7be39f709da8cb
+-  __DATA_CONST.__objc_classlist: 0x550 sha256:5376a686d5a5cb930e7021bff0f07ddcf5302e53386e706b75b051994184dff0
+-  __DATA_CONST.__objc_catlist: 0x58 sha256:575a1fa1f6eb007933dec5471d4f5b6d5cc496156770642ff5d14d9c198138f2
+-  __DATA_CONST.__objc_protolist: 0x328 sha256:8640b0a7d73ed5c20f23a05ca4c18fedbf7f599e5c4979be4eeb15b835ba0284
+-  __DATA_CONST.__objc_imageinfo: 0x8 sha256:8c2e86a3d61473a17440ee60441113a7d285704a3b70278f03e88b3c356a5493
+-  __DATA_CONST.__objc_selrefs: 0x3e08 sha256:4ae021fe23eaaedae4aedf703077741d45f176b712f6f4a081fda48b18172f53
+-  __DATA_CONST.__objc_protorefs: 0x18 sha256:2140924ff68160c32fb75a6c3aa532ab7d80ac28637ca29891a3dd2156ab89da
+-  __DATA_CONST.__objc_superrefs: 0x360 sha256:5bc048d12c01d60ab7aee1c3fd3f2f54e7fd70170fcbd3625f0b77d93efb482c
+-  __AUTH_CONST.__auth_got: 0x808 sha256:d5fe696dc1aa5c0a800bf800ce8fc6e26ab622c7dd7de4b9fd0c304fe4036256
+-  __AUTH_CONST.__const: 0xd30 sha256:edb02d0b79b93bab6ab9fae3e27015c8414ce617194b0bc61e1ab0ca0ae10a1c
+-  __AUTH_CONST.__cfstring: 0x1ec0 sha256:f099a2d851d3e4e97371933cc1061d3628996112583fc6c27f7be207c96c24ee
+-  __AUTH_CONST.__objc_const: 0x10328 sha256:2488e68b35ac182605acea0e98ce8ba2660f21ede40af13d5bbc32270cd08381
+-  __AUTH_CONST.__objc_intobj: 0x60 sha256:07db674b9f756d255d38b0578fee35f03bfaaadc8324eb641ff3d6fb1f53c096
+-  __AUTH.__objc_data: 0xdb8 sha256:57dbdeaaf5dc19d3470e1945de110ec10e62091e088ef7e9fbad830c02a51d15
+-  __AUTH.__data: 0x50 sha256:55cce3782fe650831ba21f6fe9338adad336456b4fca8d43f0d0df3e11c28252
+-  __DATA.__objc_ivar: 0x5a4 sha256:ce6718e7f6f30625babe234d2aff6137572b7b940cbea84f400a7668f7dd661f
+-  __DATA.__data: 0x2698 sha256:2df323aba2a4e212be1248c94b3b5b2cb177b18d0e6e4c565ff50f74b2dc6594
+-  __DATA.__common: 0x28 sha256:2c34ce1df23b838c5abf2a7f6437cca3d3067ed509ff25f11df6b11b582b51eb
+-  __DATA_DIRTY.__objc_ivar: 0xd0 sha256:f4203d608809aff2b58716aa7792885cf44f9d99474a4d3510a3297141aaeaf5
+-  __DATA_DIRTY.__objc_data: 0x2850 sha256:dd68a8b6e8bcf3d59937d0c416ee8f35b227e3afcf70ab8a417188adba85f60a
+-  __DATA_DIRTY.__bss: 0xb0 sha256:86d2cf5b090f43ee54d8f7c1dcf746a853951191457ff6dac96269a9d24860b9
++7027.0.52.2.6
++  __TEXT.__text: 0x798e8 sha256:11d31a15e94f63f771cd81a0e573c421300b32c40e05542c8e184fdf2c54cdc5
++  __TEXT.__objc_methlist: 0x7ed4 sha256:a5a2a7b391f4803b962b53a6471c9dbf5704df8e26804258f66c33054bec1548
++  __TEXT.__const: 0x3c0 sha256:35b90200f255d1a08bb351211c9002c08f2fc5656c0c026d72fe9c2e506fcef8
++  __TEXT.__swift5_typeref: 0x1d3 sha256:7fcfae714aff55faaf5791c25b00eb182dc2e24a09809d8a8ead72dde4cc5560
++  __TEXT.__swift5_capture: 0x158 sha256:49030daafd7aedd375b939a5fd2f4f6f4b60fc6d676f9d0d328e25db096b1400
++  __TEXT.__oslogstring: 0xb075 sha256:bd6f167ab8cba2a8aa0fb6a5f8022e708243fd17f09b69280d0c08b0dded8c8d
++  __TEXT.__constg_swiftt: 0x130 sha256:31bf5a646a44dc5ef08abd4ff0463816c582c79049ea17a3d7c5fe954f1ac581
++  __TEXT.__swift5_fieldmd: 0x14c sha256:89ff0ff8c78d607b2205266a34dd67ab604f0e68ae248c8a1ede87077c4ac868
++  __TEXT.__swift5_builtin: 0x14 sha256:ce5d642b06bdff684c153ea1df61c781ff4c729690552efeb470e688deadb05b
++  __TEXT.__swift5_reflstr: 0x28b sha256:ac721fb26b3a42699bbd3fa0528dcc8ea8dd087c88039f5e7d5e28dbe4d4436d
++  __TEXT.__swift5_types: 0x14 sha256:be1d1a884d44ca9e97e743e77a1e5660449995420b03c5569c0d890e3a94e328
++  __TEXT.__cstring: 0x253c sha256:36c018982e58eb9ad5c1c962eb7091f68322121c352f0fd1d9f22a39c56b0ba7
++  __TEXT.__gcc_except_tab: 0xa34 sha256:8c688992068f953860f5dee713962d2e0bb527dd379d55e06ef8ab891d9a0c81
++  __TEXT.__unwind_info: 0x2088 sha256:66c7f2192cd06ff2c4b6abe001e1ad68763a9a4d14b27ad9bb539252094d872f
++  __TEXT.__objc_stubs: 0x0
++  __TEXT.__auth_stubs: 0x0
++  __TEXT.__objc_classname: 0x0
++  __TEXT.__objc_methname: 0x0
++  __TEXT.__objc_methtype: 0x0
++  __DATA_CONST.__const: 0x20d0 sha256:1b2b1e09e1ac4faed7b92bf938f7a7f9653b7998535a228904164f7fc61e5ba6
++  __DATA_CONST.__objc_classlist: 0x4f0 sha256:485b18964d6b8123d5ca181a762f2e27f5331fbb642eb9ede97d00bf51f8a927
++  __DATA_CONST.__objc_catlist: 0x48 sha256:eb2db2467b58e127058031eb868c9fe9c7f7aabecbdaae122158225ff8b11291
++  __DATA_CONST.__objc_protolist: 0x338 sha256:a1acc150e83784851973e1021431836d46883639298add64f829483f990ca07a
++  __DATA_CONST.__objc_imageinfo: 0x8 sha256:ce857dcadc2529f941104469975d60698ea3610a86c121e7b4aee224cd0c59ea
++  __DATA_CONST.__objc_selrefs: 0x38a0 sha256:c2141d180a769ae90e2776e50dd7ff634f438248f925148321337ee5a13c923e
++  __DATA_CONST.__objc_protorefs: 0x48 sha256:9d213f110205d66bac89753ea9a4df8a8a5c52f059c7cffcda30eead0f0f5051
++  __DATA_CONST.__objc_superrefs: 0x318 sha256:cec5ebcaa8313a1c0a618cc8752faa73e1b3f6e3016fb8c4e6d8f47cdcacdfc1
++  __DATA_CONST.__got: 0xb30 sha256:3d46da28ba511f37ccb7df256c168ead71b8b2b7dee90ffe10fea719182317f4
++  __AUTH_CONST.__const: 0x1048 sha256:4b4e33d63d8ba79520051d5c2802b24d7505630371c70c9aaec9016b87959dbe
++  __AUTH_CONST.__cfstring: 0x1aa0 sha256:5c1d68abe9619ce6a94c6fa63efdbfb3b6a7a95cf0370f7af55843d6d9740886
++  __AUTH_CONST.__objc_const: 0xf220 sha256:02658b6035a3770445be71ac120627f06fe51c2eddf50aa137f5c0d5591fd00c
++  __AUTH_CONST.__objc_intobj: 0x60 sha256:f5b36d6980b9f03b7b1826a1b1948704ee865a786f40d93f1ebf3ab818b619f6
++  __AUTH_CONST.__auth_got: 0xc88 sha256:125cc4a765aed3bc28e10bff1aae4242c403bd65680a71e30036da1592a40f0d
++  __AUTH.__objc_data: 0xc80 sha256:d6f046c154238acd6f02cee1fa4045cc16be7657aa4d5d07b212020f27791315
++  __AUTH.__data: 0x30 sha256:afd04905bfc1b202ccd38794a4be8d95e67c49e7eb95a72ab192b565e8a14f56
++  __DATA.__objc_ivar: 0x514 sha256:1c64c555b1d059336b46a44488a5dbae7725959643b2a4c123c03a3a9510678f
++  __DATA.__data: 0x2570 sha256:cb82807e1626d64623e4a4958724975dd8df5428a799e7225597bf1ad6a0ff68
++  __DATA.__common: 0x18 sha256:9d908ecfb6b256def8b49a7c504e6c889c4b0e41fe6ce3e01863dd7b61a20aa0
++  __DATA_DIRTY.__objc_ivar: 0xb4 sha256:9faf3d699b83e771535282977ded922bf3f201df9f2a71c57af7a824e76732b1
++  __DATA_DIRTY.__objc_data: 0x2740 sha256:84d76fc0657252c755f3302f3acbbe2a77e8a74d6811394deb1866f323b2e8e5
++  __DATA_DIRTY.__data: 0x2d8 sha256:9d32664d4e1611563cd36ede8cc188d007f4e595d98d0fc2c6b20f69b0f3eb3e
++  __DATA_DIRTY.__common: 0x28 sha256:2c34ce1df23b838c5abf2a7f6437cca3d3067ed509ff25f11df6b11b582b51eb
++  __DATA_DIRTY.__bss: 0xa0 sha256:b393978842a0fa3d3e1470196f098f473f9678e72463cb65ec4ab5581856c2e4
++  - /System/Library/Frameworks/Accessibility.framework/Accessibility
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreMotion.framework/CoreMotion
+   - /System/Library/Frameworks/CoreServices.framework/CoreServices
+
+   - /usr/lib/swift/libswiftCore.dylib
+   - /usr/lib/swift/libswiftCoreFoundation.dylib
+   - /usr/lib/swift/libswiftCoreLocation.dylib
++  - /usr/lib/swift/libswiftCoreMIDI.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
+   - /usr/lib/swift/libswiftObjectiveC.dylib
+   - /usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswiftos.dylib
+-  UUID: 794D9E1D-20F4-3FB2-ADCD-64CC8304D762
+-  Functions: 3032
+-  Symbols:   10784
+-  CStrings:  4863
++  UUID: CBBFF525-A6CE-381D-B3F9-46BEFF1311C3
++  Functions: 2930
++  Symbols:   9936
++  CStrings:  1403
+ 
+Symbols:
++ +[HDSPAnalyticsXPCHelper dailyCollectionActivity]
++ +[HDSPAnalyticsXPCHelper dailyCollectionCriteria]
++ -[HDSPEnvironment initWithBehavior:sleepStorageProvider:sleepScheduleModelManagerProvider:sleepSchedulerProvider:sleepServerProvider:sleepCoordinatorProvider:sleepModeManagerProvider:sleepTrackingManagerProvider:goodMorningAlertManagerProvider:chargingReminderManagerProvider:wakeDetectionManagerProvider:actionManagerProvider:sleepAlarmManagerProvider:healthStoreProvider:contextStoreManagerProvider:biomeManagerProvider:migrationManagerProvider:notificationManagerProvider:notificationListenerProvider:sleepLockScreenManagerProvider:sleepWidgetManagerProvider:idsServiceManagerProvider:diagnosticsProvider:systemMonitorProvider:assertionManager:preferenceChangeListenerProvider:sensitiveUIMonitorProvider:analyticsManagerProvider:userDefaults:fileManager:currentDateProvider:defaultCallbackScheduler:mutexGenerator:]
++ -[HDSPEnvironment preferenceChangeListener]
++ -[HDSPEnvironment setSleepDaemon:]
++ -[HDSPEnvironment sleepDaemon]
++ -[HDSPPreferenceChangeListener .cxx_destruct]
++ -[HDSPPreferenceChangeListener addObserver:]
++ -[HDSPPreferenceChangeListener environmentDidBecomeReady:]
++ -[HDSPPreferenceChangeListener environmentWillBecomeReady:]
++ -[HDSPPreferenceChangeListener environment]
++ -[HDSPPreferenceChangeListener handleLanguageChange]
++ -[HDSPPreferenceChangeListener handleSignificantTimeChange]
++ -[HDSPPreferenceChangeListener handleTimeZoneChange]
++ -[HDSPPreferenceChangeListener initWithEnvironment:]
++ -[HDSPPreferenceChangeListener notificationListener:didReceiveNotificationWithName:]
++ -[HDSPPreferenceChangeListener observers]
++ -[HDSPPreferenceChangeListener removeObserver:]
++ -[HDSPPreferenceChangeListener sourceIdentifier]
++ -[HDSPSleepDaemon shutdownClean:reason:]
++ -[HDSPSleepDaemon shutdownTimerSource]
++ -[HDSPSleepLockScreenManager environmentWillInvalidate:]
++ -[HDSPSleepLockScreenManager isLockScreenSupported]
++ -[HDSPSleepLockScreenStateMachine isLockScreenSupported]
++ -[HDSPSleepStoreServer setConnectionListener:]
++ -[HDSPSleepWidgetBedtimeInProgressState sleepModeDidChange:isUnscheduled:]
++ -[HDSPSleepWidgetNotOnboardedState sleepModeDidChange:isUnscheduled:]
++ -[HDSPSleepWidgetStateMachine sleepModeDidChange:isUnscheduled:]
++ -[HDSPSleepWidgetStateMachineState sleepModeDidChange:isUnscheduled:]
++ -[_HDSPOSTransaction type]
++ -[_HDSPPowerAssertion type]
++ GCC_except_table35
++ GCC_except_table42
++ GCC_except_table46
++ _AXAssistiveAccessEnabled
++ _HKMakeDayIndexRange
++ _HKSPSleepModeChangeReasonTreatedAsUnscheduled
++ _NSStringFromHDSPAssertionType
++ _OBJC_CLASS_$_HDSPAnalyticsXPCHelper
++ _OBJC_CLASS_$_HDSPPreferenceChangeListener
++ _OBJC_CLASS_$_HKCalendarCache
++ _OBJC_CLASS_$_HKQuantitySample
++ _OBJC_CLASS_$_HKSPAnalyticsWindDownEventData
++ _OBJC_CLASS_$_HKSample
++ _OBJC_CLASS_$_NSNull
++ _OBJC_CLASS_$_OS_dispatch_queue
++ _OBJC_CLASS_$__TtC11SleepDaemon26SleepApneaAnalyticsBuilder
++ _OBJC_CLASS_$__TtC11SleepDaemon26SleepScoreAnalyticsBuilder
++ _OBJC_CLASS_$__TtC11SleepDaemon27AnalyticsDailyReportBuilder
++ _OBJC_IVAR_$_HDSPEnvironment._preferenceChangeListener
++ _OBJC_IVAR_$_HDSPEnvironment._sleepDaemon
++ _OBJC_IVAR_$_HDSPPreferenceChangeListener._environment
++ _OBJC_IVAR_$_HDSPPreferenceChangeListener._observers
++ _OBJC_IVAR_$_HDSPSleepDaemon._hasCalledExit
++ _OBJC_IVAR_$_HDSPSleepDaemon._hasStartedCleanShutdown
++ _OBJC_IVAR_$_HDSPSleepDaemon._shutdownTimerSource
++ _OBJC_METACLASS_$_HDSPAnalyticsXPCHelper
++ _OBJC_METACLASS_$_HDSPPreferenceChangeListener
++ _OBJC_METACLASS_$__TtC11SleepDaemon26SleepApneaAnalyticsBuilder
++ _OBJC_METACLASS_$__TtC11SleepDaemon26SleepScoreAnalyticsBuilder
++ _OBJC_METACLASS_$__TtC11SleepDaemon27AnalyticsDailyReportBuilder
++ __Block_copy
++ __Block_release
++ __DATA_HDSPAnalyticsManager
++ __DATA__TtC11SleepDaemon26SleepApneaAnalyticsBuilder
++ __DATA__TtC11SleepDaemon26SleepScoreAnalyticsBuilder
++ __DATA__TtC11SleepDaemon27AnalyticsDailyReportBuilder
++ __INSTANCE_METHODS_HDSPAnalyticsManager
++ __INSTANCE_METHODS__TtC11SleepDaemon26SleepApneaAnalyticsBuilder
++ __INSTANCE_METHODS__TtC11SleepDaemon26SleepScoreAnalyticsBuilder
++ __INSTANCE_METHODS__TtC11SleepDaemon27AnalyticsDailyReportBuilder
++ __IVARS_HDSPAnalyticsManager
++ __IVARS__TtC11SleepDaemon26SleepApneaAnalyticsBuilder
++ __IVARS__TtC11SleepDaemon26SleepScoreAnalyticsBuilder
++ __IVARS__TtC11SleepDaemon27AnalyticsDailyReportBuilder
++ __METACLASS_DATA_HDSPAnalyticsManager
++ __METACLASS_DATA__TtC11SleepDaemon26SleepApneaAnalyticsBuilder
++ __METACLASS_DATA__TtC11SleepDaemon26SleepScoreAnalyticsBuilder
++ __METACLASS_DATA__TtC11SleepDaemon27AnalyticsDailyReportBuilder
++ __OBJC_$_CLASS_METHODS_HDSPAnalyticsXPCHelper
++ __OBJC_$_INSTANCE_METHODS_HDSPPreferenceChangeListener
++ __OBJC_$_INSTANCE_VARIABLES_HDSPPreferenceChangeListener
++ __OBJC_$_PROP_LIST_HDSPPreferenceChangeListener
++ __OBJC_$_PROP_LIST_HDSPSleepLockScreenAssertionManager.479
++ __OBJC_$_PROP_LIST_HKSPAnalyticsEvent
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_HKSPAnalyticsEvent
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_HDSPPreferenceChangeObserver
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_HKSPAnalyticsEvent
++ __OBJC_$_PROTOCOL_METHOD_TYPES_HDSPPreferenceChangeObserver
++ __OBJC_$_PROTOCOL_METHOD_TYPES_HKSPAnalyticsEvent
++ __OBJC_$_PROTOCOL_REFS_HDSPPreferenceChangeObserver
++ __OBJC_$_PROTOCOL_REFS_HKSPAnalyticsEvent
++ __OBJC_CLASS_PROTOCOLS_$_HDSPPreferenceChangeListener
++ __OBJC_CLASS_RO_$_HDSPAnalyticsXPCHelper
++ __OBJC_CLASS_RO_$_HDSPPreferenceChangeListener
++ __OBJC_LABEL_PROTOCOL_$_HDSPPreferenceChangeObserver
++ __OBJC_LABEL_PROTOCOL_$_HKSPAnalyticsEvent
++ __OBJC_METACLASS_RO_$_HDSPAnalyticsXPCHelper
++ __OBJC_METACLASS_RO_$_HDSPPreferenceChangeListener
++ __OBJC_PROTOCOL_$_HDSPPreferenceChangeObserver
++ __OBJC_PROTOCOL_$_HKSPAnalyticsEvent
++ __PROPERTIES_HDSPAnalyticsManager
++ __PROTOCOLS_HDSPAnalyticsManager
++ __PROTOCOLS_HDSPAnalyticsManager.2
++ ___39-[HDSPSleepSessionManager saveSession:]_block_invoke.384
++ ___39-[_HDSPBiomeBridge subscribe:callback:]_block_invoke.474
++ ___40-[HDSPSleepDaemon shutdownClean:reason:]_block_invoke
++ ___42-[HDSPMobileTimerBridge _checkAlarmServer]_block_invoke.365
++ ___42-[HDSPSleepWidgetManager eventIdentifiers]_block_invoke.365
++ ___44-[HDSPEnvironment environmentDidBecomeReady]_block_invoke.491
++ ___46-[HDSPSleepLockScreenManager eventIdentifiers]_block_invoke.365
++ ___47-[HDSPEnvironment environmentShouldMigrateData]_block_invoke.487
++ ___47-[HDSPNotificationListener _registerForStream:]_block_invoke.378
++ ___47-[HDSPSleepActionManager sleepAlarmWasModified]_block_invoke.378
++ ___47-[HDSPSleepActionManager sleepAlarmWasModified]_block_invoke.380
++ ___47-[HDSPSleepActionManager sleepAlarmWasModified]_block_invoke.383
++ ___49-[HDSPSleepEventScheduler _schedulePendingEvents]_block_invoke.440
++ ___49-[HDSPSleepStoreServer processNoLongerSuspended:]_block_invoke.384
++ ___49-[HDSPSleepStoreServer processNoLongerSuspended:]_block_invoke_2.385
++ ___50-[HDSPSleepEventScheduler notifyForOverdueEvents:]_block_invoke.448
++ ___51-[HDSPSleepModeStateMachineState updateStateCommon]_block_invoke.363
++ ___52-[HDSPPreferenceChangeListener handleTimeZoneChange]_block_invoke
++ ___53-[HDSPSleepScheduleStateCoordinator sleepEventIsDue:]_block_invoke.367
++ ___53-[HDSPSleepScheduleStateCoordinator sleepEventIsDue:]_block_invoke.368
++ ___54-[HDSPSleepSessionManager _locked_savePendingSessions]_block_invoke.373
++ ___54-[HKSleepHealthStore(HDSPSleep) hdsp_persistSessions:]_block_invoke.365
++ ___56-[HDSPSleepEventScheduler eventProviderCancelledEvents:]_block_invoke.453
++ ___56-[HDSPSleepLockScreenManager environmentWillInvalidate:]_block_invoke
++ ___56-[HDSPSleepStoreServer _performWhenClientIsReady:block:]_block_invoke.371
++ ___58-[HDSPSleepEventScheduler eventProviderHasUpcomingEvents:]_block_invoke.452
++ ___59-[HDSPPreferenceChangeListener handleSignificantTimeChange]_block_invoke
++ ___60-[HDSPSleepScheduleModelMigrationManager _migrateToCloudKit]_block_invoke.363
++ ___64-[HDSPSleepScheduleModelMigrationManager _migrateHomeScreenPage]_block_invoke.372
++ ___64-[HDSPSleepScheduleStateCoordinatorBedtimeState wakeTimeReached]_block_invoke.365
++ ___73-[HDSPSleepStoreServer sleepScheduleModelManager:didUpdateSleepSchedule:]_block_invoke.377
++ ___73-[HDSPSleepStoreServer sleepScheduleModelManager:didUpdateSleepSettings:]_block_invoke.379
++ ___74-[HDSPSleepLockScreenAssertionManager listener:shouldAcceptNewConnection:]_block_invoke.379
++ ___76-[HDSPSleepStoreServer sleepScheduleModelManager:didUpdateSleepEventRecord:]_block_invoke.380
++ ___77-[HDSPCFUserNotificationCenter _publishWakeDetectionNotificationForUserInfo:]_block_invoke.364
++ ___78-[HDSPSleepScheduleModelMigrationManager _migrateSleepScheduleFromMobileTimer]_block_invoke.367
++ ___86-[HDSPSleepModeManager initWithEnvironment:sleepFocusModeBridge:sleepProactiveBridge:]_block_invoke.372
++ ___block_descriptor_32_e55_"HDSPPreferenceChangeListener"16?0"HDSPEnvironment"8l
++ ___block_descriptor_40_e8_32s_e40_v16?0"<HDSPPreferenceChangeObserver>"8ls32l8
++ ___block_descriptor_64_e8_32s40bs48w56w_e45_v24?0"HKSPXPCClientIdentifier"8"NSError"16lw48l8w56l8s32l8s40l8
++ ___block_literal_global.364
++ ___block_literal_global.365
++ ___block_literal_global.368
++ ___block_literal_global.369
++ ___block_literal_global.372
++ ___block_literal_global.373
++ ___block_literal_global.376
++ ___block_literal_global.380
++ ___block_literal_global.382
++ ___block_literal_global.384
++ ___block_literal_global.388
++ ___block_literal_global.392
++ ___block_literal_global.393
++ ___block_literal_global.413
++ ___block_literal_global.417
++ ___block_literal_global.421
++ ___block_literal_global.425
++ ___block_literal_global.429
++ ___block_literal_global.433
++ ___block_literal_global.443
++ ___block_literal_global.449
++ ___block_literal_global.454
++ ___block_literal_global.458
++ ___block_literal_global.462
++ ___block_literal_global.468
++ ___swift__destructor
++ ___swift__destructor.22
++ ___swift__destructor.4
++ ___swift__destructor.7
++ ___swift_closure_destructor
++ ___swift_closure_destructor.13
++ ___swift_closure_destructor.16
++ ___swift_closure_destructor.25
++ ___swift_closure_destructor.31
++ ___swift_closure_destructor.37
++ ___swift_closure_destructor.43
++ ___swift_closure_destructor.50
++ ___swift_closure_destructor.56
++ ___swift_closure_destructor.62
++ ___swift_closure_destructorTm
++ ___swift_memcpy16_8
++ ___swift_noop_void_return
++ __swiftEmptyDictionarySingleton
++ __swift_FORCE_LOAD_$_swiftCoreMIDI
++ __swift_FORCE_LOAD_$_swiftCoreMIDI_$_SleepDaemon
++ __swift_stdlib_bridgeErrorToNSError
++ _block_copy_helper
++ _block_copy_helper.18
++ _block_copy_helper.27
++ _block_copy_helper.33
++ _block_copy_helper.39
++ _block_copy_helper.45
++ _block_copy_helper.52
++ _block_copy_helper.58
++ _block_copy_helper.64
++ _block_descriptor
++ _block_descriptor.20
++ _block_descriptor.29
++ _block_descriptor.35
++ _block_descriptor.41
++ _block_descriptor.47
++ _block_descriptor.54
++ _block_descriptor.60
++ _block_descriptor.66
++ _block_destroy_helper
++ _block_destroy_helper.19
++ _block_destroy_helper.28
++ _block_destroy_helper.34
++ _block_destroy_helper.40
++ _block_destroy_helper.46
++ _block_destroy_helper.53
++ _block_destroy_helper.59
++ _block_destroy_helper.65
++ _bzero
++ _exit
++ _flat unique So12HDSPActivity_p
++ _free
++ _keypath_get_selector_environment
++ _objc_claimAutoreleasedReturnValue
++ _objc_getProperty
++ _objc_msgSend$handleLanguageChange
++ _objc_msgSend$initWithBehavior:sleepStorageProvider:sleepScheduleModelManagerProvider:sleepSchedulerProvider:sleepServerProvider:sleepCoordinatorProvider:sleepModeManagerProvider:sleepTrackingManagerProvider:goodMorningAlertManagerProvider:chargingReminderManagerProvider:wakeDetectionManagerProvider:actionManagerProvider:sleepAlarmManagerProvider:healthStoreProvider:contextStoreManagerProvider:biomeManagerProvider:migrationManagerProvider:notificationManagerProvider:notificationListenerProvider:sleepLockScreenManagerProvider:sleepWidgetManagerProvider:idsServiceManagerProvider:diagnosticsProvider:systemMonitorProvider:assertionManager:preferenceChangeListenerProvider:sensitiveUIMonitorProvider:analyticsManagerProvider:userDefaults:fileManager:currentDateProvider:defaultCallbackScheduler:mutexGenerator:
++ _objc_msgSend$initWithBool:
++ _objc_msgSend$initWithDouble:
++ _objc_msgSend$initWithInteger:
++ _objc_msgSend$initWithKey:ascending:
++ _objc_msgSend$isLockScreenSupported
++ _objc_msgSend$lock_executeQueryWithActivity:
++ _objc_msgSend$mutexProvider
++ _objc_msgSend$preferenceChangeListener
++ _objc_msgSend$pruneExpiredWindDownActionDataBefore:
++ _objc_msgSend$queryMorningIndexRangeFor:
++ _objc_msgSend$setConnectionListener:
++ _objc_msgSend$setEnvironment:
++ _objc_msgSend$setIsDataCollectionInProgress:
++ _objc_msgSend$setSleepDaemon:
++ _objc_msgSend$shutdownClean:reason:
++ _objc_msgSend$sleepDaemon
++ _objc_msgSend$sleepModeDidChange:isUnscheduled:
++ _objc_msgSend$withLock:
++ _objc_retainAutoreleaseReturnValue
++ _objc_retain_x10
++ _objc_retain_x3
++ _objc_retain_x4
++ _objc_retain_x5
++ _objc_retain_x6
++ _objc_setProperty_atomic
++ _swift_arrayDestroy
++ _swift_arrayInitWithCopy
++ _swift_arrayInitWithTakeBackToFront
++ _swift_arrayInitWithTakeFrontToBack
++ _swift_beginAccess
++ _swift_coroFrameAlloc
++ _swift_deletedMethodError
++ _swift_dynamicCast
++ _swift_dynamicCastObjCClass
++ _swift_dynamicCastObjCClassUnconditional
++ _swift_errorRelease
++ _swift_errorRetain
++ _swift_getExistentialTypeMetadata
++ _swift_getForeignTypeMetadata
++ _swift_getObjCClassFromMetadata
++ _swift_getTupleTypeMetadata2
++ _swift_isUniquelyReferenced_nonNull_bridgeObject
++ _swift_release_x19
++ _swift_release_x20
++ _swift_release_x21
++ _swift_release_x22
++ _swift_release_x23
++ _swift_release_x25
++ _swift_release_x26
++ _swift_release_x28
++ _swift_release_x8
++ _swift_release_x9
++ _swift_retain_x19
++ _swift_retain_x2
++ _swift_retain_x20
++ _swift_retain_x21
++ _swift_retain_x22
++ _swift_retain_x23
++ _swift_retain_x24
++ _swift_retain_x25
++ _swift_retain_x27
++ _swift_retain_x28
++ _swift_unknownObjectWeakAssign
++ _swift_unknownObjectWeakDestroy
++ _swift_unknownObjectWeakInit
++ _swift_unknownObjectWeakLoadStrong
++ _swift_willThrow
++ _symbolic IeyB_
++ _symbolic SaySo8HKSampleCGSg
++ _symbolic SaySo8HKSampleCGSgz_Xx
++ _symbolic Say_____GSg 9HealthKit15SleepDaySummaryV
++ _symbolic Say_____GSgz_Xx 9HealthKit15SleepDaySummaryV
++ _symbolic Sd
++ _symbolic Si
++ _symbolic So10NSCalendarC
++ _symbolic So15HDSPEnvironmentCSgXw
++ _symbolic So17OS_dispatch_groupC
++ _symbolic So20HDSPAnalyticsManagerC
++ _symbolic So20HDSPAnalyticsManagerCSgXw
++ _symbolic So20HDSPAnalyticsManagerCSgXwz_Xx
++ _symbolic So20HDSPAnalyticsManagerCXDXMT
++ _symbolic So25HKFeatureOnboardingRecordCSg
++ _symbolic _____ 11SleepDaemon0A21ApneaAnalyticsBuilderC
++ _symbolic _____ 11SleepDaemon0A21ScoreAnalyticsBuilderC
++ _symbolic _____ 11SleepDaemon27AnalyticsDailyReportBuilderC
++ _symbolic _____ So15HKDayIndexRangea
++ _symbolic _____Sg 10Foundation4DateV
++ _symbolic _____Sg 11SleepDaemon0A21ApneaAnalyticsBuilderC
++ _symbolic _____Sg 11SleepDaemon0A21ScoreAnalyticsBuilderC
++ _symbolic ______p So12HDSPActivityP
++ _symbolic ______pSg s5ErrorP
++ _symbolic ______pSgz_Xx s5ErrorP
++ _symbolic _____yc 10Foundation4DateV
++ _type_layout_string So15HKDayIndexRangea
++ _xpc_transaction_try_exit_clean
+- +[HDSPAnalyticsDailyReportBuilder _stageDurationPercentage:ofTotalDuration:]
+- +[HDSPAnalyticsManager dailyCollectionActivity]
+- +[HDSPAnalyticsManager dailyCollectionCriteria]
+- +[HDSPWakeUpResultsNotification goalAchievedQuantityForCategory:userInfo:]
+- +[HDSPWakeUpResultsNotification goalAchievedUserInfoKeyForCategory:]
+- +[HDSPWakeUpResultsNotification wakeUpResultsNotificationFromUserInfo:]
+- +[HDSPWakeUpResultsNotificationManager retryActivity]
+- +[HDSPWakeUpResultsNotificationManager retryCriteria]
+- +[NSError(HDSPWakeUpResultsNotification) hdsp_insufficientSleepDataError]
+- -[HDSPAnalyticsDailyReportBuilder .cxx_destruct]
+- -[HDSPAnalyticsDailyReportBuilder _biologicalSex]
+- -[HDSPAnalyticsDailyReportBuilder _bucketedSleepDurationLastNight]
+- -[HDSPAnalyticsDailyReportBuilder _changedSchedule:withinNumberOfDays:currentDate:calendar:]
+- -[HDSPAnalyticsDailyReportBuilder _dailyReportEvent]
+- -[HDSPAnalyticsDailyReportBuilder _dateOfLastSuccessfulBreathingDisturbanceAnalysis]
+- -[HDSPAnalyticsDailyReportBuilder _daysWatchWornToSleepOverLastNumberOfDays:excludeWeekdays:calendar:]
+- -[HDSPAnalyticsDailyReportBuilder _didInteractWithWindDownActionsWithinLastTwoDays]
+- -[HDSPAnalyticsDailyReportBuilder _lastNightsDurationForSleepStage:]
+- -[HDSPAnalyticsDailyReportBuilder _lastNightsNumberOfAwakeEvents]
+- -[HDSPAnalyticsDailyReportBuilder _sleepDurationLastNightIncludingAwake:]
+- -[HDSPAnalyticsDailyReportBuilder _userAgeForCurrentDate:]
+- -[HDSPAnalyticsDailyReportBuilder _weeksSinceOnboardDate:currentDate:calendar:]
+- -[HDSPAnalyticsDailyReportBuilder _windDownEvents]
+- -[HDSPAnalyticsDailyReportBuilder _woreWatchToSleepLastNight]
+- -[HDSPAnalyticsDailyReportBuilder analyticsManager]
+- -[HDSPAnalyticsDailyReportBuilder analyticsStore]
+- -[HDSPAnalyticsDailyReportBuilder buildReports]
+- -[HDSPAnalyticsDailyReportBuilder currentDate]
+- -[HDSPAnalyticsDailyReportBuilder daySummaries]
+- -[HDSPAnalyticsDailyReportBuilder environment]
+- -[HDSPAnalyticsDailyReportBuilder healthStore]
+- -[HDSPAnalyticsDailyReportBuilder initWithEnvironment:daySummaries:breathingDisturbanceSamples:sleepApneaEventSamples:sleepApneaFeatureOnboardingRecord:morningIndexRange:]
+- -[HDSPAnalyticsDailyReportBuilder initWithEnvironment:daySummaries:morningIndexRange:]
+- -[HDSPAnalyticsDailyReportBuilder morningIndexRange]
+- -[HDSPAnalyticsDailyReportBuilder sleepApneaAnalyticsBuilder]
+- -[HDSPAnalyticsDailyReportBuilder sleepFocusConfiguration]
+- -[HDSPAnalyticsDailyReportBuilder sleepSchedule]
+- -[HDSPAnalyticsDailyReportBuilder sleepScoreAnalyticsBuilder]
+- -[HDSPAnalyticsDailyReportBuilder sleepSettings]
+- -[HDSPAnalyticsManager .cxx_destruct]
+- -[HDSPAnalyticsManager _lock_executeQuery:]
+- -[HDSPAnalyticsManager _makeReportQueryWithMorningIndexRange:resultsHandler:]
+- -[HDSPAnalyticsManager _processQueryResultsWithSummaries:breathingDisturbanceSamples:sleepApneaEventSamples:sleepApneaFeatureOnboardingRecord:queryRange:error:]
+- -[HDSPAnalyticsManager _pruneExpiredWindDownActionDataBeforeQueryRange:]
+- -[HDSPAnalyticsManager _queryMorningIndexRangeForDate:]
+- -[HDSPAnalyticsManager _submitAnalyticsReportsUsingBuilder:]
+- -[HDSPAnalyticsManager _unit_testing_pruneExpiredWindDownActionData]
+- -[HDSPAnalyticsManager _withLock:]
+- -[HDSPAnalyticsManager analyticsManager]
+- -[HDSPAnalyticsManager cancelDailyCollectionActivity]
+- -[HDSPAnalyticsManager currentDate]
+- -[HDSPAnalyticsManager dataCollectionScheduler]
+- -[HDSPAnalyticsManager environmentDidBecomeReady:]
+- -[HDSPAnalyticsManager environmentWillBecomeReady:]
+- -[HDSPAnalyticsManager environment]
+- -[HDSPAnalyticsManager initWithEnvironment:]
+- -[HDSPAnalyticsManager initWithEnvironment:analyticsManager:dataCollectionScheduler:]
+- -[HDSPAnalyticsManager isDataCollectionEnabled]
+- -[HDSPAnalyticsManager isDataCollectionInProgress]
+- -[HDSPAnalyticsManager mutexProvider]
+- -[HDSPAnalyticsManager notificationListener:didReceiveNotificationWithName:]
+- -[HDSPAnalyticsManager scheduleDailyCollectionActivity]
+- -[HDSPAnalyticsManager significantTimeChangeDetected:]
+- -[HDSPAnalyticsManager updateScheduledActivity]
+- -[HDSPEnvironment initWithBehavior:sleepStorageProvider:sleepScheduleModelManagerProvider:sleepSchedulerProvider:sleepServerProvider:sleepCoordinatorProvider:sleepModeManagerProvider:sleepTrackingManagerProvider:goodMorningAlertManagerProvider:chargingReminderManagerProvider:wakeDetectionManagerProvider:wakeUpResultsNotificationManagerProvider:actionManagerProvider:sleepAlarmManagerProvider:healthStoreProvider:contextStoreManagerProvider:biomeManagerProvider:migrationManagerProvider:notificationManagerProvider:notificationListenerProvider:sleepLockScreenManagerProvider:sleepWidgetManagerProvider:idsServiceManagerProvider:diagnosticsProvider:systemMonitorProvider:assertionManager:timeChangeListenerProvider:sensitiveUIMonitorProvider:analyticsManagerProvider:userDefaults:fileManager:currentDateProvider:defaultCallbackScheduler:mutexGenerator:]
+- -[HDSPEnvironment timeChangeListener]
+- -[HDSPEnvironment wakeUpResultsNotificationManager]
+- -[HDSPSleepApneaAnalyticsBuilder .cxx_destruct]
+- -[HDSPSleepApneaAnalyticsBuilder _areHealthNotificationsAuthorized]
+- -[HDSPSleepApneaAnalyticsBuilder _breathingDisturbanceSamplesInPastNight]
+- -[HDSPSleepApneaAnalyticsBuilder _calculateBreathingDisturbanceValueDependentMetrics]
+- -[HDSPSleepApneaAnalyticsBuilder _isEnabledBD]
+- -[HDSPSleepApneaAnalyticsBuilder _isOnboardedBD]
+- -[HDSPSleepApneaAnalyticsBuilder _maxBDValueInPast30Days]
+- -[HDSPSleepApneaAnalyticsBuilder _maxTimeBetweenBDSessionsPastNight:]
+- -[HDSPSleepApneaAnalyticsBuilder _meanTimeBetweenBDSessionsPastNight:]
+- -[HDSPSleepApneaAnalyticsBuilder _minTimeBetweenBDSessionsPastNight:]
+- -[HDSPSleepApneaAnalyticsBuilder _numBDNotifications:]
+- -[HDSPSleepApneaAnalyticsBuilder _numBDValuesInPast30Days]
+- -[HDSPSleepApneaAnalyticsBuilder _numBDValuesInPastNight:]
+- -[HDSPSleepApneaAnalyticsBuilder _numDaysSinceLastAnalysis]
+- -[HDSPSleepApneaAnalyticsBuilder _numDaysSinceLastBDNotification]
+- -[HDSPSleepApneaAnalyticsBuilder _numSleepDaysWithBDsOverThresholdLast30Days]
+- -[HDSPSleepApneaAnalyticsBuilder _numSleepDaysWithMultipleBDsInTheLast30Days]
+- -[HDSPSleepApneaAnalyticsBuilder _numSleepSessionsWithBDsOverThresholdLast30Days]
+- -[HDSPSleepApneaAnalyticsBuilder _onboardedCountryCode]
+- -[HDSPSleepApneaAnalyticsBuilder _sleepApneaEventSamplesInPastNights:]
+- -[HDSPSleepApneaAnalyticsBuilder _timesBetweenBDSessions:]
+- -[HDSPSleepApneaAnalyticsBuilder _weeksSinceOnboardedBD]
+- -[HDSPSleepApneaAnalyticsBuilder breathingDisturbanceSamples]
+- -[HDSPSleepApneaAnalyticsBuilder currentDateProvider]
+- -[HDSPSleepApneaAnalyticsBuilder dateOfLastAnalysis]
+- -[HDSPSleepApneaAnalyticsBuilder gregorianCalendar]
+- -[HDSPSleepApneaAnalyticsBuilder initWithBreathingDisturbanceSamples:sleepApneaEventSamples:sleepApneaFeatureOnboardingRecord:morningIndexRange:gregorianCalendar:dateOfLastAnalysis:currentDateProvider:]
+- -[HDSPSleepApneaAnalyticsBuilder morningIndexRange]
+- -[HDSPSleepApneaAnalyticsBuilder sleepApneaEventSamples]
+- -[HDSPSleepApneaAnalyticsBuilder sleepApneaFeatureOnboardingRecord]
+- -[HDSPSleepApneaAnalyticsBuilder updateDailyReportWithSleepApneaAnalytics:]
+- -[HDSPSleepStoreServer publishWakeUpResultsNotificationWithCompletion:]
+- -[HDSPSleepWidgetBedtimeInProgressState sleepModeDidChange:isUserRequested:]
+- -[HDSPSleepWidgetNotOnboardedState sleepModeDidChange:isUserRequested:]
+- -[HDSPSleepWidgetStateMachine sleepModeDidChange:isUserRequested:]
+- -[HDSPSleepWidgetStateMachineState sleepModeDidChange:isUserRequested:]
+- -[HDSPTimeChangeListener .cxx_destruct]
+- -[HDSPTimeChangeListener addObserver:]
+- -[HDSPTimeChangeListener environmentDidBecomeReady:]
+- -[HDSPTimeChangeListener environmentWillBecomeReady:]
+- -[HDSPTimeChangeListener environment]
+- -[HDSPTimeChangeListener handleSignificantTimeChange]
+- -[HDSPTimeChangeListener handleTimeZoneChange]
+- -[HDSPTimeChangeListener initWithEnvironment:]
+- -[HDSPTimeChangeListener notificationListener:didReceiveNotificationWithName:]
+- -[HDSPTimeChangeListener observers]
+- -[HDSPTimeChangeListener removeObserver:]
+- -[HDSPTimeChangeListener sourceIdentifier]
+- -[HDSPUserNotificationCenter _wakeUpResultsContentWithUserInfo:]
+- -[HDSPWakeUpResultsNotification .cxx_destruct]
+- -[HDSPWakeUpResultsNotification categoryIdentifier]
+- -[HDSPWakeUpResultsNotification category]
+- -[HDSPWakeUpResultsNotification endMorningIndex]
+- -[HDSPWakeUpResultsNotification goalAchievedUserInfoValue]
+- -[HDSPWakeUpResultsNotification goalAchieved]
+- -[HDSPWakeUpResultsNotification hash]
+- -[HDSPWakeUpResultsNotification identifier]
+- -[HDSPWakeUpResultsNotification initWithCategory:endMorningIndex:goalAchieved:notificationVariant:userFirstName:]
+- -[HDSPWakeUpResultsNotification isEqual:]
+- -[HDSPWakeUpResultsNotification isEqualToNotification:]
+- -[HDSPWakeUpResultsNotification isOneNight]
+- -[HDSPWakeUpResultsNotification notificationVariant]
+- -[HDSPWakeUpResultsNotification userFirstName]
+- -[HDSPWakeUpResultsNotification userInfo]
+- -[HDSPWakeUpResultsNotificationBuilder .cxx_destruct]
+- -[HDSPWakeUpResultsNotificationBuilder _didMeetSleepDurationGoalLastNight]
+- -[HDSPWakeUpResultsNotificationBuilder _notificationForCategory:morningIndexRange:goalAchieved:]
+- -[HDSPWakeUpResultsNotificationBuilder _randomNotificationVariantForCategory:]
+- -[HDSPWakeUpResultsNotificationBuilder _sleepDurationGoalAchievedLastNightNotification]
+- -[HDSPWakeUpResultsNotificationBuilder _sleepDurationGoalAchievedShortWeekNotification]
+- -[HDSPWakeUpResultsNotificationBuilder _sleepDurationGoalAchievedTwoWeekNotification]
+- -[HDSPWakeUpResultsNotificationBuilder buildNotification]
+- -[HDSPWakeUpResultsNotificationBuilder daySummaries]
+- -[HDSPWakeUpResultsNotificationBuilder hasSufficientSleepData]
+- -[HDSPWakeUpResultsNotificationBuilder initWithDaySummaries:morningIndexRange:userFirstName:]
+- -[HDSPWakeUpResultsNotificationBuilder morningIndexRange]
+- -[HDSPWakeUpResultsNotificationBuilder userFirstName]
+- -[HDSPWakeUpResultsNotificationDelayingForTrackingState expirationDate]
+- -[HDSPWakeUpResultsNotificationDelayingForTrackingState schedulesExpiration]
+- -[HDSPWakeUpResultsNotificationDelayingForTrackingState stateDidExpire]
+- -[HDSPWakeUpResultsNotificationDelayingForTrackingState stateName]
+- -[HDSPWakeUpResultsNotificationDisabledState stateName]
+- -[HDSPWakeUpResultsNotificationDisabledState updateState]
+- -[HDSPWakeUpResultsNotificationLocalizer .cxx_destruct]
+- -[HDSPWakeUpResultsNotificationLocalizer _embeddedNameLocalizedStringKey]
+- -[HDSPWakeUpResultsNotificationLocalizer _embeddedNameSubstitutionStringKey]
+- -[HDSPWakeUpResultsNotificationLocalizer _localizedBodyForOneDayNotificationWithError:]
+- -[HDSPWakeUpResultsNotificationLocalizer _localizedBodyForOneWeekDayNotificationWithError:]
+- -[HDSPWakeUpResultsNotificationLocalizer _localizedBodyForTwoWeekNotificationWithError:]
+- -[HDSPWakeUpResultsNotificationLocalizer _localizedStringKeyBase]
+- -[HDSPWakeUpResultsNotificationLocalizer _regularLocalizedStringKey]
+- -[HDSPWakeUpResultsNotificationLocalizer _regularSubstitutionStringKey]
+- -[HDSPWakeUpResultsNotificationLocalizer category]
+- -[HDSPWakeUpResultsNotificationLocalizer dailySleepDurationGoal]
+- -[HDSPWakeUpResultsNotificationLocalizer healthStore]
+- -[HDSPWakeUpResultsNotificationLocalizer initWithNotification:healthStore:]
+- -[HDSPWakeUpResultsNotificationLocalizer localizedBody]
+- -[HDSPWakeUpResultsNotificationLocalizer localizedTitle]
+- -[HDSPWakeUpResultsNotificationLocalizer notificationVariant]
+- -[HDSPWakeUpResultsNotificationLocalizer notification]
+- -[HDSPWakeUpResultsNotificationLocalizer userFirstName]
+- -[HDSPWakeUpResultsNotificationLocalizer weeklyGoalAchieved]
+- -[HDSPWakeUpResultsNotificationManager .cxx_destruct]
+- -[HDSPWakeUpResultsNotificationManager _currentState]
+- -[HDSPWakeUpResultsNotificationManager _fetchSleepDaySummariesForMorningIndexRange:healthStore:]
+- -[HDSPWakeUpResultsNotificationManager _fetchUserFirstNameWithHealthStore:]
+- -[HDSPWakeUpResultsNotificationManager _isDelayingForTracking]
+- -[HDSPWakeUpResultsNotificationManager _lock_startQuery]
+- -[HDSPWakeUpResultsNotificationManager _sleepDaySummariesFromResult:error:]
+- -[HDSPWakeUpResultsNotificationManager _sleepScheduleModel]
+- -[HDSPWakeUpResultsNotificationManager _trackingDelayDuration]
+- -[HDSPWakeUpResultsNotificationManager _updateState]
+- -[HDSPWakeUpResultsNotificationManager _userFirstNameFromResult:]
+- -[HDSPWakeUpResultsNotificationManager _withLock:]
+- -[HDSPWakeUpResultsNotificationManager currentDate]
+- -[HDSPWakeUpResultsNotificationManager diagnosticDescription]
+- -[HDSPWakeUpResultsNotificationManager environmentDidBecomeReady:]
+- -[HDSPWakeUpResultsNotificationManager environmentWillBecomeReady:]
+- -[HDSPWakeUpResultsNotificationManager environment]
+- -[HDSPWakeUpResultsNotificationManager eventIdentifiers]
+- -[HDSPWakeUpResultsNotificationManager executeQuery]
+- -[HDSPWakeUpResultsNotificationManager initWithEnvironment:]
+- -[HDSPWakeUpResultsNotificationManager initWithEnvironment:retryAttemptScheduler:]
+- -[HDSPWakeUpResultsNotificationManager isWakeUpResultsNotificationEnabled]
+- -[HDSPWakeUpResultsNotificationManager lastWakeUpResultsIntroductionNotificationVersionSent]
+- -[HDSPWakeUpResultsNotificationManager mutexProvider]
+- -[HDSPWakeUpResultsNotificationManager needsSleepScoreIntroduction]
+- -[HDSPWakeUpResultsNotificationManager notificationAttemptWindowForWakeUpBeforeDate:]
+- -[HDSPWakeUpResultsNotificationManager notificationListener:didReceiveNotificationWithName:]
+- -[HDSPWakeUpResultsNotificationManager performImmediateQueryForNotification]
+- -[HDSPWakeUpResultsNotificationManager postResultsNotification]
+- -[HDSPWakeUpResultsNotificationManager providerIdentifier]
+- -[HDSPWakeUpResultsNotificationManager queryResultFuture]
+- -[HDSPWakeUpResultsNotificationManager retryAttemptScheduler]
+- -[HDSPWakeUpResultsNotificationManager scheduleRetryAttempt]
+- -[HDSPWakeUpResultsNotificationManager scheduleStateExpiration]
+- -[HDSPWakeUpResultsNotificationManager setSleepEventDelegate:]
+- -[HDSPWakeUpResultsNotificationManager significantTimeChangeDetected:]
+- -[HDSPWakeUpResultsNotificationManager sleepEventDelegate]
+- -[HDSPWakeUpResultsNotificationManager sleepEventIsDue:]
+- -[HDSPWakeUpResultsNotificationManager sleepMetricsEngine]
+- -[HDSPWakeUpResultsNotificationManager sleepScheduleModelManager:didUpdateSleepScheduleModel:]
+- -[HDSPWakeUpResultsNotificationManager sleepScheduleStateDidChange:previousState:reason:]
+- -[HDSPWakeUpResultsNotificationManager startObservingProtectedHealthDataAvailability]
+- -[HDSPWakeUpResultsNotificationManager stateMachine]
+- -[HDSPWakeUpResultsNotificationManager stopObservingProtectedHealthDataAvailability]
+- -[HDSPWakeUpResultsNotificationManager unscheduleRetryAttempt]
+- -[HDSPWakeUpResultsNotificationManager unscheduleStateExpiration]
+- -[HDSPWakeUpResultsNotificationManager upcomingEventsDueAfterDate:]
+- -[HDSPWakeUpResultsNotificationNeedsProtectedDataState _transitionToQueryingState]
+- -[HDSPWakeUpResultsNotificationNeedsProtectedDataState didEnter]
+- -[HDSPWakeUpResultsNotificationNeedsProtectedDataState didExit]
+- -[HDSPWakeUpResultsNotificationNeedsProtectedDataState expirationDate]
+- -[HDSPWakeUpResultsNotificationNeedsProtectedDataState protectedHealthDataDidBecomeAvailable]
+- -[HDSPWakeUpResultsNotificationNeedsProtectedDataState stateName]
+- -[HDSPWakeUpResultsNotificationNotifiedState didEnter]
+- -[HDSPWakeUpResultsNotificationNotifiedState didPostResultsNotification]
+- -[HDSPWakeUpResultsNotificationNotifiedState expirationDate]
+- -[HDSPWakeUpResultsNotificationNotifiedState stateName]
+- -[HDSPWakeUpResultsNotificationQueryingState _executeQuery]
+- -[HDSPWakeUpResultsNotificationQueryingState _retryQueryIfNeededOrTransitionToNeedsProtectedDataState]
+- -[HDSPWakeUpResultsNotificationQueryingState _transitionToNotifiedState]
+- -[HDSPWakeUpResultsNotificationQueryingState _transitionToRetryState]
+- -[HDSPWakeUpResultsNotificationQueryingState _transitionToWaitingForWakeUpState]
+- -[HDSPWakeUpResultsNotificationQueryingState didEnter]
+- -[HDSPWakeUpResultsNotificationQueryingState didExit]
+- -[HDSPWakeUpResultsNotificationQueryingState expirationDate]
+- -[HDSPWakeUpResultsNotificationQueryingState initWithCoder:]
+- -[HDSPWakeUpResultsNotificationQueryingState protectedHealthDataDidBecomeAvailable]
+- -[HDSPWakeUpResultsNotificationQueryingState queryDidComplete]
+- -[HDSPWakeUpResultsNotificationQueryingState queryDidFailWithError:]
+- -[HDSPWakeUpResultsNotificationQueryingState schedulesExpiration]
+- -[HDSPWakeUpResultsNotificationQueryingState stateName]
+- -[HDSPWakeUpResultsNotificationStateMachine .cxx_destruct]
+- -[HDSPWakeUpResultsNotificationStateMachine allStates]
+- -[HDSPWakeUpResultsNotificationStateMachine delayingForTrackingState]
+- -[HDSPWakeUpResultsNotificationStateMachine didPostResultsNotification]
+- -[HDSPWakeUpResultsNotificationStateMachine disabledState]
+- -[HDSPWakeUpResultsNotificationStateMachine executeQuery]
+- -[HDSPWakeUpResultsNotificationStateMachine initWithIdentifier:persistence:delegate:infoProvider:currentDateProvider:]
+- -[HDSPWakeUpResultsNotificationStateMachine isDelayingForTracking]
+- -[HDSPWakeUpResultsNotificationStateMachine isWaitingForWakeUp]
+- -[HDSPWakeUpResultsNotificationStateMachine loggingCategory]
+- -[HDSPWakeUpResultsNotificationStateMachine needsProtectedDataState]
+- -[HDSPWakeUpResultsNotificationStateMachine notifiedState]
+- -[HDSPWakeUpResultsNotificationStateMachine postResultsNotification]
+- -[HDSPWakeUpResultsNotificationStateMachine protectedHealthDataDidBecomeAvailable]
+- -[HDSPWakeUpResultsNotificationStateMachine queryDidComplete]
+- -[HDSPWakeUpResultsNotificationStateMachine queryDidFailWithError:]
+- -[HDSPWakeUpResultsNotificationStateMachine queryingState]
+- -[HDSPWakeUpResultsNotificationStateMachine retryAttemptEventDue]
+- -[HDSPWakeUpResultsNotificationStateMachine scheduleRetryAttempt]
+- -[HDSPWakeUpResultsNotificationStateMachine startObservingProtectedHealthDataAvailability]
+- -[HDSPWakeUpResultsNotificationStateMachine stopObservingProtectedHealthDataAvailability]
+- -[HDSPWakeUpResultsNotificationStateMachine unscheduleRetryAttempt]
+- -[HDSPWakeUpResultsNotificationStateMachine waitingForRetryState]
+- -[HDSPWakeUpResultsNotificationStateMachine waitingForWakeUpState]
+- -[HDSPWakeUpResultsNotificationStateMachine wakeUpDidOccur]
+- -[HDSPWakeUpResultsNotificationStateMachineState didPostResultsNotification]
+- -[HDSPWakeUpResultsNotificationStateMachineState infoProvider]
+- -[HDSPWakeUpResultsNotificationStateMachineState isNotificationEnabled]
+- -[HDSPWakeUpResultsNotificationStateMachineState protectedHealthDataDidBecomeAvailable]
+- -[HDSPWakeUpResultsNotificationStateMachineState queryDidComplete]
+- -[HDSPWakeUpResultsNotificationStateMachineState queryDidFailWithError:]
+- -[HDSPWakeUpResultsNotificationStateMachineState retryAttemptEventDue]
+- -[HDSPWakeUpResultsNotificationStateMachineState stateDidExpire]
+- -[HDSPWakeUpResultsNotificationStateMachineState updateState]
+- -[HDSPWakeUpResultsNotificationStateMachineState wakeUpDidOccur]
+- -[HDSPWakeUpResultsNotificationWaitingForRetryState didEnter]
+- -[HDSPWakeUpResultsNotificationWaitingForRetryState didExit]
+- -[HDSPWakeUpResultsNotificationWaitingForRetryState expirationDate]
+- -[HDSPWakeUpResultsNotificationWaitingForRetryState retryAttemptEventDue]
+- -[HDSPWakeUpResultsNotificationWaitingForRetryState stateName]
+- -[HDSPWakeUpResultsNotificationWaitingForWakeUpState _transitionToDelayingForTrackingState]
+- -[HDSPWakeUpResultsNotificationWaitingForWakeUpState stateName]
+- -[HDSPWakeUpResultsNotificationWaitingForWakeUpState wakeUpDidOccur]
+- -[HKSleepDaySummary(Analytics) hdsp_enumerateFirstPartyWatchSleepTrackingSegmentsWithBlock:]
+- -[NSError(HDSPWakeUpResultsNotification) hdsp_isInsufficientSleepDataError]
+- GCC_except_table17
+- GCC_except_table26
+- GCC_except_table32
+- GCC_except_table34
+- GCC_except_table43
+- GCC_except_table44
+- GCC_except_table45
+- GCC_except_table48
+- GCC_except_table55
+- GCC_except_table62
+- GCC_except_table63
+- _HDSPAnalyticsDailyReportSummaryDayCount
+- _HDSPWakeUpResultsCategoryIdentifier
+- _HDSPWakeUpResultsCategoryVariations
+- _HDSPWakeUpResultsNotificationAttemptDuration
+- _HDSPWakeUpResultsNotificationDaySummaryCount
+- _HDSPWakeUpResultsNotificationErrorDomain
+- _HKCategoryValueSleepAnalysisAsleepValues
+- _HKProtectedHealthDatabaseDidBecomeAvailableNotification
+- _HKSPOneDayCoachingCategory
+- _HKSPOneWeekCoachingCategory
+- _HKSPSleepEventIdentifierWakeUpResultsNotification
+- _HKSPTwoWeekCoachingCategory
+- _HKSPWakeUpResultsIdentifier
+- _HKSPWakeUpResultsNotificationCategoryUserInfoKey
+- _HKSPWakeUpResultsNotificationEmbeddedFirstNameUserInfoKey
+- _HKSPWakeUpResultsNotificationEndMorningIndexUserInfoKey
+- _HKSPWakeUpResultsNotificationSleepDurationGoalAchievedCountUserInfoKey
+- _HKSPWakeUpResultsNotificationSleepGoalDurationUserInfoKey
+- _HKSPWakeUpResultsNotificationVariantUserInfoKey
+- _HKSensitiveLogItem
+- _HKShowSensitiveLogItems
+- _NSCalendarIdentifierGregorian
+- _NSLocalizedDescriptionKey
+- _OBJC_CLASS_$_HDSPAnalyticsDailyReportBuilder
+- _OBJC_CLASS_$_HDSPSleepApneaAnalyticsBuilder
+- _OBJC_CLASS_$_HDSPTimeChangeListener
+- _OBJC_CLASS_$_HDSPWakeUpResultsNotification
+- _OBJC_CLASS_$_HDSPWakeUpResultsNotificationBuilder
+- _OBJC_CLASS_$_HDSPWakeUpResultsNotificationDelayingForTrackingState
+- _OBJC_CLASS_$_HDSPWakeUpResultsNotificationDisabledState
+- _OBJC_CLASS_$_HDSPWakeUpResultsNotificationLocalizer
+- _OBJC_CLASS_$_HDSPWakeUpResultsNotificationManager
+- _OBJC_CLASS_$_HDSPWakeUpResultsNotificationNeedsProtectedDataState
+- _OBJC_CLASS_$_HDSPWakeUpResultsNotificationNotifiedState
+- _OBJC_CLASS_$_HDSPWakeUpResultsNotificationQueryingState
+- _OBJC_CLASS_$_HDSPWakeUpResultsNotificationStateMachine
+- _OBJC_CLASS_$_HDSPWakeUpResultsNotificationStateMachineState
+- _OBJC_CLASS_$_HDSPWakeUpResultsNotificationWaitingForRetryState
+- _OBJC_CLASS_$_HDSPWakeUpResultsNotificationWaitingForWakeUpState
+- _OBJC_CLASS_$_HKQuantity
+- _OBJC_CLASS_$_HKSHSleepScoreResultsNotificationBuilder
+- _OBJC_CLASS_$_HKSleepDaySummary
+- _OBJC_CLASS_$_HKSleepDaySummaryCacheSettings
+- _OBJC_CLASS_$_HKSleepDaySummaryQuery
+- _OBJC_CLASS_$_HKSleepMetricsEngine
+- _OBJC_CLASS_$_NSNumberFormatter
+- _OBJC_CLASS_$__TtC11SleepDaemon30HDSPSleepScoreAnalyticsBuilder
+- _OBJC_IVAR_$_HDSPAnalyticsDailyReportBuilder._daySummaries
+- _OBJC_IVAR_$_HDSPAnalyticsDailyReportBuilder._environment
+- _OBJC_IVAR_$_HDSPAnalyticsDailyReportBuilder._morningIndexRange
+- _OBJC_IVAR_$_HDSPAnalyticsDailyReportBuilder._sleepApneaAnalyticsBuilder
+- _OBJC_IVAR_$_HDSPAnalyticsDailyReportBuilder._sleepScoreAnalyticsBuilder
+- _OBJC_IVAR_$_HDSPAnalyticsManager._analyticsManager
+- _OBJC_IVAR_$_HDSPAnalyticsManager._dataCollectionScheduler
+- _OBJC_IVAR_$_HDSPAnalyticsManager._environment
+- _OBJC_IVAR_$_HDSPAnalyticsManager._isDataCollectionInProgress
+- _OBJC_IVAR_$_HDSPAnalyticsManager._mutexProvider
+- _OBJC_IVAR_$_HDSPEnvironment._timeChangeListener
+- _OBJC_IVAR_$_HDSPEnvironment._wakeUpResultsNotificationManager
+- _OBJC_IVAR_$_HDSPSleepApneaAnalyticsBuilder._breathingDisturbanceSamples
+- _OBJC_IVAR_$_HDSPSleepApneaAnalyticsBuilder._currentDateProvider
+- _OBJC_IVAR_$_HDSPSleepApneaAnalyticsBuilder._dateOfLastAnalysis
+- _OBJC_IVAR_$_HDSPSleepApneaAnalyticsBuilder._gregorianCalendar
+- _OBJC_IVAR_$_HDSPSleepApneaAnalyticsBuilder._maximumBDValueInPast30Days
+- _OBJC_IVAR_$_HDSPSleepApneaAnalyticsBuilder._morningIndexRange
+- _OBJC_IVAR_$_HDSPSleepApneaAnalyticsBuilder._numSleepDaysWithBDsOverThresholdLast30Days
+- _OBJC_IVAR_$_HDSPSleepApneaAnalyticsBuilder._numSleepDaysWithMultipleBDsInLast30Days
+- _OBJC_IVAR_$_HDSPSleepApneaAnalyticsBuilder._numSleepSessionsWithBDsOverThresholdLast30Days
+- _OBJC_IVAR_$_HDSPSleepApneaAnalyticsBuilder._sleepApneaEventSamples
+- _OBJC_IVAR_$_HDSPSleepApneaAnalyticsBuilder._sleepApneaFeatureOnboardingRecord
+- _OBJC_IVAR_$_HDSPTimeChangeListener._observers
+- _OBJC_IVAR_$_HDSPTimeChangeListener.environment
+- _OBJC_IVAR_$_HDSPWakeUpResultsNotification._category
+- _OBJC_IVAR_$_HDSPWakeUpResultsNotification._endMorningIndex
+- _OBJC_IVAR_$_HDSPWakeUpResultsNotification._goalAchieved
+- _OBJC_IVAR_$_HDSPWakeUpResultsNotification._notificationVariant
+- _OBJC_IVAR_$_HDSPWakeUpResultsNotification._userFirstName
+- _OBJC_IVAR_$_HDSPWakeUpResultsNotificationBuilder._daySummaries
+- _OBJC_IVAR_$_HDSPWakeUpResultsNotificationBuilder._morningIndexRange
+- _OBJC_IVAR_$_HDSPWakeUpResultsNotificationBuilder._userFirstName
+- _OBJC_IVAR_$_HDSPWakeUpResultsNotificationLocalizer._healthStore
+- _OBJC_IVAR_$_HDSPWakeUpResultsNotificationLocalizer._notification
+- _OBJC_IVAR_$_HDSPWakeUpResultsNotificationManager._environment
+- _OBJC_IVAR_$_HDSPWakeUpResultsNotificationManager._mutexProvider
+- _OBJC_IVAR_$_HDSPWakeUpResultsNotificationManager._queryResultFuture
+- _OBJC_IVAR_$_HDSPWakeUpResultsNotificationManager._retryAttemptScheduler
+- _OBJC_IVAR_$_HDSPWakeUpResultsNotificationManager._sleepEventDelegate
+- _OBJC_IVAR_$_HDSPWakeUpResultsNotificationManager._sleepMetricsEngine
+- _OBJC_IVAR_$_HDSPWakeUpResultsNotificationManager._stateMachine
+- _OBJC_IVAR_$_HDSPWakeUpResultsNotificationQueryingState._shouldRetryImmediatelyOnFailure
+- _OBJC_METACLASS_$_HDSPAnalyticsDailyReportBuilder
+- _OBJC_METACLASS_$_HDSPSleepApneaAnalyticsBuilder
+- _OBJC_METACLASS_$_HDSPTimeChangeListener
+- _OBJC_METACLASS_$_HDSPWakeUpResultsNotification
+- _OBJC_METACLASS_$_HDSPWakeUpResultsNotificationBuilder
+- _OBJC_METACLASS_$_HDSPWakeUpResultsNotificationDelayingForTrackingState
+- _OBJC_METACLASS_$_HDSPWakeUpResultsNotificationDisabledState
+- _OBJC_METACLASS_$_HDSPWakeUpResultsNotificationLocalizer
+- _OBJC_METACLASS_$_HDSPWakeUpResultsNotificationManager
+- _OBJC_METACLASS_$_HDSPWakeUpResultsNotificationNeedsProtectedDataState
+- _OBJC_METACLASS_$_HDSPWakeUpResultsNotificationNotifiedState
+- _OBJC_METACLASS_$_HDSPWakeUpResultsNotificationQueryingState
+- _OBJC_METACLASS_$_HDSPWakeUpResultsNotificationStateMachine
+- _OBJC_METACLASS_$_HDSPWakeUpResultsNotificationStateMachineState
+- _OBJC_METACLASS_$_HDSPWakeUpResultsNotificationWaitingForRetryState
+- _OBJC_METACLASS_$_HDSPWakeUpResultsNotificationWaitingForWakeUpState
+- _OBJC_METACLASS_$__TtC11SleepDaemon30HDSPSleepScoreAnalyticsBuilder
+- _XPC_ACTIVITY_INTERVAL_15_MIN
+- _XPC_ACTIVITY_PRIORITY_UTILITY
+- _XPC_ACTIVITY_REQUIRES_CLASS_B
+- __DATA__TtC11SleepDaemon30HDSPSleepScoreAnalyticsBuilder
+- __HKLogDroppedError
+- __INSTANCE_METHODS__TtC11SleepDaemon30HDSPSleepScoreAnalyticsBuilder
+- __IVARS__TtC11SleepDaemon30HDSPSleepScoreAnalyticsBuilder
+- __METACLASS_DATA__TtC11SleepDaemon30HDSPSleepScoreAnalyticsBuilder
+- __OBJC_$_CATEGORY_CLASS_METHODS_NSError_$_HDSPWakeUpResultsNotification
+- __OBJC_$_CATEGORY_HKSleepDaySummary_$_Analytics
+- __OBJC_$_CATEGORY_INSTANCE_METHODS_HKSleepDaySummary_$_Analytics
+- __OBJC_$_CATEGORY_INSTANCE_METHODS_NSError_$_HDSPWakeUpResultsNotification
+- __OBJC_$_CATEGORY_NSError_$_HDSPWakeUpResultsNotification
+- __OBJC_$_CLASS_METHODS_HDSPAnalyticsDailyReportBuilder
+- __OBJC_$_CLASS_METHODS_HDSPAnalyticsManager
+- __OBJC_$_CLASS_METHODS_HDSPWakeUpResultsNotification
+- __OBJC_$_CLASS_METHODS_HDSPWakeUpResultsNotificationManager
+- __OBJC_$_INSTANCE_METHODS_HDSPAnalyticsDailyReportBuilder
+- __OBJC_$_INSTANCE_METHODS_HDSPAnalyticsManager
+- __OBJC_$_INSTANCE_METHODS_HDSPSleepApneaAnalyticsBuilder
+- __OBJC_$_INSTANCE_METHODS_HDSPTimeChangeListener
+- __OBJC_$_INSTANCE_METHODS_HDSPWakeUpResultsNotification
+- __OBJC_$_INSTANCE_METHODS_HDSPWakeUpResultsNotificationBuilder
+- __OBJC_$_INSTANCE_METHODS_HDSPWakeUpResultsNotificationDelayingForTrackingState
+- __OBJC_$_INSTANCE_METHODS_HDSPWakeUpResultsNotificationDisabledState
+- __OBJC_$_INSTANCE_METHODS_HDSPWakeUpResultsNotificationLocalizer
+- __OBJC_$_INSTANCE_METHODS_HDSPWakeUpResultsNotificationManager
+- __OBJC_$_INSTANCE_METHODS_HDSPWakeUpResultsNotificationNeedsProtectedDataState
+- __OBJC_$_INSTANCE_METHODS_HDSPWakeUpResultsNotificationNotifiedState
+- __OBJC_$_INSTANCE_METHODS_HDSPWakeUpResultsNotificationQueryingState
+- __OBJC_$_INSTANCE_METHODS_HDSPWakeUpResultsNotificationStateMachine
+- __OBJC_$_INSTANCE_METHODS_HDSPWakeUpResultsNotificationStateMachineState
+- __OBJC_$_INSTANCE_METHODS_HDSPWakeUpResultsNotificationWaitingForRetryState
+- __OBJC_$_INSTANCE_METHODS_HDSPWakeUpResultsNotificationWaitingForWakeUpState
+- __OBJC_$_INSTANCE_VARIABLES_HDSPAnalyticsDailyReportBuilder
+- __OBJC_$_INSTANCE_VARIABLES_HDSPAnalyticsManager
+- __OBJC_$_INSTANCE_VARIABLES_HDSPSleepApneaAnalyticsBuilder
+- __OBJC_$_INSTANCE_VARIABLES_HDSPTimeChangeListener
+- __OBJC_$_INSTANCE_VARIABLES_HDSPWakeUpResultsNotification
+- __OBJC_$_INSTANCE_VARIABLES_HDSPWakeUpResultsNotificationBuilder
+- __OBJC_$_INSTANCE_VARIABLES_HDSPWakeUpResultsNotificationLocalizer
+- __OBJC_$_INSTANCE_VARIABLES_HDSPWakeUpResultsNotificationManager
+- __OBJC_$_INSTANCE_VARIABLES_HDSPWakeUpResultsNotificationQueryingState
+- __OBJC_$_INSTANCE_VARIABLES_HDSPWakeUpResultsNotificationStateMachine
+- __OBJC_$_PROP_LIST_HDSPAnalyticsDailyReportBuilder
+- __OBJC_$_PROP_LIST_HDSPAnalyticsManager
+- __OBJC_$_PROP_LIST_HDSPSleepApneaAnalyticsBuilder
+- __OBJC_$_PROP_LIST_HDSPSleepLockScreenAssertionManager.459
+- __OBJC_$_PROP_LIST_HDSPTimeChangeListener
+- __OBJC_$_PROP_LIST_HDSPWakeUpResultsNotification
+- __OBJC_$_PROP_LIST_HDSPWakeUpResultsNotificationBuilder
+- __OBJC_$_PROP_LIST_HDSPWakeUpResultsNotificationLocalizer
+- __OBJC_$_PROP_LIST_HDSPWakeUpResultsNotificationManager
+- __OBJC_$_PROP_LIST_HDSPWakeUpResultsNotificationStateMachine
+- __OBJC_$_PROP_LIST_HDSPWakeUpResultsNotificationStateMachineInfoProvider
+- __OBJC_$_PROP_LIST_HDSPWakeUpResultsNotificationStateMachineState
+- __OBJC_$_PROP_LIST_HKSHWakeUpResultsNotificationDescribing
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_HDSPWakeUpResultsNotificationStateMachineDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_HDSPWakeUpResultsNotificationStateMachineEventHandler
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_HDSPWakeUpResultsNotificationStateMachineInfoProvider
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_HKSHWakeUpResultsNotificationBuilding
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_HKSHWakeUpResultsNotificationDescribing
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_HDSPTimeChangeObserver
+- __OBJC_$_PROTOCOL_METHOD_TYPES_HDSPTimeChangeObserver
+- __OBJC_$_PROTOCOL_METHOD_TYPES_HDSPWakeUpResultsNotificationStateMachineDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_HDSPWakeUpResultsNotificationStateMachineEventHandler
+- __OBJC_$_PROTOCOL_METHOD_TYPES_HDSPWakeUpResultsNotificationStateMachineInfoProvider
+- __OBJC_$_PROTOCOL_METHOD_TYPES_HKSHWakeUpResultsNotificationBuilding
+- __OBJC_$_PROTOCOL_METHOD_TYPES_HKSHWakeUpResultsNotificationDescribing
+- __OBJC_$_PROTOCOL_REFS_HDSPTimeChangeObserver
+- __OBJC_$_PROTOCOL_REFS_HDSPWakeUpResultsNotificationStateMachineDelegate
+- __OBJC_$_PROTOCOL_REFS_HDSPWakeUpResultsNotificationStateMachineEventHandler
+- __OBJC_$_PROTOCOL_REFS_HDSPWakeUpResultsNotificationStateMachineInfoProvider
+- __OBJC_$_PROTOCOL_REFS_HKSHWakeUpResultsNotificationBuilding
+- __OBJC_$_PROTOCOL_REFS_HKSHWakeUpResultsNotificationDescribing
+- __OBJC_CLASS_PROTOCOLS_$_HDSPAnalyticsManager
+- __OBJC_CLASS_PROTOCOLS_$_HDSPTimeChangeListener
+- __OBJC_CLASS_PROTOCOLS_$_HDSPWakeUpResultsNotification
+- __OBJC_CLASS_PROTOCOLS_$_HDSPWakeUpResultsNotificationBuilder
+- __OBJC_CLASS_PROTOCOLS_$_HDSPWakeUpResultsNotificationManager
+- __OBJC_CLASS_PROTOCOLS_$_HDSPWakeUpResultsNotificationStateMachine
+- __OBJC_CLASS_PROTOCOLS_$_HDSPWakeUpResultsNotificationStateMachineState
+- __OBJC_CLASS_RO_$_HDSPAnalyticsDailyReportBuilder
+- __OBJC_CLASS_RO_$_HDSPAnalyticsManager
+- __OBJC_CLASS_RO_$_HDSPSleepApneaAnalyticsBuilder
+- __OBJC_CLASS_RO_$_HDSPTimeChangeListener
+- __OBJC_CLASS_RO_$_HDSPWakeUpResultsNotification
+- __OBJC_CLASS_RO_$_HDSPWakeUpResultsNotificationBuilder
+- __OBJC_CLASS_RO_$_HDSPWakeUpResultsNotificationDelayingForTrackingState
+- __OBJC_CLASS_RO_$_HDSPWakeUpResultsNotificationDisabledState
+- __OBJC_CLASS_RO_$_HDSPWakeUpResultsNotificationLocalizer
+- __OBJC_CLASS_RO_$_HDSPWakeUpResultsNotificationManager
+- __OBJC_CLASS_RO_$_HDSPWakeUpResultsNotificationNeedsProtectedDataState
+- __OBJC_CLASS_RO_$_HDSPWakeUpResultsNotificationNotifiedState
+- __OBJC_CLASS_RO_$_HDSPWakeUpResultsNotificationQueryingState
+- __OBJC_CLASS_RO_$_HDSPWakeUpResultsNotificationStateMachine
+- __OBJC_CLASS_RO_$_HDSPWakeUpResultsNotificationStateMachineState
+- __OBJC_CLASS_RO_$_HDSPWakeUpResultsNotificationWaitingForRetryState
+- __OBJC_CLASS_RO_$_HDSPWakeUpResultsNotificationWaitingForWakeUpState
+- __OBJC_LABEL_PROTOCOL_$_HDSPTimeChangeObserver
+- __OBJC_LABEL_PROTOCOL_$_HDSPWakeUpResultsNotificationStateMachineDelegate
+- __OBJC_LABEL_PROTOCOL_$_HDSPWakeUpResultsNotificationStateMachineEventHandler
+- __OBJC_LABEL_PROTOCOL_$_HDSPWakeUpResultsNotificationStateMachineInfoProvider
+- __OBJC_LABEL_PROTOCOL_$_HKSHWakeUpResultsNotificationBuilding
+- __OBJC_LABEL_PROTOCOL_$_HKSHWakeUpResultsNotificationDescribing
+- __OBJC_METACLASS_RO_$_HDSPAnalyticsDailyReportBuilder
+- __OBJC_METACLASS_RO_$_HDSPAnalyticsManager
+- __OBJC_METACLASS_RO_$_HDSPSleepApneaAnalyticsBuilder
+- __OBJC_METACLASS_RO_$_HDSPTimeChangeListener
+- __OBJC_METACLASS_RO_$_HDSPWakeUpResultsNotification
+- __OBJC_METACLASS_RO_$_HDSPWakeUpResultsNotificationBuilder
+- __OBJC_METACLASS_RO_$_HDSPWakeUpResultsNotificationDelayingForTrackingState
+- __OBJC_METACLASS_RO_$_HDSPWakeUpResultsNotificationDisabledState
+- __OBJC_METACLASS_RO_$_HDSPWakeUpResultsNotificationLocalizer
+- __OBJC_METACLASS_RO_$_HDSPWakeUpResultsNotificationManager
+- __OBJC_METACLASS_RO_$_HDSPWakeUpResultsNotificationNeedsProtectedDataState
+- __OBJC_METACLASS_RO_$_HDSPWakeUpResultsNotificationNotifiedState
+- __OBJC_METACLASS_RO_$_HDSPWakeUpResultsNotificationQueryingState
+- __OBJC_METACLASS_RO_$_HDSPWakeUpResultsNotificationStateMachine
+- __OBJC_METACLASS_RO_$_HDSPWakeUpResultsNotificationStateMachineState
+- __OBJC_METACLASS_RO_$_HDSPWakeUpResultsNotificationWaitingForRetryState
+- __OBJC_METACLASS_RO_$_HDSPWakeUpResultsNotificationWaitingForWakeUpState
+- __OBJC_PROTOCOL_$_HDSPTimeChangeObserver
+- __OBJC_PROTOCOL_$_HDSPWakeUpResultsNotificationStateMachineDelegate
+- __OBJC_PROTOCOL_$_HDSPWakeUpResultsNotificationStateMachineEventHandler
+- __OBJC_PROTOCOL_$_HDSPWakeUpResultsNotificationStateMachineInfoProvider
+- __OBJC_PROTOCOL_$_HKSHWakeUpResultsNotificationBuilding
+- __OBJC_PROTOCOL_$_HKSHWakeUpResultsNotificationDescribing
+- ___102-[HDSPAnalyticsDailyReportBuilder _daysWatchWornToSleepOverLastNumberOfDays:excludeWeekdays:calendar:]_block_invoke
+- ___171-[HDSPAnalyticsDailyReportBuilder initWithEnvironment:daySummaries:breathingDisturbanceSamples:sleepApneaEventSamples:sleepApneaFeatureOnboardingRecord:morningIndexRange:]_block_invoke
+- ___38+[HDSPEnvironment standardEnvironment]_block_invoke_25
+- ___39-[HDSPSleepSessionManager saveSession:]_block_invoke.363
+- ___39-[_HDSPBiomeBridge subscribe:callback:]_block_invoke.454
+- ___42-[HDSPMobileTimerBridge _checkAlarmServer]_block_invoke.344
+- ___42-[HDSPSleepWidgetManager eventIdentifiers]_block_invoke.344
+- ___43-[HDSPAnalyticsManager _lock_executeQuery:]_block_invoke
+- ___43-[HDSPAnalyticsManager _lock_executeQuery:]_block_invoke.366
+- ___43-[HDSPAnalyticsManager _lock_executeQuery:]_block_invoke.368
+- ___43-[HDSPAnalyticsManager _lock_executeQuery:]_block_invoke.370
+- ___43-[HDSPAnalyticsManager _lock_executeQuery:]_block_invoke_2
+- ___43-[HDSPAnalyticsManager _lock_executeQuery:]_block_invoke_3
+- ___44-[HDSPEnvironment environmentDidBecomeReady]_block_invoke.474
+- ___46-[HDSPSleepLockScreenManager eventIdentifiers]_block_invoke.344
+- ___46-[HDSPTimeChangeListener handleTimeZoneChange]_block_invoke
+- ___47-[HDSPEnvironment environmentShouldMigrateData]_block_invoke.470
+- ___47-[HDSPNotificationListener _registerForStream:]_block_invoke.354
+- ___47-[HDSPSleepActionManager sleepAlarmWasModified]_block_invoke.357
+- ___47-[HDSPSleepActionManager sleepAlarmWasModified]_block_invoke.359
+- ___47-[HDSPSleepActionManager sleepAlarmWasModified]_block_invoke.362
+- ___49-[HDSPSleepEventScheduler _schedulePendingEvents]_block_invoke.419
+- ___49-[HDSPSleepStoreServer processNoLongerSuspended:]_block_invoke.365
+- ___49-[HDSPSleepStoreServer processNoLongerSuspended:]_block_invoke_2.366
+- ___50-[HDSPAnalyticsDailyReportBuilder _windDownEvents]_block_invoke
+- ___50-[HDSPSleepEventScheduler notifyForOverdueEvents:]_block_invoke.427
+- ___51-[HDSPSleepModeStateMachineState updateStateCommon]_block_invoke.342
+- ___52-[HDSPWakeUpResultsNotificationManager _updateState]_block_invoke
+- ___53-[HDSPSleepScheduleStateCoordinator sleepEventIsDue:]_block_invoke.346
+- ___53-[HDSPSleepScheduleStateCoordinator sleepEventIsDue:]_block_invoke.347
+- ___53-[HDSPTimeChangeListener handleSignificantTimeChange]_block_invoke
+- ___53-[HDSPWakeUpResultsNotificationManager _currentState]_block_invoke
+- ___54-[HDSPSleepSessionManager _locked_savePendingSessions]_block_invoke.352
+- ___54-[HKSleepHealthStore(HDSPSleep) hdsp_persistSessions:]_block_invoke.344
+- ___55-[HDSPAnalyticsManager scheduleDailyCollectionActivity]_block_invoke
+- ___55-[HDSPAnalyticsManager scheduleDailyCollectionActivity]_block_invoke.351
+- ___56-[HDSPSleepEventScheduler eventProviderCancelledEvents:]_block_invoke.432
+- ___56-[HDSPSleepStoreServer _performWhenClientIsReady:block:]_block_invoke.350
+- ___56-[HDSPWakeUpResultsNotificationManager _lock_startQuery]_block_invoke
+- ___56-[HDSPWakeUpResultsNotificationManager _lock_startQuery]_block_invoke.374
+- ___56-[HDSPWakeUpResultsNotificationManager _lock_startQuery]_block_invoke.375
+- ___56-[HDSPWakeUpResultsNotificationManager _lock_startQuery]_block_invoke.377
+- ___56-[HDSPWakeUpResultsNotificationManager _lock_startQuery]_block_invoke_2
+- ___56-[HDSPWakeUpResultsNotificationManager eventIdentifiers]_block_invoke
+- ___56-[HDSPWakeUpResultsNotificationManager eventIdentifiers]_block_invoke_2
+- ___56-[HDSPWakeUpResultsNotificationManager sleepEventIsDue:]_block_invoke
+- ___57-[HDSPWakeUpResultsNotificationStateMachine executeQuery]_block_invoke
+- ___58-[HDSPSleepEventScheduler eventProviderHasUpcomingEvents:]_block_invoke.431
+- ___60-[HDSPSleepScheduleModelMigrationManager _migrateToCloudKit]_block_invoke.342
+- ___60-[HDSPWakeUpResultsNotificationManager scheduleRetryAttempt]_block_invoke
+- ___60-[HDSPWakeUpResultsNotificationManager scheduleRetryAttempt]_block_invoke.357
+- ___61-[HDSPAnalyticsDailyReportBuilder _woreWatchToSleepLastNight]_block_invoke
+- ___62-[HDSPWakeUpResultsNotificationManager _isDelayingForTracking]_block_invoke
+- ___63-[HDSPWakeUpResultsNotificationManager postResultsNotification]_block_invoke
+- ___64-[HDSPSleepScheduleModelMigrationManager _migrateHomeScreenPage]_block_invoke.351
+- ___64-[HDSPSleepScheduleStateCoordinatorBedtimeState wakeTimeReached]_block_invoke.344
+- ___65-[HDSPAnalyticsDailyReportBuilder _lastNightsNumberOfAwakeEvents]_block_invoke
+- ___65-[HDSPAnalyticsDailyReportBuilder _lastNightsNumberOfAwakeEvents]_block_invoke_2
+- ___65-[HDSPWakeUpResultsNotificationStateMachine scheduleRetryAttempt]_block_invoke
+- ___67-[HDSPWakeUpResultsNotificationManager upcomingEventsDueAfterDate:]_block_invoke
+- ___67-[HDSPWakeUpResultsNotificationStateMachine unscheduleRetryAttempt]_block_invoke
+- ___68-[HDSPAnalyticsDailyReportBuilder _lastNightsDurationForSleepStage:]_block_invoke
+- ___68-[HDSPAnalyticsDailyReportBuilder _lastNightsDurationForSleepStage:]_block_invoke_2
+- ___68-[HDSPAnalyticsDailyReportBuilder _lastNightsDurationForSleepStage:]_block_invoke_3
+- ___68-[HDSPWakeUpResultsNotificationStateMachine postResultsNotification]_block_invoke
+- ___70-[HDSPSleepApneaAnalyticsBuilder _sleepApneaEventSamplesInPastNights:]_block_invoke
+- ___71-[HDSPSleepStoreServer publishWakeUpResultsNotificationWithCompletion:]_block_invoke
+- ___71-[HDSPSleepStoreServer publishWakeUpResultsNotificationWithCompletion:]_block_invoke.355
+- ___73-[HDSPAnalyticsDailyReportBuilder _sleepDurationLastNightIncludingAwake:]_block_invoke
+- ___73-[HDSPAnalyticsDailyReportBuilder _sleepDurationLastNightIncludingAwake:]_block_invoke_2
+- ___73-[HDSPAnalyticsDailyReportBuilder _sleepDurationLastNightIncludingAwake:]_block_invoke_3
+- ___73-[HDSPSleepApneaAnalyticsBuilder _breathingDisturbanceSamplesInPastNight]_block_invoke
+- ___73-[HDSPSleepStoreServer sleepScheduleModelManager:didUpdateSleepSchedule:]_block_invoke.358
+- ___73-[HDSPSleepStoreServer sleepScheduleModelManager:didUpdateSleepSettings:]_block_invoke.360
+- ___74-[HDSPSleepLockScreenAssertionManager listener:shouldAcceptNewConnection:]_block_invoke.358
+- ___75-[HDSPWakeUpResultsNotificationManager _fetchUserFirstNameWithHealthStore:]_block_invoke
+- ___75-[HDSPWakeUpResultsNotificationManager _fetchUserFirstNameWithHealthStore:]_block_invoke.378
+- ___75-[HDSPWakeUpResultsNotificationManager _fetchUserFirstNameWithHealthStore:]_block_invoke.381
+- ___76-[HDSPAnalyticsManager notificationListener:didReceiveNotificationWithName:]_block_invoke
+- ___76-[HDSPSleepStoreServer sleepScheduleModelManager:didUpdateSleepEventRecord:]_block_invoke.361
+- ___76-[HDSPWakeUpResultsNotificationManager performImmediateQueryForNotification]_block_invoke
+- ___77-[HDSPCFUserNotificationCenter _publishWakeDetectionNotificationForUserInfo:]_block_invoke.343
+- ___78-[HDSPSleepScheduleModelMigrationManager _migrateSleepScheduleFromMobileTimer]_block_invoke.346
+- ___86-[HDSPSleepModeManager initWithEnvironment:sleepFocusModeBridge:sleepProactiveBridge:]_block_invoke.351
+- ___89-[HDSPWakeUpResultsNotificationManager sleepScheduleStateDidChange:previousState:reason:]_block_invoke
+- ___89-[HDSPWakeUpResultsNotificationStateMachine stopObservingProtectedHealthDataAvailability]_block_invoke
+- ___90-[HDSPWakeUpResultsNotificationStateMachine startObservingProtectedHealthDataAvailability]_block_invoke
+- ___92-[HDSPWakeUpResultsNotificationManager notificationListener:didReceiveNotificationWithName:]_block_invoke
+- ___92-[HKSleepDaySummary(Analytics) hdsp_enumerateFirstPartyWatchSleepTrackingSegmentsWithBlock:]_block_invoke
+- ___92-[HKSleepDaySummary(Analytics) hdsp_enumerateFirstPartyWatchSleepTrackingSegmentsWithBlock:]_block_invoke_2
+- ___96-[HDSPWakeUpResultsNotificationManager _fetchSleepDaySummariesForMorningIndexRange:healthStore:]_block_invoke
+- ___96-[HDSPWakeUpResultsNotificationManager _fetchSleepDaySummariesForMorningIndexRange:healthStore:]_block_invoke.386
+- ___96-[HDSPWakeUpResultsNotificationManager _fetchSleepDaySummariesForMorningIndexRange:healthStore:]_block_invoke.389
+- ___block_descriptor_32_e13_"NSDate"8?0l
+- ___block_descriptor_32_e49_"HDSPTimeChangeListener"16?0"HDSPEnvironment"8l
+- ___block_descriptor_32_e61_v16?0"<HDSPWakeUpResultsNotificationStateMachineDelegate>"8l
+- ___block_descriptor_32_e63_"HDSPWakeUpResultsNotificationManager"16?0"HDSPEnvironment"8l
+- ___block_descriptor_40_e8_32bs_e30_v32?0"HKSleepPeriod"8Q16^B24ls32l8
+- ___block_descriptor_40_e8_32bs_e37_v32?0"HKSleepPeriodSegment"8Q16^B24ls32l8
+- ___block_descriptor_40_e8_32r_e31_v32?0"NSDateInterval"8Q16^B24lr32l8
+- ___block_descriptor_40_e8_32s_e34_v16?0"<HDSPTimeChangeObserver>"8ls32l8
+- ___block_descriptor_40_e8_32s_e34_v24?0"NSDictionary"8"NSError"16ls32l8
+- ___block_descriptor_40_e8_32s_e56_v32?0"HKSleepDaySummaryQuery"8"NSArray"16"NSError"24ls32l8
+- ___block_descriptor_40_e8_32w_e17_v16?0"NSArray"8lw32l8
+- ___block_descriptor_40_e8_32w_e17_v16?0"NSError"8lw32l8
+- ___block_descriptor_40_e8_32w_e18_v16?0"NSString"8lw32l8
+- ___block_descriptor_40_e8_32w_e49_v16?0"<HKSHWakeUpResultsNotificationBuilding>"8lw32l8
+- ___block_descriptor_41_e8_32r_e30_v16?0"HKSleepPeriodSegment"8lr32l8
+- ___block_descriptor_48_e27_B16?0"HKSleepDaySummary"8l
+- ___block_descriptor_48_e8_32r40r_e30_v16?0"HKSleepPeriodSegment"8lr32l8r40l8
+- ___block_descriptor_48_e8_32r_e30_v16?0"HKSleepPeriodSegment"8lr32l8
+- ___block_descriptor_48_e8_32s40bs_e61_v24?0"<HKSHWakeUpResultsNotificationBuilding>"8"NSError"16ls40l8s32l8
+- ___block_descriptor_48_e8_32s40s_e40_16?0"HKSPAnalyticsWindDownEventData"8ls32l8s40l8
+- ___block_descriptor_48_e8_32s_e18_B16?0"HKSample"8ls32l8
+- ___block_descriptor_56_e8_32w_e27_"NAFuture"16?0"NSArray"8lw32l8
+- ___block_descriptor_64_e8_32s40s48r56r_e47_v32?0"HKSampleQuery"8"NSArray"16"NSError"24ls32l8r48l8r56l8s40l8
+- ___block_descriptor_64_e8_32s40s48r56r_e56_v32?0"HKSleepDaySummaryQuery"8"NSArray"16"NSError"24ls32l8r48l8r56l8s40l8
+- ___block_descriptor_64_e8_32s40s48s56bs_e45_v24?0"HKSPXPCClientIdentifier"8"NSError"16ls32l8s56l8s40l8s48l8
+- ___block_descriptor_65_e8_32s40s_e27_B16?0"HKSleepDaySummary"8ls32l8s40l8
+- ___block_descriptor_96_e8_32s40s48r56r64r72r80r88w_e5_v8?0lw88l8s32l8r48l8r56l8r64l8s40l8r72l8r80l8
+- ___block_literal_global.343
+- ___block_literal_global.344
+- ___block_literal_global.345
+- ___block_literal_global.346
+- ___block_literal_global.347
+- ___block_literal_global.348
+- ___block_literal_global.349
+- ___block_literal_global.350
+- ___block_literal_global.351
+- ___block_literal_global.352
+- ___block_literal_global.354
+- ___block_literal_global.355
+- ___block_literal_global.356
+- ___block_literal_global.358
+- ___block_literal_global.359
+- ___block_literal_global.361
+- ___block_literal_global.362
+- ___block_literal_global.363
+- ___block_literal_global.374
+- ___block_literal_global.395
+- ___block_literal_global.399
+- ___block_literal_global.403
+- ___block_literal_global.407
+- ___block_literal_global.422
+- ___block_literal_global.432
+- ___block_literal_global.451
+- _arc4random_uniform
+- _dispatch_group_notify
+- _kHKWellnessDashboardFirstNameUserDefaultKey
+- _kHKWellnessDashboardNameUserDefaultKey
+- _objc_msgSend$_areHealthNotificationsAuthorized
+- _objc_msgSend$_biologicalSex
+- _objc_msgSend$_breathingDisturbanceSamplesInPastNight
+- _objc_msgSend$_bucketedSleepDurationLastNight
+- _objc_msgSend$_calculateBreathingDisturbanceValueDependentMetrics
+- _objc_msgSend$_changedSchedule:withinNumberOfDays:currentDate:calendar:
+- _objc_msgSend$_dailyReportEvent
+- _objc_msgSend$_dateOfLastSuccessfulBreathingDisturbanceAnalysis
+- _objc_msgSend$_daysWatchWornToSleepOverLastNumberOfDays:excludeWeekdays:calendar:
+- _objc_msgSend$_didInteractWithWindDownActionsWithinLastTwoDays
+- _objc_msgSend$_didMeetSleepDurationGoalLastNight
+- _objc_msgSend$_embeddedNameLocalizedStringKey
+- _objc_msgSend$_embeddedNameSubstitutionStringKey
+- _objc_msgSend$_executeQuery
+- _objc_msgSend$_fetchSleepDaySummariesForMorningIndexRange:healthStore:
+- _objc_msgSend$_fetchUserFirstNameWithHealthStore:
+- _objc_msgSend$_isEnabledBD
+- _objc_msgSend$_isOnboardedBD
+- _objc_msgSend$_lastNightsDurationForSleepStage:
+- _objc_msgSend$_lastNightsNumberOfAwakeEvents
+- _objc_msgSend$_localizedBodyForOneDayNotificationWithError:
+- _objc_msgSend$_localizedBodyForOneWeekDayNotificationWithError:
+- _objc_msgSend$_localizedBodyForTwoWeekNotificationWithError:
+- _objc_msgSend$_localizedStringKeyBase
+- _objc_msgSend$_lock_executeQuery:
+- _objc_msgSend$_lock_startQuery
+- _objc_msgSend$_makeReportQueryWithMorningIndexRange:resultsHandler:
+- _objc_msgSend$_maxBDValueInPast30Days
+- _objc_msgSend$_maxTimeBetweenBDSessionsPastNight:
+- _objc_msgSend$_meanTimeBetweenBDSessionsPastNight:
+- _objc_msgSend$_minTimeBetweenBDSessionsPastNight:
+- _objc_msgSend$_notificationForCategory:morningIndexRange:goalAchieved:
+- _objc_msgSend$_numBDNotifications:
+- _objc_msgSend$_numBDValuesInPast30Days
+- _objc_msgSend$_numBDValuesInPastNight:
+- _objc_msgSend$_numDaysSinceLastAnalysis
+- _objc_msgSend$_numDaysSinceLastBDNotification
+- _objc_msgSend$_numSleepDaysWithBDsOverThresholdLast30Days
+- _objc_msgSend$_numSleepDaysWithMultipleBDsInTheLast30Days
+- _objc_msgSend$_numSleepSessionsWithBDsOverThresholdLast30Days
+- _objc_msgSend$_onboardedCountryCode
+- _objc_msgSend$_processQueryResultsWithSummaries:breathingDisturbanceSamples:sleepApneaEventSamples:sleepApneaFeatureOnboardingRecord:queryRange:error:
+- _objc_msgSend$_pruneExpiredWindDownActionDataBeforeQueryRange:
+- _objc_msgSend$_queryMorningIndexRangeForDate:
+- _objc_msgSend$_randomNotificationVariantForCategory:
+- _objc_msgSend$_regularLocalizedStringKey
+- _objc_msgSend$_regularSubstitutionStringKey
+- _objc_msgSend$_retryQueryIfNeededOrTransitionToNeedsProtectedDataState
+- _objc_msgSend$_sleepApneaEventSamplesInPastNights:
+- _objc_msgSend$_sleepDaySummariesFromResult:error:
+- _objc_msgSend$_sleepDurationGoalAchievedLastNightNotification
+- _objc_msgSend$_sleepDurationGoalAchievedShortWeekNotification
+- _objc_msgSend$_sleepDurationGoalAchievedTwoWeekNotification
+- _objc_msgSend$_sleepDurationLastNightIncludingAwake:
+- _objc_msgSend$_stageDurationPercentage:ofTotalDuration:
+- _objc_msgSend$_submitAnalyticsReportsUsingBuilder:
+- _objc_msgSend$_timesBetweenBDSessions:
+- _objc_msgSend$_trackingDelayDuration
+- _objc_msgSend$_transitionToDelayingForTrackingState
+- _objc_msgSend$_transitionToNotifiedState
+- _objc_msgSend$_transitionToQueryingState
+- _objc_msgSend$_transitionToRetryState
+- _objc_msgSend$_transitionToWaitingForWakeUpState
+- _objc_msgSend$_updateState
+- _objc_msgSend$_userAgeForCurrentDate:
+- _objc_msgSend$_userFirstNameFromResult:
+- _objc_msgSend$_wakeUpResultsContentWithUserInfo:
+- _objc_msgSend$_weeksSinceOnboardDate:currentDate:calendar:
+- _objc_msgSend$_weeksSinceOnboardedBD
+- _objc_msgSend$_windDownEvents
+- _objc_msgSend$_woreWatchToSleepLastNight
+- _objc_msgSend$breathingDisturbanceSamples
+- _objc_msgSend$buildNotification
+- _objc_msgSend$buildReports
+- _objc_msgSend$calendarWithIdentifier:
+- _objc_msgSend$category
+- _objc_msgSend$combineAllFutures:ignoringErrors:scheduler:
+- _objc_msgSend$containsAppleSleepTrackingData
+- _objc_msgSend$containsPeriodsWithAppleSleepTrackingData
+- _objc_msgSend$containsSegmentsWithAppleSleepTrackingData
+- _objc_msgSend$dailySleepDurationGoal
+- _objc_msgSend$dateForKey:error:
+- _objc_msgSend$dateInterval
+- _objc_msgSend$dateOfLastAnalysis
+- _objc_msgSend$day
+- _objc_msgSend$daySummaries
+- _objc_msgSend$dayUnit
+- _objc_msgSend$delayingForTrackingState
+- _objc_msgSend$didPostResultsNotification
+- _objc_msgSend$doubleValue
+- _objc_msgSend$endMorningIndex
+- _objc_msgSend$enumerateObjectsUsingBlock:
+- _objc_msgSend$executeQuery
+- _objc_msgSend$goalAchieved
+- _objc_msgSend$goalAchievedQuantityForCategory:userInfo:
+- _objc_msgSend$goalAchievedUserInfoKeyForCategory:
+- _objc_msgSend$goalAchievedUserInfoValue
+- _objc_msgSend$gregorianCalendar
+- _objc_msgSend$hasSufficientSleepData
+- _objc_msgSend$hdsp_enumerateFirstPartyWatchSleepTrackingSegmentsWithBlock:
+- _objc_msgSend$hdsp_insufficientSleepDataError
+- _objc_msgSend$hdsp_isInsufficientSleepDataError
+- _objc_msgSend$healthAppDefaultsDomainWithHealthStore:
+- _objc_msgSend$hk_copyNonEmptyString
+- _objc_msgSend$hk_filter:
+- _objc_msgSend$hk_stripLeadingTrailingWhitespace
+- _objc_msgSend$hksp_isHealthDatabaseInaccessibleError
+- _objc_msgSend$hksp_supportsWakeUpResults
+- _objc_msgSend$initWithBehavior:sleepStorageProvider:sleepScheduleModelManagerProvider:sleepSchedulerProvider:sleepServerProvider:sleepCoordinatorProvider:sleepModeManagerProvider:sleepTrackingManagerProvider:goodMorningAlertManagerProvider:chargingReminderManagerProvider:wakeDetectionManagerProvider:wakeUpResultsNotificationManagerProvider:actionManagerProvider:sleepAlarmManagerProvider:healthStoreProvider:contextStoreManagerProvider:biomeManagerProvider:migrationManagerProvider:notificationManagerProvider:notificationListenerProvider:sleepLockScreenManagerProvider:sleepWidgetManagerProvider:idsServiceManagerProvider:diagnosticsProvider:systemMonitorProvider:assertionManager:timeChangeListenerProvider:sensitiveUIMonitorProvider:analyticsManagerProvider:userDefaults:fileManager:currentDateProvider:defaultCallbackScheduler:mutexGenerator:
+- _objc_msgSend$initWithBreathingDisturbanceSamples:sleepApneaEventSamples:sleepApneaFeatureOnboardingRecord:morningIndexRange:gregorianCalendar:dateOfLastAnalysis:currentDateProvider:
+- _objc_msgSend$initWithCapacity:
+- _objc_msgSend$initWithCategory:endMorningIndex:goalAchieved:notificationVariant:userFirstName:
+- _objc_msgSend$initWithDaySummaries:morningIndexRange:userFirstName:
+- _objc_msgSend$initWithDaySummaries:needsIntroduction:userFirstName:algorithmVersion:
+- _objc_msgSend$initWithDictionary:
+- _objc_msgSend$initWithEnvironment:daySummaries:breathingDisturbanceSamples:sleepApneaEventSamples:sleepApneaFeatureOnboardingRecord:morningIndexRange:
+- _objc_msgSend$initWithEnvironment:daySummaries:morningIndexRange:
+- _objc_msgSend$initWithEnvironment:retryAttemptScheduler:
+- _objc_msgSend$initWithIdentifier:mode:
+- _objc_msgSend$initWithMorningIndexRange:ascending:limit:options:resultsHandler:
+- _objc_msgSend$initWithNotification:healthStore:
+- _objc_msgSend$initWithSleepDaySummaries:legacyWakeUpResultsEnabled:
+- _objc_msgSend$initWithStartDate:duration:
+- _objc_msgSend$isDelayingForTracking
+- _objc_msgSend$isEqualToNotification:
+- _objc_msgSend$isFinished
+- _objc_msgSend$isMemberOfClass:
+- _objc_msgSend$isNotificationEnabled
+- _objc_msgSend$isOneNight
+- _objc_msgSend$isWakeUpResultsNotificationEnabled
+- _objc_msgSend$lastWakeUpResultsIntroductionNotificationVersionSent
+- _objc_msgSend$length
+- _objc_msgSend$localizedBody
+- _objc_msgSend$localizedStringFromNumber:numberStyle:
+- _objc_msgSend$localizedTitle
+- _objc_msgSend$morningIndex
+- _objc_msgSend$morningIndexRange
+- _objc_msgSend$needsProtectedDataState
+- _objc_msgSend$needsSleepScoreIntroduction
+- _objc_msgSend$notificationAttemptWindowForWakeUpBeforeDate:
+- _objc_msgSend$notificationVariant
+- _objc_msgSend$now
+- _objc_msgSend$objectAtIndexedSubscript:
+- _objc_msgSend$performImmediateQueryForNotification
+- _objc_msgSend$periods
+- _objc_msgSend$postResultsNotification
+- _objc_msgSend$propertyListValueForKey:completion:
+- _objc_msgSend$protectedHealthDataDidBecomeAvailable
+- _objc_msgSend$quantityWithUnit:doubleValue:
+- _objc_msgSend$queryDidComplete
+- _objc_msgSend$queryDidFailWithError:
+- _objc_msgSend$queryingState
+- _objc_msgSend$registerForLaunchNotificationWithName:key:
+- _objc_msgSend$retryActivity
+- _objc_msgSend$retryAttemptEventDue
+- _objc_msgSend$retryAttemptScheduler
+- _objc_msgSend$retryCriteria
+- _objc_msgSend$sampleIntervals
+- _objc_msgSend$scheduleRetryAttempt
+- _objc_msgSend$secondUnit
+- _objc_msgSend$segments
+- _objc_msgSend$setCacheSettings:
+- _objc_msgSend$sleepApneaEventSamples
+- _objc_msgSend$sleepApneaFeatureOnboardingRecord
+- _objc_msgSend$sleepDetails
+- _objc_msgSend$sleepDuration
+- _objc_msgSend$sleepDurationGoalAchievedCount
+- _objc_msgSend$sleepFocusConfiguration
+- _objc_msgSend$sleepMetricsForDaySummaries:inMorningIndexRange:
+- _objc_msgSend$sleepModeDidChange:isUserRequested:
+- _objc_msgSend$sleepResultsNotificationsOnWatch
+- _objc_msgSend$sortDescriptorWithKey:ascending:
+- _objc_msgSend$standardDeviationActualTimeAsleep
+- _objc_msgSend$standardDeviationActualVsScheduledTimeAsleep
+- _objc_msgSend$standardDeviationScheduledTimeAsleep
+- _objc_msgSend$startObservingProtectedHealthDataAvailability
+- _objc_msgSend$stopObservingProtectedHealthDataAvailability
+- _objc_msgSend$timeChangeListener
+- _objc_msgSend$unregisterForLaunchNotificationWithName:key:
+- _objc_msgSend$unscheduleRetryAttempt
+- _objc_msgSend$updateDailyReportWithSleepApneaAnalytics:
+- _objc_msgSend$updateDailyReportWithSleepScoreAnalytics:
+- _objc_msgSend$userFirstName
+- _objc_msgSend$valueForKey:
+- _objc_msgSend$valueForKeyPath:
+- _objc_msgSend$waitingForRetryState
+- _objc_msgSend$waitingForWakeUpState
+- _objc_msgSend$wakeUpDidOccur
+- _objc_msgSend$wakeUpResultsNotificationFromUserInfo:
+- _objc_msgSend$wakeUpResultsNotificationManager
+- _objc_msgSend$weekOfYear
+- _objc_msgSend$weeklyGoalAchieved
+- _swift_isaMask
+- _symbolic _____ 11SleepDaemon30HDSPSleepScoreAnalyticsBuilderC
+CStrings:
++ "@\"HDSPPreferenceChangeListener\"16@?0@\"HDSPEnvironment\"8"
++ "AppleLanguagePreferencesChanged"
++ "OS Transaction"
++ "Power Assertion"
++ "SleepDaemon.AnalyticsDailyReportBuilder"
++ "SleepDaemon.SleepApneaAnalyticsBuilder"
++ "SleepDaemon.SleepScoreAnalyticsBuilder"
++ "SleepDaemon_Private.HDSPAnalyticsManager"
++ "[%{public}@] Sleep focus unconfigured (wentThroughConsolidatedOnboarding: %d), posting intro notification"
++ "[%{public}@] Taking assertion with identifier %{public}@ (%{public}@)"
++ "[%{public}@] environmentWillInvalidate"
++ "[%{public}@] handleLanguageChange"
++ "[%{public}@] initializing..."
++ "[%{public}@] setting up sigterm handler"
++ "[%{public}@] shutting down (clean: %d) %{public}@"
++ "[%{public}@] sleep screen not supported"
++ "[%{public}@] sleepd disabled"
++ "[%{public}@] sleepd entering demo mode"
++ "[%{public}@] starting..."
++ "[%{public}s] Beginning bd queries"
++ "[%{public}s] Building daily analytics report from %{public}ld summaries in range %{public}s"
++ "[%{public}s] Cancelling daily collection activity"
++ "[%{public}s] Data collection disabled; not executing query"
++ "[%{public}s] Data collection is already in progress; not executing query"
++ "[%{public}s] Environment did become ready"
++ "[%{public}s] Environment will become ready"
++ "[%{public}s] Error while querying fetching apnea feature status: %{public}@"
++ "[%{public}s] Error while querying for breathing disturbance samples: %{public}@"
++ "[%{public}s] Error while querying for sleep apnea event samples: %{public}@"
++ "[%{public}s] Error while querying for sleep day summaries: %{public}@"
++ "[%{public}s] Executing query"
++ "[%{public}s] No health store; not executing query"
++ "[%{public}s] Onboard date occurred after the current date"
++ "[%{public}s] Pruning wind down action data prior to %{public}ld"
++ "[%{public}s] Queries failed with error: %{public}@"
++ "[%{public}s] Queries succeeded"
++ "[%{public}s] Running daily collection activity"
++ "[%{public}s] Schedule's last modified date occurred after the current date"
++ "[%{public}s] Scheduling daily collection activity"
++ "[%{public}s] Sending daily reports: %{public}s"
++ "[%{public}s] Significant time change detected"
++ "[%{public}s] Unable access age due to error: %{public}@"
++ "[%{public}s] Unable access biological sex due to error: %{public}@"
++ "[%{public}s] Updating schedule activity"
++ "[%{public}s] received %{public}s"
++ "[SleepApneaAnalyticsBuilder] Building daily analytics report from %{public}ld bd samples"
++ "com.apple.distnoted.matching.trusted"
++ "forcing as xpc failed to quiesce"
++ "language changed"
++ "received SIGTERM"
++ "v16@?0@\"<HDSPPreferenceChangeObserver>\"8"
++ "\xf0\xf0a"
+- "#16@0:8"
+- "#24@0:8Q16"
+- "%"
+- "%@%@"
+- "%@_%ld"
+- "%@_%ld_SUBSTITUTION"
+- "%@_NAME_%ld"
+- "%@_NAME_%ld_SUBSTITUTION"
+- "%ld"
+- ".cxx_destruct"
+- "@\"<HDSPActivityScheduler>\""
+- "@\"<HDSPBiomeInBedDetectionProviding>\""
+- "@\"<HDSPBiomeInterface>\""
+- "@\"<HDSPEventScheduleDelegate>\""
+- "@\"<HDSPEventScheduleDelegate>\"16@0:8"
+- "@\"<HDSPEventScheduler>\""
+- "@\"<HDSPIDSService>\""
+- "@\"<HDSPIDSServiceDelegate>\""
+- "@\"<HDSPIDSServiceDelegate>\"16@0:8"
+- "@\"<HDSPInBedDetector>\""
+- "@\"<HDSPProcessStateManagerDelegate>\""
+- "@\"<HDSPSleepAlarmProvider>\""
+- "@\"<HDSPSleepEventDelegate>\""
+- "@\"<HDSPSleepEventDelegate>\"16@0:8"
+- "@\"<HDSPSleepFocusModeBridge>\""
+- "@\"<HDSPSleepLockScreenAssertionManager>\""
+- "@\"<HDSPSleepLockScreenAssertionManagerDelegate>\""
+- "@\"<HDSPSleepLockScreenAssertionManagerDelegate>\"16@0:8"
+- "@\"<HDSPSleepProactiveBridge>\""
+- "@\"<HDSPSleepSessionManagerDelegate>\""
+- "@\"<HDSPSleepSessionPersistence>\""
+- "@\"<HDSPSleepTracker>\""
+- "@\"<HDSPSleepTrackerDelegate>\""
+- "@\"<HDSPSleepTrackerDelegate>\"16@0:8"
+- "@\"<HDSPSource>\""
+- "@\"<HDSPSyncedUserDefaults>\""
+- "@\"<HDSPSyncedUserDefaultsExternalChangeDelegate>\""
+- "@\"<HDSPSystemReadyDelegate>\""
+- "@\"<HDSPSystemReadyDelegate>\"16@0:8"
+- "@\"<HDSPSystemReadyProvider>\""
+- "@\"<HDSPWakeDetectorDelegate>\""
+- "@\"<HDSPWakeDetectorDelegate>\"16@0:8"
+- "@\"<HKSHWakeUpResultsNotificationDescribing>\"16@0:8"
+- "@\"<HKSPFileManager>\""
+- "@\"<HKSPMutexProvider>\""
+- "@\"<HKSPQueueBackedScheduler>\""
+- "@\"<HKSPScheduler>\""
+- "@\"<HKSPSleepFocusModeBridge>\""
+- "@\"<HKSPSleepFocusModeBridgeDelegate>\"16@0:8"
+- "@\"<HKSPUserDefaults>\""
+- "@\"<NAScheduler>\""
+- "@\"<NAScheduler>\"16@0:8"
+- "@\"<_CDLocalContext>\""
+- "@\"BMBiomeScheduler\""
+- "@\"BSDescriptionBuilder\"16@0:8"
+- "@\"BSDescriptionBuilder\"24@0:8@\"NSString\"16"
+- "@\"HDSPAnalyticsManager\""
+- "@\"HDSPApplicationWorkspaceMonitor\""
+- "@\"HDSPAssertionManager\""
+- "@\"HDSPBiomeManager\""
+- "@\"HDSPCFUserNotification\""
+- "@\"HDSPCFUserNotificationCenter\""
+- "@\"HDSPChargingReminderDisabledState\""
+- "@\"HDSPChargingReminderManager\""
+- "@\"HDSPChargingReminderMonitoringState\""
+- "@\"HDSPChargingReminderNotifiedState\""
+- "@\"HDSPChargingReminderStateMachine\""
+- "@\"HDSPChargingReminderWaitingState\""
+- "@\"HDSPContextStoreManager\""
+- "@\"HDSPDevicePowerMonitor\""
+- "@\"HDSPDeviceUnlockMonitor\""
+- "@\"HDSPDiagnostics\""
+- "@\"HDSPEnvironment\""
+- "@\"HDSPEnvironment\"16@0:8"
+- "@\"HDSPEnvironmentDemoState\""
+- "@\"HDSPEnvironmentMigrationState\""
+- "@\"HDSPEnvironmentNotReadyState\""
+- "@\"HDSPEnvironmentReadyState\""
+- "@\"HDSPEnvironmentStateMachine\""
+- "@\"HDSPGoodMorningAlertDisabledState\""
+- "@\"HDSPGoodMorningAlertManager\""
+- "@\"HDSPGoodMorningAlertPresentingState\""
+- "@\"HDSPGoodMorningAlertStateMachine\""
+- "@\"HDSPGoodMorningAlertWaitingState\""
+- "@\"HDSPIDSServiceManager\""
+- "@\"HDSPNotificationListener\""
+- "@\"HDSPProcessStateManager\""
+- "@\"HDSPSleepActionManager\""
+- "@\"HDSPSleepAlarmManager\""
+- "@\"HDSPSleepApneaAnalyticsBuilder\""
+- "@\"HDSPSleepEventList\""
+- "@\"HDSPSleepEventScheduler\""
+- "@\"HDSPSleepLockScreenBedtimeState\""
+- "@\"HDSPSleepLockScreenGreetingState\""
+- "@\"HDSPSleepLockScreenManager\""
+- "@\"HDSPSleepLockScreenOffState\""
+- "@\"HDSPSleepLockScreenStateMachine\""
+- "@\"HDSPSleepLockScreenWindDownState\""
+- "@\"HDSPSleepModeAutomatedOffState\""
+- "@\"HDSPSleepModeAutomatedOnState\""
+- "@\"HDSPSleepModeBedtimeState\""
+- "@\"HDSPSleepModeManager\""
+- "@\"HDSPSleepModeManualOffState\""
+- "@\"HDSPSleepModeManualOnState\""
+- "@\"HDSPSleepModeOffState\""
+- "@\"HDSPSleepModeStateMachine\""
+- "@\"HDSPSleepModeWindDownState\""
+- "@\"HDSPSleepNotificationManager\""
+- "@\"HDSPSleepScheduleModelChangeEvaluation\""
+- "@\"HDSPSleepScheduleModelChangeEvaluator\""
+- "@\"HDSPSleepScheduleModelManager\""
+- "@\"HDSPSleepScheduleModelMigrationManager\""
+- "@\"HDSPSleepScheduleStateCoordinator\""
+- "@\"HDSPSleepScheduleStateCoordinatorBedtimeState\""
+- "@\"HDSPSleepScheduleStateCoordinatorDelayedWakeUpState\""
+- "@\"HDSPSleepScheduleStateCoordinatorDisabledState\""
+- "@\"HDSPSleepScheduleStateCoordinatorInitialState\""
+- "@\"HDSPSleepScheduleStateCoordinatorStateMachine\""
+- "@\"HDSPSleepScheduleStateCoordinatorWakeUpState\""
+- "@\"HDSPSleepScheduleStateCoordinatorWindDownState\""
+- "@\"HDSPSleepSessionManager\""
+- "@\"HDSPSleepStorage\""
+- "@\"HDSPSleepStoreServer\""
+- "@\"HDSPSleepTrackingManager\""
+- "@\"HDSPSleepWidgetBedtimeInProgressState\""
+- "@\"HDSPSleepWidgetBedtimeState\""
+- "@\"HDSPSleepWidgetDisabledState\""
+- "@\"HDSPSleepWidgetGreetingState\""
+- "@\"HDSPSleepWidgetManager\""
+- "@\"HDSPSleepWidgetNotOnboardedState\""
+- "@\"HDSPSleepWidgetStateMachine\""
+- "@\"HDSPSleepWidgetUpcomingState\""
+- "@\"HDSPSleepWidgetWaitingState\""
+- "@\"HDSPSleepWidgetWindDownState\""
+- "@\"HDSPSpringboardMonitor\""
+- "@\"HDSPSyncedDefaults\""
+- "@\"HDSPSyncedDefaultsConfiguration\""
+- "@\"HDSPSyncedDefaultsInfo\""
+- "@\"HDSPSystemMonitor\""
+- "@\"HDSPTimeChangeListener\""
+- "@\"HDSPTimeChangeListener\"16@?0@\"HDSPEnvironment\"8"
+- "@\"HDSPWakeDetectionActivityDetectingState\""
+- "@\"HDSPWakeDetectionDisabledState\""
+- "@\"HDSPWakeDetectionExplicitDetectingState\""
+- "@\"HDSPWakeDetectionManager\""
+- "@\"HDSPWakeDetectionNotifiedState\""
+- "@\"HDSPWakeDetectionStateMachine\""
+- "@\"HDSPWakeDetectionWaitingState\""
+- "@\"HDSPWakeUpResultsNotification\""
+- "@\"HDSPWakeUpResultsNotificationDelayingForTrackingState\""
+- "@\"HDSPWakeUpResultsNotificationDisabledState\""
+- "@\"HDSPWakeUpResultsNotificationManager\""
+- "@\"HDSPWakeUpResultsNotificationManager\"16@?0@\"HDSPEnvironment\"8"
+- "@\"HDSPWakeUpResultsNotificationNeedsProtectedDataState\""
+- "@\"HDSPWakeUpResultsNotificationNotifiedState\""
+- "@\"HDSPWakeUpResultsNotificationQueryingState\""
+- "@\"HDSPWakeUpResultsNotificationStateMachine\""
+- "@\"HDSPWakeUpResultsNotificationWaitingForRetryState\""
+- "@\"HDSPWakeUpResultsNotificationWaitingForWakeUpState\""
+- "@\"HDSPWatchOnWristMonitor\""
+- "@\"HKFeatureOnboardingRecord\""
+- "@\"HKHealthStore\""
+- "@\"HKQuantity\""
+- "@\"HKSPAccumulator\""
+- "@\"HKSPAnalyticsManager\""
+- "@\"HKSPDiagnostics\""
+- "@\"HKSPHealthStoreProvider\""
+- "@\"HKSPLimitingScheduler\""
+- "@\"HKSPObserverSet\""
+- "@\"HKSPPersistentSyncAnchorContainer\""
+- "@\"HKSPSensitiveUIMonitor\""
+- "@\"HKSPSleepEvent\""
+- "@\"HKSPSleepEventRecord\""
+- "@\"HKSPSleepEventTimelineResults\""
+- "@\"HKSPSleepFocusConfiguration\"24@0:8^@16"
+- "@\"HKSPSleepSchedule\""
+- "@\"HKSPSleepScheduleModel\"16@0:8"
+- "@\"HKSPSleepScheduleOccurrence\"16@0:8"
+- "@\"HKSPSleepSettings\""
+- "@\"HKSPSleepWidgetManager\""
+- "@\"HKSPThrottler\""
+- "@\"HKSPXPCConnectionListener\""
+- "@\"HKSleepMetricsEngine\""
+- "@\"HKWristDetectionSettingManager\""
+- "@\"IDSService\""
+- "@\"MTAlarmManager\""
+- "@\"NAFuture\""
+- "@\"NAFuture\"24@0:8@\"HDSPSleepSession\"16"
+- "@\"NAFuture\"24@0:8@\"NSArray\"16"
+- "@\"NAFuture\"24@0:8@\"NSDateInterval\"16"
+- "@\"NAFuture\"32@0:8@\"HDSPNotificationListener\"16@\"NSString\"24"
+- "@\"NAFuture\"32@0:8@\"HDSPSleepSessionManager\"16@\"HDSPSleepSession\"24"
+- "@\"NPSDomainAccessor\""
+- "@\"NPSManager\""
+- "@\"NSArray\""
+- "@\"NSArray\"24@0:8@\"NSDate\"16"
+- "@\"NSArray\"32@0:8@\"NSDateInterval\"16^@24"
+- "@\"NSCalendar\""
+- "@\"NSData\"24@0:8@\"NSString\"16"
+- "@\"NSDate\""
+- "@\"NSDate\"16@0:8"
+- "@\"NSDate\"32@0:8@\"NSDateInterval\"16^@24"
+- "@\"NSDate\"36@0:8@\"NSDateInterval\"16B24^@28"
+- "@\"NSDate\"8@?0"
+- "@\"NSDateInterval\""
+- "@\"NSDateInterval\"24@0:8@\"NSDate\"16"
+- "@\"NSDateInterval\"24@0:8Q16"
+- "@\"NSDictionary\""
+- "@\"NSDictionary\"16@0:8"
+- "@\"NSDictionary\"24@0:8@\"NSSet\"16"
+- "@\"NSError\""
+- "@\"NSHashTable\""
+- "@\"NSMutableArray\""
+- "@\"NSMutableDictionary\""
+- "@\"NSMutableSet\""
+- "@\"NSNumber\""
+- "@\"NSObject<OS_dispatch_queue>\""
+- "@\"NSObject<OS_dispatch_source>\""
+- "@\"NSObject<OS_os_transaction>\""
+- "@\"NSObject<OS_xpc_object>\""
+- "@\"NSSet\""
+- "@\"NSSet\"16@0:8"
+- "@\"NSString\""
+- "@\"NSString\"16@0:8"
+- "@\"NSString\"24@0:8@\"NSString\"16"
+- "@\"NSUbiquitousKeyValueStore\""
+- "@\"NSXPCConnection\""
+- "@\"NSXPCListener\""
+- "@\"RBSProcessMonitor\""
+- "@\"SBSLockScreenRemoteContentAssertion\""
+- "@\"UNUserNotificationCenter\""
+- "@\"_HKBehavior\""
+- "@\"_TtC11SleepDaemon30HDSPSleepScoreAnalyticsBuilder\""
+- "@16@0:8"
+- "@16@?0@\"HKSPAnalyticsWindDownEventData\"8"
+- "@20@0:8B16"
+- "@24@0:8:16"
+- "@24@0:8@\"HDSPEnvironment\"16"
+- "@24@0:8@\"NSCoder\"16"
+- "@24@0:8@\"NSString\"16"
+- "@24@0:8@16"
+- "@24@0:8@?16"
+- "@24@0:8B16B20"
+- "@24@0:8Q16"
+- "@24@0:8^@16"
+- "@24@0:8^{_NSZone=}16"
+- "@24@0:8q16"
+- "@288@0:8@16@?24@?32@?40@?48@?56@?64@?72@?80@?88@?96@?104@?112@?120@128@?136@?144@?152@?160@?168@?176@?184@?192@?200@?208@216@?224@?232@?240@248@256@?264@272@?280"
+- "@28@0:8@16B24"
+- "@28@0:8B16@20"
+- "@32@0:8:16@24"
+- "@32@0:8@\"NSString\"16d24"
+- "@32@0:8@16@24"
+- "@32@0:8@16@?24"
+- "@32@0:8@16@?<v@?@\"<BMStoreData>\">24"
+- "@32@0:8@16Q24"
+- "@32@0:8@16^@24"
+- "@32@0:8@16d24"
+- "@32@0:8@?16B24B28"
+- "@32@0:8Q16@24"
+- "@36@0:8@16@24B32"
+- "@36@0:8@16B24^@28"
+- "@36@0:8B16@20@28"
+- "@40@0:8:16@24@32"
+- "@40@0:8@16@24@32"
+- "@40@0:8@16@24@?32"
+- "@40@0:8@16@?24@32"
+- "@40@0:8@16Q24@32"
+- "@40@0:8@16^{__CFUserNotification=}24@?32"
+- "@40@0:8B16@20@28B36"
+- "@40@0:8Q16@24@32"
+- "@40@0:8{?=qq}16@32"
+- "@40@0:8{?=qq}16@?32"
+- "@48@0:8#16@24@32^@40"
+- "@48@0:8@16@24@32@40"
+- "@48@0:8@16@24{?=qq}32"
+- "@48@0:8@16Q24@32@40"
+- "@48@0:8@16{?=qq}24@40"
+- "@48@0:8Q16{?=qq}24@40"
+- "@52@0:8@16@24Q32@40B48"
+- "@56@0:8@16@24@32@40@?48"
+- "@56@0:8@16@24@?32@?40d48"
+- "@56@0:8Q16q24@32q40@48"
+- "@64@0:8@16@24@32@40@48@56"
+- "@72@0:8@16@24@32@40@48{?=qq}56"
+- "@72@0:8@16Q24@32Q40@48@56Q64"
+- "@80@0:8@16@24@32{?=qq}40@56@64@?72"
+- "@?"
+- "@?16@0:8"
+- "@?24@0:8@16"
+- "@avg.doubleValue"
+- "@max.doubleValue"
+- "@min.doubleValue"
+- "Analytics"
+- "B"
+- "B16@0:8"
+- "B16@?0@\"HKSample\"8"
+- "B16@?0@\"HKSleepDaySummary\"8"
+- "B20@0:8i16"
+- "B24@0:8#16"
+- "B24@0:8:16"
+- "B24@0:8@\"NSString\"16"
+- "B24@0:8@\"Protocol\"16"
+- "B24@0:8@16"
+- "B24@0:8Q16"
+- "B24@0:8^@16"
+- "B24@0:8q16"
+- "B32@0:8@\"NSXPCListener\"16@\"NSXPCConnection\"24"
+- "B32@0:8@16@24"
+- "B32@0:8@16Q24"
+- "B32@0:8@16^@24"
+- "B32@0:8Q16^@24"
+- "B40@0:8@16Q24@32"
+- "B40@0:8@16Q24^@32"
+- "B40@0:8@16^@24@?32"
+- "B40@0:8@?16@?24^@32"
+- "B40@0:8Q16Q24Q32"
+- "B48@0:8@16@24Q32^@40"
+- "B48@0:8@16Q24@32@40"
+- "BSDescriptionProviding"
+- "ComputedMode"
+- "DSLPublisher"
+- "Daemon"
+- "Daily sleep duration goal requires OneDay category"
+- "DelayingForTracking"
+- "Device"
+- "Editing"
+- "F"
+- "HDSPActivity"
+- "HDSPActivityScheduler"
+- "HDSPActivityWakeDetector"
+- "HDSPAnalyticsDailyReportBuilder"
+- "HDSPAnalyticsManager"
+- "HDSPAppPredictionClient"
+- "HDSPApplicationWorkspaceMonitor"
+- "HDSPApplicationWorkspaceObserver"
+- "HDSPAssertion"
+- "HDSPAssertionManager"
+- "HDSPBiomeInBedDetectionProvider"
+- "HDSPBiomeInBedDetectionProviding"
+- "HDSPBiomeInBedDetector"
+- "HDSPBiomeInterface"
+- "HDSPBiomeManager"
+- "HDSPCDInBedDetector"
+- "HDSPCFUserNotification"
+- "HDSPCFUserNotificationCenter"
+- "HDSPCFUserNotificationCenterManager"
+- "HDSPChargingReminderDisabledState"
+- "HDSPChargingReminderManager"
+- "HDSPChargingReminderMonitoringState"
+- "HDSPChargingReminderNotifiedState"
+- "HDSPChargingReminderStateMachine"
+- "HDSPChargingReminderStateMachineDelegate"
+- "HDSPChargingReminderStateMachineEventHandler"
+- "HDSPChargingReminderStateMachineInfoProvider"
+- "HDSPChargingReminderStateMachineState"
+- "HDSPChargingReminderWaitingState"
+- "HDSPCloudDefaults"
+- "HDSPConfirmWakeUpIDSMessage"
+- "HDSPContextStoreManager"
+- "HDSPDarwinNotificationCenter"
+- "HDSPDemoModeEnvironment"
+- "HDSPDevicePowerMonitor"
+- "HDSPDevicePowerObserver"
+- "HDSPDeviceUnlockMonitor"
+- "HDSPDeviceUnlockObserver"
+- "HDSPDiagnostics"
+- "HDSPDiagnosticsProvider"
+- "HDSPDisabledEnvironment"
+- "HDSPDismissGoodMorningIDSMessage"
+- "HDSPEnvironment"
+- "HDSPEnvironmentAware"
+- "HDSPEnvironmentDemoState"
+- "HDSPEnvironmentMigrationState"
+- "HDSPEnvironmentNotReadyState"
+- "HDSPEnvironmentReadyState"
+- "HDSPEnvironmentState"
+- "HDSPEnvironmentStateMachine"
+- "HDSPEnvironmentStateMachineDelegate"
+- "HDSPEnvironmentStateMachineEventHandler"
+- "HDSPEnvironmentStateMachineInfoProvider"
+- "HDSPEventRecordMessage"
+- "HDSPEventScheduleDelegate"
+- "HDSPEventScheduler"
+- "HDSPGCDTimerScheduler"
+- "HDSPGoodMorningAlertDisabledState"
+- "HDSPGoodMorningAlertManager"
+- "HDSPGoodMorningAlertObserver"
+- "HDSPGoodMorningAlertPresentingState"
+- "HDSPGoodMorningAlertStateMachine"
+- "HDSPGoodMorningAlertStateMachineDelegate"
+- "HDSPGoodMorningAlertStateMachineEventHandler"
+- "HDSPGoodMorningAlertStateMachineInfoProvider"
+- "HDSPGoodMorningAlertStateMachineState"
+- "HDSPGoodMorningAlertWaitingState"
+- "HDSPIDSMessage"
+- "HDSPIDSService"
+- "HDSPIDSServiceDelegate"
+- "HDSPIDSServiceManager"
+- "HDSPInBedDetector"
+- "HDSPMobileTimerBridge"
+- "HDSPNanoDefaults"
+- "HDSPNotificationListener"
+- "HDSPNotificationObserver"
+- "HDSPNotifiedForEarlyWakeUpIDSMessage"
+- "HDSPOrchestrationCenter"
+- "HDSPOrchestrationClientWrapper"
+- "HDSPPhoneReadyProvider"
+- "HDSPProcessStateManager"
+- "HDSPProcessStateManagerDelegate"
+- "HDSPSetSleepModeIDSMessage"
+- "HDSPSimulatorReadyProvider"
+- "HDSPSleep"
+- "HDSPSleepActionManager"
+- "HDSPSleepActionObserver"
+- "HDSPSleepAlarmDismissedIDSMessage"
+- "HDSPSleepAlarmManager"
+- "HDSPSleepAlarmSnoozedIDSMessage"
+- "HDSPSleepApneaAnalyticsBuilder"
+- "HDSPSleepDaemon"
+- "HDSPSleepEventDelegate"
+- "HDSPSleepEventHandler"
+- "HDSPSleepEventList"
+- "HDSPSleepEventProvider"
+- "HDSPSleepEventScheduler"
+- "HDSPSleepFocusModeBridge"
+- "HDSPSleepLockScreenAssertionManager"
+- "HDSPSleepLockScreenAssertionManagerDelegate"
+- "HDSPSleepLockScreenBedtimeState"
+- "HDSPSleepLockScreenGreetingState"
+- "HDSPSleepLockScreenManager"
+- "HDSPSleepLockScreenOffState"
+- "HDSPSleepLockScreenStateMachine"
+- "HDSPSleepLockScreenStateMachineDelegate"
+- "HDSPSleepLockScreenStateMachineEventHandler"
+- "HDSPSleepLockScreenStateMachineInfoProvider"
+- "HDSPSleepLockScreenStateMachineState"
+- "HDSPSleepLockScreenWindDownState"
+- "HDSPSleepModeAutomatedOffState"
+- "HDSPSleepModeAutomatedOnState"
+- "HDSPSleepModeBedtimeState"
+- "HDSPSleepModeExitDetector"
+- "HDSPSleepModeManager"
+- "HDSPSleepModeManualOffState"
+- "HDSPSleepModeManualOnState"
+- "HDSPSleepModeObserver"
+- "HDSPSleepModeOffState"
+- "HDSPSleepModeStateMachine"
+- "HDSPSleepModeStateMachineContext"
+- "HDSPSleepModeStateMachineDelegate"
+- "HDSPSleepModeStateMachineEventHandler"
+- "HDSPSleepModeStateMachineInfoProvider"
+- "HDSPSleepModeStateMachineState"
+- "HDSPSleepModeWindDownState"
+- "HDSPSleepNotificationManager"
+- "HDSPSleepNotificationPublisher"
+- "HDSPSleepProactiveBridge"
+- "HDSPSleepScheduleModelChangeEvaluation"
+- "HDSPSleepScheduleModelChangeEvaluator"
+- "HDSPSleepScheduleModelManager"
+- "HDSPSleepScheduleModelMigrationManager"
+- "HDSPSleepScheduleModelObserver"
+- "HDSPSleepScheduleModelSaveResult"
+- "HDSPSleepScheduleModelValidationResult"
+- "HDSPSleepScheduleStateCoordinator"
+- "HDSPSleepScheduleStateCoordinatorBedtimeState"
+- "HDSPSleepScheduleStateCoordinatorDelayedWakeUpState"
+- "HDSPSleepScheduleStateCoordinatorDisabledState"
+- "HDSPSleepScheduleStateCoordinatorInitialState"
+- "HDSPSleepScheduleStateCoordinatorStateMachine"
+- "HDSPSleepScheduleStateCoordinatorStateMachineContext"
+- "HDSPSleepScheduleStateCoordinatorStateMachineDelegate"
+- "HDSPSleepScheduleStateCoordinatorStateMachineEventHandler"
+- "HDSPSleepScheduleStateCoordinatorStateMachineInfoProvider"
+- "HDSPSleepScheduleStateCoordinatorStateMachineState"
+- "HDSPSleepScheduleStateCoordinatorWakeUpState"
+- "HDSPSleepScheduleStateCoordinatorWindDownState"
+- "HDSPSleepScheduleStateObserver"
+- "HDSPSleepScreenUnlockDetector"
+- "HDSPSleepSession"
+- "HDSPSleepSessionInterval"
+- "HDSPSleepSessionManager"
+- "HDSPSleepSessionManagerDelegate"
+- "HDSPSleepSessionPersistence"
+- "HDSPSleepStorage"
+- "HDSPSleepStorageObserver"
+- "HDSPSleepStoreServer"
+- "HDSPSleepTracker"
+- "HDSPSleepTrackerDelegate"
+- "HDSPSleepTrackingManager"
+- "HDSPSleepWidgetBedtimeInProgressState"
+- "HDSPSleepWidgetBedtimeState"
+- "HDSPSleepWidgetDisabledState"
+- "HDSPSleepWidgetGreetingState"
+- "HDSPSleepWidgetManager"
+- "HDSPSleepWidgetNotOnboardedState"
+- "HDSPSleepWidgetStateMachine"
+- "HDSPSleepWidgetStateMachineDelegate"
+- "HDSPSleepWidgetStateMachineEventHandler"
+- "HDSPSleepWidgetStateMachineInfoProvider"
+- "HDSPSleepWidgetStateMachineState"
+- "HDSPSleepWidgetUpcomingState"
+- "HDSPSleepWidgetWaitingState"
+- "HDSPSleepWidgetWindDownState"
+- "HDSPSource"
+- "HDSPSpringboardMonitor"
+- "HDSPSpringboardObserver"
+- "HDSPSyncedDefaults"
+- "HDSPSyncedDefaultsConfiguration"
+- "HDSPSyncedDefaultsInfo"
+- "HDSPSyncedDefaultsKeySet"
+- "HDSPSyncedUserDefaults"
+- "HDSPSyncedUserDefaultsExternalChangeDelegate"
+- "HDSPSystemMonitor"
+- "HDSPSystemReadyDelegate"
+- "HDSPSystemReadyProvider"
+- "HDSPTestIDSMessage"
+- "HDSPTimeChangeListener"
+- "HDSPTimeChangeObserver"
+- "HDSPTimeInBedTracker"
+- "HDSPUserNotificationCenter"
+- "HDSPWakeDetectionActivityDetectingState"
+- "HDSPWakeDetectionDisabledState"
+- "HDSPWakeDetectionExplicitDetectingState"
+- "HDSPWakeDetectionManager"
+- "HDSPWakeDetectionNotifiedState"
+- "HDSPWakeDetectionStateMachine"
+- "HDSPWakeDetectionStateMachineContext"
+- "HDSPWakeDetectionStateMachineDelegate"
+- "HDSPWakeDetectionStateMachineEventHandler"
+- "HDSPWakeDetectionStateMachineInfoProvider"
+- "HDSPWakeDetectionStateMachineState"
+- "HDSPWakeDetectionWaitingState"
+- "HDSPWakeDetector"
+- "HDSPWakeDetectorDelegate"
+- "HDSPWakeUpResultsNotification"
+- "HDSPWakeUpResultsNotificationBuilder"
+- "HDSPWakeUpResultsNotificationDelayingForTrackingState"
+- "HDSPWakeUpResultsNotificationDisabledState"
+- "HDSPWakeUpResultsNotificationErrorDomain"
+- "HDSPWakeUpResultsNotificationLocalizer"
+- "HDSPWakeUpResultsNotificationLocalizer.m"
+- "HDSPWakeUpResultsNotificationManager"
+- "HDSPWakeUpResultsNotificationManager.m"
+- "HDSPWakeUpResultsNotificationNeedsProtectedDataState"
+- "HDSPWakeUpResultsNotificationNotifiedState"
+- "HDSPWakeUpResultsNotificationQueryingState"
+- "HDSPWakeUpResultsNotificationStateMachine"
+- "HDSPWakeUpResultsNotificationStateMachineDelegate"
+- "HDSPWakeUpResultsNotificationStateMachineEventHandler"
+- "HDSPWakeUpResultsNotificationStateMachineInfoProvider"
+- "HDSPWakeUpResultsNotificationStateMachineState"
+- "HDSPWakeUpResultsNotificationWaitingForRetryState"
+- "HDSPWakeUpResultsNotificationWaitingForWakeUpState"
+- "HDSPWatchOnWristMonitor"
+- "HDSPWatchOnWristObserver"
+- "HDSPWatchOnWristWakeDetector"
+- "HDSPWatchReadyProvider"
+- "HDSPXPCActivity"
+- "HDSPXPCActivityScheduler"
+- "HDSPXPCAlarmScheduler"
+- "HKSHWakeUpResultsNotificationBuilding"
+- "HKSHWakeUpResultsNotificationDescribing"
+- "HKSPDiagnosticsProvider"
+- "HKSPDictionarySerializable"
+- "HKSPPersistentStateMachineDelegate"
+- "HKSPPersistentStateMachineEventHandler"
+- "HKSPSensitiveUIObserver"
+- "HKSPServer"
+- "HKSPSleepFocusModeBridge"
+- "HKSPSleepFocusModeBridgeDelegate"
+- "HKSPSleepLockScreenClient"
+- "HKSPSleepLockScreenServer"
+- "HKSPSleepServer"
+- "HKSPSleepWidgetManagerDelegate"
+- "HKSPStateMachineDelegate"
+- "HKSPStateMachineEventHandler"
+- "HKSPStateMachineInfoProvider"
+- "HKSPUserDefaults"
+- "HKSPXPCConnectionListenerDelegate"
+- "HKWristDetectionSettingManagerObserver"
+- "I"
+- "I16@0:8"
+- "IDSServiceDelegate"
+- "LSApplicationWorkspaceObserverProtocol"
+- "NSCoding"
+- "NSCopying"
+- "NSObject"
+- "NSSecureCoding"
+- "NSXPCListenerDelegate"
+- "NeedsProtectedData"
+- "One Week goal achieved count must be 3 or 4; received %@"
+- "PluggedIn"
+- "Power"
+- "Q"
+- "Q16@0:8"
+- "Q24@0:8i16i20"
+- "Q32@0:8d16d24"
+- "Q40@0:8@16@24^@32"
+- "Query returned data insufficient to attempt wake up result computation"
+- "Querying"
+- "RESULT_NOTIFICATION_TITLE"
+- "ScheduleState"
+- "ScreenLocked"
+- "Sleep"
+- "SleepDaemon.HDSPSleepScoreAnalyticsBuilder"
+- "SleepMode"
+- "T#,R"
+- "T@\"<HDSPActivityScheduler>\",R,N,V_dataCollectionScheduler"
+- "T@\"<HDSPActivityScheduler>\",R,N,V_monitoringScheduler"
+- "T@\"<HDSPActivityScheduler>\",R,N,V_retryAttemptScheduler"
+- "T@\"<HDSPBiomeInterface>\",R,N,V_biomeInterface"
+- "T@\"<HDSPChargingReminderStateMachineDelegate>\",R,W,D,N"
+- "T@\"<HDSPChargingReminderStateMachineInfoProvider>\",R,W,D,N"
+- "T@\"<HDSPEnvironmentStateMachineDelegate>\",R,W,D,N"
+- "T@\"<HDSPEnvironmentStateMachineInfoProvider>\",R,W,D,N"
+- "T@\"<HDSPEventScheduleDelegate>\",W,N"
+- "T@\"<HDSPEventScheduleDelegate>\",W,N,Vdelegate"
+- "T@\"<HDSPEventScheduler>\",R,N,V_scheduler"
+- "T@\"<HDSPGoodMorningAlertStateMachineDelegate>\",R,W,D,N"
+- "T@\"<HDSPGoodMorningAlertStateMachineInfoProvider>\",R,W,D,N"
+- "T@\"<HDSPIDSService>\",R,N,V_cloudService"
+- "T@\"<HDSPIDSService>\",R,N,V_localService"
+- "T@\"<HDSPIDSServiceDelegate>\",W,N"
+- "T@\"<HDSPIDSServiceDelegate>\",W,N,V_delegate"
+- "T@\"<HDSPInBedDetector>\",R,N,V_inBedDetector"
+- "T@\"<HDSPProcessStateManagerDelegate>\",W,N,V_delegate"
+- "T@\"<HDSPSleepAlarmProvider>\",R,N,V_sleepAlarmProvider"
+- "T@\"<HDSPSleepEventDelegate>\",W,N"
+- "T@\"<HDSPSleepEventDelegate>\",W,N,V_sleepEventDelegate"
+- "T@\"<HDSPSleepFocusModeBridge>\",R,N,V_sleepFocusModeBridge"
+- "T@\"<HDSPSleepLockScreenAssertionManager>\",R,N,V_assertionManager"
+- "T@\"<HDSPSleepLockScreenAssertionManagerDelegate>\",W,N"
+- "T@\"<HDSPSleepLockScreenAssertionManagerDelegate>\",W,N,V_delegate"
+- "T@\"<HDSPSleepLockScreenStateMachineDelegate>\",R,W,D,N"
+- "T@\"<HDSPSleepLockScreenStateMachineInfoProvider>\",R,W,D,N"
+- "T@\"<HDSPSleepModeStateMachineDelegate>\",R,W,D,N"
+- "T@\"<HDSPSleepModeStateMachineInfoProvider>\",R,W,D,N"
+- "T@\"<HDSPSleepProactiveBridge>\",R,N,V_sleepProactiveBridge"
+- "T@\"<HDSPSleepScheduleStateCoordinatorStateMachineDelegate>\",R,W,D,N"
+- "T@\"<HDSPSleepScheduleStateCoordinatorStateMachineInfoProvider>\",R,W,D,N"
+- "T@\"<HDSPSleepSessionManagerDelegate>\",W,N,V_delegate"
+- "T@\"<HDSPSleepSessionPersistence>\",R,N,V_persistence"
+- "T@\"<HDSPSleepTracker>\",R,N,V_sleepTracker"
+- "T@\"<HDSPSleepTrackerDelegate>\",W,N"
+- "T@\"<HDSPSleepTrackerDelegate>\",W,N,V_delegate"
+- "T@\"<HDSPSleepWidgetStateMachineDelegate>\",R,W,D,N"
+- "T@\"<HDSPSleepWidgetStateMachineInfoProvider>\",R,W,D,N"
+- "T@\"<HDSPSource>\",R,N,V_source"
+- "T@\"<HDSPSyncedUserDefaultsExternalChangeDelegate>\",W,N,V_delegate"
+- "T@\"<HDSPSystemReadyDelegate>\",W,N"
+- "T@\"<HDSPSystemReadyDelegate>\",W,N,V_delegate"
+- "T@\"<HDSPSystemReadyProvider>\",R,N,V_systemReadyProvider"
+- "T@\"<HDSPWakeDetectionStateMachineDelegate>\",R,W,D,N"
+- "T@\"<HDSPWakeDetectionStateMachineInfoProvider>\",R,W,D,N"
+- "T@\"<HDSPWakeDetectorDelegate>\",W,N"
+- "T@\"<HDSPWakeDetectorDelegate>\",W,N,V_wakeDetectorDelegate"
+- "T@\"<HDSPWakeUpResultsNotificationStateMachineDelegate>\",R,W,D,N"
+- "T@\"<HDSPWakeUpResultsNotificationStateMachineInfoProvider>\",R,N"
+- "T@\"<HDSPWakeUpResultsNotificationStateMachineInfoProvider>\",R,W,D,N"
+- "T@\"<HKSPFileManager>\",R,N,V_fileManager"
+- "T@\"<HKSPMutexProvider>\",R,N,V_mutexProvider"
+- "T@\"<HKSPScheduler>\",R,N,V_defaultCallbackScheduler"
+- "T@\"<HKSPSleepFocusModeBridge>\",R,N,V_sleepFocusModeBridge"
+- "T@\"<HKSPSleepFocusModeBridgeDelegate>\",W,N"
+- "T@\"<HKSPUserDefaults>\",R,N,V_userDefaults"
+- "T@\"<NAScheduler>\",?,R,N"
+- "T@\"<NAScheduler>\",R,N,V_callbackScheduler"
+- "T@\"<NAScheduler>\",R,N,V_sleepIntervalScheduler"
+- "T@\"<_CDLocalContext>\",R,N,V_context"
+- "T@\"BMBiomeScheduler\",R,N,V_scheduler"
+- "T@\"HDSPAnalyticsManager\",R,N,V_analyticsManager"
+- "T@\"HDSPApplicationWorkspaceMonitor\",R,N,V_applicationWorkspaceMonitor"
+- "T@\"HDSPAssertionManager\",R,N,V_assertionManager"
+- "T@\"HDSPBiomeManager\",R,N,V_biomeManager"
+- "T@\"HDSPCFUserNotification\",&,N,V_notification"
+- "T@\"HDSPCFUserNotificationCenter\",&,N,V_notificationCenter"
+- "T@\"HDSPChargingReminderDisabledState\",R,N,V_disabledState"
+- "T@\"HDSPChargingReminderManager\",R,N,V_chargingReminderManager"
+- "T@\"HDSPChargingReminderMonitoringState\",R,N,V_monitoringState"
+- "T@\"HDSPChargingReminderNotifiedState\",R,N,V_notifiedState"
+- "T@\"HDSPChargingReminderStateMachine\",R,N,V_stateMachine"
+- "T@\"HDSPChargingReminderStateMachine\",R,W,D,N"
+- "T@\"HDSPChargingReminderWaitingState\",R,N,V_waitingState"
+- "T@\"HDSPContextStoreManager\",R,N,V_contextStoreManager"
+- "T@\"HDSPDevicePowerMonitor\",R,N,V_devicePowerMonitor"
+- "T@\"HDSPDeviceUnlockMonitor\",R,N,V_deviceUnlockManager"
+- "T@\"HDSPDeviceUnlockMonitor\",R,N,V_deviceUnlockMonitor"
+- "T@\"HDSPDiagnostics\",R,N,V_diagnostics"
+- "T@\"HDSPEnvironment\",R,N,V_environment"
+- "T@\"HDSPEnvironment\",R,W,N"
+- "T@\"HDSPEnvironment\",R,W,N,V_environment"
+- "T@\"HDSPEnvironment\",R,W,N,Venvironment"
+- "T@\"HDSPEnvironmentDemoState\",R,N,V_demoState"
+- "T@\"HDSPEnvironmentMigrationState\",R,N,V_migrationState"
+- "T@\"HDSPEnvironmentNotReadyState\",R,N,V_notReadyState"
+- "T@\"HDSPEnvironmentReadyState\",R,N,V_readyState"
+- "T@\"HDSPEnvironmentStateMachine\",R,N,V_stateMachine"
+- "T@\"HDSPEnvironmentStateMachine\",R,W,D,N"
+- "T@\"HDSPGoodMorningAlertDisabledState\",R,N,V_disabledState"
+- "T@\"HDSPGoodMorningAlertManager\",R,N,V_goodMorningAlertManager"
+- "T@\"HDSPGoodMorningAlertPresentingState\",R,N,V_presentingState"
+- "T@\"HDSPGoodMorningAlertStateMachine\",R,N,V_stateMachine"
+- "T@\"HDSPGoodMorningAlertStateMachine\",R,W,D,N"
+- "T@\"HDSPGoodMorningAlertWaitingState\",R,N,V_waitingState"
+- "T@\"HDSPIDSServiceManager\",R,N,V_idsServiceManager"
+- "T@\"HDSPNotificationListener\",R,N,V_notificationListener"
+- "T@\"HDSPProcessStateManager\",R,N,V_processStateManager"
+- "T@\"HDSPSleepActionManager\",R,N,V_actionManager"
+- "T@\"HDSPSleepAlarmManager\",R,N,V_sleepAlarmManager"
+- "T@\"HDSPSleepApneaAnalyticsBuilder\",R,N,V_sleepApneaAnalyticsBuilder"
+- "T@\"HDSPSleepEventList\",R,N,V_sleepEvents"
+- "T@\"HDSPSleepEventScheduler\",R,N,V_sleepScheduler"
+- "T@\"HDSPSleepLockScreenBedtimeState\",R,N,V_bedtimeState"
+- "T@\"HDSPSleepLockScreenGreetingState\",R,N,V_greetingState"
+- "T@\"HDSPSleepLockScreenManager\",R,N,V_sleepLockScreenManager"
+- "T@\"HDSPSleepLockScreenOffState\",R,N,V_offState"
+- "T@\"HDSPSleepLockScreenStateMachine\",R,N,V_stateMachine"
+- "T@\"HDSPSleepLockScreenStateMachine\",R,W,D,N"
+- "T@\"HDSPSleepLockScreenWindDownState\",R,N,V_windDownState"
+- "T@\"HDSPSleepModeAutomatedOffState\",R,N,V_automatedOffState"
+- "T@\"HDSPSleepModeAutomatedOnState\",R,N,V_automatedOnState"
+- "T@\"HDSPSleepModeBedtimeState\",R,N,V_bedtimeState"
+- "T@\"HDSPSleepModeManager\",R,N,V_sleepModeManager"
+- "T@\"HDSPSleepModeManualOffState\",R,N,V_manualOffState"
+- "T@\"HDSPSleepModeManualOnState\",R,N,V_manualOnState"
+- "T@\"HDSPSleepModeOffState\",R,N,V_offState"
+- "T@\"HDSPSleepModeStateMachine\",R,N,V_stateMachine"
+- "T@\"HDSPSleepModeStateMachine\",R,W,D,N"
+- "T@\"HDSPSleepModeWindDownState\",R,N,V_windDownState"
+- "T@\"HDSPSleepNotificationManager\",R,N,V_notificationManager"
+- "T@\"HDSPSleepScheduleModelChangeEvaluation\",R,N,V_changeEvaluation"
+- "T@\"HDSPSleepScheduleModelChangeEvaluator\",R,N,V_changeEvaluator"
+- "T@\"HDSPSleepScheduleModelManager\",R,N,V_sleepScheduleModelManager"
+- "T@\"HDSPSleepScheduleModelMigrationManager\",R,N,V_migrationManager"
+- "T@\"HDSPSleepScheduleStateCoordinator\",R,N,V_sleepCoordinator"
+- "T@\"HDSPSleepScheduleStateCoordinatorBedtimeState\",R,N,V_bedtimeState"
+- "T@\"HDSPSleepScheduleStateCoordinatorDelayedWakeUpState\",R,N,V_delayedWakeUpState"
+- "T@\"HDSPSleepScheduleStateCoordinatorDisabledState\",R,N,V_disabledState"
+- "T@\"HDSPSleepScheduleStateCoordinatorInitialState\",R,N,V_initialState"
+- "T@\"HDSPSleepScheduleStateCoordinatorStateMachine\",R,N,V_stateMachine"
+- "T@\"HDSPSleepScheduleStateCoordinatorStateMachine\",R,W,D,N"
+- "T@\"HDSPSleepScheduleStateCoordinatorWakeUpState\",R,N,V_wakeUpState"
+- "T@\"HDSPSleepScheduleStateCoordinatorWindDownState\",R,N,V_windDownState"
+- "T@\"HDSPSleepSessionManager\",R,N,V_sleepSessionManager"
+- "T@\"HDSPSleepStorage\",R,N,V_sleepStorage"
+- "T@\"HDSPSleepStoreServer\",R,N,V_sleepServer"
+- "T@\"HDSPSleepTrackingManager\",R,N,V_sleepTrackingManager"
+- "T@\"HDSPSleepWidgetBedtimeInProgressState\",R,N,V_bedtimeInProgressState"
+- "T@\"HDSPSleepWidgetBedtimeState\",R,N,V_bedtimeState"
+- "T@\"HDSPSleepWidgetDisabledState\",R,N,V_disabledState"
+- "T@\"HDSPSleepWidgetGreetingState\",R,N,V_greetingState"
+- "T@\"HDSPSleepWidgetManager\",R,N,V_sleepWidgetManager"
+- "T@\"HDSPSleepWidgetNotOnboardedState\",R,N,V_notOnboardedState"
+- "T@\"HDSPSleepWidgetStateMachine\",R,W,D,N"
+- "T@\"HDSPSleepWidgetUpcomingState\",R,N,V_upcomingState"
+- "T@\"HDSPSleepWidgetWaitingState\",R,N,V_waitingState"
+- "T@\"HDSPSleepWidgetWindDownState\",R,N,V_windDownState"
+- "T@\"HDSPSpringboardMonitor\",R,N,V_springboardMonitor"
+- "T@\"HDSPSyncedDefaults\",R,N,V_syncedDefaults"
+- "T@\"HDSPSyncedDefaultsConfiguration\",R,N,V_configuration"
+- "T@\"HDSPSyncedDefaultsInfo\",R,N,V_info"
+- "T@\"HDSPSystemMonitor\",R,N,V_systemMonitor"
+- "T@\"HDSPTimeChangeListener\",R,N,V_timeChangeListener"
+- "T@\"HDSPWakeDetectionActivityDetectingState\",R,N,V_activityDetectingState"
+- "T@\"HDSPWakeDetectionDisabledState\",R,N,V_disabledState"
+- "T@\"HDSPWakeDetectionExplicitDetectingState\",R,N,V_explicitDetectingState"
+- "T@\"HDSPWakeDetectionManager\",R,N,V_wakeDetectionManager"
+- "T@\"HDSPWakeDetectionNotifiedState\",R,N,V_notifiedState"
+- "T@\"HDSPWakeDetectionStateMachine\",R,N,V_stateMachine"
+- "T@\"HDSPWakeDetectionStateMachine\",R,W,D,N"
+- "T@\"HDSPWakeDetectionWaitingState\",R,N,V_waitingState"
+- "T@\"HDSPWakeUpResultsNotification\",R,N,V_notification"
+- "T@\"HDSPWakeUpResultsNotificationDelayingForTrackingState\",R,N,V_delayingForTrackingState"
+- "T@\"HDSPWakeUpResultsNotificationDisabledState\",R,N,V_disabledState"
+- "T@\"HDSPWakeUpResultsNotificationManager\",R,N,V_wakeUpResultsNotificationManager"
+- "T@\"HDSPWakeUpResultsNotificationNeedsProtectedDataState\",R,N,V_needsProtectedDataState"
+- "T@\"HDSPWakeUpResultsNotificationNotifiedState\",R,N,V_notifiedState"
+- "T@\"HDSPWakeUpResultsNotificationQueryingState\",R,N,V_queryingState"
+- "T@\"HDSPWakeUpResultsNotificationStateMachine\",R,N,V_stateMachine"
+- "T@\"HDSPWakeUpResultsNotificationStateMachine\",R,W,D,N"
+- "T@\"HDSPWakeUpResultsNotificationWaitingForRetryState\",R,N,V_waitingForRetryState"
+- "T@\"HDSPWakeUpResultsNotificationWaitingForWakeUpState\",R,N,V_waitingForWakeUpState"
+- "T@\"HDSPWatchOnWristMonitor\",R,N,V_watchOnWristMonitor"
+- "T@\"HKFeatureOnboardingRecord\",R,N,V_sleepApneaFeatureOnboardingRecord"
+- "T@\"HKHealthStore\",R,N,V_healthStore"
+- "T@\"HKQuantity\",R,C,N,V_goalAchieved"
+- "T@\"HKSPAnalyticsManager\",R,N,V_analyticsManager"
+- "T@\"HKSPDiagnostics\",R,N,V_diagnostics"
+- "T@\"HKSPHealthStoreProvider\",R,N,V_healthStoreProvider"
+- "T@\"HKSPLimitingScheduler\",R,N,V_limitingScheduler"
+- "T@\"HKSPObserverSet\",R,N,V_eventHandlers"
+- "T@\"HKSPObserverSet\",R,N,V_goodMorningAlertObservers"
+- "T@\"HKSPObserverSet\",R,N,V_observers"
+- "T@\"HKSPObserverSet\",R,N,V_providers"
+- "T@\"HKSPObserverSet\",R,N,V_sleepModeObservers"
+- "T@\"HKSPObserverSet\",R,N,V_sleepSessionObservers"
+- "T@\"HKSPPersistentSyncAnchorContainer\",&,N,V_syncAnchorContainer"
+- "T@\"HKSPSensitiveUIMonitor\",R,N,V_sensitiveUIMonitor"
+- "T@\"HKSPSleepEvent\",&,N,V_lastStandardSleepEvent"
+- "T@\"HKSPSleepEventRecord\",C,N,V_lastRecord"
+- "T@\"HKSPSleepEventRecord\",R,N,V_sleepEventRecord"
+- "T@\"HKSPSleepEventTimelineResults\",R,N,V_timelineResults"
+- "T@\"HKSPSleepSchedule\",C,N,V_lastSchedule"
+- "T@\"HKSPSleepSchedule\",R,N,V_sleepSchedule"
+- "T@\"HKSPSleepScheduleModel\",R,N"
+- "T@\"HKSPSleepScheduleOccurrence\",R,N"
+- "T@\"HKSPSleepSettings\",C,N,V_lastSettings"
+- "T@\"HKSPSleepSettings\",R,N,V_sleepSettings"
+- "T@\"HKSPXPCConnectionListener\",R,N,V_connectionListener"
+- "T@\"HKSleepMetricsEngine\",R,N,V_sleepMetricsEngine"
+- "T@\"HKWristDetectionSettingManager\",R,N,V_wristDetectionSettingsManager"
+- "T@\"MTAlarmManager\",R,N,V_alarmManager"
+- "T@\"NAFuture\",R,N,V_alarmServerReady"
+- "T@\"NAFuture\",R,N,V_environmentIsReady"
+- "T@\"NAFuture\",R,N,V_queryResultFuture"
+- "T@\"NPSDomainAccessor\",R,N,V_npsDomainAccessor"
+- "T@\"NSArray\",R,N"
+- "T@\"NSArray\",R,N,V_breathingDisturbanceSamples"
+- "T@\"NSArray\",R,N,V_daySummaries"
+- "T@\"NSArray\",R,N,V_notificationPublishers"
+- "T@\"NSArray\",R,N,V_sleepApneaEventSamples"
+- "T@\"NSArray\",R,N,V_sleepIntervals"
+- "T@\"NSArray\",R,N,V_sortedEvents"
+- "T@\"NSArray\",R,N,V_wakeDetectors"
+- "T@\"NSCalendar\",R,N,V_gregorianCalendar"
+- "T@\"NSDate\",&,N"
+- "T@\"NSDate\",R,C,N,V_dateOfLastAnalysis"
+- "T@\"NSDate\",R,N"
+- "T@\"NSDate\",R,N,V_date"
+- "T@\"NSDate\",R,N,V_launchDate"
+- "T@\"NSDate\",R,N,V_wakeUpConfirmedUntilDate"
+- "T@\"NSDateInterval\",R,N,V_interval"
+- "T@\"NSDictionary\",R,C,N"
+- "T@\"NSDictionary\",R,N"
+- "T@\"NSDictionary\",R,N,V_defaultValues"
+- "T@\"NSDictionary\",R,N,V_metadata"
+- "T@\"NSError\",R,N,V_error"
+- "T@\"NSHashTable\",R,N,V_eventProviders"
+- "T@\"NSHashTable\",R,N,V_pendingEventProviders"
+- "T@\"NSMutableArray\",R,N,V_registrations"
+- "T@\"NSMutableDictionary\",&,N,V_assertions"
+- "T@\"NSMutableDictionary\",R,N,V_eventsByProvider"
+- "T@\"NSMutableDictionary\",R,N,V_launchNotificationRegistrations"
+- "T@\"NSMutableDictionary\",R,N,V_notifications"
+- "T@\"NSMutableSet\",R,N,V_eventNames"
+- "T@\"NSNumber\",&,N,V_batteryLevelOverride"
+- "T@\"NSNumber\",&,N,V_isChargingOverride"
+- "T@\"NSNumber\",&,N,V_overrideDeviceHasBeenUnlockedSinceBoot"
+- "T@\"NSObject<OS_dispatch_source>\",R,N,V_sigtermSource"
+- "T@\"NSObject<OS_dispatch_source>\",R,N,V_timer"
+- "T@\"NSObject<OS_os_transaction>\",R,N,V_transaction"
+- "T@\"NSObject<OS_xpc_object>\",R,N,V_activity"
+- "T@\"NSObject<OS_xpc_object>\",R,N,V_criteria"
+- "T@\"NSSet\",R,N"
+- "T@\"NSSet\",R,N,V_keysToPersist"
+- "T@\"NSSet\",R,N,V_keysToSync"
+- "T@\"NSSet\",R,N,V_perGizmoKeys"
+- "T@\"NSSet\",R,N,V_topLevelChangeKeys"
+- "T@\"NSString\",&,N,V_sourceIdentifier"
+- "T@\"NSString\",?,R,C"
+- "T@\"NSString\",R,C"
+- "T@\"NSString\",R,C,N"
+- "T@\"NSString\",R,C,N,V_cloudDataVersionKey"
+- "T@\"NSString\",R,C,N,V_dataVersionKey"
+- "T@\"NSString\",R,C,N,V_identifier"
+- "T@\"NSString\",R,C,N,V_localDataVersionKey"
+- "T@\"NSString\",R,C,N,V_modificationDateKey"
+- "T@\"NSString\",R,C,N,V_name"
+- "T@\"NSString\",R,C,N,V_userFirstName"
+- "T@\"NSString\",R,N"
+- "T@\"NSString\",R,N,V_cloudSyncEnabledKey"
+- "T@\"NSString\",R,N,V_identifier"
+- "T@\"NSString\",R,N,V_userFirstName"
+- "T@\"NSXPCConnection\",&,N"
+- "T@\"SBSLockScreenRemoteContentAssertion\",R,N,V_lockScreenAssertion"
+- "T@\"UNUserNotificationCenter\",R,N,V_notificationCenter"
+- "T@\"_HKBehavior\",R,N,V_behavior"
+- "T@\"_TtC11SleepDaemon30HDSPSleepScoreAnalyticsBuilder\",R,N,V_sleepScoreAnalyticsBuilder"
+- "T@?,C,N,V_didUpdateAlertAssertion"
+- "T@?,R,C,N,V_actionHandler"
+- "T@?,R,C,N,V_currentDateProvider"
+- "T@?,R,C,N,V_mutexGenerator"
+- "TB,?,R,N"
+- "TB,N,V_dontNotify"
+- "TB,N,V_dontSync"
+- "TB,N,V_needsInitialSync"
+- "TB,N,V_needsSyncFromCloud"
+- "TB,N,VisUnitTestEnvironment"
+- "TB,R"
+- "TB,R,N"
+- "TB,R,N,GisNotificationEnabled"
+- "TB,R,N,V_hasBeenUnlockedSinceBoot"
+- "TB,R,N,V_isAppleWatch"
+- "TB,R,N,V_isCloudService"
+- "TB,R,N,V_isDataCollectionInProgress"
+- "TB,R,N,V_isDetecting"
+- "TB,R,N,V_isForAlarmTurnedOffWhileFiring"
+- "TB,R,N,V_isSignificantChange"
+- "TB,R,N,V_observingRestore"
+- "TB,R,N,V_requiresFirstUnlock"
+- "TB,R,N,V_shouldNotify"
+- "TB,R,N,V_sleepModeOn"
+- "TB,R,N,V_springboardStarted"
+- "TB,R,N,V_success"
+- "TB,R,N,V_systemReady"
+- "TB,R,N,V_wasExplicitConfirmation"
+- "TI,R,N,V_assertionID"
+- "TQ,N"
+- "TQ,R"
+- "TQ,R,N"
+- "TQ,R,N,V_category"
+- "TQ,R,N,V_currentCloudDataVersion"
+- "TQ,R,N,V_currentDataVersion"
+- "TQ,R,N,V_currentLocalDataVersion"
+- "TQ,R,N,V_endReason"
+- "TQ,R,N,V_options"
+- "TQ,R,N,V_reason"
+- "TQ,R,N,V_scheduleState"
+- "TQ,R,N,V_signpost_id"
+- "TQ,R,N,V_type"
+- "T^{__CFUserNotification=},R,N,V_notification"
+- "Testing"
+- "Tf,R,N"
+- "This method can only localized content for One Day Wake Up Results; received category %@"
+- "This method can only localized content for One Week Wake Up Results; received category %@"
+- "This method can only localized content for Two Week Wake Up Results; received category %@"
+- "Ti,R,N,V_notifyToken"
+- "Tq,N"
+- "Tq,N,V_currentLockScreenState"
+- "Tq,R,N"
+- "Tq,R,N,V_endMorningIndex"
+- "Tq,R,N,V_notificationVariant"
+- "T{?=qq},R,N,V_morningIndexRange"
+- "T{os_unfair_lock_s=I},R,N,V_assertionLock"
+- "T{os_unfair_lock_s=I},R,N,V_assertionsLock"
+- "T{os_unfair_lock_s=I},R,N,V_contextLock"
+- "T{os_unfair_lock_s=I},R,N,V_eventNamesLock"
+- "T{os_unfair_lock_s=I},R,N,V_launchNotificationRegistrationLock"
+- "T{os_unfair_lock_s=I},R,N,V_lock"
+- "T{os_unfair_lock_s=I},R,N,V_monitorLock"
+- "T{os_unfair_lock_s=I},R,N,V_registrationLock"
+- "T{os_unfair_lock_s=I},R,N,V_sessionLock"
+- "T{os_unfair_lock_s=I},R,N,V_springboardStartedLock"
+- "T{os_unfair_lock_s=I},R,N,V_transactionLock"
+- "UTF8String"
+- "UUIDString"
+- "UserFocus"
+- "Vv16@0:8"
+- "WAKE_UP_RESULT_FOUR_DAY_GOAL_ACHIEVED"
+- "WAKE_UP_RESULT_ONE_DAY_DURATION"
+- "WAKE_UP_RESULT_THREE_DAY_GOAL_ACHIEVED"
+- "WAKE_UP_RESULT_TWO_WEEK_GOAL_ACHIEVED"
+- "WaitingForRetry"
+- "WaitingForWakeUp"
+- "WakeUpResults"
+- "WakeUpResultsNotificationDelayOverride"
+- "Weekly goal achieved requires OneWeek or TwoWeek category"
+- "[%{public}@] Attempting retry"
+- "[%{public}@] Begin _lock_startQuery..."
+- "[%{public}@] Beginning bd queries"
+- "[%{public}@] Building daily analytics report from %{public}lu bd samples"
+- "[%{public}@] Building daily analytics report from %{public}lu summaries in range %{public}@"
+- "[%{public}@] Building notification from %lu summaries in range %{public}@"
+- "[%{public}@] Cancelling daily collection activity"
+- "[%{public}@] Cannot create content for wake up results without valid data: %@"
+- "[%{public}@] Combining dependency futures..."
+- "[%{public}@] Creating content for %{public}@"
+- "[%{public}@] Creating future dependencies..."
+- "[%{public}@] Data collection disabled; not executing query"
+- "[%{public}@] Data collection is already in progress; not executing query"
+- "[%{public}@] Did not meet sleep duration goal last night; this is required for all notifications"
+- "[%{public}@] End _lock_startQuery..."
+- "[%{public}@] Environment did become ready"
+- "[%{public}@] Environment did become ready."
+- "[%{public}@] Environment will become ready"
+- "[%{public}@] Error while querying fetching apnea feature status: %@"
+- "[%{public}@] Error while querying for breathing disturbance samples: %@"
+- "[%{public}@] Error while querying for sleep apnea event samples: %@"
+- "[%{public}@] Error while querying for sleep day summaries: %@"
+- "[%{public}@] Executing query"
+- "[%{public}@] Failed to fetch sleep day summaries with error: %{public}@"
+- "[%{public}@] Failed to fetch user's first name with error: %{public}@"
+- "[%{public}@] Fetching sleep day summaries..."
+- "[%{public}@] Fetching user first name..."
+- "[%{public}@] Init failed: Invalid morning index range %{public}@"
+- "[%{public}@] Init failed: Nil sleep day summaries"
+- "[%{public}@] Init failed: No asleep duration for last night"
+- "[%{public}@] Init failed: No sleep day summary for last night"
+- "[%{public}@] Init failed: Zero sleep day summaries"
+- "[%{public}@] Not enough days achieved for last night goal notification"
+- "[%{public}@] Not enough days achieved for short-week goal notification"
+- "[%{public}@] Not enough days achieved for two-week goal notification"
+- "[%{public}@] Onboard date occurred after the current date"
+- "[%{public}@] Overriding default notification delay to %{public}@s"
+- "[%{public}@] Performing request to publish wake up results notification"
+- "[%{public}@] Preparing daily results notification"
+- "[%{public}@] Pruning wind down action data prior to %{public}@"
+- "[%{public}@] Queries failed with error: %{public}@"
+- "[%{public}@] Queries succeeded"
+- "[%{public}@] Query dependencies completed with results: %{public}@"
+- "[%{public}@] Query failed with error: %{public}@"
+- "[%{public}@] Query succeeded with result: %{public}@"
+- "[%{public}@] Received posting notification completion event"
+- "[%{public}@] Received protected heath data available event"
+- "[%{public}@] Received query completion event"
+- "[%{public}@] Received query failed with error %{public}@"
+- "[%{public}@] Received retry event"
+- "[%{public}@] Received wake up event"
+- "[%{public}@] Request received to publish wake up results notification"
+- "[%{public}@] Requesting to cancel tracking delay"
+- "[%{public}@] Requesting to schedule tracking delay"
+- "[%{public}@] Resolved attempt window beforeDate: %@ (passed: %@)"
+- "[%{public}@] Running daily collection activity"
+- "[%{public}@] Schedule's last modified date occurred after the current date"
+- "[%{public}@] Scheduling daily collection activity"
+- "[%{public}@] Scheduling retry attempt"
+- "[%{public}@] Sending daily reports: %{public}@"
+- "[%{public}@] Sleep model changed"
+- "[%{public}@] Start observing protected data availability"
+- "[%{public}@] Starting new query"
+- "[%{public}@] Stop observing protected data availability"
+- "[%{public}@] Successfully fetched sleep day summaries with result: %{public}@"
+- "[%{public}@] Successfully fetched user's first name with result: %{private}@"
+- "[%{public}@] Summary: %{public}@"
+- "[%{public}@] Taking assertion with identifier %{public}@"
+- "[%{public}@] Too many days achieved for last night goal notification"
+- "[%{public}@] Too many days achieved for short-week goal notification"
+- "[%{public}@] Too many days achieved for two-week goal notification"
+- "[%{public}@] Transitioning to delaying for tracking state"
+- "[%{public}@] Transitioning to querying state"
+- "[%{public}@] Unable access age due to error: %{public}@"
+- "[%{public}@] Unable access biological sex due to error: %{public}@"
+- "[%{public}@] Unexpected call to start query while already in progress"
+- "[%{public}@] Unexpected formatting error: %{public}@"
+- "[%{public}@] Unscheduling retry attempt"
+- "[%{public}@] Update state"
+- "[%{public}@] Updating schedule activity"
+- "[%{public}@] expired"
+- "^{_NSZone=}16@0:8"
+- "^{__CFUserNotification=}"
+- "^{__CFUserNotification=}16@0:8"
+- "_HDSPBiomeBridge"
+- "_HDSPCFUserNotificationCenterRegistration"
+- "_HDSPConcreteSource"
+- "_HDSPIDSService"
+- "_HDSPSleepModeOnState"
+- "_HDSPSleepModeTurnedOffState"
+- "_HDSPSleepModeTurnedOnState"
+- "_HDSPWakeDetectionDetectingState"
+- "_TtC11SleepDaemon30HDSPSleepScoreAnalyticsBuilder"
+- "_accumulateKeysWithBlock:includeVersionInfo:isForSync:"
+- "_accumulator"
+- "_actionHandler"
+- "_actionManager"
+- "_activity"
+- "_activityDetectingState"
+- "_actuallyUpdateModeConfiguration:state:error:"
+- "_alarmManager"
+- "_alarmServerReady"
+- "_allSleepEvents"
+- "_allowedMessageClasses"
+- "_analyticsManager"
+- "_applicationWorkspaceMonitor"
+- "_areHealthNotificationsAuthorized"
+- "_assertionID"
+- "_assertionLock"
+- "_assertionManager"
+- "_assertions"
+- "_assertionsLock"
+- "_assertionsOfType:"
+- "_automatedOffState"
+- "_automatedOnState"
+- "_automationTurnedOffSleepModeWithReason:"
+- "_automationTurnedOnSleepModeWithReason:"
+- "_batteryLevelOverride"
+- "_bedtimeInProgressState"
+- "_bedtimeNotificationEventAfterDate:"
+- "_bedtimeOrWindDownNotificationEventIsDue:"
+- "_bedtimeOrWindDownNotificationsEnabled"
+- "_bedtimeReminderContent"
+- "_bedtimeState"
+- "_behavior"
+- "_biologicalSex"
+- "_biomeInterface"
+- "_biomeManager"
+- "_biomeProvider"
+- "_breathingDisturbanceSamples"
+- "_breathingDisturbanceSamplesInPastNight"
+- "_bucketedSleepDurationLastNight"
+- "_calculateBreathingDisturbanceValueDependentMetrics"
+- "_callbackScheduler"
+- "_category"
+- "_changeEvaluation"
+- "_changeEvaluator"
+- "_changedSchedule:withinNumberOfDays:currentDate:calendar:"
+- "_chargingReminderBodyForAlarmEnabled:sleepTrackingEnabled:"
+- "_chargingReminderContentWithUserInfo:"
+- "_chargingReminderManager"
+- "_checkAlarmServer"
+- "_checkAndNotify"
+- "_checkForSuspendedBlock"
+- "_checkSpringBoardStarted"
+- "_cloudDataVersionKey"
+- "_cloudDefaults"
+- "_cloudDefaultsDidReceiveExternalChange"
+- "_cloudDefaultsDidReceiveExternalChangeForKeys:"
+- "_cloudDefaultsProvider"
+- "_cloudDestinations"
+- "_cloudService"
+- "_cloudSyncEnabledKey"
+- "_compareWithCoreDuetInBedDetectionForInterval:"
+- "_computeSessionMetadataForInterval:"
+- "_computeSleepSessionStartBeforeDate:"
+- "_configuration"
+- "_confirmTextForForAlarmEnabled:sleepModeOn:"
+- "_connection"
+- "_connectionListener"
+- "_connectionLock"
+- "_contentByAddingCommonUserInfoTo:"
+- "_context"
+- "_contextLock"
+- "_contextStoreManager"
+- "_createFocusModeIfNeeded"
+- "_createKVS"
+- "_createKeySetMapForKeySets:"
+- "_createSleepFocusModeInState:error:"
+- "_createSleepSessionWithEndDate:endReason:"
+- "_creationDate"
+- "_criteria"
+- "_currentCloudDataVersion"
+- "_currentDataVersion"
+- "_currentDateProvider"
+- "_currentLocalDataVersion"
+- "_currentLockScreenState"
+- "_currentState"
+- "_dailyReportEvent"
+- "_dataCollectionScheduler"
+- "_dataVersionKey"
+- "_date"
+- "_dateOfLastAnalysis"
+- "_dateOfLastSuccessfulBreathingDisturbanceAnalysis"
+- "_daySummaries"
+- "_daysWatchWornToSleepOverLastNumberOfDays:excludeWeekdays:calendar:"
+- "_defaultCallbackScheduler"
+- "_defaultValues"
+- "_defaultsForKey:"
+- "_delayedWakeUpState"
+- "_delayingForTrackingState"
+- "_delegate"
+- "_demoState"
+- "_detectionWindowForType:wakeUpDate:bedtimeDate:"
+- "_determineNextStateFromTimeline"
+- "_devicePowerMonitor"
+- "_deviceUnlockManager"
+- "_deviceUnlockMonitor"
+- "_diagnostics"
+- "_didInteractWithWindDownActionsWithinLastTwoDays"
+- "_didMeetSleepDurationGoalLastNight"
+- "_didUpdateAlertAssertion"
+- "_differentialCloudKitSync"
+- "_differentialCloudKitSyncForKeySet:"
+- "_disabledState"
+- "_dontNotify"
+- "_dontSync"
+- "_earliestDateToScheduleEventsForDate:"
+- "_embeddedNameLocalizedStringKey"
+- "_embeddedNameSubstitutionStringKey"
+- "_endMorningIndex"
+- "_endReason"
+- "_endSleepSessionWithReason:"
+- "_endpoint"
+- "_enqueueHandleOverdueEventsTask"
+- "_enqueueSchedulePendingEventsTask"
+- "_ensureFocusModeCreatedForSleepMode:reason:"
+- "_environment"
+- "_environmentAwareComponents"
+- "_environmentIsReady"
+- "_error"
+- "_evaluateChangesFromObject:toObject:outChangeSet:"
+- "_eventHandlers"
+- "_eventNames"
+- "_eventNamesLock"
+- "_eventProviders"
+- "_eventsByProvider"
+- "_executeQuery"
+- "_explicitDetectingState"
+- "_fetchSleepDaySummariesForMorningIndexRange:healthStore:"
+- "_fetchUserFirstNameWithHealthStore:"
+- "_fileManager"
+- "_finishWaitingForInitialSync"
+- "_forceUpdateStateWithChangeReason:"
+- "_generateUniqueIdentifierForNotificationIdentifierPrefix:eventDate:"
+- "_goalAchieved"
+- "_goodMorningAlertManager"
+- "_goodMorningAlertObservers"
+- "_greetingState"
+- "_gregorianCalendar"
+- "_handleActivePairedDeviceDidChange:"
+- "_handleConfirmWakeUpMessage:"
+- "_handleDismissGoodMorningMessage:"
+- "_handleFocusModeEvent:"
+- "_handleNanoPreferencesSync:"
+- "_handleNotificationWithName:completion:"
+- "_handleNotifiedForEarlyWakeUpMessage:"
+- "_handleOverdueEvents"
+- "_handleReceivedMessage:"
+- "_handleSetSleepModeMessage:"
+- "_handleSigterm"
+- "_handleSleepAlarmDismissedMessage:"
+- "_handleSleepAlarmSnoozedMessage:"
+- "_handleSuccessfulNotificationRequest:"
+- "_handleTestMessage:"
+- "_hasBeenUnlockedSinceBoot"
+- "_hasUnprocessedSessions"
+- "_healthStore"
+- "_healthStoreProvider"
+- "_hksp_synchronizeKeys:"
+- "_identifier"
+- "_idsServiceManager"
+- "_ignoreTextForForAlarmEnabled:sleepModeOn:"
+- "_inBedDetector"
+- "_info"
+- "_initialCloudKitSync"
+- "_initialState"
+- "_interval"
+- "_isActivityDateInDetectionWindow:type:"
+- "_isAppleWatch"
+- "_isChargingOverride"
+- "_isCloudService"
+- "_isDataCollectionInProgress"
+- "_isDelayingForTracking"
+- "_isDetecting"
+- "_isEnabledBD"
+- "_isForAlarmTurnedOffWhileFiring"
+- "_isInRootRobot"
+- "_isOnboardedBD"
+- "_isOverridingWidgetState"
+- "_isScheduledSleepModeEnabled"
+- "_isSignificantChange"
+- "_isSleepLockScreenDisabled"
+- "_isSleepModeDuringWindDownEnabled"
+- "_isValidSnoozeDate:"
+- "_keySetForKey:"
+- "_keySetMap"
+- "_keysForChangeNotification:"
+- "_keysNeedingSynchronize"
+- "_keysToPersist"
+- "_keysToSync"
+- "_lastNightsDurationForSleepStage:"
+- "_lastNightsNumberOfAwakeEvents"
+- "_lastRecord"
+- "_lastSchedule"
+- "_lastSettings"
+- "_lastStandardSleepEvent"
+- "_latestDateInAlarms:dateBlock:"
+- "_latestKeyBagValueForHasBeenUnlockedSinceBoot"
+- "_launchDate"
+- "_launchNotificationRegistrationLock"
+- "_launchNotificationRegistrations"
+- "_limitingScheduler"
+- "_listener"
+- "_loadLastStandardSleepEvent"
+- "_loadObjectOfClass:allowedClasses:propertiesToLoad:error:"
+- "_loadPersistedModel"
+- "_loadSleepEventRecord:"
+- "_loadSleepSchedule:"
+- "_loadSleepScheduleModel:"
+- "_loadSleepSettings:"
+- "_localDataVersionKey"
+- "_localDefaults"
+- "_localDestinations"
+- "_localService"
+- "_localizedBedtimeOrWindDownReminderBodyHelperWithKey:embeddingTimeForEvent:"
+- "_localizedBedtimeOrWindDownReminderBodyWithKey:embeddingTimeForEvent:shouldIntroduceFocus:"
+- "_localizedBodyForOneDayNotificationWithError:"
+- "_localizedBodyForOneWeekDayNotificationWithError:"
+- "_localizedBodyForTwoWeekNotificationWithError:"
+- "_localizedStringKeyBase"
+- "_lock"
+- "_lockScreenAssertion"
+- "_lock_currentSleepWidgetState"
+- "_lock_executeQuery:"
+- "_lock_isOnWrist"
+- "_lock_lastOnWristDate"
+- "_lock_overridingLockScreenState"
+- "_lock_rescheduleEvents"
+- "_lock_resolvedLockScreenState"
+- "_lock_setIsOnWrist:"
+- "_lock_setLastOnWristDate:"
+- "_lock_shouldScheduleEvents"
+- "_lock_shouldShowLockScreenForState:"
+- "_lock_startQuery"
+- "_lock_updateLastStandardSleepEvent:"
+- "_lock_updateLockScreenAssertion"
+- "_locked_applyNecessaryChangesBeforeSaving:"
+- "_locked_applyNecessaryChangesBeforeSavingSleepEventRecord:"
+- "_locked_applyNecessaryChangesBeforeSavingSleepSchedule:validationResult:"
+- "_locked_applyNecessaryEventRecordChangesBeforeSavingSleepSchedule:validationResult:"
+- "_locked_applyNecessarySleepSettingsChangesBeforeSavingSleepEventRecord:"
+- "_locked_loadSleepEventRecord:"
+- "_locked_loadSleepSchedule:"
+- "_locked_loadSleepScheduleModel:"
+- "_locked_loadSleepSettings:"
+- "_locked_notifyObserversForSleepEventRecordChange:"
+- "_locked_notifyObserversForSleepScheduleChange:"
+- "_locked_notifyObserversForSleepScheduleModelChange:"
+- "_locked_notifyObserversForSleepSettingsChange:"
+- "_locked_release"
+- "_locked_removeSleepSchedule"
+- "_locked_resetSleepEventRecord"
+- "_locked_resetSleepSettings"
+- "_locked_savePendingSessions"
+- "_locked_saveSleepEventRecord:"
+- "_locked_saveSleepEventRecord:error:"
+- "_locked_saveSleepEventRecord:error:preNotifyBlock:"
+- "_locked_saveSleepSchedule:"
+- "_locked_saveSleepSchedule:error:"
+- "_locked_saveSleepSettings:"
+- "_locked_saveSleepSettings:error:"
+- "_locked_setSleepEventRecord:"
+- "_locked_setSleepSchedule:"
+- "_locked_setSleepSettings:"
+- "_locked_sleepScheduleModel"
+- "_locked_updateModelWithBlock:persistBlock:error:"
+- "_locked_updateSleepEventRecord:"
+- "_locked_updateSleepSchedule:"
+- "_locked_updateSleepSettings:"
+- "_locked_validateSleepSchedule:generateValidSchedule:"
+- "_logDetections:"
+- "_logDiagnostics:"
+- "_loggingDescription"
+- "_makeReportQueryWithMorningIndexRange:resultsHandler:"
+- "_manualOffState"
+- "_manualOnState"
+- "_maxBDValueInPast30Days"
+- "_maxTimeBetweenBDSessionsPastNight:"
+- "_maximumBDValueInPast30Days"
+- "_meanTimeBetweenBDSessionsPastNight:"
+- "_metadata"
+- "_migrateHomeScreenPage"
+- "_migrateOnboardingSettings"
+- "_migrateSleepFocus"
+- "_migrateSleepScheduleFromMobileTimer"
+- "_migrateToCloudKit"
+- "_migrationManager"
+- "_migrationState"
+- "_minTimeBetweenBDSessionsPastNight:"
+- "_modificationDateKey"
+- "_monitorLock"
+- "_monitoringScheduler"
+- "_monitoringState"
+- "_morningIndexRange"
+- "_mutexGenerator"
+- "_mutexProvider"
+- "_name"
+- "_nanoDefaults"
+- "_nanoDefaultsDidReceiveExternalChange"
+- "_nanoDefaultsDidReceiveExternalChangeForKeys:"
+- "_nanoDefaultsProvider"
+- "_needsInitialSync"
+- "_needsProtectedDataState"
+- "_needsSyncFromCloud"
+- "_nextSystemReadyState"
+- "_notOnboardedState"
+- "_notReadyState"
+- "_notification"
+- "_notificationCenter"
+- "_notificationContentForEventIdentifier:userInfo:"
+- "_notificationForCategory:morningIndexRange:goalAchieved:"
+- "_notificationIdentifierPrefixForEventIdentifier:"
+- "_notificationListener"
+- "_notificationManager"
+- "_notificationPublishers"
+- "_notificationRequestForEvent:"
+- "_notificationRequestIdentifierForEvent:"
+- "_notificationVariant"
+- "_notifications"
+- "_notifiedState"
+- "_notifyAccumulator"
+- "_notifyClient:forMissedMessagesWithSyncAnchorContainer:"
+- "_notifyToken"
+- "_npsDomainAccessor"
+- "_npsDomainAccessorQueue"
+- "_npsManager"
+- "_numBDNotifications:"
+- "_numBDValuesInPast30Days"
+- "_numBDValuesInPastNight:"
+- "_numDaysSinceLastAnalysis"
+- "_numDaysSinceLastBDNotification"
+- "_numSleepDaysWithBDsOverThresholdLast30Days"
+- "_numSleepDaysWithMultipleBDsInLast30Days"
+- "_numSleepDaysWithMultipleBDsInTheLast30Days"
+- "_numSleepSessionsWithBDsOverThresholdLast30Days"
+- "_observers"
+- "_observingRestore"
+- "_offState"
+- "_onboardedCountryCode"
+- "_options"
+- "_overrideDeviceHasBeenUnlockedSinceBoot"
+- "_overrideState"
+- "_overrideUserInfo"
+- "_pendingEventProviders"
+- "_perGizmoKeys"
+- "_performWhenClientIsReady:block:"
+- "_performWhenCurrentClientIsReady:"
+- "_performWhenEnvironmentIsReady:"
+- "_performWhenEnvironmentIsReady:withContext:"
+- "_persistModel:"
+- "_persistRecord:"
+- "_persistSchedule:"
+- "_persistSettings:"
+- "_persistence"
+- "_platformSpecificReadyProviderForEnvironment:"
+- "_powerLogSleepMode:sleepScreenEnabled:"
+- "_presentingState"
+- "_process:didUpdateFromState:toState:"
+- "_processIdentifiers"
+- "_processName"
+- "_processQueryResultsWithSummaries:breathingDisturbanceSamples:sleepApneaEventSamples:sleepApneaFeatureOnboardingRecord:queryRange:error:"
+- "_processStateManager"
+- "_processStateMonitor"
+- "_processStateProvider"
+- "_providers"
+- "_pruneExpiredWindDownActionDataBeforeQueryRange:"
+- "_publishNotificationRequest:"
+- "_publishNotificationWithIdentifier:title:message:defaultButtonTitle:otherButtonTitle:bypassDND:aboveLockScreen:actionHandler:"
+- "_publishWakeDetectionNotificationForUserInfo:"
+- "_queryMorningIndexRangeForDate:"
+- "_queryResultFuture"
+- "_queryResultFuture must be finished before we can post notification"
+- "_queryingState"
+- "_randomNotificationVariantForCategory:"
+- "_readyState"
+- "_reason"
+- "_recordSentUserNotificationRequest:"
+- "_registerForNotifications"
+- "_registerForStream:"
+- "_registrationLock"
+- "_registrations"
+- "_regularLocalizedStringKey"
+- "_regularSubstitutionStringKey"
+- "_reloadThrottler"
+- "_removeObjectProperties:error:"
+- "_requiresFirstUnlock"
+- "_rescheduleEvents"
+- "_resetCounter"
+- "_resetNPSDomainAccessor"
+- "_restorePersistedModelWithScheduleData:settingsData:recordData:"
+- "_retryAttemptScheduler"
+- "_retryQueryIfNeededOrTransitionToNeedsProtectedDataState"
+- "_saveObject:error:"
+- "_saveObjectChanges:versionKey:currentVersion:error:"
+- "_schedulePendingEvents"
+- "_scheduleState"
+- "_scheduler"
+- "_sendMessage:onService:"
+- "_sendSerializedMessage:identifier:completion:"
+- "_sensitiveUIMonitor"
+- "_service"
+- "_sessionLock"
+- "_setDefaultForKey:setBlock:"
+- "_setDefaultForKey:setBlock:syncToCloudKit:"
+- "_setupSigtermHandler"
+- "_shouldHandleBiomeEvent:"
+- "_shouldHandleMessageFromService:"
+- "_shouldNotify"
+- "_shouldNotifyHandler:forEvent:"
+- "_shouldPostCustomizeFocusNotification"
+- "_shouldRetryImmediatelyOnFailure"
+- "_shouldSendCloudMessage:"
+- "_shouldSyncAlarmMessageFromSource:"
+- "_shouldSyncMessage"
+- "_shouldSyncSleepModeWithReason:"
+- "_shouldTurnOffSleepSchedule"
+- "_shouldTurnOffWatchSleepFeatures"
+- "_shouldUpdateSleepModeStateForState:changeReason:previousState:"
+- "_shouldWriteToBiome"
+- "_signpost_id"
+- "_sigtermSource"
+- "_simulateActivityDetectionOnDate:"
+- "_sleepAlarmManager"
+- "_sleepAlarmProvider"
+- "_sleepApneaAnalyticsBuilder"
+- "_sleepApneaEventSamples"
+- "_sleepApneaEventSamplesInPastNights:"
+- "_sleepApneaFeatureOnboardingRecord"
+- "_sleepCoordinator"
+- "_sleepDaySummariesFromResult:error:"
+- "_sleepDurationGoalAchievedLastNightNotification"
+- "_sleepDurationGoalAchievedShortWeekNotification"
+- "_sleepDurationGoalAchievedTwoWeekNotification"
+- "_sleepDurationLastNightIncludingAwake:"
+- "_sleepEventDelegate"
+- "_sleepEventRecord"
+- "_sleepEvents"
+- "_sleepFocusModeBridge"
+- "_sleepIntervalScheduler"
+- "_sleepIntervals"
+- "_sleepLockScreenManager"
+- "_sleepMetricsEngine"
+- "_sleepModeChangeReasonForBiomeReason:source:"
+- "_sleepModeManager"
+- "_sleepModeManagerProvider"
+- "_sleepModeObservers"
+- "_sleepModeOn"
+- "_sleepModeTurnedOffForUnknownReason"
+- "_sleepModeTurnedOnForUnknownReason"
+- "_sleepProactiveBridge"
+- "_sleepSchedule"
+- "_sleepScheduleModel"
+- "_sleepScheduleModelManager"
+- "_sleepScheduler"
+- "_sleepScoreAnalyticsBuilder"
+- "_sleepScoreResultsContentWithUserInfo:"
+- "_sleepServer"
+- "_sleepSessionManager"
+- "_sleepSessionObservers"
+- "_sleepSettings"
+- "_sleepStorage"
+- "_sleepTracker"
+- "_sleepTrackingManager"
+- "_sleepTrackingManagerProviderForBehavior:"
+- "_sleepWidgetManager"
+- "_sortEvents"
+- "_sortedEvents"
+- "_source"
+- "_sourceIdentifier"
+- "_springboardMonitor"
+- "_springboardStarted"
+- "_springboardStartedLock"
+- "_stageDurationPercentage:ofTotalDuration:"
+- "_startMonitoring"
+- "_startWakeDetection"
+- "_state"
+- "_stateMachine"
+- "_stopMonitoring"
+- "_store"
+- "_stringForEventDate:"
+- "_submitAnalyticsForNotification:"
+- "_submitAnalyticsReportsUsingBuilder:"
+- "_success"
+- "_syncAccumulator"
+- "_syncAnchorContainer"
+- "_syncCloudKitToLocal"
+- "_syncKeysFromCloudKit:"
+- "_syncKeysToCloudKit:"
+- "_syncLocalToCloudKit"
+- "_syncedDefaults"
+- "_systemMonitor"
+- "_systemReady"
+- "_systemReadyProvider"
+- "_tearDownBedtimeReminder"
+- "_tearDownChargingReminder"
+- "_tearDownMorningNotification"
+- "_tearDownWakeDetectionNotification"
+- "_tearDownWindDownReminder"
+- "_throttled_synchronizeKeys:"
+- "_timeChangeListener"
+- "_timelineForDate:"
+- "_timelineResults"
+- "_timer"
+- "_timesBetweenBDSessions:"
+- "_topLevelChangeKeys"
+- "_trackingDelayDuration"
+- "_transaction"
+- "_transactionLock"
+- "_transitionToDelayingForTrackingState"
+- "_transitionToNotifiedState"
+- "_transitionToQueryingState"
+- "_transitionToRetryState"
+- "_transitionToWaitingForWakeUpState"
+- "_turnOffSleepSchedule"
+- "_turnOffWatchSleepFeatures"
+- "_type"
+- "_typeWithIdentifier:"
+- "_unit_testing_pruneExpiredWindDownActionData"
+- "_unprocessedSessions"
+- "_upcomingState"
+- "_updateConfiguration"
+- "_updateEventRecordForSleepScheduleState:context:notifyBlock:"
+- "_updateEventRecordHelper:sleepScheduleState:context:"
+- "_updateSleepFocusModeWithState:error:"
+- "_updateSleepScheduleState"
+- "_updateState"
+- "_updateStateForSleepMode:reason:"
+- "_updateThrottler"
+- "_userAgeForCurrentDate:"
+- "_userDefaults"
+- "_userFirstName"
+- "_userFirstNameFromResult:"
+- "_userTurnedOffSleepModeWithReason:"
+- "_userTurnedOnSleepModeWithReason:"
+- "_value"
+- "_waitForFirstUnlock"
+- "_waitForInitialSync"
+- "_waitingForRetryState"
+- "_waitingForWakeUpState"
+- "_waitingState"
+- "_wakeDetectionAlertBodyForAlarmEnabled:sleepModeOn:"
+- "_wakeDetectionAlertTitleForAlarmEnabled:sleepModeOn:"
+- "_wakeDetectionContentWithUserInfo:"
+- "_wakeDetectionManager"
+- "_wakeDetectorDelegate"
+- "_wakeDetectors"
+- "_wakeUpConfirmedUntilDate"
+- "_wakeUpResultsContentWithUserInfo:"
+- "_wakeUpResultsNotificationManager"
+- "_wakeUpState"
+- "_wasExplicitConfirmation"
+- "_watchOnWristMonitor"
+- "_weeksSinceOnboardDate:currentDate:calendar:"
+- "_weeksSinceOnboardedBD"
+- "_widgetManager"
+- "_windDownEvents"
+- "_windDownNotificationEventAfterDate:"
+- "_windDownReminderBodyContentShouldIntroduceFocus:"
+- "_windDownReminderContent"
+- "_windDownState"
+- "_withLock:"
+- "_woreWatchToSleepLastNight"
+- "_wristDetectionSettingsManager"
+- "_writeSleepInfoToContextStore:"
+- "_writeSleepModeToBiome:reason:forceWrite:"
+- "_writeSleepScheduleStateToBiome:reason:forceWrite:"
+- "accumulateValues:"
+- "acquireRemoteContentAssertionWithDefinition:errorHandler:"
+- "actionHandler"
+- "actionManager"
+- "activeAssertionIdentifiersOfType:"
+- "activePairedWatchProductType"
+- "activeTypes"
+- "activity"
+- "activityDetectingState"
+- "addCompletionBlock:"
+- "addDelegate:queue:"
+- "addEntriesFromDictionary:"
+- "addEventHandler:"
+- "addEventProvider:"
+- "addEvents:provider:"
+- "addFailureBlock:"
+- "addNotificationRequest:withCompletionHandler:"
+- "addObject:"
+- "addObjectsFromArray:"
+- "addObserver:"
+- "addObserver:selector:name:object:"
+- "addObserver:wasFirst:"
+- "addProvider:"
+- "addSuccessBlock:"
+- "addSuggestedHomeScreenPageWithRequest:"
+- "alarmConfiguration"
+- "alarmDismissed"
+- "alarmManager"
+- "alarmServerReady"
+- "allDefaultValues"
+- "allEvents"
+- "allKeys"
+- "allKeysToPersist"
+- "allKeysToSync"
+- "allObjects"
+- "allPerGizmoKeys"
+- "allStates"
+- "allValues"
+- "analyticsManager"
+- "analyticsStore"
+- "anonymousListener"
+- "appendArraySection:withName:multilinePrefix:skipIfEmpty:"
+- "appendBool:counterpart:"
+- "appendBool:withName:"
+- "appendBool:withName:ifEqualTo:"
+- "appendFormat:"
+- "appendInteger:withName:"
+- "appendObject:counterpart:"
+- "appendObject:withName:"
+- "appendObject:withName:skipIfNil:"
+- "appendString:withName:"
+- "appendUnsignedInteger:counterpart:"
+- "appendUnsignedInteger:withName:"
+- "applicationIconDidChange:"
+- "applicationInstallsArePrioritized:arePaused:"
+- "applicationInstallsDidCancel:"
+- "applicationInstallsDidChange:"
+- "applicationInstallsDidPause:"
+- "applicationInstallsDidPrioritize:"
+- "applicationInstallsDidResume:"
+- "applicationInstallsDidStart:"
+- "applicationInstallsDidUpdateIcon:"
+- "applicationState"
+- "applicationStateDidChange:"
+- "applicationWorkspaceMonitor"
+- "applicationsDidChangePersonas:"
+- "applicationsDidFailToInstall:"
+- "applicationsDidFailToUninstall:"
+- "applicationsDidInstall:"
+- "applicationsDidUninstall:"
+- "applicationsDidUpdateMetadata:"
+- "applicationsWillInstall:"
+- "applicationsWillUninstall:"
+- "archiveSession:"
+- "archivedDataWithRootObject:requiringSecureCoding:error:"
+- "archivedSleepSessionsSaved:"
+- "array"
+- "arrayByAddingObject:"
+- "arrayWithArray:"
+- "arrayWithObjects:count:"
+- "assertionClassForType:"
+- "assertionID"
+- "assertionLock"
+- "assertionManager"
+- "assertionWithIdentifier:"
+- "assertionWithIdentifier:timeout:"
+- "assertionsLock"
+- "authorizationStatus"
+- "authorizationStatusForType:"
+- "automatedOffState"
+- "automatedOnState"
+- "automationTurnedOffSleepModeWithReason:"
+- "automationTurnedOnSleepModeWithReason:"
+- "autorelease"
+- "batteryLevel"
+- "batteryLevelChanged:"
+- "batteryLevelOverride"
+- "bedtimeComponents"
+- "bedtimeHour"
+- "bedtimeInProgressState"
+- "bedtimeInterval"
+- "bedtimeMinute"
+- "bedtimeReached"
+- "bedtimeReminder"
+- "bedtimeReminderMinutes"
+- "bedtimeReminderWasConfirmed"
+- "bedtimeReminderWasDismissed"
+- "bedtimeReminders"
+- "bedtimeState"
+- "behavior"
+- "biologicalSex"
+- "biologicalSexWithError:"
+- "biomeInterface"
+- "biomeManager"
+- "biomeSleepModeChangeReasonForSleepModeChangeReason:"
+- "biomeSleepModeStateForSleepModeState:"
+- "biomeSleepScheduleStateChangeReasonForSleepScheduleStateChangeReason:"
+- "biomeSleepScheduleStateForSleepScheduleState:"
+- "body"
+- "boolForKey:"
+- "boolValue"
+- "breathingDisturbanceSamples"
+- "build"
+- "buildNotification"
+- "buildReports"
+- "buildTimelineWithOptions:"
+- "builderWithObject:"
+- "builderWithObject:ofExpectedClass:"
+- "builderWithSleepScheduleModel:date:"
+- "bundleIdentifier"
+- "bundleWithIdentifier:"
+- "calendarWithIdentifier:"
+- "callbackScheduler"
+- "cancel"
+- "cancelAllOperations"
+- "cancelDailyCollectionActivity"
+- "cancelNotification:fromCenter:"
+- "category"
+- "categoryIdentifier"
+- "categorySampleWithType:value:startDate:endDate:device:metadata:"
+- "categoryTypeForIdentifier:"
+- "chainFutures:"
+- "changeEvaluator"
+- "changeSet"
+- "changedValue"
+- "changedValueForPropertyIdentifier:"
+- "changes"
+- "chargingReminderManager"
+- "chargingReminders"
+- "chargingRemindersEnabledWithLogObject:"
+- "checkBatteryLevel"
+- "checkInWithSyncAnchorContainer:completion:"
+- "class"
+- "clearWidgetOverrideState"
+- "clearWidgetOverrideWithCompletion:"
+- "clientIdentifier"
+- "clientIdentifierProvider"
+- "clientShouldCheckInWithCompletion:"
+- "closestEventWithIdentifier:dueAroundDate:"
+- "cloudDataVersionKey"
+- "cloudKitDefaultsDictionaryRepresentation"
+- "cloudService"
+- "cloudServiceWithScheduler:"
+- "cloudStorageDataVersion"
+- "cloudSyncEnabledKey"
+- "code"
+- "com.apple.sleep.WakeUpResultsNotificationRetry.activity"
+- "combineAllFutures:"
+- "combineAllFutures:ignoringErrors:scheduler:"
+- "combinedEvaluation:"
+- "compare:"
+- "compareWithContainer:sleepScheduleSyncAnchorOutOfDate:sleepSettingsSyncAnchorOutOfDate:sleepEventRecordSyncAnchorOutOfDate:sleepScheduleStateSyncAnchorOutOfDate:sleepModeSyncAnchorOutOfDate:sleepEventSyncAnchorOutOfDate:"
+- "component:fromDate:"
+- "components:fromDate:toDate:options:"
+- "componentsJoinedByString:"
+- "computeConfirmedWakeUpUntilDateForEarlyWakeUpDate:"
+- "computeConfirmedWakeUpUntilDateForOverrideWakeUpDate:"
+- "computeSleepIntervalsForInterval:"
+- "computeUserVisibleEndDate"
+- "confidence"
+- "configureFocusModeWithState:error:"
+- "configureSleepFocusModeWithState:error:"
+- "configureSleepFocusWithState:completion:"
+- "confirmAwakeWithCompletion:"
+- "confirmWakeUp:"
+- "confirmWakeUp:date:"
+- "confirmWakeUp:date:confirmUntilDate:"
+- "conformsToProtocol:"
+- "connect"
+- "connectWithCompletion:"
+- "connectedClients"
+- "connectedClientsWithPID:"
+- "connection"
+- "connectionListener"
+- "connectionListenerDidAddClient:"
+- "connectionListenerDidRemoveClient:"
+- "containsAppleSleepTrackingData"
+- "containsObject:"
+- "containsPeriodsWithAppleSleepTrackingData"
+- "containsSegmentsWithAppleSleepTrackingData"
+- "content"
+- "context"
+- "contextByApplyingChangeEvaluation:"
+- "contextForAlarmTurnedOffWhileFiring"
+- "contextLock"
+- "contextStoreManager"
+- "contextWithReason:"
+- "contextWithSource:"
+- "contextWithType:"
+- "contextualKeyPath"
+- "copy"
+- "copyWithZone:"
+- "count"
+- "countByEnumeratingWithState:objects:count:"
+- "countUnit"
+- "createDefaultSleepingModeConfigurationWithError:"
+- "createFocusModeInState:error:"
+- "createHomeScreenPageWithCompletion:"
+- "createSleepFocusInState:completion:"
+- "createSleepFocusModeInState:error:"
+- "createSuggestedHomeScreenPageWithCompletion:"
+- "criteria"
+- "currentCalendar"
+- "currentClient"
+- "currentCloudDataVersion"
+- "currentContext"
+- "currentDataVersion"
+- "currentDate"
+- "currentDateProvider"
+- "currentHandler"
+- "currentLocalDataVersion"
+- "currentLockScreenState"
+- "currentSleepAlarms"
+- "currentSleepScheduleState"
+- "currentSleepWidgetState"
+- "currentSource"
+- "currentState"
+- "currentStateExpirationDate"
+- "currentStateIdentifier"
+- "currentThread"
+- "d"
+- "d16@0:8"
+- "d20@0:8B16"
+- "d24@0:8@16"
+- "d24@0:8q16"
+- "dailyCollectionActivity"
+- "dailyCollectionCriteria"
+- "dailySleepDurationGoal"
+- "dataCollectionScheduler"
+- "dataForKey:"
+- "dataMigrationDidComplete"
+- "dataVersion"
+- "dataVersionKey"
+- "databaseWasRebuilt"
+- "dateByAddingTimeInterval:"
+- "dateDescription"
+- "dateForKey:error:"
+- "dateFromComponents:"
+- "dateInterval"
+- "dateOfBirthComponentsWithError:"
+- "dateOfLastAnalysis"
+- "dateWithTimeIntervalSinceReferenceDate:"
+- "day"
+- "daySummaries"
+- "dayUnit"
+- "dealloc"
+- "debugDescription"
+- "decodeBoolForKey:"
+- "decodeIntegerForKey:"
+- "decodeObjectOfClass:forKey:"
+- "decodeObjectOfClasses:forKey:"
+- "defaultCenter"
+- "defaultChangeReason"
+- "defaultConfigurationState"
+- "defaultManager"
+- "defaultValues"
+- "defaultWorkspace"
+- "deferIfNecessary"
+- "delayedWakeUpState"
+- "delayingForTrackingState"
+- "delegate"
+- "deleteFocusModeWithError:"
+- "deleteSleepFocusModeWithCompletion:"
+- "demoEventRecord"
+- "demoModeEnvironment"
+- "demoScheduleModel"
+- "demoSleepSchedule"
+- "demoSleepSettings"
+- "demoState"
+- "deregisterCallback:"
+- "description"
+- "descriptionBuilderWithMultilinePrefix:"
+- "descriptionWithMultilinePrefix:"
+- "deserializeObjectOfClass:error:"
+- "destinations"
+- "detectInBedBetweenBedtimeDate:wakupDate:error:"
+- "detectInBedTimesDuringInterval:"
+- "detectInBedTimesHelperDuringInterval:"
+- "detectedOffWristOnDate:"
+- "detectedOnWristOnDate:"
+- "detectionWindowForType:"
+- "deviceChangedChargingState:"
+- "deviceHasBeenUnlocked"
+- "deviceManagementPolicyDidChange:"
+- "devicePowerMonitor"
+- "deviceUnlockManager"
+- "deviceUnlockMonitor"
+- "devices"
+- "diagnosticDescription"
+- "diagnosticInfo"
+- "diagnostics"
+- "dictionaryRepresentation"
+- "dictionaryWithObjects:forKeys:count:"
+- "didDismissWithReason:"
+- "didEnter"
+- "didExit"
+- "didPostResultsNotification"
+- "didUpdateAlertAssertion"
+- "disabledEnvironment"
+- "disabledState"
+- "dismissAlertForGoodMorning"
+- "dismissGoodMorning"
+- "dismissGoodMorningOnDate:"
+- "dismissGoodMorningWithCompletion:"
+- "dismissSleepLock"
+- "dismissSleepLockWithCompletion:"
+- "distantFuture"
+- "distantPast"
+- "domain"
+- "dontNotify"
+- "dontSync"
+- "doubleValue"
+- "doubleValueForUnit:"
+- "dueDate"
+- "duration"
+- "earlierDate:"
+- "earliestDateOfAnyOnboardingCompletion"
+- "earlyWakeUpWasNotifiedRemotely"
+- "emptyEvaluation"
+- "emptyFailureWithError:"
+- "emptyResult"
+- "encodeBool:forKey:"
+- "encodeInteger:forKey:"
+- "encodeObject:forKey:"
+- "encodeWithCoder:"
+- "encodedData"
+- "endDate"
+- "endMorningIndex"
+- "endpoint"
+- "enterState:"
+- "enumerateObjectsUsingBlock:"
+- "enumerateObserversWithBlock:"
+- "enumerateObserversWithFutureBlock:"
+- "environment"
+- "environmentDidBecomeReady"
+- "environmentDidBecomeReady:"
+- "environmentIsReady"
+- "environmentShouldMigrateData"
+- "environmentWillBecomeReady:"
+- "environmentWillInvalidate:"
+- "error"
+- "errorWithDomain:code:userInfo:"
+- "evaluateSleepRecordAdd:"
+- "evaluateSleepRecordUpdate:"
+- "evaluateSleepScheduleAdd:"
+- "evaluateSleepScheduleModelChange:"
+- "evaluateSleepScheduleRemove"
+- "evaluateSleepScheduleUpdate:"
+- "evaluateSleepSettingsAdd:"
+- "evaluateSleepSettingsUpdate:"
+- "eventBody"
+- "eventHandlers"
+- "eventIdentifiers"
+- "eventNames"
+- "eventNamesLock"
+- "eventProviderCancelledEvents:"
+- "eventProviderHasUpcomingEvents:"
+- "eventProviders"
+- "eventsByProvider"
+- "execute"
+- "executeQuery"
+- "executeQuery:"
+- "expirationDate"
+- "expirationDuration"
+- "explicitDetectingState"
+- "f16@0:8"
+- "f24@0:8@\"NSString\"16"
+- "f24@0:8@16"
+- "featureOnboardingRecordWithError:"
+- "featureSettings"
+- "features"
+- "female"
+- "fileManager"
+- "filterWithIsIncluded:"
+- "filterWithKeyPath:value:"
+- "filteredKeySetsWithKeysToSync:"
+- "findLastTimeDeviceLockChangedDuringInterval:isLocked:error:"
+- "findLastTimeDeviceWasLockedDuringInterval:error:"
+- "findLastTimeDeviceWasPluggedInDuringInterval:error:"
+- "findLastTimeDeviceWasUnlockedDuringInterval:error:"
+- "findLatestEndOfMovementDuringInterval:error:"
+- "findMotionTerminusDuringInterval:latest:error:"
+- "findTimesDeviceWasUnlockedDuringInterval:error:"
+- "finishDecoding"
+- "finishEncoding"
+- "finishWithError:"
+- "finishWithNoResult"
+- "finishWithResult:"
+- "finishWithResult:error:"
+- "firstObject"
+- "flatMap:"
+- "floatForKey:"
+- "floatValue"
+- "futureWithBlock:scheduler:"
+- "futureWithError:"
+- "futureWithNoResult"
+- "futureWithResult:"
+- "getDeliveredNotificationsWithCompletionHandler:"
+- "getSleepEventRecordWithCompletion:"
+- "getSleepModeWithCompletion:"
+- "getSleepScheduleModelWithCompletion:"
+- "getSleepScheduleStateWithCompletion:"
+- "getSleepScheduleWithCompletion:"
+- "getSleepSettingsWithCompletion:"
+- "getSleepWidgetStateWithCompletion:"
+- "goalAchieved"
+- "goalAchievedQuantityForCategory:userInfo:"
+- "goalAchievedUserInfoKeyForCategory:"
+- "goalAchievedUserInfoValue"
+- "goodMorningAlertEnabled"
+- "goodMorningAlertManager"
+- "goodMorningAlertNotificationsEnabledWithLogObject:"
+- "goodMorningAlertObservers"
+- "goodMorningAlertTimedOut"
+- "goodMorningDismissedDate"
+- "goodMorningScreenEnabledWithLogObject:"
+- "goodMorningWasDismissed"
+- "greetingState"
+- "gregorianCalendar"
+- "handleFailureInMethod:object:file:lineNumber:description:"
+- "handleFirstUnlock"
+- "handleForIdentifier:error:"
+- "handleResponse:forUserNotification:"
+- "handleSignificantTimeChange"
+- "handleTimeZoneChange"
+- "hasBeenUnlockedSinceBoot"
+- "hasChangeForPropertyIdentifier:"
+- "hasLockScreenConnection"
+- "hasOccurrences"
+- "hasSleepFocusMode"
+- "hasSleepFocusMode:"
+- "hasStateTransitionAndNotInitializing"
+- "hasStateTransitionOrInitializing"
+- "hasSufficientSleepData"
+- "hash"
+- "hdsp_bedtimeReminderSound"
+- "hdsp_categorySampleForSleepSessionInterval:metadata:"
+- "hdsp_chargingReminderSound"
+- "hdsp_enumerateFirstPartyWatchSleepTrackingSegmentsWithBlock:"
+- "hdsp_forceSynchronizeWithCompletion:"
+- "hdsp_insufficientSleepDataError"
+- "hdsp_isInsufficientSleepDataError"
+- "hdsp_notificationContentWithEnvironment:"
+- "hdsp_optionsForDateInterval:"
+- "hdsp_optionsForDateInterval:reversed:"
+- "hdsp_persistSessions:"
+- "hdsp_setExternalChangeDelegate:"
+- "hdsp_startSession"
+- "hdsp_stopSession"
+- "hdsp_wakeDetectionSound"
+- "hdsp_wakeUpResultsSound"
+- "healthAppDefaultsDomainWithHealthStore:"
+- "healthAppForegroundPredicate"
+- "healthStore"
+- "healthStoreProvider"
+- "helperPlaceholdersInstalled:"
+- "helperPlaceholdersUninstalled:"
+- "hk_ageWithCurrentDate:"
+- "hk_copyNonEmptyString"
+- "hk_dayIndexWithCalendar:"
+- "hk_filter:"
+- "hk_gregorianCalendar"
+- "hk_map:"
+- "hk_morningIndexWithCalendar:"
+- "hk_predicateForSamplesInDayIndexRange:"
+- "hk_stripLeadingTrailingWhitespace"
+- "hk_weekendDays"
+- "hkspDataForCacheFileWithName:"
+- "hkspDescription"
+- "hkspFileWithNameExistsInCache:"
+- "hkspMainThreadScheduler"
+- "hkspRemoveFileWithNameFromCache:error:"
+- "hkspWriteData:toCacheFileWithName:error:"
+- "hksp_activePairedDeviceSupportsFocusMode"
+- "hksp_analyticsSleepNotificationType"
+- "hksp_analyticsUserDefaults"
+- "hksp_boolForKey:"
+- "hksp_configurationState"
+- "hksp_configurationWithConfigurationState:"
+- "hksp_containsDate:"
+- "hksp_containsDate:searchOptions:"
+- "hksp_dataForKey:"
+- "hksp_dateNearestMatchingComponents:"
+- "hksp_dateRequiresSingularTimeString:"
+- "hksp_demoMode"
+- "hksp_dictionaryByFilteringKeys:"
+- "hksp_dictionaryRepresentation"
+- "hksp_dictionaryRepresentationForKeys:"
+- "hksp_floatForKey:"
+- "hksp_integerForKey:"
+- "hksp_isAfterDate:"
+- "hksp_isAfterOrSameAsDate:"
+- "hksp_isBeforeDate:"
+- "hksp_isBeforeOrSameAsDate:"
+- "hksp_isHealthDatabaseInaccessibleError"
+- "hksp_isWithinInterval:ofDate:"
+- "hksp_latestFromDates:"
+- "hksp_objectForKey:"
+- "hksp_removeObjectForKey:"
+- "hksp_removeObjectsForKeys:"
+- "hksp_removeObjectsForKeys:syncToCloudKit:"
+- "hksp_reset"
+- "hksp_saveDictionary:"
+- "hksp_saveDictionary:syncToCloudKit:"
+- "hksp_serializedClassName"
+- "hksp_serializedProperties"
+- "hksp_setBool:forKey:"
+- "hksp_setFloat:forKey:"
+- "hksp_setInteger:forKey:"
+- "hksp_setObject:forKey:"
+- "hksp_shouldSubmitAnalytics"
+- "hksp_sleepdUserDefaults"
+- "hksp_springBoardUserDefaults"
+- "hksp_supportsAlwaysOnTracking"
+- "hksp_supportsCFUserNotifications"
+- "hksp_supportsChargingReminders"
+- "hksp_supportsDailyAnalytics"
+- "hksp_supportsGoodMorningAlerts"
+- "hksp_supportsHealthData"
+- "hksp_supportsLegacySleepAlarms"
+- "hksp_supportsSleep"
+- "hksp_supportsSleepAlarms"
+- "hksp_supportsSleepLockScreen"
+- "hksp_supportsSleepTracking"
+- "hksp_supportsSleepWidget"
+- "hksp_supportsUserNotificationCenter"
+- "hksp_supportsWakeDetection"
+- "hksp_supportsWakeUpResults"
+- "hksp_synchronize"
+- "hksp_synchronizeKeys:"
+- "hksp_validationErrorWithReason:"
+- "hour"
+- "hoursOfSleepForResult:"
+- "i16@0:8"
+- "i24@0:8Q16"
+- "i24@0:8q16"
+- "iconForApplicationIdentifier:"
+- "identifierWithPid:"
+- "idsServiceManager"
+- "immediateScheduler"
+- "inBedDetector"
+- "inBedDetectorWithProvider:"
+- "inMemoryCopy"
+- "inMonitoringWindow"
+- "inUnscheduledSleepMode"
+- "incrementSleepEventRecordSyncAnchor"
+- "incrementSleepEventSyncAnchor"
+- "incrementSleepModeSyncAnchor"
+- "incrementSleepScheduleStateSyncAnchor"
+- "incrementSleepScheduleSyncAnchor"
+- "incrementSleepSettingsSyncAnchor"
+- "info"
+- "infoForMachServiceName:remoteObjectInterface:exportedObject:exportedObjectInterface:lifecycleNotification:requiredEntitlement:options:"
+- "infoProvider"
+- "init"
+- "initForReadingFromData:error:"
+- "initRequiringSecureCoding:"
+- "initWithAlarmManager:"
+- "initWithAllowedClasses:serializedDictionary:"
+- "initWithBehavior:"
+- "initWithBehavior:sleepStorageProvider:sleepScheduleModelManagerProvider:sleepSchedulerProvider:sleepServerProvider:sleepCoordinatorProvider:sleepModeManagerProvider:sleepTrackingManagerProvider:goodMorningAlertManagerProvider:chargingReminderManagerProvider:wakeDetectionManagerProvider:wakeUpResultsNotificationManagerProvider:actionManagerProvider:sleepAlarmManagerProvider:healthStoreProvider:contextStoreManagerProvider:biomeManagerProvider:migrationManagerProvider:notificationManagerProvider:notificationListenerProvider:sleepLockScreenManagerProvider:sleepWidgetManagerProvider:idsServiceManagerProvider:diagnosticsProvider:systemMonitorProvider:assertionManager:timeChangeListenerProvider:sensitiveUIMonitorProvider:analyticsManagerProvider:userDefaults:fileManager:currentDateProvider:defaultCallbackScheduler:mutexGenerator:"
+- "initWithBreathingDisturbanceSamples:sleepApneaEventSamples:sleepApneaFeatureOnboardingRecord:morningIndexRange:gregorianCalendar:dateOfLastAnalysis:currentDateProvider:"
+- "initWithBundleIdentifier:"
+- "initWithBundleIdentifier:allowPlaceholder:error:"
+- "initWithCallbackScheduler:"
+- "initWithCallbackScheduler:isAppleWatch:"
+- "initWithCapacity:"
+- "initWithCategory:domainName:healthStore:"
+- "initWithCategory:endMorningIndex:goalAchieved:notificationVariant:userFirstName:"
+- "initWithCoder:"
+- "initWithCurrentDateProvider:"
+- "initWithDataVersionKey:currentDataVersion:cloudDataVersionKey:currentCloudDataVersion:cloudSyncEnabledKey:localDataVersionKey:currentLocalDataVersion:"
+- "initWithDate:"
+- "initWithDateInterval:sleepIntervals:endReason:metadata:requiresFirstUnlock:"
+- "initWithDaySummaries:morningIndexRange:userFirstName:"
+- "initWithDaySummaries:needsIntroduction:userFirstName:algorithmVersion:"
+- "initWithDelegate:infoProvider:"
+- "initWithDictionary:"
+- "initWithDismissedDate:"
+- "initWithDomain:"
+- "initWithEnvironment:"
+- "initWithEnvironment:analyticsManager:dataCollectionScheduler:"
+- "initWithEnvironment:assertionManager:"
+- "initWithEnvironment:biomeInterface:"
+- "initWithEnvironment:configuration:"
+- "initWithEnvironment:configuration:nanoDefaultsProvider:cloudDefaultsProvider:throttleInterval:"
+- "initWithEnvironment:configuration:syncedDefaults:"
+- "initWithEnvironment:connectionListenerProvider:processStateManager:"
+- "initWithEnvironment:context:"
+- "initWithEnvironment:daySummaries:breathingDisturbanceSamples:sleepApneaEventSamples:sleepApneaFeatureOnboardingRecord:morningIndexRange:"
+- "initWithEnvironment:daySummaries:morningIndexRange:"
+- "initWithEnvironment:localService:cloudService:"
+- "initWithEnvironment:monitoringScheduler:"
+- "initWithEnvironment:notificationCenter:"
+- "initWithEnvironment:notificationPublishers:"
+- "initWithEnvironment:persistence:"
+- "initWithEnvironment:retryAttemptScheduler:"
+- "initWithEnvironment:schedulerProvider:limitingScheduler:"
+- "initWithEnvironment:sleepAlarmProvider:"
+- "initWithEnvironment:sleepFocusModeBridge:sleepProactiveBridge:"
+- "initWithEnvironment:sleepSessionManager:sleepTracker:"
+- "initWithEnvironment:wakeDetectorProviders:"
+- "initWithEnvironment:watchOnWristMonitor:devicePowerMonitor:deviceUnlockMonitor:"
+- "initWithEnvironment:watchOnWristMonitor:devicePowerMonitor:deviceUnlockMonitor:systemReadyProvider:applicationWorkspaceMonitor:"
+- "initWithEnvironment:widgetManager:reloadThrottler:"
+- "initWithEventName:options:criteria:"
+- "initWithEventName:options:criteria:activity:"
+- "initWithFeatureIdentifier:healthStore:"
+- "initWithFocusModeIdentifier:"
+- "initWithGoodMorningDismissedDate:"
+- "initWithIdentifier:allowedStates:persistence:delegate:infoProvider:currentDateProvider:"
+- "initWithIdentifier:block:"
+- "initWithIdentifier:block:delay:"
+- "initWithIdentifier:defaults:"
+- "initWithIdentifier:mode:"
+- "initWithIdentifier:modficationDateKey:keysToPersist:keysToSync:"
+- "initWithIdentifier:modficationDateKey:keysToPersist:keysToSync:perGizmoKeys:defaultValues:"
+- "initWithIdentifier:notification:actionHandler:"
+- "initWithIdentifier:persistence:delegate:infoProvider:currentDateProvider:"
+- "initWithIdentifier:targetQueue:waking:"
+- "initWithIdentifier:timeout:"
+- "initWithInfo:keySets:"
+- "initWithInterval:executeBlock:"
+- "initWithInterval:type:"
+- "initWithInterval:updateBlock:"
+- "initWithInterval:updateBlock:scheduler:mutexGenerator:"
+- "initWithIsCloudService:scheduler:"
+- "initWithIsSignificantChange:topLevelChangeKeys:"
+- "initWithLabel:"
+- "initWithLocalDeviceHealthStore"
+- "initWithMorningIndexRange:ascending:limit:options:resultsHandler:"
+- "initWithNotification:healthStore:"
+- "initWithProcessStateProvider:"
+- "initWithProvider:"
+- "initWithQueryDescriptors:limit:sortDescriptors:resultsHandler:"
+- "initWithSampleType:predicate:"
+- "initWithScheduleState:changeReason:syncAnchor:"
+- "initWithScheduler:"
+- "initWithService:"
+- "initWithServiceName:viewControllerClassName:"
+- "initWithSleepDaySummaries:legacyWakeUpResultsEnabled:"
+- "initWithSleepFocusModeBridge:"
+- "initWithSleepMode:changeReason:syncAnchor:"
+- "initWithSleepModeOn:"
+- "initWithSnoozedUntilDate:"
+- "initWithSource:changeEvaluation:"
+- "initWithStartDate:duration:"
+- "initWithStartDate:endDate:"
+- "initWithStartDate:endDate:maxEvents:lastN:reversed:"
+- "initWithState:changeReason:"
+- "initWithState:changeReason:expectedEndDate:"
+- "initWithStateMachine:"
+- "initWithStoreIdentifier:type:"
+- "initWithSuccess:changeEvaluation:error:shouldNotify:"
+- "initWithSuccess:timelineResults:error:"
+- "initWithSuiteName:"
+- "initWithType:action:"
+- "initWithUTF8String:"
+- "initWithUserDefaults:"
+- "initWithUserDefaults:callbackScheduler:"
+- "initWithUserInfo:"
+- "initWithWasExplicitConfirmation:wakeUpConfirmedDate:wakeUpConfirmedUntilDate:"
+- "initWithWindDownEventData:watchProductType:weeksSinceOnboarded:"
+- "initialState"
+- "innerClasses"
+- "integerForKey:"
+- "integerValue"
+- "interfaceWithProtocol:"
+- "intersectsSet:"
+- "invalidate"
+- "invalidateAssertion"
+- "invalidateRelevances"
+- "isActive"
+- "isActivityAvailable"
+- "isAdd"
+- "isAlarmEnabled"
+- "isAnySleepCoachingOnboardingCompleted"
+- "isAnySleepTrackingOnboardingCompleted"
+- "isAnySleepWindDownShortcutsOnboardingCompleted"
+- "isAppleWatch"
+- "isApplicationInstalled:"
+- "isCharging"
+- "isChargingOverride"
+- "isChargingReminderDisabled"
+- "isCloudService"
+- "isConsolidatedSleepCoachingOnboardingCompleted"
+- "isDataCollectionEnabled"
+- "isDataCollectionInProgress"
+- "isDate:inSameDayAsDate:"
+- "isDefaultPairedDevice"
+- "isDelayingForTracking"
+- "isDemoEnvironment"
+- "isDetecting"
+- "isDetectingState"
+- "isDiagnosticDataSubmissionAllowed"
+- "isDisabled"
+- "isEnabled"
+- "isEnabledAndHasOccurrences"
+- "isEnvironmentReady"
+- "isEqual"
+- "isEqual:"
+- "isEqualToDate:"
+- "isEqualToNotification:"
+- "isEqualToString:"
+- "isExpired:"
+- "isFinished"
+- "isForAlarmTurnedOffWhileFiring"
+- "isImproveHealthAndActivitySubmissionAllowed"
+- "isInDemoMode"
+- "isInRootRobotOrDemoMode"
+- "isInitializing"
+- "isInstalled"
+- "isIntroduction"
+- "isKindOfClass:"
+- "isLockScreenActive"
+- "isMemberOfClass:"
+- "isNotificationEnabled"
+- "isOnCharger"
+- "isOnboarded"
+- "isOnboardingPresent"
+- "isOneNight"
+- "isPlaceholder"
+- "isProcessSuspended:"
+- "isProxy"
+- "isSingleDayOverride"
+- "isSleepScheduleDisabled"
+- "isSpringboardStarted"
+- "isSystemReady"
+- "isTimeInBedTrackingEnabled"
+- "isUnitTestEnvironment"
+- "isUpdate"
+- "isUserVisible"
+- "isValid"
+- "isValidOccurrence"
+- "isWaitingForWakeUp"
+- "isWakeDetectionDisabled"
+- "isWakeUpResultsNotificationEnabled"
+- "isWatch"
+- "isWristDetectEnabled"
+- "keyPathForDefaultPairedDeviceForegroundApp"
+- "keyPathForForegroundApp"
+- "keyPathForSleepStateDictionary"
+- "keySetForIdentifier:"
+- "keySets"
+- "keyValueStoreDidChange:"
+- "keysToPersist"
+- "keysToSync"
+- "kickOffBackgroundGeneration"
+- "lastEventTriggerDate"
+- "lastModifiedDate"
+- "lastObject"
+- "lastRecord"
+- "lastSchedule"
+- "lastSettings"
+- "lastStandardSleepEvent"
+- "lastWakeUpResultsIntroductionNotificationVersionSent"
+- "laterDate:"
+- "launchDate"
+- "launchNotificationRegistrationLock"
+- "launchNotificationRegistrations"
+- "lazyFutureWithBlock:"
+- "legacyWakeUpResultsEnabled"
+- "length"
+- "lifetimeInterval"
+- "limitingScheduler"
+- "listener:shouldAcceptNewConnection:"
+- "listenerWithConnectionInfo:"
+- "loadSleepEventRecord:"
+- "loadSleepSchedule:"
+- "loadSleepScheduleModel:"
+- "loadSleepSettings:"
+- "localDataVersion"
+- "localDataVersionKey"
+- "localDefaultsDictionaryRepresentation"
+- "localDevice"
+- "localService"
+- "localServiceWithScheduler:"
+- "localWakingRegistrationWithIdentifier:contextualPredicate:clientIdentifier:callback:"
+- "localeWithLocaleIdentifier:"
+- "localizedBody"
+- "localizedStandardRangeOfString:"
+- "localizedStringForKey:value:table:"
+- "localizedStringFromDate:dateStyle:timeStyle:"
+- "localizedStringFromNumber:numberStyle:"
+- "localizedTitle"
+- "lock"
+- "lockScreenAssertion"
+- "lockScreenDidConnect"
+- "lockedTimesDuringInterval:error:"
+- "loggingCategory"
+- "loggingIdentifier"
+- "male"
+- "manualOffState"
+- "manualOnState"
+- "markAllActionsAsCollected"
+- "maximumAllowedDuration"
+- "metadata"
+- "migrationManager"
+- "migrationState"
+- "minusSet:"
+- "minute"
+- "mode"
+- "modeConfigService"
+- "modeConfigurationForModeIdentifier:error:"
+- "modificationDateKey"
+- "monitorActivity"
+- "monitorCriteria"
+- "monitorLock"
+- "monitoringScheduler"
+- "monitoringState"
+- "monitoringWindowAfterDate:"
+- "morningIndex"
+- "morningIndexRange"
+- "mutableCopy"
+- "mutexGenerator"
+- "mutexProvider"
+- "na_all:"
+- "na_each:"
+- "na_filter:"
+- "na_firstObjectPassingTest:"
+- "na_genericError"
+- "na_map:"
+- "na_safeAddObject:"
+- "na_setByIntersectingWithSet:"
+- "na_setByRemovingObjectsFromSet:"
+- "name"
+- "needDataMigration"
+- "needsDataMigration"
+- "needsInitialSync"
+- "needsMigration"
+- "needsProtectedDataState"
+- "needsSleepScoreIntroduction"
+- "needsSyncFromCloud"
+- "networkUsageChanged:"
+- "new"
+- "nextEvent"
+- "nextEventDueAfterDate:"
+- "nextEventWithIdentifier:dueAfterDate:"
+- "nextOccurrenceAfterDate:"
+- "nextState"
+- "nextWakeUp"
+- "not set"
+- "notOnboardedState"
+- "notReadyState"
+- "notification"
+- "notificationAttemptWindowForWakeUpBeforeDate:"
+- "notificationCenter"
+- "notificationEnabled"
+- "notificationListener"
+- "notificationListener:didReceiveNotificationWithName:"
+- "notificationManager"
+- "notificationPublishers"
+- "notificationSettings"
+- "notificationSettingsProvider"
+- "notificationUserInfo"
+- "notificationVariant"
+- "notifications"
+- "notifiedState"
+- "notifyDelegateWithBlock:"
+- "notifyForActivityDetectedOnDate:"
+- "notifyForOverdueEvents:"
+- "notifyObserversForSleepEventRecordChange:"
+- "notifyObserversForSleepModeChange:previousMode:reason:"
+- "notifyObserversForSleepScheduleChange:"
+- "notifyObserversForSleepSettingsChange:"
+- "notifyToken"
+- "now"
+- "npsDomainAccessor"
+- "numberForKey:"
+- "numberOfTimesDismissed"
+- "numberWithBool:"
+- "numberWithDouble:"
+- "numberWithFloat:"
+- "numberWithInt:"
+- "numberWithInteger:"
+- "numberWithUnsignedInteger:"
+- "objectAtIndexedSubscript:"
+- "objectEnumerator"
+- "objectForKey:"
+- "objectForKeyedSubscript:"
+- "objectWithSyncAnchor:"
+- "observeLaunchProhibitedApps"
+- "observedApplicationBundleIdentifiers"
+- "observedApplicationDidInstall:"
+- "observedApplicationDidUninstall:"
+- "observers"
+- "observingRestore"
+- "occurrence"
+- "occurrenceOnDay:"
+- "occurrences"
+- "offState"
+- "onWristMonitor"
+- "onboardedCountryCodesForOnboardingState"
+- "options"
+- "originalValueForPropertyIdentifier:"
+- "other"
+- "overdueEventsForDate:"
+- "overrideDeviceHasBeenUnlockedSinceBoot"
+- "overrideLockScreenState:userInfo:"
+- "overrideWidgetState:"
+- "pendingEventProviders"
+- "perGizmoKeys"
+- "perform:withContext:"
+- "perform:withSource:"
+- "performBlock:"
+- "performDataMigration"
+- "performImmediateQueryForNotification"
+- "performInitialSyncWithCompletion:"
+- "performRemoteBlock:onClient:"
+- "performRemoteBlockOnClients:passingTest:"
+- "performSelector:"
+- "performSelector:withObject:"
+- "performSelector:withObject:withObject:"
+- "performWhenEnvironmentIsReady:"
+- "performWhenEnvironmentIsReady:withContext:"
+- "periods"
+- "persistedState"
+- "persistence"
+- "pid"
+- "platformSpecificProviders:"
+- "platformSpecificTrackerWithEnvironment:"
+- "pluginsDidInstall:"
+- "pluginsDidUninstall:"
+- "pluginsWillUninstall:"
+- "postChargingReminderNotification"
+- "postNotification:fromCenter:"
+- "postResultsNotification"
+- "postWakeDetectionNotification:"
+- "predicateForKeyPath:equalToValue:"
+- "predicateMatchingIdentifier:"
+- "prepare"
+- "presentAlertForGoodMorning"
+- "presentingState"
+- "previousEventWithIdentifier:dueBeforeDate:"
+- "previousOccurrence"
+- "previousOccurrenceBeforeDate:"
+- "previousResolvedOccurrenceBeforeDate:"
+- "previousSessionFinished"
+- "previousState"
+- "processDidBecomeSuspended:"
+- "processID"
+- "processNoLongerSuspended:"
+- "processStateManager"
+- "processedSessionForSession:"
+- "property"
+- "propertyListValueForKey:completion:"
+- "protectedHealthDataDidBecomeAvailable"
+- "providerIdentifier"
+- "providers"
+- "publish:stream:"
+- "publishNotificationForEvent:"
+- "publishNotificationWithIdentifier:userInfo:completion:"
+- "publishWakeUpResultsNotificationWithCompletion:"
+- "publisherWithUseCase:options:"
+- "q16@0:8"
+- "q24@0:8@\"NSString\"16"
+- "q24@0:8@16"
+- "q24@0:8Q16"
+- "q36@0:8q16B24@28"
+- "quantity"
+- "quantityWithUnit:doubleValue:"
+- "queryActivityStartingFromDate:toDate:toQueue:withHandler:"
+- "queryDidComplete"
+- "queryDidFailWithError:"
+- "queryResultFuture"
+- "queryingState"
+- "queue"
+- "readyState"
+- "reason"
+- "recover:"
+- "reduceWithInitial:nextPartialResult:"
+- "registerCallback:"
+- "registerForLaunchNotificationWithName:key:"
+- "registerObserver:"
+- "registerPredicate:identifier:callback:"
+- "registrationLock"
+- "registrations"
+- "release"
+- "releaseAssertion"
+- "releaseAssertionWithIdentifier:"
+- "relevantOccurrence"
+- "reloadWidgetsWithReason:"
+- "reloadsWidgetOnModelChange"
+- "reloadsWidgetOnTimeChange"
+- "remoteObjectProxy"
+- "removeAllEvents"
+- "removeAllObjects"
+- "removeAllWindDownActionsBeforeMorningIndex:"
+- "removeDeliveredNotificationsWithIdentifiers:"
+- "removeEventHandler:"
+- "removeEventProvider:"
+- "removeEvents:"
+- "removeEventsForProvider:"
+- "removeLastObject"
+- "removeModeConfigurationForModeIdentifier:error:"
+- "removeObject:"
+- "removeObjectForKey:"
+- "removeObserver:"
+- "removeObserver:name:object:"
+- "removeObserver:wasLast:"
+- "removeProvider:"
+- "removeSessionDataFile"
+- "removeSleepEventRecordWithError:"
+- "removeSleepFocusMode:"
+- "removeSleepScheduleModelWithError:"
+- "removeSleepScheduleWithError:"
+- "removeSleepSettingsWithError:"
+- "repeatSchedule"
+- "replaceCharactersInRange:withString:"
+- "request"
+- "requestWithIdentifier:content:trigger:destinations:"
+- "rescheduleEvents"
+- "resetCloudData"
+- "resetCloudStorage"
+- "resetDemoMode"
+- "resetSleepAlarmSnoozeState"
+- "resetSystemTimeZone"
+- "resolvedOccurrenceContainingDate:"
+- "respondsToSelector:"
+- "restoreDidFinish"
+- "resume"
+- "retain"
+- "retainCount"
+- "retryActivity"
+- "retryAttemptEventDue"
+- "retryAttemptScheduler"
+- "retryCriteria"
+- "reverseObjectEnumerator"
+- "sampleIntervals"
+- "saveCloudDataVersion"
+- "saveDataVersion"
+- "saveFailedWithError:"
+- "saveOccurrence:"
+- "savePendingSessions"
+- "saveSession:"
+- "saveSleepEventRecord:completion:"
+- "saveSleepEventRecord:error:"
+- "saveSleepEventRecord:error:preNotifyBlock:"
+- "saveSleepEventRecordChanges:error:"
+- "saveSleepSchedule:completion:"
+- "saveSleepSchedule:error:"
+- "saveSleepScheduleChanges:error:"
+- "saveSleepScheduleModel:error:"
+- "saveSleepSettings:completion:"
+- "saveSleepSettings:error:"
+- "saveSleepSettingsChanges:error:"
+- "saveSleepTrackingSamples:completion:"
+- "scheduleActivity:activityHandler:"
+- "scheduleDailyCollectionActivity"
+- "scheduleEventForDate:options:"
+- "scheduleModelChanged:"
+- "scheduleRetryAttempt"
+- "scheduleState"
+- "scheduleStateExpiration"
+- "scheduleTask:"
+- "scheduledEventIsDue"
+- "scheduledExpirationStateIdentifiers"
+- "scheduledSleepMode"
+- "scheduler"
+- "schedulesExpiration"
+- "secondUnit"
+- "segments"
+- "self"
+- "sendEvent:"
+- "sendLockScreenState:userInfo:"
+- "sendMessage:"
+- "sendMessage:completion:"
+- "sendMessage:toDestinations:priority:options:identifier:error:"
+- "sendNotifiedForEarlyWakeUpMessage"
+- "sendTestIDSMessage"
+- "sensitiveUIMonitor"
+- "sensitiveUIStateChanged"
+- "serialDispatchQueueSchedulerWithName:"
+- "serialize:error:"
+- "serializedDictionary"
+- "service:account:didReceiveLocalNetworkHandshake:fromID:context:"
+- "service:account:identifier:didSendWithSuccess:error:"
+- "service:account:identifier:didSendWithSuccess:error:context:"
+- "service:account:identifier:fromID:hasBeenDeliveredWithContext:"
+- "service:account:identifier:hasBeenDeliveredWithContext:"
+- "service:account:identifier:sentBytes:totalBytes:"
+- "service:account:incomingData:fromID:context:"
+- "service:account:incomingMessage:fromID:context:"
+- "service:account:incomingOpportunisticData:withIdentifier:fromID:context:"
+- "service:account:incomingPendingMessageOfType:fromID:context:"
+- "service:account:incomingResourceAtURL:fromID:context:"
+- "service:account:incomingResourceAtURL:metadata:fromID:context:"
+- "service:account:incomingUnhandledProtobuf:fromID:context:"
+- "service:account:inviteDroppedForSessionID:fromID:context:error:"
+- "service:account:inviteReceivedForSession:fromID:"
+- "service:account:inviteReceivedForSession:fromID:withContext:"
+- "service:account:inviteReceivedForSession:fromID:withOptions:"
+- "service:account:pendingResourceWithMetadata:fromID:acknowledgementBlock:context:"
+- "service:account:receivedGroupSessionParticipantDataUpdate:"
+- "service:account:receivedGroupSessionParticipantUpdate:"
+- "service:account:receivedGroupSessionParticipantUpdate:context:"
+- "service:activeAccountsChanged:"
+- "service:connectedDevicesChanged:"
+- "service:devicesChanged:"
+- "service:didCancelMessageWithSuccess:error:identifier:"
+- "service:didReceiveMessage:"
+- "service:didSendOpportunisticDataWithIdentifier:toIDs:"
+- "service:didSwitchActivePairedDevice:acknowledgementBlock:"
+- "service:linkedDevicesChanged:"
+- "service:nearbyDevicesChanged:"
+- "serviceAllowedTrafficClassifiersDidReset:"
+- "serviceSpaceDidBecomeAvailable:"
+- "sessionLock"
+- "set"
+- "setActiveWatchProductType:"
+- "setAlarmConfiguration:"
+- "setAlarmFriday:"
+- "setAlarmMonday:"
+- "setAlarmSaturday:"
+- "setAlarmSunday:"
+- "setAlarmThursday:"
+- "setAlarmTuesday:"
+- "setAlarmWednesday:"
+- "setAlertTopic:"
+- "setAppendExistingPages:"
+- "setAreHealthNotificationsAuthorized:"
+- "setAssertions:"
+- "setBDOnboardingCountryCode:"
+- "setBatteryLevelOverride:"
+- "setBedTimeWindDownRemindersEnabled:"
+- "setBedtimeComponents:"
+- "setBedtimeReminders:"
+- "setBiologicalSex:"
+- "setBody:"
+- "setBool:forKey:"
+- "setByAddingObjectsFromArray:"
+- "setByAddingObjectsFromSet:"
+- "setCacheSettings:"
+- "setCategoryIdentifier:"
+- "setChargeRemindersEnabled:"
+- "setChargingReminders:"
+- "setConnection:"
+- "setCurrentLockScreenState:"
+- "setDateFormat:"
+- "setDaysWornWatchToSleepInLast30Days:"
+- "setDaysWornWatchToSleepInLast7Days:"
+- "setDebugIdentifier:"
+- "setDefaultActionURL:"
+- "setDelegate:"
+- "setDidUpdateAlertAssertion:"
+- "setDidWearWatchToSleepLastNight:"
+- "setDontNotify:"
+- "setDontSync:"
+- "setEnabled:"
+- "setExpirationDate:"
+- "setExportedInterface:"
+- "setExportedObject:"
+- "setFloat:forKey:"
+- "setGoodMorningDismissedDate:"
+- "setHapticToneIdentifierFriday:"
+- "setHapticToneIdentifierMonday:"
+- "setHapticToneIdentifierSaturday:"
+- "setHapticToneIdentifierSunday:"
+- "setHapticToneIdentifierThursday:"
+- "setHapticToneIdentifierTuesday:"
+- "setHapticToneIdentifierWednesday:"
+- "setHasSleepFocusConfigured:"
+- "setHour:"
+- "setIcon:"
+- "setInitialSchedule"
+- "setInitialState:"
+- "setInteger:forKey:"
+- "setInteractedWithWindDownLast24Hrs:"
+- "setInterruptionHandler:"
+- "setInvalidationHandler:"
+- "setIsChargingOverride:"
+- "setIsDefaultScheduleFriday:"
+- "setIsDefaultScheduleMonday:"
+- "setIsDefaultScheduleSaturday:"
+- "setIsDefaultScheduleSunday:"
+- "setIsDefaultScheduleThursday:"
+- "setIsDefaultScheduleTuesday:"
+- "setIsDefaultScheduleWednesday:"
+- "setIsImproveHealthAndActivitySubmissionAllowed:"
+- "setIsOnboardedBD:"
+- "setIsSleepScoreNotificationEnabled:"
+- "setIsUnitTestEnvironment:"
+- "setLastEventTriggerDate:"
+- "setLastModifiedDate:"
+- "setLastRecord:"
+- "setLastSchedule:"
+- "setLastSettings:"
+- "setLastStandardSleepEvent:"
+- "setLastWakeUpResultsIntroductionNotificationVersionSent:"
+- "setLastWakeUpResultsIntroductionNotificationVersionSentDate:"
+- "setLocale:"
+- "setLockScreenOverrideState:userInfo:completion:"
+- "setLockScreenState:userInfo:"
+- "setMaxBDValueInPast30Days:"
+- "setMaxSleepCoachingVersionOnboarded:"
+- "setMaxSleepTrackingVersionOnboarded:"
+- "setMaxTimeBetweenBDSessionsPastNight:"
+- "setMeanTimeBetweenBDSessionsPastNight:"
+- "setMinTimeBetweenBDSessionsPastNight:"
+- "setMinute:"
+- "setModeConfiguration:error:"
+- "setName:"
+- "setNeedsInitialSync:"
+- "setNeedsSyncFromCloud:"
+- "setNotification:"
+- "setNotificationCenter:"
+- "setNumBDNotificationsInPast180Nights:"
+- "setNumBDNotificationsInPast30Nights:"
+- "setNumBDNotificationsInPastNight:"
+- "setNumBDValuesInPast30Days:"
+- "setNumBDValuesInPastNight:"
+- "setNumDaysSinceLastAnalysis:"
+- "setNumDaysSinceLastBDNotification:"
+- "setNumSleepDaysWithBDsOverThresholdLast30Days:"
+- "setNumSleepDaysWithMultipleBDinPast30Days:"
+- "setNumSleepSessionsWithBDsOverThresholdLast30Days:"
+- "setNumberOfAwakeEventsLastNight:"
+- "setNumberOfTimesDismissed:"
+- "setObject:forKey:"
+- "setObject:forKeyedSubscript:"
+- "setOverrideDeviceHasBeenUnlockedSinceBoot:"
+- "setPageType:"
+- "setPredicates:"
+- "setProactivePages:"
+- "setRemoteObjectInterface:"
+- "setScheduleChangePast24Hours:"
+- "setScheduleChangePast7days:"
+- "setScheduleDisabled:"
+- "setScheduleFriday:"
+- "setScheduleMigration:"
+- "setScheduleMonday:"
+- "setScheduleSaturday:"
+- "setScheduleSunday:"
+- "setScheduleThursday:"
+- "setScheduleTuesday:"
+- "setScheduleWednesday:"
+- "setScheduledSleepMode:"
+- "setScheduledSleepModeEnabled:"
+- "setShareAcrossDevices:"
+- "setShouldIgnoreDoNotDisturb:"
+- "setShouldRepeat:"
+- "setSleepCoachingOnboardingCompletedVersion:"
+- "setSleepCoachingOnboardingFirstCompletedDate:"
+- "setSleepDurationGoal:"
+- "setSleepDurationLastNight:"
+- "setSleepEventDelegate:"
+- "setSleepGoal:"
+- "setSleepMode:"
+- "setSleepMode:reason:"
+- "setSleepMode:reason:completion:"
+- "setSleepModeOptions:"
+- "setSleepScoreLastNight:"
+- "setSleepScoreNotificationThreshold:"
+- "setSleepStagePercentAwakeLastNight:"
+- "setSleepStagePercentCoreLastNight:"
+- "setSleepStagePercentDeepLastNight:"
+- "setSleepStagePercentRemLastNight:"
+- "setSleepTracking:"
+- "setSleepTrackingOnboardingCompletedVersion:"
+- "setSleepTrackingOnboardingFirstCompletedDate:"
+- "setSleepWindDownShortcutsOnboardingCompletedVersion:"
+- "setSleepWindDownShortcutsOnboardingFirstCompletedDate:"
+- "setSound:"
+- "setSoundVolume:"
+- "setSourceIdentifier:"
+- "setSpringBoardSuggestedPageCreated:"
+- "setStateDescriptor:"
+- "setStddevActualTimeAsleep:"
+- "setStddevActualVsScheduledTimeAsleep:"
+- "setStddevScheduledTimeAsleep:"
+- "setSyncAnchorContainer:"
+- "setThreadIdentifier:"
+- "setTimeInBedTracking:"
+- "setTimeInBedTrackingEnabled:"
+- "setTimeZone:"
+- "setTitle:"
+- "setToneIdentifier:"
+- "setUpdateHandler:"
+- "setUseSleepScreen:"
+- "setUserAge:"
+- "setUserInfo:"
+- "setValues:"
+- "setVibrationIdentifier:"
+- "setWakeDetectorDelegate:"
+- "setWakeUpAlarmDismissedDate:"
+- "setWakeUpAlarmSnoozedUntilDate:"
+- "setWakeUpComponents:"
+- "setWakeUpConfirmedUntilDate:"
+- "setWakeUpEarlyNotificationConfirmedDate:"
+- "setWakeUpOverriddenDate:"
+- "setWakeUpResults:"
+- "setWatchSleepFeaturesEnabled:"
+- "setWatchSleepTrackingEnabled:"
+- "setWeekdays:"
+- "setWeekendDaysWornWatchToSleepInLast7Days:"
+- "setWeeksSinceOnboardedBD:"
+- "setWeeksSinceOnboardedSleepSchedule:"
+- "setWeeksSinceOnboardedSleepTracking:"
+- "setWeeksSinceOnboardedWindDownActions:"
+- "setWidgetOverrideState:completion:"
+- "setWindDownMinutes:"
+- "setWithArray:"
+- "setWithObject:"
+- "setWithObjects:"
+- "setXpcEndpoint:"
+- "shareAcrossDevices"
+- "sharedBehavior"
+- "sharedManager"
+- "shouldGoIntoSleepModeDuringState:"
+- "shouldGoIntoUpcomingState"
+- "shouldHideForSensitivity:"
+- "shouldInvalidateRelevanceForWidgetOfKind:"
+- "shouldNotify"
+- "shouldPersistKey:"
+- "shouldReloadWidgetOfKind:"
+- "shouldSyncKey:"
+- "shutdown"
+- "significantChangeWithTopLevelChangeKeys:"
+- "significantScheduleChangeOccurred:"
+- "significantTimeChange"
+- "significantTimeChangeDetected:"
+- "significantTimeChangeOccurred"
+- "signpost_id"
+- "sigtermSource"
+- "sinkWithCompletion:receiveInput:"
+- "sinkWithCompletion:shouldContinue:"
+- "sleepAlarm"
+- "sleepAlarm:matchesSleepScheduleModel:"
+- "sleepAlarmDismissedOnDate:source:"
+- "sleepAlarmManager"
+- "sleepAlarmProvider"
+- "sleepAlarmSnoozedUntilDate:source:"
+- "sleepAlarmWasDismissedOnDate:source:completion:"
+- "sleepAlarmWasModified"
+- "sleepAlarmWasModifiedFromSource:completion:"
+- "sleepAlarmWasSnoozedUntilDate:source:completion:"
+- "sleepAlarms"
+- "sleepAlarmsFuture"
+- "sleepAlarmsFutureIgnoringCache:"
+- "sleepApneaAnalyticsBuilder"
+- "sleepApneaEventSamples"
+- "sleepApneaFeatureOnboardingRecord"
+- "sleepAppForegroundPredicate"
+- "sleepCloudKitManatee"
+- "sleepCloudKitSync"
+- "sleepCoachingOnboardingCompletedVersion"
+- "sleepCoachingOnboardingFirstCompletedDate"
+- "sleepCoordinator"
+- "sleepDetails"
+- "sleepDuration"
+- "sleepDurationGoal"
+- "sleepDurationGoalAchievedCount"
+- "sleepEvent"
+- "sleepEventDelegate"
+- "sleepEventIsDue:"
+- "sleepEventOccurred:"
+- "sleepEventRecord"
+- "sleepEventRecordChanged:clientIdentifier:"
+- "sleepEventWithIdentifier:dueDate:"
+- "sleepEventWithIdentifier:dueDate:context:"
+- "sleepEventWithIdentifier:dueDate:expirationDate:isUserVisible:"
+- "sleepFeaturesEnabled"
+- "sleepFocusConfiguration"
+- "sleepFocusConfiguration:"
+- "sleepFocusConfigurationServiceWithOptions:"
+- "sleepFocusModeBridge"
+- "sleepFocusModeBridge:didUpdateSleepFocusConfiguration:"
+- "sleepHealthStore"
+- "sleepLockScreenManager"
+- "sleepLockScreenState"
+- "sleepLockScreenStateDidChange:previousState:"
+- "sleepLockWasDismissed"
+- "sleepMetricsEngine"
+- "sleepMetricsForDaySummaries:inMorningIndexRange:"
+- "sleepMode"
+- "sleepModeChanged:"
+- "sleepModeDidChange:isUserRequested:"
+- "sleepModeDidChange:previousMode:reason:"
+- "sleepModeDidChange:reason:"
+- "sleepModeIsOff"
+- "sleepModeManager"
+- "sleepModeObservers"
+- "sleepModeOptions"
+- "sleepModePublisher"
+- "sleepModeState"
+- "sleepModeTurnedOffForUnknownReason"
+- "sleepModeTurnedOnForUnknownReason"
+- "sleepProactiveBridge"
+- "sleepResultsNotificationsOnWatch"
+- "sleepSchedule"
+- "sleepScheduleChanged:clientIdentifier:"
+- "sleepScheduleInvalid"
+- "sleepScheduleInvalidReason"
+- "sleepScheduleModel"
+- "sleepScheduleModelDateModified"
+- "sleepScheduleModelDidChange:"
+- "sleepScheduleModelFromSleepAlarm:"
+- "sleepScheduleModelManager"
+- "sleepScheduleModelManager:didUpdateSleepEventRecord:"
+- "sleepScheduleModelManager:didUpdateSleepSchedule:"
+- "sleepScheduleModelManager:didUpdateSleepScheduleModel:"
+- "sleepScheduleModelManager:didUpdateSleepSettings:"
+- "sleepScheduleModelWithSleepSchedule:sleepSettings:sleepEventRecord:"
+- "sleepScheduleState"
+- "sleepScheduleStateChanged:"
+- "sleepScheduleStateChangedToBedtime"
+- "sleepScheduleStateChangedToBedtime:fromState:"
+- "sleepScheduleStateChangedToDisabled"
+- "sleepScheduleStateChangedToWakeUp"
+- "sleepScheduleStateChangedToWakeUp:fromState:"
+- "sleepScheduleStateChangedToWindDown:fromState:"
+- "sleepScheduleStateDidChange:"
+- "sleepScheduleStateDidChange:previousState:context:"
+- "sleepScheduleStateDidChange:previousState:reason:"
+- "sleepScheduler"
+- "sleepScoreAnalyticsBuilder"
+- "sleepScoreDaySummary"
+- "sleepServer"
+- "sleepSessionIntervalWithInterval:type:"
+- "sleepSessionManager"
+- "sleepSessionManager:didSaveArchivedSessions:"
+- "sleepSessionManager:didSaveSession:"
+- "sleepSessionManager:requestsProcessedSessionForSession:"
+- "sleepSessionManagerDidFinishSession:"
+- "sleepSessionObservers"
+- "sleepSessionSaved:"
+- "sleepSessionWithDateInterval:sleepIntervals:endReason:metadata:requiresFirstUnlock:"
+- "sleepSettings"
+- "sleepSettingsChanged:clientIdentifier:"
+- "sleepStorage"
+- "sleepStorageDidChangeExternally:"
+- "sleepTracker"
+- "sleepTracker:didEndSession:reason:"
+- "sleepTrackerDidStartSession:"
+- "sleepTracking"
+- "sleepTrackingManager"
+- "sleepTrackingOnboardingCompletedVersion"
+- "sleepTrackingOnboardingFirstCompletedDate"
+- "sleepWidgetManager"
+- "sleepWidgetShouldReload"
+- "sleepWidgetStateDidChange:previousState:"
+- "sleepWindDownShortcutsOnboardingFirstCompletedDate"
+- "sleepd disabled"
+- "sleepd entering demo mode"
+- "sleepd received sigterm"
+- "sleepd setting up sigterm handler"
+- "snoozeFireDate"
+- "snoozeFireDateNeedsReset"
+- "snoozeFireDateShouldBeReset"
+- "sortDescriptorWithKey:ascending:"
+- "sortUsingComparator:"
+- "sortedEvents"
+- "sound"
+- "soundVolume"
+- "soundWithAlertType:"
+- "sourceIdentifier"
+- "springboardDidStart"
+- "springboardMonitor"
+- "springboardStarted"
+- "springboardStartedLock"
+- "standardConfiguration"
+- "standardDeviationActualTimeAsleep"
+- "standardDeviationActualVsScheduledTimeAsleep"
+- "standardDeviationScheduledTimeAsleep"
+- "standardEnvironment"
+- "standardEventIdentifiers"
+- "standardUserDefaults"
+- "start"
+- "startBatteryMonitoring"
+- "startDate"
+- "startDetecting"
+- "startListening"
+- "startMonitoringProcessState:"
+- "startObservingProtectedHealthDataAvailability"
+- "startOfDayForDate:"
+- "startSession"
+- "startSleepTrackingSession"
+- "startWakeDetection:"
+- "starting"
+- "stateDidExpire"
+- "stateMachine"
+- "stateName"
+- "stateWithIdentifierDidExpire:"
+- "stationary"
+- "stopBatteryMonitoring"
+- "stopDetecting"
+- "stopMonitoringProcessState:"
+- "stopObservingProtectedHealthDataAvailability"
+- "stopSession"
+- "stopSleepTrackingSession"
+- "stopWakeDetection"
+- "stringByAppendingFormat:"
+- "stringByAppendingString:"
+- "stringForKey:"
+- "stringFromDate:"
+- "stringWithCString:encoding:"
+- "stringWithFormat:"
+- "stringWithUTF8String:"
+- "stringWithValidatedFormat:validFormatSpecifiers:error:"
+- "subscribe:callback:"
+- "subscribeOn:"
+- "success"
+- "succinctDescription"
+- "succinctDescriptionBuilder"
+- "suggestedPagesWithFilter:layoutOptions:completionHandler:"
+- "superclass"
+- "supportsNanoSync"
+- "supportsSecureCoding"
+- "syncAnchorContainer"
+- "syncDisabled"
+- "syncedDefaults"
+- "syncedUserDefaults:didChangeExternallyForKeys:"
+- "syncedUserDefaultsDidChangeExternally:"
+- "synchronize"
+- "synchronizeNanoDomain:keys:"
+- "synchronizeUserDefaultsDomain:keys:"
+- "synchronizeWithCompletionHandler:"
+- "systemDidBecomeReady"
+- "systemMonitor"
+- "systemReady"
+- "systemReadyProvider"
+- "systemTimeZone"
+- "takeAssertion:"
+- "takeAssertionIfNeeded"
+- "takeAssertionWithIdentifier:type:"
+- "takeAssertionWithIdentifier:type:timeout:"
+- "takeIndefiniteAssertionWithIdentifier:type:"
+- "taskState"
+- "tearDownNotificationForEventIdentifier:"
+- "tearDownNotifications"
+- "threadDictionary"
+- "timeChangeListener"
+- "timeInBedTracking"
+- "timeIntervalSinceDate:"
+- "timeIntervalSinceNow"
+- "timeIntervalSinceReferenceDate"
+- "timeZoneChange"
+- "timeZoneChangeDetected:"
+- "timeZoneForSecondsFromGMT:"
+- "timeline"
+- "timelineResults"
+- "timer"
+- "timestamp"
+- "title"
+- "toneIdentifier"
+- "trackEvent:"
+- "trackEvents:"
+- "transaction"
+- "transactionLock"
+- "unarchivedObjectOfClass:fromData:error:"
+- "uncollectedWindDownActions"
+- "unionSet:"
+- "unregister:"
+- "unregisterForLaunchNotificationWithName:key:"
+- "unregisterObserver:"
+- "unschedule"
+- "unscheduleActivities"
+- "unscheduleRetryAttempt"
+- "unscheduleStateExpiration"
+- "unsubscribe:"
+- "upcomingEventsDueAfterDate:"
+- "upcomingStartDetection"
+- "upcomingState"
+- "updateCachedUUID:state:"
+- "updateConfiguration:"
+- "updateDailyReportWithSleepApneaAnalytics:"
+- "updateDailyReportWithSleepScoreAnalytics:"
+- "updateForScheduleModelModifiedOnDate:"
+- "updateReason"
+- "updateScheduledActivity"
+- "updateSleepAlarms"
+- "updateSource"
+- "updateState"
+- "updateStateCommon"
+- "updateStateForcibly:"
+- "updateStateFromTimeline"
+- "userContext"
+- "userDefaults"
+- "userFirstName"
+- "userInfo"
+- "userNotificationWithIdentifier:notification:actionHandler:"
+- "userTurnedOffSleepModeWithReason:"
+- "userTurnedOnSleepModeWithReason:"
+- "usesDefaultBedtimeAndWakeUpComponents"
+- "uuid"
+- "v16@0:8"
+- "v16@?0@\"<HDSPTimeChangeObserver>\"8"
+- "v16@?0@\"<HDSPWakeUpResultsNotificationStateMachineDelegate>\"8"
+- "v16@?0@\"<HKSHWakeUpResultsNotificationBuilding>\"8"
+- "v16@?0@\"HKSleepPeriodSegment\"8"
+- "v20@0:8B16"
+- "v20@0:8f16"
+- "v20@0:8i16"
+- "v24@0:8@\"<HDSPEventScheduleDelegate>\"16"
+- "v24@0:8@\"<HDSPIDSServiceDelegate>\"16"
+- "v24@0:8@\"<HDSPSleepEventDelegate>\"16"
+- "v24@0:8@\"<HDSPSleepEventProvider>\"16"
+- "v24@0:8@\"<HDSPSleepLockScreenAssertionManagerDelegate>\"16"
+- "v24@0:8@\"<HDSPSleepTracker>\"16"
+- "v24@0:8@\"<HDSPSleepTrackerDelegate>\"16"
+- "v24@0:8@\"<HDSPSyncedUserDefaults>\"16"
+- "v24@0:8@\"<HDSPSyncedUserDefaultsExternalChangeDelegate>\"16"
+- "v24@0:8@\"<HDSPSystemReadyDelegate>\"16"
+- "v24@0:8@\"<HDSPWakeDetectorDelegate>\"16"
+- "v24@0:8@\"<HKSPSleepFocusModeBridgeDelegate>\"16"
+- "v24@0:8@\"HDSPEnvironment\"16"
+- "v24@0:8@\"HDSPSleepScheduleModelChangeEvaluation\"16"
+- "v24@0:8@\"HDSPSleepSessionManager\"16"
+- "v24@0:8@\"HDSPSleepStorage\"16"
+- "v24@0:8@\"HDSPTimeChangeListener\"16"
+- "v24@0:8@\"HKSPSleepEvent\"16"
+- "v24@0:8@\"HKSPSleepScheduleModel\"16"
+- "v24@0:8@\"HKSPXPCClient\"16"
+- "v24@0:8@\"HKWristDetectionSettingManager\"16"
+- "v24@0:8@\"IDSService\"16"
+- "v24@0:8@\"NSArray\"16"
+- "v24@0:8@\"NSCoder\"16"
+- "v24@0:8@\"NSDate\"16"
+- "v24@0:8@\"NSDictionary\"16"
+- "v24@0:8@\"NSError\"16"
+- "v24@0:8@\"NSSet\"16"
+- "v24@0:8@\"NSString\"16"
+- "v24@0:8@16"
+- "v24@0:8@?16"
+- "v24@0:8@?<v@?@\"HKSPSleepEventRecord\"@\"NSError\">16"
+- "v24@0:8@?<v@?@\"HKSPSleepSchedule\"@\"NSError\">16"
+- "v24@0:8@?<v@?@\"HKSPSleepScheduleModel\"@\"NSError\">16"
+- "v24@0:8@?<v@?@\"HKSPSleepSettings\"@\"NSError\">16"
+- "v24@0:8@?<v@?@\"HKSPSyncAnchorContainer\"@\"NSError\">16"
+- "v24@0:8@?<v@?@\"NSDictionary\"@\"NSError\">16"
+- "v24@0:8@?<v@?B@\"NSError\">16"
+- "v24@0:8@?<v@?Q@\"NSError\">16"
+- "v24@0:8@?<v@?q@\"NSError\">16"
+- "v24@0:8Q16"
+- "v24@0:8q16"
+- "v24@?0@\"<HKSHWakeUpResultsNotificationBuilding>\"8@\"NSError\"16"
+- "v24@?0@\"NSDictionary\"8@\"NSError\"16"
+- "v28@0:8@16B24"
+- "v28@0:8B16@\"NSString\"20"
+- "v28@0:8B16@20"
+- "v28@0:8f16@\"NSString\"20"
+- "v28@0:8f16@20"
+- "v28@0:8q16B24"
+- "v32@0:8@\"<HDSPActivity>\"16@?<v@?@\"<HDSPActivity>\">24"
+- "v32@0:8@\"<HDSPIDSMessage>\"16@?<v@?B@\"NSError\">24"
+- "v32@0:8@\"<HDSPIDSService>\"16@\"<HDSPIDSMessage>\"24"
+- "v32@0:8@\"<HDSPSyncedUserDefaults>\"16@\"NSSet\"24"
+- "v32@0:8@\"<HDSPWakeDetector>\"16@\"NSDate\"24"
+- "v32@0:8@\"<HKSPSleepFocusModeBridge>\"16@\"HKSPSleepFocusConfiguration\"24"
+- "v32@0:8@\"BMEventBase\"16@\"BMStream\"24"
+- "v32@0:8@\"HDSPSleepScheduleModelManager\"16@\"HKSPSleepEventRecord\"24"
+- "v32@0:8@\"HDSPSleepScheduleModelManager\"16@\"HKSPSleepSchedule\"24"
+- "v32@0:8@\"HDSPSleepScheduleModelManager\"16@\"HKSPSleepScheduleModel\"24"
+- "v32@0:8@\"HDSPSleepScheduleModelManager\"16@\"HKSPSleepSettings\"24"
+- "v32@0:8@\"HDSPSleepSessionManager\"16@\"HDSPSleepSession\"24"
+- "v32@0:8@\"HDSPSleepSessionManager\"16@\"NSArray\"24"
+- "v32@0:8@\"HKSPSleepEventRecord\"16@?<v@?@\"NSError\">24"
+- "v32@0:8@\"HKSPSleepSchedule\"16@?<v@?@\"NSError\">24"
+- "v32@0:8@\"HKSPSleepSettings\"16@?<v@?@\"NSError\">24"
+- "v32@0:8@\"HKSPSyncAnchorContainer\"16@?<v@?B@\"NSError\">24"
+- "v32@0:8@\"IDSService\"16@\"NSArray\"24"
+- "v32@0:8@\"IDSService\"16@\"NSSet\"24"
+- "v32@0:8@\"NSArray\"16@\"NSArray\"24"
+- "v32@0:8@\"NSDate\"16Q24"
+- "v32@0:8@16@\"NSString\"24"
+- "v32@0:8@16@24"
+- "v32@0:8@16@?24"
+- "v32@0:8@16Q24"
+- "v32@0:8@?16@24"
+- "v32@0:8Q16@\"NSDate\"24"
+- "v32@0:8Q16@24"
+- "v32@0:8Q16@?24"
+- "v32@0:8Q16@?<v@?B@\"NSError\">24"
+- "v32@0:8Q16Q24"
+- "v32@0:8q16@\"NSDictionary\"24"
+- "v32@0:8q16@\"NSString\"24"
+- "v32@0:8q16@24"
+- "v32@0:8q16@?24"
+- "v32@0:8q16@?<v@?B@\"NSError\">24"
+- "v32@0:8q16Q24"
+- "v32@0:8q16q24"
+- "v32@0:8r*16@24"
+- "v32@0:8{?=qq}16"
+- "v32@?0@\"HKSampleQuery\"8@\"NSArray\"16@\"NSError\"24"
+- "v32@?0@\"HKSleepDaySummaryQuery\"8@\"NSArray\"16@\"NSError\"24"
+- "v32@?0@\"HKSleepPeriod\"8Q16^B24"
+- "v32@?0@\"HKSleepPeriodSegment\"8Q16^B24"
+- "v32@?0@\"NSDateInterval\"8Q16^B24"
+- "v36@0:8@16@?24B32"
+- "v36@0:8B16@20@28"
+- "v36@0:8Q16Q24B32"
+- "v36@0:8q16Q24B32"
+- "v40@0:8@\"<HDSPSleepTracker>\"16@\"HDSPSleepSession\"24Q32"
+- "v40@0:8@\"IDSService\"16@\"IDSAccount\"24@\"IDSGroupSessionParticipantUpdate\"32"
+- "v40@0:8@\"IDSService\"16@\"IDSDevice\"24@?<v@?>32"
+- "v40@0:8@\"IDSService\"16@\"NSString\"24@\"NSArray\"32"
+- "v40@0:8@\"NSDate\"16Q24@?<v@?B@\"NSError\">32"
+- "v40@0:8@\"NSString\"16@\"NSDictionary\"24@?<v@?B@\"NSError\">32"
+- "v40@0:8@16@24@32"
+- "v40@0:8@16@24@?32"
+- "v40@0:8@16@24Q32"
+- "v40@0:8@16Q24@?32"
+- "v40@0:8@16Q24d32"
+- "v40@0:8Q16@24@?32"
+- "v40@0:8Q16Q24@\"HDSPSleepScheduleStateCoordinatorStateMachineContext\"32"
+- "v40@0:8Q16Q24@32"
+- "v40@0:8Q16Q24Q32"
+- "v40@0:8q16@\"NSDictionary\"24@?<v@?B@\"NSError\">32"
+- "v40@0:8q16@24@?32"
+- "v40@0:8q16Q24@?32"
+- "v40@0:8q16Q24@?<v@?@\"NSError\">32"
+- "v40@0:8q16q24Q32"
+- "v44@0:8@\"IDSService\"16B24@\"NSError\"28@\"NSString\"36"
+- "v44@0:8@16B24@28@36"
+- "v48@0:8@\"IDSService\"16@\"IDSAccount\"24@\"IDSGroupSessionParticipantUpdate\"32@\"IDSMessageContext\"40"
+- "v48@0:8@\"IDSService\"16@\"IDSAccount\"24@\"IDSSession\"32@\"NSString\"40"
+- "v48@0:8@\"IDSService\"16@\"IDSAccount\"24@\"NSString\"32@40"
+- "v48@0:8@16@24@32@40"
+- "v52@0:8@\"IDSService\"16@\"IDSAccount\"24@\"NSString\"32B40@\"NSError\"44"
+- "v52@0:8@\"IDSService\"16@\"IDSAccount\"24B32@\"NSString\"36@\"NSData\"44"
+- "v52@0:8@16@24@32B40@44"
+- "v52@0:8@16@24B32@36@44"
+- "v56@0:8@\"IDSService\"16@\"IDSAccount\"24@\"IDSProtobuf\"32@\"NSString\"40@\"IDSMessageContext\"48"
+- "v56@0:8@\"IDSService\"16@\"IDSAccount\"24@\"IDSSession\"32@\"NSString\"40@\"NSData\"48"
+- "v56@0:8@\"IDSService\"16@\"IDSAccount\"24@\"IDSSession\"32@\"NSString\"40@\"NSDictionary\"48"
+- "v56@0:8@\"IDSService\"16@\"IDSAccount\"24@\"NSData\"32@\"NSString\"40@\"IDSMessageContext\"48"
+- "v56@0:8@\"IDSService\"16@\"IDSAccount\"24@\"NSDictionary\"32@\"NSString\"40@\"IDSMessageContext\"48"
+- "v56@0:8@\"IDSService\"16@\"IDSAccount\"24@\"NSString\"32@\"NSString\"40@48"
+- "v56@0:8@\"IDSService\"16@\"IDSAccount\"24@\"NSString\"32q40q48"
+- "v56@0:8@\"IDSService\"16@\"IDSAccount\"24@\"NSURL\"32@\"NSString\"40@\"IDSMessageContext\"48"
+- "v56@0:8@\"IDSService\"16@\"IDSAccount\"24q32@\"NSString\"40@\"IDSMessageContext\"48"
+- "v56@0:8@16@24@32@40@48"
+- "v56@0:8@16@24@32q40q48"
+- "v56@0:8@16@24q32@40@48"
+- "v60@0:8@\"IDSService\"16@\"IDSAccount\"24@\"NSString\"32B40@\"NSError\"44@\"IDSMessageContext\"52"
+- "v60@0:8@16@24@32B40@44@52"
+- "v64@0:8@\"IDSService\"16@\"IDSAccount\"24@\"NSData\"32@\"NSString\"40@\"NSString\"48@\"IDSMessageContext\"56"
+- "v64@0:8@\"IDSService\"16@\"IDSAccount\"24@\"NSDictionary\"32@\"NSString\"40@?<v@?B>48@\"IDSMessageContext\"56"
+- "v64@0:8@\"IDSService\"16@\"IDSAccount\"24@\"NSString\"32@\"NSString\"40@\"NSData\"48@\"NSError\"56"
+- "v64@0:8@\"IDSService\"16@\"IDSAccount\"24@\"NSURL\"32@\"NSDictionary\"40@\"NSString\"48@\"IDSMessageContext\"56"
+- "v64@0:8@16@24@32@40@48@56"
+- "v64@0:8@16@24@32@40@?48@56"
+- "v72@0:8@16@24@32@40@48B56B60@?64"
+- "v72@0:8@16@24@32@40{?=qq}48@64"
+- "validSleepSchedule"
+- "value"
+- "valueForKey:"
+- "valueForKeyPath:"
+- "vibrationIdentifier"
+- "waitingForRetryState"
+- "waitingForWakeUpState"
+- "waitingState"
+- "wakeDetectionEventDue"
+- "wakeDetectionManager"
+- "wakeDetector:didDetectWakeUpEventOnDate:"
+- "wakeDetectorDelegate"
+- "wakeDetectors"
+- "wakeNotificationWasConfirmed"
+- "wakeNotificationWasDismissed"
+- "wakeTimeReached"
+- "wakeUpAlarmDismissedDate"
+- "wakeUpAlarmSnoozedUntilDate"
+- "wakeUpAlarmWasDismissedFromSource:"
+- "wakeUpAlarmWasSnoozedFromSource:"
+- "wakeUpComponents"
+- "wakeUpConfirmed:"
+- "wakeUpDidOccur"
+- "wakeUpEarlyNotificationConfirmedDate"
+- "wakeUpEvent"
+- "wakeUpOverriddenDate"
+- "wakeUpResults"
+- "wakeUpResultsNotificationFromUserInfo:"
+- "wakeUpResultsNotificationManager"
+- "wakeUpState"
+- "wakeUpWasConfirmed:"
+- "wakeupEventDetected:date:"
+- "wasUsed"
+- "watchOnWristMonitor"
+- "watchSleepFeaturesEnabled"
+- "weakObjectsHashTable"
+- "weekOfYear"
+- "weekdays"
+- "weeklyGoalAchieved"
+- "widgetState"
+- "widgetStateHasTimeComponent"
+- "windDownActionsAfterMorningIndex:"
+- "windDownInterval"
+- "windDownMinutes"
+- "windDownReached"
+- "windDownState"
+- "windDownTime"
+- "wristDetectEnabledDidChange"
+- "wristDetectionSettingManagerDidObserveWristDetectChange:"
+- "wristDetectionSettingsManager"
+- "zone"
+- "{?=\"start\"q\"duration\"q}"
+- "{?=qq}16@0:8"
+- "{?=qq}24@0:8@16"
+- "{os_unfair_lock_s=\"_os_unfair_lock_opaque\"I}"
+- "{os_unfair_lock_s=I}16@0:8"
+
+```

@@ -1,0 +1,872 @@
+## libxpc.dylib
+
+> `/usr/lib/system/libxpc.dylib`
+
+```diff
+
+-3102.120.13.0.0
+-  __TEXT.__text: 0x41924 sha256:17450cd896a3ed15bde46a3059fae38845e5d2425bfb538e0e5ce75ab953d414
+-  __TEXT.__auth_stubs: 0x1230 sha256:09035cefbe8a20cc5d51e00b81f4df665ab36f396abc8680d9d450951adf6329
+-  __TEXT.__objc_methlist: 0x374 sha256:643c2cff082d053fccd827fbb8d72d78acd9439b7f33354c878b6ca92ce7914a
+-  __TEXT.__const: 0x600 sha256:996137e020ebe8bdd99c5677a96e43db24b395066034b9252ed296efa988fccb
+-  __TEXT.__cstring: 0x7b7d sha256:7e88375edcff1991f682925f467852b4c6ff09b81d6632d1f1884157f134ee9b
+-  __TEXT.__oslogstring: 0x30f0 sha256:fb1f82a72e9b8fc9a61313b4418084134045db9ef7365c847fbba0a72264a391
+-  __TEXT.__dof_libxpc: 0xa5d sha256:e3abe58f36541babdec91262785dd8db19e167c8fc5021b50e69b935eb2ddb85
+-  __TEXT.__unwind_info: 0x1290 sha256:89a02f501b519ae5c41e75e4987b524dd6bf0304295e3b54e57ebc68e3657637
+-  __TEXT.__objc_classname: 0x243 sha256:813a3fd4f43d8a5c27dcea82d402d9906181e73434eb9cdf0a5247ce5790aa2b
+-  __TEXT.__objc_methname: 0x1e2 sha256:bef55d57d2dcdf8fdcfd268b932e6af205bf947f761375ae7ffd18530130b2a9
+-  __TEXT.__objc_methtype: 0xb5 sha256:05ecc2f0c7cf41a3b917f7d48a3ebfda856f4d9391859ce9470df00e9ecd203e
+-  __TEXT.__objc_stubs: 0x100 sha256:ea76eb4d9d3de79bcb58837e54f0cd059a272ad8014e921ce92c829240eb1564
+-  __DATA_CONST.__got: 0x1e0 sha256:987954efe954bcc5dc090126f924569706eca6dbaeec2b2a5de343122ed723b7
+-  __DATA_CONST.__const: 0x1c20 sha256:8d703577444de55690fd1891f9712c29f5a46d313913274c2e5a189bd40e26b1
+-  __DATA_CONST.__objc_classlist: 0x120 sha256:d2e0c8db1aa4cb3940f8961c400a88df1174d74284080d8092d57c1b16b6fb29
+-  __DATA_CONST.__objc_nlclslist: 0xe8 sha256:b25fb9979e1c1efcca5884887031c190d8bcb0c0bf386e4d34aabfa261d8857d
+-  __DATA_CONST.__objc_protolist: 0xf8 sha256:32b705cd34e407f23a0996bfeab94133f1693432d5b9e81158565f570a78a22c
++3295.0.0.502.1
++  __TEXT.__text: 0x530c8 sha256:01079da9c1b1983bce0e77628414a3572d7c5aedc26c2bdc8fa07976a0451e03
++  __TEXT.__objc_methlist: 0x374 sha256:68922118fd706656d1c6b414f84760c96ffd075060c022ae85a19feea1983091
++  __TEXT.__const: 0x618 sha256:1f25aa559ee7bdb85f8f68f23cd8d35b9ae6d70b68a057b7c3e5f7042591c893
++  __TEXT.__cstring: 0x7ce6 sha256:5c220c6dcb4ef78b16f2b034d87f51af0519b77e1799f05a2d1109cebc8b6a02
++  __TEXT.__oslogstring: 0x3109 sha256:db0c1161f63db309b377b498ac7a1c981cbcfd8486f89573ceb44ee213fd1ce1
++  __TEXT.__dof_libxpc: 0xa5d sha256:accb22bb90b88a582254ddb2657c0f1ca7168f3cb2b1a5867c74758b80c648ed
++  __TEXT.__unwind_info: 0xfc0 sha256:4e3eceb638ea951262cd962ff70f1b42e37188506f5a309911c707e029d2956b
++  __TEXT.__objc_stubs: 0x0
++  __TEXT.__auth_stubs: 0x0
++  __TEXT.__objc_classname: 0x0
++  __TEXT.__objc_methname: 0x0
++  __TEXT.__objc_methtype: 0x0
++  __DATA_CONST.__const: 0x1e20 sha256:77754a922b6b6f240faaf69b024d12e97bef4fb4ec59396a0a5197a26f6ea012
++  __DATA_CONST.__objc_classlist: 0x120 sha256:22dd011ce6a8fd51be799768b82325a115023e2a23764f45d9da488310100c9b
++  __DATA_CONST.__objc_nlclslist: 0xe8 sha256:3325b60dfc353c67e704ece2f904cdd6e729c5c4ee6ed361aaf209b61bfbcc57
++  __DATA_CONST.__objc_protolist: 0xf8 sha256:3dd155251d172574a811aa5238813832cc5e1b87913292712f2bd35a440358c5
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x100 sha256:e2865f911af9a499a65cd07fce8bff75b84b5308e7da8d56d0c79c91f2b7dfe2
+-  __DATA_CONST.__objc_superrefs: 0x58 sha256:4616c327cecb1b4a50a13655d1ab1848d809461f3dccd6f8f0f07cb3e1e03123
+-  __AUTH_CONST.__auth_got: 0x920 sha256:dfdcfdee55a3cdda6130654405dbe7d42e20bd8263f5ed0b78e92b110d7ad0dd
+-  __AUTH_CONST.__const: 0x1af8 sha256:df514b111d2dfa5001f4fcdf21086f01afab03aeda3ed7e8a38e08a27bda8efc
+-  __AUTH_CONST.__objc_const: 0x2338 sha256:cd807ccc46c9dea4c498baad23cf4f8dad0d2213a9b5584116ebc0d47c221d10
+-  __AUTH.__objc_data: 0x50 sha256:a2524ae3ef9177a092d23deb54dcc004c4bcc6b6e2f4fbd949236161eff14d29
+-  __DATA.__data: 0xcf8 sha256:956ac3420010ba97a250ee82f1339f37a8f4bbeafad4bc43f2477e974f3ca0d1
++  __DATA_CONST.__objc_selrefs: 0x100 sha256:84636166da5a0f47ebdba5f486faf0f461b8a4837d95f3c9d41cdef02833514f
++  __DATA_CONST.__objc_superrefs: 0x58 sha256:37281d0605b09e04518fb0012087b38f24a7c2265afe4cc4fbb61791126391f1
++  __DATA_CONST.__got: 0x1e0 sha256:df04676f8cff5692881f960aec14a954a117f11000726388ef9ff06a7f88b5ac
++  __AUTH_CONST.__const: 0x1b60 sha256:c7d50797d7defa07a80e785b90ff3a2ae17a5e555c427c9de1100b2e5d9a714e
++  __AUTH_CONST.__objc_const: 0x2338 sha256:1a08a1600e92d8542d3772ac4c1e10618d7ff5ba0c8698d960425d0b64e303b9
++  __AUTH_CONST.__auth_got: 0x928 sha256:90909fdc5fb56c020f3e6e446f745589eed7b8f61f822d863d1f55087fbffcae
++  __AUTH.__objc_data: 0x50 sha256:b0ff7472d59b6db5cb3f0574d9ed1ebc0f92b804b5ba28ec87ae6fde5405d95e
++  __DATA.__data: 0xba8 sha256:0f90e66e1053a50cde51960c0088aeb9c7f3fc33f50ae8b2096c401dcec35a4b
+   __DATA.__crash_info: 0x148 sha256:6da6349e97370e8d430272961ce52dff296ff7c22208bd465045a16f557b12e4
+-  __DATA.__bss: 0x60 sha256:2ea9ab9198d1638007400cd2c3bef1cc745b864b76011a0e1bc52180ac6452d4
+-  __DATA_DIRTY.__objc_data: 0xaf0 sha256:5861402686bf08d3db70dea9887a5ce447e485d90c5416f6af7cb19b32c70c63
+-  __DATA_DIRTY.__bss: 0x130 sha256:e2fc162ed9124452d23c85e81d60a0c228f414c3214a5de635737e25fbd29ac1
++  __DATA.__bss: 0x70 sha256:b5fdab78d8947eacc864bfeecb4d2100780e5afe1cd8efafb124887913ac49fa
++  __DATA_DIRTY.__objc_data: 0xaf0 sha256:721b5b17a420fbaba35eb6c09a461f4a2976b9dcf3ac8f8ca40fc4f26f032a22
++  __DATA_DIRTY.__bss: 0x120 sha256:2d5565fb483d8ea4525a7a9229677d1038ad34b6e22c8d5152e1d7f7b9817597
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/system/libcompiler_rt.dylib
+   - /usr/lib/system/libdispatch.dylib
+
+   - /usr/lib/system/libsystem_sandbox.dylib
+   - /usr/lib/system/libsystem_trace.dylib
+   - /usr/lib/system/libunwind.dylib
+-  UUID: BC1854CC-DFE1-3F26-B056-950ED9D32E10
+-  Functions: 1936
+-  Symbols:   4633
+-  CStrings:  1379
++  UUID: E81E8C9A-FCA9-3BAC-B6EE-A9C600B70C4F
++  Functions: 1545
++  Symbols:   3479
++  CStrings:  1296
+ 
+Symbols:
++ ___block_descriptor_tmp.1037
++ ___block_descriptor_tmp.1159
++ ___block_descriptor_tmp.1198
++ ___block_descriptor_tmp.12.1301
++ ___block_descriptor_tmp.12.788
++ ___block_descriptor_tmp.1291
++ ___block_descriptor_tmp.1295
++ ___block_descriptor_tmp.1322
++ ___block_descriptor_tmp.1348
++ ___block_descriptor_tmp.1404
++ ___block_descriptor_tmp.144
++ ___block_descriptor_tmp.1486
++ ___block_descriptor_tmp.1553
++ ___block_descriptor_tmp.1671
++ ___block_descriptor_tmp.17.1293
++ ___block_descriptor_tmp.1887
++ ___block_descriptor_tmp.19.1053
++ ___block_descriptor_tmp.1994
++ ___block_descriptor_tmp.20.1054
++ ___block_descriptor_tmp.20.1211
++ ___block_descriptor_tmp.22.1056
++ ___block_descriptor_tmp.24.1058
++ ___block_descriptor_tmp.24.1210
++ ___block_descriptor_tmp.25.1160
++ ___block_descriptor_tmp.250
++ ___block_descriptor_tmp.26.1060
++ ___block_descriptor_tmp.26.1548
++ ___block_descriptor_tmp.29.1062
++ ___block_descriptor_tmp.29.1111
++ ___block_descriptor_tmp.30.265
++ ___block_descriptor_tmp.303
++ ___block_descriptor_tmp.31.1064
++ ___block_descriptor_tmp.32.1115
++ ___block_descriptor_tmp.36.1038
++ ___block_descriptor_tmp.39.1039
++ ___block_descriptor_tmp.4.1484
++ ___block_descriptor_tmp.446
++ ___block_descriptor_tmp.45.1121
++ ___block_descriptor_tmp.48.256
++ ___block_descriptor_tmp.49.1120
++ ___block_descriptor_tmp.50.1119
++ ___block_descriptor_tmp.52.258
++ ___block_descriptor_tmp.71.1892
++ ___block_descriptor_tmp.74.1890
++ ___block_descriptor_tmp.77.1932
++ ___block_descriptor_tmp.791
++ ___block_descriptor_tmp.876
++ ___block_descriptor_tmp.9.1303
++ ___block_literal_global.1105
++ ___block_literal_global.1194
++ ___block_literal_global.1311
++ ___block_literal_global.1402
++ ___block_literal_global.146
++ ___block_literal_global.1869
++ ___block_literal_global.261
++ ___block_literal_global.301
++ ___block_literal_global.444
++ ___block_literal_global.789
++ ___block_literal_global.901
++ __add_dlopened_services
++ __copy_path_in_shared_cache
++ __objc_getTaggedPointerTag
++ __objc_getTaggedPointerTag.103
++ __objc_getTaggedPointerTag.160
++ __objc_getTaggedPointerTag.575
++ __objc_getTaggedPointerTag.980
++ __xpc_activity_is_unmanaged
++ __xpc_bundle_resolve_bundle_variant
++ __xpc_bundle_taint_with_reason
++ __xpc_connection_handle_cancel_event
++ __xpc_connection_handle_term_event
++ __xpc_connection_init_cleanup_from_failed_readying
++ __xpc_connection_init_no_more_senders
++ __xpc_connection_init_recv
++ __xpc_connection_init_recv_anon
++ __xpc_connection_init_recv_named
++ __xpc_connection_init_send
++ __xpc_connection_init_send_anon
++ __xpc_connection_init_send_named
++ __xpc_connection_init_term
++ __xpc_connection_pipe_check_in
++ __xpc_connection_remove_peer_async
++ __xpc_connection_unwind_peers
++ __xpc_data_serialize_ool
++ __xpc_event_publisher_check_and_update_inflight_count
++ __xpc_init_proxy
++ __xpc_init_service
++ __xpc_log_cycle_path
++ __xpc_pipe_init_recv_port
++ __xpc_pipe_init_send_port
++ __xpc_pipe_message_deserialize
++ __xpc_pipe_simpleroutine_impl
++ __xpc_plist_parse_data
++ __xpc_plist_parse_real
++ __xpc_realpath_cryptex
++ __xpc_service_check_subname
++ __xpc_session_activate_new
++ __xpc_session_cancel_with_code
++ __xpc_session_handle_incoming_error_event
++ __xpc_session_log_handle._log
++ __xpc_session_log_handle._once
++ __xpc_should_add_image
++ __xpc_spawnattr_pack_xpc_data
++ __xpc_string_cache_insert
++ _amfi_interface_authorize_local_signing_with_length
++ _dispatch_io_set_low_water
++ _xpc_connection_consume_bs_checkin_info
++ _xpc_connection_set_bs_checkin_info
++ _xpc_service_instance_set_sanitizer_flags
+- _CEXPCRuntime
+- _OUTLINED_FUNCTION_0
+- _OUTLINED_FUNCTION_1
+- _OUTLINED_FUNCTION_2
+- _OUTLINED_FUNCTION_3
+- _OUTLINED_FUNCTION_4
+- _OUTLINED_FUNCTION_5
+- _OUTLINED_FUNCTION_6
+- _OUTLINED_FUNCTION_7
+- __MergedGlobals
+- ____create_with_format_and_arguments_block_invoke.1.cold.1
+- ____create_with_format_and_arguments_block_invoke.10.cold.1
+- ____create_with_format_and_arguments_block_invoke.10.cold.2
+- ____create_with_format_and_arguments_block_invoke.cold.1
+- ____create_with_format_and_arguments_block_invoke_2.40.cold.1
+- ____create_with_format_and_arguments_block_invoke_2.40.cold.2
+- ____launch_domain_routine_async_block_invoke_3.cold.1
+- ____xpc_activity_dispatch_block_invoke.115.cold.1
+- ____xpc_activity_dispatch_block_invoke.115.cold.2
+- ____xpc_activity_dispatch_block_invoke.115.cold.3
+- ____xpc_activity_dispatch_block_invoke.115.cold.4
+- ____xpc_activity_dispatch_block_invoke.115.cold.5
+- ____xpc_activity_dispatch_block_invoke.115.cold.6
+- ____xpc_activity_dispatch_block_invoke.115.cold.7
+- ____xpc_activity_dispatch_block_invoke.117.cold.1
+- ____xpc_activity_dispatch_block_invoke.cold.1
+- ____xpc_activity_dispatch_block_invoke.cold.2
+- ____xpc_activity_dispatch_block_invoke.cold.3
+- ____xpc_activity_dispatch_block_invoke.cold.4
+- ____xpc_activity_dispatch_block_invoke.cold.5
+- ____xpc_activity_dispatch_block_invoke.cold.6
+- ____xpc_activity_dispatch_block_invoke.cold.7
+- ____xpc_activity_set_state_with_completion_status_block_invoke.cold.1
+- ____xpc_bundle_resolve_path_variant_block_invoke.cold.1
+- ____xpc_connection_pass2mig_block_invoke.cold.1
+- ____xpc_event_publisher_check_and_update_inflight_count_block_invoke.cold.1
+- ____xpc_event_publisher_fire_impl_block_invoke.cold.1
+- ____xpc_event_publisher_fire_impl_block_invoke.cold.2
+- ____xpc_event_publisher_xref_dispose_block_invoke.cold.1
+- ____xpc_file_transfer_create_io_for_fd_block_invoke.cold.1
+- ____xpc_listener_setup_connection_handlers_block_invoke.cold.1
+- ____xpc_listener_setup_connection_handlers_block_invoke.cold.10
+- ____xpc_listener_setup_connection_handlers_block_invoke.cold.11
+- ____xpc_listener_setup_connection_handlers_block_invoke.cold.2
+- ____xpc_listener_setup_connection_handlers_block_invoke.cold.3
+- ____xpc_listener_setup_connection_handlers_block_invoke.cold.4
+- ____xpc_listener_setup_connection_handlers_block_invoke.cold.5
+- ____xpc_listener_setup_connection_handlers_block_invoke.cold.6
+- ____xpc_listener_setup_connection_handlers_block_invoke.cold.7
+- ____xpc_listener_setup_connection_handlers_block_invoke.cold.8
+- ____xpc_listener_setup_connection_handlers_block_invoke.cold.9
+- ____xpc_runtime_get_self_entitlements_block_invoke.cold.1
+- ____xpc_session_setup_connection_handlers_block_invoke.cold.1
+- ____xpc_session_setup_connection_handlers_block_invoke.cold.2
+- ____xpc_session_setup_connection_handlers_block_invoke.cold.3
+- ____xpc_session_setup_connection_handlers_block_invoke.cold.4
+- ____xpc_session_setup_connection_handlers_block_invoke.cold.5
+- ____xpc_session_setup_connection_handlers_block_invoke.cold.6
+- ____xpc_session_setup_connection_handlers_block_invoke.cold.7
+- ___block_literal_global.129
+- ___copy_assignment_8_8_t0w16_pa0_28874_16_pa0_40312_24_pa0_9273_32_pa0_8696_40_pa0_63469_48_pa0_8197_56_pa0_40403_64_pa0_48767_72_pa0_26810_80_pa0_18746_88_pa0_40992_96_t104w56
+- ___xpc_activity_register_block_invoke.cold.1
+- ___xpc_activity_set_criteria_block_invoke.70.cold.1
+- ___xpc_activity_set_criteria_block_invoke.70.cold.2
+- ___xpc_activity_set_criteria_block_invoke.70.cold.3
+- ___xpc_activity_set_criteria_block_invoke.cold.1
+- ___xpc_activity_set_criteria_block_invoke.cold.2
+- ___xpc_activity_set_criteria_block_invoke.cold.3
+- ___xpc_activity_unregister.cold.1
+- ___xpc_enum2label
+- ___xpc_event_publisher_set_error_handler_block_invoke.cold.1
+- ___xpc_event_publisher_set_handler_block_invoke.cold.1
+- ___xpc_event_publisher_set_initial_load_completed_handler_4remoted_block_invoke.cold.1
+- ___xpc_event_publisher_set_throttling_block_invoke.cold.1
+- ___xpc_session_send_message_with_reply_async_block_invoke_2.cold.1
+- __copy_plist_from_fd
+- __copy_secure_plist
+- __create_nsstring_for_key.cold.1
+- __fetch_self_token.cold.1
+- __fetch_self_token.cold.2
+- __fetch_xpcservice_info.cold.1
+- __get_autorelease_pool.cold.1
+- __launch_report_service_lookup.cold.1
+- __launch_service_stats_copy_impl.cold.1
+- __libxpc_initializer.cold.1
+- __libxpc_initializer.cold.2
+- __libxpc_initializer.cold.3
+- __libxpc_initializer.cold.4
+- __libxpc_initializer.cold.5
+- __libxpc_initializer.cold.6
+- __normalize_cryptex_path
+- __normalize_cryptex_path.cold.1
+- __os_system_version_initialize
+- __os_transaction_log_snapshot.cold.1
+- __os_transaction_xref_dispose
+- __os_transaction_xref_dispose.cold.1
+- __os_transaction_xref_dispose.cold.2
+- __transaction_snapshot_destroy
+- __transaction_snapshot_new_locked.cold.1
+- __waiting4memory
+- __xpc_Block_copy_impl.cold.1
+- __xpc_activate_endpoint
+- __xpc_activity_create_control_channel.cold.1
+- __xpc_activity_create_control_channel.cold.2
+- __xpc_activity_dispose.cold.1
+- __xpc_activity_dispose.cold.2
+- __xpc_activity_end_running.cold.1
+- __xpc_activity_set_criteria.cold.1
+- __xpc_activity_set_criteria.cold.2
+- __xpc_activity_set_criteria.cold.3
+- __xpc_activity_set_state_from_cts.cold.1
+- __xpc_activity_set_state_with_completion_status.cold.1
+- __xpc_activity_unregister.cold.1
+- __xpc_alloc_typed.cold.1
+- __xpc_allocate_buffer
+- __xpc_allocate_purgable_buffer
+- __xpc_array_debug_desc.cold.1
+- __xpc_array_debug_desc.cold.2
+- __xpc_array_debug_desc.cold.3
+- __xpc_array_desc.cold.1
+- __xpc_array_serialize.cold.1
+- __xpc_asprintf.cold.1
+- __xpc_base_create
+- __xpc_base_debug.cold.1
+- __xpc_base_debug.cold.2
+- __xpc_base_debug_desc.cold.1
+- __xpc_base_desc.cold.1
+- __xpc_bool_get_wire_value
+- __xpc_bootout_wait_for_completion_sync
+- __xpc_bootstrap_routine
+- __xpc_bootstrap_routine_authenticate
+- __xpc_bootstrap_routine_check_in
+- __xpc_bundle_copy_container.cold.1
+- __xpc_bundle_desc.cold.1
+- __xpc_bundle_is_valid_variant
+- __xpc_bundle_resolve_executable_name
+- __xpc_bundle_resolve_executable_variant
+- __xpc_bundle_resolve_services.cold.1
+- __xpc_bundle_resolve_sync.cold.1
+- __xpc_bundle_resolve_sync.cold.2
+- __xpc_bundle_variant_create_subpath.cold.1
+- __xpc_cached_string_create
+- __xpc_class_id_from_wire_valid
+- __xpc_class_id_valid
+- __xpc_collection_apply_f
+- __xpc_connection_activate_if_needed.cold.1
+- __xpc_connection_activate_if_needed.cold.2
+- __xpc_connection_activate_if_needed.cold.3
+- __xpc_connection_activate_if_needed.cold.4
+- __xpc_connection_bs_cancel
+- __xpc_connection_call_reply_async.cold.1
+- __xpc_connection_cancel.cold.1
+- __xpc_connection_check_peer_requirement.cold.1
+- __xpc_connection_copy_listener_port.cold.1
+- __xpc_connection_copy_listener_port.cold.2
+- __xpc_connection_copy_listener_port.cold.3
+- __xpc_connection_create_service_listener.cold.1
+- __xpc_connection_create_service_listener.cold.2
+- __xpc_connection_create_service_listener.cold.3
+- __xpc_connection_create_service_listener.cold.4
+- __xpc_connection_create_service_listener.cold.5
+- __xpc_connection_create_service_listener.cold.6
+- __xpc_connection_derive_connection_port.cold.1
+- __xpc_connection_derive_connection_port.cold.2
+- __xpc_connection_derive_connection_port.cold.3
+- __xpc_connection_dispose.cold.1
+- __xpc_connection_enqueue.cold.1
+- __xpc_connection_get_platform
+- __xpc_connection_handle_async_reply.cold.1
+- __xpc_connection_handle_disconnect_event.cold.1
+- __xpc_connection_handle_sent_event.cold.1
+- __xpc_connection_handle_sent_event.cold.2
+- __xpc_connection_handle_sent_event.cold.3
+- __xpc_connection_init.cold.1
+- __xpc_connection_init.cold.2
+- __xpc_connection_init.cold.3
+- __xpc_connection_init.cold.4
+- __xpc_connection_init.cold.5
+- __xpc_connection_init.cold.6
+- __xpc_connection_init.cold.7
+- __xpc_connection_init.cold.8
+- __xpc_connection_init_failed.cold.1
+- __xpc_connection_init_failed.cold.2
+- __xpc_connection_is_invalid
+- __xpc_connection_last_xref_cancel
+- __xpc_connection_last_xref_cancel.cold.1
+- __xpc_connection_mach_event.cold.1
+- __xpc_connection_mach_event.cold.2
+- __xpc_connection_mach_event.cold.3
+- __xpc_connection_mach_event.cold.4
+- __xpc_connection_mach_event.cold.5
+- __xpc_connection_mach_event.cold.6
+- __xpc_connection_mach_event.cold.7
+- __xpc_connection_pass2mig.cold.1
+- __xpc_connection_release_message.cold.1
+- __xpc_connection_release_message.cold.2
+- __xpc_connection_release_message.cold.3
+- __xpc_connection_release_message.cold.4
+- __xpc_connection_set_creds
+- __xpc_connection_set_event_handler_f.cold.1
+- __xpc_connection_unpack_message.cold.1
+- __xpc_connection_unpack_message.cold.2
+- __xpc_connection_validate_check_in_is_for_service
+- __xpc_connection_validate_check_in_is_for_service.cold.1
+- __xpc_control_routine
+- __xpc_copy_cs_identity
+- __xpc_copy_csops_string
+- __xpc_copy_own_bundle.cold.1
+- __xpc_copy_secure_plist
+- __xpc_copy_xpcservice_dictionary.cold.1
+- __xpc_copy_xpcservice_dictionary.cold.2
+- __xpc_create_bootstrap_pipe.cold.1
+- __xpc_data_map.cold.1
+- __xpc_date_get_wire_value
+- __xpc_deallocate_buffer
+- __xpc_deallocate_buffer.cold.1
+- __xpc_deallocate_purgable_buffer
+- __xpc_deserialize_from_wire_id.cold.1
+- __xpc_deserialize_from_wire_id.cold.2
+- __xpc_dict_copy_sorted_keys
+- __xpc_dictionary_create_from_received_message.cold.1
+- __xpc_dictionary_create_from_received_message.cold.2
+- __xpc_dictionary_desc_apply.cold.1
+- __xpc_dictionary_desc_apply.cold.2
+- __xpc_dictionary_desc_apply.cold.3
+- __xpc_dictionary_extract_importance_voucher
+- __xpc_dictionary_get_importance_voucher
+- __xpc_dictionary_look_up_table
+- __xpc_dictionary_node_free
+- __xpc_dictionary_serialize_apply.cold.1
+- __xpc_dictionary_set_remote_connection.cold.1
+- __xpc_dictionary_set_remote_connection.cold.2
+- __xpc_dictionary_set_remote_connection.cold.3
+- __xpc_dictionary_set_reply_msg_id.cold.1
+- __xpc_dictionary_set_transaction.cold.1
+- __xpc_dictionary_set_value
+- __xpc_dictionary_unpack_value_and_vend
+- __xpc_dispose
+- __xpc_domain_routine_activate
+- __xpc_domain_routine_async
+- __xpc_domain_routine_authenticate
+- __xpc_double_get_wire_value
+- __xpc_dyld_image_callback.cold.1
+- __xpc_endpoint_create
+- __xpc_endpoint_get_listener_port
+- __xpc_equal_strings
+- __xpc_event_publisher_alloc
+- __xpc_event_publisher_cancel_complete.cold.1
+- __xpc_event_publisher_dispose
+- __xpc_event_publisher_dispose.cold.1
+- __xpc_event_publisher_set_subscriptions.cold.1
+- __xpc_event_publisher_set_subscriptions.cold.2
+- __xpc_event_publisher_set_subscriptions.cold.3
+- __xpc_event_publisher_set_subscriptions.cold.4
+- __xpc_event_publisher_xref_dispose
+- __xpc_event_routine
+- __xpc_event_routine_async
+- __xpc_fd_desc.cold.1
+- __xpc_file_transfer_create.cold.1
+- __xpc_file_transfer_create_io_for_fd.cold.1
+- __xpc_file_transfer_create_io_for_fd.cold.2
+- __xpc_file_transfer_create_with_fd_impl.cold.1
+- __xpc_file_transfer_deserialize.cold.1
+- __xpc_file_transfer_dispose.cold.1
+- __xpc_file_transfer_serialize.cold.1
+- __xpc_file_transfer_serialize.cold.2
+- __xpc_file_transfer_serialize.cold.3
+- __xpc_file_transfer_serialize.cold.4
+- __xpc_file_transfer_serialize.cold.5
+- __xpc_file_transfer_write_to_fd_impl.cold.1
+- __xpc_file_transfer_write_to_fd_impl.cold.2
+- __xpc_fileport_makefd
+- __xpc_fileport_makeport
+- __xpc_get_csops_blob
+- __xpc_get_extension_type_vtable
+- __xpc_get_extension_vtable.cold.1
+- __xpc_get_service_instance.cold.1
+- __xpc_get_uid_for_name.cold.1
+- __xpc_graph_deserializer_enter_container
+- __xpc_graph_deserializer_get_depth
+- __xpc_graph_deserializer_get_key_string_cache
+- __xpc_graph_deserializer_get_ool_callback
+- __xpc_graph_deserializer_get_payload
+- __xpc_graph_deserializer_get_transport
+- __xpc_graph_deserializer_get_value_string_cache
+- __xpc_graph_deserializer_init
+- __xpc_graph_deserializer_init_clone.cold.1
+- __xpc_graph_deserializer_move
+- __xpc_graph_deserializer_read
+- __xpc_graph_deserializer_read_port.cold.1
+- __xpc_graph_deserializer_restore_depth
+- __xpc_graph_deserializer_restore_depth.cold.1
+- __xpc_graph_deserializer_set_key_string_cache.cold.1
+- __xpc_graph_deserializer_set_ool_callback.cold.1
+- __xpc_graph_deserializer_set_value_string_cache.cold.1
+- __xpc_graph_unpack_header
+- __xpc_graph_unpack_impl.cold.1
+- __xpc_hash
+- __xpc_init_pid_domain.cold.1
+- __xpc_init_pid_domain_process_initial_images
+- __xpc_install_dispatch_hooks
+- __xpc_int64_create_tagged
+- __xpc_int64_get_wire_value
+- __xpc_interface_routine.cold.1
+- __xpc_interface_routine.cold.2
+- __xpc_interface_routine.cold.3
+- __xpc_interface_routine.cold.4
+- __xpc_interface_routine.cold.5
+- __xpc_interface_routine.cold.6
+- __xpc_is_multithreaded
+- __xpc_ktrace_pid0
+- __xpc_ktrace_pid1
+- __xpc_listener_activate.cold.1
+- __xpc_listener_activate.cold.2
+- __xpc_listener_alloc
+- __xpc_listener_create_with_connection.cold.1
+- __xpc_listener_dispose
+- __xpc_listener_dispose.cold.1
+- __xpc_listener_dispose.cold.2
+- __xpc_listener_string_for_state
+- __xpc_listener_xref_dispose
+- __xpc_look_up_endpoint.cold.1
+- __xpc_mach_message_request_extract_reply_port.cold.1
+- __xpc_mach_message_request_handoff_reply.cold.1
+- __xpc_mach_message_request_handoff_reply_f
+- __xpc_mach_message_request_handoff_reply_f.cold.1
+- __xpc_mach_message_request_init
+- __xpc_mach_msg_get_audit_token
+- __xpc_mach_msg_get_context
+- __xpc_mach_payload_extract_ool_port.cold.1
+- __xpc_mach_port_close_recv
+- __xpc_mach_port_construct
+- __xpc_mach_port_construct.cold.1
+- __xpc_mach_port_get_context.cold.1
+- __xpc_mach_port_guard
+- __xpc_mach_port_make_send
+- __xpc_mach_port_make_send_once
+- __xpc_mach_port_release
+- __xpc_mach_port_retain_send
+- __xpc_mach_port_set_queue_limit
+- __xpc_mach_port_setup_no_more_senders
+- __xpc_mach_port_setup_port_destroyed
+- __xpc_mach_received_message_init
+- __xpc_make_serialization_with_ool_impl.cold.1
+- __xpc_memcmp
+- __xpc_memdup
+- __xpc_message_request_debug
+- __xpc_message_request_destroy
+- __xpc_message_request_expects_reply
+- __xpc_message_request_extract_voucher
+- __xpc_message_request_get_transaction
+- __xpc_message_request_get_transport
+- __xpc_message_request_get_voucher
+- __xpc_message_request_set_transaction
+- __xpc_mmap_anon
+- __xpc_mmap_anon.cold.1
+- __xpc_ool_types
+- __xpc_os_transaction_alloc
+- __xpc_parse_service_specifier
+- __xpc_payload_alloc
+- __xpc_payload_create_from_data
+- __xpc_payload_create_from_data_no_copy
+- __xpc_payload_create_from_mach_msg.cold.1
+- __xpc_payload_dispose
+- __xpc_payload_distort
+- __xpc_peer_requirement_alloc
+- __xpc_peer_requirement_dispose
+- __xpc_pid_is_being_debugged
+- __xpc_pipe_derive_port.cold.1
+- __xpc_pipe_derive_port.cold.2
+- __xpc_pipe_mach_msg.cold.1
+- __xpc_pipe_pack_message.cold.1
+- __xpc_pipe_routine.cold.1
+- __xpc_pipe_routine.cold.2
+- __xpc_plist_parse_xml
+- __xpc_plist_read_int
+- __xpc_plist_unwind_stack
+- __xpc_proc_bsdinfo
+- __xpc_realloc_typed
+- __xpc_realloc_typed.cold.1
+- __xpc_received_message_expects_reply
+- __xpc_received_message_extract_request
+- __xpc_received_message_get_audit_token
+- __xpc_received_message_get_connection
+- __xpc_received_message_get_request
+- __xpc_received_message_move
+- __xpc_received_message_set_connection.cold.1
+- __xpc_register_service_listener_with_handler.cold.1
+- __xpc_release
+- __xpc_remote_message_request_get_reply_msg_id
+- __xpc_remote_message_request_get_reply_msg_id.cold.1
+- __xpc_remote_message_request_set_reply_msg_id
+- __xpc_remote_message_request_set_reply_msg_id.cold.1
+- __xpc_retain
+- __xpc_retain_with_resurrect
+- __xpc_rich_error_serialize.cold.1
+- __xpc_runtime_get_entitlements_data.cold.1
+- __xpc_runtime_get_self_entitlements.cold.1
+- __xpc_runtime_is_app_sandboxed.cold.1
+- __xpc_serializer_append_port.cold.1
+- __xpc_serializer_append_port.cold.2
+- __xpc_serializer_apply.cold.1
+- __xpc_serializer_cleanup.cold.1
+- __xpc_serializer_create
+- __xpc_serializer_destroy.cold.1
+- __xpc_serializer_get_dispatch_mach_msg
+- __xpc_serializer_get_graph_length
+- __xpc_serializer_get_graph_ptr
+- __xpc_serializer_get_mach_message_header
+- __xpc_serializer_get_mach_message_length
+- __xpc_serializer_invoke_reply
+- __xpc_serializer_munmap.cold.1
+- __xpc_serializer_pack.cold.1
+- __xpc_serializer_pack.cold.2
+- __xpc_serializer_pack.cold.3
+- __xpc_serializer_pad
+- __xpc_serializer_reap_combined_send_receive.cold.1
+- __xpc_serializer_reap_combined_send_receive.cold.2
+- __xpc_serializer_reap_combined_send_receive.cold.3
+- __xpc_serializer_unpad
+- __xpc_service_routine_async
+- __xpc_session_activate_if_new
+- __xpc_session_activate_locked.cold.1
+- __xpc_session_alloc
+- __xpc_session_cancel_peer
+- __xpc_session_cancel_with_reason.cold.1
+- __xpc_session_create_from_connection_4SWIFT.cold.1
+- __xpc_session_create_with_connection.cold.1
+- __xpc_session_create_with_connection.cold.2
+- __xpc_session_dispose
+- __xpc_session_dispose.cold.1
+- __xpc_session_dispose.cold.2
+- __xpc_session_dispose.cold.3
+- __xpc_session_dispose.cold.4
+- __xpc_session_is_extracted
+- __xpc_session_message_error_during_cancelation.cold.1
+- __xpc_session_string_for_state
+- __xpc_session_xref_dispose
+- __xpc_shmem_create_with_prot.cold.1
+- __xpc_spawnattr_binprefs_pack.cold.1
+- __xpc_strdup.cold.1
+- __xpc_strict_close.cold.1
+- __xpc_string_create_base
+- __xpc_string_set_value.cold.1
+- __xpc_strndup.cold.1
+- __xpc_token_cache_get_at_index.cold.1
+- __xpc_token_satisfies_lwcr.cold.1
+- __xpc_token_satisfies_lwcr.cold.2
+- __xpc_traverse_array.cold.1
+- __xpc_traverse_array.cold.2
+- __xpc_traverse_dictionary.cold.1
+- __xpc_traverse_dictionary.cold.2
+- __xpc_traverse_simple.cold.1
+- __xpc_try_strdup
+- __xpc_type_from_id
+- __xpc_type_from_id.cold.1
+- __xpc_uint64_create_tagged
+- __xpc_uint64_get_wire_value
+- __xpc_uuid_get_wire_value
+- __xpc_vproc_routine
+- __xpc_wire_length
+- __xpc_wire_length_from_wire_id
+- __xpc_wire_length_from_wire_id.cold.1
+- __xpc_xml_create_string_no_copy_with_string_cache
+- __xpc_xml_lexer_read_header
+- __xpc_xml_parser_push
+- __xpc_xml_parser_string_terminate
+- _der_decode_entitlements
+- _der_decode_numeric_string
+- _der_decode_utc_time
+- _der_validate_array
+- _do_mach_notify_no_senders
+- _do_mach_notify_no_senders.cold.1
+- _do_mach_notify_port_destroyed
+- _do_mach_notify_port_destroyed.cold.1
+- _do_mach_notify_send_once
+- _launch_cryptex_terminate.cold.1
+- _launch_job_query_get_additional_job_properties.cold.1
+- _launch_urgent_log_submission_completed.cold.1
+- _notify_server
+- _os_transaction_create.cold.1
+- _os_transaction_create.cold.2
+- _string_builder_appendf.cold.1
+- _string_builder_appendf.cold.2
+- _string_builder_appendf.cold.3
+- _string_builder_appendf.cold.4
+- _string_builder_destroy
+- _string_builder_new.cold.1
+- _string_for_context
+- _xpc_activity_register.cold.1
+- _xpc_activity_register.cold.2
+- _xpc_activity_set_criteria.cold.1
+- _xpc_activity_unregister.cold.1
+- _xpc_add_bundle.cold.1
+- _xpc_array_create.cold.1
+- _xpc_array_get_data.cold.1
+- _xpc_binprefs_cpu_subtype.cold.1
+- _xpc_binprefs_cpu_type.cold.1
+- _xpc_binprefs_set_psattr.cold.1
+- _xpc_bundle_resolve_sync.cold.1
+- _xpc_connection_bs_seal_listener.cold.1
+- _xpc_connection_bs_seal_listener.cold.2
+- _xpc_connection_bs_seal_listener.cold.3
+- _xpc_connection_cancel.cold.1
+- _xpc_connection_send_message_with_reply_sync.cold.1
+- _xpc_copy_bootstrap.cold.1
+- _xpc_create_data_from_lwcr_dictionary
+- _xpc_create_lwcr_dictionary
+- _xpc_data_create.cold.1
+- _xpc_date_create_from_current.cold.1
+- _xpc_dictionary_get_connection
+- _xpc_dictionary_send_reply.cold.1
+- _xpc_endpoint_get_bs_job_handle.cold.1
+- _xpc_endpoint_get_bs_job_handle.cold.2
+- _xpc_event_publisher_activate.cold.1
+- _xpc_event_publisher_set_throttling.cold.1
+- _xpc_file_transfer_create_with_fd.cold.1
+- _xpc_file_transfer_create_with_path.cold.1
+- _xpc_file_transfer_send_finished.cold.1
+- _xpc_file_transfer_send_finished.cold.2
+- _xpc_file_transfer_send_finished.cold.3
+- _xpc_file_transfer_set_transport_writing_callbacks.cold.1
+- _xpc_file_transfer_set_transport_writing_callbacks.cold.2
+- _xpc_file_transfer_set_transport_writing_callbacks.cold.3
+- _xpc_file_transfer_write_finished.cold.1
+- _xpc_file_transfer_write_finished.cold.2
+- _xpc_file_transfer_write_finished.cold.3
+- _xpc_file_transfer_write_to_path.cold.1
+- _xpc_graph_unpack
+- _xpc_graph_unpack.cold.1
+- _xpc_graph_unpack_with_ool
+- _xpc_handle_service.cold.1
+- _xpc_handle_service.cold.2
+- _xpc_handle_service.cold.3
+- _xpc_handle_service.cold.4
+- _xpc_handle_service.cold.5
+- _xpc_install_remote_hooks.cold.1
+- _xpc_install_remote_hooks.cold.2
+- _xpc_install_remote_hooks.cold.3
+- _xpc_install_remote_hooks.cold.4
+- _xpc_install_remote_hooks.cold.5
+- _xpc_install_remote_hooks.cold.6
+- _xpc_listener_cancel.cold.1
+- _xpc_listener_create.cold.1
+- _xpc_listener_create_anonymous.cold.1
+- _xpc_mach_payload_extract_ool_receive_right
+- _xpc_mach_payload_extract_ool_receive_right.cold.1
+- _xpc_mach_payload_extract_ool_send_once_right.cold.1
+- _xpc_mach_payload_extract_ool_send_right.cold.1
+- _xpc_mach_payload_ool_port_count
+- _xpc_mach_payload_ool_port_count.cold.1
+- _xpc_mach_send_copy_right.cold.1
+- _xpc_payload_get_contiguous_bytes
+- _xpc_payload_get_transport
+- _xpc_pipe_try_receive.cold.1
+- _xpc_rich_error_create
+- _xpc_service_set_attach_handler.cold.1
+- _xpc_service_set_attach_handler.cold.2
+- _xpc_service_set_attach_handler.cold.3
+- _xpc_session_create_mach_service.cold.1
+- _xpc_session_create_xpc_endpoint.cold.1
+- _xpc_session_create_xpc_service.cold.1
+- _xpc_track_activity.cold.1
+- _xpc_track_activity.cold.2
+- _xpc_user_sessions_enabled.cold.1
+- _xpc_user_sessions_get_session_uid.cold.1
+CStrings:
++ "Attempt to change the bs_type property on a live connection."
++ "Attempt to fetch the bs_checkin_info on a listener connection."
++ "Attempt to fetch the bs_checkin_info on a live connection."
++ "Attempt to fetch the bs_checkin_info on a non-peer connection."
++ "Attempt to set the bs_checkin_info on a listener connection."
++ "Attempt to set the bs_checkin_info on a live connection."
++ "Attempt to set the bs_checkin_info on a non-bs_type connection."
++ "Attempt to set the bs_checkin_info on a peer connection."
++ "Cannot set NONE when specifying checkin info."
++ "Check-in is too big : %zu"
++ "[%p] bs_checkin_info failed to decode"
++ "[%p] bs_checkin_info failed to encode : %s"
++ "[%p] bs_checkin_info is too big : %s"
++ "[%p] invalid checkin_info length : %zu"
++ "assertion failure: \"xpc_get_type(xdata) == (&_xpc_type_data)\" -> %llu"
++ "sanitizers"
+- "#16@0:8"
+- "@\"NSString\"16@0:8"
+- "@16@0:8"
+- "@24@0:8:16"
+- "@32@0:8:16@24"
+- "@40@0:8:16@24@32"
+- "Attempt to change the bs_managed propertyon a live connection."
+- "Attempt to send non-reply message as reply"
+- "B16@0:8"
+- "B24@0:8#16"
+- "B24@0:8:16"
+- "B24@0:8@\"Protocol\"16"
+- "B24@0:8@16"
+- "Bug in libxpc: Unexpected disposition"
+- "Invalid requested disposition in deserializer"
+- "NSObject"
+- "OS_os_transaction"
+- "OS_xpc_activity"
+- "OS_xpc_array"
+- "OS_xpc_bool"
+- "OS_xpc_bundle"
+- "OS_xpc_connection"
+- "OS_xpc_data"
+- "OS_xpc_date"
+- "OS_xpc_dictionary"
+- "OS_xpc_double"
+- "OS_xpc_endpoint"
+- "OS_xpc_error"
+- "OS_xpc_event_publisher"
+- "OS_xpc_fd"
+- "OS_xpc_file_transfer"
+- "OS_xpc_int64"
+- "OS_xpc_listener"
+- "OS_xpc_mach_recv"
+- "OS_xpc_mach_send"
+- "OS_xpc_mach_send_once"
+- "OS_xpc_null"
+- "OS_xpc_object"
+- "OS_xpc_payload"
+- "OS_xpc_peer_requirement"
+- "OS_xpc_pipe"
+- "OS_xpc_pointer"
+- "OS_xpc_rich_error"
+- "OS_xpc_serializer"
+- "OS_xpc_service"
+- "OS_xpc_service_instance"
+- "OS_xpc_session"
+- "OS_xpc_shmem"
+- "OS_xpc_string"
+- "OS_xpc_string_cache"
+- "OS_xpc_uint64"
+- "OS_xpc_uuid"
+- "Q16@0:8"
+- "T#,R"
+- "T@\"NSString\",?,R,C"
+- "T@\"NSString\",R,C"
+- "TQ,R"
+- "UTF8String"
+- "Vv16@0:8"
+- "^{_NSZone=}16@0:8"
+- "_xref_dispose"
+- "allowsWeakReference"
+- "assertion failure: \"!xrm->_conn\" -> %llu"
+- "assertion failure: \"_xpc_activity_is_unmanaged()\" -> %llu"
+- "assertion failure: \"rr == XPC_RECEIVE_RESULT_DICTIONARY\" -> %llu"
+- "assertion failure: \"size > 0\" -> %llu"
+- "autorelease"
+- "class"
+- "conformsToProtocol:"
+- "currentRunLoop"
+- "dealloc"
+- "debugDescription"
+- "description"
+- "drain"
+- "hash"
+- "init"
+- "initWithUTF8String:"
+- "integer"
+- "isEqual:"
+- "isKindOfClass:"
+- "isMemberOfClass:"
+- "isProxy"
+- "nil"
+- "performSelector:"
+- "performSelector:withObject:"
+- "performSelector:withObject:withObject:"
+- "real"
+- "release"
+- "respondsToSelector:"
+- "retain"
+- "retainCount"
+- "retainWeakReference"
+- "stringWithFormat:"
+- "stringWithUTF8String:"
+- "superclass"
+- "v16@0:8"
+- "zone"
+
+```

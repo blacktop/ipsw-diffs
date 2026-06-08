@@ -1,0 +1,117 @@
+## TextInput_pa
+
+> `/System/Library/TextInput/TextInput_pa.bundle/TextInput_pa`
+
+```diff
+
+-3532.5.3.100.0
+-  __TEXT.__text: 0xfc0 sha256:ad7eddec1bf6823ba3f33bf7e3c5eb4dd36cc927dcf9867d2733d4a7a9b92fe4
+-  __TEXT.__auth_stubs: 0x280 sha256:65f348bdd536a29ed9352ec27f4dc1f8871f3308dfaa2b8ee23d071fb12db7e7
+-  __TEXT.__init_offsets: 0x4 sha256:a28282614b3c000720f5000046e4db260113cce94c5c061cd19a4a8ee8cd975b
+-  __TEXT.__objc_methlist: 0x50 sha256:bed92f744bf634851924e9ccca6253d1328583e521f927ff4a60b02543d32f2d
++3557.12.1.0.0
++  __TEXT.__text: 0xf88 sha256:6759fc0d26f4ea6f46fe6723c6f98cc6d67a5d3d35847f9b9914cd6a15153aa8
++  __TEXT.__init_offsets: 0x4 sha256:5567b3245582d7fb82d2b2c1d86784435c005941a35adc0332367e5929bafa29
++  __TEXT.__objc_methlist: 0x50 sha256:b459c99a934a10f797f76ea4f88db81ddc5c564f55df2a78e4ff722373d09829
+   __TEXT.__cstring: 0x11 sha256:e2fa2eecd4fb9682eb649b7a334ea217c6b18b1e06b99213c59c02f02ed50f27
+   __TEXT.__ustring: 0x6 sha256:dd5185021da7837f322c1339b2e9f80aa39aa11fefdf262755b4d115cfbd0b29
+-  __TEXT.__objc_classname: 0x1a sha256:25d291bcc4d4c12336c12411219f52259334621ba08679216369d5b11ba7d1ad
+-  __TEXT.__objc_methname: 0x1bb sha256:96ae0e50cf8c0b140d642ff5dc71f6c40c56e16cc0e8afd064be1ec51d5780c1
+-  __TEXT.__objc_methtype: 0x3d sha256:f95080796d9c013265ea5c6d5afbf3b996b4446188dab3e34635688bfed66ecb
+-  __TEXT.__objc_stubs: 0x200 sha256:dbe41bd655e38d9ca9c61129040fd96715eb956d44ff73b716e27153dc83173d
+-  __DATA_CONST.__got: 0x20 sha256:66687aadf862bd776c8fc18b8e9f8e20089714856ee233b3902a591d0d5f2925
+-  __DATA_CONST.__objc_classlist: 0x8 sha256:e5479679d9550498d8bdd2c0ef6c00122e74f50f201fefa3278694eb37d2cde7
++  __TEXT.__objc_stubs: 0x0
++  __TEXT.__auth_stubs: 0x0
++  __TEXT.__objc_classname: 0x0
++  __TEXT.__objc_methname: 0x0
++  __TEXT.__objc_methtype: 0x0
++  __DATA_CONST.__objc_classlist: 0x8 sha256:d780f5e7fe79d57ade7d13e800eaa910bb769d19e53c95cd37fb132ea8ee811e
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0xa0 sha256:ee42db61248a96ddde9a6ebecfe0ce0744afe4c3488c6786e86699400ded7b33
+-  __DATA_CONST.__objc_superrefs: 0x8 sha256:125b24e9965c3bc9798257c4c9142ec9c43eedd15370118f18ede7d3066e601f
+-  __AUTH_CONST.__auth_got: 0x148 sha256:34a7b4df2455fe93eb999dd24f595c2f9fd26036e51f843195d2e5d3ecd9f6bc
+-  __AUTH_CONST.__const: 0xf8 sha256:624ad18e9da3265fbe55b1bf0339d0b448ba2cbcd950027210d0e2ee75685a1a
+-  __AUTH_CONST.__cfstring: 0x40 sha256:cd419f02ddac467fa37a47c50ba250ac52774163c92972764d1b60ed69ac5f5b
+-  __AUTH_CONST.__objc_const: 0xd0 sha256:b700c0192faa432900a5c3645b187690c7de79aedc27fb2190429ab0d931bcfd
+-  __AUTH.__objc_data: 0x50 sha256:f5d2d70d4984a7e242b49da27ab72bdfca169b4862b1d972ec4a864a4f907e84
++  __DATA_CONST.__objc_selrefs: 0xa0 sha256:464cf2bc001c98636210086d06adca7e32774e72c6b2861528dea58c07c4900e
++  __DATA_CONST.__objc_superrefs: 0x8 sha256:267106be1b835f86cba667a57047ca91a73edd3433a2d4d43de7b7655848dbbb
++  __DATA_CONST.__got: 0x0
++  __AUTH_CONST.__const: 0xf8 sha256:f9c97893a0afc08f58db1e6e01663bc273706ec8055823b5e3bc4dae01b4da5b
++  __AUTH_CONST.__cfstring: 0x40 sha256:39e1737130fcd10f9c988537ccad51e3f7f1f058071c612724432f9e7bd5a0d2
++  __AUTH_CONST.__objc_const: 0xd0 sha256:d2922c390cdc6d21726684e92e37e6761d9144260a31bdff4ded7615a2e9fe38
++  __AUTH_CONST.__weak_auth_got: 0x20 sha256:00d1c9286ce157a391a15c99d78f96da39609a21d2fc922ba1eb2abb0139baa3
++  __AUTH_CONST.__auth_got: 0x0
++  __AUTH.__objc_data: 0x50 sha256:687a895c4fb17614a2428e13639db9a4272a90681b50b7b5d44926b384500c01
+   __DATA.__objc_ivar: 0x4 sha256:464442e8c55da35b333dad8538b20dfd5ee78873fc6aa0bd9cdaa696bf2dddb2
+   __DATA.__data: 0x28 sha256:c75aeeabeb3362719917d50c0fc274a9f24f6d387bac14dd4db8d8c85657bdc5
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libicucore.A.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: B541F1A5-099C-3B25-8E7B-8FEB88A09CC1
+-  Functions: 41
+-  Symbols:   162
+-  CStrings:  33
++  UUID: 822F1BF8-2260-39FE-A01F-E0E17FFEF641
++  Functions: 40
++  Symbols:   160
++  CStrings:  3
+ 
+Symbols:
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIN2KB10ByteStringEN3WTF6RefPtrIN2TI8Favonius9LayoutKeyEEEEENS_22__unordered_map_hasherIS3_NS_4pairIKS3_S9_EENS_4hashIS3_EENS_8equal_toIS3_EEEENS_21__unordered_map_equalIS3_SE_SI_SG_EENS_9allocatorISE_EEE22__deallocate_node_listB9fon220100EPNS_16__hash_node_baseIPNS_11__hash_nodeISA_PvEEEE
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIN2KB10ByteStringEN3WTF6RefPtrIN2TI8Favonius9LayoutKeyEEEEENS_22__unordered_map_hasherIS3_NS_4pairIKS3_S9_EENS_4hashIS3_EENS_8equal_toIS3_EEEENS_21__unordered_map_equalIS3_SE_SI_SG_EENS_9allocatorISE_EEED2Ev
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIjN3WTF6RefPtrIN2TI8Favonius9LayoutKeyEEEEENS_22__unordered_map_hasherIjNS_4pairIKjS7_EENS_4hashIjEENS_8equal_toIjEEEENS_21__unordered_map_equalIjSC_SG_SE_EENS_9allocatorISC_EEED2Ev
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIjN3WTF6RefPtrIN2TI8Favonius9LayoutKeyEEEEENS_22__unordered_map_hasherIjNS_4pairIKjS7_EENS_4hashIjEENS_8equal_toIjEEEENS_21__unordered_map_equalIjSC_SG_SE_EENS_9allocatorISC_EEED2Ev.cold.1
++ __ZNSt3__119__shared_weak_count16__release_sharedB9fon220100Ev
++ __ZNSt3__16__treeINS_12__value_typeIfiEENS_19__map_value_compareIfNS_4pairIKfiEENS_4lessIfEEEENS_9allocatorIS6_EEE14__tree_deleterclB9fon220100EPNS_11__tree_nodeIS2_PvEE
++ __ZNSt3__16vectorIN3WTF6RefPtrIN2TI8Favonius9LayoutKeyEEENS_9allocatorIS6_EEE16__destroy_vectorclB9fon220100Ev
++ __ZNSt3__16vectorIN3WTF6RefPtrIN2TI8Favonius9LayoutKeyEEENS_9allocatorIS6_EEE5clearB9fon220100Ev
++ _objc_claimAutoreleasedReturnValue
++ _objc_retain_x2
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIN2KB10ByteStringEN3WTF6RefPtrIN2TI8Favonius9LayoutKeyEEEEENS_22__unordered_map_hasherIS3_NS_4pairIKS3_S9_EENS_4hashIS3_EENS_8equal_toIS3_EELb1EEENS_21__unordered_map_equalIS3_SE_SI_SG_Lb1EEENS_9allocatorISE_EEE17__deallocate_nodeEPNS_16__hash_node_baseIPNS_11__hash_nodeISA_PvEEEE
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIN2KB10ByteStringEN3WTF6RefPtrIN2TI8Favonius9LayoutKeyEEEEENS_22__unordered_map_hasherIS3_NS_4pairIKS3_S9_EENS_4hashIS3_EENS_8equal_toIS3_EELb1EEENS_21__unordered_map_equalIS3_SE_SI_SG_Lb1EEENS_9allocatorISE_EEED2Ev
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIjN3WTF6RefPtrIN2TI8Favonius9LayoutKeyEEEEENS_22__unordered_map_hasherIjNS_4pairIKjS7_EENS_4hashIjEENS_8equal_toIjEELb1EEENS_21__unordered_map_equalIjSC_SG_SE_Lb1EEENS_9allocatorISC_EEE17__deallocate_nodeEPNS_16__hash_node_baseIPNS_11__hash_nodeIS8_PvEEEE
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIjN3WTF6RefPtrIN2TI8Favonius9LayoutKeyEEEEENS_22__unordered_map_hasherIjNS_4pairIKjS7_EENS_4hashIjEENS_8equal_toIjEELb1EEENS_21__unordered_map_equalIjSC_SG_SE_Lb1EEENS_9allocatorISC_EEE17__deallocate_nodeEPNS_16__hash_node_baseIPNS_11__hash_nodeIS8_PvEEEE.cold.1
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIjN3WTF6RefPtrIN2TI8Favonius9LayoutKeyEEEEENS_22__unordered_map_hasherIjNS_4pairIKjS7_EENS_4hashIjEENS_8equal_toIjEELb1EEENS_21__unordered_map_equalIjSC_SG_SE_Lb1EEENS_9allocatorISC_EEED2Ev
+- __ZNSt3__119__shared_weak_count16__release_sharedB9nqn210106Ev
+- __ZNSt3__16__treeINS_12__value_typeIfiEENS_19__map_value_compareIfNS_4pairIKfiEENS_4lessIfEELb1EEENS_9allocatorIS6_EEE7destroyEPNS_11__tree_nodeIS2_PvEE
+- __ZNSt3__16vectorIN3WTF6RefPtrIN2TI8Favonius9LayoutKeyEEENS_9allocatorIS6_EEE16__destroy_vectorclB9nqn210106Ev
+- __ZNSt3__16vectorIN3WTF6RefPtrIN2TI8Favonius9LayoutKeyEEENS_9allocatorIS6_EEE5clearB9nqn210106Ev
+- _objc_retainAutoreleasedReturnValue
+- _objc_retain_x19
+CStrings:
+- "#16@0:8"
+- "@24@0:8^Q16"
+- "B"
+- "B16@0:8"
+- "TB,N,V_isPhoneticLayout"
+- "TIKeyboardInputManager_pa"
+- "^v16@0:8"
+- "_isPhoneticLayout"
+- "characterAtIndex:"
+- "config"
+- "deleteFromInput:"
+- "dynamicResourcePath"
+- "externalStringToInternal:"
+- "initImplementation"
+- "inputIndex"
+- "inputMode"
+- "internalStringToExternal:"
+- "isEqualToString:"
+- "isPhoneticLayout"
+- "length"
+- "locale"
+- "scriptComposerClass"
+- "setIsPhoneticLayout:"
+- "setString:"
+- "softwareLayout"
+- "suffixOfDesiredString:toAppendToInputString:withInputIndex:afterDeletionCount:"
+- "syncToLayoutState:"
+- "usesContinuousPathRetrocorrection"
+- "v20@0:8B16"
+- "v24@0:8@16"
+
+```

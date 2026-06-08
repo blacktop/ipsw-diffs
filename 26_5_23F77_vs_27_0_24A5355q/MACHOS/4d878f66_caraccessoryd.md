@@ -1,0 +1,381 @@
+## caraccessoryd
+
+> `/usr/libexec/caraccessoryd`
+
+```diff
+
+-515.29.0.0.0
+-  __TEXT.__text: 0x416c8 sha256:cd4e305cc63f25c16f270c5aa5828f3e8e22cd78c24ee8e79e323097ee33dae0
+-  __TEXT.__auth_stubs: 0x1440 sha256:c95027ac7f0ea76d339189676a4c99d7f9920f680165c71dd3b2ec4ef15596c6
+-  __TEXT.__objc_stubs: 0x31e0 sha256:f5865436624f779319b034b260c8ef60e247af0eb3131c805e0fc920d3905b04
+-  __TEXT.__objc_methlist: 0x1d0c sha256:d60a00ca8b008fbb56d33bee3f3bc95d407addff3277e67f84ceb7e923ddd3f3
+-  __TEXT.__const: 0xb80 sha256:f25f573697d85fb86dd6b2f9811c33fdb59a2c55ca83d3403fbe95e6da5f0eda
+-  __TEXT.__cstring: 0xe68 sha256:86360623edec574f8c8662a597a4d77ced957d080890e3ff8cd76c82da64792c
+-  __TEXT.__gcc_except_tab: 0x1fc sha256:39d329c41adeea17c6887cbc69c35c6a2d3b85e396ff3c0fc146654613ad0950
+-  __TEXT.__objc_methname: 0x4b75 sha256:bd7d4f78364ad2028a1c0d53004aa0a97330b64bdf951c7b81827bc90e57c6a1
+-  __TEXT.__oslogstring: 0x4947 sha256:acace8d6488816f0daa2fde1868eaea351b6b60866665dcb38cbd6193ad4d506
+-  __TEXT.__objc_classname: 0x95d sha256:f00a1cc876e448c61e75656854873979e1dfbe1dd67a9903ace8db59ed3cee92
+-  __TEXT.__objc_methtype: 0x18eb sha256:b85ed5ec3a05b776322ad3f4703a7a85f3029b2ba3ba4e1e09ff966b07fe74d3
+-  __TEXT.__swift5_typeref: 0x910 sha256:2c30441fb010d2371095ccdba7de148bd12c1ff4123a804cda96964ac2d7f291
+-  __TEXT.__swift5_capture: 0x4a8 sha256:d481745ef8798ece24cd0b5061bbee00d8974e8779f5b866c9e98d81a73b6962
+-  __TEXT.__constg_swiftt: 0x948 sha256:e67cbe2ee6c21b97fb440074bf081ac0c1b1ede52edb655d61292290576a3021
++531.2.1.0.0
++  __TEXT.__text: 0x40e88 sha256:874d8d1037b774a8ce953c3ab4cd5d78ba8a834b81220adf9a7062946f2ea0ad
++  __TEXT.__auth_stubs: 0x15d0 sha256:9c5fdb950d6717146034f7e2d5a609810f496963de3e9512a1a8d760da69de7d
++  __TEXT.__objc_stubs: 0x3260 sha256:65cd0803949d9c95bb916d84136821bdc0dcc22c163edd2a862bd9a0de8bbd1a
++  __TEXT.__objc_methlist: 0x1d3c sha256:8ad78193b7b254799e46137831fc162a5b9d18674b08381df8a3670a4caabbe9
++  __TEXT.__const: 0xb48 sha256:b436a6edb5ed3121451233b8a012ec13a529910133e4b253aed5b8aa62fb3079
++  __TEXT.__cstring: 0xe76 sha256:0081c7e626c50914b368f47a36da3b6b855e4dfe954fddbc6e66cba813b1f585
++  __TEXT.__gcc_except_tab: 0x1f0 sha256:0385a2e84a8f1bf7157583b3bcfc245c8575f3e6f7c6a6ace33da4de4302b5f1
++  __TEXT.__objc_methname: 0x4bf5 sha256:3cad06fa55faf95f8718a0dcb98165dc6721498d6d57fc23f41cd6d8d00189ab
++  __TEXT.__oslogstring: 0x4a72 sha256:79ecc670011824f9fd26a4e25bb8ad47ebe1948585fc2177e3caa6e922250a1c
++  __TEXT.__objc_classname: 0x94d sha256:17ab2947257a73439fbc928ea95d21b9611544042a6f8c78bc6c616dada2e251
++  __TEXT.__objc_methtype: 0x189b sha256:b8a7db8889d5b18ce13b933710b9112d95edb2e16ae009277a05bb613a1736d4
++  __TEXT.__swift5_typeref: 0x91e sha256:50f6e4f5b9a41a6404ea5bdc70f4a248fd5631f1740840ffabea62fefa4895ba
++  __TEXT.__constg_swiftt: 0x948 sha256:dc2b4bd8d69473321c4f7a7cbf22afce698a7cbaf818f82ce9178e91c7396fb5
+   __TEXT.__swift5_reflstr: 0x470 sha256:87f652819448ed98a59a6c97f6cf82f4c1e63517f9c8030373c309de38a1edb9
+-  __TEXT.__swift5_fieldmd: 0x508 sha256:9af0397a743d4024708203589c747e37787a21e6050b97d2d676e8f978a49599
+-  __TEXT.__swift5_builtin: 0x28 sha256:8b63d2592c88a9dbe2f16adf43709b2f5b0f2007fa6d6b7f729fce3597390d19
+-  __TEXT.__swift5_assocty: 0x48 sha256:3a6ed0b4b6f17c0eb368fc95b5c1ad70e67360a168fcf94fb50a81f6057cb98a
+-  __TEXT.__swift5_proto: 0x44 sha256:82b285cb34d2dce1e2d7b0e5d29be95ed8932b3cbd328150cfd61cabda74a9e5
+-  __TEXT.__swift5_types: 0x54 sha256:22bf5623b3f018929bb8c5ac4549976c78c2af1ca419bb2613d53db9dd1fd763
+-  __TEXT.__swift_as_entry: 0xc sha256:e2b7da0126954ceff026df1efd025ba6b65f5ad128779cbbdaad7758ac06a7fc
+-  __TEXT.__swift_as_ret: 0x10 sha256:9fa58d2905306cfa91c399ff036a6ad91124f28ef231de7271fbf64a3a8dbf91
+-  __TEXT.__unwind_info: 0xcd8 sha256:123d39989619f33f7e88ba5036cd4acf0f6366154b3e910e36bcc05bd03f4874
+-  __TEXT.__eh_frame: 0x2e8 sha256:3eb1004e1e90ff2e7686a891a2afc768c5e65ab8306c11ae3e300311bafa5822
+-  __DATA_CONST.__auth_got: 0xa30 sha256:0aa0fe9c845ce6e0502242519eea406398d66e449cda5e30ed4f7882901aa175
+-  __DATA_CONST.__got: 0x550 sha256:45f7af571bbd629d9e6b51de846eacc916f4bcd573fd5fab78b7cd4b2133e4fd
+-  __DATA_CONST.__auth_ptr: 0x268 sha256:738480a52706bebd9f8fbb0f38085afd12074ff6f3e538e72df9eceaa3b31839
+-  __DATA_CONST.__const: 0x1c08 sha256:23dbcc5043182f0a7b0cca015a4f099fec58b33de3a3ced2102af5d0722cb2f2
+-  __DATA_CONST.__cfstring: 0x400 sha256:27be758ae2f118b70a9677257fe1fa5f26b2e5bb8fabf250e48e22b5e1caa066
+-  __DATA_CONST.__objc_classlist: 0xb0 sha256:154702fcc2fe8244f9d76e0c4bbae57e1d41bacf20d28a60a81438240a446b19
+-  __DATA_CONST.__objc_catlist: 0x10 sha256:e89126e18b9f190d5e3be809d148c7ef4c2b5a24bfe3b13fe4163275079b6e39
+-  __DATA_CONST.__objc_protolist: 0x288 sha256:489847c36e243091b055df4ea36f037c80b0bf93fe0eb8bdec53ae4d35449c79
+-  __DATA_CONST.__objc_imageinfo: 0x8 sha256:234cedc7009d98da03ca2a7ff525d0db26b82bff0e6046456f4eda918f734526
+-  __DATA_CONST.__objc_protorefs: 0x138 sha256:d066d60b068db01800d8d0a180833d293559b18f24e796c0e138cade04b1c8bf
+-  __DATA_CONST.__objc_superrefs: 0x28 sha256:ff90881ca0b62be42be541befc9e90499bd12203cda37d6fc0a35ef394c22f3c
+-  __DATA_CONST.__objc_intobj: 0x60 sha256:01cacfab5cd0a31bae2af9bffb0a822b702e997c16aabb6db572cae9619f871c
+-  __DATA.__objc_const: 0x5778 sha256:583223638416523c3074555a4b60481ab330521a54e46f1c48af8e2e595af8ca
+-  __DATA.__objc_selrefs: 0x1210 sha256:766240cc0b34b3a5a3b2d386d934d00ba869e0047ff05c87cbb586bc1abcdc06
++  __TEXT.__swift5_fieldmd: 0x508 sha256:2c946f381bdeeffc1d4b1ced8daf3825b52304077682573967187b07eaf91dc8
++  __TEXT.__swift5_builtin: 0x28 sha256:15d5e338451fae57c0fa630fa94f8f009f0c5bd2ad7b0a199f14c9b498be696f
++  __TEXT.__swift5_capture: 0x4a8 sha256:410f5fc5210592b1297a2e35f3b7ce2df7663130c1b2330093034c9dd6bee453
++  __TEXT.__swift5_assocty: 0x48 sha256:7a047cd5c38d4bf4e0f250c790b41f63a3b273533d91cd501a629269bf0caa3b
++  __TEXT.__swift5_proto: 0x44 sha256:55cc2b7b384166f58727c65e14563b18ac34dbc9a231a632e7300d60555d1996
++  __TEXT.__swift5_types: 0x54 sha256:e869042972047b11b58c09603316e7c4646ac7bc33773b3c7a6b9dd02aa517f2
++  __TEXT.__swift_as_entry: 0xc sha256:1dc090602e42bb1277a666a5ab9f0acd166b36c7922b325fa421b8dbcadf4fc8
++  __TEXT.__swift_as_ret: 0x10 sha256:38b21270d5452e71c5facebfd067189ecacf04bd676c355ea75895625f777eee
++  __TEXT.__swift_as_cont: 0x1c sha256:594157907f1548b2182d1cb4896b77d199d8583c600245a9348de3cb760c9f6a
++  __TEXT.__unwind_info: 0xc58 sha256:a64df5b8829d48e8fd83d8bd84ac50b1aa6621f415125afa747cc6a712b2ef1e
++  __TEXT.__eh_frame: 0x330 sha256:fcbf47c6238aac0a99a7763844469014522c08ace5eb4c0fca64843734e44639
++  __DATA_CONST.__const: 0x1c08 sha256:de4211cf372348ababb61938d0bba91340c5e79d5471c980d1432ae4df87b4c8
++  __DATA_CONST.__cfstring: 0x400 sha256:42b9e50eb814a8a6dbfa1dc103e57401ee2c9672e590699aa0e37cfc1bbd0bff
++  __DATA_CONST.__objc_classlist: 0xb0 sha256:872df9329e8bab978c75d7bd8281c5de8767328fcd321925eaebc66c74ba9a25
++  __DATA_CONST.__objc_catlist: 0x10 sha256:8deaef8342768ce7fd05484caddffe0604a35824c8eb5847b789740758d92878
++  __DATA_CONST.__objc_protolist: 0x288 sha256:e27419f4bb28c8c6320de8e1deb310e616d390369b499cf91d75f3ffd5cbbac3
++  __DATA_CONST.__objc_imageinfo: 0x8 sha256:885ce8037a15de89b0ceb0054c31fc3de725513307f685be388961916dadcdb0
++  __DATA_CONST.__objc_protorefs: 0x138 sha256:898645d34dafe7f2ce61df35353a8dee0177784f7c81ff31f8fcf9b9071813c4
++  __DATA_CONST.__objc_superrefs: 0x28 sha256:d727896b013b01ccffdb1716f6d274afc44ea36a6678b23ddfc7fa603bf42221
++  __DATA_CONST.__objc_intobj: 0x60 sha256:b63bf59c6b16a202b97904a707c121b1c75c0ca6e4fcbae583fa477bce65d741
++  __DATA_CONST.__auth_got: 0xaf8 sha256:fe84241df37850d5ae2e58a5d373e9b87e01180ea6c04220eb72485616e447fb
++  __DATA_CONST.__got: 0x558 sha256:d9faae7e42c009ab64ed584672d88f439bf4279b56b2c01c9ce6c8f158a0a597
++  __DATA_CONST.__auth_ptr: 0x268 sha256:79adf9ced467cfc45dc1ece561b3a76e6e1c122dcc388e899023746d70c65e36
++  __DATA.__objc_const: 0x57d0 sha256:995df55cd677c51089c21d6bd8df794d65a44fe069ca8ab5f1c48be842d12ff1
++  __DATA.__objc_selrefs: 0x1240 sha256:83ca497d7a2b8bfdafac39fdcf41daf4cb46a559bc576dc894cdaae7db2455af
+   __DATA.__objc_ivar: 0xc8 sha256:2771172fc07c7f4b9c5b6bfb5c668d7669d4e536d8357c58414dca5d07787792
+-  __DATA.__objc_data: 0x13d8 sha256:e9f9a507150a4ef0c485dc39722d6ee49157ac954cd00f49e9fceff9abb85211
+-  __DATA.__data: 0x1a10 sha256:05b28fcca9ed87044e1e3152c94ff16f2afb535de9873aefbf9e7ea1f6a7494e
++  __DATA.__objc_data: 0x13d8 sha256:52d644349555d0fee638ee9381391139d69f00673a76fbf51a87738b807038c9
++  __DATA.__data: 0x19e8 sha256:1d80e73626a3635fe4cc31f52b8b1827b5f68e38ec8a9bd09db1c322fa5de941
+   __DATA.__bss: 0x900 sha256:cfc335996cfae29fdf14fd2db7ea853366d350a5d387aa3c322616e81dacd56b
+   __DATA.__common: 0xc0 sha256:5d89f056865052bcb89c910d2d62872e029fb273c3db03f8968a52a41593c1b5
+   - /System/Library/Frameworks/AppIntents.framework/AppIntents
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 94621F19-4955-334E-A403-480A34F838BD
+-  Functions: 1296
+-  Symbols:   3637
+-  CStrings:  1426
++  UUID: C2E5587D-2AC6-3B9A-9442-09E4C3F59B9A
++  Functions: 1315
++  Symbols:   3743
++  CStrings:  1438
+ 
+Symbols:
++ -[CAFDCarDataServiceAgent _carLock_pluginConfigsForBroadcast]
++ -[_CAFdConnectionProxy didUpdateAttributes:]
++ -[_CAFdConnectionProxy rerequestRegistrations].cold.1
++ GCC_except_table101
++ GCC_except_table109
++ GCC_except_table40
++ GCC_except_table64
++ GCC_except_table65
++ GCC_except_table94
++ _$s10Foundation4DataVMn
++ _$s13caraccessoryd12CAFDAsyncCar33_63EDB8DF96AF53E23EC725535F297F40LLC13automakerAppsSaySo15CAFAutomakerAppCGvgTY3_
++ _$s13caraccessoryd19CAFDAsyncCarManager33_63EDB8DF96AF53E23EC725535F297F40LLC3carAA0bC0ACLLCSgvgyScCyAHs5NeverOGXEfU_Tf0ns_n
++ _$s13caraccessoryd19CAFDNowPlayingAgentC03nowC7Service_31didUpdateUserVisibleDescriptionySo06CAFNowC0C_SSSgtFToTm
++ _$s13caraccessoryd19CAFDNowPlayingAgentC18mediaSourceService_19didUpdateMediaItemsySo08CAFMediaF0C_So0lK0CSgtFToTm
++ _$s13caraccessoryd20CAFDAppLaunchManagerC03carD0ACSo06CAFCarD0C_tcfcTf4gn_n
++ _$s13caraccessoryd21CAFDNavigationManagerC03carC013sessionStatusACSo06CAFCarC0C_So010CARSessionF0CtcfcTf4ggn_n
++ _$s13caraccessoryd22CAFDAssetVariantsAgentC10carManager13sessionStatusACSo06CAFCarF0C_So010CARSessionH0CtcfcTf4ggn_n
++ _$s13caraccessoryd22CAFDAssetVariantsAgentC16_ConnectionProxy33_AD8EB03328B3296C924C05733247A05ALLC14fetchResources5replyyySo26NSSecurityScopedURLWrapperCSg_So8NSNumberCSDyS2SGSgSo7NSErrorCSgtXE_tF06$sSo26pqr6CSgSo8s17CSo12NSDictionaryw3So7tW32IyByyyy_AcESDyS2SGSgAKIeggggg_TRAkMSo0Z0CSgARIyByyyy_Tf1cn_n
++ _$s13caraccessoryd22CAFDAssetVariantsAgentC16_ConnectionProxy33_AD8EB03328B3296C924C05733247A05ALLC8activateyyF
++ _$s13caraccessoryd27CAFDVehicleResourcesManagerC03carD0ACSo06CAFCarD0C_tcfcTf4gn_n
++ _$s13caraccessoryd27CAFDVehicleResourcesManagerC22CustomImageArchiveInfoVSgWOc
++ _$s13caraccessoryd27CAFDVehicleResourcesManagerC22CustomImageArchiveInfoVSgWOhTm
++ _$s13caraccessoryd27CAFDVehicleResourcesManagerCMaTm
++ _$s13caraccessoryd28CAFDAppClipsDeclarationAgentC012supportedAppC026forPairedVehicleIdentifier10completiony10Foundation4UUIDV_ySaySSGSg_s5Error_pSgtctFyyYacfU_TQ4_
++ _$s13caraccessoryd28CAFDAppClipsDeclarationAgentC012supportedAppC026forPairedVehicleIdentifier10completiony10Foundation4UUIDV_ySaySSGSg_s5Error_pSgtctFyyYacfU_TY3_
++ _$s13caraccessoryd28CAFDAppClipsDeclarationAgentC012supportedAppC026forPairedVehicleIdentifier10completiony10Foundation4UUIDV_ySaySSGSg_s5Error_pSgtctFyyYacfU_TY5_
++ _$s13caraccessoryd28CAFDAppClipsDeclarationAgentC10carManagerACSo06CAFCarG0C_tcfcTf4gn_n
++ _$s13caraccessoryd28CAFDSessionBoostServiceAgentC13sessionStatusACSo010CARSessionG0C_tcfcTf4gn_n
++ _$s2os14OSLogArgumentsV6appendyyxycs17FixedWidthIntegerRzlFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_Si_Tg5
++ _$s2os14OSLogArgumentsV6appendyyxycs17FixedWidthIntegerRzlFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_Su_Tg5
++ _$s2os14OSLogArgumentsV6appendyyxycs17FixedWidthIntegerRzlFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_s5Int32V_Tg5
++ _$s2os14OSLogArgumentsV6appendyyxycs17FixedWidthIntegerRzlFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_s6UInt32V_Tg5
++ _$s2os18OSLogInterpolationV06appendC0_5align7privacyyxyXA_AA0B15StringAlignmentVAA0B7PrivacyVts06CustomG11ConvertibleRzlFSSycfu_10Foundation4DataV_Tg5
++ _$s2os18OSLogInterpolationV06appendC0_5align7privacyyxyXA_AA0B15StringAlignmentVAA0B7PrivacyVts06CustomG11ConvertibleRzlFSSycfu_SaySSG_Tg5
++ _$s2os18OSLogInterpolationV06appendC0_7privacy10attributesySo8NSObjectCSgyXA_AA0B7PrivacyVSStFfA1_
++ _$s2os18OSLogInterpolationV06appendC0_7privacy10attributesys5Error_pyXA_AA0B7PrivacyVSStFfA1_
++ _$sSS21_builtinStringLiteral17utf8CodeUnitCount7isASCIISSBp_BwBi1_tcfC
++ _$sSTsE5first5where7ElementQzSgSbADKXE_tKFSaySo17CAFMediaItemImageCG_Tg5098$s13caraccessoryd19CAFDNowPlayingAgentC09updateNowC033_FF809742895DEAA2EB5774A1CBC6B439LLyyFSbSo17deF7CXEfU1_SSTf1cn_n
++ _$sSTsE7forEachyyy7ElementQzKXEKFSayySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcG_Tg5085$s2os0A11LogInternal_3log4typeyAA12OSLogMessageV_So03OS_a1_D0CSo0a1_d1_E2_tatFyySpys5d10VGz_SpySo8E23CSgGSgzSpyypGSgztcXEfU_AfkMTf1cn_n
++ _$sSay8Dispatch0A13WorkItemFlagsVGSayxGSTsWlTm
++ _$sScC12continuation8functionScCyxq_GSccyxq_G_SStcfC
++ _$sSo29NSDirectoryEnumerationOptionsVSYSCSY8rawValue03RawE0QzvgTW
++ _$sSo29NSDirectoryEnumerationOptionsVs10SetAlgebraSCsACP6insertySb8inserted_7ElementQz17memberAfterInserttAHnFTW
++ _$sSo38BSServiceConnectionListenerConfiguring_pIegg_SoAA_pIyBy_TRTm
++ _$sSo8NSNumberCMaTm
++ _$ss5NeverON
++ _$ss5NeverOs5ErrorsWP
++ _CAFDefaultsGetDouble
++ __46-[_CAFdConnectionProxy rerequestRegistrations]_block_invoke.147
++ __46-[_CAFdConnectionProxy rerequestRegistrations]_block_invoke.147.cold.1
++ __49-[CAFDCarDataServiceAgent carDataChannelDidOpen:]_block_invoke.283.cold.1
++ __49-[CAFDCarDataServiceAgent carDataChannelDidOpen:]_block_invoke.283.cold.2
++ __49-[CAFDCarDataServiceAgent carDataChannelDidOpen:]_block_invoke.283.cold.3
++ __49-[CAFDCarDataServiceAgent carDataChannelDidOpen:]_block_invoke.283.cold.4
++ __49-[CAFDCarDataServiceAgent carDataChannelDidOpen:]_block_invoke.283.cold.5
++ __49-[CAFDCarDataServiceAgent carDataChannelDidOpen:]_block_invoke.283.cold.6
++ __49-[CAFDCarDataServiceAgent carDataChannelDidOpen:]_block_invoke.284
++ __49-[CAFDCarDataServiceAgent carDataChannelDidOpen:]_block_invoke.286
++ __49-[CAFDCarDataServiceAgent carDataChannelDidOpen:]_block_invoke.286.cold.1
++ __49-[_CAFdConnectionProxy didUpdatePluginID:values:]_block_invoke.146
++ __62-[CAFDCarDataServiceAgent listener:shouldAcceptNewConnection:]_block_invoke.cold.2
++ __81-[CAFDCarDataServiceAgent _removeRegistration:instanceIDs:priority:withResponse:]_block_invoke.295
++ ___44-[_CAFdConnectionProxy didUpdateAttributes:]_block_invoke
++ ___swift__destructor
++ ___swift_allocate_boxed_opaque_existential_0
++ ___swift_async_cont_functlets
++ ___swift_closure_destructor
++ ___swift_closure_destructorTm
++ ___swift_project_boxed_opaque_existential_0
++ __swift__destructor.14
++ __swift__destructor.176
++ __swift__destructor.24
++ __swift__destructor.32
++ __swift__destructor.47
++ __swift_closure_destructor.102
++ __swift_closure_destructor.109
++ __swift_closure_destructor.116
++ __swift_closure_destructor.123
++ __swift_closure_destructor.130
++ __swift_closure_destructor.137
++ __swift_closure_destructor.14
++ __swift_closure_destructor.144
++ __swift_closure_destructor.151
++ __swift_closure_destructor.158
++ __swift_closure_destructor.16
++ __swift_closure_destructor.165
++ __swift_closure_destructor.168
++ __swift_closure_destructor.17
++ __swift_closure_destructor.179
++ __swift_closure_destructor.186
++ __swift_closure_destructor.2
++ __swift_closure_destructor.20
++ __swift_closure_destructor.22
++ __swift_closure_destructor.23
++ __swift_closure_destructor.24
++ __swift_closure_destructor.25
++ __swift_closure_destructor.26
++ __swift_closure_destructor.3
++ __swift_closure_destructor.30
++ __swift_closure_destructor.32
++ __swift_closure_destructor.37
++ __swift_closure_destructor.38
++ __swift_closure_destructor.39
++ __swift_closure_destructor.40
++ __swift_closure_destructor.44
++ __swift_closure_destructor.45
++ __swift_closure_destructor.50
++ __swift_closure_destructor.54
++ __swift_closure_destructor.56
++ __swift_closure_destructor.58
++ __swift_closure_destructor.60
++ __swift_closure_destructor.61
++ __swift_closure_destructor.67
++ __swift_closure_destructor.8
++ __swift_closure_destructor.88
++ __swift_closure_destructor.9
++ __swift_closure_destructor.95
++ __swift_implicitisolationactor_to_executor_cast
++ _objc_claimAutoreleasedReturnValue
++ _objc_msgSend$_carLock_pluginConfigsForBroadcast
++ _objc_msgSend$attributes
++ _objc_msgSend$didUpdateAttributes:
++ _objc_msgSend$updateCapabilitiesIfNeeded
++ _objc_retain_x3
++ _swift_allocBox
++ _swift_continuation_await
++ _swift_continuation_init
++ _swift_release_n
++ _swift_release_x12
++ _swift_release_x19
++ _swift_release_x20
++ _swift_release_x21
++ _swift_release_x22
++ _swift_release_x23
++ _swift_release_x24
++ _swift_release_x25
++ _swift_release_x26
++ _swift_release_x8
++ _swift_retain_n
++ _swift_retain_x19
++ _swift_retain_x2
++ _swift_retain_x20
++ _swift_retain_x21
++ _swift_retain_x22
++ _swift_retain_x23
++ _swift_retain_x25
++ _swift_retain_x26
++ _swift_retain_x28
++ _symbolic So16RBSProcessHandleCSg
++ _symbolic _____Sg 10Foundation4DataV
++ block_copy_helper.181
++ block_copy_helper.188
++ block_copy_helper.30
++ block_copy_helper.41
++ block_copy_helper.47
++ block_copy_helper.49
++ block_copy_helper.56
++ block_copy_helper.62
++ block_descriptor.183
++ block_descriptor.190
++ block_descriptor.32
++ block_descriptor.43
++ block_descriptor.49
++ block_descriptor.51
++ block_descriptor.58
++ block_descriptor.64
++ block_destroy_helper.182
++ block_destroy_helper.189
++ block_destroy_helper.31
++ block_destroy_helper.42
++ block_destroy_helper.48
++ block_destroy_helper.50
++ block_destroy_helper.57
++ block_destroy_helper.63
+- $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.31
+- $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.31TQ0_
+- $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.31Tu
+- GCC_except_table106
+- GCC_except_table38
+- GCC_except_table62
+- GCC_except_table63
+- GCC_except_table91
+- GCC_except_table98
+- _$s10Foundation17URLResourceValuesVMn
+- _$s10Foundation17URLResourceValuesVSgMR
+- _$s10Foundation17URLResourceValuesVSgMd
+- _$s13caraccessoryd12CAFDAsyncCar33_63EDB8DF96AF53E23EC725535F297F40LLC010configuredC0So6CAFCarCyYaFyScCyAGs5NeverOGXEfU_TA
+- _$s13caraccessoryd19CAFDAsyncCarManager33_63EDB8DF96AF53E23EC725535F297F40LLC3carAA0bC0ACLLCSgvgyScCyAHs5NeverOGXEfU_
+- _$s13caraccessoryd19CAFDAsyncCarManager33_63EDB8DF96AF53E23EC725535F297F40LLC3carAA0bC0ACLLCSgvgyScCyAHs5NeverOGXEfU_TA
+- _$s13caraccessoryd19CAFDNowPlayingAgentC09updateNowC033_FF809742895DEAA2EB5774A1CBC6B439LLyyFSbSo17CAFMediaItemImageCXEfU1_
+- _$s13caraccessoryd22CAFDAssetVariantsAgentC16_ConnectionProxy33_AD8EB03328B3296C924C05733247A05ALLC14fetchResources5replyyySo26NSSecurityScopedURLWrapperCSg_So8NSNumberCSDyS2SGSgSo7NSErrorCSgtXE_tF
+- _$s13caraccessoryd27CAFDVehicleResourcesManagerC22CustomImageArchiveInfoVMaTm
+- _$s13caraccessoryd27CAFDVehicleResourcesManagerC22CustomImageArchiveInfoVSgWOcTm
+- _$s13caraccessoryd28CAFDAppClipsDeclarationAgentC012supportedAppC026forPairedVehicleIdentifier10completiony10Foundation4UUIDV_ySaySSGSg_s5Error_pSgtctFyyYacfU_TQ3_
+- _$s13caraccessoryd28CAFDAppClipsDeclarationAgentC012supportedAppC026forPairedVehicleIdentifier10completiony10Foundation4UUIDV_ySaySSGSg_s5Error_pSgtctFyyYacfU_TY4_
+- _$sSS11utf8CStrings15ContiguousArrayVys4Int8VGvg
+- _$sScPSgWOc
+- _$sScTss5NeverORs_rlE4name8priority9operationScTyxABGSSSg_ScPSgxyYaYAcntcfCyt_Tt2g5
+- _$sSo21CAFNowPlayingSnapshotC6titles11artworkData15mediaSourceType0gH10Identifier0E5Token0g9ItemImageK00eI09multicast13playbackState0glJ0ABSaySSGSg_10Foundation0F0VSgSo08CAFMediah8SemanticI0VSSSgS2iSo0ab7ArtworkI0VSiSo011CAFPlaybackP0VAUtcfC
+- _$sSo21CAFNowPlayingSnapshotCML
+- _$sSo26NSSecurityScopedURLWrapperCSgSo8NSNumberCSo12NSDictionaryCSgSo7NSErrorCSgIyByyyy_AcESDyS2SGSgAKIeggggg_TR
+- _$sSo26NSSecurityScopedURLWrapperCSgSo8NSNumberCSo12NSDictionaryCSgSo7NSErrorCSgIyByyyy_AcESDyS2SGSgAKIeggggg_TRTA
+- _$ss11AnyHashableV_yptWOcTm
+- _$ss23withCheckedContinuation9isolation8function_xScA_pSgYi_SSyScCyxs5NeverOGXEtYalF
+- _$ss23withCheckedContinuation9isolation8function_xScA_pSgYi_SSyScCyxs5NeverOGXEtYalFTu
+- _$sypWOb
+- _OUTLINED_FUNCTION_18
+- _OUTLINED_FUNCTION_19
+- _OUTLINED_FUNCTION_20
+- _OUTLINED_FUNCTION_21
+- _OUTLINED_FUNCTION_22
+- _OUTLINED_FUNCTION_23
+- __46-[_CAFdConnectionProxy rerequestRegistrations]_block_invoke.148
+- __46-[_CAFdConnectionProxy rerequestRegistrations]_block_invoke.148.cold.1
+- __49-[CAFDCarDataServiceAgent carDataChannelDidOpen:]_block_invoke.282
+- __49-[CAFDCarDataServiceAgent carDataChannelDidOpen:]_block_invoke.282.cold.1
+- __49-[CAFDCarDataServiceAgent carDataChannelDidOpen:]_block_invoke.282.cold.2
+- __49-[CAFDCarDataServiceAgent carDataChannelDidOpen:]_block_invoke.282.cold.3
+- __49-[CAFDCarDataServiceAgent carDataChannelDidOpen:]_block_invoke.282.cold.4
+- __49-[CAFDCarDataServiceAgent carDataChannelDidOpen:]_block_invoke.282.cold.5
+- __49-[CAFDCarDataServiceAgent carDataChannelDidOpen:]_block_invoke.285
+- __49-[CAFDCarDataServiceAgent carDataChannelDidOpen:]_block_invoke.285.cold.1
+- __49-[_CAFdConnectionProxy didUpdatePluginID:values:]_block_invoke.144
+- __81-[CAFDCarDataServiceAgent _removeRegistration:instanceIDs:priority:withResponse:]_block_invoke.294
+- _objc_release_x2
+- _objectdestroyTm
+- _symbolic _____Sg 10Foundation17URLResourceValuesV
+- _symbolic _____SgXw 13caraccessoryd19CAFDAsyncCarManager33_63EDB8DF96AF53E23EC725535F297F40LLC
+- block_copy_helper.179
+- block_copy_helper.186
+- block_copy_helper.20
+- block_copy_helper.31
+- block_copy_helper.35
+- block_copy_helper.48
+- block_copy_helper.51
+- block_copy_helper.57
+- block_copy_helper.64
+- block_descriptor.181
+- block_descriptor.188
+- block_descriptor.22
+- block_descriptor.33
+- block_descriptor.37
+- block_descriptor.50
+- block_descriptor.53
+- block_descriptor.59
+- block_descriptor.66
+- block_destroy_helper.180
+- block_destroy_helper.187
+- block_destroy_helper.21
+- block_destroy_helper.32
+- block_destroy_helper.36
+- block_destroy_helper.49
+- block_destroy_helper.52
+- block_destroy_helper.58
+- block_destroy_helper.65
+- objectdestroy.12Tm
+- objectdestroy.20Tm
+- objectdestroy.40Tm
+CStrings:
++ "%{public}@: rerequestRegistrations"
++ "Configuration complete pre-channel did open UUID: %{public}@"
++ "Process pending registrations for %lu connections"
++ "Sending existing configs to new proxy %{public}@"
++ "Skipping batch update item with nil key: pluginID=%{public}@ priority=%{public}@ instanceID=%{public}@"
++ "_carLock_pluginConfigsForBroadcast"
++ "attributes"
++ "current car is not configured %lu of %lu"
++ "didUpdateAttributes:"
++ "setLocalTarget:"
++ "unsafeRemoteBundleIdentifier"
++ "updateCapabilitiesIfNeeded"
++ "v24@0:8@\"CAFCarAttributes\"16"
+- "Process pending registrations"
+
+```

@@ -1,0 +1,357 @@
+## libswiftUniformTypeIdentifiers.dylib
+
+> `/usr/lib/swift/libswiftUniformTypeIdentifiers.dylib`
+
+```diff
+
+-879.5.1.0.0
+-  __TEXT.__text: 0x9834 sha256:d49ef7a12c282a56f598a4a188ae8afed0ffccec2965e74e563f5c35ececb91e
+-  __TEXT.__auth_stubs: 0x7c0 sha256:6f75ce94e8838be7d82b210d2e83846bf1786af835ea774566ea96a57aa331be
+-  __TEXT.__objc_methlist: 0x2c sha256:4796a217312642dc2b95f47e55285f27ac2310708a5b606f8a5a20a9858a25ae
+-  __TEXT.__const: 0x9f4 sha256:2e0bd778a8245770f84794e04463e839f372cc94735ca0e4eb4792549d17cd5b
+-  __TEXT.__constg_swiftt: 0x144 sha256:09b8fda7b25fb811d7fef4471c6d4e7c51e23994e3e42d6a7800618afaeec792
+-  __TEXT.__swift5_typeref: 0x2ac sha256:5d4cb9ac31b1e04ae39387a173cb0ed01978db0e6c0e48cb8b45afdc19d4cfee
+-  __TEXT.__swift5_fieldmd: 0x104 sha256:61d252ac67dd5ac290ec4cbca6e834d417f27fcef5529aee18c0f42d782c5a55
+-  __TEXT.__swift5_builtin: 0x3c sha256:d9b56b60ce5a7dbd6548f5af54d5b064559ec65e34a8a17a5a1422afb4299bcf
++905.0.0.0.0
++  __TEXT.__text: 0x9b28 sha256:ef68b7cde8bba7a874feadeeb8334b7f0c5708584bc4656f58ffd8f1f5e6f37e
++  __TEXT.__objc_methlist: 0x2c sha256:fb2127d11c35dca81152e2594f172066f05e6f02e934b91f25766e6552b84f35
++  __TEXT.__const: 0x9d4 sha256:c2aa4e2a19846b20fe2b48f9b012b45f5270350b68868725c065505bfb42f37f
++  __TEXT.__constg_swiftt: 0x144 sha256:fae52b121dcf02bde7748e4aefb2871558f23f41456cb6012fa1dd26d4e38b68
++  __TEXT.__swift5_typeref: 0x284 sha256:19a69adabe8c950c307c29de46616050bafac2b08d286234370006676e0fcb3e
++  __TEXT.__swift5_fieldmd: 0x104 sha256:69e4a727ceaa38e3a86857ef3622575fb5ef24692f363b30ede2a3680711531b
++  __TEXT.__swift5_builtin: 0x3c sha256:329b93eef080e36054e33a136fdc56672902b79ddaa544a1e5b8e1b465aa3f91
+   __TEXT.__swift5_reflstr: 0x82 sha256:78791bc17bf9be7bc3fb348a37a0720b8a04d3c66020af9e8e014c02177f02fc
+-  __TEXT.__swift5_assocty: 0x60 sha256:490401251a6976d7fad11ec4f269523d87c2faf57262f55dd0a48e15ca7c4e38
+-  __TEXT.__swift5_proto: 0x90 sha256:c461a7bb4b9748174118941ddba5b081540d6ef0bc86ac02ae34b20b5ace869e
+-  __TEXT.__swift5_types: 0x24 sha256:ab31045d6f216598f158f163e65f7be4de94881ba0f4f47769bb7a9b4afd6e49
+-  __TEXT.__cstring: 0x179 sha256:baf9516edc2d6db66a8aa502d0a25f76ad7948865c4f3b067a922f3541ae7eb1
+-  __TEXT.__swift5_capture: 0x44 sha256:db3f9872a0401625b5e4e220d14f7c126663d0cdbc5cd5e597ec12e2824db821
+-  __TEXT.__swift5_mpenum: 0x8 sha256:0c35a1bc90d6e85a29c8f931ac9d8292afc92e2b40be3f3744deb67b5e2fe39e
+-  __TEXT.__unwind_info: 0x398 sha256:d3eb6de961105060fdd69ce2a8fb3ea0c18b248292146cd48cb0eb4562e52ce3
+-  __TEXT.__eh_frame: 0x310 sha256:6af0549a81b8d81c33ebf862ef6a0a83696ed061a84aa4d70a4f5554d3a5ea2d
+-  __TEXT.__objc_classname: 0x26 sha256:d61bd9317948aaf375114b635223775c62066ecb8eb8bc100cf4a54f120145e0
+-  __TEXT.__objc_methname: 0x71d sha256:47128c43537264883f7c14ad1097c5a9769a238f036211779bb2305dd8ff4aae
+-  __TEXT.__objc_methtype: 0xf5 sha256:f73bd7f5e68aabadd2bc236f8ee5a0b68fb9bdcdf9178abc590d5d00d1b6287f
+-  __TEXT.__objc_stubs: 0x7c0 sha256:180414d48792c3b3315b616b1532e67ae86d0d67053428dddcff7c26cbec3aa6
+-  __DATA_CONST.__got: 0x628 sha256:43782c4d9b63da7cfe64f6a9a06a6cf8007d2a793b8a5f94c9b962bb5cb25b0d
++  __TEXT.__swift5_assocty: 0x60 sha256:1aab01087ccdfb6435a1f5927236d003637619b4486b0a4e257d8cdc3d2d56e4
++  __TEXT.__swift5_proto: 0x90 sha256:fd8e98cf0c2e2845863d16f81aaafb1465d5eca2483f0946cf640e9a7bd139ba
++  __TEXT.__swift5_types: 0x24 sha256:60d6bb768f0f2ac9f0775ab770a8b5772908f94c5a394f9ddc795519de81ff76
++  __TEXT.__cstring: 0x104 sha256:40e6b557be7c9e3ed4637dea947caf40eb4801ad55431571fd53f38251f54a49
++  __TEXT.__swift5_capture: 0x44 sha256:8784d2c5af7b5b771a7bb062c79b035c5013be4c864326b4ddf46829bd0435b0
++  __TEXT.__swift5_mpenum: 0x8 sha256:fcf548452ec355f7f61dafe300d66c35c0e948cb286d24ce7b093f6a6fb37cdf
++  __TEXT.__unwind_info: 0x358 sha256:0fe9eb289e0f61561a01d47a47337c836d755fe0b51d7629b1f3b8d287d598c0
++  __TEXT.__eh_frame: 0x2d8 sha256:7c399f5c99d774770add8220e82ef670ab75f500ce80838409b5c0f585d5f964
++  __TEXT.__objc_stubs: 0x0
++  __TEXT.__auth_stubs: 0x0
++  __TEXT.__objc_classname: 0x0
++  __TEXT.__objc_methname: 0x0
++  __TEXT.__objc_methtype: 0x0
+   __DATA_CONST.__const: 0x30 sha256:17b0761f87b081d5cf10757ccc89f12be355c70e2e29df288b65b30710dcbcd1
+-  __DATA_CONST.__objc_classlist: 0x8 sha256:c24add9af2904f088c7135200770ef37b6ac4c2838171f441d7e8b7bf0ba7029
+-  __DATA_CONST.__objc_imageinfo: 0x8 sha256:8c2e86a3d61473a17440ee60441113a7d285704a3b70278f03e88b3c356a5493
+-  __DATA_CONST.__objc_selrefs: 0x208 sha256:c8dc015d896b735cb394b2d21ec93103191728d1887bfe025f2441426604e809
+-  __AUTH_CONST.__auth_got: 0x3e8 sha256:541b3e9daa09b20bf85fa273e5cbd3e80185aa4ec298e765db87742b70138a53
+-  __AUTH_CONST.__const: 0x570 sha256:9cbb2e8be0a978feae392d39a714d99c65052be05a06f68820a5da4a117300f2
+-  __AUTH_CONST.__objc_const: 0x60 sha256:d3173540f09d6c539b7ddd516b54b923311420c884558d08ada55d372e171fe5
+-  __AUTH.__objc_data: 0x48 sha256:3bb4cb70b2172b160bc310dbf67b6e51abfc3e2ce6e881083f9923fb0eecb5ae
+-  __DATA.__data: 0x140 sha256:7b6436b0c98f62380866d9432c2af0ee08ce16a171bda6951aecd95ee1307d61
++  __DATA_CONST.__objc_classlist: 0x8 sha256:4e2bc657e640c10c946a0a81fbaa43170125c03554b67f63f8a287dda2d90397
++  __DATA_CONST.__objc_imageinfo: 0x8 sha256:ce857dcadc2529f941104469975d60698ea3610a86c121e7b4aee224cd0c59ea
++  __DATA_CONST.__objc_selrefs: 0x208 sha256:1457d67c204d1315d819a312d8c1f6954ed237032eb6c7dd2f1eb8834347d7e7
++  __DATA_CONST.__got: 0x0
++  __AUTH_CONST.__const: 0x570 sha256:2eba8fd72fc4556155f991ed2c6c0b49699101a1067e2102ce93327f9f98fc93
++  __AUTH_CONST.__objc_const: 0x60 sha256:e7acbfdff083376f28a83da32588e177d0805a719e616da5a8e6ea796f7e624e
++  __AUTH_CONST.__auth_got: 0x430 sha256:482500ac4ba894ac24dbc1e3e06f5455e570378d55808949294af424208dff4c
++  __AUTH.__objc_data: 0x48 sha256:32d9cb3503f90f7b173ee6b48ed9657bc154f27fadfb0ff425157a5e4047c322
++  __DATA.__data: 0x128 sha256:250f52cb2d6f1966a29f6ac771fa1cd185b8f8531396c8a4026c0fe635617e0c
+   __DATA.__bss: 0xe80 sha256:70a7834e098e8d81833e84c7e1cdc0f45a075d86a919542beea3f9503a2ee6d1
+   __DATA.__common: 0x1 sha256:6e340b9cffb37a989ca544e6bb780a2c78901d3fb33738768511a30617afa01d
+-  __DATA_DIRTY.__objc_data: 0x68 sha256:03522709f9339d90a732cec39eca3978a63c36cb40f8783e77c0601c6cd748de
+-  __DATA_DIRTY.__data: 0x58 sha256:b70fac77573de2a5cdb39f94fad63323b4ab4d508e7609b490ab33ea40075527
++  __DATA_DIRTY.__objc_data: 0x68 sha256:02f02b7e85a2d5105e8be3aedaab2ad0817ca2c65d25dd6ceb521934eae72a22
++  __DATA_DIRTY.__data: 0x58 sha256:027ad39415a3ff3351893510081296cd3df6aa3cfa8a50d574fc5cfc72fe9b9d
+   __DATA_DIRTY.__bss: 0x380 sha256:d54f02b97ed5bc2a642756268b41d4b8f7a077e73224e1580d22436834a14db5
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+
+   - /usr/lib/swift/libswiftObjectiveC.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+-  UUID: 5AE1A681-6E13-3805-A403-3E3FE3E7275F
+-  Functions: 466
+-  Symbols:   1620
+-  CStrings:  85
++  UUID: CE207F8F-F66C-31CC-97B7-BB517263DBFF
++  Functions: 512
++  Symbols:   1768
++  CStrings:  7
+ 
+Symbols:
++ _$s22UniformTypeIdentifiers6UTTypeV10identifier15allowUndeclaredACSgSS_SbtcfC
++ _$s22UniformTypeIdentifiers6UTTypeV12_appCategoryACvgZ
++ _$s22UniformTypeIdentifiers6UTTypeV12_appCategoryACvpZMV
++ _$s22UniformTypeIdentifiers6UTTypeV16_appCategoryNewsACvgZ
++ _$s22UniformTypeIdentifiers6UTTypeV16_appCategoryNewsACvpZMV
++ _$s22UniformTypeIdentifiers6UTTypeV17_appCategoryBooksACvgZ
++ _$s22UniformTypeIdentifiers6UTTypeV17_appCategoryBooksACvpZMV
++ _$s22UniformTypeIdentifiers6UTTypeV17_appCategoryGamesACvgZ
++ _$s22UniformTypeIdentifiers6UTTypeV17_appCategoryGamesACvpZMV
++ _$s22UniformTypeIdentifiers6UTTypeV17_appCategoryMusicACvgZ
++ _$s22UniformTypeIdentifiers6UTTypeV17_appCategoryMusicACvpZMV
++ _$s22UniformTypeIdentifiers6UTTypeV17_appCategoryVideoACvgZ
++ _$s22UniformTypeIdentifiers6UTTypeV17_appCategoryVideoACvpZMV
++ _$s22UniformTypeIdentifiers6UTTypeV18_appCategorySportsACvgZ
++ _$s22UniformTypeIdentifiers6UTTypeV18_appCategorySportsACvpZMV
++ _$s22UniformTypeIdentifiers6UTTypeV18_appCategoryTravelACvgZ
++ _$s22UniformTypeIdentifiers6UTTypeV18_appCategoryTravelACvpZMV
++ _$s22UniformTypeIdentifiers6UTTypeV19_appCategoryFinanceACvgZ
++ _$s22UniformTypeIdentifiers6UTTypeV19_appCategoryFinanceACvpZMV
++ _$s22UniformTypeIdentifiers6UTTypeV19_appCategoryMedicalACvgZ
++ _$s22UniformTypeIdentifiers6UTTypeV19_appCategoryMedicalACvpZMV
++ _$s22UniformTypeIdentifiers6UTTypeV19_appCategoryWeatherACvgZ
++ _$s22UniformTypeIdentifiers6UTTypeV19_appCategoryWeatherACvpZMV
++ _$s22UniformTypeIdentifiers6UTTypeV20_appCategoryBusinessACvgZ
++ _$s22UniformTypeIdentifiers6UTTypeV20_appCategoryBusinessACvpZMV
++ _$s22UniformTypeIdentifiers6UTTypeV20_appCategoryShoppingACvgZ
++ _$s22UniformTypeIdentifiers6UTTypeV20_appCategoryShoppingACvpZMV
++ _$s22UniformTypeIdentifiers6UTTypeV21_appCategoryBookmarksACvgZ
++ _$s22UniformTypeIdentifiers6UTTypeV21_appCategoryBookmarksACvpZMV
++ _$s22UniformTypeIdentifiers6UTTypeV21_appCategoryCardGamesACvgZ
++ _$s22UniformTypeIdentifiers6UTTypeV21_appCategoryCardGamesACvpZMV
++ _$s22UniformTypeIdentifiers6UTTypeV21_appCategoryDiceGamesACvgZ
++ _$s22UniformTypeIdentifiers6UTTypeV21_appCategoryDiceGamesACvpZMV
++ _$s22UniformTypeIdentifiers6UTTypeV21_appCategoryEducationACvgZ
++ _$s22UniformTypeIdentifiers6UTTypeV21_appCategoryEducationACvpZMV
++ _$s22UniformTypeIdentifiers6UTTypeV21_appCategoryKidsGamesACvgZ
++ _$s22UniformTypeIdentifiers6UTTypeV21_appCategoryKidsGamesACvpZMV
++ _$s22UniformTypeIdentifiers6UTTypeV21_appCategoryLifestyleACvgZ
++ _$s22UniformTypeIdentifiers6UTTypeV21_appCategoryLifestyleACvpZMV
++ _$s22UniformTypeIdentifiers6UTTypeV21_appCategoryReferenceACvgZ
++ _$s22UniformTypeIdentifiers6UTTypeV21_appCategoryReferenceACvpZMV
++ _$s22UniformTypeIdentifiers6UTTypeV21_appCategoryUtilitiesACvgZ
++ _$s22UniformTypeIdentifiers6UTTypeV21_appCategoryUtilitiesACvpZMV
++ _$s22UniformTypeIdentifiers6UTTypeV21_appCategoryWordGamesACvgZ
++ _$s22UniformTypeIdentifiers6UTTypeV21_appCategoryWordGamesACvpZMV
++ _$s22UniformTypeIdentifiers6UTTypeV22_appCategoryBoardGamesACvgZ
++ _$s22UniformTypeIdentifiers6UTTypeV22_appCategoryBoardGamesACvpZMV
++ _$s22UniformTypeIdentifiers6UTTypeV22_appCategoryMusicGamesACvgZ
++ _$s22UniformTypeIdentifiers6UTTypeV22_appCategoryMusicGamesACvpZMV
++ _$s22UniformTypeIdentifiers6UTTypeV22_appCategoryNavigationACvgZ
++ _$s22UniformTypeIdentifiers6UTTypeV22_appCategoryNavigationACvpZMV
++ _$s22UniformTypeIdentifiers6UTTypeV23_appCategoryActionGamesACvgZ
++ _$s22UniformTypeIdentifiers6UTTypeV23_appCategoryActionGamesACvpZMV
++ _$s22UniformTypeIdentifiers6UTTypeV23_appCategoryArcadeGamesACvgZ
++ _$s22UniformTypeIdentifiers6UTTypeV23_appCategoryArcadeGamesACvpZMV
++ _$s22UniformTypeIdentifiers6UTTypeV23_appCategoryCasinoGamesACvgZ
++ _$s22UniformTypeIdentifiers6UTTypeV23_appCategoryCasinoGamesACvpZMV
++ _$s22UniformTypeIdentifiers6UTTypeV23_appCategoryFamilyGamesACvgZ
++ _$s22UniformTypeIdentifiers6UTTypeV23_appCategoryFamilyGamesACvpZMV
++ _$s22UniformTypeIdentifiers6UTTypeV23_appCategoryPhotographyACvgZ
++ _$s22UniformTypeIdentifiers6UTTypeV23_appCategoryPhotographyACvpZMV
++ _$s22UniformTypeIdentifiers6UTTypeV23_appCategoryPuzzleGamesACvgZ
++ _$s22UniformTypeIdentifiers6UTTypeV23_appCategoryPuzzleGamesACvpZMV
++ _$s22UniformTypeIdentifiers6UTTypeV23_appCategoryRacingGamesACvgZ
++ _$s22UniformTypeIdentifiers6UTTypeV23_appCategoryRacingGamesACvpZMV
++ _$s22UniformTypeIdentifiers6UTTypeV23_appCategorySportsGamesACvgZ
++ _$s22UniformTypeIdentifiers6UTTypeV23_appCategorySportsGamesACvpZMV
++ _$s22UniformTypeIdentifiers6UTTypeV23_appCategoryTriviaGamesACvgZ
++ _$s22UniformTypeIdentifiers6UTTypeV23_appCategoryTriviaGamesACvpZMV
++ _$s22UniformTypeIdentifiers6UTTypeV24_appCategoryFoodAndDrinkACvgZ
++ _$s22UniformTypeIdentifiers6UTTypeV24_appCategoryFoodAndDrinkACvpZMV
++ _$s22UniformTypeIdentifiers6UTTypeV24_appCategoryProductivityACvgZ
++ _$s22UniformTypeIdentifiers6UTTypeV24_appCategoryProductivityACvpZMV
++ _$s22UniformTypeIdentifiers6UTTypeV25_appCategoryEntertainmentACvgZ
++ _$s22UniformTypeIdentifiers6UTTypeV25_appCategoryEntertainmentACvpZMV
++ _$s22UniformTypeIdentifiers6UTTypeV25_appCategoryPhotoAndVideoACvgZ
++ _$s22UniformTypeIdentifiers6UTTypeV25_appCategoryPhotoAndVideoACvpZMV
++ _$s22UniformTypeIdentifiers6UTTypeV25_appCategoryStrategyGamesACvgZ
++ _$s22UniformTypeIdentifiers6UTTypeV25_appCategoryStrategyGamesACvpZMV
++ _$s22UniformTypeIdentifiers6UTTypeV26_appCategoryAdventureGamesACvgZ
++ _$s22UniformTypeIdentifiers6UTTypeV26_appCategoryAdventureGamesACvpZMV
++ _$s22UniformTypeIdentifiers6UTTypeV26_appCategoryDeveloperToolsACvgZ
++ _$s22UniformTypeIdentifiers6UTTypeV26_appCategoryDeveloperToolsACvpZMV
++ _$s22UniformTypeIdentifiers6UTTypeV26_appCategoryGraphicsDesignACvgZ
++ _$s22UniformTypeIdentifiers6UTTypeV26_appCategoryGraphicsDesignACvpZMV
++ _$s22UniformTypeIdentifiers6UTTypeV27_appCategorySimulationGamesACvgZ
++ _$s22UniformTypeIdentifiers6UTTypeV27_appCategorySimulationGamesACvpZMV
++ _$s22UniformTypeIdentifiers6UTTypeV28_appCategoryEducationalGamesACvgZ
++ _$s22UniformTypeIdentifiers6UTTypeV28_appCategoryEducationalGamesACvpZMV
++ _$s22UniformTypeIdentifiers6UTTypeV28_appCategoryRolePlayingGamesACvgZ
++ _$s22UniformTypeIdentifiers6UTTypeV28_appCategoryRolePlayingGamesACvpZMV
++ _$s22UniformTypeIdentifiers6UTTypeV28_appCategorySocialNetworkingACvgZ
++ _$s22UniformTypeIdentifiers6UTTypeV28_appCategorySocialNetworkingACvpZMV
++ _$s22UniformTypeIdentifiers6UTTypeV29_appCategoryHealthcareFitnessACvgZ
++ _$s22UniformTypeIdentifiers6UTTypeV29_appCategoryHealthcareFitnessACvpZMV
++ _$s22UniformTypeIdentifiers6UTTypeV34_appCategoryMagazinesAndNewspapersACvgZ
++ _$s22UniformTypeIdentifiers6UTTypeV34_appCategoryMagazinesAndNewspapersACvpZMV
++ _$s22UniformTypeIdentifiers6UTTypeV8markdownACvgZ
++ _$s22UniformTypeIdentifiers6UTTypeV8markdownACvpZMV
++ _$ss17_NativeDictionaryV5merge20trappingOnDuplicatesyqd__n_tSTRd__x_q_t7ElementRtd__lF22UniformTypeIdentifiers10UTTagClassV_SaySSGSayAI_AJtGTg5Tf4gn_n
++ _UTTypeMarkdown
++ __UTTypeAppCategory
++ __UTTypeAppCategoryActionGames
++ __UTTypeAppCategoryAdventureGames
++ __UTTypeAppCategoryArcadeGames
++ __UTTypeAppCategoryBoardGames
++ __UTTypeAppCategoryBookmarks
++ __UTTypeAppCategoryBooks
++ __UTTypeAppCategoryBusiness
++ __UTTypeAppCategoryCardGames
++ __UTTypeAppCategoryCasinoGames
++ __UTTypeAppCategoryDeveloperTools
++ __UTTypeAppCategoryDiceGames
++ __UTTypeAppCategoryEducation
++ __UTTypeAppCategoryEducationalGames
++ __UTTypeAppCategoryEntertainment
++ __UTTypeAppCategoryFamilyGames
++ __UTTypeAppCategoryFinance
++ __UTTypeAppCategoryFoodAndDrink
++ __UTTypeAppCategoryGames
++ __UTTypeAppCategoryGraphicsDesign
++ __UTTypeAppCategoryHealthcareFitness
++ __UTTypeAppCategoryKidsGames
++ __UTTypeAppCategoryLifestyle
++ __UTTypeAppCategoryMagazinesAndNewspapers
++ __UTTypeAppCategoryMedical
++ __UTTypeAppCategoryMusic
++ __UTTypeAppCategoryMusicGames
++ __UTTypeAppCategoryNavigation
++ __UTTypeAppCategoryNews
++ __UTTypeAppCategoryPhotoAndVideo
++ __UTTypeAppCategoryPhotography
++ __UTTypeAppCategoryProductivity
++ __UTTypeAppCategoryPuzzleGames
++ __UTTypeAppCategoryRacingGames
++ __UTTypeAppCategoryReference
++ __UTTypeAppCategoryRolePlayingGames
++ __UTTypeAppCategoryShopping
++ __UTTypeAppCategorySimulationGames
++ __UTTypeAppCategorySocialNetworking
++ __UTTypeAppCategorySports
++ __UTTypeAppCategorySportsGames
++ __UTTypeAppCategoryStrategyGames
++ __UTTypeAppCategoryTravel
++ __UTTypeAppCategoryTriviaGames
++ __UTTypeAppCategoryUtilities
++ __UTTypeAppCategoryVideo
++ __UTTypeAppCategoryWeather
++ __UTTypeAppCategoryWordGames
++ __UTTypeMXIFile
++ __UTTypeRemoteApplicationPlaceholder
++ ___swift_closure_destructor
++ ___swift_closure_destructor.11
++ ___swift_closure_destructor.2
++ _objc_msgSend$_typeWithRawBluetoothProductID:rawBluetoothVendorID:
++ _swift_release_x19
++ _swift_release_x20
++ _swift_release_x21
++ _swift_release_x23
++ _swift_release_x24
++ _swift_release_x25
++ _swift_release_x26
++ _swift_retain_x19
++ _swift_retain_x2
++ _swift_retain_x20
++ _swift_retain_x23
+- _$s10Foundation3URLVSgWOc
+- _$ss11_MergeErrorON
+- _$ss11_MergeErrorOs0B0sWP
+- _$ss17_NativeDictionaryV4copyyyF22UniformTypeIdentifiers10UTTagClassV_SaySSGTg5
+- _$ss17_NativeDictionaryV5merge_8isUnique16uniquingKeysWithyqd__n_Sbq_q__q_tKXEtKSTRd__x_q_t7ElementRtd__lF22UniformTypeIdentifiers10UTTagClassV_SaySSGSayAJ_AKtGTg5012$sSD20uniquegh33ValuesSDyxq_Gqd__n_tcSTRd__x_q_t7i25Rtd__lufcq_q__q_tKXEfU_22jk13Identifiers10mN21V_SaySSGSayAG_AHtGTG5Tf1nncn_n
+- _$ss18_DictionaryStorageC4copy8originalAByxq_Gs05__RawaB0C_tFZ
+- _$ss22KeyedDecodingContainerVy22UniformTypeIdentifiers10UTTagClassV11_CodingKeys33_6A910D5F85C8C37FBC9BC447E96EB0F9LLOGSgMR
+- _$ss22KeyedDecodingContainerVy22UniformTypeIdentifiers10UTTagClassV11_CodingKeys33_6A910D5F85C8C37FBC9BC447E96EB0F9LLOGSgMd
+- _$ss22KeyedDecodingContainerVy22UniformTypeIdentifiers10UTTagClassV11_CodingKeys33_6A910D5F85C8C37FBC9BC447E96EB0F9LLOGSgWOh
+- _$ss22KeyedDecodingContainerVy22UniformTypeIdentifiers6UTTypeV11_CodingKeys33_69DEE751C5463127999ABD487FB5EFE8LLOGSgMR
+- _$ss22KeyedDecodingContainerVy22UniformTypeIdentifiers6UTTypeV11_CodingKeys33_69DEE751C5463127999ABD487FB5EFE8LLOGSgMd
+- _$ss22KeyedDecodingContainerVy22UniformTypeIdentifiers6UTTypeV11_CodingKeys33_69DEE751C5463127999ABD487FB5EFE8LLOGSgWOh
+- _$ss5Error_pMR
+- _$ss5Error_pMd
+- _objc_msgSend$_typeWithBluetoothProductID:vendorID:
+- _swift_errorRetain
+- _symbolic ______p s5ErrorP
+- _symbolic _____y_____GSg s22KeyedDecodingContainerV 22UniformTypeIdentifiers10UTTagClassV11_CodingKeys33_6A910D5F85C8C37FBC9BC447E96EB0F9LLO
+- _symbolic _____y_____GSg s22KeyedDecodingContainerV 22UniformTypeIdentifiers6UTTypeV11_CodingKeys33_69DEE751C5463127999ABD487FB5EFE8LLO
+CStrings:
+- "@\"NSProgress\"16@?0@?<v@?@\"NSData\"@\"NSError\">8"
+- "@\"NSProgress\"16@?0@?<v@?@\"NSURL\"B@\"NSError\">8"
+- "@16@0:8"
+- "Swift/Dictionary.swift"
+- "T^v,N,R"
+- "URLByAppendingPathComponent:conformingToType:"
+- "URLByAppendingPathExtensionForType:"
+- "^v16@0:8"
+- "_UTSwiftOverlayRuntimeIssuesAssistant"
+- "_childTypes"
+- "_constantIndex"
+- "_enumerateAllDeclaredTypesUsingBlock:"
+- "_exportedTypeWithIdentifier:bundle:conformingToType:"
+- "_getEnclosureColor:"
+- "_getEnclosureColors:count:"
+- "_getPreferredEnclosureColor:"
+- "_importedTypeWithIdentifier:bundle:conformingToType:"
+- "_isCoreType"
+- "_isExported"
+- "_isImported"
+- "_isWildcard"
+- "_kindString"
+- "_kindStringDictionary"
+- "_kindStringWithPreferredLocalizations:"
+- "_localizedDescriptionDictionary"
+- "_localizedDescriptionWithPreferredLocalizations:"
+- "_parentTypes"
+- "_setDefaultHandlerToApplicationRecord:completionHandler:"
+- "_subtypes"
+- "_typeOfCurrentDevice"
+- "_typeOfItemAtFileURL:error:"
+- "_typeWithBluetoothProductID:vendorID:"
+- "_typeWithDeviceModelCode:"
+- "_typeWithDeviceModelCode:enclosureColor:"
+- "_typeWithIdentifier:allowUndeclared:"
+- "_typeWithIdentifier:constantIndex:error:"
+- "_typesWithIdentifiers:"
+- "com.apple.mxi.file"
+- "com.apple.remote-application-placeholder"
+- "conformsToType:"
+- "dealloc"
+- "debugDescription"
+- "description"
+- "dsoHandle"
+- "exportedTypeWithIdentifier:"
+- "exportedTypeWithIdentifier:conformingToType:"
+- "identifier"
+- "importedTypeWithIdentifier:"
+- "importedTypeWithIdentifier:conformingToType:"
+- "init"
+- "initWithContentsOfURL:contentType:openInPlace:coordinated:visibility:"
+- "integerValue"
+- "isDeclared"
+- "isDynamic"
+- "isPublicType"
+- "isSubtypeOfType:"
+- "isSupertypeOfType:"
+- "loadDataRepresentationForContentType:completionHandler:"
+- "loadFileRepresentationForContentType:openInPlace:completionHandler:"
+- "localizedDescription"
+- "preferredFilenameExtension"
+- "preferredMIMEType"
+- "referenceAccessoryURL"
+- "referenceURL"
+- "registerDataRepresentationForContentType:visibility:loadHandler:"
+- "registerFileRepresentationForContentType:visibility:openInPlace:loadHandler:"
+- "supertypes"
+- "tags"
+- "typeWithFilenameExtension:conformingToType:"
+- "typeWithIdentifier:"
+- "typeWithMIMEType:conformingToType:"
+- "typeWithTag:tagClass:conformingToType:"
+- "typesWithTag:tagClass:conformingToType:"
+- "v20@?0B8@\"NSError\"12"
+- "v24@?0@\"NSData\"8@\"NSError\"16"
+- "v24@?0@\"UTType\"8^B16"
+- "v28@?0@\"NSURL\"8B16@\"NSError\"20"
+- "version"
+
+```

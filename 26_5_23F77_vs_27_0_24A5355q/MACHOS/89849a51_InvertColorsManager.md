@@ -1,0 +1,173 @@
+## InvertColorsManager
+
+> `/System/Library/AccessibilityBundles/InvertColorsManager.bundle/InvertColorsManager`
+
+```diff
+
+-3191.35.0.0.0
+-  __TEXT.__text: 0x21004 sha256:215d030708eea46a624f0ec050a49f0b6cb5d9de55d8c8e1449b291f6691a04d
+-  __TEXT.__auth_stubs: 0x710 sha256:3be43fa93d9a54e954043529907ec1b393b196f149876fd2dfd838f9b5302e3c
+-  __TEXT.__objc_stubs: 0x27a0 sha256:21b571b9644b642e51955213231f203f5b227f20176a0085759d9278232a5ced
+-  __TEXT.__objc_methlist: 0x781c sha256:2346105be7feb20694d82a7b4a1a1945657826cfe694012289dba578525c8241
+-  __TEXT.__const: 0xa8 sha256:68544d927809156a50f426d3fe1047563ef601d3a60353d1a79a15fdad59362c
+-  __TEXT.__objc_classname: 0xa3e5 sha256:8dec5fdc996e6f0842b9a1729bb134e6ca71e9f2ee4ce68c4c8198e599c6d85e
+-  __TEXT.__cstring: 0x8e96 sha256:3247f20f75f9c40ef7dd44069362669f4ecaa30dcd643637ab2058d9d75d760d
+-  __TEXT.__objc_methname: 0x2bd2 sha256:c65f26f022c1cea2127c8e18807819c56d22df920d536f11112e88afc441ad0d
+-  __TEXT.__objc_methtype: 0x311 sha256:107cf2e7d5029c0a0288dd1898615daf0626a1b486a881e2160f74742af2a2ad
+-  __TEXT.__gcc_except_tab: 0x1b0 sha256:3ada2a6f38b688eda1123a65d462036b7813e19227f1c3e94eb7b7a40663b712
+-  __TEXT.__oslogstring: 0x607 sha256:7124a649f3463d0b71fba1f93924a639880f34e4cb3ee221c2b4d1f44cfbed6c
++3229.1.6.0.0
++  __TEXT.__text: 0x1f558 sha256:d54bc31847869962e219272d4ad276a15cbae2feb1ba1f9884b4be937b4b14e9
++  __TEXT.__auth_stubs: 0x750 sha256:be15f641ae85cb2c9c4f93641b2d4fd23ed8269b3c104ac7b5b64c73093a0d9b
++  __TEXT.__objc_stubs: 0x2700 sha256:efae20f68d27dfa7dece7c645767ca457698b4c05fb6487d1df4dbfada190cfb
++  __TEXT.__objc_methlist: 0x76ac sha256:411e4646d325a14395d7323f1cb7ab3ce19134e42b75894ed1b9bf52b01f70b9
++  __TEXT.__const: 0x98 sha256:1396212c8e0c2eb17551967a7e6c9e51e509f6cce7646ed2be59de88a2470423
+   __TEXT.__dlopen_cstrs: 0x6a sha256:418db2e78325e407ddc923b1afd27bae5834f9dce08356afa28ed0f66c2a260a
+-  __TEXT.__unwind_info: 0xfa8 sha256:53a94ba3d234616f533b1584420f237d6dad7948fb1bc9ceee188b69ac210c35
+-  __DATA_CONST.__auth_got: 0x398 sha256:33eb57fb45a0ea423f61c50c687d9461627b15135bfaa4857eb7f42483b69398
+-  __DATA_CONST.__got: 0x180 sha256:9c779abb1c213a35e6e69edd14c000035b9cd87d21f646d1b248d54c2f3f3f7d
+-  __DATA_CONST.__const: 0x7c0 sha256:a2d9458d09bee5c6c5a6c6548fe615f6a264a57f550c3594e8403773363221c4
+-  __DATA_CONST.__cfstring: 0x8da0 sha256:219da1e854b9f9bbdb693874cb39c5055a49aff401ba3d11b532c5c6067630e8
+-  __DATA_CONST.__objc_classlist: 0x1af0 sha256:9970bef02c2a37576918a82022db0efbe6d341124d762bf3788192a17b062630
+-  __DATA_CONST.__objc_catlist: 0x18 sha256:87a1ebb9395d937604f477f32e6baaef38ba65e8ada3ad0c6b35cd5bfab4517d
+-  __DATA_CONST.__objc_protolist: 0x10 sha256:54011b37a8cf4210418629d89f7df649e9edd37fc879f1c2fb53e5f9c7c4a89b
++  __TEXT.__gcc_except_tab: 0x1bc sha256:ca6871dedf41e303f008c2d39db427c84d80da3fdfb64c47f9d216a18172302f
++  __TEXT.__objc_classname: 0xa102 sha256:13a4061cc3c4a182f538cfe0105b236f899e3f192144f4f7b29e5d6a3d9ab82a
++  __TEXT.__cstring: 0x8b67 sha256:47dda7ef102e02d1d8f4f123bf15a8ef5d3868970411a7fbe8833cd8c9df6f1d
++  __TEXT.__objc_methname: 0x2b30 sha256:a93a6db1ee95245e51ae7723934913868fc92ec45ead6b2e9835212c453f3633
++  __TEXT.__objc_methtype: 0x314 sha256:65af4635a1976272b734c800d6797ab2af67c05c561700a0566e47c9434b1e43
++  __TEXT.__oslogstring: 0x607 sha256:7124a649f3463d0b71fba1f93924a639880f34e4cb3ee221c2b4d1f44cfbed6c
++  __TEXT.__unwind_info: 0xf30 sha256:7889410212232184ed8be308cc98868b06337a655f1316a3f3347b4950a83a52
++  __DATA_CONST.__const: 0x7a0 sha256:b32f05a3645a5cee55d383ef9e8f205b63cef505a3687f4db72a95cf280c0eb6
++  __DATA_CONST.__cfstring: 0x8b00 sha256:c2c329def88bbd2fc9eb59cbc07bc37511a3d2cac5411a04551be2ade0cb4a15
++  __DATA_CONST.__objc_classlist: 0x1a90 sha256:db68fb4f8e871a760a969265cc13a98b45ccd704d5334bbd8a670415ae3a3d83
++  __DATA_CONST.__objc_catlist: 0x18 sha256:0ac474eb10a66ca7b4c2c8d8c0a704acd20fd0ec46904d8afba0d8176f51a557
++  __DATA_CONST.__objc_protolist: 0x10 sha256:985ed054234ed7396d53d32b119890fadee51d6cfa126378bce3efefce826cf2
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:1fa65ffcccc24c72d5d7f804a2be05ae57dfbb8769ffb33c4272ed6795b7e61c
+-  __DATA_CONST.__objc_superrefs: 0x608 sha256:e0fac77e47d82aecf92e430cd62a47e0aa02345919f23742e2939aa6bf2b1626
+-  __DATA.__objc_const: 0x218b8 sha256:6342a6beb130897a3bed6cabf7bb9e809bb8dddbafb775317a9324006ab03b9a
+-  __DATA.__objc_selrefs: 0xdf0 sha256:e82d3fec20b34ad04aef4eb95fe5de3a6130c50b44502bf0e577516285331a89
+-  __DATA.__objc_data: 0x10d60 sha256:054f9266572174d321ee348fb0bb52c69ac116a64b21ec6bb91e452da15e30ef
+-  __DATA.__data: 0xc8 sha256:b321cb99d646165a54e77538b14fdf001f4e24f7d84919d2be19ff713b62c7de
+-  __DATA.__bss: 0xc0 sha256:5d89f056865052bcb89c910d2d62872e029fb273c3db03f8968a52a41593c1b5
++  __DATA_CONST.__objc_superrefs: 0x5f0 sha256:3ec5e059b0c41e91e882f32e6f327d37d384ab35c65c84204f269629fe84fb4a
++  __DATA_CONST.__auth_got: 0x3b8 sha256:a0490969d51b9d94ed2882a048706a73b8f48140a623cf5be8016ab2fc750ec2
++  __DATA_CONST.__got: 0x170 sha256:e5dc4b914a7f576df96512c4bbf117d47c88819342fc2de4005ec3aa1ba7d021
++  __DATA.__objc_const: 0x211f8 sha256:39a487fbea096f4990a2b16cdc8dea66af9cc40ecf2f53bf349f99e0271ef009
++  __DATA.__objc_selrefs: 0xdb8 sha256:e8c35429b0dcc63e7c42e3c40aeb2f8cd09be6fd478448ab4b747a62c3735be4
++  __DATA.__objc_data: 0x109a0 sha256:41812a4c6cf668dd9b784647dfab75e576b8832adc3db02271465ca895dab3ad
++  __DATA.__data: 0xc8 sha256:b454a5e6210e8941b65099de9c69f7d5141cb173b6a3019f3318f7003d232fdb
++  __DATA.__bss: 0xb0 sha256:86d2cf5b090f43ee54d8f7c1dcf746a853951191457ff6dac96269a9d24860b9
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+   - /System/Library/Frameworks/CoreImage.framework/CoreImage
+
+   - /usr/lib/libAccessibility.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 7E5895C0-641E-3E64-8E8F-3319633988F5
+-  Functions: 1954
+-  Symbols:   1897
+-  CStrings:  3731
++  UUID: 88107B24-67CE-35BC-82C1-556BA4316898
++  Functions: 1894
++  Symbols:   1875
++  CStrings:  3667
+ 
+Symbols:
++ _AXUIAllConnectedScreens
++ _OBJC_CLASS_$_UIRootSceneWindowInvertColorsAccessibility
++ _OBJC_CLASS_$___UIRootSceneWindowInvertColorsAccessibility_super
++ _OBJC_METACLASS_$_UIRootSceneWindowInvertColorsAccessibility
++ _OBJC_METACLASS_$___UIRootSceneWindowInvertColorsAccessibility_super
++ _objc_claimAutoreleasedReturnValue
++ _objc_retain_x1
++ _objc_retain_x3
++ _objc_retain_x6
++ _objc_retain_x9
+- _OBJC_CLASS_$_CCUIContentModuleContainerViewControllerInvertColorsAccessibility
+- _OBJC_CLASS_$_CCUIContentModuleContainerViewInvertColorsAccessibility
+- _OBJC_CLASS_$_CCUIContentModuleContentContainerViewInvertColorsAccessibility
+- _OBJC_CLASS_$_CCUIModularControlCenterOverlayViewControllerInvertColorsAccessibility
+- _OBJC_CLASS_$_CCUIModuleCollectionViewInvertColorsAccessibility
+- _OBJC_CLASS_$_NSMapTable
+- _OBJC_CLASS_$_SBRootSceneWindowInvertColorsAccessibility
+- _OBJC_CLASS_$_SPUITextFieldInvertColorsAccessibility
+- _OBJC_CLASS_$_UIScreen
+- _OBJC_CLASS_$___CCUIContentModuleContainerViewControllerInvertColorsAccessibility_super
+- _OBJC_CLASS_$___CCUIContentModuleContainerViewInvertColorsAccessibility_super
+- _OBJC_CLASS_$___CCUIContentModuleContentContainerViewInvertColorsAccessibility_super
+- _OBJC_CLASS_$___CCUIModularControlCenterOverlayViewControllerInvertColorsAccessibility_super
+- _OBJC_CLASS_$___CCUIModuleCollectionViewInvertColorsAccessibility_super
+- _OBJC_CLASS_$___SBRootSceneWindowInvertColorsAccessibility_super
+- _OBJC_CLASS_$___SPUITextFieldInvertColorsAccessibility_super
+- _OBJC_METACLASS_$_CCUIContentModuleContainerViewControllerInvertColorsAccessibility
+- _OBJC_METACLASS_$_CCUIContentModuleContainerViewInvertColorsAccessibility
+- _OBJC_METACLASS_$_CCUIContentModuleContentContainerViewInvertColorsAccessibility
+- _OBJC_METACLASS_$_CCUIModularControlCenterOverlayViewControllerInvertColorsAccessibility
+- _OBJC_METACLASS_$_CCUIModuleCollectionViewInvertColorsAccessibility
+- _OBJC_METACLASS_$_SBRootSceneWindowInvertColorsAccessibility
+- _OBJC_METACLASS_$_SPUITextFieldInvertColorsAccessibility
+- _OBJC_METACLASS_$___CCUIContentModuleContainerViewControllerInvertColorsAccessibility_super
+- _OBJC_METACLASS_$___CCUIContentModuleContainerViewInvertColorsAccessibility_super
+- _OBJC_METACLASS_$___CCUIContentModuleContentContainerViewInvertColorsAccessibility_super
+- _OBJC_METACLASS_$___CCUIModularControlCenterOverlayViewControllerInvertColorsAccessibility_super
+- _OBJC_METACLASS_$___CCUIModuleCollectionViewInvertColorsAccessibility_super
+- _OBJC_METACLASS_$___SBRootSceneWindowInvertColorsAccessibility_super
+- _OBJC_METACLASS_$___SPUITextFieldInvertColorsAccessibility_super
+- _objc_release_x9
+- _objc_retain_x27
+CStrings:
++ "@28@0:8i16B20B24"
++ "CCUIIconListView"
++ "CCUIIconScrollView"
++ "UIRootSceneWindow"
++ "UIRootSceneWindowInvertColorsAccessibility"
++ "__UIRootSceneWindowInvertColorsAccessibility_super"
++ "_passcodeLockViewForStyle:withLightStyle:dimmed:"
++ "coordinatedSwitcherControllers"
+- "@24@0:8i16B20"
+- "CCUIContentModuleContainerView"
+- "CCUIContentModuleContainerViewController"
+- "CCUIContentModuleContainerViewControllerInvertColorsAccessibility"
+- "CCUIContentModuleContainerViewInvertColorsAccessibility"
+- "CCUIContentModuleContentContainerView"
+- "CCUIContentModuleContentContainerViewInvertColorsAccessibility"
+- "CCUIHeaderPocketView"
+- "CCUIModularControlCenterOverlayViewController"
+- "CCUIModularControlCenterOverlayViewControllerInvertColorsAccessibility"
+- "CCUIModuleCollectionView"
+- "CCUIModuleCollectionViewInvertColorsAccessibility"
+- "CCUIScrollView_Legacy"
+- "NSMapTable"
+- "SBMainWorkspaceApplicationSceneLayoutElementViewController"
+- "SBRootSceneWindow"
+- "SBRootSceneWindowInvertColorsAccessibility"
+- "SBWallpaperPreviewSnapshotCache"
+- "SPUITextField"
+- "SPUITextFieldInvertColorsAccessibility"
+- "__CCUIContentModuleContainerViewControllerInvertColorsAccessibility_super"
+- "__CCUIContentModuleContainerViewInvertColorsAccessibility_super"
+- "__CCUIContentModuleContentContainerViewInvertColorsAccessibility_super"
+- "__CCUIModularControlCenterOverlayViewControllerInvertColorsAccessibility_super"
+- "__CCUIModuleCollectionViewInvertColorsAccessibility_super"
+- "__SBRootSceneWindowInvertColorsAccessibility_super"
+- "__SPUITextFieldInvertColorsAccessibility_super"
+- "_applicationSceneViewController"
+- "_configureModuleMaterialViewIfNecessary"
+- "_contentContainerView"
+- "_headerPocketView"
+- "_isClassic"
+- "_moduleMaterialView"
+- "_passcodeLockViewForStyle:withLightStyle:"
+- "_scrollView"
+- "_switcherControllersByWindowScene"
+- "blurView"
+- "clickPresentationInteractionShouldBegin:"
+- "containsObject:"
+- "invalidateSnapshotsForLocations:"
+- "mainScreen"
+- "moduleProvidesOwnPlatter"
+- "objectEnumerator"
+
+```

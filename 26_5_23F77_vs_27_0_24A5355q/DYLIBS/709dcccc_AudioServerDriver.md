@@ -1,0 +1,2618 @@
+## AudioServerDriver
+
+> `/System/Library/PrivateFrameworks/AudioServerDriver.framework/AudioServerDriver`
+
+```diff
+
+-1150.1.0.0.0
+-  __TEXT.__text: 0x6395c sha256:c7546d0b4dc855e955eff9bee3fc7e52e26876d2d098ff6ee0faf2e9cd1aaae8
+-  __TEXT.__auth_stubs: 0xf30 sha256:fa66a2acf9c9cb4f5c5b3353e52dadddd037c6a73665c1f11b941d039f934242
+-  __TEXT.__objc_methlist: 0x3a34 sha256:eead1309f0825a78f1e438cfbadc238ae7212f8a8f9e3e38c72b9013ef866d36
+-  __TEXT.__gcc_except_tab: 0x33e8 sha256:1eb81ab22a5d603752d99fdd79f9cab2fe8e7ae352c7c72f3e25a7ef15aa2079
+-  __TEXT.__const: 0x7bc sha256:a6597eedae087de4525f14acc7ad7aedb8f05ff64ecc5d5251758d92bf05ea34
+-  __TEXT.__cstring: 0x3aa2 sha256:f1f79759173fee565f66271afb81358acb859bcf8c5a39c2f018031eff2f6bc1
+-  __TEXT.__oslogstring: 0x27fd sha256:c7b585c0ac761718383ac6adb17a55cc301cd25d5314fdc78b2c214756dbae34
+-  __TEXT.__dof_ASDInterf: 0xf8b sha256:f9600285b968e7bb4d050fbbc0121541b64832bdc319d04d6f83f5885b9d72f3
+-  __TEXT.__unwind_info: 0x2010 sha256:822b3f2b11d9ee3188eb878e9174f564e1a161315cff3a348f18052512d42b4a
+-  __TEXT.__eh_frame: 0x100 sha256:795cb84d0de48be429e7e969f98cf13c807e00076617e7d600f5652d57953c66
+-  __TEXT.__objc_classname: 0x3da sha256:7bd63125be500be646d051a6748b9c7bd7a2b9370bc20003d423303153123a85
+-  __TEXT.__objc_methname: 0x67bc sha256:adb788aac08efcf2047469cbeb96106129fd8b299bec878ef3424e9d3293adcb
+-  __TEXT.__objc_methtype: 0x1b5c sha256:370e655bea7c1a78c770d77746492aafaf4c3d260aa8c177e576bb17c9432ad9
+-  __TEXT.__objc_stubs: 0x4380 sha256:45034282bbb4165d679274288b86b8a058a670f18b83b7103987143e20700f34
+-  __DATA_CONST.__got: 0x270 sha256:7cf3c700cdc6c2272a0372da1612f1ce2d130ba08a338632a940cf2737c2b292
+-  __DATA_CONST.__const: 0xa38 sha256:152e60393349c2f123713a8c9dde871b7eb1fd6caa902d6d0dbff2ee5ddd4a4f
+-  __DATA_CONST.__objc_classlist: 0x168 sha256:8f29fd7c837b38267563d8d64ed27d950237899bd2931913709d9c239da02760
+-  __DATA_CONST.__objc_catlist: 0x8 sha256:900d4120b25f72dc6a7ed98bdfc639893c990511a18c8a99e7de34a94890ee7b
+-  __DATA_CONST.__objc_protolist: 0x38 sha256:4d9819e87e9d02012cd1510633a0d0d1dc191e7d801c2720ecb8357491603a71
++1200.28.0.0.0
++  __TEXT.__text: 0x6bee4 sha256:6444f3e36dc4b7f41dceac16ff65f8a6ed998378c27807c88223fb10831c8468
++  __TEXT.__objc_methlist: 0x43fc sha256:0a8b09d6f353d57103a1934955f17b86b8bc7b2c4d6541f861dc0c77f8b2b486
++  __TEXT.__gcc_except_tab: 0x3f64 sha256:29a0aa5f95c6e63ad893a6ae7d687fa62e8b45c8bb56a9b46e4003e8f9428a58
++  __TEXT.__const: 0x79c sha256:38cb9439e01ef9948f0f3bc7e5bc865f4f77a4b5b216ed13d323d4642dca039f
++  __TEXT.__cstring: 0x3f48 sha256:feab693cfd5910d43f15d002ee6883a0741c717144b7f6c5e37f3e604013e84b
++  __TEXT.__oslogstring: 0x2ef4 sha256:ffd15131ba53d9e64f75b7a7333fbe756eb844a4851077ed37056145d0bc32ac
++  __TEXT.__dof_ASDInterf: 0xf8b sha256:0581e5c194d51129c34ec7ea415ea65f6862b19d43e4e9a20798ac79e4de8f55
++  __TEXT.__unwind_info: 0x2560 sha256:c647c3a54bc2e0576dccb1dfdf3f89a4f1becb2460bc4bacd7f2a76544413305
++  __TEXT.__eh_frame: 0x100 sha256:a49c49067ee303101c878290f345f64ade358a847e0bde2255b3ac5a1e25083a
++  __TEXT.__objc_stubs: 0x0
++  __TEXT.__auth_stubs: 0x0
++  __TEXT.__objc_classname: 0x0
++  __TEXT.__objc_methname: 0x0
++  __TEXT.__objc_methtype: 0x0
++  __DATA_CONST.__const: 0xac8 sha256:421f257a50bb1a1b3feb8f00092ea18e4805761f44e634348c024bdcda8423d8
++  __DATA_CONST.__objc_classlist: 0x1a0 sha256:edc29e975f13543198e797afdfbecf6d9a4811d5d7b4c0689a7c178a161edcee
++  __DATA_CONST.__objc_catlist: 0x8 sha256:f9e4ad89de18eea06df8bdc0ad7cca7a917c51723a5e94ce4f658c2683fa0dec
++  __DATA_CONST.__objc_protolist: 0x60 sha256:40b6e5bd87d385a98adf7296199a88538054f0b090bd3047f667bee2edcc1e7e
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x17e0 sha256:341f631053e0b028aa0d41581cd98091c7e8b372ab37d2dfefec946c03f9abbf
+-  __DATA_CONST.__objc_superrefs: 0x140 sha256:7da87e350fb1c1b0620de23c712d1320182a3d1fdce2ac97a86aa439c5763c36
+-  __DATA_CONST.__objc_arraydata: 0x10 sha256:01ef292b9299c4fa3cfb34564df585622db502687e4fdbaaf3954eb6cef27e83
+-  __AUTH_CONST.__auth_got: 0x7b0 sha256:769f93ffdbc6098a993fdab50a638b2f6f461d647ce463ea1755d7043f52132e
+-  __AUTH_CONST.__const: 0x6c0 sha256:5e0faeacf9cd30f2687c490e268dfac8ff55afa8c104f2fcecdc060fc30d12fb
+-  __AUTH_CONST.__cfstring: 0x2320 sha256:a5fd3820eb2c2d5934b642862520776e8ba8944ac4ae77a7c87ce361572ab05b
+-  __AUTH_CONST.__objc_const: 0x6458 sha256:d74910fe3dd17c9452c8309f555f5457341383c78792d599f2dc71fa0b0ae2f5
+-  __AUTH_CONST.__objc_intobj: 0x18 sha256:831774500ece8cd3205c6561703e6ec7f82aa80cf54da01bcb024e665642311a
+-  __AUTH_CONST.__objc_dictobj: 0x28 sha256:1d970b38b27cab75045a3b338a637cc5a8f61e119e00f95368bacaf9513779be
+-  __AUTH.__objc_data: 0x50 sha256:b6080716d90849a02d4577a6802bb4161ce0586712c3ea468a5a94a730904a91
+-  __DATA.__objc_ivar: 0x4f4 sha256:08dd9e7d4173e70485be5c8609598c21e1f1280d67d8f2fd069293f32ba379f2
+-  __DATA.__data: 0x3c8 sha256:6afb4c62dbf9a9184e917ff54f51534a393e21327db025128c4a8c4dedab5044
++  __DATA_CONST.__objc_selrefs: 0x1a18 sha256:c8b7d2d64207ae660908a6ea6df3b7f0017ba0943b731d58fdc79a9e09f87861
++  __DATA_CONST.__objc_superrefs: 0x180 sha256:1c58022da165c0bae2675980357e356d7e85f87ccc15cbc276991ae89c965181
++  __DATA_CONST.__objc_arraydata: 0x10 sha256:d2a7ec8700cde67d67002b4f02dc2351f03beda61057bd94776d4897ef9657af
++  __DATA_CONST.__got: 0x2e0 sha256:9548a2aeb6dafb3e0b1bb82de133856b7e57db08f204f2b46821d46623e75ca5
++  __AUTH_CONST.__const: 0x6c0 sha256:0361bb947dc50c596e099c508e62bde409da897a7f22d1074a1b897de3be1e9f
++  __AUTH_CONST.__cfstring: 0x2480 sha256:d6f98a06dba773e4b6dfd26cb65ddb7819511f800816c80fd49ae529bcbede71
++  __AUTH_CONST.__objc_const: 0x7fa0 sha256:c78068fb1a38a16aaecc2290a8770a3c2a797e9efb4c6a114ed40ded46990b12
++  __AUTH_CONST.__weak_auth_got: 0x30 sha256:aac9b025c9a37aa3b22cd7fc45311b00b393aec32d0c79dec10cc8fdd2302bb1
++  __AUTH_CONST.__objc_intobj: 0x18 sha256:2a6b795d8528366cbdc2c4f1244a920876cfb71997bbd17edfe2183edbb8c3a7
++  __AUTH_CONST.__objc_dictobj: 0x28 sha256:33846ae4ba74602f5f6f990c188afd9b09319b077727cec542b3e9217ebcf91d
++  __AUTH_CONST.__auth_got: 0x848 sha256:c1448b9e612668eedc320cc285053fcee62dc9afb40e435c70948441d486b8e2
++  __AUTH.__objc_data: 0x280 sha256:811ee95434aac06f9fbbfcdaf7a8cea1b6245fa9f00d325728f2533e4bf34926
++  __DATA.__objc_ivar: 0x59c sha256:434aebc9da25c930b455d4fa91f3fb8ac09263c6eac740926d145ed9e9879f36
++  __DATA.__data: 0x5a8 sha256:eb2cd3d39c39b32b53586479e4ea9fb70bad1778ca4ee15f21fc24d59a5b786a
+   __DATA.__bss: 0xe8 sha256:c4fcd50d9f0c893c46288b57d8e62b18523145956b249b6ecd6c21718be49065
+   __DATA.__common: 0x8 sha256:af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc
+-  __DATA_DIRTY.__objc_data: 0xdc0 sha256:f1b9658198674ebc55442131ecf0c0fe1b18c5b8dfe16253d88af4786633b5d4
++  __DATA_DIRTY.__objc_data: 0xdc0 sha256:f6806ffb5937bdc57180070935c5017a1ab7a2f39f3e1db8c0186f036a7fde04
+   - /System/Library/Frameworks/Accelerate.framework/Accelerate
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/Frameworks/IOKit.framework/Versions/A/IOKit
++  - /System/Library/PrivateFrameworks/AudioDSPGraph.framework/AudioDSPGraph
+   - /System/Library/PrivateFrameworks/AudioToolboxCore.framework/AudioToolboxCore
++  - /System/Library/PrivateFrameworks/RemoteProcessingBlock.framework/RemoteProcessingBlock
+   - /System/Library/PrivateFrameworks/caulk.framework/caulk
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 913C4593-585A-33CF-8B1C-F4FE0A3F925B
+-  Functions: 2270
+-  Symbols:   6620
+-  CStrings:  2498
++  UUID: 7AB936FC-A64C-3E5C-A7B9-F7D7B4B84A92
++  Functions: 2498
++  Symbols:   7409
++  CStrings:  1131
+ 
+Symbols:
++ +[ASDDSPGraphInterpreter createGraphWithModel:error:]
++ -[ASDAudioDevice inputMaximumIOFrameSize]
++ -[ASDAudioDevice outputMaximumIOFrameSize]
++ -[ASDAudioDevice setInputMaximumIOFrameSize:]
++ -[ASDAudioDevice setOutputMaximumIOFrameSize:]
++ -[ASDDSPAudioDevice addClient:]
++ -[ASDDSPAudioDevice currentDSPVersion]
++ -[ASDDSPAudioDevice removeClient:]
++ -[ASDDSPGraph getLatency:]
++ -[ASDDSPGraph getLatency:forOutputBusAtIndex:]
++ -[ASDDSPGraph initWithDSPGraphObject:]
++ -[ASDDSPGraph newFormatConverter]
++ -[ASDDSPGraph preflightBlock]
++ -[ASDDSPGraph processBlock]
++ -[ASDDSPGraph setUsesHostSampleTime:]
++ -[ASDDSPGraph usesHostSampleTime]
++ -[ASDDSPGraphBox initWithBoxObject:fromGraphObject:]
++ -[ASDDSPGraphBox initWithInputName:fromGraphObject:]
++ -[ASDDSPGraphBox initWithOutputName:fromGraphObject:]
++ -[ASDDSPGraphBox_v1 .cxx_construct]
++ -[ASDDSPGraphBox_v1 .cxx_destruct]
++ -[ASDDSPGraphBox_v1 getParameter:forID:scope:element:]
++ -[ASDDSPGraphBox_v1 getParameterInfo:forID:inScope:]
++ -[ASDDSPGraphBox_v1 hasParameter:scope:element:]
++ -[ASDDSPGraphBox_v1 initWithBox:fromGraph:]
++ -[ASDDSPGraphBox_v1 name]
++ -[ASDDSPGraphBox_v1 numInputs]
++ -[ASDDSPGraphBox_v1 numOutputs]
++ -[ASDDSPGraphBox_v1 setParameter:forID:scope:element:bufferOffset:]
++ -[ASDDSPGraphBox_v1 startInjectingPort:toFile:shouldLoop:]
++ -[ASDDSPGraphBox_v1 startRecordingPort:toFile:]
++ -[ASDDSPGraphBox_v1 startRecordingPort:toFile:withAudioCapturerOptions:]
++ -[ASDDSPGraphBox_v1 stopInjectingPort:]
++ -[ASDDSPGraphBox_v1 stopRecordingPort:]
++ -[ASDDSPGraphBox_v2 .cxx_destruct]
++ -[ASDDSPGraphBox_v2 getParameter:forID:scope:element:]
++ -[ASDDSPGraphBox_v2 getParameterInfo:forID:inScope:]
++ -[ASDDSPGraphBox_v2 hasParameter:scope:element:]
++ -[ASDDSPGraphBox_v2 initWithBoxObject:fromGraphObject:]
++ -[ASDDSPGraphBox_v2 name]
++ -[ASDDSPGraphBox_v2 numInputs]
++ -[ASDDSPGraphBox_v2 numOutputs]
++ -[ASDDSPGraphBox_v2 setParameter:forID:scope:element:bufferOffset:]
++ -[ASDDSPGraphBox_v2 startInjectingPort:toFile:shouldLoop:]
++ -[ASDDSPGraphBox_v2 startRecordingPort:toFile:]
++ -[ASDDSPGraphBox_v2 startRecordingPort:toFile:withAudioCapturerOptions:]
++ -[ASDDSPGraphBox_v2 stopInjectingPort:]
++ -[ASDDSPGraphBox_v2 stopRecordingPort:]
++ -[ASDDSPGraphFormatConverter_v1 .cxx_construct]
++ -[ASDDSPGraphFormatConverter_v1 .cxx_destruct]
++ -[ASDDSPGraphFormatConverter_v1 allocateStreamingResourcesWithConfiguration:]
++ -[ASDDSPGraphFormatConverter_v1 allocateStreamingResourcesWithConfiguration:].cold.1
++ -[ASDDSPGraphFormatConverter_v1 deallocateStreamingResources]
++ -[ASDDSPGraphFormatConverter_v1 graph]
++ -[ASDDSPGraphFormatConverter_v1 initWithGraph:object:]
++ -[ASDDSPGraphFormatConverter_v1 streamingBlock]
++ -[ASDDSPGraphFormatConverter_v2 .cxx_construct]
++ -[ASDDSPGraphFormatConverter_v2 .cxx_destruct]
++ -[ASDDSPGraphFormatConverter_v2 allocateStreamingResourcesWithConfiguration:]
++ -[ASDDSPGraphFormatConverter_v2 allocateStreamingResourcesWithConfiguration:].cold.1
++ -[ASDDSPGraphFormatConverter_v2 connectRemoteProcessingBlock]
++ -[ASDDSPGraphFormatConverter_v2 dealloc]
++ -[ASDDSPGraphFormatConverter_v2 deallocateStreamingResources]
++ -[ASDDSPGraphFormatConverter_v2 deallocateStreamingResources].cold.1
++ -[ASDDSPGraphFormatConverter_v2 disconnectRemoteProcessingBlock]
++ -[ASDDSPGraphFormatConverter_v2 graph]
++ -[ASDDSPGraphFormatConverter_v2 initWithGraph:object:]
++ -[ASDDSPGraphFormatConverter_v2 initWithGraph:object:].cold.1
++ -[ASDDSPGraphFormatConverter_v2 initWithGraph:object:].cold.2
++ -[ASDDSPGraphFormatConverter_v2 initWithGraph:object:].cold.3
++ -[ASDDSPGraphFormatConverter_v2 streamingBlock]
++ -[ASDDSPGraphIOBox_v2 .cxx_destruct]
++ -[ASDDSPGraphIOBox_v2 getParameter:forID:scope:element:]
++ -[ASDDSPGraphIOBox_v2 getParameterInfo:forID:inScope:]
++ -[ASDDSPGraphIOBox_v2 hasParameter:scope:element:]
++ -[ASDDSPGraphIOBox_v2 initWithName:direction:fromGraphObject:]
++ -[ASDDSPGraphIOBox_v2 name]
++ -[ASDDSPGraphIOBox_v2 numInputs]
++ -[ASDDSPGraphIOBox_v2 numOutputs]
++ -[ASDDSPGraphIOBox_v2 setParameter:forID:scope:element:bufferOffset:]
++ -[ASDDSPGraphIOBox_v2 startInjectingPort:toFile:shouldLoop:]
++ -[ASDDSPGraphIOBox_v2 startRecordingPort:toFile:]
++ -[ASDDSPGraphIOBox_v2 startRecordingPort:toFile:withAudioCapturerOptions:]
++ -[ASDDSPGraphIOBox_v2 stopInjectingPort:]
++ -[ASDDSPGraphIOBox_v2 stopRecordingPort:]
++ -[ASDDSPGraphInterpreter compileFile:withSubstitutions:includingPaths:].cold.1
++ -[ASDDSPGraphInterpreter compileFile:withSubstitutions:includingPaths:].cold.2
++ -[ASDDSPGraphInterpreter compileFile:withSubstitutions:includingPaths:].cold.3
++ -[ASDDSPGraphInterpreter compileText:withSubstitutions:includingPaths:].cold.1
++ -[ASDDSPGraphInterpreter compileText:withSubstitutions:includingPaths:].cold.2
++ -[ASDDSPGraphInterpreter compileText:withSubstitutions:includingPaths:].cold.3
++ -[ASDDSPGraphInterpreter setVersion:]
++ -[ASDDSPGraphInterpreter version]
++ -[ASDDSPGraphLoader graphWithConfiguration:]
++ -[ASDDSPGraphLoader graphWithConfiguration:].cold.1
++ -[ASDDSPGraphLoader graphWithConfiguration:].cold.2
++ -[ASDDSPGraphLoader graphWithConfiguration:].cold.3
++ -[ASDDSPGraphLoader graphWithConfiguration:].cold.4
++ -[ASDDSPGraphLoader graphWithGraphInfo:]
++ -[ASDDSPGraphLoader graphWithGraphInfo:].cold.1
++ -[ASDDSPGraphLoader init]
++ -[ASDDSPGraphLoader setVersion:]
++ -[ASDDSPGraphLoader version]
++ -[ASDDSPGraph_v1 .cxx_construct]
++ -[ASDDSPGraph_v1 .cxx_destruct]
++ -[ASDDSPGraph_v1 boxWithName:]
++ -[ASDDSPGraph_v1 boxes]
++ -[ASDDSPGraph_v1 configure]
++ -[ASDDSPGraph_v1 configured]
++ -[ASDDSPGraph_v1 getLatency:]
++ -[ASDDSPGraph_v1 getLatency:forOutputBusAtIndex:]
++ -[ASDDSPGraph_v1 getParameter:forID:]
++ -[ASDDSPGraph_v1 getProperty:withSize:forID:]
++ -[ASDDSPGraph_v1 getPropertySize:isWritable:forID:]
++ -[ASDDSPGraph_v1 graph]
++ -[ASDDSPGraph_v1 hasParameter:]
++ -[ASDDSPGraph_v1 initWithDSPGraph:]
++ -[ASDDSPGraph_v1 initialize]
++ -[ASDDSPGraph_v1 initialized]
++ -[ASDDSPGraph_v1 inputs]
++ -[ASDDSPGraph_v1 name]
++ -[ASDDSPGraph_v1 newFormatConverterForGraph:]
++ -[ASDDSPGraph_v1 numberOfInputs]
++ -[ASDDSPGraph_v1 numberOfOutputs]
++ -[ASDDSPGraph_v1 outputs]
++ -[ASDDSPGraph_v1 preflightBlock]
++ -[ASDDSPGraph_v1 processBlock]
++ -[ASDDSPGraph_v1 reset]
++ -[ASDDSPGraph_v1 setAUStrip:]
++ -[ASDDSPGraph_v1 setAUStrip:].cold.1
++ -[ASDDSPGraph_v1 setParameter:forID:]
++ -[ASDDSPGraph_v1 setProperty:withSize:forID:]
++ -[ASDDSPGraph_v1 setPropertyStrip:]
++ -[ASDDSPGraph_v1 setPropertyStrip:].cold.1
++ -[ASDDSPGraph_v1 setUsesHostSampleTime:]
++ -[ASDDSPGraph_v1 setVariableSliceDuration:forSampleRate:]
++ -[ASDDSPGraph_v1 sliceDurationInSamples]
++ -[ASDDSPGraph_v1 unconfigure]
++ -[ASDDSPGraph_v1 uninitialize]
++ -[ASDDSPGraph_v1 usesHostSampleTime]
++ -[ASDDSPGraph_v2 .cxx_destruct]
++ -[ASDDSPGraph_v2 boxWithName:]
++ -[ASDDSPGraph_v2 boxes]
++ -[ASDDSPGraph_v2 configure]
++ -[ASDDSPGraph_v2 configured]
++ -[ASDDSPGraph_v2 getLatency:]
++ -[ASDDSPGraph_v2 getLatency:].cold.1
++ -[ASDDSPGraph_v2 getLatency:forOutputBusAtIndex:]
++ -[ASDDSPGraph_v2 getParameter:forID:]
++ -[ASDDSPGraph_v2 getParameter:forID:].cold.1
++ -[ASDDSPGraph_v2 getProperty:withSize:forID:]
++ -[ASDDSPGraph_v2 getProperty:withSize:forID:].cold.1
++ -[ASDDSPGraph_v2 getPropertySize:isWritable:forID:]
++ -[ASDDSPGraph_v2 getPropertySize:isWritable:forID:].cold.1
++ -[ASDDSPGraph_v2 hasParameter:]
++ -[ASDDSPGraph_v2 initWithDSPGraphObject:]
++ -[ASDDSPGraph_v2 initialize]
++ -[ASDDSPGraph_v2 initialize].cold.1
++ -[ASDDSPGraph_v2 initialized]
++ -[ASDDSPGraph_v2 inputs]
++ -[ASDDSPGraph_v2 name]
++ -[ASDDSPGraph_v2 newFormatConverterForGraph:]
++ -[ASDDSPGraph_v2 numberOfInputs]
++ -[ASDDSPGraph_v2 numberOfOutputs]
++ -[ASDDSPGraph_v2 outputs]
++ -[ASDDSPGraph_v2 preflightBlock]
++ -[ASDDSPGraph_v2 processBlock]
++ -[ASDDSPGraph_v2 reset]
++ -[ASDDSPGraph_v2 reset].cold.1
++ -[ASDDSPGraph_v2 setAUStrip:]
++ -[ASDDSPGraph_v2 setAUStrip:].cold.1
++ -[ASDDSPGraph_v2 setAUStrip:].cold.2
++ -[ASDDSPGraph_v2 setParameter:forID:]
++ -[ASDDSPGraph_v2 setParameter:forID:].cold.1
++ -[ASDDSPGraph_v2 setProperty:withSize:forID:]
++ -[ASDDSPGraph_v2 setProperty:withSize:forID:].cold.1
++ -[ASDDSPGraph_v2 setPropertyStrip:]
++ -[ASDDSPGraph_v2 setPropertyStrip:].cold.1
++ -[ASDDSPGraph_v2 setPropertyStrip:].cold.2
++ -[ASDDSPGraph_v2 setUsesHostSampleTime:]
++ -[ASDDSPGraph_v2 setUsesHostSampleTime:].cold.1
++ -[ASDDSPGraph_v2 setVariableSliceDuration:forSampleRate:]
++ -[ASDDSPGraph_v2 setVariableSliceDuration:forSampleRate:].cold.1
++ -[ASDDSPGraph_v2 sliceDurationInSamples]
++ -[ASDDSPGraph_v2 unconfigure]
++ -[ASDDSPGraph_v2 uninitialize]
++ -[ASDDSPGraph_v2 uninitialize].cold.1
++ -[ASDDSPGraph_v2 usesHostSampleTime]
++ -[ASDSRCAudioDevice addClient:]
++ -[ASDSRCAudioDevice removeClient:]
++ GCC_except_table101
++ GCC_except_table102
++ GCC_except_table103
++ GCC_except_table106
++ GCC_except_table109
++ GCC_except_table114
++ GCC_except_table115
++ GCC_except_table116
++ GCC_except_table118
++ GCC_except_table119
++ GCC_except_table120
++ GCC_except_table121
++ GCC_except_table122
++ GCC_except_table123
++ GCC_except_table124
++ GCC_except_table125
++ GCC_except_table128
++ GCC_except_table134
++ GCC_except_table135
++ GCC_except_table141
++ GCC_except_table149
++ GCC_except_table152
++ GCC_except_table154
++ GCC_except_table162
++ GCC_except_table167
++ GCC_except_table63
++ GCC_except_table65
++ GCC_except_table72
++ GCC_except_table74
++ GCC_except_table77
++ GCC_except_table79
++ GCC_except_table81
++ GCC_except_table82
++ GCC_except_table83
++ GCC_except_table87
++ GCC_except_table91
++ _CADSPGraphCalculateExpectedNumberOfOutputPCMFrames
++ _CADSPGraphGetNumberOfPorts
++ _CADSPGraphProcessPCMData
++ _ExtendedAudioBufferList_CreateWithFormat
++ _ExtendedAudioBufferList_Destroy
++ _ExtendedAudioBufferList_Prepare
++ _OBJC_CLASS_$_ASDDSPGraphBox_v1
++ _OBJC_CLASS_$_ASDDSPGraphBox_v2
++ _OBJC_CLASS_$_ASDDSPGraphFormatConverter_v1
++ _OBJC_CLASS_$_ASDDSPGraphFormatConverter_v2
++ _OBJC_CLASS_$_ASDDSPGraphIOBox_v2
++ _OBJC_CLASS_$_ASDDSPGraph_v1
++ _OBJC_CLASS_$_ASDDSPGraph_v2
++ _OBJC_CLASS_$_CADSPGraph
++ _OBJC_CLASS_$_CADSPLanguageV1Interpreter
++ _OBJC_CLASS_$_CADSPMutableGraphModel
++ _OBJC_CLASS_$_CADSPMutableInjectorTapPointModel
++ _OBJC_CLASS_$_CADSPMutableRecorderTapPointModel
++ _OBJC_CLASS_$_RPBServer
++ _OBJC_IVAR_$_ASDAudioDevice._inputMaximumIOFrameSize
++ _OBJC_IVAR_$_ASDAudioDevice._outputMaximumIOFrameSize
++ _OBJC_IVAR_$_ASDDSPGraphBox_v1._box
++ _OBJC_IVAR_$_ASDDSPGraphBox_v1._graph
++ _OBJC_IVAR_$_ASDDSPGraphBox_v2._box
++ _OBJC_IVAR_$_ASDDSPGraphBox_v2._graph
++ _OBJC_IVAR_$_ASDDSPGraphFormatConverter_v1._auProcessingBlock
++ _OBJC_IVAR_$_ASDDSPGraphFormatConverter_v1._formatMatchedGraph
++ _OBJC_IVAR_$_ASDDSPGraphFormatConverter_v1._formatMatchedGraphObject
++ _OBJC_IVAR_$_ASDDSPGraphFormatConverter_v1._formatMatchedGraphPreflightBlock
++ _OBJC_IVAR_$_ASDDSPGraphFormatConverter_v1._formatMatchedGraphProcessBlock
++ _OBJC_IVAR_$_ASDDSPGraphFormatConverter_v1._providedGraph
++ _OBJC_IVAR_$_ASDDSPGraphFormatConverter_v1._providedGraphObject
++ _OBJC_IVAR_$_ASDDSPGraphFormatConverter_v2._graph
++ _OBJC_IVAR_$_ASDDSPGraphFormatConverter_v2._graphHost
++ _OBJC_IVAR_$_ASDDSPGraphFormatConverter_v2._graphObject
++ _OBJC_IVAR_$_ASDDSPGraphFormatConverter_v2._graphPreflightBlock
++ _OBJC_IVAR_$_ASDDSPGraphFormatConverter_v2._graphProcessBlock
++ _OBJC_IVAR_$_ASDDSPGraphFormatConverter_v2._graphSliceDuration
++ _OBJC_IVAR_$_ASDDSPGraphFormatConverter_v2._inputAudioBufferLists
++ _OBJC_IVAR_$_ASDDSPGraphFormatConverter_v2._inputAudioBuffers
++ _OBJC_IVAR_$_ASDDSPGraphFormatConverter_v2._inputAudioTimeStamps
++ _OBJC_IVAR_$_ASDDSPGraphFormatConverter_v2._inputConverters
++ _OBJC_IVAR_$_ASDDSPGraphFormatConverter_v2._inputData
++ _OBJC_IVAR_$_ASDDSPGraphFormatConverter_v2._inputStreamDescriptions
++ _OBJC_IVAR_$_ASDDSPGraphFormatConverter_v2._outputAudioBufferLists
++ _OBJC_IVAR_$_ASDDSPGraphFormatConverter_v2._outputAudioBuffers
++ _OBJC_IVAR_$_ASDDSPGraphFormatConverter_v2._outputAudioTimeStamps
++ _OBJC_IVAR_$_ASDDSPGraphFormatConverter_v2._outputConverters
++ _OBJC_IVAR_$_ASDDSPGraphFormatConverter_v2._outputData
++ _OBJC_IVAR_$_ASDDSPGraphFormatConverter_v2._outputStreamDescriptions
++ _OBJC_IVAR_$_ASDDSPGraphFormatConverter_v2._shouldKeepGraphInitialized
++ _OBJC_IVAR_$_ASDDSPGraphIOBox_v2._direction
++ _OBJC_IVAR_$_ASDDSPGraphIOBox_v2._graph
++ _OBJC_IVAR_$_ASDDSPGraphIOBox_v2._name
++ _OBJC_IVAR_$_ASDDSPGraphInterpreter._version
++ _OBJC_IVAR_$_ASDDSPGraphLoader._version
++ _OBJC_IVAR_$_ASDDSPGraph_v1._graph
++ _OBJC_IVAR_$_ASDDSPGraph_v2._graph
++ _OBJC_IVAR_$_ASDDSPGraph_v2._graphBoxes
++ _OBJC_IVAR_$_ASDDSPGraph_v2._graphInputs
++ _OBJC_IVAR_$_ASDDSPGraph_v2._graphIsConfigured
++ _OBJC_IVAR_$_ASDDSPGraph_v2._graphOutputs
++ _OBJC_IVAR_$_ASDDSPGraph_v2._graphSliceDuration
++ _OBJC_METACLASS_$_ASDDSPGraphBox_v1
++ _OBJC_METACLASS_$_ASDDSPGraphBox_v2
++ _OBJC_METACLASS_$_ASDDSPGraphFormatConverter_v1
++ _OBJC_METACLASS_$_ASDDSPGraphFormatConverter_v2
++ _OBJC_METACLASS_$_ASDDSPGraphIOBox_v2
++ _OBJC_METACLASS_$_ASDDSPGraph_v1
++ _OBJC_METACLASS_$_ASDDSPGraph_v2
++ __OBJC_$_INSTANCE_METHODS_ASDDSPGraphBox_v1
++ __OBJC_$_INSTANCE_METHODS_ASDDSPGraphBox_v2
++ __OBJC_$_INSTANCE_METHODS_ASDDSPGraphFormatConverter_v1
++ __OBJC_$_INSTANCE_METHODS_ASDDSPGraphFormatConverter_v2
++ __OBJC_$_INSTANCE_METHODS_ASDDSPGraphIOBox_v2
++ __OBJC_$_INSTANCE_METHODS_ASDDSPGraphLoader
++ __OBJC_$_INSTANCE_METHODS_ASDDSPGraph_v1
++ __OBJC_$_INSTANCE_METHODS_ASDDSPGraph_v2
++ __OBJC_$_INSTANCE_VARIABLES_ASDDSPGraphBox_v1
++ __OBJC_$_INSTANCE_VARIABLES_ASDDSPGraphBox_v2
++ __OBJC_$_INSTANCE_VARIABLES_ASDDSPGraphFormatConverter_v1
++ __OBJC_$_INSTANCE_VARIABLES_ASDDSPGraphFormatConverter_v2
++ __OBJC_$_INSTANCE_VARIABLES_ASDDSPGraphIOBox_v2
++ __OBJC_$_INSTANCE_VARIABLES_ASDDSPGraphLoader
++ __OBJC_$_INSTANCE_VARIABLES_ASDDSPGraph_v1
++ __OBJC_$_INSTANCE_VARIABLES_ASDDSPGraph_v2
++ __OBJC_$_PROP_LIST_ASDDSPGraphBoxProtocol
++ __OBJC_$_PROP_LIST_ASDDSPGraphBox_v1
++ __OBJC_$_PROP_LIST_ASDDSPGraphBox_v2
++ __OBJC_$_PROP_LIST_ASDDSPGraphFormatConverterProtocol
++ __OBJC_$_PROP_LIST_ASDDSPGraphFormatConverter_v1
++ __OBJC_$_PROP_LIST_ASDDSPGraphFormatConverter_v2
++ __OBJC_$_PROP_LIST_ASDDSPGraphIOBox_v2
++ __OBJC_$_PROP_LIST_ASDDSPGraphInterpreter
++ __OBJC_$_PROP_LIST_ASDDSPGraphLoader
++ __OBJC_$_PROP_LIST_ASDDSPGraphProtocol
++ __OBJC_$_PROP_LIST_ASDDSPGraph_v1
++ __OBJC_$_PROP_LIST_ASDDSPGraph_v2
++ __OBJC_$_PROP_LIST_ASDManagedRingBuffer.130
++ __OBJC_$_PROP_LIST_ASDRingBuffer.105
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_ASDDSPGraphBoxInternalProtocol
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_ASDDSPGraphBoxProtocol
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_ASDDSPGraphFormatConverterProtocol
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_ASDDSPGraphInternalProtocol
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_ASDDSPGraphProtocol
++ __OBJC_$_PROTOCOL_METHOD_TYPES_ASDDSPGraphBoxInternalProtocol
++ __OBJC_$_PROTOCOL_METHOD_TYPES_ASDDSPGraphBoxProtocol
++ __OBJC_$_PROTOCOL_METHOD_TYPES_ASDDSPGraphFormatConverterProtocol
++ __OBJC_$_PROTOCOL_METHOD_TYPES_ASDDSPGraphInternalProtocol
++ __OBJC_$_PROTOCOL_METHOD_TYPES_ASDDSPGraphProtocol
++ __OBJC_$_PROTOCOL_REFS_ASDDSPGraphBoxInternalProtocol
++ __OBJC_$_PROTOCOL_REFS_ASDDSPGraphBoxProtocol
++ __OBJC_$_PROTOCOL_REFS_ASDDSPGraphFormatConverterProtocol
++ __OBJC_$_PROTOCOL_REFS_ASDDSPGraphInternalProtocol
++ __OBJC_$_PROTOCOL_REFS_ASDDSPGraphProtocol
++ __OBJC_CLASS_PROTOCOLS_$_ASDDSPGraph
++ __OBJC_CLASS_PROTOCOLS_$_ASDDSPGraphBox
++ __OBJC_CLASS_PROTOCOLS_$_ASDDSPGraphBox_v1
++ __OBJC_CLASS_PROTOCOLS_$_ASDDSPGraphBox_v2
++ __OBJC_CLASS_PROTOCOLS_$_ASDDSPGraphFormatConverter_v1
++ __OBJC_CLASS_PROTOCOLS_$_ASDDSPGraphFormatConverter_v2
++ __OBJC_CLASS_PROTOCOLS_$_ASDDSPGraphIOBox_v2
++ __OBJC_CLASS_PROTOCOLS_$_ASDDSPGraph_v1
++ __OBJC_CLASS_PROTOCOLS_$_ASDDSPGraph_v2
++ __OBJC_CLASS_RO_$_ASDDSPGraphBox_v1
++ __OBJC_CLASS_RO_$_ASDDSPGraphBox_v2
++ __OBJC_CLASS_RO_$_ASDDSPGraphFormatConverter_v1
++ __OBJC_CLASS_RO_$_ASDDSPGraphFormatConverter_v2
++ __OBJC_CLASS_RO_$_ASDDSPGraphIOBox_v2
++ __OBJC_CLASS_RO_$_ASDDSPGraph_v1
++ __OBJC_CLASS_RO_$_ASDDSPGraph_v2
++ __OBJC_LABEL_PROTOCOL_$_ASDDSPGraphBoxInternalProtocol
++ __OBJC_LABEL_PROTOCOL_$_ASDDSPGraphBoxProtocol
++ __OBJC_LABEL_PROTOCOL_$_ASDDSPGraphFormatConverterProtocol
++ __OBJC_LABEL_PROTOCOL_$_ASDDSPGraphInternalProtocol
++ __OBJC_LABEL_PROTOCOL_$_ASDDSPGraphProtocol
++ __OBJC_METACLASS_RO_$_ASDDSPGraphBox_v1
++ __OBJC_METACLASS_RO_$_ASDDSPGraphBox_v2
++ __OBJC_METACLASS_RO_$_ASDDSPGraphFormatConverter_v1
++ __OBJC_METACLASS_RO_$_ASDDSPGraphFormatConverter_v2
++ __OBJC_METACLASS_RO_$_ASDDSPGraphIOBox_v2
++ __OBJC_METACLASS_RO_$_ASDDSPGraph_v1
++ __OBJC_METACLASS_RO_$_ASDDSPGraph_v2
++ __OBJC_PROTOCOL_$_ASDDSPGraphBoxInternalProtocol
++ __OBJC_PROTOCOL_$_ASDDSPGraphBoxProtocol
++ __OBJC_PROTOCOL_$_ASDDSPGraphFormatConverterProtocol
++ __OBJC_PROTOCOL_$_ASDDSPGraphInternalProtocol
++ __OBJC_PROTOCOL_$_ASDDSPGraphProtocol
++ __Z34ASDDSPGraphFormatConverterCreateV1P11ASDDSPGraphNSt3__110shared_ptrIN8DSPGraph5GraphEEE
++ __Z34ASDDSPGraphFormatConverterCreateV2P11ASDDSPGraphP10CADSPGraph
++ __ZL16SetupGraphIODataR15ASDDSPGraphDataj14AudioTimeStampR13ASDBufferList
++ __ZN17ASDAudioConverter6createERKN2CA17StreamDescriptionES3_
++ __ZN17ASDAudioConverterC2EP20OpaqueAudioConverter
++ __ZN17ASDAudioConverterC2EP20OpaqueAudioConverter.cold.1
++ __ZN17ASDAudioConverterD2Ev
++ __ZN18ASDDSPStreamHelper9DSPStream7setupIOER15ASDDSPGraphDataj14AudioTimeStamp
++ __ZN26AUProcessingBlock_DSPGraphD1Ev
++ __ZN2CA16AudioBuffersBaseC2EP23ExtendedAudioBufferListj
++ __ZN2CA16AudioBuffersBaseC2EP23ExtendedAudioBufferListj.cold.1
++ __ZN2CA16AudioBuffersBaseC2ERK27AudioStreamBasicDescriptionj
++ __ZN2CA22AudioBuffersDeprecated7PrepareEjj
++ __ZN2CA22AudioBuffersDeprecated7PrepareEjj.cold.1
++ __ZN5caulk11make_stringEPKcz
++ __ZN8DSPGraph11InterpreterD1Ev
++ __ZN8DSPGraph5Graph19getLatencyInSecondsEv
++ __ZN8DSPGraph5Graph25setUseGraphHostSampleTimeEb
++ __ZNK2CA17StreamDescription8AsStringEv
++ __ZNKSt3__113__string_hashIcNS_9allocatorIcEEEclB9fqe220100ERKNS_12basic_stringIcNS_11char_traitsIcEES2_EE
++ __ZNKSt3__114default_deleteI12CABufferListEclB9fqe220100EPS1_
++ __ZNKSt3__114default_deleteI13ASDBufferListEclB9fqe220100EPS1_
++ __ZNKSt3__121__murmur2_or_cityhashImLm64EEclB9fqe220100EPKvm
++ __ZNKSt3__129_AllocatorDestroyRangeReverseINS_9allocatorIN18ASDSRCStreamHelper38ASDUnderlyingStreamDoIOOperationBlocksEEEPS3_EclB9fqe220100Ev
++ __ZNKSt3__129_AllocatorDestroyRangeReverseINS_9allocatorIN2CA10BufferListEEEPS3_EclB9fqe220100Ev
++ __ZNKSt3__129_AllocatorDestroyRangeReverseINS_9allocatorIN2CA22AudioBuffersDeprecatedEEEPS3_EclB9fqe220100Ev
++ __ZNKSt3__18equal_toINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEEclB9fqe220100ERKS6_S9_
++ __ZNSt11logic_errorC1EPKc
++ __ZNSt11logic_errorD1Ev
++ __ZNSt12length_errorC1B9fqe220100EPKc
++ __ZNSt12out_of_rangeC1B9fqe220100EPKc
++ __ZNSt3__110__function12__value_funcIFP11objc_objectvEED2B9fqe220100Ev
++ __ZNSt3__110__function12__value_funcIFbPKvEEC2B9fqe220100EOS5_
++ __ZNSt3__110__function12__value_funcIFbPKvEEC2B9fqe220100ERKS5_
++ __ZNSt3__110__function12__value_funcIFbPKvEED2B9fqe220100Ev
++ __ZNSt3__110__function12__value_funcIFbvEED2B9fqe220100Ev
++ __ZNSt3__110__function12__value_funcIFjvEED2B9fqe220100Ev
++ __ZNSt3__110__function12__value_funcIFviEEC2B9fqe220100EOS3_
++ __ZNSt3__110__function12__value_funcIFviEEC2B9fqe220100ERKS3_
++ __ZNSt3__110__function12__value_funcIFviEED2B9fqe220100Ev
++ __ZNSt3__110__function12__value_funcIFvvEED2B9fqe220100Ev
++ __ZNSt3__110__list_impI17ASDDSPGraphHelperNS_9allocatorIS1_EEE13__delete_nodeB9fqe220100EPNS_11__list_nodeIS1_PvEE
++ __ZNSt3__110shared_ptrIN8DSPGraph5GraphEEC2B9fqe220100IS2_NS_14default_deleteIS2_EELi0EEEONS_10unique_ptrIT_T0_EE
++ __ZNSt3__110shared_ptrIN8DSPGraph5GraphEEaSB9fqe220100IS2_NS_14default_deleteIS2_EELi0EEERS3_ONS_10unique_ptrIT_T0_EE
++ __ZNSt3__110unique_ptrI18ASDDSPStreamHelperNS_14default_deleteIS1_EEE5resetB9fqe220100EPS1_
++ __ZNSt3__110unique_ptrI18ASDSRCStreamHelperNS_14default_deleteIS1_EEE5resetB9fqe220100EPS1_
++ __ZNSt3__110unique_ptrIN5caulk10concurrent25guarded_lookup_hash_tableIyP17ASDDSPGraphHelperLNS2_33guarded_lookup_hash_table_optionsE2ENS2_30guarded_lookup_default_hash_fnIyEEEENS_14default_deleteIS9_EEE5resetB9fqe220100EPS9_
++ __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES8_EEPvEENS_22__hash_node_destructorINS6_ISB_EEEEED1B9fqe220100Ev
++ __ZNSt3__111unique_lockINS_5mutexEE4lockB9fqe220100Ev
++ __ZNSt3__112__destroy_atB9fqe220100INS_4pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES7_EEEEvPT_
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES7_EENS_22__unordered_map_hasherIS7_NS_4pairIKS7_S7_EENS_4hashIS7_EENS_8equal_toIS7_EEEENS_21__unordered_map_equalIS7_SC_SG_SE_EENS5_ISC_EEE11__do_rehashILb1EEEvm
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES7_EENS_22__unordered_map_hasherIS7_NS_4pairIKS7_S7_EENS_4hashIS7_EENS_8equal_toIS7_EEEENS_21__unordered_map_equalIS7_SC_SG_SE_EENS5_ISC_EEE16__construct_nodeIJPKcSO_EEENS_10unique_ptrINS_11__hash_nodeIS8_PvEENS_22__hash_node_destructorINS5_ISS_EEEEEEDpOT_
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES7_EENS_22__unordered_map_hasherIS7_NS_4pairIKS7_S7_EENS_4hashIS7_EENS_8equal_toIS7_EEEENS_21__unordered_map_equalIS7_SC_SG_SE_EENS5_ISC_EEE20__node_insert_uniqueEPNS_11__hash_nodeIS8_PvEE
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES7_EENS_22__unordered_map_hasherIS7_NS_4pairIKS7_S7_EENS_4hashIS7_EENS_8equal_toIS7_EEEENS_21__unordered_map_equalIS7_SC_SG_SE_EENS5_ISC_EEE22__deallocate_node_listB9fqe220100EPNS_16__hash_node_baseIPNS_11__hash_nodeIS8_PvEEEE
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES7_EENS_22__unordered_map_hasherIS7_NS_4pairIKS7_S7_EENS_4hashIS7_EENS_8equal_toIS7_EEEENS_21__unordered_map_equalIS7_SC_SG_SE_EENS5_ISC_EEE28__node_insert_unique_performB9fqe220100EPNS_11__hash_nodeIS8_PvEE
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES7_EENS_22__unordered_map_hasherIS7_NS_4pairIKS7_S7_EENS_4hashIS7_EENS_8equal_toIS7_EEEENS_21__unordered_map_equalIS7_SC_SG_SE_EENS5_ISC_EEE28__node_insert_unique_prepareB9fqe220100EmRSC_
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES7_EENS_22__unordered_map_hasherIS7_NS_4pairIKS7_S7_EENS_4hashIS7_EENS_8equal_toIS7_EEEENS_21__unordered_map_equalIS7_SC_SG_SE_EENS5_ISC_EEE8__rehashILb1EEEvm
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES7_EENS_22__unordered_map_hasherIS7_NS_4pairIKS7_S7_EENS_4hashIS7_EENS_8equal_toIS7_EEEENS_21__unordered_map_equalIS7_SC_SG_SE_EENS5_ISC_EEED2Ev
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_length_errorB9fqe220100Ev
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE22__init_internal_bufferB9fqe220100Em
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6appendEPKc
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6appendEPKcm
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6insertEmPKc
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6insertEmPKcm
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6resizeEmc
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC1B9fqe220100ILi0EEEPKc
++ __ZNSt3__113unordered_mapINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES6_NS_4hashIS6_EENS_8equal_toIS6_EENS4_INS_4pairIKS6_S6_EEEEE7emplaceB9fqe220100IJPKcSI_EEENSB_INS_19__hash_map_iteratorINS_15__hash_iteratorIPNS_11__hash_nodeINS_17__hash_value_typeIS6_S6_EEPvEEEEEEbEEDpOT_
++ __ZNSt3__114__split_bufferI17ASDAudioConverterRNS_9allocatorIS1_EEED2Ev
++ __ZNSt3__114__split_bufferIN18ASDSRCStreamHelper38ASDUnderlyingStreamDoIOOperationBlocksERNS_9allocatorIS2_EEE17__destruct_at_endB9fqe220100EPS2_
++ __ZNSt3__114__split_bufferIN2CA10BufferListERNS_9allocatorIS2_EEE17__destruct_at_endB9fqe220100EPS2_
++ __ZNSt3__114__split_bufferIN2CA10BufferListERNS_9allocatorIS2_EEED2Ev
++ __ZNSt3__114__split_bufferIN2CA22AudioBuffersDeprecatedERNS_9allocatorIS2_EEE17__destruct_at_endB9fqe220100EPS2_
++ __ZNSt3__114__split_bufferIN2CA22AudioBuffersDeprecatedERNS_9allocatorIS2_EEED2Ev
++ __ZNSt3__114__split_bufferINS_10unique_ptrIN5caulk10concurrent25guarded_lookup_hash_tableIjP27ASDDeviceRealTimeOperationsLNS3_33guarded_lookup_hash_table_optionsE2ENS3_30guarded_lookup_default_hash_fnIjEEE10table_implENS_14default_deleteISB_EEEERNS_9allocatorISE_EEE17__destruct_at_endB9fqe220100EPSE_
++ __ZNSt3__114__split_bufferINS_10unique_ptrIN5caulk10concurrent25guarded_lookup_hash_tableIjP27ASDStreamRealTimeOperationsLNS3_33guarded_lookup_hash_table_optionsE2ENS3_30guarded_lookup_default_hash_fnIjEEE10table_implENS_14default_deleteISB_EEEERNS_9allocatorISE_EEE17__destruct_at_endB9fqe220100EPSE_
++ __ZNSt3__114__split_bufferINS_10unique_ptrIN5caulk10concurrent25guarded_lookup_hash_tableIyP17ASDDSPGraphHelperLNS3_33guarded_lookup_hash_table_optionsE2ENS3_30guarded_lookup_default_hash_fnIyEEE10table_implENS_14default_deleteISB_EEEERNS_9allocatorISE_EEE17__destruct_at_endB9fqe220100EPSE_
++ __ZNSt3__114__split_bufferINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEERNS4_IS6_EEE17__destruct_at_endB9fqe220100EPS6_
++ __ZNSt3__114__split_bufferINS_6vectorIP10RamstadSRCNS_9allocatorIS3_EEEERNS4_IS6_EEE17__destruct_at_endB9fqe220100EPS6_
++ __ZNSt3__116__if_likely_elseB9fqe220100IZNS_6vectorIN2CA10BufferListENS_9allocatorIS3_EEE12emplace_backIJjEEERS3_DpOT_EUlvE_ZNS7_IJjEEES8_SB_EUlvE0_EEvbT_T0_
++ __ZNSt3__116__if_likely_elseB9fqe220100IZNS_6vectorIN2CA10BufferListENS_9allocatorIS3_EEE12emplace_backIJjEEERS3_DpOT_EUlvE_ZNS7_IJjEEES8_SB_EUlvE0_EEvbT_T0_.cold.1
++ __ZNSt3__116__if_likely_elseB9fqe220100IZNS_6vectorIN2CA9TimeStampENS_9allocatorIS3_EEE12emplace_backIJdEEERS3_DpOT_EUlvE_ZNS7_IJdEEES8_SB_EUlvE0_EEvbT_T0_
++ __ZNSt3__116__if_likely_elseB9fqe220100IZNS_6vectorIN2CA9TimeStampENS_9allocatorIS3_EEE12emplace_backIJdEEERS3_DpOT_EUlvE_ZNS7_IJdEEES8_SB_EUlvE0_EEvbT_T0_.cold.1
++ __ZNSt3__116__if_likely_elseB9fqe220100IZNS_6vectorINS1_IP10RamstadSRCNS_9allocatorIS3_EEEENS4_IS6_EEE12emplace_backIJRKS6_EEERS6_DpOT_EUlvE_ZNS9_IJSB_EEESC_SF_EUlvE0_EEvbT_T0_
++ __ZNSt3__116__if_likely_elseB9fqe220100IZNS_6vectorINS1_IP10RamstadSRCNS_9allocatorIS3_EEEENS4_IS6_EEE12emplace_backIJRKS6_EEERS6_DpOT_EUlvE_ZNS9_IJSB_EEESC_SF_EUlvE0_EEvbT_T0_.cold.1
++ __ZNSt3__116__if_likely_elseB9fqe220100IZNS_6vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS5_IS7_EEE12emplace_backIJPKcEEERS7_DpOT_EUlvE_ZNSA_IJSC_EEESD_SG_EUlvE0_EEvbT_T0_
++ __ZNSt3__116__if_likely_elseB9fqe220100IZNS_6vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS5_IS7_EEE12emplace_backIJPKcEEERS7_DpOT_EUlvE_ZNSA_IJSC_EEESD_SG_EUlvE0_EEvbT_T0_.cold.1
++ __ZNSt3__116allocator_traitsINS_9allocatorIN18ASDSRCStreamHelper38ASDUnderlyingStreamDoIOOperationBlocksEEEE7destroyB9fqe220100IS3_Li0EEEvRS4_PT_
++ __ZNSt3__116allocator_traitsINS_9allocatorINS_10unique_ptrIN5caulk10concurrent25guarded_lookup_hash_tableIjP27ASDDeviceRealTimeOperationsLNS4_33guarded_lookup_hash_table_optionsE2ENS4_30guarded_lookup_default_hash_fnIjEEE10table_implENS_14default_deleteISC_EEEEEEE7destroyB9fqe220100ISF_Li0EEEvRSG_PT_
++ __ZNSt3__116allocator_traitsINS_9allocatorINS_10unique_ptrIN5caulk10concurrent25guarded_lookup_hash_tableIjP27ASDStreamRealTimeOperationsLNS4_33guarded_lookup_hash_table_optionsE2ENS4_30guarded_lookup_default_hash_fnIjEEE10table_implENS_14default_deleteISC_EEEEEEE7destroyB9fqe220100ISF_Li0EEEvRSG_PT_
++ __ZNSt3__116allocator_traitsINS_9allocatorINS_10unique_ptrIN5caulk10concurrent25guarded_lookup_hash_tableIyP17ASDDSPGraphHelperLNS4_33guarded_lookup_hash_table_optionsE2ENS4_30guarded_lookup_default_hash_fnIyEEE10table_implENS_14default_deleteISC_EEEEEEE7destroyB9fqe220100ISF_Li0EEEvRSG_PT_
++ __ZNSt3__117__call_once_proxyB9fqe220100INS_5tupleIJOZN5CALog8InstanceEvE3$_0EEEEEvPv
++ __ZNSt3__119__allocate_at_leastB9fqe220100INS_9allocatorI15ASDDSPGraphDataEENS_16allocator_traitsIS3_EEEENS_19__allocation_resultINT0_7pointerENS7_9size_typeEEERT_m
++ __ZNSt3__119__allocate_at_leastB9fqe220100INS_9allocatorI17ASDAudioConverterEENS_16allocator_traitsIS3_EEEENS_19__allocation_resultINT0_7pointerENS7_9size_typeEEERT_m
++ __ZNSt3__119__allocate_at_leastB9fqe220100INS_9allocatorI24CAStreamBasicDescriptionEENS_16allocator_traitsIS3_EEEENS_19__allocation_resultINT0_7pointerENS7_9size_typeEEERT_m
++ __ZNSt3__119__allocate_at_leastB9fqe220100INS_9allocatorIDv8_dEENS_16allocator_traitsIS3_EEEENS_19__allocation_resultINT0_7pointerENS7_9size_typeEEERT_m
++ __ZNSt3__119__allocate_at_leastB9fqe220100INS_9allocatorIDv8_fEENS_16allocator_traitsIS3_EEEENS_19__allocation_resultINT0_7pointerENS7_9size_typeEEERT_m
++ __ZNSt3__119__allocate_at_leastB9fqe220100INS_9allocatorIN18ASDDSPStreamHelper9DSPStreamEEENS_16allocator_traitsIS4_EEEENS_19__allocation_resultINT0_7pointerENS8_9size_typeEEERT_m
++ __ZNSt3__119__allocate_at_leastB9fqe220100INS_9allocatorIN18ASDSRCStreamHelper38ASDUnderlyingStreamDoIOOperationBlocksEEENS_16allocator_traitsIS4_EEEENS_19__allocation_resultINT0_7pointerENS8_9size_typeEEERT_m
++ __ZNSt3__119__allocate_at_leastB9fqe220100INS_9allocatorIN18CASmartPreferences4PrefEEENS_16allocator_traitsIS4_EEEENS_19__allocation_resultINT0_7pointerENS8_9size_typeEEERT_m
++ __ZNSt3__119__allocate_at_leastB9fqe220100INS_9allocatorIN2CA10BufferListEEENS_16allocator_traitsIS4_EEEENS_19__allocation_resultINT0_7pointerENS8_9size_typeEEERT_m
++ __ZNSt3__119__allocate_at_leastB9fqe220100INS_9allocatorIN2CA17StreamDescriptionEEENS_16allocator_traitsIS4_EEEENS_19__allocation_resultINT0_7pointerENS8_9size_typeEEERT_m
++ __ZNSt3__119__allocate_at_leastB9fqe220100INS_9allocatorIN2CA22AudioBuffersDeprecatedEEENS_16allocator_traitsIS4_EEEENS_19__allocation_resultINT0_7pointerENS8_9size_typeEEERT_m
++ __ZNSt3__119__allocate_at_leastB9fqe220100INS_9allocatorIN2CA9TimeStampEEENS_16allocator_traitsIS4_EEEENS_19__allocation_resultINT0_7pointerENS8_9size_typeEEERT_m
++ __ZNSt3__119__allocate_at_leastB9fqe220100INS_9allocatorIN8DSPGraph11GraphIODataEEENS_16allocator_traitsIS4_EEEENS_19__allocation_resultINT0_7pointerENS8_9size_typeEEERT_m
++ __ZNSt3__119__allocate_at_leastB9fqe220100INS_9allocatorINS_10unique_ptrIN5caulk10concurrent25guarded_lookup_hash_tableIjP27ASDDeviceRealTimeOperationsLNS4_33guarded_lookup_hash_table_optionsE2ENS4_30guarded_lookup_default_hash_fnIjEEE10table_implENS_14default_deleteISC_EEEEEENS_16allocator_traitsISG_EEEENS_19__allocation_resultINT0_7pointerENSK_9size_typeEEERT_m
++ __ZNSt3__119__allocate_at_leastB9fqe220100INS_9allocatorINS_10unique_ptrIN5caulk10concurrent25guarded_lookup_hash_tableIjP27ASDStreamRealTimeOperationsLNS4_33guarded_lookup_hash_table_optionsE2ENS4_30guarded_lookup_default_hash_fnIjEEE10table_implENS_14default_deleteISC_EEEEEENS_16allocator_traitsISG_EEEENS_19__allocation_resultINT0_7pointerENSK_9size_typeEEERT_m
++ __ZNSt3__119__allocate_at_leastB9fqe220100INS_9allocatorINS_10unique_ptrIN5caulk10concurrent25guarded_lookup_hash_tableIyP17ASDDSPGraphHelperLNS4_33guarded_lookup_hash_table_optionsE2ENS4_30guarded_lookup_default_hash_fnIyEEE10table_implENS_14default_deleteISC_EEEEEENS_16allocator_traitsISG_EEEENS_19__allocation_resultINT0_7pointerENSK_9size_typeEEERT_m
++ __ZNSt3__119__allocate_at_leastB9fqe220100INS_9allocatorINS_12basic_stringIcNS_11char_traitsIcEENS1_IcEEEEEENS_16allocator_traitsIS7_EEEENS_19__allocation_resultINT0_7pointerENSB_9size_typeEEERT_m
++ __ZNSt3__119__allocate_at_leastB9fqe220100INS_9allocatorINS_4pairIyPN5CALog5ScopeEEEEENS_16allocator_traitsIS7_EEEENS_19__allocation_resultINT0_7pointerENSB_9size_typeEEERT_m
++ __ZNSt3__119__allocate_at_leastB9fqe220100INS_9allocatorINS_6vectorIP10RamstadSRCNS1_IS4_EEEEEENS_16allocator_traitsIS7_EEEENS_19__allocation_resultINT0_7pointerENSB_9size_typeEEERT_m
++ __ZNSt3__119__allocate_at_leastB9fqe220100INS_9allocatorIP10RamstadSRCEENS_16allocator_traitsIS4_EEEENS_19__allocation_resultINT0_7pointerENS8_9size_typeEEERT_m
++ __ZNSt3__119__allocate_at_leastB9fqe220100INS_9allocatorIP13RamstadKernelEENS_16allocator_traitsIS4_EEEENS_19__allocation_resultINT0_7pointerENS8_9size_typeEEERT_m
++ __ZNSt3__119__allocate_at_leastB9fqe220100INS_9allocatorIP14RamstadKernelDEENS_16allocator_traitsIS4_EEEENS_19__allocation_resultINT0_7pointerENS8_9size_typeEEERT_m
++ __ZNSt3__119__allocate_at_leastB9fqe220100INS_9allocatorIP27ASDDeviceRealTimeOperationsEENS_16allocator_traitsIS4_EEEENS_19__allocation_resultINT0_7pointerENS8_9size_typeEEERT_m
++ __ZNSt3__119__allocate_at_leastB9fqe220100INS_9allocatorIP27ASDStreamRealTimeOperationsEENS_16allocator_traitsIS4_EEEENS_19__allocation_resultINT0_7pointerENS8_9size_typeEEERT_m
++ __ZNSt3__119__allocate_at_leastB9fqe220100INS_9allocatorIfEENS_16allocator_traitsIS2_EEEENS_19__allocation_resultINT0_7pointerENS6_9size_typeEEERT_m
++ __ZNSt3__119__allocate_at_leastB9fqe220100INS_9allocatorIjEENS_16allocator_traitsIS2_EEEENS_19__allocation_resultINT0_7pointerENS6_9size_typeEEERT_m
++ __ZNSt3__119__allocator_destroyB9fqe220100INS_9allocatorIN18ASDSRCStreamHelper38ASDUnderlyingStreamDoIOOperationBlocksEEENS_16reverse_iteratorIPS3_EES7_EEvRT_T0_T1_
++ __ZNSt3__119__allocator_destroyB9fqe220100INS_9allocatorIN2CA22AudioBuffersDeprecatedEEEPS3_S5_EEvRT_T0_T1_
++ __ZNSt3__119__shared_weak_count16__release_sharedB9fqe220100Ev
++ __ZNSt3__120__throw_length_errorB9fqe220100EPKc
++ __ZNSt3__120__throw_out_of_rangeB9fqe220100EPKc
++ __ZNSt3__121__murmur2_or_cityhashImLm64EE18__hash_len_0_to_16B9fqe220100EPKcm
++ __ZNSt3__121__murmur2_or_cityhashImLm64EE19__hash_len_17_to_32B9fqe220100EPKcm
++ __ZNSt3__121__murmur2_or_cityhashImLm64EE19__hash_len_33_to_64B9fqe220100EPKcm
++ __ZNSt3__125__throw_bad_function_callB9fqe220100Ev
++ __ZNSt3__128__exception_guard_exceptionsINS_29_AllocatorDestroyRangeReverseINS_9allocatorIN18ASDSRCStreamHelper38ASDUnderlyingStreamDoIOOperationBlocksEEEPS4_EEED2B9fqe220100Ev
++ __ZNSt3__128__exception_guard_exceptionsINS_29_AllocatorDestroyRangeReverseINS_9allocatorIN2CA10BufferListEEEPS4_EEED2B9fqe220100Ev
++ __ZNSt3__128__exception_guard_exceptionsINS_29_AllocatorDestroyRangeReverseINS_9allocatorIN2CA22AudioBuffersDeprecatedEEEPS4_EEED2B9fqe220100Ev
++ __ZNSt3__134__uninitialized_allocator_relocateB9fqe220100INS_9allocatorIN18ASDDSPStreamHelper9DSPStreamEEEPS3_EEvRT_T0_S8_S8_
++ __ZNSt3__134__uninitialized_allocator_relocateB9fqe220100INS_9allocatorIN18ASDSRCStreamHelper38ASDUnderlyingStreamDoIOOperationBlocksEEEPS3_EEvRT_T0_S8_S8_
++ __ZNSt3__134__uninitialized_allocator_relocateB9fqe220100INS_9allocatorIN18CASmartPreferences4PrefEEEPS3_EEvRT_T0_S8_S8_
++ __ZNSt3__134__uninitialized_allocator_relocateB9fqe220100INS_9allocatorIN2CA10BufferListEEEPS3_EEvRT_T0_S8_S8_
++ __ZNSt3__134__uninitialized_allocator_relocateB9fqe220100INS_9allocatorIN2CA22AudioBuffersDeprecatedEEEPS3_EEvRT_T0_S8_S8_
++ __ZNSt3__135__uninitialized_allocator_copy_implB9fqe220100INS_9allocatorIN18ASDSRCStreamHelper38ASDUnderlyingStreamDoIOOperationBlocksEEEPS3_S5_S5_EET2_RT_T0_T1_S6_
++ __ZNSt3__14pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES6_EC2B9fqe220100IPKcSB_Li0EEEOT_OT0_
++ __ZNSt3__16vectorI15ASDDSPGraphDataNS_9allocatorIS1_EEE20__throw_length_errorB9fqe220100Ev
++ __ZNSt3__16vectorI15ASDDSPGraphDataNS_9allocatorIS1_EEE20__throw_out_of_rangeB9fqe220100Ev
++ __ZNSt3__16vectorI15ASDDSPGraphDataNS_9allocatorIS1_EEE24__emplace_back_slow_pathIJS1_EEEPS1_DpOT_
++ __ZNSt3__16vectorI15ASDDSPGraphDataNS_9allocatorIS1_EEE7reserveEm
++ __ZNSt3__16vectorI17ASDAudioConverterNS_9allocatorIS1_EEE16__destroy_vectorclB9fqe220100Ev
++ __ZNSt3__16vectorI17ASDAudioConverterNS_9allocatorIS1_EEE20__throw_length_errorB9fqe220100Ev
++ __ZNSt3__16vectorI17ASDAudioConverterNS_9allocatorIS1_EEE24__emplace_back_slow_pathIJS1_EEEPS1_DpOT_
++ __ZNSt3__16vectorI17ASDAudioConverterNS_9allocatorIS1_EEE26__swap_out_circular_bufferERNS_14__split_bufferIS1_RS3_EE
++ __ZNSt3__16vectorI17ASDAudioConverterNS_9allocatorIS1_EEE7reserveEm
++ __ZNSt3__16vectorI24CAStreamBasicDescriptionNS_9allocatorIS1_EEE11__vallocateB9fqe220100Em
++ __ZNSt3__16vectorI24CAStreamBasicDescriptionNS_9allocatorIS1_EEE16__init_with_sizeB9fqe220100IPKS1_S7_EEvT_T0_m
++ __ZNSt3__16vectorI24CAStreamBasicDescriptionNS_9allocatorIS1_EEE16__init_with_sizeB9fqe220100IPS1_S6_EEvT_T0_m
++ __ZNSt3__16vectorI24CAStreamBasicDescriptionNS_9allocatorIS1_EEE20__throw_length_errorB9fqe220100Ev
++ __ZNSt3__16vectorI24CAStreamBasicDescriptionNS_9allocatorIS1_EEE20__throw_out_of_rangeB9fqe220100Ev
++ __ZNSt3__16vectorI24CAStreamBasicDescriptionNS_9allocatorIS1_EEE24__emplace_back_slow_pathIJ27AudioStreamBasicDescriptionEEEPS1_DpOT_
++ __ZNSt3__16vectorI24CAStreamBasicDescriptionNS_9allocatorIS1_EEE24__emplace_back_slow_pathIJRK27AudioStreamBasicDescriptionEEEPS1_DpOT_
++ __ZNSt3__16vectorI24CAStreamBasicDescriptionNS_9allocatorIS1_EEE24__emplace_back_slow_pathIJRKS1_EEEPS1_DpOT_
++ __ZNSt3__16vectorIDv8_dNS_9allocatorIS1_EEE20__throw_length_errorB9fqe220100Ev
++ __ZNSt3__16vectorIDv8_fNS_9allocatorIS1_EEE20__throw_length_errorB9fqe220100Ev
++ __ZNSt3__16vectorIN18ASDDSPStreamHelper9DSPStreamENS_9allocatorIS2_EEE16__destroy_vectorclB9fqe220100Ev
++ __ZNSt3__16vectorIN18ASDDSPStreamHelper9DSPStreamENS_9allocatorIS2_EEE20__throw_length_errorB9fqe220100Ev
++ __ZNSt3__16vectorIN18ASDDSPStreamHelper9DSPStreamENS_9allocatorIS2_EEE30__emplace_back_assume_capacityB9fqe220100IJ18ASDStreamDirection27AudioStreamBasicDescriptionU8__strongU13block_pointerFijPK28AudioServerPlugInIOCycleInfoPvSC_jESF_U8__strongU13block_pointerFiyjSB_EEEEvDpOT_
++ __ZNSt3__16vectorIN18ASDSRCStreamHelper38ASDUnderlyingStreamDoIOOperationBlocksENS_9allocatorIS2_EEE11__vallocateB9fqe220100Em
++ __ZNSt3__16vectorIN18ASDSRCStreamHelper38ASDUnderlyingStreamDoIOOperationBlocksENS_9allocatorIS2_EEE16__destroy_vectorclB9fqe220100Ev
++ __ZNSt3__16vectorIN18ASDSRCStreamHelper38ASDUnderlyingStreamDoIOOperationBlocksENS_9allocatorIS2_EEE16__init_with_sizeB9fqe220100IPS2_S7_EEvT_T0_m
++ __ZNSt3__16vectorIN18ASDSRCStreamHelper38ASDUnderlyingStreamDoIOOperationBlocksENS_9allocatorIS2_EEE20__throw_length_errorB9fqe220100Ev
++ __ZNSt3__16vectorIN18ASDSRCStreamHelper38ASDUnderlyingStreamDoIOOperationBlocksENS_9allocatorIS2_EEE22__base_destruct_at_endB9fqe220100EPS2_
++ __ZNSt3__16vectorIN18ASDSRCStreamHelper38ASDUnderlyingStreamDoIOOperationBlocksENS_9allocatorIS2_EEE5clearB9fqe220100Ev
++ __ZNSt3__16vectorIN18CASmartPreferences4PrefENS_9allocatorIS2_EEE20__throw_length_errorB9fqe220100Ev
++ __ZNSt3__16vectorIN2CA10BufferListENS_9allocatorIS2_EEE16__destroy_vectorclB9fqe220100Ev
++ __ZNSt3__16vectorIN2CA10BufferListENS_9allocatorIS2_EEE20__throw_length_errorB9fqe220100Ev
++ __ZNSt3__16vectorIN2CA10BufferListENS_9allocatorIS2_EEE24__emplace_back_slow_pathIJjEEEPS2_DpOT_
++ __ZNSt3__16vectorIN2CA10BufferListENS_9allocatorIS2_EEE30__emplace_back_assume_capacityB9fqe220100IJjEEEvDpOT_
++ __ZNSt3__16vectorIN2CA10BufferListENS_9allocatorIS2_EEE5clearB9fqe220100Ev
++ __ZNSt3__16vectorIN2CA10BufferListENS_9allocatorIS2_EEE7reserveEm
++ __ZNSt3__16vectorIN2CA17StreamDescriptionENS_9allocatorIS2_EEE20__throw_length_errorB9fqe220100Ev
++ __ZNSt3__16vectorIN2CA17StreamDescriptionENS_9allocatorIS2_EEE24__emplace_back_slow_pathIJRS2_EEEPS2_DpOT_
++ __ZNSt3__16vectorIN2CA17StreamDescriptionENS_9allocatorIS2_EEE7reserveEm
++ __ZNSt3__16vectorIN2CA22AudioBuffersDeprecatedENS_9allocatorIS2_EEE16__destroy_vectorclB9fqe220100Ev
++ __ZNSt3__16vectorIN2CA22AudioBuffersDeprecatedENS_9allocatorIS2_EEE20__throw_length_errorB9fqe220100Ev
++ __ZNSt3__16vectorIN2CA22AudioBuffersDeprecatedENS_9allocatorIS2_EEE22__base_destruct_at_endB9fqe220100EPS2_
++ __ZNSt3__16vectorIN2CA22AudioBuffersDeprecatedENS_9allocatorIS2_EEE24__emplace_back_slow_pathIJRNS1_17StreamDescriptionEjEEEPS2_DpOT_
++ __ZNSt3__16vectorIN2CA22AudioBuffersDeprecatedENS_9allocatorIS2_EEE7reserveEm
++ __ZNSt3__16vectorIN2CA9TimeStampENS_9allocatorIS2_EEE20__throw_length_errorB9fqe220100Ev
++ __ZNSt3__16vectorIN2CA9TimeStampENS_9allocatorIS2_EEE24__emplace_back_slow_pathIJEEEPS2_DpOT_
++ __ZNSt3__16vectorIN2CA9TimeStampENS_9allocatorIS2_EEE24__emplace_back_slow_pathIJdEEEPS2_DpOT_
++ __ZNSt3__16vectorIN2CA9TimeStampENS_9allocatorIS2_EEE7reserveEm
++ __ZNSt3__16vectorIN8DSPGraph11GraphIODataENS_9allocatorIS2_EEE11__vallocateB9fqe220100Em
++ __ZNSt3__16vectorIN8DSPGraph11GraphIODataENS_9allocatorIS2_EEE20__throw_length_errorB9fqe220100Ev
++ __ZNSt3__16vectorIN8DSPGraph11GraphIODataENS_9allocatorIS2_EEE20__throw_out_of_rangeB9fqe220100Ev
++ __ZNSt3__16vectorIN8DSPGraph11GraphIODataENS_9allocatorIS2_EEEC2B9fqe220100EmRKS2_
++ __ZNSt3__16vectorINS0_IP10RamstadSRCNS_9allocatorIS2_EEEENS3_IS5_EEE16__destroy_vectorclB9fqe220100Ev
++ __ZNSt3__16vectorINS0_IP10RamstadSRCNS_9allocatorIS2_EEEENS3_IS5_EEE20__throw_length_errorB9fqe220100Ev
++ __ZNSt3__16vectorINS0_IP10RamstadSRCNS_9allocatorIS2_EEEENS3_IS5_EEE20__throw_out_of_rangeB9fqe220100Ev
++ __ZNSt3__16vectorINS0_IP10RamstadSRCNS_9allocatorIS2_EEEENS3_IS5_EEE30__emplace_back_assume_capacityB9fqe220100IJRKS5_EEEvDpOT_
++ __ZNSt3__16vectorINS0_IP10RamstadSRCNS_9allocatorIS2_EEEENS3_IS5_EEE5clearB9fqe220100Ev
++ __ZNSt3__16vectorINS_10unique_ptrIN5caulk10concurrent25guarded_lookup_hash_tableIjP27ASDDeviceRealTimeOperationsLNS3_33guarded_lookup_hash_table_optionsE2ENS3_30guarded_lookup_default_hash_fnIjEEE10table_implENS_14default_deleteISB_EEEENS_9allocatorISE_EEE16__destroy_vectorclB9fqe220100Ev
++ __ZNSt3__16vectorINS_10unique_ptrIN5caulk10concurrent25guarded_lookup_hash_tableIjP27ASDDeviceRealTimeOperationsLNS3_33guarded_lookup_hash_table_optionsE2ENS3_30guarded_lookup_default_hash_fnIjEEE10table_implENS_14default_deleteISB_EEEENS_9allocatorISE_EEE20__throw_length_errorB9fqe220100Ev
++ __ZNSt3__16vectorINS_10unique_ptrIN5caulk10concurrent25guarded_lookup_hash_tableIjP27ASDDeviceRealTimeOperationsLNS3_33guarded_lookup_hash_table_optionsE2ENS3_30guarded_lookup_default_hash_fnIjEEE10table_implENS_14default_deleteISB_EEEENS_9allocatorISE_EEE22__base_destruct_at_endB9fqe220100EPSE_
++ __ZNSt3__16vectorINS_10unique_ptrIN5caulk10concurrent25guarded_lookup_hash_tableIjP27ASDDeviceRealTimeOperationsLNS3_33guarded_lookup_hash_table_optionsE2ENS3_30guarded_lookup_default_hash_fnIjEEE10table_implENS_14default_deleteISB_EEEENS_9allocatorISE_EEE24__emplace_back_slow_pathIJRPSB_EEEPSE_DpOT_
++ __ZNSt3__16vectorINS_10unique_ptrIN5caulk10concurrent25guarded_lookup_hash_tableIjP27ASDStreamRealTimeOperationsLNS3_33guarded_lookup_hash_table_optionsE2ENS3_30guarded_lookup_default_hash_fnIjEEE10table_implENS_14default_deleteISB_EEEENS_9allocatorISE_EEE16__destroy_vectorclB9fqe220100Ev
++ __ZNSt3__16vectorINS_10unique_ptrIN5caulk10concurrent25guarded_lookup_hash_tableIjP27ASDStreamRealTimeOperationsLNS3_33guarded_lookup_hash_table_optionsE2ENS3_30guarded_lookup_default_hash_fnIjEEE10table_implENS_14default_deleteISB_EEEENS_9allocatorISE_EEE20__throw_length_errorB9fqe220100Ev
++ __ZNSt3__16vectorINS_10unique_ptrIN5caulk10concurrent25guarded_lookup_hash_tableIjP27ASDStreamRealTimeOperationsLNS3_33guarded_lookup_hash_table_optionsE2ENS3_30guarded_lookup_default_hash_fnIjEEE10table_implENS_14default_deleteISB_EEEENS_9allocatorISE_EEE22__base_destruct_at_endB9fqe220100EPSE_
++ __ZNSt3__16vectorINS_10unique_ptrIN5caulk10concurrent25guarded_lookup_hash_tableIjP27ASDStreamRealTimeOperationsLNS3_33guarded_lookup_hash_table_optionsE2ENS3_30guarded_lookup_default_hash_fnIjEEE10table_implENS_14default_deleteISB_EEEENS_9allocatorISE_EEE24__emplace_back_slow_pathIJRPSB_EEEPSE_DpOT_
++ __ZNSt3__16vectorINS_10unique_ptrIN5caulk10concurrent25guarded_lookup_hash_tableIyP17ASDDSPGraphHelperLNS3_33guarded_lookup_hash_table_optionsE2ENS3_30guarded_lookup_default_hash_fnIyEEE10table_implENS_14default_deleteISB_EEEENS_9allocatorISE_EEE16__destroy_vectorclB9fqe220100Ev
++ __ZNSt3__16vectorINS_10unique_ptrIN5caulk10concurrent25guarded_lookup_hash_tableIyP17ASDDSPGraphHelperLNS3_33guarded_lookup_hash_table_optionsE2ENS3_30guarded_lookup_default_hash_fnIyEEE10table_implENS_14default_deleteISB_EEEENS_9allocatorISE_EEE20__throw_length_errorB9fqe220100Ev
++ __ZNSt3__16vectorINS_10unique_ptrIN5caulk10concurrent25guarded_lookup_hash_tableIyP17ASDDSPGraphHelperLNS3_33guarded_lookup_hash_table_optionsE2ENS3_30guarded_lookup_default_hash_fnIyEEE10table_implENS_14default_deleteISB_EEEENS_9allocatorISE_EEE22__base_destruct_at_endB9fqe220100EPSE_
++ __ZNSt3__16vectorINS_10unique_ptrIN5caulk10concurrent25guarded_lookup_hash_tableIyP17ASDDSPGraphHelperLNS3_33guarded_lookup_hash_table_optionsE2ENS3_30guarded_lookup_default_hash_fnIyEEE10table_implENS_14default_deleteISB_EEEENS_9allocatorISE_EEE24__emplace_back_slow_pathIJRPSB_EEEPSE_DpOT_
++ __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE16__destroy_vectorclB9fqe220100Ev
++ __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE20__throw_length_errorB9fqe220100Ev
++ __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE30__emplace_back_assume_capacityB9fqe220100IJPKcEEEvDpOT_
++ __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE5clearB9fqe220100Ev
++ __ZNSt3__16vectorINS_4pairIyPN5CALog5ScopeEEENS_9allocatorIS5_EEE20__throw_length_errorB9fqe220100Ev
++ __ZNSt3__16vectorINS_4pairIyPN5CALog5ScopeEEENS_9allocatorIS5_EEE24__emplace_back_slow_pathIJS5_EEEPS5_DpOT_
++ __ZNSt3__16vectorIP10RamstadSRCNS_9allocatorIS2_EEE11__vallocateB9fqe220100Em
++ __ZNSt3__16vectorIP10RamstadSRCNS_9allocatorIS2_EEE16__init_with_sizeB9fqe220100IPS2_S7_EEvT_T0_m
++ __ZNSt3__16vectorIP10RamstadSRCNS_9allocatorIS2_EEE20__throw_length_errorB9fqe220100Ev
++ __ZNSt3__16vectorIP10RamstadSRCNS_9allocatorIS2_EEE20__throw_out_of_rangeB9fqe220100Ev
++ __ZNSt3__16vectorIP13RamstadKernelNS_9allocatorIS2_EEE20__throw_length_errorB9fqe220100Ev
++ __ZNSt3__16vectorIP13RamstadKernelNS_9allocatorIS2_EEE24__emplace_back_slow_pathIJRKS2_EEEPS2_DpOT_
++ __ZNSt3__16vectorIP14RamstadKernelDNS_9allocatorIS2_EEE20__throw_length_errorB9fqe220100Ev
++ __ZNSt3__16vectorIP14RamstadKernelDNS_9allocatorIS2_EEE24__emplace_back_slow_pathIJRKS2_EEEPS2_DpOT_
++ __ZNSt3__16vectorIP27ASDDeviceRealTimeOperationsNS_9allocatorIS2_EEE20__throw_length_errorB9fqe220100Ev
++ __ZNSt3__16vectorIP27ASDStreamRealTimeOperationsNS_9allocatorIS2_EEE20__throw_length_errorB9fqe220100Ev
++ __ZNSt3__16vectorIcNS_9allocatorIcEEE11__vallocateB9fqe220100Em
++ __ZNSt3__16vectorIcNS_9allocatorIcEEE20__throw_length_errorB9fqe220100Ev
++ __ZNSt3__16vectorIcNS_9allocatorIcEEEC2B9fqe220100EmRKc
++ __ZNSt3__16vectorIfNS_9allocatorIfEEE11__vallocateB9fqe220100Em
++ __ZNSt3__16vectorIfNS_9allocatorIfEEE20__throw_length_errorB9fqe220100Ev
++ __ZNSt3__16vectorIjNS_9allocatorIjEEE11__vallocateB9fqe220100Em
++ __ZNSt3__16vectorIjNS_9allocatorIjEEE20__throw_length_errorB9fqe220100Ev
++ __ZNSt3__16vectorIjNS_9allocatorIjEEEC2B9fqe220100Em
++ __ZNSt3__18__invokeB9fqe220100IJRZN18CASmartPreferences10AddHandlerIiEEvPK10__CFStringS5_PFT_PKvRbENS_8functionIFvS6_EEEEUlS8_E_S8_EEENS_20__invoke_result_implIvJDpT_EE4typeEDpOSI_
++ __ZNSt3__18__invokeB9fqe220100IJRZN6ASDDSP16exceptionBarrierIU8__strongU13block_pointerFP11objc_objectvEEEDTclfL0p_EET_S8_EUlvE_EEENS_20__invoke_result_implIvJDpT_EE4typeEDpOSD_
++ __ZNSt3__18optionalI26AUProcessingBlock_DSPGraphE7emplaceB9fqe220100IJRNS_10shared_ptrIN8DSPGraph5GraphEEEELi0EEERS1_DpOT_
++ __ZNSt3__19allocatorIN18CASmartPreferences4PrefEE9constructB9fqe220100IS2_JRPK10__CFStringS8_RNS_8functionIFbPKvEEEEEEvPT_DpOT0_
++ __ZNSt3__19to_stringEj
++ __ZSt28__throw_bad_array_new_lengthB9fqe220100v
++ __ZZN18ASDDSPStreamHelper18validateGraphAudioEP17ASDDSPGraphHelperPK24CAStreamBasicDescriptionS4_ENK3$_0clERK15ASDDSPGraphDataS4_
++ __ZZNK2CA17StreamDescription8AsStringEvE11kSourceBits
++ ___23-[ASDDSPGraph_v1 boxes]_block_invoke
++ ___23-[ASDDSPGraph_v1 reset]_block_invoke
++ ___24-[ASDDSPGraph_v1 inputs]_block_invoke
++ ___25-[ASDDSPGraph_v1 outputs]_block_invoke
++ ___27-[ASDDSPGraph_v1 configure]_block_invoke
++ ___28-[ASDDSPGraph_v1 configured]_block_invoke
++ ___28-[ASDDSPGraph_v1 initialize]_block_invoke
++ ___29-[ASDDSPGraph_v1 getLatency:]_block_invoke
++ ___29-[ASDDSPGraph_v1 initialized]_block_invoke
++ ___29-[ASDDSPGraph_v1 setAUStrip:]_block_invoke
++ ___29-[ASDDSPGraph_v1 unconfigure]_block_invoke
++ ___30-[ASDDSPGraph_v1 boxWithName:]_block_invoke
++ ___30-[ASDDSPGraph_v1 processBlock]_block_invoke
++ ___30-[ASDDSPGraph_v1 processBlock]_block_invoke_2
++ ___30-[ASDDSPGraph_v1 uninitialize]_block_invoke
++ ___30-[ASDDSPGraph_v2 processBlock]_block_invoke
++ ___32-[ASDDSPGraph_v1 numberOfInputs]_block_invoke
++ ___32-[ASDDSPGraph_v1 preflightBlock]_block_invoke
++ ___32-[ASDDSPGraph_v1 preflightBlock]_block_invoke_2
++ ___32-[ASDDSPGraph_v2 preflightBlock]_block_invoke
++ ___33-[ASDDSPGraph_v1 numberOfOutputs]_block_invoke
++ ___35-[ASDDSPGraph_v1 setPropertyStrip:]_block_invoke
++ ___36-[ASDDSPGraph_v1 usesHostSampleTime]_block_invoke
++ ___37-[ASDDSPGraph_v1 getParameter:forID:]_block_invoke
++ ___37-[ASDDSPGraph_v1 setParameter:forID:]_block_invoke
++ ___39-[ASDDSPGraphBox_v1 stopInjectingPort:]_block_invoke
++ ___39-[ASDDSPGraphBox_v1 stopRecordingPort:]_block_invoke
++ ___40-[ASDDSPGraph_v1 setUsesHostSampleTime:]_block_invoke
++ ___40-[ASDDSPGraph_v1 sliceDurationInSamples]_block_invoke
++ ___45-[ASDDSPGraph_v1 getProperty:withSize:forID:]_block_invoke
++ ___45-[ASDDSPGraph_v1 setProperty:withSize:forID:]_block_invoke
++ ___47-[ASDDSPGraphBox_v1 startRecordingPort:toFile:]_block_invoke
++ ___47-[ASDDSPGraphFormatConverter_v1 streamingBlock]_block_invoke
++ ___47-[ASDDSPGraphFormatConverter_v2 streamingBlock]_block_invoke
++ ___47-[ASDDSPGraphFormatConverter_v2 streamingBlock]_block_invoke.cold.1
++ ___47-[ASDDSPGraphFormatConverter_v2 streamingBlock]_block_invoke.cold.2
++ ___47-[ASDDSPGraphFormatConverter_v2 streamingBlock]_block_invoke.cold.3
++ ___47-[ASDDSPGraphFormatConverter_v2 streamingBlock]_block_invoke.cold.4
++ ___48-[ASDDSPGraphBox_v1 hasParameter:scope:element:]_block_invoke
++ ___49-[ASDDSPGraph_v1 getLatency:forOutputBusAtIndex:]_block_invoke
++ ___54-[ASDDSPGraphBox_v1 getParameter:forID:scope:element:]_block_invoke
++ ___57-[ASDDSPGraph_v1 setVariableSliceDuration:forSampleRate:]_block_invoke
++ ___58-[ASDDSPGraphBox_v1 startInjectingPort:toFile:shouldLoop:]_block_invoke
++ ___67-[ASDDSPGraphBox_v1 setParameter:forID:scope:element:bufferOffset:]_block_invoke
++ ___72-[ASDDSPGraphBox_v1 startRecordingPort:toFile:withAudioCapturerOptions:]_block_invoke
++ ___73-[ASDAudioDevice preferredChannelDescriptions:numberOfChannels:forScope:]_block_invoke.51
++ ___73-[ASDAudioDevice preferredChannelDescriptions:numberOfChannels:forScope:]_block_invoke.51.cold.1
++ ___73-[ASDAudioDevice preferredChannelDescriptions:numberOfChannels:forScope:]_block_invoke.51.cold.2
++ ___block_descriptor_32_e190_i40?0I8r^{AudioServerPlugInIOCycleInfo=QI{AudioTimeStamp=dQdQ{SMPTETime=ssIIIssss}II}{AudioTimeStamp=dQdQ{SMPTETime=ssIIIssss}II}{AudioTimeStamp=dQdQ{SMPTETime=ssIIIssss}II}dd}12^v20^v28I36l
++ ___block_descriptor_36_e190_i40?0I8r^{AudioServerPlugInIOCycleInfo=QI{AudioTimeStamp=dQdQ{SMPTETime=ssIIIssss}II}{AudioTimeStamp=dQdQ{SMPTETime=ssIIIssss}II}{AudioTimeStamp=dQdQ{SMPTETime=ssIIIssss}II}dd}12^v20^v28I36l
++ ___block_descriptor_40_ea8_32r_e182_i28?0Q8I16r^{AudioServerPlugInIOCycleInfo=QI{AudioTimeStamp=dQdQ{SMPTETime=ssIIIssss}II}{AudioTimeStamp=dQdQ{SMPTETime=ssIIIssss}II}{AudioTimeStamp=dQdQ{SMPTETime=ssIIIssss}II}dd}20lr32l8
++ ___block_descriptor_40_ea8_32r_e190_i40?0I8r^{AudioServerPlugInIOCycleInfo=QI{AudioTimeStamp=dQdQ{SMPTETime=ssIIIssss}II}{AudioTimeStamp=dQdQ{SMPTETime=ssIIIssss}II}{AudioTimeStamp=dQdQ{SMPTETime=ssIIIssss}II}dd}12^v20^v28I36lr32l8
++ ___block_descriptor_40_ea8_32s_e180_B32?0r^{ASDDSPGraphData={AudioTimeStamp=dQdQ{SMPTETime=ssIIIssss}II}^{AudioBufferList}I}8I16^{ASDDSPGraphData={AudioTimeStamp=dQdQ{SMPTETime=ssIIIssss}II}^{AudioBufferList}I}20I28ls32l8
++ ___block_descriptor_40_ea8_32s_e212_B40?0r^{ASDDSPGraphSliceDuration=dI}8^{ASDDSPGraphData={AudioTimeStamp=dQdQ{SMPTETime=ssIIIssss}II}^{AudioBufferList}I}16I24^{ASDDSPGraphData={AudioTimeStamp=dQdQ{SMPTETime=ssIIIssss}II}^{AudioBufferList}I}28I36ls32l8
++ ___block_descriptor_41_ea8_32s_e5_B8?0ls32l8
++ ___block_descriptor_48_ea8_32r40r_e190_i40?0I8r^{AudioServerPlugInIOCycleInfo=QI{AudioTimeStamp=dQdQ{SMPTETime=ssIIIssss}II}{AudioTimeStamp=dQdQ{SMPTETime=ssIIIssss}II}{AudioTimeStamp=dQdQ{SMPTETime=ssIIIssss}II}dd}12^v20^v28I36lr32l8r40l8
++ ___block_descriptor_56_ea8_32s40s48s_e18_"ASDDSPGraph"8?0ls32l8s40l8s48l8
++ ___block_descriptor_72_ea8_32s_e5_B8?0ls32l8
++ ___chkstk_darwin
++ __os_feature_enabled_impl
++ _memset
++ _objc_claimAutoreleasedReturnValue
++ _objc_msgSend$addHost:
++ _objc_msgSend$addInjectorTapPoint:
++ _objc_msgSend$addRecorderTapPoint:
++ _objc_msgSend$allocateStreamingResourcesWithConfiguration:
++ _objc_msgSend$configured
++ _objc_msgSend$connectRemoteProcessingBlock
++ _objc_msgSend$createGraphWithModel:error:
++ _objc_msgSend$createRemoteProcessingBlockHost:
++ _objc_msgSend$currentDSPVersion
++ _objc_msgSend$deallocateStreamingResources
++ _objc_msgSend$disconnectRemoteProcessingBlock
++ _objc_msgSend$getAudioStreamConfiguration:forPort:direction:
++ _objc_msgSend$getLatency:
++ _objc_msgSend$getLatency:error:
++ _objc_msgSend$getLatency:forOutputBusAtIndex:
++ _objc_msgSend$getLatency:forPort:error:
++ _objc_msgSend$getParameter:forID:
++ _objc_msgSend$getParameter:forID:error:
++ _objc_msgSend$getParameter:forID:scope:element:
++ _objc_msgSend$getParameter:forID:scope:element:error:
++ _objc_msgSend$getParameterInfo:forID:inScope:
++ _objc_msgSend$getProperty:withSize:forID:
++ _objc_msgSend$getPropertyData:size:forID:error:
++ _objc_msgSend$getPropertyData:size:forID:scope:element:error:
++ _objc_msgSend$getPropertyInfo:forID:error:
++ _objc_msgSend$getPropertyInfo:forID:scope:element:error:
++ _objc_msgSend$getPropertySize:isWritable:forID:
++ _objc_msgSend$getStreamDescription:forPort:direction:
++ _objc_msgSend$hasParameter:scope:element:
++ _objc_msgSend$hasParameterForID:
++ _objc_msgSend$initWithBoxObject:fromGraphObject:
++ _objc_msgSend$initWithDSPGraphObject:
++ _objc_msgSend$initWithGraph:object:
++ _objc_msgSend$initWithInputName:fromGraphObject:
++ _objc_msgSend$initWithModel:error:
++ _objc_msgSend$initWithName:direction:fromGraphObject:
++ _objc_msgSend$initWithOutputName:fromGraphObject:
++ _objc_msgSend$initialize:
++ _objc_msgSend$injectorTapPoints
++ _objc_msgSend$inputMaximumIOFrameSize
++ _objc_msgSend$interpretContentsOfFile:updating:error:
++ _objc_msgSend$interpretString:updating:error:
++ _objc_msgSend$isInitialized
++ _objc_msgSend$loadStrip:type:error:
++ _objc_msgSend$model
++ _objc_msgSend$mutableCopy
++ _objc_msgSend$newFormatConverter
++ _objc_msgSend$newFormatConverterForGraph:
++ _objc_msgSend$options
++ _objc_msgSend$outputMaximumIOFrameSize
++ _objc_msgSend$preflightBlock
++ _objc_msgSend$processBlock
++ _objc_msgSend$recorderTapPoints
++ _objc_msgSend$removeHost:
++ _objc_msgSend$removeInjectorTapPoint:
++ _objc_msgSend$removeRecorderTapPoint:
++ _objc_msgSend$reset
++ _objc_msgSend$reset:
++ _objc_msgSend$selectedValues
++ _objc_msgSend$setAudioFilePath:
++ _objc_msgSend$setBoxName:
++ _objc_msgSend$setModel:error:
++ _objc_msgSend$setOptions:
++ _objc_msgSend$setParameter:forID:
++ _objc_msgSend$setParameter:forID:error:
++ _objc_msgSend$setParameter:forID:scope:element:bufferOffset:
++ _objc_msgSend$setParameter:forID:scope:element:bufferOffset:error:
++ _objc_msgSend$setPortIndex:
++ _objc_msgSend$setPreprocessorIncludePaths:
++ _objc_msgSend$setPreprocessorMacroDefinitions:
++ _objc_msgSend$setProperty:withSize:forID:
++ _objc_msgSend$setPropertyData:size:forID:error:
++ _objc_msgSend$setSliceDuration:
++ _objc_msgSend$setSliceDurationCanVary:
++ _objc_msgSend$setUsesHostSampleTime:
++ _objc_msgSend$setVersion:
++ _objc_msgSend$setWithArray:
++ _objc_msgSend$sharedInstance
++ _objc_msgSend$sliceDuration
++ _objc_msgSend$sliceDurationCanVary
++ _objc_msgSend$sliceDurationInSamples
++ _objc_msgSend$streamingBlock
++ _objc_msgSend$uninitialize:
++ _objc_msgSend$usesHostSampleTime
++ _objc_msgSend$version
++ _objc_retainAutoreleaseReturnValue
++ _objc_retain_x3
++ _objc_retain_x5
++ _objc_retain_x6
++ _objc_retain_x7
++ _objc_sync_enter
++ _objc_sync_exit
+- +[ASDDSPGraphLoader graphWithConfiguration:].cold.1
+- +[ASDDSPGraphLoader graphWithConfiguration:].cold.2
+- +[ASDDSPGraphLoader graphWithConfiguration:].cold.3
+- +[ASDDSPGraphLoader graphWithConfiguration:].cold.4
+- +[ASDDSPGraphLoader graphWithGraphInfo:].cold.1
+- -[ASDDSPGraph .cxx_construct]
+- -[ASDDSPGraph setAUStrip:].cold.1
+- -[ASDDSPGraph setName:]
+- -[ASDDSPGraph setPropertyStrip:].cold.1
+- -[ASDDSPGraphBox .cxx_construct]
+- -[ASDDSPGraphBox box]
+- -[ASDDSPGraphBox getParameterList:numParameterIDs:inScope:]
+- -[ASDDSPGraphInterpreter .cxx_construct]
+- -[ASDDSPGraphInterpreter .cxx_destruct]
+- -[ASDDSPStream _updateLatency].cold.1
+- GCC_except_table112
+- GCC_except_table130
+- GCC_except_table136
+- GCC_except_table139
+- GCC_except_table145
+- GCC_except_table156
+- GCC_except_table171
+- GCC_except_table173
+- _OBJC_IVAR_$_ASDDSPGraphBox._graph
+- _OBJC_IVAR_$_ASDDSPGraphInterpreter._interpreter
+- _OUTLINED_FUNCTION_10
+- _OUTLINED_FUNCTION_11
+- _OUTLINED_FUNCTION_12
+- _OUTLINED_FUNCTION_9
+- __OBJC_$_PROP_LIST_ASDManagedRingBuffer.131
+- __OBJC_$_PROP_LIST_ASDRingBuffer.106
+- __ZL16SetupGraphIODataRN8DSPGraph11GraphIODataEj14AudioTimeStampR13ASDBufferList
+- __ZN16CAAudioTimeStamp5kZeroE
+- __ZN17ASDDSPGraphHelperC1ENSt3__110shared_ptrIN8DSPGraph5GraphEEEy
+- __ZN17ASDDSPGraphHelperC2ENSt3__110shared_ptrIN8DSPGraph5GraphEEEy
+- __ZN17ASDDSPGraphHelperD2Ev
+- __ZN18ASDDSPStreamHelper18validateGraphAudioEP17ASDDSPGraphHelperPK24CAStreamBasicDescriptionS4_.cold.4
+- __ZN18ASDDSPStreamHelper9DSPStream7setupIOERN8DSPGraph11GraphIODataEj14AudioTimeStamp
+- __ZNKSt3__113__string_hashIcNS_9allocatorIcEEEclB9nqe210106ERKNS_12basic_stringIcNS_11char_traitsIcEES2_EE
+- __ZNKSt3__114default_deleteI12CABufferListEclB9nqe210106EPS1_
+- __ZNKSt3__114default_deleteI13ASDBufferListEclB9nqe210106EPS1_
+- __ZNKSt3__121__murmur2_or_cityhashImLm64EEclB9nqe210106EPKvm
+- __ZNKSt3__129_AllocatorDestroyRangeReverseINS_9allocatorIN18ASDSRCStreamHelper38ASDUnderlyingStreamDoIOOperationBlocksEEEPS3_EclB9nqe210106Ev
+- __ZNKSt3__18equal_toINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEEclB9nqe210106ERKS6_S9_
+- __ZNSt12length_errorC1B9nqe210106EPKc
+- __ZNSt12out_of_rangeC1B9nqe210106EPKc
+- __ZNSt3__110__function12__value_funcIFP11objc_objectvEED2B9nqe210106Ev
+- __ZNSt3__110__function12__value_funcIFbPKvEEC2B9nqe210106EOS5_
+- __ZNSt3__110__function12__value_funcIFbPKvEEC2B9nqe210106ERKS5_
+- __ZNSt3__110__function12__value_funcIFbPKvEED2B9nqe210106Ev
+- __ZNSt3__110__function12__value_funcIFbvEED2B9nqe210106Ev
+- __ZNSt3__110__function12__value_funcIFjvEED2B9nqe210106Ev
+- __ZNSt3__110__function12__value_funcIFviEEC2B9nqe210106EOS3_
+- __ZNSt3__110__function12__value_funcIFviEEC2B9nqe210106ERKS3_
+- __ZNSt3__110__function12__value_funcIFviEED2B9nqe210106Ev
+- __ZNSt3__110__function12__value_funcIFvvEED2B9nqe210106Ev
+- __ZNSt3__110unique_ptrI18ASDDSPStreamHelperNS_14default_deleteIS1_EEE5resetB9nqe210106EPS1_
+- __ZNSt3__110unique_ptrI18ASDSRCStreamHelperNS_14default_deleteIS1_EEE5resetB9nqe210106EPS1_
+- __ZNSt3__110unique_ptrIN5caulk10concurrent25guarded_lookup_hash_tableIyP17ASDDSPGraphHelperLNS2_33guarded_lookup_hash_table_optionsE2ENS2_30guarded_lookup_default_hash_fnIyEEEENS_14default_deleteIS9_EEE5resetB9nqe210106EPS9_
+- __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES8_EEPvEENS_22__hash_node_destructorINS6_ISB_EEEEED1B9nqe210106Ev
+- __ZNSt3__111unique_lockINS_5mutexEE4lockB9nqe210106Ev
+- __ZNSt3__112__destroy_atB9nqe210106INS_4pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES7_EELi0EEEvPT_
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES7_EENS_22__unordered_map_hasherIS7_NS_4pairIKS7_S7_EENS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SC_SG_SE_Lb1EEENS5_ISC_EEE11__do_rehashILb1EEEvm
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES7_EENS_22__unordered_map_hasherIS7_NS_4pairIKS7_S7_EENS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SC_SG_SE_Lb1EEENS5_ISC_EEE16__construct_nodeIJPKcSO_EEENS_10unique_ptrINS_11__hash_nodeIS8_PvEENS_22__hash_node_destructorINS5_ISS_EEEEEEDpOT_
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES7_EENS_22__unordered_map_hasherIS7_NS_4pairIKS7_S7_EENS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SC_SG_SE_Lb1EEENS5_ISC_EEE17__deallocate_nodeEPNS_16__hash_node_baseIPNS_11__hash_nodeIS8_PvEEEE
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES7_EENS_22__unordered_map_hasherIS7_NS_4pairIKS7_S7_EENS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SC_SG_SE_Lb1EEENS5_ISC_EEE20__node_insert_uniqueEPNS_11__hash_nodeIS8_PvEE
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES7_EENS_22__unordered_map_hasherIS7_NS_4pairIKS7_S7_EENS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SC_SG_SE_Lb1EEENS5_ISC_EEE21__emplace_unique_implIJPKcSO_EEENSA_INS_15__hash_iteratorIPNS_11__hash_nodeIS8_PvEEEEbEEDpOT_
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES7_EENS_22__unordered_map_hasherIS7_NS_4pairIKS7_S7_EENS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SC_SG_SE_Lb1EEENS5_ISC_EEE28__node_insert_unique_performB9nqe210106EPNS_11__hash_nodeIS8_PvEE
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES7_EENS_22__unordered_map_hasherIS7_NS_4pairIKS7_S7_EENS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SC_SG_SE_Lb1EEENS5_ISC_EEE28__node_insert_unique_prepareB9nqe210106EmRSC_
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES7_EENS_22__unordered_map_hasherIS7_NS_4pairIKS7_S7_EENS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SC_SG_SE_Lb1EEENS5_ISC_EEE8__rehashILb1EEEvm
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES7_EENS_22__unordered_map_hasherIS7_NS_4pairIKS7_S7_EENS_4hashIS7_EENS_8equal_toIS7_EELb1EEENS_21__unordered_map_equalIS7_SC_SG_SE_Lb1EEENS5_ISC_EEED2Ev
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_length_errorB9nqe210106Ev
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6assignEPKc
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC1B9nqe210106ILi0EEEPKc
+- __ZNSt3__114__split_bufferIN18ASDSRCStreamHelper38ASDUnderlyingStreamDoIOOperationBlocksERNS_9allocatorIS2_EEE17__destruct_at_endB9nqe210106EPS2_
+- __ZNSt3__114__split_bufferINS_10unique_ptrIN5caulk10concurrent25guarded_lookup_hash_tableIjP27ASDDeviceRealTimeOperationsLNS3_33guarded_lookup_hash_table_optionsE2ENS3_30guarded_lookup_default_hash_fnIjEEE10table_implENS_14default_deleteISB_EEEERNS_9allocatorISE_EEE17__destruct_at_endB9nqe210106EPSE_
+- __ZNSt3__114__split_bufferINS_10unique_ptrIN5caulk10concurrent25guarded_lookup_hash_tableIjP27ASDStreamRealTimeOperationsLNS3_33guarded_lookup_hash_table_optionsE2ENS3_30guarded_lookup_default_hash_fnIjEEE10table_implENS_14default_deleteISB_EEEERNS_9allocatorISE_EEE17__destruct_at_endB9nqe210106EPSE_
+- __ZNSt3__114__split_bufferINS_10unique_ptrIN5caulk10concurrent25guarded_lookup_hash_tableIyP17ASDDSPGraphHelperLNS3_33guarded_lookup_hash_table_optionsE2ENS3_30guarded_lookup_default_hash_fnIyEEE10table_implENS_14default_deleteISB_EEEERNS_9allocatorISE_EEE17__destruct_at_endB9nqe210106EPSE_
+- __ZNSt3__114__split_bufferINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEERNS4_IS6_EEE17__destruct_at_endB9nqe210106EPS6_
+- __ZNSt3__114__split_bufferINS_6vectorIP10RamstadSRCNS_9allocatorIS3_EEEERNS4_IS6_EEE17__destruct_at_endB9nqe210106EPS6_
+- __ZNSt3__116allocator_traitsINS_9allocatorIN18ASDSRCStreamHelper38ASDUnderlyingStreamDoIOOperationBlocksEEEE7destroyB9nqe210106IS3_Li0EEEvRS4_PT_
+- __ZNSt3__116allocator_traitsINS_9allocatorINS_10unique_ptrIN5caulk10concurrent25guarded_lookup_hash_tableIjP27ASDDeviceRealTimeOperationsLNS4_33guarded_lookup_hash_table_optionsE2ENS4_30guarded_lookup_default_hash_fnIjEEE10table_implENS_14default_deleteISC_EEEEEEE7destroyB9nqe210106ISF_Li0EEEvRSG_PT_
+- __ZNSt3__116allocator_traitsINS_9allocatorINS_10unique_ptrIN5caulk10concurrent25guarded_lookup_hash_tableIjP27ASDStreamRealTimeOperationsLNS4_33guarded_lookup_hash_table_optionsE2ENS4_30guarded_lookup_default_hash_fnIjEEE10table_implENS_14default_deleteISC_EEEEEEE7destroyB9nqe210106ISF_Li0EEEvRSG_PT_
+- __ZNSt3__116allocator_traitsINS_9allocatorINS_10unique_ptrIN5caulk10concurrent25guarded_lookup_hash_tableIyP17ASDDSPGraphHelperLNS4_33guarded_lookup_hash_table_optionsE2ENS4_30guarded_lookup_default_hash_fnIyEEE10table_implENS_14default_deleteISC_EEEEEEE7destroyB9nqe210106ISF_Li0EEEvRSG_PT_
+- __ZNSt3__117__call_once_proxyB9nqe210106INS_5tupleIJOZN5CALog8InstanceEvE3$_0EEEEEvPv
+- __ZNSt3__119__allocate_at_leastB9nqe210106INS_9allocatorI24CAStreamBasicDescriptionEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS6_m
+- __ZNSt3__119__allocate_at_leastB9nqe210106INS_9allocatorIDv8_dEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS6_m
+- __ZNSt3__119__allocate_at_leastB9nqe210106INS_9allocatorIDv8_fEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS6_m
+- __ZNSt3__119__allocate_at_leastB9nqe210106INS_9allocatorIN18ASDDSPStreamHelper9DSPStreamEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
+- __ZNSt3__119__allocate_at_leastB9nqe210106INS_9allocatorIN18ASDSRCStreamHelper38ASDUnderlyingStreamDoIOOperationBlocksEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
+- __ZNSt3__119__allocate_at_leastB9nqe210106INS_9allocatorIN18CASmartPreferences4PrefEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
+- __ZNSt3__119__allocate_at_leastB9nqe210106INS_9allocatorIN8DSPGraph11GraphIODataEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
+- __ZNSt3__119__allocate_at_leastB9nqe210106INS_9allocatorINS_10unique_ptrIN5caulk10concurrent25guarded_lookup_hash_tableIjP27ASDDeviceRealTimeOperationsLNS4_33guarded_lookup_hash_table_optionsE2ENS4_30guarded_lookup_default_hash_fnIjEEE10table_implENS_14default_deleteISC_EEEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSJ_m
+- __ZNSt3__119__allocate_at_leastB9nqe210106INS_9allocatorINS_10unique_ptrIN5caulk10concurrent25guarded_lookup_hash_tableIjP27ASDStreamRealTimeOperationsLNS4_33guarded_lookup_hash_table_optionsE2ENS4_30guarded_lookup_default_hash_fnIjEEE10table_implENS_14default_deleteISC_EEEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSJ_m
+- __ZNSt3__119__allocate_at_leastB9nqe210106INS_9allocatorINS_10unique_ptrIN5caulk10concurrent25guarded_lookup_hash_tableIyP17ASDDSPGraphHelperLNS4_33guarded_lookup_hash_table_optionsE2ENS4_30guarded_lookup_default_hash_fnIyEEE10table_implENS_14default_deleteISC_EEEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSJ_m
+- __ZNSt3__119__allocate_at_leastB9nqe210106INS_9allocatorINS_12basic_stringIcNS_11char_traitsIcEENS1_IcEEEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSA_m
+- __ZNSt3__119__allocate_at_leastB9nqe210106INS_9allocatorINS_4pairIyPN5CALog5ScopeEEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSA_m
+- __ZNSt3__119__allocate_at_leastB9nqe210106INS_9allocatorINS_6vectorIP10RamstadSRCNS1_IS4_EEEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSA_m
+- __ZNSt3__119__allocate_at_leastB9nqe210106INS_9allocatorIP10RamstadSRCEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
+- __ZNSt3__119__allocate_at_leastB9nqe210106INS_9allocatorIP13RamstadKernelEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
+- __ZNSt3__119__allocate_at_leastB9nqe210106INS_9allocatorIP14RamstadKernelDEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
+- __ZNSt3__119__allocate_at_leastB9nqe210106INS_9allocatorIP27ASDDeviceRealTimeOperationsEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
+- __ZNSt3__119__allocate_at_leastB9nqe210106INS_9allocatorIP27ASDStreamRealTimeOperationsEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
+- __ZNSt3__119__allocate_at_leastB9nqe210106INS_9allocatorIfEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS5_m
+- __ZNSt3__119__allocator_destroyB9nqe210106INS_9allocatorIN18ASDSRCStreamHelper38ASDUnderlyingStreamDoIOOperationBlocksEEENS_16reverse_iteratorIPS3_EES7_EEvRT_T0_T1_
+- __ZNSt3__119__shared_weak_count16__release_sharedB9nqe210106Ev
+- __ZNSt3__120__throw_length_errorB9nqe210106EPKc
+- __ZNSt3__120__throw_out_of_rangeB9nqe210106EPKc
+- __ZNSt3__121__murmur2_or_cityhashImLm64EE18__hash_len_0_to_16B9nqe210106EPKcm
+- __ZNSt3__121__murmur2_or_cityhashImLm64EE19__hash_len_17_to_32B9nqe210106EPKcm
+- __ZNSt3__121__murmur2_or_cityhashImLm64EE19__hash_len_33_to_64B9nqe210106EPKcm
+- __ZNSt3__125__throw_bad_function_callB9nqe210106Ev
+- __ZNSt3__128__exception_guard_exceptionsINS_29_AllocatorDestroyRangeReverseINS_9allocatorIN18ASDSRCStreamHelper38ASDUnderlyingStreamDoIOOperationBlocksEEEPS4_EEED2B9nqe210106Ev
+- __ZNSt3__134__uninitialized_allocator_relocateB9nqe210106INS_9allocatorIN18ASDDSPStreamHelper9DSPStreamEEEPS3_EEvRT_T0_S8_S8_
+- __ZNSt3__134__uninitialized_allocator_relocateB9nqe210106INS_9allocatorIN18ASDSRCStreamHelper38ASDUnderlyingStreamDoIOOperationBlocksEEEPS3_EEvRT_T0_S8_S8_
+- __ZNSt3__134__uninitialized_allocator_relocateB9nqe210106INS_9allocatorIN18CASmartPreferences4PrefEEEPS3_EEvRT_T0_S8_S8_
+- __ZNSt3__135__uninitialized_allocator_copy_implB9nqe210106INS_9allocatorIN18ASDSRCStreamHelper38ASDUnderlyingStreamDoIOOperationBlocksEEEPS3_S5_S5_EET2_RT_T0_T1_S6_
+- __ZNSt3__14pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES6_EC2B9nqe210106IPKcSB_Li0EEEOT_OT0_
+- __ZNSt3__16vectorI24CAStreamBasicDescriptionNS_9allocatorIS1_EEE11__vallocateB9nqe210106Em
+- __ZNSt3__16vectorI24CAStreamBasicDescriptionNS_9allocatorIS1_EEE16__init_with_sizeB9nqe210106IPKS1_S7_EEvT_T0_m
+- __ZNSt3__16vectorI24CAStreamBasicDescriptionNS_9allocatorIS1_EEE16__init_with_sizeB9nqe210106IPS1_S6_EEvT_T0_m
+- __ZNSt3__16vectorI24CAStreamBasicDescriptionNS_9allocatorIS1_EEE20__throw_length_errorB9nqe210106Ev
+- __ZNSt3__16vectorI24CAStreamBasicDescriptionNS_9allocatorIS1_EEE20__throw_out_of_rangeB9nqe210106Ev
+- __ZNSt3__16vectorIDv8_dNS_9allocatorIS1_EEE20__throw_length_errorB9nqe210106Ev
+- __ZNSt3__16vectorIDv8_fNS_9allocatorIS1_EEE20__throw_length_errorB9nqe210106Ev
+- __ZNSt3__16vectorIN18ASDDSPStreamHelper9DSPStreamENS_9allocatorIS2_EEE16__destroy_vectorclB9nqe210106Ev
+- __ZNSt3__16vectorIN18ASDDSPStreamHelper9DSPStreamENS_9allocatorIS2_EEE20__throw_length_errorB9nqe210106Ev
+- __ZNSt3__16vectorIN18ASDDSPStreamHelper9DSPStreamENS_9allocatorIS2_EEE30__emplace_back_assume_capacityB9nqe210106IJ18ASDStreamDirection27AudioStreamBasicDescriptionU8__strongU13block_pointerFijPK28AudioServerPlugInIOCycleInfoPvSC_jESF_U8__strongU13block_pointerFiyjSB_EEEEvDpOT_
+- __ZNSt3__16vectorIN18ASDSRCStreamHelper38ASDUnderlyingStreamDoIOOperationBlocksENS_9allocatorIS2_EEE11__vallocateB9nqe210106Em
+- __ZNSt3__16vectorIN18ASDSRCStreamHelper38ASDUnderlyingStreamDoIOOperationBlocksENS_9allocatorIS2_EEE16__destroy_vectorclB9nqe210106Ev
+- __ZNSt3__16vectorIN18ASDSRCStreamHelper38ASDUnderlyingStreamDoIOOperationBlocksENS_9allocatorIS2_EEE16__init_with_sizeB9nqe210106IPS2_S7_EEvT_T0_m
+- __ZNSt3__16vectorIN18ASDSRCStreamHelper38ASDUnderlyingStreamDoIOOperationBlocksENS_9allocatorIS2_EEE20__throw_length_errorB9nqe210106Ev
+- __ZNSt3__16vectorIN18ASDSRCStreamHelper38ASDUnderlyingStreamDoIOOperationBlocksENS_9allocatorIS2_EEE22__base_destruct_at_endB9nqe210106EPS2_
+- __ZNSt3__16vectorIN18ASDSRCStreamHelper38ASDUnderlyingStreamDoIOOperationBlocksENS_9allocatorIS2_EEE5clearB9nqe210106Ev
+- __ZNSt3__16vectorIN18CASmartPreferences4PrefENS_9allocatorIS2_EEE20__throw_length_errorB9nqe210106Ev
+- __ZNSt3__16vectorIN8DSPGraph11GraphIODataENS_9allocatorIS2_EEE11__vallocateB9nqe210106Em
+- __ZNSt3__16vectorIN8DSPGraph11GraphIODataENS_9allocatorIS2_EEE20__throw_length_errorB9nqe210106Ev
+- __ZNSt3__16vectorIN8DSPGraph11GraphIODataENS_9allocatorIS2_EEE20__throw_out_of_rangeB9nqe210106Ev
+- __ZNSt3__16vectorIN8DSPGraph11GraphIODataENS_9allocatorIS2_EEE7reserveEm
+- __ZNSt3__16vectorIN8DSPGraph11GraphIODataENS_9allocatorIS2_EEEC2B9nqe210106EmRKS2_
+- __ZNSt3__16vectorINS0_IP10RamstadSRCNS_9allocatorIS2_EEEENS3_IS5_EEE16__destroy_vectorclB9nqe210106Ev
+- __ZNSt3__16vectorINS0_IP10RamstadSRCNS_9allocatorIS2_EEEENS3_IS5_EEE20__throw_length_errorB9nqe210106Ev
+- __ZNSt3__16vectorINS0_IP10RamstadSRCNS_9allocatorIS2_EEEENS3_IS5_EEE20__throw_out_of_rangeB9nqe210106Ev
+- __ZNSt3__16vectorINS0_IP10RamstadSRCNS_9allocatorIS2_EEEENS3_IS5_EEE30__emplace_back_assume_capacityB9nqe210106IJRKS5_EEEvDpOT_
+- __ZNSt3__16vectorINS0_IP10RamstadSRCNS_9allocatorIS2_EEEENS3_IS5_EEE5clearB9nqe210106Ev
+- __ZNSt3__16vectorINS0_IP10RamstadSRCNS_9allocatorIS2_EEEENS3_IS5_EEE9push_backB9nqe210106ERKS5_
+- __ZNSt3__16vectorINS_10unique_ptrIN5caulk10concurrent25guarded_lookup_hash_tableIjP27ASDDeviceRealTimeOperationsLNS3_33guarded_lookup_hash_table_optionsE2ENS3_30guarded_lookup_default_hash_fnIjEEE10table_implENS_14default_deleteISB_EEEENS_9allocatorISE_EEE16__destroy_vectorclB9nqe210106Ev
+- __ZNSt3__16vectorINS_10unique_ptrIN5caulk10concurrent25guarded_lookup_hash_tableIjP27ASDDeviceRealTimeOperationsLNS3_33guarded_lookup_hash_table_optionsE2ENS3_30guarded_lookup_default_hash_fnIjEEE10table_implENS_14default_deleteISB_EEEENS_9allocatorISE_EEE20__throw_length_errorB9nqe210106Ev
+- __ZNSt3__16vectorINS_10unique_ptrIN5caulk10concurrent25guarded_lookup_hash_tableIjP27ASDDeviceRealTimeOperationsLNS3_33guarded_lookup_hash_table_optionsE2ENS3_30guarded_lookup_default_hash_fnIjEEE10table_implENS_14default_deleteISB_EEEENS_9allocatorISE_EEE22__base_destruct_at_endB9nqe210106EPSE_
+- __ZNSt3__16vectorINS_10unique_ptrIN5caulk10concurrent25guarded_lookup_hash_tableIjP27ASDStreamRealTimeOperationsLNS3_33guarded_lookup_hash_table_optionsE2ENS3_30guarded_lookup_default_hash_fnIjEEE10table_implENS_14default_deleteISB_EEEENS_9allocatorISE_EEE16__destroy_vectorclB9nqe210106Ev
+- __ZNSt3__16vectorINS_10unique_ptrIN5caulk10concurrent25guarded_lookup_hash_tableIjP27ASDStreamRealTimeOperationsLNS3_33guarded_lookup_hash_table_optionsE2ENS3_30guarded_lookup_default_hash_fnIjEEE10table_implENS_14default_deleteISB_EEEENS_9allocatorISE_EEE20__throw_length_errorB9nqe210106Ev
+- __ZNSt3__16vectorINS_10unique_ptrIN5caulk10concurrent25guarded_lookup_hash_tableIjP27ASDStreamRealTimeOperationsLNS3_33guarded_lookup_hash_table_optionsE2ENS3_30guarded_lookup_default_hash_fnIjEEE10table_implENS_14default_deleteISB_EEEENS_9allocatorISE_EEE22__base_destruct_at_endB9nqe210106EPSE_
+- __ZNSt3__16vectorINS_10unique_ptrIN5caulk10concurrent25guarded_lookup_hash_tableIyP17ASDDSPGraphHelperLNS3_33guarded_lookup_hash_table_optionsE2ENS3_30guarded_lookup_default_hash_fnIyEEE10table_implENS_14default_deleteISB_EEEENS_9allocatorISE_EEE16__destroy_vectorclB9nqe210106Ev
+- __ZNSt3__16vectorINS_10unique_ptrIN5caulk10concurrent25guarded_lookup_hash_tableIyP17ASDDSPGraphHelperLNS3_33guarded_lookup_hash_table_optionsE2ENS3_30guarded_lookup_default_hash_fnIyEEE10table_implENS_14default_deleteISB_EEEENS_9allocatorISE_EEE20__throw_length_errorB9nqe210106Ev
+- __ZNSt3__16vectorINS_10unique_ptrIN5caulk10concurrent25guarded_lookup_hash_tableIyP17ASDDSPGraphHelperLNS3_33guarded_lookup_hash_table_optionsE2ENS3_30guarded_lookup_default_hash_fnIyEEE10table_implENS_14default_deleteISB_EEEENS_9allocatorISE_EEE22__base_destruct_at_endB9nqe210106EPSE_
+- __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE16__destroy_vectorclB9nqe210106Ev
+- __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE20__throw_length_errorB9nqe210106Ev
+- __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE5clearB9nqe210106Ev
+- __ZNSt3__16vectorINS_4pairIyPN5CALog5ScopeEEENS_9allocatorIS5_EEE20__throw_length_errorB9nqe210106Ev
+- __ZNSt3__16vectorIP10RamstadSRCNS_9allocatorIS2_EEE11__vallocateB9nqe210106Em
+- __ZNSt3__16vectorIP10RamstadSRCNS_9allocatorIS2_EEE16__init_with_sizeB9nqe210106IPS2_S7_EEvT_T0_m
+- __ZNSt3__16vectorIP10RamstadSRCNS_9allocatorIS2_EEE20__throw_length_errorB9nqe210106Ev
+- __ZNSt3__16vectorIP10RamstadSRCNS_9allocatorIS2_EEE20__throw_out_of_rangeB9nqe210106Ev
+- __ZNSt3__16vectorIP13RamstadKernelNS_9allocatorIS2_EEE20__throw_length_errorB9nqe210106Ev
+- __ZNSt3__16vectorIP14RamstadKernelDNS_9allocatorIS2_EEE20__throw_length_errorB9nqe210106Ev
+- __ZNSt3__16vectorIP27ASDDeviceRealTimeOperationsNS_9allocatorIS2_EEE20__throw_length_errorB9nqe210106Ev
+- __ZNSt3__16vectorIP27ASDDeviceRealTimeOperationsNS_9allocatorIS2_EEE8__appendEm
+- __ZNSt3__16vectorIP27ASDStreamRealTimeOperationsNS_9allocatorIS2_EEE20__throw_length_errorB9nqe210106Ev
+- __ZNSt3__16vectorIP27ASDStreamRealTimeOperationsNS_9allocatorIS2_EEE8__appendEm
+- __ZNSt3__16vectorIfNS_9allocatorIfEEE11__vallocateB9nqe210106Em
+- __ZNSt3__16vectorIfNS_9allocatorIfEEE20__throw_length_errorB9nqe210106Ev
+- __ZNSt3__18__invokeB9nqe210106IJRZN18CASmartPreferences10AddHandlerIiEEvPK10__CFStringS5_PFT_PKvRbENS_8functionIFvS6_EEEEUlS8_E_S8_EEENS_20__invoke_result_implIvJDpT_EE4typeEDpOSI_
+- __ZNSt3__18__invokeB9nqe210106IJRZN6ASDDSP16exceptionBarrierIU8__strongU13block_pointerFP11objc_objectvEEEDTclfL0p_EET_S8_EUlvE_EEENS_20__invoke_result_implIvJDpT_EE4typeEDpOSD_
+- __ZNSt3__19allocatorIN18CASmartPreferences4PrefEE9constructB9nqe210106IS2_JRPK10__CFStringS8_RNS_8functionIFbPKvEEEEEEvPT_DpOT0_
+- __ZSt28__throw_bad_array_new_lengthB9nqe210106v
+- __ZZN18ASDDSPStreamHelper18validateGraphAudioEP17ASDDSPGraphHelperPK24CAStreamBasicDescriptionS4_ENK3$_0clIN8DSPGraph11GraphIODataEEEDaRKT_S4_
+- ___20-[ASDDSPGraph boxes]_block_invoke
+- ___20-[ASDDSPGraph reset]_block_invoke
+- ___21-[ASDDSPGraph inputs]_block_invoke
+- ___22-[ASDDSPGraph outputs]_block_invoke
+- ___23-[ASDDSPGraph setName:]_block_invoke
+- ___24-[ASDDSPGraph configure]_block_invoke
+- ___25-[ASDDSPGraph configured]_block_invoke
+- ___25-[ASDDSPGraph initialize]_block_invoke
+- ___26-[ASDDSPGraph initialized]_block_invoke
+- ___26-[ASDDSPGraph setAUStrip:]_block_invoke
+- ___26-[ASDDSPGraph unconfigure]_block_invoke
+- ___27-[ASDDSPGraph boxWithName:]_block_invoke
+- ___27-[ASDDSPGraph uninitialize]_block_invoke
+- ___29-[ASDDSPGraph numberOfInputs]_block_invoke
+- ___30-[ASDDSPGraph numberOfOutputs]_block_invoke
+- ___30-[ASDDSPGraphInterpreter init]_block_invoke
+- ___30-[ASDDSPStream _updateLatency]_block_invoke
+- ___30-[ASDDSPStream _updateLatency]_block_invoke_2
+- ___32-[ASDDSPGraph setPropertyStrip:]_block_invoke
+- ___34-[ASDDSPGraph getParameter:forID:]_block_invoke
+- ___34-[ASDDSPGraph setParameter:forID:]_block_invoke
+- ___36-[ASDDSPGraphBox stopInjectingPort:]_block_invoke
+- ___36-[ASDDSPGraphBox stopRecordingPort:]_block_invoke
+- ___37-[ASDDSPGraph sliceDurationInSamples]_block_invoke
+- ___42-[ASDDSPGraph getProperty:withSize:forID:]_block_invoke
+- ___42-[ASDDSPGraph setProperty:withSize:forID:]_block_invoke
+- ___44-[ASDDSPGraphBox startRecordingPort:toFile:]_block_invoke
+- ___45-[ASDDSPGraphBox hasParameter:scope:element:]_block_invoke
+- ___51-[ASDDSPGraphBox getParameter:forID:scope:element:]_block_invoke
+- ___54-[ASDDSPGraph setVariableSliceDuration:forSampleRate:]_block_invoke
+- ___55-[ASDDSPGraphBox startInjectingPort:toFile:shouldLoop:]_block_invoke
+- ___59-[ASDDSPGraphBox getParameterList:numParameterIDs:inScope:]_block_invoke
+- ___64-[ASDDSPGraphBox setParameter:forID:scope:element:bufferOffset:]_block_invoke
+- ___69-[ASDDSPGraphBox startRecordingPort:toFile:withAudioCapturerOptions:]_block_invoke
+- ___73-[ASDAudioDevice preferredChannelDescriptions:numberOfChannels:forScope:]_block_invoke.48
+- ___73-[ASDAudioDevice preferredChannelDescriptions:numberOfChannels:forScope:]_block_invoke.48.cold.1
+- ___73-[ASDAudioDevice preferredChannelDescriptions:numberOfChannels:forScope:]_block_invoke.48.cold.2
+- ___block_descriptor_32_e195_i40?0I8r^{AudioServerPlugInIOCycleInfo=QI{AudioTimeStamp=dQdQ{SMPTETime=ssIIIssss}II}{AudioTimeStamp=dQdQ{SMPTETime=ssIIIssss}II}{AudioTimeStamp=dQdQ{SMPTETime=ssIIIssss}II}(?=dd)d}12^v20^v28I36l
+- ___block_descriptor_36_e195_i40?0I8r^{AudioServerPlugInIOCycleInfo=QI{AudioTimeStamp=dQdQ{SMPTETime=ssIIIssss}II}{AudioTimeStamp=dQdQ{SMPTETime=ssIIIssss}II}{AudioTimeStamp=dQdQ{SMPTETime=ssIIIssss}II}(?=dd)d}12^v20^v28I36l
+- ___block_descriptor_40_ea8_32r_e187_i28?0Q8I16r^{AudioServerPlugInIOCycleInfo=QI{AudioTimeStamp=dQdQ{SMPTETime=ssIIIssss}II}{AudioTimeStamp=dQdQ{SMPTETime=ssIIIssss}II}{AudioTimeStamp=dQdQ{SMPTETime=ssIIIssss}II}(?=dd)d}20lr32l8
+- ___block_descriptor_40_ea8_32r_e195_i40?0I8r^{AudioServerPlugInIOCycleInfo=QI{AudioTimeStamp=dQdQ{SMPTETime=ssIIIssss}II}{AudioTimeStamp=dQdQ{SMPTETime=ssIIIssss}II}{AudioTimeStamp=dQdQ{SMPTETime=ssIIIssss}II}(?=dd)d}12^v20^v28I36lr32l8
+- ___block_descriptor_44_e5_I8?0l
+- ___block_descriptor_48_e5_I8?0l
+- ___block_descriptor_48_ea8_32r40r_e195_i40?0I8r^{AudioServerPlugInIOCycleInfo=QI{AudioTimeStamp=dQdQ{SMPTETime=ssIIIssss}II}{AudioTimeStamp=dQdQ{SMPTETime=ssIIIssss}II}{AudioTimeStamp=dQdQ{SMPTETime=ssIIIssss}II}(?=dd)d}12^v20^v28I36lr32l8r40l8
+- ___block_descriptor_64_ea8_32s40s48s56s_e18_"ASDDSPGraph"8?0ls32l8s40l8s48l8s56l8
+- _objc_msgSend$selectedValue
+- _objc_release_x10
+CStrings:
++ " (destination substituted from external "
++ " (source substituted from external "
++ "!#"
++ "%2u ch, %6.0f Hz"
++ "%2u ch, %6.0f Hz, %s (0x%08X) "
++ "%2u ch, %6.0f Hz, %s%s"
++ "%2u ch, %6.0f Hz, 'freq'"
++ "%@|            %u (Ch %u): %@\n"
++ "%@|        %@\n"
++ "%@|        Channel Names:\n"
++ "%@|    Available Values:\n"
++ "%@|    Input Maximum IO Frame size: %u\n"
++ "%@|    Output Maximum IO Frame size: %u\n"
++ "%@|    Selected Value:\n"
++ "%@|    Selected Values:\n"
++ "%spacked in %u bytes"
++ "%u bits/channel, %u bytes/packet, %u frames/packet, %u bytes/frame"
++ "%u frames/packet"
++ "%u.%u"
++ "'%@' graph external input %u runs at %f Hz but corresponding graph input runs at %f Hz"
++ "'%@' graph external output %u runs at %f Hz but corresponding graph output runs at %f Hz"
++ "'%@' graph failed to convert input %u with status %u"
++ "'%@' graph failed to convert output %u with status %u"
++ "'%@' graph failed to create input %u audio converter from %s%s to %s with error %s"
++ "'%@' graph failed to create output %u audio converter from %s to %s%s with error %s"
++ "'%@' graph failed to initialize - %@"
++ "'%@' graph failed to preflight"
++ "'%@' graph failed to process"
++ "'%@' graph failed to uninitialize - %@"
++ "'%@' graph input 0 runs at %f Hz but %s %u runs at %f Hz"
++ "'%@' graph must have at least one input bus"
++ "'%@' graph must have at least one output bus"
++ "'%@' graph must have variable slice duration"
++ "'%c%c%c%c'"
++ "(null)"
++ ")"
++ ", interleaved"
++ "/AppleInternal/Library/BuildRoots/4~CQCiugAA6fS_UvVmWnRXQlGsCMJc5TWzkr9lfkc/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.0.Internal.sdk/System/Library/PrivateFrameworks/AudioToolboxCore.framework/PrivateHeaders/DSPGraph_Box.h"
++ "AudioDSPGraph"
++ "AudioDSPGraphFramework_AudioServerDriver"
++ "B32@?0r^{ASDDSPGraphData={AudioTimeStamp=dQdQ{SMPTETime=ssIIIssss}II}^{AudioBufferList}I}8I16^{ASDDSPGraphData={AudioTimeStamp=dQdQ{SMPTETime=ssIIIssss}II}^{AudioBufferList}I}20I28"
++ "B40@?0r^{ASDDSPGraphSliceDuration=dI}8^{ASDDSPGraphData={AudioTimeStamp=dQdQ{SMPTETime=ssIIIssss}II}^{AudioBufferList}I}16I24^{ASDDSPGraphData={AudioTimeStamp=dQdQ{SMPTETime=ssIIIssss}II}^{AudioBufferList}I}28I36"
++ "CoreAudioBaseTypes.hpp"
++ "Do not call '%@'"
++ "ExtendedAudioBufferList_CreateWithFormat failed"
++ "ExtendedAudioBufferList_Prepare failed"
++ "Failed to apply '*.austrip' - %@"
++ "Failed to apply '*.propstrip' - %@"
++ "Failed to change graph options - %@"
++ "Failed to change graph slice duration - %@"
++ "Failed to get graph latency - %@"
++ "Failed to get info for property %@ on DSP graph '%@' - %@"
++ "Failed to get parameter %@ on DSP graph '%@' - %@"
++ "Failed to get property %@ on DSP graph '%@' - %@"
++ "Failed to initialize graph - %@"
++ "Failed to reset graph - %@"
++ "Failed to set parameter %@ on DSP graph '%@' - %@"
++ "Failed to set property %@ on DSP graph '%@' - %@"
++ "Failed to uninitialize graph - %@"
++ "Fixed8.24"
++ "GetAudioBufferList().mNumberBuffers == (mStorage.size() - kHeaderSize) / sizeof(AudioBuffer)"
++ "Getting parameter %@ on DSP graph '%@'"
++ "Graph %@ couldn't be compiled - API version %u is not supported"
++ "Graph %@ couldn't be constructed - %@"
++ "Graph %@ couldn't be interpreted - %@"
++ "Graph couldn't be compiled - API version %u is not supported"
++ "Graph couldn't be constructed - %@"
++ "Graph couldn't be interpreted from text - %@"
++ "Setting parameter %@ on DSP graph '%@' to %f"
++ "_graph = graph"
++ "failed to get parameter %u for scope %u element %u - %@"
++ "failed to set parameter %u for scope %u element %u - %@"
++ "from %u-bit source, "
++ "i28@?0Q8I16r^{AudioServerPlugInIOCycleInfo=QI{AudioTimeStamp=dQdQ{SMPTETime=ssIIIssss}II}{AudioTimeStamp=dQdQ{SMPTETime=ssIIIssss}II}{AudioTimeStamp=dQdQ{SMPTETime=ssIIIssss}II}dd}20"
++ "i40@?0I8r^{AudioServerPlugInIOCycleInfo=QI{AudioTimeStamp=dQdQ{SMPTETime=ssIIIssss}II}{AudioTimeStamp=dQdQ{SMPTETime=ssIIIssss}II}{AudioTimeStamp=dQdQ{SMPTETime=ssIIIssss}II}dd}12^v20^v28I36"
++ "input"
++ "output"
++ "un"
++ "value: 0x%x, name: \"%@\", kind: %@%s"
++ "\xf0\xf0\xf0\x91"
+- "#16@0:8"
+- "%@|    Available Items:\n"
+- "%@|    Current Item: %u\n"
+- ".cxx_construct"
+- ".cxx_destruct"
+- "/AppleInternal/Library/BuildRoots/4~CNpuugAd5sxNuWicx-UA3eElJK-AUzj1Yjj1API/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.5.Internal.sdk/System/Library/PrivateFrameworks/AudioToolboxCore.framework/PrivateHeaders/DSPGraph_Box.h"
+- "@"
+- "@\"<ASDCustomPropertyInterest>\""
+- "@\"<ASDDeviceConfigurationChangeDelegate>\""
+- "@\"<ASDManagedRingBuffer>\""
+- "@\"<ASDPropertyChangedDelegate>\""
+- "@\"ASDAudioDevice\""
+- "@\"ASDAudioDeviceDSPConfiguration\""
+- "@\"ASDAudioDeviceDSPDatabase\""
+- "@\"ASDDSPConfiguration\""
+- "@\"ASDObject\""
+- "@\"ASDPlugin\""
+- "@\"ASDPropertyAddress\""
+- "@\"ASDStream\""
+- "@\"ASDStreamDSPConfiguration\""
+- "@\"ASDStreamFormat\""
+- "@\"ASDStreamFormat\"16@0:8"
+- "@\"NSArray\""
+- "@\"NSDictionary\""
+- "@\"NSMapTable\""
+- "@\"NSMutableArray\""
+- "@\"NSMutableDictionary\""
+- "@\"NSObject<OS_dispatch_queue>\""
+- "@\"NSObject<OS_dispatch_semaphore>\""
+- "@\"NSObject<OS_dispatch_source>\""
+- "@\"NSSet\""
+- "@\"NSString\""
+- "@\"NSString\"16@0:8"
+- "@\"NSUserDefaults\""
+- "@16@0:8"
+- "@20@0:8I16"
+- "@24@0:8:16"
+- "@24@0:8@16"
+- "@24@0:8^{AudioStreamBasicDescription=dIIIIIIII}16"
+- "@24@0:8^{AudioStreamRangedDescription={AudioStreamBasicDescription=dIIIIIIII}{AudioValueRange=dd}}16"
+- "@24@0:8^{_NSZone=}16"
+- "@24@0:8d16"
+- "@24@0:8q16"
+- "@24@0:8r^{AudioObjectPropertyAddress=III}16"
+- "@28@0:8@16B24"
+- "@28@0:8B16@20"
+- "@28@0:8I16@20"
+- "@28@0:8I16I20I24"
+- "@28@0:8{AudioObjectPropertyAddress=III}16"
+- "@32@0:8:16@24"
+- "@32@0:8@16@24"
+- "@32@0:8@16I24I28"
+- "@32@0:8I16@20B28"
+- "@32@0:8I16@20I28"
+- "@32@0:8I16I20@24"
+- "@32@0:8d16d24"
+- "@32@0:8q16@24"
+- "@32@0:8{shared_ptr<DSPGraph::Graph>=^{Graph}^{__shared_weak_count}}16"
+- "@36@0:8@16{AudioObjectPropertyAddress=III}24"
+- "@36@0:8B16I20I24@28"
+- "@36@0:8I16@20I28B32"
+- "@36@0:8I16I20@24I32"
+- "@36@0:8I16I20I24I28I32"
+- "@36@0:8d16I24I28B32"
+- "@40@0:8:16@24@32"
+- "@40@0:8@16@24@32"
+- "@40@0:8@16@24I32I36"
+- "@40@0:8B16B20I24I28@32"
+- "@40@0:8B16I20I24@28I36"
+- "@40@0:8^v16{shared_ptr<DSPGraph::Graph>=^{Graph}^{__shared_weak_count}}24"
+- "@40@0:8q16@24@32"
+- "@44@0:8@16@24I32@36"
+- "@44@0:8@16{AudioObjectPropertyAddress=III}24I36I40"
+- "@44@0:8B16B20I24I28@32I40"
+- "@48@0:8@16@24@32@40"
+- "@48@0:8I16{_ASDSliderRange=II}20B28I32I36@40"
+- "@48@0:8f16I20I24B28I32I36@40"
+- "@48@0:8f16f20f24B28I32I36@40"
+- "@52@0:8I16{_ASDSliderRange=II}20B28I32I36@40I48"
+- "@52@0:8f16I20I24B28I32I36@40I48"
+- "@52@0:8f16f20f24B28I32I36@40I48"
+- "@?"
+- "@?16@0:8"
+- "@?<i@?^{AudioBufferList=I[1{AudioBuffer=II^v}]}Iq>16@0:8"
+- "@?<i@?^{AudioBufferList=I[1{AudioBuffer=II^v}]}Iq^I^I^I>16@0:8"
+- "ASDAUStripInfo"
+- "ASDAudioDevice"
+- "ASDAudioDeviceDSPConfiguration"
+- "ASDAudioDeviceDSPDatabase"
+- "ASDBooleanControl"
+- "ASDBox"
+- "ASDClockDevice"
+- "ASDControl"
+- "ASDCustomProperty"
+- "ASDCustomPropertyInterest"
+- "ASDDSPAudioDevice"
+- "ASDDSPConfiguration"
+- "ASDDSPDevice"
+- "ASDDSPGraph"
+- "ASDDSPGraphBox"
+- "ASDDSPGraphHelper.h"
+- "ASDDSPGraphInfo"
+- "ASDDSPGraphInterpreter"
+- "ASDDSPGraphLoader"
+- "ASDDSPItemInfo"
+- "ASDDSPStream"
+- "ASDDevice"
+- "ASDDeviceConfigurationChangeDelegate"
+- "ASDLevelControl"
+- "ASDManagedRingBuffer"
+- "ASDNullStream"
+- "ASDObject"
+- "ASDPassthroughProperty"
+- "ASDPlugin"
+- "ASDPluginDSPDatabase"
+- "ASDProperties"
+- "ASDProperty"
+- "ASDPropertyAddress"
+- "ASDPropertyChangedDelegate"
+- "ASDPropertyStripInfo"
+- "ASDRingBuffer"
+- "ASDRingBufferInputStream"
+- "ASDRingBufferOutputStream"
+- "ASDRingBufferStreamPair"
+- "ASDSRCAudioDevice"
+- "ASDSRCStream"
+- "ASDSampleRateRange"
+- "ASDSelectorControl"
+- "ASDSelectorValue"
+- "ASDSliderControl"
+- "ASDStereoPanControl"
+- "ASDStream"
+- "ASDStreamDSPConfiguration"
+- "ASDStreamFormat"
+- "B"
+- "B16@0:8"
+- "B20@0:8B16"
+- "B20@0:8I16"
+- "B20@0:8f16"
+- "B24@0:8#16"
+- "B24@0:8:16"
+- "B24@0:8@\"Protocol\"16"
+- "B24@0:8@16"
+- "B24@0:8B16B20"
+- "B24@0:8Q16"
+- "B24@0:8d16"
+- "B24@0:8f16I20"
+- "B24@0:8q16"
+- "B24@0:8r^{AudioObjectPropertyAddress=III}16"
+- "B28@0:8@16I24"
+- "B28@0:8I16I20I24"
+- "B28@0:8I16r^v20"
+- "B28@0:8^f16I24"
+- "B32@0:8@\"ASDObject\"16@?<v@?>24"
+- "B32@0:8@16@24"
+- "B32@0:8@16@?24"
+- "B32@0:8@16Q24"
+- "B32@0:8^I16@24"
+- "B32@0:8^{AudioUnitParameterInfo=[52c]^{__CFString}I^{__CFString}IfffI}16I24I28"
+- "B32@0:8q16@24"
+- "B32@0:8q16q24"
+- "B32@0:8r^I16Q24"
+- "B32@0:8r^v16I24I28"
+- "B36@0:8^I16^B24I32"
+- "B36@0:8^I16^q24I32"
+- "B36@0:8^f16I24I28I32"
+- "B36@0:8^v16^I24I32"
+- "B36@0:8q16@24B32"
+- "B40@0:8@16@24^@32"
+- "B40@0:8@16@24q32"
+- "B40@0:8f16I20I24I28q32"
+- "B40@0:8q16@24Q32"
+- "B44@0:8I16r^v20I28r^v32i40"
+- "B48@0:8@16@24@32^@40"
+- "B48@0:8@16@24q32q40"
+- "B48@0:8I16r^v20^I28^v36i44"
+- "B52@0:8r^{AudioObjectPropertyAddress=III}16I24r^v28I36r^v40i48"
+- "B56@0:8@16@24@32q40^@48"
+- "B56@0:8r^{AudioObjectPropertyAddress=III}16I24r^v28^I36^v44i52"
+- "B64@0:8@16@24@32@40q48^@56"
+- "B72@0:8@16@24@32@40q48q56^@64"
+- "FourCharCode"
+- "I16@0:8"
+- "I20@0:8I16"
+- "I24@0:8@16"
+- "I28@0:8I16r^v20"
+- "I36@0:8r^{AudioObjectPropertyAddress=III}16I24r^v28"
+- "NSCopying"
+- "NSObject"
+- "Q"
+- "Q16@0:8"
+- "Q20@0:8I16"
+- "T#,R"
+- "T@\"<ASDCustomPropertyInterest>\",W,N,V_interested"
+- "T@\"<ASDDeviceConfigurationChangeDelegate>\",W,N,V_configurationChangeDelegate"
+- "T@\"<ASDManagedRingBuffer>\",R,N,V_ringBuffer"
+- "T@\"<ASDPropertyChangedDelegate>\",W,N,V_propertyChangedDelegate"
+- "T@\"ASDAudioDevice\",R,N,V_underlyingDevice"
+- "T@\"ASDAudioDeviceDSPConfiguration\",&,N,V_currentDSPConfiguration"
+- "T@\"ASDAudioDeviceDSPDatabase\",R,N,V_dspDatabase"
+- "T@\"ASDDSPConfiguration\",R,N,V_hardwareDSP"
+- "T@\"ASDDSPGraph\",R,N"
+- "T@\"ASDObject\",W,N,V_owner"
+- "T@\"ASDObject\",W,N,V_underlyingObject"
+- "T@\"ASDPlugin\",W,N,V_plugin"
+- "T@\"ASDPropertyAddress\",R,C,N,V_address"
+- "T@\"ASDPropertyAddress\",R,N,V_address"
+- "T@\"ASDStream\",R,N,V_inputStream"
+- "T@\"ASDStream\",R,N,V_outputStream"
+- "T@\"ASDStreamDSPConfiguration\",&,N,V_currentDSPConfiguration"
+- "T@\"ASDStreamFormat\",C,D,N"
+- "T@\"ASDStreamFormat\",C,N"
+- "T@\"ASDStreamFormat\",C,N,V_readFormat"
+- "T@\"ASDStreamFormat\",C,N,V_writeFormat"
+- "T@\"NSArray\",C,D,N"
+- "T@\"NSArray\",C,N"
+- "T@\"NSArray\",C,N,V_dspItems"
+- "T@\"NSArray\",C,N,V_includePaths"
+- "T@\"NSArray\",C,N,V_underlyingStreams"
+- "T@\"NSArray\",R,&,D,N"
+- "T@\"NSArray\",R,&,N"
+- "T@\"NSArray\",R,&,N,V_clockDevices"
+- "T@\"NSArray\",R,N"
+- "T@\"NSArray\",R,N,V_inputDSP"
+- "T@\"NSArray\",R,N,V_outputDSP"
+- "T@\"NSDictionary\",C,N"
+- "T@\"NSDictionary\",C,N,V_substitutions"
+- "T@\"NSDictionary\",R,N,V_deviceDatabases"
+- "T@\"NSDictionary\",R,N,V_value"
+- "T@\"NSObject<OS_dispatch_queue>\",R,&,D,N"
+- "T@\"NSObject<OS_dispatch_queue>\",R,N"
+- "T@\"NSSet\",R,N"
+- "T@\"NSSet\",R,N,V_dspConfigurations"
+- "T@\"NSSet\",R,N,V_dspDeviceProperties"
+- "T@\"NSSet\",R,N,V_referencedDSPDeviceProperties"
+- "T@\"NSSet\",R,N,V_referencedUnderlyingDeviceProperties"
+- "T@\"NSSet\",R,N,V_underlyingDeviceProperties"
+- "T@\"NSString\",?,R,C"
+- "T@\"NSString\",C,D,N"
+- "T@\"NSString\",C,N"
+- "T@\"NSString\",C,N,V_configurationBundleID"
+- "T@\"NSString\",C,N,V_firmwareVersion"
+- "T@\"NSString\",C,N,V_manufacturerName"
+- "T@\"NSString\",C,N,V_modelName"
+- "T@\"NSString\",C,N,V_modelUID"
+- "T@\"NSString\",C,N,V_name"
+- "T@\"NSString\",C,N,V_path"
+- "T@\"NSString\",C,N,V_serialNumber"
+- "T@\"NSString\",C,N,V_text"
+- "T@\"NSString\",R,C"
+- "T@\"NSString\",R,C,N,V_boxUID"
+- "T@\"NSString\",R,C,N,V_deviceUID"
+- "T@\"NSString\",R,N"
+- "T@\"NSString\",R,N,V_bundleID"
+- "T@\"NSString\",R,N,V_deviceUID"
+- "T@\"NSString\",R,N,V_name"
+- "T@\"NSString\",R,N,V_path"
+- "T@\"NSString\",R,W,N"
+- "T@,&,N,V_value"
+- "T@,R,N"
+- "T@?,C,N,V_beginIOOperationBlock"
+- "T@?,C,N,V_convertInputBlock"
+- "T@?,C,N,V_convertMixBlock"
+- "T@?,C,N,V_endIOOperationBlock"
+- "T@?,C,N,V_getIsolatedZeroTimeStampBlock"
+- "T@?,C,N,V_getZeroTimestampBlock"
+- "T@?,C,N,V_mixOutputBlock"
+- "T@?,C,N,V_processInputBlock"
+- "T@?,C,N,V_processMixBlock"
+- "T@?,C,N,V_processOutputBlock"
+- "T@?,C,N,V_readInputBlock"
+- "T@?,C,N,V_readIsolatedInputBlock"
+- "T@?,C,N,V_willDoConvertInputBlock"
+- "T@?,C,N,V_willDoConvertMixBlock"
+- "T@?,C,N,V_willDoMixOutputBlock"
+- "T@?,C,N,V_willDoProcessInputBlock"
+- "T@?,C,N,V_willDoProcessMixBlock"
+- "T@?,C,N,V_willDoProcessOutputBlock"
+- "T@?,C,N,V_willDoReadInputBlock"
+- "T@?,C,N,V_willDoWriteMixBlock"
+- "T@?,C,N,V_writeMixBlock"
+- "T@?,R,N"
+- "TB,D,N"
+- "TB,D,N,GisAcquireable"
+- "TB,N"
+- "TB,N,GisAcquirable,V_acquirable"
+- "TB,N,GisAllocated,V_allocated"
+- "TB,N,GisHidden,V_hidden"
+- "TB,N,GisPhysicalFormatSettable,V_physicalFormatSettable"
+- "TB,N,GisSettable,V_settable"
+- "TB,N,V_allowAutoRoute"
+- "TB,N,V_bypassMode"
+- "TB,N,V_canBeDefaultDevice"
+- "TB,N,V_canBeDefaultInputDevice"
+- "TB,N,V_canBeDefaultOutputDevice"
+- "TB,N,V_canBeDefaultSystemDevice"
+- "TB,N,V_canChangeBoxName"
+- "TB,N,V_canChangeDeviceName"
+- "TB,N,V_canSetExternalSecureMute"
+- "TB,N,V_canSetIdentify"
+- "TB,N,V_externalSecureMute"
+- "TB,N,V_externalVoiceActivityDetectEnable"
+- "TB,N,V_externalVoiceActivityDetectionState"
+- "TB,N,V_hasAudio"
+- "TB,N,V_hasKindProperty"
+- "TB,N,V_hasMIDI"
+- "TB,N,V_hasVideo"
+- "TB,N,V_isActive"
+- "TB,N,V_keepGraphInitialized"
+- "TB,N,V_prevSelected"
+- "TB,N,V_readerRunning"
+- "TB,N,V_requiresAuthentication"
+- "TB,N,V_selected"
+- "TB,N,V_supportsExternalSecureMute"
+- "TB,N,V_supportsExternalVoiceActivityDetect"
+- "TB,N,V_supportsHeySiri"
+- "TB,N,V_supportsIdentify"
+- "TB,N,V_supportsIsolatedIO"
+- "TB,N,V_wantsDisplayRouting"
+- "TB,N,V_writerRunning"
+- "TB,R,D,N"
+- "TB,R,D,N,GisRunning"
+- "TB,R,N"
+- "TB,R,N,GisAllocated"
+- "TB,R,N,GisSettable,V_settable"
+- "TB,R,N,V_isRunning"
+- "TI,D,N"
+- "TI,N"
+- "TI,N,V_bitsPerChannel"
+- "TI,N,V_bytesPerFrame"
+- "TI,N,V_bytesPerPacket"
+- "TI,N,V_channelsPerFrame"
+- "TI,N,V_controlElement"
+- "TI,N,V_controlScope"
+- "TI,N,V_direction"
+- "TI,N,V_formatFlags"
+- "TI,N,V_formatID"
+- "TI,N,V_framesPerPacket"
+- "TI,N,V_kind"
+- "TI,N,V_maximumNumberOfObjects"
+- "TI,N,V_objectID"
+- "TI,N,V_startingChannel"
+- "TI,N,V_terminalType"
+- "TI,N,V_transportType"
+- "TI,N,V_value"
+- "TI,R,D,N"
+- "TI,R,N"
+- "TI,R,N,V_propertyDataType"
+- "TI,R,N,V_qualifierDataType"
+- "TQ,N,V_underlyingInputStreamCount"
+- "TQ,N,V_underlyingOutputStreamCount"
+- "TQ,R"
+- "TQ,R,N"
+- "T^@?,R,N"
+- "T^^{AudioServerPlugInDriverInterface},R,N,V_driverRef"
+- "T^v,R,N,V_box"
+- "Td,D,N"
+- "Td,N"
+- "Td,N,V_maximumSampleRate"
+- "Td,N,V_minimumSampleRate"
+- "Td,N,V_sampleRate"
+- "Td,R,N,V_maximum"
+- "Td,R,N,V_minimum"
+- "Tf,D,N"
+- "Ti,N"
+- "Tq,N"
+- "Tq,N,V_frameCapacity"
+- "Tq,N,V_ringBufferFrameCapacity"
+- "Tq,R,N"
+- "T{AudioObjectPropertyAddress=III},N,V_propertyAddress"
+- "T{AudioObjectPropertyAddress=III},R,N,V_audioObjectPropertyAddress"
+- "T{_ASDSliderRange=II},D,N"
+- "T{shared_ptr<DSPGraph::Graph>=^{Graph}^{__shared_weak_count}},R,N,V_graph"
+- "UTF8String"
+- "Vv16@0:8"
+- "^@?16@0:8"
+- "^^{AudioServerPlugInDriverInterface}"
+- "^^{AudioServerPlugInDriverInterface}16@0:8"
+- "^v"
+- "^v16@0:8"
+- "^{AudioServerPlugInDriverInterface=^v^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?}"
+- "^{AudioServerPlugInHostInterface=^?^?^?^?^?}"
+- "^{IONotificationPort=}"
+- "^{_NSZone=}16@0:8"
+- "_DSPCaptureDirectory"
+- "_DSPCaptureType"
+- "_acquirable"
+- "_acquireQueue"
+- "_acquired"
+- "_acquisitionFailure"
+- "_address"
+- "_allocateStreamingResources"
+- "_allocateStreamingResourcesForGraphHelper:"
+- "_allocated"
+- "_allowAutoRoute"
+- "_audioDeviceQueue"
+- "_audioDevices"
+- "_audioObjectPropertyAddress"
+- "_beginIOOperationBlock"
+- "_beginIOOperationBlockUnretained"
+- "_bitsPerChannel"
+- "_box"
+- "_boxName"
+- "_boxQueue"
+- "_boxUID"
+- "_boxes"
+- "_bufferList"
+- "_bundleID"
+- "_bypassMode"
+- "_bytesPerFrame"
+- "_bytesPerPacket"
+- "_canBeDefaultDevice"
+- "_canBeDefaultInputDevice"
+- "_canBeDefaultOutputDevice"
+- "_canBeDefaultSystemDevice"
+- "_canChangeBoxName"
+- "_canChangeDeviceName"
+- "_canSetExternalSecureMute"
+- "_canSetIdentify"
+- "_channelsPerFrame"
+- "_clientDescription"
+- "_clientToGraphMap"
+- "_clockAlgorithm"
+- "_clockDeviceQueue"
+- "_clockDevices"
+- "_clockDomain"
+- "_clockIsStable"
+- "_configurationBundleID"
+- "_configurationChangeDelegate"
+- "_controlElement"
+- "_controlQueue"
+- "_controlScope"
+- "_controls"
+- "_convertInputBlock"
+- "_convertInputBlockUnretained"
+- "_convertMixBlock"
+- "_convertMixBlockUnretained"
+- "_currentDSPConfiguration"
+- "_customProperties"
+- "_customPropertyQueue"
+- "_deallocateStreamingResources"
+- "_decibelFromScalar:"
+- "_decibelValue"
+- "_defaults"
+- "_deviceDatabases"
+- "_deviceDescription"
+- "_deviceName"
+- "_deviceQueue"
+- "_deviceUID"
+- "_direction"
+- "_driverRef"
+- "_dspConfigurations"
+- "_dspDatabase"
+- "_dspDeviceProperties"
+- "_dspItems"
+- "_dspQueue"
+- "_endIOOperationBlock"
+- "_endIOOperationBlockUnretained"
+- "_externalSecureMute"
+- "_externalVoiceActivityDetectEnable"
+- "_externalVoiceActivityDetectionState"
+- "_findValue:"
+- "_firmwareVersion"
+- "_formatFlags"
+- "_formatID"
+- "_frameCapacity"
+- "_framesPerPacket"
+- "_getIsolatedZeroTimeStampBlock"
+- "_getIsolatedZeroTimeStampBlockUnretained"
+- "_getZeroTimestampBlock"
+- "_getZeroTimestampBlockUnretained"
+- "_graph"
+- "_graphAudioValidationMode"
+- "_graphHelpers"
+- "_handlePowerNotificationWithMessageType:andArgument:"
+- "_hardwareDSP"
+- "_hasAudio"
+- "_hasKindProperty"
+- "_hasMIDI"
+- "_hasVideo"
+- "_hidden"
+- "_identify"
+- "_includePaths"
+- "_indexOfValue:"
+- "_inputDSP"
+- "_inputLatency"
+- "_inputSafetyOffset"
+- "_inputStream"
+- "_inputStreamQueue"
+- "_inputStreams"
+- "_interested"
+- "_interfacePtr"
+- "_interpreter"
+- "_ioReferenceCount"
+- "_ioReferenceQueue"
+- "_isActive"
+- "_isAlive"
+- "_isRunning"
+- "_isTapStream"
+- "_keepGraphInitialized"
+- "_kind"
+- "_lastTimestamp"
+- "_latency"
+- "_leftPanChannel"
+- "_manufacturerName"
+- "_maximum"
+- "_maximumDecibelValue"
+- "_maximumFramesPerIOCycle"
+- "_maximumNumberOfObjects"
+- "_maximumSampleRate"
+- "_minimum"
+- "_minimumDecibelValue"
+- "_minimumSampleRate"
+- "_mixOutputBlock"
+- "_mixOutputBlockUnretained"
+- "_modelName"
+- "_modelUID"
+- "_name"
+- "_nextObjectID"
+- "_numSelected"
+- "_objectClassID"
+- "_objectID"
+- "_objects"
+- "_objectsLock"
+- "_outputDSP"
+- "_outputLatency"
+- "_outputSafetyOffset"
+- "_outputStream"
+- "_outputStreamQueue"
+- "_outputStreams"
+- "_owner"
+- "_owningDevice"
+- "_path"
+- "_physicalFormat"
+- "_physicalFormatQueue"
+- "_physicalFormatSettable"
+- "_physicalFormats"
+- "_plugin"
+- "_pluginHost"
+- "_pluginRefCount"
+- "_powerConnection"
+- "_powerNotificationPort"
+- "_powerNotificationQueue"
+- "_powerNotifier"
+- "_prevSelected"
+- "_processInputBlock"
+- "_processInputBlockUnretained"
+- "_processMixBlock"
+- "_processMixBlockUnretained"
+- "_processOutputBlock"
+- "_processOutputBlockUnretained"
+- "_propertyAddress"
+- "_propertyChangedDelegate"
+- "_propertyDataType"
+- "_propertyQueue"
+- "_qualifierDataType"
+- "_queue"
+- "_range"
+- "_readFormat"
+- "_readInputBlock"
+- "_readInputBlockUnretained"
+- "_readIsolatedInputBlock"
+- "_readIsolatedInputBlockUnretained"
+- "_readerRunning"
+- "_referencedDSPDeviceProperties"
+- "_referencedUnderlyingDeviceProperties"
+- "_requiresAuthentication"
+- "_resourcePath"
+- "_resumeProcessing"
+- "_rightPanChannel"
+- "_ringBuffer"
+- "_ringBufferFrameCapacity"
+- "_sampleRate"
+- "_sampleRateQueue"
+- "_samplingRate"
+- "_samplingRateRanges"
+- "_samplingRates"
+- "_scalarFromDecibel:"
+- "_selected"
+- "_selectedValue"
+- "_serialNumber"
+- "_settable"
+- "_srcQueue"
+- "_startingChannel"
+- "_stateDumpHandler"
+- "_streamHelper"
+- "_streamName"
+- "_substitutions"
+- "_supportsExternalSecureMute"
+- "_supportsExternalVoiceActivityDetect"
+- "_supportsHeySiri"
+- "_supportsIdentify"
+- "_supportsIsolatedIO"
+- "_suspendProcessing"
+- "_terminalType"
+- "_text"
+- "_timestampPeriod"
+- "_transportType"
+- "_underlyingDevice"
+- "_underlyingDeviceProperties"
+- "_underlyingInputStreamCount"
+- "_underlyingObject"
+- "_underlyingOutputStreamCount"
+- "_underlyingStreams"
+- "_updateLatency"
+- "_updateMaximumFramesPerIOCycle"
+- "_updateSafetyOffsets:"
+- "_updateSelectedValue"
+- "_updateTimestampPeriod:"
+- "_value"
+- "_valueQueue"
+- "_values"
+- "_wakeSemaphore"
+- "_wantsDisplayRouting"
+- "_willDoConvertInputBlock"
+- "_willDoConvertInputBlockUnretained"
+- "_willDoConvertMixBlock"
+- "_willDoConvertMixBlockUnretained"
+- "_willDoMixOutputBlock"
+- "_willDoMixOutputBlockUnretained"
+- "_willDoProcessInputBlock"
+- "_willDoProcessInputBlockUnretained"
+- "_willDoProcessMixBlock"
+- "_willDoProcessMixBlockUnretained"
+- "_willDoProcessOutputBlock"
+- "_willDoProcessOutputBlockUnretained"
+- "_willDoReadInputBlock"
+- "_willDoReadInputBlockUnretained"
+- "_willDoWriteMixBlock"
+- "_willDoWriteMixBlockUnretained"
+- "_writeFormat"
+- "_writeMixBlock"
+- "_writeMixBlockUnretained"
+- "_writerRunning"
+- "abortConfigurationChange:"
+- "acquireBox:fromHAL:"
+- "acquireQueue"
+- "acquireable"
+- "acquired"
+- "acquisitionFailure"
+- "addAudioDevice:"
+- "addAudioDevices:"
+- "addBox:"
+- "addCAObject:"
+- "addClient:"
+- "addClientDSP:forClient:"
+- "addClientDSP:withKey:"
+- "addClockDevice:"
+- "addClockDevices:"
+- "addControl:"
+- "addCustomProperty:"
+- "addDevice:"
+- "addDevices:"
+- "addDevicesToPlugin"
+- "addHardwareDSP:"
+- "addInputStream:"
+- "addObject:"
+- "addObjectsFromArray:"
+- "addOutputStream:"
+- "addPassthroughPropertyWithUnderlyingObject:andPropertyAddress:"
+- "addPhysicalFormat:"
+- "addRef"
+- "addStreamRealTimeOperations:"
+- "addValue:"
+- "address"
+- "allValues"
+- "allocWithZone:"
+- "allocate"
+- "allocated"
+- "allowAutoRoute"
+- "appendFormat:"
+- "appendString:"
+- "applyAUStrip:toGraph:"
+- "applyDeviceDSPConfiguration:"
+- "applyPropertyStrip:toGraph:"
+- "applyStreamDSPConfiguration:toStream:"
+- "array"
+- "arrayForKey:"
+- "arrayWithArray:"
+- "arrayWithCapacity:"
+- "arrayWithObjects:count:"
+- "audioDevices"
+- "audioObjectPropertyAddress"
+- "audioStreamBasicDescription"
+- "audioStreamRangedDescription"
+- "autorelease"
+- "baseClass"
+- "beginIOOperationBlock"
+- "beginIOOperationBlockUnretainedPtr"
+- "bitsPerChannel"
+- "boolValue"
+- "boxName"
+- "boxUID"
+- "boxWithName:"
+- "boxes"
+- "bundleForClass:"
+- "bundleID"
+- "bundleIdentifier"
+- "bypassMode"
+- "bytes"
+- "bytesPerFrame"
+- "bytesPerPacket"
+- "cStringUsingEncoding:"
+- "calculateIOBufferFrameSize:"
+- "canBeDefaultDevice"
+- "canBeDefaultInputDevice"
+- "canBeDefaultOutputDevice"
+- "canBeDefaultSystemDevice"
+- "canChangeBoxName"
+- "canChangeDeviceName"
+- "canSetExternalSecureMute"
+- "canSetIdentify"
+- "changeBoxName:"
+- "changeClientDescription:"
+- "changeDecibelValue:"
+- "changeDeviceName:"
+- "changePhysicalFormat:"
+- "changeSamplingRate:"
+- "changeScalarValue:"
+- "changeValue:"
+- "changeValues:withCount:"
+- "changedProperty:forObject:"
+- "changedProperty:forObjectID:"
+- "channelCategoryForChannelIndex:"
+- "channelLayoutBitmapForScope:"
+- "channelLayoutTagForScope:"
+- "channelNameForChannelIndex:"
+- "channelNumberForChannelIndex:"
+- "channelsPerFrame"
+- "class"
+- "clear"
+- "clientDSPForClient:"
+- "clientDescription"
+- "clockAlgorithm"
+- "clockDevices"
+- "clockDomain"
+- "clockIsStable"
+- "compileFile:withSubstitutions:includingPaths:"
+- "compileText:withSubstitutions:includingPaths:"
+- "componentsSeparatedByString:"
+- "configurationBundleID"
+- "configurationChangeDelegate"
+- "configure"
+- "configured"
+- "conformsToProtocol:"
+- "containsObject:"
+- "containsOnlyAUStrips:"
+- "controlElement"
+- "controlScope"
+- "controls"
+- "convertInputBlock"
+- "convertInputBlockUnretainedPtr"
+- "convertMixBlock"
+- "convertMixBlockUnretainedPtr"
+- "copy"
+- "copyWithZone:"
+- "count"
+- "countByEnumeratingWithState:objects:count:"
+- "createDirectoryAtPath:withIntermediateDirectories:attributes:error:"
+- "currentDSPConfiguration"
+- "currentHandler"
+- "customProperties"
+- "customPropertyWithAddress:"
+- "d"
+- "d16@0:8"
+- "dataSizeForProperty:withQualifierSize:andQualifierData:"
+- "dataSizeWithQualifierSize:andQualifierData:"
+- "dataWithLength:"
+- "dataWithPropertyList:format:options:error:"
+- "date"
+- "dealloc"
+- "deallocate"
+- "debugDescription"
+- "decibelFromScalar:"
+- "decibelValue"
+- "defaultManager"
+- "deregisterForSystemSleepNotifications"
+- "description"
+- "deviceChangedToSamplingRate:"
+- "deviceDatabases"
+- "deviceDescription"
+- "deviceName"
+- "deviceUID"
+- "devices"
+- "diagnosticDescriptionWithIndent:walkTree:"
+- "dictionary"
+- "dictionaryForKey:"
+- "dictionaryWithContentsOfFile:"
+- "dictionaryWithObjects:forKeys:count:"
+- "direction"
+- "doAddAudioDevice:"
+- "doAddAudioDevices:"
+- "doAddBox:"
+- "doAddClockDevice:"
+- "doAddClockDevices:"
+- "doRemoveAllAudioDevices"
+- "doRemoveAllClockDevices"
+- "doRemoveAudioDevice:"
+- "doRemoveAudioDevices:"
+- "doRemoveBox:"
+- "doRemoveClockDevice:"
+- "doRemoveClockDevices:"
+- "doSetUnderlyingStreams:"
+- "doubleValue"
+- "driverClassName"
+- "driverRef"
+- "dspConfigurationForDevice:"
+- "dspConfigurations"
+- "dspDatabase"
+- "dspDeviceProperties"
+- "dspItems"
+- "dspItemsInConfiguration:notInConfiguration:"
+- "element"
+- "enableBasicDSPCaptureOnGraph:withLevel:andDebugType:"
+- "enableBasicDSPCaptureOnGraph:withLevel:andDebugType:andMode:"
+- "enableDSPCaptureByType:withGraph:"
+- "enableDSPCaptureInAction"
+- "enableDSPFileInjectionOnGraph:withFormat:"
+- "endIOOperationBlock"
+- "endIOOperationBlockUnretainedPtr"
+- "enumerateObjectsUsingBlock:"
+- "errorWithDomain:code:userInfo:"
+- "exceptionWithName:reason:userInfo:"
+- "externalSecureMute"
+- "externalVoiceActivityDetectEnable"
+- "externalVoiceActivityDetectionState"
+- "f"
+- "f16@0:8"
+- "f20@0:8f16"
+- "findDSPConfigurationForCurrentState"
+- "firmwareVersion"
+- "firstObject"
+- "formatFlags"
+- "formatID"
+- "fourCharCode:forKey:"
+- "frameCapacity"
+- "framesPerPacket"
+- "framesToBytes:"
+- "getASDAudioDefaultsPath"
+- "getAudioCaptureRingBufferModeWithDict:"
+- "getAudioDebugTypeWithDict:"
+- "getCString:maxLength:encoding:"
+- "getCapturerOptions:"
+- "getDSPCaptureDirectory"
+- "getDSPCaptureTypeFromDefault"
+- "getIsolatedZeroTimeStampBlock"
+- "getIsolatedZeroTimeStampBlockUnretainedPtr"
+- "getParameter:forID:"
+- "getParameter:forID:scope:element:"
+- "getParameterInfo:forID:inScope:"
+- "getParameterList:numParameterIDs:inScope:"
+- "getProperty:"
+- "getProperty:withQualifierSize:qualifierData:dataSize:andData:forClient:"
+- "getProperty:withSize:forID:"
+- "getPropertySize:isWritable:forID:"
+- "getPropertyWithQualifierSize:qualifierData:dataSize:andData:forClient:"
+- "getZeroTimestampBlock"
+- "getZeroTimestampBlockUnretainedPtr"
+- "graphAudioValidationMode"
+- "graphBox"
+- "graphStructureIsValid:clientID:"
+- "graphToProcess"
+- "graphWithConfiguration:"
+- "graphWithGraphInfo:"
+- "halInitializeWithPluginHost:"
+- "handleFailureInMethod:object:file:lineNumber:description:"
+- "hardwareDSP"
+- "hasAudio"
+- "hasInput"
+- "hasKindProperty"
+- "hasMIDI"
+- "hasOutput"
+- "hasParameter:"
+- "hasParameter:scope:element:"
+- "hasProperty:"
+- "hasVideo"
+- "hash"
+- "hidden"
+- "i"
+- "i16@0:8"
+- "i20@0:8I16"
+- "i24@0:8r^{AudioServerPlugInClientInfo=IiC^{__CFString}}16"
+- "i28@?0Q8I16r^{AudioServerPlugInIOCycleInfo=QI{AudioTimeStamp=dQdQ{SMPTETime=ssIIIssss}II}{AudioTimeStamp=dQdQ{SMPTETime=ssIIIssss}II}{AudioTimeStamp=dQdQ{SMPTETime=ssIIIssss}II}(?=dd)d}20"
+- "i32@0:8@16Q24"
+- "i36@0:8@16I24Q28"
+- "i36@0:8@16{AudioObjectPropertyAddress=III}24"
+- "i40@?0I8r^{AudioServerPlugInIOCycleInfo=QI{AudioTimeStamp=dQdQ{SMPTETime=ssIIIssss}II}{AudioTimeStamp=dQdQ{SMPTETime=ssIIIssss}II}{AudioTimeStamp=dQdQ{SMPTETime=ssIIIssss}II}(?=dd)d}12^v20^v28I36"
+- "identify"
+- "identifyBox:"
+- "includePaths"
+- "indexOfObject:"
+- "init"
+- "initWithAddress:"
+- "initWithAddress:propertyDataType:qualifierDataType:"
+- "initWithAddress:value:"
+- "initWithArray:"
+- "initWithArray:resourcePath:"
+- "initWithAudioStreamBasicDescription:"
+- "initWithAudioStreamRangedDescription:"
+- "initWithBool:"
+- "initWithBox:fromGraph:"
+- "initWithBoxUID:withPlugin:"
+- "initWithCapacity:"
+- "initWithDSPGraph:"
+- "initWithDecibelValue:minimumValue:maximumValue:isSettable:forElement:inScope:withPlugin:"
+- "initWithDecibelValue:minimumValue:maximumValue:isSettable:forElement:inScope:withPlugin:andObjectClassID:"
+- "initWithDeviceUID:underlyingDevice:deviceDSPDatabase:plugin:"
+- "initWithDeviceUID:underlyingDevice:plugin:"
+- "initWithDeviceUID:withPlugin:"
+- "initWithDictionary:"
+- "initWithDictionary:resourcePath:"
+- "initWithDictionary:resourcePath:deviceUID:"
+- "initWithDictionary:resourcePath:name:"
+- "initWithDirection:withPlugin:"
+- "initWithDouble:"
+- "initWithElement:inScope:withPlugin:"
+- "initWithElement:inScope:withPlugin:andObjectClassID:"
+- "initWithFrameCapacity:"
+- "initWithFrameCapacity:writeFormat:readFormat:"
+- "initWithIsSettable:forElement:inScope:withPlugin:"
+- "initWithIsSettable:forElement:inScope:withPlugin:andObjectClassID:"
+- "initWithIsSettable:withPlugin:"
+- "initWithKeyOptions:valueOptions:capacity:"
+- "initWithMinimum:maximum:"
+- "initWithOwningDevice:underlyingStreams:direction:plugin:"
+- "initWithPlugin:"
+- "initWithRingBuffer:withPlugin:"
+- "initWithRingBufferFrameCapacity:withPlugin:"
+- "initWithSampleRate:numChannels:commonPCMFormat:isInterleaved:"
+- "initWithSelector:propertyDataType:andQualifierDataType:"
+- "initWithSelector:scope:element:"
+- "initWithSelector:scope:element:propertyDataType:andQualifierDataType:"
+- "initWithSuiteName:"
+- "initWithUnderlyingObject:address:propertyDataType:andQualifierDataType:"
+- "initWithUnderlyingObject:andAddress:"
+- "initWithUnderlyingObject:andPropertyAddress:"
+- "initWithUnderlyingObject:propertyAddress:propertyDataType:andQualifierDataType:"
+- "initWithUnsignedInt:"
+- "initWithUnsignedLong:"
+- "initWithValue:andRange:isSettable:forElement:inScope:withPlugin:"
+- "initWithValue:andRange:isSettable:forElement:inScope:withPlugin:andObjectClassID:"
+- "initWithValue:isSettable:forElement:inScope:withPlugin:"
+- "initWithValue:isSettable:forElement:inScope:withPlugin:andObjectClassID:"
+- "initWithValue:leftPanChannel:rightPanChannel:isSettable:forElement:inScope:withPlugin:"
+- "initWithValue:leftPanChannel:rightPanChannel:isSettable:forElement:inScope:withPlugin:andObjectClassID:"
+- "initWithValue:name:andKind:selected:"
+- "initialize"
+- "initialized"
+- "inputDSP"
+- "inputLatency"
+- "inputSafetyOffset"
+- "inputStream"
+- "inputStreams"
+- "inputs"
+- "insertObject:atIndex:"
+- "intValue"
+- "interested"
+- "invertControlWithValue:isSettable:forElement:inScope:withPlugin:"
+- "ioReferenceQueue"
+- "ioThreadStateChange:"
+- "isAcquirable"
+- "isAcquireable"
+- "isActive"
+- "isAllocated"
+- "isCompatible:"
+- "isEqual:"
+- "isEqualToString:"
+- "isHidden"
+- "isIsolatedQualifierWithSize:andData:"
+- "isKindOfAudioClass:"
+- "isKindOfClass:"
+- "isMemberOfClass:"
+- "isPhysicalFormatSettable"
+- "isPropertySettable:"
+- "isProxy"
+- "isRunning"
+- "isSettable"
+- "isTapStream"
+- "isolatedInputLatency"
+- "isolatedInputSafetyOffset"
+- "isolatedLatency"
+- "isolatedOutputLatency"
+- "isolatedOutputSafetyOffset"
+- "isolatedSamplingRate"
+- "isolatedTimestampPeriod"
+- "jackControlWithValue:isSettable:forElement:inScope:withPlugin:"
+- "keepGraphInitialized"
+- "keyPathsForValuesAffectingAcquireable"
+- "kindForValue:"
+- "latency"
+- "leftPanChannel"
+- "length"
+- "mFormatMatchedGraph"
+- "mHUPSource"
+- "mProvidedGraph"
+- "manufacturerName"
+- "maximum"
+- "maximumDecibelValue"
+- "maximumFramesPerIOCycle"
+- "maximumNumberOfObjects"
+- "maximumSampleRate"
+- "minDataSizeForProperty:withQualifierSize:andQualifierData:"
+- "minimum"
+- "minimumDecibelValue"
+- "minimumSampleRate"
+- "mixOutputBlock"
+- "mixOutputBlockUnretainedPtr"
+- "modelName"
+- "modelUID"
+- "mutableBytes"
+- "muteControlWithValue:isSettable:forElement:inScope:withPlugin:"
+- "nameForValue:"
+- "numInputs"
+- "numOutputs"
+- "numberOfChannelsInLayoutForScope:"
+- "numberOfInputs"
+- "numberOfOutputs"
+- "numberWithDouble:"
+- "numberWithUnsignedInt:"
+- "objectAtIndex:"
+- "objectAtIndexedSubscript:"
+- "objectClass"
+- "objectForKey:"
+- "objectForKeyedSubscript:"
+- "objectForObjectID:"
+- "objectID"
+- "objectIDForBoxUID:"
+- "objectIDForClockDeviceUID:"
+- "objectIDForDeviceUID:"
+- "outputDSP"
+- "outputLatency"
+- "outputSafetyOffset"
+- "outputStream"
+- "outputStreams"
+- "outputs"
+- "owner"
+- "path"
+- "performConfigurationChange:"
+- "performIOThreadStateChange:"
+- "performSelector:"
+- "performSelector:withObject:"
+- "performSelector:withObject:withObject:"
+- "performStartIO"
+- "performStopIO"
+- "phantomPowerControlWithValue:isSettable:forElement:inScope:withPlugin:"
+- "physicalFormat"
+- "physicalFormatSettable"
+- "physicalFormats"
+- "plugin"
+- "powerNotificationQueue"
+- "preferredChannelDescription:forChannelIndex:"
+- "preferredChannelDescriptions:numberOfChannels:forScope:"
+- "preferredChannelsForLeft:andRight:"
+- "prevSelected"
+- "prewarmInputDSPGraph:"
+- "processInputBlock"
+- "processInputBlockUnretainedPtr"
+- "processMixBlock"
+- "processMixBlockUnretainedPtr"
+- "processOutputBlock"
+- "processOutputBlockUnretainedPtr"
+- "propertyAddress"
+- "propertyChangeNotification:"
+- "propertyChangedDelegate"
+- "propertyDataType"
+- "providedGraph"
+- "q"
+- "q16@0:8"
+- "q24@0:8@16"
+- "qualifierDataType"
+- "raise:format:"
+- "range"
+- "rangeWithMinimum:maximum:"
+- "rangeWithSingleRate:"
+- "readBlock"
+- "readFormat"
+- "readInputBlock"
+- "readInputBlockUnretainedPtr"
+- "readIsolatedInputBlock"
+- "readIsolatedInputBlockUnretainedPtr"
+- "readWithZerosBlock"
+- "readerRunning"
+- "referencedDSPDeviceProperties"
+- "referencedUnderlyingDeviceProperties"
+- "registerForSystemSleepNotifications"
+- "release"
+- "removeAllAudioDevices"
+- "removeAllClockDevices"
+- "removeAllDevices"
+- "removeAllObjects"
+- "removeAudioDevice:"
+- "removeAudioDevices:"
+- "removeBox:"
+- "removeCAObject:"
+- "removeClient:"
+- "removeClientDSPForClient:"
+- "removeClientDSPwithKey:"
+- "removeClockDevice:"
+- "removeClockDevices:"
+- "removeControl:"
+- "removeCustomProperty:"
+- "removeDevice:"
+- "removeDevices:"
+- "removeDevicesFromPlugin"
+- "removeHardwareDSP"
+- "removeInputStream:"
+- "removeObject:"
+- "removeObjectAtIndex:"
+- "removeObjectForKey:"
+- "removeOutputStream:"
+- "removePhysicalFormat:"
+- "removeRef"
+- "removeStreamRealTimeOperations:"
+- "removeValue:"
+- "requestConfigurationChange:"
+- "requestConfigurationChangeForDevice:withBlock:"
+- "requiresAuthentication"
+- "reset"
+- "respondsToSelector:"
+- "resumeProcessing"
+- "retain"
+- "retainCount"
+- "rightPanChannel"
+- "ringBufferFrameCapacity"
+- "running"
+- "sampleRate"
+- "sampleRateRatio"
+- "samplingRate"
+- "samplingRateRanges"
+- "samplingRates"
+- "scalarFromDecibel:"
+- "scalarValue"
+- "scope"
+- "selected"
+- "selectedValue"
+- "selectedValues"
+- "selectionDidChange:"
+- "selector"
+- "self"
+- "sendPropertyChangeNotification"
+- "serialNumber"
+- "set"
+- "setAUStrip:"
+- "setAcquirable:"
+- "setAcquireable:"
+- "setAcquired:"
+- "setAcquisitionFailure:"
+- "setAllocated:"
+- "setAllowAutoRoute:"
+- "setArray:forKey:"
+- "setBeginIOOperationBlock:"
+- "setBitsPerChannel:"
+- "setBoxName:"
+- "setBypassMode:"
+- "setBytesPerFrame:"
+- "setBytesPerPacket:"
+- "setCanBeDefaultDevice:"
+- "setCanBeDefaultInputDevice:"
+- "setCanBeDefaultOutputDevice:"
+- "setCanBeDefaultSystemDevice:"
+- "setCanChangeBoxName:"
+- "setCanChangeDeviceName:"
+- "setCanSetExternalSecureMute:"
+- "setCanSetIdentify:"
+- "setChannelsPerFrame:"
+- "setClientDescription:"
+- "setClockAlgorithm:"
+- "setClockDomain:"
+- "setClockIsStable:"
+- "setConfigurationBundleID:"
+- "setConfigurationChangeDelegate:"
+- "setControlElement:"
+- "setControlScope:"
+- "setConvertInputBlock:"
+- "setConvertMixBlock:"
+- "setCurrentDSPConfiguration:"
+- "setDateFormat:"
+- "setDecibelValue:"
+- "setDeviceDescription:"
+- "setDeviceName:"
+- "setDictionary:forKey:"
+- "setDirection:"
+- "setDspItems:"
+- "setEndIOOperationBlock:"
+- "setExternalSecureMute:"
+- "setExternalVoiceActivityDetectEnable:"
+- "setExternalVoiceActivityDetectionState:"
+- "setFirmwareVersion:"
+- "setFormatFlags:"
+- "setFormatID:"
+- "setFrameCapacity:"
+- "setFramesPerPacket:"
+- "setGetIsolatedZeroTimeStampBlock:"
+- "setGetIsolatedZeroTimestampBlock:"
+- "setGetZeroTimestampBlock:"
+- "setGraphAudioValidationMode:"
+- "setHasAudio:"
+- "setHasKindProperty:"
+- "setHasMIDI:"
+- "setHasVideo:"
+- "setHidden:"
+- "setIdentify:"
+- "setIncludePaths:"
+- "setInputLatency:"
+- "setInputSafetyOffset:"
+- "setInterested:"
+- "setIsActive:"
+- "setIsTapStream:"
+- "setIsolatedInputLatency:"
+- "setIsolatedInputSafetyOffset:"
+- "setIsolatedLatency:"
+- "setIsolatedOutputLatency:"
+- "setIsolatedOutputSafetyOffset:"
+- "setIsolatedSamplingRate:"
+- "setIsolatedTimestampPeriod:"
+- "setKeepGraphInitialized:"
+- "setKind:"
+- "setLatency:"
+- "setLeftPanChannel:"
+- "setManufacturerName:"
+- "setMaximumDecibelValue:"
+- "setMaximumNumberOfObjects:"
+- "setMaximumSampleRate:"
+- "setMinimumDecibelValue:"
+- "setMinimumSampleRate:"
+- "setMixOutputBlock:"
+- "setModelName:"
+- "setModelUID:"
+- "setName:"
+- "setObject:forKey:"
+- "setObjectID:"
+- "setOutputLatency:"
+- "setOutputSafetyOffset:"
+- "setOwner:"
+- "setPanChannel:isLeft:"
+- "setParameter:forID:"
+- "setParameter:forID:scope:element:bufferOffset:"
+- "setPath:"
+- "setPhysicalFormat:"
+- "setPhysicalFormatSettable:"
+- "setPhysicalFormats:"
+- "setPlugin:"
+- "setPrevSelected:"
+- "setProcessInputBlock:"
+- "setProcessMixBlock:"
+- "setProcessOutputBlock:"
+- "setProperty:withQualifierSize:qualifierData:dataSize:andData:forClient:"
+- "setProperty:withSize:forID:"
+- "setPropertyAddress:"
+- "setPropertyChangedDelegate:"
+- "setPropertyStrip:"
+- "setPropertyWithQualifierSize:qualifierData:dataSize:andData:forClient:"
+- "setRange:"
+- "setReadFormat:"
+- "setReadInputBlock:"
+- "setReadIsolatedInputBlock:"
+- "setReaderRunning:"
+- "setRequiresAuthentication:"
+- "setRightPanChannel:"
+- "setRingBufferFrameCapacity:"
+- "setSampleRate:"
+- "setSamplingRate:"
+- "setSamplingRateRanges:"
+- "setSamplingRates:"
+- "setScalarValue:"
+- "setSelected:"
+- "setSelectedValue:"
+- "setSelectedValues:"
+- "setSelectedValues:withCount:"
+- "setSerialNumber:"
+- "setSettable:"
+- "setStartingChannel:"
+- "setStreamName:"
+- "setSubstitutions:"
+- "setSupportsExternalSecureMute:"
+- "setSupportsExternalVoiceActivityDetect:"
+- "setSupportsHeySiri:"
+- "setSupportsIdentify:"
+- "setSupportsIsolatedIO:"
+- "setTerminalType:"
+- "setText:"
+- "setTimestampPeriod:"
+- "setTransportType:"
+- "setUnderlyingInputStreamCount:"
+- "setUnderlyingObject:"
+- "setUnderlyingOutputStreamCount:"
+- "setUnderlyingStreams:"
+- "setValue:"
+- "setVariableSliceDuration:forSampleRate:"
+- "setWantsDisplayRouting:"
+- "setWillDoConvertInputBlock:"
+- "setWillDoConvertMixBlock:"
+- "setWillDoMixOutputBlock:"
+- "setWillDoProcessInputBlock:"
+- "setWillDoProcessMixBlock:"
+- "setWillDoProcessOutputBlock:"
+- "setWillDoReadInputBlock:"
+- "setWillDoWriteMixBlock:"
+- "setWithCapacity:"
+- "setWithObjects:"
+- "setWriteFormat:"
+- "setWriteMixBlock:"
+- "setWriterRunning:"
+- "settable"
+- "setupDiagnosticStateDumpHandlerWithTreeWalk:"
+- "setupIsolatedIOForStream:frameSize:useCase:"
+- "sleepForNumberOfSamples:"
+- "sliceDurationInSamples"
+- "sliderControlWithValue:andRange:isSettable:forElement:inScope:withPlugin:"
+- "startIOForClient:"
+- "startInjectingBoxes:inGraph:error:"
+- "startInjectingPort:toFile:shouldLoop:"
+- "startReader"
+- "startRecordingAllBoxesInGraph:fromStream:toDirectory:withType:error:"
+- "startRecordingBoxes:inGraph:fromStream:toDirectory:withType:andMode:error:"
+- "startRecordingBoxes:inGraph:fromStream:toDirectory:withType:error:"
+- "startRecordingBoxes:inGraph:toDirectory:error:"
+- "startRecordingBoxes:inGraph:toDirectory:withMode:error:"
+- "startRecordingPort:toFile:"
+- "startRecordingPort:toFile:withAudioCapturerOptions:"
+- "startStream"
+- "startWriter"
+- "startingChannel"
+- "stopIOForClient:"
+- "stopInjectingBoxesInGraph:"
+- "stopInjectingPort:"
+- "stopReader"
+- "stopRecordingBoxesInGraph:"
+- "stopRecordingPort:"
+- "stopStream"
+- "stopWriter"
+- "streamName"
+- "string"
+- "stringByAppendingPathComponent:"
+- "stringByAppendingString:"
+- "stringByReplacingOccurrencesOfString:withString:"
+- "stringFromDate:"
+- "stringMapFromStringDictionary:"
+- "stringVectorFromStringArray:"
+- "stringWithFormat:"
+- "stringWithUTF8String:"
+- "substitutions"
+- "superclass"
+- "supportsExternalSecureMute"
+- "supportsExternalVoiceActivityDetect"
+- "supportsHeySiri"
+- "supportsIdentify"
+- "supportsIsolatedIO"
+- "supportsSamplingRate:"
+- "suspendProcessing"
+- "systemHasPoweredOn"
+- "systemWillSleep"
+- "teardownIsolatedIOForStream:useCase:"
+- "terminalType"
+- "text"
+- "timestampPeriod"
+- "transportType"
+- "unconfigure"
+- "underlyingDevice"
+- "underlyingDeviceHasAllProperties:"
+- "underlyingDeviceProperties"
+- "underlyingInputStreamCount"
+- "underlyingObject"
+- "underlyingOutputStreamCount"
+- "underlyingStreams"
+- "uninitialize"
+- "unsignedIntValue"
+- "unsignedIntegerValue"
+- "updateDeviceDSPConfiguration"
+- "updateLatency"
+- "updateTimestampPeriod"
+- "v16@0:8"
+- "v20@0:8B16"
+- "v20@0:8I16"
+- "v20@0:8f16"
+- "v20@0:8i16"
+- "v24@0:8@\"ASDCustomProperty\"16"
+- "v24@0:8@\"ASDStreamFormat\"16"
+- "v24@0:8@16"
+- "v24@0:8@?16"
+- "v24@0:8I16B20"
+- "v24@0:8Q16"
+- "v24@0:8^v16"
+- "v24@0:8^{AudioServerPlugInHostInterface=^?^?^?^?^?}16"
+- "v24@0:8d16"
+- "v24@0:8q16"
+- "v24@0:8{_ASDSliderRange=II}16"
+- "v28@0:8I16q20"
+- "v28@0:8^{AudioChannelDescription=II[3f]}16I24"
+- "v28@0:8r^{AudioObjectPropertyAddress=III}16I24"
+- "v28@0:8{AudioObjectPropertyAddress=III}16"
+- "v32@0:8@16@24"
+- "v32@0:8^I16^I24"
+- "v32@0:8^{AudioChannelDescription=II[3f]}16I24I28"
+- "v32@0:8q16@24"
+- "v32@0:8r^{AudioObjectPropertyAddress=III}16@\"ASDObject\"24"
+- "v32@0:8r^{AudioObjectPropertyAddress=III}16@24"
+- "value"
+- "value: %x (%c%c%c%c), name: \"%@\", kind: %x (%c%c%c%c)%s"
+- "valueForKey:"
+- "values"
+- "volumeControlWithDecibelValue:minimumValue:maximumValue:isSettable:forElement:inScope:withPlugin:"
+- "wantsDisplayRouting"
+- "willDoConvertInputBlock"
+- "willDoConvertInputBlockUnretainedPtr"
+- "willDoConvertMixBlock"
+- "willDoConvertMixBlockUnretainedPtr"
+- "willDoMixOutputBlock"
+- "willDoMixOutputBlockUnretainedPtr"
+- "willDoProcessInputBlock"
+- "willDoProcessInputBlockUnretainedPtr"
+- "willDoProcessMixBlock"
+- "willDoProcessMixBlockUnretainedPtr"
+- "willDoProcessOutputBlock"
+- "willDoProcessOutputBlockUnretainedPtr"
+- "willDoReadInputBlock"
+- "willDoReadInputBlockUnretainedPtr"
+- "willDoWriteMixBlock"
+- "willDoWriteMixBlockUnretainedPtr"
+- "withValue:"
+- "withValue:andName:"
+- "withValue:andName:selected:"
+- "withValue:name:andKind:"
+- "withValue:name:andKind:selected:"
+- "writeBlock"
+- "writeFormat"
+- "writeMixBlock"
+- "writeMixBlockUnretainedPtr"
+- "writerRunning"
+- "zone"
+- "{?=\"valid\"C\"sampleTime\"d\"hostTime\"Q\"seed\"Q}"
+- "{AudioObjectPropertyAddress=\"mSelector\"I\"mScope\"I\"mElement\"I}"
+- "{AudioObjectPropertyAddress=III}16@0:8"
+- "{AudioStreamBasicDescription=dIIIIIIII}16@0:8"
+- "{AudioStreamRangedDescription={AudioStreamBasicDescription=dIIIIIIII}{AudioValueRange=dd}}16@0:8"
+- "{_ASDSliderRange=\"mMinimum\"I\"mMaximum\"I}"
+- "{_ASDSliderRange=II}16@0:8"
+- "{list<ASDDSPGraphHelper, std::allocator<ASDDSPGraphHelper>>=\"__end_\"{__list_node_base<ASDDSPGraphHelper, void *>=\"__prev_\"^v\"__next_\"^v}\"\"{?=\"__size_\"Q}}"
+- "{optional<AudioCapturerOptions>=(?=cQ)B}24@0:8q16"
+- "{os_unfair_lock_s=\"_os_unfair_lock_opaque\"I}"
+- "{shared_ptr<DSPGraph::Graph>=\"__ptr_\"^{Graph}\"__cntrl_\"^{__shared_weak_count}}"
+- "{shared_ptr<DSPGraph::Graph>=^{Graph}^{__shared_weak_count}}16@0:8"
+- "{unique_ptr<ASDBufferList, std::default_delete<ASDBufferList>>=\"\"{?=\"__ptr_\"^{ASDBufferList}}}"
+- "{unique_ptr<ASDDSPStreamHelper, std::default_delete<ASDDSPStreamHelper>>=\"\"{?=\"__ptr_\"^{ASDDSPStreamHelper}}}"
+- "{unique_ptr<ASDSRCStreamHelper, std::default_delete<ASDSRCStreamHelper>>=\"\"{?=\"__ptr_\"^{ASDSRCStreamHelper}}}"
+- "{unique_ptr<AudioRingBuffer, std::default_delete<AudioRingBuffer>>=\"\"{?=\"__ptr_\"^{AudioRingBuffer}}}"
+- "{unique_ptr<DSPGraph::Interpreter, std::default_delete<DSPGraph::Interpreter>>=\"\"{?=\"__ptr_\"^{Interpreter}}}"
+- "{unique_ptr<caulk::concurrent::guarded_lookup_hash_table<unsigned long long, ASDDSPGraphHelper *, caulk::concurrent::guarded_lookup_hash_table_must_count_dereferences>, std::default_delete<caulk::concurrent::guarded_lookup_hash_table<unsigned long long, ASDDSPGraphHelper *, caulk::concurrent::guarded_lookup_hash_table_must_count_dereferences>>>=\"\"{?=\"__ptr_\"^v}}"
+- "{unordered_map<std::string, std::string, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::pair<const std::string, std::string>>>={__hash_table<std::__hash_value_type<std::string, std::string>, std::__unordered_map_hasher<std::string, std::pair<const std::string, std::string>, std::hash<std::string>, std::equal_to<std::string>>, std::__unordered_map_equal<std::string, std::pair<const std::string, std::string>, std::equal_to<std::string>, std::hash<std::string>>, std::allocator<std::pair<const std::string, std::string>>>={unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, std::string>, void *> *> *[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, std::string>, void *> *> *>>>={?=^^v{__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, std::string>, void *> *> *>>={?=Q}}}}{?={__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, std::string>, void *> *>=^v}}{?=Q}{?=f}}}24@0:8@16"
+- "{vector<std::string, std::allocator<std::string>>=^v^v{?=^v}}24@0:8@16"
+- "\xf0\xf0\xf0\x81"
+
+```

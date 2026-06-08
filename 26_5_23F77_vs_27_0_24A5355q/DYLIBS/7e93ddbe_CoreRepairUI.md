@@ -1,0 +1,2112 @@
+## CoreRepairUI
+
+> `/System/Library/PrivateFrameworks/CoreRepairUI.framework/CoreRepairUI`
+
+```diff
+
+-921.120.4.0.0
+-  __TEXT.__text: 0x1c7f4 sha256:a2fc5b94aca729dde66001c6057dbb075ec3ba2c28ea6ce1df93d4e843277333
+-  __TEXT.__auth_stubs: 0x680 sha256:01a7c6de38e90a9c3d4bafe918312fec770d52fd1d935c2034ea85f6ac2f958a
+-  __TEXT.__objc_methlist: 0x13bc sha256:63bdc1e3b228134f8316a2c70a577613ed416bf431d5b6f6fef89a982ea42c6d
+-  __TEXT.__const: 0xb0 sha256:28c783e3560fe97266753cbc820aaf6d1341ff5ca5eb7257a28d1178539a3e0e
+-  __TEXT.__cstring: 0x2fb3 sha256:f7523e6e849c35bee8345e0f6cdc052bc4d37e77b7839b1172f6d525e64df0ac
+-  __TEXT.__gcc_except_tab: 0x454 sha256:9ee8a83479b9fe6cb6adfe6c1e8a116469374db65acd50d6e2341d3622b44271
+-  __TEXT.__oslogstring: 0xd2a sha256:0c0be03ebd04c4defacb60a96f2515407294b1a31c373b296e5450378e90ee40
+-  __TEXT.__unwind_info: 0x598 sha256:e42d4093106ee149b2505e67d691d84948ebe8008cbcfb7108c996c2a30bdcb1
+-  __TEXT.__objc_classname: 0x6a7 sha256:0b584377791f1e78c86332e3bed8f98e49679ce907ef6c6c8e19df3650281554
+-  __TEXT.__objc_methname: 0x34d7 sha256:663a520f513a5443b2e5a61ed9aa55c4afcdfb480c7aec3c0e4c713858a71412
+-  __TEXT.__objc_methtype: 0x3b2 sha256:3d21750c401e8623f6e792a2b0dccf50ec4e143352417404ceb99f9249ea4d4d
+-  __TEXT.__objc_stubs: 0x2fe0 sha256:03219064fa3b14a2e44cf5e92c59bc74d08c10e688859bc8d9989d305abc5367
+-  __DATA_CONST.__got: 0x470 sha256:a851c975fd166f5b83ad7c502e0739aec652760c503aff7a269a73117b5b4626
+-  __DATA_CONST.__const: 0x428 sha256:2187270e5059084d0c84d071c539eacb031d6a132e8e6d5d0e505967c3b4bb28
+-  __DATA_CONST.__objc_classlist: 0x1c8 sha256:5258dc1a7521b13a46af35f8b13a67da08776de34014e087b7d94bee39337b57
+-  __DATA_CONST.__objc_protolist: 0x10 sha256:88ab4d3df0b8e81f56b96dd129a9c64289a8d36471cdfb8a53557bd6d614cd3d
++1291.0.0.502.1
++  __TEXT.__text: 0x19720 sha256:e6b34639cd31f11bed4f3ea9c7f58e371b03c7cc96bb206833fe29173243ca0c
++  __TEXT.__objc_methlist: 0x1414 sha256:4387132f9f60584d583762304242d90e0db63cbd51aad33525ce10eb76e34b07
++  __TEXT.__const: 0xb8 sha256:4f2dcbe3b8581b6f4fb096a72762fcb52165a929847b792adc129be7aff731ae
++  __TEXT.__cstring: 0x2f67 sha256:2a8a4c6f1d3b9d747d341b54bd7279a625711edf35b1509d859a4dd6eacd9520
++  __TEXT.__oslogstring: 0xd66 sha256:087ba182a2cc1742b017a9f1f06b519df86718b839ba7c1afe08fabcfa15dabf
++  __TEXT.__gcc_except_tab: 0x3c0 sha256:8743ec2cd1c9761369f845a6b9bc2c3e80c1e3d1eb0ead106e43625b49cfcbec
++  __TEXT.__unwind_info: 0x480 sha256:9e02447c1e2b24e77e626590574c57a292825e97a66c508a6fd14857689548f9
++  __TEXT.__objc_stubs: 0x0
++  __TEXT.__auth_stubs: 0x0
++  __TEXT.__objc_classname: 0x0
++  __TEXT.__objc_methname: 0x0
++  __TEXT.__objc_methtype: 0x0
++  __DATA_CONST.__const: 0x428 sha256:37e273837957d3f11a424b43e3589ea90f2821f9b98e9152a49d0d1429f826da
++  __DATA_CONST.__objc_classlist: 0x1e0 sha256:02e20a69f1a625c9f658750cc7ba9e2d2e185cbc5fc6012ccfb067805efb185c
++  __DATA_CONST.__objc_protolist: 0x10 sha256:7c65de9c7d2248f5fca84dc413d08395ee42006510e027e07c8c7bd2f241d2c8
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0xdf0 sha256:c4dc07ecdaaf4fc3ca4d01826f83b4619b9ecc99e828065a2533360d90efb409
+-  __DATA_CONST.__objc_protorefs: 0x10 sha256:a8a0d12307ab863c577ff7be03fcccff615239d15614c1bab265c7c7ea08b82a
+-  __DATA_CONST.__objc_superrefs: 0x1b0 sha256:a4edd875f3d2128726b86c53e009e92b75e6ca99b4e6c57ec81158c26541c190
+-  __DATA_CONST.__objc_arraydata: 0x10 sha256:32e4d12fdc646f948bf10cd8f11f07f9dcf166ed93b83699f271201d99d4ede1
+-  __AUTH_CONST.__auth_got: 0x350 sha256:4925b9b6329f24346bce043f2cdabb940199fd87188f3ae77c9559bf7cfa9f43
+-  __AUTH_CONST.__const: 0x140 sha256:e909e50210162406596ec783e6fe8c310b8b8d5133ae67d7a7b54d7080359e06
+-  __AUTH_CONST.__cfstring: 0x3c20 sha256:94c7a38160dbfe84115d163cae302e3cd06c34d64590102f25b2875b5c69115e
+-  __AUTH_CONST.__objc_const: 0x2f80 sha256:2a26da8674b82d893e2dc1ae49d4320446b794d774a5b860bb1ab2f71c1d97fb
+-  __AUTH_CONST.__objc_intobj: 0x48 sha256:0c65f79c99824cbeeb00f0351c7fbe13b109abdbe01c64dfc6ec89c89c6f96eb
+-  __AUTH_CONST.__objc_dictobj: 0x28 sha256:2a548841c80ff0dc602c7b4a4da1ff453feadf00561c16c85264382739f2abdc
+-  __AUTH.__objc_data: 0x11d0 sha256:34b0fdcc9ee3ae408f6493ce3769230b0631fb15b393b1bee64bc02fc9555981
+-  __DATA.__objc_ivar: 0x138 sha256:4cc4425c029c38db2bcb9d714ecfad35e9ca16e3627b043d324386b92a4db54f
+-  __DATA.__data: 0xc0 sha256:1f2741c8d749e7cabbea5954349e86a76835624d3a763a7a2e5605251b1ce05d
+-  __DATA.__bss: 0x128 sha256:250f52cb2d6f1966a29f6ac771fa1cd185b8f8531396c8a4026c0fe635617e0c
++  __DATA_CONST.__objc_selrefs: 0xd90 sha256:7425221609e4c6ae9779e2cae64ce6edd21ec5dacd41da21e0db5ba874ef0031
++  __DATA_CONST.__objc_protorefs: 0x10 sha256:9fe334eae2f3fa59d9ab87ca68989966473ad0c558e6ac77fdc5585034267168
++  __DATA_CONST.__objc_superrefs: 0x1c0 sha256:d578af5408563fe0e08ac741d703aeab38c89c829d06a6d67e7880c3c2d2b99f
++  __DATA_CONST.__objc_arraydata: 0x38 sha256:036b7033349c5eb81d0c894a8b07728c7cc45cd32d110d4b877c0a8dc7619088
++  __DATA_CONST.__got: 0x468 sha256:1becbbd96f8df18b1ef5e3e620736181fe2cc197e48f3b8b77722963f6e786ba
++  __AUTH_CONST.__const: 0x1e0 sha256:a9946c183eab891e99d97eb4dbb0bf1d2b4d2964f0f48ad9dc621de31a180c68
++  __AUTH_CONST.__cfstring: 0x39e0 sha256:95d309070137ddb169e70d7418c0fea2a4bcafb7366feab947595ff12598d79d
++  __AUTH_CONST.__objc_const: 0x32d8 sha256:59b8dbeec7abc20d44d38c77e226c255c5aae2272680f5ec09ec17e503135f33
++  __AUTH_CONST.__objc_dictobj: 0x28 sha256:4236c5b58025f963cc3abdf6f685499d6118be7b7c653bf02368397881673527
++  __AUTH_CONST.__objc_intobj: 0x48 sha256:b42fc2b941c324ac0304699298593603fab6c1abddcebf476358444a7e1a4c18
++  __AUTH_CONST.__objc_arrayobj: 0x18 sha256:b36f2461cc5dd9df0db2f4874b1fdd7ddc1b2cc273a8a720d3c788d3b7d92139
++  __AUTH_CONST.__auth_got: 0x0
++  __AUTH.__objc_data: 0x12c0 sha256:8231c0bf41873e58fcc86a634c6d5c95ccfbd7a7905a6f80021581843b12e9de
++  __DATA.__objc_ivar: 0x158 sha256:9518d60c0aa0a1caf94b22d77a91ef67cbf210dc9bdfe14ae19c5ffe19c63d1e
++  __DATA.__data: 0xc0 sha256:9f48c0470770b3171b791d7c0295473748a42ce7f41c6ae14aa0fa9351788c45
++  __DATA.__bss: 0x130 sha256:e2fc162ed9124452d23c85e81d60a0c228f414c3214a5de635737e25fbd29ac1
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreServices.framework/CoreServices
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 31EE40EB-C68B-3372-89F4-F94E54242BDC
+-  Functions: 459
+-  Symbols:   2051
+-  CStrings:  1749
++  UUID: 756EDB0F-3721-3B68-B18B-F56812D39157
++  Functions: 461
++  Symbols:   249
++  CStrings:  1067
+ 
+Symbols:
++ _OBJC_CLASS_$_CRDisplayTCONStatus
++ _OBJC_CLASS_$_NSConstantArray
++ _OBJC_CLASS_$_SystemHealthViewController
++ _OBJC_METACLASS_$_SystemHealthViewController
++ _objc_claimAutoreleasedReturnValue
++ _objc_opt_respondsToSelector
++ _objc_retainAutoreleaseReturnValue
++ _objc_retain_x1
++ _objc_retain_x5
+- +[CRUFollowUpHeaderCell cellStyle]
+- +[MRAudioCodecComponentHandler handleSUCase]
+- +[MRAudioCodecComponentHandler sharedSingleton]
+- +[MRAudioComponentHandler handleSUCase]
+- +[MRAudioComponentHandler sharedSingleton]
+- +[MRBackGlassComponentHandler sharedSingleton]
+- +[MRBaseComponentHandler getHwRevision]
+- +[MRBaseComponentHandler getHwRevision].cold.1
+- +[MRBaseComponentHandler getHwRevision].cold.2
+- +[MRBaseComponentHandler handleComponentSUCase:lastAUthCheckBuildVersion:followUpItemID:queryString:suCasekey:startBuildVersion:componentAuth:]
+- +[MRBaseComponentHandler handleSUCase]
+- +[MRBasebandComponentHandler handleSUCase]
+- +[MRBasebandComponentHandler sharedSingleton]
+- +[MRBatteryComponentHandler handleSUCase]
+- +[MRBatteryComponentHandler sharedSingleton]
+- +[MRBluetoothComponentHandler sharedSingleton]
+- +[MRCameraComponentHandler handleSUCase]
+- +[MRCameraComponentHandler sharedSingleton]
+- +[MRDisplayComponentHandler handleSUCase]
+- +[MRDisplayComponentHandler sharedSingleton]
+- +[MRFaceIDComponentHandler handleSUCase]
+- +[MRFaceIDComponentHandler sharedSingleton]
+- +[MRNFCComponentHandler handleSUCase]
+- +[MRNFCComponentHandler sharedSingleton]
+- +[MRRCamComponentHandler sharedSingleton]
+- +[MRTouchIDComponentHandler sharedSingleton]
+- +[MRUINotificationHelper sharedSingleton]
+- +[MRUWBComponentHandler handleSUCase]
+- +[MRUWBComponentHandler sharedSingleton]
+- +[MRWifiComponentHandler handleSUCase]
+- +[MRWifiComponentHandler sharedSingleton]
+- +[SystemHealthUI sharedInstance]
+- +[SystemHealthUI sharedInstance].cold.1
+- -[CRDetailViewComponentAudio init]
+- -[CRDetailViewComponentAudio specifiers]
+- -[CRDetailViewComponentBackGlassFinishRepair init]
+- -[CRDetailViewComponentBackGlassFinishRepair specifiers]
+- -[CRDetailViewComponentBaseband init]
+- -[CRDetailViewComponentBaseband specifiers]
+- -[CRDetailViewComponentBattery init]
+- -[CRDetailViewComponentBattery specifiers]
+- -[CRDetailViewComponentBatteryFinishRepair init]
+- -[CRDetailViewComponentBatteryFinishRepair specifiers]
+- -[CRDetailViewComponentBatteryRepair init]
+- -[CRDetailViewComponentBatteryRepair specifiers]
+- -[CRDetailViewComponentBatteryService specifiers]
+- -[CRDetailViewComponentBluetooth init]
+- -[CRDetailViewComponentBluetooth specifiers]
+- -[CRDetailViewComponentCamera init]
+- -[CRDetailViewComponentCamera specifiers]
+- -[CRDetailViewComponentCameraFinishRepair init]
+- -[CRDetailViewComponentCameraFinishRepair specifiers]
+- -[CRDetailViewComponentCameraRepair init]
+- -[CRDetailViewComponentCameraRepair specifiers]
+- -[CRDetailViewComponentCoverGlassFinishRepair init]
+- -[CRDetailViewComponentCoverGlassFinishRepair specifiers]
+- -[CRDetailViewComponentDisplay init]
+- -[CRDetailViewComponentDisplay specifiers]
+- -[CRDetailViewComponentDisplayFinishRepair init]
+- -[CRDetailViewComponentDisplayFinishRepair specifiers]
+- -[CRDetailViewComponentDisplayRepair init]
+- -[CRDetailViewComponentDisplayRepair specifiers]
+- -[CRDetailViewComponentEnclosureFinishRepair init]
+- -[CRDetailViewComponentEnclosureFinishRepair specifiers]
+- -[CRDetailViewComponentFaceID init]
+- -[CRDetailViewComponentFaceID specifiers]
+- -[CRDetailViewComponentFaceIDFinishRepair init]
+- -[CRDetailViewComponentFaceIDFinishRepair specifiers]
+- -[CRDetailViewComponentFaceIDRepair init]
+- -[CRDetailViewComponentFaceIDRepair specifiers]
+- -[CRDetailViewComponentMtubRepair init]
+- -[CRDetailViewComponentMtubRepair specifiers]
+- -[CRDetailViewComponentMtubSalvaged init]
+- -[CRDetailViewComponentMtubSalvaged specifiers]
+- -[CRDetailViewComponentNFC init]
+- -[CRDetailViewComponentNFC specifiers]
+- -[CRDetailViewComponentNFC specifiers].cold.1
+- -[CRDetailViewComponentRCameraHWFailed init]
+- -[CRDetailViewComponentRCameraHWFailed specifiers]
+- -[CRDetailViewComponentTable specifiers]
+- -[CRDetailViewComponentTouchID init]
+- -[CRDetailViewComponentTouchID specifiers]
+- -[CRDetailViewComponentTouchIDFinishRepair init]
+- -[CRDetailViewComponentTouchIDFinishRepair specifiers]
+- -[CRDetailViewComponentTouchIDRepair init]
+- -[CRDetailViewComponentTouchIDRepair specifiers]
+- -[CRDetailViewComponentUWB init]
+- -[CRDetailViewComponentUWB specifiers]
+- -[CRDetailViewComponentUWB specifiers].cold.1
+- -[CRDetailViewComponentVolumeButtonFinishRepair init]
+- -[CRDetailViewComponentVolumeButtonFinishRepair specifiers]
+- -[CRDetailViewComponentWifi init]
+- -[CRDetailViewComponentWifi specifiers]
+- -[CRUActionCell handleTapOnLabel]
+- -[CRUActionCell refreshCellContentsWithSpecifier:]
+- -[CRUAlertCell refreshCellContentsWithSpecifier:]
+- -[CRUDetailCell refreshCellContentsWithSpecifier:]
+- -[CRUDetailViewComponent .cxx_destruct]
+- -[CRUDetailViewComponent buttonTitle]
+- -[CRUDetailViewComponent caaRepairHistoryDict]
+- -[CRUDetailViewComponent claimCount]
+- -[CRUDetailViewComponent componentName]
+- -[CRUDetailViewComponent componentRepairSpecifierForComponent:IsUsed:repairDate:]
+- -[CRUDetailViewComponent componentSalvagedSpecifierForComponent:]
+- -[CRUDetailViewComponent componentSpecifierForComponent:]
+- -[CRUDetailViewComponent dataCollectionClassExist]
+- -[CRUDetailViewComponent deviceClass]
+- -[CRUDetailViewComponent deviceHistory]
+- -[CRUDetailViewComponent footerText]
+- -[CRUDetailViewComponent handleNonGenuineComponentTap:]
+- -[CRUDetailViewComponent infoCollectionSpecifier]
+- -[CRUDetailViewComponent informativeText]
+- -[CRUDetailViewComponent init]
+- -[CRUDetailViewComponent isUsed]
+- -[CRUDetailViewComponent kbArticleURL]
+- -[CRUDetailViewComponent locale]
+- -[CRUDetailViewComponent rchlRepairHistory]
+- -[CRUDetailViewComponent repairDate]
+- -[CRUDetailViewComponent repairHistoryItems]
+- -[CRUDetailViewComponent setButtonTitle:]
+- -[CRUDetailViewComponent setCaaRepairHistoryDict:]
+- -[CRUDetailViewComponent setClaimCount:]
+- -[CRUDetailViewComponent setComponentName:]
+- -[CRUDetailViewComponent setDataCollectionClassExist:]
+- -[CRUDetailViewComponent setDeviceHistory:]
+- -[CRUDetailViewComponent setFooterText:]
+- -[CRUDetailViewComponent setInfoCollectionSpecifier:]
+- -[CRUDetailViewComponent setInformativeText:]
+- -[CRUDetailViewComponent setIsUsed:]
+- -[CRUDetailViewComponent setKbArticleURL:]
+- -[CRUDetailViewComponent setLocale:]
+- -[CRUDetailViewComponent setRchlRepairHistory:]
+- -[CRUDetailViewComponent setRepairDate:]
+- -[CRUDetailViewComponent setRepairHistoryItems:]
+- -[CRUDetailViewComponent setTitleText:]
+- -[CRUDetailViewComponent titleText]
+- -[CRUFollowUpHeaderCell .cxx_destruct]
+- -[CRUFollowUpHeaderCell createFollowUpSubtitle]
+- -[CRUFollowUpHeaderCell createFollowUpTitle]
+- -[CRUFollowUpHeaderCell handleTapOnLabel]
+- -[CRUFollowUpHeaderCell initWithStyle:reuseIdentifier:specifier:]
+- -[CRUFollowUpHeaderCell layoutSubviews]
+- -[CRUFollowUpHeaderCell refreshCellContentsWithSpecifier:]
+- -[CRUFollowUpHeaderCell updateConstraints]
+- -[CRUIAnalytics .cxx_destruct]
+- -[CRUIAnalytics init]
+- -[CRUIAnalytics sendAnalyticsForRepairHistoryMismatch]
+- -[CRUIAnalytics sendAsyncAnalyticsForEvent:moduleName:]
+- -[CRUIAnalytics sendAsyncAnalyticsForEventIfNeeded:moduleName:]
+- -[CRUMultilineLinkCell initWithStyle:reuseIdentifier:]
+- -[CRUMultilineTextCell initWithStyle:reuseIdentifier:]
+- -[CoreRepairUIUtils _preflight:]
+- -[CoreRepairUIUtils clearCAARequestHistory]
+- -[CoreRepairUIUtils clearFollowUpForkey:]
+- -[CoreRepairUIUtils getCAAForRepairHistory]
+- -[CoreRepairUIUtils getCpuUptimeInSec]
+- -[CoreRepairUIUtils getCpuUptimeInSec].cold.1
+- -[CoreRepairUIUtils getRepairTicket]
+- -[CoreRepairUIUtils hasConnectivity]
+- -[CoreRepairUIUtils isBatteryInServiceState]
+- -[CoreRepairUIUtils isPreFlightDone]
+- -[CoreRepairUIUtils isPreflightSuccessful]
+- -[CoreRepairUIUtils isPreflightSuccessful].cold.1
+- -[CoreRepairUIUtils isVaildCAA:]
+- -[CoreRepairUIUtils isVaildCAA:].cold.1
+- -[CoreRepairUIUtils isVaildCAA:].cold.2
+- -[CoreRepairUIUtils isVaildCAA:].cold.3
+- -[CoreRepairUIUtils isbatteryLevelBelowThreshold]
+- -[CoreRepairUIUtils performBackGroundMiniPreflight]
+- -[CoreRepairUIUtils performInteractiveMiniPreflightWith:]
+- -[CoreRepairUIUtils requestCAA]
+- -[CoreRepairUIUtils retryCAA]
+- -[CoreRepairUIUtils scheduleNetworkActivityWith:]
+- -[CoreRepairUIUtils setBootIntentAndReboot]
+- -[CoreRepairUIUtils setupCAARetry:]
+- -[CoreRepairUIUtils setupCAARetry:].cold.1
+- -[MRAudioCodecComponentHandler _init]
+- -[MRAudioCodecComponentHandler init]
+- -[MRAudioComponentHandler _init]
+- -[MRAudioComponentHandler init]
+- -[MRBackGlassComponentHandler _init]
+- -[MRBaseComponentHandler .cxx_destruct]
+- -[MRBaseComponentHandler checkInAndHandleAuthStatus]
+- -[MRBaseComponentHandler checkInAndHandleAuthStatus].cold.1
+- -[MRBaseComponentHandler clearNSUserDefaults]
+- -[MRBaseComponentHandler clearRepairFollowUp]
+- -[MRBaseComponentHandler clearStateFile:]
+- -[MRBaseComponentHandler componentAuthHandler]
+- -[MRBaseComponentHandler componentDataCollectionPresentedKey]
+- -[MRBaseComponentHandler componentEnableNonAuthUIKey]
+- -[MRBaseComponentHandler componentFirstUIDisplayedTimeKey]
+- -[MRBaseComponentHandler componentFollowupClientID]
+- -[MRBaseComponentHandler componentFollowupRetriggerdays]
+- -[MRBaseComponentHandler componentForceKey]
+- -[MRBaseComponentHandler componentHasDisplayedFollowUpKey]
+- -[MRBaseComponentHandler componentHasNotifiedServerKey]
+- -[MRBaseComponentHandler componentId]
+- -[MRBaseComponentHandler componentLastCheckTimeKey]
+- -[MRBaseComponentHandler componentName]
+- -[MRBaseComponentHandler componentNtwkActivityName]
+- -[MRBaseComponentHandler componentRetriggerCountKey]
+- -[MRBaseComponentHandler componentSUCaseKey]
+- -[MRBaseComponentHandler componentStatusKey]
+- -[MRBaseComponentHandler componentUnLockCheckCountKey]
+- -[MRBaseComponentHandler componentUnlockCheckerActivityName]
+- -[MRBaseComponentHandler componentfollowUpDisplaydays]
+- -[MRBaseComponentHandler createCriteriaForUnlockCheckerWithInterval:]
+- -[MRBaseComponentHandler createFinishRepairFollowUpWithNotification:]
+- -[MRBaseComponentHandler createRepairFollowUp]
+- -[MRBaseComponentHandler deviceClass]
+- -[MRBaseComponentHandler disableUIForComponent]
+- -[MRBaseComponentHandler displayFollowup]
+- -[MRBaseComponentHandler displayModalPopup]
+- -[MRBaseComponentHandler displayNotification]
+- -[MRBaseComponentHandler finishRepairKey]
+- -[MRBaseComponentHandler finishRepairMessage]
+- -[MRBaseComponentHandler finishRepairTitle]
+- -[MRBaseComponentHandler followUpInfoMessage]
+- -[MRBaseComponentHandler init]
+- -[MRBaseComponentHandler isSUCaseForComponent]
+- -[MRBaseComponentHandler lastKnownComponentIdentifierKey]
+- -[MRBaseComponentHandler lastKnownComponentIdentifierValue]
+- -[MRBaseComponentHandler legacyPopup]
+- -[MRBaseComponentHandler linkedSensitiveURL]
+- -[MRBaseComponentHandler mainNonAuthRepairFlow]
+- -[MRBaseComponentHandler notifyServer]
+- -[MRBaseComponentHandler popUpNotificationMessage]
+- -[MRBaseComponentHandler popUpNotificationNowWithMessage]
+- -[MRBaseComponentHandler popUpNotificationTitle]
+- -[MRBaseComponentHandler scheduleNetworkActivity]
+- -[MRBaseComponentHandler scheduleUnlockCheckerActivity:forFinishRepair:]
+- -[MRBaseComponentHandler sendAnalyticsForCount:]
+- -[MRBaseComponentHandler sendAnalyticsForCount:].cold.1
+- -[MRBaseComponentHandler setComponentAuthHandler:]
+- -[MRBaseComponentHandler setComponentDataCollectionPresentedKey:]
+- -[MRBaseComponentHandler setComponentEnableNonAuthUIKey:]
+- -[MRBaseComponentHandler setComponentFirstUIDisplayedTimeKey:]
+- -[MRBaseComponentHandler setComponentFollowupClientID:]
+- -[MRBaseComponentHandler setComponentFollowupRetriggerdays:]
+- -[MRBaseComponentHandler setComponentForceKey:]
+- -[MRBaseComponentHandler setComponentHasDisplayedFollowUpKey:]
+- -[MRBaseComponentHandler setComponentHasNotifiedServerKey:]
+- -[MRBaseComponentHandler setComponentId:]
+- -[MRBaseComponentHandler setComponentLastCheckTimeKey:]
+- -[MRBaseComponentHandler setComponentName:]
+- -[MRBaseComponentHandler setComponentNtwkActivityName:]
+- -[MRBaseComponentHandler setComponentRetriggerCountKey:]
+- -[MRBaseComponentHandler setComponentSUCaseKey:]
+- -[MRBaseComponentHandler setComponentStatusKey:]
+- -[MRBaseComponentHandler setComponentUnLockCheckCountKey:]
+- -[MRBaseComponentHandler setComponentUnlockCheckerActivityName:]
+- -[MRBaseComponentHandler setComponentfollowUpDisplaydays:]
+- -[MRBaseComponentHandler setDeviceClass:]
+- -[MRBaseComponentHandler setDisableUIForComponent:]
+- -[MRBaseComponentHandler setDisplayFollowup:]
+- -[MRBaseComponentHandler setDisplayModalPopup:]
+- -[MRBaseComponentHandler setDisplayNotification:]
+- -[MRBaseComponentHandler setFinishRepairKey:]
+- -[MRBaseComponentHandler setFinishRepairMessage:]
+- -[MRBaseComponentHandler setFinishRepairTitle:]
+- -[MRBaseComponentHandler setFollowUpInfoMessage:]
+- -[MRBaseComponentHandler setIsSUCaseForComponent:]
+- -[MRBaseComponentHandler setLastKnownComponentIdentifierKey:]
+- -[MRBaseComponentHandler setLastKnownComponentIdentifierValue:]
+- -[MRBaseComponentHandler setLegacyPopup:]
+- -[MRBaseComponentHandler setLinkedSensitiveURL:]
+- -[MRBaseComponentHandler setNotifyServer:]
+- -[MRBaseComponentHandler setPopUpNotificationMessage:]
+- -[MRBaseComponentHandler setPopUpNotificationTitle:]
+- -[MRBaseComponentHandler setStateFilePath:]
+- -[MRBaseComponentHandler setSupportsRepair:]
+- -[MRBaseComponentHandler setTimeIntervalOverride:]
+- -[MRBaseComponentHandler setUnlockCheckActivityRequired:]
+- -[MRBaseComponentHandler stateFilePath]
+- -[MRBaseComponentHandler supportsRepair]
+- -[MRBaseComponentHandler timeIntervalOverride]
+- -[MRBaseComponentHandler unlockCheckActivityRequired]
+- -[MRBaseComponentHandler unlockCheckerActivityBodyForFinishRepair]
+- -[MRBaseComponentHandler unlockCheckerActivityBody]
+- -[MRBasebandComponentHandler _init]
+- -[MRBasebandComponentHandler init]
+- -[MRBatteryComponentHandler _init]
+- -[MRBatteryComponentHandler init]
+- -[MRBluetoothComponentHandler _init]
+- -[MRBluetoothComponentHandler init]
+- -[MRCameraComponentHandler _init]
+- -[MRCameraComponentHandler init]
+- -[MRDisplayComponentHandler _init]
+- -[MRDisplayComponentHandler init]
+- -[MRFaceIDComponentHandler _init]
+- -[MRNFCComponentHandler _init]
+- -[MRNFCComponentHandler init]
+- -[MRRCamComponentHandler _init]
+- -[MRRCamComponentHandler init]
+- -[MRSystemHealthComponentHandler .cxx_destruct]
+- -[MRSystemHealthComponentHandler componentEventQueue]
+- -[MRSystemHealthComponentHandler initWithComponentName:]
+- -[MRSystemHealthComponentHandler postComponentStatus:]
+- -[MRSystemHealthComponentHandler setComponentEventQueue:]
+- -[MRTouchIDComponentHandler _init]
+- -[MRUINotificationHelper .cxx_destruct]
+- -[MRUINotificationHelper _init]
+- -[MRUINotificationHelper clearRepairFollowUpWithUniqueID:]
+- -[MRUINotificationHelper createRepairFollowUpWithNotification:actionURL:repairTitle:infoText:itemID:timeInterval:componentName:]
+- -[MRUINotificationHelper init]
+- -[MRUINotificationHelper isSetupStillRunning]
+- -[MRUINotificationHelper popUpNotificationNowWithMessage:title:openSensitiveURL:componentName:legacyPopup:]
+- -[MRUINotificationHelper removeRepairNotificationsWithUniqueID:]
+- -[MRUINotificationHelper updateFollowupsToNewLocale]
+- -[MRUWBComponentHandler _init]
+- -[MRUWBComponentHandler init]
+- -[MRWifiComponentHandler _init]
+- -[MRWifiComponentHandler init]
+- -[SystemHealthUI .cxx_destruct]
+- -[SystemHealthUI _createFinishRepairSpecifierFor:detailView:moduleName:]
+- -[SystemHealthUI _createUnknownSpecifierFor:detailView:moduleName:]
+- -[SystemHealthUI _updateSpecifiers:specifierToInsertAfter:withUpdates:]
+- -[SystemHealthUI configureSpin:ofCellForSpecifier:setEnabled:]
+- -[SystemHealthUI constructSpecifiersWithPrivacySpecifier:rchlHistory:caaHistory:srvp:]
+- -[SystemHealthUI extractAudioSpecifiers]
+- -[SystemHealthUI extractBackGlassSpecifiers:configurationSpecifiers:caaRepairHistory:rchlHistory:]
+- -[SystemHealthUI extractBasebandSpecifiers:]
+- -[SystemHealthUI extractBatterySpecifiers:configurationSpecifiers:]
+- -[SystemHealthUI extractBluetoohSpecifiers]
+- -[SystemHealthUI extractCameraSpecifiers:componentsInfoSpecifiers:configurationSpecifiers:]
+- -[SystemHealthUI extractCoverGlassSpecifiers:]
+- -[SystemHealthUI extractDisplaySpecifiers:configurationSpecifiers:]
+- -[SystemHealthUI extractEnclosureSpecifiers:caaRepairHistory:rchlHistory:]
+- -[SystemHealthUI extractFaceIDSpecifiers:configurationSpecifiers:]
+- -[SystemHealthUI extractMtubSpecifiers:caaRepairHistory:srvp:rchlHistory:]
+- -[SystemHealthUI extractNFCSpecifiers:]
+- -[SystemHealthUI extractRCameraHWFailureSpecifiers]
+- -[SystemHealthUI extractTouchIDSpecifiers:configurationSpecifiers:]
+- -[SystemHealthUI extractUWBSpecifiers:]
+- -[SystemHealthUI extractVolumeButtonSpecifiers:]
+- -[SystemHealthUI extractWifiSpecifiers]
+- -[SystemHealthUI extractiPadBatterySpecifiers:]
+- -[SystemHealthUI extractiPadCameraSpecifiers:componentsInfoSpecifiers:configurationSpecifiers:caaRepairHistory:rchlHistory:]
+- -[SystemHealthUI findSpecifierToInsertAfter:]
+- -[SystemHealthUI findSpecifierToInsertAfter:].cold.1
+- -[SystemHealthUI getCurrentDetailsWithPrivacySpecifier:]
+- -[SystemHealthUI getCurrentSystemHealthInfoSpecifiers]
+- -[SystemHealthUI getNetworkAlert]
+- -[SystemHealthUI getOSUpdateAlert]
+- -[SystemHealthUI getPreFlightFailedAlert]
+- -[SystemHealthUI hasUnsealedComponents]
+- -[SystemHealthUI init]
+- -[SystemHealthUI parentViewController]
+- -[SystemHealthUI performInteractivePreflightWithSpecifier:]
+- -[SystemHealthUI reloadCurrentSystemHealthInfoSpecifiers]
+- -[SystemHealthUI setParentViewController:]
+- -[SystemHealthUI setupGroupSpecifer]
+- -[SystemHealthUI setupPrivacyFooterFor:withPrivacySpecifier:]
+- -[SystemHealthUI showActionSheets:]
+- -[SystemHealthUI updateSpecifiersWithCompletionHandler:]
+- -[SystemHealthUI valueForSpecifierFinishRepair]
+- -[SystemHealthUI valueForSpecifierIssue]
+- -[SystemHealthUI valueForSpecifierPartData:]
+- -[SystemHealthUI valueForSpecifierPartDate:]
+- -[SystemHealthUI valueForSpecifierPartProperty:]
+- -[SystemHealthUI valueForSpecifierPartRC:]
+- -[SystemHealthUI valueForSpecifierPartService:]
+- -[SystemHealthUI valueForSpecifierRepaired]
+- -[SystemHealthUI valueForSpecifierService]
+- -[SystemHealthUI valueForSpecifierUnknown]
+- -[SystemHealthUI valueForSpecifierUnverified]
+- -[SystemHealthUI valueForSpecifierUsed]
+- <redacted>
+- GCC_except_table14
+- GCC_except_table15
+- GCC_except_table16
+- GCC_except_table2
+- GCC_except_table30
+- GCC_except_table7
+- _CoreRepairUIVersionNumber
+- _CoreRepairUIVersionString
+- _OBJC_CLASS_$_CRDetailViewComponentAudio
+- _OBJC_CLASS_$_CRDetailViewComponentBackGlassFinishRepair
+- _OBJC_CLASS_$_CRDetailViewComponentBaseband
+- _OBJC_CLASS_$_CRDetailViewComponentBattery
+- _OBJC_CLASS_$_CRDetailViewComponentBatteryFinishRepair
+- _OBJC_CLASS_$_CRDetailViewComponentBatteryRepair
+- _OBJC_CLASS_$_CRDetailViewComponentBatteryService
+- _OBJC_CLASS_$_CRDetailViewComponentBluetooth
+- _OBJC_CLASS_$_CRDetailViewComponentCamera
+- _OBJC_CLASS_$_CRDetailViewComponentCameraFinishRepair
+- _OBJC_CLASS_$_CRDetailViewComponentCameraRepair
+- _OBJC_CLASS_$_CRDetailViewComponentCoverGlassFinishRepair
+- _OBJC_CLASS_$_CRDetailViewComponentDisplay
+- _OBJC_CLASS_$_CRDetailViewComponentDisplayFinishRepair
+- _OBJC_CLASS_$_CRDetailViewComponentDisplayRepair
+- _OBJC_CLASS_$_CRDetailViewComponentEnclosureFinishRepair
+- _OBJC_CLASS_$_CRDetailViewComponentFaceID
+- _OBJC_CLASS_$_CRDetailViewComponentFaceIDFinishRepair
+- _OBJC_CLASS_$_CRDetailViewComponentFaceIDRepair
+- _OBJC_CLASS_$_CRDetailViewComponentMtubRepair
+- _OBJC_CLASS_$_CRDetailViewComponentMtubSalvaged
+- _OBJC_CLASS_$_CRDetailViewComponentNFC
+- _OBJC_CLASS_$_CRDetailViewComponentRCameraHWFailed
+- _OBJC_CLASS_$_CRDetailViewComponentTable
+- _OBJC_CLASS_$_CRDetailViewComponentTouchID
+- _OBJC_CLASS_$_CRDetailViewComponentTouchIDFinishRepair
+- _OBJC_CLASS_$_CRDetailViewComponentTouchIDRepair
+- _OBJC_CLASS_$_CRDetailViewComponentUWB
+- _OBJC_CLASS_$_CRDetailViewComponentVolumeButtonFinishRepair
+- _OBJC_CLASS_$_CRDetailViewComponentWifi
+- _OBJC_CLASS_$_CRUActionCell
+- _OBJC_CLASS_$_CRUAlertCell
+- _OBJC_CLASS_$_CRUDetailCell
+- _OBJC_CLASS_$_CRUDetailViewComponent
+- _OBJC_CLASS_$_CRUFollowUpHeaderCell
+- _OBJC_CLASS_$_CRUIAnalytics
+- _OBJC_CLASS_$_CRUMultilineLinkCell
+- _OBJC_CLASS_$_CRUMultilineTextCell
+- _OBJC_CLASS_$_CoreRepairUIUtils
+- _OBJC_CLASS_$_MRAudioCodecComponentHandler
+- _OBJC_CLASS_$_MRAudioComponentHandler
+- _OBJC_CLASS_$_MRBackGlassComponentHandler
+- _OBJC_CLASS_$_MRBaseComponentHandler
+- _OBJC_CLASS_$_MRBasebandComponentHandler
+- _OBJC_CLASS_$_MRBatteryComponentHandler
+- _OBJC_CLASS_$_MRBluetoothComponentHandler
+- _OBJC_CLASS_$_MRCameraComponentHandler
+- _OBJC_CLASS_$_MRDisplayComponentHandler
+- _OBJC_CLASS_$_MRFaceIDComponentHandler
+- _OBJC_CLASS_$_MRNFCComponentHandler
+- _OBJC_CLASS_$_MRRCamComponentHandler
+- _OBJC_CLASS_$_MRSystemHealthComponentHandler
+- _OBJC_CLASS_$_MRTouchIDComponentHandler
+- _OBJC_CLASS_$_MRUINotificationHelper
+- _OBJC_CLASS_$_MRUWBComponentHandler
+- _OBJC_CLASS_$_MRWifiComponentHandler
+- _OBJC_CLASS_$_UIActivityIndicatorView
+- _OBJC_CLASS_$_UIAlertAction
+- _OBJC_CLASS_$_UIAlertController
+- _OBJC_IVAR_$_CRUDetailViewComponent.buttonTitle
+- _OBJC_IVAR_$_CRUDetailViewComponent.caaRepairHistoryDict
+- _OBJC_IVAR_$_CRUDetailViewComponent.claimCount
+- _OBJC_IVAR_$_CRUDetailViewComponent.componentName
+- _OBJC_IVAR_$_CRUDetailViewComponent.dataCollectionClassExist
+- _OBJC_IVAR_$_CRUDetailViewComponent.deviceClass
+- _OBJC_IVAR_$_CRUDetailViewComponent.deviceHistory
+- _OBJC_IVAR_$_CRUDetailViewComponent.footerText
+- _OBJC_IVAR_$_CRUDetailViewComponent.infoCollectionSpecifier
+- _OBJC_IVAR_$_CRUDetailViewComponent.informativeText
+- _OBJC_IVAR_$_CRUDetailViewComponent.isUsed
+- _OBJC_IVAR_$_CRUDetailViewComponent.kbArticleURL
+- _OBJC_IVAR_$_CRUDetailViewComponent.locale
+- _OBJC_IVAR_$_CRUDetailViewComponent.rchlRepairHistory
+- _OBJC_IVAR_$_CRUDetailViewComponent.repairDate
+- _OBJC_IVAR_$_CRUDetailViewComponent.repairHistoryItems
+- _OBJC_IVAR_$_CRUDetailViewComponent.titleText
+- _OBJC_IVAR_$_CRUFollowUpHeaderCell._constraints
+- _OBJC_IVAR_$_CRUFollowUpHeaderCell._followSubtitle
+- _OBJC_IVAR_$_CRUFollowUpHeaderCell._followTitle
+- _OBJC_IVAR_$_CRUIAnalytics.serialAsyncQueue
+- _OBJC_IVAR_$_MRBaseComponentHandler.componentAuthHandler
+- _OBJC_IVAR_$_MRBaseComponentHandler.componentDataCollectionPresentedKey
+- _OBJC_IVAR_$_MRBaseComponentHandler.componentEnableNonAuthUIKey
+- _OBJC_IVAR_$_MRBaseComponentHandler.componentFirstUIDisplayedTimeKey
+- _OBJC_IVAR_$_MRBaseComponentHandler.componentFollowupClientID
+- _OBJC_IVAR_$_MRBaseComponentHandler.componentFollowupRetriggerdays
+- _OBJC_IVAR_$_MRBaseComponentHandler.componentForceKey
+- _OBJC_IVAR_$_MRBaseComponentHandler.componentHasDisplayedFollowUpKey
+- _OBJC_IVAR_$_MRBaseComponentHandler.componentHasNotifiedServerKey
+- _OBJC_IVAR_$_MRBaseComponentHandler.componentId
+- _OBJC_IVAR_$_MRBaseComponentHandler.componentLastCheckTimeKey
+- _OBJC_IVAR_$_MRBaseComponentHandler.componentName
+- _OBJC_IVAR_$_MRBaseComponentHandler.componentNtwkActivityName
+- _OBJC_IVAR_$_MRBaseComponentHandler.componentRetriggerCountKey
+- _OBJC_IVAR_$_MRBaseComponentHandler.componentSUCaseKey
+- _OBJC_IVAR_$_MRBaseComponentHandler.componentStatusKey
+- _OBJC_IVAR_$_MRBaseComponentHandler.componentUnLockCheckCountKey
+- _OBJC_IVAR_$_MRBaseComponentHandler.componentUnlockCheckerActivityName
+- _OBJC_IVAR_$_MRBaseComponentHandler.componentfollowUpDisplaydays
+- _OBJC_IVAR_$_MRBaseComponentHandler.deviceClass
+- _OBJC_IVAR_$_MRBaseComponentHandler.disableUIForComponent
+- _OBJC_IVAR_$_MRBaseComponentHandler.displayFollowup
+- _OBJC_IVAR_$_MRBaseComponentHandler.displayModalPopup
+- _OBJC_IVAR_$_MRBaseComponentHandler.displayNotification
+- _OBJC_IVAR_$_MRBaseComponentHandler.finishRepairKey
+- _OBJC_IVAR_$_MRBaseComponentHandler.finishRepairMessage
+- _OBJC_IVAR_$_MRBaseComponentHandler.finishRepairTitle
+- _OBJC_IVAR_$_MRBaseComponentHandler.followUpInfoMessage
+- _OBJC_IVAR_$_MRBaseComponentHandler.isSUCaseForComponent
+- _OBJC_IVAR_$_MRBaseComponentHandler.lastKnownComponentIdentifierKey
+- _OBJC_IVAR_$_MRBaseComponentHandler.lastKnownComponentIdentifierValue
+- _OBJC_IVAR_$_MRBaseComponentHandler.legacyPopup
+- _OBJC_IVAR_$_MRBaseComponentHandler.linkedSensitiveURL
+- _OBJC_IVAR_$_MRBaseComponentHandler.notifyServer
+- _OBJC_IVAR_$_MRBaseComponentHandler.popUpNotificationMessage
+- _OBJC_IVAR_$_MRBaseComponentHandler.popUpNotificationTitle
+- _OBJC_IVAR_$_MRBaseComponentHandler.stateFilePath
+- _OBJC_IVAR_$_MRBaseComponentHandler.supportsRepair
+- _OBJC_IVAR_$_MRBaseComponentHandler.timeIntervalOverride
+- _OBJC_IVAR_$_MRBaseComponentHandler.unlockCheckActivityRequired
+- _OBJC_IVAR_$_MRSystemHealthComponentHandler._componentEventQueue
+- _OBJC_IVAR_$_MRUINotificationHelper.clientIDtoFollowupItemCache
+- _OBJC_IVAR_$_MRUINotificationHelper.delay
+- _OBJC_IVAR_$_SystemHealthUI._parentViewController
+- _OBJC_IVAR_$_SystemHealthUI.analytics
+- _OBJC_IVAR_$_SystemHealthUI.asyncQueue
+- _OBJC_IVAR_$_SystemHealthUI.cachedSpecifiers
+- _OBJC_IVAR_$_SystemHealthUI.deviceClass
+- _OBJC_IVAR_$_SystemHealthUI.deviceFDRVersion1
+- _OBJC_IVAR_$_SystemHealthUI.failedComponentsCount
+- _OBJC_IVAR_$_SystemHealthUI.isRCHLDevice
+- _OBJC_IVAR_$_SystemHealthUI.isRepaired
+- _OBJC_IVAR_$_SystemHealthUI.localRepairHistory
+- _OBJC_IVAR_$_SystemHealthUI.locale
+- _OBJC_IVAR_$_SystemHealthUI.repairHistoryItems
+- _OBJC_IVAR_$_SystemHealthUI.systemHealth
+- _OBJC_IVAR_$_SystemHealthUI.utils
+- _OBJC_METACLASS_$_CRDetailViewComponentAudio
+- _OBJC_METACLASS_$_CRDetailViewComponentBackGlassFinishRepair
+- _OBJC_METACLASS_$_CRDetailViewComponentBaseband
+- _OBJC_METACLASS_$_CRDetailViewComponentBattery
+- _OBJC_METACLASS_$_CRDetailViewComponentBatteryFinishRepair
+- _OBJC_METACLASS_$_CRDetailViewComponentBatteryRepair
+- _OBJC_METACLASS_$_CRDetailViewComponentBatteryService
+- _OBJC_METACLASS_$_CRDetailViewComponentBluetooth
+- _OBJC_METACLASS_$_CRDetailViewComponentCamera
+- _OBJC_METACLASS_$_CRDetailViewComponentCameraFinishRepair
+- _OBJC_METACLASS_$_CRDetailViewComponentCameraRepair
+- _OBJC_METACLASS_$_CRDetailViewComponentCoverGlassFinishRepair
+- _OBJC_METACLASS_$_CRDetailViewComponentDisplay
+- _OBJC_METACLASS_$_CRDetailViewComponentDisplayFinishRepair
+- _OBJC_METACLASS_$_CRDetailViewComponentDisplayRepair
+- _OBJC_METACLASS_$_CRDetailViewComponentEnclosureFinishRepair
+- _OBJC_METACLASS_$_CRDetailViewComponentFaceID
+- _OBJC_METACLASS_$_CRDetailViewComponentFaceIDFinishRepair
+- _OBJC_METACLASS_$_CRDetailViewComponentFaceIDRepair
+- _OBJC_METACLASS_$_CRDetailViewComponentMtubRepair
+- _OBJC_METACLASS_$_CRDetailViewComponentMtubSalvaged
+- _OBJC_METACLASS_$_CRDetailViewComponentNFC
+- _OBJC_METACLASS_$_CRDetailViewComponentRCameraHWFailed
+- _OBJC_METACLASS_$_CRDetailViewComponentTable
+- _OBJC_METACLASS_$_CRDetailViewComponentTouchID
+- _OBJC_METACLASS_$_CRDetailViewComponentTouchIDFinishRepair
+- _OBJC_METACLASS_$_CRDetailViewComponentTouchIDRepair
+- _OBJC_METACLASS_$_CRDetailViewComponentUWB
+- _OBJC_METACLASS_$_CRDetailViewComponentVolumeButtonFinishRepair
+- _OBJC_METACLASS_$_CRDetailViewComponentWifi
+- _OBJC_METACLASS_$_CRUActionCell
+- _OBJC_METACLASS_$_CRUAlertCell
+- _OBJC_METACLASS_$_CRUDetailCell
+- _OBJC_METACLASS_$_CRUDetailViewComponent
+- _OBJC_METACLASS_$_CRUFollowUpHeaderCell
+- _OBJC_METACLASS_$_CRUIAnalytics
+- _OBJC_METACLASS_$_CRUMultilineLinkCell
+- _OBJC_METACLASS_$_CRUMultilineTextCell
+- _OBJC_METACLASS_$_CoreRepairUIUtils
+- _OBJC_METACLASS_$_MRAudioCodecComponentHandler
+- _OBJC_METACLASS_$_MRAudioComponentHandler
+- _OBJC_METACLASS_$_MRBackGlassComponentHandler
+- _OBJC_METACLASS_$_MRBaseComponentHandler
+- _OBJC_METACLASS_$_MRBasebandComponentHandler
+- _OBJC_METACLASS_$_MRBatteryComponentHandler
+- _OBJC_METACLASS_$_MRBluetoothComponentHandler
+- _OBJC_METACLASS_$_MRCameraComponentHandler
+- _OBJC_METACLASS_$_MRDisplayComponentHandler
+- _OBJC_METACLASS_$_MRFaceIDComponentHandler
+- _OBJC_METACLASS_$_MRNFCComponentHandler
+- _OBJC_METACLASS_$_MRRCamComponentHandler
+- _OBJC_METACLASS_$_MRSystemHealthComponentHandler
+- _OBJC_METACLASS_$_MRTouchIDComponentHandler
+- _OBJC_METACLASS_$_MRUINotificationHelper
+- _OBJC_METACLASS_$_MRUWBComponentHandler
+- _OBJC_METACLASS_$_MRWifiComponentHandler
+- _OUTLINED_FUNCTION_0
+- _OUTLINED_FUNCTION_1
+- _OUTLINED_FUNCTION_2
+- _OUTLINED_FUNCTION_3
+- _OUTLINED_FUNCTION_4
+- _OUTLINED_FUNCTION_5
+- _PSTableCellKey
+- __OBJC_$_CLASS_METHODS_CRUFollowUpHeaderCell
+- __OBJC_$_CLASS_METHODS_MRAudioCodecComponentHandler
+- __OBJC_$_CLASS_METHODS_MRAudioComponentHandler
+- __OBJC_$_CLASS_METHODS_MRBackGlassComponentHandler
+- __OBJC_$_CLASS_METHODS_MRBaseComponentHandler
+- __OBJC_$_CLASS_METHODS_MRBasebandComponentHandler
+- __OBJC_$_CLASS_METHODS_MRBatteryComponentHandler
+- __OBJC_$_CLASS_METHODS_MRBluetoothComponentHandler
+- __OBJC_$_CLASS_METHODS_MRCameraComponentHandler
+- __OBJC_$_CLASS_METHODS_MRDisplayComponentHandler
+- __OBJC_$_CLASS_METHODS_MRFaceIDComponentHandler
+- __OBJC_$_CLASS_METHODS_MRNFCComponentHandler
+- __OBJC_$_CLASS_METHODS_MRRCamComponentHandler
+- __OBJC_$_CLASS_METHODS_MRTouchIDComponentHandler
+- __OBJC_$_CLASS_METHODS_MRUINotificationHelper
+- __OBJC_$_CLASS_METHODS_MRUWBComponentHandler
+- __OBJC_$_CLASS_METHODS_MRWifiComponentHandler
+- __OBJC_$_CLASS_METHODS_SystemHealthUI
+- __OBJC_$_INSTANCE_METHODS_CRDetailViewComponentAudio
+- __OBJC_$_INSTANCE_METHODS_CRDetailViewComponentBackGlassFinishRepair
+- __OBJC_$_INSTANCE_METHODS_CRDetailViewComponentBaseband
+- __OBJC_$_INSTANCE_METHODS_CRDetailViewComponentBattery
+- __OBJC_$_INSTANCE_METHODS_CRDetailViewComponentBatteryFinishRepair
+- __OBJC_$_INSTANCE_METHODS_CRDetailViewComponentBatteryRepair
+- __OBJC_$_INSTANCE_METHODS_CRDetailViewComponentBatteryService
+- __OBJC_$_INSTANCE_METHODS_CRDetailViewComponentBluetooth
+- __OBJC_$_INSTANCE_METHODS_CRDetailViewComponentCamera
+- __OBJC_$_INSTANCE_METHODS_CRDetailViewComponentCameraFinishRepair
+- __OBJC_$_INSTANCE_METHODS_CRDetailViewComponentCameraRepair
+- __OBJC_$_INSTANCE_METHODS_CRDetailViewComponentCoverGlassFinishRepair
+- __OBJC_$_INSTANCE_METHODS_CRDetailViewComponentDisplay
+- __OBJC_$_INSTANCE_METHODS_CRDetailViewComponentDisplayFinishRepair
+- __OBJC_$_INSTANCE_METHODS_CRDetailViewComponentDisplayRepair
+- __OBJC_$_INSTANCE_METHODS_CRDetailViewComponentEnclosureFinishRepair
+- __OBJC_$_INSTANCE_METHODS_CRDetailViewComponentFaceID
+- __OBJC_$_INSTANCE_METHODS_CRDetailViewComponentFaceIDFinishRepair
+- __OBJC_$_INSTANCE_METHODS_CRDetailViewComponentFaceIDRepair
+- __OBJC_$_INSTANCE_METHODS_CRDetailViewComponentMtubRepair
+- __OBJC_$_INSTANCE_METHODS_CRDetailViewComponentMtubSalvaged
+- __OBJC_$_INSTANCE_METHODS_CRDetailViewComponentNFC
+- __OBJC_$_INSTANCE_METHODS_CRDetailViewComponentRCameraHWFailed
+- __OBJC_$_INSTANCE_METHODS_CRDetailViewComponentTable
+- __OBJC_$_INSTANCE_METHODS_CRDetailViewComponentTouchID
+- __OBJC_$_INSTANCE_METHODS_CRDetailViewComponentTouchIDFinishRepair
+- __OBJC_$_INSTANCE_METHODS_CRDetailViewComponentTouchIDRepair
+- __OBJC_$_INSTANCE_METHODS_CRDetailViewComponentUWB
+- __OBJC_$_INSTANCE_METHODS_CRDetailViewComponentVolumeButtonFinishRepair
+- __OBJC_$_INSTANCE_METHODS_CRDetailViewComponentWifi
+- __OBJC_$_INSTANCE_METHODS_CRUActionCell
+- __OBJC_$_INSTANCE_METHODS_CRUAlertCell
+- __OBJC_$_INSTANCE_METHODS_CRUDetailCell
+- __OBJC_$_INSTANCE_METHODS_CRUDetailViewComponent
+- __OBJC_$_INSTANCE_METHODS_CRUFollowUpHeaderCell
+- __OBJC_$_INSTANCE_METHODS_CRUIAnalytics
+- __OBJC_$_INSTANCE_METHODS_CRUMultilineLinkCell
+- __OBJC_$_INSTANCE_METHODS_CRUMultilineTextCell
+- __OBJC_$_INSTANCE_METHODS_CoreRepairUIUtils
+- __OBJC_$_INSTANCE_METHODS_MRAudioCodecComponentHandler
+- __OBJC_$_INSTANCE_METHODS_MRAudioComponentHandler
+- __OBJC_$_INSTANCE_METHODS_MRBackGlassComponentHandler
+- __OBJC_$_INSTANCE_METHODS_MRBaseComponentHandler
+- __OBJC_$_INSTANCE_METHODS_MRBasebandComponentHandler
+- __OBJC_$_INSTANCE_METHODS_MRBatteryComponentHandler
+- __OBJC_$_INSTANCE_METHODS_MRBluetoothComponentHandler
+- __OBJC_$_INSTANCE_METHODS_MRCameraComponentHandler
+- __OBJC_$_INSTANCE_METHODS_MRDisplayComponentHandler
+- __OBJC_$_INSTANCE_METHODS_MRFaceIDComponentHandler
+- __OBJC_$_INSTANCE_METHODS_MRNFCComponentHandler
+- __OBJC_$_INSTANCE_METHODS_MRRCamComponentHandler
+- __OBJC_$_INSTANCE_METHODS_MRSystemHealthComponentHandler
+- __OBJC_$_INSTANCE_METHODS_MRTouchIDComponentHandler
+- __OBJC_$_INSTANCE_METHODS_MRUINotificationHelper
+- __OBJC_$_INSTANCE_METHODS_MRUWBComponentHandler
+- __OBJC_$_INSTANCE_METHODS_MRWifiComponentHandler
+- __OBJC_$_INSTANCE_METHODS_SystemHealthUI
+- __OBJC_$_INSTANCE_VARIABLES_CRUDetailViewComponent
+- __OBJC_$_INSTANCE_VARIABLES_CRUFollowUpHeaderCell
+- __OBJC_$_INSTANCE_VARIABLES_CRUIAnalytics
+- __OBJC_$_INSTANCE_VARIABLES_MRBaseComponentHandler
+- __OBJC_$_INSTANCE_VARIABLES_MRSystemHealthComponentHandler
+- __OBJC_$_INSTANCE_VARIABLES_MRUINotificationHelper
+- __OBJC_$_INSTANCE_VARIABLES_SystemHealthUI
+- __OBJC_$_PROP_LIST_CRUDetailViewComponent
+- __OBJC_$_PROP_LIST_MRAudioCodecComponentHandler
+- __OBJC_$_PROP_LIST_MRAudioComponentHandler
+- __OBJC_$_PROP_LIST_MRBackGlassComponentHandler
+- __OBJC_$_PROP_LIST_MRBaseComponentHandler
+- __OBJC_$_PROP_LIST_MRBasebandComponentHandler
+- __OBJC_$_PROP_LIST_MRBatteryComponentHandler
+- __OBJC_$_PROP_LIST_MRBluetoothComponentHandler
+- __OBJC_$_PROP_LIST_MRCameraComponentHandler
+- __OBJC_$_PROP_LIST_MRDisplayComponentHandler
+- __OBJC_$_PROP_LIST_MRFaceIDComponentHandler
+- __OBJC_$_PROP_LIST_MRNFCComponentHandler
+- __OBJC_$_PROP_LIST_MRRCamComponentHandler
+- __OBJC_$_PROP_LIST_MRSystemHealthComponentHandler
+- __OBJC_$_PROP_LIST_MRTouchIDComponentHandler
+- __OBJC_$_PROP_LIST_MRUWBComponentHandler
+- __OBJC_$_PROP_LIST_MRWifiComponentHandler
+- __OBJC_$_PROP_LIST_SystemHealthUI
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_CRSystemHealthProtocol
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_CoreRepairBootIntentProtocol
+- __OBJC_$_PROTOCOL_METHOD_TYPES_CRSystemHealthProtocol
+- __OBJC_$_PROTOCOL_METHOD_TYPES_CoreRepairBootIntentProtocol
+- __OBJC_CLASS_RO_$_CRDetailViewComponentAudio
+- __OBJC_CLASS_RO_$_CRDetailViewComponentBackGlassFinishRepair
+- __OBJC_CLASS_RO_$_CRDetailViewComponentBaseband
+- __OBJC_CLASS_RO_$_CRDetailViewComponentBattery
+- __OBJC_CLASS_RO_$_CRDetailViewComponentBatteryFinishRepair
+- __OBJC_CLASS_RO_$_CRDetailViewComponentBatteryRepair
+- __OBJC_CLASS_RO_$_CRDetailViewComponentBatteryService
+- __OBJC_CLASS_RO_$_CRDetailViewComponentBluetooth
+- __OBJC_CLASS_RO_$_CRDetailViewComponentCamera
+- __OBJC_CLASS_RO_$_CRDetailViewComponentCameraFinishRepair
+- __OBJC_CLASS_RO_$_CRDetailViewComponentCameraRepair
+- __OBJC_CLASS_RO_$_CRDetailViewComponentCoverGlassFinishRepair
+- __OBJC_CLASS_RO_$_CRDetailViewComponentDisplay
+- __OBJC_CLASS_RO_$_CRDetailViewComponentDisplayFinishRepair
+- __OBJC_CLASS_RO_$_CRDetailViewComponentDisplayRepair
+- __OBJC_CLASS_RO_$_CRDetailViewComponentEnclosureFinishRepair
+- __OBJC_CLASS_RO_$_CRDetailViewComponentFaceID
+- __OBJC_CLASS_RO_$_CRDetailViewComponentFaceIDFinishRepair
+- __OBJC_CLASS_RO_$_CRDetailViewComponentFaceIDRepair
+- __OBJC_CLASS_RO_$_CRDetailViewComponentMtubRepair
+- __OBJC_CLASS_RO_$_CRDetailViewComponentMtubSalvaged
+- __OBJC_CLASS_RO_$_CRDetailViewComponentNFC
+- __OBJC_CLASS_RO_$_CRDetailViewComponentRCameraHWFailed
+- __OBJC_CLASS_RO_$_CRDetailViewComponentTable
+- __OBJC_CLASS_RO_$_CRDetailViewComponentTouchID
+- __OBJC_CLASS_RO_$_CRDetailViewComponentTouchIDFinishRepair
+- __OBJC_CLASS_RO_$_CRDetailViewComponentTouchIDRepair
+- __OBJC_CLASS_RO_$_CRDetailViewComponentUWB
+- __OBJC_CLASS_RO_$_CRDetailViewComponentVolumeButtonFinishRepair
+- __OBJC_CLASS_RO_$_CRDetailViewComponentWifi
+- __OBJC_CLASS_RO_$_CRUActionCell
+- __OBJC_CLASS_RO_$_CRUAlertCell
+- __OBJC_CLASS_RO_$_CRUDetailCell
+- __OBJC_CLASS_RO_$_CRUDetailViewComponent
+- __OBJC_CLASS_RO_$_CRUFollowUpHeaderCell
+- __OBJC_CLASS_RO_$_CRUIAnalytics
+- __OBJC_CLASS_RO_$_CRUMultilineLinkCell
+- __OBJC_CLASS_RO_$_CRUMultilineTextCell
+- __OBJC_CLASS_RO_$_CoreRepairUIUtils
+- __OBJC_CLASS_RO_$_MRAudioCodecComponentHandler
+- __OBJC_CLASS_RO_$_MRAudioComponentHandler
+- __OBJC_CLASS_RO_$_MRBackGlassComponentHandler
+- __OBJC_CLASS_RO_$_MRBaseComponentHandler
+- __OBJC_CLASS_RO_$_MRBasebandComponentHandler
+- __OBJC_CLASS_RO_$_MRBatteryComponentHandler
+- __OBJC_CLASS_RO_$_MRBluetoothComponentHandler
+- __OBJC_CLASS_RO_$_MRCameraComponentHandler
+- __OBJC_CLASS_RO_$_MRDisplayComponentHandler
+- __OBJC_CLASS_RO_$_MRFaceIDComponentHandler
+- __OBJC_CLASS_RO_$_MRNFCComponentHandler
+- __OBJC_CLASS_RO_$_MRRCamComponentHandler
+- __OBJC_CLASS_RO_$_MRSystemHealthComponentHandler
+- __OBJC_CLASS_RO_$_MRTouchIDComponentHandler
+- __OBJC_CLASS_RO_$_MRUINotificationHelper
+- __OBJC_CLASS_RO_$_MRUWBComponentHandler
+- __OBJC_CLASS_RO_$_MRWifiComponentHandler
+- __OBJC_CLASS_RO_$_SystemHealthUI
+- __OBJC_LABEL_PROTOCOL_$_CRSystemHealthProtocol
+- __OBJC_LABEL_PROTOCOL_$_CoreRepairBootIntentProtocol
+- __OBJC_METACLASS_RO_$_CRDetailViewComponentAudio
+- __OBJC_METACLASS_RO_$_CRDetailViewComponentBackGlassFinishRepair
+- __OBJC_METACLASS_RO_$_CRDetailViewComponentBaseband
+- __OBJC_METACLASS_RO_$_CRDetailViewComponentBattery
+- __OBJC_METACLASS_RO_$_CRDetailViewComponentBatteryFinishRepair
+- __OBJC_METACLASS_RO_$_CRDetailViewComponentBatteryRepair
+- __OBJC_METACLASS_RO_$_CRDetailViewComponentBatteryService
+- __OBJC_METACLASS_RO_$_CRDetailViewComponentBluetooth
+- __OBJC_METACLASS_RO_$_CRDetailViewComponentCamera
+- __OBJC_METACLASS_RO_$_CRDetailViewComponentCameraFinishRepair
+- __OBJC_METACLASS_RO_$_CRDetailViewComponentCameraRepair
+- __OBJC_METACLASS_RO_$_CRDetailViewComponentCoverGlassFinishRepair
+- __OBJC_METACLASS_RO_$_CRDetailViewComponentDisplay
+- __OBJC_METACLASS_RO_$_CRDetailViewComponentDisplayFinishRepair
+- __OBJC_METACLASS_RO_$_CRDetailViewComponentDisplayRepair
+- __OBJC_METACLASS_RO_$_CRDetailViewComponentEnclosureFinishRepair
+- __OBJC_METACLASS_RO_$_CRDetailViewComponentFaceID
+- __OBJC_METACLASS_RO_$_CRDetailViewComponentFaceIDFinishRepair
+- __OBJC_METACLASS_RO_$_CRDetailViewComponentFaceIDRepair
+- __OBJC_METACLASS_RO_$_CRDetailViewComponentMtubRepair
+- __OBJC_METACLASS_RO_$_CRDetailViewComponentMtubSalvaged
+- __OBJC_METACLASS_RO_$_CRDetailViewComponentNFC
+- __OBJC_METACLASS_RO_$_CRDetailViewComponentRCameraHWFailed
+- __OBJC_METACLASS_RO_$_CRDetailViewComponentTable
+- __OBJC_METACLASS_RO_$_CRDetailViewComponentTouchID
+- __OBJC_METACLASS_RO_$_CRDetailViewComponentTouchIDFinishRepair
+- __OBJC_METACLASS_RO_$_CRDetailViewComponentTouchIDRepair
+- __OBJC_METACLASS_RO_$_CRDetailViewComponentUWB
+- __OBJC_METACLASS_RO_$_CRDetailViewComponentVolumeButtonFinishRepair
+- __OBJC_METACLASS_RO_$_CRDetailViewComponentWifi
+- __OBJC_METACLASS_RO_$_CRUActionCell
+- __OBJC_METACLASS_RO_$_CRUAlertCell
+- __OBJC_METACLASS_RO_$_CRUDetailCell
+- __OBJC_METACLASS_RO_$_CRUDetailViewComponent
+- __OBJC_METACLASS_RO_$_CRUFollowUpHeaderCell
+- __OBJC_METACLASS_RO_$_CRUIAnalytics
+- __OBJC_METACLASS_RO_$_CRUMultilineLinkCell
+- __OBJC_METACLASS_RO_$_CRUMultilineTextCell
+- __OBJC_METACLASS_RO_$_CoreRepairUIUtils
+- __OBJC_METACLASS_RO_$_MRAudioCodecComponentHandler
+- __OBJC_METACLASS_RO_$_MRAudioComponentHandler
+- __OBJC_METACLASS_RO_$_MRBackGlassComponentHandler
+- __OBJC_METACLASS_RO_$_MRBaseComponentHandler
+- __OBJC_METACLASS_RO_$_MRBasebandComponentHandler
+- __OBJC_METACLASS_RO_$_MRBatteryComponentHandler
+- __OBJC_METACLASS_RO_$_MRBluetoothComponentHandler
+- __OBJC_METACLASS_RO_$_MRCameraComponentHandler
+- __OBJC_METACLASS_RO_$_MRDisplayComponentHandler
+- __OBJC_METACLASS_RO_$_MRFaceIDComponentHandler
+- __OBJC_METACLASS_RO_$_MRNFCComponentHandler
+- __OBJC_METACLASS_RO_$_MRRCamComponentHandler
+- __OBJC_METACLASS_RO_$_MRSystemHealthComponentHandler
+- __OBJC_METACLASS_RO_$_MRTouchIDComponentHandler
+- __OBJC_METACLASS_RO_$_MRUINotificationHelper
+- __OBJC_METACLASS_RO_$_MRUWBComponentHandler
+- __OBJC_METACLASS_RO_$_MRWifiComponentHandler
+- __OBJC_METACLASS_RO_$_SystemHealthUI
+- __OBJC_PROTOCOL_$_CRSystemHealthProtocol
+- __OBJC_PROTOCOL_$_CoreRepairBootIntentProtocol
+- __OBJC_PROTOCOL_REFERENCE_$_CRSystemHealthProtocol
+- __OBJC_PROTOCOL_REFERENCE_$_CoreRepairBootIntentProtocol
+- ___107-[MRUINotificationHelper popUpNotificationNowWithMessage:title:openSensitiveURL:componentName:legacyPopup:]_block_invoke
+- ___107-[MRUINotificationHelper popUpNotificationNowWithMessage:title:openSensitiveURL:componentName:legacyPopup:]_block_invoke.cold.1
+- ___107-[MRUINotificationHelper popUpNotificationNowWithMessage:title:openSensitiveURL:componentName:legacyPopup:]_block_invoke.cold.2
+- ___128-[MRUINotificationHelper createRepairFollowUpWithNotification:actionURL:repairTitle:infoText:itemID:timeInterval:componentName:]_block_invoke
+- ___128-[MRUINotificationHelper createRepairFollowUpWithNotification:actionURL:repairTitle:infoText:itemID:timeInterval:componentName:]_block_invoke.cold.1
+- ___31-[CoreRepairUIUtils requestCAA]_block_invoke
+- ___32+[SystemHealthUI sharedInstance]_block_invoke
+- ___32-[CoreRepairUIUtils _preflight:]_block_invoke
+- ___33-[SystemHealthUI getNetworkAlert]_block_invoke
+- ___34-[SystemHealthUI getOSUpdateAlert]_block_invoke
+- ___35-[SystemHealthUI showActionSheets:]_block_invoke
+- ___35-[SystemHealthUI showActionSheets:]_block_invoke.75
+- ___36-[CoreRepairUIUtils getRepairTicket]_block_invoke
+- ___36-[CoreRepairUIUtils getRepairTicket]_block_invoke.121
+- ___36-[CoreRepairUIUtils getRepairTicket]_block_invoke.cold.1
+- ___40+[MRNFCComponentHandler sharedSingleton]_block_invoke
+- ___40+[MRUWBComponentHandler sharedSingleton]_block_invoke
+- ___41+[MRRCamComponentHandler sharedSingleton]_block_invoke
+- ___41+[MRUINotificationHelper sharedSingleton]_block_invoke
+- ___41+[MRWifiComponentHandler sharedSingleton]_block_invoke
+- ___42+[MRAudioComponentHandler sharedSingleton]_block_invoke
+- ___43+[MRCameraComponentHandler sharedSingleton]_block_invoke
+- ___43+[MRFaceIDComponentHandler sharedSingleton]_block_invoke
+- ___43-[CoreRepairUIUtils getCAAForRepairHistory]_block_invoke
+- ___43-[CoreRepairUIUtils getCAAForRepairHistory]_block_invoke_2
+- ___43-[CoreRepairUIUtils getCAAForRepairHistory]_block_invoke_2.cold.1
+- ___43-[CoreRepairUIUtils getCAAForRepairHistory]_block_invoke_2.cold.2
+- ___43-[CoreRepairUIUtils setBootIntentAndReboot]_block_invoke
+- ___44+[MRBatteryComponentHandler sharedSingleton]_block_invoke
+- ___44+[MRDisplayComponentHandler sharedSingleton]_block_invoke
+- ___44+[MRTouchIDComponentHandler sharedSingleton]_block_invoke
+- ___44-[CoreRepairUIUtils isBatteryInServiceState]_block_invoke
+- ___44-[CoreRepairUIUtils isBatteryInServiceState]_block_invoke.153
+- ___44-[CoreRepairUIUtils isBatteryInServiceState]_block_invoke.153.cold.1
+- ___44-[CoreRepairUIUtils isBatteryInServiceState]_block_invoke.cold.1
+- ___45+[MRBasebandComponentHandler sharedSingleton]_block_invoke
+- ___46+[MRBackGlassComponentHandler sharedSingleton]_block_invoke
+- ___46+[MRBluetoothComponentHandler sharedSingleton]_block_invoke
+- ___47+[MRAudioCodecComponentHandler sharedSingleton]_block_invoke
+- ___48-[MRBaseComponentHandler sendAnalyticsForCount:]_block_invoke
+- ___49-[CoreRepairUIUtils scheduleNetworkActivityWith:]_block_invoke
+- ___49-[MRBaseComponentHandler scheduleNetworkActivity]_block_invoke
+- ___49-[MRBaseComponentHandler scheduleNetworkActivity]_block_invoke.cold.1
+- ___49-[MRBaseComponentHandler scheduleNetworkActivity]_block_invoke.cold.2
+- ___49-[MRBaseComponentHandler scheduleNetworkActivity]_block_invoke.cold.3
+- ___51-[CoreRepairUIUtils performBackGroundMiniPreflight]_block_invoke
+- ___52-[MRUINotificationHelper updateFollowupsToNewLocale]_block_invoke
+- ___52-[MRUINotificationHelper updateFollowupsToNewLocale]_block_invoke.cold.1
+- ___52-[MRUINotificationHelper updateFollowupsToNewLocale]_block_invoke.cold.2
+- ___54-[CRUIAnalytics sendAnalyticsForRepairHistoryMismatch]_block_invoke
+- ___54-[MRSystemHealthComponentHandler postComponentStatus:]_block_invoke
+- ___55-[CRUDetailViewComponent handleNonGenuineComponentTap:]_block_invoke
+- ___55-[CRUIAnalytics sendAsyncAnalyticsForEvent:moduleName:]_block_invoke
+- ___55-[CRUIAnalytics sendAsyncAnalyticsForEvent:moduleName:]_block_invoke_2
+- ___56-[SystemHealthUI getCurrentDetailsWithPrivacySpecifier:]_block_invoke
+- ___56-[SystemHealthUI getCurrentDetailsWithPrivacySpecifier:]_block_invoke.308
+- ___56-[SystemHealthUI getCurrentDetailsWithPrivacySpecifier:]_block_invoke.333
+- ___56-[SystemHealthUI updateSpecifiersWithCompletionHandler:]_block_invoke
+- ___56-[SystemHealthUI updateSpecifiersWithCompletionHandler:]_block_invoke.376
+- ___56-[SystemHealthUI updateSpecifiersWithCompletionHandler:]_block_invoke_2
+- ___57-[CoreRepairUIUtils performInteractiveMiniPreflightWith:]_block_invoke
+- ___58-[MRUINotificationHelper clearRepairFollowUpWithUniqueID:]_block_invoke
+- ___58-[MRUINotificationHelper clearRepairFollowUpWithUniqueID:]_block_invoke.cold.1
+- ___59-[SystemHealthUI performInteractivePreflightWithSpecifier:]_block_invoke
+- ___59-[SystemHealthUI performInteractivePreflightWithSpecifier:]_block_invoke_2
+- ___63-[CRUIAnalytics sendAsyncAnalyticsForEventIfNeeded:moduleName:]_block_invoke
+- ___63-[CRUIAnalytics sendAsyncAnalyticsForEventIfNeeded:moduleName:]_block_invoke_2
+- ___64-[MRUINotificationHelper removeRepairNotificationsWithUniqueID:]_block_invoke
+- ___72-[MRBaseComponentHandler scheduleUnlockCheckerActivity:forFinishRepair:]_block_invoke
+- ___72-[MRBaseComponentHandler scheduleUnlockCheckerActivity:forFinishRepair:]_block_invoke_2
+- ___Block_byref_object_copy_
+- ___Block_byref_object_dispose_
+- ___block_descriptor_32_e17_v16?0"NSError"8l
+- ___block_descriptor_32_e19_"NSDictionary"8?0l
+- ___block_descriptor_32_e20_v20?0B8"NSError"12l
+- ___block_descriptor_32_e23_v16?0"UIAlertAction"8l
+- ___block_descriptor_32_e37_v28?0B8"NSDictionary"12"NSError"20l
+- ___block_descriptor_32_e5_v8?0l
+- ___block_descriptor_40_e5_v8?0l
+- ___block_descriptor_40_e8_32r_e17_v16?0"NSError"8lr32l8
+- ___block_descriptor_40_e8_32r_e20_v20?0B8"NSError"12lr32l8
+- ___block_descriptor_40_e8_32s_e33_v16?0"NSObject<OS_xpc_object>"8ls32l8
+- ___block_descriptor_40_e8_32s_e37_v28?0B8"NSDictionary"12"NSError"20ls32l8
+- ___block_descriptor_40_e8_32s_e5_v8?0ls32l8
+- ___block_descriptor_48_e8_32bs40w_e5_v8?0lw40l8s32l8
+- ___block_descriptor_48_e8_32s40s_e19_"NSDictionary"8?0ls32l8s40l8
+- ___block_descriptor_48_e8_32s40s_e23_v16?0"UIAlertAction"8ls32l8s40l8
+- ___block_descriptor_48_e8_32s40s_e5_v8?0ls32l8s40l8
+- ___block_descriptor_48_e8_32s_e33_v16?0"NSObject<OS_xpc_object>"8ls32l8
+- ___block_descriptor_56_e8_32r40r48r_e31_v28?0B8"NSData"12"NSError"20lr32l8r40l8r48l8
+- ___block_descriptor_56_e8_32s40bs48w_e5_v8?0lw48l8s32l8s40l8
+- ___block_descriptor_56_e8_32s40r48r_e39_v28?0B8"CRCCertificate"12"NSError"20lr40l8r48l8s32l8
+- ___block_descriptor_56_e8_32s40s48bs_e5_v8?0ls32l8s40l8s48l8
+- ___block_descriptor_56_e8_32s40s48s_e5_v8?0ls32l8s40l8s48l8
+- ___block_descriptor_64_e8_32s40s48s56bs_e28_v16?0"PSSpecifierUpdates"8ls32l8s40l8s48l8s56l8
+- ___block_descriptor_64_e8_32s40s_e19_"NSDictionary"8?0ls32l8s40l8
+- ___block_descriptor_65_e8_32s40s48s56s_e5_v8?0ls32l8s40l8s48l8s56l8
+- ___block_descriptor_72_e8_32s40s48s56r64r_e5_v8?0ls32l8s40l8r56l8r64l8s48l8
+- ___block_descriptor_73_e8_32s40s48s56s64r_e5_v8?0lr64l8s32l8s40l8s48l8s56l8
+- ___block_descriptor_81_e8_32s40s48s56s64s72s_e5_v8?0ls32l8s40l8s48l8s56l8s64l8s72l8
+- ___block_literal_global
+- ___block_literal_global.129
+- ___block_literal_global.152
+- ___block_literal_global.40
+- ___block_literal_global.68
+- ___handleForCategory_block_invoke
+- __os_feature_enabled_impl
+- _handleForCategory
+- _handleForCategory.cold.1
+- _handleForCategory.logHandles
+- _handleForCategory.onceToken
+- _notificationQueue
+- _objc_msgSend$URLWithString:
+- _objc_msgSend$UTF8String
+- _objc_msgSend$_createFinishRepairSpecifierFor:detailView:moduleName:
+- _objc_msgSend$_createUnknownSpecifierFor:detailView:moduleName:
+- _objc_msgSend$_init
+- _objc_msgSend$_preflight:
+- _objc_msgSend$_updateSpecifiers:specifierToInsertAfter:withUpdates:
+- _objc_msgSend$actionWithLabel:url:
+- _objc_msgSend$actionWithTitle:style:handler:
+- _objc_msgSend$actions
+- _objc_msgSend$activateConstraints:
+- _objc_msgSend$addAction:
+- _objc_msgSend$addAttribute:value:range:
+- _objc_msgSend$addGestureRecognizer:
+- _objc_msgSend$addObject:
+- _objc_msgSend$addObjectsFromArray:
+- _objc_msgSend$addSubview:
+- _objc_msgSend$alertControllerWithTitle:message:preferredStyle:
+- _objc_msgSend$appearance
+- _objc_msgSend$appendAttributedString:
+- _objc_msgSend$appendString:
+- _objc_msgSend$array
+- _objc_msgSend$arrayByAddingObjectsFromArray:
+- _objc_msgSend$arrayWithObject:
+- _objc_msgSend$arrayWithObjects:
+- _objc_msgSend$arrayWithObjects:count:
+- _objc_msgSend$attributedStringWithAttachment:
+- _objc_msgSend$boolForKey:
+- _objc_msgSend$bundleWithPath:
+- _objc_msgSend$certifcateType
+- _objc_msgSend$certificates
+- _objc_msgSend$characterSetWithCharactersInString:
+- _objc_msgSend$checkInAndHandleAuthStatus
+- _objc_msgSend$checkUsedStatusFor:withHistory:withClaimCount:
+- _objc_msgSend$claimCount
+- _objc_msgSend$clearCAARequestHistory
+- _objc_msgSend$clearFollowUpForkey:
+- _objc_msgSend$clearNSUserDefaults
+- _objc_msgSend$clearPendingFollowUpItemsWithUniqueIdentifiers:error:
+- _objc_msgSend$clearRepairFollowUp
+- _objc_msgSend$clearRepairFollowUpWithUniqueID:
+- _objc_msgSend$clearStateFile:
+- _objc_msgSend$compareBuildVersionString:withPrecision:
+- _objc_msgSend$componentAuthHandler
+- _objc_msgSend$componentEventQueue
+- _objc_msgSend$componentFollowupClientID
+- _objc_msgSend$componentFollowupRetriggerdays
+- _objc_msgSend$componentHasNotifiedServerKey
+- _objc_msgSend$componentLastCheckTimeKey
+- _objc_msgSend$componentName
+- _objc_msgSend$componentRepairSpecifierForComponent:IsUsed:repairDate:
+- _objc_msgSend$componentRetriggerCountKey
+- _objc_msgSend$componentSUCaseKey
+- _objc_msgSend$componentSalvagedSpecifierForComponent:
+- _objc_msgSend$componentSpecifierForComponent:
+- _objc_msgSend$componentStatusKey
+- _objc_msgSend$componentUnLockCheckCountKey
+- _objc_msgSend$componentUnlockCheckerActivityName
+- _objc_msgSend$componentfollowUpDisplaydays
+- _objc_msgSend$componentsSeparatedByCharactersInSet:
+- _objc_msgSend$configureSpin:ofCellForSpecifier:setEnabled:
+- _objc_msgSend$constraintsWithVisualFormat:options:metrics:views:
+- _objc_msgSend$constructSpecifiersWithPrivacySpecifier:rchlHistory:caaHistory:srvp:
+- _objc_msgSend$containsString:
+- _objc_msgSend$contentView
+- _objc_msgSend$copy
+- _objc_msgSend$copyComponentStatus
+- _objc_msgSend$copyPathForPersistentData:error:
+- _objc_msgSend$copySealingManifestDataInstanceForComponent:
+- _objc_msgSend$count
+- _objc_msgSend$countByEnumeratingWithState:objects:count:
+- _objc_msgSend$createCriteriaForUnlockCheckerWithInterval:
+- _objc_msgSend$createFinishRepairFollowUpWithNotification:
+- _objc_msgSend$createFollowUpSubtitle
+- _objc_msgSend$createFollowUpTitle
+- _objc_msgSend$createRepairFollowUp
+- _objc_msgSend$createRepairFollowUpWithNotification:actionURL:repairTitle:infoText:itemID:timeInterval:componentName:
+- _objc_msgSend$currentConnection
+- _objc_msgSend$currentLocale
+- _objc_msgSend$dataWithPropertyList:format:options:error:
+- _objc_msgSend$date
+- _objc_msgSend$deactivateConstraints:
+- _objc_msgSend$defaultManager
+- _objc_msgSend$defaultWorkspace
+- _objc_msgSend$deliveredNotifications
+- _objc_msgSend$description
+- _objc_msgSend$detailControllerClass
+- _objc_msgSend$deviceClass
+- _objc_msgSend$deviceHistory
+- _objc_msgSend$deviceSupportsRepairBootIntent
+- _objc_msgSend$dictionary
+- _objc_msgSend$dictionaryWithObjects:forKeys:count:
+- _objc_msgSend$dictionaryWithObjectsAndKeys:
+- _objc_msgSend$didShowDataCollectionNoticeForComponent:
+- _objc_msgSend$displayModalPopup
+- _objc_msgSend$doubleForKey:
+- _objc_msgSend$emptyGroupSpecifier
+- _objc_msgSend$extractAudioSpecifiers
+- _objc_msgSend$extractBackGlassSpecifiers:configurationSpecifiers:caaRepairHistory:rchlHistory:
+- _objc_msgSend$extractBasebandSpecifiers:
+- _objc_msgSend$extractBatterySpecifiers:configurationSpecifiers:
+- _objc_msgSend$extractBluetoohSpecifiers
+- _objc_msgSend$extractCameraSpecifiers:componentsInfoSpecifiers:configurationSpecifiers:
+- _objc_msgSend$extractCoverGlassSpecifiers:
+- _objc_msgSend$extractDisplaySpecifiers:configurationSpecifiers:
+- _objc_msgSend$extractEnclosureSpecifiers:caaRepairHistory:rchlHistory:
+- _objc_msgSend$extractFaceIDSpecifiers:configurationSpecifiers:
+- _objc_msgSend$extractMtubSpecifiers:caaRepairHistory:srvp:rchlHistory:
+- _objc_msgSend$extractNFCSpecifiers:
+- _objc_msgSend$extractRCHLRepairHistoryAndClaimCount:
+- _objc_msgSend$extractRCameraHWFailureSpecifiers
+- _objc_msgSend$extractRepairHistoryWithError:
+- _objc_msgSend$extractTouchIDSpecifiers:configurationSpecifiers:
+- _objc_msgSend$extractUWBSpecifiers:
+- _objc_msgSend$extractVolumeButtonSpecifiers:
+- _objc_msgSend$extractWifiSpecifiers
+- _objc_msgSend$extractiPadBatterySpecifiers:
+- _objc_msgSend$extractiPadCameraSpecifiers:componentsInfoSpecifiers:configurationSpecifiers:caaRepairHistory:rchlHistory:
+- _objc_msgSend$fileExistsAtPath:
+- _objc_msgSend$findSpecifierToInsertAfter:
+- _objc_msgSend$finishRepairMessage
+- _objc_msgSend$finishRepairTitle
+- _objc_msgSend$firstObject
+- _objc_msgSend$followUpInfoMessage
+- _objc_msgSend$footerText
+- _objc_msgSend$getCAAForRepairHistory
+- _objc_msgSend$getComponentName:
+- _objc_msgSend$getCpuUptimeInSec
+- _objc_msgSend$getCurrentDetailsWithPrivacySpecifier:
+- _objc_msgSend$getCurrentSystemHealthStatusForComponents:WithReply:
+- _objc_msgSend$getHwRevision
+- _objc_msgSend$getLocalSealingManifest
+- _objc_msgSend$getLocalizationKey:
+- _objc_msgSend$getNetworkAlert
+- _objc_msgSend$getOSUpdateAlert
+- _objc_msgSend$getPreFlightFailedAlert
+- _objc_msgSend$getRepairHistoryItemswithCAAHistory:
+- _objc_msgSend$getRepairTicket
+- _objc_msgSend$getRepairTicket:
+- _objc_msgSend$getUseCountExceptionsWith:
+- _objc_msgSend$groupSpecifierWithName:
+- _objc_msgSend$groupStandardUserDefaults
+- _objc_msgSend$groupUserDefaultsWithSuiteName:
+- _objc_msgSend$handleAction:completion:
+- _objc_msgSend$handleComponentSUCase:lastAUthCheckBuildVersion:followUpItemID:queryString:suCasekey:startBuildVersion:componentAuth:
+- _objc_msgSend$handleSUCase
+- _objc_msgSend$handlerWithItem:
+- _objc_msgSend$hasConnectivity
+- _objc_msgSend$hasHadRCHLBasedRepairForComponent:withHistory:
+- _objc_msgSend$hasInvalidRCHL
+- _objc_msgSend$hasUnsealedComponents
+- _objc_msgSend$identifier
+- _objc_msgSend$imageWithRenderingMode:
+- _objc_msgSend$imageWithTintColor:
+- _objc_msgSend$infoCollectionSpecifier
+- _objc_msgSend$informativeText
+- _objc_msgSend$initForRegisterChangeWithParameters:
+- _objc_msgSend$initWithActivityIndicatorStyle:
+- _objc_msgSend$initWithBundleIdentifier:
+- _objc_msgSend$initWithClientIdentifier:
+- _objc_msgSend$initWithData:encoding:
+- _objc_msgSend$initWithMachServiceName:options:
+- _objc_msgSend$initWithString:
+- _objc_msgSend$initWithSuiteName:
+- _objc_msgSend$initWithTarget:action:
+- _objc_msgSend$insertContiguousSpecifiers:afterSpecifier:
+- _objc_msgSend$intValue
+- _objc_msgSend$integerForKey:
+- _objc_msgSend$integerValue
+- _objc_msgSend$interfaceWithProtocol:
+- _objc_msgSend$isBatteryInServiceState
+- _objc_msgSend$isBatteryInServiceState:
+- _objc_msgSend$isDcSignedComponent:error:
+- _objc_msgSend$isDcSignedSealingManifest:
+- _objc_msgSend$isEqualToData:
+- _objc_msgSend$isEqualToString:
+- _objc_msgSend$isFDRDataClassSupported:
+- _objc_msgSend$isMainThread
+- _objc_msgSend$isPreFlightDone
+- _objc_msgSend$isPreflightSuccessful
+- _objc_msgSend$isRCHLRepairHistoryDevice
+- _objc_msgSend$isRepaired
+- _objc_msgSend$isSUCaseForComponent
+- _objc_msgSend$isServicePartWithError:
+- _objc_msgSend$isSetupStillRunning
+- _objc_msgSend$isStrongComponent:
+- _objc_msgSend$isSupportedIPad
+- _objc_msgSend$isUsed
+- _objc_msgSend$isVaildCAA:
+- _objc_msgSend$isbatteryLevelBelowThreshold
+- _objc_msgSend$issueClientCertificateWithCompletionOnQueue:withOptions:completion:
+- _objc_msgSend$kbArticleURL
+- _objc_msgSend$labelColor
+- _objc_msgSend$layoutSubviews
+- _objc_msgSend$length
+- _objc_msgSend$locKeyWithFormat:component:
+- _objc_msgSend$locale
+- _objc_msgSend$localeIdentifier
+- _objc_msgSend$localizedDescription
+- _objc_msgSend$localizedStringWithFormat:component:
+- _objc_msgSend$localizedStringWithKey:defaultString:
+- _objc_msgSend$mainNonAuthRepairFlow
+- _objc_msgSend$mutableCopy
+- _objc_msgSend$notifyServer
+- _objc_msgSend$null
+- _objc_msgSend$numberWithBool:
+- _objc_msgSend$numberWithInteger:
+- _objc_msgSend$objectAtIndexedSubscript:
+- _objc_msgSend$objectForKey:
+- _objc_msgSend$objectForKeyedSubscript:
+- _objc_msgSend$openSensitiveURL:withOptions:
+- _objc_msgSend$openSensitiveURL:withOptions:error:
+- _objc_msgSend$openURL:configuration:completionHandler:
+- _objc_msgSend$parentViewController
+- _objc_msgSend$pathForResource:ofType:
+- _objc_msgSend$pendingFollowUpItems:
+- _objc_msgSend$pendingNotificationRequests
+- _objc_msgSend$performBackGroundMiniPreflight
+- _objc_msgSend$performInteractiveMiniPreflightWith:
+- _objc_msgSend$performInteractivePreflightWithSpecifier:
+- _objc_msgSend$performSpecifierUpdates:
+- _objc_msgSend$performUpdatesAnimated:usingBlock:
+- _objc_msgSend$popUpNotificationNowWithMessage
+- _objc_msgSend$popUpNotificationNowWithMessage:title:openSensitiveURL:componentName:legacyPopup:
+- _objc_msgSend$popUpNotificationTitle
+- _objc_msgSend$postFollowUpItem:error:
+- _objc_msgSend$preferenceSpecifierNamed:target:set:get:detail:cell:edit:
+- _objc_msgSend$preferredFontForTextStyle:
+- _objc_msgSend$preflight:withReply:
+- _objc_msgSend$presentViewController:animated:completion:
+- _objc_msgSend$propertyForKey:
+- _objc_msgSend$propertyListWithData:options:format:error:
+- _objc_msgSend$raise:format:
+- _objc_msgSend$rangeOfString:
+- _objc_msgSend$rchlRepairHistory
+- _objc_msgSend$referenceKey
+- _objc_msgSend$registerChangeForComponent:fdrError:
+- _objc_msgSend$reloadCurrentSystemHealthInfoSpecifiers
+- _objc_msgSend$remoteObjectProxy
+- _objc_msgSend$removeDeliveredNotificationsWithIdentifiers:
+- _objc_msgSend$removeItemAtPath:error:
+- _objc_msgSend$removeObjectForKey:
+- _objc_msgSend$removeRepairNotificationsWithUniqueID:
+- _objc_msgSend$removeSpecifierWithID:
+- _objc_msgSend$repairDate
+- _objc_msgSend$repairHistoryItems
+- _objc_msgSend$request
+- _objc_msgSend$requestCAA
+- _objc_msgSend$resume
+- _objc_msgSend$retryCAA
+- _objc_msgSend$scheduleNetworkActivity
+- _objc_msgSend$scheduleNetworkActivityWith:
+- _objc_msgSend$scheduleUnlockCheckerActivity:forFinishRepair:
+- _objc_msgSend$sendAnalyticsForCount:
+- _objc_msgSend$sendAnalyticsForRepairHistoryMismatch
+- _objc_msgSend$sendAsyncAnalyticsForEvent:moduleName:
+- _objc_msgSend$sendAsyncAnalyticsForEventIfNeeded:moduleName:
+- _objc_msgSend$setAccessoryView:
+- _objc_msgSend$setActions:
+- _objc_msgSend$setActivateAction:
+- _objc_msgSend$setAttributedText:
+- _objc_msgSend$setBool:forKey:
+- _objc_msgSend$setBootIntentAndReboot
+- _objc_msgSend$setBootIntentAndRebootToCheckerboardWithLocale:reply:
+- _objc_msgSend$setButtonAction:
+- _objc_msgSend$setButtonTitle:
+- _objc_msgSend$setCellEnabled:
+- _objc_msgSend$setClearAction:
+- _objc_msgSend$setComponentAuthHandler:
+- _objc_msgSend$setComponentDataCollectionPresentedKey:
+- _objc_msgSend$setComponentEventQueue:
+- _objc_msgSend$setComponentFirstUIDisplayedTimeKey:
+- _objc_msgSend$setComponentFollowupClientID:
+- _objc_msgSend$setComponentForceKey:
+- _objc_msgSend$setComponentHasDisplayedFollowUpKey:
+- _objc_msgSend$setComponentHasNotifiedServerKey:
+- _objc_msgSend$setComponentId:
+- _objc_msgSend$setComponentLastCheckTimeKey:
+- _objc_msgSend$setComponentName:
+- _objc_msgSend$setComponentNtwkActivityName:
+- _objc_msgSend$setComponentRetriggerCountKey:
+- _objc_msgSend$setComponentSUCaseKey:
+- _objc_msgSend$setComponentStatusKey:
+- _objc_msgSend$setComponentUnLockCheckCountKey:
+- _objc_msgSend$setComponentUnlockCheckerActivityName:
+- _objc_msgSend$setContentCompressionResistancePriority:forAxis:
+- _objc_msgSend$setDisableUIForComponent:
+- _objc_msgSend$setDisplayFollowup:
+- _objc_msgSend$setDisplayModalPopup:
+- _objc_msgSend$setDisplayNotification:
+- _objc_msgSend$setDisplayStyle:
+- _objc_msgSend$setDouble:forKey:
+- _objc_msgSend$setFinishRepairKey:
+- _objc_msgSend$setFinishRepairMessage:
+- _objc_msgSend$setFinishRepairTitle:
+- _objc_msgSend$setFirstNotificationDelay:
+- _objc_msgSend$setFollowUpInfoMessage:
+- _objc_msgSend$setFont:
+- _objc_msgSend$setFooterText:
+- _objc_msgSend$setFrequency:
+- _objc_msgSend$setGroupIdentifier:
+- _objc_msgSend$setIdentifier:
+- _objc_msgSend$setInformativeText:
+- _objc_msgSend$setInteger:forKey:
+- _objc_msgSend$setIsSUCaseForComponent:
+- _objc_msgSend$setIsUsed:
+- _objc_msgSend$setKbArticleURL:
+- _objc_msgSend$setLastKnownComponentIdentifierKey:
+- _objc_msgSend$setLastKnownComponentIdentifierValue:
+- _objc_msgSend$setLineBreakMode:
+- _objc_msgSend$setLinkedSensitiveURL:
+- _objc_msgSend$setName:
+- _objc_msgSend$setNeedsLayout
+- _objc_msgSend$setNeedsUpdateConstraints
+- _objc_msgSend$setNotification:
+- _objc_msgSend$setNotifyServer:
+- _objc_msgSend$setNumberOfLines:
+- _objc_msgSend$setObject:forKey:
+- _objc_msgSend$setObject:forKeyedSubscript:
+- _objc_msgSend$setOptions:
+- _objc_msgSend$setPopUpNotificationMessage:
+- _objc_msgSend$setPopUpNotificationTitle:
+- _objc_msgSend$setProperty:forKey:
+- _objc_msgSend$setRemoteObjectInterface:
+- _objc_msgSend$setRepairDate:
+- _objc_msgSend$setStateFilePath:
+- _objc_msgSend$setSupportsRepair:
+- _objc_msgSend$setTargetBundleIdentifier:
+- _objc_msgSend$setText:
+- _objc_msgSend$setTextColor:
+- _objc_msgSend$setTitle:
+- _objc_msgSend$setTitleText:
+- _objc_msgSend$setTranslatesAutoresizingMaskIntoConstraints:
+- _objc_msgSend$setUniqueIdentifier:
+- _objc_msgSend$setUnlockActionLabel:
+- _objc_msgSend$setUnlockCheckActivityRequired:
+- _objc_msgSend$setUserInteractionEnabled:
+- _objc_msgSend$setWithArray:
+- _objc_msgSend$setupCAARetry:
+- _objc_msgSend$setupGroupSpecifer
+- _objc_msgSend$setupPrivacyFooterFor:withPrivacySpecifier:
+- _objc_msgSend$sharedDataAccessor
+- _objc_msgSend$sharedInstance
+- _objc_msgSend$sharedSingleton
+- _objc_msgSend$shouldShowDataCollectionNoticeForComponent:
+- _objc_msgSend$spcResults:
+- _objc_msgSend$specifierDataSource
+- _objc_msgSend$specifiers
+- _objc_msgSend$standardUserDefaults
+- _objc_msgSend$startAnimating
+- _objc_msgSend$stringByAppendingString:
+- _objc_msgSend$stringForKey:
+- _objc_msgSend$stringValue
+- _objc_msgSend$stringWithFormat:
+- _objc_msgSend$supportRepair:
+- _objc_msgSend$synchronize
+- _objc_msgSend$synchronousRemoteObjectProxyWithErrorHandler:
+- _objc_msgSend$synchronouslycopyAuthStatus
+- _objc_msgSend$systemBlueColor
+- _objc_msgSend$systemGrayColor
+- _objc_msgSend$systemGreenColor
+- _objc_msgSend$systemImageNamed:
+- _objc_msgSend$text
+- _objc_msgSend$textAttachmentWithImage:
+- _objc_msgSend$textColor
+- _objc_msgSend$timeIntervalSince1970
+- _objc_msgSend$title
+- _objc_msgSend$titleLabel
+- _objc_msgSend$titleText
+- _objc_msgSend$uniqueIdentifier
+- _objc_msgSend$unlockCheckActivityRequired
+- _objc_msgSend$unlockCheckerActivityBody
+- _objc_msgSend$unlockCheckerActivityBodyForFinishRepair
+- _objc_msgSend$updatesWithSpecifiers:
+- _objc_msgSend$url
+- _objc_msgSend$valueForSpecifierFinishRepair
+- _objc_msgSend$valueForSpecifierIssue
+- _objc_msgSend$valueForSpecifierRepaired
+- _objc_msgSend$valueForSpecifierService
+- _objc_msgSend$valueForSpecifierUnknown
+- _objc_msgSend$valueForSpecifierUnverified
+- _objc_msgSend$valueForSpecifierUsed
+- _objc_msgSend$valueLabel
+- _objc_retainAutoreleasedReturnValue
+- _objc_retain_x27
+- _objc_retain_x28
+- _sharedInstance.instance
+- _sharedInstance.onceToken
+- _sharedSingleton.once
+- _sharedSingleton.sharedInstance
+CStrings:
++ "DISPLAYTCON_DESC"
++ "DISPLAYTCON_FOLLOWUP_INFO"
++ "DISPLAYTCON_FOLLOWUP_INFO_IPAD"
++ "DISPLAYTCON_FOLLOWUP_TITLE"
++ "DISPLAYTCON_POPUP_INFO"
++ "DISPLAYTCON_POPUP_INFO_IPAD"
++ "DISPLAYTCON_SETTINGS_TITLE"
++ "Error: %@"
++ "FINISH_BATTERY_DESC_IPAD"
++ "FINISH_BATTERY_REPAIR_DESC_IPAD"
++ "HasMesa"
++ "SEED_BUILDS_NOT_SUPPORTED"
++ "SEED_BUILDS_NOT_SUPPORTED_IPAD"
++ "[%s] no finish repair title or message, followup skipped"
++ "[%s] popup skipped"
++ "com.apple.mobilerepair.DisplayTCONRepair"
++ "getBatteryServiceState: %@"
++ "getCurrentDetailsWithPrivacySpecifier: %d"
++ "mobilerepaird does not support isBatteryInServiceState:reply:"
++ "settings-navigation://com.apple.Settings.General/About/MAIN_PARTS_AND_SERVICE"
++ "settings-navigation://com.apple.Settings.General/About/MAIN_PARTS_AND_SERVICE/%@"
++ "settings-navigation://com.apple.Settings.General/About/MAIN_PARTS_AND_SERVICE/Battery"
++ "settings-navigation://com.apple.Settings.General/About/MAIN_PARTS_AND_SERVICE/Camera"
++ "settings-navigation://com.apple.Settings.General/About/MAIN_PARTS_AND_SERVICE/TouchController"
++ "v16@?0@\"CRComponentSpecifierConfig\"8"
+- ".cxx_destruct"
+- "@"
+- "@\"CRRepairHistory\""
+- "@\"CRUIAnalytics\""
+- "@\"CoreRepairUIUtils\""
+- "@\"MRLocalization\""
+- "@\"NSArray\""
+- "@\"NSDictionary\""
+- "@\"NSMutableDictionary\""
+- "@\"NSObject<OS_dispatch_queue>\""
+- "@\"NSString\""
+- "@\"NSURL\""
+- "@\"PSListController\""
+- "@\"PSSpecifier\""
+- "@\"UILabel\""
+- "@16@0:8"
+- "@20@0:8B16"
+- "@24@0:8@16"
+- "@24@0:8d16"
+- "@32@0:8q16@24"
+- "@36@0:8@16B24@28"
+- "@40@0:8@16#24@32"
+- "@40@0:8q16@24@32"
+- "@44@0:8B16@20@28@36"
+- "B"
+- "B16@0:8"
+- "B24@0:8@16"
+- "B24@0:8^B16"
+- "BATTERY_ERROR"
+- "BATTERY_ERROR_IPAD"
+- "BackGlass"
+- "CANCEL"
+- "CRDetailViewComponentAudio"
+- "CRDetailViewComponentBackGlassFinishRepair"
+- "CRDetailViewComponentBaseband"
+- "CRDetailViewComponentBattery"
+- "CRDetailViewComponentBatteryFinishRepair"
+- "CRDetailViewComponentBatteryRepair"
+- "CRDetailViewComponentBatteryService"
+- "CRDetailViewComponentBluetooth"
+- "CRDetailViewComponentCamera"
+- "CRDetailViewComponentCameraFinishRepair"
+- "CRDetailViewComponentCameraRepair"
+- "CRDetailViewComponentCoverGlassFinishRepair"
+- "CRDetailViewComponentDisplay"
+- "CRDetailViewComponentDisplayFinishRepair"
+- "CRDetailViewComponentDisplayRepair"
+- "CRDetailViewComponentEnclosureFinishRepair"
+- "CRDetailViewComponentFaceID"
+- "CRDetailViewComponentFaceIDFinishRepair"
+- "CRDetailViewComponentFaceIDRepair"
+- "CRDetailViewComponentMtubRepair"
+- "CRDetailViewComponentMtubSalvaged"
+- "CRDetailViewComponentNFC"
+- "CRDetailViewComponentRCameraHWFailed"
+- "CRDetailViewComponentTable"
+- "CRDetailViewComponentTouchID"
+- "CRDetailViewComponentTouchIDFinishRepair"
+- "CRDetailViewComponentTouchIDRepair"
+- "CRDetailViewComponentUWB"
+- "CRDetailViewComponentVolumeButtonFinishRepair"
+- "CRDetailViewComponentWifi"
+- "CRSystemHealthProtocol"
+- "CRUActionCell"
+- "CRUAlertCell"
+- "CRUDetailCell"
+- "CRUDetailViewComponent"
+- "CRUFollowUpHeaderCell"
+- "CRUIAnalytics"
+- "CRUMultilineLinkCell"
+- "CRUMultilineTextCell"
+- "Classes"
+- "CoreRepair"
+- "CoreRepairBootIntentProtocol"
+- "CoreRepairComponents"
+- "CoreRepairUIUtils"
+- "CoverGlass"
+- "Date"
+- "Enclosure"
+- "FaceID"
+- "ForceBackGlassStatus"
+- "ForceBatteryStatus"
+- "ForceCameraStatus"
+- "ForceDisplayStatus"
+- "ForceFaceIDStatus"
+- "ForceMTUBStatus"
+- "ForceRepaired"
+- "ForceTouchIDStatus"
+- "ForceUnknown"
+- "ForceUsed"
+- "HV7WDiidgMf7lwAu++Lk5w"
+- "MRAudioCodecComponentHandler"
+- "MRAudioComponentHandler"
+- "MRBackGlassComponentHandler"
+- "MRBaseComponentHandler"
+- "MRBasebandComponentHandler"
+- "MRBatteryComponentHandler"
+- "MRBluetoothComponentHandler"
+- "MRCameraComponentHandler"
+- "MRDisplayComponentHandler"
+- "MRFaceIDComponentHandler"
+- "MRNFCComponentHandler"
+- "MRRCamComponentHandler"
+- "MRSystemHealthComponentHandler"
+- "MRTouchIDComponentHandler"
+- "MRUINotificationHelper"
+- "MRUWBComponentHandler"
+- "MRWifiComponentHandler"
+- "NETWORK_CONNECTION_DESC"
+- "NETWORK_CONNECTION_DESC_IPAD"
+- "NETWORK_CONNECTION_REQUIRED"
+- "NOT_AVAILABLE"
+- "NOT_NOW"
+- "Network is not reachable"
+- "OS Update required to proceed"
+- "Property"
+- "RC"
+- "RESTART_AND_FINISH_REPAIR"
+- "RestartInitiated"
+- "SOFTWARE_UPDATE"
+- "SOFTWARE_UPDATE_DESC"
+- "SOFTWARE_UPDATE_DESC_IPAD"
+- "SOFTWARE_UPDATE_REQUIRED"
+- "SystemHealthUI"
+- "T@\"CRRepairHistory\",&,N,VdeviceHistory"
+- "T@\"MRLocalization\",&,N,Vlocale"
+- "T@\"NSArray\",&,N,VrchlRepairHistory"
+- "T@\"NSDictionary\",&,N,VcaaRepairHistoryDict"
+- "T@\"NSDictionary\",&,N,VclaimCount"
+- "T@\"NSDictionary\",&,N,VrepairHistoryItems"
+- "T@\"NSObject<OS_dispatch_queue>\",&,N,V_componentEventQueue"
+- "T@\"NSString\",&,N,VbuttonTitle"
+- "T@\"NSString\",&,N,VcomponentDataCollectionPresentedKey"
+- "T@\"NSString\",&,N,VcomponentEnableNonAuthUIKey"
+- "T@\"NSString\",&,N,VcomponentFirstUIDisplayedTimeKey"
+- "T@\"NSString\",&,N,VcomponentFollowupClientID"
+- "T@\"NSString\",&,N,VcomponentForceKey"
+- "T@\"NSString\",&,N,VcomponentHasDisplayedFollowUpKey"
+- "T@\"NSString\",&,N,VcomponentHasNotifiedServerKey"
+- "T@\"NSString\",&,N,VcomponentLastCheckTimeKey"
+- "T@\"NSString\",&,N,VcomponentName"
+- "T@\"NSString\",&,N,VcomponentNtwkActivityName"
+- "T@\"NSString\",&,N,VcomponentRetriggerCountKey"
+- "T@\"NSString\",&,N,VcomponentSUCaseKey"
+- "T@\"NSString\",&,N,VcomponentStatusKey"
+- "T@\"NSString\",&,N,VcomponentUnLockCheckCountKey"
+- "T@\"NSString\",&,N,VcomponentUnlockCheckerActivityName"
+- "T@\"NSString\",&,N,VfinishRepairKey"
+- "T@\"NSString\",&,N,VfinishRepairMessage"
+- "T@\"NSString\",&,N,VfinishRepairTitle"
+- "T@\"NSString\",&,N,VfollowUpInfoMessage"
+- "T@\"NSString\",&,N,VfooterText"
+- "T@\"NSString\",&,N,VinformativeText"
+- "T@\"NSString\",&,N,VlastKnownComponentIdentifierKey"
+- "T@\"NSString\",&,N,VlastKnownComponentIdentifierValue"
+- "T@\"NSString\",&,N,VpopUpNotificationMessage"
+- "T@\"NSString\",&,N,VpopUpNotificationTitle"
+- "T@\"NSString\",&,N,VrepairDate"
+- "T@\"NSString\",&,N,VstateFilePath"
+- "T@\"NSString\",&,N,VtitleText"
+- "T@\"NSURL\",&,N,VkbArticleURL"
+- "T@\"NSURL\",&,N,VlinkedSensitiveURL"
+- "T@\"PSListController\",W,N,V_parentViewController"
+- "T@\"PSSpecifier\",&,N,VinfoCollectionSpecifier"
+- "T@,&,N,VcomponentAuthHandler"
+- "TB,N,VdataCollectionClassExist"
+- "TB,N,VdisableUIForComponent"
+- "TB,N,VdisplayFollowup"
+- "TB,N,VdisplayModalPopup"
+- "TB,N,VdisplayNotification"
+- "TB,N,VisSUCaseForComponent"
+- "TB,N,VisUsed"
+- "TB,N,VlegacyPopup"
+- "TB,N,VnotifyServer"
+- "TB,N,VsupportsRepair"
+- "TB,N,VunlockCheckActivityRequired"
+- "TOUCHID_REPAIR"
+- "TRY_AGAIN_LATER_DESC"
+- "Td,N,VtimeIntervalOverride"
+- "Ti,N,VcomponentFollowupRetriggerdays"
+- "Ti,N,VcomponentfollowUpDisplaydays"
+- "Ti,N,VdeviceClass"
+- "Ti,R,N,VdeviceClass"
+- "Tq,D,N"
+- "Tq,N,VcomponentId"
+- "URLWithString:"
+- "UTF8String"
+- "VolumeButton"
+- "_componentEventQueue"
+- "_constraints"
+- "_createFinishRepairSpecifierFor:detailView:moduleName:"
+- "_createUnknownSpecifierFor:detailView:moduleName:"
+- "_followSubtitle"
+- "_followTitle"
+- "_init"
+- "_parentViewController"
+- "_preflight:"
+- "_updateSpecifiers:specifierToInsertAfter:withUpdates:"
+- "actionWithLabel:url:"
+- "actionWithTitle:style:handler:"
+- "actions"
+- "activateConstraints:"
+- "addAction:"
+- "addAttribute:value:range:"
+- "addGestureRecognizer:"
+- "addObject:"
+- "addObjectsFromArray:"
+- "addSubview:"
+- "alertControllerWithTitle:message:preferredStyle:"
+- "analytics"
+- "appearance"
+- "appendAttributedString:"
+- "appendString:"
+- "array"
+- "arrayByAddingObjectsFromArray:"
+- "arrayWithObject:"
+- "arrayWithObjects:"
+- "arrayWithObjects:count:"
+- "asyncQueue"
+- "attributedStringWithAttachment:"
+- "boolForKey:"
+- "bundleWithPath:"
+- "buttonTitle"
+- "caaRepairHistoryDict"
+- "cachedSpecifiers"
+- "cellStyle"
+- "certifcateType"
+- "certificates"
+- "characterSetWithCharactersInString:"
+- "checkInAndHandleAuthStatus"
+- "checkUsedStatusFor:withHistory:withClaimCount:"
+- "claimCount"
+- "clearBootIntent:"
+- "clearBootIntentAndReboot:"
+- "clearCAARequestHistory"
+- "clearFollowUpForkey:"
+- "clearNSUserDefaults"
+- "clearPendingFollowUpItemsWithUniqueIdentifiers:error:"
+- "clearRepairBackup:"
+- "clearRepairFollowUp"
+- "clearRepairFollowUpWithUniqueID:"
+- "clearStateFile:"
+- "clientIDtoFollowupItemCache"
+- "compareBuildVersionString:withPrecision:"
+- "componentAuthHandler"
+- "componentDataCollectionPresentedKey"
+- "componentEnableNonAuthUIKey"
+- "componentEventQueue"
+- "componentFirstUIDisplayedTimeKey"
+- "componentFollowupClientID"
+- "componentFollowupRetriggerdays"
+- "componentForceKey"
+- "componentHasDisplayedFollowUpKey"
+- "componentHasNotifiedServerKey"
+- "componentId"
+- "componentLastCheckTimeKey"
+- "componentName"
+- "componentNtwkActivityName"
+- "componentRepairSpecifierForComponent:IsUsed:repairDate:"
+- "componentRetriggerCountKey"
+- "componentSUCaseKey"
+- "componentSalvagedSpecifierForComponent:"
+- "componentSpecifierForComponent:"
+- "componentStatusKey"
+- "componentUnLockCheckCountKey"
+- "componentUnlockCheckerActivityName"
+- "componentfollowUpDisplaydays"
+- "componentsSeparatedByCharactersInSet:"
+- "configureSpin:ofCellForSpecifier:setEnabled:"
+- "constraintsWithVisualFormat:options:metrics:views:"
+- "constructSpecifiersWithPrivacySpecifier:rchlHistory:caaHistory:srvp:"
+- "containsString:"
+- "contentView"
+- "copy"
+- "copyComponentStatus"
+- "copyPathForPersistentData:error:"
+- "copySealingManifestDataInstanceForComponent:"
+- "count"
+- "countByEnumeratingWithState:objects:count:"
+- "createCriteriaForUnlockCheckerWithInterval:"
+- "createFinishRepairFollowUpWithNotification:"
+- "createFollowUpSubtitle"
+- "createFollowUpTitle"
+- "createRepairFollowUp"
+- "createRepairFollowUpWithNotification:actionURL:repairTitle:infoText:itemID:timeInterval:componentName:"
+- "currentConnection"
+- "currentLocale"
+- "d"
+- "d16@0:8"
+- "dataCollectionClassExist"
+- "dataWithPropertyList:format:options:error:"
+- "date"
+- "deactivateConstraints:"
+- "defaultManager"
+- "defaultWorkspace"
+- "delay"
+- "deliveredNotifications"
+- "description"
+- "detailControllerClass"
+- "deviceClass"
+- "deviceFDRVersion1"
+- "deviceHasReducedBootPolicyWithReply:"
+- "deviceHistory"
+- "deviceSupportsRepairBootIntent"
+- "dictionary"
+- "dictionaryWithObjects:forKeys:count:"
+- "dictionaryWithObjectsAndKeys:"
+- "didShowDataCollectionNoticeForComponent:"
+- "disableUIForComponent"
+- "displayFollowup"
+- "displayModalPopup"
+- "displayNotification"
+- "doubleForKey:"
+- "emptyGroupSpecifier"
+- "extractAudioSpecifiers"
+- "extractBackGlassSpecifiers:configurationSpecifiers:caaRepairHistory:rchlHistory:"
+- "extractBasebandSpecifiers:"
+- "extractBatterySpecifiers:configurationSpecifiers:"
+- "extractBluetoohSpecifiers"
+- "extractCameraSpecifiers:componentsInfoSpecifiers:configurationSpecifiers:"
+- "extractCoverGlassSpecifiers:"
+- "extractDisplaySpecifiers:configurationSpecifiers:"
+- "extractEnclosureSpecifiers:caaRepairHistory:rchlHistory:"
+- "extractFaceIDSpecifiers:configurationSpecifiers:"
+- "extractMtubSpecifiers:caaRepairHistory:srvp:rchlHistory:"
+- "extractNFCSpecifiers:"
+- "extractRCHLRepairHistoryAndClaimCount:"
+- "extractRCameraHWFailureSpecifiers"
+- "extractRepairHistoryWithError:"
+- "extractTouchIDSpecifiers:configurationSpecifiers:"
+- "extractUWBSpecifiers:"
+- "extractVolumeButtonSpecifiers:"
+- "extractWifiSpecifiers"
+- "extractiPadBatterySpecifiers:"
+- "extractiPadCameraSpecifiers:componentsInfoSpecifiers:configurationSpecifiers:caaRepairHistory:rchlHistory:"
+- "failedComponentsCount"
+- "fileExistsAtPath:"
+- "findSpecifierToInsertAfter:"
+- "finishRepairKey"
+- "finishRepairMessage"
+- "finishRepairTitle"
+- "firstObject"
+- "followUpInfoMessage"
+- "footerText"
+- "getBatteryServiceState:%@"
+- "getCAAForRepairHistory"
+- "getComponentName:"
+- "getCpuUptimeInSec"
+- "getCurrentDetailsWithPrivacySpecifier:"
+- "getCurrentSystemHealthInfoSpecifiers"
+- "getCurrentSystemHealthStatusForComponents:WithReply:"
+- "getCurrentSystemHealthStatusForComponentsInternal:WithReply:"
+- "getHwRevision"
+- "getLocalSealingManifest"
+- "getLocalizationKey:"
+- "getNetworkAlert"
+- "getOSUpdateAlert"
+- "getPreFlightFailedAlert"
+- "getRepairHistoryItemswithCAAHistory:"
+- "getRepairTicket"
+- "getRepairTicket:"
+- "getUseCountExceptionsWith:"
+- "groupSpecifierWithName:"
+- "groupStandardUserDefaults"
+- "groupUserDefaultsWithSuiteName:"
+- "handleAction:completion:"
+- "handleComponentSUCase:lastAUthCheckBuildVersion:followUpItemID:queryString:suCasekey:startBuildVersion:componentAuth:"
+- "handleNonGenuineComponentTap:"
+- "handleSUCase"
+- "handleTapOnLabel"
+- "handlerWithItem:"
+- "hasConnectivity"
+- "hasHadRCHLBasedRepairForComponent:withHistory:"
+- "hasInvalidRCHL"
+- "hasUnsealedComponents"
+- "i16@0:8"
+- "identifier"
+- "imageWithRenderingMode:"
+- "imageWithTintColor:"
+- "infoCollectionSpecifier"
+- "informativeText"
+- "init"
+- "initForRegisterChangeWithParameters:"
+- "initWithActivityIndicatorStyle:"
+- "initWithBundleIdentifier:"
+- "initWithClientIdentifier:"
+- "initWithComponentName:"
+- "initWithData:encoding:"
+- "initWithMachServiceName:options:"
+- "initWithString:"
+- "initWithStyle:reuseIdentifier:"
+- "initWithStyle:reuseIdentifier:specifier:"
+- "initWithSuiteName:"
+- "initWithTarget:action:"
+- "insertContiguousSpecifiers:afterSpecifier:"
+- "intValue"
+- "integerForKey:"
+- "integerValue"
+- "interfaceWithProtocol:"
+- "isBatteryInServiceState"
+- "isBatteryInServiceState:"
+- "isDcSignedComponent:error:"
+- "isDcSignedSealingManifest:"
+- "isEqualToData:"
+- "isEqualToString:"
+- "isFDRDataClassSupported:"
+- "isMainThread"
+- "isPreFlightDone"
+- "isPreflightSuccessful"
+- "isRCHLDevice"
+- "isRCHLRepairHistoryDevice"
+- "isRepaired"
+- "isSUCaseForComponent"
+- "isServicePartWithError:"
+- "isSetupStillRunning"
+- "isStrongComponent:"
+- "isSupportedIPad"
+- "isUsed"
+- "isVaildCAA:"
+- "isbatteryLevelBelowThreshold"
+- "issueClientCertificateWithCompletionOnQueue:withOptions:completion:"
+- "kbArticleURL"
+- "labelColor"
+- "lastKnownComponentIdentifierKey"
+- "lastKnownComponentIdentifierValue"
+- "layoutSubviews"
+- "legacyPopup"
+- "length"
+- "linkedSensitiveURL"
+- "locKeyWithFormat:component:"
+- "localRepairHistory"
+- "locale"
+- "localeIdentifier"
+- "localizedDescription"
+- "localizedStringWithFormat:component:"
+- "localizedStringWithKey:defaultString:"
+- "mainNonAuthRepairFlow"
+- "mutableCopy"
+- "notifyServer"
+- "null"
+- "numberWithBool:"
+- "numberWithInteger:"
+- "objectAtIndexedSubscript:"
+- "objectForKey:"
+- "objectForKeyedSubscript:"
+- "openSensitiveURL:withOptions:"
+- "openSensitiveURL:withOptions:error:"
+- "openURL:configuration:completionHandler:"
+- "parentViewController"
+- "pathForResource:ofType:"
+- "pendingFollowUpItems:"
+- "pendingNotificationRequests"
+- "performBackGroundMiniPreflight"
+- "performInteractiveMiniPreflightWith:"
+- "performInteractivePreflightWithSpecifier:"
+- "performSpecifierUpdates:"
+- "performUpdatesAnimated:usingBlock:"
+- "popUpNotificationMessage"
+- "popUpNotificationNowWithMessage"
+- "popUpNotificationNowWithMessage:title:openSensitiveURL:componentName:legacyPopup:"
+- "popUpNotificationTitle"
+- "postComponentStatus:"
+- "postComponentStatusEventFor:status:withReply:"
+- "postFollowUpItem:error:"
+- "preferenceSpecifierNamed:target:set:get:detail:cell:edit:"
+- "preferredFontForTextStyle:"
+- "preflight:withReply:"
+- "prefs:root=General&path=About/MAIN_PARTS_AND_SERVICE"
+- "prefs:root=General&path=About/MAIN_PARTS_AND_SERVICE/%@"
+- "prefs:root=General&path=About/MAIN_PARTS_AND_SERVICE/Battery"
+- "prefs:root=General&path=About/MAIN_PARTS_AND_SERVICE/Camera"
+- "prefs:root=General&path=About/MAIN_PARTS_AND_SERVICE/TouchController"
+- "prefs:root=General&path=SOFTWARE_UPDATE_LINK"
+- "presentViewController:animated:completion:"
+- "propertyForKey:"
+- "propertyListWithData:options:format:error:"
+- "q16@0:8"
+- "raise:format:"
+- "rangeOfString:"
+- "rchlRepairHistory"
+- "referenceKey"
+- "refreshCellContentsWithSpecifier:"
+- "registerChangeForComponent:fdrError:"
+- "reloadCurrentSystemHealthInfoSpecifiers"
+- "remoteObjectProxy"
+- "removeDeliveredNotificationsWithIdentifiers:"
+- "removeItemAtPath:error:"
+- "removeObjectForKey:"
+- "removeRepairNotificationsWithUniqueID:"
+- "removeSpecifierWithID:"
+- "repairDate"
+- "repairHistoryItems"
+- "request"
+- "requestCAA"
+- "resume"
+- "retryCAA"
+- "scheduleNetworkActivity"
+- "scheduleNetworkActivityWith:"
+- "scheduleUnlockCheckerActivity:forFinishRepair:"
+- "sendAnalyticsForCount:"
+- "sendAnalyticsForRepairHistoryMismatch"
+- "sendAsyncAnalyticsForEvent:moduleName:"
+- "sendAsyncAnalyticsForEventIfNeeded:moduleName:"
+- "serialAsyncQueue"
+- "setAccessoryView:"
+- "setActions:"
+- "setActivateAction:"
+- "setAttributedText:"
+- "setBool:forKey:"
+- "setBootIntentAndReboot"
+- "setBootIntentAndRebootToCheckerboardWithLocale:reply:"
+- "setButtonAction:"
+- "setButtonTitle:"
+- "setCaaRepairHistoryDict:"
+- "setCellEnabled:"
+- "setClaimCount:"
+- "setClearAction:"
+- "setComponentAuthHandler:"
+- "setComponentDataCollectionPresentedKey:"
+- "setComponentEnableNonAuthUIKey:"
+- "setComponentEventQueue:"
+- "setComponentFirstUIDisplayedTimeKey:"
+- "setComponentFollowupClientID:"
+- "setComponentFollowupRetriggerdays:"
+- "setComponentForceKey:"
+- "setComponentHasDisplayedFollowUpKey:"
+- "setComponentHasNotifiedServerKey:"
+- "setComponentId:"
+- "setComponentLastCheckTimeKey:"
+- "setComponentName:"
+- "setComponentNtwkActivityName:"
+- "setComponentRetriggerCountKey:"
+- "setComponentSUCaseKey:"
+- "setComponentStatusKey:"
+- "setComponentUnLockCheckCountKey:"
+- "setComponentUnlockCheckerActivityName:"
+- "setComponentfollowUpDisplaydays:"
+- "setContentCompressionResistancePriority:forAxis:"
+- "setDataCollectionClassExist:"
+- "setDeviceClass:"
+- "setDeviceHistory:"
+- "setDisableUIForComponent:"
+- "setDisplayFollowup:"
+- "setDisplayModalPopup:"
+- "setDisplayNotification:"
+- "setDisplayStyle:"
+- "setDouble:forKey:"
+- "setFinishRepairKey:"
+- "setFinishRepairMessage:"
+- "setFinishRepairTitle:"
+- "setFirstNotificationDelay:"
+- "setFollowUpInfoMessage:"
+- "setFont:"
+- "setFooterText:"
+- "setFrequency:"
+- "setGroupIdentifier:"
+- "setIdentifier:"
+- "setInfoCollectionSpecifier:"
+- "setInformativeText:"
+- "setInteger:forKey:"
+- "setIsSUCaseForComponent:"
+- "setIsUsed:"
+- "setKbArticleURL:"
+- "setLastKnownComponentIdentifierKey:"
+- "setLastKnownComponentIdentifierValue:"
+- "setLegacyPopup:"
+- "setLineBreakMode:"
+- "setLinkedSensitiveURL:"
+- "setLocale:"
+- "setName:"
+- "setNeedsLayout"
+- "setNeedsUpdateConstraints"
+- "setNotification:"
+- "setNotifyServer:"
+- "setNumberOfLines:"
+- "setObject:forKey:"
+- "setObject:forKeyedSubscript:"
+- "setOptions:"
+- "setParentViewController:"
+- "setPopUpNotificationMessage:"
+- "setPopUpNotificationTitle:"
+- "setProperty:forKey:"
+- "setRchlRepairHistory:"
+- "setRemoteObjectInterface:"
+- "setRepairDate:"
+- "setRepairHistoryItems:"
+- "setStateFilePath:"
+- "setSupportsRepair:"
+- "setTargetBundleIdentifier:"
+- "setText:"
+- "setTextColor:"
+- "setTimeIntervalOverride:"
+- "setTitle:"
+- "setTitleText:"
+- "setTranslatesAutoresizingMaskIntoConstraints:"
+- "setUniqueIdentifier:"
+- "setUnlockActionLabel:"
+- "setUnlockCheckActivityRequired:"
+- "setUserInteractionEnabled:"
+- "setWithArray:"
+- "setupCAARetry:"
+- "setupGroupSpecifer"
+- "setupPrivacyFooterFor:withPrivacySpecifier:"
+- "sharedDataAccessor"
+- "sharedInstance"
+- "sharedSingleton"
+- "shouldShowDataCollectionNoticeForComponent:"
+- "showActionSheets:"
+- "spcResults:"
+- "specifierDataSource"
+- "specifiers"
+- "standardUserDefaults"
+- "startAnimating"
+- "stateFilePath"
+- "stringByAppendingString:"
+- "stringForKey:"
+- "stringValue"
+- "stringWithFormat:"
+- "supportRepair:"
+- "supportsRepair"
+- "synchronize"
+- "synchronousRemoteObjectProxyWithErrorHandler:"
+- "synchronouslycopyAuthStatus"
+- "systemBlueColor"
+- "systemGrayColor"
+- "systemGreenColor"
+- "systemHealth"
+- "systemImageNamed:"
+- "text"
+- "textAttachmentWithImage:"
+- "textColor"
+- "timeIntervalSince1970"
+- "title"
+- "titleLabel"
+- "titleText"
+- "uniqueIdentifier"
+- "unlockCheckActivityRequired"
+- "unlockCheckerActivityBody"
+- "unlockCheckerActivityBodyForFinishRepair"
+- "updateConstraints"
+- "updateFollowupsToNewLocale"
+- "updateSpecifiersWithCompletionHandler:"
+- "updatesWithSpecifiers:"
+- "url"
+- "utils"
+- "v16@0:8"
+- "v16@?0@\"UIAlertAction\"8"
+- "v20@0:8B16"
+- "v20@0:8i16"
+- "v24@0:8@16"
+- "v24@0:8@?16"
+- "v24@0:8@?<v@?B@\"NSData\"@\"NSError\">16"
+- "v24@0:8@?<v@?B@\"NSError\">16"
+- "v24@0:8Q16"
+- "v24@0:8^@16"
+- "v24@0:8d16"
+- "v24@0:8q16"
+- "v28@0:8@16B24"
+- "v28@0:8d16B24"
+- "v32@0:8@\"NSString\"16@?<v@?B@\"NSError\">24"
+- "v32@0:8@16@24"
+- "v32@0:8@16@?24"
+- "v32@0:8B16@20B28"
+- "v32@0:8Q16@?24"
+- "v32@0:8Q16@?<v@?B@\"NSDictionary\"@\"NSError\">24"
+- "v40@0:8@16@24@32"
+- "v40@0:8Q16Q24@?32"
+- "v40@0:8Q16Q24@?<v@?B@\"NSError\">32"
+- "v48@0:8@16@24@32@40"
+- "v52@0:8@16@24@32@40B48"
+- "v56@0:8@16@24@32@40@48"
+- "v68@0:8B16@20@28@36@44d52@60"
+- "v72@0:8@16@24@32@40@48@56@64"
+- "valueForSpecifierFinishRepair"
+- "valueForSpecifierIssue"
+- "valueForSpecifierPartData:"
+- "valueForSpecifierPartDate:"
+- "valueForSpecifierPartProperty:"
+- "valueForSpecifierPartRC:"
+- "valueForSpecifierPartService:"
+- "valueForSpecifierRepaired"
+- "valueForSpecifierService"
+- "valueForSpecifierUnknown"
+- "valueForSpecifierUnverified"
+- "valueForSpecifierUsed"
+- "valueLabel"
+
+```

@@ -1,0 +1,465 @@
+## AudioPasscodeDSP
+
+> `/System/Library/PrivateFrameworks/AudioPasscodeDSP.framework/AudioPasscodeDSP`
+
+```diff
+
+ 68.0.0.0.0
+-  __TEXT.__text: 0xdac0 sha256:3e01612de87bf1bc01527b7492f5849b22bebaece50b7191292f76143239be5d
+-  __TEXT.__auth_stubs: 0x460 sha256:941b23875deb3446b9b94afe614eb3b9220451894b500be6f89784c32f735b07
+-  __TEXT.__objc_methlist: 0x5d4 sha256:d098a1d547a0e44747e9f7bdbacce93345d2725ee2b1712517780fdbdc86946e
+-  __TEXT.__const: 0x4e40 sha256:25dd3e691bc83e3e461e5f2396e4c31b1e606d2e7a83b1515052247394182041
+-  __TEXT.__gcc_except_tab: 0x950 sha256:8ffa6a3a5e7df5e51e7f06b4eebb8f66c9b49ed4440bae911bb727c71adb2ee9
++  __TEXT.__text: 0xdd24 sha256:bd7b624f0bfa8aead81617bc39ce61ce9cf06e023372831d4d620b3767c24f6e
++  __TEXT.__objc_methlist: 0x5d4 sha256:440236f06cf477e3c80cff65ca5d605136ea7aab12f899af83936bd939ffb76f
++  __TEXT.__const: 0x4e30 sha256:35c909f020b8e954730395f01d5ff922fcd59ce16533701d51d92a2a1d9d928c
++  __TEXT.__gcc_except_tab: 0x910 sha256:20852cb6865745eb4229aef87f869c886c2b953e37b8a882f9f0907b53e6f17e
+   __TEXT.__oslogstring: 0x224 sha256:58adf7a7d689ed015e3bfdc8193b4bbca6c9857a174ba89911d5a4855e6fcfe3
+-  __TEXT.__cstring: 0x59c sha256:9cd249eaa90537da06f1dbef08bc8b9eba588621e36cb6b0bfd04b7f6e1f3838
+-  __TEXT.__unwind_info: 0x600 sha256:9dcc625d4ef6261877addb99876dc900ebb49d496fa4ae83a8825542b2e0ce71
+-  __TEXT.__objc_classname: 0x128 sha256:4d30a717f4eb228674548f08402baa5d230750bfefecd29648d917e36014ceb0
+-  __TEXT.__objc_methname: 0xba0 sha256:9ef585a33cd2931be6f83edbadc0a5a8abe5f908d5fbea19df4edf96f332e2d2
+-  __TEXT.__objc_methtype: 0x126 sha256:d008ae3134a6e719c2bdcdb18f2fe930016032ea09623e528768a52b01576a0a
+-  __TEXT.__objc_stubs: 0x980 sha256:34302e66b0f28805eaa1e39ccfcc3e7f3f7818cce8a251d09e859c6fd72be38b
+-  __DATA_CONST.__got: 0xe8 sha256:98773da7ea883dbfa658649e59f1e1d550783f3d8c799590939706dbb042f729
+-  __DATA_CONST.__const: 0x8 sha256:1543a65412af7dd73ed7b26e4c0fa63d959489386e48a9fa53f0f653933f3614
+-  __DATA_CONST.__objc_classlist: 0x58 sha256:2d2ef4221308629250e1c08b08a358ae1f4a4ab452be08efd93d9163e7d14bb1
+-  __DATA_CONST.__objc_protolist: 0x18 sha256:ac96fd8e17510eb341984724938c92b02a572cd8c7639d798c8ca03e5101f983
++  __TEXT.__cstring: 0x5a2 sha256:9bf91e5d5553367ed394db5119f47e5879019d9610de8ac8de67b3dbf7ecf5fc
++  __TEXT.__unwind_info: 0x608 sha256:59159a08417b1046270568a3d938d4418354efaa6779696c1c7225c70e1897d2
++  __TEXT.__objc_stubs: 0x0
++  __TEXT.__auth_stubs: 0x0
++  __TEXT.__objc_classname: 0x0
++  __TEXT.__objc_methname: 0x0
++  __TEXT.__objc_methtype: 0x0
++  __DATA_CONST.__const: 0x8 sha256:cae286dff9cac3f51dec406a6c0bf95c3bd0e3e6fca29c9dc170427db06b8d56
++  __DATA_CONST.__objc_classlist: 0x58 sha256:e0d695707178d59876d03250f84400b413b71b6e616bc3eded1dcb2de3faa50a
++  __DATA_CONST.__objc_protolist: 0x18 sha256:4f1f2f47d6c523086a3adc9273857349f446074ee37a6bb2c6a54c1fc999e9c9
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x2f8 sha256:47d3a99a2f301f4b3451417c5ad1a254c7be846fdb97e555a2f2c5339d08c8e7
+-  __DATA_CONST.__objc_superrefs: 0x58 sha256:9ca5d71f5422a93bafa39576dae82cddccdd9a5c3a5014b546a2f256af459682
+-  __AUTH_CONST.__auth_got: 0x240 sha256:884f23db4c92dae5080ff655f099d68fdc31176905edef4ecb716a4e8359e1fb
+-  __AUTH_CONST.__const: 0x608 sha256:da835fba740614b5f3c2968c768d2c758bccaf38b688566e06529589f20ff2ac
+-  __AUTH_CONST.__cfstring: 0x900 sha256:7981e2ef07145c63bcd4c7035b58581170ac4386ce9aafd5541cc12ce79e2511
+-  __AUTH_CONST.__objc_const: 0xf58 sha256:25a1e62289547d25ac9fb9630dc02192874d485d89820acd2a630ef800b752ce
+-  __AUTH.__objc_data: 0x370 sha256:212e278c0850acadbb97f5bca8ec081e92bcb26a58b3026064f421807245d738
++  __DATA_CONST.__weak_got: 0x20 sha256:370592892c3d3ac916401c359f745443eb59ccaa6128df1447c28f3317708bfe
++  __DATA_CONST.__objc_selrefs: 0x2f8 sha256:04a04494e6ecf2bfc2989adcf81e91d2abe04b3d7048694b5b23c01f14c86eee
++  __DATA_CONST.__objc_superrefs: 0x58 sha256:e0d695707178d59876d03250f84400b413b71b6e616bc3eded1dcb2de3faa50a
++  __DATA_CONST.__got: 0xc0 sha256:8f7a904d03a7415f904771ee0febdd717d947222a124bc970cd2453057850b76
++  __AUTH_CONST.__const: 0x608 sha256:2e57cbe18cf3fa9006e33075a099131a11054c4107ce5d8b6541c9ef29678a87
++  __AUTH_CONST.__cfstring: 0x900 sha256:302100942e6c19d0a8aa5402069c60629d987d06b7ded9e9e2051ef9ba3c15a2
++  __AUTH_CONST.__objc_const: 0xf58 sha256:e5e3426be1990eb671331ae04083f1bdce85feb75a2e25c669770dc8c825673e
++  __AUTH_CONST.__weak_auth_got: 0x18 sha256:9301580f2a4c506b3a281d68e0e22bffb435cbb497ce8c36f9bdbf987996a481
++  __AUTH_CONST.__auth_got: 0x0
++  __AUTH.__objc_data: 0x370 sha256:9c7e560fd876de8037e8ea54cb33172bfec99aadee8b1bdc0870c31c6c97461a
+   __DATA.__objc_ivar: 0x70 sha256:e03c76d4346e8f5c6fafd0d077c25e9de1eccada320368eeabe134620105d1b2
+-  __DATA.__data: 0x120 sha256:5b05da5dbc4fd8e1fa49b1a5a3c4ffbc476be1a98f4b106d50f22cb79d11e4ae
++  __DATA.__data: 0x120 sha256:45d7e612e4e7f4b5354b5b7c370d3ec9e339ae844d4d4ec94033b844fe9281ac
+   __DATA.__bss: 0x30 sha256:17b0761f87b081d5cf10757ccc89f12be355c70e2e29df288b65b30710dcbcd1
+   - /System/Library/Frameworks/Accelerate.framework/Accelerate
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 2AF484E6-2769-3639-B335-7B75E18DFA12
+-  Functions: 356
++  UUID: 5EEFE22B-0C47-36C4-8683-3FA3DAE8BE0C
++  Functions: 355
+   Symbols:   1098
+-  CStrings:  351
++  CStrings:  160
+ 
+Symbols:
++ GCC_except_table106
++ GCC_except_table107
++ GCC_except_table112
++ GCC_except_table128
++ GCC_except_table132
++ GCC_except_table134
++ GCC_except_table143
++ GCC_except_table150
++ GCC_except_table151
++ GCC_except_table152
++ GCC_except_table29
++ GCC_except_table32
++ GCC_except_table35
++ GCC_except_table45
++ GCC_except_table49
++ GCC_except_table54
++ GCC_except_table67
++ GCC_except_table69
++ GCC_except_table81
++ GCC_except_table86
++ GCC_except_table98
++ __ZNKSt3__116__deque_iteratorIhPhRhPS1_lLl4096EEmiB9fqe220100El
++ __ZNKSt3__116__deque_iteratorIhPhRhPS1_lLl4096EEplB9fqe220100El
++ __ZNKSt3__120__move_backward_implINS_17_ClassicAlgPolicyEEclB9fqe220100IPhNS_16__deque_iteratorIhS4_RhPS4_lLl4096EEELi0EEENS_4pairIT_T0_EESA_SA_SB_
++ __ZNKSt9type_infoeqB9fqe220100ERKS_
++ __ZNSt12length_errorC1B9fqe220100EPKc
++ __ZNSt3__110__function12__value_funcIFvPfjEED2B9fqe220100Ev
++ __ZNSt3__110unique_ptrI12EchoDetectorNS_14default_deleteIS1_EEE5resetB9fqe220100EPS1_
++ __ZNSt3__110unique_ptrI13ShapingFilterNS_14default_deleteIS1_EEE5resetB9fqe220100EPS1_
++ __ZNSt3__110unique_ptrI14OpaqueFFTSetupN10applesauce4raii2v16detail23opaque_deletion_functorIPS1_XadL_Z21vDSP_destroy_fftsetupEEEEE5resetB9fqe220100ES7_
++ __ZNSt3__110unique_ptrI15SyncSeqEmbedderNS_14default_deleteIS1_EEED1B9fqe220100Ev
++ __ZNSt3__110unique_ptrI18SyncedEchoEmbedderNS_14default_deleteIS1_EEED1B9fqe220100Ev
++ __ZNSt3__110unique_ptrI23vDSP_biquad_SetupStructN10applesauce4raii2v16detail23opaque_deletion_functorIPS1_XadL_Z24vDSP_biquad_DestroySetupEEEEE5resetB9fqe220100ES7_
++ __ZNSt3__110unique_ptrINS_11__tree_nodeINS_12__value_typeIjNS_3anyEEEPvEENS_22__tree_node_destructorINS_9allocatorIS6_EEEEED1B9fqe220100Ev
++ __ZNSt3__114__split_bufferINS_6vectorIfNS_9allocatorIfEEEERNS2_IS4_EEE17__destruct_at_endB9fqe220100EPS4_
++ __ZNSt3__118__for_each_segmentB9fqe220100INS_16__deque_iteratorIhPhRhPS2_lLl4096EEEZNKS_11__move_implINS_17_ClassicAlgPolicyEEclB9fqe220100IS5_S5_Li0EEENS_4pairIT_T0_EESB_SB_SC_EUlS2_S2_E_EEvSB_SB_SC_
++ __ZNSt3__119__allocate_at_leastB9fqe220100INS_9allocatorIN15APCConfigReader9paramDataEEENS_16allocator_traitsIS4_EEEENS_19__allocation_resultINT0_7pointerENS8_9size_typeEEERT_m
++ __ZNSt3__119__allocate_at_leastB9fqe220100INS_9allocatorIN15SyncSeqDetector8peakInfoEEENS_16allocator_traitsIS4_EEEENS_19__allocation_resultINT0_7pointerENS8_9size_typeEEERT_m
++ __ZNSt3__119__allocate_at_leastB9fqe220100INS_9allocatorINS_6vectorIfNS1_IfEEEEEENS_16allocator_traitsIS5_EEEENS_19__allocation_resultINT0_7pointerENS9_9size_typeEEERT_m
++ __ZNSt3__119__allocate_at_leastB9fqe220100INS_9allocatorIPhEENS_16allocator_traitsIS3_EEEENS_19__allocation_resultINT0_7pointerENS7_9size_typeEEERT_m
++ __ZNSt3__119__allocate_at_leastB9fqe220100INS_9allocatorIfEENS_16allocator_traitsIS2_EEEENS_19__allocation_resultINT0_7pointerENS6_9size_typeEEERT_m
++ __ZNSt3__119__allocate_at_leastB9fqe220100INS_9allocatorIiEENS_16allocator_traitsIS2_EEEENS_19__allocation_resultINT0_7pointerENS6_9size_typeEEERT_m
++ __ZNSt3__119__allocate_at_leastB9fqe220100INS_9allocatorIjEENS_16allocator_traitsIS2_EEEENS_19__allocation_resultINT0_7pointerENS6_9size_typeEEERT_m
++ __ZNSt3__120__throw_bad_any_castB9fqe220100Ev
++ __ZNSt3__120__throw_length_errorB9fqe220100EPKc
++ __ZNSt3__123__specialized_algorithmINS_10_Algorithm6__copyEJNS_15__iterator_pairINS_14__bit_iteratorINS_8__bitsetILm1ELm20EEELb0ELm0EEES7_EENS_17__single_iteratorIS7_EEEE14__aligned_implB9fqe220100ES7_S7_S7_
++ __ZNSt3__123__specialized_algorithmINS_10_Algorithm6__copyEJNS_15__iterator_pairINS_14__bit_iteratorINS_8__bitsetILm1ELm20EEELb0ELm0EEES7_EENS_17__single_iteratorIS7_EEEE16__unaligned_implB9fqe220100ES7_S7_S7_
++ __ZNSt3__123__specialized_algorithmINS_10_Algorithm6__copyEJNS_15__iterator_pairINS_14__bit_iteratorINS_8__bitsetILm1ELm20EEELb0ELm0EEES7_EENS_17__single_iteratorIS7_EEEEclB9fqe220100ES7_S7_S7_
++ __ZNSt3__123__specialized_algorithmINS_10_Algorithm8__fill_nEJNS_17__single_iteratorINS_14__bit_iteratorINS_8__bitsetILm1ELm20EEELb0ELm0EEEEEEE6__implB9fqe220100ILb0EEEvS7_m
++ __ZNSt3__123__specialized_algorithmINS_10_Algorithm8__fill_nEJNS_17__single_iteratorINS_14__bit_iteratorINS_8__bitsetILm1ELm20EEELb0ELm0EEEEEEE6__implB9fqe220100ILb1EEEvS7_m
++ __ZNSt3__123__specialized_algorithmINS_10_Algorithm8__fill_nEJNS_17__single_iteratorINS_14__bit_iteratorINS_8__bitsetILm1ELm20EEELb0ELm0EEEEEEEclB9fqe220100ImbEES7_S7_T_RKT0_
++ __ZNSt3__125__throw_bad_function_callB9fqe220100Ev
++ __ZNSt3__127__for_each_segment_backwardB9fqe220100INS_16__deque_iteratorIhPhRhPS2_lLl4096EEEZNKS_20__move_backward_implINS_17_ClassicAlgPolicyEEclB9fqe220100IS5_S5_Li0EEENS_4pairIT_T0_EESB_SB_SC_EUlS2_S2_E_EEvSB_SB_SC_
++ __ZNSt3__127__tree_balance_after_insertB9fqe220100IPNS_16__tree_node_baseIPvEEEEvT_S5_
++ __ZNSt3__13any4swapB9fqe220100ERS0_
++ __ZNSt3__13any5resetB9fqe220100Ev
++ __ZNSt3__13anyaSB9fqe220100ERKS0_
++ __ZNSt3__13mapIjNS_3anyENS_4lessIjEENS_9allocatorINS_4pairIKjS1_EEEEEixEOj
++ __ZNSt3__15dequeIhNS_9allocatorIhEEE9__emplaceIJRKhEEENS_16__deque_iteratorIhPhRhPS8_lLl4096EEENS7_IhPS5_S6_PKSC_lLl4096EEEDpOT_
++ __ZNSt3__15dequeIhNS_9allocatorIhEEED2B9fqe220100Ev
++ __ZNSt3__16__treeINS_12__value_typeIjNS_3anyEEENS_19__map_value_compareIjNS_4pairIKjS2_EENS_4lessIjEEEENS_9allocatorIS7_EEE14__tree_deleterclB9fqe220100EPNS_11__tree_nodeIS3_PvEE
++ __ZNSt3__16__treeINS_12__value_typeIjNS_3anyEEENS_19__map_value_compareIjNS_4pairIKjS2_EENS_4lessIjEEEENS_9allocatorIS7_EEE16__insert_node_atEPNS_15__tree_end_nodeIPNS_16__tree_node_baseIPvEEEERSI_SI_
++ __ZNSt3__16__treeINS_12__value_typeIjNS_3anyEEENS_19__map_value_compareIjNS_4pairIKjS2_EENS_4lessIjEEEENS_9allocatorIS7_EEE7destroyEPNS_11__tree_nodeIS3_PvEE
++ __ZNSt3__16bitsetILm20EErSB9fqe220100Em
++ __ZNSt3__16vectorIN15APCConfigReader9paramDataENS_9allocatorIS2_EEE20__throw_length_errorB9fqe220100Ev
++ __ZNSt3__16vectorIN15APCConfigReader9paramDataENS_9allocatorIS2_EEE24__emplace_back_slow_pathIJS2_EEEPS2_DpOT_
++ __ZNSt3__16vectorIN15SyncSeqDetector8peakInfoENS_9allocatorIS2_EEE20__throw_length_errorB9fqe220100Ev
++ __ZNSt3__16vectorINS0_IfNS_9allocatorIfEEEENS1_IS3_EEE16__destroy_vectorclB9fqe220100Ev
++ __ZNSt3__16vectorINS0_IfNS_9allocatorIfEEEENS1_IS3_EEE20__throw_length_errorB9fqe220100Ev
++ __ZNSt3__16vectorINS0_IfNS_9allocatorIfEEEENS1_IS3_EEE5clearB9fqe220100Ev
++ __ZNSt3__16vectorIaNS_9allocatorIaEEE20__throw_length_errorB9fqe220100Ev
++ __ZNSt3__16vectorIaNS_9allocatorIaEEE6resizeEm
++ __ZNSt3__16vectorIfNS_9allocatorIfEEE11__vallocateB9fqe220100Em
++ __ZNSt3__16vectorIfNS_9allocatorIfEEE20__throw_length_errorB9fqe220100Ev
++ __ZNSt3__16vectorIfNS_9allocatorIfEEEC2B9fqe220100Em
++ __ZNSt3__16vectorIfNS_9allocatorIfEEEC2B9fqe220100EmRKf
++ __ZNSt3__16vectorIhNS_9allocatorIhEEE11__vallocateB9fqe220100Em
++ __ZNSt3__16vectorIhNS_9allocatorIhEEE20__throw_length_errorB9fqe220100Ev
++ __ZNSt3__16vectorIhNS_9allocatorIhEEE24__emplace_back_slow_pathIJRKhEEEPhDpOT_
++ __ZNSt3__16vectorIhNS_9allocatorIhEEE24__emplace_back_slow_pathIJhEEEPhDpOT_
++ __ZNSt3__16vectorIhNS_9allocatorIhEEEC2B9fqe220100EmRKh
++ __ZNSt3__16vectorIiNS_9allocatorIiEEE20__throw_length_errorB9fqe220100Ev
++ __ZNSt3__16vectorIjNS_9allocatorIjEEE20__throw_length_errorB9fqe220100Ev
++ __ZNSt3__16vectorIjNS_9allocatorIjEEE24__emplace_back_slow_pathIJjEEEPjDpOT_
++ __ZNSt3__18any_castB9fqe220100IKbEEu13__add_pointerIT_EPNS_3anyE
++ __ZNSt3__18any_castB9fqe220100IKfEEu13__add_pointerIT_EPNS_3anyE
++ __ZNSt3__18any_castB9fqe220100IKjEEu13__add_pointerIT_EPNS_3anyE
++ __ZNSt3__18any_castB9fqe220100IbEENS_18__add_pointer_implIT_Xoo20__is_referenceable_vIS2_Esr7is_voidIS2_EE5valueEE4typeEPNS_3anyE
++ __ZNSt3__18any_castB9fqe220100IbEEu13__add_pointerIT_EPNS_3anyE
++ __ZNSt3__18any_castB9fqe220100IfEENS_18__add_pointer_implIT_Xoo20__is_referenceable_vIS2_Esr7is_voidIS2_EE5valueEE4typeEPNS_3anyE
++ __ZNSt3__18any_castB9fqe220100IfEET_RNS_3anyE
++ __ZNSt3__18any_castB9fqe220100IfEEu13__add_pointerIT_EPNS_3anyE
++ __ZNSt3__18any_castB9fqe220100IjEENS_18__add_pointer_implIT_Xoo20__is_referenceable_vIS2_Esr7is_voidIS2_EE5valueEE4typeEPNS_3anyE
++ __ZNSt3__18any_castB9fqe220100IjEEu13__add_pointerIT_EPNS_3anyE
++ __ZNSt3__19__any_imp13_SmallHandlerIjE8__handleB9fqe220100ENS0_7_ActionEPKNS_3anyEPS4_PKSt9type_infoPKv
++ __ZSt28__throw_bad_array_new_lengthB9fqe220100v
++ _objc_claimAutoreleasedReturnValue
++ _objc_retainAutoreleaseReturnValue
++ _objc_retain_x1
++ _objc_retain_x21
++ _objc_retain_x3
+- GCC_except_table100
+- GCC_except_table109
+- GCC_except_table115
+- GCC_except_table13
+- GCC_except_table137
+- GCC_except_table138
+- GCC_except_table139
+- GCC_except_table148
+- GCC_except_table153
+- GCC_except_table154
+- GCC_except_table155
+- GCC_except_table20
+- GCC_except_table23
+- GCC_except_table30
+- GCC_except_table33
+- GCC_except_table37
+- GCC_except_table40
+- GCC_except_table42
+- GCC_except_table46
+- GCC_except_table65
+- GCC_except_table70
+- GCC_except_table80
+- GCC_except_table84
+- GCC_except_table9
+- __ZN9SimpleMLSILj20EE5ResetEv
+- __ZNKSt3__111__copy_implclB9nqe210106INS_8__bitsetILm1ELm20EEELb0EEENS_4pairINS_14__bit_iteratorIT_XT0_EXLi0EEEENS5_IS6_Lb0EXLi0EEEEEES7_S7_S8_
+- __ZNKSt3__116__deque_iteratorIhPhRhPS1_lLl4096EEmiB9nqe210106El
+- __ZNKSt3__116__deque_iteratorIhPhRhPS1_lLl4096EEplB9nqe210106El
+- __ZNKSt9type_infoeqB9nqe210106ERKS_
+- __ZNSt12length_errorC1B9nqe210106EPKc
+- __ZNSt3__110__function12__value_funcIFvPfjEED2B9nqe210106Ev
+- __ZNSt3__110unique_ptrI12EchoDetectorNS_14default_deleteIS1_EEE5resetB9nqe210106EPS1_
+- __ZNSt3__110unique_ptrI13ShapingFilterNS_14default_deleteIS1_EEE5resetB9nqe210106EPS1_
+- __ZNSt3__110unique_ptrI14OpaqueFFTSetupN10applesauce4raii2v16detail23opaque_deletion_functorIPS1_XadL_Z21vDSP_destroy_fftsetupEEEEE5resetB9nqe210106ES7_
+- __ZNSt3__110unique_ptrI15SyncSeqEmbedderNS_14default_deleteIS1_EEED1B9nqe210106Ev
+- __ZNSt3__110unique_ptrI18SyncedEchoEmbedderNS_14default_deleteIS1_EEED1B9nqe210106Ev
+- __ZNSt3__110unique_ptrI23vDSP_biquad_SetupStructN10applesauce4raii2v16detail23opaque_deletion_functorIPS1_XadL_Z24vDSP_biquad_DestroySetupEEEEE5resetB9nqe210106ES7_
+- __ZNSt3__110unique_ptrINS_11__tree_nodeINS_12__value_typeIjNS_3anyEEEPvEENS_22__tree_node_destructorINS_9allocatorIS6_EEEEED1B9nqe210106Ev
+- __ZNSt3__113__fill_n_boolB9nqe210106ILb0ENS_8__bitsetILm1ELm20EEEEEvNS_14__bit_iteratorIT0_Lb0EXLi0EEEENS_29__size_difference_type_traitsIS4_vE9size_typeE
+- __ZNSt3__113__fill_n_boolB9nqe210106ILb1ENS_8__bitsetILm1ELm20EEEEEvNS_14__bit_iteratorIT0_Lb0EXLi0EEEENS_29__size_difference_type_traitsIS4_vE9size_typeE
+- __ZNSt3__114__copy_alignedB9nqe210106INS_8__bitsetILm1ELm20EEELb0EEENS_14__bit_iteratorIT_Lb0EXLi0EEEENS3_IS4_XT0_EXLi0EEEES6_S5_
+- __ZNSt3__114__split_bufferINS_6vectorIfNS_9allocatorIfEEEERNS2_IS4_EEE17__destruct_at_endB9nqe210106EPS4_
+- __ZNSt3__116__copy_unalignedB9nqe210106INS_8__bitsetILm1ELm20EEELb0EEENS_14__bit_iteratorIT_Lb0EXLi0EEEENS3_IS4_XT0_EXLi0EEEES6_S5_
+- __ZNSt3__119__allocate_at_leastB9nqe210106INS_9allocatorIN15APCConfigReader9paramDataEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
+- __ZNSt3__119__allocate_at_leastB9nqe210106INS_9allocatorIN15SyncSeqDetector8peakInfoEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
+- __ZNSt3__119__allocate_at_leastB9nqe210106INS_9allocatorINS_6vectorIfNS1_IfEEEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS8_m
+- __ZNSt3__119__allocate_at_leastB9nqe210106INS_9allocatorIPhEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS6_m
+- __ZNSt3__119__allocate_at_leastB9nqe210106INS_9allocatorIfEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS5_m
+- __ZNSt3__119__allocate_at_leastB9nqe210106INS_9allocatorIiEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS5_m
+- __ZNSt3__119__allocate_at_leastB9nqe210106INS_9allocatorIjEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS5_m
+- __ZNSt3__119piecewise_constructE
+- __ZNSt3__120__throw_bad_any_castB9nqe210106Ev
+- __ZNSt3__120__throw_length_errorB9nqe210106EPKc
+- __ZNSt3__124__copy_move_unwrap_itersB9nqe210106INS_11__copy_implENS_14__bit_iteratorINS_8__bitsetILm1ELm20EEELb0ELm0EEES5_S5_Li0EEENS_4pairIT0_T2_EES7_T1_S8_
+- __ZNSt3__125__throw_bad_function_callB9nqe210106Ev
+- __ZNSt3__127__tree_balance_after_insertB9nqe210106IPNS_16__tree_node_baseIPvEEEEvT_S5_
+- __ZNSt3__13any5resetB9nqe210106Ev
+- __ZNSt3__13anyaSB9nqe210106ERKS0_
+- __ZNSt3__15dequeIhNS_9allocatorIhEEE16__move_and_checkENS_16__deque_iteratorIhPhRhPS5_lLl4096EEES8_S8_RPKh
+- __ZNSt3__15dequeIhNS_9allocatorIhEEE25__move_backward_and_checkENS_16__deque_iteratorIhPhRhPS5_lLl4096EEES8_S8_RPKh
+- __ZNSt3__15dequeIhNS_9allocatorIhEEE6insertENS_16__deque_iteratorIhPKhRS5_PKS6_lLl4096EEES7_
+- __ZNSt3__15dequeIhNS_9allocatorIhEEED2B9nqe210106Ev
+- __ZNSt3__16__treeINS_12__value_typeIjNS_3anyEEENS_19__map_value_compareIjNS_4pairIKjS2_EENS_4lessIjEELb1EEENS_9allocatorIS7_EEE16__insert_node_atEPNS_15__tree_end_nodeIPNS_16__tree_node_baseIPvEEEERSI_SI_
+- __ZNSt3__16__treeINS_12__value_typeIjNS_3anyEEENS_19__map_value_compareIjNS_4pairIKjS2_EENS_4lessIjEELb1EEENS_9allocatorIS7_EEE25__emplace_unique_key_argsIjJRKNS_21piecewise_construct_tENS_5tupleIJOjEEENSI_IJEEEEEENS5_INS_15__tree_iteratorIS3_PNS_11__tree_nodeIS3_PvEElEEbEERKT_DpOT0_
+- __ZNSt3__16__treeINS_12__value_typeIjNS_3anyEEENS_19__map_value_compareIjNS_4pairIKjS2_EENS_4lessIjEELb1EEENS_9allocatorIS7_EEE7destroyEPNS_11__tree_nodeIS3_PvEE
+- __ZNSt3__16bitsetILm20EErSB9nqe210106Em
+- __ZNSt3__16vectorIN15APCConfigReader9paramDataENS_9allocatorIS2_EEE20__throw_length_errorB9nqe210106Ev
+- __ZNSt3__16vectorIN15APCConfigReader9paramDataENS_9allocatorIS2_EEE9push_backB9nqe210106EOS2_
+- __ZNSt3__16vectorIN15SyncSeqDetector8peakInfoENS_9allocatorIS2_EEE20__throw_length_errorB9nqe210106Ev
+- __ZNSt3__16vectorIN15SyncSeqDetector8peakInfoENS_9allocatorIS2_EEE8__appendEm
+- __ZNSt3__16vectorINS0_IfNS_9allocatorIfEEEENS1_IS3_EEE16__destroy_vectorclB9nqe210106Ev
+- __ZNSt3__16vectorINS0_IfNS_9allocatorIfEEEENS1_IS3_EEE20__throw_length_errorB9nqe210106Ev
+- __ZNSt3__16vectorINS0_IfNS_9allocatorIfEEEENS1_IS3_EEE5clearB9nqe210106Ev
+- __ZNSt3__16vectorINS0_IfNS_9allocatorIfEEEENS1_IS3_EEE8__appendEm
+- __ZNSt3__16vectorIaNS_9allocatorIaEEE20__throw_length_errorB9nqe210106Ev
+- __ZNSt3__16vectorIaNS_9allocatorIaEEE8__appendEm
+- __ZNSt3__16vectorIfNS_9allocatorIfEEE11__vallocateB9nqe210106Em
+- __ZNSt3__16vectorIfNS_9allocatorIfEEE20__throw_length_errorB9nqe210106Ev
+- __ZNSt3__16vectorIfNS_9allocatorIfEEE8__appendEm
+- __ZNSt3__16vectorIfNS_9allocatorIfEEE8__appendEmRKf
+- __ZNSt3__16vectorIfNS_9allocatorIfEEEC2B9nqe210106Em
+- __ZNSt3__16vectorIfNS_9allocatorIfEEEC2B9nqe210106EmRKf
+- __ZNSt3__16vectorIhNS_9allocatorIhEEE11__vallocateB9nqe210106Em
+- __ZNSt3__16vectorIhNS_9allocatorIhEEE20__throw_length_errorB9nqe210106Ev
+- __ZNSt3__16vectorIhNS_9allocatorIhEEEC2B9nqe210106EmRKh
+- __ZNSt3__16vectorIiNS_9allocatorIiEEE20__throw_length_errorB9nqe210106Ev
+- __ZNSt3__16vectorIiNS_9allocatorIiEEE8__appendEm
+- __ZNSt3__16vectorIjNS_9allocatorIjEEE20__throw_length_errorB9nqe210106Ev
+- __ZNSt3__16vectorIjNS_9allocatorIjEEE8__appendEm
+- __ZNSt3__16vectorIjNS_9allocatorIjEEE9push_backB9nqe210106EOj
+- __ZNSt3__18any_castB9nqe210106IKbEEu13__add_pointerIT_EPNS_3anyE
+- __ZNSt3__18any_castB9nqe210106IKfEEu13__add_pointerIT_EPNS_3anyE
+- __ZNSt3__18any_castB9nqe210106IKjEEu13__add_pointerIT_EPNS_3anyE
+- __ZNSt3__18any_castB9nqe210106IbEENS_18__add_pointer_implIT_Xoo20__is_referenceable_vIS2_Esr7is_voidIS2_EE5valueEE4typeEPNS_3anyE
+- __ZNSt3__18any_castB9nqe210106IbEEu13__add_pointerIT_EPNS_3anyE
+- __ZNSt3__18any_castB9nqe210106IfEENS_18__add_pointer_implIT_Xoo20__is_referenceable_vIS2_Esr7is_voidIS2_EE5valueEE4typeEPNS_3anyE
+- __ZNSt3__18any_castB9nqe210106IfEET_RNS_3anyE
+- __ZNSt3__18any_castB9nqe210106IfEEu13__add_pointerIT_EPNS_3anyE
+- __ZNSt3__18any_castB9nqe210106IjEENS_18__add_pointer_implIT_Xoo20__is_referenceable_vIS2_Esr7is_voidIS2_EE5valueEE4typeEPNS_3anyE
+- __ZNSt3__18any_castB9nqe210106IjEEu13__add_pointerIT_EPNS_3anyE
+- __ZNSt3__19__any_imp13_SmallHandlerIjE8__handleB9nqe210106ENS0_7_ActionEPKNS_3anyEPS4_PKSt9type_infoPKv
+- __ZSt28__throw_bad_array_new_lengthB9nqe210106v
+- _objc_retain
+- _objc_retainAutoreleasedReturnValue
+CStrings:
+- ".cxx_destruct"
+- "@\"NSArray\""
+- "@\"NSString\""
+- "@16@0:8"
+- "@24@0:8@\"NSCoder\"16"
+- "@24@0:8@16"
+- "@24@0:8Q16"
+- "@24@0:8^{_NSZone=}16"
+- "@32@0:8@16@24"
+- "APCListenerResultData"
+- "APCPlayerEmbedInfo"
+- "AUPasscodeCodecCapability"
+- "AUPasscodeCodecCommandLineOption"
+- "AUPasscodeCodecConfiguration"
+- "B"
+- "B16@0:8"
+- "B24@0:8@16"
+- "EchoCodecCapability"
+- "EchoCodecConfiguration"
+- "MLSCodecCapability"
+- "MLSCodecConfiguration"
+- "NSCoding"
+- "NSCopying"
+- "NSSecureCoding"
+- "NullCodecCapability"
+- "NullCodecConfiguration"
+- "Q"
+- "Q16@0:8"
+- "T@\"NSArray\",R,N,V_algorithmVersionNumbers"
+- "T@\"NSArray\",R,N,V_supportedSampleRates"
+- "T@\"NSString\",C,N,V_algorithmName"
+- "T@\"NSString\",R,C,N,V_algorithmName"
+- "T@\"NSString\",R,N,V_optionDescription"
+- "T@\"NSString\",R,N,V_optionSyntax"
+- "TB,N,V_hfNoiseFillingFlag"
+- "TB,R"
+- "TQ,N,V_algorithmVersionNumber"
+- "TQ,N,V_completionTime"
+- "TQ,N,V_frameSize"
+- "TQ,N,V_measPasscodeDuration"
+- "TQ,N,V_numFrameRepeat"
+- "TQ,N,V_randomSeed"
+- "TQ,R,N,V_estPasscodeDuration"
+- "Tf,N,V_delayForBit0"
+- "Tf,N,V_delayForBit1"
+- "Tf,N,V_echoGainDB"
+- "Tf,N,V_hpfCutOffFreq"
+- "Tf,N,V_noiseGainDB"
+- "Tf,N,V_retrievalCallbackInterval"
+- "Tf,N,V_syncDetectThreshold"
+- "Tq,N,V_numChannels"
+- "Tq,N,V_payloadLengthBytes"
+- "Tq,N,V_sampleRate"
+- "T{_NSRange=QQ},R,N,V_frameSizeRange"
+- "T{_NSRange=QQ},R,N,V_hpfCutOffFreqRange"
+- "T{_NSRange=QQ},R,N,V_numChannelRange"
+- "T{_NSRange=QQ},R,N,V_numFrameRepeatRange"
+- "__setDefaultValues"
+- "_algorithmName"
+- "_algorithmVersionNumber"
+- "_algorithmVersionNumbers"
+- "_completionTime"
+- "_delayForBit0"
+- "_delayForBit1"
+- "_echoGainDB"
+- "_estPasscodeDuration"
+- "_frameSize"
+- "_frameSizeRange"
+- "_hfNoiseFillingFlag"
+- "_hpfCutOffFreq"
+- "_hpfCutOffFreqRange"
+- "_measPasscodeDuration"
+- "_noiseGainDB"
+- "_numChannelRange"
+- "_numChannels"
+- "_numFrameRepeat"
+- "_numFrameRepeatRange"
+- "_optionDescription"
+- "_optionSyntax"
+- "_payloadLengthBytes"
+- "_randomSeed"
+- "_retrievalCallbackInterval"
+- "_sampleRate"
+- "_supportedSampleRates"
+- "_syncDetectThreshold"
+- "addObject:"
+- "algorithmName"
+- "algorithmVersionNumber"
+- "algorithmVersionNumbers"
+- "allocWithZone:"
+- "array"
+- "arrayByAddingObjectsFromArray:"
+- "arrayWithArray:"
+- "arrayWithObjects:"
+- "arrayWithObjects:count:"
+- "commandLineOptions"
+- "completionTime"
+- "containsObject:"
+- "copy"
+- "copyWithZone:"
+- "count"
+- "decodeFloatForKey:"
+- "decodeIntegerForKey:"
+- "decodeObjectOfClass:forKey:"
+- "decodeObjectOfClasses:forKey:"
+- "echoGainDB"
+- "encodeFloat:forKey:"
+- "encodeInteger:forKey:"
+- "encodeObject:forKey:"
+- "encodeWithCoder:"
+- "estPasscodeDuration"
+- "f"
+- "f16@0:8"
+- "floatValue"
+- "frameSizeRange"
+- "hfNoiseFillingFlag"
+- "hpfCutOffFreqRange"
+- "init"
+- "initWithAlgorithmName:"
+- "initWithCapabilityData:"
+- "initWithCoder:"
+- "initWithCommandLineArgs:"
+- "initWithPasscodeDurationNSec:"
+- "initWithSyntax:description:"
+- "intValue"
+- "isEqual:"
+- "isEqualToEchoCodecCapability:"
+- "isEqualToPasscodeCodecCapability:"
+- "isEqualToString:"
+- "isValid"
+- "measPasscodeDuration"
+- "noiseGainDB"
+- "numChannelRange"
+- "numChannels"
+- "numFrameRepeatRange"
+- "numberFromString:"
+- "numberWithInt:"
+- "numberWithInteger:"
+- "numberWithUnsignedInteger:"
+- "objectAtIndex:"
+- "optionDescription"
+- "optionSyntax"
+- "optionWithSyntax:description:"
+- "payloadLengthBytes"
+- "q"
+- "q16@0:8"
+- "reset"
+- "sampleRate"
+- "setAlgorithmName:"
+- "setAlgorithmVersionNumber:"
+- "setCompletionTime:"
+- "setDefaultValues"
+- "setDelayForBit0:"
+- "setDelayForBit1:"
+- "setEchoGainDB:"
+- "setFrameSize:"
+- "setHfNoiseFillingFlag:"
+- "setHpfCutOffFreq:"
+- "setMeasPasscodeDuration:"
+- "setNoiseGainDB:"
+- "setNumChannels:"
+- "setNumFrameRepeat:"
+- "setNumberStyle:"
+- "setPayloadLengthBytes:"
+- "setRandomSeed:"
+- "setRetrievalCallbackInterval:"
+- "setSampleRate:"
+- "setSyncDetectThreshold:"
+- "setWithArray:"
+- "stringWithUTF8String:"
+- "supportedSampleRates"
+- "supportsSecureCoding"
+- "unsignedIntegerValue"
+- "v16@0:8"
+- "v20@0:8B16"
+- "v20@0:8f16"
+- "v24@0:8@\"NSCoder\"16"
+- "v24@0:8@16"
+- "v24@0:8Q16"
+- "v24@0:8q16"
+- "valueForKeyPath:"
+- "{_NSRange=\"location\"Q\"length\"Q}"
+- "{_NSRange=QQ}16@0:8"
+
+```

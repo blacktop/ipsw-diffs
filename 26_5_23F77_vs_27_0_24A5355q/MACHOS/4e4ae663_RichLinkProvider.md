@@ -1,0 +1,653 @@
+## RichLinkProvider
+
+> `/System/Library/Messages/iMessageBalloons/RichLinkProvider.bundle/RichLinkProvider`
+
+```diff
+
+-296.11.0.0.0
+-  __TEXT.__text: 0x5064 sha256:37958c6924a5efcd9f9bc06544924046f4ee003e0da07aca094725aaad13abe8
+-  __TEXT.__auth_stubs: 0x380 sha256:1111a69a335b8de9ac0af8c44073d043b18edfb64c4c1c4a7033666f4be75b14
+-  __TEXT.__objc_stubs: 0x1c00 sha256:daca070d96415e0a6b76fdc26a4a44770f70e036370e94f0b1327cdb78ea17df
+-  __TEXT.__objc_methlist: 0x7e4 sha256:f972c7e6baa4ebea3389c4de41ab0efa555df6a51972eff0e934e44c5a3be587
+-  __TEXT.__const: 0x38 sha256:faa0d384d2530e12895cd6194533ffa896fe358edd99089887b355da06d8e338
+-  __TEXT.__objc_methname: 0x1eeb sha256:f38f5e3cfe89fdaf6a94ef34dedb1bcead5e8cad2af04e0740c819c70d746de2
+-  __TEXT.__cstring: 0x220 sha256:e322cbd8c2747b6add8112f94b11438e43b73c06c52ebffcbacd396116feca88
+-  __TEXT.__oslogstring: 0x3f1 sha256:a2e0dafeebb6da69f33d4d8443c7ac5c04b637f4519c56ad00d7ec9aab670ac3
+-  __TEXT.__objc_classname: 0x139 sha256:61abc4fd62a9e49d025c1272e9534b0d50a05f24c61dc5258a1563fa8b6b662b
+-  __TEXT.__objc_methtype: 0x645 sha256:1a766ec5424ee2cca8c16881b62c682b63a66f0b88692965663120e6691942f0
+-  __TEXT.__gcc_except_tab: 0xb0 sha256:55d9491e8fe85e937772f133b5b2b0373d4731b93ad7ce9b33e0847cfa072890
+-  __TEXT.__unwind_info: 0x1c8 sha256:990a638d6fac54a0a1de40b900098cc2a0664ece20af9082a7d79b9708edad8c
+-  __DATA_CONST.__auth_got: 0x1d0 sha256:5c0b09008906d8e378d5eeaee3c047197d253b81c10fb530e0cd6ea83cc353fb
+-  __DATA_CONST.__got: 0x138 sha256:894aa9bc7ef6531cb58b2bdaa3ba485475798e8faea540b7ff29df319aa05dba
+-  __DATA_CONST.__const: 0x1d0 sha256:0b9c0edc1fc8d04466212d2a2ef2973538c89497dca28926674edb6e72283e62
+-  __DATA_CONST.__cfstring: 0x4a0 sha256:c066a10fca4456d32d69ff2c452c8bf1675a7990d72f9ae4fdf9727426fe5097
+-  __DATA_CONST.__objc_classlist: 0x18 sha256:681f29487c62e27fd00050f37076e6b637ca490ce3ff89afd79820ffd584cef5
+-  __DATA_CONST.__objc_protolist: 0x40 sha256:8ce281bf81e19d28b5170d4985fbaf917684037f308412e2aa88c4c3bb70c312
++308.1.0.0.0
++  __TEXT.__text: 0x0
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:1fa65ffcccc24c72d5d7f804a2be05ae57dfbb8769ffb33c4272ed6795b7e61c
+-  __DATA_CONST.__objc_superrefs: 0x18 sha256:681f29487c62e27fd00050f37076e6b637ca490ce3ff89afd79820ffd584cef5
+-  __DATA_CONST.__objc_arraydata: 0x78 sha256:0f77b96ef1ace1c17f9470080b0606e405e126648f5ee23f00dadd7baa0eafb5
+-  __DATA_CONST.__objc_arrayobj: 0x30 sha256:c43a5ef02502165b8e4da6ad1c68651c70f1582e8a0ad5a319dfa685af2a3065
+-  __DATA.__objc_const: 0xd98 sha256:9ffa67541094f6967e0d1d01828d99f9bea609e10e3042ad25ca42820eb5a963
+-  __DATA.__objc_selrefs: 0x9d8 sha256:0edec6659608ca332be09c185abfaadb6859412bb829e35fd47feeaae61ca032
+-  __DATA.__objc_ivar: 0x50 sha256:e7d193004700777df2e5df085ade6e95ce5f6edd65e2ff42398419b7809903e9
+-  __DATA.__objc_data: 0xf0 sha256:625a03a78f0a206d73415c6c1316be5f4beda51843efefa31f1c51ff07d6bdd1
+-  __DATA.__data: 0x300 sha256:cf41289522b9aad987e31b7bfb8f28e12e6259e91c29deca95e84086fc1b446a
+-  __DATA.__bss: 0x10 sha256:374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb
+-  - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+-  - /System/Library/Frameworks/CoreServices.framework/CoreServices
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/Frameworks/LinkPresentation.framework/LinkPresentation
+-  - /System/Library/Frameworks/UIKit.framework/UIKit
+-  - /System/Library/PrivateFrameworks/ChatKit.framework/ChatKit
+-  - /System/Library/PrivateFrameworks/ClipServices.framework/ClipServices
+   - /System/Library/PrivateFrameworks/IMCore.framework/IMCore
+-  - /System/Library/PrivateFrameworks/MobileLookup.framework/MobileLookup
+-  - /System/Library/PrivateFrameworks/SocialLayer.framework/SocialLayer
++  - /System/Library/PrivateFrameworks/LinkPresentationMessagesSupport.framework/LinkPresentationMessagesSupport
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 29778371-96AB-353C-B3C3-92FD0D3E60BF
+-  Functions: 110
+-  Symbols:   108
+-  CStrings:  518
++  UUID: 0528A116-BBC1-30A7-BBBA-FAC8D473784A
++  Functions: 0
++  Symbols:   0
++  CStrings:  0
+ 
+Symbols:
+- _CKBalloonDescriptorZero
+- _CKResizableBalloonMask
+- _LPLogChannelPlugin
+- _NSStringFromCGSize
+- _OBJC_CLASS_$_CKUIBehavior
+- _OBJC_CLASS_$_IMBalloonPluginDataSource
+- _OBJC_CLASS_$_LPButtonAction
+- _OBJC_CLASS_$_LPCustomizationPickerViewController
+- _OBJC_CLASS_$_LPImage
+- _OBJC_CLASS_$_LPLinkMetadata
+- _OBJC_CLASS_$_LPLinkMetadataPreviewTransformer
+- _OBJC_CLASS_$_LPLinkMetadataStatusTransformer
+- _OBJC_CLASS_$_LPLinkMetadataStoreTransformer
+- _OBJC_CLASS_$_LPLinkRendererSizeClassParameters
+- _OBJC_CLASS_$_LPLinkView
+- _OBJC_CLASS_$_LPMapMetadata
+- _OBJC_CLASS_$_LPMessagesPayload
+- _OBJC_CLASS_$_LPMetadataProvider
+- _OBJC_CLASS_$_LPResources
+- _OBJC_CLASS_$_LPSharedObjectMetadata
+- _OBJC_CLASS_$_MLULookupItem
+- _OBJC_CLASS_$_NSArray
+- _OBJC_CLASS_$_NSAttributedString
+- _OBJC_CLASS_$_NSBundle
+- _OBJC_CLASS_$_NSConstantArray
+- _OBJC_CLASS_$_NSDate
+- _OBJC_CLASS_$_NSHashTable
+- _OBJC_CLASS_$_NSMutableURLRequest
+- _OBJC_CLASS_$_NSNumber
+- _OBJC_CLASS_$_NSObject
+- _OBJC_CLASS_$_NSProcessInfo
+- _OBJC_CLASS_$_NSTextAttachment
+- _OBJC_CLASS_$_NSURLComponents
+- _OBJC_CLASS_$_SLCollaborationFooterViewModel
+- _OBJC_CLASS_$_UIApplication
+- _OBJC_CLASS_$_UIColor
+- _OBJC_CLASS_$_UIDevice
+- _OBJC_CLASS_$_UIImage
+- _OBJC_CLASS_$_UIKeyboard
+- _OBJC_CLASS_$_UIScreen
+- _OBJC_CLASS_$_UITraitCollection
+- _OBJC_CLASS_$_UIViewController
+- _OBJC_METACLASS_$_IMBalloonPluginDataSource
+- _OBJC_METACLASS_$_LPLinkView
+- _OBJC_METACLASS_$_NSObject
+- _UICeilToScale
+- _UIContentSizeCategoryIsAccessibilityCategory
+- __NSConcreteGlobalBlock
+- __NSConcreteStackBlock
+- __UISolariumEnabled
+- __Unwind_Resume
+- ___CFConstantStringClassReference
+- ___NSDictionary0__struct
+- ___objc_personality_v0
+- ___stack_chk_fail
+- ___stack_chk_guard
+- __dispatch_main_q
+- __objc_empty_cache
+- __os_log_debug_impl
+- __os_log_impl
+- _dispatch_after
+- _dispatch_async
+- _dispatch_once
+- _dispatch_sync
+- _dispatch_time
+- _objc_alloc
+- _objc_alloc_init
+- _objc_autoreleaseReturnValue
+- _objc_copyWeak
+- _objc_destroyWeak
+- _objc_enumerationMutation
+- _objc_initWeak
+- _objc_loadWeakRetained
+- _objc_msgSend
+- _objc_msgSendSuper2
+- _objc_opt_class
+- _objc_opt_isKindOfClass
+- _objc_opt_respondsToSelector
+- _objc_release
+- _objc_release_x1
+- _objc_release_x19
+- _objc_release_x20
+- _objc_release_x21
+- _objc_release_x22
+- _objc_release_x23
+- _objc_release_x24
+- _objc_release_x25
+- _objc_release_x26
+- _objc_release_x27
+- _objc_release_x28
+- _objc_release_x8
+- _objc_release_x9
+- _objc_retain
+- _objc_retainAutoreleasedReturnValue
+- _objc_retainBlock
+- _objc_retain_x19
+- _objc_retain_x2
+- _objc_retain_x20
+- _objc_retain_x21
+- _objc_retain_x22
+- _objc_retain_x23
+- _objc_retain_x24
+- _objc_retain_x25
+- _objc_retain_x8
+- _objc_storeStrong
+- _objc_storeWeak
+- _os_log_type_enabled
+- radr://5614542
+CStrings:
+- ""
+- " "
+- "#16@0:8"
+- ".cxx_destruct"
+- "1"
+- "@\"<CKTranscriptLinkCustomizationPickerDelegate>\""
+- "@\"<CKTranscriptLinkCustomizationPickerDelegate>\"16@0:8"
+- "@\"<LPAudioPlayer>\"32@0:8@\"LPLinkView\"16@\"LPAudio\"24"
+- "@\"LPLinkMetadataStatusTransformer\""
+- "@\"LPLinkView\""
+- "@\"LPLinkView\"24@0:8@\"RichLinkPluginDataSource\"16"
+- "@\"LPMessagesPayload\""
+- "@\"LPMetadataProvider\""
+- "@\"NSArray\"24@0:8@\"LPLinkView\"16"
+- "@\"NSHashTable\""
+- "@\"NSString\"16@0:8"
+- "@\"NSURL\""
+- "@\"NSURL\"32@0:8@\"LPLinkView\"16@\"NSURL\"24"
+- "@\"RichLinkPluginDataSource\""
+- "@\"UIColor\"16@0:8"
+- "@\"UIContextMenuConfiguration\"32@0:8@\"LPLinkView\"16@\"UIContextMenuConfiguration\"24"
+- "@\"UIView<CKTranscriptPluginView>\"16@0:8"
+- "@\"UIViewController\"16@0:8"
+- "@\"UIViewController\"24@0:8@\"IMBalloonPluginDataSource\"16"
+- "@16@0:8"
+- "@24@0:8:16"
+- "@24@0:8@16"
+- "@24@0:8^@16"
+- "@28@0:8@\"IMBalloonPluginDataSource\"16B24"
+- "@28@0:8@16B24"
+- "@28@0:8B16q20"
+- "@32@0:8:16@24"
+- "@32@0:8@16@24"
+- "@40@0:8:16@24@32"
+- "@?16@0:8"
+- "@?<v@?@\"UIImage\">16@0:8"
+- "B"
+- "B16@0:8"
+- "B24@0:8#16"
+- "B24@0:8:16"
+- "B24@0:8@\"LPLinkView\"16"
+- "B24@0:8@\"Protocol\"16"
+- "B24@0:8@16"
+- "B32@?0@\"NSString\"8Q16^B24"
+- "CKTranscriptBalloonPluginController"
+- "CKTranscriptPluginViewReuseDelegate"
+- "Collaborate"
+- "Collaboration"
+- "IMBalloonPluginController"
+- "LPCustomizationPickerViewControllerDelegate"
+- "LPLinkMetadataStatusTransformerDelegate"
+- "LPLinkViewDelegate"
+- "NSObject"
+- "Q16@0:8"
+- "RichLinkPluginController"
+- "RichLinkPluginController: Failed to find a view controller for full screen presentation."
+- "RichLinkPluginDataSource"
+- "RichLinkPluginDataSource<%@>: background activity expired"
+- "RichLinkPluginDataSource<%@>: fetched metadata before initial send. UPDATING payload on datasource."
+- "RichLinkPluginDataSource<%@>: fetched metadata, sending update (payload=%lu, attachments=%lu)"
+- "RichLinkPluginDataSource<%@>: initial send (payload=%lu, attachments=%lu, placeholder=%d)"
+- "RichLinkPluginDataSource<%@>: initialized (payload=%lu, attachments=%lu, placeholder=%d)"
+- "RichLinkPluginDataSource<%@>: invalidating size"
+- "RichLinkPluginDataSource<%@>: received payload change (payload=%lu, attachments=%lu, placeholder=%d)"
+- "RichLinkPluginDataSource<%@>: size that fits %@ -> %@"
+- "RichLinkPluginDataSource<%@>: starting background activity"
+- "RichLinkPluginDataSource<%@>: starting update watchdog timer with %f seconds remaining"
+- "RichLinkPluginDataSource<%@>: tap-to-load complete (payload=%lu, attachments=%lu)"
+- "RichLinkPluginDataSource<%@>: update watchdog timer fired"
+- "RichLinkPluginDataSourceClient"
+- "RichLinkView"
+- "Send Copy"
+- "Share Options"
+- "T#,R"
+- "T@\"<CKTranscriptLinkCustomizationPickerDelegate>\",?,W,N"
+- "T@\"<CKTranscriptLinkCustomizationPickerDelegate>\",W,N,V_customizationPickerDelegate"
+- "T@\"LPMessagesPayload\",&,N,V_richLink"
+- "T@\"NSString\",?,R,C"
+- "T@\"NSString\",R,C"
+- "T@\"NSString\",R,C,N"
+- "T@\"NSURL\",R,C,N"
+- "T@\"RichLinkPluginDataSource\",W,N,V_dataSource"
+- "T@\"UIColor\",?,R,N"
+- "T@\"UIView<CKTranscriptPluginView>\",R,N"
+- "T@\"UIViewController\",?,R,N"
+- "T@?,?,C,N"
+- "TB,?,N"
+- "TB,?,R,N"
+- "TB,R,N"
+- "TQ,R"
+- "URL"
+- "Vv16@0:8"
+- "^{_NSZone=}16@0:8"
+- "_allowsOpeningSensitiveURLs"
+- "_clients"
+- "_contextMenuActionsForLinkView:"
+- "_copyPropertiesFrom:onlyUpgradeFields:"
+- "_customizationPickerDelegate"
+- "_dataSource"
+- "_didFetchMetadata:error:"
+- "_didSendPayload"
+- "_didStartUpdateWatchdog"
+- "_didTapToLoad"
+- "_disableAnimations"
+- "_dominantBackgroundColor"
+- "_flattenedMetadata"
+- "_hasDeferredResize"
+- "_hasMedia"
+- "_hasReceivedAnyPayload"
+- "_isEqualIgnoringURLs:"
+- "_isSimilarToColor:withinPercentage:"
+- "_keyboardHidden"
+- "_linkView:contextMenuConfigurationForSuggestedConfiguration:"
+- "_linkView:didTapCaptionButtonWithType:"
+- "_linkView:overrideURLForOpeningURL:"
+- "_linkView:playerForAudio:"
+- "_linkView:willOpenURL:"
+- "_linkViewMetadataDidBecomeComplete:"
+- "_lp_hasAllowedNonHTTPScheme"
+- "_lp_isHTTPFamilyURL"
+- "_lp_supportsBubbleTinting"
+- "_metadataVariants"
+- "_openURLAllowingSensitiveSchemes:allowingAssociatedApplications:"
+- "_originalURL"
+- "_pendingMetadataProvider"
+- "_resetIncompleteState"
+- "_richLink"
+- "_selectedVariantIndex"
+- "_setAllowsOpeningSensitiveURLs:"
+- "_setAllowsSkinnyWidth:"
+- "_setAllowsTapToLoad:"
+- "_setAnimationOrigin:"
+- "_setApplyCornerRadius:"
+- "_setButtonActions:"
+- "_setCollaborationFooterViewModel:action:"
+- "_setCollaborative:"
+- "_setDisableAnimations:"
+- "_setDisableHighlightGesture:"
+- "_setDisablePlaybackControls:"
+- "_setDisablePreviewGesture:"
+- "_setDisableTapGesture:"
+- "_setForceFlexibleWidth:"
+- "_setInComposeContext:"
+- "_setInSenderContext:"
+- "_setMaskImage:"
+- "_setMetadata:isFinal:"
+- "_setNeedsDominantBackgroundColor:"
+- "_setNeedsMessagesTranscriptPushCounterAnimation:"
+- "_setOverrideBackgroundColor:"
+- "_setOverrideSubtitle:"
+- "_setOverrideURL:"
+- "_setSelectedVariantIndex:"
+- "_setSizeClassParameters:"
+- "_setUnderlyingBackgroundColor:"
+- "_setUsesDeferredLayout:"
+- "_setUsesInferredAppearanceWithOverriddenBackgroundColor:"
+- "_shouldFetchWhenSent"
+- "_specializedBackgroundColor"
+- "_specializedBackgroundIsMediaBlur"
+- "_startFetchingMetadata"
+- "_startFetchingSubresourcesForPartialMetadata:isNonAppInitiated:completionHandler:"
+- "_statusTransformer"
+- "_tapticEngine"
+- "_temporarySizingView"
+- "_updateWatchdogDidFire"
+- "_view"
+- "_viewControllerForFullScreenPresentationFromView:"
+- "_wantsContextMenuPreviewForLinkView:"
+- "actionDescription"
+- "actionURL"
+- "actionWithTitle:image:handler:"
+- "actuateFeedback:"
+- "addClient:"
+- "addObject:"
+- "allowsOpeningSensitiveURLs"
+- "allowsReusablePluginViews"
+- "anyObject"
+- "appendAttributedString:"
+- "apps.apple.com"
+- "appsto.re"
+- "arrayWithObjects:count:"
+- "attachments"
+- "attributedStringWithAttachment:"
+- "autorelease"
+- "balloonMaskIncludingTail:userInterfaceStyle:"
+- "balloonOutlineColor"
+- "books.apple.com"
+- "bounds"
+- "bundleForClass:"
+- "canPresentCustomizationPicker"
+- "canProvideSize"
+- "caseInsensitiveCompare:"
+- "chooseOptions"
+- "class"
+- "clearColor"
+- "clearShelfPayload"
+- "collaborationMetadata"
+- "collaborationOptionsSummary"
+- "com.apple.LinkPresentation.RichLinkPluginDataSource.Fetch"
+- "compare:"
+- "configureWithConversationID:recipients:"
+- "configureWithDataSource:isFromMe:"
+- "conformsToProtocol:"
+- "contentViewController"
+- "contentViewControllerForDataSource:"
+- "copy"
+- "count"
+- "countByEnumeratingWithState:objects:count:"
+- "createEmptyMetadataWithOriginalURL"
+- "createNewPluginView"
+- "createRichLinkView"
+- "currentDevice"
+- "customizationPicker:didSelectVariantAtIndex:"
+- "customizationPickerControllerDidDismiss:"
+- "customizationPickerControllerDidPresent:"
+- "customizationPickerControllerWillDismiss:"
+- "customizationPickerControllerWillPresent:"
+- "customizationPickerDelegate"
+- "d24@0:8@\"LPCustomizationPickerViewController\"16"
+- "d24@0:8@16"
+- "data"
+- "dataRepresentationWithOutOfLineAttachments:"
+- "dataSource"
+- "date"
+- "dateByAddingTimeInterval:"
+- "dealloc"
+- "debugDescription"
+- "description"
+- "didChangeSelectedVariant"
+- "didFinishAnimatedBoundsChange"
+- "didMoveToSuperview"
+- "didTapStatusItem"
+- "dismissViewControllerAnimated:completion:"
+- "dispatchMetadataUpdateToAllClients"
+- "displayScale"
+- "doc"
+- "doc.fill"
+- "ensureValidCollaborationState"
+- "freeform"
+- "freeform-copy"
+- "freeform-folder"
+- "handlePresentationAction"
+- "hasPendingFetch"
+- "hasSizingInfo"
+- "hash"
+- "horizontalSizeClass"
+- "host"
+- "icloud.com"
+- "iclouddrive"
+- "icon"
+- "imMessage"
+- "image"
+- "imageWithRenderingMode:"
+- "indexOfObjectPassingTest:"
+- "individualPreviewSummary"
+- "individualPreviewSummaryForPluginPayload:"
+- "init"
+- "initWithDataSource:isFromMe:"
+- "initWithMetadata:"
+- "initWithMetadata:URL:"
+- "initWithPlatformImage:"
+- "initWithPluginPayload:"
+- "initWithSource:"
+- "initWithString:"
+- "initWithURL:"
+- "initWithURL:dataDetectorsResult:text:range:"
+- "initWithURL:resolvingAgainstBaseURL:"
+- "integerValue"
+- "interactiveViews"
+- "invalidateMessageTintColor"
+- "isCollaboration"
+- "isCollaborationLink"
+- "isEqual:"
+- "isFromMe"
+- "isInteractive"
+- "isKindOfClass:"
+- "isMemberOfClass:"
+- "isPlaceholder"
+- "isProxy"
+- "itun.es"
+- "itunes.apple.com"
+- "itunes.com"
+- "keynote"
+- "length"
+- "linkBackgroundColor"
+- "linkView:didFetchMetadata:"
+- "linkViewNeedsResize:"
+- "linkWithDataRepresentation:attachments:"
+- "localizedStringForKey:value:table:"
+- "mainScreen"
+- "maps.apple.com"
+- "maxWidthForSourceView"
+- "maximumWidthForLinkViewInCustomizationPicker:"
+- "messageGUID"
+- "messageTintColor"
+- "messageTintColorForView:"
+- "metadata"
+- "metadataForDisplay"
+- "metadataHasContent"
+- "metadataIsLikelyFinal"
+- "metadataIsViableForDisplay"
+- "movies.apple.com"
+- "music.apple.com"
+- "mutableCopy"
+- "name"
+- "needsCompleteFetch"
+- "needsResize"
+- "needsSubresourceFetch"
+- "notes"
+- "numberWithInteger:"
+- "numbers"
+- "objectAtIndexedSubscript:"
+- "openURL:options:completionHandler:"
+- "originalURL"
+- "overrideURLForOpeningURL:"
+- "pages"
+- "pathComponents"
+- "payload"
+- "payloadCollaborationType"
+- "payloadInShelf"
+- "payloadWillEnterShelf"
+- "payloadWillSendFromShelf"
+- "payloadWithOutOfLineAttachments:"
+- "performExpiringActivityWithReason:usingBlock:"
+- "performHostAppResume"
+- "performHostAppSuspend"
+- "performSelector:"
+- "performSelector:withObject:"
+- "performSelector:withObject:withObject:"
+- "person.2"
+- "person.2.fill"
+- "photos"
+- "pluginBalloonInsetsForMessageFromMe:"
+- "pluginContentView"
+- "pluginContentViewController"
+- "pluginContentViewWillAppear"
+- "pluginContentViewWillDisappear"
+- "pluginPayload"
+- "pluginPayloadDidChange:"
+- "pluginPayloadShouldSendCollaboration"
+- "pluginPayloadShouldSendCopy"
+- "pluginViewClassType"
+- "pluginViewDidEnterReuseQueue:"
+- "podcasts.apple.com"
+- "popoverPresentationController"
+- "postProcessMetadataUpgradedByCompleteRefetch:originalMetadata:"
+- "preferredContentSizeCategory"
+- "prepareCollaborationLink:"
+- "presentCustomizationPicker"
+- "presentViewController:animated:completion:"
+- "previewSummary"
+- "processInfo"
+- "release"
+- "relinquishDataSource"
+- "reminders"
+- "rendererForRichLinkPluginDataSource:"
+- "requestWithURL:"
+- "resolve"
+- "resolvedColorWithTraitCollection:"
+- "respondsToSelector:"
+- "restoreOriginalPluginBackgroundIfNeeded"
+- "retain"
+- "retainCount"
+- "richLink"
+- "richLinkMetadata"
+- "richLinkViewDidMoveToSuperview:"
+- "searchQuery"
+- "self"
+- "sendAsCopy"
+- "sendPayload:attachments:"
+- "separatorColor"
+- "setAllowsOpeningSensitiveURLs:"
+- "setAttribution:"
+- "setContentInset:"
+- "setCustomizationDelegate:"
+- "setCustomizationPickerDelegate:"
+- "setDataSource:"
+- "setDelegate:"
+- "setFlattenedMetadataForSending:"
+- "setForegroundColor:"
+- "setImage:"
+- "setIsCollaboration:"
+- "setKeyboardAlpha:"
+- "setMask:"
+- "setMetadata:"
+- "setModalPresentationStyle:"
+- "setName:"
+- "setNeedsCompleteFetch:"
+- "setNeedsLayout"
+- "setNeedsSpaceAffordanceForDeleteButton:"
+- "setNeedsSubresourceFetch:"
+- "setOpaquePluginBackgroundIfNeeded:"
+- "setOptionsSummary:"
+- "setOriginalURL:"
+- "setPayload:attachments:"
+- "setPermittedArrowDirections:"
+- "setPlaceholder:"
+- "setRichLink:"
+- "setSearchQuery:"
+- "setSelected:"
+- "setSourceView:"
+- "setTransitioningDelegate:"
+- "setUpdateSnapshot:"
+- "setVisibleImage:"
+- "setup.icloud.com"
+- "share"
+- "share.icloud.com"
+- "sharedApplication"
+- "sharedBehaviors"
+- "sizeThatFits:"
+- "sizingView"
+- "specialization"
+- "startFetchingMetadataForRequest:completionHandler:"
+- "startUpdateWatchdogIfNeeded"
+- "statusAttributedString"
+- "statusStringNeedsUpdate"
+- "statusText"
+- "statusTransformer"
+- "statusTransformerDidUpdate:"
+- "storeIdentifier"
+- "superclass"
+- "superview"
+- "supportsCollaboration"
+- "supportsIndividualPreviewSummaries"
+- "supportsURL:"
+- "systemImageNamed:"
+- "tapToLoadDidFetchMetadata:"
+- "theme"
+- "time"
+- "timeIntervalSinceDate:"
+- "title"
+- "traitCollection"
+- "traitCollectionWithUserInterfaceStyle:"
+- "transcriptMessageStatusButtonTextColor"
+- "transitionContextForCustomizationPickerController:"
+- "tv.apple.com"
+- "type"
+- "updateBackgroundColorForLinkView:"
+- "updatePayload:attachments:"
+- "updateRichLinkWithFetchedMetadata:"
+- "updateSidednessForLinkView:"
+- "updateSnapshot"
+- "url"
+- "userInterfaceIdiom"
+- "userInterfaceStyle"
+- "v12@?0B8"
+- "v16@0:8"
+- "v20@0:8B16"
+- "v24@0:8@\"<CKTranscriptLinkCustomizationPickerDelegate>\"16"
+- "v24@0:8@\"LPLinkMetadataStatusTransformer\"16"
+- "v24@0:8@\"LPLinkView\"16"
+- "v24@0:8@\"UIColor\"16"
+- "v24@0:8@\"UIView<CKTranscriptPluginView>\"16"
+- "v24@0:8@16"
+- "v24@0:8@?16"
+- "v24@0:8@?<v@?@\"UIImage\">16"
+- "v24@0:8Q16"
+- "v24@?0@\"LPLinkMetadata\"8@\"NSError\"16"
+- "v28@0:8@\"IMBalloonPluginDataSource\"16B24"
+- "v28@0:8@16B24"
+- "v32@0:8@\"LPCustomizationPickerViewController\"16q24"
+- "v32@0:8@\"LPLinkView\"16@\"LPLinkMetadata\"24"
+- "v32@0:8@\"LPLinkView\"16@\"NSURL\"24"
+- "v32@0:8@\"LPLinkView\"16q24"
+- "v32@0:8@\"NSString\"16@\"NSArray\"24"
+- "v32@0:8@16@24"
+- "v32@0:8@16q24"
+- "v8@?0"
+- "verticalSizeClass"
+- "video"
+- "viewControllerToPresent"
+- "wantsBalloonGradient"
+- "wantsEdgeToEdgeLayout"
+- "wantsOutline"
+- "wantsStatusItem"
+- "wantsTranscriptGroupMonograms"
+- "wantsTranscriptTimestampDrawer"
+- "weakObjectsHashTable"
+- "willAnimateBoundsChange"
+- "www.icloud.com"
+- "zone"
+- "{CGSize=dd}32@0:8{CGSize=dd}16"
+
+```

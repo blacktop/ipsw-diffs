@@ -1,0 +1,724 @@
+## EventViewService
+
+> `/Applications/EventViewService.app/EventViewService`
+
+```diff
+
+-426.4.14.0.0
+-  __TEXT.__text: 0x1a8efc sha256:f9faa48f5bfeef96b605f997b89f60981c3dac55e7645c0687a7ea30bde72a80
+-  __TEXT.__auth_stubs: 0x4bc0 sha256:b8301fa0edb222d86f40a1c96a2c9778cd1fd9a85df626bd68439544561a5e51
+-  __TEXT.__objc_stubs: 0x1920 sha256:c8da6dca8b9670a2644cb07dcb5fb95f8b06a526dfb28529aee58395357dc675
+-  __TEXT.__objc_methlist: 0xbb4 sha256:5483264f6ee02b28999527f6ea2590e902b64b035d4f34bdd8cb7a14ff07f0e5
+-  __TEXT.__const: 0x113c4 sha256:1f19b0e36ba749bc661469c65c65d393472b8a7754520bd9ef8fdf573e7880f7
+-  __TEXT.__constg_swiftt: 0x4ef4 sha256:4e1ab12a7c4fcd4704d6758b289308fea58a371b8c26655662f65a51b826c8b2
+-  __TEXT.__swift5_typeref: 0x2124e sha256:5e6c459dbcb94c274ab8c58545ec7b389b4bfffc08add4957f7025f534a75189
+-  __TEXT.__swift5_reflstr: 0x3f58 sha256:0fa854335cf995bb23512e20671d6c429cdea1a049b1ba6a4f6265d24cf71609
+-  __TEXT.__swift5_assocty: 0x1358 sha256:61812d9c1be45b34d6f2dd57b75766c68ce122fb4c28b66c4dd65d7e85287bb0
+-  __TEXT.__swift5_fieldmd: 0x3c78 sha256:a147aa3eee5d3c1a2ecd201d592c6d3ea2779c8c727ec99b428cc0de0e926094
+-  __TEXT.__swift5_builtin: 0x118 sha256:6ed451ce88b8e0ca70428f6308084d7a3a63330e33871e226a7919c9f3b1e3c3
+-  __TEXT.__swift5_protos: 0xa8 sha256:d625f436eb50c292d335c8deb3f030c24bde73c3a52632470d9a11a2da7cc657
+-  __TEXT.__swift5_proto: 0x678 sha256:62e4b4e56cfd52e7e094e43e5a695e17d37bd6691c18c2491edade4cd3df631f
+-  __TEXT.__swift5_types: 0x3c0 sha256:6d4c0adc7144d21b94eca7e1b316bb38c6f7e55d21815cd663be78cd3739b5cf
+-  __TEXT.__objc_classname: 0x740 sha256:6f29e69b12288ba3ea851bf661b7a93e9da469d4915c9cad25cdd6159c9ebdbd
+-  __TEXT.__objc_methname: 0x4291 sha256:e8b21369b5406849c82b10263e6cf6483761370e7e624ed9862e8bf1b9c87604
+-  __TEXT.__objc_methtype: 0x1675 sha256:d840e6c73ce998e9bb5008d44c5b7475e87efb0ed07f47b7d04981454ee3e0ee
+-  __TEXT.__swift_as_entry: 0x1e8 sha256:d98f0383c767fbbb345df4caca9e7f6f39f8d1effab56d605b04b8f864e35a3e
+-  __TEXT.__swift_as_ret: 0x1b8 sha256:7e36b54236c27f14f4298bfd7b6aaad66affcc62a10f416b875e382ea02f36ed
+-  __TEXT.__oslogstring: 0xb40 sha256:cdc29b3928cbddb6adaa1910d4da87bdef2b516f50ac6ac27044456e67cda6ca
+-  __TEXT.__swift5_capture: 0x1bc4 sha256:d4e9c56361fd7a99825f4a6eeb980894538501113aa3a53578745b73346d590a
+-  __TEXT.__cstring: 0x3b37 sha256:f97e8802a31d4bbdb5f4b46e554cd558574ab45f36a4d360c7ce1516aa584024
+-  __TEXT.__swift5_mpenum: 0x10 sha256:2861958e1c6210d3bfbf9f6a31a2788c78ecbe85e87a8b1dac99b08dcde27a41
+-  __TEXT.__swift5_entry: 0x8 sha256:da23b494913a43ffb71b7c7a5aaf262f1e8d2e344e5e37bb74264b9a87c5ee6d
+-  __TEXT.__unwind_info: 0x50e0 sha256:9578af256766394077338f7c8e7dc9aa298996a0f8b020dd3dc21c4d5a33f5b3
+-  __TEXT.__eh_frame: 0x6308 sha256:d79c1694c9a6ff249baa3915df0cf114bc548dc15a4f6389f49925b1d3dd740b
+-  __DATA_CONST.__auth_got: 0x25e8 sha256:e322cf922d82e03637d6fad94bbb78dc90b0aa2d5e36c8cb79f8059319ed6460
+-  __DATA_CONST.__got: 0x1498 sha256:3a6d35b68f2e8c1a416d160f82c7e3e255276cf8532ac8ef39c7096dce146421
+-  __DATA_CONST.__auth_ptr: 0x1808 sha256:71e4bc208e654cd7f4608a5deac1b15650d1950f1584aea0ca9e906b22afaeb5
+-  __DATA_CONST.__const: 0x94f0 sha256:713e650508bae483cfb142104b789255699ac2428516e0b674cc56dee04ced51
+-  __DATA_CONST.__objc_classlist: 0xd0 sha256:ea25408fe0aeed42a22a85d7dc8cb2632783899554b458d5fc4c1d3352f44d20
+-  __DATA_CONST.__objc_protolist: 0xd0 sha256:045bbf0fe764b3b8075945e731adbe11f7755a0bdbfeeaa7bd501255f90c29f4
+-  __DATA_CONST.__objc_imageinfo: 0x8 sha256:234cedc7009d98da03ca2a7ff525d0db26b82bff0e6046456f4eda918f734526
+-  __DATA_CONST.__objc_protorefs: 0x68 sha256:5bc87b19454e1ac32598a34badfdebd823ce65226583a54044dfc4f4cb38096b
+-  __DATA.__objc_const: 0x3638 sha256:623333782a19447cf9765029d787f1354b781b6df39d81c0b49fdf65432a2a2f
+-  __DATA.__objc_selrefs: 0xc38 sha256:df4f0bc5a7fd42bf5dea640dd2176cfda68f008c682a6dc2494cd8b2e5d22770
+-  __DATA.__objc_data: 0x9c8 sha256:8d6c05ac94480e721908a25148c779d06961c2168de06046135a39c530da0da3
+-  __DATA.__data: 0xb278 sha256:20e40b39711fb0dd68df8c179916490c60ec2a55a6c7d4a826d355667babb0a6
+-  __DATA.__bss: 0xd1c8 sha256:758417dcb13375dc030187cfc727ecbe4d5173912167e15d5939c42c33bb86a1
+-  __DATA.__common: 0xf8 sha256:b55697ce4dc0ce9589c40d224dec3ffdb8a3c34d243b5dc45242b036cd1d8050
++427.0.6.0.0
++  __TEXT.__text: 0x1e1e54 sha256:1fd99cb93a964469d6f73e5baef440a7731139625a7bd4c320b7d00495975e5a
++  __TEXT.__auth_stubs: 0x4fd0 sha256:b5136aa48fe4f0aa5ecdf5c34ab8b5f7d827ca4e85387394bc40c9e8ec67dc73
++  __TEXT.__objc_stubs: 0x1900 sha256:ee6b643ca08cea1de144f5aa4be5f83c9c284461eedb84ce2869259c03d44fb7
++  __TEXT.__objc_methlist: 0xb7c sha256:e245c59332263a235d6a3c2c7348a9297c112a52a7a799fa351f8fc3b9e19d86
++  __TEXT.__const: 0x116a4 sha256:824322d9e4a4457c54806cc97caabfb9709885b801a28ecb6b8bc7b579833d60
++  __TEXT.__constg_swiftt: 0x50f4 sha256:5e1eda01e2f53ddc18f2f05089e4396702de0fa7999176923ba46a6cce8dcc95
++  __TEXT.__swift5_typeref: 0x218a8 sha256:39d0655d2fcac18378708c2f5bcb98c31257966e471f2d31eb5bab35ff44ba1d
++  __TEXT.__swift5_reflstr: 0x44d8 sha256:ad8466b8c207fb73061e59cc336b6e45d9f98f18c0e9c1b8bed97176a05da069
++  __TEXT.__swift5_assocty: 0x1290 sha256:231084017e8ea447e509819201400276146dc623797e85ba94b3f74267651bb1
++  __TEXT.__swift5_fieldmd: 0x3d70 sha256:77ae5c7a791f497f806f7a55eb0d2a076902ba9f92db9ebea54794f9ad0e3ba8
++  __TEXT.__swift5_builtin: 0x118 sha256:73bfcbdf3bb87081fe22eb1cfe270a87885ef9afce4bbc772991abe38d29a31e
++  __TEXT.__swift5_protos: 0xa8 sha256:3f5a0b60688eedb1a5911616961fe40da109bc85bfe67dd1017cf940b1300c96
++  __TEXT.__swift5_proto: 0x580 sha256:18ca19331fa4ec1ac206108561b5600e5a88b0d983d97e6e82408d7674b4efe2
++  __TEXT.__swift5_types: 0x398 sha256:89c40055472bc7d92a5135f54276255f7152f127971fc06e296474cb672e3a19
++  __TEXT.__objc_classname: 0x6b0 sha256:e59f74f173553d5095b834839f9954555d524fd22d91c4840dc6986910e40503
++  __TEXT.__objc_methname: 0x42f1 sha256:5a910fe8bf4dfa5f716e10b6609ccdbeaff291481408e719c4cce56af4ef25a0
++  __TEXT.__objc_methtype: 0x1675 sha256:1a89fb1512de91c4ebdb15808b70b808d35a46e50097010a25fd053091737d73
++  __TEXT.__swift_as_entry: 0x238 sha256:11511a57a70b88dfcee242c22f00182881fd4bc9247573f3bb9aba6bb6885fb9
++  __TEXT.__swift_as_ret: 0x208 sha256:9d83adea2c659a990371c773f56ed98231917a8af793d56a1ec0d595eb35c5fd
++  __TEXT.__swift_as_cont: 0x694 sha256:335f4f96bae9f94f23464be44fbe1c18a981c3dfa1efa1946ab4dca4bfbd9e9e
++  __TEXT.__oslogstring: 0xc45 sha256:437bf696338e7e08306aaacd877bd2b280247bfc38830bc1ce63837eb82c784d
++  __TEXT.__swift5_capture: 0x20dc sha256:b21046c6b474ab2eaf2afa40c38c82ac5061939d60240e440e5711c929fcdb63
++  __TEXT.__cstring: 0x48df sha256:a0343aaf39fd5850ff57f70bd79da974dc12d425afc464c9dff288865c6fb594
++  __TEXT.__swift5_mpenum: 0x10 sha256:c8e30fa559c99a053db820075b539409fc4b8e674c46c62ea66e6c4247ec224b
++  __TEXT.__swift5_entry: 0x8 sha256:189c01312928a9b48b9edeb629dc012e90859cd2d35fdea9ef8f28c868fbf38c
++  __TEXT.__unwind_info: 0x56f0 sha256:37aa1c320a28772532aa395e2b7d19194002a0cfa0d2a0e4ffffebb3d62d30c9
++  __TEXT.__eh_frame: 0x70f0 sha256:5af59e8f5e455a16a074ff8086e3cd6c31b299bf5fad30ca90ec53a6ad0c7155
++  __DATA_CONST.__const: 0x9348 sha256:16fbc5cc0bc15ae4f28bc09d833ea98c74e210998640a7b42245d684f3fd4fce
++  __DATA_CONST.__objc_classlist: 0xc0 sha256:523994bbecf9cd733b432c3894e180037505a145eb1954dbe2b10827bcfbaf04
++  __DATA_CONST.__objc_protolist: 0xd0 sha256:7799aaacede9667a75f2b5300c04391b7461de5206dc4d38398b0ff4f6412512
++  __DATA_CONST.__objc_imageinfo: 0x8 sha256:885ce8037a15de89b0ceb0054c31fc3de725513307f685be388961916dadcdb0
++  __DATA_CONST.__objc_protorefs: 0x68 sha256:2cece84f92f1c22d45f55b8b4e9c03894ed3a49c479df60438d6316ed6032196
++  __DATA_CONST.__auth_got: 0x27f0 sha256:ffeb61835c2232373daba716339e7a9ca20577965be0a6a32d117764e1604890
++  __DATA_CONST.__got: 0x1608 sha256:c8f04b1011ca9ffe5f8560f532a41f4218e53316f6cd1bb6250e77c5f6f0647c
++  __DATA_CONST.__auth_ptr: 0x1810 sha256:311a31924ffffe2c1d6282999adf6a31948dea55491f69a68713b74725c828f0
++  __DATA.__objc_const: 0x3868 sha256:75096f93974e9647b846508ec7901e8d9d8d9a52033dbb8b82caafe26f546845
++  __DATA.__objc_selrefs: 0xc28 sha256:9ca4bf15333357b31a0f30f09065cb476ebe3ad21e67dbee720b049129033ca9
++  __DATA.__objc_data: 0x8d8 sha256:f6fc28389c6f3dd8bb4864cf786b1126109e6891c0c2015efc48848995974a47
++  __DATA.__data: 0xba18 sha256:eba8e4b5ff1ff5e81ce6648383a3fa69d32e72026cf8f8baa6230f452ffa9189
++  __DATA.__bss: 0xb520 sha256:ca887f1f2ed751fddd6e7f7f8a050715b4adaade4133c585d37eca61f130b0dc
++  __DATA.__common: 0x128 sha256:a85df52d4f580c08c583c7bd5d4191054e30df6cba471e01c4557380b2bc6cef
+   - /System/Library/Frameworks/AVFAudio.framework/AVFAudio
+   - /System/Library/Frameworks/AVFoundation.framework/AVFoundation
+   - /System/Library/Frameworks/AVKit.framework/AVKit
+
+   - /System/Library/Frameworks/CoreLocation.framework/CoreLocation
+   - /System/Library/Frameworks/CoreMedia.framework/CoreMedia
+   - /System/Library/Frameworks/CoreServices.framework/CoreServices
++  - /System/Library/Frameworks/DeveloperToolsSupport.framework/DeveloperToolsSupport
+   - /System/Library/Frameworks/EventKit.framework/EventKit
+   - /System/Library/Frameworks/EventKitUI.framework/EventKitUI
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+
+   - /System/Library/PrivateFrameworks/MusicKitInternal.framework/MusicKitInternal
+   - /System/Library/PrivateFrameworks/ShazamCore.framework/ShazamCore
+   - /System/Library/PrivateFrameworks/ShazamEvents.framework/ShazamEvents
++  - /System/Library/PrivateFrameworks/ShazamEventsUI.framework/ShazamEventsUI
+   - /System/Library/PrivateFrameworks/SpringBoardServices.framework/SpringBoardServices
+   - /System/Library/PrivateFrameworks/SpringBoardUIServices.framework/SpringBoardUIServices
++  - /System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/swift/libswiftAVFoundation.dylib
+
+   - /usr/lib/swift/libswiftCoreImage.dylib
+   - /usr/lib/swift/libswiftCoreLocation.dylib
+   - /usr/lib/swift/libswiftCoreMIDI.dylib
+-  - /usr/lib/swift/libswiftCoreMedia.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
+   - /usr/lib/swift/libswiftIntents.dylib
+   - /usr/lib/swift/libswiftMLCompute.dylib
+-  - /usr/lib/swift/libswiftMapKit.dylib
+   - /usr/lib/swift/libswiftMetal.dylib
++  - /usr/lib/swift/libswiftMetalKit.dylib
++  - /usr/lib/swift/libswiftModelIO.dylib
+   - /usr/lib/swift/libswiftNaturalLanguage.dylib
+   - /usr/lib/swift/libswiftOSLog.dylib
+   - /usr/lib/swift/libswiftObjectiveC.dylib
+
+   - /usr/lib/swift/libswiftQuartzCore.dylib
+   - /usr/lib/swift/libswiftSpatial.dylib
+   - /usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
+-  - /usr/lib/swift/libswiftVideoToolbox.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: DAA89C99-84A1-30AE-9E32-48B8209D558E
+-  Functions: 7032
+-  Symbols:   2178
+-  CStrings:  1193
++  UUID: F8B406A4-8702-31BE-AAA6-A686F8630CF0
++  Functions: 7639
++  Symbols:   2271
++  CStrings:  1265
+ 
+Symbols:
++ _$s10Foundation37_KeyValueCodingAndObservingPublishingPAASo8NSObjectCRbzrlE9publisher3for7optionsAeAE0bcF9PublisherVy_xqd__Gs0B4PathCyxqd__G_So05NSKeycF7OptionsVtlF
++ _$s11Observation0A9RegistrarV6didSet_7keyPathyx_s03KeyF0Cyxq_GtAA10ObservableRzr0_lF
++ _$s11Observation0A9RegistrarV7willSet_7keyPathyx_s03KeyF0Cyxq_GtAA10ObservableRzr0_lF
++ _$s12ShazamEvents12EventServiceV19ClientConfigurationV25effectiveBundleIdentifierAESS_tcfC
++ _$s12ShazamEvents12EventServiceV19ClientConfigurationVMa
++ _$s12ShazamEvents12EventServiceV19clientConfigurationA2C06ClientF0V_tcfC
++ _$s12ShazamEvents12EventServiceV5ErrorO08internalD7FailureyA2EmFWC
++ _$s12ShazamEvents12EventServiceV5ErrorOMa
++ _$s12ShazamEvents12EventServiceV5ErrorOMn
++ _$s12ShazamEvents12EventServiceV5ErrorOSQAAMc
++ _$s12ShazamEvents18PromotionalContentV9playlistsSayAA8PlaylistVGvg
++ _$s12ShazamEvents5MusicV14completeLineup5usingyAA12EventServiceV_tYaKF
++ _$s12ShazamEvents5MusicV14completeLineup5usingyAA12EventServiceV_tYaKFTu
++ _$s12ShazamEvents5MusicV5StyleO7concertyA2EmFWC
++ _$s12ShazamEvents5MusicV5StyleO8festivalyA2EmFWC
++ _$s12ShazamEvents5MusicV5StyleOMa
++ _$s12ShazamEvents5MusicV5StyleOMn
++ _$s12ShazamEvents5MusicV5StyleOSQAAMc
++ _$s12ShazamEvents5MusicV5imageAA5ImageVSgvg
++ _$s12ShazamEvents5MusicV5styleAC5StyleOvg
++ _$s12ShazamEvents5MusicV6LineupV14hasMoreMembersSbvg
++ _$s12ShazamEvents5MusicV6LineupV7membersSayxGvg
++ _$s12ShazamEvents5MusicV7editionSSSgvg
++ _$s12ShazamEvents5MusicV8subtitleSSSgvg
++ _$s12ShazamEvents5SportV6LeagueV13eventSchedule7service9startDateSayACGAA12EventServiceV_10Foundation0I0VtYaKF
++ _$s12ShazamEvents5SportV6LeagueV13eventSchedule7service9startDateSayACGAA12EventServiceV_10Foundation0I0VtYaKFTu
++ _$s14ShazamEventsUI13ExceptionListV3KeyO11attributionyA2EmFWC
++ _$s14ShazamEventsUI13ExceptionListV3KeyO5appIDyA2EmFWC
++ _$s14ShazamEventsUI13ExceptionListV3KeyOMa
++ _$s14ShazamEventsUI13ExceptionListV4NameO11attributionyA2EmFWC
++ _$s14ShazamEventsUI13ExceptionListV4NameO5appIDyA2EmFWC
++ _$s14ShazamEventsUI13ExceptionListV4NameOMa
++ _$s14ShazamEventsUI13ExceptionListV4nameA2C4NameO_tcfC
++ _$s14ShazamEventsUI13ExceptionListVMa
++ _$s14ShazamEventsUI13ExceptionListVyypSgAC3KeyOcig
++ _$s14ShazamEventsUI14EventBadgeViewV12badgePaddingyACyxq_G05SwiftC010EdgeInsetsVF
++ _$s14ShazamEventsUI14EventBadgeViewV15badgeBackgroundyACyxq_GAA0eH5StyleOF
++ _$s14ShazamEventsUI14EventBadgeViewVA2A0dE5ImageVRsz05SwiftC04TextVRs_rlE9alignment9imageName5titleACyAeHGAF17VerticalAlignmentV_S2StcfC
++ _$s14ShazamEventsUI14EventBadgeViewVA2A0dE5ImageVRsz05SwiftC04TextVRs_rlE9alignment9localized5imageACyAeHGAF17VerticalAlignmentV_AF18LocalizedStringKeyVAEyctcfC
++ _$s14ShazamEventsUI14EventBadgeViewVAA05SwiftC005EmptyF0VRszrlE5labelACyAFq_Gq_yc_tcfC
++ _$s14ShazamEventsUI14EventBadgeViewVMn
++ _$s14ShazamEventsUI14EventBadgeViewVyxq_G05SwiftC00F0AAMc
++ _$s14ShazamEventsUI15EventBadgeImageV4name5widthACSS_12CoreGraphics7CGFloatVtcfC
++ _$s14ShazamEventsUI15EventBadgeImageVMn
++ _$s14ShazamEventsUI15HeroImageSymbolVMn
++ _$s14ShazamEventsUI15LineupBadgeViewV05SwiftC00F0AAMc
++ _$s14ShazamEventsUI15LineupBadgeViewV11artworkURLsACSay10Foundation3URLVSgG_tcfC
++ _$s14ShazamEventsUI15LineupBadgeViewVMa
++ _$s14ShazamEventsUI15LineupBadgeViewVMn
++ _$s14ShazamEventsUI19CircularArtworkViewV3url4size8gradient5imageACyAA0dE19GradientPlaceholderVyqd__GG10Foundation3URLVSg_12CoreGraphics7CGFloatV05SwiftC006LinearK0Vqd__yctcAJRszAS0F0Rd__lufC
++ _$s14ShazamEventsUI19CircularArtworkViewVA2A0dE11PlaceholderVRszrlE3url4size16placeholderColorACyAEG10Foundation3URLVSg_12CoreGraphics7CGFloatV05SwiftC00K0VtcfC
++ _$s14ShazamEventsUI19CircularArtworkViewVMn
++ _$s14ShazamEventsUI19CircularArtworkViewVyxG05SwiftC00F0AAMc
++ _$s14ShazamEventsUI20BadgeBackgroundStyleO5glassyA2CmFWC
++ _$s14ShazamEventsUI20BadgeBackgroundStyleOMa
++ _$s14ShazamEventsUI20DefaultHeroImageViewVA2A0eF6SymbolVRszrlE06systemH4Name8gradientACyAEGSS_05SwiftC014LinearGradientVtcfC
++ _$s14ShazamEventsUI20DefaultHeroImageViewVAA05SwiftC00F0VRszrlE9imageName8gradientACyAFGSS_AD14LinearGradientVtcfC
++ _$s14ShazamEventsUI20DefaultHeroImageViewVMn
++ _$s14ShazamEventsUI20DefaultHeroImageViewVyxG05SwiftC00G0AAMc
++ _$s14ShazamEventsUI20EventAttributionTextV05SwiftC04ViewAAMc
++ _$s14ShazamEventsUI20EventAttributionTextV12localizedKey04linkF03url5onTapACSS_SS10Foundation3URLVSgyycSgtcfC
++ _$s14ShazamEventsUI20EventAttributionTextVMa
++ _$s14ShazamEventsUI20EventAttributionTextVMn
++ _$s14ShazamEventsUI21RemoteViewIdentifiersO12activityTypeSSvgZ
++ _$s14ShazamEventsUI21RemoteViewIdentifiersO16configurationKeySSvgZ
++ _$s14ShazamEventsUI21RemoteViewIdentifiersO19appBundleIdentifierSSvgZ
++ _$s14ShazamEventsUI23RemoteViewConfigurationV10queryItemsSayAC9QueryItemVGvg
++ _$s14ShazamEventsUI23RemoteViewConfigurationV17presentationStyleAA0de7ModulesF0V012PresentationH0Ovg
++ _$s14ShazamEventsUI23RemoteViewConfigurationV25sourceApplicationBundleIDSSSgvg
++ _$s14ShazamEventsUI23RemoteViewConfigurationV29shouldUseReadableLayoutMargin4withSb05SwiftC022UserInterfaceSizeClassOSg_tF
++ _$s14ShazamEventsUI23RemoteViewConfigurationV6decode4fromAC10Foundation4DataV_tKFZ
++ _$s14ShazamEventsUI23RemoteViewConfigurationV6encode10Foundation4DataVyKF
++ _$s14ShazamEventsUI23RemoteViewConfigurationV7ServiceV2id4nameAESS_AE4NameOtcfC
++ _$s14ShazamEventsUI23RemoteViewConfigurationV7ServiceV2idSSvg
++ _$s14ShazamEventsUI23RemoteViewConfigurationV7ServiceV4NameO11subServicesSayAGGvgZ
++ _$s14ShazamEventsUI23RemoteViewConfigurationV7ServiceV4NameO17promotionalAssetsyA2GmFWC
++ _$s14ShazamEventsUI23RemoteViewConfigurationV7ServiceV4NameO22eventPromotionalAssetsyA2GmFWC
++ _$s14ShazamEventsUI23RemoteViewConfigurationV7ServiceV4NameO5eventyA2GmFWC
++ _$s14ShazamEventsUI23RemoteViewConfigurationV7ServiceV4NameO5venueyA2GmFWC
++ _$s14ShazamEventsUI23RemoteViewConfigurationV7ServiceV4NameO6artistyA2GmFWC
++ _$s14ShazamEventsUI23RemoteViewConfigurationV7ServiceV4NameO8rawValueAGSgSS_tcfC
++ _$s14ShazamEventsUI23RemoteViewConfigurationV7ServiceV4NameO8rawValueSSvg
++ _$s14ShazamEventsUI23RemoteViewConfigurationV7ServiceV4NameOMa
++ _$s14ShazamEventsUI23RemoteViewConfigurationV7ServiceV4NameOMn
++ _$s14ShazamEventsUI23RemoteViewConfigurationV7ServiceV4NameOSQAAMc
++ _$s14ShazamEventsUI23RemoteViewConfigurationV7ServiceV4nameAE4NameOvg
++ _$s14ShazamEventsUI23RemoteViewConfigurationV7ServiceVMa
++ _$s14ShazamEventsUI23RemoteViewConfigurationV7ServiceVMn
++ _$s14ShazamEventsUI23RemoteViewConfigurationV7service10queryItems11description25sourceApplicationBundleID011viewModulesF0A2C7ServiceV_SayAC9QueryItemVGSSSgAnA0depF0VSgtcfC
++ _$s14ShazamEventsUI23RemoteViewConfigurationV7serviceAC7ServiceVvg
++ _$s14ShazamEventsUI23RemoteViewConfigurationV8settings3forAA0de7ModulesF0V14ModuleSettingsVSgAG4NameO_tF
++ _$s14ShazamEventsUI23RemoteViewConfigurationV9QueryItemV5valueSSvg
++ _$s14ShazamEventsUI23RemoteViewConfigurationV9QueryItemV9ParameterO10playlistIdyA2GmFWC
++ _$s14ShazamEventsUI23RemoteViewConfigurationV9QueryItemV9ParameterO5appIdyA2GmFWC
++ _$s14ShazamEventsUI23RemoteViewConfigurationV9QueryItemV9ParameterO7countryyA2GmFWC
++ _$s14ShazamEventsUI23RemoteViewConfigurationV9QueryItemV9ParameterO8rawValueAGSgSS_tcfC
++ _$s14ShazamEventsUI23RemoteViewConfigurationV9QueryItemV9ParameterOMa
++ _$s14ShazamEventsUI23RemoteViewConfigurationV9QueryItemV9ParameterOMn
++ _$s14ShazamEventsUI23RemoteViewConfigurationV9QueryItemV9ParameterOSQAAMc
++ _$s14ShazamEventsUI23RemoteViewConfigurationV9QueryItemV9parameter5valueA2E9ParameterO_SStcfC
++ _$s14ShazamEventsUI23RemoteViewConfigurationV9QueryItemV9parameterAE9ParameterOvg
++ _$s14ShazamEventsUI23RemoteViewConfigurationV9QueryItemVMa
++ _$s14ShazamEventsUI23RemoteViewConfigurationV9QueryItemVMn
++ _$s14ShazamEventsUI23RemoteViewConfigurationVMa
++ _$s14ShazamEventsUI23RemoteViewConfigurationVMn
++ _$s14ShazamEventsUI26CircularArtworkPlaceholderVMn
++ _$s14ShazamEventsUI30RemoteViewModulesConfigurationV14ModuleSettingsV10AppearanceO6hiddenyA2GmFWC
++ _$s14ShazamEventsUI30RemoteViewModulesConfigurationV14ModuleSettingsV10AppearanceO7compactyA2GmFWC
++ _$s14ShazamEventsUI30RemoteViewModulesConfigurationV14ModuleSettingsV10AppearanceO7defaultyA2GmFWC
++ _$s14ShazamEventsUI30RemoteViewModulesConfigurationV14ModuleSettingsV10AppearanceOMa
++ _$s14ShazamEventsUI30RemoteViewModulesConfigurationV14ModuleSettingsV10AppearanceOMn
++ _$s14ShazamEventsUI30RemoteViewModulesConfigurationV14ModuleSettingsV10AppearanceOSQAAMc
++ _$s14ShazamEventsUI30RemoteViewModulesConfigurationV14ModuleSettingsV10appearanceAE10AppearanceOvg
++ _$s14ShazamEventsUI30RemoteViewModulesConfigurationV14ModuleSettingsVMa
++ _$s14ShazamEventsUI30RemoteViewModulesConfigurationV14ModuleSettingsVMn
++ _$s14ShazamEventsUI30RemoteViewModulesConfigurationV17PresentationStyleO3appyA2EmFWC
++ _$s14ShazamEventsUI30RemoteViewModulesConfigurationV17PresentationStyleO5modalyA2EmFWC
++ _$s14ShazamEventsUI30RemoteViewModulesConfigurationV17PresentationStyleOMa
++ _$s14ShazamEventsUI30RemoteViewModulesConfigurationV17PresentationStyleOSQAAMc
++ _$s14ShazamEventsUI30RemoteViewModulesConfigurationV4NameO5musicyA2EmFWC
++ _$s14ShazamEventsUI30RemoteViewModulesConfigurationV4NameO7setlistyA2EmFWC
++ _$s14ShazamEventsUI30RemoteViewModulesConfigurationV4NameO8locationyA2EmFWC
++ _$s14ShazamEventsUI30RemoteViewModulesConfigurationV4NameO9playlistsyA2EmFWC
++ _$s14ShazamEventsUI30RemoteViewModulesConfigurationV4NameOMa
++ _$s14ShazamEventsUI30RemoteViewModulesConfigurationVMa
++ _$s14ShazamEventsUI30RemoteViewModulesConfigurationVMn
++ _$s14ShazamEventsUI34CircularArtworkGradientPlaceholderVMn
++ _$s21DeveloperToolsSupport13ColorResourceV4name6bundleACSS_So8NSBundleCtcfC
++ _$s21DeveloperToolsSupport13ColorResourceVMa
++ _$s21DeveloperToolsSupport13ImageResourceV4name6bundleACSS_So8NSBundleCtcfC
++ _$s21DeveloperToolsSupport13ImageResourceVMa
++ _$s7SwiftUI12TupleContentVMa
++ _$s7SwiftUI12TupleContentVMn
++ _$s7SwiftUI12TupleContentVyxxQp_QPGAA07ToolbarD0AARvzAaERzlMc
++ _$s7SwiftUI12TupleContentVyxxQp_QPGAA4ViewAARvzAaERzlMc
++ _$s7SwiftUI13PreferenceKeyP22_preferenceValuesEqualySb5ValueQz_AFtFZTq
++ _$s7SwiftUI13PreferenceKeyPAASQ5ValueRpzrlE22_preferenceValuesEqualySbAE_AEtFZ
++ _$s7SwiftUI17EnvironmentValuesV012ShazamEventsB0E23remoteViewConfigurationAD06RemotehI0Vvg
++ _$s7SwiftUI17EnvironmentValuesV012ShazamEventsB0E23remoteViewConfigurationAD06RemotehI0VvpMV
++ _$s7SwiftUI17EnvironmentValuesV012ShazamEventsB0E23remoteViewConfigurationAD06RemotehI0Vvs
++ _$s7SwiftUI17VerticalAlignmentV17firstTextBaselineACvgZ
++ _$s7SwiftUI20SearchFieldPlacementV19navigationBarDrawer11displayModeA2C010Navigationgh7DisplayJ0V_tFZ
++ _$s7SwiftUI20SearchFieldPlacementV30NavigationBarDrawerDisplayModeV9automaticAEvgZ
++ _$s7SwiftUI20SearchFieldPlacementV30NavigationBarDrawerDisplayModeVMa
++ _$s7SwiftUI4FontV6DesignOMa
++ _$s7SwiftUI4FontV6DesignOMn
++ _$s7SwiftUI4FontV6WeightV6mediumAEvgZ
++ _$s7SwiftUI4FontV6system4size6weight6designAC12CoreGraphics7CGFloatV_AC6WeightVSgAC6DesignOSgtFZ
++ _$s7SwiftUI4LinkVyxGAA4ViewAAMc
++ _$s7SwiftUI4ViewPAAE10searchable4text9placement6promptQrAA7BindingVySSG_AA20SearchFieldPlacementVAA18LocalizedStringKeyVtF
++ _$s7SwiftUI4ViewPAAE10searchable4text9placement6promptQrAA7BindingVySSG_AA20SearchFieldPlacementVAA18LocalizedStringKeyVtFQOMQ
++ _$s7SwiftUI4ViewPAAE11glassEffect_2inQrAA5GlassV_qd__tAA5ShapeRd__lF
++ _$s7SwiftUI4ViewPAAE11glassEffect_2inQrAA5GlassV_qd__tAA5ShapeRd__lFQOMQ
++ _$s7SwiftUI5ColorV6indigoACvgZ
++ _$s7SwiftUI5ColorVyAC21DeveloperToolsSupport0C8ResourceVcfC
++ _$s7SwiftUI5GlassV7regularACvgZ
++ _$s7SwiftUI5GlassVMa
++ _$s7SwiftUI5ImageVyAC21DeveloperToolsSupport0C8ResourceVcfC
++ _$s7SwiftUI6CircleVAA5ShapeAAMc
++ _$s7SwiftUI7CapsuleVMa
++ _$s7SwiftUI7ForEachVAA7Element_2IDQZRs_s12IdentifiableADRpzrlE6create_7contentACyxq_q0_Gx_q0_AHctFZ
++ _$s7SwiftUI7ForEachVAAE6create_2id7contentACyxq_q0_Gx_s7KeyPathCy7ElementQzq_Gq0_AKctFZ
++ _$s7SwiftUI7SectionV6create10isExpanded7content6header6footerACyxq_q0_GAA7BindingVySbGSg_q_xq0_tFZ
++ _$s7SwiftUI9LazyStateV12wrappedValueACyxGxyXA_tcfC
++ _$s7SwiftUI9LazyStateV12wrappedValuexvg
++ _$s7SwiftUI9LazyStateV12wrappedValuexvs
++ _$s7SwiftUI9LazyStateV14projectedValueAA7BindingVyxGvg
++ _$s7SwiftUI9LazyStateV7StorageO5valueyAEyx_GxcAGmlFWC
++ _$s7SwiftUI9LazyStateV7StorageOMn
++ _$s7SwiftUI9LazyStateVMa
++ _$s7SwiftUI9LazyStateVMn
++ _$s8IteratorSTTl
++ _$s8MusicKit0A22CatalogResourceRequestV8matching8memberOfACyxGs7KeyPathCy10FilterTypeAA010FilterableA4ItemPQzqd__G_Sayqd__GtcAaJRzlufC
++ _$s8MusicKit5AlbumV10artistNameSSvg
++ _$sSNyxGSQsMc
++ _$sSS21_builtinStringLiteral17utf8CodeUnitCount7isASCIISSBp_BwBi1_tcfC
++ _$sST22_copyToContiguousArrays0cD0Vy7ElementQzGyFTj
++ _$sST8IteratorST_StTn
++ _$sSTsE5first5where7ElementQzSgSbADKXE_tKF
++ _$sScC12continuation8functionScCyxq_GSccyxq_G_SStcfC
++ _$sSo20NSNotificationCenterC10FoundationE9PublisherV7CombineAdCMc
++ _$sSo20NSNotificationCenterC10FoundationE9PublisherVMa
++ _$sSo20NSNotificationCenterC10FoundationE9PublisherVMn
++ _$sSo20NSNotificationCenterC10FoundationE9publisher3for6objectAbCE9PublisherVSo0A4Namea_yXlSgtF
++ _$sSo8NSObjectC10FoundationE26KeyValueObservingPublisherVMn
++ _$sSo8NSObjectC10FoundationE26KeyValueObservingPublisherVy_xq_G7Combine0F0ACMc
++ _$sSt4next7ElementQzSgyFTj
++ _$sSy10FoundationE32localizedCaseInsensitiveContainsySbqd__SyRd__lF
++ _$ss13ManagedBufferCMo
++ _$ss26DefaultStringInterpolationV06appendC0yyxlF
++ _AVPlayerItemDidPlayToEndTimeNotification
++ _OBJC_CLASS_$_SHCampaignTokens
++ _OBJC_CLASS_$_SHDefaultConfigurationValues
++ __swift_FORCE_LOAD_$_swiftMetalKit
++ __swift_FORCE_LOAD_$_swiftModelIO
++ _swift_release_x1
++ _swift_release_x12
++ _swift_release_x19
++ _swift_release_x20
++ _swift_release_x21
++ _swift_release_x22
++ _swift_release_x23
++ _swift_release_x24
++ _swift_release_x25
++ _swift_release_x26
++ _swift_release_x27
++ _swift_release_x28
++ _swift_release_x8
++ _swift_release_x9
++ _swift_retain_x1
++ _swift_retain_x19
++ _swift_retain_x2
++ _swift_retain_x20
++ _swift_retain_x21
++ _swift_retain_x22
++ _swift_retain_x23
++ _swift_retain_x24
++ _swift_retain_x25
++ _swift_retain_x26
++ _swift_retain_x27
++ _swift_retain_x28
++ _swift_retain_x8
++ _swift_retain_x9
++ _swift_task_reportUnexpectedExecutor
+- _$s10Foundation11JSONDecoderC6decode_4fromxxm_AA4DataVtKSeRzlFTj
+- _$s10Foundation11JSONDecoderCACycfc
+- _$s10Foundation11JSONDecoderCMa
+- _$s10Foundation11JSONEncoderC6encodeyAA4DataVxKSERzlFTj
+- _$s10Foundation11JSONEncoderCACycfc
+- _$s10Foundation11JSONEncoderCMa
+- _$s10Foundation16AttributedStringV22MarkdownParsingOptionsV13FailurePolicyO10throwErroryA2GmFWC
+- _$s10Foundation16AttributedStringV22MarkdownParsingOptionsV13FailurePolicyOMa
+- _$s10Foundation16AttributedStringV22MarkdownParsingOptionsV17InterpretedSyntaxO4fullyA2GmFWC
+- _$s10Foundation16AttributedStringV22MarkdownParsingOptionsV17InterpretedSyntaxOMa
+- _$s10Foundation16AttributedStringV22MarkdownParsingOptionsV24allowsExtendedAttributes17interpretedSyntax13failurePolicy12languageCodeAESb_AE011InterpretedK0OAE07FailureM0OSSSgtcfC
+- _$s10Foundation16AttributedStringV22MarkdownParsingOptionsVMa
+- _$s10Foundation16AttributedStringV8markdown7options7baseURLACSS_AC22MarkdownParsingOptionsVAA0G0VSgtKcfC
+- _$s10Foundation19PropertyListDecoderC6decode_4fromxxm_AA4DataVtKSeRzlFTj
+- _$s10Foundation19PropertyListDecoderCACycfc
+- _$s10Foundation19PropertyListDecoderCMa
+- _$s10Foundation4DataV36_unconditionallyBridgeFromObjectiveCyACSo6NSDataCSgFZ
+- _$s12ShazamEvents12EventServiceV10invalidateyyF
+- _$s12ShazamEvents5MusicV6LineupV10headlinersSayxGvg
+- _$s12ShazamEvents5SportV6LeagueV13eventSchedule7serviceSayACGAA12EventServiceV_tYaKF
+- _$s12ShazamEvents5SportV6LeagueV13eventSchedule7serviceSayACGAA12EventServiceV_tYaKFTu
+- _$s25ObjectWillChangePublisher7Combine010ObservableA0PTl
+- _$s2os0A4_log_3dso0B0__ySo0a1_B7_type_ta_SVSo03OS_a1_B0Cs12StaticStringVs7CVarArg_pdtF
+- _$s7Combine16ObservableObjectMp
+- _$s7Combine16ObservableObjectP0C19WillChangePublisherAC_AA0F0Tn
+- _$s7Combine16ObservableObjectP16objectWillChange0ceF9PublisherQzvgTq
+- _$s7Combine16ObservableObjectP7SwiftUIE16environmentStores15WritableKeyPathCyAD17EnvironmentValuesVxSgGvgZ
+- _$s7Combine16ObservableObjectPA2A0bC9PublisherC0c10WillChangeD0RtzrlE06objecteF0AEvg
+- _$s7Combine25ObservableObjectPublisherCAA0D0AAWP
+- _$s7Combine25ObservableObjectPublisherCMn
+- _$s7Combine9PublishedV12initialValueACyxGx_tcfC
+- _$s7Combine9PublishedV18_enclosingInstance7wrapped7storagexqd___s24ReferenceWritableKeyPathCyqd__xGAHyqd__ACyxGGtcRld__CluiMZ
+- _$s7Combine9PublishedV18_enclosingInstance7wrapped7storagexqd___s24ReferenceWritableKeyPathCyqd__xGAHyqd__ACyxGGtcRld__CluigZ
+- _$s7Combine9PublishedV18_enclosingInstance7wrapped7storagexqd___s24ReferenceWritableKeyPathCyqd__xGAHyqd__ACyxGGtcRld__CluisZ
+- _$s7Combine9PublishedVMa
+- _$s7Combine9PublishedVMn
+- _$s7SwiftUI11AnyLocationCMn
+- _$s7SwiftUI11ShadowStyleV5inner5color6radius1x1yAcA5ColorV_12CoreGraphics7CGFloatVA2MtFZ
+- _$s7SwiftUI11StateObjectV12wrappedValueACyxGxyXA_tcfC
+- _$s7SwiftUI11StateObjectV12wrappedValuexvg
+- _$s7SwiftUI11StateObjectV14projectedValueAA08ObservedD0V7WrapperVyx_Gvg
+- _$s7SwiftUI11StateObjectVMa
+- _$s7SwiftUI11StateObjectVMn
+- _$s7SwiftUI11_MaskEffectVyxGAA12ViewModifierAAMc
+- _$s7SwiftUI13OpenURLActionV6ResultV12systemActionAEvgZ
+- _$s7SwiftUI13OpenURLActionV7handlerA2C6ResultV10Foundation3URLVc_tcfC
+- _$s7SwiftUI14ObservedObjectV7WrapperV13dynamicMemberAA7BindingVyqd__Gs24ReferenceWritableKeyPathCyxqd__G_tcluig
+- _$s7SwiftUI17EnvironmentObjectV5errors5NeverOyF
+- _$s7SwiftUI17EnvironmentObjectVACyxGycfC
+- _$s7SwiftUI17EnvironmentObjectVMa
+- _$s7SwiftUI17EnvironmentObjectVMn
+- _$s7SwiftUI17_ShadowShapeStyleVMn
+- _$s7SwiftUI19TupleToolbarContentVMn
+- _$s7SwiftUI19TupleToolbarContentVyACyxGxcfC
+- _$s7SwiftUI19TupleToolbarContentVyxGAA0dE0AAMc
+- _$s7SwiftUI19_ConditionalContentVA2A4ViewRzAaDR_rlE7storageACyxq_GAC7StorageOyxq__G_tcfC
+- _$s7SwiftUI21ToolbarContentBuilderV10buildBlockyQrxAA0cD0RzlFZ
+- _$s7SwiftUI21ToolbarContentBuilderV10buildBlockyQrxAA0cD0RzlFZQOMQ
+- _$s7SwiftUI21ToolbarContentBuilderV11buildEither5firstAA012_ConditionalD0Vyxq_Gx_tAA0cD0RzAaIR_r0_lFZ
+- _$s7SwiftUI21ToolbarContentBuilderV11buildEither6secondAA012_ConditionalD0Vyxq_Gq__tAA0cD0RzAaIR_r0_lFZ
+- _$s7SwiftUI21ToolbarContentBuilderV7buildIfyxSgAeA0cD0RzlFZ
+- _$s7SwiftUI5GroupVA2A4ViewRzlE7contentACyxGxyXE_tcfC
+- _$s7SwiftUI5ImageV13renderingModeyA2C017TemplateRenderingE0OSgF
+- _$s7SwiftUI5ImageV21TemplateRenderingModeO8originalyA2EmFWC
+- _$s7SwiftUI5ImageV21TemplateRenderingModeOMa
+- _$s7SwiftUI5ImageV21TemplateRenderingModeOMn
+- _$s7SwiftUI5StateV12wrappedValueACyxGx_tcfC
+- _$s7SwiftUI6CircleVAA4ViewAAMc
+- _$s7SwiftUI6IDViewVyxq_GAA4ViewAAMc
+- _$s7SwiftUI7ForEachVA2A4ViewR0_rlE_2id7contentACyxq_q0_Gx_s7KeyPathCy7ElementQzq_Gq0_AKctcfC
+- _$s7SwiftUI7ForEachVAA7Element_2IDQZRs_AA4ViewR0_s12IdentifiableADRpzrlE_7contentACyxq_q0_Gx_q0_AIctcfC
+- _$s7SwiftUI7SectionVA2A4ViewRzAaDR_AA05EmptyD0VRs0_rlE6header7contentACyxq_AFGx_q_yXEtcfC
+- _$s7SwiftUI7SectionVA2A4ViewRzAaDR_AaDR0_rlE6header6footer7contentACyxq_q0_Gx_q0_q_yXEtcfC
+- _$s7SwiftUI7SectionVA2A9EmptyViewVRszAA0E0R_AERs0_rlE7contentACyAEq_AEGq_yXE_tcfC
+- _$s7SwiftUI9TupleViewVMa
+- _$s7SwiftUI9TupleViewVMn
+- _$s7SwiftUI9TupleViewVyACyxGxcfC
+- _$s7SwiftUI9TupleViewVyxGAA0D0AAMc
+- _$sSD10ShazamCoreE7mapKeysySDyqd__q_Gqd__xKXEKSHRd__lF
+- _$sSDyxq_GSEsSERzSER_rlMc
+- _$sSDyxq_GSesSeRzSeR_rlMc
+- _$sSE6encode2toys7Encoder_p_tKFTq
+- _$sSEMp
+- _$sSSSEsWP
+- _$sSSSesWP
+- _$sSYsSERzSS8RawValueSYRtzrlE6encode2toys7Encoder_p_tKF
+- _$sSYsSeRzSS8RawValueSYRtzrlE4fromxs7Decoder_p_tKcfC
+- _$sSayxGSEsSERzlMc
+- _$sSayxGSesSeRzlMc
+- _$sSe4fromxs7Decoder_p_tKcfCTq
+- _$sSeMp
+- _$ss13DecodingErrorO13valueNotFoundyABypXp_AB7ContextVtcABmFWC
+- _$ss13DecodingErrorO7ContextV10codingPath16debugDescription010underlyingB0ADSays9CodingKey_pG_SSs0B0_pSgtcfC
+- _$ss13DecodingErrorO7ContextVMa
+- _$ss13DecodingErrorO7ContextVMn
+- _$ss13DecodingErrorOMa
+- _$ss13DecodingErrorOs0B0sWP
+- _$ss14_ArrayProtocolPsE6filterySay7ElementQzGSbAEKXEKF
+- _$ss22KeyedDecodingContainerV15decodeIfPresent_6forKeySSSgSSm_xtKF
+- _$ss22KeyedDecodingContainerV15decodeIfPresent_6forKeyqd__Sgqd__m_xtKSeRd__lF
+- _$ss22KeyedDecodingContainerV6decode_6forKeyS2Sm_xtKF
+- _$ss22KeyedDecodingContainerV6decode_6forKeyqd__qd__m_xtKSeRd__lF
+- _$ss22KeyedDecodingContainerVMn
+- _$ss22KeyedEncodingContainerV15encodeIfPresent_6forKeyySSSg_xtKF
+- _$ss22KeyedEncodingContainerV15encodeIfPresent_6forKeyyqd__Sg_xtKSERd__lF
+- _$ss22KeyedEncodingContainerV6encode_6forKeyySS_xtKF
+- _$ss22KeyedEncodingContainerV6encode_6forKeyyqd___xtKSERd__lF
+- _$ss22KeyedEncodingContainerVMn
+- _$ss28CustomDebugStringConvertibleMp
+- _$ss28CustomDebugStringConvertibleP16debugDescriptionSSvgTq
+- _$ss31withCheckedThrowingContinuation9isolation8function_xScA_pSgYi_SSyScCyxs5Error_pGXEtYaKlF
+- _$ss31withCheckedThrowingContinuation9isolation8function_xScA_pSgYi_SSyScCyxs5Error_pGXEtYaKlFTu
+- _$ss7DecoderP9container7keyedBys22KeyedDecodingContainerVyqd__Gqd__m_tKs9CodingKeyRd__lFTj
+- _$ss7EncoderP9container7keyedBys22KeyedEncodingContainerVyqd__Gqd__m_ts9CodingKeyRd__lFTj
+- _$ss9CodingKeyMp
+- _$ss9CodingKeyP11stringValueSSvgTq
+- _$ss9CodingKeyP11stringValuexSgSS_tcfCTq
+- _$ss9CodingKeyP8intValueSiSgvgTq
+- _$ss9CodingKeyP8intValuexSgSi_tcfCTq
+- _$ss9CodingKeyPs23CustomStringConvertibleTb
+- _$ss9CodingKeyPs28CustomDebugStringConvertibleTb
+- _$ss9CodingKeyPsE11descriptionSSvg
+- _$ss9CodingKeyPsE16debugDescriptionSSvg
+- _CGColorCreateGenericRGB
+- _OBJC_CLASS_$_NSPropertyListSerialization
+- __swift_FORCE_LOAD_$_swiftCoreMedia
+- __swift_FORCE_LOAD_$_swiftMapKit
+- __swift_FORCE_LOAD_$_swiftVideoToolbox
+- _objc_retain_x1
+- _swift_continuation_throwingResume
+- _swift_continuation_throwingResumeWithError
+CStrings:
++ "Accessing Environment<%s>'s value outside of being installed on a View. This will always read the default value and will not update."
++ "Authorization error fetching playlists. IDs: %s"
++ "ContentSizeCategory"
++ "Error fetching playlists. IDs: %s. Error: %@"
++ "Error-View-Retry-Button"
++ "Event-List-Item-Festival-Badge"
++ "EventViewService/AlbumModule.swift"
++ "EventViewService/AppDelegate.swift"
++ "EventViewService/AppModule.swift"
++ "EventViewService/AppViewModel.swift"
++ "EventViewService/ArtistEventListHeader.swift"
++ "EventViewService/ArtistEventRow.swift"
++ "EventViewService/ArtistEventViewModel.swift"
++ "EventViewService/CalendarIcon.swift"
++ "EventViewService/CircularProgressViewStyle.swift"
++ "EventViewService/ConcertEventView.swift"
++ "EventViewService/ConcertEventViewModel.swift"
++ "EventViewService/DesignTimeAppleMusicFetcher.swift"
++ "EventViewService/DetailsModule.swift"
++ "EventViewService/ErrorView.swift"
++ "EventViewService/EventRootView.swift"
++ "EventViewService/FestivalEventView.swift"
++ "EventViewService/FestivalEventViewModel.swift"
++ "EventViewService/FilterView.swift"
++ "EventViewService/FilterViewModel.swift"
++ "EventViewService/HeaderViewModel.swift"
++ "EventViewService/HeroImageView.swift"
++ "EventViewService/LineupModule.swift"
++ "EventViewService/LineupView.swift"
++ "EventViewService/LineupViewModel.swift"
++ "EventViewService/LoadingView.swift"
++ "EventViewService/LocationManager.swift"
++ "EventViewService/LocationModule.swift"
++ "EventViewService/MapKitRequester.swift"
++ "EventViewService/MapSnapshotImage.swift"
++ "EventViewService/MusicCollectionCard.swift"
++ "EventViewService/NavigationButton.swift"
++ "EventViewService/PageControl.swift"
++ "EventViewService/PhoneWallpaperView.swift"
++ "EventViewService/PhoneWallpapersWatchFacesSharedViews.swift"
++ "EventViewService/PhoneWallpapersWatchFacesView.swift"
++ "EventViewService/PlayButtonView.swift"
++ "EventViewService/PlaybackView.swift"
++ "EventViewService/PlaylistModule.swift"
++ "EventViewService/PromotionalAssetsEntryView.swift"
++ "EventViewService/PromotionalAssetsView.swift"
++ "EventViewService/PromotionalAssetsViewModel.swift"
++ "EventViewService/PromotionalPlaylistModule.swift"
++ "EventViewService/PromotionalPlaylistViewModel.swift"
++ "EventViewService/RemoteHostingController.swift"
++ "EventViewService/RemoteViewController.swift"
++ "EventViewService/SafeAreaModifier.swift"
++ "EventViewService/SavedWallpaperView.swift"
++ "EventViewService/ScrollableTab.swift"
++ "EventViewService/ScrollableTabViewModel.swift"
++ "EventViewService/SearchBar.swift"
++ "EventViewService/ServicesUpsellModule.swift"
++ "EventViewService/SetlistLoadingView.swift"
++ "EventViewService/SetlistSongRowView.swift"
++ "EventViewService/ShareButton.swift"
++ "EventViewService/SizeModifier.swift"
++ "EventViewService/SongRow.swift"
++ "EventViewService/SportEventViewModel.swift"
++ "EventViewService/TicketView.swift"
++ "EventViewService/TicketViewModel.swift"
++ "EventViewService/TourPhotosDefaultView.swift"
++ "EventViewService/TourPhotosTitleView.swift"
++ "EventViewService/TourPhotosView.swift"
++ "EventViewService/UpcomingModule.swift"
++ "EventViewService/VenueEventContentView.swift"
++ "EventViewService/VenueEventListHeader.swift"
++ "EventViewService/VenueEventRow.swift"
++ "EventViewService/VenueEventView.swift"
++ "EventViewService/VenueEventViewModel.swift"
++ "EventViewService/View.swift"
++ "EventViewService/WatchFacesView.swift"
++ "Failed to fetch complete lineup: %@"
++ "Failed to fetch event playlists. IDs: %s, error: %@"
++ "Featured-Albums-Module-Button"
++ "Featured-Albums-Module-ScrollView"
++ "Featured-Albums-Module-Title"
++ "Fetching fallback playlist. ID: %s"
++ "Lineup-Module-Header-Title"
++ "Lineup-Module-Performer"
++ "Lineup-Module-Performer-Name"
++ "Lineup-Module-Show-All-Button"
++ "Lineup-Sheet-Performer-Row"
++ "Lineup-Sheet-View"
++ "Music-Collection-Card-Artwork"
++ "Music-Collection-Card-Subtitle"
++ "Music-Collection-Card-Title"
++ "No matching remote hosting view controller"
++ "Optional<UserInterfaceSizeClass>"
++ "RemoteViewConfiguration"
++ "SHAZAM_VIEW_SERVICE_ACCESSIBILITY_FESTIVAL_HEADER_IMAGE_TITLE"
++ "SHAZAM_VIEW_SERVICE_ACCESSIBILITY_LINEUP_SHOW_ALL"
++ "SHAZAM_VIEW_SERVICE_BONUS_CONTENT_FESTIVAL_HEADER_TITLE"
++ "SHAZAM_VIEW_SERVICE_CONCERT_LINEUP_SUBTITLE_WITH %@"
++ "SHAZAM_VIEW_SERVICE_CONCERT_LINEUP_SUBTITLE_WITH_AND_OTHERS %@"
++ "SHAZAM_VIEW_SERVICE_ERROR_NOT_AVAILABLE_BUTTON"
++ "SHAZAM_VIEW_SERVICE_ERROR_NOT_AVAILABLE_SUBTITLE"
++ "SHAZAM_VIEW_SERVICE_ERROR_NOT_AVAILABLE_TITLE"
++ "SHAZAM_VIEW_SERVICE_EVENT_ATTRIBUTION_TITLE_PREFIX"
++ "SHAZAM_VIEW_SERVICE_LINEUP_ATTRIBUTION_PREFIX"
++ "SHAZAM_VIEW_SERVICE_LINEUP_EMPTY_SEARCH_TEXT"
++ "SHAZAM_VIEW_SERVICE_LINEUP_HEADER"
++ "SHAZAM_VIEW_SERVICE_LINEUP_SEARCH_PLACEHOLDER"
++ "SHAZAM_VIEW_SERVICE_PROMOTIONAL_ASSETS_SUBLINE_FESTIVAL"
++ "SHAZAM_VIEW_SERVICE_SETLIST_PLAYLIST_LABEL"
++ "SHAZAM_VIEW_SERVICE_TICKET_ATTRIBUTION_TITLE_PREFIX"
++ "_allMembers"
++ "_createCheckedThrowingContinuation(_:)"
++ "_didPlayToEndCancellable"
++ "_eventFeaturedPlaylists"
++ "_isLineupViewPresented"
++ "_rateCancellable"
++ "_selectedArtist"
++ "_selectedLineupArtist"
++ "accessibilitySeparatorFormat"
++ "adamID"
++ "albumModule"
++ "applicationIsInstalled:"
++ "concertEventHeroImageLeadingColor"
++ "concertEventHeroImageTrailingColor"
++ "defaultHeroImageBackgroundGradient"
++ "defaultHeroImageName"
++ "errorViewImageSymbolColor"
++ "event-concert"
++ "event-festival"
++ "exclamationmark.circle.fill"
++ "festivalBadgeIcon"
++ "festivalEventHeroImageTrailingColor"
++ "festivalPlaceholder"
++ "heroImageBackgroundGradient"
++ "initialConfiguration"
++ "isFestival"
++ "lineup"
++ "lineupModule"
++ "lineupSubtitleWithAndMoreFormat"
++ "lineupSubtitleWithFormat"
++ "lineupViewModel"
++ "openAlbumInMusic"
++ "playlistFetcher"
++ "playlistLabel"
++ "separatorFormat"
++ "setAllDay:"
++ "setRate:"
++ "systemIndigoColor"
+- "AVPlayerItemDidPlayToEndTimeNotification"
+- "Accessing Environment's value outside of being installed on a View. This will always read the default value and will not update."
+- "Albums-to-Show-Module-Button"
+- "AppIDAttributionException"
+- "Artist-Page-Header-Placeholder-Image"
+- "Artist-PageHeader-Image"
+- "Attribution-Module-Text"
+- "Empty or invalid view module configuration for ID: %s. Error: %s"
+- "Error fetching allow list for %s %s"
+- "Essential playlist from Lady Gaga"
+- "Event-Page-Entertainment-Hero-Image"
+- "Event-Page-Header-Past-Event-Badge"
+- "EventViewService/MusicEventView.swift"
+- "Featured-Playlists-Module-Button-Artwork"
+- "Featured-Playlists-Module-Button-Subtitle"
+- "Featured-Playlists-Module-Button-Title"
+- "Fetching fallback promotional playlist. ID: %s"
+- "Lady Gaga Essentials"
+- "SHAZAM_VIEW_SERVICE_ATTRIBUTION_TITLE_LINK_PREFIX"
+- "SHAZAM_VIEW_SERVICE_ATTRIBUTION_TITLE_PREFIX"
+- "SHAZAM_VIEW_SERVICE_SETLIST_HEADER"
+- "The Fame Monster"
+- "URLForResource:withExtension:"
+- "Unexpected module name: "
+- "UniversalLinkException"
+- "ViewModulesException"
+- "_TtC16EventViewService23RemoteViewConfiguration"
+- "_TtC16EventViewServiceP33_5445445A7553E6A0FDE4F6AA485860F723PlaybackProgressUpdater"
+- "_configuration"
+- "_musicPromotionalPlaylist"
+- "_progress"
+- "_showPastEventBadge"
+- "addObserver:selector:name:object:"
+- "appId"
+- "artistName"
+- "calendar"
+- "com.apple.EventViewService.remote"
+- "com.apple.ShazamEventsApp"
+- "com.apple.private.shazamkit.exception.app-id"
+- "com.apple.private.shazamkit.exception.routing"
+- "com.apple.private.shazamkit.exception.view-modules"
+- "compact"
+- "country"
+- "dataWithPropertyList:format:options:error:"
+- "default"
+- "event-music"
+- "eventpromotionalassets"
+- "expanded"
+- "hidden"
+- "https://is2-ssl.mzstatic.com/image/thumb/Features125/v4/aa/64/c1/aa64c19b-b273-76ee-f785-05ee22555de4/pr_source.png/600x338AH.SEMA01.png"
+- "https://music.apple.com/artistID"
+- "modal"
+- "modules"
+- "music"
+- "musicEventHeroImageLeadingColor"
+- "musicEventHeroImageTrailingColor"
+- "pastEventTitle"
+- "playerDidFinishPlaying"
+- "playlistId"
+- "playlists"
+- "presentationStyle"
+- "promotionalPlaylistFetcher"
+- "promotionalassets"
+- "propertyListWithData:options:format:error:"
+- "queryItems"
+- "remoteConfiguration"
+- "removeObserver:forKeyPath:"
+- "service"
+- "setlist"
+- "sourceApplicationBundleID"
+- "upcoming"
+- "viewModulesConfiguration"
+
+```

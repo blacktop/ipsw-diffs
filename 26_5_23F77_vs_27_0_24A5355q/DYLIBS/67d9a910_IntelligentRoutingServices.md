@@ -1,0 +1,161 @@
+## IntelligentRoutingServices
+
+> `/System/Library/PrivateFrameworks/IntelligentRoutingServices.framework/IntelligentRoutingServices`
+
+```diff
+
+-124.0.1.0.0
+-  __TEXT.__text: 0x6088 sha256:f64c0de358671fd05bb3a79a394175b95cfa9f6094a8953f290f685227449f60
+-  __TEXT.__auth_stubs: 0x4e0 sha256:7564738b08366d331ea4e104af4c19b6213a50f2d97be091beb5fa88dfdf76d7
+-  __TEXT.__const: 0x330 sha256:462fcceef64887dfa8e1f8d61785cc11778de99b143bed83f3d842d7e53ff4c9
+-  __TEXT.__swift5_typeref: 0x161 sha256:19d758a530b429736147439013091ec1fac67d17fd2e1bfc5c850cc038da7994
+-  __TEXT.__swift5_capture: 0xac sha256:2ffc68523b2968f36792d87598c8aec18a997e32ead1c58fbbfacb67ff105a42
++125.0.6.0.0
++  __TEXT.__text: 0x6438 sha256:e92239180d4df824023b3ec39c84fef9e7c10fc38519285352ff7001e82e1ef7
++  __TEXT.__const: 0x3c0 sha256:9d9abc86488558892f38386c9625b2f53a6dd5c178469bea898c08ea1e50bad4
++  __TEXT.__swift5_typeref: 0x1d1 sha256:67c5ab3ec4f0afbffb7aafbcfd450fbf7c291dd4ad0c5691d94ea6010ad40125
++  __TEXT.__swift5_capture: 0x9c sha256:f8714dbfa5478b27a1e41d7a31a67984da9768d26bebd6d543b13720be81b440
+   __TEXT.__cstring: 0x45 sha256:8648d18d722ca616bdcc0b59c318952b7b50664d6fbddda7562c6a58954d1bf5
+-  __TEXT.__constg_swiftt: 0x19c sha256:24f4685115fa32a7c03ac63f2de23811f9f903f50a52ecca68881ac68d630f51
+-  __TEXT.__swift5_reflstr: 0x57b sha256:ddac08580ca4470646cbdef9d8be08369b0896cb162c4e778c2ed4caba40788d
+-  __TEXT.__swift5_fieldmd: 0x334 sha256:483d092075dcb2acd7d3276003d24c4ca1bf900942bd14e0d32e61c1a7a63c6d
+-  __TEXT.__swift5_builtin: 0x14 sha256:0bd2b23b2549f8740dbef49819ac685acc672b02dc69c572a26462ce611294fd
+-  __TEXT.__swift5_types: 0x1c sha256:f1fab891719c01d72d894283beae9b0a7e128637c95a00b8e4d2a193f4d33685
+-  __TEXT.__swift_as_entry: 0x1c sha256:35731673b013c4511165b6f7caf3b712cb92779e79a50d81d495791da5952345
+-  __TEXT.__swift_as_ret: 0x20 sha256:1c83ac3ae43fd229e09ccc1f6ec320c6f94da7dccabbf81274664976d92cda61
++  __TEXT.__constg_swiftt: 0x1dc sha256:0657cf4b4291cb51438460397f91ccf5a6f7fbf680a0148a821e8ebf98478b40
++  __TEXT.__swift5_reflstr: 0x5dd sha256:e63557f5e7ed87b46b1e594bb73fc5eca778ae05c9e7709b2416d564efa137d2
++  __TEXT.__swift5_fieldmd: 0x378 sha256:85054aa1150795d4ae0337964f63e984fea0f733a234e865832991cd07508317
++  __TEXT.__swift5_builtin: 0x14 sha256:4751fd17d3ca863c0edd20dbda9e5312209f51129dc6a8dc69bac1cdf168e3c7
++  __TEXT.__swift5_types: 0x1c sha256:349541d75841632f612985085a277b7e994f28cc56057f879e8caf011c8c969d
++  __TEXT.__swift_as_entry: 0x24 sha256:3055a3fff5623ceeb449f9169a9353bd806285f42676b61ec1047ab3a07fd37c
++  __TEXT.__swift_as_ret: 0x28 sha256:ebc551f20bc27f80d2b226c68fdafcc874a484e82a178f175b05e6f49a7ee8b9
++  __TEXT.__swift_as_cont: 0x24 sha256:33343067240ae3bd07ae83da7430cbf58862857ecc86c4013c4d2b1c511107a0
++  __TEXT.__swift5_protos: 0x8 sha256:1d4fa83485af261072b384bb3e7e3ff78fca288cadb6af5cb73314f9eed3c4b0
++  __TEXT.__swift5_proto: 0x18 sha256:8970997a7984a3c6ac1db6a917d700a0ea39a795fe9de77ac1d04464ee275243
+   __TEXT.__oslogstring: 0x24 sha256:3ac4e93fa08b0ebd832c04b167f9124b5ba6345f56784eae672b53df8a25b77e
+-  __TEXT.__swift5_proto: 0x8 sha256:f31f59695cbbf7ae81e42b8bd92d8d75eea3b3e7e14ea7a0efcd7de9fa7bf5e4
+-  __TEXT.__unwind_info: 0x238 sha256:9d650d086b612355f7b6c30027406bdfd944b623ca4bb51b794a17cb8d244459
+-  __TEXT.__eh_frame: 0x2f0 sha256:bdf80b708d5f3f6f8047849753c7bb3c4aeda381ef5856e45c06341967f6f5c1
+-  __DATA_CONST.__got: 0x68 sha256:39f37f8d1931b3bdf767e7510dd69509fbf23af1f7654933d0a4d291cbdd4418
++  __TEXT.__unwind_info: 0x238 sha256:7eee94e8ce1894c968d48c93a615af4d6ac8d3ec3fb5ee92b85f429fa7040c1b
++  __TEXT.__eh_frame: 0x318 sha256:85be4addd2784e66a99af322b15bf61dd9781e41dcfc3abda857d14836e7d0eb
++  __TEXT.__auth_stubs: 0x0
+   __DATA_CONST.__const: 0x38 sha256:d4817aa5497628e7c77e6b606107042bbba3130888c5f47a375e6179be789fbb
+-  __DATA_CONST.__objc_imageinfo: 0x8 sha256:8c2e86a3d61473a17440ee60441113a7d285704a3b70278f03e88b3c356a5493
+-  __AUTH_CONST.__auth_got: 0x270 sha256:afc249b32e5549092c980b1995ea5401e73af3fcda168c1da9ae1bdbfce0d447
+-  __AUTH_CONST.__const: 0x4e8 sha256:5fdda24a9eaf5ad57c32970fabab9fce6d3e85975451f67fca4da06be9aa72ab
++  __DATA_CONST.__objc_imageinfo: 0x8 sha256:ce857dcadc2529f941104469975d60698ea3610a86c121e7b4aee224cd0c59ea
++  __DATA_CONST.__got: 0x0
++  __AUTH_CONST.__const: 0x4e8 sha256:379112b60c123ece0d8a8af7ef1378c0b34e452569123ec0c5ca6d0b55791f0d
++  __AUTH_CONST.__auth_got: 0x2c8 sha256:283de789c3f9ae6115e627ecb921b7b39bdaa1b82289eca5e60da0b76d07a502
+   __DATA.__data: 0x1c0 sha256:5c55c8f4db4010ba9203d83536d0609856af8c847ac039e37e7dde8fbd574b61
+   __DATA.__bss: 0x100 sha256:5341e6b2646979a70e57653007a1f310169421ec9bdd9f1a5648f75ade005af1
+-  __DATA_DIRTY.__data: 0xd0 sha256:ba14d206b91de0c1a6d290dab17dababb231e129c6caf26d3e81d92fadafb4df
++  __DATA_DIRTY.__data: 0xd0 sha256:2c3cbd2219f4cc59ab86d92c64f1b1502597d82919131eea4ab0d95f230b2e2d
+   - /System/Library/Frameworks/Foundation.framework/Foundation
++  - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/swift/libswiftCore.dylib
+
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+-  UUID: 72C7F086-CD32-390B-9F43-BC80299D1F5A
+-  Functions: 132
+-  Symbols:   510
++  UUID: D5C7D2EA-3E6E-325F-89AD-1C660DF7DB69
++  Functions: 138
++  Symbols:   568
+   CStrings:  4
+ 
+Symbols:
++ _$s26IntelligentRoutingServices12PlatformInfoO30supportsGenerativeModelSystemsSbvgZ
++ _$s26IntelligentRoutingServices12PlatformInfoO30supportsGenerativeModelSystemsSbvpZMV
++ _$s26IntelligentRoutingServices19CoreAnalyticsMetricMp
++ _$s26IntelligentRoutingServices19CoreAnalyticsMetricP24dictionaryRepresentationSDySSAA0dE11Submittable_pGvgTj
++ _$s26IntelligentRoutingServices19CoreAnalyticsMetricP24dictionaryRepresentationSDySSAA0dE11Submittable_pGvgTq
++ _$s26IntelligentRoutingServices19CoreAnalyticsMetricP4nameSSvgTj
++ _$s26IntelligentRoutingServices19CoreAnalyticsMetricP4nameSSvgTq
++ _$s26IntelligentRoutingServices19CoreAnalyticsMetricTL
++ _$s26IntelligentRoutingServices19CoreAnalyticsMetric_pMF
++ _$s26IntelligentRoutingServices24CoreAnalyticsSubmittableMp
++ _$s26IntelligentRoutingServices24CoreAnalyticsSubmittable_pMF
++ _$sIeghH_ytIeghHr_TRTA.26
++ _$sIeghH_ytIeghHr_TRTA.26TQ0_
++ _$sIeghH_ytIeghHr_TRTA.26Tu
++ _$sIeghH_ytIeghHr_TRTA.36
++ _$sIeghH_ytIeghHr_TRTA.36TQ0_
++ _$sIeghH_ytIeghHr_TRTA.36Tu
++ _$sSS26IntelligentRoutingServices24CoreAnalyticsSubmittableAAMc
++ _$sSS26IntelligentRoutingServices24CoreAnalyticsSubmittableAAWP
++ _$sSSMn
++ _$sSb26IntelligentRoutingServices24CoreAnalyticsSubmittableAAMc
++ _$sSb26IntelligentRoutingServices24CoreAnalyticsSubmittableAAWP
++ _$sSbMn
++ _$sScC12continuation8functionScCyxq_GSccyxq_G_SStcfC
++ _$sSd26IntelligentRoutingServices24CoreAnalyticsSubmittableAAMc
++ _$sSd26IntelligentRoutingServices24CoreAnalyticsSubmittableAAWP
++ _$sSdMn
++ _$sSi26IntelligentRoutingServices24CoreAnalyticsSubmittableAAMc
++ _$sSi26IntelligentRoutingServices24CoreAnalyticsSubmittableAAWP
++ _$sSiMn
++ _$ss44withCheckedContinuationNonisolatedNonsending8function_xSS_yScCyxs5NeverOGXEtYalF
++ _$ss44withCheckedContinuationNonisolatedNonsending8function_xSS_yScCyxs5NeverOGXEtYalFTQ0_
++ _$ss44withCheckedContinuationNonisolatedNonsending8function_xSS_yScCyxs5NeverOGXEtYalFTY1_
++ _$ss44withCheckedContinuationNonisolatedNonsending8function_xSS_yScCyxs5NeverOGXEtYalFTu
++ _$ss44withCheckedContinuationNonisolatedNonsending8function_xSS_yScCyxs5NeverOGXEtYalFyBcXEfU_
++ _$ss52withCheckedThrowingContinuationNonisolatedNonsending8function_xSS_yScCyxs5Error_pGXEtYaKlF
++ _$ss52withCheckedThrowingContinuationNonisolatedNonsending8function_xSS_yScCyxs5Error_pGXEtYaKlFTQ0_
++ _$ss52withCheckedThrowingContinuationNonisolatedNonsending8function_xSS_yScCyxs5Error_pGXEtYaKlFTY1_
++ _$ss52withCheckedThrowingContinuationNonisolatedNonsending8function_xSS_yScCyxs5Error_pGXEtYaKlFTY2_
++ _$ss52withCheckedThrowingContinuationNonisolatedNonsending8function_xSS_yScCyxs5Error_pGXEtYaKlFTu
++ _$ss52withCheckedThrowingContinuationNonisolatedNonsending8function_xSS_yScCyxs5Error_pGXEtYaKlFyBcXEfU_
++ _MobileGestalt_get_current_device
++ _MobileGestalt_get_deviceSupportsGenerativeModelSystems
++ ___swift_async_cont_functlets
++ ___swift_closure_destructor
++ ___swift_closure_destructor.20
++ ___swift_closure_destructor.24
++ ___swift_closure_destructor.3
++ ___swift_closure_destructor.30
++ ___swift_closure_destructor.34
++ ___swift_closure_destructor.7
++ _objc_release_x19
++ _objc_retainAutoreleasedReturnValue
++ _swift_continuation_await
++ _swift_continuation_init
++ _swift_release_x1
++ _swift_release_x20
++ _swift_release_x8
++ _swift_retain_x1
++ _swift_retain_x20
++ _swift_retain_x21
++ _swift_retain_x22
++ _swift_willThrow
++ _symbolic $s26IntelligentRoutingServices19CoreAnalyticsMetricP
++ _symbolic $s26IntelligentRoutingServices24CoreAnalyticsSubmittableP
++ _symbolic ______A5At s6UInt64V
+- _$s26IntelligentRoutingServices10AsyncQueueV14performAndWaityxxyYaYbKcYaKs8SendableRzlFTY1_
+- _$s26IntelligentRoutingServices10AsyncQueueV14performAndWaityxxyYaYbcYas8SendableRzlFTY1_
+- _$sIeghH_ytIeghHr_TRTA.21
+- _$sIeghH_ytIeghHr_TRTA.21TQ0_
+- _$sIeghH_ytIeghHr_TRTA.21Tu
+- _$sIeghH_ytIeghHr_TRTA.31
+- _$sIeghH_ytIeghHr_TRTA.31TQ0_
+- _$sIeghH_ytIeghHr_TRTA.31Tu
+- _$sSS11utf8CStrings15ContiguousArrayVys4Int8VGvg
+- _$sScPSgWOc
+- _$sScTss5NeverORs_rlE8detached4name8priority9operationScTyxABGSSSg_ScPSgxyYaYAcntFZyt_Tt2g5
+- _$ss23withCheckedContinuation9isolation8function_xScA_pSgYi_SSyScCyxs5NeverOGXEtYalF
+- _$ss23withCheckedContinuation9isolation8function_xScA_pSgYi_SSyScCyxs5NeverOGXEtYalFTu
+- _$ss31withCheckedThrowingContinuation9isolation8function_xScA_pSgYi_SSyScCyxs5Error_pGXEtYaKlF
+- _$ss31withCheckedThrowingContinuation9isolation8function_xScA_pSgYi_SSyScCyxs5Error_pGXEtYaKlFTu
+- _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.42
+- _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.42TQ0_
+- _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.42Tu
+- _swift_retain
+- _symbolic ______A8At s6UInt64V
+
+```

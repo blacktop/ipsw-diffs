@@ -1,0 +1,1941 @@
+## SpringBoard
+
+> `/System/Library/AccessibilityBundles/SpringBoard.axbundle/SpringBoard`
+
+```diff
+
+-3005.28.0.0.0
+-  __TEXT.__text: 0x3a1b8 sha256:5b3deb4524aa1044fa64abf19565f3b3b1e54e84a7626d9653326545f7c885a7
+-  __TEXT.__auth_stubs: 0xdb0 sha256:59165f66b52ac617f3ee527d37a62c06b1cf94c7219fc4cc25553f64ed6fa1f3
+-  __TEXT.__objc_methlist: 0x4c9c sha256:0559f4d3c28c8e25957634ec3fe8de6e07695e207f5bec094171ccc35d872285
+-  __TEXT.__const: 0x120 sha256:18b5fb7d2e502a1ad2a2e23b1559771a09a7630b7400ad010712f3f0d47411a7
+-  __TEXT.__gcc_except_tab: 0x848 sha256:2730762aaf23c8402d07da0fc81819e509a876584e1a8523f4c7ac9f05841b31
+-  __TEXT.__cstring: 0xa59a sha256:73d20e497ddc680790650dbb0a396509ba393627ae430cd20c67740a4bb1bd73
+-  __TEXT.__oslogstring: 0x72a sha256:309380ccd65915cd384d830e97b588f67732b59990d61ab796a8506dc8b735d8
++3036.2.0.0.0
++  __TEXT.__text: 0x39c9c sha256:315912ab4a7a961fa47049c2b49b66273a33f140bcd4a5bd97b696f50cf29f56
++  __TEXT.__objc_methlist: 0x4e34 sha256:65054d83d9f97d131c975e5d7139724459c481ad08c90ed7be95daf6be3bd440
+   __TEXT.__dlopen_cstrs: 0x98 sha256:1fe972a5188f59e7d2f38277bc0e0d162a56c0b8ca5ca09f3115cf573a924ab6
+-  __TEXT.__unwind_info: 0x1350 sha256:5e7dc5d59175ad964ea8809d3f13a8afbd72449cad21e17379f1dd91cc47a523
+-  __TEXT.__objc_classname: 0x33dd sha256:db20e23d8ad493754e96339cc65324beee52b22308da4875d046f51c708c08d1
+-  __TEXT.__objc_methname: 0x88f1 sha256:49a25959c94ade4995d5f02eda90253b31296704fe3bcf65969a666b3326a517
+-  __TEXT.__objc_methtype: 0xb46 sha256:0bfe10e7ee2be4ffa6fdaa87aa17295a6175978e935356819638f14ad5558d90
+-  __TEXT.__objc_stubs: 0x6b60 sha256:85929df06995277268c42b3fac929db043b5fa5db8abbd5f2ebdfafb350fe03c
+-  __DATA_CONST.__got: 0x5c0 sha256:c1a35a1a2beec8ea423584c3943307b08c1460140eb2a2f47c21556b6efa19eb
+-  __DATA_CONST.__const: 0xdf0 sha256:a75e1856a850e742fe025602a78375a7d5203c956fe8789ee759977e3ac6b068
+-  __DATA_CONST.__objc_classlist: 0x980 sha256:2fdb0d9ddb10a761f0d6df858527259e34481a32f0884301dc6aed7cb6ba02a4
+-  __DATA_CONST.__objc_protolist: 0x30 sha256:a31c22fadb194c40802b2edd14f142caf4c8bcc9c83efd7eb5b05861a4771889
++  __TEXT.__const: 0xc8 sha256:3b9b25317ecd36033cca9c1ed77108607328878000e9fa80fd7fdad959f52a3c
++  __TEXT.__gcc_except_tab: 0x98c sha256:d9b7fff75e928b4a657c1a18fa4e6de28671c7b823d2f52a775b4492ac9587f1
++  __TEXT.__cstring: 0xa92b sha256:dbc9fbb78d4ec5331b7e98c1f4cc756ae5744b09aefe2b0379b4546b5c091e1a
++  __TEXT.__oslogstring: 0x72a sha256:309380ccd65915cd384d830e97b588f67732b59990d61ab796a8506dc8b735d8
++  __TEXT.__unwind_info: 0x1328 sha256:36fb26e651c33715829e8826186454ca4e60d4e22e101b7da19d951142d471be
++  __TEXT.__objc_stubs: 0x0
++  __TEXT.__auth_stubs: 0x0
++  __TEXT.__objc_classname: 0x0
++  __TEXT.__objc_methname: 0x0
++  __TEXT.__objc_methtype: 0x0
++  __DATA_CONST.__const: 0xe18 sha256:6727254d7b6ae3f77f340e50099d187a9cd940f736a4cb897fc71471abdfb9e3
++  __DATA_CONST.__objc_classlist: 0x9b0 sha256:108bde487a524d357a828efdd2d736d4af55e31c5bcb049f8751ef080a34ca56
++  __DATA_CONST.__objc_protolist: 0x30 sha256:7b0b0e147da34385b929610a8ce1a8f9ba5b9215d7897f0ebcaae845cd398127
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x2500 sha256:e1a857fb6d471bce3294ba818fc8f1ac9e0ce3cac536cfa823e73c2a3290708e
+-  __DATA_CONST.__objc_protorefs: 0x8 sha256:30ed93b81fc73c24ef5c87c7a755fae60eb46a0b8f6f239a6d3d14ff8563bd6d
+-  __DATA_CONST.__objc_superrefs: 0x3e0 sha256:2eb912a34442cb9e8b2c94a6ae25b27f30d7fbf086eba26382359b036c9865c4
+-  __DATA_CONST.__objc_arraydata: 0x30 sha256:38bf99f24864c59fe63db30e75be86748a887864fe7f2742092893bf9ee05c8b
+-  __AUTH_CONST.__auth_got: 0x6e8 sha256:7314b978571ffc723887d81a40c88dbd2de4b221b4a0149d14f284b074eec9f9
+-  __AUTH_CONST.__const: 0x790 sha256:a63a711fdca1fd71c0fb467794e338bea0aa93d79977fa6edce772d692e1fb3f
+-  __AUTH_CONST.__cfstring: 0xba20 sha256:7626f5077146e56ddc579e9962d84df65f7bf6656853083f83a5f2afebd46123
+-  __AUTH_CONST.__objc_const: 0xb4b0 sha256:1b14c470b90b9a0acfc43791c1577d7d714f638f2863954cdf15ab8b8e9a0246
+-  __AUTH_CONST.__objc_intobj: 0xf0 sha256:b91a975c1efa5cf0f89b0086131d0f7e971b514f87543a62fac964b3b389e8b1
+-  __AUTH_CONST.__objc_arrayobj: 0x48 sha256:a3e34ddec1685dc8d9b168b872e925d53dcb53fcd54080a085a256e502c65fa0
+-  __AUTH.__objc_data: 0x1270 sha256:b853ff793381b6a681ba10c00985afe90b3f5adb23890589d2d0186dbff12c63
+-  __DATA.__objc_ivar: 0x68 sha256:44773d869fb097764ffef8970e1a2629a33abc85e6ce2a5da730955914d1c973
+-  __DATA.__data: 0x248 sha256:0a0f7f74607bdee55028cbdb1ffab644019c3f23e8c71b0f8617ba7d0cddb306
+-  __DATA.__bss: 0xf1 sha256:f2d7df9f7c7a829d151f2d26f67f11bb6b824fb5ed649c159dd6124c4b4dce60
++  __DATA_CONST.__objc_selrefs: 0x25c8 sha256:6d52cf5de2d2bee15015bfe2a18e47e1bb27b4d329a2c5dd2bbe2f9f08b38407
++  __DATA_CONST.__objc_protorefs: 0x8 sha256:357243aeef570e574c22cf9e9cebb3355b3f1f55bf3403e8bd207232da199665
++  __DATA_CONST.__objc_superrefs: 0x3f8 sha256:fdd63f3ea3518776c52e643bde9fbbc3dc83b13434222117eb0a5ce393a096df
++  __DATA_CONST.__objc_arraydata: 0x30 sha256:9ba0ece793a675bcd3eecafa1ff36deef3dcf4924c8f51cbf7e344d012d05dea
++  __DATA_CONST.__got: 0x5e0 sha256:11fbc675e5a35d7d8472821a54ed0fcafb87026a8256f45ce82f63c5e55ca05a
++  __AUTH_CONST.__const: 0x7d0 sha256:80bd4e1f2299307e133d4a360ef366564d7d84e497dc1f0e9bf7b175a5f4c4ae
++  __AUTH_CONST.__cfstring: 0xbe00 sha256:f9a1f0cc661179460f0f45f050abcd781ad39225747355ebc7d215c020e296c1
++  __AUTH_CONST.__objc_const: 0xb810 sha256:7378160a4126e518a2688094edb5b96cbf8b11b6f050e893373bddc0115c4da5
++  __AUTH_CONST.__objc_intobj: 0xf0 sha256:2c09e2f79be549904fc7b110ae2c86bf994a051fd83aec85053272d4abf8060b
++  __AUTH_CONST.__objc_arrayobj: 0x48 sha256:b081f9319f393d911f30f5e644a770a1bc322627269e4107391823155c8bb12c
++  __AUTH_CONST.__auth_got: 0x0
++  __AUTH.__objc_data: 0x1450 sha256:6e7eed1b5fe52134a0ddff0569006fe6198f31fe57d9f106d396f093f56f1dd0
++  __DATA.__objc_ivar: 0x68 sha256:bc9879826153f7f0076f1892efd6dbea3516c01b7a5fd3778fac09546cb6c72e
++  __DATA.__data: 0x248 sha256:d0655729a76c3d083615eb242494b4d41fe7e03233abf5c7f517612920e4484b
+   __DATA.__common: 0x11 sha256:0a88111852095cae045340ea1f0b279944b2a756a213d9b50107d7489771e159
+-  __DATA_DIRTY.__objc_data: 0x4c90 sha256:702913e6fec579bde809a91b322a5eef7d1b314ec41f7ede5aa300b0af5a950c
++  __DATA.__bss: 0xf8 sha256:b3ab6982980fddf460a2f47adb428475ce9afa89092fd034499d017a35993f05
++  __DATA_DIRTY.__objc_data: 0x4c90 sha256:31f6fbbbd764eef198caedb3d9d1e257c9edf7ebd1893e9b8a805f36c7b69c8c
+   __DATA_DIRTY.__data: 0x4 sha256:e00e5eb9444182f352323374ef4e08ebcb784725fdd4fd612d7730540b3e0c8c
+-  __DATA_DIRTY.__bss: 0xb8 sha256:d81bfb50e59a9abbe66f6ae0c6b45c7b9c0bc6eead2cf982118ac4d62b6ffeda
++  __DATA_DIRTY.__bss: 0x88 sha256:b707241545a346265aab1ffb32ff64b55bf8f8dc1b56a46ef33ce3d15db11d33
+   - /System/Library/Frameworks/Accessibility.framework/Accessibility
+   - /System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+   - /System/Library/Frameworks/Contacts.framework/Contacts
+
+   - /System/Library/Frameworks/CoreTelephony.framework/CoreTelephony
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/Frameworks/QuartzCore.framework/QuartzCore
++  - /System/Library/Frameworks/Security.framework/Security
+   - /System/Library/Frameworks/UIKit.framework/UIKit
+   - /System/Library/PrivateFrameworks/AXCoreUtilities.framework/AXCoreUtilities
+   - /System/Library/PrivateFrameworks/AXFrontBoardUtils.framework/AXFrontBoardUtils
+
+   - /System/Library/PrivateFrameworks/SpringBoardUI.framework/SpringBoardUI
+   - /System/Library/PrivateFrameworks/TelephonyUtilities.framework/TelephonyUtilities
+   - /System/Library/PrivateFrameworks/UIAccessibility.framework/UIAccessibility
++  - /System/Library/PrivateFrameworks/VoiceOverServices.framework/VoiceOverServices
+   - /usr/lib/libAXSafeCategoryBundle.dylib
+   - /usr/lib/libAccessibility.dylib
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
++  - /usr/lib/libbsm.0.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: DEC187E0-A6DB-32E8-850A-671655EF2090
+-  Functions: 1619
+-  Symbols:   6354
+-  CStrings:  4824
++  UUID: CD4588C9-C23A-311C-8BB3-FAFA5AEB2D17
++  Functions: 1623
++  Symbols:   6424
++  CStrings:  3196
+ 
+Symbols:
++ +[SBDefaultSleepWakePolicyAccessibility _accessibilityPerformValidations:]
++ +[SBDefaultSleepWakePolicyAccessibility(SafeCategory) safeCategoryBaseClass]
++ +[SBDefaultSleepWakePolicyAccessibility(SafeCategory) safeCategoryTargetClassName]
++ +[SBScreenWakeAnimationControllerAccessibility _accessibilityPerformValidations:]
++ +[SBScreenWakeAnimationControllerAccessibility(SafeCategory) safeCategoryBaseClass]
++ +[SBScreenWakeAnimationControllerAccessibility(SafeCategory) safeCategoryTargetClassName]
++ +[SBTraitsSingleSceneWindowAccessibility _accessibilityPerformValidations:]
++ +[SBTraitsSingleSceneWindowAccessibility(SafeCategory) safeCategoryBaseClass]
++ +[SBTraitsSingleSceneWindowAccessibility(SafeCategory) safeCategoryTargetClassName]
++ -[AXSpringBoardGlue isDimmedBehindScreenCurtain]
++ -[AXSpringBoardGlue isSleeping]
++ -[SBBacklightControllerAccessibility _axLastBacklightFactor]
++ -[SBBacklightControllerAccessibility _axSetLastBacklightFactor:]
++ -[SBDefaultSleepWakePolicyAccessibility actionForBacklightChangeSource:]
++ -[SBIconControllerAccessibility _axCurrentFolderContentView]
++ -[SBIconControllerAccessibility _axSBHIconManager]
++ -[SBScreenWakeAnimationControllerAccessibility sleepForSource:completion:]
++ -[SBSystemApertureViewControllerAccessibility accessibilityCustomActions]
++ -[SBTraitsSingleSceneWindowAccessibility _accessibilityCanBeConsideredAsMainWindow]
++ -[SBTraitsSingleSceneWindowAccessibility _ax_scenePresentationView]
++ -[SBTraitsSingleSceneWindowAccessibility accessibilityViewIsModal]
++ -[SpringBoardAccessibility _accessibilityPerformOneTimeSetup]
++ -[SpringBoardAccessibility _accessibilitySetSpeakScreenGestureRecognizers:]
++ -[SpringBoardAccessibility _accessibilitySpeakScreenGestureRecognizers]
++ -[SpringBoardAccessibility _compatibilityAppBundleIDs]
++ -[SpringBoardAccessibility _compatibilityAppDisplayMonitor]
++ -[SpringBoardAccessibility _setCompatibilityAppBundleIDs:]
++ -[SpringBoardAccessibility _setCompatibilityAppDisplayMonitor:]
++ -[SpringBoardAccessibility _startCompatibilityAppDisplayMonitorIfNecessary]
++ -[SpringBoardAccessibility _startCompatibilityAppProcessMonitoring]
++ -[SpringBoardAccessibility _stopCompatibilityAppDisplayMonitorIfNecessary]
++ -[SpringBoardAccessibility _stopCompatibilityAppProcessMonitoring]
++ -[SpringBoardAccessibility activeInterfaceOrientationDidChangeToOrientation:willAnimateWithDuration:fromOrientation:]
++ -[SpringBoardAccessibility activeInterfaceOrientationWillChangeToOrientation:]
++ GCC_except_table105
++ GCC_except_table1148
++ GCC_except_table1168
++ GCC_except_table1175
++ GCC_except_table1179
++ GCC_except_table1182
++ GCC_except_table121
++ GCC_except_table1339
++ GCC_except_table1366
++ GCC_except_table1371
++ GCC_except_table1376
++ GCC_except_table1395
++ GCC_except_table1401
++ GCC_except_table1403
++ GCC_except_table1411
++ GCC_except_table1417
++ GCC_except_table1429
++ GCC_except_table1431
++ GCC_except_table1553
++ GCC_except_table1607
++ GCC_except_table228
++ GCC_except_table249
++ GCC_except_table276
++ GCC_except_table280
++ GCC_except_table306
++ GCC_except_table331
++ GCC_except_table336
++ GCC_except_table339
++ GCC_except_table400
++ GCC_except_table412
++ GCC_except_table455
++ GCC_except_table48
++ GCC_except_table561
++ GCC_except_table596
++ GCC_except_table623
++ GCC_except_table725
++ GCC_except_table73
++ GCC_except_table731
++ GCC_except_table732
++ GCC_except_table734
++ GCC_except_table736
++ GCC_except_table749
++ GCC_except_table756
++ GCC_except_table757
++ GCC_except_table761
++ GCC_except_table763
++ GCC_except_table784
++ GCC_except_table786
++ GCC_except_table802
++ GCC_except_table827
++ GCC_except_table863
++ GCC_except_table87
++ GCC_except_table93
++ GCC_except_table964
++ GCC_except_table966
++ _AXAccessibilityBundlesDirectory
++ _AXActiveSBHomeScreenController
++ _AXActiveWindowScene
++ _AXControlCenterCoordinator
++ _AXImageExplorerGenerativeModelsAvailable
++ _AXSBApplicationController
++ _AXSBAssistantController
++ _AXSBBacklightController
++ _AXSBConnectedWindowScenes
++ _AXSBContinuityDisplayWindowScene
++ _AXSBHIconManager
++ _AXSBHomeScreenController
++ _AXSBIconController
++ _AXSBLockScreenManager
++ _AXSBMainDisplayWindowScene
++ _AXSBTodayViewController
++ _CFBooleanGetTypeID
++ _CFBooleanGetValue
++ _CFGetTypeID
++ _OBJC_CLASS_$_AXVoiceOverServer
++ _OBJC_CLASS_$_FBScene
++ _OBJC_CLASS_$_SBDefaultSleepWakePolicyAccessibility
++ _OBJC_CLASS_$_SBScreenWakeAnimationControllerAccessibility
++ _OBJC_CLASS_$_SBTraitsSingleSceneWindowAccessibility
++ _OBJC_CLASS_$_UIFocusSystem
++ _OBJC_CLASS_$___SBDefaultSleepWakePolicyAccessibility_super
++ _OBJC_CLASS_$___SBScreenWakeAnimationControllerAccessibility_super
++ _OBJC_CLASS_$___SBTraitsSingleSceneWindowAccessibility_super
++ _OBJC_METACLASS_$_SBDefaultSleepWakePolicyAccessibility
++ _OBJC_METACLASS_$_SBScreenWakeAnimationControllerAccessibility
++ _OBJC_METACLASS_$_SBTraitsSingleSceneWindowAccessibility
++ _OBJC_METACLASS_$___SBDefaultSleepWakePolicyAccessibility_super
++ _OBJC_METACLASS_$___SBScreenWakeAnimationControllerAccessibility_super
++ _OBJC_METACLASS_$___SBTraitsSingleSceneWindowAccessibility_super
++ _SecTaskCopyValueForEntitlement
++ _SecTaskCreateWithAuditToken
++ __AXIsCompatibilityModeApp
++ __AXSVoiceOverTouchScreenCurtainEnabled
++ __OBJC_$_CLASS_METHODS_SBDefaultSleepWakePolicyAccessibility(SafeCategory)
++ __OBJC_$_CLASS_METHODS_SBScreenWakeAnimationControllerAccessibility(SafeCategory)
++ __OBJC_$_CLASS_METHODS_SBTraitsSingleSceneWindowAccessibility(SafeCategory)
++ __OBJC_$_INSTANCE_METHODS_SBDefaultSleepWakePolicyAccessibility
++ __OBJC_$_INSTANCE_METHODS_SBScreenWakeAnimationControllerAccessibility
++ __OBJC_$_INSTANCE_METHODS_SBTraitsSingleSceneWindowAccessibility
++ __OBJC_CLASS_RO_$_SBDefaultSleepWakePolicyAccessibility
++ __OBJC_CLASS_RO_$_SBScreenWakeAnimationControllerAccessibility
++ __OBJC_CLASS_RO_$_SBTraitsSingleSceneWindowAccessibility
++ __OBJC_CLASS_RO_$___SBDefaultSleepWakePolicyAccessibility_super
++ __OBJC_CLASS_RO_$___SBScreenWakeAnimationControllerAccessibility_super
++ __OBJC_CLASS_RO_$___SBTraitsSingleSceneWindowAccessibility_super
++ __OBJC_METACLASS_RO_$_SBDefaultSleepWakePolicyAccessibility
++ __OBJC_METACLASS_RO_$_SBScreenWakeAnimationControllerAccessibility
++ __OBJC_METACLASS_RO_$_SBTraitsSingleSceneWindowAccessibility
++ __OBJC_METACLASS_RO_$___SBDefaultSleepWakePolicyAccessibility_super
++ __OBJC_METACLASS_RO_$___SBScreenWakeAnimationControllerAccessibility_super
++ __OBJC_METACLASS_RO_$___SBTraitsSingleSceneWindowAccessibility_super
++ __SBVOTCallerHasVoiceOverEntitlement
++ ___117-[SpringBoardAccessibility activeInterfaceOrientationDidChangeToOrientation:willAnimateWithDuration:fromOrientation:]_block_invoke
++ ___56-[SpringBoardAccessibility accessibilityStartStopToggle]_block_invoke.1300
++ ___61-[SpringBoardAccessibility _accessibilityPerformOneTimeSetup]_block_invoke
++ ___61-[SpringBoardAccessibility _accessibilityPerformOneTimeSetup]_block_invoke.1119
++ ___61-[SpringBoardAccessibility _accessibilityPerformOneTimeSetup]_block_invoke_2
++ ___67-[SpringBoardAccessibility _accessibilityStatusBarElements:sorted:]_block_invoke_9
++ ___73-[SBSystemApertureViewControllerAccessibility accessibilityCustomActions]_block_invoke
++ ___73-[SBSystemApertureViewControllerAccessibility accessibilityCustomActions]_block_invoke_2
++ ___75-[SpringBoardAccessibility _startCompatibilityAppDisplayMonitorIfNecessary]_block_invoke
++ ___75-[SpringBoardAccessibility _startCompatibilityAppDisplayMonitorIfNecessary]_block_invoke_2
++ ___75-[SpringBoardAccessibility _updateContinuityAttributesForProcess:isActive:]_block_invoke.1147
++ ___75-[SpringBoardAccessibility _updateContinuityAttributesForProcess:isActive:]_block_invoke.1149
++ ___79-[SpringBoardAccessibility _iosAccessibilityPerformAction:withValue:fencePort:]_block_invoke.1241
++ ___79-[SpringBoardAccessibility _iosAccessibilityPerformAction:withValue:fencePort:]_block_invoke_2.1249
++ ___Block_byref_object_copy_.1196
++ ___Block_byref_object_copy_.1267
++ ___Block_byref_object_copy_.1415
++ ___Block_byref_object_copy_.2656
++ ___Block_byref_object_copy_.2876
++ ___Block_byref_object_copy_.3640
++ ___Block_byref_object_copy_.6523
++ ___Block_byref_object_copy_.7678
++ ___Block_byref_object_copy_.8132
++ ___Block_byref_object_dispose_.1197
++ ___Block_byref_object_dispose_.1268
++ ___Block_byref_object_dispose_.1416
++ ___Block_byref_object_dispose_.2657
++ ___Block_byref_object_dispose_.2877
++ ___Block_byref_object_dispose_.3641
++ ___Block_byref_object_dispose_.6524
++ ___Block_byref_object_dispose_.7679
++ ___Block_byref_object_dispose_.8133
++ ___SBBacklightControllerAccessibility___axLastBacklightFactor
++ ___SpringBoardAccessibility___accessibilitySpeakScreenGestureRecognizers
++ ___SpringBoardAccessibility___compatibilityAppBundleIDs
++ ___SpringBoardAccessibility___compatibilityAppDisplayMonitor
++ ___UIAccessibilityGetAssociatedCGFloat
++ ___UIAccessibilitySetAssociatedCGFloat
++ ___block_descriptor_44_e8_32s_e5_v8?0ls32l8
++ ___block_descriptor_56_e8_32s40s48s_e5_v8?0ls32l8s40l8s48l8
++ ___block_literal_global.1032
++ ___block_literal_global.1053
++ ___block_literal_global.1059
++ ___block_literal_global.1064
++ ___block_literal_global.1067
++ ___block_literal_global.1069
++ ___block_literal_global.1087
++ ___block_literal_global.1109
++ ___block_literal_global.1117
++ ___block_literal_global.1131
++ ___block_literal_global.1140
++ ___block_literal_global.1146
++ ___block_literal_global.1176
++ ___block_literal_global.1203
++ ___block_literal_global.1308
++ ___block_literal_global.1311
++ ___block_literal_global.1313
++ ___block_literal_global.1326
++ ___block_literal_global.1338
++ ___block_literal_global.1341
++ ___block_literal_global.1346
++ ___block_literal_global.1354
++ ___block_literal_global.1550
++ ___block_literal_global.1552
++ ___block_literal_global.1605
++ ___block_literal_global.1613
++ ___block_literal_global.1616
++ ___block_literal_global.1645
++ ___block_literal_global.2094
++ ___block_literal_global.217
++ ___block_literal_global.2539
++ ___block_literal_global.3065
++ ___block_literal_global.390
++ ___block_literal_global.391
++ ___block_literal_global.3933
++ ___block_literal_global.397
++ ___block_literal_global.417
++ ___block_literal_global.4281
++ ___block_literal_global.460
++ ___block_literal_global.4666
++ ___block_literal_global.4741
++ ___block_literal_global.5141
++ ___block_literal_global.5514
++ ___block_literal_global.5653
++ ___block_literal_global.6090
++ ___block_literal_global.626
++ ___block_literal_global.628
++ ___block_literal_global.6563
++ ___block_literal_global.6746
++ ___block_literal_global.6945
++ ___block_literal_global.7036
++ ___block_literal_global.7371
++ ___block_literal_global.7844
++ ___block_literal_global.8277
++ ___block_literal_global.8455
++ ___block_literal_global.851
++ ___block_literal_global.8579
++ ___block_literal_global.923
++ __accessibilityPerformOneTimeSetup.DidEnable
++ _accessibilityBundle.axBundle.8074
++ _activeInterfaceOrientationDidChangeToOrientation:willAnimateWithDuration:fromOrientation:._LastPostedOrientation
++ _audit_token_to_pid
++ _kVOTEventCommandActivateScreenExplorer
++ _kVOTEventCommandAskAboutScreen
++ _objc_claimAutoreleasedReturnValue
++ _objc_msgSend$_accessibilityPerformOneTimeSetup
++ _objc_msgSend$_accessibilitySetSpeakScreenGestureRecognizers:
++ _objc_msgSend$_accessibilitySpeakScreenGestureRecognizers
++ _objc_msgSend$_axCurrentFolderContentView
++ _objc_msgSend$_axLastBacklightFactor
++ _objc_msgSend$_axSBHIconManager
++ _objc_msgSend$_axSetLastBacklightFactor:
++ _objc_msgSend$_ax_scenePresentationView
++ _objc_msgSend$_compatibilityAppBundleIDs
++ _objc_msgSend$_compatibilityAppDisplayMonitor
++ _objc_msgSend$_setCompatibilityAppBundleIDs:
++ _objc_msgSend$_setCompatibilityAppDisplayMonitor:
++ _objc_msgSend$_startCompatibilityAppDisplayMonitorIfNecessary
++ _objc_msgSend$_startCompatibilityAppProcessMonitoring
++ _objc_msgSend$_stopCompatibilityAppDisplayMonitorIfNecessary
++ _objc_msgSend$_stopCompatibilityAppProcessMonitoring
++ _objc_msgSend$accessibilityInitializeBundle
++ _objc_msgSend$addActiveOrientationObserver:
++ _objc_msgSend$alwaysConnectedIdentities
++ _objc_msgSend$configurationForDefaultMainDisplayMonitor
++ _objc_msgSend$elements
++ _objc_msgSend$focusSystemForEnvironment:
++ _objc_msgSend$imageExplorerAskAboutScreenDynamicIslandActionEnabled
++ _objc_msgSend$imageExplorerScreenExplorerDynamicIslandActionEnabled
++ _objc_msgSend$isDimmedBehindScreenCurtain
++ _objc_msgSend$isSleeping
++ _objc_msgSend$load
++ _objc_msgSend$localizedTitleForAccessibilityShortcutOption:
++ _objc_msgSend$principalClass
++ _objc_msgSend$removeActiveOrientationObserver:
++ _objc_msgSend$rootViewController
++ _objc_msgSend$set
++ _objc_msgSend$triggerEventCommand:
++ _objc_retainAutoreleaseReturnValue
++ _objc_retain_x1
++ _objc_retain_x4
++ _objc_retain_x5
+- -[AXSpringBoardGlue isDimmed]
+- -[SBCursiveTextViewAccessibility loadText:pointSize:].cold.1
+- -[SBIconControllerAccessibility _axCurrentPageControl]
+- -[SBKeyboardFocusCoordinatorAccessibility _accessibilityFocusOnAppWithPid:bundleIdentifier:identifier:].cold.1
+- -[SBKeyboardFocusCoordinatorAccessibility _axDeferKeyboardFocusToPid:sceneID:forPrimaryOverride:].cold.1
+- -[SBMoveGestureFloatingSwitcherModifierAccessibility _axFloatingConfigurationForGestureEvent:withZeroVelocity:].cold.1
+- -[SBMoveGestureFloatingSwitcherModifierAccessibility _axFloatingConfigurationForGestureEvent:withZeroVelocity:].cold.2
+- -[SBMoveGestureFloatingSwitcherModifierAccessibility _axFloatingConfigurationForGestureEvent:withZeroVelocity:].cold.3
+- -[SBSyncControllerAccessibility _accessibilityWriteOutDataResetForAXSettings:].cold.1
+- -[SBSyncControllerAccessibility _accessibilityWriteOutDataResetForAXSettings:].cold.2
+- -[SBSyncControllerAccessibility _accessibilityWriteOutDataResetForAXSettings:].cold.3
+- -[SBSyncControllerAccessibility _accessibilityWriteOutDataResetForAXSettings:].cold.4
+- -[SBSyncControllerAccessibility _accessibilityWriteOutDataResetForAXSettings:].cold.5
+- -[SBSyncControllerAccessibility resetService:willBeginDataResetWithMode:].cold.1
+- -[SpringBoardAccessibility _accessibilitySetSpeakScreenGestureRecognizer:]
+- -[SpringBoardAccessibility _accessibilitySpeakScreenGestureRecognizer]
+- -[SpringBoardAccessibility _iosAccessibilityPerformAction:withValue:fencePort:].cold.1
+- -[SpringBoardAccessibility _iosAccessibilityPerformAction:withValue:fencePort:].cold.2
+- -[SpringBoardAccessibility _iosAccessibilityPerformAction:withValue:fencePort:].cold.3
+- -[SpringBoardAccessibility _iosAccessibilityPerformAction:withValue:fencePort:].cold.4
+- -[SpringBoardAccessibility _isDim]
+- -[SpringBoardAccessibility _legacy_noteInterfaceOrientationChanged:duration:updateMirroredDisplays:force:logMessage:]
+- -[SpringBoardAccessibility _updateContinuityAttributesForProcess:isActive:].cold.1
+- -[SpringBoardAccessibility _updateContinuityAttributesForProcess:isActive:].cold.2
+- -[SpringBoardAccessibility processManager:didAddProcess:].cold.1
+- -[SpringBoardAccessibility processManager:didRemoveProcess:].cold.1
+- GCC_except_table10
+- GCC_except_table104
+- GCC_except_table108
+- GCC_except_table11
+- GCC_except_table114
+- GCC_except_table118
+- GCC_except_table12
+- GCC_except_table13
+- GCC_except_table14
+- GCC_except_table143
+- GCC_except_table146
+- GCC_except_table15
+- GCC_except_table151
+- GCC_except_table16
+- GCC_except_table18
+- GCC_except_table20
+- GCC_except_table22
+- GCC_except_table23
+- GCC_except_table24
+- GCC_except_table25
+- GCC_except_table28
+- GCC_except_table3
+- GCC_except_table31
+- GCC_except_table35
+- GCC_except_table37
+- GCC_except_table39
+- GCC_except_table40
+- GCC_except_table41
+- GCC_except_table44
+- GCC_except_table49
+- GCC_except_table57
+- GCC_except_table59
+- GCC_except_table83
+- GCC_except_table85
+- GCC_except_table98
+- _AXMainSBHomeScreenController
+- _AXSBApplicationControllerSharedInstance
+- _AXSBApplicationControllerSharedInstance.SharedInstance
+- _AXSBAssistantControllerSharedInstance
+- _AXSBAssistantControllerSharedInstance.SharedInstance
+- _AXSpringBoardAppForLayoutRole
+- _AXSpringBoardFrameworkGlueSBLockScreenControllerInstance
+- _AXSpringBoardFrameworkGlueSBLockScreenControllerInstance.SBLockScreenManagerClass
+- _AXSpringBoardFrameworkGlueSBLockScreenControllerInstance.cold.1
+- _AXSpringBoardFrameworkGlueSBLockScreenControllerInstance.onceToken
+- _AXSpringBoardGlueSBLockScreenControllerInstance
+- _AXSpringBoardGlueSBLockScreenControllerInstance.class
+- _OBJC_CLASS_$_UIPageControl
+- _OUTLINED_FUNCTION_0
+- _OUTLINED_FUNCTION_1
+- _OUTLINED_FUNCTION_2
+- _OUTLINED_FUNCTION_3
+- _OUTLINED_FUNCTION_4
+- __StackshotTaken.cold.1
+- ___117-[SpringBoardAccessibility _legacy_noteInterfaceOrientationChanged:duration:updateMirroredDisplays:force:logMessage:]_block_invoke
+- ___51-[SpringBoardAccessibility accessibilityInitialize]_block_invoke
+- ___51-[SpringBoardAccessibility accessibilityInitialize]_block_invoke.1010
+- ___51-[SpringBoardAccessibility accessibilityInitialize]_block_invoke_2
+- ___56-[SpringBoardAccessibility accessibilityStartStopToggle]_block_invoke.1180
+- ___69-[SBCommandTabControllerAccessibility _activateWithForwardDirection:]_block_invoke
+- ___75-[SpringBoardAccessibility _updateContinuityAttributesForProcess:isActive:]_block_invoke.1027
+- ___75-[SpringBoardAccessibility _updateContinuityAttributesForProcess:isActive:]_block_invoke.1031
+- ___75-[SpringBoardAccessibility _updateContinuityAttributesForProcess:isActive:]_block_invoke_2.cold.1
+- ___75-[SpringBoardAccessibility _updateContinuityAttributesForProcess:isActive:]_block_invoke_2.cold.2
+- ___79-[SpringBoardAccessibility _iosAccessibilityPerformAction:withValue:fencePort:]_block_invoke.1126
+- ___AXSpringBoardFrameworkGlueSBLockScreenControllerInstance_block_invoke
+- ___SpringBoardAccessibility___accessibilitySpeakScreenGestureRecognizer
+- ___block_descriptor_56_e8_32s40s48r_e5_v8?0ls32l8s40l8r48l8
+- ___block_literal_global.1000
+- ___block_literal_global.1008
+- ___block_literal_global.1026
+- ___block_literal_global.1061
+- ___block_literal_global.1088
+- ___block_literal_global.1110
+- ___block_literal_global.1119
+- ___block_literal_global.1188
+- ___block_literal_global.1191
+- ___block_literal_global.1196
+- ___block_literal_global.1209
+- ___block_literal_global.1221
+- ___block_literal_global.1224
+- ___block_literal_global.1229
+- ___block_literal_global.1237
+- ___block_literal_global.1520
+- ___block_literal_global.1522
+- ___block_literal_global.1543
+- ___block_literal_global.1576
+- ___block_literal_global.1584
+- ___block_literal_global.1587
+- ___block_literal_global.370
+- ___block_literal_global.376
+- ___block_literal_global.396
+- ___block_literal_global.439
+- ___block_literal_global.603
+- ___block_literal_global.605
+- ___block_literal_global.943
+- ___block_literal_global.949
+- ___block_literal_global.957
+- ___block_literal_global.960
+- ___block_literal_global.976
+- ___getAXRequestingClientSymbolLoc_block_invoke.cold.1
+- ___getFCActivityManagerClass_block_invoke.cold.1
+- ___getFCActivityManagerClass_block_invoke.cold.2
+- __legacy_noteInterfaceOrientationChanged:duration:updateMirroredDisplays:force:logMessage:._LastPostedOrientation
+- _accessibilityInitialize.DidEnable
+- _objc_autorelease
+- _objc_msgSend$_accessibilitySetSpeakScreenGestureRecognizer:
+- _objc_msgSend$_accessibilitySpeakScreenGestureRecognizer
+- _objc_msgSend$_axCurrentPageControl
+- _objc_msgSend$currentPage
+- _objc_msgSend$isDimmed
+- _objc_msgSend$mainIdentity
+- _objc_msgSend$name
+- _objc_msgSend$numberOfPages
+- _objc_msgSend$sceneManagerForDisplayIdentity:
+- _soft_AXRequestingClient.cold.1
+CStrings:
++ "AXStatusBarHasSyntheticElementsKey"
++ "AccessibilityFocusOnSceneID-%@"
++ "SBDefaultSleepWakePolicy"
++ "SBDefaultSleepWakePolicyAccessibility"
++ "SBScreenWakeAnimationController"
++ "SBScreenWakeAnimationControllerAccessibility"
++ "SBSystemApertureControllerProxy"
++ "SBSystemApertureCoordinator"
++ "SBTraitsOrientedContentViewControllerView"
++ "SBTraitsSingleSceneWindow"
++ "SBTraitsSingleSceneWindowAccessibility"
++ "SBVOT: failed to read entitlements for caller (pid=%d): %@"
++ "SBVOT: rejecting PostSpringBoardVoiceOverData from unentitled caller (pid=%d, accessor=%d)"
++ "SBVOT: rejecting RegisterSpringBoardVoiceOver from unentitled caller (pid=%d)"
++ "SBWorkspaceEntity"
++ "SUIS-MagnifierAngel"
++ "SpringBoardPopFramework.axbundle"
++ "_UIScenePresentationView"
++ "_keyboardFocusController"
++ "_notePipelineManagerChangedInterfaceOrientation: duration: updateMirroredDisplays: force: logMessage:"
++ "_scene"
++ "_windowSceneToControllerProxies"
++ "actionForBacklightChangeSource:"
++ "activeWindowScene"
++ "addActiveOrientationObserver:"
++ "applicationController"
++ "applicationSceneEntity"
++ "ask.about.screen"
++ "assistantController"
++ "backlightController"
++ "com.apple.accessibility.voiceover"
++ "controlCenterController"
++ "controller"
++ "explore.screen"
++ "iconPageCount"
++ "isChamoisMultitaskingEnabled"
++ "isClassic"
++ "isOverlayTodayViewVisible"
++ "lockScreenManager"
++ "mainWorkspace"
++ "removeActiveOrientationObserver:"
++ "sceneIfExists"
++ "sceneManager"
++ "sleepForSource:completion:"
++ "switcherController"
++ "systemApertureCoordinator"
++ "viewController"
++ "workspaceEntity"
++ "workspaceEntity.applicationSceneEntity.sceneHandle.sceneIfExists"
+- "#16@0:8"
+- ".cxx_destruct"
+- "@\"<SBAppSwticherAppAccessibilityElementDelegate>\""
+- "@\"<SBVoiceOverTouchLabelElementAlertItemDelegate>\""
+- "@\"<UIFocusEnvironment>\"16@0:8"
+- "@\"<UIFocusItemContainer>\"16@0:8"
+- "@\"AccessibilityInfoPanelWindow\""
+- "@\"NSArray\"16@0:8"
+- "@\"NSArray\"24@0:8@\"AXRemoteElement\"16"
+- "@\"NSString\""
+- "@\"NSString\"16@0:8"
+- "@\"NSString\"24@0:8@\"UIFocusUpdateContext\"16"
+- "@\"SBAppLayoutAccessibility\""
+- "@\"SBFluidSwitcherContentViewAccessibility\""
+- "@\"SBFluidSwitcherItemContainerAccessibility\""
+- "@\"SBVoiceOverTouchLabelElementAlertItem\""
+- "@\"UILabel\""
+- "@\"UIMenu\"40@0:8@\"UITextField\"16@\"NSArray\"24@\"NSArray\"32"
+- "@\"UIMenu\"48@0:8@\"UITextField\"16{_NSRange=QQ}24@\"NSArray\"40"
+- "@\"UIView\""
+- "@\"UIView\"16@0:8"
+- "@\"UIViewController\""
+- "@16@0:8"
+- "@20@0:8B16"
+- "@20@0:8I16"
+- "@20@0:8i16"
+- "@24@0:8:16"
+- "@24@0:8@16"
+- "@24@0:8B16B20"
+- "@24@0:8Q16"
+- "@24@0:8q16"
+- "@28@0:8@16B24"
+- "@28@0:8i16@20"
+- "@32@0:8:16@24"
+- "@32@0:8@16@24"
+- "@32@0:8@16q24"
+- "@32@0:8q16@24"
+- "@32@0:8{CGPoint=dd}16"
+- "@40@0:8:16@24@32"
+- "@40@0:8@16@24@32"
+- "@40@0:8q16@24@32"
+- "@40@0:8{CGPoint=dd}16@32"
+- "@48@0:8@16Q24@32:40"
+- "@48@0:8@16{_NSRange=QQ}24@40"
+- "@48@0:8{CGRect={CGPoint=dd}{CGSize=dd}}16"
+- "@56@0:8@16q24q32@40@48"
+- "@56@0:8@16{CGRect={CGPoint=dd}{CGSize=dd}}24"
+- "@76@0:8@16@24@32q40q48q56B64q68"
+- "@80@0:8{CGRect={CGPoint=dd}{CGSize=dd}}16{CGRect={CGPoint=dd}{CGSize=dd}}48"
+- "@?16@0:8"
+- "AXRemoteElementChildrenDelegate"
+- "AXSBPositionUtilities"
+- "AXSBSideAppCustomAction"
+- "AXSpringBoardGlue"
+- "AXSpringBoardUtilities"
+- "AccessibilityInfoPanel"
+- "AccessibilityInfoPanelWindow"
+- "B16@0:8"
+- "B20@0:8i16"
+- "B24@0:8#16"
+- "B24@0:8:16"
+- "B24@0:8@\"Protocol\"16"
+- "B24@0:8@\"SBAppSwitcherAppAccessibilityElement\"16"
+- "B24@0:8@\"UIAlertView\"16"
+- "B24@0:8@\"UIFocusUpdateContext\"16"
+- "B24@0:8@\"UITextField\"16"
+- "B24@0:8@16"
+- "B24@0:8Q16"
+- "B24@0:8^{__IOHIDEvent=}16"
+- "B24@0:8q16"
+- "B28@0:8@16i24"
+- "B28@0:8i16@20"
+- "B32@0:8@16@24"
+- "B32@0:8Q16@?24"
+- "B32@0:8i16@20I28"
+- "B40@0:8@\"UITextField\"16@\"NSArray\"24@\"NSString\"32"
+- "B40@0:8@16@24@32"
+- "B40@0:8{CGPoint=dd}16@32"
+- "B48@0:8@\"UITextField\"16{_NSRange=QQ}24@\"NSString\"40"
+- "B48@0:8@16{_NSRange=QQ}24@40"
+- "FBDisplayManager"
+- "Q16@0:8"
+- "Q24@0:8Q16"
+- "Q32@0:8Q16q24"
+- "SBAXFakeAppSwitcherAccessibilityElement"
+- "SBAppSwitcherAppAccessibilityElement"
+- "SBAppSwitcherPeopleButtonAndLabelViewAccessibility"
+- "SBAppSwitcherPeopleContactViewAccessibility"
+- "SBAppSwitcherPeopleScrollViewAccessibility"
+- "SBAppSwitcherPeopleViewControllerAccessibility"
+- "SBAppSwticherAppAccessibilityElementDelegate"
+- "SBAppThumbnailGridViewAccessibility"
+- "SBAppThumbnailViewAccessibility"
+- "SBCallAlertDisplayAccessibility"
+- "SBDeckSwitcherViewControllerAccessibility"
+- "SBMainDisplaySceneManager"
+- "SBNotificationCenterControllerAccessibility"
+- "SBSceneManagerCoordinator"
+- "SBStarkIconWindowAccessibility"
+- "SBSwitchAppSystemGestureWorkspaceTransactionAccessibility"
+- "SBSwitcherWindowManagementContext"
+- "SBTopAffordanceDotsView"
+- "SBUIAccessibilityElementWithDefinitelyVisibleFrameButOnlyForSwitchInTigris"
+- "SBVoiceOverTouchConnection"
+- "SBVoiceOverTouchLabelElementAlertItem"
+- "SafeCategory"
+- "SpeakScreenGestureRecognizer"
+- "T#,R"
+- "T@\"<SBAppSwticherAppAccessibilityElementDelegate>\",W,N,V_delegate"
+- "T@\"<SBVoiceOverTouchLabelElementAlertItemDelegate>\",W,N,V_voiceOverAlertItemDelegate"
+- "T@\"<UIFocusEnvironment>\",R,W,N"
+- "T@\"<UIFocusItemContainer>\",R,N"
+- "T@\"NSArray\",R,C,N"
+- "T@\"NSArray\",R,N"
+- "T@\"NSMutableDictionary\",R,N"
+- "T@\"NSString\",&,N,V_initialValue"
+- "T@\"NSString\",&,N,V_title"
+- "T@\"NSString\",?,R,C"
+- "T@\"NSString\",?,R,C,N"
+- "T@\"NSString\",R,C"
+- "T@\"SBAppLayoutAccessibility\",&,N,V_appLayout"
+- "T@\"SBFluidSwitcherContentViewAccessibility\",W,N,V_contentView"
+- "T@\"SBFluidSwitcherItemContainerAccessibility\",W,N,V_itemContainer"
+- "T@\"SBFluidSwitcherViewControllerAccessibility\",R,N"
+- "T@\"UIView\",?,R,W,N"
+- "T@,&,N,V_appLayout"
+- "T@,W,N,V_deckSwitcherDelegate"
+- "T@?,C,N,G_axSwitcherType,S_setAXSwitcherType:"
+- "TB,D,N"
+- "TB,N,V_leading"
+- "TB,N,V_screenCurtainEnabled"
+- "TB,N,V_show"
+- "TB,N,VinVoiceOverPassthroughMode"
+- "TB,R,N"
+- "TB,R,N,GisUILocked"
+- "TB,R,N,V_isControlCenter"
+- "TQ,N,V_gesture"
+- "TQ,R"
+- "Ti,R,N"
+- "Tq,N,V_overriddenState"
+- "UIAlertViewDelegate"
+- "UIFocusEnvironment"
+- "UILocked"
+- "UITextFieldDelegate"
+- "Vv16@0:8"
+- "^{_NSZone=}16@0:8"
+- "^{__CFMachPort=}"
+- "_AXTodayPanGestureRecognizer"
+- "__BBBulletinAccessibility_super"
+- "__SBActivityAmbientViewControllerAccessibility_super"
+- "__SBAlertItemWindowAccessibility_super"
+- "__SBAlertItemsControllerAccessibility_super"
+- "__SBAppClipOverlayViewControllerAccessibility_super"
+- "__SBAppLayoutAccessibility_super"
+- "__SBAppResizeGrabberViewAccessibility_super"
+- "__SBAppSwitcherPageViewAccessibility_super"
+- "__SBAppSwitcherPeopleButtonAndLabelViewAccessibility_super"
+- "__SBAppSwitcherPeopleContactViewAccessibility_super"
+- "__SBAppSwitcherPeopleScrollViewAccessibility_super"
+- "__SBAppSwitcherPeopleViewControllerAccessibility_super"
+- "__SBAppSwitcherScrollViewAccessibility_super"
+- "__SBAppThumbnailGridViewAccessibility_super"
+- "__SBAppThumbnailViewAccessibility_super"
+- "__SBAppToAppWorkspaceTransactionAccessibility_super"
+- "__SBAppViewControllerAccessibility_super"
+- "__SBApplicationAccessibility_super"
+- "__SBAssistantControllerAccessibility_super"
+- "__SBAssistantWindowAccessibility_super"
+- "__SBBacklightControllerAccessibility_super"
+- "__SBBannerWindowAccessibility_super"
+- "__SBBookmarkIconAccessibility_super"
+- "__SBCallAlertDisplayAccessibility_super"
+- "__SBCommandTabControllerAccessibility_super"
+- "__SBCommandTabViewControllerAccessibility_super"
+- "__SBContinuousExposeWindowDragContainerSwitcherModifierAccessibility_super"
+- "__SBContinuousExposeWindowDragDestinationSwitcherModifierAccessibility_super"
+- "__SBControlCenterControllerAccessibility_super"
+- "__SBControlCenterWindowAccessibility_super"
+- "__SBCoverSheetPresentationManagerAccessibility_super"
+- "__SBCoverSheetWindowAccessibility_super"
+- "__SBCursiveTextViewAccessibility_super"
+- "__SBDashBoardLockScreenEnvironmentAccessibility_super"
+- "__SBDashBoardSetupViewAccessibility_super"
+- "__SBDashBoardSetupViewControllerAccessibility_super"
+- "__SBDeckSwitcherViewControllerAccessibility_super"
+- "__SBDeleteNonAppIconAlertItemAccessibility_super"
+- "__SBDeviceApplicationSceneClassicAccessoryViewAccessibility_super"
+- "__SBDeviceApplicationSceneViewControllerAccessibility_super"
+- "__SBDisplayBrightnessControllerAccessibility_super"
+- "__SBDisplayItemAccessibility_super"
+- "__SBDynamicFlashlightActivityElementViewAccessibility_super"
+- "__SBDynamicFlashlightActivityElementViewControllerAccessibility"
+- "__SBElasticHUDViewControllerAccessibility_super"
+- "__SBElasticSliderViewAccessibility_super"
+- "__SBFlashlightActivityElementAccessibility_super"
+- "__SBFloatingDockControllerAccessibility_super"
+- "__SBFloatingDockWindowAccessibility_super"
+- "__SBFluidSwitcherButtonAccessibility_super"
+- "__SBFluidSwitcherContentViewAccessibility_super"
+- "__SBFluidSwitcherGestureManagerAccessibility_super"
+- "__SBFluidSwitcherItemContainerAccessibility_super"
+- "__SBFluidSwitcherTitledButtonAccessibility_super"
+- "__SBFluidSwitcherTouchPassThroughScrollViewAccessibility_super"
+- "__SBFluidSwitcherViewControllerAccessibility_super"
+- "__SBFocusEnablementIndicatorSystemApertureActivityElementAccessibility_super"
+- "__SBHUDControllerAccessibility_super"
+- "__SBHomeGrabberViewAccessibility_super"
+- "__SBHomePeekWindowingModifierAccessibility_super"
+- "__SBHomeScreenOverlayControllerAccessibility_super"
+- "__SBHomeScreenOverlayViewControllerAccessibility_super"
+- "__SBHomeScreenWindowAccessibility_super"
+- "__SBIconControllerAccessibility_super"
+- "__SBIdleTimerPolicyAggregatorAccessibility_super"
+- "__SBInCallPresentationSessionAccessibility_super"
+- "__SBIsolatedSceneOrientationFollowingWrapperViewControllerAccessibility_super"
+- "__SBKeyboardFocusCoordinatorAccessibility_super"
+- "__SBLockScreenManagerAccessibility_super"
+- "__SBLogoutProgressViewAccessibility_super"
+- "__SBMainScreenActiveInterfaceOrientationWindowAccessibility_super"
+- "__SBMainSwitcherControllerCoordinatorAccessibility_super"
+- "__SBMainSwitcherWindowAccessibility_super"
+- "__SBMedusaDecoratedDeviceApplicationSceneViewControllerAccessibility_super"
+- "__SBMenuBarMainMenuViewAccessibility_super"
+- "__SBMenuBarManagerAccessibility_super"
+- "__SBMenuBarViewControllerAccessibility_super"
+- "__SBMenuBarWindowAccessibility_super"
+- "__SBMoveFloatingApplicationGestureWorkspaceTransactionAccessibility_super"
+- "__SBMoveGestureFloatingSwitcherModifierAccessibility_super"
+- "__SBNCSoundControllerAccessibility_super"
+- "__SBNotificationBannerDestinationAccessibility_super"
+- "__SBNotificationCenterControllerAccessibility_super"
+- "__SBPIPContainerViewControllerAccessibility_super"
+- "__SBPIPControllerAccessibility_super"
+- "__SBPasscodeEntryTransientOverlayViewControllerAccessibility_super"
+- "__SBPictureInPictureWindowAccessibility_super"
+- "__SBPowerAlertElementAccessibility_super"
+- "__SBPowerDownViewControllerAccessibility_super"
+- "__SBProximitySensorManagerAccessibility_super"
+- "__SBRecordingIndicatorViewControllerAccessibility_super"
+- "__SBRemoteTransientOverlayHostViewControllerAccessibility_super"
+- "__SBRestartManagerAccessibility_super"
+- "__SBReusableSnapshotItemContainerAccessibility_super"
+- "__SBRingerAlertElementAccessibility_super"
+- "__SBRootSceneWindowAccessibility_super"
+- "__SBScreenshotManagerAccessibility_super"
+- "__SBSeparatorViewAccessibility_super"
+- "__SBSlideOverTongueViewAccessibility_super"
+- "__SBStarkIconWindowAccessibility_super"
+- "__SBStatusBarWindowAccessibility_super"
+- "__SBSwitchAppSystemGestureWorkspaceTransactionAccessibility_super"
+- "__SBSwitcherAppSuggestionBannerViewAccessibility_super"
+- "__SBSwitcherAppSuggestionViewControllerAccessibility_super"
+- "__SBSwitcherControllerAccessibility_super"
+- "__SBSwitcherShelfViewAccessibility_super"
+- "__SBSwitcherShelfViewControllerAccessibility_super"
+- "__SBSwitcherViewControllerAccessibility_super"
+- "__SBSyncControllerAccessibility_super"
+- "__SBSystemActionCoachingControllerAccessibility_super"
+- "__SBSystemActionCoachingHUDViewControllerAccessibility_super"
+- "__SBSystemActionSimpleAccessibilityPreviewElementAccessibility_super"
+- "__SBSystemApertureStatusBarPillElementAccessibility_super"
+- "__SBSystemApertureTelemetryEmitterAccessibility_super"
+- "__SBSystemApertureViewControllerAccessibility_super"
+- "__SBSystemApertureWindowAccessibility_super"
+- "__SBTelephonyManagerAccessibility_super"
+- "__SBTopAffordanceDotsViewAccessibility_super"
+- "__SBTopAffordanceViewControllerAccessibility_super"
+- "__SBTransientOverlayWindowAccessibility_super"
+- "__SBUIAlertViewAccessibility_super"
+- "__SBUIAnimationControllerAccessibility_super"
+- "__SBUIApplicationAccessibility_super"
+- "__SBUIButtonAccessibility_super"
+- "__SBUIControlAccessibility_super"
+- "__SBUIControllerAccessibility_super"
+- "__SBUIImageViewAccessibility_super"
+- "__SBUILabelAccessibility_super"
+- "__SBUIRemoteKeyboardWindowAccessibility_super"
+- "__SBUISegmentedControlAccessibility_super"
+- "__SBUITableViewAccessibility_super"
+- "__SBUITableViewCellAccessibilityElementAccessibility_super"
+- "__SBUITextEffectsRemoteViewAccessibility_super"
+- "__SBUIViewAccessibility_super"
+- "__SBUIViewControllerWrapperViewAccessibility_super"
+- "__SBUIWindowAccessibility_super"
+- "__SBWallpaperControllerAccessibility_super"
+- "__SBWindowSceneAccessibility_super"
+- "__SBWorkspaceAccessibility_super"
+- "__STUIStatusBarAccessibility__SpringBoardFramework__SystemStatusUI_super"
+- "__SpringBoardAccessibility_super"
+- "___NowPlayingArtViewAccessibility_super"
+- "___SBCoverSheetSubviewHitTestingViewAccessibility_super"
+- "___SBTopAffordanceViewAccessibility_super"
+- "___SBWallpaperSecureWindowAccessibility_super"
+- "___UIFocusSystemSceneComponentAccessibility__SpringBoardFramework__UIKit_super"
+- "__accessibilityUpdateSpeakScreenGestureRecognizer"
+- "__axMoveWindowElement"
+- "__axSetMoveWindowElement:"
+- "_accessibilityActionsForSideAppDivider"
+- "_accessibilityActionsForSlideOverApp"
+- "_accessibilityActiveSceneIdentifier"
+- "_accessibilityAddToCenterStateAction"
+- "_accessibilityAdditionalHitTestElements"
+- "_accessibilityAllWindowsOnlyVisibleWindows:"
+- "_accessibilityAllowShowNotificationGestureOverride"
+- "_accessibilityAncestorIsKindOf:"
+- "_accessibilityAppIconValues"
+- "_accessibilityAppLayoutAtCurrentContentOffset"
+- "_accessibilityAppQuitNotificationsRegistered"
+- "_accessibilityAppSwitcherApps"
+- "_accessibilityAppleIntelligenceSiriRequestsPresenting"
+- "_accessibilityApplicationIsRTL"
+- "_accessibilityApplicationOrientation"
+- "_accessibilityAutomationType"
+- "_accessibilityBoolValueForKey:"
+- "_accessibilityBounds"
+- "_accessibilityBundleIdentifier"
+- "_accessibilityCanAccessHomeScreenDuringOneness"
+- "_accessibilityCanBeConsideredAsMainWindow"
+- "_accessibilityCanCloseApp"
+- "_accessibilityCanDrag"
+- "_accessibilityCanPerformAction:"
+- "_accessibilityCenterPointOfScreen"
+- "_accessibilityCloseApp:"
+- "_accessibilityCloseOpenFolder"
+- "_accessibilityContainerView"
+- "_accessibilityContextMenuContainerView"
+- "_accessibilityCoverSheetViewController"
+- "_accessibilityCurrentCallState"
+- "_accessibilityCurrentPageIndex"
+- "_accessibilityCustomActionGroupIdentifier"
+- "_accessibilityDescendantOfType:"
+- "_accessibilityElementCommunityIdentifier"
+- "_accessibilityElementVisibilityAffectsLayout"
+- "_accessibilityFindAncestor:startWithSelf:"
+- "_accessibilityFindDescendant:"
+- "_accessibilityFindSubviewDescendant:"
+- "_accessibilityFindSubviewDescendantsPassingTest:"
+- "_accessibilityFindUnsortedSubviewDescendantsPassingTest:"
+- "_accessibilityFocusActiveActivityName"
+- "_accessibilityFocusOnAppWithPid:bundleIdentifier:identifier:"
+- "_accessibilityFocusOnSpringBoardWithSceneID:"
+- "_accessibilityFrontmostItemContainer"
+- "_accessibilityGeometrySortedElements:"
+- "_accessibilityHandleOrientationChange"
+- "_accessibilityHandleSpeakScreenGesture:"
+- "_accessibilityHasMultipleWindows"
+- "_accessibilityHitTest:withEvent:"
+- "_accessibilityHitTestsStatusBar"
+- "_accessibilityHomeAffordanceView"
+- "_accessibilityIconListIndex"
+- "_accessibilityIgnoresStatusBarFrame"
+- "_accessibilityInTodayViewController"
+- "_accessibilityInfoPanelController"
+- "_accessibilityInfoPanelView"
+- "_accessibilityInfoPanelWindow"
+- "_accessibilityInterfaceOrientationForScreenCoordinates"
+- "_accessibilityInvalidateSpringBoardKeyboardDeferral"
+- "_accessibilityIsAlarmRinging"
+- "_accessibilityIsAppReadyToBeProbed"
+- "_accessibilityIsAppSwitcherVisible"
+- "_accessibilityIsBatteryLow"
+- "_accessibilityIsBuddyRunning"
+- "_accessibilityIsDescendantOfElement:"
+- "_accessibilityIsFKARunningForFocusItem"
+- "_accessibilityIsFirstElementForFocus"
+- "_accessibilityIsFocusLockedToSpringBoard"
+- "_accessibilityIsFrameOutOfBounds"
+- "_accessibilityIsInAppSwitcher"
+- "_accessibilityIsInJindo"
+- "_accessibilityIsInMenuBar"
+- "_accessibilityIsInWidgetStack"
+- "_accessibilityIsIsolatedWindow"
+- "_accessibilityIsJindo"
+- "_accessibilityIsLeafNodeWithOptions:"
+- "_accessibilityIsNewWindowContainer"
+- "_accessibilityIsNonDismissableStatusBarElement"
+- "_accessibilityIsNotFirstElement"
+- "_accessibilityIsRTL"
+- "_accessibilityIsShelfItemContainer"
+- "_accessibilityIsSoftwareKeyboardMimic"
+- "_accessibilityIsSpeakThisTemporarilyDisabled"
+- "_accessibilityIsSystemAppServer"
+- "_accessibilityIsSystemLocked"
+- "_accessibilityIsSystemSleeping"
+- "_accessibilityIsVisibleByCompleteHitTest"
+- "_accessibilityIsVoiceControlRunning"
+- "_accessibilityItemContainerFooterView"
+- "_accessibilityItemContainerHeaderView"
+- "_accessibilityKeyCommands"
+- "_accessibilityLaunchableApps"
+- "_accessibilityLeafDescendantsWithOptions:"
+- "_accessibilityLeftOfHomeTodayViewIsVisible"
+- "_accessibilityLeftOfLockTodayViewIsVisible"
+- "_accessibilityLoadAccessibilityInformation"
+- "_accessibilityLoadPIPInfo"
+- "_accessibilityMainWindow"
+- "_accessibilityMarkIconAsAnimating:"
+- "_accessibilityMarkupView"
+- "_accessibilityMultitaskingButtonContainer"
+- "_accessibilityMultitaskingElements"
+- "_accessibilityNativeFocusPreferredElement"
+- "_accessibilityNextDockElementStartingAtDisplayID:"
+- "_accessibilityNonVisibleElements:"
+- "_accessibilityNonVisibleElementsAfterVisible"
+- "_accessibilityNonVisibleElementsBeforeVisible"
+- "_accessibilityNotificationCenterGestureActive"
+- "_accessibilityNotificationCount"
+- "_accessibilityNotificationGestureInProgress"
+- "_accessibilityNotificationSummary:"
+- "_accessibilityOccludedAppSceneIdentifiers"
+- "_accessibilityOccludedMultitaskingApps"
+- "_accessibilityOnlyComparesByXAxis"
+- "_accessibilityOpaqueElementScrollsContentIntoView"
+- "_accessibilityOrientationDeferralAssertion"
+- "_accessibilityOverlayTodayViewIsVisible"
+- "_accessibilityOverridesInvalidFrames"
+- "_accessibilityOverridesInvisibility"
+- "_accessibilityPIPCoordinator"
+- "_accessibilityPageCount"
+- "_accessibilityParentForFindingScrollParent"
+- "_accessibilityPerformValidations:"
+- "_accessibilityPictureInPictureWindow"
+- "_accessibilityPointInside:withEvent:"
+- "_accessibilityPreferredScrollActions"
+- "_accessibilityPrimaryApplication"
+- "_accessibilityPrimaryKeyboardFocusOverridePid"
+- "_accessibilityReenabled"
+- "_accessibilityRegisterAppQuitNotifications"
+- "_accessibilityRemoteElement"
+- "_accessibilityRemoteKeyboardApp"
+- "_accessibilityRemoveValueForKey:"
+- "_accessibilityResizeGrabber"
+- "_accessibilityRetainsCustomRotorActionSetting"
+- "_accessibilityRoleDescription"
+- "_accessibilityRootFolderController"
+- "_accessibilityRootFolderViewController"
+- "_accessibilitySafeStackView"
+- "_accessibilitySceneApplicationPid"
+- "_accessibilitySceneIdentifier"
+- "_accessibilityScrollAncestor"
+- "_accessibilityScrollStatus"
+- "_accessibilityScrollToVisible"
+- "_accessibilitySecondaryKeyboardFocusOverridePid"
+- "_accessibilitySectionNameForIcon"
+- "_accessibilityServesAsFirstElement"
+- "_accessibilitySetAdditionalElements:"
+- "_accessibilitySetAllowShowNotificationGestureOverride:"
+- "_accessibilitySetAllowsSiblingsWhenOvergrown:"
+- "_accessibilitySetAppQuitNotificationsRegistered:"
+- "_accessibilitySetAssignedValue:forKey:"
+- "_accessibilitySetBoolValue:forKey:"
+- "_accessibilitySetInternalCustomActionIdentifier:"
+- "_accessibilitySetIsInMenuBar:"
+- "_accessibilitySetNativeFocus"
+- "_accessibilitySetNotificationGestureInProgress:"
+- "_accessibilitySetOverridesInvisibility:"
+- "_accessibilitySetPrimaryKeyboardFocusOverridePid:sceneID:"
+- "_accessibilitySetRemoteElement:"
+- "_accessibilitySetRetainedValue:forKey:"
+- "_accessibilitySetSecondaryKeyboardFocusOverridePid:sceneID:"
+- "_accessibilitySetShouldCallAXStatusChangedOnAppLaunchFinish:"
+- "_accessibilitySetShouldLoadAXInfoOnAppLaunchFinish:"
+- "_accessibilitySetSortPriority:"
+- "_accessibilitySetSpeakScreenGestureRecognizer:"
+- "_accessibilitySetValue:forKey:storageMode:"
+- "_accessibilitySetViewIsVisible:"
+- "_accessibilityShouldBeProcessed:"
+- "_accessibilityShouldCallAXStatusChangedOnAppLaunchFinish"
+- "_accessibilityShouldHitTestStatusBarWindow"
+- "_accessibilityShouldIncludeArrowKeyCommandsForDirectionalFocusMovement"
+- "_accessibilityShouldLoadAXInfoOnAppLaunchFinish"
+- "_accessibilitySideAppDividerElement"
+- "_accessibilitySlideOverApplication"
+- "_accessibilitySoftwareMimicKeyboard"
+- "_accessibilitySortPriority"
+- "_accessibilitySortedElementsWithin"
+- "_accessibilitySpeakScreenGestureRecognizer"
+- "_accessibilitySpotlightIsVisible"
+- "_accessibilitySpotlightMultiplexingViewController"
+- "_accessibilitySpringBoardIsModal"
+- "_accessibilityState"
+- "_accessibilityStatusBar"
+- "_accessibilityStatusBarElements:sorted:"
+- "_accessibilityStatusChanged"
+- "_accessibilityStatusChanged:"
+- "_accessibilitySupplementaryFooterViews"
+- "_accessibilitySupportsActivateAction"
+- "_accessibilitySwitchControlStatusChanged"
+- "_accessibilitySwitchNativeFocusedApplicationWithPID:identifier:"
+- "_accessibilitySystemAppServerIsReady"
+- "_accessibilitySystemWideGestureInProgress"
+- "_accessibilityTitleItem"
+- "_accessibilityTodayOverlayController"
+- "_accessibilityTokenStringForPid:sceneID:"
+- "_accessibilityTraversalWindows"
+- "_accessibilityUnregisterAppQuitNotifications"
+- "_accessibilityUpdateRingerState"
+- "_accessibilityUpdateSpeakScreenGestureRecognizer"
+- "_accessibilityUpdatesSwitchMenu"
+- "_accessibilityUseAccessibilityFrameForHittest"
+- "_accessibilityUseWindowBoundsForOutOfBoundsChecking"
+- "_accessibilityUserFocusRequestForScene:"
+- "_accessibilityValueForKey:"
+- "_accessibilityViewAncestorIsKindOf:"
+- "_accessibilityViewController"
+- "_accessibilityViewIsVisible"
+- "_accessibilityVisibleFrame"
+- "_accessibilityVoiceOverStatusChanged"
+- "_accessibilityWindow"
+- "_accessibilityWindowControlsView"
+- "_accessibilityWindowVisible"
+- "_accessibilityWriteOutDataResetForAXSettings:"
+- "_announcementStringForQuadrant:"
+- "_appearState"
+- "_applicationKeyWindow"
+- "_axAddVisibleItemContainer:forAppLayout:"
+- "_axAdditionalElements"
+- "_axAdjustedIndex:forScrollDirection:"
+- "_axAllHandlesInCall:"
+- "_axAnnotateView"
+- "_axAppElements"
+- "_axAppElementsDictionary"
+- "_axAppLayout"
+- "_axAppLayoutForAppIdentifier:"
+- "_axAppLayoutType"
+- "_axAppLayouts"
+- "_axApplicationDisplayName"
+- "_axBundleIdentifier"
+- "_axChamoisActiveAppLayouts"
+- "_axChamoisActiveApps"
+- "_axClearKeyboardFocusOverrideDeferral"
+- "_axCollectedAppLayouts"
+- "_axCollectedVisibleItemContainers"
+- "_axContactForHandle:"
+- "_axContainerApplicationLabel"
+- "_axContentView"
+- "_axCreateAppElements"
+- "_axCreateAppElementsForLayouts:visibleItemContainers:"
+- "_axCreateInitialAppElements"
+- "_axCreateRemoteElementIfNecessary"
+- "_axCurrentAppLayoutIndex"
+- "_axCurrentPageControl"
+- "_axDeferKeyboardFocusToPid:sceneID:forPrimaryOverride:"
+- "_axDestinationAppName"
+- "_axDidDismissPIP"
+- "_axDidQuitApp:"
+- "_axDisplayItems"
+- "_axDragManager"
+- "_axElementForAppLayout:"
+- "_axElements:"
+- "_axEnvironmentMode"
+- "_axExpandPIPWindow"
+- "_axFloatingConfigurationForGestureEvent:withZeroVelocity:"
+- "_axFloatingDockController"
+- "_axFluidSwitcher"
+- "_axGetCurrentFloatingConfiguration"
+- "_axGetFinishedFloatingConfiguration"
+- "_axGetFirstCall"
+- "_axGetFirstDestination"
+- "_axGetFirstDestinationHandleValue"
+- "_axGetHandlesAndLoadFirstDestinationInCall:"
+- "_axGridLayoutModifierIfExists"
+- "_axHandlePageViewTap:"
+- "_axHasMultirowLayout"
+- "_axHideAppLibrary"
+- "_axHideTodayView"
+- "_axIconScrollView"
+- "_axIconValue"
+- "_axIdentifierOfAppInLayoutState:"
+- "_axInitialFloatingConfiguration"
+- "_axIsAcquiringSpringBoardDeferral"
+- "_axIsAnySwitcherVisible"
+- "_axIsAppActive"
+- "_axIsAppLibraryOrTodayViewPresent"
+- "_axIsAppSwitcherPeeking"
+- "_axIsChamoisSwitcherVisible"
+- "_axIsControlCenterVisible"
+- "_axIsCoverSheetTodayViewControllerPresent"
+- "_axIsFloatingDockWindow"
+- "_axIsInvalidatingSpringBoardDeferral"
+- "_axIsKeyUIEventCommandTab:"
+- "_axIsMainSwitcherVisible"
+- "_axIsShelfSwitcherVisible"
+- "_axIsShowingAppLibrary"
+- "_axIsShowingHomeScreenTodayView"
+- "_axIsSidebarPinned"
+- "_axIsSpringBoardMainSceneComponent"
+- "_axIsSystemApertureSceneComponent"
+- "_axIsTypeOfMainSwitcherVisible"
+- "_axIsVisible"
+- "_axItemContainerForGestureRecognizer:"
+- "_axKeyboardFocusCoordinator"
+- "_axLabelForIcons:"
+- "_axLabelWithFirstIconTitle:secondIconTitle:"
+- "_axLeftArrowPressed"
+- "_axLoadFirstDestinationIfNecessary"
+- "_axMainSwitcher"
+- "_axMarkupView"
+- "_axMoveWindowElement"
+- "_axMultiAppNubletsVisible"
+- "_axNativeFocusedApplicationDeathWatcher"
+- "_axNativeFocusedApplicationDeferral"
+- "_axNeedsToDismissHomeScreenTodayView"
+- "_axNumberOfPages"
+- "_axPageForIndex:"
+- "_axParentAppLayout"
+- "_axPegasusController"
+- "_axPerformGestureForAction:"
+- "_axPerformScrollToIndex:completion:"
+- "_axPredicateForHandle:"
+- "_axPrimaryKeyboardFocusOverridePid"
+- "_axPrimaryKeyboardFocusOverrideSceneID"
+- "_axRemoteContentViewController"
+- "_axRemoteServiceBundleIdentifier"
+- "_axRemoveVisibleItemContainerForAppLayout:"
+- "_axRightArrowPressed"
+- "_axScaleTransformForFocusLayerLineWidth"
+- "_axScrollStatusForIndex:"
+- "_axScrollToAppElement:"
+- "_axScrollToAppLayout:completion:"
+- "_axSecondaryKeyboardFocusOverridePid"
+- "_axSecondaryKeyboardFocusOverrideSceneID"
+- "_axSetApplicationDisplayName:"
+- "_axSetCurrentFloatingConfiguration:"
+- "_axSetElementsArray:dictionary:"
+- "_axSetFinishedFloatingConfiguration:"
+- "_axSetFirstDestination:"
+- "_axSetFirstDestinationHandleValue:"
+- "_axSetIsAcquiringSpringBoardDeferral:"
+- "_axSetIsInvalidatingSpringBoardDeferral:"
+- "_axSetKeyboardFocusPid:sceneID:forPrimaryOverride:"
+- "_axSetLastLockSource:"
+- "_axSetNativeFocusedApplicationDeathWatcher:"
+- "_axSetNativeFocusedApplicationDeferral:"
+- "_axSetPrimaryKeyboardFocusOverridePid:"
+- "_axSetPrimaryKeyboardFocusOverrideSceneID:"
+- "_axSetSecondaryKeyboardFocusOverridePid:"
+- "_axSetSecondaryKeyboardFocusOverrideSceneID:"
+- "_axSetSpringBoardDeferral:"
+- "_axSetUpAffordanceViewController"
+- "_axSetUpSwitcherViewControllers"
+- "_axSetUpWrapperViews"
+- "_axSetWasRingerMuted:"
+- "_axSetupActivationLockLabels"
+- "_axSetupShelfSwitcherViewController"
+- "_axShouldReverseElements"
+- "_axShouldUseRemoteElement"
+- "_axShowAppLibrary"
+- "_axShowTodayView"
+- "_axShrinkPIPWindow"
+- "_axSideAppDivider"
+- "_axSortedElementArray:"
+- "_axSpringBoardDeferral"
+- "_axSpringBoardMainWindowScene"
+- "_axStashPIPWindow"
+- "_axSwitcherIsVisible"
+- "_axSwitcherType"
+- "_axSwitcherViewController"
+- "_axTongueGrabber"
+- "_axUpdateElementOrderingIfNecessary"
+- "_axUpdateElements:withVisibleItemContainers:"
+- "_axVisibleAppLayouts"
+- "_axWasRingerMuted"
+- "_ax_adjustedContentOffsetForDifferentialScrollingToShowFocusItemWithInfo:proposedContentOffset:"
+- "_backgroundView"
+- "_bezierPathWithArcRoundedRect:cornerRadius:"
+- "_cleanupAfterTransition:"
+- "_containerViewForLegacyFocusRing"
+- "_contintuityDisplayID"
+- "_contintuityDisplayIsActive"
+- "_continuityDisplayMonitor"
+- "_deckSwitcherDelegate"
+- "_destroyWindowAndRootViewControllerIfPossible"
+- "_dismissLabelAlert"
+- "_displayFrame"
+- "_displayOnBottomEdge"
+- "_fbProceessBundleIDsRecentlyAdded"
+- "_fbProcessesCurrentlyActiveForContinuity"
+- "_finishUIUnlockFromSource:withOptions:"
+- "_firstStatusBarElement"
+- "_focusSystemSceneComponent"
+- "_gesture"
+- "_handleKeyUIEvent:"
+- "_handlePageViewTap:"
+- "_handlePerformTransitionFinishedWithIdentifier:environmentMode:"
+- "_hidEvent"
+- "_ignoresHitTest"
+- "_initialValue"
+- "_iosAccessibilityAttributeValue:"
+- "_iosAccessibilityAttributeValue:forParameter:"
+- "_iosAccessibilityPerformAction:withValue:fencePort:"
+- "_iosAccessibilitySetValue:forAttribute:"
+- "_isControlCenter"
+- "_isDim"
+- "_isKeyDown"
+- "_isSessionLoginSession"
+- "_itemContainer"
+- "_keyboardFocusCoordinator"
+- "_labelAlert"
+- "_labelView"
+- "_lastStatusBarElement"
+- "_layoutSubviews"
+- "_layoutSubviews:"
+- "_leading"
+- "_legacy_noteInterfaceOrientationChanged: duration: updateMirroredDisplays: force: logMessage:"
+- "_legacy_noteInterfaceOrientationChanged:duration:updateMirroredDisplays:force:logMessage:"
+- "_legacy_sizeWithFont:constrainedToSize:lineBreakMode:"
+- "_mainDisplayHomeScreenController"
+- "_modifiedInput"
+- "_monitorContinuityDisplayChanges"
+- "_overriddenState"
+- "_postAnnouncement:"
+- "_processAccessibilityStatusChange:"
+- "_programmaticAppSwitch:"
+- "_quadrantForContentView"
+- "_registerForMachConnection"
+- "_registerObserversForFBProcessManager"
+- "_registerVOTConnectionWithPort:"
+- "_registerforAXNotifications"
+- "_resetContinuityStateForActiveProcesses"
+- "_rootView"
+- "_sceneIdentifier"
+- "_screenCurtainEnabled"
+- "_sectionDescription:"
+- "_sections:intersectingBounds:"
+- "_setAXSwitcherType:"
+- "_setAccessibilityActivateBlock:"
+- "_setAccessibilityCustomActionsBlock:"
+- "_setAccessibilityCustomContentBlock:"
+- "_setAccessibilityElementsBlock:"
+- "_setAccessibilityElementsHiddenBlock:"
+- "_setAccessibilityFrameBlock:"
+- "_setAccessibilityIsNotFirstElement:"
+- "_setAccessibilityLabelBlock:"
+- "_setAccessibilityOrientationDeferralAssertion:"
+- "_setAccessibilityViewIsModalBlock:"
+- "_setAccessibilityWindowVisible:"
+- "_setContintuityDisplayID:"
+- "_setContintuityDisplayIsActive:"
+- "_setContinuityDisplayMonitor:"
+- "_setFBProceessBundleIDsRecentlyAdded:"
+- "_setFBProcessesCurrentlyActiveForContinuity:"
+- "_setShortName:"
+- "_setup"
+- "_show"
+- "_showQuitButton:"
+- "_showingBuddyLockScreen"
+- "_stopContinuityDisplayMonitorIfNecessary"
+- "_subviewsReplacedByModalViewSubviewsIfNecessary:"
+- "_threeByThreeSectionsOfRect:"
+- "_title"
+- "_unregisterObserversForFBProcessManager"
+- "_updateContinuityAttributesForProcess:isActive:"
+- "_updateContinuityStateForAXReadyNotificationData:"
+- "_updateStateWithTransitionType:"
+- "_visibleWindows"
+- "_voiceOverAlertItemDelegate"
+- "_votMachPort"
+- "_xDimensionForTransition"
+- "accessibilityActivate"
+- "accessibilityActivationPoint"
+- "accessibilityAnnounceSelectedIcon"
+- "accessibilityCompareGeometry:"
+- "accessibilityContainer"
+- "accessibilityContainerType"
+- "accessibilityCustomActions"
+- "accessibilityDisable"
+- "accessibilityElementAtIndex:"
+- "accessibilityElementCount"
+- "accessibilityElements"
+- "accessibilityElementsHidden"
+- "accessibilityFrame"
+- "accessibilityHint"
+- "accessibilityIdentification"
+- "accessibilityIdentifier"
+- "accessibilityInitialize"
+- "accessibilityInitializeBundle"
+- "accessibilityLabel"
+- "accessibilityLanguage"
+- "accessibilityNavigationStyle"
+- "accessibilityPath"
+- "accessibilityPerformAction:withValue:fencePort:"
+- "accessibilityPerformEscape"
+- "accessibilityPerformMagicTap"
+- "accessibilityRemoteSubstituteChildren:"
+- "accessibilityRespondsToUserInteraction"
+- "accessibilityScroll:"
+- "accessibilityScrollToVisible"
+- "accessibilitySetIdentification:"
+- "accessibilityStartStopToggle"
+- "accessibilityTraits"
+- "accessibilityValue"
+- "accessibilityViewIsModal"
+- "accessiblityLabel"
+- "actionWithTitle:style:handler:"
+- "activeActivity"
+- "addAction:"
+- "addGestureRecognizer:toDisplayWithIdentity:"
+- "addHandler:forBundleName:"
+- "addIndex:"
+- "addObject:"
+- "addObjectsFromArray:"
+- "addObserver:"
+- "addObserver:selector:name:object:"
+- "addObserverForName:object:queue:usingBlock:"
+- "addSubview:"
+- "addTextFieldWithConfigurationHandler:"
+- "afterDelay:processBlock:"
+- "alertController"
+- "alertView:clickedButtonAtIndex:"
+- "alertView:didDismissWithButtonIndex:"
+- "alertView:willDismissWithButtonIndex:"
+- "alertViewCancel:"
+- "alertViewShouldEnableFirstOtherButton:"
+- "allKeys"
+- "allObjects"
+- "allProcesses"
+- "allValues"
+- "allowMenuButtonDismissal"
+- "allowedMedusaGestures"
+- "animateWithDuration:animations:"
+- "animateWithDuration:animations:completion:"
+- "anyObject"
+- "appElementIsAccessibilityElement:"
+- "appForLayoutRole:"
+- "applicationOrientation"
+- "applicationProxyForIdentifier:"
+- "archivedDataWithRootObject:requiringSecureCoding:error:"
+- "areaDescriptionOfContainerElement:underElementWithBounds:"
+- "areaSizeDescriptionForContainer:"
+- "array"
+- "arrayWithObjects:count:"
+- "automationElements"
+- "autorelease"
+- "axArrayByIgnoringNilElementsWithCount:"
+- "axArrayWithPossiblyNilArrays:"
+- "axAttributedStringWithString:"
+- "axBounds"
+- "axFilterObjectsUsingBlock:"
+- "axFirstObjectsUsingBlock:"
+- "axSBCommandTabController"
+- "axSafeObjectAtIndex:"
+- "axSafelyAddObject:"
+- "axSafelyAddObjectsFromArray:"
+- "ax_filteredArrayUsingBlock:"
+- "ax_filteredSetUsingBlock:"
+- "ax_firstObjectUsingBlock:"
+- "ax_mappedArrayUsingBlock:"
+- "beginAnimation"
+- "bezierPathWithRoundedRect:byRoundingCorners:cornerRadii:"
+- "biometricAuthenticationCoordinator:requestsUnlockWithIntent:"
+- "blackColor"
+- "boolValue"
+- "bounds"
+- "bundleForClass:"
+- "bundleURL"
+- "bundleWithPath:"
+- "bytes"
+- "canPerformAppSwitch"
+- "canShowAXInfoPanel"
+- "categoryIdentifier"
+- "center"
+- "class"
+- "clearColor"
+- "clientHandle"
+- "colorWithAlphaComponent:"
+- "configurationForContinuityDisplay"
+- "configure:requirePasscodeForActions:"
+- "conformsToProtocol:"
+- "containsObject:"
+- "containsString:"
+- "contentOffset"
+- "convertRect:fromView:"
+- "convertRect:toView:"
+- "copy"
+- "cornerRadius"
+- "count"
+- "countByEnumeratingWithState:objects:count:"
+- "createDirectoryAtPath:withIntermediateDirectories:attributes:error:"
+- "currentAudioAndVideoCalls"
+- "currentCalls"
+- "currentDevice"
+- "currentHandler"
+- "customContentWithLabel:value:"
+- "d16@0:8"
+- "d24@0:8d16"
+- "d32@0:8@16@24"
+- "dataWithContentsOfURL:"
+- "date"
+- "dealloc"
+- "debugDescription"
+- "deckSwitcherDelegate"
+- "defaultCenter"
+- "defaultConnection"
+- "defaultManager"
+- "description"
+- "descriptorForRequiredKeysForStyle:"
+- "dictionary"
+- "dictionaryWithObjects:forKeys:count:"
+- "dictionaryWithObjectsAndKeys:"
+- "didCancelSpeakThisErrorHandler:"
+- "didPotentiallyDismissNonExclusiveSystemUI"
+- "didPresentAlertView:"
+- "didUpdateFocusInContext:withAnimationCoordinator:"
+- "dismiss"
+- "dismissAnimated:fromCurrentState:withStepper:completion:"
+- "dismissAppSwitcher"
+- "dismissShelfSwitcher"
+- "displayConfiguration"
+- "displayID"
+- "displayIdentity"
+- "displayOnBottomEdge"
+- "displayedCallFromCalls:"
+- "elementLabelerVisible"
+- "enumerateContactsWithFetchRequest:error:usingBlock:"
+- "enumerateObjectsUsingBlock:"
+- "f24@0:8q16"
+- "fadeOut"
+- "fbSceneIdentifier"
+- "fileExistsAtPath:"
+- "fileSystemRepresentation"
+- "firstObject"
+- "focusGroupIdentifier"
+- "focusItemContainer"
+- "focusedOccludedAppScenes"
+- "frame"
+- "gesture"
+- "givenName"
+- "grayColor"
+- "gsModifierState"
+- "handle"
+- "handleFailureInFunction:file:lineNumber:description:"
+- "handleOrientationChange"
+- "hasActiveOrPendingCallOrFaceTime"
+- "hash"
+- "hide"
+- "i16@0:8"
+- "identity"
+- "identityToken"
+- "ignoreLogging"
+- "inVoiceOverPassthroughMode"
+- "indexOfAccessibilityElement:"
+- "indexOfObject:"
+- "indexOfObjectPassingTest:"
+- "init"
+- "initFileURLWithPath:isDirectory:"
+- "initGestureToShow:leading:"
+- "initWithAccessibilityContainer:"
+- "initWithCapacity:"
+- "initWithFormat:"
+- "initWithFrame:"
+- "initWithIdentifier:serviceBundleName:"
+- "initWithKeysToFetch:"
+- "initWithName:actionHandler:"
+- "initWithName:gesture:target:selector:"
+- "initWithName:target:selector:"
+- "initWithNibName:bundle:"
+- "initWithNotifications:"
+- "initWithObjects:"
+- "initWithObjectsAndKeys:"
+- "initWithPID:queue:deathHandler:"
+- "initWithStatusBarStyleOverrides:"
+- "initWithString:attributes:"
+- "initWithSystemAction:contentProvider:keyColor:"
+- "initWithTarget:action:"
+- "initWithTargetSerialQueue:"
+- "initWithTitle:"
+- "initWithUUID:andRemotePid:andContextId:"
+- "initialValue"
+- "insertObjects:atIndexes:"
+- "installSafeCategories:afterDelay:validationTargetName:overrideProcessName:"
+- "installSafeCategory:canInteractWithTargetClass:"
+- "intValue"
+- "integerValue"
+- "intersectsSet:"
+- "invalidate"
+- "isAccessibilityElement"
+- "isAccessibilityOpaqueElementProvider"
+- "isAppSwitcherVisible"
+- "isApplicationProcess"
+- "isBuddyRunning"
+- "isChamoisOrFlexibleWindowing"
+- "isChamoisWindowingUIEnabled"
+- "isContinuitySessionActive"
+- "isControlCenter"
+- "isControlCenterVisible"
+- "isDimmed"
+- "isDockVisible"
+- "isEqual:"
+- "isEqualToString:"
+- "isForeground"
+- "isHidden"
+- "isIdling"
+- "isKindOfClass:"
+- "isMediaPlayingForApp:completionHandler:"
+- "isMemberOfClass:"
+- "isMenuBarModal"
+- "isPIPWindowVisible"
+- "isPasscodeLockVisible"
+- "isProxy"
+- "isRunning"
+- "isScreenLockedWithPasscode:"
+- "isScrollEnabled"
+- "isSelectable"
+- "isShelfSwitcherVisible"
+- "isShowingHomescreen"
+- "isSystemApplicationProcess"
+- "isSystemSleeping"
+- "itemContainer"
+- "keyCode"
+- "keyCommandWithInput:modifierFlags:action:"
+- "keyInfo"
+- "lastLockSource"
+- "lastObject"
+- "layer"
+- "layoutSubviews"
+- "leading"
+- "length"
+- "loadView"
+- "localizedModel"
+- "localizedStringForKey:value:table:"
+- "localizedStringWithFormat:"
+- "locationInView:"
+- "lockUIFromSource:withOptions:completion:"
+- "mainDisplaySceneManager"
+- "mainIdentity"
+- "mainQueue"
+- "mainScreen"
+- "monitorWithConfiguration:"
+- "monogramTypeForContact:"
+- "mutableCopy"
+- "name"
+- "newBottomLockBarForDisplay:"
+- "newHIDEventRef"
+- "nextObject"
+- "notificationIdentifier"
+- "notificationWithName:object:"
+- "numberOfPages"
+- "numberWithBool:"
+- "numberWithInt:"
+- "numberWithInteger:"
+- "numberWithLong:"
+- "numberWithUnsignedInt:"
+- "numberWithUnsignedInteger:"
+- "objectAtIndex:"
+- "objectAtIndexedSubscript:"
+- "objectEnumerator"
+- "objectForKey:"
+- "objectForKeyedSubscript:"
+- "observer:didObserveNotification:notificationData:"
+- "options"
+- "overriddenState"
+- "parentFocusEnvironment"
+- "performMedusaGesture:"
+- "performSelector:"
+- "performSelector:withObject:"
+- "performSelector:withObject:withObject:"
+- "performValidations:withPreValidationHandler:postValidationHandler:safeCategoryInstallationHandler:"
+- "positionDescriptionFromTopLeftCornerWithOrigin:"
+- "postNotification:"
+- "postNotificationName:object:userInfo:"
+- "predicateForContactsMatchingEmailAddress:"
+- "predicateForContactsMatchingPhoneNumber:"
+- "preferredFocusEnvironments"
+- "preferredFocusedView"
+- "presentedControlCenterController._viewController"
+- "process:stateDidChangeFromState:toState:"
+- "processHandle"
+- "processManager:didAddProcess:"
+- "processManager:didRemoveProcess:"
+- "processesForBundleIdentifier:"
+- "propertyListWithData:options:format:error:"
+- "q16@0:8"
+- "q24@0:8@16"
+- "q28@0:8@16B24"
+- "reappearsAfterLock"
+- "reasons"
+- "rectValue"
+- "release"
+- "remoteElementForBlock:"
+- "removeFromSuperview"
+- "removeGestureRecognizer:fromDisplayWithIdentity:"
+- "removeObject:"
+- "removeObjectAtIndex:"
+- "removeObjectForKey:"
+- "removeObserver:"
+- "removeObserver:name:object:"
+- "removeViewAtIndex:animate:"
+- "removeVoiceOverInfoPanel:"
+- "representationWithHIDEvent:hidStreamIdentifier:"
+- "requestFocusUpdateToEnvironment:"
+- "resetCanShowAXInfoPanel"
+- "resourcePath"
+- "respondsToSelector:"
+- "retain"
+- "retainCount"
+- "reverseObjectEnumerator"
+- "runningAppProcesses"
+- "safeArrayForKey:"
+- "safeBoolForKey:"
+- "safeCGFloatForKey:"
+- "safeCGPointForKey:"
+- "safeCGRectForKey:"
+- "safeCategoryBaseClass"
+- "safeCategoryTargetClassName"
+- "safeDictionaryForKey:"
+- "safeDoubleForKey:"
+- "safeIntForKey:"
+- "safeIntegerForKey:"
+- "safeSetForKey:"
+- "safeStringForKey:"
+- "safeSwiftEnumCase"
+- "safeSwiftValueForKey:"
+- "safeUIViewForKey:"
+- "safeUnsignedIntegerForKey:"
+- "safeValueForKey:"
+- "safeValueForKeyPath:"
+- "sceneLayoutState"
+- "sceneManagerForDisplayIdentity:"
+- "sceneWithIdentifier:"
+- "screen"
+- "screenCurtainEnabled"
+- "scrollRectToVisible:animated:"
+- "sectionIdentifier"
+- "self"
+- "sendAsynchronousMessage:withIdentifier:targetAccessQueue:completion:"
+- "server"
+- "service"
+- "setAXAttribute:withNumber:"
+- "setAccessibilityAttributedLabel:"
+- "setAccessibilityContainer:"
+- "setAccessibilityElementsBlock:"
+- "setAccessibilityElementsHidden:"
+- "setAccessibilityHint:"
+- "setAccessibilityIdentifier:"
+- "setAccessibilityLabel:"
+- "setAccessibilityLabelBlock:"
+- "setAccessibilityLanguage:"
+- "setAccessibilityTraits:"
+- "setAccessibilityViewIsModal:"
+- "setAccessibilityViewIsModalBlock:"
+- "setAlpha:"
+- "setAppLayout:"
+- "setAttribute:forKey:"
+- "setAttributes:ofItemAtPath:error:"
+- "setAutomaticallyCancelPendingBlockUponSchedulingNewBlock:"
+- "setAutoresizingMask:"
+- "setBackgroundColor:"
+- "setClearButtonMode:"
+- "setContentView:"
+- "setCornerRadius:"
+- "setDebugBuild:"
+- "setDeckSwitcherDelegate:"
+- "setDelegate:"
+- "setDisplayOnBottomEdge:"
+- "setEdges:"
+- "setEnabled:"
+- "setFont:"
+- "setFrame:"
+- "setGesture:"
+- "setHidden:"
+- "setInVoiceOverPassthroughMode:"
+- "setInitialValue:"
+- "setIsAccessibilityElement:"
+- "setIsAccessibilityElementBlock:"
+- "setItemContainer:"
+- "setLabelElementPanelVisible:initialValue:"
+- "setLeading:"
+- "setLineBreakMode:"
+- "setMaximumNumberOfTouches:"
+- "setMinimumNumberOfTouches:"
+- "setNeedsFocusUpdate"
+- "setNeedsUserInteractivePriority:"
+- "setNumberOfLines:"
+- "setObject:forKey:"
+- "setObject:forKeyedSubscript:"
+- "setOverriddenState:"
+- "setOverrideProcessName:"
+- "setPidRetrieval:"
+- "setPlaceholder:"
+- "setPredicate:"
+- "setRemoteChildrenDelegate:"
+- "setReturnKeyType:"
+- "setRootViewController:"
+- "setScreenCurtainEnabled:"
+- "setScreenCurtainEnabled:animated:"
+- "setShadowColor:"
+- "setShadowOffset:"
+- "setShadowOpacity:"
+- "setShouldUseAllSubviews:"
+- "setShow:"
+- "setSorted:"
+- "setTag:"
+- "setText:"
+- "setTextAlignment:"
+- "setTextColor:"
+- "setTitle:"
+- "setTransitionHandler:"
+- "setUserInteractionEnabled:"
+- "setValidationTargetName:"
+- "setValue:forKey:"
+- "setView:"
+- "setVoiceOverAlertItemDelegate:"
+- "setVoiceOverHandwritingWasNativeAutocorrectEnabled:"
+- "setWindowLevel:"
+- "sharedActivityManager"
+- "sharedApplication"
+- "sharedPreferencesController"
+- "sharedServerHelper"
+- "shouldGroupAccessibilityChildren"
+- "shouldShowInEmergencyCall"
+- "shouldShowInLockScreen"
+- "shouldUpdateFocusInContext:"
+- "showControlCenter:"
+- "showNotificationCenter:"
+- "sortUsingComparator:"
+- "sortedArrayUsingComparator:"
+- "sortedArrayUsingSelector:"
+- "soundIdentifierForFocusUpdateInContext:"
+- "speakThisWithOptions:useAppAtPoint:errorHandler:"
+- "stateForTripleClickOption:"
+- "storedAccessibilityElementsHidden"
+- "stringByAppendingPathComponent:"
+- "stringByAppendingString:"
+- "stringByReplacingOccurrencesOfString:withString:"
+- "stringFromContact:style:"
+- "stringRepresentation"
+- "stringValue"
+- "stringWithFormat:"
+- "stringWithUTF8String:"
+- "superclass"
+- "superview"
+- "swipeTransactionFinishedAnimating:"
+- "synchronizePreferences"
+- "systemApertureControllerForMainDisplay"
+- "systemFontOfSize:"
+- "tableFooterView"
+- "tearDownVoiceOverTouchConnection"
+- "text"
+- "textField:editMenuForCharactersInRange:suggestedActions:"
+- "textField:editMenuForCharactersInRanges:suggestedActions:"
+- "textField:insertInputSuggestion:"
+- "textField:shouldChangeCharactersInRange:replacementString:"
+- "textField:shouldChangeCharactersInRanges:replacementString:"
+- "textField:willDismissEditMenuWithAnimator:"
+- "textField:willPresentEditMenuWithAnimator:"
+- "textFieldDidBeginEditing:"
+- "textFieldDidChangeSelection:"
+- "textFieldDidEndEditing:"
+- "textFieldDidEndEditing:reason:"
+- "textFieldShouldBeginEditing:"
+- "textFieldShouldClear:"
+- "textFieldShouldEndEditing:"
+- "textFieldShouldReturn:"
+- "textFields"
+- "toggleVoiceOverInfoPanel"
+- "transactionDidComplete:"
+- "transform"
+- "transform3D"
+- "translateKeycode"
+- "translationInView:"
+- "turnOnScreenFullyWithBacklightSource:"
+- "uiApplicationWithPid:"
+- "unionSet:"
+- "unregister"
+- "unsignedIntValue"
+- "unsignedIntegerValue"
+- "updateFocusIfNeeded"
+- "userInfo"
+- "userInterfaceIdiom"
+- "userInterfaceLayoutDirection"
+- "uuid"
+- "v16@0:8"
+- "v20@0:8B16"
+- "v20@0:8I16"
+- "v20@0:8i16"
+- "v24@0:8@\"UIAlertView\"16"
+- "v24@0:8@\"UITextField\"16"
+- "v24@0:8@16"
+- "v24@0:8@?16"
+- "v24@0:8B16B20"
+- "v24@0:8B16i20"
+- "v24@0:8Q16"
+- "v24@0:8d16"
+- "v24@0:8f16B20"
+- "v24@0:8q16"
+- "v28@0:8@16B24"
+- "v28@0:8B16@20"
+- "v28@0:8B16@?20"
+- "v28@0:8B16B20B24"
+- "v28@0:8B16B20i24"
+- "v28@0:8i16@20"
+- "v28@0:8q16B24"
+- "v32@0:8@\"UIAlertView\"16q24"
+- "v32@0:8@\"UIFocusUpdateContext\"16@\"UIFocusAnimationCoordinator\"24"
+- "v32@0:8@\"UITextField\"16@\"<UIEditMenuInteractionAnimating>\"24"
+- "v32@0:8@\"UITextField\"16@\"UIInputSuggestion\"24"
+- "v32@0:8@\"UITextField\"16q24"
+- "v32@0:8@16@24"
+- "v32@0:8@16@?24"
+- "v32@0:8@16d24"
+- "v32@0:8@16q24"
+- "v32@0:8d16d24"
+- "v32@0:8i16@20B28"
+- "v36@0:8@16B24@?28"
+- "v36@0:8@16i24^v28"
+- "v36@0:8i16@20@28"
+- "v36@0:8i16@20@?28"
+- "v40@0:8@16@24@32"
+- "v40@0:8@16@24@?32"
+- "v40@0:8B16B20@?24@?32"
+- "v40@0:8B16B20Q24@?32"
+- "v44@0:8d16B24B28B32@?36"
+- "v44@0:8q16q24B32@?36"
+- "v48@0:8q16@24@32@?40"
+- "v48@0:8q16d24B32B36@40"
+- "v52@0:8@16Q24Q32i40@?44"
+- "validateClass:"
+- "validateClass:conformsToProtocol:"
+- "validateClass:hasClassMethod:withFullSignature:"
+- "validateClass:hasInstanceMethod:withFullSignature:"
+- "validateClass:hasInstanceVariable:withType:"
+- "validateClass:hasProperty:withType:"
+- "validateClass:isKindOfClass:"
+- "validateProtocol:conformsToProtocol:"
+- "validateProtocol:hasMethod:isInstanceMethod:isRequired:"
+- "validateProtocol:hasOptionalInstanceMethod:"
+- "validateProtocol:hasRequiredInstanceMethod:"
+- "value"
+- "valueWithCGPoint:"
+- "valueWithRect:"
+- "velocityInView:"
+- "viewDidAppear:"
+- "viewWillLayoutSubviews"
+- "visibleBounds"
+- "voiceOverAlertItemDelegate"
+- "voiceOverHandwritingWasNativeAutocorrectEnabled"
+- "voiceOverMagicTapDefaultToMediaPlayback"
+- "voiceOverTouchLabelElementAlertItem:textFieldShouldReturn:"
+- "voiceOverTouchLabelElementAlertItemDidAccept:withTextField:"
+- "voiceOverTouchLabelElementAlertItemDidCancel:"
+- "whiteColor"
+- "willPresentAlertView:"
+- "willShowInAwayItems"
+- "windowManagementContext"
+- "zone"
+- "{CGPoint=\"x\"d\"y\"d}"
+- "{CGPoint=dd}16@0:8"
+- "{CGPoint=dd}24@0:8@16"
+- "{CGPoint=dd}40@0:8@16{CGPoint=dd}24"
+- "{CGRect={CGPoint=dd}{CGSize=dd}}16@0:8"
+
+```

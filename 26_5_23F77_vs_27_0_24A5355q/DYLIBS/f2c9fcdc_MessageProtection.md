@@ -1,0 +1,1219 @@
+## MessageProtection
+
+> `/System/Library/PrivateFrameworks/MessageProtection.framework/MessageProtection`
+
+```diff
+
+-385.120.3.0.0
+-  __TEXT.__text: 0x8b300 sha256:9f4ed13814833fdf17952efa02af9cf808067d9a04d40ab002125573d6ab1328
+-  __TEXT.__auth_stubs: 0x2160 sha256:c6c590f2d4cbc38147398f5a22e12f72908d4657ad4bf530d1429c2ed164e26b
+-  __TEXT.__objc_methlist: 0x2374 sha256:9c6a9a416e61dabe2ad5edc989cf8af9723aaa3fe871299f0ec17b7b926ef069
+-  __TEXT.__const: 0x5854 sha256:fa690084f10f4021de3a085be49c99311b48976d103aaaac3d21aae82c9b5ccd
+-  __TEXT.__cstring: 0x31d7 sha256:09080e22efbaacc8b63c03f6e0d2eca79344ac97adec19f68d2f747d2487b4ad
++398.0.0.0.0
++  __TEXT.__text: 0x7a5c8 sha256:949ab9a1ec3b8ff5130d5b5e69d698770b22581852937b11cd789d43ec4e6823
++  __TEXT.__objc_methlist: 0x2374 sha256:8598c520f9b127b76455b4fad56ee802e55006816c4b1163499be6b00bb0e831
++  __TEXT.__cstring: 0x3197 sha256:9c525f2f516d409be5e0c168d6589c5ef0d320ff1a8844cbb5b20ee3e72c0c63
++  __TEXT.__const: 0x57c4 sha256:2d4af80dfd55501a8ad7fa0cfd1e691b3a59b12b481264d64e60882019e336c5
+   __TEXT.__oslogstring: 0x25e1 sha256:b09c8e4818f24b8d1d28784bfd37ab6e626a9a0157e2615214e432e995868b3f
+-  __TEXT.__gcc_except_tab: 0x580 sha256:1b00b40ab062909f729f76453e4f30a4da65d26516049b87312085dffa3719a6
++  __TEXT.__gcc_except_tab: 0x414 sha256:03d6d924b4f352b1ddd8461de9f903b22d5ec24ab128e723e83d908b3bb09bef
+   __TEXT.__ustring: 0x21c sha256:913393b6ce65cd1dcd5d0805ef4d20d7e6ee83f4a59fa3683a19e8ce6517c645
+-  __TEXT.__constg_swiftt: 0x1398 sha256:b9df25520cf9c3f7860f68f7b43fc0c8335c7631e03d83725f199da43ba035e9
+-  __TEXT.__swift5_typeref: 0xf7f sha256:9926ade1266153b5d5b007cfbb591552110c87759771021aa4d66c3ef731f147
+-  __TEXT.__swift5_proto: 0x4d0 sha256:1bfe9c3d33ba8777e154c4e50469366be68e493d1bb22d11defdea3af0fc9651
+-  __TEXT.__swift5_types: 0x1a4 sha256:0ba58894d63856b3c463b3b187181146c2abab7cecc52dfee3b3a0f2e378d57e
+-  __TEXT.__swift5_capture: 0xec sha256:8a5b4845c9efcc247efe9df0774bfa4da09c971574504cd123980e0eed6ab7de
+-  __TEXT.__swift5_fieldmd: 0x1358 sha256:26f502f75938a9c48d19a3f1a48a779d0920e68cbcab0ca35fe45781fcf29df1
+-  __TEXT.__swift5_reflstr: 0x11f2 sha256:4d3b8a92946f97f30b19791a1290776764b938804b4033b4c342a0b3811ff4c3
+-  __TEXT.__swift5_protos: 0x8 sha256:ffc6cc4ae8112c22e7c6c59f9927e4304e94ffd4ca8e58bbed8e9ada1fa5483d
+-  __TEXT.__swift5_assocty: 0x1c8 sha256:b6c2faf4fe09217795ad1381a78885ed195cd720fc85a03631e883fd63ff189e
+-  __TEXT.__unwind_info: 0x1f68 sha256:848606a6422688b96ca0d776b1944a64cde54f41d9ad94500473888bb54834e8
+-  __TEXT.__eh_frame: 0x2be0 sha256:fc88ca943ff74022ea226967f4fc31a5fbaaf13e396e60c551f0a06ef37ab862
+-  __TEXT.__objc_classname: 0x997 sha256:23d29936170dada9f8c3a71d57e446072e7143a545b1c1292ea4ed80691fa909
+-  __TEXT.__objc_methname: 0x43b9 sha256:384595e0b01d92171382921251e287db4eede313d2304f1fd4eeb6b98c336502
+-  __TEXT.__objc_methtype: 0xff0 sha256:40b27564412762769358b2d15ee0b4d3296568e08eeea64a84068fec92cc954d
+-  __TEXT.__objc_stubs: 0x3280 sha256:22bffdb86a67a98848d5576ece086fb3749de2fbe15d61c845af0146995f01a9
+-  __DATA_CONST.__got: 0x608 sha256:cdf2401eb567d231f2c86becb2fd9e8e111a24593201a289746a8cb23bcb575f
+-  __DATA_CONST.__const: 0x3c8 sha256:f685f7d655726062d0fbcee7889d8db08922e3845dd4a53d1a6198086a3fe4cf
+-  __DATA_CONST.__objc_classlist: 0x258 sha256:61040cfb0f0374159d7bc53bc89ef70c80cf522999e59382463e2eec70f4b64a
+-  __DATA_CONST.__objc_catlist: 0x10 sha256:95fa536741d005be1f11cf52e3768a43da3d253c790656b7e52a60a1f14afb47
+-  __DATA_CONST.__objc_protolist: 0x48 sha256:43641bf959cea2a847e14284fff3bac2f34237770f8e4ab43440816695620f13
+-  __DATA_CONST.__objc_imageinfo: 0x8 sha256:8c2e86a3d61473a17440ee60441113a7d285704a3b70278f03e88b3c356a5493
+-  __DATA_CONST.__objc_selrefs: 0xf70 sha256:98ba80a4b9a3f633dca18501fcae154a53584ace82a7c18f47b8386396ba1f4c
+-  __DATA_CONST.__objc_protorefs: 0x18 sha256:d83e625c194b41269ac879d4402dc84a5dc23ec3ec5dd89fdbc361b2e2678569
+-  __DATA_CONST.__objc_superrefs: 0x128 sha256:557fa7995698bfe3100b32cbfe1f8d63ee02b421642d5549fdb2bb558b5c4e39
+-  __AUTH_CONST.__auth_got: 0x10c0 sha256:1e86afc67a97177fc1bb99dd14b34066386b507704ce0bfc3a3f6174bf8251a8
+-  __AUTH_CONST.__const: 0x2670 sha256:5652f2ec77b326c46c38e394ac4c6249c0c5a31b7fabaea8f677ee7c6c2f1a76
+-  __AUTH_CONST.__cfstring: 0x18a0 sha256:bb1a36a0a5a420cb66b5953133ddbbd84c4021796720b4bf23beeb0639968aac
+-  __AUTH_CONST.__objc_const: 0x6200 sha256:0b5fdc5f20b894ead1f2f41961e8fa006361577b66b2b6cc144712e8a13a7935
+-  __AUTH_CONST.__objc_intobj: 0xd8 sha256:a5ac04a9757e942ddfdebf62b3659ba31d0610979c2e12d46474b48a95f0ff47
+-  __AUTH.__objc_data: 0x330 sha256:5c888b2a0fe18a4599018c3f47f782f892c2e21a9a1c1761cb85e0795ef553f5
+-  __AUTH.__data: 0x298 sha256:c43ef02686e6925caf16768bf62711cbda3cc1117fec35e810b4a39e3575e9f3
++  __TEXT.__constg_swiftt: 0x1398 sha256:3ad5e33e89bc7410ce58b0f37204d4f6291381392b4f4e94f63eb0b17c1a3a88
++  __TEXT.__swift5_typeref: 0xf33 sha256:4b99edf836471bb74e61f670fcacb84ca9eaff0ca85c3c0a4a1d9187b506d664
++  __TEXT.__swift5_proto: 0x4d0 sha256:32e2028e680dc27c1f10cc7d63038ced3a880a0ef1598d395384bfa6e01fe9fe
++  __TEXT.__swift5_types: 0x1a4 sha256:ff949f44520a6187c603c803a4bfeef1a9d8ea545be4822d21bc5ad346684ec8
++  __TEXT.__swift5_capture: 0x114 sha256:53c3c1f69991c22ecc3c2637df9e5960a0185e66c4ed27d6c7e13bd333817419
++  __TEXT.__swift5_fieldmd: 0x1358 sha256:56d7e4e2fb7d2b5a51b342d275da4c11161004964f182b826a232712ad57e522
++  __TEXT.__swift5_reflstr: 0x11f2 sha256:51bb269b86aa953e0e00d3f7bff3cc58e025201d997a0a370989a15656aaf2b2
++  __TEXT.__swift5_protos: 0x8 sha256:5851f86fc8b47ed36d47a5d5dc714a14294342012aaccf170a3d71f3c4b2786c
++  __TEXT.__swift5_assocty: 0x1c8 sha256:ad57db1cecd1dcf7e64a7c2619f5f882076d38e0d9a32f97df50495e03c3b90a
++  __TEXT.__unwind_info: 0x1d70 sha256:63892c3c323675c487b8edc637c711b58d84afcefe65d2779d8669dc3ca5df1d
++  __TEXT.__eh_frame: 0x2690 sha256:e8fdf84d6a00dea84b70a299878d30d771352328dfeb541cd3c4750676e206db
++  __TEXT.__objc_stubs: 0x0
++  __TEXT.__auth_stubs: 0x0
++  __TEXT.__objc_classname: 0x0
++  __TEXT.__objc_methname: 0x0
++  __TEXT.__objc_methtype: 0x0
++  __DATA_CONST.__const: 0x3c8 sha256:662fa994604748f392d26e924af617d5add0956c23e709a2c5ec331cc8467bdf
++  __DATA_CONST.__objc_classlist: 0x258 sha256:13bf97431120602a7ec93657fe7b4e6a98d08cbb4ce6cb5d3e427ee168243254
++  __DATA_CONST.__objc_catlist: 0x10 sha256:c280cb51515e6131de0b73c23bb0b6c70d5afea343460f17fb501417edfa5692
++  __DATA_CONST.__objc_protolist: 0x48 sha256:9bff6573cbd0fcc7b631681613ad337b2c654365826572f4d78ff93317761f40
++  __DATA_CONST.__objc_imageinfo: 0x8 sha256:ce857dcadc2529f941104469975d60698ea3610a86c121e7b4aee224cd0c59ea
++  __DATA_CONST.__objc_selrefs: 0xf70 sha256:bfec25837cafe926b195a566d744c9ada9744281be3eaf016273dc83eba332d2
++  __DATA_CONST.__objc_protorefs: 0x18 sha256:af081eb42df5dfc1cb4fe1a696e5bf84fae6f6026edfd14664f8273232771d6e
++  __DATA_CONST.__objc_superrefs: 0x128 sha256:372a2c65f43c44255e06fce9aa01f54d95c526d3a1a0b8cb2206ba6b5ea09f68
++  __DATA_CONST.__got: 0x608 sha256:a7cac7d5aa6efb8e75fb322eaf8255d735589623439357462568529ee7e291fc
++  __AUTH_CONST.__const: 0x26e8 sha256:750e68e3fb0b37c6e49ae3d9d0fff0cc86142d7eb0f0d9ef7d1fdbf83a6e5f7a
++  __AUTH_CONST.__cfstring: 0x18a0 sha256:ed0c720a1edb78fc439bb2ba901a93102b6a64f91e6ffb3baeb3d1e2319d6a23
++  __AUTH_CONST.__objc_const: 0x6200 sha256:7b639b83c02cfe2665179e3c687d5121cb7756c885ab1271e9210704d304dbbb
++  __AUTH_CONST.__objc_intobj: 0xd8 sha256:89bd8a4907cb304b14e88d0198da73630b9131df5b47de9e30ddd2f297f07046
++  __AUTH_CONST.__auth_got: 0x11b0 sha256:e4ceb35d3f19f146245cc64e8bff0bebb28289f00f0392cc51b169395ef343b0
++  __AUTH.__objc_data: 0x2c8 sha256:948a36c8061f777abd35bffe5b7deea419029c5348f8a673b23be7f2f4bc3ba1
++  __AUTH.__data: 0x270 sha256:8b64f2a061577c1664251a09b3daae2152f3c0ca0c346e1950665e25bf5f7266
+   __DATA.__objc_ivar: 0x178 sha256:17ca62ab740cf7258cbb0d4515a7f3dda631d64281f66d3247bc590340017a73
+-  __DATA.__data: 0xa10 sha256:2c058625a77694feb56bb716f5fb1ed8bfce143be6d62fe4cf38333322790465
++  __DATA.__data: 0x950 sha256:07f41d53b016b1dbf005c4d47ff633b5361172972da7f20a9f248a60db861965
+   __DATA.__common: 0x208 sha256:20aa497d9bd4c19e851e3df6e386700faada213db38acf7679f6365832830b3d
+-  __DATA.__bss: 0x6480 sha256:5332e0da34e8d2bb0abc4336fffa6a29980ddfbd515ea731b53f7e75d3b06790
+-  __DATA_DIRTY.__objc_data: 0x1e00 sha256:30ed57a454696eda94259454f67949b20322f1169ef20762033fe896f39bd896
+-  __DATA_DIRTY.__data: 0x1cd8 sha256:cb7fcafab2b6873b3773a778c18f272e9dcf645bb3f1cf54242e952e087fb2d3
+-  __DATA_DIRTY.__bss: 0x3350 sha256:82c9f2efb971550bf65986f9f85cbad1fe156369e288d0a1afcf71514859d8da
++  __DATA.__bss: 0x6300 sha256:6f51e5e322486fb217dc1056279db1a58e8a3209a8d3cf4b3de92c7bb5a04d9e
++  __DATA_DIRTY.__objc_data: 0x1e68 sha256:75a640abfb1cd5104c114e90a3fcf6bfdfe4b80392f69fe7960cbf3f72d3b6af
++  __DATA_DIRTY.__data: 0x1d48 sha256:ca159f77e037f1bcf6325997506077fc826d06f173db3a07cb0f311f27e6e7fa
++  __DATA_DIRTY.__bss: 0x34d0 sha256:1b8ca87ce3c485f3b78115412b5dd0625c6f398c61bb184936f79a8cf0f6e784
+   __DATA_DIRTY.__common: 0x1a8 sha256:644f8dc77040ed97a96a791839150ce4d928888efeb47b9320ffcbe527ec7ebe
+   - /System/Library/Frameworks/CoreData.framework/CoreData
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswiftos.dylib
+-  UUID: 9832E99F-818D-38EF-BB1B-338EE2A2B7D4
+-  Functions: 2604
+-  Symbols:   10431
+-  CStrings:  1629
++  UUID: 7BDB4549-7C93-3963-AA54-4422EFDFE7EF
++  Functions: 2586
++  Symbols:   10375
++  CStrings:  714
+ 
+Symbols:
++ _$s10Foundation13__DataStorageC12_deallocatorySv_SitcSgvg
++ _$s10Foundation13__DataStorageC27ensureUniqueBufferReference9growingTo5clearySi_SbtF
++ _$s10Foundation4DataV11referencingACSo6NSDataCh_tcfC
++ _$s10Foundation4DataV15_RepresentationOyAESWcfCTf4nd_n
++ _$s10Foundation4DataV6append10contentsOfyx_tSTRzs5UInt8V7ElementRtzlF9CryptoKit3AESO3GCMO5NonceV_Tg5
++ _$s10Foundation4DataV6append10contentsOfyx_tSTRzs5UInt8V7ElementRtzlFAC_Tg5
++ _$s10Foundation4DataV6append10contentsOfyx_tSTRzs5UInt8V7ElementRtzlFySRyAGGXEfU_TA
++ _$s10Foundation4DataV6append10contentsOfyx_tSTRzs5UInt8V7ElementRtzlFySWXEfU0_TA.1
++ _$s10Foundation4DataV6append10contentsOfyx_tSTRzs5UInt8V7ElementRtzlFySWXEfU0_TA.1Tm
++ _$s10Foundation4DataV6append10contentsOfyx_tSTRzs5UInt8V7ElementRtzlFySWXEfU0_TA.2
++ _$s10Foundation4DataV6append14fastContentsofyx_tSTRzs5UInt8V7ElementRtzlFySRyAGGXEfU_
++ _$s10Foundation4DataV6append14fastContentsofyx_tSTRzs5UInt8V7ElementRtzlFySRyAGGXEfU_TA
++ _$s10Foundation4DataV9repeating5countACs5UInt8V_SitcfCTf4nnd_n
++ _$s10Foundation4DataVyACxcAA15ContiguousBytesRzSTRzs5UInt8V7ElementSTRtzlufcAC15_RepresentationOSWXEfU_
++ _$s10Foundation4DataVyACxcSTRzs5UInt8V7ElementRtzlufcAC15_RepresentationOSWXEfU0_
++ _$s10Foundation4DataVyACxcSTRzs5UInt8V7ElementRtzlufcySwXEfU2_SS8UTF8ViewV_Tg5
++ _$s17MessageProtection017TetraRatchetOuterA0VWOcTm
++ _$s17MessageProtection05TetraA5TypesO3dst10Foundation4DataVyF
++ _$s17MessageProtection06deriveA12KeyIndicatory10Foundation4DataV9CryptoKit09SymmetricD0VF
++ _$s17MessageProtection08TetraPB_c5InnerA0VAC21InternalSwiftProtobuf0A0AAWlTm
++ _$s17MessageProtection10randomData9byteCount10Foundation0D0VSi_tF
++ _$s17MessageProtection12TetraECDHKeyVWOb
++ _$s17MessageProtection14TetraKEM768KeyVSgWOhTm
++ _$s17MessageProtection14TetraPBPaddingV03padA0y10Foundation4DataVAA0c3PB_c5InnerA0VzKFZTf4nd_n
++ _$s17MessageProtection14TetraPBPaddingV17paddingBytesToAdd3for10Foundation4DataVSi_tFZTf4nd_n
++ _$s17MessageProtection15TetraECDHSecKeyV06publicE09CryptoKit4P256O0E9AgreementO06PublicE0Vvg
++ _$s17MessageProtection17TetraRatchetStateV13ratchetedOpen7message10sessionDST03didD0AA0c5InnerA0Vx_10Foundation4DataVSbXESbztKAA0c5OuterA0RzlFSiycfu_
++ _$s17MessageProtection20CoreCryptoAESCTRImplV5crypt3key4data2IV10Foundation4DataV0D3Kit12SymmetricKeyV_AjK3AESOAAEAGVtKFZs5Int32VSWKXEfU_ARSWXEfU_TA.4
++ _$s17MessageProtection20CoreCryptoAESCTRImplV5crypt3key4data2IV10Foundation4DataV0D3Kit12SymmetricKeyV_AjK3AESOAAEAGVtKFZs5Int32VSWKXEfU_ARSWXEfU_TA.5
++ _$s17MessageProtection21TetraRatchetingErrorsO26indicatesDesynchronization5errorSbs5Error_p_tFZTf4nd_n
++ _$s17MessageProtection22Kyber1024ObjCPublicKeyC06publicF5BytesACSo6NSDataC_tKcfc
++ _$s17MessageProtection23Kyber1024ObjCPrivateKeyC06publicF0AA0cd7CPublicF0Cvg
++ _$s17MessageProtection23TetraOutgoingKeyContentVWObTm
++ _$s17MessageProtection24GondolaWrappingAlgorithmV4wrap12sharedSecret4seed10privateKey06publicK010Foundation4DataV9CryptoKit06SharedH0V_AkL4P256O0K9AgreementO07PrivateK0VAR06PublicK0VtKFZTf4nnnnd_n
++ _$s17MessageProtection29TetraOutgoingSymmetricRatchetVWOd
++ _$s17MessageProtection29TetraOutgoingSymmetricRatchetVWOh
++ _$s17MessageProtection8TetraAPIC038commitStateAfterSuccessfulDecryptionOfA014conversationID22ephemeralECDHPublicKey12messageIndexSbSAySo7NSErrorCSgGSgcSo6NSDataC_9CryptoKit4P256O0O9AgreementO06PublicO0Vs6UInt64VtFZSbALcfU_TA.13
++ _$s17MessageProtection8TetraAPIC038commitStateAfterSuccessfulDecryptionOfA014conversationID22ephemeralECDHPublicKey12messageIndexSbSAySo7NSErrorCSgGSgcSo6NSDataC_9CryptoKit4P256O0O9AgreementO06PublicO0Vs6UInt64VtFZSbALcfU_TA.9
++ _$s17MessageProtection8TetraAPIC4open7message17authenticatedData4guid10sendingURI0J9PushToken09receivingK00nlM013theirIdentity8signedBy12tetraVersion10ourPrekeys0U37SigningPublicKeyCompactRepresentation15decryptionBlocky10Foundation0H0V_ATS2SSo6NSDataCSSAVSo015NGMPublicDeviceP0CSgSo0cxwY7WrapperCs6UInt32VSaySo13NGMFullPrekeyCGAVyATSg_SDys11AnyHashableVypGSgs5Error_pSgSbSAySo7NSErrorCSgGSgcSgtXEtFZ0106$sSo6NSDataCSgSo12NSDictionaryCSgSo7NSErrorCSgSAyAIGSg10ObjectiveC8ObjCBoolVIeyByd_SgIyByyyy_10Foundation4H59VSgSDys11AnyHashableVypGSgs5Error_pSgAKSbIegyd_SgIeggggg_TRAVSgSo12NSDictionaryCSgA14_A16_10ObjectiveC8ObjCBoolVIeyByd_SgIyByyyy_Tf1nnnnnnnnnnnncn_n
++ _$s2os14OSLogArgumentsV6appendyyxycs17FixedWidthIntegerRzlFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_Si_Tg5
++ _$s2os14OSLogArgumentsV6appendyyxycs17FixedWidthIntegerRzlFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_s5Int32V_Tg5
++ _$s2os14OSLogArgumentsV6appendyyxycs17FixedWidthIntegerRzlFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_s6UInt32V_Tg5
++ _$s2os14OSLogArgumentsV6appendyyxycs17FixedWidthIntegerRzlFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_s6UInt64V_Tg5
++ _$s2os18OSLogInterpolationV06appendC0_7privacy10attributesys5Error_pyXA_AA0B7PrivacyVSStFfA1_
++ _$s9CryptoKit24HashedAuthenticationCodeVyAA6SHA384VGACyxG10Foundation15ContiguousBytesAAWl
++ _$s9CryptoKit3AESO3GCMO5NonceVAGSTAAWl
++ _$sSAySo7NSErrorCSgGSgSbIegyd_SgWOy
++ _$sSS21_builtinStringLiteral17utf8CodeUnitCount7isASCIISSBp_BwBi1_tcfC
++ _$sST32withContiguousStorageIfAvailableyqd__Sgqd__SRy7ElementQzGKXEKlFTj
++ _$sSmsE1poiyxx_qd__tSmRd__7ElementQyd__ABRtzlFZ10Foundation4DataV_AGTt2g5
++ _$sSmsE2peoiyyxz_qd__tSTRd__7ElementQyd__ABRtzlFZ10Foundation4DataV_AGTt1g5
++ _$sSo19TKClientTokenObjectC05tokenC0_10Foundation4DataV18dataRepresentation9CryptoKit9Kyber1024O9PublicKeyV06publicM0tWOcTm
++ _$sSo20NSFileProtectionTypeaSYSCSY8rawValue03RawE0QzvgTW
++ _$sSo27NSDataBase64EncodingOptionsVSYSCSY8rawValue03RawF0QzvgTW
++ _$sSo27NSDataBase64EncodingOptionsVs10SetAlgebraSCsACP6insertySb8inserted_7ElementQz17memberAfterInserttAHnFTW
++ _$sSo6NSDataCAB10Foundation12DataProtocolACWl
++ _$sSvSiIegyy_SgWOe
++ _$ss10_HashTableV14occupiedBucket5afterAB0D0VAF_tF
++ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF17MessageProtection17TetraSessionStateV_Tg5
++ _$ss14PrefixSequenceVy9CryptoKit12SHA384DigestVGWOc
++ _$ss14PrefixSequenceVy9CryptoKit12SHA384DigestVGWOh
++ _$ss5NeverON
++ _$ss5NeverOs5ErrorsWP
++ _$ss6UInt16V3key_9CryptoKit12SymmetricKeyV5valuetWOc
++ _$ss6UInt64V3key_9CryptoKit12SymmetricKeyV5valuetWOb
++ _$sypSgMR
++ _$sypSgMd
++ _$sypSgWOh
++ ___swift_closure_destructor
++ ___swift_closure_destructor.11
++ ___swift_closure_destructor.2
++ ___swift_closure_destructor.21
++ ___swift_closure_destructor.7
++ ___swift_closure_destructorTm
++ ___swift_exist.box.addr_destructor
++ _block_copy_helper.14
++ _block_copy_helper.17
++ _block_descriptor.16
++ _block_descriptor.19
++ _block_destroy_helper.15
++ _block_destroy_helper.18
++ _objc_claimAutoreleasedReturnValue
++ _objc_retain_x4
++ _objc_retain_x5
++ _objc_retain_x6
++ _swift_release_x1
++ _swift_release_x19
++ _swift_release_x20
++ _swift_release_x21
++ _swift_release_x22
++ _swift_release_x23
++ _swift_release_x24
++ _swift_release_x25
++ _swift_release_x26
++ _swift_release_x27
++ _swift_release_x28
++ _swift_release_x8
++ _swift_retain_x1
++ _swift_retain_x19
++ _swift_retain_x2
++ _swift_retain_x20
++ _swift_retain_x21
++ _swift_retain_x22
++ _swift_retain_x23
++ _swift_retain_x24
++ _swift_retain_x25
++ _swift_retain_x28
++ _swift_willThrowTypedImpl
++ _symbolic ypSg
+- GCC_except_table44
+- GCC_except_table50
+- _$s10Foundation13__DataStorageC15withUnsafeBytes2in5applyxSnySiG_xSWKXEtKlFyt_Tg5015$s10Foundation4B57V6append10contentsOfyx_tSTRzs5UInt8V7ElementRtzlFySWXEfU_AA0B0VTf1nncn_n
+- _$s10Foundation13__DataStorageC22withUnsafeMutableBytes2in5applyxSnySiG_xSwKXEtKlFs16IndexingIteratorVySS8UTF8ViewVG_Sit_Tg5
+- _$s10Foundation13__DataStorageC22withUnsafeMutableBytes2in5applyxSnySiG_xSwKXEtKlFs16IndexingIteratorVySo6NSDataCG_Sit_Tg5
+- _$s10Foundation15ContiguousBytes_pSgMR
+- _$s10Foundation15ContiguousBytes_pSgMd
+- _$s10Foundation15ContiguousBytes_pSgWOhTm
+- _$s10Foundation4DataV06InlineB0V5countAESi_tcfCTf4nd_n
+- _$s10Foundation4DataV06InlineB0VyAESWcfCTf4nd_n
+- _$s10Foundation4DataV10LargeSliceVyAESWcfCTf4nd_n
+- _$s10Foundation4DataV11InlineSliceV21ensureUniqueReferenceyyF
+- _$s10Foundation4DataV11InlineSliceV22withUnsafeMutableBytesyxxSwKXEKlFyt_Tg5047$s17MessageProtection14TetraPBPaddingV17paddingh22ToAdd3for10Foundation4B15VSi_tFZySwXEfU_0J10Protection0lM0VXMtSiTf1ncn_n
+- _$s10Foundation4DataV11InlineSliceV22withUnsafeMutableBytesyxxSwKXEKlFyt_Tgq5015$s10Foundation4B55V9repeating5countACs5UInt8V_SitcfcySwXEfU_AGTf3nnpSi0_nTf1ncn_n
+- _$s10Foundation4DataV11InlineSliceVyAESWcfCTf4nd_n
+- _$s10Foundation4DataV15_RepresentationO15withUnsafeBytesyxxSWKXEKlFyt_Tg5015$s10Foundation4B57V6append10contentsOfyx_tSTRzs5UInt8V7ElementRtzlFySWXEfU_ACTf1ncn_n
+- _$s10Foundation4DataV15_RepresentationO22withUnsafeMutableBytesyxxSwKXEKlFs16IndexingIteratorVySS8UTF8ViewVG_Sit_Tg5
+- _$s10Foundation4DataV15_RepresentationO22withUnsafeMutableBytesyxxSwKXEKlFs16IndexingIteratorVySo6NSDataCG_Sit_Tg5
+- _$s10Foundation4DataV15_RepresentationO22withUnsafeMutableBytesyxxSwKXEKlFs5Int32V_Tg50149$s17MessageProtection26GLTKeyDiversificationSwiftC9diversify9publicKey22trackingPreventionSalt5docIdAA014GLTDiversifiedH0CSo03SecH3Refa_10Foundation4b11VSgSStKFZs5H22VSwXEfU_SiTf3nnpSi32_nTf1cn_n
+- _$s10Foundation4DataV15_RepresentationO22withUnsafeMutableBytesyxxSwKXEKlFs5Int32V_Tg5066$s17MessageProtection10randomData9byteCount10Foundation0D0VSi_tFs5H8VSwXEfU_SiTf1cn_n
+- _$s10Foundation4DataV15_RepresentationO22withUnsafeMutableBytesyxxSwKXEKlFs5Int32V_Tg5075$s17MessageProtection20CoreCryptoAESCTRImplV5crypt3key4data2IV10Foundation4b43V0D3Kit12SymmetricKeyV_AjK3AESOAAEAGVtKFZs5H36VSWKXEfU_ARSWXEfU_ARSWXEfU_ARSwXEfU_SPySo10ccmode_ctrVGSgS3WSVTf1cn_nTf4nnnxnn_n
+- _$s10Foundation4DataV15_RepresentationO22withUnsafeMutableBytesyxxSwKXEKlFyt_Tg5047$s17MessageProtection14TetraPBPaddingV17paddingg22ToAdd3for10Foundation4B15VSi_tFZySwXEfU_0I10Protection0kL0VXMtSiTf1ncn_n
+- _$s10Foundation4DataV15_RepresentationO22withUnsafeMutableBytesyxxSwKXEKlFyt_Tgq5015$s10Foundation4B55V9repeating5countACs5UInt8V_SitcfcySwXEfU_AGTf3nnpSi0_nTf1ncn_n
+- _$s10Foundation4DataV15_RepresentationOys5UInt8VSicis
+- _$s10Foundation4DataV2eeoiySbAC_ACtFZSbSWXEfU_
+- _$s10Foundation4DataV5countACSi_tcfCTf4nd_n
+- _$s10Foundation4DataV6append10contentsOfyx_tSTRzs5UInt8V7ElementRtzlF8IteratorQz_SitSwXEfU1_So6NSDataC_TG5TA
+- _$s10Foundation4DataV6append10contentsOfyx_tSTRzs5UInt8V7ElementRtzlF8IteratorQz_SitSwXEfU1_So6NSDataC_Tg5Tf4nndn_n
+- _$s10Foundation4DataV6append10contentsOfyx_tSTRzs5UInt8V7ElementRtzlFySWXEfU_
+- _$s10Foundation4DataV6append10contentsOfyx_tSTRzs5UInt8V7ElementRtzlFySWXEfU_TA
+- _$s10Foundation4DataVyACxcSTRzs5UInt8V7ElementRtzlufCSayAEG_Tt0g5Tf4g_n
+- _$s10Foundation4DataVyACxcSTRzs5UInt8V7ElementRtzlufc8IteratorQz_SitSwXEfU1_AI_SitSryAEGXEfU_So6NSDataC_Tg5Tf4nn_g
+- _$s10Foundation4DataVyACxcSTRzs5UInt8V7ElementRtzlufc8IteratorQz_SitSwXEfU1_SS8UTF8ViewV_TG5
+- _$s10Foundation4DataVyACxcSTRzs5UInt8V7ElementRtzlufc8IteratorQz_SitSwXEfU1_SS8UTF8ViewV_TG5TA
+- _$s10Foundation4DataVyACxcSTRzs5UInt8V7ElementRtzlufc8IteratorQz_SitSwXEfU1_So6NSDataC_TG5
+- _$s10Foundation4DataVyACxcSTRzs5UInt8V7ElementRtzlufc8IteratorQz_SitSwXEfU1_So6NSDataC_TG5TA
+- _$s10Foundation4DataVyACxcSTRzs5UInt8V7ElementRtzlufcAC15_RepresentationOSRyAEGXEfU0_
+- _$s10Foundation4DataVyACxcSTRzs5UInt8V7ElementRtzlufcAC15_RepresentationOSWXEfU_
+- _$s17MessageProtection010TetraOuterA4TypeOWOcTm
+- _$s17MessageProtection12TetraECDHKeyV28sharedSecretFromKeyAgreement4with9CryptoKit09SymmetricH0VAF4P256O0hI0O06PublicH0V_tKF
+- _$s17MessageProtection12TetraECDHKeyV9publicKey9CryptoKit4P256O0F9AgreementO06PublicF0Vvg
+- _$s17MessageProtection12TetraECDHKeyVWOc
+- _$s17MessageProtection12TetraECDHKeyVWOh
+- _$s17MessageProtection14TetraKEM768KeyV06publicE09CryptoKit8Kyber768O06PublicE0Vvg
+- _$s17MessageProtection14TetraKEM768KeyV11decapsulatey9CryptoKit09SymmetricE0V10Foundation4DataVKF
+- _$s17MessageProtection14TetraPBPaddingV03padA0y10Foundation4DataVAA0c3PB_c5InnerA0VzKFZ
+- _$s17MessageProtection14TetraPBPaddingV17paddingBytesToAdd3for10Foundation4DataVSi_tFZ
+- _$s17MessageProtection14TetraPBPaddingV17paddingBytesToAdd3for10Foundation4DataVSi_tFZySwXEfU_
+- _$s17MessageProtection15TetraKEM1024KeyV06publicE09CryptoKit9Kyber1024O06PublicE0Vvg
+- _$s17MessageProtection15TetraKEM1024KeyV11decapsulatey9CryptoKit09SymmetricE0V10Foundation4DataVKF
+- _$s17MessageProtection16SymmetricRatchetVSgWOcTm
+- _$s17MessageProtection16SymmetricRatchetVWObTm
+- _$s17MessageProtection17MPPB_RatchetStateVSgMR
+- _$s17MessageProtection17MPPB_RatchetStateVSgMd
+- _$s17MessageProtection17TetraRatchetStateV29deriveRootAndChainKeyAsSender015theirECDHPublicJ00m9Kyber1024J011encapResult15ourOutgoingKeys15conversationDST9CryptoKit09SymmetricJ0V04rootJ0_AL05chainJ0tAJ4P256O0J9AgreementO06PublicJ0V_AJ0O0OASVAJ3KEMO013EncapsulationQ0VAA0csJ7ContentV10Foundation4DataVtKFZ
+- _$s17MessageProtection17TetraRatchetStateV29deriveRootAndChainKeyAsSender04rootJ0015theirECDHPublicJ00n8Kyber768J011encapResult15ourOutgoingKeys15conversationDST9CryptoKit09SymmetricJ0VAE_AM05chainJ0tAM_AK4P256O0J9AgreementO06PublicJ0VAK0P0OASVSgAK3KEMO013EncapsulationR0VSgAA0ctJ7ContentV10Foundation4DataVtKFZ
+- _$s17MessageProtection17TetraSessionStateVSgMR
+- _$s17MessageProtection17TetraSessionStateVSgMd
+- _$s17MessageProtection17TetraSessionStateVWOdTm
+- _$s17MessageProtection19MPPB_SKPaddedStatusVSgMR
+- _$s17MessageProtection19MPPB_SKPaddedStatusVSgMd
+- _$s17MessageProtection22MPPB_SKIncomingRatchetVSgMR
+- _$s17MessageProtection22MPPB_SKIncomingRatchetVSgMd
+- _$s17MessageProtection22MPPB_SKOutgoingRatchetVSgMR
+- _$s17MessageProtection22MPPB_SKOutgoingRatchetVSgMd
+- _$s17MessageProtection26GFTLegacyWrappingAlgorithmV4wrap12sharedSecret4seed10privateKey06publicK0Says5UInt8VG9CryptoKit06SharedH0V_10Foundation4DataVAL4P256O0K9AgreementO07PrivateK0VAU06PublicK0VtKFZs5Int32VSWXEfU_A_SWXEfU_
+- _$s17MessageProtection26GFTLegacyWrappingAlgorithmV6unwrap11wrappedSeed5usingSo6NSDataC10Foundation4DataV_9CryptoKit12SharedSecretVtKFZSiSWXEfU_SiSWXEfU_
+- _$s9CryptoKit12SharedSecretVMn
+- _$s9CryptoKit12SharedSecretVSgMR
+- _$s9CryptoKit12SharedSecretVSgMd
+- _$s9CryptoKit12SymmetricKeyV3key_s6UInt64V5indextWObTm
+- _$s9CryptoKit12SymmetricKeyV3key_s6UInt64V5indextWOcTm
+- _$s9CryptoKit12SymmetricKeyVSgWObTm
+- _$s9CryptoKit12SymmetricKeyV_s6UInt64VtWOb
+- _$s9CryptoKit13SecureEnclaveO17MessageProtectionE8Kyber768O10PrivateKeyVAHyKcfC
+- _$s9CryptoKit13SecureEnclaveO17MessageProtectionE9Kyber1024O10PrivateKeyVAHyKcfC
+- _$s9CryptoKit13SecureEnclaveO17MessageProtectionE9Kyber1024O10PrivateKeyVSgWOcTm
+- _$s9CryptoKit13SecureEnclaveO4P256O12KeyAgreementO07PrivateF0VSgWOc
+- _$s9CryptoKit13SecureEnclaveO4P256O12KeyAgreementO07PrivateF0VSgWOcTm
+- _$s9CryptoKit13SecureEnclaveO4P256O12KeyAgreementO07PrivateF0VSgWOh
+- _$s9CryptoKit3AESO3GCMO5NonceV10Foundation15ContiguousBytesAAMc
+- _$s9CryptoKit3AESO3GCMO5NonceVAG10Foundation15ContiguousBytesAAWL
+- _$s9CryptoKit3AESO3GCMO9SealedBoxVMn
+- _$s9CryptoKit3AESO3GCMO9SealedBoxVSgMR
+- _$s9CryptoKit3AESO3GCMO9SealedBoxVSgMd
+- _$s9CryptoKit4P256O12KeyAgreementO07PrivateD0VMn
+- _$s9CryptoKit4P256O12KeyAgreementO07PrivateD0VSgMR
+- _$s9CryptoKit4P256O12KeyAgreementO07PrivateD0VSgMd
+- _$s9CryptoKit8Kyber768O9PublicKeyVSgWOcTm
+- _$s9CryptoKit8Kyber768O9PublicKeyVSgWOd
+- _$sSD8_VariantV11removeValue6forKeyq_Sgx_tFs6UInt16V_9CryptoKit09SymmetricE0VTg5
+- _$sSS_yptMR
+- _$sSS_yptMd
+- _$sSays5UInt8VGSayxG10Foundation15ContiguousBytesAeBRszlWL
+- _$sSays5UInt8VGSayxG10Foundation15ContiguousBytesAeBRszlWl
+- _$sSayxG10Foundation15ContiguousBytesABs5UInt8VRszlMc
+- _$sSo19TKClientTokenObjectC05tokenC0_10Foundation4DataV18dataRepresentation9CryptoKit8Kyber768O9PublicKeyV06publicM0tWObTm
+- _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF17MessageProtection08MPPB_KeyD5IndexV_Tg5
+- _$ss5SliceV10FoundationAC15ContiguousBytesRzrlE010withUnsafeD0yqd__qd__SWKXEKlF
+- _$ss6UInt16V3key_9CryptoKit12SymmetricKeyV5valuetWOcTm
+- _$ss6UInt64V3key_9CryptoKit12SymmetricKeyV5valuetWObTm
+- _OUTLINED_FUNCTION_10
+- _OUTLINED_FUNCTION_11
+- _OUTLINED_FUNCTION_12
+- _OUTLINED_FUNCTION_9
+- ___swift_destroy_boxed_opaque_existential_0Tm
+- _objectdestroyTm
+- _symbolic SS_ypt
+- _symbolic _____Sg 17MessageProtection17MPPB_RatchetStateV
+- _symbolic _____Sg 17MessageProtection17TetraSessionStateV
+- _symbolic _____Sg 17MessageProtection19MPPB_SKPaddedStatusV
+- _symbolic _____Sg 17MessageProtection22MPPB_SKIncomingRatchetV
+- _symbolic _____Sg 17MessageProtection22MPPB_SKOutgoingRatchetV
+- _symbolic _____Sg 9CryptoKit12SharedSecretV
+- _symbolic _____Sg 9CryptoKit3AESO3GCMO9SealedBoxV
+- _symbolic _____Sg 9CryptoKit4P256O12KeyAgreementO07PrivateD0V
+- _symbolic ______pSg 10Foundation15ContiguousBytesP
+CStrings:
+- "#16@0:8"
+- "$__lazy_storage_$_persistentContainer"
+- "*"
+- "*16@0:8"
+- ".cxx_destruct"
+- "?"
+- "@"
+- "@\"<P256PrivateKeyProtocol>\""
+- "@\"<P256PublicKeyProtocol>\""
+- "@\"<P256PublicKeyProtocol>\"16@0:8"
+- "@\"DHKey\""
+- "@\"DHPublicKey\""
+- "@\"LegacySigningKeyPrivate\""
+- "@\"LegacySigningKeyPublic\""
+- "@\"NGMECDHPublicPreKey\""
+- "@\"NGMFullPrekey\""
+- "@\"NGMPBP256Key\""
+- "@\"NGMPublicDeviceIdentity\""
+- "@\"NSData\""
+- "@\"NSData\"16@0:8"
+- "@\"NSData\"32@0:8@\"<P256PublicKeyProtocol>\"16^@24"
+- "@\"NSData\"32@0:8@\"NSData\"16^@24"
+- "@\"NSDate\""
+- "@\"NSMutableArray\""
+- "@\"NSPersistentContainer\""
+- "@\"NSString\""
+- "@\"NSString\"16@0:8"
+- "@\"SecKeyP256Public\""
+- "@\"SecKeyRSAPrivate\""
+- "@\"SecKeyRSAPublic\""
+- "@\"SigningKey\""
+- "@\"SigningPublicKey\""
+- "@\"TetraPublicSigningKeyWrapper\""
+- "@\"_TtC17MessageProtection17SKIncomingRatchet\""
+- "@\"_TtC17MessageProtection17SKOutgoingRatchet\""
+- "@\"_TtC17MessageProtection17TetraRegistration\""
+- "@\"_TtC17MessageProtection22Kyber1024ObjCPublicKey\""
+- "@\"_TtC17MessageProtection23Kyber1024ObjCPrivateKey\""
+- "@108@0:8@16@24@32@40@48@56@64@72@80B88@92^@100"
+- "@112@0:8@16@24q32@40@48@56@64@72B80B84@88@96^@104"
+- "@16@0:8"
+- "@20@0:8i16"
+- "@24@0:8:16"
+- "@24@0:8@16"
+- "@24@0:8Q16"
+- "@24@0:8^@16"
+- "@24@0:8^{_NSZone=}16"
+- "@24@0:8^{__SecKey={__CFRuntimeBase=QAQ}^{__SecKeyDescriptor}^v}16"
+- "@24@0:8^{ccec_full_ctx=^{ccec_cp}[0{ccec_projective_point=[1Q]}]}16"
+- "@28@0:8@16I24"
+- "@32@0:8:16@24"
+- "@32@0:8@\"NSData\"16^@24"
+- "@32@0:8@16@24"
+- "@32@0:8@16^@24"
+- "@32@0:8^{__SecKey={__CFRuntimeBase=QAQ}^{__SecKeyDescriptor}^v}16^{__SecKey={__CFRuntimeBase=QAQ}^{__SecKeyDescriptor}^v}24"
+- "@32@0:8^{__SecKey=}16@24"
+- "@36@0:8@16B24^@28"
+- "@36@0:8@16^@24B32"
+- "@36@0:8S16@20@28"
+- "@40@0:8:16@24@32"
+- "@40@0:8@16@24@32"
+- "@40@0:8@16@24^@32"
+- "@40@0:8@16@24d32"
+- "@40@0:8@16@24q32"
+- "@40@0:8@16^{__SecKey={__CFRuntimeBase=QAQ}^{__SecKeyDescriptor}^v}24^@32"
+- "@40@0:8@16^{__SecKey=}24^@32"
+- "@40@0:8@16q24^@32"
+- "@40@0:8@16r^*24^Q32"
+- "@40@0:8^{__SecKey=}16@24^@32"
+- "@40@0:8r^*16^Q24^@32"
+- "@44@0:8@16@24B32^@36"
+- "@44@0:8@16@24d32I40"
+- "@44@0:8@16B24^{__SecKey={__CFRuntimeBase=QAQ}^{__SecKeyDescriptor}^v}28^@36"
+- "@44@0:8@16S24@28^@36"
+- "@44@0:8@16^{__SecKey=}24B32^@36"
+- "@44@0:8S16@20@28^@36"
+- "@48@0:8@16@24@32@40"
+- "@48@0:8@16@24@32^@40"
+- "@48@0:8^{__SecKey={__CFRuntimeBase=QAQ}^{__SecKeyDescriptor}^v}16@24@32^@40"
+- "@48@0:8^{__SecKey=}16@24@32^@40"
+- "@52@0:8@16@24d32I40@44"
+- "@52@0:8S16@20@28@36^@44"
+- "@56@0:8@16@24@32@40@48"
+- "@56@0:8@16@24@32@40^@48"
+- "@56@0:8@16B24B28@32@40^@48"
+- "@56@0:8Q16@24@32@40^@48"
+- "@64@0:8@16@24I32d36@44B52^@56"
+- "@96@0:8@16@24@32@40@48@56@64@72@80^@88"
+- "@96@0:8@16@24@32@40@48@56B64B68@72@80^@88"
+- "@?44@0:8I16@20@28^@36"
+- "AppendWithSize"
+- "Attributes"
+- "B"
+- "B16@0:8"
+- "B20@0:8I16"
+- "B24@0:8#16"
+- "B24@0:8:16"
+- "B24@0:8@\"Protocol\"16"
+- "B24@0:8@16"
+- "B24@0:8^@16"
+- "B24@0:8q16"
+- "B32@0:8@\"NSData\"16@\"NSData\"24"
+- "B32@0:8@16@24"
+- "B32@0:8@16^@24"
+- "B32@0:8d16Q24"
+- "B48@0:8@16@24@32^@40"
+- "B48@0:8@16@24q32^@40"
+- "B56@0:8@16@24@32@40@48"
+- "B56@0:8@16I24B28@32@40^@48"
+- "B64@0:8@16@24@32@40@48@56"
+- "CoreCryptoP256Private"
+- "CoreDataProperties"
+- "DHKey"
+- "DHPublicKey"
+- "Decryption"
+- "Encryption"
+- "FullKey"
+- "GFTKeyWrapping"
+- "GLTDiversifiedKeyAndTPS"
+- "GLTKeyDiversification"
+- "I"
+- "I16@0:8"
+- "I48@0:8@16@24^@32^B40"
+- "KeyGen"
+- "LegacySigningKeyPrivate"
+- "LegacySigningKeyPublic"
+- "MPStatusKitIncomingRatchet"
+- "MPStatusKitMessage"
+- "MPStatusKitOutgoingRatchet"
+- "MPStatusKitSubscriptionKeys"
+- "MP_AES_CTR"
+- "MessageProtection/AESModes_cc.swift"
+- "Migration"
+- "MigrationToModernizedKeyStorage"
+- "NGMECDHPublicPreKey"
+- "NGMFTVoucherSignatureFormatter"
+- "NGMFullDeviceIdentity"
+- "NGMFullPrekey"
+- "NGMGFTSignatureFormatter"
+- "NGMGelatoPresenceSignatureFormatter"
+- "NGMKeyRollingTicket"
+- "NGMKeyValidator"
+- "NGMMessageFormatter"
+- "NGMMessageHasher"
+- "NGMMessageSignatureFormatter"
+- "NGMPBDevicePreKey"
+- "NGMPBFullDeviceIdentity"
+- "NGMPBInnerMessage"
+- "NGMPBLegacyKey"
+- "NGMPBOuterMessage"
+- "NGMPBP256Key"
+- "NGMPBPublicDeviceIdentity"
+- "NGMPBPublicDevicePrekey"
+- "NGMPadding"
+- "NGMPrekeySignatureFormatter"
+- "NGMProtocolVersion"
+- "NGMPublicDeviceIdentity"
+- "NGMReplayManager"
+- "NGMRollingBitmaskBuffer"
+- "NGMTetraRegistrationSignatureFormatter"
+- "NGMTimeBasedEvaluations"
+- "NSCacheDelegate"
+- "NSCopying"
+- "NSObject"
+- "P256PrivateKeyProtocol"
+- "P256PublicKeyProtocol"
+- "PublicKey"
+- "Q16@0:8"
+- "S"
+- "S16@0:8"
+- "SecKeyP256Private"
+- "SecKeyP256Public"
+- "SecKeyRSAPrivate"
+- "SecKeyRSAPublic"
+- "SecMessageLegacyFullIdentity"
+- "SecMessageLegacyPublicIdentity"
+- "SignatureFormatter"
+- "SignatureVerification"
+- "Signing"
+- "SigningKey"
+- "SigningPublicKey"
+- "StringAsKeystore:"
+- "T#,R"
+- "T*,V_valid_values_buffer"
+- "T@\"<P256PrivateKeyProtocol>\",R,V_key"
+- "T@\"<P256PublicKeyProtocol>\",&,V_key"
+- "T@\"DHKey\",R,N,V_dhKey"
+- "T@\"DHPublicKey\",R,N,V_dhKey"
+- "T@\"LegacySigningKeyPrivate\",&,N,V_signingKey"
+- "T@\"LegacySigningKeyPublic\",R,N,V_signingKey"
+- "T@\"NGMECDHPublicPreKey\",&,N,V_echnidaRegistration"
+- "T@\"NGMECDHPublicPreKey\",R,N,V_publicPrekey"
+- "T@\"NGMFullPrekey\",R,N,V_prekey"
+- "T@\"NGMPBP256Key\",&,N,V_dhKey"
+- "T@\"NGMPBP256Key\",&,N,V_signingKey"
+- "T@\"NGMPublicDeviceIdentity\",R,N,V_registrationInfo"
+- "T@\"NSData\",&,D,N"
+- "T@\"NSData\",&,N,V_debugInfo"
+- "T@\"NSData\",&,N,V_encryptedPayload"
+- "T@\"NSData\",&,N,V_encryptionKey"
+- "T@\"NSData\",&,N,V_encryptionKeyPersistentRef"
+- "T@\"NSData\",&,N,V_ephemeralPubKey"
+- "T@\"NSData\",&,N,V_keyData"
+- "T@\"NSData\",&,N,V_keyValidator"
+- "T@\"NSData\",&,N,V_ktGossipData"
+- "T@\"NSData\",&,N,V_message"
+- "T@\"NSData\",&,N,V_prekey"
+- "T@\"NSData\",&,N,V_prekeySignature"
+- "T@\"NSData\",&,N,V_signature"
+- "T@\"NSData\",&,N,V_signedData"
+- "T@\"NSData\",&,N,V_signingKey"
+- "T@\"NSData\",&,N,V_signingKeyPersistentRef"
+- "T@\"NSData\",&,N,V_tetraMessage"
+- "T@\"NSData\",&,N,V_tetraPreKey"
+- "T@\"NSData\",&,N,V_tetraPrivateKey"
+- "T@\"NSData\",&,N,V_tetraRegistrationData"
+- "T@\"NSData\",&,V_serializedKey"
+- "T@\"NSData\",N,D,C"
+- "T@\"NSData\",N,R"
+- "T@\"NSData\",N,R,VtrackingPreventionSalt"
+- "T@\"NSData\",R,N,V_chainKey"
+- "T@\"NSData\",R,N,V_ecdhPublicKey"
+- "T@\"NSData\",R,N,V_encryptedMessage"
+- "T@\"NSData\",R,N,V_formattedSignedData"
+- "T@\"NSData\",R,N,V_prekeyPublic"
+- "T@\"NSData\",R,N,V_privateKeyBlob"
+- "T@\"NSData\",R,N,V_signature"
+- "T@\"NSData\",R,N,V_signingKey"
+- "T@\"NSData\",R,N,V_trackingPreventionSalt"
+- "T@\"NSDate\",&,V_date"
+- "T@\"NSDate\",C,D,N"
+- "T@\"NSMutableArray\",&,N,V_devicePrekeys"
+- "T@\"NSMutableArray\",&,N,V_prekeys"
+- "T@\"NSSet\",&,D,N"
+- "T@\"NSString\",&,N,V_keychainTag"
+- "T@\"NSString\",&,V_keychainTag"
+- "T@\"NSString\",?,R,C"
+- "T@\"NSString\",C,D,N"
+- "T@\"NSString\",N,D,C"
+- "T@\"NSString\",R,C"
+- "T@\"RegisteredPreKey\",&,D,N"
+- "T@\"SecKeyP256Public\",&,N,V_publicKey"
+- "T@\"SecKeyRSAPrivate\",&,N,V_encryptionKey"
+- "T@\"SecKeyRSAPublic\",R,N,V_encryptionKey"
+- "T@\"SigningKey\",&,N,V_deviceSigningKey"
+- "T@\"SigningKey\",&,V_signingKey"
+- "T@\"SigningPublicKey\",&,N,V__publicKey"
+- "T@\"SigningPublicKey\",&,N,V_signingKey"
+- "T@\"SigningPublicKey\",&,V_signingKey"
+- "T@\"TetraPublicSigningKeyWrapper\",N,R,VsigningPublicKey"
+- "T@\"_TtC17MessageProtection17SKIncomingRatchet\",&,N,V_ratchet"
+- "T@\"_TtC17MessageProtection17SKOutgoingRatchet\",&,N,V_ratchet"
+- "T@\"_TtC17MessageProtection17TetraRegistration\",&,N,V_tetraRegistration"
+- "T@\"_TtC17MessageProtection17TetraRegistration\",R,N,V_tetraRegistration"
+- "T@\"_TtC17MessageProtection22Kyber1024ObjCPublicKey\",N,R"
+- "T@\"_TtC17MessageProtection22Kyber1024ObjCPublicKey\",N,R,VkyberPublicKey"
+- "T@\"_TtC17MessageProtection22Kyber1024ObjCPublicKey\",R,N,V_kyberPublicKey"
+- "T@\"_TtC17MessageProtection23Kyber1024ObjCPrivateKey\",R,N,V_tetraPrivateKey"
+- "T@,&,N,V_secKeyRef"
+- "T@,R,N,V_privateKey"
+- "TB,N"
+- "TB,N,V_isMigratedV2Key"
+- "TB,R,N"
+- "TI,N,R,VtetraVersion"
+- "TI,N,V_counter"
+- "TI,N,V_tetraVersion"
+- "TI,R,N,V_tetraVersion"
+- "TI,V_upper_buffer_index"
+- "TI,V_valid_values_buffer_size"
+- "TQ,N,R"
+- "TQ,R"
+- "TS,R,N,V_index"
+- "T^{__SecKey={__CFRuntimeBase=QAQ}^{__SecKeyDescriptor}^v},N,R,VdiversifiedKey"
+- "T^{__SecKey={__CFRuntimeBase=QAQ}^{__SecKeyDescriptor}^v},V_publicKeyRef"
+- "T^{__SecKey=},R,N,V_diversifiedKey"
+- "T^{ccec_full_ctx=^{ccec_cp}[0{ccec_projective_point=[1Q]}]},V_full_key"
+- "Td,N,R,Vtimestamp"
+- "Td,N,V_timestamp"
+- "Td,R,N,V_timestamp"
+- "TetraPublicSigningKeyWrapper"
+- "TetraSigningKeyWrapper"
+- "TetraWrapped"
+- "Ti,D,N"
+- "Ti,N,V_keystore"
+- "Ti,R,V_keyStore"
+- "URL"
+- "URLForResource:withExtension:"
+- "ValidateSize"
+- "Vv16@0:8"
+- "^{_NSZone=}16@0:8"
+- "^{_SecMPFullIdentity={__CFRuntimeBase=QAQ}^{__SecKey}^{__SecKey}^{__SecKey}^{__SecKey}@}16@0:8"
+- "^{_SecMPPublicIdentity={__CFRuntimeBase=QAQ}^{__SecKey}^{__SecKey}@}16@0:8"
+- "^{__SecKey={__CFRuntimeBase=QAQ}^{__SecKeyDescriptor}^v}"
+- "^{__SecKey={__CFRuntimeBase=QAQ}^{__SecKeyDescriptor}^v}16@0:8"
+- "^{__SecKey={__CFRuntimeBase=QAQ}^{__SecKeyDescriptor}^v}48@0:8^{__SecKey={__CFRuntimeBase=QAQ}^{__SecKeyDescriptor}^v}16@24@32^@40"
+- "^{__SecKey=}"
+- "^{__SecKey=}16@0:8"
+- "^{__SecKey=}48@0:8^{__SecKey=}16@24@32^@40"
+- "^{ccec_full_ctx=^{ccec_cp}[0{ccec_projective_point=[1Q]}]}"
+- "^{ccec_full_ctx=^{ccec_cp}[0{ccec_projective_point=[1Q]}]}16@0:8"
+- "_TtC17MessageProtection13GFTKeyWrapper"
+- "_TtC17MessageProtection13Kyber1024ObjC"
+- "_TtC17MessageProtection13TetraVersions"
+- "_TtC17MessageProtection14TetraDBManager"
+- "_TtC17MessageProtection15FilesystemUtils"
+- "_TtC17MessageProtection17GLTDiversifiedKey"
+- "_TtC17MessageProtection17SKIncomingRatchet"
+- "_TtC17MessageProtection17SKOutgoingRatchet"
+- "_TtC17MessageProtection17TetraErrorHelpers"
+- "_TtC17MessageProtection17TetraRegistration"
+- "_TtC17MessageProtection18TetraMessageHasher"
+- "_TtC17MessageProtection22Kyber1024ObjCPublicKey"
+- "_TtC17MessageProtection23Kyber1024ObjCPrivateKey"
+- "_TtC17MessageProtection24ReceivingKeyTetraRatchet"
+- "_TtC17MessageProtection26GLTKeyDiversificationSwift"
+- "_TtC17MessageProtection27TetraMessageSignerFormatter"
+- "_TtC17MessageProtection4HKDF"
+- "_TtC17MessageProtection8TetraAPI"
+- "_TtC17MessageProtection9SKRatchet"
+- "__publicKey"
+- "_chainKey"
+- "_counter"
+- "_date"
+- "_debugInfo"
+- "_devicePrekeys"
+- "_deviceSigningKey"
+- "_dhKey"
+- "_diversifiedKey"
+- "_ecdhPublicKey"
+- "_echnidaRegistration"
+- "_encryptedMessage"
+- "_encryptedPayload"
+- "_encryptionKey"
+- "_encryptionKeyPersistentRef"
+- "_ephemeralPubKey"
+- "_formattedSignedData"
+- "_full_key"
+- "_has"
+- "_index"
+- "_isMigratedV2Key"
+- "_key"
+- "_keyData"
+- "_keyStore"
+- "_keyValidator"
+- "_keychainTag"
+- "_keystore"
+- "_ktGossipData"
+- "_kyberPublicKey"
+- "_message"
+- "_newZeroingDataWithBytes:length:"
+- "_persistentContainer"
+- "_prekey"
+- "_prekeyPublic"
+- "_prekeySignature"
+- "_prekeys"
+- "_privateKey"
+- "_privateKeyBlob"
+- "_publicKey"
+- "_publicKeyRef"
+- "_publicPrekey"
+- "_ratchet"
+- "_registrationInfo"
+- "_secKeyRef"
+- "_serializedKey"
+- "_setError"
+- "_signature"
+- "_signedData"
+- "_signingKey"
+- "_signingKeyPersistentRef"
+- "_tetraMessage"
+- "_tetraPreKey"
+- "_tetraPrivateKey"
+- "_tetraRegistration"
+- "_tetraRegistrationData"
+- "_tetraVersion"
+- "_timestamp"
+- "_trackingPreventionSalt"
+- "_upper_buffer_index"
+- "_valid_values_buffer"
+- "_valid_values_buffer_size"
+- "absoluteString"
+- "addObject:"
+- "addPrekeys:"
+- "allocWithZone:"
+- "appendBytes:length:"
+- "appendData:"
+- "appendDataAndSize:"
+- "appendString:"
+- "array"
+- "arrayWithCapacity:"
+- "arrayWithObjects:"
+- "arrayWithObjects:count:"
+- "asRef"
+- "attributes"
+- "attributesOfItemAtPath:error:"
+- "autorelease"
+- "base64EncodedStringWithOptions:"
+- "batchSign:forType:error:"
+- "bufferData"
+- "bundleForClass:"
+- "bundleWithIdentifier:"
+- "bytes"
+- "cache"
+- "cache:willEvictObject:"
+- "class"
+- "clearPrekeys"
+- "code"
+- "compactPrivateKeyWithAccessControl:"
+- "compactRepresentation"
+- "computeDestinationHashForIncomingMessageFrom:toLocalKey:"
+- "computeDestinationHashForOutgoingMessageTo:withLocalKey:"
+- "computeHashForMessage:"
+- "conformsToProtocol:"
+- "containsString:"
+- "copyTo:"
+- "copyWithZone:"
+- "count"
+- "countByEnumeratingWithState:objects:count:"
+- "counterForDestinationWithIdentityKey:sendingIdentity:error:success:"
+- "createObjectWithAttributes:error:"
+- "crypt:key:IV:"
+- "currentSubscriptionKey"
+- "currentSubscriptionKeys"
+- "currentTetraVersion"
+- "d"
+- "d16@0:8"
+- "d24@0:8Q16"
+- "data"
+- "dataRawBuffer.bindMemory"
+- "dataRepresentation"
+- "dataRepresentationWithError:"
+- "dataUsingEncoding:"
+- "dataWithBytes:length:"
+- "dataWithCapacity:"
+- "dataWithData:"
+- "dataWithLength:"
+- "date"
+- "dateWithTimeIntervalSince1970:"
+- "dbNameFromProcess"
+- "dealloc"
+- "debugDescription"
+- "debugDescriptionForAction:"
+- "decapsulate:algorithms:parameters:error:"
+- "decrypt:key:IV:"
+- "decrypt:using:error:"
+- "decrypt:usingKey:error:"
+- "decryptData:error:"
+- "decryptMessage:error:"
+- "defaultManager"
+- "defaultProtectionClassForPlatform"
+- "delete"
+- "deleteExpiredSendingDestinations"
+- "deleteItemWithPersistentRef:"
+- "deleteKeyWithTag:"
+- "deleteMigratedKeys"
+- "deleteObject:"
+- "deleteReceivingCountersForKey:"
+- "deriveKeyWith:salt:outputSize:"
+- "description"
+- "destinationHash"
+- "devicePrekeys"
+- "deviceSigningKey"
+- "dictionary"
+- "dictionaryRepresentation"
+- "dictionaryWithObjects:forKeys:count:"
+- "diversifiedKey"
+- "diversifyPrivateKey:withDocumentIdentifier:trackingPreventionSalt:error:"
+- "diversifyPublicKey:trackingPreventionSalt:withDocumentIdentifier:error:"
+- "diversifyPublicKey:withDocumentIdentifier:error:"
+- "diversifyWithPrivateKey:docId:trackingPreventionSalt:error:"
+- "diversifyWithPublicKey:trackingPreventionSalt:docId:error:"
+- "domain"
+- "duplicateTagForPrekey:"
+- "echnidaRegistration"
+- "encrypt:key:IV:"
+- "encrypt:to:error:"
+- "encrypt:toKey:error:"
+- "encryptData:"
+- "encryptData:error:"
+- "encryptedMessage"
+- "encryptionKeyPersistentRef"
+- "encryptionSize"
+- "enumerateObjectsUsingBlock:"
+- "environment"
+- "eraseFromKeyChain:"
+- "errorWithDomain:code:userInfo:"
+- "executeFetchRequest:error:"
+- "fetchRequest"
+- "fetchRequestWithEntityName:"
+- "firstObject"
+- "formatOutgoingInnerMessageWithPayload:attributes:destinationIdentity:sendingIdentity:error:"
+- "formatOutgoingMessageWithEncryptedPayload:ephemeral:signature:keyValidator:"
+- "formattedSignedData"
+- "fullPrekeyForTestingSignedBy:"
+- "full_key"
+- "generate"
+- "generateKeyForTesting"
+- "generateNewKeyWithAccess:error:"
+- "generateNewKeyWithAccess:forceNoSEP:error:"
+- "generateWithAccessControl:"
+- "getBytes:range:"
+- "getPrivateKeyRefWithError:"
+- "hasCounter"
+- "hasDebugInfo"
+- "hasDhKey"
+- "hasEncryptedPayload"
+- "hasEphemeralPubKey"
+- "hasError"
+- "hasKeyData"
+- "hasKeyValidator"
+- "hasKeychainTag"
+- "hasKtGossipData"
+- "hasSignature"
+- "hasTetraMessage"
+- "hasTetraPreKey"
+- "hasTetraPrivateKey"
+- "hasTetraRegistrationData"
+- "hasTetraVersion"
+- "hash"
+- "hashMessage:"
+- "i16@0:8"
+- "i24@0:8@16"
+- "identity"
+- "identityData"
+- "identityFromV2Bytes:size:error:"
+- "identityWithAccess:error:"
+- "identityWithAccess:usageIdentifier:error:"
+- "identityWithDataRepresentation:error:"
+- "identityWithIdentityData:error:"
+- "identityWithIdentityData:prekeyData:error:"
+- "increaseLengthBy:"
+- "init"
+- "initFileURLWithPath:"
+- "initRemotePrekeyWithPublicPrekeyPB:signedBy:error:"
+- "initTicketWithSigningKey:error:"
+- "initToSignKey:"
+- "initWithApKeyBytes:error:"
+- "initWithApplicationData:"
+- "initWithBytes:length:"
+- "initWithCTKTokenOID:error:"
+- "initWithCapacity:"
+- "initWithCompactRepresentation:"
+- "initWithConcurrencyType:"
+- "initWithContentsOfURL:"
+- "initWithContext:"
+- "initWithDHOutput:prekeyPub:ephemeralPub:recipientPub:ciphertext:"
+- "initWithData:"
+- "initWithData:error:"
+- "initWithData:upperBufferIndex:"
+- "initWithDomain:code:userInfo:"
+- "initWithEchnidaRegistration:tetraRegistration:signingKey:"
+- "initWithEncryptionKey:signingKey:"
+- "initWithEncryptionKeyData:signingKeyData:"
+- "initWithEncryptionSecKey:signingSecKey:"
+- "initWithEntity:insertIntoManagedObjectContext:"
+- "initWithEntityName:"
+- "initWithIndex:chainKey:signingKey:"
+- "initWithIndex:chainKey:signingKey:error:"
+- "initWithIndex:encryptedMessage:signature:"
+- "initWithKey:"
+- "initWithKey:error:"
+- "initWithKey:index:signingKey:error:"
+- "initWithKey:trackingPreventionSalt:"
+- "initWithKeychainTag:error:"
+- "initWithKyberPublicKey:ecdhPublicKey:timestamp:tetraVersion:"
+- "initWithKyberPublicKey:ecdhPublicKey:timestamp:version:signedBy:"
+- "initWithLength:"
+- "initWithName:managedObjectModel:"
+- "initWithPBPrekey:verifySignedBy:error:"
+- "initWithPrekeySignedBy:error:"
+- "initWithProtoBufData:error:"
+- "initWithProtobufData:"
+- "initWithProtobufferData:error:"
+- "initWithPublicKey:signature:timestamp:"
+- "initWithPublicKeyBytes:error:"
+- "initWithPublicPrekey:"
+- "initWithSecKeyRef:"
+- "initWithSepKeyBytes:error:"
+- "initWithSigningKey:"
+- "initWithSigningKey:devicePrekeys:"
+- "initWithSigningPublicKey:"
+- "initWithTetraRegistration:"
+- "initWithTetraRegistrationData:ecdhPublicKey:version:timestamp:signedBy:isEncrypting:error:"
+- "initWithToken:LAContext:parameters:error:"
+- "initWithTokenID:"
+- "initWithURL:"
+- "isBATS"
+- "isEqual:"
+- "isEqualToData:"
+- "isEqualToString:"
+- "isIdenticalIdentityTo:"
+- "isKindOfClass:"
+- "isMemberOfClass:"
+- "isMigratedV2Key"
+- "isProxy"
+- "isRunningTests"
+- "isSEPKey"
+- "isStillValidToDecrypt"
+- "isStillValidToEncrypt"
+- "isTetraCompatibleWithFullKey:"
+- "isTetraNoRatchetCompatibleWith:"
+- "isTetraNoRatchetCompatibleWithFullKey:"
+- "isValidKeyValidator:receiversIdentity:sendersIdentity:error:"
+- "isValidSignature:forMessage:forType:error:"
+- "isValidSigningDestination"
+- "isValidlySignedBy:error:"
+- "isVersionSupported:"
+- "isWireCompatibleWith:"
+- "isXCTest"
+- "keyAgreement:error:"
+- "keyAgreement:error:isRetry:"
+- "keyAgreementWithPublicKey:error:"
+- "keyIdentifier"
+- "keyRollingTicketWithError:"
+- "keyStore"
+- "keyValidatorWithReceiversIdentity:sendersIdentity:"
+- "keychainData"
+- "keystoreAsString:"
+- "kyberPublicKey"
+- "lastObject"
+- "length"
+- "lengthValidatedBuffer"
+- "loadPersistentStoresWithCompletionHandler:"
+- "logDatabaseCreationDate:"
+- "lookupIdentifier"
+- "markForStateResetWithOurURI:ourPushToken:ourSigningIdentity:theirURI:theirPushToken:"
+- "markForStateResetWithOurURI:ourPushToken:theirURI:theirPushToken:theirRegistration:signedByOur:"
+- "maxForwardRatchetDelta"
+- "mergeFrom:"
+- "messageTypeRequiresNoRatcheting:"
+- "messagedKey"
+- "mutableBytes"
+- "mutableCopy"
+- "newCompactPrivateKey"
+- "now"
+- "nowDate"
+- "numberWithDouble:"
+- "numberWithUnsignedInt:"
+- "objectAtIndex:"
+- "objectAtIndexedSubscript:"
+- "objectContextWithError:"
+- "objectForKey:"
+- "objectForKeyedSubscript:"
+- "objectForObjectID:error:"
+- "objectID"
+- "oldestDateAllowedToSendTo"
+- "openStatusWithIndex:encryptedMessage:authenticating:signature:error:"
+- "openWithMessage:authenticatedData:guid:sendingURI:sendingPushToken:receivingURI:receivingPushToken:theirIdentity:signedBy:tetraVersion:ourPrekeys:ourSigningPublicKeyCompactRepresentation:decryptionBlock:"
+- "padMessage:error:"
+- "pathExtension"
+- "pathWithComponents:"
+- "pbDevicePrekey"
+- "performBlockAndWait:"
+- "performSelector:"
+- "performSelector:withObject:"
+- "performSelector:withObject:withObject:"
+- "persistentContainerWithError:"
+- "persistentStoreCoordinator"
+- "persistentStoreDescription"
+- "populateIdentity:withEncryptionKeyFromPersistentRef:size:"
+- "populateIdentity:withSigningKeyFromPersistentRef:size:"
+- "position"
+- "postMigrationKeychainCleanup"
+- "predicateWithFormat:"
+- "prekeyCanBeDeleted:"
+- "prekeyData"
+- "prekeyPublic"
+- "prekeyShouldBeRolled:"
+- "prekeysAtIndex:"
+- "prekeysCount"
+- "prekeysType"
+- "privKey"
+- "privateKey"
+- "privateKeyBlob"
+- "privateSigningKeyForTerminusMigration"
+- "processFetchRequestAndValidate:counter:commit:theirIdentity:prekey:error:"
+- "processIncomingCounter:"
+- "processInfo"
+- "processName"
+- "protobufData"
+- "protobuffer"
+- "pruneDuplicates:tag:moc:"
+- "pubKey"
+- "publicDeviceIdentity"
+- "publicDeviceIdentityWithError:"
+- "publicIDCanonicalHash"
+- "publicIDHash"
+- "publicIdentity"
+- "publicKey"
+- "publicKeyRef"
+- "publicPrekey"
+- "publicSigningKeyForTerminusMigration"
+- "rangeOnPublicKey"
+- "ratchet"
+- "ratchetForward"
+- "readFrom:"
+- "receivingKEMKey"
+- "receivingKey"
+- "registeredPrekeyForNGMPrekey:objectContext:"
+- "registrationData"
+- "registrationDate"
+- "registrationInfo"
+- "release"
+- "remoteIdentifier"
+- "removeAllObjects"
+- "removeObjectForKey:"
+- "removeObjectsInArray:"
+- "replaceBytesInRange:withBytes:"
+- "requiresMigration"
+- "respondsToSelector:"
+- "retain"
+- "retainCount"
+- "reverseObjectEnumerator"
+- "save:"
+- "sealMessage:authenticatedData:messageType:guid:sendingURI:sendingPushToken:receivingURI:receivingPushToken:forceSizeOptimizations:resetState:encryptedAttributes:signedByFullIdentity:errors:"
+- "sealMessage:authenticating:error:"
+- "sealMessage:forceSizeOptimizations:resetState:encryptedAttributes:signedByFullIdentity:errors:"
+- "sealMessage:guid:sendingURI:sendingPushToken:receivingURI:receivingPushToken:forceSizeOptimizations:resetState:encryptedAttributes:signedByFullIdentity:errors:"
+- "sealMessage:signedByFullIdentity:error:"
+- "sealMessage:withEncryptedAttributes:signedByFullIdentity:error:"
+- "sealNoRatchetWithMessage:authenticatedData:sendingURI:sendingPushToken:receivingURI:receivingPushToken:encryptedAttributes:receiverIdentity:senderIdentity:error:"
+- "sealStatus:authenticating:error:"
+- "sealWithMessage:authenticatedData:guid:sendingURI:sendingPushToken:receivingURI:receivingPushToken:receiverRegistration:encryptedAttributes:resetState:signedBy:error:"
+- "secKeyRef"
+- "self"
+- "senders"
+- "serializedData"
+- "serializedECDHPublicKey"
+- "serializedKey"
+- "serializedSession"
+- "setCountLimit:"
+- "setCounter:"
+- "setDate:"
+- "setDebugInfo:"
+- "setDelegate:"
+- "setDestinationHash:"
+- "setDevicePrekeys:"
+- "setDeviceSigningKey:"
+- "setDhKey:"
+- "setEchnidaRegistration:"
+- "setEncryptedPayload:"
+- "setEncryptionKey:"
+- "setEncryptionKeyPersistentRef:"
+- "setEphemeralPubKey:"
+- "setFetchLimit:"
+- "setFull_key:"
+- "setHasCounter:"
+- "setHasTetraVersion:"
+- "setIsMigratedV2Key:"
+- "setKey:"
+- "setKeyData:"
+- "setKeyValidator:"
+- "setKeychainTag:"
+- "setKeystore:"
+- "setKtGossipData:"
+- "setMergePolicy:"
+- "setMessage:"
+- "setMessagedKey:"
+- "setNowDate:"
+- "setObject:forKey:"
+- "setObject:forKeyedSubscript:"
+- "setOption:forKey:"
+- "setPersistentStoreCoordinator:"
+- "setPersistentStoreDescriptions:"
+- "setPosition:"
+- "setPredicate:"
+- "setPrekey:"
+- "setPrekeySignature:"
+- "setPrekeys:"
+- "setPublicKey:"
+- "setPublicKeyRef:"
+- "setRatchet:"
+- "setRegistrationDate:"
+- "setRemoteIdentifier:"
+- "setSecKeyRef:"
+- "setSerializedKey:"
+- "setSerializedSession:"
+- "setShouldAddStoreAsynchronously:"
+- "setShouldPerformSecureOperation:"
+- "setSignature:"
+- "setSignedData:"
+- "setSigningKey:"
+- "setSigningKeyPersistentRef:"
+- "setSkippedCounters:"
+- "setTag:"
+- "setTetraMessage:"
+- "setTetraPreKey:"
+- "setTetraPrivateKey:"
+- "setTetraRegistration:"
+- "setTetraRegistrationData:"
+- "setTetraVersion:"
+- "setTimestamp:"
+- "setUpperBufferIndex:"
+- "setUpper_buffer_index:"
+- "setValidOutgoingCounter:"
+- "setValid_values_buffer:"
+- "setValid_values_buffer_size:"
+- "set_publicKey:"
+- "sharedManager"
+- "shouldMarkForStateReset:"
+- "shouldMarkForStateResetWithString:"
+- "shouldRekeyIfLastRekeyFrom:"
+- "shouldRollEncryptionIdentity"
+- "sign:forType:error:"
+- "signData:error:"
+- "signDataWithFormatter:error:"
+- "signDataWithMessageFormatter:error:"
+- "signDataWithRegistrationFormatter:error:"
+- "signedData"
+- "signingKeyIdentifier"
+- "signingKeyPersistentRef"
+- "signingPublicKey"
+- "skippedCounters"
+- "string"
+- "stringByAppendingString:"
+- "stringWithFormat:"
+- "subdataWithRange:"
+- "superclass"
+- "supportedVersion"
+- "syncIfNeededOnPlatform"
+- "tag"
+- "testing_duplicatePrekeyRegistration"
+- "tetraRegistration"
+- "tetraWrapped"
+- "timeIntervalAllowedForAction:"
+- "timeIntervalSince1970"
+- "trackingPreventionSalt"
+- "unpadMessage:error:"
+- "unsealMessage:signedByPublicIdentity:decryptionBlock:"
+- "unsealMessage:signedByPublicIdentity:error:"
+- "unsealMessageAndAttributes:authenticatedData:messageType:guid:sendingURI:sendingPushToken:receivingURI:receivingPushToken:signedByPublicIdentity:decryptionBlock:"
+- "unsealMessageAndAttributes:guid:sendingURI:sendingPushToken:receivingURI:receivingPushToken:signedByPublicIdentity:decryptionBlock:"
+- "unsealMessageAndAttributes:guid:signedByPublicIdentity:decryptionBlock:"
+- "unsealMessageAndAttributes:signedByPublicIdentity:decryptionBlock:"
+- "unsealStatusWithIndex:encryptedMessage:authenticating:signature:error:"
+- "unwrapSeed:usingKey:legacy:error:"
+- "unwrapWrappedSeed:legacy:using:error:"
+- "updateWithRegisteredTicket:error:"
+- "upperBufferIndex"
+- "upper_buffer_index"
+- "v116@0:8@16@24@32@40@48@56@64@72@80I88@92@100@?108"
+- "v16@0:8"
+- "v20@0:8B16"
+- "v20@0:8I16"
+- "v20@0:8i16"
+- "v24@0:8*16"
+- "v24@0:8@16"
+- "v24@0:8^{__SecKey={__CFRuntimeBase=QAQ}^{__SecKeyDescriptor}^v}16"
+- "v24@0:8^{ccec_full_ctx=^{ccec_cp}[0{ccec_projective_point=[1Q]}]}16"
+- "v24@0:8d16"
+- "v32@0:8@\"NSCache\"16@24"
+- "v32@0:8@16@24"
+- "v40@0:8@16@24@?32"
+- "v48@0:8@16@24@32@?40"
+- "v80@0:8@16@24@32@40@48@56@64@?72"
+- "v96@0:8@16@24q32@40@48@56@64@72@80@?88"
+- "validOutgoingCounter"
+- "valid_values_buffer"
+- "valid_values_buffer_size"
+- "validateFetchedPrekeyTimestamp:forEvaluationType:"
+- "validateIncomingCounter:prekey:publicIdentity:error:"
+- "validateTetraBindingsAuthenticatedData:GUID:sendingURI:sendingPushToken:receivingURI:receivingPushToken:"
+- "validatorLength"
+- "verifySignature:data:"
+- "verifySignature:formatter:"
+- "verifySignature:ofData:"
+- "verifyTetraMessageSignature:formatter:"
+- "verifyTetraRegistrationSignature:formatter:"
+- "versionByte"
+- "wrapSeed:to:legacy:error:"
+- "wrapSeed:toKeys:error:"
+- "wrappedValue"
+- "writeTo:"
+- "zone"
+- "{?=\"counter\"b1}"
+- "{?=\"tetraVersion\"b1}"
+- "{_NSRange=QQ}16@0:8"
+
+```

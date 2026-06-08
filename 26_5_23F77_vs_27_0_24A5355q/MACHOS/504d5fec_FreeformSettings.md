@@ -1,0 +1,188 @@
+## FreeformSettings
+
+> `/System/Library/PreferenceBundles/FreeformSettings.bundle/FreeformSettings`
+
+```diff
+
+-630.120.3.0.0
+-  __TEXT.__text: 0x2e78 sha256:f8a3cf9609f3ad11d7dd7e8b9b5eeab191158eba1a86ad37c0ab9a975c827c37
+-  __TEXT.__auth_stubs: 0x490 sha256:6f09c17bcaaca61d922d1c318d73c13990e6a467b6705675938c55a6d87de666
+-  __TEXT.__objc_stubs: 0x740 sha256:ae994062c9c340b885c89f6bde920466f2f316c8130ea8ace55cd6c8e2d1c58a
+-  __TEXT.__objc_methlist: 0x28c sha256:160d63404da88f1c81a5d942de00f7500faea5fcdea7bf7d1b4a906050d9cb20
+-  __TEXT.__cstring: 0xc48 sha256:d2afa93a8a83d277d075ea7a37f91bfbff510d6f8aff0a858884aac0e707e364
+-  __TEXT.__objc_methname: 0x85f sha256:c0a2d3559bf2e08d376cecef5ead03bdae3d9b8f4912af247f6e9753e4cbcac6
++646.0.0.202.4
++  __TEXT.__text: 0x2c2c sha256:b09820373f45df014affc1b2ff14597c27c5c438ff0e4d6e72f338b34ce09c53
++  __TEXT.__auth_stubs: 0x4e0 sha256:4a4bdebbcbf4d2391a4e05fe908e188db4471e8a98aa0df3289d1849ce803cd0
++  __TEXT.__objc_stubs: 0x700 sha256:2ce06044df6e738c1b65026f261e85ab1d49efe9f419b6976b1c6fe157a34b5e
++  __TEXT.__objc_methlist: 0x28c sha256:cf447e2194c10a234ffe1eee24dc308a296698f5a885a4a7d96527d385b5ba12
++  __TEXT.__cstring: 0xd08 sha256:1e467ba31e3fe4c97e050bdfc2ddb5881a9050ecb0298fb0cdc43f04543d6dfa
++  __TEXT.__objc_methname: 0x833 sha256:a75260885846bb329d307617babbe8f9bcfb4d24dc633e476adbc25ac762c32a
+   __TEXT.__ustring: 0x3c sha256:74cebab831cf1d7f8c90de91e4e9f00eea282ed2553e7bc1b3516306fd45166f
+-  __TEXT.__objc_classname: 0xc5 sha256:292c92cc1c37273d69e49a5e0e9da287eed28fc5d54a099c31520afd7ee67b7e
++  __TEXT.__objc_classname: 0xc5 sha256:7b18392756413e9cc73d82a0f4ace92b24186759620c54fcfef1bbe09c386072
+   __TEXT.__objc_methtype: 0x177 sha256:0834f67ca4670436ff01b31b8bda10209a6325a6ede1778cb9445f4fbac2b815
+-  __TEXT.__const: 0x10a sha256:6d63d68673954a6bae11e2b7e9e59a7bde52dd749da4f2d0edc7d05cc5ce1cde
++  __TEXT.__const: 0x10a sha256:b2b7bc64b957e4f9096c3d22f604059a92a56db01d6502de8b36b057cea70e5a
+   __TEXT.__oslogstring: 0x63 sha256:f43ff39ab39f472547313159022520f8620e8d49e7ba57d47c454283a14291d5
+-  __TEXT.__constg_swiftt: 0x8c sha256:929c3ccbce0b2ca1fcc8df4b530efcf1737fbf5e86c126bfd141db7482bbb8e1
+-  __TEXT.__swift5_typeref: 0xfc sha256:ebc45374f82d3aa69b44a754793bbc77814285ff0cae8433dd1b8a7a32446cbe
++  __TEXT.__constg_swiftt: 0x8c sha256:0453da5ebba2931941e73fc53d4233da893274c03f499241a9a9dec0e2a56235
++  __TEXT.__swift5_typeref: 0xfc sha256:ef7b0a99c7582bf1aa21cbedbd32412a57b857d111e9558d90021969b6e5a4f1
+   __TEXT.__swift5_fieldmd: 0x2c sha256:b31ece29cad866ba96e42930f69fd2a2ea8e1f570d209d068463bb08f3c2192b
+   __TEXT.__swift5_reflstr: 0x12 sha256:9b9df6ad6c1964f70617459ab01365dbc08f8d716eec0288ad3b629994491fee
+   __TEXT.__swift5_assocty: 0x30 sha256:5af93ce417b804f77f1cbe55cf9ef0a75903554483839a0fb20ab4583473d2ee
+   __TEXT.__swift5_capture: 0x20 sha256:a44fa0cfb0b2ba72609f771ff6a30b614d91fca6bb50250bc961f15affa47577
+   __TEXT.__swift5_proto: 0x8 sha256:a23d598ebc1e4fa1d837761b35a58b51fb10a8dc899dbbba203eec2bb4bf818b
+   __TEXT.__swift5_types: 0x8 sha256:5d19b9672142dafd303ae1d5dfa413c957a7692fc94af3b1350beeebe0b5e57e
+-  __TEXT.__swift_as_entry: 0x4 sha256:68d0d322996091e272abcb4851f3a7d3e891ba3d8668ba9e523a8e95b4b1a265
+-  __TEXT.__unwind_info: 0x120 sha256:830e2fbb6a3fa4cbb23e35d664cd7810ad012de70ac090a5612503f8af1529e9
+-  __TEXT.__eh_frame: 0x98 sha256:617508fe33fc1951d44ed39f7d8859f310e45f28a6a6e96634c4c360e9f3b3ae
+-  __DATA_CONST.__auth_got: 0x250 sha256:54e67b14a0322b4e33aa6d87c4af1812e2c5692396e51adca32865c16f3512db
+-  __DATA_CONST.__got: 0x140 sha256:b87c0c9fa77109051d3e3e85ae1274272ce736313682083fe216ea16e1783ffb
+-  __DATA_CONST.__auth_ptr: 0x78 sha256:477bc0d07c3976ba0eb8ca1a610db06935c467f346e151a37924b858d39d2dad
+-  __DATA_CONST.__const: 0x338 sha256:795938a0d900ce9a7c2cd5db3161dab11f43d49b682c3c48299a66efa0fb5c12
+-  __DATA_CONST.__cfstring: 0xbc0 sha256:240199806e7f5b1aa9abe0808c613e4f9deaffa3a9c224da29f100d5ee32f7d3
+-  __DATA_CONST.__objc_classlist: 0x28 sha256:290dedfd57d3f5dcbbb1f733b55dd54d2e4974a5c0f4bac25e017a9cbc090a26
+-  __DATA_CONST.__objc_protolist: 0x10 sha256:b451e224ac9345a882b4c05cc228274c053a5e5445707d94c6d6a1eed15043f2
+-  __DATA_CONST.__objc_imageinfo: 0x8 sha256:234cedc7009d98da03ca2a7ff525d0db26b82bff0e6046456f4eda918f734526
+-  __DATA_CONST.__objc_superrefs: 0x8 sha256:f70dc88c14ed8e83b9d96aaec02def626ec268a95877175a90116bc2c6f260e5
+-  __DATA_CONST.__objc_intobj: 0x90 sha256:907c99154b4d02da3c410ce8041533b9601b0054ec3c1d87a383ba3169ff9a3f
+-  __DATA_CONST.__objc_arraydata: 0x18 sha256:0feece73aed7d2c41faf3c76c8663972007a6c03288d8a077f2ffad06a55c192
+-  __DATA_CONST.__objc_arrayobj: 0x18 sha256:bd03a06a17f0071b08ddcd7883e5b11332651d6735adb875ad66630f2d955146
+-  __DATA.__objc_const: 0x4a0 sha256:a2b702a9c4d3af54dca097c5406050faad1ae37cbf7cf378f329e74133e193c0
+-  __DATA.__objc_selrefs: 0x2d0 sha256:2a0d09ee88fc898027147e2a4d513b1181f6a0a15fe9e220149a49a7a81d8a64
++  __TEXT.__swift_as_entry: 0x4 sha256:709d63fa702c976fc1cfc4c52e38bde1cee91df9293ed15416140bd19305b191
++  __TEXT.__swift_as_cont: 0x4 sha256:fb7f7c3eff919d5059f7245628d9b45f226ac9fc8fde514c9d2e75776fb45626
++  __TEXT.__unwind_info: 0x130 sha256:bd56ff9f5f5d9e5040cfbde991db3b731120cf8039e781f1f1aed665b24fbffd
++  __TEXT.__eh_frame: 0x98 sha256:75e624a304cf19900d524d7e9defe812587868411aaf9cb208b2c7b3d2b3933a
++  __DATA_CONST.__const: 0x358 sha256:7a1c57aae435da7e52687cfb6d0ce5e3d23d2b72be81cd512c10e8d4bd06947c
++  __DATA_CONST.__cfstring: 0xc60 sha256:b8f9792dcbc7e209509e35346518c94ecf60fce0e11966d7d329b97f8ae9dfcc
++  __DATA_CONST.__objc_classlist: 0x28 sha256:ca919b197b3cd230f2c86059ccce84edae1e222f3783946aee7314c7b63b94c8
++  __DATA_CONST.__objc_protolist: 0x10 sha256:6d83d17e109529cfd9826724aa681e4da144a98ec7281b30e617afcf41dc3a28
++  __DATA_CONST.__objc_imageinfo: 0x8 sha256:885ce8037a15de89b0ceb0054c31fc3de725513307f685be388961916dadcdb0
++  __DATA_CONST.__objc_superrefs: 0x8 sha256:599bfde99f6a5b00ad2a02ca33a77ff36c5865678a1281a42553ed41324003f8
++  __DATA_CONST.__objc_intobj: 0xd8 sha256:b2f20121327d7601d08168d1f64dbe11b6d325332cbeb1887402c9e1bca70b0d
++  __DATA_CONST.__objc_arraydata: 0x18 sha256:76d1eac4c84bf8e08687bd043075317b2a0ad45ac89c94eb2545b2f3bb2e6891
++  __DATA_CONST.__objc_arrayobj: 0x18 sha256:6298f27e5b489f34a038b942cf0b8d5896bfa1310f896207f5e7b4ad4896da5f
++  __DATA_CONST.__auth_got: 0x278 sha256:fb40f4d473c3d48babed0c7c07cf1dbd25c382b5e824479ab75ac294b06d055b
++  __DATA_CONST.__got: 0x138 sha256:c081e6ea3e5806fad27207ef135196b7fc9fb39d6ae851786bb6977825035f43
++  __DATA_CONST.__auth_ptr: 0x78 sha256:bcb53a55050c522427287854b07ba2ec9a66f0bf417eea4b952d8bbacf06b4dd
++  __DATA.__objc_const: 0x4a0 sha256:867ac2c86433926608183484c570ee8c0d73b0e8192f99cd048bd3b5641a3167
++  __DATA.__objc_selrefs: 0x2c0 sha256:81a66474d1fd1b096e838dc5abffaaa63fcebb0ddd3246b9c67737a15e09b2b0
+   __DATA.__objc_ivar: 0x4 sha256:895d79e3e0fc9b5679aed8ae35e529676b9a4ef6802c1423dfea6ab30c6faa7f
+-  __DATA.__objc_data: 0x140 sha256:012acf8b3ae91e386187ba8ef5131444e1811415e42723bd00a350e73049f8fa
+-  __DATA.__data: 0x198 sha256:6bd1e4177adac7192e0c6d575564470a39bf08d6ef5331689f6fe2a7115be66c
++  __DATA.__objc_data: 0x140 sha256:375f5fa433895503c91bcac6cd2ba0c709e636109352bb4a4b77f4af640dd673
++  __DATA.__data: 0x198 sha256:3fb5f5157b041c8544f648a33cadf1f19798625519e4ff93d24fa147f17001e4
+   __DATA.__bss: 0x130 sha256:e2fc162ed9124452d23c85e81d60a0c228f414c3214a5de635737e25fbd29ac1
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+
+   - /usr/lib/swift/libswiftCoreImage.dylib
+   - /usr/lib/swift/libswiftCoreLocation.dylib
+   - /usr/lib/swift/libswiftCoreMIDI.dylib
+-  - /usr/lib/swift/libswiftCoreMedia.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
+   - /usr/lib/swift/libswiftIntents.dylib
+   - /usr/lib/swift/libswiftMetal.dylib
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 6A69D9C0-A2F2-3765-B4B2-37D24BA86F23
+-  Functions: 62
+-  Symbols:   867
+-  CStrings:  324
++  UUID: 1854FE5B-F69D-3DDC-A4B3-6D35611D2334
++  Functions: 60
++  Symbols:   878
++  CStrings:  334
+ 
+Symbols:
++ /Library/Caches/com.apple.xbs/F515C784-FFE0-447E-B70C-3CADA66A3A78/TemporaryDirectory.UMs0c6/Binaries/Freeform/install/TempContent/Objects/Freeform.build/FreeformSettings_iOS.build/Objects-normal/arm64e/CRLBundleUtilities.o
++ /Library/Caches/com.apple.xbs/F515C784-FFE0-447E-B70C-3CADA66A3A78/TemporaryDirectory.UMs0c6/Binaries/Freeform/install/TempContent/Objects/Freeform.build/FreeformSettings_iOS.build/Objects-normal/arm64e/CRLSettingsController.o
++ /Library/Caches/com.apple.xbs/F515C784-FFE0-447E-B70C-3CADA66A3A78/TemporaryDirectory.UMs0c6/Binaries/Freeform/install/TempContent/Objects/Freeform.build/FreeformSettings_iOS.build/Objects-normal/arm64e/CRLSettingsEULAController.o
++ /Library/Caches/com.apple.xbs/F515C784-FFE0-447E-B70C-3CADA66A3A78/TemporaryDirectory.UMs0c6/Binaries/Freeform/install/TempContent/Objects/Freeform.build/FreeformSettings_iOS.build/Objects-normal/arm64e/CRLSettingsStringsController.o
++ /Library/Caches/com.apple.xbs/F515C784-FFE0-447E-B70C-3CADA66A3A78/TemporaryDirectory.UMs0c6/Binaries/Freeform/install/TempContent/Objects/Freeform.build/FreeformSettings_iOS.build/Objects-normal/arm64e/CRLUserDefaults.o
++ /Library/Caches/com.apple.xbs/F515C784-FFE0-447E-B70C-3CADA66A3A78/TemporaryDirectory.UMs0c6/Binaries/Freeform/install/TempContent/Objects/Freeform.build/FreeformSettings_iOS.build/Objects-normal/arm64e/FreeformSettings.o
++ /Library/Caches/com.apple.xbs/F515C784-FFE0-447E-B70C-3CADA66A3A78/TemporaryDirectory.UMs0c6/Binaries/Freeform/install/TempContent/Objects/Freeform.build/FreeformSettings_iOS.build/Objects-normal/arm64e/FreeformSettings.swiftmodule
++ /Library/Caches/com.apple.xbs/F515C784-FFE0-447E-B70C-3CADA66A3A78/TemporaryDirectory.UMs0c6/Sources/Freeform/src/freeform/Source/CRLKit/
++ /Library/Caches/com.apple.xbs/F515C784-FFE0-447E-B70C-3CADA66A3A78/TemporaryDirectory.UMs0c6/Sources/Freeform/src/freeform/Source/CRLUtility/
++ /Library/Caches/com.apple.xbs/F515C784-FFE0-447E-B70C-3CADA66A3A78/TemporaryDirectory.UMs0c6/Sources/Freeform/src/freeform/Source/CrossPlatformUI/Settings/
++ _$s16FreeformSettingsAAV4bodyQrvg7SwiftUI4ViewP0B0E07bridgedB33FeatureDescriptionNavigationTitleyQrAD4TextVFQOy19PreferencesExtended0m10ControllerF0V_Qo_ycfU_
++ _$s16FreeformSettingsAAV4bodyQrvg7SwiftUI4ViewP0B0E07bridgedB33FeatureDescriptionNavigationTitleyQrAD4TextVFQOy19PreferencesExtended0m10ControllerF0V_Qo_ycfU_TA
++ _$s7SwiftUI4ViewP8SettingsE07bridgedD33FeatureDescriptionNavigationTitleyQrAA4TextVF
++ _$s7SwiftUI4ViewP8SettingsE07bridgedD33FeatureDescriptionNavigationTitleyQrAA4TextVFQOMQ
++ _$s7SwiftUI4ViewP8SettingsE07bridgedD33FeatureDescriptionNavigationTitleyQrAA4TextVFQOy19PreferencesExtended0k10ControllerC0V_Qo_MR
++ _$s7SwiftUI4ViewP8SettingsE07bridgedD33FeatureDescriptionNavigationTitleyQrAA4TextVFQOy19PreferencesExtended0k10ControllerC0V_Qo_Md
++ _$s8Settings0A4PaneVy7SwiftUI4ViewPAAE07bridgedA33FeatureDescriptionNavigationTitleyQrAD4TextVFQOy19PreferencesExtended0l10ControllerE0V_Qo_GACyxGAA0A17ExperienceContentAAWL
++ _$s8Settings0A4PaneVy7SwiftUI4ViewPAAE07bridgedA33FeatureDescriptionNavigationTitleyQrAD4TextVFQOy19PreferencesExtended0l10ControllerE0V_Qo_GACyxGAA0A17ExperienceContentAAWl
++ _$s8Settings0A4PaneVy7SwiftUI4ViewPAAE07bridgedA33FeatureDescriptionNavigationTitleyQrAD4TextVFQOy19PreferencesExtended0l10ControllerE0V_Qo_GMR
++ _$s8Settings0A4PaneVy7SwiftUI4ViewPAAE07bridgedA33FeatureDescriptionNavigationTitleyQrAD4TextVFQOy19PreferencesExtended0l10ControllerE0V_Qo_GMd
++ _CRL3DObjectMaxTotalFootprintUserDefault
++ _CRL3DObjectMaxTotalTrianglesUserDefault
++ _CRLAccountIdentifierAtKeepSyncDataTime
++ _CRLDidShowDeleteBoardConfirmationAlertUserDefault
++ _CRLDidShowDeleteFolderConfirmationAlertUserDefault
++ _CRLQALogManageShareURLUserDefault
++ ___swift_async_cont_functlets
++ ___swift_closure_destructor
++ __swift_closure_destructor.4
++ _objc_claimAutoreleasedReturnValue
++ _objc_retainAutoreleaseReturnValue
++ _objc_retain_x3
++ _objc_retain_x4
++ _objc_retain_x7
++ _swift_release_x8
++ _symbolic _____y______Qo_ 7SwiftUI4ViewP8SettingsE07bridgedD33FeatureDescriptionNavigationTitleyQrAA4TextVFQO 19PreferencesExtended0k10ControllerC0V
++ _symbolic _____y_____y______Qo_G 8Settings0A4PaneV 7SwiftUI4ViewPAAE07bridgedA33FeatureDescriptionNavigationTitleyQrAD4TextVFQO 19PreferencesExtended0l10ControllerE0V
++ _symbolic _____y_____y_____y______Qo_G_Qo_ 8Settings0A17ExperienceContentPAAE02onaB7OpenURL7performQrAA0abE9URLActionV6ResultVAG5InputVYacn_tFQO AA0A4PaneV 7SwiftUI4ViewPAAE07bridgedA33FeatureDescriptionNavigationTitleyQrAN4TextVFQO 19PreferencesExtended0u10ControllerN0V
++ get_witness_table qd__8Settings0A17ExperienceContentHD2_AaBPAAE02onaB7OpenURL7performQrAA0abE9URLActionV6ResultVAG5InputVYacn_tFQOyAA0A4PaneVy7SwiftUI4ViewPAAE07bridgedA33FeatureDescriptionNavigationTitleyQrAN4TextVFQOy19PreferencesExtended0u10ControllerN0V_Qo_G_Qo_HO.8
+- /Library/Caches/com.apple.xbs/46920AA8-F379-424E-973C-4D920FA9EC26/TemporaryDirectory.WunMu9/Binaries/Freeform/install/TempContent/Objects/Freeform.build/FreeformSettings_iOS.build/Objects-normal/arm64e/CRLBundleUtilities.o
+- /Library/Caches/com.apple.xbs/46920AA8-F379-424E-973C-4D920FA9EC26/TemporaryDirectory.WunMu9/Binaries/Freeform/install/TempContent/Objects/Freeform.build/FreeformSettings_iOS.build/Objects-normal/arm64e/CRLSettingsController.o
+- /Library/Caches/com.apple.xbs/46920AA8-F379-424E-973C-4D920FA9EC26/TemporaryDirectory.WunMu9/Binaries/Freeform/install/TempContent/Objects/Freeform.build/FreeformSettings_iOS.build/Objects-normal/arm64e/CRLSettingsEULAController.o
+- /Library/Caches/com.apple.xbs/46920AA8-F379-424E-973C-4D920FA9EC26/TemporaryDirectory.WunMu9/Binaries/Freeform/install/TempContent/Objects/Freeform.build/FreeformSettings_iOS.build/Objects-normal/arm64e/CRLSettingsStringsController.o
+- /Library/Caches/com.apple.xbs/46920AA8-F379-424E-973C-4D920FA9EC26/TemporaryDirectory.WunMu9/Binaries/Freeform/install/TempContent/Objects/Freeform.build/FreeformSettings_iOS.build/Objects-normal/arm64e/CRLUserDefaults.o
+- /Library/Caches/com.apple.xbs/46920AA8-F379-424E-973C-4D920FA9EC26/TemporaryDirectory.WunMu9/Binaries/Freeform/install/TempContent/Objects/Freeform.build/FreeformSettings_iOS.build/Objects-normal/arm64e/FreeformSettings.o
+- /Library/Caches/com.apple.xbs/46920AA8-F379-424E-973C-4D920FA9EC26/TemporaryDirectory.WunMu9/Binaries/Freeform/install/TempContent/Objects/Freeform.build/FreeformSettings_iOS.build/Objects-normal/arm64e/FreeformSettings.swiftmodule
+- /Library/Caches/com.apple.xbs/46920AA8-F379-424E-973C-4D920FA9EC26/TemporaryDirectory.WunMu9/Sources/Freeform/src/freeform/Source/CRLKit/
+- /Library/Caches/com.apple.xbs/46920AA8-F379-424E-973C-4D920FA9EC26/TemporaryDirectory.WunMu9/Sources/Freeform/src/freeform/Source/CRLUtility/
+- /Library/Caches/com.apple.xbs/46920AA8-F379-424E-973C-4D920FA9EC26/TemporaryDirectory.WunMu9/Sources/Freeform/src/freeform/Source/CrossPlatformUI/Settings/
+- _$s16FreeformSettingsAAV4bodyQrvg7SwiftUI4ViewPADE15navigationTitleyQrAD4TextVFQOy19PreferencesExtended0j10ControllerF0V_Qo_ycfU_
+- _$s16FreeformSettingsAAV4bodyQrvg7SwiftUI4ViewPADE15navigationTitleyQrAD4TextVFQOy19PreferencesExtended0j10ControllerF0V_Qo_ycfU_TA
+- _$s7SwiftUI4ViewPAAE15navigationTitleyQrAA4TextVF
+- _$s7SwiftUI4ViewPAAE15navigationTitleyQrAA4TextVFQOMQ
+- _$s7SwiftUI4ViewPAAE15navigationTitleyQrAA4TextVFQOy19PreferencesExtended0g10ControllerC0V_Qo_MR
+- _$s7SwiftUI4ViewPAAE15navigationTitleyQrAA4TextVFQOy19PreferencesExtended0g10ControllerC0V_Qo_Md
+- _$s8Settings0A4PaneVy7SwiftUI4ViewPADE15navigationTitleyQrAD4TextVFQOy19PreferencesExtended0i10ControllerE0V_Qo_GACyxGAA0A17ExperienceContentAAWL
+- _$s8Settings0A4PaneVy7SwiftUI4ViewPADE15navigationTitleyQrAD4TextVFQOy19PreferencesExtended0i10ControllerE0V_Qo_GACyxGAA0A17ExperienceContentAAWl
+- _$s8Settings0A4PaneVy7SwiftUI4ViewPADE15navigationTitleyQrAD4TextVFQOy19PreferencesExtended0i10ControllerE0V_Qo_GMR
+- _$s8Settings0A4PaneVy7SwiftUI4ViewPADE15navigationTitleyQrAD4TextVFQOy19PreferencesExtended0i10ControllerE0V_Qo_GMd
+- _CRLDidShowDeleteConfirmationAlertUserDefault
+- _OBJC_CLASS_$_NSNumber
+- _OUTLINED_FUNCTION_1
+- _OUTLINED_FUNCTION_2
+- __swift_FORCE_LOAD_$_swiftCoreMedia
+- __swift_FORCE_LOAD_$_swiftCoreMedia_$_FreeformSettings
+- _objc_msgSend$numberWithUnsignedInteger:
+- _objc_msgSend$usesMetricSystem
+- _objc_retain_x24
+- _symbolic _____y______Qo_ 7SwiftUI4ViewPAAE15navigationTitleyQrAA4TextVFQO 19PreferencesExtended0g10ControllerC0V
+- _symbolic _____y_____y______Qo_G 8Settings0A4PaneV 7SwiftUI4ViewPADE15navigationTitleyQrAD4TextVFQO 19PreferencesExtended0i10ControllerE0V
+- _symbolic _____y_____y_____y______Qo_G_Qo_ 8Settings0A17ExperienceContentPAAE02onaB7OpenURL7performQrAA0abE9URLActionV6ResultVAG5InputVYacn_tFQO AA0A4PaneV 7SwiftUI4ViewPANE15navigationTitleyQrAN4TextVFQO 19PreferencesExtended0r10ControllerN0V
+- get_witness_table qd__8Settings0A17ExperienceContentHD2_AaBPAAE02onaB7OpenURL7performQrAA0abE9URLActionV6ResultVAG5InputVYacn_tFQOyAA0A4PaneVy7SwiftUI4ViewPANE15navigationTitleyQrAN4TextVFQOy19PreferencesExtended0r10ControllerN0V_Qo_G_Qo_HO.8
+CStrings:
++ "CRL3DObjectMaxTotalTriangles"
++ "CRL3dObjectMaxTotalFootprint"
++ "CRLAccountIdentifierAtKeepSyncDataTime"
++ "CRLDidShowDeleteFolderConfirmationAlert"
++ "CRLQALogManageShareURLUserDefault"
++ "DeviceSupportsApplePencil"
++ "Q"
++ "q"
+- "numberWithUnsignedInteger:"
+- "usesMetricSystem"
+- "yhHcB0iH0d1XzPO/CFd3ow"
+
+```

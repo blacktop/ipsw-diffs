@@ -1,0 +1,626 @@
+## MMCS
+
+> `/System/Library/PrivateFrameworks/MMCS.framework/MMCS`
+
+```diff
+
+-2300.120.0.0.0
+-  __TEXT.__text: 0x83be0 sha256:3e2d9d4ee4e4cb25ed9657ebdfcfdcc72a48cf4becb0774d20c5a727a223e93b
+-  __TEXT.__auth_stubs: 0x1cf0 sha256:318fa022eda1aa13fda2ee7a13f0176eb873c89ca297e46b69cd59c6d511a0a9
+-  __TEXT.__objc_methlist: 0xc10 sha256:31b1df7217173febed25a3c3fa26e3ba19767f2bf62d2f0209d81f672a250ed1
+-  __TEXT.__const: 0x9bc sha256:8d093b30b1d2bb49f65dd8f7af2b69b078c6664c658dc9a3ec18310424390607
+-  __TEXT.__oslogstring: 0x47a8 sha256:ef60c03691a89f7043054d2f35dbef714aa759788660685a3d936f66df1183ef
+-  __TEXT.__cstring: 0x1791e sha256:c0587e0e27b3f6449b20f42ed1d2ca1318349f61d39af66b91a8fefd17800f1c
+-  __TEXT.__gcc_except_tab: 0x6f8 sha256:609346efab49e2d22817b085bdf53f9ba9e5713426c3b0e45d544fec2f8a31fe
+-  __TEXT.__unwind_info: 0x1590 sha256:532f6b48b7bb32c21db63be5a1aa662a941a31de9a36dd55f8d21166cff12c16
+-  __TEXT.__objc_classname: 0x11e sha256:a215bfcd7fd5b568968db9b75a4a87359823be03f0028e0d1b0674061b8892d2
+-  __TEXT.__objc_methname: 0x21e3 sha256:b675756ea35ee7a64be3ec32ef4fa25fcda4750e71db5ce4dede8f8c353b395b
+-  __TEXT.__objc_methtype: 0x178b sha256:8a585fc41d1c35a4731dab3c56a7310f0eaa79a780ddc7712fb9410d50b1cb64
+-  __TEXT.__objc_stubs: 0x1960 sha256:27aee466cb1f23e6d29687aa0b2ae4408c90d61a5d566266b10a485f4ce51a16
+-  __DATA_CONST.__got: 0x2c8 sha256:922e56c32d79080fd8fd76916f08c3ea40db2aa8a161c731e39d5845ecddb8c5
+-  __DATA_CONST.__const: 0x53c8 sha256:75cd0fe700a6d9b8451e45fc9b152ef3754a673abccf92ddd1abe470033383f8
+-  __DATA_CONST.__objc_classlist: 0x28 sha256:039c02ae9c8baa92ddf902189cc87cd845cad7df8ce50015cff1f83b32a0077c
+-  __DATA_CONST.__objc_protolist: 0x50 sha256:5f22fc0b5fabbd19df07c56f4b8d85168f3f9feb13a2959ee0403ff057dca218
++2700.108.0.0.0
++  __TEXT.__text: 0x7f754 sha256:170e1ca3309dc90aceee6e6cf16a5730c74289994bf0ab8e389d91fc3a8ba2f0
++  __TEXT.__objc_methlist: 0xbe0 sha256:d851a881139c75841f3527abf9c58d42dc10d56f0865a31658effa3c62859426
++  __TEXT.__const: 0x9ac sha256:af95eb8bbfed78e4511e75f1139abf49a6abde162889cbd16c4fe1786622ea56
++  __TEXT.__oslogstring: 0x442c sha256:b174edde450bc0913a1053847e32783162d66c3cdbda2d68ad521447ebdaa37d
++  __TEXT.__cstring: 0x177ed sha256:8853f1fac50dfff49db80d2304a7f37fb1ea203c69fa8eaa6f497d766c7864f6
++  __TEXT.__gcc_except_tab: 0x63c sha256:98cf7ddbcc629a46ce4acfe31adddfebc4c661ccf20ada212503bbdf3eed22a1
++  __TEXT.__unwind_info: 0x1570 sha256:47a626c92b1e12b204bbed6c4544426c49e57c737718819da0802a6bafc80841
++  __TEXT.__objc_stubs: 0x0
++  __TEXT.__auth_stubs: 0x0
++  __TEXT.__objc_classname: 0x0
++  __TEXT.__objc_methname: 0x0
++  __TEXT.__objc_methtype: 0x0
++  __DATA_CONST.__const: 0x53d0 sha256:d6dc52516605c10ddf9dea231b4064543c0530fac83207c76fbae309e1ce8463
++  __DATA_CONST.__objc_classlist: 0x28 sha256:36add5419beea835fee6db6e560e1377f3198426d13a4b738d6728a90df730c0
++  __DATA_CONST.__objc_protolist: 0x50 sha256:7386301725d9710a7c9d6175f05aa2e8fadd2857c5437f617f69c68f268b4512
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x8b8 sha256:f57cd72e18db7ae1131934b7b3113b9eb497715ddaa096b658405b4645dc5b7a
+-  __DATA_CONST.__objc_superrefs: 0x28 sha256:039c02ae9c8baa92ddf902189cc87cd845cad7df8ce50015cff1f83b32a0077c
+-  __AUTH_CONST.__auth_got: 0xe88 sha256:d18a7e408ddf2df50f87ee7de3619221a0164f6fb2ca7e4a9be421c609ac5483
+-  __AUTH_CONST.__const: 0x2d10 sha256:985eee3c557135c8cecbae3d0f073ab0622d52183f4de167fd291dc0786ca258
+-  __AUTH_CONST.__cfstring: 0xcf40 sha256:eef2c791b95d86a6897e61623974927df587812982a095e73302d86e7d5c4eb3
+-  __AUTH_CONST.__objc_const: 0x1240 sha256:b23eed1e6d81b6b798a0c4f195ab4074661e066f910f2bf2329cb1115122eeda
+-  __DATA.__objc_ivar: 0xa4 sha256:a3e0aca3b1aaf362bd88915ab8b8948b00a999c4210274498e94d7362cedba3a
+-  __DATA.__data: 0x468 sha256:a6f8ec31af25886bd85ad9c4c22286a8b984e0ed381d701773f6ba9c3be7619d
++  __DATA_CONST.__objc_selrefs: 0x898 sha256:ad6853471f90c6ef9f98db9f14119ae33ea86428c609865696fd49bb33d77848
++  __DATA_CONST.__objc_superrefs: 0x28 sha256:36add5419beea835fee6db6e560e1377f3198426d13a4b738d6728a90df730c0
++  __DATA_CONST.__got: 0x2c8 sha256:ed16c7d81fb8efe9f8a44f3f285ee614bbf3176803f9ba353ff8cd656b8a78b8
++  __AUTH_CONST.__const: 0x2d10 sha256:96304a669e529ab5b8f120a4415d9872c61d6649214a706452f1093957666b89
++  __AUTH_CONST.__cfstring: 0xcee0 sha256:12a716558666df19ff6be6453b1494e5bdf02f92c4ecbc69caebfa15dc9625f1
++  __AUTH_CONST.__objc_const: 0x11f0 sha256:a4ce6f3628ce1bc2897b8e4a49aefb3bf73913cb42b1be6cbfa24edd5e370a9e
++  __AUTH_CONST.__auth_got: 0xe68 sha256:45ddebcecd34d5ced231578d9faa3951fb45de216c2a68b427a6003fe0c6fc1a
++  __DATA.__objc_ivar: 0xa0 sha256:86983f45faeb82e407923a5d0a90055e832c6a04fe65a61082fa7d81095b1d25
++  __DATA.__data: 0x460 sha256:a153f565b9cc5977a3432ee1060006351f84d4e417882de74e7fb07591d37b48
+   __DATA.__bss: 0x68 sha256:39f37f8d1931b3bdf767e7510dd69509fbf23af1f7654933d0a4d291cbdd4418
+   __DATA.__common: 0x9 sha256:3e7077fd2f66d689e0cee6a7cf5b37bf2dca7c979af356d0a31cbc5c85605c7d
+-  __DATA_DIRTY.__objc_data: 0x190 sha256:2efe2b3ade9a7a2b490bcaf1ac93bd50491f4723143526a9a33df314a41b10af
+-  __DATA_DIRTY.__data: 0x588 sha256:48dc028517a406b12ccbce527204d8fa5150e90f0973104449ff23246e33de8a
++  __DATA_DIRTY.__objc_data: 0x190 sha256:b5dc7ba18059a39f14d865bb97472f280fd8f6f1a451d4c70e02ac078dd6320e
++  __DATA_DIRTY.__data: 0x578 sha256:f41f7e3dbbbf7d131929e7a152991f269953eca5c630b3101a81b9ba1016513c
+   __DATA_DIRTY.__bss: 0x190 sha256:7a12e561363385e9dfeeab326368731c030ed4b374e7f5897ac819159d2884c5
+   - /System/Library/Frameworks/CFNetwork.framework/CFNetwork
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libz.1.dylib
+-  UUID: CF5B00FE-FDD3-3088-9582-7CA4BF8BFBAF
+-  Functions: 2411
+-  Symbols:   6259
+-  CStrings:  5163
++  UUID: B18FABC9-C6C2-35D4-AFE5-03660E542F4A
++  Functions: 2401
++  Symbols:   6230
++  CStrings:  4654
+ 
+Symbols:
++ _MMCSDuplicateRegisteredfile2
++ _MMCSUnregisterFilesInWorkingDirectory
++ __OBJC_$_PROP_LIST_MMCSOperationMetric.163
++ __OBJC_$_PROP_LIST_MMCSOperationStateTimeRange.110
++ _kMMCSRequestOptionWorkingDirectory
++ _mmcs_get_request_file_path
++ _mmcs_local_chunk_satisfyer_perform.cold.6
++ _mmcs_local_chunk_satisfyer_perform.cold.7
++ _mmcs_local_chunk_satisfyer_perform.cold.8
++ _objc_claimAutoreleasedReturnValue
++ _objc_retain_x3
++ _objc_retain_x8
+- -[MMCSOperationMetric bytesFulfilledByPeers]
+- -[MMCSOperationMetric setBytesFulfilledByPeers:]
+- _MMCSEngineClientContextClass10
+- _MMCSEngineClientContextCopy10
+- _MMCSEngineClientContextGetItemReaderWriterForChunkSignature
+- _MMCSGetChunks
+- _MMCSGetChunks.cold.1
+- _OBJC_IVAR_$_MMCSOperationMetric._bytesFulfilledByPeers
+- _OUTLINED_FUNCTION_5
+- __CFURLRequestSetAllowedProtocolTypes
+- __OBJC_$_PROP_LIST_MMCSOperationMetric.169
+- __OBJC_$_PROP_LIST_MMCSOperationStateTimeRange.111
+- _mmcs_chunk_instance_create
+- _mmcs_chunk_instance_dealloc
+- _mmcs_engine_file_path
+- _mmcs_engine_is_apple_file_system
+- _mmcs_external_chunk_satisfyer_perform
+- _mmcs_local_chunk_satisfyer_copy_chunk
+- _mmcs_local_chunk_satisfyer_copy_chunk.cold.1
+- _mmcs_local_chunk_satisfyer_copy_chunk.cold.2
+- _mmcs_local_chunk_satisfyer_copy_chunk.cold.3
+- _objc_msgSend$_CFURLRequest
+- _objc_msgSend$objectForKey:
+- _objc_msgSend$setBytesFulfilledByPeers:
+- _objc_retainAutorelease
+- _objc_retainAutoreleasedReturnValue
+- _objc_retain_x24
+- _objc_retain_x26
+- _objc_retain_x27
+- _objc_retain_x28
+CStrings:
++ "<request_metrics %p> type:%@ protoVers:%0.3lf start:%f elapsed:%0.4lf cancelErr:%@ reqErr:%@ nrItems:%ld nrItemsNeedingChunks:%ld bytesFromLocal:%lld bytesResumed:%lld authRequests:%@ containerRequests:%@ completionRequests:%@"
++ "itemId:%llu local fulfillment took %0.4lf seconds for %llu bytes. Validated for Resume (%llu bytes), Resumed (%llu bytes), Fullfilled Locally (%llu bytes)"
++ "kMMCSRequestOptionWorkingDirectory"
+- "\t                                   %llu bytes fulfilled by peers"
+- "#16@0:8"
+- ".cxx_destruct"
+- "<request_metrics %p> type:%@ protoVers:%0.3lf start:%f elapsed:%0.4lf cancelErr:%@ reqErr:%@ nrItems:%ld nrItemsNeedingChunks:%ld bytesFromPeers:%lld bytesFromLocal:%lld bytesResumed:%lld authRequests:%@ containerRequests:%@ completionRequests:%@"
+- "@\"<MMCSOperationStateTimeRange>\"40@0:8Q16@\"NSDate\"24d32"
+- "@\"C2RequestOptions\""
+- "@\"NSArray\"16@0:8"
+- "@\"NSDate\""
+- "@\"NSDate\"16@0:8"
+- "@\"NSDictionary\""
+- "@\"NSInputStream\""
+- "@\"NSMutableArray\""
+- "@\"NSMutableDictionary\""
+- "@\"NSMutableDictionary\"16@0:8"
+- "@\"NSMutableSet\""
+- "@\"NSMutableSet\"16@0:8"
+- "@\"NSMutableURLRequest\""
+- "@\"NSOutputStream\""
+- "@\"NSString\"16@0:8"
+- "@\"NSURLSession\""
+- "@\"NSURLSessionDataTask\""
+- "@\"NSURLSessionTask\""
+- "@16@0:8"
+- "@24@0:8:16"
+- "@24@0:8@16"
+- "@24@0:8Q16"
+- "@32@0:8:16@24"
+- "@32@0:8@16@?24"
+- "@40@0:8:16@24@32"
+- "@40@0:8Q16@24d32"
+- "@40@0:8Q16d24d32"
+- "@40@0:8^{mmcs_http_context={_C3Base={__CFRuntimeBase=QAQ}}i{Metricsinfo__HTTPMetricsInfo={ProtobufCMessage=^{ProtobufCMessageDescriptor}I^{ProtobufCMessageUnknownField}}*iiiiidididddqqiqQidiqiq^{Chunkserver__ErrorResponse}idid}^{__CFString}qdCCCCCCCi^{__CFUUID}dd^{__CFError}^{__CFHTTPMessage}CQQ^{_mmcs_http_request_options}dd^{__CFHTTPMessage}C^{__CFData}C^{__sFILE}^{__sFILE}{Metricsinfo__SocketInfo={ProtobufCMessage=^{ProtobufCMessageDescriptor}I^{ProtobufCMessageUnknownField}}**Ii}^{mmcs_metrics_http_info}^?^?^?^?^?^?^?^?^?^v^v^{os_activity_s}^{voucher_s}^{mmcs_read_stream_pool}^{_mmcs_perform_target}^{__CFData}(?=^{mmcs_cfnetwork_http_context}^{mmcs_nsurlsession_http_context}^{mmcs_curl_http_context}^v)}16r^{mmcs_http_context_options=^{__CFString}^{__CFHTTPMessage}^{_mmcs_http_request_options}ddQQ^?^?^?^?^?^?^?^v^?^vCd^{os_activity_s}}24^{os_activity_s=}32"
+- "@?"
+- "@?16@0:8"
+- "B"
+- "B16@0:8"
+- "B24@0:8#16"
+- "B24@0:8:16"
+- "B24@0:8@\"Protocol\"16"
+- "B24@0:8@16"
+- "C2RequestDelegate"
+- "C2WarmRequest"
+- "HTTPBodyStream"
+- "MMCSBoundedQueue"
+- "MMCSGetChunks"
+- "MMCSGetChunks - Done, found %llu bytes."
+- "MMCSGetChunks - Start."
+- "MMCSGetChunks, chunk %@ satisfied locally %s eith error %@"
+- "MMCSGetChunks, chunkSignatures array element had incorrect type."
+- "MMCSGetChunks, destination item reader did not open."
+- "MMCSGetChunks, failed to created destionation chunk reference."
+- "MMCSGetChunks, failed to created source chunk instance."
+- "MMCSGetChunks, failed to created source registered chunk."
+- "MMCSGetChunks, failed to initialize local chunk satisfyer."
+- "MMCSGetChunks, fatal error copying source chunk."
+- "MMCSGetChunks, retrieval of destination item reader writer failed."
+- "MMCSGetChunks, retrieval of destination item reader writer returned nil."
+- "MMCSHTTPContext"
+- "MMCSLib.c"
+- "MMCSOperationMetric"
+- "MMCSOperationStateTimeRange"
+- "NSObject"
+- "NSStreamDelegate"
+- "NSURLSessionDataDelegate"
+- "NSURLSessionDataDelegatePrivate"
+- "NSURLSessionDelegate"
+- "NSURLSessionTaskDelegate"
+- "NSURLSessionTaskDelegatePrivate"
+- "Q"
+- "Q16@0:8"
+- "Retrieving itemReaderWriter for chunk signature unsuccessful with error %@"
+- "Retrieving itemReaderWriter for chunk signature unsuccessful, no callback provided on engine context."
+- "Retrieving itemReaderWriter for chunk signature unsuccessful."
+- "T#,R"
+- "T@\"C2RequestOptions\",&,N,V_warmOptions"
+- "T@\"NSArray\",R"
+- "T@\"NSDate\",&,N,V_startDate"
+- "T@\"NSDate\",R"
+- "T@\"NSDictionary\",&,N,V_timingData"
+- "T@\"NSInputStream\",&,N,V_inputStream"
+- "T@\"NSMutableArray\",&,N,V_entries"
+- "T@\"NSMutableArray\",&,N,V_ranges"
+- "T@\"NSMutableDictionary\",R"
+- "T@\"NSMutableDictionary\",R,V_chunkCountByChunkProfile"
+- "T@\"NSMutableDictionary\",R,V_fileCountByChunkProfile"
+- "T@\"NSMutableDictionary\",R,V_totalBytesByChunkProfile"
+- "T@\"NSMutableSet\",R"
+- "T@\"NSMutableSet\",R,V_requestUUIDs"
+- "T@\"NSMutableURLRequest\",&,N,V_warmRequest"
+- "T@\"NSOutputStream\",&,N,V_outputStream"
+- "T@\"NSString\",?,R,C"
+- "T@\"NSString\",R,C"
+- "T@\"NSURLSession\",&,N,V_urlSession"
+- "T@\"NSURLSessionDataTask\",&,N,V_dataTask"
+- "T@\"NSURLSessionTask\",&,N,V_warmTask"
+- "T@?,C,N,V_callback"
+- "TB,N,V_didOpen"
+- "TB,N,V_isHandlingError"
+- "TB,N,V_isTaskDone"
+- "TB,N,V_isValid"
+- "TB,N,V_requestIsStreamed"
+- "TB,R,N,V_isValid"
+- "TQ"
+- "TQ,N,V_bytesErrorLevel"
+- "TQ,R"
+- "TQ,R,N,V_bytesUpperBound"
+- "TQ,R,V_operationState"
+- "TQ,V_bytesDownloaded"
+- "TQ,V_bytesFulfilledByPeers"
+- "TQ,V_bytesFulfilledLocally"
+- "TQ,V_bytesResumed"
+- "TQ,V_bytesUploaded"
+- "TQ,V_connections"
+- "TQ,V_connectionsCreated"
+- "T^{dispatch_semaphore_s=},N,V_boundsExceeded"
+- "T^{mmcs_http_context={_C3Base={__CFRuntimeBase=QAQ}}i{Metricsinfo__HTTPMetricsInfo={ProtobufCMessage=^{ProtobufCMessageDescriptor}I^{ProtobufCMessageUnknownField}}*iiiiidididddqqiqQidiqiq^{Chunkserver__ErrorResponse}idid}^{__CFString}qdCCCCCCCi^{__CFUUID}dd^{__CFError}^{__CFHTTPMessage}CQQ^{_mmcs_http_request_options}dd^{__CFHTTPMessage}C^{__CFData}C^{__sFILE}^{__sFILE}{Metricsinfo__SocketInfo={ProtobufCMessage=^{ProtobufCMessageDescriptor}I^{ProtobufCMessageUnknownField}}**Ii}^{mmcs_metrics_http_info}^?^?^?^?^?^?^?^?^?^v^v^{os_activity_s}^{voucher_s}^{mmcs_read_stream_pool}^{_mmcs_perform_target}^{__CFData}(?=^{mmcs_cfnetwork_http_context}^{mmcs_nsurlsession_http_context}^{mmcs_curl_http_context}^v)},N,V_hc"
+- "T^{os_activity_s=},N,V_activityMarker"
+- "Td"
+- "Td,R"
+- "Td,R,V_duration"
+- "Td,V_duration"
+- "Td,V_executing"
+- "Td,V_queueing"
+- "Tq,N,V_containerType"
+- "URL"
+- "URLSession:_taskIsWaitingForConnection:"
+- "URLSession:_willRetryBackgroundDataTask:"
+- "URLSession:_willRetryBackgroundDataTask:withError:"
+- "URLSession:dataTask:_didReceiveData:completionHandler:"
+- "URLSession:dataTask:didBecomeDownloadTask:"
+- "URLSession:dataTask:didBecomeStreamTask:"
+- "URLSession:dataTask:didReceiveData:"
+- "URLSession:dataTask:didReceiveResponse:completionHandler:"
+- "URLSession:dataTask:willCacheResponse:completionHandler:"
+- "URLSession:didBecomeInvalidWithError:"
+- "URLSession:didCreateTask:"
+- "URLSession:didReceiveChallenge:completionHandler:"
+- "URLSession:task:_alternatePathAvailable:"
+- "URLSession:task:_conditionalRequirementsChanged:"
+- "URLSession:task:_didReceiveInformationalResponse:"
+- "URLSession:task:_isWaitingForConnectionWithError:"
+- "URLSession:task:_isWaitingForConnectionWithReason:"
+- "URLSession:task:_schemeUpgraded:completionHandler:"
+- "URLSession:task:_willSendRequestForEstablishedConnection:completionHandler:"
+- "URLSession:task:didCompleteWithError:"
+- "URLSession:task:didFinishCollectingMetrics:"
+- "URLSession:task:didReceiveChallenge:completionHandler:"
+- "URLSession:task:didReceiveInformationalResponse:"
+- "URLSession:task:didSendBodyData:totalBytesSent:totalBytesExpectedToSend:"
+- "URLSession:task:needNewBodyStream:"
+- "URLSession:task:needNewBodyStreamFromOffset:completionHandler:"
+- "URLSession:task:willBeginDelayedRequest:completionHandler:"
+- "URLSession:task:willPerformHTTPRedirection:newRequest:completionHandler:"
+- "URLSession:taskIsWaitingForConnectivity:"
+- "URLSessionDidFinishEventsForBackgroundURLSession:"
+- "UUID"
+- "UUIDString"
+- "Vv16@0:8"
+- "^{_NSZone=}16@0:8"
+- "^{__CFError=}16@0:8"
+- "^{dispatch_semaphore_s=}"
+- "^{dispatch_semaphore_s=}16@0:8"
+- "^{mmcs_http_context={_C3Base={__CFRuntimeBase=QAQ}}i{Metricsinfo__HTTPMetricsInfo={ProtobufCMessage=^{ProtobufCMessageDescriptor}I^{ProtobufCMessageUnknownField}}*iiiiidididddqqiqQidiqiq^{Chunkserver__ErrorResponse}idid}^{__CFString}qdCCCCCCCi^{__CFUUID}dd^{__CFError}^{__CFHTTPMessage}CQQ^{_mmcs_http_request_options}dd^{__CFHTTPMessage}C^{__CFData}C^{__sFILE}^{__sFILE}{Metricsinfo__SocketInfo={ProtobufCMessage=^{ProtobufCMessageDescriptor}I^{ProtobufCMessageUnknownField}}**Ii}^{mmcs_metrics_http_info}^?^?^?^?^?^?^?^?^?^v^v^{os_activity_s}^{voucher_s}^{mmcs_read_stream_pool}^{_mmcs_perform_target}^{__CFData}(?=^{mmcs_cfnetwork_http_context}^{mmcs_nsurlsession_http_context}^{mmcs_curl_http_context}^v)}"
+- "^{mmcs_http_context={_C3Base={__CFRuntimeBase=QAQ}}i{Metricsinfo__HTTPMetricsInfo={ProtobufCMessage=^{ProtobufCMessageDescriptor}I^{ProtobufCMessageUnknownField}}*iiiiidididddqqiqQidiqiq^{Chunkserver__ErrorResponse}idid}^{__CFString}qdCCCCCCCi^{__CFUUID}dd^{__CFError}^{__CFHTTPMessage}CQQ^{_mmcs_http_request_options}dd^{__CFHTTPMessage}C^{__CFData}C^{__sFILE}^{__sFILE}{Metricsinfo__SocketInfo={ProtobufCMessage=^{ProtobufCMessageDescriptor}I^{ProtobufCMessageUnknownField}}**Ii}^{mmcs_metrics_http_info}^?^?^?^?^?^?^?^?^?^v^v^{os_activity_s}^{voucher_s}^{mmcs_read_stream_pool}^{_mmcs_perform_target}^{__CFData}(?=^{mmcs_cfnetwork_http_context}^{mmcs_nsurlsession_http_context}^{mmcs_curl_http_context}^v)}16@0:8"
+- "^{os_activity_s=}"
+- "^{os_activity_s=}16@0:8"
+- "_CFURLRequest"
+- "_activityMarker"
+- "_boundsExceeded"
+- "_bytesDownloaded"
+- "_bytesErrorLevel"
+- "_bytesFulfilledByPeers"
+- "_bytesFulfilledLocally"
+- "_bytesResumed"
+- "_bytesUploaded"
+- "_bytesUpperBound"
+- "_callback"
+- "_chunkCountByChunkProfile"
+- "_connections"
+- "_connectionsCreated"
+- "_containerType"
+- "_dataTask"
+- "_didOpen"
+- "_duration"
+- "_entries"
+- "_executing"
+- "_fileCountByChunkProfile"
+- "_hc"
+- "_inputStream"
+- "_isHandlingError"
+- "_isTaskDone"
+- "_isValid"
+- "_operationState"
+- "_outputStream"
+- "_queueing"
+- "_ranges"
+- "_requestIsStreamed"
+- "_requestUUIDs"
+- "_setAllowsUCA:"
+- "_setPayloadTransmissionTimeout:"
+- "_setRequiresShortConnectionTimeout:"
+- "_setStartTimeoutDate:"
+- "_startDate"
+- "_sync_aggregateByteCount"
+- "_sync_isFull"
+- "_timingData"
+- "_totalBytesByChunkProfile"
+- "_urlSession"
+- "_warmOptions"
+- "_warmRequest"
+- "_warmTask"
+- "absoluteStart"
+- "absoluteStop"
+- "activityMarker"
+- "addData:"
+- "addIndex:"
+- "addIndexesInRange:"
+- "addObject:"
+- "addObjectsFromArray:"
+- "addRange:"
+- "allHeaderFields"
+- "allKeys"
+- "allObjects"
+- "annotateCallstackForContainerType:block:"
+- "appendString:"
+- "archivedDataWithRootObject:requiringSecureCoding:error:"
+- "array"
+- "autorelease"
+- "boundsExceeded"
+- "bytes"
+- "bytesDownloaded"
+- "bytesErrorLevel"
+- "bytesFulfilledByPeers"
+- "bytesFulfilledLocally"
+- "bytesResumed"
+- "bytesUploaded"
+- "bytesUpperBound"
+- "callback"
+- "cancel"
+- "chunkCallback && completionCallback"
+- "chunkCountByChunkProfile"
+- "class"
+- "cleanupResponse"
+- "close"
+- "code"
+- "compareExecutingStartTime:"
+- "compareStartTime:"
+- "compareStopTime:"
+- "componentsWithURL:resolvingAgainstBaseURL:"
+- "configuration"
+- "conformsToProtocol:"
+- "connections"
+- "connectionsCreated"
+- "containerType"
+- "containsIndex:"
+- "containsIndexesInRange:"
+- "copy"
+- "count"
+- "countByEnumeratingWithState:objects:count:"
+- "countOfBytesExpectedToSend"
+- "countOfBytesSent"
+- "countOfRequestBodyBytesSent"
+- "createDataTaskWithRequest:options:delegate:sessionHandle:"
+- "createNewRequestBodyInputStream"
+- "currentHandler"
+- "d"
+- "d16@0:8"
+- "dataTask"
+- "date"
+- "dateWithTimeIntervalSinceReferenceDate:"
+- "debugDescription"
+- "describeRanges"
+- "describedSortedRanges:"
+- "description"
+- "descriptionWithOperationState:absoluteStart:duration:"
+- "didOpen"
+- "doubleValue"
+- "duration"
+- "entries"
+- "enumerateByteRangesUsingBlock:"
+- "enumerateKeysAndObjectsUsingBlock:"
+- "enumerateObjectsUsingBlock:"
+- "enumerateRangesUsingBlock:"
+- "fileCountByChunkProfile"
+- "firstObject"
+- "getBoundStreamsWithBufferSize:inputStream:outputStream:"
+- "handleFailureInMethod:object:file:lineNumber:description:"
+- "hasSpaceAvailable"
+- "hash"
+- "identifier"
+- "init"
+- "initWithBool:"
+- "initWithContext:options:activityMarker:"
+- "initWithData:callback:"
+- "initWithDate:"
+- "initWithOperationState:startDate:duration:"
+- "initWithURL:"
+- "initWithURL:cachePolicy:timeoutInterval:"
+- "initWithUpperBound:"
+- "inputStream"
+- "intValue"
+- "invalidate"
+- "invalidateStreamPair"
+- "invokedURL"
+- "isEqual:"
+- "isEqualToString:"
+- "isHandlingError"
+- "isKindOfClass:"
+- "isMemberOfClass:"
+- "isProxy"
+- "isTaskDone"
+- "isValid"
+- "itemId:%llu local fulfillment took %0.4lf seconds for %llu bytes. Validated for Resume (%llu bytes), Resumed (%llu bytes), Fullfilled Locally (%llu bytes), Fullfilled By Peers (%llu bytes)"
+- "lastObject"
+- "localizedDescription"
+- "localizedFailureReason"
+- "localizedStringForStatusCode:"
+- "mmcs-get-chunks"
+- "mutableCopy"
+- "newRangeWithOperationState:startDate:duration:"
+- "numberWithUnsignedLongLong:"
+- "objectAtIndexedSubscript:"
+- "objectForKey:"
+- "objectForKeyedSubscript:"
+- "operationState"
+- "originalRequest"
+- "outputStream"
+- "performSelector:"
+- "performSelector:withObject:"
+- "performSelector:withObject:withObject:"
+- "q"
+- "q16@0:8"
+- "q24@0:8@\"<MMCSOperationStateTimeRange>\"16"
+- "q24@0:8@16"
+- "q32@0:8r*16Q24"
+- "ranges"
+- "rangesCompleted"
+- "rangesCopy"
+- "relativeStart"
+- "release"
+- "removeNextDataWithBlock:"
+- "removeObjectAtIndex:"
+- "requestBodyCanAcceptData"
+- "requestBodyDone"
+- "requestIsStreamed"
+- "requestUUIDs"
+- "respondsToSelector:"
+- "resume"
+- "retain"
+- "retainCount"
+- "self"
+- "send"
+- "setActivityMarker:"
+- "setAllHTTPHeaderFields:"
+- "setAllowRouting:"
+- "setAllowsCellularAccess:"
+- "setAllowsUCA:"
+- "setBoundInterfaceIdentifier:"
+- "setBoundsExceeded:"
+- "setBytesDownloaded:"
+- "setBytesErrorLevel:"
+- "setBytesFulfilledByPeers:"
+- "setBytesFulfilledLocally:"
+- "setBytesResumed:"
+- "setBytesUploaded:"
+- "setCallback:"
+- "setConnections:"
+- "setConnectionsCreated:"
+- "setContainerType:"
+- "setCountOfBytesClientExpectsToReceive:"
+- "setCountOfBytesClientExpectsToSend:"
+- "setDataTask:"
+- "setDelegate:"
+- "setDidOpen:"
+- "setDiscretionaryNetworkBehavior:"
+- "setDuetPreClearedMode:"
+- "setDuration:"
+- "setEntries:"
+- "setExecuting:"
+- "setHTTPBody:"
+- "setHTTPBodyStream:"
+- "setHTTPMethod:"
+- "setHTTPShouldHandleCookies:"
+- "setHc:"
+- "setIdentifier:"
+- "setInputStream:"
+- "setIsHandlingError:"
+- "setIsTaskDone:"
+- "setIsValid:"
+- "setMetricOptions:"
+- "setNetworkServiceType:"
+- "setNetworkingDelegate:"
+- "setObject:forKeyedSubscript:"
+- "setOutOfProcessPoolName:"
+- "setOutputStream:"
+- "setPath:"
+- "setPrivacyProxyFailClosedOverride:"
+- "setProperty:forKey:"
+- "setQueryItems:"
+- "setQueueing:"
+- "setRanges:"
+- "setRedactRemoteEndpointFromNetworkMetrics:"
+- "setRedactUniformResourceIdentifierFromNetworkMetrics:"
+- "setRequestIsStreamed:"
+- "setStartDate:"
+- "setTimingData:"
+- "setTlsPinning:"
+- "setUrlSession:"
+- "setUseNWLoaderOverride:"
+- "setValue:forHTTPHeaderField:"
+- "setWarmOptions:"
+- "setWarmRequest:"
+- "setWarmTask:"
+- "set_allowsExpensiveAccess:"
+- "set_allowsPowerNapScheduling:"
+- "set_allowsRetryForBackgroundDataTasks:"
+- "set_appleIDContextSessionIdentifier:"
+- "set_sourceApplicationAuditTokenData:"
+- "set_sourceApplicationBundleIdentifier:"
+- "set_sourceApplicationSecondaryIdentifier:"
+- "set_timeoutIntervalForRequest:"
+- "set_timeoutIntervalForResource:"
+- "sharedManager"
+- "sortUsingSelector:"
+- "sortedArrayUsingSelector:"
+- "startDate"
+- "statusCode"
+- "stream:handleEvent:"
+- "streamError"
+- "streamStatus"
+- "string"
+- "stringForOperationState:"
+- "stringWithFormat:"
+- "superclass"
+- "taskDescription"
+- "taskIdentifier"
+- "timeIntervalSinceReferenceDate"
+- "timingData"
+- "totalBytesByChunkProfile"
+- "unarchivedObjectOfClass:fromData:error:"
+- "unsignedLongLongValue"
+- "unsupported engine client version %ld\n"
+- "urlSession"
+- "v16@0:8"
+- "v20@0:8B16"
+- "v24@0:8@\"<MMCSOperationStateTimeRange>\"16"
+- "v24@0:8@\"NSURLSession\"16"
+- "v24@0:8@16"
+- "v24@0:8@?16"
+- "v24@0:8Q16"
+- "v24@0:8^{dispatch_semaphore_s=}16"
+- "v24@0:8^{mmcs_http_context={_C3Base={__CFRuntimeBase=QAQ}}i{Metricsinfo__HTTPMetricsInfo={ProtobufCMessage=^{ProtobufCMessageDescriptor}I^{ProtobufCMessageUnknownField}}*iiiiidididddqqiqQidiqiq^{Chunkserver__ErrorResponse}idid}^{__CFString}qdCCCCCCCi^{__CFUUID}dd^{__CFError}^{__CFHTTPMessage}CQQ^{_mmcs_http_request_options}dd^{__CFHTTPMessage}C^{__CFData}C^{__sFILE}^{__sFILE}{Metricsinfo__SocketInfo={ProtobufCMessage=^{ProtobufCMessageDescriptor}I^{ProtobufCMessageUnknownField}}**Ii}^{mmcs_metrics_http_info}^?^?^?^?^?^?^?^?^?^v^v^{os_activity_s}^{voucher_s}^{mmcs_read_stream_pool}^{_mmcs_perform_target}^{__CFData}(?=^{mmcs_cfnetwork_http_context}^{mmcs_nsurlsession_http_context}^{mmcs_curl_http_context}^v)}16"
+- "v24@0:8^{os_activity_s=}16"
+- "v24@0:8d16"
+- "v24@0:8q16"
+- "v32@0:8@\"NSStream\"16Q24"
+- "v32@0:8@\"NSURLSession\"16@\"NSError\"24"
+- "v32@0:8@\"NSURLSession\"16@\"NSURLSessionDataTask\"24"
+- "v32@0:8@\"NSURLSession\"16@\"NSURLSessionTask\"24"
+- "v32@0:8@16@24"
+- "v32@0:8@16Q24"
+- "v36@0:8@\"NSURLSession\"16@\"NSURLSessionTask\"24B32"
+- "v36@0:8@\"NSURLSession\"16@\"NSURLSessionTask\"24i32"
+- "v36@0:8@16@24B32"
+- "v36@0:8@16@24i32"
+- "v40@0:8@\"NSURLSession\"16@\"NSURLAuthenticationChallenge\"24@?<v@?q@\"NSURLCredential\">32"
+- "v40@0:8@\"NSURLSession\"16@\"NSURLSessionDataTask\"24@\"NSData\"32"
+- "v40@0:8@\"NSURLSession\"16@\"NSURLSessionDataTask\"24@\"NSError\"32"
+- "v40@0:8@\"NSURLSession\"16@\"NSURLSessionDataTask\"24@\"NSURLSessionDownloadTask\"32"
+- "v40@0:8@\"NSURLSession\"16@\"NSURLSessionDataTask\"24@\"NSURLSessionStreamTask\"32"
+- "v40@0:8@\"NSURLSession\"16@\"NSURLSessionTask\"24@\"NSError\"32"
+- "v40@0:8@\"NSURLSession\"16@\"NSURLSessionTask\"24@\"NSHTTPURLResponse\"32"
+- "v40@0:8@\"NSURLSession\"16@\"NSURLSessionTask\"24@\"NSURLResponse\"32"
+- "v40@0:8@\"NSURLSession\"16@\"NSURLSessionTask\"24@\"NSURLSessionTaskMetrics\"32"
+- "v40@0:8@\"NSURLSession\"16@\"NSURLSessionTask\"24@?<v@?@\"NSInputStream\">32"
+- "v40@0:8@\"NSURLSession\"16@\"NSURLSessionTask\"24q32"
+- "v40@0:8@16@24@32"
+- "v40@0:8@16@24@?32"
+- "v40@0:8@16@24q32"
+- "v48@0:8@\"NSURLSession\"16@\"NSURLSessionDataTask\"24@\"NSCachedURLResponse\"32@?<v@?@\"NSCachedURLResponse\">40"
+- "v48@0:8@\"NSURLSession\"16@\"NSURLSessionDataTask\"24@\"NSData\"32@?<v@?>40"
+- "v48@0:8@\"NSURLSession\"16@\"NSURLSessionDataTask\"24@\"NSURLResponse\"32@?<v@?q>40"
+- "v48@0:8@\"NSURLSession\"16@\"NSURLSessionTask\"24@\"NSURLAuthenticationChallenge\"32@?<v@?q@\"NSURLCredential\">40"
+- "v48@0:8@\"NSURLSession\"16@\"NSURLSessionTask\"24@\"NSURLRequest\"32@?<v@?@\"NSURLRequest\">40"
+- "v48@0:8@\"NSURLSession\"16@\"NSURLSessionTask\"24@\"NSURLRequest\"32@?<v@?q@\"NSURLRequest\">40"
+- "v48@0:8@\"NSURLSession\"16@\"NSURLSessionTask\"24q32@?<v@?@\"NSInputStream\">40"
+- "v48@0:8@16@24@32@?40"
+- "v48@0:8@16@24q32@?40"
+- "v56@0:8@\"NSURLSession\"16@\"NSURLSessionTask\"24@\"NSHTTPURLResponse\"32@\"NSURLRequest\"40@?<v@?@\"NSURLRequest\">48"
+- "v56@0:8@\"NSURLSession\"16@\"NSURLSessionTask\"24q32q40q48"
+- "v56@0:8@16@24@32@40@?48"
+- "v56@0:8@16@24q32q40q48"
+- "warmOptions"
+- "warmRequest"
+- "warmTask"
+- "write:maxLength:"
+- "writeRequestBody:maxLength:"
+- "zone"
+
+```

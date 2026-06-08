@@ -1,0 +1,588 @@
+## MediaMLExtension
+
+> `/System/Library/ExtensionKit/Extensions/MediaMLExtension.appex/MediaMLExtension`
+
+```diff
+
+ 88.4.0.0.0
+-  __TEXT.__text: 0x62d4c sha256:28389577803b878e94fd91cd6fca87a1edadfcb02fe912591687df4725356295
+-  __TEXT.__auth_stubs: 0xef0 sha256:9500bd9e0b7159aa22d2ae03515172ed8198b9a5e6c4ef22425a9fde6dfe6a17
+-  __TEXT.__objc_stubs: 0xe0 sha256:60a5effae021047534ba924fb62047404039c44bf8a623d84d65a9a05ee8a6cf
+-  __TEXT.__objc_methlist: 0x104 sha256:f5b666e78d69968f2c3457533ed3504683007f905da952d18c83300319dff0fc
+-  __TEXT.__const: 0xce2 sha256:bf2440e768d0bd8b9dfdb0a9a973a46d2a38c5f90058ab1375a8ae487292b46c
++  __TEXT.__text: 0x61aa8 sha256:fe1f42e33e65d79fc5e712320f5a4298e02aff7dcf6ab07c105d46da80ffeeda
++  __TEXT.__auth_stubs: 0xef0 sha256:0997aafddb38d147ec1c5dd13916f16a7bc95783cf7a43b1bd4c3c8e40603ff1
++  __TEXT.__objc_stubs: 0xe0 sha256:1e433e24dee370d93242794a2a16b7ca4dc1af19b67f50e223112b025ec5d43c
++  __TEXT.__const: 0xcd2 sha256:4ad4c3cb55b436ec09ab1c6ed2db97d4bcb571a37546ab19b471570ff319ee78
+   __TEXT.__cstring: 0x1cd7 sha256:c14bcb9b280288401068141c02f8bf8d7c73818fa7f4532f1dc425c581e14c65
+-  __TEXT.__swift5_typeref: 0x4e8 sha256:7100235a04f64bb684c39312eb3948b409ce1123aacc9afbe0ea633394a6b9f8
+-  __TEXT.__swift5_capture: 0xcac sha256:e3350ba69cccd11f4ec48fcab12e69ea0edc7e79dd279b44cf9b25e653c3412c
++  __TEXT.__swift5_typeref: 0x4c6 sha256:e4c5e529bd6b57492bed73f840753b69549cabc5f78185846b7605ffdf68e8b2
++  __TEXT.__swift5_capture: 0xcac sha256:e71d15295f64773f41b6762e9e28bd31bd9dbc69177aac51c3e75a563d6c00e4
+   __TEXT.__oslogstring: 0x86d sha256:6e6e8b2ef1bf534a8a2dc9d3fa1799ce8aab64bac63a25121e592ca84942fd59
+-  __TEXT.__constg_swiftt: 0x338 sha256:7d3dd7eccc5e170ce1ba65c3d1d7de99f22586659df3de29c119706cdd6c305c
+-  __TEXT.__swift5_builtin: 0x3c sha256:a0b72f3deedf46aac06b256851a2c95339d747d1d1de55875ba5c77863e33e97
++  __TEXT.__constg_swiftt: 0x338 sha256:2458f40937943ad3371193b6e483ccd3e387cd0bf29b1cceaddb2a2b8bb52576
++  __TEXT.__swift5_builtin: 0x3c sha256:9c32541a0087fa3bea13bc951da48efe882b4161c0206e05c1e4639241d66c0b
+   __TEXT.__swift5_reflstr: 0x107 sha256:1b3061408359eeff10fd0a5237f22c6ab9cf13dfbf101435cf0f5a1a4366e2c4
+-  __TEXT.__swift5_fieldmd: 0x214 sha256:b5f9fee4f36461a631b8094de1836b1b2292d009c14678fd8fefc2d5d5465921
+-  __TEXT.__swift5_assocty: 0xf0 sha256:6f99b138aa4f521c0791e3c1cb3187cd08c2838f9474b9bdedaa70b677b29ccc
+-  __TEXT.__swift5_proto: 0x88 sha256:ba1b754b92054629549f02b912d4e8f6696e081dae1e6c83b9c3f8c7f640b250
++  __TEXT.__swift5_fieldmd: 0x214 sha256:2f920f71304376d8e16df73aa6b4a99ec3b650b47f4da35e96c0e8d72e360251
++  __TEXT.__swift5_assocty: 0xf0 sha256:377b29cc8b000fe5110a5630701cfe0a65bcdd6209424cf132c4d02f402b4b50
++  __TEXT.__swift5_proto: 0x88 sha256:c4e4fc8a0271fd2e71be245acb22a5353983f933eeaca1471d8713e8528adb56
+   __TEXT.__swift5_types: 0x34 sha256:b47063b78de25b064ab01be5edf59335227eeed9b1934084b4efa7bd9c7c6a7e
+-  __TEXT.__objc_classname: 0xe9 sha256:829cbf4580c27fb06558c21ed412aa92bba3aa6fc17f9bb5c9c26a7c1a82b976
+-  __TEXT.__objc_methname: 0x20c sha256:c67e07ca19d294dbe571f156f3f5c5007f9bd6fe3e50f460b8d39ba865026dd6
+-  __TEXT.__objc_methtype: 0xae sha256:17f50e57c7e0bda825afab542ac3683891fae94c39ba65e1869aabf22d6be8cf
+-  __TEXT.__swift5_protos: 0xc sha256:cdd6bd5f7d2774fe9fa72b6c4e74a944e9540d3bc7f92127a8bf45f32dea91af
+-  __TEXT.__swift5_entry: 0x8 sha256:f79cd4ed8c4c14d92fc0d5cace1bfba45d32e94ce4b1a8825765aa04932affc0
+-  __TEXT.__swift_as_entry: 0x64 sha256:e6e96d210c598bab70f6dd7514916ef44c3ed504db931bb11dea62d173e3c7b1
+-  __TEXT.__swift_as_ret: 0x70 sha256:89f4849f33857344a2c15b157ec4723edcfb70a14b6cf19587eed1d514516c8c
+-  __TEXT.__unwind_info: 0x1100 sha256:c4fc40c835a38a9a7937bd4f6e9d544d7ac2c601666853272f68a79646d241c3
+-  __TEXT.__eh_frame: 0x26f0 sha256:59b926d2b1a2097174320c4430852761571ec142125f8d74adea923ed76ec99d
+-  __DATA_CONST.__auth_got: 0x780 sha256:ba408a3ac6a375ec6cced65325419040e710442d3a2dc68b61136078e6cc702f
+-  __DATA_CONST.__got: 0x1f0 sha256:6c4b76a2e24fd36f75b2297be4d3dce128967726a1ee98f76959ddb4a717db17
+-  __DATA_CONST.__auth_ptr: 0x300 sha256:b20fe87f0a36bef01cbbb9a179a160353a8d71c8bbfc7a01c2e2a0f7d4903eba
+-  __DATA_CONST.__const: 0x2310 sha256:590c6ba8f4f123e800021b6112ff4997de6f4c45ab31436929d0947034849b5c
+-  __DATA_CONST.__objc_classlist: 0x20 sha256:97fc1384a5f3976531157df65de1499585bf35d40c945791bec0b20f9558a1fc
+-  __DATA_CONST.__objc_protolist: 0x20 sha256:c0cf5c37df196da89e156ea83b0e101d97485f6744c3ff64c37abda42dc884aa
+-  __DATA_CONST.__objc_imageinfo: 0x8 sha256:234cedc7009d98da03ca2a7ff525d0db26b82bff0e6046456f4eda918f734526
+-  __DATA_CONST.__objc_protorefs: 0x10 sha256:2e0cb44d4be2e9fa37dc4b20551aa0e5b14e0fded9478c718b7e2647df97c4e6
+-  __DATA.__objc_const: 0x460 sha256:1427d5c0620e8d06ec5069657434419853c0bfce99e7a82b278bf62e841eb2b7
+-  __DATA.__objc_selrefs: 0xd8 sha256:d020fafc96f150f77a1b5261c7790007386c92de18dc149da7d48901c1014d09
+-  __DATA.__data: 0x810 sha256:2f029d225ec33d2cacd04487bfa409f08f37080425a0f2519156b16e83276ce7
++  __TEXT.__objc_classname: 0xce sha256:23cac7663ac2e10cfc477d788ec3ac31e2cff94d9cae58046e8e42022b14c996
++  __TEXT.__objc_methname: 0xcd sha256:1ca8f8667a8c5f294a446ac3af73bb06a7a22fe9229691c1773270150f1b9111
++  __TEXT.__objc_methtype: 0x1 sha256:6e340b9cffb37a989ca544e6bb780a2c78901d3fb33738768511a30617afa01d
++  __TEXT.__swift5_protos: 0xc sha256:cbeef80c8b3d78c9420f136aa970044a05cca9f758ccb4a6dbab7c9e86a0f27a
++  __TEXT.__swift5_entry: 0x8 sha256:0d0586dbc309f147eb6b8341cfcae854e5a24e9f865e0ec91f1874538e08805f
++  __TEXT.__swift_as_entry: 0x64 sha256:0cc032d80abd787890b85408b7847cb41fc4fa18b3dc3f1bce0884c785f7f54e
++  __TEXT.__swift_as_ret: 0x70 sha256:b8179696b254e3b9c48fa0cb11c2a3fc03cf8b860324013f1eef590c09f9f2e3
++  __TEXT.__swift_as_cont: 0x22c sha256:1a92c3700ac96103e7b5ad1ac902d2db26c22369e616006432ad6993e01f5a6b
++  __TEXT.__unwind_info: 0x10e0 sha256:5d5feb9e30c1db07baea84597dccc7576425e283bbb59b4f042fbb64187646b6
++  __TEXT.__eh_frame: 0x2678 sha256:0788473769f6accfaca082a2a6a59a25229328791c1a65b95e5e36bb668e1a95
++  __DATA_CONST.__const: 0x2310 sha256:af15ed38cd68d5640c233ebb84976e9cab97700d8929553f6913172df5c21d6f
++  __DATA_CONST.__objc_classlist: 0x20 sha256:c0f583d6da9e66444f22ec7a6925fb7c86be8183567bd47a4b9cb28b52dd8136
++  __DATA_CONST.__objc_imageinfo: 0x8 sha256:885ce8037a15de89b0ceb0054c31fc3de725513307f685be388961916dadcdb0
++  __DATA_CONST.__auth_got: 0x780 sha256:a7abe06b735da57c94ca979af05227b87afb0b2901de184c1672df97291a1976
++  __DATA_CONST.__got: 0x1f0 sha256:fbd95862aa43486adc53c074619c86bfd0799bd076b443907092b2c12f0c8cfa
++  __DATA_CONST.__auth_ptr: 0x300 sha256:d094060d34fd07d633f01f7165f7da8f33a2efe429823debd8b94209fe321e25
++  __DATA.__objc_const: 0x360 sha256:54013f15e207d25badd40c458ec1f82a385863e3ff949e959165035565bdce4f
++  __DATA.__objc_selrefs: 0x38 sha256:e1a7111d545b91627b95da36d79ea6572a0599ff58ebdac5973b0ee4cb15128d
++  __DATA.__data: 0x718 sha256:5d52a61d2c153fa7c8f45a45a32f22d1ae5a4b864729b2660f89b1361f6be6b2
+   __DATA.__common: 0x2c0 sha256:2dd23156fbb26642d6f2194611e536f77213eb212f6a23654f9d5319a82ac556
+   __DATA.__bss: 0xed0 sha256:c4fbb9d588ad4597b03ef3df55fc16f0e78c4184cc5e15b9f57ef50644617d2a
+   - /System/Library/Frameworks/ExtensionFoundation.framework/ExtensionFoundation
+
+   - /usr/lib/libsqlite3.dylib
+   - /usr/lib/swift/libswiftAVFoundation.dylib
+   - /usr/lib/swift/libswiftAccelerate.dylib
++  - /usr/lib/swift/libswiftCompression.dylib
+   - /usr/lib/swift/libswiftCore.dylib
+   - /usr/lib/swift/libswiftCoreAudio.dylib
+   - /usr/lib/swift/libswiftCoreFoundation.dylib
+   - /usr/lib/swift/libswiftCoreImage.dylib
+   - /usr/lib/swift/libswiftCoreMIDI.dylib
+-  - /usr/lib/swift/libswiftCoreMedia.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
+   - /usr/lib/swift/libswiftMLCompute.dylib
+   - /usr/lib/swift/libswiftMetal.dylib
+
+   - /usr/lib/swift/libswift_StringProcessing.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 2DE5A8E8-D615-3427-AA5E-8F609919B719
+-  Functions: 1276
+-  Symbols:   7063
+-  CStrings:  267
++  UUID: 4892F4EC-9C25-3026-AEC7-BB6E9B0BD6FD
++  Functions: 1273
++  Symbols:   8028
++  CStrings:  227
+ 
+Symbols:
++ $s2os0A11LogInternal_3log4typeyAA12OSLogMessageV_So03OS_a1_D0CSo0a1_d1_E2_tatFyySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcXEfU_TA.192
++ $s2os0A11LogInternal_3log4typeyAA12OSLogMessageV_So03OS_a1_D0CSo0a1_d1_E2_tatFyySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcXEfU_TA.314
++ $s2os0A11LogInternal_3log4typeyAA12OSLogMessageV_So03OS_a1_D0CSo0a1_d1_E2_tatFyySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcXEfU_TA.393
++ $s2os0A11LogInternal_3log4typeyAA12OSLogMessageV_So03OS_a1_D0CSo0a1_d1_E2_tatFyySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcXEfU_TA.574
++ $s2os0A11LogInternal_3log4typeyAA12OSLogMessageV_So03OS_a1_D0CSo0a1_d1_E2_tatFyySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcXEfU_TA.583
++ $s2os14OSLogArgumentsV6appendyySSycFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.309
++ $s2os14OSLogArgumentsV6appendyySSycFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.502
++ $s2os14OSLogArgumentsV6appendyySo8NSObjectCSgycFySpys5UInt8VGz_SpyAGGSgzSpyypGSgztcfU_TA.558
++ $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.105
++ $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.109
++ $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.121
++ $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.125
++ $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.140
++ $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.144
++ $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.162
++ $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.166
++ $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.178
++ $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.182
++ $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.203
++ $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.207
++ $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.219
++ $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.223
++ $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.242
++ $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.246
++ $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.258
++ $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.26
++ $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.262
++ $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.283
++ $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.287
++ $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.297
++ $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.30
++ $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.301
++ $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.324
++ $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.328
++ $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.340
++ $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.344
++ $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.363
++ $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.367
++ $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.379
++ $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.383
++ $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.40
++ $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.403
++ $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.407
++ $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.419
++ $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.423
++ $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.44
++ $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.442
++ $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.446
++ $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.458
++ $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.462
++ $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.490
++ $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.494
++ $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.513
++ $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.517
++ $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.542
++ $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.546
++ $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.66
++ $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.70
++ $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.82
++ $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.86
++ $s2os14OSLogArgumentsV6appendyyxycs17FixedWidthIntegerRzlFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.117
++ $s2os14OSLogArgumentsV6appendyyxycs17FixedWidthIntegerRzlFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.133
++ $s2os14OSLogArgumentsV6appendyyxycs17FixedWidthIntegerRzlFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.152
++ $s2os14OSLogArgumentsV6appendyyxycs17FixedWidthIntegerRzlFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.174
++ $s2os14OSLogArgumentsV6appendyyxycs17FixedWidthIntegerRzlFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.190
++ $s2os14OSLogArgumentsV6appendyyxycs17FixedWidthIntegerRzlFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.215
++ $s2os14OSLogArgumentsV6appendyyxycs17FixedWidthIntegerRzlFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.231
++ $s2os14OSLogArgumentsV6appendyyxycs17FixedWidthIntegerRzlFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.254
++ $s2os14OSLogArgumentsV6appendyyxycs17FixedWidthIntegerRzlFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.270
++ $s2os14OSLogArgumentsV6appendyyxycs17FixedWidthIntegerRzlFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.336
++ $s2os14OSLogArgumentsV6appendyyxycs17FixedWidthIntegerRzlFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.352
++ $s2os14OSLogArgumentsV6appendyyxycs17FixedWidthIntegerRzlFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.375
++ $s2os14OSLogArgumentsV6appendyyxycs17FixedWidthIntegerRzlFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.391
++ $s2os14OSLogArgumentsV6appendyyxycs17FixedWidthIntegerRzlFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.415
++ $s2os14OSLogArgumentsV6appendyyxycs17FixedWidthIntegerRzlFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.431
++ $s2os14OSLogArgumentsV6appendyyxycs17FixedWidthIntegerRzlFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.454
++ $s2os14OSLogArgumentsV6appendyyxycs17FixedWidthIntegerRzlFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.470
++ $s2os14OSLogArgumentsV6appendyyxycs17FixedWidthIntegerRzlFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.52
++ $s2os14OSLogArgumentsV6appendyyxycs17FixedWidthIntegerRzlFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.78
++ $s2os14OSLogArgumentsV6appendyyxycs17FixedWidthIntegerRzlFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.94
++ $s2os18OSLogInterpolationV06appendC0_5align7privacyySSyXA_AA0B15StringAlignmentVAA0B7PrivacyVtFSSycfu_TA.305
++ $s2os18OSLogInterpolationV06appendC0_5align7privacyySSyXA_AA0B15StringAlignmentVAA0B7PrivacyVtFSSycfu_TA.498
++ $s2os18OSLogInterpolationV06appendC0_7privacy10attributesySo8NSObjectCyXA_AA0B7PrivacyVSStFAHSgycfu_TA.554
++ $s2os18OSLogInterpolationV06appendC0_7privacy10attributesys5Error_pyXA_AA0B7PrivacyVSStFSo8NSObjectCycfu_TA.550
++ $sSiIegd_SiIegr_TRTA.113
++ $sSiIegd_SiIegr_TRTA.129
++ $sSiIegd_SiIegr_TRTA.148
++ $sSiIegd_SiIegr_TRTA.170
++ $sSiIegd_SiIegr_TRTA.186
++ $sSiIegd_SiIegr_TRTA.211
++ $sSiIegd_SiIegr_TRTA.227
++ $sSiIegd_SiIegr_TRTA.250
++ $sSiIegd_SiIegr_TRTA.266
++ $sSiIegd_SiIegr_TRTA.332
++ $sSiIegd_SiIegr_TRTA.348
++ $sSiIegd_SiIegr_TRTA.371
++ $sSiIegd_SiIegr_TRTA.387
++ $sSiIegd_SiIegr_TRTA.411
++ $sSiIegd_SiIegr_TRTA.427
++ $sSiIegd_SiIegr_TRTA.450
++ $sSiIegd_SiIegr_TRTA.466
++ $sSiIegd_SiIegr_TRTA.48
++ $sSiIegd_SiIegr_TRTA.74
++ $sSiIegd_SiIegr_TRTA.90
++ $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRTA.531
++ $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRTA.531TQ0_
++ $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRTA.531Tu
++ /Library/Caches/com.apple.xbs/EB0DE234-4839-4B7F-8BCA-C3514A970D4E/TemporaryDirectory.q4T7oa/Binaries/MediaML/install/TempContent/Objects/MediaML.build/MediaMLExtension.build/DerivedSources/
++ /Library/Caches/com.apple.xbs/EB0DE234-4839-4B7F-8BCA-C3514A970D4E/TemporaryDirectory.q4T7oa/Binaries/MediaML/install/TempContent/Objects/MediaML.build/MediaMLExtension.build/Objects-normal/arm64e/Constants.o
++ /Library/Caches/com.apple.xbs/EB0DE234-4839-4B7F-8BCA-C3514A970D4E/TemporaryDirectory.q4T7oa/Binaries/MediaML/install/TempContent/Objects/MediaML.build/MediaMLExtension.build/Objects-normal/arm64e/DataPreprocessing.o
++ /Library/Caches/com.apple.xbs/EB0DE234-4839-4B7F-8BCA-C3514A970D4E/TemporaryDirectory.q4T7oa/Binaries/MediaML/install/TempContent/Objects/MediaML.build/MediaMLExtension.build/Objects-normal/arm64e/DataValidation.o
++ /Library/Caches/com.apple.xbs/EB0DE234-4839-4B7F-8BCA-C3514A970D4E/TemporaryDirectory.q4T7oa/Binaries/MediaML/install/TempContent/Objects/MediaML.build/MediaMLExtension.build/Objects-normal/arm64e/MediaMLExtension.o
++ /Library/Caches/com.apple.xbs/EB0DE234-4839-4B7F-8BCA-C3514A970D4E/TemporaryDirectory.q4T7oa/Binaries/MediaML/install/TempContent/Objects/MediaML.build/MediaMLExtension.build/Objects-normal/arm64e/MediaMLExtension.swiftmodule
++ /Library/Caches/com.apple.xbs/EB0DE234-4839-4B7F-8BCA-C3514A970D4E/TemporaryDirectory.q4T7oa/Binaries/MediaML/install/TempContent/Objects/MediaML.build/MediaMLExtension.build/Objects-normal/arm64e/MediaMLExtension_vers.o
++ /Library/Caches/com.apple.xbs/EB0DE234-4839-4B7F-8BCA-C3514A970D4E/TemporaryDirectory.q4T7oa/Binaries/MediaML/install/TempContent/Objects/MediaML.build/MediaMLExtension.build/Objects-normal/arm64e/SQLite.o
++ /Library/Caches/com.apple.xbs/EB0DE234-4839-4B7F-8BCA-C3514A970D4E/TemporaryDirectory.q4T7oa/Sources/MediaML/MediaMLExtension/
++ /Library/Caches/com.apple.xbs/EB0DE234-4839-4B7F-8BCA-C3514A970D4E/TemporaryDirectory.q4T7oa/Sources/MediaML/MediaMLUtils/
++ _$s16MediaMLExtension11SQLBindable_pWOc
++ _$sSi6offset_16MediaMLExtension11SQLBindable_p7elementtSgWOh
++ _$sSi6offset_16MediaMLExtension11SQLBindable_p7elementtWOh
++ _$sypSgSgWOh
++ ___swift__destructor
++ ___swift_async_cont_functlets
++ ___swift_closure_destructor
++ __swift_FORCE_LOAD_$_swiftCompression
++ __swift_FORCE_LOAD_$_swiftCompression_$_MediaMLExtension
++ __swift_closure_destructor.100
++ __swift_closure_destructor.103
++ __swift_closure_destructor.104
++ __swift_closure_destructor.107
++ __swift_closure_destructor.108
++ __swift_closure_destructor.111
++ __swift_closure_destructor.115
++ __swift_closure_destructor.119
++ __swift_closure_destructor.12
++ __swift_closure_destructor.123
++ __swift_closure_destructor.127
++ __swift_closure_destructor.130
++ __swift_closure_destructor.131
++ __swift_closure_destructor.134
++ __swift_closure_destructor.135
++ __swift_closure_destructor.138
++ __swift_closure_destructor.142
++ __swift_closure_destructor.146
++ __swift_closure_destructor.149
++ __swift_closure_destructor.15
++ __swift_closure_destructor.150
++ __swift_closure_destructor.153
++ __swift_closure_destructor.157
++ __swift_closure_destructor.160
++ __swift_closure_destructor.161
++ __swift_closure_destructor.164
++ __swift_closure_destructor.165
++ __swift_closure_destructor.168
++ __swift_closure_destructor.172
++ __swift_closure_destructor.176
++ __swift_closure_destructor.179
++ __swift_closure_destructor.18
++ __swift_closure_destructor.180
++ __swift_closure_destructor.182
++ __swift_closure_destructor.184
++ __swift_closure_destructor.185
++ __swift_closure_destructor.188
++ __swift_closure_destructor.189
++ __swift_closure_destructor.193
++ __swift_closure_destructor.195
++ __swift_closure_destructor.197
++ __swift_closure_destructor.198
++ __swift_closure_destructor.2
++ __swift_closure_destructor.201
++ __swift_closure_destructor.204
++ __swift_closure_destructor.205
++ __swift_closure_destructor.208
++ __swift_closure_destructor.209
++ __swift_closure_destructor.21
++ __swift_closure_destructor.212
++ __swift_closure_destructor.213
++ __swift_closure_destructor.216
++ __swift_closure_destructor.217
++ __swift_closure_destructor.22
++ __swift_closure_destructor.221
++ __swift_closure_destructor.225
++ __swift_closure_destructor.229
++ __swift_closure_destructor.234
++ __swift_closure_destructor.237
++ __swift_closure_destructor.24
++ __swift_closure_destructor.240
++ __swift_closure_destructor.244
++ __swift_closure_destructor.248
++ __swift_closure_destructor.252
++ __swift_closure_destructor.256
++ __swift_closure_destructor.26
++ __swift_closure_destructor.260
++ __swift_closure_destructor.264
++ __swift_closure_destructor.268
++ __swift_closure_destructor.272
++ __swift_closure_destructor.275
++ __swift_closure_destructor.278
++ __swift_closure_destructor.28
++ __swift_closure_destructor.281
++ __swift_closure_destructor.285
++ __swift_closure_destructor.289
++ __swift_closure_destructor.292
++ __swift_closure_destructor.295
++ __swift_closure_destructor.299
++ __swift_closure_destructor.30
++ __swift_closure_destructor.303
++ __swift_closure_destructor.307
++ __swift_closure_destructor.316
++ __swift_closure_destructor.319
++ __swift_closure_destructor.32
++ __swift_closure_destructor.322
++ __swift_closure_destructor.326
++ __swift_closure_destructor.330
++ __swift_closure_destructor.334
++ __swift_closure_destructor.338
++ __swift_closure_destructor.34
++ __swift_closure_destructor.342
++ __swift_closure_destructor.346
++ __swift_closure_destructor.35
++ __swift_closure_destructor.350
++ __swift_closure_destructor.355
++ __swift_closure_destructor.358
++ __swift_closure_destructor.361
++ __swift_closure_destructor.365
++ __swift_closure_destructor.369
++ __swift_closure_destructor.37
++ __swift_closure_destructor.373
++ __swift_closure_destructor.377
++ __swift_closure_destructor.38
++ __swift_closure_destructor.381
++ __swift_closure_destructor.385
++ __swift_closure_destructor.389
++ __swift_closure_destructor.395
++ __swift_closure_destructor.398
++ __swift_closure_destructor.401
++ __swift_closure_destructor.405
++ __swift_closure_destructor.409
++ __swift_closure_destructor.41
++ __swift_closure_destructor.413
++ __swift_closure_destructor.417
++ __swift_closure_destructor.42
++ __swift_closure_destructor.421
++ __swift_closure_destructor.425
++ __swift_closure_destructor.429
++ __swift_closure_destructor.434
++ __swift_closure_destructor.437
++ __swift_closure_destructor.440
++ __swift_closure_destructor.444
++ __swift_closure_destructor.448
++ __swift_closure_destructor.45
++ __swift_closure_destructor.452
++ __swift_closure_destructor.456
++ __swift_closure_destructor.46
++ __swift_closure_destructor.460
++ __swift_closure_destructor.464
++ __swift_closure_destructor.468
++ __swift_closure_destructor.485
++ __swift_closure_destructor.488
++ __swift_closure_destructor.49
++ __swift_closure_destructor.492
++ __swift_closure_destructor.496
++ __swift_closure_destructor.5
++ __swift_closure_destructor.50
++ __swift_closure_destructor.500
++ __swift_closure_destructor.504
++ __swift_closure_destructor.508
++ __swift_closure_destructor.511
++ __swift_closure_destructor.515
++ __swift_closure_destructor.519
++ __swift_closure_destructor.522
++ __swift_closure_destructor.525
++ __swift_closure_destructor.529
++ __swift_closure_destructor.53
++ __swift_closure_destructor.537
++ __swift_closure_destructor.540
++ __swift_closure_destructor.544
++ __swift_closure_destructor.548
++ __swift_closure_destructor.552
++ __swift_closure_destructor.556
++ __swift_closure_destructor.56
++ __swift_closure_destructor.58
++ __swift_closure_destructor.60
++ __swift_closure_destructor.61
++ __swift_closure_destructor.64
++ __swift_closure_destructor.67
++ __swift_closure_destructor.68
++ __swift_closure_destructor.70
++ __swift_closure_destructor.72
++ __swift_closure_destructor.73
++ __swift_closure_destructor.76
++ __swift_closure_destructor.77
++ __swift_closure_destructor.80
++ __swift_closure_destructor.81
++ __swift_closure_destructor.84
++ __swift_closure_destructor.85
++ __swift_closure_destructor.88
++ __swift_closure_destructor.89
++ __swift_closure_destructor.9
++ __swift_closure_destructor.92
++ __swift_closure_destructor.96
++ __swift_closure_destructor.97
+- $s2os0A11LogInternal_3log4typeyAA12OSLogMessageV_So03OS_a1_D0CSo0a1_d1_E2_tatFyySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcXEfU_TA.193
+- $s2os0A11LogInternal_3log4typeyAA12OSLogMessageV_So03OS_a1_D0CSo0a1_d1_E2_tatFyySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcXEfU_TA.315
+- $s2os0A11LogInternal_3log4typeyAA12OSLogMessageV_So03OS_a1_D0CSo0a1_d1_E2_tatFyySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcXEfU_TA.394
+- $s2os0A11LogInternal_3log4typeyAA12OSLogMessageV_So03OS_a1_D0CSo0a1_d1_E2_tatFyySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcXEfU_TA.579
+- $s2os0A11LogInternal_3log4typeyAA12OSLogMessageV_So03OS_a1_D0CSo0a1_d1_E2_tatFyySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcXEfU_TA.590
+- $s2os14OSLogArgumentsV6appendyySSycFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.310
+- $s2os14OSLogArgumentsV6appendyySSycFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.503
+- $s2os14OSLogArgumentsV6appendyySo8NSObjectCSgycFySpys5UInt8VGz_SpyAGGSgzSpyypGSgztcfU_TA.559
+- $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.106
+- $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.110
+- $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.122
+- $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.126
+- $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.141
+- $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.145
+- $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.163
+- $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.167
+- $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.179
+- $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.183
+- $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.204
+- $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.208
+- $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.220
+- $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.224
+- $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.243
+- $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.247
+- $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.259
+- $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.263
+- $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.27
+- $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.284
+- $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.288
+- $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.298
+- $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.302
+- $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.31
+- $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.325
+- $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.329
+- $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.341
+- $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.345
+- $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.364
+- $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.368
+- $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.380
+- $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.384
+- $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.404
+- $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.408
+- $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.41
+- $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.420
+- $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.424
+- $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.443
+- $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.447
+- $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.45
+- $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.459
+- $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.463
+- $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.491
+- $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.495
+- $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.514
+- $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.518
+- $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.543
+- $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.547
+- $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.67
+- $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.71
+- $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.83
+- $s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.87
+- $s2os14OSLogArgumentsV6appendyyxycs17FixedWidthIntegerRzlFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.118
+- $s2os14OSLogArgumentsV6appendyyxycs17FixedWidthIntegerRzlFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.134
+- $s2os14OSLogArgumentsV6appendyyxycs17FixedWidthIntegerRzlFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.153
+- $s2os14OSLogArgumentsV6appendyyxycs17FixedWidthIntegerRzlFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.175
+- $s2os14OSLogArgumentsV6appendyyxycs17FixedWidthIntegerRzlFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.191
+- $s2os14OSLogArgumentsV6appendyyxycs17FixedWidthIntegerRzlFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.216
+- $s2os14OSLogArgumentsV6appendyyxycs17FixedWidthIntegerRzlFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.232
+- $s2os14OSLogArgumentsV6appendyyxycs17FixedWidthIntegerRzlFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.255
+- $s2os14OSLogArgumentsV6appendyyxycs17FixedWidthIntegerRzlFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.271
+- $s2os14OSLogArgumentsV6appendyyxycs17FixedWidthIntegerRzlFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.337
+- $s2os14OSLogArgumentsV6appendyyxycs17FixedWidthIntegerRzlFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.353
+- $s2os14OSLogArgumentsV6appendyyxycs17FixedWidthIntegerRzlFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.376
+- $s2os14OSLogArgumentsV6appendyyxycs17FixedWidthIntegerRzlFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.392
+- $s2os14OSLogArgumentsV6appendyyxycs17FixedWidthIntegerRzlFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.416
+- $s2os14OSLogArgumentsV6appendyyxycs17FixedWidthIntegerRzlFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.432
+- $s2os14OSLogArgumentsV6appendyyxycs17FixedWidthIntegerRzlFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.455
+- $s2os14OSLogArgumentsV6appendyyxycs17FixedWidthIntegerRzlFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.471
+- $s2os14OSLogArgumentsV6appendyyxycs17FixedWidthIntegerRzlFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.53
+- $s2os14OSLogArgumentsV6appendyyxycs17FixedWidthIntegerRzlFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.79
+- $s2os14OSLogArgumentsV6appendyyxycs17FixedWidthIntegerRzlFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.95
+- $s2os18OSLogInterpolationV06appendC0_5align7privacyySSyXA_AA0B15StringAlignmentVAA0B7PrivacyVtFSSycfu_TA.306
+- $s2os18OSLogInterpolationV06appendC0_5align7privacyySSyXA_AA0B15StringAlignmentVAA0B7PrivacyVtFSSycfu_TA.499
+- $s2os18OSLogInterpolationV06appendC0_7privacy10attributesySo8NSObjectCyXA_AA0B7PrivacyVSStFAHSgycfu_TA.555
+- $s2os18OSLogInterpolationV06appendC0_7privacy10attributesys5Error_pyXA_AA0B7PrivacyVSStFSo8NSObjectCycfu_TA.551
+- $sSiIegd_SiIegr_TRTA.114
+- $sSiIegd_SiIegr_TRTA.130
+- $sSiIegd_SiIegr_TRTA.149
+- $sSiIegd_SiIegr_TRTA.171
+- $sSiIegd_SiIegr_TRTA.187
+- $sSiIegd_SiIegr_TRTA.212
+- $sSiIegd_SiIegr_TRTA.228
+- $sSiIegd_SiIegr_TRTA.251
+- $sSiIegd_SiIegr_TRTA.267
+- $sSiIegd_SiIegr_TRTA.333
+- $sSiIegd_SiIegr_TRTA.349
+- $sSiIegd_SiIegr_TRTA.372
+- $sSiIegd_SiIegr_TRTA.388
+- $sSiIegd_SiIegr_TRTA.412
+- $sSiIegd_SiIegr_TRTA.428
+- $sSiIegd_SiIegr_TRTA.451
+- $sSiIegd_SiIegr_TRTA.467
+- $sSiIegd_SiIegr_TRTA.49
+- $sSiIegd_SiIegr_TRTA.75
+- $sSiIegd_SiIegr_TRTA.91
+- $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRTA.532
+- $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRTA.532TQ0_
+- $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRTA.532Tu
+- /Library/Caches/com.apple.xbs/1A41CC57-BD09-4A0A-95D5-88C80C2DE026/TemporaryDirectory.CKqW51/Binaries/MediaML/install/TempContent/Objects/MediaML.build/MediaMLExtension.build/DerivedSources/
+- /Library/Caches/com.apple.xbs/1A41CC57-BD09-4A0A-95D5-88C80C2DE026/TemporaryDirectory.CKqW51/Binaries/MediaML/install/TempContent/Objects/MediaML.build/MediaMLExtension.build/Objects-normal/arm64e/Constants.o
+- /Library/Caches/com.apple.xbs/1A41CC57-BD09-4A0A-95D5-88C80C2DE026/TemporaryDirectory.CKqW51/Binaries/MediaML/install/TempContent/Objects/MediaML.build/MediaMLExtension.build/Objects-normal/arm64e/DataPreprocessing.o
+- /Library/Caches/com.apple.xbs/1A41CC57-BD09-4A0A-95D5-88C80C2DE026/TemporaryDirectory.CKqW51/Binaries/MediaML/install/TempContent/Objects/MediaML.build/MediaMLExtension.build/Objects-normal/arm64e/DataValidation.o
+- /Library/Caches/com.apple.xbs/1A41CC57-BD09-4A0A-95D5-88C80C2DE026/TemporaryDirectory.CKqW51/Binaries/MediaML/install/TempContent/Objects/MediaML.build/MediaMLExtension.build/Objects-normal/arm64e/MediaMLExtension.o
+- /Library/Caches/com.apple.xbs/1A41CC57-BD09-4A0A-95D5-88C80C2DE026/TemporaryDirectory.CKqW51/Binaries/MediaML/install/TempContent/Objects/MediaML.build/MediaMLExtension.build/Objects-normal/arm64e/MediaMLExtension.swiftmodule
+- /Library/Caches/com.apple.xbs/1A41CC57-BD09-4A0A-95D5-88C80C2DE026/TemporaryDirectory.CKqW51/Binaries/MediaML/install/TempContent/Objects/MediaML.build/MediaMLExtension.build/Objects-normal/arm64e/MediaMLExtension_vers.o
+- /Library/Caches/com.apple.xbs/1A41CC57-BD09-4A0A-95D5-88C80C2DE026/TemporaryDirectory.CKqW51/Binaries/MediaML/install/TempContent/Objects/MediaML.build/MediaMLExtension.build/Objects-normal/arm64e/SQLite.o
+- /Library/Caches/com.apple.xbs/1A41CC57-BD09-4A0A-95D5-88C80C2DE026/TemporaryDirectory.CKqW51/Sources/MediaML/MediaMLExtension/
+- /Library/Caches/com.apple.xbs/1A41CC57-BD09-4A0A-95D5-88C80C2DE026/TemporaryDirectory.CKqW51/Sources/MediaML/MediaMLUtils/
+- _$s16MediaMLExtension0A8MLWorkerV6doWork7context20LighthouseBackground12MLHostResultCAF0I16ExtensionContextC_tYaFAHyXEfU_TA
+- _$s16MediaMLExtension11SQLBindable_pWOb
+- _$s2os21OSAllocatedUnfairLockV04withD17UncheckedInternal4bodyqd__qd__xzKXE_tKlFqd__SpyxG_SpySo0A14_unfair_lock_sVGtKXEfU_TA
+- _$sSS8UTF8ViewVWOh
+- _$sScPSgWOc
+- _$sSo17OS_os_transaction_pSgMR
+- _$sSo17OS_os_transaction_pSgMd
+- _$sSo20NSTextCheckingResultCSgWOc
+- _$ss20withExtendedLifetimeyq0_x_q0_yq_YKXEtq_YKs5ErrorR_Ri_zRi0_zRi_0_r1_lF
+- __OBJC_$_PROP_LIST_NSObject
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NSObject
+- __OBJC_$_PROTOCOL_REFS_OS_os_transaction
+- __OBJC_LABEL_PROTOCOL_$_NSObject
+- __OBJC_LABEL_PROTOCOL_$_OS_os_transaction
+- __OBJC_PROTOCOL_$_NSObject
+- __OBJC_PROTOCOL_$_OS_os_transaction
+- __swift_FORCE_LOAD_$_swiftCoreMedia
+- __swift_FORCE_LOAD_$_swiftCoreMedia_$_MediaMLExtension
+- _flat unique So17OS_os_transaction_p
+- _symbolic ______pSg So17OS_os_transactionP
+CStrings:
+- "#16@0:8"
+- "@\"NSString\"16@0:8"
+- "@16@0:8"
+- "@24@0:8:16"
+- "@32@0:8:16@24"
+- "@40@0:8:16@24@32"
+- "B16@0:8"
+- "B24@0:8#16"
+- "B24@0:8:16"
+- "B24@0:8@\"Protocol\"16"
+- "B24@0:8@16"
+- "NSObject"
+- "OS_os_transaction"
+- "Q16@0:8"
+- "T#,R"
+- "T@\"NSString\",?,R,C"
+- "T@\"NSString\",R,C"
+- "TQ,R"
+- "Vv16@0:8"
+- "^{_NSZone=}16@0:8"
+- "autorelease"
+- "class"
+- "conformsToProtocol:"
+- "debugDescription"
+- "description"
+- "hash"
+- "isEqual:"
+- "isKindOfClass:"
+- "isMemberOfClass:"
+- "isProxy"
+- "performSelector:"
+- "performSelector:withObject:"
+- "performSelector:withObject:withObject:"
+- "release"
+- "respondsToSelector:"
+- "retain"
+- "retainCount"
+- "self"
+- "superclass"
+- "zone"
+
+```

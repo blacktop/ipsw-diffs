@@ -1,0 +1,112 @@
+## AppleMesaLib
+
+> `/System/Library/Extensions/AppleBiometricSensor.kext/PlugIns/AppleMesaLib.plugin/AppleMesaLib`
+
+```diff
+
+-273.100.3.0.0
+-  __TEXT.__text: 0x30c0 sha256:78f54d16fe575f6f70ea304b3fa607b03e781cd371a593675b3cd6650c5c3914
+-  __TEXT.__auth_stubs: 0x1d0 sha256:894381cbbb5d88e5b8794c6a12a85913be42cfec3f59f64d77358e877212ae20
++288.0.0.0.0
++  __TEXT.__text: 0x2b94 sha256:9155b2fbfe9955747f4e5d966bb96c3703bb753796b2d30cee406d9265a049ee
++  __TEXT.__auth_stubs: 0x1c0 sha256:5a11ff7d0452698937620e51a9575ff3d58137fdb42963fffccd296cf6e9f28f
+   __TEXT.__const: 0x20 sha256:564e81fff872d3dd420977d1e028cd7ab0e117305a3a67d85741e7212d2e8b46
+-  __TEXT.__gcc_except_tab: 0x1c sha256:6c19de2b6ec737919a758bbe3c9fde299b6421b4174e20355e90aecf95d2e12c
++  __TEXT.__gcc_except_tab: 0x14 sha256:4db2c2168142f5fa2c22e3629cfe7849f9037756dd455a2db97ed0d83d7653cb
+   __TEXT.__oslogstring: 0x75 sha256:9851cfe19d98c76140ee37be4ea125c23065e9648ba3e49b7574148f54887166
+   __TEXT.__cstring: 0x1c7 sha256:6b62057dd5014bd9d78a533276d7d686692d5e964866bdb810c2fb303d577ed2
+-  __TEXT.__unwind_info: 0xe8 sha256:939e3e39360edc0f6958e43006b5e6ee0ef10b69331edcd0c4d7e5521fa12830
+-  __DATA_CONST.__auth_got: 0xf0 sha256:be5be13008debb60ae1178c78928d722a573b0c5236acf9fb83ca0b51c97f195
+-  __DATA_CONST.__got: 0x38 sha256:fd2214d1ac26a997d257a78b3740ff8446b5efbe03b4e13b40ce314425098364
+-  __DATA.__data: 0x110 sha256:56ad5b17aacad5eb489d97390c0bcd8b7b9c3bcc754e96153d09458d81e8057d
++  __TEXT.__unwind_info: 0xe8 sha256:74ecc8edf8fb0de6f76805e74cc3d1d434c8fbe89c611d251ba6498fbd79d32f
++  __DATA_CONST.__auth_got: 0xe8 sha256:e7de95c408e140d992dfc04937f67503f0b1e5bb145f7ebdbb6d0fa7ed3fabde
++  __DATA_CONST.__got: 0x38 sha256:7d5cb4733693a926917398b5b278549a4812fdf73868a9bc46d35606ca253974
++  __DATA.__data: 0x110 sha256:44a726bb22d949df3e5e4e95250934161242e5e7d34a416e55ea86411878c8a1
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/IOKit.framework/Versions/A/IOKit
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+-  UUID: 53265C03-E7AD-39C2-9643-1838B24CDCBE
++  UUID: E1B4E50D-4D28-3E11-BA79-8818FDE6025F
+   Functions: 74
+-  Symbols:   112
++  Symbols:   111
+   CStrings:  42
+ 
+Symbols:
+- __Unwind_Resume
+Functions:
+~ __ZN10MesaPlugIn14QueryInterfaceEPv11CFUUIDBytesPS0_ : sha256 0b87a9e4a9757db6443535e444409f0b1c0596cd2cfeba9d2b9d7e84e599a454 -> 3f6821f23a5b75aeb9c387a7c5e31f2fbcc3944ab128855d3039f9cedc75f853
+~ __ZN10MesaPlugIn6AddRefEPv : sha256 a1d8d4727e6a364c79e12f902ec6e7c9d3e1ec8eb2ec6956a941c02cddc7dfde -> a411e1ed8e20735681ddceca6b8a862ded4690b3249de4c42e6e50a3d8f37710
+~ __ZN10MesaPlugIn7ReleaseEPv : sha256 8f13492647a3263b69771cdf5e61b7a0b3404cc43df068656e2a54766c5f1229 -> 28d2578ee6b2c47b763d12d129809fda406f5fb8cff46391377c261102854b76
+~ __ZN10MesaPlugIn5ProbeEPvPK14__CFDictionaryjPi : sha256 8ab173464434bf1ffa7361a1da0dcf459f6bf728fa604f69c379331c6ca79dd0 -> 27dbd24ea0829332658ce13e3c1b630b3fc41d0e2b102075b9c612879710597d
+~ __ZN10MesaPlugIn5StartEPvPK14__CFDictionaryj : sha256 e8dc58b3971f112fdeab815411f02714c0e28261f68bbb178de436c433c5c10b -> 0756639c4ee98636afc248ba3073fdafce14ee84a375fca59077aa27fff04eac
+~ __ZN10MesaPlugIn4StopEPv : sha256 ba8aad67b657a3aeec4f0190e7ec8dc27b788765dea4ef352e5a7a0103ccc1e5 -> 559b614264e7d1ac964cc4ec5dd21678638bf381ebe4d0b7824353e8741aec8b
+~ __ZN10MesaPlugIn4OpenEPvj : sha256 3ddf5a4b6deaaf871007012c69fbbad91fd4b4dfcea2eb658694f64243a2d4b9 -> 35d3c753c08b821adee6ef5dd1d27e01994c39fac6854a3e634e1dd93e6fdd5b
+~ __ZN10MesaPlugIn5CloseEPvj : sha256 3db7cd9c57710d69d0d51144807afa139ef13d29fe992306547de04844fc4b2d -> dbe7117542af65eae2e84620fa585e999ab3069ed34236bf74863e795bab2497
+~ __ZN10MesaPlugIn5ResetEPv10eResetTypePhm : sha256 83edda32956098ba4cd509b1eac863cc841d94f4f9378903202269d5adc78680 -> da95d0e3b779d74d53378b071c50ed818347556f456293e6c2b9876aae4d99f3
+~ __ZN10MesaPlugIn4IdleEPvPhm : sha256 d793a4ff6020f2577d79d488b0dc6c8a1629a41215d7fe6d6c54568be019061b -> 2c57174496f85bebf52e03597fececbbb50a42a6904c2714d107f6e7db70c702
+~ __ZN10MesaPlugIn12StartCaptureEPvPhm : sha256 0852470ee7b3740260cd191c9b3c15723ac0630516ce8321197f7aa1563908db -> 446a199f3329dc3bc8cba5195c6d9915279b1bdde7c3a4851f22121a05b94d50
+~ __ZN10MesaPlugIn11StopCaptureEPvPhm : sha256 b36ec2791ad162314a47c96f5d8600d9065fc479ea1506c05613f155b1d7277e -> 18ec64b3a024d6d72941152f2574a42893ec2dc66fadf0f605959e1af15181df
+~ __ZN10MesaPlugIn12PauseCaptureEPvPhm : sha256 5c7b062fe405228c35368e2096c377cf96c6bc90e41e3a38dec9a8bde56d68b1 -> 35625ac336ec86e40c490ccd04bf6d0d9e985495b4c70055c8f4b454d1df375d
+~ __ZN10MesaPlugIn9GetStatusEPvPhm : sha256 c140405748f209160ac2d7eed0b61f5dba092375bcd893d9fd2d47f4054b0875 -> 505d270bc4d81bb34b1295638ad38847eef2e02f915afc2c4da12106072092de
+~ __ZN10MesaPlugIn15GetSerialNumberEPvPhm : sha256 f80f1f6d7b2070ab8f31d1b6b2428d188216d27a1e80d229593ece292bae28eb -> 779a85e03494387d6bbd2eeb7b4f136cc98d64348b8e36d619f06fababa00e6a
+~ __ZN10MesaPlugIn21GetModuleSerialNumberEPvPhm : sha256 03f5e3cd1b091319011e862edc969a73354e45240354344c52512535ce94c16c -> 7536fcb368077c1cda2ffcfc096c700ff8abf387f6991a60ea9550dc16471523
+~ __ZN10MesaPlugIn28GetModuleSerialNumberDynamicEPvPhPm : sha256 5b4eb55cbd0af7e9351f839c25acce722ea926aed0c4eff2ea58ffc8faf3ed6d -> 75b095dea993f2c476f7dae14029d239d1968f80b0a6c296c4683917f6f861f3
+~ __ZN10MesaPlugIn18GoToProductionModeEPvPhm : sha256 befa8288d40711dc8c2bfe0dba23bfea6cca08630bd5b1843fa6a28a0f6eab5a -> c7d13d34e64f210cc3d3edbc7b2b1871cbaeb2f073bb45ad568346b1e423058a
+~ __ZN10MesaPlugIn9LoadPatchEPvS0_m : sha256 9bf5807f79f93ad2aae318569b5c22e9320ba9f029c05868f56c1024f21bbb9c -> feeed0fad82d011bfbd1eda1ad6e99a68d6bcb391dc5050650ec8ddf8a041048
+~ __ZN10MesaPlugIn9ProvisionEPvPhS1_m : sha256 1bbb1b4a504960c3ab8f406a1590a1494d9163f590309722885c9a8974f718fc -> 2e0daef1d97759130effa3e4f3b50e95b8f7dd733e160e38f7f560d4f4dd1cb3
+~ __ZN10MesaPlugIn19ScheduleWithRunLoopEPvP11__CFRunLoopPK10__CFString : sha256 267604180da24a697d6bfbe57c18a7c4765610ecfec8d50cbc6a3f578b621fc3 -> 9ffe04eac26bad697a8822a4ecbaef1b57214381893b9eba345b8045b903af91
+~ __ZN10MesaPlugIn21UnscheduleWithRunLoopEPvP11__CFRunLoopPK10__CFString : sha256 98ae7b42d2f6068127520a13cb23f2c4231c190f1911fc44a50fed9ac321bab5 -> 239b0e892fdb3af120fa87092e54190045df256ae5858911af6f331f66c893af
+~ __ZN10MesaPlugIn20SetInterruptCallbackEPvPFvmPhmEm : sha256 38174b4bb67d0b1110c541999b385c7c3e759e28d00a981a8a71827b2cd6f96b -> 51f9fc47e418611e5aea1c64c353371b8fd9a99bbc2e3032c54cfc02d63cb03c
+~ __ZN10MesaPlugIn18SetCaptureCallbackEPvPFvmEmS0_m : 236 -> 192
+~ __ZN10MesaPlugIn8SetPowerEPvj : sha256 5eb9b762b3e8d49405880fa2ce2d6286db10dae84496bedb840439f48d3f2ace -> 4da430540e370c35a342ac400fd15af92708a65e46f6147f61ef5bdbe5eefc53
+~ __ZN10MesaPlugIn13SetParametersEPvPhm : sha256 34fd6afbe39f657cc82b8e735b6845fe77ff1021881f4dde25921a35328d187c -> e0049a66466dfd56bc9460808c5a81331f3cb1b5ee163edcfd4ad93f99b10f48
+~ __ZN10MesaPlugIn10TriggerESDEPv : sha256 ca0483ab08c5074145903116ac1476b29aea17e8023b4827337af792b30d65cc -> 10ab8c006cfe8b18e52ad3f3a5d8bf5a42e49007dfe65d4a236f60696f7d310a
+~ __ZN10MesaPlugIn18ClearPatchOverrideEPv : sha256 1d79ef1cc7d9afb50efca46ab683bae20444b16b32da7dcd82640afd71cd5e09 -> 8738d944c0865cdfa97ed2aafe20e2dd38b0aa8721642b5f691817b38f892677
+~ __ZN10MesaPlugIn15TriggerSPIErrorEPv : sha256 22e1d6f6b0fbcb50d3dfc46174a209b9f443f1e57819731a4a92950247bf30f4 -> 01e31cc3d38f32f196761a04ae76a42ab75baa8eb3d6178490839b37836f255a
+~ __ZN10MesaPlugIn17StartFingerDetectEPvPhm : sha256 12a862763531b387694051cdde3e26eff95bf79caabfb879b1bbe912e72d655b -> 95dc88c7b547c119db4a953459d8e4b5ef645b331999db25787c7f0bd6c163a6
+~ __ZN10MesaPlugIn11StartBurnInEPvPhm : sha256 3a6e78ac173c5c36fb26fb8fdf5d8ed74a0a016e801016ca89b6929efa26bbd0 -> b9b71e0d0e823dad2d542acf2f9797ce4b9cf71deb6532a95efa317670bad0c1
+~ __ZN10MesaPlugIn10StopSSHBHBEPvhPhm : sha256 5111c1bf14871531f2f84af935e8bcd0456cc0bc302b5dbff0ddfe3e1beff623 -> 4ad1fe4ddc555cd18aa07871936791a570dfa04dac04811850a0004de5c06314
+~ _AppleMesaFactory : 512 -> 468
+~ __ZN10MesaPlugInC2EPK8__CFUUID : 240 -> 196
+~ __ZN10MesaPlugInD2Ev : 224 -> 172
+~ sub_bec -> sub_b34 : sha256 091e612ea3535aca96e605f304fb89d36d574f064b2563efdab64d0c05d674be -> e17d320920d857226e91040b5ef2f61936f3e299caf210b9081812bacd1742ac
+~ __ZN10MesaPlugInD1Ev : sha256 159124d8856dcd0f0821c535c1e9e1ac1d4f42eca865bf6ed74234594ccbc304 -> 7710ff110310c3e80df373d5ae261ef7a6631b5cbd83b94c55afdd9f9be1868a
+~ __ZN10MesaPlugIn14QueryInterfaceE11CFUUIDBytesPPv : 516 -> 472
+~ __ZN10MesaPlugIn6AddRefEv : 204 -> 160
+~ __ZN10MesaPlugIn7ReleaseEv : 240 -> 196
+~ __ZN10MesaPlugIn5ProbeEPK14__CFDictionaryjPi : 208 -> 164
+~ __ZN10MesaPlugIn5StartEPK14__CFDictionaryj : 228 -> 184
+~ __ZN10MesaPlugIn4StopEv : 204 -> 160
+~ __ZN10MesaPlugIn4OpenEj : sha256 e050d0e923c16826b4bebc85b1ed6cefaf34c233c1fdd9d1ecd36415efb5cacb -> 104962d3fccd4a5d89caf09837d03278ab9030c4d70f741569ec49840108bae3
+~ __ZN10MesaPlugIn5CloseEj : sha256 fb6aecb30ee6449dd430901a7f39af742f55eb13e4ff62ca9a51e3453f080507 -> 6b9abd925743f3e619e7dd9946d01c0baa89f9626a41eb97a7e0a3c3342acb3f
+~ __ZN10MesaPlugIn5ResetE10eResetTypePhm : 396 -> 400
+~ __ZN10MesaPlugIn4IdleEPhm : 356 -> 312
+~ __ZN10MesaPlugIn12StartCaptureEPhm : 356 -> 312
+~ __ZN10MesaPlugIn11StopCaptureEPhm : 356 -> 312
+~ __ZN10MesaPlugIn12PauseCaptureEPhm : 356 -> 312
+~ __ZN10MesaPlugIn9GetStatusEPhm : 356 -> 312
+~ __ZN10MesaPlugIn15GetSerialNumberEPhm : 368 -> 324
+~ __ZN10MesaPlugIn21GetModuleSerialNumberEPhm : 368 -> 324
+~ __ZN10MesaPlugIn28GetModuleSerialNumberDynamicEPhPm : 416 -> 372
+~ __ZN10MesaPlugIn18GoToProductionModeEPhm : 356 -> 312
+~ __ZN10MesaPlugIn9LoadPatchEPvm : 356 -> 312
+~ __ZN10MesaPlugIn9ProvisionEPhS0_m : 360 -> 316
+~ __ZN10MesaPlugIn19ScheduleWithRunLoopEP11__CFRunLoopPK10__CFString : 280 -> 236
+~ __ZN10MesaPlugIn21UnscheduleWithRunLoopEP11__CFRunLoopPK10__CFString : 268 -> 224
+~ __ZN10MesaPlugIn21interruptAsyncCalloutEiPv : sha256 e5597c175ee3248a9784ae6edfde0c88d395393ac547cdac224e817c2eee4802 -> f0769401c3b44161c70a244147efa68d75a5cec8568531599c29d35e0fdb373c
+~ __ZN10MesaPlugIn20SetInterruptCallbackEPFvmPhmEm : sha256 c7f7c913105d9e4b6b1c98b5046401e3e7ee1754ea3516818f5d6b86aabd7eb4 -> f7b1308fde430cc5dd5e550f92bd6835a671df8377ada12943cdcbaf51909834
+~ __ZN10MesaPlugIn24ReadCaptureAsyncCallbackEiPv : sha256 f57166ab238e5fe0d7547a8c2ea9a23fa3ecd462a7af9811101772b689fc067f -> d38fd6e210104715f81e49d5ad8a5d408692e36807b3543a93e39dc025a0f241
+~ __ZN10MesaPlugIn18SetCaptureCallbackEPFvmEmPvm : sha256 7ab8413fc6ab1395471d71736a324b0f157f5f8d441a0f5fbe7e28ef420ac00e -> e2f485e075ea40e0abb482c8a61efec0c146744a99120ecb1dbf71534d9c581b
+~ __ZN10MesaPlugIn8SetPowerEj : sha256 873e0c1e02ba379a0438f9a0456c41de685a367b782619394552ff154c233b7a -> 568f3b4c59f7519c9c774bb1ceb24d0b63865c595140c083343a312f530650c8
+~ __ZN10MesaPlugIn13SetParametersEPhm : 352 -> 308
+~ __ZN10MesaPlugIn10TriggerESDEv : 336 -> 292
+~ __ZN10MesaPlugIn15TriggerSPIErrorEv : 336 -> 292
+~ __ZN10MesaPlugIn18ClearPatchOverrideEv : 336 -> 292
+~ __ZN10MesaPlugIn17StartFingerDetectEPhm : 356 -> 312
+~ __ZN10MesaPlugIn11StartBurnInEPhm : 356 -> 312
+~ __ZN10MesaPlugIn10StopSSHBHBEhPhm : 360 -> 316
+
+```

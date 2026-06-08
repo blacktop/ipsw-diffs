@@ -1,0 +1,209 @@
+## BubbleKit
+
+> `/System/Library/PrivateFrameworks/BubbleKit.framework/BubbleKit`
+
+```diff
+
+-1450.600.61.2.7
+-  __TEXT.__text: 0x19a64 sha256:e20a64d7661448c38e098ca9f40cbe62deec61d9e239a1a71c9a9452af93eb68
+-  __TEXT.__auth_stubs: 0xe10 sha256:2e2ca31c9dd73f72ed064873afee298ae66213f0e55fe5097f786cb7440baf13
+-  __TEXT.__objc_methlist: 0x50 sha256:8490a9385771aae5ff10248deca83ab1b65b60a204cfb48d2ed73a1503aa461c
+-  __TEXT.__const: 0x2184 sha256:1df3afba427c225b401b1dab834eac3d4732839ddfc3dbec7afbb177fb3e28c2
+-  __TEXT.__constg_swiftt: 0x8ec sha256:43c2c30e4bc52ed488a6511e98c15773845fe3e95227a9b1dfd13fb136a33254
+-  __TEXT.__swift5_typeref: 0x117a sha256:27ba5eee1bfda1629ebb60e9ae8205ddbac2e6a59d314fb1a511752531a0fe75
+-  __TEXT.__swift5_builtin: 0xa0 sha256:e485469385dac77553697f310d086fdf853e0359f9bfde42eda5273f68dc2eaa
+-  __TEXT.__swift5_reflstr: 0x882 sha256:4712fbf261cdef7d0b78c1a1fe2e9e6ddfe607c069c143408f8bbbd88b63ca1d
+-  __TEXT.__swift5_fieldmd: 0xae8 sha256:7e9588a3350545d45bc8e2c40b8cb90b53eb921781a5ca54bf40bf8ca47c961d
+-  __TEXT.__swift5_proto: 0xf8 sha256:33d1da73962b4ac3b661bfff8a00c0b4d728c2098b95edd2e5e2096202ae30d6
+-  __TEXT.__swift5_types: 0xc8 sha256:b577858037b008287b50835f792fdf91762ff60032e62850f04c7325ad0ea42a
+-  __TEXT.__swift5_assocty: 0x1e0 sha256:2b95b9c8742287608cb45e0433a0ea77057f015323b1172eed07c44bf6142336
+-  __TEXT.__swift5_mpenum: 0x34 sha256:c8e52121be64d2cb6986e33446185e3cba4c7e75d35f0f4140523e84e385a90a
+-  __TEXT.__swift5_capture: 0x8c sha256:a7e92f9a3945b19f7b65dec6a812eddcd91a044f67c304094ad0813fe2350263
+-  __TEXT.__cstring: 0x1f5 sha256:2c3d7cfc4732be36e3e6f93764b616d8127da90273d73dae53bfba93ef644cb6
+-  __TEXT.__swift5_protos: 0x4 sha256:cc9344bf2d7565f8a9d681dee370d08acc1b79d4f5d0c46de889f1209b218601
+-  __TEXT.__unwind_info: 0x6f0 sha256:f0ac9652af0389ac4cbab3473d05febaacf04e4f13938e3774d407a18aac81be
+-  __TEXT.__eh_frame: 0x48 sha256:649ad50c6706abeef479310c07b82848dcc92355d1a608f232a39b4429ae880f
+-  __TEXT.__objc_classname: 0x108 sha256:e4d4c1b09e1c43016c1acde5e60fe66642e5ba47b530c3b258ce7a1a5cec0b24
+-  __TEXT.__objc_methname: 0x1ed sha256:70c9470573e7844e2b9c35cf00eac31fe0fd85c6ec3a2a56e2d17bd401d9cce3
+-  __TEXT.__objc_methtype: 0x49 sha256:a6df4b67259b7d32eb2b119481eb60e08fbea1757ff1eb6531087fa79fc6d572
+-  __TEXT.__objc_stubs: 0x280 sha256:3f09f4053dc23b88d2c457c533aa6b739000571bb84e9dc8df0f3a828a4d38a7
+-  __DATA_CONST.__got: 0x278 sha256:db6ce9706dbcbdef84804cdf7af761761c86dcc3754f2c96176705dde3c63755
+-  __DATA_CONST.__const: 0xa8 sha256:fe1777d642546a3a14fc84ccebd8335529a8c714e5d103c1289d14f5d161e1be
+-  __DATA_CONST.__objc_classlist: 0x18 sha256:d13a5430b16c3d26345e45194101d87fd15b323656f79e1332ca05377af9d4f8
+-  __DATA_CONST.__objc_imageinfo: 0x8 sha256:8c2e86a3d61473a17440ee60441113a7d285704a3b70278f03e88b3c356a5493
+-  __DATA_CONST.__objc_selrefs: 0xc0 sha256:47cd927ed1913670d626e39e18ebd50cf1ccc2dffd50d1335809b33b22ca42ab
+-  __AUTH_CONST.__auth_got: 0x710 sha256:285d27b52114b97387abdce62bf55e9e613a68e56e5c5727e4c056d76f211d6b
+-  __AUTH_CONST.__const: 0x1baa sha256:409d295ffa5a7d173b5786a66f07092fd69f0cb97d591461fc25fc79531bc09e
+-  __AUTH_CONST.__objc_const: 0x1a8 sha256:962090391de311e1fa516b11c929b5ffeb6009e726137cea40ba198fad1dd1bb
+-  __AUTH.__objc_data: 0x90 sha256:82b0f59c43b720527f75ca0d8697ca987b16fbef9c26f4b983102076431544bb
+-  __AUTH.__data: 0x3c8 sha256:2c6f3ecf96284880b6d9fcdc30fe28038017960da404aedf06d8479a052bed10
+-  __DATA.__data: 0x680 sha256:6ee7108c6ac6a38fb9011ac974f519f04d480b02b50252e192f987e4698e5abf
+-  __DATA.__bss: 0x1d40 sha256:815a644a03ed0297e45c2df07fc6a18026d963c1d422289cbd2c00af626c61dd
++1481.100.29.2.9
++  __TEXT.__text: 0x19868 sha256:c547090cbec0653895339a8556b7a974b3c6aa470e3a4b04869153cc5ebded99
++  __TEXT.__objc_methlist: 0x50 sha256:9a6e6143b6f927ae60a2e9d4d4d073da89dd06eb53765b7e3ed178ab7e67d0d9
++  __TEXT.__const: 0x2214 sha256:d79f896fb0692783d40f7bb85e32e89d6859549f07908b674238ec91f00bd17a
++  __TEXT.__constg_swiftt: 0x914 sha256:f30c58764c69c1a5e81dd09af45fb3219f5703419d9d563de9733dab55e9ea00
++  __TEXT.__swift5_typeref: 0x1010 sha256:993d2f81a4a356c33d9d52b4064f5cbb848ee607ec83f237c7398887a28fcc4a
++  __TEXT.__swift5_builtin: 0xa0 sha256:f2b4444b5f5035f39688b6a7178180eb334478666ebad96b2ff20451df55c713
++  __TEXT.__swift5_reflstr: 0x892 sha256:af225299ff69c4044c60e4defe58d9476664ef99acf6950fd4df4753a3184e87
++  __TEXT.__swift5_fieldmd: 0xb04 sha256:5d0ce69d0bb56901b4c3149a62eba6a3770ced278cf9b0f7ae1a1164c5c26e99
++  __TEXT.__swift5_proto: 0x100 sha256:6cdae324a0dc2813975d3ec24140fb806d72e718748362279e925af7dff434dd
++  __TEXT.__swift5_types: 0xcc sha256:101955ca9ad46fdab1cea9038e9d68d3275090fe16b2b18b937adf2164b5e676
++  __TEXT.__swift5_assocty: 0x1e0 sha256:5696f46fa2353e34aeaa5005d2dd13b0340a43a00d40096507da9c92dc92ccc7
++  __TEXT.__swift5_mpenum: 0x34 sha256:3609fd0de8c92669a2b88cce8c57431eaf3e6ec9348e4aa271dc110bfc44f32a
++  __TEXT.__swift5_capture: 0x94 sha256:be201c1b8058ee2324c93bfa24c22cc1a1fdb6d814d8cf27e0d9816d6b827ed5
++  __TEXT.__cstring: 0x185 sha256:cc24d906413e98eb41ec8b6344327349773e29f2cff4c56a82a46ce2df38c0e0
++  __TEXT.__swift5_protos: 0x4 sha256:6d6a4495b83a535ee2e6d0411ac8d55e5e9d34b19a74414ac4516670b6db91bb
++  __TEXT.__oslogstring: 0x85 sha256:5ba95a9097410e747e8d25d06a331f8db6c5d2fbc005df23f2fc005be745bb68
++  __TEXT.__unwind_info: 0x7e0 sha256:31b5d3b7ce9492b6c2ec72c3a2eec0745d33feeba058613cb27d7be47e79a587
++  __TEXT.__eh_frame: 0x48 sha256:f45c9f6a57e58587b076f7dc5f9cef21c89017935ce38c055034b478eefdf655
++  __TEXT.__objc_stubs: 0x0
++  __TEXT.__auth_stubs: 0x0
++  __TEXT.__objc_classname: 0x0
++  __TEXT.__objc_methname: 0x0
++  __TEXT.__objc_methtype: 0x0
++  __DATA_CONST.__const: 0xa8 sha256:30c1089c45b71cc5a04c2808ce0fe86eb9f91503da9b4b720b293b3e1b74fc05
++  __DATA_CONST.__objc_classlist: 0x18 sha256:467c27967f442d70853e0ed281e9e18d3168e4a55fdd419f17f11e0950408dc9
++  __DATA_CONST.__objc_imageinfo: 0x8 sha256:ce857dcadc2529f941104469975d60698ea3610a86c121e7b4aee224cd0c59ea
++  __DATA_CONST.__objc_selrefs: 0xc0 sha256:26971c33eef2f3976e40895bc33f6781c2c90cf53478c852d803c4f41a9046c9
++  __DATA_CONST.__got: 0x250 sha256:d613a13d4a730b6f2949d1b7c705a34d40fcbe720e76aca4370fc5a15f393559
++  __AUTH_CONST.__const: 0x1ba8 sha256:560bb0b1b5684f1a0e73dcf95540dcd8a666c8d28538483b4f1dc5e79dfa2e07
++  __AUTH_CONST.__objc_const: 0x1a8 sha256:ba09bdad8f9564e21461104cf0fa61b95d85329fb3d1ac939c6ecad5a2dbcc97
++  __AUTH_CONST.__auth_got: 0x7b8 sha256:8ec80619c4e78fbddcae154346e04167073fc64373bcad92fcf26288dab0e756
++  __AUTH.__objc_data: 0x90 sha256:c8e09a8530ea3155353c31cab84228acc2e845ca8fbc808b2090678ef80b21ea
++  __AUTH.__data: 0x448 sha256:f53ce3bceced98b44bf04b0bb1c720ddded2c7984f5b2e8c49c2b437a4170fe8
++  __DATA.__data: 0x630 sha256:523308bbb9461d24204d0b57d34d1be7f7ee7cbf9e1b5e5cc8e802cae76c78b2
++  __DATA.__bss: 0x1e40 sha256:ad0f7f9197b5b43549fa37f98743ad635df67190b0ad816d0a3d8313073a1d8c
+   __DATA.__common: 0x90 sha256:81c611f35bff79491538b2f7cf201c7597a661a5c549633541c62bdc8af1613f
+-  __DATA_DIRTY.__objc_data: 0xf8 sha256:9e9a0812e8a2da5f981ee2d3c6744dd2aec7dc3b29bad43295b761c66ede736a
+-  __DATA_DIRTY.__data: 0x1e8 sha256:20d0b395609587a722d0057f06cbe053b4293659b6dd8918ea362229ec81edaa
++  __DATA_DIRTY.__objc_data: 0xf8 sha256:04e90d730de65a527e752af94be80f61cd8b678559f67583612cc343d4419135
++  __DATA_DIRTY.__data: 0x1e8 sha256:d291e1aeda571a3b7140dd1302a6580e8b4087ae45d18dbaf3d9b0d71960e453
+   __DATA_DIRTY.__common: 0x18 sha256:9d908ecfb6b256def8b49a7c504e6c889c4b0e41fe6ce3e01863dd7b61a20aa0
+   __DATA_DIRTY.__bss: 0x80 sha256:38723a2e5e8a17aa7950dc008209944e898f69a7bd10a23c839d341e935fd5ca
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+
+   - /usr/lib/swift/libswiftCoreAudio.dylib
+   - /usr/lib/swift/libswiftCoreFoundation.dylib
+   - /usr/lib/swift/libswiftCoreImage.dylib
+-  - /usr/lib/swift/libswiftCoreMedia.dylib
++  - /usr/lib/swift/libswiftCoreLocation.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
+   - /usr/lib/swift/libswiftMetal.dylib
+   - /usr/lib/swift/libswiftOSLog.dylib
+
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 02A0AAFD-15D4-3938-A3D6-BF00845E85CA
+-  Functions: 859
+-  Symbols:   534
+-  CStrings:  48
++  UUID: AD9C7860-13C1-335B-BCDB-35EFA49F72BD
++  Functions: 879
++  Symbols:   562
++  CStrings:  13
+ 
+Symbols:
++ ___swift_closure_destructor
++ ___swift_closure_destructor.3
++ ___swift_closure_destructor.7
++ ___swift_destroy_boxed_opaque_existential_0
++ ___swift_exist.box.addr_destructor
++ __os_log_impl
++ __swift_FORCE_LOAD_$_swiftCoreLocation
++ __swift_FORCE_LOAD_$_swiftCoreLocation_$_BubbleKit
++ _associated conformance 9BubbleKit0A32VibrantOuterStrokeFilterProviderV7SwiftUI08CAFilterG0AASQ
++ _get_witness_table 7SwiftUI15ModifiedContentVyACyAA014_ViewModifier_D0Vy9BubbleKit0G10BackgroundVGAA01_iF0VyACyACyACyAA5GroupVyAA012_ConditionalD0VyACyAA14GeometryReaderVyAA03AnyE0VGAA11_ClipEffectVyAF0G5ShapeVGGAOyACyAQyACyACyAA01_qE0VyAA9RectangleVAA0nQ5StyleVGAA12_FrameLayoutVGAA07_OffsetP0VGGAYGA0_yAXA4_GGGSgGAA017_AllowsHitTestingF0VGAA08_OverlayF0VyAQyACyAA012StrokeBorderqE0VyAxA010ForegroundS0VAA05EmptyE0VGAA011_ForegroundsF0VyA4_GGGSgGGAA05_FlextU0VGGGAA01_dq4KindF0VyAXGGAA0E0HPA43_AAA48_HPAiAA48_HPyHC_A42_AA0eF0HPyHCHC_A46_AAA49_HPyHCHC.5
++ _get_witness_table 7SwiftUI15ModifiedContentVyACyAA014_ViewModifier_D0Vy9BubbleKit0gD7PaddingVGAA01_I6LayoutVGAA08SafeAreaiF0VGAA0E0HPAlaPHPAiaPHPyHC_AkA0eF0HPyHCHC_AnaQHPyHCHC.3
++ _objc_release_x8
++ _objc_retain_x21
++ _objc_retain_x22
++ _os_log_type_enabled
++ _swift_release_x1
++ _swift_release_x19
++ _swift_release_x20
++ _swift_release_x21
++ _swift_release_x25
++ _swift_release_x28
++ _swift_release_x8
++ _swift_retain_x1
++ _swift_retain_x19
++ _swift_retain_x2
++ _swift_retain_x20
++ _swift_retain_x21
++ _swift_retain_x24
++ _swift_slowDealloc
++ _symbolic _____ 7SwiftUI11ColorSchemeO
++ _symbolic _____ 9BubbleKit0A32VibrantOuterStrokeFilterProviderV
++ _symbolic _____yAAy_____y_____G_____yAAyAAyAAy_____y_____yAAy_____y_____G_____y_____GGAGyAAyAHyAAyAAy_____y__________G_____G_____GGAMGAOyAlQGGGSgG_____G_____yAHyAAy_____yAL__________G_____yAQGGGSgGG_____GGG_____yALGG 7SwiftUI15ModifiedContentV AA014_ViewModifier_D0V 9BubbleKit0G10BackgroundV AA01_iF0V AA5GroupV AA012_ConditionalD0V AA14GeometryReaderV AA03AnyE0V AA11_ClipEffectV AF0G5ShapeV AA01_qE0V AA9RectangleV AA0nQ5StyleV AA12_FrameLayoutV AA07_OffsetP0V AA017_AllowsHitTestingF0V AA08_OverlayF0V AA012StrokeBorderqE0V AA010ForegroundS0V AA05EmptyE0V AA011_ForegroundsF0V AA05_FlextU0V AA01_dq4KindF0V
++ _symbolic _____yAAy_____y_____yAAy_____y_____G_____y_____GGACyAAyADyAAyAAy_____y__________G_____G_____GGAIGAKyAhMGGGSgG_____G_____yADyAAy_____yAH__________G_____yAMGGGSgGG 7SwiftUI15ModifiedContentV AA5GroupV AA012_ConditionalD0V AA14GeometryReaderV AA7AnyViewV AA11_ClipEffectV 9BubbleKit0M5ShapeV AA01_oJ0V AA9RectangleV AA0iO5StyleV AA12_FrameLayoutV AA07_OffsetL0V AA25_AllowsHitTestingModifierV AA08_OverlayX0V AA012StrokeBorderoJ0V AA010ForegroundQ0V AA05EmptyJ0V AA011_ForegroundqX0V
++ _symbolic _____y_____G 7SwiftUI9LazyStateV So6CGRectV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC s5UInt8V
++ _symbolic _____y______G 7SwiftUI9LazyStateV7StorageO So6CGRectV
++ _symbolic _____y_____yAByABy_____y_____yABy_____y_____G_____y_____GGADyAByAEyAByABy_____y__________G_____G_____GGAJGALyAiNGGGSgG_____G_____yAEyABy_____yAI__________G_____yANGGGSgGG_____GG 7SwiftUI19_BackgroundModifierV AA15ModifiedContentV AA5GroupV AA012_ConditionalF0V AA14GeometryReaderV AA7AnyViewV AA11_ClipEffectV 9BubbleKit0O5ShapeV AA01_qL0V AA9RectangleV AA0kQ5StyleV AA12_FrameLayoutV AA07_OffsetN0V AA017_AllowsHitTestingD0V AA08_OverlayD0V AA012StrokeBorderqL0V AA010ForegroundS0V AA05EmptyL0V AA011_ForegroundsD0V AA05_FlextU0V
++ _symbolic _____y_____y_____G_____yAAyAAyAAy_____y_____yAAy_____y_____G_____y_____GGAGyAAyAHyAAyAAy_____y__________G_____G_____GGAMGAOyAlQGGGSgG_____G_____yAHyAAy_____yAL__________G_____yAQGGGSgGG_____GGG 7SwiftUI15ModifiedContentV AA014_ViewModifier_D0V 9BubbleKit0G10BackgroundV AA01_iF0V AA5GroupV AA012_ConditionalD0V AA14GeometryReaderV AA03AnyE0V AA11_ClipEffectV AF0G5ShapeV AA01_qE0V AA9RectangleV AA0nQ5StyleV AA12_FrameLayoutV AA07_OffsetP0V AA017_AllowsHitTestingF0V AA08_OverlayF0V AA012StrokeBorderqE0V AA010ForegroundS0V AA05EmptyE0V AA011_ForegroundsF0V AA05_FlextU0V
+- __swift_FORCE_LOAD_$_swiftCoreMedia
+- __swift_FORCE_LOAD_$_swiftCoreMedia_$_BubbleKit
+- _get_witness_table 7SwiftUI15ModifiedContentVyACyAA014_ViewModifier_D0Vy9BubbleKit0G10BackgroundVGAA01_iF0VyACyACyACyACyAA14GeometryReaderVyAA012_ConditionalD0VyAA03AnyE0VAOyACyACyAA06_ShapeE0VyAA9RectangleVAA0mN5StyleVGAA12_FrameLayoutVGAA13_OffsetEffectVGAXGGSgGAA017_AllowsHitTestingF0VGAA05_ClipT0VyAF0gN0VGGAA08_OverlayF0VyAMyACyAA012StrokeBordernE0VyA13_AA010ForegroundP0VAA05EmptyE0VGAA011_ForegroundpF0VyAWGGGSgGGAA05_FlexqR0VGGGAA01_dn4KindF0VyA13_GGAA0E0HPA37_AAA42_HPAiAA42_HPyHC_A36_AA0eF0HPyHCHC_A40_AAA43_HPyHCHC.5
+- _get_witness_table 7SwiftUI15ModifiedContentVyACyAA014_ViewModifier_D0Vy9BubbleKit0gD7PaddingVGAA01_I6LayoutVGAA08SafeAreaiF0VGAA0E0HPAlaPHPAiaPHPyHC_AkA0eF0HPyHCHC_AnaQHPyHCHC.2
+- _objc_release_x25
+- _objc_release_x26
+- _objc_release_x28
+- _objc_retain_x24
+- _symbolic _____yAAyAAyAAy_____y_____y_____ACyAAyAAy_____y__________G_____G_____GAHGGSgG_____G_____y_____GG_____yAByAAy_____yAT__________G_____yAGGGGSgGG_____G 7SwiftUI15ModifiedContentV AA14GeometryReaderV AA012_ConditionalD0V AA7AnyViewV AA06_ShapeI0V AA9RectangleV AA0hJ5StyleV AA12_FrameLayoutV AA13_OffsetEffectV AA25_AllowsHitTestingModifierV AA05_ClipP0V 9BubbleKit0vJ0V AA08_OverlayT0V AA012StrokeBorderjI0V AA010ForegroundL0V AA05EmptyI0V AA011_ForegroundlT0V AA05_FlexmN0V
+- _symbolic _____yAAyAAy_____y_____y_____ACyAAyAAy_____y__________G_____G_____GAHGGSgG_____G_____y_____GG_____yAByAAy_____yAT__________G_____yAGGGGSgGG 7SwiftUI15ModifiedContentV AA14GeometryReaderV AA012_ConditionalD0V AA7AnyViewV AA06_ShapeI0V AA9RectangleV AA0hJ5StyleV AA12_FrameLayoutV AA13_OffsetEffectV AA25_AllowsHitTestingModifierV AA05_ClipP0V 9BubbleKit0vJ0V AA08_OverlayT0V AA012StrokeBorderjI0V AA010ForegroundL0V AA05EmptyI0V AA011_ForegroundlT0V
+- _symbolic _____yAAy_____y_____G_____yAAyAAyAAyAAy_____y_____y_____AGyAAyAAy_____y__________G_____G_____GALGGSgG_____G_____y_____GG_____yAFyAAy_____yAX__________G_____yAKGGGSgGG_____GGG_____yAXGG 7SwiftUI15ModifiedContentV AA014_ViewModifier_D0V 9BubbleKit0G10BackgroundV AA01_iF0V AA14GeometryReaderV AA012_ConditionalD0V AA03AnyE0V AA06_ShapeE0V AA9RectangleV AA0mN5StyleV AA12_FrameLayoutV AA13_OffsetEffectV AA017_AllowsHitTestingF0V AA05_ClipT0V AF0gN0V AA08_OverlayF0V AA012StrokeBordernE0V AA010ForegroundP0V AA05EmptyE0V AA011_ForegroundpF0V AA05_FlexqR0V AA01_dn4KindF0V
+- _symbolic _____yAAy_____y__________G_____G_____G 7SwiftUI15ModifiedContentV AA10_ShapeViewV AA9RectangleV AA03AnyE5StyleV AA12_FrameLayoutV AA13_OffsetEffectV
+- _symbolic _____yAAy_____y_____y_____ACyAAyAAy_____y__________G_____G_____GAHGGSgG_____G_____y_____GG 7SwiftUI15ModifiedContentV AA14GeometryReaderV AA012_ConditionalD0V AA7AnyViewV AA06_ShapeI0V AA9RectangleV AA0hJ5StyleV AA12_FrameLayoutV AA13_OffsetEffectV AA25_AllowsHitTestingModifierV AA05_ClipP0V 9BubbleKit0vJ0V
+- _symbolic _____y_____G 7SwiftUI5StateV So6CGRectV
+- _symbolic _____y__________G 7SwiftUI10_ShapeViewV AA9RectangleV AA03AnyC5StyleV
+- _symbolic _____y_____yAByAByABy_____y_____y_____ADyAByABy_____y__________G_____G_____GAIGGSgG_____G_____y_____GG_____yACyABy_____yAU__________G_____yAHGGGSgGG_____GG 7SwiftUI19_BackgroundModifierV AA15ModifiedContentV AA14GeometryReaderV AA012_ConditionalF0V AA7AnyViewV AA06_ShapeK0V AA9RectangleV AA0jL5StyleV AA12_FrameLayoutV AA13_OffsetEffectV AA017_AllowsHitTestingD0V AA05_ClipR0V 9BubbleKit0wL0V AA08_OverlayD0V AA012StrokeBorderlK0V AA010ForegroundN0V AA05EmptyK0V AA011_ForegroundnD0V AA05_FlexoP0V
+- _symbolic _____y_____yABy_____y__________G_____G_____GAFG 7SwiftUI19_ConditionalContentV AA08ModifiedD0V AA10_ShapeViewV AA9RectangleV AA03AnyF5StyleV AA12_FrameLayoutV AA13_OffsetEffectV
+- _symbolic _____y_____y_____G_____yAAyAAyAAyAAy_____y_____y_____AGyAAyAAy_____y__________G_____G_____GALGGSgG_____G_____y_____GG_____yAFyAAy_____yAX__________G_____yAKGGGSgGG_____GGG 7SwiftUI15ModifiedContentV AA014_ViewModifier_D0V 9BubbleKit0G10BackgroundV AA01_iF0V AA14GeometryReaderV AA012_ConditionalD0V AA03AnyE0V AA06_ShapeE0V AA9RectangleV AA0mN5StyleV AA12_FrameLayoutV AA13_OffsetEffectV AA017_AllowsHitTestingF0V AA05_ClipT0V AF0gN0V AA08_OverlayF0V AA012StrokeBordernE0V AA010ForegroundP0V AA05EmptyE0V AA011_ForegroundpF0V AA05_FlexqR0V
+- _symbolic _____y_____y_______________G_____y_____GG 7SwiftUI15ModifiedContentV AA21StrokeBorderShapeViewV 9BubbleKit0iG0V AA15ForegroundStyleV AA05EmptyH0V AA01_kL8ModifierV AA03AnygL0V
+- _symbolic _____y_____y_____y_______________G_____y_____GGG 7SwiftUI14GeometryReaderV AA15ModifiedContentV AA21StrokeBorderShapeViewV 9BubbleKit0kI0V AA15ForegroundStyleV AA05EmptyJ0V AA01_mN8ModifierV AA03AnyiN0V
+- _symbolic _____y_____y_____y_____y_______________G_____y_____GGGALG 7SwiftUI19_ConditionalContentV AA14GeometryReaderV AA08ModifiedD0V AA21StrokeBorderShapeViewV 9BubbleKit0lJ0V AA15ForegroundStyleV AA05EmptyK0V AA01_nO8ModifierV AA03AnyjO0V
+CStrings:
++ "Accessing Environment<%s>'s value outside of being installed on a View. This will always read the default value and will not update."
++ "Optional<CGRect>"
+- ".cxx_destruct"
+- "@\"UIColor\"16@?0@\"UITraitCollection\"8"
+- "@16@0:8"
+- "Accessing Environment's value outside of being installed on a View. This will always read the default value and will not update."
+- "B24@0:8@16"
+- "CGColor"
+- "Tq,N,R"
+- "_TtC9BubbleKitP33_B22571989A9DC897450BDB60B6B80FD319ResourceBundleClass"
+- "_TtCV9BubbleKit10BubblePathP33_5FD490854F6BA68D6285276740D9BC3D20BubblePathNSCacheKey"
+- "_TtCV9BubbleKit10BubblePathP33_5FD490854F6BA68D6285276740D9BC3D22BubblePathNSCacheValue"
+- "accessibilityContrast"
+- "addCurveToPoint:controlPoint1:controlPoint2:"
+- "bundleForClass:"
+- "closePath"
+- "configuration"
+- "dealloc"
+- "frame"
+- "getRed:green:blue:alpha:"
+- "hash"
+- "init"
+- "initWithDynamicProvider:"
+- "initWithRed:green:blue:alpha:"
+- "initWithType:"
+- "isEqual:"
+- "moveToPoint:"
+- "objectForKey:"
+- "path"
+- "q16@0:8"
+- "resolvedColorWithTraitCollection:"
+- "secondarySystemFillColor"
+- "setObject:forKey:"
+- "setValue:forKey:"
+- "systemBackgroundColor"
+- "traitCollectionWithUserInterfaceStyle:"
+- "userInterfaceStyle"
+- "v16@0:8"
+- "valueWithCAColorMatrix:"
+
+```

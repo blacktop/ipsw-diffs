@@ -1,0 +1,2674 @@
+## SpotlightUIServices
+
+> `/System/Library/PrivateFrameworks/SpotlightUIServices.framework/SpotlightUIServices`
+
+```diff
+
+-181.4.6.0.0
+-  __TEXT.__text: 0x4aff8 sha256:109a4a7cdb4ff5105dc8f0e77631b17af104d800b5b5e803bdbbb6030208054a
+-  __TEXT.__auth_stubs: 0xf90 sha256:a3d87568a4b036e0a08978cddce4d739177f02a1b0d4cdad1bb22c535898949b
+-  __TEXT.__objc_methlist: 0x4898 sha256:5e90368fc1a5e2cb20e6f97215a1199a45374a38cfeeba0a25813861eb9cf9be
+-  __TEXT.__const: 0x714 sha256:2b0a43b739348921bf21884b8d271e608215f044f6ebd846ea8147307cbf8996
+-  __TEXT.__cstring: 0x2110 sha256:52c736a35160b0431fd72280037f51b39013d2e0caad925eb30476b7edf6cd1d
++228.102.0.0.0
++  __TEXT.__text: 0x52de8 sha256:a000bd2bbffca98d0fb10247cac3ced6f418ad587c11fd50a3d5aa90c93a71ef
++  __TEXT.__objc_methlist: 0x4ce8 sha256:93d36279dcb286d900ba6b45840936b348d2f6a40fc34ca9abec4c92ac15842c
++  __TEXT.__const: 0xbe4 sha256:d6b485959d11ef61f9f659ec2014059888197cff9b1fa0f02cc0856e62f27211
++  __TEXT.__cstring: 0x2520 sha256:6cc27cc98a7e100f4f42dd786a42e92d96262f3234267389cd1cb0a3f291290e
+   __TEXT.__ustring: 0x38 sha256:fccb3303b6ac62925479b516ab88e194e12b7a11b644e9bb3165ee5e0fdb3bef
+-  __TEXT.__oslogstring: 0x64b sha256:3b596ce82f3ec4e9db3b63793c23eb43ed0810c157592493fdeb78f33a82b5eb
+-  __TEXT.__gcc_except_tab: 0x24c sha256:b060f87cdc1faf81616cb5004ba01dba7de708f87cef5a9a74f55e47b6e7c357
+-  __TEXT.__swift5_typeref: 0x282 sha256:791f0014d4a2ee11711cc0438d2e44e111969a021fc99a8f374f7d4ac5d79c1e
+-  __TEXT.__swift5_reflstr: 0xbd sha256:c360ce4830610273ec9b00a5ed618ff7f930824182e0be4a2d63e0ade148d477
+-  __TEXT.__swift5_assocty: 0x78 sha256:efcdc317863bc8ab71ddfa79a479154f8bed501f2c9a9b92ab7ee28ee5e1fb37
+-  __TEXT.__constg_swiftt: 0x418 sha256:0bb8f2d5b7838f7742635af607c6fd423e1e98f5a51171febbe987278a687d89
+-  __TEXT.__swift5_fieldmd: 0x134 sha256:a68f873b8b00ccdd1c068707b5d5923d54649c0b6eed027fe47fa58d7769efe7
+-  __TEXT.__swift5_proto: 0x2c sha256:155273c7bfa726b7ba4d73d4fd25c1812bdb0449c51bffcefb8110f48fc35e3e
+-  __TEXT.__swift5_types: 0x3c sha256:50c992277236353f44635fbc8ff0754a16d1572e3ca950fed1ab9a7e6ccd30f2
+-  __TEXT.__swift5_capture: 0x94 sha256:c6cf94042c605523e8a61d614dbb44040a666f355379e695e4d1db73bcd2fce8
+-  __TEXT.__swift5_builtin: 0x14 sha256:1a8aaac3734dc461a4c965b6cc158fbc8a9396a89a96fac6049d411461f5cc8f
+-  __TEXT.__unwind_info: 0x1668 sha256:4c3522b3abecf05fab9483b12c34d97f8abdab2bb108bc24e26984465e83054f
+-  __TEXT.__objc_classname: 0xac3 sha256:3016c7a9be80c553412fc3169c879b08a25d70c55f2339a0e291e21531ceeb61
+-  __TEXT.__objc_methname: 0xab73 sha256:b01cc81777d47015b85792d610797dd8acf31d6c777050dd484ace5cb86d8b82
+-  __TEXT.__objc_methtype: 0x541 sha256:fc8044d55c527fe4705e7ebf52e0012e03fff1e228d733a3cfd063004e021c7d
+-  __TEXT.__objc_stubs: 0xa120 sha256:4b594dad5e88de884ff0597c8f81351b38ec775f0e9e4a5af81d08883d19132a
+-  __DATA_CONST.__got: 0x13d8 sha256:fc728d6e7744f2712d5a7a31c830c123c674030abceaadea54e9602f485c42c9
+-  __DATA_CONST.__const: 0x520 sha256:664f9296daf10d81af1f3d1b39366780a428dd808baa456f967ca2656e70cadf
+-  __DATA_CONST.__objc_classlist: 0x2c0 sha256:6cc75d33ffbc5b0d002684a6e2ea6f9c7c21510af37986a5e9e4c1faefb27f40
+-  __DATA_CONST.__objc_imageinfo: 0x8 sha256:8c2e86a3d61473a17440ee60441113a7d285704a3b70278f03e88b3c356a5493
+-  __DATA_CONST.__objc_selrefs: 0x2c28 sha256:035e0f06988d23ba1363c4792161b3b348c51637d679d0df7899ad2c034cb500
+-  __DATA_CONST.__objc_superrefs: 0x240 sha256:c182cbe19f89d2daa65deb5bb683618c6039ade8c3c82d7fa9c87137416bf361
+-  __DATA_CONST.__objc_arraydata: 0x40 sha256:369c23bdafe67e411f410abbfa9d2a218b0962c6935bbcdb987908552f4cc44c
+-  __AUTH_CONST.__auth_got: 0x7d8 sha256:e991c0a37471f8f9fe6763f2427c9b16725ba1401c9b8be930840c14a5feb9a9
+-  __AUTH_CONST.__const: 0xa40 sha256:d5dd8b2fd224bdbcd30eec708d633f0aff9b23a2981af67c5742201f03be5a46
+-  __AUTH_CONST.__cfstring: 0x2800 sha256:c890e997d8757ecb307b190855b411c9c07457c0c9a61156632a3032f3f0c70c
+-  __AUTH_CONST.__objc_const: 0x6ae8 sha256:b88dac5159844fadb86bb359644dbfd1432e6b787123249cbaa369d51b8419bd
+-  __AUTH_CONST.__objc_arrayobj: 0x48 sha256:6d167edc611623a463a18eab75fc78dd6fdb929c69ffb9b051beb8c783ebb1ff
+-  __AUTH_CONST.__objc_doubleobj: 0x10 sha256:325239302491aad6948b414e21982bfab1f15a5fa4d63da46afad8c4bc5b1ce6
+-  __AUTH.__objc_data: 0x7d8 sha256:0e5081352dbc38fdf9b29e83d2e504d5b35f908d5dcb4956d38fdc08f3e30dff
+-  __AUTH.__data: 0x160 sha256:b1f476eb65bfff9d0ee8931484478b855d9758b4fada264da2ba0c1f72503f27
+-  __DATA.__objc_ivar: 0x494 sha256:edc6510c285cc582cac4607acaf1a0b549c89d2549b1eb3b08c8239fb1daca55
+-  __DATA.__data: 0x158 sha256:18bffade0199e69d62c6f5eaefe96a33946857e634b51c32f1284541beb350ce
+-  __DATA.__bss: 0x6f0 sha256:cac301e92bd8b54a2baf8dec1aa1f58707f5ad9fa4958b64eedd900dd667fe45
+-  __DATA.__common: 0x8 sha256:af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc
+-  __DATA_DIRTY.__objc_data: 0x1810 sha256:bb02249b2de25cccdffa560fca4ad0ff4878ea83deee3803c2bbbe3ac445538a
+-  __DATA_DIRTY.__data: 0x79 sha256:487f8b89cc47fe7fe318079f558a71108dbc1bbba3125ae9f28082e058ee680f
+-  __DATA_DIRTY.__bss: 0x168 sha256:d3df611a0ed2e328b050d285287637c60643ba96ec09e4aaefaad7f2cd114b77
++  __TEXT.__oslogstring: 0x85b sha256:c3b37bff9d0732df85ef67b175abe8dbc4236b0366d246930bb1c48b05b33961
++  __TEXT.__gcc_except_tab: 0x318 sha256:00d811f599b6b0e429379e8cd03edac265bc97ac08ca4dbf42885591d9b26020
++  __TEXT.__swift5_typeref: 0x478 sha256:e3b6a47b8d562ad72060a8056b9bc7c634efbcdcf66b81319fdb153d4982ee5d
++  __TEXT.__constg_swiftt: 0x6b8 sha256:49e8670b21ce4dde4247274744f1e179075f4c4e523e2f8712df2f18d692efc6
++  __TEXT.__swift5_reflstr: 0x205 sha256:abb808eacea07465207c8b81af4aa963a303862a98877905ace83f9ad9303948
++  __TEXT.__swift5_fieldmd: 0x258 sha256:34ea9ab2132580f95fd299fdc8c16946d074f2af121fa77b9eef7c0c0e3b9721
++  __TEXT.__swift5_types: 0x58 sha256:bbc87f808867ef8563fa370dfc5b4a0a9aa664cc97d9fcba5596f1cb5ad1773c
++  __TEXT.__swift5_capture: 0x1ec sha256:480c77b6bc4c7d67ce025a48b12c70703ccefec85241db91408c73a8d08a85b5
++  __TEXT.__swift5_proto: 0x48 sha256:699fa5ca5780b963cbbed49d3fa1b03e646643a3c4dcd2e88da6089802786550
++  __TEXT.__swift_as_entry: 0x2c sha256:0c0ea2b8541e96d597f8047ec4f50ba71f9cd19594fa8d38dffbd5fc276c4b26
++  __TEXT.__swift_as_ret: 0x24 sha256:a5ef4861fb9db653ddec2c0b0582ec88af1aeb8b8d829601d2cae8ec03881674
++  __TEXT.__swift_as_cont: 0x80 sha256:0db1f0baf96679593f60ec70b3226895c7076f07712b2258ad708813eb06aaa1
++  __TEXT.__swift5_assocty: 0xa8 sha256:e27300bba2f18424b16b18f46300483cdd49991c085089a445de4db80521981b
++  __TEXT.__swift5_builtin: 0x28 sha256:9fbd6440c05c736cece529114fda5557446dfed872bf9bcead870c659227e89b
++  __TEXT.__unwind_info: 0x1400 sha256:4293d38d00e0932736622302c6748c78d533aa81b9e00c1a63e927d52d857913
++  __TEXT.__eh_frame: 0x660 sha256:eff5a1d01561b23efaa91c64df2d3b6ac089dd5608479f3bc0237680306716da
++  __TEXT.__objc_stubs: 0x0
++  __TEXT.__auth_stubs: 0x0
++  __TEXT.__objc_classname: 0x0
++  __TEXT.__objc_methname: 0x0
++  __TEXT.__objc_methtype: 0x0
++  __DATA_CONST.__const: 0x5c0 sha256:c3369726fb05bead11dad8205008ae7697e024e779a87a0a6c2816fb9884d301
++  __DATA_CONST.__objc_classlist: 0x2f8 sha256:0c3c10625fccae8f8f8722ec64bc982c1b195afd6824e6eada5bf19ef1a297d0
++  __DATA_CONST.__objc_imageinfo: 0x8 sha256:ce857dcadc2529f941104469975d60698ea3610a86c121e7b4aee224cd0c59ea
++  __DATA_CONST.__objc_selrefs: 0x2e30 sha256:a0ddc00f2bfee09973b39f2deda1ef85b3738a5466b76ee35f36cdb4200bf219
++  __DATA_CONST.__objc_superrefs: 0x250 sha256:2b8cf158aaaaab775204ad5e4b76d5a0336df5863cbb156b701dbcd76320c6d8
++  __DATA_CONST.__objc_arraydata: 0x48 sha256:34c15ec4b1ca1fdc804c20d7b160f80535c575cb55a35fd96525346e39a162c4
++  __DATA_CONST.__got: 0x14d0 sha256:89d3128c40d0796d0e11261242f8649fccd7efcafa1ef3a058689b832e19cb36
++  __AUTH_CONST.__const: 0xd70 sha256:dceafed6b5b4e17022f2029c2ee779aec339f6cbed70e76dfc3631e54021d056
++  __AUTH_CONST.__cfstring: 0x28e0 sha256:f90c432e271f0a76423e5ace44e6ced484aa066d1ad27c7842aeb9c189c207ed
++  __AUTH_CONST.__objc_const: 0x71f0 sha256:55b11d58cd514c5b75098aa5bb2862ed206ca84e3f16326d108c1d778910675e
++  __AUTH_CONST.__objc_arrayobj: 0x48 sha256:5b8a6af45a3978a30c99594da2fe0c81e2d8086527068a7917a96ad2894c4938
++  __AUTH_CONST.__objc_doubleobj: 0x10 sha256:d16c003198e57a10823b9b0f8ed15467847dae12aae189a8149738755881d9fb
++  __AUTH_CONST.__auth_got: 0xb30 sha256:35ea3bc020cf509336e438b06974ec7aea3736f4d0fd3db23a741fa98bd3bb30
++  __AUTH.__objc_data: 0xa20 sha256:6ea28a5fe4c5761bc50857bb536ba3caa7472ac4ff5481f6841f2da04e537277
++  __AUTH.__data: 0x1b0 sha256:ac1464fd271a65c0e3d395ddad61a34a3c660ab4de5d60c6d2771261a122a5e5
++  __DATA.__objc_ivar: 0x4bc sha256:86670fac6ee3311c646715fd1ed6ef819858d1e37a386399758a2ba48d2107e4
++  __DATA.__data: 0x210 sha256:8cb565bf867d132a3159b09387bdb7ca50ce53e0c1eb2693ade9e72df097d1a1
++  __DATA.__bss: 0xab0 sha256:ac601d468fbaf1af4a768dcb12893119c5ef3ef16cdb3cc28136986c2bdd6e7b
++  __DATA.__common: 0x28 sha256:bfdf258a713611f65841e7d8c1fbf1f186e3a72e15ee0a0f235e6d2c8fc82f30
++  __DATA_DIRTY.__objc_data: 0x1a58 sha256:a4c235ccb18a58397e927a13f71377ed81fd4fb1a7a9969a349c53bfcefaec19
++  __DATA_DIRTY.__data: 0x280 sha256:2fd045633caf22bae578c58fd0fccdd088cdc7feef7470c7c4632c3fa65f2897
++  __DATA_DIRTY.__bss: 0x1c8 sha256:b960fb5cb94682dfc4a873035d65f8befdcb9bed0e7db0feb905f0dcf437b38c
+   __DATA_DIRTY.__common: 0x10 sha256:374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb
+   - /System/Library/Frameworks/Contacts.framework/Contacts
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreServices.framework/CoreServices
+   - /System/Library/Frameworks/CoreSpotlight.framework/CoreSpotlight
++  - /System/Library/Frameworks/EventKit.framework/EventKit
+   - /System/Library/Frameworks/FileProvider.framework/FileProvider
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/Frameworks/Intents.framework/Intents
+   - /System/Library/Frameworks/MarketplaceKit.framework/MarketplaceKit
+   - /System/Library/Frameworks/UIKit.framework/UIKit
+   - /System/Library/Frameworks/UniformTypeIdentifiers.framework/UniformTypeIdentifiers
+-  - /System/Library/PrivateFrameworks/AppPredictionClient.framework/AppPredictionClient
++  - /System/Library/PrivateFrameworks/AssistantActionSuggestion.framework/AssistantActionSuggestion
++  - /System/Library/PrivateFrameworks/AssistantActionSuggestionSupport.framework/AssistantActionSuggestionSupport
++  - /System/Library/PrivateFrameworks/AssistantServices.framework/AssistantServices
+   - /System/Library/PrivateFrameworks/BiomeLibrary.framework/BiomeLibrary
+   - /System/Library/PrivateFrameworks/ContactsFoundation.framework/ContactsFoundation
+   - /System/Library/PrivateFrameworks/DataDetectorsCore.framework/DataDetectorsCore
+-  - /System/Library/PrivateFrameworks/FMF.framework/FMF
+-  - /System/Library/PrivateFrameworks/GeoServices.framework/GeoServices
++  - /System/Library/PrivateFrameworks/GenerativeAssistantSettings.framework/GenerativeAssistantSettings
++  - /System/Library/PrivateFrameworks/GenerativePartnerServiceUI.framework/GenerativePartnerServiceUI
+   - /System/Library/PrivateFrameworks/IMFoundation.framework/IMFoundation
+   - /System/Library/PrivateFrameworks/IMSharedUtilities.framework/IMSharedUtilities
+   - /System/Library/PrivateFrameworks/SearchFoundation.framework/SearchFoundation
+
+   - /usr/lib/swift/libswiftAVFoundation.dylib
+   - /usr/lib/swift/libswiftAccelerate.dylib
+   - /usr/lib/swift/libswiftAppleArchive.dylib
++  - /usr/lib/swift/libswiftCallKit.dylib
+   - /usr/lib/swift/libswiftCompression.dylib
+   - /usr/lib/swift/libswiftCore.dylib
+   - /usr/lib/swift/libswiftCoreAudio.dylib
++  - /usr/lib/swift/libswiftCoreAudio_Private.dylib
+   - /usr/lib/swift/libswiftCoreFoundation.dylib
+   - /usr/lib/swift/libswiftCoreImage.dylib
+   - /usr/lib/swift/libswiftCoreLocation.dylib
+   - /usr/lib/swift/libswiftCoreMIDI.dylib
+-  - /usr/lib/swift/libswiftCoreMedia.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
+   - /usr/lib/swift/libswiftIntents.dylib
+   - /usr/lib/swift/libswiftMLCompute.dylib
+   - /usr/lib/swift/libswiftMetal.dylib
++  - /usr/lib/swift/libswiftMetalKit.dylib
++  - /usr/lib/swift/libswiftModelIO.dylib
+   - /usr/lib/swift/libswiftNaturalLanguage.dylib
+   - /usr/lib/swift/libswiftOSLog.dylib
+   - /usr/lib/swift/libswiftObjectiveC.dylib
+
+   - /usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
++  - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: ADA5DEF2-5006-3F99-B7E9-BDB330B6C9F5
+-  Functions: 1838
+-  Symbols:   6248
+-  CStrings:  2820
++  UUID: F907C941-3714-3C98-8A14-ED477EFCEE65
++  Functions: 2169
++  Symbols:   6616
++  CStrings:  770
+ 
+Symbols:
++ +[SPUISActionSuggestionResultBuilder buildResultWithTitle:subtitle:thumbnail:actionIdentifier:canonicalIdentifier:]
++ +[SPUISAppBrowseSectionBuilder appSectionWithTitle:identifier:style:numberOfColumns:appIdentities:]
++ +[SPUISAskSiriResultBuilder localizedAskSiriTitle]
++ +[SPUISBrowseSectionBuilder _resultCardSectionForResult:displayStyle:]
++ +[SPUISBrowseSectionBuilder _sectionResultForResults:style:numberOfColumns:sectionTitle:sectionIdentifier:]
++ +[SPUISBrowseSectionBuilder cardSectionSuffixForDisplayStyle:]
++ +[SPUISBrowseSectionBuilder resultCardForResult:displayStyle:]
++ +[SPUISBrowseSectionBuilder sectionWithTitle:identifier:style:numberOfColumns:results:]
++ +[SPUISDateFormatManager relativeDateStringFromDate:]
++ +[SPUISSectionBuilderHandler buildSectionsWithSections:queryContext:renderState:]
++ +[SPUISSectionBuilderHandler buildSectionsWithSections:queryContext:searchInAppInfo:askSiriResult:renderState:]
++ +[SPUISUtilities elevatedBundleAllowList]
++ +[SPUISUtilities elevatedBundleAllowList].cold.1
++ +[SPUISUtilities isCampoEnabled]
++ +[SPUISUtilities sharedScoreForResult:]
++ +[SPUISUtilities shouldElevateTopHitResult:]
++ -[SPUISActionSuggestionResultBuilder .cxx_destruct]
++ -[SPUISActionSuggestionResultBuilder actionIdentifier]
++ -[SPUISActionSuggestionResultBuilder buildCommand]
++ -[SPUISActionSuggestionResultBuilder buildDescriptions]
++ -[SPUISActionSuggestionResultBuilder buildDetailedRowCardSection]
++ -[SPUISActionSuggestionResultBuilder buildThumbnail]
++ -[SPUISActionSuggestionResultBuilder buildTitle]
++ -[SPUISActionSuggestionResultBuilder setActionIdentifier:]
++ -[SPUISActionSuggestionResultBuilder setSuggestionSubtitle:]
++ -[SPUISActionSuggestionResultBuilder setSuggestionThumbnail:]
++ -[SPUISActionSuggestionResultBuilder setSuggestionTitle:]
++ -[SPUISActionSuggestionResultBuilder suggestionSubtitle]
++ -[SPUISActionSuggestionResultBuilder suggestionThumbnail]
++ -[SPUISActionSuggestionResultBuilder suggestionTitle]
++ -[SPUISApplicationResultBuilder buildPreviewButtonItems]
++ -[SPUISAskSiriResultBuilder buildBadgingImageWithThumbnail:]
++ -[SPUISAskSiriResultBuilder buildDetailedRowCardSection]
++ -[SPUISCachedViewResultBuilder subclassBuildInlineCardSections]
++ -[SPUISCalculatorResultBuilder subclassBuildInlineCardSections]
++ -[SPUISDateFormatManager relativeDateTimeFormatter]
++ -[SPUISDateFormatManager setRelativeDateTimeFormatter:]
++ -[SPUISDateFormatManager setShortDayOfWeekTimeIntervalFormatter:]
++ -[SPUISDateFormatManager setShortTimeIntervalFormatter:]
++ -[SPUISDateFormatManager shortDayOfWeekTimeIntervalFormatter]
++ -[SPUISDateFormatManager shortTimeIntervalFormatter]
++ -[SPUISFindMyResultBuilder subclassBuildInlineCardSections]
++ -[SPUISLocalWebResultBuilder buildPreviewCommand]
++ -[SPUISResultBuilder isSpotlight]
++ -[SPUISResultBuilder isSpotlight].cold.1
++ -[SPUISResultBuilder subclassBuildInlineCardSections]
++ -[SPUISSearchInAppResultBuilder subclassBuildInlineCardSections]
++ -[SPUISSearchInAppSectionBuilder askSiriResult]
++ -[SPUISSearchInAppSectionBuilder setAskSiriResult:]
++ -[SPUISSectionBuilderHandler askSiriResult]
++ -[SPUISSectionBuilderHandler setAskSiriResult:]
++ -[SPUISSuggestionResultBuilder subclassBuildInlineCardSections]
++ -[SPUISSuggestionSectionBuilder shouldSkipSection]
++ -[SPUISSystemPreferenceResultBuilder setUrl:]
++ -[SPUISSystemPreferenceResultBuilder url]
++ -[SPUISToolResultBuilder buildDetailedRowCardSection]
++ GCC_except_table60
++ GCC_except_table62
++ GCC_except_table63
++ GCC_except_table64
++ GCC_except_table65
++ GCC_except_table66
++ GCC_except_table68
++ _AFIsLinwoodEnabledAndAvailable
++ _NSKeyValueChangeNewKey
++ _OBJC_CLASS_$_NSRelativeDateTimeFormatter
++ _OBJC_CLASS_$_SFCommand
++ _OBJC_CLASS_$_SFResultSection
++ _OBJC_CLASS_$_SFSearchResult
++ _OBJC_CLASS_$_SPUISActionSuggestionResultBuilder
++ _OBJC_CLASS_$_SPUISActionSuggestions
++ _OBJC_CLASS_$_SPUISExecuteActionSuggestionCommand
++ _OBJC_CLASS_$_SPUISIntelligentAssistantSelectionContext
++ _OBJC_CLASS_$_SPUISSearchResultUtilities
++ _OBJC_CLASS_$_SSMixedRankingUtilities
++ _OBJC_CLASS_$__TtC19SpotlightUIServices21SPUISMontaraUtilities
++ _OBJC_IVAR_$_SPUISActionSuggestionResultBuilder._actionIdentifier
++ _OBJC_IVAR_$_SPUISActionSuggestionResultBuilder._suggestionSubtitle
++ _OBJC_IVAR_$_SPUISActionSuggestionResultBuilder._suggestionThumbnail
++ _OBJC_IVAR_$_SPUISActionSuggestionResultBuilder._suggestionTitle
++ _OBJC_IVAR_$_SPUISDateFormatManager._relativeDateTimeFormatter
++ _OBJC_IVAR_$_SPUISDateFormatManager._shortDayOfWeekTimeIntervalFormatter
++ _OBJC_IVAR_$_SPUISDateFormatManager._shortTimeIntervalFormatter
++ _OBJC_IVAR_$_SPUISSearchInAppSectionBuilder._askSiriResult
++ _OBJC_IVAR_$_SPUISSectionBuilderHandler._askSiriResult
++ _OBJC_IVAR_$_SPUISSystemPreferenceResultBuilder._url
++ _OBJC_METACLASS_$_SFCommand
++ _OBJC_METACLASS_$_SPUISActionSuggestionResultBuilder
++ _OBJC_METACLASS_$_SPUISActionSuggestions
++ _OBJC_METACLASS_$_SPUISExecuteActionSuggestionCommand
++ _OBJC_METACLASS_$_SPUISIntelligentAssistantSelectionContext
++ _OBJC_METACLASS_$_SPUISSearchResultUtilities
++ _OBJC_METACLASS_$__TtC19SpotlightUIServices21SPUISMontaraUtilities
++ _PRSRankingCalculatorBundleString
++ _PRSRankingConversionBundleString
++ _PRSRankingDictionaryBundleString
++ _PRSRankingParsecFlightBundleString
++ _PRSRankingParsecKnowledgeBundleString
++ _PRSRankingParsecSportsBundleString
++ _PRSRankingParsecStocksBundleString
++ _PRSRankingParsecWeatherBundleString
++ _PRSRankingTVBundleString
++ _PRSRankingWorldClockBundleString
++ __CLASS_METHODS_SPUISActionSuggestions
++ __CLASS_METHODS_SPUISIntelligentAssistantSelectionContext
++ __CLASS_METHODS_SPUISSearchResultUtilities
++ __CLASS_METHODS__TtC19SpotlightUIServices21SPUISMontaraUtilities
++ __CLASS_PROPERTIES__TtC19SpotlightUIServices21SPUISMontaraUtilities
++ __DATA_SPUISActionSuggestions
++ __DATA_SPUISExecuteActionSuggestionCommand
++ __DATA_SPUISIntelligentAssistantSelectionContext
++ __DATA_SPUISSearchResultUtilities
++ __DATA__TtC19SpotlightUIServices21SPUISMontaraUtilities
++ __DATA__TtC19SpotlightUIServices24ActionSuggestionsManager
++ __INSTANCE_METHODS_SPUISActionSuggestions
++ __INSTANCE_METHODS_SPUISExecuteActionSuggestionCommand
++ __INSTANCE_METHODS_SPUISIntelligentAssistantSelectionContext
++ __INSTANCE_METHODS_SPUISSearchResultUtilities
++ __INSTANCE_METHODS__TtC19SpotlightUIServices21SPUISMontaraUtilities
++ __IVARS_SPUISActionSuggestions
++ __IVARS_SPUISExecuteActionSuggestionCommand
++ __IVARS_SPUISIntelligentAssistantSelectionContext
++ __IVARS__TtC19SpotlightUIServices21SPUISMontaraUtilities
++ __IVARS__TtC19SpotlightUIServices24ActionSuggestionsManager
++ __METACLASS_DATA_SPUISActionSuggestions
++ __METACLASS_DATA_SPUISExecuteActionSuggestionCommand
++ __METACLASS_DATA_SPUISIntelligentAssistantSelectionContext
++ __METACLASS_DATA_SPUISSearchResultUtilities
++ __METACLASS_DATA__TtC19SpotlightUIServices21SPUISMontaraUtilities
++ __METACLASS_DATA__TtC19SpotlightUIServices24ActionSuggestionsManager
++ __OBJC_$_CLASS_METHODS_SPUISActionSuggestionResultBuilder
++ __OBJC_$_INSTANCE_METHODS_SPUISActionSuggestionResultBuilder
++ __OBJC_$_INSTANCE_VARIABLES_SPUISActionSuggestionResultBuilder
++ __OBJC_$_PROP_LIST_SPUISActionSuggestionResultBuilder
++ __OBJC_CLASS_RO_$_SPUISActionSuggestionResultBuilder
++ __OBJC_METACLASS_RO_$_SPUISActionSuggestionResultBuilder
++ __PROPERTIES_SPUISExecuteActionSuggestionCommand
++ __PROPERTIES__TtC19SpotlightUIServices21SPUISMontaraUtilities
++ ___33-[SPUISResultBuilder isSpotlight]_block_invoke
++ ___41+[SPUISUtilities elevatedBundleAllowList]_block_invoke
++ ___45-[SPUISResultBuilder buildInlineCardSections]_block_invoke
++ ___51-[SPUISDateFormatManager relativeDateTimeFormatter]_block_invoke
++ ___52-[SPUISDateFormatManager shortTimeIntervalFormatter]_block_invoke
++ ___61-[SPUISDateFormatManager shortDayOfWeekTimeIntervalFormatter]_block_invoke
++ ___block_descriptor_48_e8_32s40s_e30_v32?0"SFCardSection"8Q16^B24ls32l8s40l8
++ ___block_literal_global.449
++ ___block_literal_global.450
++ ___block_literal_global.510
++ ___block_literal_global.512
++ ___block_literal_global.522
++ ___block_literal_global.525
++ ___block_literal_global.530
++ ___block_literal_global.532
++ ___block_literal_global.535
++ ___block_literal_global.552
++ ___block_literal_global.595
++ ___block_literal_global.597
++ ___block_literal_global.600
++ ___swift__destructor
++ ___swift__destructor.27
++ ___swift__destructor.30
++ ___swift__destructor.4
++ ___swift_async_cont_functlets
++ ___swift_async_entry_functlets
++ ___swift_async_ret_functlets
++ ___swift_closure_destructor
++ ___swift_closure_destructor.11
++ ___swift_closure_destructor.16
++ ___swift_closure_destructor.16Tm
++ ___swift_closure_destructor.2
++ ___swift_closure_destructor.20
++ ___swift_closure_destructor.25
++ ___swift_closure_destructor.25Tm
++ ___swift_closure_destructor.29
++ ___swift_closure_destructor.3
++ ___swift_closure_destructor.33
++ ___swift_closure_destructor.51
++ ___swift_closure_destructor.56
++ ___swift_closure_destructor.61
++ ___swift_closure_destructor.66
++ ___swift_closure_destructor.69
++ ___swift_closure_destructor.7
++ ___swift_closure_destructor.77
++ ___swift_closure_destructor.82
++ ___swift_closure_destructor.92
++ ___swift_closure_destructor.97
++ ___swift_closure_destructorTm
++ ___swift_memcpy1_1
++ ___swift_project_boxed_opaque_existential_0
++ ___swift_project_boxed_opaque_existential_1Tm
++ __swift_FORCE_LOAD_$_swiftCallKit
++ __swift_FORCE_LOAD_$_swiftCallKit_$_SpotlightUIServices
++ __swift_FORCE_LOAD_$_swiftCoreAudio_Private
++ __swift_FORCE_LOAD_$_swiftCoreAudio_Private_$_SpotlightUIServices
++ __swift_FORCE_LOAD_$_swiftMetalKit
++ __swift_FORCE_LOAD_$_swiftMetalKit_$_SpotlightUIServices
++ __swift_FORCE_LOAD_$_swiftModelIO
++ __swift_FORCE_LOAD_$_swiftModelIO_$_SpotlightUIServices
++ __swift_stdlib_bridgeErrorToNSError
++ __swift_stdlib_reportUnimplementedInitializer
++ _associated conformance So19NSKeyValueChangeKeyaSHSCSQ
++ _associated conformance So19NSKeyValueChangeKeyas20_SwiftNewtypeWrapperSCSY
++ _associated conformance So19NSKeyValueChangeKeyas20_SwiftNewtypeWrapperSCs35_HasCustomAnyHashableRepresentation
++ _block_copy_helper.35
++ _block_descriptor.37
++ _block_destroy_helper.36
++ _dlopen
++ _elevatedBundleAllowList.onceToken
++ _elevatedBundleAllowList.resultBundleIdAllowList
++ _objc_claimAutoreleasedReturnValue
++ _objc_msgSend$_resultCardSectionForResult:displayStyle:
++ _objc_msgSend$_sectionResultForResults:style:numberOfColumns:sectionTitle:sectionIdentifier:
++ _objc_msgSend$addObserver:forKeyPath:options:context:
++ _objc_msgSend$askSiriResult
++ _objc_msgSend$base64EncodedStringWithOptions:
++ _objc_msgSend$buildResultWithTitle:subtitle:thumbnail:actionIdentifier:canonicalIdentifier:
++ _objc_msgSend$buildSectionsWithSections:queryContext:searchInAppInfo:askSiriResult:renderState:
++ _objc_msgSend$cardSectionId
++ _objc_msgSend$cardSectionSuffixForDisplayStyle:
++ _objc_msgSend$commandDetail
++ _objc_msgSend$doubleForKey:
++ _objc_msgSend$elevatedBundleAllowList
++ _objc_msgSend$encodeObject:forKey:
++ _objc_msgSend$floatForKey:
++ _objc_msgSend$hasSuffix:
++ _objc_msgSend$hideSuggestions
++ _objc_msgSend$initWithActionIdentifier:title:image:
++ _objc_msgSend$initWithProtobuf:
++ _objc_msgSend$isCampoEnabled
++ _objc_msgSend$isInstantAnswer
++ _objc_msgSend$isResultServerInstantAnswerForTopHit:
++ _objc_msgSend$likelihood
++ _objc_msgSend$localizedAskSiriTitle
++ _objc_msgSend$localizedStringForDate:relativeToDate:
++ _objc_msgSend$numberWithBool:
++ _objc_msgSend$relativeDateStringFromDate:
++ _objc_msgSend$relativeDateTimeFormatter
++ _objc_msgSend$removeObserver:forKeyPath:context:
++ _objc_msgSend$sectionWithTitle:identifier:style:numberOfColumns:results:
++ _objc_msgSend$setAskSiriResult:
++ _objc_msgSend$setIsInitiallyHidden:
++ _objc_msgSend$setRankingScore:
++ _objc_msgSend$setSuggestionSubtitle:
++ _objc_msgSend$setSuggestionThumbnail:
++ _objc_msgSend$setSuggestionTitle:
++ _objc_msgSend$sharedScoreForResult:
++ _objc_msgSend$shortDayOfWeekTimeIntervalFormatter
++ _objc_msgSend$shortTimeIntervalFormatter
++ _objc_msgSend$stringByAppendingFormat:
++ _objc_msgSend$subclassBuildInlineCardSections
++ _objc_msgSend$suggestionSubtitle
++ _objc_msgSend$suggestionThumbnail
++ _objc_msgSend$suggestionTitle
++ _objc_retain_x3
++ _objc_retain_x4
++ _objc_retain_x5
++ _objc_retain_x6
++ _objc_setProperty_nonatomic_copy
++ _swift_bridgeObjectRelease_n
++ _swift_deallocPartialClassInstance
++ _swift_defaultActor_deallocate
++ _swift_defaultActor_destroy
++ _swift_defaultActor_initialize
++ _swift_deletedAsyncMethodErrorTu
++ _swift_dynamicCastObjCClass
++ _swift_endAccess
++ _swift_errorRetain
++ _swift_getForeignTypeMetadata
++ _swift_getSingletonMetadata
++ _swift_initStackObject
++ _swift_release_n
++ _swift_release_x1
++ _swift_release_x19
++ _swift_release_x20
++ _swift_release_x21
++ _swift_release_x22
++ _swift_release_x23
++ _swift_release_x25
++ _swift_release_x26
++ _swift_release_x27
++ _swift_release_x28
++ _swift_release_x8
++ _swift_retain_n
++ _swift_retain_x19
++ _swift_retain_x2
++ _swift_retain_x20
++ _swift_retain_x21
++ _swift_retain_x22
++ _swift_retain_x23
++ _swift_retain_x25
++ _swift_retain_x27
++ _swift_retain_x8
++ _swift_task_alloc
++ _swift_task_create
++ _swift_task_dealloc
++ _swift_task_switch
++ _swift_updateClassMetadata2
++ _symbolic $ss21_ObjectiveCBridgeableP
++ _symbolic BD
++ _symbolic SDy__________G 10Foundation4UUIDV 25AssistantActionSuggestion0cD0C
++ _symbolic SSSg
++ _symbolic SaySSG
++ _symbolic SaySo22SFMutableResultSectionCGSg______pSgIeggg_ s5ErrorP
++ _symbolic Say_____G 10Foundation3URLV
++ _symbolic Say_____G 25AssistantActionSuggestion0aB0C
++ _symbolic Say_____GSg 19SpotlightUIServices36IntelligentAssistantSelectionContextC
++ _symbolic Say_____GSg 32AssistantActionSuggestionSupport16SelectionContextO
++ _symbolic Sb
++ _symbolic SbSg
++ _symbolic ScA_pSg
++ _symbolic ScPSg
++ _symbolic So14NSUserDefaultsCSg
++ _symbolic So7NSArrayCSgSo7NSErrorCSgIeyByy_
++ _symbolic So7SFImageCSg
++ _symbolic So8NSStringC
++ _symbolic So9SFCommandC
++ _symbolic _____ 10Foundation4UUIDV
++ _symbolic _____ 19SpotlightUIServices17ActionSuggestionsC
++ _symbolic _____ 19SpotlightUIServices21SPUISMontaraUtilitiesC
++ _symbolic _____ 19SpotlightUIServices21SearchResultUtilitiesC
++ _symbolic _____ 19SpotlightUIServices24ActionSuggestionsManagerC
++ _symbolic _____ 19SpotlightUIServices30ExecuteActionSuggestionCommandC
++ _symbolic _____ 19SpotlightUIServices36IntelligentAssistantSelectionContextC
++ _symbolic _____ 32AssistantActionSuggestionSupport16SelectionContextO
++ _symbolic _____ So19NSKeyValueChangeKeya
++ _symbolic _____Sg 25AssistantActionSuggestion0abC8ResponseC
++ _symbolic _____Sg 25AssistantActionSuggestion15ExecutionResultO
++ _symbolic _____SgIeAgHr_ 25AssistantActionSuggestion15ExecutionResultO
++ _symbolic _____XMT 19SpotlightUIServices17ActionSuggestionsC
++ _symbolic ___________t 10Foundation4UUIDV 25AssistantActionSuggestion0cD0C
++ _symbolic ______pSg 26GenerativePartnerServiceUI11LLMProviderP
++ _symbolic _____ySSG s11_SetStorageC
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 25AssistantActionSuggestion0dE0C0E4TypeO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 32AssistantActionSuggestionSupport16SelectionContextO
++ _symbolic _____y__________G s18_DictionaryStorageC 10Foundation4UUIDV 25AssistantActionSuggestion0eF0C
++ _symbolic _____yyXlG s23_ContiguousArrayStorageC
++ _symbolic _____yypG s23_ContiguousArrayStorageC
++ _symbolic ytIeAgHr_
++ _type_layout_string So19NSKeyValueChangeKeya
+- +[SPUISBrowseSectionBuilder _resultCardSectionForResult:]
+- +[SPUISBrowseSectionBuilder _sectionResultForResults:style:sectionTitle:sectionIdentifier:]
+- +[SPUISBrowseSectionBuilder resultCardForResult:]
+- +[SPUISResultBuilder isSpotlight]
+- +[SPUISResultBuilder isSpotlight].cold.1
+- -[SPUISCachedViewResultBuilder buildInlineCardSections]
+- -[SPUISCalculatorResultBuilder buildInlineCardSections]
+- -[SPUISFindMyResultBuilder buildInlineCard]
+- -[SPUISLocalWebResultBuilder buildCommand]
+- -[SPUISPersonalAnswerResultBuilder buildInlineCardSections]
+- -[SPUISScreenTimeRequestResultBuilder buildInlineCardSections]
+- -[SPUISSearchInAppResultBuilder buildInlineCardSections]
+- -[SPUISSuggestionResultBuilder buildInlineCardSections]
+- GCC_except_table51
+- GCC_except_table54
+- GCC_except_table55
+- GCC_except_table56
+- GCC_except_table58
+- GCC_except_table59
+- _OUTLINED_FUNCTION_2
+- _OUTLINED_FUNCTION_3
+- ___33+[SPUISResultBuilder isSpotlight]_block_invoke
+- ___block_literal_global.446
+- ___block_literal_global.447
+- ___block_literal_global.509
+- ___block_literal_global.531
+- ___block_literal_global.534
+- ___block_literal_global.536
+- ___block_literal_global.538
+- ___block_literal_global.541
+- ___block_literal_global.555
+- ___block_literal_global.591
+- ___block_literal_global.594
+- ___block_literal_global.598
+- __swift_FORCE_LOAD_$_swiftCoreMedia
+- __swift_FORCE_LOAD_$_swiftCoreMedia_$_SpotlightUIServices
+- _block_copy_helper.33
+- _block_descriptor.35
+- _block_destroy_helper.34
+- _objc_msgSend$_resultCardSectionForResult:
+- _objc_msgSend$_sectionResultForResults:style:sectionTitle:sectionIdentifier:
+- _symbolic _____Sg 7ToolKit0A10InvocationV
+CStrings:
++ "%@, %@"
++ "-icon"
++ "-list"
++ "-wrapper"
++ ":%@"
++ "AccessoryStateLongQueryDebounceDelay"
++ "AccessoryStateLongQueryThreshold"
++ "AccessoryStateShortQueryDebounceDelay"
++ "Action not found for identifier: %s"
++ "CHOOSE_ASSISTANT"
++ "Campo"
++ "Failed to create a UserDefaults suite with name com.apple.siri.generativeassistantsettings"
++ "Failed to execute action suggestion: %@"
++ "Failed to handle action suggestions response: %@"
++ "IntelligenceFlow"
++ "PasteboardHistoryManagedPreferenceChanged"
++ "SpotlightUIServices.ExecuteActionSuggestionCommand"
++ "SpotlightUIServices.IntelligentAssistantSelectionContext"
++ "Visited %@"
++ "allowPasteboardHistoryManagedPref"
++ "appPredictionSuggestions"
++ "clearing all zkw actions and response"
++ "com.apple.Campo"
++ "com.apple.proactive.assistant-action-suggestion"
++ "com.apple.safari.tab"
++ "com.apple.siri.generativeassistantsettings"
++ "com.apple.spotlight"
++ "com.apple.spotlight.action-suggestions"
++ "contact doesn't exist for findmy result"
++ "did handle zkw suggestions %s"
++ "fetched response with suggestions %s"
++ "getting actions %s with response: %s"
++ "getting engaged actions %s with response: %s"
++ "init()"
++ "init(protobuf:)"
++ "isInstantAnswer: %@, resultBundleId: %@, sectionBundleIdentifier: %@, applicationBundleIdentifier: %@"
++ "menu item for changing the assistant provider for a given query (eg Siri vs a Montara provider)"
++ "v32@?0@\"SFCardSection\"8Q16^B24"
+- "#28@0:8@16B24"
+- "#32@0:8@16@24"
+- ".cxx_destruct"
+- "@\"CNContact\""
+- "@\"CNDateComponentsFormatter\""
+- "@\"CNMutableContact\""
+- "@\"CSSuggestion\""
+- "@\"NSArray\""
+- "@\"NSByteCountFormatter\""
+- "@\"NSData\""
+- "@\"NSDate\""
+- "@\"NSDateComponentsFormatter\""
+- "@\"NSDateFormatter\""
+- "@\"NSDateIntervalFormatter\""
+- "@\"NSLocale\""
+- "@\"NSNumber\""
+- "@\"NSNumberFormatter\""
+- "@\"NSPersonNameComponentsFormatter\""
+- "@\"NSSet\""
+- "@\"NSString\""
+- "@\"NSURL\""
+- "@\"SFColor\""
+- "@\"SFCommand\""
+- "@\"SFImage\""
+- "@\"SFMutableResultSection\""
+- "@\"SFRichText\""
+- "@\"SFSearchResult_SpotlightExtras\""
+- "@\"SFSearchSuggestion\""
+- "@\"SPSearchContactEntity\""
+- "@\"SPSearchEntity\""
+- "@\"SPSearchQueryContext\""
+- "@\"SPUISApplicationResultBuilder\""
+- "@\"SPUISContactResultBuilder\""
+- "@\"UTType\""
+- "@16@0:8"
+- "@24@0:8@16"
+- "@24@0:8d16"
+- "@24@0:8q16"
+- "@28@0:8@16B24"
+- "@28@0:8i16Q20"
+- "@32@0:8@16@24"
+- "@32@0:8@16B24B28"
+- "@32@0:8Q16@24"
+- "@32@0:8i16B20@24"
+- "@32@0:8{CGSize=dd}16"
+- "@36@0:8@16@24B32"
+- "@40@0:8@16@24@32"
+- "@40@0:8@16@24@?32"
+- "@40@0:8@16@24Q32"
+- "@44@0:8@16@24@32i40"
+- "@44@0:8@16@24i32@36"
+- "@44@0:8@16i24@28@36"
+- "@48@0:8@16@24@32@40"
+- "@48@0:8@16@24@32Q40"
+- "@48@0:8@16@24@?32@?40"
+- "@56@0:8@16Q24@32@40@48"
+- "B"
+- "B16@0:8"
+- "B24@0:8@16"
+- "B32@0:8@16@24"
+- "B36@0:8@16d24B32"
+- "B40@0:8@16@24@32"
+- "Discoverability"
+- "Q"
+- "Q16@0:8"
+- "SPUISAppBrowseSectionBuilder"
+- "SPUISAppClipResultBuilder"
+- "SPUISAppGridSectionBuilder"
+- "SPUISApplicationResultBuilder"
+- "SPUISAskLLMProviderResultBuilder"
+- "SPUISAskSiriResultBuilder"
+- "SPUISBiomeUtilities"
+- "SPUISBookResultBuilder"
+- "SPUISBrowseSectionBuilder"
+- "SPUISCachedViewResultBuilder"
+- "SPUISCalculatorResultBuilder"
+- "SPUISCalendarResultBuilder"
+- "SPUISCommandConfiguration"
+- "SPUISContactEntityBelowFoldSectionHeader"
+- "SPUISContactEntitySectionBuilder"
+- "SPUISContactHeaderSectionBuilder"
+- "SPUISContactInfoSectionBuilder"
+- "SPUISContactResultBuilder"
+- "SPUISContactSocialMediaSectionBuilder"
+- "SPUISContactStore"
+- "SPUISCoreSuggestionsContactResultBuilder"
+- "SPUISDataDetectorResultGenerator"
+- "SPUISDateFormatManager"
+- "SPUISDefaultsManager"
+- "SPUISDictionaryResultBuilder"
+- "SPUISFileProviderUtilities"
+- "SPUISFileResultBuilder"
+- "SPUISFilesBrowseSectionBuilder"
+- "SPUISFilesPasteboardResultBuilder"
+- "SPUISFindMyResultBuilder"
+- "SPUISFindMySectionBuilder"
+- "SPUISFreeFormResultBuilder"
+- "SPUISGeneralResultBuilder"
+- "SPUISICloudDriveAppLibraryCollectionObserver"
+- "SPUISICloudDriveUtilities"
+- "SPUISJournalResultBuilder"
+- "SPUISLegacySectionBuilder"
+- "SPUISLinkResultBuilder"
+- "SPUISLinksSectionBuilder"
+- "SPUISLocalWebResultBuilder"
+- "SPUISMailResultBuilder"
+- "SPUISMenuItemResultBuilder"
+- "SPUISMessageResultBuilder"
+- "SPUISMusicResultBuilder"
+- "SPUISNameFormatManager"
+- "SPUISNewsResultBuilder"
+- "SPUISNoteResultBuilder"
+- "SPUISNumberFormatManager"
+- "SPUISPasteboardHistoryDefaultsManager"
+- "SPUISPasteboardResultBuilder"
+- "SPUISPersonalAnswerResultBuilder"
+- "SPUISPhoneResultBuilder"
+- "SPUISPhotoFromFilesResultBuilder"
+- "SPUISPhotosFromAppSectionBuilder"
+- "SPUISPhotosResultBuilder"
+- "SPUISPhotosSectionBuilder"
+- "SPUISPodcastResultBuilder"
+- "SPUISPurchaseRequestResultBuilder"
+- "SPUISRecentResultsManager"
+- "SPUISRelatedSearchesSectionBuilder"
+- "SPUISReminderResultBuilder"
+- "SPUISRequestsSectionBuilder"
+- "SPUISResultBuilder"
+- "SPUISScreenTimeRequestResultBuilder"
+- "SPUISSearchInAppResultBuilder"
+- "SPUISSearchInAppSectionBuilder"
+- "SPUISSearchWebsiteCommand"
+- "SPUISSearchableWebsiteResultBuilder"
+- "SPUISSectionBuilder"
+- "SPUISSectionBuilderHandler"
+- "SPUISShortcutResultBuilder"
+- "SPUISShowMoreSectionsSectionBuilder"
+- "SPUISSuggestionResultBuilder"
+- "SPUISSuggestionSectionBuilder"
+- "SPUISSystemPreferenceResultBuilder"
+- "SPUISToolResultBuilder"
+- "SPUISTopHitAppWithEntitiesSectionBuilder"
+- "SPUISUserIntentResultBuilder"
+- "SPUISUtilities"
+- "SPUISVoiceMemosResultBuilder"
+- "SPUISWalletResultBuilder"
+- "SPUISWalletTransactionResultBuilder"
+- "SPUISWebURLPasteboardResultBuilder"
+- "SPUISWindowResultBuilder"
+- "Signals"
+- "T@\"CNContact\",&,N,V_authorContact"
+- "T@\"CNDateComponentsFormatter\",&,N,V_birthdayDateComponentsFormatter"
+- "T@\"CNMutableContact\",&,N,V_contact"
+- "T@\"CSSuggestion\",&,N,V_spotlightSuggestion"
+- "T@\"NSArray\",&,N,V_alternateNames"
+- "T@\"NSArray\",&,N,V_approvers"
+- "T@\"NSArray\",&,N,V_attachmentNames"
+- "T@\"NSArray\",&,N,V_attachmentPaths"
+- "T@\"NSArray\",&,N,V_attachmentTypes"
+- "T@\"NSArray\",&,N,V_authors"
+- "T@\"NSArray\",&,N,V_classificationLabelIndices"
+- "T@\"NSArray\",&,N,V_classificationLabelSynonymIndices"
+- "T@\"NSArray\",&,N,V_classificationLabelSynonyms"
+- "T@\"NSArray\",&,N,V_classificationLabels"
+- "T@\"NSArray\",&,N,V_definitions"
+- "T@\"NSArray\",&,N,V_descriptions"
+- "T@\"NSArray\",&,N,V_fileURLs"
+- "T@\"NSArray\",&,N,V_hashtags"
+- "T@\"NSArray\",&,N,V_locationKeywordIndices"
+- "T@\"NSArray\",&,N,V_locationKeywords"
+- "T@\"NSArray\",&,N,V_matchedPeople"
+- "T@\"NSArray\",&,N,V_matchedStrings"
+- "T@\"NSArray\",&,N,V_pathComponents"
+- "T@\"NSArray\",&,N,V_peopleInPhoto"
+- "T@\"NSArray\",&,N,V_photoSceneTypes"
+- "T@\"NSArray\",&,N,V_recipientContactIdentifiers"
+- "T@\"NSArray\",&,N,V_recipientContactIds"
+- "T@\"NSArray\",&,N,V_recipientEmails"
+- "T@\"NSArray\",&,N,V_recipients"
+- "T@\"NSArray\",&,N,V_sceneLabelsIndex"
+- "T@\"NSArray\",&,N,V_scenePhotoIdentifiers"
+- "T@\"NSArray\",&,N,V_sceneSynonymsCounts"
+- "T@\"NSArray\",&,N,V_sceneSynonymsIndex"
+- "T@\"NSArray\",&,N,V_searchInAppInfo"
+- "T@\"NSArray\",&,N,V_sections"
+- "T@\"NSArray\",&,N,V_senderContactIdentifiers"
+- "T@\"NSArray\",&,N,V_senderContactIds"
+- "T@\"NSArray\",&,N,V_senders"
+- "T@\"NSByteCountFormatter\",&,V_byteCountFormatter"
+- "T@\"NSData\",&,N,V_thumbnailData"
+- "T@\"NSData\",&,N,V_userActivityData"
+- "T@\"NSData\",&,V_toolIconData"
+- "T@\"NSData\",&,V_toolInvocationData"
+- "T@\"NSDate\",&,N"
+- "T@\"NSDate\",&,N,V_callDate"
+- "T@\"NSDate\",&,N,V_completionDate"
+- "T@\"NSDate\",&,N,V_creationDate"
+- "T@\"NSDate\",&,N,V_date"
+- "T@\"NSDate\",&,N,V_dateCopied"
+- "T@\"NSDate\",&,N,V_dateCreated"
+- "T@\"NSDate\",&,N,V_dueDate"
+- "T@\"NSDate\",&,N,V_endDate"
+- "T@\"NSDate\",&,N,V_expireDate"
+- "T@\"NSDate\",&,N,V_lastUsedDate"
+- "T@\"NSDate\",&,N,V_lastViewedDate"
+- "T@\"NSDate\",&,N,V_modificationDate"
+- "T@\"NSDate\",&,N,V_publishedDate"
+- "T@\"NSDate\",&,N,V_requestDate"
+- "T@\"NSDate\",&,N,V_respondDate"
+- "T@\"NSDate\",&,N,V_sendDate"
+- "T@\"NSDate\",&,N,V_startDate"
+- "T@\"NSDate\",&,V_dateCreated"
+- "T@\"NSDateComponentsFormatter\",&,N,V_dateComponentsFormatter"
+- "T@\"NSDateFormatter\",&,N,V_dateFormatter"
+- "T@\"NSDateFormatter\",&,N,V_dayOfWeekFormatter"
+- "T@\"NSDateFormatter\",&,N,V_longRelativeDateFormatter"
+- "T@\"NSDateFormatter\",&,N,V_mediumRelativeDateFormatter"
+- "T@\"NSDateFormatter\",&,N,V_shortDateTimeFormatter"
+- "T@\"NSDateFormatter\",&,N,V_shortDayOfWeekFormatter"
+- "T@\"NSDateFormatter\",&,N,V_shortRelativeDateFormatter"
+- "T@\"NSDateFormatter\",&,N,V_shortTimeFormatter"
+- "T@\"NSDateIntervalFormatter\",&,N,V_allDayDateFormatter"
+- "T@\"NSDateIntervalFormatter\",&,N,V_dateIntervalFormatter"
+- "T@\"NSDateIntervalFormatter\",&,N,V_mediumDayOfWeekDateIntervalFormatter"
+- "T@\"NSDateIntervalFormatter\",&,N,V_mediumDayOfWeekDateTimeIntervalFormatter"
+- "T@\"NSDateIntervalFormatter\",&,N,V_shortDateIntervalFormatter"
+- "T@\"NSDateIntervalFormatter\",&,N,V_shortDateTimeIntervalFormatter"
+- "T@\"NSLocale\",&,V_overrideLocale"
+- "T@\"NSNumber\",&,N,V_durationInSeconds"
+- "T@\"NSNumber\",&,N,V_pageCount"
+- "T@\"NSNumber\",&,N,V_requestAmountDuration"
+- "T@\"NSNumber\",&,N,V_requesterDSID"
+- "T@\"NSNumber\",&,N,V_sizeInBytes"
+- "T@\"NSNumber\",&,N,V_songLengthInSeconds"
+- "T@\"NSNumber\",&,N,V_transactionAmount"
+- "T@\"NSNumberFormatter\",&,V_currencyFormatter"
+- "T@\"NSNumberFormatter\",&,V_numberFormatter"
+- "T@\"NSPersonNameComponentsFormatter\",&,V_personNameComponentsFormatter"
+- "T@\"NSSet\",&,N,V_bundleIdentifiersForHiddenSections"
+- "T@\"NSString\",&,N,V_account"
+- "T@\"NSString\",&,N,V_actionIdentifier"
+- "T@\"NSString\",&,N,V_ageRating"
+- "T@\"NSString\",&,N,V_album"
+- "T@\"NSString\",&,N,V_appBundleId"
+- "T@\"NSString\",&,N,V_appName"
+- "T@\"NSString\",&,N,V_appPrice"
+- "T@\"NSString\",&,N,V_appType"
+- "T@\"NSString\",&,N,V_artist"
+- "T@\"NSString\",&,N,V_author"
+- "T@\"NSString\",&,N,V_authorEmail"
+- "T@\"NSString\",&,N,V_biomeStreamIdentifier"
+- "T@\"NSString\",&,N,V_body"
+- "T@\"NSString\",&,N,V_bundleId"
+- "T@\"NSString\",&,N,V_businessName"
+- "T@\"NSString\",&,N,V_calendarName"
+- "T@\"NSString\",&,N,V_callOrigin"
+- "T@\"NSString\",&,N,V_callSourceApplicationBundleIdentifier"
+- "T@\"NSString\",&,N,V_cashBackPercentage"
+- "T@\"NSString\",&,N,V_cloudTabDeviceName"
+- "T@\"NSString\",&,N,V_contactIdentifier"
+- "T@\"NSString\",&,N,V_contentType"
+- "T@\"NSString\",&,N,V_copiedText"
+- "T@\"NSString\",&,N,V_coreSpotlightId"
+- "T@\"NSString\",&,N,V_currencyCode"
+- "T@\"NSString\",&,N,V_date"
+- "T@\"NSString\",&,N,V_definitionString"
+- "T@\"NSString\",&,N,V_delegateCalendarName"
+- "T@\"NSString\",&,N,V_dictionaryName"
+- "T@\"NSString\",&,N,V_displayName"
+- "T@\"NSString\",&,N,V_domainIdentifier"
+- "T@\"NSString\",&,N,V_entityType"
+- "T@\"NSString\",&,N,V_eventIdentifier"
+- "T@\"NSString\",&,N,V_eventName"
+- "T@\"NSString\",&,N,V_filePath"
+- "T@\"NSString\",&,N,V_fileProviderDomainId"
+- "T@\"NSString\",&,N,V_fileProviderId"
+- "T@\"NSString\",&,N,V_folder"
+- "T@\"NSString\",&,N,V_formattedBody"
+- "T@\"NSString\",&,N,V_genre"
+- "T@\"NSString\",&,N,V_groupDisplayName"
+- "T@\"NSString\",&,N,V_groupPhotoPath"
+- "T@\"NSString\",&,N,V_identifier"
+- "T@\"NSString\",&,N,V_input"
+- "T@\"NSString\",&,N,V_intentName"
+- "T@\"NSString\",&,N,V_kind"
+- "T@\"NSString\",&,N,V_lnPropertyIdentifier"
+- "T@\"NSString\",&,N,V_location"
+- "T@\"NSString\",&,N,V_matchedAlternateName"
+- "T@\"NSString\",&,N,V_mediaId"
+- "T@\"NSString\",&,N,V_message"
+- "T@\"NSString\",&,N,V_messageId"
+- "T@\"NSString\",&,N,V_name"
+- "T@\"NSString\",&,N,V_newsSource"
+- "T@\"NSString\",&,N,V_note"
+- "T@\"NSString\",&,N,V_numberOfActionsString"
+- "T@\"NSString\",&,N,V_output"
+- "T@\"NSString\",&,N,V_path"
+- "T@\"NSString\",&,N,V_personIdentifier"
+- "T@\"NSString\",&,N,V_personQueryIdentifier"
+- "T@\"NSString\",&,N,V_photoIdentifier"
+- "T@\"NSString\",&,N,V_photosDescription"
+- "T@\"NSString\",&,N,V_pid"
+- "T@\"NSString\",&,N,V_podcastDescription"
+- "T@\"NSString\",&,N,V_preferenceDescription"
+- "T@\"NSString\",&,N,V_primaryPhrase"
+- "T@\"NSString\",&,N,V_punchoutLabel"
+- "T@\"NSString\",&,N,V_queryString"
+- "T@\"NSString\",&,N,V_realContactIdentifier"
+- "T@\"NSString\",&,N,V_relatedAppBundleIdentifier"
+- "T@\"NSString\",&,N,V_reminder"
+- "T@\"NSString\",&,N,V_requestIdentifier"
+- "T@\"NSString\",&,N,V_requestStatusString"
+- "T@\"NSString\",&,N,V_requestedItemDescription"
+- "T@\"NSString\",&,N,V_requestedItemName"
+- "T@\"NSString\",&,N,V_requesterContactIdentifier"
+- "T@\"NSString\",&,N,V_requesterName"
+- "T@\"NSString\",&,N,V_searchString"
+- "T@\"NSString\",&,N,V_settingsPreference"
+- "T@\"NSString\",&,N,V_siteName"
+- "T@\"NSString\",&,N,V_song"
+- "T@\"NSString\",&,N,V_subject"
+- "T@\"NSString\",&,N,V_suggestedContactIdentifier"
+- "T@\"NSString\",&,N,V_suggestionString"
+- "T@\"NSString\",&,N,V_thumbnailAppType"
+- "T@\"NSString\",&,N,V_thumbnailURL"
+- "T@\"NSString\",&,N,V_title"
+- "T@\"NSString\",&,N,V_titleString"
+- "T@\"NSString\",&,N,V_toolType"
+- "T@\"NSString\",&,N,V_transcription"
+- "T@\"NSString\",&,N,V_userActivityRequiredString"
+- "T@\"NSString\",&,N,V_voicemailTranscription"
+- "T@\"NSString\",&,N,V_websiteTitle"
+- "T@\"NSString\",&,N,V_word"
+- "T@\"NSString\",&,V_bundleIdentifier"
+- "T@\"NSString\",&,V_entityIdentifier"
+- "T@\"NSString\",&,V_freeFormDescription"
+- "T@\"NSString\",&,V_processInstanceIdentifier"
+- "T@\"NSString\",&,V_searchString"
+- "T@\"NSString\",&,V_symbol"
+- "T@\"NSString\",&,V_title"
+- "T@\"NSString\",&,V_toolIdentifier"
+- "T@\"NSString\",&,V_websiteName"
+- "T@\"NSString\",C,D"
+- "T@\"NSString\",N,R"
+- "T@\"NSString\",R,N"
+- "T@\"NSURL\",&,N,V_appURL"
+- "T@\"NSURL\",&,N,V_callbackURL"
+- "T@\"NSURL\",&,N,V_dictionaryURL"
+- "T@\"NSURL\",&,N,V_imageURL"
+- "T@\"NSURL\",&,N,V_url"
+- "T@\"NSURL\",&,V_url"
+- "T@\"SFColor\",&,N,V_backgroundColor"
+- "T@\"SFCommand\",&,V_command"
+- "T@\"SFImage\",&,V_thumbnail"
+- "T@\"SFMutableResultSection\",W,N,V_section"
+- "T@\"SFRichText\",&,N,V_highlightedAlternateName"
+- "T@\"SFRichText\",&,V_parameterizedTitle"
+- "T@\"SFSearchResult_SpotlightExtras\",&,N,V_result"
+- "T@\"SFSearchSuggestion\",&,N,V_suggestion"
+- "T@\"SPSearchContactEntity\",&,N,V_contactEntity"
+- "T@\"SPSearchEntity\",&,N,V_entity"
+- "T@\"SPSearchEntity\",&,N,V_searchEntity"
+- "T@\"SPSearchQueryContext\",&,N,V_queryContext"
+- "T@\"SPSearchQueryContext\",W,N,V_queryContext"
+- "T@\"SPUISApplicationResultBuilder\",&,N,V_appResultBuilder"
+- "T@\"SPUISContactResultBuilder\",W,N,V_contactResultBuilder"
+- "T@\"SPUISICloudDriveAppLibraryCollectionObserver\",N,R"
+- "T@\"SPUISPasteboardHistoryDefaultsManager\",N,R"
+- "T@\"UTType\",&,N,V_contentType"
+- "T@\"UTType\",&,N,V_uniformType"
+- "TB,N"
+- "TB,N,R"
+- "TB,N,V_hasTextContentMatch"
+- "TB,N,V_isAlarmResult"
+- "TB,N,V_isAllDay"
+- "TB,N,V_isBackgroundRunnable"
+- "TB,N,V_isCalculation"
+- "TB,N,V_isCompleted"
+- "TB,N,V_isCurrencyConversion"
+- "TB,N,V_isCustomAppAttributedShortcut"
+- "TB,N,V_isExplicit"
+- "TB,N,V_isFlagged"
+- "TB,N,V_isFlight"
+- "TB,N,V_isFolder"
+- "TB,N,V_isForBrowseMode"
+- "TB,N,V_isGroupThread"
+- "TB,N,V_isHotel"
+- "TB,N,V_isLocked"
+- "TB,N,V_isMissedCall"
+- "TB,N,V_isOutgoingCall"
+- "TB,N,V_isRecurring"
+- "TB,N,V_isRestaurant"
+- "TB,N,V_isShared"
+- "TB,N,V_isSyndicated"
+- "TB,N,V_isTopHit"
+- "TB,N,V_isTopHitSection"
+- "TB,N,V_isVideoCall"
+- "TB,N,V_isVoicemail"
+- "TB,R"
+- "TB,V_primaryCommandExecutesSearch"
+- "TQ,N,V_entityBadgeType"
+- "TQ,N,V_entityThumbnailDisplayStyle"
+- "TQ,N,V_renderState"
+- "TQ,N,V_syndicationStatus"
+- "Td,N,V_starRating"
+- "Ti,N,V_requestStatus"
+- "Ti,N,V_resultType"
+- "Ti,N,V_searchInAppType"
+- "Tq,N"
+- "URL"
+- "URLWithString:"
+- "UTF8String"
+- "UUID"
+- "UUIDString"
+- "_TtC19SpotlightUIServices23SPUISWindowTabUtilities"
+- "_TtC19SpotlightUIServices28SPUISMarketplaceKitUtilities"
+- "_TtC19SpotlightUIServices32SPUISQuickWebsiteSearchUtilities"
+- "_TtC19SpotlightUIServicesP33_B9242EE0326CE2E5BC2ED7E386F9CA6919ResourceBundleClass"
+- "_account"
+- "_actionIdentifier"
+- "_ageRating"
+- "_album"
+- "_allDayDateFormatter"
+- "_alternateNames"
+- "_appBundleId"
+- "_appName"
+- "_appPrice"
+- "_appResultBuilder"
+- "_appType"
+- "_appURL"
+- "_approvers"
+- "_artist"
+- "_attachmentNames"
+- "_attachmentPaths"
+- "_attachmentTypes"
+- "_author"
+- "_authorContact"
+- "_authorEmail"
+- "_authorEmailFromResult:"
+- "_authors"
+- "_backgroundColor"
+- "_biomeStreamIdentifier"
+- "_birthdayDateComponentsFormatter"
+- "_body"
+- "_bundleId"
+- "_bundleIdToOnenessBundleId"
+- "_bundleIdentifier"
+- "_bundleIdentifiersForHiddenSections"
+- "_businessName"
+- "_byteCountFormatter"
+- "_calendarName"
+- "_callDate"
+- "_callOrigin"
+- "_callSourceApplicationBundleIdentifier"
+- "_callbackURL"
+- "_canceled"
+- "_cashBackPercentage"
+- "_classificationLabelIndices"
+- "_classificationLabelSynonymIndices"
+- "_classificationLabelSynonyms"
+- "_classificationLabels"
+- "_clearCachedContacts"
+- "_cloudTabDeviceName"
+- "_command"
+- "_completionDate"
+- "_configureResultForAppList:sectionBundleIdentifier:"
+- "_contact"
+- "_contactEntity"
+- "_contactIdentifier"
+- "_contactResultBuilder"
+- "_contactWithEmail:keysToFetch:"
+- "_contactsWithEmails:keysToFetch:"
+- "_contactsWithIds:"
+- "_contentType"
+- "_copiedText"
+- "_coreSpotlightId"
+- "_createUserActivityStringsWithOptions:completionHandler:"
+- "_creationDate"
+- "_currencyCode"
+- "_currencyFormatter"
+- "_date"
+- "_dateComponentsFormatter"
+- "_dateCopied"
+- "_dateCreated"
+- "_dateFormatter"
+- "_dateIntervalFormatter"
+- "_dayOfWeekFormatter"
+- "_ddJobIdentifier"
+- "_defaultKeysForContactByIdentifier"
+- "_definitionString"
+- "_definitions"
+- "_delegateCalendarName"
+- "_descriptions"
+- "_dictionaryName"
+- "_dictionaryURL"
+- "_displayName"
+- "_domainIdentifier"
+- "_dueDate"
+- "_durationInSeconds"
+- "_endDate"
+- "_entity"
+- "_entityBadgeType"
+- "_entityIdentifier"
+- "_entityThumbnailDisplayStyle"
+- "_entityType"
+- "_eventIdentifier"
+- "_eventName"
+- "_expireDate"
+- "_filePath"
+- "_fileProviderDomainId"
+- "_fileProviderId"
+- "_fileURLs"
+- "_fillSection:withListResults:"
+- "_folder"
+- "_formattedBody"
+- "_freeFormDescription"
+- "_genre"
+- "_groupDisplayName"
+- "_groupPhotoPath"
+- "_hasTextContentMatch"
+- "_hashtags"
+- "_highlightedAlternateName"
+- "_identifier"
+- "_imageURL"
+- "_input"
+- "_intentName"
+- "_isAlarmResult"
+- "_isAllDay"
+- "_isBackgroundRunnable"
+- "_isCalculation"
+- "_isCompleted"
+- "_isCurrencyConversion"
+- "_isCustomAppAttributedShortcut"
+- "_isExplicit"
+- "_isFlagged"
+- "_isFlight"
+- "_isFolder"
+- "_isForBrowseMode"
+- "_isGroupThread"
+- "_isHotel"
+- "_isLocked"
+- "_isMissedCall"
+- "_isOutgoingCall"
+- "_isRecurring"
+- "_isRestaurant"
+- "_isShared"
+- "_isSyndicated"
+- "_isTopHit"
+- "_isTopHitSection"
+- "_isVideoCall"
+- "_isVoicemail"
+- "_kind"
+- "_lastUsedDate"
+- "_lastViewedDate"
+- "_lnPropertyIdentifier"
+- "_location"
+- "_locationKeywordIndices"
+- "_locationKeywords"
+- "_longRelativeDateFormatter"
+- "_lp_simplifiedDisplayString"
+- "_matchedAlternateName"
+- "_matchedPeople"
+- "_matchedStrings"
+- "_mediaId"
+- "_mediumDayOfWeekDateIntervalFormatter"
+- "_mediumDayOfWeekDateTimeIntervalFormatter"
+- "_mediumRelativeDateFormatter"
+- "_message"
+- "_messageId"
+- "_modificationDate"
+- "_name"
+- "_newsSource"
+- "_note"
+- "_numberFormatter"
+- "_numberOfActionsString"
+- "_output"
+- "_overrideLocale"
+- "_pageCount"
+- "_parameterizedTitle"
+- "_path"
+- "_pathComponents"
+- "_peopleInPhoto"
+- "_personIdentifier"
+- "_personNameComponentsFormatter"
+- "_personQueryIdentifier"
+- "_photoIdentifier"
+- "_photoSceneTypes"
+- "_photosDescription"
+- "_pid"
+- "_podcastDescription"
+- "_preferenceDescription"
+- "_primaryCommandExecutesSearch"
+- "_primaryPhrase"
+- "_processInstanceIdentifier"
+- "_publishedDate"
+- "_punchoutLabel"
+- "_queryContext"
+- "_queryString"
+- "_realContactIdentifier"
+- "_recipientContactIdentifiers"
+- "_recipientContactIds"
+- "_recipientEmails"
+- "_recipients"
+- "_relatedAppBundleIdentifier"
+- "_reminder"
+- "_renderState"
+- "_requestAmountDuration"
+- "_requestDate"
+- "_requestIdentifier"
+- "_requestStatus"
+- "_requestStatusString"
+- "_requestedItemDescription"
+- "_requestedItemName"
+- "_requesterContactIdentifier"
+- "_requesterDSID"
+- "_requesterName"
+- "_respondDate"
+- "_result"
+- "_resultCardSectionForResult:"
+- "_resultForAppIdentity:bundleIdToOnenessBundleIdMapping:"
+- "_resultType"
+- "_sceneLabelsIndex"
+- "_scenePhotoIdentifiers"
+- "_sceneSynonymsCounts"
+- "_sceneSynonymsIndex"
+- "_searchEntity"
+- "_searchInAppInfo"
+- "_searchInAppType"
+- "_searchString"
+- "_section"
+- "_sectionResultForResults:style:sectionTitle:sectionIdentifier:"
+- "_sections"
+- "_sendDate"
+- "_senderContactIdentifiers"
+- "_senderContactIds"
+- "_senders"
+- "_settingsPreference"
+- "_shortDateIntervalFormatter"
+- "_shortDateTimeFormatter"
+- "_shortDateTimeIntervalFormatter"
+- "_shortDayOfWeekFormatter"
+- "_shortRelativeDateFormatter"
+- "_shortTimeFormatter"
+- "_siteName"
+- "_sizeInBytes"
+- "_song"
+- "_songLengthInSeconds"
+- "_spotlightSuggestion"
+- "_starRating"
+- "_startDate"
+- "_subject"
+- "_suggestedContactIdentifier"
+- "_suggestion"
+- "_suggestionString"
+- "_symbol"
+- "_syndicationStatus"
+- "_thumbnail"
+- "_thumbnailAppType"
+- "_thumbnailData"
+- "_thumbnailURL"
+- "_title"
+- "_titleString"
+- "_toolIconData"
+- "_toolIdentifier"
+- "_toolInvocationData"
+- "_toolType"
+- "_transactionAmount"
+- "_transcription"
+- "_uniformType"
+- "_url"
+- "_userActivityData"
+- "_userActivityRequiredString"
+- "_voicemailTranscription"
+- "_websiteName"
+- "_websiteTitle"
+- "_word"
+- "absoluteString"
+- "account"
+- "action"
+- "activityType"
+- "addCharactersInRange:"
+- "addContinuitySettingObserver:selector:"
+- "addEntriesFromDictionary:"
+- "addHistoryTimeoutSettingObserver:selector:"
+- "addIndex:"
+- "addObject:"
+- "addObjectsFromArray:"
+- "addObserver:selector:name:object:"
+- "addObserverForName:object:queue:usingBlock:"
+- "addObserverForName:object:suspensionBehavior:queue:usingBlock:"
+- "addPasteboardHistoryEnabledSettingObserver:selector:"
+- "addPastebordFTEEngagedObserver:selector:"
+- "addRequestToDeletePasteboardHistoryObserver:selector:"
+- "addResults:"
+- "addresses"
+- "ageRating"
+- "album"
+- "allDayDateFormatter"
+- "allFileProviderDomains"
+- "allFormatters"
+- "allObjects"
+- "allValues"
+- "alternateNames"
+- "appBundleId"
+- "appLibraryCollectionForProviderDomain:"
+- "appName"
+- "appPrice"
+- "appResultBuilder"
+- "appSectionWithTitle:identifier:style:appIdentities:"
+- "appSectionWithTitle:identifier:style:results:"
+- "appType"
+- "appURL"
+- "appendFormat:"
+- "appendString:"
+- "applicationBundleIdentifier"
+- "applicationIsInstalled:"
+- "approvers"
+- "archivedDataWithRootObject:requiringSecureCoding:error:"
+- "array"
+- "arrayByAddingObject:"
+- "arrayByAddingObjectsFromArray:"
+- "arrayForKey:"
+- "arrayWithArray:"
+- "arrayWithCapacity:"
+- "arrayWithObjects:count:"
+- "artist"
+- "askLLMEnabled"
+- "attachmentNames"
+- "attachmentPaths"
+- "attachmentTypes"
+- "attributeDictionary"
+- "attributeSet"
+- "author"
+- "authorContact"
+- "authorEmail"
+- "authorEmailsFromResults:"
+- "authors"
+- "backendData"
+- "backgroundColor"
+- "badgingImage"
+- "beginMonitoringProviderDomainChangesWithHandler:"
+- "beginObserving"
+- "biomeStreamIdentifier"
+- "birthday"
+- "birthdayComponents"
+- "birthdayDateComponentsFormatter"
+- "body"
+- "boolForKey:"
+- "boolValue"
+- "buildAction"
+- "buildAppEntityAnnotation"
+- "buildAppTopHitEntityCardSection"
+- "buildApplicationURL"
+- "buildAttachmentSummary"
+- "buildAttachmentThumbnail"
+- "buildBackgroundColor"
+- "buildBadgingImageWithThumbnail:"
+- "buildBridgedResult"
+- "buildButtonItem"
+- "buildButtonItems"
+- "buildButtonItemsAreTrailing"
+- "buildCardSectionForEmail:"
+- "buildCardSectionForPhoneNumber:"
+- "buildCardSectionWithResult:resultBuilder:"
+- "buildCardSections"
+- "buildCardSectionsWithResult:resultBuilder:"
+- "buildCollectionCardSection"
+- "buildCollectionStyle"
+- "buildCommand"
+- "buildCompactCard"
+- "buildCompactCardSection"
+- "buildCompactCardSections"
+- "buildCompactThumbnail"
+- "buildCopyButtonItem"
+- "buildCopyItem"
+- "buildCopyItems"
+- "buildDefaultPropertiesForCardSection:"
+- "buildDeleteButtonItem"
+- "buildDeleteCommand"
+- "buildDescriptions"
+- "buildDetailedRowCardSection"
+- "buildFillToolParameterCommand"
+- "buildFooterResultForEntity"
+- "buildFootnote"
+- "buildHeaderResultForEntity"
+- "buildHighlightedMatchedTextWithTitle:headTruncation:"
+- "buildHighlightedTextForSuggestion"
+- "buildHighlightedTextWithString:includeQuotes:"
+- "buildHorizontallyScrollingCardSection"
+- "buildImageCardSection"
+- "buildInlineCard"
+- "buildInlineCardSection"
+- "buildInlineCardSections"
+- "buildLastViewedString"
+- "buildMaxInitiallyVisibleResults"
+- "buildMenuBarAppIconImage"
+- "buildMenuItemSymbolImage"
+- "buildOneUpCommand"
+- "buildPasteButtonItem"
+- "buildPasteCommand"
+- "buildPersonBasedSubtitleButtonItemWithTitle:person:"
+- "buildPhotoTextAndGlyphForSuggestion:"
+- "buildPreventThumbnailImageScaling"
+- "buildPreviewButtonItems"
+- "buildPreviewCommand"
+- "buildPunchoutCommandForFile"
+- "buildPunchouts"
+- "buildRecipientsString"
+- "buildResult"
+- "buildResultSectionForTrackingNumber:carrier:url:queryId:"
+- "buildResultSectionWithCardSections:queryId:resultBundleId:sectionTitle:completion:"
+- "buildResultSectionsForDateTimeFromResult:querString:completion:queryId:searchString:"
+- "buildResultSectionsForEmailFromResult:completion:queryId:"
+- "buildResultSectionsForPhoneNumberFromResult:completion:queryId:"
+- "buildResultSectionsForTrackingNumberFromResult:completion:queryId:"
+- "buildResultWithAppName:appBundleId:searchString:searchInAppType:"
+- "buildResultWithResult:queryContext:"
+- "buildResultWithSpotlightSuggestion:queryContext:"
+- "buildResultWithSuggestion:queryContext:"
+- "buildResultsWithCompletionsData:queryContext:"
+- "buildResultsWithSuggestionsData:queryContext:"
+- "buildSearchInAppCommand"
+- "buildSecondaryCommand"
+- "buildSecondaryTitle"
+- "buildSecondaryTitleImage"
+- "buildSecondaryTitleIsDetached"
+- "buildSection"
+- "buildSectionsWithSections:queryContext:searchInAppInfo:renderState:"
+- "buildShareItems"
+- "buildSocialMediaResultForEntity"
+- "buildStandardThumbnail"
+- "buildSymbolImage"
+- "buildThumbnail"
+- "buildTitle"
+- "buildTrailingBottomText"
+- "buildTrailingMiddleText"
+- "buildTrailingThumbnail"
+- "buildTrailingTopText"
+- "buildWindowAppImage"
+- "buildWindowSymbolImage"
+- "bundleForClass:"
+- "bundleID"
+- "bundleId"
+- "bundleIdentifier"
+- "bundleIdentifierForAppIconBadgeImage"
+- "bundleIdentifiers"
+- "bundleIdentifiersForHiddenSections"
+- "bundleWithPath:"
+- "businessName"
+- "button"
+- "buttonItemWithTitle:symbol:command:"
+- "byteCountFormatter"
+- "cStringUsingEncoding:"
+- "cacheContact:contactIdentifier:score:searchString:"
+- "cacheLocalResult:identifier:bundleIdentifier:protectionClass:searchString:"
+- "cachePerson:personQueryIdentifier:score:searchString:"
+- "cacheResult:searchString:"
+- "cacheResult:title:searchString:"
+- "cacheSearchString:"
+- "cacheSuggestion:type:score:searchString:"
+- "cachedPreferredStoreBundleIdentifier"
+- "cachedValueForKey:cache:computeHandler:"
+- "calendarName"
+- "callDate"
+- "callOrigin"
+- "callSourceApplicationBundleIdentifier"
+- "callbackURL"
+- "cancel"
+- "cancelJob:"
+- "cardSectionForSearchWebsiteCommand:searchString:"
+- "cardSections"
+- "cashBackPercentage"
+- "characterAtIndex:"
+- "characterIsMember:"
+- "classificationLabelIndices"
+- "classificationLabelSynonymIndices"
+- "classificationLabelSynonyms"
+- "classificationLabels"
+- "clearBackendData"
+- "cloudTabDeviceName"
+- "collectionStyle"
+- "collectionWorkingQueue"
+- "command"
+- "commandButtonItemForAddressLocation:"
+- "commandButtonItemForBirthday:"
+- "commandButtonItemForEmail:"
+- "commandButtonItemForPhoneNumber:contact:"
+- "compactCard"
+- "compactCardSectionForResult:"
+- "compare:"
+- "completedQuery"
+- "completion"
+- "completionDate"
+- "component:fromDate:"
+- "components:fromDate:"
+- "componentsFromString:"
+- "componentsJoinedByString:"
+- "componentsSeparatedByCharactersInSet:"
+- "componentsSeparatedByString:"
+- "condenseWhiteSpaceForDescriptions:"
+- "condenseWhiteSpaceForRichText:"
+- "conformsToType:"
+- "contact"
+- "contactEntity"
+- "contactForContactIdentifier:"
+- "contactFormatterStyle"
+- "contactFromName:"
+- "contactIdentifier"
+- "contactIdentifierFromResult:contactEntity:"
+- "contactIdentifiers"
+- "contactIdentifiersFromResults:"
+- "contactKeysToFetch"
+- "contactResultBuilder"
+- "contactStore"
+- "contactWithEmail:"
+- "contactWithEmailForMailResults:"
+- "containsObject:"
+- "containsString:"
+- "contentType"
+- "contentTypeTree"
+- "controlCharacterSet"
+- "copiedText"
+- "copy"
+- "coreResult"
+- "coreSpotlightId"
+- "count"
+- "countByEnumeratingWithState:objects:count:"
+- "countForObject:"
+- "createDirectoryAtPath:withIntermediateDirectories:attributes:error:"
+- "createSFCommandButtonItem"
+- "createSceneFrom:"
+- "creationDate"
+- "currencyCode"
+- "currencyConversionAttributionImageWithSize:"
+- "currencyFormatter"
+- "currencyStringWithAmount:currencyCode:"
+- "currentApplications"
+- "currentCalendar"
+- "currentLocale"
+- "currentVersion"
+- "customAttributeDictionary"
+- "d"
+- "d16@0:8"
+- "date"
+- "date:isBetweenDate:andDate:"
+- "dateByAddingComponents:toDate:options:"
+- "dateByAddingUnit:value:toDate:options:"
+- "dateCompletedStringFormat"
+- "dateComponentsFormatter"
+- "dateCopied"
+- "dateCreated"
+- "dateCreatedStringFormat"
+- "dateDueStringFormat"
+- "dateFormatFromTemplate:options:locale:"
+- "dateFormatter"
+- "dateFromComponents:"
+- "dateFromReferenceDate:referenceTimezone:timezoneRef:allDayRef:"
+- "dateIntervalFormatter"
+- "dateLastCalledStringFormat"
+- "dateLastOpenedStringFormat"
+- "dateLastPlayedStringFormat"
+- "dateModifiedStringFormat"
+- "day"
+- "dayOfWeekFormatter"
+- "dealloc"
+- "defaultAppURLForResult:typeCache:urlCache:"
+- "defaultCStringEncoding"
+- "defaultCenter"
+- "defaultManager"
+- "defaultSearchableIndex"
+- "defaultThumbnailSizeIsCompact:"
+- "defaultWorkspace"
+- "definitionString"
+- "definitions"
+- "delegateCalendarName"
+- "deleteAllRecentResults"
+- "deleteAllRecents"
+- "deleteContact:contactIdentifier:score:"
+- "deleteLocalResult:identifier:bundleIdentifier:protectionClass:"
+- "deletePerson:personQueryIdentifier:score:"
+- "deleteResult:"
+- "deleteResult:requiresRefresh:"
+- "deleteResult:title:"
+- "deleteSuggestion:type:score:"
+- "descriptions"
+- "descriptorForRequiredKeysForStyle:"
+- "detailText"
+- "detailedRowCardSectionForCardSection:"
+- "dialRequestURLWithPhoneNumber:contact:"
+- "dictionaryName"
+- "dictionaryURL"
+- "dictionaryWithObjects:forKeys:count:"
+- "disambiguateUIIfNecessary:"
+- "displayAllResultsAsIcons"
+- "displayName"
+- "displayString"
+- "distributorPriorityList"
+- "distributorPriorityListChangedNotifationName"
+- "doesNotContainObject:inArray:"
+- "domainIdentifier"
+- "domainWithIds:"
+- "domainsForProviderWithTopLevelBundleId:"
+- "domainsSupportingSearchOnServer"
+- "donateSpotlightUsedSignal"
+- "donationWithUUID:"
+- "doubleValue"
+- "dueDate"
+- "durationInSeconds"
+- "dyanmicStringFromDate:"
+- "dynamicCompactStringFromDate:"
+- "dynamicDateTimeStringsFromDate:"
+- "dynamicMediumStringFromDate:"
+- "dynamicStringFromDate:isCompact:"
+- "emailAddresses"
+- "emptySuggestion"
+- "endDate"
+- "endMonitoringProviderDomainChanges:"
+- "endObserving"
+- "entity"
+- "entityBadgeType"
+- "entityIdentifier"
+- "entityThumbnailDisplayStyle"
+- "entityType"
+- "enumerateKeysAndObjectsUsingBlock:"
+- "enumerateObjectsUsingBlock:"
+- "enumerateSubstringsInRange:options:usingBlock:"
+- "evaluateAttribute:ignoreSubtokens:skipTranscriptions:withHandler:"
+- "evaluator"
+- "eventIdentifier"
+- "eventName"
+- "executeFetchRequest:error:"
+- "expireDate"
+- "extractStartDate:startTimezone:endDate:endTimezone:allDayRef:referenceDate:referenceTimezone:"
+- "fallbackTitleString"
+- "fetchAttributes"
+- "fetchDomainsSupportingSearchOnServerWithCompletionBlock:"
+- "fileExistsAtPath:"
+- "filePath"
+- "fileProviderDomainId"
+- "fileProviderDomainIdentifier"
+- "fileProviderId"
+- "fileProviderIdentifier"
+- "fileSystemRepresentation"
+- "fileURL"
+- "fileURLWithFileSystemRepresentation:isDirectory:relativeToURL:"
+- "fileURLWithPath:"
+- "fileURLWithPath:isDirectory:"
+- "fileURLs"
+- "filterQueries"
+- "filterResultsForAccounts"
+- "filterResultsFromSections:queryContext:"
+- "filteredArrayUsingPredicate:"
+- "findDistinctPathIdentifiersForSections:"
+- "firstObject"
+- "floatValue"
+- "footnote"
+- "formUnionWithCharacterSet:"
+- "formattedAlternateNamesForBundleId:withAlternateNames:"
+- "formattedBody"
+- "formattedInput"
+- "formattedSnippet"
+- "formattedStringValue"
+- "formattedTextPieces"
+- "freeFormDescription"
+- "fullAttributeSet"
+- "fullDateTimeStringsFromDate:"
+- "fullName"
+- "genre"
+- "getMailValue:label:"
+- "getPhoneValue:label:"
+- "getResourceValue:forKey:error:"
+- "getResultSections:queryId:completion:"
+- "getValidStringFromArray:withMatchedIndices:"
+- "getWhitespaceCharacterAtIndex:ofString:"
+- "groupDisplayName"
+- "groupPhotoPath"
+- "hasBeenPersisted"
+- "hasEntities"
+- "hasOnenessCounterpart"
+- "hasPrefix:"
+- "hasRelativeFormatForDate:"
+- "hasTextContentMatch"
+- "hashtags"
+- "highlightedAlternateName"
+- "highlightedMatchedText"
+- "historyTimeout"
+- "host"
+- "i"
+- "i16@0:8"
+- "i24@0:8q16"
+- "icalConformingStringFromDate:"
+- "icloudDriveBundleId_objc"
+- "identifier"
+- "image"
+- "imageURL"
+- "imageWithData:"
+- "indexSet"
+- "indexedBundleIdentifierForResult:"
+- "init"
+- "initWithActivityType:"
+- "initWithAppName:appBundleId:searchString:searchInAppType:"
+- "initWithArray:"
+- "initWithAttributes:"
+- "initWithBundleIdentifier:allowPlaceholder:error:"
+- "initWithCString:encoding:"
+- "initWithCapacity:"
+- "initWithContentIdentifier:context:osBuild:userInfo:"
+- "initWithDate:"
+- "initWithIdentifier:bundleIdentifier:protectionClass:attributeKeys:attributeValues:type:completion:"
+- "initWithIdentifier:bundleIdentifier:protectionClass:attributes:type:completion:"
+- "initWithInt:"
+- "initWithKeysToFetch:"
+- "initWithLabel:value:"
+- "initWithProvider:"
+- "initWithResult:"
+- "initWithResult:contactEntity:contact:"
+- "initWithResult:queryContext:"
+- "initWithScannerType:passiveIntent:"
+- "initWithSection:"
+- "initWithSpotlightSuggestion:queryContext:"
+- "initWithString:"
+- "initWithStringValue:"
+- "initWithSuggestion:query:score:type:"
+- "initWithSuggestion:queryContext:"
+- "initWithSuiteName:"
+- "initWithTitle:symbol:command:"
+- "initWithType:value:"
+- "initWithURL:"
+- "initWithUUIDString:"
+- "initialize"
+- "initiallyVisibleCardSectionCount"
+- "injectRecentsOptionsIntoResult:"
+- "inlineCard"
+- "input"
+- "insertDummySectionsIntoSections:"
+- "insertObject:atIndex:"
+- "intValue"
+- "integerForKey:"
+- "integerValue"
+- "intent"
+- "intentName"
+- "interaction"
+- "intersectsSet:"
+- "isAlarmResult"
+- "isAllDay"
+- "isAppClip"
+- "isAppEntitySearch"
+- "isBackgroundRunnable"
+- "isCalculation"
+- "isCompleted"
+- "isContactEntitySearch"
+- "isContinuityEnabled"
+- "isCoreSpotlightResult"
+- "isCurrencyConversion"
+- "isCustomAppAttributedShortcut"
+- "isDate:withinTimeInterval:includePast:"
+- "isDateInToday:"
+- "isDateInTomorrow:"
+- "isDateInYesterday:"
+- "isDateWithinMonthsTime:"
+- "isDateWithinWeeksTime:"
+- "isEnabled"
+- "isEqual:"
+- "isEqualToString:"
+- "isExplicit"
+- "isFTEEngaged"
+- "isFileURL"
+- "isFlagged"
+- "isFlight"
+- "isFolder"
+- "isFolderSearch"
+- "isForBrowseMode"
+- "isFromOneness"
+- "isGroupThread"
+- "isHidden"
+- "isHotel"
+- "isInitiallyHidden"
+- "isLeapMonth"
+- "isLikePhoneNumber:"
+- "isLocked"
+- "isLoggedIntoICloudDrive"
+- "isMacOS"
+- "isMatchedAliasShortcut"
+- "isMissedCall"
+- "isOutgoingCall"
+- "isPasteboardHistoryEnabled"
+- "isPhotosEntitySearch"
+- "isRecurring"
+- "isRestaurant"
+- "isSearchToolClient"
+- "isSecondaryTitleDetached"
+- "isShared"
+- "isSpotlight"
+- "isSubclassOfClass:"
+- "isSyndicated"
+- "isToolParameterFilling"
+- "isTopHit"
+- "isTopHitSection"
+- "isValidSearchString:"
+- "isVideoCall"
+- "isVoicemail"
+- "isWebClip"
+- "isZKWAutoShortcutBundle:"
+- "isZKWRecentBundle:"
+- "isiCloudDriveProvider"
+- "itemCollectionsForDomain"
+- "itemCollectionsLock"
+- "itemProviderDataTypes"
+- "itemProviderFileTypes"
+- "items"
+- "keyEnumerator"
+- "kind"
+- "label"
+- "labeledValuesFromStrings:labeledValues:withStringForLabeledValueBlock:labeledValueForStringBlock:"
+- "lastObject"
+- "lastPathComponent"
+- "lastUsedDate"
+- "lastViewedDate"
+- "length"
+- "lnPropertyIdentifier"
+- "localeWithLocaleIdentifier:"
+- "localizedCapitalizedString"
+- "localizedCaseInsensitiveContainsString:"
+- "localizedDescription"
+- "localizedLowercaseString"
+- "localizedName"
+- "localizedStandardContainsString:"
+- "localizedStandardRangeOfString:"
+- "localizedStringForKey:"
+- "localizedStringForKey:value:table:"
+- "localizedStringForLabel:"
+- "localizedStringForService:"
+- "localizedStringWithFormat:"
+- "localizedStringWithValidatedFormat:validFormatSpecifiers:error:"
+- "locationKeywordIndices"
+- "locationKeywords"
+- "lock"
+- "logForTrigger:queryID:"
+- "longLongValue"
+- "longRelativeDateFormatter"
+- "longValue"
+- "mainBundle"
+- "makeClearProactiveCategoryButtonItemWithCategory:shouldClearWholeSection:result:"
+- "mapTableRepresentation"
+- "matchedAlternateName"
+- "matchedPeople"
+- "matchedStrings"
+- "maxCardSections"
+- "maxInitiallyVisibleResults"
+- "maxLines"
+- "maxVisibleColumnsInPhotosSection"
+- "mediaId"
+- "mediumDayOfWeekDateIntervalFormatter"
+- "mediumDayOfWeekDateTimeIntervalFormatter"
+- "mediumRelativeDateFormatter"
+- "messageId"
+- "metadataSpecialCasedAppEntityBundles"
+- "modificationDate"
+- "month"
+- "moreResultsPunchout"
+- "mutableCopy"
+- "mutableDeepCopy"
+- "mutableSectionWithBundleId:"
+- "name"
+- "needsAuthentication"
+- "newlineCharacterSet"
+- "newsFootnoteWithNewsSource:publishedDate:"
+- "newsSource"
+- "nextDateAfterDate:matchingComponents:options:"
+- "nextDateAfterDate:matchingHour:minute:second:options:"
+- "nextUpcomingDateForDateComponents:fromDate:"
+- "note"
+- "now"
+- "null"
+- "numberFormatter"
+- "numberOfActionsString"
+- "numberOfLinesForDescriptions"
+- "numberWithDouble:"
+- "numberWithInt:"
+- "numberWithInteger:"
+- "numberWithLong:"
+- "numberWithUnsignedInteger:"
+- "numberWithUnsignedLong:"
+- "objectAtIndex:"
+- "objectAtIndexedSubscript:"
+- "objectForKey:"
+- "objectForKeyedSubscript:"
+- "observationEndWorkItem"
+- "openFileProviderItemCommand"
+- "openWindowCommandWithAppBundleId:processInstanceIdentifier:entityIdentifier:"
+- "organizationName"
+- "output"
+- "overrideComponentsInContact:"
+- "overrideLocale"
+- "overrideLocale:"
+- "pageCount"
+- "parameterizedTitle"
+- "pasteboard"
+- "pasteboardDescription"
+- "pasteboardHistorySettingsVersion"
+- "path"
+- "pathComponents"
+- "peopleInPhoto"
+- "personIdentifier"
+- "personNameComponentsFormatter"
+- "personNameComponentsFromString:"
+- "personQueryIdentifier"
+- "personWithPhoneNumber:email:"
+- "phoneNumberWithStringValue:"
+- "phoneNumbers"
+- "photoIdentifier"
+- "photoSceneTypes"
+- "photosDescription"
+- "pid"
+- "podcastDescription"
+- "postNotificationName:object:"
+- "postalAddressFromString:"
+- "postalAddresses"
+- "preMergeBundleIdentifier"
+- "precacheContactsForResults:"
+- "precomposedStringWithCanonicalMapping"
+- "precomposedStringWithCompatibilityMapping"
+- "predicateForContactsMatchingEmailAddress:"
+- "predicateForContactsMatchingHandleStrings:"
+- "predicateForContactsMatchingPhoneNumber:"
+- "predicateForContactsWithIdentifiers:"
+- "predicateWithBlock:"
+- "preferenceDescription"
+- "preheat"
+- "previewButtonItems"
+- "previewCommand"
+- "primaryCommandExecutesSearch"
+- "primaryPhrase"
+- "processRawTitleString:"
+- "protection"
+- "protectionClass"
+- "publishedDate"
+- "punchout"
+- "punchoutCommandWithScheme:host:path:queryItems:"
+- "punchoutLabel"
+- "punchoutWithURL:"
+- "punctuationCharacterSet"
+- "purgeMemory"
+- "q16@0:8"
+- "queryContext"
+- "queryID"
+- "queryId"
+- "queryIdent"
+- "queryItemWithName:value:"
+- "queryKind"
+- "queryString"
+- "queryTerms"
+- "quickWebsiteSearchCommandWithBundleIdentifier:entityIdentifier:searchQuery:"
+- "range"
+- "rangeOfCharacterFromSet:"
+- "rangeOfString:"
+- "rangeOfString:options:range:"
+- "rangeValue"
+- "rankingItem"
+- "rankingScore"
+- "rawPhoneNumbers"
+- "realContactIdentifier"
+- "recipientContactIdentifiers"
+- "recipientContactIds"
+- "recipientEmails"
+- "recipients"
+- "regularExpressionWithPattern:options:error:"
+- "relatedAppBundleIdentifier"
+- "relatedAppIdentifier"
+- "reminder"
+- "removeAllObjects"
+- "removeObject:"
+- "removeObjectAtIndex:"
+- "removeObjectsAtIndexes:"
+- "removeObjectsInArray:"
+- "renderState"
+- "requestAmountDuration"
+- "requestDate"
+- "requestIdentifier"
+- "requestStatus"
+- "requestStatusString"
+- "requestedItemDescription"
+- "requestedItemName"
+- "requesterContactIdentifier"
+- "requesterDSID"
+- "requesterName"
+- "respondDate"
+- "result"
+- "resultAppBundleId"
+- "resultBuilderClassForResult:preferAppVendedView:"
+- "resultBuilderForItem:"
+- "resultBuilderForItem:preferAppVendedView:"
+- "resultBuilderWithResult:"
+- "resultBuilderWithResult:preferAppVendedView:"
+- "resultBundleId"
+- "resultCardForResult:"
+- "resultForItem:"
+- "resultFromTopic:"
+- "resultIdentifier"
+- "resultSet"
+- "resultShadowsSettingResult"
+- "resultType"
+- "results"
+- "resultsCount"
+- "resultsOptions"
+- "retainBackendData"
+- "richTextsFromStrings:"
+- "rootURLForProviderDomainID:cachePolicy:error:"
+- "scanString:range:configuration:completionBlock:"
+- "sceneLabelsIndex"
+- "scenePhotoIdentifiers"
+- "sceneSynonymsCounts"
+- "sceneSynonymsIndex"
+- "scenes"
+- "scheme"
+- "searchEntities"
+- "searchEntity"
+- "searchEntityWithContactIdentifier:fromSuggestion:"
+- "searchEntityWithPersonQueryIdentifier:personName:fromSuggestion:"
+- "searchEntityWithPhotosSearchString:fromSuggestion:"
+- "searchEntityWithSearchString:spotlightQueryString:preferredBundleIDs:"
+- "searchICloudDriveCommandWithQuery:"
+- "searchICloudDriveRelatedSearchResultWithQueryContext:query:queryId:"
+- "searchInAppButtonItemWithCommand:"
+- "searchInAppButtonItemWithCommand:title:"
+- "searchInAppInfo"
+- "searchInAppType"
+- "searchString"
+- "searchStringForScopedSearch"
+- "searchSuggestionRankingResultWithResult:query:sectionBundleIdentifier:queryId:"
+- "searchSuggestionRankingResultWithSpotlightSuggestion:query:sectionBundleIdentifier:queryId:"
+- "searchSuggestionRankingResultWithSuggestion:query:sectionBundleIdentifier:queryId:"
+- "secondaryCommand"
+- "secondaryTitle"
+- "secondaryTitleImage"
+- "section"
+- "sectionBuilderClassForSection:withQueryContext:"
+- "sectionBundleIdentifier"
+- "sectionWithTitle:identifier:style:results:"
+- "sections"
+- "sendDate"
+- "sendEvent:"
+- "sendRefreshNotification"
+- "senderContactIdentifiers"
+- "senderContactIds"
+- "senders"
+- "service"
+- "setAccount:"
+- "setAction:"
+- "setActionIdentifier:"
+- "setActionItemTypes:"
+- "setActionTypesToShow:"
+- "setAddToExistingContact:"
+- "setAgeRating:"
+- "setAlbum:"
+- "setAlbumIdentifier:"
+- "setAllDayDateFormatter:"
+- "setAllowedUnits:"
+- "setAlternateNames:"
+- "setAppBundleId:"
+- "setAppEntityAnnotation:"
+- "setAppName:"
+- "setAppPrice:"
+- "setAppResultBuilder:"
+- "setAppType:"
+- "setAppURL:"
+- "setApplicationBundleIdentifier:"
+- "setApplicationPath:"
+- "setApprovers:"
+- "setArchive:"
+- "setArtist:"
+- "setAttachmentNames:"
+- "setAttachmentPaths:"
+- "setAttachmentTypes:"
+- "setAttribute:forKey:"
+- "setAttributeSet:"
+- "setAuthor:"
+- "setAuthorContact:"
+- "setAuthorEmail:"
+- "setAuthors:"
+- "setBackgroundColor:"
+- "setBackingResultSet:"
+- "setBadgingImage:"
+- "setBiomeStreamIdentifier:"
+- "setBirthday:"
+- "setBirthdayDateComponentsFormatter:"
+- "setBlueComponent:"
+- "setBody:"
+- "setBool:forKey:"
+- "setBundleId:"
+- "setBundleIdentifier:"
+- "setBundleIdentifiersForHiddenSections:"
+- "setBusinessName:"
+- "setButton:"
+- "setButtonItem:"
+- "setButtonItems:"
+- "setButtonItemsAreTrailing:"
+- "setByteCountFormatter:"
+- "setCalendarName:"
+- "setCallDate:"
+- "setCallOrigin:"
+- "setCallSourceApplicationBundleIdentifier:"
+- "setCallbackURL:"
+- "setCardSectionId:"
+- "setCardSections:"
+- "setCashBackPercentage:"
+- "setCategory:"
+- "setClassificationLabelIndices:"
+- "setClassificationLabelSynonymIndices:"
+- "setClassificationLabelSynonyms:"
+- "setClassificationLabels:"
+- "setClipIdentifier:"
+- "setCloudTabDeviceName:"
+- "setCollectionStyle:"
+- "setColorTintStyle:"
+- "setCommand:"
+- "setCommandDetail:"
+- "setCompactCard:"
+- "setCompletion:"
+- "setCompletionDate:"
+- "setContact:"
+- "setContactEntity:"
+- "setContactIdentifier:"
+- "setContactIdentifiers:"
+- "setContactResultBuilder:"
+- "setContentType:"
+- "setCopiedText:"
+- "setCopyableItem:"
+- "setCopyableItems:"
+- "setCopyableString:"
+- "setCoreSpotlightId:"
+- "setCoreSpotlightIdentifier:"
+- "setCornerRoundingStyle:"
+- "setCountStyle:"
+- "setCreationDate:"
+- "setCurrencyCode:"
+- "setCurrencyFormatter:"
+- "setDarkUrlValue:"
+- "setDataProviderTypeIdentifiers:"
+- "setDate:"
+- "setDateComponentsFormatter:"
+- "setDateCopied:"
+- "setDateCreated:"
+- "setDateFormat:"
+- "setDateFormatter:"
+- "setDateIntervalFormatter:"
+- "setDateStyle:"
+- "setDateTemplate:"
+- "setDay:"
+- "setDayOfWeekFormatter:"
+- "setDefaultSizeForThumbnail:isCompact:"
+- "setDefinitionString:"
+- "setDefinitions:"
+- "setDelegateCalendarName:"
+- "setDescriptions:"
+- "setDetailText:"
+- "setDictionaryName:"
+- "setDictionaryURL:"
+- "setDisplayName:"
+- "setDoesRelativeDateFormatting:"
+- "setDomain:"
+- "setDomainIdentifier:"
+- "setDrawPlattersIfNecessary:"
+- "setDueDate:"
+- "setDurationInSeconds:"
+- "setEmail:"
+- "setEmailAddresses:"
+- "setEncapsulationStyle:"
+- "setEndDate:"
+- "setEntity:"
+- "setEntityBackgroundColor:"
+- "setEntityBadgeType:"
+- "setEntityIdentifer:"
+- "setEntityIdentifier:"
+- "setEntityThumbnailDisplayStyle:"
+- "setEntityType:"
+- "setEvent:"
+- "setEventIdentifier:"
+- "setEventName:"
+- "setExpireDate:"
+- "setFallbackCardSection:"
+- "setFilePath:"
+- "setFileProviderDomainId:"
+- "setFileProviderId:"
+- "setFileProviderIdentifier:"
+- "setFileProviderTypeIdentifiers:"
+- "setFileURLs:"
+- "setFilesToDelete:"
+- "setFolder:"
+- "setFootnote:"
+- "setFormattedBody:"
+- "setFormattedTextPieces:"
+- "setFormattingContext:"
+- "setFreeFormDescription:"
+- "setGenre:"
+- "setGlyph:"
+- "setGreenComponent:"
+- "setGroupDisplayName:"
+- "setGroupName:"
+- "setGroupPhotoPath:"
+- "setHandle:"
+- "setHasTextContentMatch:"
+- "setHashtags:"
+- "setHighlightedAlternateName:"
+- "setHistoryTimeout:"
+- "setHost:"
+- "setHour:"
+- "setIconType:"
+- "setIcons:"
+- "setIdentifier:"
+- "setImage:"
+- "setImageData:"
+- "setImageURL:"
+- "setInfoTuples:"
+- "setInitiallyVisibleCardSectionCount:"
+- "setInlineCard:"
+- "setInput:"
+- "setInteger:forKey:"
+- "setIntentMessageData:"
+- "setIntentName:"
+- "setIsAlarmResult:"
+- "setIsAllDay:"
+- "setIsBackgroundRunnable:"
+- "setIsCalculation:"
+- "setIsCompleted:"
+- "setIsContinuityEnabled:"
+- "setIsCurrencyConversion:"
+- "setIsCustomAppAttributedShortcut:"
+- "setIsDestructive:"
+- "setIsEmphasized:"
+- "setIsExplicit:"
+- "setIsFTEEngaged:"
+- "setIsFlagged:"
+- "setIsFlight:"
+- "setIsFolder:"
+- "setIsForBrowseMode:"
+- "setIsGroupThread:"
+- "setIsHighlighted:"
+- "setIsHotel:"
+- "setIsLocked:"
+- "setIsMissedCall:"
+- "setIsOnenessApplication:"
+- "setIsOutgoingCall:"
+- "setIsPasteboardHistoryEnabled:"
+- "setIsRecurring:"
+- "setIsRestaurant:"
+- "setIsRunnableInBackground:"
+- "setIsRunnableWorkflow:"
+- "setIsSecondaryTitleDetached:"
+- "setIsShared:"
+- "setIsSuggestedContact:"
+- "setIsSyndicated:"
+- "setIsTemplate:"
+- "setIsTopHit:"
+- "setIsTopHitSection:"
+- "setIsVideoCall:"
+- "setIsVoicemail:"
+- "setItemIdentifiers:"
+- "setKey:"
+- "setKind:"
+- "setLabel:"
+- "setLastUsedDate:"
+- "setLastViewedDate:"
+- "setLat:"
+- "setLeapMonth:"
+- "setLnPropertyIdentifier:"
+- "setLng:"
+- "setLocalImageType:"
+- "setLocalMediaIdentifier:"
+- "setLocale:"
+- "setLocation:"
+- "setLocationKeywordIndices:"
+- "setLocationKeywords:"
+- "setLongRelativeDateFormatter:"
+- "setMatchedAlternateName:"
+- "setMatchedPeople:"
+- "setMatchedScenes:"
+- "setMatchedStrings:"
+- "setMaxConcurrentOperationCount:"
+- "setMaxInitiallyVisibleResults:"
+- "setMaxLines:"
+- "setMaxLinesForDescriptions:"
+- "setMediaId:"
+- "setMediaIdentifier:"
+- "setMediaMetadata:"
+- "setMediaType:"
+- "setMediumDayOfWeekDateIntervalFormatter:"
+- "setMediumDayOfWeekDateTimeIntervalFormatter:"
+- "setMediumRelativeDateFormatter:"
+- "setMemoryIdentifier:"
+- "setMenuItemIdentifier:"
+- "setMenuItemPathComponents:"
+- "setMessage:"
+- "setMessageId:"
+- "setMinimumIntegerDigits:"
+- "setModificationDate:"
+- "setMonogramLetters:"
+- "setMonogramStyle:"
+- "setMonth:"
+- "setName:"
+- "setNewsSource:"
+- "setNoGoTakeover:"
+- "setNote:"
+- "setNumberFormatter:"
+- "setNumberOfActionsString:"
+- "setNumberOfColumns:"
+- "setNumberOfRows:"
+- "setNumberStyle:"
+- "setObject:forKey:"
+- "setObject:forKeyedSubscript:"
+- "setOutput:"
+- "setOverrideLocale:"
+- "setPageCount:"
+- "setParameterizedTitle:"
+- "setPasteboardHistorySettingsVersion:"
+- "setPath:"
+- "setPathComponents:"
+- "setPeopleInPhoto:"
+- "setPeopleToBadge:"
+- "setPerson:"
+- "setPersonIdentifier:"
+- "setPersonNameComponentsFormatter:"
+- "setPersonQueryIdentifier:"
+- "setPhoneNumber:"
+- "setPhoneNumbers:"
+- "setPhotoFilePunchout:"
+- "setPhotoIdentifier:"
+- "setPhotoSceneTypes:"
+- "setPhotosDescription:"
+- "setPhotosIdentifier:"
+- "setPhotosLibraryImage:"
+- "setPid:"
+- "setPlacement:"
+- "setPodcastDescription:"
+- "setPostalAddresses:"
+- "setPredicate:"
+- "setPreferenceDescription:"
+- "setPreventThumbnailImageScaling:"
+- "setPreviewButtonItems:"
+- "setPreviewCommand:"
+- "setPrimaryColor:"
+- "setPrimaryCommandExecutesSearch:"
+- "setPrimaryPhrase:"
+- "setProcessInstanceIdentifier:"
+- "setPublishedDate:"
+- "setPunchThroughBackground:"
+- "setPunchout:"
+- "setPunchoutLabel:"
+- "setPunchoutOptions:"
+- "setQueryContext:"
+- "setQueryId:"
+- "setQueryItems:"
+- "setQuerySource:"
+- "setQueryString:"
+- "setRealContactIdentifier:"
+- "setRecipientContactIdentifiers:"
+- "setRecipientContactIds:"
+- "setRecipientEmails:"
+- "setRecipients:"
+- "setRedComponent:"
+- "setRelatedAppBundleIdentifier:"
+- "setReminder:"
+- "setRenderHorizontallyWithOtherResultsInCategory:"
+- "setRenderState:"
+- "setRequestAmountDuration:"
+- "setRequestDate:"
+- "setRequestIdentifier:"
+- "setRequestStatus:"
+- "setRequestStatusString:"
+- "setRequestedItemDescription:"
+- "setRequestedItemName:"
+- "setRequesterContactIdentifier:"
+- "setRequesterDSID:"
+- "setRequesterName:"
+- "setRespondDate:"
+- "setResult:"
+- "setResultBundleId:"
+- "setResultIdentifier:"
+- "setResultType:"
+- "setResults:"
+- "setResultsOptions:"
+- "setSceneIdentifier:"
+- "setSceneLabelsIndex:"
+- "setScenePhotoIdentifiers:"
+- "setSceneSynonymsCounts:"
+- "setSceneSynonymsIndex:"
+- "setSceneType:"
+- "setScheme:"
+- "setSearchEntity:"
+- "setSearchInAppInfo:"
+- "setSearchInAppType:"
+- "setSearchString:"
+- "setSecondaryCommand:"
+- "setSecondaryTitle:"
+- "setSecondaryTitleImage:"
+- "setSection:"
+- "setSectionBundleIdentifier:"
+- "setSectionHeader:"
+- "setSections:"
+- "setSendDate:"
+- "setSenderContactIdentifiers:"
+- "setSenderContactIds:"
+- "setSenders:"
+- "setSeparatorStyle:"
+- "setSettingsPreference:"
+- "setShareItem:"
+- "setShareItems:"
+- "setShareProviderTypeIdentifier:"
+- "setShortDateIntervalFormatter:"
+- "setShortDateTimeFormatter:"
+- "setShortDateTimeIntervalFormatter:"
+- "setShortDayOfWeekFormatter:"
+- "setShortRelativeDateFormatter:"
+- "setShortTimeFormatter:"
+- "setShouldClearWholeSection:"
+- "setShouldOpenCurrencyConversionProvider:"
+- "setShouldRevealFile:"
+- "setShouldUseCompactDisplay:"
+- "setSiteName:"
+- "setSize:"
+- "setSizeInBytes:"
+- "setSong:"
+- "setSongLengthInSeconds:"
+- "setSpotlightBackingResult:"
+- "setSpotlightIdentifier:"
+- "setSpotlightSuggestion:"
+- "setStarRating:"
+- "setStartDate:"
+- "setStreet:"
+- "setSubject:"
+- "setSubtitle:"
+- "setSubtitleButtonItem:"
+- "setSubtitleIsEmphasized:"
+- "setSuggestedContactIdentifier:"
+- "setSuggestion:"
+- "setSuggestionString:"
+- "setSuggestionText:"
+- "setSuggestionType:"
+- "setSymbol:"
+- "setSymbolImage:"
+- "setSymbolName:"
+- "setSyndicationStatus:"
+- "setText:"
+- "setTextColor:"
+- "setThreeDTouchEnabled:"
+- "setThumbnail:"
+- "setThumbnailAppType:"
+- "setThumbnailData:"
+- "setThumbnailOverlayText:"
+- "setThumbnailURL:"
+- "setTimeStyle:"
+- "setTimeZone:"
+- "setTitle:"
+- "setTitleString:"
+- "setTokenImage:"
+- "setTokenString:"
+- "setToolIconData:"
+- "setToolIdentifier:"
+- "setToolInvocationData:"
+- "setToolType:"
+- "setTopHit:"
+- "setTrailingAttribution:"
+- "setTrailingAttributionCommand:"
+- "setTrailingBottomText:"
+- "setTrailingButtonItems:"
+- "setTrailingMiddleText:"
+- "setTrailingSwipeButtonItems:"
+- "setTrailingThumbnail:"
+- "setTrailingTopText:"
+- "setTransactionAmount:"
+- "setTranscription:"
+- "setTtyType:"
+- "setType:"
+- "setTypeIdentifer:"
+- "setUnderlyingQueue:"
+- "setUniformType:"
+- "setUnitsStyle:"
+- "setUrl:"
+- "setUrlValue:"
+- "setUrls:"
+- "setUseAppIconMetrics:"
+- "setUserActivityData:"
+- "setUserActivityRequiredString:"
+- "setUsesCompactDisplay:"
+- "setUtteranceText:"
+- "setValues:"
+- "setVideo:"
+- "setVoiceShortcutIdentifier:"
+- "setVoicemailTranscription:"
+- "setWebsiteName:"
+- "setWebsiteTitle:"
+- "setWithArray:"
+- "setWord:"
+- "setWorkingQueue:"
+- "setYear:"
+- "setZeroFormattingBehavior:"
+- "settingsPreference"
+- "sfSceneTypeFrom:"
+- "shared"
+- "shortDateIntervalFormatter"
+- "shortDateTimeFormatter"
+- "shortDateTimeIntervalFormatter"
+- "shortDateTimeStringFromDate:isAllDay:"
+- "shortDateTimeStringFromDate:isAllDay:showAllDayString:"
+- "shortDayOfWeekFormatter"
+- "shortRelativeDateFormatter"
+- "shortTimeFormatter"
+- "shouldHideExtensionForURL:"
+- "shouldSkipSection"
+- "shouldUseCompactDisplay"
+- "showAllExtensionsPreference"
+- "siteName"
+- "size"
+- "sizeInBytes"
+- "slowFetchAttributes:protectionClass:bundleID:identifiers:completionHandler:"
+- "socialProfiles"
+- "song"
+- "songLengthInSeconds"
+- "sortedArrayUsingComparator:"
+- "source"
+- "spotlightBackingResult"
+- "spotlightDomainIdentifierForBundleIdentifier:"
+- "spotlightFilterQueries"
+- "spotlightPasteboardCacheDirectory"
+- "spotlightSuggestion"
+- "standardUserDefaults"
+- "starRating"
+- "startDate"
+- "startObserving"
+- "stopObserving"
+- "storageURLs"
+- "string"
+- "stringByAppendingPathComponent:"
+- "stringByAppendingString:"
+- "stringByDeletingPathExtension"
+- "stringByExpandingTildeInPath"
+- "stringByRemovingWhitespace"
+- "stringByReplacingMatchesInString:options:range:withTemplate:"
+- "stringByReplacingOccurrencesOfString:withString:"
+- "stringByReplacingOccurrencesOfString:withString:options:range:"
+- "stringByTrimmingCharactersInSet:"
+- "stringForSFRichText:"
+- "stringFromBirthdayComponents:"
+- "stringFromByteCount:"
+- "stringFromContact:style:"
+- "stringFromDate:"
+- "stringFromDate:toDate:"
+- "stringFromDateComponents:"
+- "stringFromInt:withMinimumDigits:"
+- "stringFromNumber:"
+- "stringFromPostalAddress:style:"
+- "stringFromTimeInterval:"
+- "stringValue"
+- "stringWithAlbum:releaseDate:"
+- "stringWithCompletionDate:dueDate:modificationDate:"
+- "stringWithFormat:"
+- "stringWithModificationDate:creationDate:"
+- "stringWithPageCount:"
+- "stringWithStartDate:endDate:isAllDay:"
+- "stringWithUrl:"
+- "stringWithValidatedFormat:validFormatSpecifiers:error:"
+- "stringsFromDate:toDate:isAllDay:"
+- "subResults"
+- "subarrayWithRange:"
+- "subclassBuildHorizontallyScrollingCardSection"
+- "subject"
+- "substringFromIndex:"
+- "substringToIndex:"
+- "substringWithRange:"
+- "subtitle"
+- "suggestedContactIdentifier"
+- "suggestion"
+- "suggestionKind"
+- "suggestionString"
+- "suggestionText"
+- "suggestionsWithCurrentSuggestion:userQueryString:completionData:options:"
+- "suggestionsWithCurrentSuggestion:userQueryString:suggestionData:options:"
+- "supportedBundleId"
+- "supportedBundleIds"
+- "supportsAppTopHitWithoutIndexFor:"
+- "supportsBonusSPI:"
+- "supportsClearingBackendData"
+- "supportsFileProviderFor:"
+- "supportsResult:"
+- "supportsSearchOnServer"
+- "supportsSection:queryContext:"
+- "symbol"
+- "symbolCharacterSet"
+- "symbolImage"
+- "symbolName"
+- "syndicationStatus"
+- "systemTimeZone"
+- "telephonyProvider"
+- "text"
+- "textWithString:"
+- "thumbnail"
+- "thumbnailAppType"
+- "thumbnailData"
+- "thumbnailOverlayText"
+- "thumbnailURL"
+- "timeIntervalSinceNow"
+- "timeIntervalSinceReferenceDate"
+- "timeZoneForSecondsFromGMT:"
+- "title"
+- "titleMaxLinesForGridView"
+- "titleString"
+- "tokenImage"
+- "tokenString"
+- "tokenText"
+- "tomorrow"
+- "toolIconData"
+- "toolIdentifier"
+- "toolInvocationData"
+- "toolType"
+- "topLevelBundleIdentifier"
+- "trailingBottomText"
+- "trailingMiddleText"
+- "trailingSwipeButtonItems"
+- "trailingThumbnailSymbol"
+- "trailingTopText"
+- "transactionAmount"
+- "transcription"
+- "type"
+- "typeForURL:"
+- "typeWithIdentifier:"
+- "unifiedContactWithIdentifier:keysToFetch:error:"
+- "unifiedContactsMatchingPredicate:keysToFetch:error:"
+- "uniformContentType"
+- "uniformType"
+- "uniqueIdentifier"
+- "unlock"
+- "unsignedIntValue"
+- "unsignedIntegerValue"
+- "unsignedLongLongValue"
+- "unsignedLongValue"
+- "updateApplicationContexts:"
+- "updateBundleIdToOnenessBundleIdMapping:"
+- "updateCachedPreferredStoreBundleID"
+- "updatePersonQueryIdentifier:withContactIdentifier:"
+- "updatePersonQueryIdentifier:withPersonIdentifier:"
+- "updateResult:topic:queryContext:"
+- "updateWithDomains:"
+- "updatedSuggestionWithCurrentSuggestion:userString:tokens:"
+- "url"
+- "urlString"
+- "urlValueForAttribute:"
+- "useAppIconMetrics"
+- "useCompactRowOnMac"
+- "useHorizontallyScrollingCardSectionUI"
+- "useWiderBrowseView"
+- "userActivityData"
+- "userActivityRequiredString"
+- "userInput"
+- "username"
+- "usesCompactDisplay"
+- "v16@0:8"
+- "v20@0:8B16"
+- "v20@0:8i16"
+- "v24@0:8@16"
+- "v24@0:8@?16"
+- "v24@0:8Q16"
+- "v24@0:8d16"
+- "v24@0:8q16"
+- "v28@0:8@16B24"
+- "v32@0:8@16:24"
+- "v32@0:8@16@24"
+- "v40@0:8@16@?24Q32"
+- "v40@0:8@16Q24@?32"
+- "v56@0:8@16@24@?32Q40@48"
+- "value"
+- "valueForAttribute:withType:"
+- "valueWithPrimaryCommand:copyString:copyTitle:previewCommandConfigurations:"
+- "valueWithPrimaryCommand:copyString:copyTitle:previewCommandTitle:"
+- "valueWithRange:"
+- "visibleTextForCardSection:includeDescriptions:"
+- "visited %@"
+- "voicemailTranscription"
+- "wantsMoreResults"
+- "websiteName"
+- "websiteNameForURL:"
+- "websiteTitle"
+- "whiteSpaceCondensedStringForString:"
+- "whitespaceAndNewlineCharacterSet"
+- "whitespaceCharacterSet"
+- "word"
+- "year"
+- "{CGSize=dd}20@0:8B16"
+
+```

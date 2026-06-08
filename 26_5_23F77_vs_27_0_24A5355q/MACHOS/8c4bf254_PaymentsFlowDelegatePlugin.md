@@ -1,0 +1,114 @@
+## PaymentsFlowDelegatePlugin
+
+> `/System/Library/Assistant/FlowDelegatePlugins/PaymentsFlowDelegatePlugin.bundle/PaymentsFlowDelegatePlugin`
+
+```diff
+
+ 3404.4.1.0.0
+-  __TEXT.__text: 0xd74 sha256:78712aaf97337a4a76bbfb24b6ec8b97e943f84e2ae8f4e705303a452d149677
+-  __TEXT.__auth_stubs: 0x380 sha256:539b8262114ab5a0bd5cfcfdf246342db9c699e785216684e52fd7113d9bcb3e
+-  __TEXT.__objc_stubs: 0x120 sha256:45ffca4b43add3b588b167000190905e8a11b9af3c3917656b61438611dfe94d
+-  __TEXT.__const: 0xae sha256:0d60416b31eb873f10b243c2e1a3c999354713a349ac0503d12b11557acb0ecd
++  __TEXT.__text: 0xe44 sha256:58819314a74c579813300e8bf0d7cc9ec0b6214cc8cb14437d344643a4fe1857
++  __TEXT.__auth_stubs: 0x3a0 sha256:c6b92ca39cecc64e9b7c956b0546ede6a24b1cf78804d067b602b57f8d04ed37
++  __TEXT.__objc_stubs: 0x120 sha256:7bf64aeed934e75c4f4c8279475769a752df5e50cdb5f2d63b6d84ffd7331764
++  __TEXT.__const: 0xae sha256:d8d7372a4a0be7620996cb91586c6a5e8f261fb139bdd604776641576cc583eb
+   __TEXT.__objc_classname: 0x3d sha256:fccaafc7e955359b6d2f6fdf6d5f1853784db3c329b3a0d341fad72744c7a1de
+   __TEXT.__objc_methname: 0x81 sha256:7d7f677c43667ce80e0d1338881352e87c48c62f5925f8ba8a8d1a7d59a833a5
+   __TEXT.__objc_methtype: 0x1 sha256:6e340b9cffb37a989ca544e6bb780a2c78901d3fb33738768511a30617afa01d
+-  __TEXT.__constg_swiftt: 0x58 sha256:98558d450ebeea551c60e13e01317715935d512ab950c29045bcea147e21715b
+-  __TEXT.__swift5_typeref: 0x1d sha256:7b45f00cf748f0d7403975fcbd0ad898c8247634b517775bbb5c8a1b738f149b
++  __TEXT.__constg_swiftt: 0x58 sha256:7c8d5d709607c6a13c0d544da86de4929a44e2fbee1b95ca834ff3386da18961
++  __TEXT.__swift5_typeref: 0x1d sha256:ffb6abc5f7eb6ce4040aa66e1ad50331fd45a503ace494bf5cdcd4934311c5fe
+   __TEXT.__swift5_reflstr: 0x1b sha256:6891675144b4b0edfe4b9a700e61406902872bb16b7e1a08f58377e4b0a8a6f8
+   __TEXT.__swift5_fieldmd: 0x28 sha256:040e7043dc87abf7fc9b561635f24739287e2459fd31d48cfddb956e2959c525
+   __TEXT.__oslogstring: 0x1a0 sha256:86f276f96ef24a415081b740aedee8459ede65c53eb5c045cef4ac197aea97df
+   __TEXT.__swift5_proto: 0x8 sha256:1a39c950d131a21a708a52b0ea256f2b5f77bfcb0e4009e00caf712e4f700974
+   __TEXT.__swift5_types: 0x4 sha256:d64bd1e6ea1313cd863f9ed565ad4537cec21686eaf33866464d0203373681d5
+-  __TEXT.__unwind_info: 0xa0 sha256:44d40e1fd188dd0cec3a33734ce1e4d6e9c2bc31e992a9cf295b9911e62ecd2f
+-  __DATA_CONST.__auth_got: 0x1c8 sha256:266249c67f650d5ab8ed3d6127eac62d81a4f92d4b274c4cf7269695b24a177e
+-  __DATA_CONST.__got: 0x48 sha256:067cb5c364d2ea50a964d80ae201ec07d23c0dd5e373d3b35ebd37564af7617a
+-  __DATA_CONST.__auth_ptr: 0x68 sha256:3594378b2bf1e6d04a2786758406337e9add51b2f6d13edc969f5230fccaa58b
+-  __DATA_CONST.__const: 0xd8 sha256:a5645e7a3fa0866cde8842c4dab96567507c3d1a3c028b816bc63f6966367b70
+-  __DATA_CONST.__objc_classlist: 0x8 sha256:f1a91da6a6c0cee03e97fecb7bfc0d879a165c13d97be3c4965791ff41d136c4
+-  __DATA_CONST.__objc_imageinfo: 0x8 sha256:234cedc7009d98da03ca2a7ff525d0db26b82bff0e6046456f4eda918f734526
+-  __DATA.__objc_const: 0xd8 sha256:415bb139ed3f371718cc7abe93a0f05f78a99b41bea85d97007cd3e6cd05a5de
+-  __DATA.__objc_selrefs: 0x48 sha256:66a11930ad3288cfd549729b33a1331c6a890c02123fb66ac411c42cef2c7a60
+-  __DATA.__data: 0xd0 sha256:28a24ceaf4598366e602e37d3698841526d38f8bc7c02973fd4fdb1e06f38bc7
++  __TEXT.__unwind_info: 0xa0 sha256:2e33eee6750e79665c6a72502f680dd18a4d0bca82a9d582eb2ecad8f5ecdfbb
++  __DATA_CONST.__const: 0xc8 sha256:6d9c54dee5660c46886f32d80e57e9dd0ffa57ee0cd2a762b036d9c8e0c3a33a
++  __DATA_CONST.__objc_classlist: 0x8 sha256:508f353da517536665448c60c03bfc66ce05a3dba83cfe21cbf19c7cc0ec55c3
++  __DATA_CONST.__objc_imageinfo: 0x8 sha256:885ce8037a15de89b0ceb0054c31fc3de725513307f685be388961916dadcdb0
++  __DATA_CONST.__auth_got: 0x1d8 sha256:a91c5429a29a9f0efab018390e09e3fe878914b48a02dad1391cbd7b3181f984
++  __DATA_CONST.__got: 0x48 sha256:3720577641c89d83cb5a91e2760c2b42fa2781a0671dce53f6c0161018dbd01c
++  __DATA_CONST.__auth_ptr: 0x68 sha256:278c516e1820782822177db543209502c6861f3d82efb6325e4077f0eb602d7d
++  __DATA.__objc_const: 0xd8 sha256:3e43ec6046878631dcb740d75c1774467363ff385e567dcb6091a6833bd9ed41
++  __DATA.__objc_selrefs: 0x48 sha256:b157a7a5b8e2b2b9bced2990aa1778ec28dffb8327038b13bd11cd16922fa522
++  __DATA.__data: 0xd0 sha256:0ec0165cffe3551a00fa981b2538f2275f6c7d1cd53a1efbaca88d1e0cef9478
+   __DATA.__bss: 0x100 sha256:5341e6b2646979a70e57653007a1f310169421ec9bdd9f1a5648f75ade005af1
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/Frameworks/Intents.framework/Intents
+
+   - /usr/lib/swift/libswiftCoreImage.dylib
+   - /usr/lib/swift/libswiftCoreLocation.dylib
+   - /usr/lib/swift/libswiftCoreMIDI.dylib
+-  - /usr/lib/swift/libswiftCoreMedia.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
+   - /usr/lib/swift/libswiftIntents.dylib
+   - /usr/lib/swift/libswiftMLCompute.dylib
+-  - /usr/lib/swift/libswiftMapKit.dylib
+   - /usr/lib/swift/libswiftMetal.dylib
+   - /usr/lib/swift/libswiftNaturalLanguage.dylib
+   - /usr/lib/swift/libswiftOSLog.dylib
+
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 21B9ADCE-57CE-3AC4-B693-C0AA573D7487
+-  Functions: 29
+-  Symbols:   371
++  UUID: FC91F8F1-E5D8-3B04-AC53-19DCB155125B
++  Functions: 30
++  Symbols:   372
+   CStrings:  17
+ 
+Symbols:
++ /Library/Caches/com.apple.xbs/39796F3B-7E39-46DE-891F-25C7EECB86C6/TemporaryDirectory.2V8lMb/Binaries/SiriPayments/install/TempContent/Objects/SiriPayments.build/PaymentsFlowDelegatePlugin.build/Objects-normal/arm64e/PaymentsFlowDelegatePlugin.o
++ /Library/Caches/com.apple.xbs/39796F3B-7E39-46DE-891F-25C7EECB86C6/TemporaryDirectory.2V8lMb/Binaries/SiriPayments/install/TempContent/Objects/SiriPayments.build/PaymentsFlowDelegatePlugin.build/Objects-normal/arm64e/PaymentsFlowDelegatePlugin.swiftmodule
++ /Library/Caches/com.apple.xbs/39796F3B-7E39-46DE-891F-25C7EECB86C6/TemporaryDirectory.2V8lMb/Sources/SiriPayments/PaymentsFlowDelegatePlugin/
++ _OUTLINED_FUNCTION_6
++ _swift_release_x19
++ _swift_release_x22
+- /Library/Caches/com.apple.xbs/7B6DB2C4-09C2-47BD-A066-1E2706051D3F/TemporaryDirectory.VuICiX/Binaries/SiriPayments/install/TempContent/Objects/SiriPayments.build/PaymentsFlowDelegatePlugin.build/Objects-normal/arm64e/PaymentsFlowDelegatePlugin.o
+- /Library/Caches/com.apple.xbs/7B6DB2C4-09C2-47BD-A066-1E2706051D3F/TemporaryDirectory.VuICiX/Binaries/SiriPayments/install/TempContent/Objects/SiriPayments.build/PaymentsFlowDelegatePlugin.build/Objects-normal/arm64e/PaymentsFlowDelegatePlugin.swiftmodule
+- /Library/Caches/com.apple.xbs/7B6DB2C4-09C2-47BD-A066-1E2706051D3F/TemporaryDirectory.VuICiX/Sources/SiriPayments/PaymentsFlowDelegatePlugin/
+- __swift_FORCE_LOAD_$_swiftCoreMedia
+- __swift_FORCE_LOAD_$_swiftCoreMedia_$_PaymentsFlowDelegatePlugin
+- __swift_FORCE_LOAD_$_swiftMapKit
+- __swift_FORCE_LOAD_$_swiftMapKit_$_PaymentsFlowDelegatePlugin
+Functions:
+~ _$s26PaymentsFlowDelegatePluginAACABycfC : 500 -> 532
+~ _$s26PaymentsFlowDelegatePluginAAC04findB4ForX5parse07SiriKitB00B12SearchResultVAE5ParseO_tF : 956 -> 1100
+~ _$s26PaymentsFlowDelegatePluginAAC32preWarmExtensionWithIntentSignal12isFirstPartyySb_tFZ : 668 -> 700
+~ _$sSo28SAIntentGroupProtobufMessageC26PaymentsFlowDelegatePluginE6intentABSo8INIntentC_tcfC : 260 -> 248
+~ _$s26PaymentsFlowDelegatePluginAACfD : sha256 963cd84d8762717add51eded816e243d5bde0091042e69b4893c815602c3cf9e -> 25852c5d0cba7afc32d6fe09fcc7a55d290dcb162a8f8d6738cfea14d09f3b29
+~ _$s26PaymentsFlowDelegatePluginAACMa : sha256 eaafa4aa0ec4324875d52e502e598e8ca2580f144332365950c70d7ba6b88b5b -> 54bc356056eff6cffb390265b87699a873475ba12cb1174eb016439a66a1e7ca
+~ _$s26PaymentsFlowDelegatePluginAAC07SiriKitB00bD8ExtendedAacDP04findB4ForX5parseAC0B12SearchResultVAC5ParseO_tFTW : sha256 59b242b6e03ba7567698761f77992dca8ee24a2d799e41c6970ee7456ecbadec -> bbdc0267f0118bc2ff7e371d7220ca547feea9a8a8092074be78827c9e28426d
+~ _$s26PaymentsFlowDelegatePluginAAC07SiriKitB00bD0AacDPxycfCTW : sha256 37c87f6f789aa7f81f7151683f3f6cad3ef4ce11f7d79c7997203220ac8d10ff -> 6dba5b57ab54d2d35929ad39750511b245f780442a119aaae119abadf7fbf664
+~ _$s26PaymentsFlowDelegatePluginAAC07SiriKitB00bD0AacDP6warmupyyFTW : sha256 9caa551ef7d2043785b87c6155586e4548dd28ea01a66b10467ce0262150a805 -> 73c241ee928f3b7f1aa3879e83260d771182be54219b5ff606c3e25a1e873d22
+~ _$s26PaymentsFlowDelegatePluginAAC07SiriKitB00bD0AacDP6warmup5refIdySS_tFTW : sha256 e8f6916c8b9a88907e804fb09391b49dc019dc15e3cb92d83d48a33fde5dd88f -> cb2b9c070b9d458c489ee13224f502c824a7f813b5b4cd75f45f66b8ba441ea2
+~ _$s26PaymentsFlowDelegatePluginAAC07SiriKitB00bD0AacDP04makeB5Frame5parseAC03AnyefbH0CSgAC5ParseO_tFTW : sha256 2ac87a62548f925c5c845255fd0374ec63f6b228cc68e5e2e0efc61b473fd88a -> 0c560e51dd2fe49a8036a13f499c0c5d4cc7d9adf2741e40709856b031da364f
+~ _$s26PaymentsFlowDelegatePluginAAC07SiriKitB00bD0AacDP04makeB3For5parseAC03AnyB0CAC5ParseO_tFTW : sha256 61ad722e9bb2ee17a679c8c2d81125cd9dad486333cc6ffc4eff58205aced6f0 -> 4809488282f564abe97e8081aaaa1f8e1c62a2578d5469bfc8b1afa8b3b07e47
+~ _$s26PaymentsFlowDelegatePluginAAC07SiriKitB00bD0AacDP04findB3For5parseAC0B12SearchResultVAC5ParseO_tFTW : sha256 f4bb83affed23d0d9806aa4df30ec72ab04209491cd3d388656ebf78bcf64e40 -> 511f88c58f452bd52409912ef99d0f069bed2a7a8e8486284648c0fecabfd226
+~ _$s26PaymentsFlowDelegatePluginAAC07SiriKitB00bD8ExtendedAaC0bD0PWb : sha256 09678bf257e7858852bba5c75bbb22d992b50d0a177f4ed1e86336400d4086fc -> 9f9d24c5bc8a310f9814f09f868b849ef736e8b60fec9b894c5b2475446017c5
+~ _$s19SiriPaymentsIntents8SignpostO04OpenD0VWOh : sha256 03ad624f48c684370eecade8c1147309451e7e088f2e98c5ae99f8cc6340ad02 -> b1f170e86786f60c23f2cb1cff41b658185cb76f29ac7c2481ba5a113583f580
+~ _$s26PaymentsFlowDelegatePluginAACAB07SiriKitB00bD0AAWlTm : sha256 a1f94fe565aee15e0c36f47957480fd3aa8e044a3ba3e2dd704cf6832e9fc906 -> 2df5d8d3497e6695b6a6be869777f0d87c1fc11f8f4230a6a2d2a3aa0ae01c7d
+~ _$sSo28SAIntentGroupProtobufMessageCMa : sha256 3d2ed872a7638080baa34d0a86db66bc699489f3aaed7f4bf03e2922b9fc2106 -> 4e75fafe945753bb5f951282bd5352986af4b9d35843edcc9901afc822e25d07
+~ ___swift_destroy_boxed_opaque_existential_1 : sha256 57417df7bf894ad1ac84fec3172878a2b9e29c836a8083a3718a248633130868 -> bd1206a768002a44d4d11fc653482e162aec7b6422dbdc7470f7757080532c32
+~ _$s10Foundation4DataV15_RepresentationOWOe : sha256 2694ead4a53b01b908c2191e5db0725deca95b702110a34101ea447ad144c0ea -> bac9de7e99ed12210308cabe17e7f49e256abfaa202e90c7a932284d7dfa04c4
+~ ___swift_allocate_boxed_opaque_existential_1 : sha256 8ce34fed9ee6d20985e238222d352309ccbe4ddac835e33d0f9cce51c8deb07a -> 440c7c01d726dd2a879df2da5de787d7f1eb939209289d7d68a7921255656fd6
+~ _OUTLINED_FUNCTION_3 : sha256 e30178a81d1bf48905862f1c5042c69c785250326497f1704a345f15abee4b84 -> a55ab7962d32ba9f8ae34d9ce823f280bc3568c351ae5aa46c31491f6ef75fcb
+~ _OUTLINED_FUNCTION_4 : sha256 4ed7e6f31c06469311a0aa4ef63237f21992f9c49a1808134eefc9bf0f36e591 -> 8d6eabd7d5588a1222b7e5060a6495596bfb80687ed06a139bc7d09a0488041a
+~ _OUTLINED_FUNCTION_5 : sha256 9c7277c90ea8cbefc7e2851c2177e5a9730930af1ce3d6ea9cbf57395957e6d5 -> f03f8d5139158ccf9e1080ccfe3430c36e97484adc24585e23aeeda33fb67c01
+
+```

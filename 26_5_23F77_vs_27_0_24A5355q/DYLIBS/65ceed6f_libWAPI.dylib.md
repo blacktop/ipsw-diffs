@@ -1,0 +1,45 @@
+## libWAPI.dylib
+
+> `/usr/lib/libWAPI.dylib`
+
+```diff
+
+-430.1.0.0.0
+-  __TEXT.__text: 0x990 sha256:0540c2cd87f6318abe6d279af46a4ecf0283003cb5dfa77471e482b4350dce45
+-  __TEXT.__auth_stubs: 0x1f0 sha256:a3a3854107f86c8314c8eaecea4f327c0631e6c75c36be67a9790b805996cf3f
++440.1.0.0.0
++  __TEXT.__text: 0x990 sha256:82f4ed43ec274228ed8bbcc8808f3dcaf9c01f09afe4cc85450e1e60ba2035b2
+   __TEXT.__cstring: 0x143 sha256:152cd243d295153809f6a3b57f9c5cf7d6096a3f118f96a9e5c1f7682b568223
+   __TEXT.__const: 0x28 sha256:664b85efcaf4a63d64473ca2e45dd7adaffcf1162fa1c15d66029f528d418a71
+-  __TEXT.__unwind_info: 0x70 sha256:933ff2cb4b59f645c0507503df68325ce2c3f9ce9fbcc3404390d4eaca68cc40
+-  __DATA_CONST.__got: 0x30 sha256:17b0761f87b081d5cf10757ccc89f12be355c70e2e29df288b65b30710dcbcd1
++  __TEXT.__unwind_info: 0x70 sha256:5b84a5c05a3ab76a54c551d11ae075a66a1cdb8091b2943dcd604ad4adbf508c
++  __TEXT.__auth_stubs: 0x0
++  __DATA_CONST.__got: 0x0
++  __AUTH_CONST.__cfstring: 0xc0 sha256:e3c2e0c9e55a8e4d9df94a50688285e477d79efa8b0e32256f065c982ea4600b
+   __AUTH_CONST.__auth_got: 0xf8 sha256:b3ab6982980fddf460a2f47adb428475ce9afa89092fd034499d017a35993f05
+-  __AUTH_CONST.__cfstring: 0xc0 sha256:a293c7f5c07d186997d43b55489b19733550588dfe2eb105f15e59ea4518afab
+   __DATA.__bss: 0x4 sha256:df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/IOKit.framework/Versions/A/IOKit
+   - /System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration
+   - /usr/lib/libSystem.B.dylib
+-  UUID: 2309557C-E50C-326F-8CA5-E2682DF3D5E7
++  UUID: 9EA3C770-9420-3223-823C-323CADA1B504
+   Functions: 11
+   Symbols:   53
+   CStrings:  22
+Functions:
+~ _isChinaRegion : sha256 b828064485c3635be3beb67b5a49d6754ac531bab5723b178360f7ec33078e40 -> db8d89b5c674ba2142d08dccf7370ab4feb723db3f397cd66d2ce5cd58610279
+~ _WAPIEnabled : sha256 ec02c8dbd884c3bb46491f21d82c3e7cdce6f3fe5c6f1a4541c0aa558523c999 -> 7c6de88d4f8e05574d223384d5d394ce3d5adb7e4f0760f05ca1a0cda3515a04
+~ _OUTLINED_FUNCTION_0 : sha256 8f67e274ca88ebb00c985f3fdc58d36ff9b0c1004ac068f88438f56a8a25ac7f -> 9c865bb641a3d961f24f2f992f515dfc665f1fbb54090f296645f369953f66c8
+~ _OUTLINED_FUNCTION_1 : sha256 724c82142203693e0f38cb085c1c8f21dd752e8021766e1641fce79c0ec93134 -> 9957301a3e20566861fcff4e7abe2d6363cd9f02482c3000e8c1b9aa9fcba642
+~ _OUTLINED_FUNCTION_2 : sha256 4173c2a7db735664f420b9b1d84b62f5bb30c8c2a3fe11c60d502946a0ea3ab2 -> 9484fe87e542e600ffd36e72509f7a538e633bdef145822109eaf79704b008b1
+~ __WCwapic_start : sha256 2d468ed102581f627879be75fc36c3291aed2f6334a0ef062f2f7c4007ba74e4 -> 3fcce7c43a108260b30cbaf37a17a70e9b35a8a06359ba408e1e5a03e137edbc
+~ __WCwapic_stop : sha256 44c9b1a3b1e67b9bb6de04c8be5df8c4e4b8cc0d97091ffad12e5ec4b52e8515 -> a681835df0887a77d83e50a225c6c45cfc3903789f9a9c1382d43256c715050a
+~ __WCwapic_status : sha256 2eb0bd2d00c3c4493d27c2cb356853f57f0ba805de00804c8800fe22a9d6c991 -> 71fa6c615c2392e9ae2e2f53f837b57592756aa1c4c24e7350be7ced782ceb07
+~ _WAPIStart : sha256 381cc8dca22e374cede9936e785ab081a03fa38e9d81d7f63438be38734be448 -> a9591c63af36aef69d6c621b1c04d09bdc5df5c8f810e6030f1ae24a52daca71
+~ _WAPIStatus : sha256 bb2c0da2694c675ad296397ac4f658b6150f3476f2a82792d250ced24568bddb -> 41b561d22e470f730cf1feb649647c33935b05be47b0b64e81f7099b92589d4e
+~ _WAPIStop : sha256 fb4e25ad73215658c7a82ad5c80b2551cf359ba39563cb172bd0c6c9564957d4 -> 7282156299cb3c69b5c0ef92066b51bc08bf89dca8e2824c86d2d19c6c7c9a12
+
+```
